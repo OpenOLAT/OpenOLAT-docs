@@ -2,7 +2,7 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    Diese Anleitung soll Kursbesitzer:inen zeigen, wie sie die Möglichkeit zur anonymen Korrektur in Test-Kursbausteinen einrichten können. Sowie Betreuer:innen/Korrektor:innen, wie sie eine anonyme Korrektur in OpenOlat durchführen.
+    This guide is intended to show course owners how to set up anonymous grading in test modules. It also explains to instructors and graders how to conduct anonymous grading in OpenOlat.
 
 
 ??? abstract "Target group"
@@ -14,18 +14,18 @@
 
 ??? abstract "Expected previous knowledge"
 
-    * [Wie gehe ich vor, wenn ich einen Test erstelle?  >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
-    * Sie kennen das Bewertungswerkzeug in OpenOlat.
-    * Sie haben als Betreuer:in schon Tests in OpenOlat korrigiert.
+    * [How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+    * You are familiar with the assessment tool in OpenOlat.
+    * As a tutor, you have already graded tests in OpenOlat.
 
 
 ---
 
-## Warum anonyme Korrektur? {: #case_study}
+## Why anonymous grading? {: #case_study}
 
-Als Autor:in/Kursbesitzer:in haben Sie einen Kursbaustein "Test" in Ihren Kurs eingefügt. Sie möchten, dass Korrektor:innen während der Korrektur die Namen der Prüflinge nicht sehen, um eine möglichst unvoreingenommene Beurteilung zu erhalten.
+As an author or course owner, you have added a "Test" course module to your course. You want graders to be unable to see the students' names while grading, in order to ensure the most unbiased assessment possible.
 
-Nachstehend finden Sie das Vorgehen beschrieben.
+The procedure is described below.
 
 
 [To the top of the page ^](#assessing_tests_anonymously)
@@ -33,55 +33,54 @@ Nachstehend finden Sie das Vorgehen beschrieben.
 ---
 
 
-## Anonyme Korrektur in OpenOlat einrichten {: #configuration}
+## Setting up anonymous grading in OpenOlat {: #configuration}
 
-Die anonyme Identität der Prüflinge ist eine Einstellung in der Test-Lernressource.<br> 
-Sie muss durch Kursbesitzer:innen bei der Erstellung des Kurses konfiguriert werden.
+The option to keep test takers anonymous is a setting in the test learning resource.<br> 
+It must be configured by the course owner when the course is created.
 
-### Schritt 1
+### Step 1
 
-Wählen Sie die betroffene Test-Lernressource aus. Es gibt dazu 2 Wege:
+Select the relevant test learning resource. There are two ways to do this:
 
-- Sie können die Test-Lernressource direkt im Autorenbereich auswählen.<br>
-- Oder Sie wählen im Kurseditor den Testkursbaustein und öffnen im Tab "Test-Konfiguration" die Test-Lernressource mit Klick auf "Lernressource bearbeiten".
+- You can select the test learning resource directly in the authoring area.<br>
+- Or, in the course editor, select the test course block and open the test learning resource in the "Test Configuration" tab by clicking "Edit learning resource."
 
-### Schritt 2 
+### Step 2
 
-Öffnen Sie den **Korrektur-Workflow** unter **Administration**.
+Open the **Proofreading Workflow** under **Administration**.
 
 ![assessing_tests_anonymously_workflow_v1_de.png](assets/assessing_tests_anonymously_workflow_v1_de.png){ class="shadow lightbox" }
 
 
-### Schritt 3
+### Step 3
 
-Im Tab **Konfiguration** können Sie den Korrektur-Workflow aktivieren.
+On the **Configuration** tab, you can enable the correction workflow.
 
 ![assessing_tests_anonymously_workflow_tab_config1_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_config1_v1_de.png){ class="shadow lightbox" }
 
 
-### Schritt 4
+### Step 4
 
-Sobald der Korrektur-Workflow eingeschaltet ist, erscheinen die Optionen zur Konfiguration. Dort können Sie auch einstellen, ob die Identität der Prüflinge anonym bleiben oder angezeigt werden soll.
+Once the correction workflow is enabled, the configuration options will appear. There, you can also choose whether to keep the identities of the test subjects anonymous or to display them.
 
 ![assessing_tests_anonymously_workflow_tab_config2_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_config2_v1_de.png){ class="shadow lightbox" }
 
 
-### Schritt 5
+### Step 5
 
-Vergessen Sie nicht die Konfiguration zu speichern.
+Don't forget to save the configuration.
 
+### Step 6
 
-### Schritt 6
-
-Im Tab "Korrektor:innen" werden die Personen hinzugefügt, die diese Test-Lernressource bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer:innen, die sonst keine Betreuer:innen-Rolle haben, können als Korrektor:innen hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden. Es können z.B. Korrektor:innen kontaktiert, deaktiviert oder entfernt werden, sowie die jeweiligen Korrekturaufträge angezeigt werden.
+In the "Corrector" tab, you can add the people who will grade this test learning resource. It doesn't matter what role the person has in OpenOlat. Even users who do not otherwise have a moderator role can be added as correctors. You can access additional settings via the gear icon. For example, you can contact, deactivate, or remove proofreaders, as well as view their respective proofreading assignments.
 
 ![assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png){ class="shadow lightbox" }
 
 ![assessing_tests_anonymously_workflow_tab_correctors2_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_correctors2_v1_de.png){ class="shadow lightbox" }
 
-### Schritt 7
+### Step 7
 
-Im Tab "Korrekturaufträge" kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektor:innen angezeigt und nach verschiedenen Kriterien gefiltert werden.
+In the "Proofreading Assignments" tab, you can view the processing status of proofreading assignments assigned to different proofreaders and filter them by various criteria.
 
 ![assessing_tests_anonymously_workflow_tab_assignments_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_assignments_v1_de.png){ class="shadow lightbox" }
 
@@ -90,42 +89,42 @@ Im Tab "Korrekturaufträge" kann der Bearbeitungsstand der Korrekturaufträge de
 ---
 
 
-## Anonyme Korrektur durchführen {: #correction}
+## Perform anonymous proofreading {: #correction}
 
-Wenn **Kursbesitzer:innen** einen Korrektur-Workflow einrichten, arbeiten sie an der Test-**Lernressource**.<br>
-**Betreuer:innen** arbeiten dagegen im Kurs im **Test-Kursbaustein**, in dem die so konfigurierte Test-Lernressource eingebunden ist.
+When **course owners** set up a grading workflow, they work on the test **learning resource**.<br>
+**Coaches**, on the other hand, work within the **test course module**, which incorporates the test learning resource configured in this way.
 
-Das Korrekturwerkzeug kann aufgerufen werden durch:<br>
-**Kurs wählen > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+You can access the correction tool by going to: <br>
+**Select course > Select course element > Tab "Participant" > Button "Correction tool"**
 
 ![assessing_tests_anonymously_correction_tool1_v1_de.png](assets/assessing_tests_anonymously_correction_tool1_v1_de.png){ class="shadow lightbox" }
 
-Alternativ gelangen Sie auch über das Bewertungswerkzeug zum Korrekturwerkzeug:<br>
-**Kurs wählen > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+Alternatively, you can also access the correction tool via the grading tool:<br>
+**Select course > Administration > Assessment tool > Select course element > Tab "Participant" > Button "Correction tool"**
 
 ![assessing_tests_anonymously_correction_tool2_v1_de.png](assets/assessing_tests_anonymously_correction_tool2_v1_de.png){ class="shadow lightbox" }
 
 
-Im Korrekturwerkzeug kann auf 2 Arten korrigiert werden:
+The correction tool offers two ways to make corrections:
 
-1. Eine bestimmte **Frage auswählen** und diese Frage bei allen Teilnehmenden korrigieren.
-2. Einen **Teilnehmenden auswählen** und dann nacheinander alle Fragen dieses Teilnehmenden korrigieren, bevor Sie zum nächsten Teilnehmenden wechseln.
+1. **Select a specific question** and grade that question for all participants.
+2. **Select a participant** and then grade all of that participant’s questions one by one before moving on to the next participant.
 
 ![assessing_tests_anonymously_correction_tool_process1_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
 
 ![assessing_tests_anonymously_correction_tool_process2_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
 
-Wurde die oben beschriebene Option "Anonym" ausgewählt, werden den Korrektor:innen im Korrekturwerkzeug und Korrektur-Workflow keine Namen, sondern nur eine anonyme 7-stellige anonyme Kennung im Format ABC-DEF angezeigt. (Seit OpenOlat 19.1.26 / 20.1.12, in vorhergehenden Versionen wurde statt der Kennung eine Zahl angezeigt.)
+If the "Anonymous" option described above is selected, proofreaders will not see names in the proofreading tool and proofreading workflow; instead, they will see only an anonymous 7-digit identifier in the format ABC-DEF. (Since OpenOlat 19.1.26 / 20.1.12; in previous versions, a number was displayed instead of the identifier.)
 
-Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:innen können so einzelne Teilnehmende über verschiedene Fragen hinweg zwar konsistent identifizieren, ihre echte Identität bleibt aber verborgen.
+This identifier remains constant and is displayed in several places. This allows graders to consistently identify individual participants across different questions, while their true identities remain hidden.
 
-**Beispiel:**
+**Example:**
 ![assessing_tests_anonymously_correction_tool_process3_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process3_v1_de.png){ class="shadow lightbox" }
 
 
-!!! hint "Hinweis"
+!!! hint "Note"
 
-    Informationen zur **kursübergreifenden** Korrektur finden Sie im [Coaching Tool >](../../manual_user/area_modules/Coaching.md)
+    For information on **cross-course** grading, see also [Coaching Tool >](../../manual_user/area_modules/Coaching.md)
 
 
 [To the top of the page ^](#assessing_tests_anonymously)
@@ -135,14 +134,14 @@ Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:
 
 ## Check list {: #checklist}
 
-- [x] Wurde der Korrektur-Workflow in der Test-Lernressource aktiviert?
-- [x] Wurde entschieden, ob die Teilnehmer:innen den Korrektor:innen namentlich bekannt sein sollen oder nicht?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)   
-- [x] Wurde ein Korrekturzeitraum festgelegt?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)
-- [x] Wurden die verschiedenen Benachrichtigungen an die Korrektor:innen konfiguriert?
-- [x] Wurden alle Korrektor:innen bestimmt und hinzugefügt?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Korrektor:innen)
+- [x] Has the grading workflow been enabled in the test learning resource?
+- [x] Has a decision been made as to whether the graders should know the participants' names?<br>
+    (Test learning resource: Correction Workflow > Tab Configuration)   
+- [x] Has a correction period been set?<br>
+    (Test Learning Resource: Grading Workflow > Configuration Tab)
+- [x] Have the various notifications to the proofreaders been configured?
+- [x] Have all proofreaders been selected and added?<br>
+    (Test learning resource: Correction Workflow > Correctors Tab)
 
 [To the top of the page ^](#assessing_tests_anonymously)
 

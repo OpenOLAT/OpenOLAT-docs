@@ -61,17 +61,17 @@ Here the preset test time can be extended.
 This button can be used to change the rating scale or switch to another rating system.
 
 ## Manual correction of test questions
-For the manual evaluation of the questions of a test, the following procedures are generally possible:
+For the manual assessment of the questions of a test, the following procedures are generally possible:
 
-a) Evaluation of all users based on a single test item
+a) Assessment of all users based on a single test item
 
-b) Evaluation of all manual questions of the test starting from one user
+b) Assessment of all manual questions of the test starting from one user
 
-c) Evaluation of a single person
+c) Assessment of a single person
 
 !!! note "Note"
 
-    For the evaluation of a) and b) use the "Correction tool" button.
+    For the assessment of a) and b) use the "Correction tool" button.
 
 ![To correct questions](assets/Test_korrigieren_Fragen.jpg){ class="shadow lightbox" }
 

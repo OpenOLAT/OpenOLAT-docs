@@ -1,16 +1,16 @@
-# Test settings - administration
+# Test settings - Administration {: #test_settings}
 
 In the "Administration" area of a test, you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Edit content" menus are particularly important. 
 
 ![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
 
-The basic configuration of the entire test is largely carried out in the **"Settings "**, particularly in the "Options" tab (see below).
+The basic configuration of the entire test is largely carried out in the **"Settings"**, particularly in the "Options" tab (see below).
 
 The **"Member administration"** menu is particularly relevant if the test is to be used independently of the course, otherwise the member administration of the test participants is carried out via the linked course.
 
 Under **["Edit content"](Test_editor_QTI_2.1.md)** you can access the test editor. The actual test is created here.
 
-The **"Assessment tool"** of the test only appears if the test is to be used independently of the course (Settings -> Release tab -> Purpose "Independent").
+The **"Assessment tool"** of the test only appears if the test is to be used independently of the course (Settings -> Share tab -> Purpose "Independent").
 
 Correctors can be added for the test in the **"Correction workflow"** menu (see below). 
 
@@ -30,19 +30,23 @@ On this page you will find more detailed explanations of the following administr
 * Generate handwritten tests
 * Save as word document
 
-## "Settings" of a test
+[To the top of the page ^](#test_settings)
+
+---
+
+## "Settings" of a test {: #settings}
 
 The "Options" tab is particularly important for tests. This is where you configure the entire test. 
 
 ![Test Menü Einstellungen](assets/Test_menu_settings_DE.png){ class="shadow" }
 
-In addition, further settings for the learning resource can be made in the other tabs "Info", "Metadata", "Release" and "Catalog". Make sure that the license information under "Metadata" corresponds to your requirements.
+In addition, further settings for the learning resource can be made in the other tabs "Info", "Metadata", "Share" and "Catalog". Make sure that the license information under "Metadata" corresponds to your requirements.
 
 ### Tab Options
 
 The following configurations can be made:
 
-**Standard Settings**
+**Standard settings**
 
 Here you can choose a preconfigured selection of typical settings for different test usage situations.
 
@@ -129,16 +133,21 @@ If this checkbox is selected, the result is displayed after the test has been co
 
     Whether the results are displayed on the test start page in the course is also configured directly in the course.
 
+
+## Correction workflow {: #correction-workflow}
+
+To add additional graders to a test—including those from other courses—you must enable grading in the "Grading" menu within the test's administration settings. You can then add graders, assign grading tasks, and configure additional settings.
+
+
 ### Tab "Configuration"
 
-Here the external grading is generally switched on. You can then define whether the test items are evaluated anonymously or with a visible name. The correction period specifies the maximum time available to the grader.
+Here the external grading is generally switched on. You can then define whether the test items are assessed anonymously or with a visible name. The correction period specifies the maximum time available to the grader.
 
 The respective graders are automatically notified when new edits of the test are available. The notification can be sent either immediately after the test is completed or once a day. For this purpose, a suitable mail text can be stored or a template ("Choose language template") can be used. After the first mail notification, two reminder mails can be sent at user-defined intervals (days).
 
 ### Tab "Graders"
 
-Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as graders. Further configurations can be made via the gear wheel, e.g. a grader can be contacted,
-deactivated or removed and the respective grading assignments can be displayed.
+Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as graders. Further configurations can be made via the gear wheel, e.g. a grader can be contacted, deactivated or removed and the respective grading assignments can be displayed.
 
 ### Tab "Grading assignments"
 
@@ -146,7 +155,11 @@ Here the processing status of the grading assignments of the different graders c
 
 For more information on cross-course correction, see the [Coaching Tool](../area_modules/Coaching.md).
 
-### Generate handwritten exams
+[To the top of the page ^](#test_settings)
+
+---
+
+## Generate handwritten exams {: #create_paper_pencil}
 
 If you want to run a test offline, you can use this wizard to generate a cover sheet and different versions of your test resource with randomly selected answers.
 
@@ -166,8 +179,21 @@ If you want to run a test offline, you can use this wizard to generate a cover s
 
     ![Offline Test Summary](assets/Test_offline_Zusammenfassung_DE.png){ class="shadow" }
 
-## Export as Word document
+## Export as Word document {: #export_word}
 
 The test is then downloaded in zip format with two Word files, one of which contains only the questions and the other also contains the solutions. The exported file contains all the important information about the test, including the score, so that you can use the document directly.
 
+[To the top of the page ^](#test_settings)
 
+---
+
+
+## Further information {: #further_information}
+
+[How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
+[How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Coaching Tool >](../../manual_user/area_modules/Coaching.md)<br>
+
+[To the top of the page ^](#test_settings)
