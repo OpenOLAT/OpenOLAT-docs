@@ -26,6 +26,8 @@ Mehrere einzeln wählbare **Termine** werden zusammengestellt zu einem **Anlass*
 
 Autor:innen können unter anderem festgelegen, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
 
+[Zum Seitenanfang ^](#appointment_scheduling)
+
 ---
 
 ## Einrichtung im Kurseditor {: #editor}
@@ -55,7 +57,10 @@ Wer diese Berechtigung erhält, kann einen Termin bearbeiten. Das Recht kann per
 
     Soll für die Teilnehmer:innen die Terminwahl nur innerhalb eines bestimmten Zeitfensters möglich sein, müssen die Zeitangaben im Kurseditor im Tab "Lernpfad" entsprechend angegeben werden bzw. bei herkömmlichen Kursen die Sichtbarkeit oder der Zugang passend konfiguriert werden.
 
+[Zum Seitenanfang ^](#appointment_scheduling)
+
 ---
+
 
 ## Einrichtung im Kursrun (geschlossener Kurseditor) {: #course_run}
 
@@ -64,13 +69,18 @@ Zunächst wird ein **Anlass** erstellt. Dies ist eine Zusammenstellung mehrerer 
 
 Über den Button "Anlass erstellen" wird zunächst eine neue Terminbuchung oder Terminfindung angelegt, die Basiskonfiguration vorgenommen und die ersten Termine eingetragen. Mit "Termin hinzufügen" können später weitere Termine ergänzt werden. Bereits angelegte Termine lassen sich über das Drei-Punkte-Menü jederzeit wieder bearbeiten.
 
-### Anlass konfigurieren {: #cofig_occassion}
+[Zum Seitenanfang ^](#appointment_scheduling)
 
-Klicken Sie als erstes auf **"Anlass erstellen".** Ein "Anlass" ist eine Zusammenstellung von mehreren Terminen die ausgewählt werden können. 
+---
+
+
+### Anlass konfigurieren {: #config_occassion}
+
+Klicken Sie als erstes auf **"Anlass erstellen".** 
 
 Es erscheint das Konfigurationsmenü und Sie können folgende Aspekte festlegen: 
 
-![Anlass erstellen, Konfiguration](assets/Terminplanung_Anlass_erstellen_20.jpg)
+![Anlass erstellen, Konfiguration](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
 
 
 **Titel**<br>
@@ -107,7 +117,7 @@ Hier werden die konkreten Wahltermine eingetragen. Je nach gewählter Terminart 
 Durch Klick auf das "+ Zeichen" werden neue Termine hinzugefügt. Durch Klick auf das "-Zeichen" werden Termine wieder gelöscht. Wird "Dauer" gewählt, werden beim Hinzufügen von weiteren Terminen die Termine am gleichen Tag vorkonfiguriert und die Uhrzeiten entsprechend der Dauer angepasst.
 
 * Termine mit Terminart "Start/Ende"<br>
-Es können mehrere Termine mit frei geweähltem Datum und unterschiedlichen Start- und Endzeitpunkten erstellt werden.
+Es können mehrere Termine mit frei gewähltem Datum und unterschiedlichen Start- und Endzeitpunkten erstellt werden.
 Wird Start/Ende gewählt bleiben die gewählten Uhrzeiten erhalten und man braucht bei neuen Einträgen nur das Datum anzupassen.
 
 * Termine mit Terminart "Wiederkehrend"<br>
@@ -124,18 +134,36 @@ Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist.
   
 Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für einen Anlass ist ebenfalls möglich.
 
-![Anlass Zahnrad Menue](assets/Anlasse_bearbeiten_20.jpg)
+![Anlass Zahnrad Menue](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#appointment_scheduling)
+
+---
+
+### Termine anlegen {: #create_appointment}
+
+Schhon bei der Erstellung eines Anlasses können der oder die zugehörigen Termine gleich mit angelegt werden. (Siehe [oben ^](#config_occassion))
+
+Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbausteins aber auch der Button "Termine hinzufügen" angezeigt. Wählen Sie auch dort eine der 3 Terminarten.
+
+![course_element_appointment_scheduling_create_appointment_v1_de.png](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#appointment_scheduling)
+
+---
 
 
-### Termine organisieren {: #config_event}
+### Termine organisieren {: #config_appointment}
 
-![Termine anzeigen](assets/Terminplanung_Termine_anzeigen_20.jpg)
+![Termine anzeigen](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
 
 Die konkreten für einen "Anlass" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen auch einzeln editiert werden. 
 
 Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung anpassen, Termine ändern oder bei der Terminplanung Termine bestätigen.
 
-![Termine organisieren Punktemenue](assets/Termine_bearbeiten_20.jpg)
+![Termine organisieren Punktemenue](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#appointment_scheduling)
 
 ---
 
@@ -143,13 +171,15 @@ Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung 
 
 Mit Klick auf den Kursbaustein werden den Teilnehmenden die vorbereiteten Terminfindungen bzw. möglichen Terminbuchungen angezeigt. Umfasst der Kursbaustein mehrere Anlässe, erscheint zunächst eine Übersichtsseite. 
 
-![Terminplanung Teilnehmerperspektiv](assets/Terminplanung_TN.png)
+![Terminplanung Teilnehmerperspektiv](assets/Terminplanung_TN.png){ class="shadow lightbox" }
 
 Anschliessend können die Termine ausgewählt werden. Gibt es nur einen Anlass wird die konkrete Auswahl direkt angezeigt. 
 
 Über den Button "Eintragen" kann ein Termin gewählt werden. Je nach Konfiguration kann auch noch ein Kommentar hinzugefügt oder mehrere Termine ausgewählt werden. Auch ein Austragen ist möglich.  
 
-![Terminplanung Teilnehmer Auswahl](assets/Terminplanung_TN_wahl_20.png)
+![Terminplanung Teilnehmer Auswahl](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
 
 Über die Filteroption "Ausgebucht" können sich Teilnehmende auch anzeigen lassen, wer den Termin ausgewählt hat (sofern aktiviert) und untereinander Kontakt aufnehmen um Termine zu tauschen. 
+
+[Zum Seitenanfang ^](#appointment_scheduling)
 
