@@ -39,7 +39,7 @@ The "Organizational structure" tab shows the organizations that have already bee
 
 ### Creating and editing organizational structures {: #create_and_edit}
 
-![organisations_tab_structure_v1_de.png](assets/organisations_tab_structure_v1_de.png){ class="shadow lightbox" }
+![organisations_tab_structure_v2_de.png](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
 
 New organizations can be created using the "Create new organization" button, or for existing organizations using the cogwheel and "Create sub-organization". In addition to the designation and the name, a description for the element can be entered. Furthermore, the assignment of the organization type is done here.
 

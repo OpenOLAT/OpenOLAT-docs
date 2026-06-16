@@ -37,7 +37,7 @@ Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen
 
 ### Neue Organisationen erstellen und bearbeiten {: #create_and_edit}
 
-![organisations_tab_structure_v1_de.png](assets/organisations_tab_structure_v1_de.png){ class="shadow lightbox" }
+![organisations_tab_structure_v2_de.png](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
 
 Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden.  Es ist auch möglich, das Element im Organisationsbaum zu verschieben bzw. direkt eine neue Unterorganisation zu erstellen.
 
