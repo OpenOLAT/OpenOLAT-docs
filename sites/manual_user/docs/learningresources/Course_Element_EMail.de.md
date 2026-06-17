@@ -47,7 +47,7 @@ Folgende Variablen können im Betreff und im Text der E-Mail verwendet werden:
 | `$coursename` | Der Name des Kurses wie auf der Infoseite  |
 | `$coursedescription` | Die Beschreibung des Kurses wie auf der Infoseite  |
   
-!!! info ""
+!!! note "Hinweis"
 
     Die Benutzervariablen beziehen sich auf denjenigen, der die E-Mail über den **"Senden"-Button** auslöst und verschickt.
 

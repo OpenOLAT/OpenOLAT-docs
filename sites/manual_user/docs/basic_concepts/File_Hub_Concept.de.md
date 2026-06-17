@@ -39,7 +39,7 @@ Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlic
 ### Der File Hub in anderen Zusammenhängen {: #in_other_contexts}
 
 Der File Hub wird an an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.<br>
-Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter **Administration > Dateien**. (Ab Release 19)
+Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter `Administration > Dateien`. (Ab Release 19)
 
 
 
@@ -73,8 +73,8 @@ In [Kursarchiven](../learningresources/Course_Archiving.de.md) werden Teilnehmer
 ### Kurse {: #courses}
 
 Die in einem Kurs verwendeten Dateien befinden sich in einem zum Kurs gehörenden Ordner, dem [Ablageordner](../learningresources/Storage_folder.de.md).<br>
-Bis Release 18 haben Sie darauf Zugriff unter **Kursadministration > Ablageordner**.<br>
-Ab Release 19 ist der Zugriff umbenannt und unter **Kursadministration > Dateien** zu finden.
+Bis Release 18 haben Sie darauf Zugriff unter `Kursadministration > Ablageordner`.<br>
+Ab Release 19 ist der Zugriff umbenannt und unter `Kursadministration > Dateien` zu finden.
 
 Der [Ablageordner](../learningresources/Storage_folder.de.md) ist kursspezifisch. Um ausserdem auch mehrfach in verschiedenen Kursen genutzte Dateien verwenden zu können, kann ergänzend ein **Ressourcenordner** im Kurs eingebunden werden. 
 
@@ -109,12 +109,13 @@ Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses ab
 
 ## Weitere Informationen {: #further_information}
 
-[File Hub im persönlichen Menü](../personal_menu/File_Hub.de.md)<br>
-[Media Center](../personal_menu/Media_Center.de.md)<br>
-[Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Ablageordner](../learningresources/Storage_folder.de.md)<br>
-[Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>
-[Persönlicher Ordner](../personal_menu/Personal_folders.de.md)<br>
-[Kursarchiv](../learningresources/Course_Archiving.de.md)<br>
+!!! info "Weitere Informationen"
+    [File Hub im persönlichen Menü](../personal_menu/File_Hub.de.md)<br>
+    [Media Center](../personal_menu/Media_Center.de.md)<br>
+    [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
+    [Ablageordner](../learningresources/Storage_folder.de.md)<br>
+    [Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>
+    [Persönlicher Ordner](../personal_menu/Personal_folders.de.md)<br>
+    [Kursarchiv](../learningresources/Course_Archiving.de.md)<br>
 
 

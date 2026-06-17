@@ -74,10 +74,10 @@ Die **Beschreibung** wird in der Checkliste zusammen mit dem Titel, der Anzahl P
 
 Falls benötigt, können Sie für die Kursteilnehmer noch eine **Datei** zum Download hinzufügen.
 
-In der Tabelle werden Ihnen anschließend die erstellten Checkboxen im Überblick angezeigt. Hier kann auch die Reihenfolge verändert werden.
+In der Tabelle werden Ihnen anschliessend die erstellten Checkboxen im Überblick angezeigt. Hier kann auch die Reihenfolge verändert werden.
 
 ## Tab Badges
-Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_checklist)
 

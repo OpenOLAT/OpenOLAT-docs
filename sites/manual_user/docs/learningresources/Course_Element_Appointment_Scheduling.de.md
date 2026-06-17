@@ -127,7 +127,7 @@ Für wiederkehrende Termine wird eine Angabe des ersten und letzten Termins der 
 Sollen die Wahltermine mit einem Virtuellen Klassenzimmer wie BigBlueButton oder Teams verbunden werden, kann das hier direkt vorausgewählt und die Räume entsprechend konfiguriert werden. Welche Systeme zur Verfügung stehen ist abhängig von der jeweiligen OpenOlat Installation. 
 Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist. 
 
-!!! info "Info"
+!!! note "Hinweis"
 
     Wird BigBlueButton oder Teams aktiviert, wird beim Ort automatisch "online" angezeigt.  
 
@@ -142,7 +142,7 @@ Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupli
 
 ### Termine anlegen {: #create_appointment}
 
-Schhon bei der Erstellung eines Anlasses können der oder die zugehörigen Termine gleich mit angelegt werden. (Siehe [oben ^](#config_occassion))
+Schon bei der Erstellung eines Anlasses können der oder die zugehörigen Termine gleich mit angelegt werden. (Siehe [oben ^](#config_occassion))
 
 Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbausteins aber auch der Button "Termine hinzufügen" angezeigt. Wählen Sie auch dort eine der 3 Terminarten.
 

@@ -112,11 +112,11 @@ Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken a
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
-!!! info "Wichtig"
+!!! note "Hinweis"
 
     Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es erforderlich, dass man selbst Ersteller:in eines Eintrages bzw. einer Wikiseite ist. Nur eine Bearbeitung des Beitrags reicht nicht aus.
 
-!!! info "Pflichtangaben"
+!!! note "Hinweis"
 
     Jedes Medienelement benötigt zwingend einen Titel und kann dann mit weiteren Informationen und Metadaten versehen werden. Später können diese Informationen über die Tabs eines Medienelements weiter konfiguriert werden.
 
@@ -143,7 +143,7 @@ Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Li
 
 Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einzelnes Medium angeklickt haben und die Informationen und Beschreibungen angezeigt werden. (Gleiches Menü wie zum Herunterladen.)
 
-!!! info "Info"
+!!! note "Hinweis"
 
     Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können. 
 
@@ -167,7 +167,7 @@ Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator ei
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
 
-!!! hint "Hinweis"
+!!! tip "Tipp"
 
     Als Speicherverbrauch wird nur angezeigt, was an eigenen Medien hochgeladen/erstellt wurde. Sind also alle angezeigten Medien ausschliesslich referenziert (von anderen Autoren freigegeben), dann wird ein Speicherverbrauch von 0 angezeigt.
 
@@ -209,8 +209,9 @@ Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben
 
 ## Weitere Informationen {: #further_information}
 
-[Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
-[Media Center im persönlichen Menü >](../personal_menu/Media_Center.de.md)<br>
-[Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
+!!! info "Weitere Informationen"
+    [Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
+    [Media Center im persönlichen Menü >](../personal_menu/Media_Center.de.md)<br>
+    [Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 
 [Zum Seitenanfang ^](#media_center_concept)

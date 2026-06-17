@@ -85,7 +85,7 @@ Folgende Detaileinstellungen können dabei vorgenommen werden: Die Einstellungen
   *  **Aufnahme automatisch veröffentlichen für**: Wählen Sie hier die Benutzergruppen denen Sie die Aufzeichnung später bereitstellen möchten.
   *  **Benutzer bei Eintritt akzeptieren (Warteraum)**: Hier kann entschieden werden ob Personen zunächst in einem Warteraum landen und nicht sofort in den Meeting-Raum gelangen. Wählt man "abgeschaltet" gelangen alle Personen direkt im Meeting-Raum. Alternativ kann hier auch konfiguriert werden, dass jeder (alle Benutzer) im Warteraum landet oder nur Gäste und externe Personen und die Kursteilnehmenden dagegen direkt in den Meeting-Raum gelangen können.
   *  **Darstellung**: Standard oder Webcam Termin (abhängig von der Konfiguration durch den BBB Administrator)
-  *  **Zugang externe Benutzer**: Sofern diese Option vom Administrator erlaubt wurde kann hier die URL angepasst werden, die Sie an die externen Benutzer versenden können. Der Link erscheint anschließend auch für Kursbesitzer und Betreuer bevor der Raum betreten wird. Teilnehmende sehen den Link nicht.
+  *  **Zugang externe Benutzer**: Sofern diese Option vom Administrator erlaubt wurde kann hier die URL angepasst werden, die Sie an die externen Benutzer versenden können. Der Link erscheint anschliessend auch für Kursbesitzer und Betreuer bevor der Raum betreten wird. Teilnehmende sehen den Link nicht.
   *  **Passwort für externe Benutzer**: Hinterlegen Sie hier ein Passwort, das Gäste, also Personen ohne OpenOlat Account, eingeben müssen um in den Raum zu gelangen.
   *  **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Meetings
 
@@ -175,8 +175,11 @@ Verfügung.
 
 ## BigBlueButton für Gäste 
 
-Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch für nicht in OpenOlat registrierte Personen, also Externe bzw. Gäste (siehe
-[Gastzugang](https://confluence.openolat.org/display/OO152DE/Gastzugang)), zugänglich gemacht werden. Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
+Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch für nicht in OpenOlat registrierte Personen, also Externe bzw. Gäste, zugänglich gemacht werden.
+
+!!! info "Gastzugang"
+    Informationen zum Gastzugang in OpenOlat.<br>
+    [Gastzugang](../learningresources/Access_Roles_and_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
 
 Der Gastlink erscheint dann ebenfalls für Kursbesitzer und Betreuer bevor sie den Raum beteten.
 Zusätzlich kann während der Konfiguration des Raums ein Passwort für Gäste generiert werden.

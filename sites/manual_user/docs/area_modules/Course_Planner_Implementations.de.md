@@ -122,11 +122,11 @@ Die Verwendung eines Templates zur Instanzierung empfiehlt sich, wenn es sich um
 Die Buttons "Kurs hinzufügen" und "Kurstemplates hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
 **Erstellung von Kurstemplates**<br>
-Kurstemplates werden erstellt, indem im Kurs unter **Administration > Einstellungen > Freigabe > Verwendungszweck** die Option "Template" gewählt wird. 
+Kurstemplates werden erstellt, indem im Kurs unter `Administration > Einstellungen > Freigabe > Verwendungszweck` die Option "Template" gewählt wird. 
 Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
-!!! hint "Hinweis"
+!!! tip "Tipp"
 
     Templates werden kopiert. Bei späterer Änderung des Templates bleibt die früher erstellte Kopie unverändert.
 
@@ -161,7 +161,7 @@ Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung ge
 Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
 Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt".<br>
-**(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"**<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
+`(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"`<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
 
 <br>
 
@@ -252,7 +252,7 @@ Für jede Durchführung können hier separat Einstellungen vorgenommen werden f�
 - Kalenderkonfiguration
 - Stundenplan
 - Absenzenkonfiguration
-- Absenzmanagement
+- Absenzenmanagement
 - Fortschrittskonfiguration
 
 ![course_planner_implementations_tab_settings_options_v1_de.png](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" }
@@ -263,10 +263,11 @@ Für jede Durchführung können hier separat Einstellungen vorgenommen werden f�
 ---
 
 
-### Tab Absenzen {: #tab_absences}
+### Tab Absenzen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8442)" }](https://track.frentix.com/issue/OO-8442){:target="_blank"} {: #tab_absences}
 
-Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden. 
-<Wie wird aktiviert?>
+Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden.
+
+Die Aktivierung erfolgt in den Einstellungen der Durchführung: `Tab Einstellungen > Optionen > Absenzenkonfiguration`.
 
 ![course_planner_implementations_tab_absences_v1_de.png](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
 
@@ -340,15 +341,16 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 ## Weitere Informationen {: #further_information}
 
-[Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
-[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+!!! info "Weitere Informationen"
+    [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+    [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+    [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+    [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
+    [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
+    [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+    [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+    [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
+    [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 
 [zum Seitenanfang ^](#implementations)
