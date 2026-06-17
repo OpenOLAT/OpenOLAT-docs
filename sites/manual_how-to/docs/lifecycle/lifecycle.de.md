@@ -1,4 +1,4 @@
-#  Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?
+#  Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? {: #lifecycles}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -25,11 +25,28 @@ In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 * **Benutzerkonten**
 
 OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder ein Benutzer lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
-<br>
+
+
+
+## Stufen/Phasen {: #lifecycle_stages}
+
+Erreicht ein Kurs, eine Gruppe oder ein Konto das "end of life", werden folgende Stufen/Phasen eingehalten:
+
+- **Inaktivierung**<br> 
+Bei der Inaktivierung wird der Status von "Aktiv" auf "Inaktiv" gestellt und die Gruppenmitglieder können z.B. nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen, Konten oder Kurse können vollständig reaktiviert werden.
+- **Löschung**<br> 
+Beim Löschen werden z.B. alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.
+- **Endgültige Löschung**<br> 
+Beim unwiderruflichen Löschen wird die Gruppe, das Konto oder der Kurs vollständig entfernt.
+
+[Zum Seitenanfang ^](#lifecycle)
+
+---
+
 
 ## Wo und wie werden die Lebenszyklen eingerichtet?
 
-## Generelle Aktivierung und Einstellung
+### Generelle Aktivierung und Einstellung {: #lifecycle_activation}
 
 Die generelle Aktivierung und Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen wird vom Administrator eingestellt unter: 
 **Administration > Lebenszyklen**
@@ -38,9 +55,12 @@ Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzel
 
 ![lifecycle_benutzer_admin_v1_de.png](assets/lifecycle_benutzer_admin_v1_de.png){ class="shadow lightbox" }
 
-<br>
+[Zum Seitenanfang ^](#lifecycle)
 
-## Gruppen-Lifecycle {: #group_lifestyle} 
+---
+
+
+### Gruppen-Lifecycle {: #group_lifestyle} 
 
 Die Betreuung des Gruppen-Lifecycles erfolgt durch Gruppenverwalter im Menü **Gruppen > Tab "Gruppenverwaltung"**<br>
 (auf Grundlage der Voreinstellungen des Administrators).
@@ -68,9 +88,12 @@ Klicken Sie im Menü **"Gruppen" > Tab "Gruppenverwaltung"** auf die grossen Pfe
 
 ![lifecycle_gruppen_geloescht_v1_de.png](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" }
 
-<br>
+[Zum Seitenanfang ^](#lifecycle)
 
-## Kurs-Lifecycle {: #course_lifestyle} 
+---
+
+
+### Kurs-Lifecycle {: #course_lifecycle} 
 
 Die Nutzung des Kurs-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
 
@@ -86,9 +109,12 @@ Grundlage sind die Voreinstellungen des Administrators:
 
 ![lifecycle_kurs_autorenbereich_v1_de.png](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" }
 
-<br>
+[Zum Seitenanfang ^](#lifecycle)
 
-## Benutzerkonten-Lifecycle {: #user_account_lifecycle}
+---
+
+
+### Benutzerkonten-Lifecycle {: #user_account_lifecycle}
 
 Die Nutzung des Benutzerkonten-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
 
@@ -110,7 +136,37 @@ Zu jeder Phase können Benachrichtigungsmails konfiguriert werden — vor oder n
     Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen werden unter Administration > Lebenszyklen > Konto eingestellt.<br>
     [Details zum Benutzerkonten-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
+[Zum Seitenanfang ^](#lifecycle)
+
 ---
+
+## Benachrichtigungen {: #lifecycle_messages}
+
+Um unbeabsichtigtes Löschen bestmöglich zu vermeiden, können zu jeder Stufe/Phase der Vorbereitung des Löschens die betroffenen Personen informiert werden. 
+
+**Benachrichtigungs-Einstellungen für Kurse:**<br>
+Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informiert werden.
+
+**Benachrichtigungs-Einstellungen für Gruppen und Konten:**<br>
+
+- Mail mit Ankündigung der Inaktivierung
+- Reaktionsfrist auf die Ankündigung der Inaktivierung
+- Frei definierbarer Benachrichtungstext zur Ankündigung der Inaktivierung
+- Mail mit der Information, dass die Inaktivierung vorgenommen wurde
+- Frei definierbarer Benachrichtigungstext nach der Inaktivierung
+
+- Mail mit Ankündigung der Löschung
+- Reaktionsfrist auf die Ankündigung der Löschung
+- Frei definierbarer Benachrichtungstext zur Ankündigung der Löschung
+- Mail mit der Information, dass die Löschung vorgenommen wurde
+- Frei definierbarer Benachrichtigungstext nach der Löschung
+
+- jeweils optionale Mail-Kopie an beliebige Adressen
+
+[Zum Seitenanfang ^](#lifecycle)
+
+---
+
 
 ## Checkliste {: #checklist} 
 
@@ -131,3 +187,5 @@ Zu jeder Phase können Benachrichtigungsmails konfiguriert werden — vor oder n
 - [x] durch Administrator:in : Generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Konto** 
 - [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: je nach Konfiguration von OpenOlat erkannte inaktive Benutzer manuell deaktivieren/löschen (**Benutzerverwaltung > Benutzer wählen > Tab Konto**)
 - [x] Benachrichtigung der betroffenen Benutzer konfigurieren
+
+[Zum Seitenanfang ^](#lifecycle)
