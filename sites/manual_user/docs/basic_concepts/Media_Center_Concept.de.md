@@ -112,11 +112,11 @@ Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken a
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
-!!! note "Hinweis"
+!!! note "Wichtig"
 
     Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es erforderlich, dass man selbst Ersteller:in eines Eintrages bzw. einer Wikiseite ist. Nur eine Bearbeitung des Beitrags reicht nicht aus.
 
-!!! note "Hinweis"
+!!! note "Pflichtangaben"
 
     Jedes Medienelement benötigt zwingend einen Titel und kann dann mit weiteren Informationen und Metadaten versehen werden. Später können diese Informationen über die Tabs eines Medienelements weiter konfiguriert werden.
 
@@ -159,7 +159,7 @@ Ins Media Center hochgeladene Medien gehören grundsätzlich einem/einer Besitze
 ---
 
 
-## Quota {: #quota}
+## Quota [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
 
 Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
 
@@ -167,7 +167,7 @@ Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator ei
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
 
-!!! tip "Tipp"
+!!! note "Hinweis"
 
     Als Speicherverbrauch wird nur angezeigt, was an eigenen Medien hochgeladen/erstellt wurde. Sind also alle angezeigten Medien ausschliesslich referenziert (von anderen Autoren freigegeben), dann wird ein Speicherverbrauch von 0 angezeigt.
 
@@ -209,7 +209,7 @@ Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben
 
 ## Weitere Informationen {: #further_information}
 
-!!! info "Weitere Informationen"
+!!! note "Weitere Informationen"
     [Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
     [Media Center im persönlichen Menü >](../personal_menu/Media_Center.de.md)<br>
     [Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>

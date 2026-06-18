@@ -15,7 +15,7 @@ Spezialität / Hinweis | BigBlueButton ist eine Open Source Software (LPGL Lizen
 
 ## Allgemeines
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     BigBlueButton ist eine Open Source Software (LPGL Lizenz). Um den Kursbaustein zu nutzen ist ein separates Serverhosting erforderlich. BigBlueButton Anbieter-Webseite: <https://bigbluebutton.org/>
 
@@ -109,7 +109,7 @@ werden.
 
     Sobald ein BigBlueButton-Meeting gestartet, d.h. der Online-Raum geöffnet wurde, können die Einstellungen am Meeting-Termin nicht mehr bearbeitet werden!
 
-### Tab "Online-Termine"
+### Tab "Online-Termine" [:octicons-tag-16:{ title="ab Release 15.2 (OO-4818)" }](https://track.frentix.com/issue/OO-4818){:target="_blank"}
 
 Über den Tab "Online-Termine" erhält man Zugang zu einem bestimmten Termin bzw. Raum.
 
@@ -173,11 +173,11 @@ der Personenliste angezeigt.
 Je nach Raumeinstellung stehen unterschiedliche Möglichkeiten im Raum zur
 Verfügung.
 
-## BigBlueButton für Gäste 
+## BigBlueButton für Gäste [:octicons-tag-16:{ title="ab Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
 
 Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch für nicht in OpenOlat registrierte Personen, also Externe bzw. Gäste, zugänglich gemacht werden.
 
-!!! info "Gastzugang"
+!!! note "Gastzugang"
     Informationen zum Gastzugang in OpenOlat.<br>
     [Gastzugang](../learningresources/Access_Roles_and_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
 

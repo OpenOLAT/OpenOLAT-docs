@@ -126,7 +126,7 @@ Kurstemplates werden erstellt, indem im Kurs unter `Administration > Einstellung
 Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
-!!! tip "Tipp"
+!!! note "Hinweis"
 
     Templates werden kopiert. Bei späterer Änderung des Templates bleibt die früher erstellte Kopie unverändert.
 
@@ -341,7 +341,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 ## Weitere Informationen {: #further_information}
 
-!!! info "Weitere Informationen"
+!!! note "Weitere Informationen"
     [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
     [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
     [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>

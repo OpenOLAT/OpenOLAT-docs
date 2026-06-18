@@ -106,7 +106,7 @@ Die Gruppenvorsortierung nehmen Sie in der Tabelle der Checklistenverwaltung vor
   3. Die Schaltfläche **Editieren** öffnet die Übersichtstabelle im Bearbeitungsmodus, was Ihnen gestattet alle Checkboxen aller Teilnehmer zu bearbeiten.
   4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) aus- oder abwählen.
 
-## Kursbaustein "Mehrere Checklisten" {: #multi}
+## Kursbaustein "Mehrere Checklisten" [:octicons-tag-16:{ title="ab Release 9.4 (OO-937)" }](https://track.frentix.com/issue/OO-937){:target="_blank"} {: #multi}
 
 ![Mehrere Checklisten Icon.png](assets/wizard_434343_64.png)
 
