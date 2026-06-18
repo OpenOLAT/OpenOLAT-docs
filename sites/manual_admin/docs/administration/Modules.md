@@ -1,6 +1,6 @@
 # Modules: Overview {: #modules}
 
-![admin_module_overview_v3_de.png](assets/admin_module_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v4_de.png](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the modules in this area:
 

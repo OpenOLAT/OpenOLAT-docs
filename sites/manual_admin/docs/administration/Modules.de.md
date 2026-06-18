@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![admin_module_overview_v3_de.png](assets/admin_module_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v4_de.png](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Bereich haben Administrator:innen Zugriff auf die Module:
 
