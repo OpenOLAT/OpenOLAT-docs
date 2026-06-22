@@ -28,7 +28,7 @@ So können relativ schnell mehrere Checklisten mit identischen Check-Kriterien a
 
 Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. Pro Kursbaustein erstellen Sie eine Checkliste mit so vielen Checkboxen wie Sie benötigen. Erstellen Sie die einzelnen Checkboxen der Liste im Tab "Checkboxen" über die Schaltfläche "Checkbox hinzufügen". Den Checkboxen können auch Punkte zugeordnet und Dateien zum Download hinzugefügt werden.
 
-## Tab Konfiguration
+## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"}
 
 In diesem Tab können Sie bestimmen ob ein Abgabedatum für die Checkliste wirksam sein soll, und ob und wie die Kursteilnehmer bewertet werden. Je nach gewählten Einstellungen, stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Die spätere Bewertung erfolgt entweder im Kursrun bei geschlossenem Editor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.md) des Kurses. Sobald eine Bewertung eines Kursteilnehmers stattgefunden hat, sollten Sie die Konfiguration nicht mehr verändern.
 
@@ -58,7 +58,7 @@ In diesem Tab können Sie bestimmen ob ein Abgabedatum für die Checkliste wirks
 
 **Hinweis für Betreuer**: Geben Sie hier einen Text ein, der den Betreuern des Kurses angezeigt wird, wenn sie die Kursteilnehmer bewerten.
 
-## Tab Checkboxen
+## Tab Checkboxen [:octicons-tag-16:{ title="ab Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"}
 
 In diesem Tab erstellen und bearbeiten Sie die Checkboxen, die die User später abhaken können. Klicken Sie mit der Maus auf die Schaltfläche "Checkbox hinzufügen" um eine neue Checkbox zu erstellen. Es öffnet sich eine neue Eingabemaske.
 
@@ -82,7 +82,7 @@ Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Be
 [Zum Seitenanfang ^](#course_element_checklist)
 
 
-## Checklisten nutzen und bewerten
+## Checklisten nutzen und bewerten [:octicons-tag-16:{ title="ab Release 16.1 (OO-5946)" }](https://track.frentix.com/issue/OO-5946){:target="_blank"}
 
 Im Kursrun sehen Sie Ihre "Persönliche Checkliste" und die "Checklisten Verwaltung". Kursteilnehmer ohne Betreuerrechte sehen nur ihre "Persönliche Checkliste". Wurden den einzelnen Checkboxen Punkte zugeordnet sind diese für die Lernenden in ihrer persönlichen Checkliste sichtbar. So können die Lernenden direkt sehen wie sich eine Gesamtpunktzahl zusammensetzt.
 

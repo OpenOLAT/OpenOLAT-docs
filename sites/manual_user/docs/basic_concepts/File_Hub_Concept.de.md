@@ -45,7 +45,7 @@ Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der 
 
 ## Quellen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #sources}
 
-### Dokumentenpool {: #document_pool}
+### Dokumentenpool [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #document_pool}
 
 Der [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md) ist eine Dokumentenverwaltung innerhalb OpenOlat.
 
@@ -96,7 +96,7 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 
 
-## Einrichten der Zugriffsbedingungen {: #access_conditions}
+## Einrichten der Zugriffsbedingungen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #access_conditions}
 
 Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, auf die eine Zugriffsberechtigung besteht. Das Erteilen/Einrichten der Zugriffsberechtigungen geschieht **in den jeweiligen Quellen**.
 

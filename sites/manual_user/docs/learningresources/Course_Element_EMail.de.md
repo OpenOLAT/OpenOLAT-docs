@@ -20,7 +20,7 @@ Sie haben zwei Möglichkeiten, um Nachrichten zu versenden. Entweder geben Sie i
 
 Um im Feld "E-Mail-Adressen" mehrere Empfängeradressen einzutragen, müssen Sie diese durch einen Zeilenumbruch trennen, d.h. jede E-Mail-Adresse muss auf einer eigenen Zeile stehen.
 
-## Versand an Kursbesitzer/Betreuer/Teilnehmer
+## Versand an Kursbesitzer/Betreuer/Teilnehmer [:octicons-tag-16:{ title="ab Release 15.4 (OO-5147)" }](https://track.frentix.com/issue/OO-5147){:target="_blank"}
 
 Markieren Sie die gewünschten Checkboxen, um die Mitgliedergruppen zu definieren, die Sie anschreiben möchten. Markieren Sie bei Betreuern und Teilnehmern in einem zweiten Schritt, ob Sie jeweils alle anschreiben möchten, oder nach Kurs und Gruppen unterscheiden. Klicken Sie keine Checkbox an, wird keine Mail verschickt.
 
@@ -32,7 +32,7 @@ In den Feldern "Betreff (Vorlage)" und "Nachricht (Vorlage)" können Sie optiona
 Zudem kann die Nachricht / der Betreff mit dem Einsatz von Variablen
 persönlicher und kursbezogen gestaltet werden.
 
-## Einsatz von Variablen
+## Einsatz von Variablen [:octicons-tag-16:{ title="ab Release 15.4 (OO-5070)" }](https://track.frentix.com/issue/OO-5070){:target="_blank"}
 
 Folgende Variablen können im Betreff und im Text der E-Mail verwendet werden:
 

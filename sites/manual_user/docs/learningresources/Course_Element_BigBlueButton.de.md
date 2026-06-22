@@ -13,7 +13,7 @@ Bewertbar | nein
 Spezialität / Hinweis | BigBlueButton ist eine Open Source Software (LPGL Lizenz). Um den Kursbaustein zu nutzen ist ein separates Serverhosting erforderlich.
 
 
-## Allgemeines
+## Allgemeines [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
 !!! note "Hinweis"
 
@@ -44,7 +44,7 @@ Bei der Einbindung von BigBlueButton im Kurs kann entschieden werden, ob die Mee
 
 ![kurseditor.png](assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png) 
 
-## Räume erstellen, konfigurieren und betreten 
+## Räume erstellen, konfigurieren und betreten [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
 Folgende Einstellungen erfolgen bei geschlossenem Editor. 
 

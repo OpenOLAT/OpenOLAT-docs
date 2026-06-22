@@ -58,7 +58,7 @@ Sobald Sie eine Durchführung geöffnet haben, lassen sich in den angezeigten Ta
 
 
 
-### Tab Übersicht {: #tab_overview}
+### Tab Übersicht [:octicons-tag-16:{ title="ab Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
 Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt.
 
@@ -69,7 +69,7 @@ Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog 
 ---
 
 
-### Tab Struktur {: #tab_structure}
+### Tab Struktur [:octicons-tag-16:{ title="ab Release 20.0 (OO-8634)" }](https://track.frentix.com/issue/OO-8634){:target="_blank"} {: #tab_structure}
 
 Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur angezeigt.
 In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
@@ -150,7 +150,7 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 ---
 
 
-### Tab Mitglieder {: #tab_members}
+### Tab Mitglieder [:octicons-tag-16:{ title="ab Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
 ![course_planner_implementations_tab_members_v1_de.png](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
@@ -296,7 +296,7 @@ Die so erstellten Excel-Dateien finden Sie dann im unteren Bereich des Screens a
 
 ---
 
-## Kopieren einer Durchführung {: #copy}
+## Kopieren einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8418)" }](https://track.frentix.com/issue/OO-8418){:target="_blank"} {: #copy}
 
 Die Option zum Kopieren finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 
@@ -323,7 +323,7 @@ In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bes
 ---
 
 
-## Löschen einer Durchführung {: #delete}
+## Löschen einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8354)" }](https://track.frentix.com/issue/OO-8354){:target="_blank"} {: #delete}
 
 Auch die Option zum Löschen finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 

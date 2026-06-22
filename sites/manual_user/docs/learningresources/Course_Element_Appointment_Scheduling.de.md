@@ -6,7 +6,7 @@
 Name | Terminplanung
 ---------|----------
 Icon | ![Terminplaniung Icon](assets/dateentry.png){ class=size24  }
-Verfügbar seit | 
+Verfügbar seit | Release 15.3
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Terminfindung und Einschreibung für bestimmte gemeinsame Termine
 Bewertbar | nein
@@ -30,7 +30,7 @@ Autor:innen können unter anderem festgelegen, ob mehrere Termine auswählbar si
 
 ---
 
-## Einrichtung im Kurseditor {: #editor}
+## Einrichtung im Kurseditor [:octicons-tag-16:{ title="ab Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #editor}
 
 Wurde im Kurseditor der Kursbaustein hinzugefügt, werden im Tab "Konfiguration" die Berechtigungen für bestimmte Personengruppen festgelegt.
 
@@ -62,7 +62,7 @@ Wer diese Berechtigung erhält, kann einen Termin bearbeiten. Das Recht kann per
 ---
 
 
-## Einrichtung im Kursrun (geschlossener Kurseditor) {: #course_run}
+## Einrichtung im Kursrun (geschlossener Kurseditor) [:octicons-tag-16:{ title="ab Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #course_run}
 
 Die eigentliche Konfiguration und Einrichtung der wählbaren Termine erfolgt im Kursrun bei geschlossenem Editor. 
 Zunächst wird ein **Anlass** erstellt. Dies ist eine Zusammenstellung mehrerer einzeln wählbarer **Termine**. 
@@ -74,7 +74,7 @@ Zunächst wird ein **Anlass** erstellt. Dies ist eine Zusammenstellung mehrerer 
 ---
 
 
-### Anlass konfigurieren {: #config_occassion}
+### Anlass konfigurieren [:octicons-tag-16:{ title="ab Release 20.1 (OO-8501)" }](https://track.frentix.com/issue/OO-8501){:target="_blank"} {: #config_occassion}
 
 Klicken Sie als erstes auf **"Anlass erstellen".** 
 
@@ -167,7 +167,7 @@ Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung 
 
 ---
 
-## Teilnehmenden-Perspektive {: #participant}
+## Teilnehmenden-Perspektive [:octicons-tag-16:{ title="ab Release 20.1 (OO-8715)" }](https://track.frentix.com/issue/OO-8715){:target="_blank"} {: #participant}
 
 Mit Klick auf den Kursbaustein werden den Teilnehmenden die vorbereiteten Terminfindungen bzw. möglichen Terminbuchungen angezeigt. Umfasst der Kursbaustein mehrere Anlässe, erscheint zunächst eine Übersichtsseite. 
 

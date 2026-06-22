@@ -1,6 +1,6 @@
 # Media Center: Konzept {: #media_center_concept}
 
-## Funktionen {: #functions}
+## Funktionen [:octicons-tag-16:{ title="ab Release 19.1 (OO-8156)" }](https://track.frentix.com/issue/OO-8156){:target="_blank"} {: #functions}
 
 Das Media Center ist eine **zentrale Sammelstelle** für unterschiedliche Medientypen. 
 
@@ -23,7 +23,7 @@ Medien können...
 
 ---
 
-## Zugang {: #access}
+## Zugang [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #access}
 
 Das Media Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
 
@@ -43,7 +43,7 @@ Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrat
 ---
 
 
-## Medientypen {: #media_types}
+## Medientypen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #media_types}
 
 Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:  
 
@@ -67,7 +67,7 @@ Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** ab
 ---
 
 
-## Medien dem Media Center hinzufügen {: #add_media}
+## Medien dem Media Center hinzufügen [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
 ![media_center_concept_add_media_v1_de.png](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" } 
 
@@ -79,7 +79,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 * **Video per URL hinzufügen**: Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden. 
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
-### Neue Medien direkt im Media Center erstellen {: #create_in_media_center}
+### Neue Medien direkt im Media Center erstellen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"} {: #create_in_media_center}
 
 * **Dokument erstellen:** Dokumente integrierter Editoren, z.B. Word, Excel, PowerPoint
 * **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io, ab :octicons-tag-24: Release 18.1. 
@@ -121,7 +121,7 @@ Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles
     Jedes Medienelement benötigt zwingend einen Titel und kann dann mit weiteren Informationen und Metadaten versehen werden. Später können diese Informationen über die Tabs eines Medienelements weiter konfiguriert werden.
 
 
-### Freigabe für andere {: #share}
+### Freigabe für andere [:octicons-tag-16:{ title="ab Release 18.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #share}
 
 Wenn Sie eine Mediendatei im Media Center hinzufügen, haben Sie die Möglichkeit, es für andere Personen (Mitbenutzer:innen) frei zu geben.
 
@@ -175,7 +175,7 @@ In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden 
 
 ---
 
-## Medien verwenden {: #usage}
+## Medien verwenden [:octicons-tag-16:{ title="ab Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
 Und wie können die Medien, die sich im Media Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
 
@@ -195,7 +195,7 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 ---
 
 
-## Media Center verwalten {: #media_center_administration}
+## Media Center verwalten [:octicons-tag-16:{ title="ab Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
 Personen mit administrativem Zugriff (z.B. Administrator:innen) haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. (Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
 
