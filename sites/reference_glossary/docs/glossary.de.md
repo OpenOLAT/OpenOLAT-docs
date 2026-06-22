@@ -338,6 +338,10 @@ Extern zugänglicher Katalog, in dem nicht registrierte Benutzer Kursangebote du
 
 Visuelles Kollaborationswerkzeug (basierend auf draw.io) im Modul Projekte.
 
+### Lightbox-Modus
+
+Anzeigemodus, bei dem Inhalte (Dokumente, Medien, Details) in einem modalen Overlay über der aktuellen Seite geöffnet werden, ohne die Seite zu verlassen.
+
 
 ## Bereiche
 
@@ -486,11 +490,19 @@ Der Bereich, in den gelöschte Lernressourcen vor der endgültigen Löschung ver
 
 ### Vorlagekurs
 
-Ein Quellkurs, aus dem im Course Planner automatisch Durchführungsinstanzen erstellt werden.
+Ein Quellkurs, aus dem im Course Planner automatisch Durchführungsinstanzen erstellt werden. Siehe auch: Kurstemplate.
 
 ### Warteliste
 
 Eine Warteschlange für Personen, die nicht sofort eingeschrieben werden können, mit automatischer Aufrückung, sobald Plätze frei werden.
+
+### Anlass
+
+Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Terminslots zugeordnet werden können.
+
+### Kurstemplate
+
+Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursinstanz für eine Durchführung verwendet werden kann. Siehe auch: Vorlagekurs.
 
 
 ## Standards

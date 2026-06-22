@@ -42,6 +42,10 @@ Eine Buchungskonfiguration, die den Zugriff auf eine Lernressource steuert.
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
 
+### Anlass
+
+Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Terminslots zugeordnet werden können.
+
 ### Audio
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -402,6 +406,10 @@ Automatisierte E-Mail-Erinnerungen basierend auf Kursbedingungen.
 
 Kann Curricula und Produkte im Modul Course Planner verwalten.
 
+### Kurstemplate
+
+Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursinstanz für eine Durchführung verwendet werden kann. Siehe auch: Vorlagekurs.
+
 ### Launcher
 
 Ein konfigurierbarer Abschnitt im Katalog 2.0, der Kursangebote dynamisch zusammenstellt und anzeigt.
@@ -433,6 +441,10 @@ Ein verwaltetes Inhaltsobjekt im Autorenbereich (Kurs, Test, Formular, Video usw
 ### Lernressourcenverwalter/in
 
 Kann Lernressourcen systemweit verwalten.
+
+### Lightbox-Modus
+
+Anzeigemodus, bei dem Inhalte (Dokumente, Medien, Details) in einem modalen Overlay über der aktuellen Seite geöffnet werden, ohne die Seite zu verlassen.
 
 ### Linienvorgesetzte/r
 
@@ -780,7 +792,7 @@ Systemweite Suche über Kurse, Lernressourcen und Benutzerdaten hinweg.
 
 ### Vorlagekurs
 
-Ein Quellkurs, aus dem im Course Planner automatisch Durchführungsinstanzen erstellt werden.
+Ein Quellkurs, aus dem im Course Planner automatisch Durchführungsinstanzen erstellt werden. Siehe auch: Kurstemplate.
 
 ### Warteliste
 

@@ -338,6 +338,10 @@ Externally accessible catalog that allows non-registered users to browse and boo
 
 Visual collaboration tool (powered by draw.io) within the Projects module.
 
+### Lightbox mode
+
+Display mode in which content (documents, media, details) is opened in a modal overlay above the current page, without leaving the page.
+
 
 ## Areas
 
@@ -482,7 +486,7 @@ A short preview text used for compact announcements, currently available for cou
 
 ### Template course
 
-A source course from which implementation instances are automatically created in Course Planner.
+A source course from which implementation instances are automatically created in Course Planner. See also: Course template.
 
 ### Trash can
 
@@ -491,6 +495,14 @@ The area where deleted learning resources are moved before permanent deletion.
 ### Waiting list
 
 A queue for users who cannot be immediately enrolled, with automatic promotion when places become available.
+
+### Occasion
+
+A named topic within the Appointment Scheduling course element, to which multiple time slots can be assigned.
+
+### Course template
+
+A course template in the Course Planner that can be instantiated as a course for a curriculum implementation at a later date. See also: Template course.
 
 
 ## Standards

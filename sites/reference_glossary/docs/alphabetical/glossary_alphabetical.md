@@ -210,6 +210,10 @@ Manage curricula, implementations, and educational structures (formerly "Curricu
 
 Automated email reminders based on course conditions.
 
+### Course template
+
+A course template in the Course Planner that can be instantiated as a course for a curriculum implementation at a later date. See also: Template course.
+
 ### Courses
 
 The main area where users find and access their enrolled courses.
@@ -450,6 +454,10 @@ Document library for shared reading materials.
 
 Management of content licenses for learning resources.
 
+### Lightbox mode
+
+Display mode in which content (documents, media, details) is opened in a modal overlay above the current page, without leaving the page.
+
 ### Line manager
 
 Has line management permissions for user oversight.
@@ -513,6 +521,10 @@ A course element for posting and reading course notifications/messages.
 ### OAI-PMH
 
 Open Archives Initiative Protocol for Metadata Harvesting, used for catalog exposure.
+
+### Occasion
+
+A named topic within the Appointment Scheduling course element, to which multiple time slots can be assigned.
 
 ### Offer
 
@@ -744,7 +756,7 @@ A short preview text used for compact announcements, currently available for cou
 
 ### Template course
 
-A source course from which implementation instances are automatically created in Course Planner.
+A source course from which implementation instances are automatically created in Course Planner. See also: Course template.
 
 ### Test
 
