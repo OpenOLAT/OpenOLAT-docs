@@ -53,23 +53,24 @@ Global badges can be viewed here. The status (active / in preparation) and wheth
 ### Creating and editing a badge
 
 1. **Template**: The first step is to select a template or upload your own image. SVG is currently supported.
-![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
+![Wizard Schritt 1](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
 2. **Customization**: If the template was created accordingly, you can change colors and text while creating the badge.
-![Wizard Schritt 2](assets/badges-wizard-2.de.jpg)
-3. **Details & Validation Period**: Mandatory details are the name, version and description of the badge and the issuer. You can also add a URL and a contact to the exhibitor properties. The validity period can also be set so that it never expires or is 12 months, for example.
-![Wizard Schritt 3](assets/badges-wizard-3.de.jpg)
-4. **Criteria**: Enter the criteria and explanation for the rules you have chosen.
-![Wizard Schritt 4](assets/badges-wizard-4.de.jpg)
-5. **Summary**: Screen with a summary of all details.
-![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
-6. **Earners**: Displays the earners in a table to see which participant already qualifies for the criteria you have selected.
+![Wizard Schritt 2](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
+3. **Award Criteria**: Enter the criteria and explanation for the rules you have chosen. Unlike badges awarded by authors in a course, global badges can, for example, also be awarded across courses for passing multiple courses.
+![Wizard Schritt 3](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
+4. **Details & Validation Period**: Mandatory details are the name, version and description of the badge and the issuer. You can also add a URL and a contact to the exhibitor properties. The validity period can also be set so that it never expires or is 12 months, for example.
+![Wizard Schritt 4](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
+5. **Summary**: Screen with a summary of the key details.
+![Wizard Schritt 5](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
+6. **Earners**: Displays the earners in a table to see which participants already qualify according to the criteria you have selected.
+![Wizard Schritt 6](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
 
 ### Assign global badges manually
 
 Manual assignment is possible under<br>
-**Settings > Tab e-Assessment > OpenBadges > Tab "Global Badges" > Button "Assign badge maually"**.
+**Administration > e-Assessment > OpenBadges > Tab "Global Badges" > Select badge > Tab Overview > Button "Assign manually"**.
 
-![badges_global_manually_v2_de.png](assets/badges_global_manually_v2_de.png){ class="shadow lightbox" }
+![badges_global_manually_v3_de.png](assets/badges_global_manually_v3_de.png){ class="shadow lightbox" }
 
 ### Assign global badges automatically
 
