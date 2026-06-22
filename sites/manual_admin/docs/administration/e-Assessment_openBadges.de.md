@@ -52,23 +52,26 @@ Globale Badges können in einem separaten Tab eingesehen werden, ebenso ihr Stat
 Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufügen". Er startet das Badge-Tool (Wizard) mit den folgenden Schritten:
 
 1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
-![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
+![Wizard Schritt 1](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
 2. **Anpassung**: Wenn die Vorlage entsprechend erstellt wurde, können Sie Farben und Text während der Erstellung des Badges ändern.
-![Wizard Schritt 2](assets/badges-wizard-2.de.jpg)
-3. **Details & Validierungszeitraum:** Obligatorische Details sind der Name, die Version und die Beschreibung des Badge sowie der Aussteller. Sie können zusätzlich eine URL und einen Kontakt zu den Ausstellereigenschaften hinzufügen. Die Gültigkeitsdauer kann auch so festgelegt werden, dass sie nie abläuft oder z. B. 12 Monate beträgt.
-![Wizard Schritt 3](assets/badges-wizard-3.de.jpg)
-4. **Kriterien**: Geben Sie die Kriterien und die Erklärung für die von Ihnen gewählten Regeln an.
-![Wizard Schritt 4](assets/badges-wizard-4.de.jpg)
-5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
-6. **Earners**: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
+![Wizard Schritt 2](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
+3. **Vergabekriterien**: Geben Sie die Kriterien und die Erklärung für die von Ihnen gewählten Regeln an. Im Unterschied zu Badges, die von Autor:innen in einem Kurs vergeben werden, können globale Badges z.B. auch kursübergreifend für das Bestehen mehrerer Kurse vergeben werden.
+![Wizard Schritt 3](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
+4. **Details & Validierungszeitraum:** Obligatorische Details sind der Name, die Version und die Beschreibung des Badge sowie der Aussteller. Sie können zusätzlich eine URL und einen Kontakt zu den Ausstellereigenschaften hinzufügen. Die Gültigkeitsdauer kann auch so festgelegt werden, dass sie nie abläuft oder z.B. 12 Monate beträgt.
+![Wizard Schritt 4](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
+5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung der wichtigen Details.
+![Wizard Schritt 5](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
+6. **Empfänger**: Zeigt die Empfänger in einer Tabelle an, um zu sehen, welche Teilnehmer:innen sich bereits gemäss der von Ihnen gewählten Kriterien qualifiziert haben.
+![Wizard Schritt 6](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
+
 
 ### Globale Badges manuell vergeben
 
 Die manuelle Vergabe ist möglich unter<br>
-**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Badge manuell vergeben"**.
+**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Badge wählen > Tab Übersicht > Button "Manuell vergeben"**.
 
-![badges_global_manually_v2_de.png](assets/badges_global_manually_v2_de.png){ class="shadow lightbox" }
+![badges_global_manually_v3_de.png](assets/badges_global_manually_v3_de.png){ class="shadow lightbox" }
+
 
 ### Globale Badges automatisch vergeben
 
