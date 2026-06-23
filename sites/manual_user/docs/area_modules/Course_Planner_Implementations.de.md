@@ -3,7 +3,7 @@
 ![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
 
 
-## Was ist eine Durchführung? {: #definition}
+## Was ist eine Durchführung? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
 
 Ein Bildungsprogramm/Produkt (aus einem oder mehreren Kursen bestehend) kann mehrfach angeboten und durchgeführt werden. Jede Durchführung kann zu einem anderen Termin stattfinden und an jeder Durchführung sind dann andere Teilnehmer:innen dabei.
 
@@ -18,7 +18,7 @@ Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleic
 ---
 
 
-## Die Liste der Durchführungen {: #listing}
+## Die Liste der Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #listing}
 
 Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit den Tabs (Reitern) Teil-Listen anzeigen lassen (z.B. "Aktiv") und mit Filtern die Auswahl weiter eingrenzen.
 
@@ -29,7 +29,7 @@ Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" ge
 
 ---
 
-## Navigation in den Durchführungen {: #navigation}
+## Navigation in den Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
 
 Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie von hier aus
 
@@ -52,7 +52,7 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie vo
 ---
 
 
-## Konfiguration einer Durchführung {: #config}
+## Konfiguration einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #config}
 
 Sobald Sie eine Durchführung geöffnet haben, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen.
 

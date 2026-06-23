@@ -6,7 +6,7 @@
 Name | Checkliste
 ---------|----------
 Icon | ![Checklist Icon](assets/checklist.png){ class=size24  }
-Verfügbar seit | 
+Verfügbar seit | Release 9.4
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Checkliste mit Funktionen wie z.B. Sperrung der Bearbeitungsmöglichkeit nach Abgabedatum, ausgegraute Checkboxen die nur Betreuer abhaken können, usw.
 Bewertbar | ja
@@ -24,7 +24,7 @@ Es können auch mehrere Checklisten auf einmal hinzugefügt werden. Dieses Vorge
 
 So können relativ schnell mehrere Checklisten mit identischen Check-Kriterien aber für unterschiedliche Gruppen, für unterschiedliche zu checkende Objekte, für unterschiedliche Veranstaltungstermine oder zur Überprüfung desselben Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.  
 
-## Checkliste erstellen und einrichten
+## Checkliste erstellen und einrichten [:octicons-tag-16:{ title="ab Release 9.4 (OO-936)" }](https://track.frentix.com/issue/OO-936){:target="_blank"}
 
 Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. Pro Kursbaustein erstellen Sie eine Checkliste mit so vielen Checkboxen wie Sie benötigen. Erstellen Sie die einzelnen Checkboxen der Liste im Tab "Checkboxen" über die Schaltfläche "Checkbox hinzufügen". Den Checkboxen können auch Punkte zugeordnet und Dateien zum Download hinzugefügt werden.
 
@@ -76,7 +76,7 @@ Falls benötigt, können Sie für die Kursteilnehmer noch eine **Datei** zum Dow
 
 In der Tabelle werden Ihnen anschliessend die erstellten Checkboxen im Überblick angezeigt. Hier kann auch die Reihenfolge verändert werden.
 
-## Tab Badges
+## Tab Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003){:target="_blank"}
 Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_checklist)
