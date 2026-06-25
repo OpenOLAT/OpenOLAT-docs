@@ -49,7 +49,7 @@ Gäste haben - ohne sich zu registrieren – beschränkten Zugang zu OpenOlat. S
 | in herkömmlichen Kursen | ja | ja | ja |
 | in Lernpfad-Kursen | ja | ja | ja |
 | Aktivierung durch Admin nötig | ja | ja | nein |
-| Angebot | ja, Angebot "Gastzugang"  | nein | nein (Standard) |
+| spezifische Angebote | ja, Angebot "Gastzugang"  | nein | nein (Standard) |
 | Sammeleinladung| nein  | ja (E-Mail-Liste) | ja |
 | Authentifizierung | nein | ja, durch validierte E-Mail-Adresse | ja, verschiedene Verfahren |
 | Verwaltung der Lerner:innen | nicht möglich, da Benutzer:in unbekannt | Benutzerverwaltung, Mitgliederverwaltung | Benutzerverwaltung, Mitgliederverwaltung |
