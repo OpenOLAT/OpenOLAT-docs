@@ -3,7 +3,7 @@
 
 ## Kursbaustein „Einschreibung“ {: #enrolment}
 
-![einschreibung.png](assets/enrolment.png)
+:fontawesome-solid-right-to-bracket:
 
 Der Kursbaustein "Einschreibung" wird verwendet, damit sich Kursteilnehmer in
 eine oder mehrere OpenOlat Gruppen eintragen können. Definieren Sie dazu im
@@ -30,7 +30,7 @@ geben soll.
 
 ## Kursbaustein "Mitteilungen" {: #notification}
 
-![mitteilung.png](assets/infomessage.png)
+:fontawesome-solid-circle-info:
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank”}
 
@@ -76,7 +76,7 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
   
 
 ## Kursbaustein „E-Mail“  {: #mail}
-![kontakt.png](assets/contact.png)
+:fontawesome-regular-envelope:
 
   
 
@@ -149,7 +149,7 @@ Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 ##  Kursbaustein „Kalender“ {: #cal}
 
-![kalender.png](assets/calendar.png)
+:fontawesome-regular-calendar-days:
 
 Mit dem Kursbaustein „Kalender“ können Sie den Kurskalender in die
 Kursstruktur einbetten. Es ist auch möglich mehrere Instanzen desselben
@@ -188,7 +188,7 @@ sinnvoller in den Einstellungen den Kalender in der [Toolbar
 
 ##  Kursbaustein "Terminplanung"  {: #appointment_scheduling}
 
-![termin.png](assets/dateentry.png)
+:fontawesome-regular-calendar-check:
 
 Mit dem Kursbaustein Terminplanung können sowohl Einschreibungen für bestimmte
 Termine als auch Terminfindungen organisiert werden. Generell kann

@@ -4,7 +4,7 @@
 
 Name | Document
 ---------|----------
-Icon | ![Document Icon](assets/course_element_document_icon.png){ class=size24 }
+Icon | :fontawesome-regular-file:
 Available since | Release 15.3
 Functional group | Knowledge Transfer
 Purpose | Provision of various documents, also for joint editing

@@ -4,7 +4,7 @@
 
 Name | Seite
 ---------|----------
-Icon | ![Seite Icon](assets/page.png){ class=size24  }
+Icon | :fontawesome-solid-file-lines:
 Verfügbar seit | Release 18
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Darstellung verschiedener Inhalte in einem blockbasierten Layout

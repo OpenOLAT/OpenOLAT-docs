@@ -4,7 +4,7 @@
 
 Name | SCORM learning content
 ---------|----------
-Icon | ![Scorm learning content Icon](assets/scorm.png){ class=size24 }
+Icon | :fontawesome-solid-box-archive:
 Available since | 
 Functional group | Knowledge transfer
 Purpose | Integration of SCORM packages, created with other authoring tools

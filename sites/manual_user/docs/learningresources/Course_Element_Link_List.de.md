@@ -5,7 +5,7 @@
 
 Name | Linkliste
 ---------|----------
-Icon | ![Linkliste Icon](assets/linklist.png){ class=size24  }
+Icon | :fontawesome-solid-link:
 Verfügbar seit | 
 Funktionsgruppe | Andere
 Verwendungszweck | Linksammlungen innerhalb der Kursstruktur (Kursmenü)

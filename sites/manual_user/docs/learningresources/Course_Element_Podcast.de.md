@@ -5,7 +5,7 @@
 
 Name | Podcast
 ---------|----------
-Icon | ![Podcast Icon](assets/podcast.png){ class=size24  }
+Icon | :fontawesome-solid-podcast:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von abonnierbaren Audio- und Video-Episoden

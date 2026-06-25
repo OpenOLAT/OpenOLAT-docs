@@ -4,7 +4,7 @@
 
 Name | Microsoft Teams
 ---------|----------
-Icon | ![Microsoft Teams Icon](assets/course_element_microsoft_teams_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Verfügbar seit | Release 15.4
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software Microsoft Teams

@@ -4,7 +4,7 @@
 
 Name | Wiki
 ---------|----------
-Icon | ![Wiki Icon](assets/wiki_icon.png){ class=size24 }
+Icon | :fontawesome-solid-globe:
 Available since | 
 Functional group | Communication and collaboration
 Purpose | Collaborative content creation

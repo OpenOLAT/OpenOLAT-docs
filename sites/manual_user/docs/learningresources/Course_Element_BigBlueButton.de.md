@@ -5,7 +5,7 @@
 
 Name | BigBlueButton
 ---------|----------
-Icon | ![BigBlueButton Icon](assets/course_element_bigbluebutton_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Verfügbar seit | 
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software BigBlueButton

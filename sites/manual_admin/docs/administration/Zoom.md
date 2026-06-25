@@ -83,7 +83,7 @@ Select **LTI Moodle** on the left. OpenOlat uses the LTI Moodle integration.
 
 We first activate the Calendar feature. This tells Zoom to inform OpenOlat about new meetings and meeting updates:
 
-![](assets/zoom_3rd_party_credentials_calendar.png){ class="shadow lightbox" }
+:fontawesome-regular-calendar-days:
 
 Click "Add Instance" to open server instance dialog:
 

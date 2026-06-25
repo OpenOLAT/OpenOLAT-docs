@@ -3,7 +3,7 @@
 
 ##  Kursbaustein "Struktur" {: #structure}
 
-![structure icon](assets/structure.png)
+:fontawesome-solid-cubes:
 
 Der Kursbaustein „Struktur“ dient der Gliederung des Kurses und bietet
 standardmässig eine automatische Übersicht über alle ihm untergeordneten
@@ -14,7 +14,7 @@ trennen. Weitere Informationen finden Sie
 
 ##  Kursbaustein "HTML Seite" {: #single_page}
 
-![single page icon](assets/single_page.png)
+:fontawesome-solid-file-lines:
 
 Im Kursbaustein "HTML Seite" können Sie verschiedene Dateien direkt in die
 Kursstruktur eingebunden werden. Diese webspezifischen Dateien (pdf, html)
@@ -30,7 +30,7 @@ Inhalten. Weitere Informationen zu den Kursbausteinen "HTML Seite" und
 
 ##  Kursbaustein "Externe Seite" {: #external_page}
 
-![external page icon](assets/external_page.png)
+:fontawesome-solid-arrow-up-right-from-square:
 
 Mit Hilfe des Kursbausteins "Externe Seite" können Sie eine externe
 Internetseite aufrufen. Geben Sie einfach die gewünschte URL in der
@@ -78,7 +78,7 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 
 ## Kursbaustein "CP-Lerninhalt" {: #CP_learning_content}
 
-![icon cp learning content](assets/content.png)
+:fontawesome-solid-box-archive:
 
 Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie
@@ -90,7 +90,7 @@ Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).
 
 ##  Kursbaustein "SCORM-Lerninhalt" {: #SCORM_learning_content}
 
-![icon scorm learning content](assets/scorm.png)
+:fontawesome-solid-box-archive:
 
 Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen Systemen eingebunden werden können. Weitere Informationen zur Konfiguration des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](Course_Element_SCORM_Learning_Content.de.md).
 
@@ -132,7 +132,7 @@ angezeigt, wer das Dokument als letztes bearbeitet hat.
 
 ##  Kursbaustein "Ordner" {: #folder}
 
-![icon folder](assets/folder.png)
+:fontawesome-regular-folder-open:
 
 Im Kursbaustein "Ordner" können Sie Dateien zum Download anbieten. Vielfach
 wird der Kursbaustein Ordner dazu verwendet, Kursmaterialien wie Folien oder
@@ -148,7 +148,7 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 
 ## Kursbaustein "Podcast" {: #podcast}
 
-![icon podcast](assets/podcast.png)
+:fontawesome-solid-podcast:
 
 Den Kursbaustein "Podcast" können Sie entweder dazu benutzen, Ihre eigenen
 Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat
@@ -160,7 +160,7 @@ Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcas
 [konfigurieren ](../learningresources/Podcast_Configuration.de.md)erfahren Sie in separaten Kapiteln.
 
 ## Kursbaustein "Blog" {: #blog}
-![icon blog](assets/blog.png)
+:fontawesome-solid-bullhorn:
 
 Über den "Blog" können Sie die Teilnehmer des Kurses über aktuelle Themen in
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
@@ -178,7 +178,7 @@ separaten Seiten.
 
 ## Kursbaustein "Video" {: #video}
 
-![icon video](assets/video_64_0_434343_none.png)
+:fontawesome-solid-film:
 
 Mit dem Kursbaustein "Video" können Sie selbst erstellte Videos oder über eine
 URL importierte Videos, die als Lernressource Video in OLAT vorliegen, Ihrem

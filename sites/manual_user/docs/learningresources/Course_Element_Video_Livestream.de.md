@@ -4,7 +4,7 @@
 
 Name | Video Livestream
 ---------|----------
-Icon | ![Video Livestream Icon](assets/course_element_video_livestream_icon.png){ class=size24  }
+Icon | :fontawesome-solid-video:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige eines Video-Livestreams (von dem/der Administrator:in eingerichtet)

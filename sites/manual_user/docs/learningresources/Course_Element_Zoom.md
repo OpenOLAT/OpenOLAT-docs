@@ -4,7 +4,7 @@
 
 Name | Zoom
 ---------|----------
-Icon | ![Zoom Icon](assets/course_element_zoom_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Available since | 
 Functional group | Communication und collaboration
 Purpose | Integration of the Zoom web conferencing software 

@@ -2,7 +2,7 @@
 
 ![pers_menu_calendar_v3_de.png](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox"}
 
-![icon_calendar](assets/icon_calendar.png)
+:fontawesome-regular-calendar-days:
 
 The calendar function is available in various places:
 

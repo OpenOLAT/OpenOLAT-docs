@@ -108,7 +108,7 @@ Reminder e-mails can be configured here according to specific criteria. Further 
 
 ## Comparison: Test and Self-test
 
-Feature | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/selftest.png){ class=size16 } Selftest
+Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selftest
 ------|------|------
 Intended use | Examination test, test with the possibility of examination by the teacher, normal test | Exercise, self-evaluation
 Created with | Test editor QTI 2.1| Test editor QTI 2.1

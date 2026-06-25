@@ -5,7 +5,7 @@
 
 Name | LTI Page
 ---------|----------
-Icon | ![LTI Page Icon](assets/basiclti.png){ class=size24  }
+Icon | :fontawesome-solid-up-right-from-square:
 Available since |  Release 15.5 (beta)
 Functional group | Others
 Purpose | Integration of external learning applications

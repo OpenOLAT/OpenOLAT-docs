@@ -96,7 +96,7 @@ With the course elements
 [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
 [BigBlueButton](Course_Element_BigBlueButton.md),
 [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
-[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [Virtual classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
+[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
 
 Which course element will be integrated and which functionalities will be available depends on which configuration your OpenOlat system administrator has selected.
 

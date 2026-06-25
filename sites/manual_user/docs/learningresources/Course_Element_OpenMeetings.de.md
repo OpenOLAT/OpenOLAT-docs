@@ -4,7 +4,7 @@
 
 Name | OpenMeetings
 ---------|----------
-Icon | ![OpenMeetings Icon](assets/course_element_openmeetings_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Verfügbar seit | 
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software OpenMeetings

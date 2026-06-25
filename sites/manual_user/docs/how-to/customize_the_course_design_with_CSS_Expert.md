@@ -128,7 +128,7 @@ in order to make the background of the page transparent:
 Here are some sections of a course's site with the appropriate ID or class
 selectors:
 
-![](assets/css_structure.png){ class="shadow lightbox" }  
+:fontawesome-solid-cubes:  
 
  **1\. Upper menu:** CSS ID selector: `#o_navbar_container`
 

@@ -2,7 +2,7 @@
 
 ## Kursbaustein „LTI-Seite“ {: #lti}
 
-![lti.png](assets/basiclti.png)
+:fontawesome-solid-up-right-from-square:
 
 Mit Hilfe des Kursbausteins „LTI-Seite“ können Sie externe Lernapplikationen
 in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen.
@@ -127,7 +127,7 @@ der Lernapplikation.
 
 ## Kursbaustein „Themenvergabe“  {: #topic_assignment}
 
-![circle.png](assets/projectbroker.png)
+:fontawesome-regular-circle:
 
 Der Kursbaustein „Themenvergabe“ eignet sich dazu, wenn Sie in Ihrem Kurs
 Themen wie beispielsweise Semesterarbeiten ausschreiben und betreuen lassen
@@ -434,7 +434,7 @@ Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
 
 ## Kursbaustein „Linkliste“ {: #linklist}
 
-![linkliste.png](assets/linklist.png)
+:fontawesome-solid-link:
 
 Der Kursbaustein "Linkliste" erlaubt es schnell und einfach eine Linksammlung
 für einen Kurs anzulegen. Keinerlei HTML-Kenntnisse werden dazu benötigt. In

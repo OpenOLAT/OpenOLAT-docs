@@ -4,7 +4,7 @@
 
 Name | Umfrage
 ---------|----------
-Icon | ![Umfrage Icon](assets/formular_434343_64.png){ class=size24  }
+Icon | :fontawesome-solid-sliders:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zur Integration der Lernressource "Formular"

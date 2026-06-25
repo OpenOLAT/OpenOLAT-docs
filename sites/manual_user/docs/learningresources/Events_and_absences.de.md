@@ -205,7 +205,7 @@ Im Fortschritt wird die Anwesenheit grafisch dargestellt. Grün symbolisiert die
 ![attention-icon](assets/attention_434343_64.png){class="size24"}<br>
 In der Achtungsspalte mit dem Symbol wird angezeigt, ob die definierte Anwesenheitsquote erreicht worden ist. Wird ein rotes Ausrufezeichen angezeigt, wurde das erforderliche Limit nicht erreicht.
 
-![info](assets/infomessage.png){class="size24"}<br>
+:fontawesome-solid-circle-info:<br>
 In der Infospalte werden Informationen angezeigt, welche von der Standardeinstellung abweichen. Dies ist beispielsweise ein persönlicher Schwellwert oder ein späterer Kursstart. Diese beiden Optionen können in den Einstellungen (Stift) definiert werden. Der persönliche Schwellwert definiert die zu erreichende Anwesenheitsquote für den/die entsprechenden Teilnehmende:n. 
 
 Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wieder ein. 

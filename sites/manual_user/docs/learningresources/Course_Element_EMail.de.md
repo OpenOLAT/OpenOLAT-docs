@@ -5,7 +5,7 @@
 
 Name | E-Mail
 ---------|----------
-Icon | ![E-Mail Icon](assets/contact.png){ class=size24  }
+Icon | :fontawesome-regular-envelope:
 Verfügbar seit | Neuauflage mit Release 18.0
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Kontaktformular mit E-Mail-Versand

@@ -5,7 +5,7 @@
 
 Name | Self-test
 ---------|----------
-Icon | ![Test Icon](assets/test.png){ class=size24 }
+Icon | :fontawesome-solid-square-pen:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource "test" into a course

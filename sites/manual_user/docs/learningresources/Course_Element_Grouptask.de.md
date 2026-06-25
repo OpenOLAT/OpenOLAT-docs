@@ -5,7 +5,7 @@
 
 Name | Gruppenaufgabe
 ---------|----------
-Icon | ![Gruppenaufgabe Icon](assets/task.png){ class=size24  }
+Icon | :fontawesome-solid-list-check:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung

@@ -17,7 +17,7 @@ The OpenOlat [Questionnaire](../learningresources/Form_Elements.md#question-rule
 
 ##  Course Element: Assessment {: #course_element_assessment}
 
-![assesment icon](assets/manual_score.png)
+:fontawesome-regular-thumbs-up:
 
 The course element "Assessment" is suitable for evaluating services which are not explicitly submitted electronically, e.g. presence presentations or online websites.
 
@@ -27,7 +27,7 @@ On separate pages you will learn how to set up, perform and configure an [assess
 
 ##  Course Element: Task {: #course_element_task}
 
-![task icon](assets/task.png)
+:fontawesome-solid-list-check:
 
 Coaches can use the Task course element to organize actions and submission tasks. Learners upload their submissions to the OpenOlat course and receive feedback or assessment from the teacher. Revisions can also be requested. Sample solutions can also be provided using this course element.
 
@@ -78,7 +78,7 @@ General information on the subject of portfolios and e-portfolios can be found [
 
 ## Course Element: Group Task {: #course_element_group_tasks}
 
-![Task Icon](assets/task.png)
+:fontawesome-solid-list-check:
 
 The course element Group task functions largely like the course element[Task](Course_Element_Task.md). 
 
@@ -92,7 +92,7 @@ When the editor is closed, the tab "All participants" does not show the individu
 
 ##  Course Element: Test {: #course_element_test}
 
-![test icon](assets/test.png)
+:fontawesome-solid-square-pen:
 
 The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of question types, it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
 
@@ -118,7 +118,7 @@ The test results of the participants will be personalised.
 
 ##  Course Element: Self-test {: #course_element_self_test}
 
-![test icon](assets/test.png)
+:fontawesome-solid-square-pen:
 
 Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "Highscore" is omitted.
 
@@ -164,7 +164,7 @@ The use of this course element makes sense e.g. if the learners have to fill in 
 
 ##  Course Element: Survey {: #course_element_survey}
 
-![survey icon](assets/formular_434343_64.png)
+:fontawesome-solid-sliders:
 
 With the course element "Survey" you can add an online questionnaire to your course. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft.  A questionnaire must first be created with the learning resource "Form" in the author area. If you have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results are stored anonymously. 
 
@@ -179,7 +179,7 @@ Further information on the subject of questionnaires and surveys can be found in
 
 ##  Course Element: Checklist {: #course_element_checklist}
 
-![Checkliste Icon](assets/checklist.png)
+:fontawesome-regular-square-check:
 
 The course element allows you to embed and evaluate checklists in the course structure. A checklist contains check elements with completed and uncompleted tasks or checks. The checklist can be used as an informational tool that helps users to complete smaller tasks or to keep information secure, for example, by maintaining attendance or to-do lists. It is the only module that the user or course participant can complete as a self-assessment.
 

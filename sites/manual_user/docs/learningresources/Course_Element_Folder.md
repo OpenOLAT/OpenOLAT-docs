@@ -4,7 +4,7 @@
 
 Name | Folder
 ---------|----------
-Icon | ![Task Icon](assets/folder.png){ class=size24 }
+Icon | :fontawesome-regular-folder-open:
 Available since | New edition with release 19.1
 Functional group | Knowledge transfer
 Purpose | Provision of files for download (e.g. material for the course)

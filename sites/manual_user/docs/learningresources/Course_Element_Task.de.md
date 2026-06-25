@@ -4,7 +4,7 @@
 
 Name | Aufgabe
 ---------|----------
-Icon | ![Aufgabe Icon](assets/task.png){ class=size24  }
+Icon | :fontawesome-solid-list-check:
 Verfügbar seit | Neuauflage mit Release 19
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten, wie Abgabe von Lösungsdokumenten, Feedback (auch als Peer-Review) und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung

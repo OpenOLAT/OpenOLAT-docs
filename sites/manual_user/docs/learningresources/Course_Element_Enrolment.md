@@ -6,7 +6,7 @@
 
 Name | Enrolment
 ---------|----------
-Icon | ![Enrolment Icon](assets/enrolment.png){ class=size24 }
+Icon | :fontawesome-solid-right-to-bracket:
 Available since | 
 Functional group | Administration and organisation
 Purpose | self registration of participants in groups

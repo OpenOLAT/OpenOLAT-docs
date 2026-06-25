@@ -5,7 +5,7 @@
 
 Name | Terminplanung
 ---------|----------
-Icon | ![Terminplaniung Icon](assets/dateentry.png){ class=size24  }
+Icon | :fontawesome-regular-calendar-check:
 Verfügbar seit | Release 15.3
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Terminfindung und Einschreibung für bestimmte gemeinsame Termine

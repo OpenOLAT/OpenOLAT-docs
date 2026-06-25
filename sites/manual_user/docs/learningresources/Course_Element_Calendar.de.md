@@ -5,7 +5,7 @@
 
 Name | Kalender
 ---------|----------
-Icon | ![Kalender Icon](assets/calendar.png){ class=size24  }
+Icon | :fontawesome-regular-calendar-days:
 Verfügbar seit | 
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Einbettung des Kurskalenders in die Kursstruktur (Kursmenü)

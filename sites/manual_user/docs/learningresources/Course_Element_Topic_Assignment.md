@@ -5,7 +5,7 @@
 
 Name | Topic Assignment
 ---------|----------
-Icon | ![Topic Assignment Icon](assets/projectbroker.png){ class=size24 }
+Icon | :fontawesome-regular-circle:
 Available since | 
 Functional group | Others
 Purpose | Invitation to tender, selection and coaching of topics to be worked on by the course participants
@@ -189,7 +189,7 @@ The course element "Topic assignment" is used within an OpenOlat course. A cours
 
 ## Working with topic assignment
 
-![](assets/projectbroker.png){class="size24"}
+:fontawesome-regular-circle:
 
 ### Select topic {: #select}
 

@@ -5,7 +5,7 @@
 
 Name | Portfolio Task
 ---------|----------
-Icon | ![Portfolio task Icon](assets/portfolio_434343_64.png){ class=size24 }
+Icon | :fontawesome-solid-briefcase:
 Available since | 
 Functional group | Assessment
 Purpose | Provision of a portfolio folder for each course participant to work on

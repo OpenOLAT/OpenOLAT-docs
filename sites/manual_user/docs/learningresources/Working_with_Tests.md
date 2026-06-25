@@ -1,6 +1,6 @@
 # Working with Tests
 
-![](assets/test.png)
+:fontawesome-solid-square-pen:
 
 As a rule, tests in OpenOlat are used to verify knowledge. Here are a few
 examples for the use of tests:
@@ -50,7 +50,7 @@ In the section "Performance summary" you will get further information e.g.
 If you have further attempts to process the test, you can run through the test
 again with "Start". Previous runs are retained.
 
-![](assets/selftest.png){class="size24"}
+:fontawesome-solid-square-pen:
 Self-Test
 
 In OpenOlat there are two different course elements for tests: "Tests" and

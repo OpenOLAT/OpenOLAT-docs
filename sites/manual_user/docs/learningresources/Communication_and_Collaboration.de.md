@@ -2,7 +2,7 @@
 Mehr Informationen zu [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md)
 
 ## Kursbaustein "Wiki" {: #wiki}
-![Wiki Icon](../assets/wiki_icon.png)
+:fontawesome-solid-globe:
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
@@ -19,7 +19,7 @@ Im Kapitel "Lernaktivitäten im Kurs" finden Sie unter dem Punkt "Wiki" Informat
     Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
 ## Kursbaustein "Forum" {: #forum}
-![forum icon](../assets/forum_icon.png)
+:fontawesome-regular-comments:
 
 Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel "Lernaktivitäten im Kurs" finden Sie unter dem Punkt ["Forum"](../learningresources/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
 
@@ -84,7 +84,7 @@ Hier können die Benutzerberichtigungen des Bausteins eingestellt und definiert 
 
 
 ##  Kursbaustein "Teilnehmer Ordner" {: #participant_folder}
-![Ordner Icon](../assets/participant_folder_icon.png)
+:fontawesome-solid-inbox:
 
 Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum einen ist dies der "Teilnehmer Abgabeorder", über den Teilnehmende Dateien an Betreuer abgeben können. Zum anderen der "Betreuer Rückgabeorder", in welchem die Betreuer Dateien an alle Teilnehmer gleichzeitig oder individuell zurückgeben können. Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen einzelnen Teilnehmer sichtbar sind. 
 
@@ -135,7 +135,7 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 
 
 ## Kursbaustein "Teilnehmerliste"  {: #participant_list}
-![Teilnehmerliste Icon](../assets/participant_list_icon.png)
+:fontawesome-solid-users:
 
 In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat- Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
 

@@ -3,7 +3,7 @@
 
 ##  Course Element: LTI Page {: #lti}
 
-![lti.png](assets/basiclti.png)
+:fontawesome-solid-up-right-from-square:
 
 By means of the course element "LTI page" it is possible to integrate external
 learning applications in your course before having their content displayed in
@@ -128,7 +128,7 @@ learning application.
 
 ##  Course Element: Topic Assignment {: #topic_assignment}
 
-![circle.png](assets/projectbroker.png)
+:fontawesome-regular-circle:
 
 The course element "Topic assignment" is useful if you want to announce e.g.
 topics for term papers in your course before having them supervised. Course
@@ -430,7 +430,7 @@ assigned".
 
 ##  Course Element: Link list {: #linklist}
 
-![linklist.png](assets/linklist.png)
+:fontawesome-solid-link:
 
 The course element "Link list" enables the author to quickly assemble a
 collection of links relevant to the course. No HTML proficiency is required.
@@ -449,7 +449,7 @@ using the trash / + buttons.
 
 ##  Course Element "Assignment of dates"
 
-![dateentry.png](assets/dateentry.png)
+:fontawesome-regular-calendar-check:
 
 Here you can create and edit those dates for which users can enroll. It is
 also possible to define if cancelling an enrollment shall be allowed.

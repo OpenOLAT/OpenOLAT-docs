@@ -5,7 +5,7 @@
 
 Name | Portfolioaufgabe
 ---------|----------
-Icon | ![Portfolioaufgabe Icon](assets/portfolio_434343_64.png){ class=size24  }
+Icon | :fontawesome-solid-briefcase:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Bereitstellung einer Portolio-Mappe für jeden/jede Kursteilnehmer:in zur Bearbeitung 

@@ -4,7 +4,7 @@
 
 Name | Video
 ---------|----------
-Icon | ![Aufgabe Icon](assets/video_64_0_434343_none.png){ class=size24  }
+Icon | :fontawesome-solid-film:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von mp4-Dateien, inkl. der Ergänzungen in OpenOlat (Quizzes, Kommentare, Segmente, Annotationen, Kapitel, Poster, Untertitel)

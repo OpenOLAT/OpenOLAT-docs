@@ -4,7 +4,7 @@
 
 Name | Themenvergabe
 ---------|----------
-Icon | ![Themenvergabe Icon](assets/projectbroker.png){ class=size24  }
+Icon | :fontawesome-regular-circle:
 Verfügbar seit | 
 Funktionsgruppe | Andere
 Verwendungszweck | Ausschreibung, Auswahl und Betreuung von Themen zur Bearbeitung durch die Kursteilnehmer:innen
@@ -187,7 +187,7 @@ Der Kursbaustein "Themenvergabe" kommt innerhalb eines OpenOlat-Kurses zum Einsa
 
 ## Arbeiten mit der Themenvergabe
 
-![](assets/projectbroker.png){class="size24"}
+:fontawesome-regular-circle:
 
 ### Thema auswählen {: #select}
 

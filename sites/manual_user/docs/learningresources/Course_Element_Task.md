@@ -4,7 +4,7 @@
 
 Name | Task
 ---------|----------
-Icon | ![Task Icon](assets/task.png){ class=size24 }
+Icon | :fontawesome-solid-list-check:
 Available since | New edition with release 19
 Functional group | Assessment
 Purpose | Modeling of complex task workflows with configurable substeps such as submission of solution documents, feedback and revision loop, provision of sample solution and assessment

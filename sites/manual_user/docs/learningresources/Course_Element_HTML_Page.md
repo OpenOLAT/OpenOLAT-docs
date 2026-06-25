@@ -4,7 +4,7 @@
 
 Name | HTML-Page
 ---------|----------
-Icon | ![HTML page Icon](assets/single_page.png){ class=size24 }
+Icon | :fontawesome-regular-file-lines:
 Available since | New edition with release 18
 Functional group | Knowledge transfer
 Purpose | Presentation of different content elements (text, images, videos) within an HTML page

@@ -4,7 +4,7 @@
 
 Name | HTML-Seite
 ---------|----------
-Icon | ![HTML-Seite Icon](assets/html_page_icon.png){ class=size24  }
+Icon | :fontawesome-regular-file-lines:
 Verfügbar seit | Neuauflage mit Release 18
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Darstellung verschiedener Inhalte (Texte, Bilder, Videos) innerhalb einer HTML-Seite

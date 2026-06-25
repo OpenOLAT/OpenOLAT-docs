@@ -16,7 +16,7 @@ Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensü
 In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_Editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
 
 ## Kursbaustein "Bewertung"  {: #course_element_assessment}
-![Bewertung Icon](assets/manual_score.png)
+:fontawesome-regular-thumbs-up:
 
 Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
 
@@ -26,7 +26,7 @@ Auf separaten Seiten erfahren Sie wie man eine  [Bewertung](Course_Element_Asses
 
 ## Kursbaustein "Aufgabe" {: #course_element_task}
 
-![Aufgabe Icon](assets/task.png)
+:fontawesome-solid-list-check:
 
 Mit Hilfe des Kursbausteins Aufgabe können Lehrende Dateiabgaben und
 Einsendeaufgaben organisieren. Lernende laden dabei ihre Einreichungen in den
@@ -53,7 +53,7 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 ## Kursbaustein "Portfolioaufgabe" {: #course_element_portfolio}
 
-![Portfolio Icon](assets/portfolio_434343_64.png)
+:fontawesome-solid-briefcase:
 
 Über den Kursbaustein „Portfolioaufgabe“ werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die
 Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren. 
@@ -90,7 +90,7 @@ Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 [hier](../area_modules/index.de.md) nachlesen.
 
 ## Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
-![Aufgabe Icon](assets/task.png)
+:fontawesome-solid-list-check:
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
 ["Aufgabe"](Course_Element_Task.de.md).
@@ -109,7 +109,7 @@ Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte
 Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.  
 
 ##  Kursbaustein „Test“  {: #course_element_test}
-![Test Icon](assets/test.png)
+:fontawesome-solid-square-pen:
 
 Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
@@ -167,7 +167,7 @@ Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 
 ##  Kursbaustein "Selbsttest" {: #course_element_self_test}
 
-![test icon](assets/test.png)
+:fontawesome-solid-square-pen:
 
 Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab
 "Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
@@ -229,7 +229,7 @@ Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden besti
 
 ##  Kursbaustein "Umfrage" {: #course_element_survey}
 
-![Umfrage Icon](assets/formular_434343_64.png)
+:fontawesome-solid-sliders:
 
  
 Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
@@ -249,7 +249,7 @@ entsprechenden Unterkapiteln.
 
 ## Kursbaustein "Checkliste"  {: #course_element_checklist}
 
-![Checkliste Icon](assets/checklist.png)
+:fontawesome-regular-square-check:
 
 Der Kursbaustein bietet Ihnen die Möglichkeit, Check- oder Prüflisten in der Kursstruktur einzubetten und zu bewerten. Eine Checkliste enthält
 Checkelemente mit erledigten und unerledigten Tätigkeiten oder Überprüfungen.

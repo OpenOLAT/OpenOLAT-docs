@@ -1,6 +1,6 @@
 # Working with Topic Assignment
 
-![](assets/projectbroker.png){class="size24"}
+:fontawesome-regular-circle:
 
 ## Select topic {: #select}
 
