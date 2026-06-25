@@ -1,5 +1,5 @@
 # Communication and Collaboration
-Get more info on [Virtual classrooms](../course_elements/Virtual_classrooms.md)
+Get more info on [Virtual classrooms](../basic_concepts/Virtual_classrooms.md)
 
 ## Course Element: Wiki {: #wiki}
 ![Wiki icon](../assets/wiki_icon.png)
