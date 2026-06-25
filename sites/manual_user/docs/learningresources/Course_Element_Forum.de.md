@@ -4,7 +4,7 @@
 
 Name | Forum
 ---------|----------
-Icon | ![Forum Icon](assets/forum_icon.png){ class=size24  }
+Icon | :fontawesome-regular-comments:
 Verfügbar seit | Neuauflage mit Release 18.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Asynchrone Online-Diskussionen

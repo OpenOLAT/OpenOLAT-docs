@@ -15,7 +15,7 @@
 
 The document pool can be added as a site in the main navigation on top.
 
-![](assets/documentpool_structure.png){ class="shadow lightbox" }
+:fontawesome-solid-cubes:
 
 ## Tab Document pool
 
@@ -65,4 +65,4 @@ Finally an info page can be designed. It appears on the top level of the
 document pool. It is recommended to add here a user manual for the usage of
 the document pool.
 
-![](assets/documentpool_info_page.png){ class="shadow lightbox" }
+:fontawesome-solid-file-lines:

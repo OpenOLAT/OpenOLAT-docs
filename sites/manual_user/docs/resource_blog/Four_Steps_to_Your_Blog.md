@@ -70,7 +70,7 @@ within the course view.
   
 1. Close the course editor and publish the course.
 
-![publish_blog.png](assets/publish_blog.png)  
+:fontawesome-solid-bullhorn:  
   
 Your blog is now embedded and course participants can read the first entry.
 

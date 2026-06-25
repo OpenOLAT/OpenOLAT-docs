@@ -5,7 +5,7 @@
 
 Name | Test
 ---------|----------
-Icon | ![Test Icon](assets/test.png){ class=size24  }
+Icon | :fontawesome-solid-square-pen:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
@@ -240,7 +240,7 @@ Mehr Informationen zum Thema Badges und wie sie vergeben werden erfahren Sie im 
 
 ## Test und Selbsttest im Vergleich {: #compare_test_self-test}
 
-Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/selftest.png){ class=size16 } Selbsttest
+Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selbsttest
 ------|------|------
  Einsatzzweck | Prüfungstest, Test mit Einblick für die Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
  Herstellung mit | [Testeditor](Test_editor_QTI_2.1.de.md) | [Testeditor](Test_editor_QTI_2.1.de.md)

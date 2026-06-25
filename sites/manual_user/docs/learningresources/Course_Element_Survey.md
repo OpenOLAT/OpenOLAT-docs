@@ -4,7 +4,7 @@
 
 Name | Survey
 ---------|----------
-Icon | ![Survey Icon](assets/formular_434343_64.png){ class=size24 }
+Icon | :fontawesome-solid-sliders:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of learning resource "form"

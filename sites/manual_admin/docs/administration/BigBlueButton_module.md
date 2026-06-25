@@ -114,7 +114,7 @@ to the course/group (context) and/or delete this online-meeting. The search func
 
 Calendar overview of all recorded online appointments to check times with high occupancy and display overlaps graphically.
 
-![](assets/bbb_administration_calendar.png){ class="shadow lightbox" }
+:fontawesome-regular-calendar-days:
 
 ---
 

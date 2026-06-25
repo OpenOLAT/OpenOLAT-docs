@@ -1,6 +1,6 @@
 # Learning resource: Video
 
-![icon_video.png](assets/video_64_0_434343_none.png)
+:fontawesome-solid-film:
 
 The "Video" learning resource is the central element for videos in OpenOlat. It is (created)[../ area_modules/authoring_new_course.de.md#import-learning-resources] in the authoring area via "Import File" (to upload an MP4 file) or "Import via URL" (to embed an external video, e.g., from YouTube or Vimeo) and can then be found in the "My Entries" section of the authoring area.
 

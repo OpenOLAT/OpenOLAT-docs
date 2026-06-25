@@ -4,7 +4,7 @@
 
 Name | Ordner
 ---------|----------
-Icon | ![Ordner Icon](assets/folder.png){ class=size24  }
+Icon | :fontawesome-regular-folder-open:
 Verfügbar seit | Neuauflage mit Release 19.1
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von Dateien zum Download (z.B. Material zum Kurs)

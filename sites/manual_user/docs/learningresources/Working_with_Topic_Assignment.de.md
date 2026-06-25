@@ -1,6 +1,6 @@
 # Arbeiten mit der Themenvergabe
 
-![](assets/projectbroker.png){class="size24"}
+:fontawesome-regular-circle:
 
 ## Thema auswählen {: #select}
 

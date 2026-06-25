@@ -3,7 +3,7 @@
 
 ##  Course Element: Enrolment {: #enrolment}
 
-![enrolment.png](assets/enrolment.png)
+:fontawesome-solid-right-to-bracket:
 
 The course element "Enrolment" is used to let course participants enroll in
 one or more groups. You can also define the order of the groups in the
@@ -30,7 +30,7 @@ list and if moving up automatically from that list should be possible.
 
 ## Course Element: Notifications {: #notification}
 
-![notification.png](assets/infomessage.png)
+:fontawesome-solid-circle-info:
 
 This course element allows you to embed notifications in your course
 structure. These notifications will be visible in your course as well as in
@@ -69,7 +69,7 @@ actual number of HTML code is used.
 
 ##  Course Element: E-Mail  {: #mail}
 
-![contact.png](assets/contact.png)
+:fontawesome-regular-envelope:
 
 By means of the course element "Email" you provide your course participants
 with the possibility to send an email to pre-defined recipients.
@@ -139,7 +139,7 @@ addresses in your email form.
 
 ##  Course Element: Calendar  {: #cal}
 
-![calendar.png](assets/calendar.png)
+:fontawesome-regular-calendar-days:
 
 By means of the course element "Calendar" you can embed a course calendar in
 the course structure. It is also possible to add several instances of the same
@@ -173,7 +173,7 @@ settings.
 
 ##  Course Element: Appointment scheduling {: #appointment_scheduling}
 
-![appointment.png](assets/dateentry.png)
+:fontawesome-regular-calendar-check:
 
 The course element Appointment Scheduling can be used to organize enrollments
 for specific appointments as well as to find appointments. In general, you can

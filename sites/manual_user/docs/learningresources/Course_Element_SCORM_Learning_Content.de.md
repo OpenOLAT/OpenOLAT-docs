@@ -4,7 +4,7 @@
 
 Name | SCORM-Lerninhalt
 ---------|----------
-Icon | ![Scorm learning content Icon](assets/scorm.png){ class=size24  }
+Icon | :fontawesome-solid-box-archive:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeugen erstellt wurden

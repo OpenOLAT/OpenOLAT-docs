@@ -4,7 +4,7 @@
 
 Name | Teilnehmer:innen Ordner
 ---------|----------
-Icon | ![Teilnehmer:innen Ordner Icon](assets/participant_folder_icon.png){ class=size24  }
+Icon | :fontawesome-solid-inbox:
 Verfügbar seit | aktualisiert in Release 18.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Dateiaustausch zwischen Teilnehmenden und Betreuenden (je Teilnehmer:in ein Abgabeordner und ein Rückgabeordner)

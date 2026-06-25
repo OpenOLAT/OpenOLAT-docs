@@ -195,7 +195,7 @@ Progress is displayed graphically. Green symbolizes attendance, orange symbolize
 ![attention-icon](assets/attention_434343_64.png){class="size24"}<br>
 The attention column with the symbol indicates whether the defined attendance rate has been achieved. If a red exclamation mark is displayed, the required limit has not been reached.
 
-![info](assets/infomessage.png){class=“size24”}<br>
+:fontawesome-solid-circle-info:<br>
 The info column displays information that deviates from the default settings. This could be a personal threshold value or a later course start date, for example. These two options can be defined in the settings (pencil icon). The personal threshold value defines the attendance rate to be achieved for the participant(s) in question. 
 
 [To the top of the page ^](#course_admin_events_and_absences)

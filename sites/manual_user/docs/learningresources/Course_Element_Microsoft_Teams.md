@@ -4,7 +4,7 @@
 
 Name | Microsoft Teams
 ---------|----------
-Icon | ![Microsoft Teams Icon](assets/course_element_microsoft_teams_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Available since | 
 Functional group | Communication und collaboration
 Purpose | Integration of the Microsoft Teams web conferencing software 

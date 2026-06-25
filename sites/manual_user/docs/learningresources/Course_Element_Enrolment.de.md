@@ -4,7 +4,7 @@
 
 Name | Einschreibung
 ---------|----------
-Icon | ![Einschreibung Icon](assets/enrolment.png){ class=size24  }
+Icon | :fontawesome-solid-right-to-bracket:
 Verfügbar seit | 
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | eigenständige Eintragung der Teilnehmer:innen in Gruppen

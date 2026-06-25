@@ -5,7 +5,7 @@
 
 Name | Assessment
 ---------|----------
-Icon | ![Assessment Icon](assets/manual_score.png){ class=size24 }
+Icon | :fontawesome-regular-thumbs-up:
 Available since | 
 Functional group | Assessment
 Purpose | Assessment of performances, even if they were performed outside OpenOlat (e.g. presence presentations, practical work)

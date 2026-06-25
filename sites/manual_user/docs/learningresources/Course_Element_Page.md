@@ -4,7 +4,7 @@
 
 Name | Page
 ---------|----------
-Icon | ![Page Icon](assets/page.png){ class=size24 }
+Icon | :fontawesome-solid-file-lines:
 Available since | Release 18
 Functional group | Knowledge Transfer
 Purpose | Display of different content in a block-based layout

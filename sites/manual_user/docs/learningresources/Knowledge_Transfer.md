@@ -3,7 +3,7 @@
 
 ##  Course Element: Structure {: #structure}
 
-![structure icon](assets/structure.png)
+:fontawesome-solid-cubes:
 
 The course element " Structure" serves to arrange your course. By default it
 offers an automatic overview of all sub-elements along with short title,
@@ -13,7 +13,7 @@ and/or to clearly separate your modules. Further information can be found
 
 ##  Course Element: HTML Page {: #html_page}
 
-![single page icon](assets/single_page.png)
+:fontawesome-solid-file-lines:
 
 In the course element "HTML page" you can integrate various files directly
 into the course structure. These web-specific files (pdf, html) can already be
@@ -28,7 +28,7 @@ content. Further information on the course elements "HTML Page" and
 
 ##  Course Element: External Page {: #external_page}
 
-![external page icon](assets/external_page.png)
+:fontawesome-solid-arrow-up-right-from-square:
 
 With the help of the course element "External page" you can call up an
 external website. Simply enter the desired URL in the configuration in the tab
@@ -78,7 +78,7 @@ Disadvantage of using an «iframe« : your content might appear along with its o
 
 ##  Course Element: CP Learning Content {: #CP_learning_content}
 
-![icon cp learning content](assets/content.png)
+:fontawesome-solid-box-archive:
 
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create
@@ -91,7 +91,7 @@ Further information on the CP can be found
 
 ##  Course Element: SCORM Learning Content {: #SCORM_learning_content}
 
-![icon scorm learning content](assets/scorm.png)
+:fontawesome-solid-box-archive:
 
 Using the course element "SCORM Learning Content", externally created SCORM packages can be integrated into OpenOlat courses. SCORM is a standard with which content as well as interactive e-learning modules can be encapsulated and integrated into different systems. Further information on the configuration of the course element SCORM can be found in the chapter "[Course element: SCORM learning content](Course_Element_SCORM_Learning_Content.md)".
 
@@ -131,7 +131,7 @@ document last.
 
 ##  Course Element: Folder {: #folder}
 
-![icon folder](assets/folder.png)
+:fontawesome-regular-folder-open:
 
 In the course element "Folder" you can offer files for download. The course
 element folder is often used to provide course materials such as slides or
@@ -143,7 +143,7 @@ Further information on the configuration and use of the course element
 
 ##  Course Element: Podcast {: #podcast}
 
-![icon podcast](assets/podcast.png)
+:fontawesome-solid-podcast:
 
 The course element "Podcast" can either be used to easily provide others with
 your own audio and video files or with external podcast episodes in OpenOlat.
@@ -157,7 +157,7 @@ separate chapters.
 
 ##  Course Element: Blog {: #blog}
 
-![icon blog](assets/blog.png)
+:fontawesome-solid-bullhorn:
 
 Via the "Blog" you can inform the participants of the course about current
 topics in the form of text, pictures or video. You can integrate external
@@ -174,7 +174,7 @@ separate pages.
 
 ##  Course Element: Video {: #video}
 
-![icon video](assets/video_64_0_434343_none.png)
+:fontawesome-solid-film:
 
 With the course element "Video" you can add self-made videos or videos
 imported via a URL, which are available as learning resource video in OLAT, to

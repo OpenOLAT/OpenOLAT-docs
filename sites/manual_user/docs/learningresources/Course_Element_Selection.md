@@ -5,7 +5,7 @@
 
 Name | Selection
 ---------|----------
-Icon | ![Selection Icon](assets/icon_selection.png){ class=size24  }
+Icon | :fontawesome-solid-arrows-turn-right:
 Available since | Release 19.1
 Functional group | Administration and Organisation
 Purpose | Selection of a certain number of course elements within the course structure (course menu) by the participants

@@ -4,7 +4,7 @@
 
 Name | Participant list
 ---------|----------
-Icon | ![Task Icon](assets/participant_list_icon.png){ class=size24 }
+Icon | :fontawesome-solid-users:
 Available since | 
 Functional group | Communication and collaboration
 Purpose | List of all course participants, grouped by roles

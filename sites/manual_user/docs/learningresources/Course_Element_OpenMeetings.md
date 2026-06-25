@@ -4,7 +4,7 @@
 
 Name | OpenMeetings
 ---------|----------
-Icon | ![OpenMeetings Icon](assets/course_element_openmeetings_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Available since | 
 Functional group | Communication und collaboration
 Purpose | Integration of the OpenMeetings web conferencing software 

@@ -29,7 +29,7 @@ Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_C
 
 ![learning_resource_test_v1_de.png](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
-![Test icon](assets/icon_test.png)
+:fontawesome-solid-square-pen:
 
 OpenOlat Tests können Tests sowohl zu Prüfungs- als auch zu Übungszwecken verwendet werden. Im ersten Fall können die Kursautor:innen die Testresultate einsehen und den Testpersonen zuordnen, im zweiten Fall werden die Resultate anonymisiert gespeichert. Jeder Test liegt in dem  standardisierten IMS-QTI 2.1 Format vor.
 
@@ -44,7 +44,7 @@ Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
 
 ![learning_resource_cp-content_v1_de.png](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
 
-![Content Icon](assets/icon_cp-content.png)
+:fontawesome-solid-box-archive:
 
 Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-Learning-Format. Die Spezifikation dieses Datenformats kommt ebenfalls von [IMS bzw. 1EdTech Consortium](https://de.wikipedia.org/wiki/IMS_Content_Packaging  "IMS bzw. 1EdTech Consortium"). OpenOlat unterstützt die IMS-CP Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können. Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel ["CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
 
@@ -70,7 +70,7 @@ Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstell
 
 ![learning_resource_podcast_v1_de.png](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
 
-![Podcast Icon ](assets/icon_podcast.png)
+:fontawesome-solid-podcast:
 
 Ein Podcast ermöglicht den Upload von Audio- oder Videodateien, die anschliessend in OpenOlat zur Verfügung gestellt werden können. Podcasts können entweder direkt in OpenOlat angehört oder angeschaut oder in Portalen wie iTunes abonniert werden, um die einzelnen Podcast-Episoden später auf mobile Endgeräte zu kopieren. Kursteilnehmende können Episoden auf einfache Art bewerten und kommentieren.
 
@@ -84,7 +84,7 @@ Weitere Informationen zum Thema Podcast finden Sie [hier](../learningresources/P
 
 ![learning_resource_blog_v1_de.png](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
 
-![Blog Icon](assets/icon_blog.png)
+:fontawesome-solid-bullhorn:
 
 In einem Blog können fachbezogene oder persönliche Informationen zeitlich strukturiert veröffentlicht und kommentiert werden. Blogs werden häufig als Online-Tagebuch oder Online-Journal eingesetzt. In Kursen eingebundene Blogs können auch von Kursteilnehmenden auf einfache Art bewertet und kommentiert werden.
 
@@ -98,7 +98,7 @@ Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources
 
 ![learning_resource_resource_folder_v1_de.png](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
 
-![Icon Ressourcenordner](assets/icon_sharedfolder.png)
+:fontawesome-regular-folder-open:
 
 Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und brauchen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter _sharedfolder angezeigt und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](../learningresources/Course_Settings.de.md) im Unterpunkt "Ressourcenordner".
 
@@ -151,7 +151,7 @@ Neben den Lernressourcen, die direkt in OpenOlat erstellt werden gibt es noch we
   
 
 ### SCORM-Lerninhalt
-![Icon SCORM](assets/icon_scorm.png)
+:fontawesome-solid-box-archive:
 
 Ein standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird, ist das SCORM-Format (Version 1.2). SCORM steht für "Sharable Content Object Reference Model" und ist ein Referenzmodell für austauschbare elektronische Lerninhalte der ["Advanced Distributed Learning Initiative"(ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte eignen sich für die Verwendung in OpenOlat-Kursen oder ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Sie Ihre Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS verwenden können.
 

@@ -5,7 +5,7 @@
 
 Name | Test
 ---------|----------
-Icon | ![Test Icon](assets/test.png){ class=size24 }
+Icon | :fontawesome-solid-square-pen:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource test into a course
@@ -31,7 +31,7 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
 
 !!! info "Note"
 
-    ![Test Icon](assets/selftest.png){class="size24"}
+    :fontawesome-solid-square-pen:
 
     There are two different course elements for tests in OpenOlat: "Tests" and ["Self_Tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, the test results are saved anonymously in the self-test. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
 
@@ -232,7 +232,7 @@ For more information on badges and how they are awarded, see the chapter ["Badge
 
 ## Compare tests and self-tests {: #compare_test_self-test}
 
-Attribute | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/selftest.png){ class=size16 } Selbsttest
+Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selbsttest
 ------|------|------
  Purpose of use | Assessment test, test with assessment option by the teacher, standard test | Exercise, self-assessment, no insight by teacher
  Fabrication with | [Test editor](Test_editor_QTI_2.1.md) | [Test editor](Test_editor_QTI_2.1.md)

@@ -5,7 +5,7 @@
 
 Name | Link list
 ---------|----------
-Icon | ![Link list Icon](assets/linklist.png){ class=size24 }
+Icon | :fontawesome-solid-link:
 Available since | 
 Functional group | Others
 Purpose | Link collections within the course structure (course menu)

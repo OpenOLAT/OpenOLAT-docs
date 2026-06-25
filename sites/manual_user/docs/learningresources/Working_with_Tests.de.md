@@ -1,6 +1,6 @@
 # Arbeiten mit Tests
 
-![](assets/test.png)
+:fontawesome-solid-square-pen:
 
 In der Regel dienen Tests in OpenOlat der Wissensüberprüfung.  Hier ein paar
 Beispiele für den Einsatz von Tests:
@@ -54,7 +54,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen,
 können Sie mit „Start“ den Test noch einmal durchlaufen. Bisherige Durchläufe
 bleiben dabei erhalten.
 
-![](assets/selftest.png){class="size24"}
+:fontawesome-solid-square-pen:
 **Selbsttest**
 
 In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: „Tests“ und

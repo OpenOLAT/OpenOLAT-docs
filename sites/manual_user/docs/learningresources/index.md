@@ -26,7 +26,7 @@ More information on course elements and the course editor can be found in the ch
 
 ![learning_resource_test_v1_de.png](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
-![Test icon](assets/icon_test.png)
+:fontawesome-solid-square-pen:
 
 Tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the test subjects; in the second case, the results are stored anonymously. Each test is available in the standardized IMS-QTI 2.1 format.
 
@@ -41,7 +41,7 @@ More information on using and creating tests can be found in the chapter ["Creat
 
 ![learning_resource_cp-content_v1_de.png](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
 
-![Content Icon](assets/icon_cp-content.png)
+:fontawesome-solid-box-archive:
 
 Content Packaging (abbr.: CP) is a kind of learning content in standardized e-learning format.  The specification of this format also comes from
 [IMS resp. 1EdTech Consortium](http://www.imsglobal.org/ "IMS"). OpenOlat supports the IMS CP version
@@ -71,7 +71,7 @@ For more information on how to create Wikis and embed those in your course, plea
 
 ![learning_resource_podcast_v1_de.png](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
 
-![Podcast Icon ](assets/icon_podcast.png)
+:fontawesome-solid-podcast:
 
 A podcast allows you to upload audio or video files that can later be made available in OpenOlat. Podcasts can either be accessed directly in OpenOlat or they can be subscribed via online services such as iTunes in order to copy single episodes to mobile devices later on. Your course participants will be able to easily assess or comment on such podcast episodes.
 
@@ -86,7 +86,7 @@ Further information about podcasts can be found [here](../learningresources/Podc
 
 ![learning_resource_blog_v1_de.png](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
 
-![Blog Icon](assets/icon_blog.png)
+:fontawesome-solid-bullhorn:
 
 In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as a kind of diary or journal. Course participants will be able to comfortably assess or comment on blog entries.
 
@@ -101,7 +101,7 @@ Here you can find more information about the [course element blog](../learningre
 
 ![learning_resource_resource_folder_v1_de.png](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
 
-![Icon Ressourcenordner](assets/icon_sharedfolder.png)
+:fontawesome-regular-folder-open:
 
 With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. In doing so, the files are referenced from the resource folder and thus do not need to be created multiple times. The linked resource folder is displayed in the storage folder of the linked course under _sharedfolder and there is access to all files stored in the resource folder. Changes to the files in the resource folder then apply to all linked courses. It should be noted that only *one* resource folder can be added per course. Further information can be found in the chapter  ["Course settings"](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen) in the submenu "Resource folder".
 
@@ -158,7 +158,7 @@ In addition to the learning resources that are created directly in OpenOlat, the
 
 
 ### SCORM Learning Content
-![icon](assets/scorm.png){class="size16"}
+:fontawesome-solid-box-archive:
 
 Another standardized e-learning format supported by OpenOlat is the SCORM format (version 1.2). SCORM is short for "Sharable Content Object Reference Model" and a reference model for exchangeable electronic learning content of the ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/).  SCORM learning content is suitable for courses within OpenOlat as well as courses outside. OpenOlat supports this format; therefore your learning content can be applied not only in OpenOlat but also in other LMS.
 
@@ -181,7 +181,7 @@ Audio files can be uploaded to OpenOlat and in some places can also be recorded 
 
 
 ### Video
-![icon](assets/video_64_0_434343_none.png){class="size16"}
+:fontawesome-solid-film:
 
 A video is a learning content in the MPEG-4 format with the file extension .mp4, and is used for audio and video playback. The learning resource video can be added to OpenOLAT by importing or import URL and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. Further information can be found in the ["Creating Videos"](../basic_concepts/Video.md) chapter.
 

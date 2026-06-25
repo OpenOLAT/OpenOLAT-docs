@@ -5,7 +5,7 @@
 
 Name | Podcast
 ---------|----------
-Icon | ![Podcast Icon](assets/podcast.png){ class=size24 }
+Icon | :fontawesome-solid-podcast:
 Available since | 
 Functional group | Knowledge transfer
 Purpose | Provision of subscribable audio and video episodes

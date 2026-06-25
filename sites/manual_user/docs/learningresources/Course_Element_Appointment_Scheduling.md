@@ -5,7 +5,7 @@
 
 Name | Appointment scheduling
 ---------|----------
-Icon | ![Appointment scheduling Icon](assets/dateentry.png){ class=size24 }
+Icon | :fontawesome-regular-calendar-check:
 Available since | 
 Functional group | Administration and organisation
 Purpose | Scheduling and enrolment for specific joint appointments

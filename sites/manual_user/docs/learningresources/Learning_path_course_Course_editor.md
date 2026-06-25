@@ -8,7 +8,7 @@ Learning path courses can be configured to be followed sequentially or in any or
 
 Examples and a further introduction can also be found in our [Whitepaper for learning path courses (download here)](assets/Whitepaper_Lernpfadkurse_final.pdf).
 
-![Basic setting learning path](assets/learning_path_structure.png)
+:fontawesome-solid-cubes:
 
 If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../learningresources/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
 

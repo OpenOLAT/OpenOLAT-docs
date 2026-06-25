@@ -5,7 +5,7 @@
 
 Name | Topic Broker
 ---------|----------
-Icon | ![Topic Broker Icon](assets/icon_topic_broker.png){ class=size24  }
+Icon | :fontawesome-solid-clipboard-list:
 Available since | Release 19
 Functional group | Administration and organisation
 Purpose | self registration of participants in groups

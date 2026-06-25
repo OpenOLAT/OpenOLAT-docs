@@ -5,7 +5,7 @@
 
 Name | Checklist
 ---------|----------
-Icon | ![Checklist Icon](assets/checklist.png){ class=size24 }
+Icon | :fontawesome-regular-square-check:
 Available since | 
 Functional group | Assessment
 Purpose | Checklist with functions such as blocking the editing option by submission date, grayed out checkboxes that only coaches can check off, etc.

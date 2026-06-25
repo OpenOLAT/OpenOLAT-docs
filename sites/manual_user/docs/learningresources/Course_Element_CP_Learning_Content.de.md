@@ -5,7 +5,7 @@
 
 Name | CP-Lerninhalt
 ---------|----------
-Icon | ![CP-Lerninhalt Icon](assets/content.png){ class=size24  }
+Icon | :fontawesome-solid-box-archive:
 Verfügbar seit | Neuauflage mit Release 16.2
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format

@@ -4,7 +4,7 @@
 
 Name | Form
 ---------|----------
-Icon | ![Form Icon](assets/course_element_form_icon.png){ class=size24 }
+Icon | :fontawesome-regular-clipboard:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of learning resource "Form"

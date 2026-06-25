@@ -5,7 +5,7 @@
 
 Name | Selbsttest
 ---------|----------
-Icon | ![Selbsttest Icon](assets/test.png){ class=size24  }
+Icon | :fontawesome-solid-square-pen:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs

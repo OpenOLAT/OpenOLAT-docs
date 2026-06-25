@@ -2,7 +2,7 @@
 Get more info on [Virtual classrooms](../basic_concepts/Virtual_classrooms.md)
 
 ## Course Element: Wiki {: #wiki}
-![Wiki icon](../assets/wiki_icon.png)
+:fontawesome-solid-globe:
 
 Use a Wiki to easily create learning content together with your course participants. A Wiki is suitable for doing group work; it can serve as documentation tool or as some sort of knowledge base for your studies and projects.
 
@@ -20,7 +20,7 @@ In the chapter "Learning Activities in Courses" section ["Wiki"](../learningreso
 
 ##  Course Element: Forum {: #forum}
 
-![Forum icon](../assets/forum_icon.png)
+:fontawesome-regular-comments:
 
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
 
@@ -73,7 +73,7 @@ Here you can set the user rights of the module and define which course roles are
     A discussion can only begin when a corresponding file has been uploaded.
 
 ##  Course Element: Participant folder {: #participant_folder}
-![Participant folder icon](../assets/participant_folder_icon.png)
+:fontawesome-solid-inbox:
 
 
 The course element "Participant folder" allows you to exchange files between
@@ -117,7 +117,7 @@ In the Template Settings tab, subfolders can be created for both the submission 
 
 
 ##  Course Element: Participant list {: #participant_list}
-![group.png](../assets/participant_list_icon.png)
+:fontawesome-solid-users:
 
 In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
 

@@ -4,7 +4,7 @@
 
 Name | Übung
 ---------|----------
-Icon | ![Aufgabe Icon](assets/course_element_practice_icon.png){ class=size24  }
+Icon | :fontawesome-regular-futbol:
 Verfügbar seit | Release 17.0
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Wissenstransfer und Selbstüberprüfung. Es muss eine definierte Anzahl von Fragen beantwortet werden. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und wiederholt. 
@@ -189,7 +189,7 @@ Da von Betreuer:innen keine manuellen Bewertungen vorgenommen werden, sind auch 
 
 Kursbaustein Test | Kursbaustein Selbsttest | Kursbaustein Übung
 ---------|----------|----------
- ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![Aufgabe Icon](assets/course_element_practice_icon.png){ class=size24  }
+ :fontawesome-solid-square-pen: | :fontawesome-solid-square-pen: | :fontawesome-regular-futbol:
 mit Punkten | mit Punkten  | ohne Punkte 
 einsehbar für Betreuer |  nicht einsehbar für Betreuer | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
 1 Test-Lernressource | 1 Test-Lernressource | mehrere Lernressourcen<br>Freigaben/Shares aus dem Fragenpool<br>Filter mit Verwendung der Taxonomie

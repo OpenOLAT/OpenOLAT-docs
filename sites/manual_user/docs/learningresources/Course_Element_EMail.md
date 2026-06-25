@@ -5,7 +5,7 @@
 
 Name | E-Mail
 ---------|----------
-Icon | ![E-Mail Icon](assets/contact.png){ class=size24 }
+Icon | :fontawesome-regular-envelope:
 Available since | New edition with release 18
 Functional group | Administration and organisation
 Purpose | Contact form with e-mail sending

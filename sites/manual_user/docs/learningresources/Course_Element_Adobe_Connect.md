@@ -4,7 +4,7 @@
 
 Name | Adobe Connect
 ---------|----------
-Icon | ![Adobe Connect Icon](assets/course_element_adobe_connect_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Available since | 
 Functional group | Communication und collaboration
 Purpose | Integration of the Adobe Connect web conferencing software 

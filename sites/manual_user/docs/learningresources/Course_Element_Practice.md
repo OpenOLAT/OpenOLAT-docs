@@ -5,7 +5,7 @@
 
 Name | Task
 ---------|----------
-Icon | ![Practice Icon](assets/course_element_practice_icon.png){ class=size24 }
+Icon | :fontawesome-regular-futbol:
 Available since | Release 17
 Functional group | Assessment
 Purpose | Knowledge transfer and self-examination. A defined number of questions must be answered. Questions that are not answered correctly are asked again and repeated according to the flashcard principle. 
@@ -182,7 +182,7 @@ Since no manual evaluations are carried out by coaches, no feedbacks by coaches 
 
 Course element Test | Course element Self-test | Course element Practice
 ---------|----------|----------
- ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![Aufgabe Icon](assets/course_element_practice_icon.png){ class=size24  }
+ :fontawesome-solid-square-pen: | :fontawesome-solid-square-pen: | :fontawesome-regular-futbol:
 with score | with score  | without score 
 visible for coaches|  not visible for coaches | einsehbare Level<br>Learning level per level<br> Emphasis by participant:in
 1 test learning resource | 1 test learning resource | multiple learning resources<br>Shares/Shares from the question pool<br>filter with use of taxonomy

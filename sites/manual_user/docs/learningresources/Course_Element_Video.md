@@ -4,7 +4,7 @@
 
 Name | Video
 ---------|----------
-Icon | ![Task Icon](assets/video_64_0_434343_none.png){ class=size24 }
+Icon | :fontawesome-solid-film:
 Available since | 
 Functional group | Knowledge transfer
 Purpose | Display of mp4 files, including the additions in OpenOlat (quizzes, comments, segments, annotations, chapters, posters, subtitles)

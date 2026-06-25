@@ -5,7 +5,7 @@
 
 Name | Formular
 ---------|----------
-Icon | ![Formular Icon](assets/course_element_form_icon.png){ class=size24  }
+Icon | :fontawesome-regular-clipboard:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zur Integration der Lernressource "Formular"

@@ -1,6 +1,6 @@
 # Personal tools: Personal files
 
-![icon_folder.png](assets/icon_folder.png)
+:fontawesome-regular-folder-open:
 
 ## Folder in the personal menu
 

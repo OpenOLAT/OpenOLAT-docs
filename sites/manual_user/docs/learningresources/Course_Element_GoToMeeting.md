@@ -5,7 +5,7 @@
 
 Name | GoToMeeting
 ---------|----------
-Icon | ![GoToMeeting Icon](assets/course_element_gotomeeting_icon.png){ class=size24  }
+Icon | :fontawesome-solid-tv:
 Available since | 
 Functional group | Communication und collaboration
 Purpose | Integration of the GoToMeeting web conferencing software 
