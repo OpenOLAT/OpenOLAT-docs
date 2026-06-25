@@ -9,6 +9,7 @@
 1. [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](/de/manual_how-to/course_planner_courses/course_planner_courses)
 2. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](/de/manual_how-to/certification_programs/certification_programs)
 3. [Wie setze ich rechtliche Zustimmungspflichten um?](/de/manual_how-to/legal_consents/legal_consents)
+4. [Wie kann ich Abgabemöglichkeiten für Dokumente einrichten?](/de/manual_how-to/document_upload/document_upload)
 
 ## Kurse erstellen
 

@@ -9,6 +9,7 @@
 1. [How do I plan and run courses with the Course Planner?](/manual_how-to/course_planner_course/course_planner_course)
 2. [How can I create certification programs with the Course Planner?](/manual_how-to/certification_programs/certification_programs)
 3. [How do I comply with legal consent requirements?](/manual_how-to/legal_consents/legal_consents)
+4. [How do I set up document submission options?](/manual_how-to/document_upload/document_upload)
 
 ## Create Courses
 
