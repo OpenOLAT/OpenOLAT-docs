@@ -133,6 +133,7 @@ Der Lebenszyklus eines Benutzerkontos läuft in drei Phasen ab:
 Zu jeder Phase können Benachrichtigungsmails konfiguriert werden — vor oder nach dem jeweiligen Schritt.
 
 !!! info "Konfiguration in der Administration"
+
     Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen werden unter Administration > Lebenszyklen > Konto eingestellt.<br>
     [Details zum Benutzerkonten-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 

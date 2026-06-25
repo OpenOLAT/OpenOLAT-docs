@@ -20,7 +20,7 @@ Der Content Editor wird im [Kursbaustein Seite](../learningresources/Course_Elem
 
 ### Kursbaustein Seite {: #course_element_page}
 
-Der Content Editor wird im Kursbaustein Seite entweder im Kurseditor im Tab „Seiteninhalt“ oder bei geschlossenem Kurseditor durch Aktivierung des Bearbeitungsmodus direkt beim gewünschten Kursbaustein Seite aktiviert. 
+Der Content Editor wird im Kursbaustein Seite entweder im Kurseditor im Tab "Seiteninhalt" oder bei geschlossenem Kurseditor durch Aktivierung des Bearbeitungsmodus direkt beim gewünschten Kursbaustein Seite aktiviert. 
 
 **Bei geschlossenem Kurseditor:**
 
@@ -330,6 +330,7 @@ Auf die gleiche Art wie Markdown-Dateien, können auch Word-Dateien ab Version 2
 Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
 
 <h3>HTML-Textcode</h3>
+
 Ausschließlich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
 
 

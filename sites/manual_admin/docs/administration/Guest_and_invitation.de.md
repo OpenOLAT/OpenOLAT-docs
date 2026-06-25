@@ -41,8 +41,7 @@ Hier wird bestimmt, von welchen Rollen externe Benutzer:innen in Kurse eingelade
 
 **Besitzer:in mit Autorenrecht kann einladen**<br>
 - **Für alle Kurse aktivieren:** Bedeutet, dass Kursbesitzer:innen externe Benutzer:innen jederzeit einladen können.<br>
-- **Muss pro Kurs aktiviert werden:** Bedeutet, dass eine Administrator:in oder Lernressourcenverwalter:in 
-die Funktion in den Kurseinstellungen zuerst aktivieren muss, bevor Kursbesitzer:innen externe Benutzer:innen in einen Kurs einladen können.
+- **Muss pro Kurs aktiviert werden:** Bedeutet, dass eine Administrator:in oder Lernressourcenverwalter:in die Funktion in den Kurseinstellungen zuerst aktivieren muss, bevor Kursbesitzer:innen externe Benutzer:innen in einen Kurs einladen können.
 
 ### Gruppen
 
@@ -56,8 +55,7 @@ Hier wird bestimmt, von welchen Rollen externe Benutzer:innen in Gruppen eingela
 
 **Betreuer:in mit Autorenrecht kann einladen**<br>
 - **Für alle Gruppen aktivieren:** Bedeutet, dass Gruppenbetreuer:innen externe Benutzer:innen jederzeit einladen können.<br>
-- **Muss pro Gruppe aktiviert werden:** Bedeutet, dass eine Administrator:in oder Gruppenverwalter:in 
-die Funktion in der Gruppenadministration zuerst aktivieren muss, bevor Gruppenbetreuer:innen mit Autorenrechten externe Benutzer:innen in einen Kurs einladen können.
+- **Muss pro Gruppe aktiviert werden:** Bedeutet, dass eine Administrator:in oder Gruppenverwalter:in die Funktion in der Gruppenadministration zuerst aktivieren muss, bevor Gruppenbetreuer:innen mit Autorenrechten externe Benutzer:innen in einen Kurs einladen können.
 
 ### Portfolio
 

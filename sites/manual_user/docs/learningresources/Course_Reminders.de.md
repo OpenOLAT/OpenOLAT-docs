@@ -15,7 +15,7 @@ Unter Kursadministration → Erinnerung werden alle Erinnerungen eines Kurses an
 
 Zusätzlich gibt es Kursbausteine, die mit der Erinnerungsfunktion verknüpft werden können. Sie haben einen eigenen Tab "Erinnerungen" direkt am Baustein.
 
-**Aufruf im Kurseditor::**
+**Aufruf im Kurseditor:**
 ![course_reminder_access3_v1_de.png](assets/course_reminder_access3_v1_de.png){ class="shadow lightbox" }
 
 **Aufruf ausserhalb des Kurseditors (run mode), nur für Kursbesitzer:innen:**

@@ -1,15 +1,31 @@
 # Course Reminders {: #course_reminders}
 
-The reminder function organizes the automatic sending of e-mails.
+The reminder feature is used to manage the automatic sending of emails. Reminders can be created, viewed, edited, and their status checked in various places.
+
+## Where are memories created? {: #access}
+
+### Course administration
+
+Under Course Administration → Reminders, all reminders for a course are displayed, and you can also create new ones there.
 
 ![course_reminder_access1_v1_de.png](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" }
 
-All reminders for a course are displayed under Course administration → Reminders and can also be created there. In addition, all course elements that can be linked to the reminder function have their own "Reminders" tab directly on the element.
+### Course elements with reminder function
 
-Reminders that are not linked to a specific course element can be found in the course editor at the top course element - also in the "Reminders" tab.
+In addition, there are course modules that can be linked to the reminder feature. They have their own "Reminders" tab right on the module.
 
-Reminders can be created, displayed, edited and the dispatch checked in all these places.
+**Call in the Course Editor:**
+![course_reminder_access3_v1_de.png](assets/course_reminder_access3_v1_de.png){ class="shadow lightbox" }
 
+**Call outside the course editor (run mode), for course owners only:**
+
+![course_reminder_access2_v1_de.png](assets/course_reminder_access2_v1_de.png){ class="shadow lightbox" }
+
+### Course title (Oberster Kursknoten)
+
+Reminders that are not linked to a specific course module can also be found in the course editor under the top-level course module/course title—also in the "Reminders" tab.
+
+![course_reminder_access4_v1_de.png](assets/course_reminder_access4_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_reminders)
 
@@ -28,19 +44,19 @@ To do this, click on the **"Create reminder"** button. A wizard will appear to g
 
 ![course_reminder_new_v1_de.png](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
 
-**Step: Edit requirements**
+**Step 1: Edit requirements**
 
 First enter the description for the reminder. This description is only visible to the authors and is used for the clear and informative presentation of all reminders of a course. Then select the conditions for shipping.
 
-**Step: Check requirements**
+**Step 2: Check requirements**
 
 In the second step of the wizard, the conditions are checked and the person to whom the reminder would be sent according to the configuration is displayed again.
 
-**Step: E-mail notifications**
+**Step 3: Email notifications**
 
-In the last step, you then enter the email text to be sent and can select whether the reminders should be sent to all persons in the course to whom the defined rules apply. Optionally, you can also send a copy to course owners, coaches or people with an external e-mail address.
+In the last step, you then enter the email text to be sent and can select whether the reminders should be sent to all persons in the course to whom the defined rules apply. Optionally, you can also send a copy to course owners, coaches or people with an external email address.
 
-Alternatively, the created reminder can also be sent only to the owners, responsible coaches or external e-mail addresses. This option is particularly useful for test reminders or specific reminders for teachers.
+Alternatively, the created reminder can also be sent only to the owners, responsible coaches or external email addresses. This option is particularly useful for test reminders or specific reminders for teachers.
 
 As soon as the conditions for a reminder are met, the mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator. 
 
@@ -82,7 +98,7 @@ Select the status the course must be in for a reminder to be sent.
     * Not release from coach
     * Not published
 
-_Example_: Only if the course has the status "Approved coaches" will all coaches receive an info e-mail about their coaching task.
+    _Example_: Only if the course has the status "Approved coaches" will all coaches receive an info e-mail about their coaching task.
 
 
 * **Start date Implementation period of the course**<br>
@@ -166,7 +182,7 @@ This option relates to assessable course elements.
     _Example_: The reminder will be sent 1 week after a specific test has been completed.
 
 * **Attempts**<br>
-tbd
+This option applies only to gradable course modules. The number of attempts to send an email is taken into account here.<br>
 
 * **Passed**<br>
 This option only affects assessable course elements for which a pass status has been configured in the editor. This can be selected here as a condition.<br>
@@ -175,7 +191,7 @@ _Example_: One test course element was assessed as "Passed".
 
     !!! warning "Attention: Option "Undefined""
 
-        “Undefined” is the initial value for the passed status (success status) for all assessable course elements. Activating this option as a condition only makes sense in combination with the second condition “By date”. Otherwise, the reminder will be triggered directly at the next possible dispatch time.
+        "Undefined" is the initial value for the passed status (success status) for all assessable course elements. Activating this option as a condition only makes sense in combination with the second condition "By date". Otherwise, the reminder will be triggered directly at the next possible dispatch time.
        
         _Example "Reminder to coach"_: A course element task has not yet been assessed or has been completed with “Undefined” at time x.
        
@@ -186,7 +202,6 @@ _Example_: One test course element was assessed as "Passed".
 This option only affects assessable course elements for which a number of points has been defined. They can then be sent depending on a score.<br>
 _Example_: Less than 3 points were achieved in one checklist.
 
----
 
 * **Schedule: Task "Assignment"**<br>
 This option only affects course elements of the type “Task” for which the task has also been stored in the course element and a date has been assigned for the assignment. The reminder e-mail is then sent for the date stored in the course editor, e.g. x days, weeks, months before. 
@@ -271,9 +286,9 @@ _Example_: A reminder will be sent out 2 days before the deadline for completing
 
 ---
 
-## E-mail text {: #text}
+## Email text {: #text}
 
-With the help of the e-mail text, which can be customized as required, you can create very specific e-mail reminders tailored to the situation.
+With the help of the email text, which can be customized as required, you can create very specific email reminders tailored to the situation.
 
 !!! tip "Hint"
 

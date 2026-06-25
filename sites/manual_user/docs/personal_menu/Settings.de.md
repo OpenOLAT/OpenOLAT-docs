@@ -18,43 +18,25 @@ anpassen.
 
 ### ![1_green_24.png](assets/1_green_24.png) Allgemeine Systemeinstellungen: {: #general}
 
-Hier können Sie Ihren Anmeldenamen und Ihre OpenOlat Rolle auslesen. Darüber
-hinaus können Sie Ihre individuelle Systemsprache auswählen. OpenOlat ist in
-zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach
-dem nächsten Einloggen aktiv.
+Hier können Sie Ihren Anmeldenamen und Ihre OpenOlat Rolle auslesen. Darüber hinaus können Sie Ihre individuelle Systemsprache auswählen. OpenOlat ist in zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach dem nächsten Einloggen aktiv.
 
 !!! warning "Achtung"
 
 	Die Sprache von Kursinhalten wird von der Sprachwahl hier nicht beeinflusst.
 
-Darüber hinaus können Sie einstellen, wie oft Sie Benachrichtigungen per
-E-Mail erhalten wollen. Zur Auswahl stehen: ausgeschaltet, monatlich,
-wöchentlich, täglich, halbtäglich, alle vier und alle zwei Stunden. Legen Sie
-zusätzlich fest ob OpenOlat E-Mails nur in dem Posteingang innerhalb des
-OpenOlat Systems angezeigt, oder ob Sie auch an ihre im Profil konfigurierte
-externe E-Mail-Adresse verschickt werden sollen. In der Benachrichtigungsmail
-finden Sie auch einen Hinweis bezüglich neuer E-Mails innerhalb des OpenOlat
-Postfachs, falls Sie die Option "E-Mails an das interne OpenOlat Postfach
-zustellen" gewählt haben.
+Darüber hinaus können Sie einstellen, wie oft Sie Benachrichtigungen per E-Mail erhalten wollen. Zur Auswahl stehen: ausgeschaltet, monatlich, wöchentlich, täglich, halbtäglich, alle vier und alle zwei Stunden. Legen Sie zusätzlich fest ob OpenOlat E-Mails nur in dem Posteingang innerhalb des OpenOlat Systems angezeigt, oder ob Sie auch an ihre im Profil konfigurierte externe E-Mail-Adresse verschickt werden sollen. In der Benachrichtigungsmail finden Sie auch einen Hinweis bezüglich neuer E-Mails innerhalb des OpenOlat Postfachs, falls Sie die Option "E-Mails an das interne OpenOlat Postfach zustellen" gewählt haben.
 
-Über den "Zeichensatz für Download bestimmen Sie, in welchem Zeichensatz
-Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung
-herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate
-sowie der Kursresultate. Voreingestellt ist der Zeichensatz ISO-8859-1.
-Enthalten Ihre Tests oder Fragebogen z.B. Arabische Zeichen, müssen Sie hier
-den Zeichensatz UTF-8 wählen.
+Über den "Zeichensatz für Download bestimmen Sie, in welchem Zeichensatz Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Voreingestellt ist der Zeichensatz ISO-8859-1.
+Enthalten Ihre Tests oder Fragebogen z.B. Arabische Zeichen, müssen Sie hier den Zeichensatz UTF-8 wählen.
 
 
 
 ### ![2_green_24.png](assets/2_green_24.png) Spezielle Systemeinstellungen
 
-In den Speziellen Systemeinstellungen sehen und ändern Sie die
-Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat
-erleichtern können.
+In den Speziellen Systemeinstellungen sehen und ändern Sie die Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat erleichtern können.
 
 **Sitzung wiederherstellen**<br>
-In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem
-Login passiert: Entweder wird
+In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Login passiert: Entweder wird
 
   * die Startseite geladen,
   * es wird automatisch der in OpenOlat zuletzt besucht Ort geladen, oder
@@ -81,15 +63,13 @@ Werkzeuge, die im Schnellzugriff angezeigt werden, sind nicht mehr im persönlic
 
 !!! tip "Tipp"
 
-	Versuchen Sie nicht, alle Werkzeuge zu aktivieren, sondern wählen Sie gezielt
-	die Werkzeuge aus, die Sie häufig benutzen. So bleibt die Menüleiste übersichtlich.
+	Versuchen Sie nicht, alle Werkzeuge zu aktivieren, sondern wählen Sie gezielt die Werkzeuge aus, die Sie häufig benutzen. So bleibt die Menüleiste übersichtlich.
 
 
 
 ### ![4_green_24.png](assets/4_green_24.png) Einstellungen zurücksetzen
 
-Unter "Einstellungen zurücksetzen" im Tab "System" haben Sie die Möglichkeit,
-Ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen**. Zurückgesetzt werden können
+Unter "Einstellungen zurücksetzen" im Tab "System" haben Sie die Möglichkeit, Ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen**. Zurückgesetzt werden können
 
 * die personalisierten Einstellungen der Bildschirmkomponenten (Menü, Toolboxen, Tabellen, Portal, Kalender, usw.), 
 * Systemeinstellungen (Benachrichtigungen, E-Mail-Versand, Zeichensatz, usw.) 
@@ -127,8 +107,7 @@ Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](
 
 Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login bestätigt haben. Die genauen Nutzungsbedingungen werden von den OpenOlat Administrator:innen festgelegt.
 
-Ferner kann hier auch die Löschung des kompletten OpenOlat Kontos beantragt
-werden.
+Ferner kann hier auch die Löschung des kompletten OpenOlat Kontos beantragt werden.
 
 ![Tab Nutzungsbedingungen](assets/Nutzungsbedingungen_20.png)
 
