@@ -214,11 +214,11 @@ The use of a catalog can be switched on or off and configured here.
 
 
 
-## Repository {: #repository}
+## Learning resource {: #learning_resource}
 
-Here you make settings in the repository.
+Here you make settings on learning resources in the repository.
 
-[See the details >](Modules_Repository.md)<br>
+[See the details >](Modules_Learning_Resource.md)<br>
 [To the top of the page ^](#modules)
 
 
