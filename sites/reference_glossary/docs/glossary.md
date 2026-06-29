@@ -342,6 +342,26 @@ Visual collaboration tool (powered by draw.io) within the Projects module.
 
 Display mode in which content (documents, media, details) is opened in a modal overlay above the current page, without leaving the page.
 
+### Dashboard
+
+Personal start page with configurable widgets.
+
+### Catalog widget
+
+Widget on the Dashboard showing catalog offers from a Course Planner implementation.
+
+### Course content widget
+
+Widget on the Dashboard showing course contents of a Course Planner implementation.
+
+### Table widget
+
+Widget on the Dashboard showing implementations or offers in table format.
+
+### Appointments widget
+
+Widget on the Dashboard showing upcoming appointments from the Lectures and Absences module.
+
 
 ## Areas
 

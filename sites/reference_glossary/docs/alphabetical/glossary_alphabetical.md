@@ -42,6 +42,10 @@ A type of learning resource that can be created or imported in the authoring are
 
 A course element (building block) that can be added to a course structure.
 
+### Appointments widget
+
+Widget on the Dashboard showing upcoming appointments from the Lectures and Absences module.
+
 ### Assessment
 
 A course element (building block) that can be added to a course structure.
@@ -134,6 +138,10 @@ A course element for flashcard-based learning via card2brain.
 
 Structured catalog for publishing and finding learning resources.
 
+### Catalog widget
+
+Widget on the Dashboard showing catalog offers from a Course Planner implementation.
+
 ### Certificates
 
 Automatic or manual PDF certificate generation.
@@ -186,6 +194,10 @@ A person assigned to manually grade test submissions within a correction workflo
 
 The main learning resource type for structured online courses.
 
+### Course content widget
+
+Widget on the Dashboard showing course contents of a Course Planner implementation.
+
 ### Course editor
 
 Tool used to build and modify course structure and course elements.
@@ -233,6 +245,10 @@ System for awarding and tracking academic credit points for course completion.
 ### Curriculum element
 
 A node in the curriculum tree representing a module, semester, or subject.
+
+### Dashboard
+
+Personal start page with configurable widgets.
 
 ### Data collection
 
@@ -741,6 +757,10 @@ A type of learning resource for questionnaires and surveys.
 ### System administrator
 
 Has full system-level administration rights including server configuration.
+
+### Table widget
+
+Widget on the Dashboard showing implementations or offers in table format.
 
 ### Task
 

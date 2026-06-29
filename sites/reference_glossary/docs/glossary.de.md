@@ -342,6 +342,26 @@ Visuelles Kollaborationswerkzeug (basierend auf draw.io) im Modul Projekte.
 
 Anzeigemodus, bei dem Inhalte (Dokumente, Medien, Details) in einem modalen Overlay über der aktuellen Seite geöffnet werden, ohne die Seite zu verlassen.
 
+### Dashboard
+
+Persönliche Startseite mit konfigurierbaren Widgets.
+
+### Katalog-Widget
+
+Widget im Dashboard, zeigt Angebote aus dem Katalog einer CPL-Durchführung.
+
+### Kursinhalt-Widget
+
+Widget im Dashboard, zeigt Kursinhalte einer CPL-Durchführung.
+
+### Tabellen-Widget
+
+Widget im Dashboard, zeigt Durchführungen oder Angebote in Tabellenform.
+
+### Termin-Widget
+
+Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
+
 
 ## Bereiche
 

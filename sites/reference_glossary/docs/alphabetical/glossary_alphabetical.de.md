@@ -190,6 +190,10 @@ Ein Lernressourcen-Typ für IMS Content Packages.
 
 Ein Knoten im Curriculum-Baum, der ein Modul, Semester oder Fach repräsentiert.
 
+### Dashboard
+
+Persönliche Startseite mit konfigurierbaren Widgets.
+
 ### Datei
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -354,6 +358,10 @@ Ein Kursbaustein zur Einbettung eines Kurskalenders mit Terminen und Fristen.
 
 Strukturierter Katalog zum Veröffentlichen und Auffinden von Lernressourcen.
 
+### Katalog-Widget
+
+Widget im Dashboard, zeigt Angebote aus dem Katalog einer CPL-Durchführung.
+
 ### Kennzeichen
 
 Eine externe Kennung für eine Lernressource, z.B. aus einem Kurskatalog oder Vorlesungsverzeichnis.
@@ -401,6 +409,10 @@ Werkzeug zum Aufbau und zur Anpassung von Kursstruktur und Kursbausteinen.
 ### Kurserinnerungen
 
 Automatisierte E-Mail-Erinnerungen basierend auf Kursbedingungen.
+
+### Kursinhalt-Widget
+
+Widget im Dashboard, zeigt Kursinhalte einer CPL-Durchführung.
 
 ### Kursplaner/in
 
@@ -702,6 +714,10 @@ Der Bereich für die Systemadministration zur Konfiguration von Modulen, zur Ben
 
 Hat vollständige Administrationsrechte auf Systemebene, einschliesslich Serverkonfiguration.
 
+### Tabellen-Widget
+
+Widget im Dashboard, zeigt Durchführungen oder Angebote in Tabellenform.
+
 ### Taxonomie
 
 Hierarchisches Klassifizierungssystem für Kompetenzen und Inhalte.
@@ -729,6 +745,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 ### Terminvergabe
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
+
+### Termin-Widget
+
+Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
 
 ### Test
 
