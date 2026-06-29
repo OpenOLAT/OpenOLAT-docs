@@ -1,5 +1,5 @@
 ---
-title: OpenOlat Dokumentation - Benutzer-, Administrations- und Entwicklerhandbuch
+title: Benutzer-, Administrations- und Entwicklerhandbuch für das LMS OpenOlat
 description: Offizielle Dokumentation des Lernmanagementsystems (LMS) OpenOlat -
   Benutzerhandbuch, Administrationshandbuch, Release Notes und Developer Cookbook
   für das aktuelle Release 20.3 und ältere Versionen.
@@ -36,13 +36,11 @@ Diese Website ist die offizielle OpenOlat Dokumentation. Das aktuelle Release is
 
 ## Ältere Versionen
 
-- [OpenOlat 20.2 Benutzerhandbuch](/archive_mkdocs/20.2/de/manual_user/general/) | [Release Notes 20.2](release_notes/Release_notes_20.2.de.md)
-- [OpenOlat 20.1 Benutzerhandbuch](/archive_mkdocs/20.1/de/manual_user/general/) | [Release Notes 20.1](release_notes/Release_notes_20.1.de.md)
-- [OpenOlat 20.0 Benutzerhandbuch](/archive_mkdocs/20.0/de/manual_user/general/) | [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
-- [OpenOlat 19.1 Benutzerhandbuch](/archive_mkdocs/19.1/de/manual_user/general/) | [Release Notes 19.1](release_notes/Release_notes_19.1.de.md)
-- [OpenOlat 18.2 Benutzerhandbuch](/archive_mkdocs/18.2/de/manual_user/general/) | [Release Notes 18.2](release_notes/Release_notes_18.2.de.md)
+- [Release Notes 20.2](release_notes/Release_notes_20.2.de.md)
+- [Release Notes 20.1](release_notes/Release_notes_20.1.de.md)
+- [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
 
-:material-alert: **Gesuchte Version nicht gefunden?** Versuchen Sie es im [OpenOlat Handbuch Archiv](archive.de.md)
+Ältere Snapshots des Handbuches sind im [Handbucharchiv](https://archivedocs.openolat.org/de/) zu finden.
 
 ***
 
