@@ -37,10 +37,13 @@ Der Filter "Autor/Besitzer" durchsucht den Vornamen, den Nachnamen, den Benutzer
 ### 8. Suchfeld 
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
-Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum 
-[Filtermenü](../basic_concepts/Table_Concept.de.md).
+Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum Filtermenü.
 
-!!! hint "Tipp"
+!!! note "Filtermenü"
+    Beschreibung der Filteroptionen und des Tabellenkonzepts.<br>
+    [Filtermenü](../basic_concepts/Table_Concept.de.md)
+
+!!! tip "Tipp"
 
     Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, könnte es eventuell am Lebenszyklus liegen. Überprüfen Sie dort die Einstellungen. Vielleicht wurde hier einfach die falsche Auswahl getroffen.
 
@@ -59,10 +62,27 @@ In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOl
 ### 10. Tabelle downloaden
 Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
 
-### 11. Spalten sortieren
+### 11. Spalten sortieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
 
 **Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
+
+!!! Info **Sortierung nach Durchführungszeitraum:**
+    Die Spalte "Durchführungszeitraum" sortiert Einträge chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Bezeichnung. Die Reihenfolge ist:
+
+1. nach Beginndatum
+2. ohne Beginndatum: nach Enddatum
+3. ohne Zeitrahmen: ans Ende der Liste
+4. innerhalb desselben Zeitraums: alphabetisch
+
+Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
+
+![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
+
+!!! Tip
+    Wichtig: Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
+
+[Modul Zeitabschnitte >](../../manual_admin/administation/modules_Time_Period.de.md)<br>
 
 [Zum Seitenanfang ^](#authoring)
 
