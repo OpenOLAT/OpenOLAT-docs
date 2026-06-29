@@ -95,13 +95,19 @@ Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.
 
     Vor Version 19.1 wurden auch Kursbesitzer:innen in den Prüfungsmodus versetzt. Ab Version 19.1 können Kursbesitzer:innen weiterhin normal auf ihren Kurs zugreifen. 
 
-## Tab "Safe Exam Browser"
+## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
 ![assessment_management_create_exam_setting_tab_seb_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_v1_de.png){ class="shadow lightbox" }
 
 **Safe Exam Browser verwenden**: Die Verwendung des [Safe Exam Browsers](http://www.safeexambrowser.org) erlaubt die sichere Ausführung von Online-Prüfungen, in dem der Computer in den sogenannten Kioskmodus versetzt wird. Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. Benutzer werden darüber benachrichtigt, dass der SEB für die Prüfung Voraussetzung ist. Erst wenn OpenOlat im Safe Exam Browser gestartet wurde kann die Prüfung durchgeführt werden.
 
-[Zu den Details > ](../../manual_how-to/SEB/SEB.de.md)
+**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+
+!!! note "Voraussetzung"
+    Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
+
+!!! note "Weitere Informationen"
+    [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
 
 <br>
 

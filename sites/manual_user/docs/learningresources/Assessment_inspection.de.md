@@ -13,13 +13,13 @@ Deshalb gibt es in OpenOlat ein spezielles Werkzeug zur Prüfungseinsicht. Sie d
 * ein festes Zeitfenster,
 * ob während diesem Zeitfenster der Prüfungsmodus aktiv ist.
 
-## Konfiguration eines Ablaufschemas für eine Einsichtnahme 
+## Konfiguration eines Ablaufschemas für eine Einsichtnahme [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
 Als **Kursbesitzer:in** erstellen Sie Ablaufschemata, in denen Sie bestimmen, wie Prüfungseinsichten ablaufen. <br>
 Die **Betreuer:innen** terminieren dann für die Prüfungsteilnehmer:innen die Einsichtnahmen und wählen dazu eines der vorderfinierten Ablaufschemata (Konfigurationen).
 
 Sie definieren als Kursbesitzer:in eine Prüfungseinsicht (Ablaufschema) unter<br>
-**Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"**<br>
+`Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
 Dort fügen Sie durch Klick auf den **Button "Prüfungseinsicht hinzufügen"** eine neue Konfiguration (Ablaufschema) zur Prüfungseinsicht hinzu. Bereits definierte Ablaufschemata werden aufgelistet.
 
 
@@ -39,11 +39,16 @@ Im Tab "Zugang" kann die Einsichtnahme durch Angabe einer oder mehrerer IP-Adres
 
 ![assessment_management_inspection_access_v1_de.png](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
 
-### Tab "Safe Exam Browser (SEB)"
+### Tab "Safe Exam Browser (SEB)" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
 Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer während der Einsichtnahme gesperrt werden.  
 
 ![assessment_management_inspection_seb_v1_de.png](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
+
+**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+
+!!! note "Voraussetzung"
+    Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
 <br>
 
@@ -93,13 +98,13 @@ Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende ei
 ## Unterschied: Report - Prüfungseinsicht
 
 | Report                                    | Prüfungseinsicht                          |
-| ----------------------------------------- | ----------------------------------------- |
+| :----------------------------------------- | :----------------------------------------- |
 | **Überblick** zum Ergebnis der Teilnehmer:innen| **Detailansicht** der Prüfung bestimmter Teilnehmer:innen |
 | Definierte **Resultatansicht für alle** Kursteilnehmer:innen | Die Prüfungseinsicht ist insbesondere für die **Einsichtnahme durch Einzelpersonen** geeignet (z.B. wenn im Einzelfall Zweifel bestehen). |
 | wiederholbar               | einmalig                    |
 | jederzeit, solange Zugriff auf den Kurs besteht       | nur zu fixen Terminen         |
-| Zugriff für Besitzer:innen:<br>**Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"**| Zugriff für Besitzer:innen:<br>**Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"** |
-| Zugriff für Betreuer:innen:<br>   | Zugriff für Betreuer:innen:<br> **Bewertungswerkzeug > Tab Prüfungseinsicht** |
+| Zugriff für Besitzer:innen:<br>`Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"`| Zugriff für Besitzer:innen:<br>`Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"` |
+| Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug`  | Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug > Tab Prüfungseinsicht` |
 
 
 
