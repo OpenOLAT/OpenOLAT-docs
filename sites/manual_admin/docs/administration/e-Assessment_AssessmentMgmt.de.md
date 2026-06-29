@@ -29,33 +29,34 @@ Verwalten Sie Safe Exam Browser Konfigurationsvorlagen, die auf Prüfungsmodi an
 
 ![e-assessment_mgmt_tab_seb_v1_de.png](assets/e-assessment_mgmt_tab_seb_v1_de.png){ class="shadow lightbox" }
 
-### Vorlagenliste
+### Die Vorlagenliste im Tab *SEB Konfiguration* 
 
-Die Übersichtstabelle zeigt alle angelegten SEB-Konfigurationsvorlagen mit folgenden Spalten:
+Die Übersichtstabelle zeigt alle angelegten SEB-Konfigurationsvorlagen mit verschiedenen, über das Zahnradsymbol, persönlich konfigurierbaren Spalten.
 
-| Spalte | Beschreibung |
-|--------|-------------|
-| **Name** | Bezeichnung der Vorlage |
-| **Standard** | Kennzeichnet die Vorlage, die bei der SEB-Aktivierung vorausgewählt wird |
-| **Aktiv** | Nur aktive Vorlagen erscheinen in der Vorlagenauswahl bei der Prüfungskonfiguration |
-| **#Verwendungen** | Anzahl der Prüfungsmodi, in denen diese Vorlage aktuell verwendet wird |
+Ist noch **keine Vorlage** vorhanden, erscheint der Hinweis: *«Es wurden noch keine Safe Exam Browser Konfigurationsvorlagen erstellt.»*
 
-Ist noch keine Vorlage vorhanden, erscheint der Hinweis: «Es wurden noch keine Safe Exam Browser Konfigurationsvorlagen erstellt.»
+#### Vorlage hinzufügen / bearbeiten
 
-### Vorlage hinzufügen / bearbeiten
-
-Mit dem Button **"Vorlage hinzufügen"** legen Sie eine neue SEB-Konfigurationsvorlage an. Bestehende Vorlagen öffnen Sie mit **"Vorlage bearbeiten"**. Das Formular enthält alle bestehenden SEB-Konfigurationsoptionen sowie die folgenden zusätzlichen Felder:
+Mit dem Button **"Vorlage erstellen"** legen Sie eine neue SEB-Konfigurationsvorlage an. Bestehende Vorlagen öffnen Sie mit **"Vorlage bearbeiten"** im 3Punkte Menu. Das Formular enthält alle bestehenden SEB-Konfigurationsoptionen sowie das Pflichtfeld:
 
 - **Name**: Pflichtfeld zur Benennung der Vorlage.
-- **Aktiv**: Legt fest, ob die Vorlage für Autor:innen auswählbar ist.
 
-### Standardvorlage festlegen
+Und die Statusanzeigen:
+
+- **Aktiv oder inaktiv**: Legt fest, ob die Vorlage für Autor:innen auswählbar ist.
+
+#### Standardvorlage festlegen
 
 Genau eine Vorlage muss als Standard markiert sein. Verwenden Sie die Aktion **"Als Standard setzen"**, um eine andere Vorlage als Standard zu definieren. Die Standardvorlage wird bei der SEB-Aktivierung im Prüfungsmodus automatisch vorausgewählt.
 
-### Vorlagen aktivieren / deaktivieren
+#### Vorlagen aktivieren / deaktivieren
 
-Deaktivierte Vorlagen erscheinen nicht mehr in der Vorlagenauswahl bei der Konfiguration eines Prüfungsmodus. Eine Vorlage kann nur gelöscht werden, wenn **#Verwendungen = 0**.
+Deaktivierte Vorlagen erscheinen nicht mehr in der Vorlagenauswahl bei der Konfiguration eines Prüfungsmodus.
+
+!!!note Vorlagen löschen
+    Eine Vorlage kann nur gelöscht werden, wenn diese nicht länger verwendet wird:
+    **Spalte *Verwendung* = 0**. Ansonsten kann die Vorlage *deaktiviert* werden. 
+
 
 [Zum Seitenanfang ^](#assessment_mgmt)
 
