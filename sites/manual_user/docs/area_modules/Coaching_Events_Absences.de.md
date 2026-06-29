@@ -3,7 +3,7 @@
 ![coaching_events_absences1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
 
-## Als Betreuer - Als Klassenlehrer {: #tabs_coach-master_coach}
+## Als Betreuer - Als Klassenlehrer [:octicons-tag-16:{ title="ab Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
 ![coaching_events_absences_events_coach-master_v1_de.png](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
 
@@ -136,6 +136,9 @@ Wenn Sie auf einen der gefundenen Kurse oder ein Produkt klicken, gelangen Sie z
 ---
 
 ## Weitere Informationen {: #further_information}
+
+!!! note "Hinweis"
+    Eine Schnellübersicht der anstehenden Termine der laufenden Woche steht bereits auf der Coaching-Übersicht im Widget **Termine** zur Verfügung. Dieses Werkzeug hier bietet die vollständige Verwaltung mit Cockpit, Absenzen, Meldungen, Rekursen und Personensuche.
 
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>

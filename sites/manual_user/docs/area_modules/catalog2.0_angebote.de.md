@@ -1,7 +1,7 @@
 # Katalog 2.0 - Angebote {: #offers}
 
 
-## Was enthält der OpenOlat-Katalog? {: #offers_catalog_content}
+## Was enthält der OpenOlat-Katalog? [:octicons-tag-16:{ title="ab Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #offers_catalog_content}
 
 Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu "Produkten" angezeigt. In OpenOlat sind dies
 
@@ -25,11 +25,11 @@ Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
 ## Wie wird ein Angebot erstellt? {: #offers_create}
 
 Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
-**Administration > Einstellungen > Tab "Freigabe"**
+`Administration > Einstellungen > Tab "Freigabe"`
 
-!!! info "Unterschied Katalog 1.0 und Katalog 2.0"
+!!! note "Unterschied Katalog 1.0 und Katalog 2.0"
 
-    Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (**Administration > Einstellungen > Tab Freigabe**) und dann in der **Katalogverwaltung** zusammengestellt.
+    Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (`Administration > Einstellungen > Tab Freigabe`) und dann in der **Katalogverwaltung** zusammengestellt.
 
     Im Katalog 2.0 werden Angebote ebenfalls in den Kurseinstellungen erstellt. Zusätzlich werden hier noch Angaben gemacht, **wo** im Katalog das Angebot erscheinen soll. Anhand dieser Angaben kann der Katalog 2.0 die Angebote dann **dynamisch selbst zusammenstellen**.
 
@@ -75,7 +75,7 @@ Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorg
 
     Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog **nur für Benutzer:innen, die Mitglied dieser Organisation sind**. Benutzer:innen ausserhalb der Organisation sehen das Angebot nicht – auch wenn der Kurs veröffentlicht ist.
 
-    Die Organisationszugehörigkeit wird in der Benutzerverwaltung gepflegt (**Administration > Benutzerverwaltung**).
+    Die Organisationszugehörigkeit wird in der Benutzerverwaltung gepflegt (`Administration > Benutzerverwaltung`).
 
 
 [Zum Seitenanfang ^](#offers)
@@ -107,7 +107,7 @@ Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
 ## Infoseite {: #offer_info}
 
 Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum angebotenen Kurs bzw. der Lernressource, ohne dass der Kurs bereits gestartet wird. Auch wenn für den Kursstart evtl. eine Zugangsberechtigung eingerichtet wurde, ist diese Infoseite im Katalog einsehbar. Sie enthält Angaben, die die Autorin / der Autor unter den Metadaten gemacht haben:
-**Administration > Einstellungen > Tab "Info"**
+`Administration > Einstellungen > Tab "Info"`
 
 ![catalog20_eintrag_v1_de.png](assets/catalog20_eintrag_v1_de.png){ class="shadow lightbox" }
 
@@ -120,7 +120,7 @@ Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum an
 
 ## Metadaten, Fachbereich {: #offer_metadata}
 
-Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter **Administration > Einstellungen > Tab "Metadaten"** 
+Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter `Administration > Einstellungen > Tab "Metadaten"` 
 
 ![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
 
@@ -143,7 +143,7 @@ Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Mi
 ![catalog20_taxonomylauncher_microsite_v1_de.png](assets/catalog20_taxonomylauncher_microsite_v1_de.png){ class="shadow lightbox" }
 
 
-!!! tipp "Katalog 1.0"
+!!! tip "Katalog 1.0"
 
     Informationen zum Erstellen von Angeboten im Katalog 1.0 finden Sie [hier](catalog1.0.de.md). 
 
