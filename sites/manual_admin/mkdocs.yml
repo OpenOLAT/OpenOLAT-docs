@@ -34,6 +34,7 @@ nav:
       - Module Course: "administration/Modules_Course.md"
       - Module Catalog: "administration/Modules_Catalog_2.0.md"
       - Module Learning resource: "administration/Modules_Learning_Resource.md"
+      - Module Groups: "administration/Modules_Groups.md"
       - Module Organisations: "administration/Modules_Organisations.md"
       - Module Course Planner: "administration/Modules_Course_Planner.md"
       - Module To-do: "administration/Modules_ToDo.md"
