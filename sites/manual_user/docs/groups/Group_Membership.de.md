@@ -18,7 +18,7 @@ Möglich sind:
 * a)	Direkt in der Gruppe 
 * b)	In einem zur Gruppe zugehörigen Kurs 
 * c)	In weiteren OpenOlat System-Bereichen  
-* d)	Außerhalb von OpenOlat
+* d)	Ausserhalb von OpenOlat
 
 Beide Aspekte können wie folgt miteinander kombiniert werden:
 
@@ -144,12 +144,41 @@ Bei Fragen zu automatisch zugewiesener Gruppenmitgliedschaft wenden Sie sich bit
 ---
 
 
+## Mitgliedschaftsanfragen annehmen oder ablehnen [:octicons-tag-16:{ title="ab Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #reservation}
+
+Wurden Sie einem Kurs, einer Gruppe oder einem Bildungsprodukt mit Reservierungspflicht zugewiesen, erscheint im Gruppenbereich automatisch die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Die Box ist klappbar und zeigt eine Kartenansicht mit je einem Eintrag pro Gruppe.
+
+Die Hinweisbox wird eingeblendet, solange ausstehende Anfragen vorliegen. Sie informiert Sie darüber, dass Sie zu einer Gruppe eingeladen wurden, und fordert Sie auf, die Mitgliedschaftsanfrage anzunehmen oder abzulehnen.
+
+**Beispielansicht** der Hinweisbox eines eingeladenen Users:
+![groups_membership_request_v1_de.png](assets/groups_membership_request_v1_de.png){ class="shadow lightbox" }
+
+Für jede ausstehende Anfrage stehen folgende Aktionen zur Verfügung:
+
+- **Akzeptieren** (Haken-Symbol): Nimmt die Mitgliedschaftsanfrage an. Sie werden als Mitglied in die Gruppe aufgenommen.
+- **Ablehnen** (X-Symbol, rot): Lehnt die Mitgliedschaftsanfrage ab.
+- **Details**: Öffnet eine Lightbox mit der Beschreibung und der Mitgliedschaftsliste der Gruppe.
+
+!!! note "Hinweis"
+
+    Die Hinweisbox erscheint auch beim ersten Login, wenn sowohl Kurs- als auch Gruppenanfragen ausstehend sind. In diesem Fall sehen Sie beide Panels (Kurs und Gruppe) gleichzeitig. Mit der Aktion "Später" können Sie die Bearbeitung auf einen späteren Zeitpunkt verschieben.
+
+Mitgliedschaftsanfragen können auch direkt auf der Info-Seite eines Kurses oder Bildungsprodukts angenommen oder abgelehnt werden. Die Hinweisbox ist dort nicht kollabierbar.
+
+Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#data_privacy)
+
+[Zum Seitenanfang ^](#group_membership)
+
+
+---
+
+
 ## Weitere Informationen {: #further_information}
 
 [Gruppe erstellen >](Create_Groups.de.md)<br>
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
 [Gruppe verlassen > ](Leave_a_Group.de.md)<br>
 [LTI-Zugang zu einer Gruppe konfigurieren > ](LTI_Share_groups.de.md)<br>
-Für Administrator:innen: [Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules.de.md)<br>
+[Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br> ...für OpenOlat Administratoren
 
 [Zum Seitenanfang ^](#group_membership)
