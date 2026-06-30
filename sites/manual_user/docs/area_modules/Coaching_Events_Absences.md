@@ -3,7 +3,7 @@
 ![coaching_events1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
 
-## As Coach - As Master Coach {: #tabs_coach-master_coach}
+## As Coach - As Master Coach [:octicons-tag-16:{ title="Available from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
 ![coaching_events_absences_events_coach-master_v1_de.png](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
 
@@ -137,6 +137,9 @@ When you click on one of the courses or products found, you will be taken to the
 ---
 
 ## Further information {: #further_information}
+
+!!! note "Note"
+    A quick overview of upcoming appointments for the current week is already available on the Coaching overview in the **Appointments** widget. This tool here provides complete management with Cockpit, Absences, Notices, Appeals, and User search.
 
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>

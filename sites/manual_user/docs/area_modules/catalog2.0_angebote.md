@@ -1,7 +1,7 @@
 # Catalog 2.0 -  Offers {: #offers}
 
 
-## What does the OpenOlat catalog contain? {: #offers_catalog_content}
+## What does the OpenOlat catalog contain? [:octicons-tag-16:{ title="Available from Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #offers_catalog_content}
 
 As in other catalogs, the OpenOlat catalog also displays short descriptions of "products" in many small entries. In OpenOlat these are
 
@@ -25,11 +25,11 @@ If no offer is created, no catalog entry is made.
 ## How is an offer created? {: #offers_create}
 
 Offers are attached to the course and are defined there by authors in the settings:<br>
-**Administration > Settings > Tab "Shared"**
+`Administration > Settings > Tab "Shared"`
 
-!!! info "Difference between Catalog 1.0 and Catalog 2.0"
+!!! note "Difference between Catalog 1.0 and Catalog 2.0"
 
-    In Catalog 1.0, all offers are created in the courses (**Administration > Settings > Tab Shared**) and then compiled in the **Catalog administration**.
+    In Catalog 1.0, all offers are created in the courses (`Administration > Settings > Tab Shared`) and then compiled in the **Catalog administration**.
 
     In Catalog 2.0, offers are also created in the course settings. In addition, you can specify **where** the offer should appear in the catalog. Based on this information, Catalog 2.0 can then **dynamically compile** the offers itself.
 
@@ -75,7 +75,7 @@ Offers can also be limited to different parts of organizations (sub-organization
 
     If an offer is restricted to a specific organisation or sub-organisation, it will appear in the catalog **only for users who are members of that organisation**. Users outside the organisation will not see the offer – even if the course is published.
 
-    Organisation membership is managed in the user administration (**Administration > User Management**).
+    Organisation membership is managed in the user administration (`Administration > User Management`).
 
 [To the top of the page ^](#offers)
 
@@ -106,7 +106,7 @@ In addition, the **access code**, for example, must be defined depending on the 
 ## Info page {: #offer_info}
 
 If you click on a tile in the catalog, you will receive a more detailed description of the course or learning resource offered without the course being started. Even if an access authorization may have been set up for the course start, this information page can be viewed in the catalog. It contains information that the author has entered in the metadata:
-**Administration > Settings > Tab "Info"**
+`Administration > Settings > Tab "Info"`
 
 ![catalog20_eintrag_v1_de.png](assets/catalog20_eintrag_v1_de.png){ class="shadow lightbox" }
 
@@ -119,7 +119,7 @@ If you click on a tile in the catalog, you will receive a more detailed descript
 
 ## Metadata, Subjects {: #offer_metadata}
 
-It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under **Administration > Settings > Tab "Metadata"** 
+It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under `Administration > Settings > Tab "Metadata"` 
 
 ![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
 
@@ -143,7 +143,7 @@ Click on the taxonomy launcher tile to open the microsite with a list of all cou
 
 !!! tip "Catalog 1.0"
 
-    Information on creating offers in catalog 1.0 can be found [here](catalog1.0.md).
+    Information on creating offers in Catalog 1.0 can be found [here](catalog1.0.md).
 
 
 [To the top of the page ^](#offers)

@@ -37,10 +37,13 @@ The Author/Owner filter searches across the owner's first name, last name, usern
 ### 8. Search box 
 In the **Search box** you can search directly for the title. Even parts of the title already provide a search result.
 
-You can find out more details on how to use the filter options in the article on the 
-[Filter Menu](../basic_concepts/Table_Concept.md).
+You can find out more details on how to use the filter options in the section on the Filter Menu.
 
-!!! hint "Hint"
+!!! note "Filter Menu"
+    Description of the filter options and the table concept.<br>
+    [Filter Menu](../basic_concepts/Table_Concept.md)
+
+!!! tip "Hint"
 
     If you cannot find a course or learning resource (anymore), it could possibly be due to the lifecycle. Check the settings there. Perhaps the wrong selection was made.
 
@@ -58,10 +61,27 @@ The column "Ref." shows whether or how often a learning resource has been refere
 ### 10. Download table
 You can download the entire table in the currently displayed state.
 
-### 11. Sort columns
+### 11. Sort columns [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc.
 
 **Example**: Click on column title "Title of learning resource" to sort the table alphabetically by title. Click again and it will appear in reverse alphabetical order.
+
+!!! Info **Sorting by execution period:**
+    The "Execution period" column sorts entries chronologically by the time frame and not alphabetically by the label. The order is:
+
+1. by begin date
+2. without begin date: by end date
+3. without time frame: to the end of the list
+4. within the same time period: alphabetically
+
+Entries without an execution period always appear at the end of the list.
+
+![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
+
+!!! Tip
+    Important: The available time periods are provided by the system administration.
+
+[Time periods module >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 
 [To the top of the page ^](#authoring)
 
