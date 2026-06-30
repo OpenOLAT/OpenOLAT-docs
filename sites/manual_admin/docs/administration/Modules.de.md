@@ -99,9 +99,10 @@ Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werd
 
 Erstellen und verwalten Sie Zeitabschnitte (z.B. Semesterdaten), um bei Kurslaufzeiten auf einen
 Zeitabschnitt anstelle eines Datums verweisen zu können. Die hier erstellten Zeitabschnitte können bei der Konfiguration des Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
-werden. Als Bezeichnung könnten z.B. "SoSe23" und als Name "Sommersemester
-2023" verwendet werden.
+werden. Als Bezeichnung könnten z.B. "SoSe26" und als Name "Sommersemester
+2026" verwendet werden.
 
+[Zu den Details >](Modules_Time_Period.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -148,14 +149,13 @@ Hier können Sie für eine bestimmte Buchungsnummer alle Buchungsaufträge in ei
 
 ## Gruppen {: #groups}
 
-Hier kann definiert werden, ob Kursautor:innen und Lernende neue Gruppen erstellen
-dürfen. Auch mögliche Rechte für Gruppenverwalter:innen und Lernressourcenverwalter:innen
-im Gruppenkontext können definiert werden. 
+Hier kann definiert werden, ob Autor:innen und Benutzer:innen ohne zusätzliche Rolle neue Gruppen erstellen dürfen. Auch mögliche Rechte für Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext können definiert werden.
 
-Um den Datenschutzanforderungen gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den eingeladenen Benutzer bestätigt werden muss.
+Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen **eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den eingeladenen Benutzer *bestätigt* werden muss**.
 
 Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
+[Zu den Details >](Modules_Groups.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
