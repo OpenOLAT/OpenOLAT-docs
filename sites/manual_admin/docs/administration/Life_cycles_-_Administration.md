@@ -16,7 +16,10 @@ In OpenOlat Administration, settings for the [group lifecycle](Automatic_Group_L
 
 Settings can be made both for groups in general and only for certain group types. 
 
-[See the details >](Automatic_Group_Lifecycle.md)<br>
+!!! info "Group lifecycle — Details"
+    Steps and settings for the automatic group lifecycle.<br>
+    [Group lifecycle](Automatic_Group_Lifecycle.md)
+
 [To the top of the page ^](#lifecycles)
 
 
@@ -38,7 +41,7 @@ Course owners can be automatically informed of any status changes.
 
 Similar to the automatically controlled course lifecycle, the lifecycle of OpenOlat users' accounts can also be automated. 
 
-!!! note
+!!! note "Note"
     The lifecycle runs in separate steps and is fed by partly different settings. The following table provides an overview.
 
 | Variant | Settings source | Mail actions for automations | Version |
@@ -47,7 +50,7 @@ Similar to the automatically controlled course lifecycle, the lifecycle of OpenO
 | Deactivation | Automatically: Administration > Life cycles > Account (inactivity period) or Manually: User Management > Users > "Account" tab | Configurable before and/or after deactivation | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
 | Deletion | Automatically: Administration > Life cycles > Account (after deactivation period) or Manually: User Management > Delete user | Configurable before and/or after deletion | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
 
-!!! note
+!!! note "Note"
     General rule: If no new login occurs within the specified period, the user account is deleted.
     Additionally: It can be set up that the irrevocable deletion in the last step takes place automatically or exclusively manually.
 
