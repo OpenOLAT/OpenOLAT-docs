@@ -53,9 +53,9 @@ Genau eine Vorlage muss als Standard markiert sein. Verwenden Sie die Aktion **"
 
 Deaktivierte Vorlagen erscheinen nicht mehr in der Vorlagenauswahl bei der Konfiguration eines Prüfungsmodus.
 
-!!!note Vorlagen löschen
+!!! note "Vorlagen löschen"
     Eine Vorlage kann nur gelöscht werden, wenn diese nicht länger verwendet wird:
-    **Spalte *Verwendung* = 0**. Ansonsten kann die Vorlage *deaktiviert* werden. 
+    **Spalte *Verwendung* = 0**. Ansonsten kann die Vorlage *deaktiviert* werden.
 
 
 [Zum Seitenanfang ^](#assessment_mgmt)
