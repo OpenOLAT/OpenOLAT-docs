@@ -1,4 +1,4 @@
-# Zeitabschnitte {: #zeitabschnitte}
+# Modul Zeitabschnitte {: #zeitabschnitte}
 
 
 ## Zeitabschnitte helfen beim filtern und sortieren [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
