@@ -9,7 +9,7 @@ Mit dem Coaching-Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetre
 ---
 
 
-## Die Werkzeuge {: #tools}
+## Die Werkzeuge [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
 Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unter den Buttons
 
@@ -23,7 +23,7 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ![coaching_tools_v1_de.png](assets/coaching_tools_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Ihr Menü wird oft nicht alle hier gezeigten Optionen enthalten. Je nach aktivierten Modulen und Rollen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
 
@@ -64,7 +64,7 @@ Daneben haben auch administrative Rollen Zugriff.
 ---
 
 
-## Die Fokus-Elemente {: #focus_elements}
+## Die Fokus-Elemente [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #focus_elements}
 
 Im Coaching Tool wird Ihnen oft eine Liste mit den von Ihnen betreuten Personen angezeigt.
 Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsverantwortliche:r, dann können Sie auf Grund dieser Rolle auch auf alle anderen Teilnehmenden zugreifen.
@@ -78,6 +78,51 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
+
+## Das Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9113)" }](https://track.frentix.com/issue/OO-9113) {: #widget_events}
+
+Das Widget **Termine** erscheint als Kachel auf der Coaching-Übersicht und zeigt die anstehenden Termine ab dem heutigen Tag bis zum Ende der aktuellen Woche auf einen Blick.
+
+### Kopfbereich und Tagesanzeige
+
+Der Kopfbereich des Widgets zeigt das aktuelle Datum mit Monat, Jahr und der Beschriftung **Heute, \<Wochentag\>**. Der heutige Tag ist hervorgehoben. Das Wochenende wird optisch zurückgenommen (gedämpft dargestellt).
+
+### Wochennavigation
+
+Mit den Schaltflächen `<` und `>` navigieren Sie wochenweise durch die Termine. Eine Woche läuft immer von Montag bis Sonntag. Initial wird die aktuelle Woche ab dem heutigen Tag angezeigt.
+
+### Terminliste
+
+Pro Termin werden folgende Informationen angezeigt:
+
+- Wochentag und Datum
+- Status-Indikator
+- Externe Referenz und Titel
+- Ort (mit Ortssymbol)
+- Zeit und Dauer (mit Uhrsymbol)
+
+!!! note "Hinweis"
+    In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
+
+![coaching_widget_events_v1_de.png](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
+
+### Leerer Zustand
+
+Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **Keine Termine bis Ende der Woche**. Über die Schaltflächen **Vorheriger Termin** und **Nächster Termin** springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
+
+!!! note "Hinweis"
+    Gibt es für diesen Coach überhaupt keine Termine, wird das Widget komplett ausgeblendet.
+
+### Zur Vollansicht
+
+Über den Link **Alle Termine anzeigen** gelangen Sie in das Werkzeug **Termine / Absenzen**.
+
+!!! Tip "Wichtig"
+    Das Widget ist eine Schnellübersicht der aktuellen Woche. Das vollständige Werkzeug **Termine / Absenzen** bietet zusätzlich die Tabs Cockpit, Absenzen, Meldungen, Rekurse und Personensuche.
+
+[Zum Seitenanfang ^](#coaching)
+
+---
 
 ## Weiterführende Informationen {: #further_information}
 
