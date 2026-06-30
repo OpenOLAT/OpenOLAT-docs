@@ -1,10 +1,10 @@
-# Zeitabschnitte {: #zeitabschnitte}
+# Time periods {: #zeitabschnitte}
 
 
-## Zeitabschnitte helfen beim filtern und sortieren [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+## Time periods help with filtering and sorting [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
-Das Modul "Zeitabschnitte" muss durch die Systemadministration befüllt werden. Die Zeitabschnitte sind frei definierbar und sollen das Filtern von Durchführungungen innerhalb bestimmter Zeiträume unterstützen (zum Beispiel: Semester a, b, c).
+The "Time periods" module must be populated by the system administration. Time periods are freely definable and are intended to support filtering implementations within specific time ranges (for example: Semester a, b, c).
 ![Modules_Time_Period_v1.de.png](assets/Modules_Time_Period_v1.de.png){ class="shadow lightbox" }
 
-**Die damit erzeugten Bereiche sind im Autorenbereich als Filter verfügbar.**
+**The areas created in this way are available as filters in the Authoring area.**
 ![Modules_Time_Period_authoring_filter_v1.de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
