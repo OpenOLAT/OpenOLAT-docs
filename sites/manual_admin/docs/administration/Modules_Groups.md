@@ -1,4 +1,4 @@
-# Groups module {: #groups}
+# Module Groups {: #groups}
 
 In the Groups module, administrators define system-wide who is allowed to create groups, which rights group managers and learning resource managers receive in the group context, and how the data-protection-compliant invitation procedure for groups and courses is configured.
 
