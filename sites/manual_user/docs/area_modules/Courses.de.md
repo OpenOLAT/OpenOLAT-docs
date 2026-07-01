@@ -8,11 +8,21 @@ Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kur
 
 Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourcen anzeigen lassen die aktiv oder beendet sind. Sie können auch Favoriten markieren und sich nur die Favoriten anzeigen lassen. Oder Sie nutzen die Suche um einen Kurs bzw. eine Lernressource basierend auf einem Stichwort zu finden.
 
-Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, dazu gehören der Durchführungszeitraum, das Durchführungsformat, der Mitgliedsstatus, die Kursrolle und der Bewertungsstatus (Resultat). Klicken Sie auf den kleinen Pfeil um die weiteren  Filteroptionen einzublenden. 
+Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, dazu gehören der Durchführungszeitraum, das Durchführungsformat, der Mitgliedsstatus, die Kursrolle und der Bewertungsstatus (Resultat). Klicken Sie auf den kleinen Pfeil um die weiteren Filteroptionen einzublenden.
+
+### Filtern nach Durchführungszeitraum [:octicons-tag-16:{ title="from Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
+
+!!! info "Hinweis"
+
+    Die Sortierung nach Durchführungszeitraum erfolgt, wenn durch die Administration zur Verfügung gestellt, chronologisch nach dem **Zeitrahmen** (nicht alphabetisch). Kurse ohne Durchführungszeitraum erscheinen am Ende der Liste.
 
 ![Meine Kurse](assets/Kurse_20b.jpg)
 
-Filter lassen sich auch kombinieren und speichern. [Hier](../basic_concepts/Table_Concept.de.md) erfahren Sie mehr darüber wie Sie Ihre Ansicht optimal filtern können.
+Filter lassen sich auch kombinieren und speichern.
+
+!!! note "Filteroptionen"
+    Mehr dazu, wie Sie Ihre Ansicht optimal filtern können.<br>
+    [Filteroptionen und Tabellenkonzept](../basic_concepts/Table_Concept.de.md)
 
 Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die gewünschten Kurse in der Tabellenansicht wie im Screenshot oben oder in der Listensicht anzeigen lassen und auch die gewünschten Anzeigespalten auswählen. 
 
@@ -24,7 +34,7 @@ Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die g
 
 Wenn Sie einen Kurs nicht finden, prüfen Sie, ob möglicherweise noch ein unerwünschter Filter aktiv ist (z. B. „nur nicht bestandene Kurse anzeigen“). Entfernen Sie in diesem Fall den entsprechenden Filter.
 
-Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. Klicken Sie dazu auf die weiße Flagge, die sich anschließend rot färbt. Beim nächsten Login finden Sie den Kurs direkt in Ihren Favoriten.
+Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. Klicken Sie dazu auf die weisse Flagge, die sich anschliessend rot färbt. Beim nächsten Login finden Sie den Kurs direkt in Ihren Favoriten.
 
 ![favorites](assets/Kurse_Bookmark.jpg)
 
