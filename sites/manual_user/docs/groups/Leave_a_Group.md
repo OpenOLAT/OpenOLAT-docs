@@ -103,7 +103,7 @@ If there are other group members in addition to the group facilitator who has en
 [Become group member > ](Group_Membership.md)<br>
 [Using group tools >](Using_Group_Tools.md)<br>
 [Configure LTI share groups > ](LTI_Share_groups.md)<br>
-For administrators: [System-wide configuration of the groups >](../../manual_admin/administration/Modules.md)<br>
+[System-wide configuration of the groups >](../../manual_admin/administration/Modules_Groups.md)<br> ...for administrators
 
 [To the top of the page ^](#leave_group)
 
