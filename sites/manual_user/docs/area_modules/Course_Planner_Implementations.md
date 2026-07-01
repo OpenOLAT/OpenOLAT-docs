@@ -183,11 +183,26 @@ The notification box **"Accept membership requests"** appears in the course area
 
 !!! note "Note"
 
-    Whether confirmation by the invited persons is required depends on the reservation requirement configuration.
+    Whether confirmation by the invited persons is required depends on the reservation requirement configuration. Details on this can be found in the section on confirming membership below.
 
 For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
 
 <br>
+
+#### Tab members {: #confirm_membership}
+**Confirmation of membership by line managers/education managers**
+
+The Course Planner can be set up so that a booking request must be confirmed by an administrative role (e.g. a line manager or education manager). With this setting, users can book a course, but the manager must confirm or decline the booking in an intermediate step.
+
+This approval step can also be set up for all offers, except when paying with Paypal (since payment/booking there is immediate).
+
+![course_planner_implementations_confirm_member_v1_de.png](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#implementations)
+
+---
+
 
 ### Tab Catalog {: #tab_catalog}
 
