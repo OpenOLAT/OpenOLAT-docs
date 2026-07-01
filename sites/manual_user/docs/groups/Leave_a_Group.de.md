@@ -97,7 +97,7 @@ Sind neben dem/der Gruppenbetreuer:in, die ihre Mitgliedschaft beendet, weitere 
 [Gruppenmitglied werden > ](Group_Membership.de.md)<br>
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
 [LTI-Zugang zu einer Gruppe konfigurieren > ](LTI_Share_groups.de.md)<br>
-Für Administrator:innen: [Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules.de.md)<br>
+[Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br> ...für Administratoren
 
 [Zum Seitenanfang ^](#group_membership)
 
