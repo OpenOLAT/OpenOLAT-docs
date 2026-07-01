@@ -6,12 +6,21 @@ The "Courses" menu item gives you access to the courses and possibly other learn
 
 Under "My Courses", you can view all courses and learning resources that are active or finished. You can also mark favorites and display only the favorites. Or you can use the search function to find a course or learning resource based on a keyword.
 
-You can also filter your courses based on various criteria, including execution period, membership, result, status, author/owner odr implementation format. To do so, click the small arrow and more filter options will appear. 
+You can also filter your courses based on various criteria, including execution period, membership, result, status, author/owner odr implementation format. To do so, click the small arrow and more filter options will appear.
+
+### Filter by implementation period [:octicons-tag-16:{ title="from Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
+
+!!! info "Note"
+
+    If made available by the administration, sorting by implementation period is chronological according to the **time frame** (not alphabetical). Courses without an implementation period appear at the end of the list.
 
 ![Meine Kurse](assets/Kurse_20b.jpg)
 
-Filters can also be combined and saved. 
-Learn more about how to best filter your tables [here](../basic_concepts/Table_Concept.md).
+Filters can also be combined and saved.
+
+!!! note "Filter options"
+    More on how to best filter your view.<br>
+    [Filter options and table concept](../basic_concepts/Table_Concept.md)
 
 You have two options for viewing the courses. You can display the desired courses in the table view as shown in the screenshot above or in the list view and also select the desired display columns.
 

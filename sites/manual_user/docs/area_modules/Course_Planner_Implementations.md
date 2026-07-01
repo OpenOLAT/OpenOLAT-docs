@@ -19,9 +19,15 @@ From this conceptual idea, the same courses are generally assigned and used in e
 
 ## The list of implementations {: #listing}
 
-If you have selected the "Implementations" button in the Courser Planner overview, you will first be taken to a list of all implementations for this product. You can use the tabs to display sub-lists (e.g. "Active") and use filters to narrow down the selection further.
-
+If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
+
+With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
+
+![course_planner_implementations_list_filter_v1.png](assets/course_planner_implementations_list_filter_v1.png){ class="shadow lightbox" }  
+
+
+
 
 [To the top of the page ^](#implementations)
 
@@ -29,7 +35,7 @@ If you have selected the "Implementations" button in the Courser Planner overvie
 
 ## Navigation the implementations {: #navigation}
 
-Once you have selected and opened an implementation in the list, you can
+Once you have selected and opened an implementation in the list, the tabs shown allow you to make all settings for this implementation.
 
 ![1_green_24.png](assets/1_green_24.png) click on the "**Go to**" button at the top right to jump to an element within the current implementation.
 
@@ -48,14 +54,11 @@ Once you have selected and opened an implementation in the list, you can
 
 ---
 
-## Configuration of an implementation {: #config}
-
-As soon as you have opened an implementation, you can make all the settings for this implementation in the tabs displayed.
 
 
 ### Tab Overview {: #tab_overview}
 
-The "Overview" tab shows you the next dates, the offers in the catalog and the course content for this product.
+The "Overview" tab shows you the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
 
 ![course_planner_implementations_tab_overview_v1_de.png](assets/course_planner_implementations_tab_overview_v1_de.png){ class="shadow lightbox" }
 
@@ -151,13 +154,40 @@ Participants are therefore made members of a specific implementation (not member
 
 If the participants were made members of the educational product (the "copy template"), they would be present as participants in all implementations of this product. This is not desirable. Therefore, only owners can be added to a product as members, not participants.
 
-Because member administration is carried out when using the Course Planner, there is the setting "Integration in curriculum/product" in the course settings.<br>
-**(Course) Administration > Settings > Tab "Share" > Section "Use" > Button "Implementation in Curriculum/Product"**<br> The course then no longer has its own member administration; the member administration takes place in the member administration of the implementation.
+!!! tip "Member administration in the Course Planner
+    Because member administration is carried out when using the Course Planner, there is the setting "Integration in curriculum/product" in the course settings:
+    `(Course) Administration > Settings > Tab "Share" > Section "Use" > Button "Implementation in Curriculum/Product"`
+**The course then no longer has *any* independent member administration** — member administration now takes place exclusively in the member administration of the implementation, **within the Course Planner**.
 
-[To the top of the page ^](#implementations)
+<br>
 
----
+#### Tab members {: #add_members}
+**Add members**
 
+To add participants to an implementation as members, use the<br>
+`Implementation > Tab members > the button Add participants`
+
+![course_planner_implementations_add_member_v1_de.png](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+#### Tab members > Invitation and membership requests [:octicons-tag-16:{ title="from Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #invitation_flow}
+
+When participants are assigned to an implementation, they receive a system notification by email depending on the context:
+
+- Assignment to a **course**: notification with a link to the course area
+- Assignment to an **educational product**: notification with a link to the course area
+- Assignment to a **group**: notification with a link to the group area
+
+The notification box **"Accept membership requests"** appears in the course area, in the group area, and directly on the course or educational product info page. Participants can accept or decline the request there. Acceptance is possible equally at all three locations.
+
+!!! note "Note"
+
+    Whether confirmation by the invited persons is required depends on the reservation requirement configuration.
+
+For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
+
+<br>
 
 ### Tab Catalog {: #tab_catalog}
 
@@ -186,21 +216,21 @@ The many possible settings for an implementation can be found under several subo
 ![course_planner_implementations_tab_settings_v1_de.png](assets/course_planner_implementations_tab_settings_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Settings > Infos
+#### Metadata of the settings
 
 The metadata entered here is used to simplify search processes, for example.
 
 ![course_planner_implementations_tab_settings_metadata_v1_de.png](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Settings > Implementations
+#### Implementation in the settings
 
 The implementation settings include the implementation period, the location and the number of participants.
 
 ![course_planner_implementations_tab_settings_execution_v1_de.png](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Settings > Automatization
+#### Automation in the settings
 
 The basic purpose of Course Planner is to separate administrative planning from content creation. It is possible to carry out planning without having courses available from the outset. It can even be set up so that the courses are only actually created automatically (from a template) when the implementation period approaches. This is also known as instantiation.
 
@@ -209,7 +239,7 @@ The status change (e.g. from "Provisional" to "Published"), which is usually car
 ![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Settings > Options
+#### Options in the settings
 
 Separate settings can be made here for each implementation:
 

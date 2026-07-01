@@ -65,10 +65,12 @@ Alternatively, you can use the “Invite external members” option. This allows
 
 ![add members](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
 
-!!! hint "Hint"
+!!! tip "Hint"
 
     In the last step of the wizard, you can formulate an e-mail. You can also use variables in the email text. 
     ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
+
+For administrators: [System-wide configuration of the invitation (email, accept membership) >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
 
 [To the top of the page ^](#members_management)
 

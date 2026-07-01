@@ -10,7 +10,7 @@ With the coaching tool, course owners, course coaches and group coaches have the
 ---
 
 
-## The tools {: #tools}
+## The tools [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
 You can find access to the data of the persons under care and the tools under the buttons.
 
@@ -25,7 +25,7 @@ You can find access to the data of the persons under care and the tools under th
 ![coaching_tools_v1_de.png](assets/coaching_tools_v1_de.png){ class="shadow lightbox" }
 
 
-!!! info "Note"
+!!! note "Note"
 
     The menu will rarely contain all the options shown here. Depending on the activated modules, a different composition is displayed. Here in the manual, the maximum selection is shown for explanation.
 
@@ -66,7 +66,7 @@ Additionally administrative roles have access.
 ---
 
 
-## The focus elements {: #focus_elements}
+## The focus elements [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #focus_elements}
 
 The coaching tool often displays a list of the people you are coaching.
 If, for example, you are only a direct coach in one course but also an education manager, you can access all other participants based on this role.
@@ -74,6 +74,52 @@ If, for example, you are only a direct coach in one course but also an education
 You can select one of your roles using the focus elements above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
 
 ![coaching_focus_elements_v1_de.png](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#coaching)
+
+---
+
+
+## The Event widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9113)" }](https://track.frentix.com/issue/OO-9113) {: #widget_events}
+
+The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
+
+### Header and day display
+
+The widget header shows the current date with month, year and the label **Today, \<weekday\>**. Today's date is highlighted. The weekend is visually toned down.
+
+### Week navigation
+
+Use the `<` and `>` buttons to navigate through the events week by week. A week always runs from Monday to Sunday. Initially, the current week from today onwards is displayed.
+
+### Event list
+
+Each event shows the following information:
+
+- Weekday and date
+- Status indicator
+- External reference and title
+- Location (with location icon)
+- Time and duration (with clock icon)
+
+!!! note "Note"
+    In the narrow (mobile) view, the location column is omitted. Only the time is shown.
+
+![coaching_widget_events_v1.png](assets/coaching_widget_events_v1.png){ class="shadow lightbox" }
+
+### Empty state
+
+If there are no events in the displayed week, the message **No events until the end of the week** appears. Use the **Previous event** and **Next event** buttons to jump to the nearest event in the past or future.
+
+!!! note "Note"
+    If this coach has no events at all, the widget is hidden completely.
+
+### Full view
+
+The **Show all events** link takes you to the **Events / Absences** tool.
+
+!!! Tip "Important"
+    The widget is a quick overview of the current week. The full **Events / Absences** tool additionally offers the Cockpit, Absences, Reports, Appeals and Person search tabs.
 
 [To the top of the page ^](#coaching)
 

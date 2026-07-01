@@ -173,13 +173,43 @@ If you create a group, you automatically become the group administrator. In this
 
 ---
 
+
+## Accept or decline membership requests [:octicons-tag-16:{ title="from Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #reservation}
+
+If you have been assigned to a course, group or educational product with a reservation requirement, the notification box **"Accept membership requests"** automatically appears in the group area. The box is collapsible and shows a card view with one entry per group.
+
+The notification box is displayed as long as there are pending requests. It informs you that you have been invited to a group and prompts you to accept or decline the membership request.
+
+**Example view** of the notification box for an invited user:
+![groups_membership_request_v1.png](assets/groups_membership_request_v1.png){ class="shadow lightbox" }
+
+The following actions are available for each pending request:
+
+- **Accept** (checkmark icon): Accepts the membership request. You are added as a member of the group.
+- **Decline** (X icon, red): Declines the membership request.
+- **Details**: Opens a lightbox with the description and the membership list of the group.
+
+!!! note "Note"
+
+    The notification box also appears on first login if both course and group requests are pending. In this case you see both panels (course and group) at the same time. Use the "Later" action to postpone processing to a later time.
+
+Membership requests can also be accepted or declined directly on the info page of a course or educational product. There, the notification box is not collapsible.
+
+For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
+
+[To the top of the page ^](#group_membership)
+
+
+---
+
+
 ## Further information {: #further_information}
 
 [Create groups >](Create_Groups.md)<br>
 [Using group tools >](Using_Group_Tools.md)<br>
 [Leave a group > ](Leave_a_Group.md)<br>
 [Configure LTI Share for groups > ](LTI_Share_groups.md)<br>
-For administrators: [System-wide configuration of the groups >](../../manual_admin/administration/Modules.md)<br>
+[System-wide configuration of the groups >](../../manual_admin/administration/Modules_Groups.md)<br> ...for administrators
 
 [To the top of the page ^](#group_membership)
 
