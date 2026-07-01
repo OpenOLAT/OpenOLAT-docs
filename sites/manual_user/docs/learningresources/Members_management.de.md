@@ -8,9 +8,9 @@ In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gru
 
 ## Bereich "Mitglieder" {: #section_members}
 
-Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich „Mitglieder“. Dort sehen Sie eine tabellarische Übersicht aller Personen, die Zugriff auf den Kurs oder die Lernressource haben. Über verschiedene Tabs können Sie alle oder ausgewählte Kursmitglieder anzeigen lassen, zum Beispiel nur Betreuer:innen oder ausschließlich Teilnehmende. Zudem ist eine Filterung nach Kursrolle oder Kontotyp möglich.
+Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich „Mitglieder”. Dort sehen Sie eine tabellarische Übersicht aller Personen, die Zugriff auf den Kurs oder die Lernressource haben. Über verschiedene Tabs können Sie alle oder ausgewählte Kursmitglieder anzeigen lassen, zum Beispiel nur Betreuer:innen oder ausschliesslich Teilnehmende. Zudem ist eine Filterung nach Kursrolle oder Kontotyp möglich.
 
-Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail senden. Außerdem können Sie die Mitgliederdaten als Excel-Tabelle exportieren.
+Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail senden. Ausserdem können Sie die Mitgliederdaten als Excel-Tabelle exportieren.
 
 ![Mitgliederverwaltung](assets/Mitglieder20.png){ class="shadow lightbox" }
 
@@ -65,10 +65,12 @@ Alternativ kann die Option "Externe Mitglieder einladen" verwendet werden. Auf d
 
 ![Mitglieder hinzufügen ](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
     Im letzten Schritt des Wizards können Sie eine E-Mail formulieren. Dort können Sie auch Variablen im E-Mail-Text verwenden. 
     ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
+
+Für Administrator:innen: [Systemweite Konfiguration der Einladung (E-Mail, Mitgliedschaft akzeptieren) >](../../manual_admin/administration/Modules_Groups.de.md#data_privacy)
 
 [Zum Seitenanfang ^](#members_management)
 
@@ -112,7 +114,7 @@ Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner.de.md) v
 
 Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.md) eingerichtet wurden, werden unter „Buchungsaufträge“ alle Buchungsaufträge für diesen Kurs nach Status sortiert angezeigt.  
 
-Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot – zum Beispiel über einen Zugangscode – enthält.
+Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot (zum Beispiel über einen Zugangscode) enthält.
 
 ![members_management_booking_orders_v1_de.png](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
 
@@ -135,7 +137,7 @@ Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder ei
 
 Häufig besteht der Wunsch, einzelnen Benutzer:innen zusätzliche Rechte zu vergeben, ohne ihnen dabei volle Besitzrechte zu übertragen oder eine weitere kursspezifische Rolle zuzuweisen. Dies können Sie im Bereich **Rechte** der Mitgliederverwaltung vornehmen.
 
-Dort werden alle kursspezifischen Gruppen angezeigt – unterteilt in Gruppen-Betreuer:innen und Gruppen-Teilnehmer:innen – zusammen mit den jeweils zugeordneten Rechtegruppen.
+Dort werden alle kursspezifischen Gruppen angezeigt, unterteilt in Gruppen-Betreuer:innen und Gruppen-Teilnehmer:innen, zusammen mit den jeweils zugeordneten Rechtegruppen.
 
 Zu beachten ist dabei, dass hier keine
 Einzelrechte, sondern Rechte für bestimmte _Kurswerkzeuggruppen_ vergeben werden wie z.B. Zugriff auf den Kurseditor mit allen integrierten Möglichkeiten oder das komplette Bewertungswerkzeug. 

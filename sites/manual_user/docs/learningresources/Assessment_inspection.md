@@ -13,13 +13,13 @@ That's why OpenOlat has a special tool for assessment. You define
 * a specific time window,
 * if the assessment mode is active during this time window.
 
-## Configuration of a flowchart for an inspection
+## Configuration of a flowchart for an inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
 As **Course owner** you create a flowchart in which you define how exam inspections work. <br>
 The **coaches** then schedule the inspections for the exam participants and select one of the predefined flowcharts (configurations).
 
 As the course owner, you define an assessment (flowchart) under <br>
-**Administration > Assessment management > Tab "Configuration assessment inspection"**<br>
+`Administration > Assessment management > Tab "Configuration assessment inspection"`<br>
 There you can click on the **button "Add assessment inspection"** to add a new configuration (flowchart) to the assessment management. Already defined flowcharts will be listed.
 
 ![assessment_management_tab_inspection_v1_de.png](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
@@ -36,11 +36,16 @@ In the "Access" tab, access can be restricted to very specific devices by specif
 
 ![assessment_management_inspection_access_v1_de.png](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
 
-### Tab "Safe Exam Browser (SEB)"
+### Tab "Safe Exam Browser (SEB)" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
 By using the SEB, all other activities on the computer can be blocked during viewing.
 
 ![assessment_management_inspection_seb_v1_de.png](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
+
+**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+
+!!! note "Prerequisite"
+    The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 
 <br>
 
@@ -86,12 +91,12 @@ You can find everything per person in the **activity log** under the 3 points at
 ## Difference: Report - Assessment
 
 | Report                                    | Assessment view                          |
-| ----------------------------------------- | ----------------------------------------- |
+| :----------------------------------------- | :----------------------------------------- |
 | **Overview** of the participants' results | **Detailed view** of the examination of certain participants |
 | Defined **results view for all** course participants | The assessment is particularly suitable for **inspection by individuals** (e.g. if there are doubts in individual cases). |
 | repeatable               | one-time                    |
 | at any time, as long as the course is accessible       | only on fixed dates         |
-| Access for owners:<br>**Administration > Course editor > Select course element "Test" > Tab "Test configuration" > Section "Report"**| Access for owners:<br>**Administration > Exam administration > Tab "Configuration Exam management"** |
-| Access for coaches:<br>   | Access for coaches:<br> **Assessment tool > Tab Assessment view ** |
+| Access for owners:<br>`Administration > Course editor > Select course element "Test" > Tab "Test configuration" > Section "Report"`| Access for owners:<br>`Administration > Assessment management > Tab "Configuration assessment inspection"` |
+| Access for coaches:<br> `Assessment tool`  | Access for coaches:<br> `Assessment tool > Tab Assessment view` |
 
 

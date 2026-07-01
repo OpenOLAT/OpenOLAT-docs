@@ -96,13 +96,19 @@ If this option is selected, the assessment mode also applies to coaches. This me
 
 You can also define whether the assessment mode should also be applied to coaches.
 
-## Tab "Safe Exam Browser"
+## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
 ![assessment_management_create_exam_setting_tab_seb_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" }
 
 **Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Users are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
 
-[Go to the details > ](../../manual_how-to/SEB/SEB.md)
+**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+
+!!! note "Prerequisite"
+    The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
+
+!!! note "Further information"
+    [Configure Safe Exam Browser (SEB) >](../../manual_how-to/SEB/SEB.md)
 
 <br>
 
