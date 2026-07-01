@@ -20,9 +20,14 @@ Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleic
 
 ## Die Liste der Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #listing}
 
-Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit den Tabs (Reitern) Teil-Listen anzeigen lassen (z.B. "Aktiv") und mit Filtern die Auswahl weiter eingrenzen.
-
+Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit Filtern die Auswahl eingrenzen.
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
+
+Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
+
+![course_planner_implementations_list_filter_v1_de.png](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" }  
+
+
 
 
 [zum Seitenanfang ^](#implementations)
@@ -31,7 +36,7 @@ Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" ge
 
 ## Navigation in den Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
 
-Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie von hier aus
+Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen.
 
 ![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen.
 
@@ -52,15 +57,13 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie vo
 ---
 
 
-## Konfiguration einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #config}
 
-Sobald Sie eine Durchführung geöffnet haben, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen.
 
 
 
 ### Tab Übersicht [:octicons-tag-16:{ title="ab Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
-Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt.
+Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt. Dies erleichtert Ihnen die Navigation innerhalb der Durchführungsbezogenen Aktivitäten.
 
 ![course_planner_implementations_tab_overview_v1_de.png](assets/course_planner_implementations_tab_overview_v1_de.png){ class="shadow lightbox" }
 
@@ -160,21 +163,43 @@ Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung ge
 
 Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
-Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt".<br>
-`(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"`<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
+!!! tip "Mitgliederverwaltung im Course Planner
+    Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt":
+    `(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"`
+**Der Kurs hat dann *keine* eigenständige Mitgliederverwaltung mehr**, die Mitgliederverwaltung erfolgt nun ausschliesslich in der Mitgliederverwaltung der Durchführung, **innerhalb des Course Planners**.
 
 <br>
 
-#### Tab Mitglieder > Mitglieder hinzufügen {: #add_members}
+#### Tab Mitglieder {: #add_members}
+**Mitglieder hinzufügen**
 
 Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwenden Sie in der<br>
-**Durchführung > Tab Mitglieder > den Button "Teilnehmer:innen hinzufügen"**
+`Durchführung > Tab Mitglieder > den Button Teilnehmer:innen` hinzufügen
 
 ![course_planner_implementations_add_member_v1_de.png](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche {: #confirm_membership}
+#### Tab Mitglieder > Einladung und Mitgliedschaftsanfragen [:octicons-tag-16:{ title="ab Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #invitation_flow}
+
+Wenn Teilnehmer:innen einer Durchführung zugewiesen werden, erhalten sie je nach Kontext eine Systembenachrichtigung per E-Mail:
+
+- Zuweisung zu einem **Kurs**: Benachrichtigung mit Link in den Kursbereich
+- Zuweisung zu einem **Bildungsprodukt**: Benachrichtigung mit Link in den Kursbereich
+- Zuweisung zu einer **Gruppe**: Benachrichtigung mit Link in den Gruppenbereich
+
+Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich.
+
+!!! note "Hinweis"
+
+    Ob eine Bestätigung durch die eingeladenen Personen erforderlich ist, hängt von der Konfiguration der Reservierungspflicht ab. Details dazu finden Sie im Abschnitt zur Bestätigung der Mitgliedschaft weiter unten.
+
+Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#data_privacy)
+
+<br>
+
+#### Tab Mitglieder {: #confirm_membership}
+**Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche**
 
 Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Benutzer:innen einen Kurs buchen, der/die Vorgesetzte muss aber in einem Zwischenschritt die Buchung bestätigen oder ablehnen.
 
@@ -216,27 +241,27 @@ Die Vielzahl der möglichen Einstellungen zu einer Durchführung sind unter mehr
 
 ![course_planner_implementations_tab_settings_v1_de.png](assets/course_planner_implementations_tab_settings_v1_de.png){ class="shadow lightbox" }
 
-#### Tab Einstellungen > Metadaten
+#### Metadaten der Einstellungen
 
 Die hier eingegebenen Metadaten werden verwendet um z.B. Suchprozesse zu vereinfachen.
 
 ![course_planner_implementations_tab_settings_metadata_v1_de.png](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Einstellungen > Infos
+#### Infos in den Einstellungen
 
 Die im Tab "Infos" gemachten Angaben werden z.B. für die Anzeige im Katalog verwendet.
 
 ![course_planner_implementations_tab_settings_infos_v1_de.png](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" }
 
-#### Tab Einstellungen > Durchführung
+#### Durchführung in den Einstellungen
 
 Zu den Einstellungen der Durchführung gehören der Durchführungszeitraum, der Ort und die Anzahl der Teilnehmer:innen.
 
 ![course_planner_implementations_tab_settings_execution_v1_de.png](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Einstellungen > Automatisierung
+#### Automatisierung in den Einstellungen
 
 Das Grundanliegen des Course Planners ist die Trennung der administrativen Planung von der Inhaltserstellung. Es ist möglich, die Planung vorzunehmen, ohne dass schon von Anfang an Kurse vorhanden sind. Es kann sogar eingerichtet werden, dass die Kurse automatisiert erst dann  tatsächlich (aus einer Vorlage) erstellt werden, wenn der Durchführungszeitraum näher kommt. Man nennt dies auch Instanzierung.
 
@@ -245,7 +270,7 @@ Der sonst durch Kursbesitzer:innen vorgenommene Statuswechsel (z.B. von "proviso
 ![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
 
 
-#### Tab Einstellungen > Optionen
+#### Optionen in den Einstellungen
 
 Für jede Durchführung können hier separat Einstellungen vorgenommen werden für: 
 
