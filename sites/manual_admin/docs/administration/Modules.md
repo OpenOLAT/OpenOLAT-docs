@@ -98,8 +98,9 @@ The course element "Livestream" can be made available and configured here (Paell
 ## Time periods {: #time_periods}
 
 Create and manage time periods (e.g. semester dates) to be able to refer to a time period designation
-instead of a date for course durations. The time period created here can be used when configuring the execution period of a course in learning resource management. For example, "SuSe23" could be used as the designation and "Summer semester 2023" as the name.
+instead of a date for course durations. The time period created here can be used when configuring the execution period of a course in learning resource management. For example, "SuSe26" could be used as the designation and "Summer semester 2026" as the name.
 
+[See the details >](Modules_Time_Period.md)<br>
 [To the top of the page ^](#modules)
 
 
@@ -146,12 +147,13 @@ Here you can display all booking orders for a specific booking number in a speci
 
 ## Groups {: #groups}
 
-Here you can define if course authors and learners are allowed to create new groups. Possible rights for group administrators and learning resource administrators in the group context can also be defined.
+Here you can define if authors and users with no additional role are allowed to create new groups. Possible rights for group managers and learning resource managers in the group context can also be defined.
 
-In order to meet data protection requirements, it can be defined whether an email must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be confirmed by the invited user.
+In order to meet **data protection requirements**, it can be defined whether an email must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be *confirmed* by the invited user.
 
 Administrators can also purge course and group members here.
 
+[See the details >](Modules_Groups.md)<br>
 [To the top of the page ^](#modules)
 
 
