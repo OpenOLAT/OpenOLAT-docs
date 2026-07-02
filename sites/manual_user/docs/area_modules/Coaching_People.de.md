@@ -7,7 +7,7 @@
 ![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
 
-## WEN zeigt die Liste? {: #people_who}
+## WEN zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
 
 Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
@@ -21,13 +21,13 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
     * als Ausbildungsverantwortliche:r
 
 
-!!! hint "Hinweis zu den Rollen Linienvorgesetzte:r und Ausbildungsverantwortliche:r"
+!!! note "Hinweis zu den Rollen Linienvorgesetzte:r und Ausbildungsverantwortliche:r"
 
     Diese Rollen werden im Coaching Tool nur angezeigt, wenn in der Administration das [Modul Organisation](../../manual_admin/administration/Modules_Organisations.de.md) aktiviert wurde. 
     
 
 
-!!! hint "Hinweis zu weiteren Personenbeziehungen"
+!!! note "Hinweis zu weiteren Personenbeziehungen"
 
     Auch wenn Sie [eigene Rollen und Beziehungen](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) definiert haben, werden Ihnen diese Rollen hier angezeigt, um eine vorgruppierte Liste anzeigen zu können.
 
@@ -89,6 +89,19 @@ Linienvorgesetzte und Ausbildungsverantwortliche finden im Coachingtool unter Pe
 
 ![coaching_people_line_manager1_v1_de.png](assets/coaching_people_line_manager1_v1_de.png){ class="shadow lightbox" }
 
+### Erweiterte Personensicht [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9168)" }](https://track.frentix.com/issue/OO-9168){:target="_blank"} {: #linemanager_educationmanager_extended_view}
+
+In der Personenliste unter dem Fokus "Linienvorgesetzte:r" bzw. "Ausbildungsverantwortliche:r" werden alle Benutzer:innen der Organisation angezeigt, unabhängig von deren Rolle.
+
+Hat eine Person zusätzliche Rollen (mehr als die Rolle Autor:in), erscheint in der Detailansicht ein Hinweis mit Icon: **"Aufgrund zusätzlicher organisatorischer Rollen ist die Verwaltung für diese Person eingeschränkt."** In diesem Fall gilt:
+
+* Die Tabs **Profil** und **Konto** sind nur lesend zugänglich.
+* Die Aktion **Passwort zurücksetzen** steht nicht zur Verfügung.
+
+[Zum Seitenanfang ^](#people)
+
+---
+
 
 ### Voraussetzungen {: #linemanager_educationmanager_conditions}
 
@@ -96,15 +109,15 @@ Damit ein zusätzlicher Button "Linienvorgesetzte:r" und/oder "Ausbildungsverant
 
 **Voraussetzung 1:**
 Das Modul "Organisationseinheiten" muss aktiviert sein.<br>
-(Administration > Module > Organisationen)
+`Administration > Module > Organisationen`
 
 **Voraussetzung 2:**
 Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br>
-(Benutzerverwaltung > Person auswählen > Tab Rollen)
+`Benutzerverwaltung > Person auswählen > Tab Rollen`
 
 **Voraussetzung 3:**
-In der Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder weitere Rechte aktiviert sein. 
-(Administration > Module > Organisationen > Tab Organisationsstruktur > eine Organisationseinheit (oberste Ebene) wählen > Button Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Ausstehende Kursbuchungen" aktivieren)
+In der Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder weitere Rechte **aktiviert sein**. 
+`Administration > Module > Organisationen > Tab Organisationsstruktur` (dann eine Organisationseinheit (oberste Ebene) wählen) `> Button Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Ausstehende Kursbuchungen"` aktivieren.
 
 ---
 
@@ -112,7 +125,7 @@ In der Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder w
 
 Im Coachingtool finden Sie als Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r rechts oben den **Button "Konto erstellen"**. Sie öffnen damit ein Formular zum Erfassen der notwendigen Angaben um bisher unregistrierte Personen in OpenOlat aufzunehmen.
 
-(Ob dieser Button zur Verfügung steht, wird festgelegt in: Administration > Module > Organisationen > Tab Organisationsstruktur > eine Organisationseinheit (oberste Ebene) wählen > Button Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Konten erstellen")
+Ob dieser Button zur Verfügung steht, wird festgelegt in: `Administration > Module > Organisationen > Tab Organisationsstruktur` (dann eine Organisationseinheit (oberste Ebene) wählen) `> Button Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Konten erstellen"`
 
 Ein durch Linienmanager:innen/Ausbildungsverantwortliche angelegtes Konto enthält automatisch eine Zuordnung der neu registrierten Person zur Organisationseinheit des/der Linienmanager:in/Ausbildungsverantwortlichen.
 
@@ -148,7 +161,7 @@ Alternativ und einfacher können Sie auch den **Link innerhalb der Benachrichtig
 
 ![coaching_people_line_manager4_v1_de.png](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Wie kommt es zu ausstehenden Mitgliedschaften?"
+!!! note "Wie kommt es zu ausstehenden Mitgliedschaften?"
 
     Mitgliedschaften, die erst noch durch Linienvorgesetzte oder Ausbildungsverantwortliche genehmigt werden müssen, werden im Course Planner für Durchführungen eingerichtet.
     Mehr dazu [hier >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#confirm_membership)
