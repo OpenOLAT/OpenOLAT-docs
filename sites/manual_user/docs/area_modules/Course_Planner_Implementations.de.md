@@ -27,7 +27,10 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 ![course_planner_implementations_list_filter_v1_de.png](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" }  
 
+Über die individuelle Spaltenauswahl lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
+!!! note "Hinweis"
+    Die Fachbereiche werden durch die Administration unter Taxonomie zur Verfügung gestellt.
 
 
 [zum Seitenanfang ^](#implementations)

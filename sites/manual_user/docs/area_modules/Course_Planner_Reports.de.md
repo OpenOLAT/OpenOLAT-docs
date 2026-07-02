@@ -6,7 +6,7 @@ Folgende Rollen können Reports erstellen:
 - Principal
 - Administrator:in
 
-!!! info
+!!! note "Hinweis"
     Die Reports beziehen sich jeweils auf die userbezogene Organisation und sind damit nicht Organisationsübergreifend.
 
 ![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }  
