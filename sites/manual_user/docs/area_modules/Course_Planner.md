@@ -102,16 +102,21 @@ In addition, a billing system can also be set up for the implementation.
 
 ---
 
-## Who can use the Course Planner? {: #users}
+## Who can use the Course Planner? [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8916)" }](https://track.frentix.com/issue/OO-8916){:target="_blank"} {: #users}
 
 After activation of the Course Planner by a system administrator, it is available to all users with the **role "Course Planner"**. (When using organisational units, the role course planner may also be restricted to certain organisational units.) 
 
 **Administrators** and **principals** also have access. (These roles may also be restricted to organisational units.)
 
+**Principals** have exclusively read access to the entire Course Planner: actions such as **Change status**, **Remove** or **Instantiate** are not available to them. If a principal opens a course directly from the Course Planner, the same read-only restriction also applies to the course view.
+
+!!! info "Note on the restriction as principal"
+    The read restriction is active whenever the principal only holds this role. There can be overlaps if a user has several roles in a product, for example. In that case, this user can become active wherever the role permits, for example in a to-do assigned to "them".
+
 Limited to a specific product, **product owners** and **element owners** can access it within their area of responsibility.
 
-Authors and learning resource administrators do not have access to the Course Planner. 
-Their role, rights and responsibilities focus on content creation rather than on the planning, scheduling and administration of courses and implementations.
+!!! tip "Other OpenOlat roles"
+    Authors and learning resource administrators do not have access to the Course Planner. Their role, rights and responsibilities focus on content creation rather than on the planning, scheduling and administration of courses and implementations.
 
 [To the top of the page ^](#course_planner)
 
