@@ -117,7 +117,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **K
 
 Über den Link **Alle Termine anzeigen** gelangen Sie in das Werkzeug **Termine / Absenzen**.
 
-!!! Tip "Wichtig"
+!!! tip "Wichtig"
     Das Widget ist eine Schnellübersicht der aktuellen Woche. Das vollständige Werkzeug **Termine / Absenzen** bietet zusätzlich die Tabs Cockpit, Absenzen, Meldungen, Rekurse und Personensuche.
 
 [Zum Seitenanfang ^](#coaching)

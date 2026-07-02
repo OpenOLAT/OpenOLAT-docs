@@ -118,7 +118,7 @@ If there are no events in the displayed week, the message **No events until the 
 
 The **Show all events** link takes you to the **Events / Absences** tool.
 
-!!! Tip "Important"
+!!! tip "Important"
     The widget is a quick overview of the current week. The full **Events / Absences** tool additionally offers the Cockpit, Absences, Reports, Appeals and Person search tabs.
 
 [To the top of the page ^](#coaching)
