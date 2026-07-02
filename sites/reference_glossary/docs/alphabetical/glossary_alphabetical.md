@@ -526,6 +526,10 @@ Sonic Foundry Mediasite lecture capture integration.
 
 A course element for Sonic Foundry Mediasite lecture capture.
 
+### Member widget
+
+Widget on the Dashboard of the Course Planner, showing the number of participants and the persons responsible for an implementation.
+
 ### Metadata
 
 Descriptive information about a learning resource (title, description, authors, license, etc.).
