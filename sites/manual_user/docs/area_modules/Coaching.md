@@ -22,7 +22,7 @@ You can find access to the data of the persons under care and the tools under th
 * Reports
 * Order management
 
-![coaching_tools_v1.png](assets/coaching_tools_v1.png){ class="shadow lightbox" }
+![coaching_tools_v1_en.png](assets/coaching_tools_v1_en.png){ class="shadow lightbox" }
 
 
 !!! note "Note"
