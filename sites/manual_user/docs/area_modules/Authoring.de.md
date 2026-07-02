@@ -62,27 +62,41 @@ In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOl
 ### 10. Tabelle downloaden
 Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
 
-### 11. Spalten sortieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
-Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
+### 11. Spalten sortieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
+Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert. Leere Einträge erscheinen dabei unabhängig von der Sortierrichtung immer am Ende der Liste.
 
 **Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
 
-!!! Info **Sortierung nach Durchführungszeitraum:**
+Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reihenfolge sortiert: Vorbereitung, Review, Zugriff für Betreuer, Veröffentlicht, Beendet, Papierkorb.
+
+#### Sortierung nach Durchführungszeitraum [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+
+!!! note "Hinweis"
     Die Spalte "Durchführungszeitraum" sortiert Einträge chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Bezeichnung. Die Reihenfolge ist:
 
-1. nach Beginndatum
-2. ohne Beginndatum: nach Enddatum
-3. ohne Zeitrahmen: ans Ende der Liste
-4. innerhalb desselben Zeitraums: alphabetisch
+    1. nach Beginndatum
+    2. ohne Beginndatum: nach Enddatum
+    3. ohne Zeitrahmen: ans Ende der Liste
+    4. innerhalb desselben Zeitraums: alphabetisch
 
-Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
+    Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
 
 ![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
 
-!!! Tip
-    Wichtig: Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
+!!! tip "Tipp"
+    Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
 
-[Modul Zeitabschnitte >](../../manual_admin/administation/modules_Time_Period.de.md)<br>
+!!! note "Modul Zeitabschnitte"
+    Wie Administrator:innen Zeitabschnitte verwalten.<br>
+    [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
+
+[Zum Seitenanfang ^](#authoring)
+
+---
+
+### 12. Typfilter [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
+
+Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" (vormals "Sound") sowie eine Gruppe **Weitere**, die folgende Typen zusammenfasst: Test (QTI 1.2, nicht mehr unterstützt), Fragebogen, Film, Animation, Andere Datei.
 
 [Zum Seitenanfang ^](#authoring)
 

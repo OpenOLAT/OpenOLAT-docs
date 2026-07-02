@@ -32,7 +32,7 @@ Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeig
 
 ![modules_repository_course_comment_v1_de.png](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen hier unter **Administration > Module > Lernressource > Kommentar** global ein-/ausgeschaltet werden.
+Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen hier unter `Administration > Module > Lernressource > Kommentar` global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -45,7 +45,7 @@ Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurtei
 
 ![modules_repository_course_review_v1_de.png](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit der Sterne zur Beurteilung kann von Administrator:innen hier unter **Administration > Module > Lernressource > Bewertung** global ein-/ausgeschaltet werden.
+Die Verfügbarkeit der Sterne zur Beurteilung kann von Administrator:innen hier unter `Administration > Module > Lernressource > Bewertung` global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -58,7 +58,7 @@ Hier gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Be
 
 ![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
-Diese Funktion kann von Administrator:innen unter **Administration > Module > Lernressource > Mitgliedschaft beantragen** global ein-/ausgeschaltet werden.
+Diese Funktion kann von Administrator:innen unter `Administration > Module > Lernressource > Mitgliedschaft beantragen` global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -66,12 +66,21 @@ Diese Funktion kann von Administrator:innen unter **Administration > Module > Le
 
 
 #### Taxonomie
+**Verwendung von Taxonomie im Katalog** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9214)" }](https://track.frentix.com/issue/OO-9214){:target="_blank"}
 
-Unter **Administration > Module > Taxonomie** können verschiedene Taxonomien erstellt werden.
+Die Aktivierung von Taxonomie in der Lernressource führt dazu, dass die gewählte "Struktur" im Katalog verfügbar ist. Damit dieser Weg funktioniert, muss die entsprechende Taxonomie zuerst grundsätzlich erarbeitet und integriert sein.
 
-Die Aktivierung und Verfügbarkeit dieser Taxonomien im Repository kann hier unter **Administration > Module > Lernressource > Taxonomie** von Administrator:innen vorgenommen werden.
+!!! tip "Grundlage"
+    Unter `Administration > Module > Taxonomie` können verschiedene Taxonomien erstellt werden.
 
-[Zum Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+
+Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in einem Launcher des **Katalogs verwendet wird**. Beim Versuch der Abwahl erscheint die Meldung: «Die Taxonomie wird noch in einem Launcher des Katalogs verwendet und kann daher nicht abgewählt werden.»
+
+
+!!! info "Modul Taxonomie"
+    Wie Taxonomien erstellt und konfiguriert werden.<br>
+    [Zum Modul Taxonomie >](Modules_Taxonomy.de.md)
+
 [Zum Seitenanfang ^](#learning_resource)
 
 ---
@@ -88,7 +97,7 @@ Als Default-Option kann gewählt werden zwischen
 * Nach Kursenddatum oder Status "Beendet"
 * Nie
 
-Diese Default-Einstellung kann von Kursbesitzer:innen im Kurs unter **(Kurs-)Administration > Einstellungen > Tab Freigabe** kursspezifisch angepasst werden.
+Diese Default-Einstellung kann von Kursbesitzer:innen im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Freigabe` kursspezifisch angepasst werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -113,7 +122,7 @@ B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons
 ---
 
 
-### Abschnitt "Standard-Rollenpriorität"
+### Abschnitt "Standard-Rollenpriorität" [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
 
 Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werden, wenn ein Mitglied beim Zugriff auf die Lernressource mehrere Rollen hat. Die oberste Rolle in der Liste hat die höchste Priorität. Systemrollen haben immer eine niedrigere Priorität als Mitgliedsrollen.
 
@@ -142,11 +151,11 @@ Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:in
 
 #### Übersicht Zugangseinstellungen für Sites
 
-Unter **Administration > Customizing > Sites** können Admministrator:innen einstellen, welche Menüpunkte (Sites) in der Hauptnavigation (Kopfzeile) angezeigt werden.
+Unter `Administration > Customizing > Sites` können Administrator:innen einstellen, welche Menüpunkte (Sites) in der Hauptnavigation (Kopfzeile) angezeigt werden.
 
 Hier (unter Modul Lernresource) wird angezeigt, was dort betreffend "Meine Kurse" und "Coaching Werkzeug" eingestellt ist. Ob diese Site überhaupt in der Kopfzeile angezeigt werden soll und für welche Rollen es sichtbar ist.
 
-Um die Einstellungen zu ändern, kann direkt mit einem Link zu **Administration > Customizing > Sites** gewechselt werden ("Site Einstellungen öffnen").
+Um die Einstellungen zu ändern, kann direkt mit einem Link zu `Administration > Customizing > Sites` gewechselt werden ("Site Einstellungen öffnen").
 
 [Zum Seitenanfang ^](#learning_resource)
 

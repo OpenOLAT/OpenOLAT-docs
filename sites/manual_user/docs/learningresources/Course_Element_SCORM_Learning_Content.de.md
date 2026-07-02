@@ -1,17 +1,17 @@
-# Kursbaustein "SCORM-Lerninhalt" {: #course_element_scorm}
+# Kursbaustein "SCORM"
+### Rename zu SCORM1.2 [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"} {: #course_element_scorm}
 
 ## Steckbrief {: #profile}
 
-Name | SCORM-Lerninhalt
+Name | SCORM
 ---------|----------
 Icon | :fontawesome-solid-box-archive:
-Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeugen erstellt wurden
 Bewertbar | ja
 Spezialität / Hinweis |
 
-SCORM steht für "Shareable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden.
+SCORM steht für "Shareable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM" können SCORM-1.2-Lerninhalte in OpenOlat-Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden. Der als Lernressource verwendete Lerninhalt selbst heisst dabei "SCORM 1.2".
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
@@ -33,7 +33,7 @@ Als Besitzer:in haben Sie im Vergleich zu Betreuer:innen im Run-Mode zusätzlich
 
 ## Bearbeitung im Editor {: #editor}
 
-Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM-Lerninhalt" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
+Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
 
 ### Tab "Lerninhalt" {: #editor_tab_learning_content}
 
@@ -42,7 +42,11 @@ Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM-Lerninh
 
 ![1_green_24.png](assets/1_green_24.png) **SCORM**<br>
 
-Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden, was im Kapitel "Aktionen im Autorenbereich" unter dem Punkt ["Importieren"](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
+Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
+
+!!! info "Importieren"
+    Beschreibung des Imports von Lernressourcen im Autorenbereich.<br>
+    [Aktionen im Autorenbereich > Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)
 
 Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name als Link. Folgen Sie dem Link um zur Vorschau zu gelangen. Um die Zuordnung eines SCORM-Lerninhaltes nachträglich zu ändern, klicken Sie im Tab "Lerninhalt" auf "SCORM-Lerninhalt auswechseln" und wählen anschliessend ein anderes SCORM-Paket aus.
 
@@ -142,7 +146,7 @@ OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Aut
 Erlaubt die Kodierung des Javascript-Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz für Inhalt und Javascript verwendet).
 
 
-!!! info "Info"
+!!! note "Hinweis"
 
     SCORM-Lerninhalte werden normalerweise mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
 
@@ -166,7 +170,7 @@ Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege a
 
 ### Tab "Badges" :octicons-tag-16:{ title="ab Release 18.0 (OO-6889)" } {: #badges}
 
-Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
