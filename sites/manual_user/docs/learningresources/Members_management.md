@@ -19,6 +19,43 @@ The "Search" element in the Members management can be used to search for members
 
 Select the columns that are relevant for you via the cogwheel menu and sort the list according to your wishes.
 
+### Preset filters [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #origin_filters}
+
+The tabs above the table provide the following preset filters:
+
+* **All**
+* **Owners**
+* **Coaches**
+* **Participants**
+* **Waiting list**
+* **Origin: course**
+* **Origin: group**
+* **Origin: CPL** (only visible if the course is linked to the Course Planner)
+* **Search**
+
+In the extended filter panel (arrow icon), the selection can also be modified by:
+
+* **Role**: Owner, Coach, Participant
+* **Account type**: Registered users, External users
+* **Origin**: Course, Group, Course Planner
+* **Group**: selection from the groups used in the course
+* **CPL element**: selection from the Course Planner elements used in the course
+
+The cogwheel menu can also be used to show the **Origin** column. It shows how a person became a member of the course (course, group, or Course Planner). The **Registration** and **Last visit** columns can also be added here.
+
+**Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, registration date, last visit if applicable) with the **Edit membership** action and, where applicable, up to three origin sections:
+
+* **Origin: Course**: columns Role, Created
+* **Origin: Group**: columns Role, Group, Created
+* **Origin: Course Planner**: columns Role, Element, Ext. ref., Product, Created
+
+!!! tip "Important"
+    Each section only appears if the person actually has a corresponding origin.
+
+#### Excel export of the origin [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"}
+
+In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements by name (comma-separated).
+
 
 ### Edit user information {: #edit_user_info}
 

@@ -26,7 +26,10 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 
 ![course_planner_implementations_list_filter_v1.png](assets/course_planner_implementations_list_filter_v1.png){ class="shadow lightbox" }  
 
+The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
+!!! note "Note"
+    The subjects are made available by the administration under Taxonomy.
 
 
 [To the top of the page ^](#implementations)

@@ -6,7 +6,7 @@ The following roles can create reports:
 - Principal
 - Administrator
 
-!!! info
+!!! note "Note"
     The reports each relate to the user's own organisation and are therefore not cross-organisational.
 
 ![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" } 
