@@ -1,8 +1,5 @@
-# Course Planner: Übersicht {: #course_planner}
+# Course Planner: Übersicht [:octicons-tag-20:{ title="ab Release 20.0." }](https://track.frentix.com/issue/){:target="_blank"} {: #course_planner}
 
-!!! note "Hinweis"
-
-    Ab Release 20 verfügt OpenOlat über das eigenständige Zusatzmodul "Course Planner". Es ist eine Weiterentwicklung des Curriculums in früheren Versionen. OpenOlat kann aber auch weiterhin als klassisches LMS ohne dieses Modul genutzt werden.
 
 ## Wozu dient der Course Planner? {: #purpose}
 
@@ -136,7 +133,7 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 !!! note "Voraussetzung"
 
-    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
+    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support ihrer OpenOlat Instanz.
 
 
 
@@ -159,7 +156,7 @@ Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werde
 
 ![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
 
-Unterhalb der Buttons und der Suche zeigt die Übersichtsseite einen Bereich mit **Widgets** (Kacheln) in einem responsiven Bento-Layout: Je nach Bildschirmbreite passt sich die Anordnung der Kacheln automatisch an.
+Unterhalb der Buttons und der Suche zeigt die Übersichtsseite einen Bereich mit **Widgets** (Kacheln) in einem responsiven Layout: Je nach Bildschirmbreite passt sich die Anordnung der Kacheln automatisch an.
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} grenzt diesen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
 
@@ -226,13 +223,14 @@ Mit **Speichern** übernehmen Sie die Änderungen und verlassen den Bearbeitungs
 
 Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstandard verwendet.
 
-!!! note "Hinweis für Systemadministrator:innen"
-
-    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen.
-
 !!! note "Hinweis"
 
     Gäste sehen den Button "Übersicht anpassen" nicht.
+
+!!! tip "Hinweis für Systemadministrator:innen"
+
+    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen.
+
 
 [Zum Seitenanfang ^](#course_planner)
 
