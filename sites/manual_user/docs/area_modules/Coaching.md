@@ -1,4 +1,4 @@
-# Coaching - Overview
+# Coaching - Overview {: #coaching}
 
 ## What is the Coaching Tool for? {: #purpose}
 
@@ -50,7 +50,7 @@ Whether the coaching tool is displayed in the main menu depends on other factors
 ---
 
 
-## Who can use the Coaching tool?
+## Who typically uses the Coaching tool? {: #users}
 
 The coaching tool is used by
 
@@ -79,6 +79,30 @@ You can select one of your roles using the focus elements above the list. This w
 
 ---
 
+## Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
+
+A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
+
+[To the top of the page ^](#coaching)
+
+---
+
+### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+
+The **Courses - As coach** widget shows the courses you coach.
+
+Use the main key figure **"Relevant"** (selected by default) or one of the other key figures to get a preselection:
+
+* **Favourites** (selected by default)
+* **All** (not selected by default)
+* **Relevant** (selected by default, main key figure)
+* **Published** (selected by default)
+* **Access for coach** (selected by default)
+* **Finished** (not selected by default)
+
+[To the top of the page ^](#coaching)
+
+---
 
 ## The Event widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9113)" }](https://track.frentix.com/issue/OO-9113) {: #widget_events}
 
