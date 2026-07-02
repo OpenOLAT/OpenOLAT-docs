@@ -4,7 +4,7 @@
 
 ![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
-### WHOM does the list show?  {: #people_who}
+## WHOM does the list show? [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
 
 The menu item "Participants" shows the list of **all the participants you are responsible for**.
 
@@ -18,12 +18,12 @@ The menu item "Participants" shows the list of **all the participants you are re
     * As Education manager
 
 
-!!! hint "Note on the roles of line manager and education manager"
+!!! note "Note on the roles of line manager and education manager"
 
     These roles are only displayed in the coaching tool if the [Organization module](../../manual_admin/administration/Modules_Organisations.md) has been activated in the administration. 
 
 
-!!! hint "Note on other personal relationships"
+!!! note "Note on other personal relationships"
 
     Even if you have defined your [own roles and relationships](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), these roles will be displayed here so that you can view a pre-grouped list.
 
@@ -33,7 +33,7 @@ The menu item "Participants" shows the list of **all the participants you are re
 ---
 
 
-### WHAT does the list show?  {: #people_what}
+## WHAT does the list show? {: #people_what}
 
 You can define the displayed columns yourself by clicking on the cogwheel icon at the top right. The available columns may vary depending on the selected role. 
 
@@ -75,21 +75,45 @@ To write an email to **multiple people**, select the relevant people in the firs
 
 ![coaching_people_contact_v1_de.png](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#people)
+
+---
+
+## Coaching tasks as line manager / education manager {: #linemanager_educationmanager}
+
+Line managers and education managers find an additional button under People in the coaching tool, under which they find all people they are responsible for in their role.
+
+![coaching_people_line_manager1_v1_de.png](assets/coaching_people_line_manager1_v1_de.png){ class="shadow lightbox" }
+
+### Extended people view [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9168)" }](https://track.frentix.com/issue/OO-9168){:target="_blank"} {: #linemanager_educationmanager_extended_view}
+
+In the people list under the "Line manager" or "Education manager" focus, all users of the organisation are displayed, regardless of their role.
+
+If a person has additional roles (more than the author role), an info message with an icon appears in the detail view: **"Due to additional organisational roles, administration is restricted for this person."** In this case:
+
+* The **Profile** and **Account** tabs are read-only.
+* The **Reset password** action is not available.
+
+[To the top of the page ^](#people)
+
+---
+
+
 ### Requirements {: #linemanager_educationmanager_conditions}
 
 The following requirements must be met in order for an additional button labeled "Line Manager" and/or "Education manager" to be displayed.
 
 **Requirement 1:**
 The module "Organizational units" must be activated.<br>
-(Administration > Modules > Organizations)
+`Administration > Modules > Organizations`
 
 **Requirement 2:**
 The person in question must be assigned the role.<br>
-(User Management > Select person > Tab Roles)
+`User Management > Select person > Tab Roles`
 
 **Requirement 3:**
-In the administration section, the "Pending course bookings" option or other rights must be activated. 
-(Administration > Modules > Organizations > Tab Organizational structure > select organizational unit (top level) > Button line manager > Education manager > Activate option "Pending course bookings")
+In the administration section, the "Pending course bookings" option or other rights must **be activated**. 
+`Administration > Modules > Organizations > Tab Organizational structure` (then select an organizational unit (top level)) `> Button line manager or education manager > Option "Pending course bookings"` activate.
 
 ---
 
