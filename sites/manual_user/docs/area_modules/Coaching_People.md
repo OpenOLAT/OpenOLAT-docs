@@ -121,7 +121,7 @@ In the administration section, the "Pending course bookings" option or other rig
 
 As a line manager or training supervisor, you will find the **"Create account" button** in the top right-hand corner of the coaching tool. Clicking on this button opens a form for entering the necessary information to add previously unregistered persons to OpenOlat.
 
-(Whether this button is available is determined in: Administration > Modules > Organizations > Tab Organizational structure > Select an organizational unit (top level) > Button line manager or educational manager > Option "Create account")
+Whether this button is available is determined in: `Administration > Modules > Organizations > Tab Organizational structure` (then select an organizational unit (top level)) `> Button line manager or education manager > Option "Create account"`
 
 An account created by line managers/education managers automatically assigns the newly registered person to the organizational unit of the line manager/education managers.
 
@@ -155,7 +155,7 @@ Alternatively, you can simply use the **link within the notification**.
 
 ![coaching_people_line_manager4_v1_de.png](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
 
-!!! info "How do outstanding memberships arise?"
+!!! note "How do outstanding memberships arise?"
 
     Memberships that still need to be approved by line managers or education managers are set up in the Course Planner for implementation.
     More about that [here >](../../manual_user/area_modules/Course_Planner_Implementations.md#confirm_membership)
