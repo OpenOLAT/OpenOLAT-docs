@@ -39,7 +39,7 @@ Ob das Coaching Tool im Hauptmenü für Sie angezeigt wird, hängt dann von weit
 
 * **Systemrolle**: Gäste und Externe können kein Coaching vornehmen.
 * Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen. 
-* Der **Kursstatus** muss "Veröffentlicht", "Freigabe an Bereuer:innen" oder "Beendet" sein.
+* Der **Kursstatus** muss "Veröffentlicht", "Freigabe an Betreuer:innen" oder "Beendet" sein.
 * Ob es **Teilnehmende** (mind. 1 Person) in einem Kurs bzw. einer Gruppe hat.
 
 
@@ -78,20 +78,41 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
+#### Übersicht [:octicons-tag-14:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
-## Das Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9113)" }](https://track.frentix.com/issue/OO-9113) {: #widget_events}
+Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
+![coaching_overview_v1_de.png](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
+
+#### Das Kurs-Widget [:octicons-tag-14:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+
+Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
+
+Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl:
+
+* **Favoriten** (standardmässig ausgewählt)
+* **Alle** (nicht standardmässig ausgewählt)
+* **Relevant** (standardmässig ausgewählt, Hauptkennzahl)
+* **Veröffentlicht** (standardmässig ausgewählt)
+* **Freigabe Betreuer:innen** (standardmässig ausgewählt)
+* **Beendet** (nicht standardmässig ausgewählt)
+
+[Zum Seitenanfang ^](#coaching)
+
+---
+
+#### Das Termine-Widget {: #widget_events}
 
 Das Widget **Termine** erscheint als Kachel auf der Coaching-Übersicht und zeigt die anstehenden Termine ab dem heutigen Tag bis zum Ende der aktuellen Woche auf einen Blick.
 
-### Kopfbereich und Tagesanzeige
+#### Kopfbereich und Tagesanzeige
 
 Der Kopfbereich des Widgets zeigt das aktuelle Datum mit Monat, Jahr und der Beschriftung **Heute, \<Wochentag\>**. Der heutige Tag ist hervorgehoben. Das Wochenende wird optisch zurückgenommen (gedämpft dargestellt).
 
-### Wochennavigation
+#### Wochennavigation
 
 Mit den Schaltflächen `<` und `>` navigieren Sie wochenweise durch die Termine. Eine Woche läuft immer von Montag bis Sonntag. Initial wird die aktuelle Woche ab dem heutigen Tag angezeigt.
 
-### Terminliste
+#### Terminliste
 
 Pro Termin werden folgende Informationen angezeigt:
 
@@ -106,14 +127,14 @@ Pro Termin werden folgende Informationen angezeigt:
 
 ![coaching_widget_events_v1_de.png](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
 
-### Leerer Zustand
+#### Leerer Zustand
 
 Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **Keine Termine bis Ende der Woche**. Über die Schaltflächen **Vorheriger Termin** und **Nächster Termin** springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
 
 !!! note "Hinweis"
     Gibt es für diesen Coach überhaupt keine Termine, wird das Widget komplett ausgeblendet.
 
-### Zur Vollansicht
+#### Zur Vollansicht
 
 Über den Link **Alle Termine anzeigen** gelangen Sie in das Werkzeug **Termine / Absenzen**.
 
