@@ -17,6 +17,43 @@ Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfer
 Über das Suchfeld kann nach Mitgliedern eines Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
 
 Wählen Sie die für Sie relevanten Spalten über das Zahnrad Menü aus und sortieren Sie die Liste nach Ihren Wünschen.
+
+### Vordefinierte Filter [:octicons-tag-16:{ title="ab Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #origin_filters}
+
+Über die Reiter oberhalb der Tabelle stehen folgende Vorfilter zur Verfügung:
+
+* **Alle**
+* **Besitzer:innen**
+* **Betreuer:innen**
+* **Teilnehmer:innen**
+* **Warteliste**
+* **Herkunft: Kurs**
+* **Herkunft: Gruppe**
+* **Herkunft: CPL** (nur sichtbar, wenn der Kurs mit dem Course Planner verbunden ist)
+* **Suche**
+
+Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich modifizieren nach:
+
+* **Rolle**: Besitzer:in, Betreuer:in, Teilnehmer:in
+* **Kontotyp**: Registrierte Benutzer:innen, Externe Benutzer:innen
+* **Herkunft**: Kurs, Gruppe, Course Planner
+* **Gruppe**: Auswahl unter den im Kurs verwendeten Gruppen
+* **CPL-Element**: Auswahl unter den im Kurs verwendeten Course-Planner-Elementen
+
+Über das Zahnrad-Menü lässt sich zusätzlich die Spalte **Herkunft** einblenden. Sie zeigt an, über welchen Weg eine Person Mitglied des Kurses wurde (Kurs, Gruppe oder Course Planner). Auch die Spalten **Beitritt** und **Letzter Besuch** können hier ergänzt werden.
+
+**Detailansicht:** Klicken Sie auf eine Zeile, um die Detailansicht einer Person zu öffnen. Sie zeigt eine Benutzerinfo-Karte (Kontotyp, Beitrittsdatum, ggf. letzter Besuch) mit der Aktion **Bearbeiten** sowie, sofern zutreffend, bis zu drei Herkunfts-Abschnitte:
+
+* **Herkunft: Kurs**: Spalten Rolle, Erstellt
+* **Herkunft: Gruppe**: Spalten Rolle, Gruppe, Erstellt
+* **Herkunft: Course Planner**: Spalten Rolle, Element, Ext. Ref., Produkt, Erstellt
+
+!!! tip "Wichtig"
+    Jeder Abschnitt erscheint nur, wenn für die betreffende Person tatsächlich eine entsprechende Herkunft vorliegt.
+
+#### Excel-Export der Herkunft [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"}
+
+Im Excel-Export der Mitgliederliste werden in der Spalte «Herkunft» alle zugehörigen Gruppen und Course-Planner-Elemente vollständig namentlich (kommagetrennt) ausgegeben.
   
 
 ### Benutzerinformationen bearbeiten {: #edit_user_info}
