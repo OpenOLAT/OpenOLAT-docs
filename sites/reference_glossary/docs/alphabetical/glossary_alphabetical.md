@@ -18,6 +18,10 @@ A password-based booking method restricting course enrolment to code holders.
 
 Booking and offer management for learning resources.
 
+### Access for coach
+
+Key figure label in the Course widget for courses with the publication status "Access for coach".
+
 ### Administration
 
 The system administration area for configuring modules, managing users, and system settings.
@@ -225,6 +229,10 @@ Automated email reminders based on course conditions.
 ### Course template
 
 A course template in the Course Planner that can be instantiated as a course for a curriculum implementation at a later date. See also: Template course.
+
+### Course widget
+
+Widget on the Dashboard of the Coaching tool, showing the courses coached by the current coach.
 
 ### Courses
 

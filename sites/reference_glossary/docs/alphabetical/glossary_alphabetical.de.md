@@ -302,6 +302,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Gemeinsamer Pool von Bewertungsfragen für mehrere Kurse.
 
+### Freigabe Betreuer:innen
+
+Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe für Betreuer:innen".
+
 ### Gast
 
 Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
@@ -397,6 +401,10 @@ Der Hauptlernressourcen-Typ für strukturierte Online-Kurse.
 ### Kurs-Lebenszyklus
 
 Der automatisierte Prozess, durch den ein Kurs basierend auf seinem Durchführungs-Enddatum durch Status wechselt.
+
+### Kurs-Widget
+
+Widget im Dashboard des Coaching Tools, zeigt die vom/von der Betreuenden betreuten Kurse.
 
 ### Kursbaustein
 
