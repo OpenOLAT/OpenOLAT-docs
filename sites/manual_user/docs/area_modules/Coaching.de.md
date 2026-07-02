@@ -78,12 +78,12 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
-#### Übersicht [:octicons-tag-14:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
+#### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
 ![coaching_overview_v1_de.png](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
 
-#### Das Kurs-Widget [:octicons-tag-14:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+#### Das Kurs-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
@@ -125,7 +125,7 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![coaching_widget_events_v1_de.png](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
+![coaching_widget_events_v1.de.png](assets/coaching_widget_events_v1.de.png){ class="shadow lightbox" }
 
 #### Leerer Zustand
 

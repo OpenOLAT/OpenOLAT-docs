@@ -22,7 +22,7 @@ You can find access to the data of the persons under care and the tools under th
 * Reports
 * Order management
 
-![coaching_tools_v1_de.png](assets/coaching_tools_v1_de.png){ class="shadow lightbox" }
+![coaching_tools_v1.png](assets/coaching_tools_v1.png){ class="shadow lightbox" }
 
 
 !!! note "Note"
@@ -79,19 +79,16 @@ You can select one of your roles using the focus elements above the list. This w
 
 ---
 
-## Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
+#### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
+![coaching_overview_v1.png](assets/coaching_overview_v1.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#coaching)
-
----
-
-### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+#### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
 
 The **Courses - As coach** widget shows the courses you coach.
 
-Use the main key figure **"Relevant"** (selected by default) or one of the other key figures to get a preselection:
+Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection:
 
 * **Favourites** (selected by default)
 * **All** (not selected by default)
@@ -104,19 +101,19 @@ Use the main key figure **"Relevant"** (selected by default) or one of the other
 
 ---
 
-## The Event widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9113)" }](https://track.frentix.com/issue/OO-9113) {: #widget_events}
+#### The Event widget {: #widget_events}
 
 The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
 
-### Header and day display
+#### Header and day display
 
 The widget header shows the current date with month, year and the label **Today, \<weekday\>**. Today's date is highlighted. The weekend is visually toned down.
 
-### Week navigation
+#### Week navigation
 
 Use the `<` and `>` buttons to navigate through the events week by week. A week always runs from Monday to Sunday. Initially, the current week from today onwards is displayed.
 
-### Event list
+#### Event list
 
 Each event shows the following information:
 
@@ -131,14 +128,14 @@ Each event shows the following information:
 
 ![coaching_widget_events_v1.png](assets/coaching_widget_events_v1.png){ class="shadow lightbox" }
 
-### Empty state
+#### Empty state
 
 If there are no events in the displayed week, the message **No events until the end of the week** appears. Use the **Previous event** and **Next event** buttons to jump to the nearest event in the past or future.
 
 !!! note "Note"
     If this coach has no events at all, the widget is hidden completely.
 
-### Full view
+#### Full view
 
 The **Show all events** link takes you to the **Events / Absences** tool.
 
