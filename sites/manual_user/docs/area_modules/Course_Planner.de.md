@@ -1,6 +1,6 @@
 # Course Planner: Übersicht {: #course_planner}
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Ab Release 20 verfügt OpenOlat über das eigenständige Zusatzmodul "Course Planner". Es ist eine Weiterentwicklung des Curriculums in früheren Versionen. OpenOlat kann aber auch weiterhin als klassisches LMS ohne dieses Modul genutzt werden.
 
@@ -69,7 +69,7 @@ Die Instanzierung der Kurse kann auch automatisch auf einen bestimmbaren Termin 
 
 Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog zu den einzelnen Durchführungen hinzugefügt werden.
 
-!!! info "Beachten Sie:"
+!!! note "Beachten Sie:"
 
     Kursmitglied im Template-Kurs sind dann lediglich noch die Kurs-Besitzer:innen mit Autor:innen-Rolle.
 
@@ -134,7 +134,7 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 ![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
 
 
-!!! info "Voraussetzung"
+!!! note "Voraussetzung"
 
     Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
 
@@ -144,7 +144,7 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 ---
 
-##  Die Übersichtsseite {: #overview}
+##  Die Übersichtsseite [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #overview}
 
 Die Übersicht zeigt 
 
@@ -159,6 +159,80 @@ Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werde
 
 ![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
 
+Unterhalb der Buttons und der Suche zeigt die Übersichtsseite einen Bereich mit **Widgets** (Kacheln) in einem responsiven Bento-Layout: Je nach Bildschirmbreite passt sich die Anordnung der Kacheln automatisch an.
+
+Ein Trennbereich mit der Bezeichnung **"Übersicht"** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} grenzt diesen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### Durchführungs-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8864, OO-9289)" }](https://track.frentix.com/issue/OO-8864){:target="_blank"} {: #widget_implementations}
+
+Das Widget **Durchführungen** zeigt auf einen Blick die für Sie relevanten Durchführungen.
+
+Im Kopfbereich wählen Sie über die Hauptkennzahl **"Relevant"** oder eine der weiteren Kennzahlen (**"Vorbereitung"**, **"Provisorisch"**, **"Bestätigt"**, **"Ausstehende Mitgliedschaften"**) eine Vorauswahl. Die Tabelle listet die entsprechenden Durchführungen mit externer Referenz, Titel, Struktur, Status sowie Beginn- und Enddatum, sortiert nach Beginndatum.
+
+Über den neuen Filter **"Ausstehende Mitgliedschaften"** finden Sie schnell Durchführungen, bei denen Mitgliedschaften noch bestätigt werden müssen.
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### Tabellen-Widget konfigurieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
+
+Tabellen-Widgets (z.B. das Durchführungs-Widget) können Sie über das Zahnrad-Icon im Widget individuell konfigurieren:
+
+* **Hauptkennzahl**: Legt fest, welche Kennzahl in der Titelzeile des Widgets angezeigt wird.
+* **Kennzahlen**: Über eine Checkbox-Gruppe bestimmen Sie, welche weiteren Kennzahlen sichtbar sind. Die Hauptkennzahl ist dabei immer ausgewählt und kann nicht abgewählt werden.
+* **Anzahl Einträge**: Legt fest, wie viele Zeilen die Tabelle anzeigt (5 bis 15).
+
+Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen Sie sie.
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
+
+Das Widget **Teilnehmer:innen** zeigt die Teilnehmerzahl der jeweiligen Durchführung.
+
+Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzlicher Hinweistext die Kennzahl:
+
+* Bei gesetztem Maximum: **"\<Anzahl\> verbleibende Plätze"**
+* Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
+* Bei ausgebuchten oder überbuchten Durchführungen erscheint weiterhin die entsprechende Meldung.
+
+Im Bereich darunter werden die für die Durchführung zuständigen Personen mit Rolle angezeigt (z.B. Betreuer:innen, Klassenlehrer:innen, Kursbesitzer:innen, Elementbesitzer:innen).
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
+
+Unterhalb der Widgets steht der Button **"Übersicht anpassen"** zur Verfügung, mit dem Sie in den Bearbeitungsmodus wechseln.
+
+Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
+
+* **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
+* **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
+
+!!! note "Hinweis"
+
+    Für die Bedienung ohne Maus (Tastatur/Screenreader) stehen zusätzlich die Aktionen **"Nach oben verschieben"** und **"Nach unten verschieben"** zur Verfügung.
+
+Mit **Speichern** übernehmen Sie die Änderungen und verlassen den Bearbeitungsmodus, mit **Abbrechen** verwerfen Sie sie. Über **"Dashboard zurücksetzen"** stellen Sie die Standardeinstellung wieder her.
+
+Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstandard verwendet.
+
+!!! note "Hinweis für Systemadministrator:innen"
+
+    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen.
+
+!!! note "Hinweis"
+
+    Gäste sehen den Button "Übersicht anpassen" nicht.
 
 [Zum Seitenanfang ^](#course_planner)
 
