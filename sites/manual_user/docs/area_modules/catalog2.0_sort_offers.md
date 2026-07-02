@@ -7,15 +7,18 @@ This raises the question of where in the catalog the offers are displayed.
 ## Sorting/order on the catalog start page {: #sorting_startpage}
 
 On the **home page** of the catalog, the order of the objects is determined by the launchers. The sections are referred to as launchers.
-You can find more information in the manual ["How do I display my courses in the catalog?" >](../../manual_how-to/catalog/catalog.md)
 
 ![catalog20_sort_offers_startpage_v1_de.png](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
+
+!!! info "How do I display my courses in the catalog?"
+    Instructions on how to display courses in the catalog.<br>
+    [How do I display my courses in the catalog? >](../../manual_how-to/catalog/catalog.md)
 
 
 ### Set the order of launchers {: #sorting_startpage_launcher}
 
 The order of the launchers (sections on the start page) is defined under:<br>
-**Administration > Module  > Catalog > Tab "Start page"**
+`Administration > Module > Catalog > Tab "Start page"`
 
 The order can be set by clicking on the double arrows at the beginning of the lines.
 
@@ -28,7 +31,12 @@ The order can be set by clicking on the double arrows at the beginning of the li
 
 ### Sorting within the launcher {: #sorting_startpage_inside_launcher}
 
-Within a launcher, the order of the offers depends on the [launcher type](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page):
+Within a launcher, the order of the offers depends on the launcher type:
+
+!!! info "Launcher type"
+    Configuration of launcher types in the administration.<br>
+    [Launcher type >](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page)
+
 
 **Launcher type "Static text":**<br>
 There is no automatic sorting.
@@ -64,8 +72,8 @@ If a launcher is to display subcategories, a launcher of the "taxonomy level" ty
 
 ![catalog20_sort_offers_microsites_taxonomy1_v1_de.png](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
 
-The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy and must therefore be changed via taxonomy.
-**Administration > Module > Taxonomy > Activation of a taxonomy for learning resources/catalog**
+The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy and must therefore be changed via taxonomy.<br>
+`Administration > Module > Taxonomy > Activation of a taxonomy for learning resources/catalog`
 
 Example: Taxonomy structure for the taxonomy launcher displayed above: 
 ![catalog20_sort_offers_microsites_taxonomy2_v1_de.png](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
@@ -89,11 +97,14 @@ Example: Taxonomy structure for the taxonomy launcher displayed above:
 ## Sorting/order within categories (microsites) of the catalog {: #sorting_microsites}
 
 
-### Manual sorting of lists by users {: #sorting_microsites_lists}
+### Manual sorting of lists by users [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"} {: #sorting_microsites_lists}
 
 As with all lists in OpenOlat, the offerings in the catalog can also be sorted by **clicking on a column title**.
 
 ![catalog20_sort_offers_microsites_table_title_v1_de.png](assets/catalog20_sort_offers_microsites_table_title_v1_de.png){ class="shadow lightbox" }
+
+!!! note "Note"
+    The "Execution period" column sorts chronologically by the time frame (first by begin date, without a begin date by end date) and not alphabetically by the label. Entries without an execution period always appear at the end of the list.
 
 [To the top of the page ^](#catalog_sort)
 
@@ -102,7 +113,7 @@ As with all lists in OpenOlat, the offerings in the catalog can also be sorted b
 
 ### Sorting by priority {: #sorting_microsites_by_priority}
 
-If "Sort by priority" has been activated by an administrator (Administration > Modules > Catalog > "Settings" tab > "Sort by priority" toggle button), the **"Priority" button** appears at the top right above a list.
+If "Sort by priority" has been activated by an administrator (`Administration > Modules > Catalog > "Settings" tab > "Sort by priority" toggle button`), the **"Priority" button** appears at the top right above a list.
  
 ![catalog20_sort_offers_microsites_button_relevance_v1_de.png](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" }
 
@@ -122,10 +133,10 @@ If no date is specified, entries without a date are displayed after those with a
 ### Where can I set priorities? {: #sorting_microsites_define_priority}
 
 **In a course:**<br>
-Course > Administration > Settings > section "Offer Overview" > click on "change"
+`Course > Administration > Settings > section "Offer Overview" > click on "change"`
 
 **In Course Planner:**<br>
-Course Planner > Implementation > tab Catalog > button "Offers" > section "Offer Overview" > click on "change"
+`Course Planner > Implementation > tab Catalog > button "Offers" > section "Offer Overview" > click on "change"`
 
 Example Course Planner:
 ![catalog20_sort_offers_microsites_cp_change_priority_v1_de.png](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }

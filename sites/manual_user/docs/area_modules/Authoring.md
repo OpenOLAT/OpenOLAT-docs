@@ -61,27 +61,41 @@ The column "Ref." shows whether or how often a learning resource has been refere
 ### 10. Download table
 You can download the entire table in the currently displayed state.
 
-### 11. Sort columns [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
-By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc.
+### 11. Sort columns [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
+By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc. Empty entries always appear at the end of the list, regardless of the sort direction.
 
 **Example**: Click on column title "Title of learning resource" to sort the table alphabetically by title. Click again and it will appear in reverse alphabetical order.
 
-!!! Info **Sorting by execution period:**
+The "Status" column (formerly "Life cycle") is always sorted in the following fixed order: Preparation, Review, Access for coach, Published, Finished, Trash.
+
+#### Sorting by execution period [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+
+!!! note "Note"
     The "Execution period" column sorts entries chronologically by the time frame and not alphabetically by the label. The order is:
 
-1. by begin date
-2. without begin date: by end date
-3. without time frame: to the end of the list
-4. within the same time period: alphabetically
+    1. by begin date
+    2. without begin date: by end date
+    3. without time frame: to the end of the list
+    4. within the same time period: alphabetically
 
-Entries without an execution period always appear at the end of the list.
+    Entries without an execution period always appear at the end of the list.
 
 ![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
 
-!!! Tip
-    Important: The available time periods are provided by the system administration.
+!!! tip "Tip"
+    The available time periods are provided by the system administration.
 
-[Time periods module >](../../manual_admin/administration/Modules_Time_Period.md)<br>
+!!! note "Time periods module"
+    How administrators manage time periods.<br>
+    [Time periods module >](../../manual_admin/administration/Modules_Time_Period.md)
+
+[To the top of the page ^](#authoring)
+
+---
+
+### 12. Type filter [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
+
+The "Type" filter offers, among others, the following labels: "Audio" (formerly "Sound") as well as an **Others** group, which combines the following types: Test (QTI 1.2, no longer supported), Questionnaire, Movie, Animation, Other file.
 
 [To the top of the page ^](#authoring)
 

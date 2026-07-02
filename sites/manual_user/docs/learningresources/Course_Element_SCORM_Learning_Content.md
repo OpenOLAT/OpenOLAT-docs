@@ -1,17 +1,17 @@
-# Course Element "SCORM Learning Content" {: #course_element_scorm}
+# Course Element "SCORM"
+### Rename to SCORM1.2 [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"} {: #course_element_scorm}
 
 ## Profile {: #profile}
 
-Name | SCORM learning content
+Name | SCORM
 ---------|----------
 Icon | :fontawesome-solid-box-archive:
-Available since | 
 Functional group | Knowledge transfer
 Purpose | Integration of SCORM packages, created with other authoring tools
 Assessable | yes
 Specialty / Note | 
 
-SCORM stands for “Shareable Content Object Reference Model” and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM Learning Content" course component allows SCORM packages (SCORM Version 1.2) to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool.
+SCORM stands for “Shareable Content Object Reference Model” and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM" course element allows SCORM 1.2 learning content to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool. The learning resource used as the content itself is called "SCORM 1.2".
 
 ## Coach view {: #coach_view}
 
@@ -33,7 +33,7 @@ As an owner, you also have the option to set up reminders, unlike coaches in Run
 
 ## Editing in the editor {: #editor}
 
-As a course owner, you can create and edit the “SCORM Learning Content” course object just like any other course object by opening the **Course Editor** under **Administration**. You can then configure the settings further using the tabs.
+As a course owner, you can create and edit the “SCORM” course object just like any other course object by opening the **Course Editor** under **Administration**. You can then configure the settings further using the tabs.
 
 
 ### "Learning Content" tab {: #editor_tab_learning_content}
@@ -42,7 +42,11 @@ As a course owner, you can create and edit the “SCORM Learning Content” cour
 
 ![1_green_24.png](assets/1_green_24.png) **SCORM**<br>
 
-Select or import SCORM content. Click "Import" to upload a new SCORM package, or select an existing SCORM package from your list. SCORM packages can be imported not only in the course editor but also under "Authoring", as explained in the chapter "Actions in the Authoring Area" under the section ["Import"](../area_modules/authoring_new_course.md#import-learning-resources). If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM learning content selected_ will appear next to the title **Selected SCORM learning content**.
+Select or import SCORM content. Click "Import" to upload a new SCORM package, or select an existing SCORM package from your list. SCORM packages can be imported not only in the course editor but also under "Authoring". If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM learning content selected_ will appear next to the title **Selected SCORM learning content**.
+
+!!! info "Import"
+    Description of importing learning resources in Authoring.<br>
+    [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources)
 
 If you have already added a SCORM learning object, its name will appear as a link. Click the link to view a preview. To change the assignment of a SCORM learning object later, click "Replace SCORM Learning Object" in the "Learning Object" tab and then select a different SCORM package.
 
@@ -140,7 +144,7 @@ OpenOlat attempts to automatically detect the character set. If the "Automatic" 
 ![7_green_24.png](assets/7_green_24.png) **JavaScript character set**<br>
 Allows you to encode JavaScript code using a predefined character set (by default, the same character set is used for content and JavaScript).
 
-!!! info "Info"
+!!! note "Note"
 
     SCORM learning content is typically displayed on the home page. If a SCORM learning module includes assignments and tests, the home page displays the score achieved and the number of remaining attempts to successfully complete the learning module.
 
@@ -164,7 +168,7 @@ In addition to creating reminders, you can also use either method to view a prev
 
 ### Tab "Badges" {: #badges}
 
-If the course owner has enabled badge awarding under **Administration > Settings > Badges tab**, the "Badges" tab will appear in the course editor for this course element, and a specific badge can be created for it.
+If the course owner has enabled badge awarding under `Administration > Settings > Tab Assessment > Badges section`, the "Badges" tab will appear in the course editor for this course element, and a specific badge can be created for it.
 
 [To the top of the page ^](#course_element_scorm)
 

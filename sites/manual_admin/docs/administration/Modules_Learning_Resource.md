@@ -32,7 +32,7 @@ An input field for submitting a comment can then be displayed on the info page.
 
 ![modules_repository_course_comment_v1_de.png](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
 
-The availability of this input field can be switched on/off globally by administrators here under **Administration > Modules > Learning resource > Comment**.
+The availability of this input field can be switched on/off globally by administrators here under `Administration > Modules > Learning resource > Comment`.
 
 [To the top of the page ^](#learning_resource)
 
@@ -45,7 +45,7 @@ Clickable stars for rating can also be displayed on the info page of a course.
 
 ![modules_repository_course_review_v1_de.png](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
 
-The availability of stars for rating can be switched on/off globally by administrators here under **Administration > Modules > Learning resource > Assessment**.
+The availability of stars for rating can be switched on/off globally by administrators here under `Administration > Modules > Learning resource > Assessment`.
 
 [To the top of the page ^](#learning_resource)
 
@@ -58,7 +58,7 @@ There is a button here that can be used to request membership. When clicked, an 
 
 ![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
-This function can be switched on/off globally by administrators under **Administration > Modules > Learning resource > Request membership**.
+This function can be switched on/off globally by administrators under `Administration > Modules > Learning resource > Request membership`.
 
 [To the top of the page ^](#learning_resource)
 
@@ -66,12 +66,21 @@ This function can be switched on/off globally by administrators under **Administ
 
 
 #### Taxonomy
+**Use of taxonomy in the catalog** [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9214)" }](https://track.frentix.com/issue/OO-9214){:target="_blank"}
 
-Various taxonomies can be created under **Administration > Modules > Taxonomy**.
+Activating taxonomy in the learning resource means that the selected "structure" is available in the catalog. For this to work, the corresponding taxonomy must first be created and integrated.
 
-The activation and availability of these taxonomies in the repository can be configured here under **Administration > Modules > Learning resource > Taxonomy** by administrators.
+!!! tip "Prerequisite"
+    Various taxonomies can be created under `Administration > Modules > Taxonomy`.
 
-[To module Taxonomy >](Modules_Taxonomy.md)<br>
+
+A taxonomy cannot be deselected in this area as long as **it is used in a launcher of the catalog**. Attempting to deselect it shows the message: "The taxonomy is still used in a launcher of the catalogue and therefore cannot be deselected."
+
+
+!!! info "Module Taxonomy"
+    How taxonomies are created and configured.<br>
+    [To module Taxonomy >](Modules_Taxonomy.md)
+
 [To the top of the page ^](#learning_resource)
 
 ---
@@ -88,7 +97,7 @@ The following options are available as the default:
 * After the course end date or status "Finished"
 * Never
 
-This default setting can be adjusted by course owners in the course under **(Course) Administration > Settings > Sharing tab** on a course-specific basis.
+This default setting can be adjusted by course owners in the course under `(Course) Administration > Settings > Sharing tab` on a course-specific basis.
 
 [To the top of the page ^](#learning_resource)
 
@@ -112,7 +121,7 @@ B) Existing subscriptions can be updated using the "Activate existing subscripti
 ---
 
 
-### Section "Default role priority"
+### Section "Default role priority" [:octicons-tag-16:{ title="Available from Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
 
 This setting defines the order in which roles are prioritized when a member has multiple roles when accessing the learning resource. The top role in the list has the highest priority. System roles always have a lower priority than member roles.
 
@@ -141,10 +150,10 @@ If this toggle button is activated, course owners/coaches receive notices about 
 
 #### Overview of access settings for Sites
 
-Under **Administration > Customizing > Sites**, administrators can configure which menu items (sites) are displayed in the main navigation (header).
+Under `Administration > Customizing > Sites`, administrators can configure which menu items (sites) are displayed in the main navigation (header).
 
 Here (under the Learning resource module) it shows what is configured there regarding "Courses" and "Coaching tool". Whether this site should be displayed in the header at all, and for which roles it is visible.
 
-To change the settings, you can switch directly via a link to **Administration > Customizing > Sites** ("Open site settings").
+To change the settings, you can switch directly via a link to `Administration > Customizing > Sites` ("Open site settings").
 
 [To the top of the page ^](#learning_resource)
