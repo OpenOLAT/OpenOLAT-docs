@@ -109,15 +109,21 @@ Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 ---
 
 
-## Wer kann den Course Planner nutzen? {: #users}
+## Wer kann den Course Planner nutzen? [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8916)" }](https://track.frentix.com/issue/OO-8916){:target="_blank"} {: #users}
 
 Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle "Kursplaner:in"** zur Verfügung. (Bei Verwendung von Organisationseinheiten, kann die Rolle Kursplaner:innen auch auf bestimmte Organisationseinheiten beschränkt sein.) 
 
 **Administrator:innen** und **Principals** haben ebenfalls Zugriff. (Auch diese Rollen sind evtl. auf Organisationseinheiten beschränkt.)
 
+**Principals** haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie **Status ändern**, **Entfernen** oder **Instanzieren** stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
+
+!!! info "Hinweis für die Einschränkung als Principal"
+    Der Lese-Einschränkung ist dann aktiv, wenn der Principal auch nur diese Rolle ausübt. Es kann Querverbindungen geben, wenn ein User zB. mehrere Rollen in einem Produkt hat. Dann kann dieser User aktiv werden, wo es die Rolle entsprechend zulässt. zB. in einem To-Do welches "ihm" zugewiesen ist.
+
 Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **Elementbesitzer:innen** im Rahmen ihres Zuständigkeitsbereichs zugreifen.
 
-Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung, weniger auf die Planung, Terminierung und Administration von Kursen und Durchführungen.
+!!! tip "Weitere OpenOlat Rollen"
+    Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung, weniger auf die Planung, Terminierung und Administration von Kursen und Durchführungen.
 
 [Zum Seitenanfang ^](#course_planner)
 

@@ -422,6 +422,14 @@ A type of learning resource that can be created or imported in the authoring are
 
 A concrete offering of a curriculum element with dates and members.
 
+### Implementation status
+
+Lifecycle status of an implementation in the Course Planner: preparation, provisional, confirmed, active, cancelled, finished. Separate from the publication status of a learning resource.
+
+### Implementation widget
+
+Widget on the Dashboard of the Course Planner, showing the implementations relevant to the person with key figures and a table.
+
 ### Instant messaging
 
 Built-in chat/messenger for real-time communication between users.

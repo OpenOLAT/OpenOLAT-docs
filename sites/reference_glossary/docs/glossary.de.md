@@ -366,6 +366,14 @@ Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
 
 Widget im Dashboard des Coaching Tools, zeigt die vom/von der Betreuenden betreuten Kurse.
 
+### Durchführungs-Widget
+
+Widget im Dashboard des Course Planner, zeigt die für die Person relevanten Durchführungen mit Kennzahlen und Tabelle.
+
+### Mitglieder-Widget
+
+Widget im Dashboard des Course Planner, zeigt die Teilnehmerzahl und zuständigen Personen einer Durchführung.
+
 ### Freigabe Betreuer:innen
 
 Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe für Betreuer:innen".
@@ -399,6 +407,10 @@ Ein Knoten im Curriculum-Baum, der ein Modul, Semester oder Fach repräsentiert.
 ### Durchführung
 
 Eine konkrete Durchführung eines Curriculum-Elements mit Daten und Mitgliedern.
+
+### Durchführungsstatus
+
+Lebenszyklusstatus einer Durchführung im Course Planner: Vorbereitung, Provisorisch, Bestätigt, Aktiv, Abgebrochen, Beendet. Getrennt vom Publikationsstatus einer Lernressource.
 
 ### Angebot
 

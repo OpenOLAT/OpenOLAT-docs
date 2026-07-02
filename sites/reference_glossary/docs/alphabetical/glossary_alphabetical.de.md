@@ -230,6 +230,14 @@ Eine konkrete Durchführung eines Curriculum-Elements mit Daten und Mitgliedern.
 
 Ein Metadatenfeld, das den Durchführungsmodus angibt (online, blended, präsenz) und auf Katalogkarten angezeigt wird.
 
+### Durchführungsstatus
+
+Lebenszyklusstatus einer Durchführung im Course Planner: Vorbereitung, Provisorisch, Bestätigt, Aktiv, Abgebrochen, Beendet. Getrennt vom Publikationsstatus einer Lernressource.
+
+### Durchführungs-Widget
+
+Widget im Dashboard des Course Planner, zeigt die für die Person relevanten Durchführungen mit Kennzahlen und Tabelle.
+
 ### E-Mail
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
@@ -525,6 +533,10 @@ Integration von Microsoft Teams für virtuelle Meetings.
 ### Microsoft Teams
 
 Ein Kursbaustein für virtuelle Microsoft-Teams-Meetings innerhalb eines Kurses.
+
+### Mitglieder-Widget
+
+Widget im Dashboard des Course Planner, zeigt die Teilnehmerzahl und zuständigen Personen einer Durchführung.
 
 ### Mitteilungen
 

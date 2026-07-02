@@ -366,6 +366,14 @@ Widget on the Dashboard showing upcoming appointments from the Lectures and Abse
 
 Widget on the Dashboard of the Coaching tool, showing the courses coached by the current coach.
 
+### Implementation widget
+
+Widget on the Dashboard of the Course Planner, showing the implementations relevant to the person with key figures and a table.
+
+### Member widget
+
+Widget on the Dashboard of the Course Planner, showing the number of participants and the persons responsible for an implementation.
+
 ### Access for coach
 
 Key figure label in the Course widget for courses with the publication status "Access for coach".
@@ -399,6 +407,10 @@ A node in the curriculum tree representing a module, semester, or subject.
 ### Implementation
 
 A concrete offering of a curriculum element with dates and members.
+
+### Implementation status
+
+Lifecycle status of an implementation in the Course Planner: preparation, provisional, confirmed, active, cancelled, finished. Separate from the publication status of a learning resource.
 
 ### Offer
 
