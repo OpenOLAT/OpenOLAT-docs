@@ -362,6 +362,14 @@ Widget im Dashboard, zeigt Durchführungen oder Angebote in Tabellenform.
 
 Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
 
+### Kurs-Widget
+
+Widget im Dashboard des Coaching Tools, zeigt die vom/von der Betreuenden betreuten Kurse.
+
+### Freigabe Betreuer:innen
+
+Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe für Betreuer:innen".
+
 
 ## Bereiche
 

@@ -362,6 +362,14 @@ Widget on the Dashboard showing implementations or offers in table format.
 
 Widget on the Dashboard showing upcoming appointments from the Lectures and Absences module.
 
+### Course widget
+
+Widget on the Dashboard of the Coaching tool, showing the courses coached by the current coach.
+
+### Access for coach
+
+Key figure label in the Course widget for courses with the publication status "Access for coach".
+
 
 ## Areas
 
