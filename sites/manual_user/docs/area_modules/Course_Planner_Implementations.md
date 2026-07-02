@@ -94,6 +94,20 @@ In the displayed tree structure, each individual element of the implementation c
 
 ![course_planner_implementations_tab_structure2_v1_de.png](assets/course_planner_implementations_tab_structure2_v1_de.png){ class="shadow lightbox" }
 
+#### Move an element [:octicons-tag-16:{ title="from Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
+
+Use the **Move element** action under the **3 points** to open the move dialog. The element to be moved is highlighted in colour.
+
+Every possible target position is displayed as a radio button. Positions that are not allowed (for example an incompatible element type) are greyed out and cannot be selected.
+
+After selecting a target position, the following actions appear directly on the element:
+
+* **Above**
+* **Below**
+* **Sub-element**
+
+Click **Move element** to carry out the move.
+
 [To the top of the page ^](#implementations)
 
 ---
