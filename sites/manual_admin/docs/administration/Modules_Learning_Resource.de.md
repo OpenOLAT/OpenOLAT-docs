@@ -1,8 +1,6 @@
-# Modul Lernressource {: #learning_resource}
+# Modul Lernressource {: #learning_resource} [:octicons-tag-16:{ title="ab Release 20.3 (früher: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
-[:octicons-tag-16:{ title="ab Release 20.3 (früher: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
-
-Zum Modul Lernressourcen gehören Einstellungen, die die Kurse und Lernressourcen betreffen, die im Repository gespeichert sind.
+Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
 ![modules_learning_resource_tab_settings_v1_de.png](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
 
@@ -11,20 +9,33 @@ Zum Modul Lernressourcen gehören Einstellungen, die die Kurse und Lernressource
 ---
 
 
-## Tab Einstellungen {: #tab_settings}
+## Abschnitt Einstellungen {: #tab_settings}
 
-### Abschnitt "Einstellungen"
 
-#### Bereich "In Vorbereitung" unter "Kurse"
 
-Mit Aktivierung dieser Checkbox machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar.
 
-Ansicht Teilnehmer:in bei Aktivierung:
+Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar. Dies bewirkt folgendes.
+
+#### Bereich "In Vorbereitung" unter "Kurse":
+
+**Ansicht Teilnehmer:in bei Aktivierung**
 ![modules_learning_resource_tab_settings_section_v1_de.png](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
+
+#### Kurssuche {: #course_search}
+
+Kursbesitzer:innen können im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Toolbar` die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) aktivieren, um innerhalb des Kurses nach Inhalten zu suchen.
+
+![modules_repository_course_search_v1_de.png](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
+
+Die Verfügbarkeit dieser Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+
+[Zum Seitenanfang ^](#learning_resource)
+
+---
 
 #### Kommentar {: #comment}
 
-In der Kopfzeile eines Kurses kann die Info-Seite zum Kurs aufgerufen werden.
+In der Kopfzeile eines Kurses kann die Info-Seite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
 
 ![modules_repository_course_info_v1_de.png](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
 
@@ -32,7 +43,7 @@ Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeig
 
 ![modules_repository_course_comment_v1_de.png](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen hier unter `Administration > Module > Lernressource > Kommentar` global ein-/ausgeschaltet werden.
+Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -45,7 +56,7 @@ Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurtei
 
 ![modules_repository_course_review_v1_de.png](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit der Sterne zur Beurteilung kann von Administrator:innen hier unter `Administration > Module > Lernressource > Bewertung` global ein-/ausgeschaltet werden.
+Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -58,7 +69,7 @@ Hier gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Be
 
 ![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
-Diese Funktion kann von Administrator:innen unter `Administration > Module > Lernressource > Mitgliedschaft beantragen` global ein-/ausgeschaltet werden.
+Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -77,7 +88,7 @@ Die Aktivierung von Taxonomie in der Lernressource führt dazu, dass die gewähl
 Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in einem Launcher des **Katalogs verwendet wird**. Beim Versuch der Abwahl erscheint die Meldung: «Die Taxonomie wird noch in einem Launcher des Katalogs verwendet und kann daher nicht abgewählt werden.»
 
 
-!!! info "Modul Taxonomie"
+!!! note "Modul Taxonomie"
     Wie Taxonomien erstellt und konfiguriert werden.<br>
     [Zum Modul Taxonomie >](Modules_Taxonomy.de.md)
 
@@ -89,7 +100,7 @@ Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in ei
 
 #### Teilnehmer:innen können austreten {: #allow_leaving_courses}
 
-Mit dieser Option wird eine Standardeinstellung für alle neuen Kurse vorgegeben. (Bereits bestehende Kurse sind davon nicht betroffen.) Kursteilnehmer:innen können ggf. dann selbst entscheiden, ob sie einen Kurs verlassen möchten. D.h., sie können selbst die Mitgliedschaft in einem Kurs beenden und sich als Kursmitglied austragen.
+Mit dieser Option wird eine Standardeinstellung für alle neuen Kurse vorgegeben. (Bereits bestehende Kurse sind davon nicht betroffen.) Kursteilnehmer:innen können ggf. dann selbst entscheiden, ob sie einen Kurs verlassen möchten.
 
 Als Default-Option kann gewählt werden zwischen
 
@@ -97,7 +108,9 @@ Als Default-Option kann gewählt werden zwischen
 * Nach Kursenddatum oder Status "Beendet"
 * Nie
 
-Diese Default-Einstellung kann von Kursbesitzer:innen im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Freigabe` kursspezifisch angepasst werden.
+
+!!! tip "Kursspezifisch"
+    Diese vorausgewählte Einstellung, kann pro Kurs, von Kursbesitzer:innen kursspezifisch wieder angepasst werden: `(Kurs-)Administration > Einstellungen > Tab Freigabe`
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -107,7 +120,7 @@ Diese Default-Einstellung kann von Kursbesitzer:innen im Kurs unter `(Kurs-)Admi
 
 OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse versenden. Wenn jemand die Benachrichtigungen erhalten möchte, kann dazu ein Abonnement eingerichtet werden.
 
-Benachrichtigungen über Ereignisse im Repository betreffen aktuell (Release 19) nur das Abonnement "**Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen**".
+!!! info Benachrichtigungen über Ereignisse in der Lernressource betreffen aktuell nur das Abonnement "*Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen*".
 
 #### Abonnenten
 
@@ -134,7 +147,7 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 ## Tab Zugang {: #tab_accesss}
 
 
-![modules_learning_resource_tab_accesss_v1_de.png](assets/modules_learning_resource_tab_access_v1_de.png){ class="shadow lightbox" }
+![modules_learning_resource_tab_access_v1_de.png](assets/modules_learning_resource_tab_access_v1_de.png){ class="shadow lightbox" }
 
 
 ### Abschnitt "Zugang"
