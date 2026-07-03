@@ -175,7 +175,7 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 
 Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Durchführungen und Kurse des Benutzers/der Benutzerin wie im Coaching-Tool aus Sicht Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r.
 
-!!! info "Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche"
+!!! note "Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche"
     Details zu Filtern, Status und Darstellung dieser Ansicht.<br>
     [Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_observe)
 
