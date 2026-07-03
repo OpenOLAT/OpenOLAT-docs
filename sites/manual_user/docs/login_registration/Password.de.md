@@ -19,6 +19,6 @@ Gehen Sie dazu in das persönliche Menü.<br>
 Es kommt oft vor, dass jemand sein Passwort vergessen hat und um die Vergabe eines neuen Passwortes bittet. Wenn Sie die Rolle eines/einer Benutzerverwalter:in haben oder Administrator:in sind, können Sie Passwörter neu setzen:<br>
 `Benutzerverwaltung > Benutzer wählen > Tab "Passwort"`
 
-![password_admin_v2.png](assets/password_admin_v2.png){ class=" shadow lightbox" }
+![password_admin_v2_de.png](assets/password_admin_v2_de.png){ class=" shadow lightbox" }
 
 
