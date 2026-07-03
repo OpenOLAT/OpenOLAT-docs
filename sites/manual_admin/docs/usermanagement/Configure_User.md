@@ -5,20 +5,20 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![user_management_configure_user_v3_en.png](assets/user_management_configure_user_v3_en.png){ class="shadow lightbox"}
+![user_management_configure_user_v4.png](assets/user_management_configure_user_v4.png){ class="shadow lightbox"}
 
 
 
 ### User profile
 
-Personal data, personal details, contact details and details of the institution are recorded in the user profile. (See Personal Menu > Configuration > [Profile](../../manual_user/personal_menu/Profile.md)). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and email address. If the sending of emails to this address is to be prevented, this email address can be blocked.
+Personal data, personal details, contact details and details of the institution are recorded in the user profile. See: `Personal Menu > Configuration >` [Profile](../../manual_user/personal_menu/Profile.md). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and email address. If the sending of emails to this address is to be prevented, this email address can be blocked.
 
 [To the top of the page ^](#user_configuration)
 
 
 ### System settings
 
-The system settings made by the user are displayed here (see Personal Menu > Configuration > [Settings](../../manual_user/personal_menu/Configuration.md)).  
+The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Configuration.md).  
 This includes, for example, the default language and whether emails are only sent within OpenOlat or also to the address in the profile. 
 
 [To the top of the page ^](#user_configuration)
@@ -38,9 +38,13 @@ The roles of the user are defined in this tab. If the Organizational units modul
 [To the top of the page ^](#user_configuration)
 
 
-### Password
+### Password [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-Here a new password can be set directly for the user or a password link can be generated, which is then sent to the user by mail, so that he can set a new password himself. The section "Send password link for OpenOlat password" is only displayed if the user is allowed to change the password.  
+If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons: "Send invitation link to set login credentials" (primary button) sends a link by mail that the person can use to set their own login credentials; "Create login credentials" sets the login credentials directly.
+
+If an invitation link has already been sent, a message in the "Password" tab shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time.
+
+The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
 
 [To the top of the page ^](#user_configuration)
 
@@ -102,7 +106,7 @@ The booking orders and pre-orders of the user are displayed here.
 [To the top of the page ^](#user_configuration)
 
 
-### Credit points
+### Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558)
 
 The user's acquired credit points are displayed here. 
 
@@ -169,9 +173,13 @@ Areas of competence can be added to the user here. They are categorized accordin
 [To the top of the page ^](#user_configuration)
   
 
-### Products
+### Education products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Here you will find an overview of all products to which the user is assigned, as well as the user's progress.
+Here you will find the same hierarchical overview of the education products, implementations and courses of the user as in the Coaching tool from the perspective of a line manager or education manager.
+
+!!! note "Observational tasks"
+    Details on filters, status and display of this view.<br>
+    [Observational tasks](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_observe)
 
 [To the top of the page ^](#user_configuration)
 
