@@ -1,8 +1,8 @@
 # Module Taxonomy {: #module_taxonomy}
 
-!!! info "What is a taxonomy?"
+!!! note "What is a taxonomy?"
 
-    In OpenOlat, a taxonomy is a hierarchical indexing, usually with a competence approach.
+    In OpenOlat, a taxonomy is a hierarchical indexing, often with a competence approach.
     Taxonomy can be activated and used in several OpenOlat areas:
     
     * [Document pool](Modules_Document_pool.md)
@@ -10,28 +10,19 @@
     * [ePortfolio](../../manual_user/area_modules/Competences_tags.md)
     * Catalog [Catalog](../administration/Modules_Catalog_2.0.md)
     
-The usage of the taxonomy will be developed continuously.
-    
+![modules_taxonomy_entry_v1](assets/modules_taxonomy_entry_v1.png){ class="shadow lightbox" }
+
+Directly on the overview page a new taxonomy structure can be created.
+
+Several taxonomy structures can be created and activated for different purposes. Per taxonomy, the overview card shows for which areas it is activated: Question bank, Document pool, ePortfolio, Learning resources / Catalog, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+
 Thus on one hand taxonomy structures can for example be built in the form of
 subject, sphere of activity or competence structures. On the other hand
 competences can be added to users which allows them access to the taxonomy.
 
-Example of a taxonomy structure according to subjects for the document pool:
+**Example** of an elaborated taxonomy structure, according to subjects for the document pool:
 
 ![taxonomy structure](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
-
-Directly on the overview page a new taxonomy can be created. If a subject
-structure has already been created in the question pool, it will be shown here
-with the title Question pool.
-
-Several taxonomy structures can be created and used for different reasons
-(question bank or document pool).
-
-![](assets/Taxonomy overview EN.png){ class="shadow lightbox" }
-
-If you display a taxonomy, you will get to the following overview:
-
-![](assets/Tax Metatdata EN.png){ class="shadow lightbox" }
 
 ## Metadata {: #metadata}
 
@@ -39,6 +30,7 @@ When creating the metadata identifier, name and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
+![modules_taxonomy_metadata_de](assets/modules_taxonomy_metadata_de.png){ class="shadow lightbox" }
 
 ## Level types {: #level_types}
 
@@ -63,11 +55,9 @@ In the tab "Level types" a new type can be created with "Add new level type".
 
 ![overview over taxonomy leveltypes tab](assets/taxonomy-leveltypes.jpg){ class="shadow lightbox" }
 
-## Taxonomy {: #taxonomy}
+## Create taxonomy {: #taxonomy}
 
 In this tab the single taxonomy levels are created, imported, exported and shown.
-
-### Create taxonomy
 
 When creating the following attributes are necessary:
 
@@ -86,8 +76,8 @@ In the overview a hierarchical structure is now visible.
 
 ![opened Treetable from taxonomy structure](assets/taxonomy-overview-hierarchy.jpg){ class="shadow lightbox" }
 
-In the detail view competences can be added afterwards. Like this users get
-access rights for the single taxonomy levels.
+!!! tip "Competences"
+    In the detail view competences can be added afterwards. Like this users get "access rights" for the single taxonomy levels.
 
 4 different competences are distinguished. Following they are outlined
 shortly:
@@ -95,16 +85,16 @@ shortly:
   * **Teach**: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](Modules_Document_pool.md) as well as to the question bank.
   * **Manage**: User can have a managing function for a certain area of the taxonomy. Therefore the must not have teach competence at the same time. This competence is mainly used in the question bank.
   * **Have**: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
-  * **Target**: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
+  * **Target**: A learner has a target he wants to reach. It is the target to gain this competence.
 
-![overview over the taxonomy gui](assets/taxonomy-overview.jpg){ class="shadow lightbox" }
+!!! note "Note on Target"
+    This competence is not yet used in OpenOlat.
 
 
 ### Export taxonomy  {: #export}
 
+The taxonomy is downloaded as a .zip archive by clicking on the menu item (see image). This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
 ![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
-
-The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
 
 
 ### Import taxonomy {: #import}
@@ -150,5 +140,9 @@ If you have activated different languages in OpenOlat and use the [Catalog 2.0](
 Alternatively, it is also possible to download the existing templates under the respective links and adapt them accordingly.
 
 ## Lost+Found {: #lost_found}
+**Last tab in the overview**
 
-All deleted elements of the tab "Taxonomy" end up here. For the moment they cannot be reset.
+All deleted elements of the tab "Taxonomy" end up here.
+
+!!! note "Note"
+    Deleted objects cannot currently be restored.
