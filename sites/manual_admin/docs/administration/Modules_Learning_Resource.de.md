@@ -69,7 +69,7 @@ Hier gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Be
 
 ![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
+Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -110,7 +110,7 @@ Als Default-Option kann gewählt werden zwischen
 
 
 !!! tip "Kursspezifisch"
-    Diese vorausgewählte Einstellung, kann pro Kurs, von Kursbesitzer:innen kursspezifisch wieder angepasst werden: `(Kurs-)Administration > Einstellungen > Tab Freigabe`
+    Diese vorausgewählte Einstellung kann pro Kurs von Kursbesitzer:innen kursspezifisch wieder angepasst werden: `(Kurs-)Administration > Einstellungen > Tab Freigabe`
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -120,12 +120,13 @@ Als Default-Option kann gewählt werden zwischen
 
 OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse versenden. Wenn jemand die Benachrichtigungen erhalten möchte, kann dazu ein Abonnement eingerichtet werden.
 
-!!! info Benachrichtigungen über Ereignisse in der Lernressource betreffen aktuell nur das Abonnement "*Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen*".
+!!! note "Hinweis"
+    Benachrichtigungen über Ereignisse in der Lernressource betreffen aktuell nur das Abonnement "*Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen*".
 
 #### Abonnenten
 
 A) Voreinstellung<br>
-Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Repository als Default auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
+Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Autorenbereich als Default auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
 
 B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons 
 "Bestehende Abonnements aktivieren" und "Bestehende Abonnements deaktivieren". 

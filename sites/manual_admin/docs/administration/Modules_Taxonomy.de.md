@@ -154,4 +154,5 @@ Alternativ ist es auch möglich, die vorhandene Vorlagen unter den jeweiligen Li
 
 Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
 
-!!! info "Gelöschte Objekte können nicht wiederhergestellt werden.
+!!! note "Hinweis"
+    Gelöschte Objekte können momentan nicht wiederhergestellt werden.
