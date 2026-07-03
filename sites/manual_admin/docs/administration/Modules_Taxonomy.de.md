@@ -1,9 +1,9 @@
 # Modul Taxonomie {: #module_taxonomy}
 
-!!! info "Was ist eine Taxonomie?"
+!!! note "Was ist eine Taxonomie?"
 
     Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
-    üblicherweise mit einem Kompetenzansatz.
+    oftmals mit einem Kompetenzansatz.
 
     Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
@@ -12,29 +12,24 @@
     * [ePortfolio](eAssessment_ePortfolio.de.md)
     *  Katalog [Catalog](../Modules_Catalog_2.0.de.md)
 
- Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.
+![modules_taxonomy_entry_v1_de](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" }
 
- Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
+Direkt auf der Übersichtsseite kann eine neue Taxonomiestruktur erstellt werden.
+
+Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke aktiviert
+werden. Pro Taxonomie zeigt die Übersichtskarte, für welche Bereiche sie aktiviert ist:
+Fragenpool, Dokumentenpool, ePortfolio, Lernressourcen / Katalog, Course Planner und
+Media Center. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+
+Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
  Fächer-, Handlungsfeld- oder Kompetenzstruktur abgebildet werden. Zum anderen
  können den Benutzern Kompetenzen zugeordnet werden, welche ihnen den Zugriff
  auf die Taxonomie erlauben.
 
-Beispiel einer Taxonomiestruktur nach Fächern für den Dokumentenpool:
+**Beispiel** einer ausgearbeiteten Taxonomiestruktur, nach Fächern für den Dokumentenpool:
 
 ![Taxonomie Struktur](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
 
-Direkt auf der Übersichtsseite kann eine neue Taxonomie erstellt werden.
-Sofern Sie im Fragenpool bereits eine Fachbereichsstruktur angelegt haben,
-wird diese hier mit dem Titel "Question Pool" angezeigt.
-
-Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke
-(Fragenpool oder Dokumentenpool) aktiviert werden.
-
-![Taxonomie](assets/Taxonomy overview DE.png){ class="shadow lightbox" }
-
-Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
-
-![](assets/Tax Metatdata DE.png){ class="shadow lightbox" }
 
 ## Metadaten {: #metadata}
 
@@ -43,6 +38,7 @@ die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
 Externe ID erstellt.
+![modules_taxonomy_metadata_de](assets/modules_taxonomy_metadata_de.png){ class="shadow lightbox" }
 
 ## Ebenentypen {: #level_types}
 
@@ -68,11 +64,10 @@ erstellt werden.
 
 ![Übersicht über die Taxonomy leveltypen](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" }
 
-## Taxonomie {: #taxonomy}
+## Taxonomie erstellen {: #taxonomy}
 
 In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt, importiert, exportiert und angezeigt.
 
-### Taxonomie erstellen
 
 Beim Erstellen werden folgende Angaben benötigt:
 
@@ -91,8 +86,8 @@ In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
 ![Ausgeklappte Treetable der Taxonomie](assets/taxonomy-overview-hierarchy.de.jpg){ class="shadow lightbox" }
 
-In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So
-erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. 
+!!! tip "Kompetenzen"
+    In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
 
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
@@ -100,15 +95,17 @@ kurz umrissen:
 * **Dozieren**: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
 * **Verwalten**: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen Sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
 * **Haben**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
-* **Ziel**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
+* **Ziel**: Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
-![taxonomy overview](assets/taxonomy-overview.de.jpg){ class="shadow lightbox" }
+!!! note "Hinweis zu Ziel"
+    Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. 
+
 
 ### Taxonomie exportieren {: #export}
 
-![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
-Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
+Die Taxonomie wird mit Klick auf den Menüpunkt (siehe Bild) als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
+![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
 ### Taxonomie importieren {: #import}
 
@@ -153,5 +150,8 @@ Alternativ ist es auch möglich, die vorhandene Vorlagen unter den jeweiligen Li
 
 
 ## Lost+Found {: #lost_found}
+**Letzter Tab in der Übersicht**
 
-Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt. Momentan können diese jedoch nicht wiederhergestellt werden.
+Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
+
+!!! info "Gelöschte Objekte können nicht wiederhergestellt werden.
