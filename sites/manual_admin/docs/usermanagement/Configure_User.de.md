@@ -4,20 +4,20 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![user_management_configure_user_v3_de.png](assets/user_management_configure_user_v3_de.png){ class="shadow lightbox"}
+![user_management_configure_user_v4_de.png](assets/user_management_configure_user_v4_de.png){ class="shadow lightbox"}
 
 
 
 ### Profil
 
-Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben zur Institution erfasst. (Siehe Persönliches Menü > Konfiguration > [Profil](../../manual_user/personal_menu/Profile.de.md)). Ferner sind die vom User eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
+Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die vom User eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Systemeinstellungen
 
-Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt (Siehe Persönliches Menü > Konfiguration > [Einstellungen](../../manual_user/personal_menu/Settings.de.md)).  
+Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).  
 Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
 
 [zum Seitenanfang ^](#user_configuration)
@@ -37,11 +37,13 @@ In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktivierte
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Passwort
+### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-Hier kann ein neues Passwort direkt gesetzt oder ein Passwortlink generiert werden, der dem/der User:in dann per Mail zugeschickt wird, so dass er/sie selbst ein neues Passwort setzen kann. 
-Der Abschnitt "Passwortlink senden für OpenOlat Passwort" wird nur angezeigt, sofern es dem/der Benutzer:in
-erlaubt ist, das Passwort zu ändern. 
+Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons: "Einladungslink zum Setzen der Zugangsdaten senden" (Primärbutton) versendet einen Link per Mail, über den die Person selbst Zugangsdaten setzen kann; "Zugangsdaten erstellen" legt die Zugangsdaten direkt fest.
+
+Wurde ein Einladungslink bereits versendet, zeigt eine Meldung im Tab «Passwort» dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden.
+
+Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -104,7 +106,7 @@ Hier werden die Buchungsaufträge und Vorbestellungen des Users angezeigt.
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Kreditpunkte
+### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558)
 
 Hier sind die erworbenen Kreditpunkte des Users angezeigt. 
 
@@ -169,9 +171,13 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Produkte
+### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Hier finden Sie eine Übersicht über alle Bildungsoprodukte, denen der/die Benutzer:in zugeordnet ist, sowie über den Fortschritt des Benutzers/der Benutzerin.
+Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Durchführungen und Kurse des Benutzers/der Benutzerin wie im Coaching-Tool aus Sicht Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r.
+
+!!! info "Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche"
+    Details zu Filtern, Status und Darstellung dieser Ansicht.<br>
+    [Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_observe)
 
 [zum Seitenanfang ^](#user_configuration)
 
