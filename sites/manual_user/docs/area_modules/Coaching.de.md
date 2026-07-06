@@ -1,6 +1,6 @@
 # Coaching - Übersicht {: #coaching}
 
-## Wozu dient das Coaching Tool? {: #purpose}
+## Wozu dient das Coaching Tool? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #purpose}
 
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der **kursübergreifenden** Korrektur von Assessmentbausteinen, dem **kursübergreifenden** Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
@@ -39,7 +39,7 @@ Ob das Coaching Tool im Hauptmenü für Sie angezeigt wird, hängt dann von weit
 
 * **Systemrolle**: Gäste und Externe können kein Coaching vornehmen.
 * Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen. 
-* Der **Kursstatus** muss "Veröffentlicht", "Freigabe an Betreuer:innen" oder "Beendet" sein.
+* Der **Kursstatus** muss "Veröffentlicht", "Freigabe Betreuer:innen" oder "Beendet" sein.
 * Ob es **Teilnehmende** (mind. 1 Person) in einem Kurs bzw. einer Gruppe hat.
 
 
@@ -48,7 +48,7 @@ Ob das Coaching Tool im Hauptmenü für Sie angezeigt wird, hängt dann von weit
 ---
 
 
-## Wer verwendet das Coaching Tool typischerweise? {: #users}
+## Wer verwendet das Coaching Tool typischerweise? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #users}
 
 Das Coaching Tool wird verwendet von
 
@@ -96,6 +96,8 @@ Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 * **Freigabe Betreuer:innen** (standardmässig ausgewählt)
 * **Beendet** (nicht standardmässig ausgewählt)
 
+Über den Button **Alle anzeigen** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) gelangen Sie zur vollständigen Kursliste im Werkzeug **Kurse**.
+
 [Zum Seitenanfang ^](#coaching)
 
 ---
@@ -131,14 +133,14 @@ Pro Termin werden folgende Informationen angezeigt:
 
 Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **Keine Termine bis Ende der Woche**. Über die Schaltflächen **Vorheriger Termin** und **Nächster Termin** springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
 
-!!! note "Hinweis"
+!!! info "Wichtig"
     Gibt es für diesen Coach überhaupt keine Termine, wird das Widget komplett ausgeblendet.
 
 #### Zur Vollansicht
 
-Über den Link **Alle Termine anzeigen** gelangen Sie in das Werkzeug **Termine / Absenzen**.
+Über den Button **Alle anzeigen** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) gelangen Sie in das Werkzeug **Termine / Absenzen**.
 
-!!! tip "Wichtig"
+!!! note "Hinweis"
     Das Widget ist eine Schnellübersicht der aktuellen Woche. Das vollständige Werkzeug **Termine / Absenzen** bietet zusätzlich die Tabs Cockpit, Absenzen, Meldungen, Rekurse und Personensuche.
 
 [Zum Seitenanfang ^](#coaching)
