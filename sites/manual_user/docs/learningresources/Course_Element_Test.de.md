@@ -119,14 +119,9 @@ Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch Op
 
 ![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
-!!! tip "Hinweis"
+!!! info "Wichtig"
 
     Steht die Option "Manuell durch externe Korrektoren" nicht zur Verfügung, wurden in der Lernressource Test keine [externen Korrektoren](Test_settings.de.md) konfiguriert. Korrektoren werden unabhängig vom Kursbaustein direkt an der Lernressource Test verwaltet und gelten kursübergreifend.
-
-
-!!!warning
-!!! note
-!!! info
 
 **Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig für die User freigegeben und somit sichtbar sind oder nicht.
 
@@ -179,7 +174,7 @@ Wenn die Einstellungen für einen im Kurs eingebundenen Test geändert werden so
 
 Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt. 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Diese Anpassungen im Test haben keine Auswirkungen auf die Konfiguration der Lernressource Test selbst.
 

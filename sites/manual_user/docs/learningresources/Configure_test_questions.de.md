@@ -47,7 +47,7 @@ Es können folgende Varianten von Feedbacks hinzugefügt und auch verschiedene V
 * **Lösungshinweis:** Der Lösungshinweis erscheint in Form eines Fragezeichens unter der Fragestellung. Der User kann das Fragezeichen anklicken und erhält dann den hinterlegten Lösungshinweis. Diese Variante eignet sich z.B. um weitere Hinweislinks oder Texte bereitzustellen aber nicht unbedingt um die richtige Lösung vorzugeben.
 * **Korrekte Lösung:** Diese Lösung wird automatisch dann angezeigt, wenn der User eine falsche Antwort abgegeben hat. 
 
-!!!tip "Spezialfälle: Freitext, Datei-Upload, Zeichnen"
+!!! info "Spezialfälle: Freitext, Datei-Upload, Zeichnen"
     Bei diesen Fragetypen erfolgt keine Anzeige des Feedbacks während des Tests! Hier kann das Feld genutzt werden, um die Musterlösung zu hinterlegen, welche anschliessend im Korrekturworkflow (Bewertungswerkzeug) und im Ergebnis-Report angezeigt wird.
 * **Feedback bei Wahl aller korrekten Antworten:** Dieses Feedback erscheint nur dann, wenn alle Antworten des Users korrekt sind. Hier könnte also z.B. ein besonderes Lob erfolgen oder eine besondere Grafik angezeigt werden.
 * **Feedback bei Wahl einer falschen Antwort:**  Dieses Feedback erscheint, wenn wenigstens eine Antwort falsch ist. Beispiel: Bei einer Multiple Choice oder KPRIM Frage bzw. einem umfangreichen Lückentext von 50 Lücken wird das Feedback angezeigt, sobald mindestens eine Antwort falsch ist. Diese Feedbackvariante bietet sich an um dem Lernenden zu signalisieren, dass er auf dem richtigen Weg ist, auch wenn noch nicht alles komplett korrekt ist.
