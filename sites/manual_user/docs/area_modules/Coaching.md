@@ -42,7 +42,7 @@ Whether the coaching tool is displayed in the main menu depends on other factors
 
 * **System roles**: Guests and external parties are not permitted to provide coaching.
 * The **course role** must be a coach or owner. Participants cannot provide coaching. 
-* The **course status** must be "Published", "Approved for instructors", or "Completed".
+* The **course status** must be "Published", "Access for coach", or "Completed".
 * Whether there are **participants** (at least 1 person) in a course or group.
 
 [To the top of the page ^](#coaching)
@@ -97,6 +97,8 @@ Use the defined filter **"Relevant"** (selected by default) or one of the other 
 * **Access for coach** (selected by default)
 * **Finished** (not selected by default)
 
+Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) to go to the full course list in the **Courses** tool.
+
 [To the top of the page ^](#coaching)
 
 ---
@@ -132,14 +134,14 @@ Each event shows the following information:
 
 If there are no events in the displayed week, the message **No events until the end of the week** appears. Use the **Previous event** and **Next event** buttons to jump to the nearest event in the past or future.
 
-!!! note "Note"
+!!! info "Important"
     If this coach has no events at all, the widget is hidden completely.
 
 #### Full view
 
-The **Show all events** link takes you to the **Events / Absences** tool.
+Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) to go to the **Events / Absences** tool.
 
-!!! tip "Important"
+!!! note "Note"
     The widget is a quick overview of the current week. The full **Events / Absences** tool additionally offers the Cockpit, Absences, Reports, Appeals and Person search tabs.
 
 [To the top of the page ^](#coaching)
