@@ -58,7 +58,7 @@ Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden
 **Direktlink**<br> 
 Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werden. Ist die Person noch nicht in OpenOlat bekannt (registriert) und eingeloggt, erscheint zunächst der Login-Bildschirm.
 
-#### Teilnehmer:innen können austreten {: #section_share_leave}
+#### Teilnehmer:innen können austreten [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
 **Jederzeit**: Möchten Teilnehmende ihre Mitgliedschaft im Kurs selbst beenden, können sie das jederzeit tun.<br>
 **Nach Kursenddatum oder Status "Beendet"**: Ein Beenden der Kursmitgliedschaft aus Eigeninitiative der Teilnehmenden ist erst möglich, sobald der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat. Wurde diese Option gewählt, ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, ist ein Austritt erst möglich, sobald der Kurs den Status "Beendet" erhält.<br>
 **Nie**: Der Besuch des Kurses ist Pflicht und Teilnehmer:innen können deshalb nicht selbst austreten.
