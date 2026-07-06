@@ -6,7 +6,6 @@
 Name | Test
 ---------|----------
 Icon | :fontawesome-solid-square-pen:
-Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource test into a course
 Assessable | yes
@@ -16,7 +15,11 @@ Specialty / Note |
 
 The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types.
 
-Depending on the choice of "[Question types](../learningresources/Test_question_types.md)", one or more answers can be ticked, elements can be moved by drag & drop, texts and/or numbers can be inserted, files can be added, markers or (very simple) drawings can be created. The evaluation is then carried out manually or automatically, depending on the question type. 
+Depending on the choice of question type, one or more answers can be ticked, elements can be moved by drag & drop, texts and/or numbers can be inserted, files can be added, markers or (very simple) drawings can be created. The evaluation is then carried out manually or automatically, depending on the question type.
+
+!!! note "Question Types"
+    Overview of all available question types.<br>
+    [Question types](../learningresources/Test_question_types.md)
 
 Several tests can also be used for different purposes per OpenOlat course. The results of course participants are recorded on a personalized basis.
 
@@ -24,22 +27,23 @@ OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other
 
 The two main tabs for test configuration are **Test configuration** and "**Options**".
 
-!!! Warning "Attention"
+!!! warning "Attention"
 
     If participants are currently taking the test but have not yet completed it, their results will be lost. Likewise, all results obtained between the replacement of the test and the publication of this change will be lost.
 
 
-!!! info "Note"
+!!! note "Note"
 
     :fontawesome-solid-square-pen:
 
-    There are two different course elements for tests in OpenOlat: "Tests" and ["Self_Tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, the test results are saved anonymously in the self-test. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
+    There are two different course elements for tests in OpenOlat: "Tests" and ["Self_Tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, **the test results are saved anonymously in the self-test**. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
 
     The handling of self-tests is otherwise identical to the handling of the tests.
 
 
-Further information on the learning resource Test
-can be found in the chapter "[Create tests](../learningresources/Test.md)".
+!!! note "Test Learning Resource"
+    Further information on the learning resource Test.<br>
+    [Create tests](../learningresources/Test.md)
 
 [To the top of the page ^](#course_element_test)
 
@@ -74,7 +78,8 @@ Only if the selected condition is met will the progress be shown to the user in 
 ### Tab "Test configuration" {: #tab_configuration}
 
 If you have not yet selected a test, a corresponding message will appear in the "Test configuration" tab. You can now "Select" or "Import" an existing test or "Create" a new test.<br>
-If a test learning resource has already been inserted and you want to replace it, please follow the instructions in the section [Changes to tests and self-tests](#changes).
+!!! tip "Existing Learning Resource"
+    If a test learning resource has already been inserted and you want to replace it, please follow the instructions in the section [Changes to tests and self-tests](#changes).
 
 Click on "Select" to assign a test to the course element. You will then also see the options for creating and importing again. Here you select or create the test that you want to use and assign to the course element Test. Further settings can then be made, e.g. the type of correction or the way in which the test results are displayed can be defined.
 
@@ -90,7 +95,11 @@ An added test can be configured more specifically as follows:
 **Assessment with grading/marks**:
 Select one of the given rating scales e.g. grades, levels or emojis. You can also adjust the points lower limit afterwards. Also decide if the level assignment should be automatically visible to the user or if the assignment should be provided manually by the coach.
 
-**Exclude from course evaluation**: If the check mark is set here, the test will not be taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
+**Exclude from course evaluation**: If the check mark is set here, the test will not be taken into account when calculating progress in a learning path course. This setting is not available for a conventional course.
+
+!!! note "Learning Path Course"
+    Concept and progress calculation in the learning path course.<br>
+    [Learning path course](../learningresources/Learning_path_course.md)
 
 **Set test period**: During the test period, the test can be started. As soon as the "until time" is reached, the test is automatically ended. Even if the defined processing time has not yet been used up. Instead of a fixed date, a relative date can also be chosen, e.g. x days after the first course visit.
 
@@ -99,7 +108,11 @@ If nothing is activated here, the test is accessible at all times, provided no r
 
 #### Section Correction {: #correction}
 
-**Correction**: The correction is performed either **automatically or manually**. As soon as a [Question type](Test_question_types.md) to be evaluated manually, e.g. free text, is available, a manual variant must be selected. With automatic correction, all questions are corrected automatically and directly, the result is visible immediately.
+**Correction**: The correction is performed either **automatically or manually**. As soon as a question type to be evaluated manually, e.g. free text, is available, a manual variant must be selected. With automatic correction, all questions are corrected automatically and directly, the result is visible immediately.
+
+!!! note "Question Types"
+    Overview of all available question types, including manually evaluated types.<br>
+    [Question types](Test_question_types.md)
 
 In case of manual correction, the visibility of the result is limited and the coach or corrector has to complete the correction manually. Questions to be edited manually include free text, upload file and draw. However, manual correction can also be set if required when the test consists only of automatically evaluable question types.
 
@@ -108,9 +121,9 @@ If the option "**Manually by external graders**" is activated, OpenOlat users ca
 [Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
 
-!!! info "Note"
+!!! info "Important"
 
-    If the option "Manually by external correctors" is not available, no [external correctors](Test_settings.md) have been configured in the learning resource Test.
+    If the option "Manually by external correctors" is not available, no [external correctors](Test_settings.md) have been configured in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses.
 
 
 **Release rating**: Set here whether the results are released by default or not.
@@ -133,7 +146,11 @@ If the "Always" field is selected, the results will be available immediately aft
 
 The **Test Summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
-The **Section Summary** is only relevant if a test also contains [Sections](Configure_tests.md#section-level--section).
+The **Section Summary** is only relevant if a test also contains sections.
+
+!!! note "Section Level"
+    Description of the section configuration in the test editor.<br>
+    [Section level](Configure_tests.md#section)
 
 In the **Question Summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed but not the question itself.
 
@@ -186,7 +203,9 @@ A highscore overview can also be activated and further configured here for a tes
 
 ![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
 
-You can find more information on the topic of high scores [here](../learningresources/Course_Elements.md)
+!!! note "Highscore"
+    More information on the topic of high scores.<br>
+    [Learn more](../learningresources/Course_Elements.md)
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
@@ -221,8 +240,11 @@ Here, reminder e-mails can be configured according to certain criteria. More inf
 
 ### Tab "Badges" {: #tab_badges}
 
-If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges** section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
-For more information on badges and how they are awarded, see the chapter ["Badges"](../learningresources/OpenBadges.md).
+If the course owner has activated the assignment of badges under `Administration > Settings > Assessment tab > Badges` section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+!!! note "Badges"
+    More information on the topic of badges and how they are awarded.<br>
+    [Badges](../learningresources/OpenBadges.md)
 
 
 [Beginning of test configuration section ^](#config)<br>
@@ -258,7 +280,7 @@ Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen:
 
     Once a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.
 
-Why is that? Assuming you could still add questions in an embedded test or mark other answers as correct, on the one hand not all test subjects would encounter the same conditions. On the other hand, results might have already been saved that cannot be uniquely assigned to a version of the test file after the change (This was the case until release 19.1.10.). Therefore, editing of already included tests and self-tests is severely limited.
+Why is that? Assuming you could still add questions in an embedded test or mark other answers as correct, on the one hand not all test subjects would encounter the same conditions. On the other hand, results might have already been saved that cannot be uniquely assigned to a version of the test file after the change. Therefore, editing of already included tests and self-tests is severely limited.
 
 So the question is what you can do if you need to change a test for valid reasons. You have the following options:
 
@@ -280,7 +302,11 @@ Before the replacement, a dialog box informs you of the effects. You must explic
 **Example:**
 ![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
 
-After the replacement, the link "Show history" also appears next to the "Replace" button, see ["Test history"](#history). 
+After the replacement, the link "Show history" also appears next to the "Replace" button.
+
+!!! note "Test History"
+    Details on the history of replaced test learning resources.<br>
+    [Test history](#history)
 
 [To the top of the page ^](#course_element_test)
 
@@ -288,7 +314,11 @@ After the replacement, the link "Show history" also appears next to the "Replace
 
 ## View and assess tests {: #assess}
 
-Access tests completed by course participants in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. Navigate to the desired course element Test. In the "Participants" tab, all course participants are displayed with the respective processing status for this course element and you can see in the "Status" column whether an assessment is required. Open reviews are also displayed in the overview under "Open reviews".
+Access tests completed by course participants in the Assessment tool. The assessment tool can be found in the "Administration" of the course.
+
+!!! note "Assessment Tool"
+    Central interface for assessing, grading and managing participant assessments.<br>
+    [Assessment tool](../learningresources/Assessment_tool_overview.md) Navigate to the desired course element Test. In the "Participants" tab, all course participants are displayed with the respective processing status for this course element and you can see in the "Status" column whether an assessment is required. Open reviews are also displayed in the overview under "Open reviews".
 
 Alternatively, the results can also be viewed and managed in the course run with the editor closed directly in the respective test course element. 
 To do this, switch to the “Participants” tab. As the course owner, you also have access to other tabs in the course run, such as Preview, Communication, Reminders, and Badges. Some of these tabs are also available to coaches.
@@ -296,7 +326,11 @@ To do this, switch to the “Participants” tab. As the course owner, you also 
 
 ![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow" }
 
-If external correctors have also been activated for a test, they can assess it via the [Coaching Tool](../area_modules/Coaching.md).
+If external correctors have also been activated for a test, they can assess it via the Coaching Tool.
+
+!!! note "Coaching Tool"
+    Cross-course assessment by external correctors.<br>
+    [Coaching Tool](../area_modules/Coaching.md)
 
 
 [To the top of the page ^](#course_element_test)
@@ -338,9 +372,15 @@ If the test learning resource has been replaced, a button for switching between 
 
 
 
-## Test results and archiving {: #archive}
+## Test results and archiving {: #archive} [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466)
 
-You can archive test results. To do this, select [Archiving & Reporting](../learningresources/Course_Archiving.md) in the administration area. Here you can download all course results from all assessable course elements, including tests.
+You can archive test results. To do this, select "Archiving & Reporting" in the administration area.
+
+!!! note "Archiving & Reporting"
+    Course-wide archiving function for all assessable course elements.<br>
+    [Archiving & Reporting](../learningresources/Course_Archiving.md)
+
+Here you can download all course results from all assessable course elements, including tests.
 
 There you can download all course results from all assessable course components (including tests). Alternatively, you can also select only the results of specific tests and save only those. To do this, select "Course archiving" -> "Subarchives" -> "Create archive" and select the desired test modules. Select the default settings or customize specific archiving options.
 
@@ -352,7 +392,11 @@ A zip file is created, which is then available in the course archiving area for 
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
-It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration area. Here you can also quickly access the graphical analysis of your test data.
+It is still possible to download the raw data from tests via Test Statistics in the Administration area. Here you can also quickly access the graphical analysis of your test data.
+
+!!! note "Test Statistics"
+    Raw data and graphical evaluation of test results.<br>
+    [Test Statistics](../learningresources/Statistics_Test.md)
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
@@ -383,13 +427,15 @@ Tests can be used in the following scenarios, among others:
 * **Online exam**: Conducting exam-relevant online or e-exams
 
 
-### How to edit a test (Learners perspective) {: #participate_as_learner}
+### How to edit a test (Learners perspective) {: #participate_as_learner} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
-Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
+Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered (filled), which questions have only been looked at (circle highlighted) and which have not been clicked at all (no marking).
 
-![test navigation left](assets/Test_Anzeige.png)
+![test_show_answeroverview_V1_en](assets/test_show_answeroverview_V1_en.png)
 
 Depending on the setting, you can navigate further using the "Next question" button and/or a link in the left-hand navigation or the next question will be displayed automatically. Whether you can skip questions or see the progress of answers also depends on the configuration of the teacher. Depending on the configuration, you can interrupt the test and continue at a later time or cancel it without saving the results.
+
+If the number of solution attempts is limited for a question, a section, or the entire test, the remaining number is displayed directly next to the question, for example "2 attempts remaining (1/3)". The same information also appears as a tooltip in the left-hand navigation.
 
 When you have finished editing and want to complete the test, click on the "End test" button. You will be asked once again for confirmation and if you confirm this, the test will be saved and will be visible to the teachers.
 

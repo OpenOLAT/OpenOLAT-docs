@@ -32,7 +32,7 @@ At test level, you define the title that appears in the navigation. The followin
 
     As soon as the time is over, the test is pulled. Questions which have not been submitted yet will be treated as empty, not answered questions and don't give a score. It is not asked, if the questions should be saved or not. The feedback over the whole test and the review are also part of the time limit.
 
-!!! info
+!!! note "Note"
 
     A time limit of the test can either be done in the test editor as described here or after embedding the test into the course in the course editor in the tab `Options`. If necessary the test time can be extended for single users in the [assessment tool](../learningresources/Assessment_tool_overview.md).  
   
@@ -41,7 +41,7 @@ At test level, you define the title that appears in the navigation. The followin
 * **Necessary score for "Passed" is reached:** Enter a total feedback here if the score for passed is reached.
 * **Necessary score for "Passed" _not_ reached:** Enter a total feedback here if the score is not sufficient.
   
-### Tab Expert {: #expert}
+### Tab Expert {: #expert} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 In the tab expert (or on the level of the part, as far as a part has been added), the following configurations can be done:
 
@@ -52,7 +52,7 @@ In the tab expert (or on the level of the part, as far as a part has been added)
     * Linear: All questions need to be solved after each other. It cannot be jumped in between the menu.
     * Non linear: The questions can be answered in the desired order.
 
-* **Limit number of attempts?** If only a certain number of attempts is allowed, it can be defined here. This limitation is only valid for the test part. If the number of attempts should be limited for the whole test, it needs to be limited in the options or in the course element test. If a test contains only one test part, the setting also applies to the entire test.
+* **Limit number of attempts** If only a certain number of attempts is allowed, it can be defined here. This limitation is only valid for the test part. If the number of attempts should be limited for the whole test, it needs to be limited in the options or in the course element test. If a test contains only one test part, the setting also applies to the entire test.
 
     If the number of attempts is limited on the level of the test or part, this configuration is inherited to all sections and questions below.
 

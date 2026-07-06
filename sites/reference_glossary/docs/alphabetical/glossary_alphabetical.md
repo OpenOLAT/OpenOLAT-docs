@@ -172,7 +172,11 @@ A dedicated file area visible only to coaches within a course.
 
 ### Coaching
 
-Cross-course overview for coaches to monitor learners.
+Cross-course overview for coaches to monitor learners. See also: Coaching Tool.
+
+### Coaching Tool
+
+The name used in OpenOlat for the tool in which coaches view learners, test corrections, and assessments across courses. See also: Coaching.
 
 ### Competence
 

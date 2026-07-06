@@ -164,7 +164,11 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 ### Coaching
 
-Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden.
+Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden. Siehe auch: Coaching Tool.
+
+### Coaching Tool
+
+Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer/innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
 
 ### Contact Tracing
 

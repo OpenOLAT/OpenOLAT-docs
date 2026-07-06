@@ -8,7 +8,11 @@ The basic configuration of the entire test is largely carried out in the **"Sett
 
 The **"Member administration"** menu is particularly relevant if the test is to be used independently of the course, otherwise the member administration of the test participants is carried out via the linked course.
 
-Under **["Edit content"](Test_editor_QTI_2.1.md)** you can access the test editor. The actual test is created here.
+Under "Edit content" you can access the test editor. The actual test is created here.
+
+!!! note "Test Editor QTI 2.1"
+    Overview of the test editor.<br>
+    [Edit content](Test_editor_QTI_2.1.md)
 
 The **"Assessment tool"** of the test only appears if the test is to be used independently of the course (Settings -> Share tab -> Purpose "Independent").
 
@@ -42,7 +46,7 @@ The "Options" tab is particularly important for tests. This is where you configu
 
 In addition, further settings for the learning resource can be made in the other tabs "Info", "Metadata", "Share" and "Catalog". Make sure that the license information under "Metadata" corresponds to your requirements.
 
-### Tab Options
+### Tab Options [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 The following configurations can be made:
 
@@ -54,9 +58,9 @@ Decide, for example, whether it is a summative or formative test or use a differ
 
 ![Test Standardeinstellungen](assets/Test_Standardeinstellungen_DE.png){ class="shadow" }
 
-**Limit the number of solution attempts**
+**Limit number of test attempts**
 
-Enter the maximum number of possible solution attempts for a test here. The value can be a maximum of 20. 
+Activate this option to limit the number of possible solution attempts for a test. Enter the desired number in the "Max. number of attempts" field. The value can be a maximum of 20.
 
 **First passed solution attempt counts**
 
@@ -127,7 +131,7 @@ If this checkbox is selected, the result is displayed after the test has been co
 * **Answer provided by the participant**: The question is displayed together with the participant's answer.
 * **Solution**: The question is displayed together with the correct solution. If a correct solution is stored in the Feedback tab, it is also displayed in the results view with this option.
 
-!!! info "Note"
+!!! note "Note"
 
     The settings made under Options are automatically adopted when the test is included in a [course](Tests_at_course_level.md) and, if desired, can be adapted in the respective course element Test in the course editor in the tabs "Test configuration" or "Options".
 
@@ -153,7 +157,9 @@ Here you add the persons who are to grade a test. It does not matter which role 
 
 Here the processing status of the grading assignments of the different graders can be displayed and filtered according to various criteria.
 
-For more information on cross-course correction, see the [Coaching Tool](../area_modules/Coaching.md).
+!!! note "Coaching Tool"
+    More information on cross-course correction.<br>
+    [Coaching Tool](../area_modules/Coaching.md)
 
 [To the top of the page ^](#test_settings)
 
@@ -190,10 +196,24 @@ The test is then downloaded in zip format with two Word files, one of which cont
 
 ## Further information {: #further_information}
 
-[How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
-[How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.md)<br>
+!!! note "How do I proceed when creating a test?"
+    Step-by-step guide to creating a test.<br>
+    [How do I proceed when creating a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+
+!!! note "How do I assess a test?"
+    Guide to assessing tests.<br>
+    [How do I assess a test?](../../manual_how-to/assessing_tests/assessing_tests.md)
+
+!!! note "Anonymous Test Correction"
+    Guide to anonymous correction of a test.<br>
+    [How do you grade an anonymous test in OpenOlat?](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
+
+!!! note "Assessment Tool"
+    Central interface for assessing, grading and managing participant assessments.<br>
+    [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md)
+
+!!! note "Coaching Tool"
+    Cross-course overview for coaches.<br>
+    [Coaching Tool](../../manual_user/area_modules/Coaching.md)
 
 [To the top of the page ^](#test_settings)

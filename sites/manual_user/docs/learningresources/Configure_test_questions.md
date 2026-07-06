@@ -14,7 +14,7 @@ By default "One line" is chosen, which is for answers using only one line and no
 
 ![Editor to format text](assets/formatted.jpg){ class="shadow lightbox" }
 
-## Tab Score {: #score}
+## Tab Score {: #score} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 In the tab "Score" you can define the number of attempts for a question, set the minimum and maximum score, and define how the question shall be rated.
 
@@ -34,7 +34,7 @@ The following settings are possible:
 
     * If **"All correct answers"** is chosen, the score can only be reached when all answers are correct.
     * If **"Score per answer"** is chosen, you can datermine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
-    * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text and numeric), gap with dropdown.In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. (new in :octicons-tag-24: Release 18.1.)
+    * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text and numeric), gap with dropdown.In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. (new in :octicons-tag-16: Release 18.1.)
     * For gap text and numerical input questions different **"Score per answer and alternatives"** can also be assigned and thus, for example, partial points can be stored for "half correct" answers.
     * The method of assessment cannot be chosen for Kprim, upload file, drawing or essay.
 
@@ -45,7 +45,10 @@ You can add different types of feedback to each question. e.g. hints to help wit
 You can add and even combine the following types of feedback:
 
 * **Hint:** The solution hint appears in the form of a question mark under the question. The user can click on the question mark and then receives the solution hint. This variant is suitable, for example, to provide additional links or texts, but not necessarily to provide the correct solution.  
-* **Correct solution:** The solution is shown automatically, if the answer is wrong. _Special case essay, file upload and drawing question types: The solution will not be shown during the test. But this feedback option can be used to provide the sample solution, which is shown in the correction workflow (assessment tool) and in the results report._
+* **Correct solution:** The solution is shown automatically, if the answer is wrong.
+
+!!! info "Special Cases: Essay, File Upload, Drawing"
+    The solution will not be shown during the test. But this feedback option can be used to provide the sample solution, which is shown in the correction workflow (assessment tool) and in the results report.
 * **Feedback for all correct answers:** The feedback appears only if all answers are correct. You could for example add a praise for the correct answer.
 * **Feedback for wrong answer:** This feedback appears as soon as one answer is wrong. Example: In the case of a multiple choice or KPRIM question or an extensive gap text of 50 gaps, feedback is displayed as soon as at least one answer is incorrect. The feedback types allows you to signal the learner that he/she is on the right track, although not all answers have been answered correctly yet.
 * **Conditional feedback:** This feedback variant offers a lot of potential for more individualized feedback. Depending on the question type you may define feedback which is dependent on the _score_, the _number of attempts_, or the _answer_ provided by the learner. Conditional feedback allows you to individualise feedback. The learner can be provided with a specific feedback to a specific answer. You can thus address common errors, for example. Depending on the criteria additional options may be available: such as equal to (=), not equal to (≠), or smaller/greater than (<, >). You can even combine criteria of conditional feedback.
@@ -58,7 +61,11 @@ For tests already in use, the stored feedback on the questions can still be edit
 
 "Feedback for all correct answers" is not effective in a Multiple Choice question where no wrong, but not all correct answers are chosen.
 
-At the [test level](Configure_tests.md), you can set the overall feedback of a test in the Test Editor in the "Feedback" tab. Under `Administration > Settings > Options`, the feedbacks for a test can generally be switched on or off.
+At the test level, you can set the overall feedback of a test in the Test Editor in the "Feedback" tab. Under `Administration > Settings > Options`, the feedbacks for a test can generally be switched on or off.
+
+!!! note "Test Level"
+    Configuration options at test level in the test editor.<br>
+    [Test level](Configure_tests.md)
 
 ## Preview
 
@@ -74,4 +81,9 @@ Here you can store additional metadata for each question. In the "General" secti
 
 In the area "Item analysis" the average processing time of the question, the difficulty, the selectivity, the required correction time, etc. can be specified.
 
-In the "Technical" area, further information is displayed. These settings as well as further information on the [metadata](../area_modules/Item_Detailed_View.md) can also be found in the [question pool](../area_modules/Question_Bank.md).
+In the "Technical" area, further information is displayed.
+
+!!! note "Metadata and Question Pool"
+    Further information on these settings is also available in the question pool.<br>
+    [Metadata](../area_modules/Item_Detailed_View.md)<br>
+    [Question pool](../area_modules/Question_Bank.md)

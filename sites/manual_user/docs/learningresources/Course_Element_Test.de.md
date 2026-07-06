@@ -40,7 +40,7 @@ Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen kö
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
 
-!!! info "Lernressource Test"
+!!! note "Lernressource Test"
     Weitere Informationen zur Lernressource Test.<br>
     [Tests erstellen](../learningresources/Test.de.md)
 
@@ -147,7 +147,7 @@ Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch Sektionen e
 
 !!! note "Sektion Ebene"
     Beschreibung der Sektionen-Konfiguration im Testeditor.<br>
-    [Sektion Ebene](Configure_tests.de.md#sektion-ebene--section)
+    [Sektion Ebene](Configure_tests.de.md#section)
 
 Bei der **Fragenzusammenfassung** wird der Titel der Frage, die jeweils erreichte Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung selbst.
 
