@@ -158,6 +158,7 @@ nav:
         - The portfolio editor: "area_modules/The_portfolio_editor_17_1.md"
     - Course Planner:
         - Overview: "area_modules/Course_Planner.md"
+        - Dashboard: "area_modules/Course_Planner_Dashboard.md"
         - Products: "area_modules/Course_Planner_Products.md"
         - Implementations: "area_modules/Course_Planner_Implementations.md"
         - Events: "area_modules/Course_Planner_Events.md"

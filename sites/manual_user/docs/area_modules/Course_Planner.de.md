@@ -1,4 +1,4 @@
-# Course Planner: Übersicht [:octicons-tag-20:{ title="ab Release 20.0." }](https://track.frentix.com/issue/){:target="_blank"} {: #course_planner}
+# Course Planner: Übersicht [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #course_planner}
 
 
 ## Wozu dient der Course Planner? {: #purpose}
@@ -66,7 +66,7 @@ Die Instanzierung der Kurse kann auch automatisch auf einen bestimmbaren Termin 
 
 Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog zu den einzelnen Durchführungen hinzugefügt werden.
 
-!!! note "Beachten Sie:"
+!!! info "Beachten Sie:"
 
     Kursmitglied im Template-Kurs sind dann lediglich noch die Kurs-Besitzer:innen mit Autor:innen-Rolle.
 
@@ -122,7 +122,7 @@ Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in
 
 Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **Elementbesitzer:innen** im Rahmen ihres Zuständigkeitsbereichs zugreifen.
 
-!!! tip "Weitere OpenOlat Rollen"
+!!! info "Weitere OpenOlat Rollen"
     Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung, weniger auf die Planung, Terminierung und Administration von Kursen und Durchführungen.
 
 [Zum Seitenanfang ^](#course_planner)
@@ -137,7 +137,7 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 ![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
 
 
-!!! note "Voraussetzung"
+!!! tip "Voraussetzung"
 
     Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support ihrer OpenOlat Instanz.
 
@@ -147,102 +147,18 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 ---
 
-##  Die Übersichtsseite [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #overview}
+### Dashboard [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
 
-Die Übersicht zeigt 
+Beim Öffnen des Course Planners gelangen Sie auf die Übersichtsseite mit den Zugriffs-Buttons, der Suche und einem Bereich mit konfigurierbaren Widgets (Durchführungen, Termine, Mitglieder).
 
-- die nächsten anstehenden Termine,
-- die Buttons zum Zugriff auf die nachstehend beschriebenen Bereiche/Funktionen,
-- sowie die Suche.
+![course_planner_overview_v4_de.png](assets/course_planner_overview_v4_de.png){ class="shadow lightbox" }
 
-![course_planner_overview_v3_de.png](assets/course_planner_overview_v3_de.png){ class="shadow lightbox" }  
-
-Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
-Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
-
-![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
-
-Unterhalb der Buttons und der Suche zeigt die Übersichtsseite einen Bereich mit **Widgets** (Kacheln) in einem responsiven Layout: Je nach Bildschirmbreite passt sich die Anordnung der Kacheln automatisch an.
-
-Ein Trennbereich mit der Bezeichnung **"Übersicht"** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} grenzt diesen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
-
+[Zu den Details >](../area_modules/Course_Planner_Dashboard.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
 
 ---
 
-### Durchführungs-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8864, OO-9289)" }](https://track.frentix.com/issue/OO-8864){:target="_blank"} {: #widget_implementations}
-
-Das Widget **Durchführungen** zeigt auf einen Blick die für Sie relevanten Durchführungen.
-
-Im Kopfbereich wählen Sie über die Hauptkennzahl **"Relevant"** oder eine der weiteren Kennzahlen (**"Vorbereitung"**, **"Provisorisch"**, **"Bestätigt"**, **"Ausstehende Mitgliedschaften"**) eine Vorauswahl. Die Tabelle listet die entsprechenden Durchführungen mit externer Referenz, Titel, Struktur, Status sowie Beginn- und Enddatum, sortiert nach Beginndatum.
-
-Über den neuen Filter **"Ausstehende Mitgliedschaften"** finden Sie schnell Durchführungen, bei denen Mitgliedschaften noch bestätigt werden müssen.
-
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Tabellen-Widget konfigurieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
-
-Tabellen-Widgets (z.B. das Durchführungs-Widget) können Sie über das Zahnrad-Icon im Widget individuell konfigurieren:
-
-* **Hauptkennzahl**: Legt fest, welche Kennzahl in der Titelzeile des Widgets angezeigt wird.
-* **Kennzahlen**: Über eine Checkbox-Gruppe bestimmen Sie, welche weiteren Kennzahlen sichtbar sind. Die Hauptkennzahl ist dabei immer ausgewählt und kann nicht abgewählt werden.
-* **Anzahl Einträge**: Legt fest, wie viele Zeilen die Tabelle anzeigt (5 bis 15).
-
-Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen Sie sie.
-
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
-
-Das Widget **Teilnehmer:innen** zeigt die Teilnehmerzahl der jeweiligen Durchführung.
-
-Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzlicher Hinweistext die Kennzahl:
-
-* Bei gesetztem Maximum: **"\<Anzahl\> verbleibende Plätze"**
-* Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
-* Bei ausgebuchten oder überbuchten Durchführungen erscheint weiterhin die entsprechende Meldung.
-
-Im Bereich darunter werden die für die Durchführung zuständigen Personen mit Rolle angezeigt (z.B. Betreuer:innen, Klassenlehrer:innen, Kursbesitzer:innen, Elementbesitzer:innen).
-
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
-
-Unterhalb der Widgets steht der Button **"Übersicht anpassen"** zur Verfügung, mit dem Sie in den Bearbeitungsmodus wechseln.
-
-Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
-
-* **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
-* **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
-
-!!! note "Hinweis"
-
-    Für die Bedienung ohne Maus (Tastatur/Screenreader) stehen zusätzlich die Aktionen **"Nach oben verschieben"** und **"Nach unten verschieben"** zur Verfügung.
-
-Mit **Speichern** übernehmen Sie die Änderungen und verlassen den Bearbeitungsmodus, mit **Abbrechen** verwerfen Sie sie. Über **"Dashboard zurücksetzen"** stellen Sie die Standardeinstellung wieder her.
-
-Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstandard verwendet.
-
-!!! note "Hinweis"
-
-    Gäste sehen den Button "Übersicht anpassen" nicht.
-
-!!! tip "Hinweis für Systemadministrator:innen"
-
-    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen.
-
-
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Produkte {: #products}
+### Produkte [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #products}
 
 Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
 
@@ -280,7 +196,7 @@ Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teil
 ---
 
 
-### Zertifikatsprogramme {: #certificate_programs}
+### Zertifikatsprogramme [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #certificate_programs}
 
 Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Absolvieren mehrerer Kurse gibt. 
 

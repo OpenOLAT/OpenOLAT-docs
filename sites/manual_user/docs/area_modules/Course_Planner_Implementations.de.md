@@ -29,7 +29,7 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 Über die individuelle Spaltenauswahl lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
-!!! note "Hinweis"
+!!! info "Wichtig"
     Die Fachbereiche werden durch die Administration unter Taxonomie zur Verfügung gestellt.
 
 
@@ -39,19 +39,19 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 ## Navigation in den Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
 
-Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen.
+Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen:
 
-![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen.
+- rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen.
 
-![2_green_24.png](assets/2_green_24.png) mit den **Pfeiltasten** rechts oben zu anderen Durchführungen  wechseln.
+- mit den **Pfeiltasten** rechts oben zu anderen Durchführungen  wechseln.
 
-![3_green_24.png](assets/3_green_24.png) durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren.
+- durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren.
 
-![4_green_24.png](assets/4_green_24.png) durch Klick auf eine der **Überschriften** direkt zum entsprechenden Tab springen.
+- durch Klick auf eine der **Überschriften** direkt zum entsprechenden Tab springen.
 
-![5_green_24.png](assets/5_green_24.png) durch Klick auf das **+** Kursinhalte hinzufügen.
 
-![course_planner_implementations_navigation_v1_de.png](assets/course_planner_implementations_navigation_v1_de.png){ class="shadow lightbox" }
+
+![course_planner_implementations_navigation_v2_de.png](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -66,9 +66,13 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 ### Tab Übersicht [:octicons-tag-16:{ title="ab Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
-Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt. Dies erleichtert Ihnen die Navigation innerhalb der Durchführungsbezogenen Aktivitäten.
+Im Tab "Übersicht" werden Ihnen die Mitglieder, die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt. Dies erleichtert Ihnen die Navigation innerhalb der Durchführungsbezogenen Aktivitäten.
 
-![course_planner_implementations_tab_overview_v1_de.png](assets/course_planner_implementations_tab_overview_v1_de.png){ class="shadow lightbox" }
+Über den Button **Alle anzeigen** im Widget **Termine** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} gelangen Sie direkt zum Tab Termine.
+
+Die Widgets **Kursinhalt** und **Katalog** zeigen zusätzlich ein Icon im Titel sowie den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
+
+![course_planner_implementations_tab_overview_v2_de.png](assets/course_planner_implementations_tab_overview_v2_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#implementations)
 
@@ -146,7 +150,7 @@ Kurstemplates werden erstellt, indem im Kurs unter `Administration > Einstellung
 Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Templates werden kopiert. Bei späterer Änderung des Templates bleibt die früher erstellte Kopie unverändert.
 
@@ -180,7 +184,7 @@ Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung ge
 
 Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
-!!! tip "Mitgliederverwaltung im Course Planner"
+!!! info "Mitgliederverwaltung im Course Planner"
     Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt":
     `(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"`
 **Der Kurs hat dann *keine* eigenständige Mitgliederverwaltung mehr**, die Mitgliederverwaltung erfolgt nun ausschliesslich in der Mitgliederverwaltung der Durchführung, **innerhalb des Course Planners**.
@@ -207,7 +211,7 @@ Wenn Teilnehmer:innen einer Durchführung zugewiesen werden, erhalten sie je nac
 
 Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich.
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Ob eine Bestätigung durch die eingeladenen Personen erforderlich ist, hängt von der Konfiguration der Reservierungspflicht ab. Details dazu finden Sie im Abschnitt zur Bestätigung der Mitgliedschaft weiter unten.
 
