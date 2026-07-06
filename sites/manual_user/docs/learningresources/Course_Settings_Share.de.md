@@ -30,7 +30,7 @@ Wird kein Course Planner verwendet, sind die Kurse eigenständig.
 
 
 **Eigenständig**<br>
-Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hinzufügen neuer Mitglieder öffnen Sie also im Kurs "Administration > Mitgliederverwaltung".<br>
+Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hinzufügen neuer Mitglieder öffnen Sie also im Kurs `Administration > Mitgliederverwaltung`.<br>
 Der Zugang kann mit der Buchungsmethode "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
 
 **Einbindung in Produkt**<br>
@@ -39,9 +39,9 @@ Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den 
 **Template**<br>
 Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige Mitgliederverwaltung. Der Unterschied zur Option "Verwendung im Course Planner" besteht darin, dass ein Template zur Instanzierung verwendet wird. Der Kurs in einer Durchführung wird erst zu einem bestimmten Zeitpunkt aus diesem Template erstellt (instanziert).
 
-!!! hint "Hinweis"
+!!! tip "Tipp"
 
-    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Administrator:innen können den standardmässigen Verwendungszweck für neue Kurse einstellen unter **Administration > Module > Modul Courser Planner > Tab Course Planner**
+    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Administrator:innen können den standardmässigen Verwendungszweck für neue Kurse einstellen unter `Administration > Module > Modul Course Planner > Tab Course Planner`
 
 [Zum Seitenanfang ^](#tab_share)
 
@@ -52,16 +52,20 @@ Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige
 ![course_settings_share_share_v1_de.png](assets/course_settings_share_share_v1_de.png){ class="shadow lightbox"}
 
 **Zugang für Teilnehmer:innen**<br>
-Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht im Kurs unter "Administration > Mitgliederverwaltung". Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
+Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht im Kurs unter `Administration > Mitgliederverwaltung`. Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
 Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben. Soll die Buchung nach Wahl eines Angebots im Katalog erfolgen, muss ebenfalls diese Option angewählt sein. 
 
 **Direktlink**<br> 
 Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werden. Ist die Person noch nicht in OpenOlat bekannt (registriert) und eingeloggt, erscheint zunächst der Login-Bildschirm.
 
-**Teilnehmer:innen können austreten**<br>
+#### Teilnehmer:innen können austreten {: #section_share_leave}
 **Jederzeit**: Möchten Teilnehmende ihre Mitgliedschaft im Kurs selbst beenden, können sie das jederzeit tun.<br>
-**Nach Enddatum**: Ein Beenden der Kursmitgliedschaft aus Eigeninitiative der Teilnehmenden ist nur nach Ende des Durchführungszeitraums möglich. Wurde diese Option gewählt ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, wird es den Teilnehmenden zu keinem Zeitpunkt gestattet sein, den Kurs zu verlassen.<br>
+**Nach Kursenddatum oder Status "Beendet"**: Ein Beenden der Kursmitgliedschaft aus Eigeninitiative der Teilnehmenden ist erst möglich, sobald der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat. Wurde diese Option gewählt, ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, ist ein Austritt erst möglich, sobald der Kurs den Status "Beendet" erhält.<br>
 **Nie**: Der Besuch des Kurses ist Pflicht und Teilnehmer:innen können deshalb nicht selbst austreten.
+
+!!! info "Wichtig"
+
+    Bei Kursen mit Verwendung **"Einbindung in Produkt"** (Course Planner) steht die Funktion "Kurs verlassen" für CPL-Teilnehmer:innen unabhängig von dieser Einstellung nicht zur Verfügung. Der Austritt aus einer CPL-Durchführung erfolgt ausschliesslich über den Course Planner und damit über die Administration ihrer Unternehmung.
 
 **Administrative Freigabe**<br>
 Aus den hier ausgewählten Organisationseinheiten können Personen mit bestimmten übergeordneten Rollen (z.B. Administrator:innen, Lernressourcenverwalter:innen) ebenfalls auf diesen Kurs zugreifen. Weil es diese Rollen pro Organisationseinheit gibt (z.B. Admin für Abteilung xy), können Sie hier bestimmen, welche Organisationseinheiten administrativen Zugriff auf Ihren Kurs erhalten werden.
@@ -104,7 +108,7 @@ Mehr über Angebote und den Katalog finden Sie hier:<br>
 
 ---
 
-## ![4_green_24.png](assets/4_green_24.png) Abschnitt LTI 1.3 Zugriffskonfiguration {: #section_LTI}
+## ![4_green_24.png](assets/4_green_24.png) Abschnitt LTI 1.3 Zugriffskonfiguration [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
 OpenOlat-Kurse können via LTI 1.3 auch von einem anderen LMS aus aufgerufen werden. Für diesen Zugriff von aussen braucht es aber Sicherheitsvorkehrungen und genau festgelegte Berechtigungen.<br>
 In diesem Abschnitt können Sie dazu ein sogenanntes Deployment einrichten, um den Kurs für ein anderes LMS aufrufbar zu machen.

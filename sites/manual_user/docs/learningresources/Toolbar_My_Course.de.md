@@ -58,7 +58,7 @@ Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assess
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
-!!! info "Info"
+!!! note "Hinweis"
 
     Leistungsnachweise und Zertifikate aus **allen** Ihren Kursen finden Sie im persönlichen Menü unter ["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#leistungsnachweise). 
 
@@ -136,11 +136,29 @@ Sind Sie aufgrund einer Gruppenmitgliedschaft in diesem Kurs dabei (Gruppenteiln
 ---
 
 
-### Kurs verlassen {: #leave_course}
+### Kurs verlassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
 Die "Kurs verlassen" Funktion beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw. Sie müssen den entsprechenden Kurs- oder Gruppenbetreuer kontaktieren, um wieder Kurszugriff zu erhalten.
 
 Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor von den Kursbesitzer*innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Kursteilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
+
+**Wann ist "Kurs verlassen" verfügbar?**
+
+"Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
+
+- Die aktive Rolle ist "Teilnehmer:in" (beim Rollenwechsel wird die Option nur bei aktiver Teilnehmer-Rolle angezeigt).
+- Der Kurs hat die Verwendung **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Bei Kursen mit Verwendung **"Einbindung in Produkt"** (Course Planner) steht "Kurs verlassen" für CPL-Teilnehmer:innen nicht zur Verfügung.
+- Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
+
+Ist die Option **"Nach Kursenddatum oder Status 'Beendet'"** gewählt, wird "Kurs verlassen" bereits angezeigt, ist aber inaktiv, solange der Durchführungszeitraum noch nicht abgelaufen und der Kurs noch nicht im Status "Beendet" ist.
+
+**Bestätigungsdialog**
+
+Nach Klick auf "Kurs verlassen" erscheint ein Bestätigungsdialog mit folgendem Warntext:
+
+> "Sie verlassen diesen Kurs. Dadurch verlieren Sie Ihre Kurs- oder Gruppenmitgliedschaft und haben keinen Zugriff mehr auf diesen Kurs."
+
+Um den Austritt abzuschliessen, muss zusätzlich die Checkbox "Kurs verlassen" angekreuzt und danach mit Klick auf **"Verlassen"** bestätigt werden.
 
 [Zum Seitenanfang ^](#my_course)
 
