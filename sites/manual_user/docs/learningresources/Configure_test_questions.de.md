@@ -14,13 +14,13 @@ Verwenden Sie die Option "Eine Zeile" (Standardeinstellung), wenn die Antwort nu
 
 ![Editor für formatierten Text](assets/formatiert.jpg){ class="shadow lightbox" }
 
-## Tab Punkte {: #score}
+## Tab Punkte {: #score} [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 Im Tab "Punkte" können die Anzahl der Lösungsversuche für die einzelne Frage eingeschränkt werden, die minimale und maximale Punktzahl definiert sowie die Art der Bewertung eingestellt und weiter definiert werden.
 
 Folgende Konfigurationen stehen zur Verfügung:
 
-* **Lösungsversuche einschränken:**
+* **Anzahl Versuche einschränken:**
 
     * **Ja**: Geben sie hier an, wie häufig der User diese Frage bearbeiten und speichern darf. Die entsprechende maximale Anzahl wird dann auch während der Testbearbeitung angezeigt. Wird beispielsweise die Zahl 1 eingetragen, kann der User die Frage nur einmal bearbeiten und speichern. Änderungen sind dann nicht mehr möglich. Das ist besonders wichtig, wenn Sie mit antwortspezifischem Feedback arbeiten aber nicht möchten, dass der User während der Testbearbeitung seine Antwort basierend auf dieser Rückmeldung überarbeiten kann.
     * **Nein**: Die Lösungsversuche sind für die Frage sind unbeschränkt. In diesem Fall kann der User beliebig oft seine Antworten speichern und korrigieren. Unabhängig davon kann allerdings die Anzahl der Bearbeitungen einer Sektion bzw. des gesamten Tests durchaus eingeschränkt sein.
@@ -34,7 +34,7 @@ Folgende Konfigurationen stehen zur Verfügung:
 
     * Wenn Sie **"Alle korrekten Antworten"** wählen, werden nur Punkte verteilt, wenn alle Antworten richtig sind.
     * Wenn Sie **"Punkte pro Antwort"** wählen, können Sie in der Spalte _Punkte_ für jede Antwort die gewünschte Punktzahl vergeben und so sehr individuell gewichten. Auch negative Punkte sind hier möglich. Aber egal, was hier eingetragen wird, die maximal erreichbare Punktzahl kann beim Zusammenzählen nicht überschritten werden.
-    * **Teilpunkte** können für Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, Lückentext (Text und numerisch), Lückentext mit Dropdown verwendet werden. Bei der Berechnung wird für jede richtig ausgewählte Antwort automatisch eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort automatisch eine gewichtete Punktzahl abgezogen wird. (Ab :octicons-tag-24: Release 18.1.)
+    * **Teilpunkte** können für Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, Lückentext (Text und numerisch), Lückentext mit Dropdown verwendet werden. Bei der Berechnung wird für jede richtig ausgewählte Antwort automatisch eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort automatisch eine gewichtete Punktzahl abgezogen wird. (Ab :octicons-tag-16: Release 18.1.)
     * Für Lückentext-Fragen und Numerische Eingaben können zudem unterschiedliche **"Punkte pro Antwort und Varianten"** vergeben und somit z.B. auch Teilpunkte für "halb richtige" Antworten hinterlegt werden.
     * Die Bewertungsmethode steht bei KPrim, Datei hochladen, Zeichnen und Freitext _nicht_ zur Verfügung.
 
@@ -45,10 +45,13 @@ Pro Frage können unterschiedliche Arten von Feedbacks hinzugefügt werden. Ange
 Es können folgende Varianten von Feedbacks hinzugefügt und auch verschiedene Varianten miteinander kombiniert werden:
 
 * **Lösungshinweis:** Der Lösungshinweis erscheint in Form eines Fragezeichens unter der Fragestellung. Der User kann das Fragezeichen anklicken und erhält dann den hinterlegten Lösungshinweis. Diese Variante eignet sich z.B. um weitere Hinweislinks oder Texte bereitzustellen aber nicht unbedingt um die richtige Lösung vorzugeben.
-* **Korrekte Lösung:** Diese Lösung wird automatisch dann angezeigt, wenn der User eine falsche Antwort abgegeben hat. _Spezialfall Fragetypen Freitext, Datei-Upload und Zeichnen: Bei diesen Fragetypen erfolgt keine Anzeige des Feedbacks während des Tests! Hier kann das Feld genutzt werden, um die Musterlösung zu hinterlegen, welche anschliessend im Korrekturworkflow (Bewertungswerkzeug) und im Ergebnis-Report angezeigt wird._
+* **Korrekte Lösung:** Diese Lösung wird automatisch dann angezeigt, wenn der User eine falsche Antwort abgegeben hat. 
+
+!!!tip "Spezialfälle: Freitext, Datei-Upload, Zeichnen"
+    Bei diesen Fragetypen erfolgt keine Anzeige des Feedbacks während des Tests! Hier kann das Feld genutzt werden, um die Musterlösung zu hinterlegen, welche anschliessend im Korrekturworkflow (Bewertungswerkzeug) und im Ergebnis-Report angezeigt wird.
 * **Feedback bei Wahl aller korrekten Antworten:** Dieses Feedback erscheint nur dann, wenn alle Antworten des Users korrekt sind. Hier könnte also z.B. ein besonderes Lob erfolgen oder eine besondere Grafik angezeigt werden.
 * **Feedback bei Wahl einer falschen Antwort:**  Dieses Feedback erscheint, wenn wenigstens eine Antwort falsch ist. Beispiel: Bei einer Multiple Choice oder KPRIM Frage bzw. einem umfangreichen Lückentext von 50 Lücken wird das Feedback angezeigt, sobald mindestens eine Antwort falsch ist. Diese Feedbackvariante bietet sich an um dem Lernenden zu signalisieren, dass er auf dem richtigen Weg ist, auch wenn noch nicht alles komplett korrekt ist.
-* **Bedingtes Feedback:** Diese Feedback Variante bietet viel Potenzial für ein individualisiertes Feedback. Je nach Fragetyp kann das Feedback abhängig von der erreichten _Punktzahl_, der Anzahl der _Lösungsversuche_ oder der vom Lerner gewählten _Antwort_ erstellt werden. So kann beispielsweise eine gezielte Rückmeldung bei einer bestimmten Antwort gegeben werden und so auf typische Fehler eingegangen werden. Je nach Kriterium stehen unterschiedliche Vergleichsoperatoren wie gleich (=), ungleich (!=) oder größer/kleiner (><) als usw. zur Verfügung. Es können auch wieder mehrere Kriterien des bedingten Feedbacks miteinander kombiniert werden.  
+* **Bedingtes Feedback:** Diese Feedback Variante bietet viel Potenzial für ein individualisiertes Feedback. Je nach Fragetyp kann das Feedback abhängig von der erreichten _Punktzahl_, der Anzahl der _Lösungsversuche_ oder der vom Lerner gewählten _Antwort_ erstellt werden. So kann beispielsweise eine gezielte Rückmeldung bei einer bestimmten Antwort gegeben werden und so auf typische Fehler eingegangen werden. Je nach Kriterium stehen unterschiedliche Vergleichsoperatoren wie gleich (=), ungleich (!=) oder grösser/kleiner (><) als usw. zur Verfügung. Es können auch wieder mehrere Kriterien des bedingten Feedbacks miteinander kombiniert werden.  
 
   ![Bedingte Feedbacks](assets/Bedingte_Feedbacks_DE.jpg){ class="shadow lightbox" }
 
@@ -58,7 +61,11 @@ Bei bereits verwendeten Tests kann das hinterlegte Feedback an den Fragen auch w
 
 Die Option "Feedback bei Wahl einer falschen Antwort" wird nicht wirksam, wenn in einer Multiple-Choice-Frage zwar keine falschen, aber nicht alle richtigen Antworten angekreuzt werden.
 
-Auf [Test Ebene](Configure_tests.de.md) können Sie im Testeditor im Tab "Feedback" das Gesamtfeedback eines Tests einrichten. Unter `Administration > Einstellungen > Optionen` können die Feedbacks für einen Test generell ein- oder ausgeschaltet werden.
+Auf Test Ebene können Sie im Testeditor im Tab "Feedback" das Gesamtfeedback eines Tests einrichten. Unter `Administration > Einstellungen > Optionen` können die Feedbacks für einen Test generell ein- oder ausgeschaltet werden.
+
+!!! note "Test Ebene"
+    Konfigurationsmöglichkeiten auf Testebene im Testeditor.<br>
+    [Test Ebene](Configure_tests.de.md)
 
 ## Tab Vorschau
 
@@ -74,5 +81,9 @@ Hier können für jede Frage weitere Metadaten hinterlegt werden. Hierzu zählen
 
 Im Bereich "Itemanalye" kann die durchschnittliche Bearbeitungszeit der Frage, die Schwierigkeit, die Trennschärfe, die benötige Korrekturzeit u.ä. angegeben werden.
 
-Im Bereich "Technik" werden weitere Informationen angezeigt. Diese Einstellungen sowie weitere Informationen zu den [Metadaten](../area_modules/Item_Detailed_View.de.md) finden Sie ebenfalls im
-[Fragenpool](../area_modules/Question_Bank.de.md).
+Im Bereich "Technik" werden weitere Informationen angezeigt.
+
+!!! note "Metadaten und Fragenpool"
+    Weitere Informationen zu diesen Einstellungen finden Sie auch im Fragenpool.<br>
+    [Metadaten](../area_modules/Item_Detailed_View.de.md)<br>
+    [Fragenpool](../area_modules/Question_Bank.de.md)

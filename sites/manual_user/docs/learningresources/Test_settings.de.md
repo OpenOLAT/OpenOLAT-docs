@@ -8,7 +8,11 @@ Die grundsätzliche Konfiguration des gesamten Test erfolgt größtenteils in de
 
 Das Menü **"Mitgliederverwaltung"** ist besonders dann relevant, wenn der Test kursunabhängig verwendet werden soll, ansonsten erfolgt die Mitgliederverwaltung der Test-Teilnehmenden über den verbundenen Kurs. 
 
-Unter **["Inhalt editieren"](Test_editor_QTI_2.1.de.md)** gelangt man in den Test Editor. Hier wird der eigentliche Test angelegt.
+Unter "Inhalt editieren" gelangt man in den Test Editor. Hier wird der eigentliche Test angelegt.
+
+!!! note "Test Editor QTI 2.1"
+    Übersicht zum Test-Editor.<br>
+    [Inhalt editieren](Test_editor_QTI_2.1.de.md)
 
 Das **"Bewertungswerkzeug"** des Tests erscheint nur, wenn der Test kursunabhängig (Einstellungen -> Tab Freigabe -> Verwendungszweck "Eigenständige") verwendet werden soll.
 
@@ -43,7 +47,7 @@ Wichtig für Tests ist vor allem der Tab "Optionen". Hier konfigurieren Sie den 
 
 Darüber hinaus können in den weiteren Tabs  "Info", "Metadaten", "Freigabe" und "Katalog" weitere Einstellungen der Lernressource vorgenommen werden. Achten Sie hier besonders darauf, dass die eingestellte Lizenzangabe unter "Metadaten" Ihren Vorstellungen entspricht.
 
-### Tab Optionen
+### Tab Optionen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 Folgende Konfigurationen können vorgenommen werden:
 
@@ -55,9 +59,9 @@ Entscheiden sie z.B. ob es sich um einen summativen oder formativen Test handelt
 
 ![Test Standardeinstellungen](assets/Test_Standardeinstellungen_DE.png){ class="shadow" }
 
-**Anzahl Lösungsversuche limitieren**
+**Anzahl der Testversuche einschränken**
 
-Tragen Sie hier die maximale Anzahl der möglichen Lösungsversuche für einen Test ein. Der Wert kann maximal 20 betragen.  
+Aktivieren Sie diese Option, um die Anzahl der möglichen Lösungsversuche für einen Test zu limitieren. Tragen Sie im Feld "Max. Anzahl Versuche" die gewünschte Anzahl ein. Der Wert kann maximal 20 betragen.
   
 **Erster bestandener Lösungsversuch zählt**
 
@@ -129,7 +133,7 @@ Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests an
 * **Lösung**: Es wird die Fragestellung zusammen mit der korrekten Lösung angezeigt. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
   
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Die Einstellungen, welche unter Optionen vorgenommen werden, werden beim Einbinden des Tests in einen [Kurs](Tests_at_course_level.de.md) automatisch übernommen und können falls gewünscht im jeweiligen Kursbaustein Test im Kurseditor in den Tabs "Test-Konfiguration" bzw. "Optionen" angepasst werden.
 
@@ -154,7 +158,9 @@ Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist
 
 Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektoren angezeigt und nach verschiedenen Kriterien gefiltert werden.
 
-Weitere Informationen zur kursübergreifenden Korrektur findet man im [Coaching Tool](../area_modules/Coaching.de.md).
+!!! note "Coaching Tool"
+    Weitere Informationen zur kursübergreifenden Korrektur.<br>
+    [Coaching Tool](../area_modules/Coaching.de.md)
 
 [zum Seitenanfang ^](#test_settings)
 
@@ -197,10 +203,24 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 
 ## Weitere Informationen {: #further_information}
 
-[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
-[Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)<br>
+!!! note "Wie gehe ich vor, wenn ich einen Test erstelle?"
+    Schritt-für-Schritt-Anleitung zur Testerstellung.<br>
+    [Wie gehe ich vor, wenn ich einen Test erstelle?](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+
+!!! note "Wie bewerte ich einen Test?"
+    Anleitung zur Bewertung von Tests.<br>
+    [Wie bewerte ich einen Test?](../../manual_how-to/assessing_tests/assessing_tests.de.md)
+
+!!! note "Anonyme Test-Korrektur"
+    Anleitung zur anonymen Korrektur eines Tests.<br>
+    [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
+
+!!! note "Bewertungswerkzeug"
+    Zentrale Oberfläche zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.<br>
+    [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+
+!!! note "Coaching Tool"
+    Kursübergreifende Übersicht für Betreuer/innen.<br>
+    [Coaching Tool](../../manual_user/area_modules/Coaching.de.md)
 
 [zum Seitenanfang ^](#test_settings)

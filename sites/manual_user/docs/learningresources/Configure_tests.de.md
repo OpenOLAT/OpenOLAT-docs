@@ -32,7 +32,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
     Sobald die Zeit abgelaufen ist, wird der Test eingezogen. Antworten, welche noch nicht gesendet wurden, werden als leere, nicht beantwortete Fragen behandelt und geben keine Punkte. Es wird nicht nachgefragt, ob die Frage gespeichert werden soll oder nicht. Das Feedback über den gesamten Test und der Rückblick gehören der Zeiterfassung an.
 
-!!! info
+!!! note "Hinweis"
 
     Eine zeitliche Beschränkung des Kurses kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) verlängert werden.
 
@@ -41,7 +41,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 * **Notwendige Punktzahl für "Bestanden" erreicht:** Geben Sie hier ein Gesamtfeedback ein, wenn die Punktzahl für bestanden erreicht ist.  
 * **Notwendige Punktzahl für "Bestanden" _nicht_ erreicht:** Tragen sie hier ein Gesamtfeedback ein, wenn die Punktzahl nicht ausreicht.  
   
-### Tab Expert {: #expert}
+### Tab Expert {: #expert} [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde) können folgende Konfigurationen vorgenommen werden:
 
@@ -52,7 +52,7 @@ Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde) k�
     * Linear: Alle Fragen müssen der Reihe nach beantwortet werden. Es kann nicht zwischen den Fragen hin und her gesprungen werden
     * Nicht-linear: Die Fragen können in der gewünschten Reihenfolge beantwortet werden.
 
-* **Lösungsversuche einschränken?** Wenn nur eine gewisse Anzahl an Lösungsversuchen zulässig sein soll, kann dies hier definiert werden. Diese Einschränkung gilt jedoch nur für den Testpart. Wenn die Anzahl Lösungsversuche für den gesamten Test eingeschränkt werden sollen, muss dies unter Optionen oder im Kursbaustein Test vorgenommen werden. Enthält ein Test nur einen Test-Part gilt die Einstellung ebenfalls für den gesamten Test.
+* **Anzahl Versuche einschränken** Wenn nur eine gewisse Anzahl an Lösungsversuchen zulässig sein soll, kann dies hier definiert werden. Diese Einschränkung gilt jedoch nur für den Testpart. Wenn die Anzahl Lösungsversuche für den gesamten Test eingeschränkt werden sollen, muss dies unter Optionen oder im Kursbaustein Test vorgenommen werden. Enthält ein Test nur einen Test-Part gilt die Einstellung ebenfalls für den gesamten Test.
 
     Wenn die Anzahl Lösungsversuche auf Ebene Test oder Part eingeschränkt wird, vererbt sich diese Einschränkung auf alle darunter liegenden Sektionen und Fragen.
   
