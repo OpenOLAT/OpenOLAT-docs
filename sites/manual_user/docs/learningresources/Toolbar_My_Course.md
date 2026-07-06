@@ -124,11 +124,29 @@ If you are participating in this course as a group member (group participant or 
 
 ---
 
-### Leave course {: #leave_course}
+### Leave course [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
 The "Leave course" function immediately terminates your course or group membership, depending on how you access the course. After that, you will no longer have access to the course, or you will need to contact the relevant course or group administrator to regain access to the course.
 
 The option to unsubscribe from a course must first be enabled by the course owner in the course settings under the "Sharing" tab and only applies to course participants, not to administrators or owners.
+
+**When is "Leave course" available?**
+
+"Leave course" only appears if the following conditions are met:
+
+- The active role is "Participant" (when switching roles, the option is only displayed while the participant role is active).
+- The course has usage **"Independent"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). For courses with usage **"Integration into product"** (Course Planner), "Leave course" is not available to CPL participants.
+- Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share.md#section_share_leave), an option other than "Never" is selected.
+
+If the option **"After course end date or status 'Finished'"** is selected, "Leave course" is already displayed but is inactive as long as the implementation period has not yet ended and the course does not yet have the status "Finished".
+
+**Confirmation dialog**
+
+After clicking "Leave course," a confirmation dialog appears with the following warning text:
+
+> "You are leaving this course. As a result, you will lose your course or group membership and will no longer have access to this course."
+
+To complete the withdrawal, the "Leave Course" checkbox must also be checked and confirmed by clicking **"Leave."**
 
 [To the top of the page ^](#my_course)
 

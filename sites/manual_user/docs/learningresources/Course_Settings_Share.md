@@ -54,10 +54,14 @@ When selecting the option **"Bookable and open offers"**, learners can book a co
 **Direct link**<br> 
 If you share this link, this course can be accessed directly. If the person is not yet known (registered) in OpenOlat and logged in, the login screen will appear first.
 
-**Participants may withdraw.**<br>
-**At any time:** If participants wish to terminate their membership in the course themselves, they can do so at any time.<br>
-**After end date:** Participants may only terminate their course membership on their own initiative after the end of the implementation period. If this option is selected without first selecting an implementation period in the description, participants will not be allowed to leave the course at any time.<br>
+#### Participants can leave [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
+**At any time**: If participants wish to terminate their membership in the course themselves, they can do so at any time.<br>
+**After course end date or status "Finished"**: Participants can only terminate their course membership on their own initiative once the implementation period has ended or the course has the status "Finished". If this option is selected without first selecting an implementation period in the description, participants can only leave once the course reaches the status "Finished".<br>
 **Never**: Attendance at the course is compulsory, so participants cannot withdraw themselves.
+
+!!! info "Important"
+
+    For courses with usage **"Integration into product"** (Course Planner), the "Leave course" function is not available to CPL participants regardless of this setting. Leaving a CPL implementation is done exclusively via the Course Planner and thus via the administration of their organization.
 
 **Administrative Share**<br>
 People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organizational units selected here. Because these roles exist per organizational unit (e.g., admin for department xy), you can determine here which organizational units will have administrative access to your course.
