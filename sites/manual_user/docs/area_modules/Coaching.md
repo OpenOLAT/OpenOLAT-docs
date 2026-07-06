@@ -82,7 +82,7 @@ You can select one of your roles using the focus elements above the list. This w
 #### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
-![coaching_overview_v1.png](assets/coaching_overview_v1.png){ class="shadow lightbox" }
+![coaching_overview_v1_en.png](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
 
 #### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
 
@@ -126,7 +126,7 @@ Each event shows the following information:
 !!! note "Note"
     In the narrow (mobile) view, the location column is omitted. Only the time is shown.
 
-![coaching_widget_events_v1.png](assets/coaching_widget_events_v1.png){ class="shadow lightbox" }
+![coaching_widget_events_v1_en.png](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" }
 
 #### Empty state
 

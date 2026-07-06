@@ -44,7 +44,7 @@ Defines per role of the **inviting** person whether an email notification must b
 
 Configurable roles: Users with no additional role, Authors, User managers, Roles managers, Group managers, Learning resource managers, Question bank managers, Course planners, Absence managers, Project managers, Quality managers, Line managers.
 
-![module_groups_privacy_v1.png](assets/module_groups_privacy_v1.png){ class="shadow lightbox" }
+![module_groups_privacy_v1_en.png](assets/module_groups_privacy_v1_en.png){ class="shadow lightbox" }
 
 ### Accept or leave membership {: #accept_membership}
 
@@ -59,7 +59,7 @@ Pending membership requests appear in the course area, in the group area, and on
 Configurable roles: Users with no additional role, Authors, User managers, Roles managers, Group managers, Learning resource managers, Question bank managers, Course planners, Absence managers, Project managers, Quality managers, Line managers.
 
 !!! tip **Example view for a corresponding configuration for a course**:
-![module_groups_membership_request_v1.png](assets/module_groups_membership_request_v1.png){ class="shadow lightbox" }
+![module_groups_membership_request_v1_en.png](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
 
 ##### Members are allowed to leave the group {: #leave_group}
 

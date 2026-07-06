@@ -10,7 +10,7 @@
     * [ePortfolio](../../manual_user/area_modules/Competences_tags.md)
     * Catalog [Catalog](../administration/Modules_Catalog_2.0.md)
     
-![modules_taxonomy_entry_v1](assets/modules_taxonomy_entry_v1.png){ class="shadow lightbox" }
+![modules_taxonomy_entry_v1_en.png](assets/modules_taxonomy_entry_v1_en.png){ class="shadow lightbox" }
 
 Directly on the overview page a new taxonomy structure can be created.
 

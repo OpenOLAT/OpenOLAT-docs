@@ -181,7 +181,7 @@ If you have been assigned to a course, group or educational product with a reser
 The notification box is displayed as long as there are pending requests. It informs you that you have been invited to a group and prompts you to accept or decline the membership request.
 
 **Example view** of the notification box for an invited user:
-![groups_membership_request_v1.png](assets/groups_membership_request_v1.png){ class="shadow lightbox" }
+![groups_membership_request_v1_en.png](assets/groups_membership_request_v1_en.png){ class="shadow lightbox" }
 
 The following actions are available for each pending request:
 

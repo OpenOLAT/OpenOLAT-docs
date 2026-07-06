@@ -125,7 +125,7 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![coaching_widget_events_v1.de.png](assets/coaching_widget_events_v1.de.png){ class="shadow lightbox" }
+![coaching_widget_events_v1_de.png](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
 
 #### Leerer Zustand
 

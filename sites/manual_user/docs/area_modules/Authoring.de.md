@@ -81,7 +81,7 @@ Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reih
 
     Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
 
-![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
+![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
     Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.

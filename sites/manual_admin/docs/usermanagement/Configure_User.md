@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![user_management_configure_user_v4.png](assets/user_management_configure_user_v4.png){ class="shadow lightbox"}
+![user_management_configure_user_v4_en.png](assets/user_management_configure_user_v4_en.png){ class="shadow lightbox"}
 
 
 

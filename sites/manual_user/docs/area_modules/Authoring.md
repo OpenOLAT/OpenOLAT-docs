@@ -80,7 +80,7 @@ The "Status" column (formerly "Life cycle") is always sorted in the following fi
 
     Entries without an execution period always appear at the end of the list.
 
-![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1.de.png){ class="shadow lightbox" }
+![Modules_Time_Period_authoring_filter_v1_en.png](assets/Modules_Time_Period_authoring_filter_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "Tip"
     The available time periods are provided by the system administration.

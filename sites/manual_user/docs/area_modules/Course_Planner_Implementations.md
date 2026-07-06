@@ -24,7 +24,7 @@ If you have selected the "Implementations" button in the Course Planner overview
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
-![course_planner_implementations_list_filter_v1.png](assets/course_planner_implementations_list_filter_v1.png){ class="shadow lightbox" }  
+![course_planner_implementations_list_filter_v1_en.png](assets/course_planner_implementations_list_filter_v1_en.png){ class="shadow lightbox" }  
 
 The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 

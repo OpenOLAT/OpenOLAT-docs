@@ -18,5 +18,5 @@ All users of OpenOlat can change their existing passwords at any time. To do thi
 It often happens that someone has forgotten his/her password and asks for a new one to be assigned. If you have the role of a user manager or administrator, you can reset passwords:<br>
 `User management > select a user > tab password`
 
-![password_admin_v2.png](assets/password_admin_v2.png){ class=" shadow lightbox" }
+![password_admin_v2_en.png](assets/password_admin_v2_en.png){ class=" shadow lightbox" }
 
