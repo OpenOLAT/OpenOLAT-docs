@@ -1,4 +1,4 @@
-# Course Planner: Overview [:octicons-tag-20:{ title="from Release 20.0." }](https://track.frentix.com/issue/){:target="_blank"} {: #course_planner}
+# Course Planner: Overview [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #course_planner}
 
 
 ## What's the purpose of the Course Planner? {: #purpose}
@@ -63,7 +63,7 @@ The courses can also be instantiated automatically on a definable date.
 
 For example, members can be added directly to the individual tours by booking an offer themselves in the catalog.
 
-!!! note "Please note:"
+!!! info "Please note:"
 
     Course members in the template course are then only the course owners with the author role.
 
@@ -115,7 +115,7 @@ After activation of the Course Planner by a system administrator, it is availabl
 
 Limited to a specific product, **product owners** and **element owners** can access it within their area of responsibility.
 
-!!! tip "Other OpenOlat roles"
+!!! info "Other OpenOlat roles"
     Authors and learning resource administrators do not have access to the Course Planner. Their role, rights and responsibilities focus on content creation rather than on the planning, scheduling and administration of courses and implementations.
 
 [To the top of the page ^](#course_planner)
@@ -128,7 +128,7 @@ If you have the role and rights of a **course planner**, you will find the Cours
 
 ![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
 
-!!! note "Requirement"
+!!! tip "Requirement"
 
     In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the header menu, please contact your system administrator or the support of your OpenOlat instance.
 
@@ -138,102 +138,18 @@ If you have the role and rights of a **course planner**, you will find the Cours
 ---
 
 
-##  The overview [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #overview}
+### Dashboard [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
 
-The overview shows
+When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).
 
-- upcoming events,
-- the buttons for accessing the areas/functions described below,
-- as well as the search.
+![course_planner_overview_v4_en.png](assets/course_planner_overview_v4_en.png){ class="shadow lightbox" }
 
-![course_planner_overview_v3_de.png](assets/course_planner_overview_v3_de.png){ class="shadow lightbox" }  
-
-By entering a term in the search field, you can search for **performances, courses and dates**.<br>
-As with other searches, filters can be used to narrow down the search results.
-
-![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
-
-Below the buttons and the search, the overview page shows an area with **widgets** (tiles) in a responsive layout: depending on the screen width, the arrangement of the tiles adjusts automatically.
-
-A separator area labelled **"Overview"** [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} visually separates this widget area from the buttons/launchers above it.
-
+[See the details >](../area_modules/Course_Planner_Dashboard.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
-### Implementation widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8864, OO-9289)" }](https://track.frentix.com/issue/OO-8864){:target="_blank"} {: #widget_implementations}
-
-The **Implementations** widget shows you the implementations relevant to you at a glance.
-
-In the header area, you select a preselection via the main key figure **"Relevant"** or one of the other key figures (**"Preparation"**, **"Provisional"**, **"Confirmed"**, **"Pending memberships"**). The table lists the corresponding implementations with external reference, title, structure, status as well as start and end date, sorted by start date.
-
-Using the new **"Pending memberships"** filter, you can quickly find implementations for which memberships still need to be confirmed.
-
-[To the top of the page ^](#course_planner)
-
----
-
-### Configure table widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
-
-You can individually configure table widgets (e.g. the implementation widget) via the cogwheel icon in the widget:
-
-* **Main figure**: Determines which key figure is displayed in the widget's title row.
-* **Key figures**: A checkbox group lets you determine which other key figures are visible. The main key figure is always selected and cannot be deselected.
-* **Number of entries**: Determines how many rows the table displays (5 to 15).
-
-Use **Save** to apply the settings, use **Cancel** to discard them.
-
-[To the top of the page ^](#course_planner)
-
----
-
-### Member widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
-
-The **Participants** widget shows the number of participants of the respective implementation.
-
-If a maximum or minimum number of participants is defined, an additional note text supplements the key figure:
-
-* If a maximum is set: **"\<number\> seats left"**
-* If a minimum is set: **"\<number\> to minimum"**
-* For fully booked or overbooked implementations, the corresponding message continues to appear.
-
-The area below shows the persons responsible for the implementation with their role (e.g. coaches, master coaches, course owners, element owners).
-
-[To the top of the page ^](#course_planner)
-
----
-
-### Customize overview [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
-
-Below the widgets, the **"Customize overview"** button is available, which lets you switch to edit mode.
-
-Two areas are available in edit mode:
-
-* **Active widgets**: Here you rearrange the widgets via drag & drop (move tile) or remove them.
-* **Available widgets**: Here you find deactivated widgets, which you can reactivate via the **"Add to dashboard"** link. Newly added widgets are inserted at the end of the active widgets.
-
-!!! note "Note"
-
-    For operation without a mouse (keyboard/screen reader), the actions **"Move up"** and **"Move down"** are additionally available.
-
-Use **Save** to apply the changes and leave edit mode, use **Cancel** to discard them. Use **"Reset dashboard"** to restore the default setting.
-
-As long as no personal configuration has been saved, the system default is used.
-
-!!! note "Note"
-
-    Guests do not see the "Customize overview" button.
-
-!!! tip "Note for system administrators"
-
-    As a system administrator, you additionally have the actions **"Save as system default"** and **"Reset system default"** available in edit mode, to define the system default for all users without their own configuration.
-
-
-[To the top of the page ^](#course_planner)
-
----
-
-### Products {: #products}
+### Products [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #products}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, these are multiple courses, i.e. learning opportunities of the same "type" (-> product). The Course Planner simplifies the work considerably through the shared central administration.
 
@@ -269,7 +185,7 @@ The dates specified here refer to one implementation or a part thereof.
 
 ---
 
-### Certification programs {: #certification_programs}
+### Certification programs [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #certificate_programs}
 
 Certificate programs are used when a certificate is only awarded after completing several courses. 
 

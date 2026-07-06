@@ -28,7 +28,7 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 
 The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
-!!! note "Note"
+!!! info "Important"
     The subjects are made available by the administration under Taxonomy.
 
 
@@ -50,7 +50,7 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 ![5_green_24.png](assets/5_green_24.png) by clicking on the **+** add course content.
 
-![course_planner_implementations_navigation_v1_de.png](assets/course_planner_implementations_navigation_v1_de.png){ class="shadow lightbox" }
+![course_planner_implementations_navigation_v2_en.png](assets/course_planner_implementations_navigation_v2_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#implementations)
@@ -61,9 +61,13 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 ### Tab Overview {: #tab_overview}
 
-The "Overview" tab shows you the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
+The "Overview" tab shows you the members, the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
 
-![course_planner_implementations_tab_overview_v1_de.png](assets/course_planner_implementations_tab_overview_v1_de.png){ class="shadow lightbox" }
+Use the **Show all** button in the **Events** widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} to go directly to the Events tab.
+
+The **Content** and **Catalog** widgets also show an icon in the title as well as the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
+
+![course_planner_implementations_tab_overview_v2_en.png](assets/course_planner_implementations_tab_overview_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
@@ -113,7 +117,7 @@ Click **Move element** to carry out the move.
 ---
 
 
-### Tab Course Content {: #tab_content}
+### Tab Content {: #tab_content}
 
 The list shows all courses belonging to this implementation.
 
@@ -139,7 +143,7 @@ The "Add course" and "Add course templates" buttons become inactive once the num
 Course templates are created by selecting the "Template" option in the course under **Administration > Settings > Shares > Intended use**. 
 The templates for course content in Course Planner do not have independent member management, as members are added to Course Planner for each course run.
 
-!!! hint "Note"
+!!! info "Important"
 
     Templates are copied. If the template is changed later, the previously created copy remains unchanged.
 
@@ -171,7 +175,7 @@ Participants are therefore made members of a specific implementation (not member
 
 If the participants were made members of the educational product (the "copy template"), they would be present as participants in all implementations of this product. This is not desirable. Therefore, only owners can be added to a product as members, not participants.
 
-!!! tip "Member administration in the Course Planner
+!!! info "Member administration in the Course Planner"
     Because member administration is carried out when using the Course Planner, there is the setting "Integration in curriculum/product" in the course settings:
     `(Course) Administration > Settings > Tab "Share" > Section "Use" > Button "Implementation in Curriculum/Product"`
 **The course then no longer has *any* independent member administration** — member administration now takes place exclusively in the member administration of the implementation, **within the Course Planner**.
@@ -198,7 +202,7 @@ When participants are assigned to an implementation, they receive a system notif
 
 The notification box **"Accept membership requests"** appears in the course area, in the group area, and directly on the course or educational product info page. Participants can accept or decline the request there. Acceptance is possible equally at all three locations.
 
-!!! note "Note"
+!!! info "Important"
 
     Whether confirmation by the invited persons is required depends on the reservation requirement configuration. Details on this can be found in the section on confirming membership below.
 
@@ -291,7 +295,8 @@ Separate settings can be made here for each implementation:
 ### Tab Absences {: #tab_absences}
 
 This tab only appears if absences have been activated on the element.
-<How is it being activated?>
+
+Activation takes place in the implementation settings: `Settings tab > Options > Absence configuration`.
 
 ![course_planner_implementations_tab_absences_v1_de.png](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
 
