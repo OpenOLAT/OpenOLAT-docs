@@ -30,6 +30,14 @@ Hat vollständige Administrationsrechte für das System.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Akzeptierte Teilnehmer:innen
+
+Gruppe im Kursbaustein Themenvergabe, in der die für ein Thema akzeptierten Kursteilnehmer:innen aufgeführt werden.
+
+### Alle korrekten Antworten
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Die volle Punktzahl wird nur erreicht, wenn alle richtigen Antworten ausgewählt sind, sonst resultiert die Endpunktzahl 0.
+
 ### Andere Datei
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -277,6 +285,10 @@ Konfiguration von Bewertungsskalen und Leistungsstufen.
 ### Elementbesitzer/in
 
 Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
+
+### Erfolgsstatus
+
+Kennzahl in Kurs- und Personenlisten des Coaching Tools, zeigt den Bewertungsstatus grafisch und in Zahlen: "Bestanden", "Nicht bestanden", "Keine Angabe".
 
 ### Excel
 
@@ -658,6 +670,10 @@ Zentrale Übersicht und Verwaltung von Bewertungen.
 
 Lebenszyklusstatus einer Lernressource: Vorbereitung, Review, Zugriff für Betreuer, Veröffentlicht, Beendet.
 
+### Punkte pro Antwort
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Positive und negative Punkte werden für jede Antwortoption einzeln konfiguriert.
+
 ### QTI 2.1
 
 Question and Test Interoperability Standard für Bewertungsitems.
@@ -757,6 +773,10 @@ Eine Lernende Person, die in einem Kurs oder einer Gruppe eingeschrieben ist.
 ### Teilnehmer/innen Ordner
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
+
+### Teilpunkte
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, für jede falsch ausgewählte Antwort abgezogen.
 
 ### Termine / Absenzen
 
@@ -893,6 +913,10 @@ Eine passwortbasierte Buchungsmethode, die die Kurseinschreibung auf Code-Inhabe
 ### Zugangskonfiguration
 
 Buchungs- und Angebotsverwaltung für Lernressourcen.
+
+### Zuständig für dieses Thema
+
+Gruppe im Kursbaustein Themenvergabe, in der die einem Thema zugeordneten Themenverantwortlichen aufgeführt werden.
 
 ### Übung
 

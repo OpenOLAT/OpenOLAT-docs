@@ -382,6 +382,30 @@ Widget im Dashboard des Course Planner, zeigt die Teilnehmerzahl und zuständige
 
 Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe für Betreuer:innen".
 
+### Alle korrekten Antworten
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Die volle Punktzahl wird nur erreicht, wenn alle richtigen Antworten ausgewählt sind, sonst resultiert die Endpunktzahl 0.
+
+### Punkte pro Antwort
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Positive und negative Punkte werden für jede Antwortoption einzeln konfiguriert.
+
+### Teilpunkte
+
+Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, für jede falsch ausgewählte Antwort abgezogen.
+
+### Erfolgsstatus
+
+Kennzahl in Kurs- und Personenlisten des Coaching Tools, zeigt den Bewertungsstatus grafisch und in Zahlen: "Bestanden", "Nicht bestanden", "Keine Angabe".
+
+### Zuständig für dieses Thema
+
+Gruppe im Kursbaustein Themenvergabe, in der die einem Thema zugeordneten Themenverantwortlichen aufgeführt werden.
+
+### Akzeptierte Teilnehmer:innen
+
+Gruppe im Kursbaustein Themenvergabe, in der die für ein Thema akzeptierten Kursteilnehmer:innen aufgeführt werden.
+
 
 ## Bereiche
 

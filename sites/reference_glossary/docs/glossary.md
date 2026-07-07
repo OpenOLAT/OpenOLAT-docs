@@ -382,6 +382,30 @@ Widget on the Dashboard of the Course Planner, showing the number of participant
 
 Key figure label in the Course widget for courses with the publication status "Access for coach".
 
+### Success status
+
+Metric in course and people lists of the Coaching Tool, shows the assessment status graphically and in figures: "Passed", "Not passed", "Not specified".
+
+### Responsible for the topic
+
+Group in the "Topic assignment" course element listing the topic authors assigned to a topic.
+
+### Participants accepted
+
+Group in the "Topic assignment" course element listing the course participants accepted for a topic.
+
+### All correct answers
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: the full score is only achieved if all correct answers are selected, otherwise the final score is 0.
+
+### Score per answer
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: positive and negative points are configured individually for each answer option.
+
+### Partial score
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: a weighted score is added for each correctly selected answer and subtracted for each incorrectly selected answer.
+
 
 ## Areas
 

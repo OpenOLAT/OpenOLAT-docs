@@ -112,7 +112,7 @@ A weighted score is added for each correctly selected answer, while a weighted s
 Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
 
 
-## Drag&Drop {: #drag_drop}
+## Drag&Drop [:octicons-tag-16:{ title="from Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
 ![Icon Drag and Drop Question](assets/Icon_DragDrop_DE.png){ class=size24 }
 
@@ -150,7 +150,7 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
     This question type is not optimized for mobile devices.
   
-## True/false {: #true_false}
+## True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
 ![Icon True False Question](assets/Icon_true_false_DE.png){ class=size24 }
 
@@ -192,7 +192,7 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 ---
 
-## Gap text with dropdown {: #gap_dropdown}
+## Gap text with dropdown [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 ![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
@@ -227,7 +227,7 @@ First a short title is inserted. Afterward the next is written with fields for t
 
 ![Example Numerical Input Question](assets/Numerical_Input_Beispiel.png){ class="shadow" }
 
-## Hottext {: #hottext}
+## Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
 ![Icon Hottext Question](assets/Icon_Hottext_DE.png){ class=size24 }
 
@@ -254,7 +254,7 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 
 ![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow" }
 
-## Order {: #order}
+## Order [:octicons-tag-16:{ title="from Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
 
 ![Icon Order Question](assets/Icon_Reihenfolge_DE.png){ class=size24 }
 
@@ -285,7 +285,7 @@ Afterward the following attributes can be chosen:
 * Height (number of lines): Here can be defined, which height the textfield should have. This height is not restrictive. A participant can also write more lines than indicated here.
 * Min. words: This number of words must at least be written, to be able to send the task.
 * Max. words: This number of words can at most be written, to be able to send the task.
-* Allow copy/paste: Here you define if the learners are allowed to copy+paste content.
+* Allow copy/paste: Here you define if the learners are allowed to insert content via copy+paste or via drag&drop from an external source. Moving text within the same field internally remains possible regardless. [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
 Essay questions come with a pre-defined width and a tab function. Hence, answers can be formatted more easily, e.g. by displaying columns.
 
@@ -295,7 +295,7 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 	As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the excursion below this table.
 
-## File upload* {: #file_upload}
+## File upload* [:octicons-tag-16:{ title="from Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
 ![Icon File Upload Question](assets/Icon_Fileupload_DE.png){ class=size24 }
 
@@ -327,7 +327,7 @@ It is also possible for the participants to add text via the text tool. The text
 
 ![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow" }
   
-!!! info "Import questions"
+!!! tip "Import questions"
 
 	Beside the direct creation, questions can also be imported out of the [question bank](../area_modules/Question_Bank.md) or by [Excel](../area_modules/Data_Management.md#usage-of-the-file-excel-import-template)
 

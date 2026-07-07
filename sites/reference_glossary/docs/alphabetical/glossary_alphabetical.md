@@ -38,6 +38,10 @@ A course element (building block) that can be added to a course structure.
 
 Integration of AI capabilities for content generation and assistance.
 
+### All correct answers
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: the full score is only achieved if all correct answers are selected, otherwise the final score is 0.
+
 ### Animation
 
 A type of learning resource that can be created or imported in the authoring area.
@@ -602,6 +606,10 @@ Owner of a learning resource or course.
 
 A course element (building block) that can be added to a course structure.
 
+### Partial score
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: a weighted score is added for each correctly selected answer and subtracted for each incorrectly selected answer.
+
 ### Participant
 
 A learner enrolled in a course or group.
@@ -613,6 +621,10 @@ A course element (building block) that can be added to a course structure.
 ### Participant list
 
 A course element (building block) that can be added to a course structure.
+
+### Participants accepted
+
+Group in the "Topic assignment" course element listing the course participants accepted for a topic.
 
 ### Passkey
 
@@ -710,6 +722,10 @@ A managed learning resource in the authoring area (course, test, form, etc.).
 
 A type of learning resource that can be created or imported in the authoring area.
 
+### Responsible for the topic
+
+Group in the "Topic assignment" course element listing the topic authors assigned to a topic.
+
 ### REST API
 
 RESTful API for external system integration.
@@ -738,6 +754,10 @@ Integration with Safe Exam Browser (SEB) for secure online exams.
 
 Model answers or reference solutions provided within a Task course element.
 
+### Score per answer
+
+Scoring method for multiple-choice, matrix, and drag&drop questions: positive and negative points are configured individually for each answer option.
+
 ### SCORM
 
 Sharable Content Object Reference Model for e-learning content packaging.
@@ -765,6 +785,10 @@ Internal file management area within a course for storing course files.
 ### Structure
 
 A course element (building block) that can be added to a course structure.
+
+### Success status
+
+Metric in course and people lists of the Coaching Tool, shows the assessment status graphically and in figures: "Passed", "Not passed", "Not specified".
 
 ### Subscriptions
 
