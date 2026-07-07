@@ -13,7 +13,7 @@ Der Menüpunkt "Kurse" im Coaching Tool zeigt die Liste aller **Kurse**, in dene
 * Es werden die Teilnehmenden aus **allen** von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
 * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
 * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br> 
-Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Kurtsbesitzer:in entsprechen.
+Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Kursbesitzer:in entsprechen.
 * In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
 
 
@@ -21,7 +21,7 @@ Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufe
 
 ---
 
-### WAS zeigt die Liste? {: #courses_what}
+### WAS zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
 
 !!! tip "Tipp"
 
@@ -52,19 +52,22 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses) 
 * **Referenzierungen**
 * **Status** ("in Review", "Veröffentlicht", "Beendet")
-* **#Teilnehmer:innen** (Anzahl aller Teilnehmenden)
-* **#Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
-* **#Nicht besucht** (Anzahl der Teilnehmenden, die diesen Kurs noch nie besucht haben)
+* **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
+* **Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
+* **Nicht besucht** (Anzahl der Teilnehmenden, die diesen Kurs noch nie besucht haben)
 * **Letzter Besuch** (Wann wurde dieser Kurs zuletzt von einer/einem Teilnehmenden besucht)
-* **durschnittlicher Fortschritt** (Durchschnitt aus den Fortschrittswerten aller Teilnehmenden, die den Kurs schon einmal besucht haben)
-* **Erfolgsstatus** (grafisch und in Zahlen: "Bestanden" | "Nicht bestanden" | "Keine Angabe")
-* **#Bestanden**
-* **#Nicht bestanden**
-* **#Keine Angabe**
+* **durchschnittlicher Fortschritt** (Durchschnitt aus den Fortschrittswerten aller Teilnehmenden, die den Kurs schon einmal besucht haben)
+* **Erfolgsstatus** (grafisch und in Zahlen: "Bestanden" | "Nicht bestanden" | "Keine Angabe")<br>
+
+!!! info "Tooltip zum Erfolgsstatus"
+    Fährt man mit der Maus über den grafischen Balken, zeigt ein Tooltip die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+* **Bestanden**
+* **Nicht bestanden**
+* **Keine Angabe**
 * **durchschnittliche Punkte** (durchschnittliche Punktzahl aller Teilnehmenden, die diesen Kurs bereits bearbeitet haben)
-* **#Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
-* **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzueg dieses Kurses führt)
-* **Information Seite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter Administration > Einstellungen eingegeben wurden)
+* **Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
+* **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
+* **Information Seite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Administration > Einstellungen` eingegeben wurden)
 
 
 [Zum Seitenanfang ^](#courses)
@@ -86,6 +89,3 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 
 [Zum Seitenanfang ^](#courses)
-
-
-[hallo](../../manual_user/le)

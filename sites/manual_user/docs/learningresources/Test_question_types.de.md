@@ -119,7 +119,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 ---
 
-## Drag&Drop {: #drag_drop}
+## Drag&Drop [:octicons-tag-16:{ title="ab Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
 ![Icon Drag und Drop Frage](assets/Icon_DragDrop_DE.png){ class=size24 }
 
@@ -159,7 +159,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 ---
 
-## True/false {: #true_false}
+## True/false [:octicons-tag-16:{ title="ab Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
 ![Icon True False Frage](assets/Icon_true_false_DE.png){ class=size24 }
 
@@ -199,11 +199,11 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 ---
 
-## Lückentext mit Dropdown {: #gap_dropdown}
+## Lückentext mit Dropdown [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 ![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
-Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fließtext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
+Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
 
 ![Dropdown Lückentext Beispiel](assets/Lueckentext_dropdown.png){ class="shadow" }
 
@@ -238,7 +238,7 @@ Für jede Lücke können folgende Attribute ausgefüllt werden:
 
 ---
 
-## Hottext {: #hottext}
+## Hottext [:octicons-tag-16:{ title="ab Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
 ![Icon Hottext Frage](assets/Icon_Hottext_DE.png){ class=size24 }
 
@@ -256,7 +256,7 @@ Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als
 
 ![Icon Hotspot Frage](assets/Icon_Hotspot_DE.png){ class=size24 }
 
-Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hotspots, Anpassung der Bildgröße sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmenden sichtbar.
+Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hotspots, Anpassung der Bildgrösse sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmenden sichtbar.
 
 ### Vorgehen
 
@@ -269,7 +269,7 @@ Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild da
 
 ---
 
-## Reihenfolge {: #order}
+## Reihenfolge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
 
 ![Icon Reihenfolge Frage](assets/Icon_Reihenfolge_DE.png){ class=size24 }
 
@@ -298,10 +298,10 @@ Zuerst werden ein kurzer Titel und die Frage eingegeben.
 Anschliessend können folgende Optionen ausgewählt werden:
 
 * Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext eingetragen werden. Dieser erscheint im Textfeld und ist für die Teilnehmer sichtbar.
-* Höhe (Anzahl Zeilen): Hier kann die Größe des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Teilnehmer mehr Zeilen eintragen.
+* Höhe (Anzahl Zeilen): Hier kann die Grösse des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Teilnehmer mehr Zeilen eintragen.
 * Min. Anzahl Wörter: Diese Anzahl Wörter muss mindestens geschrieben sein, damit die Aufgabe gesendet werden kann.
 * Max. Anzahl Wörter: Diese Anzahl Wörter darf maximal geschrieben sein, damit die Aufgabe gesendet werden kann. Die Eingabe dient der Begrenzung der Eingabe.  
-* Copy/paste erlauben: Hier definieren Sie ob die Lernenden Inhalte per copy+paste einfügen dürfen.
+* Copy/paste erlauben: Hier definieren Sie, ob die Lernenden Inhalte per copy+paste oder per Drag&Drop aus einer externen Quelle einfügen dürfen. Internes Verschieben von Text innerhalb desselben Feldes bleibt davon unabhängig weiterhin möglich. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
 Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion ausgestattet. Antworten können somit besser formatiert und zum Beispiel Spalten abgebildet werden.
 
@@ -313,7 +313,7 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 ---
 
-## Datei hochladen* {: #file_upload}
+## Datei hochladen* [:octicons-tag-16:{ title="ab Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
 ![Icon Datei Upload Frage](assets/Icon_Fileupload_DE.png){ class=size24 }
 
@@ -346,7 +346,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
 
 ![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow" }
 
-!!! info "Import von Fragen"
+!!! tip "Import von Fragen"
 
 	Neben dem direkten Erstellen können Fragen auch intern aus dem OpenOlat [Fragenpool](../area_modules/Question_Bank.de.md) oder extern aus einer [Excel Datei](../area_modules/Data_Management.de.md#nutzung-der-datei-vorlage-excelimport) importiert werden.
 

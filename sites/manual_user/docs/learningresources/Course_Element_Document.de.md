@@ -18,7 +18,7 @@ Mit dem Kursbaustein "Dokument" können verschiedene Dokumentformate in den Kurs
 
 Der Kursbaustein ist gut geeignet für die Anzeige von PDF- und auch JPG- und PNG-Dateien. Darüber hinaus können auch, sofern vom OpenOlat Administrator aktiviert, Office-Dokumente (Word, Excel, PowerPoint) und draw.io Diagramme [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} eingebunden werden.
 
-Ab Release 18.1 verwendet OpenOlat für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:octicons-tag-16:{ title="ab Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"}, der eine deutlich bessere Darstellung als die frühere OnlyOffice-Ansicht bietet. Grosse PDF-Dateien werden dabei stufenweise geladen, sofern die Datei dies unterstützt. Der PDF-Viewer ist schreibgeschützt — zum Bearbeiten wird ein separater Editor benötigt.
+OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:octicons-tag-16:{ title="ab Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"}, der eine klare Darstellung bietet. Grosse PDF-Dateien werden dabei stufenweise geladen, sofern die Datei dies unterstützt. Der PDF-Viewer ist schreibgeschützt: zum Bearbeiten wird ein separater Editor benötigt.
 
 !!! note "Hinweis"
 
@@ -57,7 +57,7 @@ Sofern **draw.io Diagramme** [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090
 
 draw.io Diagramme unterstützen das gleichzeitige Bearbeiten durch mehrere Personen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7091)" }](https://track.frentix.com/issue/OO-7091){:target="_blank"}. Mehrere Teilnehmende können ein Diagramm gleichzeitig öffnen und bearbeiten. Änderungen werden in Echtzeit synchronisiert. Damit eignet sich der Kursbaustein Dokument mit draw.io für kollaborative Gruppenarbeiten.
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Bei intensiver gleichzeitiger Nutzung kann die Synchronisation kurzzeitig unterbrochen werden. Ein Neuladen des Dokuments stellt die Verbindung wieder her.
 
@@ -67,7 +67,7 @@ Im Tab "Dokument" des Kurseditors kann die Höhe der Dokumentvorschau festgelegt
 
 ### Dokument-Anzeige im Lightbox-Modus [:octicons-tag-16:{ title="ab Release 18.1 (OO-6957)" }](https://track.frentix.com/issue/OO-6957){:target="_blank"}
 
-Dokumente, Bilder und Videos werden ab Release 18.1 standardmässig im **Lightbox-Modus** angezeigt — als Overlay über der aktuellen Seite, ohne dass ein neues Browser-Fenster geöffnet wird. Beim Wechsel in den Bearbeitungsmodus öffnet sich das Dokument weiterhin in einem separaten Fenster.
+Dokumente, Bilder und Videos werden standardmässig im **Lightbox-Modus** angezeigt: als Overlay über der aktuellen Seite, ohne dass ein neues Browser-Fenster geöffnet wird. Beim Wechsel in den Bearbeitungsmodus öffnet sich das Dokument weiterhin in einem separaten Fenster.
 
 ### Änderungen vornehmen [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
@@ -81,3 +81,7 @@ Eingebundene Dokumente können bei Bedarf später auch bearbeitet und Metadaten 
 Nachdem ein Dokument mit dem Kursbaustein verbunden wurde kann definiert werden welche Benutzer-Rollen das Dokument bearbeiten bzw. herunterladen dürfen. Nach dem Download eines entsprechenden Dokuments wird in den Metadaten angezeigt, wer das Dokument als letztes bearbeitet hat.
 
 Durch diese Berechtigungen sind unterschiedliche, auch kollaborative Szenarien mit dem Kursbaustein umsetzbar.
+
+!!! info "Wichtig"
+
+    Ist das Herunterladen für eine Rolle nicht erlaubt, wird für diese Rolle automatisch auch das Drucken deaktiviert: Die Drucken-Schaltfläche sowie der Menüeintrag im PDF-Viewer werden nicht mehr angezeigt [:octicons-tag-16:{ title="ab Release 20.3.4 (OO-9530)" }](https://track.frentix.com/issue/OO-9530){:target="_blank"}.

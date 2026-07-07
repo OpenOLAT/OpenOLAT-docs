@@ -5,7 +5,6 @@
 Name | Themenvergabe
 ---------|----------
 Icon | :fontawesome-regular-circle:
-Verfügbar seit | 
 Funktionsgruppe | Andere
 Verwendungszweck | Ausschreibung, Auswahl und Betreuung von Themen zur Bearbeitung durch die Kursteilnehmer:innen
 Bewertbar | nein
@@ -60,7 +59,11 @@ Wenn Sie "**Erscheint in der Tabelle**" wählen, wird der Termin in der Themenü
 
   Im Tab "Verantwortliche" fügen Sie diejenigen OpenOlat-Benutzer hinzu, welche Themen ausschreiben und betreuen dürfen. Diese Personen müssen nicht zwingend Autorenrechte haben.
 
+  Die hinzugefügten Personen werden in der Gruppe **"Zuständig für dieses Thema"** aufgeführt. Über die Aktion **"Benutzer:in hinzufügen"** :fontawesome-solid-user-plus: öffnen Sie den Dialog zum Hinzufügen einer weiteren Person [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
+
   Falls Sie einen Themenverantwortlichen entfernen, der bereits Themen ausgeschrieben hat, kann er diese weiterhin betreuen, aber keine neuen Themen ausschreiben.
+
+  Wird der Kursbaustein "Themenvergabe" aus einem anderen Kurs importiert, wird die Person, die den Import durchführt, automatisch als Themenverantwortliche/r der importierten Themen eingetragen, sofern sie Mitglied des Zielkurses ist. Ist die importierende Person kein Mitglied des Zielkurses, wird für die importierten Themen keine verantwortliche Person eingetragen [:octicons-tag-16:{ title="ab Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
 
 * **Rolle des Themenverantwortlichen**
   
@@ -98,9 +101,9 @@ Klicken Sie auf "**Neues Thema erstellen**" und geben Sie Thementitel und Beschr
 
   Hier sind die Themenverantwortlichen aufgelistet. Wenn User auf den Namen des Themenverantwortliches klicken, gelangen Sie zu seiner Visitenkarte und können ihn kontaktieren.
 
-!!! info "Info"
+!!! info "Wichtig"
 
-    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab Teilnehmerverwaltung einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.  
+    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab "Verwaltung Benutzer:innen" einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.  
   
 * **Beschreibung:**
 
@@ -151,11 +154,11 @@ ein Thema wählen können sollen.
 
 Über "**Themenstatus auf "Frei" setzen**" können Sie ein Thema erneut zur Wahl öffnen, auch wenn sich bereits Teilnehmer eingeschrieben und Sie diese akzeptiert haben. 
 
-!!! warning "Achtung"
+!!! info "Wichtig"
 
     Bitte beachten Sie, dass die zwei letzteren Schaltflächen nur ersichtlich sind, wenn der Besitzer die Themenvergabe so konfiguriert hat, dass die Teilnhemer manuell akzeptiert werden müssen.
 
-## Tabs "Ordner" und "Teilnehmerverwaltung"
+## Tabs "Ordner" und "Verwaltung Benutzer:innen" [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}
 
 ### Teilnehmer verwalten
 
@@ -163,15 +166,15 @@ Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilneh
 
 ![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png)
 
-![themen_teilnehmer_verwalten.png](assets/Themen_Teilnehmerverwaltung.png)
+![topic_assignment_user_managementv2_de.png](assets/topic_assignment_user_managementv2_de.png)
 
-Öffnen Sie den Tab "**Teilnehmerverwaltung**" und akzeptieren Sie den/die Kandidaten.
+Öffnen Sie den Tab "**Verwaltung Benutzer:innen**" und akzeptieren Sie den/die Kandidaten.
 
-Über "**Als Teilnehmer übernehmen**" wählen Sie, wem Sie das Thema vergeben möchten. Die akzeptierten Teilnehmer werden zur Liste "Akzeptierte Teilnehmer" hinzugefügt und werden auf Ihren Wunsch per E-Mail benachrichtigt. Markieren Sie die Kandidaten, die Sie nicht akzeptieren, und klicken Sie auf "Entfernen". Auf Ihren Wunsch werden die abgelehnten Kandidaten ebenfalls per E-Mail benachrichtigt.
+Über "**Als Teilnehmer übernehmen**" wählen Sie, wem Sie das Thema vergeben möchten. Die akzeptierten Teilnehmer:innen werden zur Gruppe "Akzeptierte Teilnehmer:innen" hinzugefügt und werden auf Ihren Wunsch per E-Mail benachrichtigt. Markieren Sie die Kandidaten, die Sie nicht akzeptieren, und klicken Sie auf "Entfernen". Auf Ihren Wunsch werden die abgelehnten Kandidaten ebenfalls per E-Mail benachrichtigt.
 
 Wenn Sie die Anzahl der Plätze nicht limitiert haben, können Sie den Vorgang mehrmals wiederholen. Denken Sie daran, im Tab "Beschreibung" "Themenstatus auf "Belegt" setzen" zu wählen, damit sich keine weiteren Kursteilnehmer für Ihr Thema bewerben.
 
-In diesem Tab können Sie auch manuell Teilnehmer sowie weitere Themenverantwortliche hinzufügen oder entfernen. Teilnehmer haben kein Recht, das Thema zu editieren.
+In der Gruppe "Akzeptierte Teilnehmer:innen" können Sie über die Aktion **"Teilnehmer:in hinzufügen"** :fontawesome-solid-user-plus: auch manuell eine Person hinzufügen, ohne dass diese den Bewerbungsprozess durchläuft. Ebenso können Sie in der Gruppe "Zuständig für dieses Thema" über **"Benutzer:in hinzufügen"** weitere Themenverantwortliche ergänzen oder wieder entfernen. Teilnehmer:innen haben kein Recht, das Thema zu editieren.
 
 ### Dateien herunterladen und zurückgeben
 
@@ -233,4 +236,4 @@ Klicken Sie auf den Titel des Themas. Im Tab "Ordner" finden Sie den Abgabeordne
 
 Im Tab "Ordner" finden Sie im Abschnitt "Rückgabeordner" die Dateien, die Ihnen der Themenverantwortliche zurückgegeben hat.
 
-Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern erfahren Sie im Kapitel "Kursbausteine" → "Andere" unter dem Punkt "[Kursbaustein Themenvergabe](../learningresources/Other.de.md#kursbaustein-„themenvergabe--topic_assignment)".
+Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern erfahren Sie im Kapitel "Kursbausteine" → "Andere" unter dem Punkt "[Kursbaustein Themenvergabe](../learningresources/Other.de.md#topic_assignment)".

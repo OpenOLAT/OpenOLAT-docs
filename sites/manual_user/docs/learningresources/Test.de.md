@@ -45,6 +45,10 @@ Soll eine Frage bearbeitet werden, kann über "Kopie erstellen und bearbeiten" e
 
 Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Im Kapitel "Aktionen im Autorenbereich" steht unter dem Punkt [Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren), wie Sie vorgehen müssen.
 
+!!! info "Wichtig"
+
+    Beim Import wird die Testdatei auf ein gültiges QTI-2.1-Paket geprüft. Fehlerhaft erzeugte Pakete, zum Beispiel aus externen Tools, werden mit einer Fehlermeldung abgelehnt. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9454)" }](https://track.frentix.com/issue/OO-9454)
+
 [Zum Seitenanfang ^](#create_tests)
 
 ---

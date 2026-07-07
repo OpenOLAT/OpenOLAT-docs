@@ -25,9 +25,15 @@ Zum Umschalten zwischen ausführlicher und kompakter Listenansicht verwenden Sie
 
 Mit dem Toggle-Button darüber können Sie sich zusätzlich eine Zeitleiste und Tags ein- und ausblenden.
 
+Über der Liste stehen Filter zur Verfügung, um die angezeigten Beiträge einzuschränken (z.B. "Alle Einträge", "Meine Einträge", "Entwürfe").
+
+!!! info "Wichtig"
+
+    Haben Sie nur Leserechte auf den Blog (z.B. als Betreuer:in ohne Schreibrecht oder als Kursteilnehmer:in, die/der keine eigenen Beiträge erstellen darf), steht Ihnen nur der Filter "Alle Einträge" zur Verfügung [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
+
 ![blog_blogging_list_v2_de.png](assets/blog_blogging_list_v2_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Es besteht auch die Möglichkeit, eine Blog-Lernressource "stand alone" (ohne Einbindung in einen Kurs) zu nutzen. In diesem Fall könnte die Blog-Lernressource nach der Veröffentlichung z.B. via Link in einer Mail oder im Katalog aufgerufen werden.<br>Denken Sie auch daran, dass Sie in Mails einen Link direkt auf einen bestimmten Kursbaustein innerhalb eines Kurses (z.B. den Blog) verschicken können.    
 
@@ -37,7 +43,7 @@ Mit dem Toggle-Button darüber können Sie sich zusätzlich eine Zeitleiste und 
 
 ## Beiträge hinzufügen und editieren {: #blog_blogging_add_posts}
 
-!!! info "Voraussetzung"
+!!! tip "Voraussetzung"
 
     Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))<br>
     Beachten Sie ausserdem, dass per Link eingefügte **externe** Blogs nicht bearbeitet werden können.
@@ -73,7 +79,7 @@ In der kompakten Tabellenansicht ist eine Massenaktion zum Löschen mehrerer Bei
 
 ## Beiträge kommentieren {: #blog_blogging_comment_posts}
 
-Die Kursmitglieder können Blogbeiträge mit einem Text kommentieren. Ab Release 19.1 können an Kommentare auch Dateien angehängt und hochgeladen werden.
+Die Kursmitglieder können Blogbeiträge mit einem Text kommentieren. An Kommentare können auch Dateien angehängt und hochgeladen werden.
 
 Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie in die Kommentarzeile. Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
 
@@ -102,7 +108,7 @@ Unter dem Moderieren eines Blogs versteht man das Lenken oder ein lenkendes Eing
 
 Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Sind Blogeinträge importiert worden, können sie nur von Moderator:innen, Besitzer:innen oder Betreuer:innen gelöscht werden. (Als Ersteller:innen der Beiträge sind dort weiterhin die ursprünglichen Autor:innen angezeigt.)
 
@@ -118,7 +124,7 @@ Wenn Sie nur benachrichtigt werden möchten, sobald ein Kommentar zu einem Bloge
 
 Wenn Sie den Link zum Blog weitergeben möchten, finden Sie den Link links über der Beitragsliste im Icon "RSS-Feed".
 
-Möchten Sie den direkten Link zu einem einzelnen Beitrag weitergeben, können Sie sich die URL aus Ihrem Browserfenster kopieren. Ab Release 19.0.2 wird dort der Direktlink angezeigt. 
+Möchten Sie den direkten Link zu einem einzelnen Beitrag weitergeben, können Sie sich die URL aus Ihrem Browserfenster kopieren. Dort wird der Direktlink angezeigt.
 
 [zum Seitenanfang ^](#blog_blogging)
 

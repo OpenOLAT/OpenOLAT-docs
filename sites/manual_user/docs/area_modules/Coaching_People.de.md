@@ -21,15 +21,15 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
     * als Ausbildungsverantwortliche:r
 
 
-!!! note "Hinweis zu den Rollen Linienvorgesetzte:r und Ausbildungsverantwortliche:r"
+!!! info "Hinweis zu den Rollen Linienvorgesetzte:r und Ausbildungsverantwortliche:r"
 
     Diese Rollen werden im Coaching Tool nur angezeigt, wenn in der Administration das [Modul Organisation](../../manual_admin/administration/Modules_Organisations.de.md) aktiviert wurde. 
     
 
 
-!!! note "Hinweis zu weiteren Personenbeziehungen"
+!!! info "Hinweis zu weiteren Personenbeziehungen"
 
-    Auch wenn Sie [eigene Rollen und Beziehungen](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) definiert haben, werden Ihnen diese Rollen hier angezeigt, um eine vorgruppierte Liste anzeigen zu können.
+    Haben Sie zusätzlich [eigene Rollen und Beziehungen](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) definiert, erscheinen auch diese hier als eigene, vorgruppierte Liste.
 
 
 [Zum Seitenanfang ^](#people)
@@ -37,7 +37,7 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
 ---
 
 
-## WAS zeigt die Liste?  {: #people_what}
+## WAS zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.0.3 (OO-8591)" }](https://track.frentix.com/issue/OO-8591){:target="_blank"} {: #people_what}
 
 Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben über der Liste auf das Zahnrad-Icon klicken. Die verfügbaren Spalten können je nach gewählter Rolle variieren. 
 
@@ -47,23 +47,21 @@ Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben übe
 * **E-Mail**
 * **Geschlecht**
 * **Geburtsdatum**
-* **Organisation**<br>
-  Nur bei aktiviertem Modul Organisationseinheiten: Zu welcher Organisationseinheit gehört die Person?<br>
-  (Diese Information ist besonders für Ausbildungsverantwortliche interessant.)
-* **Kurse**<br>
-    In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied?
-* **Nicht besucht**<br>
-    In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied, hat den Kurs aber noch nie besucht?
-* **Letzter Besuch**<br>
-    Vor wieviel Tage war der letzte Besuch in einem der von Ihnen betreuten Kurse?
-* **durchschnittlicher Fortschritt**<br>
-    Durchschnitt über alle Kurse von Ihnen betreuten Kurse
-* **Erfolgsstatus**<br>
+* **Organisation**<br> Nur bei aktiviertem Modul Organisationseinheiten: Zu welcher Organisationseinheit gehört die Person? _(Diese Information ist besonders für Ausbildungsverantwortliche interessant.)_
+* **Kurse**<br> In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied?
+* **Nicht besucht**<br> In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied, hat den Kurs aber noch nie besucht?
+* **Letzter Besuch**<br> Vor wieviel Tage war der letzte Besuch in einem der von Ihnen betreuten Kurse?
+* **durchschnittlicher Fortschritt**<br> Durchschnitt über alle Kurse von Ihnen betreuten Kurse
+* **Erfolgsstatus**
     * "Bestanden"/"Nicht bestanden"/"keine Angabe" in grafischer Darstellung
     * "Bestanden"/"Nicht bestanden"/"keine Angabe" in Zahlen
-* **Zertifikate**<br>
-  Anzahl der erhaltenen Zertifikate / Anzahl der möglichen Zertifikate
-* **Weitere Aktionen** (Icon mit 3 Punkten)<br>
+
+!!! info "Wichtig"
+
+    Fährt man mit der Maus über den grafischen Balken, zeigt ein Tooltip die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+
+* **Zertifikate**<br> Anzahl der erhaltenen Zertifikate / Anzahl der möglichen Zertifikate
+* **Weitere Aktionen** _(Icon mit 3 Punkten)_<br>
     * Kontaktieren (per E-Mail)
 
 [Zum Seitenanfang ^](#people)
@@ -71,7 +69,7 @@ Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben übe
 ---
 
 
-## Kontaktieren betreuter Personen {: #contact}
+## Kontaktieren betreuter Personen [:octicons-tag-16:{ title="ab Release 20.0.3 (OO-8591)" }](https://track.frentix.com/issue/OO-8591){:target="_blank"} {: #contact}
 
 Um **einer bestimmten Person** eine Mail zu schreiben, klicken Sie einfach auf die 3 Punkte am Ende der betreffenden Zeile.
 
@@ -83,7 +81,7 @@ Um eine Mail an **mehrere Personen** zu schreiben, markieren Sie die betreffende
 
 ---
 
-## Coaching-Aufgaben als Linienvorgesetzte / Ausbildungsverantwortliche {: #linemanager_educationmanager}
+## Coaching-Aufgaben als Linienvorgesetzte / Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #linemanager_educationmanager}
 
 Linienvorgesetzte und Ausbildungsverantwortliche finden im Coachingtool unter Personen einen zusätzlichen Button, unter dem sie alle Personen finden, für die sie in ihrer Rolle zuständig sind.  
 
@@ -108,12 +106,10 @@ Hat eine Person zusätzliche Rollen (mehr als die Rolle Autor:in), erscheint in 
 Damit ein zusätzlicher Button "Linienvorgesetzte:r" und/oder "Ausbildungsverantwortliche:r" angezeigt wird, müssen folgende Voraussetzungen erfüllt sein.
 
 **Voraussetzung 1:**
-Das Modul "Organisationseinheiten" muss aktiviert sein.<br>
-`Administration > Module > Organisationen`
+Das Modul "Organisationseinheiten" muss aktiviert sein.<br> `Administration > Module > Organisationen`
 
 **Voraussetzung 2:**
-Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br>
-`Benutzerverwaltung > Person auswählen > Tab Rollen`
+Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br> `Benutzerverwaltung > Person auswählen > Tab Rollen`
 
 **Voraussetzung 3:**
 In der Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder weitere Rechte **aktiviert sein**. 
@@ -121,7 +117,7 @@ In der Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder w
 
 ---
 
-### Konto für Mitarbeiter:innen anlegen {: #linemanager_educationmanager_create_account}
+### Konto für Mitarbeiter:innen anlegen [:octicons-tag-16:{ title="ab Release 20.0.1 (OO-8491)" }](https://track.frentix.com/issue/OO-8491){:target="_blank"} {: #linemanager_educationmanager_create_account}
 
 Im Coachingtool finden Sie als Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r rechts oben den **Button "Konto erstellen"**. Sie öffnen damit ein Formular zum Erfassen der notwendigen Angaben um bisher unregistrierte Personen in OpenOlat aufzunehmen.
 
