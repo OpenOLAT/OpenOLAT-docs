@@ -6,7 +6,6 @@
 Name | Topic Assignment
 ---------|----------
 Icon | :fontawesome-regular-circle:
-Available since | 
 Functional group | Others
 Purpose | Invitation to tender, selection and coaching of topics to be worked on by the course participants
 Assessable | no
@@ -64,7 +63,11 @@ When selecting **"Appears in table"**, your event will be displayed in the overv
   
   In the tab "Persons in charge" you add those OpenOlat users who should be able to announce and supervise topics. These persons do not necessarily have to hold author rights.
 
+  The added persons are listed in the group **"Responsible for the topic"**. Use the **"Add user"** :fontawesome-solid-user-plus: action to open the dialog for adding another person [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
+
   If you remove a topic author who has already announced a topic he will still be able to supervise it. However, this person will no longer be able to announce new topics.
+
+  If the course element "Topic assignment" is imported from another course, the person performing the import is automatically entered as topic author for the imported topics, provided they are a member of the target course. If the importing person is not a member of the target course, no person in charge is entered for the imported topics [:octicons-tag-16:{ title="from Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
 
 **Role of topic authors**
   
@@ -102,9 +105,9 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
 
   Here you have a list of topic authors. When clicking on these authors' names you will get to their visiting cards to contact them.
 
-!!! info "Info"
+!!! info "Important"
 
-    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab Administration of participants or appoint other users to persons responsible for your topic.  
+    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab "Administration of users" or appoint other users to persons responsible for your topic.  
   
 * **Description:** 
 
@@ -153,11 +156,11 @@ Choose "**Topic set status on "Filled"**" if no further participants should be a
 
 Via "**Reset Topic status to "Vacancies"**" you can open a Topic anew - even if there are participants that are registered and accepted already. 
 
-!!! warning "Attention"
+!!! info "Important"
 
     Please keep in mind that the last two buttons will only be visible if the course author has provided the Topic assignment with the option to accept participants manually.
 
-## "Folder" and "Administration of participants" tabs
+## "Folder" and "Administration of users" tabs [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}
 
 ###  Managing participants
 
@@ -165,15 +168,15 @@ If the configuration of your topic assignment requires that course participants 
 
 ![assignment_participants.png](assets/Topic_Assignement_TN_EN.png)
 
-![assignment_participants.png](assets/Topic_Assignement_TN2_EN.png)
+![topic_assignment_user_managementv2_en.png](assets/topic_assignment_user_managementv2_en.png)
 
-Now open the tab "**Topic assignment**" and accept the application of your candidate(s).
+Now open the tab "**Administration of users**" and accept the application of your candidate(s).
 
-Candidates are course participants applying for your topic. By means of "**Accept participant as**" you can decide to whom your topic should be assigned. All participants accepted will be added to the list "Participants accepted" and can be notified via e-mail if you wish. Just highlight those candidates you do not accept and click on "Delete." If you wish, those candidates will be notified via e-mail as well.
+Candidates are course participants applying for your topic. By means of "**Accept participant as**" you can decide to whom your topic should be assigned. All participants accepted will be added to the group "Participants accepted" and can be notified via e-mail if you wish. Just highlight those candidates you do not accept and click on "Delete." If you wish, those candidates will be notified via e-mail as well.
 
 If you have not limited the number of vacancies you can repeat this procedure several times. Please remember to select "Topic set status on "Filled"" in the tab "Description" to avoid further applications for your topic.
 
-It is also possible to add or remove participants in this tab manually, as well as additional topic administrators. Participants will not be allowed to edit their topic.
+In the group "Participants accepted" you can also manually add a person via the **"Add participant"** :fontawesome-solid-user-plus: action, without that person going through the application process. Similarly, in the group "Responsible for the topic" you can use **"Add user"** to add or remove additional topic authors. Participants will not be allowed to edit their topic.
 
 ### How to upload and return files
 
@@ -233,5 +236,5 @@ Click on the title of the topic. In the "Folder" tab you will find the delivery 
 
 In the "Folder" tab, in the "Return folder" section, you will find the files that the topic owner has returned to you.
 
-If you are assigned as a topic owner, you can post topics. You can read more about this and about accepting and coaching participants in the chapter "Course elements" → "Others" under "[Course element](../learningresources/Other.md#course-element-topic-assignment--topic_assignment)."
+If you are assigned as a topic owner, you can post topics. You can read more about this and about accepting and coaching participants in the chapter "Course elements" → "Others" under "[Course element](../learningresources/Other.md#topic_assignment)."
 

@@ -12,7 +12,7 @@ The "Courses" menu item in the Coaching Tool shows a list of all **courses** in 
 * Participants from **all** courses you supervise are displayed. (This differs from the course's [assessment tool](../learningresources/Assessment_tool_overview.md), which only displays participants from the current course.)
 * Each coach can only see the participants they are supervising.
 * The participants you are supervising are **grouped and assigned roles** that you, as their coach, have in relation to them.<br> 
-In the example shown above, the caregiver can access pre-sorted lists that correspond to their two roles as caregiver and Kurt owner.
+In the example shown above, the caregiver can access pre-sorted lists that correspond to their two roles as caregiver and course owner.
 * In the list for instructors, you will only see courses that have been published, completed, or are at least accessible to instructors.
 
 [To the top of the page ^](#courses)
@@ -20,7 +20,7 @@ In the example shown above, the caregiver can access pre-sorted lists that corre
 ---
 
 
-### 2. WHAT does the list show? {: #courses_what}
+### 2. WHAT does the list show? [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
 
 !!! tip "Hint"
 
@@ -53,18 +53,22 @@ You can choose which columns are displayed by clicking on the gear icon in the t
 * **Referenzierungen**
 * **Status** ("in Review", "Published", "Finished")
 * **Participants** (Number of all participants)
-* **#Visited** (Number of all participants who have visited the course)
-* **#Not visited** (Number of participants who have never taken this course before)
+* **Visited** (Number of all participants who have visited the course)
+* **Not visited** (Number of participants who have never taken this course before)
 * **Last visit** (When was this course last attended by a participant?)
 * **Average progress** (Average of the progress scores of all participants who have already taken the course)
-* **Success status** (graphically and in figures: "Passed" | "Not passed" | "Not specified")
-* **#Passed**
-* **#Not passed**
-* **#Not specified**
+* **Success status** (graphically and in figures: "Passed" | "Not passed" | "Not specified")<br>
+
+!!! info "Tooltip for success status"
+
+    Hovering the mouse over the graphic bar shows a tooltip with the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+* **Passed**
+* **Not passed**
+* **Not specified**
 * **Average points** (average score of all participants who have already completed this course)
-* **#Certificate** (Number of certificates already issued for this course)
+* **Certificate** (Number of certificates already issued for this course)
 * **Assessment tool** (clickable icon that leads directly to the evaluation tool for this course)
-* **Information site** (Clickable light bulb icon that leads directly to the information entered in the course under Administration > Settings)
+* **Information site** (Clickable light bulb icon that leads directly to the information entered in the course under `Administration > Settings`)
 
 
 [To the top of the page ^](#courses)

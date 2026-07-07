@@ -25,9 +25,15 @@ To switch between detailed and compact list view, use the buttons at the top rig
 
 You can also use the toggle button above to show and hide a timeline and tags.
 
+Filters are available above the list to limit the displayed posts (e.g. "All entries", "My entries", "Drafts").
+
+!!! info "Important"
+
+    If you only have read access to the blog (e.g. as a coach without write permission or as a course participant who is not allowed to create their own posts), only the filter "All entries" is available to you [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
+
 ![blog_blogging_list_v2_de.png](assets/blog_blogging_list_v2_de.png){ class="shadow lightbox" }
 
-!!! info "Note"
+!!! note "Note"
 
     It is also possible to use a blog learning resource "stand alone" (without integration into a course). In this case, the blog learning resource could be accessed after publication, e.g. via a link in an email or in the catalog.<br>Also remember that you can send a link in emails directly to a specific course element within a course (e.g. the blog).    
 
@@ -37,7 +43,7 @@ You can also use the toggle button above to show and hide a timeline and tags.
 
 ## Add and edit posts {: #blog_blogging_add_posts}
 
-!!! info "Requirements"
+!!! tip "Requirements"
 
     In order for you as a course participant or coach not only to comment and rate, but also to write your own contributions, it must first be permitted by the course owner. (See also [Blog Configuration](../learningresources/Blog_Configuration.md))<br>
     Please also note that **external** blogs inserted via a link cannot be edited.
@@ -73,7 +79,7 @@ In the compact table view, a mass action is available for deleting multiple post
 
 ## Comment on posts {: #blog_blogging_comment_posts}
 
-Course members can comment on blog posts with a text. As of release 19.1, files can also be attached to comments and uploaded.
+Course members can comment on blog posts with a text. Files can also be attached to comments and uploaded.
 
 To write a comment or read existing comments, click on the "Comments" link. A small text editor will open. 
 
@@ -100,7 +106,7 @@ Moderating a blog means directing or intervening in communication. In a blog, th
 
 The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Blog configuration](../learningresources/Blog_Configuration.md))
 
-!!! note "Note"
+!!! info "Important"
 
     If blog entries have been imported, they can only be deleted by moderators, owners or coaches. (The original authors are still displayed as the creators of the posts).
 
@@ -116,7 +122,7 @@ If you only want to be notified when a comment is posted on a blog entry, you ca
 
 If you would like to pass on the link to the blog, you will find the link on the left above the list of posts in the "RSS feed" icon.
 
-If you would like to pass on the direct link to an individual post, you can copy the URL from your browser window. From release 19.0.2, the direct link will be displayed there. You can then transfer your blog post from there to your e-Portfolio, for example.
+If you would like to pass on the direct link to an individual post, you can copy the URL from your browser window. The direct link will be displayed there. You can then transfer your blog post from there to your e-Portfolio, for example.
 
 [To the top of the page ^](#blog_blogging)
 

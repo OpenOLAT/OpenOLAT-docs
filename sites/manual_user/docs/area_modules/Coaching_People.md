@@ -18,14 +18,14 @@ The menu item "Participants" shows the list of **all the participants you are re
     * As Education manager
 
 
-!!! note "Note on the roles of line manager and education manager"
+!!! info "Note on the roles of line manager and education manager"
 
     These roles are only displayed in the coaching tool if the [Organization module](../../manual_admin/administration/Modules_Organisations.md) has been activated in the administration. 
 
 
-!!! note "Note on other personal relationships"
+!!! info "Note on other personal relationships"
 
-    Even if you have defined your [own roles and relationships](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), these roles will be displayed here so that you can view a pre-grouped list.
+    If you have additionally defined your [own roles and relationships](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), these will also be displayed here as a separate, pre-grouped list.
 
 
 [To the top of the page ^](#people)
@@ -33,7 +33,7 @@ The menu item "Participants" shows the list of **all the participants you are re
 ---
 
 
-## WHAT does the list show? {: #people_what}
+## WHAT does the list show? [:octicons-tag-16:{ title="from Release 20.0.3 (OO-8591)" }](https://track.frentix.com/issue/OO-8591){:target="_blank"} {: #people_what}
 
 You can define the displayed columns yourself by clicking on the cogwheel icon at the top right. The available columns may vary depending on the selected role. 
 
@@ -43,23 +43,21 @@ You can define the displayed columns yourself by clicking on the cogwheel icon a
 * **E-Mail**
 * **Gender**
 * **Birth date**
-* **Organization**<br>
-    Only if the Organizational Units module is activated: Which organizational unit does the person belong to?<br>
-  (This information is particularly interesting for those responsible for training.)
-* **Courses**<br>
-    In how many of the courses you coach is a user a member?
-* **Not visited**<br>
-    In how many of the courses you teach is a user a member but has never attended the course?
-* **Last visit**<br>
-    How many days ago was your last visit to one of the courses you teach?
-* **Average progress**<br>
-    Average across all courses you coach
-* **Success status**<br>
+* **Organization**<br> Only if the Organizational Units module is activated: Which organizational unit does the person belong to? _(This information is particularly interesting for those responsible for training.)_
+* **Courses**<br> In how many of the courses you coach is a user a member?
+* **Not visited**<br> In how many of the courses you teach is a user a member but has never attended the course?
+* **Last visit**<br> How many days ago was your last visit to one of the courses you teach?
+* **Average progress**<br> Average across all courses you coach
+* **Success status**
     * "Passed"/"Not passed"/"Not specified" in graphic depiction
     * "Passed"/"Not passed"/"Not specified" in numbers
-* **Certificates**<br>
-    Number of certificates received / Number of possible certificates
-* **Further actions** (Icon with three dots)<br>
+
+!!! info "Important"
+
+    Hovering the mouse over the graphic bar shows a tooltip with the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+
+* **Certificates**<br> Number of certificates received / Number of possible certificates
+* **Further actions** _(Icon with three dots)_<br>
   * Contact (per email)
 
 [To the top of the page ^](#people)
@@ -67,7 +65,7 @@ You can define the displayed columns yourself by clicking on the cogwheel icon a
 ---
 
 
-## Contact of coach persons {: #contact}
+## Contact of coach persons [:octicons-tag-16:{ title="from Release 20.0.3 (OO-8591)" }](https://track.frentix.com/issue/OO-8591){:target="_blank"} {: #contact}
 
 To send an email to **a specific person**, simply click on the three dots at the end of the relevant line.
 
@@ -79,7 +77,7 @@ To write an email to **multiple people**, select the relevant people in the firs
 
 ---
 
-## Coaching tasks as line manager / education manager {: #linemanager_educationmanager}
+## Coaching tasks as line manager / education manager [:octicons-tag-16:{ title="from Release 20.0.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #linemanager_educationmanager}
 
 Line managers and education managers find an additional button under People in the coaching tool, under which they find all people they are responsible for in their role.
 
@@ -104,12 +102,10 @@ If a person has additional roles (more than the author role), an info message wi
 The following requirements must be met in order for an additional button labeled "Line Manager" and/or "Education manager" to be displayed.
 
 **Requirement 1:**
-The module "Organizational units" must be activated.<br>
-`Administration > Modules > Organizations`
+The module "Organizational units" must be activated.<br> `Administration > Modules > Organizations`
 
 **Requirement 2:**
-The person in question must be assigned the role.<br>
-`User Management > Select person > Tab Roles`
+The person in question must be assigned the role.<br> `User Management > Select person > Tab Roles`
 
 **Requirement 3:**
 In the administration section, the "Pending course bookings" option or other rights must **be activated**. 
@@ -117,7 +113,7 @@ In the administration section, the "Pending course bookings" option or other rig
 
 ---
 
-### Create account for employees {: #linemanager_educationmanager_create_account}
+### Create account for employees [:octicons-tag-16:{ title="from Release 20.0.1 (OO-8491)" }](https://track.frentix.com/issue/OO-8491){:target="_blank"} {: #linemanager_educationmanager_create_account}
 
 As a line manager or training supervisor, you will find the **"Create account" button** in the top right-hand corner of the coaching tool. Clicking on this button opens a form for entering the necessary information to add previously unregistered persons to OpenOlat.
 
