@@ -2,7 +2,7 @@
 
 ## What is the Coaching Tool for? {: #purpose}
 
-The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the **cross-course** correction of assessment modules, the **cross-course** absence management and the external corrector flow of OpenOlat tests.
+The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
 With the coaching tool, course owners, course coaches and group coaches have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
 
@@ -84,23 +84,6 @@ You can select one of your roles using the focus elements above the list. This w
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
 ![coaching_overview_v1_en.png](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
 
-#### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
-
-The **Courses - As coach** widget shows the courses you coach.
-
-Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection:
-
-* **Favourites** (selected by default)
-* **All** (not selected by default)
-* **Relevant** (selected by default, main key figure)
-* **Published** (selected by default)
-* **Access for coach** (selected by default)
-* **Finished** (not selected by default)
-
-Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) to go to the full course list in the **Courses** tool.
-
-[To the top of the page ^](#coaching)
-
 ---
 
 #### The Event widget {: #widget_events}
@@ -143,6 +126,25 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 !!! note "Note"
     The widget is a quick overview of the current week. The full **Events / Absences** tool additionally offers the Cockpit, Absences, Reports, Appeals and Person search tabs.
+
+[To the top of the page ^](#coaching)
+
+---
+
+#### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+
+The **Courses - As coach** widget shows the courses you coach.
+
+Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection:
+
+* **Favourites** (selected by default)
+* **All** (not selected by default)
+* **Relevant** (selected by default, main key figure)
+* **Published** (selected by default)
+* **Access for coach** (selected by default)
+* **Finished** (not selected by default)
+
+Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) to go to the full course list in the **Courses** tool.
 
 [To the top of the page ^](#coaching)
 
