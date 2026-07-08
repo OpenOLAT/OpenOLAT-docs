@@ -16,12 +16,12 @@ Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der
 
 
 
-## OpenMeetings {: #openmeetings}
+## OpenMeetings [:octicons-tag-16:{ title="ab Release 8.3.0 (OO-406)" }](https://track.frentix.com/issue/OO-406){:target="_blank"} {: #openmeetings}
 
 OpenMeetings ist eine Webkonferenz-Lösung.
 
 In der OpenOlat Systemadministration können Sie das OpenMeetings-Modul
-konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen des Webservices und das zugehörige Passwort. Speichern Sie die Daten anschließend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
+konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen des Webservices und das zugehörige Passwort. Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
 
 Wenn das Modul eingeschaltet und die Verbindungsparameter zum OpenMeetings-
 Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-
@@ -37,7 +37,7 @@ angelegten OpenMeetings Räume.
 
 
 
-## Adobe Connect {: #adobe_connect}
+## Adobe Connect [:octicons-tag-16:{ title="ab Release 14.0 (OO-3887)" }](https://track.frentix.com/issue/OO-3887){:target="_blank"} {: #adobe_connect}
 
 Adobe Connect ist die Webkonferenzlösung aus der Adobe-Produktlinie.
 
@@ -47,15 +47,33 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 
 
-## Microsoft Teams {: #_microsoft_teams}
+## Microsoft Teams [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
-Die Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
+
+**Voraussetzungen für die Aktivierung:**
+
+* Ein Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen.
+* Die Zugangsdaten zum Tenant (Application (client) ID, Client secret, Tenant GUID) werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt. Bei gehosteten Instanzen übernimmt dies der frentix Support.
+
+**Voraussetzungen für die Nutzung:**
+
+* Benutzer:innen melden sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Azure-Login). Dies ist Voraussetzung, um Meetings eröffnen zu können: OpenOlat erstellt die Online-Termine über die Microsoft Graph API im Namen der angemeldeten Person.
+
+**Konfiguration in der Administration:**
+
+* Modul "Microsoft Teams" aktivieren.
+* Unter "Aktivieren für" festlegen, wo Microsoft Teams verwendet werden darf: Kursbaustein "Microsoft Teams", Kurs Termine, Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat.
+
+Zusätzlich stehen in der Administration die Tabs "Online-Termine" (Übersicht aller Termine der Instanz) und "Kalender" (Raumbuchungen) zur Verfügung.
+
+Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
 
 [Zum Seitenanfang ^](#ext_tools)
 
 
 
-## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
+## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
 Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
 
@@ -66,7 +84,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
 
 
-## Zoom {: #zoom}
+## Zoom [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
 Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration aktiviert und konfiguriert worden sein. 
@@ -76,7 +94,7 @@ Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration ak
 
 
 
-## LTI 1.3 {: #lti}
+## LTI 1.3 [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5205)" }](https://track.frentix.com/issue/OO-5205){:target="_blank"} {: #lti}
 
 Hier kann LTI 1.3 aktiviert und näher konfiguriert werden. So können z.B. externe LTI Plattformen und Tools verbunden werden.
 
@@ -85,7 +103,7 @@ Hier kann LTI 1.3 aktiviert und näher konfiguriert werden. So können z.B. exte
 
 
 
-## GoToTraining {: #go_to_training}
+## GoToTraining [:octicons-tag-16:{ title="ab Release 10.5 (OO-1944)" }](https://track.frentix.com/issue/OO-1944){:target="_blank"} {: #go_to_training}
 
 GoToTraining ist eine virtuelle Schulungsplattform.
 
@@ -130,7 +148,7 @@ Benutzerkonten und Termine werden nicht berücksichtigt.
 
 
 
-## JupyterHub {: #jupyter}
+## JupyterHub [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
 JupyterHub dient der Bereitstellung von Jupyter-Images für Lernende.
 
@@ -140,7 +158,7 @@ JupyterHub dient der Bereitstellung von Jupyter-Images für Lernende.
 
 
 
-## card2brain {: #card2brain}
+## card2brain [:octicons-tag-16:{ title="ab Release 11.5 (OO-2699)" }](https://track.frentix.com/issue/OO-2699){:target="_blank"} {: #card2brain}
 
 card2brain ist eine Software für das Lernen mit einem Lernkartei-System.
 
@@ -152,7 +170,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 
 
-## Edubase/Edubook {: #edubase}
+## Edubase/Edubook [:octicons-tag-16:{ title="ab Release 12.2 (OO-2916)" }](https://track.frentix.com/issue/OO-2916){:target="_blank"} {: #edubase}
 
 Edubase ist eine E-Book-Plattform.
 
@@ -164,15 +182,15 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 
 
-## YouTube API {: #youtube_api}
+## YouTube API [:octicons-tag-16:{ title="ab Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
 
-Eingabe, Entfernung oder Prüfen des API Schlüssels.
+Eingabe, Entfernung oder Prüfen des API Schlüssels. Der Schlüssel wird verwendet, um beim Einbinden von YouTube-Videos Metadaten wie Titel, Beschreibung und Lizenz automatisch zu übernehmen.
 
 [Zum Seitenanfang ^](#ext_tools)
 
 
 
-## Opencast {: #opencast}
+## Opencast [:octicons-tag-16:{ title="ab Release 15.2 (OO-4836)" }](https://track.frentix.com/issue/OO-4836){:target="_blank"} {: #opencast}
 
 Opencast ist eine Open Source Software zur Planung, Aufzeichnung und Veröffentlichung audiovisueller Lerninhalte, insbesondere für die Aufzeichnung und Distribution von Lehrveranstaltungen.
 
@@ -182,7 +200,7 @@ Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auc
 
 
 
-## MediaSite {: #mediasite}
+## MediaSite [:octicons-tag-16:{ title="ab Release 16.0.4 (OO-5492)" }](https://track.frentix.com/issue/OO-5492){:target="_blank"} {: #mediasite}
 
 Aktivierung von MediaSite. MediaSite ist eine automatisierte Videoplattform
 für Videoaufzeichnung, Videomanagement und Untertitelung. Das OpenOlat
@@ -218,7 +236,7 @@ speichern.
 
 
 
-## Dokumenteneditoren {: #dokumenteneditoren}
+## Dokumenteneditoren [:octicons-tag-16:{ title="ab Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
 Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Tools verwendet werden:
 
@@ -231,7 +249,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 
 
-## draw.io  {: #draw_io}
+## draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
 draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der Administration eingerichtet werden. 
 
@@ -241,7 +259,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat i
 
 
 
-## Analytics {: #analytics}
+## Analytics [:octicons-tag-16:{ title="ab Release 12.3 (OO-3243)" }](https://track.frentix.com/issue/OO-3243){:target="_blank"} {: #analytics}
 
 Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. Google Analytics.
 
@@ -249,22 +267,22 @@ Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. 
 
 
 
-## KI Modul {: #ai_modul}
+## KI Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
-Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
+Hier aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
 
-[Zu den Details > >](External_Tools_AI.de.md)<br>
+[Zu den Details >](External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
 
-## PDF Generator {: #pdf_generator}
+## PDF Generator [:octicons-tag-16:{ title="ab Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten oder ähnliches. 
 Diese Funktionen stehen nur zur Verfügung, wenn ein PDF-Service konfiguriert ist. 
 
 
-### Gotenberg (empfohlen) {: #gotenberg}
+### Gotenberg (empfohlen) [:octicons-tag-16:{ title="ab Release 17.2.4 (OO-6886)" }](https://track.frentix.com/issue/OO-6886){:target="_blank"} {: #gotenberg}
 
 Gotenberg ist ein PDF Generator der auf Google Chrome oder Chromium basiert und es ist Docker basiert.
 
