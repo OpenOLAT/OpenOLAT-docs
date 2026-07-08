@@ -80,11 +80,13 @@ In diesem Editor für die Beschreibung können Sie neben Text, Bildern und Links
 ---
 
 
-## Produkt importieren {: #import_product}
+## Produkte importieren und exportieren {: #import_product}
 
-Soll ein bereits bestehendes Produkt für Ihre Planung verwendet werden, können Sie auch Produkte importieren. Klicken Sie dazu auf die 3 Punkte neben dem Button "Produkt erstellen".
+Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel-Datei importieren oder exportieren. Der Import-Assistent prüft die Daten in mehreren Schritten und zeigt vor der Ausführung genau an, was neu erstellt, geändert oder ignoriert wird [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
-![course_planner_product_import_v1_de.png](assets/course_planner_product_import_v1_de.png){ class="shadow lightbox" }  
+!!! note "Import / Export"
+
+    Eine ausführliche Beschreibung finden Sie unter [Course Planner: Import / Export](Course_Planner_Import_Export.de.md).
 
 [zum Seitenanfang ^](#products)
 

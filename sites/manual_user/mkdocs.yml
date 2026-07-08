@@ -160,6 +160,7 @@ nav:
         - Overview: "area_modules/Course_Planner.md"
         - Dashboard: "area_modules/Course_Planner_Dashboard.md"
         - Products: "area_modules/Course_Planner_Products.md"
+        - Import / Export: "area_modules/Course_Planner_Import_Export.md"
         - Implementations: "area_modules/Course_Planner_Implementations.md"
         - Events: "area_modules/Course_Planner_Events.md"
         - Certification programs: "area_modules/Course_Planner_Certification_Programs.md"
