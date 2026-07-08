@@ -42,7 +42,25 @@ Activation and configuration can be carried out if the required licenses are ava
 
 ## Microsoft Teams {: #_microsoft_teams}
 
-Activation and configuration can be carried out if the required licenses are available.
+Microsoft Teams is the web conferencing solution from Microsoft. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
+
+**Prerequisites for activation:**
+
+* A Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses.
+* The access data for the tenant (Application (client) ID, Client secret, Tenant GUID) is stored at server level in the OpenOlat configuration. For hosted instances, this is done by the frentix support.
+
+**Prerequisites for use:**
+
+* Users log in to OpenOlat with the Microsoft account of their organisation (Azure login). This is a prerequisite for opening meetings: OpenOlat creates the online meetings via the Microsoft Graph API on behalf of the logged-in person.
+
+**Configuration in the administration:**
+
+* Activate the module "Microsoft Teams".
+* Under "Activate for", define where Microsoft Teams may be used: course element "Microsoft Teams", course events, course element "Appointment scheduling", groups and supervisor chat.
+
+In addition, the administration provides the tabs "Online-meetings" (overview of all meetings of the instance) and "Calendar" (room bookings).
+
+How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described in the user manual in the section [Roles in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
 
 [To the top of the page ^](#ext_tools)
 

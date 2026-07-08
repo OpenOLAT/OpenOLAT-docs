@@ -6,11 +6,11 @@ As an administrator activate/deactivate in the **Video configuration** tab,
 
 - whether the **course element video** may be used by authors.
 
-- Settings for transcoding<br>
-You can specify which resolutions are to be created. <br>
-From version 19.0, the original file (master) can also be deleted or replaced to optimise storage space.
+- Settings for transcoding. You can specify which resolutions are to be created. The original file (master) can also be deleted or replaced to optimise storage space.
 
-!!! tip "Hint"
+The frentix cloud transcoding service can also automatically generate subtitles (transcripts) for videos during transcoding [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}. This function is part of the frentix cloud service and is not included in the standard distribution of OpenOlat. For details, see the chapter [Learning resource: Video](../../manual_user/learningresources/Learning_resource_Video.md#video_subtitles_auto) in the user manual.
+
+!!! info "Important"
 
     If a transcoding/conversion service is used in a cloud, local audio and video conversion is deactivated.<br> If neither a service in the cloud nor the local audio and video conversion are active, it is usually because HandBrake or ffmpeg could not be found or started.
 
