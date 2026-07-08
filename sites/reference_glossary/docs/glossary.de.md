@@ -222,6 +222,22 @@ Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden.
 
 Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer/innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
 
+### Reporte
+
+Button im Coaching Tool, öffnet den Bereich Reporting.
+
+### Reporting
+
+Bereich im Coaching Tool, in dem berechtigte Rollen Excel-Reports anhand von Reportvorlagen erstellen.
+
+### Reportvorlagen
+
+Tabelle im Bereich Reporting des Coaching Tools; listet die verfügbaren Reports mit Name, Kategorie, Beschreibung und Typ (Statisch/Dynamisch).
+
+### Generierter Report
+
+Abschnitt im Bereich Reporting des Coaching Tools; listet die erzeugten Excel-Dateien, die 10 Tage zum Download bereitstehen.
+
 ### Herkömmlicher Kurs
 
 Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
@@ -249,6 +265,26 @@ Web-based Distributed Authoring and Versioning für Dateizugriff.
 ### KI Modul
 
 Integration von KI-Funktionen für Inhaltsgenerierung und Unterstützung.
+
+### KI Anbieter
+
+Der Dienstleister, dessen KI-Modelle für die KI-gestützten Funktionen in OpenOlat genutzt werden. Im KI Modul können mehrere Anbieter parallel konfiguriert werden (OpenAI, Anthropic Claude, generische OpenAI-kompatible Dienste).
+
+### KI Funktion
+
+Ein KI-gestützter Einsatzbereich in OpenOlat (z.B. MC Fragen Generator, Bildbeschreibungs-Generator), dem im KI Modul ein KI Anbieter und ein Modell zugewiesen werden.
+
+### MC Fragen Generator
+
+KI Funktion, die aus einem Quelltext Vorschläge für Multiple-Choice-Fragen im Fragenpool erstellt.
+
+### Bildbeschreibungs-Generator
+
+KI Funktion, die für hochgeladene Bilder Titel, Beschreibung, Alt-Text und Schlagwörter generiert.
+
+### Markdown-Import
+
+Importfunktion des Content Editors, die Markdown-Dateien oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
 
 ### Bewertungswerkzeug
 

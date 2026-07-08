@@ -334,6 +334,10 @@ Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe f�
 
 Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
 
+### Generierter Report
+
+Abschnitt im Bereich Reporting des Coaching Tools; listet die erzeugten Excel-Dateien, die 10 Tage zum Download bereitstehen.
+
 ### Glossar
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -685,6 +689,18 @@ Werkzeuge für Qualitätssicherungsumfragen und Datenerfassungen.
 ### Qualitätsverwalter/in
 
 Kann Qualitätsmanagement-Prozesse verwalten.
+
+### Reporte
+
+Button im Coaching Tool, öffnet den Bereich Reporting.
+
+### Reporting
+
+Bereich im Coaching Tool, in dem berechtigte Rollen Excel-Reports anhand von Reportvorlagen erstellen.
+
+### Reportvorlagen
+
+Tabelle im Bereich Reporting des Coaching Tools; listet die verfügbaren Reports mit Name, Kategorie, Beschreibung und Typ (Statisch/Dynamisch).
 
 ### Repository-Eintrag
 
