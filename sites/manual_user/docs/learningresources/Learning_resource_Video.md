@@ -24,7 +24,7 @@ The "Video" learning resource has the following administration menus:
 * [Member Management](../learningresources/Members_management.md): Primarily relevant when using the video learning resource on its own. If the video is used within a course, members do not need to be managed separately. Only additional owners of the learning resource are added and managed in this menu.
 * **Video Editor** (see below)
 * [Offer Types](../learningresources/Offer_Types.md): Links to the booking orders
-* **Replace Video**: Allows you to upload a different or new video file to the learning resource. This is useful, for example, when updating a video. The link to the learning resource and any embedded content remain intact while the new video is displayed. 
+* **Replace Video**: Allows you to upload a different or new video file to the learning resource. This is useful, for example, when updating a video. The link to the learning resource and any embedded content remain intact while the new video is displayed. If subtitles already exist for the video and the frentix cloud transcoding service is active, OpenOlat asks when replacing the video whether new subtitles should be generated (see [Tab "Configure subtitles"](#video_subtitles)).
 * **Copy:** Creates a copy of the learning resource, including all interactive elements added using the video editor.
 * **Export content**: Creates a ZIP file of the learning resource, which can be saved locally and imported into other OpenOlat systems or used as a backup. 
 * **Delete video**
@@ -45,7 +45,7 @@ On the "Info" tab, you can enter a description, a teaser, and a tag, which will 
 For more information on setting up the info page, see the section ["Set up info page"](../learningresources/Set_up_info_page.md).
 
 
-!!! Tip "Hint"
+!!! tip "Tip"
 
     Since the learning resource is already a video, it is usually neither practical nor necessary to include a teaser video as well. One exception would be a short summary of a longer video intended to provide a preview of its content. However, this video would only be visible if the video learning resource is offered on its own and not as part of a course. For more information, see the "Sharing" tab. 
 
@@ -71,12 +71,14 @@ On the "Configure Poster" tab, you can specify which thumbnail image should be u
 
 Using the "Replace Poster" button, you can choose between different still images from the video, or alternatively, use the "Upload Poster" button to upload your own image as the thumbnail (poster). If no poster is selected, the still image from the beginning of the video will appear.
 
-!!! info "Attention"
+!!! tip "Tip"
 
     Please note that an uploaded image should have the same pixel dimensions as the original video. You can find the relevant information in the "Meta data" tab.
 
 
 ###  Tab "Configure subtitles"  {: #video_subtitles}
+
+Subtitles can be uploaded manually or, if the frentix cloud transcoding service is active, generated automatically (see [Automatic subtitle generation](#video_subtitles_auto)).
 
 If necessary, create a subtitle file for your video outside of OpenOlat and integrate it in the "Configure Subtitles" tab by uploading the VTT file and selecting the appropriate language.
 
@@ -125,6 +127,25 @@ The following example shows the beginning of a typical VTT file:
 
 Subtitles that have already been created are listed in a table and can also be deleted there.
 
+#### Automatic subtitle generation [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"} {: #video_subtitles_auto}
+
+If the frentix cloud transcoding service is activated for the OpenOlat instance, the service automatically creates a subtitle file (transcript) in WebVTT format when transcoding an uploaded video. The following applies:
+
+* The language of the video is detected automatically and assigned to the subtitle.
+* If a subtitle file already exists for the detected language, it remains unchanged. Automatically generated subtitles do not overwrite any existing files.
+* Automatically generated subtitles appear in the subtitles table just like manually uploaded ones and can also be deleted there.
+
+!!! info "Important"
+
+    Automatic subtitle generation is part of the frentix cloud transcoding service and is not included in the standard distribution of OpenOlat. If you are interested, please contact the frentix support.
+
+#### Subtitles when replacing a video [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
+
+If a new video file is uploaded via the "Replace Video" administration menu and subtitles already exist, OpenOlat asks in the dialog "Generate subtitle?" whether a new subtitle should be generated for the replaced video, provided the cloud transcoding service is active.
+
+* **Yes**: The existing subtitle files are deleted and new subtitles are automatically generated for the new video.
+* **No**: The existing subtitle files are kept.
+
 #### Show subtitles in the video
 
 By default, videos in OpenOlat play without subtitles. 
@@ -132,11 +153,9 @@ By default, videos in OpenOlat play without subtitles.
 When subtitles are available, the following icon appears in the video player:
 ![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), and means that subtitles are hidden until the user turns them on. In OpenOlat, it looks like this:
+CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), and means that subtitles are hidden until the user turns them on. In OpenOlat, this function is located at the bottom right of the player. When you hover your mouse pointer over the icon, the list of available subtitles unfolds. The currently selected option is highlighted.
 
 ![Untertitel](assets/video_subtitle.png)
-
-When you hover your mouse pointer over the icon, a list of available subtitles will appear. The currently selected option is highlighted.
 
 ###  "Video Quality" tab {: #video_quality}
 
@@ -148,7 +167,7 @@ In the video player, you can select the desired resolution using the "Source Cho
 
 ![video_aufloesung.png](assets/video_aufloesung.png)
 
-!!! info "Info"
+!!! info "Important"
 
     You cannot configure settings for videos added via "Import URL".
 
@@ -156,7 +175,7 @@ In the video player, you can select the desired resolution using the "Source Cho
 
 In the Download tab, you can specify whether users are allowed to download the video or not.
 
-!!! info "Info"
+!!! info "Important"
 
     You cannot configure settings for videos added via "Import URL".    
 
@@ -189,7 +208,7 @@ The Video Editor includes three editing areas:
 The following can be configured: Chapters, annotations, segments, comments and quizzes. 
 
 
-### Video editor: Chapters {: #video_chapter}
+### Video editor: Chapters [:octicons-tag-16:{ title="from Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
 "Chapters" can be added to each video as jump labels. This simplifies especially the navigation in the video and should be used for longer videos. A chapter is added with the button **"Add chapter"**. The name of the chapter can be inserted. Additionally the begin of the chapter needs to be defined.
 
@@ -239,7 +258,7 @@ Inserted segments are displayed in a separate track on the timeline, allowing yo
 
 ![learning_resource_video_segments4_v1_de.png](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hints"
+!!! tip "Hints"
 
     * Use the play button on the video to check your work.
     * You can click on a segment in the timeline to go directly to the editing screen for that segment.

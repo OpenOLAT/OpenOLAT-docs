@@ -56,6 +56,8 @@ Various devices / browsers have different screen resolutions and support differe
 
 Transcoding is the conversion of an audio or video file to a different audio format or video format.
 
+If the frentix cloud transcoding service is used for the OpenOlat instance, the service can automatically generate subtitles for the video during transcoding. For details, see the chapter [Learning resource: Video](../learningresources/Learning_resource_Video.md#video_subtitles_auto).
+
 The following versions of a video are sensible, depending on intended utilisation:
 
   * mp4 / h264 high resolution and high bitrate: Desktop application   
