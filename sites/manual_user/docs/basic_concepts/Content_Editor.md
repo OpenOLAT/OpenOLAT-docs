@@ -8,7 +8,7 @@ The aim is to enable an adaptive design so that the content is also displayed ap
 
 ![content_editor_v1_de.png](assets/content_editor_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Note"
+!!! note "Note"
 
     Another editor in OpenOlat is, for example, the HTML editor "Tiny MC", which is used in the course element [HTML page](../learningresources/Course_Element_HTML_Page.md), for example.
 
@@ -16,7 +16,7 @@ The aim is to enable an adaptive design so that the content is also displayed ap
 
 The content editor is used in the [Course element page](../learningresources/Course_Element_Page.md), in the [Learning resource “Form”](../learningresources/Form.md) and in the [“Portfolio 2.0”](../area_modules/The_portfolio_editor.md).
 
-### Course element page {: #course_element_page}
+### Course element page [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
 The Content Editor is activated in the "Page" course block either in the Course Editor under the "Page Content" tab, or—when the Course Editor is closed—by enabling edit mode directly on the desired "Page" course block. 
 
@@ -56,7 +56,7 @@ The displayed options for inserting content are adapted to the form, e.g. differ
 ---
 
 
-### E-portfolio {: #portfolio}
+### E-portfolio [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
 This also applies to entries in [portfolio folders](../ area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), the Content Editor is used.
 
@@ -143,7 +143,7 @@ Consistent spacing between the layout fields (content blocks) is important for c
 
 **Block style "Note"**
 
-Starting with Release 18.2.3, layouts and some content blocks can be displayed as formatted info boxes. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box—along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
+Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box—along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
 
 ![content_editor_box_inspector_v1_de.png](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
 
@@ -208,14 +208,14 @@ This text element does not exist in the Form Editor.
 
 ### Media {: #media}
 
-!!! info "Info"
+!!! info "Important"
 
     Instead of the "Media" section and its associated content elements, the [Form Editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
 
 
 <h3>Image</h3>
 
-All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center.
+All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
 <h3>Gallery</h3>
 
@@ -263,18 +263,18 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 ---
 
-### Knowledge {: #quiz}
+### Knowledge [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
-!!! info "Info"
+!!! info "Important"
 
-    This section is available only in the Content Editor of the Course Building Block page.
+    This section is available only in the Content Editor of the course element "Page".
 
 
 <h3>Quiz</h3>
 
 This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos, which enhances the learning experience.
  
-These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the "Test" or "Self-Test" course modules.
+These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
@@ -282,34 +282,45 @@ These short quiz questions are intended to encourage engagement with the course 
 
 ---
 
-### Importing Markdown Files {: #markdown}
+### Importing Markdown Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
 !!! info "Info"
 
     Markdown is a widely used text format that is output by many tools and AI applications. It allows for the seamless import and reuse of existing content without the need for additional formatting. At the same time, it supports a clear structure and facilitates the ongoing development of learning content.
 
-Starting with version 20.3, Markdown files can be imported directly into the Content Editor, allowing content from external tools or plain text files to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily. The content is automatically converted into the Content Editor’s functional blocks, such as Title, Table, Info Box, etc.
+Markdown files can be imported directly into the Content Editor, allowing content from external tools or plain text files to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily.
 
-Images are imported directly into the Media Center, and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
+To import, click the **"Import Markdown"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
 
-To import, click the button at the bottom of the content editor. You can either import an entire file or paste Markdown-formatted text into an input field. 
+* **Upload file:** Markdown files (.md, .markdown, .txt) and ZIP archives are supported, each up to a maximum of 50 MB. A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.
+* **Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
 
 ![content_editor_content_markdown2_v1_de.png](assets/content_editor_content_markdown2_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#content_editor)
+During import, the markdown elements are converted into blocks of the Content Editor as follows:
 
----
+| Markdown element | Block in the Content Editor |
+|------------------|-----------------------------|
+| Heading (level 1 to 6) | Title |
+| Paragraph | Text |
+| Horizontal rule (`---`) | Separator |
+| Code block | Code example (with detected programming language) |
+| Blockquote (`>`) | Text with alert box |
+| GitHub admonition (e.g. `> [!WARNING]`) | Text with alert box of the matching type |
+| List (bulleted or numbered) | Text with list |
+| Table | Table |
+| Image | Image (stored in the Media Center) |
+| Math block (`$$...$$`) | Math formula |
 
+In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
 
-### Importing Word Files {: #word}
+**Images during import**
 
-Just like Markdown files, Word files (version 20.3 and later) can also be imported.
+Images are imported directly into the Media Center, and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
 
-![content_editor_content_markdown3_v1_de.png](assets/content_editor_content_markdown3_v1_de.png){ class="shadow lightbox" }
+Images with absolute URLs are downloaded during import, provided the administrators have approved the respective domain for external media. Base64 images embedded directly in the markdown (data URIs) are also imported.
 
-!!! info "Note"
-
-    Not all Word features can be imported into the Content Editor. The conversion of images may not be fully compatible. Please review the imported content carefully.
+If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", metadata (alt text, description, keywords) is automatically generated by AI in the background for imported images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. A reduced version of the image is transmitted to the AI service. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 
 [To the top of the page ^](#content_editor)
 

@@ -48,7 +48,7 @@ Administrative users, such as learning resource managers and administrators, hav
 
 Different **file formats** and **content elements** are stored in the media center.
 
-* images (png, jpg, ...)
+* images (png, jpg, svg [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}, ...)
 * video files (mp4)
 * audio files (mp3)
 * Office documents (docx, xlsx, pptx, ...)
@@ -75,14 +75,14 @@ There are various ways to store media in the Media center:
 
 ### Upload or link existing media directly in the Media Center {: #add_existing}
 
-* **Add media file:** Upload images, videos, pdf, Excel, etc.
+* **Add media file:** Upload images, videos, pdf, Excel, etc. If the AI module is enabled, metadata such as title, description, alt text and tags can be pre-filled by AI via a button when uploading images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 * **Add video via URL**: Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
 * **Add citation:**  Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and comprehensively.
 
 ### Create new media directly in the Media Center {: #create_in_media_center}
 
 * **Create document:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
-* Create **draw.io diagram**: Creates a diagram, flowchart or drawing with the draw.io tool, as of :octicons-tag-24: Release 18.1.
+* Create **draw.io diagram**: Creates a diagram, flowchart or drawing with the draw.io tool [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 * **Add text:** Text elements for use in the content editor, created with a simple HTML editor
 * **Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.
 * **Record Audio**:Audio recording function integrated in OpenOlat. If you click on "Record audio", the recording function is started, provided access has been permitted in the browser.
@@ -142,7 +142,7 @@ If you select at least one list entry at the beginning of a line in the table vi
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
 
-!!! info "Info"
+!!! info "Important"
 
     Please note that you can only delete **your own** media that are not integrated in other places in OpenOlat.
 

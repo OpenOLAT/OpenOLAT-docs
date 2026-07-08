@@ -250,6 +250,26 @@ Web-based Distributed Authoring and Versioning for file access.
 
 Integration of AI capabilities for content generation and assistance.
 
+### AI provider
+
+The service provider whose AI models are used for the AI-powered features in OpenOlat. Multiple providers can be configured in parallel in the AI module (OpenAI, Anthropic Claude, generic OpenAI-compatible services).
+
+### AI feature
+
+An AI-powered area of use in OpenOlat (e.g. MC Question Generator, Image Description Generator) to which an AI provider and a model are assigned in the AI module.
+
+### MC Question Generator
+
+AI feature that creates suggestions for multiple-choice questions in the question pool from a source text.
+
+### Image Description Generator
+
+AI feature that generates title, description, alt text and keywords for uploaded images.
+
+### Markdown import
+
+Import function of the content editor that automatically converts markdown files or pasted markdown text into content editor blocks.
+
 ### Assessment tool
 
 Central interface for coaches and owners to evaluate, grade, and manage learner assessments.

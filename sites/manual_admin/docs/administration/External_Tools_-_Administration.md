@@ -15,7 +15,7 @@ To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated 
 [View more details >](BigBlueButton_module.md)
 
 
-## OpenMeetings {: #openmeetings}
+## OpenMeetings [:octicons-tag-16:{ title="from Release 8.3.0 (OO-406)" }](https://track.frentix.com/issue/OO-406){:target="_blank"} {: #openmeetings}
 
 OpenMeetings is a solution for web conferences.
 
@@ -31,7 +31,7 @@ The tab "Rooms" gives administrators an overview of the OpenMeetings rooms creat
 [To the top of the page ^](#ext_tools)
 
 
-## Adobe Connect {: #adobe_connect}
+## Adobe Connect [:octicons-tag-16:{ title="from Release 14.0 (OO-3887)" }](https://track.frentix.com/issue/OO-3887){:target="_blank"} {: #adobe_connect}
 
 Adobe Connect is the web conferencing solution from the Adobe product line.
 
@@ -40,7 +40,7 @@ Activation and configuration can be carried out if the required licenses are ava
 [To the top of the page ^](#ext_tools)
 
 
-## Microsoft Teams {: #_microsoft_teams}
+## Microsoft Teams [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
 Microsoft Teams is the web conferencing solution from Microsoft. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
 
@@ -65,7 +65,7 @@ How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting 
 [To the top of the page ^](#ext_tools)
 
 
-## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
+## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
 To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, these two tools must be activated. (They can be activated individually).
 
@@ -75,7 +75,7 @@ The prerequisite is that the required licenses are available.
 [To the top of the page ^](#ext_tools)
 
 
-## Zoom {: #zoom}
+## Zoom [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom is software that can be used to hold video conferences, meetings, and webinars.
 To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the administration. 
@@ -84,7 +84,7 @@ To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in th
 [To the top of the page ^](#ext_tools)
 
 
-## LTI 1.3 {: #lti}
+## LTI 1.3 [:octicons-tag-16:{ title="from Release 15.5.0 (OO-5205)" }](https://track.frentix.com/issue/OO-5205){:target="_blank"} {: #lti}
 
 Here LTI 1.3 can be activated and configured in more detail e.g. external LTI platforms and tools can be connected.
 
@@ -92,7 +92,7 @@ Here LTI 1.3 can be activated and configured in more detail e.g. external LTI pl
 [To the top of the page ^](#ext_tools)
 
 
-## GoToTraining {: #go_to_training}
+## GoToTraining [:octicons-tag-16:{ title="from Release 10.5 (OO-1944)" }](https://track.frentix.com/issue/OO-1944){:target="_blank"} {: #go_to_training}
 
 GoToTraining is a virtual training platform.
 
@@ -127,7 +127,7 @@ Please note that user accounts are automatically created for the OLAT connection
 [To the top of the page ^](#ext_tools)
 
 
-## JupyterHub {: #jupyter}
+## JupyterHub [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
 JupyterHub is used to provide Jupyter images for learners.
 
@@ -135,7 +135,7 @@ JupyterHub is used to provide Jupyter images for learners.
 [To the top of the page ^](#ext_tools)
 
 
-## card2brain {: #card2brain}
+## card2brain [:octicons-tag-16:{ title="from Release 11.5 (OO-2699)" }](https://track.frentix.com/issue/OO-2699){:target="_blank"} {: #card2brain}
 
 card2brain is a software for learning with a flashcard system.
 
@@ -145,7 +145,7 @@ Activation and configuration can be carried out if the required licenses are ava
 [To the top of the page ^](#ext_tools)
 
 
-## Edubase/Edubook {: #edubase}
+## Edubase/Edubook [:octicons-tag-16:{ title="from Release 12.2 (OO-2916)" }](https://track.frentix.com/issue/OO-2916){:target="_blank"} {: #edubase}
 
 Edubase is an e-book platform.
 
@@ -155,14 +155,14 @@ Activation and configuration can be carried out if the required licenses are ava
 [To the top of the page ^](#ext_tools)
 
 
-## YouTube API {: #youtube_api}
+## YouTube API [:octicons-tag-16:{ title="from Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
 
-Enter, remove or check API key.
+Enter, remove or check API key. The key is used to automatically import metadata such as title, description and license when embedding YouTube videos.
 
 [To the top of the page ^](#ext_tools)
 
 
-## Opencast {: #opencast}
+## Opencast [:octicons-tag-16:{ title="from Release 15.2 (OO-4836)" }](https://track.frentix.com/issue/OO-4836){:target="_blank"} {: #opencast}
 
 Opencast is an open source software for planning, recording and publishing audiovisual learning content, especially for the recording and distribution of courses.
 
@@ -171,7 +171,7 @@ After activation, the API and LTI configuration can be carried out. BigBlueButto
 [To the top of the page ^](#ext_tools)
 
 
-## MediaSite {: #mediasite}
+## MediaSite [:octicons-tag-16:{ title="from Release 16.0.4 (OO-5492)" }](https://track.frentix.com/issue/OO-5492){:target="_blank"} {: #mediasite}
 
 Activation of MediaSite. MediaSite is an automated video platform for video
 recording, video management and subtitling. The OpenOlat Mediasite module
@@ -201,7 +201,7 @@ Configuration takes place in four steps:
 [To the top of the page ^](#ext_tools)
 
 
-## Document editors {: #dokumenteneditoren}
+## Document editors [:octicons-tag-16:{ title="from Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
 Various tools can be used in OpenOlat to edit Office documents:
 
@@ -213,7 +213,7 @@ The prerequisite in each case is that the necessary licenses are available.
 [To the top of the page ^](#ext_tools)
 
 
-## draw.io  {: #draw_io}
+## draw.io [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
 draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the administration.
 
@@ -221,14 +221,14 @@ draw.io is an online tool for creating diagrams that can be used in many places 
 [To the top of the page ^](#ext_tools)
 
 
-## Analytics {: #analytics}
+## Analytics [:octicons-tag-16:{ title="from Release 12.3 (OO-3243)" }](https://track.frentix.com/issue/OO-3243){:target="_blank"} {: #analytics}
 
 Possibility to activate external analytics services., e.g. Google Analytics.
 
 [To the top of the page ^](#ext_tools)
 
 
-## AI Module {: #ai_modul}
+## AI Module [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
 This is where you activate and configure the artificial intelligence tools that can be integrated into OpenOlat. 
 
@@ -236,13 +236,13 @@ This is where you activate and configure the artificial intelligence tools that 
 [To the top of the page ^](#ext_tools)
 
 
-## PDF Generator {: #pdf_generator}
+## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists or similar. 
 These functions are only available if one of the PDF services below is configured. 
 
 
-### Gotenberg (recommended) {: #gotenberg}
+### Gotenberg (recommended) [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6886)" }](https://track.frentix.com/issue/OO-6886){:target="_blank"} {: #gotenberg}
 
 Gotenberg is a PDF Generator based on Google Chrome or Chromium, and it is docker based.
 

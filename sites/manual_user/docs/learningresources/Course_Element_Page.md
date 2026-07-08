@@ -27,7 +27,7 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 
 
 
-## Create page content
+## Create page content [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
 
 The course element page is added in the course editor and configured in the tabs.
 Open the editor in **tab "Page content"** .
@@ -37,6 +37,10 @@ Open the editor in **tab "Page content"** .
 The **Content Editor** will open. First, add a new layout. (More of these layouts can be added).
 
 ![course_element_page_tab_layout1_v1_de.png](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
+
+There are two ways to fill the page: content elements are added individually, or existing content in markdown format is imported in one step.
+
+### Adding content elements individually {: #add_elements}
 
 One or more **content elements** can be added in each field of a layout.
 
@@ -49,23 +53,31 @@ The following content elements are available:
 * **Paragraph:** A text that can be designed with a small HTML editor.
 * **Table:** Table, which can be designed in an associated popup.
 * **Mathematical formula:** Creating mathematical formulas with the MathJax formula editor.
-* **Code:** Display of programming code without execution.<br> 
-30 different programming languages, since :octicons-tag-24: release 18.2.
+* **Code:** Display of programming code without execution.
+30 different programming languages [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}
 ![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
 * **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
-* **Audio:** Select audio, re-record or add as MP3 or m4a file. Since :octicons-tag-24: release 18.2. 
+* **Audio:** Select audio, re-record or add as MP3 or m4a file [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
 * **Image:** Inserting an image from the Media Center or uploading.
-* **Image gallery:** Display of several images as a slideshow, in a grid or with small thumbnails. As of :octicons-tag-24: Release 19.
-* **Image comparison:** Two superimposed images can be blended using a slider. As of :octicons-tag-24: Release 19. 
+* **Image gallery:** Display of several images as a slideshow, in a grid or with small thumbnails [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
+* **Image comparison:** Two superimposed images can be blended using a slider [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
 * **Video:** Inserting a video file from the Media Center or uploading or new recording
-* **draw.io graph:** Create new or select from the list. Since :octicons-tag-24: release 18.2. 
+* **draw.io graph:** Create new or select from the list [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 * **Citations:** Citations can be stored and reused as standalone content items in the Media Center.
 * **From my Media Center:** Access to all elements of your own Media Center. New elements can also be created for the Media Center.
 * **Text segment:** A text that can be designed with an HTML editor. (With slightly more options than in the Paragraph content element).
 * **Separator:** A line used to visually separate two layouts. 
 
+### Importing existing content from markdown [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 
-## Edit page (Edit mode)
+Instead of building the page element by element, existing content in markdown format can be imported directly: as a file upload or as pasted text, e.g. from the clipboard. OpenOlat automatically converts the content into the matching blocks of the Content Editor (Title, Text, Table, Code example, Image, etc.); referenced images are stored in the Media Center.
+
+This allows content from external tools, plain text files or AI applications to be adopted as a course page without manual reformatting.
+
+[Details on markdown import >](../basic_concepts/Content_Editor.md#markdown)
+
+
+## Edit page (Edit mode) [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
 
 ### Edit layout
 
@@ -120,7 +132,7 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
     If only Office documents are to be included, the course elements "Document" or "Folder" can be used as an alternative.
 
 
-!!! info "Info"
+!!! info "Important"
 
     The page can be edited by course owners or optionally by coaches.
 
