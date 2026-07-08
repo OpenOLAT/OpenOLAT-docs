@@ -25,7 +25,7 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs:
 * [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Video Lernressource. Wird das Video in einem Kurs verwendet brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer*innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
 * **Video-Editor** (siehe unten)
 * [Angebotsarten](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen
-* **Video ersetzen**: Möglichkeit eine andere/neue Video Datei in der Lernressource zu hinterlegen. Das bietet sich z.B. für Aktualisierungen eines Videos an. Der Link zur Lernressource sowie eventuelle Einbindungen bleibt dabei erhalten, während das neue Video angezeigt wird. 
+* **Video ersetzen**: Möglichkeit eine andere/neue Video Datei in der Lernressource zu hinterlegen. Das bietet sich z.B. für Aktualisierungen eines Videos an. Der Link zur Lernressource sowie eventuelle Einbindungen bleibt dabei erhalten, während das neue Video angezeigt wird. Sind für das Video bereits Untertitel vorhanden und ist der frentix Cloud-Transcodingservice aktiv, fragt OpenOlat beim Ersetzen, ob neue Untertitel generiert werden sollen (siehe [Tab "Untertitel konfigurieren"](#video_subtitles)).
 * **Kopieren:** Erstellt eine Kopie der Lernressource inklusive aller ergänzten interaktiven Elemente des Video-Editors.
 * **Inhalt exportieren**: Erstellt eine zip Datei der Lernressource, die lokal gespeichert werden und in andere OpenOlat Systeme importiert oder als Back up verwendet werden kann. 
 * **Video löschen**
@@ -45,7 +45,7 @@ Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Ken
 
 Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Set_up_info_page.de.md).
 
-!!! Tip "Hint"
+!!! tip "Tipp"
 
     Da es sich bei der Lernressource bereits um ein Video handelt ist es in den meisten Fällen nicht sinnvoll oder notwendig noch ein Teaser-Film zu hinterlegen. Eine Ausnahme wäre eine kurze Zusammenfassung eines längeren Videos, das im Vorfeld schon auf den Inhalt hinweisen soll. Dieses Video wäre aber nur sichtbar, wenn die Lernressource Video eigenständig und nicht integriert in einen Kurs angeboten wird. Weitere Infos dazu findet man im Tab "Freigabe". 
 
@@ -69,13 +69,15 @@ Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video
 
 Mit Hilfe der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
 
-!!! info "Achtung"
+!!! tip "Tipp"
 
     Bitte beachten Sie, dass ein hochgeladenes Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
 
 ###  Tab "Untertitel konfigurieren"  {: #video_subtitles}
 
-Erstellen Sie bei Bedarf außerhalb von OpenOlat eine Untertiteldatei für Ihr Video und binden Sie diese im Tab „Untertitel konfigurieren“ ein, indem Sie die VTT-Datei hochladen und die passende Sprache auswählen.
+Untertitel können manuell hochgeladen oder, bei aktivem frentix Cloud-Transcodingservice, automatisch generiert werden (siehe [Automatische Untertitelgenerierung](#video_subtitles_auto)).
+
+Erstellen Sie bei Bedarf ausserhalb von OpenOlat eine Untertiteldatei für Ihr Video und binden Sie diese im Tab „Untertitel konfigurieren“ ein, indem Sie die VTT-Datei hochladen und die passende Sprache auswählen.
 
 Einem Video können Untertitel in mehreren Sprachen zugewiesen werden. OpenOlat unterstützt das [WebVTT-Format](https://w3c.github.io/webvtt/) (siehe auch [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), daher muss die Datei mit der Endung .vtt gespeichert sein. Dieses Format ist mit den meisten gängigen Video-Playern kompatibel.
 
@@ -120,6 +122,25 @@ Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
  
 Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
 
+#### Automatische Untertitelgenerierung [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"} {: #video_subtitles_auto}
+
+Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, erstellt der Service beim Transcodieren eines hochgeladenen Videos automatisch eine Untertiteldatei (Transkript) im WebVTT-Format. Dabei gilt:
+
+* Die Sprache des Videos wird automatisch erkannt und dem Untertitel zugewiesen.
+* Existiert für die erkannte Sprache bereits eine Untertiteldatei, bleibt diese unverändert erhalten. Der automatisch generierte Untertitel überschreibt keine bestehenden Dateien.
+* Automatisch generierte Untertitel erscheinen wie manuell hochgeladene in der Untertitel-Tabelle und können dort auch wieder gelöscht werden.
+
+!!! info "Wichtig"
+
+    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse kontaktieren Sie den frentix Support.
+
+#### Untertitel beim Ersetzen eines Videos [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
+
+Wird über das Administrationsmenü "Video ersetzen" eine neue Videodatei hochgeladen und existieren bereits Untertitel, fragt OpenOlat bei aktivem Cloud-Transcodingservice im Dialog "Untertitel generieren?", ob für das neue Video ein neuer Untertitel generiert werden soll.
+
+* **Ja**: Die bestehenden Untertiteldateien werden gelöscht und für das neue Video werden automatisch neue Untertitel generiert.
+* **Nein**: Die bestehenden Untertiteldateien bleiben erhalten.
+
 #### Untertitel im Video anzeigen
 
 Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
@@ -127,11 +148,10 @@ Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt.
 Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
 ![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
+CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat ist diese Funktion im Player unten rechts zu finden. Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
 ![Untertitel](assets/video_subtitle.png)
 
-Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
 ###  Tab "Videoqualitäten" {: #video_quality}
 
@@ -143,7 +163,7 @@ Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Sour
 
 ![video_aufloesung.png](assets/video_aufloesung.png)
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
 
@@ -151,7 +171,7 @@ Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Sour
 
 Im Tab Download kann eingestellt werden, ob  User das Video herunterladen dürfen oder nicht.
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.    
 
@@ -183,7 +203,7 @@ Der Video Editor umfasst drei Bearbeitungsbereiche:
 Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Quiz. 
 
 
-### Video-Editor: Kapitel {: #video_chapter}
+### Video-Editor: Kapitel [:octicons-tag-16:{ title="ab Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
 Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos möglichst ergänzt werden. Ein Kapitel wird im Tab Kapitel mit der Schaltfläche "hinzufügen" angelegt. 
 
@@ -244,7 +264,7 @@ Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt un
 
 ![learning_resource_video_segments4_v1_de.png](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Tipps"
+!!! tip "Tipps"
 
     * Benutzen Sie den Abspielknopf des Videos um Ihre Arbeit zu kontrollieren.
     * Sie können ein Segment in der Timeline anklicken und gelangen dadurch direkt zur Bearbeitung dieses Segments.
@@ -252,9 +272,9 @@ Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt un
 
 Die Segmente werden vor allem im Kursbaustein Video-Aufgabe verwendet. Wofür könnte man die Segmente hier verwenden? Hier ein paar Ideen:
 
-a) Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. <br>
-b) Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.<br>
-c) Bei einem Beobachtungsvideo einer Kindergarten-Szene, eines Bewerbungsgesprächs oder sonstigen Realvideos sollen bestimmte typische Aspekte oder Fehler identifiziert werden.  
+**a)** Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. <br>
+**b)** Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.<br>
+**c)** Bei einem Beobachtungsvideo einer Kindergarten-Szene, eines Bewerbungsgesprächs oder sonstigen Realvideos sollen bestimmte typische Aspekte oder Fehler identifiziert werden.  
 
 
 ### Video-Editor: Kommentare :octicons-tag-16:{ title="ab Release 17.2 (OO-6766)" } {: #video_comments}
@@ -263,7 +283,7 @@ Kommentare lassen sich gezielt an einer bestimmten Stelle im Video platzieren. S
 
 Beim Abspielen stoppt das Video automatisch an der kommentierten Stelle. Um fortzufahren, muss der Kommentar aktiv geschlossen oder der Play-Button erneut angeklickt werden. Darin liegt der wesentliche Unterschied zu Annotationen.
 
-Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden – so entsteht ein "Video im Video" an der entsprechenden Stelle.
+Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden: so entsteht ein "Video im Video" an der entsprechenden Stelle.
 
 
 ![Video-Kommentare hinzufügen](assets/Video_Kommentare.jpg)  

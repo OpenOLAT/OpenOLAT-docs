@@ -58,6 +58,8 @@ Verschiedene Geräte / Browser haben verschiedene Bildschirmauflösungen und unt
 
 Die Transkodierung ist das Umwandeln einer Audio- oder Video-Datei in ein anderes Audioformat oder Videoformat.
 
+Wird für die OpenOlat-Instanz der frentix Cloud-Transcodingservice genutzt, kann der Service beim Transcodieren automatisch Untertitel für das Video erzeugen. Details dazu finden Sie im Kapitel [Lernressource: Video](../learningresources/Learning_resource_Video.de.md#video_subtitles_auto).
+
  Folgende Versionen eines Films sind abhängig von der Nutzung sinnvoll:
 
   * mp4 / h264 hoch auflösend mit hoher Bitrate für Desktop 
