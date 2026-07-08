@@ -145,7 +145,7 @@ Wenn Sie auf einen der gefundenen Kurse oder ein Produkt klicken, gelangen Sie z
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reporte >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>

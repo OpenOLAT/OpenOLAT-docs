@@ -18,7 +18,7 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 * Gruppen
 * Termine / Absenzen
 * Bewertungsaufträge
-* Reports
+* Reporte
 * Auftragsverwaltung
 
 ![coaching_tools_v1_de.png](assets/coaching_tools_v1_de.png){ class="shadow lightbox" }
@@ -157,7 +157,7 @@ Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reporte >](../area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
 
