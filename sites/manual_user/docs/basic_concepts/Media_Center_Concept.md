@@ -165,7 +165,7 @@ The storage space available in the Media Center can be limited by the OpenOlat a
 
 Authors usually require more storage space, so quota settings are configured separately for these power users. If you have any questions about storage requirements, please contact your administrator or user manager.
 
-!!! hint "Note"
+!!! note "Note"
 
         Only media that has been uploaded/created by the user is displayed as storage consumption. If all media displayed is exclusively referenced (shared by other authors), then storage consumption of 0 is displayed.
 
