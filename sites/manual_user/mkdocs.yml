@@ -111,7 +111,9 @@ nav:
       - Educational products: "area_modules/Coaching_Educational_Products.md"
       - Events and absences: "area_modules/Coaching_Events_Absences.md"
       - Assessment orders: "area_modules/Coaching_Assessment_Orders.md"
-      - Reports: "area_modules/Coaching_Reports.md"
+      - Reporting:
+        - Overview: "area_modules/Coaching_Reports.md"
+        - Certificate reports: "area_modules/Reports_Certficates.md"
       - Groups: "area_modules/Coaching_Groups.md"
       - Order management: "area_modules/Coaching_Order_Management.md"
     - Authoring:
