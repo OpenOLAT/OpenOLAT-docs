@@ -222,6 +222,22 @@ Cross-course overview for coaches to monitor learners. See also: Coaching Tool.
 
 The name used in OpenOlat for the tool in which coaches view learners, test corrections, and assessments across courses. See also: Coaching.
 
+### Reports
+
+Button in the Coaching tool that opens the Reporting area.
+
+### Reporting
+
+Area of the Coaching tool in which authorised roles create Excel reports based on report templates.
+
+### Report templates
+
+Table in the Reporting area of the Coaching tool; lists the available reports with name, category, description and type (static/dynamic).
+
+### Generated reports
+
+Section in the Reporting area of the Coaching tool; lists the generated Excel files, which are available for download for 10 days.
+
 ### Conventional course
 
 Traditional course design with menu-based navigation (non-learning-path).

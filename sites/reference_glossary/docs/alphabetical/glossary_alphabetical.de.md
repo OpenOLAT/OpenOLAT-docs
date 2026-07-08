@@ -130,6 +130,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
 
+### Bildbeschreibungs-Generator
+
+KI Funktion, die für hochgeladene Bilder Titel, Beschreibung, Alt-Text und Schlagwörter generiert.
+
 ### Bildungsprodukt
 
 Ein Produkt des Course Planner bestehend aus mehreren Kursen und Durchführungen, sichtbar im Coaching-Werkzeug.
@@ -298,6 +302,10 @@ Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden ka
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Fachbereich
+
+Ein taxonomiebasierter Klassifizierungsbegriff, der einer Lernressource zugewiesen wird, um die Katalogfilterung und Gruppierung in Taxonomie-Launchern zu ermöglichen.
+
 ### File Hub
 
 Zentraler Datei-Browser, der Dateien aus Kursen, Gruppen und persönlichem Speicher zusammenführt.
@@ -397,6 +405,14 @@ Widget im Dashboard, zeigt Angebote aus dem Katalog einer CPL-Durchführung.
 ### Kennzeichen
 
 Eine externe Kennung für eine Lernressource, z.B. aus einem Kurskatalog oder Vorlesungsverzeichnis.
+
+### KI Anbieter
+
+Der Dienstleister, dessen KI-Modelle für die KI-gestützten Funktionen in OpenOlat genutzt werden. Im KI Modul können mehrere Anbieter parallel konfiguriert werden (OpenAI, Anthropic Claude, generische OpenAI-kompatible Dienste).
+
+### KI Funktion
+
+Ein KI-gestützter Einsatzbereich in OpenOlat (z.B. MC Fragen Generator, Bildbeschreibungs-Generator), dem im KI Modul ein KI Anbieter und ein Modell zugewiesen werden.
 
 ### KI Modul
 
@@ -522,9 +538,17 @@ Learning Tools Interoperability Standard zur Integration externer Werkzeuge.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Markdown-Import
+
+Importfunktion des Content Editors, die Markdown-Dateien oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
+
 ### Massenbewertung
 
 Funktion, mit der Betreuer/innen mehrere Teilnehmende gleichzeitig bewerten können.
+
+### MC Fragen Generator
+
+KI Funktion, die aus einem Quelltext Vorschläge für Multiple-Choice-Fragen im Fragenpool erstellt.
 
 ### Media Center
 
@@ -597,6 +621,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 ### Organisationen
 
 Hierarchische Organisationsstruktur für rollenbasierte Verwaltung.
+
+### Papierkorb
+
+Der Bereich, in den gelöschte Lernressourcen vor der endgültigen Löschung verschoben werden.
 
 ### Passkey
 

@@ -34,9 +34,17 @@ Has full system administration rights.
 
 A course element (building block) that can be added to a course structure.
 
+### AI feature
+
+An AI-powered area of use in OpenOlat (e.g. MC Question Generator, Image Description Generator) to which an AI provider and a model are assigned in the AI module.
+
 ### AI module
 
 Integration of AI capabilities for content generation and assistance.
+
+### AI provider
+
+The service provider whose AI models are used for the AI-powered features in OpenOlat. Multiple providers can be configured in parallel in the AI module (OpenAI, Anthropic Claude, generic OpenAI-compatible services).
 
 ### All correct answers
 
@@ -386,6 +394,10 @@ A course element (building block) that can be added to a course structure.
 
 System-wide search for content across courses, learning resources, and user data.
 
+### Generated reports
+
+Section in the Reporting area of the Coaching tool; lists the generated Excel files, which are available for download for 10 days.
+
 ### Glossary
 
 A type of learning resource that can be created or imported in the authoring area.
@@ -425,6 +437,10 @@ A course element (building block) that can be added to a course structure.
 ### Image
 
 A type of learning resource that can be created or imported in the authoring area.
+
+### Image Description Generator
+
+AI feature that generates title, description, alt text and keywords for uploaded images.
 
 ### Implementation
 
@@ -518,9 +534,17 @@ Learning Tools Interoperability standard for external tool integration.
 
 A course element (building block) that can be added to a course structure.
 
+### Markdown import
+
+Import function of the content editor that automatically converts markdown files or pasted markdown text into content editor blocks.
+
 ### Master coach
 
 Supervises coaches across curriculum implementations.
+
+### MC Question Generator
+
+AI feature that creates suggestions for multiple-choice questions in the question pool from a source text.
 
 ### Media Center
 
@@ -714,6 +738,18 @@ A course element (building block) that can be added to a course structure.
 
 Process of re-earning a certificate after expiration within a certification program.
 
+### Report templates
+
+Table in the Reporting area of the Coaching tool; lists the available reports with name, category, description and type (static/dynamic).
+
+### Reporting
+
+Area of the Coaching tool in which authorised roles create Excel reports based on report templates.
+
+### Reports
+
+Button in the Coaching tool that opens the Reporting area.
+
 ### Repository entry
 
 A managed learning resource in the authoring area (course, test, form, etc.).
@@ -786,6 +822,10 @@ Internal file management area within a course for storing course files.
 
 A course element (building block) that can be added to a course structure.
 
+### Subject
+
+A taxonomy-based classification term assigned to a learning resource to enable catalog filtering and grouping in taxonomy launchers.
+
 ### Success status
 
 Metric in course and people lists of the Coaching Tool, shows the assessment status graphically and in figures: "Passed", "Not passed", "Not specified".
@@ -849,6 +889,10 @@ A course element (building block) that can be added to a course structure.
 ### Topic broker
 
 A course element (building block) that can be added to a course structure.
+
+### Trash can
+
+The area where deleted learning resources are moved before permanent deletion.
 
 ### User
 
