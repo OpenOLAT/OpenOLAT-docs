@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 04/15/2026**
+:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 06/17/2026**
 
 * * *
 
@@ -167,6 +167,8 @@ The transition of background images on the login page has been completely redesi
 
 - **Internal Security Audit:** As part of the quality assurance process for Release 20.3, an internal security audit was conducted and targeted security improvements were implemented.
 
+- **Events**: Input field for the URL of the meeting recording (:octicons-tag-24: Release 20.3.2)
+
 * * *
 
 ## Administrative / Technical
@@ -197,6 +199,7 @@ The transition of background images on the login page has been completely redesi
     - JSON, SwaggerUI, Selenium, AssertJ
     - Fabric.js from 4.4.0 to 6.4.0+
     - Prototype.js 1.7 removed
+- Rest API extension for Credit Point System (transactions, systems, balances) (:octicons-tag-24: Release 20.3.2)
 
 * * *
 
@@ -215,5 +218,9 @@ The transition of background images on the login page has been completely redesi
 
 ## Further information
 
+- [YouTrack Release notes 20.3.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.5&title=Release%20Notes%2020.3.5){:target="_blank"}
+- [YouTrack Release notes 20.3.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.4&title=Release%20Notes%2020.3.4){:target="_blank"}
+- [YouTrack Release notes 20.3.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.3&title=Release%20Notes%2020.3.3){:target="_blank"}
+- [YouTrack Release notes 20.3.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.2&title=Release%20Notes%2020.3.2){:target="_blank"}
 - [YouTrack Release notes 20.3.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.1&title=Release%20Notes%2020.3.1){:target="_blank"}
 - [YouTrack Release notes 20.3.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.0&title=Release%20Notes%2020.3.0){:target="_blank"}
