@@ -2,7 +2,7 @@
 
 ![Fragenpool](assets/Fragenpool_favoriten.png)
 
-## Übersicht über vorhandene Fragen {: #question_list}
+## Übersicht über vorhandene Fragen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
 Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad-Symbol ausgewählt sind.
 
@@ -15,7 +15,7 @@ Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können 
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Fragen im Fragenpool erstellen {: #create}
+## Fragen im Fragenpool erstellen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #create}
 
 Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden. 
 
@@ -26,26 +26,30 @@ Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum 
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen {: #create_with_AI}
+## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
 !!! warning "Achtung"
 
     Diese Funktion befindet sich in einer Versuchsphase. Bitte beachten Sie, dass Fehler auftreten können, wenn diese Funktion verwendet wird.
 
-Bei [aktiviertem KI-Modul](../../manual_admin/administration/External_Tools_-_Administration.de.md#ki_modul) können im Fragenpool auch Fragen mit Hilfe von künstlicher Intelligenz erstellt werden. 
+Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden.
+
+!!! info "Wichtig"
+
+    Diese Funktion steht nur zur Verfügung, wenn in der Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und die KI Funktion "MC Fragen Generator" mit einem KI Anbieter und Modell konfiguriert ist.
 
 ![question_bank_create_question_KI_v1_de.png](assets/question_bank_create_question_KI_v1_de.png){ class="shadow lightbox" }
 
 Mit dieser Funktion können Vorschläge für Multiple Choice Fragen mittels KI erstellt werden. Sie fügen direkt in OpenOlat im Feld "Quelltext" Textinhalte (max. 6000 Zeichen) als Ausgangsmaterial ein, das der KI übergeben wird, die daraus Fragen generiert. 
 
-Zur Zeit werden nur deutsche und englische Texte unterstützt. 
+Die Fragen werden in der Sprache des eingefügten Quelltextes erstellt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. 
 
 Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrektheit überprüft werden müssen.
 
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Beurteilung durch Fachkollegen {: #review}
+## Beurteilung durch Fachkollegen [:octicons-tag-16:{ title="ab Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #review}
 
 Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch Fachkollegen in einen Beurteilungsprozess gegeben werden.
 
@@ -53,7 +57,7 @@ Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Frage in den Pool freigeben {: #share_in_pool}
+## Frage in den Pool freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
 ![question_create_share_in_pool_v1_de.png](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
 
@@ -63,7 +67,7 @@ Es können mehrere Pools von dem/der Poolverwalter:in angelegt worden sein. Als 
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Frage in Gruppe freigeben {: #share_with_group}
+## Frage in Gruppe freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_with_group}
 
 Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe erstellen. Soll eine neu erstellte Frage zunächst ausschliesslich von den Gruppenmitgliedern einsehbar sein, können Sie in der Toolbar unter "Freigeben" die Frage auch nur für diese Gruppe freigeben.
 

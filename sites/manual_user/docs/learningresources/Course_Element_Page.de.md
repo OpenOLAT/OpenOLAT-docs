@@ -30,7 +30,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 
 
 
-## Seiteninhalt erstellen
+## Seiteninhalt erstellen [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
 
 Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguriert. Im **Tab "Seiteninhalt"** rufen Sie den Editor auf.
 
@@ -39,6 +39,10 @@ Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguri
 Es öffnet sich der **Content Editor**. Fügen Sie zunächst ein neues Layout ein. (Es können weitere dieser Layouts ergänzt werden.)
 
 ![course_element_page_tab_layout1_v1_de.png](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
+
+Für das Befüllen der Seite stehen zwei Wege zur Verfügung: Inhaltselemente werden einzeln hinzugefügt, oder bestehende Inhalte im Markdown-Format werden in einem Schritt importiert.
+
+### Inhaltselemente einzeln hinzufügen {: #add_elements}
 
 In jedem Feld eines Layouts können ein oder mehrere **Inhaltselemente** hinzugefügt werden.
 
@@ -50,23 +54,31 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Paragraph:** Ein Text, der mit einem kleinen HTML-Editor gestaltet werden kann.
 * **Tabelle:** Tabelle, die in einem zugehörigen Popup gestaltet werden kann.
 * **Mathematische Formel:** Erstellung mathematischer Formeln mit dem Formeleditor MathJax.
-* **Code:** Darstellung von Programmiercode ohne Ausführung.<br> 
-30 versch. Programmiersprachen ab :octicons-tag-24: Release 18.2.
+* **Code:** Darstellung von Programmiercode ohne Ausführung.
+30 versch. Programmiersprachen [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}
 ![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
 * **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Media Center übernommen werden.
-* **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
+* **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen [:octicons-tag-16:{ title="ab Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
 * **Bild:** Einfügen eines Bildes aus dem Media Center bzw. Upload.
-* **Bildergalerie:** Darstellung mehrerer Bilder als Slideshow, in einem Raster oder mit kleinen Vorschaubildern. Ab :octicons-tag-24: Release 19. 
-* **Bildervergleich:** Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden. Ab :octicons-tag-24: Release 19. 
+* **Bildergalerie:** Darstellung mehrerer Bilder als Slideshow, in einem Raster oder mit kleinen Vorschaubildern [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
+* **Bildervergleich:** Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
 * **Video:** Einfügen einer Videodatei aus dem Media Center bzw. Upload oder neues Recording
-* **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
+* **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 * **Zitat:** Zitate können im Media Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.
 * **Aus meinem Media Center** Zugriff auf alle Elemente des eigenen Media Centers. Auch können neue Elemente für das Media Center erstellt werden. 
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
 
+### Bestehende Inhalte aus Markdown importieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 
-## Seite editieren (Bearbeitungsmodus)
+Statt die Seite Element für Element aufzubauen, können bestehende Inhalte im Markdown-Format direkt importiert werden: als Datei-Upload oder als eingefügter Text, z.B. aus der Zwischenablage. OpenOlat wandelt die Inhalte automatisch in die passenden Blöcke des Content Editors um (Titel, Text, Tabelle, Code, Bild usw.); referenzierte Bilder werden dabei im Media Center abgelegt.
+
+Damit lassen sich Inhalte aus externen Werkzeugen, einfachen Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren als Kursseite übernehmen.
+
+[Details zum Markdown-Import >](../basic_concepts/Content_Editor.de.md#markdown)
+
+
+## Seite editieren (Bearbeitungsmodus) [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
 
 ### Layout editieren
 
@@ -121,7 +133,7 @@ Der Upload der Medien ins Media Center erfolgt im persönlichen Menü oder im Co
     Sollen ausschliesslich Office-Dokumente eingebunden werden, können alternativ z.B. auch die Kursbausteine "Dokument" oder "Ordner" verwendet werden.
 
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Die Seite kann von Kurs-Besitzer:innen oder optional auch von Betreuenden bearbeitet werden.
 

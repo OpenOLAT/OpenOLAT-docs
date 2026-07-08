@@ -47,7 +47,7 @@ Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrat
 
 Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:  
 
-* Bilder (png, jpg, ...)
+* Bilder (png, jpg, svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}, ...)
 * Video-Dateien (mp4)
 * Audio-Dateien (mp3)
 * Office-Dokumente (docx, xlsx, pptx, ...)
@@ -75,14 +75,14 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Existierende Medien direkt im Media Center hochladen bzw. verlinken {: #add_existing}
 
-* **Mediendateien hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen
+* **Mediendateien hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 * **Video per URL hinzufügen**: Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden. 
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
 ### Neue Medien direkt im Media Center erstellen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"} {: #create_in_media_center}
 
 * **Dokument erstellen:** Dokumente integrierter Editoren, z.B. Word, Excel, PowerPoint
-* **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io, ab :octicons-tag-24: Release 18.1. 
+* **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 * **Text hinzufügen:** Textelemente zur Verwendung im Content Editor, mit einem einfachen HTML-Editor erstellt
 * **Video aufzeichnen:** In OpenOlat integrierte Video-Recording-Funktion. Klickt man auf "Video aufzeichnen" wird direkt die Aufnahmefunktion für die Webcam gestartet, sofern man im Browser den Zugriff auf die Kamera erlaubt.
 * **Audio aufzeichnen:** In OpenOlat integrierte Audio-Recording-Funktion. Klickt man auf "Audio aufzeichnen" wird die Aufnahmefunktion gestartet, sofern im Browser der Zugriff erlaubt wurde.
@@ -112,7 +112,7 @@ Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken a
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
-!!! note "Wichtig"
+!!! info "Wichtig"
 
     Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es erforderlich, dass man selbst Ersteller:in eines Eintrages bzw. einer Wikiseite ist. Nur eine Bearbeitung des Beitrags reicht nicht aus.
 
@@ -143,7 +143,7 @@ Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Li
 
 Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einzelnes Medium angeklickt haben und die Informationen und Beschreibungen angezeigt werden. (Gleiches Menü wie zum Herunterladen.)
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können. 
 

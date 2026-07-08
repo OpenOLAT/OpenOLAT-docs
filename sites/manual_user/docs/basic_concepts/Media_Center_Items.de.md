@@ -22,7 +22,7 @@ Im Aktivitätslog kann nachverfolgt werden, wann das Medienelement von wem bearb
 ![media_center_items_tab_overview_activity_v1_de.png](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" } 
 
 
-### "Neue Version erstellen" und "Bild ersetzen" {: #media_center_versioning}
+### "Neue Version erstellen" und "Bild ersetzen" [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
 
 Interessant ist die Möglichkeit Medienelemente zu **versionieren**. So können z.B. verschiedene Arbeitsschritte oder Zwischenstufen gesichert werden. Ein Wechsel zu älteren Versionen ist dann jederzeit möglich.
 
@@ -45,7 +45,7 @@ Mit **Bild ersetzen** wird dagegen in der aktuellen Version das Bild ausgetausch
 ---
 
 
-## Tab Metadaten {: #media_center_metadata}
+## Tab Metadaten [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-7060)" }](https://track.frentix.com/issue/OO-7060){:target="_blank"} {: #media_center_metadata}
 
 Folgende Informationen können einem Medienelement hinzugefügt werden: 
 
@@ -62,6 +62,15 @@ Je nach Art des Medientyps variieren die Informationen und Möglichkeiten der Me
 ![media_center_items_tab_metadata_v1_de.png](assets/media_center_items_tab_metadata_v1_de.png){ class="shadow lightbox" } 
 
 
+### Metadaten mit KI generieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
+
+Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, steht beim Hochladen von Bildern und im Metadaten-Dialog der Button **"Metadaten mit KI generieren"** zur Verfügung. Ein Klick darauf befüllt Titel, Beschreibung, Alt-Text und Tags mit KI-generierten Vorschlägen. Erkennt die KI zusätzlich ein Thema, das exakt einem vorhandenen Fachbereich (Taxonomie) entspricht, wird auch dieses zugeordnet. Ein Hinweis im Formular zeigt an, dass die Metadaten mit KI generiert wurden. Prüfen Sie die Vorschläge vor dem Speichern und passen Sie sie bei Bedarf an. Für SVG-Bilder steht die KI-Bildanalyse nicht zur Verfügung.
+
+Bereits ausgefüllte Felder bleiben bei der Generierung erhalten; der Titel wird nur ersetzt, wenn er leer ist oder einem Dateinamen entspricht.
+
+![media_center_items_ai_v1_de.png](assets/media_center_items_ai_v1_de.png){ class="shadow lightbox" }
+
+Auch beim [Markdown-Import in den Content Editor](Content_Editor.de.md#markdown) werden die Metadaten importierter Bilder im Hintergrund per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [Zum Seitenanfang ^](#media_center_items)
 
@@ -80,7 +89,7 @@ Durch Klick auf die Verwendungsangabe können Sie direkt an die Stelle in diesem
 ---
 
 
-## Tab Freigabe {: #media_center_share}
+## Tab Freigabe [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #media_center_share}
 
 Hier kann festgelegt werden, durch wen ein Medienelement verwendet werden darf. Teilnehmende können nur Gruppen definieren. Autor:innen haben mehr Möglichkeiten und können spezifische OpenOlat-Benutzer:innen, Gruppen, oder Kurse angeben. Durch die Freigabe können Dateien auch kollaborativ genutzt werden, wenn die Bearbeitung erlaubt wird.
 
