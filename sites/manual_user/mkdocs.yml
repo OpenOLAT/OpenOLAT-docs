@@ -257,7 +257,6 @@ nav:
         - Delete : "learningresources/Course_Delete.md"
         - Record of Course Activities: "learningresources/Record_of_Course_Activities.md"
         - Exams: "learningresources/Exams.md"
-        - Assessment mode: "learningresources/Assessment_mode_v1.md"
     - Course elements: 
       - Overview: "learningresources/Course_Elements.md"
       - Structure: "learningresources/Course_Element_Structure.md"

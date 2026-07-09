@@ -17,10 +17,10 @@ nav:
       - Overview: ux/patterns.md
       - Navigation: ux/nav.md
       - Empty state: ux/empty_state.md
-      - Tooltip: ux/tooltip.md
+      - Tooltip: ux/Tooltip.md
     - Components:
       - Overview: ux/components.md
-      - Alert: ux/alert.md
+      - Alert: ux/Alert.md
       - Button: ux/button.md
       - Card: ux/card.md
       - Delete object: ux/delete_object.md
