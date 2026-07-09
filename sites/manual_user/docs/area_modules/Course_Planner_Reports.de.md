@@ -32,7 +32,7 @@ Sie können kopiert und heruntergeladen werden.
 
 !!! note "Hinweis"
 
-    Haben Sie bereits eine Durchführung gewählt, können Sie auch dort nach dem gleichen Vorgehen Reports erstellen. Sie finden sie dort unter dem [Tab Reports](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_reports). Die Reports beziehen sich dort dann nur auf die gewählte Durchführung.
+    Haben Sie bereits eine Durchführung gewählt, können Sie auch dort nach dem gleichen Vorgehen Reports erstellen. Sie finden sie dort unter dem [Tab Reports](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_reports). Die Reports beziehen sich dort dann nur auf die gewählte Durchführung. Auch jedes geöffnete [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md) enthält einen Tab "Reports"; die Reports beziehen sich dort nur auf das gewählte Produkt und seine Durchführungen.
     
 ## Inhalt des Buchungsberichts [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9476)" }](https://track.frentix.com/issue/OO-9476) {: #inhalt_buchungsbericht}
 
@@ -43,6 +43,8 @@ Der Buchungsbericht enthält alle Buchungsarten. Der erzeugte Excel-Export ist i
 
 Felder, die nur bei bestimmten Angebotstypen zutreffen (zum Beispiel die Rechnungsadresse bei Rechnungsbuchungen), bleiben bei Buchungen anderer Angebotstypen leer.
 
+Die vollständige Spaltenübersicht zeigt die Seite [Reports: Buchungsaufträge](../area_modules/Reports_BookingOrders.de.md).
+
 
 [zum Seitenanfang ^](#reports)
 
@@ -51,6 +53,7 @@ Felder, die nur bei bestimmten Angebotstypen zutreffen (zum Beispiel die Rechnun
 
 ## Weitere Informationen {: #further_information}
 
+[Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>

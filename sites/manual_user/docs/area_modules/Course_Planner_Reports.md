@@ -32,7 +32,7 @@ They can be copied and downloaded.
 
 !!! note "Note"
 
-    If you have already selected an implementation, you can also create reports there using the same procedure. You can find them there under the [Tab Reports](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_reports). The reports then only refer to the selected implementation.
+    If you have already selected an implementation, you can also create reports there using the same procedure. You can find them there under the [Tab Reports](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_reports). The reports then only refer to the selected implementation. Every opened [product](../../manual_user/area_modules/Course_Planner_Products.md) also contains a "Reports" tab; the reports there only refer to the selected product and its implementations.
     
 ## Content of the booking report [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9476)" }](https://track.frentix.com/issue/OO-9476) {: #inhalt_buchungsbericht}
 
@@ -43,6 +43,8 @@ The booking report contains all booking types. The generated Excel export is org
 
 Fields that only apply to certain offer types (for example the billing address for invoice bookings) remain empty for bookings of other offer types.
 
+The complete column overview is shown on the page [Reports: Booking orders](../area_modules/Reports_BookingOrders.md).
+
 
 [To the top of the page ^](#reports)
 
@@ -50,6 +52,7 @@ Fields that only apply to certain offer types (for example the billing address f
 
 ## Further information {: #further_information}
 
+[Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [How do I create my first OpenOlat course >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>

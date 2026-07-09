@@ -166,6 +166,7 @@ plugins:
           Blog : Blog
           Blogging : Bloggen
           Bookings : Buchungen
+          Booking order reports : Buchungsauftrags-Reports
           Booking orders : Buchungsaufträge
           Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
