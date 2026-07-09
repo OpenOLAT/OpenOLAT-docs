@@ -108,9 +108,9 @@ Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
 Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
 
-### Eingeladene/r
+### Einladung (Zugangsrolle)
 
-Externe Person, die zum Zugriff auf bestimmte Ressourcen eingeladen wurde.
+Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer/innen.
 
 
 ## Module

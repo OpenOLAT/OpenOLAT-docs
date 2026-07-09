@@ -274,9 +274,9 @@ Integration von Edubase für digitale Lehrbücher.
 
 Ein Kursbaustein für digitale Lehrbuchinhalte via Edubase.
 
-### Eingeladene/r
+### Einladung (Zugangsrolle)
 
-Externe Person, die zum Zugriff auf bestimmte Ressourcen eingeladen wurde.
+Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer/innen.
 
 ### Einschreibung
 
