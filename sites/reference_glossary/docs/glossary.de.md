@@ -242,7 +242,7 @@ Abschnitt im Bereich Reporting des Coaching Tools; listet die erzeugten Excel-Da
 
 Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
 
-### Leistungsnachweis
+### Leistungsnachweise
 
 Aufzeichnung der Leistung eines Benutzers in bewertbaren Kursbausteinen.
 

@@ -478,7 +478,7 @@ Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursins
 
 Ein konfigurierbarer Abschnitt im Katalog 2.0, der Kursangebote dynamisch zusammenstellt und anzeigt.
 
-### Leistungsnachweis
+### Leistungsnachweise
 
 Aufzeichnung der Leistung eines Benutzers in bewertbaren Kursbausteinen.
 

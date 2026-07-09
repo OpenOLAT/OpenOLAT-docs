@@ -826,13 +826,13 @@ A course element (building block) that can be added to a course structure.
 
 A taxonomy-based classification term assigned to a learning resource to enable catalog filtering and grouping in taxonomy launchers.
 
-### Success status
-
-Metric in course and people lists of the Coaching Tool, shows the assessment status graphically and in figures: "Passed", "Not passed", "Not specified".
-
 ### Subscriptions
 
 User subscriptions to notifications about changes in courses and resources.
+
+### Success status
+
+Metric in course and people lists of the Coaching Tool, shows the assessment status graphically and in figures: "Passed", "Not passed", "Not specified".
 
 ### Survey
 
