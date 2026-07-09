@@ -9,7 +9,7 @@ Diese Seite beschreibt den Aufbau der Excel-Dateien, die mit den [Reportvorlagen
 | Zertifikats-ID   | Zertifikat | Eindeutige Nummer des Zertifikats          |
 | Kurs             | Kurs       | Titel des Kurses                           |
 | Kennzeichen      | Kurs       | Kennzeichen des Kurses                     |
-| Benutzerdaten    | Person     | Gemäss Konfiguration in der Administration; standardmässig Nachname, Vorname und E-mail-Adresse |
+| Benutzerdaten    | Person     | Konfigurierbar unter `Administration > Customizing > Benutzer:innen-Attribute`, Kontext "Certificates report"; standardmässig Nachname, Vorname und E-mail-Adresse |
 | Start des Kurses | Kurs       | Datum des ersten Besuchs im Kurs           |
 | Erfolgsstatus    | Kurs       | "Bestanden", "Nicht bestanden" oder "Undefiniert" |
 | Ausgestellt am   | Zertifikat | Ausstellungsdatum des Zertifikats          |

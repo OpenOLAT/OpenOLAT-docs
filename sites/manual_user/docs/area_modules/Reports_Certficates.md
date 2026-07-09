@@ -9,7 +9,7 @@ This page describes the structure of the Excel files generated with the [report 
 | Certificate ID        | Certificate | Unique number of the certificate           |
 | Course                | Course      | Title of the course                        |
 | Ext. ref.             | Course      | External reference of the course           |
-| User data             | Person      | According to the configuration in the administration; by default last name, first name and e-mail address |
+| User data             | Person      | Configurable under `Administration > Customizing > User Properties`, context "Certificates report"; by default last name, first name and e-mail address |
 | Initial course launch | Course      | Date of the first visit to the course      |
 | Success status        | Course      | "Passed", "Not passed" or "Undefined"      |
 | Issued on             | Certificate | Date of issue of the certificate           |
