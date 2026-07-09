@@ -442,6 +442,14 @@ Gruppe im Kursbaustein Themenvergabe, in der die einem Thema zugeordneten Themen
 
 Gruppe im Kursbaustein Themenvergabe, in der die für ein Thema akzeptierten Kursteilnehmer:innen aufgeführt werden.
 
+### Externes Kurstool
+
+Konfigurierbarer Link in der Kurstoolbar zu einer externen Webanwendung. Pro Kurs können bis zu vier externe Kurstools mit Name, URL, Icon und rollenbasierter Sichtbarkeit konfiguriert werden.
+
+### Icon-Katalog
+
+Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Kurstool gewählt wird.
+
 
 ## Bereiche
 

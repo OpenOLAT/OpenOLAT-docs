@@ -302,6 +302,10 @@ Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden ka
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Externes Kurstool
+
+Konfigurierbarer Link in der Kurstoolbar zu einer externen Webanwendung. Pro Kurs können bis zu vier externe Kurstools mit Name, URL, Icon und rollenbasierter Sichtbarkeit konfiguriert werden.
+
 ### Fachbereich
 
 Ein taxonomiebasierter Klassifizierungsbegriff, der einer Lernressource zugewiesen wird, um die Katalogfilterung und Gruppierung in Taxonomie-Launchern zu ermöglichen.
@@ -377,6 +381,10 @@ Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
 ### HTML-Seite
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
+
+### Icon-Katalog
+
+Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Kurstool gewählt wird.
 
 ### JupyterHub
 

@@ -354,6 +354,10 @@ Record of a user's performance in assessable course elements.
 
 A type of learning resource that can be created or imported in the authoring area.
 
+### External course tool
+
+Configurable link in the course toolbar to an external web application. Up to four external course tools with name, URL, icon, and role-based visibility can be configured per course.
+
 ### External page
 
 A course element (building block) that can be added to a course structure.
@@ -433,6 +437,10 @@ Anonymous user with limited read-only access.
 ### HTML-Page
 
 A course element (building block) that can be added to a course structure.
+
+### Icon catalog
+
+Predefined selection of around 30 icons from which the symbol for an external course tool is chosen.
 
 ### Image
 
