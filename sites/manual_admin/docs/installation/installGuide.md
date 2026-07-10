@@ -1,6 +1,6 @@
-## Installation guide for OpenOlat 20.1 and greater
+## Installation guide for OpenOlat 21.0 and greater
 
-This guide walks you through installing OpenOlat Version 20.1.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
+This guide walks you through installing OpenOlat Version 21.0.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 18_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 
 _If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the information found in here. Please keep in mind that this is not recommended._
 
@@ -9,8 +9,8 @@ _If you really want to install OpenOlat using MySQL as database, have a look at 
 Currently supported releases are:
 
 !!! Danger "Supported releases"
-	- 19.1.x and 20.1.x
-	- Other releases, including 20.0.x, are not supported anymore
+	- 20.3.x and 21.0.x
+	- Other releases are not supported anymore
 
 Older releases are not supported anymore and don't get any security updates. Long term releases are normally not under active development, but will get critical security updates. 
 
@@ -37,12 +37,12 @@ Create a directory downloads and keep the downloaded files there:
 
 	openolat~$ cd && mkdir downloads && cd downloads
 	openolat~$ ls -l downloads
-	-rw-rw-r-- 1 openolat openolat  12127326 Feb  9 10:51 apache-tomcat-10.1.43.tar.gz
-	-rw-rw-r-- 1 openolat openolat 191502157 Feb  9 10:51 OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz
-	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_2010.war
+	-rw-rw-r-- 1 openolat openolat  12127326 Feb  9 10:51 apache-tomcat-10.1.57.tar.gz
+	-rw-rw-r-- 1 openolat openolat 191502157 Feb  9 10:51 OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10.tar.gz
+	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_2101.war
 
 
-You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, please use the newest release. If not, make sure to use a version 19.1.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
+You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, please use the newest release. If not, make sure to use a version 20.3.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
 
 
 ## Prepare home directory
@@ -52,14 +52,14 @@ You do not need to use the exact versions from this manual, this is just an exam
 In the home directory:
 
 	openolat~$ cd
-	openolat~$ tar xvf downloads/apache-tomcat-10.1.43.tar.gz
-	openolat~$ ln -s apache-tomcat-10.1.43 tomcat
+	openolat~$ tar xvf downloads/apache-tomcat-10.1.57.tar.gz
+	openolat~$ ln -s apache-tomcat-10.1.57 tomcat
 	 
-	openolat~$ tar xvf downloads/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz
-	openolat~$ ln -s jdk-17.0.16+8 jre
+	openolat~$ tar xvf downloads/OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10.tar.gz
+	openolat~$ ln -s jdk-17.0.19+10 jre
  	
-	openolat~$ unzip -d openolat-20.1.0 downloads/openolat_2010.war
-	openolat~$ ln -s openolat-20.1.0 webapp
+	openolat~$ unzip -d openolat-21.0.1 downloads/openolat_2101.war
+	openolat~$ ln -s openolat-21.0.1 webapp
 	
 Note that this setup allows you to switch between different versions of JRE and tomcat by adjusting the symlinks jre and tomcat. An update works the same way, just stop OpenOlat, remove the symlink to webapp, unzip a new version and make a new symbolic webapp link.
 
@@ -158,7 +158,7 @@ Check whether these values make sense, then stop tomcat again
 
 ## Set up postgresql
 
-This setupguide should work with all PostgreSQL Versions from 9.1 on. Our recommendation is to use the most recent, stable version. This manual has been tested with versions up to 16.1.
+This setupguide should work with all PostgreSQL Versions from 9.1 on. Our recommendation is to use the most recent, stable version. This manual has been tested with versions up to 18.
 
 ### User and DB
 
@@ -182,6 +182,13 @@ Test the account as `openolat` user:
 	openolat~$ psql oodb -U oodbu -h localhost
 
 You should get the postgresql client prompt after providing your password. 
+
+### Optional: pgvector for AI-powered taxonomy matching
+
+OpenOlat 21.0's embedding-based taxonomy matching feature (`taxonomy.matching.enabled`) needs PostgreSQL 18 with the [pgvector](https://github.com/pgvector/pgvector) extension installed:
+
+	postgres=# \c oodb
+	oodb=# create extension if not exists vector;
 
 ### Create DB schema
 
