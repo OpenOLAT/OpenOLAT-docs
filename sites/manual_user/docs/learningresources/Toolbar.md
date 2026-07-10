@@ -198,6 +198,27 @@ The course search is performed using the icon in the toolbar.
 
 ---
 
+### External course tools [:octicons-tag-16:{ title="from Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488) {: #external_tools}
+
+![course_toolbar_with_external_tools_v1_en.png](assets/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox"}
+
+Course owners can configure up to **four external course tools** per course. An external course tool is a configurable link in the course toolbar to an external web application (e.g. an absence management system, a school information page, a partner portal, a room booking tool, an external mail or calendar system).
+
+For each tool the following can be configured:
+
+- **Name**: the label of the toolbar button
+- **URL**: must start with `http://` or `https://`
+- **Icon**: selectable from the icon catalog (e.g. Link, E-mail, Calendar, Timetable, Absence management, School portal, Booking, Videos, Files)
+- **Visible to**: configured separately for *Participants*, *Coaches* and *Owners and users with administrative roles*. Administrators, learning resource managers, principals and course planners see the tool when the owner option is selected.
+
+Clicking the tool opens the configured URL in a **new browser window**. No user data is passed to the target system. If OpenOlat and the target system share the same identity provider, single sign-on works automatically.
+
+The configuration of the four external course tools is included when a course is **copied**. On course **import**, all four tools are reset to *disabled* so the importer can activate them deliberately.
+
+[Configuration >](../learningresources/Course_Settings_Toolbar.md#external_tools)
+
+---
+
 ### Role {: #role}
 
 ![toolbar_role_v1_de.png](assets/toolbar_role_v1_de.png){ class="shadow lightbox"}

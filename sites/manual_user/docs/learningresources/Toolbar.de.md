@@ -56,7 +56,7 @@ Diese Informationen sind bereits sichtbar bevor ein Kurs überhaupt von Lernende
 ![toolbar_learning_path_v1_de.png](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox"}
 
 **Aufruf durch Teilnehmer:innen**<br>
-Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können außerdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
+Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
 
 ![Mein Lernpfad](assets/Mein_Lernpfad.png)
 
@@ -76,7 +76,7 @@ Neben dem Kurskalender gibt es in OpenOlat noch weitere Kalender:
 - [Persönlicher Kalender >](../personal_menu/Calendar.de.md)
 - [Gruppenkalender >](../groups/Using_Group_Tools.de.md)
 
-Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt. Anschließend können Titel, Beschreibung, Beginn und Ende sowie eventuell ein Ort, mögliche Wiederholungen sowie die Sichtbarkeit eingestellt werden Anschließend erscheint der Termin im Kalender bzw. in allen Instanzen des Kurskalenders und kann mit Klick auf das Datum und der Option „Editieren“ überarbeitet werden.
+Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt. Anschliessend können Titel, Beschreibung, Beginn und Ende sowie eventuell ein Ort, mögliche Wiederholungen sowie die Sichtbarkeit eingestellt werden Anschliessend erscheint der Termin im Kalender bzw. in allen Instanzen des Kurskalenders und kann mit Klick auf das Datum und der Option „Editieren“ überarbeitet werden.
 
 Mit dem "Editieren" erhält man auch Zugriff auf weitere Kalendertabs und kann Verlinken zu im Kurs verwendeten Kursbausteinen oder externen Webseiten setzen. Möchten Sie alle Termine eines Kurskalenders löschen, klicken Sie einfach auf das Zahnradsymbol im Kalenderbereich und wählen Sie "Kalender zurücksetzen".
 
@@ -194,6 +194,27 @@ Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 Je nachdem, von wo die Suche gestartet wird, werden andere Bereiche durchsucht.
 Mit dem Icon in der Toolbar wird die Kurssuche ausgeführt.<br>
 [Mehr dazu >](../basic_concepts/Search_in_Course.de.md)
+
+---
+
+### Externe Kurstools [:octicons-tag-16:{ title="ab Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488) {: #external_tools}
+
+![course_toolbar_with_external_tools_v1_en.png](assets/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox"}
+
+Kursbesitzer:innen können pro Kurs bis zu **vier externe Kurstools** konfigurieren. Ein externes Kurstool ist ein konfigurierbarer Link aus der Kurstoolbar zu einer externen Webanwendung (z.B. ein Absenzmanagementsystem, eine Schulinfoseite, ein Partnerportal, ein Raumbuchungstool, ein externes Mail- oder Kalendersystem).
+
+Pro Tool konfigurierbar:
+
+- **Name**: Bezeichnung des Toolbar-Buttons
+- **URL**: muss mit `http://` oder `https://` beginnen
+- **Icon**: aus dem Icon-Katalog wählbar (z.B. Link, E-Mail, Kalender, Stundenplan, Absenzen-Management, Schulportal, Buchungen, Videos, Dateien)
+- **Sichtbar für**: separat einstellbar für *Teilnehmer:innen*, *Betreuer:innen* sowie *Besitzer:innen und Personen mit administrativen Rollen*. Administrator:innen, Lernressourcenverwalter:innen, Principals und Kursplaner:innen sehen das Tool, wenn die Besitzer-Option ausgewählt ist.
+
+Der Klick auf das Tool öffnet die konfigurierte URL in einem **neuen Browserfenster**. Es werden keine Nutzerdaten an das Zielsystem übertragen. Teilen OpenOlat und das Zielsystem denselben Identity Provider, funktioniert Single Sign-on automatisch.
+
+Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurses mitübernommen. Beim **Importieren** werden alle vier Tools auf *deaktiviert* zurückgesetzt, damit der Importer sie bewusst aktivieren kann.
+
+[Konfiguration >](../learningresources/Course_Settings_Toolbar.de.md#external_tools)
 
 ---
 

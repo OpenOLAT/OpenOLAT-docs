@@ -33,7 +33,7 @@ Once a certificate is automatically issued after successfully completing a cours
 
     All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../personal_menu/Personal_Tools.md#evidences-of-achievement). It always opens in a new window and is printable.
 
-### To-dos
+### To-dos [:octicons-tag-16:{ title="from Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039)
 Participants are shown all relevant to-dos for the course here. 
 On the one hand, these can be automatically generated to-dos from the task course elements. Then you are asked to take a certain step in the task flow, e.g. select a task, submit a solution or similar. 
 On the other hand, teachers can assign specific to-dos to all course participants or just to individuals. Learners can change the status of a to-do once they have completed the action. 
@@ -41,7 +41,7 @@ On the other hand, teachers can assign specific to-dos to all course participant
 The to-dos serve as an orientation for the user as to what currently needs to be done in the course. 
 Users can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. They can also add their own to-dos there.
 
-### Leave course
+### Leave course [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405)
 
 The "Leave course" function immediately ends either your course or group membership, depending on how you gained access to the course. Subsequently, access to the course will be denied. In order to gain access to the course again, you will have to contact the respective course or group coach.
 
@@ -72,6 +72,7 @@ Here is a **quick overview** of the toolbar tools available after activation by 
   * Documents: Access to a central documents folder
   * Glossary: Access to the glossary of the course if a glossary has been linked to the course
   * [Course chat](../basic_concepts/Chat.md): For the synchronous exchange of course members
+  * [External course tools](../learningresources/Course_Settings_Toolbar.md#external_tools) [:octicons-tag-16:{ title="from Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488): Up to four configurable links to external web applications
  
   
 
