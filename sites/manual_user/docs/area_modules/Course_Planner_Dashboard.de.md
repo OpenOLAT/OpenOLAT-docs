@@ -63,6 +63,8 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 
 Im Bereich darunter werden die für die Durchführung zuständigen Personen mit Rolle angezeigt (z.B. Betreuer:innen, Klassenlehrer:innen, Kursbesitzer:innen, Elementbesitzer:innen).
 
+Sind noch keine Kursverantwortlichen erfasst, zeigt das Widget den Hinweis "Noch keine Kursverantwortlichen." Über den Button **"Details"** gelangen Sie direkt zum Tab Mitglieder der jeweiligen Durchführung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+
 [Zum Seitenanfang ^](#dashboard)
 
 ---

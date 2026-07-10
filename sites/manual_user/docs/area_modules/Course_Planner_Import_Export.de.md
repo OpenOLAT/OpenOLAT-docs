@@ -21,7 +21,7 @@ Der Import-Assistent wird über das Mehr-Menü (⋮) auf dem Course-Planner-Dash
 
 ---
 
-## Export {: #export}
+## Export [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"} {: #export}
 
 ### Einstiegspunkte {: #export_entry_points}
 
@@ -31,7 +31,7 @@ Der Export steht an mehreren Stellen im Course Planner zur Verfügung:
 * Auf der Seite eines einzelnen Produkts: als globale Aktion, sowie im Tab "Durchführung" über Mehr-Menü oder Bulk-Aktion
 * Auf der Seite einer einzelnen Durchführung: als globale Aktion
 
-Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben inklusive der Mitgliederdaten — auch bei einem Bulk-Export mehrerer ausgewählter Durchführungen.
+Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben inklusive der Mitgliederdaten, auch bei einem Bulk-Export mehrerer ausgewählter Durchführungen.
 
 ##### Navigation unter Produkt
 ![course_planner_export_product_v1_de.png](assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" }
@@ -55,7 +55,7 @@ Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datu
 Die exportierte Excel-Datei enthält je nach Exportart bis zu vier Sheets:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
-* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich
+* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}
 * **Mitgliedschaften:** Zuordnung von Benutzer:innen zu Durchführungen mit Rolle (Teilnehmer:in, Betreuer:in, Klassenlehrer:in, Kursbesitzer:in, Elementbesitzer:in)
 * **Benutzer:innen:** Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
 
@@ -106,11 +106,13 @@ Enthält eine Zeile einen Fehler, wird sie automatisch vom Import ausgeschlossen
 
 ![course_planner_import_products_v1_de.png](assets/course_planner_import_products_v1_de.png){ class="shadow lightbox" }
 
-#### Schritt 3: Implementierungen überprüfen {: #step3}
+#### Schritt 3: Durchführungen überprüfen {: #step3}
 
 Analog zu Schritt 2, hier für die Durchführungsstruktur (Elemente, Templates, Kurse, Termine). Ein zusätzlicher Filter "Objekttyp" erlaubt das Einschränken nach Art des Objekts [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9210)" }](https://track.frentix.com/issue/OO-9210){:target="_blank"}.
 
 Wird ein übergeordnetes Element ignoriert oder enthält es einen Fehler, werden auch alle untergeordneten Objekte automatisch vom Import ausgeschlossen.
+
+Ist das Modul "Termine und Absenzen" auf der Instanz deaktiviert, werden Termine beim Import automatisch als "Ignoriert" gesetzt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}.
 
 !!! info "Wichtig"
 

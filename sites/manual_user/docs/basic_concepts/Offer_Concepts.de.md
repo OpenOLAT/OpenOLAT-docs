@@ -27,7 +27,7 @@ Der sichtbare Teil des Angebots wird als Karte im Katalog sichtbar (bzw. in der 
 (Der unsichtbare Teil eines Angebots umfasst die Regeln: Wann wird das Angebot wo angezeigt?)
 
 Was auf einer Karte im Katalog angezeigt wird, kann (für alle Karten einheitlich) von Administrator:innen festgelegt werden unter<br>
-**Administration > Module > Katalog > Tab Layout > Abschnitt Launchers**
+`Administration > Module > Katalog > Tab Layout > Abschnitt Launchers`
 
 * Durchführungsformat
 * Zertifikat
@@ -59,11 +59,11 @@ Eine Anzeige kann auch **in mehreren verschiedenen Launchern des Katalogs** (V2)
 Angebote können auch in Katalogbereichen (Launchern) angezeigt werden, die **nur für Mitglieder bestimmter Organisationseinheiten** sichtbar sind. (Voraussetzung ist, dass das Modul "Organisationen" aktiviert ist.)
 
 Die Freigabe-Einstellungen können vorgenommen werden unter<br>
-**Kurs/Durchführung > Administration > Einstellungen > Freigabe > Abschnitt Angebote > Link "Angebot editieren"**
+`Kurs/Durchführung > Administration > Einstellungen > Freigabe > Abschnitt Angebote > Link "Angebot editieren"`
 
 ![offer_concepts_share_org_v1_de.png](assets/offer_concepts_share_org_v1_de.png){ class=" shadow lightbox" }
 
-!!! hint "Hinweis"
+!!! info "Wichtig"
 
     Die Angebote sind im Katalog buchbar, sobald der Status auf "Veröffentlicht" gestellt wurde. (Bzw. "provisorisch" oder "bestätigt" bei Durchführungen.)
 
@@ -87,19 +87,22 @@ Angebote werden erstellt
 ### Angebotserstellung im Kurs {: #create_offers_course}
 
 Um einen **Kurs** im Katalog anzubieten, wählen Sie den betreffenden Kurs und dann<br> 
-**Administration > Einstellungen > Freigabe > Bereich "Angebote"**
+`Administration > Einstellungen > Freigabe > Bereich "Angebote"`
 
 ![offer_concepts_create_offer_course_v1_de.png](assets/offer_concepts_create_offer_course_v1_de.png){ class=" shadow lightbox" }
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
-    Sind Angebote erstellt worden, können sie auch in der **(Kurs-)Administration unter "Angebotsarten"** nachgesehen werden.
+    Sind Angebote erstellt worden, können sie auch nachgesehen werden unter:<br>
+    `Kurs > Administration > Angebotsarten`<br>
+    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Konfiguriert werden Angebote unter `Administration > Einstellungen > Freigabe > Bereich "Angebote"` (siehe oben).<br>
+    [Details zur Angebotskonfiguration >](../../manual_user/learningresources/Access_configuration.de.md#offer)
 
 
-### Angebotserstellung im Course Planner {: #create_offers_implementation}
+### Angebotserstellung im Course Planner [:octicons-tag-16:{ title="ab Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
 
 Um eine **Durchführung** im Katalog anzubieten, wählen Sie die betreffende Durchführung im Course Planner und dann den<br>
-**Tab Katalog > Button Angebote**
+`Tab Katalog > Button Angebote`
 
 ![offer_concepts_create_offer_implementation_v1_de.png](assets/offer_concepts_create_offer_implementation_v1_de.png){ class=" shadow lightbox" }
 
@@ -139,7 +142,7 @@ In den Katalog können Angebote aufgenommen werden für
 ### Kurse anbieten {: #what_is_offered_courses}
 
 Angebote zu einem Kurs werden erstellt unter<br>
-**(Kurs-)Administration > Einstellungen > Freigabe > Abschnitt "Angebote"**<br>
+`(Kurs-)Administration > Einstellungen > Freigabe > Abschnitt "Angebote"`<br>
 Beachten Sie, dass zuvor bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt werden muss.
 
 ![offer_concepts_types_course1_v1_de.png](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
@@ -153,7 +156,7 @@ Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie
 ---
 
 
-### Durchführungen anbieten {: #what_is_offered_implementations}
+### Durchführungen anbieten [:octicons-tag-16:{ title="ab Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #what_is_offered_implementations}
 
 Soll der gleiche Kurs mehrmals zu verschiedenen Terminen angeboten werden, kann dies im **Course Planner** mit **Durchführungen** bewerkstelligt werden.
 
@@ -161,12 +164,12 @@ Durchführungen können auch im Katalog ausgeschrieben werden, wenn noch unklar 
 
 Benutzer:innen können diese Durchführungen buchen, indem sie sich aus dem Katalog heraus anmelden (wenn sie schon OpenOlat-Benutzer:in sind) oder sich neu registrieren (wenn sie eine passende Kursdurchführung im externen Katalog gefunden haben, den sie ohne Registrierung ansehen können).
 
-Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das **mit Rechnung** gebucht werden kann, werden die Interessent:innen beim Anmeldevorgang zur Angabe der Rechnungsadresse usw. geführt. Es wird dabei auch eine Buchungsnummer erstellt. (Stand Release 20.1 ist dies ausschliesslich mit Course Planner möglich.)
+Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das **mit Rechnung** gebucht werden kann, werden die Interessent:innen beim Anmeldevorgang zur Angabe der Rechnungsadresse usw. geführt. Es wird dabei auch eine Buchungsnummer erstellt. (Dies ist ausschliesslich mit dem Course Planner möglich.)
 
 Der Buchungsauftrag kann anschliessend bestätigt werden.
 
 Angebote für Durchführungen werden im Course Planner erstellt unter:<br>
-(**Course Planner > Durchführung > Tab Katalog > Tab Angebote**)
+`Course Planner > Durchführung > Tab Katalog > Tab Angebote`
 
 ![offer_concepts_types_course_planner1_v1_de.png](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
@@ -203,9 +206,9 @@ Nach erfolgreicher Konfiguration des PayPal Moduls können Sie auf der Detailsei
 [Einrichtung des Bezahlungsmoduls PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
 
-### Rechnung {: #offer_payed_invoice}
+### Rechnung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8210)" }](https://track.frentix.com/issue/OO-8210){:target="_blank"} {: #offer_payed_invoice}
 
-Eine Bezahlung per Rechnung ist derzeit nur für Durchführungen im Course Planner möglich. (Stand Februar 2026)
+Eine Bezahlung per Rechnung ist nur für Durchführungen im Course Planner möglich.
 
 Bei Angebot mit Rechnung ist
 
@@ -216,20 +219,31 @@ Bei Angebot mit Rechnung ist
 ![offer_concepts_invoice_membership_v1_de.png](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" }
 
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
     Im Course Planner unter<br>
-    **Durchführungen > Tab Katalog > Tab Buchungsaufträge**<br> 
+    `Durchführungen > Tab Katalog > Tab Buchungsaufträge`<br> 
     sind die Buchungsaufträge gesammelt und können als Excel-Datei exportiert und in einem anderen Programm (z.B. zur Rechnungserstellung) verwendet werden.  
 
 
 [Einrichtung des Bezahlungmoduls Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)
 
 
+### Stornierungsbedingungen bei Rechnungsangeboten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9382)" }](https://track.frentix.com/issue/OO-9382){:target="_blank"} {: #offer_invoice_cancellation}
 
-### Kreditpunkte {: #offer_payed_credit_points}
+Beim Erstellen oder Bearbeiten eines Rechnungsangebots legen Sie fest, ob und zu welchen Bedingungen eine Buchung storniert werden kann. So kennen die Buchenden die Stornierungsregeln bereits vor der Buchung.
 
-Seit Release 20.1 können in OpenOlat Kreditpunktsysteme eingerichtet werden. Ein Kreditpunktesystem ermöglicht das Sammeln von Kreditpunkten über verschiedene Lernangebote hinweg. Über das Modul "Kreditpunkte" können eigene Kreditpunktesysteme global definiert werden. Diese ermöglichen später den Teilnehmenden für das Bestehen von Kursen Bildungspunkte/Credits, wie zum Beispiel ECTS oder LearnCoins, zu sammeln.
+* **Stornierbar:** Mit diesem Schalter bestimmen Sie, ob Buchungen dieses Angebots storniert werden können. Standardmässig ist die Option aktiviert.
+* **Stornierungsbedingungen:** Ist das Angebot stornierbar, wählen Sie zwischen "Kostenlos" (Standard) und "Mit Gebühr".
+* **Stornierungsgebühr:** Bei der Auswahl "Mit Gebühr" geben Sie die Höhe der Gebühr an. Mit "Kostenlos stornierbar bis \<Anzahl\> Tage vor Start" definieren Sie zusätzlich eine Frist, bis zu der ohne Gebühr storniert werden kann. Damit die Frist berücksichtigt wird, muss beim Durchführungszeitraum ein Anfangsdatum angegeben sein.
+* **Kostenstelle:** Oberhalb der Stornierungsoptionen ordnen Sie dem Angebot bei Bedarf eine Kostenstelle zu.
+
+Die Stornierungsinformationen werden den Benutzer:innen beim Angebot angezeigt.
+
+
+### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
+
+In OpenOlat können Kreditpunktsysteme eingerichtet werden. Ein Kreditpunktesystem ermöglicht das Sammeln von Kreditpunkten über verschiedene Lernangebote hinweg. Über das Modul "Kreditpunkte" können eigene Kreditpunktesysteme global definiert werden. Diese ermöglichen später den Teilnehmenden für das Bestehen von Kursen Bildungspunkte/Credits, wie zum Beispiel ECTS oder LearnCoins, zu sammeln.
 
 Diese Punkte können z.B. auch in Zertifikatsprogrammen für Rezertifizierungen eingesetzt werden. Teilnehmer:innen können mit jedem erfolgreichen Absolvieren eines Kurses Kreditpunkte sammeln. Mit diesen Kreditpunkten können sie dann einen weiteren Kurs kaufen.
 

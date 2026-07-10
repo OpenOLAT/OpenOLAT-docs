@@ -3,7 +3,7 @@
 
 ![course_planner_events_access_v3_de.png](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
 
-## Um welche Termine geht es im Course Planner? {: #type_of_events}
+## Um welche Termine geht es im Course Planner? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #type_of_events}
 
 Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die im Course Planner verwendeten Elemente. (Andere Termine, z.B. aus Projekten, sind hier im Course Planner nicht aufgeführt.)
 
@@ -12,7 +12,7 @@ Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die i
 ---
 
 
-## Wo sehe ich Termine? {: #display_events}
+## Wo sehe ich Termine? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #display_events}
 
 ### Auswahl aktueller Termine
 
@@ -36,12 +36,12 @@ Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Be
 ### Termine einer bestimmten Durchführung {: #events_of_an_implementation}
 
 Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br>
-**Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Übersicht**
+`Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Übersicht`
 
 ![course_planner_events_display4_v1_de.png](assets/course_planner_events_display4_v1_de.png){ class="shadow lightbox" }
 
 **Alle** Termine einer Durchführung finden Sie unter<br>
-**Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Termine**
+`Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Termine`
 
 Sie können dort alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
 
@@ -59,6 +59,16 @@ Die Termine können in einer Listenansicht oder als Timeline dargestellt werden.
 
     ![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
 
+### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
+
+In der Terminliste zeigt die Spalte "Element", zu welchem Element ein Termin gehört. Mit Klick auf den Elementnamen öffnen Sie das Element direkt, auch wenn es nicht zur aktuell gewählten Durchführung oder zum aktuell gewählten Produkt gehört.
+
+Bei modularisierten Kursen kann ein Termin Teilnehmer:innen aus mehreren Elementen haben. Die Detailansicht eines Termins listet diese Elemente in einer Tabelle auf:
+
+* Jedes Element wird mit seinem Element-Icon angezeigt.
+* Die Spalte **"Standardelement"** kennzeichnet das Standardelement mit dem Label "Standard", wie im Kurs.
+* Die Spalte "Status" zeigt mit den Labels **"Eingeschlossen"** und **"Ausgeschlossen"**, ob die Teilnehmer:innen des jeweiligen Elements in den Termin eingeschlossen oder davon ausgeschlossen sind.
+
 
 [zum Seitenanfang ^](#events)
 
@@ -66,10 +76,10 @@ Die Termine können in einer Listenansicht oder als Timeline dargestellt werden.
 ---
 
 
-## Wie erstelle ich neue Termine?  {: #create_events}
+## Wie erstelle ich neue Termine? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_events}
 
 Da sich Termine auf eine Durchführung beziehen, finden Sie die Möglichkeit zum Erstellen unter<br>
-**Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Termine**
+`Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Termine`
 
 Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch importieren. 
 

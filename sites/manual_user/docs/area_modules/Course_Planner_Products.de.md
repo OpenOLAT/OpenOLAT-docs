@@ -2,22 +2,22 @@
 
 ![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }  
 
-## Was verstehen wir in OpenOlat unter einem Produkt? {: #definition}
+## Was verstehen wir in OpenOlat unter einem Produkt? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
 
 Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). 
 
 Oft bestehen Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind (strukturierte Produkte). Die Kurse und Lernressourcen werden in zeitlicher Abfolge in einer Baumstruktur abgebildet.
 
-Im Kontext von Unternehmen wird statt von "Curriculum" öfter von (Bildungs-)"Produkt" gesprochen. Deshalb wird in OpenOlat seit Release 20 in der Regel der Begriff "Produkt" verwendet.
+Im Kontext von Unternehmen wird statt von "Curriculum" öfter von (Bildungs-)"Produkt" gesprochen. Deshalb wird in OpenOlat in der Regel der Begriff "Produkt" verwendet.
 
-Ab Release 20 wurde statt der Curriculumverwaltung eine erweiterte, allgemeine Kursplanung in OpenOlat integriert (Course Planner). 
+Mit dem Course Planner ist in OpenOlat eine erweiterte, allgemeine Kursplanung integriert. 
 
 [zum Seitenanfang ^](#products)
 
 ---
 
 
-## Wo werden Produkte verwendet? {: #usage_of_products}
+## Wo werden Produkte verwendet? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #usage_of_products}
 
 Produkte werden im **Course Planner** für die Planung eines Bildungsgangs mit mehreren Kursen und Lernressourcen ("Kurspaket") verwendet. Ein Produkt kann dann in mehreren Durchführungen zu verschiedenen Terminen angeboten werden.    
 
@@ -37,11 +37,11 @@ Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungspr
 ## Wo und wie werden Produkte aktiviert? {: #activation}
 
 Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst frei geschaltet werden.<br>
-Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com.](mailto:contact@frentix.com.)<br>
+Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com](mailto:contact@frentix.com).<br>
 Sind Sie kein Hosting-Kunde von frentix, fragen Sie bitte Ihren Systembetreiber. 
 
-Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivieren und einrichten unter: 
-**Administration > Module > Course Planner**
+Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivieren und einrichten unter:<br>
+`Administration > Module > Course Planner`
 
 
 [zum Seitenanfang ^](#products)
@@ -49,7 +49,7 @@ Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivie
 ---
 
 
-## Produkt erstellen {: #create_product}
+## Produkt erstellen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_product}
 
 Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte".
 
@@ -74,6 +74,19 @@ Mit dieser Auswahl bestimmen Sie, ob das Absenzenmanagement für dieses Produkt 
 ![5_green_24.png](assets/5_green_24.png) **Beschreibung**: 
 In diesem Editor für die Beschreibung können Sie neben Text, Bildern und Links auch Videos einfügen oder direkt durch Klick auf den Mikrofon-Button ein Audio aufnehmen.
 
+
+[zum Seitenanfang ^](#products)
+
+---
+
+
+## Produktübersicht filtern und sortieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9398)" }](https://track.frentix.com/issue/OO-9398){:target="_blank"} {: #product_overview}
+
+Die Liste der Produkte ist nach Relevanz sortiert: zuerst Produkte mit laufenden Durchführungen (in Vorbereitung, provisorisch oder bestätigt), danach Produkte mit abgebrochenen oder beendeten Durchführungen, zuletzt Produkte ohne Durchführungen. Innerhalb dieser Gruppen wird alphabetisch sortiert. So stehen die aktuell relevanten Produkte immer zuoberst.
+
+Mit **"Filter speichern"** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden.
+
+Kursplaner:innen arbeiten mit der Ansicht "Alle", die die aktiven Produkte zeigt. Administrator:innen stehen zusätzlich die vordefinierten Filter **"Aktiv"** (standardmässig ausgewählt) und **"Gelöscht"** zur Verfügung.
 
 [zum Seitenanfang ^](#products)
 
@@ -105,7 +118,7 @@ In den Einstellungen jedes Kurses kann sein **Verwendungszweck** festgelegt werd
 Wird ein Kurs über den Course Planner verwaltet, ist die Einstellung "**Einbindung in Produkt**". Der Kurs hat dann keine eigenständige Mitgliederverwaltung. Die Mitgliederverwaltung geschieht in diesem Fall in der Mitgliederverwaltung der [Durchführung](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_members).
 
 Sie finden die Einstellung unter:<br>
-**(Wahl eines Kurses >) Administration > Einstellungen > Tab Freigabe > Einbindung in Produkt**
+**Wahl eines Kurses**: `Administration > Einstellungen > Tab Freigabe > Einbindung in Produkt`
 
 ![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
 

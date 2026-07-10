@@ -81,7 +81,7 @@ Die Widgets **Kursinhalt** und **Katalog** zeigen zusätzlich ein Icon im Titel 
 
 ### Tab Struktur [:octicons-tag-16:{ title="ab Release 20.0 (OO-8634)" }](https://track.frentix.com/issue/OO-8634){:target="_blank"} {: #tab_structure}
 
-Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur angezeigt.
+Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur" angezeigt.
 In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
 
 ![course_planner_implementations_tab_structure1_v1_de.png](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
@@ -291,6 +291,19 @@ Der sonst durch Kursbesitzer:innen vorgenommene Statuswechsel (z.B. von "proviso
 ![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
 
 
+#### Bewertung in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
+
+Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
+
+* Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
+* Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Ext. Ref., Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
+* Ist ein Programm verknüpft, zeigt ein Panel dessen Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Zertifikationsprogramm entfernen"** die Verknüpfung auf. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
+
+Eine Durchführung kann auch direkt über das [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzugefügt werden.
+
+Beim [Kopieren einer Durchführung](#copy) wird die Verknüpfung zum Zertifikatsprogramm übernommen, sofern Sie die Berechtigung für das Programm besitzen. Fehlt die Berechtigung, zeigt der Assistent die Warnung "Das Zertifizierungsprogramm kann aufgrund fehlender Berechtigungen nicht übernommen werden." Beim Kopieren entsteht ein Eintrag im Aktivitätslog des Programms.
+
+
 #### Optionen in den Einstellungen
 
 Für jede Durchführung können hier separat Einstellungen vorgenommen werden für: 
@@ -348,7 +361,7 @@ Die Option zum Kopieren finden Sie in der Liste der Durchführungen am Ende eine
 
 ![course_planner_implementations_copy1_v1_de.png](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
-Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine und Mitglieder kopiert werden sollen.
+Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder und To-dos kopiert werden sollen.
 
 ![course_planner_implementations_copy2_v1_de.png](assets/course_planner_implementations_copy2_v1_de.png){ class="shadow lightbox" }  
 
@@ -358,11 +371,21 @@ Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Ele
 
 ![course_planner_implementations_copy3_v1_de.png](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
-In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Sie können als zu einem bestimmten neuen Anfangsdatum (neuer Bezugspunkt) verschoben werden oder um eine anzugebende Anzahl Tage.
+In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)"; Sie geben entweder die Verschiebung in Tagen ("Verschiebung nach") oder direkt das "Neue Datum" an.
 
 ![course_planner_implementations_copy4_v1_de.png](assets/course_planner_implementations_copy4_v1_de.png){ class="shadow lightbox" }
 
 ![course_planner_implementations_copy5_v1_de.png](assets/course_planner_implementations_copy5_v1_de.png){ class="shadow lightbox" } 
+
+### To-dos beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
+
+To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schritt des Wizards bestimmen Sie mit der Auswahl "To-dos", wie dabei vorgegangen wird:
+
+* **Standard:** To-dos mit Zuweisungen kopieren.
+* **Nur To-dos:** To-dos ohne Zuweisungen kopieren.
+* **Nicht kopieren:** To-dos werden nicht kopiert.
+
+In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit Titel, Priorität, Datumseingabe (absolut oder relativ), Fälligkeitsdatum, Status, Zuweisung, Delegation und Tags auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
 
 [zum Seitenanfang ^](#implementations)
 
