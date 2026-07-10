@@ -21,7 +21,7 @@ The import wizard is started via the more-menu (⋮) on the Course Planner dashb
 
 ---
 
-## Export {: #export}
+## Export [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"} {: #export}
 
 ### Entry points {: #export_entry_points}
 
@@ -31,7 +31,7 @@ Export is available at several places in the Course Planner:
 * On the page of a single product: as a global action, as well as in the "Implementation" tab via the more-menu or bulk action
 * On the page of a single implementation: as a global action
 
-An export at implementation level always contains all related data including membership data — even for a bulk export of several selected implementations.
+An export at implementation level always contains all related data including membership data, even for a bulk export of several selected implementations.
 
 ##### Navigation under Product
 ![course_planner_export_product_v1_en.png](assets/course_planner_export_product_v1_en.png){ class="shadow lightbox" }
@@ -55,7 +55,7 @@ The file name of the exported Excel file follows the pattern "CPL_Products_\<dat
 Depending on the export type, the exported Excel file contains up to four sheets:
 
 * **Products:** Title, Ext. Ref., ORG - Ext. Ref., Absences, Description, Creation date, Last modified
-* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Ext. Ref., title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject
+* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Ext. Ref., title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}
 * **Memberships:** assignment of users to implementations with role (Participant, Coach, Master coach, Course owner, Element owner)
 * **Users:** Username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
 
@@ -107,6 +107,8 @@ If a row contains an error, it is automatically excluded from the import and hig
 Similar to step 2, but for the implementation structure (elements, templates, courses, events). An additional "Object type" filter allows narrowing down by kind of object [:octicons-tag-16:{ title="from release 20.3.0 (OO-9210)" }](https://track.frentix.com/issue/OO-9210){:target="_blank"}.
 
 If a parent element is ignored or contains an error, all child objects are automatically excluded from the import as well.
+
+If the module "Events and Absences" is deactivated on the instance, events are automatically set to "Ignored" during the import [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}.
 
 !!! info "Important"
 

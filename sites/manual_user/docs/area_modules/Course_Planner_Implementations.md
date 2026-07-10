@@ -275,6 +275,19 @@ The status change (e.g. from "Provisional" to "Published"), which is usually car
 ![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
 
 
+#### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
+
+The sub-tab "Assessment" is displayed for implementations of type single course. Here you link the implementation directly to a certification program, without going through the program itself.
+
+* Use the **"Certification program"** toggle to enable or disable the link.
+* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Ext. ref., validity period, recertification and required credit points. Only programs you have access to are displayed.
+* If a program is linked, a panel shows its validity period, recertification and required credit points. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove certification program"**. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
+
+An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
+
+When [copying an implementation](#copy), the link to the certification program is applied, provided you have permission for the program. If the permission is missing, the wizard shows the warning "The certification program cannot be applied due to a lack of permissions." Copying creates an entry in the program's activity log.
+
+
 #### Options in the settings
 
 Separate settings can be made here for each implementation:
@@ -329,7 +342,7 @@ You will find the option to copy in the list of executions at the end of a line 
 
 ![course_planner_implementations_copy1_v1_de.png](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
-In the first step of the small wizard, you can select whether course content, dates and members should also be copied.
+In the first step of the small wizard, you can select whether course content, dates, members and to-dos should also be copied.
 
 ![course_planner_implementations_copy2_v1_de.png](assets/course_planner_implementations_copy2_v1_de.png){ class="shadow lightbox" }  
 
@@ -339,11 +352,21 @@ Click on the + in front of an element to display the courses and dates for the e
 
 ![course_planner_implementations_copy3_v1_de.png](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
-An implementationn contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. It can be moved to a specific new start date (new reference point) or by a specified number of days.
+An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)"; you either enter the shift in days ("Shift by") or directly the "New date".
 
 ![course_planner_implementations_copy4_v1_de.png](assets/course_planner_implementations_copy4_v1_de.png){ class="shadow lightbox" }
 
 ![course_planner_implementations_copy5_v1_de.png](assets/course_planner_implementations_copy5_v1_de.png){ class="shadow lightbox" } 
+
+### Adopt to-dos when copying [:octicons-tag-16:{ title="from Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
+
+To-dos of an implementation are carried over when copying. In the first step of the wizard, the "To-dos" selection determines how this is done:
+
+* **Standard:** Copy to-dos with assignments.
+* **To-dos only:** Copy to-dos without assignments.
+* **Don't copy:** To-dos are not copied.
+
+In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with title, priority, date input (absolute or relative), due date, status, assignment, delegation and tags. Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
 
 [To the top of the page ^](#implementations)
 

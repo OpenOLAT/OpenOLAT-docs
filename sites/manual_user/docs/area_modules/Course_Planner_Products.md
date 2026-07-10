@@ -3,21 +3,21 @@
 ![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 
-## What do we mean by a product in OpenOlat? {: #definition}
+## What do we mean by a product in OpenOlat? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, there are multiple implementations, i.e. learning opportunities of the same "type" (-> product).
 
 Products often consist of several courses and have a specific structure/sequence in which the courses they contain are combined (structured products). The courses and learning resources are mapped in chronological order in a tree structure.
 
-In the context of companies, the term (educational) "product" is often used instead of "curriculum". For this reason, the term "product" has generally been used in OpenOlat since Release 20.
+In the context of companies, the term (educational) "product" is often used instead of "curriculum". For this reason, the term "product" is generally used in OpenOlat.
 
-As of Release 20, an extended, general course planning function (Course Planner) has been integrated into OpenOlat instead of curriculum management.
+With the Course Planner, an extended, general course planning function is integrated into OpenOlat.
 
 [To the top of the page ^](#products)
 
 ---
 
-## Where are products used? {: #usage_of_products}
+## Where are products used? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #usage_of_products}
 
 Products are used in **Course Planner** to plan an educational program with several courses and learning resources ("course package"). A product can then be offered in several versions on different dates.
 
@@ -36,19 +36,19 @@ Courses that are assigned to a product appear there in the "Educational programs
 ## Where and how are products activated? {: #activation}
 
 The Course Planner used to create products is an additional module in OpenOlat and must first be activated.<br>
-Customers of frentix please contact [contact@frentix.com.](mailto:contact@frentix.com.) for activation.
+Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for activation.
 <br>
 If you are not a frentix hosting customer, please ask your system operator.
 
-After activation, system administrators can activate and set up the module at:
-**Administration > Module > Course Planner**
+After activation, system administrators can activate and set up the module at:<br>
+`Administration > Modules > Course Planner`
 
 [To the top of the page ^](#products)
 
 ---
 
 
-## Create Product {: #create_product}
+## Create Product [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_product}
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
@@ -78,6 +78,19 @@ In this editor for the description, you can insert videos in addition to text, i
 ---
 
 
+## Filter and sort the product overview [:octicons-tag-16:{ title="from Release 21.0 (OO-9398)" }](https://track.frentix.com/issue/OO-9398){:target="_blank"} {: #product_overview}
+
+The list of products is sorted by relevance: first products with ongoing implementations (Preparation, Provisional or Confirmed), then products with cancelled or finished implementations, and finally products without implementations. Within these groups, sorting is alphabetical. This keeps the currently relevant products at the top.
+
+With **"Save filter"**, frequently used filter combinations can be saved as your own preset and reused.
+
+Course planners work with the "All" view, which shows the active products. Administrators additionally have the predefined filters **"Active"** (selected by default) and **"Deleted"** available.
+
+[To the top of the page ^](#products)
+
+---
+
+
 ## Import product {: #import_product}
 
 If you want to use an existing product for your planning, you can also import products. To do this, click on the three dots next to the ‘Create product’ button.
@@ -101,7 +114,7 @@ The **intended use** can be defined in the settings for each course:
 If a course is managed via the Course Planner, the setting is "**Integration in product**". The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
 
 You can find the setting under:<br>
-**(Choice of a course >) Administration > Settings > Tab Share > Implementation in a Product**
+**Choice of a course**: `Administration > Settings > Tab Share > Integration in product`
 
 ![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
 

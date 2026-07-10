@@ -27,7 +27,7 @@ The visible part of the offer is displayed as a card in the catalog (or in the l
 (The invisible part of an offer includes the rules: When and where is the offer displayed?)
 
 What is displayed on a card in the catalog can be specified (uniformly for all cards) by administrators under<br>
-**Administration > Module > Catalog > Tab Layout > Section Launchers**
+`Administration > Modules > Catalog > Tab Layout > Section Launchers`
 
 * Implementation format
 * Certificate
@@ -59,11 +59,11 @@ An advertisement can also appear in **several different launchers in the catalog
 Offers can also be displayed in catalog areas (launchers) that are visible only to members of certain organizational units. (This requires that the "Organizations" module be activated.)
 
 The release settings can be configured under<br>
-**Course/Implementation > Administration > Settings > Share > Section Offers > Link "Edit Offer"**
+`Course/Implementation > Administration > Settings > Share > Section Offers > Link "Edit Offer"`
 
 ![offer_concepts_share_org_v1_de.png](assets/offer_concepts_share_org_v1_de.png){ class=" shadow lightbox" }
 
-!!! hint "Note"
+!!! info "Important"
 
     Offers can be booked in the catalog as soon as their status has been set to "Published". (“Provisional” or “confirmed” for implementations.)
 
@@ -87,19 +87,22 @@ Offers are created
 ### Create offers in courses {: #create_offers_course}
 
 To offer a **course** in the catalog, select the relevant course and then<br> 
-**Administration > Settings > Share > Section "Offers"**
+`Administration > Settings > Share > Section "Offers"`
 
 ![offer_concepts_create_offer_course_v1_de.png](assets/offer_concepts_create_offer_course_v1_de.png){ class=" shadow lightbox" }
 
-!!! hint "Hint"
+!!! tip "Tip"
 
-    Once offers have been created, they can also be viewed in the **(course) administration under "Offer types".**
+    Once offers have been created, they can also be viewed under:<br>
+    `Course > Administration > Offer types`<br>
+    The entry appears as soon as a bookable offer has been configured for the course. Offers are configured under `Administration > Settings > Share > Section "Offers"` (see above).<br>
+    [Details on the offer configuration >](../learningresources/Access_configuration.md#offer)
 
 
-### Create offers in the Course Planner {: #create_offers_implementation}
+### Create offers in the Course Planner [:octicons-tag-16:{ title="from Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
 
 To offer an **implementation** in the catalog, select the relevant course in the Course Planner and then the<br>
-**Tab Catalog > Button Offers**
+`Tab Catalog > Button Offers`
 
 ![offer_concepts_create_offer_implementation_v1_de.png](assets/offer_concepts_create_offer_implementation_v1_de.png){ class=" shadow lightbox" }
 
@@ -138,7 +141,7 @@ The catalog can include offers for
 ### Offer Courses {: #what_is_offered_courses}
 
 Offers of a Course can be created under<br>
-**(Course) Administration > Settings > Share > Section "Offers"**<br>
+`(Course) Administration > Settings > Share > Section "Offers"`<br>
 Please note that the option "Bookable and open offers" must be selected beforehand under "Access for participants".
 
 ![offer_concepts_types_course1_v1_de.png](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
@@ -151,7 +154,7 @@ Detailed information about [offering courses in the catalog can be found here >]
 
 ---
 
-### Offer implementation {: #what_is_offered_implementations}
+### Offer implementation [:octicons-tag-16:{ title="from Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #what_is_offered_implementations}
 
 If the same course is to be offered several times on different dates, this can be done in the **Course Planner** using **Instances**.
 
@@ -159,12 +162,12 @@ Events can also be advertised in the catalog if it is still unclear whether they
 
 Users can book these courses by logging in from the catalog (if they are already OpenOlat users) or by registering as new users (if they have found a suitable course in the external catalog, which they can view without registering).
 
-If an offer has been made in the catalog from within Course Planner that can be booked **with an invoice**, interested parties will be guided through the registration process to enter their billing address, etc. A booking number will also be generated. (As of release 20.1, this is only possible with Course Planner.)
+If an offer has been made in the catalog from within Course Planner that can be booked **with an invoice**, interested parties will be guided through the registration process to enter their billing address, etc. A booking number will also be generated. (This is only possible with the Course Planner.)
 
 The booking request can then be confirmed.
 
 Offers for implementation are created in the Course Planner at:<br>
-(**Course Planner > Implementation > Tab Catalog > Tab Offers**)
+`Course Planner > Implementation > Tab Catalog > Tab Offers`
 
 ![offer_concepts_types_course_planner1_v1_de.png](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
@@ -200,9 +203,9 @@ After successfully configuring the PayPal module, you can select the PayPal offe
 
 [Setting up the PayPal payment module (Administration) >](../../manual_admin/administration/Payment_PayPal.md)
 
-### Invoice {: #offer_payed_invoice}
+### Invoice [:octicons-tag-16:{ title="from Release 20.0 (OO-8210)" }](https://track.frentix.com/issue/OO-8210){:target="_blank"} {: #offer_payed_invoice}
 
-Payment by invoice is currently only possible for courses created in Course Planner. (As of February 2026)
+Payment by invoice is only possible for implementations in the Course Planner.
 
 For offers with invoices,
 
@@ -211,17 +214,30 @@ For offers with invoices,
 
 ![offer_concepts_invoice_membership_v1_de.png](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hint"
+!!! tip "Tip"
 
     In the Course Planner under<br>
-    **Implementations > Catalog tab > Booking orders tab**, the booking orders are collected and can be exported as an Excel file and used in another program (e.g., for invoicing).  
+    `Implementations > Tab Catalog > Tab Booking orders`<br>
+    the booking orders are collected and can be exported as an Excel file and used in another program (e.g., for invoicing).  
 
 [Setting up the invoice payment module (Administration) >](../../manual_admin/administration/Payment_Invoice.md)
 
 
-### Credit Points {: #offer_payed_credit_points}
+### Cancellation policy for invoice offers [:octicons-tag-16:{ title="from Release 21.0 (OO-9382)" }](https://track.frentix.com/issue/OO-9382){:target="_blank"} {: #offer_invoice_cancellation}
 
-Since release 20.1, credit point systems can be set up in OpenOlat. A credit point system allows credit points to be collected across different learning opportunities. Using the "Credit points" module, you can define your own credit point systems globally. These enable participants to collect educational points/credits, such as ECTS or LearnCoins, for passing courses.
+When creating or editing an invoice offer, you define whether and under which conditions a booking can be cancelled. This way, users know the cancellation rules before they book.
+
+* **Cancelable:** This toggle determines whether bookings of this offer can be cancelled. The option is enabled by default.
+* **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" (default) and "With fee".
+* **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. In order for the deadline to be taken into account, a start date must be specified in the execution period.
+* **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
+
+The cancellation information is displayed to users with the offer.
+
+
+### Credit Points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
+
+Credit point systems can be set up in OpenOlat. A credit point system allows credit points to be collected across different learning opportunities. Using the "Credit points" module, you can define your own credit point systems globally. These enable participants to collect educational points/credits, such as ECTS or LearnCoins, for passing courses.
 
 These points can also be used in certificate programs for recertification, for example. Participants can earn credit points for each course they successfully complete. They can then use these credit points to purchase another course.
 

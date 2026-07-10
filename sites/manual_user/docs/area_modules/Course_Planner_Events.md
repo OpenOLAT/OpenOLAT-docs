@@ -3,7 +3,7 @@
 
 ![course_planner_events_access_v3_de.png](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
 
-## What dates does the Course Planner cover? {: #type_of_events}
+## What dates does the Course Planner cover? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #type_of_events}
 
 The dates created and displayed in the Course Planner refer to the elements used in the Course Planner. (Other dates, e.g. from projects, are not listed here in the Course Planner).
 
@@ -11,7 +11,7 @@ The dates created and displayed in the Course Planner refer to the elements used
 
 ---
 
-## Where can I see events? {: #display_events}
+## Where can I see events? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #display_events}
 
 ### Selection of current events
 
@@ -57,12 +57,23 @@ The appointments can be displayed in a list view or as a timeline. Use the butto
 
     ![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
 
+### Elements of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
+
+In the event list, the "Element" column shows which element an event belongs to. Click the element name to open the element directly, even if it does not belong to the currently selected implementation or product.
+
+With modularized courses, an event can have participants from several elements. The detail view of an event lists these elements in a table:
+
+* Each element is displayed with its element icon.
+* The **"Default element"** column marks the default element with the "Default" label, as in the course.
+* The "Status" column uses the labels **"Included"** and **"Excluded"** to show whether the participants of the respective element are included in or excluded from the event.
+
+
 [To the top of the page ^](#events)
 
 
 ---
 
-## How do I create new events? {: #create_events}
+## How do I create new events? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_events}
 
 As appointments refer to an implementation, you will find the option to create under<br>
 **Course Planner Overview > Implementations > Select implementation > Tab Events**

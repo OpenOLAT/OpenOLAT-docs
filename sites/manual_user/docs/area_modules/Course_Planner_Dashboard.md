@@ -63,6 +63,8 @@ If a maximum or minimum number of participants is defined, an additional note te
 
 The area below shows the persons responsible for the implementation with their role (e.g. coaches, master coaches, course owners, element owners).
 
+If no course staff has been added yet, the widget shows the note "No course staff yet." Use the **"Details"** button to go directly to the Members tab of the respective implementation. [:octicons-tag-16:{ title="from Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+
 [To the top of the page ^](#dashboard)
 
 ---
