@@ -137,7 +137,7 @@ If the frentix cloud transcoding service is activated for the OpenOlat instance,
 
 !!! info "Important"
 
-    Automatic subtitle generation is part of the frentix cloud transcoding service and is not included in the standard distribution of OpenOlat. If you are interested, please contact the frentix support.
+    Automatic subtitle generation is part of the frentix cloud transcoding service and is not included in the standard distribution of OpenOlat. If you are interested, please contact the frentix support: [contact@frentix.com](mailto:contact@frentix.com)
 
 #### Subtitles when replacing a video [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 

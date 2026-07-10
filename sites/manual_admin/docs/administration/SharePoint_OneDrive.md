@@ -6,7 +6,7 @@ As of OpenOlat version 19.0, only a single Microsoft Azure app is set up for the
 
 !!! info "Info"
 
-    For support and details, please contact frentix.
+    For support and details, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 ### Requirements
 

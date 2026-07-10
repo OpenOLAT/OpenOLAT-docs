@@ -85,7 +85,7 @@ If you have authorization for user administration, you can also view the existin
 
 If certain people are already grouped together in another system (e.g. HR software), these group memberships can also be mapped in OpenOlat. However, this requires middleware (Syncher), which can then automatically assign users to specific OpenOlat groups.
 
-If you have any questions about automatically assigned group membership, please contact frentix.
+If you have any questions about automatically assigned group membership, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 [To the top of the page ^](#group_membership)
 
