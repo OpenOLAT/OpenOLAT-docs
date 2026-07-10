@@ -136,7 +136,7 @@ Gruppenverwalter:innen verfügen im Gruppenbereich zusätzlich über den Tab „
 
 Werden in einem anderen System (z.B. einer HR-Software) bereits bestimmte Personen in Gruppen zusammengefasst, können diese Gruppenmitgliedschaften auch in OpenOlat abgebildet werden. Dazu benötigt es allerdings eine Middleware (Syncher), die dann automatisiert Benutzer:innen bestimmten OpenOlat-Gruppen zuordnen kann.
 
-Bei Fragen zu automatisch zugewiesener Gruppenmitgliedschaft wenden Sie sich bitte an frentix.
+Bei Fragen zu automatisch zugewiesener Gruppenmitgliedschaft wenden Sie sich bitte an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 [Zum Seitenanfang ^](#group_membership)
 

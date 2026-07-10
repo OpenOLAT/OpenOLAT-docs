@@ -7,7 +7,7 @@ Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra
 
 !!! info "Info"
 
-    Für Unterstützung und Details wenden Sie sich bitte an frentix.
+    Für Unterstützung und Details wenden Sie sich bitte an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 
 ### Voraussetzung

@@ -132,7 +132,7 @@ Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, er
 
 !!! info "Wichtig"
 
-    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse kontaktieren Sie den frentix Support.
+    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse kontaktieren Sie den frentix Support: [contact@frentix.com](mailto:contact@frentix.com)
 
 #### Untertitel beim Ersetzen eines Videos [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 
