@@ -664,7 +664,7 @@ edu-sharing educational content repository integration.
 
 ### frentix cloud transcoding service
 
-A service operated by frentix that OpenOlat communicates with via an API. It transcodes uploaded videos into multiple resolutions and automatically generates subtitles. Not part of the standard OpenOlat distribution — contact frentix support if interested.
+A service operated by frentix that OpenOlat communicates with via an API. It transcodes uploaded videos into multiple resolutions and automatically generates subtitles. Not part of the standard OpenOlat distribution. Contact frentix support if interested.
 
 ### GoToMeeting
 

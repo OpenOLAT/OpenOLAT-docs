@@ -344,7 +344,7 @@ Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe f�
 
 ### frentix Cloud-Transcodingservice
 
-Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert. Er transkodiert hochgeladene Videos in mehrere Auflösungen und generiert automatisch Untertitel. Nicht Teil der Standard-Distribution von OpenOlat – bei Interesse kontaktieren Sie den frentix Support.
+Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert. Er transkodiert hochgeladene Videos in mehrere Auflösungen und generiert automatisch Untertitel. Nicht Teil der Standard-Distribution von OpenOlat. Bei Interesse kontaktieren Sie den frentix Support.
 
 ### Gast
 

@@ -11,7 +11,7 @@ Der frentix Cloud-Transcodingservice kann beim Transcodieren zusätzlich automat
 
 !!! info "Wichtig"
 
-    Wird ein Transcoding-/Konvertierungsservice in einer Cloud genutzt, wird die lokale Audio- und Videokonvertierung deaktiviert.<br> Sind weder ein Service in der Cloud noch die lokale Audio- und Videokonvertierung aktiv, liegt es in der Regel daran, dass HandBrake oder ffmpeg nicht gefunden oder gestartet werden konnten.
+    Wird der frentix Cloud-Transcodingservice genutzt, wird die lokale Audio- und Videokonvertierung deaktiviert.<br> Sind weder der frentix Cloud-Transcodingservice noch die lokale Audio- und Videokonvertierung aktiv, liegt es in der Regel daran, dass HandBrake oder ffmpeg nicht gefunden oder gestartet werden konnten.
 
 
 ## Tab Videokonfiguration {: #video_config}

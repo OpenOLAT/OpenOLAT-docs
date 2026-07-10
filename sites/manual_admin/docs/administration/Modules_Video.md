@@ -12,7 +12,7 @@ The frentix cloud transcoding service can also automatically generate subtitles 
 
 !!! info "Important"
 
-    If a transcoding/conversion service is used in a cloud, local audio and video conversion is deactivated.<br> If neither a service in the cloud nor the local audio and video conversion are active, it is usually because HandBrake or ffmpeg could not be found or started.
+    If the frentix cloud transcoding service is used, local audio and video conversion is deactivated.<br> If neither the frentix cloud transcoding service nor the local audio and video conversion are active, it is usually because HandBrake or ffmpeg could not be found or started.
 
 
 
