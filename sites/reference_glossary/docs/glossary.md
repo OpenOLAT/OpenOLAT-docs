@@ -442,6 +442,14 @@ Scoring method for multiple-choice, matrix, and drag&drop questions: positive an
 
 Scoring method for multiple-choice, matrix, and drag&drop questions: a weighted score is added for each correctly selected answer and subtracted for each incorrectly selected answer.
 
+### External course tool
+
+Configurable link in the course toolbar to an external web application. Up to four external course tools with name, URL, icon, and role-based visibility can be configured per course.
+
+### Icon catalog
+
+Predefined selection of around 30 icons from which the symbol for an external course tool is chosen.
+
 
 ## Areas
 
@@ -653,6 +661,10 @@ Edubase digital textbook integration.
 ### edu-sharing
 
 edu-sharing educational content repository integration.
+
+### frentix cloud transcoding service
+
+A service operated by frentix that OpenOlat communicates with via an API. It transcodes uploaded videos into multiple resolutions and automatically generates subtitles. Not part of the standard OpenOlat distribution — contact frentix support if interested.
 
 ### GoToMeeting
 

@@ -662,6 +662,10 @@ Integration von Edubase für digitale Lehrbücher.
 
 Integration des edu-sharing-Repository für Bildungsinhalte.
 
+### frentix Cloud-Transcodingservice
+
+Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert. Er transkodiert hochgeladene Videos in mehrere Auflösungen und generiert automatisch Untertitel. Nicht Teil der Standard-Distribution von OpenOlat – bei Interesse kontaktieren Sie den frentix Support.
+
 ### GoToMeeting
 
 Integration von GoToMeeting/GoToTraining für virtuelle Meetings.

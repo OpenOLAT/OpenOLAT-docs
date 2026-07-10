@@ -394,6 +394,10 @@ A type of learning resource that can be created or imported in the authoring are
 
 A course element (building block) that can be added to a course structure.
 
+### frentix cloud transcoding service
+
+A service operated by frentix that OpenOlat communicates with via an API. It transcodes uploaded videos into multiple resolutions and automatically generates subtitles. Not part of the standard OpenOlat distribution — contact frentix support if interested.
+
 ### Full-text search
 
 System-wide search for content across courses, learning resources, and user data.

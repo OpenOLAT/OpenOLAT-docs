@@ -242,6 +242,10 @@ Integration von draw.io für Diagramme, im Whiteboard im Modul Projekte verwende
 
 Eine konkrete Durchführung eines Curriculum-Elements mit Daten und Mitgliedern.
 
+### Durchführungs-Widget
+
+Widget im Dashboard des Course Planner, zeigt die für die Person relevanten Durchführungen mit Kennzahlen und Tabelle.
+
 ### Durchführungsformat
 
 Ein Metadatenfeld, das den Durchführungsmodus angibt (online, blended, präsenz) und auf Katalogkarten angezeigt wird.
@@ -249,10 +253,6 @@ Ein Metadatenfeld, das den Durchführungsmodus angibt (online, blended, präsenz
 ### Durchführungsstatus
 
 Lebenszyklusstatus einer Durchführung im Course Planner: Vorbereitung, Provisorisch, Bestätigt, Aktiv, Abgebrochen, Beendet. Getrennt vom Publikationsstatus einer Lernressource.
-
-### Durchführungs-Widget
-
-Widget im Dashboard des Course Planner, zeigt die für die Person relevanten Durchführungen mit Kennzahlen und Tabelle.
 
 ### E-Mail
 
@@ -341,6 +341,10 @@ Gemeinsamer Pool von Bewertungsfragen für mehrere Kurse.
 ### Freigabe Betreuer:innen
 
 Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe für Betreuer:innen".
+
+### frentix Cloud-Transcodingservice
+
+Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert. Er transkodiert hochgeladene Videos in mehrere Auflösungen und generiert automatisch Untertitel. Nicht Teil der Standard-Distribution von OpenOlat – bei Interesse kontaktieren Sie den frentix Support.
 
 ### Gast
 
@@ -830,6 +834,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, für jede falsch ausgewählte Antwort abgezogen.
 
+### Termin-Widget
+
+Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
+
 ### Termine / Absenzen
 
 Verwaltung von Lektionsblöcken mit Absenzenerfassung.
@@ -841,10 +849,6 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 ### Terminvergabe
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
-
-### Termin-Widget
-
-Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
 
 ### Test
 
