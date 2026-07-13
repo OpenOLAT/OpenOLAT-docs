@@ -19,7 +19,7 @@ Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Si
 Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschte Antwort markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
 ![Beispiel Single Choice Frage](assets/Single_choice_Beispiel_DE.jpg){ class="shadow" }
-  
+
 ---
 
 ## Multiple Choice {: #mc}
@@ -78,15 +78,15 @@ Dann können Antworttexte eingefügt werden. Die Reihenfolge der Antworten könn
 
 Das Punkteschema ist bei Kprim Fragen vorgegeben. Folgende Punktzahlen können erreicht werden:
 
-Alle Antworten korrekt = 100% der Punktzahl  
-3 korrekte Antworten = 50% der Punktzahl  
+Alle Antworten korrekt = 100% der Punktzahl<br>
+3 korrekte Antworten = 50% der Punktzahl<br>
 2, 1 oder 0 korrekte Antworten = 0% der Punktzahl
 
 ![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl" }
-  
+
 ---
 
-## Matrix {: #matrix}
+## Matrix [:octicons-tag-16:{ title="ab Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
 
 ![Icon Matrix Frage](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
 
@@ -153,9 +153,9 @@ Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, w
 Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anzahl der richtigen Antworten) - maximale Punktzahl * (Anzahl der falsch markierten Antworten / Anzahl der falschen Antworten)
 
 
-!!! info "Hinweis: Einschränkung auf Mobiles"
+!!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp ist nicht für mobile Geräte optimiert.
+    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
 
 ---
 
@@ -173,19 +173,26 @@ Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortop
 
 ---
 
+<a id="fib"></a>
+
 ## Lückentext {: #gap}
 
 ![Icon Lückentext Frage](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
-Eine Lückentextfrage besteht aus einem Text in dem (Text-)Lücken integriert sind. Lücken können über das Icon mit den drei Punkten per Editor eingefügt und per Klick auf die Lücke überarbeitet werden.
+Eine Lückentextfrage besteht aus einem Text in dem (Text-)Lücken integriert sind. Lücken können über das Icon mit den drei Punkten per Editor eingefügt und per Klick auf die Lücke überarbeitet werden. Der Dialog "Lücke erstellen" bzw. "Lücke bearbeiten" zeigt oben die Eingabemethode der Lücke an und stellt die Konfiguration in einer Vorschau dar. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-Für jede Lücke können folgende Attribute ausgefüllt werden:
+Für jede Lücke können folgende Einstellungen vorgenommen werden:
 
 * Lösung: In diesem Feld wird die korrekte und erwünschte Lösung eingetragen.
-* Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext für die Teilnehmer eingetragen werden.
-* Varianten: Hier werden alternative Lösungsmöglichkeiten über das Pluszeichen in je ein Feld hinzugefügt. Alternativ können die Lösungen auch durch Semikolon getrennt in ein Feld eingefügt werden. Die Lösungen werden dann nach dem Speichern auf mehrere Felder verteilt.
-* Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
-* Gross/Klein: Wenn dieses Feld gewählt ist, wird die Gross-/Kleinschreibung beachtet. Ansonsten ist es egal, ob die Lösungen gross oder klein geschrieben werden.
+* Alternative Antworten: Mit diesem Schalter werden weitere akzeptierte Lösungen als Varianten erfasst. Mit "Antwort hinzufügen" wird je ein Feld ergänzt, mit "Mehrfach hinzufügen" werden mehrere Varianten auf einmal erfasst, getrennt durch ein wählbares Trennzeichen.
+* Anzeige:
+    * Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext für die Teilnehmer eingetragen werden.
+    * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
+    * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke mit Platzhalter und Lückenlänge dargestellt wird.
+* Optionen: Über die Checkbox-Gruppe "Korrektur" wird festgelegt, wie streng die Antworten automatisch korrigiert werden:
+    * Gross- und Kleinschreibung beachten: Wenn diese Option gewählt ist, wird die Gross-/Kleinschreibung beachtet. Ansonsten ist es egal, ob die Lösungen gross oder klein geschrieben werden.
+    * Leerzeichen ignorieren: Zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche in der Antwort führen nicht zur Abwertung. So wird z.B. bei der Lösung "log in" auch eine Eingabe mit doppeltem Leerzeichen als richtig gewertet. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
+    * Wildcard: Das Zeichen * steht in der Lösung für "etwas oder nichts" und kann auch in den Varianten verwendet werden. So deckt z.B. die Lösung "col*r" die Schreibweisen "color", "colour" und "colr" ab. Geben Teilnehmer selbst ein * ein, wird es als normales Zeichen behandelt. Eine Lösung, die nur aus Wildcards besteht, wird beim Speichern nicht akzeptiert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
 Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalternativen vergeben werden.
 
@@ -193,48 +200,62 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 ![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg)
 
-![Editor Lückentext](assets/Editor_Lückentext_DE.jpg)
-
-![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
-
 ---
 
 ## Lückentext mit Dropdown [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 ![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
-Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
+Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken werden dann unter "Antwortmöglichkeiten" mehrere Antworten zugeordnet; die korrekte Antwort wird als Lösung markiert.
 
 ![Dropdown Lückentext Beispiel](assets/Lueckentext_dropdown.png){ class="shadow" }
 
-Ferner können auch globale Antworten für die Lücken verwendet werden. Diese werden dann in jeder Lücke der jeweiligen Frage angezeigt und der User muss die für diese Lücke passende Antwort auswählen. 
+Unter "Anzeige" legt die Option "Reihenfolge der Antwortoptionen" fest, ob die Antworten den Teilnehmern in zufälliger Reihenfolge oder in der vorgegebenen, von Ihnen erfassten Reihenfolge angezeigt werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden. 
+Ferner können auch globale Antwortmöglichkeiten für die Lücken verwendet werden. Diese werden über "Globale Antwort hinzufügen" einmal pro Frage definiert und dann in jeder Lücke der jeweiligen Frage angezeigt; der User muss die für diese Lücke passende Antwort auswählen.
+
+Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden.
 
 ---
 
-## Numerische Eingabe {: #numeric_input}
+<a id="ni"></a>
+
+## Lückentext numerisch {: #numeric_input}
 
 ![Icon Numerische Eingabe Frage](assets/Icon_Numerical_Input_DE.png){ class=size24 }
 
-Die Numerische Eingabe verhält sich vom Prinzip her gleich wie der Lückentext. Als Lösung können hier jedoch nur Zahlen und nicht Texte eingegeben werden
+Der Lückentext numerisch verhält sich vom Prinzip her gleich wie der Lückentext. Als Lösung können hier jedoch nur Zahlen und nicht Texte eingegeben werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-Für jede Lücke können folgende Attribute ausgefüllt werden:
+Für jede Lücke können folgende Einstellungen vorgenommen werden:
 
 * Lösung: In diesem Feld wird die korrekte und erwünschte Lösung eingetragen.
-* Platzhalter: Wenn gewünscht, kann hier ein Platzhalter eingetragen werden. Dieser erscheint im Text in der Lücke und ist für die Teilnehmer sichtbar.
-* Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
-* Toleranz: es kann zwischen drei Möglichkeiten ausgewählt werden
-    * Genau: Die Lösung entspricht exakt der eingegebenen Lösung unter "Lösung"
-    * Absolut: Es kann eine untere bzw. obere Schranke für die Lösung definiert werden, wobei die untere Schranke kleiner bzw. gleich und die obere Schranke grösser bzw. gleich der Lösung sein muss. Die Lösung wird bis zur unteren und oberen Schranke akzeptiert. Die Schranke stellt eine absolute Zahl dar.
+* Toleranz: Ist der Schalter ausgeschaltet, muss die Antwort exakt der eingegebenen Lösung entsprechen. Ist er eingeschaltet, akzeptiert die Lücke Antworten zwischen einer unteren und einer oberen Grenze. Dabei stehen zwei Modi zur Auswahl:
+    * Absolut: "Untere Grenze" und "Obere Grenze" werden als absolute Zahlen eingetragen.
 
-		_Beispiel:_ Lösung 20, untere Schranke 18, obere Schranke 20,8 → Alle Lösungen zwischen 18 und 20,8 sind korrekt.
+		_Beispiel:_ Lösung 20, untere Grenze 18, obere Grenze 20,8 → Alle Lösungen zwischen 18 und 20,8 sind korrekt.
 
-    * Relativ: Die Lösung wird bis zu einer unteren und einer oberen Schranke akzeptiert. Die Schranke stellt eine relative Zahl in Prozent dar.
+    * Relativ: "Untere Grenze" und "Obere Grenze" werden als relative Zahlen in Prozent eingetragen.
 
-		_Beispiel:_ Lösung 20, Untere Schranke 10, Obere Schranke 10 → Alle Lösungen zwischen 18 und 22 sind gültig, denn die untere Schranke bedeutet minus 10% (20-2) und die obere Schranke plus 10% (20+2).
+		_Beispiel:_ Lösung 20, untere Grenze 10, obere Grenze 10 → Alle Lösungen zwischen 18 und 22 sind gültig, denn die untere Grenze bedeutet minus 10% (20-2) und die obere Grenze plus 10% (20+2).
+
+* Anzeige:
+    * Platzhalter: Wenn gewünscht, kann hier ein Platzhalter eingetragen werden. Dieser erscheint im Text in der Lücke und ist für die Teilnehmer sichtbar.
+    * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
+    * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke dargestellt wird.
 
 ![Beispiel Numerische Eingabe Frage](assets/Numerical_Input_Beispiel_DE.png){ class="shadow" }
+
+---
+
+## Lückentext gemischt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
+
+Der Lückentext gemischt kombiniert die drei Lückenarten in einer einzigen Frage: Text-Lücken, numerische Lücken und Lücken mit Dropdown können gemeinsam in denselben Fliesstext eingebaut werden. So lässt sich z.B. eine Rechenaufgabe samt Begründung in einer Frage abbilden, ohne dafür mehrere Einzelfragen zu erstellen.
+
+Beim Einfügen einer Lücke wird die gewünschte Eingabemethode gewählt. Jede Lücke wird anschliessend über den gleichen Dialog konfiguriert wie beim jeweiligen einzelnen Fragetyp; die Eingabemethode der Lücke wird oben im Dialog angezeigt.
+
+Enthält die Frage Lücken mit Dropdown, können zusätzlich globale Antwortmöglichkeiten definiert werden (siehe [Lückentext mit Dropdown](#gap_dropdown)).
+
+Bestehende Fragen der Typen Lückentext und Lückentext numerisch, die sowohl Text- als auch numerische Lücken enthalten, zeigen im Frageneditor einen Hinweis an. Mit der Aktion "Zu 'Lückentext gemischt' konvertieren" wird eine solche Frage in den neuen Fragetyp umgewandelt.
 
 ---
 
@@ -281,13 +302,13 @@ Dann können die Antworten in korrekter Reihenfolge eingetragen und die Ausricht
 
 ![Beispiel Reihenfolge Frage](assets/Reihenfolge_Beispiel_DE.png){ class="shadow" }
 
-!!! info "Hinweis: Einschränkung auf Mobiles"
+!!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp ist nicht für mobile Geräte optimiert. Bitte berücksichtigen Sie dies bei der Erstellung Ihrer Frage. 
+    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
 
 ---
 
-## Freitext* {: #fib}
+## Freitext* {: #essay}
 
 ![Icon Freitext Frage](assets/Icon_Freitext_DE.png){ class=size24 }
 
@@ -300,7 +321,7 @@ Anschliessend können folgende Optionen ausgewählt werden:
 * Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext eingetragen werden. Dieser erscheint im Textfeld und ist für die Teilnehmer sichtbar.
 * Höhe (Anzahl Zeilen): Hier kann die Grösse des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Teilnehmer mehr Zeilen eintragen.
 * Min. Anzahl Wörter: Diese Anzahl Wörter muss mindestens geschrieben sein, damit die Aufgabe gesendet werden kann.
-* Max. Anzahl Wörter: Diese Anzahl Wörter darf maximal geschrieben sein, damit die Aufgabe gesendet werden kann. Die Eingabe dient der Begrenzung der Eingabe.  
+* Max. Anzahl Wörter: Diese Anzahl Wörter darf maximal geschrieben sein, damit die Aufgabe gesendet werden kann. Die Eingabe dient der Begrenzung der Eingabe.
 * Copy/paste erlauben: Hier definieren Sie, ob die Lernenden Inhalte per copy+paste oder per Drag&Drop aus einer externen Quelle einfügen dürfen. Internes Verschieben von Text innerhalb desselben Feldes bleibt davon unabhängig weiterhin möglich. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
 Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion ausgestattet. Antworten können somit besser formatiert und zum Beispiel Spalten abgebildet werden.
@@ -339,9 +360,9 @@ Anschliessend wird ein Bild als Hintergrund hochgeladen. Dieses Bild muss dann v
 
 Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe der Pinselgrösse steuern.
 
-!!! info "Hinweis: Einschränkung auf Mobiles"
+!!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp ist nicht für mobile Geräte optimiert. Bitte berücksichtigen Sie dies bei der Erstellung Ihrer Frage. 
+    Dieser Fragetyp wird durch freihändiges Zeichnen bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
 
 
 ![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow" }

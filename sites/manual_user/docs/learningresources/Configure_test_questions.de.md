@@ -34,9 +34,18 @@ Folgende Konfigurationen stehen zur Verfügung:
 
     * Wenn Sie **"Alle korrekten Antworten"** wählen, werden nur Punkte verteilt, wenn alle Antworten richtig sind.
     * Wenn Sie **"Punkte pro Antwort"** wählen, können Sie in der Spalte _Punkte_ für jede Antwort die gewünschte Punktzahl vergeben und so sehr individuell gewichten. Auch negative Punkte sind hier möglich. Aber egal, was hier eingetragen wird, die maximal erreichbare Punktzahl kann beim Zusammenzählen nicht überschritten werden.
-    * **Teilpunkte** können für Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, Lückentext (Text und numerisch), Lückentext mit Dropdown verwendet werden. Bei der Berechnung wird für jede richtig ausgewählte Antwort automatisch eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort automatisch eine gewichtete Punktzahl abgezogen wird. (Ab :octicons-tag-16: Release 18.1.)
-    * Für Lückentext-Fragen und Numerische Eingaben können zudem unterschiedliche **"Punkte pro Antwort und Varianten"** vergeben und somit z.B. auch Teilpunkte für "halb richtige" Antworten hinterlegt werden.
+    * **Teilpunkte** können für Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, Lückentext (Text, numerisch und gemischt), Lückentext mit Dropdown verwendet werden. Bei der Berechnung wird für jede richtig ausgewählte Antwort automatisch eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort automatisch eine gewichtete Punktzahl abgezogen wird. [:octicons-tag-16:{ title="ab Release 18.1 (OO-7231)" }](https://track.frentix.com/issue/OO-7231)
+    * Für die Fragetypen Lückentext, Lückentext numerisch und Lückentext gemischt können zudem unterschiedliche **"Punkte pro Antwort und Varianten"** vergeben werden, z.B. eine reduzierte Punktzahl für alternative Schreibweisen einer Lösung.
     * Die Bewertungsmethode steht bei KPrim, Datei hochladen, Zeichnen und Freitext _nicht_ zur Verfügung.
+
+    Die beiden Methoden für abgestufte Punktevergabe im Vergleich:
+
+    |  | Teilpunkte | Punkte pro Antwort und Varianten |
+    |---|------------|----------------------------------|
+    | **Punktevergabe** | Automatisch nach gewichteter Formel | Manuell pro Antwort bzw. Variante |
+    | **Konfigurationsaufwand** | Keiner | Jede Antwort und Variante einzeln |
+    | **Negative Punkte** | Automatischer Abzug für falsche Antworten | Frei konfigurierbar |
+    | **Verfügbar für** | Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, alle Lückentext-Typen | Lückentext, Lückentext numerisch, Lückentext gemischt |
 
 ## Tab Feedback {: #feedback}
 

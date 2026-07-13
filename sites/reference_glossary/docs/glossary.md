@@ -432,15 +432,15 @@ Group in the "Topic assignment" course element listing the course participants a
 
 ### All correct answers
 
-Scoring method for multiple-choice, matrix, and drag&drop questions: the full score is only achieved if all correct answers are selected, otherwise the final score is 0.
+Scoring method for multiple-choice, hotspot, hottext, drag&drop, matrix, and gap questions (text, numerical, mixed, with dropdown): the full score is only achieved if all correct answers are selected, otherwise the final score is 0.
 
 ### Score per answer
 
-Scoring method for multiple-choice, matrix, and drag&drop questions: positive and negative points are configured individually for each answer option.
+Scoring method for multiple-choice, hotspot, hottext, drag&drop, matrix, and gap questions (text, numerical, mixed, with dropdown): positive and negative points are configured individually for each answer option.
 
 ### Partial score
 
-Scoring method for multiple-choice, matrix, and drag&drop questions: a weighted score is added for each correctly selected answer and subtracted for each incorrectly selected answer.
+Scoring method for multiple-choice, hotspot, hottext, drag&drop, matrix, and gap questions (text, numerical, mixed, with dropdown): a weighted score is added for each correctly selected answer and subtracted for each incorrectly selected answer.
 
 ### External course tool
 

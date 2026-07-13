@@ -420,15 +420,15 @@ Kennzahl-Label im Kurs-Widget für Kurse mit dem Publikationsstatus "Freigabe f�
 
 ### Alle korrekten Antworten
 
-Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Die volle Punktzahl wird nur erreicht, wenn alle richtigen Antworten ausgewählt sind, sonst resultiert die Endpunktzahl 0.
+Bewertungsmethode für Multiple-Choice-, Hotspot-, Hottext-, Drag&Drop-, Matrix- und Lückentext-Fragen (Text, numerisch, gemischt, mit Dropdown): Die volle Punktzahl wird nur erreicht, wenn alle richtigen Antworten ausgewählt sind, sonst resultiert die Endpunktzahl 0.
 
 ### Punkte pro Antwort
 
-Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Positive und negative Punkte werden für jede Antwortoption einzeln konfiguriert.
+Bewertungsmethode für Multiple-Choice-, Hotspot-, Hottext-, Drag&Drop-, Matrix- und Lückentext-Fragen (Text, numerisch, gemischt, mit Dropdown): Positive und negative Punkte werden für jede Antwortoption einzeln konfiguriert.
 
 ### Teilpunkte
 
-Bewertungsmethode für Multiple-Choice-, Matrix- und Drag&Drop-Fragen: Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, für jede falsch ausgewählte Antwort abgezogen.
+Bewertungsmethode für Multiple-Choice-, Hotspot-, Hottext-, Drag&Drop-, Matrix- und Lückentext-Fragen (Text, numerisch, gemischt, mit Dropdown): Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, für jede falsch ausgewählte Antwort abgezogen.
 
 ### Erfolgsstatus
 
