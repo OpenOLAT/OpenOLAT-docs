@@ -1,6 +1,6 @@
 # Configure test questions
 
-With each [question type](Test_question_types.md) you have the following tabs available: Name of the question type, Score, Feedback, Preview, and Preview Solution. In the following, the individual tabs for setting up a test question are explained in more detail.
+With each [question type](Test_question_types.md) you have the following tabs available: Choice/[name of the question type], Score, Feedback, Preview, Preview Solution and Metadata. In the following, the individual tabs for setting up a test question are explained in more detail.
 
 ![Question items tabs](assets/question_editor_tabs.png){ class="shadow" }
 
@@ -82,7 +82,7 @@ In the preview all questions are visible like the test participant will see them
 
 ## Preview solution
 
-In the Preview solution the Model solution is shown. That is the correct solution which will also be shown in the result reporting. Especially for gap-text questions this preview can be helpful als the whole text with the solutions of every gap will be shown and can be read as fluent text. In the gap only the solution is inserted, but not the alternatives.
+In the Preview solution the Model solution is shown. That is the correct solution which will also be shown in the result reporting. Especially for gap-text questions this preview can be helpful als the whole text with the solutions of every gap will be shown and can be read as fluent text. The solution is inserted in the gap. Alternative answers are additionally listed next to the gap, unless they are scored with 0 or negative points. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
 ## Tab Metadata
 

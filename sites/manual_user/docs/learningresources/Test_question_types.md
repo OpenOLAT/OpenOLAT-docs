@@ -82,6 +82,8 @@ All correct answers = 100% score<br>
 
 ![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow" }
 
+---
+
 ## Matrix [:octicons-tag-16:{ title="from Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
 
 ![Icon Matrix Question](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
@@ -111,6 +113,7 @@ Positive and negative scoring can be configured for each individual answer optio
 A weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. The following formula is used:<br>
 Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
 
+---
 
 ## Drag&Drop [:octicons-tag-16:{ title="from Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
@@ -149,7 +152,9 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 !!! info "Note: Restriction to mobile devices"
 
     This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
-  
+
+---
+
 ## True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
 ![Icon True False Question](assets/Icon_true_false_DE.png){ class=size24 }
@@ -163,7 +168,7 @@ The scores can be defined as needed. You may even give points for the option "Un
 
 ![Example True False Question](assets/True_false_Beispiel.png){ class="shadow" }
 
---
+---
 
 <a id="fib"></a>
 
@@ -208,6 +213,8 @@ Furthermore, global answer options can also be used for the gaps. They are defin
 
 Scoring can be done across all gaps as well as configured separately for each answer of a gap.
 
+---
+
 <a id="ni"></a>
 
 ## Gap FIB numerical {: #numeric_input}
@@ -235,6 +242,8 @@ First a short title is inserted. Afterward the next is written with fields for t
 
 ![Example Numerical Input Question](assets/Numerical_Input_Beispiel.png){ class="shadow" }
 
+---
+
 ## Gap mixed [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
 
 The Gap mixed question type combines the three gap variants in a single question: text gaps, numerical gaps and gaps with dropdown can be built into the same continuous text together. This makes it possible, for example, to map a calculation task including its reasoning in one question, without creating several individual questions.
@@ -244,6 +253,8 @@ When inserting a gap, the desired input method is selected. Each gap is then con
 If the question contains gaps with dropdown, global answer options can also be defined (see [Gap text with dropdown](#gap_dropdown)).
 
 Existing questions of the types Gap text and Gap FIB numerical that contain both text and numerical gaps show a message in the question editor. The action "Convert to 'Gap mixed'" converts such a question into the new question type.
+
+---
 
 ## Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
@@ -256,6 +267,8 @@ First a short title is inserted.
 Afterward a text is written and the selectable terms are marked as hottext. Finally the correct answers need to be marked by selecting the check boxes.
 
 ![Example Hottext Question](assets/Hottext_Beispiel.png){ class="shadow" }
+
+---
 
 ## Hotspot {: #hotspot}
 
@@ -271,6 +284,8 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 * Finally, the correct answer needs to be selected.
 
 ![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow" }
+
+---
 
 ## Order [:octicons-tag-16:{ title="from Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
 
@@ -288,6 +303,8 @@ Then the answers can be entered in the correct order and the alignment of the di
 
 
 ![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow" }
+
+---
 
 ## Essay* {: #essay}
 
@@ -313,6 +330,8 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 	As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the excursion below this table.
 
+---
+
 ## File upload* [:octicons-tag-16:{ title="from Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
 ![Icon File Upload Question](assets/Icon_Fileupload_DE.png){ class=size24 }
@@ -324,6 +343,8 @@ A short title and the question are entered as well as the number of available up
 No correct answer can be marked, as the assessment of this question type is only manually possible.
 
 ![Example File Upload Question](assets/Fileupload_Beispiel.png){ class="shadow" }
+
+---
 
 ## Drawing* {: #draw}
 

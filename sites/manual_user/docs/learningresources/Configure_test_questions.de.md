@@ -82,7 +82,7 @@ In der Vorschau wird die Frage angezeigt, wie sie auch für die Lernenden ersche
 
 ## Tab Vorschau Lösung
 
-In diesem Tab wird die Frage inklusive (Muster-)Lösung dargestellt. Diese Lösung kann auch später im Test als korrekte Lösung angezeigt werden. Vor allem bei Lückentext-Fragen kann diese Vorschau hilfreich sein z.B. um eine passende Lückenlänge zu prüfen. In der Vorschau der Lösung wird nur die Lösung eingetragen, nicht aber die Alternativen Lösungen.
+In diesem Tab wird die Frage inklusive (Muster-)Lösung dargestellt. Diese Lösung kann auch später im Test als korrekte Lösung angezeigt werden. Vor allem bei Lückentext-Fragen kann diese Vorschau hilfreich sein z.B. um eine passende Lückenlänge zu prüfen. In der Lücke wird die Lösung eingetragen. Alternative Antworten werden neben der Lücke zusätzlich aufgeführt, ausser sie sind mit 0 oder negativen Punkten bewertet. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
 ## Tab Metadaten
 
