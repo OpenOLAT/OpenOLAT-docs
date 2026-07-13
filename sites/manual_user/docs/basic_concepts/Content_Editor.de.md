@@ -337,7 +337,7 @@ Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editor
 
 Die Titelgrösse steuert zugleich, welche importierten Titel das Element "Inhaltsverzeichnis" erfasst und als Sprungmarken verlinkt.
 
-!!! note "Markdwon-Erweiterungen"
+!!! note "Markdown-Erweiterungen"
     Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
 
 **Bilder beim Import**

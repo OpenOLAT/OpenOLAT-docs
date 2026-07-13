@@ -188,7 +188,7 @@ Standortbasiertes System zur Kontaktnachverfolgung.
 
 ### Content Editor
 
-WYSIWYG-Editor zum Erstellen reichhaltiger Inhalte innerhalb von Seite-Kursbausteinen.
+WYSIWYG-Editor zum Erstellen reichhaltiger Inhalte, verwendet im Kursbaustein Seite, in der Lernressource Formular und im Portfolio.
 
 ### Course Planner
 
@@ -389,6 +389,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 ### Icon-Katalog
 
 Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Kurstool gewählt wird.
+
+### Import (Content Editor)
+
+Importfunktion des Content Editors, die Markdown-Dateien, Word-Dokumente (.docx) oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
 
 ### JupyterHub
 

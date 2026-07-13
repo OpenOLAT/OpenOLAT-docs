@@ -282,9 +282,9 @@ AI feature that creates suggestions for multiple-choice questions in the questio
 
 AI feature that generates title, description, alt text and keywords for uploaded images.
 
-### Markdown import
+### Import (content editor)
 
-Import function of the content editor that automatically converts markdown files or pasted markdown text into content editor blocks.
+Import function of the content editor that automatically converts markdown files, Word documents (.docx) or pasted markdown text into content editor blocks.
 
 ### Assessment tool
 
@@ -304,7 +304,7 @@ Personal and course calendar for scheduling and event management.
 
 ### Content editor
 
-WYSIWYG editor for creating rich content within Page course elements.
+WYSIWYG editor for creating rich content, used in the Page course element, the Form learning resource and the portfolio.
 
 ### Course editor
 

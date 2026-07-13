@@ -14,7 +14,7 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 ## Example
 
 === "Course view"
-    
+
     There are different layout variants to choose from, in which the desired elements such as images, texts, tables and videos can be flexibly placed and thus the entire page can be designed.
 
     ![course_element_page_run_view_de.png](../learningresources/assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" }
@@ -38,7 +38,7 @@ The **Content Editor** will open. First, add a new layout. (More of these layout
 
 ![course_element_page_tab_layout1_v1_de.png](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
 
-There are two ways to fill the page: content elements are added individually, or existing content in markdown format is imported in one step.
+There are two ways to fill the page: content elements are added individually, or existing content in markdown or Word format is imported in one step.
 
 ### Adding content elements individually {: #add_elements}
 
@@ -67,14 +67,15 @@ The following content elements are available:
 * **From my Media Center:** Access to all elements of your own Media Center. New elements can also be created for the Media Center.
 * **Text segment:** A text that can be designed with an HTML editor. (With slightly more options than in the Paragraph content element).
 * **Separator:** A line used to visually separate two layouts. 
+* **Table of contents:** Lists the titles of the page as clickable jump marks [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}
 
-### Importing existing content from markdown [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
+### Importing existing content from markdown or Word [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 
-Instead of building the page element by element, existing content in markdown format can be imported directly: as a file upload or as pasted text, e.g. from the clipboard. OpenOlat automatically converts the content into the matching blocks of the Content Editor (Title, Text, Table, Code example, Image, etc.); referenced images are stored in the Media Center.
+Instead of building the page element by element, existing content in markdown format or as a Word document (.docx) can be imported directly [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}: as a file upload or as pasted text, e.g. from the clipboard. OpenOlat automatically converts the content into the matching blocks of the Content Editor (Title, Text, Table, Code example, Image, etc.); referenced images are stored in the Media Center.
 
 This allows content from external tools, plain text files or AI applications to be adopted as a course page without manual reformatting.
 
-[Details on markdown import >](../basic_concepts/Content_Editor.md#markdown)
+[Details on the import >](../basic_concepts/Content_Editor.md#markdown)
 
 
 ## Edit page (Edit mode) [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}

@@ -18,7 +18,7 @@ The content editor is used in the [Course element page](../learningresources/Cou
 
 ### Course element page [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
-The Content Editor is activated in the "Page" course block either in the Course Editor under the "Page Content" tab, or—when the Course Editor is closed—by enabling edit mode directly on the desired "Page" course block. 
+The Content Editor is activated in the "Page" course block either in the Course Editor under the "Page Content" tab, or, when the Course Editor is closed, by enabling edit mode directly on the desired "Page" course block. 
 
 **When the course editor is closed:**
 
@@ -34,7 +34,7 @@ In the course editor, you can configure whether, in addition to course owners, i
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
-The media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, quotes, documents, etc.) is stored in the [Media Center](../ personal_menu/Media_Center.md), not in the course’s storage folder (see [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md)). For more information, see the explanations for the respective course element types. 
+The media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, quotes, documents, etc.) is stored in the [Media Center](../personal_menu/Media_Center.md), not in the course’s storage folder (see [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md)). For more information, see the explanations for the respective course element types. 
 
 Different rules apply to the portfolio and the form-based learning resource.
 
@@ -58,7 +58,7 @@ The displayed options for inserting content are adapted to the form, e.g. differ
 
 ### E-portfolio [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-This also applies to entries in [portfolio folders](../ area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), the Content Editor is used.
+This also applies to entries in [portfolio folders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), the Content Editor is used.
 
 ![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
@@ -67,7 +67,7 @@ This also applies to entries in [portfolio folders](../ area_modules/My_portfoli
 ---
 
 
-## Layout in the content editor {: #content_editor_layout}
+## Layout in the content editor [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6199)" }](https://track.frentix.com/issue/OO-6199){:target="_blank"} {: #content_editor_layout}
 
 Before you can insert content in the Content Editor, you must first "add a new layout". The layout serves as a grid that determines the arrangement of the content (blocks).
 
@@ -80,6 +80,10 @@ If necessary, the layout can be changed later at any time. To do this, simply cl
 If several layouts are available in a form, you can change the order of the layouts. Use the arrows to move an entire layout.
 
 ![content_editor_layout_move_v1_de.png](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
+
+### Deleting a layout [:octicons-tag-16:{ title="from Release 21.0 (OO-9407)" }](https://track.frentix.com/issue/OO-9407){:target="_blank"} {: #delete_layout}
+
+Every layout on a page can be deleted via the layout's three-dot menu, including the first one. When deleting, you decide what happens to the content: "Delete everything" removes the layout together with its content, "Only delete the layout and move the content" moves the content to the adjacent layout. When the last layout of a page is deleted, the dialog points out that the layout and all its content will be deleted; the page then automatically receives an empty default layout again. If only a single empty layout is left, the "Delete" action is disabled.
 
 [To the top of the page ^](#content_editor)
 
@@ -143,7 +147,7 @@ Consistent spacing between the layout fields (content blocks) is important for c
 
 **Block style "Note"**
 
-Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box—along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
+Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box, along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
 
 ![content_editor_box_inspector_v1_de.png](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
 
@@ -166,20 +170,12 @@ Please note that not *all* elements are available in every content editor.
 
 Various font sizes are predefined for the heading element.
 
-![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
-<h3>Paragraph</h3>
+<h3>Text</h3>
 
-In contrast to a text section, a paragraph also contains note boxes and columns.
-
-![content_editor_content_paragraph_v1_de.png](assets/content_editor_content_paragraph_v1_de.png){ class="shadow lightbox" }
-
-<h3>Text section</h3>
-
-A simple text editor is available in a text section for creating text blocks.
-
-![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
-
+Use this element to add texts.
+![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
 
 <h3>Table</h3>
 
@@ -191,7 +187,9 @@ A special small editor is available for mathematical formulas.
 
 ![content_editor_content_math_v1_de.png](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" }
 
-<h3>Code</h3>
+This text element does not exist in the Form Editor. 
+
+<h3>Code example</h3>
 
 The 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly helpful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
 
@@ -251,7 +249,7 @@ You can also access the Media Center via the Inspector menu to add additional in
 In addition, the "Share" section allows you to share newly created or uploaded documents directly.
 
 
-![content_editor_content_document_v1_de.png](../basic_concepts/assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 <h3>draw.io diagram</h3>
 
@@ -282,26 +280,33 @@ These short quiz questions are intended to encourage engagement with the course 
 
 ---
 
-### Importing Markdown Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
+### Importing Markdown and Word Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
-!!! info "Info"
+!!! info "Important"
 
     Markdown is a widely used text format that is output by many tools and AI applications. It allows for the seamless import and reuse of existing content without the need for additional formatting. At the same time, it supports a clear structure and facilitates the ongoing development of learning content.
 
-Markdown files can be imported directly into the Content Editor, allowing content from external tools or plain text files to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily.
+Markdown files and Word documents can be imported directly into the Content Editor, allowing content from external tools, text files or AI applications to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily.
 
-To import, click the **"Import Markdown"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
+To import, click the **"Import"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
 
-* **Upload file:** Markdown files (.md, .markdown, .txt) and ZIP archives are supported, each up to a maximum of 50 MB. A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.
-* **Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
+**A) Upload file:** (The following are supported)
+* Markdown files (.md, .markdown, .txt)
+* ZIP archives up to a maximum of 50 MB (A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.)
+* Word documents (.docx) up to a maximum of 200 MB [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
-![content_editor_content_markdown2_v1_de.png](assets/content_editor_content_markdown2_v1_de.png){ class="shadow lightbox" }
+**B) Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
+
+!!! Info "Importing Word documents"
+    Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
+
+<h4>Conversion of the elements</h4>
 
 During import, the markdown elements are converted into blocks of the Content Editor as follows:
 
 | Markdown element | Block in the Content Editor |
 |------------------|-----------------------------|
-| Heading (level 1 to 6) | Title |
+| Heading (level 1 to 6, `#` to `######`) | Title in the corresponding size (H1 to H6) |
 | Paragraph | Text |
 | Horizontal rule (`---`) | Separator |
 | Code block | Code example (with detected programming language) |
@@ -311,8 +316,16 @@ During import, the markdown elements are converted into blocks of the Content Ed
 | Table | Table |
 | Image | Image (stored in the Media Center) |
 | Math block (`$$...$$`) | Math formula |
+| Inline formatting `<sup>`, `<sub>`, `<u>`, `<mark>` or `==text==` | Text with preserved formatting [:octicons-tag-16:{ title="from Release 21.0 (OO-9400)" }](https://track.frentix.com/issue/OO-9400){:target="_blank"} |
+| Image size `{width=300 height=200}` directly after the image | Image in the specified display size |
+| Table with bold first row or first column | Table with row or column headers |
+| MkDocs admonition `!!! info "Title"` | Text with alert box of the matching type |
+| YAML front matter block at the top of the document, enclosed in `---` | Detected and removed, the page starts directly with the content [:octicons-tag-16:{ title="from Release 21.0 (OO-9402)" }](https://track.frentix.com/issue/OO-9402){:target="_blank"} |
 
-In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
+The title size also determines which imported titles the "Table of contents" element captures and links as jump marks.
+
+!!! note "Markdown extensions"
+    In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon; MkDocs admonitions add further types such as ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG or EXAMPLE. An admonition title in quotation marks is applied, an empty title `""` hides the title line, and without a title the default label of the type is shown. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
 
 **Images during import**
 
@@ -322,17 +335,27 @@ Images with absolute URLs are downloaded during import, provided the administrat
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", metadata (alt text, description, keywords) is automatically generated by AI in the background for imported images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. A reduced version of the image is transmitted to the AI service. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 
+#### Importing at a specific position
+
+The "Import" button is additionally available in the **"Add content" dialog** [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
+
 [To the top of the page ^](#content_editor)
 
 ---
 
 ### Others & Design {: #others_and_design}
 
-<h3>Separator</h3>
+<h4>Separator</h4>
 
 A separator is a line (visual design element) used to separate content.
 
-<h3>HTML Code</h3>
+<h4>Table of contents</h4>
+
+The "Table of contents" element makes long pages easy to navigate: it lists the titles of the page as clickable jump marks and takes you directly to the respective section with one click [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. It captures the titles that follow the table of contents on the page, up to the next title of the same or a higher level. This allows you to create a table of contents for the whole page or for a single chapter only. In the inspector, "Title sizes" defines which title levels (H1 to H5) appear in the list; H1 to H4 are selected by default. If the table of contents is displayed as an alert box, its title serves as the box title.
+
+This element does not exist in the Form Editor.
+
+<h4>HTML Code</h4>
 
 The HTML text code editor is available exclusively in the "Page" course element editor. It performs similar functions to the "Text" content element but offers additional menus and options. 
 

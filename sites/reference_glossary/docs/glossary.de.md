@@ -282,9 +282,9 @@ KI Funktion, die aus einem Quelltext Vorschläge für Multiple-Choice-Fragen im 
 
 KI Funktion, die für hochgeladene Bilder Titel, Beschreibung, Alt-Text und Schlagwörter generiert.
 
-### Markdown-Import
+### Import (Content Editor)
 
-Importfunktion des Content Editors, die Markdown-Dateien oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
+Importfunktion des Content Editors, die Markdown-Dateien, Word-Dokumente (.docx) oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
 
 ### Bewertungswerkzeug
 
@@ -304,7 +304,7 @@ Persönlicher und Kurskalender zur Terminplanung und Eventverwaltung.
 
 ### Content Editor
 
-WYSIWYG-Editor zum Erstellen reichhaltiger Inhalte innerhalb von Seite-Kursbausteinen.
+WYSIWYG-Editor zum Erstellen reichhaltiger Inhalte, verwendet im Kursbaustein Seite, in der Lernressource Formular und im Portfolio.
 
 ### Kurseditor
 

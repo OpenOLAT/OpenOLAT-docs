@@ -200,7 +200,7 @@ Location-based contact tracing system.
 
 ### Content editor
 
-WYSIWYG editor for creating rich content within Page course elements.
+WYSIWYG editor for creating rich content, used in the Page course element, the Form learning resource and the portfolio.
 
 ### Conventional course
 
@@ -465,6 +465,10 @@ Lifecycle status of an implementation in the Course Planner: preparation, provis
 ### Implementation widget
 
 Widget on the Dashboard of the Course Planner, showing the implementations relevant to the person with key figures and a table.
+
+### Import (content editor)
+
+Import function of the content editor that automatically converts markdown files, Word documents (.docx) or pasted markdown text into content editor blocks.
 
 ### Instant messaging
 
