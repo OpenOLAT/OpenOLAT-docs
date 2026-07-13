@@ -14,7 +14,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 ## Beispiel
 
 === "Ansicht im Kurs"
-    
+
     Es stehen verschiedene Layout-Varianten zur Auswahl, in denen die gewünschten Elemente wie z.B. Bilder, Texte, Tabellen und Videos flexibel platziert und so die gesamte Seite gestaltet werden kann.
 
     [Kursbaustein Seite im Kurs](assets/KB_Seite.png){ class="shadow lightbox" } 
@@ -25,7 +25,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 === "Bearbeitungsmodus"
 
     Im Unterschied zum HTML-Editor (Kursbaustein "HTML-Seite") entspricht die Darstellung im blockbasierten Content Editor bereits weitgehend der Vorschau.
-    
+
     [Kursbaustein Seite im Bearbeitungsmodus](assets/KB_Seite_Bearbeitungsmodus.jpg){ class="shadow lightbox" } 
 
 
@@ -40,7 +40,7 @@ Es öffnet sich der **Content Editor**. Fügen Sie zunächst ein neues Layout ei
 
 ![course_element_page_tab_layout1_v1_de.png](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
 
-Für das Befüllen der Seite stehen zwei Wege zur Verfügung: Inhaltselemente werden einzeln hinzugefügt, oder bestehende Inhalte im Markdown-Format werden in einem Schritt importiert.
+Für das Befüllen der Seite stehen zwei Wege zur Verfügung: Inhaltselemente werden einzeln hinzugefügt, oder bestehende Inhalte im Markdown- oder Word-Format werden in einem Schritt importiert.
 
 ### Inhaltselemente einzeln hinzufügen {: #add_elements}
 
@@ -68,14 +68,15 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Aus meinem Media Center** Zugriff auf alle Elemente des eigenen Media Centers. Auch können neue Elemente für das Media Center erstellt werden. 
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
+* **Inhaltsverzeichnis:** Listet die Titel der Seite als anklickbare Sprungmarken auf [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}
 
-### Bestehende Inhalte aus Markdown importieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
+### Bestehende Inhalte aus Markdown oder Word importieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 
-Statt die Seite Element für Element aufzubauen, können bestehende Inhalte im Markdown-Format direkt importiert werden: als Datei-Upload oder als eingefügter Text, z.B. aus der Zwischenablage. OpenOlat wandelt die Inhalte automatisch in die passenden Blöcke des Content Editors um (Titel, Text, Tabelle, Code, Bild usw.); referenzierte Bilder werden dabei im Media Center abgelegt.
+Statt die Seite Element für Element aufzubauen, können bestehende Inhalte im Markdown-Format oder als Word-Dokument (.docx) direkt importiert werden [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}: als Datei-Upload oder als eingefügter Text, z.B. aus der Zwischenablage. OpenOlat wandelt die Inhalte automatisch in die passenden Blöcke des Content Editors um (Titel, Text, Tabelle, Code, Bild usw.); referenzierte Bilder werden dabei im Media Center abgelegt.
 
 Damit lassen sich Inhalte aus externen Werkzeugen, einfachen Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren als Kursseite übernehmen.
 
-[Details zum Markdown-Import >](../basic_concepts/Content_Editor.de.md#markdown)
+[Details zum Import >](../basic_concepts/Content_Editor.de.md#markdown)
 
 
 ## Seite editieren (Bearbeitungsmodus) [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}

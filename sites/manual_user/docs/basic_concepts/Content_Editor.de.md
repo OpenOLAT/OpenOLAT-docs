@@ -9,7 +9,7 @@ Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet.
 ![content_editor_v1_de.png](assets/content_editor_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
-      
+
     Neben dem Content Editor existiert in OpenOlat noch der HTML-Editor "Tiny MC", der z.B. im [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) verwendet wird. 
 
 
@@ -69,7 +69,7 @@ Auch für Einträge in [Portfolio-Mappen](../area_modules/My_portfolio_binders.d
 ---
 
 
-## Layout im Content Editor {: #content_editor_layout}
+## Layout im Content Editor [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6199)" }](https://track.frentix.com/issue/OO-6199){:target="_blank"} {: #content_editor_layout}
 
 Bevor Sie Inhalte im Content Editor einfügen können, müssen Sie zuerst ein "neues Layout" hinzufügen. Das Layout dient als Raster, das die Anordnung der Inhalte (Blöcke) bestimmt.
 
@@ -83,6 +83,10 @@ Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern.
 Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
 ![content_editor_layout_move_v1_de.png](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
+
+### Layout löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9407)" }](https://track.frentix.com/issue/OO-9407){:target="_blank"} {: #delete_layout}
+
+Über das 3-Punkte-Menü eines Layouts lässt sich jedes Layout der Seite löschen, auch das erste. Beim Löschen entscheiden Sie, was mit dem Inhalt geschieht: "Alles löschen" entfernt das Layout mitsamt seinem Inhalt, "Nur das Layout löschen und den Inhalt verschieben" übernimmt den Inhalt in das angrenzende Layout. Wird das letzte Layout einer Seite gelöscht, weist der Dialog darauf hin, dass das Layout und sein gesamter Inhalt gelöscht werden; die Seite erhält anschliessend automatisch wieder ein leeres Standard-Layout. Ist nur noch ein einziges leeres Layout vorhanden, ist die Aktion "Löschen" deaktiviert.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -288,27 +292,34 @@ Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern
 ---
 
 
-### Import von Markdown-Dateien [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
+### Import von Markdown- und Word-Dateien [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Markdown ist ein weit verbreitetes Textformat, das in vielen Tools und KI-Anwendungen ausgegeben wird. Es ermöglicht die nahtlose Übernahme und Weiterverwendung bestehender Inhalte ohne zusätzlichen Formatierungsaufwand. Gleichzeitig unterstützt es eine klare Struktur und erleichtert die kontinuierliche Weiterentwicklung von Lerninhalten.
 
 
-Markdown-Dateien können direkt im Content Editor importiert werden, wodurch sich Inhalte aus externen Werkzeugen oder einfachen Textdateien ohne manuelles Nachformatieren übernehmen lassen. Der Inhalt wird automatisch in das strukturierte Seitenformat überführt und bildet so eine effiziente Grundlage, um Kursseiten schneller und einfacher mit Inhalten zu befüllen.
+Markdown-Dateien und Word-Dokumente können direkt im Content Editor importiert werden, wodurch sich Inhalte aus externen Werkzeugen, Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren übernehmen lassen. Der Inhalt wird automatisch in das strukturierte Seitenformat überführt und bildet so eine effiziente Grundlage, um Kursseiten schneller und einfacher mit Inhalten zu befüllen.
 
-Klicken Sie zum Import auf den Button **"Markdown importieren"** am unteren Rand des Content Editors. Im Feld "Importmodus" wählen Sie zwischen zwei Varianten:
+Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Content Editors. Im Feld "Importmodus" wählen Sie zwischen zwei Varianten:
 
-* **Datei hochladen:** Unterstützt werden Markdown-Dateien (.md, .markdown, .txt) sowie ZIP-Archive, jeweils bis maximal 50 MB. Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.
-* **Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
+**A) Datei hochladen:** (Unterstützt werden)
+* Markdown-Dateien (.md, .markdown, .txt) 
+*  ZIP-Archive bis maximal 50 MB (Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.)
+* Word-Dokumente (.docx) bis maximal 200 MB [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
-![content_editor_content_markdown2_v1_de.png](assets/content_editor_content_markdown2_v1_de.png){ class="shadow lightbox" }
+**B) Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
+
+!!! Info "Word-Dokumente importieren"
+    Word-Dokumente werden beim Import automatisch in Markdown umgewandelt und durchlaufen anschliessend dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
+
+<h4>Umwandlung der Elemente</h4>
 
 Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editors umgewandelt:
 
 | Markdown-Element | Block im Content Editor |
 |------------------|-------------------------|
-| Überschrift (Ebene 1 bis 6) | Titel |
+| Überschrift (Ebene 1 bis 6, `#` bis `######`) | Titel in der entsprechenden Grösse (H1 bis H6) |
 | Absatz | Text |
 | Trennlinie (`---`) | Separator |
 | Codeblock | Code-Beispiel (mit erkannter Programmiersprache) |
@@ -318,8 +329,16 @@ Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editor
 | Tabelle | Tabelle |
 | Bild | Bild (Ablage im Media Center) |
 | Mathematischer Block (`$$...$$`) | Mathematische Formel |
+| Inline-Formatierung `<sup>`, `<sub>`, `<u>`, `<mark>` oder `==Text==` | Text mit erhaltener Formatierung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9400)" }](https://track.frentix.com/issue/OO-9400){:target="_blank"} |
+| Bildgrösse `{width=300 height=200}` direkt nach dem Bild | Bild in der angegebenen Anzeigegrösse |
+| Tabelle mit fetter erster Zeile bzw. erster Spalte | Tabelle mit Zeilen- bzw. Spaltenüberschrift |
+| MkDocs-Admonition `!!! info "Titel"` | Text mit Hinweis-Box des passenden Typs |
+| YAML-Metadatenblock am Dokumentanfang, durch `---` eingefasst | Wird erkannt und entfernt, die Seite beginnt direkt mit dem Inhalt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9402)" }](https://track.frentix.com/issue/OO-9402){:target="_blank"} |
 
-Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
+Die Titelgrösse steuert zugleich, welche importierten Titel das Element "Inhaltsverzeichnis" erfasst und als Sprungmarken verlinkt.
+
+!!! note "Markdwon-Erweiterungen"
+    Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
 
 **Bilder beim Import**
 
@@ -329,6 +348,10 @@ Bilder mit absoluten URLs werden beim Import heruntergeladen, sofern die Adminis
 
 Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, werden für importierte Bilder die Metadaten (Alt-Text, Beschreibung, Schlagwörter) im Hintergrund automatisch per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei wird eine verkleinerte Version des Bildes an den KI-Dienst übertragen. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 
+#### Import an einer bestimmten Position
+
+Der Button "Importieren" steht zusätzlich im **Dialog "Inhalt hinzufügen"** zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
+
 [Zum Seitenanfang ^](#content_editor)
 
 ---
@@ -336,11 +359,17 @@ Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mi
 
 ### Anderes & Design {: #others_and_design}
 
-<h3>Separator</h3>
+<h4>Separator</h4>
 
 Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
 
-<h3>HTML-Textcode</h3>
+<h4>Inhaltsverzeichnis</h4>
+
+Das Element "Inhaltsverzeichnis" macht lange Seiten übersichtlich: Es listet die Titel der Seite als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Erfasst werden die Titel, die auf der Seite nach dem Inhaltsverzeichnis folgen, bis zum nächsten Titel gleicher oder höherer Stufe. So lässt sich ein Verzeichnis für die ganze Seite oder nur für ein einzelnes Kapitel erstellen. Im Inspektor legen Sie unter "Titelgrössen" fest, welche Titelstufen (H1 bis H5) im Verzeichnis erscheinen; standardmässig sind H1 bis H4 ausgewählt. Wird das Inhaltsverzeichnis als Hinweis-Box dargestellt, dient sein Titel als Titel der Box.
+
+Dieses Element existiert nicht im Formular Editor.
+
+<h4>HTML-Textcode</h4>
 
 Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
 
