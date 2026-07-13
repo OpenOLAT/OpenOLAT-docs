@@ -76,13 +76,13 @@ Then answer texts can be inserted. The order of the questions can be changed wit
 
 For the assessment, the following score can be reached:
 
-All correct answers = 100% score  
-3 correct answers = 50% score  
+All correct answers = 100% score<br>
+3 correct answers = 50% score<br>
 2, 1 or 0 correct answers = 0% score
 
 ![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow" }
 
-## Matrix {: #matrix}
+## Matrix [:octicons-tag-16:{ title="from Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
 
 ![Icon Matrix Question](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
 
@@ -146,9 +146,9 @@ A weighted score is added for each correctly selected answer, while a weighted s
 Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
 
 
-!!! info "Note: Restriction to mobiles"
+!!! info "Note: Restriction to mobile devices"
 
-    This question type is not optimized for mobile devices.
+    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
   
 ## True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
@@ -165,20 +165,26 @@ The scores can be defined as needed. You may even give points for the option "Un
 
 --
 
+<a id="fib"></a>
+
 ## Gap text {: #gap}
 
 ![Icon Gap text Question](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
-A gap-text question consists of a text in which (text) gaps are integrated. Gaps can be inserted via the icon with the three dots by editor and revised by clicking on the gap.
+A gap-text question consists of a text in which (text) gaps are integrated. Gaps can be inserted via the icon with the three dots by editor and revised by clicking on the gap. The "Create gap" or "Edit gap" dialog shows the input method of the gap at the top and presents the configuration in a preview. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-For every gap the following attributes can be filled in:
+For every gap the following settings can be made:
 
 * Solution: Fill in the correct and desired solution.
-* Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
-* Variants: Here, alternative solution possibilities are added via the plus sign in one field each.
-Alternative solutions can be added via the plus icon if more than one solution is added, separated by semicolon every solutions gets an own field after saving.
-* Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
-* Case sensitive: If this checkbox is selected, there is a case sensitivity. Otherwise it doesn't matter if a solution is written in upper or lower cases.
+* Alternative answers: With this toggle, further accepted solutions are entered as alternatives. "Add answer" adds one field at a time; "Add multiple" enters several alternatives at once, separated by a selectable delimiter.
+* Display:
+    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
+    * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
+    * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed with placeholder and gap size.
+* Options: The "Correction" checkbox group defines how strictly the answers are corrected automatically:
+    * Consider upper/lower case: If this option is selected, there is a case sensitivity. Otherwise it doesn't matter if a solution is written in upper or lower cases.
+    * Ignore spaces: Additional spaces, tabs and line breaks in the answer do not lead to a devaluation. For example, with the solution "log in", an entry with a double space is also counted as correct. [:octicons-tag-16:{ title="from Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
+    * Wildcard: The character * stands for "something or nothing" in the solution and can also be used in the alternatives. For example, the solution "col*r" covers the spellings "color", "colour" and "colr". If participants enter a * themselves, it is treated as a normal character. A solution consisting only of wildcards is not accepted when saving. [:octicons-tag-16:{ title="from Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
 The points can be chosen freely. Points can also be awarded for alternative answers.
 
@@ -186,46 +192,58 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 ![Editor Gap text Icon](assets/Editor_Lückentext_3Punkte.jpg){ class="shadow" }
 
-![Editor Gap text](assets/Editor_Lückentext.jpg){ class="shadow" }
-
-![Variants Gap text](assets/Lückentext_Varianten.jpg){ class="shadow" }
-
 ---
 
 ## Gap text with dropdown [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 ![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
-Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps can then be assigned several answer alternatives and the correct answer can be marked.
+Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps are then assigned several answers under "Answer options"; the correct answer is marked as the solution.
 
 ![Dropdown gap text example](assets/gap_text_dropdown.png){ class="shadow" }
 
-Furthermore, global answers can also be used for the gaps. These are then displayed in each gap of the respective question and the user must select the appropriate answer for this gap. 
+Under "Display", the option "Order of answers options" defines whether the answers are shown to the participants in shuffled order or in the preset order you entered. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-Scoring can be done across all gaps as well as configured separately for each answer of a gap. 
+Furthermore, global answer options can also be used for the gaps. They are defined once per question via "Add global answer" and are then displayed in each gap of the respective question; the user must select the appropriate answer for this gap.
 
-## Numerical input {: #numeric_input}
+Scoring can be done across all gaps as well as configured separately for each answer of a gap.
+
+<a id="ni"></a>
+
+## Gap FIB numerical {: #numeric_input}
 
 ![Icon Numerical Input Question](assets/Icon_Numerical_Input_DE.png){ class=size24 }
 
-In general the numerical input is the same as the gap text. But as solution there are numbers required, not texts.
+In general the Gap FIB numerical is the same as the gap text. But as solution there are numbers required, not texts. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-First a short title is inserted. Afterward the next is written with fields for the gaps. For every gap the following attributes can be filled in:
+First a short title is inserted. Afterward the next is written with fields for the gaps. For every gap the following settings can be made:
 
 * Solution: Fill in the correct and desired solution.
-* Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
-* Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
-* Tolerance: it can be chosen between three possibilities
-    * Exact: The solution correlates exactly with the inserted solution in "Solution"
-    * Absolute: A lower or upper bound can be defined for the solution, whereby the lower bound must be less than or equal to the solution and the upper bound must be greater than or equal to the solution. The solution is accepted up to the lower and upper bound. The bound represents an absolute number.
+* Tolerance: If the toggle is switched off, the answer must exactly match the entered solution. If it is switched on, the gap accepts answers between a lower and an upper bound. Two modes are available:
+    * Absolute: "Lower bound" and "Upper bound" are entered as absolute numbers.
 
 		_Example:_ Solution 20, lower bound 18, upper bound 20.8 → all solutions between 18 and 20.8 are correct.
 
-    * Relative: The solution is accepted until a lower and an upper bound. The bound is a relative number in percent.
+    * Relative: "Lower bound" and "Upper bound" are entered as relative numbers in percent.
 
 		_Example:_ Solution 20, lower bound 10, upper bound 10 → all solutions between 18 and 22 are correct, as the lower bound means minus 10% (20-2) and the upper bound plus 10% (20+2).
 
+* Display:
+    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
+    * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
+    * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed.
+
 ![Example Numerical Input Question](assets/Numerical_Input_Beispiel.png){ class="shadow" }
+
+## Gap mixed [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
+
+The Gap mixed question type combines the three gap variants in a single question: text gaps, numerical gaps and gaps with dropdown can be built into the same continuous text together. This makes it possible, for example, to map a calculation task including its reasoning in one question, without creating several individual questions.
+
+When inserting a gap, the desired input method is selected. Each gap is then configured via the same dialog as for the respective individual question type; the input method of the gap is shown at the top of the dialog.
+
+If the question contains gaps with dropdown, global answer options can also be defined (see [Gap text with dropdown](#gap_dropdown)).
+
+Existing questions of the types Gap text and Gap FIB numerical that contain both text and numerical gaps show a message in the question editor. The action "Convert to 'Gap mixed'" converts such a question into the new question type.
 
 ## Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
@@ -264,14 +282,14 @@ First the title and the question are entered.
 
 Then the answers can be entered in the correct order and the alignment of the display can be set vertically or horizontally.
 
-!!! info "Note: Restriction to mobiles"
+!!! info "Note: Restriction to mobile devices"
 
-    This question type is not optimized for mobile devices. Please take this into account when creating your question. 
+    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
 
 
 ![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow" }
 
-## Essay* {: #fib}
+## Essay* {: #essay}
 
 ![Icon Essay Question](assets/Icon_Freitext_DE.png){ class=size24 }
 
@@ -320,9 +338,9 @@ assessment of this question type is done manually.
 
 It is also possible for the participants to add text via the text tool. The text size can be customized using the brush size.
 
-!!! info "Note: Restriction to mobiles"
+!!! info "Note: Restriction to mobile devices"
 
-    This question type is not optimized for mobile devices. Please take this into account when creating your question. 
+    This question type is operated by freehand drawing and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
 
 
 ![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow" }

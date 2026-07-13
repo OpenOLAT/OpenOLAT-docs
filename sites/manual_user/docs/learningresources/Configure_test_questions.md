@@ -34,9 +34,18 @@ The following settings are possible:
 
     * If **"All correct answers"** is chosen, the score can only be reached when all answers are correct.
     * If **"Score per answer"** is chosen, you can datermine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
-    * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text and numeric), gap with dropdown.In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. (new in :octicons-tag-16: Release 18.1.)
-    * For gap text and numerical input questions different **"Score per answer and alternatives"** can also be assigned and thus, for example, partial points can be stored for "half correct" answers.
+    * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text, numerical and mixed), gap with dropdown. In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. [:octicons-tag-16:{ title="from Release 18.1 (OO-7231)" }](https://track.frentix.com/issue/OO-7231)
+    * For the question types Gap text, Gap FIB numerical and Gap mixed, different **"Score per answer and alternatives"** can also be assigned, e.g. a reduced score for alternative spellings of a solution.
     * The method of assessment cannot be chosen for Kprim, upload file, drawing or essay.
+
+    The two methods for graduated scoring in comparison:
+
+    |  | Partial score | Score per answer and alternatives |
+    |---|------------|----------------------------------|
+    | **Scoring** | Automatic, based on a weighted formula | Manual, per answer or alternative |
+    | **Configuration effort** | None | Each answer and alternative individually |
+    | **Negative points** | Automatic deduction for incorrect answers | Freely configurable |
+    | **Available for** | Multiple choice, hotspot, hottext, drag and drop, matrix, all gap types | Gap text, Gap FIB numerical, Gap mixed |
 
 ## Tab Feedback {: #feedback}
 
