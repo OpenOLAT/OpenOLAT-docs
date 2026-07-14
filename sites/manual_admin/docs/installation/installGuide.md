@@ -229,6 +229,22 @@ Create the file `~/lib/olat.local.properties`
 	tomcat.id=1
 	userdata.dir=/home/openolat/olatdata
 
+### Recommended: content domain for user provided content
+
+OpenOlat can deliver user provided content (HTML single pages, CPs, SCORM packages, documents etc.) from a second domain. The browser same-origin policy then prevents this content from accessing the OpenOlat session cookie. We strongly recommend this setup for production installations.
+
+Add the following to `olat.local.properties`:
+
+	# Deliver user content from a second domain for more security
+	server.content.domainname=olat-content.yourdomain.com
+
+The content domain must point to the same OpenOlat server, for example via an additional virtual host in your reverse proxy.
+
+!!! warning
+	Use a completely separate domain that does not share cookies with your OpenOlat domain. A subdomain of `server.domainname` will not work.
+
+If `server.content.domainname` is not set, user content is delivered from the main domain without this protection.
+
 ## Application context descriptor
 	
 Create the directory `~/conf/Catalina/localhost/` for the OpenOlat Application context descriptor:
