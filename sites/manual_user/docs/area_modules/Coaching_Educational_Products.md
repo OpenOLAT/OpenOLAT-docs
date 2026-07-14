@@ -1,5 +1,7 @@
 # Coaching - Educational products {: #educational_products}
 
+An educational product groups several courses and/or course implementations into one overarching offering.
+
 As a coach, you may also be responsible for educational products that consist of several courses and/or several implementations. You can find an overview of all educational products for which you are a coach in the coaching tool under the "Educational products" tab.
 
 ![coaching_educational_products1_v1_de.png](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }

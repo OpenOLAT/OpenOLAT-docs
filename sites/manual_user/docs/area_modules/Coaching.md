@@ -153,10 +153,10 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 ## Further information {: #further_information}
 
-[Coaching: User search >](../area_modules/Coaching_User_Search.md)
+[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational_Products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Educational products (several courses or implementations as one offering) >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>

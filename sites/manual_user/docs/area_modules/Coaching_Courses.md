@@ -5,7 +5,7 @@
 ![coaching_courses2_v1_de.png](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
 
 
-### 1. WHICH courses does the list show? {: #courses_which}
+### WHICH courses does the list show? {: #courses_which}
 
 The "Courses" menu item in the Coaching Tool shows a list of all **courses** in which you are a **coach** or **owner**.
 
@@ -19,10 +19,27 @@ In the example shown above, the caregiver can access pre-sorted lists that corre
 
 ---
 
+### Predefined filter tabs {: #courses_filters}
 
-### 2. WHAT does the list show? [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
+Predefined filter tabs are available above the list. They narrow down which courses are displayed:
 
-!!! tip "Hint"
+* **Favourites**: only the courses you have marked as a favourite.
+* **All**: all courses regardless of status.
+* **Relevant** [:octicons-tag-16:{ title="from Release 20.2.2 (OO-9167)" }](https://track.frentix.com/issue/OO-9167) (selected by default when opening): courses with the status "Published" and "Access for coach", i.e. the currently active courses that may require action.
+* **Published**: only courses with the status "Published".
+* **Access for coach**: only courses with the status "Access for coach".
+* **Finished**: only courses with the status "Finished".
+
+For more information on working with filters and filter tabs in general, see [Working with tables](../basic_concepts/Table_Concept.md).
+
+[To the top of the page ^](#courses)
+
+---
+
+
+### WHAT does the list show? [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
+
+!!! tip "Tip"
 
     By clicking on the small buttons at the top right above the list, you can switch between list and tile view at any time.
 
@@ -35,7 +52,7 @@ You will see at a glance:
 * How many participants are there in these courses?
 * and how far the processing of these courses has progressed overall.
 
-From this list, you can switch directly to a course and the assessment tool used there.  
+From this list, you can switch directly to a course and the assessment tool used there.<br>
 Clicking on a course name takes you directly to the course. There, you can navigate further to individual participants and view performance overviews or absence management.
 
 You can choose which columns are displayed by clicking on the gear icon in the top right corner.
@@ -50,7 +67,7 @@ You can choose which columns are displayed by clicking on the gear icon in the t
 * **Identifier**
 * **Beginning** (Start of the implementation period for this course)
 * **Ending** (End of the implementation period for this course) 
-* **Referenzierungen**
+* **References**
 * **Status** ("in Review", "Published", "Finished")
 * **Participants** (Number of all participants)
 * **Visited** (Number of all participants who have visited the course)

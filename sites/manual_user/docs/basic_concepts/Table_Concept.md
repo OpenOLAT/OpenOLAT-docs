@@ -33,6 +33,8 @@ Click on the "All Filters" option to display all available filter options in ful
 
 Above the filter menu you will find the filter tabs. They contain the predefined filters and individual saved filters.
 
+Some tables also offer predefined, context-specific filters whose meaning depends on the respective function. In the coaching tool, for example, the "Relevant" filter shows the courses currently most important to the coach, i.e. courses with the status "Published" and "Access for coach". See [Coaching: Courses](../area_modules/Coaching_Courses.md).
+
 ## Mass actions
 
 If you have selected one or more entries in the table, available mass actions appear above the table. This allows you to quickly edit multiple entries at the same time.
