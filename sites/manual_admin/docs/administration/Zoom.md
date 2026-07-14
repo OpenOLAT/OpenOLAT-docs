@@ -15,8 +15,8 @@ key that allows Zoom to be launched from another application without authenticat
 * You need the administrator role in your OpenOlat account.
 * The Zoom integration uses the LTI Pro App from the [Zoom App Marketplace](https://marketplace.zoom.us/).
   You need to add this App to your Zoom account in the Zoom Marketplace.
-  
-!!! important
+
+!!! info "Important"
 	The Zoom integration is only possible if OpenOlat is running in the root context, i.e. directly at `https://<openolat_instance>/` and
 	not at `https://<openolat_instance>/olat/` or something like that. You also have to make sure that any firewall will not block the addresses
 	`https://<openolat_instance>/mod/lti/auth.php`, `https://<openolat_instance>/mod/lti/token.php` and `https://<openolat_instance>/mod/lti/certs.php`, 
@@ -47,6 +47,16 @@ The information we are most interested in and will use
 in the next step is the value of the **LTI Key** field:
 
 ![](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" }
+
+The LTI Pro Credential contains further settings besides the LTI Key. For correct operation, the time zone of the
+credential is crucial: set it to the same time zone that is configured for your OpenOlat server. When both systems
+use the same time zone, the start and end times of the meetings are displayed correctly for everyone involved.
+
+!!! warning
+	If the time zone of the LTI Pro Credential differs from the time zone of the OpenOlat server, coaches can still
+	start their meetings normally. Participants, however, receive a 401-type error message with a correlation ID
+	when joining, but without any further details about the cause. In this case, align the time zones of the two
+	systems.
 
 ### Steps in OpenOlat
 
