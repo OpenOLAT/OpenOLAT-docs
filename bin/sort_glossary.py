@@ -57,10 +57,10 @@ def sort_glossary(input_path: Path, output_path: Path) -> None:
 
 def main() -> None:
     repo_root = Path(__file__).resolve().parent.parent
-    glossary_dir = repo_root / "sites" / "manual_user" / "docs" / "general"
+    glossary_dir = repo_root / "sites" / "reference_glossary" / "docs"
     pairs = [
-        (glossary_dir / "glossary.md", glossary_dir / "glossary_alphabetical.md"),
-        (glossary_dir / "glossary.de.md", glossary_dir / "glossary_alphabetical.de.md"),
+        (glossary_dir / "glossary.md", glossary_dir / "alphabetical" / "glossary_alphabetical.md"),
+        (glossary_dir / "glossary.de.md", glossary_dir / "alphabetical" / "glossary_alphabetical.de.md"),
     ]
     for src, dst in pairs:
         if not src.exists():
