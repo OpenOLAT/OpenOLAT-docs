@@ -3,13 +3,10 @@
 
 ## Activation of the Course Planner {: #activation}
 
-From Release 20, the Course Planner module is optionally available in OpenOlat instead of the Curriculum module and must be activated in Administration. 
+The Course Planner module is optionally available in OpenOlat instead of the Curriculum module and must be activated in Administration.
 
-!!! tip "Activation"
-
-    frentix customers please contact [contact@frentix.com.](mailto:contact@frentix.com.) After activation, the display of the personal curriculum (= "Courses") can also be activated in the "Courses" area.  
-
-    :material-alert: **Not a hosting client of frentix?** Ask your system operator!
+!!! tip "frentix hosting customers"
+    For activation, please contact [contact@frentix.com](mailto:contact@frentix.com). <br> After activation, the display of the personal curriculum ("Courses") in the "Courses" area can also be enabled.
 
 
 ### Tab Course Planner {: #tab_course_planner}
@@ -45,9 +42,9 @@ Courses can be intended for stand-alone use or for integration into a product. A
 
 **Integration into product**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 
-!!! tip "Note"
+!!! tip "Tip"
 
-	If Course Planner is used extensively, it is advisable to set the default purpose for new courses in System administration > Course Planner settings to “Integration into product”.
+	If Course Planner is used extensively, it is advisable to set the default purpose for new courses under `System administration > Course Planner settings` to "Integration into product".
 
 [To the top of the page ^](#module_course_planner)
 
@@ -55,65 +52,99 @@ Courses can be intended for stand-alone use or for integration into a product. A
 
 ## Tab "Element types" {: #tab_element_types}
 
-### Define element types {: #define_element_types}
+### Element type overview [:octicons-tag-16:{ title="from Release 21.0 (OO-8924)" }](https://track.frentix.com/issue/OO-8924){:target="_blank"} {: #element_types_overview}
 
-Element types define which elements a product can contain and give these elements a more detailed meaning. A hierarchical structure can be mapped when creating the element types, but this is not mandatory. An example of a hierarchical product is `Training program → Semester → Module → Course`.
+Element types define which elements a product can contain and give these elements a meaning. A hierarchical structure can be mapped when creating the element types. An example of a hierarchical product is `Training program > Semester > Module > Course`.
 
-An element can be a pure structure element ("With course content" switched off, comparable to course element "Structure").
+The overview table shows all element types that have been created. An element type is edited via the :fontawesome-regular-pen-to-square: symbol. The type can be copied or deleted via the 3-dot link.
 
-For an element with one or more courses as content, "With course content" must be switched on. (See Create element type, point 7.)
+**Table columns:**
 
+| Column | Meaning |
+|---|---|
+| Type | Name and reference of the element type |
+| For use as | Function of the element type in the product: "Implementation", "Element" or "Implementation or element (legacy)" |
+| Active / Inactive | Whether the type is available for selection for new elements |
+| #Parents | Number of superordinate element types that allow this type as a child element |
+| #Children | Number of element types defined as child elements of this type |
+| #Uses | Number of elements of this type present in the system |
+| With content | Whether elements of this type can contain courses as content |
 
-The element types that have already been created are displayed in the table. The data can be edited using the :fontawesome-regular-pen-to-square: symbol. The respective type can be copied or deleted via the 3-dot link.
+**Bulk action Change type** [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"}
 
-![modules_course_planner_tab_elementtypes_v1_de.png](assets/modules_course_planner_tab_elementtypes_v1_de.png){ class="shadow lightbox" }
+By activating the checkbox in the first column, you select several elements. Using the **"Change type"** action, you assign a different element type to all selected elements.
+
 
 [To the top of the page ^](#module_course_planner)
 
 ---
 
 
-### Create element types {: #create_element_types}
+### Create and edit element types {: #create_element_types}
 
-Additional element types can be created using the "Add new type" button. 
+Use the **"Add new type"** button to create additional element types. The form contains the following fields:
 
-![modules_course_planner_tab_elementtypes_create_v1_de.png](assets/modules_course_planner_tab_elementtypes_create_v1_de.png){ class="shadow lightbox" }
+**Title** (mandatory field)<br>
+The name of the element type that is shown in the selection when an element is created.
 
-![1_green_24.png](assets/1_green_24.png) **Title**<br>
-A title must be specified.
+**Reference** (mandatory field)<br>
+A unique identifier used to distinguish between elements with the same title. Appears as a selection option when a new curriculum element is created.
 
-![2_green_24.png](assets/2_green_24.png) **Kennzeichen**<br>
-The indicator is also a mandatory field. (It is used as an identifier to differentiate between elements with the same title). The text entered here appears as a selection option when a new curriculum element is created.<br> (Course Planner > Curricula/Products > Tab "Implementations" > Button "Create")
+**For use as**<br>
+Determines the function of elements of this type in the product:
 
-![3_green_24.png](assets/3_green_24.png) **CSS class**<br>
-At this point, it is possible to define a layout that only applies to this element type using a CSS class. If you are interested in specific layouts, please contact frentix.
+* **Implementation**: Elements of this type are implementations (the topmost parent element). They have an implementation period and are the starting point for automation rules.
+* **Element**: Elements of this type are sub-elements below an implementation and have no implementation period of their own.
+* **Implementation or element (legacy)**: Elements of this type can be used both as an implementation and as a sub-element. This mode is used for backward compatibility with existing product structures.
 
-![4_green_24.png](assets/4_green_24.png) **Description**<br>
-Explain your element type here with a descriptive text.
+**Status**<br>
+* **Active**: The type is available for selection when creating new elements.
+* **Inactive**: The type is hidden and is no longer available for selection for new elements. Existing elements of this type are retained.
 
-![5_green_24.png](assets/5_green_24.png) **Features**<br>
-If **Absence management** is activated, you have the "Absences" tab on this element in the role of Course Planner and can view the absences for all participants in this element. (Prerequisite is that the "Absence management" module is activated).
+!!! note "CSS class"
+	Here you can define a type-specific layout via a CSS class. If you are interested in specific layouts, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com).
 
-The **Schedule** can also be activated for this element type. This combines all course calendar dates for the courses assigned to this product element.
+**Description**<br>
+Explanatory text for the element type.
 
-If **Progress** is selected, the progress in learning path courses is displayed as a pie chart. 
-If the element consists of several sub-elements, the progress is calculated from the average of the sub-elements (learning path courses only). (The progress indicator is not available in conventional courses).
+**Features**<br>
+* **Absence management**: Course Planners get the "Absences" tab on elements of this type and can view the absences of all participants. Prerequisite: the Absence management module is activated.
+* **Schedule**: Combines all course calendar dates of the courses assigned to the product element.
+* **Progress**: Shows the learning progress in learning path courses as a pie chart. With several sub-elements, the average of the sub-elements is calculated.
 
-![6_green_24.png](assets/6_green_24.png) **Allow as implemetation**<br>
-With this specification, you determine which element may be a parent element.
-An implementation ("implementation element") is the top parent element.
+**Allow as implementation**<br>
+Determines which element may be a parent element. An implementation is the topmost parent element in the product.
 
-![7_green_24.png](assets/7_green_24.png) **With course content**<br>
-As described above, an element can be a pure structure element, comparable to the course element "Structure" ("With course content" switched off).
+**With content**<br>
+Switch on this option if elements of this type should contain courses as content. Elements without course content are pure structure elements, comparable to the course element "Structure".
 
-For an element with one or more courses as content, “With course content” must be switched on.
-
-![8_green_24.png](assets/8_green_24.png) **Typ Composite**<br>
-After activation, existing element types can also be subordinated to the new type as sub-types.
+**Composite type**<br>
+When activated, existing element types can be subordinated as sub-types.
 
 
 [To the top of the page ^](#module_course_planner)
-  
+
+---
+
+
+### Automation rules per element type [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452){:target="_blank"} {: #automation_rules}
+
+Automation rules can be defined for each element type. These rules serve as a template for all elements of this type: elements can adopt the template or override it individually (see [Automation in the settings of an implementation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation)).
+
+**Configuring automation rules**
+
+Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the **"Automation"** tab. Use **"Add automation rule"** to add new rules.
+
+Each automation rule contains:
+
+* **Trigger type**:
+  * **On status change**: The action is triggered as soon as the implementation or element status reaches a defined value.
+  * **Time-controlled**: The action is triggered relative to the start or end of the implementation period. You define the reference date (start or end) and an optional offset (number of days/weeks/months before or after the reference date).
+* **Action**: What is executed automatically, e.g. create course from template (instantiation) or set course status.
+
+
+[To the top of the page ^](#module_course_planner)
+
 ---
 
 ## Further information {: #further_information}
