@@ -105,7 +105,7 @@ Nach einer Sicherheitsabfrage werden die markierten To-dos gelöscht. Gelöschte
 ---
 
 
-## To-dos direkt für mehrere Durchführungen erstellen[:octicons-tag-16:{ title="ab Release 21.0 (OO-9539)" }](https://track.frentix.com/issue/OO-9539){:target="_blank"} {: #bulk_create}
+## To-dos direkt für mehrere Durchführungen erstellen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9539)" }](https://track.frentix.com/issue/OO-9539){:target="_blank"} {: #bulk_create}
 
 In der Durchführungsübersicht sowie im Tab «Durchführungen» eines Produkts können Sie über eine Sammelaktion gleichzeitig ein To-do für mehrere Durchführungen erstellen.
 
@@ -151,7 +151,7 @@ Das berechnete Datum wird als Vorschau angezeigt, solange ein Durchführungszeit
 
 Das **To-do**-Widget auf dem CPL-Dashboard zeigt auf einen Blick, welche Aufgaben Ihre unmittelbare Aufmerksamkeit erfordern.
 
-Das Widget zeigt To-dos, bei denen Sie als **«Zugewiesen»** eingetragen sind, aufgeteilt nach:
+Das Widget zeigt To-dos, bei denen Sie als **«Zugewiesen»** eingetragen sind.
 
 Für jedes To-do werden Titel, Priorität und Fälligkeitsdatum angezeigt. Ein Klick auf den Titel öffnet das To-do direkt.
 

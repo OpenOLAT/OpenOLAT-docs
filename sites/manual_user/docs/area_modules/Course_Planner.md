@@ -208,6 +208,15 @@ Various reports can be generated using report templates.
 
 ---
 
+### To-dos [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
+
+To-dos can be recorded in the Course Planner at various levels: in the overview, on the product, on the implementation and on each individual element. A central overview brings together all to-dos across all products. The to-do widget on the dashboard shows open and overdue tasks at a glance.
+
+[See the details >](../area_modules/Course_Planner_Todos.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
 ## Further information {: #further information}
 
 

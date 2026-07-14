@@ -9,9 +9,10 @@ Here you will find all your personal to-dos summarized in an overview.
 * within a [project](../area_modules/Project_Todos.md)<br>
 These are tasks that need to be completed as part of the project.
 * within a [Course](../learningresources/Course_todos.md)
-In the course menu **Administration > To-dos**, to-dos can be created that relate to the currently edited course.
+In the course menu `Administration > To-dos`, to-dos can be created that relate to the currently edited course.
 * in the [course element "Task"](../learningresources/Course_Element_Task.md)
-(as of Release 18.2)
+* in the [Course Planner](../area_modules/Course_Planner_Todos.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"}<br>
+Every CPL element has a "To-dos" tab in which tasks can be assigned directly to the element. A central overview brings together all CPL to-dos across all products.
 
 ## Components of a to-do
 
@@ -26,18 +27,20 @@ Tags can be created for keywording. Once created, tags can also be used in other
 * **Assigned**<br> 
 A mandatory field. The person responsible for completing the to-do is selected here.
 * **Delegated**<br> The work can be delegated to another person, even in phases to different people. The person entered in the "Assigned" field still has overall responsibility.
-* **Status**<br>
-The status can be set here in the dropdown. The status can also be set to "completed" by clicking on the small circle at the top left of the pop-up.
+* **Status** [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}<br>
+The status shows the current processing state (Open, In progress, Done) and is displayed in the list view as a colored circle next to the title. The status can be set via the dropdown in the editing dialog. The quick actions **"Start"** (sets the status to "In progress") and **"Mark as done"** are available directly from the list, without opening the to-do.
 * **Priority**<br>
 Can be classified by: Urgent - High - Medium - Low.
 * **Start date**<br>
-The start date can be used for reminders.
+The start date can be used for reminders. If both a start date and a due date are set, a progress bar is displayed in the list view. [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}
 * **Due date**<br>
-  
+The date by which the task should be completed.
+
 * **Time required**<br>
 A field for the estimated time required. The information can be used for calculations.<br>
 Weeks (w), days (d) and hours (h) can be specified. Example: 3w 1d 6h
 * **Description**<br>
+Additional information about the task.
 
 * **Links**<br>
 Here you can link this to-do with files, deadlines and decisions of the project.
@@ -67,7 +70,7 @@ To **copy** a to-do, select the **Duplicate** option under the 3 dots at the end
 !!! note "Note"
 
     If you prefer to have your to-dos displayed in the header instead of the personal menu, you can move the menu option from the personal menu to the header. You can make the settings for this under<br>
-    **Personal menu > Settings > Tab System > Section Personal Tools**<br>
+    `Personal menu > Settings > Tab System > Section Personal Tools`<br>
     All tools that you select here are displayed in the header at the top right instead of in the personal menu and can therefore be accessed more quickly.
 
 

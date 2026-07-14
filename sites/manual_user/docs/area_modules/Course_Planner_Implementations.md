@@ -266,13 +266,33 @@ The implementation settings include the implementation period, the location and 
 ![course_planner_implementations_tab_settings_execution_v1_de.png](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
 
 
-#### Automation in the settings
+#### Configure automation [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
 
-The basic purpose of Course Planner is to separate administrative planning from content creation. It is possible to carry out planning without having courses available from the outset. It can even be set up so that the courses are only actually created automatically (from a template) when the implementation period approaches. This is also known as instantiation.
+In the **"Automation"** subsection of the settings tab, you define when courses are [instantiated](#tab_content) automatically and when status changes are triggered automatically.
 
-The status change (e.g. from "Provisional" to "Published"), which is usually carried out by course owners, can also be carried out automatically. The change can be linked to the implementation period in the Course Planner. (A status change from “In preparation” is not possible to prevent unintentional publication).
+If a course is to be used multiple times in exactly the same way, it can be created as a template. The courses are then created from the template for each implementation. [Instantiation](#tab_content) can take place automatically at a specific time and role-specifically, e.g. accessible to coaches a few days before an implementation starts. Until then, the template owners can still work on the template while the organizational planning in the Course Planner is already under way.
 
-![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
+**Scope of the automation rules:**
+
+Automation rules are defined at two levels:
+
+* **Element type level** `Administration > Modules > Course Planner > Tab Element types`: The administrator defines default rules for each element type. These rules serve as a template for all elements of this type.
+* **Element level** `Settings tab > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
+
+Two modes are available for each automation rule:
+
+* **"Inherit from type"**: The element uses the default rules of the element type. If the administrator adjusts the template, this automatically affects all elements that use this mode.
+* **"Override"**: The element uses deviating, individually configured rules, independent of the element type.
+
+**Types of automation rules:**
+
+| Type | Trigger |
+|---|---|
+| On status change | An action is triggered as soon as the implementation or element status reaches a certain value. |
+| Time-controlled | An action is triggered relative to the start or end of the implementation period. |
+
+[To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
+[To the to-dos on CPL elements >](Course_Planner_Todos.md)
 
 
 #### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
