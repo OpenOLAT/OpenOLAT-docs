@@ -229,7 +229,7 @@ To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der �
 
 ### Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
-Course Planner erhalten unter «Werkzeuge» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt. Gelöschte Räume erscheinen nur in der Administration.
+Course Planner erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt. Gelöschte Räume erscheinen nur in der Administration.
 
 [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)

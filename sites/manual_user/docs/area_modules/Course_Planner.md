@@ -217,6 +217,15 @@ To-dos can be recorded in the Course Planner at various levels: in the overview,
 
 ---
 
+### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
+
+Under "Tools", Course Planner users find the "Room management" area with a read-only overview of the room scheduling and the rooms they can access through their organisational affiliation. Rooms and buildings themselves are maintained in the module "Rooms" in the administration. Deleted rooms only appear in the administration.
+
+[Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
 ## Further information {: #further information}
 
 

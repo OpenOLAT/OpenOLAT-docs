@@ -46,16 +46,15 @@ You can use all levels of the product structure or just the current level as a s
 
 ### Views {: #views}
 
-The appointments can be displayed in a list view or as a timeline. Use the buttons at the top right to switch the view.
+The events can be displayed as a timeline or as a table. Use the buttons at the top right to switch the view: "Timeline" on the left, "Table view" on the right.
 
+#### Timeline
 
-=== "List View"
+![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
 
-    ![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
+#### Table view
 
-=== "View as timeline"
-
-    ![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
+![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
 
 ### Elements of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
@@ -81,6 +80,22 @@ As appointments refer to an implementation, you will find the option to create u
 You can also import appointments by clicking on the small arrow next to the button.
 
 ![course_planner_events_create_v1_de.png](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#events)
+
+
+---
+
+## How do I book rooms for an event? [:octicons-tag-16:{ title="from Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #room_booking}
+
+If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available when creating or editing an event.
+
+The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". The building and the number of seats are displayed for each room; if the capacity is not sufficient for the number of participants, this is indicated. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms.
+
+In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms". Conflicts such as a double booking or insufficient seats are displayed as a warning.
+
+!!! note "Admin. rights required"
+    Rooms and buildings are managed in the module "Rooms" in the administration; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.
 
 [To the top of the page ^](#events)
 

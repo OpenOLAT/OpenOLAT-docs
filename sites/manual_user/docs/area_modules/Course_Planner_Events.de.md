@@ -49,16 +49,15 @@ Sie können dort alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als
 
 ### Ansichten {: #views}
 
-Die Termine können in einer Listenansicht oder als Timeline dargestellt werden. Verwenden Sie zum Umschalten der Ansicht die Buttons rechts oben.
+Die Termine können als Zeitansicht (Timeline) oder als Tabelle dargestellt werden. Verwenden Sie zum Umschalten der Ansicht die Buttons rechts oben: links "Zeitansicht", rechts "Tabelle".
 
-#### Listenansicht
-"Liste" aktivieren (links)
-![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
-
-#### Kachelansicht
-"Kacheln" (rechts)
+#### Zeitansicht
 
 ![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
+
+#### Tabellenansicht
+
+![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
 
 ### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
