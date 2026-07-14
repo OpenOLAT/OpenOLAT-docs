@@ -51,13 +51,14 @@ Sie können dort alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als
 
 Die Termine können in einer Listenansicht oder als Timeline dargestellt werden. Verwenden Sie zum Umschalten der Ansicht die Buttons rechts oben.
 
-=== "Listenansicht"
+#### Listenansicht
+"Liste" aktivieren (links)
+![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
 
-    ![course_planner_events_display6_v1_de.png](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
+#### Kachelansicht
+"Kacheln" (rechts)
 
-=== "Ansicht als Timeline"
-
-    ![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
+![course_planner_events_display7_v1_de.png](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
 
 ### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
@@ -84,6 +85,22 @@ Da sich Termine auf eine Durchführung beziehen, finden Sie die Möglichkeit zum
 Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch importieren. 
 
 ![course_planner_events_create_v1_de.png](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
+
+[zum Seitenanfang ^](#events)
+
+
+---
+
+## Wie belege ich Räume für einen Termin? [:octicons-tag-16:{ title="ab Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #room_booking}
+
+Ist das Modul «Räume» aktiviert, können Sie einem Termin einen oder mehrere Räume zuweisen. Beim Erstellen oder Bearbeiten eines Termins steht dafür das Feld «Räume» zur Verfügung.
+
+Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume «Verfügbar» und welche «Besetzt» sind. Zu jedem Raum werden das Gebäude und die Anzahl Plätze angezeigt; reicht die Kapazität für die Teilnehmerzahl nicht aus, wird darauf hingewiesen. Über «Räume hinzufügen» öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen.
+
+In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label «Raum» als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label «Räume». Konflikte wie eine Doppelbuchung oder zu wenige Plätze werden als Warnung angezeigt.
+
+!!! note "Admin. Rechte erforderlich"
+    Räume und Gebäude werden im Modul «Räume» in der Administration verwaltet; dafür sind administrative Rechte erforderlich. Fehlen Ihnen diese Rechte, wenden Sie sich an eine Person mit administrativer Rolle, wenn Sie neue Räume benötigen oder Angaben zu einem Raum anpassen lassen möchten.
 
 [zum Seitenanfang ^](#events)
 
