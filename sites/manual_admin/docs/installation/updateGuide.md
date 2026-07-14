@@ -44,6 +44,7 @@ Follow the steps in detail:
 - If updating from lower than OpenOlat 14.0, you need to perform additional steps to update to [update to log4j2](#log4j2) 
 - If updating from lower than OpenOlat 15.3, you need to [update your infrastructure to Tomcat 9 and Java 11](#java11). It is also mandatory that you perform the update to 15.3 before you continue updating to a more recent version. See [Updating from older versions](#oldversions) instructions.
 - If upgrading to OpenOlat 17.2.x or higher, you need to [update your infrastructure to Tomcat 10.1 and Java 17](#java17). Please make sure, your log4j2.xml is similar to the one shown below - it has been slightly adapted.
+- If upgrading to OpenOlat 21.0 or higher, we recommend configuring the new content domain for user provided content. See [Recommended: content domain for user provided content](installGuide.md#recommended-content-domain-for-user-provided-content) in the Installation Guide.
 
 ### Update
 
