@@ -374,11 +374,11 @@ If the test learning resource has been replaced, a button for switching between 
 
 ## Test results and archiving {: #archive} [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466)
 
-You can archive test results. To do this, select "Archiving & Reporting" in the administration area.
+You can archive test results. To do this, select "Archiving & Reports" in the administration area.
 
-!!! note "Archiving & Reporting"
+!!! note "Archiving & Reports"
     Course-wide archiving function for all assessable course elements.<br>
-    [Archiving & Reporting](../learningresources/Course_Archiving.md)
+    [Archiving & Reports](../learningresources/Course_Archiving.md)
 
 Here you can download all course results from all assessable course elements, including tests.
 

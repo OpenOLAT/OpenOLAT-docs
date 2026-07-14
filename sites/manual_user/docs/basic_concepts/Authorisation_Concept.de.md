@@ -58,7 +58,7 @@ Die Kursrollen Teilnehmer:in sowie Betreuer:in stehen stellvertretend auch für 
 | Dateien eines Kurses                                        | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | Badges                                        | Vollzugriff   |      Vollzugriff           | Lesend           | Lesend        |
 | Termine & Absenzen                                         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
-| Archivierung & Reporting                                    | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
+| Archivierung & Reports                                    | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | **Kursaktionen**                                                                                                                                              |
 | Kopieren                                                    | :material-check: | :material-check: mit Freigabe |                   |                          |
 | Löschen                                                     | :material-check: |                               |                   |                          |

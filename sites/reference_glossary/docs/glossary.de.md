@@ -222,7 +222,7 @@ Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden.
 
 Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer/innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
 
-### Reporte
+### Reports
 
 Button im Coaching Tool, öffnet den Bereich Reporting.
 

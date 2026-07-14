@@ -734,13 +734,13 @@ Werkzeuge für Qualitätssicherungsumfragen und Datenerfassungen.
 
 Kann Qualitätsmanagement-Prozesse verwalten.
 
-### Reporte
-
-Button im Coaching Tool, öffnet den Bereich Reporting.
-
 ### Reporting
 
 Bereich im Coaching Tool, in dem berechtigte Rollen Excel-Reports anhand von Reportvorlagen erstellen.
+
+### Reports
+
+Button im Coaching Tool, öffnet den Bereich Reporting.
 
 ### Reportvorlagen
 

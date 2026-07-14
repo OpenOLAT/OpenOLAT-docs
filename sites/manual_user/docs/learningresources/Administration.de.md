@@ -196,7 +196,7 @@ Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisie
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Archivierung & Reporting {: #archiving_reporting}
+## Archivierung & Reports {: #archiving_reporting}
 
 ![18_green_24.png](assets/18_green_24.png){ class=" aside-left-lg" }
 

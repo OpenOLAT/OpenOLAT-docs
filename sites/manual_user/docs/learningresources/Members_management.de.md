@@ -211,7 +211,7 @@ Bei Aktivierung dieser Rechte-Gruppe können auch Nicht-Autoren den Kurseditor m
   
 **Datenarchivierung**
 
-Für die aktivierte Gruppe erscheint zusätzlich das Menü Kurs-Administration mit dem Untermenü Archivierung & Reporting. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.  
+Für die aktivierte Gruppe erscheint zusätzlich das Menü Kurs-Administration mit dem Untermenü Archivierung & Reports. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.  
 
 Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgewogen werden.  
 

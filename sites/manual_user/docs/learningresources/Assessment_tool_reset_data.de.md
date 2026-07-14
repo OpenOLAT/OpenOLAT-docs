@@ -13,7 +13,7 @@ Bevor die Daten endgültig zurückgesetzt werden, können die alten Ergebnisse h
 
 ### Sicherung des gesamten Kurses {: #backup_course}
 
-In der (Kurs-)Administration unter **Archivierung & Reporting** können Sie Reports der Kursresultate generieren. 
+In der (Kurs-)Administration unter **Archivierung & Reports** können Sie Reports der Kursresultate generieren. 
 
 ![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
 

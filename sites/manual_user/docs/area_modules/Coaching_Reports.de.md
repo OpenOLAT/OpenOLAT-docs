@@ -1,4 +1,4 @@
-# Coaching - Reporte {: #reports}
+# Coaching - Reports {: #reports}
 
 Im Bereich **Reporting** des Coaching Tools erstellen Sie Excel-Reports über die von Ihnen betreuten Personen, zum Beispiel über ausgestellte Zertifikate. Die Reportvorlagen sind in Kategorien gegliedert (z. B. Zertifikate, Absenzen, Buchungsaufträge). Angezeigt werden nur die Vorlagen, für deren Ausführung Sie berechtigt sind.
 
@@ -13,8 +13,8 @@ Die Reportvorlagen der Kategorie "Zertifikate" stehen folgenden Rollen zur Verf�
 
 Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in dieser Rolle zuständig sind.
 
-!!! note "Sie sehen den Button Reporte nicht?"
-    Der Button **Reporte** wird nur angezeigt, wenn Sie eine der genannten Rollen innehaben und das Coaching Tool aktiviert ist. Wie Rollen vergeben werden, zeigt die Seite [Rollen zuweisen](../basic_concepts/Assign_Roles.de.md).
+!!! note "Sie sehen den Button Reports nicht?"
+    Der Button **Reports** wird nur angezeigt, wenn Sie eine der genannten Rollen innehaben und das Coaching Tool aktiviert ist. Wie Rollen vergeben werden, zeigt die Seite [Rollen zuweisen](../basic_concepts/Assign_Roles.de.md).
 
 [Zum Seitenanfang ^](#reports)
 
@@ -22,7 +22,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 ## So erstellen Sie einen Excel-Report [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #create_report}
 
-1. Klicken Sie im Hauptmenü auf `Coaching` und wählen Sie den Button `Reporte`.
+1. Klicken Sie im Hauptmenü auf `Coaching` und wählen Sie den Button `Reports`.
 2. Klicken Sie im Abschnitt **Reportvorlagen** bei der gewünschten Vorlage auf das Symbol in der Spalte "Ausführen" (**Report generieren**).
 3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Generierter Report**.
 4. Klicken Sie beim erzeugten Report auf **Herunterladen**.

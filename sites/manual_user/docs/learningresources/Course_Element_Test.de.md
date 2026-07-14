@@ -390,11 +390,11 @@ Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wech
 
 ## Testergebnisse archivieren {: #archive} [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466)
 
-Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration "Archivierung & Reporting".
+Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration "Archivierung & Reports".
 
-!!! note "Archivierung & Reporting"
+!!! note "Archivierung & Reports"
     Kursweite Archivierungsfunktion für alle bewertbaren Kursbausteine.<br>
-    [Archivierung & Reporting](../learningresources/Course_Archiving.de.md)
+    [Archivierung & Reports](../learningresources/Course_Archiving.de.md)
 
 Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die "Kursarchivierung" -> "Teilarchive" -> "Archiv erstellen" und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
 

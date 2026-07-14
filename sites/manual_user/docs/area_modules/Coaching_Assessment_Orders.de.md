@@ -47,7 +47,7 @@ In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Reporte >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>

@@ -82,7 +82,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reporte >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>

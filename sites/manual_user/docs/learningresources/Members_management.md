@@ -205,7 +205,7 @@ Even non-authors can use the course editor with all its functionalities. In addi
   
 **Archive tool**
 
-For the activated group, the Course Administration menu with the "Archiving & Reporting" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results for all participants.  
+For the activated group, the Course Administration menu with the "Archiving & Reports" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results for all participants.  
 
 The granting of this authorization should be carefully considered for data protection reasons.  
   

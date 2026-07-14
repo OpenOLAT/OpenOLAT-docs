@@ -149,7 +149,7 @@ Ein Kurs, in dem man hier das Recht zur Bearbeitung erhalten hat, aber nicht Bes
 **Datenarchivierung**<br>
 Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen.
 
-[Mehr zur Archivierung & Reporting >](../learningresources/Course_Archiving.de.md)
+[Mehr zur Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
 
 
 ![5_green_24.png](assets/5_green_24.png){ class=" aside-left-lg" }

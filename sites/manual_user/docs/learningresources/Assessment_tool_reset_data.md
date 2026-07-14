@@ -13,7 +13,7 @@ Before the data is permanently reset, the old results can be downloaded and save
 
 ### Securing the entire course {: #backup_course}
 
-In the (course) administration under **Archiving & Reporting**, you can generate reports of the course results. 
+In the (course) administration under **Archiving & Reports**, you can generate reports of the course results. 
 
 ![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
 

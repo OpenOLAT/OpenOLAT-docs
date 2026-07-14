@@ -1,4 +1,4 @@
-# Course administration - Archiving & Reporting {: #course_archiving}
+# Course administration - Archiving & Reports {: #course_archiving}
 
 :octicons-tag-24: Release 19.0
 
@@ -44,7 +44,7 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 
 * Open the authoring area
 * Select the desired course
-* Click on the "**archiving and reporting**" option in the "**Administration**" area
+* Click on the "**archiving and reports**" option in the "**Administration**" area
 * Then, select the button "**Create archive**" in the "Course archiving" area.
 
 ![course_archiving_create_single_v1_de.png](assets/course_archiving_create_single_v1_de.png){ class="shadow lightbox" }

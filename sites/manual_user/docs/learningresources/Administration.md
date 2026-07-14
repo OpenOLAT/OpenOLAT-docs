@@ -196,7 +196,7 @@ The survey statistics allow you to carry out a general course-related, anonymize
 [To the top of the page ^](#course_administration)
 
 
-## Archiving & Reporting {: #archiving_reporting}
+## Archiving & Reports {: #archiving_reporting}
 
 ![18_green_24.png](assets/18_green_24.png){ class=" aside-left-lg" }
 

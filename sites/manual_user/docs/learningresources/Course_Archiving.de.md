@@ -1,4 +1,4 @@
-# Kursadministration - Archivierung & Reporting {: #course_archiving}
+# Kursadministration - Archivierung & Reports {: #course_archiving}
 
 :octicons-tag-24: Release 19.0
 
@@ -44,7 +44,7 @@ In der obersten Button-Zeile des Autorenbereichs finden Sie ganz rechts ein Icon
 
 * Öffnen Sie den Autorenbereich.
 * Wählen Sie den gewünschten Kurs.
-* Klicken Sie unter "**Administration**" auf die Option "**Archivierung & Reporting**".
+* Klicken Sie unter "**Administration**" auf die Option "**Archivierung & Reports**".
 * Wählen Sie anschliessend im Bereich "Kursarchivierung" einen der Buttons "**Archiv erstellen**". 
 
 ![course_archiving_create_single_v1_de.png](assets/course_archiving_create_single_v1_de.png){ class="shadow lightbox" }
