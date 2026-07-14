@@ -135,6 +135,10 @@ Automatic or manual PDF certificate generation.
 
 Manage curricula, implementations, and educational structures (formerly "Curriculum").
 
+### Room management
+
+OpenOlat module for the central management of physical rooms in buildings and their booking by course events in the Course Planner.
+
 ### Course reminders
 
 Automated email reminders based on course conditions.

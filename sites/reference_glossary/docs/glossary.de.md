@@ -135,6 +135,10 @@ Automatische oder manuelle PDF-Zertifikatserstellung.
 
 Verwaltung von Curricula, Durchführungen und Bildungsstrukturen (früher "Curriculum").
 
+### Raumverwaltung
+
+Modul in OpenOlat zur zentralen Verwaltung physischer Räume in Gebäuden und deren Belegung durch Kurstermine im Course Planner.
+
 ### Kurserinnerungen
 
 Automatisierte E-Mail-Erinnerungen basierend auf Kursbedingungen.

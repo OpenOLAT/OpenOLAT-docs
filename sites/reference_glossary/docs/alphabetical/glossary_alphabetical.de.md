@@ -734,6 +734,10 @@ Werkzeuge für Qualitätssicherungsumfragen und Datenerfassungen.
 
 Kann Qualitätsmanagement-Prozesse verwalten.
 
+### Raumverwaltung
+
+Modul in OpenOlat zur zentralen Verwaltung physischer Räume in Gebäuden und deren Belegung durch Kurstermine im Course Planner.
+
 ### Reporting
 
 Bereich im Coaching Tool, in dem berechtigte Rollen Excel-Reports anhand von Reportvorlagen erstellen.

@@ -794,6 +794,10 @@ Ability for multi-role members to change their active role perspective within a 
 
 Can manage role assignments.
 
+### Room management
+
+OpenOlat module for the central management of physical rooms in buildings and their booking by course events in the Course Planner.
+
 ### Rubric
 
 A form element for evaluating multiple criteria against the same rating scale, used in assessments and surveys.
