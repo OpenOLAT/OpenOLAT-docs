@@ -21,6 +21,23 @@ Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufe
 
 ---
 
+### Vordefinierte Filter-Tabs {: #courses_filters}
+
+Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränken ein, welche Kurse angezeigt werden:
+
+* **Favoriten**: nur die von Ihnen als Favorit markierten Kurse.
+* **Alle**: alle Kurse unabhängig vom Status.
+* **Relevant** [:octicons-tag-16:{ title="ab Release 20.2.2 (OO-9167)" }](https://track.frentix.com/issue/OO-9167) (Standard beim Öffnen): Kurse im Status "Veröffentlicht" und "Freigabe Betreuer:innen", also die aktuell aktiven Kurse, bei denen Handlungsbedarf bestehen kann.
+* **Veröffentlicht**: nur Kurse im Status "Veröffentlicht".
+* **Freigabe Betreuer:innen**: nur Kurse im Status "Freigabe Betreuer:innen".
+* **Beendet**: nur Kurse im Status "Beendet".
+
+Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+
+[Zum Seitenanfang ^](#courses)
+
+---
+
 ### WAS zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
 
 !!! tip "Tipp"
@@ -36,7 +53,7 @@ Sie sehen auf einen Blick zum Beispiel
 * wie viele Teilnehmende in diesen Kursen sind
 * und wie weit die Bearbeitung dieser Kurse insgesamt fortgeschritten ist.
 
-Von dieser Liste aus können Sie gezielt in einen Kurs und das dortige Bewertungswerkzeug wechseln.  
+Von dieser Liste aus können Sie gezielt in einen Kurs und das dortige Bewertungswerkzeug wechseln.<br>
 Ein Klick auf einen Kursnamen führt direkt zum Kurs. Dort können Sie weiter gezielt zu einzelnen Teilnehmenden navigieren und Leistungsübersichten oder das Absenzenmanagement anzeigen lassen.
 
 Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts oben auf das Zahnrad-Icon klicken.

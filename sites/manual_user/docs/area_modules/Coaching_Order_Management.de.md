@@ -68,7 +68,7 @@ Hier werden die Kursbausteine (Tests und Aufgaben) mit den jeweiligen Personen a
 [Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
+[Coaching: Bildungsprodukte (mehrere Kurse oder Durchführungen als Angebot) >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>

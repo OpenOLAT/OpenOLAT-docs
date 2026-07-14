@@ -1,6 +1,8 @@
 # Coaching - Bildungsprodukte {: #educational_products}
 
 
+Ein Bildungsprodukt fasst mehrere Kurse und/oder Kursdurchführungen zu einem übergeordneten Angebot zusammen.
+
 Als Betreuer:in können Sie auch für Bildungsprodukte zuständig sein, die aus mehreren Kursen und/oder aus mehreren Durchführungen bestehen. Eine Übersicht über alle Bildungsprodukte, in denen Sie Betreuer:in sind, erhalten Sie im Coachingtool im Tab "Bildungsprodukte".
 
 ![coaching_educational_products1_v1_de.png](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }

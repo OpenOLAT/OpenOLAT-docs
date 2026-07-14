@@ -31,6 +31,8 @@ Klicken Sie auf die Option "alle Filter", um alle verfügbaren Filteroptionen im
 
 Über dem Filtermenü finden Sie die Filter-Tabs. Sie enthalten die vordefinierten Filter und individuelle, gespeicherte Filter.
 
+Manche Tabellen bieten zusätzlich vordefinierte, kontextspezifische Filter an, deren Bedeutung von der jeweiligen Funktion abhängt. Im Coachingtool zeigt der Filter "Relevant" beispielsweise die für die Betreuungsperson aktuell wichtigsten Kurse an, also Kurse im Status "Veröffentlicht" und "Freigabe Betreuer:innen". Siehe [Coaching: Kurse](../area_modules/Coaching_Courses.de.md).
+
 ## Massenaktionen
 
 Wenn Sie einen oder mehrere Einträge in der Tabelle angewählt haben, erscheinen oberhalb der Tabelle verfügbare Massenaktionen. Dadurch können schnell mehrere Einträge gleichzeitig bearbeitet werden.
