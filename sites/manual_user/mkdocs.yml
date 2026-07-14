@@ -169,6 +169,7 @@ nav:
         - Reports:
           - Overview: "area_modules/Course_Planner_Reports.md"
           - Booking order reports: "area_modules/Reports_BookingOrders.md"
+        - To-dos: "area_modules/Course_Planner_Todos.md"
     - Absence Management: "area_modules/Absence_Management.md"
     - Quality Management:
       - Overview: "area_modules/Quality_Management.md"

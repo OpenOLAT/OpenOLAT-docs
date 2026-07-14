@@ -118,7 +118,7 @@ Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in
 **Principals** haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie **Status ändern**, **Entfernen** oder **Instanzieren** stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
 
 !!! info "Hinweis für die Einschränkung als Principal"
-    Der Lese-Einschränkung ist dann aktiv, wenn der Principal auch nur diese Rolle ausübt. Es kann Querverbindungen geben, wenn ein User zB. mehrere Rollen in einem Produkt hat. Dann kann dieser User aktiv werden, wo es die Rolle entsprechend zulässt. zB. in einem To-Do welches "ihm" zugewiesen ist.
+    Der Lese-Einschränkung ist dann aktiv, wenn der Principal auch nur diese Rolle ausübt. Es kann Querverbindungen geben, wenn ein User zB. mehrere Rollen in einem Produkt hat. Dann kann dieser User aktiv werden, wo es die Rolle entsprechend zulässt. zB. in einem To-do welches "ihm" zugewiesen ist.
 
 Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **Elementbesitzer:innen** im Rahmen ihres Zuständigkeitsbereichs zugreifen.
 
@@ -214,6 +214,24 @@ Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 ![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Reports.de.md)<br>
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### To-dos [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
+
+To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der Übersicht, auf dem Produkt, auf der Durchführung und auf jedem einzelnen Element. Eine zentrale Übersicht fasst alle To-dos über alle Produkte hinweg zusammen. Das To-do-Widget auf dem Dashboard zeigt offene und überfällige Aufgaben auf einen Blick.
+
+[Zu den Details >](../area_modules/Course_Planner_Todos.de.md)<br>
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+### Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
+
+Course Planner erhalten unter «Werkzeuge» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt. Gelöschte Räume erscheinen nur in der Administration.
+
+[Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
 
 ---

@@ -282,13 +282,33 @@ Zu den Einstellungen der Durchführung gehören der Durchführungszeitraum, der 
 ![course_planner_implementations_tab_settings_execution_v1_de.png](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
 
 
-#### Automatisierung in den Einstellungen
+#### Automatisierung konfigurieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
 
-Das Grundanliegen des Course Planners ist die Trennung der administrativen Planung von der Inhaltserstellung. Es ist möglich, die Planung vorzunehmen, ohne dass schon von Anfang an Kurse vorhanden sind. Es kann sogar eingerichtet werden, dass die Kurse automatisiert erst dann  tatsächlich (aus einer Vorlage) erstellt werden, wenn der Durchführungszeitraum näher kommt. Man nennt dies auch Instanzierung.
+Im Unterabschnitt **«Automatisierung»** der Tab-Einstellungen legen Sie fest, wann Kurse automatisch [instanziert](#tab_content) und wann Statuswechsel automatisch ausgelöst werden.
 
-Der sonst durch Kursbesitzer:innen vorgenommene Statuswechsel (z.B. von "provisorisch" zu "Veröffentlicht") kann ebenfalls automatisch vorgenommen werden. Die Umstellung kann im Course Planner an den Durchführungszeitraum gebunden werden. (Ein Statuswechsel ausgehend von "In Vorbereitung" ist nicht möglich um ungewolltes Veröffentlichen zu verhindern.)
+Soll ein Kurs mehrfach und dabei immer genau gleich verwendet werden, kann er als Template angelegt werden. Die Kurse werden dann für jede Durchführung aus der Template-Vorlage erstellt. Die [Instanzierung](#tab_content) kann automatisiert zu einem bestimmten Zeitpunkt sowie rollenspezifisch erfolgen, z.B. einige Tage vor Beginn einer Durchführung zugänglich für Betreuer:innen. Bis dahin können die Templatebesitzer:innen noch am Template arbeiten, während die organisatorische Planung im Course Planner bereits läuft.
 
-![course_planner_implementations_tab_settings_automation_v1_de.png](assets/course_planner_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" }
+**Geltungsbereich der Automatisierungsregeln:**
+
+Automatisierungsregeln werden auf zwei Ebenen definiert:
+
+* **Elementtyp-Ebene** `Administration > Modules > Course Planner > Tab Elementtypen`: Der Administrator hinterlegt Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
+* **Element-Ebene** `Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
+
+Für jede Automatisierungsregel stehen zwei Modi zur Wahl:
+
+* **«Vom Typ übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Passt der Administrator die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
+* **«Überschreiben»**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
+
+**Typen von Automatisierungsregeln:**
+
+| Typ | Auslöser |
+|---|---|
+| Bei Statuswechsel | Eine Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
+| Zeitgesteuert | Eine Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. |
+
+[Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
+[Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
 
 
 #### Bewertung in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
