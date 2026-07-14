@@ -16,8 +16,8 @@ und unter Verwendung eines bestehenden Zoom-Kontos gestartet werden kann.
 * Sie benötigen die Administratorrolle in Ihrem OpenOlat-Konto.
 * Die Zoom-Integration verwendet die LTI Pro App aus dem [Zoom App Marketplace](https://marketplace.zoom.us/).
   Sie müssen diese App zu Ihrem Zoom-Konto im Zoom Marketplace hinzufügen
-  
-!!! important
+
+!!! info "Wichtig"
 	Die Zoom Integration ist nur möglich, wenn OpenOlat auf dem Root-Context betrieben wird, also direkt unter `https://<openolat_instance>/` und nicht
 	etwa unter `https://<openolat_instance>/olat/` oder so ähnlich. Ebenso muss sichergestellt sein, dass eine allfällige Firewall die Adressen
 	`https://<openolat_instance>/mod/lti/auth.php`, `https://<openolat_instance>/mod/lti/token.php` und `https://<openolat_instance>/mod/lti/certs.php` nicht blockiert, 
@@ -48,6 +48,17 @@ Die Informationen, an denen wir am meisten interessiert sind und die wir
 im nächsten Schritt verwenden werden, ist der Wert des Feldes **LTI Key**:
 
 ![](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" }
+
+Das LTI Pro Credential enthält neben dem LTI Key weitere Einstellungen. Für den korrekten Betrieb ist die
+Zeitzone des Credentials entscheidend: Stellen Sie diese auf dieselbe Zeitzone ein, die für Ihren OpenOlat-Server
+konfiguriert ist. Stimmen die Zeitzonen beider Systeme überein, werden die Start- und Endzeiten der Meetings für
+alle Beteiligten korrekt angezeigt.
+
+!!! warning
+	Weicht die Zeitzone des LTI Pro Credentials von der Zeitzone des OpenOlat-Servers ab, können Coaches ihre
+	Meetings zwar normal starten. Teilnehmende erhalten beim Beitritt jedoch eine 401-artige Fehlermeldung mit
+	einer Correlation ID, aber ohne weitere Angaben zur Ursache. Gleichen Sie in diesem Fall die Zeitzonen der
+	beiden Systeme ab.
 
 ### Schritte in OpenOlat
 
