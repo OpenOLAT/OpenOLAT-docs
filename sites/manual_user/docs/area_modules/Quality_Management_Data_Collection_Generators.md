@@ -90,7 +90,7 @@ Reminders are also a function of data collection. If several data collections ar
 The course members with the roles selected here can participate in the data collection.
 
 ![12_green_24.png](assets/12_green_24.png) **Exclude implementation formats**<br>
-An implementation format can be specified for courses in the metadata. It is possible to exclude certain [implementation formats](../../manual_admin/administration/Modules.md#kurs) from generated data collections, e.g. if examination courses are not to be included.
+An implementation format can be specified for courses in the metadata. It is possible to exclude certain [implementation formats](../../manual_admin/administration/Modules.md#course) from generated data collections, e.g. if examination courses are not to be included.
 
 ![13_green_24.png](assets/13_green_24.png) **Restrict editing**<br>
 Editing of the generator can be restricted to quality managers.

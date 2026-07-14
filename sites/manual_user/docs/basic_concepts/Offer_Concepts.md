@@ -173,7 +173,7 @@ Offers for implementation are created in the Course Planner at:<br>
 
 ![offer_concepts_types_course_planner2_v1_de.png](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" }
 
-[More about offering tours in the catalog >](../area_modules/Course_Planner_Implementations.md#tab-catalog--tab_catalog)
+[More about offering tours in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
 [To the top of the page ^](#offer_concepts)
 
@@ -289,7 +289,7 @@ When booking automatically, the offer description is not displayed and users are
 [More about Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [How do I show my Courses in the Catalog? >](../../manual_how-to/catalog/catalog.md)<br>
 [Access configuration/Share >](../learningresources/Access_configuration.md)<br>
-[Offering bushings in the catalog >](../area_modules/Course_Planner_Implementations.md#tab-catalog--tab_catalog)<br>
+[Offering bushings in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)<br>
 [Payment Module PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.md)<br>
 [Payment module invoice (Administration) >](../../manual_admin/administration/Payment_Invoice.md)<br>
 [Credit Points for the Personal Menu >](../personal_menu/Credit_Points.md)<br>

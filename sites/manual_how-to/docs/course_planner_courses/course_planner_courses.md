@@ -54,7 +54,7 @@ If you have the **role of Course Planner**, you will find the Course Planner as 
 
 ## Step 1: Create product  {: #create_product}
 
-We distinguish between a [product](../../manual_user/area_modules/Course_Planner_Products.md#create_products) (e.g., a course that can be offered multiple times) and an [implementation](../../manual_user/area_modules/Course_Planner_Implementations.md).
+We distinguish between a [product](../../manual_user/area_modules/Course_Planner_Products.md#create_product) (e.g., a course that can be offered multiple times) and an [implementation](../../manual_user/area_modules/Course_Planner_Implementations.md).
 
 Example:<br>
 - A language course entitled "Spanish for Beginners" is being developed and planned as a product.
@@ -64,7 +64,7 @@ Open the Course Planner and select the "Products" button. There you can select a
 
 ![course_planner_products1_v1_de.png](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" }  
 
-You can find out more about this in the user manual under [Products >](../../manual_user/area_modules/Course_Planner_Products.md#create_products)
+You can find out more about this in the user manual under [Products >](../../manual_user/area_modules/Course_Planner_Products.md#create_product)
 
 
 !!! info "Note"

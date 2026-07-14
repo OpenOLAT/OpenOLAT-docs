@@ -89,7 +89,7 @@ Auch die Erinnerungen sind eine Funktion der Datenerhebung. Werden vom Datengene
 
 
 ![12_green_24.png](assets/12_green_24.png) **Durchführungsformate ausschliessen**<br>
-Zu Kursen kann in den Metadaten ein Durchführungsformat angegeben werden. Es besteht die Möglichkeit, bei erzeugten Datenerhebungen bestimmte [Durchführungsformate](../../manual_admin/administration/Modules.de.md#kurs) auszuschliessen, z.B. wenn Prüfungskurse nicht berücksichtigt werden sollen.
+Zu Kursen kann in den Metadaten ein Durchführungsformat angegeben werden. Es besteht die Möglichkeit, bei erzeugten Datenerhebungen bestimmte [Durchführungsformate](../../manual_admin/administration/Modules.de.md#course) auszuschliessen, z.B. wenn Prüfungskurse nicht berücksichtigt werden sollen.
 
 ![13_green_24.png](assets/13_green_24.png) **Bearbeitung einschränken**<br>
 Die Bearbeitung des Generators kann auf Qualitätsverantwalter:innen eingeschränkt werden.

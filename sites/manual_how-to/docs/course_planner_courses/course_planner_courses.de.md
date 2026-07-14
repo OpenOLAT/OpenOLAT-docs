@@ -57,7 +57,7 @@ Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als
 
 ## Schritt 1: Produkt erstellen  {: #create_product}
 
-Wir unterscheiden ein [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md#create_products) (z.B. einen Kurs, der mehrfach angeboten werden kann) von einer [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md).
+Wir unterscheiden ein [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md#create_product) (z.B. einen Kurs, der mehrfach angeboten werden kann) von einer [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md).
 
 Beispiel:<br>
 - Als Produkt wird ein Sprachkurs "Spanisch für Anfänger" erstellt und geplant.
@@ -68,7 +68,7 @@ Beispiel:<br>
 ![course_planner_products1_v1_de.png](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" }  
 
 Mehr dazu finden Sie im Benutzerhandbuch unter 
-[Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_products)
+[Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_product)
 
 !!! info "Hinweis"
 
