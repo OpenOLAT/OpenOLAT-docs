@@ -30,6 +30,10 @@ Hat vollständige Administrationsrechte für das System.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Aktives Mitglied (Zertifikatsprogramm)
+
+Mitgliedschaftsstatus im Zertifikatsprogramm: Die Person besitzt in diesem Programm ein Zertifikat und ist damit aktives, zertifiziertes Mitglied.
+
 ### Akzeptierte Teilnehmer:innen
 
 Gruppe im Kursbaustein Themenvergabe, in der die für ein Thema akzeptierten Kursteilnehmer:innen aufgeführt werden.
@@ -409,6 +413,10 @@ Persönlicher und Kurskalender zur Terminplanung und Eventverwaltung.
 ### Kalender
 
 Ein Kursbaustein zur Einbettung eines Kurskalenders mit Terminen und Fristen.
+
+### Kandidat:in (Zertifikatsprogramm)
+
+Mitgliedschaftsstatus im Zertifikatsprogramm: Die Person nimmt an einer mit dem Programm verknüpften Durchführung teil, besitzt aber in diesem Programm noch kein Zertifikat. Die Mitgliedschaft kann so bereits vor der ersten Zertifizierung beginnen.
 
 ### Katalog
 

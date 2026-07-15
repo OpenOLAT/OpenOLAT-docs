@@ -108,6 +108,14 @@ Auf der Übersicht sehen Sie auf einen Blick die Anzahl der Mitglieder sortiert 
 
 Um weitere Personen in das Zertifikatsprogramm aufzunehmen und ihnen die Möglichkeit zum Erwerb eines Zertifikats zu ermöglichen, verwenden Sie den **Button "Mitglied hinzufügen"**.
 
+Jede Person im Zertifikatsprogramm hat einen **Mitgliedschaftsstatus**:
+
+* **Aktives Mitglied**: Die Person besitzt in diesem Zertifikatsprogramm ein Zertifikat und ist damit zertifiziertes, aktives Mitglied.
+* **Kandidat:in**: Die Person nimmt an einer mit dem Zertifikatsprogramm verknüpften Durchführung teil, besitzt aber in diesem Programm noch kein Zertifikat. Die Mitgliedschaft kann so bereits vor der ersten Zertifizierung beginnen.
+* **Alumni**: Die Person ist aus dem Zertifikatsprogramm ausgeschieden, zum Beispiel nach Ablauf eines Zertifikats ohne Rezertifizierung.
+
+Beim Hinzufügen über den Assistenten "Neue Person zertifizieren" wird der aktuelle Mitgliedschaftsstatus jeder gewählten Person angezeigt.
+
 Wird eine zur Rezertifizierung geforderte Ausbildung/Massnahme nicht erfüllt, läuft ein Zertifikat ab und die betreffende Person scheidet automatisch aus dem Zertifikatsprogramm aus. Dies ist z.B. bei sicherheitsrelevanten Zertifizierungen oft ein notwendiger Automatismus.
 
 Aus dem Zertifikatsprogramm ausgeschiedene Personen sind unter einem separaten Button einsehbar. So können sie von Besitzer:innen eines Zertifikatsprogramms schnell identifiziert und kontaktiert werden.

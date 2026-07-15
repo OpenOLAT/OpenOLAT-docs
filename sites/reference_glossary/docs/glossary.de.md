@@ -476,6 +476,14 @@ Der Hauptbereich, in dem Benutzer ihre eingeschriebenen Kurse finden und darauf 
 
 Ein strukturierter Zertifizierungsweg mit Rezertifizierungsanforderungen.
 
+### Aktives Mitglied (Zertifikatsprogramm)
+
+Mitgliedschaftsstatus im Zertifikatsprogramm: Die Person besitzt in diesem Programm ein Zertifikat und ist damit aktives, zertifiziertes Mitglied.
+
+### Kandidat:in (Zertifikatsprogramm)
+
+Mitgliedschaftsstatus im Zertifikatsprogramm: Die Person nimmt an einer mit dem Programm verknüpften Durchführung teil, besitzt aber in diesem Programm noch kein Zertifikat. Die Mitgliedschaft kann so bereits vor der ersten Zertifizierung beginnen.
+
 ### Curriculum-Element
 
 Ein Knoten im Curriculum-Baum, der ein Modul, Semester oder Fach repräsentiert.
