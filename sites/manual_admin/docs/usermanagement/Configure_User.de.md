@@ -115,7 +115,11 @@ Hier sind die erworbenen Kreditpunkte des Users angezeigt.
 
 ### Statements
 
-Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in angezeigt. Auch anderweitig erworbene Zertifikate können hochgeladen werden, um in OpenOlat einen Überblick über den gesamten Leistungsnachweis zu erhalten.  
+Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in angezeigt. Auch anderweitig erworbene Zertifikate können hochgeladen werden, um in OpenOlat einen Überblick über den gesamten Leistungsnachweis zu erhalten. Neben den Spalten für Punkte, Erfolgsstatus und Fortschritt lassen sich weitere Spalten einblenden, darunter "Bewertung" mit der erreichten Note (bei aktivem Notenmodul) und die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+
+<h4>Leistungsnachweis löschen</h4>
+
+Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.  
 
 [zum Seitenanfang ^](#user_configuration)
 
