@@ -153,10 +153,9 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 
 ### Abschnitt "Zugang"
 
-#### Zugang Kursbesitzer:innen/Betreuer:innen
+#### Zugang Kursbesitzer:innen/Betreuer:innen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, kann diesen Kurs auf jeden Fall im Coaching Tool finden.
-Es kann hier gewählt werden, ob zusätzlich auch unter "Meine Kurse" auf solche Lernressourcen zugegriffen werden kann. 
+Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Tool. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen die Person selbst Teilnehmer:in ist.
 
 
 #### Hinweis in "Kurse" anzeigen
@@ -172,4 +171,16 @@ Hier (unter Modul Lernresource) wird angezeigt, was dort betreffend "Meine Kurse
 Um die Einstellungen zu ändern, kann direkt mit einem Link zu `Administration > Customizing > Sites` gewechselt werden ("Site Einstellungen öffnen").
 
 [Zum Seitenanfang ^](#learning_resource)
+
+---
+
+### Abschnitt Status "Beendet" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+Hier legen Sie systemweit fest, welchen Zugriff Teilnehmende auf einen Kurs oder eine Lernressource im Status "Beendet" haben. Diese Einstellung gilt als Standard für alle Kurse und kann pro Kurs überschrieben werden.
+
+* **Nur-Lese-Zugriff:** Der Inhalt steht den Teilnehmenden weiterhin im Lesemodus zur Verfügung.
+* **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
+
+Den kursspezifischen Override nehmen Kursbesitzer:innen im Kurs vor:<br>
+`Administration > Einstellungen > Tab Optionen`
 
