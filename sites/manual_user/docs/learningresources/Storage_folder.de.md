@@ -14,11 +14,12 @@ Werden Dateien hochgeladen muss die Grössen Begrenzung sowohl für die einzelne
 
 Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen werden und so eine systematische Strukturierung von kursbezogenen Dateien umgesetzt werden.
 
-Zusätzlich legt OpenOlat, wenn der Kurs mindestens einen [Kursbaustein "Ordner"](../learningresources/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) enthält oder der Kurs mit einem Ressourcenordner verknüpft wird, automatisch die Ordner "**_courseelementdata**" bzw. "**_sharedfolder**" an.
+## Automatisch angelegte Unterordner
 
-Im Unterordner "**_courseelementdata**" befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learningresources/Course_Elements.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier nachdem sie im Kurseditor angelegt wurden automatisch und können im Ablageordner auch editiert werden.
+Neben den selbst erstellten Ordnern legt OpenOlat im Ablageordner je nach Kurskonfiguration automatisch spezielle Unterordner an:
 
-Ein dem Kurs zugewiesener [Ressourcenordner](../learningresources/index.de.md) kann im Ablageordner über den Unterordner "**_sharedfolder**" eingesehen, jedoch per default nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
+* **_courseelementdata**: Wird angelegt, sobald der Kurs mindestens einen [Kursbaustein "Ordner"](../learningresources/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) enthält. In diesem Unterordner befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learningresources/Course_Elements.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier automatisch, nachdem sie im Kurseditor angelegt wurden, und können im Ablageordner auch editiert werden.
+* **_sharedfolder**: Wird angelegt, wenn der Kurs mit einem [Ressourcenordner](../learningresources/index.de.md) verknüpft wird. Der zugewiesene Ressourcenordner kann hier eingesehen, per default jedoch nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
 
 ### Verbindung von Ablageordner und dem Kursbaustein "Einzelne Seite"
 
