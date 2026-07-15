@@ -160,7 +160,7 @@ nav:
         - The portfolio editor: "area_modules/The_portfolio_editor_17_1.md"
     - Course Planner:
         - Overview: "area_modules/Course_Planner.md"
-        - Application map (concept study): "area_modules/Course_Planner_Map.md"
+          - Application map (concept study): "area_modules/Course_Planner_Map.md"
         - Dashboard: "area_modules/Course_Planner_Dashboard.md"
         - Products: "area_modules/Course_Planner_Products.md"
         - Import / Export: "area_modules/Course_Planner_Import_Export.md"
@@ -169,7 +169,7 @@ nav:
         - Certification programs: "area_modules/Course_Planner_Certification_Programs.md"
         - Reports:
           - Overview: "area_modules/Course_Planner_Reports.md"
-          - Booking order reports: "area_modules/Reports_BookingOrders.md"
+           - Booking order reports: "area_modules/Reports_BookingOrders.md"
         - To-dos: "area_modules/Course_Planner_Todos.md"
     - Absence Management: "area_modules/Absence_Management.md"
     - Quality Management:
