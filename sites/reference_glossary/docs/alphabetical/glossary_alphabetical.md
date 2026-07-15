@@ -22,6 +22,10 @@ Booking and offer management for learning resources.
 
 Key figure label in the Course widget for courses with the publication status "Access for coach".
 
+### Active member (certification program)
+
+Membership status in a certification program: the person holds a certificate in this program and is therefore an active, certified member.
+
 ### Administration
 
 The system administration area for configuring modules, managing users, and system settings.
@@ -141,6 +145,10 @@ Personal and course calendar for scheduling and event management.
 ### Calendar
 
 A course element for embedding a course calendar with events and deadlines.
+
+### Candidate (certification program)
+
+Membership status in a certification program: the person participates in an implementation linked to the program but does not yet hold a certificate in this program. Membership can thus begin before the first certification.
 
 ### card2brain
 

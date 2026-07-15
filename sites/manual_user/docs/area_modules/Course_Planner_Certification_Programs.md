@@ -98,6 +98,14 @@ The overview shows you the number of members sorted by status at a glance:
 
 To add more people to the certification program and give them the opportunity to earn a certificate, use the **"Add member" button**.
 
+Every person in the certification program has a **membership status**:
+
+* **Active member**: The person holds a certificate in this certification program and is therefore a certified, active member.
+* **Candidate**: The person participates in an implementation linked to the certification program but does not yet hold a certificate in this program. Membership can thus begin before the first certification.
+* **Alumni**: The person has left the certification program, for example after a certificate expired without recertification.
+
+When adding people via the "Certify new users" wizard, the current membership status of each selected person is shown.
+
 If a training course/measure required for recertification is not completed, a certificate expires and the person concerned is automatically removed from the certification program. This is often a necessary automatic process, for example in the case of safety-related certifications.
 
 Individuals who have left the certification program can be viewed under a separate button. This allows certification program owners to quickly identify and contact them.

@@ -476,6 +476,14 @@ The main area where users find and access their enrolled courses.
 
 A structured certification path with recertification requirements.
 
+### Active member (certification program)
+
+Membership status in a certification program: the person holds a certificate in this program and is therefore an active, certified member.
+
+### Candidate (certification program)
+
+Membership status in a certification program: the person participates in an implementation linked to the program but does not yet hold a certificate in this program. Membership can thus begin before the first certification.
+
 ### Curriculum element
 
 A node in the curriculum tree representing a module, semester, or subject.
