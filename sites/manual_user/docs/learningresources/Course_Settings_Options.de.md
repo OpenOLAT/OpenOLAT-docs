@@ -46,6 +46,18 @@ Sollen Betreuer:innen kurspezifische **To-dos** verwenden können, aktivieren Si
 [Zum Seitenanfang ^](#course_settings)
 
 
+## Zugriff bei Status "Beendet" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+Im Abschnitt "Zugriff" legen Sie fest, welchen Zugriff Teilnehmende auf diesen Kurs haben, sobald er den Status "Beendet" erreicht.
+
+Mit **"Systemstandard übernehmen"** gilt die von der Administration vorgegebene Voreinstellung; der aktuell gültige Standard wird in Klammern angezeigt. Wählen Sie **"Überschreiben"**, um für diesen Kurs abweichend festzulegen:
+
+* **Nur-Lese-Zugriff:** Der Kursinhalt steht den Teilnehmenden weiterhin im Lesemodus zur Verfügung.
+* **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
+
+[Zum Seitenanfang ^](#course_settings_options)
+
+
 ## Weitere Konfigurationsoptionen 
 
 Benutzer*innen mit administrativen Rollen (Lernressourcenveralter:in, Administrator:in) erhalten im Tab "Optionen" zusätzlich die folgenden Möglichkeiten angezeigt:

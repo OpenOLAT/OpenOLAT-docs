@@ -16,7 +16,7 @@ Vorbereitung | Nur Besitzer dieser Lernressource haben Zugriff.|
 Review | Nur Besitzer dieser Lernressource haben Zugriff. Alle Vorbereitungen zu dieser Lernressource sind abgeschlossen und die Inhalte sind zur weiteren Überprüfung freigegeben.  
 Freigabe Betreuer | Besitzer und Betreuer dieser Lernressource haben Zugriff.  
 Veröffentlicht | Der Kurs ist nun auch im Bereich der aktiven "Kurse" auffindbar. Alle Mitglieder der Lernressource haben Zugriff.  
-Beendet | Alle Mitglieder haben weiter Zugriff auf den Kurs, können aber nur noch lesen.  
+Beendet | Die Zugriffsart der Mitglieder richtet sich nach der konfigurierten Einstellung des Status "Beendet": **Nur-Lese-Zugriff *oder* kein Zugriff**.  
   
 !!! info "Hinweis"
 
@@ -142,6 +142,20 @@ Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene O
 Sie können die konfigurierten Angebote jederzeit problemlos löschen.
 Die bereits getätigten Buchungsaufträge bleiben bestehen und sind davon nicht weiter tangiert.
 
+### Verfügbarkeit des Angebots steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9304)" }](https://track.frentix.com/issue/OO-9304)
+
+Über die Einstellung **"Verfügbar wenn"** legen Sie fest, unter welchen Bedingungen ein Angebot im Katalog buchbar ist. Neben der uneingeschränkten Verfügbarkeit steht die Option **"Benutzerdefinierte Bedingung"** zur Verfügung. Ist sie gewählt, konfigurieren Sie die Verfügbarkeit über:
+
+* **"Status ist":** die Kurs- bzw. Durchführungsstatus, in denen das Angebot verfügbar sein soll.
+* **"Ab" / "Bis":** grenzen den Verfügbarkeitszeitraum zusätzlich ein. Je Grenze wählen Sie einen Modus:
+    * **"Nur Status":** es gilt allein der gewählte Status, ohne Datumsgrenze.
+    * **"Absolut":** ein festes Datum.
+    * **"Relativ":** ein Datum relativ zum Durchführungszeitraum, zum Beispiel drei Tage vor Kursbeginn. Damit ein relatives Datum wirksam wird, muss der Durchführungszeitraum der Lernressource gesetzt sein.
+
+So wird ein Angebot beispielsweise erst kurz vor Kursbeginn buchbar oder schliesst automatisch einige Tage vor Kursende, ohne dass Sie feste Daten pflegen müssen.
+
+Im Feld **"Interne Bezeichnung"** vergeben Sie einen nur intern sichtbaren Namen für das Angebot. Er hilft Ihnen, mehrere Angebote derselben Lernressource auseinanderzuhalten. Die Angebotskonfiguration ist in die Bereiche **"Katalog"** (Sichtbarkeit und Verfügbarkeit) und **"Mitgliedschaft"** (Art der Mitgliedschaft) gegliedert.
+
 ## Freigabeübersicht
 
 ![share-overview](assets/share-overview.de.jpg)  
@@ -153,7 +167,9 @@ Ist die Freigabe nach den Wünschen eingestellt, sieht man am Ende der Seite kom
 Wurde ein Kurs durchgeführt und ist abgelaufen kann er beendet und/oder
 gelöscht werden.
 
-Wenn ein Kurs **beendet** wird, befindet er sich anschliessend im Lesemodus. Alle Benutzerdaten bleiben bestehen und alle Kursmitglieder haben nach wie vor Zugriff auf den Kurs. Der Kurs befindet sich jedoch nicht mehr im Tab "Meine Kurse", sondern im Tab "Beendet" gleich nebenan.
+Wenn ein Kurs **beendet** wird, richtet sich der Zugriff der Kursmitglieder nach der Einstellung für den Status "Beendet": Bei "Nur-Lese-Zugriff" bleibt der Kurs im Lesemodus zugänglich, bei "Kein Zugriff" sehen die Teilnehmenden die Inhalte nicht mehr. Diese Voreinstellung gibt die Administration vor; sie kann pro Kurs im Tab "Optionen" überschrieben werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+Alle Benutzerdaten bleiben bestehen. Der Kurs befindet sich nicht mehr im Tab "Meine Kurse", sondern im Tab "Beendet" gleich nebenan.
 
 ![Tab Kurs beendet](assets/beendet2.png)  
 Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und durchgestrichen angezeigt.
