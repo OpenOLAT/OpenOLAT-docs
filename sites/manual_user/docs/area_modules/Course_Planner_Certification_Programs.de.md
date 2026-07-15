@@ -203,6 +203,16 @@ In den Einstellungen definieren Sie,
 **Button "Zertifikat"**<br>
 ![course_planner_certification_programs_config_settings_certificate_v2_de.png](assets/course_planner_certification_programs_config_settings_certificate_v2_de.png){ class="shadow lightbox" }
 
+Unter dem Button "Zertifikat" legen Sie fest, welche Zertifikatsvorlage im Zertifikatsprogramm verwendet wird. Zusätzlich stehen folgende Optionen zur Verfügung:
+
+**Seriennummer**<br>
+
+Mit der Option **"Mit Seriennummer"** erhält jedes ausgestellte Zertifikat automatisch eine fortlaufende, menschenlesbare Seriennummer [:octicons-tag-16:{ title="ab Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). Das **Format** legen Sie über Variablen fest: `${counter}` bzw. `${counter:N}` (Zähler, optional mit führenden Nullen bei N Stellen) sowie optional `${year}`, `${month}` und `${day}`, z.B. `REF-${year}-${counter:5}`. Über den **Startwert des Zählers** bestimmen Sie, bei welcher Nummer die Zählung beginnt; das Feld "Nächste Seriennummer" zeigt eine Vorschau. Die Seriennummer wird bei jeder Ausstellung (auch bei einer Rezertifizierung) neu vergeben, erscheint auf dem Zertifikat und im Dateinamen des PDF. In der Zertifikatsübersicht lässt sich die Spalte "Seriennummer" einblenden (standardmässig ausgeblendet).
+
+<h4>Druckversion für vorgedrucktes Papier</h4>
+
+Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvorlage** für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Berechtigte Personen können damit zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren** (einzeln, als Sammelaktion oder über das Aktionsmenü). Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
+
 
 
 [Zum Seitenanfang ^](#certification_programs)

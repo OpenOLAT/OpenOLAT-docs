@@ -25,7 +25,7 @@ Die Optionen dazu finden Sie in den Abschnitten
 
     Die nachfolgenden Ausführungen beziehen sich auf Lernpfadkurse. Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis wird auf der Kursstartseite angezeigt.
 
-Für Kursbewertungen gibt es 2 Einstellungen:
+Für Kursbewertungen gibt es folgende Einstellungen:
 
 - **Mit Punkten** (nur bei Lernpfad-Kursen) {: #evaluation_with_points}<br>
     Hier können Sie einstellen, ob bzw. welche Art von Punkten angezeigt wird.
@@ -40,7 +40,10 @@ Für Kursbewertungen gibt es 2 Einstellungen:
     
     Es kann mit Punkten bewertet werden, auch wenn sie nicht relevant für das Bestehen des Kurses sind.
 
-- **Mit "bestanden/nicht bestanden"**<br>
+- **Mit Einstufung/Noten** (nur bei Lernpfad-Kursen)<br>
+  Bei aktiviertem Einstufungs-/Notenmodul weisen Sie dem Kurs auf Kursebene eine Note zu.<br> [Mehr dazu >](#evaluation_with_grades)
+
+- **Mit Erfolgsstatus**<br>
   Hier können Sie einstellen, wann ein Kurs als bestanden gilt. Neben einer bestimmten erreichten Punktzahl können auch andere Kriterien zu einem "Bestanden" führen.<br> [Mehr dazu >](#evaluation_passed_failed)
 
     
@@ -83,9 +86,23 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
 ![course_settings_assessment_points_sum_average_v2_de.png](assets/course_settings_assessment_points_sum_average_v2_de.png){ class="shadow lightbox" }
 
-!!! hint "Highscore"
+!!! info "Highscore"
 
     Nur wenn unter "Kursbewertung mit Punkten" **Summe** oder **Durchschnitt** gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
+
+[Zum Abschnitt Einstellungen Bewertung ^](#section_assessment_settings)<br>
+[Zum Seitenanfang ^](#tab_assessment)
+
+---
+
+
+### Kursbewertung mit Einstufung/Noten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
+
+Ist das Einstufungs-/Notenmodul aktiviert und wird der Kurs mit **Punkten** bewertet, können Sie mit der Option **"Mit Einstufung/Noten"** dem Kurs auf Kursebene eine Note zuweisen. Die Kursnote wird aus der Summe der Punkte der bewertbaren Kursbausteine gebildet (Summe, gewichtete Summe oder Durchschnitt gemäss der gewählten Punkteeinstellung) und über das gewählte **Bewertungssystem** in eine Note übersetzt.
+
+Ist "Mit Einstufung/Noten" aktiv, bestimmt das Bewertungssystem auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn die Bestehensregel des Bewertungssystems erfüllt ist. Die Einstellung "Mit Erfolgsstatus" wird in diesem Fall automatisch entsprechend gesetzt. Enthält das gewählte Bewertungssystem keine Bestehensregel, hat der Kurs auf Kursebene keinen Erfolgsstatus.
+
+Die Note wird manuell berechnet: Kursbesitzer:innen und berechtigte Betreuer:innen lösen die Berechnung im [Bewertungswerkzeug](Assessment_tool_overview.de.md) über die Aktion **"Einstufung/Noten zuweisen"** aus.
 
 [Zum Abschnitt Einstellungen Bewertung ^](#section_assessment_settings)<br>
 [Zum Seitenanfang ^](#tab_assessment)
@@ -166,7 +183,7 @@ Bei aktivierter Kreditpunktvergabe werden den Teilnehmer:innen nach Bestehen des
 Als Kursbesitzer:in bestimmen Sie, wieviele Kreditpunkte vergeben werden, wenn dieser Kurs bestanden wird.<br>
 Die Gültigkeitsdauer der Kreditpunkte kann auch begrenzt werden. 
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Die Vergabe von Kreditpunkten ist auch innerhalb eines Zertifikatsprogramms von Bedeutung.
 
