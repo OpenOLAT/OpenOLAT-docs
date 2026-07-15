@@ -14,11 +14,13 @@ When uploading a file, the file size limit as well as the folder space limit has
 
 Furthermore, the storage folder can be usefully provided with further subfolders and thus a systematic structuring of course-related files can be implemented.
 
-Additionally, OpenOlat automatically generates the folders "**_courseelementdata**" or "**_sharedfolder**", if the course contains at least one [course element "Folder"](../learningresources/Knowledge_Transfer.md#course-element-folder--folder) or if the course is connected to a resource folder.
+## Automatically generated subfolders
 
-In the subfolder **"_courseelementdata"** you can find all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources//Course_Elements.md) of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited here as well.
+In addition to the folders you create yourself, OpenOlat automatically generates special subfolders in the storage folder, depending on the course configuration:
 
-Via the subfolder „ **_sharedfolder** “ you can view the linked [resource folder](../learningresources/index.md) of the course, but you can not edit it by default. Editing can be enabled in the course options by deactivating the option "read only" for the selected resource folder.
+* **_courseelementdata**: Generated as soon as the course contains at least one [course element "Folder"](../learningresources/Knowledge_Transfer.md#course-element-folder--folder). This subfolder contains all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Elements.md)" of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited in the storage folder as well.
+* **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/index.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing via the storage folder, deactivate the option "read only" for the selected resource folder in the course options.
+* **_documents**: Generated when the course tool "[Documents](../learningresources/Toolbar.md#documents)" is enabled. It contains the files that teachers provide for central download via the "Documents" tool.
 
 ### Link course element "Single page" to storage folder
 
