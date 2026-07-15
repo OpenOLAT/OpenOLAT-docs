@@ -192,6 +192,16 @@ In the settings you can define the following:
 **Button "Certificate"**<br>
 ![course_planner_certification_programs_config_settings_certificate_v1_de.png](assets/course_planner_certification_programs_config_settings_certificate_v1_de.png){ class="shadow lightbox" }
 
+Under the "Certificate" button, you define which certificate template is used in the certificate program. In addition, the following options are available:
+
+**Serial number**<br>
+
+With the **"With serial number"** option, each issued certificate is automatically assigned a sequential, human-readable serial number [:octicons-tag-16:{ title="ab Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). You define the **format** using variables: `${counter}` or `${counter:N}` (counter, optionally with leading zeros for N digits) as well as optional `${year}`, `${month}`, and `${day}`, e.g. `REF-${year}-${counter:5}`. The **counter start value** determines the number at which counting begins; the "Next serial number" field shows a preview. The serial number is assigned anew on each issuance (including a recertification), appears on the certificate and in the PDF file name. In the certificate overview, the "Serial number" column can be shown (hidden by default).
+
+<h4>Print version for pre-printed paper</h4>
+
+With the **"With print version"** option, you activate an additional **print template** for pre-printed paper [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Authorised persons can thus export a **print certificate** alongside the standard certificate (individually, as a bulk action, or via the actions menu). Learners continue to receive only the standard certificate.
+
 [To the top of the page ^](#certification_programs)
 
 ---

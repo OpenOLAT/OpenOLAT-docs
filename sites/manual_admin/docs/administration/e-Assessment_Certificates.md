@@ -19,6 +19,8 @@ If course owners want to issue a certificate for their course, they can do so by
 
 The same selection of certificate templates is also available in certificate programs.
 
+The default template supplied is HTML-based. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
+
 ![e-assessment_certificates_tab_templates_v1_de.png](assets/e-assessment_certificates_tab_templates_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#certificates)

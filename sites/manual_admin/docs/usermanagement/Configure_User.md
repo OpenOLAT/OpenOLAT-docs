@@ -116,7 +116,11 @@ The user's acquired credit points are displayed here.
 
 ### Statements
 
-The certificates, points and progress of a user are displayed here. Certificates acquired elsewhere can also be uploaded in order to obtain an overview of the entire transcript of records in OpenOlat.
+The certificates, points and progress of a user are displayed here. Certificates acquired elsewhere can also be uploaded in order to obtain an overview of the entire transcript of records in OpenOlat. In addition to the columns for points, success status and progress, further columns can be shown, including "Rating" with the achieved grade (if the grading module is active) and the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+
+<h4>Delete evidence of achievement</h4>
+
+Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
 
 [To the top of the page ^](#user_configuration)
 
