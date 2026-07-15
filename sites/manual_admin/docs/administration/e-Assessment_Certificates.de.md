@@ -20,6 +20,8 @@ Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen
 
 Die gleiche Auswahl der Zertifikatsvorlagen steht auch in Zertifikatsprogrammen zur Verfügung.
 
+Die mitgelieferte Standardvorlage ist HTML-basiert. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
+
 ![e-assessment_certificates_tab_templates_v1_de.png](assets/e-assessment_certificates_tab_templates_v1_de.png){ class="shadow lightbox" }
 
 
