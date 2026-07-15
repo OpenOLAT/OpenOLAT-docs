@@ -43,7 +43,7 @@ If you want to give a guest a direct access to a course, you can send him/her th
 !!! info "Info"  
 
     Administrative settings are made by OpenOlat administrators in the section
-    Login → ["Guest and Invitation"](../../manual_admin/administration/Guest_and_invitation.md) and under ["Customizing"](../../manual_admin/administration/Customizing.md) → "Sites".
+    Login → ["Anonymous guests and external users"](../../manual_admin/administration/Guest_and_invitation.md) and under ["Customizing"](../../manual_admin/administration/Customizing.md) → "Sites".
 
 
 

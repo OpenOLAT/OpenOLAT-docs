@@ -6,7 +6,7 @@
 Name | Checklist
 ---------|----------
 Icon | :fontawesome-regular-square-check:
-Available since | 
+Available since | Release 9.4
 Functional group | Assessment
 Purpose | Checklist with functions such as blocking the editing option by submission date, grayed out checkboxes that only coaches can check off, etc.
 Assessable | yes
@@ -24,16 +24,16 @@ Several checklists can also be added at once. This procedure is useful if you ne
 
 Thus, several checklists with identical check criteria but for different groups, for different objects to be checked, for different event dates or for checking the same object at different points in time (development) can be created relatively quickly.
 
-## Create and configure a checklist
+## Create and configure a checklist [:octicons-tag-16:{ title="from Release 9.4 (OO-936)" }](https://track.frentix.com/issue/OO-936){:target="_blank"}
 
 By means of the course element "Checklist" you can add different kinds of checklists to your course. For each course element, create a checklist with as many checkboxes as needed. Create individual check boxes in the tab "Check boxes" via the button "Add checkbox". You can add files for download to a
 checkbox.
 
-###   Tab Configuration
+## Tab Configuration [:octicons-tag-16:{ title="from Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"}
 
 In this tab, you can determine whether a deadline should be effective for the checklist and if and how course participants are assessed. Depending on the selected settings, you have different valuation options at your disposal. The later assessment takes place either in the course run with closed editor or in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) of the course. Once an assessment has taken place, you should not change the configuration anymore.
 
- ### Configuration settings
+### Detailed settings of the "Configuration" tab
 
  **Lock checklist for users on deadline**: If this checkbox is selected, the checklist can no longer be edited by the learner once the submission date has been reached.
 
@@ -59,7 +59,7 @@ In this tab, you can determine whether a deadline should be effective for the ch
 
  **Notice for tutors** : Please enter a text to be displayed to the tutors of the course when assessing participants.
 
-###  Tab Checkboxes
+## Tab Checkboxes [:octicons-tag-16:{ title="from Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"}
 
 In this tab you create and edit the checkboxes that the users can tick later. Click the button "Add checkbox" in order to create a new checkbox. A form opens in a pop-up.
 
@@ -79,14 +79,14 @@ The table then displays an overview of the checkboxes that have been created.
 The order can also be changed here.
 
 
-### Tab Badges
+## Tab Badges [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003){:target="_blank"}
 
 If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 
 [To the top of the page ^](#course_element_checklist)
 
 
-###  Use and evaluate checklists
+## Use and evaluate checklists [:octicons-tag-16:{ title="from Release 16.1 (OO-5946)" }](https://track.frentix.com/issue/OO-5946){:target="_blank"}
 
 After you have created the checklist, you will see the two tabs "My Checklist" and "Manage checklists" on the element page. Course participants without coach rights can not see the administration tab. If the checkboxes have a score it is visible to the learners, thus the calculation of the overall score is reasonable.
 
@@ -112,7 +112,7 @@ Filter the table beforehand by group. You can then sort by either first or last 
 
   
 
-##  Course element: Multiple checklists {: #multi}
+##  Course element: Multiple checklists [:octicons-tag-16:{ title="from Release 9.4 (OO-937)" }](https://track.frentix.com/issue/OO-937){:target="_blank"} {: #multi}
 
 ![multiple checklists icon.png](assets/wizard_434343_64.png)
 

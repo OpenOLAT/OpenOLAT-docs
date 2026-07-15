@@ -85,9 +85,9 @@ The "Status" column (formerly "Life cycle") is always sorted in the following fi
 !!! tip "Tip"
     The available time periods are provided by the system administration.
 
-!!! note "Time periods module"
+!!! note "Module Time periods"
     How administrators manage time periods.<br>
-    [Time periods module >](../../manual_admin/administration/Modules_Time_Period.md)
+    [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
 
 [To the top of the page ^](#authoring)
 

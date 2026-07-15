@@ -16,7 +16,7 @@
 
 
 
-## Where can audios be recorded in OpenOlat {: #audios_recording}
+## Where can audios be recorded in OpenOlat :octicons-tag-16:{ title="from Release 17.1 (OO-6327)" } {: #audios_recording}
 
 ### Recordings in the Media Center
 

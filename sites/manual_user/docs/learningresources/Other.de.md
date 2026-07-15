@@ -297,7 +297,7 @@ Visitenkarte und können ihn kontaktieren.
 
 !!! info "Info"
 
-    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab Teilnehmerverwaltung einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.  
+    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab Verwaltung Benutzer:innen einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.  
   
 * **Beschreibung:** 
 
@@ -381,7 +381,7 @@ eingeschrieben und Sie diese akzeptiert haben.
 
     Bitte beachten Sie, dass die zwei letzteren Schaltflächen nur ersichtlich sind, wenn der Besitzer die Themenvergabe so konfiguriert hat, dass die Teilnhemer manuell akzeptiert werden müssen.
 
-### Tabs "Ordner" und "Teilnehmerverwaltung"
+### Tabs "Ordner" und "Verwaltung Benutzer:innen"
 
 ####  **Teilnehmer verwalten**
 
@@ -392,7 +392,7 @@ auf der Startseite der Themenvergabe in der Tabelle den Vermerk „**Teilnehmer 
 ![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png)
 ![themen_teilnehmer_verwalten.png](assets/Themen_Teilnehmerverwaltung.png)
 
-Öffnen Sie den Tab "**Teilnehmerverwaltung**" und akzeptieren Sie den/die
+Öffnen Sie den Tab "**Verwaltung Benutzer:innen**" und akzeptieren Sie den/die
 Kandidaten.
 
 Über "**Als Teilnehmer übernehmen**" wählen Sie, wem Sie das Thema vergeben

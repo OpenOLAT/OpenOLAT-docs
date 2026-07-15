@@ -218,7 +218,7 @@ Hier kann die Verwendung eines Katalogs ein- oder ausgeschaltet und konfiguriert
 
 ## Lernressource {: #learning_resource}
 
-Hier nehmen Sie Einstellungen zu Lernressourcen im Repository vor.
+Hier nehmen Sie Einstellungen zu Lernressourcen vor.
 
 [Zu den Details >](Modules_Learning_Resource.de.md)<br>
 [Zum Seitenanfang ^](#modules)

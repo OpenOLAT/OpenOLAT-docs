@@ -103,7 +103,7 @@ You can find more information about offers and the catalog here:<br>
 
 ---
 
-## ![4_green_24.png](assets/4_green_24.png) Section LTI 1.3  {: #section_LTI}
+## ![4_green_24.png](assets/4_green_24.png) Section LTI 1.3  [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
 OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, this external access requires security measures and precisely defined permissions.<br>
 In this section, you can set up a deployment to make the course accessible for another LMS.

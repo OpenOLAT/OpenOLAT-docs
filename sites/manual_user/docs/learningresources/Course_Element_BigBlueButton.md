@@ -13,7 +13,7 @@ Assessable | no
 Specialty / Note | BigBlueButton is an open source software (LPGL license). To use the course element, a separate server hosting is required.
 
 
-## General
+## General [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
 !!! info "Hinweis"
 
@@ -42,7 +42,7 @@ When integrating BigBlueButton into a course it can be decided whether a schedul
 
 ![BBB_access.png](assets/image2020-4-14_11-19-9.png)
   
-## Create, configure and enter rooms
+## Create, configure and enter rooms [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
 The following settings are made with the editor closed.
 
@@ -106,7 +106,7 @@ supplemented with free data in the second process step "Date" before creation.
 
     Once a BigBlueButton meeting has been started, i.e. the online room has been opened, the settings on the meeting appointment can no longer be edited!     
 
-### Tab "Online-meetings"
+### Tab "Online-meetings" [:octicons-tag-16:{ title="from Release 15.2 (OO-4818)" }](https://track.frentix.com/issue/OO-4818){:target="_blank"}
 
 The tab "Online-meetings" gives you access to a specific appointment or room.
 
@@ -170,7 +170,7 @@ participants.
 
 Depending on the room settings, different options are available in the room.  
 
-## BigBlueButton for guests 
+## BigBlueButton for guests [:octicons-tag-16:{ title="from Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
 
 Depending on the configuration of the BigBlueButton template, the conference
 room can be made accessible to non-registered persons without access to

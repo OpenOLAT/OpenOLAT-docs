@@ -27,7 +27,7 @@ In order to enter several addresses in the field "E-mail addresses" you have
 to separate them by line breaks, i.e. each e-mail address has to be put into
 one separate row.
 
-## Distribution to owners/coaches/participants
+## Distribution to owners/coaches/participants [:octicons-tag-16:{ title="from Release 15.4 (OO-5147)" }](https://track.frentix.com/issue/OO-5147){:target="_blank"}
 
 By checking this box you define the member groups you would like to send a message. When selecting coaches or participants, choose in a second step whether you wish to address all
 members, or either course or group members. If no box is checked, no mail is
@@ -44,7 +44,7 @@ own subject (mandatory field).
 In addition, the message / subject can be designed with the use of variables
 personal and course-related.
 
-## Use of variables
+## Use of variables [:octicons-tag-16:{ title="from Release 15.4 (OO-5070)" }](https://track.frentix.com/issue/OO-5070){:target="_blank"}
 
 The following variables can be used in the subject and text of the e-mail:
 

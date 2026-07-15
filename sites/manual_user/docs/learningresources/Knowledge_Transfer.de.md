@@ -88,11 +88,11 @@ erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 
 Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).  
 
-##  Kursbaustein "SCORM-Lerninhalt" {: #SCORM_learning_content}
+##  Kursbaustein "SCORM 1.2" {: #SCORM_learning_content}
 
 :fontawesome-solid-box-archive:
 
-Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen Systemen eingebunden werden können. Weitere Informationen zur Konfiguration des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](Course_Element_SCORM_Learning_Content.de.md).
+Über den Kursbaustein "SCORM 1.2" können extern erstellte SCORM-Pakete in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen Systemen eingebunden werden können. Weitere Informationen zur Konfiguration des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM 1.2"](Course_Element_SCORM_Learning_Content.de.md).
 
 ## Kursbaustein "Dokument" {: #document}
 ![icon document](assets/document_icon.jpg)

@@ -8,7 +8,7 @@
 
     If these requirements are met, the additional menu item "Lectures" is displayed in the coaching tool.
 
-    See also [Absence management](../learningresources/Lectures_and_absences.md)
+    See also [Absence management](../learningresources/Events_and_absences.md)
 
 
 ![coaching_lektionen0_v1_de.png](assets/coaching_lektionen0_v1_de.png){ class="shadow lightbox" }
@@ -26,7 +26,7 @@ Via the displayed overview and a click on the respective course, the teacher has
 
 ### 2. Tab Lectures
 
-A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found [here](../learningresources/Lectures_Teacher_view.md).
+A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found here.
 
 ### 3. Tab Absences
 

@@ -89,11 +89,11 @@ can create the CP externally, for example with [eLML](http://www.elml.org
 Further information on the CP can be found
 [here](../learningresources/CP_Editor.md).
 
-##  Course Element: SCORM Learning Content {: #SCORM_learning_content}
+##  Course Element: SCORM 1.2 {: #SCORM_learning_content}
 
 :fontawesome-solid-box-archive:
 
-Using the course element "SCORM Learning Content", externally created SCORM packages can be integrated into OpenOlat courses. SCORM is a standard with which content as well as interactive e-learning modules can be encapsulated and integrated into different systems. Further information on the configuration of the course element SCORM can be found in the chapter "[Course element: SCORM learning content](Course_Element_SCORM_Learning_Content.md)".
+Using the course element "SCORM 1.2", externally created SCORM packages can be integrated into OpenOlat courses. SCORM is a standard with which content as well as interactive e-learning modules can be encapsulated and integrated into different systems. Further information on the configuration of the course element SCORM can be found in the chapter "[Course element: SCORM 1.2](Course_Element_SCORM_Learning_Content.md)".
 
 ## Course Element: Document {: #document}
 

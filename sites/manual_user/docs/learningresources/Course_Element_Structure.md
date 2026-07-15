@@ -72,7 +72,7 @@ Further information on the tab can be found [here](../learningresources/Learning
 
 #### Tab Score  {: #score}
 
-Conventional courses have the "Points" tab. Here points that were collected in other assessable OpenOlat course elements (e.g. _assessment_, _group/assignment, SCORM learning content, checklist, LTI page, portfolio task_, _test_ ) be added up and a pass/fail result displayed. The summarized results appear when you click on the course element _Structure_ in the current course.
+Conventional courses have the "Points" tab. Here points that were collected in other assessable OpenOlat course elements (e.g. _assessment_, _group/assignment, SCORM 1.2, checklist, LTI page, portfolio task_, _test_ ) be added up and a pass/fail result displayed. The summarized results appear when you click on the course element _Structure_ in the current course.
 
 The following settings are possible:
 

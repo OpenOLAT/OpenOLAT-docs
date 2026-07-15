@@ -10,7 +10,7 @@
     * [Dokumentenpool](Modules_Document_pool.de.md)
     * [Fragenpool](../../manual_user/area_modules/Question_Bank.de.md)
     * [ePortfolio](eAssessment_ePortfolio.de.md)
-    *  Katalog [Catalog](../Modules_Catalog_2.0.de.md)
+    *  Katalog [Catalog](Modules_Catalog_2.0.de.md)
 
 ![modules_taxonomy_entry_v1_de](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" }
 

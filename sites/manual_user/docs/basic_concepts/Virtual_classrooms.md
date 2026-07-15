@@ -5,6 +5,8 @@ communication and content mediation.  They are suitable for online
 presentations, webinars, video conferences, online workshops, virtual group
 work, etc.
 
+ :octicons-device-camera-video-24: **Video introduction**: [Virtual classrooms at a glance](<https://www.youtube.com/embed/tTAujHOKnRs>){:target="_blank"}
+
 In OpenOlat different virtual classrooms, also known as web conferencing
 tools, can be integrated. As a rule, an OpenOlat-wide license and an
 appropriate hosting server are required to use these systems. If this is the
@@ -17,9 +19,11 @@ tools:
 
   * [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md)
   * [BigBlueButton](../learningresources/Course_Element_BigBlueButton.md)
+    * [Frequently asked questions - BigBlueButton](../learningresources/Frequentyl_asked_questions_BigBlueButton.md)
   * [GoTo Meeting](../learningresources/Course_Element_GoToMeeting.md)
   * [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md)
   * [Vitero](../learningresources/Course_Element_vitero.md)
+  * [Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.md)
 
 Typically, the following functions are available in virtual classrooms:
 

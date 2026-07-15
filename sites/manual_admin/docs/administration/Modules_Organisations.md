@@ -1,10 +1,8 @@
 # Module Organisations {: #organisations}
 
-##  Activation of the organizational structures
-
 The Organizations module is optionally available in OpenOlat and must be activated in the administration. 
 
-!!! hint "Activation"
+!!! tip "Activation"
 	
 	Customers of frentix please contact
 	[contact@frentix.com](mailto:contact@frentix.com) for this. After activation, various additional settings can be made for the system-wide configuration. For systems with the fx-Release, these adjustments are made by frentix.

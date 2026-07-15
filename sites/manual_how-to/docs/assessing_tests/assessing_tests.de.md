@@ -262,7 +262,7 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 [Das Bewertungsformnular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
-[Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#korrektur-workflow)<br>
+[Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
 
 [zum Seitenanfang ^](#assessing_tests)

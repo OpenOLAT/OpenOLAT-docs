@@ -1,6 +1,6 @@
 # Coaching - Overview {: #coaching}
 
-## What is the Coaching Tool for? {: #purpose}
+## What is the Coaching Tool for? [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #purpose}
 
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
@@ -50,7 +50,7 @@ Whether the coaching tool is displayed in the main menu depends on other factors
 ---
 
 
-## Who typically uses the Coaching tool? {: #users}
+## Who typically uses the Coaching tool? [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #users}
 
 The coaching tool is used by
 

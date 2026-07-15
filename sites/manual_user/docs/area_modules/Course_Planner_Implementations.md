@@ -2,7 +2,7 @@
 
 ![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
 
-## What is an implementation? {: #definition}
+## What is an implementation? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
 
 An educational program/product (consisting of one or more courses) can be offered and carried out several times. Each implementation can take place on a different date and different participants are then present at each implementation.
 
@@ -17,7 +17,7 @@ From this conceptual idea, the same courses are generally assigned and used in e
 ---
 
 
-## The list of implementations {: #listing}
+## The list of implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #listing}
 
 If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
@@ -36,7 +36,7 @@ The individual column selector can also be used to show the **Subjects** and **S
 
 ---
 
-## Navigation the implementations {: #navigation}
+## Navigation the implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
 
 Once you have selected and opened an implementation in the list, the tabs shown allow you to make all settings for this implementation.
 
@@ -59,7 +59,7 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 
 
-### Tab Overview {: #tab_overview}
+### Tab Overview [:octicons-tag-16:{ title="from Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
 The "Overview" tab shows you the members, the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
 
@@ -74,7 +74,7 @@ The **Content** and **Catalog** widgets also show an icon in the title as well a
 ---
 
 
-### Tab Structure {: #tab_structure}
+### Tab Structure [:octicons-tag-16:{ title="from Release 20.0 (OO-8634)" }](https://track.frentix.com/issue/OO-8634){:target="_blank"} {: #tab_structure}
 
 In the displayed tree structure, each individual element of the implementation can be edited or information about it can be queried.
 
@@ -165,7 +165,7 @@ The templates for course content in Course Planner do not have independent membe
 
 ---
 
-### Tab members {: #tab_members}
+### Tab members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
 ![course_planner_implementations_tab_members_v1_de.png](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
@@ -325,7 +325,7 @@ Separate settings can be made here for each implementation:
 ---
 
 
-### Tab Absences {: #tab_absences}
+### Tab Absences [:octicons-tag-16:{ title="from Release 20.0 (OO-8442)" }](https://track.frentix.com/issue/OO-8442){:target="_blank"} {: #tab_absences}
 
 This tab only appears if absences have been activated on the element.
 
@@ -356,7 +356,7 @@ You will then find the Excel files created in this way listed at the bottom of t
 ---
 
 
-## Copy an implememtation {: #copy}
+## Copy an implememtation [:octicons-tag-16:{ title="from Release 20.0 (OO-8418)" }](https://track.frentix.com/issue/OO-8418){:target="_blank"} {: #copy}
 
 You will find the option to copy in the list of executions at the end of a line under the 3 dots.
 
@@ -392,7 +392,7 @@ In the overview of the elements, the **"#To-dos"** column shows how many to-dos 
 
 ---
 
-## Delete an implementation {: #delete}
+## Delete an implementation [:octicons-tag-16:{ title="from Release 20.0 (OO-8354)" }](https://track.frentix.com/issue/OO-8354){:target="_blank"} {: #delete}
 
 You will also find the option to delete in the list of executions at the end of a line under the 3 dots.
 

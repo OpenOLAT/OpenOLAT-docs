@@ -91,11 +91,13 @@ Course planners work with the "All" view, which shows the active products. Admin
 ---
 
 
-## Import product {: #import_product}
+## Import and export products {: #import_product}
 
-If you want to use an existing product for your planning, you can also import products. To do this, click on the three dots next to the ‘Create product’ button.
+Products, implementations and memberships can also be imported or exported via an Excel file. The import wizard checks the data in several steps and shows exactly what will be newly created, changed or ignored before execution [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
-![course_planner_product_import_v1_de.png](assets/course_planner_product_import_v1_de.png){ class="shadow lightbox" }  
+!!! note "Import / Export"
+
+    A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export.md).  
 
 [To the top of the page ^](#products)
 

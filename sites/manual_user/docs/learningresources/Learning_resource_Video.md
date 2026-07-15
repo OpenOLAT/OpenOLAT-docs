@@ -218,7 +218,7 @@ Chapters can then be edited and deleted. Furthermore, the chapters are visible i
 
 ![lernressource_video.png](assets/Video-Editor_Kapitel.png)
 
-### Annotations
+### Video editor: Annotations :octicons-tag-16:{ title="from Release 17.2 (OO-6344)" } {: #video_annotation}
 
 In addition to the chapter markers, further annotations and comments can also be stored at any point in the video, e.g. to highlight particularly important points or to supplement certain aspects. In addition to text, links can also be set that lead, for example, to further information or additional videos.
 
@@ -226,7 +226,7 @@ In addition to the chapter markers, further annotations and comments can also be
 
 Select the place where the annotation should be added and define the further settings, such as the duration, the position where the annotation should appear and of course the text to be displayed. The annotation blocks can be flexibly moved by drag&drop.
 
-### Video editor: Segments  {: #video_segments}
+### Video editor: Segments  :octicons-tag-16:{ title="from Release 17.2 (OO-6598)" } {: #video_segments}
 
 Segments are specific sections of a video that are assigned to, for example, an overarching theme or structure. Segments are particularly relevant in courses for the "Video" and "Video Assignment" course blocks, where they can be displayed and used.
 
@@ -270,7 +270,7 @@ b) Instructors define different phases of a process and label them as segments. 
 c) When watching a video recording of a kindergarten scene, a job interview, or other real-life footage, the goal is to identify specific typical aspects or mistakes.  
 
 
-### Video editor: Comments {: #video_comments}
+### Video editor: Comments :octicons-tag-16:{ title="from Release 17.2 (OO-6766)" } {: #video_comments}
 
 Comments can be placed specifically at a certain point in the video and, for example, highlight important key statements of the video, provide supplementary information on the topic or notes on the following video section. The comment is marked with the name of the person who created it.
 

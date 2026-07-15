@@ -14,7 +14,7 @@ Specialty / Note |
 
 Use the "CP Learning Content" course component to embed learning content in the IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create the CP directly in OpenOlat, as explained in the chapter "[How do I create a Content Package?](../../manual_how-to/content_package/content_package.md)", or you can create it externally.
 
-## Tab Lerninhalt {: #tab_learning_content}
+## Tab Learning content :octicons-tag-16:{ title="New edition from Release 16.2" } {: #tab_learning_content}
 
 In the Course Editor, the "CP Learning Content" course element is displayed as a single course element whose content (the Content Package) can be created, edited, or replaced.
 

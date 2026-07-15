@@ -224,7 +224,11 @@ Activate the e-mail confirmation if you want to confirm the submission of the te
 
 For the mail text you can use the template and a preset subject with the title of the test course module in the subject. Alternatively, the template and the subject can also be changed. In this case, select "Template" -> "Custom Text" to edit or completely change the mailing text.
 
-You can also use different variables such as name or score in the mail text. For more information on using variables in mailing texts, see [here](Course_Element_EMail.md#use-of-variables).
+You can also use different variables such as name or score in the mail text.
+
+!!! note "Variables in mailing texts"
+    More information on using variables in mailing texts.<br>
+    [Learn more](Course_Element_EMail.md#use-of-variables)
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
@@ -232,7 +236,11 @@ You can also use different variables such as name or score in the mail text. For
 
 ### Tab "Reminders" {: #tab_reminders}
 
-Here, reminder e-mails can be configured according to certain criteria. More information about sending reminders can be found [here](../learningresources/Course_Reminders.md).
+Here, reminder e-mails can be configured according to certain criteria.
+
+!!! note "Reminders"
+    More information about sending reminders.<br>
+    [Learn more](../learningresources/Course_Reminders.md)
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)

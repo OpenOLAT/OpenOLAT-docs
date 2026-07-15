@@ -78,7 +78,7 @@ Videos can be used in OpenOlat...
 * [Video Upload](Video_Upload.md)
 * [Video Recording](Video_Recording.md)
 
-* [Learning resource video](Learning_resource_Video.md) and [Video collection](Learning_resource_Video.md#video-collection)
+* [Learning resource video](../learningresources/Learning_resource_Video.md) and [Video collection](../learningresources/Learning_resource_Video.md#video-collection)
 * Videos in [Media Center](../personal_menu/Media_Center.md)
 
 ### Videos in courses:

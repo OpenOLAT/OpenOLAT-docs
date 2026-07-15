@@ -301,7 +301,7 @@ authors' names you will get to their visiting cards to contact them.
 
 !!! info "Info"
 
-    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab Administration of participants or appoint other users to persons responsible for your topic.  
+    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab Administration of users or appoint other users to persons responsible for your topic.  
   
 * **Description:** 
 
@@ -377,7 +377,7 @@ already.
 
     Please keep in mind that the last two buttons will only be visible if the course author has provided the Topic assignment with the option to accept participants manually.
 
-### "Folder" and "Administration of participants" tabs
+### "Folder" and "Administration of users" tabs
 
 ####  **How to manage participants**
 
@@ -389,7 +389,7 @@ somebody has applied for your topic.
 ![assignment_participants.png](assets/Topic_Assignement_TN_EN.png)
 ![assignment_participants.png](assets/Topic_Assignement_TN2_EN.png)
 
-Now open the tab "**Topic assignment**" and accept the application of your
+Now open the tab "**Administration of users**" and accept the application of your
 candidate(s).
 
 Candidates are course participants applying for your topic. By means of

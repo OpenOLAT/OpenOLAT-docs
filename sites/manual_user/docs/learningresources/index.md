@@ -157,7 +157,7 @@ Further information on the [creation](../learningresources/Glossary_create.md) a
 In addition to the learning resources that are created directly in OpenOlat, there are other learning resources that are created by uploading.
 
 
-### SCORM Learning Content
+### SCORM 1.2
 :fontawesome-solid-box-archive:
 
 Another standardized e-learning format supported by OpenOlat is the SCORM format (version 1.2). SCORM is short for "Sharable Content Object Reference Model" and a reference model for exchangeable electronic learning content of the ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/).  SCORM learning content is suitable for courses within OpenOlat as well as courses outside. OpenOlat supports this format; therefore your learning content can be applied not only in OpenOlat but also in other LMS.

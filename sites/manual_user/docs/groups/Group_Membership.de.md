@@ -1,6 +1,6 @@
 # Gruppenmitglied werden {: #group_membership}
 
-Es gibt verschieden Möglichkeiten wie Personen Mitglied in einer Gruppe verwenden können. Dabei tauchen folgende Fragen auf: 
+Es gibt verschiedene Möglichkeiten wie Personen Mitglied in einer Gruppe werden können. Dabei tauchen folgende Fragen auf:
 
 **Wer trägt das Mitglied in die Gruppe ein?**
 
@@ -8,7 +8,7 @@ Möglich sind:
 
 1)	Die Person trägt sich selbst ein 
 2)	Der/Die Gruppenbetreuer:in trägt Mitglieder ein
-3)	Administrative Rollen wie Benutzerverwalter:innen, Mitgliederverwalter:innen fügen Personen hinzu  
+3)	Administrative Rollen wie Benutzerverwalter:innen, Mitgliederverwalter:innen fügen Personen hinzu
 4)	Automatische Zuordnung durch ein externes System
 
 **Wo erfolgt die Zuordnung?**
@@ -17,7 +17,7 @@ Möglich sind:
 
 * a)	Direkt in der Gruppe 
 * b)	In einem zur Gruppe zugehörigen Kurs 
-* c)	In weiteren OpenOlat System-Bereichen  
+* c)	In weiteren OpenOlat System-Bereichen
 * d)	Ausserhalb von OpenOlat
 
 Beide Aspekte können wie folgt miteinander kombiniert werden:
@@ -26,7 +26,7 @@ Beide Aspekte können wie folgt miteinander kombiniert werden:
 
 ![group_membership_offer_v1_de.png](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" }
 
-Hierfür muss der/die Gruppenbetreuer:in direkt in der Gruppe unter „Administration“ -> Freigabe“ ein **„Angebot“** hinterlegen. 
+Hierfür muss der/die Gruppenbetreuer:in direkt in der Gruppe unter `Administration > Freigabe` ein **„Angebot“** hinterlegen.
 
 ![Angebot hinzufügen](assets/Gruppe_Freigabe.png){ class="shadow lightbox" }
 
@@ -45,7 +45,7 @@ Gruppen mit Angeboten finden Benutzer:innen unter “Veröffentlichte Gruppen”
 
 **Überbuchung** {: #overbooking}
 
-Wurde die Gruppengrösse begrenzt, können Teilnehmer:innen, die sich in eine Gruppe eintragen wollen, in der schon alle Plätze besetzt sind, auf eine Warteliste genommen werden. (Siehe [Gruppen erstellen](Create_Groups.de.md#vorgesehene-anzahl-teilnehmende)).
+Wird die Gruppengrösse begrenzt, können Teilnehmer:innen, die sich in eine Gruppe eintragen wollen, in der schon alle Plätze besetzt sind, auf eine Warteliste genommen werden. (Siehe [Gruppen erstellen](Create_Groups.de.md#vorgesehene-anzahl-teilnehmende)).
 
 Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
@@ -98,7 +98,7 @@ Gruppen können auch mit Kursen verbunden sein. Ist dies der Fall können Kursbe
 
 Über den angezeigten Gruppennamen gelangt man zur Gruppe und kann dann wie unter 2a) beschrieben als Gruppenbetreuer:in Personen hinzufügen. 
 
-Eine andere Möglichkeit im Kurs ist der Weg über die Mitgliederliste des Kurses (Mitgliederverwaltung -> **Mitglieder**). Hier kann man eine oder mehrere Kurs-Mitglieder kursspezifischen Gruppen zuordnen.  
+Eine andere Möglichkeit im Kurs ist der Weg über die Mitgliederliste des Kurses: `Mitgliederverwaltung > Mitglieder`. Hier kann man eine oder mehrere Kurs-Mitglieder kursspezifischen Gruppen zuordnen.  
 
 ![Mitglied bearbeiten](assets/Mitglied_bearbeiten_Gruppe.png)
 
@@ -117,7 +117,7 @@ Die Änderungen werden anschliessend zur Überprüfung noch mal angezeigt und ei
 
 Auch bestimmte Personen, die nicht selbst Gruppenbetreuer:in einer Gruppe sind können Gruppenmitglieder auf administrativer Ebene Gruppen hinzufügen. Hierzu zählen Personen mit der OpenOlat Rolle Gruppenverwalter:in und Benutzervewalter:in bzw. OpenOlat Administrator:innen mit Zugriff auf diese Bereiche. 
 
-### Gruppenmitgliedschaft in der Benutzerverwaltung hinzufügen {: #add_groupmembers_in usermanagement}
+### Gruppenmitgliedschaft in der Benutzerverwaltung hinzufügen {: #add_groupmembers_in_usermanagement}
 
 Benutzerverwalter:innen können nach Aufruf der Kartei einer bestimmten Person im Tab „Gruppen“  die vorhandenen Gruppenmitgliedschaften einsehen und neue hinzufügen. 
 

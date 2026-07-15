@@ -36,7 +36,7 @@ also define an enrollment date and a deadline.
   
   
 Optional: If you want to appoint additional tutors for your topic just
-click on "Add user(s)" in the tab "Administration of participants," section
+click on "Add user(s)" in the tab "Administration of users," section
 "Topic authors" before selecting the person required.
 
 ![](assets/chooseresponsible.gif)  
@@ -51,7 +51,7 @@ course participant applies for your topic.
 ### Step 2: Manage participants  
 
 a) Click on the title of your topic in the topic overview before going to the
-tab "Administration of participants."
+tab "Administration of users."
 
 ![](assets/participants.gif)  
   

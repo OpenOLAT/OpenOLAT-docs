@@ -1,6 +1,6 @@
 # Media Center Concept {: #media_center_concept}
 
-## Functions {: #functions}
+## Functions [:octicons-tag-16:{ title="from Release 19.1 (OO-8156)" }](https://track.frentix.com/issue/OO-8156){:target="_blank"} {: #functions}
 
 The Media Center is a **central collection point** for different types of media.
 
@@ -24,7 +24,7 @@ Media can be...
 ---
 
 
-## Access {: #access}
+## Access [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #access}
 
 The Media Center is initially an individual, personal area and can therefore also be found in the **personal menu**.
 
@@ -44,7 +44,7 @@ Administrative users, such as learning resource managers and administrators, hav
 ---
 
 
-## Types of Media {: #media_types}
+## Types of Media [:octicons-tag-16:{ title="from Release 18.1 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #media_types}
 
 Different **file formats** and **content elements** are stored in the media center.
 
@@ -67,7 +67,7 @@ Different **file formats** and **content elements** are stored in the media cent
 ---
 
 
-## Add media to the Media center {: #add_media}
+## Add media to the Media center [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
 ![media_center_concept_add_media_v1_de.png](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" } 
 
@@ -79,7 +79,7 @@ There are various ways to store media in the Media center:
 * **Add video via URL**: Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
 * **Add citation:**  Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and comprehensively.
 
-### Create new media directly in the Media Center {: #create_in_media_center}
+### Create new media directly in the Media Center [:octicons-tag-16:{ title="from Release 18.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"} {: #create_in_media_center}
 
 * **Create document:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
 * Create **draw.io diagram**: Creates a diagram, flowchart or drawing with the draw.io tool [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
@@ -122,7 +122,7 @@ A page will then appear where you can enter the title, tags and a description fo
 
 
 
-### Share with others {: #share}
+### Share with others [:octicons-tag-16:{ title="from Release 18.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #share}
 
 When you add a media file to Media Center, you have the option to share it with other people (co-users).
 
@@ -157,7 +157,7 @@ Media uploaded to the Media Center always belong to one owner. When the owner de
 
 ---
 
-### Quota
+### Quota [:octicons-tag-16:{ title="from Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"}
 
 The storage space available in the Media Center can be limited by the OpenOlat administrator. You can see exactly how much storage space you have available and how much you have already used at the bottom left.
 
@@ -175,7 +175,7 @@ Authors usually require more storage space, so quota settings are configured sep
 ---
 
 
-## Use media {: #usage}
+## Use media [:octicons-tag-16:{ title="from Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
 And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the Content Editor, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
@@ -194,7 +194,7 @@ The **filter functions** help you to find the media you are looking for quickly.
 ---
 
 
-## Manage Media Center {: #media_center_administration}
+## Manage Media Center [:octicons-tag-16:{ title="from Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
 When accessing the Media Center, persons with administrative access (e.g. administrators) have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except your own are listed there. (Users without administrative access will not see this tab.)
 

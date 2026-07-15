@@ -264,7 +264,7 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 [The assessment form >](../../manual_user/learningresources/The_assessment_form.md)<br>
 [Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
-[Correction workflow >](../../manual_user/learningresources/Test_settings.md#korrektur-workflow)<br>
+[Correction workflow >](../../manual_user/learningresources/Test_settings.md#correction-workflow)<br>
 [How do you grade an anonymous test in OpenOlat?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
 
 [To the top of the page ^](#assessing_tests)

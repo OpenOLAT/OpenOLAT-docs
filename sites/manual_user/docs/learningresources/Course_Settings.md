@@ -67,7 +67,7 @@ Metadata of a course are
 Here you can
 
 * define the implementation period of the course,
-* switch on the "[Lesson and absence management](../learningresources/Lectures_and_absences.md)" and configure it further (if activated by the administrator),
+* switch on the "[Lesson and absence management](../learningresources/Events_and_absences.md)" and configure it further (if activated by the administrator),
 * convert existing conventional courses into learning path courses
 * or for [Learning_path_courses](Learning_path_course.md) define how the learning progress is calculated, based on the number of course elements or on the duration of the course elements.
 

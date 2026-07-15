@@ -179,7 +179,7 @@ Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch f�
 
 !!! note "Gastzugang"
     Informationen zum Gastzugang in OpenOlat.<br>
-    [Gastzugang](../learningresources/Access_Roles_and_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
+    [Gastzugang](../basic_concepts/Roles_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
 
 Der Gastlink erscheint dann ebenfalls für Kursbesitzer und Betreuer bevor sie den Raum beteten.
 Zusätzlich kann während der Konfiguration des Raums ein Passwort für Gäste generiert werden.

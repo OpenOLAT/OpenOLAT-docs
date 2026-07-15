@@ -15,7 +15,7 @@ The following course elements serve in particular to provide and structure cours
 * [:fontawesome-regular-file-lines: HTML-Page](Course_Element_HTML_Page.md)
 * [:fontawesome-solid-up-right-from-square: External Page](Course_Element_External_Page.md)
 * [:fontawesome-solid-box-archive: CP Learning Content](Course_Element_CP_Learning_Content.md)
-* [:fontawesome-solid-box-archive: SCORM Learning Content](Course_Element_SCORM_Learning_Content.md)
+* [:fontawesome-solid-box-archive: SCORM 1.2](Course_Element_SCORM_Learning_Content.md)
 * [:fontawesome-regular-file: Document](Course_Element_Document.md)
 * [:fontawesome-regular-folder-open: Folder](Course_Element_Folder.md)
 * [:fontawesome-solid-video: Podcast](Course_Element_Podcast.md)

@@ -37,7 +37,7 @@ definieren.
 ![Themenvergabe konfigurieren ](assets/Themenvergabe_konfigurieren.jpg)  
   
 e) Optional: Wenn Sie weitere Betreuer für Ihr Thema bestimmen möchten,
-klicken Sie im Tab „Teilnehmerverwaltung“ unter „Verantwortliche des Themas“
+klicken Sie im Tab „Verwaltung Benutzer:innen“ unter „Verantwortliche des Themas“
 auf „Benutzer hinzufügen“ und wählen die gewünschte Person aus.
 
 ![](assets/chooseresponsible.gif)  
@@ -49,7 +49,7 @@ Wenn Sie die Checkbox „E-Mail-Benachrichtigung bei Themen Auswahl/Abwahl“ in
 ### Schritt 2: Teilnehmer verwalten  
 
 a) In der Themenübersicht auf den Titel Ihres Themas klicken und in den Tab
-„Teilnehmerverwaltung“ wechseln|
+„Verwaltung Benutzer:innen“ wechseln|
 
 ![](assets/participants.gif)  
   

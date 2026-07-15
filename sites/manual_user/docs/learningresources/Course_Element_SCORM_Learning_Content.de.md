@@ -1,4 +1,4 @@
-# Kursbaustein "SCORM"
+# Kursbaustein "SCORM 1.2"
 ### Rename zu SCORM1.2 [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"} {: #course_element_scorm}
 
 ## Steckbrief {: #profile}
@@ -11,7 +11,7 @@ Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeu
 Bewertbar | ja
 Spezialität / Hinweis |
 
-SCORM steht für "Shareable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM" können SCORM-1.2-Lerninhalte in OpenOlat-Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden. Der als Lernressource verwendete Lerninhalt selbst heisst dabei "SCORM 1.2".
+SCORM steht für "Shareable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM 1.2" können SCORM-1.2-Lerninhalte in OpenOlat-Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden. Der als Lernressource verwendete Lerninhalt selbst heisst dabei "SCORM 1.2".
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
@@ -33,7 +33,7 @@ Als Besitzer:in haben Sie im Vergleich zu Betreuer:innen im Run-Mode zusätzlich
 
 ## Bearbeitung im Editor {: #editor}
 
-Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
+Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
 
 ### Tab "Lerninhalt" {: #editor_tab_learning_content}
 
@@ -92,7 +92,7 @@ Korrekt erstellte SCORM-Pakete können bestimmte Parameter (Punkte, Bestanden, .
 **Passed übertragen:** Es wird nur ein vom SCORM-Paket gemeldetes "Bestanden" oder "Nicht bestanden" von OpenOlat übernommen, eine dafür zugrunde liegende Punktezahl ist nicht relevant. Entsprechend ist bei dieser Option auch eine Angabe der maximalen oder notwendigen Punktzahl obsolet und wird nicht angezeigt.
 
 ![8_green_24.png](assets/8_green_24.png) **Maximal erreichbare Punkte**<br>
-Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier ein Maximum angegeben werden. Diese Begrenzung ist erforderlich, wenn im SCORM-Lerninhalte z.B. sehr viel mehr Punkte vergeben werden, als im OpenOlat-Kurs. Wenn dann die Option "Bei Kursbewertung berücksichtigen" gewählt ist, könnte der Kursbaustein "SCORM-Lerninhalt" unverhältnismässig hohes Gewicht bekommen.  
+Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier ein Maximum angegeben werden. Diese Begrenzung ist erforderlich, wenn im SCORM-Lerninhalte z.B. sehr viel mehr Punkte vergeben werden, als im OpenOlat-Kurs. Wenn dann die Option "Bei Kursbewertung berücksichtigen" gewählt ist, könnte der Kursbaustein "SCORM 1.2" unverhältnismässig hohes Gewicht bekommen.  
 
 ![9_green_24.png](assets/9_green_24.png) **Notwendige Punktzahl für "bestanden"**<br>
 Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier mit einem ganzzahligen Wert festgelegt werden, wieviele Punkte ereicht sein müssen, damit der Kursbaustein als bestanden gilt. 

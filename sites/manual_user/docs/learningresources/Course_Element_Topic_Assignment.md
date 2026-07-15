@@ -210,6 +210,8 @@ You may not see all of the things listed because your instructor is not using al
 
 Click on a topic to get more information about it:
 
+### Topic details
+
 **Topic**: In the title the name of the subject is listed.
 
 **Responsible**: The people responsible for the topics are listed here. If you click on the name of the person responsible for the topic, you will get to his business card and you can contact him.

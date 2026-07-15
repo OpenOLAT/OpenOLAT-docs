@@ -19,7 +19,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 * [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_HTML_Page.de.md)
 * [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
 * [:fontawesome-solid-box-archive: CP-Lerninhalt](Course_Element_CP_Learning_Content.de.md)
-* [:fontawesome-solid-box-archive: SCORM-Lerninhalt](Course_Element_SCORM_Learning_Content.de.md)
+* [:fontawesome-solid-box-archive: SCORM 1.2](Course_Element_SCORM_Learning_Content.de.md)
 * [:fontawesome-regular-file: Dokument](Course_Element_Document.de.md)
 * [:fontawesome-regular-folder-open: Ordner](Course_Element_Folder.de.md)
 * [:fontawesome-solid-video: Podcast](Course_Element_Podcast.de.md)

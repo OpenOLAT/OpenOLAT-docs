@@ -150,7 +150,7 @@ Weitere Infos zur [Erstellung](../learningresources/Glossary_create.de.md) und [
 Neben den Lernressourcen, die direkt in OpenOlat erstellt werden gibt es noch weitere Lernressourcen die durch Upload angelegt werden.
   
 
-### SCORM-Lerninhalt
+### SCORM 1.2
 :fontawesome-solid-box-archive:
 
 Ein standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird, ist das SCORM-Format (Version 1.2). SCORM steht für "Sharable Content Object Reference Model" und ist ein Referenzmodell für austauschbare elektronische Lerninhalte der ["Advanced Distributed Learning Initiative"(ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte eignen sich für die Verwendung in OpenOlat-Kursen oder ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Sie Ihre Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS verwenden können.

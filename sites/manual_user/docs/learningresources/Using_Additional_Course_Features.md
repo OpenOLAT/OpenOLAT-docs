@@ -106,4 +106,4 @@ If you only want to give certain people, e.g. the participants of a course, the 
 
     The owners of a course are not automatically also owners of the learning resource.  If someone else has created a learning resource "Glossary" he/she will not automatically become owner of the course in which that resource has been integrated. In order to enable other course owners to make modifications you have to set up one of the described permissions or you have to enter the desired course owners as owners of the learning resource "Glossary".
 
-Furthermore, the links to the "[course info](../learningresources/Set_up_info_page.md)" and to the "[Lectures](../learningresources/Lectures_Teacher_view.md)" appear in the course toolbar.  
+Furthermore, the links to the "[course info](../learningresources/Set_up_info_page.md)" and to the "Lectures" appear in the course toolbar.  

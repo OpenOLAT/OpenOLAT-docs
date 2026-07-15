@@ -1,4 +1,4 @@
-# Course Element "SCORM"
+# Course Element "SCORM 1.2"
 ### Rename to SCORM1.2 [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"} {: #course_element_scorm}
 
 ## Profile {: #profile}
@@ -11,7 +11,7 @@ Purpose | Integration of SCORM packages, created with other authoring tools
 Assessable | yes
 Specialty / Note | 
 
-SCORM stands for “Shareable Content Object Reference Model” and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM" course element allows SCORM 1.2 learning content to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool. The learning resource used as the content itself is called "SCORM 1.2".
+SCORM stands for “Shareable Content Object Reference Model” and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM 1.2" course element allows SCORM 1.2 learning content to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool. The learning resource used as the content itself is called "SCORM 1.2".
 
 ## Coach view {: #coach_view}
 
@@ -33,7 +33,7 @@ As an owner, you also have the option to set up reminders, unlike coaches in Run
 
 ## Editing in the editor {: #editor}
 
-As a course owner, you can create and edit the “SCORM” course object just like any other course object by opening the **Course Editor** under **Administration**. You can then configure the settings further using the tabs.
+As a course owner, you can create and edit the “SCORM 1.2” course object just like any other course object by opening the **Course Editor** under **Administration**. You can then configure the settings further using the tabs.
 
 
 ### "Learning Content" tab {: #editor_tab_learning_content}
@@ -90,7 +90,7 @@ Properly created SCORM packages can transfer certain parameters (points, pass/fa
 **Transfer Pass/Fail:** OpenOlat only adopts the "Pass" or "Fail" status reported by the SCORM package; the underlying score is irrelevant. Accordingly, specifying a maximum or required score is unnecessary with this option and will not be displayed.
 
 ![8_green_24.png](assets/8_green_24.png) **Maximum possible points**<br>
-If a score is transferred to OpenOlat, a maximum score can be specified here. This limit is necessary if, for example, the SCORM learning content awards significantly more points than the OpenOlat course. If the option “"nclude in course assessment" is selected, the "SCORM learning content" course element could be given disproportionately high weight.  
+If a score is transferred to OpenOlat, a maximum score can be specified here. This limit is necessary if, for example, the SCORM learning content awards significantly more points than the OpenOlat course. If the option “"nclude in course assessment" is selected, the "SCORM 1.2" course element could be given disproportionately high weight.  
 
 ![9_green_24.png](assets/9_green_24.png) **Necessary score for "Passed"**<br>
 When a score is submitted to OpenOlat, you can use an integer value here to specify the minimum number of points required for the course module to be considered passed. 
