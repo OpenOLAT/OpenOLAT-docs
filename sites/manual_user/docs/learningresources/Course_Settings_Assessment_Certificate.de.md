@@ -40,14 +40,16 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
 ### Zertifikatsvorlage erstellen {: #certificate_template}
 
-Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese im Kurs unter **Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage** hochladen.
+Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese im Kurs unter `Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage` hochladen.
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Wenn Sie den Button "**Vorschau**" verwenden, wird Ihnen immer nur ein Dummy angezeigt.
     In einer Vorschau werden grundsätzlich nur Dummy-Daten verwendet und keine echten Werte aus der Datenbank. Es steht z.B. überall das aktuelle Datum. Es soll gar nicht der Eindruck entstehen, dass das ein echtes Zertifikat sein könnte. Eine Vorschau muss absichtlich und offensichtlich falsch sein.
 
 Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt werden, um Layout und Variablen zu gewährleisten.
+
+Die mitgelieferte Standardvorlage ist HTML-basiert und schlicht gehalten. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
 Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank”} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank”} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
@@ -136,9 +138,20 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       * $custom2
       * $custom3
 
-Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [support@frentix.com](mailto:support@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
+Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [contact@frentix.com](mailto:contact@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
 [Zum Seitenanfang ^](#certificate_and_recertification})
+
+---
+
+
+### Druckversion für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568) {: #print_template}
+
+Manche Institutionen drucken Zertifikate auf hochwertiges, vorgedrucktes Papier, das Hintergrund, Grafiken oder Prägungen bereits enthält. Für diesen Fall aktivieren Sie mit der Option **"Mit Druckversion"** eine zusätzliche **Druckvorlage**, die nur die variablen Inhalte ohne die vorgedruckten Elemente enthält.
+
+Ist die Druckversion aktiviert, können Kursbesitzer:innen und berechtigte Betreuer:innen zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren** (einzeln, als Sammelaktion oder über das Aktionsmenü). Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
+
+[Zum Seitenanfang ^](#certificate_and_recertification)
 
 ---
 
