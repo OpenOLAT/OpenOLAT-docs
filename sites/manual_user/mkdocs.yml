@@ -160,7 +160,7 @@ nav:
         - The portfolio editor: "area_modules/The_portfolio_editor_17_1.md"
     - Course Planner:
         - Overview:
-          - "area_modules/Course_Planner.md"
+          - Introduction: "area_modules/Course_Planner.md"
           - Application map (concept study): "area_modules/Course_Planner_Map.md"
         - Dashboard: "area_modules/Course_Planner_Dashboard.md"
         - Products: "area_modules/Course_Planner_Products.md"
@@ -169,8 +169,9 @@ nav:
         - Events: "area_modules/Course_Planner_Events.md"
         - Certification programs: "area_modules/Course_Planner_Certification_Programs.md"
         - Reports:
-          - Overview: "area_modules/Course_Planner_Reports.md"
-          - Booking order reports: "area_modules/Reports_BookingOrders.md"
+          - Overview:
+            - Introduction: "area_modules/Course_Planner_Reports.md"
+            - Booking order reports: "area_modules/Reports_BookingOrders.md"
         - To-dos: "area_modules/Course_Planner_Todos.md"
     - Absence Management: "area_modules/Absence_Management.md"
     - Quality Management:
@@ -269,7 +270,7 @@ nav:
       - HTML Page: "learningresources/Course_Element_HTML_Page.md"
       - External Page: "learningresources/Course_Element_External_Page.md"
       - CP learning content: "learningresources/Course_Element_CP_Learning_Content.md"
-      - SCORM Learning Content: "learningresources/Course_Element_SCORM_Learning_Content.md"
+      - SCORM 1.2: "learningresources/Course_Element_SCORM_Learning_Content.md"
       - Document: "learningresources/Course_Element_Document.md"
       - Folder: "learningresources/Course_Element_Folder.md"
       - Podcast: "learningresources/Course_Element_Podcast.md"
