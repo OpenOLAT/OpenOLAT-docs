@@ -43,14 +43,16 @@ Reminders can be triggered based on the certificate's issue date and expiration 
 
 ### Create certificate template {: #certificate_template}
 
-A system-wide PDF template specified by the administrator is usually used as the template for the certificate. If you want to use your own template, you can upload it in the course under **Administration > Settings > Grading > "Certificate" section > Certificate template**.
+A system-wide PDF template specified by the administrator is usually used as the template for the certificate. If you want to use your own template, you can upload it in the course under `Administration > Settings > Grading > "Certificate" section > Certificate template`.
 
-!!! hint "Note"
+!!! note "Note"
 
     When you use the "**Preview**" button, only a dummy will be displayed.
     Only dummy data is used in a preview, not real values from the database. For example, the current date is displayed everywhere. It should not give the impression that this could be a real certificate. A preview must be deliberately and obviously incorrect.
 
 A PDF template is not a normal PDF file, but must be created using HTML to ensure layout and variables.
+
+The default template supplied is HTML-based and kept simple. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
 This [certificate bot](https://tools.vcrp.de/zertifikatsbot/) allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot) with the publicly available code (MIT license) is available.
 
@@ -140,11 +142,22 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       * $custom3
 
 
-If you would like a certificate template, please contact us at [support@frentix.com](mailto:support@frentix.com) for a quote for a template tailored to your individual requirements.
+If you would like a certificate template, please contact us at [contact@frentix.com](mailto:contact@frentix.com) for a quote for a template tailored to your individual requirements.
 
 [To the top of the page ^](#certificate_and_recertification})
 
 ---
+
+### Print version for pre-printed paper [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568) {: #print_template}
+
+Some institutions print certificates on high-value, pre-printed paper that already carries background colours, graphics, or embossed elements. For this case, the **"With print version"** option activates an additional **print template** that contains only the variable content without the pre-printed elements.
+
+If the print version is activated, course owners and authorised coaches can export an additional **print certificate** alongside the standard certificate (individually, as a bulk action, or via the actions menu). Learners continue to receive only the standard certificate.
+
+[To the top of the page ^](#certificate_and_recertification)
+
+---
+
 
 ## Recertification {: #recertification}
 

@@ -25,7 +25,7 @@ You can find the options for this in the sections
 
     The following information refers to learning path courses. For conventional courses, the criteria for passing a course are set in the course editor on the top course element in the "Points" tab, and the result is displayed on the course start page.
 
-There are two settings for course assessments:
+There are the following settings for course assessments:
 
 - **With points** (only with learning path courses) {: #evaluation_with_points}<br>
     Here you can set whether and what type of points are displayed.
@@ -40,7 +40,10 @@ There are two settings for course assessments:
 
     It can be graded with points, even if they are not relevant for passing the course.
 
-- **Mit "passed/didn't pass"**<br>
+- **With levels/grading** (only with learning path courses)<br>
+  If the levels/grading module is enabled, you assign a grade to the course at course level.<br> [Find out more >](#evaluation_with_grades)
+
+- **With success status**<br>
   Here you can set when a course is considered passed. In addition to a certain number of points achieved, other criteria can also lead to a "pass."<br> [Find out more >](#evaluation_passed_failed)
 
 [To the top of the page ^](#tab_assessment)
@@ -74,7 +77,7 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 ### Course evaluation with points: Average {: #evaluation_with_points_average}
 
-!!! hint "Highscore"
+!!! info "Highscore"
 
     The "Highscore" tab of the top course element can only be configured in the course editor if **Total** or **average** has been selected under "Course assessment with points".
 
@@ -84,6 +87,20 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 ---
 
+
+
+### Course assessment with levels/grading [:octicons-tag-16:{ title="ab Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
+
+If the levels/grading module is enabled and the course is graded with **points**, you can use the **"With levels/grading"** option to assign a grade to the course at course level. The course grade is calculated from the sum of the points of the assessable course elements (sum, weighted sum, or average, depending on the selected points setting) and translated into a grade via the selected **grading system**.
+
+If "With levels/grading" is active, the grading system also determines the **success status** of the course: the course is considered passed if the pass condition of the grading system is met. In this case, the "With success status" setting is set accordingly. If the selected grading system has no pass condition, the course has no success status at course level.
+
+The grade is calculated manually: course owners and authorised coaches trigger the calculation in the [assessment tool](Assessment_tool_overview.md) via the action **"assign Levels/Grading"**.
+
+[Find out more about Assessment Settings ^](#section_assessment_settings)<br>
+[To the top of the page ^](#tab_assessment)
+
+---
 
 
 ### Course assessment with "Passed/Failed" {: #evaluation_passed_failed}
@@ -151,7 +168,7 @@ When credit points are enabled, participants are automatically credited with cre
 As the course owner, you determine how many credits are awarded when this course is passed.<br>
 The validity period of credit points may also be limited. 
 
-!!! hint "Note"
+!!! note "Note"
 
   The awarding of credit points is also important within a certificate program.
 

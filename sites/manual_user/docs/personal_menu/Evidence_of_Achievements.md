@@ -29,7 +29,7 @@ Users can find their certificates of achievement, and if activated also their re
 
 ### Evidence of achievement in the personal tools {: #where_in_pers_tools}
 
-The display in the personal menu is suitable for obtaining a quick overview of all personal evidences of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidences of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Points, Passed, Certificate. 
+The display in the personal menu is suitable for obtaining a quick overview of all personal evidences of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidences of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Points, Passed, Certificate. If the grading module is active, you can additionally show the "Rating" column with the achieved grade; the "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581) 
 
 Activate "ePortfolio" to transfer an evidence of achievement to your [Portfolio](../personal_menu/Portfolio.md). In a first step, the evidence of achievement is added to their personal ["Media Center"](../personal_menu/Media_Center.md) and can be inserted from there as a content element in a portfolio. In this way, compilations of evidences of achievement can be combined for different purposes and also made accessible to specific persons. 
 
