@@ -87,7 +87,7 @@ Die vorgeschlagenen Einstellungen können in der OpenOlat-Systemadministration s
 ![SEB_config_v1_de.png](assets/SEB_config_v1_de.png){ class="shadow lightbox" }
 
 ![1_green_24.png](assets/1_green_24.png) **Typ von Anwendung**<br>
-Wir empfehlen die Konfiguration hier auf dieser Seite in OpenOlat. Prinzipiell ist es aber auch möglich, die Konfigurationsdatei des SEB zu verwenden. Diese kann bei Bedarf mit einem Texteditor angepasst werden. Bei Verwendung der mitgelieferten Konfiguration, müssen in OpenOlat die Safe Exam Browser Keys eingetragen werden. (Mehr dazu auf der [Web Site des Herstellers](http://www.safeexambrowser.org).) Bis auf den Hinweistext erübrigen sich in diesem Fall die nachfolgend aufgelisteten Konfigurationsptionen. 
+Legen Sie fest, wie die SEB-Konfiguration bereitgestellt wird. Mit «SEB-Config (empfohlen)» konfigurieren Sie den SEB direkt in OpenOlat oder über eine importierte SEB-Datei; die Gültigkeit wird über den Config Key sichergestellt. Mit «SEB mit manuellen Keys» verwenden Sie eine benutzerdefinierte SEB-Datei und tragen die Safe Exam Browser Keys in OpenOlat ein. (Mehr dazu auf der [Web Site des Herstellers](http://www.safeexambrowser.org).) In diesem Fall erübrigen sich bis auf den Hinweistext die nachfolgend aufgelisteten Konfigurationsoptionen. Vollständige `.seb-Konfigurationsdateien` lassen sich zudem in der Administration als Vorlage importieren, siehe [Prüfungsverwaltung](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb).
 
 
 ![2_green_24.png](assets/2_green_24.png) **Herunterladbare Konfigurationsdatei**<br>
