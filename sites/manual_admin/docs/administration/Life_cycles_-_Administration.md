@@ -33,6 +33,10 @@ The life cycle of courses can be defined,
 
 Course owners can be automatically informed of any status changes.
 
+### Controlling a running process [:octicons-tag-16:{ title="from Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
+
+A saved change to the lifecycle settings takes effect **immediately** on a process that is already running: the process re-checks the active configuration before each course. This ensures that changed rules take effect immediately. Using the **"Stop process"** button, a running pass can additionally be stopped immediately. This way a corrected setting takes effect right away, even when many courses have already been selected for processing.
+
 [To the top of the page ^](#lifecycles)
 
 

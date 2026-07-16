@@ -149,10 +149,9 @@ This setting defines the order in which roles are prioritized when a member has 
 
 ### Section "Access"
 
-#### Access for course owners/coaches
+#### Access for course owners/coaches [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Anyone who is an owner or coach in a course (a learning resource) can always find that course in the Coaching tool.
-Here you can choose whether such learning resources can also be accessed under "Courses".
+Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which the person themselves is a participant.
 
 
 #### Show notice in "Courses"
@@ -168,3 +167,15 @@ Here (under the Learning resource module) it shows what is configured there rega
 To change the settings, you can switch directly via a link to `Administration > Customizing > Sites` ("Open site settings").
 
 [To the top of the page ^](#learning_resource)
+
+---
+
+### Section Status "Finished" [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+Here you define system-wide what access participants have to a course or a learning resource in the status "Finished". This setting is the default for all courses and can be overridden per course.
+
+* **Read-only:** The content is still available to participants in read-only mode.
+* **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
+
+Course owners set the course-specific override in the course under:<br>
+`Administration > Settings > Options tab`
