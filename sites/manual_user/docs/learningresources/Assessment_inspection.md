@@ -44,6 +44,12 @@ By using the SEB, all other activities on the computer can be blocked during vie
 
 **Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
 
+**Type of use** [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): As in the assessment mode, choose "SEB-Config (recommended)" for the configuration in OpenOlat or via an imported SEB-File (validation via the config key), or "SEB with manual keys" for a custom SEB-File with externally maintained keys.
+
+**Configuration**: Take the settings from a "Template" or adjust them as "Custom"; for an imported SEB-File template, they are displayed read-only.
+
+Under the **Assessment mode-specific configuration** legend, **Allow the exit of SEB** and the **Password for quitting** can be overridden for this inspection. The password then overwrites the one from the template, and the config key is automatically recalculated.
+
 !!! note "Prerequisite"
     The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 

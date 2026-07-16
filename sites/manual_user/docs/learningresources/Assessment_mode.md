@@ -104,6 +104,18 @@ You can also define whether the assessment mode should also be applied to coache
 
 **Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
 
+**Type of use** [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Define how the SEB configuration is provided. With "SEB-Config (recommended)" you configure the SEB in OpenOlat or via an imported SEB-File; validity is ensured via the config key. With "SEB with manual keys" you use a custom SEB-File with externally maintained Safe Exam Browser Keys.
+
+**Configuration**: Choose whether the settings are taken from a "Template" or adjusted as "Custom". For a form template, the settings can be adjusted after selecting "Custom"; for an imported SEB-File template, they are fixed and displayed read-only.
+
+**Information for authors**: If the selected template contains a note for authors, it is displayed here.
+
+Under the **Assessment mode-specific configuration** legend, you override individual settings for this specific exam:
+
+**Allow the exit of SEB**: Allows exam participants to quit the Safe Exam Browser after submitting the exam.
+
+**Password for quitting**: Overwrites the password stored in the template for this exam. The config key is automatically recalculated.
+
 !!! note "Prerequisite"
     The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 
