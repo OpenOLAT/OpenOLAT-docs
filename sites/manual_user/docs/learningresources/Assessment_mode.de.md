@@ -103,6 +103,18 @@ Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.
 
 **Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
 
+**Typ von Anwendung** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Legen Sie fest, wie die SEB-Konfiguration bereitgestellt wird. Mit «SEB-Config (empfohlen)» konfigurieren Sie den SEB in OpenOlat oder über eine importierte SEB-Datei; die Gültigkeit wird über den Config Key sichergestellt. Mit «SEB mit manuellen Keys» verwenden Sie eine benutzerdefinierte SEB-Datei mit extern gepflegten Safe Exam Browser Keys.
+
+**Konfiguration**: Wählen Sie, ob die Einstellungen aus einer «Vorlage» übernommen oder «Benutzerdefiniert» angepasst werden. Bei einer Formularvorlage lassen sich die Einstellungen nach Auswahl von «Benutzerdefiniert» anpassen; bei einer importierten SEB-Datei-Vorlage sind sie fest vorgegeben und werden schreibgeschützt angezeigt.
+
+**Hinweis für Autoren**: Ist in der gewählten Vorlage ein Hinweis für Autor:innen hinterlegt, erscheint dieser hier.
+
+Unter der Legende **Prüfungsmodus-spezifische Konfiguration** übersteuern Sie einzelne Einstellungen für genau diese Prüfung:
+
+**Beenden von SEB erlauben**: Erlaubt den Prüfungsteilnehmenden, den Safe Exam Browser nach Abgabe der Prüfung zu beenden.
+
+**Beenden/Entsperren-Kennwort**: Überschreibt das in der Vorlage hinterlegte Kennwort für genau diese Prüfung. Der Config Key wird dabei automatisch neu berechnet.
+
 !!! note "Voraussetzung"
     Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 

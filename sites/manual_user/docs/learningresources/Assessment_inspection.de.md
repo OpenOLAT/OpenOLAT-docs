@@ -47,6 +47,12 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer wäh
 
 **Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
 
+**Typ von Anwendung** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Wie im Prüfungsmodus wählen Sie mit «SEB-Config (empfohlen)» die Konfiguration in OpenOlat oder über eine importierte SEB-Datei (Prüfung über den Config Key) oder mit «SEB mit manuellen Keys» eine benutzerdefinierte SEB-Datei mit extern gepflegten Keys.
+
+**Konfiguration**: Übernehmen Sie die Einstellungen aus einer «Vorlage» oder passen Sie sie «Benutzerdefiniert» an; bei einer importierten SEB-Datei-Vorlage werden sie schreibgeschützt angezeigt.
+
+Unter der Legende **Prüfungsmodus-spezifische Konfiguration** lassen sich **Beenden von SEB erlauben** und das **Beenden/Entsperren-Kennwort** für diese Einsichtnahme übersteuern. Das Kennwort überschreibt dann jenes der Vorlage, und der Config Key wird automatisch neu berechnet.
+
 !!! note "Voraussetzung"
     Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
