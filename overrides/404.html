@@ -1,0 +1,218 @@
+{% extends "main.html" %}
+
+{#
+  Custom 404 page for the OpenOlat manual.
+  - One physical page for all languages (MkDocs serves a single /404.html).
+  - Language is detected client-side from the first URL path segment
+    (/de/, /en/, /fr/, /it/) with a navigator.language fallback -> en.
+  - German is the hard-coded baseline so the page is readable without JS.
+  - "Report broken link" builds a mailto to support@openolat.com and injects
+    the URL the visitor actually tried to open.
+#}
+
+{% block content %}
+<style>
+  .fx404 {
+    max-width: 42rem;
+    margin: 2rem auto 4rem;
+    text-align: center;
+  }
+  .fx404__art {
+    width: 190px;
+    height: auto;
+    margin: 0 auto 1.5rem;
+    display: block;
+  }
+  .fx404__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--md-accent-fg-color);
+    margin: 0 0 .4rem;
+  }
+  .fx404 h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin: 0 0 .6rem;
+  }
+  .fx404__lead {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 1.2rem;
+  }
+  .fx404__p {
+    color: var(--md-default-fg-color--light);
+    margin: 0 0 .8rem;
+  }
+  .fx404__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    margin: 1.8rem 0 1.2rem;
+  }
+  .fx404__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .6rem 1.1rem;
+    border-radius: .4rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: filter .15s ease, background-color .15s ease;
+  }
+  .fx404__btn--primary {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+  }
+  .fx404__btn--primary:hover { filter: brightness(1.08); }
+  .fx404__btn--ghost {
+    border: 2px solid var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color);
+  }
+  .fx404__btn--ghost:hover {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+  }
+  .fx404__thanks {
+    font-size: .9rem;
+    color: var(--md-default-fg-color--light);
+    margin: 0;
+  }
+  .fx404__code {
+    font-family: var(--md-code-font-family, monospace);
+    font-size: .8rem;
+    word-break: break-all;
+    color: var(--md-default-fg-color--lighter);
+    margin-top: 1.6rem;
+  }
+</style>
+
+<div class="fx404 md-typeset">
+  <svg class="fx404__art" viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- shavings -->
+    <path d="M150 118c8-2 14-8 13-15-1-6-8-8-12-3-3 4 0 8 4 8" fill="none"
+          stroke="var(--md-accent-fg-color)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M168 128c7 1 14-2 15-8" fill="none"
+          stroke="var(--md-accent-fg-color)" stroke-width="3" stroke-linecap="round"/>
+    <!-- pencil body -->
+    <g transform="rotate(-32 110 75)">
+      <rect x="40" y="62" width="120" height="26" rx="4"
+            fill="var(--md-primary-fg-color)"/>
+      <rect x="40" y="62" width="120" height="8" rx="4"
+            fill="#000" opacity="0.12"/>
+      <!-- wood tip -->
+      <polygon points="160,62 160,88 190,75" fill="#e8c39a"/>
+      <!-- graphite -->
+      <polygon points="182,70 182,80 195,75" fill="#333"/>
+      <!-- ferrule -->
+      <rect x="26" y="62" width="14" height="26" fill="#c0c0c0"/>
+      <!-- eraser -->
+      <rect x="14" y="62" width="14" height="26" rx="4" fill="var(--md-accent-fg-color)"/>
+    </g>
+  </svg>
+
+  <p class="fx404__eyebrow" data-i18n="eyebrow">Fehler 404</p>
+  <h1 data-i18n="h1">Wir spitzen gerade den Bleistift ✏️</h1>
+  <p class="fx404__lead" data-i18n="lead">Diese Handbuchseite ist gerade nicht auffindbar.</p>
+  <p class="fx404__p" data-i18n="p1">Vermutlich wurde die Seite umbenannt oder an einen neuen Ort verschoben.</p>
+  <p class="fx404__p" data-i18n="p2">Bist du über die Hilfe direkt aus OpenOlat hierher gelangt? Dann stammt der Link möglicherweise aus einer älteren OpenOlat-Version.</p>
+
+  <div class="fx404__actions">
+    <a class="fx404__btn fx404__btn--primary" id="fx404-home" href="{{ config.site_url }}" data-i18n="home">Zur Handbuch-Startseite</a>
+    <a class="fx404__btn fx404__btn--ghost" id="fx404-report" href="mailto:support@openolat.com" data-i18n="report">Toten Link melden</a>
+  </div>
+  <p class="fx404__thanks" data-i18n="thanks">Danke, dass du mithilfst, das Handbuch besser zu machen!</p>
+
+  <p class="fx404__code" id="fx404-url"></p>
+</div>
+
+<script>
+(function () {
+  var STR = {
+    de: {
+      eyebrow: "Fehler 404",
+      h1: "Wir spitzen gerade den Bleistift ✏️",
+      lead: "Diese Handbuchseite ist gerade nicht auffindbar.",
+      p1: "Vermutlich wurde die Seite umbenannt oder an einen neuen Ort verschoben.",
+      p2: "Bist du über die Hilfe direkt aus OpenOlat hierher gelangt? Dann stammt der Link möglicherweise aus einer älteren OpenOlat-Version.",
+      home: "Zur Handbuch-Startseite",
+      report: "Toten Link melden",
+      thanks: "Danke, dass du mithilfst, das Handbuch besser zu machen!",
+      urlLabel: "Aufgerufene Adresse:",
+      subject: "Toter Link im OpenOlat-Handbuch",
+      body: "Hallo OpenOlat-Team\n\nIch bin im Handbuch auf einen Link gestossen, der ins Leere führt:\n%URL%\n\nHerzlichen Dank fürs Korrigieren!"
+    },
+    en: {
+      eyebrow: "Error 404",
+      h1: "We're just sharpening our pencil ✏️",
+      lead: "This manual page can't be found right now.",
+      p1: "The page was probably renamed or moved to a new location.",
+      p2: "Did you get here from the Help function inside OpenOlat? Then the link may come from an older OpenOlat version.",
+      home: "Go to the manual home page",
+      report: "Report a broken link",
+      thanks: "Thanks for helping us improve the manual!",
+      urlLabel: "Address you tried:",
+      subject: "Broken link in the OpenOlat manual",
+      body: "Hello OpenOlat team\n\nI came across a link in the manual that leads nowhere:\n%URL%\n\nThank you very much for fixing it!"
+    },
+    fr: {
+      eyebrow: "Erreur 404",
+      h1: "Nous taillons justement notre crayon ✏️",
+      lead: "Cette page du manuel est introuvable pour le moment.",
+      p1: "La page a probablement été renommée ou déplacée vers un nouvel emplacement.",
+      p2: "Êtes-vous arrivé ici via l'aide intégrée d'OpenOlat ? Le lien provient peut-être d'une version plus ancienne d'OpenOlat.",
+      home: "Vers la page d'accueil du manuel",
+      report: "Signaler un lien mort",
+      thanks: "Merci de nous aider à améliorer le manuel !",
+      urlLabel: "Adresse demandée :",
+      subject: "Lien mort dans le manuel OpenOlat",
+      body: "Bonjour l'équipe OpenOlat\n\nJ'ai trouvé dans le manuel un lien qui ne mène nulle part :\n%URL%\n\nUn grand merci pour la correction !"
+    },
+    it: {
+      eyebrow: "Errore 404",
+      h1: "Stiamo temperando la matita ✏️",
+      lead: "Questa pagina del manuale al momento non è raggiungibile.",
+      p1: "Probabilmente la pagina è stata rinominata o spostata in una nuova posizione.",
+      p2: "Sei arrivato qui dalla guida all'interno di OpenOlat? Allora il link potrebbe provenire da una versione precedente di OpenOlat.",
+      home: "Vai alla pagina iniziale del manuale",
+      report: "Segnala un link non funzionante",
+      thanks: "Grazie per aiutarci a migliorare il manuale!",
+      urlLabel: "Indirizzo richiesto:",
+      subject: "Link non funzionante nel manuale OpenOlat",
+      body: "Ciao team OpenOlat\n\nHo trovato nel manuale un link che non porta da nessuna parte:\n%URL%\n\nGrazie mille per la correzione!"
+    }
+  };
+
+  var SUPPORTED = ["de", "en", "fr", "it"];
+  var seg = (location.pathname.split("/").filter(Boolean)[0] || "").toLowerCase();
+  var lang = SUPPORTED.indexOf(seg) >= 0
+    ? seg
+    : (navigator.language || "en").slice(0, 2).toLowerCase();
+  if (SUPPORTED.indexOf(lang) < 0) lang = "en";
+  var t = STR[lang];
+
+  document.documentElement.setAttribute("lang", lang);
+
+  document.querySelectorAll("[data-i18n]").forEach(function (el) {
+    var key = el.getAttribute("data-i18n");
+    if (t[key]) el.textContent = t[key];
+  });
+
+  // Home -> language landing page
+  var siteUrl = "{{ config.site_url }}".replace(/\/+$/, "");
+  document.getElementById("fx404-home").setAttribute("href", siteUrl + "/" + lang + "/");
+
+  // Report link with the failed URL prefilled
+  var failed = location.href;
+  var mailto = "mailto:support@openolat.com"
+    + "?subject=" + encodeURIComponent(t.subject)
+    + "&body=" + encodeURIComponent(t.body.replace("%URL%", failed));
+  document.getElementById("fx404-report").setAttribute("href", mailto);
+
+  var urlEl = document.getElementById("fx404-url");
+  if (urlEl) urlEl.textContent = t.urlLabel + " " + failed;
+})();
+</script>
+{% endblock %}
