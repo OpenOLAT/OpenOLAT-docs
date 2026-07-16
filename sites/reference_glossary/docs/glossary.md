@@ -286,6 +286,14 @@ AI feature that creates suggestions for multiple-choice questions in the questio
 
 AI feature that generates title, description, alt text and keywords for uploaded images.
 
+### Essay Question Generator
+
+AI feature that creates open-text (essay) questions with grading criteria from a source text or an uploaded file.
+
+### Essay Grading
+
+AI feature that produces formative feedback on learners' essay answers.
+
 ### Import (content editor)
 
 Import function of the content editor that automatically converts markdown files, Word documents (.docx) or pasted markdown text into content editor blocks.

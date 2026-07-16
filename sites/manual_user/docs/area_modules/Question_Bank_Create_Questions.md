@@ -28,24 +28,39 @@ During creation, a title is specified, followed by the question type and finally
 
 ## Create questions with AI (Artificial Intelligence) [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
-!!! warning "Attention"
-
-    This function is currently being tested. Please note that errors may occur when this function is used.
-
-
-In the question pool, questions can also be created with the help of artificial intelligence.
+In the question pool, questions can also be created with the help of artificial intelligence. The "AI questions" entry opens the generation dialog.
 
 !!! info "Important"
 
-    This function is only available if the [AI module](../../manual_admin/administration/External_Tools_AI.md) is enabled in the administration and the AI feature "MC Question Generator" is configured with an AI provider and model.
+    This function is only available if the [AI module](../../manual_admin/administration/External_Tools_AI.md) is enabled in the administration and at least one matching AI feature is configured with an AI provider and model: "MC Question Generator" for multiple-choice questions, and "Essay Question Generator" and "Essay Grading" for open-text questions with AI correction.
 
-![question_bank_create_question_KI_v1_de.png](assets/question_bank_create_question_KI_v1_de.png){ class="shadow lightbox" }
+You choose one of two modes as source material:
 
-This function can be used to create suggestions for multiple choice questions using AI. You insert text content (max. 6000 characters) directly into the "Source text" field in OpenOlat as source material, which is passed to the AI, which then generates questions from it.
+* **"Upload file"**: a Markdown, plain text or Word file (.docx).
+* **"Paste text"**: you paste the source text directly into the input field.
 
-The questions are created in the language of the inserted source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. 
+You then define how many questions are generated: "Multiple-choice questions" and, when AI correction is configured, "Essay questions with AI correction" [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. The AI suggests sensible values based on the text length, which you can adjust. Start the process with "Generate questions".
+
+Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question pool once they are ready. They are created in the language of the inserted source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. AI-generated questions receive the "Review" status so they are checked before reuse.
 
 Please note that the questions must be checked for correctness in each individual case.
+
+[To the top of the page ^](#create_questions)
+
+
+## Edit the AI grading of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
+
+For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab.
+
+The following entries are available:
+
+* **"Model answer"**: the expected reference answer.
+* **"Key points"**: the core aspects to cover, each with a description and a weight from 0.0 to 1.0.
+* **"Rubric criteria"**: named criteria with "Name", "Descriptor", a "Scope" ("Content" or "Language") and a weight.
+* **"Common misconceptions"**: typical false assumptions that are taken into account in the feedback.
+* **"Grading hints"** as well as a "Difficulty" from 1 to 5 and a "Bloom level" for further control.
+
+With the **"Test feedback"** button you enter a sample answer and see in the preview which AI feedback learners would receive. This lets you fine-tune the grading kit before use.
 
 [To the top of the page ^](#create_questions)
 

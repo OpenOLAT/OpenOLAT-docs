@@ -350,6 +350,14 @@ A course element (building block) that can be added to a course structure.
 
 Electronic portfolio for learner reflection and evidence collection.
 
+### Essay Grading
+
+AI feature that produces formative feedback on learners' essay answers.
+
+### Essay Question Generator
+
+AI feature that creates open-text (essay) questions with grading criteria from a source text or an uploaded file.
+
 ### Events / Absences
 
 Lecture block management with absence tracking.
