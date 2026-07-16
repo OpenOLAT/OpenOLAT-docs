@@ -298,6 +298,14 @@ Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
 Kennzahl in Kurs- und Personenlisten des Coaching Tools, zeigt den Bewertungsstatus grafisch und in Zahlen: "Bestanden", "Nicht bestanden", "Keine Angabe".
 
+### Essay Bewertung
+
+KI Funktion, die zu Freitextantworten der Lernenden ein formatives Feedback erzeugt.
+
+### Essay Fragen Generator
+
+KI Funktion, die aus einem Quelltext oder einer hochgeladenen Datei Freitextfragen samt Bewertungskriterien erstellt.
+
 ### Excel
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.

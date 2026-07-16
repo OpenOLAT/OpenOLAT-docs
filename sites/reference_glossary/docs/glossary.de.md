@@ -286,6 +286,14 @@ KI Funktion, die aus einem Quelltext Vorschläge für Multiple-Choice-Fragen im 
 
 KI Funktion, die für hochgeladene Bilder Titel, Beschreibung, Alt-Text und Schlagwörter generiert.
 
+### Essay Fragen Generator
+
+KI Funktion, die aus einem Quelltext oder einer hochgeladenen Datei Freitextfragen samt Bewertungskriterien erstellt.
+
+### Essay Bewertung
+
+KI Funktion, die zu Freitextantworten der Lernenden ein formatives Feedback erzeugt.
+
 ### Import (Content Editor)
 
 Importfunktion des Content Editors, die Markdown-Dateien, Word-Dokumente (.docx) oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.

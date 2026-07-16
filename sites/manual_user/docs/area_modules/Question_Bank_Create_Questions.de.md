@@ -28,23 +28,39 @@ Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum 
 
 ## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
-!!! warning "Achtung"
-
-    Diese Funktion befindet sich in einer Versuchsphase. Bitte beachten Sie, dass Fehler auftreten können, wenn diese Funktion verwendet wird.
-
-Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden.
+Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden. Über den Eintrag "KI Fragen" öffnen Sie den Generierungsdialog.
 
 !!! info "Wichtig"
 
-    Diese Funktion steht nur zur Verfügung, wenn in der Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und die KI Funktion "MC Fragen Generator" mit einem KI Anbieter und Modell konfiguriert ist.
+    Diese Funktion steht nur zur Verfügung, wenn in der Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und mindestens eine passende KI Funktion mit einem KI Anbieter und Modell konfiguriert ist: "MC Fragen Generator" für Multiple-Choice-Fragen sowie "Essay Fragen Generator" und "Essay Bewertung" für Freitextfragen mit KI-Korrektur.
 
-![question_bank_create_question_KI_v1_de.png](assets/question_bank_create_question_KI_v1_de.png){ class="shadow lightbox" }
+Als Ausgangsmaterial wählen Sie einen von zwei Modi:
 
-Mit dieser Funktion können Vorschläge für Multiple Choice Fragen mittels KI erstellt werden. Sie fügen direkt in OpenOlat im Feld "Quelltext" Textinhalte (max. 6000 Zeichen) als Ausgangsmaterial ein, das der KI übergeben wird, die daraus Fragen generiert. 
+* **"Datei hochladen"**: eine Markdown-, Text- oder Word-Datei (.docx).
+* **"Text einfügen"**: Sie fügen den Quelltext direkt in das Eingabefeld ein.
 
-Die Fragen werden in der Sprache des eingefügten Quelltextes erstellt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. 
+Anschliessend legen Sie fest, wie viele Fragen erzeugt werden: "Multiple-Choice-Fragen" und, sofern die KI-Korrektur konfiguriert ist, "Essay-Fragen mit KI-Korrektur" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. Die KI schlägt anhand der Textlänge sinnvolle Werte vor, die Sie anpassen können. Mit "Fragen generieren" starten Sie den Vorgang.
+
+Die Generierung läuft im Hintergrund. Sie können den Dialog offen lassen oder schliessen; die neuen Fragen erscheinen im Fragenpool, sobald sie fertig sind. Sie werden in der Sprache des eingefügten Quelltextes erstellt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. KI-generierte Fragen erhalten den Status "Review", damit sie vor der Weiterverwendung fachlich geprüft werden.
 
 Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrektheit überprüft werden müssen.
+
+[Zum Seitenanfang ^](#create_questions)
+
+
+## KI-Bewertung einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
+
+Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Reiter "KI-Feedback" der Frage von Hand anpassen.
+
+Folgende Angaben stehen zur Verfügung:
+
+* **"Musterantwort"**: die erwartete Referenzantwort.
+* **"Schlüsselpunkte"**: die abzudeckenden Kernaspekte, je mit einer Beschreibung und einem Gewicht von 0.0 bis 1.0.
+* **"Bewertungskriterien"**: benannte Kriterien mit "Name", "Beschreibung", einem "Bereich" ("Inhalt" oder "Sprache") und einem Gewicht.
+* **"Häufige Missverständnisse"**: typische Fehlannahmen, die im Feedback berücksichtigt werden.
+* **"Korrekturhinweise"** sowie ein "Schwierigkeitsgrad" von 1 bis 5 und eine "Bloom-Stufe" zur weiteren Steuerung.
+
+Mit dem Button **"Feedback testen"** geben Sie eine Beispielantwort ein und sehen in der Vorschau, welches KI-Feedback Lernende erhalten würden. So lässt sich das Bewertungskit vor dem Einsatz feinjustieren.
 
 [Zum Seitenanfang ^](#create_questions)
 

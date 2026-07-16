@@ -273,7 +273,7 @@ Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden ode
 ---
 
 
-### Wissen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
+### Auswertbare Quizfragen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
 !!! info "Wichtig"
 
@@ -286,6 +286,10 @@ Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine S
 Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine ["Test"](../learningresources/Course_Element_Test.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
+
+### KI-Feedback zu Freitextantworten
+
+Ist im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI Funktion "Essay Bewertung" konfiguriert, lassen sich einem Quiz auch Freitextfragen hinzufügen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beantworten Lernende eine solche Frage, können sie unter "KI-Feedback" ein formatives Feedback zu ihrer Antwort abrufen. Es umfasst eine "Gesamteinschätzung", "Was gut gelungen ist", "Was fehlt noch" sowie den Abschnitt "Nächster Schritt", wahlweise als "Zusammenfassung" oder "Detailliertes Feedback". Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -351,6 +355,12 @@ Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mi
 #### Import an einer bestimmten Position
 
 Der Button "Importieren" steht zusätzlich im **Dialog "Inhalt hinzufügen"** zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
+
+<h4>KI-Fragen beim Import erzeugen</h4>
+
+Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit den KI Funktionen "Essay Fragen Generator" und "Essay Bewertung" konfiguriert, können Sie im Import-Dialog zusätzlich die Option **"KI-generiertes Quiz hinzufügen"** aktivieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat erzeugt dann aus dem importierten Inhalt Fragen und fügt sie als Quiz-Element am Seitenende an. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ).
+
+Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Element erscheint, sobald die Fragen bereit sind. Prüfen Sie die erzeugten Fragen anschliessend auf inhaltliche Korrektheit. Im E-Portfolio steht die KI-Fragengenerierung nicht zur Verfügung.
 
 [Zum Seitenanfang ^](#content_editor)
 
