@@ -14,7 +14,7 @@ Preparation | Only owners of this learning resource have access.|
 Review | Only owners of this learning resource have access. All preparations for this learning resource have been completed and the contents have been released for further review.  
 Access For Coach | Owners and coaches of this learning resource have access.  
 Published | All members of the learning resource have access.  
-Finished | All members still have access to the course, but can only read.  
+Finished | The type of access for members depends on the configured setting for the status "Finished": **Read-only *or* no access**.  
 
 !!! info "Note"
 
@@ -131,6 +131,20 @@ You can also configure multiple offer type. These are considered as different op
 
 You can easily delete the configured offers at any time. The booking orders already made remain in place and are not affected by this affected.
 
+### Manage offer availability [:octicons-tag-16:{ title="from Release 21.0 (OO-9304)" }](https://track.frentix.com/issue/OO-9304)
+
+The **"Available if"** setting defines the conditions under which an offer can be booked in the catalog. In addition to unrestricted availability, the **"Custom condition"** option is available. When it is selected, you configure the availability via:
+
+* **"Status is":** the course or implementation statuses in which the offer should be available.
+* **"From" / "Until":** additionally narrow down the availability period. For each limit you choose a mode:
+    * **"Status only":** only the selected status applies, without a date limit.
+    * **"Absolute":** a fixed date.
+    * **"Relative":** a date relative to the execution period, for example three days before the course starts. For a relative date to take effect, the execution period of the learning resource must be set.
+
+This way an offer becomes bookable shortly before the course starts, for example, or closes automatically a few days before the course ends, without you having to maintain fixed dates.
+
+In the **"Internal label"** field you assign a name for the offer that is only visible internally. It helps you tell several offers of the same learning resource apart. The offer configuration is divided into the areas **"Catalog"** (visibility and availability) and **"Membership"** (type of membership).
+
 ## Share Overview
 
 ![share-overview](assets/share-overview.jpg){ class="lightbox" }
@@ -142,7 +156,9 @@ If the sharing is set according to the wishes, you can see compactly at the end 
 If a course has been completed and has expired, it can be finished and/or
 deleted.
 
-If a course is  **completed**, it is then in read mode. All user data is retained and all course members still have access to the course. The course is no longer in the tab "My Courses", but in the tab "Finished" next to it.
+When a course is **finished**, member access depends on the setting for the status "Finished": with "Read-only" the course remains accessible in read mode, with "No access" participants no longer see the content. This default is set by the administration; it can be overridden per course in the "Options" tab. [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+All user data is retained. The course is no longer in the tab "My Courses", but in the tab "Finished" next to it.
 
 ![Finished courses](assets/lifecycle_finished.png)
 

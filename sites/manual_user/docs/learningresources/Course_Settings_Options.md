@@ -41,6 +41,18 @@ If you want coaches to be able to use course-specific **To-dos**, activate this 
 
 [To the top of the page ^](#course_settings)
 
+## Access in status "Finished" [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+
+In the "Access" section, you define what access participants have to this course once it reaches the status "Finished".
+
+With **"Adopt system default"**, the default specified by the administration applies; the currently valid default is shown in brackets. Select **"Override"** to set a different value for this course:
+
+* **Read-only:** The course content is still available to participants in read-only mode.
+* **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
+
+[To the top of the page ^](#course_settings_options)
+
+
 ## Further configuration moments
 
 Users with administrative roles (learning resource manager, administrator) are also shown the following options in the "Options" tab:

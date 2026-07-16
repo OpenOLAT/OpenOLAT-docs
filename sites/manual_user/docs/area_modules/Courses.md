@@ -6,6 +6,11 @@ The "Courses" menu item gives you access to the courses and possibly other learn
 
 Under "My Courses", you can view all courses and learning resources that are active or finished. You can also mark favorites and display only the favorites. Or you can use the search function to find a course or learning resource based on a keyword.
 
+Learning resources in which you are a coach or owner are found in the "Coaching" area. Under "My Courses", learning resources are displayed in which you yourself are entered as a participant. [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
+
+!!! tip "Attention"
+    If both roles are assigned to you, the learning resource is of course displayed in both "tabs".
+
 You can also filter your courses based on various criteria, including execution period, membership, result, status, author/owner odr implementation format. To do so, click the small arrow and more filter options will appear.
 
 ### Filter by implementation period [:octicons-tag-16:{ title="from Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
