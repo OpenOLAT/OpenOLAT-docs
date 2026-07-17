@@ -171,6 +171,13 @@ When editing the files it is recommended to start a local server to preview the 
 
 Now open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to navigate and preview. 
 
+Since the full site builds every sub-site in both languages, startup and reloads can take about 15 minutes. For a much faster local preview while editing, use `serve-fast.sh`: it builds only one sub-site in one language.
+
+	cd OpenOLAT-docs
+	./serve-fast.sh manual_user en
+
+Arguments: `<site>` (`manual_user`, `manual_admin`, `manual_how-to`, `manual_dev`, `release_notes`, `reference_glossary`; default `manual_user`) and `[lang]` (`en`, `de` or `all`; default `en`). The script generates a local, gitignored `mkdocs.local.yml` and serves it with `--dirtyreload`.
+
 
 ### Export site as static HTML files
 
