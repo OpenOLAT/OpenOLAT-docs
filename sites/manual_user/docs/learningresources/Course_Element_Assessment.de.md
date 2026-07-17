@@ -72,7 +72,7 @@ Sofern Punkte und/oder bestanden aktiviert wurde gibt es bei Lernpfad Kursen noc
 
 ### Individuelle Kommentare, Dokumente und Infos
 
-Aktivieren Sie die gewünschte Checkbox. um den Lernenden individuelle Kommentare und/oder Dokumente z.B. als Feedback bereitzustellen. Unter "Erweiterte Konfigurationen ..." können Sie auch zusätzlich noch generelle Informationen für Betreuer und/oder Lernende hinterlegen.
+Aktivieren Sie die gewünschte Checkbox. um den Lernenden individuelle Kommentare und/oder Dokumente z.B. als Feedback bereitzustellen.
 
 ### Status "Korrigieren" setzen 
 Bei aktivierter Option erscheint für den Lehrenden beim Status "Korrigieren" und für den Teilnehmer "in Korrektur" bzw. bei nicht Auswahl "Nicht gestartet" und für den User "Information nicht verfügbar". Aktivieren Sie die Option nur, wenn Sie die Info auch wirklich haben möchten. 

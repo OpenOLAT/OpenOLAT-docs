@@ -385,9 +385,6 @@ Im Tab "Bewertung" kann auch definiert werden ob das Ergebnis des konkreten Aufg
 #### Individuelle Feedbacks 
 Optional können sie noch die Möglichkeit für individuelle Kommentare oder individuelle Bewertungsdokumente aktivieren, sodass Betreuende noch weitere flexible Rückmeldungsmöglichkeiten haben.
 
-#### Hinweise
-Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurationen zur Verfügung. Hier können Sie noch Hinweistexte für alle Lernenden und/oder für alle Betreuenden hinterlegen. 
-
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 

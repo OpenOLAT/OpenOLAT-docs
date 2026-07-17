@@ -54,10 +54,6 @@ In diesem Tab können Sie bestimmen ob ein Abgabedatum für die Checkliste wirks
 
 **Individueller Kommentar**: Wenn Sie diese Checkbox markieren, haben Sie bei der Bewertung die Möglichkeit, jedem Benutzer einen individuellen Kommentar zu geben.
 
-**Hinweis für alle Benutzer**: Geben Sie hier einen Text ein, der allen Kursteilnehmern angezeigt wird, wenn sie den Kursbaustein anklicken.
-
-**Hinweis für Betreuer**: Geben Sie hier einen Text ein, der den Betreuern des Kurses angezeigt wird, wenn sie die Kursteilnehmer bewerten.
-
 ## Tab Checkboxen [:octicons-tag-16:{ title="ab Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"}
 
 In diesem Tab erstellen und bearbeiten Sie die Checkboxen, die die User später abhaken können. Klicken Sie mit der Maus auf die Schaltfläche "Checkbox hinzufügen" um eine neue Checkbox zu erstellen. Es öffnet sich eine neue Eingabemaske.

@@ -76,10 +76,7 @@ gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche
     Wurde eine Portfoliovorlage bereits heruntergeladen und bearbeitet, kann diese Vorlage nicht mehr ausgewechselt werden.
 
 Im Kurseditor im Tab „Bewertung" können Sie die Anzeige von Punkten, Status
-Bestanden/Nicht bestanden und individuellen Kommentaren vorkonfigurieren. In
-den Feldern "Hinweis für alle Benutzer" und "Hinweis für Betreuer" formulieren
-Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
--betreuer.
+Bestanden/Nicht bestanden und individuellen Kommentaren vorkonfigurieren.
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
 finden Sie im Kapitel "[Portfolioaufgabe: abholen und bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)".
