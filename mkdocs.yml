@@ -91,6 +91,7 @@ copyright: Copyright &copy; 2006 - 2026 <a href="https://frentix.com">frentix Gm
 extra_css:
  - lighbox/basicLightbox.min.css
  - stylesheets/extra.css
+ - stylesheets/oo-docs.css
 extra_javascript:
   - lighbox/basicLightbox.min.js
   - javascripts/extra.js
