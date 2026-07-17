@@ -23,15 +23,23 @@ With a button next to other buttons (other login options), the decision for a sp
 
 ![login_password_and_authentication_login_v1_de.png](assets/login_password_and_authentication_login_v1_de.png){ class="lightbox" }
 
-<h3>3 Security level per role</h3>
+<h4>3 One Time Code</h4>
+
+With the "Use one time code" option, you activate an additional second security level by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) After entering their username and password, account holders receive an 8-digit confirmation code by e-mail and complete the login with this code on a validation page.
+
+Without an active passkey, the one time code is the second security level for all local logins. If Passkey is also activated, the one time code serves as a fallback for account holders without a stored passkey.
+
+A valid e-mail address on the account and a functioning e-mail dispatch configured in OpenOlat are required so that the code can be delivered.
+
+<h4>4 Security level per role</h4>
 
 The levels set here define the **minimum requirement** for the respective role. 
 
-<h3>4 Increase the security level yourself</h3>
+<h4>5 Increase the security level yourself</h4>
 
 With the "Increase security level yourself" option, account holders can decide for themselves whether they want to switch to a higher security level. It is not possible to downgrade below the minimum level set by the administrator.
 
-<h3>5 Expert</h3>
+<h4>6 Expert</h4>
 
 If the security level has been increased by an administrator, the persons concerned will be asked to set up a passkey when they log in. This setting determines how often a user can skip this prompt.
 

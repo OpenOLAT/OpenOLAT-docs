@@ -54,7 +54,7 @@ Users can also be selected and their OpenOlat accounts deleted via the "Delete a
 ![delete_user_var2_step1_v1_de.png](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Step 2:**<br>
-Candidates for deletion are pre-sorted into 3 tabs — corresponding to the phases of the user account lifecycle:
+Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the user account lifecycle:
 
 **Tab "Accounts without activity":** Users who have not been active for a configured period of time. The inactivity period is set by the administration.
 
@@ -159,8 +159,8 @@ It must be taken into account that information is technically linked to differen
 |**Owner role in learning resources and courses** :octicons-package-24: | Learning resources and courses are not deleted when their owner is deleted, regardless of whether the learning resource was published, shared with other authors, or not referenced/used anywhere. If the deleted user was the sole owner, an administrator is entered as a substitute owner. This also applies to test learning resources.|
 |**Questions in the question bank** :octicons-person-24: :octicons-package-24:| tbd |
 |**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | If a media item in the Media Center was used in a course, it is not deleted.<br> If it was not used anywhere, it is deleted. (Even if it was shared but then not used.) |
-|**External graders** :octicons-package-24:| If accounts of external graders are deleted, they are no longer listed by name. The grading orders are retained, however.|
-|**Grading orders** :octicons-person-24: :octicons-package-24: | If users who had grading orders as external graders are deleted, the following rules apply: 1) **Already completed grading orders** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading orders** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.|
+|**External graders** :octicons-package-24:| If accounts of external graders are deleted, they are no longer listed by name. The associated grading assignment records are removed; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
+|**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external graders are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
 |**Statistics** :octicons-infinity-24: |Deleted users are no longer included in the statistics of visited courses.|
 |**Survey results from quality management** :octicons-infinity-24: |Forms completed as part of quality management are stored anonymously and therefore do not need to be deleted when a user account is deleted.|
 |**Log tables** :octicons-infinity-24:| tbd |
@@ -178,12 +178,7 @@ It must be taken into account that information is technically linked to differen
 
 !!! warning "Attention"
 
-    This article is still under construction.
-
-
-* Users who still have outstanding grading orders to complete cannot be deleted.
-
-* Users cannot be deleted if there are still outstanding invoices (e.g. for grading orders).
+    Work is still in progress here. If you have questions, feel free to contact: support@openolat.com
 
 
 [To top of page ^](#delete_user)
