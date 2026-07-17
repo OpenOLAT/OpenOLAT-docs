@@ -27,6 +27,8 @@ A minimum and a maximum length must be defined as a minimum. In addition, furthe
 
 It is possible to connect to social networks such as LinkedIn, X, Google, Facebook, etc. for authentication.
 
+For OpenID Connect and OAuth 2.0 connections, OpenOlat supports only the secure authorization code flow. The former implicit flow has been removed for security reasons. When adding an OAuth 2.0 provider, select the value "code" in the "Response type" field.
+
 [To the top of the page ^](#login)
 
 
