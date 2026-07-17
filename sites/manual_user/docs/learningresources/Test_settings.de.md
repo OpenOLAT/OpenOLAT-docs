@@ -4,7 +4,7 @@ Im Bereich "Administration" eines Tests findet man, ähnlich wie bei anderen Ler
 
 ![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
 
-Die grundsätzliche Konfiguration des gesamten Test erfolgt größtenteils in den **"Einstellungen"**, besonders im Tab "Optionen" (siehe unten).
+Die grundsätzliche Konfiguration des gesamten Test erfolgt grösstenteils in den **"Einstellungen"**, besonders im Tab "Optionen" (siehe unten).
 
 Das Menü **"Mitgliederverwaltung"** ist besonders dann relevant, wenn der Test kursunabhängig verwendet werden soll, ansonsten erfolgt die Mitgliederverwaltung der Test-Teilnehmenden über den verbundenen Kurs. 
 
@@ -142,11 +142,11 @@ Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests an
 
 ## Korrektur-Workflow {: #correction-workflow}
 
-Um einem Test weitere, auch kursübergreifende, Korrektoren hinzufügen zu können, muss in der Administration des Tests im Menü "Korrektur" die Korrektur eingeschaltet werden. Anschließend können die Korrektoren hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
+Um einem Test weitere, auch kursübergreifende, Korrektoren hinzufügen zu können, muss in der Administration des Tests im Menü "Korrektur" die Korrektur eingeschaltet werden. Anschliessend können die Korrektoren hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
 
 ### Tab "Konfiguration"
 
-Hier wird die externe Korrektur grundsätzlich eingeschaltet. Anschließend kann definiert werden ob die Prüflinge anonym oder mit sichtbarem Namen bewertet werden. Der Korrekturzeitraum gibt die maximale Zeit an, die dem Korrektor zur Verfügung steht.
+Hier wird die externe Korrektur grundsätzlich eingeschaltet. Anschliessend kann definiert werden ob die Prüflinge anonym oder mit sichtbarem Namen bewertet werden. Der Korrekturzeitraum gibt die maximale Zeit an, die dem Korrektor zur Verfügung steht.
 
 Die jeweiligen Korrektoren werden automatisch benachrichtigt, wenn neue Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage ("Vorlage Sprache wählen") verwendet werden. Nach der ersten Mail Benachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
 
