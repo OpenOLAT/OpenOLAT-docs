@@ -31,6 +31,8 @@ Passkey can be configured on a role-based basis and is part of a three-tier secu
 
 If a security level with passkey has been configured in OpenOlat, then the users will be prompted to create a passkey the next time they log in and to use this passkey for logging in in the future.
 
+If the administration has additionally activated the one time code, account holders without a stored passkey can still log in with their password and a confirmation code by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details on the [One Time Code](One_Time_Code.md) page.
+
 !!! note "Note"
 
     Level 2 is recommended for certain roles (e.g. user administrators and administrators).

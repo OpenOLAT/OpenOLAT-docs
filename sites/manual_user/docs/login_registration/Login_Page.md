@@ -8,6 +8,7 @@ Depending on the configuration and design, you will find the following on the ho
 * an input field for the user name
 * an input field for the password (for safety reasons, usually in a second step)
 * depending on the security level (with or without passkey), a request for confirmation
+* depending on the configuration, the entry of a [one time code](One_Time_Code.md) (confirmation code by e-mail) [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 * a button for the OpenOlat login
 * possibly various buttons from other authentication services
 * a button/link for self-registration

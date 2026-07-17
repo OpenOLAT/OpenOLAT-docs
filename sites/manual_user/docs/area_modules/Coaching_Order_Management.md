@@ -29,6 +29,8 @@ Furthermore, additional proofreaders can be added to a test, or existing assignm
 
 It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.md).
 
+Using the "Download report" button, you can generate an Excel file here with the current state of the correction workflow. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+
 
 [To the top of the page ^](#order_management)
 

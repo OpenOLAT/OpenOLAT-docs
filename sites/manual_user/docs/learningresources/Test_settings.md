@@ -140,7 +140,7 @@ If this checkbox is selected, the result is displayed after the test has been co
 
 ## Correction workflow {: #correction-workflow}
 
-To add additional graders to a test—including those from other courses—you must enable grading in the "Grading" menu within the test's administration settings. You can then add graders, assign grading tasks, and configure additional settings.
+To add additional graders to a test, including those from other courses, you must enable grading in the "Grading" menu within the test's administration settings. You can then add graders, assign grading tasks, and configure additional settings.
 
 
 ### Tab "Configuration"
@@ -156,6 +156,17 @@ Here you add the persons who are to grade a test. It does not matter which role 
 ### Tab "Grading assignments"
 
 Here the processing status of the grading assignments of the different graders can be displayed and filtered according to various criteria.
+
+### Report / Excel export [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+
+In the "Graders" tab, use the "Download report" button to generate an Excel file with the current state of the correction workflow. Before downloading, you define the scope:
+
+* With the "Only completed orders" switch, you limit the report to completed grading assignments.
+* Using the predefined periods "Last month" and "Last year", or the "Close date" fields (from and to), you narrow down the period. At least one date must be specified.
+
+For each grading assignment, the report shows the status ("Unassigned", "Assigned", "Done"), the "Due date", the "Close date" and the "Missed deadline" flag.
+
+The generated Excel file contains the worksheets "Graders", "Assignments" and "Archive". The "Archive" worksheet lists archived grading assignment entries whose assignment record has since been removed (for example because an examinee, a grader or the test learning resource was deleted), including grading time and completion date for remuneration. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
 
 !!! note "Coaching Tool"
     More information on cross-course correction.<br>
