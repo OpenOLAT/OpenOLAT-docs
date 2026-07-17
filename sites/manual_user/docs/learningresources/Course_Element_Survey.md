@@ -4,7 +4,7 @@
 
 Name | Survey
 ---------|----------
-Icon | :fontawesome-solid-sliders:
+Icon | :o_icon_o_survey_icon:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of learning resource "form"

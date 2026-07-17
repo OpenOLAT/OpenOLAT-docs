@@ -4,7 +4,7 @@
 
 Name | Teilnehmer:innen Ordner
 ---------|----------
-Icon | :fontawesome-solid-inbox:
+Icon | :o_icon_o_pf_icon:
 Verfügbar seit | aktualisiert in Release 18.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Dateiaustausch zwischen Teilnehmenden und Betreuenden (je Teilnehmer:in ein Abgabeordner und ein Rückgabeordner)

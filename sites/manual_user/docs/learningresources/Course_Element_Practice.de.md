@@ -4,7 +4,7 @@
 
 Name | Übung
 ---------|----------
-Icon | :fontawesome-regular-futbol:
+Icon | :o_icon_o_practice_icon:
 Verfügbar seit | Release 17.0
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Wissenstransfer und Selbstüberprüfung. Es muss eine definierte Anzahl von Fragen beantwortet werden. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und wiederholt. 

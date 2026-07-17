@@ -5,7 +5,7 @@
 
 Name | Portfolio Task
 ---------|----------
-Icon | :fontawesome-solid-briefcase:
+Icon | :o_icon_o_ep_icon:
 Available since | 
 Functional group | Assessment
 Purpose | Provision of a portfolio folder for each course participant to work on

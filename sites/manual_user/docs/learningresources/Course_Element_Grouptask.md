@@ -5,7 +5,7 @@
 
 Name | Group task
 ---------|----------
-Icon | :fontawesome-solid-list-check:
+Icon | :o_icon_o_gta_icon:
 Available since | 
 Functional group | Assessment
 Purpose | Modeling of complex task workflows with configurable substeps such as submission of solution documents, feedback and revision loop, provision of sample solution and assessment

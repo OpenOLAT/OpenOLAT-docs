@@ -5,7 +5,7 @@
 
 Name | vitero
 ---------|----------
-Icon | :fontawesome-solid-tv:
+Icon | :o_icon_o_vitero_icon:
 Available since | 
 Functional group | Communication and collaboration
 Purpose | Integration of the vitero web conferencing software

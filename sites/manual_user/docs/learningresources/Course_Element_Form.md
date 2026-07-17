@@ -4,7 +4,7 @@
 
 Name | Form
 ---------|----------
-Icon | :fontawesome-regular-clipboard:
+Icon | :o_icon_o_icon_form:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of learning resource "Form"

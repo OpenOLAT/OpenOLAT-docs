@@ -5,7 +5,7 @@
 
 Name | Gruppenaufgabe
 ---------|----------
-Icon | :fontawesome-solid-list-check:
+Icon | :o_icon_o_gta_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung

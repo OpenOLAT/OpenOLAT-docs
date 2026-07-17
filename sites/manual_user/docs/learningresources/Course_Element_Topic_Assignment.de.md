@@ -4,7 +4,7 @@
 
 Name | Themenvergabe
 ---------|----------
-Icon | :fontawesome-regular-circle:
+Icon | :o_icon_o_projectbroker_icon:
 Funktionsgruppe | Andere
 Verwendungszweck | Ausschreibung, Auswahl und Betreuung von Themen zur Bearbeitung durch die Kursteilnehmer:innen
 Bewertbar | nein

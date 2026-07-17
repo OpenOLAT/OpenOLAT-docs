@@ -4,7 +4,7 @@
 
 Name | Struktur
 ---------|----------
-Icon | :fontawesome-solid-cubes:
+Icon | :o_icon_o_st_icon:
 Verfügbar seit | Release 1
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine 

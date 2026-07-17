@@ -5,7 +5,7 @@
 
 Name | E-Mail
 ---------|----------
-Icon | :fontawesome-regular-envelope:
+Icon | :o_icon_o_co_icon:
 Verfügbar seit | Neuauflage mit Release 18.0
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Kontaktformular mit E-Mail-Versand

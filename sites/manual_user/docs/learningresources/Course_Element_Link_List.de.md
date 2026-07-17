@@ -5,7 +5,7 @@
 
 Name | Linkliste
 ---------|----------
-Icon | :fontawesome-solid-link:
+Icon | :o_icon_o_ll_icon:
 Verfügbar seit | 
 Funktionsgruppe | Andere
 Verwendungszweck | Linksammlungen innerhalb der Kursstruktur (Kursmenü)

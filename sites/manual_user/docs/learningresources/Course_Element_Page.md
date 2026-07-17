@@ -4,7 +4,7 @@
 
 Name | Page
 ---------|----------
-Icon | :fontawesome-solid-file-lines:
+Icon | :o_icon_o_page_icon:
 Available since | Release 18
 Functional group | Knowledge Transfer
 Purpose | Display of different content in a block-based layout

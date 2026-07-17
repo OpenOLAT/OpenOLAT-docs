@@ -4,7 +4,7 @@
 
 Name | Seite
 ---------|----------
-Icon | :fontawesome-solid-file-lines:
+Icon | :o_icon_o_page_icon:
 Verfügbar seit | Release 18
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Darstellung verschiedener Inhalte in einem blockbasierten Layout

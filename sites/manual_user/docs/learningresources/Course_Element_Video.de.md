@@ -4,7 +4,7 @@
 
 Name | Video
 ---------|----------
-Icon | :fontawesome-solid-film:
+Icon | :o_icon_o_icon_video:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von mp4-Dateien, inkl. der Ergänzungen in OpenOlat (Quizzes, Kommentare, Segmente, Annotationen, Kapitel, Poster, Untertitel)

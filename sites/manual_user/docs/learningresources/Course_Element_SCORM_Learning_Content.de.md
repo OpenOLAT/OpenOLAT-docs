@@ -5,7 +5,7 @@
 
 Name | SCORM
 ---------|----------
-Icon | :fontawesome-solid-box-archive:
+Icon | :o_icon_o_scorm_icon:
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeugen erstellt wurden
 Bewertbar | ja

@@ -6,7 +6,7 @@
 
 Name | Enrolment
 ---------|----------
-Icon | :fontawesome-solid-right-to-bracket:
+Icon | :o_icon_o_en_icon:
 Available since | 
 Functional group | Administration and organisation
 Purpose | self registration of participants in groups

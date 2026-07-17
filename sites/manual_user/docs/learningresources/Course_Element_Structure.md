@@ -4,7 +4,7 @@
 
 Name | Structure
 ---------|----------
-Icon | :fontawesome-solid-cubes:
+Icon | :o_icon_o_st_icon:
 Available since | Release 1
 Functional group | Knowledge transfer
 Purpose | Structuring of the menu into chapters, collection of assessments of all course elements subordinate to the structure element

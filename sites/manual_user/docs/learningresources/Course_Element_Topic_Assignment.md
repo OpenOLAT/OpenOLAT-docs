@@ -5,7 +5,7 @@
 
 Name | Topic Assignment
 ---------|----------
-Icon | :fontawesome-regular-circle:
+Icon | :o_icon_o_projectbroker_icon:
 Functional group | Others
 Purpose | Invitation to tender, selection and coaching of topics to be worked on by the course participants
 Assessable | no

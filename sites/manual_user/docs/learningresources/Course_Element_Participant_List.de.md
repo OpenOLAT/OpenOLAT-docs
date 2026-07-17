@@ -5,7 +5,7 @@
 
 Name | Teilnehmerliste
 ---------|----------
-Icon | :fontawesome-solid-users:
+Icon | :o_icon_o_cmembers_icon:
 Verfügbar seit | 
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Liste aller Kursteilnehmer, gruppiert nach Rollen

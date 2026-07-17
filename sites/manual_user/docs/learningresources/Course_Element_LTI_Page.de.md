@@ -5,7 +5,7 @@
 
 Name | LTI-Seite
 ---------|----------
-Icon | :fontawesome-solid-up-right-from-square:
+Icon | :o_icon_o_lti_icon:
 Verfügbar seit | Release 15.5 (Beta)
 Funktionsgruppe | Andere
 Verwendungszweck | Integration externer Lernapplikationen

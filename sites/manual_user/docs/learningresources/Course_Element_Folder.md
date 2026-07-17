@@ -4,7 +4,7 @@
 
 Name | Folder
 ---------|----------
-Icon | :fontawesome-regular-folder-open:
+Icon | :o_icon_o_bc_icon:
 Available since | New edition with release 19.1
 Functional group | Knowledge transfer
 Purpose | Provision of files for download (e.g. material for the course)

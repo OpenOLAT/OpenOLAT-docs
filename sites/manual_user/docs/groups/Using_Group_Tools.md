@@ -5,16 +5,16 @@ Group **participants** will then see the following items in the group menu on th
 
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
-| :fontawesome-solid-circle-info: | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
-| :fontawesome-regular-calendar-days: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |  
+| :o_icon_o_icon_news: | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
+| :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |  
 | ![](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
 | ![](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |  
-| :fontawesome-regular-envelope: | E-Mail |  | Send all group owners or participants an email. |
-| :fontawesome-regular-folder-open: | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
+| :o_icon_o_co_icon: | E-Mail |  | Send all group owners or participants an email. |
+| :o_icon_o_bc_icon: | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
 | ![](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.  
 | ![](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |  
 | ![](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |
-| :fontawesome-solid-briefcase: | Portfolio |  | Use a portfolio to jointly create a binder or add entries.  |
+| :o_icon_o_ep_icon: | Portfolio |  | Use a portfolio to jointly create a binder or add entries.  |
 | ![](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in virtual classrooms. |
 | ![](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/Course_Element_BigBlueButton.md). |  
 | ![](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new meetings for joint online session. |

@@ -5,7 +5,7 @@
 
 Name | Kalender
 ---------|----------
-Icon | :fontawesome-regular-calendar-days:
+Icon | :o_icon_o_cal_icon:
 Verfügbar seit | 
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Einbettung des Kurskalenders in die Kursstruktur (Kursmenü)

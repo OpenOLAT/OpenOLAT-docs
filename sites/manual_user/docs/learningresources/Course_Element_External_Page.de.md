@@ -4,7 +4,7 @@
 
 Name | Externe Seite
 ---------|----------
-Icon | :fontawesome-solid-arrow-up-right-from-square:
+Icon | :o_icon_o_tu_icon:
 Verfügbar seit | Neuauflage mit Release 18
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von externen Webinhalten innerhalb eines OpenOlat-Kurses und Einbinden in die Kursnavigation

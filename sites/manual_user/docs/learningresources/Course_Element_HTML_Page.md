@@ -4,7 +4,7 @@
 
 Name | HTML-Page
 ---------|----------
-Icon | :fontawesome-regular-file-lines:
+Icon | :o_icon_o_sp_icon:
 Available since | New edition with release 18
 Functional group | Knowledge transfer
 Purpose | Presentation of different content elements (text, images, videos) within an HTML page

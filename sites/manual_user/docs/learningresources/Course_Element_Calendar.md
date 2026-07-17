@@ -4,7 +4,7 @@
 
 Name | Calendar
 ---------|----------
-Icon | :fontawesome-regular-calendar-days:
+Icon | :o_icon_o_cal_icon:
 Available since | 
 Functional group | Administration and organisation
 Purpose | Embedding the course calendar into the course structure (course menu)

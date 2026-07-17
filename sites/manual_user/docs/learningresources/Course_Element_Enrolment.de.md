@@ -4,7 +4,7 @@
 
 Name | Einschreibung
 ---------|----------
-Icon | :fontawesome-solid-right-to-bracket:
+Icon | :o_icon_o_en_icon:
 Verfügbar seit | 
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | eigenständige Eintragung der Teilnehmer:innen in Gruppen

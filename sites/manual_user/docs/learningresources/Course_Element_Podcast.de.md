@@ -5,7 +5,7 @@
 
 Name | Podcast
 ---------|----------
-Icon | :fontawesome-solid-podcast:
+Icon | :o_icon_o_podcast_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von abonnierbaren Audio- und Video-Episoden

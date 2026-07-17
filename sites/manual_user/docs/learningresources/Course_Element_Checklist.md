@@ -5,7 +5,7 @@
 
 Name | Checklist
 ---------|----------
-Icon | :fontawesome-regular-square-check:
+Icon | :o_icon_o_cl_icon:
 Available since | Release 9.4
 Functional group | Assessment
 Purpose | Checklist with functions such as blocking the editing option by submission date, grayed out checkboxes that only coaches can check off, etc.

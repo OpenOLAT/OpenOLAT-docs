@@ -5,7 +5,7 @@
 
 Name | Checkliste
 ---------|----------
-Icon | :fontawesome-regular-square-check:
+Icon | :o_icon_o_cl_icon:
 Verfügbar seit | Release 9.4
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Checkliste mit Funktionen wie z.B. Sperrung der Bearbeitungsmöglichkeit nach Abgabedatum, ausgegraute Checkboxen die nur Betreuer abhaken können, usw.

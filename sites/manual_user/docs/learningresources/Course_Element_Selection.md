@@ -5,7 +5,7 @@
 
 Name | Selection
 ---------|----------
-Icon | :fontawesome-solid-arrows-turn-right:
+Icon | :o_icon_o_icon_cns:
 Available since | Release 19.1
 Functional group | Administration and Organisation
 Purpose | Selection of a certain number of course elements within the course structure (course menu) by the participants

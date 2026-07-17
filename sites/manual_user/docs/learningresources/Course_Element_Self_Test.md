@@ -5,7 +5,7 @@
 
 Name | Self-test
 ---------|----------
-Icon | :fontawesome-solid-square-pen:
+Icon | :o_icon_o_iqself_icon:
 Available since | 
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource "test" into a course

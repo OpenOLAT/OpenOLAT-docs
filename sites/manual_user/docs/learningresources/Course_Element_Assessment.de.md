@@ -5,7 +5,7 @@
 
 Name | Bewertung
 ---------|----------
-Icon | :fontawesome-regular-thumbs-up:
+Icon | :o_icon_o_ms_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Bewertung von Leistungen, auch wenn sie ausserhalb von OpenOlat erbracht wurden (z.B. Präsenz-Referate, praktische Arbeiten)

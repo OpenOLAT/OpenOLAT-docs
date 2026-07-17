@@ -5,7 +5,7 @@
 
 Name | Test
 ---------|----------
-Icon | :fontawesome-solid-square-pen:
+Icon | :o_icon_o_iqtest_icon:
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
 Bewertbar | ja

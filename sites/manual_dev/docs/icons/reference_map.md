@@ -576,7 +576,7 @@ Icons are embedded with the `:o_icon_<class>:` MkDocs syntax, which renders the 
 |  |  |  | `o_icon_pf_page` | 8 |
 |  |  |  | `o_icon_proj_file` | 5 |
 |  |  |  | `o_scorm_item` | 2 |
-| :o_icon_o_dialog_icon: | `file, comment` | fa-regular, fa-solid | `o_dialog_icon` | 6 |
+| :o_icon_o_dialog_icon:{: style="padding-right:4px;" } | `file, comment` | fa-regular, fa-solid | `o_dialog_icon` | 6 |
 | :o_icon_o_icon_file: | `file` | fa-solid | `o_icon_file` | 3 |
 |  |  |  | `o_icon_inspection` | 8 |
 |  |  |  | `o_icon_pf_entry` | 3 |

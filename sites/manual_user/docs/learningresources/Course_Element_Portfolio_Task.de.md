@@ -5,7 +5,7 @@
 
 Name | Portfolioaufgabe
 ---------|----------
-Icon | :fontawesome-solid-briefcase:
+Icon | :o_icon_o_ep_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Bereitstellung einer Portolio-Mappe für jeden/jede Kursteilnehmer:in zur Bearbeitung 

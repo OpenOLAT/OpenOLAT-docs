@@ -5,7 +5,7 @@
 
 Name | Auswahl
 ---------|----------
-Icon | :fontawesome-solid-arrows-turn-right:
+Icon | :o_icon_o_icon_cns:
 Verfügbar seit | Release 19.1
 Funktionsgruppe | Andere
 Verwendungszweck | Auswahl einer bestimmten Anzahl Kursbausteine innerhalb der Kursstruktur (Kursmenü) durch die Teilnehmer:innen

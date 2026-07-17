@@ -4,7 +4,7 @@
 
 Name | Wiki
 ---------|----------
-Icon | :fontawesome-solid-globe:
+Icon | :o_icon_o_wiki_icon:
 Available since | 
 Functional group | Communication and collaboration
 Purpose | Collaborative content creation

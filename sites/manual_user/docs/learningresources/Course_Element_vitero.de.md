@@ -4,7 +4,7 @@
 
 Name | vitero
 ---------|----------
-Icon | :fontawesome-solid-tv:
+Icon | :o_icon_o_vitero_icon:
 Verfügbar seit | 
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software vitero

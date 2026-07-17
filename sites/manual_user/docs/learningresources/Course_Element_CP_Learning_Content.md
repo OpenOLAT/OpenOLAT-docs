@@ -5,7 +5,7 @@
 
 Name | CP learning content
 ---------|----------
-Icon | :fontawesome-solid-box-archive:
+Icon | :o_icon_o_cp_icon:
 Available since | New edition with release 16.2
 Functional group | Knowledge transfer
 Purpose | Display learning content in IMS CP format

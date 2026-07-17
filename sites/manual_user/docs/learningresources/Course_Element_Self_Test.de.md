@@ -5,7 +5,7 @@
 
 Name | Selbsttest
 ---------|----------
-Icon | :fontawesome-solid-square-pen:
+Icon | :o_icon_o_iqself_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs

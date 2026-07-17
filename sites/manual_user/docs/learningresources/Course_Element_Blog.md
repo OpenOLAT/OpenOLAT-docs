@@ -5,7 +5,7 @@
 
 Name | Blog
 ---------|----------
-Icon | :fontawesome-solid-bullhorn:
+Icon | :o_icon_o_blog_icon:
 Available since | 
 Functional group | Knowledge transfer
 Purpose | Information of course participants about current topics

@@ -4,7 +4,7 @@
 
 Name | Video Livestream
 ---------|----------
-Icon | :fontawesome-solid-video:
+Icon | :o_icon_o_livestream_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige eines Video-Livestreams (von dem/der Administrator:in eingerichtet)

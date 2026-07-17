@@ -4,7 +4,7 @@
 
 Name | Document
 ---------|----------
-Icon | :fontawesome-regular-file:
+Icon | :o_icon_o_filetype_file:
 Available since | Release 15.3
 Functional group | Knowledge Transfer
 Purpose | Provision of various documents, also for joint editing

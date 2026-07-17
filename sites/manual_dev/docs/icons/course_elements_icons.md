@@ -1,82 +1,81 @@
 # Course Elements — Icon Reference
 
-This page lists all course elements with their icons and the MkDocs syntax for use in the OpenOLAT manual.
+This page lists every course element with its real OpenOlat icon, ready to use in the manual.
 
-**Usage:** Insert an icon into a manual page using MkDocs syntax, e.g.:
+Icons are rendered with the `:o_icon_<class>:` syntax — a MkDocs hook (`hooks/oo_icons.py`) that turns the token directly into `<i class="o_icon <class>" aria-hidden="true"></i>`, styled by `docs/stylesheets/oo-docs.css` (synced from OpenOlat's own `_icons.scss` via `bin/sync_docs_css.py`). This shows the exact icon OpenOlat uses — including the custom OpenOlat-font glyphs and layered/mirrored icons that a FontAwesome substitute could never reproduce.
+
+**Usage:** insert an icon into a manual page with its CSS class, e.g.:
 
 ```
-:fontawesome-solid-cubes: Structure
+:o_icon_o_st_icon: Structure
 ```
-
-**Sources:** `CourseNodeConfiguration.getIconCSSClass()` + `_icons.scss` · As of: 2026-06-08  
-**Font Awesome:** 6.5.2 · **MkDocs Extension:** `pymdownx.emoji` with `materialx.emoji.to_svg`
 
 ---
 
 ## Content
 
-| Icon | Name DE | Name EN | Alias | CSS Class | MkDocs Syntax |
-|------|---------|---------|-------|-----------|---------------|
-| :fontawesome-regular-folder-open: | Ablageordner | Folder | `bc` | `o_bc_icon` | `:fontawesome-regular-folder-open:` |
-| :fontawesome-solid-bullhorn: | Blog | Blog | `blog` | `o_blog_icon` | `:fontawesome-solid-bullhorn:` |
-| :fontawesome-regular-file: | Dokument | Document | `document` | `o_filetype_file` | `:fontawesome-regular-file:` |
-| :fontawesome-solid-arrow-up-right-from-square: | Externe Seite | External Page | `tu` | `o_tu_icon` | `:fontawesome-solid-arrow-up-right-from-square:` |
-| :fontawesome-regular-file-lines: | HTML-Seite | HTML Page | `sp` | `o_sp_icon` | `:fontawesome-regular-file-lines:` |
-| :fontawesome-solid-file-lines: | Inhaltsseite (Seite) | Page | `cepage` | `o_page_icon` | `:fontawesome-solid-file-lines:` |
-| :fontawesome-solid-box-archive: | CP-Lerninhalt | CP Learning Content | `cp` | `o_cp_icon` | `:fontawesome-solid-box-archive:` |
-| :fontawesome-solid-link: | Linkliste | Link List | `ll` | `o_ll_icon` | `:fontawesome-solid-link:` |
-| :fontawesome-solid-podcast: | Podcast | Podcast | `podcast` | `o_podcast_icon` | `:fontawesome-solid-podcast:` |
-| :fontawesome-solid-box-archive: | SCORM 1.2 | SCORM 1.2 | `scorm` | `o_scorm_icon` | `:fontawesome-solid-box-archive:` |
-| :fontawesome-solid-cubes: | Struktur | Structure | `st` | `o_st_icon` | `:fontawesome-solid-cubes:` |
-| :fontawesome-solid-film: | Video | Video | `video` | `o_icon_video` | `:fontawesome-solid-film:` |
-| :fontawesome-solid-video: | Video Livestream | Video Live Stream | `livestream` | `o_livestream_icon` | `:fontawesome-solid-video:` |
-| :fontawesome-solid-globe: | Wiki | Wiki | `wiki` | `o_wiki_icon` | `:fontawesome-solid-globe:` |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_bc_icon: | Ablageordner | Folder | `bc` | `o_bc_icon` |
+| :o_icon_o_blog_icon: | Blog | Blog | `blog` | `o_blog_icon` |
+| :o_icon_o_filetype_file: | Dokument | Document | `document` | `o_filetype_file` |
+| :o_icon_o_tu_icon: | Externe Seite | External Page | `tu` | `o_tu_icon` |
+| :o_icon_o_sp_icon: | HTML-Seite | HTML Page | `sp` | `o_sp_icon` |
+| :o_icon_o_page_icon: | Inhaltsseite (Seite) | Page | `cepage` | `o_page_icon` |
+| :o_icon_o_cp_icon: | CP-Lerninhalt | CP Learning Content | `cp` | `o_cp_icon` |
+| :o_icon_o_ll_icon: | Linkliste | Link List | `ll` | `o_ll_icon` |
+| :o_icon_o_podcast_icon: | Podcast | Podcast | `podcast` | `o_podcast_icon` |
+| :o_icon_o_scorm_icon: | SCORM 1.2 | SCORM 1.2 | `scorm` | `o_scorm_icon` |
+| :o_icon_o_st_icon: | Struktur | Structure | `st` | `o_st_icon` |
+| :o_icon_o_icon_video: | Video | Video | `video` | `o_icon_video` |
+| :o_icon_o_livestream_icon: | Video Livestream | Video Live Stream | `livestream` | `o_livestream_icon` |
+| :o_icon_o_wiki_icon: | Wiki | Wiki | `wiki` | `o_wiki_icon` |
 
 ---
 
 ## Collaboration
 
-| Icon | Name DE | Name EN | Alias | CSS Class | MkDocs Syntax |
-|------|---------|---------|-------|-----------|---------------|
-| *(compound)* | Dateidiskussion | File Dialog | `dialog` | `o_dialog_icon` | ⚠ Compound — see below |
-| :fontawesome-regular-envelope: | E-Mail | E-Mail | `co` | `o_co_icon` | `:fontawesome-regular-envelope:` |
-| :fontawesome-regular-comments: | Forum | Forum | `fo` | `o_fo_icon` | `:fontawesome-regular-comments:` |
-| :fontawesome-solid-circle-info: | Mitteilungen | Notifications | `info` | `o_infomsg_icon` | `:fontawesome-solid-circle-info:` |
-| :fontawesome-solid-users: | Teilnehmerliste | Participant List | `cmembers` | `o_cmembers_icon` | `:fontawesome-solid-users:` |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_dialog_icon:{: style="padding-right:4px;" } | Dateidiskussion | File Dialog | `dialog` | `o_dialog_icon` |
+| :o_icon_o_co_icon: | E-Mail | E-Mail | `co` | `o_co_icon` |
+| :o_icon_o_fo_icon: | Forum | Forum | `fo` | `o_fo_icon` |
+| :o_icon_o_infomsg_icon: | Mitteilungen | Notifications | `info` | `o_infomsg_icon` |
+| :o_icon_o_cmembers_icon: | Teilnehmerliste | Participant List | `cmembers` | `o_cmembers_icon` |
 
 ---
 
 ## Assessment & Tasks
 
-| Icon | Name DE | Name EN | Alias | CSS Class | MkDocs Syntax |
-|------|---------|---------|-------|-----------|---------------|
-| :fontawesome-solid-list-check: | Aufgabe | Task | `ita` | `o_gta_icon` | `:fontawesome-solid-list-check:` |
-| :fontawesome-solid-list-check: | Gruppenaufgabe | Group Task | `gta` | `o_gta_icon` | `:fontawesome-solid-list-check:` |
-| :fontawesome-regular-thumbs-up: | Bewertung | Assessment | `ms` | `o_ms_icon` | `:fontawesome-regular-thumbs-up:` |
-| :fontawesome-regular-square-check: | Checkliste | Checklist | `checklist` | `o_cl_icon` | `:fontawesome-regular-square-check:` |
-| :fontawesome-solid-briefcase: | Portfolioaufgabe | Portfolio Task | `ep` | `o_ep_icon` | `:fontawesome-solid-briefcase:` |
-| :fontawesome-regular-clipboard: | Formular | Form | `form` | `o_icon_form` | `:fontawesome-regular-clipboard:` |
-| :fontawesome-solid-square-pen: | Selbsttest | Self-Test | `iqself` | `o_iqself_icon` | `:fontawesome-solid-square-pen:` |
-| :fontawesome-solid-square-pen: | Test / Prüfung | Test | `iqtest` | `o_iqtest_icon` | `:fontawesome-solid-square-pen:` |
-| :fontawesome-regular-futbol: | Übung | Practice | `practice` | `o_practice_icon` | `:fontawesome-regular-futbol:` |
-| :fontawesome-solid-sliders: | Umfrage | Survey | `survey` | `o_survey_icon` | `:fontawesome-solid-sliders:` |
-| *(compound)* | Videoaufgabe | Video Task | `videotask` | `o_icon_videotask` | ⚠ Compound — see below |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_gta_icon: | Aufgabe | Task | `ita` | `o_gta_icon` |
+| :o_icon_o_gta_icon: | Gruppenaufgabe | Group Task | `gta` | `o_gta_icon` |
+| :o_icon_o_ms_icon: | Bewertung | Assessment | `ms` | `o_ms_icon` |
+| :o_icon_o_cl_icon: | Checkliste | Checklist | `checklist` | `o_cl_icon` |
+| :o_icon_o_ep_icon: | Portfolioaufgabe | Portfolio Task | `ep` | `o_ep_icon` |
+| :o_icon_o_icon_form: | Formular | Form | `form` | `o_icon_form` |
+| :o_icon_o_iqself_icon: | Selbsttest | Self-Test | `iqself` | `o_iqself_icon` |
+| :o_icon_o_iqtest_icon: | Test / Prüfung | Test | `iqtest` | `o_iqtest_icon` |
+| :o_icon_o_practice_icon: | Übung | Practice | `practice` | `o_practice_icon` |
+| :o_icon_o_survey_icon: | Umfrage | Survey | `survey` | `o_survey_icon` |
+| :o_icon_o_icon_videotask: | Videoaufgabe | Video Task | `videotask` | `o_icon_videotask` |
 
 ---
 
 ## Administration & Organization
 
-| Icon | Name DE | Name EN | Alias | CSS Class | MkDocs Syntax |
-|------|---------|---------|-------|-----------|---------------|
-| :fontawesome-solid-right-to-bracket: | Einschreibung | Enrolment | `en` | `o_en_icon` | `:fontawesome-solid-right-to-bracket:` |
-| :fontawesome-regular-calendar-days: | Kalender | Calendar | `cal` | `o_cal_icon` | `:fontawesome-regular-calendar-days:` |
-| :fontawesome-solid-inbox: | Teilnehmerordner | Participant Folder | `pf` | `o_pf_icon` | `:fontawesome-solid-inbox:` |
-| :fontawesome-regular-calendar-check: | Terminplanung | Appointment Scheduling | `appointments` | `o_appointment_icon` | `:fontawesome-regular-calendar-check:` |
-| :fontawesome-regular-calendar: | Terminvergabe | Assignment of Dates | `den` | `o_den_icon` | `:fontawesome-regular-calendar:` |
-| :fontawesome-solid-clipboard-list: | Themenbörse | Topic Broker | `topicbroker` | `o_icon_topicbroker` | `:fontawesome-solid-clipboard-list:` |
-| :fontawesome-regular-circle: | Themenvergabe (alt) | Topic Assignment | `projectbroker` | `o_projectbroker_icon` | `:fontawesome-regular-circle:` |
-| :fontawesome-solid-arrows-turn-right: | Auswahl | Selection | `cns` | `o_icon_cns` | `:fontawesome-solid-arrows-turn-right:` + `transform: scaleY(-1)` |
-| :fontawesome-solid-up-right-from-square: | LTI-Seite | LTI Page | `lti` | `o_lti_icon` | `:fontawesome-solid-up-right-from-square:` |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_en_icon: | Einschreibung | Enrolment | `en` | `o_en_icon` |
+| :o_icon_o_cal_icon: | Kalender | Calendar | `cal` | `o_cal_icon` |
+| :o_icon_o_pf_icon: | Teilnehmerordner | Participant Folder | `pf` | `o_pf_icon` |
+| :o_icon_o_appointment_icon: | Terminplanung | Appointment Scheduling | `appointments` | `o_appointment_icon` |
+| :o_icon_o_den_icon: | Terminvergabe | Assignment of Dates | `den` | `o_den_icon` |
+| :o_icon_o_icon_topicbroker: | Themenbörse | Topic Broker | `topicbroker` | `o_icon_topicbroker` |
+| :o_icon_o_projectbroker_icon: | Themenvergabe (alt) | Topic Assignment | `projectbroker` | `o_projectbroker_icon` |
+| :o_icon_o_icon_cns: | Auswahl | Selection | `cns` | `o_icon_cns` |
+| :o_icon_o_lti_icon: | LTI-Seite | LTI Page | `lti` | `o_lti_icon` |
 
 ---
 
@@ -84,46 +83,27 @@ This page lists all course elements with their icons and the MkDocs syntax for u
 
 ### Virtual Classroom
 
-| Icon | Name DE | Name EN | Alias | CSS Class | MkDocs Syntax |
-|------|---------|---------|-------|-----------|---------------|
-| :fontawesome-solid-tv: | BigBlueButton | BigBlueButton | `bigbluebutton` | `o_vc_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | Zoom | Zoom | `zoom` | `o_vc_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | Microsoft Teams | Microsoft Teams | `msteams` | `o_vc_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | vitero | vitero | `vitero` | `o_vitero_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | Adobe Connect | Adobe Connect | `adobeconnect` | `o_vc_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | GoToMeeting | GoToMeeting | `gotomeeting` | `o_gotomeeting_icon` | `:fontawesome-solid-tv:` |
-| :fontawesome-solid-tv: | OpenMeetings | OpenMeetings | `openmeetings` | `o_openmeetings_icon` | `:fontawesome-solid-tv:` |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_vc_icon: | BigBlueButton | BigBlueButton | `bigbluebutton` | `o_vc_icon` |
+| :o_icon_o_vc_icon: | Zoom | Zoom | `zoom` | `o_vc_icon` |
+| :o_icon_o_vc_icon: | Microsoft Teams | Microsoft Teams | `msteams` | `o_vc_icon` |
+| :o_icon_o_vitero_icon: | vitero | vitero | `vitero` | `o_vitero_icon` |
+| :o_icon_o_vc_icon: | Adobe Connect | Adobe Connect | `adobeconnect` | `o_vc_icon` |
+| :o_icon_o_gotomeeting_icon: | GoToMeeting | GoToMeeting | `gotomeeting` | `o_gotomeeting_icon` |
+| :o_icon_o_openmeetings_icon: | OpenMeetings | OpenMeetings | `openmeetings` | `o_openmeetings_icon` |
 
 ---
 
 ### Third-party Integrations
 
-> **Note:** These icons use the proprietary OpenOLAT font (woff2, Private Use Area). There is currently **no direct MkDocs syntax** available — a custom solution is required (e.g. embedded SVG or PNG).
+These use OpenOlat's own custom icon font (fontello-built) rather than FontAwesome — glyphs FontAwesome doesn't have for these external brands. The `:o_icon_<class>:` syntax renders them exactly like any other icon on this page; no special handling needed.
 
-| Name DE | Name EN | Alias | CSS Class | OO Font Codepoint |
-|---------|---------|-------|-----------|-------------------|
-| card2brain Lernkarten | card2brain Flashcards | `card2brain` | `o_card2brain_icon` | `U+E800` |
-| edu-sharing | edu-sharing | `edusharing` | `o_edusharing_icon` | `U+E803` |
-| Edubase | Edubase | `edubase` | `o_edubase_icon` | `U+E885` |
-| JupyterHub | JupyterHub | `jupyterHub` | `o_jupyter_icon` | `U+E903` |
-| MediaSite | MediaSite | `mediaSite` | `o_mediasite_icon` | `U+E902` |
-| Opencast | Opencast | `opencast` | `o_opencast_icon` | `U+E804` |
-
----
-
-## Special Cases
-
-### Compound Icons
-
-These icons consist of two overlapping FA icons. Direct rendering in MkDocs is not possible — alternatives: use a PNG file or embed an SVG.
-
-| Name DE | Base Icon | Overlay Icon | HTML (OO internal) |
-|---------|-----------|--------------|--------------------|
-| Dateidiskussion | `far fa-file` | `fas fa-comment` | `<span class="compound"><i class="far fa-file"></i><span class="over"><i class="fas fa-comment"></i></span></span>` |
-| Videoaufgabe | `fas fa-circle` | `fas fa-video` | `<span class="compound"><i class="fas fa-circle"></i><span class="over"><i class="fas fa-video"></i></span></span>` |
-
-### Transform Icons
-
-| Name DE | CSS Class | MkDocs Syntax | Transform |
-|---------|-----------|---------------|-----------|
-| Auswahl | `o_icon_cns` | `:fontawesome-solid-arrows-turn-right:` | `transform: scaleY(-1)` — mirroring required |
+| Icon | Name DE | Name EN | Alias | CSS Class |
+|------|---------|---------|-------|-----------|
+| :o_icon_o_card2brain_icon: | card2brain Lernkarten | card2brain Flashcards | `card2brain` | `o_card2brain_icon` |
+| :o_icon_o_edusharing_icon: | edu-sharing | edu-sharing | `edusharing` | `o_edusharing_icon` |
+| :o_icon_o_edubase_icon: | Edubase | Edubase | `edubase` | `o_edubase_icon` |
+| :o_icon_o_jupyter_icon: | JupyterHub | JupyterHub | `jupyterHub` | `o_jupyter_icon` |
+| :o_icon_o_mediasite_icon: | MediaSite | MediaSite | `mediaSite` | `o_mediasite_icon` |
+| :o_icon_o_opencast_icon: | Opencast | Opencast | `opencast` | `o_opencast_icon` |

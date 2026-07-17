@@ -4,7 +4,7 @@
 
 Name | Forum
 ---------|----------
-Icon | :fontawesome-regular-comments:
+Icon | :o_icon_o_fo_icon:
 Available since | New edition with release 18
 Functional group | Communication and collaboration
 Purpose | Asynchronous online discussions

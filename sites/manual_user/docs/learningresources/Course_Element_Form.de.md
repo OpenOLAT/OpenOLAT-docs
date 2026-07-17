@@ -5,7 +5,7 @@
 
 Name | Formular
 ---------|----------
-Icon | :fontawesome-regular-clipboard:
+Icon | :o_icon_o_icon_form:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zur Integration der Lernressource "Formular"

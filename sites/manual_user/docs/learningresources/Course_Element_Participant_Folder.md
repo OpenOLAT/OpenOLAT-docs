@@ -4,7 +4,7 @@
 
 Name | Participant Folder
 ---------|----------
-Icon | :fontawesome-solid-inbox:
+Icon | :o_icon_o_pf_icon:
 Available since | updated in release 18.0
 Functional group | Communication and collaboration
 Purpose | File exchange between participants and coaches (per participant a drop box and a return box)

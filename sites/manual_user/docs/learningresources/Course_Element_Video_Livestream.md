@@ -4,7 +4,7 @@
 
 Name | Video Livestream
 ---------|----------
-Icon | :fontawesome-solid-video:
+Icon | :o_icon_o_livestream_icon:
 Available since | 
 Functional group | Knowledge transdfer
 Purpose | Display of a live video stream (set up by the administrator)

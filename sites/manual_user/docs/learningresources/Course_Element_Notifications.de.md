@@ -5,7 +5,7 @@
 
 Name | Mitteilungen
 ---------|----------
-Icon | :fontawesome-solid-circle-info:
+Icon | :o_icon_o_infomsg_icon:
 Verfügbar seit | Neuauflage mit Release 18
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Mitteilungen innerhalb der Kursstruktur (Kursmenü)

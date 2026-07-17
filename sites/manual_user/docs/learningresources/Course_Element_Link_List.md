@@ -5,7 +5,7 @@
 
 Name | Link list
 ---------|----------
-Icon | :fontawesome-solid-link:
+Icon | :o_icon_o_ll_icon:
 Available since | 
 Functional group | Others
 Purpose | Link collections within the course structure (course menu)

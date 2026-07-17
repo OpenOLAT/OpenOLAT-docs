@@ -5,7 +5,7 @@
 
 Name | SCORM
 ---------|----------
-Icon | :fontawesome-solid-box-archive:
+Icon | :o_icon_o_scorm_icon:
 Functional group | Knowledge transfer
 Purpose | Integration of SCORM packages, created with other authoring tools
 Assessable | yes

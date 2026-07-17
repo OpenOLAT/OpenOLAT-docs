@@ -5,7 +5,7 @@
 
 Name | Task
 ---------|----------
-Icon | :fontawesome-regular-futbol:
+Icon | :o_icon_o_gta_icon:
 Available since | Release 17
 Functional group | Assessment
 Purpose | Knowledge transfer and self-examination. A defined number of questions must be answered. Questions that are not answered correctly are asked again and repeated according to the flashcard principle. 

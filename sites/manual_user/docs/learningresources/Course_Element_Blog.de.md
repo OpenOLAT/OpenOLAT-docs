@@ -4,7 +4,7 @@
 
 Name | Blog
 ---------|----------
-Icon | :fontawesome-solid-bullhorn:
+Icon | :o_icon_o_blog_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Information von Kursteilnehmer:innen über aktuelle Themen

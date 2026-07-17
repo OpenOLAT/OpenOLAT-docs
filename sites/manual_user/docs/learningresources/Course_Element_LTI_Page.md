@@ -5,7 +5,7 @@
 
 Name | LTI Page
 ---------|----------
-Icon | :fontawesome-solid-up-right-from-square:
+Icon | :o_icon_o_lti_icon:
 Available since |  Release 15.5 (beta)
 Functional group | Others
 Purpose | Integration of external learning applications

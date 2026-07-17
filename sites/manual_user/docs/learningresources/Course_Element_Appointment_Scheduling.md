@@ -5,7 +5,7 @@
 
 Name | Appointment scheduling
 ---------|----------
-Icon | :fontawesome-regular-calendar-check:
+Icon | :o_icon_o_appointment_icon:
 Available since | Release 15.3
 Functional group | Administration and organisation
 Purpose | Appointment finding and enrolment for specific joint appointments

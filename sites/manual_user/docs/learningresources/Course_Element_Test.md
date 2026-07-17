@@ -5,7 +5,7 @@
 
 Name | Test
 ---------|----------
-Icon | :fontawesome-solid-square-pen:
+Icon | :o_icon_o_iqtest_icon:
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource test into a course
 Assessable | yes

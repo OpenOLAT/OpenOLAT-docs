@@ -4,7 +4,7 @@
 
 Name | Dokument
 ---------|----------
-Icon | :fontawesome-regular-file:
+Icon | :o_icon_o_filetype_file:
 Verfügbar seit | Release 15.3
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung verschiedener Dokumente, auch zur gemeinsamen Bearbeitung

@@ -4,7 +4,7 @@
 
 Name | Ordner
 ---------|----------
-Icon | :fontawesome-regular-folder-open:
+Icon | :o_icon_o_bc_icon:
 Verfügbar seit | Neuauflage mit Release 19.1
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von Dateien zum Download (z.B. Material zum Kurs)

@@ -4,7 +4,7 @@
 
 Name | External page
 ---------|----------
-Icon | :fontawesome-solid-arrow-up-right-from-square:
+Icon | :o_icon_o_tu_icon:
 Available since | New edition with release 18
 Functional group | Knowledge transfer
 Purpose | Display external web content within an OpenOlat course and integration in the course navigation

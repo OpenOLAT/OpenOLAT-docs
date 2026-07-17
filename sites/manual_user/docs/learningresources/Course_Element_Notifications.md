@@ -5,7 +5,7 @@
 
 Name | Notifications
 ---------|----------
-Icon | :fontawesome-solid-circle-info:
+Icon | :o_icon_o_infomsg_icon:
 Available since | New edition with release 18
 Functional group | Administration and organisation
 Purpose | Notifications in the course structure (course menu)

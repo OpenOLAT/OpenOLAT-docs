@@ -4,7 +4,7 @@
 
 Name | Themenbörse
 ---------|----------
-Icon | :fontawesome-solid-clipboard-list:
+Icon | :o_icon_o_icon_topicbroker:
 Verfügbar seit | Release 19
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | eigenständige Eintragung der Teilnehmer:innen zur Bearbeitung bestimmter Themen

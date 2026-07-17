@@ -4,7 +4,7 @@
 
 Name | HTML-Seite
 ---------|----------
-Icon | :fontawesome-regular-file-lines:
+Icon | :o_icon_o_sp_icon:
 Verfügbar seit | Neuauflage mit Release 18
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Darstellung verschiedener Inhalte (Texte, Bilder, Videos) innerhalb einer HTML-Seite

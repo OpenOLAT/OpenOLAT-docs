@@ -4,7 +4,7 @@
 
 Name | Umfrage
 ---------|----------
-Icon | :fontawesome-solid-sliders:
+Icon | :o_icon_o_survey_icon:
 Verfügbar seit | 
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zur Integration der Lernressource "Formular"

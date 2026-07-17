@@ -5,7 +5,7 @@
 
 Name | CP-Lerninhalt
 ---------|----------
-Icon | :fontawesome-solid-box-archive:
+Icon | :o_icon_o_cp_icon:
 Verfügbar seit | Neuauflage mit Release 16.2
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format
