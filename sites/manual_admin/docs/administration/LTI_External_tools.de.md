@@ -26,7 +26,7 @@ Für jedes externe Tool muss eine eigene Konfiguration eingerichtet werden. Verw
 
 !!! info "Hinweis"
 
-    Wird ein externes Tool in mehreren verschiedenen OpenOlat-Kursen genutzt, genügt es, auf Administratorenebene das externe Tool nur einmal zu konfigurieren. Die weiteren Konfiguration pro Kurs werden dann in den Einstellungen des jeweiligen Kurses durch die Kursbesitzer:innen vorgenommen<br> (Kursadministration > Einstellungen > Tab Seiteninhalt).
+    Wird ein externes Tool in mehreren verschiedenen OpenOlat-Kursen genutzt, genügt es, auf Administratorenebene das externe Tool nur einmal zu konfigurieren. Die weiteren Konfiguration pro Kurs werden dann in den Einstellungen des jeweiligen Kurses durch die Kursbesitzer:innen vorgenommen:<br>`Kursadministration > Einstellungen > Tab Seiteninhalt`
 
 
 
@@ -42,7 +42,7 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 | Name des Tools		| Frei definierbar |
 | Tool URL				| URL zum externen Tool |
 | Client-ID				| Client ID aus dem Dialog «Platform configuration details» des externen Tools |
-| Mit Shared Deployment | Wenn aktiviert, wird eine Deployment ID generiert, die dazu verwendet werden kann, das Tool zu identifizieren. |
+| Mit Shared Deployment | Bestimmt, ob das Tool als globales oder lokales Deployment eingebunden wird (siehe Erklärung unterhalb der Tabelle). Ist die Option aktiviert, wird eine Deployment ID generiert, mit der das Tool identifiziert wird. |
 | Deployment ID         | Einige LTI Tools verwenden eine Deployment ID, andere nicht.  |
 | Öffentlicher Schlüsseltyp | RSA-Schlüssel |
 | Öffentlicher Schlüssel |  |
@@ -55,6 +55,16 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 | URL des öffentlichen Schlüsselbundes | OAuth braucht Private Public Key Verschlüsselung. An diese URL liefert OpenOlat den Public Key, der oben definiert wurde, aus.  |
 
 ![LTI_admin_tool_config_v2_de.png](assets/LTI_admin_tool_config_v2_de.png){ class="lightbox" }
+
+
+### Globales oder lokales Deployment {: #deployment_scope}
+
+Über die Option "Mit Shared Deployment" legen Sie fest, wie das externe Tool eingebunden wird:
+
+* **Aktiviert (globales Deployment):** OpenOlat erzeugt eine gemeinsame Deployment ID. Dasselbe Tool kann damit in mehreren Kursen wiederverwendet werden, ohne es pro Kurs neu konfigurieren zu müssen.
+* **Deaktiviert (lokales Deployment):** Für jeden Kurs wird ein eigenes Deployment angelegt. Das Tool ist dann nur im jeweiligen Kurs verfügbar.
+
+Die Deployment-Art wird beim Anlegen des Tools festgelegt und kann nachträglich nicht mehr geändert werden.
 
 
 ## Weiterführende Informationen {: #further_information}
