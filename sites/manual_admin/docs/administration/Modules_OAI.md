@@ -45,7 +45,7 @@ Metadaten | OAI OpenOlat | OAI DublinCore
  canCopy | **x** | --
  canReference | **x** | --
  status_published_date | **x** | --
- language  |**x** (mainlanguage) | **x**  
+ language  |**x** (mainlanguage) | **x**
  license_name | **x** | **x** (rights = + license_licensor)
  license_licensor | **x** | --
  sets | **x** | **x**
@@ -82,8 +82,17 @@ Different sets can be selected. Sets categorize the metadata of learning resourc
 
 ## Search Engine Optimization
 
+!!! danger "⚡ New image required"
+    The screenshot still shows the previous state: the two new fields "Organisation name" and "Keywords" are missing. The new screenshot must show both fields in the Search Engine Optimization section (visible when search engine publishing is enabled).
+
 ![Search engine sektion](assets/oai-seo.jpg)
 
 This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemapxml which is mainly used by google and [indexnow](https://www.indexnow.org/index) by bing and others. This collection is actively triggered once a week.
 
 If you have your own search engine index, you can enter its url under "custom".
+
+Additionally, you can set two values for the search engine metadata. Both fields are optional; if left empty, the system uses the default values.
+
+**Organisation name**: Overrides the organisation name used in the search engine metadata (for example in the Open Graph field "og:site_name"). If left empty, the name of the default organisation is used.
+
+**Keywords**: Override the global meta keywords (meta tag "keywords") output on all pages. If left empty, the system uses the preset keywords.
