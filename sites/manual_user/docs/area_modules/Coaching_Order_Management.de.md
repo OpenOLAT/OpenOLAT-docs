@@ -27,6 +27,8 @@ Ferner können auch weitere Korrektor:innen einem Test hinzugefügt oder bestehe
 
 Ein Hinzufügen von Korrektor:innen ist ebenfalls direkt bei der jeweiligen [Test-Lernressource](../learningresources/Test_settings.de.md) möglich.
 
+Über den Button "Report herunterladen" erzeugen Sie hier eine Excel-Datei mit dem aktuellen Stand des Korrektur-Workflows. Aufbau und Filter des Reports beschreibt der Abschnitt [Test-Einstellungen, Report / Excel-Export](../learningresources/Test_settings.de.md#correction-workflow). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+
 
 
 [Zum Seitenanfang ^](#order_management)

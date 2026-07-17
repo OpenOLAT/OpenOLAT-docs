@@ -10,6 +10,7 @@ Sie finden auf der Einstiegsseite je nach Konfiguration und Gestaltung
 * ein Eingabefeld für den Benutzernamen
 * ein Eingabefeld für das Passwort (aus Sicherheitsgründen meistens in einem zweiten Schritt)
 * je nach Sicherheitsstufe (mit oder ohne Passkey) eine Aufforderung zur Bestätigung
+* je nach Konfiguration die Eingabe eines [One Time Code](One_Time_Code.de.md) (Bestätigungscode per E-Mail) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 * einen Button für das OpenOlat-Login
 * evtl. verschiedene Buttons von anderen Authentifizierungsdiensten
 * einen Button/Link zur Selbstregistrierung

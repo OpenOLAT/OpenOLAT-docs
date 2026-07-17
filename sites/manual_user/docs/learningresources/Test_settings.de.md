@@ -158,6 +158,17 @@ Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist
 
 Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektoren angezeigt und nach verschiedenen Kriterien gefiltert werden.
 
+### Report / Excel-Export [:octicons-tag-16:{ title="ab Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+
+Im Tab "Korrektoren" erzeugen Sie über den Button "Report herunterladen" eine Excel-Datei mit dem aktuellen Stand des Korrektur-Workflows. Vor dem Download legen Sie den Umfang fest:
+
+* Mit dem Schalter "Nur erledigte Aufträge" beschränken Sie den Report auf abgeschlossene Korrekturaufträge.
+* Über die vordefinierten Zeiträume "Letzter Monat" und "Letztes Jahr" oder über die Felder "Erledigt am" (von und bis) grenzen Sie den Zeitraum ein. Dabei muss mindestens ein Datum angegeben werden.
+
+Der Report weist zu jedem Korrekturauftrag den Status ("Nicht zugeordnet", "Zugeteilt", "Erledigt"), das "Fälligkeitsdatum", das Datum "Erledigt am" sowie die Kennzeichnung "Frist abgelaufen" aus.
+
+Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" und "Archive". Das Worksheet "Archive" führt archivierte Korrekturauftrag-Einträge auf, deren Auftragsdatensatz inzwischen entfernt wurde (etwa weil ein Prüfling, ein Korrektor oder die Test-Lernressource gelöscht wurde), inklusive Korrekturzeit und Abschlussdatum für die Abrechnung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
+
 !!! note "Coaching Tool"
     Weitere Informationen zur kursübergreifenden Korrektur.<br>
     [Coaching Tool](../area_modules/Coaching.de.md)

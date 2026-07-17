@@ -31,6 +31,8 @@ Passkey kann rollenbasiert konfiguriert werden und ist Teil eines dreistufigen S
 
 Ist in OpenOlat eine Sicherheitsstufe mit Passkey konfiguriert worden, dann werden die Benutzer:innen bei der nächsten Anmeldung angehalten, einen Passkey zu erstellen und diesen zukünftig für die Anmeldung zu verwenden.
 
+Hat die Administration zusätzlich den One Time Code aktiviert, können sich Kontoinhaber:innen ohne hinterlegten Passkey weiterhin mit Passwort und einem Bestätigungscode per E-Mail anmelden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details dazu auf der Seite [One Time Code](One_Time_Code.de.md).
+
 
 !!! note "Hinweis"
 
