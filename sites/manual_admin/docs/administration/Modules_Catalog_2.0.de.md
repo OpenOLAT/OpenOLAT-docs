@@ -67,6 +67,11 @@ Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxo
 
 Die Angebote werden entsprechend dem definierten Taxonomielevel automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
 
+Beim Konfigurieren dieses Launchers wählen Sie über das Feld **Typ** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"}, worauf sich der Launcher bezieht:
+
+* **Taxonomie:** Auswahl einer Taxonomie aus den für den Katalog verfügbaren Taxonomien.
+* **Taxonomieebene:** Auswahl einer bestimmten Taxonomieebene.
+
 
 #### Launchertyp "Ausgewählte Lernressourcen"
 
