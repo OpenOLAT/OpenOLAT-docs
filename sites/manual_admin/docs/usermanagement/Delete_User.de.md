@@ -54,7 +54,7 @@ Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und der
 ![delete_user_var2_step1_v1_de.png](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Schritt 2:**<br>
-Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert — entsprechend den Phasen des Benutzerkonten-Lebenszyklus:
+Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert, entsprechend den Phasen des Benutzerkonten-Lebenszyklus:
 
 **Tab "Konten ohne Aktivität":** Benutzer:innen, die seit einem konfigurierten Zeitraum nicht mehr aktiv waren. Die Inaktivitätsfrist legt die Administration fest.
 
@@ -159,8 +159,8 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 |**Rolle Besitzer:in in Lernressourcen und Kurse** :octicons-package-24: | Lernressourcen und Kurse werden nicht gelöscht, wenn deren Besitzer:in gelöscht wird. Unabhängig davon, ob die Lernressource publiziert oder mit anderen Autoren geteilt oder nirgends referenziert/verwendet wurde. Wenn die gelöschte Benutzer:in der/die einzige Besitzer:in war, wird ersatzweise der/die Administrator:in als Besitzer:in eingetragen. Dies gilt auch für Test-Lernressourcen.|
 |**im Fragenpool enthaltene Fragen** :octicons-person-24: :octicons-package-24:| tbd |
 |**im Media Center erstellte Elemente** :octicons-person-24: :octicons-package-24: | Wenn ein Medium im Media Center in einem Kurs verwendet wurde, wird es nicht gelöscht.<br> Wenn es nirgends verwendet wurde, wird es gelöscht. (Auch wenn es frei gegeben, aber dann nicht verwendet wurde.) |
-|**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so werden diese in den Listen nicht mehr namentlich aufgeführt. Die Korrekturaufträge bleiben jedoch erhalten.|
-|**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer eine Korrektur vorgenommen hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.|
+|**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so werden diese in den Listen nicht mehr namentlich aufgeführt. Die zugehörigen Korrekturauftrag-Datensätze werden entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, Abschlussdatum) bleiben im Excel-Report im Worksheet "Archive" erhalten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
+|**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer eine Korrektur vorgenommen hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.  Die Korrekturauftrag-Datensätze selbst werden beim Löschen entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, Abschlussdatum) bleiben im Excel-Report im Worksheet "Archive" erhalten (siehe [Test-Einstellungen, Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)).|
 |**Statistiken** :octicons-infinity-24: |Gelöschte Benutzer:innen sind in den Statistiken besuchter Kurse nicht mehr berücksichtigt.|
 |**Umfrageergebnisse aus dem Qualitätsmanagement** :octicons-infinity-24: |Im Rahmen des Qualitätsmanagements ausgefüllte Formulare werden anonymisiert gespeichert und brauchen deshalb beim Löschen eines Benutzerkontos auch nicht gelöscht werden.|
 |**Log-Tabellen** :octicons-infinity-24:| tbd |
@@ -176,14 +176,9 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 ## Wann kann ein/eine Benutzer:in nicht gelöscht werden? {: #none_deleted_user}
 
 
-!!! warning "Attention"
+!!! warning "Achtung"
 
-    This article is still under construction.
-
-
-* Haben Benutzer:innen noch ausstehende Korrekturaufträge zu erledigen, können sie nicht gelöscht werden. 
-
-* Wenn noch Abrechnungen ausstehen (z.B. für Korrekturaufträge) können Benutzer:innen ebenfalls nicht gelöscht werden.
+    Hier wird noch fleissig gewirkt und geschrieben. Bei Fragen kontaktieren Sie gerne: support@openolat.com
 
 
 [Zum Seitenanfang ^](#delete_user)

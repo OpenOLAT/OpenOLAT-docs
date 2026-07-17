@@ -24,16 +24,24 @@ Mit einer Schaltfläche neben anderen Schaltflächen (andere Anmeldeoptionen) f�
 ![login_password_and_authentication_login_v1_de.png](assets/login_password_and_authentication_login_v1_de.png){ class="lightbox" }
 
 
-<h3>3 Sicherheitsstufe pro Rolle</h3>
+<h4>3 One Time Code</h4>
+
+Mit der Option "One Time Code verwenden" aktivieren Sie eine zusätzliche zweite Sicherheitsstufe per E-Mail. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Nach Eingabe von Benutzername und Passwort erhalten Kontoinhaber:innen einen 8-stelligen Bestätigungscode per E-Mail und schliessen die Anmeldung mit diesem Code auf einer Validierungsseite ab.
+
+Ohne aktiven Passkey ist der One Time Code die zweite Sicherheitsstufe für alle lokalen Logins. Ist zusätzlich Passkey aktiviert, dient der One Time Code als Ausweichlösung für Kontoinhaber:innen ohne hinterlegten Passkey.
+
+Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähig konfigurierter E-Mail-Versand in OpenOlat, damit der Code zugestellt werden kann.
+
+<h4>4 Sicherheitsstufe pro Rolle</h4>
 
 Mit den hier eingestellten Stufen definieren Sie die **Mindestanforderung** für die jeweilige Rolle.
 
 
-<h3>4 Sicherheitsstufe selbst erhöhen</h3>
+<h4>5 Sicherheitsstufe selbst erhöhen</h4>
 
 Mit der Optionen "Sicherheitsstufe selbst erhöhen" können die Kontoinhaber*innen selbst entscheiden, ob sie zu einer höheren Sicherheitsstufe wechseln wollen. Eine Herabstufung unter die von Administrator:innen gesetzte Mindeststufe ist nicht möglich.
 
-<h3>5 Expert</h3>
+<h4>6 Expert</h4>
 
 Wenn von einem/einer Administrator:in die Sicherheitsstufe erhöht wurde, werden die betroffenen Personen bei der Anmeldung aufgefordert, Passkey einzurichten. Mit dieser Einstellung wird bestimmt, wie oft ein Benutzer diese Aufforderung übergehen kann.
 
