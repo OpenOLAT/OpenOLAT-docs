@@ -68,7 +68,7 @@ If you have already added a portfolio template, it will appear under Selected Po
 
     In case a portfolio template has already been downloaded and edited it will no longer be possible to replace it.
 
-In the tab "Assessment" you can preconfigure the display of points, status passed/failed and individual comments. In the fields "Note for all users" and "Note for coaches" you formulate general information for the evaluation to all course participants and coaches.
+In the tab "Assessment" you can preconfigure the display of points, status passed/failed and individual comments.
 
 Further information on how learners can pick up and use a portfolio task can be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)". How teachers can evaluate a portfolio task can be found in the chapter "[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
 

@@ -73,7 +73,7 @@ If points and/or passing grades have been activated, there is another option for
 
 ### Individual comments, documents and information
 
-Activate the desired checkbox to provide learners with individual comments and/or documents, e.g. as feedback. Under "Enter advanced configurations" you can also store general information for coaches and/or all users.
+Activate the desired checkbox to provide learners with individual comments and/or documents, e.g. as feedback.
 
 ### Set "To review" status 
 If this option is activated, the status "to review" appears for the teacher and "Status" for the participant or, if not selected, "Not started" and "Information not available" for the user. Only activate the option if you really want to have the information. 

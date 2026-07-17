@@ -378,9 +378,6 @@ In the "Assessment" tab, you can also define whether the result of the specific 
 #### Individual feedbacks
 Optionally, you can also activate the option for individual comments or individual assessment documents so that coaches have even more flexible feedback options.
 
-#### Hints
-If you open the extended configuration, further configurations are available. Here you can store information texts for all learners and/or for all coaches.
-
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
 

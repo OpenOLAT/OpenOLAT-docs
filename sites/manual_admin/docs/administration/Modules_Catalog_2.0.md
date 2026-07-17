@@ -66,6 +66,11 @@ Clicking on one of the categories (taxonomy levels) displayed in a taxonomy laun
 
 The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
 
+When configuring this launcher, you use the **Type** field [:octicons-tag-16:{ title="from Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"} to define what the launcher refers to:
+
+* **Taxonomy:** Selection of a taxonomy from the taxonomies available for the catalog.
+* **Taxonomy level:** Selection of a specific taxonomy level.
+
 #### Launcher type "Selected learning resources"
 
 The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.  

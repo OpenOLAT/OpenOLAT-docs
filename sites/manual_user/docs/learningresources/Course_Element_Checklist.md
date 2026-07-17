@@ -55,10 +55,6 @@ In this tab, you can determine whether a deadline should be effective for the ch
 
  **Individual comment**: When checking this box you have the possibility to make an individual comment regarding your assessment.
 
- **Notice for all users** : Please enter a text to be displayed to all participants whenever they click on this course element.
-
- **Notice for tutors** : Please enter a text to be displayed to the tutors of the course when assessing participants.
-
 ## Tab Checkboxes [:octicons-tag-16:{ title="from Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"}
 
 In this tab you create and edit the checkboxes that the users can tick later. Click the button "Add checkbox" in order to create a new checkbox. A form opens in a pop-up.
