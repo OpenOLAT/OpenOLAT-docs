@@ -26,7 +26,7 @@ A separate configuration must be set up for each external tool. Use the "Add new
 
 !!! info "Note"
 
-	If an external tool is used in several different OpenOlat courses, it is sufficient to configure the external tool only once at administrator level. The further configuration per course is then carried out by the course owner in the settings of the respective course <br> (Course administration > Settings > Tab page content)
+	If an external tool is used in several different OpenOlat courses, it is sufficient to configure the external tool only once at administrator level. The further configuration per course is then carried out by the course owner in the settings of the respective course:<br>`Course administration > Settings > Tab page content`
 
 
 ## Configuration {: #config}
@@ -40,7 +40,7 @@ In OpenOlat, the following parameters of the external partner instance are enter
 | Tool Name		| Freely definable |
 | Tool URL				| URL to external tool |
 | Client-ID				| Client ID from the "Platform configuration details" dialog of the external tool |
-| With shared deployment | When enabled, a deployment ID is generated that can be used to identify the tool. |
+| With shared deployment | Determines whether the tool is embedded as a global or local deployment (see the explanation below the table). When enabled, a deployment ID is generated that is used to identify the tool. |
 | Deployment ID         |  Some LTI tools use a deployment ID, others do not. |
 | Public Key Type | Public key |
 | Public Key |  |
@@ -54,6 +54,15 @@ In OpenOlat, the following parameters of the external partner instance are enter
 
 ![LTI_admin_tool_config_v2_en.png](assets/LTI_admin_tool_config_v2_en.png){ class="lightbox" }
 
+
+### Global or local deployment {: #deployment_scope}
+
+The "With shared deployment" option determines how the external tool is embedded:
+
+* **Enabled (global deployment):** OpenOlat generates a shared deployment ID. The same tool can then be reused in several courses without configuring it separately for each course.
+* **Disabled (local deployment):** A separate deployment is created for each course. The tool is then only available in the respective course.
+
+The deployment type is set when the tool is created and cannot be changed afterwards.
 
 
 ## Further information {: #further_information}
