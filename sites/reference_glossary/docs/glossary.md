@@ -465,6 +465,10 @@ Predefined selection of around 30 icons from which the symbol for an external co
 
 ## Areas
 
+### Working area
+
+The area in the main navigation assigned to a role, where the tasks belonging to that role are carried out. The main navigation is composed depending on the user's roles: participants work in "Courses", coaches in "Coaching", authors in the "Authoring" area.
+
 ### Administration
 
 The system administration area for configuring modules, managing users, and system settings.
@@ -558,7 +562,7 @@ An external identifier for a learning resource, e.g. from a course catalog or le
 
 ### Grading assignment
 
-A task assigned to a corrector to manually grade a specific test submission.
+A task assigned to a corrector to manually grade a specific test submission. Completed grading assignments are additionally logged permanently and listed in the "Archive" worksheet of the Excel report, so that the data relevant for remuneration (grading time, completion date) is retained even if the assignment itself is deleted.
 
 ### Launcher
 

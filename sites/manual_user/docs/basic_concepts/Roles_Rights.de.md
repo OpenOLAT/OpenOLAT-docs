@@ -1,5 +1,8 @@
 # Rollen und Rechte: Übersicht {: #overview} 
 
+Die Hauptnavigation von OpenOlat ist rollenabhängig: Jede Aufgabe hat ihren eigenen **Arbeitsbereich**.<br>
+[Zu den Details >](Roles_Home_Areas.de.md)
+
 In OpenOlat gibt es 3 **Benutzertypen**.<br>
 [Zu den Details >](User_Types.de.md)
 

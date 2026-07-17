@@ -465,6 +465,10 @@ Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Ku
 
 ## Bereiche
 
+### Arbeitsbereich
+
+Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer/innen arbeiten unter "Kurse", Betreuer/innen im "Coaching", Autor/innen im "Autorenbereich".
+
 ### Systemadministration
 
 Der Bereich für die Systemadministration zur Konfiguration von Modulen, zur Benutzerverwaltung und für Systemeinstellungen.
@@ -558,7 +562,7 @@ Eine externe Kennung für eine Lernressource, z.B. aus einem Kurskatalog oder Vo
 
 ### Korrekturauftrag
 
-Eine Aufgabe, die einem Korrektor zur manuellen Benotung einer bestimmten Testabgabe zugewiesen wird.
+Eine Aufgabe, die einem Korrektor zur manuellen Benotung einer bestimmten Testabgabe zugewiesen wird. Abgeschlossene Korrekturaufträge werden zusätzlich dauerhaft protokolliert und im Excel-Report im Worksheet "Archive" ausgewiesen, damit die für die Vergütung relevanten Angaben (Korrekturzeit, Abschlussdatum) erhalten bleiben, auch wenn der Auftrag selbst gelöscht wird.
 
 ### Launcher
 

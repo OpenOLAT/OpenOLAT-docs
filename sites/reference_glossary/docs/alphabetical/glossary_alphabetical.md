@@ -436,7 +436,7 @@ A course element for GoToMeeting virtual meetings.
 
 ### Grading assignment
 
-A task assigned to a corrector to manually grade a specific test submission.
+A task assigned to a corrector to manually grade a specific test submission. Completed grading assignments are additionally logged permanently and listed in the "Archive" worksheet of the Excel report, so that the data relevant for remuneration (grading time, completion date) is retained even if the assignment itself is deleted.
 
 ### Group manager
 
@@ -565,10 +565,6 @@ Learning Tools Interoperability standard for external tool integration.
 ### LTI page
 
 A course element (building block) that can be added to a course structure.
-
-### Markdown import
-
-Import function of the content editor that automatically converts markdown files or pasted markdown text into content editor blocks.
 
 ### Master coach
 
@@ -993,6 +989,10 @@ A type of learning resource that can be created or imported in the authoring are
 ### Word
 
 A type of learning resource that can be created or imported in the authoring area.
+
+### Working area
+
+The area in the main navigation assigned to a role, where the tasks belonging to that role are carried out. The main navigation is composed depending on the user's roles: participants work in "Courses", coaches in "Coaching", authors in the "Authoring" area.
 
 ### Zoom
 

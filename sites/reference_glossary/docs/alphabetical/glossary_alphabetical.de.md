@@ -58,6 +58,10 @@ Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden ka
 
 Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Terminslots zugeordnet werden können.
 
+### Arbeitsbereich
+
+Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer/innen arbeiten unter "Kurse", Betreuer/innen im "Coaching", Autor/innen im "Autorenbereich".
+
 ### Audio
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -464,7 +468,7 @@ Eine Person, die manuell Testabgaben innerhalb eines Korrekturworkflows benotet.
 
 ### Korrekturauftrag
 
-Eine Aufgabe, die einem Korrektor zur manuellen Benotung einer bestimmten Testabgabe zugewiesen wird.
+Eine Aufgabe, die einem Korrektor zur manuellen Benotung einer bestimmten Testabgabe zugewiesen wird. Abgeschlossene Korrekturaufträge werden zusätzlich dauerhaft protokolliert und im Excel-Report im Worksheet "Archive" ausgewiesen, damit die für die Vergütung relevanten Angaben (Korrekturzeit, Abschlussdatum) erhalten bleiben, auch wenn der Auftrag selbst gelöscht wird.
 
 ### Kreditpunkte
 
@@ -569,10 +573,6 @@ Learning Tools Interoperability Standard zur Integration externer Werkzeuge.
 ### LTI-Seite
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
-
-### Markdown-Import
-
-Importfunktion des Content Editors, die Markdown-Dateien oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
 
 ### Massenbewertung
 

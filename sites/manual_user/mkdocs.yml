@@ -9,6 +9,7 @@ nav:
       - Terms of use: "basic_concepts/Terms_Of_Use.md"
     - Roles and Rights:
       - Overview: "basic_concepts/Roles_Rights.md"
+      - Working areas: "basic_concepts/Roles_Home_Areas.md"
       - User types: "basic_concepts/User_Types.md"
       - Roles: "basic_concepts/Roles.md"
       - Assign roles: "basic_concepts/Assign_Roles.md"
