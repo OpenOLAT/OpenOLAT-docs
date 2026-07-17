@@ -207,6 +207,8 @@ für Videoaufzeichnung, Videomanagement und Untertitelung. Das OpenOlat
 Mediasite-Modul ermöglicht es Ihnen, MediaSite-Inhalte als Einzelpräsentation,
 Kanal oder Modul in Kurse zu integrieren. 
 
+Das MediaSite-Modul lässt sich über LTI 1.1 oder LTI 1.3 mit dem MediaSite-Server verbinden [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Für LTI 1.3 wählen Sie im Feld **LTI-Version** die Version 1.3 und hinterlegen die Felder **LTI 1.3 Client ID** und **LTI 1.3 Deployment ID** sowie die vom MediaSite-Server benötigten Endpunkt-URLs. Verbindungen über LTI 1.1 bleiben unverändert nutzbar.
+
 
 [Dokumentation zu MediaSite >](https://mediasite.com/)<br>
 [Zum Seitenanfang ^](#ext_tools)
