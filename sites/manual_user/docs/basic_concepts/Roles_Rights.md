@@ -1,5 +1,8 @@
 # Roles and Rights: Overview {: #overview} 
 
+The main navigation of OpenOlat is role-dependent: every task has its own **working area**.<br>
+[More details here >](Roles_Home_Areas.md)
+
 In OpenOlat you find 3 **User types**.<br>
 [More details here >](User_Types.md)
 
