@@ -59,7 +59,7 @@ Wählen Sie diese Checkbox, wenn die LTI-Ressource Punkte erzeugen und mit dem L
 
 Wird die Option „Punkte übertragen“ aktiviert, kann die LTI-Seite als bewertbares Kurselement zum Kurs hinzugefügt werden und erscheint dann im Bewertungswerkzeug. Zusätzlich erscheinen die übermittelten Punkte beim Benutzer auf der Startseite des LTI-Bausteins.
 
-**Skalierungsfaktor:**<br
+**Skalierungsfaktor:**<br>
 Mit dem Skalierungsfaktor können Sie die LTI-Resultate, die gemäss Standard einen Wert zwischen 0 und 1 einnehmen müssen, auf einen im OpenOlat-Kurs praktischeren Wert skalieren. Möchten Sie beispielsweise in OpenOlat maximal 10 Punkte für eine LTI-Aufgabe vergeben, so müssen Sie als Skalierungsfaktor den Wert "10" eintragen. Möchten Sie die Punkte unverändert übernehmen, wählen Sie den Wert "1".
 
 **Notwendige Punktzahl für 'bestanden':**<br>
@@ -68,43 +68,15 @@ Geben Sie hier den optionalen Schwellenwert an, ab dem das LTI.Element als besta
 
 ## Daten zur Gruppe per LTI übertragen
 
+Eine OpenOlat-Gruppe wird für den LTI-Zugang genauso freigegeben wie ein Kurs. Die Freigabe erfolgt in der Gruppenverwaltung im Tab "Freigabe" im Abschnitt "LTI 1.3 Zugangskonfiguration" über die Schaltfläche "Neues Deployment hinzufügen".
 
-!!! warning "Achtung"
+Im Deployment-Dialog werden dieselben Angaben erfasst wie bei der Kursfreigabe: die zuvor konfigurierte "Plattform", die "Deployment-ID" sowie die technischen Adressen ("Tool URL", "Anmelde-URL", "Umleitungs-URL") und der "Öffentliche Schlüssel". Der ausführliche Ablauf inklusive der Gegenkonfiguration im externen LMS ist unter [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti) beschrieben und gilt für Gruppen gleichermassen.
 
-    Dieser Artikel ist noch in Bearbeitung.
+Der Austausch der Mitgliederdaten (Namen und Rollen) erfolgt über den LTI-Standarddienst "Names and Role Provisioning Service" (NRPS). Welche Mitgliederdaten übermittelt werden, bestimmt jeweils das System, das die Verbindung als Plattform bereitstellt. Die grundlegenden LTI-1.3-Einstellungen werden von den Administrator:innen unter `Administration > Externe Werkzeuge > LTI 1.3` verwaltet.
 
+## Gruppen ohne Kurszugehörigkeit
 
-
-??? Werden Informationen zu Gruppen über den Parameter "Zusätzliche Attribute" ausgetauscht?
-
-Die Informationen zu Gruppen werden als dynamische Benutzerattribute im Parameter "Zusätzliche Attribute" übergeben. Da es keine standardisierten Attribute sind, ist eine Absprachen zwischen den Administrator:innen der beiden LMS erforderlich.
-
-Beispiel: ...
-
-
-**Wieviel weiss das andere LMS von den OpenOlat-Benutzerdaten?**<br>
-Grundsätzlich kann das andere LMS nur soviel über die Benutzer und Gruppen erfahren, wie seitens OpenOlat freigegeben wurde.
-Was freigegeben ist, bestimmen 
-
-* einerseits die Administrator:innen (Administration > Externe Werkzeuge > LTI 1.3)
-* andererseits die Kursautor:innen (Kursadministration > Einstellungen > Tab Seiteninhalt) 
-
-**Wieviel erfährt OpenOlat über Benutzer/Gruppen anderer LMS?**<br>
-In umgekehrter Richtung gilt das gleiche Prinzip: Auf dem anderen LMS wird bestimmt, welche Daten frei gegeben werden. Die 
-
-
-???**Gruppen ohne Kurszugehörigkeit**
-
-??? Soll ein OpenOlat-Kurs auf einem anderen LMS genutzt werden, muss OpenOlat z.B. in diesem Kurs erworbene Punkte eindeutig bestimmten Kursteilnehmer:innen zuordnen können. Deshalb benötigt OpenOlat die Daten der Kursteilnehmer:innen. 
-
-??? Mit LTI 1.3 können aber auch unabhängig von einem Kurs Daten zu Benutzer:innen und Gruppen übertragen werden. Beispielsweise, können so z.B. lediglich die Ergebnisse einer Prüfung übertragen werden.
-
-
-xxxx
-
-Gruppen Deployment???
-
-xxxx
+Eine Gruppe kann unabhängig von einem Kurs per LTI freigegeben werden. Das ist sinnvoll, wenn nicht ein ganzer Kurs geteilt werden soll, sondern nur Daten zu Benutzer:innen und deren Gruppenzugehörigkeit ausgetauscht werden. So lassen sich beispielsweise ausschliesslich die Ergebnisse einer Prüfung übertragen, ohne den zugehörigen Kurs freizugeben.
 
 ##  Weiterführende Informationen {: #further_information}
 
