@@ -2,7 +2,7 @@
 title: Benutzer-, Administrations- und Entwicklerhandbuch für das LMS OpenOlat
 description: Offizielle Dokumentation des Lernmanagementsystems (LMS) OpenOlat -
   Benutzerhandbuch, Administrationshandbuch, Release Notes und Developer Cookbook
-  für das aktuelle Release 20.3 und ältere Versionen.
+  für das aktuelle Release 21.0 und ältere Versionen.
 hide:
   - toc
 ---
@@ -13,7 +13,7 @@ hide:
 OpenOlat ist ein webbasiertes Open Source Lernmanagementsystem (LMS) für Lehren,
 Lernen, Prüfen und Zusammenarbeiten, entwickelt von der [frentix GmbH](https://www.frentix.com).
 Diese Website ist die offizielle OpenOlat Dokumentation. Das aktuelle Release ist
-**OpenOlat 20.3**; die folgenden Handbücher dokumentieren diese Version.
+**OpenOlat 21.0**; die folgenden Handbücher dokumentieren diese Version.
 
 [Change to English version](/){ .md-button }
 
@@ -32,10 +32,11 @@ Diese Website ist die offizielle OpenOlat Dokumentation. Das aktuelle Release is
 
 ## Aktuelle Version
 
-- [OpenOlat 20.3 Benutzerhandbuch](manual_user/general/) | [Release Notes 20.3](release_notes/Release_notes_20.3.de.md)
+- [OpenOlat 21.0 Benutzerhandbuch](manual_user/general/) | 
 
 ## Ältere Versionen
 
+- [Release Notes 20.3](release_notes/Release_notes_20.3.de.md)
 - [Release Notes 20.2](release_notes/Release_notes_20.2.de.md)
 - [Release Notes 20.1](release_notes/Release_notes_20.1.de.md)
 - [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
