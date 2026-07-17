@@ -67,5 +67,16 @@ nav:
   - '': '!include ./sites/de/mkdocs.yml'
 EOF
 
-echo "Serving ${SITE} (lang=${LANG}) via mkdocs.local.yml ..."
-exec venv/bin/mkdocs serve -f mkdocs.local.yml --dirtyreload
+if [ -x "venv/bin/mkdocs" ]; then
+	MKDOCS="venv/bin/mkdocs"
+elif command -v mkdocs >/dev/null 2>&1; then
+	MKDOCS="mkdocs"
+else
+	echo "ERROR: mkdocs not found." >&2
+	echo "Either create a local venv:  python3 -m venv venv && venv/bin/pip install -r requirements.txt" >&2
+	echo "or install mkdocs globally:  pip3 install -r requirements.txt" >&2
+	exit 1
+fi
+
+echo "Serving ${SITE} (lang=${LANG}) via mkdocs.local.yml (using ${MKDOCS}) ..."
+exec "$MKDOCS" serve -f mkdocs.local.yml --dirtyreload
