@@ -177,6 +177,8 @@ Activation of MediaSite. MediaSite is an automated video platform for video
 recording, video management and subtitling. The OpenOlat Mediasite module
 allows you to integrate MediaSite content into courses as a single presentation, channel, or module. 
 
+The MediaSite module can be connected to the MediaSite server via LTI 1.1 or LTI 1.3 [:octicons-tag-16:{ title="from Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. For LTI 1.3, select version 1.3 in the **LTI version** field and enter the **LTI 1.3 Client ID** and **LTI 1.3 Deployment ID** fields as well as the endpoint URLs required by the MediaSite server. Connections via LTI 1.1 remain usable unchanged.
+
 [Documentation for MediaSite](https://mediasite.com/)
 [To the top of the page ^](#ext_tools)
 
