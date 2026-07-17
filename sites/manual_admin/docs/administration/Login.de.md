@@ -18,8 +18,8 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 
 ## Passwort und Authentifizierung {: #password_and_authentification}
 
-Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey). Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Groß- und
-Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien" kann fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
+Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey). Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Gross- und
+Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien" kann festgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
 
 [Zu den Details >](../administration/Login_Password_and_Authentication.de.md)<br>
 [Zum Seitenanfang ^](#login)
@@ -29,6 +29,8 @@ Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nich
 ## Cloud Login {: #cloud_login}
 
 Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn, X, Google, Facebook usw.  für die Authentifizierung herzustellen.
+
+Für OpenID-Connect- und OAuth-2.0-Anbindungen unterstützt OpenOlat ausschliesslich den sicheren Authorization Code Flow. Der frühere Implicit Flow wurde aus Sicherheitsgründen entfernt. Beim Anlegen eines OAuth-2.0-Providers ist im Feld "Response type" daher der Wert "code" zu wählen.
 
 [Zum Seitenanfang ^](#login)
 
