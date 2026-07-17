@@ -47,7 +47,7 @@ Metadaten | OAI OpenOlat | OAI DublinCore
  canCopy | **x** | --
  canReference | **x** | --
  status_published_date | **x** | --
- language  |**x** (mainlanguage) | **x**  
+ language  |**x** (mainlanguage) | **x**
  license_name | **x** | **x** (rights = + license_licensor)
  license_licensor | **x** | --
  sets | **x** | **x**
@@ -84,8 +84,17 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 
 ## Suchmaschinenoptimierung
 
+!!! danger "⚡ Neues Bild erforderlich"
+    Screenshot zeigt noch den alten Stand: die zwei neuen Felder "Name der Organisation" und "Stichwörter" fehlen. Der neue Screenshot muss beide Felder im Abschnitt Suchmaschinenoptimierung zeigen (sichtbar bei aktivierter Suchmaschinen-Publikation).
+
 ![Search engine sektion](assets/oai-seo.de.jpg)
 
 Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml was vorallem google benutzt und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
 
 Hat man eine eigenen Suchmaschinenindex, kann man diesen unter "benutzerdefiniert" eintragen.
+
+Zusätzlich lassen sich zwei Angaben für die Suchmaschinen-Metadaten festlegen. Beide Felder sind optional; bleiben sie leer, verwendet das System die Standardwerte.
+
+**Name der Organisation**: Überschreibt den Organisationsnamen, der in den Suchmaschinen-Metadaten verwendet wird (zum Beispiel im Open-Graph-Feld "og:site_name"). Bleibt das Feld leer, wird der Name der Standardorganisation eingesetzt.
+
+**Stichwörter**: Überschreiben die globalen Meta-Stichwörter (Meta-Tag "keywords"), die auf allen Seiten ausgegeben werden. Bleibt das Feld leer, verwendet das System die voreingestellten Stichwörter.
