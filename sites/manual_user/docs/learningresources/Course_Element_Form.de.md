@@ -17,12 +17,12 @@ Spezialität / Hinweis |
 Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md) und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standard Einstellung).
 
 Für das Ausfüllen des Kursbausteins kann im Tab "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang.
-  
+
 Betreuende sehen in der Übersichtstabelle im Kursrun welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Bereits abgegebene Formulare können zur weiteren Bearbeitung durch den Teilnehmenden vom Betreuer wieder geöffnet oder auch komplett zurückgesetzt werden. Mit Klick auf die Teilnehmenden kann das ausgefüllte Formular angesehen werden. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
 Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden bestimmte Formulare verpflichtend ausfüllen müssen, z.B. vor der Aufnahme eines Laborpraktikums oder als Bestätigung für das eigenständige Erbringen einer Leistung.
 
-!!! Info
+!!! info "Wichtig"
 
     Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht. 
 
@@ -46,7 +46,7 @@ Nach Klick auf den Button werden alle Formulare, bei denen man Besitzer:in ist, 
 
 ![Formular Auswahldialog](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
 
-Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular über den Button "Importieren" hinzugefügt werden. Anschließend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
+Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular über den Button "Importieren" hinzugefügt werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
 
@@ -79,11 +79,15 @@ Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätig
 
 ## Ansicht: Besitzer:in und Betreuer:in
 
-Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer eine Übersicht der Lernenden des Kurses und ihren Status der Bearbeitung z.B. "Nicht gestartet". Über die Filterfunktion kann auch eine bestimmte Personengruppe angezeigt werden, z.B. alle Personen, die das Formular noch nicht gestartet haben. Das eigentliche Formular sehen Besitzer:innen und Betreuer:innen hier aber nicht. Ein Export der Formulardaten ist ebenfalls möglich.
+Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer eine Übersicht der Lernenden des Kurses und ihren Status der Bearbeitung z.B. "Nicht gestartet". Über die Filterfunktion kann auch eine bestimmte Personengruppe angezeigt werden, z.B. alle Personen, die das Formular noch nicht gestartet haben. Das eigentliche Formular sehen Besitzer:innen und Betreuer:innen hier aber nicht.
 
-Besitzer:innen haben ferner noch die Möglichkeit, die Daten einzelner Personen oder alle Daten zurückzusetzen und verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
+Über den Button "Daten exportieren" oben rechts können die ausgefüllten Formulare exportiert werden. Der Export erzeugt ein Archiv mit einer Excel-Datei mit allen Formulardaten sowie je abgegebenem Formular einer PDF-Datei. Hat eine Person das Formular mehrfach ausgefüllt, erscheint jede Abgabe als separater Eintrag mit einer eigenen PDF-Datei. Markiert man einzelne Personen in der Tabelle, erscheint zusätzlich ein Button "Daten exportieren", der nur die Formulare der ausgewählten Personen berücksichtigt. Für eine einzelne Person steht im Mehr-Menü am Ende der Zeile die Aktion "Formular als PDF" zur Verfügung.
 
-![Formular Durchführung Teilnehmerliste](assets/Fromular_kursrun.png){ class="shadow lightbox" }
+Über das Mehr-Menü am Ende einer Zeile kann ein bereits abgegebenes Formular ausserdem mit "Wieder öffnen" erneut zur Bearbeitung freigegeben oder mit "Daten zurücksetzen" für diese Person gelöscht werden. Besitzer:innen können über das Mehr-Menü oben rechts mit "Alle Daten zurücksetzen" sämtliche Formulareinträge auf einmal löschen.
+
+Besitzer:innen verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
+
+![Formular Durchführung Teilnehmerliste](assets/Formular_kursrun.png){ class="shadow lightbox" }
 
 ## Ansicht: Teilnehmende
 
