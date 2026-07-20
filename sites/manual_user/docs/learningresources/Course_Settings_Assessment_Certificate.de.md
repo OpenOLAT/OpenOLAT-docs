@@ -21,7 +21,7 @@ Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifik
 
 Als Autor:in wählen Sie aus, ob das Zertifikat **manuell** von Betreuer:innen ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
 
-Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies **im Bewertungswerkzeug** in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen.
+Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten.
 
 ### Wo sind die Zertifikate einsehbar? {: #certificate_view}
 
@@ -124,12 +124,12 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       $formatter.formatDateRelative(Originaldatum, "Sprachcode", +/- Tage, +/-  Monate, +/- Jahre) | $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
       *Relatives Datum lang* | *Output: 22. September 2031*
       $formatter.formatDateLongRelative(Originaldatum, "Sprachcode", +/- Tage, +/- Monate, +/- Jahre) | $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
-     
+
     _Daten aus der Kursbeschreibung:_
 
-      * $!description  
-      * $!objectives  
-      * $!requirements  
+      * $!description
+      * $!objectives
+      * $!requirements
       * $!credits
 
     _Optionale Variablen:_
@@ -193,6 +193,8 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
 
 ## Weitere Informationen {: #further_information}
+
+[Zertifikate im Bewertungswerkzeug ausstellen und verwalten >](Assessment_tool_overview.de.md)
 
 [Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)
 

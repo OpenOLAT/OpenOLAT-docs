@@ -77,6 +77,10 @@ Die manuelle Vergabe ist möglich unter<br>
 
 Die automatische Vergabe wird während des Erstellens im Wizard eingerichtet.
 
+!!! note "Hinweis"
+
+    Bei der Vergabe eines globalen Badges wird dieser der empfangenden Person zusätzlich automatisch per E-Mail zugestellt, unabhängig davon, ob er manuell oder automatisch vergeben wird.
+
 [Zum Seitenanfang ^](#badges)
 
 ---

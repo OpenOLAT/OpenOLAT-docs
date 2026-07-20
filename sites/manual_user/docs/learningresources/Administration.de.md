@@ -1,4 +1,4 @@
-# Administration: Übersicht {: #course_administration}
+# Kurs-Administration: Übersicht {: #course_administration}
 
 ![course_administration_v4_de.png](assets/course_administration_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
@@ -89,7 +89,7 @@ To-dos, die einen bestimmten Kurs betreffen, können direkt hier im Kurs erstell
 ## Termine und Absenzen {: #events_and_absences_}
 
 ![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
-  
+
 Hier finden Sie das Werkzeug zur Administration von Terminen und Abwesenheiten der Teilnehmenden.
 
 [Zu den Details >](Events_and_absences.de.md)<br>
@@ -259,7 +259,7 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 !!! info "Tipp"
 
      Wenn der Kurs lediglich in das aktuelle Format übertragen werden soll, ist in den meisten Fällen die Option „Mit Lernfortschritt“ die bessere Wahl. Hier muss die Kursstruktur nicht in einer festen Reihenfolge bearbeitet werden, was der Hypermedia-Struktur des Ausgangskurses eher entspricht. Diese Einstellung kann bei Bedarf auch nachträglich im Kurseditor des kopierten Kurses am obersten Kursbaustein angepasst werden.
-     
+
      Beachten Sie, dass grundsätzlich Gäste keinen Zugang zu Lernpfad-Kursen haben. 
 
 
