@@ -90,6 +90,15 @@ Multiple graders can make assessments for a test at the same time. If a question
 
 Finally, you save the entries and can switch to the next user or go back to the item overview of the correction tool and select the next item.
 
+!!! note "Downloading essay question answers as PDF"
+
+    The answers to essay questions can be downloaded as PDF:
+
+    * **Single answer**: In the correction tool, open a person's answer to an essay question. Use the "Download as PDF" button at the top right to download this single answer as a PDF.
+    * **All answers to a question**: In the "Questions" tab, you will find a menu with three dots at the end of an essay question's row. Via "Download as PDF files for all participants" you receive a zip file with one PDF per participant.
+
+    The PDF contains information about the course, course element and test in the header so that it can be clearly assigned. If the test is corrected anonymously, the participants' personal details are omitted and the "Participant identifier" is shown instead.
+
 ### b) Manual assessment per user - Tab User
 
 Select the desired test in the left navigation and click on "Correction tool". An overview of all questions of the test with the evaluation status appears.

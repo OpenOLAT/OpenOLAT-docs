@@ -32,6 +32,29 @@ Define the minimum and maximum points (save) and click on "Edit rating scale". A
 
 ---
 
+## Reading the grade scale boundaries {: #grade_boundaries}
+
+In the grading scale, each grade or level is assigned a point range with a "from" and a "to" value. The "Score" column shows this range, the "Rating" column shows the corresponding grade.
+
+With automatically calculated scales, the "to" value of one level can be identical to the "from" value of the next higher level. The same score value then appears in two consecutive rows. In this case the following applies:
+
+!!! info "How to read the boundary value"
+
+    The boundary value always belongs to the higher level. The "from" value of a level is therefore inclusive, the "to" value exclusive (the "to" value already counts towards the next higher level).
+
+**Example** (Swiss grading system, achievable score 0 to 5):
+
+| Score | Rating |
+| ----- | ------ |
+| 3.25 to 3.75 | 4.5 |
+| 3.75 to 4.25 | 5 |
+
+A result of exactly 3.75 points gives the grade 5 and not the grade 4.5, because the boundary value counts towards the higher level. A result of 3.74 points, on the other hand, gives the grade 4.5.
+
+[To the top of the page ^](#rating_grades)
+
+---
+
 
 ## Points and grading in the grading tool
 The grading scale is also reflected in the assessment tool.

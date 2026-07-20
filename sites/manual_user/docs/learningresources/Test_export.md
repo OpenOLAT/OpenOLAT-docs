@@ -146,9 +146,11 @@ If you have decided to create a zip file, you can specify a name for the zip fil
 Two variants of a zip file can be created:
 
 * The **standard export** contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
-* The **"Advanced - with PDF"** option creates the same zip file, but also adds PDF files with the results. 
+* The **"Advanced - with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant. 
 
 ![test_export_results2_v1_de.png](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+
+If the test contains essay questions and the **"Advanced - with PDF"** option was selected, the **"Additional option"** with the choice **"Separate PDF file for each essay question"** appears below. If it is activated, the answer to each essay question is additionally placed in the zip file as a separate PDF file.
 
 Click on the **"Start export" button** to generate the zip file containing the test results. 
 

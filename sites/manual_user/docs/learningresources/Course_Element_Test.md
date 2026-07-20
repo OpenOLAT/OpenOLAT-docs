@@ -388,27 +388,26 @@ You can archive test results. To do this, select "Archiving & Reports" in the ad
     Course-wide archiving function for all assessable course elements.<br>
     [Archiving & Reports](../learningresources/Course_Archiving.md)
 
-Here you can download all course results from all assessable course elements, including tests.
-
 There you can download all course results from all assessable course components (including tests). Alternatively, you can also select only the results of specific tests and save only those. To do this, select "Course archiving" -> "Subarchives" -> "Create archive" and select the desired test modules. Select the default settings or customize specific archiving options.
 
-A zip file is created, which is then available in the course archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. There are two variants for the content of the zip file:
+A zip file is created, which is then available in the course archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. In the wizard step "Settings", there are two variants for the course element Test under **"Export"**:
 
-* The **Results** archive contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
-* * The option **"Results with PDF"** creates the same zip file, but also adds PDF files with the results.<br>Please note: Depending on the number of PDF files contained in the zip file, it may take some time to create.
+* The **Standard** export contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
+* The **"Advanced - with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant.<br>Please note: Depending on the number of PDF files contained in the zip file, it may take some time to create.
 
+If the test contains essay questions and the **"Advanced - with PDF"** option was selected, the **"Additional option"** with **"Separate PDF file for each essay question"** can additionally be activated below. The answer to each essay question is then placed in the archive as a separate PDF file.
+
+!!! danger "⚡ New image required"
+
+    The screenshot shows the old dialog ("Results" / "Results with PDF"). The selection is now called "Export" with the options "Standard" and "Advanced - with PDF" as well as the additional option "Separate PDF file for each essay question".
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
-It is still possible to download the raw data from tests via Test Statistics in the Administration area. Here you can also quickly access the graphical analysis of your test data.
+It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration area. The graphical assessment can also be found here.
 
 !!! note "Test Statistics"
     Raw data and graphical evaluation of test results.<br>
     [Test Statistics](../learningresources/Statistics_Test.md)
-
-![Tests archivieren](assets/Kurs_archivieren_20.jpg)
-
-It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration section. The graphical assessment can also be found here. 
 
 
 [To the top of the page ^](#course_element_test)
