@@ -150,9 +150,11 @@ Haben Sie sich für das Erstellen der zip-Datei entschieden, können Sie einen N
 Es können 2 Varianten der zip-Datei erstellt werden:
 
 * Der **Standardexport** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* Die Option **"Erweitert - mit pdf"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den Ergebnissen ergänzt. 
+* Die Option **"Erweitert - mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt. 
 
 ![test_export_results2_v1_de.png](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+
+Enthält der Test Freitextfragen und wurde die Option **"Erweitert - mit PDF"** gewählt, erscheint darunter unter **"Zusätzliche Option"** die Auswahl **"Separate PDF-Datei für jede Freitextfrage"**. Ist sie aktiviert, wird die Antwort jeder Freitextfrage zusätzlich als eigene PDF-Datei in die zip-Datei gelegt.
 
 Klicken Sie auf den **Button "Export starten"** um die zip-Datei mit den Testresultaten zu erzeugen. 
 

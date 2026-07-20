@@ -30,6 +30,29 @@ Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie au
 
 ---
 
+## Grenzwerte der Bewertungsskala lesen {: #grade_boundaries}
+
+In der Bewertungsskala wird jeder Note bzw. Stufe ein Punktebereich mit einem "von"- und einem "bis"-Wert zugeordnet. In der Spalte "Punkte" wird dieser Bereich angezeigt, in der Spalte "Note" die zugehörige Note.
+
+Bei automatisch berechneten Skalen kann der "bis"-Wert einer Stufe mit dem "von"-Wert der nächsthöheren Stufe übereinstimmen. Ein und derselbe Punktewert erscheint dann in zwei aufeinanderfolgenden Zeilen. In diesem Fall gilt:
+
+!!! info "So wird der Grenzwert gelesen"
+
+    Der Grenzwert gehört immer zur höheren Stufe. Der "von"-Wert einer Stufe ist also eingeschlossen, der "bis"-Wert ausgeschlossen (der "bis"-Wert zählt bereits zur nächsthöheren Stufe).
+
+**Beispiel** (Schweizer Notensystem, erreichbare Punkte 0 bis 5):
+
+| Punkte | Note |
+| ------ | ---- |
+| 3.25 bis 3.75 | 4.5 |
+| 3.75 bis 4.25 | 5 |
+
+Ein Ergebnis von genau 3.75 Punkten ergibt die Note 5 und nicht die Note 4.5, weil der Grenzwert zur höheren Stufe zählt. Ein Ergebnis von 3.74 Punkten ergibt dagegen die Note 4.5.
+
+[Zum Seitenanfang ^](#rating_grades)
+
+---
+
 ## Noten im Bewertungswerkzeug
 
 Die Einstufungs- und Notenskala spiegelt sich auch im Bewertungswerkzeug wider. 

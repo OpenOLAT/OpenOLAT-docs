@@ -34,9 +34,9 @@ Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen kö
 
 
 !!! note "Hinweis"
-      
+
     In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und ["Selbsttests"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test werden im **Selbsttest die Testresultate anonymisiert** gespeichert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
-    
+
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
 
@@ -126,7 +126,7 @@ Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch Op
 **Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig für die User freigegeben und somit sichtbar sind oder nicht.
 
 ![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
-  
+
 #### Abschnitt Report {: #section_report}
 
 Hier wird definiert ob und welcher Form den Lernenden die Testergebnisse und der Leistungsstatus angezeigt werden sollen. Wird hier gar nichts ausgewählt erhalten die Lernenden auch keinerlei Informationen.
@@ -398,10 +398,16 @@ Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Admi
 
 Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die "Kursarchivierung" -> "Teilarchive" -> "Archiv erstellen" und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
 
-Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Für den Inhalt der zip-Datei gibt es 2 Varianten:
+Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es beim Kursbaustein Test unter **"Export"** 2 Varianten:
 
-* Das Archiv **Resultate** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* Die Option **"Resultate mit pdf"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den Ergebnissen ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
+* Der Export **Standard** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
+* Die Option **"Erweitert - mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
+
+Enthält der Test Freitextfragen und wurde die Option **"Erweitert - mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt.
+
+!!! danger "⚡ Neues Bild erforderlich"
+
+    Der Screenshot zeigt den alten Dialog ("Resultate" / "Resultate mit PDF"). Aktuell heisst die Auswahl "Export" mit den Optionen "Standard" und "Erweitert - mit PDF" sowie der zusätzlichen Option "Separate PDF-Datei für jede Freitextfrage".
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 

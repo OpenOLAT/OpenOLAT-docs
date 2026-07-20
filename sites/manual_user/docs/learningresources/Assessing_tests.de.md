@@ -1,6 +1,6 @@
 # Tests bewerten
 
-Hier erfahren Sie wie man Bewertungen für Tests mit Hilfe des OpenOlat "Bewertungswerkzeugs" vornimmt.
+Hier erfahren Sie, wie man Bewertungen für Tests mit Hilfe des OpenOlat "Bewertungswerkzeugs" vornimmt.
 
 Gehen Sie in das Bewertungswerkzeug und wählen Sie in der linken Übersicht, die die Kursstruktur widerspiegelt, den Test aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: Übersicht und Teilnehmer. 
 
@@ -27,9 +27,9 @@ Kursbetreuer und Kursbesitzer haben über die entsprechenden Buttons die Möglic
 
 !!! note "Hinweis"
 
-    Welche Optionen im Detail angezeigt werden hängt teilweise von der Konfiguration des Kursbausteins ab. 
+    Welche Optionen im Detail angezeigt werden, hängt teilweise von der Konfiguration des Kursbausteins ab. 
 
- Die Buttons und Optionen im Detail:   
+Die Buttons und Optionen im Detail:   
 
 ### Test Statistiken
 Aufrufen der detaillierten Statistik zu jeder Frage eines Tests. Sämtliche Antworten der Lernenden werden dabei berücksichtigt.
@@ -42,10 +42,6 @@ Sofern gestartete aber noch nicht abgegebene Tests vorliegen, können diese eing
 
 ### Korrekturwerkzeug
 Über diesen Button können manuelle Bewertungen _pro Testfrage_ vorgenommen werden. Hier können Punkte vergeben und Kommentare hinzugefügt werden. Die Option erscheint nur bei manueller Bewertung.
-
-!!! note "Hinweis"
-
-    Das Korrekturwerkzeug ist das zentrale Element für die manuelle Bewertung der Tests.
 
 ### Testquittung validieren:
 Wenn diese Option angewählt wird, wird nach Beenden des Tests eine Testquittung erstellt, welche als XML-File heruntergeladen werden kann. Es dient der Verifizierung des Tests. Das erstellte XML-File kann zusätzlich per Mail an den Teilnehmer verschickt werden, wenn die Option "Testquittung per Mail schicken" aktiviert wird.
@@ -75,7 +71,7 @@ c) Bewertung einer einzelnen Person
 
 ### a) Manuelle Bewertung pro Test-Item - Tab Fragen
 
-Wählen sie den gewünschten Test in der linken Navigation aus und klicken sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
+Wählen Sie den gewünschten Test in der linken Navigation aus und klicken Sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
 
 ![Fragen korrigieren](assets/Manuelle_Korrktur_pro_Frage.png){ class="shadow lightbox" } 
 
@@ -88,29 +84,38 @@ Die Spalten geben darüber Auskunft an welchen Stellen noch etwas zu tun ist:
 
 Sortieren Sie die Test-Items (Fragen) für die Spalte "Manuell" oder "Nicht korrigiert" um sich einen Überblick über die ausstehenden Bewertungen zu verschaffen.
 
-Klicken sie dann auf den Fragentitel des zu korrigierenden Items und Sie gelangen in das Bewertungsformular. Hier können sie nun Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". 
+Klicken Sie dann auf den Fragentitel des zu korrigierenden Items und Sie gelangen in das Bewertungsformular. Hier können sie nun Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". 
 Für automatisiert auswertbare Items können Sie sich auch die Lösungen anzeigen lassen oder die Punkte überschreiben. 
 
 Mehrere Korrektoren können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine/n Korrektor:In bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der Administration kann für diesen Korrekturprozess festgelegt werden, ob die Benutzer dabei anonym (Benutzer 1, Benutzer 2, ...) aufgeführt werden sollen.
 
 Abschliessend speichern Sie die Eingaben und können zum nächsten Benutzer wechseln oder zurück in die Itemübersicht des Korrekturwerkzeug gehen und das nächste Item auswählen.
 
+!!! note "Freitextfragen als PDF herunterladen"
+
+    Bei Freitextfragen können die Antworten als PDF heruntergeladen werden:
+
+    * **Einzelne Antwort**: Öffnen Sie im Korrekturwerkzeug die Antwort einer Person auf eine Freitextfrage. Über den Button "Als PDF herunterladen" oben rechts laden Sie diese einzelne Antwort als PDF herunter.
+    * **Alle Antworten einer Frage**: Im Tab "Fragen" finden Sie am Ende der Zeile einer Freitextfrage ein Menü mit drei Punkten. Über "Als PDF-Dateien für alle Teilnehmer:innen herunterladen" erhalten Sie eine zip-Datei mit je einem PDF pro Teilnehmer:in.
+
+    Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test, damit eine eindeutige Zuordnung möglich ist. Wird der Test anonym korrigiert, werden die persönlichen Angaben der Teilnehmenden weggelassen und stattdessen die "Teilnehmendenkennung" angezeigt.
+
 ### b) Manuelle Bewertung pro Benutzer - Tab Benutzer
 
-Wählen sie den gewünschten Test in der linken Navigation aus und klicken sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
+Wählen Sie den gewünschten Test in der linken Navigation aus und klicken Sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
 
 ![Korrekturwerkzeug_Tab_Benutzer](assets/Test_Tab_Benutzer.png)
 
 Im Tab Benutzer sehen Sie eine (anonymisierte) Übersicht der zu bewertenden Benutzer sowie deren aktuellen Bewertungsstand für den gewählten Test. 
 
-Wählen sie hier einen bzw. den ersten Benutzer aus und Sie gelangen in die Bewertungsübersicht dieser Person für einen Test. Hier wählen Sie die gewünschte Frage aus und nehmen die Bewertung im Bewertungswerkzeug vor (siehe a)). Anschliessend den nächsten Benutzer wählen bis alle Bewertungen erledigt wurden.
+Wählen Sie hier einen bzw. den ersten Benutzer aus und Sie gelangen in die Bewertungsübersicht dieser Person für einen Test. Hier wählen Sie die gewünschte Frage aus und nehmen die Bewertung im Bewertungswerkzeug vor (siehe a)). Anschliessend den nächsten Benutzer wählen bis alle Bewertungen erledigt wurden.
 
 
 ### c) Manuelle Bewertung ausgehend von einer einzelnen Person
 
 Falls nur eine einzelne Person bewertet werden soll bietet sich folgender Weg an: 
 
-Wählen sie den gewünschten Test in der linken Navigation aus und wählen sie den Tab "Teilnehmer". Klicken Sie dann auf den Namen der zu bewertenden Person. Es erscheint eine Liste mit allen Testversuchen dieser Person. Wählen Sie hier den aktuellen Versuch aus und klicken auf "Korrigieren".
+Wählen Sie den gewünschten Test in der linken Navigation aus und wählen Sie den Tab "Teilnehmer". Klicken Sie dann auf den Namen der zu bewertenden Person. Es erscheint eine Liste mit allen Testversuchen dieser Person. Wählen Sie hier den aktuellen Versuch aus und klicken auf "Korrigieren".
 
 ![Test korrigieren](assets/Test_korrigieren.png){ class="shadow lightbox" }
 
@@ -123,12 +128,12 @@ Von Lernenden durchgeführte Test-Versuche können auch rückgängig gemacht wer
 
 ![Test annulieren oder zurücksetzen](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" }
 
-Beim **annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet der Versuch erscheint weiter in der Liste und kann vom Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für den Lernenden berücksichtigt. Hat der User mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
+Beim **Annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet der Versuch erscheint weiter in der Liste und kann vom Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für den Lernenden berücksichtigt. Hat der User mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
 Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat der User drei Versuche unternommen, stehen ihm keine weiteren Versuche zur Verfügung auch wenn einer oder mehrere der Versuche annulliert wurden.
 
 Liegt nur ein Versuch vor und wird dieser annulliert, ändert sich die Tabellenanzeige im Bewertungswerkzeug nicht. Der annullierte Versuch mit den zugehörigen Punkten wird weiterhin angezeigt.
 
-Im Gegensatz zum annullieren führt **"Testdaten zurücksetzen"** dazu, dass alle Versuche komplett gelöscht werden, die Anzahl der Versuche somit auf 0 gesetzt wird.
+Im Gegensatz zum Annullieren führt **"Testdaten zurücksetzen"** dazu, dass alle Versuche komplett gelöscht werden, die Anzahl der Versuche somit auf 0 gesetzt wird.
 
 ## Bewertung im Kursrun
 
