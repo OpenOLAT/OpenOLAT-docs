@@ -21,7 +21,7 @@ In addition to these course certificates, the certificate program can also issue
 
 As the author, you can choose whether the certificate is issued **manually** by coaches and/or **automatically** after passing the course.
 
-The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the assessment tool in the performance overview for each individual user.
+The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later.
 
 
 ### Where can the certificates be viewed? {: #certificate_view}
@@ -127,12 +127,12 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       $formatter.formatDateRelative(original date, "Voice code", +/- Days, +/-  Months, +/- Years) | $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
       *Relative date long* | *Output: 22. September 2031*
       $formatter.formatDateLongRelative(original date, "Voice code", +/- Days, +/- Months, +/- Years) | $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
-     
+
     _Date from the course description:_
 
-      * $!description  
-      * $!objectives  
-      * $!requirements  
+      * $!description
+      * $!objectives
+      * $!requirements
       * $!credits
 
     _Optional variables:_
@@ -193,6 +193,8 @@ Performance records and certificates from previous rounds will be retained.
 ---
 
 ## Further information {: #further_information}
+
+[Issue and manage certificates in the assessment tool >](Assessment_tool_overview.md)
 
 [Certificates program (Certificates for multiple courses) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)
 

@@ -1,4 +1,4 @@
-# Administration: Overview {: #course_administration}
+# Course Administration: Overview {: #course_administration}
 
 ![course_administration_v4_en.png](assets/course_administration_v4_en.png){ class="shadow lightbox aside-left-lg" }
 
@@ -89,7 +89,7 @@ To-dos relating to a specific course can be created directly here in the course.
 ## Events and absences {: #events_and_absences_}
 
 ![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
-  
+
 Here you will find the tool for the administration of participants' events and absences.
 
 [See the details >](Events_and_absences.md)<br>
@@ -260,7 +260,7 @@ The function is only available for conventional courses.
 !!! info
 
     If the course is only to be transferred to the current format, the “With learning progress” option is usually the better choice. In this case, the course structure does not have to be edited in a fixed order, which is more in line with the hypermedia structure of the previous course. If necessary, this setting can also be adjusted retrospectively in the course editor of the copied course at the top course element. 
-    
+
     Please note that guests do not have access to learning path courses. 
 
 Translated with DeepL.com (free version)

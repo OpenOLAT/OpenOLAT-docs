@@ -76,6 +76,10 @@ Manual assignment is possible under<br>
 
 Automatic assignment is set up in the wizard during creation.
 
+!!! note "Note"
+
+    When a global badge is assigned, the recipient is also automatically sent the badge by email, regardless of whether it is assigned manually or automatically.
+
 [To the top of the page ^](#badges)
 
 ---
