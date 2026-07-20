@@ -59,12 +59,20 @@ Beim Beitritt übergibt OpenOlat ausschliesslich Ihre E-Mail-Adresse an Zoom. Zo
 
 Bevor das Zoom-Meeting zum ersten Mal geladen wird, erscheint der Dialog "Datenübermittlung akzeptieren". Die eingebettete Seite wird von Zoom Video Communications, Inc. geladen, dabei werden einige Ihrer persönlichen Daten an Zoom übertragen. Erst nach Klick auf "Ich akzeptiere die Datenübertragung" wird das Meeting geladen.
 
+!!! danger "⚡ Neues Bild erforderlich"
+
+    Screenshot des Dialogs "Datenübermittlung akzeptieren" mit dem Button "Ich akzeptiere die Datenübertragung" noch zu erstellen.
+
 
 ## :material-alert-circle-outline: Meeting starten und beitreten
 
 **Das Zoom-Meeting lässt sich nicht starten oder bleibt leer.**
 
 Bei einigen Browser-Konfigurationen, insbesondere wenn Cookies von Drittanbietern blockiert werden, kann das Meeting nicht innerhalb von OpenOlat geladen werden. Öffnen Sie das Meeting in diesem Fall über die Schaltfläche "Zoom in einem neuen Fenster öffnen" in einem eigenen Browser-Fenster.
+
+!!! danger "⚡ Neues Bild erforderlich"
+
+    Screenshot der Zoom-Ansicht mit der Schaltfläche "Zoom in einem neuen Fenster öffnen" noch zu erstellen.
 
 **Teilnehmende erhalten beim Beitritt eine 401-Fehlermeldung.**
 
