@@ -21,7 +21,7 @@ Coaches can see in the overview table in the course run which participants have 
 
 The use of this course element makes sense e.g. if the learners have to fill in certain forms obligatorily, e.g. before starting a laboratory internship or as confirmation for the independent performance of a service.
 
-!!! Info 
+!!! info "Important"
 
     Unlike the course element survey, however, there is no specific graphical evaluation overview for this course element.
 
@@ -79,11 +79,15 @@ If the e-mail confirmation is activated, the participants will receive a confirm
 
 ## View: Owners and Coaches
 
-When the course editor is closed, the owner and coach see an overview of the learners in the course and their editing status, e.g. "Not started". The filter function can also be used to display a specific group of people, e.g. all people who have not yet started the form. However, the owner and coach do not see the actual form here. An export of the form data is also possible.
+When the course editor is closed, the owner and coach see an overview of the learners in the course and their editing status, e.g. "Not started". The filter function can also be used to display a specific group of people, e.g. all people who have not yet started the form. However, the owner and coach do not see the actual form here.
 
-Owners also have the option to reset the data of individual persons or all data and additionally have the tab "Reminders" if the form submission has a deadline. Here you can create new reminders and see which [reminders](../learningresources/Course_Reminders.md) have already been sent.
+The "Export data" button at the top right lets you export the completed forms. The export creates an archive containing an Excel file with all form data as well as one PDF file per submitted form. If a person has completed the form more than once, each submission appears as a separate entry with its own PDF file. If you select individual persons in the table, an additional "Export data" button appears that only includes the forms of the selected persons. For an individual person, the action "Form as PDF" is available in the three-dot menu at the end of the row.
 
-![Formular Durchführung Teilnehmerliste](assets/Fromular_kursrun.png){ class="shadow lightbox" }
+Via the three-dot menu at the end of a row, a submitted form can also be reopened for editing with "Reopen" or deleted for that person with "Reset data". Owners can delete all form entries at once via the three-dot menu at the top right with "Reset all data".
+
+Owners additionally have the tab "Reminders" if the form submission has a deadline. Here you can create new reminders and see which [reminders](../learningresources/Course_Reminders.md) have already been sent.
+
+![Formular Durchführung Teilnehmerliste](assets/Formular_kursrun.png){ class="shadow lightbox" }
 
 ## View: Participants
 
