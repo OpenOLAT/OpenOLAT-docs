@@ -2,6 +2,8 @@
 
 Nachstehend wird aufgelistet, welche Zugriffsmöglichkeiten auf Kurse die unterschiedlichen Rollen haben.
 
+Welche Rechte die Rollen innerhalb des Course Planners haben (auf Produkte, Durchführungen, Elemente und Termine), ist unter [Rollen und Rechte im Course Planner](../area_modules/Course_Planner.de.md#roles_rights) beschrieben.
+
 
 Legende
 

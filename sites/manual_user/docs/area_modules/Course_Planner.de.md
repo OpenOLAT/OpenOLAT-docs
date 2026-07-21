@@ -130,6 +130,51 @@ Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **
 ---
 
 
+## Rollen und Rechte im Course Planner {: #roles_rights}
+
+Der Zugriff im Course Planner richtet sich nach drei Verantwortungsbereichen:
+
+* **fachlich-strukturelle Verantwortung**: Aufbau und Pflege von Produkten, Durchführungen und Elementen
+* **administrative Verantwortung**: Verwaltung der Mitglieder, zum Beispiel durch ein Sekretariat
+* **inhaltliche Verantwortung**: Inhalte, Termine und Aufgaben der einzelnen Elemente
+
+Je nach Rolle ist einer, sind zwei oder alle drei Bereiche abgedeckt:
+
+* **Kursplaner:in** (Organisationsrolle): deckt alle drei Bereiche ab und hat uneingeschränkten Zugriff auf alle Produkte und Zertifikatsprogramme der eigenen Organisation.
+* **Administrator:in**: hat im Course Planner dieselben Rechte wie eine Kursplaner:in.
+* **Produktbesitzer:in**: übernimmt dieselben Aufgaben wie eine Kursplaner:in, jedoch beschränkt auf die Produkte, bei denen sie als Produktbesitzer:in eingetragen ist (unabhängig von der Organisation).
+* **Elementbesitzer:in**: trägt die inhaltliche Verantwortung für die eigenen Elemente (unabhängig von der Organisation). Sie hat vollen Zugriff auf die Inhalte und Termine des eigenen Elements, kann Mitglieder und Einstellungen jedoch nur lesen und die Struktur nicht verändern.
+* **Principal**: hat ausschliesslich lesenden Zugriff auf den gesamten Course Planner (siehe Abschnitt oben).
+
+Zusätzlich haben **Besitzer:innen von Zertifikatsprogrammen** Zugang zum Course Planner.
+
+### Rechte-Matrix {: #rights_matrix}
+
+Die folgende Übersicht zeigt, welche Aktionen die einzelnen Rollen auf den Objekten des Course Planners ausführen können.
+
+Legende: :material-check: Zugang beziehungsweise Aktion verfügbar · :material-cancel: kein Zugriff · die übrigen Angaben nennen die jeweils verfügbaren Aktionen.
+
+|  | Administrator:in | Kursplaner:in | Produktbesitzer:in | Principal | Elementbesitzer:in | Kursbesitzer:in | Klassenlehrer:in | Betreuer:in | Teilnehmer:in |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Zugang zum Course Planner | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Produkt (aktiv) | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen, Bearbeiten | Lesen | Lesen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Produkt (gelöscht) | Lesen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Durchführung | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Element | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | Lesen, Bearbeiten | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Termin | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | Erstellen, Lesen, Bearbeiten, Löschen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Template | Hinzufügen, Lesen, Instanzieren, Entfernen | Hinzufügen, Lesen, Instanzieren, Entfernen | Hinzufügen, Lesen, Instanzieren, Entfernen | Lesen | Hinzufügen, Lesen, Instanzieren, Entfernen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Kurs | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Lesen | Hinzufügen, Lesen, Entfernen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| To-do | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | Erstellen, Lesen, Bearbeiten, Löschen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| To-do (zugewiesen oder delegiert) | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
+
+!!! info "Kurs- und Gruppenrollen im Course Planner"
+    Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sind Kurs- beziehungsweise Gruppenrollen. Im Course Planner selbst haben sie keine eigenen Verwaltungsrechte; ihre Aufgaben liegen in der Durchführung des Kurses. Eine Ausnahme bilden To-dos, die einer Person persönlich zugewiesen oder delegiert wurden: Diese kann die betreffende Person unabhängig von ihrer Rolle im Course Planner bearbeiten.
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+
 ##  Wo finde ich den Course Planner? {: #access}
 
 Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie den Course Planner als **Menüpunkt der Hauptnavigation** in der Kopfzeile.  
@@ -243,5 +288,6 @@ Course Planner erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Welche Rechte haben die Rollen innerhalb eines Kurses? >](../basic_concepts/Authorisation_Concept.de.md)<br>
 
 [Zum Seitenanfang ^](#course_planner)
