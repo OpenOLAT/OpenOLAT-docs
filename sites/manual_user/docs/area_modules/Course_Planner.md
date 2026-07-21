@@ -122,6 +122,50 @@ Limited to a specific product, **product owners** and **element owners** can acc
 
 ---
 
+## Roles and rights in the Course Planner {: #roles_rights}
+
+Access in the Course Planner is based on three areas of responsibility:
+
+* **subject-related and structural responsibility**: setting up and maintaining products, implementations and elements
+* **administrative responsibility**: managing members, for example by a secretariat
+* **content-related responsibility**: content, events and tasks of the individual elements
+
+Depending on the role, one, two or all three areas are covered:
+
+* **Course planner** (organisation role): covers all three areas and has unrestricted access to all products and certification programs of their own organisation.
+* **Administrator**: has the same rights in the Course Planner as a course planner.
+* **Product owner**: takes on the same tasks as a course planner, but limited to the products for which they are registered as product owner (regardless of the organisation).
+* **Element owner**: holds the content-related responsibility for their own elements (regardless of the organisation). They have full access to the content and events of their own element, but can only read members and settings and cannot change the structure.
+* **Principal**: has exclusively read access to the entire Course Planner (see section above).
+
+In addition, **owners of certification programs** have access to the Course Planner.
+
+### Rights matrix {: #rights_matrix}
+
+The following overview shows which actions the individual roles can perform on the objects of the Course Planner.
+
+Legend: :material-check: access or action available · :material-cancel: no access · the remaining entries name the actions available in each case.
+
+|  | Administrator | Course planner | Product owner | Principal | Element owner | Course owner | Master coach | Coach | Participant |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Access to the Course Planner | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Product (active) | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read, Edit | Read | Read | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Product (deleted) | Read | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Implementation | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Element | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read | Read, Edit | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Event | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read | Create, Read, Edit, Delete | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Template | Add, Read, Instantiate, Remove | Add, Read, Instantiate, Remove | Add, Read, Instantiate, Remove | Read | Add, Read, Instantiate, Remove | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Course | Add, Read, Remove | Add, Read, Remove | Add, Read, Remove | Read | Add, Read, Remove | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| To-do | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read | Create, Read, Edit, Delete | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
+| To-do (assigned or delegated) | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
+
+!!! info "Course and group roles in the Course Planner"
+    Course owner, Master coach, Coach and Participant are course or group roles. They have no management rights in the Course Planner itself; their tasks lie in running the course. One exception are to-dos that have been personally assigned or delegated to a person: these can be edited by the person concerned regardless of their role in the Course Planner.
+
+[To the top of the page ^](#course_planner)
+
+---
+
 ## Where can I find the Course Planner? {: #access}
 
 If you have the role and rights of a **course planner**, you will find the Course Planner as a **menu item in the main navigation** in the header.
@@ -233,6 +277,7 @@ Under "Tools", Course Planner users find the "Room management" area with a read-
 [How can I plan and carry out implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[What rights do the roles have within a course? >](../basic_concepts/Authorisation_Concept.md)<br>
 
 
 [To the top of the page ^](#course_planner)

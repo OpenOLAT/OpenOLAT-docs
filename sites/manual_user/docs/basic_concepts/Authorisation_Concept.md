@@ -2,6 +2,8 @@
 
 The access options to courses for the different roles are listed below.
 
+The rights the roles have within the Course Planner (for products, implementations, elements and events) are described under [Roles and rights in the Course Planner](../area_modules/Course_Planner.md#roles_rights).
+
 
 Legend
 
