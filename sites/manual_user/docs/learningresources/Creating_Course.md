@@ -37,6 +37,21 @@ When you create a new course, you will be asked to specify a purpose:
     The decision made when creating the course for a specific purpose can be changed later under <br>**(Course) Administration > Settings > "Share" tab**.<br>
     However, if participants have already been assigned to an independent course, for example, and may even have already achieved results, it is no longer possible to change the intended use.
 
+Which change is possible depends on the current and the desired purpose. The change is made via **"Change usage"** and is only possible if the respective preconditions are met:
+
+| from \ to | Independent | Use in Course Planner | Template |
+| --- | --- | --- | --- |
+| **Independent** |  | (a) | (a) and (b) |
+| **Use in Course Planner** | (b) |  | (a) and (b) |
+| **Template** | (b) | (a) |  |
+
+(a) no members except owners, no groups that are also referenced by other courses, and access for participants set to "Private"<br>
+(b) not used by the Course Planner
+
+Existing offers (bookings) are deleted when the purpose is changed.
+
+Independently of changing the purpose, you can use the course's tools menu to create a template copy from an existing course with **"Save as template"** and a new course from a template with **"Instantiate as course"**. In each case a new learning resource is created; the original entry remains unchanged.
+
 ![creating_course_purpose_v1_de.png](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#creating_course)

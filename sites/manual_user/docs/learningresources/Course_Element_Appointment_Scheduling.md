@@ -105,7 +105,7 @@ Enter the venue here.
 You can limit the number of members for an appointment (only for "Appointment booking").
 
 **Enrollment deadline**<br>
-Here you can define how long before the appointment enrolment is possible. Example: With "1d", enrolment ends one day before the appointment.
+Use the "Enrollment deadline" toggle to define whether a deadline applies. When the toggle is enabled, use the time field to specify how long before the start of the appointment enrolment ends (format "1d 1h 1m", e.g. "1d" for one day). The enrolment deadline can also be toggled on or off and changed later when editing an existing appointment.
 
 **Type of appointment**<br>
 You can create appointments based on the duration, based on a start and end date, or recurring according to specific weekdays. The selection makes it easier for you to create further appointments.
