@@ -44,15 +44,25 @@ case "$LANG" in
 esac
 
 if [ -x "venv/bin/mkdocs" ]; then
-	MKDOCS="venv/bin/mkdocs"
-	PYTHON="venv/bin/python3"
+	MKDOCS=(venv/bin/mkdocs)
+	PYTHON=(venv/bin/python3)
+elif [ -x ".venv/bin/mkdocs" ]; then
+	MKDOCS=(.venv/bin/mkdocs)
+	PYTHON=(.venv/bin/python3)
 elif command -v mkdocs >/dev/null 2>&1; then
-	MKDOCS="mkdocs"
-	PYTHON="python3"
+	MKDOCS=(mkdocs)
+	PYTHON=(python3)
+elif command -v uv >/dev/null 2>&1; then
+	# No venv and no global mkdocs, but uv is available: run everything through
+	# an ephemeral, cached environment built straight from requirements.txt.
+	# Needs zero setup and reuses uv's cache on subsequent runs.
+	MKDOCS=(uv run --with-requirements requirements.txt mkdocs)
+	PYTHON=(uv run --with-requirements requirements.txt python3)
 else
 	echo "ERROR: mkdocs not found." >&2
 	echo "Either create a local venv:  python3 -m venv venv && venv/bin/pip install -r requirements.txt" >&2
 	echo "or install mkdocs globally:  pip3 install -r requirements.txt" >&2
+	echo "or install uv:               https://docs.astral.sh/uv/" >&2
 	exit 1
 fi
 
@@ -62,7 +72,7 @@ fi
 # deep-merge plugin lists on INHERIT, it replaces them wholesale. Pull the
 # mapping live from mkdocs.yml instead of duplicating it here, so there is a
 # single source of truth and no risk of drift.
-NAV_TRANSLATIONS=$("$PYTHON" -c "
+NAV_TRANSLATIONS=$("${PYTHON[@]}" -c "
 import yaml
 with open('mkdocs.yml') as f:
 	cfg = yaml.load(f, Loader=yaml.Loader)
@@ -101,5 +111,5 @@ nav:
   - '': '!include ./sites/de/mkdocs.yml'
 EOF
 
-echo "Serving ${SITE} (lang=${LANG}) via mkdocs.local.yml (using ${MKDOCS}) ..."
-exec "$MKDOCS" serve -f mkdocs.local.yml --dirtyreload
+echo "Serving ${SITE} (lang=${LANG}) via mkdocs.local.yml (using ${MKDOCS[*]}) ..."
+exec "${MKDOCS[@]}" serve -f mkdocs.local.yml --dirtyreload
