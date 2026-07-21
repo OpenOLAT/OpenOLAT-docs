@@ -105,7 +105,7 @@ Geben Sie hier den Veranstaltungsort ein.
 Sie können die Mitgliederzahl für einen Termin begrenzen (nur bei "Terminbuchung").
 
 **Einschreibefrist**<br>
-Hier kann festgelegt werden, bis wann vor dem Termin eine Einschreibung möglich ist. Beispiel: Mit „1d“ endet die Einschreibung einen Tag vor dem Termin.
+Mit dem Schalter "Einschreibefrist" legen Sie fest, ob eine Frist gilt. Ist der Schalter aktiviert, geben Sie im Zeitfeld an, wie lange vor Beginn des Termins die Einschreibung endet (Format "1d 1h 1m", also z.B. "1d" für einen Tag). Die Einschreibefrist lässt sich auch nachträglich beim Bearbeiten eines bestehenden Termins ein- und ausschalten oder ändern.
 
 **Terminart**<br>
 Sie können Termine basierend auf der Dauer, basierend auf einem Start- und Enddatum oder wiederkehrend nach bestimmten Wochentagen anlegen. Die Auswahl erleichtert Ihnen die Erstellung von weiteren Terminen.
@@ -131,7 +131,7 @@ Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist.
 
     Wird BigBlueButton oder Teams aktiviert, wird beim Ort automatisch "online" angezeigt.  
 
-  
+
 Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für einen Anlass ist ebenfalls möglich.
 
 ![Anlass Zahnrad Menue](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }

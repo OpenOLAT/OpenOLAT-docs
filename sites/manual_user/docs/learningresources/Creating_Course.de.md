@@ -44,6 +44,22 @@ Wenn Sie einen neuen Kurs erstellen, werden Sie gebeten, einen Verwendungszweck 
     Sind aber z.B. schon Teilnehmer:innen einem eigenständigen Kurs zugeordnet, die vielleicht sogar schon Ergebnisse erzielt haben, kann eine Änderung des Verwendungszwecks nicht mehr vorgenommen werden.
 
 
+Welcher Wechsel möglich ist, hängt vom aktuellen und vom gewünschten Verwendungszweck ab. Der Wechsel erfolgt über **"Verwendungszweck ändern"** und ist nur möglich, wenn die jeweiligen Vorbedingungen erfüllt sind:
+
+| von \ zu | Eigenständig | Verwendung im Course Planner | Template |
+| --- | --- | --- | --- |
+| **Eigenständig** |  | (a) | (a) und (b) |
+| **Verwendung im Course Planner** | (b) |  | (a) und (b) |
+| **Template** | (b) | (a) |  |
+
+(a) keine Mitglieder ausser Besitzer:innen, keine Gruppen, die auch in anderen Kursen eingebunden sind, und Zugang für Teilnehmer:innen auf "Privat"<br>
+(b) keine Verwendung durch den Course Planner
+
+Vorhandene Angebote (Buchungen) werden beim Wechsel des Verwendungszwecks gelöscht.
+
+Unabhängig vom Wechsel des Verwendungszwecks lässt sich über das Werkzeuge-Menü des Kurses aus einem bestehenden Kurs mit **"Als Template speichern"** eine Template-Kopie und aus einem Template mit **"Als Kurs instanziieren"** ein neuer Kurs erstellen. Dabei entsteht jeweils eine neue Lernressource; der ursprüngliche Eintrag bleibt unverändert.
+
+
 ![creating_course_purpose_v1_de.png](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#creating_course)
