@@ -168,26 +168,28 @@ Beispiel:
 
 Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verfügung stehen. 
 
-### Text Elemente {: #text_elements}
+![content_editor_content_types_v1_de.png](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
 
-<h3>Titel</h3>
+<h3>Text</h3>
+
+### Titel {: #title}
 
 Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert.
 
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Text</h3>
+### Text {: #text}
 
 Hierüber werden Texte hinzugefügt. 
 ![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
 
-<h3>Tabelle</h3>
+### Tabelle {: #table}
 
 ![content_editor_content_table_v1_de.png](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Mathematische Formel</h3>
+### Mathematische Formel {: #formula}
 
 Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
@@ -195,7 +197,7 @@ Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
 Dieses Textelement existiert nicht im Formular Editor. 
 
-<h3>Code-Beispiel</h3>
+### Code-Beispiel {: #code}
 
 Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen Abständen und Nummerierung der Zeilen. Dies ist insbesondere bei technischen Lerninhalten wie Programmierbeispielen sehr hilfreich. Beim Anlegen des Code Blocks kann die verwendete Programmiersprache gewählt werden. Zur Weiterverarbeitung können Teilnehmende die Code-Vorlage direkt in die Zwischenablage kopieren.
 
@@ -203,7 +205,7 @@ Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen 
 
 Dieses Textelement existiert nicht im Formular Editor. 
 
-<h3>Zitat</h3>
+### Zitat {: #quote}
 
 Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Medien Center gespeichert.  
 
@@ -214,44 +216,45 @@ Dieses Textelement existiert nicht im Formular Editor.
 ---
 
 
-### Medien {: #media}
+<h3> Medien </h3>
 
 !!! info "Wichtig"
 
     Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
 
-<h3>Bild</h3>
+### Bild {: #image}
 
 Alle im Medien Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Medien Center abgelegt. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
 
-<h3>Galerie</h3>
+### Galerie {: #gallery}
 
 Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
 
 ![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
-<h3>Bildervergleich</h3>
+
+### Bildervergleich {: #image_comparison}
 
 Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
 
 ![content_editor_content_compare_images_v2_de.png](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" }
 
 
-<h3>Audio</h3>
+### Audio {: #audio}
 
 Audios können direkt in OpenOlat neu aufgenommen, hochgeladen oder aus den bereits vorhandenen Audios ausgewählt werden.
 
 ![content_editor_content_audio_v1_de.png](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Video</h3>
+### Video {: #video}
 
 Im Block 'Video' können auch Videos per URL eingebunden werden. <br>
 Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube, Vimeo, Panopto und nanoo.tv. Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
 
 
-<h3>Dokument</h3>
+### Dokument {: #document}
 
 Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Medien Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Medien Center abgelegt.
 
@@ -262,7 +265,7 @@ Zusätzlich besteht im Bereich "Share" die Möglichkeit, für neu erstellte oder
 ![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Diagramm (draw.io.) </h3>
+### Diagramm (draw.io.) {: #diagram}
 
 Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
 
@@ -273,13 +276,13 @@ Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden ode
 ---
 
 
-### Auswertbare Quizfragen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
+<h3> Wissen </h3> 
 
 !!! info "Wichtig"
 
     Dieser Bereich existiert nur im Content Editor des Kursbausteins Seite.
 
-<h3>Quiz</h3>
+### Quiz [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
 Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, inklusive Bildern und Videos, was den Lernwert steigert.
 
@@ -287,7 +290,36 @@ Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
-### KI-Feedback zu Freitextantworten
+[Zum Seitenanfang ^](#content_editor)
+
+---
+
+
+<h3> Andere & Design </h3>
+
+### Separator {: #separator}
+
+Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
+
+
+### Inhaltsverzeichnis {: #table_of_contents}
+
+Das Element "Inhaltsverzeichnis" macht lange Seiten übersichtlich: Es listet die Titel der Seite als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Erfasst werden die Titel, die auf der Seite nach dem Inhaltsverzeichnis folgen, bis zum nächsten Titel gleicher oder höherer Stufe. So lässt sich ein Verzeichnis für die ganze Seite oder nur für ein einzelnes Kapitel erstellen. Im Inspektor legen Sie unter "Titelgrössen" fest, welche Titelstufen (H1 bis H5) im Verzeichnis erscheinen; standardmässig sind H1 bis H4 ausgewählt. Wird das Inhaltsverzeichnis als Hinweis-Box dargestellt, dient sein Titel als Titel der Box.
+
+Dieses Element existiert nicht im Formular Editor.
+
+
+### HTML-Textcode {: #html}
+
+Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
+
+
+[Zum Seitenanfang ^](#content_editor)
+
+---
+
+
+## KI-Feedback zu Freitextantworten
 
 Ist im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI Funktion "Essay Bewertung" konfiguriert, lassen sich einem Quiz auch Freitextfragen hinzufügen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beantworten Lernende eine solche Frage, können sie unter "KI-Feedback" ein formatives Feedback zu ihrer Antwort abrufen. Es umfasst eine "Gesamteinschätzung", "Was gut gelungen ist", "Was fehlt noch" sowie den Abschnitt "Nächster Schritt", wahlweise als "Zusammenfassung" oder "Detailliertes Feedback". Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
 
@@ -296,7 +328,7 @@ Ist im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) die
 ---
 
 
-### Import von Markdown- und Word-Dateien [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
+## Import von Markdown- und Word-Dateien [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
 !!! info "Wichtig"
 
@@ -317,7 +349,7 @@ Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Cont
 !!! Info "Word-Dokumente importieren"
     Word-Dokumente werden beim Import automatisch in Markdown umgewandelt und durchlaufen anschliessend dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
 
-<h4>Umwandlung der Elemente</h4>
+### Umwandlung der Elemente
 
 Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editors umgewandelt:
 
@@ -344,7 +376,7 @@ Die Titelgrösse steuert zugleich, welche importierten Titel das Element "Inhalt
 !!! note "Markdown-Erweiterungen"
     Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
 
-**Bilder beim Import**
+### Bilder beim Import
 
 Bilder werden direkt ins Media Center eingebunden, wobei eine Duplikats-Prüfung verhindert, dass das selbe Bild mehrfach im Media Center abgelegt wird. So wird Platz gespart und automatisch aufgeräumt, ohne dass man sich als Autor:in darum kümmern muss.
 
@@ -352,11 +384,13 @@ Bilder mit absoluten URLs werden beim Import heruntergeladen, sofern die Adminis
 
 Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, werden für importierte Bilder die Metadaten (Alt-Text, Beschreibung, Schlagwörter) im Hintergrund automatisch per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei wird eine verkleinerte Version des Bildes an den KI-Dienst übertragen. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 
-#### Import an einer bestimmten Position
+
+### Import an einer bestimmten Position
 
 Der Button "Importieren" steht zusätzlich im **Dialog "Inhalt hinzufügen"** zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
 
-<h4>KI-Fragen beim Import erzeugen</h4>
+
+### KI-Fragen beim Import erzeugen
 
 Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit den KI Funktionen "Essay Fragen Generator" und "Essay Bewertung" konfiguriert, können Sie im Import-Dialog zusätzlich die Option **"KI-generiertes Quiz hinzufügen"** aktivieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat erzeugt dann aus dem importierten Inhalt Fragen und fügt sie als Quiz-Element am Seitenende an. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ).
 
@@ -367,32 +401,11 @@ Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Elem
 ---
 
 
-### Anderes & Design {: #others_and_design}
+## Media Center {: #media_center}
 
-<h4>Separator</h4>
+Im Content Editor des Kursbausteins Seite und des Portfolios gibt es noch einen separaten Button, der zum Media Center führt. Im Prinzip handelt es sich dabei um einen weiteren Weg unabhängig von der Art des Mediums auf die Dateien zuzugreifen. 
 
-Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
-
-<h4>Inhaltsverzeichnis</h4>
-
-Das Element "Inhaltsverzeichnis" macht lange Seiten übersichtlich: Es listet die Titel der Seite als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Erfasst werden die Titel, die auf der Seite nach dem Inhaltsverzeichnis folgen, bis zum nächsten Titel gleicher oder höherer Stufe. So lässt sich ein Verzeichnis für die ganze Seite oder nur für ein einzelnes Kapitel erstellen. Im Inspektor legen Sie unter "Titelgrössen" fest, welche Titelstufen (H1 bis H5) im Verzeichnis erscheinen; standardmässig sind H1 bis H4 ausgewählt. Wird das Inhaltsverzeichnis als Hinweis-Box dargestellt, dient sein Titel als Titel der Box.
-
-Dieses Element existiert nicht im Formular Editor.
-
-<h4>HTML-Textcode</h4>
-
-Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
-
-
-[Zum Seitenanfang ^](#content_editor)
-
----
-
-## Medien Center {: #media_center}
-
-Im Content Editor des Kursbausteins Seite und des Portfolios gibt es noch einen separaten Button, der zum Medien Center führt. Im Prinzip handelt es sich dabei um einen weiteren Weg unabhängig von der Art des Mediums auf die Dateien zuzugreifen. 
-
-Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Medien Center. Hier können Sie Dateien auswählen, erstellen oder hochladen. 
+Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers. Hier können Sie Dateien auswählen, erstellen oder hochladen. 
 
 ![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 

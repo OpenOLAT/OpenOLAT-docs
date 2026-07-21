@@ -160,28 +160,31 @@ Example:
 ---
 
 
-## Content types
+## Content types {: #content_types}
 
 Please note that not *all* elements are available in every content editor. 
 
-### Text elements {: #text_elements}
+![content_editor_content_types_v1_de.png](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
 
-<h3>Title</h3>
+
+<h3>Text</h3>
+
+### Title {: #title}
 
 Various font sizes are predefined for the heading element.
 
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
-<h3>Text</h3>
+### Text {: #text}
 
 Use this element to add texts.
 ![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
 
-<h3>Table</h3>
+### Table {: #table}
 
 ![content_editor_content_table_v1_de.png](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
-<h3>Mathematic formula</h3>
+### Mathematic formula {: #formula}
 
 A special small editor is available for mathematical formulas.
 
@@ -189,7 +192,7 @@ A special small editor is available for mathematical formulas.
 
 This text element does not exist in the Form Editor. 
 
-<h3>Code example</h3>
+### Code example {: #code}
 
 The 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly helpful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
 
@@ -197,31 +200,35 @@ The 'Code' block enables text to be displayed in a font with fixed spacing and n
 
 This text element does not exist in the Form Editor. 
 
-<h3>Quote</h3>
+### Quote {: #quote}
 
 If a text is entered as a quote, it automatically has a predefined formatting. The quotes are saved as reusable objects in the Media Center, just like audio or videos.
 
 This text element does not exist in the Form Editor. 
 
+[To the top of the page ^](#content_editor)
 
-### Media {: #media}
+---
+
+
+<h3> Media </h3>
 
 !!! info "Important"
 
     Instead of the "Media" section and its associated content elements, the [Form Editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
 
 
-<h3>Image</h3>
+### Image {: #image}
 
 All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-<h3>Gallery</h3>
+### Gallery {: #gallery}
 
 Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
 
 ![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
-<h3>Image comparison</h3>
+### Image comparison {: #image_comparison}
 
 Two superimposed images can be cross-faded using a slider.
 
@@ -229,18 +236,18 @@ Two superimposed images can be cross-faded using a slider.
 
 
 
-<h3>Audio</h3>
+### Audio {: #audio}
 
 Audio can be recorded directly in OpenOlat, uploaded or selected from existing audio.
 
 ![content_editor_content_audio_v1_de.png](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" }
 
-<h3>Video</h3>
+### Video {: #video}
 
 Videos can also be integrated via URL in the 'Video' block. The video formats MP4 and m3u8 as well as the platforms Youtube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
  
 
-<h3>Document</h3>
+### Document {: #document}
 
 Here, you can upload documents in various formats (e.g., PDF or Word files) using drag-and-drop, select them from the Media Center, or create them directly in specific formats. The media files are automatically saved in the Media Center.
 
@@ -251,7 +258,7 @@ In addition, the "Share" section allows you to share newly created or uploaded d
 
 ![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
-<h3>draw.io diagram</h3>
+### draw.io diagram  {: #diagram}
 
 Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
@@ -261,14 +268,14 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 ---
 
-### Assessable quiz questions [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
+<h3> Knowledge </h3>
 
 !!! info "Important"
 
     This section is available only in the Content Editor of the course element "Page".
 
 
-<h3>Quiz</h3>
+### Quiz [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
 This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos, which enhances the learning experience.
  
@@ -276,7 +283,32 @@ These short quiz questions are intended to encourage engagement with the course 
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
-### AI feedback on essay answers
+[To the top of the page ^](#content_editor)
+
+---
+
+<h3> Others & Design </h3>
+
+### Separator {: #separator}
+
+A separator is a line (visual design element) used to separate content.
+
+### Table of contents {: #table_of_contents}
+
+The "Table of contents" element makes long pages easy to navigate: it lists the titles of the page as clickable jump marks and takes you directly to the respective section with one click [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. It captures the titles that follow the table of contents on the page, up to the next title of the same or a higher level. This allows you to create a table of contents for the whole page or for a single chapter only. In the inspector, "Title sizes" defines which title levels (H1 to H5) appear in the list; H1 to H4 are selected by default. If the table of contents is displayed as an alert box, its title serves as the box title.
+
+This element does not exist in the Form Editor.
+
+### HTML Code {: #html}
+
+The HTML text code editor is available exclusively in the "Page" course element editor. It performs similar functions to the "Text" content element but offers additional menus and options. 
+
+[To the top of the page ^](#content_editor)
+
+---
+
+
+## AI feedback on essay answers
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has the AI feature "Essay Grading" configured, essay questions can also be added to a quiz [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. When learners answer such a question, they can request formative feedback on their answer under "AI feedback". It comprises an "Overall assessment", "What went well", "What is missing" and a "Next step" section, either as a "Summary" or "Detailed feedback". The feedback does not award points and serves for self-assessment.
 
@@ -284,7 +316,7 @@ If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has t
 
 ---
 
-### Importing Markdown and Word Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
+## Importing Markdown and Word Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
 !!! info "Important"
 
@@ -304,7 +336,7 @@ To import, click the **"Import"** button at the bottom of the content editor. In
 !!! Info "Importing Word documents"
     Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
 
-<h4>Conversion of the elements</h4>
+### Conversion of the elements
 
 During import, the markdown elements are converted into blocks of the Content Editor as follows:
 
@@ -331,7 +363,7 @@ The title size also determines which imported titles the "Table of contents" ele
 !!! note "Markdown extensions"
     In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon; MkDocs admonitions add further types such as ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG or EXAMPLE. An admonition title in quotation marks is applied, an empty title `""` hides the title line, and without a title the default label of the type is shown. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
 
-**Images during import**
+### Images during import
 
 Images are imported directly into the Media Center, and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
 
@@ -339,11 +371,11 @@ Images with absolute URLs are downloaded during import, provided the administrat
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", metadata (alt text, description, keywords) is automatically generated by AI in the background for imported images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. A reduced version of the image is transmitted to the AI service. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 
-#### Importing at a specific position
+### Importing at a specific position
 
 The "Import" button is additionally available in the **"Add content" dialog** [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
 
-<h4>Generate AI questions on import</h4>
+### Generate AI questions on import
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI features "Essay Question Generator" and "Essay Grading", you can additionally enable the **"Add AI generated Quiz"** option in the import dialog [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat then generates questions from the imported content and appends them as a quiz element at the end of the page. Via the "MC question" and "Essay question with AI correction" fields you define how many questions of each type are generated (up to five per type).
 
@@ -353,25 +385,6 @@ Generation runs in the background and can take a minute; the quiz element appear
 
 ---
 
-### Others & Design {: #others_and_design}
-
-<h4>Separator</h4>
-
-A separator is a line (visual design element) used to separate content.
-
-<h4>Table of contents</h4>
-
-The "Table of contents" element makes long pages easy to navigate: it lists the titles of the page as clickable jump marks and takes you directly to the respective section with one click [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. It captures the titles that follow the table of contents on the page, up to the next title of the same or a higher level. This allows you to create a table of contents for the whole page or for a single chapter only. In the inspector, "Title sizes" defines which title levels (H1 to H5) appear in the list; H1 to H4 are selected by default. If the table of contents is displayed as an alert box, its title serves as the box title.
-
-This element does not exist in the Form Editor.
-
-<h4>HTML Code</h4>
-
-The HTML text code editor is available exclusively in the "Page" course element editor. It performs similar functions to the "Text" content element but offers additional menus and options. 
-
-[To the top of the page ^](#content_editor)
-
----
 
 ## Media Center {: #media_center}
 
