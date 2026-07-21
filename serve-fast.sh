@@ -43,12 +43,17 @@ case "$LANG" in
 		;;
 esac
 
-if [ -x "venv/bin/mkdocs" ]; then
-	MKDOCS=(venv/bin/mkdocs)
+# Invoke mkdocs through the venv interpreter (python -m mkdocs) rather than the
+# venv/bin/mkdocs console script: a venv that was moved to a different path has a
+# stale absolute interpreter path baked into that script's shebang, which breaks
+# it ("bad interpreter"). The python3 symlink points at the base interpreter and
+# survives the move, so -m mkdocs keeps working.
+if [ -x "venv/bin/python3" ] && [ -e "venv/bin/mkdocs" ]; then
 	PYTHON=(venv/bin/python3)
-elif [ -x ".venv/bin/mkdocs" ]; then
-	MKDOCS=(.venv/bin/mkdocs)
+	MKDOCS=(venv/bin/python3 -m mkdocs)
+elif [ -x ".venv/bin/python3" ] && [ -e ".venv/bin/mkdocs" ]; then
 	PYTHON=(.venv/bin/python3)
+	MKDOCS=(.venv/bin/python3 -m mkdocs)
 elif command -v mkdocs >/dev/null 2>&1; then
 	MKDOCS=(mkdocs)
 	PYTHON=(python3)
