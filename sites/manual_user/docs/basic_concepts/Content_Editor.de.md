@@ -163,6 +163,14 @@ Beispiel:
 
 ---
 
+### Anker {: #anchors}
+
+Alle Titel-Elemente einer Seite werden automatisch mit Ankern (Sprungzielen) versehen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}, so dass innerhalb der Seite direkt zu einem Abschnitt gesprungen werden kann.
+
+[Zum Seitenanfang ^](#content_editor)
+
+---
+
 
 ## Inhaltstypen {: #content_types}
 

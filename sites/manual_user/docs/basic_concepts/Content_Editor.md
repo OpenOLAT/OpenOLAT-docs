@@ -159,6 +159,14 @@ Example:
 
 ---
 
+### Anchors {: #anchors}
+
+All heading elements on a page are automatically assigned anchors (jump targets) [:octicons-tag-16:{ title="as of Release 21.0 (OO-9411)" }](https://track. frentix.com/issue/OO-9411){:target=“_blank”}, allowing users to jump directly to a section within the page.
+
+[To the top of the page ^](#content_editor)
+
+---
+
 
 ## Content types {: #content_types}
 
