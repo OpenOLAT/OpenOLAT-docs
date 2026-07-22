@@ -178,8 +178,6 @@ Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verf�
 
 ![content_editor_content_types_v1_de.png](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
 
-<h3>Text</h3>
-
 ### Titel {: #title}
 
 Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert.
@@ -223,10 +221,7 @@ Dieses Textelement existiert nicht im Formular Editor.
 
 ---
 
-
-<h3> Medien </h3>
-
-!!! info "Wichtig"
+!!! info "Bereich Medien"
 
     Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
 
@@ -283,10 +278,7 @@ Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden ode
 
 ---
 
-
-<h3> Wissen </h3> 
-
-!!! info "Wichtig"
+!!! info "Bereich Wissen"
 
     Dieser Bereich existiert nur im Content Editor des Kursbausteins Seite.
 
@@ -301,9 +293,6 @@ Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern
 [Zum Seitenanfang ^](#content_editor)
 
 ---
-
-
-<h3> Andere & Design </h3>
 
 ### Separator {: #separator}
 

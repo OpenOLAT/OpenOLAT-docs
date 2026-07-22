@@ -175,8 +175,6 @@ Please note that not *all* elements are available in every content editor.
 ![content_editor_content_types_v1_de.png](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Text</h3>
-
 ### Title {: #title}
 
 Various font sizes are predefined for the heading element.
@@ -218,10 +216,7 @@ This text element does not exist in the Form Editor.
 
 ---
 
-
-<h3> Media </h3>
-
-!!! info "Important"
+!!! info "Section Media"
 
     Instead of the "Media" section and its associated content elements, the [Form Editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
 
@@ -276,9 +271,7 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 ---
 
-<h3> Knowledge </h3>
-
-!!! info "Important"
+!!! info "Section Knowledge"
 
     This section is available only in the Content Editor of the course element "Page".
 
@@ -294,8 +287,6 @@ These short quiz questions are intended to encourage engagement with the course 
 [To the top of the page ^](#content_editor)
 
 ---
-
-<h3> Others & Design </h3>
 
 ### Separator {: #separator}
 
