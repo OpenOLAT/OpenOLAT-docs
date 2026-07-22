@@ -1,4 +1,4 @@
-# Module Learning resource {: #learning_resource} [:octicons-tag-16:{ title="from Release 20.3 (formerly: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+# Module Learning resource [:octicons-tag-16:{ title="from Release 20.3 (formerly: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 

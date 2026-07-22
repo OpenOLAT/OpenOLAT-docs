@@ -1,4 +1,4 @@
-# Modul Lernressource {: #learning_resource} [:octicons-tag-16:{ title="ab Release 20.3 (früher: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+# Modul Lernressource [:octicons-tag-16:{ title="ab Release 20.3 (früher: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
 Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
