@@ -66,7 +66,7 @@ Zukünftig wird sich der Bereich "Kurse" auf die Lernenden/Teilnehmenden konzent
 !!! Note "Roadmap für Zugang zu Lernressourcen"
 
     * Release 20.1: "Kurse" für Teilnehmende; "Kurse" und "Coaching" für Betreuer:innen/Besitzer:innen (optional konfigurierbar)
-    * Release 20.2: "Kurse" für Teilnehmende; "Coaching" für Betreuer:innen/Besitzer:innen
+    * Release 21.0: "Kurse" für Teilnehmende; "Coaching" für Betreuer:innen/Besitzer:innen
 
 Zusätzliche Optionen und Hinweise für eine schrittweise Umstellung des Zugangs von "Kurse" zu "Coaching" für Betreuende sind ab :octicons-tag-24: Release 20.1.1 verfügbar und unterstützten die Anwender:innen in der Übergangsphase.
 

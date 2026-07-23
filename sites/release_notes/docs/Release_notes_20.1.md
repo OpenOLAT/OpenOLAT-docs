@@ -66,7 +66,7 @@ In future, the "Courses" area will focus on learners/participants. People with a
 !!! Note "Roadmap to access learning resources"
 
     * Release 20.1: "Courses" for participants; "Courses" and "Coaching" for coaches/owners (optionally configurable)
-    * Release 20.2: "Courses" for participants; "Coaching" for coaches/owners
+    * Release 21.0: "Courses" for participants; "Coaching" for coaches/owners
 
 Additional options and instructions for a gradual changeover of access from "Courses" to "Coaching" for coaches are available from :octicons-tag-24: release 20.1.1 and support users in the transition phase.
 
