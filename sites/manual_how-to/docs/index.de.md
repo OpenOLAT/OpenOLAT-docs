@@ -42,12 +42,12 @@
 ## Tests und Prüfungen
 
 1. [Wie gehe ich vor, wenn ich einen Test erstelle?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
-2. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
-3. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
+2. [Wie bereite ich eine Online-Prüfung vor?](/de/manual_how-to/exam_preparation/exam_preparation)
+3. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
 4. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
-5. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
-6. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
-7. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](/de/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
+5. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
+6. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](/de/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
+7. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
 8. [Wie wechsle ich einen Test aus?](/de/manual_how-to/exchange_tests/exchange_tests)
 9. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](/de/manual_how-to/oral_exam/oral_exam)
 
