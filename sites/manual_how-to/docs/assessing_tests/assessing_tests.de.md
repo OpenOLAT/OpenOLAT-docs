@@ -69,7 +69,7 @@ Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, g
 ![5_green_24.png](assets/5_green_24.png) Mit Klick auf das **Korrektur-Icon** oder die **3 Punkte und dann "Korrigieren"** in der Zeile des aktuellen Testversuchs öffnen Sie das **Korrekturwerkzeug**. Sie erhalten die Liste der Fragen dieses Tests und können jede Einzelfrage bewerten. (Zu jeder Frage gibt es ein **Bewertungsformular der Einzelfrage**.) Sie können
 
 * sich die Resultate anzeigen lassen
-* einen Testversuch annulieren
+* einen Testversuch annullieren
 * die Resultate dieses/dieser Teilnehmer:in als pdf exportieren
 * mit Log-Dateien den Verlauf des Testversuchs nachvollziehen.
 
@@ -108,7 +108,7 @@ Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
 
 Wird Ihnen im **Menü der Kopfzeile die Option "Coachingtool"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
 
-Das **Coachingtool** zeigt **kursübergeifend** anstehende Bewertungsaufträge an.
+Das **Coachingtool** zeigt **kursübergreifend** anstehende Bewertungsaufträge an.
 Sie können von der Übersichtsseite des Coachingtools über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge. 
 
 Die darauf folgenden Schritte entsprechen dann wieder denen, wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)).
@@ -219,7 +219,7 @@ Ob und wie eine Umwandlung der Punkte stattfindet, wird von dem/der Kursautor:in
 
 Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilnehmer:innen auf einmal zu setzen, ohne jede Person einzeln zu öffnen.
 
-* Selektieren Sie in der Teilnehmer:innenliste die **Checkboxen** der gewünschten Personen in der ersten Spalte. Wenn Sie die Checkbos in der Kopfzeile selektieren, werden alle Checkboxen dieser Spalte selektiert.
+* Selektieren Sie in der Teilnehmer:innenliste die **Checkboxen** der gewünschten Personen in der ersten Spalte. Wenn Sie die Checkbox in der Kopfzeile selektieren, werden alle Checkboxen dieser Spalte selektiert.
 * Sobald mindestens eine Person ausgewählt ist, erscheinen mehrere Buttons für Sammelaktionen oberhalb der Tabelle.
 * Wählen Sie eine der Aktionen.
 
@@ -259,7 +259,7 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 [Test erstellen >](../../manual_user/learningresources/Test.de.md)<br>
 [Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
-[Das Bewertungsformnular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
+[Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 [Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)<br>

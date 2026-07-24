@@ -27,7 +27,7 @@
 
 * Punkte können auf Wunsch in [**Noten**](#grades) oder andere Systeme umgerechnet werden.
 
-* [**Leisungsnachweise**](#evidence_of_achievements) sind Bestätigungen einer erfolgten Leistungskontrolle, z.B. für absolvierte Tests, abgegebene und bewertete Aufgaben usw.
+* [**Leistungsnachweise**](#evidence_of_achievements) sind Bestätigungen einer erfolgten Leistungskontrolle, z.B. für absolvierte Tests, abgegebene und bewertete Aufgaben usw.
 
 * Ein erreichtes Ziel in einem Online-Lernprogramm kann mit einem [**Badge**](#badges) belohnt werden.
 
@@ -46,7 +46,7 @@
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Grundlegendes Bewertungs-ystem in OpenOlat | Bewertung von Leistungen innerhalb eines Kurses, Übersetzung von Punkten in Noten | Kursteilnehmende sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus | Digitales Abzeichen innerhalb eines Kurses | Digitales Abzeichen, unabhängig von einzelnen Kursen | Offizieller Leistungsnachweis im PDF-Format | OpenOlat-interne Währung |
+| Grundlegendes Bewertungssystem in OpenOlat | Bewertung von Leistungen innerhalb eines Kurses, Übersetzung von Punkten in Noten | Kursteilnehmende sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus | Digitales Abzeichen innerhalb eines Kurses | Digitales Abzeichen, unabhängig von einzelnen Kursen | Offizieller Leistungsnachweis im PDF-Format | OpenOlat-interne Währung |
 
 **Zweck**
 
@@ -56,7 +56,7 @@
 
 **Vergabe**
 
-| Punkte | Noten | Leisungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
+| Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ----------------- | ------------------- | -------------- | ----------- | ------------ |
 | Automatisch in bewertbaren Kursbausteinen (z.B. Tests) und durch Betreuer:innen | Automatisch, basierend auf erreichten Punkten und der definierten Notenskala im Kurs | Anzeige wird durch Kursbesitzer:innen in den Einstellungen aktiviert | Automatisch oder manuell durch Lehrpersonen im Kurs | Zentral von Admins oder berechtigten Personen vergeben | Automatisch nach Erfüllung der festgelegten Kriterien | für erbrachte Lernleistungen oder durch Betreuer:innen |
 
@@ -79,7 +79,7 @@
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Grundsätzliche Methode zur Erfassung von Ergebnissen als Grundlage für Siegertreppchen u.a. | Für Lernende als Rückmeldung zur Leistung, für Lehrpersonen zur Bewertung | Für Lernende als detailierte Rückmeldung | Online teilbar (z.B. LinkedIn, Portfolio) | Online teilbar (z.B. LinkedIn, Portfolio); stärkt institutionelle Reputation | Als formelles Dokument in Bewerbungen oder zur Archivierung nutzbar | als Gratifikation für bestandene Kurse oder als Teilnahmevoraussetzung |
+| Grundsätzliche Methode zur Erfassung von Ergebnissen als Grundlage für Siegertreppchen u.a. | Für Lernende als Rückmeldung zur Leistung, für Lehrpersonen zur Bewertung | Für Lernende als detaillierte Rückmeldung | Online teilbar (z.B. LinkedIn, Portfolio) | Online teilbar (z.B. LinkedIn, Portfolio); stärkt institutionelle Reputation | Als formelles Dokument in Bewerbungen oder zur Archivierung nutzbar | als Gratifikation für bestandene Kurse oder als Teilnahmevoraussetzung |
 
 
 **Beispiel-Einsatz**
@@ -133,9 +133,9 @@ Die Einstufungs- und Notenskala kann dann im Bewertungswerkzeug verwendet werden
 
 ## Leistungsnachweise {: #evidence_of_achievements}
 
-Die Leisungsnachweise bestätigen eine erfolgte Leistungskontrolle (in Tests, Aufgabenbausteinen u.a.). und können im persönlichen Menü eingesehen werden. 
+Die Leistungsnachweise bestätigen eine erfolgte Leistungskontrolle (in Tests, Aufgabenbausteinen u.a.). und können im persönlichen Menü eingesehen werden. 
 
-[Mehr zu Leisungsnachweisen >](../../manual_user/personal_menu/Evidence_of_Achievements.de.md)<br>
+[Mehr zu Leistungsnachweisen >](../../manual_user/personal_menu/Evidence_of_Achievements.de.md)<br>
 [Zum Seitenanfang ^](#achievements)
 
 ---
@@ -146,7 +146,7 @@ Die Leisungsnachweise bestätigen eine erfolgte Leistungskontrolle (in Tests, Au
 Pro Kurs kann ein Zertifikat (pdf) ausgestellt werden, sobald der Kurs bestanden wurde. Wann ein Kurs als bestanden gilt, wird anderweitig durch die Kursbesitzer:innen festgelegt. Kriterien für das Bestehen können z.B. sein, ob bestimmte Kursbausteine abgearbeitet wurden oder ein bestimmte Punktzahl erreicht wurde.
 
 Wurde mit einem "Bestanden" auch ein Zertifikat erstellt, finden es Kursteilnehmer:innen anschliessend im persönlichen Menü. Dort sind alle Zertifikate einsehbar, auch bereits abgelaufene.
-Ein Zertifkat kann mit einem Ablaufdatum versehen werden und ggf. eine erforderliche Rezertifizierung angestossen werden.
+Ein Zertifikat kann mit einem Ablaufdatum versehen werden und ggf. eine erforderliche Rezertifizierung angestossen werden.
 
 [Mehr zu Zertifikaten >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zum Seitenanfang ^](#achievements)
@@ -167,7 +167,7 @@ Mit einem Zertifikatsprogramm kann ein Zertifikat für den Besuch einer Durchfü
 ## Kreditpunkte {: #credit_points}
 
 Die Kreditpunkte können als eine Art Zahlungsmittel innerhalb OpenOlat betrachtet werden. 
-Durch Administrator:innen können verschiedene Kreditpunktsystene ("Währungen") definiert werden, wobei die Gültigkeitsdauer der Kreditpunkte auch begrenzt werden kann.
+Durch Administrator:innen können verschiedene Kreditpunktsysteme ("Währungen") definiert werden, wobei die Gültigkeitsdauer der Kreditpunkte auch begrenzt werden kann.
 
 Teilnehmer:innen können nach Bestehen eines Kurses automatisch Kreditpunkte gutgeschrieben werden. Wieviele Kreditpunkte vergeben werden, bestimmen die Kursbesitzer:innen beim Erstellen des Kurses.
 
@@ -233,11 +233,11 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 - [x] Soll ein Zertifikat ausgestellt werden?
 - [x] Wurde eine Zertifikatvorlage bereitgestellt?
 - [x] Soll das Zertifikat für einen einzelnen Kurs oder für mehrere Kurse ausgestellt werden?
-- [x] Sind Zertifikatsprogramme aktivert?
+- [x] Sind Zertifikatsprogramme aktiviert?
 - [x] Sollen Kreditpunkte zur Verfügung stehen? 
 - [x] Wurde mindestens ein Kreditpunktesystem eingerichtet? 
 - [x] Sollen verschiedene Kreditpunktesystem ("Währungen") zur Verfügung stehen?
-- [x] Wurden die Kursteilnehmer:innen darüber informiert, wo sie ihre erworbenen Leisungsnachweise, Badges usw. einsehen können? 
+- [x] Wurden die Kursteilnehmer:innen darüber informiert, wo sie ihre erworbenen Leistungsnachweise, Badges usw. einsehen können? 
 
 [Zum Seitenanfang ^](#achievements)
 

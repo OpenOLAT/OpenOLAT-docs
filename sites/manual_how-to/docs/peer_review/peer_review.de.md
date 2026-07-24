@@ -55,7 +55,7 @@ Es kann gewählt werden, ob Teilnehmer:innen sich gegenseitig reviewen sollen od
     * **Zufällig**: Die Reviewer:innen erhalten zufällige Review-Objekte.
 
 11. Anzahl Reviews<br>
-Die Teilnehmer:innen des Kurses erhalten einen Reviewauftrag für eine bestimmte Anzahl anderer Teilnehmener:innen (nicht für *alle* anderen Teilnehmer:innen). Diese Anzahl wird hier vorgegeben.
+Die Teilnehmer:innen des Kurses erhalten einen Reviewauftrag für eine bestimmte Anzahl anderer Teilnehmer:innen (nicht für *alle* anderen Teilnehmer:innen). Diese Anzahl wird hier vorgegeben.
 
 12. Qualitäts-Feedback für Reviewer:in<br>
 Auch eine Rückmeldung an die Reviewer:innen kann ermöglicht werden. Wird der Toggle-Button eingeschaltet, kann die Form der Abfrage gewählt werden. ("Hilfreich?" und "Sternebewertung").

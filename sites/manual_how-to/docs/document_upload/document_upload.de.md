@@ -48,7 +48,7 @@ Es gibt verschiedene Möglichkeiten, wo und wie Kursteilnehmende eine Datei (z.B
 | Max./min. Anzahl Dokumente festlegen | Ja | Nur Max. | Nein |
 | Feedback an Teilnehmende | Ja | Dokument in "Betreuerrückgabeordner" hochladen | Nein (nur per E-Mail) |
 | Überarbeitung der Abgabe mit Frist | Ja | Nein | Nein |
-| Automatische Zuweisung von Aufgaben (bei mehreren Aufgabestellungen) | Ja | Nein | Nein |
+| Automatische Zuweisung von Aufgaben (bei mehreren Aufgabenstellungen) | Ja | Nein | Nein |
 | Verspätete Abgabe zulassen | Ja | Nein | Nein |
 | Automatische Zuweisung von Betreuenden | Ja | Nein | Nein |
 | Bewertungsmöglichkeit im KB | Ja | Nein | Nein |

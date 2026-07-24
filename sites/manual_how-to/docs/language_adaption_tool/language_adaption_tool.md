@@ -3,7 +3,7 @@
 
 ??? abstract "Goal and content of these instructions"
 
-     Diese Anleitung zeigt Ihnen, wie Sie Texte der OpenOlat-Benutzeroberfläche (GUI, Grafisches User Interface) anpassen.
+     These instructions show you how to adapt texts of the OpenOlat user interface (GUI, Graphical User Interface).
 
 ??? abstract "Target group"
 
@@ -25,11 +25,11 @@ An institution or company often uses its own internal terminology. It is then de
 **Example:**<br>
 The title of the search field for the catalog should not say "Catalog", but "Our products".
 
-=== "Standardtext"
+=== "Default text"
 
     ![language_adaption_tool_example1a_v1_de.png](assets/language_adaption_tool_example1a_v1_de.png){ class="shadow lightbox" }
 
-=== "Angepasster Text"
+=== "Adapted text"
 
     ![language_adaption_tool_example1b_v1_de](assets/language_adaption_tool_example1b_v1_de.png){ class="shadow lightbox" }
 
@@ -72,7 +72,7 @@ The language adaptation tool opens in a new browser window. This is advantageous
 
 ## Step 1: Which text should be changed? {: #step1} 
 
-Wo befindet sich der Begriff, der geändert werden soll? Um herauszufinden, welche Variable dahinter steckt, muss man genau wissen, welcher Begriff gemeint ist. Ideally, you know the variable name (key) behind which the term or text you are looking for is stored in OpenOlat. The [Overview of keys](#keys) can help you with this.
+Where is the term that is to be changed located? To find out which variable is behind it, you need to know exactly which term is meant. Ideally, you know the variable name (key) behind which the term or text you are looking for is stored in OpenOlat. The [Overview of keys](#keys) can help you with this.
 
 **Example:**<br>
 The term "catalog" should only be changed to catalog in the title of the search field.
@@ -180,7 +180,7 @@ On the programming side, the texts of the screens are summarized in variable pac
 | ----------------| ------------------------------------------ | ------------------------- | --------------------------------------- |
 | Catalog         | Main menu (Header)                      | topnav.catalog            | org.olat.core.commons.chiefcontrollers  |
 | Catalog         | Main menu (Header) Tooltipp             | topnav.catalog.alt        | org.olat.core.commons.chiefcontrollers  |
-| C'atalog         | Titel of the search field                       | header.search.title       | org.olat.modules.catalog.ui             |
+| Catalog         | Titel of the search field                       | header.search.title       | org.olat.modules.catalog.ui             |
 | Login           | Title of the Login                            | menu.register             | org.olat.login                          |
 | Login           | Text below the title in the login         | menu.register.to.use      | org.olat.login                          |
 

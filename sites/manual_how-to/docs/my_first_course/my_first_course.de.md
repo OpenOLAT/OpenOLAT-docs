@@ -64,7 +64,7 @@ Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 
 ## 4. Kurseinstellungen vornehmen
 
-Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs gibt können Sie detaillierte Angaben machen. Für den Anfang übenehmen wir die Voreinstellungen. 
+Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs gibt können Sie detaillierte Angaben machen. Für den Anfang übernehmen wir die Voreinstellungen. 
 Später können Sie diese Kurseinstellungen jederzeit wieder aufrufen und bearbeiten unter <b>Administration > Einstellungen</b>.<br>
 
 ![kurseinstellungen_v1_de.png](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" }

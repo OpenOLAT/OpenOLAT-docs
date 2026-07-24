@@ -51,7 +51,7 @@ Beim unwiderruflichen Löschen wird die Gruppe, das Konto oder der Kurs vollstä
 Die generelle Aktivierung und Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen wird vom Administrator eingestellt unter: 
 **Administration > Lebenszyklen**
 
-Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzelne** Kurse, Gruppen oder Benutzer Lebenszyklen aktviert werden.
+Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzelne** Kurse, Gruppen oder Benutzer Lebenszyklen aktiviert werden.
 
 ![lifecycle_benutzer_admin_v1_de.png](assets/lifecycle_benutzer_admin_v1_de.png){ class="shadow lightbox" }
 
@@ -152,13 +152,13 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 - Mail mit Ankündigung der Inaktivierung
 - Reaktionsfrist auf die Ankündigung der Inaktivierung
-- Frei definierbarer Benachrichtungstext zur Ankündigung der Inaktivierung
+- Frei definierbarer Benachrichtigungstext zur Ankündigung der Inaktivierung
 - Mail mit der Information, dass die Inaktivierung vorgenommen wurde
 - Frei definierbarer Benachrichtigungstext nach der Inaktivierung
 
 - Mail mit Ankündigung der Löschung
 - Reaktionsfrist auf die Ankündigung der Löschung
-- Frei definierbarer Benachrichtungstext zur Ankündigung der Löschung
+- Frei definierbarer Benachrichtigungstext zur Ankündigung der Löschung
 - Mail mit der Information, dass die Löschung vorgenommen wurde
 - Frei definierbarer Benachrichtigungstext nach der Löschung
 

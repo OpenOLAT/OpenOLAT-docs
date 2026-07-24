@@ -122,7 +122,6 @@ This will take you to the preview of your content package. Since it is newly cre
 
 By clicking **"Administration"** and then **"Edit content"** you reach the edit mode of the CP-Editor. The hatched header shows it to you. (However, you are not editing a course here, but a learning resource).
 
-Sie finden hier alle Werkzeuge zum Ergänzen von Inhalt in der CP-Lernressource:
 You will find here all tools for adding content to the CP learning resource:
 
 * create new pages within the content package,

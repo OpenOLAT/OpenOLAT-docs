@@ -96,7 +96,7 @@ Wird hier "Ja" gewählt, kann die Konfigurationsdatei durch die Prüfungsteilneh
 Wird hier "Nein" gewählt, besteht die Downloadmöglichkeit für Teilnehmer:innen nicht mehr, für Autor:innen jedoch weiterhin, wie in [Schritt 6](#download_SEB_configfile) beschrieben.
 
 ![3_green_24.png](assets/3_green_24.png) **Beenden von SEB erlauben**<br>
-Manche Prüfungsteilnehmer:innen sind teilweise früher fertig und können dann bis zum eingestellten Ende des Prüfungsmodus nicht auf OpenOlat oder ander Websites zugreifen.
+Manche Prüfungsteilnehmer:innen sind teilweise früher fertig und können dann bis zum eingestellten Ende des Prüfungsmodus nicht auf OpenOlat oder andere Websites zugreifen.
 Besteht keine Gefahr von Missbrauch (gegenseitiger Hilfe), kann den Prüfungsteilnehmer:innen das Beenden des SEB erlaubt werden, sobald sie ihre Prüfung abgegeben haben. In diesem Fall wird ein Quit-Button rechts unten auf dem Bildschirm angezeigt.
 
 ![4_green_24.png](assets/4_green_24.png) **Beenden/Entsperren-Kennwort**<br>
@@ -273,7 +273,7 @@ Durch Öffnen dieser Konfigurationsdatei starten Prüfungsteilnehmer:innen die P
 
 !!! tip "Bring your own device (BYOD)"
 
-    Der SEB ermöglicht sichere Prüfungen auch auf privaten Rechnern der Prüfungsteilnehmer:innen. Voraussetzung ist, dass der Safe Exam Browser im Voraus auf dem Gerät installiert worden ist. Dann kann mit der verschickten Konfgurationsdatei der SEB auf verschiedenen BYOD-Geräten aufgerufen werden.
+    Der SEB ermöglicht sichere Prüfungen auch auf privaten Rechnern der Prüfungsteilnehmer:innen. Voraussetzung ist, dass der Safe Exam Browser im Voraus auf dem Gerät installiert worden ist. Dann kann mit der verschickten Konfigurationsdatei der SEB auf verschiedenen BYOD-Geräten aufgerufen werden.
 
 
 [zum Seitenanfang ^](#SEB)

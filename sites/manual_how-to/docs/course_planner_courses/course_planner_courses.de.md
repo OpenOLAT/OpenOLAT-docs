@@ -48,7 +48,7 @@ Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als
 
 !!! info "Voraussetzung"
 
-    Um den Course Planner verwenden zu können, muss er von einem/einer Systemdministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
+    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -364,7 +364,7 @@ Die Vorbereitung der automatisierten Instanzierung (Kurserstellung aus dem Templ
 ![course_planner_courses_implementations_tab_settings_automation_v1_de.png](assets/course_planner_courses_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" } 
 
 Sie können bestimmen, wann die automatisierte Instanzierung erfolgen soll.<br>
-Damit einhergehend besteht auch die Möglchkeit, den Kursstatus automatisch zu ändern.
+Damit einhergehend besteht auch die Möglichkeit, den Kursstatus automatisch zu ändern.
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)

@@ -5,7 +5,7 @@ Diese Anleitung zeigt Ihnen, wie Sie in Ihrem Kurs den Teilnehmer:innen eine Wah
 !!! tip "Hinweis"
 
     Wenn die Teilnehmer:innen keine Pflicht-Kursbausteine erledigen sollen, sondern grundsätzlich freie Wahl haben, können Sie dies durch die Konfiguration "freiwillig" ermöglichen.<br>
-    **Kurs im Kurseditor öffnen > Kursbausteinbaustein wählen > Tab Lernpfad > Option "freiwillig"**
+    **Kurs im Kurseditor öffnen > Kursbaustein wählen > Tab Lernpfad > Option "freiwillig"**
 
 ## Welche Art Auswahl sollen die Kursteilnehmer:innen treffen können? {: #examples}
 
@@ -75,7 +75,7 @@ b) Im Tab "Konfiguration" bestimmen Sie, wie viele der untergeordneten Kursbaust
 
 ![selection_authoring_tab_config_v1_de.png](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" }  
 
-Im Kursrun* werden die beiden gewählten Kursbausteine nach der Wahl in das Kursmenü eingefügt. Die Teilnehmer:innen haben also in diesem Abschnitt ein indiviuelles Kursmenü.<br> 
+Im Kursrun* werden die beiden gewählten Kursbausteine nach der Wahl in das Kursmenü eingefügt. Die Teilnehmer:innen haben also in diesem Abschnitt ein individuelles Kursmenü.<br> 
 Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl treffen"](../../manual_user/learningresources/Course_Element_Selection.de.md#selection_participant) 
 
 (*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)

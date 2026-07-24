@@ -91,7 +91,7 @@ angelegten Unterordner "_sharedfolder".
 
 ![ablageordner_ohne_menu_v1_de.png](assets/ablageordner_ohne_menu_v1_de.png){ class="shadow lightbox" } 
   
-3.2 Die Dateien dierses Ordners können Sie nun wie alle anderen Dateien des Ablageordners über
+3.2 Die Dateien dieses Ordners können Sie nun wie alle anderen Dateien des Ablageordners über
 den Kursbaustein "[Einzelne Seite](../../manual_user/learningresources/Knowledge_Transfer.de.md#single_page)" im Kurseditor
 hinzufügen.
 

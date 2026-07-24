@@ -304,7 +304,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* more spontaity e.g. in feedback during joint learning / joint work
+* more spontaneity e.g. in feedback during joint learning / joint work
 
 **Tools in OpenOlat:**
 

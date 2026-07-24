@@ -441,7 +441,7 @@ For more information, see chapter "Assigning tests".
 
 - [x] Learning resource "Test" created?
 
-- [x] Already existing questions from the question pool transfered into the learning resource? 
+- [x] Already existing questions from the question pool transferred into the learning resource? 
 
 - [x] Additional questions created within the learning resource?
 

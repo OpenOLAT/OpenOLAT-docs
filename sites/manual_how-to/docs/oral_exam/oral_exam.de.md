@@ -266,7 +266,7 @@ Nach dem Klick auf "Editieren" im Abschnitt "Rubrik-Bewertung" steht Ihnen das R
 
 ## Schritt 6, Variante b): Durchführung der mündlichen Prüfung mit Ausdruck (pdf) {: #step_6b}
 
-Soll das Prokoll zur mündlichen Prüfung ausgedruckt werden, kann in OpenOlat ein pdf erstellt werden.
+Soll das Protokoll zur mündlichen Prüfung ausgedruckt werden, kann in OpenOlat ein pdf erstellt werden.
 Z.B. kann Prüfer:innen, die nicht zur Online-Protokollierung in OpenOlat eingeteilt sind, ein solches Formular ausgedruckt werden.
 
 - Wählen Sie die gewünschte Prüfungsteilnehmer:in, dann sind im Kopf der pdf-Datei bereits alle Angaben zur Person angezeigt.

@@ -153,7 +153,7 @@ Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich ma
 Werden externe Tools verwendet, also Programme, die nicht Bestandteil von OpenOlat selbst sind, sondern dort eingebunden, besteht keine Kontrollmöglichkeit seitens OpenOlat, dass an diese Tools übergebene Daten irgendwo sonst gespeichert und weiter verwendet werden.
 
 **Beispiel: Office-Programme**<br>
-Sollen z.B. die Microsoft-Produkte Word, Excel und Powerpoint verwendet werden und sie sind von den Administrator:innen nach entsprechendener Lizenzbeschaffung eingebunden worden, kann damit z.B. gemeinsam am gleichen Dokument gearbeitet werden. Während des gemeinsamen Bearbeitens liegen die Dateien auf Servern von Microsoft und nicht in OpenOlat. Dass dies datenschutzrechtlich von Bedeutung sein kann, sollte Ihnen einfach bewusst sein.
+Sollen z.B. die Microsoft-Produkte Word, Excel und Powerpoint verwendet werden und sie sind von den Administrator:innen nach entsprechender Lizenzbeschaffung eingebunden worden, kann damit z.B. gemeinsam am gleichen Dokument gearbeitet werden. Während des gemeinsamen Bearbeitens liegen die Dateien auf Servern von Microsoft und nicht in OpenOlat. Dass dies datenschutzrechtlich von Bedeutung sein kann, sollte Ihnen einfach bewusst sein.
 
 **Beispiel: Kursbaustein Externe Seite**<br>
 Der Kursbaustein "Externe Seite" kann im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln, um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). 
@@ -171,7 +171,7 @@ Seitens OpenOlat werden alle externen Tools konfiguriert unter **(System-)Admini
 
 Es ist mit OpenOlat möglich, dass Kurse aufgerufen werden, die technisch auf einer anderen Plattform laufen (anderes OpenOlat oder sonstiges LMS). Die Technik dazu liefert die [LTI-Verbindung](../../manual_admin/administration/LTI_Integrations.de.md). Es handelt sich also um etwas Ähnliches, wie eine externe Seite. Allerdings nicht nur eine Einzelseite, sondern ganze Kurse, die aussehen, als wären sie Bestandteil des eigenen LMS.
 
-Zwischen den verbunden Plattformen werden - mit strengen Sciherheitsvorkehrungen - auch Daten ausgetauscht. Evtl. müsste auch abgeklärt werden, ob bei besonders sensiblen Daten zusätzliche Informationen und Einwilligungen der Teilnehmer:innen erforderlich sind. 
+Zwischen den verbunden Plattformen werden - mit strengen Sicherheitsvorkehrungen - auch Daten ausgetauscht. Evtl. müsste auch abgeklärt werden, ob bei besonders sensiblen Daten zusätzliche Informationen und Einwilligungen der Teilnehmer:innen erforderlich sind. 
 
 [zum Seitenanfang ^](#legal_consents)
 

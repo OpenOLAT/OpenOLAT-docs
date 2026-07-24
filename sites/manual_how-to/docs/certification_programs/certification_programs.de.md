@@ -98,7 +98,7 @@ Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer ha
 ### Schritt 4: Rezertifizierung? {: #step4}
 Erst durch die Angabe einer Gültigkeitsdauer wird die Option zur Rezertifizierung auswählbar.
 
-Wird die Rezertifizerung gewünscht, geben Sie ein Zeitfenster für die Rezertifizierung an. So wird festgelegt, wie lange die Teilnehmer:innnen Zeit haben, ihr Zertifikat zu erneuern nachdem es abgelaufen ist.
+Wird die Rezertifizierung gewünscht, geben Sie ein Zeitfenster für die Rezertifizierung an. So wird festgelegt, wie lange die Teilnehmer:innen Zeit haben, ihr Zertifikat zu erneuern nachdem es abgelaufen ist.
 
 ![certification_programs_settings_config_step4_v1_de.png](assets/certification_programs_settings_config_step4_v1_de.png){ class="shadow lightbox" }
 

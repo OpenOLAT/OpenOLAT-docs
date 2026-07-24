@@ -193,7 +193,7 @@ In einem Launcher werden (vom Administrator so festgelegt) nur Angebote angezeig
 - [x] Sollen manchen Kurse vorerst bewusst noch im Status "Vorbereitung" bleiben?
 - [x] Wurde die Reihenfolge der Launcher im Katalog korrekt festgelegt?
 - [x] Wurden für die Kurse Durchführungszeiträume festgelegt?
-- [x] Sollen die Angbote jeweils in beiden Katalogen (intern und extern) angezeigt werden?
+- [x] Sollen die Angebote jeweils in beiden Katalogen (intern und extern) angezeigt werden?
 - [x] Ist in den Angeboten festgelegt, dass sie nur für Mitglieder bestimmter Organisationseinheiten sichtbar sein sollen?
 - [x] Wurde die Anzeige im Katalog mit verschiedenen Rollen (z.B. Zugehörigkeit zu einer bestimmten Organisationseinheit) geprüft?
 - [x] Sollen Angebote nur während einem bestimmten Zeitraum im Katalog sichtbar sein?

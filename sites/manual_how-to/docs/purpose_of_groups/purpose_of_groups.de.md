@@ -270,7 +270,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 **Werkzeuge in OpenOlat:**
 
 * Kursbaustein Forum
-* Kursbauseon Blog
+* Kursbaustein Blog
 * Kursbaustein BigBlueButton
 * Kursbaustein Umfrage
 * ...
@@ -301,7 +301,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 **Merkmale:**
 
-* mehr Spontaität z.B. bei Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
+* mehr Spontaneität z.B. bei Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
 
 **Werkzeuge in OpenOlat:**
 
@@ -355,7 +355,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 **Zweck:**
 
-* Methodische Unterrichsbereicherung durch Inszenierung
+* Methodische Unterrichtsbereicherung durch Inszenierung
 
 **Merkmale:**
 

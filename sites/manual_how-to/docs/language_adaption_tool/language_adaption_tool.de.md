@@ -127,7 +127,7 @@ Der Katalog ist ein Modul, der Name des gefunden Paketes ist also plausibel.
 
 ![language_adaption_tool_search2_v1_de.png](assets/language_adaption_tool_search2_v1_de.png){ class="shadow lightbox"}
 
-Da die Bezeichnungen der Pakete für Laien manchmal nicht sofort verstäündlich sind, finden Sie nachstehend eine kleine [Übersicht der wichtigsten Pakete](#packages).
+Da die Bezeichnungen der Pakete für Laien manchmal nicht sofort verständlich sind, finden Sie nachstehend eine kleine [Übersicht der wichtigsten Pakete](#packages).
 
 
 ## Schritt 3: Welche Variable gehört zu diesem Text? {: #step3} 
@@ -154,7 +154,7 @@ Vergessen Sie nicht zu speichern. Kontrollieren Sie dann die gemachte Änderung.
 OpenOlat-Benutzer:innen können im persönlichen Menü die Sprache der OpenOlat-Oberfläche ändern. Damit die gemachte Änderung auch nach dem Umstellen auf eine andere Sprache enthalten ist, müssen die betroffenen Variablen auch in den anderen Sprachen entsprechend angepasst werden.
 
 **Beispiel:**<br>
-In der deutschprachigen Version wurde "Katalog" zu "Unsere Produkte". In der englischsprachigen Version soll deshalb auch "Our products" angezeigt werden, statt wie bisher "Catalog".
+In der deutschsprachigen Version wurde "Katalog" zu "Unsere Produkte". In der englischsprachigen Version soll deshalb auch "Our products" angezeigt werden, statt wie bisher "Catalog".
 
 Sie kennen bereits die Variable und das Paket, in dem sie sich befindet. Sie müssen also lediglich die gewünschte Sprache wählen und dann Schritt 3 ausführen.
 

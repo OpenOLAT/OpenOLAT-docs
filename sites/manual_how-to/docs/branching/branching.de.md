@@ -85,7 +85,7 @@ Es gibt mehrere Möglichkeiten, wie man konkret vorgehen kann um ein Branching-S
 
 **a)	Erst Struktur dann Inhalte umsetzen**
 
-Dabei liegt der Fokus auf der Planung der Verzweigungen und Entscheidungswege. Die konkrete Ausgestaltung der Knoten mit der Story erfolgt dann im zweiten Schritt. Zunächst wird also die gesamte Verzweigungsstruktur geplant, in OpenOlat übertragen und mit HTML-Seiten umgesetzt. Ein Knoten entspricht dabei einem Kursbaustein [HTML-Seite](../../manual_user/learningresources/Course_Element_HTML_Page.de.md). Im nächsten Schritt werden die erstellten Seiten mit den konkreten Inhalten bzw. Story-Elementen und Wahlbschreibungen gefüllt. 
+Dabei liegt der Fokus auf der Planung der Verzweigungen und Entscheidungswege. Die konkrete Ausgestaltung der Knoten mit der Story erfolgt dann im zweiten Schritt. Zunächst wird also die gesamte Verzweigungsstruktur geplant, in OpenOlat übertragen und mit HTML-Seiten umgesetzt. Ein Knoten entspricht dabei einem Kursbaustein [HTML-Seite](../../manual_user/learningresources/Course_Element_HTML_Page.de.md). Im nächsten Schritt werden die erstellten Seiten mit den konkreten Inhalten bzw. Story-Elementen und Wahlbeschreibungen gefüllt. 
 Dieses Vorgehen eignet sich besonders gut für verzweigtes Branching und Netzwerk-Branching.
 
 **b)	Sukzessiver Aufbau**
@@ -104,7 +104,7 @@ Sie verfügen bereits über eine geeignete lineare Story? Dann ergänzen Sie die
 
 ---
 
-## Ein geplantes Branching Szeanrio mit OpenOlat umsetzen  {: #create}
+## Ein geplantes Branching Szenario mit OpenOlat umsetzen  {: #create}
 
 Sie benötigen:
 

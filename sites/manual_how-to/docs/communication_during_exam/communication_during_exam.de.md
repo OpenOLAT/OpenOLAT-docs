@@ -151,7 +151,7 @@ Einen Video-Chat können **nur Betreuer:innen starten** (im Chatfenster am unter
 
 ### Betreuen mehrerer Prüfungen
 
-Es ist möglich, dass Betreuer:innen mehrere gleichzeitg stattfindende Prüfungen betreuen. Z.B. kann ein/eine Fachexpert:in für Fachprobleme zur Verfügung stehen, während andere Betreuer:innen die organisatorischen Aufgaben der Prüfungsaufsicht übernehmen.
+Es ist möglich, dass Betreuer:innen mehrere gleichzeitig stattfindende Prüfungen betreuen. Z.B. kann ein/eine Fachexpert:in für Fachprobleme zur Verfügung stehen, während andere Betreuer:innen die organisatorischen Aufgaben der Prüfungsaufsicht übernehmen.
 
 Damit in diesem Fall diese betreuende Person nicht jeweils in die verschiedenen Kurse muss, um jeweils dort die Prüfungs-Chats abzufragen, werden neue Chat-Beiträge im allgemeinen Chat der Toolbar angezeigt.
 

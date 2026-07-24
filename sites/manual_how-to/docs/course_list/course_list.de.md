@@ -29,8 +29,8 @@ Um den Autorenbereich in Ihrem Hauptmenü angezeigt zu bekommen, müssen Sie Aut
 
 * Verwenden Sie die Tabs "Favoriten", "Meine Kurse" oder "Meine Einträge", wenn diese Filter bereits eine Vorauswahl nach Ihren Vorstellungen enthalten.
 * Verwenden Sie den Tab "Suche", wenn nicht nur die eigenen Kurse angezeigt werden sollen.
-* Mit dem Suchfeld können Sie nach Namen oder Namensfragementen suchen. Wenn Sie mehrere Begriffe mit Leerzeichen getrennt eingeben, werden sie mit einem logischen ODER verknüpft, d.h. mindestens einer der Begriffe kommt dann in den aufgelisteten Kursnamen und Lernressourcen vor.
-* Starten Sie die Suche mit Klick auf das Lupensysmbol oder durch Drücken der Eingabetaste.
+* Mit dem Suchfeld können Sie nach Namen oder Namensfragmenten suchen. Wenn Sie mehrere Begriffe mit Leerzeichen getrennt eingeben, werden sie mit einem logischen ODER verknüpft, d.h. mindestens einer der Begriffe kommt dann in den aufgelisteten Kursnamen und Lernressourcen vor.
+* Starten Sie die Suche mit Klick auf das Lupensymbol oder durch Drücken der Eingabetaste.
 
 ![course_list_tabs_v1_de.png](assets/course_list_tabs_v1_de.png){ class="shadow lightbox"}
 

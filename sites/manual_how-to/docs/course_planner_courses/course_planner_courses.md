@@ -12,7 +12,7 @@
     [ ] Beginners [x] Amateurs  [x] Experts
 
 
-??? abstract "Erwartete Vorkenntnisse"
+??? abstract "Expected previous knowledge"
 
     * ["How do I create my first OpenOlat Course?"](../my_first_course/my_first_course.md)<br>
     * [Familiarity with basic concepts of OpenOlat >](../../manual_user/basic_concepts/index.md)<br>
@@ -20,7 +20,7 @@
 
 ---
 
-## Was kann der Course Planner? {: #purpose}
+## What can the Course Planner do? {: #purpose}
 
 With the Course Planner, **planning work** can be separated from **content creation** (in the authoring area).
 
@@ -147,7 +147,7 @@ Use the "Add event" button to the right above the table to add further events.
 
 ![course_planner_courses_implementation_events_v1_de.png](assets/course_planner_courses_implementation_events_v1_de.png){ class="shadow lightbox" } 
 
-!!! info "Technischer Hintergrund"
+!!! info "Technical background"
 
     As long as no courses have been added yet, the dates are linked to a specific implementation. As soon as a course has been added to the implementation (step 7, step 10), the dates are assigned to the courses.
 

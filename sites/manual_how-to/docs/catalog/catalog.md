@@ -42,7 +42,7 @@ However, the link can also be incorporated elsewhere, e.g., into a website, or s
 
 ![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
 
-[Further informationen on the external catalog >](../../manual_user/area_modules/catalog2.0_web.md)
+[Further information on the external catalog >](../../manual_user/area_modules/catalog2.0_web.md)
 
 !!! tip "Note"
 
@@ -111,7 +111,7 @@ Whether and where the course appears in the catalog is then determined in the se
 
 !!! tip "Note"
 
-    Before OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 , there was a tab "Catalog" in the settings and no offers could be created yet. 
+    Before OpenOlat 17, and generally when using Catalog 1.0, there was a tab "Catalog" in the settings and no offers could be created yet. 
     When using Catalog 2.0 from OpenOlat 17 onwards, the settings for the display in the catalog are made in the "Share" tab (in the form of offers).
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.

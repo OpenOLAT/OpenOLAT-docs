@@ -225,7 +225,7 @@ For the relevant test mode, click on <br>
 
 ![SEB_configfile_download_v1_de.png](assets/SEB_configfile_download_v1_de.png){ class="shadow lightbox" }
 
-Beispiel: SEBClientSettings.seb
+Example: SEBClientSettings.seb
 
 
 [To the top of the page ^](#SEB)
@@ -233,7 +233,7 @@ Beispiel: SEBClientSettings.seb
 ---
 
 ### Step 7: Send configuration file {: #distribute_SEB_configfile}
-In order for the test participants to be able to start a test in the SEB, they must run a configuration file on their computer. (Beispiel: SEBClientSettings.seb) The file can be sent to the exam participants by email, for example, or offered for download via a page.
+In order for the test participants to be able to start a test in the SEB, they must run a configuration file on their computer. (Example: SEBClientSettings.seb) The file can be sent to the exam participants by email, for example, or offered for download via a page.
 
 !!! tip "Note for download"
 
@@ -312,7 +312,7 @@ An online assessment in OpenOlat can be completed <br>
 a\) automatically or <br>
 b) manually <br>
 
-If an assessement is ended **manually**, <br>
+If an assessment is ended **manually**, <br>
 \- a coach can stop the SEB for all participants at the same time.<br>
 or
 \- each assessment participant can stop the SEB themselves with an individual exit link.

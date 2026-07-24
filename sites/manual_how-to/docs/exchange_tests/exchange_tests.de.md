@@ -69,7 +69,7 @@ Bevor Sie den Test austauschen, sollten Sie sich im **Bewertungswerkzeug** einen
 
 !!! info "Hinweis"
 
-    Wenn in der Spalte "Versuche" für **alle** Teilnehmer:innen keine Veruche eingetragen sind und der Status **„Nicht gestartet"** ist, sind keine Vorbereitungen notwendig. Sie können direkt mit Schritt 3 fortfahren.
+    Wenn in der Spalte "Versuche" für **alle** Teilnehmer:innen keine Versuche eingetragen sind und der Status **„Nicht gestartet"** ist, sind keine Vorbereitungen notwendig. Sie können direkt mit Schritt 3 fortfahren.
 
 
 [zum Seitenanfang ^](#exchange_tests)
@@ -170,7 +170,7 @@ Der Schritt "Publizieren" entfällt also in diesem Fall.
 - [x] Muss die Test-Lernressource zwingend ausgetauscht werden?
 - [x] Könnte der Kurs/der Test-Kursbaustein auch kopiert werden? (Damit wieder eine unbenutzte Lernressource vorliegt.)
 - [x] Wurde die neue Test-Lernressource bereits im Autorenbereich angelegt?
-- [x] Haben Teilnehmende bereits den voherigen Test bearbeitet? Liegen Daten vor?
+- [x] Haben Teilnehmende bereits den vorherigen Test bearbeitet? Liegen Daten vor?
 - [x] Könnten die Test-Daten zurückgesetzt werden?
 - [x] Sollen vorhandene Test-Daten ganz gelöscht werden?
 - [x] Wurde ein Archiv der bisher angefallenen Daten erstellt?

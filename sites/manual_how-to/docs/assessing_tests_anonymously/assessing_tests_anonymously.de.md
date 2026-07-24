@@ -2,7 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Diese Anleitung soll Kursbesitzer:inen zeigen, wie sie die Möglichkeit zur anonymen Korrektur in Test-Kursbausteinen einrichten können. Sowie Betreuer:innen/Korrektor:innen, wie sie eine anonyme Korrektur in OpenOlat durchführen.
+    Diese Anleitung soll Kursbesitzer:innen zeigen, wie sie die Möglichkeit zur anonymen Korrektur in Test-Kursbausteinen einrichten können. Sowie Betreuer:innen/Korrektor:innen, wie sie eine anonyme Korrektur in OpenOlat durchführen.
 
 
 ??? abstract "Zielgruppe"

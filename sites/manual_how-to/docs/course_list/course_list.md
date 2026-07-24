@@ -11,7 +11,7 @@
     [x] Beginners [x] Amateurs  [ ] Experts
 
 
-??? abstract "Erwartete Vorkenntnisse"
+??? abstract "Expected previous knowledge"
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
    

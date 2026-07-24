@@ -26,7 +26,7 @@
 
 **Fragen:** <br>Eine Test-Lernressource besteht aus mehreren einzelnen Fragen, z.B. Single Choice, Multiple Choice usw. 
 
-**Fragenpool:** <br>Die Einzelfragen können in einem Fragenpool gesammelt werden. Beim Erstellen verschiedener Test-Lernressourcen kann dann auf den Fragenpool zugegriffen werden. Bereits vorhande Fragen des Fragenpools können übernommen (von dort kopiert) werden und evtl. zusätzliche weitere Fragen neu erstellt werden. <br>
+**Fragenpool:** <br>Die Einzelfragen können in einem Fragenpool gesammelt werden. Beim Erstellen verschiedener Test-Lernressourcen kann dann auf den Fragenpool zugegriffen werden. Bereits vorhandene Fragen des Fragenpools können übernommen (von dort kopiert) werden und evtl. zusätzliche weitere Fragen neu erstellt werden. <br>
 Fragen können im Fragenpool oder der Lernressource erstellt werden. In der Lernressource erstellte Fragen sind nur in dieser Test-Lernressource vorhanden, solange sie nicht zur Mehrfachnutzung in den Fragenpool übergeben werden.
 
 <br>
@@ -40,7 +40,7 @@ Zu jedem der Elemente können Einstellungen (Konfigurationen) vorgenommen werden
 Autorenbereich > Kurs wählen > Administration > Einstellungen
 
 **Konfiguration des Kursbausteins:**<br>
-Autorenbereich > Kurs wählen > Admninistration > Kurseditor > Kursbaustein wählen > Einstellungen in den Tabs
+Autorenbereich > Kurs wählen > Administration > Kurseditor > Kursbaustein wählen > Einstellungen in den Tabs
 
 **Konfiguration der Lernressource:**<br>
 Autorenbereich > Formular-Lernressource auswählen > Administration > Einstellungen 
@@ -363,7 +363,7 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 ![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
 
-8\. Im Editiermodus (erkennbar an der schraffierten Kopzeile) können Sie nun unter **"Elemente hinzufügen"** neue Fragen hinzufügen.
+8\. Im Editiermodus (erkennbar an der schraffierten Kopfzeile) können Sie nun unter **"Elemente hinzufügen"** neue Fragen hinzufügen.
 
 ![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
 

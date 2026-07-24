@@ -39,7 +39,7 @@ Quotas can be used to define and adjust the maximum storage size and upload limi
 <h3> b) Where and by whom are quotas set?</h3>
 
 Basically, quotas are set by the administrator.<br>
-(**Administration > Core funtions > Files and folders**)<br>
+(**Administration > Core functions > Files and folders**)<br>
 In individual cases, quotas are set in the tools available in the affected area.<br>
 Example: Quota for group folders -> administration of the group<br>
 Example: Quota for certain users -> user management
@@ -101,7 +101,7 @@ Versioning is available in all folders of the system:
 <h3> b) Where and by whom is the versioning set up?</h3>
 
 The versioning is set by the administrator under <br>
-**Administration > Core funtions > Files and Folders**
+**Administration > Core functions > Files and Folders**
 
 <br>
 

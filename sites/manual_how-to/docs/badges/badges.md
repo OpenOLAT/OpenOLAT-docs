@@ -45,7 +45,7 @@ As a general prerequisite for the availability of badges
 * and a [matching badge created](../badges/badges.md).
 
 
-### Activaton of badges in a course {: #activation_course}
+### Activation of badges in a course {: #activation_course}
 
 Course authors can determine when and which badge their course participants receive. 
 
@@ -232,7 +232,7 @@ To delete a badge, click on the 3 dots at the end of the line of the desired bad
 The deletion can then be carried out in 2 ways:
 
 1. a deletion where issued badges are marked as "Revoked"
-2. ein vollständiges Löschen aller Daten, die zu diesem Badge gehören
+2. a complete deletion of all data belonging to this badge
 
 ![badges_delete1_v1_de.png](assets/badges_delete1_v1_de.png){ class="shadow lightbox" }
 

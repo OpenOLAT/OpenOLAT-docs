@@ -111,7 +111,7 @@ You can create a form learning resource directly in the authoring area. Subseque
 
 <br>
 
-<h3>b) Authoring > tab "My entries" > select avaliable form > edit</h3>
+<h3>b) Authoring > tab "My entries" > select available form > edit</h3>
 
 Does the form learning resource already exist but is still empty? Since we then edit a form **learning resource**, it can be found in the authoring area under the tab "My entries". (Only courses are listed under "My courses".) Use the filters to search in large databases.
 
@@ -255,7 +255,7 @@ You have also made settings when creating the questions. You have configured ind
 Authoring > select the learning resource > Administration > Settings
 
 **Configuration of the course element:**<br>
-Admninistration > Course editor > select the course element > settings in the tabs
+Administration > Course editor > select the course element > settings in the tabs
 
 **Configuration of the learning resource:**<br>
 Authoring > select the form learning resource > Administration > Settings

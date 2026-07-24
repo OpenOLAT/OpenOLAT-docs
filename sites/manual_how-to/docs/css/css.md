@@ -83,7 +83,7 @@ The code could for instance look like this:
   
 	#o_body {  
 		background-color: red; /* creates a red background */  
-		background-image: url(bild.svg); /* linkes to an image that is used as background */  
+		background-image: url(bild.svg); /* links to an image that is used as background */  
 		background-position: center; /* sets the image centered */  
 	}
 
@@ -134,7 +134,7 @@ follow:
   * `display: none;` (will not display the default logo)
   * `background: rgba(0, 0, 0, 0) url("logo-k-town.png");` (will change the default logo for the file "logo-k-town.png")
 
- **2\. Course menu:** CSS class selektors: `.o_toolbar .o_tools_container`
+ **2\. Course menu:** CSS class selectors: `.o_toolbar .o_tools_container`
 
  **3\. Left menu:** CSS ID selector: `#o_main_left_content`
 

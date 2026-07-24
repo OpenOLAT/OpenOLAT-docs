@@ -6,7 +6,7 @@ erstellt und ihn Ihren Wünschen entsprechend angepasst.
 ## Welche Art Blog soll es sein?
 
 * Info-Blog
-    - als Informationskanal an alle Kursteinehmer:innen
+    - als Informationskanal an alle Kursteilnehmer:innen
     - Teilnehmer:innen können nur lesen
 * Fach-Blog 
     - meist in mehreren Kursen eingesetzt

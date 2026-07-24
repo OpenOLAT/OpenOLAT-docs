@@ -170,7 +170,7 @@ It can be configured so that owners are notified of status changes.
 **Group lifecycle**
 
 - [x] By administrators: general activation/configuration at **Administration > Lifecycle > Groups** 
-- [x] By group managers: settings at **menue "Groups" > tab "Group management"**
+- [x] By group managers: settings at **menu "Groups" > tab "Group management"**
 - [x] Configure notification of affected users
 
 **Course lifecycle**

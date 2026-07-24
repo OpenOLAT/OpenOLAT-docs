@@ -67,7 +67,7 @@ Auf Ebene einer Frage werden z.B. Feedbacks definiert.<br>
 
 Als Autor:in möchten Sie verständlicherweise einen fertiggestellten Test zunächst selbst einmal probeweise aufrufen oder durch jemand kontrollieren lassen. Dies führt jedoch zu einem Problem:
 
-Sobald ein Test einmal von Prüfungsteilnehmer:innen ausgefüllt und abgeschlossen wurde, werden Ergebnisse gespeichert. Wenn anschliessend der Test z.B. um eine Frage erweitert wird, haben diese Teilnehmer:innen eine andere Version bearbeitet und abgeschlossen. Sie haben möglicherweise den Test nach der neuen erweiterten Version nicht bestanden, konnten aber die zusätzlich hinzugefügten Fragen gar nie sehen und beantworten. Im Nachhinein geänderte Tests wären Urkundenfäschung und OpenOlat lässt deshalb keine Bearbeitung einmal benutzter Tests zu.
+Sobald ein Test einmal von Prüfungsteilnehmer:innen ausgefüllt und abgeschlossen wurde, werden Ergebnisse gespeichert. Wenn anschliessend der Test z.B. um eine Frage erweitert wird, haben diese Teilnehmer:innen eine andere Version bearbeitet und abgeschlossen. Sie haben möglicherweise den Test nach der neuen erweiterten Version nicht bestanden, konnten aber die zusätzlich hinzugefügten Fragen gar nie sehen und beantworten. Im Nachhinein geänderte Tests wären Urkundenfälschung und OpenOlat lässt deshalb keine Bearbeitung einmal benutzter Tests zu.
 
 Solange Sie als Autor:in in die Teilnehmeransicht wechseln und keine Ergebnisse speichern, gilt der Test als "unbenutzt".<br>
 Wenn Sie Ihren Test aber probeweise "unter realen Bedingungen" oder durch ausgewählte Personen probeweise ausfüllen lassen, gilt die Test-Lernressource als "benutzt" und kann nicht mehr abgeändert werden. Dessen sollten Sie sich bewusst sein.
@@ -85,7 +85,7 @@ Mehr Informationen zum Vorgehen finden Sie hier:
 
 Der Start und die Dauer der Prüfung wird durch die Angaben in der Konfiguration des [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) bestimmt.
 
-Ein Profungsmodus kann automatisch oder manuell aktiviert und deaktiviert werden. Diese wird von Autor:innen voreingestellt.
+Ein Prüfungsmodus kann automatisch oder manuell aktiviert und deaktiviert werden. Diese wird von Autor:innen voreingestellt.
 Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingerichtet werden unter<br> 
 **Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"**
 
@@ -114,7 +114,7 @@ Kommen **einzelne Teilnehmer:innen** zu spät, liegt es im Ermessen der Aufsicht
 - Wählen Sie im Kurs unter Administration das Bewertungswerkzeug.
 - Wählen Sie dort den Test-Kursbaustein.
 - Als Betreuer:in finden Sie im Tab "Teilnehmer:innen" alle Prüfungsteilnehmer:innen mit ihrem Status angezeigt.
-- Selektieren Sie bei allen betroffenen Personen die Checkbox in der ersten Spalte. Sobald mindestens eine Person ausgewählt ist, werden Ihnen über der Liste zusätzliche Buttons angzeigt.
+- Selektieren Sie bei allen betroffenen Personen die Checkbox in der ersten Spalte. Sobald mindestens eine Person ausgewählt ist, werden Ihnen über der Liste zusätzliche Buttons angezeigt.
 - Wählen Sie den Button "Verlängern".
 - Geben Sie die Verlängerungszeit in Minuten an. 
 
@@ -141,7 +141,7 @@ Wenn technische Störungen auftreten, ist es wichtig, die genaue Ursache zu kenn
 Von Stromausfall an den Geräten der Prüfungsteilnehmer:innen ist das OpenOlat-System selbst nicht betroffen, da es auf anderen Servern läuft und im Browser angezeigt wird. In OpenOlat ist gesichert, was mit dem letzten Speichervorgang gespeichert wurde. Beim erneuten Aufruf ist der zuletzt gespeicherte Zustand wieder vorhanden.
 
 - **Unterbrechungen im WLAN**<br>
-Bei Netzwerkstörungen muss evtl. die verfügbare Prüfungszeit manuell verlängert werden um die Ausfallzeit zu kompeniseren. (Vorgehen wie beschrieben unter ["Was tue ich, wenn Teilnehmende zu spät erscheinen?"](#participants_too_late).) Um schon vorher mögliche Störungen einschätzen zu können, kann einige Tage vorher schon ein sogenannter "Stress-Test" im gleichen Raum durchgeführt werden, bei dem z.B. eine mangelhafte Bandbreite des WLAN entdeckt werden kann. 
+Bei Netzwerkstörungen muss evtl. die verfügbare Prüfungszeit manuell verlängert werden um die Ausfallzeit zu kompensieren. (Vorgehen wie beschrieben unter ["Was tue ich, wenn Teilnehmende zu spät erscheinen?"](#participants_too_late).) Um schon vorher mögliche Störungen einschätzen zu können, kann einige Tage vorher schon ein sogenannter "Stress-Test" im gleichen Raum durchgeführt werden, bei dem z.B. eine mangelhafte Bandbreite des WLAN entdeckt werden kann. 
 
 - **Zugriff auf das Internet**<br>
 Ist für alle Prüfungsteilnehmer:innen der Zugriff auf OpenOlat unterbrochen, probieren Sie aus, ob auch andere Websites nicht erreichbar sind. Wenn ja, deutet das möglicherweise auf eine Störung beim Internet-Provider. Wenden Sie sich in diesem Fall für weitere Abklärungen an Ihren Techniker vor Ort.
@@ -157,7 +157,7 @@ Informationen zum Betriebsstatus unserer Webserver können Sie jederzeit abrufen
 
 ## Was tue ich, wenn Teilnehmende bei einer laufenden Prüfung von zu Hause aus Fragen / Probleme haben? {: #communication}
 
-Um diese mögliche Situation von vornherein zu entschärfen, kommunizieren Sie am besten schon vor Beginn der Prüfung, was die Teilnehmer:innen in einem sochen Fall tun sollen. <br>
+Um diese mögliche Situation von vornherein zu entschärfen, kommunizieren Sie am besten schon vor Beginn der Prüfung, was die Teilnehmer:innen in einem solchen Fall tun sollen. <br>
 Machen Sie sich als Betreuer:in dazu mit den Möglichkeiten von OpenOlat zur [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md) vertraut.<br>
 Evtl. können Sie auch im Prüfungskurs selbst einen Hinweis auf das Vorgehen im Notfall und eine Anleitung ergänzen. 
 
@@ -194,7 +194,7 @@ Empfehlungen:
 
 Vorgehen:
 
-1. Prüfung beenden<br> (Bei manuellem Modus durch Betreuer:innnen oder Kursbesitzer:innen mit denm Ende-Button im Bewertungswerkzeug.)
+1. Prüfung beenden<br> (Bei manuellem Modus durch Betreuer:innen oder Kursbesitzer:innen mit dem Ende-Button im Bewertungswerkzeug.)
 2. Neuen, korrekten Prüfungsmodus mit manuellem Start/Beenden anlegen.<br> Achtung: Der Start-Button wird für Betreuende erst sichtbar, sobald das konfigurierte Zeitfenster erreicht ist. Für einen sofortigen Neustart als Beginn eine unmittelbar bevorstehende Zeitangabe machen und „manuell" wählen.<br>
 
 
@@ -213,7 +213,7 @@ Vorgehen:
 
 ## Was tue ich, wenn die Testdauer/der Zeitraum fehlerhaft konfiguriert ist? {: #wrong_config_period}
 
-Zunächst muss gekärt werden, was unter Testdauer/Zeitraum verstanden werden kann:<br>
+Zunächst muss geklärt werden, was unter Testdauer/Zeitraum verstanden werden kann:<br>
 A) die Angaben im Kursbaustein<br>
 B) die Angabe im Prüfungsmodus
 
@@ -242,7 +242,7 @@ Im Fall einer automatischen Beendigung des Prüfungsmodus kann die Prüfungszeit
 - wählen Sie den Tab Teilnehmer:innen
 - Selektieren Sie in der ersten Spalte alle Checkboxen der Teilnehmer:innen, die eine Verlängerung erhalten sollen.
 - Sobald mindestens eine Checkbox markiert ist, erscheint über der Liste auch der Button "Verlängern".
-- Wenn Sie "Verlängern" gegklickt haben, können Sie im Popup-Fenster angeben um wieviele Minuten die Testzeit verlängert werden soll.
+- Wenn Sie "Verlängern" geklickt haben, können Sie im Popup-Fenster angeben um wieviele Minuten die Testzeit verlängert werden soll.
 
 Für Einzelpersonen finden Sie die Option zur Testzeitverlängerung auch unter den 3 Punkten am Ende einer Zeile der Teilnehmerliste.
 
@@ -267,7 +267,7 @@ Als weitere legitime Möglichkeit zur Verlängerung der Testzeit, könnte auch d
 
 Ist eine Prüfung bereits von einigen Teilnehmer:innen bearbeitet worden, kann die Prüfung bzw. eine Frage selbst nicht mehr abgeändert werden.
 
-* Handelt es sich um einen einfachen Fehler (z.B. Schreibfehler), der problemlos allen Teilnehmer noch kommuniziert werden kann, bietet sich eine Information an alle Prüfungsteilnehmer:innen an. Entweder mündlich im Püfungsraum oder auch z.B. im Prüfungs-Chat. (Siehe [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)). 
+* Handelt es sich um einen einfachen Fehler (z.B. Schreibfehler), der problemlos allen Teilnehmer noch kommuniziert werden kann, bietet sich eine Information an alle Prüfungsteilnehmer:innen an. Entweder mündlich im Prüfungsraum oder auch z.B. im Prüfungs-Chat. (Siehe [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)). 
 
 * Kann eine Frage wegen des Fehlers gar nicht gelöst werden, bleibt der Ausweg, dass alle Teilnehmer:innen z.B. die vorgesehene volle Punktzahl für diese Frage erhalten. Dazu kann im Bewertungswerkzeug eine manuelle Bewertung vorgenommen werden. Informieren Sie während der laufenden Prüfung die Teilnehmer:innen und bewerten Sie die Frage dann wie angekündigt. Es empfiehlt sich, die Vergabe der Punkte mit einem entsprechenden Kommentar zur Begründung zu ergänzen.<br> 
 (Siehe ["So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein"](../../manual_user/learningresources/Assessment_of_learners.de.md#assess_solutions)). 
@@ -306,12 +306,12 @@ In einem Prüfungsmodus kann auch eine Einschränkung auf bestimmte IP-Adressen 
 Es kann vorkommen, dass Prüfungsteilnehmer:innen versehentlich einen nicht vollständig bearbeiteten Test beendet haben und dann den Test ein zweites Mal starten. Ein Neustart wird als zweiter Versuch gespeichert, bei dem wieder ganz von vorne begonnen werden kann. Die Einträge des vorangehenden Versuchs werden nicht übernommen. Alle Versuche werden jedoch gespeichert und können von Betreuer:innen und Kursbesitzer:innen im Bewertungswerkzeug eingesehen werden.
 
 - Wählen Sie als Betreuer:in oder Kursbesitzer:in den Kurs.
-- Öffnen Sie das Bewertungswerkzueg unter Administration > Bewertungswerkzeug.
-- Wählen Sie den bereffenden Test-Kursbaustein.
+- Öffnen Sie das Bewertungswerkzeug unter Administration > Bewertungswerkzeug.
+- Wählen Sie den betreffenden Test-Kursbaustein.
 - Wählen Sie den Tab "Teilnehmer:innen".
 - Öffnen Sie die Übersicht der betreffende Person durch Klick auf einen Namen.
 - Es werden alle Testversuche dieser Person angezeigt. 
-- Klicken Sie beim Testversuch auf die 3 Punkte am Ende der Zeile. Dort können Sie die einzelnen Testversuche annulieren und den ersten Versuch wieder.
+- Klicken Sie beim Testversuch auf die 3 Punkte am Ende der Zeile. Dort können Sie die einzelnen Testversuche annullieren und den ersten Versuch wieder.
 
 [zum Seitenanfang ^](#exam_preparation)
 

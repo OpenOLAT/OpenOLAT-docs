@@ -168,7 +168,7 @@ Ein Layout meint hier ein **Raster**. Sie können mehrere solcher Layouts hinter
 
 In die Felder des Layouts können nun die Inhalte eingefügt werden (Titel, Single Choice-Fragen, usw.).
 
-Wenn Sie das Layout nachtraglich ändern wollen, können Sie das Auswahlwerkzeug jederzeit wieder mit Klick auf das kleine Zahnrad öffen.
+Wenn Sie das Layout nachträglich ändern wollen, können Sie das Auswahlwerkzeug jederzeit wieder mit Klick auf das kleine Zahnrad öffnen.
 
 ![formular_editor_4_v1_de.png](assets/formular_editor_4_v1_de.png){ class="shadow lightbox" } 
 
@@ -245,7 +245,7 @@ Um als Autor ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
 
 <h3>Wo werden Konfigurationen vorgenommen?</h3>
 
-Schon beim Erstellen einer neuen Formular-Lernressoruce gelangen Sie nach der Angabe eines Titels zu den Einstellungen. Sie können dort die Lernressource konfigurieren.
+Schon beim Erstellen einer neuen Formular-Lernressource gelangen Sie nach der Angabe eines Titels zu den Einstellungen. Sie können dort die Lernressource konfigurieren.
 Oft überspringt man diese Eingabefelder zunächst. Die Einstellungen können jederzeit wieder aufgerufen werden und bearbeitet werden.
 
 Auch beim Erstellen der Fragen haben Sie Einstellungen vorgenommen. Sie haben einzelne Fragen konfiguriert. Die Konfigurationen können also auf unterschiedlichen Ebenen vorgenommen werden:
@@ -257,7 +257,7 @@ Auch beim Erstellen der Fragen haben Sie Einstellungen vorgenommen. Sie haben ei
 Autorenbereich > Lernressource wählen > Administration > Einstellungen
 
 **Konfiguration des Kursbausteins:**<br>
-Admninistration > Kurseditor > Kursbaustein wählen > Einstellungen in den Tabs
+Administration > Kurseditor > Kursbaustein wählen > Einstellungen in den Tabs
 
 **Konfiguration der Lernressource:**<br>
 Autorenbereich > Formular-Lernressource auswählen > Administration > Einstellungen 
@@ -271,7 +271,7 @@ Formular im Formulareditor öffnen > mit Klick auf ein Element Wechsel in den Ed
 
 Eine vollständige Aufzählung aller Konfigurationsmöglichkeiten über alle Ebenen hinweg wäre an dieser Stelle zu umfangreich. Die wichtigsten Möglichkeiten betreffen
 
-* das Aussehen des Fomulars und der Fragen
+* das Aussehen des Formulars und der Fragen
 * wer das Formular ausfüllen darf
 * in welchem Zeitraum das Formular ausgefüllt werden kann
 * ob die Angaben anonym erfasst werden oder personalisiert 
@@ -281,7 +281,7 @@ Eine vollständige Aufzählung aller Konfigurationsmöglichkeiten über alle Ebe
 !!! Info "Anonym oder personalisiert?"
 
     Sie können Formulare anonym oder mit Angabe des Names ausfüllen lassen.
-    Standardmässig werden keine personalisierten Angaben erfasst. Durch HInzufügen eines Elements "Informationen" wird die Anonymität aufgehoben und eine personenbezogene Auswertung ermöglicht.
+    Standardmässig werden keine personalisierten Angaben erfasst. Durch Hinzufügen eines Elements "Informationen" wird die Anonymität aufgehoben und eine personenbezogene Auswertung ermöglicht.
     ![formular_editor_12_v1_de.png](assets/formular_editor_12_v1_de.png){ class="shadow lightbox" } 
 
 
@@ -301,7 +301,7 @@ Eine vollständige Aufzählung aller Konfigurationsmöglichkeiten über alle Ebe
 
 ## 9. Formulare ändern  {: #step9}
 
-Sobald eine Formular-Lernressource in einen Kursbaustein eingebunden wurde und ein Kursteilnehmer das Formular ausgefüllt hat, exisitieren Daten.
+Sobald eine Formular-Lernressource in einen Kursbaustein eingebunden wurde und ein Kursteilnehmer das Formular ausgefüllt hat, existieren Daten.
 Das heisst aber auch, dass das Formular nach der ersten Benutzung nicht mehr verändert werden darf. Das würde sonst beliebige nachträgliche Manipulationen ermöglichen.
 
 **Sobald ein Formular im Kurs eingebunden und aufgerufen wurde, kann das Formular deshalb nur noch eingeschränkt geändert werden.**
