@@ -166,6 +166,7 @@ Legende: :material-check: Zugang beziehungsweise Aktion verfügbar · :material-
 | Kurs | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Lesen | Hinzufügen, Lesen, Entfernen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | To-do | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | Erstellen, Lesen, Bearbeiten, Löschen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | To-do (zugewiesen oder delegiert) | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Raumverwaltung | Lesen | Lesen | Lesen | Lesen | Lesen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 
 !!! info "Kurs- und Gruppenrollen im Course Planner"
     Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sind Kurs- beziehungsweise Gruppenrollen. Im Course Planner selbst haben sie keine eigenen Verwaltungsrechte; ihre Aufgaben liegen in der Durchführung des Kurses. Eine Ausnahme bilden To-dos, die einer Person persönlich zugewiesen oder delegiert wurden: Diese kann die betreffende Person unabhängig von ihrer Rolle im Course Planner bearbeiten.
@@ -274,9 +275,9 @@ To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der �
 
 ### Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
-Course Planner erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt. Gelöschte Räume erscheinen nur in der Administration.
+Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt.
 
-[Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Zu den Details >](../area_modules/Course_Planner_Rooms.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
 
 ---

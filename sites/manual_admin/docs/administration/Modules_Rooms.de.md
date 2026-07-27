@@ -9,7 +9,7 @@ Mit dem Modul «Räume» verwalten Sie physische Räume in Gebäuden zentral in 
 Das Modul wird von einer Person mit administrativer Rolle aktiviert:<br>
 `Administration` > `Räume` > `Einstellungen`
 
-Über den Schalter «Modul "Räume"» schalten Sie das Modul ein. Erst danach erscheinen die Segmente «Gebäude», «Räume» und «Raumplanung» sowie im Course Planner der Bereich «Raumverwaltung».
+Über den Schalter «Modul "Räume"» schalten Sie das Modul ein. Erst danach erscheinen die Segmente «Gebäude», «Räume» und «Raumplanung» sowie im Course Planner der schreibgeschützte Bereich «Raumverwaltung».
 
 !!! info "Termine ohne Räume"
     Ist das Modul ausgeschaltet, sind diese Ansichten ausgeblendet und an Terminen lassen sich keine Räume buchen.
@@ -47,15 +47,9 @@ Wie beim Gebäude hat ein Raum den Status «Aktiv», «Inaktiv» oder «Gelösch
 
 ## Raumplanung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
 
-Das Segment «Raumplanung» bündelt alle Raumbuchungen in einer Übersicht. So erkennen Sie auf einen Blick, welche Räume wann belegt sind und wo es Konflikte gibt.
+Das Segment «Raumplanung» bündelt alle Raumbuchungen als Übersicht. Filter sowie eine Kalenderansicht stehen zur Verfügung.
 
-Mit den vordefinierten Filtern «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Neben der Tabellen- gibt es eine Kalenderansicht. Über «Im Kursplaner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner.
-
-Die Spalte «Warnungen» macht auf Konflikte aufmerksam:
-
-* **Doppelbuchung**: «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!»
-* **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
-* **Inaktiver Raum**: «Der Raum "..." ist inaktiv!»
+Bedeutung der Warnungen und der verfügbaren Filter siehe [Raumplanung im Course Planner: Details >](../../manual_user/area_modules/Course_Planner_Rooms.de.md).
 
 
 ---
