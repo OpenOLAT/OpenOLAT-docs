@@ -9,7 +9,7 @@ With the module "Rooms" you manage physical rooms in buildings centrally in Open
 The module is activated by a person with an administrative role:<br>
 `Administration` > `Rooms` > `Settings`
 
-Use the toggle "Module "Rooms"" to switch on the module. Only then do the segments "Buildings", "Rooms" and "Room Scheduling" appear, as well as the "Room management" area in the Course Planner.
+Use the toggle "Module "Rooms"" to switch on the module. Only then do the segments "Buildings", "Rooms" and "Room Scheduling" appear, as well as the read-only "Room management" area in the Course Planner.
 
 !!! info "Events without rooms"
     If the module is switched off, these views are hidden and no rooms can be booked for events.
@@ -47,15 +47,9 @@ As with the building, a room has the status "Active", "Inactive" or "Deleted". A
 
 ## Room Scheduling [:octicons-tag-16:{ title="from Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
 
-The segment "Room Scheduling" bundles all room bookings in one overview. This lets you see at a glance which rooms are occupied at what time and where there are conflicts.
+The segment "Room Scheduling" bundles all room bookings as an overview. Filters and a calendar view are available.
 
-Use the pre-defined filters "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. In addition to the table view there is a calendar view. Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner.
-
-The column "Warnings" draws attention to conflicts:
-
-* **Double booking**: "The room "..." is double-booked during this period!"
-* **Not enough seats**: "There aren't enough seats!" if the number of participants exceeds the number of seats.
-* **Inactive room**: "The room "..." is inactive!"
+For the meaning of the warnings and the available filters, see [Room Scheduling in the Course Planner: details >](../../manual_user/area_modules/Course_Planner_Rooms.md).
 
 
 ---

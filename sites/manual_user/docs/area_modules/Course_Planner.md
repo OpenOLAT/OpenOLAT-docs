@@ -158,6 +158,7 @@ Legend: :material-check: access or action available · :material-cancel: no acce
 | Course | Add, Read, Remove | Add, Read, Remove | Add, Read, Remove | Read | Add, Read, Remove | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | To-do | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Create, Read, Edit, Delete | Read | Create, Read, Edit, Delete | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | To-do (assigned or delegated) | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
+| Room management | Read | Read | Read | Read | Read | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 
 !!! info "Course and group roles in the Course Planner"
     Course owner, Master coach, Coach and Participant are course or group roles. They have no management rights in the Course Planner itself; their tasks lie in running the course. One exception are to-dos that have been personally assigned or delegated to a person: these can be edited by the person concerned regardless of their role in the Course Planner.
@@ -263,9 +264,9 @@ To-dos can be recorded in the Course Planner at various levels: in the overview,
 
 ### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
-Under "Tools", Course Planner users find the "Room management" area with a read-only overview of the room scheduling and the rooms they can access through their organisational affiliation. Rooms and buildings themselves are maintained in the module "Rooms" in the administration. Deleted rooms only appear in the administration.
+Course planners receive the "Room management" area under "Tools", with a read-only overview of the room scheduling and the rooms they have access to through their organisational affiliation. Rooms and buildings themselves are maintained in the "Rooms" module in the administration.
 
-[Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[To the details >](../area_modules/Course_Planner_Rooms.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
