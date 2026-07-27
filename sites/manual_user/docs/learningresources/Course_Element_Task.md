@@ -162,11 +162,11 @@ Select here whether participants should be informed by e-mail about the assignme
 
 !!! warning "Warning"
 
-    Changing the workflow will delete the corresponding elements from the workflow for all members or groups.
+    Subsequent changes to the workflow affect all participants, even if they have already started the workflow.
     
-    When changes are made to the workflow, such as removing the assignment, all participants or groups in the course will have that component of the workflow removed. The information about already selected tasks is then no longer visible. However, if the workflow component is inserted again, this information will be accessible again.
+    When changes are made to the workflow, e.g. removing the assignment, this workflow component is removed for all participants in the course. The information about already selected tasks is then no longer visible. However, if the workflow component is inserted again, this information will be accessible again.
 
-    However, if you add the assignment step later and a member or group is already further into the task, then they don't have to choose an assignment anymore.
+    However, if the assignment is added later and a participant is already further along in their personal workflow, no assignment needs to be selected afterwards.
 
 
 !!! warning "Warning"
@@ -467,7 +467,8 @@ All steps of a task (workflow) are displayed to course participants directly in 
     * [Download assigned tasks](#process_task_download)
     * [Who coaches me?](#process_task_my_coach)
     * [Submit solution](#process_task_solution)
-    * [Feedback](#process_task_solution)
+    * [Feedback](#process_task_feedback)
+    * [Carry out a peer review](#process_task_make_reviews)
     * [Results of a peer review](#process_task_view_reviews)
     * [Rework task](#process_task_rework)
     * [View sample solution](#process_task_view_example)
@@ -671,7 +672,7 @@ As a coach, you monitor the mutual reviews and can also intervene if necessary.
 [To the top of the page ^](#course_element_task)
 
 
-### Coach peer review {: #coach_task_peer_review}
+### Supervise peer review {: #coach_task_peer_review_supervise}
 
 The procedure for a peer review was determined by the course owner. As a coach, you will find the options for your supervision task accordingly.
 
@@ -694,6 +695,8 @@ The procedure for a peer review was determined by the course owner. As a coach, 
 If you as a coach want to determine who receives a review from whom, you can make the assignment yourself.
 
 ![course_element_task_peer-review_assign_reviewer_manually_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
+
+A manual assignment is also possible in the table. To do this, click on the 3 dots.
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)
