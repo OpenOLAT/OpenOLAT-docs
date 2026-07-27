@@ -5,6 +5,7 @@ nav:
   - Working Processes:
     - How do I create an Excel list of all available courses?: "course_list/course_list.md"
     - How to use the same files in several courses: "multiple_use/multiple_use.md"
+    - Which folders can I work with?: "folders/folders.md"
     - Transfer files using WebDAV: "webdav/webdav.md"
   - Planning:
     - How do I plan and run courses with the Course Planner?: "course_planner_courses/course_planner_courses.md"
