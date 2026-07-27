@@ -12,7 +12,7 @@ Assessable | yes
 Specialty / Note | also available as [group task](../learningresources/Course_Element_Grouptask.md)
 
 
-Teachers can use the course element Assignment to organize **file submissions** and **submission assignments**. Learners upload their submissions to the OpenOlat course and receive feedback or an assessment from the teacher. Peer reviews are also possible. Revisions can also be requested or sample solutions provided.
+Teachers can use the course element Assignment to organize **file submissions** and **submission assignments**. Learners upload their submissions to the OpenOlat course and receive feedback or an assessment from the teacher. [Peer reviews](../../manual_how-to/peer_review/peer_review.md) are also possible. Revisions can also be requested or sample solutions provided.
 
 ---
 
@@ -36,7 +36,7 @@ A task is created and configured in the course editor, as with all course elemen
     * [Tab Sample](#sample)<br> E.g. provision of a pdf file.
     * [Tab Highscore](#highscore)<br> Visualization of the results if points are awarded.
     * [Tab Reminders](#reminders)<br> Preparation of automatic reminder emails and to-dos
-    * [Tab Badges](#tab-badges<br>Creation of badges for the processing/completion of the task
+    * [Tab Badges](#tab-badges)<br>Creation of badges for the processing/completion of the task
 
 ### Tab "Title and description"  {: #title}
 
@@ -171,12 +171,12 @@ Select here whether participants should be informed by e-mail about the assignme
 
 !!! warning "Warning"
 
-    If no person has the role of coach among the course members and at the same time course owners do not perform any coach tasks (Workflow tab > "Coach" section > "Coaches available for selection"), then no coach assignment can take place.
+    If no person has the role of coach among the course members and at the same time course owners do not perform any coach tasks, then no coach assignment can take place. Whether course owners perform coach tasks is set under `Workflow tab > "Coach" section > "Coaches available for selection"`.
 
 
 !!! info "Note"
 
-    The options displayed in the Workflow tab and selectable by the author can be preconfigured by the administrator. See Admin manual > Modules > Course elements
+    The options displayed in the Workflow tab and selectable by the author can be preconfigured by the administrator. See Admin manual, `Modules > Course elements`
 
 
 [Up (Author perspective) ^](#create_task)<br>
@@ -197,7 +197,7 @@ You can also upload a zip file with several (different) tasks and provide each f
 
 **b) Create files in different formats**
 
-Create files directly in OpenOlat. Exactly which formats are available depends on which have been activated by the OpenOlat administration. In most cases, at least one HTML editor is available. But it is also possible to create Word, Excel, PowerPoint and, since :octicons-tag-24: release 18.1, diagrams or whiteboards. In addition, a specific video task or, from :octicons-tag-24: Release 18.1, an audio task can also be created.
+Create files directly in OpenOlat. Exactly which formats are available depends on which have been activated by the OpenOlat administration. In most cases, at least one HTML editor is available. But it is also possible to create Word, Excel, PowerPoint and diagrams or whiteboards. In addition, a specific video task or an audio task can also be created.
 
 If a task is created with the internal OpenOlat HTML editor, multiple files such as images or PDF files can be provided by first uploading them in the HTML editor and then linking them in the corresponding html page. Such a task will then be downloaded in .zip file format as well. If the HTML editor is used, the stored title is automatically used as the file name. However, this can be changed at any time.
 
@@ -209,7 +209,7 @@ Select in the field **"Type of drawing"** if several course participants can sol
 
 In the **"Type of draw"** field, select whether several course participants can solve the same task or whether each course participant should solve a different task. If the task is selected manually, you can also specify in the "Preview" field whether the course participants can view the task before selecting it. If each course participant is to solve a different task for "Type of draw", at least as many tasks must be entered as there are course participants who are to solve this task.
 
-!!! info "Hint"
+!!! tip "Hint"
 
     If the course element contains only one task, manual selection is not very useful. In this case, it is best to use the automatic assignment.
 
@@ -396,7 +396,7 @@ In order to provide all course participants with a sample solution regarding you
 
 By default, the sample solution is only visible once the documents submitted by the participant have been accepted by the coach.
 
-!!! Tip "Hint"
+!!! tip "Hint"
 
     If the participants are to receive help with the task in advance, upload it together with the task as a ZIP document or use the message field (see "Task" tab).
 
@@ -426,7 +426,7 @@ For more information on this tab, which is available in several course elements,
 
 With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for course participants in the personal menu under "[To-dos](../personal_menu/To-Dos.md)".
 
-If the automatic creation of to-dos is activated (from :octicons-tag-24: Release 18.2.), learners can see the current status (step) of the corresponding worklow under "My course" -> To-dos and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the personal tools. 
+If the automatic creation of to-dos is activated, learners can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the personal tools. 
 
 The to-dos therefore help learners to keep track of their tasks.
 Further information on To-dos can be found [here](../basic_concepts/To_Dos_Basics.md).
@@ -443,7 +443,7 @@ Further information on To-dos can be found [here](../basic_concepts/To_Dos_Basic
 
 ### Tab Badges
 
-If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+If the course owner has activated the assignment of badges under `Administration > Settings > Assessment tab > Badges section`, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -473,7 +473,7 @@ All steps of a task (workflow) are displayed to course participants directly in 
     * [View sample solution](#process_task_view_example)
     * [Read "Assessment" of coach](#process_task_view_coach_assessment)
 
-!!! info "Hint"
+!!! tip "Hint"
 
     Subscribe to the respective task module to be informed quickly by e-mail about changes.
 
@@ -498,7 +498,7 @@ As a participant, you will see the coach assigned to you above the task. If no c
 
 ![course_element_task_participant_view_mycoach_v1_de.png](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
 
-With the implementation of peer review, participants have also been able to give each other feedback on the tasks they have completed since Release 19.
+Peer review also allows participants to give each other feedback on the tasks they have completed.
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -539,7 +539,7 @@ If your editing was not sufficient and the coach requests a revision, a correspo
 [To the top of the page ^](#course_element_task)
 
 
-### Carry out a peer review {: #process_task_make_reviews}
+### Carry out a peer review [:octicons-tag-16:{ title="from Release 19.0 (OO-7680)" }](https://track.frentix.com/issue/OO-7680) {: #process_task_make_reviews}
 
 If a peer review was planned for the task, you will now be assigned review tasks. You are to assess the documents submitted by other course members. The documents you are to review can be assigned to you automatically or manually by coaches. 
 
@@ -657,7 +657,7 @@ If a time period has been set for the review (by the owner), the review cannot b
 
 
 
-### Rules of a peer review {: #coach_task_peer_review_rules}
+### Rules of a peer review [:octicons-tag-16:{ title="from Release 19.0 (OO-7680)" }](https://track.frentix.com/issue/OO-7680) {: #coach_task_peer_review_rules}
 
 In a peer review, the participants in a course give each other feedback or an assessment. The feedback can be of a general nature (e.g. in a text field) or also include an assessment with points.
 
