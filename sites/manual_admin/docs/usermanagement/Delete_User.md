@@ -1,15 +1,11 @@
 # Delete user {: #delete_user}
 
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
 ## What happens when an account is deleted?
 
 When a user's account is deleted, that person is no longer known as a registered user in OpenOlat and can no longer be found.
+
+When an account is deleted, it is not physically removed from the database but **anonymised**: the login name is replaced by an anonymous identifier and the profile data is cleared. Objects that are technically linked to the account (e.g. posts, certificates, booking orders) therefore remain, but only refer to the anonymised account, which can no longer be resolved. The table below therefore distinguishes between **deleted**, **anonymised** and **retained/orphaned**.
 
 **Work results** created by that person are subject to their own rules when the account is deleted. See below: [What is deleted?](#del_properties)
 
@@ -91,12 +87,6 @@ Users can also be deleted fully automatically by an activated user lifecycle.
 
 ---
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
 ## What is deleted? {: #del_properties}
 
 When a user is deleted:
@@ -122,21 +112,21 @@ It must be taken into account that information is technically linked to differen
 |User management > **Authentications** :octicons-person-24: | All authentication options are deleted.|
 |User management > **Properties** :octicons-person-24: | Properties are completely deleted.|
 |User management > **GUI settings** :octicons-person-24: | GUI settings are completely deleted.|
-|**Booking orders** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |If booking orders exist, the names of users are removed from their booking orders when they are deleted, but the booking orders themselves are retained. **Exception:** Booking orders of the type "Invoice" are retained without a name.|
+|**Booking orders** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |Booking orders are retained, including those of the type "Invoice". The name is not stored separately in the booking order but comes from the profile; after deletion it is therefore anonymised.|
 |**Billing address** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |To be able to trace payments (e.g. for tax authorities), billing addresses are retained.|
-|**Reasonable adjustments** :octicons-person-24: | tbd |
+|**Reasonable adjustments** :octicons-person-24: | Recorded reasonable adjustments are not deleted; they remain linked to the anonymised account. |
 |**Subscriptions** :octicons-person-24: | All subscriptions are deleted.|
-|**Relationships** :octicons-person-24: | tbd|
-|**Organisational membership** :octicons-person-24: | tbd |
-|**Quota** :octicons-person-24: | tbd |
+|**Relationships** :octicons-person-24: | Relationships to other users are not dissolved. They remain and refer to the anonymised account.|
+|**Organisational membership** :octicons-person-24: | Membership in organisations is deleted. |
+|**Quota** :octicons-person-24: | The personal storage space (quota) and its associated settings are deleted. |
 |**Lectures** :octicons-person-24: | Participation in lectures/absences is deleted.|
 |**Competences** :octicons-person-24: | Competences are deleted.|
-|User management > **Course Planner roles** :octicons-person-24: | tbd |
+|User management > **Course Planner roles** :octicons-person-24: | The Course Planner / Curriculum roles are deleted together with the account, as they are memberships. |
 |**Personal calendar** :octicons-person-24: | The personal calendar is deleted.|
 |**Chat history** :octicons-person-24: | Chats (messages, settings) are anonymised.|
 |**Personal folder** :octicons-person-24: |The personal folder is deleted.|
 |**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either.|
-|**Personal to-dos** :octicons-person-24: | tbd (to-dos in projects: see below) |
+|**Personal to-dos** :octicons-person-24: | The assignment to the deleted account is removed; the to-do entry itself remains but is then no longer assigned to anyone. (to-dos in projects: see below) |
 |**Mailbox** :octicons-person-24: |Emails listed in the mailbox of the personal menu are deleted. (The internal email inbox is completely deleted.)|
 |**Recipient of a reminder email** :octicons-package-24: |If the deleted user was a potential recipient of a reminder email, the email will no longer be sent to the deleted person. (The recipient list is created at the time the rules are checked, so a deleted person no longer appears on the mailing list.)|
 |**Group membership** :octicons-person-24: :octicons-package-24: | Group memberships are deleted. (The groups themselves are not deleted, even if they were created by the deleted user and they were the only member. Only the deleted user is removed as a group member. If the deleted user was the only group coach, an administrator is entered as a substitute group coach. As a rule, groups without members will then be deleted at a later point in time by the Group Life Cycle process.)|
@@ -144,26 +134,26 @@ It must be taken into account that information is technically linked to differen
 |**To-dos in projects** :octicons-person-24: |In projects, the to-dos of a deleted user are retained but are no longer assigned to anyone. Completed to-dos are also retained (without specifying the user who was supposed to complete the to-do). The progress of projects remains visible. Uncompleted to-dos must be reassigned.|
 |**Course membership** :octicons-person-24: | Course memberships are deleted, even if the role in that course was "Owner" or "Coach". If the deleted user was the creator and sole owner, an administrator is entered as a substitute owner.|
 |**Data in the course element Task** :octicons-person-24: :octicons-package-24: |Documents created and uploaded within a task by the deleted person are deleted (e.g. draw.io, Word, Excel, ppt).|
-|**Peer review data in the course element Task** :octicons-person-24: :octicons-package-24: | tbd |
-|**Data in the course element Participant folder** :octicons-person-24: :octicons-package-24: | tbd |
+|**Peer review data in the course element Task** :octicons-person-24: :octicons-package-24: | The files submitted or uploaded by the person are deleted. The peer review records (assignments, assessments) are retained and refer to the anonymised account. |
+|**Data in the course element Participant folder** :octicons-person-24: :octicons-package-24: | The person's files in the Participant folder course element are deleted. |
 |**Data in the course element Forum** :octicons-person-24: :octicons-package-24: |Personal forum posts and comments are anonymised after the user is deleted and displayed as "unknown user".|
 |**Data in the course element BBB** :octicons-person-24: :octicons-package-24: |Participants in BBB meetings are deleted.|
 |**Data in the course element Adobe Connect** :octicons-person-24: :octicons-package-24: |All data stored by OpenOlat in the background is deleted.|
 |**Data in the course element Vitero** :octicons-person-24: :octicons-package-24: |All data stored by OpenOlat in the background is deleted.|
 |**Office for the web** :octicons-person-24: :octicons-package-24: |All data stored by OpenOlat in the background is deleted.|
-|**Test results** :octicons-person-24: | tbd |
-|**Evidence of achievements** :octicons-person-24: | tbd |
-|**Certificates** :octicons-person-24: | Certificates with a QR code (with the variable "certificateVerificationUrl") are not deleted so that a certificate can still be verified via URL using the host-based verification method. However, the certificates are no longer listed in the assessment tool of the course coach. It is advisable to inform users whose accounts are to be deleted in advance so that they can download their earned certificates from the personal menu before their account is deleted. (tbd: difference between certificates with/without QR?)|
-|**Externally acquired certificates** :octicons-person-24: |OpenOlat users can also upload externally acquired certificates to OpenOlat to complete their profile. These externally acquired certificates will ... tbd upon account deletion.|
+|**Test results** :octicons-person-24: | All test results (test sessions including answers and results) are deleted. |
+|**Evidence of achievements** :octicons-person-24: | All evidence of achievements of the person is deleted. |
+|**Certificates** :octicons-person-24: | Certificates are not deleted when an account is deleted, regardless of whether they carry a QR code or a verification URL. They are retained and refer to the anonymised account, so that their authenticity can still be confirmed (host-based / signed verification). It is nevertheless advisable to inform users whose accounts are to be deleted in advance so that they can download their earned certificates from the personal menu before their account is deleted.|
+|**Externally acquired certificates** :octicons-person-24: |OpenOlat users can also upload externally acquired certificates to OpenOlat to complete their profile. These certificates uploaded by the person themselves are likewise not deleted when the account is deleted and are retained.|
 |User management > **Badges** :octicons-person-24: | Badges are retained so that authenticity can be confirmed (host-based verification, signed verification). It is nevertheless advisable to inform users whose accounts are to be deleted in advance so that they can download their earned badges from the personal menu. If **global badges** were awarded, the recipient's name is replaced by "unknown user" in the list of awarded global badges (accessible by administrators under Administration > e-Assessment > OpenBadges > tab "Awarded global badges"). It remains visible when and by whom a global badge was once awarded. Even if the badge is revoked by clicking "Revoke", it remains as a list entry with the status "Revoked" in the list of awarded global badges. |
 |**Owner role in learning resources and courses** :octicons-package-24: | Learning resources and courses are not deleted when their owner is deleted, regardless of whether the learning resource was published, shared with other authors, or not referenced/used anywhere. If the deleted user was the sole owner, an administrator is entered as a substitute owner. This also applies to test learning resources.|
-|**Questions in the question bank** :octicons-person-24: :octicons-package-24:| tbd |
+|**Questions in the question bank** :octicons-person-24: :octicons-package-24:| Questions from the question bank are only deleted if the person is their sole author and the setting "Delete questions when author deleted" is enabled. Questions with additional authors, as well as all questions when the setting is disabled, are retained. |
 |**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | If a media item in the Media Center was used in a course, it is not deleted.<br> If it was not used anywhere, it is deleted. (Even if it was shared but then not used.) |
 |**External graders** :octicons-package-24:| If accounts of external graders are deleted, they are no longer listed by name. The associated grading assignment records are removed; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
 |**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external graders are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
 |**Statistics** :octicons-infinity-24: |Deleted users are no longer included in the statistics of visited courses.|
 |**Survey results from quality management** :octicons-infinity-24: |Forms completed as part of quality management are stored anonymously and therefore do not need to be deleted when a user account is deleted.|
-|**Log tables** :octicons-infinity-24:| tbd |
+|**Log tables** :octicons-infinity-24:| Log entries are not changed on deletion. They contain no name, only the internal user ID; whether logging is personalised or anonymous depends on the server setting for anonymous logging. |
 
 
 
@@ -175,10 +165,9 @@ It must be taken into account that information is technically linked to differen
 
 ## When can a user not be deleted? {: #none_deleted_user}
 
+Accounts with the status **"Active and not deletable"** cannot be deleted, neither manually nor automatically. They are not even offered for deletion in the account search. This status is typically assigned to system accounts such as the administrator account.
 
-!!! warning "Attention"
-
-    Work is still in progress here. If you have questions, feel free to contact: support@openolat.com
+For **automatic deletion** via the user account lifecycle, an additional safeguard against mass deletion applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion run is aborted completely.
 
 
 [To top of page ^](#delete_user)
