@@ -58,7 +58,34 @@ Select the corresponding checkbox if you want to import the referenced learning 
 At the end of the import, the "settings" menu appears. Here you can make further configurations, e.g. a definition of the licence.
 
 ### Embed via URL
-External videos, e.g. from YouTube, can also be integrated via URL. In this way, an OpenOlat [Learning resource video](../learningresources/Learning_resource_Video.md) is created in which the video is linked. All functions of the OpenOlat video editor are then available. 
+External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the **Import file** button in Authoring and select **Embed via URL**.
+
+![Menu "Embed via URL"](assets/authoring_embed_via_url_v2_en.png){ class="shadow lightbox" }
+
+Based on the URL, OpenOlat automatically detects the appropriate resource type and creates a corresponding learning resource in which the medium is linked. For videos, this creates a [Learning resource video](../learningresources/Learning_resource_Video.md); all functions of the OpenOlat video editor are then available.
+
+![Dialog "Embed via URL"](assets/authoring_embed_via_url_dialogue_v1_en.png){ class="shadow lightbox" }
+
+The following resources are supported:
+
+* Videos: MP4, m3u8, YouTube, Vimeo, Panopto
+* Blog or Podcast
+
+!!! info
+
+    Media from additional platforms can be enabled by the system administrator if required.
+
+The dialog contains the following fields:
+
+| Field | Description |
+| ----- | ----------- |
+| **URL** | Link to the external resource. After entering it, OpenOlat automatically determines the type and, if available, the title of the medium. |
+| **Type** | The detected resource type. If several types match the URL, select the desired one here. |
+| **Title of learning resource** | Mandatory field. Name of the new learning resource. For videos, the title is prefilled from the source and can be adjusted. |
+| **Reference** | Optional external identifier, displayed on the course overview page. |
+| **Administrative access** | Mandatory field. Organisation to which the learning resource is administratively assigned. |
+
+Click **Embed** to create the learning resource.
 
 
 ---

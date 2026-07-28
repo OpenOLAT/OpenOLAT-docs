@@ -12,6 +12,8 @@ Das Menü "Customizing" umfasst Einstellungen bezüglich der hier aufgeführten 
 
 Dieser Abschnitt dient dazu, die verfügbaren Layout-Themes auszuprobieren.
 
+Das Hintergrundbild der Anmeldeseite ist Bestandteil des Layout-Themes und lässt sich nicht in der Administration konfigurieren. Es wird über ein individuelles Theme angepasst. Wenden Sie sich bei gehosteten Instanzen dazu an den Betreiber.
+
 ### Abschnitt Firmen- oder Institutslogo
 
 Sie können ein eigenes Logo hochladen (png-Datei), das dann in der Kopfzeile links oben angezeigt wird. Beachten Sie, dass dieses Logo innerhalb des Themes (Gesamtlayoputs) verwendet wird. Als voreingestellter Standard wird das OpenOlat-Logo angezeigt.
