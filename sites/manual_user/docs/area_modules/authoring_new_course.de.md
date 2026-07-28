@@ -59,7 +59,34 @@ Wenn Sie beispielsweise einen Kurs aus einer anderen OpenOlat-Instanz importiere
 Am Ende des Imports gelangen Sie zum Menü „Einstellungen“, in dem Sie weitere Konfigurationen vornehmen können – etwa die Lizenz des Kurses festlegen.
 
 ### Per URL einbinden
-Darüber hinaus können externe Videos z.B. aus YouTube auch per URL eingebunden werden. Auf diesem Weg wird eine OpenOlat [Lernressource Video](../learningresources/Learning_resource_Video.de.md) angelegt, in der das Video verlinkt ist. Sämtliche Funktionen des OpenOlat Video-Editors stehen dann zur Verfügung. 
+Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben der Schaltfläche **Datei importieren** und wählen Sie **Per URL einbinden**.
+
+![Menü "Per URL einbinden"](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" }
+
+OpenOlat erkennt anhand der URL automatisch den passenden Ressourcentyp und legt eine entsprechende Lernressource an, in der das Medium verlinkt ist. Bei Videos entsteht so eine [Lernressource Video](../learningresources/Learning_resource_Video.de.md); sämtliche Funktionen des OpenOlat Video-Editors stehen anschliessend zur Verfügung.
+
+![Dialog "Per URL einbinden"](assets/authoring_embed_via_url_dialogue_v1_de.png){ class="shadow lightbox" }
+
+Unterstützt werden folgende Ressourcen:
+
+* Videos: MP4, m3u8, YouTube, Vimeo, Panopto
+* Blog oder Podcast
+
+!!! info
+
+    Medien von weiteren Plattformen können bei Bedarf durch die Systemadministration freigeschaltet werden.
+
+Der Dialog enthält folgende Felder:
+
+| Feld | Beschreibung |
+| ---- | ------------ |
+| **URL** | Link zur externen Ressource. Nach der Eingabe ermittelt OpenOlat automatisch den Typ und, sofern verfügbar, den Titel des Mediums. |
+| **Typ** | Der erkannte Ressourcentyp. Passen mehrere Typen zur URL, wählen Sie hier den gewünschten aus. |
+| **Titel der Lernressource** | Pflichtfeld. Name der neuen Lernressource. Bei Videos wird der Titel aus der Quelle vorausgefüllt und kann angepasst werden. |
+| **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird. |
+| **Administrative Freigabe** | Pflichtfeld. Organisation, der die Lernressource administrativ zugeordnet wird. |
+
+Mit **Einbinden** wird die Lernressource erstellt.
 
 ---
 
