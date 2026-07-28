@@ -12,6 +12,8 @@ The "Customizing" menu contains settings relating to the menu items listed here.
 
 The system layout, a company logo and properties relating to the footer can be stored here.
 
+The background image of the login page is part of the layout theme and cannot be configured in the administration. It is customized through an individual theme. For hosted instances, please contact your provider.
+
 ### Company or Institution Logo Section
 
 You can upload your own logo (PNG file), which will then appear in the top-left corner of the header. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
