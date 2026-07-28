@@ -85,7 +85,7 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 | Attribut | Pflicht | Aktualisierbar | Mögliche Meldung |
 |---|---|---|---|
 | Titel | Ja | Ja | E2 (leer), W2 (zu lang), Änderung wird erkannt |
-| Ext. Ref. | Ja | Nein | E2 (leer), E3 (nicht eindeutig), E7 (zu lang) |
+| Kennzeichen | Ja | Nein | E2 (leer), E3 (nicht eindeutig), E7 (zu lang) |
 | ORG - Kennzeichen | Ja | Nein | E1 (keine Berechtigung), E2 (leer), E4 (existiert nicht), E5 (Wert darf nicht geändert werden) |
 | Absenzen | Ja | Ja | E2 (leer), E6 (bei Neuanlage kein gültiger Wert), W1 (bei Update kein gültiger Wert), Änderung wird erkannt |
 | Beschreibung | Nein | Ja | W2 (zu lang), Änderung wird erkannt |
@@ -95,18 +95,18 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 
 | Attribut | Pflicht | Aktualisierbar | Mögliche Meldung |
 |---|---|---|---|
-| PROD - Ext. Ref. | Ja | Nein | E2, E1, E4 |
-| IMPL - Ext. Ref. | Ja | Nein | E2, E4 |
+| PROD - Kennzeichen | Ja | Nein | E2, E1, E4 |
+| IMPL - Kennzeichen | Ja | Nein | E2, E4 |
 | Objekttyp | Ja | Nein | E2, E6, E5 |
 | Level | Ja (ausser IMPL) | Nein | E2, E5, E8 (kein übergeordnetes Element bei ELEM) |
 | Titel | Ja | Ja | E2, W2, Änderung wird erkannt |
-| Ext. Ref. | Ja | Nein | E2, E7, E3 (je nach Objekttyp), zusätzlich E1/E4/E19 bei TMPL/COURSE |
+| Kennzeichen | Ja | Nein | E2, E7, E3 (je nach Objekttyp), zusätzlich E1/E4/E19 bei TMPL/COURSE |
 | Status | Ja (ausser EVENT) | Ja | E2, E6, W1, Änderung wird erkannt |
 | Datum/Zeit Beginn und Ende | Ja bei EVENT | Ja | E2 (EVENT), E9 (ungültiges Format), E10 (Zeitraum ungültig), W4, Änderung wird erkannt |
 | Einheit | Ja bei EVENT | Ja | E2, E6, Änderung wird erkannt |
-| REF - Ext. Ref. | Ja bei EVENT mit Kurs | Nein | E2, E5, E4 |
+| REF - Kennzeichen | Ja bei EVENT mit Kurs | Nein | E2, E5, E4 |
 | Ort | Nein | Ja | W2, Änderung wird erkannt |
-| ELEM Typ - Ext. Ref. | Ja bei IMPL/ELEM | Nein | E2, E3, E4 |
+| ELEM Typ - Kennzeichen | Ja bei IMPL/ELEM | Nein | E2, E3, E4 |
 | Kalender / Absenzen / Fortschritt | Ja bei IMPL/ELEM/TMPL/COURSE | Ja | E2, E6, W1, Änderung wird erkannt |
 | Fachbereiche | Nein | Ja | E4 (bei Neuanlage), W5 (bei Update), Änderung wird erkannt |
 | Zuletzt geändert | Nein | Nein | W3 |
@@ -127,7 +127,7 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 
 | Attribut | Pflicht | Mögliche Meldung |
 |---|---|---|
-| PROD - Ext. Ref. / IMPL - Ext. Ref. / Ext. Ref. | Ja | E2, E7, E1, bei Neuanlage zusätzlich E21/E22/E23 |
+| PROD - Kennzeichen / IMPL - Kennzeichen / Kennzeichen | Ja | E2, E7, E1, bei Neuanlage zusätzlich E21/E22/E23 |
 | Rolle | Ja | E2, E6 |
 | Anmeldename | Ja | E2, bei Neuanlage zusätzlich E21/E22/E23 |
 

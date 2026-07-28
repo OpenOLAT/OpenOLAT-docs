@@ -77,11 +77,7 @@ Der Import-Assistent führt in fünf Schritten durch die Kontrolle und Ausführu
 
 ### Umgang mit Fehlern und Warnungen {: #errors_warnings}
 
-Jede fehlerhafte Zelle wird direkt in der Tabelle mit Spaltenname und Grund angezeigt, zum Beispiel "Ext. Ref.: Wert erforderlich" oder "ORG - Kennzeichen: \<Wert\> existiert nicht". Enthält eine Zeile mindestens einen Fehler, wird sie automatisch vom Import ausgeschlossen.
-
-!!! note "Hinweis"
-
-    Die Spaltenbezeichnungen unterscheiden sich leicht zwischen Excel-Datei und Wizard-Ansicht: In der Excel-Datei heisst die Spalte "Kennzeichen", im Wizard-Bildschirm wird sie als "Ext. Ref." angezeigt.
+Jede fehlerhafte Zelle wird direkt in der Tabelle mit Spaltenname und Grund angezeigt, zum Beispiel "Kennzeichen: Wert erforderlich" oder "ORG - Kennzeichen: \<Wert\> existiert nicht". Enthält eine Zeile mindestens einen Fehler, wird sie automatisch vom Import ausgeschlossen.
 
 Warnungen verhindern den Import nicht, weisen aber auf mögliche Probleme hin, zum Beispiel wenn ein Wert zu lang ist und deshalb gekürzt wird, oder wenn sich ein Element seit dem letzten Export bereits geändert hat.
 

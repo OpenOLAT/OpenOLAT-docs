@@ -83,8 +83,8 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 | Attribute | Mandatory | Updatable | Possible message |
 |---|---|---|---|
 | Title | Yes | Yes | E2 (empty), W2 (too long), change is detected |
-| Ext. Ref. | Yes | No | E2 (empty), E3 (not unique), E7 (too long) |
-| ORG - Ext. Ref. | Yes | No | E1 (no permission), E2 (empty), E4 (does not exist), E5 (value cannot be changed) |
+| Reference | Yes | No | E2 (empty), E3 (not unique), E7 (too long) |
+| ORG - Reference | Yes | No | E1 (no permission), E2 (empty), E4 (does not exist), E5 (value cannot be changed) |
 | Absences | Yes | Yes | E2 (empty), E6 (not a valid value on creation), W1 (not a valid value on update), change is detected |
 | Description | No | Yes | W2 (too long), change is detected |
 | Last modified | No | No | W3 (element already updated since export) |
@@ -93,18 +93,18 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 
 | Attribute | Mandatory | Updatable | Possible message |
 |---|---|---|---|
-| PROD - Ext. Ref. | Yes | No | E2, E1, E4 |
-| IMPL - Ext. Ref. | Yes | No | E2, E4 |
+| PROD - Reference | Yes | No | E2, E1, E4 |
+| IMPL - Reference | Yes | No | E2, E4 |
 | Object type | Yes | No | E2, E6, E5 |
 | Level | Yes (except IMPL) | No | E2, E5, E8 (no parent element for ELEM) |
 | Title | Yes | Yes | E2, W2, change is detected |
-| Ext. Ref. | Yes | No | E2, E7, E3 (depending on object type), additionally E1/E4/E19 for TMPL/COURSE |
+| Reference | Yes | No | E2, E7, E3 (depending on object type), additionally E1/E4/E19 for TMPL/COURSE |
 | Status | Yes (except EVENT) | Yes | E2, E6, W1, change is detected |
 | Date/Time Begin and End | Yes for EVENT | Yes | E2 (EVENT), E9 (invalid format), E10 (invalid period), W4, change is detected |
 | Unit | Yes for EVENT | Yes | E2, E6, change is detected |
-| REF - Ext. Ref. | Yes for EVENT with course | No | E2, E5, E4 |
+| REF - Reference | Yes for EVENT with course | No | E2, E5, E4 |
 | Location | No | Yes | W2, change is detected |
-| ELEM Type - Ext. Ref. | Yes for IMPL/ELEM | No | E2, E3, E4 |
+| ELEM Type - Reference | Yes for IMPL/ELEM | No | E2, E3, E4 |
 | Calendar / Absences / Progress | Yes for IMPL/ELEM/TMPL/COURSE | Yes | E2, E6, W1, change is detected |
 | Subjects | No | Yes | E4 (on creation), W5 (on update), change is detected |
 | Last modified | No | No | W3 |
@@ -125,7 +125,7 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 
 | Attribute | Mandatory | Possible message |
 |---|---|---|
-| PROD - Ext. Ref. / IMPL - Ext. Ref. / Ext. Ref. | Yes | E2, E7, E1, additionally E21/E22/E23 on creation |
+| PROD - Reference / IMPL - Reference / Reference | Yes | E2, E7, E1, additionally E21/E22/E23 on creation |
 | Role | Yes | E2, E6 |
 | Username | Yes | E2, additionally E21/E22/E23 on creation |
 

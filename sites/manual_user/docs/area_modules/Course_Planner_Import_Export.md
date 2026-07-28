@@ -54,8 +54,8 @@ The file name of the exported Excel file follows the pattern "CPL_Products_\<dat
 
 Depending on the export type, the exported Excel file contains up to four sheets:
 
-* **Products:** Title, Ext. Ref., ORG - Ext. Ref., Absences, Description, Creation date, Last modified
-* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Ext. Ref., title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}
+* **Products:** Title, Reference, ORG - Reference, Absences, Description, Creation date, Last modified
+* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}
 * **Memberships:** assignment of users to implementations with role (Participant, Coach, Master coach, Course owner, Element owner)
 * **Users:** Username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
 
@@ -77,7 +77,7 @@ The import wizard guides you through the review and execution of the import in f
 
 ### Handling errors and warnings {: #errors_warnings}
 
-Every erroneous cell is shown directly in the table with the column name and reason, for example "Ext. Ref.: Value required" or "ORG - Ext. Ref.: \<value\> does not exist". If a row contains at least one error, it is automatically excluded from the import.
+Every erroneous cell is shown directly in the table with the column name and reason, for example "Reference: Value required" or "ORG - Reference: \<value\> does not exist". If a row contains at least one error, it is automatically excluded from the import.
 
 Warnings do not prevent the import but indicate possible issues, for example when a value is too long and therefore gets shortened, or when an element has already been changed since the last export.
 
