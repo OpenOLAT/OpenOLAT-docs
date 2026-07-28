@@ -22,6 +22,10 @@ Modul zur Erfassung und Verwaltung der Absenzen von Teilnehmenden bei Lektionen.
 
 Kann systemweit Anwesenheiten und Absenzen verwalten.
 
+### Administrative Freigabe
+
+Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
+
 ### Administrator/in
 
 Hat vollständige Administrationsrechte für das System.

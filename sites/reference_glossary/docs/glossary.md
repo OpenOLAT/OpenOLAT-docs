@@ -640,6 +640,10 @@ A named topic within the Appointment Scheduling course element, to which multipl
 
 A course template in the Course Planner that can be instantiated as a course for a curriculum implementation at a later date. See also: Template course.
 
+### Administrative access
+
+Assignment of a learning resource to one or more organisations. It determines which administrators and learning resource managers can manage the resource.
+
 
 ## Standards
 

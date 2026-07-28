@@ -640,6 +640,10 @@ Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Termi
 
 Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursinstanz für eine Durchführung verwendet werden kann. Siehe auch: Vorlagekurs.
 
+### Administrative Freigabe
+
+Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
+
 
 ## Standards
 

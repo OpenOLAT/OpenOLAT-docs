@@ -30,6 +30,10 @@ Membership status in a certification program: the person holds a certificate in 
 
 The system administration area for configuring modules, managing users, and system settings.
 
+### Administrative access
+
+Assignment of a learning resource to one or more organisations. It determines which administrators and learning resource managers can manage the resource.
+
 ### Administrator
 
 Has full system administration rights.
