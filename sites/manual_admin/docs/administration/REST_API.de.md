@@ -13,55 +13,37 @@ Das REST API kann unter Administration aktiviert / deaktiviert werden.
 
 ## Konzept {: #concept}
 
-"Representational State Transfer" oder REST ist ein Architekturstil, der in erster Linie mit dem HTTP-Protokoll verwendet wird, jedoch nicht ausschließlich. Im Falle von HTTP nutzt es alle seine Funktionen: URIs zur Beschreibung von Ressourcen, HTTP-Methoden als „Verben“ zur Manipulation von Ressourcen (GET zum Abrufen von Ressourcen, PUT zum Erstellen neuer Ressourcen, POST zum Ändern von Ressourcen, DELETE ...), HTTP-Header und Medientypen für die Inhaltsaushandlung ...
+"Representational State Transfer" oder REST ist ein Architekturstil, der in erster Linie mit dem HTTP-Protokoll verwendet wird, jedoch nicht ausschliesslich. Im Falle von HTTP nutzt es alle seine Funktionen: URIs zur Beschreibung von Ressourcen, HTTP-Methoden als „Verben“ zur Manipulation von Ressourcen (GET zum Abrufen von Ressourcen, PUT zum Erstellen neuer Ressourcen, POST zum Ändern von Ressourcen, DELETE ...), HTTP-Header und Medientypen für die Inhaltsaushandlung ...
 
 In OpenOlat wird JSR-311: JAX-RS (die Java-API für RESTful-Webdienste) als Backend für die Implementierung unserer REST-API verwendet. JSR-311 ist ein Standard von J2EE. Wir verwenden die Referenzimplementierung aus dem folgenden Standard: [Jersey](https://jersey.dev.java.net/).
 
 
 
-### API-Schlüssel für REST-Zugriff 
+### API-Schlüssel für REST-Zugriff [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7290)" }](https://track.frentix.com/issue/OO-7290)
 
-!!! warning "Achtung"
+Für den Zugriff auf die REST-API steht ein dedizierter API-Schlüssel zur Verfügung. Er ist ein automatisch erzeugtes, langes und damit starkes Passwort und kann deshalb auch dann verwendet werden, wenn für die Anmeldung in der Benutzeroberfläche Passkey oder eine Zwei-Faktor-Authentifizierung (2FA) vorausgesetzt wird.
 
-	Dieser Artikel befindet sich noch im Aufbau.
+Der API-Schlüssel wird wie das OpenOlat-Passwort verschlüsselt gespeichert. Er wird nur einmal bei der Erzeugung angezeigt und kann danach nicht erneut abgerufen werden. Geht der Schlüssel verloren, muss er gelöscht und ein neuer erzeugt werden.
 
-	OO-7290
+Der API-Schlüssel kann nicht zur Anmeldung in der OpenOlat-Webanwendung verwendet werden; er ist ausschliesslich für den Zugriff auf die REST-API gültig. Unabhängig davon bleibt der Zugriff über eine gültige Benutzersitzung möglich, etwa um per JavaScript auf die Kursdatenbank zuzugreifen.
 
-Mit der Einführung von Passkey und 2FA ist der derzeitige API-Zugriff über ein vom Benutzer wählbares (schwaches) Passwort nicht mehr geeignet.
+API-Schlüssel werden in der Benutzerverwaltung erzeugt: In den Authentifizierungen einer Person steht dazu die Schaltfläche "API-Key hinzufügen" zur Verfügung. Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, aktivieren Sie in der REST-Konfiguration die Option "Erzeugen von API Key durch Benutzer:in" (standardmässig deaktiviert).
 
-Die Lösung besteht darin, einen dedizierten API-Schlüssel für den Zugriff auf die REST-API zu verwenden. Da der API-Schlüssel ein generiertes, langes und somit {*}starkes Passwort{*} ist, kann er auch dann verwendet werden, wenn in der Benutzeroberfläche eine 2FA erforderlich ist.
+!!! note "Hinweis"
 
-Der API-Schlüssel wird in OpenOlat genauso wie das OpenOlat-Passwort mit einer starken Verschlüsselung gespeichert. Er wird dem Benutzer nur bei der Generierung angezeigt und kann nicht erneut abgerufen werden, wenn der Benutzer den Schlüssel verliert. In diesem Fall muss der Schlüssel gelöscht und ein neuer generiert werden.
-
-Der API-Key kann nicht zum Einloggen in die OpenOlat-Webanwendung verwendet werden, er ist nur für den Zugriff auf die REST-API gültig.
-
-Auf die REST-API kann weiterhin mit einer gültigen Benutzersitzung zugegriffen werden, z. B. um über Javascript auf die Kursdatenbank zuzugreifen.
-
-REST-API-Schlüssel können in der Benutzerverwaltung generiert werden.
-
-In der REST-Admin-Konfiguration kann eine neue Konfiguration aktiviert werden, um die Erstellung von API-Schlüsseln auch für Benutzer zu ermöglichen (standardmäßig deaktiviert).
-
-Übergang
-
-Wenn die Passkey-Funktion nicht aktiviert ist, kann das OpenOlat-Passwort weiterhin auch für den REST-Zugriff verwendet werden.
+	Solange die Passkey-Funktion nicht aktiviert ist, kann für den REST-Zugriff weiterhin das OpenOlat-Passwort verwendet werden.
 
 
-### Zugriff auf Benutzer mit API-Schlüssel beschränken
+### Zugriff auf Benutzer:innen mit API-Schlüssel beschränken [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-8745)" }](https://track.frentix.com/issue/OO-8745)
 
-!!! warning "Achtung"
+Ist die REST-API aktiviert, kann sie grundsätzlich von allen Benutzer:innen mit einer authentifizierten Sitzung verwendet werden. Häufig soll der Zugriff jedoch auf bestimmte Personen beschränkt bleiben.
 
-	Dieser Artikel befindet sich noch im Aufbau.
+Über die Auswahl "API Zugriff" in der REST-Konfiguration legen Sie fest, wer die REST-API nutzen darf:
 
-	OO-8745
+* **für alle Benutzer:innen**: der Zugriff steht allen authentifizierten Personen offen.
+* **nur für Benutzer:in mit API Key**: der Zugriff ist auf Personen mit einem API-Schlüssel beschränkt.
 
-
-Problem
-Die REST-API kann – wenn sie aktiviert ist – von allen Benutzern mit einer authentifizierten Benutzersitzung verwendet werden. In vielen Fällen ist dies jedoch nicht erwünscht, da die REST-API nur für bestimmte Benutzer verfügbar sein sollte.
-
-Lösung 
-Mit OO-7290 haben wir einen spezifischen Authentifizierungsmechanismus für die REST-API mit einem sogenannten API-Schlüssel hinzugefügt. Dieser kann zur Authentifizierung bei der Verwendung der REST-API unabhängig von einem Anmeldepasswort verwendet werden (z. B. bei Verwendung von PassKey für die Anmeldung). Die Generierung eines solchen API-Schlüssels kann auf die Benutzerverwaltung beschränkt oder allen Benutzern gestattet werden.
-
-Der REST-API-Konfiguration wurde eine Option hinzugefügt, um die API-Nutzung auf Benutzer mit einem API-Schlüssel zu beschränken. In Kombination mit der Generierung des Schlüssels ausschließlich durch Benutzermanager bietet dies eine elegante Möglichkeit, nur bestimmten Benutzern Zugriff auf die API zu gewähren.
+In Kombination mit der Erzeugung der Schlüssel ausschliesslich durch die Benutzerverwaltung lässt sich der Zugriff auf die REST-API so gezielt einzelnen Personen gewähren.
 
 [Zum Seitenanfang ^](#REST-API)
 
@@ -139,7 +121,8 @@ zu generieren, sowie auch JSON-Provider von
 [Jackson](http://jackson.codehaus.org/), welches die selben JAXB-Annotationen
 wiederbenutzt.  
 
-!!! important
+!!! info "Wichtig"
+
 	Alle Konfigurationen müssen vor dem Start des Jersey-Servlets eingestellt werden.
 
 
@@ -147,7 +130,7 @@ wiederbenutzt.
 
 Hier ist ein kleines Beispiel wie Sie einen Benutzer kreieren und diesen einer
 Lerngruppe hinzufügen:
-    
+
     PUT https://your.openolat.domain/olat/restapi/users
     HTTP Header: Content-Type application/json
     Response: 200
@@ -158,7 +141,6 @@ Lerngruppe hinzufügen:
     PUT https://your.openolat.domain/olat/restapi/groups/{groupId}/users/{identityKey}
     Response: 200
 
-  
 [Zum Seitenanfang ^](#REST-API)
 
 ---
