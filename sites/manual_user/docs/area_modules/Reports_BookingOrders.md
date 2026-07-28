@@ -5,11 +5,11 @@
 | User data                  | Person                 | According to the configuration in the administration.             |                                                                 |
 | Membership status          | Person                 | Status in implementation or course (standalone)                   |                                                                 |
 | Product	                 | Product                | Title of the product                                              |                                                                 |
-| Ext. ref.                  | Product                | Ext. ref. of the product                                          |                                                                 |
+| Reference                  | Product                | Reference of the product                                          |                                                                 |
 | Org ID (product)           | Product                | Organisation identfiyer of the product                            |                                                                 |
 | Org name (product)         | Product                | Organisation name of the product                                  |                                                                 |
 | Implementation             | Implementation         | Title of the implementation                                       |                                                                 |
-| Ext. ref.                  | Implementation         | Ext. ref. of the implementation                                   |                                                                 |
+| Reference                  | Implementation         | Reference of the implementation                                   |                                                                 |
 | Implementation type        | Implementation         | Element typ of the implementation                                 |                                                                 |
 | Implementation status      | Implementation         | Status of the implementation                                      |                                                                 |
 | Implementation format	     | Implementation         | Implementation format of the implementation                       |                                                                 |

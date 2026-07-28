@@ -103,7 +103,7 @@ Pro Termin werden folgende Informationen angezeigt:
 
 - Wochentag und Datum
 - Status-Indikator
-- Externe Referenz und Titel
+- Kennzeichen und Titel
 - Ort (mit Ortssymbol)
 - Zeit und Dauer (mit Uhrsymbol)
 

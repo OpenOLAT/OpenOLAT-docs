@@ -300,7 +300,7 @@ Two modes are available for each automation rule:
 The sub-tab "Assessment" is displayed for implementations of type single course. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the **"Certification program"** toggle to enable or disable the link.
-* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Ext. ref., validity period, recertification and required credit points. Only programs you have access to are displayed.
+* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Reference, validity period, recertification and required credit points. Only programs you have access to are displayed.
 * If a program is linked, a panel shows its validity period, recertification and required credit points. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove certification program"**. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
 
 An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).

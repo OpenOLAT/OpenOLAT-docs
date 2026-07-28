@@ -382,10 +382,6 @@ Configurable link in the course toolbar to an external web application. Up to fo
 
 A course element (building block) that can be added to a course structure.
 
-### External reference
-
-An external identifier for a learning resource, e.g. from a course catalog or lecture directory.
-
 ### File
 
 A type of learning resource that can be created or imported in the authoring area.
@@ -769,6 +765,10 @@ A course element (building block) that can be added to a course structure.
 ### Recertification
 
 Process of re-earning a certificate after expiration within a certification program.
+
+### Reference
+
+An identifier for a learning resource, e.g. from a course catalog or lecture directory.
 
 ### Report templates
 

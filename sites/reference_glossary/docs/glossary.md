@@ -556,9 +556,9 @@ The file submission area within a Task course element where participants upload 
 
 A Course Planner product consisting of multiple courses and implementations, visible in the Coaching tool.
 
-### External reference
+### Reference
 
-An external identifier for a learning resource, e.g. from a course catalog or lecture directory.
+An identifier for a learning resource, e.g. from a course catalog or lecture directory.
 
 ### Grading assignment
 

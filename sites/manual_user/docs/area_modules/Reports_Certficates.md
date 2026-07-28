@@ -8,7 +8,7 @@ This page describes the structure of the Excel files generated with the [report 
 |-----------------------|-------------|---------------------------------------------|
 | Certificate ID        | Certificate | Unique number of the certificate           |
 | Course                | Course      | Title of the course                        |
-| Ext. ref.             | Course      | External reference of the course           |
+| Reference             | Course      | Reference of the course                    |
 | User data             | Person      | Configurable under `Administration > Customizing > User Properties`, context "Certificates report"; by default last name, first name and e-mail address |
 | Initial course launch | Course      | Date of the first visit to the course      |
 | Success status        | Course      | "Passed", "Not passed" or "Undefined"      |
@@ -22,7 +22,7 @@ The worksheet "Products" lists the certificates of courses that are assigned to 
 | Column    | Source         | Description                     |
 |-----------|----------------|---------------------------------|
 | Element   | Course Planner | Title of the curriculum element |
-| Ext. ref. | Course Planner | External reference of the element |
+| Reference | Course Planner | Reference of the element |
 | Element type | Course Planner | Title of the element type    |
 
 If a course is assigned to several curriculum elements, the values in the cell are listed separated by a vertical bar.

@@ -47,7 +47,7 @@ The cogwheel menu can also be used to show the **Origin** column. It shows how a
 
 * **Origin: Course**: columns Role, Created
 * **Origin: Group**: columns Role, Group, Created
-* **Origin: Course Planner**: columns Role, Element, Ext. ref., Product, Created
+* **Origin: Course Planner**: columns Role, Element, Reference, Product, Created
 
 !!! tip "Important"
     Each section only appears if the person actually has a corresponding origin.

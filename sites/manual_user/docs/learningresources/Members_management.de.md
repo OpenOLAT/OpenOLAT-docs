@@ -46,7 +46,7 @@ Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich mo
 
 * **Herkunft: Kurs**: Spalten Rolle, Erstellt
 * **Herkunft: Gruppe**: Spalten Rolle, Gruppe, Erstellt
-* **Herkunft: Course Planner**: Spalten Rolle, Element, Ext. Ref., Produkt, Erstellt
+* **Herkunft: Course Planner**: Spalten Rolle, Element, Kennzeichen, Produkt, Erstellt
 
 !!! tip "Wichtig"
     Jeder Abschnitt erscheint nur, wenn für die betreffende Person tatsächlich eine entsprechende Herkunft vorliegt.

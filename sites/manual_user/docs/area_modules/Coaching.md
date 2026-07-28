@@ -104,7 +104,7 @@ Each event shows the following information:
 
 - Weekday and date
 - Status indicator
-- External reference and title
+- Reference and title
 - Location (with location icon)
 - Time and duration (with clock icon)
 

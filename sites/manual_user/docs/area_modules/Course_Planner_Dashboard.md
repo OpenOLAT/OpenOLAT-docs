@@ -27,7 +27,7 @@ A separator area labelled **"Overview"** [:octicons-tag-16:{ title="from Release
 
 The **Implementations** widget shows you the implementations relevant to you at a glance.
 
-In the header area, you select a preselection via the main key figure **"Relevant"** or one of the other key figures (**"Preparation"**, **"Provisional"**, **"Confirmed"**, **"Pending memberships"**). The table lists the corresponding implementations with external reference, title, structure, status as well as start and end date, sorted by start date.
+In the header area, you select a preselection via the main key figure **"Relevant"** or one of the other key figures (**"Preparation"**, **"Provisional"**, **"Confirmed"**, **"Pending memberships"**). The table lists the corresponding implementations with reference, title, structure, status as well as start and end date, sorted by start date.
 
 Using the new **"Pending memberships"** filter, you can quickly find implementations for which memberships still need to be confirmed.
 
