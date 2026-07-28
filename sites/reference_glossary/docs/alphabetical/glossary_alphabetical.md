@@ -10,6 +10,14 @@ Module for tracking and managing participant absences from lectures.
 
 Can manage attendance tracking and absence records across the system.
 
+### Abstention
+
+The explicit decision of a committee member not to rate an application.
+
+### Academic age
+
+The number of years worked since the doctorate, in full-time equivalents.
+
 ### Access code
 
 A password-based booking method restricting course enrolment to code holders.
@@ -42,6 +50,10 @@ Has full system administration rights.
 
 A course element (building block) that can be added to a course structure.
 
+### Advertisement
+
+The published text of a position, describing the professorship that applicants apply for.
+
 ### AI feature
 
 An AI-powered area of use in OpenOlat (e.g. MC Question Generator, Image Description Generator) to which an AI provider and a model are assigned in the AI module.
@@ -61,6 +73,18 @@ Scoring method for multiple-choice, hotspot, hottext, drag&drop, matrix, and gap
 ### Animation
 
 A type of learning resource that can be created or imported in the authoring area.
+
+### Applicant
+
+Person who submits an application for a position in Selectus.
+
+### Application
+
+A submission by an applicant for a position, consisting of personal data, academic background and the uploaded documents.
+
+### Application status
+
+The state of an application in the procedure: active, on hold, granted, hired, not eligible, rejected or withdrawn.
 
 ### Appointment scheduling
 
@@ -202,6 +226,30 @@ Cross-course overview for coaches to monitor learners. See also: Coaching Tool.
 
 The name used in OpenOlat for the tool in which coaches view learners, test corrections, and assessments across courses. See also: Coaching.
 
+### Combined document
+
+All documents of an application merged into a single PDF for reading and printing.
+
+### Committee
+
+The appointment committee of a position, consisting of the head, the secretary, committee members and ex-officio members.
+
+### Committee assignment
+
+The allocation of applications to individual committee members. It determines who has to rate which application.
+
+### Committee member
+
+Member of the appointment committee who rates and reviews the applications assigned to them.
+
+### Comparative assessment
+
+A single assessment in which an expert compares several applications for the same position with each other.
+
+### Comparative assessment expert
+
+Expert who assesses several applications for the same position against each other in one comparative assessment.
+
 ### Competence
 
 Skill or competence assigned to users via taxonomy.
@@ -294,6 +342,14 @@ Surveys used within the Quality Management module to gather feedback.
 
 Automated rule sets that create data collections (surveys) based on triggers like course start or end.
 
+### Decision
+
+The A, B or C result of the committee for an application. A marks the strongest candidates, C is the basis for a rejection.
+
+### Decision tool
+
+A rubric-based scoring grid in which the committee weights criteria to support its decision.
+
 ### Delivery format
 
 A metadata field indicating the mode of delivery (online, blended, in-person) shown in catalog cards.
@@ -374,6 +430,18 @@ Record of a user's performance in assessable course elements.
 
 A type of learning resource that can be created or imported in the authoring area.
 
+### Ex-Officio
+
+Person who belongs to the appointment committee by virtue of their office. Visibility of comments and reviews is configured separately for this role.
+
+### Expert
+
+External specialist appointed by the committee who writes an expert assessment of an application.
+
+### Expert assessment
+
+A written assessment of an application by an external expert appointed by the committee.
+
 ### External course tool
 
 Configurable link in the course toolbar to an external web application. Up to four external course tools with name, URL, icon, and role-based visibility can be configured per course.
@@ -381,6 +449,14 @@ Configurable link in the course toolbar to an external web application. Up to fo
 ### External page
 
 A course element (building block) that can be added to a course structure.
+
+### Faculty feedback
+
+Feedback on an application requested from faculty members who are not part of the appointment committee.
+
+### Faculty member
+
+Member of the faculty who is asked for feedback on an application without being part of the appointment committee.
 
 ### File
 
@@ -405,6 +481,10 @@ A course element for embedding evaluation forms that participants fill out.
 ### Form
 
 A type of learning resource that can be created or imported in the authoring area.
+
+### Form letter
+
+A PDF letter generated from a template and sent together with an e-mail, for example a rejection letter.
 
 ### Forum
 
@@ -453,6 +533,10 @@ A course element (building block) that can be added to a course structure.
 ### Guest
 
 Anonymous user with limited read-only access.
+
+### Head of Committee
+
+Chairs the appointment committee, sees all applications and steers the procedure.
 
 ### HTML-Page
 
@@ -530,6 +614,10 @@ Can manage learning resources across the system.
 
 A schedulable teaching unit within the Events/Absences module, comprising 1 to 12 individual lessons.
 
+### Letter of recommendation
+
+A reference letter written by a referee named by the applicant.
+
 ### Levels/Grading
 
 Configuration of grading scales and performance levels.
@@ -565,6 +653,10 @@ Learning Tools Interoperability standard for external tool integration.
 ### LTI page
 
 A course element (building block) that can be added to a course structure.
+
+### Mail center
+
+The area for bulk correspondence with applicants, with a template per decision group.
 
 ### Master coach
 
@@ -646,6 +738,10 @@ A course element for Apache OpenMeetings web conferencing.
 
 Hierarchical organizational structure for role-scoped management.
 
+### Organisation unit
+
+The faculty or institute that owns a position and provides its own sender address and e-mail signature.
+
 ### Other file
 
 A type of learning resource that can be created or imported in the authoring area.
@@ -706,6 +802,10 @@ Template defining structure and tasks for ePortfolio assignments.
 
 A course element (building block) that can be added to a course structure.
 
+### Position
+
+An advertised professorship in Selectus. It holds the advertisement text, the application form, the deadlines and the appointment committee.
+
 ### PowerPoint
 
 A type of learning resource that can be created or imported in the authoring area.
@@ -726,6 +826,14 @@ Top-level entity in Course Planner representing a curriculum with implementation
 
 Manages a complete product (curriculum) in Course Planner.
 
+### Professorship type
+
+The type of professorship advertised, for example full professor or assistant professor.
+
+### Profile paper
+
+The document describing the profile of the advertised professorship, available to the appointment committee.
+
 ### Project manager
 
 Can manage project spaces across the system.
@@ -737,6 +845,10 @@ Project management tool with to-dos, files, and decisions.
 ### Publication status
 
 Lifecycle state of a learning resource: Preparation, Review, Access for Coach, Published, Finished.
+
+### Public feedback
+
+Feedback submitted through a public link without login, for example after a trial lecture.
 
 ### QTI 2.1
 
@@ -762,9 +874,21 @@ Can manage the question bank pool.
 
 A course element (building block) that can be added to a course structure.
 
+### Rating
+
+An A, B or C assessment of an application by a single committee member.
+
 ### Recertification
 
 Process of re-earning a certificate after expiration within a certification program.
+
+### Referee
+
+Person named by the applicant who writes a letter of recommendation.
+
+### Referee management
+
+The area in which applicants enter their own referees and track whether the requests have been answered.
 
 ### Reference
 
@@ -802,6 +926,18 @@ RESTful API for external system integration.
 
 The file area within a Task course element where coaches return graded work to participants.
 
+### Review
+
+A structured assessment of an application by a committee member, using a questionnaire with sliders and free text.
+
+### Review discussion
+
+Comments and replies that committee members can add to a review.
+
+### Review questionnaire
+
+The configurable set of sliders and text fields that committee members fill in for each application.
+
 ### Role switching
 
 Ability for multi-role members to change their active role perspective within a course.
@@ -838,9 +974,21 @@ Sharable Content Object Reference Model for e-learning content packaging.
 
 A course element (building block) that can be added to a course structure.
 
+### Screening
+
+The phase in which the appointment committee reads and rates the applications received.
+
+### Secretary
+
+Supports the appointment committee administratively and prepares the correspondence.
+
 ### Selection
 
 A course element (building block) that can be added to a course structure.
+
+### Selectus
+
+Module for faculty recruiting: advertising professorships, collecting online applications, and running the appointment committee through to the final decision.
 
 ### Self-test
 
@@ -849,6 +997,10 @@ A course element (building block) that can be added to a course structure.
 ### SharePoint / OneDrive
 
 Microsoft SharePoint and OneDrive file access integration.
+
+### Staff
+
+Administrative staff who set up positions, manage the applications and handle the correspondence.
 
 ### Storage folder
 

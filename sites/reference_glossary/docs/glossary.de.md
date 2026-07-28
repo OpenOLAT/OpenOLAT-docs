@@ -102,6 +102,49 @@ Verwaltet ein gesamtes Produkt (Curriculum) im Course Planner.
 Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
 
+## Selectus-Rollen
+
+### Bewerber/in
+
+Person, die sich in Selectus auf eine Ausschreibung bewirbt.
+
+### Sachbearbeitung
+
+Administrative Stelle, die Ausschreibungen erstellt, die Bewerbungen verwaltet und die Korrespondenz führt.
+
+### Kommissionsmitglied
+
+Mitglied der Berufungskommission, das die ihm zugewiesenen Bewerbungen beurteilt und Reviews erfasst.
+
+### Kommissionspräsident/in
+
+Leitet die Berufungskommission, sieht alle Bewerbungen und steuert das Verfahren.
+
+### Sekretär/in
+
+Unterstützt die Berufungskommission administrativ und bereitet die Korrespondenz vor.
+
+### Ex-Officio
+
+Person, die von Amtes wegen der Berufungskommission angehört. Die Sichtbarkeit von Kommentaren und Reviews wird für diese Rolle separat konfiguriert.
+
+### Fakultätsmitglied
+
+Mitglied der Fakultät, das zu einer Bewerbung um eine Rückmeldung gebeten wird, ohne der Berufungskommission anzugehören.
+
+### Referenzperson
+
+Von der Bewerberin oder dem Bewerber angegebene Person, die ein Referenzschreiben verfasst.
+
+### Gutachter/in
+
+Von der Kommission bestimmte externe Fachperson, die ein Gutachten zu einer Bewerbung verfasst.
+
+### Vergleichsgutachter/in
+
+Gutachter/in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
+
+
 ## Zugangsrollen
 
 ### Gast
@@ -202,6 +245,11 @@ Modul zur Erfassung und Verwaltung der Absenzen von Teilnehmenden bei Lektionen.
 ### Contact Tracing
 
 Standortbasiertes System zur Kontaktnachverfolgung.
+
+
+### Selectus
+
+Modul für Berufungsverfahren: Ausschreibung von Professuren, Erfassung der Online-Bewerbungen und Begleitung der Berufungskommission bis zum Entscheid.
 
 
 ## Funktionen
@@ -643,6 +691,117 @@ Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursins
 ### Administrative Freigabe
 
 Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
+
+
+## Selectus-Konzepte
+
+### Ausschreibung
+
+Eine ausgeschriebene Professur in Selectus. Sie enthält den Ausschreibungstext, das Bewerbungsformular, die Fristen und die Berufungskommission.
+
+### Ausschreibungstext
+
+Der publizierte Text einer Ausschreibung, der die Professur beschreibt, auf die sich Personen bewerben.
+
+### Bewerbung
+
+Die Einreichung einer Bewerberin oder eines Bewerbers auf eine Ausschreibung, bestehend aus Personendaten, akademischem Hintergrund und den hochgeladenen Dokumenten.
+
+### Bewerbungsstatus
+
+Der Stand einer Bewerbung im Verfahren: aktiv, zurückgestellt, Zusage, angestellt, nicht wählbar, abgelehnt oder zurückgezogen.
+
+### Screening
+
+Die Phase, in der die Berufungskommission die eingegangenen Bewerbungen liest und beurteilt.
+
+### Kommission
+
+Die Berufungskommission einer Ausschreibung, bestehend aus Präsidium, Sekretariat, Kommissionsmitgliedern und Ex-Officio-Mitgliedern.
+
+### Kommissionszuweisung
+
+Die Zuteilung von Bewerbungen an einzelne Kommissionsmitglieder. Sie legt fest, wer welche Bewerbung beurteilen muss.
+
+### Beurteilung
+
+Die Einschätzung einer Bewerbung mit A, B oder C durch ein einzelnes Kommissionsmitglied.
+
+### Enthaltung
+
+Der ausdrückliche Verzicht eines Kommissionsmitglieds auf die Beurteilung einer Bewerbung.
+
+### Entscheid
+
+Das Ergebnis der Kommission zu einer Bewerbung mit A, B oder C. A bezeichnet die stärksten Kandidaturen, C ist die Grundlage für eine Ablehnung.
+
+### Entscheidungswerkzeug
+
+Ein rubrikbasiertes Bewertungsraster, in dem die Kommission Kriterien gewichtet, um ihren Entscheid zu stützen.
+
+### Review
+
+Eine strukturierte Beurteilung einer Bewerbung durch ein Kommissionsmitglied mit einem Fragebogen aus Schiebereglern und Freitext.
+
+### Review-Fragebogen
+
+Die konfigurierbare Zusammenstellung von Schiebereglern und Textfeldern, die Kommissionsmitglieder pro Bewerbung ausfüllen.
+
+### Review-Diskussion
+
+Kommentare und Antworten, die Kommissionsmitglieder zu einem Review erfassen können.
+
+### Gutachten
+
+Eine schriftliche Beurteilung einer Bewerbung durch eine von der Kommission bestimmte externe Fachperson.
+
+### Vergleichsgutachten
+
+Ein Gutachten, in dem mehrere Bewerbungen derselben Ausschreibung miteinander verglichen werden.
+
+### Referenzschreiben
+
+Ein Empfehlungsschreiben, das eine von der Bewerberin oder dem Bewerber angegebene Referenzperson verfasst.
+
+### Referenzverwaltung
+
+Der Bereich, in dem Bewerbende ihre Referenzpersonen selbst erfassen und verfolgen, ob die Anfragen beantwortet wurden.
+
+### Fakultätsfeedback
+
+Rückmeldungen zu einer Bewerbung, die bei Fakultätsmitgliedern eingeholt werden, die nicht der Berufungskommission angehören.
+
+### Öffentliche Rückmeldung
+
+Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
+
+### Profildokument
+
+Das Dokument, das das Profil der ausgeschriebenen Professur beschreibt und der Berufungskommission zur Verfügung steht.
+
+### Kombiniertes Dokument
+
+Alle Dokumente einer Bewerbung zu einem einzigen PDF zusammengefügt, zum Lesen und Ausdrucken.
+
+### Akademisches Alter
+
+Die Anzahl Jahre, die seit dem Doktorat gearbeitet wurde, in Vollzeitäquivalenten.
+
+### Professurtyp
+
+Die Art der ausgeschriebenen Professur, zum Beispiel ordentliche Professur oder Assistenzprofessur.
+
+### Organisationseinheit
+
+Die Fakultät oder das Institut, dem eine Ausschreibung gehört und die eine eigene Absenderadresse und E-Mail-Signatur bereitstellt.
+
+### Mailcenter
+
+Der Bereich für die Serienkorrespondenz mit Bewerbenden, mit einer Vorlage je Entscheidgruppe.
+
+### Serienbrief
+
+Ein PDF-Brief, der aus einer Vorlage erzeugt und zusammen mit einer E-Mail versendet wird, zum Beispiel ein Ablehnungsschreiben.
 
 
 ## Standards

@@ -102,6 +102,49 @@ Manages a complete product (curriculum) in Course Planner.
 Manages a specific curriculum element within Course Planner.
 
 
+## Selectus roles
+
+### Applicant
+
+Person who submits an application for a position in Selectus.
+
+### Staff
+
+Administrative staff who set up positions, manage the applications and handle the correspondence.
+
+### Committee member
+
+Member of the appointment committee who rates and reviews the applications assigned to them.
+
+### Head of Committee
+
+Chairs the appointment committee, sees all applications and steers the procedure.
+
+### Secretary
+
+Supports the appointment committee administratively and prepares the correspondence.
+
+### Ex-Officio
+
+Person who belongs to the appointment committee by virtue of their office. Visibility of comments and reviews is configured separately for this role.
+
+### Faculty member
+
+Member of the faculty who is asked for feedback on an application without being part of the appointment committee.
+
+### Referee
+
+Person named by the applicant who writes a letter of recommendation.
+
+### Expert
+
+External specialist appointed by the committee who writes an expert assessment of an application.
+
+### Comparative assessment expert
+
+Expert who assesses several applications for the same position against each other in one comparative assessment.
+
+
 ## Access roles
 
 ### Guest
@@ -202,6 +245,11 @@ Module for tracking and managing participant absences from lectures.
 ### Contact tracing
 
 Location-based contact tracing system.
+
+
+### Selectus
+
+Module for faculty recruiting: advertising professorships, collecting online applications, and running the appointment committee through to the final decision.
 
 
 ## Features
@@ -643,6 +691,117 @@ A course template in the Course Planner that can be instantiated as a course for
 ### Administrative access
 
 Assignment of a learning resource to one or more organisations. It determines which administrators and learning resource managers can manage the resource.
+
+
+## Selectus concepts
+
+### Position
+
+An advertised professorship in Selectus. It holds the advertisement text, the application form, the deadlines and the appointment committee.
+
+### Advertisement
+
+The published text of a position, describing the professorship that applicants apply for.
+
+### Application
+
+A submission by an applicant for a position, consisting of personal data, academic background and the uploaded documents.
+
+### Application status
+
+The state of an application in the procedure: active, on hold, granted, hired, not eligible, rejected or withdrawn.
+
+### Screening
+
+The phase in which the appointment committee reads and rates the applications received.
+
+### Committee
+
+The appointment committee of a position, consisting of the head, the secretary, committee members and ex-officio members.
+
+### Committee assignment
+
+The allocation of applications to individual committee members. It determines who has to rate which application.
+
+### Rating
+
+An A, B or C assessment of an application by a single committee member.
+
+### Abstention
+
+The explicit decision of a committee member not to rate an application.
+
+### Decision
+
+The A, B or C result of the committee for an application. A marks the strongest candidates, C is the basis for a rejection.
+
+### Decision tool
+
+A rubric-based scoring grid in which the committee weights criteria to support its decision.
+
+### Review
+
+A structured assessment of an application by a committee member, using a questionnaire with sliders and free text.
+
+### Review questionnaire
+
+The configurable set of sliders and text fields that committee members fill in for each application.
+
+### Review discussion
+
+Comments and replies that committee members can add to a review.
+
+### Expert assessment
+
+A written assessment of an application by an external expert appointed by the committee.
+
+### Comparative assessment
+
+A single assessment in which an expert compares several applications for the same position with each other.
+
+### Letter of recommendation
+
+A reference letter written by a referee named by the applicant.
+
+### Referee management
+
+The area in which applicants enter their own referees and track whether the requests have been answered.
+
+### Faculty feedback
+
+Feedback on an application requested from faculty members who are not part of the appointment committee.
+
+### Public feedback
+
+Feedback submitted through a public link without login, for example after a trial lecture.
+
+### Profile paper
+
+The document describing the profile of the advertised professorship, available to the appointment committee.
+
+### Combined document
+
+All documents of an application merged into a single PDF for reading and printing.
+
+### Academic age
+
+The number of years worked since the doctorate, in full-time equivalents.
+
+### Professorship type
+
+The type of professorship advertised, for example full professor or assistant professor.
+
+### Organisation unit
+
+The faculty or institute that owns a position and provides its own sender address and e-mail signature.
+
+### Mail center
+
+The area for bulk correspondence with applicants, with a template per decision group.
+
+### Form letter
+
+A PDF letter generated from a template and sent together with an e-mail, for example a rejection letter.
 
 
 ## Standards

@@ -34,6 +34,10 @@ Hat vollständige Administrationsrechte für das System.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Akademisches Alter
+
+Die Anzahl Jahre, die seit dem Doktorat gearbeitet wurde, in Vollzeitäquivalenten.
+
 ### Aktives Mitglied (Zertifikatsprogramm)
 
 Mitgliedschaftsstatus im Zertifikatsprogramm: Die Person besitzt in diesem Programm ein Zertifikat und ist damit aktives, zertifiziertes Mitglied.
@@ -82,6 +86,14 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Kann Ausbildungsprogramme verwalten.
 
+### Ausschreibung
+
+Eine ausgeschriebene Professur in Selectus. Sie enthält den Ausschreibungstext, das Bewerbungsformular, die Fristen und die Berufungskommission.
+
+### Ausschreibungstext
+
+Der publizierte Text einer Ausschreibung, der die Professur beschreibt, auf die sich Personen bewerben.
+
 ### Auswahl
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
@@ -117,6 +129,22 @@ Betreut Teilnehmende in einem Kurs oder einer Gruppe.
 ### Betreuer/innen Ordner
 
 Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer/innen sichtbar ist.
+
+### Beurteilung
+
+Die Einschätzung einer Bewerbung mit A, B oder C durch ein einzelnes Kommissionsmitglied.
+
+### Bewerber/in
+
+Person, die sich in Selectus auf eine Ausschreibung bewirbt.
+
+### Bewerbung
+
+Die Einreichung einer Bewerberin oder eines Bewerbers auf eine Ausschreibung, bestehend aus Personendaten, akademischem Hintergrund und den hochgeladenen Dokumenten.
+
+### Bewerbungsstatus
+
+Der Stand einer Bewerbung im Verfahren: aktiv, zurückgestellt, Zusage, angestellt, nicht wählbar, abgelehnt oder zurückgezogen.
 
 ### Bewertung
 
@@ -302,6 +330,18 @@ Konfiguration von Bewertungsskalen und Leistungsstufen.
 
 Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
+### Enthaltung
+
+Der ausdrückliche Verzicht eines Kommissionsmitglieds auf die Beurteilung einer Bewerbung.
+
+### Entscheid
+
+Das Ergebnis der Kommission zu einer Bewerbung mit A, B oder C. A bezeichnet die stärksten Kandidaturen, C ist die Grundlage für eine Ablehnung.
+
+### Entscheidungswerkzeug
+
+Ein rubrikbasiertes Bewertungsraster, in dem die Kommission Kriterien gewichtet, um ihren Entscheid zu stützen.
+
 ### Erfolgsstatus
 
 Kennzahl in Kurs- und Personenlisten des Coaching Tools, zeigt den Bewertungsstatus grafisch und in Zahlen: "Bestanden", "Nicht bestanden", "Keine Angabe".
@@ -318,6 +358,10 @@ KI Funktion, die aus einem Quelltext oder einer hochgeladenen Datei Freitextfrag
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
 
+### Ex-Officio
+
+Person, die von Amtes wegen der Berufungskommission angehört. Die Sichtbarkeit von Kommentaren und Reviews wird für diese Rolle separat konfiguriert.
+
 ### Externe Seite
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
@@ -329,6 +373,14 @@ Konfigurierbarer Link in der Kurstoolbar zu einer externen Webanwendung. Pro Kur
 ### Fachbereich
 
 Ein taxonomiebasierter Klassifizierungsbegriff, der einer Lernressource zugewiesen wird, um die Katalogfilterung und Gruppierung in Taxonomie-Launchern zu ermöglichen.
+
+### Fakultätsfeedback
+
+Rückmeldungen zu einer Bewerbung, die bei Fakultätsmitgliedern eingeholt werden, die nicht der Berufungskommission angehören.
+
+### Fakultätsmitglied
+
+Mitglied der Fakultät, das zu einer Bewerbung um eine Rückmeldung gebeten wird, ohne der Berufungskommission anzugehören.
 
 ### File Hub
 
@@ -398,6 +450,14 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Kann Gruppen systemweit verwalten.
 
+### Gutachten
+
+Eine schriftliche Beurteilung einer Bewerbung durch eine von der Kommission bestimmte externe Fachperson.
+
+### Gutachter/in
+
+Von der Kommission bestimmte externe Fachperson, die ein Gutachten zu einer Bewerbung verfasst.
+
 ### Herkömmlicher Kurs
 
 Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
@@ -461,6 +521,26 @@ Integration von KI-Funktionen für Inhaltsgenerierung und Unterstützung.
 ### Klassenlehrer/in
 
 Beaufsichtigt Betreuer/innen über Curriculum-Durchführungen hinweg.
+
+### Kombiniertes Dokument
+
+Alle Dokumente einer Bewerbung zu einem einzigen PDF zusammengefügt, zum Lesen und Ausdrucken.
+
+### Kommission
+
+Die Berufungskommission einer Ausschreibung, bestehend aus Präsidium, Sekretariat, Kommissionsmitgliedern und Ex-Officio-Mitgliedern.
+
+### Kommissionsmitglied
+
+Mitglied der Berufungskommission, das die ihm zugewiesenen Bewerbungen beurteilt und Reviews erfasst.
+
+### Kommissionspräsident/in
+
+Leitet die Berufungskommission, sieht alle Bewerbungen und steuert das Verfahren.
+
+### Kommissionszuweisung
+
+Die Zuteilung von Bewerbungen an einzelne Kommissionsmitglieder. Sie legt fest, wer welche Bewerbung beurteilen muss.
 
 ### Kompetenz
 
@@ -578,6 +658,10 @@ Learning Tools Interoperability Standard zur Integration externer Werkzeuge.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Mailcenter
+
+Der Bereich für die Serienkorrespondenz mit Bewerbenden, mit einer Vorlage je Entscheidgruppe.
+
 ### Massenbewertung
 
 Funktion, mit der Betreuer/innen mehrere Teilnehmende gleichzeitig bewerten können.
@@ -634,6 +718,10 @@ Persönliche Notizfunktion für Benutzer.
 
 Open Archives Initiative Protocol for Metadata Harvesting, verwendet zur Katalogexposition.
 
+### Öffentliche Rückmeldung
+
+Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
+
 ### Opencast
 
 Integration von Opencast für Vorlesungsaufzeichnung und Videoverwaltung.
@@ -657,6 +745,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 ### Organisationen
 
 Hierarchische Organisationsstruktur für rollenbasierte Verwaltung.
+
+### Organisationseinheit
+
+Die Fakultät oder das Institut, dem eine Ausschreibung gehört und die eine eigene Absenderadresse und E-Mail-Signatur bereitstellt.
 
 ### Papierkorb
 
@@ -714,6 +806,14 @@ Top-Level-Entität im Course Planner, die ein Curriculum mit Durchführungen und
 
 Verwaltet ein gesamtes Produkt (Curriculum) im Course Planner.
 
+### Professurtyp
+
+Die Art der ausgeschriebenen Professur, zum Beispiel ordentliche Professur oder Assistenzprofessur.
+
+### Profildokument
+
+Das Dokument, das das Profil der ausgeschriebenen Professur beschreibt und der Berufungskommission zur Verfügung steht.
+
 ### Projekte
 
 Projektmanagement-Werkzeug mit To-dos, Dateien und Entscheidungen.
@@ -758,6 +858,18 @@ Kann Qualitätsmanagement-Prozesse verwalten.
 
 Modul in OpenOlat zur zentralen Verwaltung physischer Räume in Gebäuden und deren Belegung durch Kurstermine im Course Planner.
 
+### Referenzperson
+
+Von der Bewerberin oder dem Bewerber angegebene Person, die ein Referenzschreiben verfasst.
+
+### Referenzschreiben
+
+Ein Empfehlungsschreiben, das eine von der Bewerberin oder dem Bewerber angegebene Referenzperson verfasst.
+
+### Referenzverwaltung
+
+Der Bereich, in dem Bewerbende ihre Referenzpersonen selbst erfassen und verfolgen, ob die Anfragen beantwortet wurden.
+
 ### Reporting
 
 Bereich im Coaching Tool, in dem berechtigte Rollen Excel-Reports anhand von Reportvorlagen erstellen.
@@ -782,6 +894,18 @@ Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden ka
 
 RESTful-API zur Integration externer Systeme.
 
+### Review
+
+Eine strukturierte Beurteilung einer Bewerbung durch ein Kommissionsmitglied mit einem Fragebogen aus Schiebereglern und Freitext.
+
+### Review-Diskussion
+
+Kommentare und Antworten, die Kommissionsmitglieder zu einem Review erfassen können.
+
+### Review-Fragebogen
+
+Die konfigurierbare Zusammenstellung von Schiebereglern und Textfeldern, die Kommissionsmitglieder pro Bewerbung ausfüllen.
+
 ### Rezertifizierung
 
 Prozess der erneuten Erlangung eines Zertifikats nach Ablauf innerhalb eines Zertifikatsprogramms.
@@ -802,6 +926,10 @@ Ein Formularelement zur Bewertung mehrerer Kriterien anhand derselben Bewertungs
 
 Der Dateibereich innerhalb eines Aufgaben-Kursbausteins, in dem Betreuer/innen bewertete Arbeiten an Teilnehmende zurückgeben.
 
+### Sachbearbeitung
+
+Administrative Stelle, die Ausschreibungen erstellt, die Bewerbungen verwaltet und die Korrespondenz führt.
+
 ### Safe Exam Browser
 
 Integration mit Safe Exam Browser (SEB) für sichere Online-Prüfungen.
@@ -814,13 +942,29 @@ Sharable Content Object Reference Model zur Verpackung von E-Learning-Inhalten.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Screening
+
+Die Phase, in der die Berufungskommission die eingegangenen Bewerbungen liest und beurteilt.
+
 ### Seite
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Sekretär/in
+
+Unterstützt die Berufungskommission administrativ und bereitet die Korrespondenz vor.
+
 ### Selbsttest
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
+
+### Selectus
+
+Modul für Berufungsverfahren: Ausschreibung von Professuren, Erfassung der Online-Bewerbungen und Begleitung der Berufungskommission bis zum Entscheid.
+
+### Serienbrief
+
+Ein PDF-Brief, der aus einer Vorlage erzeugt und zusammen mit einer E-Mail versendet wird, zum Beispiel ein Ablehnungsschreiben.
 
 ### SharePoint / OneDrive
 
@@ -909,6 +1053,14 @@ Ein Kursbaustein für anonyme Umfragen mit Bewertungsformularen.
 ### Umfrage
 
 Ein Lernressourcen-Typ für Fragebögen und Umfragen.
+
+### Vergleichsgutachten
+
+Ein Gutachten, in dem mehrere Bewerbungen derselben Ausschreibung miteinander verglichen werden.
+
+### Vergleichsgutachter/in
+
+Gutachter/in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
 
 ### Video
 
