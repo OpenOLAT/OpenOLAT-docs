@@ -1,15 +1,11 @@
 # Benutzer:in löschen {: #delete_user}
 
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
 ## Was geschieht beim Löschen eines Kontos?
 
 Wird das Konto eines/einer Benutzer:in gelöscht, ist diese Person in Zukunft nicht mehr als registriert in OpenOlat bekannt und auffindbar.
+
+Beim Löschen wird das Konto nicht physisch aus der Datenbank entfernt, sondern **anonymisiert**: Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Objekte, die technisch mit dem Konto verknüpft sind (z. B. Beiträge, Zertifikate, Buchungsaufträge), bleiben dadurch bestehen, verweisen aber nur noch auf das anonymisierte, nicht mehr auflösbare Konto. In der Tabelle unten wird deshalb zwischen **gelöscht**, **anonymisiert** und **erhalten/verwaist** unterschieden.
 
 Für die **Arbeitsergebnisse** dieser Person gelten beim Löschen ihres Kontos eigene Regeln. Siehe unten: [Was wird gelöscht?](#del_properties)
 
@@ -91,12 +87,6 @@ Das Löschen von Benutzer:innen kann auch vollautomatisch durch einen aktivierte
 
 ---
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
 ## Was wird gelöscht? {: #del_properties}
 
 Wird ein/eine Benutzer:in gelöscht,
@@ -122,21 +112,21 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 |Benutzerverwaltung > **Authentifizierungen** :octicons-person-24: | Alle Authentifizierungsmöglichkeiten werden gelöscht.|
 |Benutzerverwaltung > **Properties** :octicons-person-24: | Properties werden komplett gelöscht.|
 |Benutzerverwaltung > **GUI-Einstellungen** :octicons-person-24: | Die GUI-Einstellungen werden komplett gelöscht.|
-|**Buchungsaufträge** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |Sind Buchungsaufträge vorhanden, werden beim Löschen von Benutzer:innen deren Namen in ihren Buchungsaufträgen entfernt, die Buchungsaufträge selbst bleiben jedoch erhalten. **Ausnahme:** ??Buchungsaufträge vom Typ "Rechnung" bleiben ohne Namen erhalten.|
+|**Buchungsaufträge** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |Buchungsaufträge bleiben erhalten – auch solche vom Typ "Rechnung". Der Name wird nicht separat im Buchungsauftrag gespeichert, sondern stammt aus dem Profil; nach dem Löschen ist er daher anonymisiert.|
 |**Rechnungsadresse** :octicons-person-24: :octicons-package-24: :octicons-infinity-24: |Um Zahlungen nachvollziehen zu können (z.B. für Steuerbehörden), bleiben die Rechnungsadressen erhalten.|
-|**Nachteilsausgleich** :octicons-person-24: | tbd |
+|**Nachteilsausgleich** :octicons-person-24: | Erfasste Nachteilsausgleiche werden nicht gelöscht; sie bleiben mit dem anonymisierten Konto verknüpft bestehen. |
 |**Abonnements** :octicons-person-24: | Abonnemente werden alle gelöscht.|
-|**Beziehungen** :octicons-person-24: | tbd|
-|**Zugehörigkeit zu Organisationen** :octicons-person-24: | tbd |
-|**Quota** :octicons-person-24: | tbd |
+|**Beziehungen** :octicons-person-24: | Beziehungen zu anderen Benutzer:innen werden nicht aufgelöst. Sie bleiben bestehen und verweisen auf das anonymisierte Konto.|
+|**Zugehörigkeit zu Organisationen** :octicons-person-24: | Die Mitgliedschaft in Organisationen wird gelöscht. |
+|**Quota** :octicons-person-24: | Der persönliche Speicherplatz (Quota) samt zugehöriger Einstellungen wird gelöscht. |
 |**Lektionen** :octicons-person-24: | Die Teilnahme an Lektionen/Absenzen werden gelöscht.|
 |**Kompetenzen** :octicons-person-24: | Kompetenzen werden gelöscht.|
-|Benutzerverwaltung > **Course Planner Rollen** :octicons-person-24: | tbd |
+|Benutzerverwaltung > **Course Planner Rollen** :octicons-person-24: | Die Course-Planner-/Curriculum-Rollen werden als Mitgliedschaften mit dem Konto gelöscht. |
 |**Persönlicher Kalender** :octicons-person-24: | Der persönliche Kalender wird gelöscht|
 |**Chatverlauf** :octicons-person-24: | Chats (Nachrichten, Einstellungen) werden anonymisiert.|
 |**Persönlicher Ordner** :octicons-person-24: |Der persönliche Ordner wird gelöscht|
 |**Portfolio** :octicons-person-24: | In einem ePortfolio erstellte Mappen, Bereiche und Einträge werden gelöscht. Wenn Mappen an andere Benutzer:innen frei gegeben wurden, sind sie auch dort nicht mehr abrufbar.|
-|**persönliche To-dos** :octicons-person-24: | tbd (To-dos in Projekten: siehe unten) |
+|**persönliche To-dos** :octicons-person-24: | Die Zuweisung zum gelöschten Konto wird entfernt; der To-do-Eintrag selbst bleibt bestehen, ist danach aber niemandem mehr zugewiesen. (To-dos in Projekten: siehe unten) |
 |**Mailbox** :octicons-person-24: |Mails, die in der Mailbox des persönlichen Menüs aufgeführt sind, werden gelöscht. (Die interne E-Mail-Box wird komplett gelöscht.)|
 |**Empfänger:in einer Erinnerungsmail** :octicons-package-24: |War der/die gelöschte Benutzer:in potenzieller/potenzielle Empfänger:in einer Erinnerungsmail, wird die Mail nicht mehr an die gelöschte Person geschickt. (Die Empfängerliste wird zum Zeitpunkt der Prüfung der Regeln erstellt, deshalb erscheint eine gelöschte Person gar nicht mehr auf der Versandliste.)|
 |**Mitgliedschaft in Gruppen** :octicons-person-24: :octicons-package-24: | Die Mitgliedschaften in Gruppen werden gelöscht. (Die Gruppen selbst werden nicht gelöscht, auch wenn sie von dem/der gelöschten Benutzer:in erstellt wurden und er/sie einziges Mitglied ist. Es wird dann lediglich die gelöschte Benutzer:in als Gruppenmitglied entfernt. Wenn die gelöschte Benutzer:in der/die einzige Gruppenbetreuer:in war, wird ersatzweise der/die Administrator:in als Gruppenbetreuer:in eingetragen. In der Regel werden Gruppen ohne Mitglieder dann aber zu einem späteren Zeitpunkt durch den Group-Life-Cycle-Prozess gelöscht.)|
@@ -144,26 +134,26 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 |**To-dos in Projekten** :octicons-person-24: |In Projekten bleiben die To-dos eines/einer gelöschten Benutzer:in erhalten, sind dann allerdings niemandem mehr zugewiesen. Auch bereits erledigte To-dos bleiben erhalten (ohne Angabe des/der Benutzer:in, die dieses To-do zu erledigen hatte). Der Ablauf von Projekten bleibt so weiter ersichtlich. Unerledigte To-dos müssen aber neu zugeordnet werden.|
 |**Mitgliedschaft in Kursen** :octicons-person-24: | Kursmitgliedschaften werden gelöscht, auch wenn die Rolle in diesem Kurs "Besitzer:in" und "Betreuer:in" war. Wenn der/die gelöschte Benutzer:in Ersteller:in und einziger Besitzer/einzige Besitzer:in war, wird ersatzweise ein/eine Administrator:in als Besitzer:in des Kurses eingetragen.|
 |**Daten im Kursbaustein Aufgabe** :octicons-person-24: :octicons-package-24: |Innerhalb einer Aufgabe von der gelöschten Person erstellte und hochgeladene Dokumente werden gelöscht (z.B. draw.io, Word,Excel, ppt).|
-|**Daten des Peer Reviews im Kursbaustein Aufgabe** :octicons-person-24: :octicons-package-24: | tbd |
-|**Daten im Kursbaustein Teilnehmerordner** :octicons-person-24: :octicons-package-24: | tbd |
+|**Daten des Peer Reviews im Kursbaustein Aufgabe** :octicons-person-24: :octicons-package-24: | Die von der Person abgegebenen bzw. hochgeladenen Dateien werden gelöscht. Die Peer-Review-Datensätze (Zuordnungen, Bewertungen) bleiben erhalten und verweisen auf das anonymisierte Konto. |
+|**Daten im Kursbaustein Teilnehmerordner** :octicons-person-24: :octicons-package-24: | Die Dateien der Person im Kursbaustein Teilnehmerordner werden gelöscht. |
 |**Daten im Kursbaustein Forum** :octicons-person-24: :octicons-package-24: |Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.|
 |**Daten im Kursbaustein BBB** :octicons-person-24: :octicons-package-24: |Sind Teilnehmer:innen in BBB-Meetings werden sie gelöscht.|
 |**Daten im Kursbaustein Adobe Connect** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
 |**Daten im Kursbaustein Vitero** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
 |**Office for the web** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
-|**Testresultate** :octicons-person-24: | tbd |
-|**Leistungsnachweise** :octicons-person-24: | tbd |
-|**Zertifikate** :octicons-person-24: | Mit QR Code versehene Zertifikate (mit Variable "certificateVerificationUrl") werden nicht gelöscht, damit per URL im Host based verification Verfahren ein Zertifikat weiterhin noch bestätigt werden kann. Im Bewertungswerkzeug des/der Kursbetreuer:in sind die Zertifkate jedoch nicht mehr gelistet. Es ist sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Zertifikate vor dem Löschen ihres Accounts noch herunterladen. (tbd: Unterschied Zertifikate mit/ohne QR?|
-|**extern erworbene Zertifikate** :octicons-person-24: |OpenOlat-Benutzer:innen können auch extern erworbene Zertifikate in OpenOlat hochladen, um ihr Profil zu vervollständigen. Diese extern erworbenen Zertifikate werden mit der Auflösung eines OpenOlat-Kontos ... tbd|
+|**Testresultate** :octicons-person-24: | Sämtliche Testresultate (Test-Sessions inkl. Antworten und Ergebnissen) werden gelöscht. |
+|**Leistungsnachweise** :octicons-person-24: | Alle Leistungsnachweise der Person werden gelöscht. |
+|**Zertifikate** :octicons-person-24: | Zertifikate werden beim Löschen eines Kontos nicht gelöscht – unabhängig davon, ob sie einen QR-Code bzw. eine Verifikations-URL tragen. Sie bleiben erhalten und verweisen auf das anonymisierte Konto, sodass ihre Echtheit weiterhin bestätigt werden kann (Host based / Signed verification). Es ist sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Zertifikate vor dem Löschen ihres Accounts noch herunterladen.|
+|**extern erworbene Zertifikate** :octicons-person-24: |OpenOlat-Benutzer:innen können auch extern erworbene Zertifikate in OpenOlat hochladen, um ihr Profil zu vervollständigen. Diese von der Person selbst hochgeladenen Zertifikate werden beim Löschen des Kontos ebenfalls nicht gelöscht und bleiben erhalten.|
 |Benutzerverwaltung > **Badges** :octicons-person-24: | Badges bleiben bestehen, damit die Echtheit bestätigt werden kann (Host based verification, Signed verificsation). Es ist dennoch sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Badges herunterladen. Wurden **Globale Badges** vergeben, wird in der Liste der vergebenen globalen Badges (durch Administrator:innen abrufbar unter Administration > e-Assessment > OpenBadges > Tab "Vergebene globale Badges") an Stelle des Namens des Empfängers/der Empfängerin nur noch "unknown user" angezeigt. Es bleibt so noch ersichtlich, wann und durch wen ein globaler Badge einmal vergeben wurde. Auch wenn durch Klick auf "Widerrufen" der Badge entzogen wird, bleibt er als Listeneintrag mit dem Status "Widerrufen" in der Liste der vergebenen globalen Badges erhalten. |
 |**Rolle Besitzer:in in Lernressourcen und Kurse** :octicons-package-24: | Lernressourcen und Kurse werden nicht gelöscht, wenn deren Besitzer:in gelöscht wird. Unabhängig davon, ob die Lernressource publiziert oder mit anderen Autoren geteilt oder nirgends referenziert/verwendet wurde. Wenn die gelöschte Benutzer:in der/die einzige Besitzer:in war, wird ersatzweise der/die Administrator:in als Besitzer:in eingetragen. Dies gilt auch für Test-Lernressourcen.|
-|**im Fragenpool enthaltene Fragen** :octicons-person-24: :octicons-package-24:| tbd |
+|**im Fragenpool enthaltene Fragen** :octicons-person-24: :octicons-package-24:| Fragen aus dem Fragenpool werden nur gelöscht, wenn die Person deren einzige Autor:in ist – und nur, wenn die Einstellung "Fragen ohne Autor:in löschen" aktiviert ist. Fragen mit weiteren Autor:innen sowie alle Fragen bei deaktivierter Einstellung bleiben erhalten. |
 |**im Media Center erstellte Elemente** :octicons-person-24: :octicons-package-24: | Wenn ein Medium im Media Center in einem Kurs verwendet wurde, wird es nicht gelöscht.<br> Wenn es nirgends verwendet wurde, wird es gelöscht. (Auch wenn es frei gegeben, aber dann nicht verwendet wurde.) |
 |**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so werden diese in den Listen nicht mehr namentlich aufgeführt. Die zugehörigen Korrekturauftrag-Datensätze werden entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, Abschlussdatum) bleiben im Excel-Report im Worksheet "Archive" erhalten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
 |**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer eine Korrektur vorgenommen hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.  Die Korrekturauftrag-Datensätze selbst werden beim Löschen entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, Abschlussdatum) bleiben im Excel-Report im Worksheet "Archive" erhalten (siehe [Test-Einstellungen, Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)).|
 |**Statistiken** :octicons-infinity-24: |Gelöschte Benutzer:innen sind in den Statistiken besuchter Kurse nicht mehr berücksichtigt.|
 |**Umfrageergebnisse aus dem Qualitätsmanagement** :octicons-infinity-24: |Im Rahmen des Qualitätsmanagements ausgefüllte Formulare werden anonymisiert gespeichert und brauchen deshalb beim Löschen eines Benutzerkontos auch nicht gelöscht werden.|
-|**Log-Tabellen** :octicons-infinity-24:| tbd |
+|**Log-Tabellen** :octicons-infinity-24:| Log-Einträge werden beim Löschen nicht verändert. Sie enthalten keinen Namen, sondern nur die interne Benutzer-ID; ob personenbezogen oder anonym geloggt wird, hängt von der Server-Einstellung zum anonymen Logging ab. |
 
 
 
@@ -175,10 +165,9 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 
 ## Wann kann ein/eine Benutzer:in nicht gelöscht werden? {: #none_deleted_user}
 
+Konten mit dem Status **"Permanent"** können nicht gelöscht werden – weder manuell noch automatisch. Sie werden in der Kontensuche gar nicht erst zur Löschung angeboten. Dieser Status wird typischerweise für Systemkonten wie das Administrator-Konto vergeben.
 
-!!! warning "Achtung"
-
-    Hier wird noch fleissig gewirkt und geschrieben. Bei Fragen kontaktieren Sie gerne: support@openolat.com
+Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift zusätzlich ein Schutz gegen Massenlöschung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht der automatische Löschlauf vollständig ab.
 
 
 [Zum Seitenanfang ^](#delete_user)
