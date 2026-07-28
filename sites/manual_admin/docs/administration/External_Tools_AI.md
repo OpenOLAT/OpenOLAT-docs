@@ -69,12 +69,14 @@ For further specification, list the model names available on this server.
 
 The AI integration is configured individually for each function, with the available models being downloaded directly from the respective provider.
 
-**You define**:<br>
+**You define**:
+
 * whether to use AI (toggle button to enable it),
 * which AI provider
 * and which model should be used.
 
-**Currently, AI can be integrated into the following functions**:<br>
+**Currently, AI can be integrated into the following functions**:
+
 * Assignment to the matching taxonomy level via embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Question Generator (creation of multiple-choice questions)
 * Image Description Generator (creation of image descriptions, alternative text, and keywords) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}

@@ -71,12 +71,14 @@ Zur weiteren Spezifizierung geben Sie in einer Liste die auf diesem Server verf�
 
 Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die verfügbaren Modelle direkt vom jeweiligen Anbieter geladen werden.
 
-**Sie bestimmen**:<br>
+**Sie bestimmen**:
+
 * ob KI verwendet werden soll (Toggle-Button zur Aktivierung),
 * welcher KI Anbieter
 * und welches Modell verwendet werden soll.
 
-**Derzeit kann KI in den folgenden Funktionen eingebunden werden**:<br>
+**Derzeit kann KI in den folgenden Funktionen eingebunden werden**:
+
 * Zuordnung zur passenden Taxonomie-Ebene per Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Fragen Generator (Erstellung von MC-Fragen)
 * Bildbeschreibungs-Generator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
