@@ -52,13 +52,13 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 ![Lernressourcen importieren](assets/Datei_importieren_gesamt.jpg)
 
 ### Datei importieren
-Lernressourcen, die außerhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden – vorausgesetzt, sie liegen in einem kompatiblen Format vor. Dabei lassen sich alle genannten Arten von Lernressourcen, Videos, bestimmte standardisierte Formate sowie beliebige Dateien importieren.
+Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Dabei lassen sich alle genannten Arten von Lernressourcen, Videos, bestimmte standardisierte Formate sowie beliebige Dateien importieren.
 
 Wenn Sie beispielsweise einen Kurs aus einer anderen OpenOlat-Instanz importieren, werden Sie gefragt, ob auch die im Kurs verwendeten Lernressourcen (z. B. ein Wiki oder ein Test) mitimportiert werden sollen. Nach dem Import müssen Sie den Kurs veröffentlichen, damit er für Sie und andere OpenOlat-Nutzer sichtbar ist.
 
-Am Ende des Imports gelangen Sie zum Menü „Einstellungen“, in dem Sie weitere Konfigurationen vornehmen können – etwa die Lizenz des Kurses festlegen.
+Am Ende des Imports gelangen Sie zum Menü „Einstellungen“, in dem Sie weitere Konfigurationen vornehmen können: etwa die Lizenz des Kurses festlegen.
 
-### Per URL einbinden
+### Per URL einbinden [:octicons-tag-16:{ title="ab Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben der Schaltfläche **Datei importieren** und wählen Sie **Per URL einbinden**.
 
 ![Menü "Per URL einbinden"](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" }
@@ -72,9 +72,7 @@ Unterstützt werden folgende Ressourcen:
 * Videos: MP4, m3u8, YouTube, Vimeo, Panopto
 * Blog oder Podcast
 
-!!! info
-
-    Medien von weiteren Plattformen können bei Bedarf durch die Systemadministration freigeschaltet werden.
+Medien von weiteren Plattformen können bei Bedarf durch die Systemadministration freigeschaltet werden.
 
 Der Dialog enthält folgende Felder:
 

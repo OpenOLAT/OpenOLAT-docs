@@ -57,7 +57,7 @@ Select the corresponding checkbox if you want to import the referenced learning 
 
 At the end of the import, the "settings" menu appears. Here you can make further configurations, e.g. a definition of the licence.
 
-### Embed via URL
+### Embed via URL [:octicons-tag-16:{ title="ab Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the **Import file** button in Authoring and select **Embed via URL**.
 
 ![Menu "Embed via URL"](assets/authoring_embed_via_url_v2_en.png){ class="shadow lightbox" }
@@ -71,9 +71,7 @@ The following resources are supported:
 * Videos: MP4, m3u8, YouTube, Vimeo, Panopto
 * Blog or Podcast
 
-!!! info
-
-    Media from additional platforms can be enabled by the system administrator if required.
+Media from additional platforms can be enabled by the system administrator if required.
 
 The dialog contains the following fields:
 
