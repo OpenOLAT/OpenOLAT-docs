@@ -5,7 +5,7 @@
 
 [:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
 
-Bevor das erste Bildungsprodukt entsteht, legt die Administration die Spielregeln fest: Aus welchen Bausteinen darf ein Lehrgang bestehen, was darf zuoberst stehen, was worin liegen? In OpenOlat heissen diese Regeln «Elementtypen»; sie geben allen späteren Strukturen einen verlässlichen Rahmen.
+Bevor das erste Bildungsprodukt entsteht, legt die Administration die Spielregeln fest: Aus welchen Bestandteilen soll ein Lehrgang bestehen, was darf/soll zuoberst stehen, was worin liegen? In OpenOlat heissen diese Regeln «Elementtypen»; sie geben allen späteren Strukturen einen verlässlichen Rahmen.
 
 ## Wie setze ich das um?
 
