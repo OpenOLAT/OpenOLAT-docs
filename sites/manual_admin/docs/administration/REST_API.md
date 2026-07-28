@@ -19,49 +19,31 @@ In OpenOlat, the JSR-311: JAX-RS (The Java API for RESTful Web Services) is used
 
 
 
-### API Key for REST access 
+### API Key for REST access [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7290)" }](https://track.frentix.com/issue/OO-7290)
 
-!!! warning "Attention"
+A dedicated API key is available for accessing the REST API. It is an automatically generated, long and therefore strong password and can be used even when Passkey or two-factor authentication (2FA) is required for signing in to the user interface.
 
-	This article is still under construction.
+The API key is stored encrypted, in the same way as the OpenOlat password. It is shown only once when it is generated and cannot be retrieved again afterwards. If the key is lost, it must be deleted and a new one generated.
 
-	OO-7290
+The API key cannot be used to log in to the OpenOlat web application; it is only valid for accessing the REST API. Independently of this, access via a valid user session remains possible, for example to access the course database via JavaScript.
 
-With the introduction of Passkey and 2FA the current API access via a user-choosable (weak) password is not suitable anymore.
+API keys are generated in the user management: the "Add API-Key" button is available in the authentications of a person. To also allow users to generate a key themselves, activate the "Generation of API Key by user" option in the REST configuration (disabled by default).
 
-The solution is to us a dedicated API Key for accessing the REST API. Since the API-key is a generated, long and thus {*}strong password{*}, it can be used even when 2FA is required in the UI.
+!!! note "Note"
 
-The API-Key is stored encrypted in OpenOlat the same way as the OpenOlat password using strong encryption. It is revealed to the user only on generation and can not be looked up again if the user looses the key. In this situation, the key needs to be deleted a new one must be generated.
-
-The API-Key can not be used to log into the OpenOlat web application, it is only valid when accessing the REST API.
-
-The REST API can still be accessed with a valid user-session, e.g. to access the course DB via Javascript.
-
-REST API-Keys can be generated in the user administration.
-
-In the REST admin configuration a new configuration can be activated to allow creation of API Keys also for users (disabled by default)
-
-Transition
-
-If the passkey feature is not enabled, the OpenOlat password can still be used also for the REST access
+	As long as the Passkey feature is not enabled, the OpenOlat password can still be used for REST access.
 
 
-### Limit access to users with API key
+### Limit access to users with API key [:octicons-tag-16:{ title="from Release 20.1.0 (OO-8745)" }](https://track.frentix.com/issue/OO-8745)
 
-!!! warning "Attention"
+When the REST API is enabled, it can in principle be used by all users with an authenticated session. Often, however, access should be restricted to specific users.
 
-	This article is still under construction.
+The "API access" selection in the REST configuration determines who may use the REST API:
 
-	OO-8745
+* **for all users**: access is open to all authenticated users.
+* **only for user with API key**: access is restricted to users who have an API key.
 
-
-Problem 
-The REST API - when enabled - can be used by all users with an authenticated user session. In many cases this is not desired, the REST API should only be usable by specific users.
-
-Solution 
-With OO-7290 we added specific authentication mechanism for the REST API with a so called API key. This can be used to authenticate when using the REST API independent of a login password (e.g. when using PassKey for login). The generation of such an API can be limited to the user management or allowed by all users.
-
-An option is added to the REST API config to limit the API usage to users that have an API key. In combination with the generation of the key only by user managers it offers an elegant wayt to grant access to the API only to specific users.
+Combined with generating the keys exclusively through the user management, this allows access to the REST API to be granted to specific users in a targeted way.
 
 
 [To the top of the page ^](#REST-API)
@@ -116,14 +98,15 @@ A spring bean allows to configure Resources, Singletons and Providers; either st
 
 OpenOlat uses the standard JAXB provider from Jersey to produce XML from java objects, as well as the JSON provider from [Jackson](http://jackson.codehaus.org/), which reuses the same JAXB annotations.
 
-!!! important
+!!! info "Important"
+
 	All configuration settings must be done before the Jersey's servlet starts.
 
 
 ###  Example
 
 Here is a little example on how to create a user and add it to a learning group:
-    
+
     PUT https://your.openolat.domain/olat/restapi/users
     HTTP Header: Content-Type application/json
     Response: 200
