@@ -89,7 +89,7 @@ Der Betreuer:innen Ordner ist in der Kursadministration zu finden, die nur den K
 
 ### Öffnen via Icon in der Werkzeugleiste
 
-Ein Dokumentenordner zu einem Kurs kann von Autor:innen oben in der Werkzeugleiste als Icopn angezeigt werden. 
+Ein Dokumentenordner zu einem Kurs kann von Autor:innen oben in der Werkzeugleiste als Icon angezeigt werden. 
 
 ### Öffnen via persönlichem Menü
 
@@ -338,7 +338,7 @@ Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.de.
 
 Sind die gewünschten Ordner vorhanden, können Sie dort 
 
-- Dokmente hochladen
+- Dokumente hochladen
 - Dokumente direkt im Ordner erstellen
 - Dokumente per WebDAV übertragen
 
@@ -362,8 +362,8 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
 [Betreuer:innen Ordner >](../../manual_user/learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
-[Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.de.md)<br>
-[Gruppenordner >](../../manual_user//groups/Using_Group_Tools.de.md)<br>
+[Ressourcenordner >](../../manual_user/learningresources/Resource_Folder.de.md)<br>
+[Gruppenordner >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
 [Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
 [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.md#wo-finde-ich-kursarchiv-dateien)<br>
 [File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
