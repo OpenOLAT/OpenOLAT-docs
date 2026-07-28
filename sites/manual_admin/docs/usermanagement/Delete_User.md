@@ -42,7 +42,7 @@ After clicking this button, a confirmation dialog appears which you must confirm
 
 ---
 
-## Option 2: Search for inactive / deactivated accounts {: #delete_user_var2}
+## Option 2: Search for inactive / deactivated accounts [:octicons-tag-16:{ title="from Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460){:target="_blank"} {: #delete_user_var2}
 
 **Step 1:**<br>
 Users can also be selected and their OpenOlat accounts deleted via the "Delete accounts" link.

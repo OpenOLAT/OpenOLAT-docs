@@ -42,7 +42,7 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 
 ---
 
-## Variante 2: mit Suche nach Konten ohne Aktivität / dekaktivierten Konten {: #delete_user_var2}
+## Variante 2: mit Suche nach Konten ohne Aktivität / deaktivierten Konten [:octicons-tag-16:{ title="ab Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460){:target="_blank"} {: #delete_user_var2}
 
 **Schritt 1:**<br>
 Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und deren OpenOlat-Konten gelöscht werden.
