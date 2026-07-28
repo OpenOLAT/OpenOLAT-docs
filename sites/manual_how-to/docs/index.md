@@ -2,7 +2,7 @@
 
 1. [How do I create an Excel list of all available courses?](/manual_how-to/course_list/course_list)
 2. [How to use the same files in several courses](/manual_how-to/multiple_use/multiple_use)
-3. [Which folders can I work with??](/manual_how-to/folders/folders)
+3. [Which folders can I use to share documents?](/manual_how-to/folders/folders)
 4. [How to transfer files using WebDAV](/manual_how-to/webdav/webdav)
 
 ## Planning

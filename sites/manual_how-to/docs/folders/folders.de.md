@@ -1,4 +1,4 @@
-# Mit welchen Ordnern kann ich arbeiten? {: #folders}
+# Mit welchen Ordnern kann ich Dokumente anbieten? {: #folders}
 
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
@@ -18,12 +18,14 @@
 
 
 
-OpenOlat kennt nicht „den einen" Ordner, sondern rund ein Dutzend Ordnertypen für unterschiedliche Zwecke, vom Kursmaterial über Abgaben bis zur kursübergreifenden Dateipflege. Diese Übersicht ordnet sie **aus Autor:innen-Sicht**
+OpenOlat kennt nicht „den einen" Ordner, sondern rund ein Dutzend Ordnertypen für unterschiedliche Zwecke, vom Kursmaterial über Abgaben bis zur kursübergreifenden Dateipflege. Diese Übersicht ordnet sie **aus Autor:innen-Sicht** 
 
 - wozu jeder Ordnertyp dient,
 - wo Sie ihn einrichten,
 - wer Zugriff darauf hat 
 - und wie Sie mit Dateien darin arbeiten.
+
+Am Ende dieses Artikels finden Sie [Entscheidungshilfen](#decision_aid) und mögliche [Stolpersteine](#stumbling_stones).
 
 ---
 
@@ -62,6 +64,8 @@ Jeder Ordnertyp gehört zu einem Kontext:
 
 
 ## Zugriffswege {: #access_path}
+
+Auf die Ordner kann von verschiedenen Stellen aus zugegriffen werden. Überlegen Sie, was beim geplanten Ordnerinhalt für Ihre Teilnehmer:innen Sinn macht.  
 
 Zugriffsweg kursspezifisch:
 
@@ -239,7 +243,7 @@ Der einzige Ordnertyp, der über mehrere Kurse hinweg dieselben Dateien liefert.
 - **Modus:** Schreibgeschützt (nur referenziert) oder ohne Schreibschutz — dann schlagen Änderungen in allen Kursen durch.
 - **Standalone:** Über den Tab „Freigabe" auch kursunabhängig nutzbar.
 
-Mehr zum [Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.md)
+Mehr zum [Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.de.md)
 
 
 ### 7. Gruppenordner
@@ -252,7 +256,7 @@ Gemeinsamer Ordner der Mitglieder einer Lern- oder Arbeitsgruppe zum Austausch v
 - **Zugriff:** Alle Gruppenmitglieder; auch via File Hub, sofern Mitglied.
 - **Extras:** Abonnierbar; Quota pro Gruppe anpassbar.
 
-Mehr zum [Gruppenordner >](../../manual_user/groups/Using_Group_Tools.md)
+Mehr zum [Gruppenordner >](../../manual_user/groups/Using_Group_Tools.de.md)
 
 
 ### 8. Persönlicher Ordner
@@ -264,7 +268,7 @@ Die individuelle Dateiablage jeder Person, unabhängig von Kursen. Unterteilt in
 - **Öffnen:** Persönliches Menü → File Hub.
 - **Bereiche:** `private` (nur ich) · `public` (via Visitenkarte lesbar).
 
-
+Den persönlichen Ordner finden Sie seit Release 19 im [persönlichen Menü >](../../manual_user/personal_menu.de.md) im [File Hub >](../../manual_user/personal_menu/File_Hub.de.md).
 
 ### 9. Dokumentenpool
 
@@ -287,7 +291,7 @@ Beim Archivieren eines ganzen Kurses oder einzelner Bausteine landen die Daten a
 - **Öffnen:** File Hub → „Kursarchiv".
 - **Inhalt:** Teilnehmerdaten separat vom Kurs, als ZIP aufbewahrt.
 
-Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.md#wo-finde-ich-kursarchiv-dateien)
+Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.de.md#wo-finde-ich-kursarchiv-dateien)
 
 [zum Seitenanfang ^](#folders)
 
@@ -330,20 +334,37 @@ Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.md#
 
 ---
 
+## Dateien einfügen {: #insert_files}
+
+Sind die gewünschten Ordner vorhanden, können Sie dort 
+
+- Dokmente hochladen
+- Dokumente direkt im Ordner erstellen
+- Dokumente per WebDAV übertragen
+
+Welche Personen (OpenOlat-Rollen) in welchem Ordner Dokumente hochladen oder erstellen dürfen, hängt von den jeweiligen Konfigurationen (vergebenen Berechtigungen) durch Autor:innen oder Administrator:innen ab.
+
+Welche Dokument-Formate direkt erstellt werden können, hängt davon ab, welche Tools installiert sind. Z.B. ob Lizenzen für Microsoft Word und Excel für die Nutzung in OpenOlat vorhanden sind. Wenden Sie sich gegebenenfalls an Ihr Administrator:innen.
+
+Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspeicher eines Ordner durch Quotas festgelegt sind.
+
+[zum Seitenanfang ^](#folders)
+
+---
+
 
 ## Weiterführende Informationen {: #further_information}
 
 [Ordnerkonzept >](../../manual_user/basic_concepts/Folder_Concept.de.md)<br>
-
 [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein Teilnehmer:innen Ordner >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
 [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
 [Betreuer:innen Ordner >](../../manual_user/learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
-[Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.md)<br>
-[Gruppenordner >](../../manual_user//groups/Using_Group_Tools.md)<br>
-Mehr zum [Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
+[Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.de.md)<br>
+[Gruppenordner >](../../manual_user//groups/Using_Group_Tools.de.md)<br>
+[Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
 [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.md#wo-finde-ich-kursarchiv-dateien)<br>
 [File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 

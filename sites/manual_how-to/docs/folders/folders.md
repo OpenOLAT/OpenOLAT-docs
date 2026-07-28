@@ -1,3 +1,3 @@
-# Which folders can I work with? {: #folders}
+# Which folders can I use to share documents? {: #folders}
 
 tbd
