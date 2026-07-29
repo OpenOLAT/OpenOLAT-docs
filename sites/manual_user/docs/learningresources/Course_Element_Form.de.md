@@ -85,6 +85,8 @@ Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer eine Übersicht d
 
 Über das Mehr-Menü am Ende einer Zeile kann ein bereits abgegebenes Formular ausserdem mit "Wieder öffnen" erneut zur Bearbeitung freigegeben oder mit "Daten zurücksetzen" für diese Person gelöscht werden. Besitzer:innen können über das Mehr-Menü oben rechts mit "Alle Daten zurücksetzen" sämtliche Formulareinträge auf einmal löschen.
 
+"Daten zurücksetzen" löscht nur die Formulardaten der Person, nicht ihre Kursmitgliedschaft. Die Person bleibt daher weiterhin in der Übersicht sichtbar, neu mit dem Status "Nicht gestartet". Soll eine Person gar nicht mehr in der Liste erscheinen, muss sie in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) des Kurses als Teilnehmer:in entfernt werden.
+
 Besitzer:innen verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
 
 ![Formular Durchführung Teilnehmerliste](assets/Formular_kursrun.png){ class="shadow lightbox" }
