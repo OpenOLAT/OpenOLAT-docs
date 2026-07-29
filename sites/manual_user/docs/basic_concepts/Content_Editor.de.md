@@ -337,6 +337,7 @@ Markdown-Dateien und Word-Dokumente können direkt im Content Editor importiert 
 Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Content Editors. Im Feld "Importmodus" wählen Sie zwischen zwei Varianten:
 
 **A) Datei hochladen:** (Unterstützt werden)
+
 * Markdown-Dateien (.md, .markdown, .txt) 
 *  ZIP-Archive bis maximal 50 MB (Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.)
 * Word-Dokumente (.docx) bis maximal 200 MB [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.

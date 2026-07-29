@@ -326,6 +326,7 @@ Markdown files and Word documents can be imported directly into the Content Edit
 To import, click the **"Import"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
 
 **A) Upload file:** (The following are supported)
+
 * Markdown files (.md, .markdown, .txt)
 * ZIP archives up to a maximum of 50 MB (A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.)
 * Word documents (.docx) up to a maximum of 200 MB [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
