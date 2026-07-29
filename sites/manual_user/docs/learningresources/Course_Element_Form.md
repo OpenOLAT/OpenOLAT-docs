@@ -85,6 +85,8 @@ The "Export data" button at the top right lets you export the completed forms. T
 
 Via the three-dot menu at the end of a row, a submitted form can also be reopened for editing with "Reopen" or deleted for that person with "Reset data". Owners can delete all form entries at once via the three-dot menu at the top right with "Reset all data".
 
+"Reset data" only deletes the person's form data, not their course membership. The person therefore remains visible in the overview, now with the status "Not started". If a person should no longer appear in the list at all, they must be removed as a participant in the course's [member management](../learningresources/Members_management.md).
+
 Owners additionally have the tab "Reminders" if the form submission has a deadline. Here you can create new reminders and see which [reminders](../learningresources/Course_Reminders.md) have already been sent.
 
 ![Formular Durchführung Teilnehmerliste](assets/Formular_kursrun.png){ class="shadow lightbox" }
