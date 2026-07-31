@@ -78,6 +78,9 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
+## Widgets [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widgets}
+
+
 #### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
@@ -85,7 +88,7 @@ Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend bes
 
 ---
 
-#### Das Termine-Widget {: #widget_events}
+### Das Termine-Widget {: #widget_events}
 
 Das Widget **Termine** erscheint als Kachel auf der Coaching-Übersicht und zeigt die anstehenden Termine ab dem heutigen Tag bis zum Ende der aktuellen Woche auf einen Blick.
 
@@ -130,7 +133,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **K
 
 ---
 
-#### Das Kurs-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+### Das Kurs-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 

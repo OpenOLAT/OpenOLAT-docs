@@ -79,6 +79,9 @@ You can select one of your roles using the focus elements above the list. This w
 
 ---
 
+## Widgets [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widgets}
+
+
 #### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
@@ -86,7 +89,7 @@ A separator area labelled **"Overview"** visually separates the widget area desc
 
 ---
 
-#### The Event widget {: #widget_events}
+### The Event widget {: #widget_events}
 
 The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
 
@@ -131,7 +134,7 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 ---
 
-#### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
 
 The **Courses - As coach** widget shows the courses you coach.
 
