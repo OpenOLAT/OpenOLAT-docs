@@ -453,3 +453,14 @@ Whether, how and when you see the results and the performance overview depends o
 If you have more attempts available to process the test, you can run through the test again with "Start test". Previous runs will be retained.
 
 [To the top of the page ^](#course_element_test)
+
+---
+
+
+## Further information {: #further_information}
+
+[Setting the number of attempts for questions >](../learningresources/Configure_test_questions.md#score)<br>
+[Setting the number of attempts for sections >](../learningresources/Configure_tests.md#section)
+[Setting the number of attempts for test learning resources >](../learningresources/Test_settings.md#settings)<br>
+
+[To the top of the page ^](#course_element_test)

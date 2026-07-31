@@ -462,3 +462,13 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 
 [Zum Seitenanfang ^](#course_element_test)
 
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Einstellen der Lösungsversuche für Fragen >](../learningresources/Configure_test_questions.de.md#score)<br>
+[Einstellen der Lösungsversuche für Sektionen >](../learningresources/Configure_tests.de.md#section)
+[Einstellen der Lösungsversuche für Test-Lernressourcen >](../learningresources/Test_settings.de.md#settings)<br>
+
+[Zum Seitenanfang ^](#course_element_test)
