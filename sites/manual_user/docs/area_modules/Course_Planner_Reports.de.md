@@ -2,6 +2,7 @@
 Der Course Planner bietet im Bereich «Reports» vorgefertigte Auswertungen zu den Buchungsaufträgen Ihrer Produkte und Durchführungen. Damit erhalten Sie auf einen Klick einen Überblick über eingegangene Buchungen, ohne die Daten manuell zusammenstellen zu müssen. Die erzeugten Excel-Dateien eignen sich zum Beispiel für die Übergabe an eine externe Rechnungsstellung oder für die interne Auswertung.
 
 Folgende Rollen können Reports erstellen:
+
 - Kursbesitzer:in
 - Principal
 - Administrator:in

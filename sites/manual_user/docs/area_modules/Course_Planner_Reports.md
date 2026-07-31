@@ -2,6 +2,7 @@
 In the «Reports» area, the Course Planner offers ready-made evaluations of the booking orders for your products and implementations. This gives you an overview of received bookings at a glance, without having to compile the data manually. The generated Excel files are suitable, for example, for handover to external invoicing or for internal evaluation.
 
 The following roles can create reports:
+
 - Course owner
 - Principal
 - Administrator
