@@ -191,8 +191,8 @@ Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervor
 
 <br>
 
-#### Tab Mitglieder {: #add_members}
-**Mitglieder hinzufügen**
+#### Tab Mitglieder > Mitglieder hinzufügen {: #add_members}
+
 
 Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwenden Sie in der<br>
 `Durchführung > Tab Mitglieder > den Button Teilnehmer:innen` hinzufügen
@@ -215,12 +215,12 @@ Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsproduk
 
     Ob eine Bestätigung durch die eingeladenen Personen erforderlich ist, hängt von der Konfiguration der Reservierungspflicht ab. Details dazu finden Sie im Abschnitt zur Bestätigung der Mitgliedschaft weiter unten.
 
-Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#data_privacy)
+Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#accept_membership)
 
 <br>
 
-#### Tab Mitglieder {: #confirm_membership}
-**Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche**
+#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche {: #confirm_membership}
+
 
 Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Benutzer:innen einen Kurs buchen, der/die Vorgesetzte muss aber in einem Zwischenschritt die Buchung bestätigen oder ablehnen.
 

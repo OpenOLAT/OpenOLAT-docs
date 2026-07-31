@@ -182,8 +182,8 @@ If the participants were made members of the educational product (the "copy temp
 
 <br>
 
-#### Tab members {: #add_members}
-**Add members**
+#### Tab members > Add members {: #add_members}
+
 
 To add participants to an implementation as members, use the<br>
 `Implementation > Tab members > the button Add participants`
@@ -206,12 +206,12 @@ The notification box **"Accept membership requests"** appears in the course area
 
     Whether confirmation by the invited persons is required depends on the reservation requirement configuration. Details on this can be found in the section on confirming membership below.
 
-For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
+For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#accept_membership)
 
 <br>
 
-#### Tab members {: #confirm_membership}
-**Confirmation of membership by line managers/education managers**
+#### Tab members > Confirmation of membership by line managers/education managers {: #confirm_membership}
+
 
 The Course Planner can be set up so that a booking request must be confirmed by an administrative role (e.g. a line manager or education manager). With this setting, users can book a course, but the manager must confirm or decline the booking in an intermediate step.
 

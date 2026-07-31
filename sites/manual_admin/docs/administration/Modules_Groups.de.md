@@ -46,7 +46,7 @@ Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Ben
 
 ![module_groups_privacy_v1_de.png](assets/module_groups_privacy_v1_de.png){ class="shadow lightbox" }
 
-### Mitgliedschaft akzeptieren oder verlassen{: #accept_membership}
+### Mitgliedschaft akzeptieren oder verlassen {: #accept_membership}
 
 Legt pro Rolle der einladenden Person fest, ob eine neue Mitgliedschaft sofort aktiv wird oder ob die eingeladene Person die Anfrage zuerst annehmen oder ablehnen muss (ausstehende Mitgliedschaft).
 
