@@ -61,6 +61,8 @@ Bei einer SEB-Datei-Vorlage stehen zusätzlich zur Verfügung:
 - **SEB-Quelldatei**: die importierte `.seb`-Datei.
 - **Hinweis für Autoren**: ein optionaler Text, der Autor:innen bei der Verwendung der Vorlage im Prüfungsmodus angezeigt wird.
 
+![e-assessment_mgmt_seb_import_v1_de.png](assets/e-assessment_mgmt_seb_import_v1_de.png){ class="shadow lightbox" }
+
 #### Standardvorlage festlegen
 
 Genau eine Vorlage muss als Standard markiert sein. Verwenden Sie die Aktion **"Als Standard setzen"**, um eine andere Vorlage als Standard zu definieren. Die Standardvorlage wird bei der SEB-Aktivierung im Prüfungsmodus automatisch vorausgewählt.

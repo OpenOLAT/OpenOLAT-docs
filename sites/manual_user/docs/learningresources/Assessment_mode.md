@@ -102,11 +102,13 @@ You can also define whether the assessment mode should also be applied to coache
 
 **Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Users are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
 
-**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+![assessment_management_create_exam_setting_tab_seb_fields_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_en.png){ class="shadow lightbox" }
 
 **Type of use** [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Define how the SEB configuration is provided. With "SEB-Config (recommended)" you configure the SEB in OpenOlat or via an imported SEB-File; validity is ensured via the config key. With "SEB with manual keys" you use a custom SEB-File with externally maintained Safe Exam Browser Keys.
 
 **Configuration**: Choose whether the settings are taken from a "Template" or adjusted as "Custom". For a form template, the settings can be adjusted after selecting "Custom"; for an imported SEB-File template, they are fixed and displayed read-only.
+
+**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
 
 **Information for authors**: If the selected template contains a note for authors, it is displayed here.
 
@@ -116,7 +118,11 @@ Under the **Assessment mode-specific configuration** legend, you override indivi
 
 **Password for quitting**: Overwrites the password stored in the template for this exam. The config key is automatically recalculated.
 
-!!! note "Prerequisite"
+Under the **Configuration from the template** legend, the detailed settings taken from the selected template are displayed.
+
+![assessment_management_create_exam_setting_tab_seb_config_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" }
+
+!!! tip "Prerequisite"
     The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 
 !!! note "Further information"

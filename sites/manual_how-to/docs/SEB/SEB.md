@@ -28,7 +28,7 @@
 
 Instead of performing an online exam with browsers such as Edge, Firefox, Safari or Chrome, the [Safe Exam Browser](http://www.safeexambrowser.org) can be made mandatory to call up the OpenOlat online exam. This special browser makes it possible to disable the ability to access other websites or functions such as copy & paste during the exam period (kiosk mode). This prevents the use of unauthorized sources during an exam. 
 
-An [Assessment mode](../../manual_user/learningresources/Assessment_mode.md) can be configured in a course under **Administration > Assessment management**, which defines the conditions (time window etc.) of an assessment. As part of an [Assessment mode](../../manual_user/learningresources/Assessment_mode.md), you can also determine whether the SEB should be used. If this option is activated, the SEB can be configured directly there in OpenOlat and a configuration file can be generated for sending to the participants. 
+An [Assessment mode](../../manual_user/learningresources/Assessment_mode.md) can be configured in a course under `Course administration > Assessment management`, which defines the conditions (time window etc.) of an assessment. As part of an [Assessment mode](../../manual_user/learningresources/Assessment_mode.md), you can also determine whether the SEB should be used. If this option is activated, the SEB can be configured directly there in OpenOlat and a configuration file can be generated for sending to the participants. 
 
 !!! info "The SEB is an external tool"
 
@@ -40,6 +40,9 @@ An [Assessment mode](../../manual_user/learningresources/Assessment_mode.md) can
 ---
 
 ## As an OpenOlat author, how do I set up a test with the SEB? {: #SEB_setup}
+
+!!! tip "Prerequisite: Pre-configuration by the administration"
+    Before you can use the Safe Exam Browser in an assessment mode, the administration must enable SEB system-wide and create at least one [SEB configuration template](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb) or import a `.seb` file as a template in the administration area. This pre-configuration is only available to users with administration rights. As an author, you then select a provided template in the assessment mode (see [Step 4: Configuration](#SEB_configuration)).
 
 ### Step 1: SEB installation {: #SEB_installation} 
 
@@ -54,7 +57,7 @@ Also ask all exam participants to install the SEB on their computer. Or, if sepa
 ### Step 2: Create assessment mode {: #create_assessment_mode}
 
 As author of the OpenOlat exam course, you create an exam mode under<br> 
-**Administration > Assessment management > Tab "Configuration assessment mode" > Button "Add assessment mode"**
+`Course administration > Assessment management > Tab "Configuration assessment mode" > Button "Add assessment mode"`
 
 ![SEB_new_assessment_mode_v1_de.png](assets/SEB_new_assessment_mode_v1_de.png){ class="shadow lightbox" }
 
@@ -66,110 +69,124 @@ As author of the OpenOlat exam course, you create an exam mode under<br>
 
 The use of the SEB is optional in test mode. If desired, activate this option under<br>
 
-**Administration > Assessment management > Tab "Configuration assessment mode" > Select/edit mode > Tab "Safe Exam Browser"**
+`Course administration > Assessment management > Tab "Configuration assessment mode" > Select/edit mode > Tab "Safe Exam Browser"`
 
-![SEB_activate_v1_de.png](assets/SEB_activate_v1_de.png){ class="shadow lightbox" }
+![SEB_activate_v1_en.png](assets/SEB_activate_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#SEB)
 
 ---
 
-### Step 4: Configuration
+### Step 4: Configuration {: #SEB_configuration}
 As soon as the SEB has been activated, the configuration options are displayed. The options and their effects on the subscriber view are briefly described below.
 
 For configuration in OpenOlat applies:<br>
 The suggested settings can be set in the OpenOlat system administration. They can therefore be regarded as a recommendation from your administrator to adopt them.
 
-![SEB_config_v1_de.png](assets/SEB_config_v1_de.png){ class="shadow lightbox" }
+![SEB_config_fields_v1_en.png](assets/SEB_config_fields_v1_en.png){ class="shadow lightbox" }
 
 
-![1_green_24.png](assets/1_green_24.png) **Type of use**<br>
+**Type of use**<br>
 Define how the SEB configuration is provided. With "SEB-Config (recommended)" you configure the SEB directly in OpenOlat or via an imported SEB-File; validity is ensured via the config key. With "SEB with manual keys" you use a custom SEB-File and enter the Safe Exam Browser Keys in OpenOlat. (More about this on the [manufacturer's website](http://www.safeexambrowser.org).) In this case, apart from the information text, the configuration options listed below are unnecessary. Complete `.seb configuration files` can also be imported as templates in the administration, see [Assessment management](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb).
 
 
-![2_green_24.png](assets/2_green_24.png) **Downloadable configuration file**<br>
+!!! note "Note"
+    The import of a `.seb` file as a template takes place in the administration area and is only available to users with administration rights. As an author or course owner, you select a provided template in the assessment mode.
+
+**Configuration**<br>
+Choose whether the settings are taken from a "Template" or adjusted as "Custom". With a form template, the settings can be adjusted after selecting "Custom"; with an imported SEB-File template they are fixed and displayed read-only.
+
+**Template**<br>
+Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected.
+
+**Downloadable configuration file**<br>
 If "Yes" is selected here, the configuration file can be downloaded from OpenOlat by the exam participants when exam mode is started. Authors can also download the file at any time and send it to the exam participants. See [Step 6](#download_SEB_configfile).
 
 If "No" is selected here, the download option is no longer available for participants, but is still available for authors, as described in [Step 6](#download_SEB_configfile).
 
 
-![3_green_24.png](assets/3_green_24.png) **Allow termination of SEB**<br>
+**Information for participants**<br>
+The information text entered here appears as soon as the exam participants start the SEB. For example, you can point out the examination conditions and the restrictions imposed by the SEB again here.
+
+**Allow termination of SEB**<br>
 Some exam participants finish earlier and are then unable to access OpenOlat or other websites until the end of the exam mode. 
 If there is no risk of abuse (mutual assistance), exam participants can be allowed to exit the SEB as soon as they have submitted their exam. In this case, a Quit button is displayed at the bottom right of the screen.
 
 
-![4_green_24.png](assets/4_green_24.png) **Exit/unlock password**<br>
+**Exit/unlock password**<br>
 This input field is only displayed as a configuration option if exiting the SEB has been permitted.
 If exam participants click the Quit button to end the SEB restrictions, they will be prompted to enter this password. 
 
 In the case of an examination in a common examination room, for example, the examination invigilator can give this password to each person leaving the examination room.
 
 
-![5_green_24.png](assets/5_green_24.png) **Link to leave SEB after the exam**<br>
+![SEB_config_details_v1_en.png](assets/SEB_config_details_v1_en.png){ class="shadow lightbox" }
+
+**Link to leave SEB after the exam**<br>
 If no Quit button is to be displayed, this link can be provided in a suitable place within the exam. Exam participants can then use it to exit the Safe Exam Browser.
 
 
-![6_green_24.png](assets/6_green_24.png) **User must confirm the termination**<br>
+**User must confirm the termination**<br>
 If this option is activated, all exam participants must confirm the end of the exam again. This is intended as a safety measure to ensure that an exam is not ended accidentally.
 
 
-![7_green_24.png](assets/7_green_24.png) **Allow reload in check**<br>
+**Allow reload in check**<br>
 If the website (exam page) is allowed to be reloaded while the exam is running, a reload button will appear at the bottom right of the screen for the exam participants. 
 
 
-![8_green_24.png](assets/8_green_24.png) **Browser view mode**<br>
+**Browser view mode**<br>
 Select one of the specified modes. If no other websites have been shared, full screen mode is recommended. If the exam participants are to access certain shared pages, it may be useful to use browser windows. 
 
 
-![9_green_24.png](assets/9_green_24.png) **SEB taskbar display**<br>
+**SEB taskbar display**<br>
 This option affects some other options. If the taskbar is not displayed, the displays for the exit button, audio control, time, keyboard layout and WiFi selection are also missing.
 
 
-![10_green_24.png](assets/10_green_24.png) **Show reload button**<br>
+**Show reload button**<br>
 If reloading is permitted, a button for reloading is displayed at the top left. If "No" is selected, it is grayed out and cannot be used.
 
 
-![11_green_24.png](assets/11_green_24.png) **Display time**<br>
+**Display time**<br>
 A helpful feature for exam participants to keep an eye on the remaining time. 
 
 
-![12_green_24.png](assets/12_green_24.png) **Show keyboard layout selection**<br>
+**Show keyboard layout selection**<br>
 A selection of keyboard layouts for changing languages is displayed.
 
 
-![13_green_24.png](assets/13_green_24.png) **Show WiFi selection**<br>
+**Show WiFi selection**<br>
 The selection of accessible WiFi networks is displayed at the bottom right of the taskbar if the option is set to "Yes".
 
 
-![14_green_24.png](assets/14_green_24.png) **Display audio control**<br>
+**Display audio control**<br>
 The audio control can be displayed at the bottom right of the taskbar. This option is required for tests with video or audio.
 
 
-![15_green_24.png](assets/15_green_24.png) **Mute at start**<br>
+**Mute at start**<br>
 If audio control is deactivated, this option prevents the use of audio devices.
 
 
-![16_green_24.png](assets/16_green_24.png) **Allow audio recording (microphone, win)**<br>
+**Allow audio recording (microphone, win)**<br>
 It is recommended that you only activate this option if audio recordings are explicitly desired during the exam.
 
 
-![17_green_24.png](assets/17_green_24.png) **Allow video recordings (Webcam, Win)**<br>
+**Allow video recordings (Webcam, Win)**<br>
 It is recommended that you only activate this option if video recordings are expressly desired during the exam.
 
 
-![18_green_24.png](assets/18_green_24.png) **Allow spell check**<br>
+**Allow spell check**<br>
 Depending on the subject of the check, the spell check (currently only English) can be deactivated or made available. If the option is set to "Yes", misspelled words are underlined in red.
 
 
-![19_green_24.png](assets/19_green_24.png) **Allow zoom in/out**<br>
+**Allow zoom in/out**<br>
 Reasons for suppressing the zoom could be, for example, that the exam participants could read unwanted writing on image material through zoom. As a rule, however, Zoom should be allowed in order to ensure good readability (especially with BYOD - Bring your own device). You can zoom with Ctrl + and Ctrl -, as well as in the menu at the top right.
 
 
-![20_green_24.png](assets/20_green_24.png) **Activate URL-filter**<br>
+**Activate URL-filter**<br>
 If the filter is activated, all websites are blocked except for the check. When activated, further configuration options are displayed. There you can control more precisely which URLs may also be accessed during the check.
 
-![SEB_config_url_filter_v1_de.png](assets/SEB_config_url_filter_v1_de.png){ class="shadow lightbox" }
+![SEB_config_url_filter_v1_en.png](assets/SEB_config_url_filter_v1_en.png){ class="shadow lightbox" }
 
 
 **Filter embedded content as well**<br>
@@ -189,7 +206,7 @@ If the option "Also filter embedded content" is selected, even if they are found
 URLs with the regex expressions (expressions with placeholders) specified here are blocked. If the embedded content is also filtered, such pages are also blocked.
 
 
-![21_green_24.png](assets/21_green_24.png) **Configuration key of the saved configuration**<br>
+**Configuration key of the saved configuration**<br>
 If the configuration file is created in OpenOlat, this key does not need to be entered separately. It is only required if you edit a configuration file yourself.
 
 
@@ -197,8 +214,13 @@ If the configuration file is created in OpenOlat, this key does not need to be e
 You should therefore only copy and use the key after you have made all the settings.
 
 
-![22_green_24.png](assets/22_green_24.png) **Safe Exam Browser Note**<br>
-The information text entered here appears as soon as the exam participants start the SEB. For example, you can point out the examination conditions and the restrictions imposed by the SEB again here.
+With "SEB with manual keys" the configuration options above are omitted; instead the field "Safe Exam Browser Keys" appears, where you enter the externally maintained keys:
+
+![SEB_config_manualkeys_v1_en.png](assets/SEB_config_manualkeys_v1_en.png){ class="shadow lightbox" }
+
+If an imported SEB-File template is used, the legend "Configuration from the SEB-File template" additionally appears. The settings listed there are defined by the template and read-only:
+
+![SEB_config_sebfile_v1_en.png](assets/SEB_config_sebfile_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#SEB)
@@ -251,7 +273,7 @@ In order for the test participants to be able to start a test in the SEB, they m
 ## Starting the exam by coaches
 
 The start and duration of the exam is determined by the specification in the configuration of the [Assessment mode](../../manual_user/learningresources/Assessment_mode.md). If a manual start by coaches is desired, the examination mode can be activated under
-**Administration > Assessment management > Tab "Configuration exam mode"**
+`Course administration > Assessment management > Tab "Configuration exam mode"`
 by clicking on the **Start button**.
 
 ![SEB_start_assessment_mode_v1_de.png](assets/SEB_start_assessment_mode_v1_de.png){ class="shadow lightbox" }
@@ -322,13 +344,13 @@ or
 
 The SEB is used as part of an **assessment mode** in OpenOlat. If the check mode is ended, the SEB is also ended.
 The automatic termination of a check mode is configured under<br>
-**Administration > Assessment management > Tab "Configure assessment mode"**
+`Course administration > Assessment management > Tab "Configure assessment mode"`
 
 
 ### End assessment manually (Examination at the same time for all students, by coaches)
 
 This also applies here: If the **assessment mode** is ended by the coach, the SEB is also ended. The manual termination of a running assessment mode is carried out by coaches under
-**Administration > Assessment management > Tab "Configure assessment mode"**<br>
+`Course administration > Assessment management > Tab "Configure assessment mode"`<br>
 As soon as an assessment mode has been activated, a "Finish" or "End assessment" button is displayed. Click one of the two buttons. The status of the exam mode then changes to "Finished".
 
 ![SEB_quit_exam_mode_v1_de.png](assets/SEB_quit_exam_mode_v1_de.png){ class="shadow lightbox" }

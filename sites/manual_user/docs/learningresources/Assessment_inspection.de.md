@@ -1,6 +1,6 @@
 # Prüfungsverwaltung: Prüfungseinsicht {: #Assessment_inspection}
 
-:octicons-tag-24: Release 18.2
+:octicons-tag-16:{ title="ab Release 18.2" }
 
 ## Um was geht es bei einer Prüfungseinsicht?
 
@@ -19,7 +19,7 @@ Als **Kursbesitzer:in** erstellen Sie Ablaufschemata, in denen Sie bestimmen, wi
 Die **Betreuer:innen** terminieren dann für die Prüfungsteilnehmer:innen die Einsichtnahmen und wählen dazu eines der vorderfinierten Ablaufschemata (Konfigurationen).
 
 Sie definieren als Kursbesitzer:in eine Prüfungseinsicht (Ablaufschema) unter<br>
-`Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
+`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
 Dort fügen Sie durch Klick auf den **Button "Prüfungseinsicht hinzufügen"** eine neue Konfiguration (Ablaufschema) zur Prüfungseinsicht hinzu. Bereits definierte Ablaufschemata werden aufgelistet.
 
 
@@ -45,15 +45,21 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer wäh
 
 ![assessment_management_inspection_seb_v1_de.png](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
 
-**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+![assessment_management_create_exam_setting_tab_seb_fields_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_de.png){ class="shadow lightbox" }
 
 **Typ von Anwendung** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Wie im Prüfungsmodus wählen Sie mit «SEB-Config (empfohlen)» die Konfiguration in OpenOlat oder über eine importierte SEB-Datei (Prüfung über den Config Key) oder mit «SEB mit manuellen Keys» eine benutzerdefinierte SEB-Datei mit extern gepflegten Keys.
 
 **Konfiguration**: Übernehmen Sie die Einstellungen aus einer «Vorlage» oder passen Sie sie «Benutzerdefiniert» an; bei einer importierten SEB-Datei-Vorlage werden sie schreibgeschützt angezeigt.
 
+**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+
 Unter der Legende **Prüfungsmodus-spezifische Konfiguration** lassen sich **Beenden von SEB erlauben** und das **Beenden/Entsperren-Kennwort** für diese Einsichtnahme übersteuern. Das Kennwort überschreibt dann jenes der Vorlage, und der Config Key wird automatisch neu berechnet.
 
-!!! note "Voraussetzung"
+Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewählten Vorlage übernommenen Detaileinstellungen angezeigt.
+
+![assessment_management_create_exam_setting_tab_seb_config_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_de.png){ class="shadow lightbox" }
+
+!!! tip "Voraussetzung"
     Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
 <br>
@@ -109,7 +115,7 @@ Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende ei
 | Definierte **Resultatansicht für alle** Kursteilnehmer:innen | Die Prüfungseinsicht ist insbesondere für die **Einsichtnahme durch Einzelpersonen** geeignet (z.B. wenn im Einzelfall Zweifel bestehen). |
 | wiederholbar               | einmalig                    |
 | jederzeit, solange Zugriff auf den Kurs besteht       | nur zu fixen Terminen         |
-| Zugriff für Besitzer:innen:<br>`Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"`| Zugriff für Besitzer:innen:<br>`Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"` |
+| Zugriff für Besitzer:innen:<br>`Kurs-Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"`| Zugriff für Besitzer:innen:<br>`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"` |
 | Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug`  | Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug > Tab Prüfungseinsicht` |
 
 

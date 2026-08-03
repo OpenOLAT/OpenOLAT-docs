@@ -59,6 +59,8 @@ For an SEB-File template, the following are additionally available:
 - **SEB source file**: the imported `.seb` file.
 - **Information for authors**: an optional text shown to authors when using the template in the assessment mode.
 
+![e-assessment_mgmt_seb_import_v1_en.png](assets/e-assessment_mgmt_seb_import_v1_en.png){ class="shadow lightbox" }
+
 #### Setting the default template
 
 Exactly one template must be marked as the default. Use the **"Set as default"** action to define a different template as the default. The default template is automatically pre-selected when SEB is activated in the assessment mode.

@@ -13,10 +13,10 @@ Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im 
 
 ## Prüfungsmodus hinzufügen
 
-Sie **erstellen** und konfigurieren einen Prüfungsmodus, indem Sie 
+Sie **erstellen** und konfigurieren einen Prüfungsmodus, indem Sie
 
 1. Ihren **Kurs** mit dem darin enthaltenen Test wählen,
-2. in der **"Administration"** die Option **"Prüfungsverwaltung"** wählen,
+2. in der **"Kurs-Administration"** die Option **"Prüfungsverwaltung"** wählen,
 3. und dort den **Tab "Konfiguration Prüfungsmodus"** auswählen.
 4. Klicken Sie dort auf den **Button "Prüfungsmodus hinzufügen"**.
 
@@ -30,23 +30,23 @@ Prüfungskonfigurationen werden vorab erstellt und enthalten
 
 * eine Start- und Endzeit
 * evtl. Vor- und Nachlaufzeiten (falls diese gewünscht sind)
-* evtl. Einschränkungen auf spezifische Nutzergruppen. 
+* evtl. Einschränkungen auf spezifische Nutzergruppen.
 
 Ein Prüfungsmodus kann gelten
 
 * nur für Kursteilnehmende,
 * nur für Gruppenteilnehmende ausgewählter Gruppen
-* oder für beides. 
+* oder für beides.
 
-Dadurch ist es möglich, zeitgleich unterschiedlich konfigurierte Prüfungen für verschiedene Nutzergruppen desselben Kurses abzuhalten. 
+Dadurch ist es möglich, zeitgleich unterschiedlich konfigurierte Prüfungen für verschiedene Nutzergruppen desselben Kurses abzuhalten.
 
 Neben der Benutzergruppe können Sie festlegen, ob und auf welche Kursbausteine der Zugriff eingeschränkt werden soll, und ob ein Kursbaustein davon als Startbaustein verwendet wird.<br>
 Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränkt, oder die Nutzung des [Safe Exam Browsers](http://www.safeexambrowser.org) vorausgesetzt werden.
 
 !!! note "Hinweis"
 
-    Für den Prüfungsmodus wird bevorzugt ein herkömmlicher Kurs empfohlen. Wenn Sie einen Lernpfadkurs verwenden, müssen Sie sicherstellen, dass die betroffenen Kursbausteine zugänglich sind. 
-    
+    Für den Prüfungsmodus wird bevorzugt ein herkömmlicher Kurs empfohlen. Wenn Sie einen Lernpfadkurs verwenden, müssen Sie sicherstellen, dass die betroffenen Kursbausteine zugänglich sind.
+
     Im herkömmlichen Kurs haben Sie ausserdem die Möglichkeit, beim Editieren eines Kursbausteins unter den Tabs "Sichtbarkeit" und "Zugang" die Option **"Nur im Prüfungsmodus"** zu wählen. Diese Option steht in Lernpfadkursen nicht zur Verfügung.
 
 ## Tab "Allgemein"
@@ -55,11 +55,11 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
 Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfungsbenachrichtigung angezeigt werden, die folgenden Parameter konfiguriert werden:
 
-**Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest. 
+**Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest.
 
 Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
 
-**Ende**: Der Zeitpunkt an dem die Prüfung beendet wird. 
+**Ende**: Der Zeitpunkt an dem die Prüfung beendet wird.
 
 Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
 
@@ -73,7 +73,7 @@ Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser
 
 **Startbaustein**: Soll den Studenten ein bestimmtes Kurselement direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kurselementen eines aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
 
-## Tab "Zugang" 
+## Tab "Zugang"
 
 ![assessment_management_create_exam_setting_tab_access_v1_de.png](assets/assessment_management_create_exam_setting_tab_access_v1_de.png){ class="shadow lightbox" }
 
@@ -83,17 +83,17 @@ Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser
 
 * Nur Kursteilnehmende
 * Nur Gruppenteilnehmende
-* Nur Curriculumteilnehmende oder 
+* Nur Curriculumteilnehmende oder
 * Teilnehmende des Kurses und der ausgewählten Gruppen oder Curriculum
 
-Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereich auswählen" die betroffenen Gruppen auswählen. Wird ein Curriculum verwendet, muss dies ebenfalls ausgewählt werden. 
+Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereich auswählen" die betroffenen Gruppen auswählen. Wird ein Curriculum verwendet, muss dies ebenfalls ausgewählt werden.
 
 **Prüfungskonfiguration auch bei Betreuenden anwenden**:
 Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.h. auch für Betreuer:innen gilt der Kioskmodus, in dem andere Funktionen gesperrt sind.
 
 !!! note "Hinweis"
 
-    Vor Version 19.1 wurden auch Kursbesitzer:innen in den Prüfungsmodus versetzt. Ab Version 19.1 können Kursbesitzer:innen weiterhin normal auf ihren Kurs zugreifen. 
+    Vor Version 19.1 wurden auch Kursbesitzer:innen in den Prüfungsmodus versetzt. Ab Version 19.1 können Kursbesitzer:innen weiterhin normal auf ihren Kurs zugreifen.
 
 ## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
@@ -101,13 +101,16 @@ Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.
 
 **Safe Exam Browser verwenden**: Die Verwendung des [Safe Exam Browsers](http://www.safeexambrowser.org) erlaubt die sichere Ausführung von Online-Prüfungen, in dem der Computer in den sogenannten Kioskmodus versetzt wird. Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. Benutzer werden darüber benachrichtigt, dass der SEB für die Prüfung Voraussetzung ist. Erst wenn OpenOlat im Safe Exam Browser gestartet wurde kann die Prüfung durchgeführt werden.
 
-**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+![assessment_management_create_exam_setting_tab_seb_fields_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_de.png){ class="shadow lightbox" }
 
 **Typ von Anwendung** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Legen Sie fest, wie die SEB-Konfiguration bereitgestellt wird. Mit «SEB-Config (empfohlen)» konfigurieren Sie den SEB in OpenOlat oder über eine importierte SEB-Datei; die Gültigkeit wird über den Config Key sichergestellt. Mit «SEB mit manuellen Keys» verwenden Sie eine benutzerdefinierte SEB-Datei mit extern gepflegten Safe Exam Browser Keys.
 
 **Konfiguration**: Wählen Sie, ob die Einstellungen aus einer «Vorlage» übernommen oder «Benutzerdefiniert» angepasst werden. Bei einer Formularvorlage lassen sich die Einstellungen nach Auswahl von «Benutzerdefiniert» anpassen; bei einer importierten SEB-Datei-Vorlage sind sie fest vorgegeben und werden schreibgeschützt angezeigt.
 
-**Hinweis für Autoren**: Ist in der gewählten Vorlage ein Hinweis für Autor:innen hinterlegt, erscheint dieser hier.
+**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+
+!!! info "Hinweis für Autoren"
+    Ist in der gewählten Vorlage ein Hinweis für Autor:innen hinterlegt, erscheint dieser hier.
 
 Unter der Legende **Prüfungsmodus-spezifische Konfiguration** übersteuern Sie einzelne Einstellungen für genau diese Prüfung:
 
@@ -115,10 +118,14 @@ Unter der Legende **Prüfungsmodus-spezifische Konfiguration** übersteuern Sie 
 
 **Beenden/Entsperren-Kennwort**: Überschreibt das in der Vorlage hinterlegte Kennwort für genau diese Prüfung. Der Config Key wird dabei automatisch neu berechnet.
 
-!!! note "Voraussetzung"
+Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewählten Vorlage übernommenen Detaileinstellungen angezeigt.
+
+![assessment_management_create_exam_setting_tab_seb_config_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_de.png){ class="shadow lightbox" }
+
+!!! tip "Voraussetzung"
     Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
-!!! note "Weitere Informationen"
+!!! info "Weitere Informationen"
     [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
 
 <br>
@@ -135,11 +142,11 @@ Wurde von dem/der Kursbesitzer:in ein manueller Start vorgesehen, finden Betreue
 
 Wird der Prüfungsmodus manuell durch Betreuer:innen gestartet, so bleibt die Vorlaufzeit unverändert (wie in der Konfiguration vorgesehen), auch wenn der Button zum Start der Prüfung später als geplant geklickt wird.
 
-Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten.  Die vorkonfigurierte Prüfungs **dauer** bleibt also gleich. 
+Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten.  Die vorkonfigurierte Prüfungs **dauer** bleibt also gleich.
 
-Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden. 
+Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden.
 
-Bewertungen, z.B. für Einsendeaufgaben oder Freitext Elemente von Tests, können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und –besprechung ermöglicht. 
+Bewertungen, z.B. für Einsendeaufgaben oder Freitext Elemente von Tests, können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und -besprechung ermöglicht.
 
 <br>
 

@@ -1,6 +1,6 @@
 # Assessment management: assessment inspection  {: #Assessment_inspection}
 
-:octicons-tag-24: Release 18.2
+:octicons-tag-16:{ title="from Release 18.2" }
 
 ## What is an assessment inspection about?
 
@@ -19,7 +19,7 @@ As **Course owner** you create a flowchart in which you define how exam inspecti
 The **coaches** then schedule the inspections for the exam participants and select one of the predefined flowcharts (configurations).
 
 As the course owner, you define an assessment (flowchart) under <br>
-`Administration > Assessment management > Tab "Configuration assessment inspection"`<br>
+`Course administration > Assessment management > Tab "Configuration assessment inspection"`<br>
 There you can click on the **button "Add assessment inspection"** to add a new configuration (flowchart) to the assessment management. Already defined flowcharts will be listed.
 
 ![assessment_management_tab_inspection_v1_de.png](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
@@ -40,17 +40,23 @@ In the "Access" tab, access can be restricted to very specific devices by specif
 
 By using the SEB, all other activities on the computer can be blocked during viewing.
 
-![assessment_management_inspection_seb_v1_de.png](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_tab_seb_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" }
 
-**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+![assessment_management_create_exam_setting_tab_seb_fields_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_en.png){ class="shadow lightbox" }
 
 **Type of use** [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): As in the assessment mode, choose "SEB-Config (recommended)" for the configuration in OpenOlat or via an imported SEB-File (validation via the config key), or "SEB with manual keys" for a custom SEB-File with externally maintained keys.
 
 **Configuration**: Take the settings from a "Template" or adjust them as "Custom"; for an imported SEB-File template, they are displayed read-only.
 
+**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+
 Under the **Assessment mode-specific configuration** legend, **Allow the exit of SEB** and the **Password for quitting** can be overridden for this inspection. The password then overwrites the one from the template, and the config key is automatically recalculated.
 
-!!! note "Prerequisite"
+Under the **Configuration from the template** legend, the detailed settings taken from the selected template are displayed.
+
+![assessment_management_create_exam_setting_tab_seb_config_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" }
+
+!!! tip "Prerequisite"
     The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 
 <br>
@@ -102,7 +108,7 @@ You can find everything per person in the **activity log** under the 3 points at
 | Defined **results view for all** course participants | The assessment is particularly suitable for **inspection by individuals** (e.g. if there are doubts in individual cases). |
 | repeatable               | one-time                    |
 | at any time, as long as the course is accessible       | only on fixed dates         |
-| Access for owners:<br>`Administration > Course editor > Select course element "Test" > Tab "Test configuration" > Section "Report"`| Access for owners:<br>`Administration > Assessment management > Tab "Configuration assessment inspection"` |
+| Access for owners:<br>`Course administration > Course editor > Select course element "Test" > Tab "Test configuration" > Section "Report"`| Access for owners:<br>`Course administration > Assessment management > Tab "Configuration assessment inspection"` |
 | Access for coaches:<br> `Assessment tool`  | Access for coaches:<br> `Assessment tool > Tab Assessment view` |
 
 
