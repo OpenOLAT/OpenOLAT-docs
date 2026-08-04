@@ -1,5 +1,5 @@
 """
-MkDocs hook + Markdown extension: OpenOLAT icons.
+Markdown extension: OpenOLAT icons.
 
 Turns the inline token  :o_icon_<cssclass>:  into the exact markup OpenOLAT uses
 for its font icons, e.g.
@@ -13,9 +13,14 @@ via scripts/sync-docs-css.sh (single source of truth: OpenOLAT _icons.scss).
 Icons are decorative only, so aria-hidden is always set -- always keep the icon
 next to text that names it.
 
-Loaded as a MkDocs hook (see mkdocs.yml `hooks:`); on_config registers the
-extension on the Markdown instance with a priority above pymdownx.emoji so the
-:o_icon_...: token is claimed before the emoji processor sees it.
+Registered via `markdown_extensions: - hooks.oo_icons` in mkdocs.yml, not via
+the `hooks:` mechanism: mkdocs-static-i18n snapshots markdown_extensions per
+language in its own on_config, which always runs before mkdocs `hooks:`
+on_config fires -- so a hook-appended extension silently never reaches the
+per-language builds. Declaring it as a plain markdown_extensions entry avoids
+the ordering issue. The inline pattern is registered with a priority above
+pymdownx.emoji so the :o_icon_...: token is claimed before the emoji processor
+sees it.
 """
 import xml.etree.ElementTree as etree
 
@@ -41,8 +46,3 @@ class OoIconExtension(Extension):
 
 def makeExtension(**kwargs):
 	return OoIconExtension(**kwargs)
-
-
-def on_config(config, **kwargs):
-	config['markdown_extensions'].append(OoIconExtension())
-	return config
