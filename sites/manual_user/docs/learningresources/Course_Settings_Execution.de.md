@@ -19,7 +19,7 @@ Bei Lernressourcen vom Typ "Kurs" kann ein Durchführungszeitraum festgelegt wer
 
 Ein gewählter Durchführungszeitraum wird in der Kursinfo angezeigt. 
 
-!!! warning "Achtung"
+!!! info "Wichtig"
 
     Diese Einstellung ist nicht zu verwechseln mit dem Kursstatus und hat auch keine Auswirkungen auf die Sichtbarkeit oder den Zugang der Kursmitglieder. 
 
@@ -56,7 +56,7 @@ Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschalt
 
 Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" unter der (Kurs-)Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
 
-!!! tip "Hinweis"
+!!! note "Hinweis"
 
     Im Unterschied zu Besitzer:innen finden **Betreuer:innen** das Tool zum Erfassen in der Werkzeugleiste.<br>
     **Teilnehmer:innen** finden ihre Absenzen im [persönlichen Menü](../personal_menu/Absences.de.md).
@@ -104,7 +104,9 @@ Wenn Betreuer:innen oder Besitzer:innen einen Termin als "als Prüfung markieren
 Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".
 
 ![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Key**<br>
-Hier kann der Safe Exam Browser Key hinterlegt werden, sofern das Tool verwendet wird.
+Dieses Feld ist der kursweite Vorgabewert für die Variante "SEB mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" und die Prüfung mit dem Safe Exam Browser abgesichert wird.
+
+Das Feld erscheint nur, wenn in der Administration unter "Safe Exam Browser - Art der Benutzung" die Variante "SEB mit manuellen Keys" gewählt ist. Ist "SEB-Config (empfohlen)" aktiv, wird der Safe Exam Browser stattdessen über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) pro Prüfung konfiguriert; dieses Feld wird dann nicht angezeigt.
 
 [Zum Seitenanfang ^](#tab_execution)
 

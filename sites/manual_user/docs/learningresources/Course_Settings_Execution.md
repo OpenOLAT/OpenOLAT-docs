@@ -18,7 +18,7 @@ For learning resources of the "Course" type, a duration can be specified. The fo
 
 The selected course period is displayed in the course information. 
 
-!!! warning "Attention"
+!!! info "Important"
 
     This setting should not be confused with the course status and does not affect the visibility or access of course members. 
 
@@ -56,7 +56,7 @@ If you enable schedule and absence management for the current course, options 5 
 
 In addition, the "Events and Absences" menu will then appear under (Course) Administration. As the **course owner**, you can enter appointments and absences there once the configuration is complete (at runtime).
 
-!!! tip "Note"
+!!! note "Note"
 
     Unlike owners, **coaches** can find the capture tool in the toolbar.<br>
     **Members** find their absences in the [Personal Menu](../personal_menu/Absences.md)
@@ -104,7 +104,9 @@ When instructors or owners mark an assignment as "mark as exam," an exam mode is
 This setting also refers to "Allow exam mode for events".
 
 ![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Key**<br>
-You can enter the Safe Exam Browser key here if you are using the tool.
+This field is the course-wide default value for the "SEB with manual keys" variant. The stored key is applied when an event is "marked as exam" and the exam is secured with the Safe Exam Browser.
+
+The field only appears if the administration has selected the "SEB with manual keys" variant under "Safe Exam Browser - Type of use". If "SEB-Config (recommended)" is active, the Safe Exam Browser is instead configured per exam via [configuration templates](../learningresources/Assessment_mode.md); the field is then not shown.
 
 [To the top of the page ^](#tab_execution)
 
