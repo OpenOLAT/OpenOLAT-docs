@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 15.07.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 05.08.2026**
 
 * * *
 
@@ -130,6 +130,26 @@ Mit dem neuen **Aktivitäts-Log** werden alle relevanten Vorgänge im Zertifikat
 
 * * *
 
+## Tests, E-Assessment & Safe Exam Browser
+
+Die **Statusanzeige in Tests** wurde vereinfacht und die Anzahl der Versuche ist direkt bei der Frage sichtbar.
+
+Für den Safe Exam Browser können eigene **Konfigurationsvorlagen** erstellt und für eine Prüfung ausgewählt werden.
+
+In :octicons-tag-24: Release 20.3.7 wurde die **Teilpunkteberechnung** für **Matrix- und Drag-und-Drop-Fragen** mit Single Choice Antworten angepasst.
+
+!!! warning "Keine automatische Migration"
+
+    Bestehende Fragen werden durch das Update nicht automatisch korrigiert.
+    
+    Umgang mit bestehenden Fragen:
+
+    - Vorhandene Fragen im Fragenpool werden nicht automatisch korrigiert – sie müssen im Editor geöffnet und manuell gespeichert werden.
+    - Vorhandene Fragen in Testressourcen werden nicht automatisch korrigiert – sie müssen im Editor geöffnet und manuell gespeichert werden.
+    - Vorhandene Fragen in bereits verwendeten Tests werden nicht automatisch korrigiert. Eine Korrektur ist nicht möglich; der Test muss kopiert werden, und die Frage kann im kopierten Test korrigiert werden.
+
+* * *
+
 ## SEO & Seitenvorschau
 
 Mit OpenOlat 20.3 wird die Auffindbarkeit öffentlicher Kursseiten und Info-Pages gezielt verbessert. Beim Teilen von Links in sozialen Netzwerken und Messenger-Diensten werden automatisch ansprechende Vorschauen mit Titel, Beschreibung und Bild angezeigt. Gleichzeitig wurde die Darstellung für Suchmaschinen optimiert, und Keywords können individuell pro Seite oder Lernangebot definiert werden.
@@ -149,8 +169,6 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 ## Weiteres, kurz notiert
 
 - **Kurs:** Ein neuer Filter «Relevant» zeigt Kursmitgliedern direkt ihre aktiven Kurse an. Kurse können nach Zeitraum sortiert werden und der Dialog zum Verlassen eines Kurses wurde vereinheitlicht.
-
-- **Tests, E-Assessment & Safe Exam Browser:** Die Statusanzeige in Tests wurde vereinfacht und die Anzahl der Versuche ist direkt bei der Frage sichtbar. Für den Safe Exam Browser können eigene Konfigurationsvorlagen erstellt und für eine Prüfung ausgewählt werden.
 
 - **Blog/Podcast:** Die Tabellenansicht wurde für den Read-Only-Modus verbessert.
 
@@ -219,6 +237,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release Notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}
 - [YouTrack Release Notes 20.3.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.5&title=Release%20Notes%2020.3.5){:target="_blank"}
 - [YouTrack Release Notes 20.3.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.4&title=Release%20Notes%2020.3.4){:target="_blank"}

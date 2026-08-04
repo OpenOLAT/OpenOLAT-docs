@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 07/15/2026**
+:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 08/05/2026**
 
 * * *
 
@@ -129,6 +129,26 @@ The new **Activity Log** centrally records all relevant activities in the Certif
 
 * * *
 
+## Tests, e-assessment & Safe Exam Browser
+
+The **status display in tests** has been simplified, and the number of attempts is now visible directly next to each question.
+
+For the Safe Exam Browser, custom **configuration templates** can be created and selected for an exam.
+
+In :octicons-tag-24: Release 20.3.7, the **partial scoring** for **matrix and drag-and-drop questions** with single-choice answers was adjusted.
+
+!!! warning "No automatic migration"
+
+    Existing questions will not be automatically corrected by the update.
+    
+    Handling existing questions:
+
+    - Existing items in the question pool are not automatically fixed - open in editor and save manually necessary
+    - Existing items in test resources are not automatically fixed - open in editor and save manually necessary
+    - Existing items in already used tests are not automatically fixed. Fixing is not possible, the test needs to be copied and the question can be fixed in the copied test
+
+* * *
+
 ## SEO & Page Preview
 
 OpenOlat 20.3 specifically improves the discoverability of public course pages and information pages. When sharing links on social media and messaging services, attractive previews with a title, description, and image are automatically displayed. At the same time, the presentation has been optimized for search engines, and keywords can be defined individually for each page or learning resource.
@@ -148,8 +168,6 @@ The transition of background images on the login page has been completely redesi
 ## Further, briefly noted
 
 - **Courses:** A new “Relevant” filter shows course members their active courses directly. Courses can be sorted by time period, and the dialog for leaving a course has been standardized.
-
-- **Tests, e-assessment & Safe Exam Browser:** The status display in tests has been simplified, and the number of attempts is now visible directly next to each question. For the Safe Exam Browser, custom configuration templates can be created and selected for an exam.
 
 - **Blog/Podcast:** The table view has been improved for read-only mode.
 
@@ -218,6 +236,7 @@ The transition of background images on the login page has been completely redesi
 
 ## Further information
 
+- [YouTrack Release notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}
 - [YouTrack Release notes 20.3.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.5&title=Release%20Notes%2020.3.5){:target="_blank"}
 - [YouTrack Release notes 20.3.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.4&title=Release%20Notes%2020.3.4){:target="_blank"}
