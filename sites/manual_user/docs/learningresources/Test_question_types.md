@@ -191,11 +191,15 @@ For every gap the following settings can be made:
     * Ignore spaces: Additional spaces, tabs and line breaks in the answer do not lead to a devaluation. For example, with the solution "log in", an entry with a double space is also counted as correct. [:octicons-tag-16:{ title="from Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
     * Wildcard: The character * stands for "something or nothing" in the solution and can also be used in the alternatives. For example, the solution "col*r" covers the spellings "color", "colour" and "colr". If participants enter a * themselves, it is treated as a normal character. A solution consisting only of wildcards is not accepted when saving. [:octicons-tag-16:{ title="from Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
+![Dialog "Edit gap" with the correction options](assets/Lueckentext_Dialog_Korrektur_en.png){ class="shadow" }
+
 The points can be chosen freely. Points can also be awarded for alternative answers.
 
 If at least two gaps contain an identical answer option, the "Allow twice the same input" setting is available in the " Score" tab. This allows or prevents the entry of the same answer in multiple gaps.
 
-![Editor Gap text Icon](assets/Editor_Lückentext_3Punkte.jpg){ class="shadow" }
+![Editor toolbar with the buttons for inserting text, numerical and dropdown gaps](assets/Lueckentext_Editor_Buttons_en.png){ class="shadow" }
+
+![Gap text in the participant view](assets/Lueckentext_Beispiel_en.png){ class="shadow" }
 
 ---
 
@@ -205,11 +209,17 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps are then assigned several answers under "Answer options"; the correct answer is marked as the solution.
 
-![Dropdown gap text example](assets/gap_text_dropdown.png){ class="shadow" }
+![Editor button for inserting a dropdown gap](assets/Lueckentext_dropdown_Button_en.png){ class="shadow" }
+
+![Gap text with dropdown in the participant view](assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow" }
 
 Under "Display", the option "Order of answers options" defines whether the answers are shown to the participants in shuffled order or in the preset order you entered. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
+![Dialog "Create gap" with the "Order of answers options" option](assets/Lueckentext_dropdown_Reihenfolge_en.png){ class="shadow" }
+
 Furthermore, global answer options can also be used for the gaps. They are defined once per question via "Add global answer" and are then displayed in each gap of the respective question; the user must select the appropriate answer for this gap.
+
+![Editor with global answer options switched on](assets/Lueckentext_dropdown_Global_en.png){ class="shadow" }
 
 Scoring can be done across all gaps as well as configured separately for each answer of a gap.
 
@@ -240,11 +250,15 @@ First a short title is inserted. Afterward the next is written with fields for t
     * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
     * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed.
 
-![Example Numerical Input Question](assets/Numerical_Input_Beispiel.png){ class="shadow" }
+![Dialog "Edit gap" for Gap FIB numerical with tolerance switched on](assets/Lueckentext_numerisch_Toleranz_en.png){ class="shadow" }
+
+![Gap FIB numerical in the participant view](assets/Lueckentext_numerisch_Beispiel_en.png){ class="shadow" }
 
 ---
 
 ## Gap mixed [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
+
+:o_icon_o_mi_qtigapmixed:
 
 The Gap mixed question type combines the three gap variants in a single question: text gaps, numerical gaps and gaps with dropdown can be built into the same continuous text together. This makes it possible, for example, to map a calculation task including its reasoning in one question, without creating several individual questions.
 
@@ -253,6 +267,8 @@ When inserting a gap, the desired input method is selected. Each gap is then con
 If the question contains gaps with dropdown, global answer options can also be defined (see [Gap text with dropdown](#gap_dropdown)).
 
 Existing questions of the types Gap text and Gap FIB numerical that contain both text and numerical gaps show a message in the question editor. The action "Convert to 'Gap mixed'" converts such a question into the new question type.
+
+![Gap mixed in the participant view](assets/Lueckentext_gemischt_Beispiel_en.png){ class="shadow" }
 
 ---
 

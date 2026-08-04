@@ -194,11 +194,15 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
     * Leerzeichen ignorieren: Zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche in der Antwort führen nicht zur Abwertung. So wird z.B. bei der Lösung "log in" auch eine Eingabe mit doppeltem Leerzeichen als richtig gewertet. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
     * Wildcard: Das Zeichen * steht in der Lösung für "etwas oder nichts" und kann auch in den Varianten verwendet werden. So deckt z.B. die Lösung "col*r" die Schreibweisen "color", "colour" und "colr" ab. Geben Teilnehmer selbst ein * ein, wird es als normales Zeichen behandelt. Eine Lösung, die nur aus Wildcards besteht, wird beim Speichern nicht akzeptiert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
+![Dialog "Lücke bearbeiten" mit den Korrektur-Optionen](assets/Lueckentext_Dialog_Korrektur_de.png){ class="shadow" }
+
 Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalternativen vergeben werden.
 
 Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, ist im Tab "Punkte" die Option "Doppelte Eingaben erlauben" verfügbar. Darüber kann die Eingabe der gleichen Antwort in mehrere Lücken zugelassen oder unterbunden werden.
 
-![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg)
+![Editor-Werkzeugleiste mit den Buttons zum Einfügen von Text-, numerischen und Dropdown-Lücken](assets/Lueckentext_Editor_Buttons_de.png){ class="shadow" }
+
+![Lückentext in der Teilnehmeransicht](assets/Lueckentext_Beispiel_de.png){ class="shadow" }
 
 ---
 
@@ -208,11 +212,17 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken werden dann unter "Antwortmöglichkeiten" mehrere Antworten zugeordnet; die korrekte Antwort wird als Lösung markiert.
 
-![Dropdown Lückentext Beispiel](assets/Lueckentext_dropdown.png){ class="shadow" }
+![Editor-Button zum Einfügen einer Dropdown-Lücke](assets/Lueckentext_dropdown_Button_de.png){ class="shadow" }
+
+![Lückentext mit Dropdown in der Teilnehmeransicht](assets/Lueckentext_dropdown_Beispiel_de.png){ class="shadow" }
 
 Unter "Anzeige" legt die Option "Reihenfolge der Antwortoptionen" fest, ob die Antworten den Teilnehmern in zufälliger Reihenfolge oder in der vorgegebenen, von Ihnen erfassten Reihenfolge angezeigt werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
+![Dialog "Lücke erstellen" mit der Option "Reihenfolge der Antwortoptionen"](assets/Lueckentext_dropdown_Reihenfolge_de.png){ class="shadow" }
+
 Ferner können auch globale Antwortmöglichkeiten für die Lücken verwendet werden. Diese werden über "Globale Antwort hinzufügen" einmal pro Frage definiert und dann in jeder Lücke der jeweiligen Frage angezeigt; der User muss die für diese Lücke passende Antwort auswählen.
+
+![Editor mit eingeschalteten globalen Antwortmöglichkeiten](assets/Lueckentext_dropdown_Global_de.png){ class="shadow" }
 
 Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden.
 
@@ -243,11 +253,15 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
     * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
     * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke dargestellt wird.
 
-![Beispiel Numerische Eingabe Frage](assets/Numerical_Input_Beispiel_DE.png){ class="shadow" }
+![Dialog "Lücke bearbeiten" für Lückentext numerisch mit eingeschalteter Toleranz](assets/Lueckentext_numerisch_Toleranz_de.png){ class="shadow" }
+
+![Lückentext numerisch in der Teilnehmeransicht](assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow" }
 
 ---
 
 ## Lückentext gemischt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
+
+:o_icon_o_mi_qtigapmixed:
 
 Der Lückentext gemischt kombiniert die drei Lückenarten in einer einzigen Frage: Text-Lücken, numerische Lücken und Lücken mit Dropdown können gemeinsam in denselben Fliesstext eingebaut werden. So lässt sich z.B. eine Rechenaufgabe samt Begründung in einer Frage abbilden, ohne dafür mehrere Einzelfragen zu erstellen.
 
@@ -256,6 +270,8 @@ Beim Einfügen einer Lücke wird die gewünschte Eingabemethode gewählt. Jede L
 Enthält die Frage Lücken mit Dropdown, können zusätzlich globale Antwortmöglichkeiten definiert werden (siehe [Lückentext mit Dropdown](#gap_dropdown)).
 
 Bestehende Fragen der Typen Lückentext und Lückentext numerisch, die sowohl Text- als auch numerische Lücken enthalten, zeigen im Frageneditor einen Hinweis an. Mit der Aktion "Zu 'Lückentext gemischt' konvertieren" wird eine solche Frage in den neuen Fragetyp umgewandelt.
+
+![Lückentext gemischt in der Teilnehmeransicht](assets/Lueckentext_gemischt_Beispiel_de.png){ class="shadow" }
 
 ---
 
