@@ -7,6 +7,14 @@ for its font icons, e.g.
 	:o_icon_o_bc_icon:   ->  <i class="o_icon o_bc_icon" aria-hidden="true"></i>
 	:o_icon_o_icon_user: ->  <i class="o_icon o_icon_user" aria-hidden="true"></i>
 
+An optional @sizeNN suffix adds a size class (rules in docs/stylesheets/extra.scss),
+e.g. to force a fixed pixel size independent of the surrounding text:
+
+	:o_icon_o_mi_qtifib@size24: -> <i class="o_icon o_mi_qtifib size24" aria-hidden="true"></i>
+
+Without the suffix the icon inherits the font-size of its context (body copy in a
+paragraph, title size in a heading), which is the default and preferred usage.
+
 The glyphs come from docs/stylesheets/oo-docs.css, which is synced from OpenOLAT
 via scripts/sync-docs-css.sh (single source of truth: OpenOLAT _icons.scss).
 
@@ -27,14 +35,19 @@ import xml.etree.ElementTree as etree
 from markdown.extensions import Extension
 from markdown.inlinepatterns import InlineProcessor
 
-OO_ICON_RE = r':o_icon_(o_[A-Za-z0-9_-]+):'
+OO_ICON_RE = r':o_icon_(o_[A-Za-z0-9_-]+)(?:@(size\d+))?:'
 
 
 class OoIconInlineProcessor(InlineProcessor):
 	def handleMatch(self, m, data):
 		cls = m.group(1)
+		size = m.group(2)
+		classes = 'o_icon ' + cls
+		if size:
+			# optional @sizeNN -> extra CSS class (i.o_icon.sizeNN in extra.scss)
+			classes += ' ' + size
 		el = etree.Element('i')
-		el.set('class', 'o_icon ' + cls)
+		el.set('class', classes)
 		el.set('aria-hidden', 'true')
 		return el, m.start(0), m.end(0)
 

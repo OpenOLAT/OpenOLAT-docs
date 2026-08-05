@@ -149,6 +149,15 @@ th .o_icon {
 	font-size: 24px;
 }
 
+/* explicit size override via :o_icon_<class>@sizeNN:, parallel to img.sizeNN */
+i.o_icon {
+	&.size16 { font-size: 16px; }
+	&.size24 { font-size: 24px; }
+	&.size32 { font-size: 32px; }
+	&.size48 { font-size: 48px; }
+	&.size64 { font-size: 64px; }
+}
+
 
 @media print {
 	img {
