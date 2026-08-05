@@ -148,27 +148,28 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 ## Tab Zugang {: #tab_accesss}
 
 
-![modules_learning_resource_tab_access_v1_de.png](assets/modules_learning_resource_tab_access_v1_de.png){ class="shadow lightbox" }
 
 
 ### Abschnitt "Zugang"
 
 #### Zugang Kursbesitzer:innen/Betreuer:innen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Tool. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen die Person selbst Teilnehmer:in ist.
+Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen User mit der Rolle Betreuer:in selbst Teilnehmer:in ist.
 
+![modules_learning_resource_tab_access_v2_de.png](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
 
 #### Hinweis in "Kurse" anzeigen
 
 Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:innen Hinweise zu den Auswirkungen der Zugangseinstellung.
 
-#### Übersicht Zugangseinstellungen für Sites
+#### Einstellungen für Sites
 
-Unter `Administration > Customizing > Sites` können Administrator:innen einstellen, welche Menüpunkte (Sites) in der Hauptnavigation (Kopfzeile) angezeigt werden.
 
-Hier (unter Modul Lernresource) wird angezeigt, was dort betreffend "Meine Kurse" und "Coaching Werkzeug" eingestellt ist. Ob diese Site überhaupt in der Kopfzeile angezeigt werden soll und für welche Rollen es sichtbar ist.
 
-Um die Einstellungen zu ändern, kann direkt mit einem Link zu `Administration > Customizing > Sites` gewechselt werden ("Site Einstellungen öffnen").
+Über den Link "Site Einstellungen öffnen" gelangen Sie direkt zu `Administration > Customizing > Sites`. Dort legen Sie fest, ob und in welcher Reihenfolge die Sites "Meine Kurse" und "Coaching" in der Kopfzeile erscheinen und für welche Rollen sie sichtbar sind.
+
+!!! note "Zugang zur Einstellung"
+    Nur **Administrator:innen** können diese Seite aufrufen und Veränderungen vornehmen.
 
 [Zum Seitenanfang ^](#learning_resource)
 

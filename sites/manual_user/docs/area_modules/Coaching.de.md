@@ -5,6 +5,7 @@
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der Korrektur von Assessmentbausteinen, dem Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
 Mit dem Coaching-Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
+![coaching_tools_v2_de.png](assets/coaching_tools_v2_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -21,7 +22,6 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 * Reports
 * Auftragsverwaltung
 
-![coaching_tools_v1_de.png](assets/coaching_tools_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 
@@ -33,9 +33,9 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ## Wann ist das Coaching Tool verfügbar? {: #availability}
 
-Die Menüoption "Coaching" wird grundsätzlich nur angezeigt, wenn das Coaching in der OpenOlat Administration auch aktiviert wurde.
+Das Coaching Tool ist seit dem Release 21 fester Bestandteil von OpenOlat [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661).
 
-Ob das Coaching Tool im Hauptmenü für Sie angezeigt wird, hängt dann von weiteren Faktoren ab:
+Ob die Menüoption "Coaching" im Hauptmenü für Sie angezeigt wird, hängt von folgenden Faktoren ab:
 
 * **Systemrolle**: Gäste und Externe können kein Coaching vornehmen.
 * Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen. 

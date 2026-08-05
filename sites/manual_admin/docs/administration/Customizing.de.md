@@ -97,7 +97,9 @@ Administrator:innen können definieren, welche OpenOlat-Bereiche dort angezeigt 
 
 Mit den Pfeilen am rechten Rand kann die Anzeigereihenfolge festgelegt werden.
 
-![admin_customizing_sites_v1_de.png](assets/admin_customizing_sites_v1_de.png){ class="shadow lightbox" }
+Der Eintrag "Coaching Werkzeug" kann [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) nicht deaktiviert werden, da das Coaching Tool obligatorisch ist: Die Checkbox "Aktiviert" ist ausgegraut. Die Anzeigereihenfolge und der Zugang lassen sich weiterhin anpassen.
+
+![admin_customizing_sites_v2_de.png](assets/admin_customizing_sites_v2_de.png){ class="shadow lightbox" }
 
 
 ### Übrige Tabs

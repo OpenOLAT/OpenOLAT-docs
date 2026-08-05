@@ -87,7 +87,9 @@ Administrators can specify which OpenOlat areas are displayed there and made ava
 
 Use the arrows on the right side to set the display order.
 
-![admin_customizing_sites_v1_de.png](assets/admin_customizing_sites_v1_de.png){ class="shadow lightbox" }
+The "Coaching tool" entry cannot be deactivated [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661), as the Coaching tool is mandatory: the "Enabled" checkbox is greyed out. The display order and the access can still be adjusted.
+
+![admin_customizing_sites_v2_en.png](assets/admin_customizing_sites_v2_en.png){ class="shadow lightbox" }
 
 ### Other tabs
 

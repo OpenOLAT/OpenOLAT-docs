@@ -144,27 +144,26 @@ This setting defines the order in which roles are prioritized when a member has 
 ## Access tab {: #tab_accesss}
 
 
-![modules_learning_resource_tab_access_v1_de.png](assets/modules_learning_resource_tab_access_v1_de.png){ class="shadow lightbox" }
 
 
 ### Section "Access"
 
 #### Access for course owners/coaches [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which the person themselves is a participant.
+Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which a user with the coach role is a participant themselves.
 
+![modules_learning_resource_tab_access_v2_en.png](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
 
 #### Show notice in "Courses"
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
-#### Overview of access settings for Sites
+#### Settings for Sites
 
-Under `Administration > Customizing > Sites`, administrators can configure which menu items (sites) are displayed in the main navigation (header).
+Via the link "Open site settings" you go directly to `Administration > Customizing > Sites`. There you define whether and in which order the sites "My courses" and "Coaching" appear in the header and for which roles they are visible.
 
-Here (under the Learning resource module) it shows what is configured there regarding "Courses" and "Coaching tool". Whether this site should be displayed in the header at all, and for which roles it is visible.
-
-To change the settings, you can switch directly via a link to `Administration > Customizing > Sites` ("Open site settings").
+!!! note "Access to the setting"
+    Only **administrators** can open this page and make changes.
 
 [To the top of the page ^](#learning_resource)
 

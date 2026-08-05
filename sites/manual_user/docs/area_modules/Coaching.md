@@ -5,7 +5,7 @@
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
 With the coaching tool, course owners, course coaches and group coaches have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
-
+![coaching_tools_v2_en.png](assets/coaching_tools_v2_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -22,8 +22,6 @@ You can find access to the data of the persons under care and the tools under th
 * Reports
 * Order management
 
-![coaching_tools_v1_en.png](assets/coaching_tools_v1_en.png){ class="shadow lightbox" }
-
 
 !!! note "Note"
 
@@ -36,9 +34,9 @@ You can find access to the data of the persons under care and the tools under th
 
 ## When is the Coaching tool available? {: #availability}
 
-The "Coaching" menu option is only displayed if coaching has been activated in the OpenOlat administration.
+The Coaching tool has been an integral part of OpenOlat since Release 21 [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661).
 
-Whether the coaching tool is displayed in the main menu depends on other factors:
+Whether the "Coaching" menu option is displayed in the main menu for you depends on the following factors:
 
 * **System roles**: Guests and external parties are not permitted to provide coaching.
 * The **course role** must be a coach or owner. Participants cannot provide coaching. 
