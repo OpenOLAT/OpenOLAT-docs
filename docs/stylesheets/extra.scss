@@ -128,9 +128,25 @@ clear {
 	display: block;
 }
 
-/* default size of captions are too large */ 
+/* default size of captions are too large */
 figcaption {
-	font-size: 85%;	
+	font-size: 85%;
+}
+
+
+/* OpenOlat font icons (:o_icon_<class>: shortcode -> <i class="o_icon ..."></i>) */
+.o_icon {
+	/* a) inline in body text: matches the surrounding copy size
+	   b) inside a heading: matches the title size
+	   1em always equals the parent element's font-size, so both cases work
+	   with a single rule. */
+	font-size: 1em;
+}
+
+/* c) icons inside content tables are always rendered at 24px */
+td .o_icon,
+th .o_icon {
+	font-size: 24px;
 }
 
 
