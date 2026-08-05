@@ -12,11 +12,11 @@ Zuerst werden ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
 
-Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche :o_icon_o_icon_add:, entfernt werden die Antworten mit der Schaltfläche :o_icon_o_icon_delete:.
 
 Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschte Antwort markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
-![Beispiel Single Choice Frage](assets/Single_choice_Beispiel_DE.jpg){ class="shadow" }
+![Beispiel Single Choice Frage](assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 ---
 
@@ -24,8 +24,7 @@ Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ di
 
 Eine Multiple-Choice-Frage besteht aus einer Frage und mindestens zwei Antworten, wobei mehrere Antworten ausgewählt werden können. Im Test können mehrere Antworten richtig sein.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
-{ class=thumbnail-sm }
+![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 
 **Tab "Auswahl**<br>
@@ -33,7 +32,7 @@ Im Reiter "Auswahl" wird zuerst ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
 
-Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche :o_icon_o_icon_add:, entfernt werden die Antworten mit der Schaltfläche :o_icon_o_icon_delete:.
 
 Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschten Antworten markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
@@ -76,7 +75,7 @@ Alle Antworten korrekt = 100% der Punktzahl<br>
 3 korrekte Antworten = 50% der Punktzahl<br>
 2, 1 oder 0 korrekte Antworten = 0% der Punktzahl
 
-![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl" }
+![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl lightbox" }
 
 ---
 
@@ -84,7 +83,7 @@ Alle Antworten korrekt = 100% der Punktzahl<br>
 
 Eine Matrix-Frage besteht aus mehreren Spalten und Zeilen, wobei die Antwort entweder als Single Choice oder als Multiple Choice pro Zeile ausgefüllt werden kann.
 
-![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow" }
+![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 **Tab "Matrix"**<br>
 Wiederum werden zuerst der Titel und die Frage eingetragen.
@@ -115,7 +114,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Testteilnehmer müssen die Antworten jedoch nicht in Checkboxen ankreuzen, sondern können die Begriffe in die entsprechenden Kategorien verschieben.
 
-![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow" }
+![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow lightbox" }
 
 **Tab "Drag and drop"**<br>
 Zuerst werden der Titel und die Frage eingetragen.
@@ -157,7 +156,7 @@ Benutzer wählen aus einer von drei Antwortoptionen aus: "Unbeantwortet", "Richt
 
 Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortoption "Unbeantwortet" können ebenfalls Punkte vergeben werden.
 
-![Beispiel True False Frage](assets/True_false_Beispiel_DE.png){ class="shadow" }
+![Beispiel True False Frage](assets/True_false_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -180,15 +179,15 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
     * Leerzeichen ignorieren: Zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche in der Antwort führen nicht zur Abwertung. So wird z.B. bei der Lösung "log in" auch eine Eingabe mit doppeltem Leerzeichen als richtig gewertet. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
     * Wildcard: Das Zeichen * steht in der Lösung für "etwas oder nichts" und kann auch in den Varianten verwendet werden. So deckt z.B. die Lösung "col*r" die Schreibweisen "color", "colour" und "colr" ab. Geben Teilnehmer selbst ein * ein, wird es als normales Zeichen behandelt. Eine Lösung, die nur aus Wildcards besteht, wird beim Speichern nicht akzeptiert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
-![Dialog "Lücke bearbeiten" mit den Korrektur-Optionen](assets/Lueckentext_Dialog_Korrektur_de.png){ class="shadow" }
+![Dialog "Lücke bearbeiten" mit den Korrektur-Optionen](assets/Lueckentext_Dialog_Korrektur_de.png){ class="shadow lightbox" }
 
 Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalternativen vergeben werden.
 
 Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, ist im Tab "Punkte" die Option "Doppelte Eingaben erlauben" verfügbar. Darüber kann die Eingabe der gleichen Antwort in mehrere Lücken zugelassen oder unterbunden werden.
 
-![Editor-Werkzeugleiste mit den Buttons zum Einfügen von Text-, numerischen und Dropdown-Lücken](assets/Lueckentext_Editor_Buttons_de.png){ class="shadow" }
+![Editor-Werkzeugleiste mit den Buttons zum Einfügen von Text-, numerischen und Dropdown-Lücken](assets/Lueckentext_Editor_Buttons_de.png){ class="shadow lightbox" }
 
-![Lückentext in der Teilnehmeransicht](assets/Lueckentext_Beispiel_de.png){ class="shadow" }
+![Lückentext in der Teilnehmeransicht](assets/Lueckentext_Beispiel_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -196,17 +195,17 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken werden dann unter "Antwortmöglichkeiten" mehrere Antworten zugeordnet; die korrekte Antwort wird als Lösung markiert.
 
-![Editor-Button zum Einfügen einer Dropdown-Lücke](assets/Lueckentext_dropdown_Button_de.png){ class="shadow" }
+![Editor-Button zum Einfügen einer Dropdown-Lücke](assets/Lueckentext_dropdown_Button_de.png){ class="shadow lightbox" }
 
-![Lückentext mit Dropdown in der Teilnehmeransicht](assets/Lueckentext_dropdown_Beispiel_de.png){ class="shadow" }
+![Lückentext mit Dropdown in der Teilnehmeransicht](assets/Lueckentext_dropdown_Beispiel_de.png){ class="shadow lightbox" }
 
 Unter "Anzeige" legt die Option "Reihenfolge der Antwortoptionen" fest, ob die Antworten den Teilnehmern in zufälliger Reihenfolge oder in der vorgegebenen, von Ihnen erfassten Reihenfolge angezeigt werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-![Dialog "Lücke erstellen" mit der Option "Reihenfolge der Antwortoptionen"](assets/Lueckentext_dropdown_Reihenfolge_de.png){ class="shadow" }
+![Dialog "Lücke erstellen" mit der Option "Reihenfolge der Antwortoptionen"](assets/Lueckentext_dropdown_Reihenfolge_de.png){ class="shadow lightbox" }
 
 Ferner können auch globale Antwortmöglichkeiten für die Lücken verwendet werden. Diese werden über "Globale Antwort hinzufügen" einmal pro Frage definiert und dann in jeder Lücke der jeweiligen Frage angezeigt; der User muss die für diese Lücke passende Antwort auswählen.
 
-![Editor mit eingeschalteten globalen Antwortmöglichkeiten](assets/Lueckentext_dropdown_Global_de.png){ class="shadow" }
+![Editor mit eingeschalteten globalen Antwortmöglichkeiten](assets/Lueckentext_dropdown_Global_de.png){ class="shadow lightbox" }
 
 Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden.
 
@@ -235,9 +234,9 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
     * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
     * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke dargestellt wird.
 
-![Dialog "Lücke bearbeiten" für Lückentext numerisch mit eingeschalteter Toleranz](assets/Lueckentext_numerisch_Toleranz_de.png){ class="shadow" }
+![Dialog "Lücke bearbeiten" für Lückentext numerisch mit eingeschalteter Toleranz](assets/Lueckentext_numerisch_Toleranz_de.png){ class="shadow lightbox" }
 
-![Lückentext numerisch in der Teilnehmeransicht](assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow" }
+![Lückentext numerisch in der Teilnehmeransicht](assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -251,7 +250,7 @@ Enthält die Frage Lücken mit Dropdown, können zusätzlich globale Antwortmög
 
 Bestehende Fragen der Typen Lückentext und Lückentext numerisch, die sowohl Text- als auch numerische Lücken enthalten, zeigen im Frageneditor einen Hinweis an. Mit der Aktion "Zu 'Lückentext gemischt' konvertieren" wird eine solche Frage in den neuen Fragetyp umgewandelt.
 
-![Lückentext gemischt in der Teilnehmeransicht](assets/Lueckentext_gemischt_Beispiel_de.png){ class="shadow" }
+![Lückentext gemischt in der Teilnehmeransicht](assets/Lueckentext_gemischt_Beispiel_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -263,7 +262,7 @@ Zuerst wird ein kurzer Titel eingegeben.
 
 Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als Hottext markiert. Zum Schluss müssen die korrekten Antworten markiert werden, indem die Checkbox angewählt wird.
 
-![Beispiel Hottext Frage](assets/Hottext_Beispiel_DE.png){ class="shadow" }
+![Beispiel Hottext Frage](assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -278,7 +277,7 @@ Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild da
 * Dann können Spots in Form von Kreis oder Viereck auf dem Bild platziert werden. In der erweiterten Bearbeitung lassen sich Spots auch einfach duplizieren.
 * Zum Schluss müssen noch die korrekten Antworten ausgewählt werden.
 
-![Beispiel Hotspot Frage](assets/Hotspot_Beispiel_DE.png){ class="shadow" }
+![Beispiel Hotspot Frage](assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -290,7 +289,7 @@ Zuerst werden der Titel und die Frage eingetragen.
 
 Dann können die Antworten in korrekter Reihenfolge eingetragen und die Ausrichtung der Darstellung vertikal oder horizontal gesetzt werden.
 
-![Beispiel Reihenfolge Frage](assets/Reihenfolge_Beispiel_DE.png){ class="shadow" }
+![Beispiel Reihenfolge Frage](assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 
@@ -314,7 +313,7 @@ Anschliessend können folgende Optionen ausgewählt werden:
 
 Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion ausgestattet. Antworten können somit besser formatiert und zum Beispiel Spalten abgebildet werden.
 
-![Beispiel Freitext Frage](assets/Essay_Beispiel_DE.png){ class="shadow" }
+![Beispiel Freitext Frage](assets/Essay_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! info "Autosave"
 
@@ -330,7 +329,7 @@ Es werden ein kurzer Titel und die Frage eingegeben sowie definiert wieviele Upl
 
 Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps ausschliesslich manuell möglich ist.
 
-![Beispiel Datei Upload Frage](assets/Fileupload_Beispiel_DE.png){ class="shadow" }
+![Beispiel Datei Upload Frage](assets/Fileupload_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -349,7 +348,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
     Dieser Fragetyp wird durch freihändiges Zeichnen bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
 
 
-![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow" }
+![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! tip "Import von Fragen"
 
