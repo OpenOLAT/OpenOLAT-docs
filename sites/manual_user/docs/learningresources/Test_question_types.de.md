@@ -111,9 +111,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 ---
 
-## Drag&Drop [:octicons-tag-16:{ title="ab Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
-
-![Icon Drag und Drop Frage](assets/Icon_DragDrop_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch_draganddrop: Drag&Drop [:octicons-tag-16:{ title="ab Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
 Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Testteilnehmer müssen die Antworten jedoch nicht in Checkboxen ankreuzen, sondern können die Begriffe in die entsprechenden Kategorien verschieben.
 
@@ -151,9 +149,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 ---
 
-## True/false [:octicons-tag-16:{ title="ab Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
-
-![Icon True False Frage](assets/Icon_true_false_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch_truefalse: True/false [:octicons-tag-16:{ title="ab Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
 Eine True/False-Frage ähnelt dem Kprim-Fragentyp, jedoch mit beliebiger Zeilenzahl Pro Zeile müssen Aussagen bewertet werden.
 

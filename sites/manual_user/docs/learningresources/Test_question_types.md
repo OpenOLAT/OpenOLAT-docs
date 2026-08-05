@@ -107,9 +107,7 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 ---
 
-## Drag&Drop [:octicons-tag-16:{ title="from Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
-
-![Icon Drag and Drop Question](assets/Icon_DragDrop_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch_draganddrop: Drag&Drop [:octicons-tag-16:{ title="from Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
 In general the Drag&Drop questions has the same behavior as the matrix question. However, the test participants do not select the checkboxes, but move the items in the corresponding category.
 
@@ -147,9 +145,7 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 ---
 
-## True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
-
-![Icon True False Question](assets/Icon_true_false_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch_truefalse: True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #true_false}
 
 The question type True/False is similar to Kprim. In each line the
 corresponding statement has to be assessed.
