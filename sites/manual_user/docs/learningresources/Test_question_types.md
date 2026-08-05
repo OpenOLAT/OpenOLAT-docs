@@ -4,9 +4,7 @@ The following question types can be used in OpenOlat tests:
 
 The question types marked with an * must be evaluated manually.
 
-## Single Choice {: #sc}
-
-![Icon Single Choice Question](assets/Icon_Single_Choice_DE.png){ class=size24 }
+## :o_icon_o_mi_qtisc: Single Choice {: #sc}
 
 A single-choice question consists of a question and answers, of which only one can be selected. In a test only one of those two answers is correct.
 
@@ -22,9 +20,7 @@ The correct answer can be selected in column _Correct Answer_. The order of the 
 
 ---
 
-## Multiple Choice  {: #mc}
-
-![Icon Multiple Choice Question](assets/Icon_Multiple_Choice_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimc: Multiple Choice {: #mc}
 
 A multiple-choice question comprises one question and at least two answers; several answers can be selected. In a test several answers can be correct.
 
@@ -62,9 +58,7 @@ Furthermore, in the "Feedback" tab, the number of response options for the user 
 
 ---
 
-## Kprim {: #kprim}
-
-![Icon Kprim Question](assets/Icon_KPrim_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtikprim: Kprim {: #kprim}
 
 A Kprim question can only be used in a test. It comprises one questions and exactly four answers. The one taking that test has to decide for every single answer if it is correct or not. 0 to 4 answers can be correct.
 
@@ -84,9 +78,7 @@ All correct answers = 100% score<br>
 
 ---
 
-## Matrix [:octicons-tag-16:{ title="from Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
-
-![Icon Matrix Question](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch: Matrix [:octicons-tag-16:{ title="from Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
 
 A matrix question consists of several rows and columns, where the answer can be filled in for every row, either as single choice or as multiple choice.
 
@@ -172,9 +164,7 @@ The scores can be defined as needed. You may even give points for the option "Un
 
 <a id="fib"></a>
 
-## Gap text {: #gap}
-
-![Icon Gap text Question](assets/Icon_Lueckentext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtifib: Gap text {: #gap}
 
 A gap-text question consists of a text in which (text) gaps are integrated. Gaps can be inserted via the icon with the three dots by editor and revised by clicking on the gap. The "Create gap" or "Edit gap" dialog shows the input method of the gap at the top and presents the configuration in a preview. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
@@ -203,9 +193,7 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 ---
 
-## Gap text with dropdown [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
-
-![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
+## :o_icon_o_mi_qtiinlinechoice: Gap text with dropdown [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps are then assigned several answers under "Answer options"; the correct answer is marked as the solution.
 
@@ -227,9 +215,7 @@ Scoring can be done across all gaps as well as configured separately for each an
 
 <a id="ni"></a>
 
-## Gap FIB numerical {: #numeric_input}
-
-![Icon Numerical Input Question](assets/Icon_Numerical_Input_DE.png){ class=size24 }
+## :o_icon_o_mi_qtinumerical: Gap FIB numerical {: #numeric_input}
 
 In general the Gap FIB numerical is the same as the gap text. But as solution there are numbers required, not texts. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
@@ -256,9 +242,7 @@ First a short title is inserted. Afterward the next is written with fields for t
 
 ---
 
-## Gap mixed [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
-
-:o_icon_o_mi_qtigapmixed:
+## :o_icon_o_mi_qtigapmixed: Gap mixed [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
 
 The Gap mixed question type combines the three gap variants in a single question: text gaps, numerical gaps and gaps with dropdown can be built into the same continuous text together. This makes it possible, for example, to map a calculation task including its reasoning in one question, without creating several individual questions.
 
@@ -272,9 +256,7 @@ Existing questions of the types Gap text and Gap FIB numerical that contain both
 
 ---
 
-## Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
-
-![Icon Hottext Question](assets/Icon_Hottext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtihottext: Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
 The hottext questions is similar to the gap text. In a running text different terms are marked, and can then be selected by the test participants.
 
@@ -286,9 +268,7 @@ Afterward a text is written and the selectable terms are marked as hottext. Fina
 
 ---
 
-## Hotspot {: #hotspot}
-
-![Icon Hotspot Question](assets/Icon_Hotspot_DE.png){ class=size24 }
+## :o_icon_o_mi_qtihotspot: Hotspot {: #hotspot}
 
 In a hotspot question, hotspots/areas are graphically presented on an image and need to be selected by the participant correctly. Thereby the question can be created either as single or as multiple choice question. Various fine adjustments as the hotspot form or color, the adjustment of the size as well as the advanced edit  allow an optimal visualization. The spots are visible for the participant.  
 
@@ -303,9 +283,7 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 
 ---
 
-## Order [:octicons-tag-16:{ title="from Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
-
-![Icon Order Question](assets/Icon_Reihenfolge_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiorder: Order [:octicons-tag-16:{ title="from Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
 
 This type of question requires learners to put elements (text or images) in a correct order. This question type behaves similar to a drag&drop question.
 
@@ -322,9 +300,7 @@ Then the answers can be entered in the correct order and the alignment of the di
 
 ---
 
-## Essay* {: #essay}
-
-![Icon Essay Question](assets/Icon_Freitext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiessay: Essay* {: #essay}
 
 The answer to a free-text question is inserted into a field of variable size. In a test environment, the Essay question must be evaluated separately and manually.
 
@@ -348,9 +324,7 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 ---
 
-## File upload* [:octicons-tag-16:{ title="from Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
-
-![Icon File Upload Question](assets/Icon_Fileupload_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiupload: File upload* [:octicons-tag-16:{ title="from Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
 For this question type participants need to upload a file.
 
@@ -362,9 +336,7 @@ No correct answer can be marked, as the assessment of this question type is only
 
 ---
 
-## Drawing* {: #draw}
-
-![Icon Drawing Question](assets/Icon_Zeichnen_DE.png){ class=size24 }
+## :o_icon_o_mi_qtidrawing: Drawing* {: #draw}
 
 For the questions type drawing the participant get the task to edit a given picture with the available drawing tools.
 

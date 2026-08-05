@@ -4,9 +4,7 @@ Folgende Fragetypen können in OpenOlat Tests verwendet werden:
 
 Die mit einem * versehenen Fragetypen müssen manuell ausgewertet werden.
 
-## Single Choice {: #sc}
-
-![Icon Single Choice Frage](assets/Icon_Single_Choice_DE.png){class=size24 }
+## :o_icon_o_mi_qtisc: Single Choice {: #sc}
 
 Eine Single-Choice-Frage besteht aus einer Frage und Antworten, von denen nur eine ausgewählt werden kann. Im Test ist nur eine Antwort richtig.
 
@@ -22,9 +20,7 @@ Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ di
 
 ---
 
-## Multiple Choice {: #mc}
-
-![Icon Multiple Choice Frage](assets/Icon_Multiple_Choice_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimc: Multiple Choice {: #mc}
 
 Eine Multiple-Choice-Frage besteht aus einer Frage und mindestens zwei Antworten, wobei mehrere Antworten ausgewählt werden können. Im Test können mehrere Antworten richtig sein.
 
@@ -64,9 +60,7 @@ Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die Anzahl
 
 ---
 
-## Kprim {: #kprim}
-
-![Icon Kprim Frage](assets/Icon_KPrim_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtikprim: Kprim {: #kprim}
 
 Eine Kprim-Frage besteht immer aus einer Frage und genau vier Antworten. Für jede dieser vier Antworten muss die Testperson entscheiden, ob sie zutrifft oder nicht. Es können 0-4 Antworten richtig sein.
 
@@ -86,9 +80,7 @@ Alle Antworten korrekt = 100% der Punktzahl<br>
 
 ---
 
-## Matrix [:octicons-tag-16:{ title="ab Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
-
-![Icon Matrix Frage](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
+## :o_icon_o_mi_qtimatch: Matrix [:octicons-tag-16:{ title="ab Release 11.2 (OO-2343)" }](https://track.frentix.com/issue/OO-2343) {: #matrix}
 
 Eine Matrix-Frage besteht aus mehreren Spalten und Zeilen, wobei die Antwort entweder als Single Choice oder als Multiple Choice pro Zeile ausgefüllt werden kann.
 
@@ -175,9 +167,7 @@ Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortop
 
 <a id="fib"></a>
 
-## Lückentext {: #gap}
-
-![Icon Lückentext Frage](assets/Icon_Lueckentext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtifib: Lückentext {: #gap}
 
 Eine Lückentextfrage besteht aus einem Text in dem (Text-)Lücken integriert sind. Lücken können über das Icon mit den drei Punkten per Editor eingefügt und per Klick auf die Lücke überarbeitet werden. Der Dialog "Lücke erstellen" bzw. "Lücke bearbeiten" zeigt oben die Eingabemethode der Lücke an und stellt die Konfiguration in einer Vorschau dar. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
@@ -206,9 +196,7 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 ---
 
-## Lückentext mit Dropdown [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
-
-![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
+## :o_icon_o_mi_qtiinlinechoice: Lückentext mit Dropdown [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #gap_dropdown}
 
 Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fliesstext Lückenelemente eingebaut. Diesen Lücken werden dann unter "Antwortmöglichkeiten" mehrere Antworten zugeordnet; die korrekte Antwort wird als Lösung markiert.
 
@@ -230,9 +218,7 @@ Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für
 
 <a id="ni"></a>
 
-## Lückentext numerisch {: #numeric_input}
-
-![Icon Numerische Eingabe Frage](assets/Icon_Numerical_Input_DE.png){ class=size24 }
+## :o_icon_o_mi_qtinumerical: Lückentext numerisch {: #numeric_input}
 
 Der Lückentext numerisch verhält sich vom Prinzip her gleich wie der Lückentext. Als Lösung können hier jedoch nur Zahlen und nicht Texte eingegeben werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
@@ -259,9 +245,7 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
 
 ---
 
-## Lückentext gemischt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
-
-:o_icon_o_mi_qtigapmixed:
+## :o_icon_o_mi_qtigapmixed: Lückentext gemischt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385) {: #gap_mixed}
 
 Der Lückentext gemischt kombiniert die drei Lückenarten in einer einzigen Frage: Text-Lücken, numerische Lücken und Lücken mit Dropdown können gemeinsam in denselben Fliesstext eingebaut werden. So lässt sich z.B. eine Rechenaufgabe samt Begründung in einer Frage abbilden, ohne dafür mehrere Einzelfragen zu erstellen.
 
@@ -275,9 +259,7 @@ Bestehende Fragen der Typen Lückentext und Lückentext numerisch, die sowohl Te
 
 ---
 
-## Hottext [:octicons-tag-16:{ title="ab Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
-
-![Icon Hottext Frage](assets/Icon_Hottext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtihottext: Hottext [:octicons-tag-16:{ title="ab Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
 Die Hottext-Frage verhält sich ähnlich wie ein Lückentext. In einem Fliesstext werden verschiedene Begriffe markiert, welche anschliessend vom Testteilnehmer ausgewählt werden können.
 
@@ -289,9 +271,7 @@ Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als
 
 ---
 
-## Hotspot {: #hotspot}
-
-![Icon Hotspot Frage](assets/Icon_Hotspot_DE.png){ class=size24 }
+## :o_icon_o_mi_qtihotspot: Hotspot {: #hotspot}
 
 Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hotspots, Anpassung der Bildgrösse sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmenden sichtbar.
 
@@ -306,9 +286,7 @@ Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild da
 
 ---
 
-## Reihenfolge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
-
-![Icon Reihenfolge Frage](assets/Icon_Reihenfolge_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiorder: Reihenfolge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4456)" }](https://track.frentix.com/issue/OO-4456) {: #order}
 
 Bei diesem Fragetyp müssen die Lernenden Elemente (Texte oder Bilder) in eine korrekte Reihenfolge bringen. Dabei verhält sich dieser Fragetyp ähnlich wie eine Drag&Drop-Frage.
 
@@ -324,9 +302,7 @@ Dann können die Antworten in korrekter Reihenfolge eingetragen und die Ausricht
 
 ---
 
-## Freitext* {: #essay}
-
-![Icon Freitext Frage](assets/Icon_Freitext_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiessay: Freitext* {: #essay}
 
 Die Antwort auf die Freitext-Frage füllen Testteilnehmer frei formuliert in ein Textfeld beliebiger Grösse ein. Im Test muss die Freitext-Frage gesondert manuell bewertet werden.
 
@@ -350,9 +326,7 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 ---
 
-## Datei hochladen* [:octicons-tag-16:{ title="ab Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
-
-![Icon Datei Upload Frage](assets/Icon_Fileupload_DE.png){ class=size24 }
+## :o_icon_o_mi_qtiupload: Datei hochladen* [:octicons-tag-16:{ title="ab Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
 Bei diesem Fragetyp müssen die Testteilnehmenden als Antwort eine Datei hochladen.
 
@@ -364,9 +338,7 @@ Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps au
 
 ---
 
-## Zeichnen* {: #draw}
-
-![Icon Zeichnen Frage](assets/Icon_Zeichnen_DE.png){ class=size24 }
+## :o_icon_o_mi_qtidrawing: Zeichnen* {: #draw}
 
 Die Testteilnehmenden haben beim Fragetyp Zeichnen die Aufgabe, ein vorgegebenes Bild mit den zur Verfügung stehenden Zeichnungsinstrumenten zu bearbeiten.
 
