@@ -354,6 +354,10 @@ Central interface for coaches and owners to evaluate, grade, and manage learner 
 
 Recording capabilities for audio and video content.
 
+### Transcoding
+
+The conversion of uploaded video files into formats and resolutions that play back across browsers. The transcoding mode determines where the conversion takes place: Local on the OpenOlat server, Service via an external transcoding service, or Remote with a transcoding directory outside the OpenOlat data area.
+
 ### Bulk assessment
 
 Feature allowing coaches to assess multiple participants simultaneously.

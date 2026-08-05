@@ -426,13 +426,13 @@ Lecture block management with absence tracking.
 
 Record of a user's performance in assessable course elements.
 
-### Excel
-
-A type of learning resource that can be created or imported in the authoring area.
-
 ### Ex-Officio
 
 Person who belongs to the appointment committee by virtue of their office. Visibility of comments and reviews is configured separately for this role.
+
+### Excel
+
+A type of learning resource that can be created or imported in the authoring area.
 
 ### Expert
 
@@ -734,13 +734,13 @@ Apache OpenMeetings web conferencing integration.
 
 A course element for Apache OpenMeetings web conferencing.
 
-### Organisations
-
-Hierarchical organizational structure for role-scoped management.
-
 ### Organisation unit
 
 The faculty or institute that owns a position and provides its own sender address and e-mail signature.
+
+### Organisations
+
+Hierarchical organizational structure for role-scoped management.
 
 ### Other file
 
@@ -842,13 +842,13 @@ Can manage project spaces across the system.
 
 Project management tool with to-dos, files, and decisions.
 
-### Publication status
-
-Lifecycle state of a learning resource: Preparation, Review, Access for Coach, Published, Finished.
-
 ### Public feedback
 
 Feedback submitted through a public link without login, for example after a trial lecture.
+
+### Publication status
+
+Lifecycle state of a learning resource: Preparation, Review, Access for Coach, Published, Finished.
 
 ### QTI 2.1
 
@@ -1077,6 +1077,10 @@ A course element (building block) that can be added to a course structure.
 ### Topic broker
 
 A course element (building block) that can be added to a course structure.
+
+### Transcoding
+
+The conversion of uploaded video files into formats and resolutions that play back across browsers. The transcoding mode determines where the conversion takes place: Local on the OpenOlat server, Service via an external transcoding service, or Remote with a transcoding directory outside the OpenOlat data area.
 
 ### Trash can
 

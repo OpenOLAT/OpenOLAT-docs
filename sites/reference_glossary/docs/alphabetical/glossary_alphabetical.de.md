@@ -354,13 +354,13 @@ KI Funktion, die zu Freitextantworten der Lernenden ein formatives Feedback erze
 
 KI Funktion, die aus einem Quelltext oder einer hochgeladenen Datei Freitextfragen samt Bewertungskriterien erstellt.
 
-### Excel
-
-Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
-
 ### Ex-Officio
 
 Person, die von Amtes wegen der Berufungskommission angehört. Die Sichtbarkeit von Kommentaren und Reviews wird für diese Rolle separat konfiguriert.
+
+### Excel
+
+Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
 
 ### Externe Seite
 
@@ -718,10 +718,6 @@ Persönliche Notizfunktion für Benutzer.
 
 Open Archives Initiative Protocol for Metadata Harvesting, verwendet zur Katalogexposition.
 
-### Öffentliche Rückmeldung
-
-Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
-
 ### Opencast
 
 Integration von Opencast für Vorlesungsaufzeichnung und Videoverwaltung.
@@ -1046,6 +1042,10 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Persönliche und kursbezogene Aufgabenverwaltung.
 
+### Transcoding
+
+Die Umwandlung hochgeladener Videodateien in browserübergreifend abspielbare Formate und Auflösungen. Der Transcoding-Modus legt fest, wo die Umwandlung stattfindet: Lokal auf dem OpenOlat-Server, Service über einen externen Transcodingservice, oder Remote bei einem Transcoding-Verzeichnis ausserhalb des OpenOlat-Datenbereichs.
+
 ### Umfrage
 
 Ein Kursbaustein für anonyme Umfragen mit Bewertungsformularen.
@@ -1153,6 +1153,10 @@ Buchungs- und Angebotsverwaltung für Lernressourcen.
 ### Zuständig für dieses Thema
 
 Gruppe im Kursbaustein Themenvergabe, in der die einem Thema zugeordneten Themenverantwortlichen aufgeführt werden.
+
+### Öffentliche Rückmeldung
+
+Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
 
 ### Übung
 

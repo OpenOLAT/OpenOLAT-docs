@@ -354,6 +354,10 @@ Zentrale Oberfläche für Betreuer/innen und Besitzer/innen zur Bewertung, Benot
 
 Aufzeichnungsfunktionen für Audio- und Videoinhalte.
 
+### Transcoding
+
+Die Umwandlung hochgeladener Videodateien in browserübergreifend abspielbare Formate und Auflösungen. Der Transcoding-Modus legt fest, wo die Umwandlung stattfindet: Lokal auf dem OpenOlat-Server, Service über einen externen Transcodingservice, oder Remote bei einem Transcoding-Verzeichnis ausserhalb des OpenOlat-Datenbereichs.
+
 ### Massenbewertung
 
 Funktion, mit der Betreuer/innen mehrere Teilnehmende gleichzeitig bewerten können.
