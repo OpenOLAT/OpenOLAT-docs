@@ -5,87 +5,107 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 !!! tip "Aktivierung"
 
-	Kunden von frentix kontaktieren für die Aktivierung bitte
-	[contact@frentix.com](mailto:contact@frentix.com). Sobald das Modul "Termine und Absenzen" aktiviert ist, können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.  
-		
-	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
+    Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com](mailto:contact@frentix.com). Sobald das Modul "Termine und Absenzen" aktiviert ist, können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.
+
+    **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
+
 ---
 
 ## Tab Konfiguration
 
-![modules_events_and_absences_tab_configuration_v1_de.png](assets/modules_events_and_absences_tab_configuration_v1_de.png){ class="shadow lightbox" }  
-
-
 ### Konfiguration - auf Kursebene übersteuerbar
 
-![1_green_24.png](assets/1_green_24.png) **Termin- und Absenzenverwaltung einschalten**: Generelle Aktivierung („Hauptschalter“)
+![modules_events_and_absences_config_course_level_v2_de.png](assets/modules_events_and_absences_config_course_level_v2_de.png){ class="shadow lightbox" }
 
-![2_green_24.png](assets/2_green_24.png) **Absenzen / Abmeldungen / Dispensen einschalten**: Bewirkt, dass Betreuende im Coachingtool > Termine das Tab "Meldungen" angezeigt bekommen.
+**Termin- und Absenzenverwaltung einschalten**: Generelle Aktivierung („Hauptschalter“)
 
-![3_green_24.png](assets/3_green_24.png) **Überschreiben der Standard-Konfiguration zulassen**: Die Standard-Konfiguration, welche in der Administration gesetzt wird, kann auf Kursebene
+**Absenzen / Abmeldungen / Dispensen einschalten**: Bewirkt, dass Betreuende unter `Coaching > Termine` das Tab "Meldungen" angezeigt bekommen.
+
+**Überschreiben der Standard-Konfiguration zulassen**: Die Standard-Konfiguration, welche in der Administration gesetzt wird, kann auf Kursebene
 überschrieben werden. Dies gilt nicht für die "Globale Konfiguration".
 
-![4_green_24.png](assets/4_green_24.png) **Anwesenheitskontrolle einschalten**: Nur wenn diese Optionen eingeschaltet ist, kann ich eine Anwesenheitskontrolle durchführen und sehe die Teilnehmenden und die Checkboxen.
+**Anwesenheitskontrolle einschalten**: Nur wenn diese Optionen eingeschaltet ist, kann ich eine Anwesenheitskontrolle durchführen und sehe die Teilnehmenden und die Checkboxen.
 
-![5_green_24.png](assets/5_green_24.png) **Berechnung der Anwesenheitsrate**: Wenn diese Option eingeschaltet ist, wird eine Prozentquote der Anwesenheit berechnet.
+**Berechnung der Anwesenheitsrate**: Wenn diese Option eingeschaltet ist, wird eine Prozentquote der Anwesenheit berechnet.
 
-![6_green_24.png](assets/6_green_24.png) **Absenzenquote global in %**: Diese Quote gibt an, wie viel Prozent Anwesenheit gefordert ist, um die Bedingungen eines Kurses zu erfüllen.
+**Absenzenquote global in %**: Diese Quote gibt an, wie viel Prozent Anwesenheit gefordert ist, um die Bedingungen eines Kurses zu erfüllen.
 
-![7_green_24.png](assets/7_green_24.png) **Dozentenkalender synchronisieren**: Dozierende (Kursbetreuer) bekommen Einträge in ihrem persönlichen Kalender (nicht im Kurskalender) für diejenigen Lektionenblöcke, bei welchen sie als Dozierende zugewiesen sind (Für Px-Kunden muss diese Funktion ausgeschaltet sein).
+**Dozentenkalender synchronisieren**: Dozierende (Kursbetreuer) bekommen Einträge in ihrem persönlichen Kalender (nicht im Kurskalender) für diejenigen Lektionenblöcke, bei welchen sie als Dozierende zugewiesen sind (Für Px-Kunden muss diese Funktion ausgeschaltet sein).
 
-![8_green_24.png](assets/8_green_24.png) **Kurskalender synchronisieren**: Durch diese Option werden die erfassten Lektionenblöcke gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
+**Kurs Kalender synchronisieren**: Durch diese Option werden die erfassten Lektionenblöcke gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
 
-![9_green_24.png](assets/9_green_24.png) **Prüfungsmodus für Termine erlauben**
+**Prüfungsmodus für Termine erlauben**: Erst mit dieser Option erscheinen die Felder "Vorlaufzeit", "Nachlaufzeit" und "Erlaubte IP-Adressen".
 
-![10_green_24.png](assets/10_green_24.png) **Vorlaufzeit**
+**Safe Exam Browser - Art der Benutzung**: Legt fest, wie der Safe Exam Browser abgesichert wird, wenn ein Termin als Prüfung markiert wird.
 
-![11_green_24.png](assets/11_green_24.png) **Nachlaufzeit**
+Prüfungsmodi, die nicht aus einem Termin entstehen, sind von dieser Einstellung unabhängig. Dort wird die Variante pro Prüfungsmodus über "Typ von Anwendung" gewählt:<br>
+`Kurs > Administration > Prüfungsverwaltung`
 
-![12_green_24.png](assets/12_green_24.png) **Erlaubte IP-Adressen**
+Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Absenzenverwaltung im Kurs ein unter `Kurs > Administration > Einstellungen > Durchführung` und legen die Termine an unter `Kurs > Administration > Termine und Absenzen`. Nach dem Abspeichern kann ein Termin über das 3-Punkte-Menü als Prüfung markiert werden.
 
-![13_green_24.png](assets/13_green_24.png) **Safe Exam Browser - Art der Benutzung**
+!!! note "Siehe Detailbeschreibung zum 3-Punkte-Menü"
 
-![14_green_24.png](assets/14_green_24.png) **Herunterladbare Konfigurationsdatei**: Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).) 
+    [Konfiguration Termin- und Absenzenverwaltung im Kurs](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
 
+??? info "Was Betreuende dürfen"
+
+    Betreuende finden keinen Eintrag in der Kurs-Administration, sondern das Werkzeug "Termine" in der Kurs-Werkzeugleiste. Sie erfassen dort Anwesenheiten und Absenzen und können ihre Termine ebenfalls als Prüfung markieren. Diese Sicht beschreibt das Benutzerhandbuch: [Toolbar: Termine, Aufruf als Betreuer:in](../../manual_user/learningresources/Toolbar_Events.de.md#call_as_coach)
+
+    Ihre Rechte werden systemweit vergeben, nicht pro Kurs: Tab "Berechtigungen" dieser Seite legt fest, ob Dozierende Absenzen entschuldigen, Meldungen erfassen oder Rekurse einsehen und bewilligen dürfen. Ein kursspezifisches Recht für Termine und Absenzen gibt es nicht.
+
+    Im Kurs steuern Besitzende, wer einem Termin als Dozent:in zugewiesen ist: [Dozenten/Dozentinnen verwalten](../../manual_user/learningresources/Events_and_absences.de.md#manage_teachers). Betreuende sehen ihre eigenen Termine; die Einstellung "Anzeige in Kursen" in der Globalen Konfiguration legt fest, ob zusätzlich die Termine der anderen Dozierenden angezeigt werden können.
+
+??? info "SEB-Config (empfohlen): Vorlagen aus der System-Administration"
+
+    Die [Konfigurationsvorlagen](e-Assessment_AssessmentMgmt.de.md) werden systemweit gepflegt unter:<br>
+    `Administration > e-Assessment > Prüfungsverwaltung`, Tab "Safe Exam Browser Konfiguration"
+
+    Beim Markieren eines Termins als Prüfung ist die als Standard markierte Vorlage vorausgewählt, die Auswahl erfolgt pro Prüfung. Zusätzlich erscheint das Feld "Herunterladbare Konfigurationsdatei".
+
+??? info "SEB mit manuellen Keys: Vorgabewerte aus System- und Kurs-Administration"
+
+    Der systemweite Vorgabewert wird direkt unter dieser Einstellung im Feld "Safe Exam Browser Key" erfasst.
+
+    Kursweit lässt er sich überschreiben unter:<br>
+    `Kurs > Administration > Einstellungen > Durchführung`, Feld ["Safe Exam Browser Key"](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
+
+**Herunterladbare Konfigurationsdatei**: Diese Option erscheint bei der Variante "SEB-Config (empfohlen)". Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).)
 
 
 ### Globale Konfiguration
 
-![15_green_24.png](assets/15_green_24.png) **Tageserfassung Absenzen**: ja oder nein
+![modules_events_and_absences_global_config_v1_de.png](assets/modules_events_and_absences_global_config_v1_de.png){ class="shadow lightbox" }
 
-![16_green_24.png](assets/16_green_24.png) **Termine partiell durchgeführt zulassen**: Beim Abschliessen eines Termins kann unter "Effektive Einheiten" die Anzahl Einheiten ausgewählt werden, welche tatsächlich durchgeführt worden sind. Die Anwesenheitsquote wird dadurch auch nur partiell berechnet.
+**Tageserfassung Absenzen**: ja oder nein
 
-![17_green_24.png](assets/17_green_24.png) **Terminstatus**: Wenn diese Option gewählt wird, können ganze Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
+**Termine partiell durchgeführt zulassen**: Beim Abschliessen eines Termins kann unter "Effektive Einheiten" die Anzahl Einheiten ausgewählt werden, welche tatsächlich durchgeführt worden sind. Die Anwesenheitsquote wird dadurch auch nur partiell berechnet.
 
-![18_green_24.png](assets/18_green_24.png) **Default Anzahl von geplanten Einheiten**
+**Terminstatus**: Wenn diese Option gewählt wird, können ganze Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
 
-![19_green_24.png](assets/19_green_24.png) **Erinnerungsfunktion einschalten**: Hiermit wird die Erinnerungsfunktion aktiviert. Anschliessend sind die Erinnerungs- und die Sperrfrist zu definieren.
+**Erinnerungsfunktion einschalten**: Hiermit wird die Erinnerungsfunktion aktiviert. Anschliessend sind die Erinnerungs- und die Sperrfrist zu definieren.
 
-![20_green_24.png](assets/20_green_24.png) **Erinnerungsfrist**: Hier wird die Erinnerungsfrist in Anzahl Tagen eingetragen. Nachdem diese Anzahl Tage erreicht worden ist, wird der/die Dozent:in daran erinnert, die Anwesenheitskontrolle durchzuführen. Ein Tag entspricht 24 Stunden und die Zählung beginnt beim eingetragenen Ende des Termins.
+**Erinnerungsfrist**: Hier wird die Erinnerungsfrist in Anzahl Tagen eingetragen. Nachdem diese Anzahl Tage erreicht worden ist, wird der/die Dozent:in daran erinnert, die Anwesenheitskontrolle durchzuführen. Ein Tag entspricht 24 Stunden und die Zählung beginnt beim eingetragenen Ende des Termins.
 
-![21_green_24.png](assets/21_green_24.png) **Sperrfrist**: Wiederum wird die Anzahl Tage eingetragen. Nachdem diese Frist abgelaufen ist, wird der Status des Termins automatisch auf erledigt gesetzt. Die bereits eingetragene Anwesenheitskontrolle wird gespeichert. Falls nichts eingetragen ist, werden alle Teilnehmenden als anwesend gespeichert. Die Sperrfristzählung beginnt am Folgetag, nachdem der Termin die Endzeit erreicht hat und läuft bis am Ende des Tages.
+**Sperrfrist**: Wiederum wird die Anzahl Tage eingetragen. Nachdem diese Frist abgelaufen ist, wird der Status des Termins automatisch auf erledigt gesetzt. Die bereits eingetragene Anwesenheitskontrolle wird gespeichert. Falls nichts eingetragen ist, werden alle Teilnehmenden als anwesend gespeichert. Die Sperrfristzählung beginnt am Folgetag, nachdem der Termin die Endzeit erreicht hat und läuft bis am Ende des Tages.
 
-![22_green_24.png](assets/22_green_24.png) **Entschuldigte Absenzen**: Diese Option erlaubt Absenzen zu entschuldigen. Wenn diese Option nicht aktiviert ist, gelten alle Absenzen als unentschuldigt.
+**Entschuldigte Absenzen**: Diese Option erlaubt Absenzen zu entschuldigen. Wenn diese Option nicht aktiviert ist, gelten alle Absenzen als unentschuldigt.
 
-![23_green_24.png](assets/23_green_24.png) **Entschuldigte Absenzen als anwesend zählen**: Mit dieser Option werden die Absenzen, welche entschuldigt sind, für die Berechnung der Absenzenquote als anwesend gerechnet.
+**Entschuldigte Absenzen als anwesend zählen**: Mit dieser Option werden die Absenzen, welche entschuldigt sind, für die Berechnung der Absenzenquote als anwesend gerechnet.
 
-![24_green_24.png](assets/24_green_24.png) **Absenzen standardmässig als entschuldigt zählen**: Grundsätzlich gelten eingetragene Absenzen als unentschuldigt. Diese Option setzt alle eingetragenen Absenzen automatisch auf entschuldigt. Falls dies nicht zutrifft, muss die Absenz manuell auf unentschuldigt gesetzt werden.
+**Absenzen standardmässig als entschuldigt zählen**: Grundsätzlich gelten eingetragene Absenzen als unentschuldigt. Diese Option setzt alle eingetragenen Absenzen automatisch auf entschuldigt. Falls dies nicht zutrifft, muss die Absenz manuell auf unentschuldigt gesetzt werden.
 
-![25_green_24.png](assets/25_green_24.png) **Kursbesitzer dürfen alle Kurse in Elementen sehen**
+**Rekursmöglichkeit gewähren**: Wenn die Rekursfrist aktiviert ist, bekommen die Kursteilnehmenden die Möglichkeit, für eine eingetragenen Absenz Rekurs einzureichen. Dies kann beispielsweise notwendig sein, wenn eine Absenz im Nachhinein als entschuldigt anerkannt wird oder wenn der Dozierende eine Absenz falsch eingetragen hat.
 
-![26_green_24.png](assets/26_green_24.png) **Rekursmöglichkeit gewähren**: Wenn die Rekursfrist aktiviert ist, bekommen die Kursteilnehmenden die Möglichkeit, für eine eingetragenen Absenz Rekurs einzureichen. Dies kann beispielsweise notwendig sein, wenn eine Absenz im Nachhinein als entschuldigt anerkannt wird oder wenn der Dozierende eine Absenz falsch eingetragen hat.
+**Rekursfrist**: Die Rekursfrist beginnt, sobald der Termin erledigt ist. Entweder hat der Dozent den Termin manuell auf erledigt gesetzt oder die Sperrfrist ist abgelaufen und der Termin wurde automatisch auf erledigt gesetzt. Die Zählung der Tage beginnt am Folgetag, nachdem der Status des Termins auf erledigt gesetzt worden ist. Anschliessend werden ganze Tage gezählt, Rekursfristschluss ist jeweils am Ende des Tages.
 
-![27_green_24.png](assets/27_green_24.png) **Rekursfrist**: Die Rekursfrist beginnt, sobald der Termin erledigt ist. Entweder hat der Dozent den Termin manuell auf erledigt gesetzt oder die Sperrfrist ist abgelaufen und der Termin wurde automatisch auf erledigt gesetzt. Die Zählung der Tage beginnt am Folgetag, nachdem der Status des Termins auf erledigt gesetzt worden ist. Anschliessend werden ganze Tage gezählt, Rekursfristschluss ist jeweils am Ende des Tages.
-
-![28_green_24.png](assets/28_green_24.png) **Anzeige in Kursen**: Termine aller Dozenten oder nur eigene.
+**Anzeige in Kursen**: Termine aller Dozenten oder nur eigene.
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
+
 ---
 
 
@@ -93,12 +113,12 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 In diesem Tab werden die Berechtigungen für Dozenten / Klassenlehrer hinsichtlich der Termine und Absenzen festgelegt.
 
-![modules_events_and_absences_tab_permissions_v1_de.png](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" }  
+![modules_events_and_absences_tab_permissions_v1_de.png](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" }
 
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
+
 ---
 
 
@@ -112,19 +132,19 @@ Werden hier keine Begründungen hinterlegt, erscheint die Begründungsauswahl be
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
+
 ---
 
 
 ## Tab Begründungen Absenzen
 
-In der Kursadministration können Besitzer:innen/Betreuer:innen Absenzen erfassen. 
+In der Kursadministration können Besitzer:innen/Betreuer:innen Absenzen erfassen.
 Für die Begründung der Absenzen kann dabei aus verschiedenen Begriffen ausgewählt werden, wie z.B. "Krankheit", "Unfall", "Dozent:in krank", u.ä.
 
-Diese dort angebotene Auswahl an Begriffen und Beschreibungen kann hier definiert werden.  
+Diese dort angebotene Auswahl an Begriffen und Beschreibungen kann hier definiert werden.
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
+
 ---
 
 
@@ -140,4 +160,3 @@ Hier können Reports für bestimmte Zeiträume angezeigt werden. Es kann nach de
 Alle Reports können auch als Excel-Datei heruntergeladen werden.
 
 [Zum Seitenanfang ^](#module_events_and_absences)
-  
