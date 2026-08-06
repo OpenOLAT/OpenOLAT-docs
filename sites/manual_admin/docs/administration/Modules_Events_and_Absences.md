@@ -4,11 +4,9 @@ Before the lectures and absence management can be used it need to be activated i
 
 !!! tip "Activation"
 
-	Customers of frentix please contact
-	[contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the 
-	lectures and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.  
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the lectures and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.
 
-	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+    **Not a frentix hosting-client?** Please ask your local system operator!
 
 
 [To the top of the page ^](#module_events_and_absences)

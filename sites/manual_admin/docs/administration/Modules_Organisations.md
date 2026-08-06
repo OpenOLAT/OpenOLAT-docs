@@ -3,11 +3,10 @@
 The Organizations module is optionally available in OpenOlat and must be activated in the administration. 
 
 !!! tip "Activation"
-	
-	Customers of frentix please contact
-	[contact@frentix.com](mailto:contact@frentix.com) for this. After activation, various additional settings can be made for the system-wide configuration. For systems with the fx-Release, these adjustments are made by frentix.
 
-	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for this. After activation, various additional settings can be made for the system-wide configuration. For systems with the fx-Release, these adjustments are made by frentix.
+
+    **Not a frentix hosting-client?** Please ask your local system operator!
 
 
 ## Tab Configuration {: #tab_configuration}
