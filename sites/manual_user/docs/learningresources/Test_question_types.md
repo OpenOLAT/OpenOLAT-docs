@@ -12,11 +12,11 @@ First a short title and a question are inserted.
 
 Afterward it needs to be selected, if the questions should be shuffled, if the alignment of the questions is vertically or horizontally and if the checkboxes are aligned left or right.
 
-Then the answer texts can be added. Additional answers can be added with the button ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }. Questions can be deleted with the button ![Remove answer](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Then the answer texts can be added. Additional answers can be added with the button :o_icon_o_icon_add:. Answers can be deleted with the button :o_icon_o_icon_delete:.
 
 The correct answer can be selected in column _Correct Answer_. The order of the questions can be changed with the arrows.
 
-![Example Single Choice Question](assets/Single_choice_Beispiel.gif){ class="shadow" }
+![Example Single Choice Question](assets/Single_choice_Beispiel.gif){ class="shadow lightbox" }
 
 ---
 
@@ -24,15 +24,14 @@ The correct answer can be selected in column _Correct Answer_. The order of the 
 
 A multiple-choice question comprises one question and at least two answers; several answers can be selected. In a test several answers can be correct.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
-{ class=thumbnail-sm }
+![Example Multiple Choice Question](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 **Tab "Choice"**<br>
 First a short title and a question are inserted.
 
 Afterward it need to be selected, if the questions should be shuffled, if the alignment of the questions is vertically or horizontally and if the check-boxes are aligned left or right.
 
-Then the answer texts can be added. Additional answers can be added with the button ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }. Questions can be deleted with the button ![Remove answer](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Then the answer texts can be added. Additional answers can be added with the button :o_icon_o_icon_add:. Answers can be deleted with the button :o_icon_o_icon_delete:.
 
 The correct answers can be selected in column _Correct Answer_. The order of the questions can be changed with the arrows.
 
@@ -74,7 +73,7 @@ All correct answers = 100% score<br>
 3 correct answers = 50% score<br>
 2, 1 or 0 correct answers = 0% score
 
-![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow" }
+![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow lightbox" }
 
 ---
 
@@ -82,7 +81,7 @@ All correct answers = 100% score<br>
 
 A matrix question consists of several rows and columns, where the answer can be filled in for every row, either as single choice or as multiple choice.
 
-![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow" }
+![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow lightbox" }
 
 **Tab "Match"**<br>
 Again first a title and the question are inserted.
@@ -111,7 +110,7 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 In general the Drag&Drop questions has the same behavior as the matrix question. However, the test participants do not select the checkboxes, but move the items in the corresponding category.
 
-![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow" }
+![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow lightbox" }
 
 **Tab "Drag and drop"**<br>
 First a title and the question are inserted.
@@ -154,7 +153,7 @@ User can choose from three options: "Unanswered", "Right", "Wrong". "Unanswered"
 
 The scores can be defined as needed. You may even give points for the option "Unanswered".
 
-![Example True False Question](assets/True_false_Beispiel.png){ class="shadow" }
+![Example True False Question](assets/True_false_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
@@ -177,15 +176,15 @@ For every gap the following settings can be made:
     * Ignore spaces: Additional spaces, tabs and line breaks in the answer do not lead to a devaluation. For example, with the solution "log in", an entry with a double space is also counted as correct. [:octicons-tag-16:{ title="from Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
     * Wildcard: The character * stands for "something or nothing" in the solution and can also be used in the alternatives. For example, the solution "col*r" covers the spellings "color", "colour" and "colr". If participants enter a * themselves, it is treated as a normal character. A solution consisting only of wildcards is not accepted when saving. [:octicons-tag-16:{ title="from Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
-![Dialog "Edit gap" with the correction options](assets/Lueckentext_Dialog_Korrektur_en.png){ class="shadow" }
+![Dialog "Edit gap" with the correction options](assets/Lueckentext_Dialog_Korrektur_en.png){ class="shadow lightbox" }
 
 The points can be chosen freely. Points can also be awarded for alternative answers.
 
 If at least two gaps contain an identical answer option, the "Allow twice the same input" setting is available in the " Score" tab. This allows or prevents the entry of the same answer in multiple gaps.
 
-![Editor toolbar with the buttons for inserting text, numerical and dropdown gaps](assets/Lueckentext_Editor_Buttons_en.png){ class="shadow" }
+![Editor toolbar with the buttons for inserting text, numerical and dropdown gaps](assets/Lueckentext_Editor_Buttons_en.png){ class="shadow lightbox" }
 
-![Gap text in the participant view](assets/Lueckentext_Beispiel_en.png){ class="shadow" }
+![Gap text in the participant view](assets/Lueckentext_Beispiel_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -193,17 +192,17 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps are then assigned several answers under "Answer options"; the correct answer is marked as the solution.
 
-![Editor button for inserting a dropdown gap](assets/Lueckentext_dropdown_Button_en.png){ class="shadow" }
+![Editor button for inserting a dropdown gap](assets/Lueckentext_dropdown_Button_en.png){ class="shadow lightbox" }
 
-![Gap text with dropdown in the participant view](assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow" }
+![Gap text with dropdown in the participant view](assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow lightbox" }
 
 Under "Display", the option "Order of answers options" defines whether the answers are shown to the participants in shuffled order or in the preset order you entered. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-![Dialog "Create gap" with the "Order of answers options" option](assets/Lueckentext_dropdown_Reihenfolge_en.png){ class="shadow" }
+![Dialog "Create gap" with the "Order of answers options" option](assets/Lueckentext_dropdown_Reihenfolge_en.png){ class="shadow lightbox" }
 
 Furthermore, global answer options can also be used for the gaps. They are defined once per question via "Add global answer" and are then displayed in each gap of the respective question; the user must select the appropriate answer for this gap.
 
-![Editor with global answer options switched on](assets/Lueckentext_dropdown_Global_en.png){ class="shadow" }
+![Editor with global answer options switched on](assets/Lueckentext_dropdown_Global_en.png){ class="shadow lightbox" }
 
 Scoring can be done across all gaps as well as configured separately for each answer of a gap.
 
@@ -232,9 +231,9 @@ First a short title is inserted. Afterward the next is written with fields for t
     * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
     * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed.
 
-![Dialog "Edit gap" for Gap FIB numerical with tolerance switched on](assets/Lueckentext_numerisch_Toleranz_en.png){ class="shadow" }
+![Dialog "Edit gap" for Gap FIB numerical with tolerance switched on](assets/Lueckentext_numerisch_Toleranz_en.png){ class="shadow lightbox" }
 
-![Gap FIB numerical in the participant view](assets/Lueckentext_numerisch_Beispiel_en.png){ class="shadow" }
+![Gap FIB numerical in the participant view](assets/Lueckentext_numerisch_Beispiel_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -248,7 +247,7 @@ If the question contains gaps with dropdown, global answer options can also be d
 
 Existing questions of the types Gap text and Gap FIB numerical that contain both text and numerical gaps show a message in the question editor. The action "Convert to 'Gap mixed'" converts such a question into the new question type.
 
-![Gap mixed in the participant view](assets/Lueckentext_gemischt_Beispiel_en.png){ class="shadow" }
+![Gap mixed in the participant view](assets/Lueckentext_gemischt_Beispiel_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -260,7 +259,7 @@ First a short title is inserted.
 
 Afterward a text is written and the selectable terms are marked as hottext. Finally the correct answers need to be marked by selecting the check boxes.
 
-![Example Hottext Question](assets/Hottext_Beispiel.png){ class="shadow" }
+![Example Hottext Question](assets/Hottext_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
@@ -275,7 +274,7 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 * Then spots in form of circles or rectangles can be placed on the image. In advanced editing, spots can also be easily duplicated.
 * Finally, the correct answer needs to be selected.
 
-![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow" }
+![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow lightbox" }
 
 ---
 
@@ -292,7 +291,7 @@ Then the answers can be entered in the correct order and the alignment of the di
     This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
 
 
-![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow" }
+![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
@@ -312,8 +311,8 @@ Afterward the following attributes can be chosen:
 
 Essay questions come with a pre-defined width and a tab function. Hence, answers can be formatted more easily, e.g. by displaying columns.
 
-![Example Essay Question](assets/Essay_Beispiel.png){ class="shadow" }
-  
+![Example Essay Question](assets/Essay_Beispiel.png){ class="shadow lightbox" }
+
 !!! info "Autosave"
 
 	As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the excursion below this table.
@@ -328,7 +327,7 @@ A short title and the question are entered as well as the number of available up
 
 No correct answer can be marked, as the assessment of this question type is only manually possible.
 
-![Example File Upload Question](assets/Fileupload_Beispiel.png){ class="shadow" }
+![Example File Upload Question](assets/Fileupload_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
@@ -348,13 +347,13 @@ It is also possible for the participants to add text via the text tool. The text
     This question type is operated by freehand drawing and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
 
 
-![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow" }
-  
+![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow lightbox" }
+
 !!! tip "Import questions"
 
 	Beside the direct creation, questions can also be imported out of the [question bank](../area_modules/Question_Bank.md) or by [Excel](../area_modules/Data_Management.md#usage-of-the-file-excel-import-template)
 
-??? abstract "Digression – Writing essays"
+??? abstract "Digression: Writing essays"
 
 	With the learning resource test and the question type essay, essays can be written in OpenOlat. The following points need to be considered:
 
