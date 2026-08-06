@@ -10,4 +10,4 @@ Mit OpenOlat können Sie Leistungskontrollen verschiedener Art durchführen. Neb
 In diesem Kapitel erfahren Sie was der **Prüfungsmodus** ist, welche Kursbausteine zur Bewertung von Kursteilnehmern zur Verfügung stehen, und wie Sie die **Coaching Funktion** nutzen können.
 
 Informationen dazu wie sich der Prüfungsmodus aus Sicht der Lernenden zeigt, finden Sie unter
-[Prüfungen](../learningresources/Exams.de.md).
+[Prüfungsmodus](../learningresources/Assessment_mode.de.md) im Abschnitt "Prüfung durchführen". Ist der Safe Exam Browser Voraussetzung, beschreibt das How-to den [Start durch Teilnehmende](../../manual_how-to/SEB/SEB.de.md#SEB_participants).
