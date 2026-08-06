@@ -52,7 +52,9 @@ Die Eingabe in diesem Textfeld wird in der Kursinfo angezeigt.
 ## Konfiguration Termin- und Absenzenverwaltung im Kurs {: #config_event_and_absence_management}
 
 ![4_green_24.png](assets/4_green_24.png) **Termin- und Absenzenverwaltung einschalten**<br>
-Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschaltet, werden die Option 5 bis 14 zur weiteren Konfiguration angezeigt. 
+Diese Option steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul erscheint der gesamte Abschnitt (Punkte 4 bis 15) im Tab "Durchführung" nicht.
+
+Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschaltet, werden die Punkte 5 bis 11 zur weiteren Konfiguration angezeigt, bei erlaubtem Prüfungsmodus zusätzlich die Punkte 12 bis 15. 
 
 Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" unter der (Kurs-)Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
 
@@ -63,10 +65,11 @@ Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" unter d
 
 
 ![5_green_24.png](assets/5_green_24.png) **Standard-Konfiguration überschreiben zulassen**<br>
-Ist das Überschreiben nicht zugelassen, wird die Voreinstellung des/der Administrator:in angewendet.
-Die nachstehenden Checkboxen und Eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an.
-
 Wird das Überschreiben zugelassen, sind die nachfolgenden Checkboxen und Eingabefelder editierbar und es kann spezifisch für diesen Kurs eine Konfiguration der Termin- und Absenzenverwaltung vorgenommen werden.
+
+Ist das Überschreiben nicht zugelassen, wird die Voreinstellung des/der Administrator:in angewendet. Die nachstehenden Checkboxen und Eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an. Die dort voreingestellten Funktionen sind im Kurs dennoch wirksam.
+
+Ob das Überschreiben im Kurs aktiviert werden kann, steuert die Administration mit der Einstellung "Überschreiben der Standard-Konfiguration zulassen".
 
 ![6_green_24.png](assets/6_green_24.png) **Anwesenheitskontrolle einschalten**<br>
 Wird die Anwesenheitskontrolle eingeschaltet, stehen als weitere Konfigurationsoptionen **"Anwesenheitsquote berechnen"** und **"Absenzenquote global in %"** zur Verfügung.
@@ -89,24 +92,33 @@ Ist die Option gewählt, werden Kurs-Termine bei den Dozenten in ihren persönli
 Ist die Option gewählt, werden Termine im Kurskalender eingetragen. Ist die Option nicht gewählt, sind nur noch die einfachen Termine im Kurskalender aufgeführt, die Termine mit der Möglichkeit zum Erfassen einer Absenz nicht mehr.
 
 ![11_green_24.png](assets/11_green_24.png) **Prüfungsmodus für Termine erlauben**<br>
-Um dieses Feld auswählen zu können, muss die Option "Standard-Konfiguration überschreiben zulassen" ausgewählt sein.
-Wird der Prüfungsmodus für Termine erlaubt, kann man bei Terminen im 3-Punkte-Menü eine Option "Als Prüfung markieren" wählen. Dadurch wird dann ein Prüfungsmodus erstellt. Ausserdem werden dann die nachfolgenden Punkte 12 bis 15 angezeigt.
+Ist der Prüfungsmodus für Termine erlaubt, kann man bei Terminen im 3-Punkte-Menü die Option "Als Prüfung markieren" wählen. Dadurch wird ein Prüfungsmodus erstellt. Ausserdem werden die nachfolgenden Punkte 12 bis 15 mit den kursweiten Vorgabewerten für diese Prüfungsmodi angezeigt. Die Vorgabewerte werden beim Markieren übernommen; bereits erstellte Prüfungsmodi bleiben bei späteren Änderungen unverändert.
+
+Zum Ändern dieser Einstellung im Kurs ist die Option "Standard-Konfiguration überschreiben zulassen" nötig. Ist das Überschreiben nicht zugelassen und der Prüfungsmodus in der Administration erlaubt, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der Administration.
 
 ![12_green_24.png](assets/12_green_24.png) **Vorlaufzeit**<br>
 Die Vorlaufzeit bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
-Wenn Betreuer:innen oder Besitzer:innen einen Termin "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Vorlaufzeit.)
+Wenn Betreuer:innen oder Besitzer:innen einen Termin "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellten Prüfungsmodi des Kurses haben die gleiche Vorlaufzeit.)
 
 ![13_green_24.png](assets/13_green_24.png) **Nachlaufzeit**<br>
 Die Nachlaufzeit bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
-Wenn Betreuer:innen oder Besitzer:innen einen Termin als "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Nachlaufzeit.)
+Wenn Betreuer:innen oder Besitzer:innen einen Termin "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellten Prüfungsmodi des Kurses haben die gleiche Nachlaufzeit.)
 
 ![14_green_24.png](assets/14_green_24.png) **Erlaubte IP-Adressen**<br>
-Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".
+Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
+Die hier erfassten IP-Adressen werden in den Prüfungsmodus übernommen, wenn ein Termin "als Prüfung markiert" wird.
 
 ![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Key**<br>
-Dieses Feld ist der kursweite Vorgabewert für die Variante "SEB mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" und die Prüfung mit dem Safe Exam Browser abgesichert wird.
+Dieses Feld ist der kursweite Vorgabewert für die Variante "SEB mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" und die Prüfung mit dem Safe Exam Browser abgesichert wird. Im Prüfungsmodus des Termins wird der Key zur Information angezeigt und dort nicht bearbeitet.
 
-Das Feld erscheint nur, wenn in der Administration unter "Safe Exam Browser - Art der Benutzung" die Variante "SEB mit manuellen Keys" gewählt ist. Ist "SEB-Config (empfohlen)" aktiv, wird der Safe Exam Browser stattdessen über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) pro Prüfung konfiguriert; dieses Feld wird dann nicht angezeigt.
+Das Feld erscheint nur, wenn die Administration bei "Safe Exam Browser - Art der Benutzung" die Variante "SEB mit manuellen Keys" gewählt hat. Sie finden die Einstellung unter:<br>
+`Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
+
+Bleibt das Feld bei zugelassenem Überschreiben leer, erhalten die Prüfungsmodi dieses Kurses keinen Key; der Key aus der Administration wird in diesem Fall nicht verwendet.
+
+Ist "SEB-Config (empfohlen)" aktiv, wird der Safe Exam Browser pro Prüfung über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) konfiguriert und dieses Feld wird nicht angezeigt. Beim Markieren als Prüfung steht im Prüfungsmodus des Termins das Feld "Konfiguration" mit den aktiven Vorlagen zur Verfügung, wobei die Standardvorlage vorausgewählt ist. Ob die Konfigurationsdatei heruntergeladen werden kann, legt in diesem Fall die Administration fest.
+
+Prüfungsmodi, die direkt über die [Prüfungsverwaltung](../learningresources/Assessment_mode.de.md) erstellt werden, verwenden diesen kursweiten Key nicht. Dort wird die SEB-Variante pro Prüfungsmodus über "Typ von Anwendung" gewählt.
 
 [Zum Seitenanfang ^](#tab_execution)
 
