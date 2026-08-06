@@ -51,8 +51,10 @@ The text entered in this field will be displayed in the course information.
 
 ## Configuring event and absence management in the course {: #config_event_and_absence_management}
 
-![4_green_24.png](assets/4_green_24.png) **Enable event and absence management**<br>
-If you enable schedule and absence management for the current course, options 5 through 14 will be displayed for further configuration.
+![4_green_24.png](assets/4_green_24.png) **Enable event & absence management**<br>
+This option is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the entire section (points 4 to 15) does not appear in the "Execution" tab.
+
+If you enable event and absence management for the current course, points 5 to 11 are displayed for further configuration, and with assessment mode allowed additionally points 12 to 15.
 
 In addition, the "Events and Absences" menu will then appear under (Course) Administration. As the **course owner**, you can enter appointments and absences there once the configuration is complete (at runtime).
 
@@ -62,14 +64,15 @@ In addition, the "Events and Absences" menu will then appear under (Course) Admi
     **Members** find their absences in the [Personal Menu](../personal_menu/Absences.md)
 
 
-![5_green_24.png](assets/5_green_24.png) **Allow overriding of default configuration**<br>
-If overwriting is not permitted, the administrator's default setting will be applied.
-The checkboxes and input fields below will remain inactive and display the default value.
-
+![5_green_24.png](assets/5_green_24.png) **Override default configuration**<br>
 If overwriting is permitted, the following checkboxes and input fields can be edited and a specific configuration of the event and absence management can be made for this course.
 
-![6_green_24.png](assets/6_green_24.png) **Enable attendance monitoring**<br>
-If attendance monitoring is enabled, the additional configuration options **"Calculate attendance rate"** and **"Absence rate globally in %"** are available.
+If overwriting is not permitted, the administrator's default setting will be applied. The checkboxes and input fields below remain inactive and display the default value. The functions preset there are nevertheless effective in the course.
+
+Whether overwriting can be enabled in the course is controlled by the administration with the setting "Allow override of configuration".
+
+![6_green_24.png](assets/6_green_24.png) **Roll call enabled**<br>
+If attendance monitoring is enabled, the additional configuration options **"Calculate attendance rate"** and **"Attendance quota global in %"** are available.
 
 ![7_green_24.png](assets/7_green_24.png) **Calculate attendance rate**<br>
 The attendance rate is calculated based on events with multiple units and absences.
@@ -78,35 +81,44 @@ The attendance rate is calculated based on events with multiple units and absenc
 An event consists of 10 sessions. The participant was absent from one of the sessions.<br>
 => This results in an attendance rate of 90%.
 
-![8_green_24.png](assets/8_green_24.png) **Global absence rate in %**<br>
+![8_green_24.png](assets/8_green_24.png) **Attendance quota global in %**<br>
 A global attendance rate is calculated for all participants across all dates of the current course and displayed in the personal menu under "Absences".
 The global absence rate specified here is used to assess the attendance rate.
 
-![9_green_24.png](assets/9_green_24.png) **Synchronize lecturer calendar**<br>
+![9_green_24.png](assets/9_green_24.png) **Synchronize teacher calendar**<br>
 If this option is selected, course dates are entered into the lecturers' personal calendars. (These dates are dates for which absences can be recorded.)
 
 ![10_green_24.png](assets/10_green_24.png) **Synchronize course calendar**<br>
 If this option is selected, events are entered in the course calendar. If this option is not selected, only the simple events are listed in the course calendar; events with the option to record an absence are no longer listed.
 
-![11_green_24.png](assets/11_green_24.png) **Allow exam mode for events**<br>
-To select this field, the "Allow overriding of default configuration" option must be selected.
-If exam mode is enabled for events, you can select the "Mark as exam" option from the three-dot menu for events. This will then create a test mode. In addition, the following items 12 through 15 will be displayed.
+![11_green_24.png](assets/11_green_24.png) **Allow assessment mode for events**<br>
+If assessment mode is allowed for events, you can select the "Mark as exam" option from the 3-dot menu for events. This creates an assessment mode. In addition, the following points 12 to 15 are displayed with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
 
-![12_green_24.png](assets/12_green_24.png) **Lead time**<br>
-The lead time refers to "Allow review mode for events."
-When instructors or owners "mark an event as an exam," an exam mode is created with this setting. (All exam modes created in this way for the course have the same lead time.)
+To change this setting in the course, the option "Override default configuration" is required. If overwriting is not permitted and assessment mode is allowed in the administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
 
-![13_green_24.png](assets/13_green_24.png) **Follow-up time**<br>
-The follow-up time refers to "Allow audit mode for events".<br>
-When instructors or owners mark an assignment as "mark as exam," an exam mode is created with this setting. (All exam modes created in this way for the course have the same grace period.)
+![12_green_24.png](assets/12_green_24.png) **Prep time**<br>
+The prep time refers to "Allow assessment mode for events".<br>
+When coaches or owners "mark an event as an exam", an assessment mode is created with this setting. (All assessment modes created in this way for the course have the same prep time.)
 
-![14_green_24.png](assets/14_green_24.png) **Allowed IP addresses**<br>
-This setting also refers to "Allow exam mode for events".
+![13_green_24.png](assets/13_green_24.png) **Follow-up**<br>
+The follow-up refers to "Allow assessment mode for events".<br>
+When coaches or owners "mark an event as an exam", an assessment mode is created with this setting. (All assessment modes created in this way for the course have the same follow-up.)
 
-![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Key**<br>
-This field is the course-wide default value for the "SEB with manual keys" variant. The stored key is applied when an event is "marked as exam" and the exam is secured with the Safe Exam Browser.
+![14_green_24.png](assets/14_green_24.png) **Admissible IP addresses**<br>
+This setting also refers to "Allow assessment mode for events".<br>
+The IP addresses entered here are applied to the assessment mode when an event is "marked as exam".
 
-The field only appears if the administration has selected the "SEB with manual keys" variant under "Safe Exam Browser - Type of use". If "SEB-Config (recommended)" is active, the Safe Exam Browser is instead configured per exam via [configuration templates](../learningresources/Assessment_mode.md); the field is then not shown.
+![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Keys**<br>
+This field is the course-wide default value for the "SEB with manual keys" variant. The stored key is applied when an event is "marked as exam" and the exam is secured with the Safe Exam Browser. In the assessment mode of the event, the key is displayed for information and cannot be edited there.
+
+The field only appears if the administration has selected the "SEB with manual keys" variant for "Safe Exam Browser - Type of use". You find the setting under:<br>
+`Administration > Modules > Events / Absences`, tab "Configuration".
+
+If the field is left empty while overwriting is permitted, the assessment modes of this course receive no key; the key from the administration is not used in that case.
+
+If "SEB-Config (recommended)" is active, the Safe Exam Browser is configured per exam via [configuration templates](../learningresources/Assessment_mode.md) and this field is not shown. When marking an event as an exam, the field "Configuration" with the active templates is available in the assessment mode of the event, with the default template preselected. Whether the configuration file can be downloaded is determined by the administration in this case.
+
+Assessment modes created directly via the [assessment management](../learningresources/Assessment_mode.md) do not use this course-wide key. There, the SEB variant is chosen per assessment mode via "Type of use".
 
 [To the top of the page ^](#tab_execution)
 

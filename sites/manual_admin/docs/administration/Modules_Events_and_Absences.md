@@ -1,129 +1,153 @@
 # Module Events and Absences {: #module_events_and_absences}
 
-Before the lectures and absence management can be used it need to be activated in the administration. 
+Before the event and absence management can be used it need to be activated in the administration.
 
 !!! tip "Activation"
 
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the lectures and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the event and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.
 
     **Not a frentix hosting-client?** Please ask your local system operator!
 
 
 [To the top of the page ^](#module_events_and_absences)
-  
+
 ---
 
 ## Tab Configuration
 
-![modules_events_and_absences_tab_configuration_v1_de.png](assets/modules_events_and_absences_tab_configuration_v1_de.png){ class="shadow lightbox" }  
+### Configuration - can be overridden at course level
+
+![modules_events_and_absences_config_course_level_v2_en.png](assets/modules_events_and_absences_config_course_level_v2_en.png){ class="shadow lightbox" }
+
+**Enable event & absence management**: General activation ("main switch")
+
+**Enable absences/notices of absence/dispensations**: Causes coaches to see the "Notifications" tab under `Coaching > Events`.
+
+**Allow override of configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
+
+**Roll call enabled**: Attendance can only be checked, and the participants and the checkboxes only appear, if this option is activated.
+
+**Calculate attendance rate (default)**: If this option is activated, an attendance percentage is calculated.
+
+**Attendance quota global in %**: This quota indicates the percentage of attendance required to fulfill the conditions of a course.
+
+**Synchronize teacher calendar**: Teachers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as teachers (this function must be switched off for Px customers).
+
+**Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, teachers and course owners.
+
+**Allow assessment mode for events**: Only with this option do the fields "Prep time", "Follow-up" and "Admissible IP addresses" appear.
+
+**Safe Exam Browser - Type of use**: Defines how the Safe Exam Browser is secured when an event is marked as an exam.
+
+Assessment modes that do not originate from an event are independent of this setting. There, the variant is chosen per assessment mode via "Type of use":<br>
+`Course > Administration > Assessment management`
+
+For the route via events: **course owners** enable the event and absence management in the course under `Course > Administration > Settings > Execution` and create the events under `Course > Administration > Events and Absences`. Once saved, an event can be marked as an exam via the 3-dot menu.
+
+!!! note "See detailed description of the 3-dot menu"
+
+    [Configuring event and absence management in the course](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
+
+??? info "What coaches are allowed to do"
+
+    Coaches find no entry in the course administration, but the "Events" tool in the course toolbar. There they record attendance and absences and can mark their events as an exam as well. This view is described in the user manual: [Toolbar: Events, Call as coach](../../manual_user/learningresources/Toolbar_Events.md#call_as_coach)
+
+    Their rights are granted system-wide, not per course: the tab "Permissions" on this page defines whether teachers may authorize absences, record notices or view and approve appeals. There is no course-specific right for events and absences.
+
+    In the course, owners control who is assigned to an event as a teacher: [Manage teachers](../../manual_user/learningresources/Events_and_absences.md#manage_teachers). Coaches see their own events; the setting "Default display in course" in the global configuration defines whether the events of the other teachers can be displayed in addition.
+
+??? info "SEB-Config (recommended): templates from the system administration"
+
+    The [configuration templates](e-Assessment_AssessmentMgmt.md#tab_seb) are maintained system-wide under:<br>
+    `Administration > e-Assessment > Assessment management`, tab "Safe Exam Browser configuration"
+
+    When an event is marked as an exam, the template marked as default is preselected, and the selection is made per exam. In addition, the field "Downloadable configuration file" appears.
+
+??? info "SEB with manual keys: default values from system and course administration"
+
+    The system-wide default value is entered directly below this setting in the field "Safe Exam Browser Keys".
+
+    It can be overridden per course under:<br>
+    `Course > Administration > Settings > Execution`, field ["Safe Exam Browser Keys"](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
+
+**Downloadable configuration file**: This option appears with the variant "SEB-Config (recommended)". Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if participants' own devices are used for the exam (BYOD).)
 
 
-### Configuration - overridable on course level 
+### Global configuration
 
-![1_green_24.png](assets/1_green_24.png) **Switch on appointment and absence management**: General activation (‘main switch’)
+![modules_events_and_absences_global_config_v1_en.png](assets/modules_events_and_absences_global_config_v1_en.png){ class="shadow lightbox" }
 
-![2_green_24.png](assets/2_green_24.png) **Switch on absences / cancelations / dispensations**: Causes coaches to see the ‘Notifications’ tab in the coaching tool > events.
+**Daily recording of absences**: yes or no
 
-![3_green_24.png](assets/3_green_24.png) **Allow overwriting of the default configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
+**Allow holding partial events**: When completing an event, the number of units that have actually been completed can be selected under "Effective units". This means that the attendance rate is only partially calculated.
 
-![4_green_24.png](assets/4_green_24.png) **Switch on presence control**: I can only check attendance and see the participants and the checkboxes if this option is activated.
+**Event status**: If this option is selected, whole events can be cancelled. Such an event does not count for the attendance quota.
 
-![5_green_24.png](assets/5_green_24.png) **Calculation of the attendance rate**: If this option is activated, an attendance percentage is calculated.
+**Reminder enabled**: This activates the reminder function. The reminder period and the auto close period must then be defined.
 
-![6_green_24.png](assets/6_green_24.png) **Global absentee rate in %**: This quota indicates the percentage of attendance required to fulfill the conditions of a course.
+**Reminder period in days**: The reminder period is entered here in number of days. Once this number of days has been reached, the teacher is reminded to check attendance. One day corresponds to 24 hours and counting begins at the end of the event entered.
 
-![7_green_24.png](assets/7_green_24.png) **Synchronize lecturer calendar**: Lecturers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as lecturers (this function must be switched off for Px customers).
+**Auto close period in days**: Again, the number of days is entered. After this period has expired, the status of the event is automatically set to completed. The attendance check already entered is saved. If nothing is entered, all participants are saved as present. The count begins on the day after the event has reached its end time and runs until the end of the day.
 
-![8_green_24.png](assets/8_green_24.png) **Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, instructors and course owners.
+**Authorized absences**: This option allows absences to be authorized. If this option is not activated, all absences are considered unauthorized.
 
-![9_green_24.png](assets/9_green_24.png) **Allow test mode for events**
+**Count authorized absence as attendant**: With this option, absences that are authorized are counted as present for the calculation of the absence rate.
 
-![10_green_24.png](assets/10_green_24.png) **Lead time**
+**Absence per default authorized**: In principle, registered absences are considered unauthorized. This option automatically sets all entered absences to authorized. If this is not the case, the absence must be manually set to unauthorized.
 
-![11_green_24.png](assets/11_green_24.png) **Follow-up time**
+**Appeal absence enabled**: If the appeal period is activated, course participants are given the opportunity to submit an appeal for a registered absence. This may be necessary, for example, if an absence is subsequently recognized as authorized or if the teacher has entered an absence incorrectly.
 
-![12_green_24.png](assets/12_green_24.png) **Allowed IP addresses**
+**Appeal absence period in days**: The appeal period begins as soon as the event is completed. Either the teacher has manually set the event to completed or the auto close period has expired and the event has been set to completed automatically. The counting of days begins on the day after the status of the event has been set to completed. Whole days are then counted and the deadline for appeals is at the end of each day.
 
-![13_green_24.png](assets/13_green_24.png) **Safe Exam Browser - Type of use**
+**Default display in course**: Events of all teachers or only your own.
 
-![14_green_24.png](assets/14_green_24.png) **Downloadable configuration file**: Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if, participants' own devices are used for the exam (BYOD).) 
-
-
-  
----
-
-### Globale configuration
-
-![15_green_24.png](assets/15_green_24.png) **Daily recording absences**: yes or no
-
-![16_green_24.png](assets/16_green_24.png) **Allow holding partial events**: When completing an event, the number of units that have actually been completed can be selected under "Effective units". This means that the attendance rate is only partially calculated.
-
-![17_green_24.png](assets/17_green_24.png) **Lectures status**: If this option is selected lecture blocks can be cancelled. Thus this lecture block does not count for the attendance quote.
-
-![18_green_24.png](assets/18_green_24.png) **Default number of planned units**
-
-![19_green_24.png](assets/19_green_24.png) **Switch on reminder function**: This activates the reminder function. The reminder and blocking period must then be defined.
-
-![20_green_24.png](assets/20_green_24.png) **Reminder period**: The reminder period is entered here in number of days. Once this number of days has been reached, the lecturer is reminded to check attendance. One day corresponds to 24 hours and counting begins at the end of the date entered.
-
-![21_green_24.png](assets/21_green_24.png) **Blocking period**: Again, the number of days is entered. After this period has expired, the status of the appointment is automatically set to completed. The attendance check already entered is saved. If nothing is entered, all participants are saved as present. The blocking period count begins on the day after the appointment has reached the end time and runs until the end of the day.
-
-![22_green_24.png](assets/22_green_24.png) **Excused absences**: This option allows absences to be excused. If this option is not activated, all absences are considered unexcused.
-
-![23_green_24.png](assets/23_green_24.png) **Excused absences count as present**: With this option, absences that are excused are counted as present for the calculation of the absentee rate.
-
-![24_green_24.png](assets/24_green_24.png) **Count absences as excused by default**:
-In principle, registered absences are considered unexcused. This option automatically sets all entered absences to excused. If this is not the case, the absence must be manually set to unexcused.
-
-![25_green_24.png](assets/25_green_24.png) **Course owners may view all courses in elements**
-
-![26_green_24.png](assets/26_green_24.png) **Grant recourse**: If the appeal period is activated, course participants are given the opportunity to submit an appeal for a registered absence. This may be necessary, for example, if an absence is subsequently recognized as excused or if the lecturer has entered an absence incorrectly.
-
-![27_green_24.png](assets/27_green_24.png) The appeal period begins as soon as the appointment is completed. Either the lecturer has manually set the deadline to completed or the blocking period has expired and the deadline has been automatically set to completed. The counting of days begins on the following day after the status of the appointment has been set to completed. Whole days are then counted and the deadline for appeals is at the end of each day.
-
-![28_green_24.png](assets/28_green_24.png) **Display in courses**: Dates of all lecturers or only your own.
 
 [To the top of the page ^](#module_events_and_absences)
-  
+
 ---
 
-## Tab Authorizations
 
-In this tab, the authorizations for lecturers / class teachers are defined with regard to dates and absences.
+## Tab Permissions
 
-![modules_events_and_absences_tab_permissions_v1_de.png](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" }  
+In this tab, the permissions for teachers / class teachers are defined with regard to events and absences.
+
+![modules_events_and_absences_tab_permissions_v1_en.png](assets/modules_events_and_absences_tab_permissions_v1_en.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#module_events_and_absences)
-  
+
 ---
 
 
-## Tab Reasons Dates 
-  
-Events can be ended automatically or manually. If an appointment is ended earlier, for example, a reason should be given. The **reason for ending an appointment differently** can be selected from a list.
+## Tab Reasons events
 
-The available terms and descriptions for these justifications can be defined here by administrators.
+Events can be ended automatically or manually. If an event is ended earlier, for example, a reason should be given. The **reason for ending an event differently** can be selected from a list.
 
-If no reasons are entered here, the reason selection does not appear when the Events is closed.
+The available terms and descriptions for these reasons can be defined here by administrators.
+
+If no reasons are entered here, the reason selection does not appear when the event is closed.
+
 
 [To the top of the page ^](#module_events_and_absences)
-  
+
 ---
 
-## Tab Reasons for absences
 
-Owners/coaches can enter absences in the course administration. 
-Various terms can be selected for the reason for the absences, such as "illness", "accident", "lecturer ill", etc.
+## Tab Reasons absences
+
+Owners/coaches can enter absences in the course administration.
+Various terms can be selected for the reason for the absences, such as "illness", "accident", "teacher ill", etc.
 
 The selection of terms and descriptions offered there can be defined here.
 
 [To the top of the page ^](#module_events_and_absences)
-  
+
 ---
+
 
 ## Tab Report
 
-Reports for specific time periods can be displayed here. You can preselect according to the status of the appointments/absences:
+Reports for specific time periods can be displayed here. You can preselect according to the status of the events/absences:
 
 - Open
 - Finished
@@ -133,7 +157,3 @@ Reports for specific time periods can be displayed here. You can preselect accor
 All reports can also be downloaded as Excel files.
 
 [To the top of the page ^](#module_events_and_absences)
-
-
-
-
