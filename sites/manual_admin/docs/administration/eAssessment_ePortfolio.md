@@ -1,6 +1,6 @@
 # e-Assessment Administration: ePortfolio {: #portfolio}
 
-The administrator can switch ePortfolio 2.0 on or off in the `eAssessment → ePortfolio` area.
+The administrator can switch ePortfolio 2.0 on or off under `Administration > e-Assessment > ePortfolio`.
 
 Furthermore it is defined to what extend the learners can create their own binders and if they can access portfolio templates. The extent of individual use is therefore defined here independently of teachers or teaching processes.
 

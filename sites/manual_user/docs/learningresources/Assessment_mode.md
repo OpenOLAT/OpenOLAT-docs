@@ -123,7 +123,7 @@ Under the **Configuration from the template** legend, the detailed settings take
 ![assessment_management_create_exam_setting_tab_seb_config_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "Prerequisite"
-    The template selection is only available if at least one active template has been created in the administration under `Administration > eAssessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
+    The template selection is only available if at least one active template has been created in the administration under `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
 
 !!! note "Further information"
     [Configure Safe Exam Browser (SEB) >](../../manual_how-to/SEB/SEB.md)

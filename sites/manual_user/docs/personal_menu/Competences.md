@@ -30,7 +30,7 @@ In addition to being displayed in a user's personal tools, the awarding or acqui
 
 In the admin manual
 
-- [eAssessment: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md) (Administration)
+- [e-Assessment: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md) (Administration)
 - [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md) (Administration)
 - [REST API >](../../manual_admin/administration/REST_API.md) (Administration)
 - User profile of the [User management >](../../manual_admin/usermanagement/Configure_User.md) (Administration)

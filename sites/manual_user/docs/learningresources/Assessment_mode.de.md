@@ -123,7 +123,7 @@ Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewäh
 ![assessment_management_create_exam_setting_tab_seb_config_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_config_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Voraussetzung"
-    Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > eAssessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
+    Die Vorlagenauswahl steht nur zur Verfügung, wenn in der Administration unter `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
 !!! info "Weitere Informationen"
     [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
