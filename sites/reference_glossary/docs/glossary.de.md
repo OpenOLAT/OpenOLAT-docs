@@ -370,6 +370,14 @@ Persönlicher und Kurskalender zur Terminplanung und Eventverwaltung.
 
 WYSIWYG-Editor zum Erstellen reichhaltiger Inhalte, verwendet im Kursbaustein Seite, in der Lernressource Formular und im Portfolio.
 
+### Inspektor
+
+Einblendbares Fenster im Content Editor, in dem die Eigenschaften eines markierten Layouts oder Inhaltsblocks eingestellt werden: Layout und Abstände, Stil sowie die Einstellungen des jeweiligen Elementtyps.
+
+### Hinweis-Box
+
+Darstellungsform für Layouts und Inhaltsblöcke im Content Editor, die den Inhalt mit Farbe und Icon hervorhebt. Der gewählte Hinweis-Typ bestimmt Farbgebung und Icon; die Box lässt sich auf Wunsch einklappbar machen.
+
 ### Kurseditor
 
 Werkzeug zum Aufbau und zur Anpassung von Kursstruktur und Kursbausteinen.

@@ -462,6 +462,10 @@ Von der Kommission bestimmte externe Fachperson, die ein Gutachten zu einer Bewe
 
 Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
 
+### Hinweis-Box
+
+Darstellungsform für Layouts und Inhaltsblöcke im Content Editor, die den Inhalt mit Farbe und Icon hervorhebt. Der gewählte Hinweis-Typ bestimmt Farbgebung und Icon; die Box lässt sich auf Wunsch einklappbar machen.
+
 ### HTML-Seite
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
@@ -473,6 +477,10 @@ Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Ku
 ### Import (Content Editor)
 
 Importfunktion des Content Editors, die Markdown-Dateien, Word-Dokumente (.docx) oder eingefügten Markdown-Text automatisch in Blöcke des Content Editors umwandelt.
+
+### Inspektor
+
+Einblendbares Fenster im Content Editor, in dem die Eigenschaften eines markierten Layouts oder Inhaltsblocks eingestellt werden: Layout und Abstände, Stil sowie die Einstellungen des jeweiligen Elementtyps.
 
 ### JupyterHub
 

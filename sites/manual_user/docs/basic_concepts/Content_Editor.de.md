@@ -1,4 +1,4 @@
-# Content Editor {: #content_editor}
+# Content Editor
 
 ## Was ist der Content Editor? {: #content_editor}
 
@@ -64,6 +64,8 @@ Auch für Einträge in [Portfolio-Mappen](../area_modules/My_portfolio_binders.d
 
 ![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
+[Portfolio >](../area_modules/The_portfolio_editor.de.md)
+
 [Zum Seitenanfang ^](#content_editor)
 
 ---
@@ -101,9 +103,15 @@ In jeden Bereich eines Layouts können Inhalts-Blöcke mit verschiedenen konkret
 
 ### Inhalte in einem Block hinzufügen, positionieren und konfigurieren {: #add_content}
 
-Über "Inhalt hinzufügen" werden die konkreten Inhalte und Medien einem Block hinzugefügt. 
+Über "Inhalt hinzufügen" werden die konkreten Inhalte und Medien einem Block hinzugefügt. Der Link erscheint in jedem Bereich eines Layouts, so dass Sie den Inhalt genau dort einfügen, wo er stehen soll.
 
-Sobald ein hinzugefügter Inhalt angeklickt/markiert worden ist, erscheint ein Popup-Fenster, in dem Eigenschaften dieses Inhalts eingestellt werden können. Das ist der sogenannte "Inspektor". 
+![content_editor_add_content_page_v5_de.png](assets/content_editor_add_content_page_v5_de.png){ class="shadow lightbox" }
+
+Der Dialog "Inhalt hinzufügen" listet die verfügbaren Inhaltstypen nach den Bereichen "Text", "Medien", "Wissen" sowie "Andere & Design" auf. Am unteren Rand führen zwei Schaltflächen direkt zum [Media Center](#media_center) und zum [Import](#import_position).
+
+Fahren Sie im Bearbeitungsmodus mit der Maus über einen Block, wird dieser hervorgehoben [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8966)" }](https://track.frentix.com/issue/OO-8966){:target="_blank"}. Das hilft, einzelne Blöcke auseinanderzuhalten, wenn mehrere gleichartige Elemente aufeinander folgen.
+
+Sobald ein hinzugefügter Inhalt angeklickt/markiert worden ist, erscheint ein Popup-Fenster, in dem Eigenschaften dieses Inhalts eingestellt werden können. Das ist der sogenannte ["Inspektor"](#inspector). 
 
 Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und ausblenden.
 
@@ -111,7 +119,9 @@ Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und a
 
 **Menüs**
 
-Neben dem Zahnradsymbol gibt es noch ein 3-Punkte Menü und ein Fadenkreuz. Über das Fadenkreuz können weitere Inhaltselemente davor oder danach hinzugefügt oder das markierte Element gelöscht werden. Über das Fadenkreuz kann das markierte Element per Drag & Drop an eine andere Position, einen anderen Inhalts-Block oder ein anderes Layout verschoben werden.  
+Die Werkzeugleiste eines markierten Blocks umfasst vier Symbole: das Zahnrad für den Inspektor, ein Symbol zum Duplizieren, ein 3-Punkte-Menü und ein Fadenkreuz. Über das 3-Punkte-Menü fügen Sie weitere Inhaltselemente davor oder danach ein, verschieben das Element nach oben oder unten und löschen es. Über das Fadenkreuz verschieben Sie das markierte Element per Drag & Drop an eine andere Position, in einen anderen Inhalts-Block oder in ein anderes Layout.  
+
+Ein Block lässt sich mit der Aktion "Duplizieren" kopieren, sowohl als Kurzaktion am Block selbst als auch über das 3-Punkte-Menü [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
 ![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
 
@@ -120,7 +130,7 @@ Neben dem Zahnradsymbol gibt es noch ein 3-Punkte Menü und ein Fadenkreuz. Übe
 ---
 
 
-### Generelle Formatierungen für alle Inhaltsblöcke - Der Inspektor {: #inspector}
+### Generelle Formatierungen für alle Inhaltsblöcke - Der Inspektor [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
 
 **Abstände**
 
@@ -149,6 +159,11 @@ Für die ansprechende Gestaltung eines Layouts sind einheitliche Abstände zwisc
 
 
 
+**Hintergrund**
+
+Im Tab "Stil" legen Sie den Hintergrund eines Layouts fest [:octicons-tag-16:{ title="ab Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Neben "Kein Hintergrund" steht eine vordefinierte Farbliste zur Auswahl, mit der sich einzelne Layouts farblich voneinander abheben lassen.
+
+
 **Block-Stil 'Hinweis'**
 
 Layouts und verschiedene Inhaltsblöcke können als formatierte Hinweis-Box dargestellt werden [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. Bei Auswahl eines vordefinierten Hinweis-Typs werden Informationen durch eine entsprechende Farbgebung der Box und mit passendem Icon - deutlich hervorgehoben. Ein Set an weiteren Farben und Icons zur benutzerdefinierten Gestaltung der Box ist ebenfalls verfügbar. Auf Wunsch kann eine Box auch einklappbar gemacht werden.
@@ -165,7 +180,9 @@ Beispiel:
 
 ### Anker {: #anchors}
 
-Alle Titel-Elemente einer Seite werden automatisch mit Ankern (Sprungzielen) versehen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}, so dass innerhalb der Seite direkt zu einem Abschnitt gesprungen werden kann.
+Jedes Titel-Element einer Seite erhält automatisch einen Anker, also ein Sprungziel, über das sich direkt zu diesem Abschnitt springen lässt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Andere Inhaltstypen erhalten keinen Anker.
+
+Sie müssen dafür nichts einstellen. Die Anker werden auf der Seite nicht angezeigt und lassen sich auch nicht einzeln kopieren. Genutzt werden sie vom Element Inhaltsverzeichnis, das die Titel der Seite auflistet und über diese Anker als Sprungmarken verlinkt. Je mehr Titel-Elemente eine Seite gliedern, desto brauchbarer wird das Inhaltsverzeichnis. [Zum Inhaltsverzeichnis ^](#table_of_contents)
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -182,12 +199,15 @@ Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verf�
 
 Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert.
 
+Jeder Titel erhält zusätzlich einen [Anker](#anchors). Genutzt wird dieser ausschliesslich vom Element ["Inhaltsverzeichnis"](#table_of_contents), das die Titel auflistet und über ihre Anker verlinkt. Ausserhalb des Inhaltsverzeichnisses lassen sich die Anker nicht ansteuern.
+
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 
 ### Text {: #text}
 
-Hierüber werden Texte hinzugefügt. 
+Hierüber werden Texte hinzugefügt.
+
 ![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
 
 ### Tabelle {: #table}
@@ -195,7 +215,7 @@ Hierüber werden Texte hinzugefügt.
 ![content_editor_content_table_v1_de.png](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
 
-### Mathematische Formel {: #formula}
+### Mathematische Formel [:octicons-tag-16:{ title="ab Release 16.2.0 (OO-6070)" }](https://track.frentix.com/issue/OO-6070){:target="_blank"} {: #formula}
 
 Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
@@ -203,7 +223,7 @@ Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
 Dieses Textelement existiert nicht im Formular Editor. 
 
-### Code-Beispiel {: #code}
+### Code-Beispiel [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"} {: #code}
 
 Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen Abständen und Nummerierung der Zeilen. Dies ist insbesondere bei technischen Lerninhalten wie Programmierbeispielen sehr hilfreich. Beim Anlegen des Code Blocks kann die verwendete Programmiersprache gewählt werden. Zur Weiterverarbeitung können Teilnehmende die Code-Vorlage direkt in die Zwischenablage kopieren.
 
@@ -213,7 +233,7 @@ Dieses Textelement existiert nicht im Formular Editor.
 
 ### Zitat {: #quote}
 
-Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Medien Center gespeichert.  
+Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Media Center gespeichert.  
 
 Dieses Textelement existiert nicht im Formular Editor. 
 
@@ -227,17 +247,17 @@ Dieses Textelement existiert nicht im Formular Editor.
 
 ### Bild {: #image}
 
-Alle im Medien Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Medien Center abgelegt. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
+Alle im Media Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Media Center abgelegt. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
 
-### Galerie {: #gallery}
+### Galerie [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
 
-Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
+Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Media Center. 
 
 ![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
 
-### Bildervergleich {: #image_comparison}
+### Bildervergleich [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
 Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
 
@@ -259,18 +279,18 @@ Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube
 
 ### Dokument {: #document}
 
-Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Medien Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Medien Center abgelegt.
+Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Media Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Media Center abgelegt.
 
-Über das Inspektor-Menü haben Sie ebenfalls Zugriff auf das Medien Center, um den Dokumenten zusätzliche Informationen hinzuzufügen und weitere Freigaben zu definieren. Eine Datei, die zunächst nur für einen Inhaltsblock vorgesehen war, kann dadurch auch anderweitig genutzt oder von anderen OpenOlat-Benutzer:innen bearbeitet werden.
+Über das Inspektor-Menü haben Sie ebenfalls Zugriff auf das Media Center, um den Dokumenten zusätzliche Informationen hinzuzufügen und weitere Freigaben zu definieren. Eine Datei, die zunächst nur für einen Inhaltsblock vorgesehen war, kann dadurch auch anderweitig genutzt oder von anderen OpenOlat-Benutzer:innen bearbeitet werden.
 
 Zusätzlich besteht im Bereich "Share" die Möglichkeit, für neu erstellte oder hochgeladene Dokumente direkt eine Freigabe zu erteilen.
 
 ![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 
-### Diagramm (draw.io.) {: #diagram}
+### Diagramm (draw.io.) [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
-Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
+Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
 
 ![content_editor_content_drawio_v1_de.png](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
 
@@ -290,6 +310,10 @@ Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
+Über das 3-Punkte-Menü des Quiz-Elements tauschen Sie Fragen mit dem [Fragenpool](../area_modules/Question_Bank.de.md) aus. "Fragen aus Pool importieren" übernimmt bestehende Fragen in das Quiz, "Alle Fragen zum Pool exportieren" schreibt umgekehrt sämtliche Fragen des Quiz in den Fragenpool. So lassen sich Fragen, die direkt auf der Seite entstanden sind, für andere Kurse und Tests weiterverwenden.
+
+![content_editor_content_quiz_pool_v1_de.png](assets/content_editor_content_quiz_pool_v1_de.png){ class="shadow lightbox" }
+
 [Zum Seitenanfang ^](#content_editor)
 
 ---
@@ -302,6 +326,12 @@ Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inh
 ### Inhaltsverzeichnis {: #table_of_contents}
 
 Das Element "Inhaltsverzeichnis" macht lange Seiten übersichtlich: Es listet die Titel der Seite als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Erfasst werden die Titel, die auf der Seite nach dem Inhaltsverzeichnis folgen, bis zum nächsten Titel gleicher oder höherer Stufe. So lässt sich ein Verzeichnis für die ganze Seite oder nur für ein einzelnes Kapitel erstellen. Im Inspektor legen Sie unter "Titelgrössen" fest, welche Titelstufen (H1 bis H5) im Verzeichnis erscheinen; standardmässig sind H1 bis H4 ausgewählt. Wird das Inhaltsverzeichnis als Hinweis-Box dargestellt, dient sein Titel als Titel der Box.
+
+![content_editor_content_toc_v1_de.png](assets/content_editor_content_toc_v1_de.png){ class="shadow lightbox" }
+
+Sie fügen das Element über "Inhalt hinzufügen" im Bereich "Andere & Design" ein. Beim Einfügen trägt es den Titel "Inhalt", den Sie im Inspektor überschreiben können.
+
+Bleibt das Verzeichnis leer, erscheint der Hinweis "Keine Titel nach dieser Position gefunden". Das Element steht dann unterhalb der Titel, die es auflisten soll, oder die gewählten Titelgrössen passen nicht zu den vorhandenen Titeln. Verschieben Sie es vor die gewünschten Titel oder passen Sie die Titelgrössen im Inspektor an.
 
 Dieses Element existiert nicht im Formular Editor.
 
@@ -316,9 +346,15 @@ Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode
 ---
 
 
-## KI-Feedback zu Freitextantworten
+## KI-Feedback zu Freitextantworten {: #ai_feedback}
 
-Ist im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI Funktion "Essay Bewertung" konfiguriert, lassen sich einem Quiz auch Freitextfragen hinzufügen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beantworten Lernende eine solche Frage, können sie unter "KI-Feedback" ein formatives Feedback zu ihrer Antwort abrufen. Es umfasst eine "Gesamteinschätzung", "Was gut gelungen ist", "Was fehlt noch" sowie den Abschnitt "Nächster Schritt", wahlweise als "Zusammenfassung" oder "Detailliertes Feedback". Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
+Ist im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI Funktion "Essay Bewertung" konfiguriert, lassen sich einem Quiz auch Freitextfragen hinzufügen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beantworten Lernende eine solche Frage, können sie unter "KI-Feedback" ein formatives Feedback zu ihrer Antwort abrufen. Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
+
+Eingeleitet wird es durch die "Beurteilung" der Antwort mit den Stufen "sehr gut", "gut", "mittelmässig", "ungenügend" und "falsch", ergänzt um eine kurze Gesamteinschätzung. Die Angabe "Verlässlichkeit Feedback" mit den Werten "hoch", "mittel" und "niedrig" zeigt, wie verlässlich die KI ihre eigene Einschätzung einstuft.
+
+Unter "Detailliertes Feedback" lassen sich weitere Abschnitte aufklappen: "Was gut gelungen ist", "Was fehlt noch" und "Nächster Schritt", dazu die abgedeckten und die fehlenden Punkte der Antwort sowie unter "Sprache" Rückmeldungen zu "Grammatik" und "Rechtschreibung". Der Bereich erscheint nur, wenn die KI dazu etwas beizutragen hat.
+
+![content_editor_ai_feedback_v1_de.png](assets/content_editor_ai_feedback_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -336,6 +372,8 @@ Markdown-Dateien und Word-Dokumente können direkt im Content Editor importiert 
 
 Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Content Editors. Im Feld "Importmodus" wählen Sie zwischen zwei Varianten:
 
+![content_editor_import_button_v1_de.png](assets/content_editor_import_button_v1_de.png){ class="shadow lightbox" }
+
 **A) Datei hochladen:** (Unterstützt werden)
 
 * Markdown-Dateien (.md, .markdown, .txt) 
@@ -344,53 +382,61 @@ Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Cont
 
 **B) Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
 
-!!! Info "Word-Dokumente importieren"
+![content_editor_import_dialog_v1_de.png](assets/content_editor_import_dialog_v1_de.png){ class="shadow lightbox" }
+
+!!! info "Word-Dokumente importieren"
     Word-Dokumente werden beim Import automatisch in Markdown umgewandelt und durchlaufen anschliessend dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
 
-### Umwandlung der Elemente
+### Umwandlung der Elemente {: #import_conversion}
 
 Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editors umgewandelt:
 
 | Markdown-Element | Block im Content Editor |
 |------------------|-------------------------|
-| Überschrift (Ebene 1 bis 6, `#` bis `######`) | Titel in der entsprechenden Grösse (H1 bis H6) |
-| Absatz | Text |
-| Trennlinie (`---`) | Separator |
-| Codeblock | Code-Beispiel (mit erkannter Programmiersprache) |
-| Blockzitat (`>`) | Text mit Hinweis-Box |
+| Überschrift (Ebene 1 bis 6, `#` bis `######`) | [Titel](#title) in der entsprechenden Grösse (H1 bis H6) |
+| Absatz | [Text](#text) |
+| Trennlinie (`---`) | [Separator](#separator) |
+| Codeblock | [Code-Beispiel](#code) (mit erkannter Programmiersprache) |
+| Blockzitat (`>`) | Text mit [Hinweis-Box](#inspector) |
 | GitHub-Admonition (z.B. `> [!WARNING]`) | Text mit Hinweis-Box des passenden Typs |
 | Liste (Aufzählung oder nummeriert) | Text mit Liste |
-| Tabelle | Tabelle |
-| Bild | Bild (Ablage im Media Center) |
-| Mathematischer Block (`$$...$$`) | Mathematische Formel |
+| Tabelle | [Tabelle](#table) |
+| Bild | [Bild](#image) (Ablage im [Media Center](#media_center)) |
+| Mathematischer Block (`$$...$$`) | [Mathematische Formel](#formula) |
 | Inline-Formatierung `<sup>`, `<sub>`, `<u>`, `<mark>` oder `==Text==` | Text mit erhaltener Formatierung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9400)" }](https://track.frentix.com/issue/OO-9400){:target="_blank"} |
 | Bildgrösse `{width=300 height=200}` direkt nach dem Bild | Bild in der angegebenen Anzeigegrösse |
 | Tabelle mit fetter erster Zeile bzw. erster Spalte | Tabelle mit Zeilen- bzw. Spaltenüberschrift |
 | MkDocs-Admonition `!!! info "Titel"` | Text mit Hinweis-Box des passenden Typs |
 | YAML-Metadatenblock am Dokumentanfang, durch `---` eingefasst | Wird erkannt und entfernt, die Seite beginnt direkt mit dem Inhalt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9402)" }](https://track.frentix.com/issue/OO-9402){:target="_blank"} |
 
-Die Titelgrösse steuert zugleich, welche importierten Titel das Element "Inhaltsverzeichnis" erfasst und als Sprungmarken verlinkt.
+Die Titelgrösse steuert zugleich, welche importierten Titel das Element ["Inhaltsverzeichnis"](#table_of_contents) erfasst und als Sprungmarken verlinkt.
 
 !!! note "Markdown-Erweiterungen"
     Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
 
-### Bilder beim Import
+### Bilder beim Import {: #import_images}
 
-Bilder werden direkt ins Media Center eingebunden, wobei eine Duplikats-Prüfung verhindert, dass das selbe Bild mehrfach im Media Center abgelegt wird. So wird Platz gespart und automatisch aufgeräumt, ohne dass man sich als Autor:in darum kümmern muss.
+Bilder werden direkt ins [Media Center](#media_center) eingebunden, wobei eine Duplikats-Prüfung verhindert, dass das selbe Bild mehrfach im Media Center abgelegt wird. So wird Platz gespart und automatisch aufgeräumt, ohne dass man sich als Autor:in darum kümmern muss.
 
 Bilder mit absoluten URLs werden beim Import heruntergeladen, sofern die Administrator:innen die jeweilige Domain für externe Medien freigegeben haben. Auch direkt im Markdown eingebettete Base64-Bilder (Data-URIs) werden übernommen.
 
 Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, werden für importierte Bilder die Metadaten (Alt-Text, Beschreibung, Schlagwörter) im Hintergrund automatisch per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei wird eine verkleinerte Version des Bildes an den KI-Dienst übertragen. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 
 
-### Import an einer bestimmten Position
+### Import an einer bestimmten Position {: #import_position}
 
 Der Button "Importieren" steht zusätzlich im **Dialog "Inhalt hinzufügen"** zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
 
+![content_editor_import_add_content_v1_de.png](assets/content_editor_import_add_content_v1_de.png){ class="shadow lightbox" }
 
-### KI-Fragen beim Import erzeugen
 
-Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit den KI Funktionen "Essay Fragen Generator" und "Essay Bewertung" konfiguriert, können Sie im Import-Dialog zusätzlich die Option **"KI-generiertes Quiz hinzufügen"** aktivieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat erzeugt dann aus dem importierten Inhalt Fragen und fügt sie als Quiz-Element am Seitenende an. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ).
+### KI-Fragen beim Import erzeugen {: #import_ai_quiz}
+
+Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit den KI Funktionen "Essay Fragen Generator" und "Essay Bewertung" konfiguriert, können Sie im Import-Dialog zusätzlich die Option **"KI-generiertes Quiz hinzufügen"** aktivieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat erzeugt dann aus dem importierten Inhalt Fragen und fügt sie als [Quiz-Element](#quiz) am Seitenende an. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ).
+
+Drei weitere Felder steuern, welche Fragen entstehen. Unter "Bloom-Stufen" wählen Sie, welche kognitiven Stufen die Fragen abdecken sollen: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" und "Erschaffen". Die "Zielschwierigkeit" reicht von "1 - Sehr leicht (Quiz-Modus)" bis "5 - Sehr schwer"; mit "Keine Präferenz" wird die Schwierigkeit je Frage zufällig gewählt. Im Feld "Lernziele (optional)" erfassen Sie ein Lernziel pro Zeile, um die Fragen inhaltlich zu fokussieren.
+
+![content_editor_import_ai_quiz_v1_de.png](assets/content_editor_import_ai_quiz_v1_de.png){ class="shadow lightbox" }
 
 Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Element erscheint, sobald die Fragen bereit sind. Prüfen Sie die erzeugten Fragen anschliessend auf inhaltliche Korrektheit. Im E-Portfolio steht die KI-Fragengenerierung nicht zur Verfügung.
 
@@ -407,16 +453,7 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 
 ![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#content_editor)
-
----
-
-## Weiterführende Informationen {: #further_information}
-
-[Kursbaustein Seite >](../learningresources/Course_Element_Page.de.md)<br>
-[Lernressource Formular >](../learningresources/Form.de.md)<br>
-[Portfolio >](../area_modules/The_portfolio_editor.de.md)<br>
-[Medien Center (Persönliche Werkzeuge)>](../personal_menu/Media_Center.de.md)<br>
-[Ausführliche Informationen zum Media Center (Basiskonzept) >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center (Persönliche Werkzeuge) >](../personal_menu/Media_Center.de.md)<br>
+[Ausführliche Informationen zum Media Center (Basiskonzept) >](Media_Center_Concept.de.md)
 
 [Zum Seitenanfang ^](#content_editor)

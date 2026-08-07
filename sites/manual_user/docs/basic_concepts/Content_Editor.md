@@ -1,4 +1,4 @@
-# Content Editor {: #content_editor}
+# Content Editor
 
 ## What can the Content Editor do? {: #content_editor}
 
@@ -62,6 +62,8 @@ This also applies to entries in [portfolio folders](../area_modules/My_portfolio
 
 ![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
+[Portfolio >](../area_modules/The_portfolio_editor.md)
+
 [To the top of the page ^](#content_editor)
 
 ---
@@ -98,9 +100,15 @@ Content blocks with various specific types of content can be added to each secti
 
 ### Adding, Positioning, and Configuring Content in a Block {: #add_content}
 
-Use "Add Content" to add specific content and media to a block. 
+Use "Add content" to add specific content and media to a block. The link appears in every section of a layout, so you can insert the content exactly where it belongs.
 
-As soon as you click or select a piece of added content, a pop-up window appears where you can configure the properties of that content. This is called the "Inspector".
+![content_editor_add_content_page_v5_en.png](assets/content_editor_add_content_page_v5_en.png){ class="shadow lightbox" }
+
+The "Add content" dialog lists the available content types grouped into the sections "Text", "Media", "Knowledge" and "Other & design". At the bottom, two buttons lead directly to the [Media Center](#media_center) and to the [import](#import_position).
+
+When you hover over a block with the mouse in edit mode, that block is highlighted [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8966)" }](https://track.frentix.com/issue/OO-8966){:target="_blank"}. This helps you tell blocks apart when several similar elements follow one another.
+
+As soon as you click or select a piece of added content, a pop-up window appears where you can configure the properties of that content. This is called the ["Inspector"](#inspector).
 
 You can also show or hide the Inspector pop-up using the gear icon next to the content.
 
@@ -108,7 +116,9 @@ You can also show or hide the Inspector pop-up using the gear icon next to the c
 
 **Menus**
 
-In addition to the gear icon, there is also a three-dot menu and a crosshair. The crosshair allows you to add additional content elements before or after the selected item, or to delete the selected item. You can also use the crosshair to drag and drop the selected item to a different position, a different content block, or a different layout.  
+The toolbar of a selected block comprises four icons: the gear for the Inspector, an icon to duplicate, a three-dot menu and a crosshair. The three-dot menu lets you add further content elements before or after the element, move the element up or down, and delete it. The crosshair lets you drag and drop the selected element to a different position, into a different content block, or into a different layout.  
+
+A block can be copied with the "Duplicate" action, both as a short action on the block itself and via the three-dot menu [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
 ![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
 
@@ -117,7 +127,7 @@ In addition to the gear icon, there is also a three-dot menu and a crosshair. Th
 ---
 
 
-### General Formatting for All Content Blocks - The Inspector {: #inspector}
+### General Formatting for All Content Blocks - The Inspector [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
 
 **Distances**
 
@@ -145,6 +155,11 @@ Consistent spacing between the layout fields (content blocks) is important for c
     ![content_editor_layout_spacing_extra-large.jpg](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra-grosser Abstand" }
 
 
+**Background**
+
+In the "Style" tab you define the background of a layout [:octicons-tag-16:{ title="from Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Besides "None", a predefined colour list is available, letting you set individual layouts apart visually.
+
+
 **Block style "Note"**
 
 Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box, along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
@@ -161,7 +176,9 @@ Example:
 
 ### Anchors {: #anchors}
 
-All heading elements on a page are automatically assigned anchors (jump targets) [:octicons-tag-16:{ title="as of Release 21.0 (OO-9411)" }](https://track. frentix.com/issue/OO-9411){:target=“_blank”}, allowing users to jump directly to a section within the page.
+Every title element on a page automatically receives an anchor, that is a jump target that leads directly to this section [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Other content types do not receive an anchor.
+
+You do not need to configure anything for this. The anchors are not shown on the page and cannot be copied individually either. They are used by the ["Table of contents"](#table_of_contents) element, which lists the titles of the page and links them via these anchors as jump marks. The more title elements structure a page, the more useful the table of contents becomes. [To the table of contents ^](#table_of_contents)
 
 [To the top of the page ^](#content_editor)
 
@@ -179,18 +196,21 @@ Please note that not *all* elements are available in every content editor.
 
 Various font sizes are predefined for the heading element.
 
+Every title additionally receives an [anchor](#anchors). It is used exclusively by the ["Table of contents"](#table_of_contents) element, which lists the titles and links them via their anchors. Outside the table of contents, the anchors cannot be addressed.
+
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 ### Text {: #text}
 
 Use this element to add texts.
+
 ![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
 
 ### Table {: #table}
 
 ![content_editor_content_table_v1_de.png](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
-### Mathematic formula {: #formula}
+### Mathematic formula [:octicons-tag-16:{ title="from Release 16.2.0 (OO-6070)" }](https://track.frentix.com/issue/OO-6070){:target="_blank"} {: #formula}
 
 A special small editor is available for mathematical formulas.
 
@@ -198,7 +218,7 @@ A special small editor is available for mathematical formulas.
 
 This text element does not exist in the Form Editor. 
 
-### Code example {: #code}
+### Code example [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"} {: #code}
 
 The 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly helpful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
 
@@ -225,13 +245,13 @@ This text element does not exist in the Form Editor.
 
 All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-### Gallery {: #gallery}
+### Gallery [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
 
 Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
 
 ![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
-### Image comparison {: #image_comparison}
+### Image comparison [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
 Two superimposed images can be cross-faded using a slider.
 
@@ -261,7 +281,7 @@ In addition, the "Share" section allows you to share newly created or uploaded d
 
 ![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
-### draw.io diagram  {: #diagram}
+### draw.io diagram [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
 Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
@@ -284,6 +304,10 @@ These short quiz questions are intended to encourage engagement with the course 
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
+Via the three-dot menu of the quiz element you exchange questions with the [question bank](../area_modules/Question_Bank.md). "Import questions from pool" adds existing questions to the quiz, "Export all questions to pool" writes all questions of the quiz to the question bank. This lets you reuse questions created directly on the page in other courses and tests.
+
+![content_editor_content_quiz_pool_v1_en.png](assets/content_editor_content_quiz_pool_v1_en.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#content_editor)
 
 ---
@@ -296,6 +320,12 @@ A separator is a line (visual design element) used to separate content.
 
 The "Table of contents" element makes long pages easy to navigate: it lists the titles of the page as clickable jump marks and takes you directly to the respective section with one click [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. It captures the titles that follow the table of contents on the page, up to the next title of the same or a higher level. This allows you to create a table of contents for the whole page or for a single chapter only. In the inspector, "Title sizes" defines which title levels (H1 to H5) appear in the list; H1 to H4 are selected by default. If the table of contents is displayed as an alert box, its title serves as the box title.
 
+![content_editor_content_toc_v1_en.png](assets/content_editor_content_toc_v1_en.png){ class="shadow lightbox" }
+
+You insert the element via "Add content" in the "Other & design" section. When inserted, it carries the title "Contents", which you can overwrite in the Inspector.
+
+If the table of contents stays empty, the hint "No titles found after this position" appears. The element is then placed below the titles it is meant to list, or the selected title sizes do not match the existing titles. Move it before the titles you want, or adjust the title sizes in the Inspector.
+
 This element does not exist in the Form Editor.
 
 ### HTML Code {: #html}
@@ -307,9 +337,15 @@ The HTML text code editor is available exclusively in the "Page" course element 
 ---
 
 
-## AI feedback on essay answers
+## AI feedback on essay answers {: #ai_feedback}
 
-If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has the AI feature "Essay Grading" configured, essay questions can also be added to a quiz [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. When learners answer such a question, they can request formative feedback on their answer under "AI feedback". It comprises an "Overall assessment", "What went well", "What is missing" and a "Next step" section, either as a "Summary" or "Detailed feedback". The feedback does not award points and serves for self-assessment.
+If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has the AI feature "Essay Grading" configured, essay questions can also be added to a quiz [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. When learners answer such a question, they can request formative feedback on their answer under "AI feedback". The feedback does not award points and serves for self-assessment.
+
+It opens with the "Assessment" of the answer, ranging over "very good", "good", "mediocre", "insufficient" and "wrong", together with a short overall appraisal. The "Feedback reliability" indicator with the values "high", "medium" and "low" shows how reliable the AI rates its own assessment.
+
+Under "Detailed feedback" further sections can be expanded: "What went well", "What is missing" and "Next step", plus the points the answer covers and those it misses, and under "Language" feedback on "Grammar" and "Spelling". The area only appears when the AI has something to contribute.
+
+![content_editor_ai_feedback_v1_en.png](assets/content_editor_ai_feedback_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -325,6 +361,8 @@ Markdown files and Word documents can be imported directly into the Content Edit
 
 To import, click the **"Import"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
 
+![content_editor_import_button_v1_en.png](assets/content_editor_import_button_v1_en.png){ class="shadow lightbox" }
+
 **A) Upload file:** (The following are supported)
 
 * Markdown files (.md, .markdown, .txt)
@@ -333,51 +371,60 @@ To import, click the **"Import"** button at the bottom of the content editor. In
 
 **B) Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
 
-!!! Info "Importing Word documents"
+![content_editor_import_dialog_v1_en.png](assets/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" }
+
+!!! info "Importing Word documents"
     Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
 
-### Conversion of the elements
+### Conversion of the elements {: #import_conversion}
 
 During import, the markdown elements are converted into blocks of the Content Editor as follows:
 
 | Markdown element | Block in the Content Editor |
 |------------------|-----------------------------|
-| Heading (level 1 to 6, `#` to `######`) | Title in the corresponding size (H1 to H6) |
-| Paragraph | Text |
-| Horizontal rule (`---`) | Separator |
-| Code block | Code example (with detected programming language) |
-| Blockquote (`>`) | Text with alert box |
+| Heading (level 1 to 6, `#` to `######`) | [Title](#title) in the corresponding size (H1 to H6) |
+| Paragraph | [Text](#text) |
+| Horizontal rule (`---`) | [Separator](#separator) |
+| Code block | [Code example](#code) (with detected programming language) |
+| Blockquote (`>`) | Text with [alert box](#inspector) |
 | GitHub admonition (e.g. `> [!WARNING]`) | Text with alert box of the matching type |
 | List (bulleted or numbered) | Text with list |
-| Table | Table |
-| Image | Image (stored in the Media Center) |
-| Math block (`$$...$$`) | Math formula |
+| Table | [Table](#table) |
+| Image | [Image](#image) (stored in the [Media Center](#media_center)) |
+| Math block (`$$...$$`) | [Math formula](#formula) |
 | Inline formatting `<sup>`, `<sub>`, `<u>`, `<mark>` or `==text==` | Text with preserved formatting [:octicons-tag-16:{ title="from Release 21.0 (OO-9400)" }](https://track.frentix.com/issue/OO-9400){:target="_blank"} |
 | Image size `{width=300 height=200}` directly after the image | Image in the specified display size |
 | Table with bold first row or first column | Table with row or column headers |
 | MkDocs admonition `!!! info "Title"` | Text with alert box of the matching type |
 | YAML front matter block at the top of the document, enclosed in `---` | Detected and removed, the page starts directly with the content [:octicons-tag-16:{ title="from Release 21.0 (OO-9402)" }](https://track.frentix.com/issue/OO-9402){:target="_blank"} |
 
-The title size also determines which imported titles the "Table of contents" element captures and links as jump marks.
+The title size also determines which imported titles the ["Table of contents"](#table_of_contents) element captures and links as jump marks.
 
 !!! note "Markdown extensions"
     In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon; MkDocs admonitions add further types such as ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG or EXAMPLE. An admonition title in quotation marks is applied, an empty title `""` hides the title line, and without a title the default label of the type is shown. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
 
-### Images during import
+### Images during import {: #import_images}
 
-Images are imported directly into the Media Center, and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
+Images are imported directly into the [Media Center](#media_center), and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
 
 Images with absolute URLs are downloaded during import, provided the administrators have approved the respective domain for external media. Base64 images embedded directly in the markdown (data URIs) are also imported.
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", metadata (alt text, description, keywords) is automatically generated by AI in the background for imported images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. A reduced version of the image is transmitted to the AI service. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 
-### Importing at a specific position
+### Importing at a specific position {: #import_position}
 
 The "Import" button is additionally available in the **"Add content" dialog** [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
 
-### Generate AI questions on import
+![content_editor_import_add_content_v1_en.png](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" }
+
+
+### Generate AI questions on import {: #import_ai_quiz}
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI features "Essay Question Generator" and "Essay Grading", you can additionally enable the **"Add AI generated Quiz"** option in the import dialog [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. OpenOlat then generates questions from the imported content and appends them as a quiz element at the end of the page. Via the "MC question" and "Essay question with AI correction" fields you define how many questions of each type are generated (up to five per type).
+
+Three further fields steer which questions are created. Under "Bloom levels" you choose which cognitive levels the questions should cover: "Remember", "Understand", "Apply", "Analyse", "Evaluate" and "Create". The "Target difficulty" ranges from "1 - Very easy (Quiz mode)" to "5 - Very hard"; with "No preference" the difficulty is chosen at random per question. In the "Learning objectives (optional)" field you enter one learning objective per line to focus the questions in terms of content.
+
+![content_editor_import_ai_quiz_v1_en.png](assets/content_editor_import_ai_quiz_v1_en.png){ class="shadow lightbox" }
 
 Generation runs in the background and can take a minute; the quiz element appears once the questions are ready. Check the generated questions for correctness afterwards. AI question generation is not available in the e-portfolio.
 
@@ -394,17 +441,8 @@ Click the link to access the files in your Media Center. Here, you can select, c
 
 ![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#content_editor)
-
----
-
-## Further information {: #further_information}
-
-[Course element page >](../learningresources/Course_Element_Page.md)<br>
-[Learning resource form >](../learningresources/Form.md)<br>
-[Portfolio >](../area_modules/The_portfolio_editor.md)<br>
-[Media Center (Personal tools)>](../personal_menu/Media_Center.md)<br>
-[Detailed information about the Media Center (Basic concept) >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
+[Media Center (Personal tools) >](../personal_menu/Media_Center.md)<br>
+[Detailed information about the Media Center (Basic concept) >](Media_Center_Concept.md)
 
 [To the top of the page ^](#content_editor)
 

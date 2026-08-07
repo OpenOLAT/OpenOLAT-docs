@@ -66,6 +66,10 @@ Integration of AI capabilities for content generation and assistance.
 
 The service provider whose AI models are used for the AI-powered features in OpenOlat. Multiple providers can be configured in parallel in the AI module (OpenAI, Anthropic Claude, generic OpenAI-compatible services).
 
+### Alert box
+
+Display format for layouts and content blocks in the Content Editor that highlights the content with a colour and an icon. The selected alert type determines colour and icon; the box can optionally be made collapsible.
+
 ### All correct answers
 
 Scoring method for multiple-choice, hotspot, hottext, drag&drop, matrix, and gap questions (text, numerical, mixed, with dropdown): the full score is only achieved if all correct answers are selected, otherwise the final score is 0.
@@ -569,6 +573,10 @@ Widget on the Dashboard of the Course Planner, showing the implementations relev
 ### Import (content editor)
 
 Import function of the content editor that automatically converts markdown files, Word documents (.docx) or pasted markdown text into content editor blocks.
+
+### Inspector
+
+Collapsible panel in the Content Editor used to configure the properties of a selected layout or content block: layout and spacing, style, and the settings specific to the element type.
 
 ### Instant messaging
 

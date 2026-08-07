@@ -370,6 +370,14 @@ Personal and course calendar for scheduling and event management.
 
 WYSIWYG editor for creating rich content, used in the Page course element, the Form learning resource and the portfolio.
 
+### Inspector
+
+Collapsible panel in the Content Editor used to configure the properties of a selected layout or content block: layout and spacing, style, and the settings specific to the element type.
+
+### Alert box
+
+Display format for layouts and content blocks in the Content Editor that highlights the content with a colour and an icon. The selected alert type determines colour and icon; the box can optionally be made collapsible.
+
 ### Course editor
 
 Tool used to build and modify course structure and course elements.
