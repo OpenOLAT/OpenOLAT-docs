@@ -159,6 +159,7 @@ Anyone who is an owner or coach in a course (a learning resource) finds that lea
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
 ![modules_learning_resource_tab_access_hint_v1.png](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
+![Modules_Learning_Resource_user_hint_v1.png](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
 
 #### Settings for Sites
 

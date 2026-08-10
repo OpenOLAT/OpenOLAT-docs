@@ -163,6 +163,7 @@ Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet
 Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:innen Hinweise zu den Auswirkungen der Zugangseinstellung.
 
 ![modules_learning_resource_tab_access_hint_v1_de.png](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" }
+![Modules_Learning_Resource_user_hint_de_v1.png](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" }
 
 #### Einstellungen für Sites
 
