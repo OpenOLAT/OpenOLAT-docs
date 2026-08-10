@@ -13,7 +13,7 @@ Course owners can then find the deleted learning resource in the "Deleted" tab i
 
 !!! info "Archiving"
 
-    When you delete a course, user data (e.g. test results) is first archived as an Excel file in your [personal folder](../personal_menu/Personal_folders.md) and then deleted.
+    When you delete a course, user data (e.g. test results) is first archived as an Excel file in your [personal files](../personal_menu/File_Hub.md#personal_files) and then deleted.
 
 It is possible to inform other course owners via e-mail about the completion or deletion of a course. This can either be optionally selected in the Finish/Delete dialog or set in the administration. 
 

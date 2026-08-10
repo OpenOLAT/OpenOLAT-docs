@@ -10,7 +10,7 @@ von Ihrem Rechner zu OpenOlat-Ordnern.
 !!! info "Vorteile von WebDAV"
 
     Ohne WebDAV können Dateien nur über herkömmliche Upload-Formulare in OpenOlat hochgeladen werden. Dabei wählen Sie entweder jede Datei einzeln oder mehrere gezippte Dateien aus. 
-    
+
     Mit WebDAV hingegen können Sie von Ihrem Rechner bequem mehrere Dateien oder komplette Ordnerstrukturen in OpenOlat-Ordner, z.B. in den Ablageordner eines Kurses kopieren.
 
 ## Auf welche OpenOlat-Ordner kann mit WebDAV zugegriffen werden?
@@ -19,11 +19,11 @@ Mit WebDAV kann selbstverständlich nicht auf alle Ordner und Dateien einer Open
 
 Sobald die Elemente über OpenOlat angelegt wurden, wird die Struktur automatisch erstellt. Sie können auf folgende OpenOlat-Ordner zugreifen: 
 
-  * [Persönlicher Ordner](../../manual_user/personal_menu/Personal_folders.de.md) (jeder)
+  * [Persönliche Dateien](../../manual_user/personal_menu/File_Hub.de.md#personal_files) (jeder)
   * [Ordner von Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) (Gruppenmitglieder)
   * [Ablageordner von Kursen](../../manual_user/learningresources/Storage_folder.de.md) (nur Kursbesitzer)
   * [Kursbaustein Ordner](../../manual_user/learningresources/Course_Element_Folder.de.md) (Kursmitglieder)
-  * [Ressourcenordner](../../manual_user/learningresources/Course_Settings.de.md#ressourcenordner-einbinden) (nur Lernressourcenbesitzer)
+  * [Ressourcenordner](../../manual_user/learningresources/Course_Settings.de.md#options) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der jeweiligen Konfiguration.
 
@@ -45,7 +45,7 @@ fähigen Ordnern
 
     Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV- Passwort in den Einstellungen im persönlichen Menu einrichten. 
     Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang. 
-  
+
 
 ## Die WebDAV-Verbindung einrichten
 

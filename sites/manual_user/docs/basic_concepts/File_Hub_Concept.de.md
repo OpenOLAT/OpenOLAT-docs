@@ -4,7 +4,7 @@
 
 ## Was ist der File Hub? [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) 
+In OpenOlat steht ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.)
 
 ![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
@@ -39,7 +39,7 @@ Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlic
 ### Der File Hub in anderen Zusammenhängen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_other_contexts}
 
 Der File Hub wird an an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.<br>
-Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter `Administration > Dateien`. (Ab Release 19)
+Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter `Administration > Dateien`.
 
 
 
@@ -73,15 +73,14 @@ In [Kursarchiven](../learningresources/Course_Archiving.de.md) werden Teilnehmer
 ### Kurse [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #courses}
 
 Die in einem Kurs verwendeten Dateien befinden sich in einem zum Kurs gehörenden Ordner, dem [Ablageordner](../learningresources/Storage_folder.de.md).<br>
-Bis Release 18 haben Sie darauf Zugriff unter `Kursadministration > Ablageordner`.<br>
-Ab Release 19 ist der Zugriff umbenannt und unter `Kursadministration > Dateien` zu finden.
+Der Zugriff ist unter `Kursadministration > Dateien` zu finden.
 
 Der [Ablageordner](../learningresources/Storage_folder.de.md) ist kursspezifisch. Um ausserdem auch mehrfach in verschiedenen Kursen genutzte Dateien verwenden zu können, kann ergänzend ein **Ressourcenordner** im Kurs eingebunden werden. 
 
 
 ### Persönliche Dateien [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #personal_files}
 
-Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch Zugriffsberechtigung hat. Deshalb kann z.B. auch auf den [Persönlicher Ordner](../personal_menu/Personal_folders.de.md) via File Hub zugegriffen werden. (Die Dateien dort sind ausschliesslich für die gerade eingeloggte Person einsehbar.)
+Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch Zugriffsberechtigung hat. Deshalb kann z.B. auch auf die [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) via File Hub zugegriffen werden. (Die Dateien dort sind ausschliesslich für die gerade eingeloggte Person einsehbar.)
 
 
 ### Ressourcenordner {: #resource_folder}
@@ -115,7 +114,7 @@ Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses ab
     [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
     [Ablageordner](../learningresources/Storage_folder.de.md)<br>
     [Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>
-    [Persönlicher Ordner](../personal_menu/Personal_folders.de.md)<br>
+    [Persönliche Dateien](../personal_menu/File_Hub.de.md#personal_files)<br>
     [Kursarchiv](../learningresources/Course_Archiving.de.md)<br>
 
 

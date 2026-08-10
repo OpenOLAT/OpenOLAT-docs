@@ -1,4 +1,4 @@
-# :material-home: Persönliches Menü
+# Persönliches Menü
 
 Jeder registrierte OpenOlat User verfügt über sein persönliches Menü, das individuell konfiguriert werden kann.
 
@@ -23,8 +23,8 @@ sowie die **Logout**-Funktion
 
     * [Kalender](../personal_menu/Calendar.de.md)
     * [Abonnements](../personal_menu/Subscriptions.de.md)
-    * [Persönlicher Ordner (bis Release 18)](../personal_menu/Personal_folders.de.md)
-    * [File Hub (ab Release 19)](../personal_menu/File_Hub.de.md)
+    * [Persönliche Dateien](../personal_menu/File_Hub.de.md#personal_files)
+    * [File Hub](../personal_menu/File_Hub.de.md)
     * [Notizen](../personal_menu/Notes.de.md)
     * [Kompetenzen](../personal_menu/Competences.de.md)
     * [Buchungsaufträge](../personal_menu/Bookings.de.md)
@@ -61,7 +61,7 @@ Wenn Sie ein Werkzeug statt im persönlichen Menü lieber in der Kopfzeile angez
 ![pers_menu_moved_tool_v1_de.png](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
 
 Die Einstellung dazu nehmen Sie vor im<br>
-**Persönlichen Menü > Abschnitt Konfiguration: Einstellungen > Tab System > Abschnitt Persönliche Werkzeuge**
+`Persönliches Menü > Konfiguration: Einstellungen > Tab System > Persönliche Werkzeuge`
 
 Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar. 
 
@@ -81,10 +81,10 @@ In der oberen Navigationsleiste generell immer verfügbar ist der [Chat](../basi
 
 ## Weitere Informationen
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Der OpenOlat-Bildschirm](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Der OpenOlat-Bildschirm](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Persönliches Menü](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Persönliches Menü](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Menüleiste](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Menüleiste](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank"}

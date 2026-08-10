@@ -1,12 +1,12 @@
 # Folder concept {: #folders}
 
-In :octicons-tag-24: Release 19, the folder component has been completely revised and some of the views and working methods have changed.
+The folder component has been revised, some of the views and working methods have changed. [:octicons-tag-16:{ title="from Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
 
 ## Different folder types {: #folder_types}
 
 ### Personal folder {: #personal_folder}
 
-The personal folder can be found in the personal tools in the [personal menu](../personal_menu/index.md). From Release 19, it can be found in the [File Hub](../personal_menu/File_Hub.md).
+The personal folder can be found in the personal tools in the [personal menu](../personal_menu/index.md), in the [File Hub](../personal_menu/File_Hub.md).
 
 It offers the option of storing individual files independently of courses or resource folders. 
 
@@ -17,7 +17,7 @@ Within the personal folder, a distinction is made between a **private** and a **
     To view the business cards of other OpenOlat users, select **Person search** in the personal menu and search for the desired person using the search mask.
 
 
-[See the details about personal folders (up until Release 18) >](../personal_menu/Personal_folders.md)<br>
+[See the details about the personal files >](../personal_menu/File_Hub.md#personal_files)<br>
 [See the details about the file hub >](../personal_menu/File_Hub.md)<br>
 [To the top of the page ^](#folders)
 
@@ -113,7 +113,7 @@ If an entire course is archived or only a partial archive is created from some c
 
 The document pool is also displayed in the File Hub as a folder in which different files are stored. However, metadata is added to the files here (e.g. taxonomy). It is therefore not a pure file storage in a file system, although files can be transferred to the document pool via WebDAV, for example.
 
-[See the details >](../basic_concepts/File_Hub_Concept.md#dokumentenpool)<br>
+[See the details >](../basic_concepts/File_Hub_Concept.md#document_pool)<br>
 [To the top of the page ^](#folders)
 
 

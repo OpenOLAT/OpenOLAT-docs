@@ -1,6 +1,6 @@
 # Course administration - Archiving & Reports {: #course_archiving}
 
-:octicons-tag-24: Release 19.0
+[:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"}
 
 ## What is the course archive?
 
@@ -144,7 +144,7 @@ The personalized log files of course owners and the anonymized log files of cour
 
 All [forums](../learningresources/Course_Element_Forum.md) of the course are displayed. The desired forums to be archived can be selected and saved as a zip file. In the zip file, the individual selected forums are then each in a separate folder with a DOCX file containing all the forum posts.
 
-As of :octicons-tag-24: Release 18.0: In addition to archiving, a report in xlsx format can also be generated for the desired forums. Each posting is noted in the report as a line entry and contains information on the creation date, last change, number of words, number of characters, etc.
+In addition to archiving, a report in xlsx format can also be generated for the desired forums. [:octicons-tag-16:{ title="from Release 18.0 (OO-6908)" }](https://track.frentix.com/issue/OO-6908){:target="_blank"} Each posting is noted in the report as a line entry and contains information on the creation date, last change, number of words, number of characters, etc.
 
 ### File discussion
 
@@ -190,7 +190,7 @@ The people who have booked the course are displayed here if the course has [offe
 
 ## More information {: #further_information}
 
-When you delete a course, all course data (not the course elements!) is automatically saved in your [personal folder](../personal_menu/Personal_folders.md).
+When you delete a course, all course data (not the course elements!) is automatically saved in your [personal files](../personal_menu/File_Hub.md#personal_files).
 
 Further details on the recorded log files can be found in the chapter “[Recording of course activities](Record_of_Course_Activities.md)”.
 

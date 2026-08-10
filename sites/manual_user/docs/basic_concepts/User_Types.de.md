@@ -9,7 +9,7 @@ OpenOlat arbeitet mit einem Rollen- und Rechte-Management. Auf oberster Ebene wi
 
 ### Registrierte Benutzer:innen (Standard) {: #registered_users} 
 
-Alle Benutzer:innen haben einen eindeutigen Benutzernamen, der nach der Registrierung zur Identifikation benutzt wird. Benutzer:innen können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Lernergebnisse (z.B. aus Tests) werden dem Benutzernamen zugeordnet. Zudem haben alle Benutzer:innen eine individuell konfigurierbare Startseite und [Speicherplatz](../personal_menu/Personal_folders.de.md) zur Verfügung. Alle registrierten Benutzer:innen hat auch die Möglichkeit eigene [Gruppen](../groups/index.de.md) zu erstellen und alle darin enthaltenen Funktionen und Tools zu nutzen. 
+Alle Benutzer:innen haben einen eindeutigen Benutzernamen, der nach der Registrierung zur Identifikation benutzt wird. Benutzer:innen können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Lernergebnisse (z.B. aus Tests) werden dem Benutzernamen zugeordnet. Zudem haben alle Benutzer:innen eine individuell konfigurierbare Startseite und [Speicherplatz](../personal_menu/File_Hub.de.md#quota) zur Verfügung. Alle registrierten Benutzer:innen hat auch die Möglichkeit eigene [Gruppen](../groups/index.de.md) zu erstellen und alle darin enthaltenen Funktionen und Tools zu nutzen. 
 
 Bei registrierten Benutzer:innen ohne weitere Rollen und Rechte handelt es sich in der Regel um die Lernenden.
 
@@ -32,7 +32,7 @@ Externe Benutzer:innen können bei Bedarf zu vollwertigen registrierten Benutzer
 
 ### Anonyme Gäste {: #guests} 
 
-Gäste haben - ohne sich zu registrieren – beschränkten Zugang zu OpenOlat. Sie können für Gäste freigegebene Lerninhalte betrachten, sich jedoch nicht an allen Lernaktivitäten beteiligen. Der Link zum Gastzugang befindet sich auf der Login-Seite. Weitere Informationen zum Gast finden Sie [hier](guest_access.de.md).
+Gäste haben, ohne sich zu registrieren, beschränkten Zugang zu OpenOlat. Sie können für Gäste freigegebene Lerninhalte betrachten, sich jedoch nicht an allen Lernaktivitäten beteiligen. Der Link zum Gastzugang befindet sich auf der Login-Seite. Weitere Informationen zum Gast finden Sie [hier](guest_access.de.md).
 
 [zum Seitenanfang ^](#user_types)
 

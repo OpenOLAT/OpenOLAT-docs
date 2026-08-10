@@ -1,12 +1,10 @@
-# Full-Text Search {: #full_text_search}
-
-![](assets/search.png)
+# :o_icon_o_icon_search: Full-Text Search {: #full_text_search}
 
 The search is only visible and usable, if it is activated in the
 administration. If this is not the case for you, please contact your
 OpenOlat administrator directly.
 
-The box for the full-text search is at the top right of the status bar. The full-text search helps you to look for search terms in the course or group content, in a forum or even in PDF and Word files. Furthermore you can look for users, portfolio folders, artefacts, and documents in any [user folder](../personal_menu/Personal_folders.md). The only exceptions are private folders since they will not be indexed.
+The box for the full-text search is at the top right of the status bar. The full-text search helps you to look for search terms in the course or group content, in a forum or even in PDF and Word files. Furthermore you can look for users, portfolio folders, artefacts, and documents in the [personal files](../personal_menu/File_Hub.md#personal_files). The only exceptions are private folders since they will not be indexed.
 
 ![](assets/generelle_Suche.en.png)
 
@@ -29,7 +27,7 @@ You will be provided with a list of search results that is linked to the learnin
 !!! Info
 
     Beside the full-text search for the whole OpenOlat there exists also a [course
-    search](../learningresources/Course_Settings.md#CourseSettings-course_search), which can be
+    search](../learningresources/Course_Settings.md#toolbar), which can be
     activated for every course in the course toolbar. The setting is activated under "Administration" -> "Settings" in the "Toolbar" tab. The course search searches only the corresponding course.
 
 ## Syntax {: #syntax}

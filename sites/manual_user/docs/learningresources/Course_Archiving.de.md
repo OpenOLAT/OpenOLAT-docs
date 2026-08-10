@@ -1,6 +1,6 @@
 # Kursadministration - Archivierung & Reports {: #course_archiving}
 
-:octicons-tag-24: Release 19.0
+[:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"}
 
 ## Was ist das Kursarchiv?
 
@@ -58,7 +58,7 @@ Sobald Sie **via Kursadministration** ein Archiv erstellen möchten, werden Sie 
 
 ![course_archiving_create_partial_v1_de.png](assets/course_archiving_create_partial_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Erstellen Administrator:innen ein Archiv oder Teilarchiv, können sie im Wizard entscheiden, ob die Archivdaten **personalisierte oder nicht personalisierte Logfiles** enthalten sollen. (Je nach Anforderungen des Datenschutzes.) Archive mit personalisierten Logfiles sind anschliessend nur für Administrator:innen und Lernressourcenverwalter:innen zugänglich.
 
@@ -71,7 +71,7 @@ Sobald Sie **via Kursadministration** ein Archiv erstellen möchten, werden Sie 
 
 ![course_archiving_create_multiple_v1_de.png](assets/course_archiving_create_multiple_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Werden mehrere Archive mit dieser Bulk Action erstellt, können nur Gesamtarchive erstellt werden, keine Teilarchive.
 
@@ -139,7 +139,7 @@ Hier können die personalisierten Logfiles der Kursbesitzer sowie die anonymisie
 
 Es werden alle [Foren](../learningresources/Course_Element_Forum.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Foren können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Foren in jeweils einem extra Ordner mit einer DOCX-Datei, die sämtliche Forenbeiträge umfasst.
 
-Ab :octicons-tag-24: Release 18.0: Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw.  
+Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw. [:octicons-tag-16:{ title="ab Release 18.0 (OO-6908)" }](https://track.frentix.com/issue/OO-6908){:target="_blank"}
 
 ### Dateidiskussion
 
@@ -185,7 +185,7 @@ Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der Kurs 
 
 ## Weitere Informationen {: #further_information}
 
-Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die Kursbausteine!) in Ihrem [persönlichen Ordner](../personal_menu/Personal_folders.de.md) gespeichert.
+Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die Kursbausteine!) in Ihren [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) gespeichert.
 
 Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel "[Aufzeichnung der Kursaktivitäten](Record_of_Course_Activities.de.md)".
 

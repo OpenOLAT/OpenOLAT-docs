@@ -50,7 +50,7 @@ Videos can be used in various course modules. In the course modules ...
 * OpenOlat [Projects](../area_modules/Project_VideoAudio.md) (File Upload)
 * [Groups](../groups/Using_Group_Tools.md) (in the folder tool as a file upload and in the forum as an attachment)
 * [E-Portfolios](../area_modules/The_portfolio_editor_17_1.md) (as an element in the portfolio editor)
-* In the ["Personal tools"](../personal_menu/Personal_folders.md) Media Center and File Hub for file storage
+* In the ["Personal tools"](../personal_menu/Personal_Tools.md) Media Center and File Hub for file storage
 * [Video Collection](../area_modules/Video_Collection.md) as an overview of all approved video learning resources
 * Use as a teaser video in the catalog and on the [Info-Seite](../learningresources/Info_page.md) of courses and learning resources
 
@@ -78,7 +78,7 @@ Videos can be used in OpenOlat...
 * [Video Upload](Video_Upload.md)
 * [Video Recording](Video_Recording.md)
 
-* [Learning resource video](../learningresources/Learning_resource_Video.md) and [Video collection](../learningresources/Learning_resource_Video.md#video-collection)
+* [Learning resource video](../learningresources/Learning_resource_Video.md) and [Video collection](../area_modules/Video_Collection.md)
 * Videos in [Media Center](../personal_menu/Media_Center.md)
 
 ### Videos in courses:

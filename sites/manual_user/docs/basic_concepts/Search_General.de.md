@@ -1,6 +1,4 @@
-# Allgemeines zur Suche {: #search_general}
-
-![](assets/search.png)
+# :o_icon_o_icon_search: Allgemeines zur Suche {: #search_general}
 
 Beim Suchen kommt es darauf an, von welchem **Ausgangspunkt** man sucht. Je nachdem wird
 
@@ -27,7 +25,7 @@ Beim Suchen kommt es darauf an, von welchem **Ausgangspunkt** man sucht. Je nach
 Die Volltextsuche wird für die globale Suche verwendet. Mit ihr suchen Sie in verschiedenen Kurs- und Gruppen**inhalten** nach den Suchbegriffen, beispielsweise auch in Forumsbeiträgen, PDF- und Word-Dateien.
 Weiter können Sie auch nach Portfoliomappen und Artefakten, sowie nach Dokumenten in den Persönlichen Dateien im [File Hub](../personal_menu/File_Hub.de.md) suchen. Eine Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 
-![](assets/generelle_Suche.png)
+![](assets/generelle_Suche.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 
@@ -43,9 +41,9 @@ Weiter können Sie auch nach Portfoliomappen und Artefakten, sowie nach Dokument
 
 Um die Suche zu verfeinern, benutzen Sie die erweiterte Suche.
 
-![Erweiterte Suche aktivieren](assets/full_text_search_advanced_link_DE.png)
+![Erweiterte Suche aktivieren](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" }
 
-![Erweiterte Volltextsuche - Beispiel](assets/full_text_search_advanced_DE.png)
+![Erweiterte Volltextsuche - Beispiel](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" }
 
 Im Modus _Erweiterte Suche_ können Sie Ihre Sucheingabe verfeinern. Beachten Sie, dass die verschiedenen Suchfelder mit dem boolschen AND-Operator verknüpft werden. D.h. wenn Sie zum Beispiel die Felder _Titel_ und _Autor_ ausfüllen, werden nur Dokumente gefunden, bei denen die Begriffe in den jeweiligen Feldern gleichzeitig vorkommen.
 
@@ -75,7 +73,7 @@ In manchen Suchformularen besteht die Möglichkeit auf eine Massensuche umzuscha
 ## Suchsyntax {: #syntax}
 
 Sie können Ihre Suchanfrage mit folgender Syntax modifizieren.
-  
+
 **Einzelne Begriffe**, z.B. _OpenOlat_
 
 **Mehrere Begriffe** im Suchfeld sind immer mit dem ODER-Operator verknüpft
@@ -101,7 +99,7 @@ Die Metadaten werden von der Volltextsuche indexiert. Dies bedeutet, dass man in
 
 **Datei sperren:** In den Metadaten können Sie eine Datei als gesperrt markieren. Gesperrte Dateien sind mit einem Schloss versehen und können von anderen Benutzern nicht mehr überschrieben, gelöscht oder verschoben werden. Diese Option ist für Ordner nicht vorhanden.
 
-![](assets/Datei_gesperrt_DE_Detail.png)
+![](assets/Datei_gesperrt_DE_Detail.png){ class="shadow lightbox" }
 
 Mit Hilfe des verfügbaren externen Links können Sie auch ausserhalb von OpenOlat direkt auf eine bestimmte Datei verlinken.
 

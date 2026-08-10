@@ -1,6 +1,4 @@
-# General information on the search {: #search_general}
-
-![](assets/search.png)
+# :o_icon_o_icon_search: General information on the search {: #search_general}
 
 When searching, it depends on which **starting point** you are searching from. Depending on this
 
@@ -25,7 +23,7 @@ When searching, it depends on which **starting point** you are searching from. D
 The full-text search is used for the global search. You can use it to search for the search terms in various course and group **content**, for example in forum posts, PDF and Word files.
 You can also search for portfolio folders and artifacts, as well as for documents in the in your personal files in the [File Hub](../personal_menu/File_Hub.md).
 
-![](assets/generelle_Suche.png)
+![](assets/generelle_Suche.png){ class="shadow lightbox" }
 
 !!! info "Hint"
 
@@ -40,9 +38,9 @@ You can also search for portfolio folders and artifacts, as well as for document
 
 To refine your search, use the advanced search.
 
-![Erweiterte Suche aktivieren](assets/full_text_search_advanced_link_DE.png)
+![Erweiterte Suche aktivieren](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" }
 
-![Erweiterte Volltextsuche - Beispiel](assets/full_text_search_advanced_DE.png)
+![Erweiterte Volltextsuche - Beispiel](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" }
 
 In _Advanced search_ mode, you can refine your search entry. Please note that the various search fields are linked with the Boolean AND operator. This means that if you fill in the fields _Title_ and _Author_, for example, only documents in which the terms in the respective fields occur simultaneously will be found.
 
@@ -95,7 +93,7 @@ The metadata is indexed by the full-text search. This means that you can search 
 
 **Lock file:** You can mark a file as locked in the metadata. Locked files are provided with a lock and can no longer be overwritten, deleted or moved by other users. This option is not available for folders.
 
-![](assets/Datei_gesperrt_DE_Detail.png)
+![](assets/Datei_gesperrt_DE_Detail.png){ class="shadow lightbox" }
 
 With the help of the available external link, you can also link directly to a specific file outside of OpenOlat.
 

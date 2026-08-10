@@ -13,7 +13,7 @@ Kursbesitzer:innen finden die gelöschte Lernressource anschliessend im Autorenb
 
 !!! info "Archivierung"
 
-    Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst als Excel-Datei in Ihrem [persönlichen Ordner](../personal_menu/Personal_folders.de.md) archiviert und im Anschluss gelöscht.
+    Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst als Excel-Datei in Ihren [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) archiviert und im Anschluss gelöscht.
 
 Es ist möglich, andere Kursbesitzer:innen via E-Mail über das Beenden oder Löschen eines Kurses zu informieren. Dies kann entweder im Beenden/Löschen-Dialog optional ausgewählt oder von OpenOlat-Administrator:innen systemweit eingestellt werden.
 

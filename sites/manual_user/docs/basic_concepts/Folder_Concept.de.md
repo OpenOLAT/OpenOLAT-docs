@@ -1,12 +1,12 @@
 # Ordnerkonzept {: #folders}
 
-Im :octicons-tag-24: Release 19 wurde die Ordnerkomponente komplett überarbeitet und die Ansichten und Arbeitsweisen haben sich teilweise geändert.
+Die Ordnerkomponente ist überarbeitet, Ansichten und Arbeitsweisen haben sich teilweise geändert. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
 
 ## Die verschiedenen Ordner {: #folder_types}
 
 ### Persönlicher Ordner {: #personal_folder}
 
-Den persönlichen Ordner finden Sie bei den persönlichen Werkzeugen im [persönlichen Menü](../personal_menu/index.de.md). Ab Release 19 ist er im [File Hub](../personal_menu/File_Hub.de.md) zu finden.
+Den persönlichen Ordner finden Sie bei den persönlichen Werkzeugen im [persönlichen Menü](../personal_menu/index.de.md), im [File Hub](../personal_menu/File_Hub.de.md).
 
 Er bietet die Möglichkeit, individuelle Dateien unabhängig von Kursen oder Ressourcenordner abzulegen. 
 
@@ -16,7 +16,7 @@ Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem *
 
     Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie **Personensuche** im persönlichen Menü und suchen die gewünschte Person über die Suchmaske.
 
-[Zu den Details des persönlichen Ordners (bis Release 18) >](../personal_menu/Personal_folders.de.md)<br>
+[Zu den Details der persönlichen Dateien >](../personal_menu/File_Hub.de.md#personal_files)<br>
 [Zu den Details des File Hubs >](../personal_menu/File_Hub.de.md)<br>
 [Zum Seitenanfang ^](#folders)
 
@@ -108,7 +108,7 @@ Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteine ein Teilarchi
 
 Auch der Dokumentenpool ist im File Hub als Ordner angezeigt, in dem unterschiedliche Dateien abgelegt werden. Allerdings werden hier zu den Dateien Metadaten hinzugefügt (z.B. Taxonomie). Es ist also keine reine Dateiablage in einem Filesystem, obwohl z.B. über WebDAV Dateien in den Dokumentenpool übertragen werden können.
 
-[Zu den Details >](../basic_concepts/File_Hub_Concept.de.md#dokumentenpool)<br>
+[Zu den Details >](../basic_concepts/File_Hub_Concept.de.md#document_pool)<br>
 [Zum Seitenanfang ^](#folders)
 
 
@@ -128,7 +128,7 @@ Mit den Buttons über der Liste schalten Sie um zwischen
     ![folder_concept_view_files_v1_de.png](assets/folder_concept_view_files_v1_de.png){ class="shadow lightbox" title=" " }
 
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
     Im Krümelpfad unter den Buttons ist jederzeit ersichtlich, in welchem Ordner Sie sich gerade befinden. Durch Klick auf einen Abschnitt im Krümelpfad springen Sie direkt zu dieser Ebene.
 
@@ -187,7 +187,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 !!! info "Hinweis" 
 
     Die Ordnerkomponente wird in folgenden OpenOlat-Bereichen verwendet:
-    
+
     - Shared Folder
     - Ablageordner des Kurses
     - Kursarchiv

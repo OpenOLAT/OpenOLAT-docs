@@ -9,7 +9,7 @@ OpenOlat works with a roles and rights management system. At the top level, a di
 
 ### Registered Users (Standard) {: #registered_users} 
 
-All users have a unique username that is used for identification after registration. Users can access enabled learning content and participate in all learning activities. Learning results (e.g. from tests) are assigned to the username. In addition, all users have an individually configurable home page and [storage space](../personal_menu/Personal_folders.md) available. All registered users also have the option to create their own [groups](../groups/index.md) and use all the functions and tools they contain. 
+All users have a unique username that is used for identification after registration. Users can access enabled learning content and participate in all learning activities. Learning results (e.g. from tests) are assigned to the username. In addition, all users have an individually configurable home page and [storage space](../personal_menu/File_Hub.md#quota) available. All registered users also have the option to create their own [groups](../groups/index.md) and use all the functions and tools they contain. 
 
 Registered users without additional roles and rights are generally the learners.
 

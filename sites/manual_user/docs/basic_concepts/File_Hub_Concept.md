@@ -2,7 +2,7 @@
 
 ## What is the File Hub? [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-As of Release 19, a file hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.) 
+A file hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.) 
 
 ![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
@@ -66,15 +66,14 @@ In [course archives](../learningresources/Course_Archiving.md), participant data
 ### Courses [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #courses}
 
 The files used in a course are located in a folder belonging to the course, the [storage folder](../learningresources/Storage_folder.md).<br>
-Up to Release 18, you can access this under **Course administration > Storage folder**.<br>
-As of Release 19, access has been renamed and can be found under **Course administration > Files**.
+Access can be found under `Course administration > Files`.
 
 The [storage folder](../learningresources/Storage_folder.md) is course-specific. In order to also be able to use files that are used several times in different courses, a **resource folder** can also be included in the course. 
 
 
 ### Personal files [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #personal_files}
 
-Only folders to which the person logged in has access authorization are displayed in the File Hub. Therefore, for example, the [Personal folder](../personal_menu/Personal_folders.md) can also be accessed via File Hub. (The files there can only be viewed by the person who is currently logged in).
+Only folders to which the person logged in has access authorization are displayed in the File Hub. Therefore, for example, the [personal files](../personal_menu/File_Hub.md#personal_files) can also be accessed via File Hub. (The files there can only be viewed by the person who is currently logged in).
 
 
 ### Ressourcenordner {: #resource_folder}
@@ -109,5 +108,5 @@ Accordingly, only folders for which you are the course owner or which have been 
 [Document pool](../../manual_admin/administration/Modules_Document_pool.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>
 [Resource folder](../learningresources/Resource_Folder.md)<br>
-[Personal folder](../personal_menu/Personal_folders.md)<br>
+[Personal files](../personal_menu/File_Hub.md#personal_files)<br>
 [Course archive](../learningresources/Course_Archiving.md)<br>

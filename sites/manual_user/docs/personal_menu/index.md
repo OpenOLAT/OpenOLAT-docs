@@ -1,4 +1,4 @@
-# :material-home: Personal menu and general components
+# Personal menu and general components
 
 Each registered OpenOlat user has a personal menu that can be configured individually.
 
@@ -23,8 +23,8 @@ as well as the **Logout** function
 
     * [Calender](../personal_menu/Calendar.md)
     * [Subscriptions](../personal_menu/Subscriptions.md)
-    * [Personal folder (up to release 18)](../personal_menu/Personal_folders.md)
-    * [File Hub (from release 19)](../personal_menu/File_Hub.md)
+    * [Personal files](../personal_menu/File_Hub.md#personal_files)
+    * [File Hub](../personal_menu/File_Hub.md)
     * [Notes](../personal_menu/Notes.md)
     * [Competences](../personal_menu/Competences.md)
     * [Booking orders](../personal_menu/Bookings.md)
@@ -61,7 +61,7 @@ If you prefer to have a tool displayed in the header instead of the personal men
 ![pers_menu_moved_tool_v1_de.png](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
 
 You make the setting for this in the<br>
-**Personal Menu > Section Configuration > System Tab > Section Personal tools**
+`Personal Menu > Configuration > Tab System > Personal tools`
 
 All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.
 
@@ -80,13 +80,13 @@ The [Chat](../basic_concepts/Chat.md) (instant messenger) and the [Search](../ba
 
 ## Further information (German)
 
-:octicons-device-camera-video-24: **Video introduction**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video introduction**: [The OpenOlat screen](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction**: [The OpenOlat screen](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video introduction**: [Personal menu](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction**: [Personal menu](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video introduction**: [Menu bar](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction**: [Menu bar](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank"}
 
 
 

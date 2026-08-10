@@ -20,11 +20,11 @@ Of course not all folders and files of an OpenOlat installation can be accessed 
 
 Once the items have been created via OpenOlat, the structure is automatically created. You can access the following OpenOlat folders:
 
-  * [Personal folder](../../manual_user/personal_menu/Personal_folders.md) (every user)  
+  * [Personal files](../../manual_user/personal_menu/File_Hub.md#personal_files) (every user)  
   * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
   * [Storage folders](../../manual_user/learningresources/Storage_folder.md) of courses (course owners only)
   * [Folder - course element](../../manual_user/learningresources/Course_Element_Folder.md) (course members)
-  * [Resource folders](../../manual_user/learningresources/Course_Settings.md#including-resource-folder) (only Learning Resource Owner)
+  * [Resource folders](../../manual_user/learningresources/Course_Settings.md#options) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on
 the respective configuration.
