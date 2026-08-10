@@ -2,7 +2,7 @@
 
 Every user has access to their portfolio in the personal menu. The link "To my portfolios" takes you to all your own portfolio folders and you can also create new folders.
 
-![meine_mappen.png](assets/Meine_Mappen.jpg)
+![meine_mappen.png](assets/Meine_Mappen.jpg){ class="shadow lightbox" }
 
 
 ## The 2 types of binders
@@ -23,9 +23,9 @@ In the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md), a layou
 
 Alternatively, already created portfolio entries can also be linked via the ["Reference content"](Multiple_use_of_entries.md) button. Changes to the entries will then be reflected in all referenced locations.
 
-!!! tip "Attention"
+!!! warning "Attention"
 
-    "However, users cannot create new *"sections"* in a retrieved portfolio binder. By default, creating their own "entries" is also disabled.
+    However, users cannot create new *"sections"* in a retrieved portfolio binder. By default, creating their own "entries" is also disabled.
 
 ### Individual portfolio binders
 
@@ -42,9 +42,10 @@ This way, users can quickly create a new, empty portfolio binder. All portfolio 
 
 This provides an additional way to create a new binder.
 
-![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png)
+![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png){ class="shadow lightbox" }
 
 In addition to the option of creating an empty binder as described in a), there are the following additional options:
+
 * **"Create binder based on template"**: A Portfolio 2.0 template for which the user has permission can be used as the basis.
 * **"Create binder for portfolio task from course"**: Portfolio tasks from the user's own courses are displayed here, and one can be selected. This approach leads to the same result as when the user retrieves the portfolio directly from the course.
 * **"Create binder from entries"**: The user can bundle previously created entries into a new portfolio binder. A wizard guides the user step by step through the selection process.
@@ -53,3 +54,20 @@ In addition to the option of creating an empty binder as described in a), there 
 !!! info "Info"
 
     The ability to create folders yourself can be restricted by your [administrator](../../manual_admin/administration/eAssessment_ePortfolio.md).
+
+
+## The tabs of a portfolio binder
+
+An opened binder shows the tabs "Overview", "Entries", "History" and "Access control".
+
+* In the **History**, all changes are listed in chronological order, with the most recent at the top.
+* Under **Access control**, you release sections and entries. For more information, see [Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md).
+
+Two further tabs appear depending on the binder and your rights:
+
+* **Templates**, if you can pick up an assignment from a template in this binder.
+* **Grading**, if the binder is assessable and you are allowed to view the assessment.
+
+!!! info "Info"
+
+    Your [administrator](../../manual_admin/administration/eAssessment_ePortfolio.md) can switch off the tabs "Overview", "Entries" and "History".

@@ -2,7 +2,7 @@
 
 Im persönlichen Menü erhält jeder User Zugang zu seinem Portfolio. Über den Link "Zu meinen Mappen" gelangt man zu allen eigenen Portfolio Mappen und kann auch neue Mappen erstellen.
 
-![meine_mappen.png](assets/Meine_Mappen.jpg)
+![meine_mappen.png](assets/Meine_Mappen.jpg){ class="shadow lightbox" }
 
 
 ## Die 2 Mappen Varianten
@@ -41,16 +41,34 @@ Auf diesem Weg gelangt man rasch zu einer neuen leeren Portfolio Mappe. Dabei st
 
 Hier gibt es eine weitere Möglichkeit eine neue Mappe zu erstellen. 
 
-![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png)
+![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png){ class="shadow lightbox" }
 
-Neben der Möglichkeit eine leere Mappe wie über den a) zu erstellen gibt es noch folgende weitere Optionen: 
-* **"Mappe basierend auf Vorlage erstellen"**: Hier kann als Basis eine Portfolio 2.0 Vorlage verwendet werden für die der User die Berechtigung hat. 
-* **"Mappe für Portfolioaufgabe aus Kurs erstellen"**: Hier werden dem User Portfolioaufgaben aus eigenen Kursen angezeigt und es kann eine ausgewählt werden. Dieses Vorgehen führt zum selben Ergebnis wie, wenn der User das Portfolio im Kurs abholt.  
-* **"Mappe aus Einträgen erstellen"**: Hier kann der User seine zuvor erstellten Einträge in einer neuen Portfolio Mappe bündeln. Ein Wizard führt dabei Schritt für Schritt durch die Auswahl. 
+Neben der Möglichkeit eine leere Mappe wie über den a) zu erstellen gibt es noch folgende weitere Optionen:
+
+* **"Mappe basierend auf Vorlage erstellen"**: Hier kann als Basis eine Portfolio 2.0 Vorlage verwendet werden für die der User die Berechtigung hat.
+* **"Mappe für Portfolioaufgabe aus Kurs erstellen"**: Hier werden dem User Portfolioaufgaben aus eigenen Kursen angezeigt und es kann eine ausgewählt werden. Dieses Vorgehen führt zum selben Ergebnis wie, wenn der User das Portfolio im Kurs abholt.
+* **"Mappe aus Einträgen erstellen"**: Hier kann der User seine zuvor erstellten Einträge in einer neuen Portfolio Mappe bündeln. Ein Wizard führt dabei Schritt für Schritt durch die Auswahl.
 
 !!! info "Info"
-    
+
     Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md) eingeschränkt werden.
 
-    
+
+## Die Tabs einer Portfolio Mappe
+
+Eine geöffnete Mappe führt die Tabs "Überblick", "Einträge", "Änderungsprotokoll" und "Freigabe".
+
+* Im **Änderungsprotokoll** sind alle Änderungen in chronologischer Reihenfolge aufgelistet, die neueste zuoberst.
+* Unter **Freigabe** geben Sie Bereiche und Einträge frei. Mehr dazu unter [Sammeln und Bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+
+Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
+
+* **Vorlagen**, wenn Sie in dieser Mappe eine Aufgabe aus einer Vorlage abholen können.
+* **Bewertung**, wenn die Mappe bewertbar ist und Sie die Bewertung einsehen dürfen.
+
+!!! info "Info"
+
+    Die Tabs "Überblick", "Einträge" und "Änderungsprotokoll" kann Ihr [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md) ausschalten.
+
+
 

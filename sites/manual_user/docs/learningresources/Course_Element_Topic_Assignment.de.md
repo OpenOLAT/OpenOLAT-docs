@@ -21,11 +21,11 @@ Der Kursbaustein "Themenvergabe" eignet sich dazu, wenn Sie in Ihrem Kurs Themen
 Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen Teilnehmende wählen kann und ob ihre Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmende laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
 
 **Anzahl Themen pro Teilnehmer:in limitieren?:**
-Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die Teilnehmende maximal pro Kursbaustein Themenvergabe auswählen darf.  
-  
+Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die Teilnehmende maximal pro Kursbaustein Themenvergabe auswählen darf.
+
 **Themenverantwortliche müssen Teilnehmer akzeptieren:**
-Wenn Sie diese Option auswählen, können sich Teilnehmer nur provisorisch für ein Thema einschreiben. Die Themenverantwortlichen müssen dann die definitiven Teilnehmer aus den möglichen Kandidaten auswählen und akzeptieren. Wenn Sie diese Option nicht auswählen, werden automatisch alle Teilnehmer akzeptiert, die sich für das Thema eingeschrieben haben. Die Themenverantwortlichen haben aber vorgängig die Möglichkeit, die maximale Teilnehmerzahl zu definieren.  
-  
+Wenn Sie diese Option auswählen, können sich Teilnehmer nur provisorisch für ein Thema einschreiben. Die Themenverantwortlichen müssen dann die definitiven Teilnehmer aus den möglichen Kandidaten auswählen und akzeptieren. Wenn Sie diese Option nicht auswählen, werden automatisch alle Teilnehmer akzeptiert, die sich für das Thema eingeschrieben haben. Die Themenverantwortlichen haben aber vorgängig die Möglichkeit, die maximale Teilnehmerzahl zu definieren.
+
 **Nur ein Thema erlaubt (Akzeptierte Teilnehmemende werden automatisch aus allen anderen Themen ausgetragen):**  Diese Option bedeutet, dass vom Themenverantwortlichen akzeptierte Teilnehmende automatisch aus allen anderen gewählten Themen ausgetragen werden. Teilnehmende sind also höchstens für ein Thema definitiv eingeschrieben.
 
 **Zusätzliche Felder hinzufügen:**
@@ -39,15 +39,15 @@ Wenn Sie "**Erscheint in der Tabelle**" wählen, wird das gewünschte Feld in de
 
 Über "**Feld entfernen**" können Sie zusätzliche Felder wieder löschen.
 
-![zusatzfeld.png](assets/Tehmenvergabe_Zusatzfelder.jpg)
+![zusatzfeld.png](assets/Tehmenvergabe_Zusatzfelder.jpg){ class="shadow lightbox" }
 
 **Einschreibetermin:**
 Der Themenverantwortliche kann eine Einschreibefrist
-für ein Thema festlegen. Nach Ablauf dieser Frist können die Teilnhemer das Thema weder aus- noch abwählen. Der Themenverantwortliche kann nachträglich Teilnehmer ein- und austragen.  
-  
+für ein Thema festlegen. Nach Ablauf dieser Frist können die Teilnhemer das Thema weder aus- noch abwählen. Der Themenverantwortliche kann nachträglich Teilnehmer ein- und austragen.
+
 **Abgabetermin:**
 Ist der Abgabetermin abgelaufen, wird der Abgabeordner
-geschlossen und die Teilnehmer können keine Dokumente mehr in den Abgabeordner hochladen.  
+geschlossen und die Teilnehmer können keine Dokumente mehr in den Abgabeordner hochladen.
 
 Wenn Sie "**Erscheint in der Tabelle**" wählen, wird der Termin in der Themenübersicht angezeigt.
 
@@ -59,14 +59,14 @@ Wenn Sie "**Erscheint in der Tabelle**" wählen, wird der Termin in der Themenü
 
   Im Tab "Verantwortliche" fügen Sie diejenigen OpenOlat-Benutzer hinzu, welche Themen ausschreiben und betreuen dürfen. Diese Personen müssen nicht zwingend Autorenrechte haben.
 
-  Die hinzugefügten Personen werden in der Gruppe **"Zuständig für dieses Thema"** aufgeführt. Über die Aktion **"Benutzer:in hinzufügen"** :fontawesome-solid-user-plus: öffnen Sie den Dialog zum Hinzufügen einer weiteren Person [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
+  Die hinzugefügten Personen werden in der Gruppe **"Zuständig für dieses Thema"** aufgeführt. Über die Aktion **"Benutzer:in hinzufügen"** :o_icon_o_icon_add_member: öffnen Sie den Dialog zum Hinzufügen einer weiteren Person [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
 
   Falls Sie einen Themenverantwortlichen entfernen, der bereits Themen ausgeschrieben hat, kann er diese weiterhin betreuen, aber keine neuen Themen ausschreiben.
 
   Wird der Kursbaustein "Themenvergabe" aus einem anderen Kurs importiert, wird die Person, die den Import durchführt, automatisch als Themenverantwortliche/r der importierten Themen eingetragen, sofern sie Mitglied des Zielkurses ist. Ist die importierende Person kein Mitglied des Zielkurses, wird für die importierten Themen keine verantwortliche Person eingetragen [:octicons-tag-16:{ title="ab Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
 
 * **Rolle des Themenverantwortlichen**
-  
+
   Wenn Sie vom Besitzer als Themenverantwortlichen eingesetzt werden, können Sie selber Themen ausschreiben und betreuen. Öffnen Sie die Kursansicht und navigieren Sie zur Themenvergabe. Als Themenverantwortlicher haben Sie Zugriff auf die zugehörigen Ordner. Ferner können Sie das Thema editieren, die Teilnehmer des Themas verwalten sowie weitere Themenverantwortliche hinzufügen.
 
 * **Ordner - Tab "Teilbausteine"**
@@ -95,16 +95,16 @@ Klicken Sie auf "**Neues Thema erstellen**" und geben Sie Thementitel und Beschr
 
 * **Thema:**
 
-  Unter Titel ist der Titel des Themas aufgeführt, und kann vom Themenverantwortlichen geändert werden.  
-  
+  Unter Titel ist der Titel des Themas aufgeführt, und kann vom Themenverantwortlichen geändert werden.
+
 * **Verantwortlich:**
 
   Hier sind die Themenverantwortlichen aufgelistet. Wenn User auf den Namen des Themenverantwortliches klicken, gelangen Sie zu seiner Visitenkarte und können ihn kontaktieren.
 
 !!! info "Wichtig"
 
-    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab "Verwaltung Benutzer:innen" einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.  
-  
+    Wenn Sie ein Thema anlegen, werden Sie automatisch als Themenverantwortlicher aufgeführt. Sie können diese Rolle im Tab "Verwaltung Benutzer:innen" einer anderen Person übertragen oder auch weitere Benutzer zu Themenverantwortlichen ernennen.
+
 * **Beschreibung:**
 
   Im Feld "Beschreibung" können Detailinformationen zum Thema eingetragen werden.
@@ -129,21 +129,21 @@ Klicken Sie auf "**Neues Thema erstellen**" und geben Sie Thementitel und Beschr
 
 * **Einschreibetermin:**
 
-  Sofern im Editor eingerichtet, können Themenverantwortliche hier eine Einschreibefrist definieren, wodurch nur in der entsprechenden Zeitspanne ein Thema aus- bzw. abgewählt werden kann. Vor und nach dieser Frist werden die Links "Wählen" und "Abwählen" deaktiviert und Benutzer können sich nicht in Ihr Thema ein- und austragen. Vor und nach Ablauf der Einschreibefrist können Teilnehmer aber vom Themenverantwortlichen manuell ein- oder ausgetragen werden.  
-  
+  Sofern im Editor eingerichtet, können Themenverantwortliche hier eine Einschreibefrist definieren, wodurch nur in der entsprechenden Zeitspanne ein Thema aus- bzw. abgewählt werden kann. Vor und nach dieser Frist werden die Links "Wählen" und "Abwählen" deaktiviert und Benutzer können sich nicht in Ihr Thema ein- und austragen. Vor und nach Ablauf der Einschreibefrist können Teilnehmer aber vom Themenverantwortlichen manuell ein- oder ausgetragen werden.
+
 * **Abgabetermin:**
 
-  Sofern im Editor eingerichtet, können Themenverantwortliche eine Abgabefrist definieren. Nur in der entsprechenden Zeitspanne können dann Dokumente in den Abgabeordner hochgeladen werden.  
-  
-* **Anhang:**  
+  Sofern im Editor eingerichtet, können Themenverantwortliche eine Abgabefrist definieren. Nur in der entsprechenden Zeitspanne können dann Dokumente in den Abgabeordner hochgeladen werden.
 
-  Im Feld Anhang können die Themenverantwortlichen eine Datei hochladen. Das macht dann Sinn wenn man noch umfangreiche Dokumente zu einem Thema ergänzen möchte. Mehrere Dateien können als ZIP-Datei hochgeladen werden.  
-  
+* **Anhang:**
+
+  Im Feld Anhang können die Themenverantwortlichen eine Datei hochladen. Das macht dann Sinn wenn man noch umfangreiche Dokumente zu einem Thema ergänzen möchte. Mehrere Dateien können als ZIP-Datei hochgeladen werden.
+
 * **E-Mail-Benachrichtigung bei Themen Auswahl/Abwahl:**
 
   Wenn Sie diese Option wählen, werden Sie per E-Mail benachrichtigt, wenn Kursteilnehmer Ihr Thema aus- oder abwählen.
 
-![themen_belegt.png](assets/Themen_belegt.jpg)
+![themen_belegt.png](assets/Themen_belegt.jpg){ class="shadow lightbox" }
 
 Über "**Thema editieren**" gelangen Sie in den Bearbeitungsmodus und können die aufgeführten Felder ändern.
 
@@ -164,9 +164,9 @@ ein Thema wählen können sollen.
 
 Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilnehmer vom Themenverantwortlichen akzeptiert werden muss, sehen Sie auf der Startseite der Themenvergabe in der Tabelle den Vermerk "**Teilnehmer prüfen**", sobald sich jemand für Ihr Thema eingeschrieben hat.
 
-![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png)
+![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png){ class="shadow lightbox" }
 
-![topic_assignment_user_managementv2_de.png](assets/topic_assignment_user_managementv2_de.png)
+![topic_assignment_user_managementv2_de.png](assets/topic_assignment_user_managementv2_de.png){ class="shadow lightbox" }
 
 Öffnen Sie den Tab "**Verwaltung Benutzer:innen**" und akzeptieren Sie den/die Kandidaten.
 
@@ -174,11 +174,13 @@ Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilneh
 
 Wenn Sie die Anzahl der Plätze nicht limitiert haben, können Sie den Vorgang mehrmals wiederholen. Denken Sie daran, im Tab "Beschreibung" "Themenstatus auf "Belegt" setzen" zu wählen, damit sich keine weiteren Kursteilnehmer für Ihr Thema bewerben.
 
-In der Gruppe "Akzeptierte Teilnehmer:innen" können Sie über die Aktion **"Teilnehmer:in hinzufügen"** :fontawesome-solid-user-plus: auch manuell eine Person hinzufügen, ohne dass diese den Bewerbungsprozess durchläuft. Ebenso können Sie in der Gruppe "Zuständig für dieses Thema" über **"Benutzer:in hinzufügen"** weitere Themenverantwortliche ergänzen oder wieder entfernen. Teilnehmer:innen haben kein Recht, das Thema zu editieren.
+In der Gruppe "Akzeptierte Teilnehmer:innen" können Sie über die Aktion **"Teilnehmer:in hinzufügen"** :o_icon_o_icon_add_member: auch manuell eine Person hinzufügen, ohne dass diese den Bewerbungsprozess durchläuft. Ebenso können Sie in der Gruppe "Zuständig für dieses Thema" über **"Benutzer:in hinzufügen"** weitere Themenverantwortliche ergänzen oder wieder entfernen. Teilnehmer:innen haben kein Recht, das Thema zu editieren.
 
 ### Dateien herunterladen und zurückgeben
 
 Im Tab "Ordner" finden Sie im Abschnitt "Abgabeordner" alle Dateien, die Kursteilnehmer abgegeben haben. Im Abschnitt "Rückgabeordner" können Sie korrigierte Dateien zurückgeben. Für jeden Kursteilnehmer steht dazu ein Unterordner bereit.
+
+Abonnieren Sie den Abgabeordner Ihres Themas, damit Sie über neu eingereichte Dateien benachrichtigt werden und nicht selbst nachsehen müssen.
 
 ## Nutzerperspektive
 
@@ -188,9 +190,7 @@ Falls der Themenstatus auf "Frei" ist, können sich Benutzer für ein Thema eins
 
 Der Kursbaustein "Themenvergabe" kommt innerhalb eines OpenOlat-Kurses zum Einsatz. Der Besitzer eines Kurses kann den Kursbaustein nach Bedarf konfigurieren und Themenverantwortliche bestimmen. Als Themenverantwortliche/r können Sie den Kursteilnehmern Themen zur Auswahl anbieten und die Teilnehmer Ihrer Themen verwalten. Die Kursteilnehmer können schriftliche Arbeiten über den Abgabeordner einreichen und Sie können den Kursteilnehmern die korrigierten Arbeiten über den Rückgabeordner zurückgeben.
 
-## Arbeiten mit der Themenvergabe
-
-:fontawesome-regular-circle:
+## :o_icon_o_projectbroker_icon: Arbeiten mit der Themenvergabe
 
 ### Thema auswählen {: #select}
 
@@ -216,7 +216,7 @@ Klicken Sie auf ein Thema um weitere Informationen dazu zu erhalten:
 
  **Beschreibung**: Im Feld Beschreibung finden Sie, sofern angegeben, Detailinformationen zum Thema.
 
- **Zusätzliche Felder**: Eventuell werden Ihnen noch weitere Informationen in Zusatzfeldern bereitgestellt.  
+ **Zusätzliche Felder**: Eventuell werden Ihnen noch weitere Informationen in Zusatzfeldern bereitgestellt.
 
  **Einschreibetermin**: Wenn die Themenverantwortlichen eine Einschreibefrist definiert haben, können Sie nur in der entsprechenden Zeitspanne ein Thema aus- bzw. abwählen. Vor und nach Ablauf der Einschreibefrist kann Sie der Themenverantwortliche manuell ein- oder austragen.
 

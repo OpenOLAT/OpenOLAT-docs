@@ -2,7 +2,7 @@
 
 !!! note "Availability"
 
-    As of :octicons-tag-24: release 17.1. this portfolio editor is available.  If you want to fill an old entry with new content, use the new layouts.
+    As of :octicons-tag-16:{ title="from Release 17.1" } release 17.1 you design your portfolio entries with layouts and content blocks. You can also continue to fill an older entry using these layouts.
 
 Different layouts and content elements can be added to each portfolio entry. The configuration is carried out via the operating elements: Layout, the block menu and the inspector.
 
@@ -12,8 +12,8 @@ The Portfolio Editor includes various menu areas for configuration:
 ![Image of the individual controls in ePortfolio](assets/content-editor-gui.jpg){ class="lightbox" }
 
 * **Layout Menu**: A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. In the layout menu, you can select a single or multi-column layout, move layout areas or add new layouts. If you delete or change layouts, existing blocks are moved into the existing columns. The following layout templates are currently available:
-![layout-template](assets/layoutblock-template.jpg)
-* **Block Menu**: Menu of an individual content element within a layout. A content element can be moved, added or deleted via the block menu. The inspector with further settings for a content element can also be activated via the :material-cog: gear wheel. 
+![layout-template](assets/layoutblock-template.jpg){ class="shadow lightbox" }
+* **Block Menu**: Menu of an individual content element within a layout. A content element can be moved, added or deleted via the block menu. The inspector with further settings for a content element can also be activated via the :o_icon_o_icon_inspect: gear wheel. 
 * **Inspector**: Used to configure individual content elements. There are all settings that change the functionality, as well as the appearance of the respective block or layout e.g. the alignment of images. By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
 
 **Note box in the inspectorr**
@@ -71,14 +71,15 @@ Add image elements by uploading a graphic file or accessing a graphic from your 
 
     To optimize the positioning of a graphic, it is best to use a suitable layout, e.g. multi-column layout. Depending on the type of graphics, this tip also applies to the "Gallery" content element.
 
-### Gallery
+### Gallery [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
 
-New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Click on the "Add" button to open the Media Center, in which several images can be selected. The display type - preview, grid or slideshow - can be defined in the Inspector. The example shown presents a gallery with a preview from the perspective of a user.
+With the content element "Gallery" you add a picture gallery. Click on the "Add" button to open the Media Center, in which several images can be selected. The display type (preview, grid or slideshow) can be defined in the Inspector. The example shown presents a gallery with a preview from the perspective of a user.
 
-![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }    
+![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
 
-### Image comparison
-New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
+### Image comparison [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
+
+With the content element "Image comparison" you place 2 images from the Media Center next to each other, e.g. two versions of the same image.
 The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
 
 ![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
@@ -121,7 +122,7 @@ If an external document editor is activated and the files are in a format that i
 
 ### Diagram
 
-You can create a new draw.io diagram or add an existing draw.io diagram from your Media Center. The actual design of the diagram is done by clicking on the "Edit" link in the entry.  
+You can create a new draw.io diagram or add an existing draw.io diagram from your Media Center. The actual design of the diagram is done by clicking on the "Edit" link in the entry.
 
 ![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
 

@@ -2,6 +2,10 @@
 
 ![coaching_events1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
+!!! info "Prerequisites"
+
+    This tool appears in the coaching tool if administrators have activated the [Events and absences module](../../manual_admin/administration/Modules_Events_and_Absences.md) and if [event and absence management is switched on](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) in at least one course.
+
 
 ## As Coach - As Master Coach [:octicons-tag-16:{ title="Available from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
@@ -35,6 +39,8 @@ Absences can be recorded by clicking on the **book icon** in the row of an event
 
 By clicking on the **icon with the 3 dots** in the row of an appointment, individual events can be exported as an Excel file, and an absence list and an attendance list can be downloaded in PDF format.
 
+Via the course title in the overview, you reach the events of that course, where you can close the absence recording for a day.
+
 [To the top of the page ^](#events)
 
 ---
@@ -50,7 +56,7 @@ At the top right above the list, you can select the desired columns using the ge
 
 **Examples:**
 
-* Absences can be recorded by clicking on the **book icon** in the row of an event.
+* Absences can be recorded by clicking on the **book icon** in the row of an event, provided that absence recording has been activated for the events of that course.
 
 * The column with the **asterisk symbol** shows you whether attendance has been planned as mandatory or not.
 
@@ -111,7 +117,7 @@ You will also find buttons here for
 
 ## Tab Appeals {: #tab_appeals}
 
-This tab provides an overview for managing all appeals.
+This tab provides an overview for managing all appeals. The tab appears if you have the permission to organise appeals. As a rule, absence managers process the appeals in the cross-course [absence management](../area_modules/Absence_Management.md).
 
 In the **search field**, you can search for users, coach, and events.
 
@@ -141,6 +147,8 @@ When you click on one of the courses or products found, you will be taken to the
 !!! note "Note"
     A quick overview of upcoming appointments for the current week is already available on the Coaching overview in the **Appointments** widget. This tool here provides complete management with Cockpit, Absences, Notices, Appeals, and User search.
 
+[Events and absences in a course >](../learningresources/Events_and_absences.md)<br>
+[Cross-course absence management >](../area_modules/Absence_Management.md)<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>

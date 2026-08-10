@@ -221,7 +221,7 @@ To test a form as an author, switch to the participant view:
 !!! warning "Limited editing possibility after data entry"
 
     When others (non-owners) test, their entered data is saved and a form can only be changed to a limited extent afterwards. This prevents subsequent manipulation.
-    
+
     If others have already entered data into the form, it is best to create a copy of the learning resource or course element and continue working with it.
 
 <br>
@@ -229,9 +229,9 @@ To test a form as an author, switch to the participant view:
 !!! tip "Hint when a 'Not accessible' appears"
 
     If you as an author have published a course (left the course editor), it often happens that the course element with the form learning resource is not accessible.
-    
+
     Often it is because authors are not allowed to fill in the form themselves according to the preset configuration. (Because they are owner but not participant).
-    
+
     You can get around this by switching roles to the participant view in the editor.
 
 
@@ -276,7 +276,7 @@ A complete enumeration of all configuration options across all levels would be t
 * who may see the entries and evaluations
 * ...
 
-!!! Info "Anonymous or personalized?"
+!!! info "Anonymous or personalized?"
 
     You can have forms filled out anonymously or with the name.
     By default, no personalized information is recorded. By adding an element "Information" the anonymity is removed and a personalized evaluation is possible.
@@ -386,7 +386,7 @@ Characteristics:
 [Form question rules >](../../manual_user/learningresources/Form_Question_Rules.md)<br>
 
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
-[Forms in forms course element >](../../manual_user/learningresources/Forms_in_Forms_Element.md)<br>
+[Course element form >](../../manual_user/learningresources/Course_Element_Form.md)<br>
 [Forms in questionnaires >](../../manual_user/learningresources/Forms_in_Questionnaires.md)<br>
 [Forms in rubric scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
 [Forms in peer reviews >](../../manual_user/learningresources/Course_Element_Task.md#revisions)<br>

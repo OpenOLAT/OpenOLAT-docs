@@ -1,6 +1,10 @@
 # Coaching - Termine und Absenzen {: #events}
-    
+
 ![coaching_events_absences1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
+
+!!! info "Voraussetzungen"
+
+    Dieses Werkzeug erscheint im Coaching, wenn Administrator:innen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) aktiviert haben und in mindestens einem Kurs die [Termin- und Absenzenverwaltung eingeschaltet](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management) ist.
 
 
 ## Als Betreuer - Als Klassenlehrer [:octicons-tag-16:{ title="ab Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
@@ -35,6 +39,8 @@ Durch Klick auf das **Buchsymbol** in der Zeile eines Termins können Absenzen e
 
 Durch Klick auf das **Symbol mit den 3 Punkten** in der Zeile eines Termins können einzelne Termine als Excel-Datei exportiert, eine Absenzenliste und eine Präsenzliste im PDF-Format heruntergeladen werden.
 
+Über den Kurstitel in der Übersicht gelangen Sie zu den Terminen dieses Kurses und können dort die Absenzenerfassung für einen Tag abschliessen.
+
 [Zum Seitenanfang ^](#events)
 
 ---
@@ -50,7 +56,7 @@ Rechts oben über der Liste lassen sich mit dem Zahnrad-Icon die gewünschten Sp
 
 **Beispiele:**
 
-* Durch Klick auf das **Buchsymbol** in der Zeile eines Termins können Absenzen erfasst werden.
+* Durch Klick auf das **Buchsymbol** in der Zeile eines Termins können Absenzen erfasst werden, sofern für die Termine dieses Kurses eine Absenzenerfassung aktiviert wurde.
 
 * Die Spalte mit dem **Stern-Symbol (Asterisk)** zeigt Ihnen, ob eine Anwesenheit verpflichtend geplant wurde oder nicht.
 
@@ -110,7 +116,7 @@ Ausserdem finden Sie hier Buttons für
 
 ## Tab Rekurse {: #tab_appeals}
 
-In diesem Tab verschaffen Sie sich einen Überblick für die Verwaltung der aller Rekurse.<br>
+In diesem Tab verschaffen Sie sich einen Überblick für die Verwaltung aller Rekurse. Der Tab erscheint, wenn Sie die Berechtigung für die Organisation von Rekursen haben. In der Regel bearbeiten Absenzenverwalter:innen die Rekurse in der kursübergreifenden [Absenzenverwaltung](../area_modules/Absence_Management.de.md).<br>
 
 Im **Suchfeld** können Sie nach Benutzer:innen, Betreuer:innen und Terminen suchen.
 
@@ -140,6 +146,8 @@ Wenn Sie auf einen der gefundenen Kurse oder ein Produkt klicken, gelangen Sie z
 !!! note "Hinweis"
     Eine Schnellübersicht der anstehenden Termine der laufenden Woche steht bereits auf der Coaching-Übersicht im Widget **Termine** zur Verfügung. Dieses Werkzeug hier bietet die vollständige Verwaltung mit Cockpit, Absenzen, Meldungen, Rekursen und Personensuche.
 
+[Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
+[Kursübergreifende Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
@@ -150,5 +158,5 @@ Wenn Sie auf einen der gefundenen Kurse oder ein Produkt klicken, gelangen Sie z
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
- 
+
 [Zum Seitenanfang ^](#events)

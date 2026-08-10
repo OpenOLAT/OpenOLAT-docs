@@ -74,7 +74,7 @@ Bei der **Bearbeitungszeit** kann die geschätzte Zeit, die ein/e Teilnehmer:in 
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
 
-![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow" }
+![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow lightbox" }
 
 * **Kursbaustein öffnen**: User hat auf den Kursbaustein geklickt.
 * **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt.
@@ -141,7 +141,7 @@ Diese Option wird nur angezeigt, wenn eine der Optionen "Aufgabenstellung" oder 
 ![9_green_24.png](assets/9_green_24.png) **Betreuung**<br>
 Im Abschnitt "Betreuung" des Tabs "Workflow" kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
 
-![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png)
+![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
 
 * **Zuweisung Betreuende/Teilnehmende**<br>
 Mit Wahl dieser Checkbox werden die weiteren Optionen zur Betreuung eingeblendet.
@@ -221,11 +221,11 @@ Im Feld **"Mitteilung an Benutzer"** können Sie für alle Kursteilnehmenden all
 
 Wählt ein User bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) zurückgesetzt werden.
 
-![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png)
+![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png){ class="shadow lightbox" }
 
 Es folgt *keine automatische* Änderung. Der Teilnehmer erhält nun aber die Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
 
-![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png)
+![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -256,7 +256,7 @@ Im Tab "Abgabe" stehen folgende Optionen zur Wahl bzw. können konfiguriert werd
 
 Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. Voraussetzung ist, dass diese Option von den OpenOlat Administrationen freigeschaltet wurde.
 
-![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png)
+![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
 
 **Videoaufnahmen zulassen**: In diesem Fall können Lernende zusätzlich Video-Aufnahmen per Webcam erstellen und einreichen. Auch eine maximale Aufnahmedauer sowie eine Qualitätsstufe kann für die Videos gewählt werden.
 
@@ -491,7 +491,7 @@ Alle Schritte einer Aufgabe (Workflow) zeigen sich für Kursteilnehmer:innen dir
 
 !!! tip "Tipp"
 
-    Abonnieren Sie den jeweiligen Aufgabenbaustein um schnell per Mail über Änderungen informiert zu werden.
+    Abonnieren Sie den jeweiligen Aufgabenbaustein um schnell per Mail über Änderungen informiert zu werden. Die Benachrichtigung erreicht Sie, sobald eine Aktion abgeschlossen ist, nicht bei jedem Zwischenschritt. Wollen Sie die Einreichungen aller bewertbaren Kursbausteine im Blick behalten, abonnieren Sie stattdessen das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md).
 
 
 
@@ -525,7 +525,7 @@ Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der
 
 Im Bereich **"Abgabe"** haben Sie die Möglichkeit Ihre Lösung einzureichen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen.
 
-![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
+![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
 
 In der Regel wird nur ein Teil der vier Optionen für Sie verfügbar sein.
 Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Dokument wird zwischengespeichert. Die Dokumente bleiben solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
@@ -542,15 +542,15 @@ Wenn Sie noch _keine_ Einreichung vorgenommen haben, und der Betreuer keine Rüc
 
 Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine Rückmeldung erstellt hat, erscheint die entsprechende Information.
 
-![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png)
+![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
 
 Sobald Ihr Betreuer ein Feedback erstellt hat, finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
 
-![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png)
+![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
 
 Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert, erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
-![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
+![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -600,7 +600,7 @@ Ihr Dozent kann der Aufgabe eine **Musterlösung** anfügen, welche zu einem von
 
 Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen.
 
-![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
+![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)

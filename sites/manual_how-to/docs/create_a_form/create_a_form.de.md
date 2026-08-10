@@ -25,7 +25,7 @@ Für die Verwendung der Lernressource in verschiedenen Kursbausteinen gibt es we
 !!! info "Hinweis"
 
     In früheren OpenOlat-Versionen wurden Formular-Lernressourcen als **Fragebogen** bezeichnet. Sie basierten auf dem Standard QTI 1.2, der inzwischen nicht mehr unterstützt wird.
-	
+
 
 [Zum Seitenanfang ^](#create_form)
 
@@ -223,7 +223,7 @@ Um als Autor ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
 !!! warning "Eingeschränkte Bearbeitungsmöglichkeit nach Datenerfassung"
 
     Wenn andere (Nicht-Besitzer) testen, werden deren eingegebene Daten gespeichert und ein Formular ist danach nur noch eingeschränkt änderbar. Dadurch werden nachträgliche Manipulation ausgeschlossen.
-    
+
     Haben andere bereits Daten ins Formular eingegeben, erstellen Sie am besten eine Kopie der Lernressource oder des Kursbausteins und arbeiten mit dieser weiter.
 
 <br>
@@ -231,9 +231,9 @@ Um als Autor ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
 !!! tip "Tipp, wenn ein 'Nicht zugänglich' erscheint"
 
     Wenn Sie als Autorin oder Autor einen Kurs publiziert haben (also den Kurseditor verlassen), kommt es oft vor, dass der Kursbaustein mit der Formular-Lernressource nicht zugänglich ist.
-    
+
     Oft liegt es daran, dass Autorinnen und Autoren das Formular gemäss der voreingestellten Konfiguration nicht selbst ausfüllen dürfen. (Weil sie Besitzer, aber kein Teilnehmer sind.)
-    
+
     Mit dem Rollenwechsel zur Teilnehmeransicht im Editor umgehen Sie dies.
 
 
@@ -278,7 +278,7 @@ Eine vollständige Aufzählung aller Konfigurationsmöglichkeiten über alle Ebe
 * wer die Eintragungen und Auswertungen sehen darf
 * ...
 
-!!! Info "Anonym oder personalisiert?"
+!!! info "Anonym oder personalisiert?"
 
     Sie können Formulare anonym oder mit Angabe des Names ausfüllen lassen.
     Standardmässig werden keine personalisierten Angaben erfasst. Durch Hinzufügen eines Elements "Informationen" wird die Anonymität aufgehoben und eine personenbezogene Auswertung ermöglicht.
@@ -393,7 +393,7 @@ Merkmale:
 [Frageregeln in Formularen >](../../manual_user/learningresources/Form_Question_Rules.de.md)<br>
 
 [Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
-[Formulare im Kursbaustein Formular >](../../manual_user/learningresources/Forms_in_Forms_Element.de.md)<br>
+[Kursbaustein Formular >](../../manual_user/learningresources/Course_Element_Form.de.md)<br>
 [Formulare im Kursbaustein Umfrage >](../../manual_user/learningresources/Forms_in_Questionnaires.de.md)<br>
 [Formulare als Rubrik Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Formulare in Peer-Reviews >](../../manual_user/learningresources/Course_Element_Task.de.md#revisions)<br>

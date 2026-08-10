@@ -2,7 +2,7 @@
 
 !!! note "Verfügbarkeit"
 
-    Ab :octicons-tag-24: Release 17.1. ist dieser Portfolio Editor verfügbar. Wollen sie einen alten Eintrag mit neuem Inhalt befüllen, benutzen sie dafür die neuen Layouts.
+    Ab :octicons-tag-16:{ title="ab Release 17.1" } Release 17.1 gestalten Sie Ihre Portfolio-Einträge mit Layouts und Inhaltsblöcken. Auch einen älteren Eintrag füllen Sie mit diesen Layouts weiter.
 
 Jedem Portfolio Eintrag können unterschiedliche Layouts und Inhaltselemente hinzugefügt werden. Die Konfiguration erfolgt über die Bedienelemente: Layout, das Blockmenü und den Inspektor. 
 
@@ -13,7 +13,7 @@ Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration:
 
 * **Layoutmenü**: Ein Layout ist ein übergeordneter Bereich, der  unterschiedliche Strukturierungen des Inhalts durch Spalten und Zeilen ermöglicht. Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
 ![layout-template](assets/layoutblock-template.jpg){ class="shadow lightbox" }
-* **Blockmenü**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
+* **Blockmenü**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :o_icon_o_icon_inspect: aktiviert werden. 
 * **Inspektor**: Dient der Konfiguration einzelner Inhaltselemente. Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung von Bildern. Klickt man auf die Titelzeile des Inspektor Fensters kann das Konfigurationsmenü selbst auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
 
 **Hinweis-Box im Inspektor**
@@ -22,7 +22,7 @@ Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinz
 
 ![Hinweis-Box im Content Editor](assets/Hinweis-Box.png){ class="lightbox" }
 
-Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
+Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.
 
 
 ## Inhaltsblöcke - Inhalt hinzufügen 
@@ -65,21 +65,22 @@ Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im M
 
 ### Bild
 
-Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Media Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren. Nutzen Sie hierfür das Inspektor Menü.
+Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Media Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Grösse, Platzierung oder Umrandung definieren. Nutzen Sie hierfür das Inspektor Menü.
 
-!!! Tip "Tipp"
+!!! tip "Tipp"
 
     Um die Positionierung einer Grafik zu optimieren verwenden Sie am besten ein passendes z.B. mehrspaltiges Layout. Je nach Art der Grafiken gilt dieser Tipp auch für das Inhaltselement "Galerie".
 
-### Galerie
+### Galerie [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
 
-Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit einem Klick auf den Button "Hinzufügen" öffnet sich das Media Center, in dem mehrere Bilder ausgewählt werden können. Die Anzeigeart – Vorschau, Raster oder Slideshow – lässt sich im Inspector festlegen. Das gezeigte Beispiel präsentiert eine Galerie mit Vorschau aus der Perspektive eines Nutzers.
+Mit dem Inhaltselement "Galerie" fügen Sie eine Bildergalerie hinzu. Mit einem Klick auf den Button "Hinzufügen" öffnet sich das Media Center, in dem mehrere Bilder ausgewählt werden können. Die Anzeigeart (Vorschau, Raster oder Slideshow) lässt sich im Inspector festlegen. Das gezeigte Beispiel präsentiert eine Galerie mit Vorschau aus der Perspektive eines Nutzers.
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
 
 
-### Bildvergleich
-Neu ab :octicons-tag-24: Release 19 ist das Inhaltselement "Bildvergleich". Hierbei können 2 Bilder aus dem Media Center ausgewählt und nebeneinandergestellt werden, z.B. zwei Versionen desselben Bildes. 
+### Bildvergleich [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
+
+Mit dem Inhaltselement "Bildvergleich" stellen Sie 2 Bilder aus dem Media Center nebeneinander, z.B. zwei Versionen desselben Bildes.
 Die Auswahl der Bilder erfolgt über das Inspektor Menü. Neben den Standard Typ kann der Bildvergleich auch für die Gegenüberstellung von einem richtigen und einem falschen Bild verwendet werden. 
 
 ![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
@@ -115,13 +116,13 @@ Sie haben folgende Möglichkeiten ein Dokument in den Editor zu laden und bereit
 
 Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online in OpenOlat weiterbearbeitet werden.
 
-!!! Tip "Hinweis"
+!!! info "Wichtig"
 
     Die Inhalte der Dateien werden hier nicht direkt dargestellt, sondern müssen per Klick auf den Link geöffnet werden. 
 
 ###  Diagramm 
 
-Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Media Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Bearbeiten" Link im Eintrag.  
+Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Media Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Bearbeiten" Link im Eintrag.
 
 ![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
 

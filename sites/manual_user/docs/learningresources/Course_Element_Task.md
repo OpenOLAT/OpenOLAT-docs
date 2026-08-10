@@ -73,7 +73,7 @@ In the case of the **processing time**, the estimated time a user needs to proce
 
 The "Learning Path" tab also defines which criterion must be met for the task to be considered "completed". The following options are available:
 
-![Completion criterion](assets/task_completion_criterion.png){ class="shadow" }
+![Completion criterion](assets/task_completion_criterion.png){ class="shadow lightbox" }
 
 * **Visit course element**: User has clicked on the course element.
 * **Confirmation by participant:** User has clicked on the "I've read the content" button.
@@ -140,7 +140,7 @@ This option is only displayed if one of the options "Task" or "Sample solution" 
 ![9_green_24.png](assets/9_green_24.png) **Coaching**<br>
 Participant-dependent coaching can be activated and configured in the "Coaching" section of the "Workflow" tab.
 
-![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png)
+![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
 
 * **Assignment of coaches/participants**<br>
 Selecting this checkbox displays the other options for coaches.
@@ -163,7 +163,7 @@ Select here whether participants should be informed by e-mail about the assignme
 !!! warning "Warning"
 
     Subsequent changes to the workflow affect all participants, even if they have already started the workflow.
-    
+
     When changes are made to the workflow, e.g. removing the assignment, this workflow component is removed for all participants in the course. The information about already selected tasks is then no longer visible. However, if the workflow component is inserted again, this information will be accessible again.
 
     However, if the assignment is added later and a participant is already further along in their personal workflow, no assignment needs to be selected afterwards.
@@ -187,7 +187,7 @@ Select here whether participants should be informed by e-mail about the assignme
 ### Tab "Assignment"   {: #assignment}
 
 !!! info "Requirement"
-    
+
     The "Task" must have been activated in the "Workflow" tab so that you can now make it available. 
 
 **a) Upload files**
@@ -217,11 +217,11 @@ In the field **"Message for user"** you can provide general information for all 
 
 In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the [assessment tool](../learningresources/Assessment_tool_overview.md) by the course owner.
 
-![Reset data of task](assets/task_reset_assessmenttool.png){ class="shadow" }
+![Reset data of task](assets/task_reset_assessmenttool.png){ class="shadow lightbox" }
 
 The assignment is *not reset automatically*. The participant gets the opportunity to undo all pervious steps.
 
-![Reset task](assets/task_reset_user.png){ class="shadow" }
+![Reset task](assets/task_reset_user.png){ class="shadow lightbox" }
 
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -251,7 +251,7 @@ The following options are available or can be configured in the "Submission" tab
 
 Activate **"Task is template for submission"** if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in. The prerequisite is that this option has been enabled by the OpenOlat administrators.
 
-![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png)
+![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
 
 **Allow video recordings**: In this case, learners can create and submit video recordings via webcam. A maximum recording duration and a quality level can also be selected for the videos.
 
@@ -271,7 +271,7 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
 
     In the tab "Workflow"
 
-    * "Return and feedback" must have been activated so that you can now set this up    
+    * "Return and feedback" must have been activated so that you can now set this up<br>
     ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
     * Depending on who is providing the feedback, different options appear in the Return and Feedback tab.
 
@@ -309,7 +309,7 @@ As the author, you determine here **which tasks** the reviewers receive for revi
 \- **Random**: The reviewers are given random tasks to review.
 
 ![5_green_24.png](assets/5_green_24.png) **Number of reviews**<br>
-Here you specify how many reviews are planned for each participant. However, depending on the number of participants, the actual number of reviews to be completed may vary. Ideally, the number of reviews to be completed should correspond to the number of reviews you receive from others.  
+Here you specify how many reviews are planned for each participant. However, depending on the number of participants, the actual number of reviews to be completed may vary. Ideally, the number of reviews to be completed should correspond to the number of reviews you receive from others.
 
 ![6_green_24.png](assets/6_green_24.png) **Quality feedback for reviewers**<br>
 Participants can be given the opportunity to provide their reviewers with feedback after receiving reviews. Whether the review received was helpful can be indicated with the thumb symbol or with stars. 
@@ -391,7 +391,7 @@ In order to provide all course participants with a sample solution regarding you
     In the tab "Workflow"
 
     * "Sample solutions" must be activated in order to be configurated.
-  
+
     ![course_element_task_workflow_activate_sample_v1_de.png](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
 
 By default, the sample solution is only visible once the documents submitted by the participant have been accepted by the coach.
@@ -476,7 +476,7 @@ All steps of a task (workflow) are displayed to course participants directly in 
 
 !!! tip "Hint"
 
-    Subscribe to the respective task module to be informed quickly by e-mail about changes.
+    Subscribe to the respective task module to be informed quickly by e-mail about changes. The notification reaches you as soon as an action has been completed, not at every intermediate step. If you want to keep track of the submissions of all assessable course elements, subscribe to the [assessment tool](../learningresources/Assessment_tool_overview.md) instead.
 
 
 ### Download assigned tasks {: #process_task_download}
@@ -507,9 +507,9 @@ Peer review also allows participants to give each other feedback on the tasks th
 
 ### Submit solution {: #process_task_solution}
 
-In the **"Submission"** area, you have the option of submitting your solution. Depending on the teacher's configuration, you can either upload documents, create files with the OpenOlat Editor or create short audio and video recordings directly in OpenOlat.  
+In the **"Submission"** area, you have the option of submitting your solution. Depending on the teacher's configuration, you can either upload documents, create files with the OpenOlat Editor or create short audio and video recordings directly in OpenOlat.
 
-![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
+![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
 
 As a rule, only some of the four options will be available to you.
 Upload your solution or create it directly in OpenOlat and the document will be saved temporarily. The documents remain editable for you until you submit your task via the "Final submission" button. You will receive confirmation that you have submitted documents.
@@ -526,15 +526,15 @@ If you have _not_ made a submission yet and the coach has not provided any feedb
 
 If you have submitted an edit and the coach has not yet created a feedback, the corresponding information will appear.
 
-![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png)
+![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
 
 As soon as your coach has created feedback, you will find the feedback information in the "Return and feedback" step.
 
-![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png)
+![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
 
 If your editing was not sufficient and the coach requests a revision, a corresponding message also appears and you have the option of submitting a new edit in the "Revision" step. A deadline may be set for this.
 
-![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
+![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -582,7 +582,7 @@ Your lecturer can attach a **sample solution** to the assignment, which will be 
 
 The **Assessment** area includes automatically generated information on the performance overview with status, score, classification of the selected assessment scale, depending on the configuration of the course element. On the other hand, coaches can store feedback in the comments field as well as (assessment) documents in the assessment area. 
 
-![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
+![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)

@@ -2,7 +2,7 @@
 
 ![pers_menu_absences_v3_de.png](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
 
-![icon_absences.png](assets/icon_absences.png)
+![icon_absences.png](assets/icon_absences.png){ class="shadow lightbox" }
 
 
 Bei aktiviertem Absenzenmanagment sind im persönlichen Menü die Kurse ersichtlich, in denen das Absenzenmanagement verwendet wird. Alle Benutzer:innen können ihre eigenen Absenzen dort ansehen und bearbeiten, soweit erlaubt.
@@ -67,8 +67,9 @@ Wenn ein:e Teilnehmer:in mit der eingetragenen Absenz nicht einverstanden ist, k
 [Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
-[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
+[Termine und Absenzen im Coaching >](../area_modules/Coaching_Events_Absences.de.md)<br>
+[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#pers_tools_absences)
 

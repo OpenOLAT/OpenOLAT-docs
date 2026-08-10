@@ -2,7 +2,7 @@
 
 ![pers_menu_absences_v3_de.png](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
 
-![icon_absences.png](assets/icon_absences.png)
+![icon_absences.png](assets/icon_absences.png){ class="shadow lightbox" }
 
 
 When absence management is activated, the courses in which absence management is used are visible in the personal menu. All users can view and edit their own absences there, if permitted.
@@ -62,9 +62,13 @@ If a participant disagrees with the recorded absence, an appeal can be lodged. O
 
 ## Further information {: #further_information}
 
-[Events and absences >](../learningresources/Events_and_absences.md)<br>
-[Events and absences: Coach view >](../area_modules/coaching_lektionen.md)<br>
-[Absence management >](../area_modules/Absence_Management.md)<br>
-[Configuration of events and absences in the administration >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Basic concept of events and absences >](../basic_concepts/Events_and_Absences.md)<br>
+[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Configuration of absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
+[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
+[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
+[Events and absences in the coaching tool >](../area_modules/Coaching_Events_Absences.md)<br>
+[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
+[Cross-course absence management by absence managers >](../area_modules/Absence_Management.md)<br>
 
 [To the top of the page ^](#pers_tools_absences)

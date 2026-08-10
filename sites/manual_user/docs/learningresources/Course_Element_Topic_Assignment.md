@@ -23,11 +23,11 @@ In the tab "Configuration" you determine first how many topics can be selected b
 
 
 **Do you want to limit the number of topics per participant?:** 
-When selecting this option a field will pop up to indicate the number of Topics a participant may choose from the course element Topic assignment  
-  
+When selecting this option a field will pop up to indicate the number of Topics a participant may choose from the course element Topic assignment
+
 **Topic authors have to accept participants:** 
-When selecting this option, participants can only register for a topic temporarily. Topic authors will then have to select their candidates before finally accepting them. When deselecting this option, all participants already registered for this topic will be accepted automatically. However, topic authors are able to define the maximum number of participants first.  
-  
+When selecting this option, participants can only register for a topic temporarily. Topic authors will then have to select their candidates before finally accepting them. When deselecting this option, all participants already registered for this topic will be accepted automatically. However, topic authors are able to define the maximum number of participants first.
+
 **Only one Topic allowed (participants accepted will be signed out automatically from other topics):** 
 When selecting this option all users accepted as participants will be automatically signed out of all other topics selected before. This means that participants may be registered for only one Topic.
 
@@ -42,17 +42,17 @@ When selecting "**Appears in table**" this field will be displayed in the overvi
 
 By means of "**Delete field**" you can delete additional fields.
 
-![additional_fields.png](assets/Themenvergabe_Zusatz_EN.png)
+![additional_fields.png](assets/Themenvergabe_Zusatz_EN.png){ class="shadow lightbox" }
 
 **Manage dates:**
-You can choose which dates should be at the disposal of topic authors.  
-  
+You can choose which dates should be at the disposal of topic authors.
+
 **Registration date:** 
-A topic author can determine a registration deadline for a Topic. After this deadline participants will no longer be able to select or deselect that Topic . However, a topic author still has the option to sign participants in or out.  
-  
+A topic author can determine a registration deadline for a Topic. After this deadline participants will no longer be able to select or deselect that Topic . However, a topic author still has the option to sign participants in or out.
+
 **Deadline:** 
-After a deadline the drop box will be closed. Participants will then no longer be able to upload documents to that drop box.  
-  
+After a deadline the drop box will be closed. Participants will then no longer be able to upload documents to that drop box.
+
 When selecting **"Appears in table"**, your event will be displayed in the overview.
 
 ----
@@ -60,21 +60,21 @@ When selecting **"Appears in table"**, your event will be displayed in the overv
 ### Further settings for topic assignment  {: #persons}
 
 **How to appoint topic authors - Tab "Persons in charge"**
-  
+
   In the tab "Persons in charge" you add those OpenOlat users who should be able to announce and supervise topics. These persons do not necessarily have to hold author rights.
 
-  The added persons are listed in the group **"Responsible for the topic"**. Use the **"Add user"** :fontawesome-solid-user-plus: action to open the dialog for adding another person [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
+  The added persons are listed in the group **"Responsible for the topic"**. Use the **"Add user"** :o_icon_o_icon_add_member: action to open the dialog for adding another person [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
 
   If you remove a topic author who has already announced a topic he will still be able to supervise it. However, this person will no longer be able to announce new topics.
 
   If the course element "Topic assignment" is imported from another course, the person performing the import is automatically entered as topic author for the imported topics, provided they are a member of the target course. If the importing person is not a member of the target course, no person in charge is entered for the imported topics [:octicons-tag-16:{ title="from Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
 
 **Role of topic authors**
-  
+
   When being authorized by a course author to act as topic author, you can announce as well as supervise topics. Just open the course view and navigate to your topic assignment. As a person responsible for a topic you can edit that topic, administer its participants or add more persons responsible for that topic.
 
 **Folders - Tab "Sub-elements"**
-  
+
   In the submission folder, participants can upload files that are then accessible to the topic owners. Topic owners can place files in the return folder. The prerequisite is that the folders are activated in the configuration in the course editor.
 
 **Confirmation of submission - "Submission"**
@@ -99,16 +99,16 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
 
 * **Topic:** 
 
-  Via Topic you will find the topics title, which can be edited by the person responsible.  
-  
+  Via Topic you will find the topics title, which can be edited by the person responsible.
+
 * **In charge:** 
 
   Here you have a list of topic authors. When clicking on these authors' names you will get to their visiting cards to contact them.
 
 !!! info "Important"
 
-    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab "Administration of users" or appoint other users to persons responsible for your topic.  
-  
+    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab "Administration of users" or appoint other users to persons responsible for your topic.
+
 * **Description:** 
 
   The field "Description" contains more detailed information on this Topic.
@@ -119,7 +119,7 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
 
   If you are the topic manager or course author and no participants have registered for your topic yet, the topic status is set to "No participants to check". If participants have already registered, the status is set to "Check participants". If you have already selected participants from the possible candidates, the status "Participant accepted" is displayed.
 
-* **Number of vacancies (filled/total):**  
+* **Number of vacancies (filled/total):**
 
   Topic authors can limit the number of vacancies.
 
@@ -127,26 +127,26 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
   If activated, participants may also unsubscribe from a topic.
 
 * **Additional fields:** 
-  
+
   If set up by the course owner in the course editor (see above), further additional fields are available to topic owners. Depending on the implementation, one or more selection elements are available here in a drop-down list or the topic owners can insert text themselves.
-  
+
 * **Registration deadline:** 
 
-  If topic authors define a registration deadline, you will only be able to select or deselect a topic within a certain period. Before and after that deadline the links "Select" and "Deselect" will be deactivated; users will not be able to sign in or out of your Topic . The person responsible for that topic can nevertheless sign users in or out manually.  
-  
-* **Due date:**  
+  If topic authors define a registration deadline, you will only be able to select or deselect a topic within a certain period. Before and after that deadline the links "Select" and "Deselect" will be deactivated; users will not be able to sign in or out of your Topic . The person responsible for that topic can nevertheless sign users in or out manually.
 
-  If topic authors define a deadline, you will only be able to upload documents to the drop box within a certain period of time. Please indicate either a start date or a deadline or both.  
-  
+* **Due date:**
+
+  If topic authors define a deadline, you will only be able to upload documents to the drop box within a certain period of time. Please indicate either a start date or a deadline or both.
+
 * **Attachment:** 
 
   In the field Attachment topic authors can upload a file. Several files can be uploaded as single ZIP file. This makes sense if you want to add extensive documents to a topic. Multiple files can be uploaded as a ZIP file.
-  
+
 * **E-mail notification when selecting/deselecting Topics:** 
 
   When choosing this option you will get an e-mail notification in case a course participant selects or deselects your Topic.
 
-![themen_belegt.png](assets/Themen_belegt.jpg)
+![themen_belegt.png](assets/Themen_belegt.jpg){ class="shadow lightbox" }
 
 Via "**Edit Topic**" you will get to the editing mode.
 
@@ -166,9 +166,9 @@ Via "**Reset Topic status to "Vacancies"**" you can open a Topic anew - even if 
 
 If the configuration of your topic assignment requires that course participants have to be accepted by the topic author you will see on the home page of topic assignments the note "Check participant" in a table as soon as somebody has applied for your topic.
 
-![assignment_participants.png](assets/Topic_Assignement_TN_EN.png)
+![assignment_participants.png](assets/Topic_Assignement_TN_EN.png){ class="shadow lightbox" }
 
-![topic_assignment_user_managementv2_en.png](assets/topic_assignment_user_managementv2_en.png)
+![topic_assignment_user_managementv2_en.png](assets/topic_assignment_user_managementv2_en.png){ class="shadow lightbox" }
 
 Now open the tab "**Administration of users**" and accept the application of your candidate(s).
 
@@ -176,11 +176,13 @@ Candidates are course participants applying for your topic. By means of "**Accep
 
 If you have not limited the number of vacancies you can repeat this procedure several times. Please remember to select "Topic set status on "Filled"" in the tab "Description" to avoid further applications for your topic.
 
-In the group "Participants accepted" you can also manually add a person via the **"Add participant"** :fontawesome-solid-user-plus: action, without that person going through the application process. Similarly, in the group "Responsible for the topic" you can use **"Add user"** to add or remove additional topic authors. Participants will not be allowed to edit their topic.
+In the group "Participants accepted" you can also manually add a person via the **"Add participant"** :o_icon_o_icon_add_member: action, without that person going through the application process. Similarly, in the group "Responsible for the topic" you can use **"Add user"** to add or remove additional topic authors. Participants will not be allowed to edit their topic.
 
 ### How to upload and return files
 
 In the tab "Folder", section "Drop box", you will find all those files course participants have submitted. In the section "Return box" you can put files already corrected. There will be one sub-folder for each course participant.
+
+Subscribe to the drop box of your topic so that you are notified about newly submitted files instead of having to check yourself.
 
 ## From the user's perspective
 
@@ -190,9 +192,7 @@ If the topic status is set to "Free", users can register for a topic, as long as
 
 The course element "Topic assignment" is used within an OpenOlat course. A course author can configure this element as needed and appoint persons responsible for a topic. Persons responsible for topics can offer their course participants a variety of topics before managing these participants along with their topics. Course participants will be able to submit expositions via drop boxes. Corrections can then be returned via return boxes.
 
-## Working with topic assignment
-
-:fontawesome-regular-circle:
+## :o_icon_o_projectbroker_icon: Working with topic assignment
 
 ### Select topic {: #select}
 
