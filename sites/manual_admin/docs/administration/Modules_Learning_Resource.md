@@ -158,6 +158,8 @@ Anyone who is an owner or coach in a course (a learning resource) finds that lea
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
+![modules_learning_resource_tab_access_hint_v1.png](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
+
 #### Settings for Sites
 
 Via the link "Open site settings" you go directly to `Administration > Customizing > Sites`. There you define whether and in which order the sites "My courses" and "Coaching" appear in the header and for which roles they are visible.
