@@ -39,17 +39,15 @@ manual (this is where you are currently located) and possibly to further
 help pages, depending on the configuration by the system administrator.  Click
 on the question mark! :fontawesome-solid-circle-question:.
 
-!!! info
+!!! info "Important"
 
-    If the link does not appear, it has been hidden at the user tools in the
-    personal [Settings](../personal_menu/Configuration.md).
+    If the link does not appear, it has been hidden at the personal tools in the
+    personal [Settings](../personal_menu/Settings.md).
 
 [To the top of the page ^](#help)
 
 
-## Context sensitive help {: #help_context}
-
-![](assets/help.en.png){ height=24px }
+## :o_icon_o_icon_help: Context sensitive help {: #help_context}
 
 For your daily work with OpenOlat, this OpenOlat manual is at your disposal
 as well as the context sensitive help at important places in the system.
@@ -64,8 +62,7 @@ Click on it and the manual opens in a new window.
 
 In addition, you will find three further aids, especially in forms,
 which give you briefly and concisely required or more detailed information on e.g.
-individual form fields. If you find this icon
-![](assets/hover_help.png){ class=size16 }
+individual form fields. If you find this icon :o_icon_o_icon_help:
 next to a field label, move the mouse over it to get a short information. Here is an example from the configuration of a test in the course editor:
 
 ![](assets/example_questionmark.en.png){ class="shadow" width=400px }

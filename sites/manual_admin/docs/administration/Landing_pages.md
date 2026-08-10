@@ -8,9 +8,11 @@ not necessarily be all true, and that it's always the first matching rule
 that's applied. Because of that, you might want to give the order of the rules
 some consideration.
 
-!!! attention 
-	Each user can choose his or her preferred landing page in the personal menu in [System Settings/System/Specific System Settings](../../manual_user/personal_menu/Configuration.md#general). However, this
-	overrides the system default.
+!!! info "Important"
+
+    Each user can choose their preferred landing page in the personal menu under
+    [`Settings > System > Specific system settings`](../../manual_user/personal_menu/Settings.md#special).
+    However, this overrides the system default.
 
 ![](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
 
@@ -54,15 +56,15 @@ Which would look for a course accordingly:
 If you are planning to use a custom link from the browser address bar, the URL
 always needs to be shortened according to the following pattern:  
 
-![](assets/landingPage_URL.png)
+![](assets/landingPage_URL.png){ class="shadow lightbox" }
 
+!!! info "Important"
 
-!!! info
-	You can predefine two courses that will be displayed in the top navigation in
-	addition to the default sites. These are the Info courses 1 & 2. Which
-	courses will be displayed as info course 1 or 2 and are thus available for
-	selection in this form, is determined in Administration/Customizing/Sites in
-	the Info page n°1 / n°2 tabs.
+    You can predefine two courses that will be displayed in the top navigation in
+    addition to the default sites. These are the Info courses 1 & 2. Which
+    courses will be displayed as info course 1 or 2 and are thus available for
+    selection in this form, is determined in the Info page n°1 / n°2 tabs under:<br>
+    `Administration > Customizing > Sites`
 
 
 

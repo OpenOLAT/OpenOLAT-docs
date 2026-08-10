@@ -1,11 +1,9 @@
-# Arbeiten mit Foren
-
-![](assets/forum.png)
+# :o_icon_o_fo_icon: Arbeiten mit Foren
 
 ## Wofür kann ein Forum verwendet werden?
 
 Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-
-Kursen und auch in OLAT Gruppen. Foren können für den Austausch zwischen den
+Kursen und auch in OpenOlat Gruppen. Foren können für den Austausch zwischen den
 Kursteilnehmenden, für organisatorische Absprachen oder die fachliche
 Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden
 verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die
@@ -15,7 +13,7 @@ strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
 
 In einem Forumsthread stehen Ihnen folgende Optionen zur Verfügung:
 
-![](assets/Forum_Optionen.png)
+![](assets/Forum_Optionen.png){ class="shadow lightbox" }
 
 Teilnehmer können in Foren ...
 
@@ -26,15 +24,15 @@ Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie
 Achten Sie darauf einen aussagekräftigen Titel zu verwenden und bei Reply-
 Postings angemessen zu verändern.
 
-![](assets/Diskussionsthema_eroeffnen.png)
+![](assets/Diskussionsthema_eroeffnen.png){ class="shadow lightbox" }
 
 Mit Hilfe des Foren-Editors können Sie Ihren Beitrag erstellen und formatieren
 und auch Dateien anhängen. Je nach Konfiguration durch den Kursbesitzer können
 Sie Ihren Beitrag eventuell auch unter einem Pseudonym veröffentlichen.
 
-![](assets/Posting.png)
+![](assets/Posting.png){ class="shadow lightbox" }
 
-### Forumsbeiträge beantworten*
+### Forumsbeiträge beantworten
 
 Wenn Sie einen bestehenden Forumsbeitrag beantworten möchten, öffnen Sie das
 Diskussionsthema, indem Sie auf den Titel des Themas klicken. Wählen Sie dann
@@ -43,7 +41,7 @@ soll bzw. Sie direkt auf einzelne Passagen des Beitrags eingehen wollen. Oder
 wählen Sie „Antwort ohne Zitat“, um den Anfangsbeitrag nicht nochmals
 aufzuführen.
 
-![](assets/Posting_beantworten.png)
+![](assets/Posting_beantworten.png){ class="shadow lightbox" }
 
 ### Forumsbeiträge markieren
 
@@ -53,7 +51,7 @@ eines Beitrags. In der Forumsübersicht sehen Sie wie viele Beiträge pro Thema
 markiert wurden. Auf diese Weise können einzelne Beiträge leichter
 wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
-![](assets/Posting_markieren.png)
+![](assets/Posting_markieren.png){ class="shadow lightbox" }
 
 ### Foren archivieren
 
@@ -62,13 +60,13 @@ eine ZIP-Datei verpackt und können gespeichert werden.
 
 ### Foren abonnieren
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
 Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
-Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen“ auf
+Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen" auf
 "Ein". Dann erhalten Sie per E-Mail oder unter
 Abonnements im Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei ist es egal ob
-ein neuer Beitrag von einem registrierten OLAT Benutzer oder einem Gast
+ein neuer Beitrag von einem registrierten OpenOlat Benutzer oder einem Gast
 eingestellt wurde.
 
 Eine Benachrichtigung erfolgt nur, wenn ein neuer Beitrag erstellt wurde,
@@ -107,16 +105,13 @@ Hilfreich dabei ist es, dass sich einzelne Parts ein- und ausblenden lassen.
 Darüber hinaus erkennt man in dieser Darstellung auch rasch neue Forenbeiträge
 an dem Sternchen.
 
-![](assets/Forum_Aufbau-1.png)
+![](assets/Forum_Aufbau-1.png){ class="shadow lightbox" }
 
-Laden Sie impages
-"[Profil](../personal_menu/Configuration.de.md#profil--profile)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
+Laden Sie im
+"[Profil](../personal_menu/Profile.de.md#profile_photo)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
 Standard-Profilbildes Ihr Foto erscheint.
 
-###
-
-![](assets/file_discussion.png)
-**Dateidiskussion**
+### :o_icon_o_dialog_icon: Dateidiskussion
 
 Die Dateidiskussion stellt eine Kombination aus Forum und Dateibereitstellung
 dar. So können in Kursen Foren-Diskussionen zu bestimmten Dokumenten erstellt
@@ -128,9 +123,9 @@ Um an einer Diskussion teilzunehmen, klicken Sie auf den Link „Anzeigen“ neb
 dem Dateinamen. Nun haben Sie dieselben Möglichkeiten, Diskussionsthemen zu
 eröffnen oder Beiträge zu beantworten wie im Forum.
 
-### Datei hochladen**
+### Datei hochladen
 
-Standardmäßig können Kursteilnehmer keine Dateien hochladen. Diese Option kann
+Standardmässig können Kursteilnehmer keine Dateien hochladen. Diese Option kann
 aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese
 Möglichkeit verfügen, wählen Sie „Datei hochladen“, um eine eigene Datei
 hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten

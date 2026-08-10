@@ -1,8 +1,6 @@
-# Personal Configuration: Settings
+# :o_icon_o_icon_settings: Personal Configuration: Settings
 
 ![pers_menu_settings_v1_de.png](assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
-
-![icon_settings.png](assets/icon_settings.png)
 
 The settings allow you to adapt OpenOlat according to your needs.
 
@@ -26,7 +24,7 @@ be sent to the external e-mail address configured in your profile. In the notifi
 Via the "Character set for download" you can determine in which character set files that you download via data archiving should be stored. This concerns the download of test and questionnaire results as well as course results. The default character set is ISO-8859-1. If your tests or questionnaires contain e.g. Arabic characters you have to select the character set UTF-8.
 
 
-### ![2_green_24.png](assets/2_green_24.png) Specific system settings
+### ![2_green_24.png](assets/2_green_24.png) Specific system settings {: #special}
 
 In the Special System Settings, you can view and change the settings that can make it easier for you to get started and work with OpenOlat on a daily basis.
 

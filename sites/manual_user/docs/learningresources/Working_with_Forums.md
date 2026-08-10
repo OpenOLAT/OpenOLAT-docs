@@ -1,6 +1,4 @@
-# Working with Forums
-
-![](assets/forum.png)
+# :o_icon_o_fo_icon: Working with Forums
 
 ## What can a forum be used for?
 
@@ -102,13 +100,10 @@ asterisk.
 
 ![](assets/Forum_neu_EN2.png)
 
-Upload a photo in the "[Profile](../personal_menu/Configuration.md#profile--profile)" so that your photo
+Upload a photo in the "[Profile](../personal_menu/Profile.md#profile_photo)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 
-###
-
-![](assets/file_discussion.png)
-File Dialog
+### :o_icon_o_dialog_icon: File Dialog
 
 The file discussion is a combination of forum and file sharing. Thus, forum
 discussions can be created in courses for specific documents, e.g. for a draft

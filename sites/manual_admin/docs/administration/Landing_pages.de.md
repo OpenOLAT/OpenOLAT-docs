@@ -6,13 +6,14 @@ entweder anhand der Rolle und / oder eines Benutzerattributes die spezifische
 Benutzergruppe, und weisen dieser dann mittels Startseite und Auswahl die
 entsprechende Startseite zu. Es können so viele Regeln wie benötigt erstellt
 werden, bitte beachten Sie jedoch, dass immer die zuerst zutreffende Regel
-angewandt wird. Die Regeln sind unabhängig von einander und müssen nicht alle
+angewandt wird. Die Regeln sind voneinander unabhängig und müssen nicht alle
 zutreffen, lediglich die Reihenfolge ist relevant.
 
-!!! attention "Achtung"
-	Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
-	unter [Einstellungen/System/Spezielle
-	Systemeinstellungen](../../manual_user/personal_menu/Configuration.de.md#general) für sich persönlich festlegt, überschreibt die systemweite Startseite.
+!!! info "Wichtig"
+
+    Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
+    unter [`Einstellungen > System > Spezielle Systemeinstellungen`](../../manual_user/personal_menu/Settings.de.md#special)
+    für sich persönlich festlegt, überschreibt die systemweite Startseite.
 
 ![](assets/admin_landingPage_DE.png){ class="shadow lightbox" }
 
@@ -38,8 +39,8 @@ etc. Welche Ausprägungen in der Spalte Werte eingetragen werden können ist von
 ihrer Organisation abhängig und wie diese Ausprägungen in ihrer OpenOlat
 Instanz verfügbar sind. Benutzerattribute können sich des weiteren abhängig
 von zuvor vorgenommenen Einstellungen ändern. Eventuell wurden Attribute
-umbenannt, oder die Liste der verfügbaren Attribute wurde unter
-Administration/Customizing/Benutzerattribute angepasst.
+umbenannt, oder die Liste der verfügbaren Attribute wurde angepasst unter:<br>
+`Administration > Customizing > Benutzer:innen-Attribute`
 
 Welche Seite oder welcher Kurs geöffnet werden soll legen Sie fest indem Sie
 entweder in der Spalte **Auswahl** einen der voreingestellten Seiten (z.B.
@@ -48,23 +49,24 @@ auswählen, oder indem Sie in der Spalte **Startseite** einen aus OpenOlat
 kopierten Link, z.B. auf einen Kurs, eintragen. Bitte beachten Sie jedoch,
 dass der Link folgendes Format haben muss:
 
-    
+
     /MyCoursesSite/0
 
 Für einen Kurs sieht das folgendermassen aus:  
-    
-    
+
+
     /RepositoryEntry/292192256/
 
 Wenn Sie also einen Link aus der Adresszeile des Browsers verwenden, müssen
 Sie immer die URL nach dem entsprechenden Schema kürzen:
 
-![](assets/landingPage_URL.png)  
+![](assets/landingPage_URL.png){ class="shadow lightbox" }
 
-!!! info
-	Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten
-	Bereich nach Wunsch in die Navigation aufgenommen werden können. Dies sind die
-	Infokurse 1 + 2. Welche Kurse als Infokurs 1 oder 2 angezeigt werden, und
-	damit hier zur Auswahl stehen, legen Sie im Bereich Customizing/Sites in den
-	Tabs Infoseite n°1 / n°2 fest
+!!! info "Wichtig"
+
+    Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten
+    Bereichen nach Wunsch in die Navigation aufgenommen werden können. Dies sind die
+    Infokurse 1 + 2. Welche Kurse als Infokurs 1 oder 2 angezeigt werden, und
+    damit hier zur Auswahl stehen, legen Sie in den Tabs Infoseite n°1 / n°2 fest unter:<br>
+    `Administration > Customizing > Sites`
 

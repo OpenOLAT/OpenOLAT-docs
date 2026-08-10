@@ -1,8 +1,6 @@
-# Profile
+# :o_icon_o_icon_user: Profile
 
 ![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
-
-![icon_profile.png](assets/icon_profile.png)
 
 In the personal menu, section "Configuration", under the "Profile" option, you can change your personal
 data and set up your business card. Simply complete the fields provided.
@@ -32,6 +30,8 @@ called for verification and the code is read out.
 In the "About me" section, you can enter some information about yourself as
 free text if required.
 
+<a id="profile_photo"></a>
+
 It is also important for online learning that you add a photo of yourself to
 your profile. This makes online learning more personal and online
 communication and cooperation more pleasant and easier for everyone. The photo
@@ -39,9 +39,10 @@ stored in your profile appears in OpenOlat in various places, e.g. on your
 business card, in forum posts or in the list of participants. OpenOlat will
 crop the picture to a width of 100 pixels.
 
-  
-!!! attention
-	Some fields may not be changeable.
+
+!!! info "Important"
+
+    Some fields may not be changeable.
 
 ### Tab "My business card"
 
@@ -49,9 +50,10 @@ With the help of the check boxes you can determine which entries appear on
 your business card and can therefore be viewed by other OpenOlat users. Some
 check boxes cannot be edited. These are predefined system-wide.
 
-!!! tip
-	To view the business cards of other OpenOlat users, select **Other users** in the
-	personal menu and search for the desired person using the search mask.
+!!! tip "Tip"
+
+    To view the business cards of other OpenOlat users, select **Other users** in the
+    personal menu and search for the desired person using the search mask.
 
 
 

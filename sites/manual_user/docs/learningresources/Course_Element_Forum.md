@@ -16,7 +16,7 @@ With the course element "Forum" you can easily enable asynchronous online discus
 
 ![Beispiel: Startposting](assets/Posting_beantworten.png)
 
-[To the top of the page ^](#forum})
+[To the top of the page ^](#forum)
 
 ---
 
@@ -28,7 +28,7 @@ A forum is configured in the course editor in the "configuration" tab. Here you 
 ---
 
 
-### Forums with alias {: #pseudonym}
+### Forums with alias [:octicons-tag-16:{ title="from Release 10.4 (OO-1769)" }](https://track.frentix.com/issue/OO-1769){:target="_blank"} {: #pseudonym}
 
 In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of a pseudonym is activated by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
 
@@ -47,7 +47,7 @@ All course owners and if enabled all [coaches](../basic_concepts/coach.md) have 
   * Displaying discussion: hidden subject will be displayed anew.
   * Filter for persons: on the forum's overview page posts of every single course participant as well as further information (e.g. words, number of characters in the postings) can be displayed.
   * Archiving forum: posts (as MS Word) and attached files are packed into a ZIP file and downloaded.
-  * Excel report of forums (xlsx format) for download. Generate a report for the selected forum course elements. The report contains one line for each forum post written for further statistical analysis. As of :octicons-tag-24: Release 18.1
+  * Excel report of forums (xlsx format) for download. Generate a report for the selected forum course elements. The report contains one line for each forum post written for further statistical analysis. [:octicons-tag-16:{ title="from Release 18.1 (OO-6960)" }](https://track.frentix.com/issue/OO-6960)
 
 Persons with moderation rights can also move forum topics or individual posts. The posts can be moved to another topic in the same forum, to another forum in the course or to a forum in another course. All underlying forum posts are also moved and are then no longer visible in the original forum. The moved post or thread can be created as a new thread or integrated into an existing one. In the final step of the move, an e-mail can also be sent to all users affected by the move, informing them where the forum will now be moved to.
 
@@ -55,11 +55,11 @@ Persons with moderation rights can also move forum topics or individual posts. T
 
     Forum posts can also be moved to forums in which the creator of the post has no access.
 
-!!! info "Info"
+!!! info "Important"
 
-    It is possible for course participants to receive additional moderation rights in a forum from the teacher. 
+    It is possible for course participants to receive additional moderation rights in a forum from the teacher.
 
-[To the top of the page ^](#forum})
+[To the top of the page ^](#forum)
 
 ---
 
@@ -76,7 +76,7 @@ Participants can open topics in forums, archive topics and also customize the di
 !!! tip "Hint"
 
     Recommend that course participants **subscribe** to the forum in order to be notified of new posts. 
-    All users should also enter a **profile photo** in the "[profile](../personal_menu/Configuration.md#profile--profile)", which will then be displayed together with the respective posting and thus make the contributions more personal.
+    All users should also enter a **profile photo** in the "[profile](../personal_menu/Profile.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
 
 ### Start discussion topic  {: #start_discussion}
 
@@ -164,7 +164,7 @@ Especially interesting for more complex discussions is also the view "one". The 
 
 ![Thread structure](assets/Forum_Aufbau-1a.png)
 
-[To the top of the page ^](#forum})
+[To the top of the page ^](#forum)
 
 ---
 
@@ -181,11 +181,11 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 
 ---
 
-[To the top of the page ^](#forum})
+[To the top of the page ^](#forum)
 
 ## Further information {: #further_information}
 
 [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
 [Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)<br>
 
-[To the top of the page ^](#forum})
+[To the top of the page ^](#forum)

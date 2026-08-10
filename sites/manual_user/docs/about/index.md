@@ -18,20 +18,19 @@ If you were already an OLAT expert, this manual will serve as a work of referenc
 
 At the top right of the main menu bar there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by the system administrator. Just click on the question mark :fontawesome-solid-circle-question:.
 
-!!! info 
-	If the link does not appear, it was hidden in the user tools in the personal [settings](../personal_menu/Configuration.md#settings).
+!!! info "Important"
+
+    If the link does not appear, it was hidden in the personal tools in the personal [settings](../personal_menu/Settings.md).
 
 
-#### Context help
-
-![](assets/help.png){ height=24px }
+#### :o_icon_o_icon_help: Context help
 
 While working with OpenOlat, you cannot only dispose of this manual, but also use OpenOlat's context sensitive help. This Help feature explains the options you have regarding OpenOlat's configuration--right where you are at that particular moment, by opening the relevant location in this manual. You will recognize this feature by a question mark icon. Just click on that icon to open the manual in a new window.
 
 
 #### Help in forms
 
-In addition to that, you will find 3 more types of assistance mainly in forms, but not restricted to, which will provide you with brief information on single form fields. When locating this icon ![](assets/hover_help.png){ class=size16 } to the right of a label, a mouseover will display a short information. Here, an example of the configuration of a test in the course editor:
+In addition to that, you will find 3 more types of assistance mainly in forms, but not restricted to, which will provide you with brief information on single form fields. When locating this icon :o_icon_o_icon_help: to the right of a label, a mouseover will display a short information. Here, an example of the configuration of a test in the course editor:
 
 ![](assets/example_questionmark.en.png){ class="shadow" width=400px }
 

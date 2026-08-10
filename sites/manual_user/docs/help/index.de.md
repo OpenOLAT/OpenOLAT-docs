@@ -3,21 +3,21 @@
 
 !!! note "Hilfestellungen in OpenOlat"
 
-	* [Sophia >](#help_sophia)
+    * [Sophia >](#help_sophia)
     * [Handbuch Link >](#help_link)
     * [Kontextsensitive Hilfe >](#help_context)
-	* [Hilfe in Formularen >](#help_in_forms)
-	* [Hellgrauer Text innerhalb von Feldern... >](#help_within_fields)
-	* [Hellgrauer Text unterhalb von Feldern... >](#help_below_fields)
-	* [Community, Kursvorlagen und Demokurse >](#help_examples)
-	* [Support >](#help_support)
+    * [Hilfe in Formularen >](#help_in_forms)
+    * [Hellgrauer Text innerhalb von Feldern... >](#help_within_fields)
+    * [Hellgrauer Text unterhalb von Feldern... >](#help_below_fields)
+    * [Community, Kursvorlagen und Demokurse >](#help_examples)
+    * [Support >](#help_support)
 
 
 ## Sophia {: #help_sophia}
 
 **Wer ist Sophia?**
 
-Sophia ist der KI-Hilfe-Assistent im OpenOlat-Benutzerhandbuch (Seitenleiste auf docs.openolat.org) und als Chat-Widget in OpenOlat selbst. Man stellt eine Frage zur Bedienung von OpenOlat in normaler Sprache und erhält eine Antwort mit klickbaren Quellenverweisen auf die passenden Handbuchseiten — inkl. Screenshots und Tabellen aus dem Handbuch, wo hilfreich. Sophia antwortet in der Sprache der Frage (DE/EN) und versteht Rückfragen im Gesprächsverlauf.
+Sophia ist der KI-Hilfe-Assistent im OpenOlat-Benutzerhandbuch (Seitenleiste auf docs.openolat.org) und als Chat-Widget in OpenOlat selbst. Man stellt eine Frage zur Bedienung von OpenOlat in normaler Sprache und erhält eine Antwort mit klickbaren Quellenverweisen auf die passenden Handbuchseiten: inkl. Screenshots und Tabellen aus dem Handbuch, wo hilfreich. Sophia antwortet in der Sprache der Frage (DE/EN) und versteht Rückfragen im Gesprächsverlauf.
 
 **Wie funktioniert Sophia?**
 
@@ -25,7 +25,7 @@ Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retr
 
 **Was kann Sophia nicht?**
 
-- Es erfolgt keine Suche in Kursinhalten, Kursen oder Nutzerdaten — Sophia kennt nur das öffentliche Handbuch, nicht die Inhalte einer OpenOlat-Instanz.
+- Es erfolgt keine Suche in Kursinhalten, Kursen oder Nutzerdaten: Sophia kennt nur das öffentliche Handbuch, nicht die Inhalte einer OpenOlat-Instanz.
 - Fragen ausserhalb von OpenOlat beantwortet Sophia nicht.
 - Die Antworten können unvollständig sein; die verlinkten Handbuchseiten sind die verbindliche Referenz. Feedback-Buttons («War das hilfreich?») finden Sie direkt im Chat.
 
@@ -34,28 +34,27 @@ Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retr
 
 ## Handbuch Link {: #help_link}
 
-Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
+Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
 Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
-Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken
+Hilfeseiten, je nach Konfiguration durch den System Administrator. Klicken
 Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
-!!! info
-	Falls der Link nicht erscheint, wurde er bei den Benutzerwerkzeugen in den
-	persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
+!!! info "Wichtig"
+
+    Falls der Link nicht erscheint, wurde er bei den persönlichen Werkzeugen in den
+    persönlichen [Einstellungen](../personal_menu/Settings.de.md) ausgeblendet.
 
 [Zum Seitenanfang ^](#help)
 
 
-## Kontextsensitive Hilfe {: #help_context}
-
-![](assets/help_DE.png){ height=24px }
+## :o_icon_o_icon_help: Kontextsensitive Hilfe {: #help_context}
 
 Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch
-zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe.
-Diese Hilfe führt Sie direkt zur relevanten Stelle in OpenOlat Manual und
+zur Seite, sowie an wichtigen Stellen im System die kontextsensitive Hilfe.
+Diese Hilfe führt Sie direkt zur relevanten Stelle im OpenOlat-Handbuch und
 erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich
 gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon.
-Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
+Klicken Sie darauf und das Handbuch öffnet sich in einem neuen Fenster.
 
 [Zum Seitenanfang ^](#help)
 
@@ -64,8 +63,7 @@ Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
 
 Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen,
 die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B.
-einzelnen Formularfeldern. Wenn Sie dieses Icon
-![](assets/hover_help.png){ class=size16 }
+einzelnen Formularfeldern geben. Wenn Sie dieses Icon :o_icon_o_icon_help:
 neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:

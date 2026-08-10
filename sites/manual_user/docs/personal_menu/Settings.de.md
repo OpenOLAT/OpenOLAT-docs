@@ -1,10 +1,8 @@
-# Persönliche Konfiguration: Einstellungen {: #personal_configuration_settings}
+# :o_icon_o_icon_settings: Persönliche Konfiguration: Einstellungen {: #personal_configuration_settings}
 
 ![pers_menu_settings_v1_de.png](../personal_menu/assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
 
-![icon_settings.png](../personal_menu/assets/icon_settings.png)
-
-:octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
 Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen
 anpassen.
@@ -26,12 +24,12 @@ Hier können Sie Ihren Anmeldenamen und Ihre OpenOlat Rolle auslesen. Darüber h
 
 Darüber hinaus können Sie einstellen, wie oft Sie Benachrichtigungen per E-Mail erhalten wollen. Zur Auswahl stehen: ausgeschaltet, monatlich, wöchentlich, täglich, halbtäglich, alle vier und alle zwei Stunden. Legen Sie zusätzlich fest ob OpenOlat E-Mails nur in dem Posteingang innerhalb des OpenOlat Systems angezeigt, oder ob Sie auch an ihre im Profil konfigurierte externe E-Mail-Adresse verschickt werden sollen. In der Benachrichtigungsmail finden Sie auch einen Hinweis bezüglich neuer E-Mails innerhalb des OpenOlat Postfachs, falls Sie die Option "E-Mails an das interne OpenOlat Postfach zustellen" gewählt haben.
 
-Über den "Zeichensatz für Download bestimmen Sie, in welchem Zeichensatz Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Voreingestellt ist der Zeichensatz ISO-8859-1.
+Über den "Zeichensatz für Download" bestimmen Sie, in welchem Zeichensatz Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Voreingestellt ist der Zeichensatz ISO-8859-1.
 Enthalten Ihre Tests oder Fragebogen z.B. Arabische Zeichen, müssen Sie hier den Zeichensatz UTF-8 wählen.
 
 
 
-### ![2_green_24.png](assets/2_green_24.png) Spezielle Systemeinstellungen
+### ![2_green_24.png](assets/2_green_24.png) Spezielle Systemeinstellungen {: #special}
 
 In den Speziellen Systemeinstellungen sehen und ändern Sie die Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat erleichtern können.
 
@@ -51,7 +49,7 @@ Seitenspezifische Links finden Sie in der Social Sharing - Leiste links unten un
 **Startseiten-Icon in der Fusszeile:**
 ![pers_menu_settings_tab_system_pers_startpage_v1_de.png](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class=" shadow lightbox" }
 
- 
+
 
 ### ![3_green_24.png](assets/3_green_24.png) Persönliche Werkzeuge
 
@@ -109,7 +107,7 @@ Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login
 
 Ferner kann hier auch die Löschung des kompletten OpenOlat Kontos beantragt werden.
 
-![Tab Nutzungsbedingungen](assets/Nutzungsbedingungen_20.png)
+![Tab Nutzungsbedingungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 

@@ -4,7 +4,7 @@ Dieses Handbuch macht Sie mit OpenOlat vertraut und erklärt Ihnen dessen Funkti
 
 Das OpenOlat-Handbuch ist für Personen geschrieben, die aus verschiedensten Gründen Interesse an E-Learning und dem Einsatz von OpenOlat haben. Wenn Sie noch nie mit OpenOlat (ehemals OLAT) gearbeitet haben, wird Ihnen hier erklärt, wie Sie schrittweise in die Nutzung der Lernplattform einsteigen können. Dazu zählt die Recherche nach gewünschten Lerninhalten, deren Bearbeitung sowie der Einsatz kollaborativer Werkzeuge.
 
-Möglicherweise kennen Sie OLAT als Benutzer und möchten nun selbst Lerninhalte in OpenOlat zur Verfügung stellen. Dann können die Kapitel zu Lernressourcen, Kurserstellung, Kursbausteinen und Kurseditor, Testerstellung sowie Kursbetrieb ihre Arbeit unterstützen.
+Möglicherweise kennen Sie OLAT als Benutzer und möchten nun selbst Lerninhalte in OpenOlat zur Verfügung stellen. Dann können die Kapitel zu Lernressourcen, Kurserstellung, Kursbausteinen und Kurseditor, Testerstellung sowie Kursbetrieb Ihre Arbeit unterstützen.
 
 Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewerk. Orientieren Sie sich am Inhaltsverzeichnis, um möglichst schnell an die gewünschte Stelle zu gelangen.
 
@@ -17,21 +17,20 @@ Normalerweise wird in diesem Handbuch die männliche und weibliche Form verwende
 
 #### Handbuch Link
 
-Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
+Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren Hilfeseiten, je nach Konfiguration durch den System Administrator. Klicken Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
-!!! info
-	Falls der Link nicht erscheint, wurde er bei den Benutzerwerkzeugen in den persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
+!!! info "Wichtig"
 
-#### Kontextsensitive Hilfe
+    Falls der Link nicht erscheint, wurde er bei den persönlichen Werkzeugen in den persönlichen [Einstellungen](../personal_menu/Settings.de.md) ausgeblendet.
 
-![](assets/Hilfe.png){ height=24px }
+#### :o_icon_o_icon_help: Kontextsensitive Hilfe
 
-Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe. Diese Hilfe führt Sie direkt zur relevanten Stelle in OpenOlat Manual und erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon. Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
+Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch zur Seite, sowie an wichtigen Stellen im System die kontextsensitive Hilfe. Diese Hilfe führt Sie direkt zur relevanten Stelle im OpenOlat-Handbuch und erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon. Klicken Sie darauf und das Handbuch öffnet sich in einem neuen Fenster.
 
 
 #### Hilfe in Formularen
 
-Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen, die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B. einzelnen Formularfeldern. Wenn Sie dieses Icon ![](assets/hover_help.png){ class=size16 } neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines Tests im Kurseditor:
+Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen, die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B. einzelnen Formularfeldern geben. Wenn Sie dieses Icon :o_icon_o_icon_help: neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines Tests im Kurseditor:
 
 ![](assets/example_questionmark.de.png){ class="shadow" width=400px }
 

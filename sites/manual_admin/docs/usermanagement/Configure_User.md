@@ -18,7 +18,7 @@ Personal data, personal details, contact details and details of the institution 
 
 ### System settings
 
-The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Configuration.md).  
+The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Settings.md).  
 This includes, for example, the default language and whether emails are only sent within OpenOlat or also to the address in the profile. 
 
 [To the top of the page ^](#user_configuration)
