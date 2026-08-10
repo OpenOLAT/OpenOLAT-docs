@@ -94,11 +94,9 @@ Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources
 
 ---
 
-## Ressourcenordner {: #resource_folder}
+## :o_icon_o_FileResource-SHAREDFOLDER_icon: Ressourcenordner {: #resource_folder}
 
 ![learning_resource_resource_folder_v1_de.png](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
-
-:fontawesome-regular-folder-open:
 
 Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und brauchen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter _sharedfolder angezeigt und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](../learningresources/Course_Settings.de.md) im Unterpunkt "Ressourcenordner".
 
@@ -148,7 +146,7 @@ Weitere Infos zur [Erstellung](../learningresources/Glossary_create.de.md) und [
 
 ## Weitere Lernressourcen {: #further_learningresources}
 Neben den Lernressourcen, die direkt in OpenOlat erstellt werden gibt es noch weitere Lernressourcen die durch Upload angelegt werden.
-  
+
 
 ### SCORM 1.2
 :fontawesome-solid-box-archive:
@@ -173,7 +171,7 @@ Audiodateien können in OpenOlat hochgeladen und an einigen Stellen auch direkt 
 ### Video
 ![Icon Video](assets/icon_video.png)
 
-  
+
 OpenOlat verwendet Video-Lerninhalt im MPEG-4 Format mit der Dateiendung MP4. Die Lernressource Video kann in OpenOlat durch "importieren" oder "URL importieren" hinzugefügt werden und anschliessend weiter konfiguriert werden. OpenOlat unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zur [Lernressource Video](../learningresources/Learning_resource_Video.de.md). 
 
 [zum Seitenanfang ^](#learning_resources)

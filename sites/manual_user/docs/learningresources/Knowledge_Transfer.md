@@ -129,9 +129,7 @@ document last.
 
     For video files the course element "Video" should be used and for HTML pages the course element "Single page".
 
-##  Course Element: Folder {: #folder}
-
-:fontawesome-regular-folder-open:
+##  :o_icon_o_bc_icon: Course Element: Folder {: #folder}
 
 In the course element "Folder" you can offer files for download. The course
 element folder is often used to provide course materials such as slides or
@@ -187,11 +185,11 @@ Further information about the course element video can be found
 video with OLAT Quiz and jump marks can be found in chapter "[Learning
 Resource: Video](../learningresources/Learning_resource_Video.md)".
 
-  
- 
+
+
 ##  Course Element: Video Livestream {: #livestream}
 
-  
+
 
 ##  Course Element: Opencast  {: #opencast}
 
@@ -203,7 +201,7 @@ be integrated.
 
 ##  Course Element: edu-sharing {: #edusharing}
 
-  
+
 
 ##  Course Element: card2brain {: #card2brain}
 
@@ -219,7 +217,7 @@ directly.
 Further information on the course element can be found
 [here](Course_Element_card2brain_Flashcards.md).
 
-  
+
 
 ##  Course Element: Edubase {: #edubase_config}
 
@@ -237,5 +235,5 @@ Non-clients please contact [Edubase](https://www.edubase.ch/) directly.
 
     The module must first be activated and configured in the administration, and authorization keys for the eBooks are also required. As soon as the pre- settings are done, the course element can be added in OpenOlat. By using the editor, you can define specific reading orders for the users for an embedded e-book.
 
-![Edubase Screen](assets/Edubase_EN.png)
+![Edubase Screen](assets/Edubase_EN.png){ class="shadow lightbox" }
 

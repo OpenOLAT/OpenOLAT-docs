@@ -97,11 +97,9 @@ Here you can find more information about the [course element blog](../learningre
 ---
 
 
-## Resource Folder {: #resource_folder}
+## :o_icon_o_FileResource-SHAREDFOLDER_icon: Resource Folder {: #resource_folder}
 
 ![learning_resource_resource_folder_v1_de.png](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
-
-:fontawesome-regular-folder-open:
 
 With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. In doing so, the files are referenced from the resource folder and thus do not need to be created multiple times. The linked resource folder is displayed in the storage folder of the linked course under _sharedfolder and there is access to all files stored in the resource folder. Changes to the files in the resource folder then apply to all linked courses. It should be noted that only *one* resource folder can be added per course. Further information can be found in the chapter  ["Course settings"](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen) in the submenu "Resource folder".
 
@@ -119,7 +117,7 @@ With the help of the resource folder, files (content, information, graphics, etc
 Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task". 
 
 You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter [Creating forms](../learningresources/Form.md).
-  
+
 [To the top of the page ^](#learning_resources)
 
 ---
@@ -200,6 +198,6 @@ If a corresponding document editor is activated, you can also create Word, Excel
 
     Diagram files (draw.io) can usually not be created directly here. Use the Media Center, a course or the project area for creating draw.io diagrams.   
 
-  
+
 [To the top of the page ^](#learning_resources)
 

@@ -51,7 +51,7 @@ Der Einsatz dieses Kursbausteins empfiehlt sich, wenn Sie beispielsweise
 Seiten mit Datenbankabfragen (Literaturrecherche-Tool, Online-Übungen aus dem
 Web, etc.) einbinden möchten. Es lassen sich nur externe Seiten über die Protokolle HTTP und HTTPS verlinken.
 
-  
+
 
 ### Tab "Seiteninhalt" konfigurieren
 
@@ -74,7 +74,7 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 
     Sollten Sie sich nicht sicher sein, welche Variante in Ihrem Fall die Richtige ist, dann beginnen Sie mit der Option „Vollständig integriert“ und testen die anderen Darstellungsmöglichkeiten, bis die verlinkte Seite wie gewünscht angezeigt wird.
 
-  
+
 
 ## Kursbaustein "CP-Lerninhalt" {: #CP_learning_content}
 
@@ -128,11 +128,9 @@ angezeigt, wer das Dokument als letztes bearbeitet hat.
 
     Für Video-Dateien sollte der Kursbaustein "Video" und für HTML-Seiten der Kursbaustein "Einzelseite" anstatt des Kursbaustein "Dokument" verwendet werden.
 
-  
 
-##  Kursbaustein "Ordner" {: #folder}
 
-:fontawesome-regular-folder-open:
+##  :o_icon_o_bc_icon: Kursbaustein "Ordner" {: #folder}
 
 Im Kursbaustein "Ordner" können Sie Dateien zum Download anbieten. Vielfach
 wird der Kursbaustein Ordner dazu verwendet, Kursmaterialien wie Folien oder
@@ -144,7 +142,7 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 "Ordner" finden Sie
 [hier](Course_Element_Folder.de.md).
 
-  
+
 
 ## Kursbaustein "Podcast" {: #podcast}
 
@@ -166,7 +164,7 @@ Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcas
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
 einbinden als auch einen neue OLAT Lernressource "Blog" erstellen und
 verwenden. Kursbesitzer können in einem Blog beispielsweise mehr oder weniger
-regelmäßig einen inhaltlichen Blog führen und so die Kursteilnehmenden über
+regelmässig einen inhaltlichen Blog führen und so die Kursteilnehmenden über
 neue aktuelle Inhalte zum Veranstaltungsthema informieren. Die Teilnehmenden
 können diese Beiträge dann kommentieren und auch mit 1-5 Sternen bewerten.
 Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
@@ -193,7 +191,7 @@ finden Sie im Kapitel "[Lernressource: Video](../learningresources/Learning_reso
 
 ##  Kursbaustein "Video Livestream"  {: #livestream}
 
-  
+
 
 ##  Kursbaustein "Opencast"  {: #opencast}
 
@@ -205,7 +203,7 @@ oder ganze Serien eingebunden werden.
 
 ##  Kursbaustein "edu-sharing" {: #edusharing}
 
-  
+
 
 ##  Kursbaustein "card2brain" {: #card2brain}
 
@@ -237,5 +235,5 @@ direkt [Edubase](https://www.edubase.ch/).
 
     Der Baustein muss zunächst in der Administration freigeschalten und konfiguriert werden, ebenso werden Berechtigungsschlüssel für die eBooks benötigt. Sind die Voreinstellungen abgeschlossen, kann der Baustein zu einem Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor möglich, Leseaufträge zu bestimmten Buchpassagen für Kursteilnehmer zu erstellen.
 
-![Edubase Screen](assets/Edubase_DE.png)
+![Edubase Screen](assets/Edubase_DE.png){ class="shadow lightbox" }
 
