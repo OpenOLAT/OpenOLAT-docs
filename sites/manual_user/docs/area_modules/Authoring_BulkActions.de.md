@@ -25,15 +25,15 @@ Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann no
 
     Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für **alle Autoren** sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
-### 2. Status ändern
+### 2. Status ändern [:octicons-tag-16:{ title="ab Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"}
 
-Wählen Sie den Veröffentlichungsstatus aus, der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".    
+Wählen Sie den Publikationsstatus aus, der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".
 
-### 3. Besitzer bearbeiten
+### 3. Besitzer bearbeiten [:octicons-tag-16:{ title="ab Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"}
 
 Hier werden Ihnen alle **Besitzer der ausgewählten Lernressourcen** angezeigt. Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue Besitzer den ausgewählten Lernressourcen hinzufügen. Eine E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
 
-### 4. Metadaten und Einstellungen
+### 4. Metadaten und Einstellungen [:octicons-tag-16:{ title="ab Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
 
 Hier können mittels Sammelaktion (Bulk Action) verschiedene **Metadaten** für die ausgewählten Lernressourcen **vereinheitlicht** werden. Z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. Bei Klick öffnet sich ein Wizard.
 
@@ -56,7 +56,7 @@ Durch Anklicken von "Kopieren" im **Menü, das unter den 3 Punkten am Ende einer
 
 Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Beispielsweise zur Wiederverwendung für ein neues Semester oder um eine Sicherheitskopie zu erstellen. 
 
-Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". Der Zusatz ("Kopie") wird dem Titel hinzufügt. Der Titel kann aber anschliessend nach Wunsch geändert werden.
+Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". Der Zusatz ("Kopie") wird dem Titel hinzugefügt. Der Titel kann aber anschliessend nach Wunsch geändert werden.
 
 ### 6. Löschen
 
@@ -65,7 +65,7 @@ Eine Lernressource kann nur von den Besitzer:innen der Lernressource sowie Lernr
 Mit dem **Button über der Tabelle** können Sie schnell **mehrere Lernressourcen auf einmal** löschen.<br>
 Wollen Sie nur eine **einzelne Lernressource** löschen, können Sie auch auf die **3 Punkte am Ende der betreffenden Tabellenzeile** klicken und dann auf die Option "Löschen".
 
-Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden - sofern konfigurert - per E-Mail benachrichtigt.
+Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
 
 Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "**Gelöscht**"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
 
@@ -81,8 +81,8 @@ Durch Klick auf das **Symbol der Glühbirne** ![Glühbirne](assets/infopage_5e89
 
 Klicken Sie dagegen **im Menü unter den 3 Punkten** auf "Infoseite bearbeiten", gelangen Sie in den Bereich "Einstellungen" und können die Informationen, die auf der Infoseite erscheinen, **bearbeiten**.
 
-Mehr dazu finden Sie auf der Seite "[Infoseite einrichten](../learningresources/Set_up_info_page.de.md)".
- 
+Mehr dazu finden Sie auf der Seite "[Infoseite einrichten](../learningresources/Course_Settings_Info.de.md#configure_info)".
+
 ### 9. Editieren
 
 Bei **editierbaren** Lernressourcen wie Kurs, Glossar, Test, CP-Lerninhalt, Blog und Podcast öffnet der Klick auf "Editieren" bzw. das Icon den entsprechenden Editor.

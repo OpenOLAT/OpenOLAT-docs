@@ -82,7 +82,7 @@ By clicking on the **light bulb symbol** ![Glühbirne](assets/infopage_5e89ac_64
 
 If, on the other hand, you **click on "Change info page" in the menu under the 3 dots**, you will reach the "Settings" area and can **edit** the information that appears on the info page.
 
-You can find more about this topic on page "[Set up info page](../learningresources/Set_up_info_page.md)".
+You can find more about this topic on page "[Set up info page](../learningresources/Course_Settings_Info.md#configure_info)".
 
 ### 9. Edit
 

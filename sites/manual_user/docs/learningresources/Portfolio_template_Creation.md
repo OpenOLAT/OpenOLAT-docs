@@ -21,7 +21,7 @@ These include:
     * whether users are allowed to delete a folder (which is often useful)
     * whether an additional template folder should be used and whether these templates are necessary to create new entries.
 
-6. The other tabs [Info, Metadata](../learningresources/Set_up_info_page.md) and [Share](../learningresources/Access_configuration.md) can also be configured further.  
+6. The other tabs [Info](../learningresources/Course_Settings_Info.md), [Metadata](../learningresources/Course_Settings_Metadata.md) and [Share](../learningresources/Access_configuration.md) can also be configured further.  
 
 Then close the view via the X at the top right or click on the title of the portfolio template just created in the bread-crumb bar.
 

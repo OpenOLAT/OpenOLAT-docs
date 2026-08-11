@@ -10,7 +10,7 @@ Under **Administration > Settings** you can make configurations that affect the 
 
     The settings of conventional and [learning path courses](../learningresources/Learning_path_course.md) vary slightly.
 
-    You can use the "Info", "Metadata", "Implementation" and "Release" tabs to specify information that will be visible in the [Course info page](../learningresources/Set_up_info_page.md).
+    You can use the "Info", "Metadata", "Implementation" and "Release" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
 
 
 ## Tab Info {: #info}

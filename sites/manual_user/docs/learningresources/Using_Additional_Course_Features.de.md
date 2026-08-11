@@ -1,6 +1,7 @@
 # Einsatz weiterer Kursfunktionen der Toolbar
 
-Kursbesitzer:innen können in der Kurs "Administration" unter "Einstellungen" zusätzlich bestimmte Werkzeuge der Toolbar aktivieren. 
+Kursbesitzer:innen können zusätzlich bestimmte Werkzeuge der Toolbar aktivieren unter:<br>
+`Kurs > Administration > Einstellungen`
 
 ![Toolbar einrichten](assets/Toolbar_154.png){ class="shadow lightbox" }
 
@@ -8,7 +9,7 @@ Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar  unabhängig von
 
 ![Toolbar](assets/Toolbar15a.png){ class="shadow lightbox" }
 
-## Kurssuche
+## Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
 Neben der Volltextsuche für das gesamte OpenOlat kann pro Kurs eine Kurssuche aktiviert werden. In dieser Suche werden folgende Elemente gefunden:
 
@@ -70,11 +71,11 @@ Hier können Sie ein [Wiki (Lernressource)](../learningresources/Wiki.de.md) ers
 
 Ähnlich wie im [Kursbaustein Forum](../learningresources/Course_Element_Forum.de.md) kann hier ein Forum aktiviert werden. Kursmitglieder können das Forum wie gewohnt abonnieren. Differenzierte Einstellungen wie beim Kursbaustein "Forum" sind hier allerdings nicht möglich.
 
-!!! Tip "Tipp"
+!!! tip "Tipp"
 
     Verwenden Sie das Forum in der Toolbar, wenn in Ihrem Kurs die asynchrone Diskussion nicht im Vordergrund steht und Ihnen *ein* Forum für den gesamten Kurs ausreicht.
-    
-    Handelt es sich bei Ihrem Kurs jedoch um einen Kurs mit erhöhen asynchroner Diskussion und vielen Beiträgen, sollten Sie lieber mehrere Kursbausteine Forum verwenden.  
+
+    Handelt es sich bei Ihrem Kurs jedoch um einen Kurs mit erhöhter asynchroner Diskussion und vielen Beiträgen, sollten Sie lieber mehrere Kursbausteine Forum verwenden.  
 
 ## Dokumente
 
@@ -84,7 +85,7 @@ Hier können Sie ein [Wiki (Lernressource)](../learningresources/Wiki.de.md) ers
 
 Der einfache Chat eignet sich für kurze, synchrone Austausche. Kursmitglieder können hier live mit anderen Teilnehmenden und Dozierenden kommunizieren, solange alle gleichzeitig eingeloggt sind.
 
-Beim Aufruf des Chats kann jedes Kursmitglied wählen, ob es mit dem eigenen Namen oder anonym am Chat teilnimmt (Standard: anonym). Die Größe des Chatfensters lässt sich flexibel anpassen. Chat-Verläufe sind bis zu einem Monat einsehbar, der gewünschte Zeitraum kann oberhalb des Textfelds ausgewählt werden.
+Beim Aufruf des Chats kann jedes Kursmitglied wählen, ob es mit dem eigenen Namen oder anonym am Chat teilnimmt (Standard: anonym). Die Grösse des Chatfensters lässt sich flexibel anpassen. Chat-Verläufe sind bis zu einem Monat einsehbar, der gewünschte Zeitraum kann oberhalb des Textfelds ausgewählt werden.
 
 **Tipp** für die mobile Nutzung: Teilweise ist die Verwendung des Hochformats sinnvoller als das Querformat.
 
@@ -92,7 +93,7 @@ Beim Aufruf des Chats kann jedes Kursmitglied wählen, ob es mit dem eigenen Nam
 
 In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden. 
 
-Aktivieren Lehrende das Glossar im Tab „Toolbar“ der Kurseinstellungen muss das Glossar im nächsten Schritt noch ein konkretes Glossar ausgewählt oder erstellt werden. Wechseln Sie dafür in den Tab „Optionen“. Hier kann eine existierende Lernressource Glossar ausgewählt oder eine neue Lernressource Glossar erstellt werden. 
+Aktivieren Lehrende das Glossar im Tab „Toolbar“ der Kurseinstellungen, muss im nächsten Schritt noch ein konkretes Glossar ausgewählt oder erstellt werden. Wechseln Sie dafür in den Tab „Optionen“. Hier kann eine existierende Lernressource Glossar ausgewählt oder eine neue Lernressource Glossar erstellt werden. 
 
 Ist ein Glossar definiert erscheint der Glossar-Link in der Toolbar und User können das gesamte Glossar in einem neuen Fenster öffnen oder Glossarbegriffe in Lerninhalten z.B. im Kursbaustein HTML-Seite, Seite oder Foren-Postings einblenden lassen.  
 
@@ -108,13 +109,14 @@ Alle Einträge können später natürlich auch wieder geändert oder gelöscht w
 
     Bitte beachten Sie: Pro Kurs kann nur *ein* Glossar eingebunden werden.
 
-Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden möchten, kann unter Kursadministration ->  Einstellungen -> "Optionen" die gewünschte Änderung vorgenommen werden.
+Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden möchten, nehmen Sie die gewünschte Änderung vor unter:<br>
+`Kurs > Administration > Einstellungen > Optionen`
 
 !!! warning "Achtung"
 
-    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Glossar Lernressource. Kursbesitzer:innen haben nur solange Zugriff auf die Lernressource wie sie auch im Kurs eingebunden ist. Wird das Glossar entfernt können nur Personen, die auch Besiter:in des Glossars sind dieses wieder dem Kurs hinzufügen. 
+    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Glossar Lernressource. Kursbesitzer:innen haben nur solange Zugriff auf die Lernressource wie sie auch im Kurs eingebunden ist. Wird das Glossar entfernt können nur Personen, die auch Besitzer:in des Glossars sind dieses wieder dem Kurs hinzufügen.
 
-Ob auch Kursteilnehmende Glossareinträge hinzufügen und bearbeiten können ist abhängig von den Einstellungen in der Lernressource Glossar. Standardmaessig können nur Kurs-Besitzer:innen Einträge im Glossar vornehmen. 
+Ob auch Kursteilnehmende Glossareinträge hinzufügen und bearbeiten können ist abhängig von den Einstellungen in der Lernressource Glossar. Standardmässig können nur Kurs-Besitzer:innen Einträge im Glossar vornehmen.
 
 ### So konfigurieren Sie ein Glossar mit weiteren Schreibrechten
 
@@ -132,7 +134,7 @@ Möchte man dagegen nur bestimmten Personen z.B. den Teilnehmenden *eines Kurses
 
 Gehen Sie in den Kurs in dem das Glossar eingebunden ist und wechseln Sie in die "[Mitgliederverwaltung](Members_management.de.md)". Erstellen Sie dort eine neue Gruppe und benennen Sie sie eindeutig z.B. "Rechtegruppe Glossar". Nachdem die Gruppe angelegt wurde werden Sie automatisch zur Gruppe geführt und können über die Gruppen Administration im Tab "Mitglieder" die gewünschten Personen, die Schreibrechte erhalten sollen als Teilnehmer:innen der Gruppe hinzufügen. 
 
-Wechseln Sie wieder in die "Mitgliederverwaltung" des Kurses und wählen Sie dort den Bereich "Rechte. Dort können Sie für die Teilnehmenden der Rechtegruppe Glossar das Glossarwerkzeug aktivieren. 
+Wechseln Sie wieder in die "Mitgliederverwaltung" des Kurses und wählen Sie dort den Bereich "Rechte". Dort können Sie für die Teilnehmenden der Rechtegruppe Glossar das Glossarwerkzeug aktivieren. 
 
 Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 

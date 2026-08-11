@@ -36,7 +36,7 @@ parameters can be configured:
 
   *  **Group Managed Course**
   *  **Prepend external course reference to title**  
-	Decide whether the course [reference](../../manual_user/learningresources/Set_up_info_page.md) should prepend
+	Decide whether the course [reference](../../manual_user/learningresources/Course_Settings_Info.md) should prepend
 	the course title in order to be able to distinguish between similar course
 	titles.  
 

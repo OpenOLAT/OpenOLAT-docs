@@ -1,6 +1,7 @@
 # Kurseinstellungen {: #course_settings}
 
-Unter **Administration > Einstellungen** nehmen Sie Konfigurationen vor, die den Kurs als Ganzes betreffen.
+Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br>
+`Kurs > Administration > Einstellungen`
 
 ![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
@@ -9,10 +10,10 @@ Unter **Administration > Einstellungen** nehmen Sie Konfigurationen vor, die den
 !!! info "Hinweise"
 
     Jede [Lernressource](../learningresources/index.de.md) verfügt über ein Menü "Einstellungen", nicht nur Kurse.
-    
+
     Die Einstellungen von herkömmlichen und [Lernpfadkursen](../learningresources/Learning_path_course.de.md) variieren leicht.
 
-    Über die Tabs "Info", "Metadaten", "Durchführung" und "Freigabe" können Sie Informationen angeben, die in der [Kursinfoseite](../learningresources/Set_up_info_page.de.md) sichtbar werden.
+    Über die Tabs "Info", "Metadaten", "Durchführung" und "Freigabe" können Sie Informationen angeben, die in der [Kursinfoseite](../learningresources/Info_page.de.md) sichtbar werden.
 
 
 
@@ -100,7 +101,7 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 
 ![course_settings_tab_catalog_v1_de.png](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
 
-Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorien zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen, muss der Schritt wiederholt werden. Anschließend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
+Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorien zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen, muss der Schritt wiederholt werden. Anschliessend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
 
 Der gesamte OpenOlat [Katalog (Version 1)](../area_modules/Courses.de.md) ist für alle User im Menü "Kurse" einsehbar.
 
@@ -122,7 +123,7 @@ aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächs
 
 In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) sehen Sie im Bereich "Einwilligungen" welche Personen die Bedingungen bereits akzeptiert haben.
 
-![Formular Nutzungsbedingungen](assets/disclaimer_course_DE.png){ class="shadow" }
+![Formular Nutzungsbedingungen](assets/disclaimer_course_DE.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#course_settings)
 
@@ -141,8 +142,8 @@ Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte **Layou
 
 Im Bereich "**Navigation**" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 
-![Lernpfad mit Icons](assets/lp_icons_DE.png){ class="shadow" }
-![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons_DE.png){ class="shadow" }
+![Lernpfad mit Icons](assets/lp_icons_DE.png){ class="shadow lightbox" }
+![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons_DE.png){ class="shadow lightbox" }
 
 Im Bereich "**Standard Stil Kursbausteine**" können Sie die Basisdarstellung der Kursbausteine definieren und z.B. ein eigenes Hintergrundbild hochladen oder ein Hintergrundbild aus der Bibliothek wählen, den Stil des Bildes definieren, sowie bei Bedarf eine Farbkategorie zuordnen. In der Vorschau sehen Sie die Auswirkungen.
 

@@ -5,7 +5,7 @@
 
 Die Lernressource Video ist das zentrale Element für Videos in OpenOlat. Sie wird im Autorenbereich über "Datei importieren" (für den Upload einer MP4-Datei) oder "Per URL importieren" (für die Einbindung eines externen Videos, z. B. YouTube oder Vimeo) [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) und ist anschliessend im Bereich "Meine Einträge" im Autorenbereich zu finden.
 
-![Lernressource erstellen](assets/Video_Lernressource_anlegen.jpg)
+![Lernressource erstellen](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" }
 
 Eine Video-Lernressource besteht nicht nur aus der Videodatei selbst, sondern ist ein eigenständiges Objekt mit eigener Infoseite, Administrationsmenü und Freigabeeinstellungen. Sie steht kursübergreifend zur Verfügung und kann in mehreren Kursen eingebunden oder auch unabhängig von Kursen bereitgestellt werden.
 
@@ -21,6 +21,7 @@ Weitere technische Hinweise zum Upload und Organisation von Videos finden Sie [h
 ## Administrations Menüs der Lernressource Video im Überblick {: #video_administration}
 
 Die Lernressource Video verfügt über folgende Administrations-Menüs:
+
 * **Einstellungen** (siehe unten)
 * [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Video Lernressource. Wird das Video in einem Kurs verwendet brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer*innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
 * **Video-Editor** (siehe unten)
@@ -36,14 +37,14 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs:
 
 ## Menü "Einstellungen" der Lernressource Video {: #video_settings}
 
-![lernressource_video.png](assets/Video_Einstellungen.png)  
+![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
 
 
 ### Tab "Info"
 
 Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Kennzeichen einzutragen, die auf der Info-Seite des Videos angezeigt werden. Wird die Lernressource im Kurs für den Kursbaustein Video eingebunden, können Beschreibung und Titel zusätzlich direkt bei dem Video im Kurs eingeblendet werden. Wie man Videos die Lernressource Video generell in einen Kurs einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
 
-Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Set_up_info_page.de.md).
+Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Course_Settings_Info.de.md#configure_info).
 
 !!! tip "Tipp"
 
@@ -119,7 +120,7 @@ Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
     What are you waiting for?
 
 
- 
+
 Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
 
 #### Automatische Untertitelgenerierung [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"} {: #video_subtitles_auto}
@@ -150,18 +151,21 @@ Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
 
 CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat ist diese Funktion im Player unten rechts zu finden. Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
-![Untertitel](assets/video_subtitle.png)
+![Untertitel](assets/video_subtitle.png){ class="shadow lightbox" }
 
 
 ###  Tab "Videoqualitäten" {: #video_quality}
 
-Im Tab "Videoqualitäten" sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen im Administrationsbereich. Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden. 
+Im Tab "Videoqualitäten" sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen, die in der System-Administration vorgenommen werden unter:<br>
+`Administration > Module > Video`
 
-![video_quailty.png](assets/Video_qualitaten_20.png)
+Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden.
+
+![video_quailty.png](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
 
 Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Source Chooser" auswählen.
 
-![video_aufloesung.png](assets/video_aufloesung.png)
+![video_aufloesung.png](assets/video_aufloesung.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -188,11 +192,11 @@ Der Tab "Katalog" erscheint nur wenn der [Katalog 1.0](../area_modules/catalog1.
 
 In der Administration der Lernressource findet man den Link zum "Video-Editor". 
 
-![Menü Video Editor starten](assets/Video_Editor_administratio.jpg)
+![Menü Video Editor starten](assets/Video_Editor_administratio.jpg){ class="shadow lightbox" }
 
 Hier kann das Video mit (interaktiven) Elementen ausgestaltet und weiter konfiguriert werden. 
 
-![lernressource_video.png](assets/Video-Editor.png)
+![lernressource_video.png](assets/Video-Editor.png){ class="shadow lightbox" }
 
 Der Video Editor umfasst drei Bearbeitungsbereiche:
 
@@ -214,7 +218,7 @@ Die Anfangszeit wird dann automatisch übernommen.
 
 Kapitel können anschliessend sowohl bearbeitet, als auch wieder gelöscht werden. Ferner sind die Kapitel in der Timeline sichtbar. 
 
-![Kapitel in Videos](assets/Video_Kapitel.jpg)
+![Kapitel in Videos](assets/Video_Kapitel.jpg){ class="shadow lightbox" }
 
 
 ### Video-Editor: Annotationen :octicons-tag-16:{ title="ab Release 17.2 (OO-6344)" } {: #video_annotation}
@@ -225,7 +229,7 @@ Wählen Sie in der Timeline die Stelle im Video an der die Annotation hinzugefü
 
 Geben Sie den gewünschten Text ein, legen Sie die Dauer der Anzeige fest und wählen Sie eine Farbe für die Kennzeichnung im linken Bereich. Klicken Sie auf das Stift-Symbol um die Position und die Grösse des Annotationsfelds anzupassen. Sie können auch per Drag & drop das Annotationsfeld verschieben. Speichern Sie die Einstellungen.
 
-![Annotationen in Videos konfigurieren](assets/Video_Annotationen.jpg)
+![Annotationen in Videos konfigurieren](assets/Video_Annotationen.jpg){ class="shadow lightbox" }
 
 Sie können beliebig viele Annotationen hinzufügen und über die Pfeile zwischen ihnen wechseln. Über das 3-Punkte Menü können Annotationen auch wieder gelöscht werden. 
 
@@ -286,7 +290,7 @@ Beim Abspielen stoppt das Video automatisch an der kommentierten Stelle. Um fort
 Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden: so entsteht ein "Video im Video" an der entsprechenden Stelle.
 
 
-![Video-Kommentare hinzufügen](assets/Video_Kommentare.jpg)  
+![Video-Kommentare hinzufügen](assets/Video_Kommentare.jpg){ class="shadow lightbox" }
 
 
 ### Video-Editor: Quiz {: #video_quiz}

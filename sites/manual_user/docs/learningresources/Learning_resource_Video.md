@@ -42,7 +42,7 @@ The "Video" learning resource has the following administration menus:
 
 On the "Info" tab, you can enter a description, a teaser, and a tag, which will be displayed on the video's info page. If the learning resource is embedded in the course using the Video course block, the description and title can also be displayed directly next to the video in the course. You can learn how to integrate videos—specifically, the “Video” learning resource—into a course in the chapter [“Course Element: Video”](Course_Element_Video.md).
 
-For more information on setting up the info page, see the section ["Set up info page"](../learningresources/Set_up_info_page.md).
+For more information on setting up the info page, see the section ["Set up info page"](../learningresources/Course_Settings_Info.md#configure_info).
 
 
 !!! tip "Tip"
