@@ -94,7 +94,8 @@ You can also import appointments by clicking on the small arrow next to the butt
 
 ## How do I book rooms for an event? [:octicons-tag-16:{ title="from Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #room_booking}
 
-If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available when creating or editing an event.
+If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available in the dialog for creating or editing an event, which you open here:<br>
+`Course Planner > Implementations > "your implementation" > Tab Events`
 
 The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". The building and the number of seats are displayed for each room; if the capacity is not sufficient for the number of participants, this is indicated. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms.
 

@@ -6,8 +6,8 @@ With the module "Rooms" you manage physical rooms in buildings centrally in Open
 
 ## Activate the module {: #activation}
 
-The module is activated by a person with an administrative role:<br>
-`Administration` > `Rooms` > `Settings`
+The module is activated by a person with an administrative role in the system administration:<br>
+`Administration > Modules > Rooms > Settings`
 
 Use the toggle "Module "Rooms"" to switch on the module. Only then do the segments "Buildings", "Rooms" and "Room Scheduling" appear, as well as the read-only "Room management" area in the Course Planner.
 
@@ -16,6 +16,9 @@ Use the toggle "Module "Rooms"" to switch on the module. Only then do the segmen
 
 
 ## Buildings [:octicons-tag-16:{ title="from Release 21.0 (OO-9522)" }](https://track.frentix.com/issue/OO-9522){:target="_blank"} {: #buildings}
+
+You manage the buildings in the system administration under:<br>
+`Administration > Modules > Rooms > Buildings`
 
 Every room belongs to a building. In the segment "Buildings" you create the buildings of your organisation and maintain their master data. The action "Create" opens the dialog "Create building" with the following details:
 
@@ -30,6 +33,9 @@ A building has the status "Active", "Inactive" or "Deleted". If a building is de
 
 
 ## Rooms [:octicons-tag-16:{ title="from Release 21.0 (OO-9524)" }](https://track.frentix.com/issue/OO-9524){:target="_blank"} {: #rooms}
+
+You manage the rooms in the system administration under:<br>
+`Administration > Modules > Rooms > Rooms`
 
 In the segment "Rooms" you create the individual rooms and assign them to a building. The dialog "Create room" offers, among others, the following fields:
 
@@ -46,6 +52,9 @@ As with the building, a room has the status "Active", "Inactive" or "Deleted". A
 
 
 ## Room Scheduling [:octicons-tag-16:{ title="from Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
+
+You find the room scheduling in the system administration under:<br>
+`Administration > Modules > Rooms > Room Scheduling`
 
 The segment "Room Scheduling" bundles all room bookings as an overview. Filters and a calendar view are available.
 

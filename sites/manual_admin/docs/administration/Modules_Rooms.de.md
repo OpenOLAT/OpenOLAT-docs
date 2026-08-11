@@ -6,8 +6,8 @@ Mit dem Modul «Räume» verwalten Sie physische Räume in Gebäuden zentral in 
 
 ## Modul aktivieren {: #activation}
 
-Das Modul wird von einer Person mit administrativer Rolle aktiviert:<br>
-`Administration` > `Räume` > `Einstellungen`
+Das Modul wird von einer Person mit administrativer Rolle in der System-Administration aktiviert:<br>
+`Administration > Module > Räume > Einstellungen`
 
 Über den Schalter «Modul "Räume"» schalten Sie das Modul ein. Erst danach erscheinen die Segmente «Gebäude», «Räume» und «Raumplanung» sowie im Course Planner der schreibgeschützte Bereich «Raumverwaltung».
 
@@ -16,6 +16,9 @@ Das Modul wird von einer Person mit administrativer Rolle aktiviert:<br>
 
 
 ## Gebäude [:octicons-tag-16:{ title="ab Release 21.0 (OO-9522)" }](https://track.frentix.com/issue/OO-9522){:target="_blank"} {: #buildings}
+
+Die Gebäude verwalten Sie in der System-Administration unter:<br>
+`Administration > Module > Räume > Gebäude`
 
 Jeder Raum gehört zu einem Gebäude. Im Segment «Gebäude» legen Sie die Gebäude Ihrer Organisation an und pflegen deren Stammdaten. Über die Aktion «Erstellen» öffnen Sie den Dialog «Gebäude erstellen» mit den folgenden Angaben:
 
@@ -30,6 +33,9 @@ Ein Gebäude hat den Status «Aktiv», «Inaktiv» oder «Gelöscht». Wird ein 
 
 
 ## Räume [:octicons-tag-16:{ title="ab Release 21.0 (OO-9524)" }](https://track.frentix.com/issue/OO-9524){:target="_blank"} {: #rooms}
+
+Die Räume verwalten Sie in der System-Administration unter:<br>
+`Administration > Module > Räume > Räume`
 
 Im Segment «Räume» legen Sie die einzelnen Räume an und ordnen sie einem Gebäude zu. Im Dialog «Raum erstellen» stehen unter anderem folgende Felder zur Verfügung:
 
@@ -46,6 +52,9 @@ Wie beim Gebäude hat ein Raum den Status «Aktiv», «Inaktiv» oder «Gelösch
 
 
 ## Raumplanung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
+
+Die Raumplanung finden Sie in der System-Administration unter:<br>
+`Administration > Module > Räume > Raumplanung`
 
 Das Segment «Raumplanung» bündelt alle Raumbuchungen als Übersicht. Filter sowie eine Kalenderansicht stehen zur Verfügung.
 
