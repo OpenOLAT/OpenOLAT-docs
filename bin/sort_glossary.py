@@ -4,6 +4,19 @@ import sys
 from pathlib import Path
 
 
+def sort_key(title: str) -> str:
+    """German sort order (DIN 5007-1): umlauts sort like their base vowel, ß like ss.
+
+    Without this, ä/ö/ü/ß land after z (they sit above z in Unicode), so entries
+    like "Öffentliche Rückmeldung" or "Übung" end up at the very end of the file
+    instead of under O and U.
+    """
+    key = title.strip().lower()
+    for umlaut, base in (("ä", "a"), ("ö", "o"), ("ü", "u"), ("ß", "ss")):
+        key = key.replace(umlaut, base)
+    return key
+
+
 def sort_glossary(input_path: Path, output_path: Path) -> None:
     text = input_path.read_text(encoding="utf-8")
     lines = text.splitlines()
@@ -43,7 +56,7 @@ def sort_glossary(input_path: Path, output_path: Path) -> None:
 
     flush()
 
-    entries.sort(key=lambda e: e[0][4:].strip().lower())
+    entries.sort(key=lambda e: sort_key(e[0][4:]))
 
     out = list(header)
     out.append("")

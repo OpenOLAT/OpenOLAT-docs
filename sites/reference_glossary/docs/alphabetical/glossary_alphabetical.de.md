@@ -422,6 +422,10 @@ Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert
 
 Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
 
+### Gebäude
+
+Übergeordnete Einheit der Raumverwaltung. Jeder Raum gehört zu einem Gebäude; das Gebäude trägt Adresse, Farbe und Organisationseinschränkung.
+
 ### Generierter Report
 
 Abschnitt im Bereich Reporting des Coaching Tools; listet die erzeugten Excel-Dateien, die 10 Tage zum Download bereitstehen.
@@ -602,6 +606,10 @@ Kann Curricula und Produkte im Modul Course Planner verwalten.
 
 Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursinstanz für eine Durchführung verwendet werden kann. Siehe auch: Vorlagekurs.
 
+### Kursverantwortliche
+
+Sammelbegriff für die einem Kurs oder einer Durchführung zugeordneten Rollen mit Betreuungs- oder Besitzfunktion, wie sie das Mitglieder-Widget anzeigt.
+
 ### Launcher
 
 Ein konfigurierbarer Abschnitt im Katalog 2.0, der Kursangebote dynamisch zusammenstellt und anzeigt.
@@ -708,7 +716,7 @@ Ein Kursbaustein für virtuelle Microsoft-Teams-Meetings innerhalb eines Kurses.
 
 ### Mitglieder-Widget
 
-Widget im Dashboard des Course Planner, zeigt die Teilnehmerzahl und zuständigen Personen einer Durchführung.
+Widget im Tab Übersicht einer Durchführung im Course Planner, zeigt die Teilnehmerzahl und die zuständigen Kursverantwortlichen dieser Durchführung.
 
 ### Mitteilungen
 
@@ -725,6 +733,10 @@ Persönliche Notizfunktion für Benutzer.
 ### OAI-PMH
 
 Open Archives Initiative Protocol for Metadata Harvesting, verwendet zur Katalogexposition.
+
+### Öffentliche Rückmeldung
+
+Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
 
 ### Opencast
 
@@ -857,6 +869,10 @@ Werkzeuge für Qualitätssicherungsumfragen und Datenerfassungen.
 ### Qualitätsverwalter/in
 
 Kann Qualitätsmanagement-Prozesse verwalten.
+
+### Raumplanung
+
+Übersicht aller Raumbuchungen im Modul Räume, mit Filtern und Kalenderansicht. Zeigt Konflikte wie Doppelbuchungen und zu wenige Plätze als Warnung.
 
 ### Raumverwaltung
 
@@ -1054,6 +1070,10 @@ Persönliche und kursbezogene Aufgabenverwaltung.
 
 Die Umwandlung hochgeladener Videodateien in browserübergreifend abspielbare Formate und Auflösungen. Der Transcoding-Modus legt fest, wo die Umwandlung stattfindet: Lokal auf dem OpenOlat-Server, Service über einen externen Transcodingservice, oder Remote bei einem Transcoding-Verzeichnis ausserhalb des OpenOlat-Datenbereichs.
 
+### Übung
+
+Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
+
 ### Umfrage
 
 Ein Kursbaustein für anonyme Umfragen mit Bewertungsformularen.
@@ -1069,6 +1089,10 @@ Ein Gutachten, in dem mehrere Bewerbungen derselben Ausschreibung miteinander ve
 ### Vergleichsgutachter/in
 
 Gutachter/in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
+
+### Verwendungszweck
+
+Einstellung eines Kurses, die festlegt, wie er verwendet wird: eigenständig, als Template, eingebunden in einen Kurs oder im Course Planner. Bestimmt unter anderem, ob der Kurs eine eigene Mitgliederverwaltung hat.
 
 ### Video
 
@@ -1161,11 +1185,3 @@ Buchungs- und Angebotsverwaltung für Lernressourcen.
 ### Zuständig für dieses Thema
 
 Gruppe im Kursbaustein Themenvergabe, in der die einem Thema zugeordneten Themenverantwortlichen aufgeführt werden.
-
-### Öffentliche Rückmeldung
-
-Rückmeldungen, die über einen öffentlichen Link ohne Login abgegeben werden, zum Beispiel nach einem Probevortrag.
-
-### Übung
-
-Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.

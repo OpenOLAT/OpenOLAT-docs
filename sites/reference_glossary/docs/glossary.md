@@ -705,6 +705,22 @@ A course template in the Course Planner that can be instantiated as a course for
 Assignment of a learning resource to one or more organisations. It determines which administrators and learning resource managers can manage the resource.
 
 
+### Usage
+
+Setting of a course that determines how it is used: standalone, as a template, embedded in a course, or in the Course Planner. Among other things, it determines whether the course has its own member administration.
+
+### Room Scheduling
+
+Overview of all room bookings in the Rooms module, with filters and a calendar view. Shows conflicts such as double bookings and insufficient seats as warnings.
+
+### Building
+
+Higher-level unit of room management. Every room belongs to a building; the building carries the address, colour and organisation restriction.
+
+### Course staff
+
+Collective term for the roles with coaching or ownership function assigned to a course or implementation, as shown by the Members widget.
+
 ## Selectus concepts
 
 ### Position

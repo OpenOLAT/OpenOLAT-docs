@@ -166,6 +166,10 @@ A type of learning resource that can be created or imported in the authoring are
 
 A record created when a user books or enrolls in a course through the catalog.
 
+### Building
+
+Higher-level unit of room management. Every room belongs to a building; the building carries the address, colour and organisation restriction.
+
 ### Bulk assessment
 
 Feature allowing coaches to assess multiple participants simultaneously.
@@ -305,6 +309,10 @@ Manage curricula, implementations, and educational structures (formerly "Curricu
 ### Course reminders
 
 Automated email reminders based on course conditions.
+
+### Course staff
+
+Collective term for the roles with coaching or ownership function assigned to a course or implementation, as shown by the Members widget.
 
 ### Course template
 
@@ -688,7 +696,7 @@ A course element for Sonic Foundry Mediasite lecture capture.
 
 ### Member widget
 
-Widget on the Dashboard of the Course Planner, showing the number of participants and the persons responsible for an implementation.
+Widget on the Overview tab of an implementation in the Course Planner, showing the number of participants and the course staff responsible for that implementation.
 
 ### Metadata
 
@@ -958,6 +966,10 @@ Can manage role assignments.
 
 OpenOlat module for the central management of physical rooms in buildings and their booking by course events in the Course Planner.
 
+### Room Scheduling
+
+Overview of all room bookings in the Rooms module, with filters and a calendar view. Shows conflicts such as double bookings and insufficient seats as warnings.
+
 ### Rubric
 
 A form element for evaluating multiple criteria against the same rating scale, used in assessments and surveys.
@@ -1093,6 +1105,10 @@ The conversion of uploaded video files into formats and resolutions that play ba
 ### Trash can
 
 The area where deleted learning resources are moved before permanent deletion.
+
+### Usage
+
+Setting of a course that determines how it is used: standalone, as a template, embedded in a course, or in the Course Planner. Among other things, it determines whether the course has its own member administration.
 
 ### User
 

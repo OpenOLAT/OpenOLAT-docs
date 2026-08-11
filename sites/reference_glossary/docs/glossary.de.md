@@ -705,6 +705,22 @@ Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursins
 Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
 
 
+### Verwendungszweck
+
+Einstellung eines Kurses, die festlegt, wie er verwendet wird: eigenständig, als Template, eingebunden in einen Kurs oder im Course Planner. Bestimmt unter anderem, ob der Kurs eine eigene Mitgliederverwaltung hat.
+
+### Raumplanung
+
+Übersicht aller Raumbuchungen im Modul Räume, mit Filtern und Kalenderansicht. Zeigt Konflikte wie Doppelbuchungen und zu wenige Plätze als Warnung.
+
+### Gebäude
+
+Übergeordnete Einheit der Raumverwaltung. Jeder Raum gehört zu einem Gebäude; das Gebäude trägt Adresse, Farbe und Organisationseinschränkung.
+
+### Kursverantwortliche
+
+Sammelbegriff für die einem Kurs oder einer Durchführung zugeordneten Rollen mit Betreuungs- oder Besitzfunktion, wie sie das Mitglieder-Widget anzeigt.
+
 ## Selectus-Konzepte
 
 ### Ausschreibung
