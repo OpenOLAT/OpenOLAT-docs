@@ -1,8 +1,8 @@
-# Course Planner: Produkte {: #products}
+# Course Planner: Produkte [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
 ![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }  
 
-## Was verstehen wir in OpenOlat unter einem Produkt? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
+## Was verstehen wir in OpenOlat unter einem Produkt? {: #definition}
 
 Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). 
 
@@ -17,7 +17,7 @@ Mit dem Course Planner ist in OpenOlat eine erweiterte, allgemeine Kursplanung i
 ---
 
 
-## Wo werden Produkte verwendet? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #usage_of_products}
+## Wo werden Produkte verwendet? {: #usage_of_products}
 
 Produkte werden im **Course Planner** für die Planung eines Bildungsgangs mit mehreren Kursen und Lernressourcen ("Kurspaket") verwendet. Ein Produkt kann dann in mehreren Durchführungen zu verschiedenen Terminen angeboten werden.    
 
@@ -36,7 +36,7 @@ Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungspr
 
 ## Wo und wie werden Produkte aktiviert? {: #activation}
 
-Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst frei geschaltet werden.<br>
+Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst freigeschaltet werden.<br>
 Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com](mailto:contact@frentix.com).<br>
 Sind Sie kein Hosting-Kunde von frentix, fragen Sie bitte Ihren Systembetreiber. 
 
@@ -49,7 +49,7 @@ Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivie
 ---
 
 
-## Produkt erstellen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_product}
+## Produkt erstellen {: #create_product}
 
 Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte".
 
@@ -69,7 +69,8 @@ Das Kennzeichen ist ebenfalls ein Pflichtfeld. (Es wird als Identifier zur Unter
 Wenn Sie ein neues Produkt erstellen, können Sie es auch auf die Verwendung innerhalb einer bestimmten Organisationseinheit beschränken, falls bei Ihnen das Modul "Organisationen" aktiviert ist.  
 
 ![4_green_24.png](assets/4_green_24.png) **Absenzenmanagement**: 
-Mit dieser Auswahl bestimmen Sie, ob das Absenzenmanagement für dieses Produkt verwendet werden soll. (Voraussetzung ist, dass es von einem/einer Administrator:in grundsätzlich aktiviert und für die Kursautor:innen verfügbar gemacht wurde.) 
+Mit dieser Auswahl bestimmen Sie, ob das Absenzenmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Administrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
+`Administration > Module > Termine / Absenzen`
 
 ![5_green_24.png](assets/5_green_24.png) **Beschreibung**: 
 In diesem Editor für die Beschreibung können Sie neben Text, Bildern und Links auch Videos einfügen oder direkt durch Klick auf den Mikrofon-Button ein Audio aufnehmen.
@@ -87,6 +88,8 @@ Die Liste der Produkte ist nach Relevanz sortiert: zuerst Produkte mit laufenden
 Mit **"Filter speichern"** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden.
 
 Kursplaner:innen arbeiten mit der Ansicht "Alle", die die aktiven Produkte zeigt. Administrator:innen stehen zusätzlich die vordefinierten Filter **"Aktiv"** (standardmässig ausgewählt) und **"Gelöscht"** zur Verfügung.
+
+![course_planner_products_overview_filter_v1_de.png](assets/course_planner_products_overview_filter_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#products)
 
@@ -106,19 +109,20 @@ Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel
 ---
 
 
-## Einstellung in den Kursen des Produkts {: #course_settings}
+## Einstellung in den Kursen des Produkts [:octicons-tag-16:{ title="ab Release 20.0 (OO-8104)" }](https://track.frentix.com/issue/OO-8104){:target="_blank"} {: #course_settings}
 
 Zu einem Produkt gehören im Normalfall mehrere Kurse.
-In den Einstellungen jedes Kurses kann sein **Verwendungszweck** festgelegt werden:
+In den Einstellungen jedes Kurses legt das Feld **Verwendungszweck** fest, wie der Kurs eingesetzt wird:
 
-* eigenständige Lernressource 
-* als Template 
-* zur Einbindung in ein Produkt
+* **Eigenständig**: eigenständige Lernressource mit Mitgliederverwaltung
+* **Template**: Template für Kursinhalte, ohne eigenständige Mitgliederverwaltung
+* **Einbindung in Kurs**: wiederverwendbare Lernressource, ohne eigenständige Mitgliederverwaltung
+* **Verwendung im Course Planner**: verwaltet durch den Course Planner, ohne eigenständige Mitgliederverwaltung
 
-Wird ein Kurs über den Course Planner verwaltet, ist die Einstellung "**Einbindung in Produkt**". Der Kurs hat dann keine eigenständige Mitgliederverwaltung. Die Mitgliederverwaltung geschieht in diesem Fall in der Mitgliederverwaltung der [Durchführung](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_members).
+Wird ein Kurs über den Course Planner verwaltet, ist der Verwendungszweck **"Verwendung im Course Planner"**. Der Kurs hat dann keine eigenständige Mitgliederverwaltung. Die Mitgliederverwaltung geschieht in diesem Fall in der Mitgliederverwaltung der [Durchführung](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_members).
 
-Sie finden die Einstellung unter:<br>
-**Wahl eines Kurses**: `Administration > Einstellungen > Tab Freigabe > Einbindung in Produkt`
+Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** unter:<br>
+`Kurs > Administration > Einstellungen > Freigabe`
 
 ![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
 

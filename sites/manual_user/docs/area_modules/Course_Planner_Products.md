@@ -1,9 +1,9 @@
-# Course Planner: Products {: #products}
+# Course Planner: Products [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
 ![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 
-## What do we mean by a product in OpenOlat? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
+## What do we mean by a product in OpenOlat? {: #definition}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, there are multiple implementations, i.e. learning opportunities of the same "type" (-> product).
 
@@ -17,9 +17,9 @@ With the Course Planner, an extended, general course planning function is integr
 
 ---
 
-## Where are products used? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #usage_of_products}
+## Where are products used? {: #usage_of_products}
 
-Products are used in **Course Planner** to plan an educational program with several courses and learning resources ("course package"). A product can then be offered in several versions on different dates.
+Products are used in **Course Planner** to plan an educational program with several courses and learning resources ("course package"). A product can then be offered in several implementations on different dates.
 
 The implementations of a product can be offered in the [catalog ](../../manual_user/area_modules/catalog2.0_angebote.md).
 
@@ -48,7 +48,7 @@ After activation, system administrators can activate and set up the module at:<b
 ---
 
 
-## Create Product [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_product}
+## Create Product {: #create_product}
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
@@ -68,7 +68,8 @@ The indicator is also a mandatory field. (It is used as an identifier to differe
 When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module.
 
 ![4_green_24.png](assets/4_green_24.png) **Absence management**:
-With this selection, you determine whether absence management should be used for this product. (Prerequisite is that it has been activated by an administrator and made available to the course authors).
+With this selection, you determine whether absence management should be used for this product. The prerequisite is that administrators have activated the module and made it available to the course authors, at:<br>
+`Administration > Modules > Events / Absences`
 
 ![5_green_24.png](assets/5_green_24.png) **Description**:
 In this editor for the description, you can insert videos in addition to text, images and links or record audio directly by clicking on the microphone button.
@@ -85,6 +86,8 @@ The list of products is sorted by relevance: first products with ongoing impleme
 With **"Save filter"**, frequently used filter combinations can be saved as your own preset and reused.
 
 Course planners work with the "All" view, which shows the active products. Administrators additionally have the predefined filters **"Active"** (selected by default) and **"Deleted"** available.
+
+![course_planner_products_overview_filter_v1_en.png](assets/course_planner_products_overview_filter_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#products)
 
@@ -104,19 +107,20 @@ Products, implementations and memberships can also be imported or exported via a
 ---
 
 
-## Settings in the courses of a product {: #course_settings}
+## Settings in the courses of a product [:octicons-tag-16:{ title="from Release 20.0 (OO-8104)" }](https://track.frentix.com/issue/OO-8104){:target="_blank"} {: #course_settings}
 
 A product normally comprises several courses.
-The **intended use** can be defined in the settings for each course:
+In the settings of each course, the **Usage** field defines how the course is used:
 
-* independent learning resource
-* as a template
-* for integration into a product
+* **Standalone**: independent learning resource with member management
+* **Template**: template for course content, without standalone member management
+* **Embedding in course**: reusable learning resource, without standalone member management
+* **Use in Course Planner**: administered by the Course Planner, without standalone member management
 
-If a course is managed via the Course Planner, the setting is "**Integration in product**". The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
+If a course is managed via the Course Planner, the usage is **"Use in Course Planner"**. The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
 
-You can find the setting under:<br>
-**Choice of a course**: `Administration > Settings > Tab Share > Integration in product`
+In the selected course you will find the usage in the **Usage** section under:<br>
+`Course > Administration > Settings > Share`
 
 ![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
 
@@ -133,8 +137,8 @@ You can find the setting under:<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
-[How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[How can I plan and run a course implementation with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How can I plan and run an educational programme with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 
 [To the top of the page ^](#products)

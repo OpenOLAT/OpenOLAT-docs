@@ -1,4 +1,4 @@
-# Course Planner: Overview [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #course_planner}
+# Course Planner: Overview [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #course_planner}
 
 
 ## What's the purpose of the Course Planner? {: #purpose}
@@ -187,14 +187,14 @@ If you have the role and rights of a **course planner**, you will find the Cours
 
 When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).
 
-![course_planner_overview_v4_en.png](assets/course_planner_overview_v4_en.png){ class="shadow lightbox" }
+![course_planner_overview_v5_en.png](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Dashboard.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
-### Products [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #products}
+### Products {: #products}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, these are multiple courses, i.e. learning opportunities of the same "type" (-> product). The Course Planner simplifies the work considerably through the shared central administration.
 
@@ -242,7 +242,7 @@ Certificate programs are used when a certificate is only awarded after completin
 ---
 
 
-### Reports {: #reports}
+### Reports [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
 
 Various reports can be generated using report templates.
 
@@ -264,14 +264,14 @@ To-dos can be recorded in the Course Planner at various levels: in the overview,
 
 ### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
-Course planners receive the "Room management" area under "Tools", with a read-only overview of the room scheduling and the rooms they have access to through their organisational affiliation. Rooms and buildings themselves are maintained in the "Rooms" module in the administration.
+Course planners receive the "Room management" area under "Tools", with a read-only overview of the room scheduling and the rooms they have access to through their organisational affiliation. Rooms and buildings themselves are maintained in the system administration, under `Administration > Modules > Rooms`.
 
 [To the details >](../area_modules/Course_Planner_Rooms.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
-## Further information {: #further information}
+## Further information {: #further_information}
 
 
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

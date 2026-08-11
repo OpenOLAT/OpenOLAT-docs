@@ -484,7 +484,7 @@ Widget on the Dashboard of the Course Planner, showing the implementations relev
 
 ### Member widget
 
-Widget on the Dashboard of the Course Planner, showing the number of participants and the persons responsible for an implementation.
+Widget on the Overview tab of an implementation in the Course Planner, showing the number of participants and the course staff responsible for that implementation.
 
 ### Access for coach
 

@@ -52,6 +52,10 @@ The column "Warnings" draws attention to conflicts:
 * **Not enough seats**: "There aren't enough seats!" if the number of participants exceeds the number of seats.
 * **Inactive room**: "The room "..." is inactive!"
 
+![course_planner_rooms_scheduling_table_v1_en.png](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" }
+
+![course_planner_rooms_scheduling_calendar_v1_en.png](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#course_planner_rooms)
 
 ---
@@ -64,9 +68,13 @@ Use the pre-defined tabs "All" and "Relevant" as well as the filter by status (a
 
 For each room you see, among other things, the building, the "Occupancy rate" (utilisation of the current month) and the "Next event". An icon opens the "Calendar" of the room with its occupancy, and "Details" opens a read-only preview of the room with location and map. Via the building link you jump directly to the building concerned.
 
+![course_planner_rooms_list_v1_en.png](assets/course_planner_rooms_list_v1_en.png){ class="shadow lightbox" }
+
 !!! info "No deleted filter"
 
-    In Room management of the Course Planner, deleted rooms are not shown. These only appear in the administration.
+    In Room management of the Course Planner, deleted rooms are not shown. They only appear in the system administration under:<br>
+    `Administration > Modules > Rooms > Rooms`<br>
+    There, the "Deleted" tab lists the deleted rooms.
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -76,7 +84,7 @@ For each room you see, among other things, the building, the "Occupancy rate" (u
 
 !!! info "Editing only in the administration"
 
-    Creating, editing and deleting rooms and buildings takes place in the module "Rooms" in the administration and requires administrative rights. [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)
+    Creating, editing and deleting rooms and buildings takes place in the system administration under `Administration > Modules > Rooms` and requires administrative rights. The segments there are called "Settings", "Room Scheduling", "Rooms" and "Buildings". [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_planner_rooms)
 

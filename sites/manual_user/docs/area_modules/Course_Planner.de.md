@@ -1,4 +1,4 @@
-# Course Planner: Übersicht [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #course_planner}
+# Course Planner: Übersicht [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #course_planner}
 
 
 ## Wozu dient der Course Planner? {: #purpose}
@@ -185,7 +185,7 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 !!! tip "Voraussetzung"
 
-    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support ihrer OpenOlat Instanz.
+    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support Ihrer OpenOlat-Instanz.
 
 
 
@@ -197,14 +197,14 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 Beim Öffnen des Course Planners gelangen Sie auf die Übersichtsseite mit den Zugriffs-Buttons, der Suche und einem Bereich mit konfigurierbaren Widgets (Durchführungen, Termine, Mitglieder).
 
-![course_planner_overview_v4_de.png](assets/course_planner_overview_v4_de.png){ class="shadow lightbox" }
+![course_planner_overview_v5_de.png](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Dashboard.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
 
 ---
 
-### Produkte [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #products}
+### Produkte {: #products}
 
 Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
 
@@ -253,7 +253,7 @@ Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Abso
 
 ---
 
-### Reports {: #reports}
+### Reports [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
 
 Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
@@ -275,7 +275,7 @@ To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der �
 
 ### Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
-Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden im Modul «Räume» in der Administration gepflegt.
+Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden in der System-Administration gepflegt, unter `Administration > Module > Räume`.
 
 [Zu den Details >](../area_modules/Course_Planner_Rooms.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -283,7 +283,7 @@ Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit ein
 ---
 
 
-## Weitere Informationen {: #further information}
+## Weitere Informationen {: #further_information}
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>

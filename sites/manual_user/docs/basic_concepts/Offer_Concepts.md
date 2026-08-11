@@ -4,7 +4,7 @@
 
 Once courses and other learning content have been created in OpenOlat, it must be determined **which** users should have access to them **and when**. Access can be granted (approved) in two ways:
 
-* **Private:** By entering them in the member management section of the (course) administration, registered OpenOlat users become members of the course or learning resource and can then access it.
+* **Private:** By entering them in the member management section of the course administration, registered OpenOlat users become members of the course or learning resource and can then access it.
 
 * **Bookable and open offers:** An offer is added to a course by the owner (author). Users can then find this offer in the catalog and initiate membership themselves by booking the offer.<br>
 Several different offers for different target groups can also be created for the same course.<br>
@@ -84,10 +84,10 @@ Offers are created
 * in a course <br>or
 * in an implementation (within the Course Planner)
 
-### Create offers in courses {: #create_offers_course}
+### Create offers in courses [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
 To offer a **course** in the catalog, select the relevant course and then<br> 
-`Administration > Settings > Share > Section "Offers"`
+`Course > Administration > Settings > Share > Section "Offers"`
 
 ![offer_concepts_create_offer_course_v1_de.png](assets/offer_concepts_create_offer_course_v1_de.png){ class=" shadow lightbox" }
 
@@ -95,14 +95,14 @@ To offer a **course** in the catalog, select the relevant course and then<br>
 
     Once offers have been created, they can also be viewed under:<br>
     `Course > Administration > Offer types`<br>
-    The entry appears as soon as a bookable offer has been configured for the course. Offers are configured under `Administration > Settings > Share > Section "Offers"` (see above).<br>
+    The entry appears as soon as a bookable offer has been configured for the course. Offers are configured under `Course > Administration > Settings > Share > Section "Offers"` (see above).<br>
     [Details on the offer configuration >](../learningresources/Access_configuration.md#offer)
 
 
 ### Create offers in the Course Planner [:octicons-tag-16:{ title="from Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
 
-To offer an **implementation** in the catalog, select the relevant course in the Course Planner and then the<br>
-`Tab Catalog > Button Offers`
+To offer an **implementation** in the catalog, select the relevant implementation in the Course Planner:<br>
+`Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
 ![offer_concepts_create_offer_implementation_v1_de.png](assets/offer_concepts_create_offer_implementation_v1_de.png){ class=" shadow lightbox" }
 
@@ -123,6 +123,10 @@ The following types of offers can be created:
 | <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
 | <b>Invoice</b> | Membership | With this offer, the resource can be booked for a fee via invoice. Users receive a corresponding membership that gives them access to the resource. | Implementation |
 
+When creating an offer, you select the offer type via the **"Add offer"** button.
+
+![offer_concepts_add_offer_types_v1_en.png](assets/offer_concepts_add_offer_types_v1_en.png){ class="shadow lightbox" }
+
 [More about Offer Types >](../learningresources/Access_configuration.md#angebotsoptionen)
 
 [To the top of the page ^](#offer_concepts)
@@ -138,10 +142,10 @@ The catalog can include offers for
 - Implementation
 - other learning resources
 
-### Offer Courses {: #what_is_offered_courses}
+### Offer Courses [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #what_is_offered_courses}
 
 Offers of a Course can be created under<br>
-`(Course) Administration > Settings > Share > Section "Offers"`<br>
+`Course > Administration > Settings > Share > Section "Offers"`<br>
 Please note that the option "Bookable and open offers" must be selected beforehand under "Access for participants".
 
 ![offer_concepts_types_course1_v1_de.png](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
@@ -167,7 +171,7 @@ If an offer has been made in the catalog from within Course Planner that can be 
 The booking request can then be confirmed.
 
 Offers for implementation are created in the Course Planner at:<br>
-`Course Planner > Implementation > Tab Catalog > Tab Offers`
+`Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
 ![offer_concepts_types_course_planner1_v1_de.png](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
@@ -216,9 +220,9 @@ For offers with invoices,
 
 !!! tip "Tip"
 
-    In the Course Planner under<br>
-    `Implementations > Tab Catalog > Tab Booking orders`<br>
-    the booking orders are collected and can be exported as an Excel file and used in another program (e.g., for invoicing).  
+    The booking orders are collected per implementation:<br>
+    `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Booking orders`<br>
+    The tabs of an implementation only appear once you have opened it in the table. There, the booking orders can be exported as an Excel file and used in another program (e.g., for invoicing).  
 
 [Setting up the invoice payment module (Administration) >](../../manual_admin/administration/Payment_Invoice.md)
 
@@ -227,10 +231,12 @@ For offers with invoices,
 
 When creating or editing an invoice offer, you define whether and under which conditions a booking can be cancelled. This way, users know the cancellation rules before they book.
 
+![offer_concepts_invoice_cancellation_v1_en.png](assets/offer_concepts_invoice_cancellation_v1_en.png){ class="shadow lightbox" }
+
+* **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
 * **Cancelable:** This toggle determines whether bookings of this offer can be cancelled. The option is enabled by default.
 * **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" (default) and "With fee".
 * **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. In order for the deadline to be taken into account, a start date must be specified in the execution period.
-* **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
 
 The cancellation information is displayed to users with the offer.
 

@@ -34,7 +34,7 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 !!! tip "Voraussetzung"
 
-    Die Raumverwaltung steht nur zur Verfügung, wenn das Modul «Räume» von einem/einer Systemadministrator:in aktiviert worden ist. Steht der Bereich nicht zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support ihrer OpenOlat Instanz.
+    Die Raumverwaltung steht nur zur Verfügung, wenn das Modul «Räume» von einem/einer Systemadministrator:in aktiviert worden ist. Steht der Bereich nicht zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support Ihrer OpenOlat Instanz.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -52,6 +52,10 @@ Die Spalte «Warnungen» macht auf Konflikte aufmerksam:
 * **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
 * **Inaktiver Raum**: «Der Raum "..." ist inaktiv!»
 
+![course_planner_rooms_scheduling_table_v1_de.png](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" }
+
+![course_planner_rooms_scheduling_calendar_v1_de.png](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" }
+
 [zum Seitenanfang ^](#course_planner_rooms)
 
 ---
@@ -64,9 +68,13 @@ Mit den vordefinierten Tabs «Alle» und «Relevant» sowie dem Filter nach Stat
 
 Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und den «Nächsten Termin». Ein Symbol öffnet den «Kalender» des Raums mit seiner Belegung, über «Details» rufen Sie eine schreibgeschützte Vorschau des Raums mit Standort und Karte auf. Über den Gebäude-Link springen Sie direkt zum betreffenden Gebäude.
 
+![course_planner_rooms_list_v1_de.png](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" }
+
 !!! info "Kein Gelöscht-Filter"
 
-    In der Raumverwaltung des Course Planners werden gelöschte Räume nicht angezeigt. Diese erscheinen nur in der Administration.
+    In der Raumverwaltung des Course Planners werden gelöschte Räume nicht angezeigt. Sie erscheinen nur in der System-Administration unter:<br>
+    `Administration > Module > Räume > Räume`<br>
+    Dort führt der Tab «Gelöscht» die gelöschten Räume.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -76,7 +84,7 @@ Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung
 
 !!! info "Bearbeitung nur in der Administration"
 
-    Anlegen, Bearbeiten und Löschen von Räumen und Gebäuden erfolgt im Modul «Räume» in der Administration und erfordert administrative Rechte. [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
+    Anlegen, Bearbeiten und Löschen von Räumen und Gebäuden erfolgt in der System-Administration unter `Administration > Module > Räume` und erfordert administrative Rechte. Die Segmente dort heissen «Einstellungen», «Raumplanung», «Räume» und «Gebäude». [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)
 

@@ -484,7 +484,7 @@ Widget im Dashboard des Course Planner, zeigt die für die Person relevanten Dur
 
 ### Mitglieder-Widget
 
-Widget im Dashboard des Course Planner, zeigt die Teilnehmerzahl und zuständigen Personen einer Durchführung.
+Widget im Tab Übersicht einer Durchführung im Course Planner, zeigt die Teilnehmerzahl und die zuständigen Kursverantwortlichen dieser Durchführung.
 
 ### Freigabe Betreuer:innen
 

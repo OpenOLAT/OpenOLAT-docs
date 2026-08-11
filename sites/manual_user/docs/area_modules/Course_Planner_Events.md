@@ -1,9 +1,9 @@
-# Course Planner: Events {: #events}
+# Course Planner: Events [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
 ![course_planner_events_access_v3_de.png](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
 
-## What dates does the Course Planner cover? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #type_of_events}
+## What dates does the Course Planner cover? {: #type_of_events}
 
 The dates created and displayed in the Course Planner refer to the elements used in the Course Planner. (Other dates, e.g. from projects, are not listed here in the Course Planner).
 
@@ -11,9 +11,9 @@ The dates created and displayed in the Course Planner refer to the elements used
 
 ---
 
-## Where can I see events? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #display_events}
+## Where can I see events? {: #display_events}
 
-### Selection of current events
+### Selection of current events [:octicons-tag-16:{ title="from Release 20.0 (OO-8067)" }](https://track.frentix.com/issue/OO-8067){:target="_blank"}
 
 You can find a selection of current dates on the **Overview of the Course Planner**.
 
@@ -32,12 +32,12 @@ You will find a complete overview of all dates in the Course Planner in the "Dat
 ### Events of an implementation {: #events_of_an_implementation}
 
 You can also find the **currently upcoming** dates of an implementation under<br>
-**Course Planner Overview > Implementations > Select Implementation > Tab Overview**
+`Course Planner > Implementations > "your implementation" > Tab Overview`
 
 ![course_planner_events_display4_v1_de.png](assets/course_planner_events_display4_v1_de.png){ class="shadow lightbox" }
 
 **All** dates of a realization can be found under<br>
-**Course Planner Overview > Implementations > Select Implementation > Tab Events**
+`Course Planner > Implementations > "your implementation" > Tab Events`
 
 You can use all levels of the product structure or just the current level as a sub-selection. Various filters are also available.
 
@@ -62,9 +62,15 @@ In the event list, the "Element" column shows which element an event belongs to.
 
 With modularized courses, an event can have participants from several elements. The detail view of an event lists these elements in a table:
 
-* Each element is displayed with its element icon.
+* The **"For participants of"** column names the element the participants come from, the **"Participants"** column their number.
 * The **"Default element"** column marks the default element with the "Default" label, as in the course.
 * The "Status" column uses the labels **"Included"** and **"Excluded"** to show whether the participants of the respective element are included in or excluded from the event.
+
+Use the three dots at the end of a row to control which elements take part in the event. With **"Open"** you open the element, with **"Exclude participants"** you take the participants of this element out of the event. You bring excluded elements back with **"Include participants again"**; the "Status" column changes accordingly.
+
+The detail view additionally shows the date, time, number of participants and mandatory attendance of the event as well as the associated course.
+
+![course_planner_events_event_elements_v1_en.png](assets/course_planner_events_event_elements_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#events)
@@ -72,10 +78,10 @@ With modularized courses, an event can have participants from several elements. 
 
 ---
 
-## How do I create new events? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #create_events}
+## How do I create new events? {: #create_events}
 
 As appointments refer to an implementation, you will find the option to create under<br>
-**Course Planner Overview > Implementations > Select implementation > Tab Events**
+`Course Planner > Implementations > "your implementation" > Tab Events`
 
 You can also import appointments by clicking on the small arrow next to the button.
 
@@ -94,8 +100,10 @@ The room selection takes the time period of the event into account and shows whi
 
 In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms". Conflicts such as a double booking or insufficient seats are displayed as a warning.
 
+![course_planner_events_room_booking_v1_en.png](assets/course_planner_events_room_booking_v1_en.png){ class="shadow lightbox" }
+
 !!! note "Admin. rights required"
-    Rooms and buildings are managed in the module "Rooms" in the administration; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.
+    Rooms and buildings are managed in the system administration under `Administration > Modules > Rooms`; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.
 
 [To the top of the page ^](#events)
 

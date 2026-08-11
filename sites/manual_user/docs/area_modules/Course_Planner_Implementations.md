@@ -1,8 +1,8 @@
-# Course Planner: Implementations {: #implementations}
+# Course Planner: Implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
 ![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
 
-## What is an implementation? [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #definition}
+## What is an implementation? {: #definition}
 
 An educational program/product (consisting of one or more courses) can be offered and carried out several times. Each implementation can take place on a different date and different participants are then present at each implementation.
 
@@ -17,7 +17,7 @@ From this conceptual idea, the same courses are generally assigned and used in e
 ---
 
 
-## The list of implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #listing}
+## The list of implementations {: #listing}
 
 If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
@@ -29,7 +29,7 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 !!! info "Important"
-    The subjects are made available by the administration under Taxonomy.
+    The subjects are made available in the system administration, under `Administration > Modules > Taxonomy`.
 
 
 [To the top of the page ^](#implementations)
@@ -63,11 +63,27 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 The "Overview" tab shows you the members, the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
 
-Use the **Show all** button in the **Events** widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} to go directly to the Events tab.
+Use the **Show all** button in the **Events** widget to go directly to the Events tab.
 
 The **Content** and **Catalog** widgets also show an icon in the title as well as the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
 
 ![course_planner_implementations_tab_overview_v2_en.png](assets/course_planner_implementations_tab_overview_v2_en.png){ class="shadow lightbox" }
+
+#### Member widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
+
+The **Members** widget shows the **"Participants"** key figure of this implementation, broken down into **"Active"** and **"Pending"**. If no course staff has been added yet, the widget shows the note "No course staff yet." Use the **"Details"** button to go directly to the Members tab of this implementation. [:octicons-tag-16:{ title="from Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+
+![course_planner_implementations_widget_members_v1_en.png](assets/course_planner_implementations_widget_members_v1_en.png){ class="shadow lightbox" }
+
+If course staff has been added, they appear instead of the note, with their role (e.g. coaches, master coaches, course owners, element owners).
+
+If a maximum or minimum number of participants is defined, an additional note text supplements the "Participants" key figure:
+
+* If a maximum is set: **"\<number\> seats left"**
+* If a minimum is set: **"\<number\> to minimum"**
+* For fully booked or overbooked implementations, the corresponding message appears.
+
+![course_planner_implementations_widget_members2_v1_en.png](assets/course_planner_implementations_widget_members2_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
@@ -80,7 +96,7 @@ In the displayed tree structure, each individual element of the implementation c
 
 ![course_planner_implementations_tab_structure1_v1_de.png](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) If you would like to add other elements for this implementation that deviate from the product structure ("copy template" of this structure), you will find the available element types as defined in the administration under the **Create** button.
+![1_green_24.png](assets/1_green_24.png) If you would like to add other elements for this implementation that deviate from the product structure ("copy template" of this structure), you will find the available element types under the **Create** button, as they were defined in the system administration under `Administration > Modules > Course Planner > Tab Element types`.
 
 ![2_green_24.png](assets/2_green_24.png) You can also download the displayed structure as an Excel file using the **Download button**.
 
@@ -140,7 +156,7 @@ Using a template for instancing is recommended if it is a recurring course that 
 The "Add course" and "Add course templates" buttons become inactive once the number of courses or templates corresponding to the selected delivery type has been added.
 
 **Creation of course templates**<br>
-Course templates are created by selecting the "Template" option in the course under **Administration > Settings > Shares > Intended use**. 
+Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. 
 The templates for course content in Course Planner do not have independent member management, as members are added to Course Planner for each course run.
 
 !!! info "Important"
@@ -152,7 +168,7 @@ The templates for course content in Course Planner do not have independent membe
 
 ---
 
-### Tab events {: #tab_events}
+### Tab events [:octicons-tag-16:{ title="from Release 20.0 (OO-8064)" }](https://track.frentix.com/issue/OO-8064){:target="_blank"} {: #tab_events}
 
 - If there are many appointments, the **filters** above the table are useful for keeping an overview.
 - The **"Add appointment"** button can be used to add new appointments to the currently selected event.
@@ -176,17 +192,18 @@ Participants are therefore made members of a specific implementation (not member
 If the participants were made members of the educational product (the "copy template"), they would be present as participants in all implementations of this product. This is not desirable. Therefore, only owners can be added to a product as members, not participants.
 
 !!! info "Member administration in the Course Planner"
-    Because member administration is carried out when using the Course Planner, there is the setting "Integration in curriculum/product" in the course settings:
-    `(Course) Administration > Settings > Tab "Share" > Section "Use" > Button "Implementation in Curriculum/Product"`
-**The course then no longer has *any* independent member administration** — member administration now takes place exclusively in the member administration of the implementation, **within the Course Planner**.
+    Because member administration is carried out in the implementation when using the Course Planner, the course settings offer the usage "Use in Course Planner":<br>
+    `Course > Administration > Settings > Tab Share > Section Usage`
+
+**The course then no longer has *any* independent member administration**: member administration now takes place exclusively in the member administration of the implementation, **within the Course Planner**.
 
 <br>
 
 #### Tab members > Add members {: #add_members}
 
 
-To add participants to an implementation as members, use the<br>
-`Implementation > Tab members > the button Add participants`
+To add participants to an implementation as members, use:<br>
+`Course Planner > Implementations > "your implementation" > Tab Members > Button "Add participants"`
 
 ![course_planner_implementations_add_member_v1_de.png](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
 
@@ -225,7 +242,7 @@ This approval step can also be set up for all offers, except when paying with Pa
 ---
 
 
-### Tab Catalog {: #tab_catalog}
+### Tab Catalog [:octicons-tag-16:{ title="from Release 20.0 (OO-8236)" }](https://track.frentix.com/issue/OO-8236){:target="_blank"} {: #tab_catalog}
 
 The various implementations can be offered in the catalog. To do this, an [offer](../../manual_user/area_modules/catalog2.0_angebote.md) must be created, as for every catalog entry.
 
@@ -249,7 +266,7 @@ If offers with booking options have been added to the catalog, the booking order
 
 The many possible settings for an implementation can be found under several subordinate tabs. A preview info page is permanently available.
 
-![course_planner_implementations_tab_settings_v1_de.png](assets/course_planner_implementations_tab_settings_v1_de.png){ class="shadow lightbox" }
+![course_planner_implementations_tab_settings_v2_en.png](assets/course_planner_implementations_tab_settings_v2_en.png){ class="shadow lightbox" }
 
 
 #### Metadata of the settings
@@ -257,6 +274,13 @@ The many possible settings for an implementation can be found under several subo
 The metadata entered here is used to simplify search processes, for example.
 
 ![course_planner_implementations_tab_settings_metadata_v1_de.png](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
+
+
+#### Infos in the settings
+
+The information entered in the "Infos" tab is used for the display in the catalog, for example.
+
+![course_planner_implementations_tab_settings_infos_v1_de.png](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" }
 
 
 #### Implementation in the settings
@@ -300,8 +324,12 @@ Two modes are available for each automation rule:
 The sub-tab "Assessment" is displayed for implementations of type single course. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the **"Certification program"** toggle to enable or disable the link.
-* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Reference, validity period, recertification and required credit points. Only programs you have access to are displayed.
+* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Identifier, validity period, recertification and required credit points. Only programs you have access to are displayed.
 * If a program is linked, a panel shows its validity period, recertification and required credit points. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove certification program"**. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
+
+![course_planner_implementations_tab_settings_assessment_v1_en.png](assets/course_planner_implementations_tab_settings_assessment_v1_en.png){ class="shadow lightbox" }
+
+![course_planner_implementations_tab_settings_assessment_select_v1_en.png](assets/course_planner_implementations_tab_settings_assessment_select_v1_en.png){ class="shadow lightbox" }
 
 An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
 
@@ -364,7 +392,7 @@ You will find the option to copy in the list of executions at the end of a line 
 
 In the first step of the small wizard, you can select whether course content, dates, members and to-dos should also be copied.
 
-![course_planner_implementations_copy2_v1_de.png](assets/course_planner_implementations_copy2_v1_de.png){ class="shadow lightbox" }  
+![course_planner_implementations_copy2_v2_en.png](assets/course_planner_implementations_copy2_v2_en.png){ class="shadow lightbox" }  
 
 The second step of the wizard shows you an overview of the elements that will now be copied.<br>
 You can still make adjustments here (especially to the dates).<br>
@@ -374,9 +402,9 @@ Click on the + in front of an element to display the courses and dates for the e
 
 An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)"; you either enter the shift in days ("Shift by") or directly the "New date".
 
-![course_planner_implementations_copy4_v1_de.png](assets/course_planner_implementations_copy4_v1_de.png){ class="shadow lightbox" }
+![course_planner_implementations_copy4_v2_en.png](assets/course_planner_implementations_copy4_v2_en.png){ class="shadow lightbox" }
 
-![course_planner_implementations_copy5_v1_de.png](assets/course_planner_implementations_copy5_v1_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_copy5_v2_en.png](assets/course_planner_implementations_copy5_v2_en.png){ class="shadow lightbox" } 
 
 ### Adopt to-dos when copying [:octicons-tag-16:{ title="from Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
@@ -387,6 +415,8 @@ To-dos of an implementation are carried over when copying. In the first step of 
 * **Don't copy:** To-dos are not copied.
 
 In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with title, priority, date input (absolute or relative), due date, status, assignment, delegation and tags. Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
+
+![course_planner_implementations_copy_todos_details_v1_en.png](assets/course_planner_implementations_copy_todos_details_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 

@@ -4,7 +4,7 @@
 
 Sind Kurse und andere Lerninhalte in OpenOlat erstellt, muss bestimmt werden, **welche** Benutzer:innen **wann** darauf Zugriff haben sollen. Die Gewährung des Zugriffs (Freigabe) kann auf 2 Arten erfolgen:
 
-* **Privat:** Durch Eintrag in der Mitgliederverwaltung der (Kurs-)Administration werden registrierte OpenOlat-Benutzer:innen zu Mitgliedern des Kurses oder der Lernressource und können dann darauf zugreifen.
+* **Privat:** Durch Eintrag in der Mitgliederverwaltung der Kurs-Administration werden registrierte OpenOlat-Benutzer:innen zu Mitgliedern des Kurses oder der Lernressource und können dann darauf zugreifen.
 
 * **Buchbare und offene Angebote:** Einem Kurs wird von dem/der Besitzer:in (Autor:in) ein Angebot hinzugefügt. Dieses Angebot finden Benutzer:innen dann im Katalog und können dort die Mitgliedschaft durch eine Buchung des Angebots selbst initiieren.<br>
 Für den gleichen Kurs können auch mehrere verschiedene Angebote für verschiedene Zielgruppen erstellt werden.<br>
@@ -84,10 +84,10 @@ Angebote werden erstellt
 * im Kurs <br>oder
 * in einer Durchführung (innerhalb des Course Planners) 
 
-### Angebotserstellung im Kurs {: #create_offers_course}
+### Angebotserstellung im Kurs [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
 Um einen **Kurs** im Katalog anzubieten, wählen Sie den betreffenden Kurs und dann<br> 
-`Administration > Einstellungen > Freigabe > Bereich "Angebote"`
+`Kurs > Administration > Einstellungen > Freigabe > Bereich "Angebote"`
 
 ![offer_concepts_create_offer_course_v1_de.png](assets/offer_concepts_create_offer_course_v1_de.png){ class=" shadow lightbox" }
 
@@ -95,14 +95,14 @@ Um einen **Kurs** im Katalog anzubieten, wählen Sie den betreffenden Kurs und d
 
     Sind Angebote erstellt worden, können sie auch nachgesehen werden unter:<br>
     `Kurs > Administration > Angebotsarten`<br>
-    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Konfiguriert werden Angebote unter `Administration > Einstellungen > Freigabe > Bereich "Angebote"` (siehe oben).<br>
+    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Konfiguriert werden Angebote unter `Kurs > Administration > Einstellungen > Freigabe > Bereich "Angebote"` (siehe oben).<br>
     [Details zur Angebotskonfiguration >](../../manual_user/learningresources/Access_configuration.de.md#offer)
 
 
 ### Angebotserstellung im Course Planner [:octicons-tag-16:{ title="ab Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
 
-Um eine **Durchführung** im Katalog anzubieten, wählen Sie die betreffende Durchführung im Course Planner und dann den<br>
-`Tab Katalog > Button Angebote`
+Um eine **Durchführung** im Katalog anzubieten, wählen Sie die betreffende Durchführung im Course Planner:<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
 
 ![offer_concepts_create_offer_implementation_v1_de.png](assets/offer_concepts_create_offer_implementation_v1_de.png){ class=" shadow lightbox" }
 
@@ -123,6 +123,10 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 | <b>PayPal Checkout</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit PayPal kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Einzelkurs und Durchführung |
 | <b>Rechnung</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource per Rechnung kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Durchführung |
 
+Beim Erstellen wählen Sie die Angebotsart über den Button **"Angebot hinzufügen"**.
+
+![offer_concepts_add_offer_types_v1_de.png](assets/offer_concepts_add_offer_types_v1_de.png){ class="shadow lightbox" }
+
 [Mehr über die Angebotstypen >](../../manual_user/learningresources/Access_configuration.de.md#angebotsoptionen)
 
 [zum Seitenanfang ^](#offer_concepts)
@@ -139,10 +143,10 @@ In den Katalog können Angebote aufgenommen werden für
 - sonstige Lernressourcen
 
 
-### Kurse anbieten {: #what_is_offered_courses}
+### Kurse anbieten [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #what_is_offered_courses}
 
 Angebote zu einem Kurs werden erstellt unter<br>
-`(Kurs-)Administration > Einstellungen > Freigabe > Abschnitt "Angebote"`<br>
+`Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebote"`<br>
 Beachten Sie, dass zuvor bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt werden muss.
 
 ![offer_concepts_types_course1_v1_de.png](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
@@ -169,7 +173,7 @@ Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das **m
 Der Buchungsauftrag kann anschliessend bestätigt werden.
 
 Angebote für Durchführungen werden im Course Planner erstellt unter:<br>
-`Course Planner > Durchführung > Tab Katalog > Tab Angebote`
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
 
 ![offer_concepts_types_course_planner1_v1_de.png](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
@@ -221,9 +225,9 @@ Bei Angebot mit Rechnung ist
 
 !!! tip "Tipp"
 
-    Im Course Planner unter<br>
-    `Durchführungen > Tab Katalog > Tab Buchungsaufträge`<br> 
-    sind die Buchungsaufträge gesammelt und können als Excel-Datei exportiert und in einem anderen Programm (z.B. zur Rechnungserstellung) verwendet werden.  
+    Die Buchungsaufträge sind je Durchführung gesammelt:<br>
+    `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Buchungsaufträge`<br>
+    Die Tabs einer Durchführung erscheinen erst, wenn Sie diese in der Tabelle geöffnet haben. Dort können die Buchungsaufträge als Excel-Datei exportiert und in einem anderen Programm (z.B. zur Rechnungserstellung) verwendet werden.  
 
 
 [Einrichtung des Bezahlungmoduls Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)
@@ -233,10 +237,12 @@ Bei Angebot mit Rechnung ist
 
 Beim Erstellen oder Bearbeiten eines Rechnungsangebots legen Sie fest, ob und zu welchen Bedingungen eine Buchung storniert werden kann. So kennen die Buchenden die Stornierungsregeln bereits vor der Buchung.
 
+![offer_concepts_invoice_cancellation_v1_de.png](assets/offer_concepts_invoice_cancellation_v1_de.png){ class="shadow lightbox" }
+
+* **Kostenstelle:** Oberhalb der Stornierungsoptionen ordnen Sie dem Angebot bei Bedarf eine Kostenstelle zu.
 * **Stornierbar:** Mit diesem Schalter bestimmen Sie, ob Buchungen dieses Angebots storniert werden können. Standardmässig ist die Option aktiviert.
 * **Stornierungsbedingungen:** Ist das Angebot stornierbar, wählen Sie zwischen "Kostenlos" (Standard) und "Mit Gebühr".
 * **Stornierungsgebühr:** Bei der Auswahl "Mit Gebühr" geben Sie die Höhe der Gebühr an. Mit "Kostenlos stornierbar bis \<Anzahl\> Tage vor Start" definieren Sie zusätzlich eine Frist, bis zu der ohne Gebühr storniert werden kann. Damit die Frist berücksichtigt wird, muss beim Durchführungszeitraum ein Anfangsdatum angegeben sein.
-* **Kostenstelle:** Oberhalb der Stornierungsoptionen ordnen Sie dem Angebot bei Bedarf eine Kostenstelle zu.
 
 Die Stornierungsinformationen werden den Benutzer:innen beim Angebot angezeigt.
 

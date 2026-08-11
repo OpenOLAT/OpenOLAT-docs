@@ -8,7 +8,7 @@ Die Übersicht zeigt zum Beispiel:
 - die Buttons zum Zugriff auf die nachstehend beschriebenen Bereiche/Funktionen,
 - sowie die Suche.
 
-![course_planner_overview_v4_de.png](assets/course_planner_overview_v4_de.png){ class="shadow lightbox" }  
+![course_planner_overview_v5_de.png](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" }  
 
 Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
 Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
@@ -29,7 +29,7 @@ Das Widget **Durchführungen** zeigt auf einen Blick die für Sie relevanten Dur
 
 Im Kopfbereich wählen Sie über die Hauptkennzahl **"Relevant"** oder eine der weiteren Kennzahlen (**"Vorbereitung"**, **"Provisorisch"**, **"Bestätigt"**, **"Ausstehende Mitgliedschaften"**) eine Vorauswahl. Die Tabelle listet die entsprechenden Durchführungen mit Kennzeichen, Titel, Struktur, Status sowie Beginn- und Enddatum, sortiert nach Beginndatum.
 
-Über den neuen Filter **"Ausstehende Mitgliedschaften"** finden Sie schnell Durchführungen, bei denen Mitgliedschaften noch bestätigt werden müssen.
+Über den Filter **"Ausstehende Mitgliedschaften"** finden Sie schnell Durchführungen, bei denen Mitgliedschaften noch bestätigt werden müssen.
 
 Über den Button **Alle anzeigen** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} gelangen Sie zur vollständigen Liste der Durchführungen.
 
@@ -39,7 +39,7 @@ Im Kopfbereich wählen Sie über die Hauptkennzahl **"Relevant"** oder eine der 
 
 ## Tabellen-Widget konfigurieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
 
-Tabellen-Widgets (z.B. das Durchführungs-Widget) können Sie über das Zahnrad-Icon im Widget individuell konfigurieren:
+Widgets (z.B. das Durchführungs-Widget) können Sie über :o_icon_o_icon_customize: im Widget individuell konfigurieren:
 
 * **Hauptkennzahl**: Legt fest, welche Kennzahl in der Titelzeile des Widgets angezeigt wird.
 * **Kennzahlen**: Über eine Checkbox-Gruppe bestimmen Sie, welche weiteren Kennzahlen sichtbar sind. Die Hauptkennzahl ist dabei immer ausgewählt und kann nicht abgewählt werden.
@@ -47,23 +47,7 @@ Tabellen-Widgets (z.B. das Durchführungs-Widget) können Sie über das Zahnrad-
 
 Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen Sie sie.
 
-[Zum Seitenanfang ^](#dashboard)
-
----
-
-## Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
-
-Das Widget **Teilnehmer:innen** zeigt die Teilnehmerzahl der jeweiligen Durchführung.
-
-Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzlicher Hinweistext die Kennzahl:
-
-* Bei gesetztem Maximum: **"\<Anzahl\> verbleibende Plätze"**
-* Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
-* Bei ausgebuchten oder überbuchten Durchführungen erscheint weiterhin die entsprechende Meldung.
-
-Im Bereich darunter werden die für die Durchführung zuständigen Personen mit Rolle angezeigt (z.B. Betreuer:innen, Klassenlehrer:innen, Kursbesitzer:innen, Elementbesitzer:innen).
-
-Sind noch keine Kursverantwortlichen erfasst, zeigt das Widget den Hinweis "Noch keine Kursverantwortlichen." Über den Button **"Details"** gelangen Sie direkt zum Tab Mitglieder der jeweiligen Durchführung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+![course_planner_widget_settings_v1_de.png](assets/course_planner_widget_settings_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#dashboard)
 
@@ -78,7 +62,9 @@ Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
 * **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
 * **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
 
-!!! note "Hinweis"
+![course_planner_overview_customize_v1_de.png](assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" }
+
+!!! tip "Tipp"
 
     Für die Bedienung ohne Maus (Tastatur/Screenreader) stehen zusätzlich die Aktionen **"Nach oben verschieben"** und **"Nach unten verschieben"** zur Verfügung.
 
