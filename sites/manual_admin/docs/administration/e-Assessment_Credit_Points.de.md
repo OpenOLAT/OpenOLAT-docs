@@ -33,7 +33,7 @@ Ein reines Wiederholen des initialen Zertifikatskurses ist dann nicht mehr erfor
 ---
 
 
-## Weiterführende Informationen {: #further information}
+## Weiterführende Informationen {: #further_information}
 
 [Kreditpunkte in Kursen vergeben >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
 

@@ -102,7 +102,7 @@ The "Type" filter offers, among others, the following labels: "Audio" (formerly 
 ---
 
 
-## Further information {: #further information}
+## Further information {: #further_information}
 
 [Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
 [How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>

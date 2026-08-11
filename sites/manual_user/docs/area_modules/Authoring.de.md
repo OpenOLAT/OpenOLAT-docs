@@ -103,7 +103,7 @@ Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" (v
 ---
 
 
-## Weitere Informationen {: #further information}
+## Weitere Informationen {: #further_information}
 
 [Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? (Ausführliche Anleitung) >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

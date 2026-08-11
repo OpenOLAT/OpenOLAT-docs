@@ -115,7 +115,7 @@ Dieselbe Auswertung finden Sie übrigens auch im Menü `Administration > Fragebo
 
 Die Ergebnisse können auch als Teil der [Kursarchivierung](../learningresources//Course_Archiving.de.md) gespeichert werden. Dabei ist es sogar möglich die Ergebnisse mehrere Kursbausteine in einem zip file zu bündeln.
 
-### Umfragen zurücksetzen {: #reset surveys}
+### Umfragen zurücksetzen {: #reset_surveys}
 
 Kursbesitzer:innen können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein "Zurücksetzen". In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
 

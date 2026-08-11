@@ -303,7 +303,7 @@ In an assessment mode, a restriction to specific IP addresses can also be made. 
 
 ---
 
-## What do I do if the test was accidentally started a second time, but the first attempt should be assessed? {: #asses_other attempts}
+## What do I do if the test was accidentally started a second time, but the first attempt should be assessed? {: #asses_other_attempts}
 
 It can happen that exam participants accidentally end a test that has not been fully completed and then start the test a second time. A restart is saved as a second attempt, in which everything can be started again from the beginning. The entries of the previous attempt are not carried over. However, all attempts are saved and can be viewed by coaches and course owners in the assessment tool.
 

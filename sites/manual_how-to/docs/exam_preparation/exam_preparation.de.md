@@ -301,7 +301,7 @@ In einem Prüfungsmodus kann auch eine Einschränkung auf bestimmte IP-Adressen 
 
 ---
 
-## Was tue ich, wenn der Test versehentlich ein zweites Mal gestartet wurde, aber der erste Versuch bewertet werden soll? {: #asses_other attempts}
+## Was tue ich, wenn der Test versehentlich ein zweites Mal gestartet wurde, aber der erste Versuch bewertet werden soll? {: #asses_other_attempts}
 
 Es kann vorkommen, dass Prüfungsteilnehmer:innen versehentlich einen nicht vollständig bearbeiteten Test beendet haben und dann den Test ein zweites Mal starten. Ein Neustart wird als zweiter Versuch gespeichert, bei dem wieder ganz von vorne begonnen werden kann. Die Einträge des vorangehenden Versuchs werden nicht übernommen. Alle Versuche werden jedoch gespeichert und können von Betreuer:innen und Kursbesitzer:innen im Bewertungswerkzeug eingesehen werden.
 

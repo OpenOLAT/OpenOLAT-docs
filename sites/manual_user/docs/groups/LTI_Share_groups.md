@@ -1,4 +1,4 @@
-# Configure LTI access to a group {: #LTI_access_to_a group}
+# Configure LTI access to a group {: #LTI_access_to_a_group}
 
 :octicons-tag-24: Release 15.5 
 

@@ -31,7 +31,7 @@ It is then no longer necessary to repeat the initial certificate course.
 
 ---
 
-## Further informations {: #further information}
+## Further informations {: #further_information}
 
 [Awarding credit points in courses >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 

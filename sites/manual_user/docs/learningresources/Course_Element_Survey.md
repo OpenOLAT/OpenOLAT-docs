@@ -115,7 +115,7 @@ The same assessment can be found in the menu `Administration > Questionnaire sta
 
 The results can also be saved as part of the [course archiving](../learningresources//Course_Archiving.md). It is even possible to bundle the results of several course elements in one zip file.
 
-### Reset surveys {: #reset surveys}
+### Reset surveys {: #reset_surveys}
 
 Course owners can also "Reset" already completed questionnaires via the link in the 3-point menu of the respective course element. In this case, all questionnaires already submitted for this survey will be deleted. It is not possible to reset individual questionnaires, as the submission is anonymous.
 

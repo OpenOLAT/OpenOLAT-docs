@@ -121,7 +121,7 @@ If the table row is a learning path course, the option "Copy with wizard" is als
 ---
 
 
-## Further information {: #further information}
+## Further information {: #further_information}
 
 [Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
 [How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>
