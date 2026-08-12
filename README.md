@@ -176,7 +176,12 @@ Since the full site builds every sub-site in both languages, startup and reloads
 	cd OpenOLAT-docs
 	./serve-fast.sh manual_user en
 
-Arguments: `<site>` (`manual_user`, `manual_admin`, `manual_how-to`, `manual_dev`, `release_notes`, `reference_glossary`; default `manual_user`) and `[lang]` (`en`, `de` or `all`; default `en`). The script generates a local, gitignored `mkdocs.local.yml` and serves it with `--dirtyreload`.
+Arguments: `<site>` (`manual_user`, `manual_admin`, `manual_how-to`, `manual_dev`, `release_notes`, `reference_glossary`; default `manual_user`), `[lang]` (`en`, `de` or `all`; default `en`) and `[port]` (default `8000`). The script generates a local, gitignored `mkdocs.local.<site>.<lang>.yml` and serves it with `--dirtyreload`.
+
+Since the config file and port are unique per invocation, multiple instances can run in parallel, e.g. to preview two sites at once:
+
+	./serve-fast.sh manual_user de 8000 &
+	./serve-fast.sh manual_admin en 8001 &
 
 
 ### Export site as static HTML files

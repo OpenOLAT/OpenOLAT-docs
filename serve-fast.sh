@@ -5,6 +5,7 @@ cd "$(dirname "$0")"
 
 SITE="${1:-manual_user}"
 LANG="${2:-en}"
+PORT="${3:-8000}"
 
 case "$SITE" in
 	manual_user)        SECTION="User manual" ;;
@@ -88,7 +89,10 @@ for p in cfg['plugins']:
 			print(yaml.dump({'nav_translations': nt}, allow_unicode=True, default_flow_style=False, width=1000), end='')
 " | sed 's/^/      /')
 
-cat > mkdocs.local.yml <<EOF
+CONFIG="mkdocs.local.${SITE}.${LANG}.yml"
+trap 'rm -f "$CONFIG"' EXIT
+
+cat > "$CONFIG" <<EOF
 INHERIT: mkdocs.yml
 
 plugins:
@@ -116,5 +120,5 @@ nav:
   - '': '!include ./sites/de/mkdocs.yml'
 EOF
 
-echo "Serving ${SITE} (lang=${LANG}) via mkdocs.local.yml (using ${MKDOCS[*]}) ..."
-exec "${MKDOCS[@]}" serve -f mkdocs.local.yml --dirtyreload
+echo "Serving ${SITE} (lang=${LANG}) on port ${PORT} via ${CONFIG} (using ${MKDOCS[*]}) ..."
+"${MKDOCS[@]}" serve -f "$CONFIG" --dirtyreload --dev-addr "127.0.0.1:${PORT}"
