@@ -2,9 +2,9 @@
 
 :fontawesome-solid-film:
 
-The "Video" learning resource is the central element for videos in OpenOlat. It is (created)[../ area_modules/authoring_new_course.de.md#import-learning-resources] in the authoring area via "Import File" (to upload an MP4 file) or "Import via URL" (to embed an external video, e.g., from YouTube or Vimeo) and can then be found in the "My Entries" section of the authoring area.
+The "Video" learning resource is the central element for videos in OpenOlat. It is [created](../area_modules/authoring_new_course.md#import-learning-resources) in the authoring area via "Import File" (to upload an MP4 file) or "Import via URL" (to embed an external video, e.g., from YouTube or Vimeo) and can then be found in the "My Entries" section of the authoring area.
 
-![lernressource_video.png](assets/Video_Einstellungen.png)  
+![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
  
 A video learning resource consists not only of the video file itself, but is a standalone object with its own information page, administration menu, and sharing settings. It is available across courses and can be embedded in multiple courses or made available independently of courses.
 
@@ -20,6 +20,7 @@ For more technical information on uploading and organizing videos, click [here](
 ## Overview of the Video Learning Resource Administration Menus {: #video_administration}
 
 The "Video" learning resource has the following administration menus:
+
 * **Settings** (see below)
 * [Member Management](../learningresources/Members_management.md): Primarily relevant when using the video learning resource on its own. If the video is used within a course, members do not need to be managed separately. Only additional owners of the learning resource are added and managed in this menu.
 * **Video Editor** (see below)
@@ -35,7 +36,7 @@ The "Video" learning resource has the following administration menus:
 
 ## "Settings" menu for the Video learning resource {: #video_settings}
 
-![lernressource_video.png](assets/Video_Einstellungen.png)  
+![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
 
 
 ### Tab "Info"
@@ -112,7 +113,7 @@ A timestamp is required before each subtitle line, and it must be in the followi
 
 The following example shows the beginning of a typical VTT file:
 
-!!! Note "Note"
+!!! note "Note"
 
     WEBVTT
 
@@ -155,17 +156,20 @@ When subtitles are available, the following icon appears in the video player:
 
 CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), and means that subtitles are hidden until the user turns them on. In OpenOlat, this function is located at the bottom right of the player. When you hover your mouse pointer over the icon, the list of available subtitles unfolds. The currently selected option is highlighted.
 
-![Untertitel](assets/video_subtitle.png)
+![Untertitel](assets/video_subtitle.png){ class="shadow lightbox" }
 
 ###  "Video Quality" tab {: #video_quality}
 
-In the "Video Quality" tab, you can see the resolutions in which the video is available. As soon as a video is uploaded, versions in various resolutions are created. This process may take a while. The resolutions available for download depend on the settings in the administration area. Pending videos can be transcoded, and unused resolutions can be deleted.
+In the "Video Quality" tab, you can see the resolutions in which the video is available. As soon as a video is uploaded, versions in various resolutions are created. This process may take a while. The resolutions available for download depend on the settings made in the system administration under:<br>
+`Administration > Modules > Video`
 
-![video_quailty.png](assets/Video_qualitaten_20.png)
+Pending videos can be transcoded, and unused resolutions can be deleted.
+
+![video_quailty.png](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
 
 In the video player, you can select the desired resolution using the "Source Chooser" if needed.
 
-![video_aufloesung.png](assets/video_aufloesung.png)
+![video_aufloesung.png](assets/video_aufloesung.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -193,11 +197,11 @@ The "Catalog" tab appears only if [Catalog 1.0](../area_modules/catalog1.0.md) i
 
 In the learning resource administration, you will find the link to the "Video Editor".
 
-![Menü Video Editor starten](assets/Video_Editor_administratio.jpg)
+![Menü Video Editor starten](assets/Video_Editor_administratio.jpg){ class="shadow lightbox" }
 
 Here, you can enhance the video with (interactive) elements and further customize it. 
 
-![lernressource_video.png](assets/Video-Editor.png)
+![lernressource_video.png](assets/Video-Editor.png){ class="shadow lightbox" }
 
 The Video Editor includes three editing areas:
  
@@ -216,13 +220,13 @@ Alternatively the video can be stopped at the place, where the new chapter shoul
 
 Chapters can then be edited and deleted. Furthermore, the chapters are visible in the timeline.
 
-![lernressource_video.png](assets/Video-Editor_Kapitel.png)
+![lernressource_video.png](assets/Video-Editor_Kapitel.png){ class="shadow lightbox" }
 
 ### Video editor: Annotations :octicons-tag-16:{ title="from Release 17.2 (OO-6344)" } {: #video_annotation}
 
 In addition to the chapter markers, further annotations and comments can also be stored at any point in the video, e.g. to highlight particularly important points or to supplement certain aspects. In addition to text, links can also be set that lead, for example, to further information or additional videos.
 
-![lernressource_video.png](assets/Video-Editor_Annotationen.png) 
+![lernressource_video.png](assets/Video-Editor_Annotationen.png){ class="shadow lightbox" }
 
 Select the place where the annotation should be added and define the further settings, such as the duration, the position where the annotation should appear and of course the text to be displayed. The annotation blocks can be flexibly moved by drag&drop.
 
@@ -278,7 +282,7 @@ If the user watches the video, it stops at the point marked with the comment. To
 
 In addition to simple text comments and the integration of existing videos (import as a file or via URL, e.g. from YouTube), video comments can also be recorded and integrated directly in the editor via the recording function.
 
-![lernressource_video.png](assets/Video-Editor_Kommentare.png)  
+![lernressource_video.png](assets/Video-Editor_Kommentare.png){ class="shadow lightbox" }
 
 
 ### Video editor: Quiz {: #video_quiz}

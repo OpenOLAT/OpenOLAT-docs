@@ -1,12 +1,13 @@
 # Using Additional Course Features
 
-In the "Administration" → "Settings" tab you can configure the following additional functions.
+You can configure the following additional functions under:<br>
+`Course > Administration > Settings`
 
 ![](assets/Toolbar1.png){ class="shadow lightbox" }
 
 ![](assets/toolbar_b.png){ class="shadow lightbox" }
 
-## Course Search
+## Course Search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
 In addition to a [full text search](../basic_concepts/Full_Text_Search.md) for the total of OpenOlat you can activate a search within a course. You can search for the following elements:
 
@@ -82,13 +83,15 @@ The history of a course chat is accessible for up to one month. Above the text f
 
 A glossary explains the terms of a course, subject or event to the participants. Glossaries are OpenOlat learning resources that can be used separately or integrated into a course.
 
-The glossaries can be created as learning resources in the author area or directly in the course under "Settings-> Options".
+The glossaries can be created as learning resources in the author area or directly in the course under:<br>
+`Course > Administration > Settings > Options`
 
 Once a glossary has been integrated into a course, the link to the glossary will appear in the course toolbar. In order to make that glossary visible in the toolbar you have to activate the corresponding tool "Glossary" in the tab "Toolbar".
 
 Enter the desired technical term under "Term". You can also add synonyms. For example, the term "Information Technology" can be supplemented with the synonym "IT". In the tab "Definition" you can then add the concrete definition of the term. Terms that have been entered can also be changed or deleted afterwards.
 
-If you no longer use the glossary or want to integrate another glossary you can make the desired changes in the course or on the info page by using the drop-down menu "Course" via the menu item "[Options](../learningresources/Course_Settings.md)".
+If you no longer use the glossary or want to integrate another glossary, you can make the desired changes under:<br>
+`Course > Administration > Settings > Options`
 
 In the learning resource "Glossary" you can define in the tab "Write permission" if only owners of that learning resource are allowed to create and edit contributions or if users are granted that right as well. Owners of the learning resource "Glossary" can basically change and delete all glossary entries created. By default new glossary entries can only be made by course owners.
 

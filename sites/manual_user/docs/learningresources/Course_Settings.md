@@ -1,6 +1,7 @@
 # Course Settings {: #course_settings}
 
-Under **Administration > Settings** you can make configurations that affect the course as a whole.
+You can make the configurations that affect the course as a whole under:<br>
+`Course > Administration > Settings`
 
 ![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
@@ -120,7 +121,7 @@ can be activated and stored. If a person starts the course, they must first acce
 
 In the [Member management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
 
-![Disclaimer form](assets/disclaimer_course.png){ class="shadow" }
+![Disclaimer form](assets/disclaimer_course.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_settings)
 
@@ -139,8 +140,8 @@ Depending on the settings by the course administrator, certain **layout template
 
 In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses it is also possible to set whether the menu icons and the specific learning path are displayed to the user or not. Depending on the linear or flexible scenario, one or the other variant offers itself.
 
-![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow" }
-![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons.png){ class="shadow" }
+![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow lightbox" }
+![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons.png){ class="shadow lightbox" }
 
 In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 

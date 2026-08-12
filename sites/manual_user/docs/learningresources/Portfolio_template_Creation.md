@@ -8,7 +8,7 @@ Create a template
 ---  
 1. Go to the author area and click on the "Create" option. Select "Portfolio 2.0 Template" from the list of learning resources that appears.
 
-    ![Create Portfolio 2.0 template](assets/portfolio_template20_en.jpg)
+    ![Create Portfolio 2.0 template](assets/portfolio_template20_en.jpg){ class="shadow lightbox" }
   
 2. Insert the title of the learning resource and click "Create".  
 
@@ -21,7 +21,7 @@ These include:
     * whether users are allowed to delete a folder (which is often useful)
     * whether an additional template folder should be used and whether these templates are necessary to create new entries.
 
-6. The other tabs [Info](../learningresources/Course_Settings_Info.md), [Metadata](../learningresources/Course_Settings_Metadata.md) and [Share](../learningresources/Access_configuration.md) can also be configured further.  
+5. The other tabs [Info](../learningresources/Course_Settings_Info.md), [Metadata](../learningresources/Course_Settings_Metadata.md) and [Share](../learningresources/Access_configuration.md) can also be configured further.  
 
 Then close the view via the X at the top right or click on the title of the portfolio template just created in the bread-crumb bar.
 

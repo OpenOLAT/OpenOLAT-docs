@@ -26,15 +26,15 @@ Add a subject and the desired message. If necessary, an attachment and a copy fo
 
     You can send the email to all courses that are displayed to you. This also includes courses, which are visible to **all authors**. You do not have to be a member of the course to use this function. 
 
-### 2. Change status
+### 2. Change status [:octicons-tag-16:{ title="from Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"}
 
-Select the publication status that should apply to all selected learning resources and click on "Change".     
+Select the publication status that should apply to all selected learning resources and click on "Change".
 
-### 3. Modify owners
+### 3. Modify owners [:octicons-tag-16:{ title="from Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"}
 
 All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An email notification option completes the editing.
 
-### 4. Metadata and settings
+### 4. Metadata and settings [:octicons-tag-16:{ title="from Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
 
 Through bulk actions, various **metadata** can be **standardized** here for the selected learning resources, e.g. if several courses belong to a continuing education series. By clicking, a wizard opens.
 
