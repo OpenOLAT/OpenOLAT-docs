@@ -23,7 +23,7 @@ Neben optionalen **Seriennummern** und einer **Druckvorlage** für **Zertifikate
 
 ![Anzahl Features und Bugs in Release 21.0](assets/210/Features_Improvements_Labels_21.0_DE.png)
 
-Seit Release 20.3 wurden über 125 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 20.3.x finden Sie [hier](Release_notes_20.3.de.md){:target="_blank”}.
+Seit Release 20.3 wurden über 125 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 20.3.x finden Sie [hier](Release_notes_20.3.de.md){:target="_blank"}.
 
 * * *
 
@@ -46,7 +46,7 @@ Mit OpenOlat **Release 21.0** wird der Einstieg für Lernen und Betreuen/Coachin
 
     * [x] Coaching Tool automatisch aktiviert (- siehe `Administration > e-Assessment > Coaching`)
     * [x] Berechtigungen für Coaching Site setzen unter `Administration > Customizing > Sites`
-    * [x] Aktivierung zusätzlicher Hinweis im Bereich "Kurse": `Administration > Module > Reporsitory > Zugang`
+    * [x] Aktivierung zusätzlicher Hinweis im Bereich "Kurse": `Administration > Module > Lernressource > Zugang`
 
 * * *
 
