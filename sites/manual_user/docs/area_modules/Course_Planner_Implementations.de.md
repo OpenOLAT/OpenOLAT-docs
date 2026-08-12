@@ -1,6 +1,6 @@
 # Course Planner: Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
-![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_v4_de.png](assets/course_planner_implementations_v4_de.png){ class="shadow lightbox" } 
 
 
 ## Was ist eine Durchführung? {: #definition}
@@ -134,6 +134,8 @@ Nach der Auswahl einer Zielposition erscheinen direkt am Element die Aktionen:
 
 Mit einem Klick auf **Element verschieben** wird die Verschiebung ausgeführt.
 
+![course_planner_implementations_move_element_v1_de.png](assets/course_planner_implementations_move_element_v1_de.png){ class="shadow lightbox" }
+
 [zum Seitenanfang ^](#implementations)
 
 ---
@@ -228,6 +230,8 @@ Wenn Teilnehmer:innen einer Durchführung zugewiesen werden, erhalten sie je nac
 
 Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich.
 
+![course_planner_implementations_accept_membership_v1_de.png](assets/course_planner_implementations_accept_membership_v1_de.png){ class="shadow lightbox" }
+
 !!! info "Wichtig"
 
     Ob eine Bestätigung durch die eingeladenen Personen erforderlich ist, hängt von der Konfiguration der Reservierungspflicht ab. Details dazu finden Sie im Abschnitt zur Bestätigung der Mitgliedschaft weiter unten.
@@ -236,7 +240,7 @@ Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manu
 
 <br>
 
-#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche {: #confirm_membership}
+#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetzte/Ausbildungsverantwortliche {: #confirm_membership}
 
 
 Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Benutzer:innen einen Kurs buchen, der/die Vorgesetzte muss aber in einem Zwischenschritt die Buchung bestätigen oder ablehnen.
@@ -312,9 +316,9 @@ Automatisierungsregeln werden auf zwei Ebenen definiert:
 * **Elementtyp-Ebene** `Administration > Module > Course Planner > Tab Elementtypen`: Der Administrator hinterlegt Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
 * **Element-Ebene** `Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
 
-Für jede Automatisierungsregel stehen zwei Modi zur Wahl:
+Für das einzelne Element stehen zwei Modi zur Wahl:
 
-* **«Vom Typ übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Passt der Administrator die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
+* **«Vom Typ "Elementtyp" übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passt der Administrator die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
 * **«Überschreiben»**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
 
 **Typen von Automatisierungsregeln:**
@@ -324,21 +328,25 @@ Für jede Automatisierungsregel stehen zwei Modi zur Wahl:
 | Bei Statuswechsel | Eine Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
 | Zeitgesteuert | Eine Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. |
 
+![course_planner_implementations_tab_settings_automation_v2_de.png](assets/course_planner_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" }
+
 [Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
 
 
 #### Bewertung in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
+Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
 
 * Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
 * Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Bezeichnung, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
-* Ist ein Programm verknüpft, zeigt ein Panel dessen Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Zertifikationsprogramm entfernen"** die Verknüpfung auf. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
+* Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel. Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Zertifikationsprogramm entfernen"** die Verknüpfung auf. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
 
 ![course_planner_implementations_tab_settings_assessment_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" }
 
 ![course_planner_implementations_tab_settings_assessment_select_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" }
+
+![course_planner_implementations_tab_settings_assessment_linked_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" }
 
 Eine Durchführung kann auch direkt über das [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzugefügt werden.
 
@@ -377,7 +385,7 @@ Die Aktivierung erfolgt in den Einstellungen der Durchführung: `Tab Einstellung
 ---
 
 
-### Tab Reports {: #tab_reports}
+### Tab Reports [:octicons-tag-16:{ title="ab Release 20.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #tab_reports}
 
 Die hier erstellbaren Reports beziehen sich auf die aktuell gewählte Durchführung.
 

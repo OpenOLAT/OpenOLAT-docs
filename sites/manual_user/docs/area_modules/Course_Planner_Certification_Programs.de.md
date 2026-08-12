@@ -1,18 +1,17 @@
 # Course Planner: Zertifikatsprogramme {: #certification_programs}
 
-
-![course_planner_certification_programs_v1_de.png](assets/course_planner_certification_programs_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_v2_de.png](assets/course_planner_certification_programs_v2_de.png){ class="shadow lightbox" }
 
 
 ## Was ist ein Zertifikatsprogramm? [:octicons-tag-16:{ title="ab Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #description}
 
 Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ein Zertifikat ausgestellt werden. Es ist auch möglich, ohne die Verwendung eines Leistungsnachweises ein Zertifikat auszustellen.
 
-Zertifikate für einen **einzelnen Kurs** werden in der `Kursadministration > Einstellungen > Tab Bewertung` aktiviert und konfiguriert.
+Zertifikate für einen **einzelnen Kurs** werden in der `Kurs > Administration > Einstellungen > Bewertung` aktiviert und konfiguriert.
 
 ![course_planner_certification_programs_process1_v1_de.png](assets/course_planner_certification_programs_process1_v1_de.png){ class="shadow lightbox" }
 
-Ein Zertifikat für den **Besuch einer Durchführung** oder den **Besuch mehrerer Kurse** hingegen, kann mit dem **Zertifikatsprogramm** ausgestellt werden. Solche Zertifikate werden innerhalb des **Course Planners** (Durchführung) vergeben. Die Personen können in ein Zertifikatsprogramm aufgenommen werden und erforderliche Rezertifizierungen können dort gemanaged werden: `Course Planner > Zertifikatsprogramm`
+Ein Zertifikat für den **Besuch einer Durchführung** oder den **Besuch mehrerer Kurse** hingegen, kann mit dem **Zertifikatsprogramm** ausgestellt werden. Solche Zertifikate werden innerhalb des **Course Planners** (Durchführung) vergeben. Die Personen können in ein Zertifikatsprogramm aufgenommen werden und erforderliche Rezertifizierungen können dort gemanaged werden: `Course Planner > Zertifikatsprogramme`
 
 
 ![course_planner_certification_programs_process2_v1_de.png](assets/course_planner_certification_programs_process2_v1_de.png){ class="shadow lightbox" }
@@ -32,7 +31,7 @@ Andererseits ist die Mitgliedschaft in einem Zertifikatsprogramm auch bereits f�
 | -------------------- | ------------------------------------------- |
 | Zertifikat für einen einzelnen Kurs | Zertifikat für eine Durchführung<br>oder für mehrere Kurse |
 | pro Kurs | pro Durchführung |
-| `Kursadministration > Einstellungen > Tab Bewertung` | `Course Planner > Zertifikatsprogramm` |
+| `Kurs > Administration > Einstellungen > Bewertung` | `Course Planner > Zertifikatsprogramme` |
 | Rezertifizierung: ja   | Rezertifizierung: ja |
 | --- | Verwendung von Kreditpunkten |
 
@@ -54,7 +53,7 @@ Andererseits ist die Mitgliedschaft in einem Zertifikatsprogramm auch bereits f�
 ## Zertifikatsprogramm erstellen [:octicons-tag-16:{ title="ab Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #create}
 
 Um ein neues Zertifikatsprogramm zu erstellen, klicken Sie im<br>
-`Course Planner > Zertifikatsprogramme > den Button "Zertifikatsprogramm erstellen"`
+`Course Planner > Zertifikatsprogramme > Zertifikatsprogramm erstellen`
 
 ![course_planner_certification_programs_create_v1_de.png](assets/course_planner_certification_programs_create_v1_de.png){ class="shadow lightbox" }
 
@@ -130,7 +129,7 @@ Auch die Option zum Widerrufen ist hier zu finden. So können z.B. zu Unrecht au
 ---
 
 
-### Tab Meldungen {: #config_tab_messages}
+### Tab Meldungen [:octicons-tag-16:{ title="ab Release 20.2 (OO-8813)" }](https://track.frentix.com/issue/OO-8813){:target="_blank"} {: #config_tab_messages}
 
 Meldungen und Erinnerungen beziehen sich immer auf die aktuelle Konfiguration. Im oberen Bereich können Sie diese nochmals kontrollieren.
 
@@ -209,7 +208,7 @@ In den Einstellungen definieren Sie,
 <br>
 
 **Button "Zertifikat"**<br>
-![course_planner_certification_programs_config_settings_certificate_v2_de.png](assets/course_planner_certification_programs_config_settings_certificate_v2_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_settings_certificate_v3_de.png](assets/course_planner_certification_programs_config_settings_certificate_v3_de.png){ class="shadow lightbox" }
 
 Unter dem Button "Zertifikat" legen Sie fest, welche Zertifikatsvorlage im Zertifikatsprogramm verwendet wird. Zusätzlich stehen folgende Optionen zur Verfügung:
 
@@ -227,7 +226,7 @@ Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvo
 
 ---
 
-### Tab Aktivitätslog {: #config_tab_activitylog}
+### Tab Aktivitätslog [:octicons-tag-16:{ title="ab Release 20.3 (OO-9110)" }](https://track.frentix.com/issue/OO-9110){:target="_blank"} {: #config_tab_activitylog}
 
 In diesen Tab können Sie alle Aktivitäten im aktuellen Zertifikatsprogramm nachvollziehen. Verwenden Sie die Filter um gezielt in allen Aktivitäten zu suchen.
 
@@ -242,7 +241,7 @@ In diesen Tab können Sie alle Aktivitäten im aktuellen Zertifikatsprogramm nac
 
 **Kreditpunkte als Voraussetzung**<br>
 Wie bereits weiter oben erklärt, können Sie für eine Rezertifizierung zur Voraussetzung machen, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde. Wieviele Kreditpunkte für den Erwerb des Zertifikats erforderlich sind, wird eingestellt unter<br>
-`Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button "Konfiguration"` 
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Einstellungen > Button "Konfiguration"` 
 
 **Kreditpunkte als Zahlungsmittel**<br>
 Stellt das Zertifikatsprogramm ein Zertifikat aus, kann auch eine bestimmbare Anzahl Kreditpunkte vom Guthaben abgezogen werden. 
@@ -260,7 +259,7 @@ Stellt das Zertifikatsprogramm ein Zertifikat aus, kann auch eine bestimmbare An
 Wer hat wann welches Zertifikat erhalten? Diese Frage stellen sich sowohl Besitzer:innen eines Zertifikatsprogramms, wie auch Betreuer:innen und die Teilnehmenden selbst. Je nach Rolle gibt es verschiedene Wege zu einem Überblick. 
 
 ### Übersicht für Zertifikatsprogrammbesitzer:innen 
-Im `Course Planner > Zertifikatsprogramme > Tab "Mitglieder"` finden Sie alle Teilnehmenden des Zertifikatsprogramms aufgelistet. Durch **Klick auf das Plus-Zeichen** vor einem Listeneintrag öffnen Sie die Detailansicht.
+Im `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder` finden Sie alle Teilnehmenden des Zertifikatsprogramms aufgelistet. Durch **Klick auf das Plus-Zeichen** vor einem Listeneintrag öffnen Sie die Detailansicht.
 Sie sehen dort alle Zertifikate der gewählten Person, auch abgelaufene und archivierte Zertifikate.<br>
 Die Buttons über der Liste helfen Ihnen mit vorsortierten Listen.
 
@@ -274,10 +273,10 @@ Als Betreuer:in behalten Sie den Überblick über die Zertifikate Ihrer betreute
 * für mehrere Kurse im **Coachingtool**
 
 
-### Übersicht für Bildungsverantwortliche
+### Übersicht für Ausbildungsverantwortliche
 
-Bildungsverantwortliche sehen alle Zertifikate aus unterschiedlichen Zertifikatsprogrammen und Kursen einzelner Teilnehmer:innen unter<br>
-`Coaching > Education Manager > Person wählen > Tab Zertifikate`
+Ausbildungsverantwortliche sehen alle Zertifikate aus unterschiedlichen Zertifikatsprogrammen und Kursen einzelner Teilnehmer:innen unter<br>
+`Coaching > Ausbildungsverantwortliche > "Person" > Tab Zertifikate`
 
 
 ### Übersicht für Teilnehmer:innen [:octicons-tag-16:{ title="ab Release 20.2 (OO-8818)" }](https://track.frentix.com/issue/OO-8818){:target="_blank"}
@@ -294,20 +293,20 @@ Teilnehmende finden ihre Zertifikate im **persönlichen Menü** aufgeführt. Es 
 
 **Voraussetzungen**<br>
 Erste Voraussetzung für eine Rezertifizierung mit einem Zertifikatsprogramm ist die Mitgliedschaft der Teilnehmenden im Zertifikatsprogramm.<br>
-`Course Planner > Zertifikatsprogramm > Tab Mitglieder`
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder`
 
 Zweite Voraussetzung ist ein vorhandenes Zertifikat mit einem Ablaufdatum.<br>
-`Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button Konfiguration`
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Einstellungen > Button Konfiguration`
 
 Drittens kann es sein, dass eine bestimmte Anzahl Kreditpunkte vorhanden sein muss, bevor eine Rezertifizierung möglich ist.
 
 **Erneuerung durch Besitzer:innen des Zertifikatsprogramms**<br>
 Besitzer:innen des Zertifikatsprogramms können ein noch gültiges Zertifikat jederzeit erneuern und damit verlängern unter<br>
-`Course Planner > Zertifikatsprogramm > Tab Mitglieder > Mitglied wählen > 3 Punkte`
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder > Mitglied wählen > 3 Punkte`
 
 **Rezertifizierungszeitraum**<br>
 Die Möglichkeit zur Rezertifizierung durch Teilnehmer:innen kann von den Besitzer:innen des Zertifikatsprogramms sinnvollerweise schon vor Ablauf des Zertifikats gegeben werden. In diesem Zusammenhang können auch entsprechende Informationen und Erinnerungen automatisch verschickt werden.<br>
-`Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button Konfiguration > Abschnitt Rezertifizierung`
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Einstellungen > Button Konfiguration > Abschnitt Rezertifizierung`
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -345,7 +344,7 @@ Teilnehmer:innen finden alle einmal erworbenen Zertifikate weiterhin im **persö
 Betreuer:innen sehen abgelaufene Zertifikate ihrer betreuten Personen im **Bewertungswerkzeug** oder im **Coachingtool**.
 
 **Zugriff durch Besitzer:innen**<br>
-Besitzer:innen eines Zertifikatsprogramms finden alle abgelaufenen Zertifikate eines Zertifikatsprogramms weiterhin unter<br> `Course Planner > Zertifikatsprogramm > Tab Mitglieder > Button Alumni` in den Details der einzelnen Mitglieder (Klick auf Plus-Symbol vor einer Zeile).<br> Die PDF-Zertifikate (auch abgelaufene) können dort einzeln angesehen und heruntergeladen werden.
+Besitzer:innen eines Zertifikatsprogramms finden alle abgelaufenen Zertifikate eines Zertifikatsprogramms weiterhin unter<br> `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder > Button Alumni` in den Details der einzelnen Mitglieder (Klick auf Plus-Symbol vor einer Zeile).<br> Die PDF-Zertifikate (auch abgelaufene) können dort einzeln angesehen und heruntergeladen werden.
 
 **Zugriff durch Benutzerverwalter:innen**<br>
 Wird eine Teilnehmer:in in der Benutzerverwaltung ausgewählt, befindet sich dort ein **Tab "Zertifikate"**, unter dem alle Zertifikate dieser Person aufgelistet sind.

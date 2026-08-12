@@ -1,6 +1,6 @@
 # Course Planner: Implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
-![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_v4_en.png](assets/course_planner_implementations_v4_en.png){ class="shadow lightbox" }
 
 ## What is an implementation? {: #definition}
 
@@ -128,6 +128,8 @@ After selecting a target position, the following actions appear directly on the 
 
 Click **Move element** to carry out the move.
 
+![course_planner_implementations_move_element_v1_en.png](assets/course_planner_implementations_move_element_v1_en.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#implementations)
 
 ---
@@ -219,6 +221,8 @@ When participants are assigned to an implementation, they receive a system notif
 
 The notification box **"Accept membership requests"** appears in the course area, in the group area, and directly on the course or educational product info page. Participants can accept or decline the request there. Acceptance is possible equally at all three locations.
 
+![course_planner_implementations_accept_membership_v1_en.png](assets/course_planner_implementations_accept_membership_v1_en.png){ class="shadow lightbox" }
+
 !!! info "Important"
 
     Whether confirmation by the invited persons is required depends on the reservation requirement configuration. Details on this can be found in the section on confirming membership below.
@@ -303,9 +307,9 @@ Automation rules are defined at two levels:
 * **Element type level** `Administration > Modules > Course Planner > Tab Element types`: The administrator defines default rules for each element type. These rules serve as a template for all elements of this type.
 * **Element level** `Settings tab > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
 
-Two modes are available for each automation rule:
+Two modes are available for the individual element:
 
-* **"Inherit from type"**: The element uses the default rules of the element type. If the administrator adjusts the template, this automatically affects all elements that use this mode.
+* **"Adopt from type "Element type""**: The element uses the default rules of the element type. The label names the type and whether rules are active there. If the administrator adjusts the template, this automatically affects all elements that use this mode.
 * **"Override"**: The element uses deviating, individually configured rules, independent of the element type.
 
 **Types of automation rules:**
@@ -315,21 +319,25 @@ Two modes are available for each automation rule:
 | On status change | An action is triggered as soon as the implementation or element status reaches a certain value. |
 | Time-controlled | An action is triggered relative to the start or end of the implementation period. |
 
+![course_planner_implementations_tab_settings_automation_v2_en.png](assets/course_planner_implementations_tab_settings_automation_v2_en.png){ class="shadow lightbox" }
+
 [To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
 [To the to-dos on CPL elements >](Course_Planner_Todos.md)
 
 
 #### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-The sub-tab "Assessment" is displayed for implementations of type single course. Here you link the implementation directly to a certification program, without going through the program itself.
+The sub-tab "Assessment" is displayed for implementations of type single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the **"Certification program"** toggle to enable or disable the link.
 * If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Identifier, validity period, recertification and required credit points. Only programs you have access to are displayed.
-* If a program is linked, a panel shows its validity period, recertification and required credit points. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove certification program"**. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
+* If a program is linked, a panel shows the program title. Validity period, recertification and required credit points appear there provided they are configured on the program. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove certification program"**. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
 
 ![course_planner_implementations_tab_settings_assessment_v1_en.png](assets/course_planner_implementations_tab_settings_assessment_v1_en.png){ class="shadow lightbox" }
 
 ![course_planner_implementations_tab_settings_assessment_select_v1_en.png](assets/course_planner_implementations_tab_settings_assessment_select_v1_en.png){ class="shadow lightbox" }
+
+![course_planner_implementations_tab_settings_assessment_linked_v1_en.png](assets/course_planner_implementations_tab_settings_assessment_linked_v1_en.png){ class="shadow lightbox" }
 
 An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
 
@@ -366,7 +374,7 @@ Activation takes place in the implementation settings: `Settings tab > Options >
 ---
 
 
-### Tab Reports {: #tab_reports}
+### Tab Reports [:octicons-tag-16:{ title="from Release 20.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #tab_reports}
 
 The reports that can be created here relate to the currently selected implementation.
 
