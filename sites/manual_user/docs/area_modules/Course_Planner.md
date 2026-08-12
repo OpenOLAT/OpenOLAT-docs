@@ -1,6 +1,18 @@
 # Course Planner: Overview [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #course_planner}
 
 
+## Dashboard [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
+
+When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).
+
+The access buttons are divided into the three areas **Products**, **Productivity** and **Tools** [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. The section [Where can I find the Course Planner?](#access) describes them in this order.
+
+![course_planner_overview_v5_en.png](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Dashboard.md)
+
+---
+
 ## What's the purpose of the Course Planner? {: #purpose}
 
 The Course Planner is a module for **course management**. The aim is to create and run courses automatically and efficiently from the quotation.
@@ -171,8 +183,6 @@ Legend: :material-check: access or action available · :material-cancel: no acce
 
 If you have the role and rights of a **course planner**, you will find the Course Planner as a **menu item in the main navigation** in the header.
 
-![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
-
 !!! tip "Requirement"
 
     In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the header menu, please contact your system administrator or the support of your OpenOlat instance.
@@ -183,93 +193,106 @@ If you have the role and rights of a **course planner**, you will find the Cours
 ---
 
 
-### Dashboard [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
+### Products {: #group_products}
 
-When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).
+The **Products** area contains the planning objects of the Course Planner: the educational product itself, its implementations and their events.
 
-![course_planner_overview_v5_en.png](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }
-
-[See the details >](../area_modules/Course_Planner_Dashboard.md)<br>
-[To the top of the page ^](#course_planner)
-
----
-
-### Products {: #products}
+#### Products {: #products}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, these are multiple courses, i.e. learning opportunities of the same "type" (-> product). The Course Planner simplifies the work considerably through the shared central administration.
 
 Curricula/products often consist of several courses and have a certain structure/sequence in which the included courses are combined.
 
-![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
+![course_planner_products_v4_en.png](assets/course_planner_products_v4_en.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Products.md)<br>
 [To the top of the page ^](#course_planner)
 
----
-
-
-### Implementations {: #implementations}
+#### Implementations {: #implementations}
 
 An (educational) product can be offered and implemented several times. For example, a single course can be repeated each semester, as can a structured educational program consisting of several courses.
 
-![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" }
+![course_planner_implementations_v5_en.png](assets/course_planner_implementations_v5_en.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Implementations.md)<br>
 [To the top of the page ^](#course_planner)
 
----
-
-### Events {: #events}
+#### Events {: #events}
 
 The dates specified here refer to one implementation or a part thereof.
 
-![course_planner_events_v3_de.png](assets/course_planner_events_v3_de.png){ class="shadow lightbox" }
+![course_planner_events_v4_en.png](assets/course_planner_events_v4_en.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Events.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
-### Certification programs [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #certificate_programs}
+### Productivity {: #group_productivity}
 
-Certificate programs are used when a certificate is only awarded after completing several courses. 
+The **Productivity** area contains the tools for day-to-day work: task tracking and evaluations.
 
-![course_planner_certification_programs_v1_de.png](assets/course_planner_certification_programs_v1_de.png){ class="shadow lightbox" }
+#### To-dos [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
 
-[See the details >](../area_modules/Course_Planner_Certification_Programs.md)<br>
+To-dos can be recorded in the Course Planner at various levels: in the overview, on the product, on the implementation and on each individual element. A central overview brings together all to-dos across all products. The to-do widget on the dashboard shows open and overdue tasks at a glance.
+
+![course_planner_todos_v1_en.png](assets/course_planner_todos_v1_en.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Todos.md)<br>
 [To the top of the page ^](#course_planner)
 
----
-
-
-### Reports [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
+#### Reports [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
 
 Various reports can be generated using report templates.
 
-![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }
+![course_planner_reports1_v4_en.png](assets/course_planner_reports1_v4_en.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Reports.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
-### To-dos [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
+### Tools {: #group_tools}
 
-To-dos can be recorded in the Course Planner at various levels: in the overview, on the product, on the implementation and on each individual element. A central overview brings together all to-dos across all products. The to-do widget on the dashboard shows open and overdue tasks at a glance.
+The **Tools** area contains the cross-product tools that are not tied to a single implementation.
 
-[See the details >](../area_modules/Course_Planner_Todos.md)<br>
+#### Certification programs [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #certificate_programs}
+
+Certificate programs are used when a certificate is only awarded after completing several courses.
+
+![course_planner_certification_programs_v3_en.png](assets/course_planner_certification_programs_v3_en.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Certification_Programs.md)<br>
 [To the top of the page ^](#course_planner)
 
----
-
-### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
+#### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
 Course planners receive the "Room management" area under "Tools", with a read-only overview of the room scheduling and the rooms they have access to through their organisational affiliation. Rooms and buildings themselves are maintained in the system administration, under `Administration > Modules > Rooms`.
 
-[To the details >](../area_modules/Course_Planner_Rooms.md)<br>
+![course_planner_rooms_scheduling_table_v2_en.png](assets/course_planner_rooms_scheduling_table_v2_en.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Rooms.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
+
+### Import / Export [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"} {: #import_export}
+
+Products, implementations and memberships can be exported as an Excel file, edited in the file and then imported again. This allows many entries to be created or updated at once.
+
+You start the **export** in the lists "Products", "Implementations" and "Events": select the entries, then click **Export**.
+
+![course_planner_export_action_v1_en.png](assets/course_planner_export_action_v1_en.png){ class="shadow lightbox" }
+
+You start the **import** via the more menu (⋮) at the top right of the overview page with the entry **Import**.
+
+![course_planner_import_action_v1_en.png](assets/course_planner_import_action_v1_en.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Import_Export.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
 
 ## Further information {: #further_information}
 
