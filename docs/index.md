@@ -31,7 +31,7 @@ the manuals below document this version.
 
 ## Current version
 
-- [OpenOlat 21.0 User Manual](manual_user/general/) | 
+- [OpenOlat 21.0 User Manual](manual_user/general/) | [Release notes 21.0](release_notes/Release_notes_21.0.md)
 
 ## Older versions
 

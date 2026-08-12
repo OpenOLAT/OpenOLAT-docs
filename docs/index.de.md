@@ -32,7 +32,7 @@ Diese Website ist die offizielle OpenOlat Dokumentation. Das aktuelle Release is
 
 ## Aktuelle Version
 
-- [OpenOlat 21.0 Benutzerhandbuch](manual_user/general/) | 
+- [OpenOlat 21.0 Benutzerhandbuch](manual_user/general/) | [Release Notes 21.0](release_notes/Release_notes_21.0.de.md)
 
 ## Ältere Versionen
 
