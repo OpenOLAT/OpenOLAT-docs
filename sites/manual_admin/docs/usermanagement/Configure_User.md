@@ -5,8 +5,11 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![user_management_configure_user_v4_en.png](assets/user_management_configure_user_v4_en.png){ class="shadow lightbox"}
+![user_management_configure_user_v5_en.png](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
+The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
+
+Each user account is maintained independently; accounts are not merged. A person's learning history, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
 
 
 ### User profile
@@ -18,7 +21,7 @@ Personal data, personal details, contact details and details of the institution 
 
 ### System settings
 
-The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Settings.md).  
+The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Settings.md).<br>
 This includes, for example, the default language and whether emails are only sent within OpenOlat or also to the address in the profile. 
 
 [To the top of the page ^](#user_configuration)
@@ -52,7 +55,7 @@ The "Passkeys" section is hidden if security level 1 (Password) applies as the m
 ### Authentications
 
 Here you can change the username and edit and delete authentications.  
-  
+
 [To the top of the page ^](#user_configuration)
 
 
@@ -114,13 +117,22 @@ The user's acquired credit points are displayed here.
 
 
 
-### Statements
+### Evidence of achievements
 
-The certificates, points and progress of a user are displayed here. Certificates acquired elsewhere can also be uploaded in order to obtain an overview of the entire transcript of records in OpenOlat. In addition to the columns for points, success status and progress, further columns can be shown, including "Rating" with the achieved grade (if the grading module is active) and the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+The evidence of achievements, points and progress of a user from courses are displayed here. In addition to the columns for points, success status and progress, further columns can be shown, including "Rating" with the achieved grade (if the grading module is active) and the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 <h4>Delete evidence of achievement</h4>
 
-Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
+Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="from Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
+
+[To the top of the page ^](#user_configuration)
+
+
+### Certificates [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+
+This tab brings together all of the person's certificates, both those acquired in courses and those uploaded manually. For each certificate the table lists "Awarded by", "Origin", "Issued on", "Valid until", "Recertification", "Revoked on", "#Issued" and "State"; the predefined filters "All", "Valid" and "Expired" narrow down the list. Above the table on the right you can switch between tile and table view. "Upload certificate" is used to record externally acquired certificates so that the profile reflects the entire transcript of records.
+
+![user_management_certificates_v1_en.png](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -137,19 +149,19 @@ This tab displays all the badges you have purchased.
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab.
 
 ![](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
-  
+
 [To the top of the page ^](#user_configuration)
 
 
-### Subscriptions
+### Subscriptions [:octicons-tag-16:{ title="from Release 8.1.2 (OO-265)" }](https://track.frentix.com/issue/OO-265)
 
 All of a user's subscriptions are displayed here. They can also be deactivated or deleted here.  
 
 [To the top of the page ^](#user_configuration)
 
 
-  
-### Relations
+
+### Relations [:octicons-tag-16:{ title="from Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 In this tab, relations between the selected user and other OpenOlat users can be defined. For example, whether someone is a teacher's superior, parent, training coach or student. The prerequisite is that a system is generally used. (Cf. [User roles](index.md))
 
@@ -175,7 +187,7 @@ Here you will find an overview of events and absences of the user.
 Areas of competence can be added to the user here. They are categorized according to "Manage", "Teach", "Have" and "Target".
 
 [To the top of the page ^](#user_configuration)
-  
+
 
 ### Education products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 

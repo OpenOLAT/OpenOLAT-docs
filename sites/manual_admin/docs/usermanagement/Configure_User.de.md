@@ -4,8 +4,11 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![user_management_configure_user_v4_de.png](assets/user_management_configure_user_v4_de.png){ class="shadow lightbox"}
+![user_management_configure_user_v5_de.png](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
 
+In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
+
+Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Die Lernhistorie einer Person, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem sie entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
 
 ### Profil
@@ -17,7 +20,7 @@ Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und A
 
 ### Systemeinstellungen
 
-Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).  
+Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
 Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
 
 [zum Seitenanfang ^](#user_configuration)
@@ -113,13 +116,22 @@ Hier sind die erworbenen Kreditpunkte des Users angezeigt.
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Statements
+### Leistungsnachweise
 
-Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in angezeigt. Auch anderweitig erworbene Zertifikate können hochgeladen werden, um in OpenOlat einen Überblick über den gesamten Leistungsnachweis zu erhalten. Neben den Spalten für Punkte, Erfolgsstatus und Fortschritt lassen sich weitere Spalten einblenden, darunter "Bewertung" mit der erreichten Note (bei aktivem Notenmodul) und die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in aus Kursen angezeigt. Neben den Spalten für Punkte, Erfolgsstatus und Fortschritt lassen sich weitere Spalten einblenden, darunter "Bewertung" mit der erreichten Note (bei aktivem Notenmodul) und die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 <h4>Leistungsnachweis löschen</h4>
 
 Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.  
+
+[zum Seitenanfang ^](#user_configuration)
+
+
+### Zertifikate [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+
+Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; über die vordefinierten Filter "Alle", "Gültig" und "Abgelaufen" lässt sich die Liste eingrenzen. Rechts über der Tabelle wird zwischen Kachel- und Tabellenansicht umgeschaltet. Über "Zertifikat hochladen" werden extern erworbene Zertifikate erfasst, damit das Profil den gesamten Leistungsnachweis abbildet.
+
+![user_management_certificates_v1_de.png](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -140,14 +152,14 @@ Ein Nachteilausgleich berechtigt Teilnehmende einer Prüfung für einen Test auf
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Abonnements
+### Abonnements [:octicons-tag-16:{ title="ab Release 8.1.2 (OO-265)" }](https://track.frentix.com/issue/OO-265)
 
 Hier werden sämtliche Abonnements eines Benutzers/einer Benutzerin angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
 
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Beziehungen
+### Beziehungen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzter, Elternteil, Ausbildungsverantwortliche oder Schüler:in eines Lehrers/einer Lehrerin ist. Voraussetzung ist, dass generell eine Systematik verwendet wird. (Vergl. [Benutzerrollen](index.de.md))
 
