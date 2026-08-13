@@ -115,6 +115,15 @@ It is also possible to import events that have been exported elsewhere in OpenOl
 
 ---
 
+### Mark event as exam {: #mark_event_as_exam}
+
+Under the icon with the 3 points, an appointment can also be marked as an exam. For an appointment marked this way, the [Safe Exam Browser](../../manual_how-to/SEB/SEB.md), for example, can be enabled.
+
+![events_and_absences_tab_events_mark_as_exam_v1_de.png](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
 
 ### Cancel events {: #cancel_events}
 

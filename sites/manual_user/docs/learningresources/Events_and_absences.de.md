@@ -118,6 +118,16 @@ Es ist auch möglich, Termine zu importieren, die an anderer Stelle in OpenOlat 
 
 ---
 
+### Termin als Prüfung markieren {: #mark_event_as_exam}
+
+Unter den 3 Punkten kann ein Termin auch als Prüfung markiert werden. Für einen so markierten Termin kann z.B. der [Safe Exam Browser](../../manual_how-to/SEB/SEB.de.md) aktiviert werden.
+
+![events_and_absences_tab_events_mark_as_exam_v1_de.png](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
 
 ### Termine absagen {: #cancel_events}
 
