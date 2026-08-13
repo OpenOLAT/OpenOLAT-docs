@@ -1,6 +1,12 @@
 # Coaching - Overview {: #coaching}
 
-## What is the Coaching Tool for? [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #purpose}
+## Profile
+
+Name | Coaching Tool
+---------|----------
+Available since | Release 10.0 (2014)
+
+## What is the Coaching Tool for? {: #purpose}
 
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
@@ -32,9 +38,9 @@ You can find access to the data of the persons under care and the tools under th
 ---
 
 
-## When is the Coaching tool available? {: #availability}
+## When is the Coaching tool available? [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-The Coaching tool has been an integral part of OpenOlat since Release 21 [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661).
+The Coaching tool is an integral part of OpenOlat and cannot be deactivated.
 
 Whether the "Coaching" menu option is displayed in the main menu for you depends on the following factors:
 
@@ -48,7 +54,7 @@ Whether the "Coaching" menu option is displayed in the main menu for you depends
 ---
 
 
-## Who typically uses the Coaching tool? [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #users}
+## Who typically uses the Coaching tool? {: #users}
 
 The coaching tool is used by
 
@@ -64,7 +70,7 @@ Additionally administrative roles have access.
 ---
 
 
-## The focus elements [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #focus_elements}
+## The focus elements {: #focus_elements}
 
 The coaching tool often displays a list of the people you are coaching.
 If, for example, you are only a direct coach in one course but also an education manager, you can access all other participants based on this role.
@@ -77,7 +83,7 @@ You can select one of your roles using the focus elements above the list. This w
 
 ---
 
-## Widgets [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widgets}
+## Widgets {: #widgets}
 
 
 #### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
@@ -87,7 +93,7 @@ A separator area labelled **"Overview"** visually separates the widget area desc
 
 ---
 
-### The Event widget {: #widget_events}
+### The Event widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865) {: #widget_events}
 
 The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
 
@@ -132,11 +138,13 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 ---
 
-### The Course widget [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+### The Course widget [:octicons-tag-16:{ title="from Release 20.2 (OO-8863)" }](https://track.frentix.com/issue/OO-8863) {: #widget_courses}
 
 The **Courses - As coach** widget shows the courses you coach.
 
-Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection:
+![coaching_widget_courses_v1_en.png](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" }
+
+Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
 * **Favourites** (selected by default)
 * **All** (not selected by default)
@@ -145,7 +153,7 @@ Use the defined filter **"Relevant"** (selected by default) or one of the other 
 * **Access for coach** (selected by default)
 * **Finished** (not selected by default)
 
-Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) to go to the full course list in the **Courses** tool.
+Use the **Show all** button to go to the full course list in the **Courses** tool.
 
 [To the top of the page ^](#coaching)
 

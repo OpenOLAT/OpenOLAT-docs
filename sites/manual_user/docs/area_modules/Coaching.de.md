@@ -1,10 +1,16 @@
 # Coaching - Übersicht {: #coaching}
 
-## Wozu dient das Coaching Tool? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #purpose}
+## Steckbrief
+
+Name | Coaching Tool
+---------|----------
+Verfügbar seit | Release 10.0 (2014)
+
+## Wozu dient das Coaching Tool? {: #purpose}
 
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der Korrektur von Assessmentbausteinen, dem Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
-Mit dem Coaching-Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
+Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
 ![coaching_tools_v2_de.png](assets/coaching_tools_v2_de.png){ class="shadow lightbox" }
 
 ---
@@ -31,9 +37,9 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ---
 
-## Wann ist das Coaching Tool verfügbar? {: #availability}
+## Wann ist das Coaching Tool verfügbar? [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-Das Coaching Tool ist seit dem Release 21 fester Bestandteil von OpenOlat [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661).
+Das Coaching Tool ist fester Bestandteil von OpenOlat und kann nicht deaktiviert werden.
 
 Ob die Menüoption "Coaching" im Hauptmenü für Sie angezeigt wird, hängt von folgenden Faktoren ab:
 
@@ -48,7 +54,7 @@ Ob die Menüoption "Coaching" im Hauptmenü für Sie angezeigt wird, hängt von 
 ---
 
 
-## Wer verwendet das Coaching Tool typischerweise? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #users}
+## Wer verwendet das Coaching Tool typischerweise? {: #users}
 
 Das Coaching Tool wird verwendet von
 
@@ -64,7 +70,7 @@ Daneben haben auch administrative Rollen Zugriff.
 ---
 
 
-## Die Fokus-Elemente [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #focus_elements}
+## Die Fokus-Elemente {: #focus_elements}
 
 Im Coaching Tool wird Ihnen oft eine Liste mit den von Ihnen betreuten Personen angezeigt.
 Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsverantwortliche:r, dann können Sie auf Grund dieser Rolle auch auf alle anderen Teilnehmenden zugreifen.
@@ -78,7 +84,7 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
-## Widgets [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widgets}
+## Widgets {: #widgets}
 
 
 #### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
@@ -88,7 +94,7 @@ Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend bes
 
 ---
 
-### Das Termine-Widget {: #widget_events}
+### Das Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865) {: #widget_events}
 
 Das Widget **Termine** erscheint als Kachel auf der Coaching-Übersicht und zeigt die anstehenden Termine ab dem heutigen Tag bis zum Ende der aktuellen Woche auf einen Blick.
 
@@ -133,11 +139,13 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **K
 
 ---
 
-### Das Kurs-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195) {: #widget_courses}
+### Das Kurs-Widget [:octicons-tag-16:{ title="ab Release 20.2 (OO-8863)" }](https://track.frentix.com/issue/OO-8863) {: #widget_courses}
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
-Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl:
+![coaching_widget_courses_v1_de.png](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" }
+
+Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
 * **Favoriten** (standardmässig ausgewählt)
 * **Alle** (nicht standardmässig ausgewählt)
@@ -146,7 +154,7 @@ Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 * **Freigabe Betreuer:innen** (standardmässig ausgewählt)
 * **Beendet** (nicht standardmässig ausgewählt)
 
-Über den Button **Alle anzeigen** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244) gelangen Sie zur vollständigen Kursliste im Werkzeug **Kurse**.
+Über den Button **Alle anzeigen** gelangen Sie zur vollständigen Kursliste im Werkzeug **Kurse**.
 
 [Zum Seitenanfang ^](#coaching)
 
