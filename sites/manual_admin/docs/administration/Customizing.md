@@ -2,7 +2,8 @@
 
 ![admin_customizing_overview_v1_de.png](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-The "Customizing" menu contains settings relating to the menu items listed here.
+The "Customizing" menu contains settings relating to the menu items listed here. You will find these settings in the system administration under:<br>
+`Administration > Customizing`
 
 ---
 
@@ -14,7 +15,7 @@ The system layout, a company logo and properties relating to the footer can be s
 
 The background image of the login page is part of the layout theme and cannot be configured in the administration. It is customized through an individual theme. For hosted instances, please contact your provider.
 
-### Company or Institution Logo Section
+### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
 You can upload your own logo (PNG file), which will then appear in the top-left corner of the header. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
 
@@ -25,7 +26,7 @@ The company logo and the properties of the link in the bottom-right corner of th
 [To the top of the page ^](#customizing)
 
 
-## Imprint {: #imprint}
+## Imprint [:octicons-tag-16:{ title="from Release 10.0 (OO-1166)" }](https://track.frentix.com/issue/OO-1166){:target="_blank"} {: #imprint}
 
 Administrators determine, 
 
@@ -44,7 +45,7 @@ All text can be entered in different languages.
 
 ## Help {: #help}
 
-Here you can specify which help pages are displayed via the help icon  :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
+Here you can specify which help pages are displayed via the help icon :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
 
 ![](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
 
@@ -60,11 +61,18 @@ Individual text elements can be adjusted here if required.
 
 ## System registration {: #system_registration}
 
+OpenOlat is open source and needs an active community of users. You too can be part of this community.
+
 [To the top of the page ^](#customizing)
 
 
 
 ## Portal {: #portal}
+
+Various portlets can be selected for the "Portal" tab.
+
+!!! tip "Tip"
+    We recommend not using this feature. It has been superseded by numerous modules in OpenOlat and is thus a historical remnant that nevertheless cannot simply be switched off. Thank you for your understanding.
 
 [To the top of the page ^](#customizing)
 
@@ -81,9 +89,9 @@ In addition, the translations can be edited.
 
 ### Tab Order
 
-Sites/Sections correspond to the menu items in the main menu at the top of the page.
+Sites/Sections correspond to the menu items (tabs) in the main menu at the top of the page, e.g. "Courses", "Groups", "Catalog", "Authoring" or "Coaching".
 
-Administrators can specify which OpenOlat areas are displayed there and made available system-wide. The display in the main menu and access to these areas can be restricted to specific permission and role groups.
+Administrators can specify which OpenOlat areas are displayed there and made available system-wide. The display in the main menu and access to these areas can be restricted to specific permission and role groups. Some entries in the list are named differently from the tab in the main menu, e.g. the entry "My courses" appears in the main menu as the tab "Courses".
 
 Use the arrows on the right side to set the display order.
 
