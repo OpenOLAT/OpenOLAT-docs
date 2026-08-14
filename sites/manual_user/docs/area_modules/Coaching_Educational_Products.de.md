@@ -52,9 +52,9 @@ Die Filter-Tabs "Favoriten", "Alle", "Relevant", "In Vorbereitung" und "Beendet"
 
 Durch Klick auf einen Namen öffnen Sie die Baumstruktur dieser Durchführung.
 
-![Geöffnete Durchführung "Office-Tools": der Kopfbereich trägt den Button "Mehr erfahren", darunter zeigt die Baumstruktur die enthaltenen Elemente und Kurse mit den Links "Infoseite" und "starten"](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
+![Geöffnete Durchführung "Office-Tools": der Kopfbereich trägt den Button "Mehr erfahren", darunter zeigt die Baumstruktur die enthaltenen Elemente und Kurse, je Kurs mit einem Link zur Infoseite und einem zum Öffnen](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
 
-Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren. Der Link "starten" öffnet den Kurs, der Link "Infoseite" zeigt die [Infoseite des Kurses](../learningresources/Info_page.de.md).
+Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren. Der Link "Öffnen" startet den Kurs, der Link "Infoseite" zeigt die [Infoseite des Kurses](../learningresources/Info_page.de.md).
 
 Mit dem **Button "Mehr erfahren"** gelangen Sie zur Infoseite der Durchführung. Sie zeigt die Beschreibung, die enthaltenen Kurse und die Termine.
 
