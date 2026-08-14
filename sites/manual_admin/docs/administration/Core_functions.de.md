@@ -1,21 +1,23 @@
 # Core Konfiguration: Übersicht {: #core_config}
 
-![admin_core_config_overview_v2_de.png](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü Core Konfiguration in der System-Administration mit vierzehn Bereichen: Sprache und Region, Persönliche Werkzeuge, Startseite, REST API, Kalender, E-Mail, Dateien und Ordner, WebDAV, Zugangskontrolle, Statistiken, Volltextsuche, Benachrichtigungen, GUI-Einstellungen und Lizenzen](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Bereich Core Konfiguration haben Administrator:innen Zugriff auf das nebenstehende Menü.
- 
+Administrator:innen haben in der System-Administration Zugriff auf das nebenstehende Menü:<br>
+`Administration > Core Konfiguration`
 
-## Sprachen
+## Sprache und Region
 
 In diesem Bereich kann die Standardsprache gewählt und definiert werden, welche Sprachen den Benutzer:innen generell zur Verfügung stehen. Darüber hinaus können Sprachpakete importiert und exportiert werden.
 
 Auch Einstellungen bezüglich einer geschlechterspezifischen Sprache können hier von den OpenOlat Administrator:innen ausgewählt werden.
 
+Im Abschnitt **Formate** wird das **Zahlenformat** festgelegt. Es bestimmt, mit welchen Tausender- und Dezimaltrennzeichen OpenOlat Zahlen und Preise systemweit anzeigt. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8470)" }](https://track.frentix.com/issue/OO-8470)
+
 [Zum Seitenanfang ^](#core_config)
 
 
 
-## Startseite
+## Startseite [:octicons-tag-16:{ title="ab Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
 
 Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bestimmten Benutzerattributen eine Default-Startseite festlegen.
 
@@ -25,14 +27,14 @@ Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bes
 
 
 
-##  Persönliche Werkzeuge für Benutzer
+## Persönliche Werkzeuge
 
-Hier können Administratoren einstellen, welche OpenOlat
+Hier können Administrator:innen einstellen, welche OpenOlat
 [Werkzeuge](../../manual_user/personal_menu/index.md) den
-Usern standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für
+Benutzer:innen standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für
 den Schnellzugriff aktiviert sind (Voreinstellung).
 
-![](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" } ![](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" } 
+![Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" } ![Liste Voreinstellung auf der Seite Persönliche Werkzeuge: nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" } 
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -47,17 +49,17 @@ Neben der Aktivierung der Schnittstelle werden hier auch die gemanagten Objekte 
 
 
 
-## Kalender Administration
+## Kalender {: #calendar_administration}
 
-An dieser Stelle können die System Administrator:innen die OpenOlat-Kalender ein- oder ausschalten.
+An dieser Stelle können die Systemadministrator:innen die OpenOlat-Kalender ein- oder ausschalten.
 
-![Kalenderkonfiguration](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
+![Seite Kalender in der Core Konfiguration: fünf Schalter geben den Kalender getrennt frei, für das System, den persönlichen Kalender, das Gruppenwerkzeug, das Kurswerkzeug und den Kursbaustein](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
 
 [Zum Seitenanfang ^](#core_config)
 
 
 
-## E-Mail-Einstellungen
+## E-Mail
 
 Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten der OpenOlat-E-Mail-Versandoptionen und des Postfachs, sowie die Mail-Vorlage.
 
@@ -70,7 +72,7 @@ Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten der OpenOlat-E
 
 Hier finden Sie Optionen zu allgemeinen Einstellungen/Konfigurationen betreffend Dateien und Ordnern.
 
-![core_config_files_and_folders_tab_overview_v1_de.png](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
+![Seite Dateien und Ordner in der Core Konfiguration mit den fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
 
 
 [Zu den Details >](../administration/Files_and_Folders.de.md)<br>
@@ -128,7 +130,7 @@ Hier können eingestellte Werte zum Graphical User Interface zurückgesetzt werd
 
 
 
-## Lizenzen
+## Lizenzen [:octicons-tag-16:{ title="ab Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
 
 Hier kann das optionale Lizenzmanagement konfiguriert werden.
 

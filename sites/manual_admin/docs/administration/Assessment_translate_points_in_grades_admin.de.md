@@ -1,34 +1,32 @@
 # e-Assessment Administration: Einstufung/Noten {: #grades_points}
 
-:octicons-tag-24: Release 16.2
+[:octicons-tag-16:{ title="ab Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007)
 
-OpenOlat Administratoren können die Option Umwandlung von Punkten in Noten einschalten und Bewertungssysteme erstellen.
+Administrator:innen schalten das Modul "Einstufung/Noten" ein und erstellen die Bewertungssysteme, mit denen sich Punkte in Noten umwandeln lassen. Sie finden das Modul in der System-Administration unter:<br>
+`Administration > e-Assessment > Einstufung/Noten`
 
-![Einstufung/Noten aktivieren](assets/Admin_Noten.png)
+![Seite Einstufung/Noten im Bereich e-Assessment: das eingeschaltete Modul liefert sieben vordefinierte Bewertungssysteme, die Spalte Verwendung zeigt, wie oft ein System im Einsatz ist](assets/Admin_Noten.png){ class="shadow lightbox" }
 
-Der Begriff "Note" wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, "sehr gut" - "ungenügend", "Einsteiger"/"Spezialist"/"Experte" etc.). 
+Der Begriff "Note" wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, "sehr gut" - "ungenügend", "Einsteiger"/"Spezialist"/"Experte" etc.).
 
-Nach der Aktivierung können Kursbesitzer die Option im Kurseditor für einen Assessment Kursbaustein aktivieren. 
+Nach der Aktivierung können Kursbesitzer:innen die Einstufung/Noten im Kurseditor in bewertbaren Kursbausteinen einschalten, zum Beispiel in Test, Aufgabe, Bewertung oder Videoaufgabe.
 
 ## Bewertungssystem
 
-Folgende Einstellungen können Systemadministratoren vornehmen um die Bewertungsskalen zu konfigurieren: 
+Folgende Einstellungen können Systemadministrator:innen vornehmen, um die Bewertungssysteme zu konfigurieren:
 
-![bewertungssystem erstellen](assets/admin_Noten_Bewertungssystem.png){class="shadow"}
+![Dialog Bewertungssystem bearbeiten mit Typ Numerisch: Auflösung, Rundung sowie niedrigste und höchste Bewertung, bei eingeschaltetem Erfolgsstatus zusätzlich die Grenze Bestanden mit](assets/admin_Noten_Bewertungssystem.png){ class="shadow lightbox" }
 
-### Numerischer Typ 
-Numerische Bewertungstypen können in ihrer Auflösung (Ganze-, Halbe-, Viertel-, Zentelnoten) und ihrem Rundeverhalten angepasst werden. Dabei werden die Leistungsklassen anhand der eingegeben maximalen Punktzahl und der Bewertungsschwelle berechnet und ergeben den Bewertungsschlüssel.
+### Numerischer Typ
+
+Numerische Bewertungssysteme können in ihrer Auflösung (Ganze, Halbe, Viertel, Zehntel) und in ihrem Rundungsverhalten angepasst werden. Dabei werden die Leistungsklassen anhand der eingegebenen maximalen Punktzahl und der Bewertungsschwelle berechnet und ergeben die Bewertungsskala.
 
 ### Textueller Typ
-Bei textuellen Bewertungstypen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die jeweilige Notenuntergrenze bestimmen dann die Rahmenbedingungen des Bewertungsschlüssels.
 
-![bewertungssystem textueller Typ](assets/admin_Noten_Bewertungssystem_textuell.png){class="shadow"}
+Bei textuellen Bewertungssystemen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die jeweilige Notenuntergrenze bestimmen dann die Rahmenbedingungen der Bewertungsskala.
 
-Weitere Beispiele für sinnvolle Labelbezeichnungen sind: Einsteiger, Fortgeschritten, Profi oder verschieden Smilies usw.. 
+![Dialog Bewertungssystem bearbeiten mit Typ Textuell: statt Zahlenbereichen definieren Leistungsklassen die Stufen, je Klasse legt die Spalte Bestanden das Ergebnis fest](assets/admin_Noten_Bewertungssystem_textuell.png){ class="shadow lightbox" }
 
-In der Administration können mehrere Bewertungssysteme hinterlegt und zur Verfügung gestellt werden. 
+Weitere Beispiele für sinnvolle Labelbezeichnungen sind: Einsteiger, Fortgeschritten, Profi oder verschiedene Emojis.
 
-
-
-
-
+In der System-Administration können mehrere Bewertungssysteme hinterlegt und zur Verfügung gestellt werden.

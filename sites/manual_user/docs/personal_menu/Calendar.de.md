@@ -212,7 +212,7 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 [Gruppenkalender](../groups/Using_Group_Tools.de.md)<br>
 [Gruppenkalender aktivieren](../groups/Group_Administration.de.md#tools)<br>
 [Kursbaustein Kalender](../learningresources/Course_Element_Calendar.de.md)<br>
-[Aktivierung des Kalenders durch Administrator:innen](../../manual_admin/administration/Core_functions.de.md#kalender-administration)<br>
+[Aktivierung des Kalenders durch Administrator:innen](../../manual_admin/administration/Core_functions.de.md#calendar_administration)<br>
 
 
 [Zum Seitenanfang ^](#calendar)

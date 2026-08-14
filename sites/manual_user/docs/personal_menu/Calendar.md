@@ -206,6 +206,6 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 [Group Calender](../groups/Using_Group_Tools.md)<br>
 [Activate group calender](../groups/Group_Administration.md#tools)<br>
 [Course element calender](../learningresources/Course_Element_Calendar.md)<br>
-[Activation of calenders by administrators](../../manual_admin/administration/Core_functions.md#calender-administration)<br>
+[Activation of calenders by administrators](../../manual_admin/administration/Core_functions.md#calendar_administration)<br>
 
 [To the top of the page ^](#calendar)

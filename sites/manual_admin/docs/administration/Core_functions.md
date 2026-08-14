@@ -2,19 +2,21 @@
 
 ![admin_core_config_overview_v2_de.png](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-In the Core Configuration area, administrators have access to the adjacent menu.
+Administrators have access to the adjacent menu in the system administration:<br>
+`Administration > Core functions`
 
-
-## Languages
+## Language and region
 
 In this area the default language can be selected and it can be defined which languages are generally available to the users. Furthermore, language packages can be imported and exported.
 
 Settings relating to a gender-specific language can also be selected here by the OpenOlat administrators.
 
+In the section **Formats** the **number format** is defined. It determines which thousands separator and decimal separator OpenOlat uses to display numbers and prices system-wide. [:octicons-tag-16:{ title="from Release 20.0 (OO-8470)" }](https://track.frentix.com/issue/OO-8470)
+
 [To the tp of the page ^](#core_config)
 
 
-## Starting page
+## Starting page [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
 
 Administrators can define a default start page for different roles or users with certain user attributes.
 
@@ -23,13 +25,13 @@ Administrators can define a default start page for different roles or users with
 [To the top of the page ^](#core_config)
 
 
-## Personal tools for users
+## Personal tools
 
 Here administrators can set which OpenOlat [tools](../../manual_user/personal_menu/index.md) are made available to users by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well as which tools are enabled in the menu bar for quick access (Preset).
 
 ![](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
 
-## Calendar Administration
+## Calendar {: #calendar_administration}
 
 At this point the system administrators can enable or disable the OpenOlat calendars.
 
@@ -38,7 +40,7 @@ At this point the system administrators can enable or disable the OpenOlat calen
 [To the top of the page ^](#core_config)
 
 
-## Email Settings
+## E-mail
 
 As an administrator, you will find configuration options for the OpenOlat email sending options and the mailbox, as well as the mail template.
 
@@ -101,7 +103,7 @@ Values set for the graphical user interface can be reset here.
 [To the top of the page ^](#core_config)
 
 
-## Licenses
+## Licenses [:octicons-tag-16:{ title="from Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
 
 The optional license management can be configured here.
 

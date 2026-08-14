@@ -1,6 +1,9 @@
 # BigBlueButton module {: #bbb}
 
-In the administration the virtual classroom BigBlueButton can be activated. This article describes the configuration of multiple BigBlueButton servers, load balancing and setting up system-wide room templates.
+The virtual classroom BigBlueButton is activated in the system administration:<br>
+`Administration > External tools > BigBlueButton`
+
+This article describes the configuration of multiple BigBlueButton servers, load balancing and setting up system-wide room templates.
 
 Instructions on how to configure individual online dates are described in the
 chapter [Course Element BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.md).
@@ -11,16 +14,18 @@ chapter [Course Element BigBlueButton](../../manual_user/learningresources/Cours
 ## Tab "Configuration" {: #tab_config}
 
   *  **Module "BigBlueButton":**  Activation of the functionality
-  *  **Activate for:** Activation of the functionality individually for course element BBB, course element  "Appointment scheduling", groups, coach chat
+  *  **Activate for:** Activation of the functionality individually for course element "BigBlueButton", course events [:octicons-tag-16:{ title="from Release 20.0.1 (OO-8237)" }](https://track.frentix.com/issue/OO-8237), course element "Appointment scheduling", groups and coach chat
   *  **Online appointments without date:** Additional option to activate "permanent room reservations" without a date in addition to online appointments. These are not visible in the calendar and count as booked at any time in the limits of the room template.
-  *  **Adopt profile picture:** 
+  *  **Adopt profile picture:** The profile picture from the OpenOlat user profile is shown as an avatar in the online appointment. Guests and users without a profile picture get no avatar [:octicons-tag-16:{ title="from Release 16.0 (OO-5435)" }](https://track.frentix.com/issue/OO-5435)
   *  **Servers:**  In the configuration the available BigBlueButton servers per OpenOlat instance are entered.
   *  **Add server button:** [see below for details >](#add_server)
   *  **Recording handler:** Native or Opencast
+  *  **Never delete recordings:** The recordings are kept on the external server, even if the online appointment or the course in OpenOlat is deleted. The option only appears if "Opencast" is selected as recording handler [:octicons-tag-16:{ title="from Release 15.3.8 (OO-5170)" }](https://track.frentix.com/issue/OO-5170)
+  *  **Default settings for the publication of recordings:** Default setting for who can see new recordings. The available options are "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". When creating an online appointment, the default setting can be overridden [:octicons-tag-16:{ title="from Release 20.1.12 (OO-9037)" }](https://track.frentix.com/issue/OO-9037)
   *  **Automatically delete online appointments:** x days after the end of the appointment
-  *  **Limit of all presentation files per meeting:** Mandatory field with specification of permitted megabytes
+  *  **Limit of all presentation files per meeting (MB):** Mandatory field with specification of permitted megabytes
 
-![bbb_admin_config_v1_de.png](assets/bbb_admin_config_v1_de.png){ class="shadow lightbox" }
+![Configuration tab of the BigBlueButton module](assets/bbb_admin_config_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -46,7 +51,7 @@ The available BigBlueButton servers per OpenOlat instance are displayed here.
 ![bbb_admin_server_v1_de.png](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
 
 
-## Load balancing {: #load_balancing}
+## Load balancing [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
 The goal is to distribute the generated load of simultaneous online meetings to the available BigBlueButton server by considering a set of performance parameters (such as number of videos and number of participants in the meetings). OpenOlat has an integrated load-balancing for this purpose. At the initial start of the online-meeting (depending on the configuration by the moderator or the first participant) the server with the lowest load is selected for the meeting. The load is calculated from the different measurement factors and weights the result with the capacity factor.
 
@@ -54,8 +59,8 @@ Using the filter above the list, the server key figures can be displayed over th
 
 ### Capacity factor {: #capacity_factor}
 
-The capacity factor is recorded with a value between 1 and 100 per server. The calculated number of users* on the server is multiplied by the capacity factor. This way, a server with stronger performance (RAM/CPU/disk) adapts to a weaker one.  
-  
+The capacity factor is recorded with a value between 1 and 100 per server. The calculated number of users* on the server is multiplied by the capacity factor. This way, a server with stronger performance (RAM/CPU/disk) adapts to a weaker one.
+
  _*  Weighting when counting users from high to low: video users, audio users, viewer_
 
 
@@ -83,7 +88,7 @@ The room templates are available for selection when creating a new online-meetin
      * Switched off (All can enter immediately.)
      * All users (All access must be confirmed.)
      * Only guests and external users (Only the access of guests and external users must be confirmed). 
-  *  **Room-template activated for <Role>:** Determines which roles can use the room template for new online-meetings. If the "Group member" option is activated, the template can also be used and further configured in OpenOlat [groups](../../manual_user/groups/Using_Group_Tools.md).
+  *  **Room-template activated for:** Determines which roles can use the room template for new online-meetings. If the "Group member" option is activated, the template can also be used and further configured in OpenOlat [groups](../../manual_user/groups/Using_Group_Tools.md).
 
 ![](assets/bbb_room_template.png){ class="shadow lightbox" }
 

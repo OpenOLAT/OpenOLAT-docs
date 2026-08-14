@@ -9,19 +9,23 @@ The "Customizing" menu contains settings relating to the menu items listed here.
 
 ## Representation, layout {: #layout}
 
+![Layout page with the sections Layout, Company or institution logo and Footer line](assets/admin_customizing_layout_v1_en.png){ class="shadow lightbox" }
+
 ### Section Layout
 
 The system layout, a company logo and properties relating to the footer can be stored here.
 
-The background image of the login page is part of the layout theme and cannot be configured in the administration. It is customized through an individual theme. For hosted instances, please contact your provider.
+The background image of the login page is part of the layout theme and cannot be configured in the system administration. It is customized through an individual theme. For hosted instances, please contact your provider.
 
 ### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
 You can upload your own logo (PNG file), which will then appear in the top-left corner of the header. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
 
+You also define where a click on the logo leads: to the landing page or to a target URL of your choice. In the field for the alternative text, you enter the text that appears in place of the logo.
+
 ### Footer Properties Section
 
-The company logo and the properties of the link in the bottom-right corner of the footer can also be customized.
+In this section, you define the text of the footer in the bottom-right corner and the target URL that a click on the footer leads to. Email and web addresses in the text are automatically converted into a clickable link.
 
 [To the top of the page ^](#customizing)
 
@@ -103,5 +107,11 @@ The "Coaching tool" entry cannot be deactivated [:octicons-tag-16:{ title="from 
 
 In the other tabs, you can add custom information pages that can be accessed via the main menu in the header. 
 These can be external URLs as well as OpenOlat learning resources (e.g., courses that may consist of only one or a few pages).
+
+![Tab of an info page with Icon CSS class and the table per language](assets/admin_customizing_infopage_v1_en.png){ class="shadow lightbox" }
+
+For each language you store a separate title and a separate learning resource. With "Select" you open the search for the referenceable learning resource. There you connect the tab with a course.
+
+![Search for referenceable learning resources](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#customizing)

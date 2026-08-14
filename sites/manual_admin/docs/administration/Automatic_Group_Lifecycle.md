@@ -11,7 +11,7 @@ The group life cycle makes it easy to **automatically** deactivate and then dele
 
 
 
-## Check group status
+## Check group status [:octicons-tag-16:{ title="from Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190)
 
 Authorized persons (group managers, administrators) receive the additional tab "**Group management**" when they click on "Groups" in the main navigation.
 
@@ -30,7 +30,8 @@ The additional information in the 3 arrows describes the configuration set up by
 
 ## Configuration
 
-Administrators can configure the progress of the group life cycle under **Administration > Lifecycles > Groups**.
+Administrators can configure the progress of the group life cycle in the system administration under:<br>
+`Administration > Lifecycles > Groups`
 
 ![automatic_group_lifecycle_admin_v1_de.png](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
 
@@ -64,9 +65,9 @@ The configuration is defined in 4 sections:
     * Number of days a group remains in "Deleted" status until it is finally deleted
     * Automatic or manual deletion?
 
-The result of the settings made is summarized both in the 3 arrows in the upper part of the configuration screen (for administrators) and in the arrows in the "Group administration" tab, which is displayed to group administrators under the main navigation in "Groups".
+The result of the settings made is summarized both in the 3 arrows in the upper part of the configuration screen (for administrators) and in the arrows in the "Group management" tab, which group managers and administrators see under the main navigation in "Groups".
 
-**Example: View for group coaches**
+**Example: View for group managers**
 
 ![automatic_group_lifecycle_example1_v1_de.png](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
 
@@ -76,7 +77,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
   *  **deleted:** In the "deleted" status, the group can be restored. However, not all data can be restored. This group is completely deleted after 2 days.
 
-  
+
 
 ## Examples of the chronological sequence of a status change 
 
@@ -84,17 +85,16 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
 
 
-## Exclusion of a group from the group lifecycle
+## Exclusion of a group from the group lifecycle [:octicons-tag-16:{ title="from Release 17.1 (OO-5887)" }](https://track.frentix.com/issue/OO-5887)
 
-Group administrators have the option of explicitly excluding their group from the automatic methods. This means that all actions in the group life cycle must be triggered manually.
-
-**Select group > Administration > Tab "Group lifecycle"**
+Group coaches have the option of explicitly excluding their group from the automatic methods. This means that all actions in the group life cycle must be triggered manually. You will find the option under:<br>
+`Group > Administration > Group Life Cycle`
 
 ![automatic_group_lifecycle_groupcoach_v1_de.png](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Note"
+!!! info "Important"
 
-    If the option is already activated and write-protected, the group belongs to a specific group type (externally managed or with integrated courses), which has already been globally excluded in the administration.
+    If the option is already activated and write-protected, the group belongs to a specific group type (externally managed or with integrated courses), which has already been globally excluded in the system administration under `Administration > Lifecycles > Groups`.
 
 
 
