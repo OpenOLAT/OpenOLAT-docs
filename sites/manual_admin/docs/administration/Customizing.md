@@ -1,6 +1,6 @@
 # Customizing
 
-![admin_customizing_overview_v1_de.png](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Customizing menu in system administration with eight areas: representation and layout, imprint, help, language adaptation tool, system registration, portal, user properties and sites](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 The "Customizing" menu contains settings relating to the menu items listed here. You will find these settings in the system administration under:<br>
 `Administration > Customizing`
@@ -9,7 +9,7 @@ The "Customizing" menu contains settings relating to the menu items listed here.
 
 ## Representation, layout {: #layout}
 
-![Layout page with the sections Layout, Company or institution logo and Footer line](assets/admin_customizing_layout_v1_en.png){ class="shadow lightbox" }
+![Layout page in the Customizing menu: system layout as a selection list, logo upload with target URL and alternative text, footer line with target URL and text](assets/admin_customizing_layout_v1_en.png){ class="shadow lightbox" }
 
 ### Section Layout
 
@@ -42,7 +42,7 @@ Administrators determine,
 
 All text can be entered in different languages.
 
-![admin_customizing_imprint_v1_de.png](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" }
+![Imprint page in the Customizing menu: once switched on and set to position Footer, the imprint appears as a link in the footer line, and the three texts are maintained per language](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#customizing)
 
@@ -51,7 +51,7 @@ All text can be entered in different languages.
 
 Here you can specify which help pages are displayed via the help icon :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
 
-![](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
+![Edit help option dialog on the Help page: type, name per language, symbol and URL, plus the display locations authoring, user tools and login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#customizing)
 
@@ -101,17 +101,17 @@ Use the arrows on the right side to set the display order.
 
 The "Coaching tool" entry cannot be deactivated [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661), as the Coaching tool is mandatory: the "Enabled" checkbox is greyed out. The display order and the access can still be adjusted.
 
-![admin_customizing_sites_v2_en.png](assets/admin_customizing_sites_v2_en.png){ class="shadow lightbox" }
+![Order tab on the Sites page: the Enabled checkbox of the Coaching tool row is greyed out, the Up and Down arrows remain usable](assets/admin_customizing_sites_v2_en.png){ class="shadow lightbox" }
 
 ### Other tabs
 
 In the other tabs, you can add custom information pages that can be accessed via the main menu in the header. 
 These can be external URLs as well as OpenOlat learning resources (e.g., courses that may consist of only one or a few pages).
 
-![Tab of an info page with Icon CSS class and the table per language](assets/admin_customizing_infopage_v1_en.png){ class="shadow lightbox" }
+![Info page tab on the Sites page: each language has its own title and its own learning resource, and the Icon CSS class determines the symbol of the tab](assets/admin_customizing_infopage_v1_en.png){ class="shadow lightbox" }
 
 For each language you store a separate title and a separate learning resource. With "Select" you open the search for the referenceable learning resource. There you connect the tab with a course.
 
-![Search for referenceable learning resources](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
+![Search for referenceable learning resources dialog: select the course from the list, or use Create and Import file to add a new learning resource instead](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#customizing)

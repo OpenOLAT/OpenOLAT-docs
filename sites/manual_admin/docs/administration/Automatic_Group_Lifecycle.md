@@ -2,7 +2,7 @@
 
 The group life cycle makes it easy to **automatically** deactivate and then delete unused groups after a certain period of time.
 
-![automatic_grouplifecycle_v1_en.png](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
+![The group life cycle runs through five stations: creation of the group, group is active, deactivation, deletion as a marking, and irrevocable deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
 
 
 !!! note "Note"
@@ -15,7 +15,7 @@ The group life cycle makes it easy to **automatically** deactivate and then dele
 
 Authorized persons (group managers, administrators) receive the additional tab "**Group management**" when they click on "Groups" in the main navigation.
 
-![automatic_group_lifecycle_groupmanagement_v1_de.png](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
+![Group management tab in the Groups area: the three stages active, inactive and deleted groups show their deadlines, the filters below separate active groups from those due for deactivation or within the reaction period](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
 
 By clicking on one of the 3 arrows (phases/status), all existing groups are listed sorted into 3 categories:
 
@@ -33,7 +33,7 @@ The additional information in the 3 arrows describes the configuration set up by
 Administrators can configure the progress of the group life cycle in the system administration under:<br>
 `Administration > Lifecycles > Groups`
 
-![automatic_group_lifecycle_admin_v1_de.png](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
+![Groups page in the Lifecycles area of system administration: per stage you define whether deactivation, deletion and irrevocable deletion happen manually or automatically, and which groups the automatic methods take into account](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
 
 The configuration is defined in 4 sections:
 
@@ -69,7 +69,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
 **Example: View for group managers**
 
-![automatic_group_lifecycle_example1_v1_de.png](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
+![Example configuration of the three stages: deactivation after 660 days without a visit, deletion after 6 days in status Inactive, irrevocable deletion after 2 days in status Deleted, all automatic with a reaction period of 2 days](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
 
   *  **active:** The group is used and someone has visited it within the set period. (Standard 660 days without a visit).
 
@@ -81,7 +81,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
 ## Examples of the chronological sequence of a status change 
 
-![](assets/Beispielkonfiguration.jpg){ class="lightbox" }
+![Four time courses of a status change: automatic and manual, each without and with a reaction period. They show where focus phase, reaction period and notification fall within the 720 days up to the status change](assets/Beispielkonfiguration.jpg){ class="lightbox" }
 
 
 
@@ -90,7 +90,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 Group coaches have the option of explicitly excluding their group from the automatic methods. This means that all actions in the group life cycle must be triggered manually. You will find the option under:<br>
 `Group > Administration > Group Life Cycle`
 
-![automatic_group_lifecycle_groupcoach_v1_de.png](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
+![Group lifecycle tab in the administration of a group: the checkbox to exclude the group from the automatic methods takes it out, below it are status, last activity and the scheduled deactivation date](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -103,7 +103,7 @@ Group coaches have the option of explicitly excluding their group from the autom
 As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an email.
 
 
-![automatic_group_lifecycle_mailcascade_v2_en.png](assets/automatic_group_lifecycle_mailcascade_v2_en.png){ class="lightbox" }
+![Notification cascade: if group coaches exist, all of them receive the mail. If there are none and the group belongs to a course, the mails go to all course owners, otherwise nobody is notified](assets/automatic_group_lifecycle_mailcascade_v2_en.png){ class="lightbox" }
 
 
 

@@ -20,7 +20,7 @@ module" you switch the analysis off.
 To use Google Analytics in OpenOlat a Google Analytics account is mandatory. In
 addition you must enter a so-called Tracking ID.
 
-![Analytics module with the Google Analytics configuration](assets/GoogleAnalytics_EN.png){ class="shadow lightbox" }
+![Analytics module in system administration: with Google Analytics selected as the service, the configuration requires the tracking ID as a mandatory field](assets/GoogleAnalytics_EN.png){ class="shadow lightbox" }
 
 Once configured, Google Analytics will show for example
 
@@ -45,5 +45,5 @@ OpenOlat automatically adds the configured Matomo URL as a trusted source to the
 Content Security Policy. An additional adjustment of the security policy is not
 necessary.
 
-![Analytics module with the Matomo configuration](assets/admin_analytics_matomo_v1_en.png){ class="shadow lightbox" }
+![Analytics module in system administration: with Matomo (Piwik) selected as the service, the configuration requires the site ID and the Matomo URL](assets/admin_analytics_matomo_v1_en.png){ class="shadow lightbox" }
 

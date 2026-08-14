@@ -25,11 +25,11 @@ chapter [Course Element BigBlueButton](../../manual_user/learningresources/Cours
   *  **Automatically delete online appointments:** x days after the end of the appointment
   *  **Limit of all presentation files per meeting (MB):** Mandatory field with specification of permitted megabytes
 
-![Configuration tab of the BigBlueButton module](assets/bbb_admin_config_v1_en.png){ class="shadow lightbox" }
+![Configuration tab of the BigBlueButton module: the module is activated separately for course elements, course events, groups and the supervisor chat, followed by the server list, the recording handler and the retention period of the online meetings](assets/bbb_admin_config_v1_en.png){ class="shadow lightbox" }
 
 
 
-## Add BigBlueButton-Server
+### Add BigBlueButton-Server {: #add_server}
 
 Click on the "Add server" button in the Configuration tab to open a pop-up for the details.
 
@@ -40,7 +40,7 @@ Click on the "Add server" button in the Configuration tab to open a pop-up for t
   *  **Manual selection only**: Only manually selected servers are available for load balancing
   *  **Button "Test server connection"**: A very practical help to check access to the server specified here.
 
-![](../administration/assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" }
+![Add server dialog: the API URL and the shared secret are mandatory, the capacity factor controls the load, and Check server connection verifies the entries before saving](assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -48,10 +48,10 @@ Click on the "Add server" button in the Configuration tab to open a pop-up for t
 
 The available BigBlueButton servers per OpenOlat instance are displayed here.
 
-![bbb_admin_server_v1_de.png](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
+![Servers tab of the BigBlueButton module: per server the list shows capacity and current load with meetings, moderators and participants, the filter separates this OpenOlat from all OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
 
 
-## Load balancing [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
+### Load balancing [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
 The goal is to distribute the generated load of simultaneous online meetings to the available BigBlueButton server by considering a set of performance parameters (such as number of videos and number of participants in the meetings). OpenOlat has an integrated load-balancing for this purpose. At the initial start of the online-meeting (depending on the configuration by the moderator or the first participant) the server with the lowest load is selected for the meeting. The load is calculated from the different measurement factors and weights the result with the capacity factor.
 
@@ -65,7 +65,7 @@ The capacity factor is recorded with a value between 1 and 100 per server. The c
 
 
 
-## Room templates
+## Tab "Room-templates" {: #tab_room-templates}
 
 The room templates are available for selection when creating a new online-meeting. Templates control the following characteristics:
 
@@ -73,7 +73,7 @@ The room templates are available for selection when creating a new online-meetin
   * The number of possible simultaneous users per room
   * Limits regarding duration and number of online rooms available
 
-![bbb_admin_room-templates_v1_de.png](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
+![Room-templates tab of the BigBlueButton module: per template, rooms, number of participants and duration set the frame, and the templates delivered with the system can be edited but not deleted](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
 
 ### Configuration of a room template
 
@@ -90,41 +90,41 @@ The room templates are available for selection when creating a new online-meetin
      * Only guests and external users (Only the access of guests and external users must be confirmed). 
   *  **Room-template activated for:** Determines which roles can use the room template for new online-meetings. If the "Group member" option is activated, the template can also be used and further configured in OpenOlat [groups](../../manual_user/groups/Using_Group_Tools.md).
 
-![](assets/bbb_room_template.png){ class="shadow lightbox" }
+![Configuration of a room template: name, number of participants and duration define the room, the number of rooms and the opening for external users follow, and the list at the bottom releases the template per role](assets/bbb_room_template.png){ class="shadow lightbox" }
 
-  
+
 ### Default settings of the room template
 
-![](assets/edit-room-template-2.png){ class="shadow lightbox" }
+![Default settings of the room template: each behaviour is a yes-no choice, for instance webcams only for moderators, allow meeting recording, allow breakout rooms, and putting participants into lock mode on join](assets/edit-room-template-2.png){ class="shadow lightbox" }
 
 ### Default settings for locked participants
 
-![](assets/edit-room-template-3.png){ class="shadow lightbox" }
+![Default settings for locked participants: seven yes-no choices determine what the lock disables, from webcam and microphone through both chats to shared notes, participant list and layout changes](assets/edit-room-template-3.png){ class="shadow lightbox" }
 
 ---
 
 
-## Online-Meetings
+## Tab "Online-meetings" {: #tab_online-meetings}
 
 Overview of configured online-meetings with the possibility to switch directly
 to the course/group (context) and/or delete this online-meeting. The search function can also be used to find specific BigBlueButton rooms and quickly mark and delete them, for example.
 
-![](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" }
+![Online-meetings tab of the BigBlueButton module: the list holds all meetings of the instance with period, room-template, server, context and number of recordings](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" }
 
 
 ---
 
 
-## Calendar
+## Tab "Calendar" {: #tab_calendar}
 
 Calendar overview of all recorded online appointments to check times with high occupancy and display overlaps graphically.
 
-:fontawesome-regular-calendar-days:
+![Calendar tab of the BigBlueButton module: all online meetings of the instance in the week view, switchable to month, day and year](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" }
 
 ---
 
 ## Further information
 
 [Instructions for configuring individual online appointments for course owners in the BigBlueButton course element](../../manual_user/learningresources/Course_Element_BigBlueButton.md)
-  
+
 

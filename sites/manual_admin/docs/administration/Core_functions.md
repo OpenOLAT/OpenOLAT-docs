@@ -1,6 +1,6 @@
 # Core functions: Overview {: #core_config}
 
-![admin_core_config_overview_v2_de.png](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Core functions menu in system administration with fourteen areas: language and region, personal tools, starting page, REST API, calendar, e-mail, files and folders, WebDAV, access control, statistics, full text search, notifications, GUI settings and licenses](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the adjacent menu in the system administration:<br>
 `Administration > Core functions`
@@ -29,13 +29,26 @@ Administrators can define a default start page for different roles or users with
 
 Here administrators can set which OpenOlat [tools](../../manual_user/personal_menu/index.md) are made available to users by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well as which tools are enabled in the menu bar for quick access (Preset).
 
-![](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
+![Available tools list on the Personal tools page: here the administration releases which tools the users can choose from at all](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![Preset list on the Personal tools page: only calendar, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
+
+[To the top of the page ^](#core_config)
+
+
+
+## REST API
+
+Besides activating the interface, the managed objects are also determined here.
+
+[To the details >](../administration/REST_API.md)<br>
+[To the top of the page ^](#core_config)
+
+
 
 ## Calendar {: #calendar_administration}
 
 At this point the system administrators can enable or disable the OpenOlat calendars.
 
-![](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
+![Calendar page in the core functions: five switches release the calendar separately, for the system, the personal calendar, the group tool, the course tool and the course element](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
 
 [To the top of the page ^](#core_config)
 
@@ -53,7 +66,7 @@ As an administrator, you will find configuration options for the OpenOlat email 
 
 Here you will find options for general settings/configurations relating to files and folders.
 
-![core_config_files_and_folders_tab_overview_v1_de.png](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
+![Files and folders page in the core functions with the five tabs Overview, Configuration, Quotas, Large files and Trash](assets/core_config_files_and_folders_tab_overview_v1_en.png){ class="shadow lightbox" }
 
 [See the details >](../administration/Files_and_Folders.md)<br>
 [To the top of the page ^](#core_config)
