@@ -64,7 +64,7 @@ Textfeld kann eingeschränkt werden, so dass als Eingabe entweder nur Text bzw.
 nur Zahlen erlaubt sind, oder aber ein Datum gewählt werden muss.
 
 Ab sofort sind auch **Abhängigkeiten** zwischen einzelnen Formularelementen
-möglich. Über **[Frageregeln](../manual_user/forms)** können Elemente miteinander
+möglich. Über **[Frageregeln](../manual_user/learningresources/Form_Question_Rules.de.md)** können Elemente miteinander
 verknüpft werden. Teilnehmende, die eine bestimmte Antwort auf eine Frage
 wählen, können dadurch andere Fragen überspringen und direkt zur nächsten,
 damit verbundenen Frage gelangen.
@@ -251,7 +251,7 @@ es lassen sich Vor- und Nachlaufzeiten definieren.
 ![](assets/155/eP%20Import%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Einträge können ab sofort auch mehrfach in [verschiedenen ePortfolio-
-Mappen](../manual_user/portfolio) verwendet
+Mappen](../manual_user/area_modules/My_portfolio_binders.de.md) verwendet
 werden. Dies ist beispielsweise praktisch, wenn Benutzer in einer Sammelmappe
 laufend die wichtigsten Einträgen zu ihrer Ausbildung zusammenstellen und sich
 damit präsentieren möchten.
@@ -268,7 +268,7 @@ Mappen aktualisiert.
 
 Neu ist die Verknüpfung einer oder mehrere Taxonomien mit dem ePortfolio
 möglich. Innerhalb der Taxonomien können die Stufen als
-[Kompetenzen](../manual_user/portfolio) ausgewiesen werden.
+[Kompetenzen](../manual_user/personal_menu/Competences.de.md) ausgewiesen werden.
 
 Im Portfolio können dann vom Benutzer selbst die Einträge mit den zur Auswahl
 stehenden Kompetenzen verschlagwortet werden. Die Kompetenzen können pro

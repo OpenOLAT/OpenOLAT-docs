@@ -73,7 +73,7 @@ Watch the **video** for an overview of the exceptions in the learning path (germ
 The **whitepaper** summarizes the most important information about the learning
 path and the exceptions in a compact way:
 
-[![](assets/161/whitepaper-thumpnail.png){ class="thumbnail-xl border" }<br>whitepaper_learning_path_courses_en_final.pdf](assets/161/whitepaper_learning_path_courses_en_final)
+[![](assets/161/whitepaper-thumpnail.png){ class="thumbnail-xl border" }<br>whitepaper_learning_path_courses_en_final.pdf](assets/161/whitepaper_learning_path_courses_en_final.pdf)
   
 
 * * *

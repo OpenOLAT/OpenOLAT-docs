@@ -27,7 +27,7 @@ the manuals below document this version.
 - [How to](manual_how-to/) – step-by-step guides for common tasks
 - [Developer cookbook](manual_dev/) – REST API, theming, documentation guidelines
   and development
-- [Reference glossary](reference_glossary/) – definitions of OpenOlat terms
+- [Reference glossary](reference_glossary/glossary/) – definitions of OpenOlat terms
 
 ## Current version
 

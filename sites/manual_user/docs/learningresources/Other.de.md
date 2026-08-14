@@ -389,8 +389,8 @@ Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der
 Kursteilnehmer vom Themenverantwortlichen akzeptiert werden muss, sehen Sie
 auf der Startseite der Themenvergabe in der Tabelle den Vermerk „**Teilnehmer prüfen**“, sobald sich jemand für Ihr Thema eingeschrieben hat.
 
-![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png)
-![themen_teilnehmer_verwalten.png](assets/Themen_Teilnehmerverwaltung.png)
+![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png){ class="shadow lightbox" }
+![topic_assignment_user_managementv2_de.png](assets/topic_assignment_user_managementv2_de.png){ class="shadow lightbox" }
 
 Öffnen Sie den Tab "**Verwaltung Benutzer:innen**" und akzeptieren Sie den/die
 Kandidaten.

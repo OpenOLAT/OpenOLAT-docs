@@ -1,7 +1,7 @@
 # Scope (chooser)
 ![General scope](assets/scope.png)
 
-Scope is an additional filter for the [fxtable](/.../.../manual_dev/ux/table.md), that controls the predefined filters below it. The Scope is not changeable in the sub filters, for example time range defined by the scope cannot be larger below.
+Scope is an additional filter for the [fxtable](table.md), that controls the predefined filters below it. The Scope is not changeable in the sub filters, for example time range defined by the scope cannot be larger below.
 
 It can have 1 - n different Scope filter., the optimum is 3-6. It's always right aligned.
 

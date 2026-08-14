@@ -26,7 +26,7 @@ There are various options for where and how course participants can upload a fil
 * [Course Element Task >](../../manual_user/learningresources/Course_Element_Task.md)
 * [Course Element Grouptask >](../../manual_user/learningresources/Course_Element_Grouptask.md)
 * [Course Element Portfolio Task >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)
-* [Course Element E-mail >](../../manual_user/learningresources/Course_Element_Email.md) (E.g. responsible coaches configured as recipients, file as attachment)
+* [Course Element E-mail >](../../manual_user/learningresources/Course_Element_EMail.md) (E.g. responsible coaches configured as recipients, file as attachment)
 * [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md) (If upload by participants has been permitted.)
 * [Course Element Forum >](../../manual_user/learningresources/Course_Element_Forum.md) (If permitted: files as attachments to forum posts)
 

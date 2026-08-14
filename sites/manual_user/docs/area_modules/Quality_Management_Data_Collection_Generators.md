@@ -219,7 +219,7 @@ See [Type Course Negative list](#Quality_Management_Data_Collection_Generators_T
 
 ### Tab "Configuration"
 
-![quality_management_data_collection_generator_curriculum_element_config_v1_de.png](assets/quality_management_data_collection_generator_curriculum_element_config_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generator_element_config_v1_de.png](assets/quality_management_data_collection_generator_element_config_v1_de.png){ class="shadow lightbox" }
 
 See also [Configuration in the type course](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 

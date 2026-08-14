@@ -61,7 +61,7 @@ date must be selected.
 
 Now, **dependencies** between individual form elements are also possible.
 Elements can be linked to each other via **[question
-rules](../manual_user/forms)**. Participants who select a certain answer to a
+rules](../manual_user/learningresources/Form_Question_Rules.md)**. Participants who select a certain answer to a
 question can thus skip other questions and go directly to the next related
 question.
 
@@ -232,7 +232,7 @@ follow-up times.
 ![](assets/155/eP%20Import%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 Entries can now be used multiple times in [different ePortfolio
-binders](../manual_user/portfolio). This is practical, for example, if
+binders](../manual_user/area_modules/My_portfolio_binders.md). This is practical, for example, if
 users want to continuously compile the most important entries on their
 education in a collective folder and use them to present themselves.
 
@@ -247,7 +247,7 @@ all other folders.
 
 It is now possible to link one or more taxonomies to the ePortfolio. Within
 the taxonomies, the levels can be identified as
-[competencies](../manual_user/portfolio).
+[competencies](../manual_user/personal_menu/Competences.md).
 
 In the portfolio, the user can then keyword the entries with the competencies
 available for selection. The competencies can additionally be provided with an

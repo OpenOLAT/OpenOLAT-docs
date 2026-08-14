@@ -243,7 +243,7 @@ Der einzige Ordnertyp, der über mehrere Kurse hinweg dieselben Dateien liefert.
 - **Modus:** Schreibgeschützt (nur referenziert) oder ohne Schreibschutz — dann schlagen Änderungen in allen Kursen durch.
 - **Standalone:** Über den Tab „Freigabe" auch kursunabhängig nutzbar.
 
-Mehr zum [Ressourcenordner >](../../manual_user/learningresources/Resource_Folderde.de.md)
+Mehr zum [Ressourcenordner >](../../manual_user/learningresources/Resource_Folder.de.md)
 
 
 ### 7. Gruppenordner
@@ -268,7 +268,7 @@ Die individuelle Dateiablage jeder Person, unabhängig von Kursen. Unterteilt in
 - **Öffnen:** Persönliches Menü → File Hub.
 - **Bereiche:** `private` (nur ich) · `public` (via Visitenkarte lesbar).
 
-Den persönlichen Ordner finden Sie seit Release 19 im [persönlichen Menü >](../../manual_user/personal_menu.de.md) im [File Hub >](../../manual_user/personal_menu/File_Hub.de.md).
+Den persönlichen Ordner finden Sie im [persönlichen Menü >](../../manual_user/personal_menu/index.de.md) im [File Hub >](../../manual_user/personal_menu/File_Hub.de.md).
 
 ### 9. Dokumentenpool
 

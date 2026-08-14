@@ -55,10 +55,8 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
 
-[Portfolio Icon](assets/portfolio_434343_64.png)
-
 By means of the course element "Portfolio task" you can provide predefined portfolio templates to be filled by your course participants. The course participants can then pick up the portfolio task in their course,  and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
- 
+
 For the course element Portfolio task you need a "Portfolio 2.0 template", which you link to the course element. If you have not yet created a Portfolio Template learning resource, you can also create a new Portfolio Template or link to a previously created one directly in the course via "Select or create Portfolio Template".  Click [here](../learningresources/Creating_Portfolio_Tasks.md) to find out exactly how to create a portfolio task.
 
 

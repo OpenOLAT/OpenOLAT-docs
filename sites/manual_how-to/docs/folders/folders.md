@@ -243,7 +243,7 @@ The only folder type that provides the same files across multiple courses. Maint
 - **Mode:** Read-only (only referenced) or without write protection — then changes take effect across all courses.
 - **Standalone:** Can also be used independently of a course via the "Sharing" tab.
 
-More on the [Resource folder >](../../manual_user/learningresources/Resource_Folderde.md)
+More on the [Resource folder >](../../manual_user/learningresources/Resource_Folder.md)
 
 
 ### 7. Group folder
@@ -268,7 +268,7 @@ The individual file storage of each person, independent of courses. Divided into
 - **Open:** Personal menu → File Hub.
 - **Areas:** `private` (only me) · `public` (readable via the business card).
 
-Since Release 19, you can find the personal folder in the [personal menu >](../../manual_user/personal_menu.md) in the [File Hub >](../../manual_user/personal_menu/File_Hub.md).
+You can find the personal folder in the [personal menu >](../../manual_user/personal_menu/index.md) in the [File Hub >](../../manual_user/personal_menu/File_Hub.md).
 
 ### 9. Document pool
 

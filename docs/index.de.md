@@ -28,7 +28,7 @@ Diese Website ist die offizielle OpenOlat Dokumentation. Das aktuelle Release is
 - [How-to](manual_how-to/) – Schritt-für-Schritt-Anleitungen für häufige Aufgaben
 - [Developer Cookbook](manual_dev/) – REST API, Theming, Dokumentationsrichtlinien
   und Entwicklung
-- [Referenzglossar](reference_glossary/) – Definitionen der OpenOlat-Begriffe
+- [Referenzglossar](reference_glossary/glossary/) – Definitionen der OpenOlat-Begriffe
 
 ## Aktuelle Version
 

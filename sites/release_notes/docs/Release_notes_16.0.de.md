@@ -36,7 +36,7 @@ Liste der Änderungen in 15.5 – 15.5.6 finden Sie
 ### 3G-Covid-Zertifikat
 
 Im Benutzerprofil kann der Nachweis über ein [3G-Covid-
-Zertifikat](../manual_user/personal) hinterlegt werden.
+Zertifikat](../manual_user/personal_menu/COVID_certificate.de.md) hinterlegt werden.
 
 Ist die Vorlage Voraussetzung für den Besuch einer Veranstaltung, können
 Benutzer und Benutzerinnen vorher ein gültiges COVID-Zertifikat scannen oder

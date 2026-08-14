@@ -36,7 +36,7 @@ addition, more than 105 bugs have been fixed. The complete list of changes in
   
 ## 3G Covid certificate
 
-Proof of a [3G Covid certificate](../manual_user/personal) can be stored in the
+Proof of a [3G Covid certificate](../manual_user/personal_menu/COVID_certificate.md) can be stored in the
 user profile.
 
 If the presentation is a prerequisite for attending an event, users can scan

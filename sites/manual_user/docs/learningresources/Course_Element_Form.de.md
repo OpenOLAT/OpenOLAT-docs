@@ -28,7 +28,7 @@ Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden besti
 
 ## Formulare einbinden
 
-Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie im [How-to Bereich](../../manual_how-to/docs/create_a_form/)
+Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie im [How-to Bereich](../../manual_how-to/create_a_form/create_a_form.de.md)
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 

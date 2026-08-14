@@ -7,7 +7,7 @@
 
 ## Planning
 
-1. [How do I plan and run courses with the Course Planner?](/manual_how-to/course_planner_course/course_planner_course)
+1. [How do I plan and run courses with the Course Planner?](/manual_how-to/course_planner_courses/course_planner_courses)
 2. [How can I create certification programs with the Course Planner?](/manual_how-to/certification_programs/certification_programs)
 3. [How do I comply with legal consent requirements?](/manual_how-to/legal_consents/legal_consents)
 4. [How do I set up document submission options?](/manual_how-to/document_upload/document_upload)
@@ -42,11 +42,11 @@
 
 ## Tests and Assessments
 
-1. [How do I proceed when I create a test?](/manual_how-to/docs/test_creation_procedure/test_creation_procedure)
+1. [How do I proceed when I create a test?](/manual_how-to/test_creation_procedure/test_creation_procedure)
 2. [How do I prepare an online exam?](/manual_how-to/exam_preparation/exam_preparation)
 3. [How do I prepare an exam with the Safe Exam Browser?](/manual_how-to/SEB/SEB)
 4. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
-5. [How do I assess a test?](/manual_how-to/docs/assessing_tests/assessing_tests)
+5. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
 6. [How do you assess an anonymous test in OpenOlat?](/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
 7. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review)
 8. [How do I exchange a test?](/manual_how-to/exchange_tests/exchange_tests)
@@ -58,7 +58,7 @@
 
 ## Adjust OpenOlat
 
-1. [What measures can I take to reduce storage space consumption?](/manual_how-to/docs/reduce_storage_consumption/reduce_storage_consumption)
-2. [How do I manage lifecycles of groups, courses or user accounts?](/manual_how-to/docs/lifecycle/lifecycle)
-3. [How to customize the course design with CSS](/manual_how-to/docs/css/css)
+1. [What measures can I take to reduce storage space consumption?](/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
+2. [How do I manage lifecycles of groups, courses or user accounts?](/manual_how-to/lifecycle/lifecycle)
+3. [How to customize the course design with CSS](/manual_how-to/css/css)
 4. [How do I use the language adaption tool?](/manual_how-to/language_adaption_tool/language_adaption_tool)

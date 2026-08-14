@@ -26,7 +26,7 @@ Es gibt verschiedene Möglichkeiten, wo und wie Kursteilnehmende eine Datei (z.B
 * [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)
 * [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)
 * [Kursbaustein Portfolioaufgabe >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)
-* [Kursbaustein E-Mail >](../../manual_user/learningresources/Course_Element_Email.de.md) (Z.B. als Empfänger zuständige Betreuer:innen konfiguriert, Datei als Anhang)
+* [Kursbaustein E-Mail >](../../manual_user/learningresources/Course_Element_EMail.de.md) (Z.B. als Empfänger zuständige Betreuer:innen konfiguriert, Datei als Anhang)
 * [Kursbaustein Dateidiskussion >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md) (Falls Upload durch Teilnehmende erlaubt wurde.)
 * [Kursbaustein Forum >](../../manual_user/learningresources/Course_Element_Forum.de.md) (Falls erlaubt: Dateien im Anhang von Forumsbeiträgen)
 
