@@ -122,7 +122,7 @@ If a course is managed via the Course Planner, the usage is **"Use in Course Pla
 In the selected course you will find the usage in the **Usage** section under:<br>
 `Course > Administration > Settings > Share`
 
-![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
+![Access tab in the settings of a course: the Usage section shows "Use in Course Planner" as the usage, the course is administered by the Course Planner and has no standalone member management](assets/course_planner_products_share_v3_en.png){ class="shadow lightbox" }  
 
 [To the top of the page ^](#products)
 
