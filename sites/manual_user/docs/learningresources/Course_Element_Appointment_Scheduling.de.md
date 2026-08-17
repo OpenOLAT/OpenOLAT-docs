@@ -21,10 +21,10 @@ organisieren.
 
 Mehrere einzeln wählbare **Termine** werden zusammengestellt zu einem **Anlass**. 
 
-![course_element_appointment_scheduling1_v1_de.png](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein Terminplanung in der Kursansicht: Der Anlass "Vorbereitungsmeeting" zeigt einen wählbaren Termin mit Datum, Uhrzeit und dem Button "Eintragen" sowie die Filter "Alle", "Zukünftige", "Ausgewählte" und "Ausgebucht"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
 
 
-Autor:innen können unter anderem festgelegen, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
+Autor:innen können unter anderem festlegen, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -34,23 +34,23 @@ Autor:innen können unter anderem festgelegen, ob mehrere Termine auswählbar si
 
 Wurde im Kurseditor der Kursbaustein hinzugefügt, werden im Tab "Konfiguration" die Berechtigungen für bestimmte Personengruppen festgelegt.
 
-![course_element_appointment_scheduling_editor_v1_de.png](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
+![Tab "Konfiguration" des Kursbausteins im Kurseditor: Organisatoren, E-Mail-Benachrichtigung und Kommentar-Erlaubnis werden per Checkbox gesetzt, die Rechte "Anlass bearbeiten" und "Termine bearbeiten" pro Rolle oder Person auch mit zeitlicher Eingrenzung](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
 
 **Organisatoren**<br>
 Es kann definiert werden, ob Kurs-Besitzer:innen und/oder Kurs-Betreuer:innen als Organisator:innen der Termine gelten.
 
 **Benachrichtigung an Organisatoren**<br>
-Ist diese Option ausgewählt, werden E-Mail-Benachrichtigung an die Organisator:innen gesendet, wenn ein Termin ausgewählt wurde.
+Ist diese Option ausgewählt, werden E-Mail-Benachrichtigungen an die Organisator:innen gesendet, wenn ein Termin ausgewählt wurde. :octicons-tag-16:{ title="ab Release 20.1 (OO-8499)" }
 
 **Kommentar**<br>
-Als Kursbesitzer:in entscheiden Sie hier, ob Teilnehmende ihre Terminwahl kommentieren dürfen. 
+Als Kursbesitzer:in entscheiden Sie hier, ob Teilnehmende ihre Terminwahl kommentieren dürfen. :octicons-tag-16:{ title="ab Release 20.1 (OO-8500)" }
 
 **Anlass bearbeiten**<br>
 Wer diese Berechtigung erhält, kann einen Anlass bearbeiten. (Ein Anlass ist eine Zusammenstellung mehrerer Termine.)
-Das Recht kann per Checkbox den Betreuer:innen des aktuellen Kurses generell gegeben werden oder über die erweiterte Konfiguration auch mit einer zeitlichen Eingrenzung. Zudem kann das Recht über die erweiterte Konfigurationan auch an ganz bestimmte Einzelpersonen vergeben werden.
+Das Recht kann per Checkbox den Betreuer:innen des aktuellen Kurses generell gegeben werden oder über die erweiterte Konfiguration auch mit einer zeitlichen Eingrenzung. Zudem kann das Recht über die erweiterte Konfiguration auch an ganz bestimmte Einzelpersonen vergeben werden.
 
 **Termine bearbeiten**<br>
-Wer diese Berechtigung erhält, kann einen Termin bearbeiten. Das Recht kann per Checkbox den Betreuer:innen des aktuellen Kurses generell gegeben werden oder über die erweiterte Konfiguration auch mit einer zeitlichen Eingrenzung. Zudem kann das Recht über die erweiterte Konfigurationan auch an ganz bestimmte Einzelpersonen vergeben werden.
+Wer diese Berechtigung erhält, kann einen Termin bearbeiten. Das Recht kann per Checkbox den Betreuer:innen des aktuellen Kurses generell gegeben werden oder über die erweiterte Konfiguration auch mit einer zeitlichen Eingrenzung. Zudem kann das Recht über die erweiterte Konfiguration auch an ganz bestimmte Einzelpersonen vergeben werden.
 
 
 !!! tip "Tipp"
@@ -80,7 +80,7 @@ Klicken Sie als erstes auf **"Anlass erstellen".**
 
 Es erscheint das Konfigurationsmenü und Sie können folgende Aspekte festlegen: 
 
-![Anlass erstellen, Konfiguration](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
+![Dialog "Anlass erstellen" im Kursrun: Neben Titel und Beschreibung werden Typ, Konfiguration, Organisator:in, Ort, Teilnehmerbegrenzung, Einschreibefrist, Terminart mit den zugehörigen Terminfeldern und der Online-Termin festgelegt](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
 
 
 **Titel**<br>
@@ -93,7 +93,7 @@ Erläutern Sie die Terminwahl näher. Worum geht es?
 Entscheiden Sie ob es sich um eine *Terminfindung* für einen gemeinsamen Termin oder um die Einschreibung für einen oder mehrere Termine aus einer Auswahl, z.B. Labortermine handelt (= *Terminbuchung*).
 
 **Konfiguration**<br>
-Entscheiden sie ob die Teilnehmenden nur einen oder mehrere Termine auswählen dürfen und ob die Namen der Teilnehmenden für andere Teilnehmende sichtbar sein sollen. Beim Typ "Terminbuchung" kann ergänzend noch definiert werden ob die Organisator:innen den Termin noch bestätigen müssen. 
+Entscheiden Sie ob die Teilnehmenden nur einen oder mehrere Termine auswählen dürfen und ob die Namen der Teilnehmenden für andere Teilnehmende sichtbar sein sollen. Beim Typ "Terminbuchung" kann ergänzend noch definiert werden ob die Organisator:innen den Termin noch bestätigen müssen. 
 
 **Organisator:in**<br>
 Definieren Sie hier, wer als Organisator:in der Terminplanung für die User angezeigt wird.
@@ -105,7 +105,7 @@ Geben Sie hier den Veranstaltungsort ein.
 Sie können die Mitgliederzahl für einen Termin begrenzen (nur bei "Terminbuchung").
 
 **Einschreibefrist**<br>
-Mit dem Schalter "Einschreibefrist" legen Sie fest, ob eine Frist gilt. Ist der Schalter aktiviert, geben Sie im Zeitfeld an, wie lange vor Beginn des Termins die Einschreibung endet (Format "1d 1h 1m", also z.B. "1d" für einen Tag). Die Einschreibefrist lässt sich auch nachträglich beim Bearbeiten eines bestehenden Termins ein- und ausschalten oder ändern.
+Mit dem Schalter "Einschreibefrist" legen Sie fest, ob eine Frist gilt. Ist der Schalter aktiviert, geben Sie im Zeitfeld an, wie lange vor Beginn des Termins die Einschreibung endet (Format "1d 1h 1m", also z.B. "1d" für einen Tag). Die Einschreibefrist lässt sich auch nachträglich beim Bearbeiten eines bestehenden Termins ein- und ausschalten oder ändern. :octicons-tag-16:{ title="ab Release 20.3.1 (OO-9387)" }
 
 **Terminart**<br>
 Sie können Termine basierend auf der Dauer, basierend auf einem Start- und Enddatum oder wiederkehrend nach bestimmten Wochentagen anlegen. Die Auswahl erleichtert Ihnen die Erstellung von weiteren Terminen.
@@ -124,8 +124,9 @@ Wird Start/Ende gewählt bleiben die gewählten Uhrzeiten erhalten und man brauc
 Für wiederkehrende Termine wird eine Angabe des ersten und letzten Termins der Serie verlangt, sowie Uhrzeit und Wochentag der regelmässigen Wiederholungen.
 
 **Online Termin**<br>
-Sollen die Wahltermine mit einem Virtuellen Klassenzimmer wie BigBlueButton oder Teams verbunden werden, kann das hier direkt vorausgewählt und die Räume entsprechend konfiguriert werden. Welche Systeme zur Verfügung stehen ist abhängig von der jeweiligen OpenOlat Installation. 
-Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist. 
+Sollen die Wahltermine mit einem Virtuellen Klassenzimmer wie BigBlueButton oder Teams verbunden werden, kann das hier direkt vorausgewählt und die Räume entsprechend konfiguriert werden. Welche Systeme zur Verfügung stehen ist abhängig von der jeweiligen OpenOlat Installation.
+Mit der Option "Andere Anbieter" verknüpfen Sie einen Termin mit einem weiteren Meeting-System, z.B. Zoom. Geben Sie dazu den Namen des Anbieters und die Meeting-URL ein. Zusätzlich geben Sie an, ob die Sitzung aufgezeichnet wird; die Teilnehmenden bestätigen die Aufzeichnung vor dem Beitritt in einem Einverständnisdialog. :octicons-tag-16:{ title="ab Release 19.0.4 (OO-7733)" }
+Wählen Sie "Nein", wenn keine entsprechende Verknüpfung vorgesehen ist. 
 
 !!! note "Hinweis"
 
@@ -134,7 +135,7 @@ Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist.
 
 Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für einen Anlass ist ebenfalls möglich.
 
-![Anlass Zahnrad Menue](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }
+![Zahnrad-Menü eines Anlasses im Kursrun mit den Aktionen "Anlass bearbeiten", "Teilnehmer:innenkreis", "Teilnehmer:innen exportieren", "Anlass duplizieren" und "Löschen"](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -144,9 +145,9 @@ Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupli
 
 Schon bei der Erstellung eines Anlasses können der oder die zugehörigen Termine gleich mit angelegt werden. (Siehe [oben ^](#config_occassion))
 
-Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbausteins aber auch der Button "Termine hinzufügen" angezeigt. Wählen Sie auch dort eine der 3 Terminarten.
+Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbausteins aber auch der Button "Termin hinzufügen" angezeigt. Wählen Sie auch dort eine der 3 Terminarten.
 
-![course_element_appointment_scheduling_create_appointment_v1_de.png](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Button "Termin hinzufügen" in der Terminübersicht eines Anlasses: Zur Wahl stehen Termine mit Start/Dauer, Termine mit Start/Ende und wiederkehrende Termine](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -155,13 +156,15 @@ Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbau
 
 ### Termine organisieren {: #config_appointment}
 
-![Termine anzeigen](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
+![Anlass-Kachel "Terminbuchung" im Kursrun: Der markierte Link "Termine anzeigen" öffnet die Terminübersicht, darüber informiert eine Hinweisbox über die Anzahl der Termine und die getroffenen Auswahlen](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
 
 Die konkreten für einen "Anlass" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen auch einzeln editiert werden. 
 
 Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung anpassen, Termine ändern oder bei der Terminplanung Termine bestätigen.
 
-![Termine organisieren Punktemenue](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" }
+Wird die letzte teilnehmende Person aus einem bestätigten Termin entfernt oder umgebucht, hebt OpenOlat die Bestätigung dieses Termins automatisch auf. :octicons-tag-16:{ title="ab Release 19.0.7 (OO-8100)" }
+
+![Terminliste einer Terminfindung: Je Termin stehen der Button "Bestätigen" und das Drei-Punkte-Menü mit "Termin bearbeiten", "Benutzer:in hinzufügen" und "Löschen" zur Verfügung](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -171,15 +174,32 @@ Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung 
 
 Mit Klick auf den Kursbaustein werden den Teilnehmenden die vorbereiteten Terminfindungen bzw. möglichen Terminbuchungen angezeigt. Umfasst der Kursbaustein mehrere Anlässe, erscheint zunächst eine Übersichtsseite. 
 
-![Terminplanung Teilnehmerperspektiv](assets/Terminplanung_TN.png){ class="shadow lightbox" }
+![Übersichtsseite des Kursbausteins aus Teilnehmendensicht: Die Anlässe "Terminbuchung" und "Terminfindung" erscheinen als Kacheln mit dem Link "Termine auswählen" und der Anzahl freier Termine](assets/Terminplanung_TN.png){ class="shadow lightbox" }
 
 Anschliessend können die Termine ausgewählt werden. Gibt es nur einen Anlass wird die konkrete Auswahl direkt angezeigt. 
 
 Über den Button "Eintragen" kann ein Termin gewählt werden. Je nach Konfiguration kann auch noch ein Kommentar hinzugefügt oder mehrere Termine ausgewählt werden. Auch ein Austragen ist möglich.  
 
-![Terminplanung Teilnehmer Auswahl](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
+![Terminauswahl aus Teilnehmendensicht: Jeder Termin zeigt die freien Plätze und den Button "Eintragen" oder "Austragen"; bei gesetzter Einschreibefrist steht das Enddatum "Eintragen bis" am Termin](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
 
 Über die Filteroption "Ausgebucht" können sich Teilnehmende auch anzeigen lassen, wer den Termin ausgewählt hat (sofern aktiviert) und untereinander Kontakt aufnehmen um Termine zu tauschen. 
+
+[Zum Seitenanfang ^](#appointment_scheduling)
+
+---
+
+## E-Mail-Benachrichtigungen {: #emails}
+
+Der Kursbaustein Terminplanung informiert die Teilnehmenden automatisch per E-Mail. Eine E-Mail wird versendet, wenn:
+
+- sich eine Person in einen bestätigten Termin einträgt,
+- ein Termin bestätigt oder seine Bestätigung aufgehoben wird,
+- ein bestätigter Termin gelöscht wird,
+- Teilnehmende aus einem bestätigten Termin entfernt oder auf einen anderen Termin umgebucht werden.
+
+Dieser Mailversand ist fester Bestandteil des Kursbausteins. Er lässt sich nicht deaktivieren: weder pro Aktion noch in der Konfiguration des Kursbausteins oder in der System-Administration.
+
+E-Mails an die Organisator:innen sind dagegen steuerbar: Sie werden nur versendet, wenn im Kurseditor die Option "Benachrichtigung an Organisatoren" aktiviert ist (siehe [Einrichtung im Kurseditor](#editor)).
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
