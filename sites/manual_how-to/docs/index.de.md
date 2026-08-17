@@ -45,12 +45,13 @@
 1. [Wie gehe ich vor, wenn ich einen Test erstelle?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
 2. [Wie bereite ich eine Online-Prüfung vor?](/de/manual_how-to/exam_preparation/exam_preparation)
 3. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
-4. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
-5. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
-6. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](/de/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
-7. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
-8. [Wie wechsle ich einen Test aus?](/de/manual_how-to/exchange_tests/exchange_tests)
-9. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](/de/manual_how-to/oral_exam/oral_exam)
+4. [Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein?](/manual_how-to/SEB_Admin/SEB_Admin)
+5. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
+6. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
+7. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](/de/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
+8. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
+9. [Wie wechsle ich einen Test aus?](/de/manual_how-to/exchange_tests/exchange_tests)
+10. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](/de/manual_how-to/oral_exam/oral_exam)
 
 ## Erfolge und Leistungen sichtbar machen
 1. [Wie mache ich Erfolge und Leistungen sichtbar?](/de/manual_how-to/achievements/achievements)
@@ -61,3 +62,4 @@
 2. [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](/de/manual_how-to/lifecycle/lifecycle)
 3. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)
 4. [Wie verwende ich das Sprachanpassungswerkzeug?](/de/manual_how-to/language_adaption_tool/language_adaption_tool)
+

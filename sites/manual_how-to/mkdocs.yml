@@ -34,6 +34,7 @@ nav:
     - How do I proceed when I create a test?: "test_creation_procedure/test_creation_procedure.md"
     - How do I prepare an online exam?: "exam_preparation/exam_preparation.md"
     - How do I prepare an exam with the Safe Exam Browser?: "SEB/SEB.md"
+    - As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide?: "SEB_Admin/SEB_Admin.md"
     - Communication during an exam: "communication_during_exam/communication_during_exam.md"
     - How do I assess a test?: "assessing_tests/assessing_tests.md"
     - How do you assess an anonymous test in OpenOlat?: "assessing_tests_anonymously/assessing_tests_anonymously.md"

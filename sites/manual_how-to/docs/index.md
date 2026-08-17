@@ -45,12 +45,15 @@
 1. [How do I proceed when I create a test?](/manual_how-to/test_creation_procedure/test_creation_procedure)
 2. [How do I prepare an online exam?](/manual_how-to/exam_preparation/exam_preparation)
 3. [How do I prepare an exam with the Safe Exam Browser?](/manual_how-to/SEB/SEB)
-4. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
-5. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
-6. [How do you assess an anonymous test in OpenOlat?](/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
-7. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review)
-8. [How do I exchange a test?](/manual_how-to/exchange_tests/exchange_tests)
-9. [How do I record an oral exam in OpenOlat?](/manual_how-to/oral_exam/oral_exam)
+4. [As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide?](/manual_how-to/SEB_Admin/SEB_Admin)
+5. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
+6. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
+7. [How do you assess an anonymous test in OpenOlat?](/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
+8. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review)
+9. [How do I exchange a test?](/manual_how-to/exchange_tests/exchange_tests)
+10. [How do I record an oral exam in OpenOlat?](/manual_how-to/oral_exam/oral_exam)
+
+
 
 ## Making successes and achievements visible
 1. [How do I make successes and achievements visible?](/manual_how-to/achievements/achievements)
