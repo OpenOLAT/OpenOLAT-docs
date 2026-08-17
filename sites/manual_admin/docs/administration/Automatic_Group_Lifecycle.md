@@ -103,7 +103,7 @@ Group coaches have the option of explicitly excluding their group from the autom
 As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an email.
 
 
-![Notification cascade: if group coaches exist, all of them receive the mail. If there are none and the group belongs to a course, the mails go to all course owners, otherwise nobody is notified](assets/automatic_group_lifecycle_mailcascade_v2_en.png){ class="lightbox" }
+![Notification cascade: if group coaches exist, all of them receive the mail. If there are none and the group belongs to a course, the mails go to all course owners, otherwise nobody is notified](assets/automatic_group_lifecycle_mailcascade_v2_en.svg){ class="lightbox" }
 
 
 

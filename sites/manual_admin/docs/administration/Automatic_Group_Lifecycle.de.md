@@ -103,7 +103,7 @@ Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen 
 Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung ausgelöst wurde, prüft OpenOlat, an wen die Benachrichtigung als Mail verschickt wird.
 
 
-![Kaskade der Benachrichtigung: gibt es Gruppenbetreuer:innen, erhalten alle die Mail. Fehlen sie und gehört die Gruppe zu einem Kurs, gehen die Mails an alle Kursbesitzer:innen, sonst wird niemand benachrichtigt](assets/automatic_group_lifecycle_mailcascade_v2_de.png){ class="lightbox" }
+![Kaskade der Benachrichtigung: gibt es Gruppenbetreuer:innen, erhalten alle die Mail. Fehlen sie und gehört die Gruppe zu einem Kurs, gehen die Mails an alle Kursbesitzer:innen, sonst wird niemand benachrichtigt](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" }
 
 
 
