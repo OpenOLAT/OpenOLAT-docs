@@ -62,10 +62,10 @@ Supported types are `pdf, odt, xlsx, docx`.
 If the download is represented with an image, the image tag can be embedded into the link tag. This is a bit cumbersome, but works well. See the example below
 
 === "Markup"
-		[![](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
+		[![Title page of the whitepaper on exceptions in learning paths](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
 
 === "Output"	
-	[![](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
+	[![Title page of the whitepaper on exceptions in learning paths](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
 
 ***
 
@@ -74,10 +74,10 @@ If the download is represented with an image, the image tag can be embedded into
 Image styles and css classes can be added to the image markup like this: 
 
 === "Markup"
-		![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }
+		![Yellow smiley as a sample image](assets/smile.jpg){ width=100px align=right class="border shadow" }
 
 === "Output"
-	![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }
+	![Yellow smiley as a sample image](assets/smile.jpg){ width=100px align=right class="border shadow" }
 
 !!! important
 	The following notation to add special parameters to images is extremely sensitive to whitespace! Make sure
@@ -124,11 +124,11 @@ Aside classes behave respsonsive, meaning the images get smaller if there is not
 
 
 === "Markup"
-		![](assets/smile.jpg){ class=aside-right }
+		![Yellow smiley as a sample image](assets/smile.jpg){ class=aside-right }
 		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 === "Output"	
-	![](assets/smile.jpg){ class=aside-right }
+	![Yellow smiley as a sample image](assets/smile.jpg){ class=aside-right }
 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
@@ -154,10 +154,10 @@ The following box styles are available
 Images can be converted to figures with captions by adding an image title attribute with `title="some caption here`. See the example below:
 
 === "Markup"
-		![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="A great OpenOlat screenshot" }
+		![Yellow smiley as a sample image](assets/smile.jpg){ class=thumbnail-xl title="A great OpenOlat screenshot" }
 
 === "Output"	
-	![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="Keep smiling :-)" }
+	![Yellow smiley as a sample image](assets/smile.jpg){ class=thumbnail-xl title="Keep smiling :-)" }
 
 !!! info
 	Note that the **alt text** is an accessibility feature to describe the content of the image for users who can not see the picture while the **title / caption** is an additional text that conceptually explains or gives more insights about the meaning of the image. 
@@ -167,10 +167,10 @@ Images can be converted to figures with captions by adding an image title attrib
 Use the `lightbox` CSS class to enable the lightbox on an image. This makes the image clickable and enlargable. It is useful to use this in combination with the thumbnail styles: 
 
 === "Markup"
-		![Your image alt text](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }
+		![Yellow smiley as a sample image](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }
 
 === "Output"	
-	![Your image alt text](assets/example-screenshot.png){ class="thumbnail lightbox" }
+	![OpenOlat login page of the community server with the login form and the registration hint](assets/example-screenshot.png){ class="thumbnail lightbox" }
 
 
 ### Specific width and other HTML attributes
