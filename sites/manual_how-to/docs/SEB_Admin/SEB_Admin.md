@@ -181,7 +181,7 @@ Clicking on a three-dot icon shows the options
 
 ### Step 7: Activate the Events / Absences module if necessary {: #SEB_module_events}
 
-For everyone who works with the "Events / Absences" module:<br>
+For everyone who works with the ["Events / Absences" module](../../manual_admin/administration/Modules_Events_and_Absences.de.md):<br>
 The assessment mode and the SEB configuration can also be configured directly on an event.
 The procedure (for authors) is analogous to creation in "Course administration > Assessment management"; it is the same process in "Course administration > Events".
 

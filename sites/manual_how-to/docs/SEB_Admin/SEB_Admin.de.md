@@ -181,7 +181,7 @@ Der Klick auf ein 3-Punkte-Icon zeigt die Optionen
 
 ### Schritt 7: Evtl. Modul Termine / Absenzen aktivieren {: #SEB_module_events}
 
-Für alle, die mit dem Modul "Termine und Absenzen" arbeiten:<br>
+Für alle, die mit dem [Modul "Termine und Absenzen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md) arbeiten:<br>
 Der Prüfungsmodus und die SEB-Konfiguration können auch direkt auf einem Termin konfiguriert werden.
 Die Vorgehensweise (für Autor:innen) ist analog zur Erstellung in "Kurs-Administration > Prüfungsverwaltung" der gleiche Vorgang in "Kurs-Administration > Termine".
 
