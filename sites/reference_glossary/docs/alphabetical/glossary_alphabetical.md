@@ -90,6 +90,14 @@ A submission by an applicant for a position, consisting of personal data, academ
 
 The state of an application in the procedure: active, on hold, granted, hired, not eligible, rejected or withdrawn.
 
+### Appointment booking
+
+Type of an occasion in the Appointment scheduling course element: participants enrol for one or more fixed appointments from a selection, optionally with a participant limit and confirmation by the organizers.
+
+### Appointment finding
+
+Type of an occasion in the Appointment scheduling course element: participants select all appointments that suit them, and the organizers then confirm the final joint appointment.
+
 ### Appointment scheduling
 
 A course element (building block) that can be added to a course structure.

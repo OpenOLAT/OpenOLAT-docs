@@ -158,7 +158,7 @@ As course owner or coach, however, you are also shown the "Add appointment" butt
 
 ![Occasion tile "Terminbuchung" in the course run: The highlighted "Show appointments" link opens the appointment overview, above it an info box states the number of appointments and the selections made](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
 
-The concrete appointments defined for an "occasion" can be viewed in more detail via the "View appointments" link in the overview and can also be edited individually by the course owners or coaches.
+The concrete appointments defined for an "occasion" can be viewed in more detail via the "Show appointments" link in the overview and can also be edited individually by the course owners or coaches.
 
 Here you can add, delete or rebook participants, adjust the description, change appointments or, in the case of appointment finding, confirm appointments.
 

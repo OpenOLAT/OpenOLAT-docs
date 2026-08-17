@@ -696,6 +696,14 @@ Eine Warteschlange für Personen, die nicht sofort eingeschrieben werden können
 
 Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Terminslots zugeordnet werden können.
 
+### Terminbuchung
+
+Typ eines Anlasses im Kursbaustein Terminplanung: Teilnehmende schreiben sich für einen oder mehrere feste Termine aus einer Auswahl ein, optional mit Teilnehmerbegrenzung und Bestätigung durch die Organisator:innen.
+
+### Terminfindung
+
+Typ eines Anlasses im Kursbaustein Terminplanung: Teilnehmende wählen alle für sie passenden Termine aus, die Organisator:innen bestätigen anschliessend den definitiven gemeinsamen Termin.
+
 ### Kurstemplate
 
 Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursinstanz für eine Durchführung verwendet werden kann. Siehe auch: Vorlagekurs.

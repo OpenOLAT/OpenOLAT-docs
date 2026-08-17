@@ -696,6 +696,14 @@ A queue for users who cannot be immediately enrolled, with automatic promotion w
 
 A named topic within the Appointment Scheduling course element, to which multiple time slots can be assigned.
 
+### Appointment booking
+
+Type of an occasion in the Appointment scheduling course element: participants enrol for one or more fixed appointments from a selection, optionally with a participant limit and confirmation by the organizers.
+
+### Appointment finding
+
+Type of an occasion in the Appointment scheduling course element: participants select all appointments that suit them, and the organizers then confirm the final joint appointment.
+
 ### Course template
 
 A course template in the Course Planner that can be instantiated as a course for a curriculum implementation at a later date. See also: Template course.

@@ -1030,9 +1030,17 @@ Bewertungsmethode für Multiple-Choice-, Hotspot-, Hottext-, Drag&Drop-, Matrix-
 
 Widget im Dashboard, zeigt bevorstehende Termine aus dem Lektionenmanagement.
 
+### Terminbuchung
+
+Typ eines Anlasses im Kursbaustein Terminplanung: Teilnehmende schreiben sich für einen oder mehrere feste Termine aus einer Auswahl ein, optional mit Teilnehmerbegrenzung und Bestätigung durch die Organisator:innen.
+
 ### Termine / Absenzen
 
 Verwaltung von Lektionsblöcken mit Absenzenerfassung.
+
+### Terminfindung
+
+Typ eines Anlasses im Kursbaustein Terminplanung: Teilnehmende wählen alle für sie passenden Termine aus, die Organisator:innen bestätigen anschliessend den definitiven gemeinsamen Termin.
 
 ### Terminplanung
 
