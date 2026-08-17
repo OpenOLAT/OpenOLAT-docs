@@ -217,7 +217,7 @@ As an administrator, you may need to answer questions from authors. The followin
 As the author of the OpenOlat exam course, you create an assessment mode under<br> 
 **Course administration > Assessment management > Tab "Assessment mode configuration" > "Add assessment mode" button**
 
-[To the top of the page ^](#SEB)
+[To the top of the page ^](#SEB_admin)
 
 ---
 

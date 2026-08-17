@@ -141,11 +141,11 @@ Die einstellbaren Optionen finden Sie hier beschrieben: [SEB-Konfigurationsvorla
 #### Variante 2: 
 
 Alternativ können Sie auch eine unverschlüsselte .seb-Datei als Vorlage importieren.<br> 
-Öffnen Sie den SEB und erstellen/speichern/exportieren Sie dort die SEB Konfigruationsdatei.
+Öffnen Sie den SEB und erstellen/speichern/exportieren Sie dort die SEB Konfigurationsdatei.
 
 #### Liste der Vorlagen
 
-Alle erstellten oder importierten Konfigurationsvorlagen werden unter dem Tab "Safe Exam Browser Konfiguration" aufgelistet und können durch Admministrator:innen bearbeitet, aktiviert/deaktiviert oder als Standard gesetzt werden.
+Alle erstellten oder importierten Konfigurationsvorlagen werden unter dem Tab "Safe Exam Browser Konfiguration" aufgelistet und können durch Administrator:innen bearbeitet, aktiviert/deaktiviert oder als Standard gesetzt werden.
 
 ![SEB_Admin_step6_list_v1_de.png](assets/SEB_Admin_step6_list_v1_de.png){ class="shadow lightbox" }
 
@@ -157,14 +157,14 @@ SEB-Datei -> Diese Vorlage wurde importiert (Variante 2).
 **Spalte Status**<br>
 Eine Konfigurationsvorlage kann entweder den Status "Aktiv" oder "Inaktiv" haben.
 
-**Spalte "Standard**<br>
+**Spalte "Standard"**<br>
 Dieser Spalte entnehmen Sie, welche Vorlagen Sie via 3-Punkte-Icon als Standard gesetzt haben.
 
 **Spalte Verwendungen**<br>
 Hier wird Ihnen angezeigt, wie oft eine Vorlage bereits von Autor:innen in Prüfungskursen verwendet wird. 
 
 **Spalte Bearbeiten (Icon)**<br>
-Der Klick auf eines der Bearbeiten-Icons öffnet das Popup-Fenster, in dem dei Konfigurationsoptionen seitesn OpenOlat angezeigt werden.
+Der Klick auf eines der Bearbeiten-Icons öffnet das Popup-Fenster, in dem die Konfigurationsoptionen seitens OpenOlat angezeigt werden.
 
 **3 Punkte**<br>
 Der Klick auf ein 3-Punkte-Icon zeigt die Optionen
@@ -217,7 +217,7 @@ Als Administrator:in sollen Sie möglicherweise Fragen von Autor:innen beantwort
 Als Autor:in des OpenOlat-Prüfungskurses erstellen Sie einen Prüfungsmodus unter<br> 
 **Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Button "Prüfungsmodus hinzufügen"**
 
-[zum Seitenanfang ^](#SEB)
+[zum Seitenanfang ^](#SEB_admin)
 
 ---
 
