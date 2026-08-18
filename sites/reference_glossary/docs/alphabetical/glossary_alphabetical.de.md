@@ -18,15 +18,15 @@ Benachrichtigungs-Abonnements für Änderungen in Kursen und Ressourcen.
 
 Modul zur Erfassung und Verwaltung der Absenzen von Teilnehmenden bei Lektionen.
 
-### Absenzenverwalter/in
+### Absenzenverwalter:in
 
 Kann systemweit Anwesenheiten und Absenzen verwalten.
 
 ### Administrative Freigabe
 
-Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
+Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator:innen und Lernressourcenverwalter:innen die Ressource verwalten können.
 
-### Administrator/in
+### Administrator:in
 
 Hat vollständige Administrationsrechte für das System.
 
@@ -68,7 +68,7 @@ Ein benanntes Thema innerhalb des Kursbausteins Terminplanung, dem mehrere Termi
 
 ### Arbeitsbereich
 
-Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer/innen arbeiten unter "Kurse", Betreuer/innen im "Coaching", Autor/innen im "Autorenbereich".
+Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer:innen arbeiten unter "Kurse", Betreuer:innen im "Coaching", Autor:innen im "Autorenbereich".
 
 ### Audio
 
@@ -82,7 +82,7 @@ Aufzeichnungsfunktionen für Audio- und Videoinhalte.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Ausbildungsverantwortliche/r
+### Ausbildungsverantwortliche:r
 
 Kann Ausbildungsprogramme verwalten.
 
@@ -98,7 +98,7 @@ Der publizierte Text einer Ausschreibung, der die Professur beschreibt, auf die 
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Autor/in
+### Autor:in
 
 Kann Lernressourcen erstellen und verwalten.
 
@@ -110,31 +110,31 @@ Der Bereich, in dem Autoren Lernressourcen erstellen und verwalten.
 
 Digitale Auszeichnungen für Leistungen.
 
-### Benutzer/in
+### Benutzer:in
 
 Eine registrierte Person mit grundlegenden Zugriffsrechten im System.
 
-### Benutzerverwalter/in
+### Benutzerverwalter:in
 
 Kann Benutzerkonten und Rollen verwalten.
 
-### Besitzer/in
+### Besitzer:in
 
-Besitzer/in einer Lernressource oder eines Kurses.
+Besitzer:in einer Lernressource oder eines Kurses.
 
-### Betreuer/in
+### Betreuer:in
 
 Betreut Teilnehmende in einem Kurs oder einer Gruppe.
 
-### Betreuer/innen Ordner
+### Betreuer:innen Ordner
 
-Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer/innen sichtbar ist.
+Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer:innen sichtbar ist.
 
 ### Beurteilung
 
 Die Einschätzung einer Bewerbung mit A, B oder C durch ein einzelnes Kommissionsmitglied.
 
-### Bewerber/in
+### Bewerber:in
 
 Person, die sich in Selectus auf eine Ausschreibung bewirbt.
 
@@ -152,7 +152,7 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 ### Bewertungswerkzeug
 
-Zentrale Oberfläche für Betreuer/innen und Besitzer/innen zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.
+Zentrale Oberfläche für Betreuer:innen und Besitzer:innen zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.
 
 ### Bibliothek
 
@@ -216,11 +216,11 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 ### Coaching
 
-Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden. Siehe auch: Coaching Tool.
+Kursübergreifende Übersicht für Betreuer:innen zur Beobachtung von Lernenden. Siehe auch: Coaching Tool.
 
 ### Coaching Tool
 
-Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer/innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
+Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer:innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
 
 ### Contact Tracing
 
@@ -316,7 +316,7 @@ Ein Kursbaustein für digitale Lehrbuchinhalte via Edubase.
 
 ### Einladung (Zugangsrolle)
 
-Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer/innen.
+Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer:innen.
 
 ### Einschreibung
 
@@ -326,7 +326,7 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Konfiguration von Bewertungsskalen und Leistungsstufen.
 
-### Elementbesitzer/in
+### Elementbesitzer:in
 
 Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
@@ -420,7 +420,7 @@ Ein von frentix betriebener Dienst, mit dem OpenOlat über eine API kommuniziert
 
 ### Gast
 
-Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
+Anonyme:r Benutzer:in mit eingeschränktem Lesezugriff.
 
 ### Gebäude
 
@@ -450,7 +450,7 @@ Kollaborative Gruppen für Lernen und Projektarbeit.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Gruppenverwalter/in
+### Gruppenverwalter:in
 
 Kann Gruppen systemweit verwalten.
 
@@ -458,7 +458,7 @@ Kann Gruppen systemweit verwalten.
 
 Eine schriftliche Beurteilung einer Bewerbung durch eine von der Kommission bestimmte externe Fachperson.
 
-### Gutachter/in
+### Gutachter:in
 
 Von der Kommission bestimmte externe Fachperson, die ein Gutachten zu einer Bewerbung verfasst.
 
@@ -530,9 +530,9 @@ Ein KI-gestützter Einsatzbereich in OpenOlat (z.B. MC Fragen Generator, Bildbes
 
 Integration von KI-Funktionen für Inhaltsgenerierung und Unterstützung.
 
-### Klassenlehrer/in
+### Klassenlehrer:in
 
-Beaufsichtigt Betreuer/innen über Curriculum-Durchführungen hinweg.
+Beaufsichtigt Betreuer:innen über Curriculum-Durchführungen hinweg.
 
 ### Kombiniertes Dokument
 
@@ -546,7 +546,7 @@ Die Berufungskommission einer Ausschreibung, bestehend aus Präsidium, Sekretari
 
 Mitglied der Berufungskommission, das die ihm zugewiesenen Bewerbungen beurteilt und Reviews erfasst.
 
-### Kommissionspräsident/in
+### Kommissionspräsident:in
 
 Leitet die Berufungskommission, sieht alle Bewerbungen und steuert das Verfahren.
 
@@ -558,7 +558,7 @@ Die Zuteilung von Bewerbungen an einzelne Kommissionsmitglieder. Sie legt fest, 
 
 Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzern.
 
-### Korrektor/in
+### Korrektor:in
 
 Eine Person, die manuell Testabgaben innerhalb eines Korrekturworkflows benotet.
 
@@ -598,7 +598,7 @@ Automatisierte E-Mail-Erinnerungen basierend auf Kursbedingungen.
 
 Widget im Dashboard, zeigt Kursinhalte einer CPL-Durchführung.
 
-### Kursplaner/in
+### Kursplaner:in
 
 Kann Curricula und Produkte im Modul Course Planner verwalten.
 
@@ -638,7 +638,7 @@ Sequenzielles Kursdesign mit Fortschrittsverfolgung und Abschlusskriterien.
 
 Ein verwaltetes Inhaltsobjekt im Autorenbereich (Kurs, Test, Formular, Video usw.).
 
-### Lernressourcenverwalter/in
+### Lernressourcenverwalter:in
 
 Kann Lernressourcen systemweit verwalten.
 
@@ -646,7 +646,7 @@ Kann Lernressourcen systemweit verwalten.
 
 Anzeigemodus, bei dem Inhalte (Dokumente, Medien, Details) in einem modalen Overlay über der aktuellen Seite geöffnet werden, ohne die Seite zu verlassen.
 
-### Linienvorgesetzte/r
+### Linienvorgesetzte:r
 
 Hat Linienverantwortung für die Aufsicht über Mitarbeitende.
 
@@ -654,7 +654,7 @@ Hat Linienverantwortung für die Aufsicht über Mitarbeitende.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Liste der Teilnehmer/innen
+### Liste der Teilnehmer:innen
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
@@ -680,7 +680,7 @@ Der Bereich für die Serienkorrespondenz mit Bewerbenden, mit einer Vorlage je E
 
 ### Massenbewertung
 
-Funktion, mit der Betreuer/innen mehrere Teilnehmende gleichzeitig bewerten können.
+Funktion, mit der Betreuer:innen mehrere Teilnehmende gleichzeitig bewerten können.
 
 ### MC Fragen Generator
 
@@ -790,7 +790,7 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Ein Lernressourcen-Typ für Podcast-Inhalte.
 
-### Poolverwalter/in
+### Poolverwalter:in
 
 Kann den Fragenpool verwalten.
 
@@ -818,7 +818,7 @@ Hat übergeordnete Aufsichtsrechte (Principal-Rolle).
 
 Top-Level-Entität im Course Planner, die ein Curriculum mit Durchführungen und Kursen darstellt.
 
-### Produktbesitzer/in
+### Produktbesitzer:in
 
 Verwaltet ein gesamtes Produkt (Curriculum) im Course Planner.
 
@@ -834,7 +834,7 @@ Das Dokument, das das Profil der ausgeschriebenen Professur beschreibt und der B
 
 Projektmanagement-Werkzeug mit To-dos, Dateien und Entscheidungen.
 
-### Projektverwalter/in
+### Projektverwalter:in
 
 Kann Projekträume systemweit verwalten.
 
@@ -866,7 +866,7 @@ Question and Test Interoperability Standard für Bewertungsitems.
 
 Werkzeuge für Qualitätssicherungsumfragen und Datenerfassungen.
 
-### Qualitätsverwalter/in
+### Qualitätsverwalter:in
 
 Kann Qualitätsmanagement-Prozesse verwalten.
 
@@ -930,7 +930,7 @@ Die konfigurierbare Zusammenstellung von Schiebereglern und Textfeldern, die Kom
 
 Prozess der erneuten Erlangung eines Zertifikats nach Ablauf innerhalb eines Zertifikatsprogramms.
 
-### Rollenverwalter/in
+### Rollenverwalter:in
 
 Kann Rollenzuweisungen verwalten.
 
@@ -944,7 +944,7 @@ Ein Formularelement zur Bewertung mehrerer Kriterien anhand derselben Bewertungs
 
 ### Rückgabeordner
 
-Der Dateibereich innerhalb eines Aufgaben-Kursbausteins, in dem Betreuer/innen bewertete Arbeiten an Teilnehmende zurückgeben.
+Der Dateibereich innerhalb eines Aufgaben-Kursbausteins, in dem Betreuer:innen bewertete Arbeiten an Teilnehmende zurückgeben.
 
 ### Sachbearbeitung
 
@@ -970,7 +970,7 @@ Die Phase, in der die Berufungskommission die eingegangenen Bewerbungen liest un
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Sekretär/in
+### Sekretär:in
 
 Unterstützt die Berufungskommission administrativ und bereitet die Korrespondenz vor.
 
@@ -998,7 +998,7 @@ Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
 Der Bereich für die Systemadministration zur Konfiguration von Modulen, zur Benutzerverwaltung und für Systemeinstellungen.
 
-### Systemadministrator/in
+### Systemadministrator:in
 
 Hat vollständige Administrationsrechte auf Systemebene, einschliesslich Serverkonfiguration.
 
@@ -1014,11 +1014,11 @@ Hierarchisches Klassifizierungssystem für Kompetenzen und Inhalte.
 
 Ein kurzer Vorschautext für platzsparende Ankündigungen, derzeit nur für Kurse verfügbar.
 
-### Teilnehmer/in
+### Teilnehmer:in
 
 Eine Lernende Person, die in einem Kurs oder einer Gruppe eingeschrieben ist.
 
-### Teilnehmer/innen Ordner
+### Teilnehmer:innen Ordner
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
@@ -1094,9 +1094,9 @@ Ein Lernressourcen-Typ für Fragebögen und Umfragen.
 
 Ein Gutachten, in dem mehrere Bewerbungen derselben Ausschreibung miteinander verglichen werden.
 
-### Vergleichsgutachter/in
+### Vergleichsgutachter:in
 
-Gutachter/in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
+Gutachter:in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
 
 ### Verwendungszweck
 

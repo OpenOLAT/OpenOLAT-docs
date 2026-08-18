@@ -4,35 +4,35 @@ Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe hab
 
 ## Systemrollen
 
-### Absenzenverwalter/in
+### Absenzenverwalter:in
 
 Kann systemweit Anwesenheiten und Absenzen verwalten.
 
-### Administrator/in
+### Administrator:in
 
 Hat vollständige Administrationsrechte für das System.
 
-### Autor/in
+### Autor:in
 
 Kann Lernressourcen erstellen und verwalten.
 
-### Kursplaner/in
+### Kursplaner:in
 
 Kann Curricula und Produkte im Modul Course Planner verwalten.
 
-### Ausbildungsverantwortliche/r
+### Ausbildungsverantwortliche:r
 
 Kann Ausbildungsprogramme verwalten.
 
-### Gruppenverwalter/in
+### Gruppenverwalter:in
 
 Kann Gruppen systemweit verwalten.
 
-### Lernressourcenverwalter/in
+### Lernressourcenverwalter:in
 
 Kann Lernressourcen systemweit verwalten.
 
-### Linienvorgesetzte/r
+### Linienvorgesetzte:r
 
 Hat Linienverantwortung für die Aufsicht über Mitarbeitende.
 
@@ -40,71 +40,71 @@ Hat Linienverantwortung für die Aufsicht über Mitarbeitende.
 
 Hat übergeordnete Aufsichtsrechte (Principal-Rolle).
 
-### Projektverwalter/in
+### Projektverwalter:in
 
 Kann Projekträume systemweit verwalten.
 
-### Qualitätsverwalter/in
+### Qualitätsverwalter:in
 
 Kann Qualitätsmanagement-Prozesse verwalten.
 
-### Poolverwalter/in
+### Poolverwalter:in
 
 Kann den Fragenpool verwalten.
 
-### Rollenverwalter/in
+### Rollenverwalter:in
 
 Kann Rollenzuweisungen verwalten.
 
-### Systemadministrator/in
+### Systemadministrator:in
 
 Hat vollständige Administrationsrechte auf Systemebene, einschliesslich Serverkonfiguration.
 
-### Benutzer/in
+### Benutzer:in
 
 Eine registrierte Person mit grundlegenden Zugriffsrechten im System.
 
-### Benutzerverwalter/in
+### Benutzerverwalter:in
 
 Kann Benutzerkonten und Rollen verwalten.
 
 
 ## Kurs-/Ressourcenrollen
 
-### Betreuer/in
+### Betreuer:in
 
 Betreut Teilnehmende in einem Kurs oder einer Gruppe.
 
-### Besitzer/in
+### Besitzer:in
 
-Besitzer/in einer Lernressource oder eines Kurses.
+Besitzer:in einer Lernressource oder eines Kurses.
 
-### Teilnehmer/in
+### Teilnehmer:in
 
 Eine Lernende Person, die in einem Kurs oder einer Gruppe eingeschrieben ist.
 
 
 ## Curriculum-Rollen
 
-### Klassenlehrer/in
+### Klassenlehrer:in
 
-Beaufsichtigt Betreuer/innen über Curriculum-Durchführungen hinweg.
+Beaufsichtigt Betreuer:innen über Curriculum-Durchführungen hinweg.
 
 
 ## Kursplaner-Rollen
 
-### Produktbesitzer/in
+### Produktbesitzer:in
 
 Verwaltet ein gesamtes Produkt (Curriculum) im Course Planner.
 
-### Elementbesitzer/in
+### Elementbesitzer:in
 
 Verwaltet ein bestimmtes Curriculum-Element innerhalb des Course Planner.
 
 
 ## Selectus-Rollen
 
-### Bewerber/in
+### Bewerber:in
 
 Person, die sich in Selectus auf eine Ausschreibung bewirbt.
 
@@ -116,11 +116,11 @@ Administrative Stelle, die Ausschreibungen erstellt, die Bewerbungen verwaltet u
 
 Mitglied der Berufungskommission, das die ihm zugewiesenen Bewerbungen beurteilt und Reviews erfasst.
 
-### Kommissionspräsident/in
+### Kommissionspräsident:in
 
 Leitet die Berufungskommission, sieht alle Bewerbungen und steuert das Verfahren.
 
-### Sekretär/in
+### Sekretär:in
 
 Unterstützt die Berufungskommission administrativ und bereitet die Korrespondenz vor.
 
@@ -136,24 +136,24 @@ Mitglied der Fakultät, das zu einer Bewerbung um eine Rückmeldung gebeten wird
 
 Von der Bewerberin oder dem Bewerber angegebene Person, die ein Referenzschreiben verfasst.
 
-### Gutachter/in
+### Gutachter:in
 
 Von der Kommission bestimmte externe Fachperson, die ein Gutachten zu einer Bewerbung verfasst.
 
-### Vergleichsgutachter/in
+### Vergleichsgutachter:in
 
-Gutachter/in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
+Gutachter:in, die mehrere Bewerbungen derselben Ausschreibung in einem Vergleichsgutachten gegeneinander beurteilt.
 
 
 ## Zugangsrollen
 
 ### Gast
 
-Anonyme/r Benutzer/in mit eingeschränktem Lesezugriff.
+Anonyme:r Benutzer:in mit eingeschränktem Lesezugriff.
 
 ### Einladung (Zugangsrolle)
 
-Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer/innen.
+Zugangsrolle für externe Personen, die zum Zugriff auf bestimmte Ressourcen eingeladen wurden. Diese Personen/User erscheinen in OpenOlat als externe Benutzer:innen.
 
 
 ## Module
@@ -268,11 +268,11 @@ Digitale Auszeichnungen für Leistungen.
 
 ### Coaching
 
-Kursübergreifende Übersicht für Betreuer/innen zur Beobachtung von Lernenden. Siehe auch: Coaching Tool.
+Kursübergreifende Übersicht für Betreuer:innen zur Beobachtung von Lernenden. Siehe auch: Coaching Tool.
 
 ### Coaching Tool
 
-Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer/innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
+Der in OpenOlat verwendete Name für das Werkzeug, in dem Betreuer:innen kursübergreifend Lernende, Testkorrekturen und Bewertungen einsehen. Siehe auch: Coaching.
 
 ### Reports
 
@@ -348,7 +348,7 @@ Importfunktion des Content Editors, die Markdown-Dateien, Word-Dokumente (.docx)
 
 ### Bewertungswerkzeug
 
-Zentrale Oberfläche für Betreuer/innen und Besitzer/innen zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.
+Zentrale Oberfläche für Betreuer:innen und Besitzer:innen zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.
 
 ### Audio-/Videoaufnahme
 
@@ -360,7 +360,7 @@ Die Umwandlung hochgeladener Videodateien in browserübergreifend abspielbare Fo
 
 ### Massenbewertung
 
-Funktion, mit der Betreuer/innen mehrere Teilnehmende gleichzeitig bewerten können.
+Funktion, mit der Betreuer:innen mehrere Teilnehmende gleichzeitig bewerten können.
 
 ### Kalender
 
@@ -527,7 +527,7 @@ Vordefinierte Auswahl von rund 30 Icons, aus der das Symbol für ein externes Ku
 
 ### Arbeitsbereich
 
-Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer/innen arbeiten unter "Kurse", Betreuer/innen im "Coaching", Autor/innen im "Autorenbereich".
+Der einer Rolle zugeordnete Bereich in der Hauptnavigation, in dem die zur Rolle gehörenden Aufgaben erledigt werden. Die Hauptnavigation wird rollenabhängig zusammengesetzt: Teilnehmer:innen arbeiten unter "Kurse", Betreuer:innen im "Coaching", Autor:innen im "Autorenbereich".
 
 ### Systemadministration
 
@@ -584,15 +584,15 @@ Eine passwortbasierte Buchungsmethode, die die Kurseinschreibung auf Code-Inhabe
 
 Ein Datensatz, der erstellt wird, wenn eine Person einen Kurs über den Katalog bucht oder sich einschreibt.
 
-### Betreuer/innen Ordner
+### Betreuer:innen Ordner
 
-Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer/innen sichtbar ist.
+Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer:innen sichtbar ist.
 
 ### Kompetenz
 
 Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzern.
 
-### Korrektor/in
+### Korrektor:in
 
 Eine Person, die manuell Testabgaben innerhalb eines Korrekturworkflows benotet.
 
@@ -662,7 +662,7 @@ Ein Formularelement zur Bewertung mehrerer Kriterien anhand derselben Bewertungs
 
 ### Rückgabeordner
 
-Der Dateibereich innerhalb eines Aufgaben-Kursbausteins, in dem Betreuer/innen bewertete Arbeiten an Teilnehmende zurückgeben.
+Der Dateibereich innerhalb eines Aufgaben-Kursbausteins, in dem Betreuer:innen bewertete Arbeiten an Teilnehmende zurückgeben.
 
 ### Musterlösungen
 
@@ -710,7 +710,7 @@ Eine Kursvorlage im Course Planner, die zu einem späteren Zeitpunkt als Kursins
 
 ### Administrative Freigabe
 
-Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator/innen und Lernressourcenverwalter/innen die Ressource verwalten können.
+Zuordnung einer Lernressource zu einer oder mehreren Organisationen. Sie legt fest, welche Administrator:innen und Lernressourcenverwalter:innen die Ressource verwalten können.
 
 
 ### Verwendungszweck
@@ -1016,11 +1016,11 @@ Ein Kursbaustein zum Posten und Lesen von Kursmitteilungen.
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Teilnehmer/innen Ordner
+### Teilnehmer:innen Ordner
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
-### Liste der Teilnehmer/innen
+### Liste der Teilnehmer:innen
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
