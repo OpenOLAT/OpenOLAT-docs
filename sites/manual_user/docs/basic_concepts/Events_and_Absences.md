@@ -6,6 +6,9 @@ There are basically two types of events in OpenOlat:
 
 - Basic events (without the option to record absences)
 - Events with additional options: They appear in [Courses](../learningresources/Events_and_absences.md), in the [Course Planner](../area_modules/Course_Planner.md), and in [Absence Management](../area_modules/Absence_Management.md).
+These events can be linked to online meetings, and it is possible to record absences. Coaches can also be scheduled for these events. (Note: Only coaches can be designated as teachers.)<br>
+Events with additional options can have the status “Scheduled,” “Completed,” or “Canceled.”<br>
+If you do not have the necessary permissions, your view of events may be restricted. 
 
 
 |                           | Basic event | Event with absence |

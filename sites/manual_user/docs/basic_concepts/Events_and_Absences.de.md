@@ -7,7 +7,9 @@ In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 
 - einfache Termine (Einträge in Kalendern)
 - Termine mit Zusatzoptionen: Sie erscheinen in [Kursen ](../learningresources/Events_and_absences.de.md), im [Course Planer](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
-Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)
+Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)<br>
+Termine mit Zusatzoptionen können den Status "Geplant", "Erledigt" oder "Abgesagt" haben.<br>
+Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 
 
 |                           | einfache Termine | Termine mit Zusatzoptionen |
