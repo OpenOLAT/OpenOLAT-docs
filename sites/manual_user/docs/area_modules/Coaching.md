@@ -11,7 +11,7 @@ Available since | Release 10.0 (2014)
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
 With the coaching tool, course owners, course coaches and group coaches have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
-![coaching_tools_v2_en.png](assets/coaching_tools_v2_en.png){ class="shadow lightbox" }
+![Coaching entry page with the marked main menu entry Coaching, the buttons for people, courses, education products and groups, the tasks assessment orders and reports, the order management, and the widgets below.](assets/coaching_tools_v2_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -20,11 +20,11 @@ With the coaching tool, course owners, course coaches and group coaches have the
 
 You can find access to the data of the persons under care and the tools under the buttons.
 
-* Persons
+* People
 * Courses
 * Groups
 * Events / Absences
-* Evaluation tasks
+* Assessment orders
 * Reports
 * Order management
 
@@ -77,7 +77,7 @@ If, for example, you are only a direct coach in one course but also an education
 
 You can select one of your roles using the focus elements above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
 
-![coaching_focus_elements_v1_de.png](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
+![List of people in Coaching with the marked focus elements above the table for selecting one of your roles, e.g. as coach, as course owner or as line manager.](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#coaching)
 
@@ -89,7 +89,7 @@ You can select one of your roles using the focus elements above the list. This w
 #### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
-![coaching_overview_v1_en.png](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
+![Coaching entry page with the marked separator area Overview: the title Overview separates the widgets from the buttons and tasks above it.](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -118,7 +118,7 @@ Each event shows the following information:
 !!! note "Note"
     In the narrow (mobile) view, the location column is omitted. Only the time is shown.
 
-![coaching_widget_events_v1_en.png](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" }
+![Marked Event widget on the Coaching overview: week bar with today highlighted, one event entry with start time and duration, and the Show all button.](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" }
 
 #### Empty state
 
@@ -142,7 +142,7 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 The **Courses - As coach** widget shows the courses you coach.
 
-![coaching_widget_courses_v1_en.png](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" }
+![Marked Course widget on the Coaching overview: key figures Relevant, Favourites, Published and Access for coach, below them the course list with progress bars and the Show all button.](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" }
 
 Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -154,6 +154,27 @@ Use the defined filter **"Relevant"** (selected by default) or one of the other 
 * **Finished** (not selected by default)
 
 Use the **Show all** button to go to the full course list in the **Courses** tool.
+
+[To the top of the page ^](#coaching)
+
+---
+
+### Edit overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9273)" }](https://track.frentix.com/issue/OO-9273) {: #overview_customize}
+
+Below the widgets, the **"Edit overview"** button takes you to the edit mode.
+
+The edit mode offers two areas:
+
+* **Active widgets**: Here you rearrange the widgets via drag and drop (Move widget) or remove them.
+* **Available widgets**: Here you find deactivated widgets, which you can activate again via the **"Add to dashboard"** link. Newly added widgets are inserted at the end of the active widgets.
+
+![Edit mode of the Coaching overview with the marked areas Active widgets and Available widgets, the Add to dashboard link and the opened menu with Save as system default and Reset system default.](assets/coaching_overview_customize_v1_en.png){ class="shadow lightbox" }
+
+Use **"Save"** to apply your arrangement and **"Cancel"** to discard the changes. **"Reset dashboard"** restores the default arrangement.
+
+!!! tip "Note for system administrators"
+
+    As a system administrator, the edit mode offers you the additional actions **"Save as system default"** and **"Reset system default"** to define the system default for all users without a personal configuration. This also allows you to hide a single widget, e.g. the Event widget, for all users without a personal arrangement.
 
 [To the top of the page ^](#coaching)
 
