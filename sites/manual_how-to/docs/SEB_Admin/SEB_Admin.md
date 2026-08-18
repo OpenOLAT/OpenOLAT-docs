@@ -198,7 +198,8 @@ In this tab you can then also define whether the Safe Exam Browser should be use
 
     There are different types of events in OpenOlat:<br> 
     An event can (e.g. in Projects) have several assigned properties.<br>
-    In addition, there are also events that are merely calendar entries.
+    In addition, there are also events that are merely calendar entries.<br>
+    When working with the “Events/Absences” module, you are always dealing with events in the first category, which have additional properties associated with them.
 
 
 [To the top of the page ^](#SEB_admin)

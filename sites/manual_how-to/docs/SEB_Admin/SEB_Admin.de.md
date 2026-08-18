@@ -114,7 +114,7 @@ Informieren Sie sich auf der [Website des Herstellers (ETH Zürich)](http://www.
 Die Konfiguration des SEB kann gemacht werden
 
 - vollständig manuell im Kurs (durch Autor:innen)
-- mit Vorlage (bereitsgestellt durch Administrator:innen)
+- mit Vorlage (bereitgestellt durch Administrator:innen)
 
 Klären Sie als Administrator:in mit den Prüfungsverantwortlichen ab, ob und welche Vorlagen benötigt werden.
 
@@ -125,7 +125,7 @@ Klären Sie als Administrator:in mit den Prüfungsverantwortlichen ab, ob und we
 
 ### Schritt 6: SEB-Konfigurationsvorlage bereitstellen {: #SEB_config_file} 
 
-Sollen Konfigurationsvorlagen verwendet werden (Abklärung Schritt 5) können nun die in Schritt 4 gemachten Abklärungen in verschiedenen Konfigurationsvorlagen beschrieben und abgelegt werden. Unter
+Sollen Konfigurationsvorlagen verwendet werden (Abklärung Schritt 5), können nun die in Schritt 4 gemachten Abklärungen in verschiedenen Konfigurationsvorlagen beschrieben und abgelegt werden. Unter
 **Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"** können Sie auf 2 Arten eine Konfigurationsvorlage bereitstellen:
 
 - durch Erstellen einer Vorlage direkt in OpenOlat
@@ -198,7 +198,8 @@ In diesem Tab kann danach auch festgelegt werden, ob der Safe Exam Browser mit m
 
     In OpenOlat gibt es verschiedene Termine:<br> 
     Ein Termin kann (z.B. in Projekten) mehrere zugeordnete Eigenschaften haben.<br>
-    Daneben gibt es auch Termine, die lediglich Kalendereinträge sind.
+    Daneben gibt es auch Termine, die lediglich Kalendereinträge sind.<br>
+    Im Zusammenhang mit dem Modul "Termine/Absenzen" haben Sie es immer mit Terminen der ersten Kategorie zu tun, bei denen weitere Eigenschaften angehängt sind.
 
 
 [zum Seitenanfang ^](#SEB_admin)
