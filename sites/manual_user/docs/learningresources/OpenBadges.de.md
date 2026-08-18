@@ -33,43 +33,63 @@ Globale Badges sind unabhängig von Kursen. Andere Badges beziehen sich auf eine
 
 ---
 
-## Wie werden Kurs-Badges vergeben? {: #award_a_course-badge}
+## Wie werden Kurs-Badges vergeben? [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #award_a_course-badge}
 
-Sie können manuell oder automatisch anhand definierter Regeln vergeben werden.
+Kurs-Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
 
 ### Kurs-Badges manuell vergeben
 
 In jedem Kurs kann unter<br>
-**Administration > Einstellungen > Tab Bewertung > Abschnitt "Badges"**<br>
+`Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`<br>
 eine manuelle Vergabe durch Kursbesitzer:innen und Betreuer:innen ermöglicht werden.
 
-### Kurs-Badges im Bewertungstool vergeben
+### Kurs-Badges im Bewertungswerkzeug vergeben
 
-Badges können im Bewertungstool manuell auch über eine Massenaktion vergeben werden.
+Badges können im Bewertungswerkzeug manuell auch über eine Massenaktion vergeben werden.
 
-### Kurs-Badges automatisch vergeben
+### Kurs-Badges automatisch vergeben [:octicons-tag-16:{ title="ab Release 19.0 (OO-7073)" }](https://track.frentix.com/issue/OO-7073) {: #award_criteria}
 
-Während der Erstellung eines Badges mit dem Wizard können im Schritt "Vergabekriterien" Regeln für die automatische Vergabe eines Badges festgelegt werden.
+Während der Erstellung eines Badges mit dem Wizard können im Schritt "Vergabekriterien" Regeln für die automatische Vergabe eines Badges festgelegt werden. Mehrere Regeln werden mit "Und" verknüpft. Der Badge wird vergeben, sobald alle Bedingungen erfüllt sind.
+
+Folgende Kriterien stehen für Kurs-Badges zur Auswahl:
+
+* **Kurs bestanden**: Der Kurs ist bestanden.
+* **Kurs-Score**: Die Punktzahl des Kurses erreicht einen definierten Vergleichswert.
+* **Kursbaustein bestanden**: Der gewählte bewertbare Kursbaustein ist bestanden.
+* **Kursbaustein-Score**: Die Punktzahl eines bewertbaren Kursbausteins erreicht einen definierten Vergleichswert.
+* **Ein anderer Badge wurde bereits erworben**: Ein weiterer Badge dieses Kurses wurde bereits erworben.
+
+In Lernpfad-Kursen stehen zusätzlich zur Auswahl:
+
+* **Kursbaustein-Erledigungskriterium erfüllt** [:octicons-tag-16:{ title="ab Release 19.1 (OO-8046)" }](https://track.frentix.com/issue/OO-8046): Das Erledigungskriterium des gewählten Kursbausteins ist erfüllt.
+* **Lernpfad-Fortschritt**: Der Kursfortschritt erreicht einen definierten Prozentwert.
+
+Die Auswahl für "Kursbaustein bestanden" und "Kursbaustein-Score" enthält die bewertbaren Kursbausteine des Kurses, z.B. Test, Aufgabe oder Checkliste. Strukturbausteine sind nicht wählbar. Für einen Badge nach Abschluss eines Kursabschnitts wählen Sie deshalb die bewertbaren Kursbausteine innerhalb dieses Abschnitts als Bedingungen.
 
 [Zum Seitenanfang ^](#badges)
 
 ---
 
-## Wie werden globale Badges vergeben? {: #award_a_course-badge}
+## Wie werden globale Badges vergeben? [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #award_a_global-badge}
 
 Auch globale Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
 Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch [Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
 
 ### Globale Badges manuell vergeben
 
-Globale Badges können durch Administrator:innen manuell vergeben werden unter<br>
-**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Badge manuell vergeben"**.<br>
+Globale Badges können durch Administrator:innen in der System-Administration manuell vergeben werden unter<br>
+`Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Badge manuell vergeben"`
 
 ### Globale Badges automatisch vergeben
 
-Administrator:innen können die Regeln für eine automatische Vergabe einrichten unter<br>
-**Administration > e-Assessment > OpenBadges > Tab "Globale Badges"**.<br>
-Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden. 
+Administrator:innen können die Regeln für eine automatische Vergabe in der System-Administration einrichten unter<br>
+`Administration > e-Assessment > OpenBadges > Tab "Globale Badges"`<br>
+Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden.
+
+Folgende Kriterien stehen für globale Badges zur Auswahl:
+
+* **Kurse bestanden**: Die gewählten veröffentlichten Kurse sind bestanden.
+* **Badges erworben**: Die gewählten anderen globalen Badges wurden bereits erworben.
 
 [Zum Seitenanfang ^](#badges)
 
@@ -106,8 +126,8 @@ Er ist vorhanden bei den Kursbausteinen:
 **Im Kurseditor:**<br>
 Auch bei Klick auf dem obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
 
-**Unter Administration > Badges**:<br>
-Hier erscheint ein Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
+**In der Kursadministration:**<br>
+Unter `Kurs > Administration > Badges` erscheint eine Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
 
 Eine Schritt-für-Schritt-Anleitung für **Kurs-Badges** finden Sie [hier](../../manual_how-to/badges/badges.de.md).
 
@@ -133,22 +153,22 @@ Badges werden im Badge-Tool erstellt. Ein Wizard führt durch die Erstellung.<br
 
 Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf den Button "Neuen Badge erstellen"), führt Sie ein Wizard in Schritten durch den Erstellungsprozess.
 
-1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
-![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
+1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
+![Schritt Bild im Badge-Wizard: Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Badges.](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
 
-2. **Anpassung**: Wenn die Vorlage unter Berücksichtigung von Variablen erstellt wurde, können Sie Farben und Text in einer Vorlage ändern.
-![Wizard Schritt 2](assets/badges-wizard-2.de.jpg)
+2. **Anpassung**: Wenn die Vorlage mit Variablen erstellt wurde, können Sie z.B. Hintergrundfarbe und Titel der Vorlage ändern. Dieser Schritt erscheint nur bei anpassbaren Vorlagen.
+![Schritt Anpassung im Badge-Wizard: Für die gewählte Vorlage sind die Hintergrundfarbe Bronze und der Titel Test bestanden gesetzt, die Vorschau zeigt den fertigen Badge.](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
 
-3. **Details & Validierungszeitraum:** Obligatorische Details sind der Name, die Version und die Beschreibung des Badge sowie der Aussteller. Sie können zusätzlich eine URL und einen Kontakt zu den Ausstellereigenschaften hinzufügen. Die Gültigkeitsdauer kann auch so festgelegt werden, dass sie nie abläuft oder z.B. 12 Monate beträgt.
-![Wizard Schritt 3](assets/badges-wizard-3.de.jpg)
+3. **Details**: Obligatorische Angaben sind Name, Version und Beschreibung des Badges sowie der Herausgeber. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-Email hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden.
+![Schritt Details im Badge-Wizard mit den Pflichtfeldern Name, Version, Beschreibung und Herausgeber sowie Herausgeber-URL, Herausgeber-Email und dem Verfall mit Gültigkeitsdauer.](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
 
-4. **Kriterien**: Geben Sie die Kriterien und die Erklärung für die von Ihnen gewählten Regeln an.
-![Wizard Schritt 4](assets/badges-wizard-4.de.jpg)
+4. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben.
+![Schritt Vergabekriterien im Badge-Wizard: Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug und die gewählte Regel Kurs bestanden.](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
 
 5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
+![Schritt Zusammenfassung im Badge-Wizard: Badge-Vorschau mit Name, Version, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben.](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
 
-6. **Earners**: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
+6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger hier aus.
 
 !!! note "Hinweis"
 
@@ -160,14 +180,14 @@ Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf d
 
 ### Wo können Badges bearbeitet werden?
 
-!!! note "Hinweis"
+Solange ein Badge noch von niemandem erworben wurde, steht die Option "Bearbeiten" zur Verfügung.
 
-    Badges können nur bearbeitet werden, so lange noch niemand diesen Badge erworben hat.
+Wurde der Badge bereits erworben, ersetzt die Aktion "Neue Version erstellen" das Bearbeiten. Dabei können das Bild und die Beschreibung angepasst werden. Die Vergabekriterien und die Gültigkeitsdauer bleiben unverändert, und bereits vergebene Badges behalten ihre bisherige Version. Die Badge-Tabelle zeigt die Version in einer eigenen Spalte. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
 **In der Kursadministration:**<br>
-Administration > Badges > Klick auf die 3 Punkte am Ende einer Zeile > Option "Bearbeiten"
+`Kurs > Administration > Badges` > Klick auf die 3 Punkte am Ende einer Zeile > Option "Bearbeiten"
 
-Wurde auch an Betreuer:innen das Recht zum manuellen Vergeben von Badges erteilt (Administration > Einstellungen > Tab Bewertung > Abschnitt Badges), dann ist auch für Betreuer:innen im Menü "Administration" eine Übersicht unter "Badges" abrufbar. Allerdings können Betreuer:innen keine Badges neu erstellen, sondern lediglich manuell vergeben.
+Wurde Betreuer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` auch das Recht zum manuellen Vergeben von Badges erteilt, dann ist auch für Betreuer:innen im Menü "Administration" eine Übersicht unter "Badges" abrufbar. Allerdings können Betreuer:innen keine Badges neu erstellen, sondern lediglich manuell vergeben.
 
 
 **Im Kursmenü (als Kursbesitzer:in):**<br> 
@@ -181,7 +201,7 @@ Wählen Sie einen Kursbaustein, dem ein Badge hinzugefügt werden kann. [(Siehe 
 ## Ansicht vergebener Kurs-Badges {: #assigned_badges}
 
 Die Vergabe von **Kurs-Badges** wird durch Kursbesitzer:innen in jedem Kurs unter<br>
-**Einstellungen > Tab Bewertung > Abschnitt Badges** <br>
+`Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`<br>
 ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeben werden.
 
 Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
@@ -192,10 +212,9 @@ Wurden durch Teilnehmer:innen Badges erworben, sind sie ersichtlich in der **Lei
 
 ### Ansicht vergebener Badges in LinkedIn und anderen Websites {: #assigned_badges_LinkedIn}
 
-Grundsätzlich kann die Anzeige von OpenOlat-Badges auf anderen Websites manuell durch Export und Import gemacht werden.
+Die Anzeige von OpenOlat-Badges auf anderen Websites kann manuell durch Export und Import gemacht werden.
 
-LinkedIn ermöglicht es Ihnen, Zertifikate in Ihrem persönlichen Profil anzuzeigen. Das Zertifikat oder Abzeichen wird mit einer hostbasierten Verifizierung überprüft.
-Ein ähnliches Verfahren wird zur Überprüfung des Zertifikats oder Badges verwendet. 
+LinkedIn ermöglicht es Ihnen, Zertifikate und Badges in Ihrem persönlichen Profil anzuzeigen. Auf der Detailseite eines erworbenen Badges steht dafür der Button "Zu LinkedIn hinzufügen" zur Verfügung. OpenOlat übergibt Name, Aussteller, Ausstellungsdatum, Gültigkeitsdauer und die URL der öffentlichen Badge-Seite vorausgefüllt an LinkedIn. Der Badge wird dort mit einer hostbasierten Verifizierung überprüft. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7741)" }](https://track.frentix.com/issue/OO-7741)
 
 
 [Zum Seitenanfang ^](#badges)
@@ -204,7 +223,7 @@ Ein ähnliches Verfahren wird zur Überprüfung des Zertifikats oder Badges verw
 
 ## Echtheit eines Badges überprüfen {: #verification}
 
-Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellen Badge handelt.
+Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellten Badge handelt.
 
 Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
 
