@@ -1,6 +1,6 @@
 # Course Planner: Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
-![course_planner_implementations_v4_de.png](assets/course_planner_implementations_v4_de.png){ class="shadow lightbox" } 
+![Der Einstieg zu den Durchführungen, hervorgehoben im Bereich Produkte auf der Startseite des Course Planners, neben Produkte, Termine, To-dos, Reports, Zertifikatsprogramme und Raumverwaltung](assets/course_planner_implementations_v4_de.png){ class="shadow lightbox" } 
 
 
 ## Was ist eine Durchführung? {: #definition}
@@ -21,11 +21,11 @@ Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleic
 ## Die Liste der Durchführungen {: #listing}
 
 Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit Filtern die Auswahl eingrenzen.
-![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
+![Alle Durchführungen eines Produkts in einer filterbaren Liste mit Kennzeichen, Typ und Status, hier mit geöffnetem Filter Belegungsstatus, auf der Seite Durchführungen im Course Planner](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
 
 Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
-![course_planner_implementations_list_filter_v1_de.png](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" }  
+![Die Aktion Filter speichern im Menü rechts über der Tabelle, mit der eine Filterkombination als eigene Voreinstellung erhalten bleibt, auf der Seite Durchführungen im Course Planner](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" }  
 
 Über die individuelle Spaltenauswahl lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
@@ -51,7 +51,7 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 
 
-![course_planner_implementations_navigation_v2_de.png](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" }
+![Die Wege durch eine Durchführung: Button Gehe zu, Pfeiltasten zum Wechsel zwischen Durchführungen und die Tabs von Übersicht bis Reports, im Kopfbereich einer geöffneten Durchführung](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -72,13 +72,13 @@ Im Tab "Übersicht" werden Ihnen die Mitglieder, die nächsten Termine, die Ange
 
 Die Widgets **Kursinhalt** und **Katalog** zeigen zusätzlich ein Icon im Titel sowie den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
 
-![course_planner_implementations_tab_overview_v2_de.png](assets/course_planner_implementations_tab_overview_v2_de.png){ class="shadow lightbox" }
+![Die Widgets für Termine, Kursinhalt, Mitglieder und Katalog mit den Buttons Alle anzeigen und Details, im Tab Übersicht einer Durchführung](assets/course_planner_implementations_tab_overview_v2_de.png){ class="shadow lightbox" }
 
 #### Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
 
 Das Widget **Mitglieder** zeigt die Kennzahl **"Teilnehmer:innen"** dieser Durchführung, aufgeschlüsselt nach **"Aktiv"** und **"Ausstehend"**. Sind noch keine Kursverantwortlichen erfasst, zeigt das Widget den Hinweis "Noch keine Kursverantwortlichen." Über den Button **"Details"** gelangen Sie direkt zum Tab Mitglieder dieser Durchführung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
 
-![course_planner_implementations_widget_members_v1_de.png](assets/course_planner_implementations_widget_members_v1_de.png){ class="shadow lightbox" }
+![Die Kennzahl Teilnehmer:innen mit Aktiv und Ausstehend sowie der Hinweis Noch keine Kursverantwortlichen, im Mitglieder-Widget im Tab Übersicht einer Durchführung](assets/course_planner_implementations_widget_members_v1_de.png){ class="shadow lightbox" }
 
 Sind Kursverantwortliche erfasst, erscheinen sie anstelle des Hinweises mit ihrer Rolle (z.B. Betreuer:innen, Klassenlehrer:innen, Kursbesitzer:innen, Elementbesitzer:innen).
 
@@ -88,7 +88,7 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 * Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
 * Bei ausgebuchten oder überbuchten Durchführungen erscheint die entsprechende Meldung.
 
-![course_planner_implementations_widget_members2_v1_de.png](assets/course_planner_implementations_widget_members2_v1_de.png){ class="shadow lightbox" }
+![Verbleibende Plätze und Abstand zur Mindestanzahl unter der Teilnehmerzahl, dazu die Kursverantwortlichen mit ihren Rollen, im Mitglieder-Widget im Tab Übersicht](assets/course_planner_implementations_widget_members2_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#implementations)
 
@@ -100,25 +100,25 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur" angezeigt.
 In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
 
-![course_planner_implementations_tab_structure1_v1_de.png](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
+![Die Baumstruktur der Elemente mit dem geöffneten Menü Erstellen und den Spalten Ref., #Teilnehmer:innen und Status, im Tab Struktur einer Durchführung](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) Möchten Sie für diese Durchführung abweichend von der Produkt-Struktur ("Kopiervorlage" dieser Struktur) andere Elemente hinzufügen, finden Sie unter dem Button **Erstellen** die verfügbaren Element-Typen, wie sie in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen` definiert wurden. 
+![1](assets/1_green_24.png) Möchten Sie für diese Durchführung abweichend von der Produkt-Struktur ("Kopiervorlage" dieser Struktur) andere Elemente hinzufügen, finden Sie unter dem Button **Erstellen** die verfügbaren Element-Typen, wie sie in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen` definiert wurden. 
 
-![2_green_24.png](assets/2_green_24.png) Mit dem **Download-Button** können Sie die angezeigte Struktur auch als Excel-Datei herunterladen. 
+![2](assets/2_green_24.png) Mit dem **Download-Button** können Sie die angezeigte Struktur auch als Excel-Datei herunterladen. 
 
-![3_green_24.png](assets/3_green_24.png) In der Spalte **Referenzierungen** können Sie die in diesem Element referenzierten Inhalte (Kurse) anzeigen lassen.
+![3](assets/3_green_24.png) In der Spalte **Ref.** können Sie die in diesem Element referenzierten Inhalte anzeigen lassen; der Detailbereich heisst "Referenzierte Kurse".
 
-![4_green_24.png](assets/4_green_24.png) In dieser Spalte finden Sie die **Stundenpläne** der jeweiligen Elemente. 
+![4](assets/4_green_24.png) In dieser Spalte finden Sie die **Stundenpläne** der jeweiligen Elemente. 
 
-![5_green_24.png](assets/5_green_24.png) In dieser Spalte finden Sie die **Absenzen**. (Vorausgesetzt, das Absenzenmanagement ist aktiviert.) 
+![5](assets/5_green_24.png) In dieser Spalte finden Sie die **Absenzen**. (Vorausgesetzt, das Absenzenmanagement ist aktiviert.) 
 
-![6_green_24.png](assets/6_green_24.png) Wurde das Modul "Qualitätsmanagement" aktiviert, können Sie bei jedem Element zur zugeordneten **Datenerhebungsvorschau** springen.
+![6](assets/6_green_24.png) Wurde das Modul "Qualitätsmanagement" aktiviert, können Sie bei jedem Element zur zugeordneten **Datenerhebungsvorschau** springen.
 
-![7_green_24.png](assets/7_green_24.png) In der Spalte **Lernfortschritt** wird der durchschnittliche Fortschritt aller Teilnehmer:innen angzeigt. Berücksichtigt werden dabei alle Lernpfadkurse dieses Elements. (Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.)
+![7](assets/7_green_24.png) In der Spalte **Lernfortschritt** wird der durchschnittliche Fortschritt aller Teilnehmer:innen angezeigt. Berücksichtigt werden dabei alle Lernpfadkurse dieses Elements. (Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.)
 
-![8_green_24.png](assets/8_green_24.png) Unter den **3 Punkten** finden Sie Optionen zum Bearbeiten der Elemente.
+![8](assets/8_green_24.png) Unter den **3 Punkten** finden Sie Optionen zum Bearbeiten der Elemente.
 
-![course_planner_implementations_tab_structure2_v1_de.png](assets/course_planner_implementations_tab_structure2_v1_de.png){ class="shadow lightbox" }
+![Die Aktionen am Element: In neuem Tab öffnen, Bearbeiten, Neues Unterelement erstellen, Element kopieren, Mitgliederverwaltung und Löschen, im Menü der drei Punkte im Tab Struktur](assets/course_planner_implementations_tab_structure2_v1_de.png){ class="shadow lightbox" }
 
 #### Ein Element verschieben [:octicons-tag-16:{ title="ab Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
@@ -134,7 +134,7 @@ Nach der Auswahl einer Zielposition erscheinen direkt am Element die Aktionen:
 
 Mit einem Klick auf **Element verschieben** wird die Verschiebung ausgeführt.
 
-![course_planner_implementations_move_element_v1_de.png](assets/course_planner_implementations_move_element_v1_de.png){ class="shadow lightbox" }
+![Die möglichen Zielpositionen als Radiobuttons mit den Aktionen Oben, Unten und Unterelement, das zu verschiebende Element farbig hervorgehoben, im Dialog Element verschieben](assets/course_planner_implementations_move_element_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#implementations)
 
@@ -150,7 +150,12 @@ Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) we
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
 Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann wird Ihnen ein Button zum Entfernen über der Liste angezeigt.
 
-![course_planner_implementations_tab_content_v1_de.png](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
+![Die Kurse einer Durchführung mit Freigabe, Erstellerin und Status, dazu die Buttons Kurs hinzufügen und Entfernen für markierte Zeilen, im Tab Kursinhalt einer Durchführung](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+**Automatisch gesteuerte Kursinhalte** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
+Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberhalb der Liste der Abschnitt «Übersicht Automatisierung». Aufgeführt sind nur aktive Regeln, die den Inhalt betreffen. Zu jeder Regel sehen Sie die Art der Regel, also «Instanziierung» oder den Zielstatus, dazu das Datum der geplanten Ausführung und die Bedingung, die die Ausführung auslöst. Über den Link «Einstellungen» wechseln Sie direkt zur [Konfiguration der Automatisierung](#tab_settings_automation).
 
 <br>
 
@@ -159,7 +164,7 @@ Wenn es dem gewählten Durchführungstyp (Einzelkurs erforderlich) entspricht, b
 
 Die Verwendung eines Templates zur Instanzierung empfiehlt sich, wenn es sich um einen immer wiederkehrenden gleichen Kurs handelt.
 
-![course_planner_implementations_tab_content_template1_v1_de.png](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
+![Der Abschnitt Kurstemplate mit dem Button Kurstemplate hinzufügen unterhalb der noch leeren Kursliste, im Tab Kursinhalt einer Durchführung vom Typ Einzelkurs](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
 
 Die Buttons "Kurs hinzufügen" und "Kurstemplates hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
@@ -184,7 +189,7 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 - Ein Klick auf das **+** am Anfang einer Zeile zeigt die **Details** dieses Termins.
 - Es besteht auch die Möglichkeit, Termine zu **importieren**. Klicken Sie dazu auf den kleinen Pfeil neben dem Button "Termin hinzufügen".
 
-![course_planner_implementations_tab_events_v1_de.png](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" }
+![Die Termine einer Durchführung mit Datum, Zeit, Einheiten und Dozierenden, den Umschaltern Alle Ebenen und Diese Ebene und dem Button Termin hinzufügen, im Tab Termine](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -194,7 +199,7 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 
 ### Tab Mitglieder [:octicons-tag-16:{ title="ab Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
-![course_planner_implementations_tab_members_v1_de.png](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
+![Die Mitglieder einer Durchführung nach Rollen gefiltert, mit den Ansichten Aktiv, Ausstehend, Nichtmitglieder und Mitglieder-Historie, im Tab Mitglieder](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
 Wie bereits weiter oben erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
 
@@ -216,7 +221,7 @@ Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervor
 Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwenden Sie:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Mitglieder > Button "Teilnehmer:innen hinzufügen"`
 
-![course_planner_implementations_add_member_v1_de.png](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
+![Der Button Teilnehmer:innen hinzufügen rechts über der Mitgliederliste, mit dem der Assistent zur Aufnahme startet, im Tab Mitglieder einer Durchführung](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -230,7 +235,7 @@ Wenn Teilnehmer:innen einer Durchführung zugewiesen werden, erhalten sie je nac
 
 Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich.
 
-![course_planner_implementations_accept_membership_v1_de.png](assets/course_planner_implementations_accept_membership_v1_de.png){ class="shadow lightbox" }
+![Die Hinweisbox Anfragen zur Mitgliedschaft akzeptieren mit den Aktionen Details, Akzeptieren und Ablehnen, wie sie eingeladene Personen im Kursbereich vorfinden](assets/course_planner_implementations_accept_membership_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -243,11 +248,11 @@ Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manu
 #### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetzte/Ausbildungsverantwortliche {: #confirm_membership}
 
 
-Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Benutzer:innen einen Kurs buchen, der/die Vorgesetzte muss aber in einem Zwischenschritt die Buchung bestätigen oder ablehnen.
+Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Teilnehmende einen Kurs buchen; die vorgesetzte Person muss die Buchung aber in einem Zwischenschritt bestätigen oder ablehnen.
 
 Dieser Genehmigungsschritt kann auch in allen Angeboten eingerichtet werden, ausser bei Bezahlung mit Paypal (denn dort wird sofort bezahlt/gebucht).
 
-![course_planner_implementations_confirm_member_v1_de.png](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" }
+![Die Wahl zwischen Standard und Mit Bestätigung, dazu Bestätigung durch administrative Rollen und die Frist, im Schritt Mitgliedschaft des Assistenten Teilnehmer:innen hinzufügen](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -260,15 +265,15 @@ Dieser Genehmigungsschritt kann auch in allen Angeboten eingerichtet werden, aus
 Die verschiedenen Durchführungen können im Katalog angeboten werden. Dazu muss ein [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md) erstellt werden, wie zu jedem Katalogeintrag.
 
 
-![course_planner_implementations_tab_catalog1_v1_de.png](assets/course_planner_implementations_tab_catalog1_v1_de.png){ class="shadow lightbox" }
+![Die Angebote einer Durchführung mit dem Button Angebot hinzufügen und den Angebotsarten Zugangscode, Frei verfügbar, PayPal Checkout und Rechnung, im Tab Katalog](assets/course_planner_implementations_tab_catalog1_v1_de.png){ class="shadow lightbox" }
 
 Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, können Sie einen Direktlink auf das Angebot z.B. in einer Mail verschicken. Sie finden die Links in der Übersicht der Angebote (je Durchführung im Tab Katalog).
 
-![course_planner_implementations_tab_catalog3_v1_de.png](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" }
+![Die Direktlinks auf das Angebot für externen und internen Katalog, geöffnet über Zugang und Links in der Angebotsübersicht, im Tab Katalog einer Durchführung](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" }
 
 Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsaufträge und ihre Details ebenfalls unter dem Tab "Katalog" im Teilbereich "Buchungsaufträge" zu finden.  
 
-![course_planner_implementations_tab_catalog2_v1_de.png](assets/course_planner_implementations_tab_catalog2_v1_de.png){ class="shadow lightbox" }
+![Die Buchungsaufträge mit Status, Angebotstyp, Preis und Rechnungsadresse, dazu der Download der Liste und die Aktionen je Auftrag, im Teilbereich Buchungsaufträge im Tab Katalog](assets/course_planner_implementations_tab_catalog2_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -281,31 +286,33 @@ Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsa
 
 Die Vielzahl der möglichen Einstellungen zu einer Durchführung sind unter mehreren untergeordneten Tabs zu finden. Permanent ist eine Vorschau-Info-Seite verfügbar.
 
-![course_planner_implementations_tab_settings_v2_de.png](assets/course_planner_implementations_tab_settings_v2_de.png){ class="shadow lightbox" }
+![Die Unter-Tabs der Einstellungen von Metadaten bis Optionen und der Button Vorschau Info-Seite, im Tab Einstellungen einer Durchführung](assets/course_planner_implementations_tab_settings_v2_de.png){ class="shadow lightbox" }
 
 #### Metadaten der Einstellungen
 
 Die hier eingegebenen Metadaten werden verwendet um z.B. Suchprozesse zu vereinfachen.
 
-![course_planner_implementations_tab_settings_metadata_v1_de.png](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
+![Die Pflichtfelder Titel, Kennzeichen und Typ sowie Durchführungsformat und Fachbereiche, im Unter-Tab Metadaten der Einstellungen einer Durchführung](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
 
 
 #### Infos in den Einstellungen
 
 Die im Tab "Infos" gemachten Angaben werden z.B. für die Anzeige im Katalog verwendet.
 
-![course_planner_implementations_tab_settings_infos_v1_de.png](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" }
+![Die Angaben für die Informationsseite: Teaser, Titelbild, Beschreibung, Lernziele, Voraussetzungen und Zeitaufwand, im Unter-Tab Infos der Einstellungen](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" }
 
 #### Durchführung in den Einstellungen
 
 Zu den Einstellungen der Durchführung gehören der Durchführungszeitraum, der Ort und die Anzahl der Teilnehmer:innen.
 
-![course_planner_implementations_tab_settings_execution_v1_de.png](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
+![Durchführungszeitraum, Durchführungsort und die Mindest- und Maximalzahl der Teilnehmer:innen, im Unter-Tab Durchführung der Einstellungen](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
 
 
 #### Automatisierung konfigurieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
 
 Im Unterabschnitt **«Automatisierung»** der Tab-Einstellungen legen Sie fest, wann Kurse automatisch [instanziert](#tab_content) und wann Statuswechsel automatisch ausgelöst werden.
+
+Der Unterabschnitt erscheint bei Elementen, deren Elementtyp die Verwendung «Durchführung» oder «Element» hat. Bei der Verwendung «Durchführung oder Element (legacy)» fehlt er.
 
 Soll ein Kurs mehrfach und dabei immer genau gleich verwendet werden, kann er als Template angelegt werden. Die Kurse werden dann für jede Durchführung aus der Template-Vorlage erstellt. Die [Instanzierung](#tab_content) kann automatisiert zu einem bestimmten Zeitpunkt sowie rollenspezifisch erfolgen, z.B. einige Tage vor Beginn einer Durchführung zugänglich für Betreuer:innen. Bis dahin können die Templatebesitzer:innen noch am Template arbeiten, während die organisatorische Planung im Course Planner bereits läuft.
 
@@ -313,12 +320,12 @@ Soll ein Kurs mehrfach und dabei immer genau gleich verwendet werden, kann er al
 
 Automatisierungsregeln werden auf zwei Ebenen definiert:
 
-* **Elementtyp-Ebene** `Administration > Module > Course Planner > Tab Elementtypen`: Der Administrator hinterlegt Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
+* **Elementtyp-Ebene** in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`: Administrator:innen hinterlegen Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
 * **Element-Ebene** `Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
 
 Für das einzelne Element stehen zwei Modi zur Wahl:
 
-* **«Vom Typ "Elementtyp" übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passt der Administrator die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
+* **«Vom Typ "Elementtyp" übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passen Administrator:innen die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
 * **«Überschreiben»**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
 
 **Typen von Automatisierungsregeln:**
@@ -328,7 +335,13 @@ Für das einzelne Element stehen zwei Modi zur Wahl:
 | Bei Statuswechsel | Eine Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
 | Zeitgesteuert | Eine Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. |
 
-![course_planner_implementations_tab_settings_automation_v2_de.png](assets/course_planner_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" }
+**Ausführung der Regeln:**
+
+Aktivierte Automatisierungen laufen einmal täglich zu einer festen Uhrzeit. Die Uhrzeit nennt der Informationstext oberhalb der Konfiguration.
+
+Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter «Automatisierung» das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
+
+![Der Hinweis auf die täglich um 02:45 laufende Ausführung und die Wahl zwischen Vom Typ übernehmen und Überschreiben, im Unter-Tab Automatisierung der Einstellungen](assets/course_planner_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" }
 
 [Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
@@ -340,13 +353,13 @@ Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt 
 
 * Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
 * Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Bezeichnung, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
-* Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel. Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Zertifikationsprogramm entfernen"** die Verknüpfung auf. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
+* Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel. Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Entfernen"** die Verknüpfung auf; die Sicherheitsabfrage "Zertifikatsprogramm entfernen" bestätigt den Schritt. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
 
-![course_planner_implementations_tab_settings_assessment_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" }
+![Der Schalter Zertifikatsprogramm und der Button Auswählen, solange kein Programm verknüpft ist, im Unter-Tab Bewertung der Einstellungen einer Durchführung](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" }
 
-![course_planner_implementations_tab_settings_assessment_select_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" }
+![Die Programmliste mit Bezeichnung, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten, im Dialog Zertifikatsprogramm auswählen](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" }
 
-![course_planner_implementations_tab_settings_assessment_linked_v1_de.png](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" }
+![Das verknüpfte Programm mit den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm, im Unter-Tab Bewertung der Einstellungen](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" }
 
 Eine Durchführung kann auch direkt über das [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzugefügt werden.
 
@@ -363,7 +376,7 @@ Für jede Durchführung können hier separat Einstellungen vorgenommen werden f�
 - Absenzenmanagement
 - Fortschrittskonfiguration
 
-![course_planner_implementations_tab_settings_options_v1_de.png](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" }
+![Kalender-, Absenzen- und Fortschrittskonfiguration je Element übernommen oder überschrieben, dazu die Schalter Stundenplan und Absenzmanagement, im Unter-Tab Optionen](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -377,7 +390,7 @@ Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden.
 
 Die Aktivierung erfolgt in den Einstellungen der Durchführung: `Tab Einstellungen > Optionen > Absenzenkonfiguration`.
 
-![course_planner_implementations_tab_absences_v1_de.png](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
+![Anwesenheiten und Absenzen der Teilnehmenden mit Einheiten, entschuldigten und unentschuldigten Abwesenheiten und Anwesenheitsquote, im Tab Absenzen einer Durchführung](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -392,7 +405,7 @@ Die hier erstellbaren Reports beziehen sich auf die aktuell gewählte Durchführ
 Im Unterschied dazu bezieht sich die Report-Erstellung, die in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports.de.md) aufgerufen werden kann, auf **alle** Durchführungen. 
 Die Struktur der Excel-Dateien (Spalten) und das Vorgehen zum Erstellen ist bei beiden identisch.
 
-![course_planner_implementations_tab_reports1_v1_de.png](assets/course_planner_implementations_tab_reports1_v1_de.png){ class="shadow lightbox" }
+![Die Reportvorlagen mit Kategorie, Beschreibung und Typ, die Spalte Ausführen und darunter die erzeugten Excel-Dateien mit Download, im Tab Reports einer Durchführung](assets/course_planner_implementations_tab_reports1_v1_de.png){ class="shadow lightbox" }
 
 
 Durch Klick auf die **Pfeile in der Spalte "Ausführen"** werden anhand der aufgelisteten Vorlagen Excel-Dateien mit den aktuellen Daten erzeugt.
@@ -406,25 +419,25 @@ Die so erstellten Excel-Dateien finden Sie dann im unteren Bereich des Screens a
 
 ## Kopieren einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8418)" }](https://track.frentix.com/issue/OO-8418){:target="_blank"} {: #copy}
 
-Die Option zum Kopieren finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
+Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 
-![course_planner_implementations_copy1_v1_de.png](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
+![Die Aktion Element kopieren im Menü der drei Punkte am Ende einer Zeile, mit der der Kopier-Assistent startet, in der Liste der Durchführungen](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
 Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder und To-dos kopiert werden sollen.
 
-![course_planner_implementations_copy2_v2_de.png](assets/course_planner_implementations_copy2_v2_de.png){ class="shadow lightbox" }  
+![Titel und Kennzeichen der Kopie sowie die Optionen für Kursinhalt, eigenständige Termine, To-dos und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v2_de.png){ class="shadow lightbox" }  
 
 Der zweite Schritt des Wizards zeigt Ihnen eine Übersicht der Elemente, die nun kopiert werden.<br>
 Sie können hier noch Anpassungen (insbesondere der Termine) vornehmen.<br>
 Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Elements an.
 
-![course_planner_implementations_copy3_v1_de.png](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
+![Die zu kopierenden Elemente mit Beginn, Ende und den Zählern #Kurse, #Templates und #Termine, ein Element mit Kursen und Terminen aufgeklappt, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
-In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)"; Sie geben entweder die Verschiebung in Tagen ("Verschiebung nach") oder direkt das "Neue Datum" an.
+In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
 
-![course_planner_implementations_copy4_v2_de.png](assets/course_planner_implementations_copy4_v2_de.png){ class="shadow lightbox" }
+![Der Button Alle Daten schieben rechts über der Elementübersicht, mit dem sich alle Datumsangaben gemeinsam verschieben lassen, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy4_v2_de.png){ class="shadow lightbox" }
 
-![course_planner_implementations_copy5_v2_de.png](assets/course_planner_implementations_copy5_v2_de.png){ class="shadow lightbox" } 
+![Bezugsdatum, die Wahl der Verschiebung nach Datum oder Tage und das neue Datum, im Dialog Alle Daten schieben des Assistenten Element kopieren](assets/course_planner_implementations_copy5_v2_de.png){ class="shadow lightbox" } 
 
 ### To-dos beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
@@ -436,7 +449,7 @@ To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schrit
 
 In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit Titel, Priorität, Datumseingabe (absolut oder relativ), Fälligkeitsdatum, Status, Zuweisung, Delegation und Tags auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
 
-![course_planner_implementations_copy_todos_details_v1_de.png](assets/course_planner_implementations_copy_todos_details_v1_de.png){ class="shadow lightbox" }
+![Die Zähler #Kurse, #Templates, #Termine und #To-dos und darunter die Detailbereiche Kurse, Termine und To-dos eines aufgeklappten Elements, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy_todos_details_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#implementations)
 
@@ -447,11 +460,11 @@ In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos 
 
 Auch die Option zum Löschen finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 
-![course_planner_implementations_delete1_v1_de.png](assets/course_planner_implementations_delete1_v1_de.png){ class="shadow lightbox" } 
+![Die Aktion Löschen im Menü der drei Punkte am Ende einer Zeile, in der Liste der Durchführungen im Course Planner](assets/course_planner_implementations_delete1_v1_de.png){ class="shadow lightbox" } 
 
 Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Löschen auch rechts oben unter den 3 Punkten.
 
-![course_planner_implementations_delete2_v1_de.png](assets/course_planner_implementations_delete2_v1_de.png){ class="shadow lightbox" } 
+![Die Aktion Löschen im Menü der drei Punkte rechts oben, verfügbar in einer geöffneten Durchführung oberhalb der Tabs](assets/course_planner_implementations_delete2_v1_de.png){ class="shadow lightbox" } 
 
 
 [zum Seitenanfang ^](#implementations)
