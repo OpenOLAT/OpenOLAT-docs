@@ -25,9 +25,7 @@ Welche dieser Varianten verfügbar sind, entscheidet Ihre Administratorin oder I
 
 Sehr wenig. Für Zoom wählen Sie lediglich das vordefinierte Zoom-Profil aus. Beim Kursbaustein geschieht dies im Kurseditor im Tab "Zoom-Konfiguration", beim Kurs- und beim Gruppenwerkzeug im Dialog "Zoom konfigurieren". Alle weiteren Einstellungen (Meeting anlegen, Termin, Aufzeichnung und so weiter) nehmen Sie direkt in der eingebetteten Zoom-Oberfläche vor.
 
-!!! danger "⚡ Neues Bild erforderlich"
-
-    Screenshot des Tabs "Zoom-Konfiguration" im Kurseditor mit der Auswahl des Zoom-Profils.
+![Kursbaustein Zoom konfigurieren](assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 **Warum erscheint die Meldung "Zoom ist noch nicht konfiguriert"?**
 
@@ -59,20 +57,12 @@ Beim Beitritt übergibt OpenOlat ausschliesslich Ihre E-Mail-Adresse an Zoom. Zo
 
 Bevor das Zoom-Meeting zum ersten Mal geladen wird, erscheint der Dialog "Datenübermittlung akzeptieren". Die eingebettete Seite wird von Zoom Video Communications, Inc. geladen, dabei werden einige Ihrer persönlichen Daten an Zoom übertragen. Erst nach Klick auf "Ich akzeptiere die Datenübertragung" wird das Meeting geladen.
 
-!!! danger "⚡ Neues Bild erforderlich"
-
-    Screenshot des Dialogs "Datenübermittlung akzeptieren" mit dem Button "Ich akzeptiere die Datenübertragung" noch zu erstellen.
-
 
 ## :material-alert-circle-outline: Meeting starten und beitreten
 
 **Das Zoom-Meeting lässt sich nicht starten oder bleibt leer.**
 
 Bei einigen Browser-Konfigurationen, insbesondere wenn Cookies von Drittanbietern blockiert werden, kann das Meeting nicht innerhalb von OpenOlat geladen werden. Öffnen Sie das Meeting in diesem Fall über die Schaltfläche "Zoom in einem neuen Fenster öffnen" in einem eigenen Browser-Fenster.
-
-!!! danger "⚡ Neues Bild erforderlich"
-
-    Screenshot der Zoom-Ansicht mit der Schaltfläche "Zoom in einem neuen Fenster öffnen" noch zu erstellen.
 
 **Teilnehmende erhalten beim Beitritt eine 401-Fehlermeldung.**
 

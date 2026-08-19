@@ -25,9 +25,7 @@ Which of these variants are available is decided by your administrator. If you d
 
 Very little. For Zoom you only select the predefined Zoom profile. For the course element this is done in the course editor in the "Zoom configuration" tab, for the course tool and the group tool in the "Configure Zoom" dialog. All further settings (creating a meeting, scheduling, recording and so on) are made directly in the embedded Zoom interface.
 
-!!! danger "⚡ New image required"
-
-    Screenshot of the "Zoom configuration" tab in the course editor with the selection of the Zoom profile.
+![Configure course element Zoom](assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 **Why does the message "Zoom is not configured yet" appear?**
 
@@ -59,20 +57,12 @@ When joining, OpenOlat transmits only your email address to Zoom. Zoom assigns y
 
 Before the Zoom meeting is loaded for the first time, the "Accept data transmission" dialog appears. The embedded page is loaded by Zoom Video Communications, Inc., and some of your personal data is transmitted to Zoom in the process. The meeting is only loaded after you click "I accept the data transfer".
 
-!!! danger "⚡ New image required"
-
-    Screenshot of the "Accept data transmission" dialog with the "I accept the data transfer" button.
-
 
 ## :material-alert-circle-outline: Starting and joining a meeting
 
 **The Zoom meeting cannot be started or remains empty.**
 
 With some browser configurations, especially when third-party cookies are blocked, the meeting cannot be loaded within OpenOlat. In this case, open the meeting in a separate browser window using the "Open Zoom in a new window" button.
-
-!!! danger "⚡ New image required"
-
-    Screenshot of the Zoom view with the "Open Zoom in a new window" button.
 
 **Participants receive a 401 error message when joining.**
 
