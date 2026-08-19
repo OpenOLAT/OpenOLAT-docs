@@ -59,7 +59,7 @@ Zum Hinzufügen (weiterer) Termine verwenden Sie den Button "Termin hinzufügen"
 
 !!! info "Hinweis"
       
-    Der Button "Termin hinzufügen" wird nur angzeigt, wenn es sich um einen eigenständigen Kurs handelt. (Siehe Kurs-Administration > Einstellungen > Tab Freigabe > Abschnitt Verwendung)<br>Wird der Kurs im Course Planner verwendet, werden die Termine im Course Planner erstellt und verwaltet. 
+    Der Button "Termin hinzufügen" wird nur angezeigt, wenn es sich um einen eigenständigen Kurs handelt. (Siehe Kurs-Administration > Einstellungen > Tab Freigabe > Abschnitt Verwendung)<br>Wird der Kurs im Course Planner verwendet, werden die Termine im Course Planner erstellt und verwaltet. 
 
 Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin. 
 
