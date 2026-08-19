@@ -56,6 +56,10 @@ To add further events, use the "Add event" button at the top right above the lis
 
 ![events_and_absences_tab_events_create1_v1_de.png](assets/events_and_absences_tab_events_create1_v1_de.png){ class="shadow lightbox" }
 
+!!! info "Note"
+      
+    The “Add event” button is displayed only if the course is a standalone course. (See Course Administration > Settings > Sharing tab > Usage section)<br>If the course is used in the Course Planner, the events are created and managed in the Course Planner.
+
 A pop-up window will open for you to enter all the details for the event.
 
 ![events_and_absences_tab_events_create2_v3_de.png](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
