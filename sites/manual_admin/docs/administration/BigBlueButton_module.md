@@ -6,7 +6,7 @@ The virtual classroom BigBlueButton is activated in the system administration:<b
 This article describes the configuration of multiple BigBlueButton servers, load balancing and setting up system-wide room templates.
 
 Instructions on how to configure individual online dates are described in the
-chapter [Course Element BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.md).
+chapter [Course Element BigBlueButton](../../manual_user/learningresources/bigbluebutton/index.md).
 
 ---
 
@@ -125,6 +125,6 @@ Calendar overview of all recorded online appointments to check times with high o
 
 ## Further information
 
-[Instructions for configuring individual online appointments for course owners in the BigBlueButton course element](../../manual_user/learningresources/Course_Element_BigBlueButton.md)
+[Instructions for configuring individual online appointments for course owners in the BigBlueButton course element](../../manual_user/learningresources/bigbluebutton/index.md)
 
 

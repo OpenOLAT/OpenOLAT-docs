@@ -26,7 +26,7 @@ Information from the manufacturer can be found on the [Zoom homepage](https://zo
 
 As author you simply add a course element "Zoom" in the course editor and select only the predefined profile in the tab "Zoom configuration".
 
-![course_element_zoom_config_v1_de.png](assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
+![course_element_zoom_config_v1_de.png](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 You configure the other tabs as you are used to from other course elements.
 

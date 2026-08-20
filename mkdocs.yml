@@ -158,7 +158,7 @@ plugins:
           Authorisation in courses : Rechte in Kursen
           Authoring : Autorenbereich
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
-          BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
+          BBB - FAQ : BBB - FAQ
           Badges: Badges
           eAssessment OpenBadges: Badges
           Basic concepts : Basiskonzepte
@@ -646,7 +646,7 @@ plugins:
           Working with tables : Mit Tabellen arbeiten
           Working with videos : Arbeiten mit Videos
           Zoom : Zoom
-          Zoom - Frequently asked questions : Zoom - Häufig gestellte Fragen
+          Zoom - FAQ : Zoom - FAQ
           Zoom integration : Zoom-Integration
           ... create a bulk assessment for submission tasks : ... eine Massenbewertung für Einsendeaufgaben erstellen
           ... customize the course design with CSS (Expert) : ... Kursdesign mittels CSS manipulieren (Expert)

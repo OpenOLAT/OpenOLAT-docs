@@ -305,11 +305,13 @@ nav:
       - OpenMeetings: "learningresources/Course_Element_OpenMeetings.md"
       - Adobe Connect: "learningresources/Course_Element_Adobe_Connect.md"
       - GoToMeeting: "learningresources/Course_Element_GoToMeeting.md"
-      - BigBlueButton: "learningresources/Course_Element_BigBlueButton.md"
-      - BBB - Frequently asked questions : "learningresources/Frequentyl_asked_questions_BigBlueButton.md"
+      - BigBlueButton:
+        - "learningresources/bigbluebutton/index.md"
+        - BBB - FAQ: "learningresources/bigbluebutton/faq.md"
       - Microsoft Teams: "learningresources/Course_Element_Microsoft_Teams.md"
-      - Zoom: "learningresources/Course_Element_Zoom.md"
-      - Zoom - Frequently asked questions : "learningresources/Frequentyl_asked_questions_Zoom.md"
+      - Zoom:
+        - "learningresources/zoom/index.md"
+        - Zoom - FAQ: "learningresources/zoom/faq.md"
       - Enrolment: "learningresources/Course_Element_Enrolment.md"
       - Notifications: "learningresources/Course_Element_Notifications.md"
       - E-Mail: "learningresources/Course_Element_EMail.md"

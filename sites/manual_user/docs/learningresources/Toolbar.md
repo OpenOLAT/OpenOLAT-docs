@@ -118,7 +118,7 @@ E-mails can be sent from various locations. In addition to the [personal menu](.
 ![toolbar_BBB_v1_de.png](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox"}
 
 As an alternative to a course module, access to a video conferencing tool can also be enabled via an icon in the toolbar. In addition to BigBlueButton, other installed video conferencing tools can also be displayed in the toolbar (e.g., Microsoft Teams or Zoom).
-[More >](../learningresources/Course_Element_BigBlueButton.md)
+[More >](../learningresources/bigbluebutton/index.md)
 
 ---
 

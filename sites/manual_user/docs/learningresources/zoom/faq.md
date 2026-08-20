@@ -5,7 +5,7 @@
     Zoom is a commercial web conferencing system that is integrated into OpenOlat via the LTI 1.3 interface. The actual meetings, recordings and all other content are provided and managed by Zoom. OpenOlat provides the access, the automatic role assignment and the embedding of the meeting. The following questions and answers refer to the use of Zoom in combination with OpenOlat and are not exhaustive.
 
     * Information from the manufacturer can be found on the [Zoom homepage](https://zoom.us){target=_blank}.
-    * The use as a course element is described in [Course element "Zoom"](Course_Element_Zoom.md).
+    * The use as a course element is described in [Course element "Zoom"](index.md).
     * The setup by administrators is described in the [OpenOlat Administration Manual](https://docs.openolat.org/en/manual_admin/administration/Zoom/){target=_blank}.
 
 
@@ -25,7 +25,7 @@ Which of these variants are available is decided by your administrator. If you d
 
 Very little. For Zoom you only select the predefined Zoom profile. For the course element this is done in the course editor in the "Zoom configuration" tab, for the course tool and the group tool in the "Configure Zoom" dialog. All further settings (creating a meeting, scheduling, recording and so on) are made directly in the embedded Zoom interface.
 
-![Configure course element Zoom](assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Configure course element Zoom](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 **Why does the message "Zoom is not configured yet" appear?**
 

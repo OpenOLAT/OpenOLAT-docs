@@ -16,7 +16,7 @@ Group **participants** will then see the following items in the group menu on th
 | ![](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |
 | :o_icon_o_ep_icon: | Portfolio |  | Use a portfolio to jointly create a binder or add entries.  |
 | ![](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in virtual classrooms. |
-| ![](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/Course_Element_BigBlueButton.md). |  
+| ![](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/bigbluebutton/index.md). |  
 | ![](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new meetings for joint online session. |
 
   

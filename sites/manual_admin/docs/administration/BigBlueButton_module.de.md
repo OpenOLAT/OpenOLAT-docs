@@ -6,7 +6,7 @@ Das virtuelle Klassenzimmer BigBlueButton wird in der System-Administration akti
 Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, das Load-Balancing und das Einrichten von systemweiten Raumvorlagen.
 
 Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
-wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.de.md) beschrieben.
+wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources/bigbluebutton/index.de.md) beschrieben.
 
 ---
 
@@ -129,6 +129,6 @@ Kalenderübersicht über alle erfassten Online-Termine, um Zeiten mit hoher Bele
 
 ## Weitere Informationen
 
-[Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:innen im Kursbaustein BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.de.md)
+[Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:innen im Kursbaustein BigBlueButton](../../manual_user/learningresources/bigbluebutton/index.de.md)
 
 

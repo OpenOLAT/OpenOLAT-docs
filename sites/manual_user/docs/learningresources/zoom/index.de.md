@@ -27,7 +27,7 @@ Informationen des Herstellers finden Sie auf der [Zoom-Homepage](https://zoom.us
 
 Als Autor:in fügen Sie im Kurseditor einfach einen Kursbaustein "Zoom" ein und wählen im Tab "Zoom-Konfiguration" lediglich das vordefinierte Profil.
 
-![course_element_zoom_config_v1_de.png](assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
+![course_element_zoom_config_v1_de.png](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 Die anderen Tabs konfigurieren Sie, wie Sie es von anderen Kursbausteinen gewohnt sind.
 

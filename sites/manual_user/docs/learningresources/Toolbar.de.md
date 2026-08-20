@@ -118,7 +118,7 @@ E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Me
 ![toolbar_BBB_v1_de.png](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox"}
 
 Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool auch via Icon in der Toolbar ermöglicht werden. Neben BigBlueButton können auch andere installierte Videokonferenz-Tools in der Toolbar angezeigt werden (z.B. Microsoft Teams oder Zoom).<br>
-[Mehr dazu >](../learningresources/Course_Element_BigBlueButton.de.md)
+[Mehr dazu >](../learningresources/bigbluebutton/index.de.md)
 
 ---
 

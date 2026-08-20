@@ -18,8 +18,8 @@ The following virtual classrooms can be integrated in OpenOlat as external
 tools:
 
   * [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md)
-  * [BigBlueButton](../learningresources/Course_Element_BigBlueButton.md)
-    * [Frequently asked questions - BigBlueButton](../learningresources/Frequentyl_asked_questions_BigBlueButton.md)
+  * [BigBlueButton](../learningresources/bigbluebutton/index.md)
+    * [Frequently asked questions - BigBlueButton](../learningresources/bigbluebutton/faq.md)
   * [GoTo Meeting](../learningresources/Course_Element_GoToMeeting.md)
   * [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md)
   * [Vitero](../learningresources/Course_Element_vitero.md)

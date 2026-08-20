@@ -42,7 +42,7 @@ BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zus�
 
 Bei der Einbindung von BigBlueButton im Kurs kann entschieden werden, ob die Meetings, die mit dem Kursbaustein eingerichtet werden, nur durch die Moderatoren (entspricht den Kursbesitzern und Betreuern des Kurses) oder auch durch Teilnehmende gestartet werden kann. Bei aktivierter Option können Teilnehmende das Meeting erst betreten, wenn der Moderator das Meeting gestartet hat.
 
-![kurseditor.png](assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png) 
+![kurseditor.png](../assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png) 
 
 ## Räume erstellen, konfigurieren und betreten [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
@@ -52,7 +52,7 @@ Folgende Einstellungen erfolgen bei geschlossenem Editor.
 
 Im Tab "Terminverwaltung" können vom Kursbesitzer neue Räume angelegt und konfiguriert werden. Auch können bereits angelegte Termine kopiert oder gelöscht werden.
 
-![terminverwaltung.png](assets/image2020-4-7_13-29-23.png)
+![terminverwaltung.png](../assets/image2020-4-7_13-29-23.png)
 
 Folgende Varianten (Räume bzw. Termine) können erstellt werden:  
 
@@ -67,7 +67,7 @@ Folgende Varianten (Räume bzw. Termine) können erstellt werden:
 
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es werden separate Online-Termine/Reservierungen erstellt, welche anschliessend einzeln bearbeitet werden können. Je nach Konfiguration des Servers können hier auch unterschiedliche Auswahlmöglichkeiten bereitstehen.  
 
-![online_termin_hinzufugen.png](assets/bbb_erstellen.png)
+![online_termin_hinzufugen.png](../assets/bbb_erstellen.png)
 
 Folgende Detaileinstellungen können dabei vorgenommen werden: Die Einstellungen im Detail:
 
@@ -115,7 +115,7 @@ werden.
 
 Kursbesitzer und Kursbetreuer können bereits im Vorfeld ihre Präsentation(en) hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt angezeigt wird das oberste Dokument der Liste.
 
-![BBB_präsentation.png](assets/BBB_praesentation.png)
+![BBB_präsentation.png](../assets/BBB_praesentation.png)
 
 #### Aufzeichnungen
 
@@ -126,7 +126,7 @@ bereitgestellte Meetings sind hier direkt wählbar. Erfolgt die Bereitstellung m
 
     Die vorgenommenen Einstellungen unter "publizieren" als auch unter "löschen" gelten grundsätzlich sowohl für die Aufzeichnung als auch den Download! Löscht man also einen Eintrag wird die gesamte Aufzeichnung gelöscht.
 
-![BBB_manuall_publizieren.png](assets/bbb_manuell_publizieren.png)  
+![BBB_manuall_publizieren.png](../assets/bbb_manuell_publizieren.png)  
 
 ## Kalender Anzeige
 
@@ -142,7 +142,7 @@ Zusätzlich werden die in BigBlueButton erstellten Online-Termine automatisch
 in den kursspezifischen Kalender eingetragen. Von hier aus gelangen alle
 Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton Raum.
 
-![kalender.png](assets/image2020-4-7_14-14-5.png)  
+![kalender.png](../assets/image2020-4-7_14-14-5.png)  
   
 ## Teilnehmerperspektive
 
@@ -151,12 +151,12 @@ Ruft ein Kursteilnehmer einen BigBlueButton Kursbaustein auf, sieht er eine
 vorhanden. Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
 Raums.
 
-![BBB_ubersicht.png](assets/BBB_Uebersicht.png)
+![BBB_ubersicht.png](../assets/BBB_Uebersicht.png)
 
 Aktuelle Sessions können durch "Meeting beitreten" gestartet und der konkrete
 BigBlueButton Raum aufgerufen werden.
 
-![BBB_meeting_beitreten.png](assets/BBB_Meeting_beitreten.png)
+![BBB_meeting_beitreten.png](../assets/BBB_Meeting_beitreten.png)
 
 Bei abgelaufenen Meetings können die Räume nicht mehr betreten werden, aber
 man erhält hier Zugriff auf eventuelle Aufzeichnungen des Meetings. Betreuer
@@ -164,7 +164,7 @@ und Kursbesitzer können hier auch Aufzeichnungen löschen.
   
 ## BigBlueButton Meeting Raum
 
-![BBB_raum.png](assets/BBB-Raum.png)
+![BBB_raum.png](../assets/BBB-Raum.png)
 
 Der angezeigte Willkommen Text kann bei der Einrichtung des Raums angepasst
 werden. Sofern die User ein Profilbild hinterlegt haben, wird dieses auch in
@@ -179,9 +179,9 @@ Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch f�
 
 !!! note "Gastzugang"
     Informationen zum Gastzugang in OpenOlat.<br>
-    [Gastzugang](../basic_concepts/Roles_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
+    [Gastzugang](../../basic_concepts/Roles_Rights.de.md) Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
 
 Der Gastlink erscheint dann ebenfalls für Kursbesitzer und Betreuer bevor sie den Raum beteten.
 Zusätzlich kann während der Konfiguration des Raums ein Passwort für Gäste generiert werden.
 
-![BBB_externe.png](assets/bbb_externe2.png)
+![BBB_externe.png](../assets/bbb_externe2.png)

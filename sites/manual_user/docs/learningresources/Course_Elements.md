@@ -82,9 +82,9 @@ Course elements in this category are mainly used for collaborative work and exch
 * [:o_icon_o_openmeetings_icon: OpenMeetings](Course_Element_OpenMeetings.md)
 * [:o_icon_o_vc_icon: Adobe Connect](Course_Element_Adobe_Connect.md)
 * [:o_icon_o_gotomeeting_icon: GoToMeeting](Course_Element_GoToMeeting.md)
-* [:o_icon_o_vc_icon: BigBlueButton](Course_Element_BigBlueButton.md)
+* [:o_icon_o_vc_icon: BigBlueButton](bigbluebutton/index.md)
 * [:o_icon_o_vc_icon: Microsoft Teams](Course_Element_Microsoft_Teams.md)
-* [:o_icon_o_vc_icon: Zoom](Course_Element_Zoom.md)
+* [:o_icon_o_vc_icon: Zoom](zoom/index.md)
 
 </div>
 
@@ -94,7 +94,7 @@ Course elements in this category are mainly used for collaborative work and exch
 
 With the course elements 
 [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
-[BigBlueButton](Course_Element_BigBlueButton.md),
+[BigBlueButton](bigbluebutton/index.md),
 [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
 [Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
 
