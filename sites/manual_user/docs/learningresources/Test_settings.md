@@ -2,7 +2,7 @@
 
 In the "Administration" area of a test, you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Edit content" menus are particularly important. 
 
-![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
+![Expanded Administration menu of a test learning resource with the entries Settings, Members management, Edit content, Correction workflow, Offer types, Export handwritten exams, Copy, export content, Export to Word and Test Delete.](assets/test_administration_menu_v1_en.png){ class="shadow lightbox" }
 
 The basic configuration of the entire test is largely carried out in the **"Settings"**, particularly in the "Options" tab (see below).
 
