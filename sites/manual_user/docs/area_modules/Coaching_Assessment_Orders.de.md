@@ -1,13 +1,13 @@
 # Coaching - Bewertungsaufträge {: #assessment_orders}
 
-![coaching_assessment_orders1_v1_de.png](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
+![Startseite Coaching mit den Bereichen Coaching, Aufgaben und Administration: Der markierte Eintrag "Bewertungsaufträge" unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
 
 
 Hier sehen Sie, an welchen Stellen noch konkrete Coaching Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen, bzw. ob diese noch freigegeben werden müssen.
 
 Je nach Rolle, sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen angezeigt und Sie können sich einen Überblick verschaffen.
 
-![coaching_assessment_orders_open_assessments_v1_de.png](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
+![Tab Offene Bewertungen der Bewertungsaufträge: Die Liste zeigt je Zeile Anmeldename, Name, Kursname, Baustein, letzte Aktualisierung und den Link "Bewerten", filterbar über "Alle" und "Mir zugewiesen".](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -34,6 +34,23 @@ Der Tab ist nur relevant, wenn mindestens einem  Kursbaustein auch eine Bewertun
 Hier finden Sie alle Bewertungen, die noch nicht für die Teilnehmer:innnen sichtbar sind und noch freigegeben werden müssen. 
 
 In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf einmal freizugeben.
+
+[Zum Seitenanfang ^](#assessment_orders)
+
+---
+
+
+### Tab Korrekturaufträge {: #tab_grading_assignments}
+
+Dieser Tab erscheint nur, wenn Sie als Korrektor:in für einen Test eingetragen wurden. Sie sehen eine Übersicht der Tests in den verschiedenen Kursen, die Sie noch manuell prüfen und korrigieren müssen. Je nach Einstellung in der Lernressource "Test" erfolgt die Bewertung anonym oder nicht.
+
+![Tab Korrekturaufträge im Bereich Bewertungsaufträge des Coaching: Der Abschnitt "Meine Zuweisungen" filtert nach Kurs, Test, Status, Korrekturzeitraum und Punkten, die Liste zeigt Frist, Kurs, Kursbaustein und den Link "Korrigieren".](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
+
+Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen Sie in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
+
+Über den Link "Korrigieren" gelangen Sie direkt zum zu korrigierenden Test und nehmen dort manuelle Bewertungen vor. Automatische Bewertungen können Sie überschreiben. Hinterlassen Sie dazu einen Kommentar.
+
+Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [Auftragsverwaltung](Coaching_Order_Management.de.md).
 
 [Zum Seitenanfang ^](#assessment_orders)
 
