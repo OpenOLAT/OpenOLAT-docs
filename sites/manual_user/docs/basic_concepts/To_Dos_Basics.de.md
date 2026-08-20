@@ -1,79 +1,75 @@
-# To-dos
+# To-dos: Grundlagen
 
-## Wo gibt es in OpenOlat To-dos?
+Ein To-do ist eine Aufgabe mit einer verantwortlichen Person und einem Termin. OpenOlat führt To-dos in mehreren Modulen, überall mit denselben Feldern, demselben Statusmodell und derselben Benachrichtigung. Diese Seite beschreibt, was für alle To-dos gilt. Wie Sie in einem Modul damit arbeiten, steht auf der Seite des Moduls.
 
-Die zu erledigenden Aufgaben (To-dos) finden sich an mehreren Stellen in OpenOlat:
-
-* im [persönlichen Menü](../personal_menu/To-Dos.de.md)<br>
-Hier finden Sie alle Ihre persönlichen To-dos zusammengefasst in einer Übersicht.
-* innerhalb eines [Projektes](../area_modules/Project_Todos.de.md)<br>
-Hier handelt es sich um Aufgaben, die im Rahmen des Projektes zu erledigen sind.
-* im [Kurs](../learningresources/Course_todos.de.md)<br>
-Im Kursmenü `Administration > To-dos` können To-dos erstellt werden, die den aktuell editierten Kurs betreffen.
-* im [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)<br>
-* im [Course Planner](../area_modules/Course_Planner_Todos.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"}<br>
-Jedes CPL-Element verfügt über einen Tab «To-dos», in dem Aufgaben direkt dem Element zugeordnet werden können. Eine zentrale Übersicht fasst alle CPL-To-dos über alle Produkte hinweg zusammen.
+![Die persönliche To-do-Liste mit Statuskreisen, den Spalten Kontext Typ und Kontext und einem aufgeklappten Detailbereich mit den Aktionen Starten, Als erledigt markieren und Bearbeiten](assets/to_do_basics_personal_list_v1_de.png){ class="shadow lightbox" }
 
 
-## Bestandteile eines To-dos
+## Wo gibt es To-dos?
 
-Ein To-do ist eine Art Karteikarte, auf der es verschiedene Felder hat. 
+Aufgaben werden dort erfasst, wo sie anfallen. Im persönlichen Menü laufen sie zusammen.
 
-![to_do_basics_elements_v1_de.png](assets/to_do_basics_elements_v1_de.png){ class=" shadow lightbox" }
-
-* **Titel**<br>
-Ein Pflichtfeld. Vergeben Sie möglichst einen selbsterklärenden Titel.
-* **Tags**<br>
-Es können Tags zur Verschlagwortung erstellt werden. Einmal erstellte Tags können auch in anderen To-dos verwendet werden. Beachten Sie, dass es sich hier jedoch nicht um eine systematisch (hierarchisch) strukturierte Verschlagwortung (Taxonomie) handelt, wie sie an anderen Stellen in OpenOlat angelegt werden kann.
-* **Zugewiesen**<br> 
-Ein Pflichtfeld. Hier wird die Person ausgewählt, die für die Erledigung des To-dos verantwortlich ist.
-* **Delegiert**<br> Die Arbeit kann an eine andere Person delegiert werden, auch phasenweise immer wieder an andere Personen. Gesamtverantwortlich bleibt trotzdem die Person, die im Feld "Zugewiesen" eingetragen ist.
-* **Status** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}<br>
-Der Status zeigt den aktuellen Bearbeitungsstand (Offen, In Bearbeitung, Erledigt) und wird in der Listenansicht als farbiger Kreis neben dem Titel angezeigt. Über das Dropdown im Bearbeitungsdialog lässt sich der Status setzen. Die Schnellaktionen **«Starten»** (setzt den Status auf «In Bearbeitung») und **«Als erledigt markieren»** sind direkt aus der Liste verfügbar, ohne das To-do zu öffnen.
-* **Priorität**<br>
-Es kann klassifiziert werden nach: Dringend - Hoch - Mittel - Tief.
-* **Startdatum**<br>
-Das Startdatum kann für Erinnerungen verwendet werden. Sind sowohl Startdatum als auch Fälligkeitsdatum gesetzt, wird in der Listenansicht ein Fortschrittsbalken angezeigt. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}
-* **Fälligkeitstermin**<br>
-Das Datum, bis zu dem die Aufgabe erledigt sein soll.
-
-* **Zeitaufwand**<br>
-Ein Feld für den vermuteten Zeitaufwand. Die Angabe kann für Berechnungen verwendet werden.<br>
-Es können Wochen (w), Tage (d) und Stunden (h) angegeben werden. Beispiel: 3w 1d 6h
-* **Beschreibung**<br>
-Ergänzende Informationen zur Aufgabe.
-
-* **Links**<br>
-Hier kann dieses To-do mit Dateien, Terminen und Entscheidungen des Projektes verlinkt werden.
-* **Metadaten**<br>
-Erstellungsdatum des To-dos und alle Änderungen (wer, wann) können in den Metadaten nachvollzogen werden.
+| Ort | Was dort erfasst wird |
+|---|---|
+| [Persönliches Menü](../personal_menu/To-Dos.de.md) | Alle Ihre To-dos aus allen Modulen in einer Liste, dazu eigene To-dos ohne Modulbezug |
+| [Projekt](../area_modules/Project_Todos.de.md) | Aufgaben innerhalb eines Projekts, verknüpfbar mit Dateien, Terminen und Entscheidungen |
+| [Kurs](../learningresources/Course_todos.de.md) | Aufgaben zum Kurs, erstellt unter `Kurs > Administration > To-dos` |
+| [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md) | To-dos, die der Kursbaustein automatisch zuweist. Sie dienen der Information und lassen sich nicht bearbeiten oder löschen |
+| [Course Planner](../area_modules/Course_Planner_Todos.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} | Aufgaben auf jedem Element eines Produkts, dazu eine zentrale Übersicht über alle Produkte |
+| [Qualitätsmanagement](../area_modules/Quality_Management_To-dos.de.md) | Massnahmen, die aus einer Datenerhebung hervorgehen |
 
 
+## Die Felder eines To-dos
+
+Alle Module verwenden dieselbe Karteikarte. Drei Angaben gibt es nur in einem Modul.
+
+| Feld | Bedeutung | Verfügbar |
+|---|---|---|
+| Titel | Bezeichnet die Aufgabe. Vergeben Sie einen selbsterklärenden Titel | überall, Pflichtfeld |
+| Zugewiesen | Die Person, die für die Erledigung verantwortlich ist | überall, Pflichtfeld |
+| Delegiert | Die Ausführung kann an andere Personen delegiert werden, auch phasenweise an wechselnde. Die Verantwortung bleibt bei der zugewiesenen Person | überall |
+| Status | Der Bearbeitungsstand der Aufgabe | überall |
+| Priorität | Dringend, Hoch, Mittel oder Tief | überall |
+| Startdatum | Ab wann die Aufgabe läuft. Kann für Erinnerungen verwendet werden | überall |
+| Fälligkeitstermin | Das Datum, bis zu dem die Aufgabe erledigt sein soll | überall |
+| Zeitaufwand | Der geschätzte Aufwand in Wochen (w), Tagen (d) und Stunden (h), Eingabeformat `3w 1d 6h`. Die Angabe kann für Berechnungen verwendet werden | überall |
+| Tags | Frei vergebbare Schlagwörter | überall |
+| Beschreibung | Ergänzende Informationen zur Aufgabe | überall |
+| Kontext | Modul und Objekt, aus dem das To-do stammt. In der Liste als Spalten «Kontext Typ» und «Kontext» | überall |
+| Links | Verknüpfung des To-dos mit Dateien, Terminen und Entscheidungen | nur im Projekt |
+| Metadaten | Erstellung und alle Änderungen mit Person und Datum | nur im Projekt |
+| Relative Datumsangaben | Startdatum und Fälligkeitstermin bezogen auf den Durchführungszeitraum statt als festes Kalenderdatum | nur im [Course Planner](../area_modules/Course_Planner_Todos.de.md#relative_date) |
+
+Einmal erstellte Tags stehen auch in anderen To-dos zur Auswahl. Es handelt sich dabei nicht um eine hierarchisch strukturierte Verschlagwortung, wie sie die Taxonomie an anderen Stellen in OpenOlat bietet.
 
 
-## To-dos verwalten
+## Status und Schnellaktionen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}
 
-Sie können
+| Status | Bedeutung |
+|---|---|
+| Offen | Die Aufgabe ist erstellt, aber noch nicht begonnen |
+| In Bearbeitung | Die Arbeit an der Aufgabe hat begonnen |
+| Erledigt | Die Aufgabe ist abgeschlossen |
+| Gelöscht | Das To-do ist entfernt und nur noch über den Filter «Gelöscht» sichtbar |
 
-* neue To-dos erstellen (1)
-* Ihre To-dos nach Status sortiert anzeigen (2)
-* durch Klick auf den kleinen Pfeil am Zeilenanfang die Details eines To-dos aufklappen (3)
-* die To-dos bearbeiten (4)
-* To-dos löschen (Nach Selektion eines To-dos in der ersten Spalte wird der Löschen-Button angezeigt) (5)
+In der Liste steht der Status als farbiger Kreis neben dem Titel. Über das Pluszeichen am Zeilenanfang klappen Sie den Detailbereich auf. Dort ändern Sie den Stand, ohne den Dialog zu öffnen:
 
-![to-do_example_v1_de.png](assets/to-do_example_v1_de.png){ class=" shadow lightbox" }
+* **«Starten»** setzt den Status auf «In Bearbeitung». Die Aktion erscheint nur beim Status «Offen».
+* **«Als erledigt markieren»** schliesst die Aufgabe ab. Die Aktion erscheint bei den Status «Offen» und «In Bearbeitung».
+* **«Bearbeiten»** öffnet den Dialog mit allen Feldern.
 
-Zum **Kopieren** eines To-dos wählen Sie die Option **Duplizieren** unter den 3 Punkten am Ende einer Zeile. Zur Wahl der gewünschten Kopiervorlage helfen Ihnen die Tabs über der Liste. Z.B. indem Sie bereits erledigte To-dos vorselektieren.
+Sind Startdatum und Fälligkeitstermin gesetzt, zeigt die Liste zusätzlich einen Fortschrittsbalken.
 
-![to_do_basics_duplicate_v1_de.png](assets/to_do_basics_duplicate_v1_de.png){ class=" shadow lightbox" }
+Das Bild am Seitenanfang zeigt die Statuskreise und den aufgeklappten Detailbereich mit den Schnellaktionen.
 
-!!! note "Hinweis"
 
-    Wenn Sie Ihre To-dos statt im persönlichen Menü lieber in der Kopfzeile angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
-    `Persönliches Menü > Einstellungen > Tab System > Abschnitt Persönliche Werkzeuge`<br>
-    Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar.
+## Wer ein To-do bearbeiten darf
+
+Bearbeitungsrechte haben die Person, die das To-do erstellt hat, die zugewiesene und die delegierte Person. Welche Rollen darüber hinaus bearbeiten dürfen, legt das Modul fest: im [Course Planner](../area_modules/Course_Planner_Todos.de.md#todo_permissions) sind es Kursplaner:innen und Elementbesitzer:innen, im [Projekt](../area_modules/Project_Todos.de.md) die Projektleitung.
+
+To-dos lassen sich nur dort löschen, wo sie erstellt wurden.
 
 
 ## Benachrichtigungen
 
-Werden To-dos erstellt oder bearbeitet und andere Personen sind dadurch betroffen, so werden sie durch automatisch erstellte Mails über die Änderungen benachrichtigt. Bei mehreren Änderungen in kurzer Zeit wird eine zusammengefasste Mail erzeugt.
+Werden To-dos erstellt oder bearbeitet und sind andere Personen davon betroffen, benachrichtigt OpenOlat sie per E-Mail. Bei mehreren Änderungen in kurzer Zeit fasst OpenOlat sie in einer Mail zusammen.

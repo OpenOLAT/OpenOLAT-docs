@@ -31,6 +31,14 @@ The individual column selector can also be used to show the **Subjects** and **S
 !!! info "Important"
     The subjects are made available in the system administration, under `Administration > Modules > Taxonomy`.
 
+### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
+
+By activating the checkbox in the first column you select several implementations. The action **"Change type"** then appears above the table. In the dialog you choose the new element type and confirm with **"Change type"**. Only types that fit the selected elements are offered.
+
+The same action is available in the search of the Course Planner and in the "Structure" tab of an implementation.
+
+![Three selected implementations with the "Change type" action displayed and the dialog for choosing the new element type, in the implementation overview of the Course Planner](assets/course_planner_implementations_change_type_v1_en.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#implementations)
 
@@ -149,6 +157,8 @@ To **remove several courses**, select the courses with the checkboxes in the fir
 
 **Automatically controlled course content** [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
 If automation rules control the content of this implementation, the "Automation overview" section appears above the list. Only active rules that concern the content are listed. For each rule you see the type of rule, either "Instantiation" or the target status, plus the date of the planned execution and the condition that triggers the execution. Use the "Settings" link to switch directly to the [automation configuration](#tab_settings_automation).
+
+![Content tab of an implementation with the "Automation overview" info box: for each rule it shows the type, here instantiation and three target statuses, the planned execution date and the triggering condition, plus the "Settings" link.](assets/course_planner_implementations_tab_content_automation_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
@@ -331,7 +341,7 @@ Enabled automations run once a day at a fixed time. The information text above t
 
 As soon as at least one rule is active, the header of the implementation above the tabs shows the date of the next execution under "Automation". If no execution is pending, a dash appears there.
 
-![The note about the automations running daily at a fixed time and the choice between Adopt from type and Override, in the Automation sub-tab of the settings](assets/course_planner_implementations_tab_settings_automation_v2_en.png){ class="shadow lightbox" }
+![Automation sub-tab of the settings of an implementation: the "Override" mode is selected, the table lists context, automation, target status, condition and planned execution for each rule, the header names the next execution.](assets/course_planner_implementations_tab_settings_automation_v3_en.png){ class="shadow lightbox" }
 
 [To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
 [To the to-dos on CPL elements >](Course_Planner_Todos.md)

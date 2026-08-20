@@ -32,6 +32,14 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 !!! info "Wichtig"
     Die Fachbereiche werden in der System-Administration zur Verfügung gestellt, unter `Administration > Module > Taxonomie`.
 
+### Sammelaktion «Typ ändern» [:octicons-tag-16:{ title="ab Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
+
+Durch Aktivieren der Checkbox in der ersten Spalte markieren Sie mehrere Durchführungen. Oberhalb der Tabelle erscheint dann die Aktion **«Typ ändern»**. Im Dialog wählen Sie den neuen Elementtyp und bestätigen mit **«Typ ändern»**. Zur Wahl stehen nur Typen, die zu den markierten Elementen passen.
+
+Dieselbe Aktion steht in der Suche des Course Planners und im Tab «Struktur» einer Durchführung zur Verfügung.
+
+![Drei markierte Durchführungen mit der eingeblendeten Aktion «Typ ändern» und dem Dialog zur Auswahl des neuen Elementtyps, in der Durchführungsübersicht des Course Planners](assets/course_planner_implementations_change_type_v1_de.png){ class="shadow lightbox" }
+
 
 [zum Seitenanfang ^](#implementations)
 
@@ -156,6 +164,8 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 
 **Automatisch gesteuerte Kursinhalte** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
 Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberhalb der Liste der Abschnitt «Übersicht Automatisierung». Aufgeführt sind nur aktive Regeln, die den Inhalt betreffen. Zu jeder Regel sehen Sie die Art der Regel, also «Instanziierung» oder den Zielstatus, dazu das Datum der geplanten Ausführung und die Bedingung, die die Ausführung auslöst. Über den Link «Einstellungen» wechseln Sie direkt zur [Konfiguration der Automatisierung](#tab_settings_automation).
+
+![Tab Kursinhalt einer Durchführung mit der Infobox "Übersicht Automatisierung": Je Regel stehen die Art, hier Instanziierung und drei Zielstatus, das geplante Ausführungsdatum und die auslösende Bedingung, dazu der Link "Einstellungen".](assets/course_planner_implementations_tab_content_automation_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -341,7 +351,7 @@ Aktivierte Automatisierungen laufen einmal täglich zu einer festen Uhrzeit. Die
 
 Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter «Automatisierung» das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
 
-![Der Hinweis auf die täglich um 02:45 laufende Ausführung und die Wahl zwischen Vom Typ übernehmen und Überschreiben, im Unter-Tab Automatisierung der Einstellungen](assets/course_planner_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" }
+![Unter-Tab Automatisierung der Einstellungen einer Durchführung: Der Modus "Überschreiben" ist gewählt, die Tabelle listet je Regel Kontext, Automatisierung, Zielstatus, Bedingung und geplante Ausführung, der Kopfbereich nennt die nächste Ausführung.](assets/course_planner_implementations_tab_settings_automation_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
