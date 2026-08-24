@@ -5,11 +5,19 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![user_management_configure_user_v5_en.png](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Status badge, identity, organisation, account type and username summarise the account, below them 25 tabs from User profile to Grading assignments open the configuration: account settings of a person in the user management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
+Besides that, the account information states the status of the account, the identity, the account type, the username and the email address. Above the view, the action "Export data" compiles the personal data of the account, see [Data protection](Data_protection.md). At the same place the account can be deleted, see [Delete user](Delete_User.md).
+
 Each user account is maintained independently; accounts are not merged. A person's learning history, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
+
+If the option "Unique" is activated in the system administration, no two accounts with the same email address are created. You find the option in the section "User email address" under:<br>
+`Administration > Core functions > E-mail`, segment "Settings", see [Email Settings](../administration/E-Mail_Settings.md#email_address).
+
+!!! tip "Two accounts of the same person"
+    If two accounts of the same person exist nevertheless, decide which account is continued. Download the certificates of the second account in the "Certificates" tab with "Download certificate" and record them in the continued account with "Upload certificate". Then set the second account to inactive in the "Account" tab.
 
 
 ### User profile
@@ -132,7 +140,7 @@ Via the actions menu (three dots) of a row, a single evidence of achievement can
 
 This tab brings together all of the person's certificates, both those acquired in courses and those uploaded manually. For each certificate the table lists "Awarded by", "Origin", "Issued on", "Valid until", "Recertification", "Revoked on", "#Issued" and "State"; the predefined filters "All", "Valid" and "Expired" narrow down the list. Above the table on the right you can switch between tile and table view. "Upload certificate" is used to record externally acquired certificates so that the profile reflects the entire transcript of records.
 
-![user_management_certificates_v1_en.png](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
+![The list shows each certificate with its origin, date of issue and state, the button "Upload certificate" records externally acquired certificates: Certificates tab of an account in the user management](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -146,9 +154,9 @@ This tab displays all the badges you have purchased.
 
 ### Compensation for disadvantages
 
-Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab.
+Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab. The dialog "Add disadvantage compensation" requires "Approved by", "Approval date", "Extra time (minutes)" and the course. The field "Course element" narrows the compensation down to a single test of the course.
 
-![](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
+![Mandatory entries are "Approved by", "Approval date", "Extra time (minutes)" and the course, the field "Course element" narrows the compensation down to one test: dialog "Add disadvantage compensation" in the tab Compensation for disadvantages](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
