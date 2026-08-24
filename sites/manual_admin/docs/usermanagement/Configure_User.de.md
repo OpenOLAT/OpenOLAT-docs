@@ -4,11 +4,19 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![user_management_configure_user_v5_de.png](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
+![Statusbadge, Identität, Organisation, Kontotyp und Anmeldename fassen das Konto zusammen, darunter öffnen 25 Reiter von Profil bis Korrekturaufträge die Konfiguration: Kontoeinstellungen einer Person in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
 
 In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
+Daneben nennen die Kontoinformationen den Status des Kontos, die Identität, den Kontotyp, den Anmeldenamen und die E-Mail-Adresse. Über der Ansicht stellt die Aktion "Daten exportieren" die personenbezogenen Daten des Kontos zusammen, siehe [Datenschutz](Data_protection.de.md). An derselben Stelle lässt sich das Konto löschen, siehe [Benutzer:in löschen](Delete_User.de.md).
+
 Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Die Lernhistorie einer Person, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem sie entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
+
+Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen keine zwei Konten mit derselben E-Mail-Adresse. Sie finden die Option im Abschnitt "E-Mail Adresse" unter:<br>
+`Administration > Core Konfiguration > E-Mail`, Segment "Einstellungen", siehe [E-Mail Einstellungen](../administration/E-Mail_Settings.de.md#email_address).
+
+!!! info "Bestehen dennoch zwei Konten..."
+    derselben Person, entscheiden Sie, welches Konto weitergeführt wird. Zertifikate des zweiten Kontos laden Sie im Reiter "Zertifikate" über "Zertifikat herunterladen" herunter und erfassen sie im weitergeführten Konto über "Zertifikat hochladen". Das zweite Konto setzen Sie danach im Reiter "Konto" auf inaktiv.
 
 
 ### Profil
@@ -20,7 +28,7 @@ Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und A
 
 ### Systemeinstellungen
 
-Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
+Hier werden die vom/von der Benutzer:in vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
 Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
 
 [zum Seitenanfang ^](#user_configuration)
@@ -74,15 +82,15 @@ Hier können die zu dem/der Benutzer:in gespeicherten Einstellungen des GUI zur�
 
 ### Gruppen
 
-Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann der/die User:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
+Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann der/die Benutzer:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Lernressourcen
 
-Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des Users/der Userin.
-Benutzerverwalter:innen und Administrator:innen können die User:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die User:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
+Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des/der Benutzer:in.
+Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -104,14 +112,14 @@ Hier werden alle Portfolio-Mappen angezeigt, zu welchen der/die Benutzer:in eing
 
 ### Buchungen
 
-Hier werden die Buchungsaufträge und Vorbestellungen des Users angezeigt. 
+Hier werden die Buchungsaufträge und Vorbestellungen des/der Benutzer:in angezeigt. 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558)
 
-Hier sind die erworbenen Kreditpunkte des Users angezeigt. 
+Hier sind die erworbenen Kreditpunkte des/der Benutzer:in angezeigt. 
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -131,7 +139,7 @@ Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benut
 
 Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; über die vordefinierten Filter "Alle", "Gültig" und "Abgelaufen" lässt sich die Liste eingrenzen. Rechts über der Tabelle wird zwischen Kachel- und Tabellenansicht umgeschaltet. Über "Zertifikat hochladen" werden extern erworbene Zertifikate erfasst, damit das Profil den gesamten Leistungsnachweis abbildet.
 
-![user_management_certificates_v1_de.png](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
+![Die Liste führt jedes Zertifikat mit Herkunft, Ausstellungsdatum und Status, der Button "Zertifikat hochladen" erfasst extern erworbene Nachweise: Reiter Zertifikate eines Kontos in der Benutzerverwaltung](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -145,16 +153,16 @@ Unter diesem Reiter werden alle erworbenen Badges angezeigt.
 
 ### Nachteilsausgleich
 
-Ein Nachteilausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden.
+Ein Nachteilausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
 
-![](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
+![Pflichtangaben sind "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und der Kurs, das Feld "Kursbaustein" grenzt den Ausgleich auf einen Test ein: Dialog "Nachteilsausgleich hinzufügen" im Reiter Nachteilsausgleich](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Abonnements [:octicons-tag-16:{ title="ab Release 8.1.2 (OO-265)" }](https://track.frentix.com/issue/OO-265)
 
-Hier werden sämtliche Abonnements eines Benutzers/einer Benutzerin angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
+Hier werden sämtliche Abonnements des/der Benutzer:in angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -175,7 +183,7 @@ Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit 
 
 ### Termine
 
-Hier finden Sie eine Übersicht über die Termine und Absenzen des Users/der Userin.
+Hier finden Sie eine Übersicht über die Termine und Absenzen des/der Benutzer:in.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -189,7 +197,7 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Durchführungen und Kurse des Benutzers/der Benutzerin wie im Coaching-Tool aus Sicht Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r.
+Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Durchführungen und Kurse des/der Benutzer:in wie im Coaching-Tool aus Sicht Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r.
 
 !!! note "Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche"
     Details zu Filtern, Status und Darstellung dieser Ansicht.<br>
@@ -200,7 +208,7 @@ Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Du
 
 ### Korrekturaufträge
 
-Hier kann abgefragt werden, welche Korrekturaufträge diesem Benutzer / dieser Benutzerin zugeordnet wurden.
+Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeordnet wurden.
 
 [zum Seitenanfang ^](#user_configuration)
 
