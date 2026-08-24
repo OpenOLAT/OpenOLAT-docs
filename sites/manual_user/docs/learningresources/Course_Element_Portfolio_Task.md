@@ -93,7 +93,7 @@ If the course owner has activated the assignment of badges under **Administratio
 
 ![course_element_portfolio_task_tab_badges_v1_de.png](assets/course_element_portfolio_task_tab_badges_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#course-element-portfolio-task--course_element_portfolio)
+[To the top of the page ^](#course_element_portfolio)
 
 ---
 

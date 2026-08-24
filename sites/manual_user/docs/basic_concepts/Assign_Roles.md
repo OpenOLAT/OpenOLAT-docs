@@ -127,14 +127,14 @@ Specific rights can be defined for each user-to-user relationship and thus acces
 
 ## Further information
 
-[Organisation roles](../basic_concepts/Roles.md#organisation-wide-roles--org)<br> 
-[Course roles](../basic_concepts/Roles.md#roles-in-a-course--course)<br> 
-[Group roles](../basic_concepts/Roles.md#roles-in-groups--groups)<br> 
+[Organisation roles](../basic_concepts/Roles.md#org)<br> 
+[Course roles](../basic_concepts/Roles.md#course)<br> 
+[Group roles](../basic_concepts/Roles.md#groups)<br> 
 [Creating a new group](../groups/Create_Groups.md)<br> 
 [Group management](../area_modules/Group_Management.md)<br>
-[Roles in an organization unit](../basic_concepts/Roles.md#roles-in-an-organization--orgunit)<br> 
-[Self-defined roles and relations](../basic_concepts/Roles.md#self-defined-roles-and-relations--relations)<br> 
-[Role "Invitee"](../basic_concepts/Roles.md#role-invitee--invitee)
+[Roles in an organization unit](../basic_concepts/Roles.md#orgunit)<br> 
+[Self-defined roles and relations](../basic_concepts/Roles.md#relations)<br> 
+[Role "Invitee"](#role_assignment_invitee)
 
 [To the top of the page ^](#role_assignment)
 

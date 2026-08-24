@@ -66,7 +66,7 @@ If you share this link, this course can be accessed directly. If the person is n
 **Administrative Share**<br>
 People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organizational units selected here. Because these roles exist per organizational unit (e.g., admin for department xy), you can determine here which organizational units will have administrative access to your course.
 If the Organizational Units module is not activated, you will only find a single organization here (usually "OpenOlat").<br>
-You can see how many people have administrative access in the [share overview >](#section-share--section_share).
+You can see how many people have administrative access in the [share overview >](#section_share).
 
 **Authors can**<br>
 Allow other authors to reference, copy, or export their course here.

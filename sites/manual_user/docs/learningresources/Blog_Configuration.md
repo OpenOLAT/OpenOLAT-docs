@@ -38,7 +38,7 @@ Here you can determine whether the information entered in the blog **learning re
 ### ![3_green_24.png](assets/3_green_24.png) Notifications
 
 **Moderator**<br>
-At course element level, you can determine whether coaches can take on the [moderator role](../learningresources/Blog_Blogging.md#blogging--blog_blogging) in addition to the course owner. Since the same learning resource can be used in different courses and course elements, the learning resource can be configured with moderator rights for coaches in one course and without moderator rights for coaches in another course.
+At course element level, you can determine whether coaches can take on the [moderator role](../learningresources/Blog_Blogging.md#blog_blogging) in addition to the course owner. Since the same learning resource can be used in different courses and course elements, the learning resource can be configured with moderator rights for coaches in one course and without moderator rights for coaches in another course.
 
 If you activate the toggle button "Show advanced configuration", you have the option of limiting the moderator role to certain time periods. You can also designate specific individuals (regardless of their role) as moderators.
 

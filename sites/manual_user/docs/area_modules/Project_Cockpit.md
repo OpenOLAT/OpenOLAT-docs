@@ -46,7 +46,7 @@ The objects in a project can be linked to each other to make it easier to find r
 
 ## Notifications
 
-Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [Subscription function](../personal_menu/Personal_Tools.md#subscriptions--subscriptions) (on the right-hand side, below the images of the project members).
+Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [Subscription function](../personal_menu/Personal_Tools.md#subscriptions) (on the right-hand side, below the images of the project members).
 
 ![Projekte abonnieren](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" }
 
@@ -55,7 +55,7 @@ Several people work together on a project, so it is important to be informed abo
     The subscription function is activated in new projects by default. It can be switched off using the toggle button.
 
 
-The [Subscription function](../personal_menu/Personal_Tools.md#subscriptions--subscriptions) is also available in many other OpenOlat course elements. In projects it has the following special feature:
+The [Subscription function](../personal_menu/Personal_Tools.md#subscriptions) is also available in many other OpenOlat course elements. In projects it has the following special feature:
 
 * **Bulk mails** are created to avoid sending a mail for every small change in the project.
 * **Exception**: Changes to to-dos

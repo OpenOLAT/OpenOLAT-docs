@@ -92,7 +92,7 @@ For space reasons, it is recommended not to display all information on the tile 
 **Insert:** The header images for microsites (in taxonomy launchers/categories) are uploaded (with administrator rights) under **Administration > Module > Taxonomy > "Meta data"**. <br>
 **Sample:** [half-transparent png to download >](assets/catalog20_image_pattern_course.zip)
 
-[To the top of the page ^](#catalog-20---design---catalog_design)
+[To the top of the page ^](#catalog_design)
 
 ---
 

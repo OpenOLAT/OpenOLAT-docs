@@ -9,8 +9,8 @@ There are folders in various places in OpenOlat in which media files are also st
 
 **Examples:**
 
-* [Storage folder of a course >](../basic_concepts/Folder_Concept.md#storage-folder--storage_folder)
-* [Group folder >](../basic_concepts/Folder_Concept.md#folder-for-members-of-a-group-group-folder--group_folder)
+* [Storage folder of a course >](../basic_concepts/Folder_Concept.md#storage_folder)
+* [Group folder >](../basic_concepts/Folder_Concept.md#group_folder)
 
 
 

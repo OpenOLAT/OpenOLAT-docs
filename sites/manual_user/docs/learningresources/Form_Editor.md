@@ -38,7 +38,7 @@ The form editor can also be called up from other course elements in the same way
 
     As the learning resource form can be used in very different ways, it makes sense to consider the later use when assigning the title, e.g. to prefix it with a suitable abbreviation. This makes it easier to find and assign later.
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -60,7 +60,7 @@ The following layout templates are currently available:
 
 ![form_layoutblock_template_V1.jpg](assets/form_layoutblock_template_V1.jpg)
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -82,7 +82,7 @@ Further options for editing this layout can be found in the icons to the right (
     Existing layouts can be changed. If you delete or change layouts, existing blocks are moved into the existing columns. 
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -97,7 +97,7 @@ The new element is inserted in the layout area in which the button is located.
 ![form_content_add_v1_de.png](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -124,7 +124,7 @@ Here you can select the size of the space between the content blocks. (Comparabl
 ![form_content_title_layout_v1_de.png](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -135,7 +135,7 @@ Among the icons in the top left-hand corner - they appear as soon as a content e
 ![form_content_move_v1_de.png](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -158,7 +158,7 @@ You can make the configuration here as you know it from other learning resources
     If you want to use the form in courses, you do not need to set up the "Release" tab of the learning resource form any further. Setting up the "Release" tab is primarily relevant if you want to use the learning resource stand-alone.
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 
@@ -172,7 +172,7 @@ Here are a few more tips for using the Form Editor:
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.
 
 
-[To the top of the page ^](#the-form-editor--editor)
+[To the top of the page ^](#editor)
 
 ---
 

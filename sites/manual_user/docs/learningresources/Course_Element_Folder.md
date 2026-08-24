@@ -122,7 +122,7 @@ You can display the [WebDAV link](../basic_concepts/Using_WebDAV.md) and update 
 
 ### Metadata  {: #metadata}
 
-Course owners can edit the specific [metadata](../basic_concepts/Full_Text_Search.md#meta-data--metadata) of a file via the 3-dot menu of a specific file. 
+Course owners can edit the specific [metadata](../basic_concepts/Full_Text_Search.md#metadata) of a file via the 3-dot menu of a specific file. 
 
 In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
 

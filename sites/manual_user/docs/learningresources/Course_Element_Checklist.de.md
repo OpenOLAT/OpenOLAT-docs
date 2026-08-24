@@ -118,4 +118,4 @@ Im **dritten** Schritt der Checklisten Sammelfunktion können Sie die Titel der 
 
 Im **vierten** Schritt definieren Sie Titel und Beschreibung des übergeordneten Struktur-Kursbausteins. Kurztitel und Titel werden wie gewohnt in der Navigation und der Kurselement-Übersicht angezeigt.
 
-Im unteren Teil des Formulars legen Sie fest ob Bewertungsinformationen aus den Checklisten im Strukturbaustein angezeigt werden sollen, und wie die Bewertung vorgenommen wird. Informationen zum Struktur-Kursbaustein und der Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung - [Strukturbaustein: Punkte](Course_Element_Structure.de.md#tab-punkte--score).
+Im unteren Teil des Formulars legen Sie fest ob Bewertungsinformationen aus den Checklisten im Strukturbaustein angezeigt werden sollen, und wie die Bewertung vorgenommen wird. Informationen zum Struktur-Kursbaustein und der Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung - [Strukturbaustein: Punkte](Course_Element_Structure.de.md#score).

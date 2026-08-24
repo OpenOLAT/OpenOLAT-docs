@@ -4,7 +4,7 @@ The learning resource Form, especially the [rubric](Form_Element_Rubric.md) elem
 
 !!! info "Note"
 
-    Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md#coach-peer-review--coach_task_peer_review).
+    Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md).
 
 ## In the course editor
 

@@ -250,7 +250,7 @@ These points can also be used in certificate programs for recertification, for e
 Organizations can define and name their own credit point systems and restrict them as needed, for example, by role or organizational area. After successfully completing a learning program, credit points can be assigned in a targeted manner to support long-term use for recertification.
 
 [Activate Credit Points system-wide (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Awarding credit points in courses >](../learningresources/Course_Settings_Assessment.md#4_green_24png-section-credit-points--section_credit_points)<br>
+[Awarding credit points in courses >](../learningresources/Course_Settings_Assessment.md#section_credit_points)<br>
 [Credit Points in the Personal Menu >](../personal_menu/Credit_Points.md)<br>
 
 [To the top of the page ^](#offer_concepts)

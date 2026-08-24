@@ -122,7 +122,7 @@ Click on the "+" icon at the beginning of a line in the question list. The previ
 
 ![question_bank_use_questions_metadata2_v1_de.png](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" }
 
-Further information on the individual metadata can be found in the chapter [Detailed view of a question - Metadata](Item_Detailed_View.md#edit-metadata--metadata_edit).
+Further information on the individual metadata can be found in the chapter [Detailed view of a question - Metadata](Item_Detailed_View.md#metadata_edit).
 
 [To the top of the page ^](#using_the_questions)
 

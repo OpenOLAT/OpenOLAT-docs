@@ -24,7 +24,7 @@ If your job involves managing the users of the OpenOlat instance, you will need 
 
 To efficiently find a specific user, there is an account search feature that allows you to search for people based on very specific criteria.
 
-A [bulk search](Search_General.md#bulk-search--bulk_search) is also available.
+A [bulk search](Search_General.md#bulk_search) is also available.
 
 ![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 

@@ -49,7 +49,7 @@ To edit a note, click on the name of the course.
 
 [Preventing notes in assessment mode >](../learningresources/Assessment_mode.md#what-is-meant-by-assessment-mode)<br>
 [Difference to project notes >](../area_modules/Project_Notes.md)<br>
-[Difference to notes in tests >](../learningresources/Configure_tests.md#tab-expert--expert)<br>
+[Difference to notes in tests >](../learningresources/Configure_tests.md#expert)<br>
 [Notes and data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
 
 [To the top of the page ^](#notes)

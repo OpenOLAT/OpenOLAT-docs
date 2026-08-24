@@ -124,7 +124,7 @@ The  **third**  step of the wizard allows you to customize the individual checkl
 
 Define the title and description of the parent structure course element in the **fourth**  and last step. Both short title and title are displayed as usual in the course.
 
-Determine whether assessment information from the checklist sub-elements should be displayed in the course element "Structure", and how the assessment should be conducted. For more information on the course element "Structure" and the assessment information of other course elements, please refer to the chapter Knowledge Transfer - [Structural element: Score](Course_Element_Structure.md#tab-punkte--score).
+Determine whether assessment information from the checklist sub-elements should be displayed in the course element "Structure", and how the assessment should be conducted. For more information on the course element "Structure" and the assessment information of other course elements, please refer to the chapter Knowledge Transfer - [Structural element: Score](Course_Element_Structure.md#score).
 
   
 

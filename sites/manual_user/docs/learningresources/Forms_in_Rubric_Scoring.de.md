@@ -4,7 +4,7 @@ Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](../learni
 
 !!! info "Hinweis"
 
-    Auch Bewertungen im Rahmen eines Peer-Reviews werden mit Rubrik-Formularen ausgeführt. Dazu benötigt es den [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md#coach_peer_review).
+    Auch Bewertungen im Rahmen eines Peer-Reviews werden mit Rubrik-Formularen ausgeführt. Dazu benötigt es den [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md).
 
 
 ## Im Kurseditor
