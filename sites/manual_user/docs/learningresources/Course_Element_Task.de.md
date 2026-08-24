@@ -21,7 +21,7 @@ Mit Hilfe des Kursbausteins Aufgabe können Lehrende **Dateiabgaben** und **Eins
 
 Die Erstellung und Konfiguration einer Aufgabe erfolgt wie bei allen Kursbausteinen im Kurseditor.
 
-![course_element_task_tabs_v1_de.png](assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox"}
+![Der Kursbaustein Aufgabe wird über elf Tabs konfiguriert: Titel und Beschreibung, Layout, Lernpfad, Workflow, Aufgabenstellung, Abgabe, Rückgabe und Feedback, Bewertung, Musterlösung, HighScore sowie Erinnerungen & To-dos: Tableiste im Kurseditor](assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox"}
 
 !!! note "Quick Links: Aufgabe erstellen (Perspektive Autor:in)"
 
@@ -74,7 +74,7 @@ Bei der **Bearbeitungszeit** kann die geschätzte Zeit, die ein/e Teilnehmer:in 
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
 
-![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow lightbox" }
+![Fünf Erledigungskriterien stehen zur Wahl: "Kursbaustein öffnen", "Bestätigung durch den Benutzer", "Punkte", "Bestanden" und "Durchführung erledigt": Feld Erledigungskriterium im Tab Lernpfad des Kurseditors](assets/task_completion_criterion_DE.png){ class="shadow lightbox" }
 
 * **Kursbaustein öffnen**: User hat auf den Kursbaustein geklickt.
 * **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt.
@@ -87,7 +87,7 @@ Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, dam
 
 
 
-### Tab "Workflow“  {: #workflow}
+### Tab "Workflow"  {: #workflow}
 
 Im Tab "Workflow" definieren Sie, welche einzelnen Elemente die Aufgabe überhaupt enthalten soll.
 
@@ -96,52 +96,52 @@ Im Tab "Workflow" definieren Sie, welche einzelnen Elemente die Aufgabe überhau
     Dies ist der erste Tab des Kursbausteins, den Sie konfigurieren sollten. Wählen Sie hier die konkreten Funktionen aus, die Sie benötigen. Anschliessend sind die passenden Tabs aktiv/inaktiv und können weiter konfiguriert werden.
 
 Folgende Optionen stehen Ihnen zur Verfügung:
-![course_element_task_workflow_elements_v2_de.png](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
+![Der Tab Workflow schaltet die neun Bestandteile der Aufgabe einzeln ein und nimmt je Schritt ein Fälligkeitsdatum auf, von Relatives Datum über Aufgabenstellung, Abgabe, Feedback und Bewertung bis zur Betreuung: Tab Workflow im Kurseditor](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
 
-![1_green_24.png](assets/1_green_24.png) **Relatives Datum**<br>
+![1](assets/1_green_24.png) **Relatives Datum**<br>
 Statt Kalenderdaten einzutragen, können Sie auch mit _relativen Daten_ arbeiten. Legen Sie fest, wie viele Tage nach dem ersten Kursbesuch oder der Buchung die Aufgabenstellung geöffnet bleibt. Alle eingestellten Zeitvorgaben können auch individuell angepasst werden, z.B. wenn ein Lerner aufgrund bestimmter Umstände eine Verlängerung benötigt. Dies gilt für alle Prozessschritte. Wenn Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum für eine verspätete Abgabe ist möglich.
 
 === "Mit fixem Datum"
 
-    ![course_element_task_workflow_fix_dates_v1_de](assets/course_element_task_workflow_fix_dates_v1_de.png){ class="shadow lightbox" }
+    ![Bei ausgeschalteter Checkbox "Relatives Datum" nimmt das Feld "Zuweisung bis" ein Kalenderdatum mit Uhrzeit auf: Abschnitt Aufgabenstellung im Tab Workflow des Kurseditors](assets/course_element_task_workflow_fix_dates_v1_de.png){ class="shadow lightbox" }
 
 === "Mit relativem Datum"
 
-    ![course_element_task_workflow_relative_dates_v1_de](assets/course_element_task_workflow_relative_dates_v1_de.png){ class="shadow lightbox" }
+    ![Bei eingeschalteter Checkbox "Relatives Datum" nimmt das Feld "Zuweisung bis" eine Anzahl Tage nach dem ersten Kursbesuch der Teilnehmenden auf: Abschnitt Aufgabenstellung im Tab Workflow des Kurseditors](assets/course_element_task_workflow_relative_dates_v1_de.png){ class="shadow lightbox" }
 
 Die Umstellung auf relative Daten betrifft die Eingabefelder für **Aufgabenstellung**, **Abgabe** und **Musterlösung**.
 
 
-![2_green_24.png](assets/2_green_24.png) **Aufgabenstellung**<br>
+![2](assets/2_green_24.png) **Aufgabenstellung**<br>
 Soll eine konkrete Aufgabenstellung im Kursbaustein hinterlegt werden oder findet der User die Aufgabe vielleicht woanders? Soll der User ein Dokument abgeben? Soll es ein Feedback vom Lehrenden geben? Sollen die User, wenn notwendig, die Möglichkeit zur Überarbeitung einer Einsendung erhalten können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit Punkten oder bestanden möglich sein? Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
 Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
 
-![3_green_24.png](assets/3_green_24.png) **Abgabe**<br>
+![3](assets/3_green_24.png) **Abgabe**<br>
 Die Abschnitte Aufgabenstellung, Abgabe, verspätete Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar.
 
 Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt, können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt, bzw. die Termine, die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt.
 
-![4_green_24.png](assets/4_green_24.png) **Feedback**<br>
+![4](assets/4_green_24.png) **Feedback**<br>
 Standardmässig wird das Feedback durch Betreuende gegeben, es kann aber auch durch die anderen Teilnehmer:innen erfolgen (Peer-Review).
 
-![5_green_24.png](assets/5_green_24.png) **Überarbeitung**<br>
+![5](assets/5_green_24.png) **Überarbeitung**<br>
 Die Abgabe von Überarbeitungen durch Teilnehmer:innen nach der Korrektur kann optional erlaubt werden.
 
-![6_green_24.png](assets/6_green_24.png) **Musterlösung**<br>
+![6](assets/6_green_24.png) **Musterlösung**<br>
 Eine Musterlösung kann für alle Teilnehmenden oder nur diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum bereitgestellt werden.
 Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer:innen Dokumente hinzufügen und bearbeiten dürfen.
 
-![7_green_24.png](assets/7_green_24.png) **Bewertung**<br>
+![7](assets/7_green_24.png) **Bewertung**<br>
 Mit dem Einschalten dieses Toggle-Buttons wird der Tab "Bewertung" aktiviert, in dem die Details der Bewertung konfiguriert werden können.
 
-![8_green_24.png](assets/8_green_24.png) **Dokumente Konfiguration**<br>
+![8](assets/8_green_24.png) **Dokumente Konfiguration**<br>
 Diese Option wird nur angezeigt, wenn eine der Optionen "Aufgabenstellung" oder "Musterlösung" gewählt wurde und so das Hochladen von Dokumenten erforderlich ist. Es kann hier erlaubt werden, dass neben Kursbesitzer:innen auch Betreuer:innen Dokumente hinzufügen und bearbeiten können.
 
-![9_green_24.png](assets/9_green_24.png) **Betreuung**<br>
+![9](assets/9_green_24.png) **Betreuung**<br>
 Im Abschnitt "Betreuung" des Tabs "Workflow" kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
 
-![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
+![Der Abschnitt Betreuung bündelt fünf Einstellungen: Zuweisung aktivieren, zur Auswahl stehende Betreuende, Art der Zuweisung sowie je eine Benachrichtigung für Betreuende und Teilnehmende: Abschnitt Betreuung im Tab Workflow des Kurseditors](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
 
 * **Zuweisung Betreuende/Teilnehmende**<br>
 Mit Wahl dieser Checkbox werden die weiteren Optionen zur Betreuung eingeblendet.
@@ -158,6 +158,27 @@ Wählen Sie hier, in welchen Fällen Betreuende eine Benachrichtigung per Mail e
 
 * **Benachrichtigung Teilnehmende**<br>
 Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Person per Mail informiert werden.
+
+#### Tabelle "Zuweisung Betreuende/Teilnehmende" [:octicons-tag-16:{ title="ab Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #coach_assignment_table}
+
+Die eigentliche Zuordnung nehmen Kursbesitzer:innen bei geschlossenem Kurseditor vor: `Kurs > "Aufgabenbaustein" > Tab "Teilnehmer:innen" > Button "Zuweisung Betreuende/Teilnehmende"`.
+
+Die Tabelle ist eine Matrix: Jede Zeile ist eine teilnehmende Person, jede Spalte eine zur Auswahl stehende betreuende Person, dazu die Spalte "Nicht zugewiesen". Sie setzen die Zuordnung, indem Sie in der Zeile den Punkt in der gewünschten Spalte wählen. Hinter jedem Namen steht in Klammern, wie viele Personen dieser Betreuerin oder diesem Betreuer aktuell zugewiesen sind. So erkennen Sie eine ungleiche Verteilung auf einen Blick.
+
+Über "Nicht zugewiesene zufällig zuweisen" verteilt OpenOlat alle noch offenen Personen automatisch. Die Reiter "Alle" und "Nicht zugewiesen" sowie die Filter "Teilnehmer:innen" und "Betreuer:in" grenzen die Liste ein. Gehören dem Kurs Gruppen oder Curriculum-Elemente an, kommt der Filter "Gruppen" hinzu.
+
+![Eine Matrix ordnet jeder Zeile mit Anmeldename, Nachname, Vorname und Aufgabe eine Spalte je betreuende Person zu, mit der Anzahl Zuweisungen in Klammern; rechts oben das Menü mit der Aktion "Filter speichern", darüber "Nicht zugewiesene zufällig zuweisen": Seite Zuweisung Betreuende/Teilnehmende im Tab Teilnehmer:innen](assets/course_element_task_coach_assignment_table_de.png){ class="shadow lightbox" }
+
+!!! note "Hinweis"
+
+    Betreuende sehen den Button "Zuweisung Betreuende/Teilnehmende" nicht. Die Zuordnung ist Kursbesitzer:innen vorbehalten; Betreuende erkennen ihre eigene Zuordnung in der Spalte "Betreuer:in" der Teilnehmerliste.
+
+Zwei Funktionen unterstützen die Arbeit mit grossen Listen:
+
+* **Export**: Über das Export-Symbol rechts über der Tabelle laden Sie die aktuelle Tabellenansicht als Excel-Datei herunter, zum Beispiel als Nachweis der Zuordnung.
+* **Filter speichern**: Eine eingestellte Filterkombination sichern Sie über das Drei-Punkte-Menü rechts neben den Filtern mit "Filter speichern" unter einem eigenen Namen. Der gespeicherte Filter erscheint danach als eigener Reiter und steht beim nächsten Aufruf der Tabelle wieder bereit. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601)
+
+Der Button erscheint nur beim Kursbaustein Aufgabe und nur, wenn die Zuweisung Betreuende/Teilnehmende aktiviert ist. Bei der [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md) ergibt sich die Zuordnung aus der Betreuung der Gruppe.
 
 
 
@@ -203,29 +224,29 @@ Generell sollte jede Aufgaben-Datei einen passenden Titel und eventuell eine kur
 
 Neben dem Upload können Dateien auch direkt in OpenOlat erstellt werden. Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. In der Regel steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- und auch eine Audio-Aufgabe erstellt werden.
 
-Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
+Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Teilnehmenden dann im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
 
 !!! info "Mehrere Dateien"
 
     Bitte beachten: Werden mehrere Dateien im Tab Aufgabenstellung hinterlegt, werden diese als mehrere verschiedene Aufgabenstellungen betrachtet. Es handelt sich _nicht_ um eine Aufgabe mit mehreren ergänzenden Dateien.
 
-Im Feld **"Art der Zuweisung"** bestimmen Sie, ob einem Kursteilnehmer bzw. einer Kursteilnehmerin alle zur Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob eine Aufgabe automatisch per Zufallsauswahl zugewiesen wird.
+Im Feld **"Art der Zuweisung"** bestimmen Sie, ob einem Teilnehmer bzw. einer Teilnehmerin alle zur Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob eine Aufgabe automatisch per Zufallsauswahl zugewiesen wird.
 
-Wählen Sie im Feld **"Typ der Ziehung"**, ob mehrere Kursteilnehmende die gleiche Aufgabe lösen können, oder ob jeder Kursteilnehmer bzw. Kursteilnehmerin eine andere Aufgabe lösen soll. Wenn die Aufgabe manuell gewählt wird, können Sie im Feld "Vorschau" weiter festlegen, ob die Kursteilnehmenden vor der Wahl einer Aufgabe diese einsehen dürfen. Wenn bei "Typ der Ziehung" jeder Kursteilnehmer eine andere Aufgabe lösen soll, müssen mindestens so viele Aufgaben hinterlegt werden, wie es Kursteilnehmende gibt, die diese Aufgabe lösen sollen.
+Wählen Sie im Feld **"Typ der Ziehung"**, ob mehrere Teilnehmende die gleiche Aufgabe lösen können, oder ob jeder Teilnehmer bzw. jede Teilnehmerin eine andere Aufgabe lösen soll. Wenn die Aufgabe manuell gewählt wird, können Sie im Feld "Vorschau" weiter festlegen, ob die Teilnehmenden vor der Wahl einer Aufgabe diese einsehen dürfen. Wenn bei "Typ der Ziehung" jede Person eine andere Aufgabe lösen soll, müssen mindestens so viele Aufgaben hinterlegt werden, wie es Teilnehmende gibt, die diese Aufgabe lösen sollen.
 
 !!! tip "Tipp"
 
     Wenn der Kursbaustein nur _eine_ Aufgabe beinhaltet ist eine manuelle Wahl wenig sinnvoll. Nutzen Sie in diesem Fall am besten die automatische Zuweisung.
 
-Im Feld **"Mitteilung an Benutzer"** können Sie für alle Kursteilnehmenden allgemeine Hinweise zur Bearbeitung der Aufgaben hinterlegen.
+Im Feld **"Mitteilung an Benutzer"** können Sie für alle Teilnehmenden allgemeine Hinweise zur Bearbeitung der Aufgaben hinterlegen.
 
 Wählt ein User bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) zurückgesetzt werden.
 
-![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png){ class="shadow lightbox" }
+![Der Button "Daten von Aufgabe zurücksetzen" am Ende des Bewertungsflows nimmt die Aufgabenwahl einer Person zurück, deren Zuweisung abgeschlossen und deren Abgabe noch ausstehend ist: Bewertungsflow einer Person im Bewertungswerkzeug](assets/Aufgabe_zuruecksetzen_173.png){ class="shadow lightbox" }
 
 Es folgt *keine automatische* Änderung. Der Teilnehmer erhält nun aber die Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
 
-![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png){ class="shadow lightbox" }
+![Nach dem Zurücksetzen erscheint für die Teilnehmenden im Schritt "Zuweisung Aufgabenstellung" der Button "Daten zurücksetzen", mit dem sie ihre bisherige Wahl selbst rückgängig machen: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/Aufgabe_User_Daten_zurücksetzen.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -243,20 +264,20 @@ Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehme
 
     * "Abgabe" aktiviert worden sein, damit Sie diese nun einrichten können.
 
-    ![course_element_task_workflow_activate_submission_v1_de.png](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
+    ![Der eingeschaltete Abschnitt Abgabe gibt das Feld "Abgabe bis" und die Checkbox "Abgabe nach Abgabefrist zulassen" frei: Abschnitt Abgabe im Tab Workflow des Kurseditors](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
 
 
 Nach Aktivierung müssen Sie den Usern mindestens die Möglichkeit aktivieren Dokumente hochzuladen oder/und den OpenOlat Editor für die Abgabe zu nutzen.
 
 Im Tab "Abgabe" stehen folgende Optionen zur Wahl bzw. können konfiguriert werden:
 
-**"Dokumente hochladen"**: In diesem Fall können Kursteilnehmende ausserhalb von OpenOlat erstellte Dokumente hochladen und abgeben.
+**"Dokumente hochladen"**: In diesem Fall können Teilnehmende ausserhalb von OpenOlat erstellte Dokumente hochladen und abgeben.
 
 **"Abgabe mit OpenOlat Editor"**: Mit dieser Auswahl können Teilnehmende die Erstellung von Dokumenten direkt im Kursbaustein vornehmen. Ein HTML-Editor kann dafür standardmässig verwendet werden. Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch Dokumente in weiteren Formaten wie Word, Excel usw.  erstellt werden. Auch die Erstellung von drawio Diagrammen ist hier möglich.
 
 Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. Voraussetzung ist, dass diese Option von den OpenOlat Administrationen freigeschaltet wurde.
 
-![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
+![Die zugewiesene Aufgabendatei steht im Schritt Zuweisung zum Herunterladen bereit, darunter bereitet der Schritt Abgabe die eigenen Dokumente vor und übermittelt sie mit "Endgültige Abgabe": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
 
 **Videoaufnahmen zulassen**: In diesem Fall können Lernende zusätzlich Video-Aufnahmen per Webcam erstellen und einreichen. Auch eine maximale Aufnahmedauer sowie eine Qualitätsstufe kann für die Videos gewählt werden.
 
@@ -279,7 +300,7 @@ Aktivieren Sie die E-Mail-Bestätigung damit Personen, die eine Aufgabe abgegebe
     Im Tab "Workflow" muss
 
     * das Feedback eingeschaltet sein.
-    ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
+    ![Der eingeschaltete Abschnitt Feedback stellt die Wahl zwischen "Durch Betreuende" und "Mit Peer-Review" bereit, bei Peer-Review zusätzlich den Peer-Review-Zeitraum: Abschnitt Feedback im Tab Workflow des Kurseditors](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
     * Je nach Wahl wer das Feedback geben soll, erscheinen im Tab "Rückgabe und Feedback" unterschiedliche Optionen
 
 
@@ -293,38 +314,38 @@ Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt wird des komplexer. 
 
 Wird im Tab Workflow auch die Bewertung aktiviert und sollen die Punkte für das Peer-Review automatisch aus dem Peer-Review Formular übernommen werden, muss das verwendete Peer-Review Formular auch (mindestens) ein Rubrik-Element enthalten, da hierüber automatisch Punkte vergeben werden können.  Hier finden Sie ein  [Musterformular zum Download](assets/Example_PeerReview_v1_de.zip).
 
-![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
+![Für ein Peer-Review wird oben ein Rubrik-Formular eingebunden, darunter regeln die Einstellungen Beziehung, Review-Form, Zuweisung, Anzahl Reviews sowie Qualitäts-Feedback den Ablauf: Tab Rückgabe und Feedback im Kurseditor](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
 
-![1_green_24.png](assets/1_green_24.png) **Formular**<br>
+![1](assets/1_green_24.png) **Formular**<br>
 Für Peer-Reviews wird ein geeignetes Rubrik-Formular benötigt. Hier finden Sie ein [Musterformular](assets/Example_PeerReview_v1_de.zip) (zip-Datei zum Import in Ihr OpenOlat).
 
-![2_green_24.png](assets/2_green_24.png) **Gegenseitige Beurteilung**<br>
+![2](assets/2_green_24.png) **Gegenseitige Beurteilung**<br>
 Wird die gegenseitige Beurteilung erlaubt, können sich Teilnehmer:innen gegenseitig beurteilen, müssen es aber nicht.
 
-![3_green_24.png](assets/3_green_24.png) **Review-Form**<br>
+![3](assets/3_green_24.png) **Review-Form**<br>
 Betreffend der **Sichtbarkeit von Namen** können Sie als Autor:in eine der folgenden Formen wählen:<br>
 \- Doppelblind-Review: Alle Namen sind anonym (ausgenommen Betreuende).<br>
 \- Einfachblind-Review: Der Name des Reviewers/der Reviewerin ist anonym.<br>
 \- Offenes Review: Alle Namen sind ersichtlich.
 
-![4_green_24.png](assets/4_green_24.png) **Zuweisung**<br>
+![4](assets/4_green_24.png) **Zuweisung**<br>
 Sie bestimmen als Autor:in hier, **welche Aufgabenstellungen** die Reviewer:innen zum Review erhalten:<br>
 \- **Dieselbe Aufgabenstellung**: Wenn eine Person z.B. Aufgabe 1 gezogen und gemacht hat, bekommt sie auch nur Aufgabe 1 zum Reviewen. Sie muss sich dann nicht in eine andere Thematik einarbeiten.<br>
 \- **Andere Aufgabenstellung**: Ein Review muss für eine andere Aufgabenstellung gemacht werden, als die Aufgabenstellung, die man selbst gezogen hat. Sind mehrere Reviews zu machen, müssen alle Reviews jedoch immer nur für den gleichen Aufgabentyp gemacht werden.<br>
 \- **Zufällig**: Die Reviewer:innen erhalten zufällige Aufgaben zum Review.
 
-![5_green_24.png](assets/5_green_24.png) **Anzahl Reviews**<br>
+![5](assets/5_green_24.png) **Anzahl Reviews**<br>
 Hier geben Sie an, wie viele Reviews für jeden/jede Teilnehmer:in vorgesehen sind. Je nach Anzahl der Teilnehmer:innen, kann die tatsächlich zu erledigende Zahl der Reviews aber abweichen. Im Idealfall entspricht die Anzahl der zu erledigenden Reviews der Anzahl Reviews, die man selbst von anderen erhält.
 
-![6_green_24.png](assets/6_green_24.png) **Qualitätsfeedback für Reviewer:in**<br>
+![6](assets/6_green_24.png) **Qualitätsfeedback für Reviewer:in**<br>
 Den Teilnehmer:innen kann die Möglichkeit gegeben werden, nach dem Erhalt von Reviews ihren Reviewer:innen eine Rückmeldung dazu zu geben. Ob das erhaltene Review hilfreich war, kann mit dem Daumensymbol oder mit Sternen signalisiert werden.
 
-![7_green_24.png](assets/7_green_24.png) **Form des Feedbacks**<br>
+![7](assets/7_green_24.png) **Form des Feedbacks**<br>
 Wurde "Qualitätsfeedback für Reviewer:in" aktiviert, kann ausgewählt werden, mit welchen Symbolen den Reviewer:innen dieses Feedback gegeben werden soll ("Hilfreich? Ja/Nein" und Sternebewertung).
 Als empfehlenswert hat sich die Symbolik mit "Daumen hoch" / "Daumen nach unten" herausgestellt.
 
-![8_green_24.png](assets/8_green_24.png) **Automatisch Reviewer:in zuweisen**<br>
+![8](assets/8_green_24.png) **Automatisch Reviewer:in zuweisen**<br>
 Autor:innen sehen alle Teilnehmer:innen eines Kurses, Betreuer:innen sehen aber eventuell nur ihre betreute Gruppe.
 Damit Betreuer:innen die Reviews der betreuten Teilnehmer:innen ansehen können, muss die Zuweisung von Reviews innerhalb ihrer Gruppen erfolgen. (Nur dann können Betreuer:innen alle Reviews mitverfolgen.)<br>
 Wird die Option "Automatisch Reviewer:in zuweisen" gewählt, sehen Betreuer:innen zwar jeweils nur ihre Gruppe, die Zuweisung von Review-Aufträgen erfolgt aber unter allen Teilnehmer:innen. Betreuer:innen sehen dann, dass eine betreute Person von jemand aus der anderen Gruppe ein Review erhalten hat. Der Name der Person, die das Review gemacht hat, ist aber nicht ersichtlich.<br>
@@ -360,10 +381,12 @@ Hier definieren Sie _wie_ die Lernenden bewertet werden sollen. Soll es Punkte g
 
 Für die Bewertung kann auch ein Formular mit Rubrik verwendet werden. Die Punkte können dann aus dem Rubrik-Formular für die Bewertung des Kursbausteins übernommen werden. <br>Das hier im Tab "Bewertung" eingebundene Rubrik-Formular ist zu unterscheiden von dem Rubrik-Formular, das im Tab "Rückgabe und Feedback" für Peer-Reviews verwendet wird.
 
-![course_element_task_tab_grading_rubrik_v1_de.png](assets/course_element_task_tab_grading_rubrik_v1_de.png){ class="shadow lightbox" }
+![Oben ist ein Rubrik-Formular als Bewertungsgrundlage eingebunden, darunter regeln Punkte vergeben, Art der Vergabe, Gesamtpunkte aus, die Skalierungsfaktoren und Bestanden/Nicht bestanden die Bewertung: Tab Bewertung im Kurseditor](assets/course_element_task_tab_grading_rubrik_v1_de.png){ class="shadow lightbox" }
 
 
 #### Punkte vergeben
+
+Im Feld **"Art der Vergabe"** legen Sie fest, ob OpenOlat die Punkte "Automatisch" aus den gewählten Quellen berechnet oder ob sie "Manuell durch Betreuende" eingetragen werden.
 
 Wenn die Punktevergabe aktiviert wurde, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen und weiter konfigurieren. So können den jeweiligen Punkten bestimmte Bewertungsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner muss definiert werden ob die Zuordnung zur berechneten Einstufung manuell durch den Betreuer erfolgt oder automatisch bei Punktänderung angezeigt werden soll.
 
@@ -374,6 +397,8 @@ Die Gesamtpunktzahl kann aus einer oder mehreren Quellen errechnet werden:
 * **Rubrik-Bewertung**: Wird im Tab "Bewertung" ein Rubrik-Formular verwendet, können von dort Punkte übernommen werden.
 * **Rubrik-Peer-Review**: Ein Peer-Review verwendet das Rubrik-Formular, das im Tab "Rückgabe und Feedback" eingebunden wird.
 * **Abgegebene Reviews**: Für das Reviewen von anderen Teilnehmer:innen können der Person zusätzliche Punkte angerechnet werden (Punkte pro erledigtem Review, konfiguriert unterhalb dieser Auswahl, sobald die Option markiert wurde).
+
+Für die beiden Rubrik-Quellen erscheint je ein Gewichtungsfeld: **"Skalierungsfaktor für Rubrik-Bewertung"** und **"Skalierungsfaktor für Rubrik-Peer-Review"**. Damit bestimmen Sie, mit welchem Faktor die Punkte der jeweiligen Quelle in die Gesamtpunktzahl eingehen.
 
 
 #### Bestanden/Nicht bestanden
@@ -393,7 +418,7 @@ Optional können sie noch die Möglichkeit für individuelle Kommentare oder ind
 
 ### Tab "Musterlösung" {: #sample}
 
-Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder die Musterlösung direkt mit dem internen Editor oder Sie nehmen ein Video mit Ihrer Webcam auf oder Sie laden Dateien mit den Musterlösungen hoch.
+Um allen Teilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder die Musterlösung direkt mit dem internen Editor oder Sie nehmen ein Video mit Ihrer Webcam auf oder Sie laden Dateien mit den Musterlösungen hoch.
 
 
 !!! info "Voraussetzung"
@@ -402,7 +427,7 @@ Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubie
 
     * "Musterlösungen" aktiviert worden sein, damit Sie diese nun einrichten können.
 
-    ![course_element_task_workflow_activate_sample_v1_de.png](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
+    ![Der eingeschaltete Abschnitt Musterlösungen nimmt ein Datum unter "Sichtbar nach" auf und regelt, ob die Musterlösung allen sichtbar wird oder nur nach Abgabe einer Lösung: Abschnitt Musterlösungen im Tab Workflow des Kurseditors](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
 
 
 Per Voreinstellung ist die Musterlösung erst sichtbar, wenn die vom Teilnehmer eingereichten Dokumente von dem/der Betreuer:in akzeptiert wurden.
@@ -437,7 +462,7 @@ Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteine
 
 ### Tab "Erinnerungen & To-dos"  {: #reminders}
 
-Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "[To-dos](../personal_menu/To-Dos.de.md)" hinterlegt.
+Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Teilnehmenden im persönlichen Menü unter "[To-dos](../personal_menu/To-Dos.de.md)" hinterlegt.
 
 
 Wird die automatische Erstellung von To-dos aktiviert, sehen die Lernenden unter `Mein Kurs > To-dos` den aktuellen Stand (Schritt) des Workflows der entsprechenden Aufgabe und erkennen so rasch, ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos der User in den persönlichen Werkzeugen.
@@ -473,7 +498,7 @@ Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Be
 
 Alle Schritte einer Aufgabe (Workflow) zeigen sich für Kursteilnehmer:innen direkt im Kursbaustein, je nach Konfiguration des Kursbausteins. Nach Erledigung eines Schrittes wird der nächste Schritt angezeigt und zugänglich.
 
-![course_element_task_participant_view1_v1_de.png](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
+![Die Schritte der Aufgabe stehen untereinander; nur "Zuweisung Aufgabenstellung" ist offen und verlangt über "Auswählen" die Wahl einer Aufgabe, Abgabe, Rückgabe, Musterlösung und Bewertung sind noch nicht verfügbar: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "Quick Links: Aufgabe erledigen (Perspektive Kursteilnehmer:in)"
@@ -513,7 +538,7 @@ In Kurs-Settings mit sehr vielen Teilnehmenden werden diese häufig von mehreren
 
 Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der Aufgabe. Sollte kein/keine Betreuer:in angezeigt werden, wurde Ihnen noch niemand zugeteilt.
 
-![course_element_task_participant_view_mycoach_v1_de.png](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
+![Über dem Workflow nennt der Block "Sie werden betreut durch" Anmeldename, Name und E-Mail-Adresse der zugewiesenen betreuenden Person: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
 
 Über das Peer-Review können auch Teilnehmende gegenseitig Feedback zu den gelösten Aufgaben abgeben.
 
@@ -525,7 +550,7 @@ Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der
 
 Im Bereich **"Abgabe"** haben Sie die Möglichkeit Ihre Lösung einzureichen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen.
 
-![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
+![Im Schritt Abgabe listet die Tabelle die vorbereiteten Dokumente mit Datum und Ersteller:in, darunter stehen die vier Wege "Dokument hochladen", "Dokument erstellen", "Video aufnehmen" und "Audio aufnehmen": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
 
 In der Regel wird nur ein Teil der vier Optionen für Sie verfügbar sein.
 Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Dokument wird zwischengespeichert. Die Dokumente bleiben solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
@@ -542,15 +567,15 @@ Wenn Sie noch _keine_ Einreichung vorgenommen haben, und der Betreuer keine Rüc
 
 Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine Rückmeldung erstellt hat, erscheint die entsprechende Information.
 
-![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
+![Der Schritt trägt den Status "Review" und meldet, dass die betreuende Person die Arbeit begutachtet und eine Benachrichtigung folgt: Schritt Rückgabe und Feedback in der Sicht der Teilnehmenden](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
 
 Sobald Ihr Betreuer ein Feedback erstellt hat, finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
 
-![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
+![Der Schritt ist abgeschlossen und zeigt den Kommentar der betreuenden Person sowie das zurückgegebene Dokument mit den Aktionen "Öffnen" und "Herunterladen": Schritt Rückgabe und Feedback in der Sicht der Teilnehmenden](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
 
 Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert, erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
-![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
+![Eine Warnmeldung nennt die Zurückweisung zur Überarbeitung, darunter begründet der Kommentar der betreuenden Person, was zu verbessern ist: Schritt Rückgabe und Feedback in der Sicht der Teilnehmenden](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -560,7 +585,7 @@ Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung
 
 Wurde ein Peer-Review für die Aufgabe vorgesehen, erhalten Sie nun Review-Aufgaben zugewiesen. Sie sollen die abgegebenen Dokumente anderer Kursmitglieder beurteilen. Wessen Dokumente Sie reviewen sollen, kann Ihnen automatisch oder manuell durch Betreuer:innen zugeteilt werden.
 
-![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+![Der Schritt "Peer-Review - Vergebene Beurteilungen" listet die zu beurteilenden Verfasser:innen mit Status "Offen" und der Aktion "Durchführen", abgeschlossen wird er über "Review abschliessen": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
 
 Wenn Sie alle Reviews durchgeführt haben, schliessen Sie diesen Arbeitsschritt ab durch Klick auf den Button "Reviews abschliessen".
 
@@ -572,7 +597,7 @@ Wenn Sie alle Reviews durchgeführt haben, schliessen Sie diesen Arbeitsschritt 
 
 Wurde ein Peer-Review vorgesehen, sehen Sie eine Übersicht über Ihre vergebenen und erhaltenen Beurteilungen.
 
-![course_element_task_participant_peer2_v1_de.png](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
+![Vergebene und erhaltene Beurteilungen stehen in zwei Blöcken: oben der Fortschritt je Verfasser:in, unten Gesamtbeurteilung, Anzahl Reviewer:innen und je Review die Rückmeldung "Hilfreich?": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -600,7 +625,7 @@ Ihr Dozent kann der Aufgabe eine **Musterlösung** anfügen, welche zu einem von
 
 Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen.
 
-![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
+![Die Leistungsübersicht fasst Erfolgsstatus, Niveau, erreichte Punkte und Lösungsversuche in Kacheln zusammen, darunter stehen der Kommentar und die Bewertungsdokumente der betreuenden Person: Schritt Bewertung in der Sicht der Teilnehmenden](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -693,7 +718,7 @@ Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Ents
 * In einer Übersicht sehen Sie den Stand der Peer-Reviews. In zwei Tabs finden Sie erhaltene und vergebene Beurteilungen der Teilnehmer:innen.
 * Als Betreuer:in können Sie manuell Reviewer:innen zuweisen.
 
-![course_element_task_coach_peer1_v1_de.png](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }
+![Die Reiter "Erhaltene Beurteilungen" und "Vergebene Beurteilungen" zeigen Fortschritt, Beurteilung und Status je Verfasser:in; der Button "Reviewer:in zuweisen" löst eine manuelle Zuordnung aus: Peer-Review in der Betreueransicht](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -709,7 +734,7 @@ Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Ents
 
 Wenn Sie als Betreuer:in bestimmen wollen, wer von wem ein Review erhält, können Sie die Zurordnung selbst vornehmen.
 
-![course_element_task_peer-review_assign_reviewer_manually_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
+![In der Detailansicht einer Person öffnet der markierte Button "Reviewer:in zuweisen" die manuelle Zuordnung, darunter filtern die Reiter nach Status der Beurteilungen: Tab Teilnehmer:innen des Kursbausteins Aufgabe](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
 
 Eine manuelle Zuweisung ist auch in der Tabelle möglich. Klicken Sie dazu auf die 3 Punkte.
 
@@ -724,7 +749,7 @@ Die Zuordnung von Peer-Reviewer:innen zu Teilnehmer:innen kann auch durch OpenOl
 
 Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreuer:innen ausgelöst werden.
 
-![course_element_task_peer-review_assign_reviewer_automatically_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_automatically_v1_de.png){ class="shadow lightbox" }
+![Der Block Konfiguration nennt Anzahl Reviews und Review-Form, daneben startet der markierte Button "Automatisch Reviewer:in zuweisen" die Zuordnung: Segment Peer-Review im Tab Workflow der Betreueransicht](assets/course_element_task_peer-review_assign_reviewer_automatically_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 

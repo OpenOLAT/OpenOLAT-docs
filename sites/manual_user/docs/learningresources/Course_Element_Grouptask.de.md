@@ -6,7 +6,7 @@
 Name | Gruppenaufgabe
 ---------|----------
 Icon | :o_icon_o_gta_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 10.3 (OO-991)
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung
 Bewertbar | ja
@@ -14,16 +14,16 @@ Spezialität / Hinweis | dem Kursbaustein Aufgabe ähnlich
 
 
 
-Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein ["Aufgabe"](Course_Element_Task.de.md). Lesen Sie die Details bitte dort nach. 
+Der Kursbaustein Gruppenaufgabe funktioniert grösstenteils wie der Kursbaustein ["Aufgabe"](Course_Element_Task.de.md). Lesen Sie die Details bitte dort nach. 
 
 Hier noch ein paar wichtige Informationen, die spezifisch für den Kursbaustein Gruppenaufgabe sind: 
 
 ## Tab Workflow {: #workflow}
 Bei der Erstellung der Gruppenaufgabe müssen im Tab "Workflow" eine oder mehrere Gruppen ausgewählt werden, denen die Aufgabenstellung zugewiesen wird. Nur diese Gruppen können die Aufgabe anschliessend einsehen und bearbeiten. Solange keine Gruppe zugewiesen wurde, ist der Kursbaustein bei geschlossenem Editor nicht sichtbar.
 
-!!! Info 
+!!! info "Wichtig"
 
-    Bei der Gruppenaufgabe entfällt die Konfiguration Betreuerzuordnung da sich diese Zuordnung automatisch durch die Betreuerzuordnung der Gruppe ergibt.  
+    Bei der Gruppenaufgabe gibt es die Konfiguration Betreuerzuordnung nicht. Die Zuordnung ergibt sich automatisch aus der Betreuerzuordnung der Gruppe.
 
 Bei **Änderungen am Workflow**, z.B. dem Entfernen der Aufgabenstellung, wird allen Gruppen des Kurses dieser Bestandteil des Workflows entfernt. Die Information über bereits gewählte Aufgaben ist dann nicht mehr sichtbar. Wird der Bestandteil des Workflows wieder eingefügt, ist diese Information aber wieder zugänglich. Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und eine Gruppe ist in ihrem Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.
 
@@ -38,8 +38,12 @@ Ist die E-Mail Bestätigung aktiviert erhalten alle Gruppenmitglieder eine E-Mai
 
 ## Tab Bewertung {: #tab_assessment}
 Punkte und Feedbacks werden für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
- 
+
 Bei geschlossenem Editor werden im Tab "Teilnehmer:innen" die zugeordneten _Gruppen_ angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt. 
+
+### Spalte "Gruppe" im Resultat-Export [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601) {: #results_export}
+
+Der Excel-Report aus "Resultate exportieren" führt bei der Gruppenaufgabe zusätzlich die Spalte "Gruppe" mit dem Namen der Gruppe, welche die Lösung abgegeben hat. Damit bleibt im Report nachvollziehbar, welche Abgabe zu welcher Gruppe gehört. Die übrigen Spalten sind unter [Excel-Report der Resultate](Assessing_tasks_and_group_tasks.de.md#results_export) beschrieben.
 
 ## Tab Erinnerungen & To-dos {: #tab_reminders_todo}
 Bei Gruppenaufgaben gibt es keine To-dos, auch wenn sich sich die Option aktivieren lässt und zunächst ein anderer Eindruck entsteht. 
