@@ -1,15 +1,11 @@
-# Modul OAI PMH
-
-!!! abstract ""
-    zu :octicons-tag-24: Release 17.2 verfügbar
-
+# Modul OAI PMH [:octicons-tag-16:{ title="ab Release 17.2 verfügbar" }]() {: #oai_pmh}
 
 Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): Zugang zu digitalen Ressourcen, in unserem Falle veröffentlichte Lernressourcen  für die Weitergabe von Metadaten an Portale, Suchmaschinen oder Kataloge. Weitergehende Informationen sind auf der [Open Archives Webseite](https://www.openarchives.org) zu finden.
 
+![Administration-Module Overview](assets/modules_oai_v1_de.png){ class="shadow lightbox" }
 
-![Administration-Module Overview](assets/OAI-PMH.de.jpg){ class="shadow lightbox" }
 
-## Metadataprefix
+## Metadataprefix {: #metadataprefix}
 
 Die Metadatenprefixe zeigen sind zwei verschiedene Metadatensammlungen an:
 
@@ -53,26 +49,38 @@ Metadaten | OAI OpenOlat | OAI DublinCore
  sets | **x** | **x**
  deleted | **x** | **x**
 
-## Administration
+
+[Zum Seitenanfang ^](#oai_pmh)
+
+---
+
+
+## Administration {: #administration}
 
 Das Modul kann unter `Administration-> Modules -> OAI PMH` eingeschaltet werden. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
-### API Endpoint
+### API Endpoint {: #endpoint}
 
 Dies ist die Andwendungsschnittstelle, woher die Metadaten abgefragt werden. Mittels verschiedener Parameter kann man hier nach unterschiedlichen Lernressourcen filtern. Der API Enpoint kann auch mittels Klick auf den Button getestet werden.
 
 
-### Identifier Typ
+### Identifier Typ {: #identifier_type}
 
 Mit dem Identifier typ kann der Typ des Identifiers eingestellt werden. Entweder man benutzt den DublinCore Namespace oder den OpenOlat eigenen Identifier, welcher auch die Ressourceninfo enthält, wo man auch die Infoseite sieht.
 
-### Lizenz Einschränkungen
+### Lizenz Einschränkungen {: #license_restrictions}
 
 Man kann Lernressourcen auf Lizenzen einschränken. Entweder nur Lernressourcen mit einer Lizenzen oder die Lernressourcen mit einer bestimmten Lizenzart werden ihre Metadaten über die Schnittstelle schicken. Bei 
 
-## API Konfiguration
+[Zum Seitenanfang ^](#oai_pmh)
 
-### Sets
+---
+
+
+## API Konfiguration {: #API_config}
+
+### Sets {: #API_config_sets}
+
 Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten der Lernressourcen verschiedener Art. 
 
 * Taxonomie-basiertes Set
@@ -82,14 +90,11 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 * Angebot-basiertes Set, sortiert nach den Angebotstypen wie privat, buchbar mit Konto, Gast
 
 
-## Suchmaschinenoptimierung
+## Suchmaschinenoptimierung {: #API_config_search_engine}
 
-!!! danger "⚡ Neues Bild erforderlich"
-    Screenshot zeigt noch den alten Stand: die zwei neuen Felder "Name der Organisation" und "Stichwörter" fehlen. Der neue Screenshot muss beide Felder im Abschnitt Suchmaschinenoptimierung zeigen (sichtbar bei aktivierter Suchmaschinen-Publikation).
+Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml, was vor allem Google benutzt und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
 
-![Search engine sektion](assets/oai-seo.de.jpg)
-
-Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml was vorallem google benutzt und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
+![Administration Modul Suchmaschinenoptimierung](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
 
 Hat man eine eigenen Suchmaschinenindex, kann man diesen unter "benutzerdefiniert" eintragen.
 
@@ -98,3 +103,5 @@ Zusätzlich lassen sich zwei Angaben für die Suchmaschinen-Metadaten festlegen.
 **Name der Organisation**: Überschreibt den Organisationsnamen, der in den Suchmaschinen-Metadaten verwendet wird (zum Beispiel im Open-Graph-Feld "og:site_name"). Bleibt das Feld leer, wird der Name der Standardorganisation eingesetzt.
 
 **Stichwörter**: Überschreiben die globalen Meta-Stichwörter (Meta-Tag "keywords"), die auf allen Seiten ausgegeben werden. Bleibt das Feld leer, verwendet das System die voreingestellten Stichwörter.
+
+[Zum Seitenanfang ^](#oai_pmh)
