@@ -1,6 +1,6 @@
 # Login: Overview {: #login}
 
-![admin_login_overview_v1_de.png](assets/admin_login_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Configuration menu: Login to System Administration, which includes the sections Security, Password and Authentication, Cloud Login, Anonymous and External Users, Self-Registration, and SMS.](assets/admin_login_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 The adjacent menu is available for configuring the login.
 
@@ -25,9 +25,11 @@ A minimum and a maximum length must be defined as a minimum. In addition, furthe
 
 ## Cloud Login {: #cloud_login}
 
-It is possible to connect to social networks such as LinkedIn, X, Google, Facebook, etc. for authentication.
+You can connect to social networks such as LinkedIn, X, Google, Facebook, etc., for authentication. System administrators can configure these integrations in System Administration under: `Administration > Login > Cloud Login`.
 
-For OpenID Connect and OAuth 2.0 connections, OpenOlat supports only the secure authorization code flow. The former implicit flow has been removed for security reasons. When adding an OAuth 2.0 provider, select the value "code" in the "Response type" field.
+### OAuth 2.0 and OpenID Connect [:octicons-tag-16:{ title="starting with Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287)
+
+For security reasons, OpenOlat supports only the secure authorization code flow for OpenID Connect and OAuth 2.0 integrations. When creating a provider using the “Add OAuth 2.0 Provider” button, you must therefore select ‘code’ in the “Response type” field.
 
 [To the top of the page ^](#login)
 
