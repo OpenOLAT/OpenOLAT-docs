@@ -1,6 +1,6 @@
 # Course Element "Task" {: #course_element_task}
 
-## Profile
+## Profile {: #profile}
 
 Name | Task
 ---------|----------
@@ -21,7 +21,7 @@ Teachers can use the course element Assignment to organize **file submissions** 
 
 A task is created and configured in the course editor, as with all course elements.
 
-![course_element_task_tabs_v1_de.png](assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox"}
+![The course element Task is configured via eleven tabs: Title and description, Layout, Learning path, Workflow, Task, Submission, Return and feedback, Assessment, Sample solution, HighScore as well as Reminders & to-dos: tab bar in the course editor](assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox"}
 
 !!! note "Quick Links: Create tasks (Author perspective)"
 
@@ -73,7 +73,7 @@ In the case of the **processing time**, the estimated time a user needs to proce
 
 The "Learning Path" tab also defines which criterion must be met for the task to be considered "completed". The following options are available:
 
-![Completion criterion](assets/task_completion_criterion.png){ class="shadow lightbox" }
+![Five completion criteria are available: "Visit course element", "Confirmation by participant", "Score", "Passed" and "Execution done": field Completion criterion in the tab Learning path of the course editor](assets/task_completion_criterion.png){ class="shadow lightbox" }
 
 * **Visit course element**: User has clicked on the course element.
 * **Confirmation by participant:** User has clicked on the "I've read the content" button.
@@ -96,51 +96,51 @@ In the "Workflow" tab, you define which individual elements the task should cont
     Start the configuration in this tab and select the functions you require. The required tabs are then active/inactive and can be configured further.
 
 The following options are available to you:
-![course_element_task_workflow_elements_v2_de.png](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
+![The tab Workflow switches the nine components of the task on individually and takes a due date per step, from Relative date through Task, Submission, Feedback and Assessment to Coaching: tab Workflow in the course editor](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
 
-![1_green_24.png](assets/1_green_24.png) **Relative date**<br>
+![1](assets/1_green_24.png) **Relative date**<br>
 Instead of entering calendar data, you can also work with _relative data_. Specify how many days after the first course visit or booking the assignment remains open. All set times can also be adjusted individually, e.g. if a learner needs an extension due to certain circumstances. This applies to all process steps. If you extend the submission date, the task is reopened. A late submission date is also possible.
 
 === "With fixed date"
 
-    ![course_element_task_workflow_fix_dates_v1_de](assets/course_element_task_workflow_fix_dates_v1_de.png){ class="shadow lightbox" }
+    ![With the checkbox "Relative date" switched off, the field "Assignment until" takes a calendar date with a time: section Task in the tab Workflow of the course editor](assets/course_element_task_workflow_fix_dates_v1_de.png){ class="shadow lightbox" }
 
 === "With relative date"
 
-    ![course_element_task_workflow_relative_dates_v1_de](assets/course_element_task_workflow_relative_dates_v1_de.png){ class="shadow lightbox" }
+    ![With the checkbox "Relative date" switched on, the field "Assignment until" takes a number of days after the participants' first course visit: section Task in the tab Workflow of the course editor](assets/course_element_task_workflow_relative_dates_v1_de.png){ class="shadow lightbox" }
 
 The changeover to relative data affects the input fields for **Task**, **Submission** and **Sample solution**.
 
-![2_green_24.png](assets/2_green_24.png) **Task**<br>
+![2](assets/2_green_24.png) **Task**<br>
 Should a specific task be stored in the course element or can the user perhaps find the task elsewhere? Should the user submit a document? Should there be feedback from the teacher? Should users be given the opportunity to revise a submission if necessary? Should a sample solution be provided? Should an assessment with points or a pass be possible? Should certain learners be assessed by certain coaches?
 
 Simply activate the things you need and configure the relevant tabs in the next step.
 
-![3_green_24.png](assets/3_green_24.png) **Submission**<br>
+![3](assets/3_green_24.png) **Submission**<br>
 The sections Assignment, Submission, Late submission and Sample solution can be given a date. The assignment and submission are available until the date entered.
 
 If late submission is activated and a deadline is set, participants can still submit their solution up to the late deadline. Both the normal submission deadline and the late deadline are displayed for the user, or the deadlines that are still in the future. The late submission is also displayed to the coach or course owner in the assessment flow.
 
-![4_green_24.png](assets/4_green_24.png) **Feedback**<br>
+![4](assets/4_green_24.png) **Feedback**<br>
 By default, feedback is given by coaches, but it can also be given by the other participants (peer review).
 
-![5_green_24.png](assets/5_green_24.png) **Correction**<br>
+![5](assets/5_green_24.png) **Correction**<br>
 The submission of revisions by participants after correction is optional.
 
-![6_green_24.png](assets/6_green_24.png) **Sample solution**<br>
+![6](assets/6_green_24.png) **Sample solution**<br>
 A sample solution can be provided for all participants or only those who have completed the task from the date entered.
 If sample solutions are activated, you can also define here whether coaches are allowed to add and edit documents.
 
-![7_green_24.png](assets/7_green_24.png) **Assessment**<br>
+![7](assets/7_green_24.png) **Assessment**<br>
 Activating this toggle button activates the "Assessment" tab, in which the details of the assessment can be configured.
 
-![8_green_24.png](assets/8_green_24.png) **Document configuration**<br>
+![8](assets/8_green_24.png) **Document configuration**<br>
 This option is only displayed if one of the options "Task" or "Sample solution" has been selected and thus the upload of documents is required. In addition to course owners, coaches can also be allowed to add and edit documents here.
 
-![9_green_24.png](assets/9_green_24.png) **Coaching**<br>
+![9](assets/9_green_24.png) **Coaching**<br>
 Participant-dependent coaching can be activated and configured in the "Coaching" section of the "Workflow" tab.
 
-![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
+![The section Coaching bundles five settings: activate assignment, coaches available for selection, type of assignment as well as one notification each for coaches and participants: section Coaching in the tab Workflow of the course editor](assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" }
 
 * **Assignment of coaches/participants**<br>
 Selecting this checkbox displays the other options for coaches.
@@ -157,6 +157,27 @@ Select here in which cases coaches receive a notification by e-mail.
 
 * **Notification of participants**<br>
 Select here whether participants should be informed by e-mail about the assignment to a coach.
+
+#### Table "Assignment coaches/participants" [:octicons-tag-16:{ title="from Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #coach_assignment_table}
+
+The actual assignment is made by course owners when the course editor is closed: `Course > "Task element" > Tab "Participants" > Button "Assignment coaches/participants"`.
+
+The table is a matrix: each row is a participant, each column a coach available for selection, plus the column "Not assigned". You set the assignment by choosing the radio button in the desired column of the row. Behind every name, brackets state how many people are currently assigned to that coach. This makes an uneven distribution visible at a glance.
+
+Via "Randomly assign unassigned", OpenOlat distributes all people still open automatically. The tabs "All" and "Not assigned" as well as the filters "Participants" and "Coach" narrow down the list. If the course has groups or curriculum elements, the filter "Groups" is added.
+
+![A matrix assigns each row with username, last name, first name and task a column per coach, with the number of assignments in brackets; top right the menu with the action "Save filter", above it "Randomly assign unassigned": page Assignment coaches/participants in the tab Participants](assets/course_element_task_coach_assignment_table_en.png){ class="shadow lightbox" }
+
+!!! note "Hint"
+
+    Coaches do not see the button "Assignment coaches/participants". The assignment is reserved for course owners; coaches recognise their own assignment in the column "Coach" of the participant list.
+
+Two functions support the work with large lists:
+
+* **Export**: via the export symbol above the table on the right, you download the current table view as an Excel file, for example as proof of the assignment.
+* **Save filter**: you store a set filter combination via the three-dot menu on the right next to the filters with "Save filter" under a name of your own. The stored filter then appears as a tab of its own and is available again the next time the table is opened. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601)
+
+The button appears only for the course element Task and only if the assignment of coaches and participants is activated. For the [group task](../learningresources/Course_Element_Grouptask.md), the assignment follows from the coaching of the group.
 
 
 
@@ -205,23 +226,23 @@ If a task is created with the internal OpenOlat HTML editor, multiple files such
 
     Please note: If multiple files are stored in the Task tab, they will be considered as multiple different tasks. It is _not_ a task with several complementary files.
 
-Select in the field **"Type of drawing"** if several course participants can solve the same task or if each task or if each student should solve a different task.
+In the field **"Type of assignment"** you determine whether a participant is offered all available tasks for selection, or whether a task is assigned automatically by random selection.
 
-In the **"Type of draw"** field, select whether several course participants can solve the same task or whether each course participant should solve a different task. If the task is selected manually, you can also specify in the "Preview" field whether the course participants can view the task before selecting it. If each course participant is to solve a different task for "Type of draw", at least as many tasks must be entered as there are course participants who are to solve this task.
+In the **"Type of sampling"** field, select whether several participants can solve the same task or whether each participant should solve a different task. If the task is selected manually, you can also specify in the "Preview" field whether the participants can view the task before selecting it. If each participant is to solve a different task for "Type of sampling", at least as many tasks must be entered as there are participants who are to solve this task.
 
 !!! tip "Hint"
 
     If the course element contains only one task, manual selection is not very useful. In this case, it is best to use the automatic assignment.
 
-In the field **"Message for user"** you can provide general information for all course participants regarding your tasks.
+In the field **"Message for user"** you can provide general information for all participants regarding your tasks.
 
 In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the [assessment tool](../learningresources/Assessment_tool_overview.md) by the course owner.
 
-![Reset data of task](assets/task_reset_assessmenttool.png){ class="shadow lightbox" }
+![The button "Reset data of task" at the end of the assessment workflow takes back the task choice of a person whose assignment is completed and whose submission was done without documents: assessment workflow of a person in the assessment tool](assets/task_reset_assessmenttool.png){ class="shadow lightbox" }
 
 The assignment is *not reset automatically*. The participant gets the opportunity to undo all pervious steps.
 
-![Reset task](assets/task_reset_user.png){ class="shadow lightbox" }
+![After the reset, the button "Reset task" appears for participants in the step "Task assignment", with which they undo their previous choice themselves: course element Task in the participants' view](assets/task_reset_user.png){ class="shadow lightbox" }
 
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -239,19 +260,19 @@ Here you define the type and scope of the submission options for the participant
 
     * "Submission" must be activated in order to configurated them. 
 
-    ![course_element_task_workflow_activate_submission_v1_de.png](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
+    ![The switched-on section Submission releases the field "Submission until" and the checkbox "Allow submission after the deadline": section Submission in the tab Workflow of the course editor](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
 
 After activation, you must at least enable users to upload documents and/or use the OpenOlat Editor for submission. 
 
 The following options are available or can be configured in the "Submission" tab:
 
-**"Upload documents"**: In this case, course participants can upload and submit documents created outside of OpenOlat.
+**"Upload documents"**: In this case, participants can upload and submit documents created outside of OpenOlat.
 
 **"Submission with OpenOlat Editor**: With this selection, participants can create documents directly in the course element. An HTML editor can be used for this by default. If other document editors are integrated in OpenOlat, documents can also be created in other formats such as Word, Excel, etc.  The creation of drawio diagrams is also possible here.
 
 Activate **"Task is template for submission"** if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in. The prerequisite is that this option has been enabled by the OpenOlat administrators.
 
-![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
+![The assigned task file is ready for download in the step Assignment, below it the step Submission prepares the own documents and transmits them with "Final submission": course element Task in the participants' view](assets/Aufgabe_Vorlage.png){ class="shadow lightbox" }
 
 **Allow video recordings**: In this case, learners can create and submit video recordings via webcam. A maximum recording duration and a quality level can also be selected for the videos.
 
@@ -264,6 +285,8 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
 
+---
+
 
 ### Tab "Revisions"  {: #revisions}
 
@@ -272,7 +295,7 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
     In the tab "Workflow"
 
     * "Return and feedback" must have been activated so that you can now set this up<br>
-    ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
+    ![The switched-on section Feedback offers the choice between "By coaches" and "With peer review", and for peer review additionally the peer review period: section Feedback in the tab Workflow of the course editor](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
     * Depending on who is providing the feedback, different options appear in the Return and Feedback tab.
 
 
@@ -287,38 +310,38 @@ If the "With peer review" option was selected in the Workflow tab, this becomes 
 If the assessment is also activated in the Workflow tab and the points for the peer review are to be taken automatically from the peer review form, the peer review form used must also contain (at least) one rubric element, as points can be awarded automatically via this. Here you can find a [sample form for download](assets/Example_PeerReview_v1_de.zip).
 
 
-![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
+![For a peer review, a rubric form is embedded at the top, below it the settings Relation, Review form, Assignment, Number of reviews and Quality feedback govern the procedure: tab Return and feedback in the course editor](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
 
-![1_green_24.png](assets/1_green_24.png) **Form**<br>
+![1](assets/1_green_24.png) **Form**<br>
 A suitable rubric form is required for peer reviews. Here you will find a [sample form](assets/Example_PeerReview_v1_de.zip) (zip file for importing into your OpenOlat).
 
-![2_green_24.png](assets/2_green_24.png) **Mutual assessment**<br>
+![2](assets/2_green_24.png) **Mutual assessment**<br>
 If mutual assessment is permitted, participants can assess each other, but do not have to.
 
-![3_green_24.png](assets/3_green_24.png) **Review-Form**<br>
+![3](assets/3_green_24.png) **Review-Form**<br>
 Regarding the **visibility of names**, you can choose one of the following forms as author:<br> 
 \- Double blind review: All names are anonymous (except coaches).<br>
 \- Single blind review: The name of the reviewer is anonymous.<br>
 \- Open review: All names are visible.
 
-![4_green_24.png](assets/4_green_24.png) **Assignment**<br>
+![4](assets/4_green_24.png) **Assignment**<br>
 As the author, you determine here **which tasks** the reviewers receive for review:<br> 
 \- **The same assignment**: For example, if a person has drawn and completed task 1, they will only be given task 1 to review. They do not then have to familiarize themselves with another topic.<br>
 \- **Other assignments**: A review must be carried out for a different task than the task that you have drawn yourself. If several reviews are to be made, however, all reviews must always be made for the same task type.<br>
 \- **Random**: The reviewers are given random tasks to review.
 
-![5_green_24.png](assets/5_green_24.png) **Number of reviews**<br>
+![5](assets/5_green_24.png) **Number of reviews**<br>
 Here you specify how many reviews are planned for each participant. However, depending on the number of participants, the actual number of reviews to be completed may vary. Ideally, the number of reviews to be completed should correspond to the number of reviews you receive from others.
 
-![6_green_24.png](assets/6_green_24.png) **Quality feedback for reviewers**<br>
+![6](assets/6_green_24.png) **Quality feedback for reviewers**<br>
 Participants can be given the opportunity to provide their reviewers with feedback after receiving reviews. Whether the review received was helpful can be indicated with the thumb symbol or with stars. 
 
-![7_green_24.png](assets/7_green_24.png) **Form of feedback**<br>
+![7](assets/7_green_24.png) **Form of feedback**<br>
 If "Quality feedback for reviewers" has been activated, you can select which symbols should be used to give the reviewers this feedback ("Helpful? Yes/No" and star rating). 
 The "thumbs up" / "thumbs down" symbol has proven to be recommendable.
 
-![8_green_24.png](assets/8_green_24.png) **Automatically assign reviewer**<br>
+![8](assets/8_green_24.png) **Automatically assign reviewer**<br>
 Authors see all participants of a course, but coaches may only see their coached group. 
 In order for coaches to be able to view the reviews of the supervised participants, reviews must be assigned within their groups. (Only then can coaches follow all reviews).<br>
 If the "Automatically assign reviewers" option is selected, coaches will only see their group, but review assignments will be assigned among all participants. Coaches will then see that a coached person has received a review from someone in the other group. However, the name of the person who did the review is not visible.<br> 
@@ -354,9 +377,11 @@ Here you define _how_ each course participant shall be assessed. Should there be
 
 A form with a rubric can also be used for the assessment. The points can then be taken from the rubric form for the assessment of the course element. <br> The rubric form included here in the "Assessment" tab is to be distinguished from the rubric form used in the "Return and feedback" tab for peer reviews.
 
-![course_element_task_tab_grading_rubrik_v1_de.png](assets/course_element_task_tab_grading_rubrik_v1_de.png){ class="shadow lightbox" }
+![At the top a rubric form is embedded as the assessment basis, below it Score, Scoring, Total score from, the scaling factors and Passed/Not passed govern the assessment: tab Assessment in the course editor](assets/course_element_task_tab_grading_rubrik_v1_de.png){ class="shadow lightbox" }
 
 #### Awarding points
+
+In the field **"Scoring"** you define whether OpenOlat calculates the points "Automatic" from the selected sources or whether they are entered "Manually by coaches".
 
 If scoring has been activated, the minimum and maximum number of points must be specified. You can then also select the "Assessment with grading/marks" option and configure it further. The respective points can be assigned specific evaluation scales such as levels, grades, (competence) levels or labels. The available rating scales are defined by the OpenOlat administrator and can be selected via the "Edit rating scale" button and the points can be adjusted in detail. It must also be defined whether the assignment to the calculated classification is made manually by the coach or whether it should be displayed automatically when points are changed.
 
@@ -367,6 +392,8 @@ The total points can be calculated from one or more sources:
 * **Rubric-assessment**: If a rubric form is used in the "Assessment" tab, points can be transferred from there.
 * **Rubric-peer-review**: A peer review uses the rubric form, which is included in the "Return and feedback" tab.
 * **Submitted reviews**: Additional points can be awarded to the person for reviewing other participants (points per completed review, configured below this selection as soon as the option has been selected).
+
+For both rubric sources, one weighting field each appears: **"Scaling factor for rubric assessment"** and **"Scaling factor for rubric peer review"**. With them you determine the factor with which the points of the respective source enter the total score.
 
 
 #### Passed/Failed
@@ -381,10 +408,12 @@ Optionally, you can also activate the option for individual comments or individu
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
 
+---
+
 
 ### Tab "Sample Solutions"  {: #sample}
 
-In order to provide all course participants with a sample solution regarding your tasks just either upload appropriate documents or directly create them via the embedded text editor. The sample solution is visible after the coach accepted solution documents for submission.
+In order to provide all participants with a sample solution regarding your tasks just either upload appropriate documents or directly create them via the embedded text editor. The sample solution is visible after the coach accepted solution documents for submission.
 
 !!! info "Requirements"
 
@@ -392,7 +421,7 @@ In order to provide all course participants with a sample solution regarding you
 
     * "Sample solutions" must be activated in order to be configurated.
 
-    ![course_element_task_workflow_activate_sample_v1_de.png](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
+    ![The switched-on section Sample solutions takes a date under "Visible after" and governs whether the sample solution becomes visible to everyone or only after a solution has been submitted: section Sample solutions in the tab Workflow of the course editor](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
 
 By default, the sample solution is only visible once the documents submitted by the participant have been accepted by the coach.
 
@@ -421,10 +450,12 @@ For more information on this tab, which is available in several course elements,
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
 
+---
+
 
 ### Tab "Reminders & To-dos"    {: #reminders}
 
-With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for course participants in the personal menu under "[To-dos](../personal_menu/To-Dos.md)".
+With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for participants in the personal menu under "[To-dos](../personal_menu/To-Dos.md)".
 
 If the automatic creation of to-dos is activated, learners can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the personal tools. 
 
@@ -460,7 +491,7 @@ If the course owner has activated the assignment of badges under `Administration
 
 All steps of a task (workflow) are displayed to course participants directly in the course element, depending on the configuration of the course element. Once a step has been completed, the next step is displayed and accessible.
 
-![course_element_task_participant_view1_v1_de.png](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
+![The steps of the task stand one below the other; only "Task assignment" is open and requires choosing a task via "Select", while Submission, Return, Sample solution and Assessment are not yet available: course element Task in the participants' view](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Quick Links: Complete tasks (Course participant perspective)"
 
@@ -497,7 +528,7 @@ In course settings with a large number of participants, they are often coached b
 
 As a participant, you will see the coach assigned to you above the task. If no coach is displayed, no one has been assigned to you yet.
 
-![course_element_task_participant_view_mycoach_v1_de.png](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
+![Above the workflow, the block "You are coached by" states username, name and e-mail address of the assigned coach: course element Task in the participants' view](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
 
 Peer review also allows participants to give each other feedback on the tasks they have completed.
 
@@ -509,7 +540,7 @@ Peer review also allows participants to give each other feedback on the tasks th
 
 In the **"Submission"** area, you have the option of submitting your solution. Depending on the teacher's configuration, you can either upload documents, create files with the OpenOlat Editor or create short audio and video recordings directly in OpenOlat.
 
-![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
+![In the step Submission, the table lists the prepared documents with date and author, below them stand the four ways "Upload document", "Create document", "Record video" and "Record audio": course element Task in the participants' view](assets/Aufgabe_Abgabe18.png){ class="shadow lightbox" }
 
 As a rule, only some of the four options will be available to you.
 Upload your solution or create it directly in OpenOlat and the document will be saved temporarily. The documents remain editable for you until you submit your task via the "Final submission" button. You will receive confirmation that you have submitted documents.
@@ -526,15 +557,15 @@ If you have _not_ made a submission yet and the coach has not provided any feedb
 
 If you have submitted an edit and the coach has not yet created a feedback, the corresponding information will appear.
 
-![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
+![The step carries the status "Review" and reports that the coach is assessing the work and that a notification will follow: step Return and feedback in the participants' view](assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" }
 
 As soon as your coach has created feedback, you will find the feedback information in the "Return and feedback" step.
 
-![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
+![The step is completed and shows the coach's comment as well as the returned document with the actions "Open" and "Download": step Return and feedback in the participants' view](assets/Aufgabe_Rueckgabe_Feedback_FB.png){ class="shadow lightbox" }
 
 If your editing was not sufficient and the coach requests a revision, a corresponding message also appears and you have the option of submitting a new edit in the "Revision" step. A deadline may be set for this.
 
-![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
+![A warning states the rejection for revision, below it the coach's comment explains what needs improving: step Return and feedback in the participants' view](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -544,7 +575,7 @@ If your editing was not sufficient and the coach requests a revision, a correspo
 
 If a peer review was planned for the task, you will now be assigned review tasks. You are to assess the documents submitted by other course members. The documents you are to review can be assigned to you automatically or manually by coaches. 
 
-![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+![The step "Peer review - assessments given" lists the authors to be assessed with status "Open" and the action "Perform"; it is completed via "Finish review": course element Task in the participants' view](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
 
 Once you have completed all the reviews, finalise this step by clicking on the ‘Complete reviews’ button.
 
@@ -556,7 +587,7 @@ Once you have completed all the reviews, finalise this step by clicking on the �
 
 If a peer review has been scheduled, you will see an overview of the assessments you have given and received.
 
-![course_element_task_participant_peer2_v1_de.png](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
+![Assessments given and received stand in two blocks: above the progress per author, below the overall assessment, number of reviewers and per review the rating "Helpful?": course element Task in the participants' view](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -582,7 +613,7 @@ Your lecturer can attach a **sample solution** to the assignment, which will be 
 
 The **Assessment** area includes automatically generated information on the performance overview with status, score, classification of the selected assessment scale, depending on the configuration of the course element. On the other hand, coaches can store feedback in the comments field as well as (assessment) documents in the assessment area. 
 
-![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
+![The performance overview summarises success status, level, score achieved and solution attempts in tiles, below them stand the coach's comment and the assessment documents: step Assessment in the participants' view](assets/Aufgabe_Bewertung_TN.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -679,7 +710,7 @@ The procedure for a peer review was determined by the course owner. As a coach, 
 * You can see the status of the peer reviews in an overview. In two tabs you will find the assessments received and awarded by the participants.
 * As a coach, you can manually assign reviewers.
 
-![course_element_task_coach_peer1_v1_de.png](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }
+![The tabs "Assessments received" and "Assessments given" show progress, assessment and status per author; the button "Assign reviewer" triggers a manual allocation: peer review in the coach view](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "hint"
@@ -694,7 +725,7 @@ The procedure for a peer review was determined by the course owner. As a coach, 
 
 If you as a coach want to determine who receives a review from whom, you can make the assignment yourself.
 
-![course_element_task_peer-review_assign_reviewer_manually_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
+![In the detail view of a person, the highlighted button "Assign reviewer" opens the manual allocation, below it the tabs filter by status of the assessments: tab Participants of the course element Task](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
 
 A manual assignment is also possible in the table. To do this, click on the 3 dots.
 
@@ -708,7 +739,7 @@ The assignment of peer reviewers to participants can also be carried out automat
 
 The automatic assignment process must be triggered by course owners or course coaches.
 
-![course_element_task_peer-review_assign_reviewer_automatically_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_automatically_v1_de.png){ class="shadow lightbox" }
+![The block Configuration states number of reviews and review form, next to it the highlighted button "Automatically assign reviewer" starts the allocation: segment Peer review in the tab Workflow of the coach view](assets/course_element_task_peer-review_assign_reviewer_automatically_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hint"
 
