@@ -92,7 +92,7 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 
 ## Suchmaschinenoptimierung {: #API_config_search_engine}
 
-Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml, was vor allem Google benutzt und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
+Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml, was vor allem Google benutzt, und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
 
 ![Administration Modul Suchmaschinenoptimierung](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
 

@@ -90,7 +90,7 @@ Different sets can be selected. Sets categorize the metadata of learning resourc
 
 ## Search Engine Optimization {: #API_config_search_engine}
 
-This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemapxml, which is mainly used by google and [indexnow](https://www.indexnow.org/index) by bing and others. This collection is actively triggered once a week.
+This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemapxml, which is mainly used by google, and [indexnow](https://www.indexnow.org/index) by bing and others. This collection is actively triggered once a week.
 
 ![Administration Module Search Engine Optimization](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
 
