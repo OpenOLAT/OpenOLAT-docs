@@ -1,6 +1,6 @@
 # Question pool: Create Questions {: #question_pool_create_questions}
 
-![Fragenpool](assets/Fragenpool_favoriten.png)
+![The question items marked as favourites with type, format and status, below them the actions for lists, test, export and sharing. My favourites area in the question pool.](assets/Fragenpool_favoriten.png){ class="shadow lightbox" }
 
 ## Overview of available questions [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
@@ -19,7 +19,7 @@ An overview of the **question types** that can be created and imported can be fo
 
 Question items can be created in the question pool using the "Create question" button in QTI 2.1 format and saved directly for further use. 
 
-![Fragetypen](assets/Frage_erstellen_typen.png)
+![Open selection list of the QTI 2.1 question types, from Single Choice to Gap text with dropdown.](assets/Frage_erstellen_typen.png){ class="shadow lightbox" }
 
 During creation, a title is specified, followed by the question type and finally, if available, the subject area is selected. The questions created in this way can then be imported and used in the OpenOlat learning resource "Test".
 
@@ -38,6 +38,8 @@ You choose one of two modes as source material:
 
 * **"Upload file"**: a Markdown, plain text or Word file (.docx).
 * **"Paste text"**: you paste the source text directly into the input field.
+
+How long the source text may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. The dialogue states the applicable limit and rejects texts that are too long.
 
 You then define how many questions are generated: "Multiple-choice questions" and, when AI correction is configured, "Essay questions with AI correction" [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. The AI suggests sensible values based on the text length, which you can adjust. Start the process with "Generate questions".
 
@@ -75,7 +77,7 @@ Once the first version of a question has been created, it can be submitted to a 
 
 ## Share question in the pool [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
-![question_create_share_in_pool_v1_de.png](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
+![Open Share menu with Export, Share in pool and Share in group. Detail view of a question item.](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
 
 Several pools may have been created by the pool administrator. As the author of a question, you can decide in which pool your question is released.
 

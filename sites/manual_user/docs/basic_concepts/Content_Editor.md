@@ -6,7 +6,7 @@ In the Content Editor, authors can compile pages and forms in several layout gri
 
 The aim is to enable an adaptive design so that the content is also displayed appropriately on mobile devices.
 
-![content_editor_v1_de.png](assets/content_editor_v1_de.png){ class="shadow lightbox" }
+![A selected title block with its toolbar and an open inspector, next to it the Add content links in the areas of the layout. Content Editor in edit mode.](assets/content_editor_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
@@ -22,17 +22,17 @@ The Content Editor is activated in the "Page" course block either in the Course 
 
 **When the course editor is closed:**
 
-![content_editor_page_run_mode_v1_de.png](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" }
+![The Edit mode switch is set to Off, highlighted in turquoise. Course element Page with the course editor closed.](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" }
 
 The slide switch can be used to turn the processing mode on and off. 
 
 **In the course editor:**
 
-![content_editor_page_edit_v1_de.png](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" }
+![Three marked steps: course element Page, tab Page content, button Edit page. Course editor.](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" }
 
 In the course editor, you can configure whether, in addition to course owners, instructors are also allowed to use the course module's content editor and make changes when the course editor is closed. 
 
-![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
+![The option Edit page is ticked for coaches. Permissions section in the tab Page content.](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
 The media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, quotes, documents, etc.) is stored in the [Media Center](../personal_menu/Media_Center.md), not in the course’s storage folder (see [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md)). For more information, see the explanations for the respective course element types. 
 
@@ -49,7 +49,7 @@ The content editor is also used in the [learning resource form](../learningresou
 
 The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
-![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" }
+![Open Add content menu of a form with the areas Content, Question types, Organisational and Layout.](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -60,7 +60,7 @@ The displayed options for inserting content are adapted to the form, e.g. differ
 
 This also applies to entries in [portfolio folders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), the Content Editor is used.
 
-![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
+![Selection of the layout templates with nine grids, opened via Insert new layout. Entry of a portfolio folder.](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
 [Portfolio >](../area_modules/The_portfolio_editor_17_1.md)
 
@@ -77,11 +77,11 @@ There are various layouts to choose from, which differ in the way the fields are
 
 If necessary, the layout can be changed later at any time. To do this, simply click on the gear icon (Edit settings) of the layout and select a new layout.
 
-![content_editor_layout_v1_de.png](assets/content_editor_layout_v1_de.png){ class="shadow lightbox" }
+![The Select layout menu with nine grids, opened via Insert new layout. Course element Page in edit mode.](assets/content_editor_layout_v1_de.png){ class="shadow lightbox" }
 
 If several layouts are available in a form, you can change the order of the layouts. Use the arrows to move an entire layout.
 
-![content_editor_layout_move_v1_de.png](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
+![The arrows on the right edge of the layout bar move the whole layout. Course element Page in edit mode.](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
 
 ### Deleting a layout [:octicons-tag-16:{ title="from Release 21.0 (OO-9407)" }](https://track.frentix.com/issue/OO-9407){:target="_blank"} {: #delete_layout}
 
@@ -102,7 +102,7 @@ Content blocks with various specific types of content can be added to each secti
 
 Use "Add content" to add specific content and media to a block. The link appears in every section of a layout, so you can insert the content exactly where it belongs.
 
-![content_editor_add_content_page_v5_en.png](assets/content_editor_add_content_page_v5_en.png){ class="shadow lightbox" }
+![The Add content link in every area of the layout, the arrow points to the area on the right.](assets/content_editor_add_content_page_v5_en.png){ class="shadow lightbox" }
 
 The "Add content" dialog lists the available content types grouped into the sections "Text", "Media", "Knowledge" and "Other & design". At the bottom, two buttons lead directly to the [Media Center](#media_center) and to the [import](#import_position).
 
@@ -112,7 +112,7 @@ As soon as you click or select a piece of added content, a pop-up window appears
 
 You can also show or hide the Inspector pop-up using the gear icon next to the content.
 
-![content_editor_inspector_v1_de.png](assets/content_editor_inspector_v1_de.png){ class="shadow lightbox" }
+![The cogwheel marked in turquoise opens the inspector of the video block with the tabs Media, Style and Layout.](assets/content_editor_inspector_v1_de.png){ class="shadow lightbox" }
 
 **Menus**
 
@@ -120,7 +120,7 @@ The toolbar of a selected block comprises four icons: the gear for the Inspector
 
 A block can be copied with the "Duplicate" action, both as a short action on the block itself and via the three-dot menu [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
-![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
+![The crosshair marked in turquoise starts moving the block by drag and drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -142,17 +142,17 @@ Consistent spacing between the layout fields (content blocks) is important for c
 
 === "S (small distance)"
 
-    ![content_editor_layout_spacing_small.jpg](assets/content_editor_layout_spacing_small.jpg){ class="shadow lightbox" title="kleiner Abstand" }
+    ![Image, text and form elements sit close together. Example page with the spacing S.](assets/content_editor_layout_spacing_small.jpg){ class="shadow lightbox" title="kleiner Abstand" }
 
 
 === "M (medium distance)"
 
-    ![content_editor_layout_spacing_medium.jpg](assets/content_editor_layout_spacing_medium.jpg){ class="shadow lightbox" title="mittlerer Abstand" }
+    ![A clearly visible, medium spacing between image, text and form elements. Same example page with M.](assets/content_editor_layout_spacing_medium.jpg){ class="shadow lightbox" title="mittlerer Abstand" }
 
 
 === "XL (extra large distance)"
 
-    ![content_editor_layout_spacing_extra-large.jpg](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra-grosser Abstand" }
+    ![Image, text and form elements are set far apart. Same example page with the spacing XL.](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra-grosser Abstand" }
 
 
 **Background**
@@ -162,13 +162,13 @@ In the "Style" tab you define the background of a layout [:octicons-tag-16:{ tit
 
 **Block style "Note"**
 
-Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box, along with a matching icon, if applicable. A set of additional colors and icons is also available for customizing the box’s appearance. If desired, a box can also be made collapsible.
+Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box, along with a matching icon, if applicable. The types "Note", "Info", "Tip", "Important", "Warning", "Error" and "Success" are available. With the type "Custom" you design the colour and icon of the box yourself. If desired, a box can also be made collapsible.
 
-![content_editor_box_inspector_v1_de.png](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
+![The info box is switched on, the list of types is open. Tab Style in the inspector of a layout.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
 
 Example:
 
-![content_editor_box_v1_de.png](assets/content_editor_box_v1_de.png){ class="shadow lightbox" }
+![Two finished info boxes with icon, title and coloured frame in the text of a page.](assets/content_editor_box_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -189,32 +189,32 @@ You do not need to configure anything for this. The anchors are not shown on the
 
 Please note that not *all* elements are available in every content editor. 
 
-![content_editor_content_types_v1_de.png](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
+![The Add content dialogue with the content types by area, at the bottom Media Center and Import.](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" }
 
 
 ### Title {: #title}
 
-Various font sizes are predefined for the heading element.
+Various font sizes are predefined for the heading element. The sizes h1 to h6 are available.
 
 Every title additionally receives an [anchor](#anchors). It is used exclusively by the ["Table of contents"](#table_of_contents) element, which lists the titles and links them via their anchors. Outside the table of contents, the anchors cannot be addressed.
 
-![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
+![Open list of the font sizes, h3 is selected. Inspector of a title block.](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 ### Text {: #text}
 
 Use this element to add texts.
 
-![content_editor Text](assets/Text-Element.png){ class="shadow lightbox" }
+![Formatting bar of a selected text block with font style, colours, lists, link and formula.](assets/Text-Element.png){ class="shadow lightbox" }
 
 ### Table {: #table}
 
-![content_editor_content_table_v1_de.png](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
+![Fields for row and column, row header and column header as well as the row style. Inspector of a table block.](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
 ### Mathematic formula [:octicons-tag-16:{ title="from Release 16.2.0 (OO-6070)" }](https://track.frentix.com/issue/OO-6070){:target="_blank"} {: #formula}
 
 A special small editor is available for mathematical formulas.
 
-![content_editor_content_math_v1_de.png](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" }
+![Input field in the content block with the formula keyboard and its registers. Formula editor.](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" }
 
 This text element does not exist in the Form Editor. 
 
@@ -222,7 +222,7 @@ This text element does not exist in the Form Editor.
 
 The 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly helpful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
 
-![content_editor_content_code_v1_de.png](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" }
+![Two code blocks in Java and C sharp with line numbers, syntax colours and a copy symbol.](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" }
 
 This text element does not exist in the Form Editor. 
 
@@ -249,13 +249,13 @@ All images available in the Media Center can be integrated. New images can be up
 
 Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
 
-![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
+![The same image series as a slideshow, as a preview with thumbnails and as a grid.](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
 ### Image comparison [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
 Two superimposed images can be cross-faded using a slider.
 
-![content_editor_content_compare_images_v2_de.png](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" }
+![Two image comparisons, the slider fades horizontally on the left and vertically on the right.](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" }
 
 
 
@@ -263,9 +263,9 @@ Two superimposed images can be cross-faded using a slider.
 
 Audio can be recorded directly in OpenOlat, uploaded or selected from existing audio.
 
-![content_editor_content_audio_v1_de.png](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" }
+![Buttons Record audio and Add audio above the media selection. Select audio dialogue.](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" }
 
-### Video {: #video}
+### Video [:octicons-tag-16:{ title="from Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
 Videos can also be integrated via URL in the 'Video' block. The video formats MP4 and m3u8 as well as the platforms Youtube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
 
@@ -279,13 +279,13 @@ You can also access the Media Center via the Inspector menu to add additional in
 In addition, the "Share" section allows you to share newly created or uploaded documents directly.
 
 
-![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
+![Drop field for the file, below it title, tags, topics, description and licence. Add document dialogue.](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 ### draw.io diagram [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
 Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
-![content_editor_content_drawio_v1_de.png](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
+![Shape library, drawing area with a flow chart and style templates. draw.io editor.](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -302,11 +302,11 @@ This content element allows you to embed quiz questions that can be automaticall
 
 These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
 
-![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
+![A quiz as a start card, with a correctly graded question and with a wrong answer plus solution.](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
 Via the three-dot menu of the quiz element you exchange questions with the [question bank](../area_modules/Question_Bank.md). "Import questions from pool" adds existing questions to the quiz, "Export all questions to pool" writes all questions of the quiz to the question bank. This lets you reuse questions created directly on the page in other courses and tests.
 
-![content_editor_content_quiz_pool_v1_en.png](assets/content_editor_content_quiz_pool_v1_en.png){ class="shadow lightbox" }
+![Open 3-dot menu with Import questions from pool and Export all questions to pool.](assets/content_editor_content_quiz_pool_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -320,7 +320,7 @@ A separator is a line (visual design element) used to separate content.
 
 The "Table of contents" element makes long pages easy to navigate: it lists the titles of the page as clickable jump marks and takes you directly to the respective section with one click [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. It captures the titles that follow the table of contents on the page, up to the next title of the same or a higher level. This allows you to create a table of contents for the whole page or for a single chapter only. In the inspector, "Title sizes" defines which title levels (H1 to H5) appear in the list; H1 to H4 are selected by default. If the table of contents is displayed as an alert box, its title serves as the box title.
 
-![content_editor_content_toc_v1_en.png](assets/content_editor_content_toc_v1_en.png){ class="shadow lightbox" }
+![The table of contents lists the following titles as jump marks, H1 to H4 are ticked in the inspector.](assets/content_editor_content_toc_v1_en.png){ class="shadow lightbox" }
 
 You insert the element via "Add content" in the "Other & design" section. When inserted, it carries the title "Contents", which you can overwrite in the Inspector.
 
@@ -345,7 +345,11 @@ It opens with the "Assessment" of the answer, ranging over "very good", "good", 
 
 Under "Detailed feedback" further sections can be expanded: "What went well", "What is missing" and "Next step", plus the points the answer covers and those it misses, and under "Language" feedback on "Grammar" and "Spelling". The area only appears when the AI has something to contribute.
 
-![content_editor_ai_feedback_v1_en.png](assets/content_editor_ai_feedback_v1_en.png){ class="shadow lightbox" }
+Depending on the AI model in use, grading takes a few seconds up to several minutes. Meanwhile the page reports progress in stages: first it waits for the AI correction, after a short while it points out that the page should be kept open, and after that it states that grading with this model can take several minutes. As soon as the result is ready, the page updates itself. If grading exceeds the waiting time configured in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), OpenOlat cancels it and reports this [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}.
+
+OpenOlat rejects answers that are too long before grading starts. The permitted number of words is set by the system administration in the AI module, 400 words by default. The message to the learners states the configured value.
+
+![Assessment wrong with an overall appraisal and Feedback reliability high, Detailed feedback collapsed.](assets/content_editor_ai_feedback_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -361,7 +365,7 @@ Markdown files and Word documents can be imported directly into the Content Edit
 
 To import, click the **"Import"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
 
-![content_editor_import_button_v1_en.png](assets/content_editor_import_button_v1_en.png){ class="shadow lightbox" }
+![The Import button marked in turquoise at the bottom edge of the Content Editor.](assets/content_editor_import_button_v1_en.png){ class="shadow lightbox" }
 
 **A) Upload file:** (The following are supported)
 
@@ -371,7 +375,7 @@ To import, click the **"Import"** button at the bottom of the content editor. In
 
 **B) Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
 
-![content_editor_import_dialog_v1_en.png](assets/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" }
+![The modes Upload file and Paste text, the selected Word file and the switch for the AI quiz.](assets/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Importing Word documents"
     Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
@@ -415,7 +419,7 @@ If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is co
 
 The "Import" button is additionally available in the **"Add content" dialog** [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
 
-![content_editor_import_add_content_v1_en.png](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" }
+![The three buttons Media Center, Import and Close at the bottom of the Add content dialogue.](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" }
 
 
 ### Generate AI questions on import {: #import_ai_quiz}
@@ -424,7 +428,7 @@ If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is co
 
 Three further fields steer which questions are created. Under "Bloom levels" you choose which cognitive levels the questions should cover: "Remember", "Understand", "Apply", "Analyse", "Evaluate" and "Create". The "Target difficulty" ranges from "1 - Very easy (Quiz mode)" to "5 - Very hard"; with "No preference" the difficulty is chosen at random per question. In the "Learning objectives (optional)" field you enter one learning objective per line to focus the questions in terms of content.
 
-![content_editor_import_ai_quiz_v1_en.png](assets/content_editor_import_ai_quiz_v1_en.png){ class="shadow lightbox" }
+![The switch turned on opens the fields MC questions, essay question, Bloom levels, difficulty and objectives.](assets/content_editor_import_ai_quiz_v1_en.png){ class="shadow lightbox" }
 
 Generation runs in the background and can take a minute; the quiz element appears once the questions are ready. Check the generated questions for correctness afterwards. AI question generation is not available in the e-portfolio.
 
@@ -439,7 +443,7 @@ In the Content Editor for the "Page" and "Portfolio" course blocks, there is a s
 
 Click the link to access the files in your Media Center. Here, you can select, create, or upload files. 
 
-![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
+![Open Add media file menu with document, diagram, text, video, audio and quote.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
 [Media Center (Personal tools) >](../personal_menu/Media_Center.md)<br>
 [Detailed information about the Media Center (Basic concept) >](Media_Center_Concept.md)
