@@ -42,9 +42,11 @@ You will find Room management in the Course Planner under<br>
 
 ## Room Scheduling {: #room_scheduling}
 
-The segment "Room Scheduling" shows you all room bookings as an overview. Bookings arise from the events of your courses to which a room has been assigned.
+The segment "Room Scheduling" shows you all room bookings as an overview. Bookings arise from the events of your courses to which a room has been assigned. They also arise when you copy an implementation together with its events: [Adopt room bookings when copying](Course_Planner_Implementations.md#copy_rooms) [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"}
 
-Use the pre-defined tabs "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. A full-text search is also available. In addition to the table view there is a calendar view. Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner. Each row can be expanded to show the details of the booking.
+Above the table you select the period of the display: "Today and upcoming", "Last 3 months" or "Custom" with a timerange of your own.
+
+Use the pre-defined tabs "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. A full-text search is also available. In addition to the table view there is a calendar view with the views "Month", "Week", "Day" and "Year". Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner. Each row can be expanded to show the details of the booking.
 
 The column "Warnings" draws attention to conflicts:
 
@@ -52,9 +54,9 @@ The column "Warnings" draws attention to conflicts:
 * **Not enough seats**: "There aren't enough seats!" if the number of participants exceeds the number of seats.
 * **Inactive room**: "The room "..." is inactive!"
 
-![course_planner_rooms_scheduling_table_v1_en.png](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" }
+![All room bookings with date, time, reference, building, event, number of participants and seats, warnings as an icon at the start of the row, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" }
 
-![course_planner_rooms_scheduling_calendar_v1_en.png](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" }
+![The switch between table and calendar view with the views Month, Week, Day and Year, here the month view with the bookings in the calendar, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -68,7 +70,7 @@ Use the pre-defined tabs "All" and "Relevant" as well as the filter by status (a
 
 For each room you see, among other things, the building, the "Occupancy rate" (utilisation of the current month) and the "Next event". An icon opens the "Calendar" of the room with its occupancy, and "Details" opens a read-only preview of the room with location and map. Via the building link you jump directly to the building concerned.
 
-![course_planner_rooms_list_v1_en.png](assets/course_planner_rooms_list_v1_en.png){ class="shadow lightbox" }
+![The accessible rooms with reference, description, status, seats, building, occupancy and next event, plus a calendar and a details icon per row, in the Rooms segment of the room management](assets/course_planner_rooms_list_v1_en.png){ class="shadow lightbox" }
 
 !!! info "No deleted filter"
 

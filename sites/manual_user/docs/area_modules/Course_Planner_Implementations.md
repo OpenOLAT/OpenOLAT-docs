@@ -420,7 +420,7 @@ You will find the **"Copy element"** action in the list of implementations at th
 
 ![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard, in the list of implementations](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
-In the first step of the small wizard, you can select whether course content, dates, members and to-dos should also be copied.
+In the first step of the small wizard, you can select whether course content, dates, members, to-dos and room bookings should also be copied.
 
 ![Title and reference of the copy as well as the options for course content, standalone events, to-dos and memberships, in the General settings step of the Copy element wizard](assets/course_planner_implementations_copy2_v2_en.png){ class="shadow lightbox" }  
 
@@ -447,6 +447,28 @@ To-dos of an implementation are carried over when copying. In the first step of 
 In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with title, priority, date input (absolute or relative), due date, status, assignment, delegation and tags. Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
 
 ![The counters #Courses, #Templates, #Events and #To-dos and below them the detail areas Courses, Events and To-dos of an expanded element, in the Overview elements step](assets/course_planner_implementations_copy_todos_details_v1_en.png){ class="shadow lightbox" }
+
+### Adopt room bookings when copying [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"} {: #copy_rooms}
+
+If the module "Rooms" is activated, the first step of the wizard additionally shows the **"Room management"** section. The **"Room scheduling"** selection there determines whether the room bookings of the events are copied as well:
+
+* **Copy:** The room bookings are copied along with the events. This option is preselected.
+* **Don't copy:** The room bookings are not copied.
+
+The selection is only active if events are copied at all, that is if the "Copy" option is selected for **Content** or for **Standalone events**. Otherwise it is greyed out and no bookings are created.
+
+!!! note "You cannot see the Room management section?"
+
+    The section only appears once a system administrator has activated the module "Rooms".<br>
+    [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md#activation)
+
+The copy takes over the room of the original booking. The period of the booking follows the copied event: if you shift the events with **"Shift all dates"**, the bookings move along with them. When copying, OpenOlat does not check whether the room is still free in the new period. Conflicts such as a double booking only appear afterwards as a warning in [Room Scheduling](Course_Planner_Rooms.md#room_scheduling).
+
+In the **"Overview elements"** step, the **"#Rooms"** column additionally appears if the module is active and the "Copy" option is selected. Expand an element and the "Events" table there lists the **"Rooms"** column with the booked rooms.
+
+The **"Copy element"** action is available to administrators, course planners and product owners. You will find the complete overview in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
+
+You copy individual events in the event list of an implementation instead, with the **"Copy"** action. If you mark several events there and copy them together, OpenOlat takes over the room bookings automatically. If you copy a single event, the editing dialog of the copy opens with an empty **"Rooms"** field; you then select the rooms yourself.
 
 [To the top of the page ^](#implementations)
 
