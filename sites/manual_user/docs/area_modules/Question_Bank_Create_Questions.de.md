@@ -1,6 +1,6 @@
 # Fragenpool: Fragen erstellen {: #create_questions}
 
-![Fragenpool](assets/Fragenpool_favoriten.png)
+![Die als Favorit markierten Frageitems mit Titel, Thema, Fachbereich, Typ, Format und Status, darunter die Aktionen für Listen, Test, Export und Freigabe. Bereich "Meine Favoriten" im Fragenpool.](assets/Fragenpool_favoriten.png){ class="shadow lightbox" }
 
 ## Übersicht über vorhandene Fragen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
@@ -19,7 +19,7 @@ Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können 
 
 Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden. 
 
-![Fragetypen](assets/Frage_erstellen_typen.png)
+![Der Dialog "Frage erstellen" mit geöffneter Auswahlliste der QTI 2.1 Fragetypen, von Single Choice über Lückentext und Freitext bis Reihenfolge. Fragenpool, Button "Frage erstellen".](assets/Frage_erstellen_typen.png){ class="shadow lightbox" }
 
 Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich ausgewählt. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
 
@@ -38,6 +38,8 @@ Als Ausgangsmaterial wählen Sie einen von zwei Modi:
 
 * **"Datei hochladen"**: eine Markdown-, Text- oder Word-Datei (.docx).
 * **"Text einfügen"**: Sie fügen den Quelltext direkt in das Eingabefeld ein.
+
+Wie lang der Quelltext sein darf, gibt die System-Administration im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. Der Dialog nennt die geltende Grenze und weist zu lange Texte zurück.
 
 Anschliessend legen Sie fest, wie viele Fragen erzeugt werden: "Multiple-Choice-Fragen" und, sofern die KI-Korrektur konfiguriert ist, "Essay-Fragen mit KI-Korrektur" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. Die KI schlägt anhand der Textlänge sinnvolle Werte vor, die Sie anpassen können. Mit "Fragen generieren" starten Sie den Vorgang.
 
@@ -75,7 +77,7 @@ Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch
 
 ## Frage in den Pool freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
-![question_create_share_in_pool_v1_de.png](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
+![Das geöffnete Menü "Freigeben" einer Frage mit den Einträgen Export, "In Pool freigeben" und "In Gruppe freigeben". Detailansicht eines Frageitems im Fragenpool.](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
 
 Es können mehrere Pools von dem/der Poolverwalter:in angelegt worden sein. Als Autor:in einer Frage können Sie entscheiden, in welchen Pool Ihre Frage freigegeben wird.
 

@@ -25,15 +25,15 @@ Which of these variants are available is decided by your administrator. If you d
 
 Very little. For Zoom you only select the predefined Zoom profile. For the course element this is done in the course editor in the "Zoom configuration" tab, for the course tool and the group tool in the "Configure Zoom" dialog. All further settings (creating a meeting, scheduling, recording and so on) are made directly in the embedded Zoom interface.
 
-![Configure course element Zoom](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Selecting the Zoom profile as the only setting of the course element, with the Zoom profile selector and the Save button: Zoom configuration tab of the Zoom course element in the course editor](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 **Why does the message "Zoom is not configured yet" appear?**
 
-No Zoom profile has been selected yet. Select the profile in the appropriate place:
+No Zoom profile is selected yet. Select the profile in the appropriate place:
 
-* Course element: open the Zoom course element in the course editor and select a profile in the "Zoom configuration" tab.
-* Course tool: configure the "Zoom" tool in the toolbar in the course settings.
-* Group tool: configure the "Zoom" tool in the group administration.
+* Course element: `Course > Administration > Course editor > Course element "Zoom" > Tab "Zoom configuration"`
+* Course tool: `Course > Administration > Settings > Tab Toolbar`
+* Group tool: `Group > Administration > Tools`
 
 **Why is my Zoom profile inactive?**
 
@@ -75,9 +75,9 @@ If participants receive an error message with a Correlation ID (401-type) when j
 
 No. OpenOlat does not manage or store any Zoom recordings. If Zoom provides recordings, these are only accessible within Zoom.
 
-**Is there a participant or attendance list via the Zoom integration?**
+**Is there a list of participants or an attendance list via the Zoom integration?**
 
-No. The Zoom integration does not record attendance and does not provide a participant list of the meeting in OpenOlat. Such information is only available within Zoom.
+No. The Zoom integration does not record attendance and does not provide a list of the meeting participants in OpenOlat. Such information is only available within Zoom.
 
 **Are Zoom meetings shown in the calendar?**
 

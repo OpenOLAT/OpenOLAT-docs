@@ -2,10 +2,10 @@
 
 !!! note "Zoom in OpenOlat"
 
-    Zoom ist ein kommerzielles Web-Konferenzsystem, das über die Schnittstelle LTI 1.3 in OpenOlat eingebunden wird. Die eigentlichen Meetings, Aufzeichnungen und alle weiteren Inhalte werden von Zoom bereitgestellt und verwaltet. OpenOlat stellt den Zugang, die automatische Rollenzuordnung und die Einbettung des Meetings bereit. Die folgenden Fragen und Antworten beziehen sich auf die Nutzung von Zoom in Kombination mit OpenOlat und sind nicht abschliessend.
+    Zoom ist ein kommerzielles Webkonferenzsystem, das über die Schnittstelle LTI 1.3 in OpenOlat eingebunden wird. Die eigentlichen Meetings, Aufzeichnungen und alle weiteren Inhalte werden von Zoom bereitgestellt und verwaltet. OpenOlat stellt den Zugang, die automatische Rollenzuordnung und die Einbettung des Meetings bereit. Die folgenden Fragen und Antworten beziehen sich auf die Nutzung von Zoom in Kombination mit OpenOlat und sind nicht abschliessend.
 
     * Informationen des Herstellers finden Sie auf der [Zoom-Homepage](https://zoom.us){target=_blank}.
-    * Die Verwendung als Kursbaustein ist unter [Kursbaustein "Zoom"](index.md) beschrieben.
+    * Die Verwendung als Kursbaustein ist unter [Kursbaustein "Zoom"](index.de.md) beschrieben.
     * Die Einrichtung durch Administrator:innen ist im [OpenOlat-Administrationshandbuch](https://docs.openolat.org/de/manual_admin/administration/Zoom/){target=_blank} beschrieben.
 
 
@@ -25,15 +25,15 @@ Welche dieser Varianten verfügbar sind, entscheidet Ihre Administratorin oder I
 
 Sehr wenig. Für Zoom wählen Sie lediglich das vordefinierte Zoom-Profil aus. Beim Kursbaustein geschieht dies im Kurseditor im Tab "Zoom-Konfiguration", beim Kurs- und beim Gruppenwerkzeug im Dialog "Zoom konfigurieren". Alle weiteren Einstellungen (Meeting anlegen, Termin, Aufzeichnung und so weiter) nehmen Sie direkt in der eingebetteten Zoom-Oberfläche vor.
 
-![Kursbaustein Zoom konfigurieren](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Zoom-Profil auswählen als einzige Einstellung des Kursbausteins, mit Auswahlfeld Zoom-Profil und Schaltfläche Speichern: Tab Zoom-Konfiguration des Kursbausteins Zoom im Kurseditor](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
 
 **Warum erscheint die Meldung "Zoom ist noch nicht konfiguriert"?**
 
-Es wurde noch kein Zoom-Profil ausgewählt. Wählen Sie das Profil an der passenden Stelle aus:
+Es ist noch kein Zoom-Profil ausgewählt. Wählen Sie das Profil an der passenden Stelle aus:
 
-* Kursbaustein: im Kurseditor den Zoom-Kursbaustein öffnen und im Tab "Zoom-Konfiguration" ein Profil wählen.
-* Kurswerkzeug: in den Kurseinstellungen das Werkzeug "Zoom" in der Toolbar konfigurieren.
-* Gruppenwerkzeug: in der Administration der Gruppe das Werkzeug "Zoom" konfigurieren.
+* Kursbaustein: `Kurs > Administration > Kurseditor > Kursbaustein "Zoom" > Tab "Zoom-Konfiguration"`
+* Kurswerkzeug: `Kurs > Administration > Einstellungen > Tab Toolbar`
+* Gruppenwerkzeug: `Gruppe > Administration > Werkzeuge`
 
 **Warum ist mein Zoom-Profil inaktiv?**
 
@@ -75,9 +75,9 @@ Erhalten Teilnehmende beim Beitritt eine Fehlermeldung mit einer Correlation ID 
 
 Nein. OpenOlat verwaltet und speichert keine Zoom-Aufzeichnungen. Sofern Zoom Aufzeichnungen bereitstellt, sind diese ausschliesslich innerhalb von Zoom zugänglich.
 
-**Gibt es über die Zoom-Integration eine Teilnehmer- oder Anwesenheitsliste?**
+**Gibt es über die Zoom-Integration eine Liste der Teilnehmenden oder eine Anwesenheitsliste?**
 
-Nein. Die Zoom-Integration erfasst keine Anwesenheit und stellt in OpenOlat keine Teilnehmerliste des Meetings bereit. Solche Informationen stehen nur innerhalb von Zoom zur Verfügung.
+Nein. Die Zoom-Integration erfasst keine Anwesenheit und stellt in OpenOlat keine Liste der Teilnehmenden des Meetings bereit. Solche Informationen stehen nur innerhalb von Zoom zur Verfügung.
 
 **Werden Zoom-Meetings im Kalender angezeigt?**
 
