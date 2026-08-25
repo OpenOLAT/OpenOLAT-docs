@@ -433,7 +433,7 @@ Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am
 
 ![Die Aktion Element kopieren im Menü der drei Punkte am Ende einer Zeile, mit der der Kopier-Assistent startet, in der Liste der Durchführungen](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
-Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder und To-dos kopiert werden sollen.
+Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen.
 
 ![Titel und Kennzeichen der Kopie sowie die Optionen für Kursinhalt, eigenständige Termine, To-dos und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v2_de.png){ class="shadow lightbox" }  
 
@@ -460,6 +460,28 @@ To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schrit
 In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit Titel, Priorität, Datumseingabe (absolut oder relativ), Fälligkeitsdatum, Status, Zuweisung, Delegation und Tags auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
 
 ![Die Zähler #Kurse, #Templates, #Termine und #To-dos und darunter die Detailbereiche Kurse, Termine und To-dos eines aufgeklappten Elements, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy_todos_details_v1_de.png){ class="shadow lightbox" }
+
+### Raumbuchungen beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"} {: #copy_rooms}
+
+Ist das Modul «Räume» aktiviert, zeigt der erste Schritt des Wizards zusätzlich den Abschnitt **«Raumverwaltung»**. Mit der Auswahl **«Raumplanung»** bestimmen Sie dort, ob die Raumbuchungen der Termine mitkopiert werden:
+
+* **Kopieren:** Die Raumbuchungen werden zusammen mit den Terminen kopiert. Diese Option ist vorausgewählt.
+* **Nicht kopieren:** Die Raumbuchungen werden nicht kopiert.
+
+Die Auswahl ist nur aktiv, wenn überhaupt Termine kopiert werden, also wenn bei **Kursinhalt** oder bei **Eigenständige Termine** die Option «Kopieren» gewählt ist. Andernfalls ist sie ausgegraut und es entstehen keine Buchungen.
+
+!!! note "Sie sehen den Abschnitt «Raumverwaltung» nicht?"
+
+    Der Abschnitt erscheint nur, wenn ein:e Systemadministrator:in das Modul «Räume» aktiviert hat.<br>
+    [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md#activation)
+
+Die Kopie übernimmt den Raum der ursprünglichen Buchung. Der Zeitraum der Buchung folgt dem kopierten Termin: Verschieben Sie mit **«Alle Daten schieben»** die Termine, verschieben sich die Buchungen mit. OpenOlat prüft beim Kopieren nicht, ob der Raum im neuen Zeitraum noch frei ist. Konflikte wie eine Doppelbuchung erscheinen erst danach als Warnung in der [Raumplanung](Course_Planner_Rooms.de.md#room_scheduling).
+
+Im Schritt **«Übersicht Elemente»** erscheint bei aktivem Modul und gewählter Option «Kopieren» zusätzlich die Spalte **"#Räume"**. Klappen Sie ein Element auf, führt die Tabelle «Termine» dort die Spalte **"Räume"** mit den gebuchten Räumen.
+
+Die Aktion **«Element kopieren»** steht Administrator:innen, Kursplaner:innen und Produktbesitzer:innen zur Verfügung. Die vollständige Übersicht finden Sie in der [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
+
+Einzelne Termine kopieren Sie stattdessen in der Terminliste einer Durchführung mit der Aktion **«Kopieren»**. Markieren Sie dort mehrere Termine und kopieren Sie diese gemeinsam, übernimmt OpenOlat die Raumbuchungen automatisch. Kopieren Sie einen einzelnen Termin, öffnet sich der Bearbeitungsdialog der Kopie mit leerem Feld **«Räume»**; die Räume wählen Sie dort selbst.
 
 [zum Seitenanfang ^](#implementations)
 

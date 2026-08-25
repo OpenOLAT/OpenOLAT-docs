@@ -42,9 +42,11 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 ## Raumplanung {: #room_scheduling}
 
-Das Segment «Raumplanung» zeigt Ihnen alle Raumbuchungen als Übersicht. Buchungen entstehen aus den Terminen Ihrer Kurse, denen ein Raum zugewiesen wurde.
+Das Segment «Raumplanung» zeigt Ihnen alle Raumbuchungen als Übersicht. Buchungen entstehen aus den Terminen Ihrer Kurse, denen ein Raum zugewiesen wurde. Sie entstehen ebenso, wenn Sie eine Durchführung mitsamt ihren Terminen kopieren: [Raumbuchungen beim Kopieren übernehmen](Course_Planner_Implementations.de.md#copy_rooms) [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"}
 
-Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Neben der Tabellenansicht gibt es eine Kalenderansicht. Über «Im Kursplaner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner. Jede Zeile lässt sich aufklappen und zeigt dann die Details der Buchung.
+Über der Tabelle wählen Sie den Zeitraum der Anzeige: «Heute und Bevorstehende», «Letzte 3 Monate» oder «Individuell» mit einer selbst gewählten Zeitspanne.
+
+Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Neben der Tabellenansicht gibt es eine Kalenderansicht mit den Ansichten «Monat», «Woche», «Tag» und «Jahr». Über «Im Kursplaner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner. Jede Zeile lässt sich aufklappen und zeigt dann die Details der Buchung.
 
 Die Spalte «Warnungen» macht auf Konflikte aufmerksam:
 
@@ -52,9 +54,9 @@ Die Spalte «Warnungen» macht auf Konflikte aufmerksam:
 * **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
 * **Inaktiver Raum**: «Der Raum "..." ist inaktiv!»
 
-![course_planner_rooms_scheduling_table_v1_de.png](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" }
+![Alle Raumbuchungen mit Datum, Zeit, Kennzeichen, Gebäude, Termin, Anzahl Teilnehmender und Plätzen, Warnungen als Symbol am Zeilenanfang, im Segment Raumplanung der Raumverwaltung](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" }
 
-![course_planner_rooms_scheduling_calendar_v1_de.png](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" }
+![Der Umschalter zwischen Tabellen- und Kalenderansicht mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht mit den Buchungen im Kalender, im Segment Raumplanung der Raumverwaltung](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -68,7 +70,7 @@ Mit den vordefinierten Tabs «Alle» und «Relevant» sowie dem Filter nach Stat
 
 Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und den «Nächsten Termin». Ein Symbol öffnet den «Kalender» des Raums mit seiner Belegung, über «Details» rufen Sie eine schreibgeschützte Vorschau des Raums mit Standort und Karte auf. Über den Gebäude-Link springen Sie direkt zum betreffenden Gebäude.
 
-![course_planner_rooms_list_v1_de.png](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" }
+![Die zugänglichen Räume mit Kennzeichen, Beschreibung, Status, Plätzen, Gebäude, Belegung und nächstem Termin, dazu Kalender- und Detailsymbol je Zeile, im Segment Räume der Raumverwaltung](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Kein Gelöscht-Filter"
 
