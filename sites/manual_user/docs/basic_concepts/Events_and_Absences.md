@@ -28,6 +28,44 @@ If you do not have the necessary permissions, your view of events may be restric
 
 ---
 
+### Which events (with additional options) are displayed? {: #event_conditions}
+
+The visibility of events generally depends on
+
+- whether the “Events/Absences” module is globally enabled in the administration panel
+- whether the “Events” focus element is displayed
+- whether there are actually any relevant events
+- whether the event should be visible to the role
+
+[To the top of the page ^](#events_and_absences)
+
+---
+
+### Where are the appointments with additional options displayed? {: #event_display}
+
+Participants can view their appointments in the **Course Tools** under the “Events” icon.
+
+Events are also displayed on the various **dashboards** of the coaches.
+
+**Event widgets** are available on the overview pages, such as those in the Coaching Tool and the Course Planner.
+
+[To the top of the page ^](#events_and_absences)
+
+---
+
+### What statuses can events have in OpenOlat? {: #event_status}
+
+Events with additional options (e.g., in the Course Planner or Coaching Tool) have one of the following status values:
+
+- Planned
+- Done
+- Cancelled
+
+[To the top of the page ^](#events_and_absences)
+
+---
+
+
 ## Which absences can be administrated? {: #administrated_absences}
 
 !!! info "General note"

@@ -8,7 +8,7 @@ In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 - einfache Termine (Einträge in Kalendern)
 - Termine mit Zusatzoptionen: Sie erscheinen in [Kursen ](../learningresources/Events_and_absences.de.md), im [Course Planer](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)<br>
-Termine mit Zusatzoptionen können den Status "Geplant", "Erledigt" oder "Abgesagt" haben.<br>
+Termine mit Zusatzoptionen können den Status "Geplant", "Am laufen", "Erledigt" oder "Abgesagt" haben.<br>
 Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 
 
@@ -25,6 +25,43 @@ Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 |[Termine in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.de.md#tab_online-meetings)| x |  | 
 |[Termine in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
 
+
+[Zum Seitenanfang ^](#events_and_absences)
+
+---
+
+### Welche Termine (mit Zusatzoptionen) werden angezeigt? {: #event_conditions}
+
+Die Sichtbarkeit von Terminen hängt generell davon ab,
+
+- ob das Modul "Termine/Absenzen" in der Administration global aktiviert ist
+- ob das Fokuselement "Termine" eingeblendet ist
+- ob es tatsächlich relevante Termnine gibt
+- ob der Termin für die Rolle sichtbar sein soll 
+
+[Zum Seitenanfang ^](#events_and_absences)
+
+---
+
+### Wo werden die Termine mit Zusatzoptionen angezeigt? {: #event_display}
+
+Teilnehmer:innen erhalten eine Sicht auf ihre Termine in den **Kurswerkzeugen** unter einem Icon "Termine".
+
+Auch auf den verschiedenen **Dashboards** der Betreuer:innen werden Termine angezeigt.
+
+Auf den Übersichtsseiten z.B. des Coaching-Tools und dem Course Planner stehen **Termin-Widgets** zur Verfügung. 
+
+[Zum Seitenanfang ^](#events_and_absences)
+
+---
+
+### Welchen Status können Termine in OpenOlat haben? {: #event_status}
+
+Termine mit Zusatzoptionen (z.B. im Course Planner oder Coaching Tool) haben einen der folgenden Status-Werte:
+
+- Geplant
+- Erledigt
+- Abgesagt
 
 [Zum Seitenanfang ^](#events_and_absences)
 
@@ -82,25 +119,25 @@ Teilnehmer:innen haben die Möglichkeit, gegen eine von Betreuer:innen z.B. verm
 
 Es ist zu unterscheiden zwischen 
 
-1. der **generellen Aktivierung und Konfiguration** des Absenzenmanagements durch Administrator:innen unter:<br>
-   **Administration > Module > Termine und Absenzen**<br>
+1. der **generellen Aktivierung und Konfiguration** des Absenzenmanagements durch Administrator:innen in der System-Administration unter:<br>
+   `Administration > Module > Termine und Absenzen`<br>
    [Mehr dazu >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)
 
 
 2. der **Konfiguration** der Absenzenverwaltung in einem **Kurs**<br>
     Die Konfiguration der Termin- und Absenzenverwaltung für einen bestimmten Kurs erfolgt durch die Kursbesitzer:innen in der Kursadministration:<br>
-    **Administration > Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs"**<br>
+    `Kurs > Administration > Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs"`<br>
     [Mehr dazu >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
 
 
 3. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs** durch **Kursbesitzer:innen**<br>
     Die Erfassung und Verwaltung erfolgt im Run Mode (also zur Laufzeit, nicht im Editor) durch Kursbesitzer:innen unter:<br>
-    **Administration > Termine und Absenzen > Tab Teilnehmer**<br>
+    `Kurs > Administration > Termine und Absenzen > Tab "Teilnehmer"`<br>
     [Mehr dazu >](../learningresources/Events_and_absences.de.md)
 
 4. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs** durch **Betreuer:innen**<br>
     Die Erfassung und Verwaltung durch Betreuer:innen erfolgt unter:<br>
-    **Toolbar > Termine**<br>
+    `Toolbar > Termine`<br>
     [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
 
 5. der Übersicht über die **persönlichen Absenzen**<br>
@@ -110,7 +147,7 @@ Es ist zu unterscheiden zwischen
 
 6.  der **kursübergreifenden Absenzenerfassung** durch Coaches<br>
     Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Coaches im <br>
-    **Coachingtool > Button "Termine/Absenzen"**.<br>
+    `Coachingtool > Button "Termine/Absenzen"`<br>
     [Mehr dazu >](../area_modules/Coaching.de.md)
 
 
