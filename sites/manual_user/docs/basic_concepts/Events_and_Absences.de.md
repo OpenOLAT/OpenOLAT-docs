@@ -36,7 +36,7 @@ Die Sichtbarkeit von Terminen hängt generell davon ab,
 
 - ob das Modul "Termine/Absenzen" in der Administration global aktiviert ist
 - ob das Fokuselement "Termine" eingeblendet ist
-- ob es tatsächlich relevante Termnine gibt
+- ob es tatsächlich relevante Termine gibt
 - ob der Termin für die Rolle sichtbar sein soll 
 
 [Zum Seitenanfang ^](#events_and_absences)
