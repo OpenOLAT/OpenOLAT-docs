@@ -3,7 +3,7 @@
 The "My Course" drop-down menu in the toolbar provides access to personalized components of the currently open course.
 
 
-![toolbar_my_course_v1_en.png](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox"}
+![The open My course menu lists the personal tools of the course, set off from them the Leave course entry, in the course toolbar](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox"}
 
 ## How is the "My Course" icon displayed or removed from the toolbar?  {: #display_icon}
 
@@ -39,7 +39,7 @@ Depending on the configuration of the course, not all of the following entries m
 * [**Bookmark**](#bookmark): Activate the bookmark, and the course will appear in the "Courses" menu in the "Favorites" tab.
 * [**Consent**](#terms_of_use): If there are specific terms of use and/or a course-related privacy policy that you have agreed to, you can view them here and also revoke your consent.  
 * [**Groups**](#groups): Here you can see all course-specific groups you are a member of and navigate directly to them.
-* With [**"Leave course"**](#leave_course):you can unsubscribe from the course.
+* With [**"Leave course"**](#leave_course) you can unsubscribe from the course.
 
 [To the top of the page ^](#my_course)
 
@@ -49,13 +49,13 @@ Depending on the configuration of the course, not all of the following entries m
 
 A performance record is a confirmation of a completed performance assessment and must first be activated by the course owner. Learners can then see the individual assessment modules of the course that they have completed, such as tests, assignments, etc., their scores, and further information.
 
-![Leistungsnachweis](assets/Leistungsnachweis_19.png)
+![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
 
 If a [certificate](../learningresources/Course_Settings_Assessment.md#certificate) has been issued for the course, you will also find it under "Performance record" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching.md).
 
 For certificates issued automatically after successful completion of a course, you will receive an automatically generated notification by email.
 
-!!! info "Info"
+!!! note "Note"
 
     You can find transcripts and certificates from **all** your courses in the personal menu under [“Transcripts”](../personal_menu/Personal_Tools.md#transcripts). 
 
@@ -65,14 +65,14 @@ For certificates issued automatically after successful completion of a course, y
 
 ---
 
-### To dos  {: #to-dos}
+### To dos [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
 Here, participants can see all the relevant to-dos for the course. 
 These may be automatically generated to-dos from the [task course elements](../learningresources/Course_Element_Task.md). You will then be asked to take a specific step in the task process, e.g., select a task, submit a solution, or similar. 
 On the other hand, teachers can assign specific tasks to all course participants or just to individual people. Learners can change the status of a task once they have completed the action. 
 
 The to-dos serve as guidance for users on what currently needs to be done in the course. 
-Users can find an overview of all personal and course-related to-dos in the ["Personal Tools"] section. There, they can also create their own to-dos.
+Participants can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. There, they can also create their own to-dos.
 
 [More about To dos >](../basic_concepts/To_Dos_Basics.md)<br>
 [More about To dos in a course >](../learningresources/Course_todos.md)
@@ -81,7 +81,7 @@ Users can find an overview of all personal and course-related to-dos in the ["Pe
 
 ---
 
-### My Badges {: #my_badges}
+### My Badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
 
 If badges are enabled, access to all badges you have earned in this course will automatically be displayed in "My Course."
 
@@ -106,7 +106,7 @@ Activate the bookmark, and these courses will appear in the "Courses" menu in th
 
 ---
 
-### Terms of use {: #terms_of_use}
+### Terms of use [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
 
 If the course requires consent to the terms of use and/or privacy policy at the beginning, you can read them here at any time. 
 
@@ -128,17 +128,28 @@ If you are participating in this course as a group member (group participant or 
 
 The "Leave course" function immediately terminates your course or group membership, depending on how you access the course. After that, you will no longer have access to the course, or you will need to contact the relevant course or group administrator to regain access to the course.
 
-The option to unsubscribe from a course must first be enabled by the course owner in the course settings under the "Sharing" tab and only applies to course participants, not to administrators or owners.
+The option to unsubscribe from a course must first be enabled by the course owners in the course settings under the "Share" tab and only applies to participants, not to coaches or owners.
+
+![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow" }
 
 **When is "Leave course" available?**
 
 "Leave course" only appears if the following conditions are met:
 
-- The active role is "Participant" (when switching roles, the option is only displayed while the participant role is active).
-- The course has usage **"Independent"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). For courses with usage **"Integration into product"** (Course Planner), "Leave course" is not available to CPL participants.
+- The active role is "Participant". When switching roles, the option only appears while the participant role is active.
+- The course has the usage **"Standalone"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). If the Course Planner manages the course instead (usage **"Use in Course Planner"**), "Leave course" is not available. Leaving an implementation is then done via the Course Planner.
 - Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share.md#section_share_leave), an option other than "Never" is selected.
+- No assessment mode is currently running in the course.
 
 If the option **"After course end date or status 'Finished'"** is selected, "Leave course" is already displayed but is inactive as long as the implementation period has not yet ended and the course does not yet have the status "Finished".
+
+**Additional conditions for a group membership**
+
+If you are in the course through a group, the group additionally decides whether "Leave course" appears. All three of the following conditions must be met:
+
+- In the settings of the group, "Participants can leave group" is allowed.
+- The group is linked to this one course only. A group that serves several courses cannot be left through a single course.
+- If the group is used by an [Enrolment course element](Course_Element_Enrolment.md), "Delisting permitted" is set there.
 
 **Confirmation dialog**
 
@@ -146,7 +157,9 @@ After clicking "Leave course," a confirmation dialog appears with the following 
 
 > "You are leaving this course. As a result, you will lose your course or group membership and will no longer have access to this course."
 
-To complete the withdrawal, the "Leave Course" checkbox must also be checked and confirmed by clicking **"Leave."**
+The dialog names the course concerned under "Course". To complete the withdrawal, the "Leave course" checkbox must also be checked under "Confirmation" and confirmed by clicking **"Leave"**.
+
+![Warning about the loss of membership, course name, Leave course checkbox under Confirmation, Leave button](assets/toolbar_my_course_leave_dialog_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#my_course)
 

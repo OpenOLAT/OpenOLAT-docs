@@ -1,54 +1,89 @@
 # Course settings - Tab Share {: #tab_share}
 
-In the Sharing tab, you will find the following sections
+In the Share tab, you will find these sections. Which of them a course actually shows depends on its usage: see [Which sections appear?](#sections_by_usage)
 
- ![1_green_24.png](assets/1_green_24.png) [Verwendung](#section_usage)<br>
-![2_green_24.png](assets/2_green_24.png) [Freigabe](#section_share)<br>
-![3_green_24.png](assets/3_green_24.png) [Angebot](#section_offer)<br>
-![4_green_24.png](assets/4_green_24.png) [LTI 1.3 Zugriffskonfiguration](#section_LTI)<br>
-![5_green_24.png](assets/5_green_24.png) [Freigabeübersicht](#section_share_overview)<br>
+[Usage](#section_usage)<br>
+[Share](#section_share)<br>
+[Offer](#section_offer)<br>
+[LTI 1.3 access configuration](#section_LTI)<br>
+[Share overview](#section_share_overview)<br>
 
 <br>
 
-![course_settings_share1_v1_de.png](assets/course_settings_share1_v1_de.png){ class="shadow lightbox"}
+![Five sections control who can reach the course and how it is booked, in the Share tab of the course settings](assets/course_settings_share1_v2_en.png){ class="shadow lightbox"}
 
 ---
 
-## ![1_green_24.png](assets/1_green_24.png) Section usage {: #section_usage}
+## Which sections appear? {: #sections_by_usage}
 
-If no Course Planner is used, the courses are independent.
+The Share tab does not look the same for every course. What matters is the usage set in the [Usage section](#section_usage). A standalone course controls access, booking and leaving on its own and therefore shows all sections. For a course in the Course Planner, the Course Planner takes over these tasks, and the corresponding settings are dropped from the course. A template has no participants, so everything that concerns participant access is dropped there.
 
-![course_settings_share_usage1_v1_de.png](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox"}
+| Section or setting | Standalone | Use in Course Planner | Template |
+|---|---|---|---|
+| Usage | yes | yes | yes |
+| Share: Access for participants | yes | no | no |
+| Share: Direct link | yes | no | yes |
+| Share: Participants can leave | yes | no | no |
+| Share: Administrative access | yes | yes | yes |
+| Share: Authors can | yes | no | yes, without "embed in groups" |
+| Share: External OER catalogues and search engines | yes | no | no |
+| Offer | yes | no | no |
+| LTI 1.3 access configuration | yes | no | no |
+| Share overview | yes | yes | yes |
 
-!!! warning "Attention"
+For a course in the Course Planner, only the administrative access therefore remains in the Share section. Membership, booking and leaving are handled in the implementation in the Course Planner. The share overview is shorter too: it counts only the owners, because the course itself manages no coaches and no participants.
 
-    By clicking on "Change," you can select a different use. Please note, however, that member management is not carried out in the course for other uses. Therefore, it is no longer possible to make changes once members have already been added to a course. 
+![With Use in Course Planner only the administrative access remains, and the share overview counts the owners alone](assets/course_settings_share_cpl_v1_en.png){ class="shadow lightbox"}
 
-![course_settings_share_usage2_v1_de.png](assets/course_settings_share_usage2_v1_de.png){ class="shadow lightbox"}
+!!! note "Note"
 
-**Independent**<br>
-Independent learning resources have their own member management system. To add new members, open "Administration > Member Management" in the course.<br>
-Access can be granted using the "Private" booking method by registering as a member (e.g., by course owners), by assigning an access code, or by publishing it in the catalog.
+    The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisational units module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated.
 
-**Integration into product**<br>
-If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, separate membership management system.
-
-**Template**<br>
-These courses are also managed by the Course Planner and do not require separate member management. The difference to the "Use in Course Planner" option is that a template is used for instantiation. The course in a run is only created (instantiated) from this template at a specific point in time.
-
-!!! hint "Note"
-
-    When creating new courses, pay attention to the default usage setting. Administrators can set the default usage for new courses under **Administration > Modules > Module Courser Planner > Course Planner tab**.
+The descriptions of the following sections assume the usage "Standalone".
 
 [To the top of the page ^](#tab_share)
 
 ---
 
-## ![2_green_24.png](assets/2_green_24.png) Section Share {: #section_share}
-![course_settings_share_share_v1_de.png](assets/course_settings_share_share_v1_de.png){ class="shadow lightbox"}
+## Section usage [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) {: #section_usage}
+
+If no Course Planner is used, the courses are independent.
+
+![Usage Standalone with the Change link, in the Usage section of the Share tab](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox"}
+
+!!! info "Important"
+
+    By clicking on "Change," you can select a different use. Please note, however, that member management is not carried out in the course for other uses. Therefore, it is no longer possible to make changes once members have already been added to a course.
+
+The "Change usage" dialog offers only the usages you can switch to. The current usage is therefore not in the selection. If a precondition blocks the switch, the dialog names it above the selection.
+
+![Switch to Standalone or Template, the current usage is missing from the selection, in the Change usage dialog](assets/course_settings_share_usage2_v2_en.png){ class="shadow lightbox"}
+
+**Standalone**<br>
+Independent learning resources have their own member management system. To add new members, open `Course > Administration > Member management`.<br>
+Access can be granted using the "Private" booking method by registering as a member (e.g., by course owners), by assigning an access code, or by publishing it in the catalog.
+
+**Use in Course Planner**<br>
+If the course is integrated into a product of the Course Planner, memberships are assigned and managed by the Course Planner. The course then does not require a second, separate membership management system.
+
+**Template**<br>
+These courses are also managed by the Course Planner and do not require separate member management. The difference to the "Use in Course Planner" option is that a template is used for instantiation. The course in a run is only created (instantiated) from this template at a specific point in time.
+
+!!! tip "Note"
+
+    When creating new courses, pay attention to the default usage setting. Administrators can set the default usage for new courses in the system administration under:<br>
+    `Administration > Modules > Module Course Planner > Course Planner tab`
+
+[To the top of the page ^](#tab_share)
+
+---
+
+## Section Share {: #section_share}
+
+![Access Private, direct link, three leaving options with Never selected, plus the rights for authors](assets/course_settings_share_share_v2_en.png){ class="shadow lightbox"}
 
 **Access for participants**<br>
-If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done in the course under "Administration > Member Management." It is therefore like a personal invitation to the course by the course owner.
+If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.
 When selecting the option **"Bookable and open offers"**, learners can book a course themselves, but may have to enter a password (depending on the settings). If the booking is to be made after selecting an offer in the catalog, this option must also be selected. 
 
 **Direct link**<br> 
@@ -61,15 +96,15 @@ If you share this link, this course can be accessed directly. If the person is n
 
 !!! info "Important"
 
-    For courses with usage **"Integration into product"** (Course Planner), the "Leave course" function is not available to CPL participants regardless of this setting. Leaving a CPL implementation is done exclusively via the Course Planner and thus via the administration of their organization.
+    This setting exists only for courses with the usage **"Standalone"**. If the Course Planner manages the course instead (usage **"Use in Course Planner"**), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. Leaving an implementation is then done via the Course Planner and thus via the administration of your organisation.
 
-**Administrative Share**<br>
+**Administrative access**<br>
 People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organizational units selected here. Because these roles exist per organizational unit (e.g., admin for department xy), you can determine here which organizational units will have administrative access to your course.
 If the Organizational Units module is not activated, you will only find a single organization here (usually "OpenOlat").<br>
-You can see how many people have administrative access in the [share overview >](#section_share).
+You can see how many people have administrative access in the [share overview >](#section_share_overview).
 
 **Authors can**<br>
-Allow other authors to reference, copy, or export their course here.
+Allow here what other authors may do with your course: **"embed in groups"**, **"copy"** and **"export content"**. For learning resources other than courses, the first option is called "embed in courses".
 
 **External OER catalogs and search engines**<br>
 OAI-PMH allows metadata from learning resources to be shared with Internet portals or catalogs outside OpenOlat, enabling search engines to find content more easily. (OER = Open Educational Resources)
@@ -85,9 +120,9 @@ Admin Manual: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.md
 
 ---
 
-## ![3_green_24.png](assets/3_green_24.png) Section offers {: #section_offer}
+## Section offers [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![course_settings_share_offer_v1_de.png](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox"}
+![The Add offer button is inactive because access is set to private, in the Offer section](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox"}
 
 In order for a course to be listed in the catalog, an offer must be created. Multiple offers can also be created if the same course is to be offered under different conditions (e.g., free of charge for a specific target group, subject to a fee for others).
 
@@ -97,13 +132,13 @@ You can find more information about offers and the catalog here:<br>
 [Catalog >](../area_modules/catalog2.0.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Create offers >](../area_modules/catalog2.0_angebote.md)<br>
-[Offering bushings in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)<br>
+[Offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)<br>
 
 [To the top of the page ^](#tab_share)
 
 ---
 
-## ![4_green_24.png](assets/4_green_24.png) Section LTI 1.3  [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
+## Section LTI 1.3  [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
 OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, this external access requires security measures and precisely defined permissions.<br>
 In this section, you can set up a deployment to make the course accessible for another LMS.
@@ -114,13 +149,13 @@ You can find more information about sharing a course via LTI here:<br>
 
 ---
 
-## ![5_green_24.png](assets/5_green_24.png) Section Share Overview {: #section_share_overview}
+## Section Share Overview {: #section_share_overview}
 
-![course_settings_share_overview_v2_de.png](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox"}
+![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox"}
 
 In the **Members** block, you will find the number of course members, broken down by owners, coaches, and participants.
 
-The **Administrative Release** block lists all persons who also have access to this course due to their role.
+The **Administrative access** block lists all persons who also have access to this course due to their role.
 
 If the course has been assigned to groups, you will find the relevant groups displayed in the **Groups** block.
 
