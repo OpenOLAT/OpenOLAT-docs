@@ -1,5 +1,9 @@
 # Course settings - Tab Share {: #tab_share}
 
+You open the Share tab in the course via `Course > Administration > Settings > Tab "Share"`.
+
+![Via the Administration tool menu and the Settings entry you reach the settings tabs, among them the Share tab](assets/course_settings_share_entry_v1_en.png){ class="shadow lightbox"}
+
 In the Share tab, you will find these sections. Which of them a course actually shows depends on its usage: see [Which sections appear?](#sections_by_usage)
 
 [Usage](#section_usage)<br>
@@ -7,10 +11,6 @@ In the Share tab, you will find these sections. Which of them a course actually 
 [Offer](#section_offer)<br>
 [LTI 1.3 access configuration](#section_LTI)<br>
 [Share overview](#section_share_overview)<br>
-
-<br>
-
-![Five sections control who can reach the course and how it is booked, in the Share tab of the course settings](assets/course_settings_share1_v2_en.png){ class="shadow lightbox"}
 
 ---
 
@@ -33,7 +33,7 @@ The Share tab does not look the same for every course. What matters is the usage
 
 For a course in the Course Planner, only the administrative access therefore remains in the Share section. Membership, booking and leaving are handled in the implementation in the Course Planner. The share overview is shorter too: it counts only the owners, because the course itself manages no coaches and no participants.
 
-![With Use in Course Planner only the administrative access remains, and the share overview counts the owners alone](assets/course_settings_share_cpl_v1_en.png){ class="shadow lightbox"}
+![With Use in Course Planner only the administrative access remains, and the share overview counts the owners alone](assets/course_settings_share_cpl_v2_en.png){ class="shadow lightbox"}
 
 !!! note "Note"
 
@@ -80,7 +80,7 @@ These courses are also managed by the Course Planner and do not require separate
 
 ## Section Share {: #section_share}
 
-![Access Private, direct link, three leaving options with Never selected, plus the rights for authors](assets/course_settings_share_share_v2_en.png){ class="shadow lightbox"}
+![Access Private, direct link, three leaving options with At any time selected, and the rights for authors, in the Share section](assets/course_settings_share_share_v3_en.png){ class="shadow lightbox"}
 
 **Access for participants**<br>
 If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.
@@ -165,15 +165,18 @@ If the course has been assigned to a product in the Course Planner, you will fin
 
 ---
 
-
 ## Further information {: #further_information}
 
-[Access configuration >](../learningresources/Access_configuration.md)<br>
-[Catalog >](../area_modules/catalog2.0.md)<br>
+**Mentioned on this page**
+[How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
+[Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
+[Catalog 2.0 - Overview >](../area_modules/catalog2.0.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
-[Create offers >](../area_modules/catalog2.0_angebote.md)<br>
-[Offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)<br>
-[Configure LTI access to course >](../learningresources/LTI_Share_courses.md)<br>
+[Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
+[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
+[Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
+
+**Further reading**
+[Access configuration >](../learningresources/Access_configuration.md)
 
 [To the top of the page ^](#tab_share)
-

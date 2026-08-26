@@ -177,9 +177,24 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 
 ---
 
-
 ## Weiterführende Informationen {: #further_information}
 
-[Toolbar Übersicht >](../learningresources/Toolbar.de.md)<br>
+**Auf dieser Seite erwähnt**
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
+[To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
+[To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
+[Persönliche Erfolge/Leistungen: Badges >](../personal_menu/OpenBadges.de.md)<br>
+[Persönliche Werkzeuge: Notizen >](../personal_menu/Notes.de.md)<br>
+[Nutzungsbedingungen >](../basic_concepts/Terms_Of_Use.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share.de.md)<br>
+[Kursbaustein "Einschreibung" >](Course_Element_Enrolment.de.md)
+
+**Weiterführend**
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
 
 [Zum Seitenanfang ^](#my_course)

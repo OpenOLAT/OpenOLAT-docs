@@ -1,5 +1,9 @@
 # Kurseinstellungen - Tab Freigabe {: #tab_share}
 
+Den Tab Freigabe öffnen Sie im Kurs über `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
+
+![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](assets/course_settings_share_entry_v1_de.png){ class="shadow lightbox"}
+
 Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich zeigt, hängt an seinem Verwendungszweck: siehe [Welche Abschnitte erscheinen?](#sections_by_usage)
 
 [Verwendung](#section_usage)<br>
@@ -7,10 +11,6 @@ Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich 
 [Angebot](#section_offer)<br>
 [LTI 1.3 Zugriffskonfiguration](#section_LTI)<br>
 [Freigabeübersicht](#section_share_overview)<br>
-
-<br>
-
-![Fünf Abschnitte regeln, wer den Kurs erreicht und wie er gebucht wird, im Tab Freigabe der Kurseinstellungen](assets/course_settings_share1_v2_de.png){ class="shadow lightbox"}
 
 ---
 
@@ -172,15 +172,18 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 
 ---
 
-
 ## Weiterführende Informationen {: #further_information}
 
-[Zugangskonfiguration/Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Katalog >](../area_modules/catalog2.0.de.md)<br>
+**Auf dieser Seite erwähnt**
+[Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
+[Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
-[Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>
-[Anbieten von Durchführungen im Katalog >](../area_modules/Course_Planner_Implementations.de.md#tab_catalog)<br>
-[LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)<br>
+[Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
+
+**Weiterführend**
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#tab_share)
-
