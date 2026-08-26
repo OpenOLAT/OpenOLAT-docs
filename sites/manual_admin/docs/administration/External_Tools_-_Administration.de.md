@@ -1,16 +1,16 @@
 # Externe Werkzeuge: Übersicht {: #ext_tools}
 
-![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Ein Eintrag je externem Werkzeug, von BigBlueButton bis PDF Generator, im Menü Externe Werkzeuge der System-Administration](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 
-In diesem Bereich können die OpenOlat-Administrator:innen diverse externe Tools ein- und ausschalten (z.B. mehrere virtuelle Klassenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die systemweit gelten.
+In diesem Bereich schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Der Bereich liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
 
 
 ## BigBlueButton {: #bbb}
 
 BigBlueButton ist eine Software, welche Online-Konferenzen ermöglicht oder als virtueller Klassenraum dienen kann.
-Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der Administration aktiviert und konfiguriert worden sein.
- 
+Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB unter `Administration > Externe Werkzeuge > BigBlueButton` aktiviert und konfiguriert worden sein.
+
 [Zu den Details >](BigBlueButton_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -20,8 +20,10 @@ Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der
 
 OpenMeetings ist eine Webkonferenz-Lösung.
 
-In der OpenOlat Systemadministration können Sie das OpenMeetings-Modul
-konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen des Webservices und das zugehörige Passwort. Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
+In der System-Administration konfigurieren Sie das OpenMeetings-Modul und schalten die Funktionalität frei, unter:<br>
+`Administration > Externe Werkzeuge > OpenMeetings`
+
+Geben Sie im Tab "Konfiguration" die "URL OpenMeetings Server" ein, sowie den zuvor in OpenMeetings angelegten "Web Service Anmeldename" und das zugehörige "Web Service Passwort". Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
 
 Wenn das Modul eingeschaltet und die Verbindungsparameter zum OpenMeetings-
 Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-
@@ -30,8 +32,8 @@ Räume erzeugt und genutzt werden:
   * In Kursen mit dem Kursbaustein OpenMeetings. Jeder Kursbaustein erzeugt einen entsprechenden Raum auf dem OpenMeetings-Server.
   * In Gruppen mit dem Gruppenwerkzeug OpenMeetings. Jede Gruppe hat ihren eigenen OpenMeetings-Raum zur Verfügung der wie alle anderen Gruppenwerkzeuge verwendet werden kann.
 
-Im Tab "Räume" erhalten Administratoren einen Überblick über die in OpenOlat
-angelegten OpenMeetings Räume.
+Im Tab "Räume" erhalten Administrator:innen einen Überblick über die in OpenOlat
+angelegten OpenMeetings-Räume.
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -60,12 +62,13 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. Nach der Aktivierung
 
 * Benutzer:innen melden sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Azure-Login). Dies ist Voraussetzung, um Meetings eröffnen zu können: OpenOlat erstellt die Online-Termine über die Microsoft Graph API im Namen der angemeldeten Person.
 
-**Konfiguration in der Administration:**
+**Konfiguration in der System-Administration** unter:<br>
+`Administration > Externe Werkzeuge > Microsoft Teams`
 
 * Modul "Microsoft Teams" aktivieren.
 * Unter "Aktivieren für" festlegen, wo Microsoft Teams verwendet werden darf: Kursbaustein "Microsoft Teams", Kurs Termine, Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat.
 
-Zusätzlich stehen in der Administration die Tabs "Online-Termine" (Übersicht aller Termine der Instanz) und "Kalender" (Raumbuchungen) zur Verfügung.
+Zusätzlich stehen dort die Tabs "Online-Termine" (Übersicht aller Termine der Instanz) und "Kalender" (Raumbuchungen) zur Verfügung.
 
 Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
 
@@ -75,7 +78,7 @@ Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben
 
 ## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
-Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
+Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Werkzeuge unter `Administration > Externe Werkzeuge > Microsoft SharePoint / OneDrive` aktiviert werden. (Sie können einzeln aktiviert werden.)
 
 Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
@@ -87,7 +90,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 ## Zoom [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
-Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration aktiviert und konfiguriert worden sein. 
+Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom unter `Administration > Externe Werkzeuge > Zoom` aktiviert und konfiguriert worden sein.
 
 [Zu den Details >](Zoom.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -96,7 +99,10 @@ Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration ak
 
 ## LTI 1.3 [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5205)" }](https://track.frentix.com/issue/OO-5205){:target="_blank"} {: #lti}
 
-Hier kann LTI 1.3 aktiviert und näher konfiguriert werden. So können z.B. externe LTI Plattformen und Tools verbunden werden.
+In der System-Administration aktivieren und konfigurieren Sie LTI 1.3 unter:<br>
+`Administration > Externe Werkzeuge > LTI`
+
+So können z.B. externe LTI Plattformen und Werkzeuge verbunden werden.
 
 [Zu den Details >](LTI_Integrations.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -118,25 +124,22 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 Vitero ist ein Werkzeug zur Durchführung von Webkonferenzen bzw. Online-Meetings.
 
-Um die vitero Anbindung nutzen zu können müssen Sie über eine vitero Lizenz
-verfügen und in der Administrationsumgebung folgende Einstellungen vornehmen:
+Um die vitero Anbindung nutzen zu können, müssen Sie über eine gültige vitero
+Lizenz verfügen und in der System-Administration die Zugangsdaten für das Web
+Service API eintragen, unter:<br>
+`Administration > Externe Werkzeuge > vitero`
 
-Es muss eine gültige vitero Lizenz vorhanden sein und in der
-Administrationsumgebung die Zugangsdaten für das Web Service API eingetragen
-werden.
+Die folgenden Angaben erhalten Sie von Ihren vitero- oder
+OpenOlat-Administrator:innen: "URL vitero Server", "Web Service Anmeldename",
+"Web Service Passwort" und "Kundenidentifikator".
 
-Unter "Zeitzone OLAT Server" können Sie die Zeitzone Ihres OLAT Systems
-einstellen. Dies ist notwendig um die Zeiten der Termine mit dem vitero System
+Unter "Zeitzone OLAT Server" stellen Sie die Zeitzone Ihres OpenOlat-Systems
+ein. Dies ist notwendig um die Zeiten der Termine mit dem vitero System
 abzugleichen.
-
-Die folgenden Angaben erhalten Sie von Ihrem vitero oder OLAT Administrator:
-"URL vitero Server", "Web Service Benutzername", "Web Service Passwort" und
-"Kundenidentifikator".
 
 Nach erfolgter Eingabe wählen Sie die Schaltfläche "Serververbindung testen"
 um die Konfiguration und die Verbindung zum vitero Server zu prüfen. Danach
-können Sie die Konfiguration speichern und vitero in Ihren in Ihren Kursen
-nutzen.
+speichern Sie die Konfiguration und nutzen vitero in Ihren Kursen.
 
 Bitte beachten Sie, dass für die OpenOlat Anbindung auf dem vitero Server
 automatisch Benutzerkonten eingerichtet werden. Allfällige bereits bestehende
@@ -218,17 +221,18 @@ Das MediaSite-Modul lässt sich über LTI 1.1 oder LTI 1.3 mit dem MediaSite-Ser
 ## edu-sharing {: #edusharing}
 
 Edu-sharing ist eine Software, um Lernplattformen miteinander zu vernetzen, um
-Lerninhalte, Metadaten und Tools auszutauschen und in einer Bildungscloud
+Lerninhalte, Metadaten und Werkzeuge auszutauschen und in einer Bildungscloud
 auffindbar und in allen angeschlossenen Systemen nutzbar zu machen. In der
-Administration kann das Modul generell aktiviert und die Nutzung von edu-
-sharing als Kursbaustein freigeschaltet werden.
+System-Administration aktivieren Sie das Modul generell und schalten die
+Nutzung von edu-sharing als Kursbaustein frei, unter:<br>
+`Administration > Externe Werkzeuge > edu-sharing`
 
-Die Konfiguration erfolgt in vier Schritten:  
-1. Konfigurationswerte eingeben und speichern.  
-2. Schlüssel generieren und speichern.  
-3. Öffentlicher Schlüssel des edu-sharing Repository importieren und
-speichern.  
-4. In edu-sharing: OpenOlat als Applikation anbinden. URL mit Metadaten:  
+Die Konfiguration erfolgt in vier Schritten:
+
+1. Konfigurationswerte eingeben und speichern.
+2. Schlüssel generieren und speichern.
+3. Öffentlichen Schlüssel des edu-sharing Repository importieren und speichern.
+4. In edu-sharing: OpenOlat als Applikation anbinden. URL mit Metadaten:
 
 	https://your.openolat.domain/olat/edusharing/metadata
 
@@ -240,7 +244,7 @@ speichern.
 
 ## Dokumenteneditoren [:octicons-tag-16:{ title="ab Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
-Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Tools verwendet werden:
+Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Werkzeuge verwendet werden, konfiguriert unter `Administration > Externe Werkzeuge > Dokumenteneditoren`:
 
 * ONLYOFFICE
 * Microsoft Office
@@ -253,7 +257,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 ## draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
-draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der Administration eingerichtet werden. 
+draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat an vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion unter `Administration > Externe Werkzeuge > draw.io` eingerichtet werden.
 
 
 [Website draw.io >](https://www.drawio.com)<br>
@@ -263,7 +267,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat i
 
 ## Analytics [:octicons-tag-16:{ title="ab Release 12.3 (OO-3243)" }](https://track.frentix.com/issue/OO-3243){:target="_blank"} {: #analytics}
 
-Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. Google Analytics.
+Unter `Administration > Externe Werkzeuge > Analytics` aktivieren Sie externe Analyse-Services, wie z.B. Google Analytics.
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -271,7 +275,7 @@ Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. 
 
 ## KI Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
-Hier aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
+Unter `Administration > Externe Werkzeuge > KI Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
 
 [Zu den Details >](External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -305,6 +309,3 @@ Mehr Informationen zu AthenaPDF finden Sie unter
 Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md). 
 
 [Zum Seitenanfang ^](#ext_tools)
-
- 
-

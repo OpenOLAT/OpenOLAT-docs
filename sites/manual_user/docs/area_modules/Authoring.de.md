@@ -69,19 +69,19 @@ Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisc
 
 Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reihenfolge sortiert: Vorbereitung, Review, Zugriff für Betreuer, Veröffentlicht, Beendet, Papierkorb.
 
-#### Sortierung nach Durchführungszeitraum [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+#### Sortierung nach Zeitabschnitt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
 !!! note "Hinweis"
-    Die Spalte "Durchführungszeitraum" sortiert Einträge chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Bezeichnung. Die Reihenfolge ist:
+    Die Spalte "Zeitabschnitt" sortiert Einträge chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Kurzbezeichnung. Die Reihenfolge ist:
 
     1. nach Beginndatum
     2. ohne Beginndatum: nach Enddatum
     3. ohne Zeitrahmen: ans Ende der Liste
     4. innerhalb desselben Zeitraums: alphabetisch
 
-    Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
+    Einträge ohne Zeitabschnitt erscheinen immer am Ende der Liste.
 
-![Modules_Time_Period_authoring_filter_v1_de.png](assets/Modules_Time_Period_authoring_filter_v1_de.png){ class="shadow lightbox" }
+![Spalte Zeitabschnitt aufsteigend sortiert, der Sortier-Button trägt dasselbe Kriterium, Suche im Autorenbereich](assets/Modules_Time_Period_authoring_filter_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
     Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
