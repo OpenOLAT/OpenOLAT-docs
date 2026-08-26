@@ -3,14 +3,14 @@
 
 Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Bestandteile des aktuell geöffneten Kurses.
 
-![toolbar_my_course_v1_de.png](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox"}
+![Das geöffnete Menü Mein Kurs listet die persönlichen Werkzeuge des Kurses, abgesetzt davon der Eintrag Kurs verlassen, in der Kurs-Toolbar](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox"}
 
 
 ## Wie wird das Icon "Mein Kurs" in der Toolbar angezeigt bzw. entfernt? {: #display_icon}
 
 "Mein Kurs" wird automatisch angezeigt, wenn **mindestens eine** der darin enthaltenen Optionen verfügbar ist. 
 
-Grundsätzlich ist "Mein Kurs" nur bei Kurs**teilnehmer:innen** verfügbar, da ja personalisierte Inhalte angezeigt.
+Grundsätzlich ist "Mein Kurs" nur bei Kurs**teilnehmer:innen** verfügbar, da dort personalisierte Inhalte angezeigt werden.
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -39,9 +39,9 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 * [**Meine Badges**](#my_badges) zeigt Ihre Badges an.
 * [**Notizen**](#notes): Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
 * [**Bookmark**](#bookmark): Aktivieren Sie den Bookmark, dann erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
-* [**Einwilligung**](#terms_of_use): Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben der Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.  
+* [**Einwilligung**](#terms_of_use): Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben der Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.
 * [**Gruppen**](#groups): Hier sehe Sie alle kursspezifischen Gruppen in denen Sie Mitglied sind und können direkt dorthin navigieren.
-* Mit [**"Kurs verlassen"**](#leave_course):können Sie sich aus dem Kurs austragen.
+* Mit [**"Kurs verlassen"**](#leave_course) können Sie sich aus dem Kurs austragen.
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -52,7 +52,7 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
 
-![Leistungsnachweis](assets/Leistungsnachweis_19.png)
+![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
 
 Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
@@ -69,14 +69,14 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Ku
 ---
 
 
-### To-dos {: #to-dos}
+### To-dos [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
 Hier werden Teilnehmenden alle für Sie relevanten To-dos des Kurses angezeigt. 
 Dabei kann es sich zum einen um automatisch generierte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task.de.md) handeln. Dann werden Sie aufgefordert einen bestimmten Schritt im Aufgabenablauf zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
-Zum anderen können Lehrende allen Kursteilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
+Zum anderen können Lehrende allen Teilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
 
-Die To-dos dienen den Benutzer:innen als Orientierung, was aktuell im Kurs zu tun ist. 
-Ein Überblick über alle persönlichen und kursbezogenen To-dos finden Benutzer:innen im Bereich ["Persönliche Werkzeuge"](../personal_menu/To-Dos.de.md). Dort können Sie auch eigene To-dos erstellen.
+Die To-dos dienen den Teilnehmenden als Orientierung, was aktuell im Kurs zu tun ist. 
+Ein Überblick über alle persönlichen und kursbezogenen To-dos steht im Bereich ["Persönliche Werkzeuge"](../personal_menu/To-Dos.de.md). Dort können Sie auch eigene To-dos erstellen.
 
 [Mehr über To-dos >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [Mehr über To-dos in einem Kurs >](../learningresources/Course_todos.de.md)
@@ -85,7 +85,7 @@ Ein Überblick über alle persönlichen und kursbezogenen To-dos finden Benutzer
 
 ---
 
-### Meine Badges {: #my_badges}
+### Meine Badges [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
 
 Sind Badges aktiviert, wird in "Mein Kurs" automatisch eine Zugriffsmöglichkeit auf alle in diesem Kurs von Ihnen erworbenen Badges angezeigt.
 
@@ -116,7 +116,7 @@ Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab
 ---
 
 
-### Einwilligung {: #terms_of_use}
+### Einwilligung [:octicons-tag-16:{ title="ab Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
 
 Ist im Kurs eingestellt, dass zu Beginn eine Einwilligung in die Nutzungs- und/oder Datenschutzbestimmungen gegeben werden muss, können Sie diese hier jederzeit nachlesen. 
 
@@ -140,17 +140,28 @@ Sind Sie aufgrund einer Gruppenmitgliedschaft in diesem Kurs dabei (Gruppenteiln
 
 Die "Kurs verlassen" Funktion beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw. Sie müssen den entsprechenden Kurs- oder Gruppenbetreuer kontaktieren, um wieder Kurszugriff zu erhalten.
 
-Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor von den Kursbesitzer*innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Kursteilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
+Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor von den Kursbesitzer:innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Teilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
+
+![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow" }
 
 **Wann ist "Kurs verlassen" verfügbar?**
 
 "Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
 
-- Die aktive Rolle ist "Teilnehmer:in" (beim Rollenwechsel wird die Option nur bei aktiver Teilnehmer-Rolle angezeigt).
-- Der Kurs hat die Verwendung **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Bei Kursen mit Verwendung **"Einbindung in Produkt"** (Course Planner) steht "Kurs verlassen" für CPL-Teilnehmer:innen nicht zur Verfügung.
+- Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer-Rolle.
+- Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Der Austritt aus einer Durchführung erfolgt dann über den Course Planner.
 - Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
+- Im Kurs läuft gerade kein Prüfungsmodus.
 
 Ist die Option **"Nach Kursenddatum oder Status 'Beendet'"** gewählt, wird "Kurs verlassen" bereits angezeigt, ist aber inaktiv, solange der Durchführungszeitraum noch nicht abgelaufen und der Kurs noch nicht im Status "Beendet" ist.
+
+**Zusätzliche Bedingungen bei einer Gruppenmitgliedschaft**
+
+Sind Sie über eine Gruppe im Kurs, entscheidet zusätzlich die Gruppe darüber, ob "Kurs verlassen" erscheint. Alle drei folgenden Bedingungen müssen erfüllt sein:
+
+- In den Einstellungen der Gruppe ist "Teilnehmer:innen können Gruppe verlassen" erlaubt.
+- Die Gruppe ist nur mit diesem einen Kurs verbunden. Eine Gruppe, die mehrere Kurse bedient, lässt sich nicht über einen einzelnen Kurs verlassen.
+- Wird die Gruppe von einem [Kursbaustein Einschreibung](Course_Element_Enrolment.de.md) verwendet, ist dort "Austragen erlaubt" gesetzt.
 
 **Bestätigungsdialog**
 
@@ -158,7 +169,9 @@ Nach Klick auf "Kurs verlassen" erscheint ein Bestätigungsdialog mit folgendem 
 
 > "Sie verlassen diesen Kurs. Dadurch verlieren Sie Ihre Kurs- oder Gruppenmitgliedschaft und haben keinen Zugriff mehr auf diesen Kurs."
 
-Um den Austritt abzuschliessen, muss zusätzlich die Checkbox "Kurs verlassen" angekreuzt und danach mit Klick auf **"Verlassen"** bestätigt werden.
+Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliessen, muss zusätzlich unter "Bestätigung" die Checkbox "Kurs verlassen" angekreuzt und danach mit Klick auf **"Verlassen"** bestätigt werden.
+
+![Warnung über den Verlust der Mitgliedschaft, Kursname, Checkbox Kurs verlassen unter Bestätigung, Button Verlassen](assets/toolbar_my_course_leave_dialog_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#my_course)
 
