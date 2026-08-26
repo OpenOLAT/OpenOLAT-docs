@@ -18,7 +18,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ### Konfiguration - auf Kursebene übersteuerbar
 
-![modules_events_and_absences_config_course_level_v2_de.png](assets/modules_events_and_absences_config_course_level_v2_de.png){ class="shadow lightbox" }
+![modules_events_and_absences_config_course_level_v3_de.png](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" }
 
 **Termin- und Absenzenverwaltung einschalten**: Generelle Aktivierung („Hauptschalter“)
 
@@ -37,7 +37,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 **Kurs Kalender synchronisieren**: Durch diese Option werden die erfassten Lektionenblöcke gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
 
-**Prüfungsmodus für Termine erlauben**: Erst mit dieser Option erscheinen die Felder "Vorlaufzeit", "Nachlaufzeit" und "Erlaubte IP-Adressen".
+**Termin kann als Prüfung markiert werden**: Erst mit dieser Option erscheinen die Felder "Vorlaufzeit", "Nachlaufzeit" und "Erlaubte IP-Adressen".
 
 **Safe Exam Browser - Art der Benutzung**: Legt fest, wie der Safe Exam Browser abgesichert wird, wenn ein Termin als Prüfung markiert wird.
 

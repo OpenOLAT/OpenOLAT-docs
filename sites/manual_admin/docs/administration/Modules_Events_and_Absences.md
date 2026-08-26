@@ -17,7 +17,7 @@ Before the event and absence management can be used it need to be activated in t
 
 ### Configuration - can be overridden at course level
 
-![modules_events_and_absences_config_course_level_v2_en.png](assets/modules_events_and_absences_config_course_level_v2_en.png){ class="shadow lightbox" }
+![modules_events_and_absences_config_course_level_v3_en.png](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" }
 
 **Enable event & absence management**: General activation ("main switch")
 
@@ -35,7 +35,7 @@ Before the event and absence management can be used it need to be activated in t
 
 **Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, teachers and course owners.
 
-**Allow assessment mode for events**: Only with this option do the fields "Prep time", "Follow-up" and "Admissible IP addresses" appear.
+**Event can be marked as an exam**: Only with this option do the fields "Prep time", "Follow-up" and "Admissible IP addresses" appear.
 
 **Safe Exam Browser - Type of use**: Defines how the Safe Exam Browser is secured when an event is marked as an exam.
 
