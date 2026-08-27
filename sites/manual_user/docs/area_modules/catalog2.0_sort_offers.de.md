@@ -9,7 +9,7 @@ Dadurch stellt sich die Frage, an welcher Stelle im Katalog die Angebote angezei
 
 Auf der **Startseite** des Katalogs wird die Reihenfolge der Objekte durch die Launcher bestimmt. Als Launcher werden die Abschnitte bezeichnet.
 
-![catalog20_sort_offers_startpage_v1_de.png](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
+![Vier nummerierte Launcher bestimmen die Reihenfolge auf der Katalog-Startseite: Begrüssungstext, Kategorien, Beliebte Kurse, Zuletzt veröffentlichte Ressourcen](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Wie zeige ich meine Kurse im Katalog?"
     Anleitung zum Anzeigen von Kursen im Katalog.<br>
@@ -23,7 +23,7 @@ Die Reihenfolge der Launcher (Abschnitte auf der Startseite) wird festgelegt unt
 
 Die Reihenfolge kann durch Klick auf die Doppelpfeile zu Beginn der Zeilen festgelegt werden.
 
-![catalog20_sort_offers_startpage_launchers_v1_de.png](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
+![Vier Launcher mit Doppelpfeilen in der Spalte Position zum Umsortieren, Tab Startseite im Katalog-Modul](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#catalog_sort)
 
@@ -71,21 +71,21 @@ Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile 
 
 Soll ein Launcher Unterkategorien anzeigen, wird ein Launcher vom Typ "Taxonomieebene" verwendet.
 
-![catalog20_sort_offers_microsites_taxonomy1_v1_de.png](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
+![Launcher Kursangebote mit neun Kategorie-Kacheln als Unterseiten, Startseite des Katalogs](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
 
 Die Reihenfolge der Einträge innerhalb des Taxonomie-Launchers (Reihenfolge der Unterseiten/Kategorien im Katalog) wird durch die Struktur der Taxonomie bestimmt und muss deshalb via Taxonomie geändert werden.<br>
 `Administration > Module > Taxonomie > Aktivierung einer Taxonomie für Lernressourcen/Katalog`
 
 Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher: 
-![catalog20_sort_offers_microsites_taxonomy2_v1_de.png](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
+![Taxonomieebenen des Katalogs mit dem offenen Zeilenmenü und der Option Bearbeiten, Tab Ebenen der Taxonomie](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
 
 * Wählen Sie unter den 3 Punkten die Option zum Bearbeiten einer Taxonomieebene.<br> 
 * Im Tab "Metadaten" finden Sie das Feld zur Angabe der Sortierung.<br> 
 * Die hier für die Taxonomie angegebene Zahl bestimmt auch die Position innerhalb des Launchers. (Im oben gezeigten Beispiel: 0 = 1. Unterseite/Kategorie, 1 = 2. Unterseite/Kategorie, 2 = 3. Unterseite/Kategorie => im Katalog an dritter Position)
 
-![catalog20_sort_offers_microsites_taxonomy3_v1_de.png](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
+![Feld Sortierung mit dem Wert 2 bestimmt die Position der Unterseite, Tab Metadaten einer Taxonomieebene](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Eine Änderung der Taxonomiestruktur hat nicht nur im Katalog Auswirkungen, sondern auch überall dort, wo diese Taxonomie ebenfalls für eine Auswahl verwendet wird. 
 
@@ -98,25 +98,48 @@ Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
 ## Sortierung/Reihenfolge innerhalb der Kategorien (Microsites) des Katalogs {: #sorting_microsites}
 
 
-### Manuelle Sortierung der Listen durch Benutzer:innen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"} {: #sorting_microsites_lists}
+### Sortierreihenfolge selbst wählen {: #sorting_microsites_button}
 
-Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch **Klick auf einen Spaltentitel**  sortiert werden.
+Über der Liste einer Kategorie sitzt rechts oben der Sortier-Button. Er trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung. Ein Klick öffnet die Liste **"Sortierreihenfolge"**.
 
-![catalog20_sort_offers_microsites_table_title_v1_de.png](assets/catalog20_sort_offers_microsites_table_title_v1_de.png){ class="shadow lightbox" }
+![Sortier-Button Relevanz und offene Liste Sortierreihenfolge mit allen Kriterien, Tabellenansicht einer Katalogkategorie](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Hinweis"
-    Die Spalte "Durchführungszeitraum" sortiert chronologisch nach dem Zeitrahmen (zuerst nach Beginndatum, ohne Beginndatum nach Enddatum) und nicht alphabetisch nach der Bezeichnung. Einträge ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
+Zur Auswahl stehen "Relevanz" sowie alle sortierbaren Spalten der Liste, darunter "Zeitabschnitt" und "Zeitabschnitt Beschr.".
+
+!!! info "Wichtig"
+    Der Sortier-Button erscheint nur, wenn die "Sortierung nach Priorität" aktiviert ist. Ohne diese Einstellung ist die Liste fest nach dem Titel aufsteigend sortiert und lässt sich nur über die Spaltentitel umsortieren. Die Aktivierung beschreibt der Abschnitt [Sortierung nach Priorität](#sorting_microsites_by_priority).
+
+!!! note "Modul Zeitabschnitte"
+    Die Spalte "Zeitabschnitt" erscheint in der Liste, sobald die Systemadministration das Modul "Zeitabschnitte" eingeschaltet hat.<br>
+    [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)
 
 ---
 
 
-### Sortierung nach Priorität {: #sorting_microsites_by_priority}
+### Sortierung über die Spaltentitel [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"} {: #sorting_microsites_lists}
 
-Wenn die "Sortierung nach Priorität" durch eine:n Administrator:in aktiviert worden ist (`Administration > Module > Katalog > Tab "Einstellungen" > Toggle-Button "Sortierung nach Priorität"`), erscheint rechts oben über einer Auflistung der **Button "Relevanz"**.
- 
-![catalog20_sort_offers_microsites_button_relevance_v1_de.png](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" }
+Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch **Klick auf einen Spaltentitel** sortiert werden.
+
+!!! note "Hinweis"
+    Die Spalte "Zeitabschnitt" sortiert chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Kurzbezeichnung: zuerst nach dem Beginndatum, dann nach dem Enddatum, zuletzt nach dem Titel. Einträge ohne Zeitabschnitt erscheinen immer am Ende der Liste.
+
+    Das Kriterium "Zeitabschnitt Beschr." sortiert alphabetisch nach der Beschreibung. Einträge ohne Beschreibung erscheinen am Ende der Liste.
+
+[Zum Seitenanfang ^](#catalog_sort)
+
+---
+
+
+### Sortierung nach Priorität [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-9039)" }](https://track.frentix.com/issue/OO-9039){:target="_blank"} {: #sorting_microsites_by_priority}
+
+Die "Sortierung nach Priorität" aktiviert eine Administratorin oder ein Administrator in der System-Administration unter:<br>
+`Administration > Module > Katalog > Tab "Einstellungen" > Toggle-Button "Sortierung nach Priorität"`
+
+Danach erscheint der Sortier-Button rechts oben über einer Auflistung. Sein Standardkriterium ist "Relevanz".
+
+![Sortier-Button mit dem Standardkriterium Relevanz über einer Angebotsliste, Kachelansicht einer Katalogkategorie](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" }
 
 Bei gewählter "Sortierung nach Relevanz" findet eine mehrstufige Sortierung statt:<br>
 1. Kriterium: Sortierung nach Priorität<br>
@@ -140,7 +163,7 @@ Ist kein Datum angegeben, werden die Einträge ohne Datum nach denen mit Datum a
 `Course Planner > Durchführung > Tab Katalog > Button "Angebote" > Abschnitt "Angebot Übersicht" > Klick auf "anpassen"`
 
 Beispiel Course Planner:
-![catalog20_sort_offers_microsites_cp_change_priority_v1_de.png](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
+![Zeile Katalog Priorität bei Sortierung mit dem Link anpassen, Tab Katalog einer Durchführung im Course Planner](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#catalog_sort)
 
@@ -159,24 +182,25 @@ Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeig
 - Ultimativ (Boost-Wert 4000)
 - Benutzerdefiniert (eigener Boost-Wert)
 
-![catalog20_sort_offers_microsites_boost_v1_de.png](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" }
+![Auswahl Priorität Hoch mit dem zugehörigen Boost-Wert 2000, Dialog Priorität anpassen](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Die Sortierung nach Prioritäten hat keinen Einfluss auf die Sortierung auf der Startseite. Dort wird die Reihenfolge der Angebote durch die jeweiligen Launchertypen und die manuelle Anordnung in der Administration festgelegt.
-    
+
 
 [Zum Seitenanfang ^](#catalog_sort)
 
 ---
 
 
-## Weiterführende Informationen  {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Wie zeige ich meine Kurse im Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
 [Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Design >](../../manual_user/area_modules/catalog2.0_design.de.md)<br>
 [Externer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Aktivierung der Prioritäten in der Administration >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+[Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)

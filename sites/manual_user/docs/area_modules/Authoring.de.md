@@ -6,7 +6,7 @@ Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge um Kurse und andere
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
-![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
+![Elf nummerierte Markierungen auf den Bedienelementen des Autorenbereichs, sie entsprechen den nummerierten Abschnitten dieser Seite](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
 
 
 ### 1. Favoriten
@@ -14,7 +14,7 @@ Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst als
 
 ### 2. Meine Kurse
 Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
-haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
+haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
 ### 3. Meine Einträge 
 Im Filter-Tab "**Meine Einträge**" finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
@@ -24,15 +24,15 @@ Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen suchen.
 
 ### 5. Gelöscht {: #authoring-deleted}
 
-Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten Lernressourcen bei denen Sie als Besitzer:in (Co-Autor) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Hier können Sie ihre Lernressourcen/Kurse wiederhergestellt werden.
+Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten Lernressourcen bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Hier können Sie Ihre Lernressourcen/Kurse wiederherstellen.
 Das dauerhafte Löschen der Lernressourcen/Kurse ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
 ### 6. Eigene Filter-Tabs erstellen 
-Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Filter](assets/Autorenbereich_Filter_172.png)
+Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Offenes Menü mit dem Eintrag Filter speichern rechts über der Filterzeile](assets/Autorenbereich_Filter_172.png)
 
 ### 7. Buttons zum Filtern
 In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezeigt. Unter **Mehr** können Sie weitere Buttons anzeigen. Klicken Sie zur weiteren Filterung auf den kleinen Pfeil nach unten und es werden die Filtermöglichkeiten zur Auswahl angezeigt.<br>
-Der Filter "Autor/Besitzer" durchsucht den Vornamen, den Nachnamen, den Benutzernamen und die E-Mail-Adresse des Besitzers. Die Suche nach der E-Mail-Adresse ist besonders nützlich, wenn mehrere Autoren denselben Nachnamen haben.
+Der Filter "Autor/Besitzer" durchsucht den Vornamen, den Nachnamen, den Benutzernamen und die E-Mail-Adresse der Besitzer:innen. Die Suche nach der E-Mail-Adresse ist besonders nützlich, wenn mehrere Autor:innen denselben Nachnamen haben.
 
 ### 8. Suchfeld 
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
@@ -52,12 +52,12 @@ Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum 
 
 Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden. Sie können so individuell die relevanten Informationen zusammenstellen.
 
-![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
+![Liste Spalten auswählen mit den angehakten Einträgen Zeitabschnitt und Zeitabschnitt Beschr., geöffnet über das Zahnrad](assets/autorenbereich_spalten_auswaehlen_v2_de.png){ class="shadow lightbox" }
 
 **Beispiel**:<br>
 In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
 
-![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
+![Zahl 5 in der Spalte Ref. öffnet die Liste der Kurse, die die Lernressource einsetzen](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
 ### 10. Tabelle downloaden
 Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
@@ -81,7 +81,7 @@ Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reih
 
     Einträge ohne Zeitabschnitt erscheinen immer am Ende der Liste.
 
-![Spalte Zeitabschnitt aufsteigend sortiert, der Sortier-Button trägt dasselbe Kriterium, Suche im Autorenbereich](assets/Modules_Time_Period_authoring_filter_v1_de.png){ class="shadow lightbox" }
+![Spalte Zeitabschnitt absteigend sortiert, gleiche Zeitabschnitte stehen beieinander, der Eintrag ohne Zeitabschnitt bleibt am Listenende](assets/autorenbereich_sort_time_period_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
     Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
@@ -103,11 +103,16 @@ Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" (v
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? (Ausführliche Anleitung) >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)
+
+**youtube**
+[Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)
 
 [Zum Seitenanfang ^](#authoring)

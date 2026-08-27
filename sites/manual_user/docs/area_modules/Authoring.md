@@ -7,7 +7,7 @@ In "Authoring" OpenOlat authors will find all the tools to create, import and ed
 
 All existing courses and learning resources are displayed in a table.
 
-![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
+![Eleven numbered markers on the controls of the Authoring area, they correspond to the numbered sections of this page](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
 
 ### 1. Favorites
 In the filter tab "**Favorites**", you will find all the learning resources you have marked as favourites. This view is displayed by default when you call up the "Authoring".
@@ -28,7 +28,7 @@ Here you can restore your learning resources/courses.
 Only administrators or learning resource managers can permanently delete learning resources/courses.
 
 ### 6. Create your own filter tabs 
-You can also completely recreate a frequently needed filter query in the line with the filter tabs (1-5).<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Filter](assets/Autorenbereich_Filter_172.png)
+You can also completely recreate a frequently needed filter query in the line with the filter tabs (1-5).<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Open menu with the Save filter entry at the top right above the filter row](assets/Autorenbereich_Filter_172.png)
 
 ### 7. Filter buttons
 The second line already shows several **buttons** with filter options. By pressing "**More**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>
@@ -51,12 +51,12 @@ You can find out more details on how to use the filter options in the section on
 
 The cogwheel icon can be used to select which columns are displayed in the table. This allows you to compile the relevant information individually.
 
-![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
+![Select columns list with the ticked entries Time period and Time period desc., opened through the gear wheel](assets/autorenbereich_spalten_auswaehlen_v2_de.png){ class="shadow lightbox" }
 
 **Example:**<br>
 The column "Ref." shows whether or how often a learning resource has been referenced in OpenOlat courses. Click on this number and the courses will be displayed by name. You can then jump directly to the desired course.
 
-![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
+![The number 5 in the Ref. column opens the list of courses that use the learning resource](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
 ### 10. Download table
 You can download the entire table in the currently displayed state.
@@ -68,19 +68,19 @@ By clicking on a column title, all entries in the table will be sorted alphabeti
 
 The "Status" column (formerly "Life cycle") is always sorted in the following fixed order: Preparation, Review, Access for coach, Published, Finished, Trash.
 
-#### Sorting by execution period [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+#### Sorting by time period [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
 !!! note "Note"
-    The "Execution period" column sorts entries chronologically by the time frame and not alphabetically by the label. The order is:
+    The "Time period" column sorts entries chronologically by the time frame and not alphabetically by the short label. The order is:
 
     1. by begin date
     2. without begin date: by end date
     3. without time frame: to the end of the list
     4. within the same time period: alphabetically
 
-    Entries without an execution period always appear at the end of the list.
+    Entries without a time period always appear at the end of the list.
 
-![Modules_Time_Period_authoring_filter_v1_en.png](assets/Modules_Time_Period_authoring_filter_v1_en.png){ class="shadow lightbox" }
+![Time period column sorted in descending order, identical time periods stand together, the entry without a time period stays at the end of the list](assets/autorenbereich_sort_time_period_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tip"
     The available time periods are provided by the system administration.
@@ -104,9 +104,14 @@ The "Type" filter offers, among others, the following labels: "Audio" (formerly 
 
 ## Further information {: #further_information}
 
+[Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
 [How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Course design >](../../manual_user/learningresources/Learning_path_course.md)<br>
+[Course design >](../../manual_user/learningresources/Learning_path_course.md)
+
+**youtube**
+[Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)
 
 [To the top of the page ^](#authoring)

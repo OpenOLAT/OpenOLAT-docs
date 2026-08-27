@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![admin_module_overview_v4_de.png](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Aufgeklapptes Menü Module in der System-Administration, jeder Eintrag der Liste entspricht einem Abschnitt dieser Seite](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Bereich haben Administrator:innen Zugriff auf die Module:
 
@@ -99,7 +99,7 @@ Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werd
 
 Erstellen und verwalten Sie Zeitabschnitte (z.B. Semesterdaten), um bei Kurslaufzeiten auf einen
 Zeitabschnitt anstelle eines Datums verweisen zu können. Die hier erstellten Zeitabschnitte können bei der Konfiguration des Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
-werden. Als Bezeichnung könnten z.B. "SoSe26" und als Name "Sommersemester
+werden. Als Zeitabschnitt könnten z.B. "SoSe26" und als Beschreibung "Sommersemester
 2026" verwendet werden.
 
 [Zu den Details >](Modules_Time_Period.de.md)<br>
@@ -133,7 +133,7 @@ Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-P
 
 Ebenso kann bestimmt werden, welche Systemrollen den letzten Besuch der Benutzer:innen sehen dürfen.
 
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer*innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
+Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
 
 [Zum Seitenanfang ^](#modules)
 
@@ -151,7 +151,7 @@ Hier können Sie für eine bestimmte Buchungsnummer alle Buchungsaufträge in ei
 
 Hier kann definiert werden, ob Autor:innen und Benutzer:innen ohne zusätzliche Rolle neue Gruppen erstellen dürfen. Auch mögliche Rechte für Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext können definiert werden.
 
-Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen **eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den eingeladenen Benutzer *bestätigt* werden muss**.
+Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen **eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch die eingeladenen Benutzer:innen *bestätigt* werden muss**.
 
 Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 

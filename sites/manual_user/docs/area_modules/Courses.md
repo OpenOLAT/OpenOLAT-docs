@@ -1,4 +1,6 @@
-# Finding courses
+# Finding courses {: #courses}
+
+:octicons-device-camera-video-24: **Video introduction (German)**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank”}
 
 The "Courses" menu item gives you access to the courses and possibly other learning resources available to you. Click on the "Courses" menu item in the main navigation at the top.
 
@@ -11,17 +13,24 @@ Learning resources in which you are a coach or owner are found in the "Coaching"
 !!! tip "Attention"
     If both roles are assigned to you, the learning resource is of course displayed in both "tabs".
 
-You can also filter your courses based on various criteria, including execution period, membership, result, status, author/owner odr implementation format. To do so, click the small arrow and more filter options will appear.
+You can also filter your courses based on various criteria, including execution period, membership, result, status, author/owner or implementation format. To do so, click the small arrow and more filter options will appear.
+
+![Filter bar with execution period and further criteria, plus the controls to unfold and save the filters and to choose the columns, My courses area](assets/Kurse_20b.jpg){ class="shadow lightbox" }
+
+Filters can also be combined and saved.
 
 ### Filter by implementation period [:octicons-tag-16:{ title="from Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 
-!!! info "Note"
+The system administration provides the available execution periods through the "Time periods" module. You can also choose the execution period as a sort criterion. To do so, click the button at the top right above the list. The button always carries the active criterion as its label, and the arrow symbol shows the direction.
 
-    If made available by the administration, sorting by implementation period is chronological according to the **time frame** (not alphabetical). Courses without an implementation period appear at the end of the list.
+![Sort button with the active criterion Execution period and the open Sorted by list, My courses area](assets/Kurse_sort_order_v1_de.png){ class="shadow lightbox" }
 
-![Meine Kurse](assets/Kurse_20b.jpg)
+!!! info "Important"
+    Sorting by execution period is chronological according to the **time frame** and not alphabetical by the label: first by the begin date, without a begin date by the end date. Within the same period the sorting is alphabetical. Courses without an execution period always appear at the end of the list.
 
-Filters can also be combined and saved.
+!!! note "Module Time periods"
+    How administrators manage the time periods.<br>
+    [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
 
 !!! note "Filter options"
     More on how to best filter your view.<br>
@@ -33,13 +42,13 @@ You have two options for viewing the courses. You can display the desired course
 
 Use the search function to find all the learning resources you have access to. Enter a keyword or the course title and have the matching courses or learning resources displayed. Unfold the filter option to further narrow the search based on the filters. You can also save the filter setting.
 
-![Search](assets/Kurs_Suche_20a.jpg)
+![Search field with a keyword, active filters below it and one hit as a tile, Search tab in the My courses area](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
 
 If you do not find a course, make sure that you have not activated a filter that you do not want, e.g. only courses that you have not yet passed are found. In this case, remove the corresponding filter.
 
 Mark the course as a favorite when you have found it. To do this, click on the white flag, which will then turn red. The next time you log in, you will find the course directly in your favorites.
 
-![favorites](assets/favorites.png)
+![Flag symbol in the row with the Set bookmark hint, marked favorites are filled red, list in the My courses area](assets/favorites.png){ class="shadow lightbox" }
 
 
 ## Education products
@@ -54,7 +63,20 @@ Ferner können hier auch nur die Favoriten die aktiven oder beendeten Kurse der 
 
 Hier erscheinen die Lernressourcen die den Status "In Vorbereitung" haben und somit noch nicht für Teilnehmende zugänglich sind. Sind Teilnehmende schon als Mitglied der Lernressource eingetragen, erscheint für sie  eine entsprechende Information. 
 
-![Kurse in Vorbereitung](assets/Kurse_in_Vorbereitung.png)
+![Message Content in preparation with the note about access after publication, course in the In preparation area](assets/Kurse_in_Vorbereitung.png){ class="shadow lightbox" }
 
 Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorbereitung" zugänglich. 
 
+---
+
+
+## Further information {: #further_information}
+
+[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
+[Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Course Planner >](../area_modules/Course_Planner.md)
+
+**youtube**
+[Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)
+
+[To the top of the page ^](#courses)
