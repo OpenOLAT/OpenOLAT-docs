@@ -50,6 +50,10 @@ The installation file can be found on the [Web site of the manufacturer](https:/
 
 Also ask all exam participants to install the SEB on their computer. Or, if separate computers are provided for the exam, prepare these computers accordingly.
 
+!!! info "Note"
+    dministrators can specify that at least a certain version of SEB must be used.
+    [See details > ](../../manual_how-to/SEB_Admin/SEB_Admin.md#SEB_min_version)
+
 [To the top of the page ^](#SEB)
 
 ---
@@ -394,10 +398,11 @@ By using the SEB, all other activities on the computer can also be blocked while
 ---
 
 
-## Further information
+## Further information {: #further_information}
 
 [Website of the manufacturer >](http://www.safeexambrowser.org)<br>
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
+[As an administrator, how do I set up the Safe Exam Browser system-wide? > ](../../manual_how-to/SEB/SEB.md)<br>
 
 

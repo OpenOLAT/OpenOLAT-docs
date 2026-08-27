@@ -49,6 +49,10 @@ Die Installationsdatei finden Sie auf der [Web Site des Herstellers](http://www.
 
 Fordern Sie auch alle Prüfungsteilnehmer:innen auf, den SEB auf ihrem Rechner zu installieren. Bzw. wenn für die Prüfung gesonderte Rechner zur Verfügung gestellt werden, bereiten Sie diese Rechner alle entsprechend vor.
 
+!!! info "Hinweis"
+    Von Administrator:innen kann festgelegt werden, dass mindestens eine bestimmte SEB-Version benutzt werden muss. 
+    [Mehr dazu > ](../../manual_how-to/SEB_Admin/SEB_Admin.de.md#SEB_min_version)
+
 [zum Seitenanfang ^](#SEB)
 
 ---
@@ -386,12 +390,10 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer auch
 ---
 
 
-## Weiterführende Informationen
+## Weiterführende Informationen {: #further_information}
 
 [Website des Herstellers >](http://www.safeexambrowser.org)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
-
-
-
+[Wie richte ich als Administrator:in den Safe Exam Browser systemweit ein? > ](../../manual_how-to/SEB/SEB.de.md)<br>
 
