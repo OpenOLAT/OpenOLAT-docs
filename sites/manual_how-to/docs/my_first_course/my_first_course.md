@@ -1,6 +1,6 @@
 # How do I create my first OpenOlat course? {: #my_first_course} 
 
-## 1. Get author rights
+## 1. Get author rights {: #get_author_rights} 
 
 To be able to create OpenOlat courses, you need author rights. Please contact your <b>administrator</b> to give you the author role. Once you are an author, the entry <b>"Authoring"</b> appears in the menu of your header.
 
@@ -10,8 +10,11 @@ To be able to create OpenOlat courses, you need author rights. Please contact yo
 	
 	It may be necessary to log out and log in again so that the menu item is visible to you after the author role has been activated.
 
+[To the top of the page ^](#my_first_course)
 
-## 2. Enter authoring area
+---
+
+## 2. Enter authoring area {: #enter_authoring_area} 
 
 After opening the authoring area, you will see an empty list, because you have not created your own courses yet.
 
@@ -29,9 +32,11 @@ If you use the search mask, you will also find courses and learning resources fr
 	You can click on the magnifying glass icon without entering a search term. This will show you <b>all</b> available courses and learning resources.
 	You can then filter the search results using the filter options.
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 3. Create a new course
+## 3. Create a new course {: #create_course} 
 
 The button for creating new courses and other learning resources is located in the authoring area in the upper right corner. Create a new course here.
 
@@ -60,12 +65,15 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 
 To complete this step, click on "<b>Create</b>".
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 4. Make course settings 
+## 4. Make course settings {: #config_course} 
 
 Immediately after the new course is created, you will get to the settings. In each of the tabs there you can make detailed specifications. For the beginning we will use the default settings. 
 Later on you can recall and edit these course settings at any time under <b>Administration > Settings</b>.<br>
+(This process is often referred to as course configuration. Unlike [configuration of course elements](#configure_course_elements).)
 
 ![course_settings_v1_en.png](assets/course_settings_v1_en.png){ class="shadow lightbox" }
 
@@ -75,8 +83,11 @@ The settings made here <b>apply to the course as a whole</b>. If you have then i
 	
 	Don't forget to save!
 
+[To the top of the page ^](#my_first_course)
 
-## 5. Add course elements
+---
+
+## 5. Add course elements {: #add_course_elements} 
 
 An OpenOlat course consists of course elements. The order of the selected course elements is reflected in the <b>course menu</b>.
 
@@ -98,9 +109,11 @@ After insertion, the course elements can be <b>moved</b> in the course menu with
 
 ![course_editor_menu_v1_en.png](assets/course_editor_menu_v1_en.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 6. Configure course elements and add learning resource
+## 6. Configure course elements and add learning resource  {: #configure_course_elements} 
 
 !!! hint "Hint"
 	
@@ -140,9 +153,11 @@ If the video learning resource is used in different courses and course elements,
 	
 ![graphic_configuration_level_v1_en.png](assets/graphic_configuration_level_v1_en.png){ class="lightbox" }
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 7. Check your work result
+## 7. Check your work result {: #check_result} 
 
 In the course menu (as long as you are in the course editor) you will see small symbols on the course elements. They indicate if the configuration of a course element is still incomplete or incorrect.
 
@@ -156,9 +171,11 @@ When you work as an author in the course editor, you do it in the role of the <b
 
 ![participant_view_v1_en.png](assets/participant_view_v1_en.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 8. Publish course
+## 8. Publish course {: #publish_course} 
 
 Are all desired course elements inserted and configured?
 To <b>exit the course editor</b> click on
@@ -181,9 +198,11 @@ When publishing (leaving the course editor) OpenOlat checks if the course is tec
 	Do not confuse <b>"Publish"</b> with <b>"Change status to published"</b> (step 10).
 	After publishing, your course is not yet available to others. This happens only when you change the status to "published".
 
+[To the top of the page ^](#my_first_course)
 
+---
 
-## 9. Add members
+## 9. Add members {: #add_members} 
 
 Your course is now ready to run, but has not yet the status "published". If you already know by name which people should have access to this course, you can add these people to the course as course members. To do this, go to the member administration of your course.
 
@@ -195,8 +214,11 @@ Your course is now ready to run, but has not yet the status "published". If you 
 	
 	There are various ways in which a course can obtain members. E.g. also by people registering themselves. More about this can be found elsewhere in the manual.
 
+[To the top of the page ^](#my_first_course)
 
-## 10. Change status
+---
+
+## 10. Change status {: #change_status} 
 
 If a new course is created, it initially always has the <b>status "Preparation"</b>. This means that only you as the author can see the course. It is located in the workshop (authoring area) on your personal workbench, so to speak.
 
@@ -219,8 +241,11 @@ Status| Access|
 
 To make your first own course visible to other OpenOlat users now, change the status to <b>"Published"</b>. The course has then been brought from your workbench to the sales floor, so to speak.
 
+[To the top of the page ^](#my_first_course)
 
-### Display in catalog
+---
+
+### Display in catalog {: #display_in_catalog}
 
 If you wish, you can also include your course in the <b>OpenOlat catalog</b>, figuratively putting it in the shop window.
 
@@ -235,3 +260,4 @@ Furthermore, an offer must be created for the catalog and the course must be mad
 	
 	A prerequisite for publishing in the catalog is, of course, that a catalog has been set up by the administrator. You can recognize it by whether a "Catalog" menu option is displayed in your header.
 	
+[To the top of the page ^](#my_first_course)

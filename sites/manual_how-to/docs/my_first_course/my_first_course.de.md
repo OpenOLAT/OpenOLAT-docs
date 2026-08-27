@@ -1,7 +1,7 @@
 # Wie erstelle ich meinen ersten OpenOlat-Kurs? {: #my_first_course} 
 
 
-## 1. Autorenrechte besorgen
+## 1. Autorenrechte besorgen {: #get_author_rights} 
 
 Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>"Autorenbereich"</b>.
 
@@ -10,9 +10,12 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
 !!! hint "Hinweis"
 	
 	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
-<br>
 
-## 2. Autorenbereich betreten
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 2. Autorenbereich betreten {: #enter_authoring_area} 
 
 Nach dem Öffnen des Autorenbereichs sehen Sie eine leere Liste, denn Sie haben ja noch keine eigenen Kurse erstellt.
 
@@ -29,9 +32,12 @@ Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen ander
 	
 	Sie können auf das Lupensymbol klicken ohne einen Suchbegriff einzugeben. Sie erhalten so <b>alle</b> verfügbaren Kurse und Lernressourcen angezeigt.
 	Mit den Filteroptionen können Sie die Suchergebnisse dann filtern. 
-<br>
 
-## 3. Neuen Kurs erstellen
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 3. Neuen Kurs erstellen {: #create_course} 
 
 Der Button zum Erstellen neuer Kurse und anderer Lernressourcen befindet sich im Autorenbereich rechts oben. Erstellen Sie hier einen neuen Kurs.
 
@@ -60,12 +66,16 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 ![kurs_erstellen_assistent_v2_de.png](assets/kurs_erstellen_assistent_v2_de.png){ class="shadow lightbox" }
 
 Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
-<br>
 
-## 4. Kurseinstellungen vornehmen
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 4. Kurseinstellungen vornehmen {: #config_course} 
 
 Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs gibt können Sie detaillierte Angaben machen. Für den Anfang übernehmen wir die Voreinstellungen. 
 Später können Sie diese Kurseinstellungen jederzeit wieder aufrufen und bearbeiten unter <b>Administration > Einstellungen</b>.<br>
+(Das Einstellen wird oft auch Kurs-Konfiguration genannt. Im Unterschied zur [Konfiguration der Kursbausteine](#configure_course_elements).)
 
 ![kurseinstellungen_v1_de.png](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" }
 
@@ -74,9 +84,12 @@ Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie 
 !!! hint "Hinweis"
 	
 	Vergessen Sie nicht, zu speichern!
-<br>
 
-## 5. Kursbausteine hinzufügen
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 5. Kursbausteine hinzufügen  {: #add_course_elements} 
 
 Ein OpenOlat-Kurs besteht aus Kursbausteinen. Die Reihenfolge der ausgewählten Kursbausteine spiegelt sich im <b>Kursmenü</b> wieder.
 
@@ -97,9 +110,12 @@ Durch Klick auf einen der aufgelisteten Bausteine wird ein Kursbaustein dieses T
 Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter Maustaste verschieben</b>. Ziehen Sie einen Baustein auf einen Strukturbaustein, wird er dort als untergeordnetes Element eingeordnet. (Strukturbausteine können zugeklappt werden, so dass ihr Inhalt verborgen und das Menü übersichtlicher wird.)
 
 ![kurseditor_menu_v1_de.png](assets/kurseditor_menu_v1_de.png){ class="shadow lightbox" }
-<br>
 
-## 6. Kursbausteine konfigurieren und Lernressourcen hinzufügen
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 6. Kursbausteine konfigurieren und Lernressourcen hinzufügen {: #configure_course_elements} 
 
 !!! hint "Hinweis"
 	
@@ -138,9 +154,12 @@ Wenn die Video-Lernressource in verschiedenen Kursen und Kursbausteinen verwende
 
 
 ![grafik_konfigurationsebenen_v1_de.png](assets/grafik_konfigurationsebenen_v1_de.png){ class="lightbox" }
-<br>
 
-## 7. Arbeitsergebnis kontrollieren
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 7. Arbeitsergebnis kontrollieren {: #check_result} 
 
 Im Kursmenü sehen Sie (solange Sie sich im Kurseditor befinden) auf den Kursbausteinen kleine Symbole. Sie zeigen an, wenn die Konfiguration eines Kursbausteins noch unvollständig oder fehlerhaft ist. 
 
@@ -153,9 +172,12 @@ In der Kopfzeile des Kurseditors öffnet ein Klick auf die kleine rote Zahl (fal
 Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besitzer</b> dieses Kurses. Nach Verlassen des Kurseditors (Schritt 8) können Sie auch in die <b>Teilnehmeransicht</b> wechseln, um das Arbeitsergebnis zu überprüfen.
 
 ![teilnehmeransicht_v1_de.png](assets/teilnehmeransicht_v1_de.png){ class="shadow lightbox" }
-<br>
 
-## 8. Kurs publizieren
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 8. Kurs publizieren {: #publish_course} 
 
 Sind alle gewünschten Kursbausteine eingefügt und konfiguriert?
 Zum <b>Verlassen des Kurseditors</b> klicken Sie auf
@@ -176,9 +198,12 @@ Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der 
 	
 	Verwechseln Sie "<b>Publizieren</b>" nicht mit "<b>Veröffentlichen</b>" (Schritt 10).
 	Nach dem Publizieren ist Ihr Kurs noch nicht für andere verfügbar. Dies geschieht erst beim Veröffentlichen.
-<br>
 
-## 9. Mitglieder hinzufügen
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## 9. Mitglieder hinzufügen {: #add_members} 
 
 Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits namentlich wissen, welche Personen Zugriff auf diesen Kurs haben sollen, können Sie dem Kurs diese Personen als Kursmitglieder hinzufügen. Dazu gehen Sie in die Mitgliederverwaltung Ihres Kurses. 
 
@@ -190,8 +215,11 @@ Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits 
 	
 	Es gibt verschiedene Möglichkeiten, wie ein Kurs Mitglieder erhalten kann. Z.B. auch dadurch, dass sich Personen selbst eintragen. Mehr dazu finden Sie an anderer Stelle im Handbuch.
 
+[Zum Seitenanfang ^](#my_first_course)
 
-## 10. Kurs veröffentlichen
+---
+
+## 10. Kurs veröffentlichen {: #change_status}
 
 Wird ein neuer Kurs erstellt, hat dieser zunächst immer den <b>Status "Vorbereitung"</b>. Das heisst, nur Sie als Autor sehen den Kurs. Er befindet sich sozusagen in der Werkstatt (Autorenbereich) auf Ihrer persönlichen Werkbank.
 
@@ -214,8 +242,11 @@ Status| Zugriff|
 
 Um Ihren ersten eigenen Kurs nun für andere OpenOlat-Benutzer sichtbar zu machen, ändern Sie den Status auf <b>"Veröffentlicht"</b>. Der Kurs ist dann gewissermassen von Ihrer Werkbank in den Verkaufsraum gebracht worden.
 
+[Zum Seitenanfang ^](#my_first_course)
 
-### Anzeige im Katalog
+---
+
+### Anzeige im Katalog {: #display_in_catalog}
 
 Wenn Sie möchten, können Sie Ihren Kurs auch in den <b>OpenOlat-Katalog</b> aufnehmen, ihn also bildlich gesprochen ins Schaufenster stellen.
 Dazu geben Sie ihn in den Kurseinstellungen frei.<br>
@@ -228,3 +259,4 @@ Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemach
 	
 	Voraussetzung für eine Veröffentlichung im Katalog ist natürlich, dass vom Administrator ein Katalog eingerichtet wurde. Sie erkennen es daran, ob in Ihrer Kopfzeile eine Menüoption "Katalog" angezeigt wird.
 	
+[Zum Seitenanfang ^](#my_first_course)
