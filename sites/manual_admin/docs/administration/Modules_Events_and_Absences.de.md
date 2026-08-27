@@ -16,15 +16,15 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ## Tab Konfiguration
 
-### Konfiguration - auf Kursebene übersteuerbar
-
 ![modules_events_and_absences_config_course_level_v3_de.png](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" }
 
-**Termin- und Absenzenverwaltung einschalten**: Generelle Aktivierung („Hauptschalter“)
+**Modul Termin- und Absenzenverwaltung**: Generelle Aktivierung („Hauptschalter“)
 
 **Absenzen / Abmeldungen / Dispensen einschalten**: Bewirkt, dass Betreuende unter `Coaching > Termine` das Tab "Meldungen" angezeigt bekommen.
 
-**Überschreiben der Standard-Konfiguration zulassen**: Die Standard-Konfiguration, welche in der Administration gesetzt wird, kann auf Kursebene
+### Konfiguration auf Kursebene
+
+**Standardkonfiguration**: Die Standard-Konfiguration, welche in der Administration gesetzt wird, kann auf Kursebene
 überschrieben werden. Dies gilt nicht für die "Globale Konfiguration".
 
 **Anwesenheitskontrolle einschalten**: Nur wenn diese Optionen eingeschaltet ist, kann ich eine Anwesenheitskontrolle durchführen und sehe die Teilnehmenden und die Checkboxen.

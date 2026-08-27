@@ -15,25 +15,25 @@ Before the event and absence management can be used it need to be activated in t
 
 ## Tab Configuration
 
-### Configuration - can be overridden at course level
-
 ![modules_events_and_absences_config_course_level_v3_en.png](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" }
 
-**Enable event & absence management**: General activation ("main switch")
+**Module "Event & absence management"**: General activation ("main switch")
 
 **Enable absences/notices of absence/dispensations**: Causes coaches to see the "Notifications" tab under `Coaching > Events`.
 
-**Allow override of configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
+### Course level configuration
 
-**Roll call enabled**: Attendance can only be checked, and the participants and the checkboxes only appear, if this option is activated.
+**Default configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
+
+**Roll call enabled (default)**: Attendance can only be checked, and the participants and the checkboxes only appear, if this option is activated.
 
 **Calculate attendance rate (default)**: If this option is activated, an attendance percentage is calculated.
 
 **Attendance quota global in %**: This quota indicates the percentage of attendance required to fulfill the conditions of a course.
 
-**Synchronize teacher calendar**: Teachers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as teachers (this function must be switched off for Px customers).
+**Synchronize teachers calendars**: Teachers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as teachers (this function must be switched off for Px customers).
 
-**Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, teachers and course owners.
+**Synchronize courses calendars**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, teachers and course owners.
 
 **Event can be marked as an exam**: Only with this option do the fields "Prep time", "Follow-up" and "Admissible IP addresses" appear.
 
