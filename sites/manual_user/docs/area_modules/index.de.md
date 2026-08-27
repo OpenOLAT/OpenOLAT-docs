@@ -1,6 +1,6 @@
 # Bereiche und Module {: #sites}
 
-OpenOlat ist modular aufgebaut. Die wichtigsten Bereiche und Module sind allgemein verfügbar, einige können nach Bedarf zusätzlich aktiviert werden. Die zentralen Elemente erscheinen in der Regel als Menüpunkt in der obersten Navigationszeile. Persönliche Bereiche können über die ["Persönlichen Werkzeuge"](../personal_menu/Personal_Tools.de.md) aufgerufen werden.
+OpenOlat ist modular aufgebaut. Die wichtigsten Bereiche und Module sind allgemein verfügbar, einige können nach Bedarf zusätzlich aktiviert werden. Die zentralen Elemente erscheinen in der Regel als Menüpunkt in der obersten Navigationszeile. (Diese Zeile wird gelegentlich auch als "Header" bezeichnet.) Persönliche Bereiche können über die ["Persönlichen Werkzeuge"](../personal_menu/Personal_Tools.de.md) aufgerufen werden.
 
 Bei aktiviertem Modul ist die Verfügbarkeit im Hauptmenü ausserdem rollenabhängig.<br>
 Die Reihenfolge/Anordnung in der Kopfzeile kann von Administrator:innen bestimmt werden.

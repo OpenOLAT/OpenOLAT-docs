@@ -1,6 +1,6 @@
 # Area and modules {: #sites}
 
-OpenOlat has a modular structure. The most important areas and modules are generally available, some can be additionally activated as needed. The central elements usually appear as a menu item in the top navigation bar. Personal areas can be accessed via the ["Personal Tools"](../personal_menu/Personal_Tools.md).
+OpenOlat has a modular structure. The most important areas and modules are generally available, some can be additionally activated as needed. The central elements usually appear as a menu item in the top navigation bar. (This line is sometimes also referred to as a “header.”) Personal areas can be accessed via the ["Personal Tools"](../personal_menu/Personal_Tools.md).
 
 If the module is activated, availability in the main menu is also role-dependent. <br>
 The order/arrangement in the header can be determined by the administrator.
