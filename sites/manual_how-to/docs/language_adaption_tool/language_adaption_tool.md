@@ -1,4 +1,4 @@
-# How do I use the language adaption tool? {: #how_to_use} 
+# How do I use the language adaptation tool? {: #how_to_use} 
 
 
 ??? abstract "Goal and content of these instructions"
@@ -60,7 +60,7 @@ Of course, integrated external tools cannot be customized. If, for example, Micr
 ## Where do I call up the language adaptation tool? {: #language_adaption_tool}
 
 You can find the tool under<br>
-**System administration > Customizing > Language adaption tool**<br>
+**System administration > Customizing > Language adaptation tool**<br>
 There, click on the button "Start".
 
 ![language_adaption_tool_open_v1_de.png](assets/language_adaption_tool_open_v1_de.png){ class="shadow lightbox"}
@@ -157,6 +157,39 @@ In the German-language version, "Catalog" became "Our products". In the English-
 You already know the variable and the package in which it is located. All you have to do is select the desired language and then carry out step 3.
 
 
+## Which adaptations have I already made? {: #my_adaptations} 
+
+Adaptations accumulate over time. The language adaptation tool shows you at any time which translation keys you have already adapted.
+
+**a)** Open the language adaptation tool in<br>
+**System administration > Customizing > Language adaptation tool**<br>
+with the button "Start".
+
+**b)** At the top, in the field "Language", select the language you want. The field "Adaptations" below follows automatically.
+
+**c)** The block "Adapted translations (revision)" shows the number of your adaptations. Leave the selection on "All packages" and click "Show".
+
+![language_adaption_tool_adaptations1_v1_de.png](assets/language_adaption_tool_adaptations1_v1_de.png){ class="shadow lightbox" }
+
+**d)** The translation list shows the number of adaptations and the packages they belong to. With "Adapt" you open the entries of a single package. With "Adapt all" you go through all entries.
+
+![language_adaption_tool_adaptations2_v1_de.png](assets/language_adaption_tool_adaptations2_v1_de.png){ class="shadow lightbox" }
+
+**e)** In the editing mask you see the standard text and your adaptation. With "Save & next" you jump to the next entry.
+
+![language_adaption_tool_adaptations3_v1_de.png](assets/language_adaption_tool_adaptations3_v1_de.png){ class="shadow lightbox" }
+
+The list always applies to the language selected in the field "Language". Open the list for every language in which you have made adaptations.
+
+If you want to search within your own adaptations only, select the option "Adaptations" at "search in" in the section "Search".
+
+!!! hint "Hint"
+
+    In addition, keep your own list of the adapted keys with the reason for each adaptation. This helps you and your successors with the check after an update.
+
+[To the top of the page ^](#how_to_use)
+
+
 ## Variable packages {: #packages} 
  
 On the programming side, the texts of the screens are summarized in variable packages. Below is a list of the most frequently changed packages.
@@ -189,17 +222,22 @@ On the programming side, the texts of the screens are summarized in variable pac
 [To the top of the page ^](#how_to_use)
 
 
-## Formatting and breaks in a text
+## Formatting and breaks in a text {: #formatting} 
 
 There are variables that contain not just a single word, but a sentence or longer text. 
 You can also use HTML code to mark certain words in bold or as headings. Wrapping can also be forced with an HTML tag.
 
 
 
-!!! warning "Subject to change"
-    
-    Frentix reserves the right to change variables and default texts. During an update, the user interface texts adapted with the language adaptation tool are not automatically updated.
-    
-
 [To the top of the page ^](#how_to_use)
 
+
+## What happens during an OpenOlat update? {: #update_behaviour} 
+
+Your adaptations are stored outside the application and are kept during an update. However, OpenOlat does not update them. If frentix revises a standard text, your adaptation remains unchanged. Your users therefore continue to see your text. Conversely, an improvement of the standard text does not reach them.
+
+With larger changes to the user interface, frentix may rename a translation key, or a position is dropped. Your adaptation then no longer applies and the position appears again in the standard wording.
+
+For this reason, check your adaptations after a larger update. You find the complete list in [Which adaptations have I already made?](#my_adaptations)
+
+[To the top of the page ^](#how_to_use)

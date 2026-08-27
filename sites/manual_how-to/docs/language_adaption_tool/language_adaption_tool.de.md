@@ -159,6 +159,39 @@ In der deutschsprachigen Version wurde "Katalog" zu "Unsere Produkte". In der en
 Sie kennen bereits die Variable und das Paket, in dem sie sich befindet. Sie müssen also lediglich die gewünschte Sprache wählen und dann Schritt 3 ausführen.
 
 
+## Welche Anpassungen habe ich bereits gemacht? {: #my_adaptations} 
+
+Mit der Zeit sammeln sich Anpassungen an. Das Sprachanpassungswerkzeug zeigt Ihnen jederzeit, welche Übersetzungsschlüssel Sie bereits angepasst haben.
+
+**a)** Öffnen Sie das Sprachanpassungswerkzeug in<br>
+**Systemadministration > Customizing > Sprachanpassungswerkzeug**<br>
+mit dem Button "Start".
+
+**b)** Wählen Sie oben im Feld "Sprache" die gewünschte Sprache. Das Feld "Anpassungen" darunter folgt automatisch.
+
+**c)** Der Block "Angepasste Übersetzungen (Überarbeiten)" nennt die Anzahl Ihrer Anpassungen. Lassen Sie die Auswahl auf "Alle Pakete" und klicken Sie auf "Anzeigen".
+
+![language_adaption_tool_adaptations1_v1_de.png](assets/language_adaption_tool_adaptations1_v1_de.png){ class="shadow lightbox" }
+
+**d)** Die Übersetzungsliste zeigt die Anzahl der Anpassungen und die Pakete, in denen sie liegen. Mit "Anpassen" öffnen Sie die Einträge eines einzelnen Pakets. Mit "Alle anpassen" gehen Sie durch alle Einträge.
+
+![language_adaption_tool_adaptations2_v1_de.png](assets/language_adaption_tool_adaptations2_v1_de.png){ class="shadow lightbox" }
+
+**e)** In der Bearbeitungsmaske sehen Sie den Standardtext und Ihre Anpassung. Mit "Speichern & weiter" springen Sie zum nächsten Eintrag.
+
+![language_adaption_tool_adaptations3_v1_de.png](assets/language_adaption_tool_adaptations3_v1_de.png){ class="shadow lightbox" }
+
+Die Liste gilt immer für die Sprache, die im Feld "Sprache" gewählt ist. Rufen Sie die Liste für jede Sprache auf, in der Sie Anpassungen gemacht haben.
+
+Wollen Sie nur innerhalb Ihrer eigenen Anpassungen suchen, wählen Sie im Abschnitt "Suche" bei "suchen in" die Option "Anpassungen".
+
+!!! hint "Tipp"
+	
+	Führen Sie zusätzlich eine eigene Liste der angepassten Schlüssel mit dem Grund für die Anpassung. Das hilft Ihnen und Ihren Nachfolger:innen bei der Kontrolle nach einem Update.
+
+[zum Seitenanfang ^](#how_to_use)
+
+
 ## Variablen-Pakete {: #packages} 
  
 Auf programmtechnischer Seite sind die Texte der Screens in Variablen-Paketen zusammengefasst. Nachstehend eine Zusammenstellung der am häufigsten geänderten Pakete.
@@ -191,17 +224,22 @@ Auf programmtechnischer Seite sind die Texte der Screens in Variablen-Paketen zu
 [zum Seitenanfang ^](#how_to_use)
 
 
-## Formatierungen und Umbrüche in einem Text
+## Formatierungen und Umbrüche in einem Text {: #formatting} 
 
 Es gibt Variablen, die enthalten nicht nur ein einzelnes Wort, sondern einen Satz oder längeren Text. 
 Mit Hilfe von HTML-Code können Sie auch bestimmte Wörter fett oder als Überschrift kennzeichnen. Ebenso kann ein Umbruch mit einem HTML-Tag erzwungen werden.
 
 
 
-!!! warning "Änderungsvorbehalt"
-	
-	Frentix behält sich vor, Variablen und Default-Texte zu ändern. Bei einem Update werden die mit dem Sprachanpassungswerkzeug angepassten Texte der Benutzeroberfläche nicht automatisch nachgeführt.
-	
-
 [zum Seitenanfang ^](#how_to_use)
 
+
+## Was passiert bei einem OpenOlat-Update? {: #update_behaviour} 
+
+Ihre Anpassungen liegen ausserhalb der Applikation und bleiben bei einem Update erhalten. OpenOlat führt sie aber nicht nach. Wenn frentix einen Standardtext überarbeitet, bleibt Ihre Anpassung unverändert stehen. Ihre Nutzer:innen sehen also weiterhin Ihren Text. Umgekehrt erreicht sie eine Verbesserung des Standardtextes nicht.
+
+Bei grösseren Umbauten der Oberfläche kann frentix einen Übersetzungsschlüssel umbenennen oder eine Stelle entfällt. Dann greift Ihre Anpassung nicht mehr und die Stelle erscheint wieder im Standardwortlaut.
+
+Prüfen Sie Ihre Anpassungen deshalb nach einem grösseren Update. Die vollständige Liste finden Sie unter [Welche Anpassungen habe ich bereits gemacht?](#my_adaptations)
+
+[zum Seitenanfang ^](#how_to_use)
