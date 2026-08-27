@@ -1,4 +1,4 @@
-# Question pool: Create Questions {: #question_pool_create_questions}
+# Question pool: Create Questions {: #create_questions}
 
 ![The question items marked as favourites with type, format and status, below them the actions for lists, test, export and sharing. My favourites area in the question pool.](assets/Fragenpool_favoriten.png){ class="shadow lightbox" }
 
@@ -81,7 +81,7 @@ Once the first version of a question has been created, it can be submitted to a 
 
 Several pools may have been created by the pool administrator. As the author of a question, you can decide in which pool your question is released.
 
-[Details zur Freigabe >](Question_Pool_Sharing_Options.md)<br>
+[Details about sharing >](Question_Pool_Sharing_Options.md)<br>
 [To the top of the page ^](#create_questions)
 
 
@@ -93,13 +93,15 @@ If you are developing questions together, for example, you can create a workgrou
 [To the top of the page ^](#create_questions)
 
 
-## Further information {: #further_info}
+## Further information {: #further_information}
 
+[Test question types >](../learningresources/Test_question_types.md)<br>
+[AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Import questions >](Question_Bank_Import_Questions.md)<br>
 [Question detailed view >](Item_Detailed_View.md)<br>
 [Details of the assessment process >](Question_Bank_Review_Process.md)<br>
-[Release details >](Question_Pool_Sharing_Options.md)<br>
-[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br> 
+[Details about sharing >](Question_Pool_Sharing_Options.md)<br>
+[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 
 [To the top of the page ^](#create_questions)
 

@@ -442,6 +442,8 @@ Drei weitere Felder steuern, welche Fragen entstehen. Unter "Bloom-Stufen" wähl
 
 ![Der eingeschaltete Schalter öffnet die Felder MC-Fragen, Essay-Frage, Bloom-Stufen, Zielschwierigkeit und Lernziele.](assets/content_editor_import_ai_quiz_v1_de.png){ class="shadow lightbox" }
 
+Wie lang der importierte Text für die Fragengenerierung sein darf, gibt die System-Administration im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen.
+
 Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Element erscheint, sobald die Fragen bereit sind. Prüfen Sie die erzeugten Fragen anschliessend auf inhaltliche Korrektheit. Im E-Portfolio steht die KI-Fragengenerierung nicht zur Verfügung.
 
 [Zum Seitenanfang ^](#content_editor)

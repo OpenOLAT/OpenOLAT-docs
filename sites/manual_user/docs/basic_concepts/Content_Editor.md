@@ -430,6 +430,8 @@ Three further fields steer which questions are created. Under "Bloom levels" you
 
 ![The switch turned on opens the fields MC questions, essay question, Bloom levels, difficulty and objectives.](assets/content_editor_import_ai_quiz_v1_en.png){ class="shadow lightbox" }
 
+How long the imported text for question generation may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default.
+
 Generation runs in the background and can take a minute; the quiz element appears once the questions are ready. Check the generated questions for correctness afterwards. AI question generation is not available in the e-portfolio.
 
 [To the top of the page ^](#content_editor)

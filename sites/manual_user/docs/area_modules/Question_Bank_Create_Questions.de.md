@@ -93,12 +93,14 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 [Zum Seitenanfang ^](#create_questions)
 
 
-## Weitere Informationen {: #further_info}
+## Weiterführende Informationen {: #further_information}
 
+[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
 [Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br> 
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 
 [Zum Seitenanfang ^](#create_questions)

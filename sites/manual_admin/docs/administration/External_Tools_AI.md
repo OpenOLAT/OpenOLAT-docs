@@ -65,9 +65,9 @@ For further specification, list the model names available on this server.
 
 ---
 
-### AI functions {: #ai_functions}
+### AI features {: #ai_functions}
 
-The AI integration is configured individually for each function, with the available models being downloaded directly from the respective provider.
+The AI integration is configured individually for each feature, with the available models being downloaded directly from the respective provider.
 
 **You define**:
 
@@ -75,7 +75,7 @@ The AI integration is configured individually for each function, with the availa
 * which AI provider
 * and which model should be used.
 
-**Currently, AI can be integrated into the following functions**:
+**Currently, AI can be integrated into the following features**:
 
 * Assignment to the matching taxonomy level via embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Question Generator (creation of multiple-choice questions)
@@ -87,7 +87,7 @@ The AI integration is configured individually for each function, with the availa
 
 Copy a subject-specific text into the designated input field. OpenOlat will then automatically generate multiple-choice questions with answer options, as well as pre-fill a range of metadata for each question item (keywords, topic, and taxonomy).
 
-For each function, you can view an AI-generated sample by clicking the "Run Test" link.
+For each feature, you can view an AI-generated sample by clicking the "Run test" link.
 
 **Example MC Question Generator:**<br>
 ![From the subject text entered, the AI generates title, topic, keywords, question and answers. Run test dialogue.](assets/admin_external_tools_ai_functions_MC_v1_de.png){ class="shadow lightbox" }
