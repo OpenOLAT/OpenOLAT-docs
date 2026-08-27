@@ -2,7 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    tbd
+    Sie sollen wissen, dass in OpenOlat selbst erstellte css für das Kursdesign verwendet werden können. Es würde jedoch zu weit führen, hier im Handbuch Details zur css-Erstellung zu erklären. Bitte informieren Sie sich dazu anderweitig.
 
 ??? abstract "Zielgruppe"
 
@@ -157,8 +157,3 @@ Sollen die Überschriften angepasst werden, wählen Sie das Element **h2**. Auch
  **[W3school:](http://www.w3schools.com/css/default.asp)** Ressource über die CSS-Sprache  
  **[Notepad++:](https://notepad-plus-plus.org/)** kostenfreier Editor
 
----
-
-## Checkliste
-
-- [x] tbd

@@ -2,7 +2,7 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    tbd
+    You should know that CSS you create yourself can be used for course design in OpenOlat. However, it would go too far to explain the details of CSS creation here in the manual. Please refer to other resources for more information on this topic.
 
 ??? abstract "Target group"
 
@@ -156,8 +156,3 @@ Should you wish to change the font of titles in OpenOlat, then you should use th
  **[W3school:](http://www.w3schools.com/css/default.asp)** Useful resource on CSS selectors, elements and properties  
  **[Notepad++:](https://notepad-plus-plus.org/)** Free text editor adjusted for programming and markup languages such as CSS
 
----
-
-## Checklist
-
-- [x] tbd
