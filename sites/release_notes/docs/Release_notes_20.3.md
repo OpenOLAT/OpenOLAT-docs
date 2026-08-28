@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 08/05/2026**
+:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 08/19/2026**
 
 * * *
 
@@ -217,6 +217,7 @@ The transition of background images on the login page has been completely redesi
     - JSON, SwaggerUI, Selenium, AssertJ
     - Fabric.js from 4.4.0 to 6.4.0+
     - Prototype.js 1.7 removed
+- OpenOlat ships with a project configuration for Anthropic Claude Code for AI-assisted development, including architectural knowledge and developer skills
 - Rest API extension for Credit Point System (transactions, systems, balances) (:octicons-tag-24: Release 20.3.2)
 
 * * *
@@ -236,6 +237,7 @@ The transition of background images on the login page has been completely redesi
 
 ## Further information
 
+- [YouTrack Release notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}
 - [YouTrack Release notes 20.3.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.5&title=Release%20Notes%2020.3.5){:target="_blank"}

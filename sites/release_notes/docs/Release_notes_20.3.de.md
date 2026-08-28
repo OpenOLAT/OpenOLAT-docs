@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 05.08.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 19.08.2026**
 
 * * *
 
@@ -218,6 +218,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
     - JSON, SwaggerUI, Selenium, AssertJ
     - Fabric.js von 4.4.0 auf 6.4.0+
     - Prototype.js 1.7 entfernt
+-  OpenOlat wird mit einer Projektkonfiguration für Anthropic Claude Code zur KI-gestützten Entwicklung inkl. Architekturwissen und Entwickler-Skill ausgeliefert
 - Rest API Erweiterung für Kreditpunktesystem (Transaktionen, Systeme, Guthaben) (:octicons-tag-24: Release 20.3.2)
 
 * * *
@@ -237,6 +238,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release Notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release Notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}
 - [YouTrack Release Notes 20.3.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.5&title=Release%20Notes%2020.3.5){:target="_blank"}
