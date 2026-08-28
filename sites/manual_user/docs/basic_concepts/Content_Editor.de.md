@@ -374,9 +374,13 @@ Zu lange Antworten weist OpenOlat schon vor der Bewertung zurück. Die zulässig
 
 Markdown-Dateien und Word-Dokumente können direkt im Content Editor importiert werden, wodurch sich Inhalte aus externen Werkzeugen, Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren übernehmen lassen. Der Inhalt wird automatisch in das strukturierte Seitenformat überführt und bildet so eine effiziente Grundlage, um Kursseiten schneller und einfacher mit Inhalten zu befüllen.
 
-Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Content Editors. Im Feld "Importmodus" wählen Sie zwischen zwei Varianten:
+Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Content Editors.
 
 ![Der türkis markierte Button Importieren am unteren Rand des Content Editors.](assets/content_editor_import_button_v1_de.png){ class="shadow lightbox" }
+
+Im Import-Dialog wählen Sie zwischen zwei Varianten:
+
+![Die Modi Datei hochladen und Text einfügen, die gewählte Word-Datei und der Schalter für das KI-Quiz.](assets/content_editor_import_dialog_v1_de.png){ class="shadow lightbox" }
 
 **A) Datei hochladen:** (Unterstützt werden)
 
@@ -385,8 +389,6 @@ Klicken Sie zum Import auf den Button **"Importieren"** am unteren Rand des Cont
 * Word-Dokumente (.docx) bis maximal 200 MB [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
 **B) Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
-
-![Die Modi Datei hochladen und Text einfügen, die gewählte Word-Datei und der Schalter für das KI-Quiz.](assets/content_editor_import_dialog_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Word-Dokumente importieren"
     Word-Dokumente werden beim Import automatisch in Markdown umgewandelt und durchlaufen anschliessend dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
@@ -401,7 +403,7 @@ Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editor
 | Absatz | [Text](#text) |
 | Trennlinie (`---`) | [Separator](#separator) |
 | Codeblock | [Code-Beispiel](#code) (mit erkannter Programmiersprache) |
-| Blockzitat (`>`) | Text mit [Hinweis-Box](#inspector) |
+| Blockzitat `>` | Text mit [Hinweis-Box](#inspector) |
 | GitHub-Admonition (z.B. `> [!WARNING]`) | Text mit Hinweis-Box des passenden Typs |
 | Liste (Aufzählung oder nummeriert) | Text mit Liste |
 | Tabelle | [Tabelle](#table) |
@@ -431,7 +433,7 @@ Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mi
 
 Der Button "Importieren" steht zusätzlich im **Dialog "Inhalt hinzufügen"** zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
 
-![Die drei Schaltflächen Media Center, Importieren und Schliessen sind hervorgehoben.](assets/content_editor_import_add_content_v1_de.png){ class="shadow lightbox" }
+![Der markierte Button Importieren im Dialog Inhalt hinzufügen.](assets/content_editor_import_add_content_v1_de.png){ class="shadow lightbox" }
 
 
 ### KI-Fragen beim Import erzeugen {: #import_ai_quiz}
@@ -461,5 +463,30 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 
 [Media Center (Persönliche Werkzeuge) >](../personal_menu/Media_Center.de.md)<br>
 [Ausführliche Informationen zum Media Center (Basiskonzept) >](Media_Center_Concept.de.md)
+
+[Zum Seitenanfang ^](#content_editor)
+
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
+[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
+[Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
+[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
+[Media Center: Konzept >](Media_Center_Concept.de.md)
 
 [Zum Seitenanfang ^](#content_editor)

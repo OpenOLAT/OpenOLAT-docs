@@ -363,9 +363,13 @@ OpenOlat rejects answers that are too long before grading starts. The permitted 
 
 Markdown files and Word documents can be imported directly into the Content Editor, allowing content from external tools, text files or AI applications to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily.
 
-To import, click the **"Import"** button at the bottom of the content editor. In the "Import mode" field you choose between two options:
+To import, click the **"Import"** button at the bottom of the content editor.
 
 ![The Import button marked in turquoise at the bottom edge of the Content Editor.](assets/content_editor_import_button_v1_en.png){ class="shadow lightbox" }
+
+In the import dialogue you choose between two options:
+
+![The modes Upload file and Paste text, the selected Word file and the switch for the AI quiz.](assets/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" }
 
 **A) Upload file:** (The following are supported)
 
@@ -374,8 +378,6 @@ To import, click the **"Import"** button at the bottom of the content editor. In
 * Word documents (.docx) up to a maximum of 200 MB [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
 **B) Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
-
-![The modes Upload file and Paste text, the selected Word file and the switch for the AI quiz.](assets/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Importing Word documents"
     Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
@@ -390,7 +392,7 @@ During import, the markdown elements are converted into blocks of the Content Ed
 | Paragraph | [Text](#text) |
 | Horizontal rule (`---`) | [Separator](#separator) |
 | Code block | [Code example](#code) (with detected programming language) |
-| Blockquote (`>`) | Text with [alert box](#inspector) |
+| Blockquote `>` | Text with [alert box](#inspector) |
 | GitHub admonition (e.g. `> [!WARNING]`) | Text with alert box of the matching type |
 | List (bulleted or numbered) | Text with list |
 | Table | [Table](#table) |
@@ -419,7 +421,7 @@ If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is co
 
 The "Import" button is additionally available in the **"Add content" dialog** [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
 
-![The three buttons Media Center, Import and Close at the bottom of the Add content dialogue.](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" }
+![The marked Import button in the Add content dialogue.](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" }
 
 
 ### Generate AI questions on import {: #import_ai_quiz}
@@ -452,3 +454,27 @@ Click the link to access the files in your Media Center. Here, you can select, c
 
 [To the top of the page ^](#content_editor)
 
+
+---
+
+
+## Further information {: #further_information}
+
+**Mentioned on this page**
+[Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
+[Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
+[Forms - Overview >](../learningresources/Form.md)<br>
+[The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
+[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
+[Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
+[Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
+[The Form Editor >](../learningresources/Form_Editor.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
+[Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
+[Media Center Concept >](Media_Center_Concept.md)
+
+[To the top of the page ^](#content_editor)
