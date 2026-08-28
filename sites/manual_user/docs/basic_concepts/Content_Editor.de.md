@@ -471,7 +471,7 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**
+**Auf dieser Seite erwähnt**<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
@@ -488,7 +488,7 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept.de.md)
 
-**Weiterführend**
+**Weiterführend**<br>
 [Mit Tabellen arbeiten >](Table_Concept.de.md)<br>
 [Matheformel >](Math_formula.de.md)<br>
 [Barrierefreiheit: Grundsätze >](Accessibility_Principals.de.md)

@@ -460,7 +460,7 @@ Click the link to access the files in your Media Center. Here, you can select, c
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**
+**Mentioned on this page**<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
@@ -477,7 +477,7 @@ Click the link to access the files in your Media Center. Here, you can select, c
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
 [Media Center Concept >](Media_Center_Concept.md)
 
-**Further reading**
+**Further reading**<br>
 [Working with tables >](Table_Concept.md)<br>
 [Math formula >](Math_formula.md)<br>
 [Accessibility: Basic principals >](Accessibility_Principals.md)
