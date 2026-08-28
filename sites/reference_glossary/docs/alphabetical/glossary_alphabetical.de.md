@@ -204,7 +204,7 @@ Ein Kursbaustein für karteikartenbasiertes Lernen via card2brain.
 
 ### Chat
 
-Eingebauter Chat/Messenger für Echtzeit-Kommunikation zwischen Benutzern.
+Eingebauter Chat/Messenger für Echtzeit-Kommunikation zwischen Benutzer:innen.
 
 ### Checkliste
 
@@ -430,6 +430,10 @@ Anonyme:r Benutzer:in mit eingeschränktem Lesezugriff.
 
 Abschnitt im Bereich Reporting des Coaching Tools; listet die erzeugten Excel-Dateien, die 10 Tage zum Download bereitstehen.
 
+### Generischer KI Anbieter
+
+KI Anbieter, der über eine OpenAI-kompatible Schnittstelle angebunden wird, zum Beispiel vLLM, Ollama oder LiteLLM. Auf jeder Installation ist ein solcher Anbieter unter der festen ID Generic_0 vorhanden.
+
 ### Glossar
 
 Ein Lernressourcen-Typ, der im Autorenbereich erstellt oder importiert werden kann.
@@ -530,6 +534,10 @@ Ein KI-gestützter Einsatzbereich in OpenOlat (z.B. MC Fragen Generator, Bildbes
 
 Integration von KI-Funktionen für Inhaltsgenerierung und Unterstützung.
 
+### KI-Verarbeitungs-Pool
+
+Kontingent gleichzeitiger KI-Aufrufe pro Serverknoten. Das KI Modul führt zwei Pools: "Interaktiv" für Aufgaben, auf die Benutzer:innen aktiv warten, und "Batch" für langlaufende Aufträge.
+
 ### Klassenlehrer:in
 
 Beaufsichtigt Betreuer:innen über Curriculum-Durchführungen hinweg.
@@ -556,7 +564,7 @@ Die Zuteilung von Bewerbungen an einzelne Kommissionsmitglieder. Sie legt fest, 
 
 ### Kompetenz
 
-Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzern.
+Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzer:innen.
 
 ### Korrektor:in
 
@@ -616,7 +624,7 @@ Ein konfigurierbarer Abschnitt im Katalog 2.0, der Kursangebote dynamisch zusamm
 
 ### Leistungsnachweise
 
-Aufzeichnung der Leistung eines Benutzers in bewertbaren Kursbausteinen.
+Aufzeichnung der Leistung von Benutzer:innen in bewertbaren Kursbausteinen.
 
 ### Lektionsblock
 
@@ -700,7 +708,7 @@ Ein Kursbaustein für Sonic Foundry Mediasite Vorlesungsaufzeichnung.
 
 ### Meine Kurse
 
-Der Hauptbereich, in dem Benutzer ihre eingeschriebenen Kurse finden und darauf zugreifen.
+Der Hauptbereich, in dem Benutzer:innen ihre eingeschriebenen Kurse finden und darauf zugreifen.
 
 ### Metadaten
 
@@ -728,7 +736,11 @@ Modellantworten oder Referenzlösungen, die innerhalb eines Aufgaben-Kursbaustei
 
 ### Notizen
 
-Persönliche Notizfunktion für Benutzer.
+Persönliche Notizfunktion für Benutzer:innen.
+
+### Nutzungsprotokoll
+
+Aufzeichnung aller KI-Aufrufe einer Instanz mit Funktion, Anbieter, Modell, Status, Dauer und Tokens. Auswertbar nach Zeitbereich und als Excel-Download.
 
 ### OAI-PMH
 
@@ -772,7 +784,7 @@ Der Bereich, in den gelöschte Lernressourcen vor der endgültigen Löschung ver
 
 ### Passkey
 
-Passwortlose Authentifizierung über WebAuthn, mit der sich Benutzer mit biometrischen oder Hardware-Schlüsseln anmelden können.
+Passwortlose Authentifizierung über WebAuthn, mit der sich Benutzer:innen mit biometrischen oder Hardware-Schlüsseln anmelden können.
 
 ### PDF
 
@@ -1010,6 +1022,10 @@ Widget im Dashboard, zeigt Durchführungen oder Angebote in Tabellenform.
 
 Hierarchisches Klassifizierungssystem für Kompetenzen und Inhalte.
 
+### Taxonomie-Zuordnung
+
+KI Funktion, die einen Text per Einbettungsmodell der passenden Taxonomie-Ebene zuordnet.
+
 ### Teaser
 
 Ein kurzer Vorschautext für platzsparende Ankündigungen, derzeit nur für Kurse verfügbar.
@@ -1140,7 +1156,7 @@ Eine Warteschlange für Personen, die nicht sofort eingeschrieben werden können
 
 ### Web-Katalog
 
-Extern zugänglicher Katalog, in dem nicht registrierte Benutzer Kursangebote durchsuchen und buchen können.
+Extern zugänglicher Katalog, in dem nicht registrierte Benutzer:innen Kursangebote durchsuchen und buchen können.
 
 ### WebDAV
 

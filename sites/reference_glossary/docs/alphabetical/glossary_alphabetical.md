@@ -62,6 +62,10 @@ An AI-powered area of use in OpenOlat (e.g. MC Question Generator, Image Descrip
 
 Integration of AI capabilities for content generation and assistance.
 
+### AI processing pool
+
+Quota of simultaneous AI calls per server node. The AI module runs two pools: "Interactive" for tasks a user is actively waiting on, and "Batch" for long-running jobs.
+
 ### AI provider
 
 The service provider whose AI models are used for the AI-powered features in OpenOlat. Multiple providers can be configured in parallel in the AI module (OpenAI, Anthropic Claude, generic OpenAI-compatible services).
@@ -521,6 +525,10 @@ System-wide search for content across courses, learning resources, and user data
 ### Generated reports
 
 Section in the Reporting area of the Coaching tool; lists the generated Excel files, which are available for download for 10 days.
+
+### Generic AI provider
+
+AI provider connected through an OpenAI-compatible interface, for example vLLM, Ollama or LiteLLM. Every installation carries one such provider under the fixed ID Generic_0.
 
 ### Glossary
 
@@ -1074,6 +1082,10 @@ A course element (building block) that can be added to a course structure.
 
 Hierarchical classification system for competences and content.
 
+### Taxonomy matching
+
+AI feature that assigns a text to the matching taxonomy level using an embedding model.
+
 ### Teaser
 
 A short preview text used for compact announcements, currently available for courses.
@@ -1117,6 +1129,10 @@ The area where deleted learning resources are moved before permanent deletion.
 ### Usage
 
 Setting of a course that determines how it is used: standalone, as a template, embedded in a course, or in the Course Planner. Among other things, it determines whether the course has its own member administration.
+
+### Usage log
+
+Record of all AI calls on an instance with feature, provider, model, status, duration and tokens. Can be analysed by time range and downloaded as Excel.
 
 ### User
 

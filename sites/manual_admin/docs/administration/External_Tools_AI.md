@@ -1,20 +1,25 @@
 # External tools: AI module {: #ai}
 
 
-In OpenOlat you are supported by AI at different points. To do this, the AI tools used must be configured in the external tools. The AI module supports multiple AI providers; you define per feature which provider and which model is used [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
+In OpenOlat you are supported by AI at different points. To do this, the AI providers used must be configured in the external tools. The AI module supports multiple AI providers; you define per AI feature which provider and which model is used [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
+
+The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration and is configured by administrators and system administrators. Other roles do not reach the system administration. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
 
 
 
 ## Configuration {: #config}
 
-The AI module settings are located under `Administration > External tools > AI module`. They are organised into four areas (tabs):
+The AI module settings are located in the system administration under:<br>
+`Administration > External tools > AI module`
+
+They are organised into four areas (tabs):
 
 * **"AI providers"**: connect the AI services used and store an API key.
 * **"AI features"**: define per location whether AI is used and with which provider and model.
 * **"AI processing pools"**: control how many AI calls are processed simultaneously.
 * **"Usage log"**: review all AI calls on the instance with tokens and status.
 
-![The four tabs of the AI module highlighted in turquoise, on the right the Add AI Provider button. AI module page.](assets/admin_external_tools_ai_tab_config_v1_en.png){ class="shadow lightbox" }
+![The four tabs of the AI module highlighted in turquoise, on the right the Add AI Provider button. Artificial intelligence page.](assets/admin_external_tools_ai_tab_config_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#ai)
 
@@ -22,9 +27,17 @@ The AI module settings are located under `Administration > External tools > AI m
 
 ### AI provider {: #ai_provider}
 
-In OpenOlat, the term “AI provider” refers to the service provider whose AI models are used for the various AI-powered features on the platform.
+In OpenOlat, the term "AI provider" refers to the service provider whose AI models are used for the various AI-powered features on the platform.
 
 Enable and configure the various AI providers you want to use by clicking the **"Add AI Provider" button** in the upper-right corner.
+
+!!! info "Important"
+
+    As the operator of the platform you are legally obliged to inform your users about the usage of an AI service. The "AI providers" tab displays this notice as well.
+
+!!! warning "Attention"
+
+    The "AI providers" tab points out that the AI functionality is a beta feature. Using it may result in unexpected behaviour.
 
 The following actions are available for each configured AI provider:
 
@@ -34,7 +47,7 @@ The following actions are available for each configured AI provider:
 
 !!! note "Please note:"
 
-    On the one hand, integrating many different AI tools allows users to leverage each tool’s specific strengths. On the other hand, AI tools train themselves and take previous dialogues into account. If tasks are distributed and assigned to many different AI tools, none of the tools has access to the complete history of the dialogues.
+    On the one hand, integrating many different AI providers allows users to leverage each provider's specific strengths. On the other hand, AI models train themselves and take previous dialogues into account. If tasks are distributed and assigned to many different AI providers, none of the models has access to the complete history of the dialogues.
 
 
 
@@ -54,7 +67,7 @@ If you want to use OpenAI's AI models, you can enter your API key here. Please n
 In this section, you can configure a generic OpenAI-compatible AI provider, such as
 
 * vLLM
-* Ollama 
+* Ollama
 * LiteLLM
 * NeuralMagic
 * ...
@@ -77,11 +90,11 @@ The AI integration is configured individually for each feature, with the availab
 
 **Currently, AI can be integrated into the following features**:
 
-* Assignment to the matching taxonomy level via embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
-* MC Question Generator (creation of multiple-choice questions)
-* Image Description Generator (creation of image descriptions, alternative text, and keywords) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
-* Essay Question Generator (creation of open-text questions with grading criteria) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
-* Essay Grading (formative AI feedback on open-text answers) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
+* Assignment to the matching taxonomy level via embedding model, see [Module Taxonomy >](Modules_Taxonomy.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
+* MC Question Generator (creation of multiple-choice questions), used in [Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
+* Image Description Generator (creation of image descriptions, alternative text, and keywords), used in [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
+* Essay Question Generator (creation of open-text questions with grading criteria)
+* Essay Grading (formative AI feedback on open-text answers), used in the question pool and in the [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
 ![Taxonomy Matching and Image Description Generator with provider, model and the limit fields. Tab AI features, top.](assets/admin_external_tools_ai_functions_v2_en.png){ class="shadow lightbox" }
 
@@ -128,10 +141,10 @@ For a reasoning model or a self-hosted model, keep the default values or increas
 
 In the "AI processing pools" section, you define how many AI calls are executed simultaneously per server node. The appropriate size depends on the infrastructure behind the AI provider: cloud services handle many parallel calls, a self-hosted model on a single GPU only a few.
 
-* **Pool "Interactive"**: for AI tasks a user is actively waiting on, for example the AI correction of free-text answers.
-* **Pool "Batch"**: for long-running jobs such as question generation from page content; one job can take several minutes.
+* **Pool "Interactive" (threads)**: for AI tasks a user is actively waiting on, for example the AI correction of free-text answers.
+* **Pool "Batch" (threads)**: for long-running jobs such as question generation from page content; one job can take several minutes.
 
-The value per pool must be between 1 and 64.
+By default, 8 threads are available for "Interactive" and 2 threads for "Batch". The value per pool must be between 1 and 64.
 
 Below the two fields, the load per pool shows how many calls are currently running and how many are waiting. The "Refresh" button reloads these values.
 
@@ -148,7 +161,7 @@ The "Usage log" records every AI call on the instance, making it traceable which
 
 The following are available for analysis:
 
-* **Time range**: "Last month", "This month", "Last year", "This year" or a custom time range.
+* **Time range**: "This month" (preselected), "Last month", "This year", "Last year" as well as "Custom" for an own time range.
 * **Column filters** for "AI feature" and "Status".
 * **Excel download** of the filtered table.
 
@@ -165,7 +178,7 @@ A widget above the table shows the sum of the total tokens for the selected time
 
 AI providers and AI features can also be preset directly in the configuration file `olat.properties`. This is particularly suitable for centrally managed deployments (e.g. Ansible or Docker images) where the same AI provider should be preconfigured on all instances.
 
-The following priority principle applies: The values from `olat.properties` act as default values. As soon as a value is saved in the administration interface, the saved value permanently takes precedence. The presets are loaded regardless of whether the provider or feature is enabled; to use them, enabling them in the administration interface is all that is needed.
+The following priority principle applies: The values from `olat.properties` act as default values. As soon as a value is saved in the AI module, the saved value permanently takes precedence. The presets are loaded regardless of whether the provider or feature is enabled; to use them, enabling them in the AI module is all that is needed.
 
 ```properties
 # OpenAI (GPT) provider
@@ -182,12 +195,20 @@ ai.generic.preset.base.url=
 ai.generic.preset.api.key=
 # Comma-separated list of model names if not auto-detectable
 ai.generic.preset.models=
-# Provider (spi) and model per AI feature
+# Enabled flag, provider (spi) and model per AI feature
 # Possible spi values: OpenAI, Anthropic, Generic_0
+ai.feature.mc-question-generator.enabled=false
 ai.feature.mc-question-generator.spi=
 ai.feature.mc-question-generator.model=
+ai.feature.image-description-generator.enabled=false
 ai.feature.image-description-generator.spi=
 ai.feature.image-description-generator.model=
+ai.feature.essay-generation.enabled=false
+ai.feature.essay-generation.spi=
+ai.feature.essay-generation.model=
+ai.feature.essay-grading.enabled=false
+ai.feature.essay-grading.spi=
+ai.feature.essay-grading.model=
 # Limits per AI feature
 ai.mc.generator.max.input.chars=60000
 ai.mc.generator.max.output.tokens=16384
@@ -200,15 +221,40 @@ ai.essay.generation.timeout.seconds=180
 ai.essay.grading.max.input.words=400
 ai.essay.grading.max.output.tokens=16384
 ai.essay.grading.timeout.seconds=600
+# Size of the processing pools (worker threads per node)
+ai.task.pool.interactive.size=8
+ai.task.pool.batch.size=2
+# Taxonomy matching
+taxonomy.matching.enabled=false
+taxonomy.matching.spi=
+taxonomy.matching.model=
+# Minimum score at which a taxonomy level is assigned
+taxonomy.matching.min.score=0.65
+# pgvector is used automatically when available (PostgreSQL with pgvector).
+# If pgvector is not available, matching still works via the in-memory search path.
+taxonomy.matching.pgvector.enabled=true
+taxonomy.matching.local.model.dir=${userdata.dir}/ai/models
+# Optional prefix overrides. Leave empty for auto-detection based on the model name.
+taxonomy.matching.query.prefix=
+taxonomy.matching.passage.prefix=
 ```
 
 !!! info "Important"
 
-    The generic preset provider is available on every installation under the fixed ID `Generic_0`. It is displayed in the administration interface but cannot be deleted there. Additional generic providers can still be created via the administration interface.
+    The generic preset provider is available on every installation under the fixed ID `Generic_0`. It is displayed in the "AI providers" tab but cannot be deleted there. Additional generic providers are created in the "AI providers" tab.
 
 [To the top of the page ^](#ai)
 
 ---
 
 
- 
+## Further information {: #further_information}
+
+[External Tools: Overview >](External_Tools_-_Administration.md)<br>
+[Assign roles >](../usermanagement/Assign_roles.md)<br>
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
+[Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>
+[Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)
+
+[To the top of the page ^](#ai)

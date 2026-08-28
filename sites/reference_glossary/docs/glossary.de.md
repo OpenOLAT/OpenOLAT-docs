@@ -296,7 +296,7 @@ Klassisches Kursdesign mit menübasierter Navigation (kein Lernpfad).
 
 ### Leistungsnachweise
 
-Aufzeichnung der Leistung eines Benutzers in bewertbaren Kursbausteinen.
+Aufzeichnung der Leistung von Benutzer:innen in bewertbaren Kursbausteinen.
 
 ### File Hub
 
@@ -322,6 +322,10 @@ Integration von KI-Funktionen für Inhaltsgenerierung und Unterstützung.
 
 Der Dienstleister, dessen KI-Modelle für die KI-gestützten Funktionen in OpenOlat genutzt werden. Im KI Modul können mehrere Anbieter parallel konfiguriert werden (OpenAI, Anthropic Claude, generische OpenAI-kompatible Dienste).
 
+### Generischer KI Anbieter
+
+KI Anbieter, der über eine OpenAI-kompatible Schnittstelle angebunden wird, zum Beispiel vLLM, Ollama oder LiteLLM. Auf jeder Installation ist ein solcher Anbieter unter der festen ID Generic_0 vorhanden.
+
 ### KI Funktion
 
 Ein KI-gestützter Einsatzbereich in OpenOlat (z.B. MC Fragen Generator, Bildbeschreibungs-Generator), dem im KI Modul ein KI Anbieter und ein Modell zugewiesen werden.
@@ -341,6 +345,18 @@ KI Funktion, die aus einem Quelltext oder einer hochgeladenen Datei Freitextfrag
 ### Essay Bewertung
 
 KI Funktion, die zu Freitextantworten der Lernenden ein formatives Feedback erzeugt.
+
+### Taxonomie-Zuordnung
+
+KI Funktion, die einen Text per Einbettungsmodell der passenden Taxonomie-Ebene zuordnet.
+
+### KI-Verarbeitungs-Pool
+
+Kontingent gleichzeitiger KI-Aufrufe pro Serverknoten. Das KI Modul führt zwei Pools: "Interaktiv" für Aufgaben, auf die Benutzer:innen aktiv warten, und "Batch" für langlaufende Aufträge.
+
+### Nutzungsprotokoll
+
+Aufzeichnung aller KI-Aufrufe einer Instanz mit Funktion, Anbieter, Modell, Status, Dauer und Tokens. Auswertbar nach Zeitbereich und als Excel-Download.
 
 ### Import (Content Editor)
 
@@ -400,7 +416,7 @@ Systemweite Suche über Kurse, Lernressourcen und Benutzerdaten hinweg.
 
 ### Chat
 
-Eingebauter Chat/Messenger für Echtzeit-Kommunikation zwischen Benutzern.
+Eingebauter Chat/Messenger für Echtzeit-Kommunikation zwischen Benutzer:innen.
 
 ### Lizenzen
 
@@ -408,7 +424,7 @@ Verwaltung von Inhaltslizenzen für Lernressourcen.
 
 ### Notizen
 
-Persönliche Notizfunktion für Benutzer.
+Persönliche Notizfunktion für Benutzer:innen.
 
 ### OAI-PMH
 
@@ -416,7 +432,7 @@ Open Archives Initiative Protocol for Metadata Harvesting, verwendet zur Katalog
 
 ### Passkey
 
-Passwortlose Authentifizierung über WebAuthn, mit der sich Benutzer mit biometrischen oder Hardware-Schlüsseln anmelden können.
+Passwortlose Authentifizierung über WebAuthn, mit der sich Benutzer:innen mit biometrischen oder Hardware-Schlüsseln anmelden können.
 
 ### Peer-Review
 
@@ -444,7 +460,7 @@ Zentraler Bereich, der alle freigegebenen Video-Lernressourcen zusammenfasst.
 
 ### Web-Katalog
 
-Extern zugänglicher Katalog, in dem nicht registrierte Benutzer Kursangebote durchsuchen und buchen können.
+Extern zugänglicher Katalog, in dem nicht registrierte Benutzer:innen Kursangebote durchsuchen und buchen können.
 
 ### Whiteboard
 
@@ -539,7 +555,7 @@ Der Bereich, in dem Autoren Lernressourcen erstellen und verwalten.
 
 ### Meine Kurse
 
-Der Hauptbereich, in dem Benutzer ihre eingeschriebenen Kurse finden und darauf zugreifen.
+Der Hauptbereich, in dem Benutzer:innen ihre eingeschriebenen Kurse finden und darauf zugreifen.
 
 
 ## Konzepte
@@ -590,7 +606,7 @@ Ein Dateibereich, der innerhalb eines Kurses nur für Betreuer:innen sichtbar is
 
 ### Kompetenz
 
-Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzern.
+Über die Taxonomie zugewiesene Fähigkeit oder Kompetenz von Benutzer:innen.
 
 ### Korrektor:in
 

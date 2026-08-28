@@ -1,20 +1,25 @@
 # Externe Werkzeuge: KI Modul {: #ai}
 
 
-In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Dazu müssen die verwendeten KI-Tools in den externen Werkzeugen konfiguriert werden. Das KI Modul unterstützt mehrere KI Anbieter; welcher Anbieter und welches Modell verwendet wird, legen Sie pro Funktion fest [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
+In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Dazu müssen die verwendeten KI Anbieter in den externen Werkzeugen konfiguriert werden. Das KI Modul unterstützt mehrere KI Anbieter; welcher Anbieter und welches Modell verwendet wird, legen Sie pro KI Funktion fest [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
+
+Das KI Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration und wird von Administrator:innen und Systemadministrator:innen konfiguriert. Andere Rollen erreichen die System-Administration nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
 
 
 
 ## Konfiguration {: #config}
 
-Die Einstellungen des KI Moduls finden Sie unter `Administration > Externe Werkzeuge > KI Modul`. Sie sind in vier Bereiche (Tabs) gegliedert:
+Die Einstellungen des KI Moduls finden Sie in der System-Administration unter:<br>
+`Administration > Externe Werkzeuge > KI Modul`
+
+Sie sind in vier Bereiche (Tabs) gegliedert:
 
 * **"KI-Anbieter"**: die verwendeten KI-Dienste anbinden und mit einem API Schlüssel hinterlegen.
 * **"KI-Funktionen"**: pro Einsatzort festlegen, ob KI genutzt wird und mit welchem Anbieter und Modell.
 * **"KI-Verarbeitungs-Pools"**: steuern, wie viele KI-Aufrufe gleichzeitig verarbeitet werden.
 * **"Nutzungsprotokoll"**: alle KI-Aufrufe der Instanz mit Tokens und Status auswerten.
 
-![Die vier Tabs des KI Moduls türkis hervorgehoben, rechts der Button KI Anbieter hinzufügen. Seite KI Modul.](assets/admin_external_tools_ai_tab_config_v1_de.png){ class="shadow lightbox" }
+![Die vier Tabs des KI Moduls türkis hervorgehoben, rechts der Button KI Anbieter hinzufügen. Seite Künstliche Intelligenz.](assets/admin_external_tools_ai_tab_config_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#ai)
 
@@ -23,9 +28,17 @@ Die Einstellungen des KI Moduls finden Sie unter `Administration > Externe Werkz
 
 ### KI Anbieter {: #ai_provider}
 
-In OpenOlat bezieht sich der Begriff „KI Anbieter“ auf den Dienstleister, dessen KI-Modelle für die verschiedenen KI-gestützten Funktionen in der Plattform genutzt werden.
+In OpenOlat bezieht sich der Begriff "KI Anbieter" auf den Dienstleister, dessen KI-Modelle für die verschiedenen KI-gestützten Funktionen in der Plattform genutzt werden.
 
 Aktivieren und konfigurieren Sie die verschiedenen KI Anbieter, die Sie verwenden möchten mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
+
+!!! info "Wichtig"
+
+    Als Betreiberin der Plattform sind Sie verpflichtet, Ihre Benutzer:innen auf die Verwendung eines KI Services hinzuweisen. Der Tab "KI-Anbieter" zeigt diesen Hinweis ebenfalls an.
+
+!!! warning "Achtung"
+
+    Der Tab "KI-Anbieter" weist darauf hin, dass sich die KI-Funktionalität in einer Versuchsphase befindet. Bei der Verwendung können Fehler auftreten.
 
 Für jeden konfigurierten KI Anbieter stehen folgende Aktionen zur Verfügung:
 
@@ -35,7 +48,7 @@ Für jeden konfigurierten KI Anbieter stehen folgende Aktionen zur Verfügung:
 
 !!! note "Beachten Sie:"
 
-    Einerseits erlaubt das Einbinden vieler verschiedener KI-Werkzeuge die Nutzung der jeweiligen Stärken eines Tools. Andererseits trainieren KI-Tools sich selbst und berücksichtigen vorhergehende Dialoge. Werden Aufgaben an viele verschiedene KI-Tools verteilt und vergeben, hat keines der Tools die Dialoge gesamthaft zur Verfügung.
+    Einerseits erlaubt das Einbinden vieler verschiedener KI Anbieter die Nutzung der jeweiligen Stärken eines Anbieters. Andererseits trainieren KI-Modelle sich selbst und berücksichtigen vorhergehende Dialoge. Werden Aufgaben an viele verschiedene KI Anbieter verteilt und vergeben, hat keines der Modelle die Dialoge gesamthaft zur Verfügung.
 
 
 
@@ -55,7 +68,7 @@ Wenn Sie die KI-Modelle von OpenAI benutzen wollen, können Sie hier Ihren API S
 In diesem Abschnitt können Sie einen generischen OpenAI-kompatiblen KI Anbieter konfigurieren, z.B.
 
 * vLLM
-* Ollama 
+* Ollama
 * LiteLLM
 * NeuralMagic
 * ...
@@ -79,11 +92,11 @@ Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die
 
 **Derzeit kann KI in den folgenden Funktionen eingebunden werden**:
 
-* Zuordnung zur passenden Taxonomie-Ebene per Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
-* MC Fragen Generator (Erstellung von MC-Fragen)
-* Bildbeschreibungs-Generator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
-* Essay Fragen Generator (Erstellung von Freitextfragen samt Bewertungskriterien) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
-* Essay Bewertung (formatives KI-Feedback zu Freitextantworten) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
+* Zuordnung zur passenden Taxonomie-Ebene per Einbettungsmodell, siehe [Modul Taxonomie >](Modules_Taxonomy.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
+* MC Fragen Generator (Erstellung von MC-Fragen), genutzt im [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
+* Bildbeschreibungs-Generator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern), genutzt im [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
+* Essay Fragen Generator (Erstellung von Freitextfragen samt Bewertungskriterien)
+* Essay Bewertung (formatives KI-Feedback zu Freitextantworten), genutzt im Fragenpool und im [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
 ![Taxonomie-Zuordnung und Bildbeschreibungs-Generator mit Anbieter, Modell und Limit-Feldern. Tab KI Funktionen, oben.](assets/admin_external_tools_ai_functions_v2_de.png){ class="shadow lightbox" }
 
@@ -131,10 +144,10 @@ Für ein Reasoning-Modell oder ein selbst gehostetes Modell belassen Sie die Sta
 
 Im Abschnitt "KI-Verarbeitungs-Pools" legen Sie fest, wie viele KI-Aufrufe pro Serverknoten gleichzeitig ausgeführt werden. Die passende Grösse hängt von der Infrastruktur hinter dem KI Anbieter ab: Cloud-Dienste vertragen viele parallele Aufrufe, ein selbst gehostetes Modell auf einer einzelnen GPU nur wenige.
 
-* **Pool "Interaktiv"**: für KI-Aufgaben, auf die Benutzer:innen aktiv warten, zum Beispiel die KI-Korrektur von Freitextantworten.
-* **Pool "Batch"**: für langlaufende Aufträge wie die Fragengenerierung aus Seiteninhalten; ein Auftrag kann mehrere Minuten dauern.
+* **Pool "Interaktiv" (Threads)**: für KI-Aufgaben, auf die Benutzer:innen aktiv warten, zum Beispiel die KI-Korrektur von Freitextantworten.
+* **Pool "Batch" (Threads)**: für langlaufende Aufträge wie die Fragengenerierung aus Seiteninhalten; ein Auftrag kann mehrere Minuten dauern.
 
-Der Wert je Pool muss zwischen 1 und 64 liegen.
+Standardmässig stehen 8 Threads für "Interaktiv" und 2 Threads für "Batch" zur Verfügung. Der Wert je Pool muss zwischen 1 und 64 liegen.
 
 Unter den beiden Feldern zeigt die Auslastung je Pool, wie viele Aufrufe gerade laufen und wie viele warten. Der Button "Aktualisieren" liest diese Werte neu ein.
 
@@ -151,7 +164,7 @@ Das "Nutzungsprotokoll" zeichnet jeden KI-Aufruf der Instanz auf und macht so na
 
 Zur Auswertung stehen zur Verfügung:
 
-* **Zeitbereich**: "Letzter Monat", "Dieser Monat", "Letztes Jahr", "Dieses Jahr" oder ein benutzerdefinierter Zeitraum.
+* **Zeitbereich**: "Dieser Monat" (Vorauswahl), "Letzter Monat", "Dieses Jahr", "Letztes Jahr" sowie "Individuell" für eine eigene Zeitspanne.
 * **Spaltenfilter** für "KI Funktion" und "Status".
 * **Excel-Download** der gefilterten Tabelle.
 
@@ -168,7 +181,7 @@ Ein Widget über der Tabelle zeigt die Summe der Total-Tokens im gewählten Zeit
 
 KI Anbieter und KI Funktionen können auch direkt in der Konfigurationsdatei `olat.properties` vorbelegt werden. Das eignet sich besonders für zentral verwaltete Deployments (z.B. Ansible oder Docker-Images), bei denen derselbe KI Anbieter auf allen Instanzen voreingestellt sein soll.
 
-Dabei gilt folgendes Prioritätsprinzip: Die Werte aus `olat.properties` wirken als Standardwerte. Sobald ein Wert in der Admin-Oberfläche gespeichert wird, hat der gespeicherte Wert dauerhaft Vorrang. Die Presets werden unabhängig davon geladen, ob Anbieter oder Funktion aktiviert sind; zur Nutzung genügt das Aktivieren in der Admin-Oberfläche.
+Dabei gilt folgendes Prioritätsprinzip: Die Werte aus `olat.properties` wirken als Standardwerte. Sobald ein Wert im KI Modul gespeichert wird, hat der gespeicherte Wert dauerhaft Vorrang. Die Presets werden unabhängig davon geladen, ob Anbieter oder Funktion aktiviert sind; zur Nutzung genügt das Aktivieren im KI Modul.
 
 ```properties
 # OpenAI (GPT) Anbieter
@@ -185,12 +198,20 @@ ai.generic.preset.base.url=
 ai.generic.preset.api.key=
 # Komma-getrennte Liste der Modellnamen, falls nicht automatisch erkennbar
 ai.generic.preset.models=
-# Anbieter (spi) und Modell pro KI Funktion
+# Aktivierung, Anbieter (spi) und Modell pro KI Funktion
 # Moegliche spi-Werte: OpenAI, Anthropic, Generic_0
+ai.feature.mc-question-generator.enabled=false
 ai.feature.mc-question-generator.spi=
 ai.feature.mc-question-generator.model=
+ai.feature.image-description-generator.enabled=false
 ai.feature.image-description-generator.spi=
 ai.feature.image-description-generator.model=
+ai.feature.essay-generation.enabled=false
+ai.feature.essay-generation.spi=
+ai.feature.essay-generation.model=
+ai.feature.essay-grading.enabled=false
+ai.feature.essay-grading.spi=
+ai.feature.essay-grading.model=
 # Limits pro KI Funktion
 ai.mc.generator.max.input.chars=60000
 ai.mc.generator.max.output.tokens=16384
@@ -203,14 +224,40 @@ ai.essay.generation.timeout.seconds=180
 ai.essay.grading.max.input.words=400
 ai.essay.grading.max.output.tokens=16384
 ai.essay.grading.timeout.seconds=600
+# Groesse der Verarbeitungs-Pools (Threads pro Serverknoten)
+ai.task.pool.interactive.size=8
+ai.task.pool.batch.size=2
+# Taxonomie-Zuordnung
+taxonomy.matching.enabled=false
+taxonomy.matching.spi=
+taxonomy.matching.model=
+# Minimale Uebereinstimmung, ab der eine Taxonomie-Ebene zugeordnet wird
+taxonomy.matching.min.score=0.65
+# pgvector wird automatisch verwendet, wenn verfuegbar (PostgreSQL mit pgvector).
+# Ist pgvector nicht verfuegbar, laeuft die Zuordnung ueber die Suche im Arbeitsspeicher.
+taxonomy.matching.pgvector.enabled=true
+taxonomy.matching.local.model.dir=${userdata.dir}/ai/models
+# Optionale Praefixe. Leer lassen fuer die automatische Erkennung anhand des Modellnamens.
+taxonomy.matching.query.prefix=
+taxonomy.matching.passage.prefix=
 ```
 
 !!! info "Wichtig"
 
-    Der generische Preset-Anbieter ist auf jeder Installation unter der festen ID `Generic_0` verfügbar. Er wird in der Admin-Oberfläche angezeigt, kann dort aber nicht gelöscht werden. Weitere generische Anbieter lassen sich weiterhin über die Admin-Oberfläche anlegen.
+    Der generische Preset-Anbieter ist auf jeder Installation unter der festen ID `Generic_0` verfügbar. Er wird im Tab "KI-Anbieter" angezeigt, kann dort aber nicht gelöscht werden. Weitere generische Anbieter legen Sie im Tab "KI-Anbieter" an.
 
 [Zum Seitenanfang ^](#ai)
 
 ---
 
 
+## Weiterführende Informationen {: #further_information}
+
+[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md)<br>
+[Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
+[Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)<br>
+[Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)
+
+[Zum Seitenanfang ^](#ai)

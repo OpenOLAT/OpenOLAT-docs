@@ -322,6 +322,10 @@ Integration of AI capabilities for content generation and assistance.
 
 The service provider whose AI models are used for the AI-powered features in OpenOlat. Multiple providers can be configured in parallel in the AI module (OpenAI, Anthropic Claude, generic OpenAI-compatible services).
 
+### Generic AI provider
+
+AI provider connected through an OpenAI-compatible interface, for example vLLM, Ollama or LiteLLM. Every installation carries one such provider under the fixed ID Generic_0.
+
 ### AI feature
 
 An AI-powered area of use in OpenOlat (e.g. MC Question Generator, Image Description Generator) to which an AI provider and a model are assigned in the AI module.
@@ -341,6 +345,18 @@ AI feature that creates open-text (essay) questions with grading criteria from a
 ### Essay Grading
 
 AI feature that produces formative feedback on learners' essay answers.
+
+### Taxonomy matching
+
+AI feature that assigns a text to the matching taxonomy level using an embedding model.
+
+### AI processing pool
+
+Quota of simultaneous AI calls per server node. The AI module runs two pools: "Interactive" for tasks a user is actively waiting on, and "Batch" for long-running jobs.
+
+### Usage log
+
+Record of all AI calls on an instance with feature, provider, model, status, duration and tokens. Can be analysed by time range and downloaded as Excel.
 
 ### Import (content editor)
 
