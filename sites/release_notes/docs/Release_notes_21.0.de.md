@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 05.08.2026**
+:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 19.08.2026**
 
 * * *
 
@@ -272,6 +272,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 ## Administratives / Technisches
 
 * **Zertifikate:** HTML-Vorlagen empfohlen
+* **Katalog 2.0** ist bei Neuinstallationen standardmäßig aktiviert
 * Sicheres Ausliefern von unsicheren Inhalten über zweite Domäne (`olat.properties key: server.content.domainname`) per **iFrame Sandboxing** für SCORM, HTML-Seite und alle Inhalte, die in iFrames ausgeliefert werden
 * Aktualisierung der Bibliotheken von Drittanbietern
 
@@ -297,5 +298,6 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.2&title=Release%20Notes%2021.0.2){:target="_blank"}
 * [YouTrack Release Notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
 * [YouTrack Release Notes 21.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.0&title=Release%20Notes%2021.0.0){:target="_blank"}

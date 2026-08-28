@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 16.07.2026 • Last update: 05.08.2026**
+:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 08/19/2026**
 
 * * *
 
@@ -272,6 +272,7 @@ The prerequisite is a valid email address on the account as well as a functional
 ## Administrative / Technical
 
 * **Certificates:** HTML templates recommended
+* **Catalog 2.0** is enabled by default for new installations
 * Secure delivery of unsafe content via a second domain (`olat.properties key: server.content.domainname`) using **iFrame sandboxing** for SCORM, HTML page and all content delivered in iFrames
 * Update of third-party libraries
 
@@ -297,5 +298,6 @@ The prerequisite is a valid email address on the account as well as a functional
 
 ## Further information
 
-* [YouTrack Release Notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
-* [YouTrack Release Notes 21.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.0&title=Release%20Notes%2021.0.0){:target="_blank"}
+* [YouTrack Release notes 21.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.2&title=Release%20Notes%2021.0.2){:target="_blank"}
+* [YouTrack Release notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
+* [YouTrack Release notes 21.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.0&title=Release%20Notes%2021.0.0){:target="_blank"}

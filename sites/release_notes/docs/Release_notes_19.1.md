@@ -174,6 +174,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Learning path: Exception rule for “Course run number”, e.g. to explicitly exclude or include certain course elements for recertification (:octicons-tag-24: release 19.1.7)
 * E-mail for course invitation: Information about the course location via the variable $courseLocation (:octicons-tag-24: release 19.1.7)
 * Course reminders: Addition of the variables “user name” and “e-mail” as well as optimization of further variables for affected users for reminders to substitute recipients (:octicons-tag-24: release 19.1.8)
+* HTML page: When the course element is copied, the linked HTML document is also copied, provided it is not linked from a read-only resource folder (:octicons-tag-24: as of release 19.1.14)
 * Notification course element: Automatic subscription for course members only (exception: open courses without membership) (:octicons-tag-24: as of release 19.1.15)
 
 * * *
