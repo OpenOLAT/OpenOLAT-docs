@@ -5,6 +5,12 @@ In OpenOlat you are supported by AI at different points. To do this, the AI prov
 
 The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration and is configured by administrators and system administrators. Other roles do not reach the system administration. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
 
+!!! tip "Support by frentix"
+
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for connecting an AI provider. frentix supports the choice of provider and model, the API key and the operation of a self-hosted model. For systems with the fx-Release, these adjustments are made by frentix.
+
+    **Not a frentix hosting-client?** Please ask your local system operator!
+
 
 
 ## Configuration {: #config}

@@ -5,6 +5,12 @@ In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Dazu müs
 
 Das KI Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration und wird von Administrator:innen und Systemadministrator:innen konfiguriert. Andere Rollen erreichen die System-Administration nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
 
+!!! tip "Unterstützung durch frentix"
+
+    Kunden von frentix kontaktieren für die Anbindung eines KI Anbieters bitte [contact@frentix.com](mailto:contact@frentix.com). frentix unterstützt bei der Wahl von Anbieter und Modell, beim API Schlüssel und beim Betrieb eines selbst gehosteten Modells. Bei Systemen mit dem fx-Release werden diese Anpassungen durch frentix vorgenommen.
+
+    **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
+
 
 
 ## Konfiguration {: #config}
