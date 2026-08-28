@@ -1,12 +1,12 @@
-# E-Mail Einstellungen
+# E-Mail Einstellungen {: #email_settings}
 
 Die E-Mail Einstellungen liegen in der System-Administration unter: `Administration > Core Konfiguration > E-Mail`. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
 
-## E-Mail Adresse {: #email_address}
+## E-Mail Adresse [:octicons-tag-16:{ title="ab Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
-Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzenden gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung.
+Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzer:innen gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung.
 
-![Die Optionen Obligatorisch und Eindeutig steuern die E-Mail-Adresse der Konten, die Links darunter nennen die Anzahl der Konten ohne bzw. ohne eindeutige Adresse: Abschnitt E-Mail Adresse im Segment Einstellungen](assets/Email_DE.png){ class="shadow lightbox" }
+![Obligatorisch und Eindeutig ausgeschaltet, je ein Link zählt die betroffenen Konten: Abschnitt E-Mail Adresse](assets/Email_DE.png){ class="shadow lightbox" }
 
 ### Obligatorisch
 
@@ -46,15 +46,50 @@ Jede Person kann zudem in ihren persönlichen [Einstellungen](../../manual_user/
   * E-Mails an das interne OpenOlat Postfach zustellen
   * E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail-Adresse zustellen
 
+### Posteingang und Postausgang [:octicons-tag-16:{ title="ab Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
+
+Für den Posteingang und den Postausgang legen Sie getrennt fest, was eine Person über die weiteren Empfänger:innen einer E-Mail sieht. In beiden Bereichen stehen dieselben zwei Schalter zur Verfügung:
+
+  * "Namen der Empfänger anzeigen"
+  * "E-Mail Adressen anzeigen"
+
 ## E-Mail Vorlage {: #template}
 
 OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails
 attraktiver zu gestalten werden diese als HTML-Mails inklusive Formatierung versendet. Mit der E-Mail Vorlage passen Sie das allgemeine Aussehen der E-Mails an.
 
+Die E-Mail Vorlage gilt für alle E-Mails und steuert nur deren Aussehen, nicht deren Text. Den Text einer einzelnen E-Mail legen Sie dort fest, wo die E-Mail entsteht: [Texte einzelner E-Mails](#mail_texts).
+
 Die folgenden Variablen müssen in der Vorlage vorkommen:
 
-  *  **$content**: Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache des Empfängers angepasst.
-  *  **$footer**: Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache des Empfängers angepasst und kann mit dem Sprachanpassungswerkzeug für jede Sprache angepasst werden. (vgl. footer.no.userdata und footer.with.userdata aus dem Paket org.olat.core.util.mail)
+  *  **$content**: Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache der Empfänger:in angepasst.
+  *  **$footer**: Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und kann mit dem Sprachanpassungswerkzeug für jede Sprache angepasst werden. (vgl. footer.no.userdata und footer.with.userdata aus dem Paket org.olat.core.util.mail)
+
+### Texte einzelner E-Mails {: #mail_texts}
+
+Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text passen Sie in der jeweiligen Funktion an, nicht in der E-Mail Vorlage:
+
+  * [Erinnerungen im Kurs](../../manual_user/learningresources/Course_Reminders.de.md#text): Betreff und Mailtext jeder Erinnerung, mit eigenen Variablen.
+  * [Kursbaustein "E-Mail"](../../manual_user/learningresources/Course_Element_EMail.de.md): Betreff und Nachricht als Vorlage für die E-Mails, die der Kursbaustein versendet.
+  * [Kursbaustein "Test"](../../manual_user/learningresources/Course_Element_Test.de.md#tab_email_confirmation): Betreff und Mailtext der Bestätigung nach der Testabgabe, wahlweise aus der Vorlage oder als eigener Text.
+  * [Kursbaustein "Aufgabe"](../../manual_user/learningresources/Course_Element_Task.de.md#submission): vorformulierter Text der Bestätigung nach der endgültigen Abgabe, im Tab "Abgabe" anpassbar.
+  * [Korrektur-Workflow eines Tests](../../manual_user/learningresources/Test_settings.de.md#correction-workflow): Mailtext für die Benachrichtigung der Korrektor:innen, wahlweise als eigener Text oder aus einer Vorlage.
+  * [Zertifikatsprogramm](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_messages): Vorlagen der vorbereiteten Benachrichtigungen und der Erinnerungen zur Rezertifizierung, im Tab "Meldungen" anpassbar.
+  * [Mitgliederverwaltung](../../manual_user/learningresources/Members_management.de.md#add_members): Im letzten Schritt des Assistenten "Mitglieder hinzufügen" formulieren Sie die E-Mail an die neuen Mitglieder, ebenfalls mit Variablen.
+  * [e-Assessment Administration: Test](e-Assessment_Test.de.md#tab_correction-workflow): systemweit vorformulierte Mail-Vorlagen für die Akteure des Korrektur-Workflows, in mehreren Sprachen.
+  * [Lebenszyklen: Konto](Life_cycles_-_Administration.de.md#lifecycle_accounts): Benachrichtigungen vor und nach Kontoablauf, Deaktivierung und Löschung, je Schritt einzeln formulierbar.
+  * [Automatischer Gruppenlebenszyklus](Automatic_Group_Lifecycle.de.md): Benachrichtigungen vor und nach der Inaktivierung sowie vor und nach der Löschung einer Gruppe.
+
+### Texte der System-Mails {: #system_mails}
+
+Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Für diese System-Mails gibt es kein Textfeld in der Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
+
+Anpassen lässt sich der Text mit dem Sprachanpassungswerkzeug in der System-Administration unter:<br>
+`Administration > Customizing > Sprachanpassungswerkzeug`
+
+Die Anleitung [Wie verwende ich das Sprachanpassungswerkzeug?](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md) zeigt Schritt für Schritt, wie Sie die Variable zu einem Text finden und ihren Wert ändern.
+
+Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die Mailtexte verteilen sich über die Sprachpakete aller Funktionen, die E-Mails versenden. Wenn Sie die passende Variable nicht finden, wenden Sie sich an den Support Ihrer OpenOlat-Instanz. Dort erfahren Sie, in welchem Paket die Variable liegt und wie sie heisst.
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
@@ -67,23 +102,43 @@ Damit das Feld für die Signatur im Profil erscheint, aktivieren Sie das Attribu
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate1_v1_de.png" alt="Der Schalter in der Spalte Aktiv gibt das Attribut emailSignature systemweit frei: Tab Properties auf der Seite Benutzer:innen-Attribute im Menü Customizing" />
+	<img src="../assets/e-mail_settings_activate1_v1_de.png" alt="Spalte Aktiv gibt emailSignature systemweit frei: Tab Properties der Seite Benutzer:innen-Attribute" />
 </details>
 
 **Schritt 2: Tab "Contexts", Kontext "org.olat.user.ProfileFormController" bearbeiten**
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate2_v1_de.png" alt="Der Kontext org.olat.user.ProfileFormController steuert die Felder des persönlichen Profils, der Link Bearbeiten öffnet seine Attributliste: Tab Contexts auf der Seite Benutzer:innen-Attribute" />
+	<img src="../assets/e-mail_settings_activate2_v1_de.png" alt="Link Bearbeiten öffnet die Attributliste von org.olat.user.ProfileFormController: Tab Contexts der Seite Benutzer:innen-Attribute" />
 </details>
 
 Im Kontext schalten Sie für "emailSignature" die Spalte "Verwenden" ein. Erst damit steht das Feld im Profil zur Verfügung.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate3_v1_de.png" alt="Die Attributliste des Profil-Formulars führt emailSignature am Ende der ausgeschalteten Attribute, der Schalter in der Spalte Verwenden gibt das Attribut für das Profil frei: Dialog Context bearbeiten für org.olat.user.ProfileFormController" />
+	<img src="../assets/e-mail_settings_activate3_v1_de.png" alt="Spalte Verwenden gibt emailSignature für das persönliche Profil frei: Dialog Context bearbeiten" />
 </details>
 
 Die empfohlene Einstellung:
 
-![Für emailSignature ist nur die Spalte Verwenden eingeschaltet, Zwingend, Admin only und User readonly bleiben ausgeschaltet: Zeile des Attributs im Dialog Context bearbeiten](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
+![Nur Verwenden eingeschaltet, Zwingend, Admin only und User readonly aus: Zeile emailSignature im Dialog Context bearbeiten](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**
+[Persönliche Werkzeuge: E-Mail >](../../manual_user/personal_menu/E-Mail.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
+[Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
+[Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
+[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
+[e-Assessment Administration: Test >](e-Assessment_Test.de.md)<br>
+[Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
+[Automatischer Gruppenlebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
+[Wie verwende ich das Sprachanpassungswerkzeug? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md)<br>
+[Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile.de.md)
+
+[Zum Seitenanfang ^](#email_settings)
