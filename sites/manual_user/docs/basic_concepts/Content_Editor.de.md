@@ -340,7 +340,6 @@ Dieses Element existiert nicht im Formular Editor.
 
 Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
 
-
 [Zum Seitenanfang ^](#content_editor)
 
 ---
@@ -488,5 +487,10 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 [Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept.de.md)
+
+**Weiterführend**
+[Mit Tabellen arbeiten >](Table_Concept.de.md)<br>
+[Matheformel >](Math_formula.de.md)<br>
+[Barrierefreiheit: Grundsätze >](Accessibility_Principals.de.md)
 
 [Zum Seitenanfang ^](#content_editor)

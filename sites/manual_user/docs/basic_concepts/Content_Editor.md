@@ -477,4 +477,9 @@ Click the link to access the files in your Media Center. Here, you can select, c
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
 [Media Center Concept >](Media_Center_Concept.md)
 
+**Further reading**
+[Working with tables >](Table_Concept.md)<br>
+[Math formula >](Math_formula.md)<br>
+[Accessibility: Basic principals >](Accessibility_Principals.md)
+
 [To the top of the page ^](#content_editor)
