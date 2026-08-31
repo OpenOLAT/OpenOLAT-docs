@@ -1,6 +1,6 @@
 # Catalog 2.0 - Management {: #catalog_mgmt}
 
-## Kurzbeschreibung der Katalog-Verwaltung {: #description}
+## Short description of catalog management {: #description}
 
 Catalog V2 management is not a responsibility assigned to a specific role. Rather, it is a feature for editing the taxonomies used in the catalog. Users with this permission ("Managing" competence) can edit these taxonomies and parts of them without being an administrator.
 
@@ -12,7 +12,7 @@ In the catalog, authorized users will also find the following links in the top-r
 - **Catalog management**
 - **To the administration**
 
-![catalog20_mgmt_access_v1_de.png](assets/catalog20_mgmt_access_v1_de.png){ class="shadow lightbox" }
+![Highlighted links Catalog management and To the administration below the catalog header, in the Catalog menu](assets/catalog20_mgmt_access_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#catalog_mgmt)
 
@@ -21,13 +21,13 @@ In the catalog, authorized users will also find the following links in the top-r
 
 ## Who sees the access links in the catalog? {: #access_links}
 
-Click the **"Catalog Management"** link
+The **"Catalog management"** link is available to
 
 - Learning resource managers
 - Administrators
 - System administrators
 
-Click the **"Administration"** link
+The **"To the administration"** link is available to
 
 - System administrators
 
@@ -35,21 +35,22 @@ Click the **"Administration"** link
 
 ---
 
-## How do you obtain the right (authority) to manage the catalog? {: #competence}
+## How do you obtain the right (authority) to manage the catalog? [:octicons-tag-16:{ title="from Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544) {: #competence}
 
 The "Manage" permission (the right to edit the taxonomies used in the catalog) can be granted in two ways:
 
 **Option 1:**<br>
-By system administrators:<br>
-Administration > Modules > Taxonomy > Click "View/Edit" in a taxonomy that is enabled for the catalog > Select a taxonomy level > "Administration" tab > "Add administrator" button
+By system administrators in the system administration:<br>
+`Administration > Modules > Taxonomy > "Taxonomy title" > "Taxonomy level" > "Management" tab > "Add manager" button`<br>
+The taxonomy must be enabled for the catalog. Open it with "View/Edit".
 
 **Option 2:**<br>
-By user management:<br>
-User Management > Select a Person > Competencies tab > "Add 'Manage' competency" button
+By user managers:<br>
+`User management > "Person" > "Competencies" tab > "Add 'Manage' competency" button`
 
 Once the permission has been granted, the "Catalog Management" link will appear for that person in the upper-right corner, below the catalog header.
 
-!!! hint "Note"
+!!! info "Important"
 
     Catalog management is not limited to a specific organizational unit, although the role of Learning Resources Manager may be restricted to a specific organizational unit. (Taxonomies are also not limited to organizational units.)
 
@@ -57,20 +58,25 @@ Once the permission has been granted, the "Catalog Management" link will appear 
 
 ---
 
-## What operations are possible in catalog management? {: #functions}
+## Is it possible to edit learning resources in catalog management? {: #functions}
+
+The content of learning resources in the catalog is edited in the authoring area. You therefore edit courses [in the authoring area](../area_modules/Authoring.md). They are also deleted there, for example when they have ended.
 
 ### Tab Level  {: #tab_level}
 The editing options for the subject areas (taxonomy levels) include:
 
+- Edit
 - Move
+- Merge
+- Assign level type
 - Deleting elements of the taxonomy level / subtaxonomies
 - Creating new sub-layers
 
 Under the three dots to the right of the “Create New Taxonomy Level” button, you'll also find options to import taxonomy levels or export them all. The exported data can be downloaded as a ZIP archive, which contains an Excel spreadsheet showing the hierarchical structure of the taxonomy levels.
 
-![catalog20_mgmt_edit_v1_de.png](assets/catalog20_mgmt_edit_v1_de.png){ class="shadow lightbox" }
+![Levels tab with the actions Assign level type, Move, Merge, Delete and the row menu of a level](assets/catalog20_mgmt_edit_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Note"
+!!! info "Important"
 
     The design of launchers, sections, etc., is reserved for system administrators.
 
@@ -80,7 +86,7 @@ Under the three dots to the right of the “Create New Taxonomy Level” button,
 
 ### Tab Metadata {: #tab_metadata}
 
-![catalog20_mgmt_tab_metadata_v1_de.png](assets/catalog20_mgmt_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Metadata tab with ID, external ID, the required fields Identifier and Title and the description editor](assets/catalog20_mgmt_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 **ID:** The ID is generated automatically and allows the object to be uniquely identified.
 
@@ -99,9 +105,11 @@ Under the three dots to the right of the “Create New Taxonomy Level” button,
 
 ### Tab Level types {: #tab_leveltype}
 
-![catalog20_mgmt_tab_leveltype_v1_de.png](assets/catalog20_mgmt_tab_leveltype_v1_de.png){ class="shadow lightbox" }
+Use the "Create new level type" button to add another level type. The following fields are available in the edit dialog.
 
-![catalog20_mgmt_tab_leveltype_edit_v1_de.png](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
+![Level types tab with the list of level types and the Create new level type button](assets/catalog20_mgmt_tab_leveltype_v1_de.png){ class="shadow lightbox" }
+
+![Edit dialog of a level type with Identifier, Title, CSS class, Visible, Competencies and Coursework](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
 
 
 **Identifier:** In addition to the title, an identifier must be provided.
@@ -112,7 +120,7 @@ Under the three dots to the right of the “Create New Taxonomy Level” button,
 
 **Visible:** This setting determines whether all taxonomy levels of this type should be visible.
 
-**Competencies:** Users can be assigned competencies in the user management section. Selecting this option enables taxonomy levels of this type to be used as competencies.
+**Competencies:** Users can be assigned competencies in the user management section. Selecting this option enables taxonomy levels with this level type to be used as competencies.
 
 **Coursework:** Selecting this option enables taxonomy levels with this level type for grouping coursework.
 
@@ -125,11 +133,11 @@ Under the three dots to the right of the “Create New Taxonomy Level” button,
 ---
 
 
-### Tab Lost & Found {: #tab_lost_found}
+### Tab Lost+found {: #tab_lost_found}
 
-All elements from the "Layers" tab are stored here.
+This is where the documents of deleted taxonomy levels are stored. If you delete a level without merging it, OpenOlat copies its documents into a subfolder. The folder name consists of the identifier and the ID of the deleted level. If you merge the level with another level instead, the documents move to the target level.
 
-![catalog20_mgmt_tab_lost_found_v1_de.png](assets/catalog20_mgmt_tab_lost_found_v1_de.png){ class="shadow lightbox" }
+![Lost+found tab with the folders of deleted taxonomy levels and the views Folders, Files and Trash](assets/catalog20_mgmt_tab_lost_found_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#catalog_mgmt)
 
@@ -137,10 +145,12 @@ All elements from the "Layers" tab are stored here.
 
 ## Further information {: #further_information}
 
-[Taxonomy (admin manual) > ](../../manual_admin/administration/Modules_Taxonomy.md)<br>
+[Authoring >](../area_modules/Authoring.md)<br>
+[Taxonomy (admin manual) >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
+[How do I show my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>
 [Create offer >](../area_modules/catalog2.0_angebote.md)<br>
 [Catalog design >](../area_modules/catalog2.0_design.md)<br>
 [The web catalog >](../area_modules/catalog2.0_web.md)<br>
-[Set up catalog (admin manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md#config_web-catalog)<br>
+[Set up catalog (admin manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 
 [To the top of the page ^](#catalog_mgmt)
