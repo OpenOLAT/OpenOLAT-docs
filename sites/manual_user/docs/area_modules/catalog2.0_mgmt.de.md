@@ -118,10 +118,10 @@ Mit dem Button "Neuer Ebenentyp erstellen" legen Sie einen weiteren Ebenentyp an
 
 ![Tab Ebenentypen mit der Liste der Ebenentypen und dem Button Neuer Ebenentyp erstellen](assets/catalog20_mgmt_tab_leveltype_v1_de.png){ class="shadow lightbox" }
 
-![Dialog Bearbeiten eines Ebenentyps mit Identifier, Titel, CSS class, Sichtbar, Kompetenzen und Leistungsnachweisen](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
+![Dialog Bearbeiten eines Ebenentyps mit Kennzeichen, Titel, CSS class, Sichtbar, Kompetenzen und Leistungsnachweisen](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
 
 
-**Identifier:** Zusätzlich zum Titel muss ein Identifier angegeben werden.
+**Kennzeichen:** Zusätzlich zum Titel muss ein Kennzeichen angegeben werden.
 
 **Titel:** Formulieren Sie einen zutreffenden Titel zur Beschreibung des Ebenentyps.
 

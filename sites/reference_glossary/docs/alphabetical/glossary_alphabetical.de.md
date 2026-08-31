@@ -298,6 +298,10 @@ Lebenszyklusstatus einer Durchführung im Course Planner: Vorbereitung, Provisor
 
 Ein Kursbaustein, der einer Kursstruktur hinzugefügt werden kann.
 
+### Ebenentyp
+
+Klassifizierung einer Taxonomieebene. Der Ebenentyp legt fest, ob Ebenen dieses Typs sichtbar sind, als Kompetenz nutzbar sind und Leistungsnachweise gruppieren können.
+
 ### edu-sharing
 
 Integration des edu-sharing-Repository für Bildungsinhalte.
@@ -673,6 +677,10 @@ Ein Kursbaustein für Live-Video-Streaming.
 ### Lizenzen
 
 Verwaltung von Inhaltslizenzen für Lernressourcen.
+
+### Lost+found
+
+Ablage einer Taxonomie, in der die Dokumente gelöschter Taxonomieebenen liegen.
 
 ### LTI
 

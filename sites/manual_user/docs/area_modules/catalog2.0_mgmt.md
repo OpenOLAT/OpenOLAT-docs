@@ -86,13 +86,13 @@ Under the three dots to the right of the “Create New Taxonomy Level” button,
 
 ### Tab Metadata {: #tab_metadata}
 
-![Metadata tab with ID, external ID, the required fields Identifier and Title and the description editor](assets/catalog20_mgmt_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Metadata tab with ID, external ID, the required fields Reference and Title and the description editor](assets/catalog20_mgmt_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 **ID:** The ID is generated automatically and allows the object to be uniquely identified.
 
 **External ID:** If an external management system created the levels, the external ID is generated in addition to the automatically generated ID.
 
-**Identifier:** (Required field) Select a unique and logical identifier for the taxonomy level. This identifier appears in the “Taxonomy” tab of the table, in the "Level Type" column, and is more practical for many purposes than the full title (which may be more understandable and colloquial).
+**Reference:** (Required field) Select a unique and logical reference for the taxonomy level. This reference appears in the “Taxonomy” tab of the table, in the "Level type" column, and is more practical for many purposes than the full title (which may be more understandable and colloquial).
 
 **Title:** (Required field) The title is used in various places (Catalog 2.0, Document Pool, e-Portfolio, Question Pool). It should provide a brief and accurate description of the taxonomy level.
 
@@ -109,10 +109,10 @@ Use the "Create new level type" button to add another level type. The following 
 
 ![Level types tab with the list of level types and the Create new level type button](assets/catalog20_mgmt_tab_leveltype_v1_de.png){ class="shadow lightbox" }
 
-![Edit dialog of a level type with Identifier, Title, CSS class, Visible, Competencies and Coursework](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
+![Edit dialog of a level type with Reference, Title, CSS class, Visible, Competences and Evidence of achievement](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
 
 
-**Identifier:** In addition to the title, an identifier must be provided.
+**Reference:** In addition to the title, a reference must be provided.
 
 **Title:** Enter an appropriate title to describe the layer type.
 
@@ -120,9 +120,9 @@ Use the "Create new level type" button to add another level type. The following 
 
 **Visible:** This setting determines whether all taxonomy levels of this type should be visible.
 
-**Competencies:** Users can be assigned competencies in the user management section. Selecting this option enables taxonomy levels with this level type to be used as competencies.
+**Competences:** Users can be assigned competences in the user management section. Selecting this option enables taxonomy levels with this level type to be used as competences.
 
-**Coursework:** Selecting this option enables taxonomy levels with this level type for grouping coursework.
+**Evidence of achievement:** Selecting this option enables taxonomy levels with this level type for grouping evidence of achievements.
 
 **Description:** A more detailed description of the layer type is optional.
 

@@ -688,6 +688,14 @@ Model answers or reference solutions provided within a Task course element.
 
 Internal file management area within a course for storing course files.
 
+### Level type
+
+Classification of a taxonomy level. The level type defines whether levels of this type are visible, can be used as a competence and can group evidence of achievements.
+
+### Lost+found
+
+Storage area of a taxonomy holding the documents of deleted taxonomy levels.
+
 ### Subject
 
 A taxonomy-based classification term assigned to a learning resource to enable catalog filtering and grouping in taxonomy launchers.

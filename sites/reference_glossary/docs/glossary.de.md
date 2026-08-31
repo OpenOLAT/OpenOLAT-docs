@@ -692,6 +692,14 @@ Interner Dateiverwaltungsbereich innerhalb eines Kurses zur Speicherung von Kurs
 
 Ein taxonomiebasierter Klassifizierungsbegriff, der einer Lernressource zugewiesen wird, um die Katalogfilterung und Gruppierung in Taxonomie-Launchern zu ermöglichen.
 
+### Ebenentyp
+
+Klassifizierung einer Taxonomieebene. Der Ebenentyp legt fest, ob Ebenen dieses Typs sichtbar sind, als Kompetenz nutzbar sind und Leistungsnachweise gruppieren können.
+
+### Lost+found
+
+Ablage einer Taxonomie, in der die Dokumente gelöschter Taxonomieebenen liegen.
+
 ### Teaser
 
 Ein kurzer Vorschautext für platzsparende Ankündigungen, derzeit nur für Kurse verfügbar.

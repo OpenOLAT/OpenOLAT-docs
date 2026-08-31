@@ -650,6 +650,10 @@ A schedulable teaching unit within the Events/Absences module, comprising 1 to 1
 
 A reference letter written by a referee named by the applicant.
 
+### Level type
+
+Classification of a taxonomy level. The level type defines whether levels of this type are visible, can be used as a competence and can group evidence of achievements.
+
 ### Levels/Grading
 
 Configuration of grading scales and performance levels.
@@ -677,6 +681,10 @@ A course element (building block) that can be added to a course structure.
 ### Live stream
 
 A course element for live video streaming.
+
+### Lost+found
+
+Storage area of a taxonomy holding the documents of deleted taxonomy levels.
 
 ### LTI
 
