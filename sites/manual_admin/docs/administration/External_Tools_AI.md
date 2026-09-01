@@ -107,6 +107,8 @@ The AI integration is configured individually for each feature, with the availab
 * Essay Question Generator (creation of open-text questions with grading criteria)
 * Essay Grading (formative AI feedback on open-text answers), used in the question pool and in the [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
+The benefit of these features for authors and the places where they take effect are shown in the concept study [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md).
+
 ![Taxonomy Matching and Image Description Generator with provider, model and the limit fields. Tab AI features, top.](assets/admin_external_tools_ai_functions_v2_en.png){ class="shadow lightbox" }
 
 Copy a subject-specific text into the designated input field. OpenOlat will then automatically generate multiple-choice questions with answer options, as well as pre-fill a range of metadata for each question item (keywords, topic, and taxonomy).
@@ -262,6 +264,7 @@ taxonomy.matching.passage.prefix=
 ## Further information {: #further_information}
 
 [External Tools: Overview >](External_Tools_-_Administration.md)<br>
+[AI features: Application map (concept study) >](../../manual_user/area_modules/AI_Features_Map.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>

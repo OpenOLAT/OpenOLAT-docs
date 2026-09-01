@@ -111,6 +111,8 @@ Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die
 * Essay Fragen Generator (Erstellung von Freitextfragen samt Bewertungskriterien)
 * Essay Bewertung (formatives KI-Feedback zu Freitextantworten), genutzt im Fragenpool und im [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
+Welchen Nutzen diese Funktionen für Autor:innen haben und an welchen Orten sie wirken, zeigt die Konzeptstudie [KI Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md).
+
 ![Taxonomie-Zuordnung und Bildbeschreibungs-Generator mit Anbieter, Modell und Limit-Feldern. Tab KI Funktionen, oben.](assets/admin_external_tools_ai_functions_v2_de.png){ class="shadow lightbox" }
 
 Kopieren Sie einen Fachtext in das vorgesehene Eingabefeld. Direkt in OpenOlat werden dann z.B. Multiple-Choice-Fragen mit Antwortmöglichkeiten erstellt, sowie eine Reihe von Metadaten zu den einzelnen Frage-Items (Schlagworte, Thema und Taxonomie) vorausgefüllt.
@@ -267,6 +269,7 @@ taxonomy.matching.passage.prefix=
 ## Weiterführende Informationen {: #further_information}
 
 [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md)<br>
+[KI Funktionen: Anwendungsmap (Konzeptstudie) >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)<br>
