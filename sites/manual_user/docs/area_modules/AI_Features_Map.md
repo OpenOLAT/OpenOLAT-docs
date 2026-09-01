@@ -65,10 +65,10 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 </g></a>
 
 <!-- Card 4: taxonomy -->
-<a href="../../../manual_admin/administration/Modules_Taxonomy/"><title>Module Taxonomy</title><g>
+<a href="../../basic_concepts/Media_Center_Items/#metadata_ai"><title>Example in the Media Center: assignment on image upload</title><g>
 <rect class="card" x="530" y="280" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="530" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
-<text x="558" y="310" class="place">MODULE TAXONOMY</text>
+<text x="558" y="310" class="place">TAXONOMY</text>
 <text x="558" y="342" class="out">Assignment to the subject area</text>
 <text x="558" y="372" class="body">The AI assigns a text to the matching taxonomy</text>
 <text x="558" y="395" class="body">level via an embedding model. This applies to</text>

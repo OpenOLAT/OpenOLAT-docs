@@ -65,10 +65,10 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 </g></a>
 
 <!-- Karte 4: Taxonomie -->
-<a href="../../../manual_admin/administration/Modules_Taxonomy/"><title>Modul Taxonomie</title><g>
+<a href="../../basic_concepts/Media_Center_Items/#metadata_ai"><title>Beispiel im Media Center: Zuordnung beim Bildupload</title><g>
 <rect class="card" x="530" y="280" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="530" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
-<text x="558" y="310" class="place">MODUL TAXONOMIE</text>
+<text x="558" y="310" class="place">TAXONOMIE</text>
 <text x="558" y="342" class="out">Zuordnung zum Fachbereich</text>
 <text x="558" y="372" class="body">Die KI ordnet einen Text der passenden Taxonomie-</text>
 <text x="558" y="395" class="body">Ebene zu, per Einbettungsmodell. Das greift bei der</text>
