@@ -38,9 +38,7 @@ In OpenOlat bezieht sich der Begriff "KI Anbieter" auf den Dienstleister, dessen
 
 Aktivieren und konfigurieren Sie die verschiedenen KI Anbieter, die Sie verwenden möchten mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
 
-!!! info "Wichtig"
-
-    Als Betreiberin der Plattform sind Sie verpflichtet, Ihre Benutzer:innen auf die Verwendung eines KI Services hinzuweisen. Der Tab "KI-Anbieter" zeigt diesen Hinweis ebenfalls an.
+Als Betreiberin der Plattform sind Sie verpflichtet, Ihre Benutzer:innen auf die Verwendung eines KI Services hinzuweisen.
 
 !!! warning "Achtung"
 
@@ -51,6 +49,8 @@ Für jeden konfigurierten KI Anbieter stehen folgende Aktionen zur Verfügung:
 * **Toggle "Aktivieren"**: Der Anbieter kann vorübergehend deaktiviert und wieder aktiviert werden. Die Konfiguration bleibt dabei erhalten.
 * **Button "API Schlüssel prüfen"**: Der hinterlegte Schlüssel wird direkt beim Anbieter validiert. Bei Erfolg wird die Anzahl der verfügbaren Modelle angezeigt, im Fehlerfall die Fehlermeldung des Anbieters. Beim generischen KI Anbieter heisst der Button "Verbindung prüfen".
 * **Button "Konfiguration löschen"**: Entfernt den Anbieter inklusive API Schlüssel und aller Konfigurationen.
+
+![Der eingerichtete Anbieter zeigt den Toggle Aktivieren auf EIN, den hinterlegten API Schlüssel und die drei Aktionen. Tab KI-Anbieter.](assets/admin_external_tools_ai_provider_config_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Beachten Sie:"
 
@@ -79,7 +79,14 @@ In diesem Abschnitt können Sie einen generischen OpenAI-kompatiblen KI Anbieter
 * NeuralMagic
 * ...
 
-Zur weiteren Spezifizierung geben Sie in einer Liste die auf diesem Server verfügbaren Modellnamen an.
+Dafür stehen folgende Felder zur Verfügung:
+
+* **"Anbietername"**: der Name, unter dem der Anbieter in den KI Funktionen zur Auswahl steht.
+* **"Basis URL"**: die Adresse der OpenAI-kompatiblen Schnittstelle, zum Beispiel `https://mein-server:8000/v1/`.
+* **"API Schlüssel (optional)"**: nur nötig, wenn der Server eine Authentifizierung verlangt.
+* **"Verfügbare Modelle"**: komma-getrennte Liste der Modellnamen auf diesem Server. Nötig, wenn die Modelle nicht automatisch erkennbar sind.
+
+Mit dem **Button "Verbindung prüfen"** testen Sie die Erreichbarkeit des Servers.
 
 [Zum Seitenanfang ^](#ai)
 
@@ -111,10 +118,10 @@ Kopieren Sie einen Fachtext in das vorgesehene Eingabefeld. Direkt in OpenOlat w
 Zu jeder Funktion kann unter dem Link "Test ausführen" ein KI-generiertes Muster angesehen werden.
 
 **Beispiel MC Fragen Generator:**<br>
-![Zum eingegebenen Fachtext erzeugt die KI Titel, Thema, Schlagwörter, Frage und Antworten. Dialog Test ausführen.](assets/admin_external_tools_ai_functions_MC_v1_de.png){ class="shadow lightbox" }
+![Zum Eingabetext erzeugt die KI Titel, Thema, Schlüsselwörter, Frage sowie richtige und falsche Antworten mit Begründung. Dialog MC Fragen Generator Test.](assets/admin_external_tools_ai_functions_MC_v1_de.png){ class="shadow lightbox" }
 
 **Beispiel Bildbeschreibungs-Generator:**<br>
-![Zum eingegebenen Bild erzeugt die KI Titel, Beschreibung, Alt-Text und Schlagwörter. Dialog Test ausführen.](assets/admin_external_tools_ai_functions_image_description_v1_de.png){ class="shadow lightbox" }
+![Zum Eingabebild erzeugt die KI Titel, Beschreibung, Alt-Text und mehrere Tags. Dialog Bildbeschreibungs-Generator Test.](assets/admin_external_tools_ai_functions_image_description_v1_de.png){ class="shadow lightbox" }
 
 
 #### Limits pro Funktion [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}

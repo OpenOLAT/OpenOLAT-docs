@@ -37,9 +37,7 @@ In OpenOlat, the term "AI provider" refers to the service provider whose AI mode
 
 Enable and configure the various AI providers you want to use by clicking the **"Add AI Provider" button** in the upper-right corner.
 
-!!! info "Important"
-
-    As the operator of the platform you are legally obliged to inform your users about the usage of an AI service. The "AI providers" tab displays this notice as well.
+As the operator of the platform you are legally obliged to inform your users about the usage of an AI service.
 
 !!! warning "Attention"
 
@@ -78,7 +76,14 @@ In this section, you can configure a generic OpenAI-compatible AI provider, such
 * NeuralMagic
 * ...
 
-For further specification, list the model names available on this server.
+The following fields are available:
+
+* **"Provider name"**: the name under which the provider is offered for selection in the AI features.
+* **"Base URL"**: the address of the OpenAI-compatible interface, for example `https://my-server:8000/v1/`.
+* **"API Key (optional)"**: only needed if the server requires authentication.
+* **"Available models"**: comma-separated list of the model names on this server. Needed if the models are not auto-detectable.
+
+Use the **"Check connection" button** to test whether the server can be reached.
 
 [To the top of the page ^](#ai)
 
@@ -109,10 +114,10 @@ Copy a subject-specific text into the designated input field. OpenOlat will then
 For each feature, you can view an AI-generated sample by clicking the "Run test" link.
 
 **Example MC Question Generator:**<br>
-![From the subject text entered, the AI generates title, topic, keywords, question and answers. Run test dialogue.](assets/admin_external_tools_ai_functions_MC_v1_de.png){ class="shadow lightbox" }
+![From the input text the AI generates title, topic, keywords, question and correct and wrong answers. MC Question Generator Test dialogue.](assets/admin_external_tools_ai_functions_MC_v1_en.png){ class="shadow lightbox" }
 
 **Example Image Description Generator:**<br>
-![From the image entered, the AI generates a title, description, alt text and keywords. Run test dialogue.](assets/admin_external_tools_ai_functions_image_description_v1_de.png){ class="shadow lightbox" }
+![From the input image the AI generates title, description, alt text and several tags. Image Description Generator Test dialogue.](assets/admin_external_tools_ai_functions_image_description_v1_en.png){ class="shadow lightbox" }
 
 
 #### Limits per feature [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}
