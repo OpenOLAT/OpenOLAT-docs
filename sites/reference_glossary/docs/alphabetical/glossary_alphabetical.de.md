@@ -1038,6 +1038,10 @@ KI Funktion, die einen Text per Einbettungsmodell der passenden Taxonomie-Ebene 
 
 Ein kurzer Vorschautext für platzsparende Ankündigungen, derzeit nur für Kurse verfügbar.
 
+### Teilnehmendenkennung
+
+Ein zufällig erzeugter Code aus zwei Blöcken mit je drei Grossbuchstaben, zum Beispiel "ABC-DEF". OpenOlat vergibt die Kennung je Person und Kursbaustein. Bei der anonymen Test-Korrektur erscheint sie anstelle der persönlichen Angaben, in der Korrekturliste ebenso wie im PDF einer Freitextantwort.
+
 ### Teilnehmer:in
 
 Eine Lernende Person, die in einem Kurs oder einer Gruppe eingeschrieben ist.

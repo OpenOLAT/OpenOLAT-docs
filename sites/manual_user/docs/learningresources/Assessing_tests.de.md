@@ -100,6 +100,12 @@ Abschliessend speichern Sie die Eingaben und können zum nächsten Benutzer wech
 
     Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test, damit eine eindeutige Zuordnung möglich ist. Wird der Test anonym korrigiert, werden die persönlichen Angaben der Teilnehmenden weggelassen und stattdessen die "Teilnehmendenkennung" angezeigt.
 
+    Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) für externe Korrektor:innen.
+
+!!! info "Voraussetzung"
+
+    Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
+
 ### b) Manuelle Bewertung pro Benutzer - Tab Benutzer
 
 Wählen Sie den gewünschten Test in der linken Navigation aus und klicken Sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 

@@ -50,6 +50,12 @@ Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vo
 
 Über den Link "Korrigieren" gelangen Sie direkt zum zu korrigierenden Test und nehmen dort manuelle Bewertungen vor. Automatische Bewertungen können Sie überschreiben. Hinterlassen Sie dazu einen Kommentar.
 
+Bei Freitextfragen laden Sie die Antwort einer Person über den Button "Als PDF herunterladen" oben rechts als PDF herunter. Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test. Bei anonymer Korrektur erscheint anstelle der persönlichen Angaben die "Teilnehmendenkennung". Alle Antworten einer Frage auf einmal laden Sie im [Korrekturwerkzeug des Kurses](../learningresources/Assessing_tests.de.md) herunter.
+
+!!! info "Voraussetzung"
+
+    Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
+
 Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [Auftragsverwaltung](Coaching_Order_Management.de.md).
 
 [Zum Seitenanfang ^](#assessment_orders)
@@ -69,5 +75,6 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 
 [Zum Seitenanfang ^](#assessment_orders)

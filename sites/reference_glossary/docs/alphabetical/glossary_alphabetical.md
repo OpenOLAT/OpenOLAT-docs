@@ -806,6 +806,10 @@ A learner enrolled in a course or group.
 
 A course element (building block) that can be added to a course structure.
 
+### Participant identifier
+
+A randomly generated code of two blocks with three capital letters each, for example "ABC-DEF". OpenOlat assigns the identifier per person and course element. In anonymous test correction it appears instead of the personal details, both in the correction list and in the PDF of an essay answer.
+
 ### Participant list
 
 A course element (building block) that can be added to a course structure.

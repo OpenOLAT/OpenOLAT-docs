@@ -640,6 +640,10 @@ Eine externe Kennung für eine Lernressource, z.B. aus einem Kurskatalog oder Vo
 
 Eine Aufgabe, die einem Korrektor zur manuellen Benotung einer bestimmten Testabgabe zugewiesen wird. Abgeschlossene Korrekturaufträge werden zusätzlich dauerhaft protokolliert und im Excel-Report im Worksheet "Archive" ausgewiesen, damit die für die Vergütung relevanten Angaben (Korrekturzeit, Abschlussdatum) erhalten bleiben, auch wenn der Auftrag selbst gelöscht wird.
 
+### Teilnehmendenkennung
+
+Ein zufällig erzeugter Code aus zwei Blöcken mit je drei Grossbuchstaben, zum Beispiel "ABC-DEF". OpenOlat vergibt die Kennung je Person und Kursbaustein. Bei der anonymen Test-Korrektur erscheint sie anstelle der persönlichen Angaben, in der Korrekturliste ebenso wie im PDF einer Freitextantwort.
+
 ### Launcher
 
 Ein konfigurierbarer Abschnitt im Katalog 2.0, der Kursangebote dynamisch zusammenstellt und anzeigt.

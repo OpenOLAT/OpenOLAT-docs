@@ -640,6 +640,10 @@ An identifier for a learning resource, e.g. from a course catalog or lecture dir
 
 A task assigned to a corrector to manually grade a specific test submission. Completed grading assignments are additionally logged permanently and listed in the "Archive" worksheet of the Excel report, so that the data relevant for remuneration (grading time, completion date) is retained even if the assignment itself is deleted.
 
+### Participant identifier
+
+A randomly generated code of two blocks with three capital letters each, for example "ABC-DEF". OpenOlat assigns the identifier per person and course element. In anonymous test correction it appears instead of the personal details, both in the correction list and in the PDF of an essay answer.
+
 ### Launcher
 
 A configurable section in Catalog 2.0 that dynamically assembles and displays course offerings.
