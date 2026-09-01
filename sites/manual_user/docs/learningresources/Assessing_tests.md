@@ -1,4 +1,4 @@
-# Assessing tests
+# Assessing tests {: #assessing_tests}
 
 Here you will learn how to make assessments for tests using the OpenOlat "Assessment tool".
 
@@ -86,28 +86,19 @@ Sort the test items (questions) for the "Manual" or "Not corrected" column to ge
 
 Then click on the question title of the item to be corrected and you will get to the evaluation form. Here they can now leave points and comments and if necessary also "Mark for review" the correction. For items that can be evaluated automatically, you can also display the solutions or overwrite the points.
 
-Multiple graders can make assessments for a test at the same time. If a question is already being edited by a corrector, it is automatically blocked for others. In the administration it is possible to define for this correction process whether the users should be listed anonymously (user 1, user 2, ...).
+Multiple graders can make assessments for a test at the same time. If a question is already being edited by a corrector, it is automatically blocked for others. In the administration it is possible to define for this correction process whether the participants are listed anonymously. The participant identifier then appears instead of the name.
 
-Finally, you save the entries and can switch to the next user or go back to the item overview of the correction tool and select the next item.
+Finally, you save the entries and can switch to the next person or go back to the item overview of the correction tool and select the next item.
 
-!!! note "Downloading essay question answers as PDF"
-
-    The answers to essay questions can be downloaded as PDF:
-
-    * **Single answer**: In the correction tool, open a person's answer to an essay question. Use the "Download as PDF" button at the top right to download this single answer as a PDF.
-    * **All answers to a question**: In the "Questions" tab, you will find a menu with three dots at the end of an essay question's row. Via "Download as PDF files for all participants" you receive a zip file with one PDF per participant.
-
-    The PDF contains information about the course, course element and test in the header so that it can be clearly assigned. If the test is corrected anonymously, the participants' personal details are omitted and the "Participant identifier" is shown instead.
-
-### b) Manual assessment per user - Tab User
+### b) Manual assessment per person - Tab Participants
 
 Select the desired test in the left navigation and click on "Correction tool". An overview of all questions of the test with the evaluation status appears.
 
-![Korrekturwerkzeug_Tab_Benutzer](assets/Test_Tab_Benutzer.png)
+![Tab Participants in the correction tool: The list shows the assessment status of the selected test per person.](assets/Test_Tab_Benutzer.png){ class="shadow lightbox" }
 
-In the Users tab, you can see an (anonymized) overview of the users to be evaluated as well as their current evaluation status for the selected test.
+In the Participants tab, you can see an (anonymized) overview of the persons to be evaluated as well as their current evaluation status for the selected test.
 
-Select one or the first user here and you will get to the assessment overview of this person for a test. Here you select the desired question and make the assessment in the assessment tool (see a)). Then select the next user until all evaluations have been completed.
+Select the first person here and you will get to the assessment overview of this person for a test. Here you select the desired question and make the assessment in the assessment tool (see a)). Then select the next person until all evaluations have been completed.
 
 ### c) Manual assessment of a user
 
@@ -118,6 +109,24 @@ Activate the tab "User" in the left navigation. Now directly select the person y
 ![Action to correct test](assets/Test_korrigieren.png){ class="shadow lightbox" }
 
 One lands again in the test item overview with all questions of the test and can get an overview of the processing status and make the evaluations (see a).
+
+### Downloading essay answers as PDF
+
+You can download answers to essay questions as PDF, either one by one or all at once. For a single answer, open a person's answer to an essay question in the correction tool. Use the "Download as PDF" button at the top right to download this answer as a PDF.
+
+![Answer to an essay question in the correction tool: The "Download as PDF" button is at the top right, with anonymous correction the participant identifier appears instead of the name.](assets/assessing_tests_essay_pdf_button_v1_en.png){ class="shadow lightbox" }
+
+For all answers to a question, open the menu with three dots at the end of the row in the "Questions" tab. Via "Download as PDF files for all participants" you receive a zip file with one PDF per participant.
+
+![Tab "Questions" in the correction tool: The menu with three dots at the end of an essay question's row contains the action "Download as PDF files for all participants".](assets/assessing_tests_essay_pdf_menu_v1_en.png){ class="shadow lightbox" }
+
+The PDF contains information about the course, course element and test in the header so that it can be clearly assigned. If the test is corrected anonymously, the participants' personal details are omitted and the "Participant identifier" is shown instead.
+
+The download is available in the correction tool of a course and in the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) for external correctors.
+
+!!! tip "Prerequisite"
+
+    The download requires a [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) configured in the administration.
 
 ### Invalidate or cancel tests
 
@@ -139,3 +148,15 @@ The preview shows the user perspective and in the tab "Reminders", there is the 
 (see also [Reminder](Course_Reminders.md)). The tab "Communication" is intended for communication during an ongoing test, e.g. in the context of online exams.
 
 ![Test overview for coaches](assets/Test_kursrun.jpg){ class="shadow lightbox" }
+
+---
+
+## Further information {: #further_information}
+
+[Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Course Reminders >](Course_Reminders.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course Element "Test" >](Course_Element_Test.md)
+
+[To the top of the page ^](#assessing_tests)

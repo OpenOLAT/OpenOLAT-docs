@@ -1,10 +1,10 @@
-# Tests bewerten
+# Tests bewerten {: #assessing_tests}
 
 Hier erfahren Sie, wie man Bewertungen für Tests mit Hilfe des OpenOlat "Bewertungswerkzeugs" vornimmt.
 
 Gehen Sie in das Bewertungswerkzeug und wählen Sie in der linken Übersicht, die die Kursstruktur widerspiegelt, den Test aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: Übersicht und Teilnehmer. 
 
-Im Tab Übersicht erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. Im Tab Teilnehmer werden die Kursteilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.  
+Im Tab Übersicht erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. Im Tab Teilnehmer werden die Teilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.  
 
 ## Tab Teilnehmer
 
@@ -66,8 +66,8 @@ c) Bewertung einer einzelnen Person
 
 !!! note "Hinweis"
 
-    Für die Bewertung von a) und b) nutzen Sie den Button "Korrekturwerkzeug". 
- 
+    Für die Bewertung von a) und b) nutzen Sie den Button "Korrekturwerkzeug".
+
 
 ### a) Manuelle Bewertung pro Test-Item - Tab Fragen
 
@@ -87,34 +87,19 @@ Sortieren Sie die Test-Items (Fragen) für die Spalte "Manuell" oder "Nicht korr
 Klicken Sie dann auf den Fragentitel des zu korrigierenden Items und Sie gelangen in das Bewertungsformular. Hier können sie nun Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". 
 Für automatisiert auswertbare Items können Sie sich auch die Lösungen anzeigen lassen oder die Punkte überschreiben. 
 
-Mehrere Korrektoren können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine/n Korrektor:In bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der Administration kann für diesen Korrekturprozess festgelegt werden, ob die Benutzer dabei anonym (Benutzer 1, Benutzer 2, ...) aufgeführt werden sollen.
+Mehrere Korrektoren können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine/n Korrektor:In bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der Administration kann für diesen Korrekturprozess festgelegt werden, ob die Teilnehmenden dabei anonym aufgeführt werden. Statt des Namens erscheint dann die Teilnehmendenkennung.
 
-Abschliessend speichern Sie die Eingaben und können zum nächsten Benutzer wechseln oder zurück in die Itemübersicht des Korrekturwerkzeug gehen und das nächste Item auswählen.
+Abschliessend speichern Sie die Eingaben und können zur nächsten Person wechseln oder zurück in die Itemübersicht des Korrekturwerkzeug gehen und das nächste Item auswählen.
 
-!!! note "Freitextfragen als PDF herunterladen"
-
-    Bei Freitextfragen können die Antworten als PDF heruntergeladen werden:
-
-    * **Einzelne Antwort**: Öffnen Sie im Korrekturwerkzeug die Antwort einer Person auf eine Freitextfrage. Über den Button "Als PDF herunterladen" oben rechts laden Sie diese einzelne Antwort als PDF herunter.
-    * **Alle Antworten einer Frage**: Im Tab "Fragen" finden Sie am Ende der Zeile einer Freitextfrage ein Menü mit drei Punkten. Über "Als PDF-Dateien für alle Teilnehmer:innen herunterladen" erhalten Sie eine zip-Datei mit je einem PDF pro Teilnehmer:in.
-
-    Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test, damit eine eindeutige Zuordnung möglich ist. Wird der Test anonym korrigiert, werden die persönlichen Angaben der Teilnehmenden weggelassen und stattdessen die "Teilnehmendenkennung" angezeigt.
-
-    Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) für externe Korrektor:innen.
-
-!!! info "Voraussetzung"
-
-    Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
-
-### b) Manuelle Bewertung pro Benutzer - Tab Benutzer
+### b) Manuelle Bewertung pro Person - Tab Teilnehmer:innen
 
 Wählen Sie den gewünschten Test in der linken Navigation aus und klicken Sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
 
-![Korrekturwerkzeug_Tab_Benutzer](assets/Test_Tab_Benutzer.png)
+![Tab Teilnehmer:innen im Korrekturwerkzeug: Die Liste zeigt je Person den Bewertungsstand des gewählten Tests.](assets/Test_Tab_Benutzer.png){ class="shadow lightbox" }
 
-Im Tab Benutzer sehen Sie eine (anonymisierte) Übersicht der zu bewertenden Benutzer sowie deren aktuellen Bewertungsstand für den gewählten Test. 
+Im Tab Teilnehmer:innen sehen Sie eine (anonymisierte) Übersicht der zu bewertenden Personen sowie deren aktuellen Bewertungsstand für den gewählten Test.
 
-Wählen Sie hier einen bzw. den ersten Benutzer aus und Sie gelangen in die Bewertungsübersicht dieser Person für einen Test. Hier wählen Sie die gewünschte Frage aus und nehmen die Bewertung im Bewertungswerkzeug vor (siehe a)). Anschliessend den nächsten Benutzer wählen bis alle Bewertungen erledigt wurden.
+Wählen Sie hier die erste Person aus und Sie gelangen in die Bewertungsübersicht dieser Person für einen Test. Hier wählen Sie die gewünschte Frage aus und nehmen die Bewertung im Bewertungswerkzeug vor (siehe a)). Anschliessend wählen Sie die nächste Person, bis alle Bewertungen erledigt sind.
 
 
 ### c) Manuelle Bewertung ausgehend von einer einzelnen Person
@@ -126,6 +111,25 @@ Wählen Sie den gewünschten Test in der linken Navigation aus und wählen Sie d
 ![Test korrigieren](assets/Test_korrigieren.png){ class="shadow lightbox" }
 
 Man landet wieder in der Test-Item Übersicht mit allen Fragen des Tests und kann sich einen Überblick über den Bearbeitungsstand verschaffen und die Bewertungen vornehmen (siehe a).
+
+
+### Freitextantworten als PDF herunterladen
+
+Antworten auf Freitextfragen können Sie als PDF herunterladen, einzeln oder gesammelt. Für eine einzelne Antwort öffnen Sie im Korrekturwerkzeug die Antwort einer Person auf eine Freitextfrage. Über den Button "Als PDF herunterladen" oben rechts laden Sie diese Antwort als PDF herunter.
+
+![Antwort auf eine Freitextfrage im Korrekturwerkzeug: Der Button "Als PDF herunterladen" steht oben rechts, bei anonymer Korrektur erscheint statt des Namens die Teilnehmendenkennung.](assets/assessing_tests_essay_pdf_button_v1_de.png){ class="shadow lightbox" }
+
+Für alle Antworten einer Frage öffnen Sie im Tab "Fragen" das Menü mit drei Punkten am Ende der Zeile. Über "Als PDF-Dateien für alle Teilnehmer:innen herunterladen" erhalten Sie eine zip-Datei mit je einem PDF pro Teilnehmer:in.
+
+![Tab "Fragen" im Korrekturwerkzeug: Das Menü mit drei Punkten am Ende der Zeile einer Freitextfrage enthält die Aktion "Als PDF-Dateien für alle Teilnehmer:innen herunterladen".](assets/assessing_tests_essay_pdf_menu_v1_de.png){ class="shadow lightbox" }
+
+Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test, damit eine eindeutige Zuordnung möglich ist. Wird der Test anonym korrigiert, werden die persönlichen Angaben der Teilnehmenden weggelassen und stattdessen die "Teilnehmendenkennung" angezeigt.
+
+Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) für externe Korrektor:innen.
+
+!!! tip "Voraussetzung"
+
+    Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
 
 
 ## Tests zurücksetzen oder annullieren
@@ -148,3 +152,15 @@ Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun
 Die Vorschau zeigt die User-Perspektive an und im Tab "Erinnerungen" besteht die Möglichkeit eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim bestehen/nicht bestehen zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)). Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht.
 
 ![Test Übersicht für Betreuer](assets/Test_Kursrun_172.png){ class="shadow lightbox" }
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Erinnerungen >](Course_Reminders.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test.de.md)
+
+[Zum Seitenanfang ^](#assessing_tests)

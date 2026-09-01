@@ -1,13 +1,13 @@
 # Coaching - Bewertungsaufträge {: #assessment_orders}
 
-![Startseite Coaching mit den Bereichen Coaching, Aufgaben und Administration: Der markierte Eintrag "Bewertungsaufträge" unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
+![Startseite Coaching: Der Eintrag "Bewertungsaufträge" unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
 
 
 Hier sehen Sie, an welchen Stellen noch konkrete Coaching Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen, bzw. ob diese noch freigegeben werden müssen.
 
 Je nach Rolle, sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen angezeigt und Sie können sich einen Überblick verschaffen.
 
-![Tab Offene Bewertungen der Bewertungsaufträge: Die Liste zeigt je Zeile Anmeldename, Name, Kursname, Baustein, letzte Aktualisierung und den Link "Bewerten", filterbar über "Alle" und "Mir zugewiesen".](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
+![Tab Offene Bewertungen: Die Liste zeigt Anmeldename, Name, Kurs, Baustein, letzte Aktualisierung und den Link "Bewerten".](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -44,7 +44,7 @@ In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf
 
 Dieser Tab erscheint nur, wenn Sie als Korrektor:in für einen Test eingetragen wurden. Sie sehen eine Übersicht der Tests in den verschiedenen Kursen, die Sie noch manuell prüfen und korrigieren müssen. Je nach Einstellung in der Lernressource "Test" erfolgt die Bewertung anonym oder nicht.
 
-![Tab Korrekturaufträge im Bereich Bewertungsaufträge des Coaching: Der Abschnitt "Meine Zuweisungen" filtert nach Kurs, Test, Status, Korrekturzeitraum und Punkten, die Liste zeigt Frist, Kurs, Kursbaustein und den Link "Korrigieren".](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
+![Tab Korrekturaufträge: Die Liste zeigt Frist, Kurs, Kursbaustein und den Link "Korrigieren", filterbar nach Kurs, Test, Status und Korrekturzeitraum.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
 
 Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen Sie in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
 
@@ -52,7 +52,7 @@ Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vo
 
 Bei Freitextfragen laden Sie die Antwort einer Person über den Button "Als PDF herunterladen" oben rechts als PDF herunter. Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test. Bei anonymer Korrektur erscheint anstelle der persönlichen Angaben die "Teilnehmendenkennung". Alle Antworten einer Frage auf einmal laden Sie im [Korrekturwerkzeug des Kurses](../learningresources/Assessing_tests.de.md) herunter.
 
-!!! info "Voraussetzung"
+!!! tip "Voraussetzung"
 
     Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
 
