@@ -52,17 +52,27 @@ Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrekth
 
 ## KI-Bewertung einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
-Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Reiter "KI-Feedback" der Frage von Hand anpassen.
+Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Reiter "KI-Feedback" der Frage von Hand anpassen. Der Reiter erscheint auch bei einer selbst erstellten Freitextfrage. So bauen Sie das Bewertungskit von Anfang an selbst auf.
 
 Folgende Angaben stehen zur Verfügung:
 
-* **"Musterantwort"**: die erwartete Referenzantwort.
+* **"Lernziel"**: das Lernziel, das die Frage prüft. Pflichtfeld.
+* **"Quelltext-Auszug"**: der Fachtext, auf den sich die Frage bezieht. Pflichtfeld.
+* **"Musterantwort"**: die erwartete Referenzantwort. Pflichtfeld.
+* **"Korrekturhinweise"**: zusätzliche Vorgaben an die KI.
+* **"Bloom-Stufe"** und **"Sprache (BCP-47)"**: die kognitive Stufe der Frage und die Sprache des Feedbacks. Beides Pflichtfelder.
+* **"Schwierigkeitsgrad"**: ein Wert von 1 bis 5 zur weiteren Steuerung.
 * **"Schlüsselpunkte"**: die abzudeckenden Kernaspekte, je mit einer Beschreibung und einem Gewicht von 0.0 bis 1.0.
 * **"Bewertungskriterien"**: benannte Kriterien mit "Name", "Beschreibung", einem "Bereich" ("Inhalt" oder "Sprache") und einem Gewicht.
 * **"Häufige Missverständnisse"**: typische Fehlannahmen, die im Feedback berücksichtigt werden.
-* **"Korrekturhinweise"** sowie ein "Schwierigkeitsgrad" von 1 bis 5 und eine "Bloom-Stufe" zur weiteren Steuerung.
+
+Sind bei den Schlüsselpunkten oder den Bewertungskriterien Zeilen ausgefüllt, muss die Summe aller Gewichte 1.0 ergeben.
 
 Mit dem Button **"Feedback testen"** geben Sie eine Beispielantwort ein und sehen in der Vorschau, welches KI-Feedback Lernende erhalten würden. So lässt sich das Bewertungskit vor dem Einsatz feinjustieren.
+
+!!! info "Wo Lernende das KI-Feedback erhalten"
+
+    Das Bewertungskit wirkt ausschliesslich im [Quiz-Element einer Seite](../basic_concepts/Content_Editor.de.md#ai_feedback). Fügen Sie die Freitextfrage dort über das 3-Punkte-Menü des Quiz-Elements mit "Fragen aus Pool importieren" ein. In den Kursbausteinen "Test" und "Selbsttest" wird das Bewertungskit nicht ausgeführt. Dort bleibt die Freitextantwort der manuellen Korrektur im Bewertungswerkzeug vorbehalten.
 
 [Zum Seitenanfang ^](#create_questions)
 

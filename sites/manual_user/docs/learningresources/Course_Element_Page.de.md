@@ -69,6 +69,7 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
 * **Inhaltsverzeichnis:** Listet die Titel der Seite als anklickbare Sprungmarken auf [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}
+* **Quiz:** Bindet Quizfragen in die Seite ein, neu erstellt oder aus dem Fragenpool importiert [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. Bei Freitextfragen erhalten Lernende hier ein [KI-Feedback zu ihrer Antwort](../basic_concepts/Content_Editor.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
 
 ### Bestehende Inhalte aus Markdown oder Word importieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 

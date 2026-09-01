@@ -52,17 +52,27 @@ Please note that the questions must be checked for correctness in each individua
 
 ## Edit the AI grading of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
-For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab.
+For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start.
 
 The following entries are available:
 
-* **"Model answer"**: the expected reference answer.
+* **"Learning objective"**: the learning objective the question tests. Mandatory field.
+* **"Reference excerpt"**: the subject text the question refers to. Mandatory field.
+* **"Model answer"**: the expected reference answer. Mandatory field.
+* **"Grading hints"**: additional instructions for the AI.
+* **"Bloom level"** and **"Language (BCP-47)"**: the cognitive level of the question and the language of the feedback. Both are mandatory fields.
+* **"Difficulty"**: a value from 1 to 5 for further control.
 * **"Key points"**: the core aspects to cover, each with a description and a weight from 0.0 to 1.0.
 * **"Rubric criteria"**: named criteria with "Name", "Descriptor", a "Scope" ("Content" or "Language") and a weight.
 * **"Common misconceptions"**: typical false assumptions that are taken into account in the feedback.
-* **"Grading hints"** as well as a "Difficulty" from 1 to 5 and a "Bloom level" for further control.
+
+If rows are filled in under the key points or the rubric criteria, the sum of all weights must be 1.0.
 
 With the **"Test feedback"** button you enter a sample answer and see in the preview which AI feedback learners would receive. This lets you fine-tune the grading kit before use.
+
+!!! info "Where learners receive the AI feedback"
+
+    The grading kit only takes effect in the [quiz element of a page](../basic_concepts/Content_Editor.md#ai_feedback). Add the essay question there with "Import questions from pool" in the 3-dot menu of the quiz element. In the course elements "Test" and "Self-test" the grading kit is not executed. There the essay answer remains subject to manual correction in the assessment tool.
 
 [To the top of the page ^](#create_questions)
 

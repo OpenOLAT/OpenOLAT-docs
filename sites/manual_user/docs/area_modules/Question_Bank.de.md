@@ -55,6 +55,8 @@ Listen, Pools und Gruppen können durch die Administration deaktiviert werden un
 
 Im Unterschied zum Abschnitt "**Meine Fragen**" werden hier **alle** Fragen des Pools aufgelistet, auf die Sie Zugriffsberechtigung haben. Also auch Fragen, die von anderen Autor:innen erstellt und freigegeben wurden.
 
+Fragen können auch [mit Hilfe von KI erstellt](Question_Bank_Create_Questions.de.md#create_with_AI) werden, als Multiple-Choice-Fragen und als Freitextfragen mit KI-Korrektur.
+
 
 
 

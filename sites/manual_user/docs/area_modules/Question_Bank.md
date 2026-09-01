@@ -55,6 +55,8 @@ Lists, pools and groups can be deactivated by the administration and may therefo
 
 In contrast to the "**My questions**" section, **all** questions in the pool to which you have access authorization are listed here. This includes questions that have been created and released by other authors.
 
+Questions can also be [created with the help of AI](Question_Bank_Create_Questions.md#create_with_AI), as multiple-choice questions and as essay questions with AI correction.
+
 
 
 
