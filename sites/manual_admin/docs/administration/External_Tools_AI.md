@@ -12,7 +12,6 @@ The AI module is part of the external tools, see [External Tools: Overview >](Ex
     **Not a frentix hosting-client?** Please ask your local system operator!
 
 
-
 ## Configuration {: #config}
 
 The AI module settings are located in the system administration under:<br>
@@ -49,16 +48,10 @@ The following actions are available for each configured AI provider:
 * **"Check API key" button**: The stored key is validated directly with the provider. On success, the number of available models is displayed; in case of an error, the provider's error message is shown. For the generic AI provider the button is called "Check connection".
 * **"Delete configuration" button**: Removes the provider including the API key and all configurations.
 
-!!! note "Please note:"
-
-    On the one hand, integrating many different AI providers allows users to leverage each provider's specific strengths. On the other hand, AI models train themselves and take previous dialogues into account. If tasks are distributed and assigned to many different AI providers, none of the models has access to the complete history of the dialogues.
-
-
 
 **Anthropic Claude**
 
 If you want to use Anthropic Claude's AI models, you can enter your API key here. Please note that using the Anthropic Claude service may incur charges on your Anthropic account.
-
 
 
 **OpenAI**

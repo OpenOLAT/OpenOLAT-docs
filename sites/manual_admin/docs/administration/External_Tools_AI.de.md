@@ -12,7 +12,6 @@ Das KI Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersic
     **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 
 
-
 ## Konfiguration {: #config}
 
 Die Einstellungen des KI Moduls finden Sie in der System-Administration unter:<br>
@@ -52,16 +51,10 @@ Für jeden konfigurierten KI Anbieter stehen folgende Aktionen zur Verfügung:
 
 ![Der eingerichtete Anbieter zeigt den Toggle Aktivieren auf EIN, den hinterlegten API Schlüssel und die drei Aktionen. Tab KI-Anbieter.](assets/admin_external_tools_ai_provider_config_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Beachten Sie:"
-
-    Einerseits erlaubt das Einbinden vieler verschiedener KI Anbieter die Nutzung der jeweiligen Stärken eines Anbieters. Andererseits trainieren KI-Modelle sich selbst und berücksichtigen vorhergehende Dialoge. Werden Aufgaben an viele verschiedene KI Anbieter verteilt und vergeben, hat keines der Modelle die Dialoge gesamthaft zur Verfügung.
-
-
 
 **Anthropic Claude**
 
 Wenn Sie die KI-Modelle von Anthropic Claude benutzen wollen, können Sie hier Ihren API Schlüssel hinterlegen. Bitte beachten Sie, dass die Verwendung des Anthropic Claude Dienstes Kosten in Ihrem Anthropic Konto verursachen kann.
-
 
 
 **OpenAI**
