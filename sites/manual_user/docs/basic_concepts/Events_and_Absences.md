@@ -1,17 +1,17 @@
 # Events and Absences {: #events_and_absences}
 
-## What types of events are there in OpenOlat?
+## What types of events are there in OpenOlat? {: #event_types}
 
 There are basically two types of events in OpenOlat:
 
-- Basic events (without the option to record absences)
+- Basic events (entries in calendars)
 - Events with additional options: They appear in [Courses](../learningresources/Events_and_absences.md), in the [Course Planner](../area_modules/Course_Planner.md), and in [Absence Management](../area_modules/Absence_Management.md).
 These events can be linked to online meetings, and it is possible to record absences. Coaches can also be scheduled for these events. (Note: Only coaches can be designated as teachers.)<br>
-Events with additional options can have the status “Scheduled,” “Completed,” or “Canceled.”<br>
+Events with additional options can have the status "Scheduled", "Running", "Done" or "Cancelled".<br>
 If you do not have the necessary permissions, your view of events may be restricted. 
 
 
-|                           | Basic event | Event with absence |
+|                           | Basic event | Event with additional options |
 | ------------------------- |:-----------------:|:--------------------:|
 |[Events in courses](../learningresources/Events_and_absences.md#edit_events)|   |x|
 |[Events in course element appointment scheduling](../learningresources/Course_Element_Appointment_Scheduling.md)|   |x|
@@ -20,7 +20,7 @@ If you do not have the necessary permissions, your view of events may be restric
 |[Events in Projects](../area_modules/Project_Schedule.md)| x |  | 
 |[Events in (Project) To-dos](../area_modules/Project_Schedule.md)| x |  | 
 |[Events in Personal Menu](../personal_menu/To-Dos.md)| x | x | 
-|[Events in Calendars](../personal_menu/Calendar.md#create_entry)| x | x | 
+|[Events in Calendars](../personal_menu/Calendar.md#create_entry)| x |  | 
 |[Events in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.md#tab_online-meetings)| x |  | 
 |[Events in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
 
@@ -41,13 +41,19 @@ The visibility of events generally depends on
 
 ---
 
-### Where are the appointments with additional options displayed? {: #event_display}
+### Where are the events with additional options displayed? {: #event_display}
 
-Participants can view their appointments in the **Course Tools** under the “Events” icon.
+Participants can view their events in the **Toolbar** of the course under the "Events" icon. They only see their own events and cannot record absences.
 
 Events are also displayed on the various **dashboards** of the coaches.
 
 **Event widgets** are available on the overview pages, such as those in the Coaching Tool and the Course Planner.
+
+Which information an event list contains depends on the area:
+
+- In the **Course Planner** the list serves the planning. There is no absence management there.
+- In the **Coaching Tool** coaches see the events of all their courses and also record the absences there.
+- In the **Toolbar of a course** participants only see their own events with the information relevant to them.
 
 [To the top of the page ^](#events_and_absences)
 
@@ -57,9 +63,14 @@ Events are also displayed on the various **dashboards** of the coaches.
 
 Events with additional options (e.g., in the Course Planner or Coaching Tool) have one of the following status values:
 
-- Planned
+- Scheduled
+- Running
 - Done
 - Cancelled
+
+The next upcoming event carries the label "Scheduled next" instead of "Scheduled".
+
+In the event lists, the status is shown in the "Status" column.
 
 [To the top of the page ^](#events_and_absences)
 
@@ -117,24 +128,25 @@ Participants have the opportunity to appeal against a decision made by coaches, 
 
 A distinction must be made between
 
-1. the **general activation and configuration** of absence management by administrators at:<br>
-   **Administration > Module > Events and absences**<br>
+1. the **general activation and configuration** of absence management by administrators in the system administration at:<br>
+   `Administration > Module > Events and absences`<br>
    [More about that >](../../manual_admin/administration/Modules_Events_and_Absences.md)
 
 
 2. the **configuration** of absence management in a **course**<br>
-    **Administration > Settings > Tab "Implementations" > Section "Configuration event and absence mnagement in course"**<br>
+    The configuration of the event and absence management for a specific course is done by the course owners in the course administration:<br>
+    `Course > Administration > Settings > Tab "Execution" > Section "Configuration event and absence management in course"`<br>
     [More about that >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
 
 
 3. the **recording and management** of absences in a **course** by **course owners**<br>
     Recording and administration is carried out in Run Mode (i.e., at runtime, not in the editor) by course owners at:<br>
-    **Administration > Events and absences > Tab Members**<br>
+    `Course > Administration > Events and absences > Tab "Participants"`<br>
     [More about that >](../learningresources/Events_and_absences.md)
 
 4. the **recording and management** of absences in a **course** by **coaches**<br>
     Recording and administration by coaches takes place at:<br>
-    **Toolbar > Events**<br>
+    `Toolbar > Events`<br>
     [More about that >](../learningresources/Toolbar_Events.md)
 
 5. the overview of **personal absences**<br>
@@ -142,16 +154,16 @@ A distinction must be made between
     [More about that >](../personal_menu/Absences.md)
 
 
-6.  the **cross-course absence recording** by coachess<br>
+6.  the **cross-course absence recording** by coaches<br>
     Coaches can find the option to record absences in various courses in the<br>
-    **Coaching tool > Button "Events/Absences"**.<br>
+    `Coaching tool > Button "Events/Absences"`<br>
     [More about that >](../area_modules/Coaching.md)
 
 
 7. **cross-course absence management** by authorized persons with the role of absence administrator:.<br>
     Administration includes, for example, processing exemptions and appeals. This administrative task goes beyond simple data entry and is therefore assigned to a separate role. Authorized users can find the tools in the<br>
-   **Header menu: Absence management**<br>
-   [Mehr dazu >](../area_modules/Absence_Management.md)
+   `Header menu > Absence management`<br>
+   [More about that >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#events_and_absences)
 
@@ -161,7 +173,7 @@ A distinction must be made between
 ## Further information {: #further_information}
 
 [Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
+[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md)<br>
 [Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
 [Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
 [Personal absences >](../personal_menu/Absences.md)<br>

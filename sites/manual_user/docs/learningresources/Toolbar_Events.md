@@ -1,87 +1,94 @@
 # Toolbar: Events {: #toolbar_events}
 
 
-The "Dates" icon is automatically displayed if dates and absences have been activated in the course.<br>
-(Administration > Settings > Implementation)
+The "Events" icon is displayed automatically if events and absences have been activated in the course.<br>
+`Course > Administration > Settings > Execution`
 
-It is then available to participants, coaches, and owners of the course. However, depending on the role and the associated rights, different options are displayed. 
+It is then available to participants, coaches, and owners of the course. However, depending on the role and the associated rights, different options are displayed.
 
 ## Call as participant {: #call_as_participant}
 
-![toolbar_events_participant1_v1_de.png](assets/toolbar_events_participant1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" in the toolbar of a course from the participants' view](assets/toolbar_events_participant1_v1_de.png){ class="shadow lightbox"}
 
-Participants will only see the dates for informational purposes.
+Participants only see the events for informational purposes. They only see their own events and only the information relevant to them. They cannot record absences here.
 
-![toolbar_events_participant2_v1_de.png](assets/toolbar_events_participant2_v1_de.png){ class="shadow lightbox"}
+You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming" and "Past". Use the two symbols above the list on the right to switch between the timeline and the table view.
+
+![Event list of a course from the participants' view with tabs, filters and status labels](assets/toolbar_events_participant2_v1_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#toolbar_events)
 
 ---
 
-## Call es coach {: #call_as_coach}
+## Call as coach {: #call_as_coach}
 
-When coaches click on the "Appointments" icon in the toolbar, they can **record and manage** appointments and absences. 
+When coaches click the "Events" icon in the toolbar, they can **record and manage** events and absences.
 
-![toolbar_events_coach1_v1_de.png](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" and role selection in the toolbar from the coaches' view](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox"}
 
-Unlike owners, only two tabs are displayed in the administrator role.
+Unlike owners, coaches only see two tabs.
 
-![toolbar_events_coach2_v1_de.png](assets/toolbar_events_coach2_v1_de.png){ class="shadow lightbox"}
+![Event list of a course from the coaches' view with tabs, filters and table view](assets/toolbar_events_coach2_v1_de.png){ class="shadow lightbox"}
+
+
 
 ### Record absences {: #record_absences}
 
-Once an appointment has ended, you as the caregiver will be notified that absences still need to be recorded. You can use the link in the notification or click on the book icon in the row of an appointment.
+Once an event has ended, you as the coach are notified that absences still need to be recorded. You can use the link in the notification or click the book icon in the row of an event.
 
-![toolbar_events_coach_record_absences1_v1_de.png](assets/toolbar_events_coach_record_absences1_v1_de.png){ class="shadow lightbox"}
+![Note about open absences and the book icon for recording in the event list](assets/toolbar_events_coach_record_absences1_v1_de.png){ class="shadow lightbox"}
 
-The appointments are divided into units (e.g., an appointment from 8:00 a.m. to 12:00 p.m. in 4 units of one hour each). You can record absences for each individual unit.
-Indicate whether the absence is excused and add a comment. There is also an additional comment field for the entire appointment for each participant.
+The events are divided into units (e.g., an event from 8:00 a.m. to 12:00 p.m. in 4 units of one hour each). You can record the absences for each individual unit.
+Indicate whether the absence is excused and add a comment. There is also an additional comment field for the entire event for each participant.
 
-![toolbar_events_coach_record_absences2_v1_de.png](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox"}
+![Form for recording the absences per unit with comment fields](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox"}
 
-If you want to complete the recording of absences at a later time, you can temporarily save your entries using the button at the bottom of the screen.
+If you want to complete the recording of absences at a later time, you can temporarily save your entries using the button at the bottom of the list.
 
 
 ### Close events {: #close_events}
 
-Once you have finished recording absences, proceed as follows:
+Once the recording of absences can be finalized, proceed as follows:
 
-1. Click icon "Events" in the toolbar
-2. Select tab "Events"
-3. Click on the book icon for the relevant appointment in the list (edit absence)
-    (only possible if appointment has already started or been completed)
-4. Click on the button "Close event" at the bottom of the list
-5. A pop-up window will open where you can finalize the absence entry.
+1. Click the icon "Events" in the toolbar
+2. Select the tab "Events"
+3. Click the book icon for the relevant event in the list (edit absence)
+    (only possible if the event has already started or is done)
+4. Click the button "Close events" at the bottom of the list
+5. A pop-up window opens where you can finalize the absence entry.
 
-![toolbar_events_coach_close_event_v1_de.png](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox"}
+![Dialogue for closing an event with effective units and a remark](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox"}
+
 
 
 ### Cancel events {: #cancel_events}
 
-As a coach, you can cancel a current event by
+As a coach, you can cancel a running event by
 
-1. Click on the "Events" icon in the toolbar.
-2. Select the tab "Events"
-3. Click on the book icon for the relevant event in the list (edit absence)
-    (only possible if event has already been started)
-4. Click on the button "Cancel event" at the bottom of the list
+1. clicking the icon "Events" in the toolbar
+2. selecting the tab "Events"
+3. clicking the book icon for the relevant event in the list (edit absence)
+    (only possible if the event has already started)
+4. clicking the button "Cancel events" at the bottom of the list
 
 
 ### Create and export lists {: #lists_and_export}
 
-Under the three dots at the end of a line, you will find options for creating lists and exporting the appointment as a zip file.
-You can import events exported in this way back into OpenOlat [import](../learningresources/Events_and_absences.md#import_events).
+Under the three dots at the end of a row, you find options for creating lists and for exporting the event as a zip file.<br>
+You can [import](../learningresources/Events_and_absences.md#import_events) events exported this way back into OpenOlat elsewhere.
 
-![toolbar_events_coach_lists_and_export_v1_de.png](assets/toolbar_events_coach_lists_and_export_v1_de.png){ class="shadow lightbox"}
+![Menu at the end of the row with absence list, attendance list, log and export](assets/toolbar_events_coach_lists_and_export_v1_de.png){ class="shadow lightbox"}
+
 
 
 ### Appeals {: #appeals}
 
-If appeals have been submitted for any incorrectly recorded absences, you can get an overview under this tab. Filters help you when there are a large number of appeals.
+If appeals have been submitted for absences that were possibly recorded incorrectly, you can get an overview under this tab. Filters help you when there is a large number of appeals.
 
-![toolbar_events_coach_tab_appeals_v1_de.png](assets/toolbar_events_coach_tab_appeals_v1_de.png){ class="shadow lightbox" }
+![Tab "Appeals" with the filter for pending, accepted and rejected appeals](assets/toolbar_events_coach_tab_appeals_v1_de.png){ class="shadow lightbox" }
 
-Appeals are usually processed by absence administrators, who can access all appeals across courses in the central [cross-course absence management system](../area_modules/Absence_Management.md).
+Appeals are usually processed by absence administrators, who can access all appeals across courses in the central [cross-course absence management](../area_modules/Absence_Management.md).
+
 
 [To the top of the page ^](#toolbar_events)
 
@@ -90,12 +97,13 @@ Appeals are usually processed by absence administrators, who can access all appe
 
 ## Call as owner {: #call_as_owner}
 
-Course owners also have access to the icon. This opens the screen for **recording and managing** appointments and absences, which is largely the same as the recording and management options under **Administration > Appointments and Absences**.<br>
-See [Recording and managing absences in a course by course owners:](../learningresources/Events_and_absences.md)<br>
+Course owners also have access to the icon. For them, the screen for **recording and managing** events and absences opens, which largely corresponds to the recording and management under `Course > Administration > Events and absences`.<br>
+See [Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
 
-Technically speaking, runtime data is recorded in these two screens, in contrast to [configuration](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management).
+Technically speaking, runtime data is recorded in these two screens, in contrast to the [configuration](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management).
 
-![toolbar_events_owner1_v1_de.png](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" in the toolbar from the course owners' view](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox"}
+
 
 [To the top of the page ^](#toolbar_events)
 
@@ -104,15 +112,14 @@ Technically speaking, runtime data is recorded in these two screens, in contrast
 
 ## Further information {: #further_information}
 
-[Toolbar Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar overview >](../learningresources/Toolbar.md)<br>
 
 [Basic concept: Events and absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
-[Recording and managing absences in a course by course owners: >](../learningresources/Events_and_absences.md)<br>
+[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md)<br>
+[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
 [Personal absences >](../personal_menu/Absences.md)<br>
-[Cross-course absence tracking in the coaching tool >](../area_modules/Coaching.md)<br>
+[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
 [Cross-course absence management by absence administrators >](../area_modules/Absence_Management.md)<br>
 
 [To the top of the page ^](#toolbar_events)
-

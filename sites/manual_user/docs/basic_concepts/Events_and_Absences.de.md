@@ -45,11 +45,17 @@ Die Sichtbarkeit von Terminen hängt generell davon ab,
 
 ### Wo werden die Termine mit Zusatzoptionen angezeigt? {: #event_display}
 
-Teilnehmer:innen erhalten eine Sicht auf ihre Termine in den **Kurswerkzeugen** unter einem Icon "Termine".
+Teilnehmer:innen erhalten eine Sicht auf ihre Termine in der **Toolbar** des Kurses unter dem Icon "Termine". Sie sehen dort nur ihre eigenen Termine und können keine Absenzen erfassen.
 
 Auch auf den verschiedenen **Dashboards** der Betreuer:innen werden Termine angezeigt.
 
-Auf den Übersichtsseiten z.B. des Coaching-Tools und dem Course Planner stehen **Termin-Widgets** zur Verfügung. 
+Auf den Übersichtsseiten z.B. des Coaching-Tools und dem Course Planner stehen **Termin-Widgets** zur Verfügung.
+
+Welche Angaben eine Terminliste enthält, hängt vom Bereich ab:
+
+- Im **Course Planner** dient die Liste der Planung. Ein Absenzenmanagement gibt es dort nicht.
+- Im **Coaching-Tool** sehen Betreuer:innen die Termine aller ihrer Kurse und erfassen dort auch die Absenzen.
+- In der **Toolbar eines Kurses** sehen Teilnehmer:innen nur ihre eigenen Termine mit den für sie relevanten Angaben.
 
 [Zum Seitenanfang ^](#events_and_absences)
 
@@ -60,8 +66,13 @@ Auf den Übersichtsseiten z.B. des Coaching-Tools und dem Course Planner stehen 
 Termine mit Zusatzoptionen (z.B. im Course Planner oder Coaching Tool) haben einen der folgenden Status-Werte:
 
 - Geplant
+- Am laufen
 - Erledigt
 - Abgesagt
+
+Der jeweils nächste anstehende Termin trägt statt "Geplant" das Label "Als nächstes geplant".
+
+In den Terminlisten steht der Status in der Spalte "Status".
 
 [Zum Seitenanfang ^](#events_and_absences)
 
@@ -162,10 +173,10 @@ Es ist zu unterscheiden zwischen
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
+[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
