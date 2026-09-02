@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 19.08.2026**
+:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 02.09.2026**
 
 * * *
 
@@ -44,9 +44,17 @@ Mit OpenOlat **Release 21.0** wird der Einstieg für Lernen und Betreuen/Coachin
 
 !!! tip "Ab Release 21.0.0"
 
-    * [x] Coaching Tool automatisch aktiviert (- siehe `Administration > e-Assessment > Coaching`)
-    * [x] Berechtigungen für Coaching Site setzen unter `Administration > Customizing > Sites`
+    * [x] Coaching Tool automatisch aktiviert: `Administration > e-Assessment > Coaching`
+    * [x] Berechtigungen für Coaching Site auf "Registrierte Konten ohne Gäste/externe Benutzer*innen" setzen: `Administration > Customizing > Sites`
     * [x] Aktivierung zusätzlicher Hinweis im Bereich "Kurse": `Administration > Module > Lernressource > Zugang`
+
+    Extra-Tipp:
+
+    * [x] Startseite(n) rollenbasiert konfigurieren: `Administration > Core Konfiguration > Startseite`(Reihenfolge beachten, der erste Match greift)
+        * Kursplaner:innen -> /CurriculumAdmin/0  (falls CoursePlanner aktiviert)
+        * Autor:innen -> /RepositorySite/0  (oder auch die CoachSite)
+        * Kursbetreuer:innen -> /CoachSite/0
+        * Zusätzlich: /Catalog/0 oder /MyCoursesSite/0 (je nach Setup)
 
 * * *
 
@@ -298,6 +306,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.3&title=Release%20Notes%2021.0.3){:target="_blank"}
 * [YouTrack Release Notes 21.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.2&title=Release%20Notes%2021.0.2){:target="_blank"}
 * [YouTrack Release Notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
 * [YouTrack Release Notes 21.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.0&title=Release%20Notes%2021.0.0){:target="_blank"}

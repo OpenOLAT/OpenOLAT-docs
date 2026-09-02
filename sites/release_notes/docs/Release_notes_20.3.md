@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 08/19/2026**
+:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 09/02/2026**
 
 * * *
 
@@ -237,6 +237,7 @@ The transition of background images on the login page has been completely redesi
 
 ## Further information
 
+- [YouTrack Release notes 20.3.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.9&title=Release%20Notes%2020.3.9){:target="_blank"}
 - [YouTrack Release notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}

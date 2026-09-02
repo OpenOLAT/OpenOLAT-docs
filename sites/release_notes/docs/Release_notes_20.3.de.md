@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 19.08.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 02.09.2026**
 
 * * *
 
@@ -238,6 +238,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.9&title=Release%20Notes%2020.3.9){:target="_blank"}
 - [YouTrack Release Notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release Notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
 - [YouTrack Release Notes 20.3.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.6&title=Release%20Notes%2020.3.6){:target="_blank"}

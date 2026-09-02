@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 08/19/2026**
+:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 09/02/2026**
 
 * * *
 
@@ -44,9 +44,17 @@ With OpenOlat **Release 21.0**, the entry point for learning and supervising/coa
 
 !!! tip "From Release 21.0.0"
 
-    * [x] Coaching Tool activated automatically (- see `Administration > e-Assessment > Coaching`)
-    * [x] Set permissions for the Coaching site under `Administration > Customizing > Sites`
+    * [x] Coaching Tool activated automatically: `Administration > e-Assessment > Coaching`
+    * [x] Set permissions for the Coaching site to "Registered users without guests/external users": `Administration > Customizing > Sites`
     * [x] Activate additional note in the "Courses" area: `Administration > Modules > Learning resource > Access`
+
+    Bonus Tip:
+
+    * [x] Configure Landing page(s) based on roles: `Administration > Core functions > Landing Pages` (pay attention to the order; the first match applies)
+        * Course planners -> /CurriculumAdmin/0  (if CoursePlanner is enabled)
+        * Authors -> /RepositorySite/0  (or the CoachSite)
+        * Course Coaches -> /CoachSite/0
+        * Additionally: /Catalog/0 or /MyCoursesSite/0 (depending on the setup)
 
 * * *
 
@@ -298,6 +306,7 @@ The prerequisite is a valid email address on the account as well as a functional
 
 ## Further information
 
+* [YouTrack Release notes 21.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.3&title=Release%20Notes%2021.0.3){:target="_blank"}
 * [YouTrack Release notes 21.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.2&title=Release%20Notes%2021.0.2){:target="_blank"}
 * [YouTrack Release notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
 * [YouTrack Release notes 21.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.0&title=Release%20Notes%2021.0.0){:target="_blank"}
