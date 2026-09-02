@@ -1,8 +1,8 @@
 # Automatischer Gruppenlebenszyklus
 
-Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen.
+Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Stationen: Erstellung, aktiv, Inaktivierung, Löschung als Markierung und endgültige Löschung.
 
-![Der Gruppenlebenszyklus durchläuft fünf Stationen: Erstellung der Gruppe, Gruppe aktiv, Inaktivierung, Löschung als Markierung und endgültige Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
+![Fünf Stationen des Gruppenlebenszyklus, von der Erstellung bis zur endgültigen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
 
 
 !!! note "Hinweis"
@@ -15,7 +15,7 @@ Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer best
 
 Berechtigte Personen (Gruppenverwalter:innen, Administrator:innen) erhalten bei Klick auf "Gruppen" in der Hauptnavigation ein zusätzliches Tab "**Gruppenverwaltung**".
 
-![Tab Gruppenverwaltung im Bereich Gruppen: die drei Stufen aktive, inaktive und gelöschte Gruppen zeigen ihre Fristen, die Filter darunter trennen aktive Gruppen von solchen zur Inaktivierung oder innerhalb der Reaktionsfrist](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
+![Drei Statuspfeile mit ihren Fristen und die Filterzeile darunter, Tab Gruppenverwaltung im Bereich Gruppen](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
 
 Durch Klick auf einen der 3 Pfeile (Phasen/Status) werden alle vorhandenen Gruppen sortiert in 3 Kategorien aufgelistet:
 
@@ -23,9 +23,9 @@ Durch Klick auf einen der 3 Pfeile (Phasen/Status) werden alle vorhandenen Grupp
 * II. Inaktive Gruppen
 * III. Gelöschte Gruppen
 
-Unterhalb der Pfeile besteht die Möglichkeit die Listen weiter einzugrenzen (z.B. Aktive Gruppen - Innerhalb Reaktionsfrist). 
+Unterhalb der Pfeile grenzen Filter die Liste weiter ein, bei aktiven Gruppen zum Beispiel "Länger ohne Aktivität", "Zu inaktivieren" oder "Innerhalb Reaktionsfrist".
 
-Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die von dem/der Administrator:in für diese Phase eingerichtet wurde.
+Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die von der Administrator:in für diese Phase eingerichtet wurde.
 
 
 ## Konfiguration
@@ -33,9 +33,9 @@ Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die von 
 Administrator:innen können den Verlauf des Gruppenlebenszyklus in der System-Administration konfigurieren unter:<br>
 `Administration > Lebenszyklen > Gruppen`
 
-![Seite Gruppen im Bereich Lebenszyklen der System-Administration: je Stufe legen Sie fest, ob Inaktivierung, Löschung und unwiderrufliche Löschung manuell oder automatisch erfolgen und welche Gruppen die automatischen Methoden berücksichtigen](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt Gruppen unter Lebenszyklen markiert, rechts die Statuspfeile und der erste Konfigurationsabschnitt, System-Administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
 
-Die Konfiguration definiert in 4 Abschnitten:
+Die Konfiguration umfasst 4 Abschnitte:
 
 * **1 Konfiguration automatische Methoden**<br>
   Hier können Sie Gruppen definieren, welche bei den automatischen Methoden berücksichtigt oder explizit ausgeschlossen werden.
@@ -69,19 +69,21 @@ Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen T
 
 **Beispiel: Ansicht für Gruppenverwalter:innen**
 
-![Beispielkonfiguration der drei Stufen: Inaktivierung nach 660 Tagen ohne Besuch, Löschung nach 6 Tagen im Status Inaktiv, unwiderrufliche Löschung nach 2 Tagen im Status Gelöscht, alle automatisch mit 2 Tagen Reaktionsfrist](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
+![Markierte Beispielwerte der drei Statuspfeile: 660, 6 und 2 Tage Frist, automatisch, Tab Gruppenverwaltung](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
 
-  *  **aktiv:** Die Gruppe wird benutzt und es hat sie jemand innerhalb der eingestellten Frist noch besucht. (Standard 660 Tage ohne Besuch).
+  *  **aktiv:** Die Gruppe wird benutzt und es hat sie jemand innerhalb der eingestellten Frist noch besucht. (Standardwert: 400 Tage ohne Besuch).
 
-  *  **inaktiv:** Die Gruppe ist inaktiv. Eine Mail wurde verschickt (falls so konfiguriert). Wenn niemand mehr etwas an dieser Gruppe ändert, wird sie gelöscht.
+  *  **inaktiv:** Die Gruppe ist inaktiv. Eine Mail wird verschickt (falls so konfiguriert). Wenn niemand mehr etwas an dieser Gruppe ändert, wird sie gelöscht.
 
   *  **gelöscht:** Im Status "gelöscht" ist die Gruppe wiederherstellbar. Allerdings sind nicht alle Daten wiederherstellbar. Nach 2 Tagen wird diese Gruppe komplett gelöscht.
 
 
 
-## Beispiele zum zeitlichen Verlauf eines Statuswechsels 
+## Beispiele zum zeitlichen Verlauf eines Statuswechsels
 
-![Vier Zeitverläufe eines Statuswechsels: automatisch und manuell, jeweils ohne und mit Reaktionsfrist. Sie zeigen, wann Fokusphase, Reaktionsfrist und Benachrichtigung innerhalb der 720 Tage bis zum Statuswechsel liegen](assets/Beispielkonfiguration.jpg){ class="lightbox" }
+Die vier Beispiele zeigen den Statuswechsel automatisch oder manuell, jeweils ohne und mit Reaktionsfrist. Mit Reaktionsfrist geht eine Benachrichtigung zu Beginn der Frist hinaus, in allen Fällen eine beim Statuswechsel, sofern konfiguriert.
+
+![Vier Zeitverläufe eines Statuswechsels: automatisch oder manuell, jeweils ohne und mit Reaktionsfrist, mit Fokusphase und Benachrichtigungen](assets/Beispielkonfiguration.jpg){ class="lightbox" }
 
 
 
@@ -90,7 +92,7 @@ Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen T
 Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen Methoden explizit auszuschliessen. Das heisst, dass alle Aktionen im Gruppenlebenszyklus manuell angestossen werden müssen. Sie finden die Option unter:<br>
 `Gruppe > Administration > Gruppen-Lebenszyklus`
 
-![Tab Gruppen-Lebenszyklus in der Administration einer Gruppe: die Checkbox Von den automatischen Methoden ausschliessen nimmt diese Gruppe heraus, darunter stehen Status, letzte Aktivität und der geplante Inaktivierungstermin](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
+![Markierte Checkbox Von den automatischen Methoden ausschliessen, darunter Status und Inaktivierungstermin, Tab Gruppen-Lebenszyklus](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -100,10 +102,14 @@ Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen 
 
 ## Wer bekommt die Benachrichtigungen?
 
-Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung ausgelöst wurde, prüft OpenOlat, an wen die Benachrichtigung als Mail verschickt wird.
+Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung ausgelöst wird, prüft OpenOlat in dieser Reihenfolge, an wen die Benachrichtigung als Mail verschickt wird:
+
+1. Hat die Gruppe Gruppenbetreuer:innen, erhalten alle Gruppenbetreuer:innen die Mail.
+2. Hat die Gruppe keine Gruppenbetreuer:innen, ist aber in Kurse eingebunden, erhalten alle Besitzer:innen dieser Kurse die Mail.
+3. Trifft beides nicht zu, wird niemand benachrichtigt.
 
 
-![Kaskade der Benachrichtigung: gibt es Gruppenbetreuer:innen, erhalten alle die Mail. Fehlen sie und gehört die Gruppe zu einem Kurs, gehen die Mails an alle Kursbesitzer:innen, sonst wird niemand benachrichtigt](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" }
+![Entscheidungsbaum der Benachrichtigung: Gruppenbetreuer:innen, sonst Besitzer:innen der Kurse, sonst niemand](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" }
 
 
 

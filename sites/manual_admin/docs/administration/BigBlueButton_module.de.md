@@ -5,8 +5,7 @@ Das virtuelle Klassenzimmer BigBlueButton wird in der System-Administration akti
 
 Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, das Load-Balancing und das Einrichten von systemweiten Raumvorlagen.
 
-Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
-wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources/bigbluebutton/index.de.md) beschrieben.
+Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:innen wird im Kapitel [Kursbaustein "BigBlueButton"](../../manual_user/learningresources/bigbluebutton/index.de.md) beschrieben.
 
 ---
 
@@ -24,21 +23,21 @@ wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources
   *  **Online-Termine automatisch löschen:** x Tage nach Termin-Ende
   *  **Limit aller Präsentationsdateien pro Meeting (MB):** Pflichtfeld mit Angabe erlaubter Megabyte
 
-![Tab Konfiguration des Moduls BigBlueButton: das Modul wird einzeln für Kursbausteine, Kurstermine, Gruppen und Betreuer:innen-Chat freigegeben, darunter folgen Serverliste, Aufzeichnungs-Handler und Aufbewahrungsfrist der Online-Termine](assets/bbb_admin_config_v1_de.png){ class="shadow lightbox" }
+![Freischaltung je Einsatzort, Serverliste, Aufzeichnungen Handler und Löschfrist der Online-Termine; Tab Konfiguration im Modul BigBlueButton](assets/bbb_admin_config_v1_de.png){ class="shadow lightbox" }
 
 
 ### BigBlueButton-Server hinzufügen {: #add_server}
 
-Mit Klick auf den Button "Server hinzufügen" im Tab Konfiguration öffnen Sie ein Popup für die Angaben.
+Mit Klick auf den Button "Server hinzufügen" im Tab "Konfiguration" öffnen Sie ein Popup für die Angaben.
 
-  *  **BigBlueButton API URL**: URL BBB-Server
-  *  **Shared secret**: API Key BBB-Server
-  *  **Capacity factor**: Server-Gewichtung im Load-Balancing
-  *  **Server aktivieren**: Server steht für das Load-Balancing zur Verfügung
-  *  **Nur manuelle Auswahl**: Nur manuell ausgewählte Server stehen für das Load-Balancing zur Verfügung
-  *  **Button "Serververbindung testen"**: Eine sehr praktische Hilfe um den Zugriff auf den hier angegebenen Server zu prüfen.
+  *  **BigBlueButton API URL:** URL BBB-Server
+  *  **Shared secret:** API Key BBB-Server
+  *  **Capacity factor:** Server-Gewichtung im Load-Balancing
+  *  **Server aktivieren:** Server steht für das Load-Balancing zur Verfügung
+  *  **Nur manuelle Auswahl:** Nur manuell ausgewählte Server stehen für das Load-Balancing zur Verfügung
+  *  **Button "Serververbindung testen":** Prüft den Zugriff auf den hier angegebenen Server.
 
-![Dialog Server hinzufügen: API URL und Shared secret sind Pflicht, der Kapazitätsfaktor steuert die Last, mit Serververbindung testen prüfen Sie die Angaben vor dem Speichern](assets/bbb_admin_add_server_v1_de.png){ class="shadow lightbox" }
+![API URL und Shared secret sind Pflicht, Serververbindung testen prüft die Angaben vor dem Speichern; Dialog Server hinzufügen](assets/bbb_admin_add_server_v1_de.png){ class="shadow lightbox" }
 
 
 ---
@@ -47,20 +46,18 @@ Mit Klick auf den Button "Server hinzufügen" im Tab Konfiguration öffnen Sie e
 
 Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz angezeigt.
 
-![Tab Server des Moduls BigBlueButton: je Server zeigt die Liste Kapazität und aktuelle Last mit Meetings, Moderator:innen und Teilnehmer:innen, der Filter trennt dieses OpenOlat von allen OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
+![Je Server Kapazität und aktuelle Last, der Filter trennt dieses OpenOlat von allen OpenOlats; Tab Server im Modul BigBlueButton](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
 
 
 ### Load-Balancing [:octicons-tag-16:{ title="ab Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
-Ziel ist es, die erzeugte Last von gleichzeitigen Online-Terminen durch die Berücksichtigung von Performance-Parametern (wie Anzahl Videos und Anzahl Teilnehmenden der Meetings) auf den verfügbaren BigBlueButton-Server zu verteilen. OpenOlat besitzt dazu ein integriertes Load-Balancing. Beim initialen Start des Online-Termins (je nach Konfiguration durch den Moderator oder den ersten Teilnehmenden) wird der Server mit der geringsten Auslastung für das Meeting ausgewählt. Die Auslastung berechnet sich aus den unterschiedlichen Messfaktoren und gewichtet das Ergebnis mit dem Kapazitätsfaktor. 
+Ziel ist es, die erzeugte Last von gleichzeitigen Online-Terminen durch die Berücksichtigung von Performance-Parametern (wie Anzahl Videos und Anzahl Teilnehmende der Meetings) auf die verfügbaren BigBlueButton-Server zu verteilen. OpenOlat besitzt dazu ein integriertes Load-Balancing. Beim initialen Start des Online-Termins (je nach Konfiguration durch die Moderator:in oder die erste teilnehmende Person) wird der Server mit der geringsten Auslastung für das Meeting ausgewählt. Die Auslastung berechnet sich aus den unterschiedlichen Messfaktoren und gewichtet das Ergebnis mit dem Kapazitätsfaktor.
 
-Über den Filter können die Server-Kennzahlen über den gesamten BBB-Server oder nur die Sessions des aktuellen OpenOlat-Servers ausgegeben werden.
+Über den Filter zeigen Sie die Kennzahlen für alle OpenOlat-Instanzen auf dem BigBlueButton-Server ("Alle OpenOlats") oder nur für die Sessions dieser Instanz ("Dieses OpenOlat") an.
 
 ### Kapazitätsfaktor {: #capacity_factor}
 
-Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server erfasst. Die berechnete Anzahl Benutzer* auf dem Server wird mit dem Kapazitätsfaktor multipliziert. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem Schwächeren an.
-
- _* Gewichtung bei der Zählung von Benutzern von hoch zu tief: Video-Benutzer, Audio-Benutzer, Viewer_
+Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server erfasst. Die berechnete Anzahl Benutzer:innen auf dem Server wird mit dem Kapazitätsfaktor multipliziert. Bei der Zählung wiegen Video-Benutzer:innen am stärksten, dann Audio-Benutzer:innen, dann Viewer. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem schwächeren an.
 
 
 ---
@@ -70,10 +67,12 @@ Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server erfasst.
 Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswahl. Die Vorlagen steuern:
 
   * Die zur Verfügung stehenden Funktionen und Standard-Einstellungen im Online-Termin.
-  * Die Anzahl möglicher gleichzeitiger Nutzer pro Raum.
+  * Die Anzahl möglicher gleichzeitiger Teilnehmer:innen pro Raum.
   * Einschränkungen betreffend Dauer und Anzahl der zur Verfügung stehenden Online-Räume.
 
-![Tab Raumvorlagen des Moduls BigBlueButton: je Vorlage legen Räume, Teilnehmerzahl und Dauer den Rahmen fest, die mitgelieferten Systemvorlagen lassen sich bearbeiten, aber nicht löschen](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
+Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die mitgelieferten Systemvorlagen (Spalte "System") lassen sich bearbeiten, aber nicht löschen.
+
+![Je Vorlage Räume, Teilnehmer:innen und Dauer, Systemvorlagen ohne Löschen-Link; Tab Raumvorlagen im Modul BigBlueButton](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
 
 
 ### Konfiguration Raumvorlage {: #room_config}
@@ -82,37 +81,35 @@ Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswah
   *  **Beschreibung:** Beschreibung der Raumvorlage (z.B. Lernszenario, Einsatzgebiet)
   *  **Anzahl Teilnehmer:innen:** Maximale Anzahl Teilnehmer:innen (Viewer)
   *  **Dauer (Minuten):** Maximale Länge der Online-Termine
-  *  **Raumvorlage aktivieren:** Aktivierte Raumvorlagen stehen in Kursen/Gruppen für neue Online-Termine zur Verfügung und können von Kursbesitzern gewählt werden
+  *  **Raumvorlage aktivieren:** Aktivierte Raumvorlagen stehen in Kursen/Gruppen für neue Online-Termine zur Verfügung und können von Kursbesitzer:innen gewählt werden
   *  **Anzahl Räume:** Maximale Anzahl der gleichzeitigen Räume dieser Raumvorlage
-  *  **Offen für externe Benutzer:** Es wird automatisch ein Direktlink für Externe generiert, so dass sie den BigBlueButton Raum betreten können ohne vorher OpenOlat aufrufen zu müssen. Der Link wird dann in der Raumkonfiguration angezeigt und kann auch bei Bedarf vom Kursbesitzer oder -Betreuer geändert werden sowie an Gäste weitergegeben werden.
-  * **Benutzer:in bei Eintritt akzeptieren (Warteraum):** 
+  *  **Offen für externe Benutzer:innen:** OpenOlat generiert automatisch einen Direktlink für Externe, so dass sie den BigBlueButton-Raum betreten können, ohne vorher OpenOlat aufzurufen. Der Link wird in der Raumkonfiguration angezeigt und kann bei Bedarf von Kursbesitzer:innen oder Betreuer:innen geändert und an Gäste weitergegeben werden.
+  *  **Benutzer:in bei Eintritt akzeptieren (Warteraum):**
      * Abgeschaltet (Alle können sofort eintreten.)
-     * Alle Benutzer:innen (Jeder Zutritt müssen bestätigt werden.)
-     * Nur Gäste und externe Benutzer:innen (Nur der Zutritt von Gästen und externen Benutzer:innen muss bestätigt werden.) 
+     * Alle Benutzer:innen (Jeder Zutritt muss bestätigt werden.)
+     * Nur Gäste und externe Benutzer:innen (Nur der Zutritt von Gästen und externen Benutzer:innen muss bestätigt werden.)
   *  **Raumvorlage aktiviert für:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) verwendet und weiter konfiguriert werden.
 
-![Konfiguration einer Raumvorlage: Name, Teilnehmerzahl und Dauer bestimmen den Raum, der Warteraum steuert den Eintritt, und die Liste unten gibt die Vorlage je Rolle frei](assets/bbb_admin_room-template_config_v1_de.png){ class="shadow lightbox" }
+![Raumname, Teilnehmer:innen und Dauer bestimmen den Raum, die Liste unten gibt die Vorlage je Rolle frei; Formular der Raumvorlage](assets/bbb_admin_room-template_config_v1_de.png){ class="shadow lightbox" }
 
 
 ### Voreinstellungen der Raumvorlage
 
-![Voreinstellungen der Raumvorlage: je Verhalten eine Ja-Nein-Wahl, etwa nur Moderatorenkamera, Aufzeichnungen zulassen, Breakout-Räume und das automatische Sperren der Teilnehmer:innen beim Eintritt](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" }
+![Je Verhalten eine Ja-Nein-Wahl, von Moderatorenkamera bis zum automatischen Sperren beim Eintritt; Voreinstellungen im Formular der Raumvorlage](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" }
 
 
-### Voreinstellungen für gesperrte Teilnehmer
+### Voreinstellungen für gesperrte Teilnehmer:innen
 
-![Voreinstellungen für gesperrte Teilnehmer:innen: sieben Ja-Nein-Wahlen bestimmen, was die Sperre abschaltet, von Kamera und Mikrofon über beide Chats bis zu Notizen, Teilnehmerliste und Layoutanpassung](assets/bbb_admin_room-template_default_locked_participants_v1_de.png){ class="shadow lightbox" }
+![Sieben Ja-Nein-Wahlen legen fest, was die Sperre abschaltet, von Kamera bis Layoutanpassung; Abschnitt Für gesperrte Teilnehmer:innen im Formular der Raumvorlage](assets/bbb_admin_room-template_default_locked_participants_v1_de.png){ class="shadow lightbox" }
 
 
 ---
 
 ## Tab "Online-Termine" {: #tab_online-meetings}
 
-Übersicht der konfigurierten Online-Termine mit der Möglichkeit, direkt in den
-Kurs/Gruppe (Kontext) zu wechseln und/oder diesen Online-Termin zu löschen.
-Über die Suche können auch gezielt BigBlueButton-Räume ermittelt und zum Beispiel schnell markiert und gelöscht werden.
+Übersicht der konfigurierten Online-Termine mit der Möglichkeit, direkt in den Kurs oder die Gruppe (Kontext) zu wechseln oder den Online-Termin zu löschen. Über die Suche finden Sie gezielt einzelne BigBlueButton-Räume, markieren sie und löschen sie bei Bedarf gesammelt.
 
-![Tab Online-Termine des Moduls BigBlueButton: die Liste führt alle Termine der Instanz mit Zeitraum, Raumvorlage, Server, Kontext und Anzahl Aufzeichnungen](assets/bbb_admin_online-meetings_v1_de.png){ class="shadow lightbox" }
+![Alle Online-Termine der Instanz mit Raumvorlage, Server und Kontext, Suchfeld und Mehrfachauswahl zum Löschen; Tab Online-Termine im Modul BigBlueButton](assets/bbb_admin_online-meetings_v1_de.png){ class="shadow lightbox" }
 
 
 ---
@@ -121,14 +118,18 @@ Kurs/Gruppe (Kontext) zu wechseln und/oder diesen Online-Termin zu löschen.
 
 Kalenderübersicht über alle erfassten Online-Termine, um Zeiten mit hoher Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
-![Tab Kalender des Moduls BigBlueButton: alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" }
-
+![Alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr; Tab Kalender im Modul BigBlueButton](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" }
 
 
 ---
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
-[Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:innen im Kursbaustein BigBlueButton](../../manual_user/learningresources/bigbluebutton/index.de.md)
+[Kursbaustein "BigBlueButton" >](../../manual_user/learningresources/bigbluebutton/index.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
+[Virtuelle Klassenzimmer >](../../manual_user/basic_concepts/Virtual_classrooms.de.md)<br>
+[Häufig gestellte Fragen - BigBlueButton >](../../manual_user/learningresources/bigbluebutton/faq.de.md)<br>
+[Kursbaustein "Terminplanung" >](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
+[Absenzenverwaltung >](../../manual_user/area_modules/Absence_Management.de.md)
 
-
+[Zum Seitenanfang ^](#bbb)
