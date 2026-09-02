@@ -18,7 +18,7 @@ Der Kursbaustein "Themenvergabe" eignet sich dazu, wenn Sie in Ihrem Kurs Themen
 
 ### Themenvergabe konfigurieren
 
-Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen Teilnehmende wählen kann und ob ihre Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmende laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
+Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen Teilnehmende wählen kann und ob ihre Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Teilbausteine sind die Teile eines Kursbausteins, die Sie einzeln zuschalten. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Nur die zugeschalteten Ordner stehen im Kursbaustein zur Verfügung. Kursteilnehmende laden ihre Dateien in den Abgabeordner und Themenverantwortliche können Dateien über den Rückgabeordner zurückgeben.
 
 **Anzahl Themen pro Teilnehmer:in limitieren?:**
 Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die Teilnehmende maximal pro Kursbaustein Themenvergabe auswählen darf.
@@ -158,7 +158,7 @@ ein Thema wählen können sollen.
 
     Bitte beachten Sie, dass die zwei letzteren Schaltflächen nur ersichtlich sind, wenn der Besitzer die Themenvergabe so konfiguriert hat, dass die Teilnhemer manuell akzeptiert werden müssen.
 
-## Tabs "Ordner" und "Verwaltung Benutzer:innen" [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}
+## Tabs "Ordner" und "Verwaltung Benutzer:innen" [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"} {: #folder_user_management}
 
 ### Teilnehmer verwalten
 
@@ -236,4 +236,4 @@ Klicken Sie auf den Titel des Themas. Im Tab "Ordner" finden Sie den Abgabeordne
 
 Im Tab "Ordner" finden Sie im Abschnitt "Rückgabeordner" die Dateien, die Ihnen der Themenverantwortliche zurückgegeben hat.
 
-Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern erfahren Sie im Kapitel "Kursbausteine" → "Andere" unter dem Punkt "[Kursbaustein Themenvergabe](../learningresources/Other.de.md#topic_assignment)".
+Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu finden Sie unter [Weitere Einstellungen der Themenvergabe](#persons), zum Akzeptieren und Betreuen der Teilnehmenden unter [Tabs "Ordner" und "Verwaltung Benutzer:innen"](#folder_user_management).

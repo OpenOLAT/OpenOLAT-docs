@@ -19,7 +19,7 @@ The course element "Topic assignment" is useful if you want to announce e.g. top
 
 ###  How to configure topic assignments
 
-In the tab "Configuration" you determine first how many topics can be selected by one participant, if this selection is definite or if it has to be accepted by the topic author first. Furthermore you can add additional fields to describe a topic in more detail. This description will then be displayed in the table containing all topics announced. Here you can also determine if registrations and submissions shall only be possible within a certain period of time. In the tab "Sub-elements" you can choose if there should be a drop box as well as a return box in your topic assignment. Course participants will then upload their files to that drop box while topic authors will return those files by means of a return box.
+In the tab "Configuration" you determine first how many topics can be selected by one participant, if this selection is definite or if it has to be accepted by the topic author first. Furthermore you can add additional fields to describe a topic in more detail. This description will then be displayed in the table containing all topics announced. Here you can also determine if registrations and submissions shall only be possible within a certain period of time. Partial elements are the parts of a course element that you switch on individually. In the tab "Partial elements" you can choose if there should be a drop box as well as a return box in your topic assignment. Only the folders that are switched on are available in the course element. Course participants will then upload their files to that drop box while topic authors will return those files by means of a return box.
 
 
 **Do you want to limit the number of topics per participant?:** 
@@ -73,7 +73,7 @@ When selecting **"Appears in table"**, your event will be displayed in the overv
 
   When being authorized by a course author to act as topic author, you can announce as well as supervise topics. Just open the course view and navigate to your topic assignment. As a person responsible for a topic you can edit that topic, administer its participants or add more persons responsible for that topic.
 
-**Folders - Tab "Sub-elements"**
+**Folders - Tab "Partial elements"**
 
   In the submission folder, participants can upload files that are then accessible to the topic owners. Topic owners can place files in the return folder. The prerequisite is that the folders are activated in the configuration in the course editor.
 
@@ -160,7 +160,7 @@ Via "**Reset Topic status to "Vacancies"**" you can open a Topic anew - even if 
 
     Please keep in mind that the last two buttons will only be visible if the course author has provided the Topic assignment with the option to accept participants manually.
 
-## "Folder" and "Administration of users" tabs [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}
+## "Folder" and "Administration of users" tabs [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"} {: #folder_user_management}
 
 ###  Managing participants
 
@@ -238,5 +238,5 @@ Click on the title of the topic. In the "Folder" tab you will find the delivery 
 
 In the "Folder" tab, in the "Return folder" section, you will find the files that the topic owner has returned to you.
 
-If you are assigned as a topic owner, you can post topics. You can read more about this and about accepting and coaching participants in the chapter "Course elements" → "Others" under "[Course element](../learningresources/Other.md#topic_assignment)."
+If you are assigned as a topic owner, you can post topics. You can read more about this under [Further settings for topic assignment](#persons), and about accepting and coaching participants under ["Folder" and "Administration of users" tabs](#folder_user_management).
 

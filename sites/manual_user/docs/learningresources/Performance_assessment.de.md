@@ -10,7 +10,7 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewert
 * [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
 * [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
 * [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
-* [LTI](../learningresources/Other.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
+* [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
 * [SCORM](../learningresources/Knowledge_Transfer.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
 * [Test](../learningresources/Assessment.de.md) (automatische & manuelle Bewertung)
 

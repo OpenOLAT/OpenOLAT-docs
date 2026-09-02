@@ -147,6 +147,6 @@ A number of course elements can be used either for summative or formative assess
 * [Portfolio task](../learningresources/Assessment.md) (manual assessment)
 * [Check list](../learningresources/Assessment.md) (manual & automatic assessment)
 * [Assessment](../learningresources/Assessment.md) (manual assessment)
-* [LTI](../learningresources/Other.md) (automatic assessment, transferred from LTI page)
+* [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Assessment.md#Assessment-_test_kursbaustein) (automatic & manual assessment)
