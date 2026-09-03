@@ -155,6 +155,9 @@ The more open the question, the more important grading hints and misconceptions 
 
 1. Learners start the Quiz on the page and answer the essay question in the input field. The counter shows the number of words and the permitted maximum.
 2. With **"Check"** they submit the answer. While the AI is working, the message "Waiting for AI correction" appears. If it takes longer, OpenOlat asks you to keep the page open.
+
+![ai_essay_ai_review_v1_de.png](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" }
+
 3. The result appears in the **"AI feedback"** block.
 
 ![ai_essay_ai_feedback_v1_de.png](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" }
@@ -163,7 +166,9 @@ The block begins with the **"Assessment"** in five levels: "very good", "good", 
 
 Under **"Detailed feedback"** further sections can be expanded: "What went well", "What is missing" and "Next step", plus the covered and missing points as well as feedback on grammar and spelling.
 
-![ai_essay_ai_feedback_details_v1_de.png](assets/ai_essay_ai_feedback_details_v1_de.png){ class="shadow lightbox" }
+![ai_essay_ai_feedback_details1_v1_de.png](assets/ai_essay_ai_feedback_details1_v1_de.png){ class="shadow lightbox" }
+
+![ai_essay_ai_feedback_details2_v1_de.png](assets/ai_essay_ai_feedback_details2_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#ai_essay)
 

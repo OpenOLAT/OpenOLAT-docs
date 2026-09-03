@@ -155,6 +155,9 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Missverständni
 
 1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Der Zähler zeigt die Anzahl Wörter und das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden Sie die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen.
+
+![ai_essay_ai_review_v1_de.png](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" }
+
 3. Das Ergebnis erscheint im Block **"KI-Feedback"**.
 
 ![ai_essay_ai_feedback_v1_de.png](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" }
@@ -163,7 +166,10 @@ Der Block beginnt mit der **"Beurteilung"** in fünf Stufen: "sehr gut", "gut", 
 
 Unter **"Detailliertes Feedback"** lassen sich weitere Abschnitte aufklappen: "Was gut gelungen ist", "Was fehlt noch" und "Nächster Schritt", dazu die abgedeckten und fehlenden Punkte sowie Rückmeldungen zu Grammatik und Rechtschreibung.
 
-![ai_essay_ai_feedback_details_v1_de.png](assets/ai_essay_ai_feedback_details_v1_de.png){ class="shadow lightbox" }
+![ai_essay_ai_feedback_details1_v1_de.png](assets/ai_essay_ai_feedback_details1_v1_de.png){ class="shadow lightbox" }
+
+![ai_essay_ai_feedback_details2_v1_de.png](assets/ai_essay_ai_feedback_details2_v1_de.png){ class="shadow lightbox" }
+
 
 [Zum Seitenanfang ^](#ai_essay)
 
