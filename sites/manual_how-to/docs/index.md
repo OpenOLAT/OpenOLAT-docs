@@ -25,6 +25,7 @@
 3. [How do I create a form learning resource?](/manual_how-to/create_a_form/create_a_form)
 4. [How do I create a podcast?](/manual_how-to/podcast/podcast)
 5. [How do I create a wiki?](/manual_how-to/wikis/wikis)
+6. [How do I create an essay question with AI grading?](/manual_how-to/ai_essay/ai_essay)
 
 ## Offer Courses
 

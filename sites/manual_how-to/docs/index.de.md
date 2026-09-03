@@ -25,6 +25,7 @@
 3. [Wie erstelle ich eine Formular-Lernressource?](/de/manual_how-to/create_a_form/create_a_form)
 4. [Wie erstelle ich einen Podcast?](/de/manual_how-to/podcast/podcast)
 5. [Wie erstelle ich ein Wiki?](/de/manual_how-to/wikis/wikis)
+6. [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](/de/manual_how-to/ai_essay/ai_essay)
 
 ## Kurse anbieten
 
