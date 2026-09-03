@@ -393,9 +393,9 @@ There you can download all course results from all assessable course components 
 A zip file is created, which is then available in the course archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. In the wizard step "Settings", with "Customised" selected, there are two variants for the course element Test under **"Export"**:
 
 * The **Standard** export contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
-* The **"Advanced - with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant.<br>Please note: Depending on the number of PDF files contained in the zip file, it may take some time to create.
+* The **"Advanced – with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant.<br>Please note: Depending on the number of PDF files contained in the zip file, it may take some time to create.
 
-If the test contains essay questions and the **"Advanced - with PDF"** option was selected, the **"Additional option"** with **"Separate PDF file for each essay question"** can additionally be activated below. The answer to each essay question is then placed in the archive as a separate PDF file.
+If the test contains essay questions and the **"Advanced – with PDF"** option was selected, the **"Additional option"** with **"Separate PDF file for each essay question"** can additionally be activated below. The answer to each essay question is then placed in the archive as a separate PDF file.
 
 ![Export options for the course element Test in the wizard step Settings of the course archiving](assets/course_element_test_archive_export_v1_de.png){ class="shadow" }
 

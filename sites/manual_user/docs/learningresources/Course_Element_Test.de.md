@@ -401,9 +401,9 @@ Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (
 Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein Test unter **"Export"** 2 Varianten:
 
 * Der Export **Standard** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* Die Option **"Erweitert - mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
+* Die Option **"Erweitert – mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
 
-Enthält der Test Freitextfragen und wurde die Option **"Erweitert - mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt.
+Enthält der Test Freitextfragen und wurde die Option **"Erweitert – mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt.
 
 ![Export-Optionen für den Kursbaustein Test im Wizard-Schritt Einstellungen der Kursarchivierung](assets/course_element_test_archive_export_v1_de.png){ class="shadow" }
 
