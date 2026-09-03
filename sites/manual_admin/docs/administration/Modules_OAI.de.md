@@ -96,9 +96,9 @@ Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglic
 
 ![Administration Modul Suchmaschinenoptimierung](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
 
-Hat man eine eigenen Suchmaschinenindex, kann man diesen unter "benutzerdefiniert" eintragen.
+Hat man einen eigenen Suchmaschinenindex, trägt man dessen URL unter "Frei wählbar" ein.
 
-Zusätzlich lassen sich zwei Angaben für die Suchmaschinen-Metadaten festlegen. Beide Felder sind optional; bleiben sie leer, verwendet das System die Standardwerte.
+Ist "Suchmaschine veröffentlichen" eingeschaltet, erscheinen zwei weitere Felder für die Suchmaschinen-Metadaten. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9306)" }](https://track.frentix.com/issue/OO-9306){:target="_blank"} Beide Felder sind optional; bleiben sie leer, verwendet das System die Standardwerte.
 
 **Name der Organisation**: Überschreibt den Organisationsnamen, der in den Suchmaschinen-Metadaten verwendet wird (zum Beispiel im Open-Graph-Feld "og:site_name"). Bleibt das Feld leer, wird der Name der Standardorganisation eingesetzt.
 

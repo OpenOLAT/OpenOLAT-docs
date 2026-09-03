@@ -94,9 +94,9 @@ This allows you to actively make shared learning resources accessible to search 
 
 ![Administration Module Search Engine Optimization](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
 
-If you have your own search engine index, you can enter its url under "custom".
+If you have your own search engine index, enter its URL under "Custom".
 
-Additionally, you can set two values for the search engine metadata. Both fields are optional; if left empty, the system uses the default values.
+When "Search Engine publish" is switched on, two additional fields for the search engine metadata appear. [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9306)" }](https://track.frentix.com/issue/OO-9306){:target="_blank"} Both fields are optional; if left empty, the system uses the default values.
 
 **Organisation name**: Overrides the organisation name used in the search engine metadata (for example in the Open Graph field "og:site_name"). If left empty, the name of the default organisation is used.
 
