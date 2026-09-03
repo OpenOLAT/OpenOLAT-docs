@@ -5,7 +5,7 @@
 Name | Form
 ---------|----------
 Icon | :o_icon_o_icon_form:
-Available since | 
+Available since | Release 15.5 (OO-5338)
 Functional group | Assessment
 Purpose | Course element for integration of learning resource "Form"
 Assessable | no
@@ -13,7 +13,7 @@ Specialty / Note |
 
 
 
-Using the course element "Form" you can add the learning resource form to a course. The form works similar to the course element "Survey" and can also be filled out only once. However, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
+Using the course element "Form" you can add the learning resource form to a course. The form works similar to the [course element "Survey"](../learningresources/Course_Element_Survey.md) and can also be filled out only once. However, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
 
 For the completion of the course element, a last deadline can be defined in the tab "Form". A [Course Reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants automatically receive a confirmation e-mail with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form.
 
@@ -26,13 +26,13 @@ The use of this course element makes sense e.g. if the learners have to fill in 
     Unlike the course element survey, however, there is no specific graphical evaluation overview for this course element.
 
 
-## Integrate forms
+## Integrate forms [:octicons-tag-16:{ title="from Release 15.5 (OO-5338)" }](https://track.frentix.com/issue/OO-5338){:target="_blank"}
 
-You can find out how to create forms and integrate them into courses [here](../forms/Three_Steps_to_your_Form.md).
+You can find out how to create forms and integrate them into courses in the [How-to section](../../manual_how-to/create_a_form/create_a_form.md).
 
 After you have added the course element Form to the course, the following tabs are available in the course editor:
 
-![Formular Tabs](assets/Formular_Tabs1.jpg){ class="shadow lightbox" }
+![Tabs Title and description, Layout, Learning path, Form and Reminders of the course element Form in the course editor](assets/Formular_Tabs1.jpg){ class="shadow lightbox" }
 
 In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab Learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined which are valid for learning path courses. Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
@@ -40,29 +40,27 @@ In the tab "Title and description" as well as "Layout" general descriptions and 
 
 The central configuration is done in the "Form" tab. Here, in the first step, either a new form is created or an existing one is selected.
 
-![Formular auswählen](assets/Formular_waehlen.jpg){ class="shadow lightbox" }
+![Button Select, create or import while no form is selected, in the tab Form of the course editor](assets/Formular_waehlen.jpg){ class="shadow lightbox" }
 
 After clicking the button, all the forms for which you are the owner will be displayed and you can select them simply by clicking the checkmark.
 
-![Formular Auswahldialog](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
+![Three own forms under My entries with checkmarks in the column Select, buttons Create and Import at the top right, in the dialog Select form](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
 
 If you have not yet created a form, you can create a new learning resource form using the "Create" button or add an existing external form using the "Import" button. Subsequently, the form just created or imported also appears in the list and can be selected.
 
-A newly created form does not yet contain any elements, questions or text fields. These must be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md)
+A newly created form does not yet contain any elements, questions or text fields. These must be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md).
 
 When a form is created in the course editor, a new learning resource Form is automatically created which can also be found in the [Authoring area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
 
-!!! info "Hint"
+!!! note "Hint"
 
     After a form has been selected, it can be designed via the "Edit" link. If the form has already been set up appropriately, editing is no longer necessary.
 
-![course_element_form_tab_form_v1_de.png](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
+![Toggle Fill out the form multiple times switched on, field Participation until with option Relative date and four recipient groups of the e-mail confirmation, in the tab Form of the course editor](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
 
 **Fill out the form multiple times**
 
-For some use cases, the form should only be able to be used once by each participant, e.g. for feedback on a course.
-In other use cases, a form should be able to be used multiple times by the same participant, e.g. a person should be able to place multiple orders using the same form. 
-Multiple use can therefore be permitted in the ‘Form’ course element using a toggle button.
+For some use cases, the form should only be able to be used once by each participant, e.g. for feedback on a course. In other use cases, a form should be able to be used multiple times by the same participant, e.g. a person should be able to place multiple orders using the same form. Multiple use can therefore be permitted in the "Form" course element using a toggle button.
 
 **Participation until...**
 
@@ -81,20 +79,37 @@ If the e-mail confirmation is activated, the participants will receive a confirm
 
 When the course editor is closed, the owner and coach see an overview of the learners in the course and their editing status, e.g. "Not started". The filter function can also be used to display a specific group of people, e.g. all people who have not yet started the form. However, the owner and coach do not see the actual form here.
 
-The "Export data" button at the top right lets you export the completed forms. The export creates an archive containing an Excel file with all form data as well as one PDF file per submitted form. If a person has completed the form more than once, each submission appears as a separate entry with its own PDF file. If you select individual persons in the table, an additional "Export data" button appears that only includes the forms of the selected persons. For an individual person, the action "Form as PDF" is available in the three-dot menu at the end of the row.
+The "Export data" button at the top right lets you export the completed forms. The export creates an archive containing an Excel file with all form data as well as one PDF file per submitted form. If a person has completed the form more than once, each submission appears as a separate entry with its own PDF file. If you select individual persons in the table, an additional "Export data" button appears that only includes the forms of the selected persons. For an individual person, the action "Form as PDF" is available in the three-dot menu at the end of the row. [:octicons-tag-16:{ title="from Release 20.2.1 (OO-9048)" }](https://track.frentix.com/issue/OO-9048){:target="_blank"}
 
 Via the three-dot menu at the end of a row, a submitted form can also be reopened for editing with "Reopen" or deleted for that person with "Reset data". Owners can delete all form entries at once via the three-dot menu at the top right with "Reset all data".
 
-"Reset data" only deletes the person's form data, not their course membership. The person therefore remains visible in the overview, now with the status "Not started". If a person should no longer appear in the list at all, they must be removed as a participant in the course's [member management](../learningresources/Members_management.md).
+"Reset data" only deletes the person's form data, not their course membership. The person therefore remains visible in the overview, with the status "Not started". If a person should no longer appear in the list at all, they must be removed as a participant in the course's [member management](../learningresources/Members_management.md).
 
 Owners additionally have the tab "Reminders" if the form submission has a deadline. Here you can create new reminders and see which [reminders](../learningresources/Course_Reminders.md) have already been sent.
 
-![Formular Durchführung Teilnehmerliste](assets/Formular_kursrun.png){ class="shadow lightbox" }
+![Button Export data and three-dot menu of a row with Form as PDF, Reopen and Reset data, in the participant list for owners and coaches](assets/Formular_kursrun.png){ class="shadow lightbox" }
 
 ## View: Participants
 
 Participants, on the other hand, are shown the specific form directly when they click on it and can fill it out. It is also possible to save the form temporarily.
 
-![Formular Durchführung Beispiel](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" }
+![Form with a choice question, sliders and text fields plus the buttons Save and finish and Save temporarily, in the view of the participants in the course](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" }
 
-The completed form must finally be saved and can then no longer be edited by the user, only displayed.
+The completed form must finally be saved and can then no longer be edited by the participants, only displayed.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
+[Course Reminders >](../learningresources/Course_Reminders.md)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
+[The Form Editor >](../learningresources/Form_Editor.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Members management >](../learningresources/Members_management.md)
+
+**Further reading**<br>
+[Forms in courses >](../learningresources/Forms_in_Courses.md)<br>
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
+
+[To the top of the page ^](#course_element_form)
