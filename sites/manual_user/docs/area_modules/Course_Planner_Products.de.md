@@ -1,6 +1,6 @@
 # Course Planner: Produkte [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
-![Übersicht des Course Planner, geöffnet über den Eintrag Course Planner im Menü Mehr: die fünf Bereiche Produkte, Durchführungen, Termine, Zertifikatsprogramme und Reports, davon ist Produkte hervorgehoben](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }  
+![Der Button Produkte, hervorgehoben unter den fünf Bereichen der Course-Planner-Übersicht, geöffnet über den Eintrag Course Planner im Menü Mehr](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }  
 
 ## Was verstehen wir in OpenOlat unter einem Produkt? {: #definition}
 
@@ -21,9 +21,9 @@ Mit dem Course Planner ist in OpenOlat eine erweiterte, allgemeine Kursplanung i
 
 Produkte werden im **Course Planner** für die Planung eines Bildungsgangs mit mehreren Kursen und Lernressourcen ("Kurspaket") verwendet. Ein Produkt kann dann in mehreren Durchführungen zu verschiedenen Terminen angeboten werden.    
 
-Die Durchführungen eines Produkts können im [Katalog ](../../manual_user/area_modules/catalog2.0_angebote.de.md) angeboten werden.
+Die Durchführungen eines Produkts können im [Katalog](../../manual_user/area_modules/catalog2.0_angebote.de.md) angeboten werden.
 
-Werden Teilnehmer:innen nicht nur einem einzelnen Kurs als Mitglieder zugeordnet, sondern der [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md) eines Produkts, ist die Mitgliedschaft für die Teilnehmer:innen ersichtlich, wenn sie im Hauptmenü die Option "Kurse" wählen".<br>
+Werden Teilnehmer:innen nicht nur einem einzelnen Kurs als Mitglieder zugeordnet, sondern der [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md) eines Produkts, ist die Mitgliedschaft für die Teilnehmer:innen ersichtlich, wenn sie im Hauptmenü die Option "Kurse" wählen.<br>
 Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungsprogramme".
 
 ![Bereich Kurse im Hauptmenü: neben Meine Kurse und In Vorbereitung steht der Button Bildungsprogramme, unter dem Teilnehmende die Kurse ihrer gebuchten Durchführungen finden](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" }  
@@ -124,7 +124,7 @@ Wird ein Kurs über den Course Planner verwaltet, ist der Verwendungszweck **"Ve
 Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** unter:<br>
 `Kurs > Administration > Einstellungen > Freigabe`
 
-![Tab Freigabe in den Einstellungen eines Kurses: der Abschnitt Verwendung zeigt als Verwendungszweck "Verwendung im Course Planner", der Kurs wird durch den Course Planner verwaltet und hat keine eigenständige Mitgliederverwaltung](assets/course_planner_products_share_v3_de.png){ class="shadow lightbox" }  
+![Der Verwendungszweck Verwendung im Course Planner im Abschnitt Verwendung, damit ohne eigenständige Mitgliederverwaltung, im Tab Freigabe der Kurseinstellungen](assets/course_planner_products_share_v3_de.png){ class="shadow lightbox" }  
 
 
 
@@ -133,17 +133,22 @@ Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** u
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)
+
+**Weiterführend**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-[Coaching: Bildungsprodukte (Sicht der Betreuer:innen auf die Produkte) >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
-[Wie kann ich mit dem Course Planner eine Kursdurchführung planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)
 
 [zum Seitenanfang ^](#products)

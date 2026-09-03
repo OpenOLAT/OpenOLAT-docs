@@ -11,37 +11,37 @@ Die **Auswertung** der ausgefüllten Formulare kann durch **Qualitätsmanager:in
 
 Für diesen einfachsten Fall wird das Modul "Qualitätsmanagement" nicht benötigt.
 
-Eine Lernressource "Formular" wird in verschiedenen Kursen jeweils in einen Kursbaustein "Umfrage" eingebunden. Wenn in den verschiedenen Kursen das gleiche Formular verwendet wird, ist eine Vergleichbarkeit der Befragungsergebnisse gewährleistet. 
+Eine Lernressource "Formular" wird in verschiedenen Kursen jeweils in einen Kursbaustein "Umfrage" eingebunden. Wenn in den verschiedenen Kursen das gleiche Formular verwendet wird, ist eine Vergleichbarkeit der Befragungsergebnisse gewährleistet.
 
 Die Teilnehmer:innen der Kurse füllen das Formular in jedem Kurs einmal aus.
-Je nach Konfiguration, sind für die Teilnehmer:innen die Resultate des Reports sichtbar oder nicht. 
+Je nach Konfiguration, sind für die Teilnehmer:innen die Resultate des Reports sichtbar oder nicht.
 
-Der Report ist Bestandteil des Kursbausteines und fasst deshalb nur die Antworten der Mitglieder des jeweiligen Kurses zusammen. Die Reports stehen also nur kursweise zur Verfügung. 
+Der Report ist Bestandteil des Kursbausteines und fasst deshalb nur die Antworten der Mitglieder des jeweiligen Kurses zusammen. Die Reports stehen also nur kursweise zur Verfügung.
 
-![quality_management_case1_v1_de.png](assets/quality_management_case1_v1_de.png){ class="lightbox" }
+![Ein Formular in zwei Kursen mit Kursbaustein Umfrage, je Kurs ein eigener Report, Befragungszeitraum gleich Kursdauer](assets/quality_management_case1_v1_de.png){ class="lightbox" }
 
 ## Fall 2: Ad-hoc-Datenerhebung (Mehrfachbefragungen in mehreren Kursen oder kursunabhängig)
 
 Für kursübergreifende Datenerhebungen und -analysen wird das Modul "Qualitätsmanagement" benötigt.
 
-Mit dem Modul "Qualitätsmanagement" können Formular-Lernressourcen aber auch unabhängig von Kursen für Befragungen (Datenerhebungen) benutzt werden. Der Nutzen des Moduls liegt darin, dass bei mehrfachen Erhebungen mit dem gleichen Formular die Ergebnisse verglichen werden können. 
+Mit dem Modul "Qualitätsmanagement" können Formular-Lernressourcen aber auch unabhängig von Kursen für Befragungen (Datenerhebungen) benutzt werden. Der Nutzen des Moduls liegt darin, dass bei mehrfachen Erhebungen mit dem gleichen Formular die Ergebnisse verglichen werden können.
 Der Kontext der Erhebung wird jeweils gespeichert.
 
 Es wird eine Formular-Lernressource mit einer neuen Datenerhebung (= adhoc-Befragung) verknüpft.
-Auf der Ebene dieser Datenerhebung werden dann Teilnehmer, Befragungsgegenstand und Datenerhebungszeitraum definiert. Der Befragungsgegenstand kann dabei variieren zwischen Betreuer, Kurs oder Curriculum/Curriculumelement, aber auch Organisation (bzw. einer Einheit davon).
+Auf der Ebene dieser Datenerhebung werden dann Teilnehmer:innen, Befragungsgegenstand und Datenerhebungszeitraum definiert. Der Befragungsgegenstand kann dabei variieren zwischen Betreuer:in, Kurs oder Curriculum/Curriculumelement, aber auch Organisation (bzw. einer Einheit davon).
 
-Im Modul "Qualitätsmanagement" steht dann ein kursübergreifender Report zur Verfügung. 
+Im Modul "Qualitätsmanagement" steht dann ein kursübergreifender Report zur Verfügung.
 
-![quality_management_case2_v1_de.png](assets/quality_management_case2_v1_de.png){ class="lightbox" }
+![Eine Datenerhebung im Modul Qualitätsmanagement verknüpft ein Formular mit Kursen, Betreuer:innen und Curricula und liefert einen Report für den Befragungszeitraum](assets/quality_management_case2_v1_de.png){ class="lightbox" }
 
 ## Fall 3: Automatisierte Datenerhebung (in mehreren Kursen/Curricula oder kursunabhängig)
 
 Im Modul Qualitätsmanagement können Datenerhebungen auch automatisiert nach bestimmten Regeln erstellt werden.
 Die Beschreibung und Einrichtung dieser Regeln geschieht in sogenannten **Datenerhebungsgeneratoren**.
 
-Der kursübergreifende Report baut dann auf mehreren Datenerhebungen auf. 
+Der kursübergreifende Report baut dann auf mehreren Datenerhebungen auf.
 
-![quality_management_case3_v1_de.png](assets/quality_management_case3_v1_de.png){ class="lightbox" }
+![Ein Generator erzeugt periodisch Datenerhebungen mit je einem Report, die Analyse fasst alle Reports eines Formulars zusammen](assets/quality_management_case3_v1_de.png){ class="lightbox" }
 
 ## Das Modul "Qualitätsmanagement"
 
@@ -49,15 +49,15 @@ Zu Ad-hoc-Datenerhebung (Fall 2) und regelmässiger Datenerhebung (Fall 3) wird 
 
 Das Modul kann automatisch Aufforderungen mit dem Link zu einer Befragung verschicken.
 
-Die Resultate können für definierbare Empfänger freigeschaltet werden.
+Die Resultate können für definierbare Empfänger:innen freigeschaltet werden.
 
-Qualitätsmanager:innen finden die Option "Qualitätsmanagement" in ihrer Hauptnavigation in der Kopfzeile. 
+Qualitätsmanager:innen finden die Option "Qualitätsmanagement" in ihrer Hauptnavigation in der Kopfzeile.
 
-![quality_management_access_v1_de.png](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
+![Eintrag Qualitätsmanagement im Menü Mehr der Kopfzeile markiert, darunter die Startseite des Qualitätsmanagements mit ihren sieben Abschnitten von Meine Umfragen bis Analyse](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
 
 ## Die Rolle "Qualitätsmanager:in"
 
-Da die Ergebnisse verschiedene Kurse betreffen oder kursunabhängig sind, werden die Umfrageergebnisse nicht durch die Kursbesitzer:innen oder Betreuer:innen ausgewertet. Deren Rechte gelten ja jeweils nur für einen bestimmten Kurs. Die Planung der Erhebungen und die kursübergreifende Auswertung wird einer eigenen Rolle "Qualitätsmanager:in" übertragen. 
+Da die Ergebnisse verschiedene Kurse betreffen oder kursunabhängig sind, werden die Umfrageergebnisse nicht durch die Kursbesitzer:innen oder Betreuer:innen ausgewertet. Deren Rechte gelten ja jeweils nur für einen bestimmten Kurs. Die Planung der Erhebungen und die kursübergreifende Auswertung wird einer eigenen Rolle "Qualitätsmanager:in" übertragen.
 
 ## Bestandteile des Qualitätsmanagements
 
@@ -72,4 +72,5 @@ Das Modul "Qualitätsmanagement" in OpenOlat baut im Wesentlichen auf sechs Infr
 
 ## Aktivierung des Moduls
 
-Die Aktivierung des Moduls "Qualitätsmanagement" muss durch einen/eine Administrator:in vorgenommen werden.
+Die Aktivierung des Moduls "Qualitätsmanagement" muss durch Administrator:innen in der System-Administration vorgenommen werden:<br>
+`Administration > Module > Qualitätsmanagement`

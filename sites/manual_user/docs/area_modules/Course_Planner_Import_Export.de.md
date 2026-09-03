@@ -15,7 +15,7 @@ Folgende Elemente können exportiert bzw. importiert werden:
 
 Der Import-Assistent wird über das Mehr-Menü (⋮) auf dem Course-Planner-Dashboard gestartet.
 
-![course_planner_import_v1_de.png](assets/course_planner_import_v1_de.png){ class="shadow lightbox" }
+![Der Eintrag Importieren im Mehr-Menü oben rechts, hervorgehoben auf der Startseite des Course Planners](assets/course_planner_import_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#import_export)
 
@@ -34,19 +34,19 @@ Der Export steht an mehreren Stellen im Course Planner zur Verfügung:
 Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben inklusive der Mitgliederdaten, auch bei einem Bulk-Export mehrerer ausgewählter Durchführungen.
 
 ##### Navigation unter Produkt
-![course_planner_export_product_v1_de.png](assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" }
+![Die Aktion Export im Menü der drei Punkte am Zeilenende, hervorgehoben in der Produktliste des Course Planners](assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" }
 
 **Bulk Vorgang**
-![course_planner_export_product_bulk_v1_de.png](assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox" }
+![Zwei markierte Produkte und der Button Export über der Liste, hervorgehoben in der Produktliste des Course Planners](assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox" }
 
 ##### Navigation unter Durchführung
-![course_planner_export_implementation_v1_de.png](assets/course_planner_export_implementation_v1_de.png){ class="shadow lightbox" }
+![Zwei markierte Durchführungen mit dem Button Export über der Liste und die Aktion Export im Zeilenmenü, in der Liste der Durchführungen](assets/course_planner_export_implementation_v1_de.png){ class="shadow lightbox" }
 
 ##### Navigation unter Termine
-![course_planner_export_event_v1_de.png](assets/course_planner_export_event_v1_de.png){ class="shadow lightbox" }
+![Die Aktion Export im Zeilenmenü eines Termins, hervorgehoben in der Terminliste des Course Planners](assets/course_planner_export_event_v1_de.png){ class="shadow lightbox" }
 
 ##### Navigation unter Mitglieder
-![course_planner_export_mitglieder_v1_de.png](assets/course_planner_export_mitglieder_v1_de.png){ class="shadow lightbox" }
+![Die Aktion Export im Menü der drei Punkte oben rechts, hervorgehoben im Tab Mitglieder einer geöffneten Durchführung](assets/course_planner_export_mitglieder_v1_de.png){ class="shadow lightbox" }
 
 Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datum und Zeit\>" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"}.
 
@@ -55,7 +55,7 @@ Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datu
 Die exportierte Excel-Datei enthält je nach Exportart bis zu vier Sheets:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
-* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}
+* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"}
 * **Mitgliedschaften:** Zuordnung von Benutzer:innen zu Durchführungen mit Rolle (Teilnehmer:in, Betreuer:in, Klassenlehrer:in, Kursbesitzer:in, Elementbesitzer:in)
 * **Benutzer:innen:** Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
 
@@ -88,7 +88,7 @@ Die vollständige Liste aller Fehler- und Warnungscodes finden Sie in der [Impor
 
 Laden Sie die Excel-Datei mit den zu importierenden Daten hoch. Die Beispieldatei ist zu finden, wenn der Importvorgang gestartet wird. Diese verlinkte Datei kann dort heruntergeladen werden.
 
-![course_planner_import_excel_v1_de.png](assets/course_planner_import_excel_v1_de.png){ class="shadow lightbox" }
+![Der Link Excel Vorlage unter Importbeispiel und die Bedingungen an die Datei, im Schritt Datei auswählen des Import-Assistenten](assets/course_planner_import_excel_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -100,7 +100,7 @@ Die Tabelle zeigt alle Produkte aus der Excel-Datei mit ihrem Importstatus: "Kei
 
 Enthält eine Zeile einen Fehler, wird sie automatisch vom Import ausgeschlossen und farblich hervorgehoben. Über die Checkbox "Ignoriert" können auch fehlerfreie Zeilen gezielt vom Import ausgeschlossen werden.
 
-![course_planner_import_products_v1_de.png](assets/course_planner_import_products_v1_de.png){ class="shadow lightbox" }
+![Ein Produkt mit Importstatus Neu, der Checkbox Ignoriert und den Filtern von Alle bis Mit Änderungen, im Schritt Produkte überprüfen des Import-Assistenten](assets/course_planner_import_products_v1_de.png){ class="shadow lightbox" }
 
 #### Schritt 3: Durchführungen überprüfen {: #step3}
 
@@ -114,7 +114,7 @@ Ist das Modul "Termine und Absenzen" auf der Instanz deaktiviert, werden Termine
 
     Ist ein Kurs mit dem Verwendungszweck "Eigenständig" konfiguriert, wird für Administrator:innen ausnahmsweise nur eine Warnung statt eines Fehlers angezeigt, damit auch ältere, nicht auf den Course Planner umgestellte Kurse importiert werden können. Es wird empfohlen, nur Kurse mit dem Verwendungszweck "Verwendung im Course Planner" zu verwenden [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9424)" }](https://track.frentix.com/issue/OO-9424){:target="_blank"}.
 
-![course_planner_import_implementations_v1_de.png](assets/course_planner_import_implementations_v1_de.png){ class="shadow lightbox" }
+![Die Fehlermeldung zu 38 Elementen und Zeilen mit Fehlersymbolen, automatisch als Ignoriert markiert, im Schritt Implementierungen überprüfen des Import-Assistenten](assets/course_planner_import_implementations_v1_de.png){ class="shadow lightbox" }
 
 #### Schritt 4: Benutzer:innen überprüfen {: #step4}
 
@@ -124,19 +124,19 @@ Die Tabelle zeigt alle Benutzer:innen aus der Excel-Datei mit Anmeldename, Vor- 
 
     Ist auf der Instanz die Option "E-Mail obligatorisch" nicht aktiviert, kann das Feld E-Mail leer bleiben [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}.
 
-![course_planner_import_users_v1_de.png](assets/course_planner_import_users_v1_de.png){ class="shadow lightbox" }
+![Benutzer:innen mit Anmeldename, Name, E-Mail, ORG-Kennzeichen und Kontoablauf, fehlerhafte Zellen rot markiert, im Schritt Benutzer:innen überprüfen](assets/course_planner_import_users_v1_de.png){ class="shadow lightbox" }
 
 #### Schritt 5: Mitgliedschaften überprüfen {: #step5}
 
 Die Tabelle zeigt alle Mitgliedschaften aus der Excel-Datei mit Produkt, Durchführung, Rolle und Anmeldename. Mitgliedschaften können nur neu angelegt, nicht aktualisiert werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9224)" }](https://track.frentix.com/issue/OO-9224){:target="_blank"}.
 
-![course_planner_import_memberships_v1_de.png](assets/course_planner_import_memberships_v1_de.png){ class="shadow lightbox" }
+![Mitgliedschaften mit Produkt- und Durchführungs-Kennzeichen, Rolle und Anmeldename, fehlerhafte Zellen markiert, im Schritt Mitgliedschaften überprüfen](assets/course_planner_import_memberships_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#import_export)
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>

@@ -10,21 +10,19 @@ You can mark particularly relevant questions as **favorites** and find them agai
 
 You can create or import questions in the "My questions" area, in a list or in a group share. However, the question items are always stored under "My questions" and then referenced. 
 
-An overview of the **question types** that can be created and imported can be found in the chapter ["Test Question types"](../learningresources/Test_question_types.md)
+An overview of the **question types** that can be created and imported can be found in the chapter ["Test question types"](../learningresources/Test_question_types.md).
 
 [To the top of the page ^](#create_questions)
-
 
 ## Create questions in the question pool [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #create}
 
 Question items can be created in the question pool using the "Create question" button in QTI 2.1 format and saved directly for further use. 
 
-![Open selection list of the QTI 2.1 question types, from Single Choice to Gap text with dropdown.](assets/Frage_erstellen_typen.png){ class="shadow lightbox" }
+![Open selection list of the QTI 2.1 question types, from Single Choice to Gap text with dropdown.](assets/Frage_erstellen_typen_en.png){ class="shadow lightbox" }
 
 During creation, a title is specified, followed by the question type and finally, if available, the subject area is selected. The questions created in this way can then be imported and used in the OpenOlat learning resource "Test".
 
 [To the top of the page ^](#create_questions)
-
 
 ## Create questions with AI (Artificial Intelligence) [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
@@ -32,7 +30,7 @@ In the question pool, questions can also be created with the help of artificial 
 
 !!! info "Important"
 
-    This function is only available if the [AI module](../../manual_admin/administration/External_Tools_AI.md) is enabled in the administration and at least one matching AI feature is configured with an AI provider and model: "MC Question Generator" for multiple-choice questions, and "Essay Question Generator" and "Essay Grading" for open-text questions with AI correction.
+    This function is only available if the [AI module](../../manual_admin/administration/External_Tools_AI.md) is enabled in the system administration and at least one matching AI feature is configured with an AI provider and model: "MC Question Generator" for multiple-choice questions, and "Essay Question Generator" and "Essay Grading" for open-text questions with AI correction.
 
 You choose one of two modes as source material:
 
@@ -48,7 +46,6 @@ Generation runs in the background. You can leave the dialog open or close it; th
 Please note that the questions must be checked for correctness in each individual case.
 
 [To the top of the page ^](#create_questions)
-
 
 ## Edit the AI grading of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
@@ -76,7 +73,6 @@ With the **"Test feedback"** button you enter a sample answer and see in the pre
 
 [To the top of the page ^](#create_questions)
 
-
 ## Assessment by expert colleagues [:octicons-tag-16:{ title="from Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #review}
 
 Once the first version of a question has been created, it can be submitted to a peer review process.
@@ -84,16 +80,14 @@ Once the first version of a question has been created, it can be submitted to a 
 [Details about the review progress >](Question_Bank_Review_Process.md)<br>
 [To the top of the page ^](#create_questions)
 
-
 ## Share question in the pool [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
 ![Open Share menu with Export, Share in pool and Share in group. Detail view of a question item.](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
 
-Several pools may have been created by the pool administrator. As the author of a question, you can decide in which pool your question is released.
+Several pools may have been created by the question bank manager. As the author of a question, you can decide in which pool your question is released.
 
 [Details about sharing >](Question_Pool_Sharing_Options.md)<br>
 [To the top of the page ^](#create_questions)
-
 
 ## Share question in group [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_with_group}
 
@@ -102,16 +96,19 @@ If you are developing questions together, for example, you can create a workgrou
 [Details about Sharing >](Question_Pool_Sharing_Options.md)<br>
 [To the top of the page ^](#create_questions)
 
-
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Details about the review process >](Question_Bank_Review_Process.md)<br>
+[Details about sharing >](Question_Pool_Sharing_Options.md)
+
+**Further reading**<br>
 [Import questions >](Question_Bank_Import_Questions.md)<br>
-[Question detailed view >](Item_Detailed_View.md)<br>
-[Details of the assessment process >](Question_Bank_Review_Process.md)<br>
-[Details about sharing >](Question_Pool_Sharing_Options.md)<br>
-[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[Item Detailed View >](Item_Detailed_View.md)<br>
+[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 [To the top of the page ^](#create_questions)
 

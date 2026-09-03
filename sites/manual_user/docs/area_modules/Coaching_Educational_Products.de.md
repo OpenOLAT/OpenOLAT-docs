@@ -5,7 +5,7 @@ Ein Bildungsprodukt fasst mehrere Kurse und/oder Kursdurchführungen zu einem ü
 
 Als Betreuer:in können Sie auch für Bildungsprodukte zuständig sein, die aus mehreren Kursen und/oder aus mehreren Durchführungen bestehen. Eine Übersicht über alle Bildungsprodukte, in denen Sie Betreuer:in sind, erhalten Sie im Coaching Tool über den Button "Bildungsprodukte".
 
-![Übersicht des Coaching Tools: der Button "Bildungsprodukte" in der Gruppe Coaching führt zu den Durchführungen, die Sie betreuen](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }
+![Markierter Button Bildungsprodukte in der Gruppe Coaching führt zu den Durchführungen, die Sie betreuen, auf der Einstiegsseite Coaching.](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }
 
 
 ## Woher kommt ein Bildungsprodukt? {: #origin}
@@ -40,7 +40,7 @@ Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abs
 
 Die Liste zeigt Ihre Durchführungen. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört. Wählen Sie im ersten Schritt eine Durchführung aus.
 
-![Liste "Bildungsprodukte" im Coaching Tool: je Zeile eine Durchführung mit Kennzeichen, zugehörigem Produkt, Beginn, Ende und Status](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
+![Je Zeile eine Durchführung mit Kennzeichen, zugehörigem Produkt, Beginn, Ende und Status, in der Liste Bildungsprodukte des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
 
 Die Filter-Tabs "Favoriten", "Alle", "Relevant", "In Vorbereitung" und "Beendet" schränken die Liste ein. Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
@@ -52,7 +52,7 @@ Die Filter-Tabs "Favoriten", "Alle", "Relevant", "In Vorbereitung" und "Beendet"
 
 Durch Klick auf einen Namen öffnen Sie die Baumstruktur dieser Durchführung.
 
-![Geöffnete Durchführung "Office-Tools": der Kopfbereich trägt den Button "Mehr erfahren", darunter zeigt die Baumstruktur die enthaltenen Elemente und Kurse, je Kurs mit einem Link zur Infoseite und einem zum Öffnen](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
+![Button Mehr erfahren im Kopfbereich, darunter die Baumstruktur mit Elementen und Kursen, je Kurs die Links Infoseite und starten, in der geöffneten Durchführung Office-Tools.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
 
 Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren. Der Link "Öffnen" startet den Kurs, der Link "Infoseite" zeigt die [Infoseite des Kurses](../learningresources/Info_page.de.md).
 
@@ -64,10 +64,16 @@ Mit dem **Button "Mehr erfahren"** gelangen Sie zur Infoseite der Durchführung.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Produkte (Produkt erstellen) >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_product)<br>
-[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Coaching: Übersicht >](../../manual_user/area_modules/Coaching.de.md)<br>
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Toolbar: Infoseite >](../learningresources/Info_page.de.md)
+
+**Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>

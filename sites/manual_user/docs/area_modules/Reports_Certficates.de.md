@@ -9,7 +9,7 @@ Diese Seite beschreibt den Aufbau der Excel-Dateien, die mit den [Reportvorlagen
 | Zertifikats-ID   | Zertifikat | Eindeutige Nummer des Zertifikats          |
 | Kurs             | Kurs       | Titel des Kurses                           |
 | Kennzeichen      | Kurs       | Kennzeichen des Kurses                     |
-| Benutzerdaten    | Person     | Konfigurierbar unter `Administration > Customizing > Benutzer:innen-Attribute`, Kontext "Certificates report"; standardmässig Nachname, Vorname und E-mail-Adresse |
+| Benutzerdaten    | Person     | Konfigurierbar in der System-Administration unter `Administration > Customizing > Benutzer:innen-Attribute`, Kontext "Certificates report"; standardmässig Nachname, Vorname und E-Mail-Adresse |
 | Start des Kurses | Kurs       | Datum des ersten Besuchs im Kurs           |
 | Erfolgsstatus    | Kurs       | "Bestanden", "Nicht bestanden" oder "Undefiniert" |
 | Ausgestellt am   | Zertifikat | Ausstellungsdatum des Zertifikats          |
@@ -26,5 +26,13 @@ Das Worksheet "Produkte" listet die Zertifikate der Kurse, die einem Bildungspro
 | Elementtyp  | Course Planner | Titel des Elementtyps         |
 
 Ist ein Kurs mehreren Curriculum-Elementen zugeordnet, werden die Werte in der Zelle mit einem senkrechten Strich getrennt aufgeführt.
+
+[Zum Seitenanfang ^](#certificate_reports)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)
 
 [Zum Seitenanfang ^](#certificate_reports)

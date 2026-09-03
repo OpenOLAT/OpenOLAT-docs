@@ -11,7 +11,7 @@ Verfügbar seit | Release 10.0 (2014)
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der Korrektur von Assessmentbausteinen, dem Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
 Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
-![Einstiegsseite Coaching mit dem markierten Hauptmenü-Eintrag Coaching, den Buttons Personen, Kurse, Bildungsprodukte und Gruppen, den Aufgaben Bewertungsaufträge und Reports, der Auftragsverwaltung sowie den Widgets darunter.](assets/coaching_tools_v2_de.png){ class="shadow lightbox" }
+![Einstiegsseite Coaching mit markiertem Hauptmenü-Eintrag, den Buttons Personen, Kurse, Bildungsprodukte, Gruppen, den Aufgaben Bewertungsaufträge und Reports, der Auftragsverwaltung und den Widgets.](assets/coaching_tools_v2_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -44,7 +44,7 @@ Das Coaching Tool ist fester Bestandteil von OpenOlat und kann nicht deaktiviert
 Ob die Menüoption "Coaching" im Hauptmenü für Sie angezeigt wird, hängt von folgenden Faktoren ab:
 
 * **Systemrolle**: Gäste und Externe können kein Coaching vornehmen.
-* Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen. 
+* Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen.
 * Der **Kursstatus** muss "Veröffentlicht", "Freigabe Betreuer:innen" oder "Beendet" sein.
 * Ob es **Teilnehmende** (mind. 1 Person) in einem Kurs bzw. einer Gruppe hat.
 
@@ -77,7 +77,7 @@ Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsvera
 
 Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. Damit erhalten Sie eine Vorauswahl. In der Liste befinden sich dann nur noch von Ihnen betreute Personen, die Sie in dieser Rolle betreuen.
 
-![Personenliste im Coaching mit markierten Fokus-Elementen über der Tabelle: Als Betreuer:in ist gewählt, daneben stehen Kursbesitzer:in, die Rollen Untergebene:r und Zu Beurteilende sowie Linienvorgesetzte:r zur Wahl.](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
+![Gewählter Fokus Als Betreuer:in, daneben Als Kursbesitzer:in, die Rollen Untergebene:r und Zu Beurteilende sowie Linienvorgesetzte:r, markiert über der Personenliste im Coaching.](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#coaching)
@@ -90,7 +90,7 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 #### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
-![Einstiegsseite Coaching mit markiertem Trennbereich Übersicht: Der Titel Übersicht trennt die Widgets von den darüberliegenden Buttons Personen, Kurse, Bildungsprodukte, Gruppen und den Aufgaben.](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
+![Markierter Trennbereich Übersicht zwischen den Buttons und Aufgaben oben und den Widgets darunter, auf der Einstiegsseite Coaching.](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -119,7 +119,7 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![Markiertes Termine-Widget auf der Coaching-Übersicht: Wochenleiste mit hervorgehobenem heutigem Tag, ein Termineintrag mit Beginn und Dauer sowie der Button Alle anzeigen.](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
+![Wochenleiste mit hervorgehobenem heutigem Tag, ein Termineintrag mit Beginn und Dauer sowie der Button Alle anzeigen, im markierten Termine-Widget der Coaching-Übersicht.](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
 
 #### Leerer Zustand
 
@@ -143,7 +143,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **K
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
-![Markiertes Kurs-Widget auf der Coaching-Übersicht: Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter die Kursliste mit Fortschrittsbalken und der Button Alle anzeigen.](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" }
+![Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen über der Kursliste mit Fortschrittsbalken und dem Button Alle anzeigen, im Kurs-Widget der Coaching-Übersicht.](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" }
 
 Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -169,7 +169,7 @@ Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
 * **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
 * **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
 
-![Bearbeitungsmodus der Coaching-Übersicht mit den markierten Bereichen Aktive Widgets und Verfügbare Widgets, dem Link Zum Dashboard hinzufügen sowie dem geöffneten Menü mit Als Systemstandard speichern und Systemstandard zurücksetzen.](assets/coaching_overview_customize_v1_de.png){ class="shadow lightbox" }
+![Bereiche Aktive Widgets und Verfügbare Widgets, Link Zum Dashboard hinzufügen und Menü mit den Systemstandard-Aktionen, im Bearbeitungsmodus der Coaching-Übersicht.](assets/coaching_overview_customize_v1_de.png){ class="shadow lightbox" }
 
 Mit **"Speichern"** übernehmen Sie Ihre Anordnung, mit **"Abbrechen"** verwerfen Sie die Änderungen. **"Dashboard zurücksetzen"** stellt die Standardanordnung wieder her.
 
@@ -186,7 +186,7 @@ Mit **"Speichern"** übernehmen Sie Ihre Anordnung, mit **"Abbrechen"** verwerfe
 [Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Bildungsprodukte (mehrere Kurse oder Durchführungen als Angebot) >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
+[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>

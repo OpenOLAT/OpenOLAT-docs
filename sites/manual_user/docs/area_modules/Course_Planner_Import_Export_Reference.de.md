@@ -106,6 +106,7 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 | Einheit | Ja bei EVENT | Ja | E2, E6, Änderung wird erkannt |
 | REF - Kennzeichen | Ja bei EVENT mit Kurs | Nein | E2, E5, E4 |
 | Ort | Nein | Ja | W2, Änderung wird erkannt |
+| Räume (nur EVENT) [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} | Nein | Ja | E4 (bei Neuanlage), W5 (bei Update), Änderung wird erkannt |
 | ELEM Typ - Kennzeichen | Ja bei IMPL/ELEM | Nein | E2, E3, E4 |
 | Kalender / Absenzen / Fortschritt | Ja bei IMPL/ELEM/TMPL/COURSE | Ja | E2, E6, W1, Änderung wird erkannt |
 | Fachbereiche | Nein | Ja | E4 (bei Neuanlage), W5 (bei Update), Änderung wird erkannt |
@@ -151,7 +152,7 @@ Benutzer:innen können nur neu angelegt, nicht aktualisiert werden.
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
 

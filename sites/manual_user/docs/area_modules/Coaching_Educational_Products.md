@@ -5,7 +5,7 @@ An educational product groups several courses and/or course implementations into
 
 As a coach, you may also be responsible for educational products that consist of several courses and/or several implementations. You can find an overview of all educational products for which you are a coach in the Coaching Tool via the "Educational products" button.
 
-![Overview of the Coaching Tool: the "Educational products" button in the Coaching group leads to the implementations you supervise](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }
+![Marked button Educational products in the Coaching group leads to the implementations you coach, on the Coaching entry page.](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }
 
 
 ## Where does an educational product come from? {: #origin}
@@ -30,7 +30,7 @@ The button appears when both conditions are met:
 * Administrators have activated the [Course Planner module](../../manual_admin/administration/Modules_Course_Planner.md).
 * You are a coach or an owner in at least one course.
 
-The section [When is the Coaching tool available?](../area_modules/Coaching.md#availability) shows which conditions govern access to the Coaching Tool as a whole.
+The section [When is the Coaching Tool available?](../area_modules/Coaching.md#availability) shows which conditions govern access to the Coaching Tool as a whole.
 
 [To the top of the page ^](#educational_products)
 
@@ -40,7 +40,7 @@ The section [When is the Coaching tool available?](../area_modules/Coaching.md#a
 
 The list shows your implementations. The "Product" column names the educational product each implementation belongs to. In the first step, select an implementation.
 
-![List "Educational products" in the Coaching Tool: one implementation per row with reference, associated product, begin, end and status](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
+![One implementation per row with reference, associated product, begin, end and status, in the list Educational products of the Coaching Tool.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
 
 The filter tabs "Favourites", "All", "Relevant", "In preparation" and "Finished" narrow down the list. For more information on working with filters and filter tabs, see [Working with tables](../basic_concepts/Table_Concept.md).
 
@@ -52,7 +52,7 @@ The filter tabs "Favourites", "All", "Relevant", "In preparation" and "Finished"
 
 Clicking on a name opens the tree structure of that implementation.
 
-![Opened implementation "Office-Tools": the header carries the "Learn more" button, below it the tree structure shows the contained elements and courses, each course with a link to the info page and one to open it](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
+![Button Learn more in the header, below it the tree structure with elements and courses, per course the links Info page and start, in the opened implementation Office-Tools.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
 
 You can now **open** an item in the product **directly** by clicking on it and navigate further from there. The "Open" link launches the course, the "Info page" link shows the [info page of the course](../learningresources/Info_page.md).
 
@@ -64,10 +64,16 @@ The **"Learn more" button** takes you to the info page of the implementation. It
 
 ## Further information {: #further_information}
 
-[Course Planner: Products (create product) >](../../manual_user/area_modules/Course_Planner_Products.md#create_product)<br>
-[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+**Mentioned on this page**<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
+[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Coaching: Overview >](../../manual_user/area_modules/Coaching.md)<br>
+[Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Info page >](../learningresources/Info_page.md)
+
+**Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>

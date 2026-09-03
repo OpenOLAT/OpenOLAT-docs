@@ -1,11 +1,11 @@
-# Reports und Auswertungen
+# Reports und Auswertungen {: #reports}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
 [:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
 
-Buchhaltungs-, Buchungs-, Rechnungs- und Zertifikatsreports stehen direkt im Cockpit bereit.
+Buchhaltungs-, Buchungs-, Rechnungs- und Zertifikatsreports stehen direkt im Course Planner bereit.
 
 ## Wie setze ich das um?
 
@@ -17,13 +17,19 @@ Rolle Kursbesitzer:in, Principal oder Administrator:in; vorhandene Buchungsauftr
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Reports (bzw. Produkt/Durchführung › Tab Reports)
+`Course Planner > Reports`<br>
+`Course Planner > Produkte > "Ihr Produkt" > Tab Reports`<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Reports`
 
 ## Zusammenhänge
 
-Reports beziehen sich auf die userbezogene Organisation (nicht organisationsübergreifend). Der Export ist je Angebotstyp in Arbeitsblätter gegliedert und eignet sich z. B. für die Übergabe an eine externe Rechnungsstellung.
+Reports beziehen sich auf die eigene Organisation (nicht organisationsübergreifend). Der Export ist je Angebotstyp in Arbeitsblätter gegliedert und eignet sich z. B. für die Übergabe an eine externe Rechnungsstellung.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Reports](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Reports/){: target="_blank" rel="noopener" } · [Reports: Buchungsaufträge](https://docs.openolat.org/de/manual_user/area_modules/Reports_BookingOrders/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Reports >](../Course_Planner_Reports.de.md)<br>
+[Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)
+
+[Zum Seitenanfang ^](#reports)

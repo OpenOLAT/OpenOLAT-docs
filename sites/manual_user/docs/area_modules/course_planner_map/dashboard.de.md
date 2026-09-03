@@ -1,11 +1,11 @@
-# Cockpit und Widgets
+# Cockpit und Widgets {: #dashboard}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
 [:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
 
-Das Dashboard ist die Schaltzentrale des Course Planners und begleitet alle Prozessschritte: ausstehende Mitgliedschaften, anstehende Termine, Angebote, Durchführungen, To-dos und Reports, seit 20.3 im übersichtlichen Bento-Layout.
+Das Dashboard ist die Schaltzentrale des Course Planners und begleitet alle Prozessschritte: ausstehende Mitgliedschaften, anstehende Termine, Angebote, Durchführungen, To-dos und Reports.
 
 ## Wie setze ich das um?
 
@@ -23,7 +23,12 @@ Course Planner (Startseite/Dashboard)
 
 Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennzahlen und verlinken in die jeweiligen Bereiche. Eine persönliche Konfiguration überschreibt den Systemstandard, den Administrator:innen für alle festlegen können.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Dashboard](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Dashboard/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Dashboard >](../Course_Planner_Dashboard.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Course Planner: To-dos >](../Course_Planner_Todos.de.md)
+
+[Zum Seitenanfang ^](#dashboard)

@@ -30,7 +30,7 @@ The **"Catalog management"** link is available to
 - System administrators
 - Users who hold the "Manage" competence on a taxonomy level
 
-Whether learning resource managers get the link is set by system administrators in the system administration: `Administration > Modules > Catalog > Settings`, field "Taxonomy editable by".
+Whether learning resource managers get the link is set by system administrators in the system administration: `Administration > Modules > Catalog > Tab "Settings"`, field "Taxonomy editable by".
 
 The **"Jump to administration"** link is available to
 
@@ -69,7 +69,8 @@ Once the competence has been granted, the "Catalog management" link appears for 
 
 The content of learning resources in the catalog is edited in the authoring area. You therefore edit courses [in the authoring area](../area_modules/Authoring.md). They are also deleted there, for example when they have ended.
 
-### Tab Levels  {: #tab_level}
+### Tab Levels {: #tab_level}
+
 The editing options for the subjects (taxonomy levels) include:
 
 - Edit

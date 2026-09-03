@@ -1,14 +1,15 @@
 # Coaching - User search {: #user_search}
 
-![coaching_user_search1_v2_de.png](assets/coaching_user_search1_v2_de.png){ class="shadow lightbox" }
+![Marked search field with the placeholder Who do you want to coach?, the Search button and the Search form link, on the Coaching entry page.](assets/coaching_user_search1_v2_de.png){ class="shadow lightbox" }
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    If you click on the magnifying glass icon without entering a name, you will see a complete list of the people you are responsible for. Here you will find many filter options. 
+    If you click the magnifying glass icon without entering a name, you will see the complete list of the people you coach. Here you will find many filter options.
 
-![coaching_user_search2_v1_de.png](assets/coaching_user_search2_v1_de.png){ class="shadow lightbox" }
+
+![Complete list of the people you coach with the filters Organisations, Not visited, Last visit, Success status and Certificates, after a search without input in Coaching.](assets/coaching_user_search2_v1_de.png){ class="shadow lightbox" }
 
 <br>
-If you use the search form, you can search for many individual characteristics.
+Use the search form to search for many individual characteristics.
 
-![coaching_user_search3_v1_de.png](assets/coaching_user_search3_v1_de.png){ class="shadow lightbox" }
+![Search form with fields from Username to Field of study and the checkbox Only active, under Coaching User search.](assets/coaching_user_search3_v1_de.png){ class="shadow lightbox" }

@@ -1,6 +1,6 @@
 # Kurse finden {: #courses}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank"}
 
 Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der Hauptnavigation oben auf den Punkt "Kurse".
 
@@ -10,8 +10,8 @@ Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourc
 
 Lernressourcen, bei denen Sie Betreuer:in oder Besitzer:in sind, finden Sie im Bereich "Coaching". Unter "Meine Kurse" finden Sie Lernressourcen, bei denen Sie selbst als Teilnehmer:in eingetragen sind. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-!!! tip "Achtung"
-    Sollte Ihnen beide Rollen zugewiesen sein, wird die Lernressource natürlich in beiden "Reitern" angezeigt.
+!!! info "Wichtig"
+    Sollte Ihnen beide Rollen zugewiesen sein, wird die Lernressource in beiden "Reitern" angezeigt.
 
 Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, dazu gehören der Durchführungszeitraum, das Durchführungsformat, der Mitgliedsstatus, die Kursrolle und der Bewertungsstatus (Resultat). Klicken Sie auf den kleinen Pfeil um die weiteren Filteroptionen einzublenden.
 
@@ -36,11 +36,11 @@ Die verfügbaren Durchführungszeiträume stellt die Systemadministration über 
     Mehr dazu, wie Sie Ihre Ansicht optimal filtern können.<br>
     [Filteroptionen und Tabellenkonzept](../basic_concepts/Table_Concept.de.md)
 
-Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die gewünschten Kurse in der Tabellenansicht wie im Screenshot oben oder in der Listensicht anzeigen lassen und auch die gewünschten Anzeigespalten auswählen. 
+Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die gewünschten Kurse in der Tabellenansicht wie im Screenshot oben oder in der Listensicht anzeigen lassen und auch die gewünschten Anzeigespalten auswählen.
 
 ### Suchen
 
-Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Klappen Sie die Filteroption auf um die Suche anhand der Filter weiter einzugrenzen. 
+Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Klappen Sie die Filteroption auf um die Suche anhand der Filter weiter einzugrenzen.
 
 ![Suchfeld mit einem Stichwort, aktive Filter darunter und ein Treffer als Kachel, Tab Suche im Bereich Meine Kurse](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
 
@@ -52,19 +52,19 @@ Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. 
 
 ## Bildungsprodukte
 
-Der Bereich "Bildungsprodukte" wird angezeigt wenn der [Course Planner](../area_modules/Course_Planner.de.md) in der Administration aktiviert wurde. 
+Der Bereich "Bildungsprodukte" wird angezeigt, wenn der [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert ist: `Administration > Module > Course Planner`.
 
-Unter Bildungsprodukte werden dann dem User die Kurse und Lernressourcen angezeigt, die zu den Bildungsgängen (Durchführungen) des Users gehören. Hat sich ein User z.B. in einem Bildungsgang eingeschrieben der mit dem Course Planner organisiert wird, erscheinen hier alle Kurse, die diesem Bildungsgang zugeordnet sind. Ist der User in mehreren Durchführungen eingeschrieben sieht er unter Bildungsprodukte alle zugehörigen Kurse. 
+Unter Bildungsprodukte werden dann den Benutzer:innen die Kurse und Lernressourcen angezeigt, die zu ihren Bildungsgängen (Durchführungen) gehören. Hat sich eine Benutzer:in z.B. in einen Bildungsgang eingeschrieben, der mit dem Course Planner organisiert wird, erscheinen hier alle Kurse, die diesem Bildungsgang zugeordnet sind. Ist die Benutzer:in in mehreren Durchführungen eingeschrieben, sieht sie unter Bildungsprodukte alle zugehörigen Kurse.
 
-Ferner können hier auch nur die Favoriten die aktiven oder beendeten Kurse der Durchführungen angezeigt oder gezielt nach Kursen gesucht werden. Unter Bildungsprodukte gelangen Lernende also schnell und fokussiert zu den für ihren Bildungang/ihr Modul/ihre Durchführung relevanten Kurse und Lernressourcen. 
+Ferner können hier auch nur die Favoriten, die aktiven oder die beendeten Kurse der Durchführungen angezeigt werden, oder es kann gezielt nach Kursen gesucht werden. Unter Bildungsprodukte gelangen Lernende also schnell und fokussiert zu den für ihren Bildungsgang/ihr Modul/ihre Durchführung relevanten Kursen und Lernressourcen.
 
 ## In Vorbereitung
 
-Hier erscheinen die Lernressourcen die den Status "In Vorbereitung" haben und somit noch nicht für Teilnehmende zugänglich sind. Sind Teilnehmende schon als Mitglied der Lernressource eingetragen, erscheint für sie  eine entsprechende Information. 
+Hier erscheinen die Lernressourcen die den Status "In Vorbereitung" haben und somit noch nicht für Teilnehmende zugänglich sind. Sind Teilnehmende schon als Mitglied der Lernressource eingetragen, erscheint für sie eine entsprechende Information.
 
 ![Meldung Inhalt in Vorbereitung mit dem Hinweis auf den Zugriff nach der Veröffentlichung, Kurs im Bereich In Vorbereitung](assets/Kurse_in_Vorbereitung.png){ class="shadow lightbox" }
 
-Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorbereitung" zugänglich. 
+Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorbereitung" zugänglich.
 
 ---
 
@@ -75,7 +75,7 @@ Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorberei
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Course Planner >](../area_modules/Course_Planner.de.md)
 
-**youtube**
+**youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)
 
 [Zum Seitenanfang ^](#courses)

@@ -1,4 +1,4 @@
-# Betreuer/in
+# Betreuer:in {: #role_coach}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -11,7 +11,11 @@ Betreut Teilnehmende in Kursen und Durchführungen: eigene Termine, Absenzenerfa
 
 Begleitet Teilnehmer:innen einer Durchführung oder eines Kurses mit Zugriff auf das Bewertungswerkzeug; nur Betreuer:innen können als Dozent:innen auf Termine gebucht werden.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Rollen und Rechte: Die Rolle «Betreuer:in»](https://docs.openolat.org/de/manual_user/basic_concepts/coach/){: target="_blank" rel="noopener" } · [Rollen und Rechte: Welche Rollen gibt es?](https://docs.openolat.org/de/manual_user/basic_concepts/Roles/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Rollen und Rechte: Die Rolle "Betreuer:in" >](../../basic_concepts/coach.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)
+
+[Zum Seitenanfang ^](#role_coach)

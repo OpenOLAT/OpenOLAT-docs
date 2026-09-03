@@ -2,11 +2,13 @@
 
 Die Projektmitglieder werden in der Regel durch den/die Projektbesitzer:in zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.)
 
-![projekte_mitgliederverwaltung_aufrufen_v1_de.png](assets/projekte_mitgliederverwaltung_aufrufen_v1_de.png){ class="shadow lightbox" }
+Sie öffnen die Mitgliederverwaltung im Projekt über das 3-Punkte-Menü rechts oben: `Projekte > Tab "Meine Projekte" > Projekt wählen > 3-Punkte-Menü > "Mitgliederverwaltung"`.
 
-![projekte_mitgliederverwaltung_v1_de.png](assets/projekte_mitgliederverwaltung_v1_de.png){ class="shadow lightbox" }
+![Eintrag Mitgliederverwaltung im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_mitgliederverwaltung_aufrufen_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+![Mitgliederliste mit Rollen und dem Button Mitglieder hinzufügen auf der Seite Mitgliederverwaltung eines Projekts](assets/projekte_mitgliederverwaltung_v1_de.png){ class="shadow lightbox" }
+
+!!! info "Wichtig"
 
     Den Tab "Administration" sehen nur OpenOlat-Administrator:innen. Projektbesitzer:innen sehen ihn nicht.
 
@@ -17,15 +19,15 @@ Die Projektmitglieder werden in der Regel durch den/die Projektbesitzer:in zu Pr
 
 ## Externe Mitglieder {: #external}
 
-Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Sie können OpenOlat dann für maximal 180 Tage nutzen.
+Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer:innen registriert sind, können sie als externe Mitglieder eingeladen werden. Sie können OpenOlat dann für maximal 180 Tage nutzen.
 
 Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des Links führt ein Wizard das neue Projektmitglied durch Anmeldung und Registration.
 
-![projekte_mitgliederverwaltung_externe_einladen_v1_de.png](assets/projekte_mitgliederverwaltung_externe_einladen_v1_de.png){ class="shadow lightbox" }
+![Option Externe Mitglieder einladen im Pulldown des Buttons Mitglieder hinzufügen auf der Seite Mitgliederverwaltung](assets/projekte_mitgliederverwaltung_externe_einladen_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
-    "Externes Mitglied" ist keine OpenOlat Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann). 
+    "Externes Mitglied" ist keine OpenOlat-Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann).
 
 [Zum Seitenanfang ^](#member_management)
 
@@ -38,12 +40,11 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
 |                                                                                       |
 |**Besitzer:in (Projektbesitzer:in)** | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
-|**Kursbesitzer:in** | tbd | tbd | tbd | :material-cancel: |
 |**Leiter:in (Projektleiter:in)**| bearbeiten | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
 |**Projektbüro** | bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
 |**Teilnehmer:in (Projektmitarbeiter:in)**              | nur lesen | anlegen, bearbeiten, löschen            | :material-cancel: |     :material-cancel:    |
-|**Business-Analyst:in/Lieferant:in**         | nur lesen           | anlegen, bearbeiten, löschen | :material-cancel:| :material-cancel: |
-|**Sponsor:in/Auftraggeber:in**          | nur lesen           | :material-cancel: | :material-cancel: | :material-cancel: |
+|**Business-Analyst:in / Lieferant:in**         | nur lesen           | anlegen, bearbeiten, löschen | :material-cancel:| :material-cancel: |
+|**Sponsor:in / Auftraggeber:in**          | nur lesen           | :material-cancel: | :material-cancel: | :material-cancel: |
 |**Lenkungsausschuss**         | nur lesen          | :material-cancel: | :material-cancel:| :material-cancel: |
 | Rollen, die über mehrere Projekte hinweg agieren können:                                                                                                   |
 |**Projektverwalter:in**                                        | anlegen, bearbeiten, abschliessen, löschen, Tab "Administration" im Bereich Projekte      | sieht keine Inhalte | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |

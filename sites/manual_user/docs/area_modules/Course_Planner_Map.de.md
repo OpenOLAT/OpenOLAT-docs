@@ -1,4 +1,4 @@
-# Course Planner: Anwendungsmap
+# Course Planner: Anwendungsmap {: #course_planner_map}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../Course_Planner/).
@@ -37,14 +37,20 @@ regeln</title><g class="seg"><path d="M 312.4920058203221 220.74415247087143 A 1
 <a href="../course_planner_map/produkt/"><title>Produkt</title><g class="seg"><circle cx="410" cy="360" r="80" fill="#2E6BBF"/><text x="410" y="358" text-anchor="middle" font-size="19.5" style="fill:#fff" font-weight="700">Produkt</text><text x="410" y="378" text-anchor="middle" font-size="12.6" style="fill:#fff" opacity="0.85">enthält Durchführungen</text></g></a>
 <a href="../course_planner_map/dashboard/"><title>Cockpit und Widgets</title><g class="chip"><rect x="21" y="24" width="230" height="46" rx="9" fill="#EEF4FB" stroke="#18188F" stroke-width="1.5"/><text x="136" y="43" text-anchor="middle" font-size="15">Modul Course Planner</text><text x="136" y="60" text-anchor="middle" font-size="12.6" fill="#64748b">Cockpit &amp; Widgets · Layer 3</text></g></a>
 <text x="21" y="748" font-size="13.8" fill="#64748b">Rollen &amp; Konten (gestrichelt = Organisationsrolle)</text>
-<a href="../course_planner_map/rolle_kursplaner/"><title>Kursplaner/in</title><g class="chip"><rect x="98" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5" stroke-dasharray="5 3"/><text x="173" y="782.5" text-anchor="middle" font-size="15">Kursplaner/in</text></g></a>
-<a href="../course_planner_map/rolle_produktbesitzer/"><title>Produktbesitzer/in</title><g class="chip"><rect x="256" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="331" y="782.5" text-anchor="middle" font-size="15">Produktbesitzer/in</text></g></a>
-<a href="../course_planner_map/rolle_elementbesitzer/"><title>Elementbesitzer/in</title><g class="chip"><rect x="414" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="489" y="782.5" text-anchor="middle" font-size="15">Elementbesitzer/in</text></g></a>
-<a href="../course_planner_map/rolle_besitzer/"><title>Besitzer/in</title><g class="chip"><rect x="572" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="647" y="782.5" text-anchor="middle" font-size="15">Besitzer/in</text></g></a>
-<a href="../course_planner_map/rolle_betreuer/"><title>Betreuer/in</title><g class="chip"><rect x="177" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="252" y="830.5" text-anchor="middle" font-size="15">Betreuer/in</text></g></a>
-<a href="../course_planner_map/rolle_klassenlehrer/"><title>Klassenlehrer/in</title><g class="chip"><rect x="335" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="410" y="830.5" text-anchor="middle" font-size="15">Klassenlehrer/in</text></g></a>
-<a href="../course_planner_map/rolle_teilnehmer/"><title>Teilnehmer/in</title><g class="chip"><rect x="493" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="568" y="830.5" text-anchor="middle" font-size="15">Teilnehmer/in</text></g></a>
+<a href="../course_planner_map/rolle_kursplaner/"><title>Kursplaner:in</title><g class="chip"><rect x="98" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5" stroke-dasharray="5 3"/><text x="173" y="782.5" text-anchor="middle" font-size="15">Kursplaner:in</text></g></a>
+<a href="../course_planner_map/rolle_produktbesitzer/"><title>Produktbesitzer:in</title><g class="chip"><rect x="256" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="331" y="782.5" text-anchor="middle" font-size="15">Produktbesitzer:in</text></g></a>
+<a href="../course_planner_map/rolle_elementbesitzer/"><title>Elementbesitzer:in</title><g class="chip"><rect x="414" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="489" y="782.5" text-anchor="middle" font-size="15">Elementbesitzer:in</text></g></a>
+<a href="../course_planner_map/rolle_besitzer/"><title>Besitzer:in</title><g class="chip"><rect x="572" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="647" y="782.5" text-anchor="middle" font-size="15">Besitzer:in</text></g></a>
+<a href="../course_planner_map/rolle_betreuer/"><title>Betreuer:in</title><g class="chip"><rect x="177" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="252" y="830.5" text-anchor="middle" font-size="15">Betreuer:in</text></g></a>
+<a href="../course_planner_map/rolle_klassenlehrer/"><title>Klassenlehrer:in</title><g class="chip"><rect x="335" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="410" y="830.5" text-anchor="middle" font-size="15">Klassenlehrer:in</text></g></a>
+<a href="../course_planner_map/rolle_teilnehmer/"><title>Teilnehmer:in</title><g class="chip"><rect x="493" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="568" y="830.5" text-anchor="middle" font-size="15">Teilnehmer:in</text></g></a>
 </svg>
 </div>
 
 Legende: Konturfarbe = Ebene (Produkt, Durchführung, Element, Kurs) · Fläche = Blau mit Deckkraft-Rampe von innen nach aussen · gestrichelt = angedockte Funktion.
+
+## Weiterführende Informationen {: #further_information}
+
+[Course Planner: Übersicht >](Course_Planner.de.md)
+
+[zum Seitenanfang ^](#course_planner_map)

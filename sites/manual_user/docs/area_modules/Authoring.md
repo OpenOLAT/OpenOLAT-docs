@@ -1,7 +1,7 @@
 
 # Authoring - Overview {: #authoring}
 
-:octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
 
 In "Authoring" OpenOlat authors will find all the tools to create, import and edit courses and other learning resources.
 
@@ -37,13 +37,9 @@ The Author/Owner filter searches across the owner's first name, last name, usern
 ### 8. Search box 
 In the **Search box** you can search directly for the title. Even parts of the title already provide a search result.
 
-You can find out more details on how to use the filter options in the section on the Filter Menu.
+You can find more details on the filter options and the table concept on the page [Working with tables](../basic_concepts/Table_Concept.md).
 
-!!! note "Filter Menu"
-    Description of the filter options and the table concept.<br>
-    [Filter Menu](../basic_concepts/Table_Concept.md)
-
-!!! tip "Hint"
+!!! tip "Tip"
 
     If you cannot find a course or learning resource (anymore), it could possibly be due to the lifecycle. Check the settings there. Perhaps the wrong selection was made.
 
@@ -61,14 +57,14 @@ The column "Ref." shows whether or how often a learning resource has been refere
 ### 10. Download table
 You can download the entire table in the currently displayed state.
 
-### 11. Sort columns [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
+### 11. Sort columns [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
 By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc. Empty entries always appear at the end of the list, regardless of the sort direction.
 
 **Example**: Click on column title "Title of learning resource" to sort the table alphabetically by title. Click again and it will appear in reverse alphabetical order.
 
-The "Status" column (formerly "Life cycle") is always sorted in the following fixed order: Preparation, Review, Access for coach, Published, Finished, Trash.
+The "Status" column is always sorted in the following fixed order: Preparation, Review, Access for coach, Published, Finished, Trash.
 
-#### Sorting by time period [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
+#### Sorting by time period [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
 !!! note "Note"
     The "Time period" column sorts entries chronologically by the time frame and not alphabetically by the short label. The order is:
@@ -82,20 +78,15 @@ The "Status" column (formerly "Life cycle") is always sorted in the following fi
 
 ![Time period column sorted in descending order, identical time periods stand together, the entry without a time period stays at the end of the list](assets/autorenbereich_sort_time_period_v1_de.png){ class="shadow lightbox" }
 
-!!! tip "Tip"
-    The available time periods are provided by the system administration.
-
-!!! note "Module Time periods"
-    How administrators manage time periods.<br>
-    [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
+The available time periods are provided by the system administration. The page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md) describes how administrators manage time periods.
 
 [To the top of the page ^](#authoring)
 
 ---
 
-### 12. Type filter [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
+### 12. Type filter [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
 
-The "Type" filter offers, among others, the following labels: "Audio" (formerly "Sound") as well as an **Others** group, which combines the following types: Test (QTI 1.2, no longer supported), Questionnaire, Movie, Animation, Other file.
+The "Type" filter offers, among others, the following labels: "Audio" as well as an **Others** group, which combines the following types: Test (QTI 1.2, no longer supported), Questionnaire, Movie, Animation, Other file.
 
 [To the top of the page ^](#authoring)
 
@@ -111,7 +102,7 @@ The "Type" filter offers, among others, the following labels: "Audio" (formerly 
 [Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Course design >](../../manual_user/learningresources/Learning_path_course.md)
 
-**youtube**
+**youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)
 
 [To the top of the page ^](#authoring)

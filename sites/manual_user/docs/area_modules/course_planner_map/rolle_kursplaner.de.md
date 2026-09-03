@@ -1,4 +1,4 @@
-# Kursplaner/in
+# Kursplaner:in {: #role_course_planner}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -11,7 +11,10 @@ Organisationsrolle mit Vollzugriff auf den Course Planner: verwaltet Produkte un
 
 Organisationsrolle mit vollem (schreibendem) Zugriff auf den gesamten Course Planner; bei Zuordnung zu einer Organisationseinheit auf deren Course Planner beschränkt.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Rollen und Rechte: Welche Rollen gibt es?](https://docs.openolat.org/de/manual_user/basic_concepts/Roles/){: target="_blank" rel="noopener" } · [Course Planner: Übersicht](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)
+
+[Zum Seitenanfang ^](#role_course_planner)

@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-In the **Reporting** area of the Coaching tool you create Excel reports about the persons you coach or supervise, for example about issued certificates. The report templates are grouped into categories (e.g. Certificates, Absences, Booking orders). Only the templates you are authorised to run are displayed.
+In the **Reporting** area of the Coaching Tool you create Excel reports about the persons you coach, for example about issued certificates. The report templates are grouped into categories (e.g. Certificates, Absences, Booking orders). Only the templates you are authorised to run are displayed.
 
 ## Who can run certificate reports? [:octicons-tag-16:{ title="from Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 
@@ -14,7 +14,7 @@ The report templates of the category "Certificates" are available to the followi
 The report contains the certificate data of the persons you are responsible for in this role.
 
 !!! note "You do not see the Reports button?"
-    The **Reports** button is only displayed if you hold one of the roles mentioned above and the Coaching tool is activated. The page [Assign roles](../basic_concepts/Assign_Roles.md) explains how roles are assigned.
+    The **Reports** button is only displayed if you hold one of the roles mentioned above and the Coaching Tool is activated. The page [Assign roles](../basic_concepts/Assign_Roles.md) explains how roles are assigned.
 
 [To the top of the page ^](#reports)
 
@@ -24,10 +24,10 @@ The report contains the certificate data of the persons you are responsible for 
 
 1. Click `Coaching` in the main menu and select the `Reports` button.
 2. In the **Report templates** section, click the icon in the "Run" column of the desired template (**Generate report**).
-3. The report is generated as an Excel file (.xlsx) and appears in the **Generated reports** section.
+3. The report is generated as an Excel file (.xlsx) and appears in the **Generated report** section.
 4. Click **Download** next to the generated report.
 
-![coaching_reports1_v1_de.png](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Marked column Run with a start icon per report template, below it the still empty section Generated report, in the Reporting area of the Coaching Tool.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
@@ -37,7 +37,7 @@ The report contains the certificate data of the persons you are responsible for 
 
 The **Report templates** table shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
 
-![coaching_reports2_v1_de.png](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Table Report templates with three certificate templates, the columns Name, Category, Description, Type and Run as well as the filter Category, in the Reporting area.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
 
 ### Templates of the category Certificates {: #certificate_templates}
 
@@ -53,11 +53,11 @@ The generated Excel file contains the worksheet "Individual courses" and, if the
 
 ---
 
-## Generated reports [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
+## Generated report [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
 
-The generated Excel files are listed in the **Generated reports** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information.
+The generated Excel files are listed in the **Generated report** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information.
 
-![coaching_reports3_v1_de.png](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Marked section Generated report with one Excel file, the remaining time 10 days left and the actions Info, Copy to, Delete and Download, in the Reporting area.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
@@ -65,8 +65,11 @@ The generated Excel files are listed in the **Generated reports** section. Each 
 
 ## Further information {: #further_information}
 
-[Reports: Certificates >](../area_modules/Reports_Certficates.md)<br>
+**Mentioned on this page**<br>
 [Assign roles >](../basic_concepts/Assign_Roles.md)<br>
+[Reports: Certificates >](../area_modules/Reports_Certficates.md)
+
+**Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
@@ -75,6 +78,6 @@ The generated Excel files are listed in the **Generated reports** section. Each 
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [To the top of the page ^](#reports)

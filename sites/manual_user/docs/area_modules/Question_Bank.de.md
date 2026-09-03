@@ -1,6 +1,6 @@
 # Fragenpool: Übersicht {: #question_bank}
 
-![](assets/question_bank_icon_v1.png)
+![Symbol Fragenpool](assets/question_bank_icon_v1.png)
 
 Der kollaborative Fragenpool in OpenOlat erlaubt Autor:innen, Testfragen als eigenständige Items in einer katalogähnlichen Struktur zu erstellen, zu speichern, zu bearbeiten und weiter zu verwenden. 
 
@@ -12,7 +12,7 @@ Die Fragen können mit anderen Personen, die auch Zugriff auf den Pool haben, ge
 
 **Zugriff** auf einen Fragenpool haben Benutzer:innen mit **Autorenrecht**, sowie administrative Rollen. Diesem Benutzerkreis wird der Fragenpool in der Hauptnavigation in der Kopfzeile angezeigt.
 
-![question_bank_navigation1_v1_de.png](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
+![Eintrag Fragenpool im Hauptmenü markiert, links das Menü mit Mein Fragenpool, Freigaben, Fragen und Administration. Startseite des Fragenpools.](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "Quick Links"
@@ -36,7 +36,7 @@ Items, die unter "**Meine Fragen**" als Favorit gekennzeichnet wurden, erscheine
 
 Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert (Autor:innen beurteilen die erstellten Fragen gegenseitig), dann sind unter "Mein Fragenpool" zusätzlich die eigenen Fächer sichtbar und je nach Berechtigung die **Abschnitte "Beurteilung"** und **"Final"**.
 
-![question_bank_navigation_my_question_bank_v1_de.png](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Bereich Mein Fragenpool mit Meine Fragen, Meine Favoriten und zwei eigenen Listen, rechts die Fragentabelle mit den Aktionsbuttons. Fragenpool.](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#question_bank)
@@ -44,7 +44,7 @@ Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert (Aut
 
 ## Freigaben {: #sharing_options}
 
-Im Bereich "**Freigaben**" werden Pools und Gruppen zum Austausch von Fragen zur Verfügung gestellt. Während Favoriten und Listen der persönlichen Ordnung und Sortierung dienen, sind die Pools die Sammelstelle für alle freigegebenen Items. Bevor ein Item in einem Pool gelistet wird, muss dieses entweder zuerst vom Besitzer freigegeben, oder direkt in den entsprechenden Pool importiert werden. 
+Im Bereich "**Freigaben**" werden Pools und Gruppen zum Austausch von Fragen zur Verfügung gestellt. Während Favoriten und Listen der persönlichen Ordnung und Sortierung dienen, sind die Pools die Sammelstelle für alle freigegebenen Items. Bevor ein Item in einem Pool gelistet wird, muss dieses entweder zuerst von der Besitzer:in freigegeben, oder direkt in den entsprechenden Pool importiert werden. 
 
 Listen, Pools und Gruppen können durch die Administration deaktiviert werden und sind deshalb eventuell nicht sichtbar. 
 
@@ -57,15 +57,11 @@ Im Unterschied zum Abschnitt "**Meine Fragen**" werden hier **alle** Fragen des 
 
 Fragen können auch [mit Hilfe von KI erstellt](Question_Bank_Create_Questions.de.md#create_with_AI) werden, als Multiple-Choice-Fragen und als Freitextfragen mit KI-Korrektur.
 
+Einzelne Fragen, ganze Sektionen oder Tests können auch direkt aus dem [Testeditor](../learningresources/Test_editor_QTI_2.1.de.md) in den Pool exportiert werden. Wählen Sie dazu im Testeditor in der Toolbar: `Export > Zum Pool exportieren`. Abhängig davon auf welcher Stufe Sie sich im Menübaum links befinden, werden entweder einzelne Fragen, einzelne Sektionen oder der ganze Test in den Fragenpool exportiert.
 
+Die Fragen können mit anderen Personen geteilt werden, die entsprechend der Konfiguration in der [System-Administration](../../manual_admin/administration/eAssessment_Question_bank.de.md) Zugriff auf den Pool haben.
 
-
-
-Einzelne Fragen, ganze Sektionen oder Tests können auch direkt aus dem [Testeditor](../learningresources/Test_editor_QTI_2.1.de.md) in den Pool exportiert werden. Wählen Sie dazu im Testeditor in der Toolbar den Link "Export" → "Zum Pool exportieren". Abhängig davon auf welcher Stufe Sie sich im Menübaum links befinden, werden entweder einzelne Fragen, einzelne Sektionen oder der ganze Test in den Fragenpool exportiert.
-
-Der kollaborative Fragenpool in OpenOlat erlaubt Autoren, Testfragen als eigenständige Items in einer katalogähnlichen Struktur zu speichern, zu erstellen, zu bearbeiten und weiter zu verwenden. Die Fragen können mit anderen Personen, die entsprechend der Konfiguration in der OpenOlat [System Administration](../../manual_admin/administration/Customizing.de.md) Zugriff auf den Pool haben, geteilt werden.
-
-Dieses Kapitel erklärt wie einzelne Testfragen, sogenannte Items, mit dem Fragenpool erstellt, bearbeitet und verwaltet werden können. Jedes Item enthält nicht nur die Frage samt den dazugehörigen Antworten, sondern auch Informationen zu z.B. Autor, Erstelldatum, Schlagworte, aber auch Kennwerte zur Itemanalyse können hinzugefügt werden.
+Dieses Kapitel erklärt, wie einzelne Testfragen, sogenannte Items, mit dem Fragenpool erstellt, bearbeitet und verwaltet werden können. Jedes Item enthält nicht nur die Frage samt den dazugehörigen Antworten, sondern auch Informationen zu z.B. Autor:in, Erstelldatum, Schlagworte, aber auch Kennwerte zur Itemanalyse können hinzugefügt werden.
 
 
 [Zum Seitenanfang ^](#question_bank)
@@ -75,17 +71,18 @@ Dieses Kapitel erklärt wie einzelne Testfragen, sogenannte Items, mit dem Frage
 
 [Poolverwalter:innen](Question_Bank_Administration.de.md#pool_manager) bekommen zusätzlich den Bereich Administration des Fragepools angezeigt und haben dort Zugriff auf weitere spezifische Konfigurationen.
 
-![question_bank_navigation_administration_v1_de.png](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Bereich Administration mit Beurteilungsprozess, Fachbereich, Pool-Verwaltung, Fragetyp und Stufe, rechts die Einstellungen des Beurteilungsprozesses. Fragenpool.](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" }
 
 
 [Zu den Details >](Question_Bank_Administration.de.md)<br>
 [Zum Seitenanfang ^](#question_bank)
 
 
-## Weitere Informationen {: #further_info}
+## Weiterführende Informationen {: #further_information}
 
 [Mehr über das Erstellen von Fragen >](Data_Management.de.md)<br>
 [Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
 [Mehr über den Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)
 
 [Zum Seitenanfang ^](#question_bank)

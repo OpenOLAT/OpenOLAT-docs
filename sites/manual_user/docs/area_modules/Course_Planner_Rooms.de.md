@@ -9,19 +9,16 @@ Der Bereich «Raumverwaltung» im Course Planner zeigt Ihnen eine schreibgeschü
 
 ---
 
-## Wer hat Zugriff? {: #access_roles}
+## Wer hat Zugriff? [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9721)" }](https://track.frentix.com/issue/OO-9721){:target="_blank"} {: #access_roles}
 
 Die Raumverwaltung im Course Planner steht folgenden Rollen zur Verfügung:
 
 * Administrator:in
 * Kursplaner:in
-* Produktbesitzer:in
-* Principal
-* Elementbesitzer:in
 
-Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sehen die Raumverwaltung nicht. Ihre Rolle bezieht sich auf die Durchführung des Kurses, nicht auf dessen organisatorische Planung.
+Produktbesitzer:in, Elementbesitzer:in und Principal sehen den Bereich nicht. Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sehen die Raumverwaltung ebenfalls nicht. Ihre Rolle bezieht sich auf die Durchführung des Kurses, nicht auf dessen organisatorische Planung.
 
-Die Ansicht ist für alle genannten Rollen ausschliesslich lesend: Räume und Gebäude anlegen, bearbeiten oder löschen ist im Course Planner nicht möglich, auch nicht für Administrator:innen. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
+Die Ansicht ist für beide Rollen ausschliesslich lesend: Räume und Gebäude anlegen, bearbeiten oder löschen ist im Course Planner nicht möglich, auch nicht für Administrator:innen. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -92,10 +89,11 @@ Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
-[Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)

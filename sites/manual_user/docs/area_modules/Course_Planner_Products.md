@@ -1,6 +1,6 @@
 # Course Planner: Products [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
-![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
+![The Products button, highlighted below the five areas of the Course Planner overview, opened via the Course Planner entry in the More menu](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 
 ## What do we mean by a product in OpenOlat? {: #definition}
@@ -21,13 +21,12 @@ With the Course Planner, an extended, general course planning function is integr
 
 Products are used in **Course Planner** to plan an educational program with several courses and learning resources ("course package"). A product can then be offered in several implementations on different dates.
 
-The implementations of a product can be offered in the [catalog ](../../manual_user/area_modules/catalog2.0_angebote.md).
+The implementations of a product can be offered in the [catalog](../../manual_user/area_modules/catalog2.0_angebote.md).
 
 If participants are not only assigned to a single course as members, but to the [Implementation](../../manual_user/area_modules/Course_Planner_Implementations.md) of a product, the membership is visible to the participants when they select the "Courses" option in the main menu.<br>
-
 Courses that are assigned to a product appear there in the "Educational programs" section.
 
-![course_planner_products_education_programs_v1_de.png](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" }  
+![The Courses area in the main menu: next to My courses and In preparation the Educational programs button, where participants find the courses of their booked implementations](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" }  
 
 [To the top of the page ^](#products)
 
@@ -36,8 +35,7 @@ Courses that are assigned to a product appear there in the "Educational programs
 ## Where and how are products activated? {: #activation}
 
 The Course Planner used to create products is an additional module in OpenOlat and must first be activated.<br>
-Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for activation.
-<br>
+Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for activation.<br>
 If you are not a frentix hosting customer, please ask your system operator.
 
 After activation, system administrators can activate and set up the module at:<br>
@@ -48,30 +46,30 @@ After activation, system administrators can activate and set up the module at:<b
 ---
 
 
-## Create Product {: #create_product}
+## Create product {: #create_product}
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
-![course_planner_products1_v3_de.png](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" }  
+![The way to the products: the Course Planner entry in the More menu opens the overview, where the Products button leads to the subsection](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" }  
 
-![course_planner_products2_v2_de.png](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
+![The Products page in the Course Planner: the Create product button at the top right above the list, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
 
-![course_planner_products3_v2_de.png](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" }
+![The Create product dialog with five numbered fields: Title and Reference are mandatory, plus Organisation, the Absence management switch and the editor for the description](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) **Title**:
+![1](assets/1_green_24.png) **Title**:
 The specification of a title is mandatory.
 
-![2_green_24.png](assets/2_green_24.png) **Indicator**:
-The indicator is also a mandatory field. (It is used as an identifier to differentiate between elements with the same title).
+![2](assets/2_green_24.png) **Reference**:
+The reference is also a mandatory field. (It is used as an identifier to differentiate between elements with the same title).
 
-![3_green_24.png](assets/3_green_24.png) **Organizations**:
+![3](assets/3_green_24.png) **Organizations**:
 When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module.
 
-![4_green_24.png](assets/4_green_24.png) **Absence management**:
+![4](assets/4_green_24.png) **Absence management**:
 With this selection, you determine whether absence management should be used for this product. The prerequisite is that administrators have activated the module and made it available to the course authors, at:<br>
 `Administration > Modules > Events / Absences`
 
-![5_green_24.png](assets/5_green_24.png) **Description**:
+![5](assets/5_green_24.png) **Description**:
 In this editor for the description, you can insert videos in addition to text, images and links or record audio directly by clicking on the microphone button.
 
 [To the top of the page ^](#products)
@@ -87,7 +85,7 @@ With **"Save filter"**, frequently used filter combinations can be saved as your
 
 Course planners work with the "All" view, which shows the active products. Administrators additionally have the predefined filters **"Active"** (selected by default) and **"Deleted"** available.
 
-![course_planner_products_overview_filter_v1_en.png](assets/course_planner_products_overview_filter_v1_en.png){ class="shadow lightbox" }
+![The product list in the Course Planner with the tabs All, Active and Deleted: the Organisation and More filters on the left, the Save filter menu item and the sorting by relevance on the right](assets/course_planner_products_overview_filter_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#products)
 
@@ -100,7 +98,7 @@ Products, implementations and memberships can also be imported or exported via a
 
 !!! note "Import / Export"
 
-    A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export.md).  
+    A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export.md).
 
 [To the top of the page ^](#products)
 
@@ -122,7 +120,7 @@ If a course is managed via the Course Planner, the usage is **"Use in Course Pla
 In the selected course you will find the usage in the **Usage** section under:<br>
 `Course > Administration > Settings > Share`
 
-![Access tab in the settings of a course: the Usage section shows "Use in Course Planner" as the usage, the course is administered by the Course Planner and has no standalone member management](assets/course_planner_products_share_v3_en.png){ class="shadow lightbox" }  
+![The usage Use in Course Planner in the Usage section, hence without standalone member management, in the Share tab of the course settings](assets/course_planner_products_share_v3_en.png){ class="shadow lightbox" }  
 
 [To the top of the page ^](#products)
 
@@ -131,16 +129,20 @@ In the selected course you will find the usage in the **Usage** section under:<b
 
 ## Further information {: #further_information}
 
-[How do I create my first OpenOlat course >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+**Mentioned on this page**<br>
+[Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)
+
+**Further reading**<br>
+[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
-[How can I plan and run a course implementation with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How can I plan and run an educational programme with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)
 
 [To the top of the page ^](#products)
-
-

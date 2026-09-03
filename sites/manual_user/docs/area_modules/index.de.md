@@ -5,12 +5,12 @@ OpenOlat ist modular aufgebaut. Die wichtigsten Bereiche und Module sind allgeme
 Bei aktiviertem Modul ist die Verfügbarkeit im Hauptmenü ausserdem rollenabhängig.<br>
 Die Reihenfolge/Anordnung in der Kopfzeile kann von Administrator:innen bestimmt werden.
 
-![sites_v2_de.png](assets/sites_v2_de.png){ class="shadow lightbox" }
+![Hauptnavigation von OpenOlat mit sechzehn nummerierten Bereichen und Modulen, die weiteren Einträge im aufgeklappten Menü Mehr](assets/sites_v2_de.png){ class="shadow lightbox" }
 
 
 ## Portal {: #portal}
 
-![1_green_24.png](assets/1_green_24.png){ class=" aside-left-lg" }
+![1](assets/1_green_24.png){ class=" aside-left-lg" }
 
 Wenn die Portalfunktion eingeschaltet ist, können auf der Portalseite (Einstiegsseite) verschiedene Informationen und Schnellzugänge angeboten werden.
 
@@ -20,9 +20,9 @@ Wenn die Portalfunktion eingeschaltet ist, können auf der Portalseite (Einstieg
 
 ## Kurse {: #courses}
 
-![2_green_24.png](assets/2_green_24.png){ class=" aside-left-lg" }
+![2](assets/2_green_24.png){ class=" aside-left-lg" }
 
-Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle Lerninhalte innerhalb von Kursen angeboten. 
+Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle Lerninhalte innerhalb von Kursen angeboten.
 
 [Zu den Details >](Courses.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -30,9 +30,9 @@ Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle L
 
 ## Gruppen {: #groups}
 
-![3_green_24.png](assets/3_green_24.png){ class=" aside-left-lg" }
+![3](assets/3_green_24.png){ class=" aside-left-lg" }
 
-Gruppen können für unterschiedliche Zwecke verwendet werden, z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unabhängige Online-Lernen. 
+Gruppen können für unterschiedliche Zwecke verwendet werden, z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unabhängige Online-Lernen.
 
 [Zu den Details >](Group_Management.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -40,10 +40,9 @@ Gruppen können für unterschiedliche Zwecke verwendet werden, z.B. vereinfachen
 
 ## Katalog {: #catalog}
 
-![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
+![4](assets/4_green_24.png){ class=" aside-left-lg" }
 
-Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies von OpenOlat [Administrator:innen aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Der Katalog erscheint als eigener Menüpunkt. Das gilt sowoohl für den [Katalog 1.0](../area_modules/catalog1.0.de.md) als auch für den [Katalog 2.0](../area_modules/catalog2.0.de.md). 
-
+Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies von OpenOlat [Administrator:innen aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Der Katalog erscheint als eigener Menüpunkt. Das gilt sowohl für den [Katalog 1.0](../area_modules/catalog1.0.de.md) als auch für den [Katalog 2.0](../area_modules/catalog2.0.de.md).
 
 [Zu den Details >](catalog2.0.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -51,9 +50,9 @@ Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies
 
 ## Autorenbereich {: #authoring}
 
-![5_green_24.png](assets/5_green_24.png){ class=" aside-left-lg" }
+![5](assets/5_green_24.png){ class=" aside-left-lg" }
 
-In diesem zentralen Bereich finden OpenOlat Autoren alles, was zum Erstellen neuer Kurse erforderlich ist.
+In diesem zentralen Bereich finden OpenOlat Autor:innen alles, was zum Erstellen neuer Kurse erforderlich ist.
 
 [Zu den Details >](Authoring.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -62,7 +61,7 @@ In diesem zentralen Bereich finden OpenOlat Autoren alles, was zum Erstellen neu
 
 ## Fragenpool {: #question_bank}
 
-![6_green_24.png](assets/6_green_24.png){ class=" aside-left-lg" }
+![6](assets/6_green_24.png){ class=" aside-left-lg" }
 
 Der Fragenpool ist ein Bereich, in dem Test-Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
 
@@ -72,7 +71,7 @@ Der Fragenpool ist ein Bereich, in dem Test-Fragen zur Wiederverwendung gesammel
 
 ## Dokumentenpool
 
-![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
+![7](assets/7_green_24.png){ class=" aside-left-lg" }
 
 Der Dokumentenpool ist eine taxonomiebasierte, kursübergreifende Dokumentenverwaltung.
 
@@ -83,7 +82,7 @@ Der Dokumentenpool ist eine taxonomiebasierte, kursübergreifende Dokumentenverw
 
 ## Bibliothek  {: #library}
 
-![8_green_24.png](assets/8_green_24.png){ class=" aside-left-lg" }
+![8](assets/8_green_24.png){ class=" aside-left-lg" }
 
 In der Bibliothek können unterschiedliche Dokumente (Office-Dokumente, Bild-Dateien, usw.) allen Benutzer:innen zur Verfügung gestellt werden.
 
@@ -94,7 +93,7 @@ In der Bibliothek können unterschiedliche Dokumente (Office-Dokumente, Bild-Dat
 
 ## Video Collection  {: #video_collection}
 
-![9_green_24.png](assets/9_green_24.png){ class=" aside-left-lg" }
+![9](assets/9_green_24.png){ class=" aside-left-lg" }
 
 Die Video Collection ist eine Sammlung aller freigegebenen Video-Lernressourcen Ihrer OpenOlat-Instanz.
 
@@ -105,20 +104,20 @@ Die Video Collection ist eine Sammlung aller freigegebenen Video-Lernressourcen 
 
 ## Projekte  {: #projects}
 
-![10_green_24.png](assets/10_green_24.png){ class=" aside-left-lg" }
+![10](assets/10_green_24.png){ class=" aside-left-lg" }
 
-Hier finden Sie ein Tool für die kooperative Projekt-Arbeit mit Terminen, ToDos, Entscheid-Doku, gemeinsamen Dokumenten und mehr. 
+Hier finden Sie ein Tool für die kooperative Projekt-Arbeit mit Terminen, ToDos, Entscheid-Doku, gemeinsamen Dokumenten und mehr.
 
 [Zu den Details >](Project_Overview.de.md)<br>
 [Zum Seitenanfang ^](#sites)
 
 
 
-## Course Planner  {: #course_planner}
+## Course Planner [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834) {: #course_planner}
 
-![11_green_24.png](assets/11_green_24.png){ class=" aside-left-lg" }
+![11](assets/11_green_24.png){ class=" aside-left-lg" }
 
-Ab :octicons-tag-24: Release 20 wurde eine erweiterte, allgemeine Kursplanung in OpenOlat integriert.
+Der Course Planner ist die erweiterte, allgemeine Kursplanung in OpenOlat.
 
 [Zu den Details des Course Planners >](Course_Planner.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -127,9 +126,9 @@ Ab :octicons-tag-24: Release 20 wurde eine erweiterte, allgemeine Kursplanung in
 
 ## Benutzerverwaltung {: #user_management}
 
-![12_green_24.png](assets/12_green_24.png){ class=" aside-left-lg" }
+![12](assets/12_green_24.png){ class=" aside-left-lg" }
 
-In der Benutzerverwaltung können neue Benutzer importiert oder angelegt und konfiguriert werden. 
+In der Benutzerverwaltung können neue Benutzer:innen importiert oder angelegt und konfiguriert werden.
 
 [Zu den Details >](../../manual_admin/usermanagement/index.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -137,9 +136,9 @@ In der Benutzerverwaltung können neue Benutzer importiert oder angelegt und kon
 
 ## Coaching  {: #coaching}
 
-![13_green_24.png](assets/13_green_24.png){ class=" aside-left-lg" }
+![13](assets/13_green_24.png){ class=" aside-left-lg" }
 
-Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewertungen und Aktionen durchzuführen. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md), das innerhalb eines bestimmten Kurses verwendet wird.) 
+Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewertungen und Aktionen durchzuführen. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md), das innerhalb eines bestimmten Kurses verwendet wird.)
 
 [Zu den Details >](Coaching.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -147,10 +146,9 @@ Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewer
 
 ## Absenzenverwaltung {: #absence_management}
 
-![14_green_24.png](assets/14_green_24.png){ class=" aside-left-lg" }
+![14](assets/14_green_24.png){ class=" aside-left-lg" }
 
-Ab :octicons-tag-24: Relase 20 werden Absenzen in diesem separaten Modul verwaltet.
-
+Absenzen werden in diesem separaten Modul verwaltet.
 
 [Zu den Details >](Absence_Management.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -158,7 +156,7 @@ Ab :octicons-tag-24: Relase 20 werden Absenzen in diesem separaten Modul verwalt
 
 ## Qualitätsmanagement {: #quality_management}
 
-![15_green_24.png](assets/15_green_24.png){ class=" aside-left-lg" }
+![15](assets/15_green_24.png){ class=" aside-left-lg" }
 
 Die Organisation von Befragungen (Datenerhebungen) mit Formularen kann durch ein Zusatzmodul "Qualitätsmanagement" kursübergreifend bewerkstelligt werden.
 
@@ -168,11 +166,9 @@ Die Organisation von Befragungen (Datenerhebungen) mit Formularen kann durch ein
 
 ## Administration  {: #administration}
 
-![16_green_24.png](assets/16_green_24.png){ class=" aside-left-lg" }
+![16](assets/16_green_24.png){ class=" aside-left-lg" }
 
 Dieser Menüpunkt wird nur Administrator:innen angezeigt. Mit entsprechendem Recht können hier die Verwaltungs- und Einrichtungsoptionen zur OpenOlat-Instanz aufgerufen werden.
 
 [Zum Administrationshandbuch >](../../manual_admin/administration/System.de.md)<br>
 [Zum Seitenanfang ^](#sites)
-
-

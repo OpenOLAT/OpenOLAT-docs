@@ -1,18 +1,18 @@
-# Projects - Administration
+# Projects - Administration {: #administration}
 
-To access the project administration of your project, open the desired project and click on the 3 dots at the top right. Several administrative options appear in the expanded menu. 
+To access the project administration of your project, open the desired project and click on the 3 dots at the top right. Several administrative options appear in the expanded menu.
 
 The administration of a project includes
 
-* the configuration and display of the start page (edit project) 
-* the [member management](../area_modules/Project_Member_Management.md) of the project
-* the option to download [Reports](../area_modules/Project_Report.md)
+* the configuration and display of the start page (edit project)
+* the [members management](../area_modules/Project_Member_Management.md) of the project
+* the option to download [reports](../area_modules/Project_Report.md)
 * copying projects
 * saving projects as a template
-* ending and completing projects
+* ending and closing projects
 * deleting projects
 
-!!! info "Info"
+!!! info "Important"
 
     Which menu items appear in the area depends on the project role.
 
@@ -20,101 +20,106 @@ The administration of a project includes
 
 "Edit project" does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
 
-![projekte_admin_projekt_bearbeiten_v2_de.png](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
+![Entry Edit project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
 
-![projekte_admin_projekt_bearbeiten_popup_v1_de.png](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
+![Dialog Edit project with the details and images of the project start page](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
 
 
-## Copy projects
+## Copy project
 
-![projekte_admin_projekt_kopieren_v2_de.png](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
+![Entry Copy project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
 
-The following will be copied:
+The following are copied:
 
-* all To-dos
-* all Decisions
-* all Notes
-* all Files
+* all to-dos
+* all decisions
+* all notes
+* all files
 
-The following **will not** be copied:
+The following are **not** copied:
 
-* Project members
+* project members
 
-The following will **partially** be copied:
+The following are **partially** copied:
 
-* Dates and milestones (are copied without date)
+* appointments and milestones (are copied without date)
 
 
 ## Project templates
 
 It simplifies the creation of a new project if a template can be used.
 
-A created project can be saved as a template. To do this, select the “Save as template” option in the 3-dot menu. 
+A created project can be saved as a template. To do this, select the option "Save as template" in the 3-dot menu.
 
-![projekte_admin_als_vorlage_speichern_v2_de.png](../area_modules/assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
+![Entry Save as template in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
 
-A menu appears. Here you can specify, among other things, whether the template should only be available for your own use or for all members of the organizational unit.
+A menu appears. Here you can specify, among other things, whether the template should only be available for your own use or for all members of the organisational unit.
 
-You can also create a blank template in the Project Templates tab, which is often a more useful option. 
+You can also create an empty template in the tab "Project templates", which is often a more useful option.
 
-![projekte_admin_leere_vorlage_v1_de.png](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
+![Button Create empty template in the tab Project templates of the Projects area](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
 
 
-## Close and finalize Projects
+## Close projects
 
-![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
+![Entry Close project in the 3-dot menu at the top right of the cockpit of a project](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 If a project is closed, all project members subsequently have read-only access.
 
 A project can only be closed by
 
-* Project owners,
-* Project leaders,
-* Project office staff,
-* Administrators,
+* project owners,
+* project leaders,
+* project office staff,
+* administrators,
 * and project managers.
 
-!!! Note "Note"
+!!! info "Important"
 
-    Through these people, a project can also be reactivated.
+    These people can also reopen a project.
 
 
+## Delete project
 
-## Delete Project
-
-![projekte_admin_loeschen_v1_de.png](../area_modules/assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
+![Entry Delete project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
 
 Projects can only be deleted by
 
-* the project owners,
-* Administrators,
+* the project owner,
+* administrators,
 * and project managers.
 
-!!! Note "Note"
 
-    By deleting a project, it appears in the "Deleted" list. The projects can only be viewed there, but no longer edited.
+!!! info "Important"
+
+    By deleting a project, it appears in the list "Deleted". The projects can only be viewed there, but no longer edited.
 
 
-## Tab Project administration 
+## Tab Project administration
 
-OpenOlat Administrators and project managers have another tab "Administration" under the menu item "Projects".
+OpenOlat administrators and project managers have another tab under the menu item "Projects": `Projects > Tab "Administration"`.
 
-![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+![Tab Administration in the Projects area with the filters No activity recently, To delete, Closed and Deleted above the project list](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
 
 The following (filter) functions are available there for your administrative tasks:
 
 * **No activity recently**<br>
-This list contains projects in which there has been no activity for more than 28 days. Their status can be "active" or "completed". Projects in this list should be checked to see if they can be closed or deleted. (You can check with the project owner).
+This list contains projects in which there has been no activity for more than 28 days. Their status can be "active" or "closed". Projects in this list should be checked to see whether they can be closed or deleted. (You can check with the project owner.)
 
 * **To delete**<br>
-The "To deleted" list only appears in the "Administration" tab. It displays projects with the status "completed" that also have no recent activity.
+The list "To delete" only appears in the tab "Administration". It displays projects with the status "closed" that also have no recent activity.
 
-* **Closed**<br>s
+* **Closed**<br>
 If projects have been closed for a long time, project managers can use this list to ask whether projects can be deleted.<br>
-Completed projects can still be reactivated.
+Closed projects can still be reopened.
 
 * **Deleted**<br>
 Deleted projects can still be viewed, but no longer edited.
 
 
+## Further information {: #further_information}
 
+[Projects: Member Management >](../area_modules/Project_Member_Management.md)<br>
+[Projects - Project report >](../area_modules/Project_Report.md)
+
+[To the top of the page ^](#administration)

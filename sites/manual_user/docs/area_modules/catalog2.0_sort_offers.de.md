@@ -11,14 +11,14 @@ Auf der **Startseite** des Katalogs wird die Reihenfolge der Objekte durch die L
 
 ![Vier nummerierte Launcher bestimmen die Reihenfolge auf der Katalog-Startseite: Begrüssungstext, Kategorien, Beliebte Kurse, Zuletzt veröffentlichte Ressourcen](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Wie zeige ich meine Kurse im Katalog?"
+!!! note "Wie zeige ich meine Kurse im Katalog?"
     Anleitung zum Anzeigen von Kursen im Katalog.<br>
     [Wie zeige ich meine Kurse im Katalog? >](../../manual_how-to/catalog/catalog.de.md)
 
 
 ### Reihenfolge der Launcher festlegen {: #sorting_startpage_launcher}
 
-Die Reihenfolge der Launcher (Abschnitte auf der Startseite) wird festgelegt unter:<br>
+Die Reihenfolge der Launcher (Abschnitte auf der Startseite) wird in der System-Administration festgelegt unter:<br>
 `Administration > Module > Katalog > Tab "Startseite"`
 
 Die Reihenfolge kann durch Klick auf die Doppelpfeile zu Beginn der Zeilen festgelegt werden.
@@ -34,7 +34,7 @@ Die Reihenfolge kann durch Klick auf die Doppelpfeile zu Beginn der Zeilen festg
 
 Innerhalb eines Launcher hängt die Reihenfolge der Angebote vom Launchertyp ab:
 
-!!! info "Launchertyp"
+!!! note "Launchertyp"
     Konfiguration der Launchertypen in der Administration.<br>
     [Launchertyp >](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page)
 
@@ -43,8 +43,7 @@ Innerhalb eines Launcher hängt die Reihenfolge der Angebote vom Launchertyp ab:
 Es erfolgt keine automatische Sortierung.
 
 **Launchertyp "Beliebte Kurse":**<br>
-Die Reihenfolge der Angebote wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. 
-Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
+Die Reihenfolge der Angebote wird durch die Anzahl der Klicks auf Kursbausteine während der letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Veröffentlicht" berücksichtigt.
 
 **Launchertyp "Zuletzt veröffentlicht":**<br>
 Die Angebote sind nach Veröffentlichungsdatum geordnet.
@@ -53,11 +52,11 @@ Die Angebote sind nach Veröffentlichungsdatum geordnet.
 Zufallsreihenfolge
 
 **Launchertyp "Taxonomieebene":**<br>
-In einem Launcher vom Typ "Taxonomielevel" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Kurse und Lernressourcen zu finden sind.<br> 
-Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet in einer Microsite aufgelistet,  die sich beim Klick auf einen der Taxonimielevel in einem Taxonomie-Launcher öffnet.
+In einem Launcher vom Typ "Taxonomielevel" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Kurse und Lernressourcen zu finden sind.<br>
+Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet in einer Microsite aufgelistet, die sich beim Klick auf einen der Taxonomielevel in einem Taxonomie-Launcher öffnet.
 
 **Launchertyp "Ausgewählte Lernressourcen":**<br>
-Die manuell hinzugefügten Lernressourcen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.  
+Die manuell hinzugefügten Lernressourcen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.
 
 **Launchertyp "Ausgewählte Durchführungen":**<br>
 Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.
@@ -76,11 +75,12 @@ Soll ein Launcher Unterkategorien anzeigen, wird ein Launcher vom Typ "Taxonomie
 Die Reihenfolge der Einträge innerhalb des Taxonomie-Launchers (Reihenfolge der Unterseiten/Kategorien im Katalog) wird durch die Struktur der Taxonomie bestimmt und muss deshalb via Taxonomie geändert werden.<br>
 `Administration > Module > Taxonomie > Aktivierung einer Taxonomie für Lernressourcen/Katalog`
 
-Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher: 
+Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
+
 ![Taxonomieebenen des Katalogs mit dem offenen Zeilenmenü und der Option Bearbeiten, Tab Ebenen der Taxonomie](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
 
-* Wählen Sie unter den 3 Punkten die Option zum Bearbeiten einer Taxonomieebene.<br> 
-* Im Tab "Metadaten" finden Sie das Feld zur Angabe der Sortierung.<br> 
+* Wählen Sie unter den 3 Punkten die Option zum Bearbeiten einer Taxonomieebene.<br>
+* Im Tab "Metadaten" finden Sie das Feld zur Angabe der Sortierung.<br>
 * Die hier für die Taxonomie angegebene Zahl bestimmt auch die Position innerhalb des Launchers. (Im oben gezeigten Beispiel: 0 = 1. Unterseite/Kategorie, 1 = 2. Unterseite/Kategorie, 2 = 3. Unterseite/Kategorie => im Katalog an dritter Position)
 
 ![Feld Sortierung mit dem Wert 2 bestimmt die Position der Unterseite, Tab Metadaten einer Taxonomieebene](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
@@ -134,7 +134,7 @@ Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch **
 
 ### Sortierung nach Priorität [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-9039)" }](https://track.frentix.com/issue/OO-9039){:target="_blank"} {: #sorting_microsites_by_priority}
 
-Die "Sortierung nach Priorität" aktiviert eine Administratorin oder ein Administrator in der System-Administration unter:<br>
+Die "Sortierung nach Priorität" aktivieren Administrator:innen in der System-Administration unter:<br>
 `Administration > Module > Katalog > Tab "Einstellungen" > Toggle-Button "Sortierung nach Priorität"`
 
 Danach erscheint der Sortier-Button rechts oben über einer Auflistung. Sein Standardkriterium ist "Relevanz".
@@ -163,6 +163,7 @@ Ist kein Datum angegeben, werden die Einträge ohne Datum nach denen mit Datum a
 `Course Planner > Durchführung > Tab Katalog > Button "Angebote" > Abschnitt "Angebot Übersicht" > Klick auf "anpassen"`
 
 Beispiel Course Planner:
+
 ![Zeile Katalog Priorität bei Sortierung mit dem Link anpassen, Tab Katalog einer Durchführung im Course Planner](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#catalog_sort)
@@ -172,7 +173,7 @@ Beispiel Course Planner:
 
 ### Welche Prioritäten können gesetzt werden? {: #sorting_microsites_priorities}
 
-Als Priorität kann ein voreingestellter Boost-Wert gewählt oder ein eigener Bostwert eingegeben werden.
+Als Priorität kann ein voreingestellter Boost-Wert gewählt oder ein eigener Boost-Wert eingegeben werden.
 Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeigt. Mit eigenen benutzerdefinierten Boost-Werten kann eine Feinjustierung in der Anzeigereihenfolge vorgenommen werden.
 
 - Normal (Boost-Wert 0)

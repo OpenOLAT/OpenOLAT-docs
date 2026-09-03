@@ -8,12 +8,12 @@ Die Übersicht zeigt zum Beispiel:
 - die Buttons zum Zugriff auf die nachstehend beschriebenen Bereiche/Funktionen,
 - sowie die Suche.
 
-![course_planner_overview_v5_de.png](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" }  
+![Das Dashboard des Course Planners mit Suche, den Zugriffs-Buttons in drei Bereichen und den Widgets Durchführungen und To-do mit ihren Kennzahlen](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" }  
 
 Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
 Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
 
-![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
+![Das Suchresultat mit dem geöffneten Filter Status von In Vorbereitung bis Gelöscht, nach einer Suche im Course Planner](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
 
 Unterhalb der Buttons und der Suche zeigt die Übersichtsseite einen Bereich mit **Widgets** (Kacheln) in einem responsiven Layout: Je nach Bildschirmbreite passt sich die Anordnung der Kacheln automatisch an.
 
@@ -47,7 +47,7 @@ Widgets (z.B. das Durchführungs-Widget) können Sie über :o_icon_o_icon_custom
 
 Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen Sie sie.
 
-![course_planner_widget_settings_v1_de.png](assets/course_planner_widget_settings_v1_de.png){ class="shadow lightbox" }
+![Das Popover Einstellungen mit der Hauptkennzahl Relevant und den wählbaren Kennzahlen, geöffnet über das Zahnrad-Symbol des Durchführungs-Widgets](assets/course_planner_widget_settings_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#dashboard)
 
@@ -62,7 +62,7 @@ Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
 * **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
 * **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
 
-![course_planner_overview_customize_v1_de.png](assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" }
+![Die Bereiche Aktive Widgets und Verfügbare Widgets mit Kachel bewegen, Zum Dashboard hinzufügen und dem Menü Als Systemstandard speichern, im Bearbeitungsmodus des Dashboards](assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
 
@@ -84,7 +84,7 @@ Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstand
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)<br>

@@ -1,124 +1,136 @@
 # Quality Management: Data collections {: #Quality_Management_Data_Collections}
 
 
-## What's a data collection? {: #definition}
+## What is a data collection? {: #definition}
+
 
 !!! info "Summary"
 
-    Questioned in a data collection are...
+    In a data collection
 
-    * ... a certain **group of people**
+    * a certain **group of people**
     * in a certain **time window**
-    * about a certain **topic**
-    * in a certain **form**
-  
+    * on a certain **topic**
+    * is surveyed with a certain **form**.
 
-* In order to obtain feedback on the quality of teaching, courses, lecturers, etc., a questionnaire (learning resource form) is submitted to a specific group of people for completion.
-* E-mails with a link to the form learning resource are then sent at the specified time.
-* Participant entries are evaluated by the "Quality Management" module, e.g. across different courses.
-* At the end, a report is generated which can be accessed by a defined group of people.
-* The data surveys are created in the "Quality Management" module.
 
-![quality_management_scheme_data_collection_v1_de.png](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
+* In order to obtain feedback on the quality of teaching, courses, lecturers, etc., a questionnaire (form learning resource) is submitted to a specific group of people for completion.
+* Emails with a link to the form learning resource are then sent at the specified time.
+* The participants' entries are evaluated by the "Quality management" module, e.g. also across different courses.
+* At the end, a report is generated which a definable group of people can access.
+* The data collections are created in the "Quality management" module.
+
+![One form learning resource is used in two data collections, each with its own group of people and submission deadline](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
+
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
 ---
 
 
-## Create new data collections {: #create_data_collections}
+## Create new data collection {: #create_data_collections}
 
-If you have the appropriate authorization (role), **Quality management** will appear in your main navigation. Click on the link in the **"Data collection"** section.
+If you have the appropriate authorization (role), **Quality management** appears in your main navigation. Click on the link in the section **"Data collections"**.
 
-![quality_management_data_collection_v1_de.png](assets/quality_management_data_collection_v1_de.png){ class="shadow lightbox" }
+![Section Data collections and entry Quality management in the More menu highlighted, start page of the quality management](assets/quality_management_data_collection_v1_de.png){ class="shadow lightbox" }
 
 Create a new data collection there.
 
-![quality_management_data_collection_create_v1_de.png](assets/quality_management_data_collection_create_v1_de.png){ class="shadow lightbox" }
+![Button Create data collection highlighted, above the empty list of data collections with the status filters All to Finished](assets/quality_management_data_collection_create_v1_de.png){ class="shadow lightbox" }
 
-You will first be asked to specify a form learning resource.
+You are first asked to specify a form learning resource.
 Select an existing one or create a new one.
 
-![quality_management_data_collection_select_form_v1_de.png](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
+![Dialog Select form with one published form learning resource to choose from and the buttons Create and Import](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
 
-The properties and functionality of data collection are defined in 5 tabs. E-mails with a link to the form will be sent to the participants specified here at the specified time. At the end, a report is generated to which the persons named in the "Report authorizations" tab have access. (As soon as a report is available, another "Report" tab is displayed).
+The properties and functionality of the data collection are defined in 5 tabs. At the specified time, emails with a link to the form are sent to the participants specified here. At the end, a report is generated to which the persons named in the tab "Report access" have access.
+(As soon as a report is available, a further tab "Report" is displayed.)
 
-![quality_management_data_collection_config_v1_de.png](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
+![Tab Configuration of a data collection with title, period From and To, linked form, organizations and topic type, above it the five tabs and the status Preparation](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
+
 
 
 ### Tab "Configuration" {: #tab_config}
 
-After the start of data collection, all participants can complete and submit the form selected here during the specified period. After this deadline, it is no longer possible to submit the form. 
+After the start of the data collection, all participants can complete and submit the form selected here during the specified period. After this deadline, it is no longer possible to submit the form.
 
-At the end of the submission period, the report is available to all persons listed in the "Report authorizations" tab.
+At the end of the submission period, the report is available to all persons listed in the tab "Report access".
+
 
 ### Tab "Participants" {: #tab_participants}
 
-In this tab, the group of respondents is defined, i.e. who receives the invitation to participate with the link to the form by email.
+In this tab, the group of surveyed persons is defined, i.e. who receives the invitation to participate with the link to the form by email.
 
-Groups of people can be searched for or added using the "Add participants" button. An invitation via email list is also possible.
+Groups of people can be searched for or taken over using the button "Add participants". An invitation via mail list is also possible.
 
-A link can be generated by activating the toggle button “Access via public link”. Anyone who uses this link can then participate in the data collection without being registered as an OpenOlat user.
+A link can be generated by activating the toggle button "Access via public link". Any person who uses this link can then participate in the data collection without being registered as an OpenOlat user.
 
-![quality_management_data_collection_config_tab_participants_v1_de.png](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
+![Toggle Access via public link and menu Add participants with Search user, Import from course, Import from curriculum element and Email invitation highlighted, tab Participants of a data collection](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
+
 
 ### Tab "Reminders" {: #tab_reminders}
 
-Various reminder emails can be prepared which are sent automatically when the selected shipping conditions are met.
+Various reminder emails can be prepared, which are sent automatically when the selected dispatch conditions are met.
 
-The invitation is an email to the participants with a link to the form. If no information is provided, no email will be sent and participants must be informed by other means. (E.g. by lecturers in class.)
+The invitation is an email to the participants with the link to the form. If no information is provided, no email is sent and the participants must be informed by other means. (E.g. by lecturers in class.)
+
 
 ### Tab "Action to-dos" {: #tab_action_to_dos}
-The results of data surveys or a specific participant survey can be responded to directly with appropriate measures. Necessary to-dos can be created contextually and delegated directly to the relevant persons. You will be informed of a new to-do by email. All to-dos are available in the new section ["Action To-dos"](Quality_Management_To-dos.md).
 
-## Tab "Permission report" {: #tab_permission_report}
+The results of data collections or a specific participant survey can be responded to directly with appropriate actions. Necessary to-dos can be created in context and delegated directly to the persons concerned. They are informed of a new to-do by email. All to-dos are available in the section ["Actions (To-dos)"](Quality_Management_To-dos.md).
 
-Once data collection has been completed, the reports can be accessed by the listed persons.
-In the "Permissions report" tab, you can determine<br>
+
+### Tab "Report access" {: #tab_permission_report}
+
+Once a data collection has been finished, the listed persons can access the reports.
+In the tab "Report access" you can determine<br>
 a) who is allowed to see which reports<br>
-b) and whether/how information is provided.
+b) and whether/how they are informed about it.
 
-* Column **Online access**:<br> The recipients listed in the 1st column can access reports online.
-* Column **Email on completion**:<br> The recipients listed in the 1st column receive an email as soon as a report has been generated.
-* Column **Email for qualitative feedback**:<br> The recipients listed in the 1st column will receive an email as soon as a report has been generated and the **text fields** in the form have been filled in or a file has been uploaded by the respondents.
-* Section **Single users**:<br> Access can also be granted to specific users who do not have access based on their role.
+![Role table with the columns Online access, Action to-do, Email when done and Email in case of qualitative feedback, below it the section Single users, tab Report access](assets/quality_management_data_collection_tab_permission_report_v1_de.png){ class="shadow lightbox" }
 
-Quality managers have access to the current status of data collection even before completion.
 
-**Terms and Conditions for Email Notifications**<br>
-The system determines when an email should be triggered based on the form fields used in the form.<br>
-For each category, the average is calculated based on the responses to all questions. This average is then converted into a rating (unsatisfactory, neutral, good) using the value ranges (scale) specified in the category’s configuration. If the average does not fall within a value range (e.g., because none have been defined), the rating “none” is displayed.
+* Column **Online access:**<br>The recipients named in the 1st column can access reports online.
+* Column **Email when done:**<br> The recipients named in the 1st column receive an email as soon as a report has been generated.
+* Column **Email in case of qualitative feedback:**<br> The recipients named in the 1st column receive an email as soon as a report has been generated and **text fields** in the form have been filled in or a file has been uploaded by the respondents.
+* Section **Single users:**<br>Access can also be granted to freely definable users who do not have access based on a role.
+
+
+Quality managers have access to the current status of the data collection even before it is finished.
+
+**Conditions for an email notification**<br>
+The calculation of the cases in which an email is triggered is based on the rubric elements used in the form.<br>
+For each rubric, the average is calculated across all questions based on the answers. This average is then converted into a rating (insufficient, neutral, good) using the value ranges (scale) in the configuration of the rubric. If the average does not fall within a value range (e.g. because none are defined), the rating "none" is returned.
 
 **Example:**
-- The form contains 6 sections.<br>
-- No value ranges are defined for the first two categories, so the classification "none" is always returned.<br>
-- Averages and rankings are calculated for the other 4.
-- The email is sent with the rating "unsatisfactory" if the rating "unsatisfactory" was calculated for at least one of the categories.
-- The email is sent with the setting "Inadequate or Neutral" if the rating "Inadequate" or "Neutral" was calculated for at least one of the categories.
-- In this case, if the email trigger is configured as "insufficient," it is sufficient for any one of questions 3–6 to be rated as "insufficient" on average to trigger the email.
+
+- The form contains 6 rubrics.<br>
+- No value ranges are defined for the first two rubrics, so the rating "none" is always returned.<br>
+- Averages and ratings are calculated for the other 4.
+- With the setting "insufficient", the email is sent if the rating "insufficient" was calculated for at least one of the rubrics.
+- With the setting "insufficient or neutral", the email is sent if the rating "insufficient" or "neutral" was calculated for at least one of the rubrics.
+- In this case, if the email "insufficient" is configured, it is sufficient for one of the questions 3-6 to be rated as insufficient on average to trigger the email.
 
 
+### Tab "Report" {: #tab_report}
 
-### Tab "Report"  {: #tab_report}
+This tab is only visible once a report is available.
 
-This tab is only visible if a report is available.
-
-![quality_management_data_collection_report_v1_de.png](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
+![Key figures of a finished data collection from title to processing time, above them the buttons Print, Export PDF and Export Excel and four sub-tabs, tab Report](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
 ---
 
-
 ### Recommended forms {: #recommended_forms}
 
-For surveys conducted as part of quality management, **form-based learning resources** created in OpenOlat are used. These can be created in the Content Editor and ideally contain **multiple-choice questions**. These can best be analyzed after the data has been collected. While free-text fields are also an option, this type of question cannot be analyzed automatically. Therefore, it is generally recommended to use a form with several dropdown fields, supplemented by one or two free-text fields where respondents can provide additional comments in their own words.
+For surveys as part of quality management, **form learning resources** created in OpenOlat are used. They can be created in the Content Editor and ideally contain **rubric questions**. These can be evaluated best after a data collection. Free text fields are also possible, for example, but this question type cannot be evaluated automatically. It is therefore generally recommended to use a form with several rubric elements, supplemented by one or two free text fields in which the respondents can formulate additional comments themselves.
 
-For more information on creating appropriate forms for quality management, click here:
+For more information on creating suitable forms for quality management, see:
 
-[Quality Management: Surveys >](../../manual_user/area_modules/Quality_Management_Surveys.md)<br>
-[What should a quality management form include? >](../../manual_user/area_modules/Quality_Management_Surveys.md#)<br>
-[Form as a rubric in a course >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
+[Quality Management: Surveys >](Quality_Management_Surveys.md)<br>
+[What should a quality management form incorporate? >](Quality_Management_Surveys.md#what-should-a-quality-management-form-incorporate)<br>
+[Forms in Rubric Scoring in a course >](../learningresources/Forms_in_Rubric_Scoring.md)
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
@@ -127,30 +139,40 @@ For more information on creating appropriate forms for quality management, click
 
 ## Execute data collection {: #execute_data_collection}
 
-The process is triggered automatically. As soon as the defined time window begins ("Configuration" tab), the respondents can complete and submit the form. Once this period has expired, it is no longer possible to submit the form. 
+The execution is triggered automatically. As soon as the defined time window begins (tab "Configuration"), the surveyed persons can complete and submit the form. After this deadline, it is no longer possible to submit the form.
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
 ---
 
 
-## Complete data collection {: #complete_data_collection}
+## Finish data collection {: #complete_data_collection}
 
-Data collection closes automatically when the specified time window has expired. 
+A data collection finishes itself when the specified time window has expired.
 
-![quality_management_closed_v1_de.png](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
+![Status Finished and the path Quality management, Data collections in the breadcrumb navigation highlighted, configuration of a data collection](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
 
-Once a data collection has been completed, it can no longer be reset to the "Execution" status.
+Once a data collection has been finished, it can no longer be reset to the status "Running".
 
-It is only possible to edit a completed data collection in the tabs
+A finished data collection can only be edited in the tabs
 
-* To-dos and
-* Permissions report
+* Action to-dos and
+* Report access
 
-It is also possible to force the completion of an ongoing data collection manually (without waiting for the specified time window to expire). To do this, click on the button to change the status.
+It is also possible to force the finishing of a running data collection manually (without waiting for the specified time window to expire). To do this, click on the button to change the status.
 
-![quality_management_data_collection_close_manually_v1_de.png](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
+![Status button Running with arrow to change the status highlighted, configuration of a running data collection](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
+---
+
+
+## Further information {: #further_information}
+
+[Quality Management: Actions (To-dos) >](Quality_Management_To-dos.md)<br>
+[Quality Management: Surveys >](Quality_Management_Surveys.md)<br>
+[Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)
+
+[To the top of the page ^](#Quality_Management_Data_Collections)
