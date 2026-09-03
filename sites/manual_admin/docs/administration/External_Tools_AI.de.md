@@ -35,7 +35,7 @@ Sie sind in vier Bereiche (Tabs) gegliedert:
 
 In OpenOlat bezieht sich der Begriff "KI Anbieter" auf den Dienstleister, dessen KI-Modelle für die verschiedenen KI-gestützten Funktionen in der Plattform genutzt werden.
 
-Aktivieren und konfigurieren Sie die verschiedenen KI Anbieter, die Sie verwenden möchten mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
+Aktivieren und konfigurieren Sie die KI Anbieter, die Sie verwenden möchten, mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
 
 Als Betreiberin der Plattform sind Sie verpflichtet, Ihre Benutzer:innen auf die Verwendung eines KI Services hinzuweisen.
 
@@ -92,13 +92,13 @@ Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die
 
 **Sie bestimmen**:
 
-* ob KI verwendet werden soll (Toggle-Button zur Aktivierung),
-* welcher KI Anbieter
-* und welches Modell verwendet werden soll.
+* ob KI verwendet werden soll (Toggle "Funktion aktivieren"),
+* welcher KI Anbieter (Feld "KI Anbieter")
+* und welches Modell verwendet werden soll (Feld "Sprachmodell"; beim Bildbeschreibungs-Generator "Vision Modell", bei der Taxonomie-Zuordnung "Einbettungsmodell").
 
 **Derzeit kann KI in den folgenden Funktionen eingebunden werden**:
 
-* Zuordnung zur passenden Taxonomie-Ebene per Einbettungsmodell, siehe [Modul Taxonomie >](Modules_Taxonomy.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
+* Taxonomie-Zuordnung (Embeddings): Zuordnung zur passenden Taxonomieebene per Einbettungsmodell, siehe [Modul Taxonomie >](Modules_Taxonomy.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Fragen Generator (Erstellung von MC-Fragen), genutzt im [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 * Bildbeschreibungs-Generator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern), genutzt im [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
 * Essay Fragen Generator (Erstellung von Freitextfragen samt Bewertungskriterien)
@@ -110,7 +110,7 @@ Welchen Nutzen diese Funktionen für Autor:innen haben und an welchen Orten sie 
 
 Kopieren Sie einen Fachtext in das vorgesehene Eingabefeld. Direkt in OpenOlat werden dann z.B. Multiple-Choice-Fragen mit Antwortmöglichkeiten erstellt, sowie eine Reihe von Metadaten zu den einzelnen Frage-Items (Schlagworte, Thema und Taxonomie) vorausgefüllt.
 
-Zu jeder Funktion kann unter dem Link "Test ausführen" ein KI-generiertes Muster angesehen werden.
+Zu jeder Funktion ausser der Taxonomie-Zuordnung zeigt der Link "Test ausführen" ein KI-generiertes Muster. Der Link erscheint, sobald Anbieter und Modell gewählt sind.
 
 **Beispiel MC Fragen Generator:**<br>
 ![Zum Eingabetext erzeugt die KI Titel, Thema, Schlüsselwörter, Frage sowie richtige und falsche Antworten mit Begründung. Dialog MC Fragen Generator Test.](assets/admin_external_tools_ai_functions_MC_v1_de.png){ class="shadow lightbox" }
@@ -150,7 +150,7 @@ Für ein Reasoning-Modell oder ein selbst gehostetes Modell belassen Sie die Sta
 
 ### KI-Verarbeitungs-Pools {: #ai_pools}
 
-Im Abschnitt "KI-Verarbeitungs-Pools" legen Sie fest, wie viele KI-Aufrufe pro Serverknoten gleichzeitig ausgeführt werden. Die passende Grösse hängt von der Infrastruktur hinter dem KI Anbieter ab: Cloud-Dienste vertragen viele parallele Aufrufe, ein selbst gehostetes Modell auf einer einzelnen GPU nur wenige.
+Im Tab "KI-Verarbeitungs-Pools" legen Sie fest, wie viele KI-Aufrufe pro Serverknoten gleichzeitig ausgeführt werden. Die passende Grösse hängt von der Infrastruktur hinter dem KI Anbieter ab: Cloud-Dienste vertragen viele parallele Aufrufe, ein selbst gehostetes Modell auf einer einzelnen GPU nur wenige.
 
 * **Pool "Interaktiv" (Threads)**: für KI-Aufgaben, auf die Benutzer:innen aktiv warten, zum Beispiel die KI-Korrektur von Freitextantworten.
 * **Pool "Batch" (Threads)**: für langlaufende Aufträge wie die Fragengenerierung aus Seiteninhalten; ein Auftrag kann mehrere Minuten dauern.
@@ -168,7 +168,7 @@ Unter den beiden Feldern zeigt die Auslastung je Pool, wie viele Aufrufe gerade 
 
 ### Nutzungsprotokoll [:octicons-tag-16:{ title="ab Release 21.0 (OO-9393)" }](https://track.frentix.com/issue/OO-9393){:target="_blank"} {: #ai_usage_log}
 
-Das "Nutzungsprotokoll" zeichnet jeden KI-Aufruf der Instanz auf und macht so nachvollziehbar, welche KI-Funktionen wie oft genutzt werden und wie viele Tokens dabei anfallen. Die Tabelle enthält unter anderem Datum, KI Funktion, Anbieter, Modell, Status und Dauer sowie Eingabe-, Ausgabe- und Gesamt-Tokens.
+Das "Nutzungsprotokoll" zeichnet jeden KI-Aufruf der Instanz auf und macht so nachvollziehbar, welche KI-Funktionen wie oft genutzt werden und wie viele Tokens dabei anfallen. Die Tabelle enthält unter anderem Datum, KI Funktion, Anbieter, Modell, Status und Dauer sowie Eingabe Tokens, Ausgabe Tokens und Tokens Total.
 
 Zur Auswertung stehen zur Verfügung:
 
@@ -176,7 +176,7 @@ Zur Auswertung stehen zur Verfügung:
 * **Spaltenfilter** für "KI Funktion" und "Status".
 * **Excel-Download** der gefilterten Tabelle.
 
-Ein Widget über der Tabelle zeigt die Summe der Total-Tokens im gewählten Zeitbereich.
+Das Widget "Tokens Total" über der Tabelle zeigt die Summe aller Tokens im gewählten Zeitbereich.
 
 ![Widget mit den Total-Tokens über der Tabelle der KI-Aufrufe mit Dauer, Status und Modell. Tab Nutzungsprotokoll.](assets/admin_external_tools_ai_usagelog_v1_de.png){ class="shadow lightbox" }
 

@@ -4,14 +4,13 @@ Die E-Mail Einstellungen liegen in der System-Administration unter: `Administrat
 
 ## E-Mail Adresse [:octicons-tag-16:{ title="ab Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
-Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzer:innen gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung.
+Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzer:innen gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne E-Mail-Adresse bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung. Sind die E-Mail-Adresse oder ihre Eindeutigkeit optional, stehen einige Funktionen von OpenOlat nicht zur Verfügung, zum Beispiel die Selbstregistrierung, Vitero und WebDAV.
 
 ![Obligatorisch und Eindeutig ausgeschaltet, je ein Link zählt die betroffenen Konten: Abschnitt E-Mail Adresse](assets/Email_DE.png){ class="shadow lightbox" }
 
 ### Obligatorisch
 
-Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass die E-Mail-Adresse für ein Konto optional ist. Dies führt jedoch zu Einschränkungen, da OpenOlat darauf ausgelegt ist, dass jede Person eine E-Mail-Adresse hinterlegt hat.
-Folgende Einschränkungen treten auf (Liste nicht abschliessend):
+Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass die E-Mail-Adresse für ein Konto optional ist. Dies führt jedoch zu Einschränkungen, da OpenOlat darauf ausgelegt ist, dass jede Person eine E-Mail-Adresse hinterlegt hat. Folgende Einschränkungen treten auf (Liste nicht abschliessend):
 
   * Es werden keine realen E-Mails versendet.
   * Es werden keine Benachrichtigungen versendet.
@@ -20,17 +19,14 @@ Folgende Einschränkungen treten auf (Liste nicht abschliessend):
 
 ### Eindeutig
 
-Wenn diese Option nicht aktiviert ist, bedeutet dies, dass mehrere
-Konten dieselbe E-Mail-Adresse haben können. Folgende Einschränkungen treten
-auf (Liste nicht abschliessend):
+Wenn diese Option nicht aktiviert ist, bedeutet dies, dass mehrere Konten dieselbe E-Mail-Adresse haben können. Folgende Einschränkungen treten auf (Liste nicht abschliessend):
 
   * Der Login mit der E-Mail-Adresse ist generell deaktiviert. Das heisst, es kann sich auf der ganzen Plattform niemand mehr mit der E-Mail-Adresse einloggen, nur noch mit dem Anmeldenamen. Dies gilt auch für Konten mit einer eindeutigen E-Mail-Adresse.
   * Bei Konten ohne eindeutige E-Mail-Adresse funktioniert das Zurücksetzen des Passworts nur noch über die Eingabe des Anmeldenamens, aber nicht mehr über die E-Mail-Adresse.
 
 !!! warning "Achtung"
 
-    In beiden Fällen können entweder keine oder keine eindeutigen E-Mails
-    verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
+    In beiden Fällen können entweder keine oder keine eindeutigen E-Mails verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
 
 ## E-Mail Postfach und Versand {: #e-mail-inbox-and-outbox}
 
@@ -55,15 +51,14 @@ Für den Posteingang und den Postausgang legen Sie getrennt fest, was eine Perso
 
 ## E-Mail Vorlage {: #template}
 
-OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails
-attraktiver zu gestalten werden diese als HTML-Mails inklusive Formatierung versendet. Mit der E-Mail Vorlage passen Sie das allgemeine Aussehen der E-Mails an.
+OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails attraktiver zu gestalten, werden diese als HTML-Mails inklusive Formatierung versendet. Mit der E-Mail Vorlage passen Sie das allgemeine Aussehen der E-Mails an.
 
 Die E-Mail Vorlage gilt für alle E-Mails und steuert nur deren Aussehen, nicht deren Text. Den Text einer einzelnen E-Mail legen Sie dort fest, wo die E-Mail entsteht: [Texte einzelner E-Mails](#mail_texts).
 
 Die folgenden Variablen müssen in der Vorlage vorkommen:
 
   *  **$content**: Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache der Empfänger:in angepasst.
-  *  **$footer**: Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und kann mit dem Sprachanpassungswerkzeug für jede Sprache angepasst werden. (vgl. footer.no.userdata und footer.with.userdata aus dem Paket org.olat.core.util.mail)
+  *  **$footer**: Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und lässt sich mit dem Sprachanpassungswerkzeug für jede Sprache ändern (Variablen `footer.no.userdata` und `footer.with.userdata` im Paket `org.olat.core.util.mail`).
 
 ### Texte einzelner E-Mails {: #mail_texts}
 
@@ -76,13 +71,13 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
   * [Korrektur-Workflow eines Tests](../../manual_user/learningresources/Test_settings.de.md#correction-workflow): Mailtext für die Benachrichtigung der Korrektor:innen, wahlweise als eigener Text oder aus einer Vorlage.
   * [Zertifikatsprogramm](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_messages): Vorlagen der vorbereiteten Benachrichtigungen und der Erinnerungen zur Rezertifizierung, im Tab "Meldungen" anpassbar.
   * [Mitgliederverwaltung](../../manual_user/learningresources/Members_management.de.md#add_members): Im letzten Schritt des Assistenten "Mitglieder hinzufügen" formulieren Sie die E-Mail an die neuen Mitglieder, ebenfalls mit Variablen.
-  * [e-Assessment Administration: Test](e-Assessment_Test.de.md#tab_correction-workflow): systemweit vorformulierte Mail-Vorlagen für die Akteure des Korrektur-Workflows, in mehreren Sprachen.
+  * [e-Assessment Administration: Test](e-Assessment_Test.de.md#tab_correction-workflow): systemweit vorformulierte Texte für die E-Mails an die Beteiligten des Korrektur-Workflows, in mehreren Sprachen.
   * [Lebenszyklen: Konto](Life_cycles_-_Administration.de.md#lifecycle_accounts): Benachrichtigungen vor und nach Kontoablauf, Deaktivierung und Löschung, je Schritt einzeln formulierbar.
   * [Automatischer Gruppenlebenszyklus](Automatic_Group_Lifecycle.de.md): Benachrichtigungen vor und nach der Inaktivierung sowie vor und nach der Löschung einer Gruppe.
 
 ### Texte der System-Mails {: #system_mails}
 
-Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Für diese System-Mails gibt es kein Textfeld in der Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
+Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Für diese System-Mails gibt es kein Textfeld in der System-Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
 
 Anpassen lässt sich der Text mit dem Sprachanpassungswerkzeug in der System-Administration unter:<br>
 `Administration > Customizing > Sprachanpassungswerkzeug`
@@ -93,7 +88,7 @@ Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein E-Mail, den Kursbaustein Liste der Teilnehmer:innen oder die Mitgliederverwaltung. Der Text steht im Mailfenster am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
+Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im Mailfenster am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
 
 Damit das Feld für die Signatur im Profil erscheint, aktivieren Sie das Attribut "emailSignature" in der System-Administration unter:<br>
 `Administration > Customizing > Benutzer:innen-Attribute`
@@ -125,7 +120,7 @@ Die empfohlene Einstellung:
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**
+**Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: E-Mail >](../../manual_user/personal_menu/E-Mail.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>

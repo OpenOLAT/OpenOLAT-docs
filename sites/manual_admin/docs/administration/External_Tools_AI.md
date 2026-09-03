@@ -24,7 +24,7 @@ They are organised into four areas (tabs):
 * **"AI processing pools"**: control how many AI calls are processed simultaneously.
 * **"Usage log"**: review all AI calls on the instance with tokens and status.
 
-![The four tabs of the AI module highlighted in turquoise, on the right the Add AI Provider button. Artificial intelligence page.](assets/admin_external_tools_ai_tab_config_v1_en.png){ class="shadow lightbox" }
+![The four tabs of the AI module highlighted in turquoise, on the right the Add AI provider button. Artificial intelligence page.](assets/admin_external_tools_ai_tab_config_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#ai)
 
@@ -34,7 +34,7 @@ They are organised into four areas (tabs):
 
 In OpenOlat, the term "AI provider" refers to the service provider whose AI models are used for the various AI-powered features on the platform.
 
-Enable and configure the various AI providers you want to use by clicking the **"Add AI Provider" button** in the upper-right corner.
+Enable and configure the various AI providers you want to use by clicking the **"Add AI provider" button** in the upper-right corner.
 
 As the operator of the platform you are legally obliged to inform your users about the usage of an AI service.
 
@@ -84,17 +84,17 @@ Use the **"Check connection" button** to test whether the server can be reached.
 
 ### AI features {: #ai_functions}
 
-The AI integration is configured individually for each feature, with the available models being downloaded directly from the respective provider.
+The AI integration is configured individually for each feature, with the available models being loaded directly from the respective provider.
 
 **You define**:
 
-* whether to use AI (toggle button to enable it),
-* which AI provider
-* and which model should be used.
+* whether to use AI ("Enable feature" toggle),
+* which AI provider ("AI Provider" field)
+* and which model should be used ("Language model" field; "Vision model" for the Image Description Generator, "Embedding model" for Taxonomy Matching).
 
 **Currently, AI can be integrated into the following features**:
 
-* Assignment to the matching taxonomy level via embedding model, see [Module Taxonomy >](Modules_Taxonomy.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
+* Taxonomy Matching (Embeddings): assignment to the matching taxonomy level via embedding model, see [Module Taxonomy >](Modules_Taxonomy.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Question Generator (creation of multiple-choice questions), used in [Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 * Image Description Generator (creation of image descriptions, alternative text, and keywords), used in [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
 * Essay Question Generator (creation of open-text questions with grading criteria)
@@ -106,7 +106,7 @@ The benefit of these features for authors and the places where they take effect 
 
 Copy a subject-specific text into the designated input field. OpenOlat will then automatically generate multiple-choice questions with answer options, as well as pre-fill a range of metadata for each question item (keywords, topic, and taxonomy).
 
-For each feature, you can view an AI-generated sample by clicking the "Run test" link.
+For each feature except Taxonomy Matching, the "Run test" link shows an AI-generated sample. The link appears as soon as a provider and a model are selected.
 
 **Example MC Question Generator:**<br>
 ![From the input text the AI generates title, topic, keywords, question and correct and wrong answers. MC Question Generator Test dialogue.](assets/admin_external_tools_ai_functions_MC_v1_en.png){ class="shadow lightbox" }
@@ -145,7 +145,7 @@ For a reasoning model or a self-hosted model, keep the default values or increas
 
 ### AI processing pools {: #ai_pools}
 
-In the "AI processing pools" section, you define how many AI calls are executed simultaneously per server node. The appropriate size depends on the infrastructure behind the AI provider: cloud services handle many parallel calls, a self-hosted model on a single GPU only a few.
+In the "AI processing pools" tab, you define how many AI calls are executed simultaneously per server node. The appropriate size depends on the infrastructure behind the AI provider: cloud services handle many parallel calls, a self-hosted model on a single GPU only a few.
 
 * **Pool "Interactive" (threads)**: for AI tasks a user is actively waiting on, for example the AI correction of free-text answers.
 * **Pool "Batch" (threads)**: for long-running jobs such as question generation from page content; one job can take several minutes.
@@ -163,7 +163,7 @@ Below the two fields, the load per pool shows how many calls are currently runni
 
 ### Usage log [:octicons-tag-16:{ title="from Release 21.0 (OO-9393)" }](https://track.frentix.com/issue/OO-9393){:target="_blank"} {: #ai_usage_log}
 
-The "Usage log" records every AI call on the instance, making it traceable which AI features are used how often and how many tokens are consumed. The table contains, among other things, date, AI feature, provider, model, status and duration as well as input, output and total tokens.
+The "Usage log" records every AI call on the instance, making it traceable which AI features are used how often and how many tokens are consumed. The table contains, among other things, date, AI feature, provider, model, status and duration as well as Input tokens, Output tokens and Total tokens.
 
 The following are available for analysis:
 
@@ -171,7 +171,7 @@ The following are available for analysis:
 * **Column filters** for "AI feature" and "Status".
 * **Excel download** of the filtered table.
 
-A widget above the table shows the sum of the total tokens for the selected time range.
+The "Total tokens" widget above the table shows the sum of all tokens in the selected time range.
 
 ![Widget with the total tokens above the table of AI calls with duration, status and model. Tab Usage log.](assets/admin_external_tools_ai_usagelog_v1_en.png){ class="shadow lightbox" }
 

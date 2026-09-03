@@ -4,7 +4,7 @@ The email settings are located in the system administration under: `Administrati
 
 ## User email address [:octicons-tag-16:{ title="from Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
-In the section "User email address" you define which limitations apply to the email address of the users. Below each of the two options, a link states the number of accounts without an email address or without a unique one. The link opens the list of these accounts in the user management.
+In the section "User email address" you define which limitations apply to the email address of the users. Below each of the two options, a link states the number of accounts without an email address or without a unique one. The link opens the list of these accounts in the user management. If the email address or its uniqueness is optional, several OpenOlat features are not available, for example self registration, Vitero and WebDAV.
 
 ![Mandatory and Unique switched off, one link each counts the affected accounts: section User email address](assets/email_EN.png){ class="shadow lightbox" }
 
@@ -19,16 +19,14 @@ If this option is *not* activated, it means that the email address is optional f
 
 ### Unique
 
-If this option is not activated, it means that several accounts can have the
-same email address. The following limitations occur (list is not exhaustive):
+If this option is not activated, it means that several accounts can have the same email address. The following limitations occur (list is not exhaustive):
 
   * Login with the email address is deactivated in general. This means that nobody on the whole platform can log in with the email address any more, only with the username. This also applies to accounts with a unique email address.
   * For accounts without a unique email address, resetting the password only works by entering the username, no longer by the email address.
 
 !!! warning "Attention"
 
-    In both cases either no emails or no unique emails can be sent.
-    Therefore we strongly recommend activating the internal OpenOlat inbox! Otherwise unexpected errors may occur!
+    In both cases either no emails or no unique emails can be sent. Therefore we strongly recommend activating the internal OpenOlat inbox! Otherwise unexpected errors may occur!
 
 ## E-mail inbox and outbox {: #e-mail-inbox-and-outbox}
 
@@ -53,15 +51,14 @@ For the inbox and the outbox you define separately what a person sees about the 
 
 ## E-mail template {: #template}
 
-OpenOlat sends emails for various events. To make the emails look more
-attractive, they are sent as HTML emails including formatting. Using the email template you modify the general appearance of the emails.
+OpenOlat sends emails for various events. To make the emails look more attractive, they are sent as HTML emails including formatting. Using the email template you modify the general appearance of the emails.
 
 The email template applies to all emails and controls only their appearance, not their text. You define the text of an individual email where the email originates: [Texts of individual emails](#mail_texts).
 
 The following variables have to be in the template:
 
   *  **$content**: Is replaced with the actual content of the email. The content is usually adapted to the language of the recipient.
-  *  **$footer**: Is replaced with the generic footer. The footer is adapted to the language of the recipient and can be modified for each language with the language adaptation tool. (see footer.no.userdata and footer.with.userdata from the package org.olat.core.util.mail)
+  *  **$footer**: Is replaced with the generic footer. The footer is adapted to the language of the recipient and can be changed for each language with the language adaptation tool (variables `footer.no.userdata` and `footer.with.userdata` in the package `org.olat.core.util.mail`).
 
 ### Texts of individual emails {: #mail_texts}
 
@@ -74,13 +71,13 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
   * [Correction workflow of a test](../../manual_user/learningresources/Test_settings.md#correction-workflow): mail text for the notification of the correctors, either as your own text or from a template.
   * [Certification program](../../manual_user/area_modules/Course_Planner_Certification_Programs.md#config_tab_messages): templates of the prepared notifications and of the reminders for the recertification, adaptable in the tab "Messages".
   * [Members management](../../manual_user/learningresources/Members_management.md#add_members): in the last step of the wizard "Add members" you formulate the email to the new members, likewise with variables.
-  * [e-Assessment Administration: Test](e-Assessment_Test.md#tab_correction-workflow): system-wide pre-formulated mail templates for the actors of the correction workflow, in several languages.
+  * [e-Assessment Administration: Test](e-Assessment_Test.md#tab_correction-workflow): system-wide pre-formulated texts for the emails to the people involved in the correction workflow, in several languages.
   * [Life cycles: Account](Life_cycles_-_Administration.md#lifecycle_accounts): notifications before and after account expiry, deactivation and deletion, each step separately formulated.
   * [Automatic Group Lifecycle](Automatic_Group_Lifecycle.md): notifications before and after the inactivation as well as before and after the deletion of a group.
 
 ### Texts of the system emails {: #system_mails}
 
-Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. For these system emails there is no text field in the administration. Their text is stored as a variable in the language package of the respective function.
+Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. For these system emails there is no text field in the system administration. Their text is stored as a variable in the language package of the respective function.
 
 You adapt the text with the language adaptation tool in the system administration under:<br>
 `Administration > Customizing > Language adaptation tool`
@@ -91,7 +88,7 @@ The obstacle is not the tool, but finding the variable: the mail texts are sprea
 
 ## E-Mail signature [:octicons-tag-16:{ title="from Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element E-mail, the course element Participant list or the member management. The text sits at the end of the message in the mail window, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
+With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the mail window, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
 
 For the signature field to appear in the profile, activate the attribute "emailSignature" in the system administration under:<br>
 `Administration > Customizing > User Properties`
@@ -123,7 +120,7 @@ The recommended setting:
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**
+**Mentioned on this page**<br>
 [Personal tools: E-Mail >](../../manual_user/personal_menu/E-Mail.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
@@ -137,6 +134,6 @@ The recommended setting:
 [Life cycles - Overview >](Life_cycles_-_Administration.md)<br>
 [Automatic Group Lifecycle >](Automatic_Group_Lifecycle.md)<br>
 [How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
-[Personal Configuration: Profile >](../../manual_user/personal_menu/Profile.md)
+[Profile >](../../manual_user/personal_menu/Profile.md)
 
 [To the top of the page ^](#email_settings)
