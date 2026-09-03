@@ -8,25 +8,25 @@ A reference glossary of product-specific terms used in OpenOlat. These terms hav
 
 A person missing an event. It counts as authorized or not authorized, depending on whether a recognised reason has been given.
 
-*German: Absenz* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Absences/)
+*German: Absenz* · *Domain: Events and absences* · [Manual](../../manual_user/personal_menu/Absences.md)
 
 ### Absence list
 
 The printable list of the recorded absences of an event, per participant and unit. It is produced from the event's menu after the roll call.
 
-*German: Absenzenliste* · *Domain: Events and absences*
+*German: Absenzenliste* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Coaching_Events_Absences.md)
 
 ### Absence management
 
 The entry in the main navigation for handling absences across courses by absence managers: cockpit, events, absences, notices, appeals, user search and report over all courses.
 
-*German: Absenzenverwaltung* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_user/area_modules/Absence_Management/)
+*German: Absenzenverwaltung* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Absence_Management.md)
 
 ### Absence manager
 
 Organisation role. An administrative organisation role. It manages the events, attendances and absences of its own organisation and closes the events.
 
-*German: Absenzenverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Absenzenverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Abstention
 
@@ -38,31 +38,31 @@ A committee member's explicit refusal to judge an application.
 
 An offer type in which only people with the right code can book. The code is handed out outside OpenOlat.
 
-*German: Zugangscode* · *Domain: Catalogue, booking and payment*
+*German: Zugangscode* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/basic_concepts/Offer_Concepts.md)
 
 ### Access configuration
 
 The area of a learning resource where the offers are set: who may book, at what price and in which period.
 
-*German: Zugangskonfiguration* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Access_configuration/)
+*German: Zugangskonfiguration* · *Domain: Course* · [Manual](../../manual_user/learningresources/Access_configuration.md)
 
 ### Access control
 
 The module that decides who may enter a learning resource and on what conditions. It manages the offers, the bookings and the payment methods.
 
-*German: Zugangskontrolle* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Core_functions/)
+*German: Zugangskontrolle* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Core_functions.md)
 
 ### Access for coach
 
 The publication status in which a course is visible to the coaches but not yet to the participants. It serves the preparation in the team before the start.
 
-*German: Freigabe Betreuer:innen* · *Domain: Course*
+*German: Freigabe Betreuer:innen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Access_configuration.md)
 
 ### Accessibility
 
 The accessibility of the interface for people with a disability. OpenOlat follows WCAG 2.1 level AA and can be operated with a keyboard and a screen reader.
 
-*German: Barrierefreiheit* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Accessibility_Colors/)
+*German: Barrierefreiheit* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Accessibility_Principals.md)
 
 ### Access roles
 
@@ -74,13 +74,13 @@ The roles for people without a regular account: guest and invitee.
 
 A person's access to OpenOlat, with a username, profile entries, roles and organisation membership. In German this object is called Konto and not Benutzer:in, because the gendered form becomes unreadable in running text.
 
-*German: Konto* · *Domain: Platform*
+*German: Konto* · *Domain: Platform* · [Manual](../../manual_admin/usermanagement/Configure_User.md)
 
 ### Action to-dos
 
 The measures that follow from the results of a data collection, kept as to-dos with a responsible person and a deadline. They close the circle from measurement to improvement.
 
-*German: Massnahmen To-dos* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_To-dos/)
+*German: Massnahmen To-dos* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_To-dos.md)
 
 ### Active Directory Federation Services
 
@@ -92,145 +92,145 @@ The connection to Active Directory Federation Services for signing in with the o
 
 The complete list of the actions in a project, with the person and the point in time. It makes it traceable who changed what.
 
-*German: Aktivitäten* · *Domain: Collaboration*
+*German: Aktivitäten* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Timeline.md)
 
 ### Activity
 
 A single action in the project, for example creating a note or changing an event.
 
-*German: Aktivität* · *Domain: Collaboration*
+*German: Aktivität* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Timeline.md)
 
 ### Additional condition
 
 A further rule beside the first one. The interface separates the main condition from the additional ones, but all of them are checked alike.
 
-*German: Zusatzbedingung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: Zusatzbedingung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### Additional sheet
 
 An extra sheet in the printout of a test that gives the candidate room for side calculations and notes.
 
-*German: Zusätzliche Seite* · *Domain: Testing and question bank*
+*German: Zusätzliche Seite* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_settings.md)
 
 ### Administration
 
 The area for configuring the system. It can only be reached through the system role System administrator.
 
-*German: Administration* · *Domain: Platform*
+*German: Administration* · *Domain: Platform* · [Manual](../../manual_user/area_modules/index.md)
 
 ### Administrative access
 
 The assignment of a learning resource to one or more organisations. It decides which administrators and learning resource managers may manage the resource, regardless of who owns it.
 
-*German: Administrative Freigabe* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/learningresources/Access_configuration/)
+*German: Administrative Freigabe* · *Domain: Roles* · [Manual](../../manual_user/learningresources/Access_configuration.md)
 
 ### Administrator
 
 Organisation role. An organisation role that unites all administrative roles of one organisation. It is the superuser of that organisation. Its reach ends at its own organisation and its sub-organisations; it does not act system-wide and does not open the system configuration.
 
-*German: Administrator:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Administrator:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Adobe Connect (Course)
 
 A course element that embeds an Adobe Connect room into the course. Coaches schedule sessions, participants join from inside the course.
 
-*German: Adobe Connect* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Adobe_Connect/)
+*German: Adobe Connect* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Adobe_Connect.md)
 
 ### Adobe Connect (Integrations and standards)
 
 The connection to the web conferencing system Adobe Connect.
 
-*German: Adobe Connect* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Adobe_Connect/)
+*German: Adobe Connect* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Adobe_Connect.md)
 
 ### AI call
 
 A single request from OpenOlat to an AI model, triggered by an AI feature. Every call is recorded as a row in the usage log, with the feature, provider, model, duration, tokens and the status Success or Failed.
 
-*German: KI-Aufruf* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: KI-Aufruf* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### AI Feature
 
 One place of use of AI in the product, for example the MC question generator. Every feature is switched on individually and is given a provider, a model, an upper limit for input and output, and a timeout.
 
-*German: KI Funktion* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: KI Funktion* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### AI feedback
 
 The formative feedback learners fetch on their free text answer in the quiz of a page. It consists of the assessment, an overall assessment, the reliability and the sections "What went well", "What is missing", "Next step" and "Language". It awards no points. In the question editor the tab that holds the grading kit carries the same name.
 
-*German: KI-Feedback* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: KI-Feedback* · *Domain: Artificial intelligence* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### AI module
 
 The module that manages the connection to AI services: which providers are available, which features are active, which model each feature uses and how many calls may run at the same time. It provides no feature for learners itself but serves the features of other modules.
 
-*German: KI Modul* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: KI Modul* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### AI processing pool
 
 The quota of simultaneous AI calls per server node. The AI module keeps two pools apart, so that one long job does not block the calls someone is waiting for.
 
-*German: KI-Verarbeitungs-Pool* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: KI-Verarbeitungs-Pool* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### AI Provider
 
 The service whose models an AI feature uses. Several providers can be set up at the same time, and each feature picks one of them. A provider is only ready for use once its API key has been checked.
 
-*German: KI Anbieter* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: KI Anbieter* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Alias
 
 A self-chosen name a person writes under in a forum. The alias hides the real name from the other participants, not from the coaches.
 
-*German: Pseudonym* · *Domain: Collaboration*
+*German: Pseudonym* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Forum.md)
 
 ### Analysis
 
 The area where the answers of several data collections are analysed together, with filters, groupings, a heatmap and a trend.
 
-*German: Analyse* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Analysis/)
+*German: Analyse* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Analysis.md)
 
 ### Analytics module
 
 The module that embeds an external service for analysing usage behaviour: where people spend their time, which browsers and devices they use. Google Analytics and Matomo are available. The operator must inform people about the service.
 
-*German: Analytics Modul* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Analytics_module/)
+*German: Analytics Modul* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Analytics_module.md)
 
 ### Animation
 
 A learning resource for an animation file.
 
-*German: Animation* · *Domain: Learning resources*
+*German: Animation* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Annotation
 
 A text box that appears over the video for a set time and shows an explanation.
 
-*German: Annotation* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Annotation* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Answer
 
 One answer option of a question. It is stored as right or wrong and carries the points that choosing it brings.
 
-*German: Antwort* · *Domain: Testing and question bank*
+*German: Antwort* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_test_questions.md)
 
 ### Anthropic Claude
 
 The AI provider Anthropic Claude, connected through an API key. Using it produces costs on the operator's account.
 
-*German: Anthropic Claude* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: Anthropic Claude* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### API-Key
 
 A pair of client ID and client secret a third-party system signs in to the REST API with. User management creates it under Authentication; the secret can be read only once. The administration can restrict API access to accounts with an API key.
 
-*German: API-Key* · *Domain: Platform*
+*German: API-Key* · *Domain: Platform* · [Manual](../../manual_admin/administration/REST_API.md)
 
 ### Appeal
 
 A person's objection against a recorded absence. It is only possible within the appeal period.
 
-*German: Rekurs* · *Domain: Events and absences*
+*German: Rekurs* · *Domain: Events and absences* · [Manual](../../manual_user/personal_menu/Absences.md)
 
 ### Applicant
 
@@ -260,115 +260,115 @@ The site for applicants. It shows the published calls and leads through the appl
 
 A single selectable time slot in an occasion of the appointment scheduling, with a start, an end, a location, an optional limit of participants, an enrolment deadline and an online room. Participants enter and withdraw themselves.
 
-*German: Termin* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Termin* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Appointment booking
 
 A type of occasion: participants enter themselves for one or more fixed appointments from a selection, optionally with a limited number of participants and confirmation by the organizers.
 
-*German: Terminbuchung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Terminbuchung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Appointment finding
 
 A type of occasion: participants pick all appointments that suit them, the organizers then confirm the final common appointment.
 
-*German: Terminfindung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Terminfindung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Appointment scheduling
 
 A course element that groups appointments into occasions. As an appointment booking, participants enter themselves for fixed appointments; as an appointment finding, they pick suitable appointments and the organizers confirm one of them.
 
-*German: Terminplanung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Terminplanung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Archiving & Reporting
 
 The course tool with which owners create a complete or a partial archive of the course and generate reports such as the forum report.
 
-*German: Archivierung & Reports* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Archiving/)
+*German: Archivierung & Reports* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Article
 
 The content part of a wiki page, as opposed to its discussion and its version history.
 
-*German: Artikel* · *Domain: Collaboration*
+*German: Artikel* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Assessment (Assessment)
 
 The judgement on a person's performance in an assessable course element, expressed as a status, points or a grade. It judges people; quality management judges offerings instead.
 
-*German: Bewertung* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Assessment/)
+*German: Bewertung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Element_Assessment.md)
 
 ### Assessment (Course)
 
 A course element in which coaches assess a performance without anything being submitted in OpenOlat. It serves performances outside the platform, for example a presentation or an exam in the classroom.
 
-*German: Bewertung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Assessment/)
+*German: Bewertung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Assessment.md)
 
 ### Assessment (ePortfolio)
 
 The coaches' judgement on a binder: points and passed per section, entered in the binder's Assessment tab. The result flows into the portfolio task course element and thus into the course's assessment tool. Single entries are not assessed, only commented on.
 
-*German: Bewertung* · *Domain: ePortfolio*
+*German: Bewertung* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_assignment_Grading.md)
 
 ### Assessment (Tasks and practice)
 
 The step in which coaches assess the submitted work and award points, a status or a grade.
 
-*German: Bewertung* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Task/)
+*German: Bewertung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Assessment documents
 
 Files coaches store with an assessment, for example a corrected exam sheet or an assessment rubric.
 
-*German: Bewertungsdokumente* · *Domain: Assessment*
+*German: Bewertungsdokumente* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/The_assessment_form.md)
 
 ### Assessment inspection
 
 The supervised look at one's own corrected exam. The person who took the exam sees their answers and the assessment in a set window of time, without being able to change anything.
 
-*German: Prüfungseinsicht* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment_inspection/)
+*German: Prüfungseinsicht* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_inspection.md)
 
 ### Assessment management
 
 The management of assessment mode and assessment inspection. In the course it is the tool of the course administration with the two tabs assessment mode and assessment inspection. In the administration under e-Assessment it lists the assessment modes of all courses and holds the settings.
 
-*German: Prüfungsverwaltung* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment_Management/)
+*German: Prüfungsverwaltung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_Management.md)
 
 ### Assessment mode
 
 A window of time in which a course becomes an exam. During the assessment mode all other areas of OpenOlat are locked, access can be limited to particular machines and the Safe Exam Browser can be required.
 
-*German: Prüfungsmodus* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment_mode/)
+*German: Prüfungsmodus* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_mode.md)
 
 ### Assessment orders
 
 The area of the coaching site that collects one's own open assessment work across all courses: open assessments, open levels/gradings, assessments to release and one's own grading assignments.
 
-*German: Bewertungsaufträge* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Assessment_Orders/)
+*German: Bewertungsaufträge* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Assessment_Orders.md)
 
 ### Assessment tool
 
 The area of a course where coaches and owners see, assess, release and reset all results of the participants.
 
-*German: Bewertungswerkzeug* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment_tool_overview/)
+*German: Bewertungswerkzeug* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 ### Assignment (ePortfolio)
 
 A brief in a section of the binder, set by the template: an essay, a document or a form. The learner picks the assignment for editing and answers it with an entry.
 
-*German: Aufgabe* · *Domain: ePortfolio*
+*German: Aufgabe* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### Assignment (Tasks and practice)
 
 The step in which the participant receives their assignment. It is assigned to them or chosen by them from a list.
 
-*German: Aufgabenstellung* · *Domain: Tasks and practice*
+*German: Aufgabenstellung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Assignment coaches/participants
 
 The workflow setting that assigns one coach to every participant, manually or automatically. The assigned coach then assesses these submissions and is notified about new ones.
 
-*German: Zuweisung Betreuende/Teilnehmende* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Task/)
+*German: Zuweisung Betreuende/Teilnehmende* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Assignment of dates
 
@@ -386,73 +386,73 @@ The professorship type for a fixed-term professorship at the start of the academ
 
 The record that a person took part in an event. It is recorded per unit and condensed into the attendance rate.
 
-*German: Anwesenheit* · *Domain: Events and absences*
+*German: Anwesenheit* · *Domain: Events and absences* · [Manual](../../manual_user/learningresources/Events_and_absences.md)
 
 ### Attendance list
 
 The printable list of the participants of an event with a column for the signature. It is signed before or during the event and proves attendance on paper.
 
-*German: Präsenzliste* · *Domain: Events and absences*
+*German: Präsenzliste* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Coaching_Events_Absences.md)
 
 ### Audio (Content and media)
 
 An audio recording on a page, from the Media Center or recorded in the browser.
 
-*German: Audio* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Audio* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Audio (Learning resources)
 
 A learning resource for a single audio file.
 
-*German: Audio* · *Domain: Learning resources*
+*German: Audio* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Audio/video recording
 
 The module with which people record audio and video directly in the browser: in the media center, in the content editor, in the task and in the video editor. The recording is converted in the background into a browser-friendly format, locally or by an external service.
 
-*German: Audio/Video-Aufnahme* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Audio_Video_Recording/)
+*German: Audio/Video-Aufnahme* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Audio_Video_Recording.md)
 
 ### Authentication
 
 The proof that a person is who they claim to be. OpenOlat supports several methods side by side, and one account can carry several of them.
 
-*German: Authentifizierung* · *Domain: Platform*
+*German: Authentifizierung* · *Domain: Platform* · [Manual](../../manual_user/login_registration/Login_Concept.md)
 
 ### Author
 
 Organisation role. An organisation role. It allows learning resources to be created in the authoring area. Authors manage their own resources, not those of the organisation.
 
-*German: Autor:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Autor:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Authoring
 
 The area where learning resources are created, edited, copied and managed. It is only accessible with the Author role or with an administrative role.
 
-*German: Autorenbereich* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Authoring/)
+*German: Autorenbereich* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Authoring.md)
 
 ### Automation
 
 The rules the Course Planner uses to carry out recurring work on its own, for example creating courses from templates or opening and closing implementations.
 
-*German: Automatisierung* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Implementations/)
+*German: Automatisierung* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Automation rule
 
 A single rule of the automation. It consists of a trigger, either a status change or a point in time relative to the implementation period, and an action such as instantiate a course or set a status. The element type provides it, the implementation can override it.
 
-*German: Automatisierungsregel* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Planner/)
+*German: Automatisierungsregel* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Course_Planner.md)
 
 ### Award criteria
 
 The conditions under which a badge is awarded, for example a passed course or a score that has been reached.
 
-*German: Vergabekriterien* · *Domain: Evidence*
+*German: Vergabekriterien* · *Domain: Evidence* · [Manual](../../manual_user/learningresources/OpenBadges.md)
 
 ### Awarded badge
 
 The single badge a person has received from a badge class, with recipient, date of award and image. The metadata sits inside the image itself; that way the badge can be downloaded, shared on LinkedIn and verified.
 
-*German: Vergebener Badge* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/personal_menu/OpenBadges/)
+*German: Vergebener Badge* · *Domain: Evidence* · [Manual](../../manual_user/personal_menu/OpenBadges.md)
 
 ## B
 
@@ -460,85 +460,85 @@ The single badge a person has received from a badge class, with recipient, date 
 
 A digital credential following the Open Badges standard, with an image, criteria and an issuing body. Unlike the certificate it can be shown outside OpenOlat and checked by a machine.
 
-*German: Badge* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/personal_menu/OpenBadges/)
+*German: Badge* · *Domain: Evidence* · [Manual](../../manual_user/personal_menu/OpenBadges.md)
 
 ### Badge class
 
 The kind of a badge, with an image, a description, an issuer and award criteria. The single credential is one issue of this class to a person. A badge class can exist in several versions; recipients keep the version that was awarded.
 
-*German: Badge-Klasse* · *Domain: Evidence*
+*German: Badge-Klasse* · *Domain: Evidence* · [Manual](../../manual_user/learningresources/OpenBadges.md)
 
 ### BigBlueButton (Course)
 
 A course element that embeds BigBlueButton rooms into the course. Coaches schedule sessions, participants join from inside the course, recordings stay available in the course.
 
-*German: BigBlueButton* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/bigbluebutton/)
+*German: BigBlueButton* · *Domain: Course* · [Manual](../../manual_user/learningresources/bigbluebutton/index.md)
 
 ### BigBlueButton (Integrations and standards)
 
 The connection to the free web conferencing system BigBlueButton. Coaches create online meetings in the course element, the course, the group, the appointment scheduling and the coach chat. OpenOlat balances the load across several BigBlueButton servers and controls the rooms through room templates. Recordings are kept on the BigBlueButton server or in Opencast.
 
-*German: BigBlueButton* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/bigbluebutton/)
+*German: BigBlueButton* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/bigbluebutton/index.md)
 
 ### Billing address
 
 The address the invoice goes to. It can differ from the address of the person booking, for example when the employer books.
 
-*German: Rechnungsadresse* · *Domain: Catalogue, booking and payment*
+*German: Rechnungsadresse* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/Reports_BookingOrders.md)
 
 ### Binder
 
 The collection in which a person organises their portfolio work: a binder is divided into sections, and every section holds entries and assignments. It comes into being empty, from a template, from existing entries or by collecting a portfolio task in a course. The owning person shares it, wholly or in parts, for commenting and assessment.
 
-*German: Mappe* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/portfolio/Three_steps_to_your_portfolio_binder/)
+*German: Mappe* · *Domain: ePortfolio* · [Manual](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)
 
 ### Black list
 
 The list of courses or implementations a generator is to skip. It exempts single cases from an otherwise general rule.
 
-*German: Negativliste* · *Domain: Quality management and forms*
+*German: Negativliste* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collection_Generators.md)
 
 ### Blog (Course)
 
 A course element that embeds a blog learning resource into the course. It informs participants about current topics in reverse chronological order.
 
-*German: Blog* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Blog/)
+*German: Blog* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Blog.md)
 
 ### Blog (Learning resources)
 
 A learning resource for posts in reverse chronological order. Readers can subscribe to the posts and comment on them.
 
-*German: Blog* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Blog/)
+*German: Blog* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Blog.md)
 
 ### Booking
 
 The process by which a person gains access to a learning resource. It ends with the membership in the course or with a place on the waiting list.
 
-*German: Buchung* · *Domain: Catalogue, booking and payment*
+*German: Buchung* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/personal_menu/Bookings.md)
 
 ### Booking order
 
 The record created by a booking. It holds who booked what, when and at what price, and is kept after the course has ended as well.
 
-*German: Buchungsauftrag* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Bookings/)
+*German: Buchungsauftrag* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/Reports_BookingOrders.md)
 
 ### Building
 
 A building that rooms belong to. It carries a reference, an address with a map, a colour for lists and calendars and the restriction to particular organisations.
 
-*German: Gebäude* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Rooms/)
+*German: Gebäude* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Rooms.md)
 
 ### Bulk assessment
 
 Assessing many participants in one pass, through an uploaded table or an input form. It saves opening every single person.
 
-*German: Massenbewertung* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_how-to/bulk_assessment/bulk_assessment/)
+*German: Massenbewertung* · *Domain: Assessment* · [Manual](../../manual_how-to/bulk_assessment/bulk_assessment.md)
 
 ### Business analyst / Supplier
 
 A role in the project for external supply or analysis. It creates and edits objects in the project but manages no members.
 
-*German: Business-Analyst:in / Lieferant:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Member_Management/)
+*German: Business-Analyst:in / Lieferant:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Project_Member_Management.md)
 
 ## C
 
@@ -546,55 +546,55 @@ A role in the project for external supply or analysis. It creates and edits obje
 
 A calendar with events. OpenOlat keeps personal, course and group calendars apart and shows them layered. Calendars can be subscribed to from an external calendar program.
 
-*German: Kalender* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Calendar/)
+*German: Kalender* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Calendar.md)
 
 ### Calendar (Course)
 
 A course element that ties the course calendar into the course menu.
 
-*German: Kalender* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Calendar/)
+*German: Kalender* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Calendar.md)
 
 ### card2brain
 
 The connection to the flashcard platform card2brain for learning with online flashcards.
 
-*German: card2brain* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_card2brain_Flashcards/)
+*German: card2brain* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_card2brain_Flashcards.md)
 
 ### card2brain flashcards
 
 A course element that shows a flashcard set of the card2brain platform in the course so that participants practise with online flashcards.
 
-*German: card2brain Lernkarten* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_card2brain_Flashcards/)
+*German: card2brain Lernkarten* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_card2brain_Flashcards.md)
 
 ### Catalog (module)
 
 The module that puts learning resources and implementations with an offer on display for booking. It is structured through the taxonomy and the launchers. Without an offer a resource does not appear. Without signing in it is reachable as the web catalog, if that is switched on.
 
-*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Catalog_2.0/)
+*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Modules_Catalog_2.0.md)
 
 ### Catalog (navigation entry)
 
 The Catalog entry in the main navigation through which signed-in people open the catalog. It is the platform's shop window. For people without an account the web catalog mirrors it.
 
-*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Catalog_2.0/)
+*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Modules_Catalog_2.0.md)
 
 ### Catalog (Collaboration)
 
 The folder structure of the library as readers see it. It is the content of the resource folder chosen as the library in the administration.
 
-*German: Katalog* · *Domain: Collaboration*
+*German: Katalog* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Library.md)
 
 ### Catalog administration
 
 The entry in the main navigation through which catalog 1.0 is maintained: its categories and the assignment of learning resources. It appears only when catalog 1.0 is switched on. Catalog 2.0 is managed in the administration under modules.
 
-*German: Katalogverwaltung* · *Domain: Catalogue, booking and payment*
+*German: Katalogverwaltung* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog1.0.md)
 
 ### Certificate
 
 A PDF that certifies the successful participation in a course or the completion of a certification program, with name, date and serial number. The evidence of achievement shows what someone has done; the certificate attests it to the outside world. Externally earned certificates can be uploaded if the administration allows it.
 
-*German: Zertifikat* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Certificates/)
+*German: Zertifikat* · *Domain: Evidence* · [Manual](../../manual_user/personal_menu/Certificates.md)
 
 ### Certificate of Study
 
@@ -606,25 +606,25 @@ A certificate confirming a completed course of study.
 
 The template OpenOlat generates a certificate PDF from. It is a PDF form or an HTML template as a ZIP with index.html; the HTML template needs the PDF service. The administration provides system-wide templates, course owners upload their own.
 
-*German: Zertifikatsvorlage* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Settings_Assessment_Certificate/)
+*German: Zertifikatsvorlage* · *Domain: Evidence* · [Manual](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)
 
 ### Certification program
 
 A program that ties several courses together into one certification and watches over its validity. It calls for a recertification once the validity has run out.
 
-*German: Zertifikatsprogramm* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Certification_Programs/)
+*German: Zertifikatsprogramm* · *Domain: Evidence* · [Manual](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)
 
 ### Certification program owner
 
 A role in the Course Planner. Certification program owners manage a certification program: they add members, renew or revoke certificates and maintain the settings and messages.
 
-*German: Zertifikatsprogrammbesitzer:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Certification_Programs/)
+*German: Zertifikatsprogrammbesitzer:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)
 
 ### Challenge
 
 An intermediate goal made up of several practice series. After finishing a challenge the participant sees their ranking and their learning status statistics.
 
-*German: Challenge* · *Domain: Tasks and practice*
+*German: Challenge* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Change log
 
@@ -636,31 +636,31 @@ The record of every change to an assessment, with the person and the point in ti
 
 A jump mark in the video. Learners pick a chapter and land at that point.
 
-*German: Kapitel* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Kapitel* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Chat
 
 Short messages in real time between signed-in people, one to one or in the room of a course or a group.
 
-*German: Chat* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Chat/)
+*German: Chat* · *Domain: Collaboration* · [Manual](../../manual_user/basic_concepts/Chat.md)
 
 ### Chatroom
 
 A chat room belonging to a course or a group. All members can enter it without writing to each other one by one.
 
-*German: Chatraum* · *Domain: Collaboration*
+*German: Chatraum* · *Domain: Collaboration* · [Manual](../../manual_user/basic_concepts/Chat.md)
 
 ### Check box
 
 A single item of a check list, with a label, a description, an optional file and points. Participants or only coaches tick it off.
 
-*German: Checkbox* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Checklist/)
+*German: Checkbox* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Checklist.md)
 
 ### Check list
 
 A course element with a list of points that participants or coaches tick off. Working on it can be locked after a submission date, and the ticks can award points.
 
-*German: Checkliste* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Checklist/)
+*German: Checkliste* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Checklist.md)
 
 ### Check list (old)
 
@@ -672,7 +672,7 @@ The earlier implementation of the check list, kept for existing courses. New cou
 
 A highlighted quotation with its source. It lives as a medium in the Media Center and can be used more than once.
 
-*German: Zitat* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Zitat* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Clinical expertise
 
@@ -684,13 +684,13 @@ Evidence of an applicant's clinical experience. It is required for medical profe
 
 The collective term for the sign-in methods in which a third-party provider handles the sign-in and OpenOlat only receives the confirmation. In the interface the area is called Cloud Login.
 
-*German: Cloud Login* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Login/)
+*German: Cloud Login* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### Coach
 
 Course role. A course role. Coaches accompany the participants of a course or a group, see all results and assess them. They do not change the configuration of the course.
 
-*German: Betreuer:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/coach/)
+*German: Betreuer:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/coach.md)
 
 ### Coach details
 
@@ -702,25 +702,25 @@ A block in the form that shows details of the assessed coach of a data collectio
 
 The folder of a course that only owners and coaches see. It holds material not meant for participants.
 
-*German: Unterlagen Betreuer:innen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Settings_Toolbar/)
+*German: Unterlagen Betreuer:innen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Coach_Files.md)
 
 ### Coaching
 
 The area where coaches follow their learners across all courses, with progress, assessments, attendance and certificates in one place.
 
-*German: Coaching* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching/)
+*German: Coaching* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Coaching.md)
 
 ### Code example
 
 A block of source code with syntax highlighting, optionally with line numbers and a copy button.
 
-*German: Code-Beispiel* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Code-Beispiel* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Collaborative tools
 
 The tools switched on individually for a group: information for members, e-mail, calendar, folder, forum, chat, wiki, portfolio and the virtual classrooms. Tools that are switched off do not appear in the group.
 
-*German: Kollaborative Werkzeuge* · *Domain: Collaboration*
+*German: Kollaborative Werkzeuge* · *Domain: Collaboration* · [Manual](../../manual_user/groups/Group_Administration.md)
 
 ### Combined document
 
@@ -732,19 +732,19 @@ All documents of an application merged into a single PDF, for reading and printi
 
 An overlay as text or as a short video that gives extra information at one point of the video.
 
-*German: Kommentar* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Kommentar* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Comments
 
 Feedback below an entry. Shared persons with comment rights write them once the entry is published; administration sets whether comments are visible in the overview and in the entries.
 
-*German: Kommentare* · *Domain: ePortfolio*
+*German: Kommentare* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_assignment_Grading.md)
 
 ### Comments and ratings
 
 The service with which readers comment on a piece of content and rate it with one to five stars. Blog and podcast switch it on per feed; comments can carry attachments and be replied to.
 
-*German: Kommentare und Bewertungen* · *Domain: Learning resources*
+*German: Kommentare und Bewertungen* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Blog_Blogging.md)
 
 ### Committee
 
@@ -792,25 +792,25 @@ Selectus role. An expert who judges several applications of the same call agains
 
 An ability attributed to a person, named through a taxonomy level. It comes about through assignment or through passing a course.
 
-*German: Kompetenz* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Competences/)
+*German: Kompetenz* · *Domain: Learning resources* · [Manual](../../manual_user/personal_menu/Competences.md)
 
 ### Complete archive
 
 A course archive with all course elements, course results, course chat and log files. It can be created for one course or as a bulk action for several courses in the authoring area.
 
-*German: Gesamtarchiv* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Archiving/)
+*German: Gesamtarchiv* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Condition
 
 The rule that steers the visibility and access of a course element in the conventional course: blocked for learners, depending on date, group or assessment, only in assessment mode. In expert mode it is written as an expression.
 
-*German: Bedingung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/General_Configuration_of_Course_Elements/)
+*German: Bedingung* · *Domain: Course* · [Manual](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)
 
 ### Configuration
 
 The section of the personal menu below the User tools, with the profile, the settings and the password. The manual calls it Personal configuration.
 
-*German: Konfiguration* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Personal_Configuration/)
+*German: Konfiguration* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Personal_Configuration.md)
 
 ### Confirmation code
 
@@ -822,187 +822,187 @@ The code OpenOlat sends to the given e-mail address at registration and at Forgo
 
 The recorded consents of a person to the terms of use, with the point in time and the version of the text.
 
-*German: Einwilligungen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Members_management/)
+*German: Einwilligungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Members_management.md)
 
 ### Contact tracing
 
 The module people use to register their presence at locations with a QR code, with an account or as a guest. The registrations are deleted after the retention period of 40 days and exported only on official request.
 
-*German: Kontaktverfolgung* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Contact_Tracing/)
+*German: Kontaktverfolgung* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Contact_Tracing.md)
 
 ### Container
 
 A layout frame that holds other content elements in columns. It sets the number of columns and the spacing.
 
-*German: Container* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Container* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Content editor
 
 The block-based editor that content is assembled from out of paragraphs, images, tables and form elements. It provides the page course element, the form learning resource and the portfolio pages.
 
-*German: Content Editor* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Content Editor* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Content element
 
 A building block of a page: a paragraph, an image, a table, a quiz. The "add content" dialog offers them in groups, and they can be moved around the page freely.
 
-*German: Inhaltselement* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Inhaltselement* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Context help
 
 The question mark icon on pages and in forms that opens the matching page of the OpenOlat Manual. It only works when the manual is active as a help entry.
 
-*German: Kontexthilfe* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/help/index/)
+*German: Kontexthilfe* · *Domain: Platform* · [Manual](../../manual_user/help/index.md)
 
 ### Contexts
 
 A usage context of a user property, for example the profile, the registration or the visiting card. Per context and property there are four switches: include, Mandatory, Admin only and User readonly.
 
-*German: Contexts* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Customizing/)
+*German: Contexts* · *Domain: Platform* · [Manual](../../manual_admin/administration/E-Mail_Settings.md)
 
 ### Conventional course
 
 A course design in which the participants navigate the course menu freely. Access to single elements is steered through conditions, not through an order.
 
-*German: Herkömmlicher Kurs* · *Domain: Course*
+*German: Herkömmlicher Kurs* · *Domain: Course* · [Manual](../../manual_user/learningresources/Creating_Course.md)
 
 ### Core functions
 
 The Administration section with the basic functions of the platform: e-mail, files and folders, landing pages, REST API, WebDAV, calendar, notifications and more.
 
-*German: Core Konfiguration* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Core_functions/)
+*German: Core Konfiguration* · *Domain: Platform* · [Manual](../../manual_admin/administration/Core_functions.md)
 
 ### Correction
 
 A person reviewing and grading a submitted piece of work. It is needed wherever OpenOlat cannot assess automatically, for instance with free text questions.
 
-*German: Korrektur* · *Domain: Assessment*
+*German: Korrektur* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Test_settings.md)
 
 ### Correction request
 
 The coaches' request to revise a submitted solution. It starts another round of revision.
 
-*German: Korrekturanforderung* · *Domain: Tasks and practice*
+*German: Korrekturanforderung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Assessment.md)
 
 ### Correction tool
 
 The tool in which coaches or correctors correct the manually assessed questions of a test: award points and leave comments, question by question or person by person.
 
-*German: Korrekturwerkzeug* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessing_tests/)
+*German: Korrekturwerkzeug* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Assessing_tests.md)
 
 ### Corrector
 
 Course role. A person who grades a particular test submission by hand in the correction workflow. They receive the job through the grading assignments and need no role in the course.
 
-*German: Korrektor:in* · *Domain: Roles*
+*German: Korrektor:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Coaching_Order_Management.md)
 
 ### Correct solution
 
 The right answer of a question, stored as feedback. The candidate sees it automatically after a wrong answer; for essay, upload file and drawing it serves the correctors as a reference.
 
-*German: Korrekte Lösung* · *Domain: Testing and question bank*
+*German: Korrekte Lösung* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_test_questions.md)
 
 ### Cost center
 
 The place in the organisation's accounting that carries the cost of a booking.
 
-*German: Kostenstelle* · *Domain: Catalogue, booking and payment*
+*German: Kostenstelle* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/Reports_BookingOrders.md)
 
 ### Course
 
 A course is a learning resource, but a special one: it is the only one that keeps members, roles and assessments. No other learning resource has any of that, and they are embedded into a course in order to reach participants. The course ties content, activities and assessment into one structured sequence.
 
-*German: Kurs* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course/)
+*German: Kurs* · *Domain: Course* · [Manual](../../manual_admin/administration/Modules_Course.md)
 
 ### Course and group roles
 
 The roles granted in a course or in a group: owner, coach, participant. They apply in that one resource only.
 
-*German: Kurs- und Gruppenrollen* · *Domain: Roles*
+*German: Kurs- und Gruppenrollen* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Course archive
 
 All the data of a course assembled into a file for keeping, with assessments, submissions, forum posts and test results. It preserves the evidence beyond the deletion of the course.
 
-*German: Kursarchiv* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Archiving/)
+*German: Kursarchiv* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Course editor
 
 The area where the structure of a course is edited: creating, arranging and configuring elements. Changes only take effect once they are published.
 
-*German: Kurseditor* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_path_course_Course_editor/)
+*German: Kurseditor* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course_Course_editor.md)
 
 ### Course element
 
 An element that can be added to the course structure in the course editor.
 
-*German: Kursbaustein* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Elements/)
+*German: Kursbaustein* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Elements.md)
 
 ### Course execution
 
 The counter of how often a person has run through the same course: the first run or a repetition for recertification.
 
-*German: Kursdurchführung* · *Domain: Course*
+*German: Kursdurchführung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course_Course_editor.md)
 
 ### Course Planner (Course Planner)
 
 The module that switches on the planning of the educational offering in OpenOlat: products with elements and implementations, element types, course templates, automation, to-dos and reports. It replaces the earlier Curriculum module and grants the memberships of the courses it embeds.
 
-*German: Course Planner* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Planner/)
+*German: Course Planner* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Course_Planner.md)
 
 ### Course Planner (Platform)
 
 The area for planning the educational offering: products, their elements, the implementations and the courses hanging off them. It used to be called Curriculum.
 
-*German: Course Planner* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner/)
+*German: Course Planner* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Course_Planner.md)
 
 ### Course planner
 
 Organisation role. An administrative organisation role. It creates products, elements and implementations in the Course Planner, manages their members and assigns courses to them.
 
-*German: Kursplaner:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Planner/)
+*German: Kursplaner:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Course_Planner.md)
 
 ### Course Planner roles
 
 The roles that hang on a product or an element of the Course Planner and reach from there into the courses.
 
-*German: Course-Planner-Rollen* · *Domain: Roles*
+*German: Course-Planner-Rollen* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Course_Planner.md)
 
 ### Course reminders
 
 Automatic e-mails to participants, fired by a condition in the course, for example a missing submission or an approaching deadline.
 
-*German: Kurserinnerungen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Reminders/)
+*German: Kurserinnerungen* · *Domain: Course* · [Manual](../../manual_admin/administration/Modules_Course_Reminders.md)
 
 ### Courses (Assessment)
 
 The area of the coaching site that lists all courses in which the person is coach or owner, with the number of participants, progress and success status per course.
 
-*German: Kurse* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Courses/)
+*German: Kurse* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Courses.md)
 
 ### Courses (Platform)
 
 The overview of the courses a person is a member of, with the progress and the last access.
 
-*German: Kurse* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Courses/)
+*German: Kurse* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Courses.md)
 
 ### Course statistics
 
 The course tool that counts the accesses to the course elements and shows them as a table and a chart: per hour, per day, per weekday and per week. Counted is the click on an element in the course menu, not the click inside its content.
 
-*German: Kurs Statistiken* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Statistics_Course/)
+*German: Kurs Statistiken* · *Domain: Course* · [Manual](../../manual_user/learningresources/Statistics_Course.md)
 
 ### Course template
 
 A course assigned to an element in the Course Planner in order to instantiate a course of its own from it for every implementation. The template itself is not attended and stays unchanged.
 
-*German: Kurstemplate* · *Domain: Course Planner*
+*German: Kurstemplate* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Course to-do
 
 An open item inside a course, with a responsible person and a deadline. It appears in that person's personal to-do list as well.
 
-*German: Kurs To-do* · *Domain: Course*
+*German: Kurs To-do* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_todos.md)
 
 ### Covering letter
 
@@ -1014,19 +1014,19 @@ The covering letter of an application, in which the applicant sets out why they 
 
 The module a person uses to record the validity of their COVID certificate in the personal menu, by QR scan, import or manually. Only the expiry date is stored. COVID commissioners record certificates for others in the site COVID Certificate Administration.
 
-*German: COVID-Zertifikat* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/COVID_certificate/)
+*German: COVID-Zertifikat* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/COVID_certificate.md)
 
 ### CP learning content (Course)
 
 A course element that shows learning content in the IMS Content Packaging format.
 
-*German: CP-Lerninhalt* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_CP_Learning_Content/)
+*German: CP-Lerninhalt* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_CP_Learning_Content.md)
 
 ### CP learning content (Learning resources)
 
 A learning resource in the IMS Content Packaging format. It holds finished learning content with its own navigation, produced in another tool.
 
-*German: CP-Lerninhalt* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_CP_Learning_Content/)
+*German: CP-Lerninhalt* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Course_Element_CP_Learning_Content.md)
 
 ### Credit
 
@@ -1038,13 +1038,13 @@ A transaction that adds credit points to a person, as a rule after a passed cour
 
 The module that keeps credit points per person in a credit point system, credits them for passed courses and debits them again in certification programs for recertification. Paying for bookings with credit points is announced but not implemented.
 
-*German: Kreditpunkte* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Credit_Points/)
+*German: Kreditpunkte* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/personal_menu/Credit_Points.md)
 
 ### Credit point system
 
 A named system of credit points with its own unit and its own rules, for example ECTS. One installation can run several of them.
 
-*German: Kreditpunktesystem* · *Domain: Catalogue, booking and payment*
+*German: Kreditpunktesystem* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/e-Assessment_Credit_Points.md)
 
 ### Curriculum vitae
 
@@ -1056,7 +1056,7 @@ An applicant's curriculum vitae with education, posts and academic career.
 
 The Administration section for the appearance and adaptation of the platform: Sites, Help, User Properties, Imprint, Terms of use and languages.
 
-*German: Customizing* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Customizing/)
+*German: Customizing* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
 
 ## D
 
@@ -1064,7 +1064,7 @@ The Administration section for the appearance and adaptation of the platform: Si
 
 An overview page made of widgets a person arranges themselves: add, remove and move widgets and reset them to the system default. The Course Planner and Coaching open with a dashboard.
 
-*German: Dashboard* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Dashboard/)
+*German: Dashboard* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Course_Planner_Dashboard.md)
 
 ### Dashboard (Selectus)
 
@@ -1076,13 +1076,13 @@ The start page of applicants after signing in. It lists their own applications w
 
 A single collection run with one form, one topic, a period and a set of respondents. It is the unit of work of quality management.
 
-*German: Datenerhebung* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Data_Collections/)
+*German: Datenerhebung* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collections.md)
 
 ### Data collection generator
 
 A rule that creates data collections on its own as soon as an event occurs, for example the end of a course. It saves creating the same kind of collection over and over.
 
-*German: Datenerhebungsgenerator* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Data_Collection_Generators/)
+*German: Datenerhebungsgenerator* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collection_Generators.md)
 
 ### Data collection participation
 
@@ -1094,7 +1094,7 @@ The participation of a single person in a data collection. It records whether so
 
 The overview of the upcoming data collections that generators are going to create. It is available in quality management, in the course administration and in the Course Planner and must be switched on in the administration.
 
-*German: Datenerhebungsvorschau* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Data_Collection_Preview/)
+*German: Datenerhebungsvorschau* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collection_Preview.md)
 
 ### Datenlotsen
 
@@ -1106,7 +1106,7 @@ The connection to the identity server of Datenlotsen, the maker of the campus ma
 
 An input field in the form for a date, optionally with a time of day.
 
-*German: Datum / Zeit* · *Domain: Quality management and forms*
+*German: Datum / Zeit* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Debit
 
@@ -1118,7 +1118,7 @@ A transaction that subtracts credit points from a person, for example when they 
 
 A decision recorded in the project, with a date and a justification. It keeps a traceable record of what was decided and why.
 
-*German: Entscheid* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Decisions/)
+*German: Entscheid* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Decisions.md)
 
 ### Decision (Selectus)
 
@@ -1136,7 +1136,7 @@ A grid of weighted rubrics with which the head and the staff record one more rat
 
 A service of LTI 1.3 with which authors pick a specific content of the external tool in the course element LTI page instead of entering only its start address. Administration enables it per tool; the button "Select content" then opens the tool's content picker.
 
-*German: Deep Linking* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/LTI_Deeplinking/)
+*German: Deep Linking* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_Deeplinking.md)
 
 ### Degree certificates
 
@@ -1148,61 +1148,61 @@ The certificates of the academic degrees reached.
 
 The configured connection to an LTI tool or an LTI platform, with keys, addresses and the statement of which data is transferred. A deployment applies to a single course or group (local) or to the whole system (global, with shared deployment).
 
-*German: Deployment* · *Domain: Integrations and standards*
+*German: Deployment* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_External_tools.md)
 
 ### Diagram
 
 A drawing made with draw.io on a page: a flowchart, a process, an org chart. It stays editable.
 
-*German: Diagramm* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Diagramm* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Disadvantage compensation
 
 An adjustment of the exam conditions for a person with a disability or an impairment, as a rule as extra time. It applies to that person and leaves the task unchanged.
 
-*German: Nachteilsausgleich* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_admin/usermanagement/Configure_User/)
+*German: Nachteilsausgleich* · *Domain: Assessment* · [Manual](../../manual_admin/usermanagement/Configure_User.md)
 
 ### Discussion
 
 The discussion on a wiki page. It keeps the conversation about the content apart from the content itself.
 
-*German: Diskussion* · *Domain: Collaboration*
+*German: Diskussion* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Dispensation
 
 The advance exemption from the attendance requirement for a period. The units concerned do not count against the attendance rate.
 
-*German: Dispens* · *Domain: Events and absences*
+*German: Dispens* · *Domain: Events and absences* · [Manual](../../manual_user/personal_menu/Absences.md)
 
 ### Document (Content and media)
 
 A file on a page, to download or as an embedded preview.
 
-*German: Dokument* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Dokument* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Document (Course)
 
 A course element that shows a single document straight in the course: a PDF, an image, an Office file or a draw.io diagram. Per role it can be set who may edit and download the document.
 
-*German: Dokument* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Document/)
+*German: Dokument* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Document.md)
 
 ### Document editor
 
 An embedded editor with which files in the folders of OpenOlat are opened and edited in the browser. Administration enables the editors one by one and can restrict their use to roles.
 
-*German: Dokumenteneditor* · *Domain: Integrations and standards*
+*German: Dokumenteneditor* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/External_Tools_-_Administration.md)
 
 ### Document pool (Collaboration)
 
 The module for a document collection structured by the taxonomy. Permissions are granted per taxonomy level, which makes it suitable for documents of differing confidentiality.
 
-*German: Dokumentenpool* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Document_pool/)
+*German: Dokumentenpool* · *Domain: Collaboration* · [Manual](../../manual_admin/administration/Modules_Document_pool.md)
 
 ### Document pool (Platform)
 
 The area for a document collection structured by the taxonomy. The permissions are granted per taxonomy level.
 
-*German: Dokumentenpool* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Document_pool/)
+*German: Dokumentenpool* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Document_pool.md)
 
 ### Documents and attachments
 
@@ -1214,25 +1214,25 @@ The step of the application form with all documents an application brings with i
 
 A question type like the matrix but with dragging instead of ticking. The candidate drags the terms into the matching categories.
 
-*German: Drag and Drop* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Drag and Drop* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Drawing
 
 A question type in which the candidate works on a given background image with drawing tools. It has to be assessed manually.
 
-*German: Zeichnen* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Zeichnen* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### draw.io
 
 The connection to the diagram editor draw.io. It provides the whiteboard in the Projects module and the diagram editor in the file areas.
 
-*German: draw.io* · *Domain: Integrations and standards*
+*German: draw.io* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/External_Tools_-_Administration.md)
 
 ### Drop box (Course)
 
 The folder in the participant folder element where a participant uploads their files. Only they and the coaches see it.
 
-*German: Abgabeordner* · *Domain: Course*
+*German: Abgabeordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Participant_Folder.md)
 
 ### Drop box (Tasks and practice)
 
@@ -1246,79 +1246,79 @@ The folder inside a task element where a participant uploads their work. Only th
 
 A course element that opens licensed e-books of the Edubase textbook platform in the course, optionally from a given page.
 
-*German: Edubase* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Edubase/)
+*German: Edubase* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Edubase.md)
 
 ### Edubase (Integrations and standards)
 
 The connection to the textbook platform Edubase. Participants open the licensed e-books straight from the course.
 
-*German: Edubase* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Edubase/)
+*German: Edubase* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Edubase.md)
 
 ### Educational products
 
 An educational offering kept in the Course Planner, made up of several courses and implementations, as coaching and the catalogue show it.
 
-*German: Bildungsprodukte* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Educational_Products/)
+*German: Bildungsprodukte* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 ### Education manager
 
 Organisation role. An administrative organisation role for training responsibility. In coaching it sees the same overview as the line managers and additionally takes on administrative tasks such as checking booking orders and blocking accounts.
 
-*German: Ausbildungsverantwortliche:r* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Ausbildungsverantwortliche:r* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### edu-sharing (Course)
 
 A course element that shows a content item from the edu-sharing education cloud in the course. The content stays in edu-sharing and is only referenced.
 
-*German: edu-sharing* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_edu_Sharing/)
+*German: edu-sharing* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_edu_Sharing.md)
 
 ### edu-sharing (Integrations and standards)
 
 The connection to the edu-sharing repository. Content stays in the education cloud and is referenced in the course.
 
-*German: edu-sharing* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_edu_Sharing/)
+*German: edu-sharing* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_edu_Sharing.md)
 
 ### Element
 
 A node in the structure of a product. Depending on the element type it stands for a study programme, a semester, a module or an implementation. The elements form the hierarchy the courses are hung into.
 
-*German: Element* · *Domain: Course Planner*
+*German: Element* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Element owner
 
 Curriculum role. Manages a single element in the Course Planner, usually an implementation, with its members and courses. The reach ends at that element.
 
-*German: Elementbesitzer:in* · *Domain: Roles*
+*German: Elementbesitzer:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Course_Planner.md)
 
 ### Element type
 
 The kind of an element in the Course Planner. The element type sets which elements are allowed below it, whether the element keeps members and how it appears in the catalogue.
 
-*German: Elementtyp* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Planner/)
+*German: Elementtyp* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Course_Planner.md)
 
 ### E-mail (tool)
 
 The group tool with which members of a group write an e-mail to all or selected coaches and participants. It is a contact form, not a mailbox.
 
-*German: E-Mail* · *Domain: Collaboration*
+*German: E-Mail* · *Domain: Collaboration* · [Manual](../../manual_user/groups/Group_Administration.md)
 
 ### E-mail (concept)
 
 A message OpenOlat sends or receives: notifications, reminders, messages from the E-mail course element and from the members management.
 
-*German: E-Mail* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_EMail/)
+*German: E-Mail* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_EMail.md)
 
 ### E-mail (Course)
 
 A course element with a contact form. Participants write through it to recipients set in advance, without knowing their address.
 
-*German: E-Mail* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_EMail/)
+*German: E-Mail* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_EMail.md)
 
 ### E-mail inbox and outbox
 
 The Administration page under Core functions, E-mail. It switches the OpenOlat inbox on and decides whether e-mails go only to the inbox or also to the personal e-mail address; plus the e-mail template.
 
-*German: E-Mail Postfach und Versand* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/E-Mail_Settings/)
+*German: E-Mail Postfach und Versand* · *Domain: Platform* · [Manual](../../manual_admin/administration/E-Mail_Settings.md)
 
 ### Email log
 
@@ -1330,91 +1330,91 @@ The table in the mail center with all e-mails of a call already sent, with recip
 
 The text a reminder sends: subject and body, with variables for name, course and course link.
 
-*German: E-Mail-Benachrichtigung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: E-Mail-Benachrichtigung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### E-mail support
 
 The help entry that opens a contact form to the support address of the installation. The administration enters the address; switched off by default.
 
-*German: E-Mail Support* · *Domain: Platform*
+*German: E-Mail Support* · *Domain: Platform* · [Manual](../../manual_user/help/index.md)
 
 ### Embedding model
 
 A model that turns text into a vector of numbers, so that closeness in meaning can be computed. Taxonomy matching uses it to assign a text to the right taxonomy level. It produces no text.
 
-*German: Einbettungsmodell* · *Domain: Artificial intelligence*
+*German: Einbettungsmodell* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Embed glossary terms
 
 The highlighting of the glossary terms in the course text. A dotted underline marks a term; the definition appears on hover. Learners switch the highlighting on and off in the toolbar.
 
-*German: Glossarbegriffe einbinden* · *Domain: Learning resources*
+*German: Glossarbegriffe einbinden* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Glossary_usage.md)
 
 ### Enrolment (course element)
 
 A course element participants use to enter themselves into course groups. It can limit places and keep a waiting list.
 
-*German: Einschreibung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Enrolment/)
+*German: Einschreibung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Enrolment.md)
 
 ### Enrolment (concept)
 
 The binding allocation of a topic to a participant in the topic broker. It follows the selection period, triggered automatically or by hand, and is calculated with a fair algorithm from selections and priorities.
 
-*German: Einschreibung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Broker/)
+*German: Einschreibung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Broker.md)
 
 ### Enrolment process
 
 One run of the allocation algorithm. Started by hand, several runs can be calculated and compared; the coaches accept one of them.
 
-*German: Einschreibevorgang* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Broker/)
+*German: Einschreibevorgang* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Broker.md)
 
 ### Entry (ePortfolio)
 
 A page in a binder, built with the content editor from text, images, videos, documents and forms. An entry answers an assignment or stands on its own. The person writes it as a draft and publishes it; after that it can no longer be edited, only commented on.
 
-*German: Eintrag* · *Domain: ePortfolio*
+*German: Eintrag* · *Domain: ePortfolio* · [Manual](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)
 
 ### Entry (Learning resources)
 
 A post in a blog, with title, summary, content, image and publication date. It is a draft, scheduled or published; readers can comment on it, rate it and take it into the media center.
 
-*German: Eintrag* · *Domain: Learning resources*
+*German: Eintrag* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Blog_Blogging.md)
 
 ### Episode
 
 A post in a podcast with an audio or video file attached. It is played in OpenOlat, downloaded or listened to in a podcast app through the RSS feed.
 
-*German: Episode* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Podcast_listen_and_watch/)
+*German: Episode* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Podcast_listen_and_watch.md)
 
 ### ePortfolio
 
 The module learners use to document and reflect on their learning processes. It gives every person binders, sections and entries, and the portfolio task course elements distribute binders from a template through it. Administration switches it on or off under e-Assessment.
 
-*German: ePortfolio* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_admin/administration/eAssessment_ePortfolio/)
+*German: ePortfolio* · *Domain: ePortfolio* · [Manual](../../manual_admin/administration/eAssessment_ePortfolio.md)
 
 ### Essay
 
 A question type with a free text field. The candidate writes the answer themselves, which is why the question has to be assessed manually.
 
-*German: Freitext* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Freitext* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Essay Grading
 
 The AI feature that produces formative feedback on the free text answers of learners. It supplies hints on the answer, no grade and no status. It works only in the quiz of a page, not in the course elements test and self-test. The assessment stays with the coaches.
 
-*German: Essay Bewertung* · *Domain: Artificial intelligence*
+*German: Essay Bewertung* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Essay Question Generator
 
 The AI feature that produces free text questions together with grading criteria from a source text or an uploaded file. The criteria are the basis essay grading later produces feedback from.
 
-*German: Essay Fragen Generator* · *Domain: Artificial intelligence*
+*German: Essay Fragen Generator* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Evaluation (ePortfolio)
 
 The filled-in form of an assignment of type form. The person evaluates themselves, and depending on the setting shared persons give an external evaluation, openly or anonymously; the comparison sets several evaluations side by side.
 
-*German: Einschätzung* · *Domain: ePortfolio*
+*German: Einschätzung* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### Evaluation (Selectus)
 
@@ -1426,49 +1426,49 @@ The site where referees and experts submit their letters and where public feedba
 
 A schedulable teaching unit of 1 to 12 units, with a date, a room and lecturers. It is the unit attendance is recorded for.
 
-*German: Termin* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_user/learningresources/Toolbar_Events/)
+*German: Termin* · *Domain: Events and absences* · [Manual](../../manual_user/learningresources/Toolbar_Events.md)
 
 ### Event (Collaboration)
 
 An entry in a calendar with title, start, end, location, description and links. It sits in the personal, the course or the group calendar and can recur.
 
-*German: Termin* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Calendar/)
+*German: Termin* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Calendar.md)
 
 ### Events / Absences
 
 The area of the coaching site for events and absences of the coached persons, with the tabs cockpit, events, absences, notices, appeals and user search. It appears only when the events and absences module is switched on.
 
-*German: Termine / Absenzen* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Events_Absences/)
+*German: Termine / Absenzen* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Events_Absences.md)
 
 ### Events and absences
 
 The module for classroom operation: events with teachers and units, the roll call per event and the resulting absences, notices and appeals. The administration switches it on system-wide and sets the defaults, course owners activate it per course in the settings under Execution.
 
-*German: Termine und Absenzen* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Events_and_Absences/)
+*German: Termine und Absenzen* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Events_and_Absences.md)
 
 ### Evidence of achievement
 
 The collection of all results a person has in a course, one per assessable course element, with points, status and date.
 
-*German: Leistungsnachweis* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Evidence_of_Achievements/)
+*German: Leistungsnachweis* · *Domain: Evidence* · [Manual](../../manual_user/personal_menu/Evidence_of_Achievements.md)
 
 ### Exam course
 
 A course created only to run an exam. The wizard creates it with the assessment mode and the test in one step.
 
-*German: Prüfungskurs* · *Domain: Assessment*
+*German: Prüfungskurs* · *Domain: Assessment* · [Manual](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 ### Excel
 
 A learning resource for an Excel document. It can be edited in the browser when ONLYOFFICE or Microsoft 365 is connected.
 
-*German: Excel* · *Domain: Learning resources*
+*German: Excel* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Exception
 
 A deviation from the execution of a course element for particular people: by group, organisation, account, user property, passed course element or course execution number. Several exceptions are joined with "or".
 
-*German: Ausnahme* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_path_course_Course_editor/)
+*German: Ausnahme* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course_Course_editor.md)
 
 ### Ex-Officio
 
@@ -1492,13 +1492,13 @@ A written judgement of an application by an external specialist appointed by the
 
 The view of the visibility and access tabs in which the condition is written as an expert rule: an expression of functions such as isCourseCoach(0), operators and dates.
 
-*German: Expertenmodus* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Access_Restrictions_in_the_Expert_Mode/)
+*German: Expertenmodus* · *Domain: Course* · [Manual](../../manual_user/learningresources/Access_Restrictions_in_the_Expert_Mode.md)
 
 ### Export
 
 A job that produces a ZIP file in the background and offers it for download for a limited time, 10 days by default. The assessment tool, the course archive, Coaching and the Course Planner use the same mechanism.
 
-*German: Export* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Archiving/)
+*German: Export* · *Domain: Platform* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Export history
 
@@ -1510,7 +1510,7 @@ The list of the exports of a course or a person, with status, progress, Availabl
 
 The evaluation a shared person gives on another person's assignment. It is only possible if the assignment allows it, and it can be anonymous.
 
-*German: Fremdeinschätzung* · *Domain: ePortfolio*
+*German: Fremdeinschätzung* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### External expert
 
@@ -1528,19 +1528,19 @@ Evidence of the research funding raised from external funders, with the amount a
 
 Groups that an external system creates and maintains, for example the fxSyncher through the REST interface. Managed properties such as title, members or tools are locked in OpenOlat; administrators can override the lock.
 
-*German: Extern verwaltete Gruppen* · *Domain: Collaboration*
+*German: Extern verwaltete Gruppen* · *Domain: Collaboration* · [Manual](../../manual_admin/administration/REST_API.md)
 
 ### External page
 
 A course element that shows an external web page in the course and ties it into the course navigation.
 
-*German: Externe Seite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_External_Page/)
+*German: Externe Seite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_External_Page.md)
 
 ### External site
 
 A tab of the main navigation that opens an external web address, embedded as an iframe or as a link. Title and URL are set per language. There are two such sites; they only appear once configured.
 
-*German: Externe Seite* · *Domain: Platform*
+*German: Externe Seite* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_External_Page.md)
 
 ## F
 
@@ -1548,7 +1548,7 @@ A tab of the main navigation that opens an external web address, embedded as an 
 
 The connection to Facebook for signing in with the Facebook account through OAuth 2.0.
 
-*German: Facebook* · *Domain: Platform*
+*German: Facebook* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### Faculty feedback
 
@@ -1566,73 +1566,73 @@ Selectus role. A member of the faculty who is asked for feedback on an applicati
 
 A text the candidate sees after answering. It can be stored separately for the right answer, the wrong answer and single answer options.
 
-*German: Feedback* · *Domain: Testing and question bank*
+*German: Feedback* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_test_questions.md)
 
 ### File
 
 A learning resource for a single uploaded file whose format OpenOlat does not treat specially.
 
-*German: Datei* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_dev/ux/file/)
+*German: Datei* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### File dialog
 
 A course element that combines the folder and the forum. Every uploaded document gets a discussion of its own.
 
-*German: Dateidiskussion* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_File_Dialog/)
+*German: Dateidiskussion* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_File_Dialog.md)
 
 ### File Hub
 
 The area that shows the files from all courses, groups and a person's own storage in one place.
 
-*German: File Hub* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/File_Hub/)
+*German: File Hub* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/File_Hub.md)
 
 ### Files (collaboration.files)
 
 The files of a course, a group or a project, stored together and searchable together.
 
-*German: Dateien* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Files/)
+*German: Dateien* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Files.md)
 
 ### Files (collaboration.project_files)
 
 The file area of a project. Files can be uploaded, created in the project or taken over from other areas of OpenOlat.
 
-*German: Dateien* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Files/)
+*German: Dateien* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Files.md)
 
 ### Files and folders
 
 The Administration page for the file storage of the whole system, with the tabs Overview, Configuration, Quotas, Large files and Trash. Versioning, the retention period of the trash and the default quotas are set there.
 
-*German: Dateien und Ordner* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Files_and_Folders/)
+*German: Dateien und Ordner* · *Domain: Platform* · [Manual](../../manual_admin/administration/Files_and_Folders.md)
 
 ### Floating entry
 
 An entry that is assigned to no binder. It is created under My entries, can later be imported into a binder and, without a share, is visible to the person alone.
 
-*German: Floating Eintrag* · *Domain: ePortfolio*
+*German: Floating Eintrag* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/My_entries.md)
 
 ### Folder (Collaboration)
 
 A folder for files, with permissions per folder, versioning and access through WebDAV.
 
-*German: Ordner* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Folder/)
+*German: Ordner* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Folder.md)
 
 ### Folder (Course)
 
 A course element that offers files for download, for example course material. Coaches can also open the folder for uploads by participants.
 
-*German: Ordner* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Folder/)
+*German: Ordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Folder.md)
 
 ### Form (Course)
 
 A course element that embeds a form learning resource for participants to fill in. Unlike the survey the answers can be traced to a person.
 
-*German: Formular* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Form/)
+*German: Formular* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Form.md)
 
 ### Form (Quality management and forms)
 
 The generic learning resource for recorded entries, built in the content editor. It is used in six places with a different meaning each time: as an assessment rubric in the ePortfolio, in the assessment course element and in the task course element including the peer review; as a quality rubric in quality management and in the survey course element; as a form in the form course element. The meaning comes from the place that embeds it, not from the form.
 
-*German: Formular* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form/)
+*German: Formular* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form.md)
 
 ### Form letter
 
@@ -1644,13 +1644,13 @@ A PDF letter produced from a template and sent together with an e-mail, for exam
 
 An area for asynchronous discussions. Posts stay readable for good, can be searched and can be subscribed to.
 
-*German: Forum* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Forum/)
+*German: Forum* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Forum.md)
 
 ### Forum (Course)
 
 A course element for asynchronous online discussions. Participants open topics, reply to each other and subscribe to new posts.
 
-*German: Forum* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Forum/)
+*German: Forum* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Forum.md)
 
 ### Full professor
 
@@ -1662,7 +1662,7 @@ The professorship type for a permanent professorship with the full scope of rese
 
 The search across the content of the whole platform, including the text of documents. It only shows what the searching person has access to.
 
-*German: Volltextsuche* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Full_Text_Search/)
+*German: Volltextsuche* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Full_Text_Search.md)
 
 ## G
 
@@ -1670,157 +1670,157 @@ The search across the content of the whole platform, including the text of docum
 
 Several images as a gallery on a page, with thumbnails and a large view.
 
-*German: Galerie* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Galerie* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Gap FIB numerical
 
 A question type like the gap text but for numbers only. A permitted tolerance can be set for every gap.
 
-*German: Lückentext numerisch* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Lückentext numerisch* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Gap FIB text
 
 A question type with a running text that has gaps built into it. The candidate types the missing text in.
 
-*German: Lückentext* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Lückentext* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Gap mixed
 
 A question type that combines text gaps, numerical gaps and dropdown gaps in one running text. It can hold a calculation and its justification in a single question, for example.
 
-*German: Lückentext gemischt* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Lückentext gemischt* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Gap with dropdown
 
 A question type that combines the gap text with single choice. Instead of typing, the candidate picks the content of the gap from a dropdown.
 
-*German: Lückentext mit Dropdown* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Lückentext mit Dropdown* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Generated report
 
 The Excel file a report template has produced. It stays available for download for ten days, shows the remaining time and can be copied or deleted.
 
-*German: Generierter Report* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Reports/)
+*German: Generierter Report* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Reports.md)
 
 ### Generic AI Provider
 
 An AI provider connected through an OpenAI-compatible interface, for example vLLM, Ollama or LiteLLM. It allows a model to be run in the institution's own data centre, so that no data leaves the house. Every installation carries such a provider under the fixed identifier Generic_0.
 
-*German: Generischer KI Anbieter* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: Generischer KI Anbieter* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Glossary
 
 A learning resource with terms and their explanation. Embedded in a course it highlights the terms in the course text and shows the explanation on hover.
 
-*German: Glossar* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Glossary/)
+*German: Glossar* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Glossary.md)
 
 ### Google
 
 The connection to Google for signing in with the Google account through OAuth 2.0. The person signs in at Google, OpenOlat receives the confirmed identity.
 
-*German: Google* · *Domain: Platform*
+*German: Google* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### Google Analytics
 
 The connection to Google Analytics through a tracking ID. The analysis is held by Google.
 
-*German: Google Analytics* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Analytics_module/)
+*German: Google Analytics* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Analytics_module.md)
 
 ### GoToMeeting (Course)
 
 A course element that embeds GoToMeeting and GoToTraining sessions into the course.
 
-*German: GoToMeeting* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_GoToMeeting/)
+*German: GoToMeeting* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_GoToMeeting.md)
 
 ### GoToMeeting (Integrations and standards)
 
 The connection to GoToMeeting and GoToTraining for virtual sessions.
 
-*German: GoToMeeting* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_GoToMeeting/)
+*German: GoToMeeting* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_GoToMeeting.md)
 
 ### Grade
 
 The value a performance is named with under a grading system, for example the grade 5 or the verdict good. It comes from the points through the grading scale.
 
-*German: Note* · *Domain: Assessment*
+*German: Note* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 ### Grading assignment
 
 The order given to a correcting person to grade a particular test submission by hand, with a deadline and recorded correction time. It serves where the correction is given out and billed outside the course team.
 
-*German: Korrekturauftrag* · *Domain: Assessment*
+*German: Korrekturauftrag* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Order_Management.md)
 
 ### Grading kit (reference + model answer)
 
 What essay grading measures an answer against: learning objective, reference excerpt, model answer, key points, rubric criteria and common misconceptions. The essay question generator fills it in, the author maintains it in the tab "AI feedback" of the question. Without the kit the AI has no yardstick.
 
-*German: Bewertungs-Kit (Referenz + Musterantwort)* · *Domain: Artificial intelligence*
+*German: Bewertungs-Kit (Referenz + Musterantwort)* · *Domain: Artificial intelligence* · [Manual](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 
 ### Grading scale
 
 The assignment of ranges of points to grade values. It translates a score into a grade.
 
-*German: Bewertungsskala* · *Domain: Assessment*
+*German: Bewertungsskala* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 ### Grading system
 
 A named system of grade values, for example the Swiss scale from 1 to 6. It sets which values exist and which of them count as passed.
 
-*German: Bewertungssystem* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_admin/administration/Assessment_translate_points_in_grades_admin/)
+*German: Bewertungssystem* · *Domain: Assessment* · [Manual](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
 ### Group
 
 A group of people who work together, with members, tools and a lifecycle of their own. It can exist inside a course or independently of any course in the Groups area.
 
-*German: Gruppe* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/groups/)
+*German: Gruppe* · *Domain: Collaboration* · [Manual](../../manual_user/groups/index.md)
 
 ### Group life cycle
 
 The scheduling of a group. It sets when a group automatically becomes inactive, when it is deleted and who is warned beforehand.
 
-*German: Gruppen-Lebenszyklus* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/)
+*German: Gruppen-Lebenszyklus* · *Domain: Collaboration* · [Manual](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
 
 ### Group management
 
 The area for group managers in the Groups menu. It shows all groups of the system, other people's included, and allows editing, merging, inactivating and deleting any group.
 
-*German: Gruppenverwaltung* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Group_Management/)
+*German: Gruppenverwaltung* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Group_Management.md)
 
 ### Group manager
 
 System role. A system role. It manages the groups of the whole system. It is a system role and not an organisation role, because groups are not assigned to an organisation so far.
 
-*German: Gruppenverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Gruppenverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Groups (Assessment)
 
 The area of the coaching site that lists all coached groups from courses, with the participants of the group and their state.
 
-*German: Gruppen* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Groups/)
+*German: Gruppen* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Groups.md)
 
 ### Groups (Platform)
 
 The area for groups that belong to no course. People create their own groups there or join open ones.
 
-*German: Gruppen* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Groups/)
+*German: Gruppen* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Groups.md)
 
 ### Group task
 
 A course element with the same task workflow as the task, but for groups. A group submits together and receives one assessment.
 
-*German: Gruppenaufgabe* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Grouptask/)
+*German: Gruppenaufgabe* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Grouptask.md)
 
 ### Guest
 
 Access role. Access without signing in, with read access to the resources explicitly released for guests. Guests have no account, do not become members and leave no assessment behind.
 
-*German: Gast* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Gast* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/guest_access.md)
 
 ### Guest access
 
 Access to OpenOlat without an account through the Guest access link on the login page. Guests only see resources explicitly released for guests, and only in conventional courses.
 
-*German: Gastzugang* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/guest_access/)
+*German: Gastzugang* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/guest_access.md)
 
 ## H
 
@@ -1834,25 +1834,25 @@ Selectus role. Leads the appointment committee, sees all applications and steers
 
 The view of the analysis that shows the average values per grouping and question as coloured dots. The colour follows the quality ranges of the rubric, the size follows the number of answers. It makes problem areas visible at a glance.
 
-*German: Heatmap* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Analysis/)
+*German: Heatmap* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Analysis.md)
 
 ### Help
 
 The help menu in the header with links to the OpenOlat Manual, the OpenOlat Academy and the teaching session, optionally with e-mail support, a help course and three custom URLs. The administration chooses the entries under Customizing, Help.
 
-*German: Hilfe* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/help/index/)
+*German: Hilfe* · *Domain: Platform* · [Manual](../../manual_user/help/index.md)
 
 ### Highscore
 
 The ranking of the points reached in an assessable course element. It can be shown anonymised and motivates through comparison.
 
-*German: Rangliste* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment/)
+*German: Rangliste* · *Domain: Course* · [Manual](../../manual_user/learningresources/Assessment.md)
 
 ### History
 
 The tab of a binder that lists all changes in chronological order, the newest at the top. Administration can switch it off.
 
-*German: Änderungsprotokoll* · *Domain: ePortfolio*
+*German: Änderungsprotokoll* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/My_portfolio_binders.md)
 
 ### Home
 
@@ -1870,25 +1870,25 @@ The organisation a person belongs to through the User role. It decides which acc
 
 A question type with an image that has areas defined on it. The candidate clicks the areas that apply, either one or several.
 
-*German: Hotspot* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Hotspot* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Hottext
 
 A question type in which single terms in a running text can be marked. The candidate picks the terms that apply in the text.
 
-*German: Hottext* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Hottext* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### HTML page
 
 A course element that shows a single HTML page with texts, images and videos. The page sits as a file in the storage folder of the course.
 
-*German: HTML-Seite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_HTML_Page/)
+*German: HTML-Seite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_HTML_Page.md)
 
 ### HTML text code
 
 A block of raw HTML, for embeddings no other element covers.
 
-*German: HTML-Textcode* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: HTML-Textcode* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ## I
 
@@ -1896,73 +1896,73 @@ A block of raw HTML, for embeddings no other element covers.
 
 The personal address under which an OpenOlat calendar can be fetched in the iCal format. A foreign calendar program subscribes to the calendar through this address and shows the events there.
 
-*German: iCal Feed-Link* · *Domain: Collaboration*
+*German: iCal Feed-Link* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Calendar.md)
 
 ### Image (Content and media)
 
 An image on a page. It comes from the Media Center and is therefore available across courses.
 
-*German: Bild* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Bild* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Image (Learning resources)
 
 A learning resource for a single image file.
 
-*German: Bild* · *Domain: Learning resources*
+*German: Bild* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Image comparison
 
 Two images on top of each other with a slider that moves between them.
 
-*German: Bildvergleich* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Bildvergleich* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Image Description Generator
 
 The AI feature that produces a title, a description, alt text and keywords for uploaded images. The alt text is the part that counts for accessibility. In the media center it starts from a button, on Markdown import into the content editor it runs in the background. It is not available for SVG images.
 
-*German: Bildbeschreibungs-Generator* · *Domain: Artificial intelligence*
+*German: Bildbeschreibungs-Generator* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Implementation
 
 The concrete run of an educational offering, with a period, a location, members and courses. The product describes what is offered, the implementation when and with whom it actually runs.
 
-*German: Durchführung* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Implementations/)
+*German: Durchführung* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Imprint
 
 The legally required statement of who operates the platform. The text is set per installation.
 
-*German: Impressum* · *Domain: Platform*
+*German: Impressum* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
 
 ### Info message
 
 A message that appears on the login page, that is before signing in. It announces maintenance work, for example, or explains an outage.
 
-*German: Info Meldung* · *Domain: Platform*
+*German: Info Meldung* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
 ### Info messages
 
 The Administration page under System where the info message for the login page and the maintenance message for all pages are set, each with an optional start and end date.
 
-*German: Info messages* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/System/)
+*German: Info messages* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
 ### Info page (Course)
 
 The page that describes a learning resource before a person enters it, with the description, the period, the coaches and the option to book.
 
-*German: Infoseite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Info_page/)
+*German: Infoseite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Info_page.md)
 
 ### Info page (Platform)
 
 A course pinned as a tab of the main navigation. The title of the tab is set per language, the course toolbar can be shown to everyone. There are four such sites, Info page n°1 to n°4.
 
-*German: Infoseite* · *Domain: Platform*
+*German: Infoseite* · *Domain: Platform* · [Manual](../../manual_user/learningresources/General_Functions_Infopage.md)
 
 ### Information for members
 
 The group tool for messages to all members of a group. Coaches or, depending on the setting, all members write the messages; subscribers receive them by e-mail.
 
-*German: Information an Mitglieder* · *Domain: Collaboration*
+*German: Information an Mitglieder* · *Domain: Collaboration* · [Manual](../../manual_user/groups/Group_Administration.md)
 
 ### Inheritance
 
@@ -1974,31 +1974,31 @@ The passing on of an administrative organisation role to the sub-organisations. 
 
 The panel in the content editor that opens for a selected layout or content element and sets its properties: the options of the element type, the style with background and alert box, and layout and spacing. The gear icon shows and hides it.
 
-*German: Inspektor* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Inspektor* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Instantiation
 
 Creating a course from a course template for a particular implementation. The template stays unchanged and serves further implementations.
 
-*German: Instanziierung* · *Domain: Course Planner*
+*German: Instanziierung* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Instant Messaging
 
 The module for short messages in real time. It shows who is signed in and allows conversations between single people as well as in course and group rooms.
 
-*German: Instant-Messaging* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_admin/administration/Instant_Messaging/)
+*German: Instant-Messaging* · *Domain: Collaboration* · [Manual](../../manual_admin/administration/Instant_Messaging.md)
 
 ### Invitation link
 
 The link through which an external person without an account gets access to exactly one resource: a course, a group, a project or a portfolio binder. On first use an external account with the role Invitee is created, which expires after 180 days.
 
-*German: Einladungslink* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Guest_and_invitation/)
+*German: Einladungslink* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Assign_Roles.md)
 
 ### Invitations (Collaboration)
 
 Access for external people without an account. The invited person gets access to a single resource through a link, and their account expires with the invitation.
 
-*German: Einladungen* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Members_management/)
+*German: Einladungen* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Members_management.md)
 
 ### Invitations (Platform)
 
@@ -2010,13 +2010,13 @@ The site an invited external person sees as their only navigation entry. It list
 
 Access role. An external person who is given access to a single resource through an invitation. The account comes into being with the invitation, belongs to no organisation and expires with it.
 
-*German: Einladung* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Einladung* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Assign_Roles.md)
 
 ### Invoice
 
 The payment method in which the amount is invoiced later instead of being paid online straight away.
 
-*German: Rechnung* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Payment_Invoice/)
+*German: Rechnung* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Payment_Invoice.md)
 
 ## J
 
@@ -2024,13 +2024,13 @@ The payment method in which the amount is invoiced later instead of being paid o
 
 A course element that provides a Jupyter image. Participants start their own Jupyter environment for interactive computing from it.
 
-*German: JupyterHub* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_JupyterHub/)
+*German: JupyterHub* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_JupyterHub.md)
 
 ### JupyterHub (Integrations and standards)
 
 The connection to JupyterHub through LTI 1.3. Participants get their own Jupyter environment for interactive computing from inside the course; the course element sets which image the hub starts.
 
-*German: JupyterHub* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_JupyterHub/)
+*German: JupyterHub* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_JupyterHub.md)
 
 ## K
 
@@ -2044,13 +2044,13 @@ The connection to Keycloak, a free identity provider, through OpenID Connect.
 
 The statistical values the analysis summarises the answers with.
 
-*German: Kennzahlen* · *Domain: Quality management and forms*
+*German: Kennzahlen* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Analysis.md)
 
 ### Kprim
 
 A question type with exactly four statements. The candidate decides for each statement whether it applies. Zero to four statements can be right, and the point scheme is fixed.
 
-*German: Kprim* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Kprim* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ## L
 
@@ -2058,25 +2058,25 @@ A question type with exactly four statements. The candidate decides for each sta
 
 The page a person sees after signing in. The administration sets rules by role or by value of a user property; the first matching rule applies. A person overrides them in the settings with their own landing page.
 
-*German: Startseite* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Landing_pages/)
+*German: Startseite* · *Domain: Platform* · [Manual](../../manual_admin/administration/Landing_pages.md)
 
 ### Language model
 
 The model of a provider that an AI feature calls. A separate model is chosen per feature, so that expensive models only run where they are needed.
 
-*German: Sprachmodell* · *Domain: Artificial intelligence*
+*German: Sprachmodell* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Late submission
 
 The setting that allows a submission after the deadline up to a second date. Such submissions carry the marking Late, and coaches see the delay in the assessment tool.
 
-*German: Verspätete Abgabe* · *Domain: Tasks and practice*
+*German: Verspätete Abgabe* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Launcher
 
 A configurable section on the start page of the catalog that assembles catalog entries by a rule. There are seven launcher types, for example taxonomy level, recently published or popular courses.
 
-*German: Launcher* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Catalog_2.0/)
+*German: Launcher* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Modules_Catalog_2.0.md)
 
 ### LDAP
 
@@ -2088,7 +2088,7 @@ The connection to an LDAP directory. Accounts are taken from it and the sign-in 
 
 A role in the project for the lead in substance. Leaders edit the project, create objects, close them and manage the members. They do not manage external members.
 
-*German: Leiter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Member_Management/)
+*German: Leiter:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Project_Member_Management.md)
 
 ### Leadership philosophy
 
@@ -2100,43 +2100,43 @@ The document in which an applicant sets out how they intend to lead a research g
 
 A named grouping of several course groups. A condition in the course then addresses the learning area instead of every group one by one.
 
-*German: Lernbereich* · *Domain: Collaboration*
+*German: Lernbereich* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Learning_Areas.md)
 
 ### Learning groups
 
 A group inside a course. It steers who sees which course elements and is the unit participants enter themselves into through the enrolment.
 
-*German: Lerngruppen* · *Domain: Collaboration*
+*German: Lerngruppen* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Members_management.md)
 
 ### Learning path
 
 The ordered sequence of the course elements in a learning path course. It sets what is to be done in which order, measures the progress per element and can exempt elements for individual people.
 
-*German: Lernpfad* · *Domain: Course*
+*German: Lernpfad* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course_Course_editor.md)
 
 ### Learning path course
 
 A course design that puts the course elements into an order and measures the progress per element. It steers through the learning path and exceptions, whereas the conventional course steers through conditions.
 
-*German: Lernpfadkurs* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_path_course/)
+*German: Lernpfadkurs* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course.md)
 
 ### Learning resource
 
 A content object managed in the authoring area: course, test, form, video, wiki and others. It carries metadata, owners and a lifecycle and can be embedded into courses.
 
-*German: Lernressource* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Learning_Resource/)
+*German: Lernressource* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Learning_Resource.md)
 
 ### Learning resource manager
 
 Organisation role. An administrative organisation role. It manages the learning resources assigned to its organisation through the administrative access, without being an owner itself.
 
-*German: Lernressourcenverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Lernressourcenverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Learning status
 
 A person's standing per question, expressed as a level. Answering a question correctly three times in a row reaches level 3; a wrong answer lowers the level again. Progress can be read off this way without points.
 
-*German: Lernstand* · *Domain: Tasks and practice*
+*German: Lernstand* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Letter of recommendation
 
@@ -2148,67 +2148,67 @@ A letter of recommendation written by a referee named by the applicant.
 
 The compartment of the flashcard file in the practice. Every right answer raises a question by one level, a wrong one lowers it by one; the configuration sets the number of levels.
 
-*German: Level* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Practice/)
+*German: Level* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Levels/Grading
 
 The module where the grading systems and their scales are maintained. It sets which grades exist and from which score a grade is reached.
 
-*German: Einstufung/Noten* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Assessment_translate_points_in_grades/)
+*German: Einstufung/Noten* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 ### Level type
 
 The kind of a taxonomy level. The level type sets whether levels of this type are visible, can serve as a competence and may group evidence of achievement.
 
-*German: Ebenentyp* · *Domain: Learning resources*
+*German: Ebenentyp* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Taxonomy.md)
 
 ### Library (Collaboration)
 
 The module for a shared document collection of the whole system. People submit documents, an administrative body releases them, and afterwards everybody can read them.
 
-*German: Bibliothek* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Library/)
+*German: Bibliothek* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Library.md)
 
 ### Library (Platform)
 
 The area for a shared document collection of the whole system, with a release step before publication.
 
-*German: Bibliothek* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Library/)
+*German: Bibliothek* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Library.md)
 
 ### Life cycle
 
 The scheduled course of a course or a group from its creation through the automatic finishing and deactivation to its deletion.
 
-*German: Lebenszyklus* · *Domain: Course*
+*German: Lebenszyklus* · *Domain: Course* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Line manager
 
 Organisation role. An administrative organisation role for line responsibility. In coaching it sees the learning progress of the staff reporting to it across products, implementations and courses. It can receive a copy of their certificates if the administration switches that on.
 
-*German: Linienvorgesetzte:r* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Linienvorgesetzte:r* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### LinkedIn
 
 The connection to LinkedIn for signing in with the LinkedIn account through OAuth 2.0.
 
-*German: LinkedIn* · *Domain: Platform*
+*German: LinkedIn* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### Link list
 
 A course element that shows an ordered collection of links in the course menu.
 
-*German: Linkliste* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Link_List/)
+*German: Linkliste* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Link_List.md)
 
 ### List
 
 A personal collection of questions in the question bank with which a person orders their own questions. The list changes nothing about who sees a question.
 
-*German: Liste* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_bank_possible_operations/)
+*German: Liste* · *Domain: Testing and question bank* · [Manual](../../manual_user/area_modules/Question_bank_possible_operations.md)
 
 ### List of calendars
 
 The list of all calendars a person sees layered in the personal calendar: their own, the course and group calendars and imported calendars. Display and colour can be chosen per calendar.
 
-*German: Kalenderliste* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Calendar/)
+*German: Kalenderliste* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Calendar.md)
 
 ### List of referees
 
@@ -2220,37 +2220,37 @@ The list of referees an applicant has named, with the state of each request.
 
 Signing in with a username and a password that OpenOlat manages itself. It is the basic method and works without a third-party system.
 
-*German: Lokale OpenOlat-Authentifizierung* · *Domain: Platform*
+*German: Lokale OpenOlat-Authentifizierung* · *Domain: Platform* · [Manual](../../manual_user/login_registration/Login_Concept.md)
 
 ### Login
 
 The Administration section for sign-in and access: password and authentication, self-registration, guests and external people, security, cloud login, LDAP, Shibboleth and passkey.
 
-*German: Login* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Login/)
+*German: Login* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### Lost+found
 
 The storage folder of a taxonomy for the documents of deleted taxonomy levels, for example from the document pool. It is the last tab of the taxonomy; the documents cannot be restored from there.
 
-*German: Lost+found* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Taxonomy/)
+*German: Lost+found* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Taxonomy.md)
 
 ### LTI
 
 The Learning Tools Interoperability standard. It connects a learning platform with an external application: the signed-in person needs no second sign-in there, and the application can report points back. OpenOlat is the platform when it embeds a tool in the course, and the tool when it provides a course or a group to another platform.
 
-*German: LTI* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+*German: LTI* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_Integrations.md)
 
 ### LTI 1.3 access configuration
 
 The section in the release tab of a course or a group in which OpenOlat is released as a tool for an external platform. One deployment is created per platform; people of the other platform are created as LTI accounts on launch and enter the course as participants or coaches.
 
-*German: LTI 1.3 Zugangskonfiguration* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/LTI_Share_courses/)
+*German: LTI 1.3 Zugangskonfiguration* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/LTI_Share_courses.md)
 
 ### LTI page
 
 A course element that embeds an external learning application through the LTI standard. The external application can report points back, which is why the element is assessable.
 
-*German: LTI-Seite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+*German: LTI-Seite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
 ## M
 
@@ -2270,85 +2270,85 @@ A template for the correspondence of a call, for example the request to a refere
 
 A message that appears to signed-in people as a bar on every page, for example before a restart. It can be deleted automatically at the next restart.
 
-*German: Wartungsmeldung* · *Domain: Platform*
+*German: Wartungsmeldung* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
 ### Master coach
 
 A role in the Course Planner. Master coaches look after the participants of an implementation across all the courses it contains, even where they are not entered as coaches in the single courses.
 
-*German: Klassenlehrer:in* · *Domain: Roles*
+*German: Klassenlehrer:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Coaching_Events_Absences.md)
 
 ### Match
 
 A question type with rows and columns. Per row the candidate ticks which column applies, either as single choice or as multiple choice.
 
-*German: Matrix* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Matrix* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Math formula
 
 A formula written in LaTeX and rendered as typeset mathematics.
 
-*German: Mathematische Formel* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Mathematische Formel* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Matomo (Piwik)
 
 The connection to Matomo through a site ID and a Matomo URL. Matomo runs on the institution's own server, and the analytics data stays in its own infrastructure. OpenOlat adds the Matomo URL to the content security policy.
 
-*German: Matomo (Piwik)* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Analytics_module/)
+*German: Matomo (Piwik)* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Analytics_module.md)
 
 ### MC Question Generator
 
 The AI feature that produces suggestions for multiple choice questions from a source text or an uploaded file, in the question pool and in the quiz of a page. The generation runs in the background. The suggestions are drafts: generated questions get the status Review, and every question must be checked for correctness one by one.
 
-*German: MC Fragen Generator* · *Domain: Artificial intelligence*
+*German: MC Fragen Generator* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Media Center (Content and media)
 
 The module in which each person stores and manages their media: images, videos, audio, documents, citations, diagrams and texts. Media can be versioned, given tags and a license, and shared with people, groups, courses and organisations. Pages, forms and portfolios embed them instead of copying them.
 
-*German: Media Center* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Media_Center_Concept/)
+*German: Media Center* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Media_Center_Concept.md)
 
 ### Media Center (Platform)
 
 The personal place to store images, videos, quotations and other media that are reused in pages and portfolios.
 
-*German: Media Center* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Media_Center/)
+*German: Media Center* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Media_Center.md)
 
 ### Media server
 
 An external video platform whose videos OpenOlat may embed by URL: YouTube, Vimeo, nanoo.tv and custom servers. The administration enables the servers in the security settings; restricted domains are not played.
 
-*German: Medien-Server* · *Domain: Learning resources*
+*German: Medien-Server* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Single_Page_Add_edit_video.md)
 
 ### MediaSite
 
 A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry Mediasite in the course.
 
-*German: MediaSite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Mediasite/)
+*German: MediaSite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
 ### Mediasite
 
 The connection to the video platform Mediasite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
 
-*German: Mediasite* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Mediasite/)
+*German: Mediasite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
 ### Members
 
 The people of a group with their roles. Coaches manage the members, invite people and keep the waiting list.
 
-*German: Mitglieder* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Members_management/)
+*German: Mitglieder* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Members_management.md)
 
 ### Membership (Course Planner)
 
 The belonging of a person to a course, a group or an element of the Course Planner, together with their role in it.
 
-*German: Mitgliedschaft* · *Domain: Course Planner*
+*German: Mitgliedschaft* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Membership (Evidence)
 
 A person's affiliation with a certification program. Candidates take part in a linked implementation and hold no certificate yet; active members hold one; alumni have left the program.
 
-*German: Mitgliedschaft* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Certification_Programs/)
+*German: Mitgliedschaft* · *Domain: Evidence* · [Manual](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)
 
 ### Message
 
@@ -2360,13 +2360,13 @@ The text of a message or e-mail that OpenOlat sends.
 
 The describing entries on a file in a folder: title, description, author, publisher, source, language, pages, URL, date of publication and license, plus the switch Locked. The additional metadata show who created the file and who last modified it.
 
-*German: Metadaten* · *Domain: Platform*
+*German: Metadaten* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Folder_Concept.md)
 
 ### Metadata (Learning resources)
 
 The describing entries on a learning resource: title, description, language, authorship, license, taxonomy and effort. They feed the catalogue and the search.
 
-*German: Metadaten* · *Domain: Learning resources*
+*German: Metadaten* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Course_Settings_Metadata.md)
 
 ### Microsoft Azure Active Directory
 
@@ -2378,25 +2378,25 @@ The connection to Microsoft Entra ID, formerly Azure Active Directory, for signi
 
 The connection to Microsoft SharePoint and OneDrive as file storage. In the file hub and the media center files can be copied from SharePoint sites and OneDrive and written back there. Signing in through Microsoft Entra ID is a prerequisite; both services can be enabled separately.
 
-*German: Microsoft SharePoint / OneDrive* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/SharePoint_OneDrive/)
+*German: Microsoft SharePoint / OneDrive* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/SharePoint_OneDrive.md)
 
 ### Microsoft Teams (Course)
 
 A course element that embeds Microsoft Teams meetings into the course. OpenOlat creates the meeting and opens it for the course members.
 
-*German: Microsoft Teams* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Microsoft_Teams/)
+*German: Microsoft Teams* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)
 
 ### Microsoft Teams (Integrations and standards)
 
 The connection to Microsoft Teams for online meetings. OpenOlat creates the meeting through the Microsoft Graph API on behalf of the signed-in person; signing in with the organisation's Microsoft account is a prerequisite. Participants join from OpenOlat, and Teams assigns the roles organizer, presenter and attendee.
 
-*German: Microsoft Teams* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Microsoft_Teams/)
+*German: Microsoft Teams* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)
 
 ### Milestone
 
 An event in the project that can be marked as reached. It shows whether an intermediate goal is done.
 
-*German: Meilenstein* · *Domain: Collaboration*
+*German: Meilenstein* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Schedule.md)
 
 ### Movie
 
@@ -2414,25 +2414,25 @@ Recording the attendance for several events in one pass instead of event by even
 
 A question in the form with several answers of which more than one can be chosen.
 
-*German: Mehrfachauswahl* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Mehrfachauswahl* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Multiple choice (Testing and question bank)
 
 A question type with at least two answer options, of which several can be chosen and several can be right.
 
-*German: Multiple Choice* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Multiple Choice* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### My entries
 
 The list of all of a person's own entries in chronological order, independent of the binder. It shows the status of every entry, offers a list view and a table view and the timeline. Not the tab of the same name in the authoring area, which lists one's own learning resources.
 
-*German: Meine Einträge* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/area_modules/My_entries/)
+*German: Meine Einträge* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/My_entries.md)
 
 ### My portfolio binders
 
 The list of all of a person's own binders under Portfolio 2.0. Here the person creates new binders: empty, from a template, from a course's portfolio task or from existing entries. Binders collected from a course carry a red side stripe and the course name.
 
-*German: Meine Portfoliomappen* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/area_modules/My_portfolio_binders/)
+*German: Meine Portfoliomappen* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/My_portfolio_binders.md)
 
 ## N
 
@@ -2440,43 +2440,43 @@ The list of all of a person's own binders under Portfolio 2.0. Here the person c
 
 The collected changes from all subscriptions of a person, as a list under Subscriptions and as a portlet on the start page. The list shows the latest change per resource in the chosen period.
 
-*German: Neuigkeiten* · *Domain: Collaboration*
+*German: Neuigkeiten* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Subscriptions.md)
 
 ### Note
 
 A note in the project. It holds text that all project members can read and edit, and it can be linked to other objects of the project.
 
-*German: Notiz* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Notes/)
+*German: Notiz* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Notes.md)
 
 ### Notes
 
 Personal notes on a course. Only the person writing them sees them, and they are kept after leaving the course.
 
-*German: Notizen* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Notes/)
+*German: Notizen* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Notes.md)
 
 ### Notice
 
 The entry that reports an absence for a period or for particular events: as a notice of absence, as a dispensation or as an absence without notification. Notices are recorded by participants themselves, by teachers or by absence managers.
 
-*German: Meldung* · *Domain: Events and absences*
+*German: Meldung* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Coaching_Events_Absences.md)
 
 ### Notice of absence
 
 The advance notice that a person will miss an event. It is given before the event, the absence is established afterwards.
 
-*German: Abmeldung* · *Domain: Events and absences*
+*German: Abmeldung* · *Domain: Events and absences* · [Manual](../../manual_user/personal_menu/Absences.md)
 
 ### Notification
 
 A message about a change a person has subscribed to. OpenOlat collects the notifications and sends them bundled as an e-mail.
 
-*German: Benachrichtigung* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_dev/ux/Alert/)
+*German: Benachrichtigung* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Subscriptions.md)
 
 ### Notifications
 
 A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
 
-*German: Mitteilungen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Notifications/)
+*German: Mitteilungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Notifications.md)
 
 ## O
 
@@ -2484,43 +2484,43 @@ A course element for course notifications. Coaches publish short messages, optio
 
 The Open Archives Initiative Protocol for Metadata Harvesting standard. External catalogues use it to collect the metadata of the published learning resources.
 
-*German: OAI-PMH* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_OAI/)
+*German: OAI-PMH* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Modules_OAI.md)
 
 ### Occasion
 
 A set of several individually selectable appointments in the appointment scheduling, with a title, a description, organizers and a location. The occasion is either an appointment booking or an appointment finding.
 
-*German: Anlass* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Anlass* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Offer
 
 The definition of the conditions under which a learning resource can be booked: for whom, in which period, at what price and in what way. One resource can carry several offers side by side.
 
-*German: Angebot* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_user/area_modules/catalog2.0_angebote/)
+*German: Angebot* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog2.0_angebote.md)
 
 ### One time code
 
 An eight-digit confirmation code OpenOlat sends by e-mail after the username and password have been entered. It is the second factor for accounts without a passkey and is switched off by default.
 
-*German: One Time Code* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/login_registration/One_Time_Code/)
+*German: One Time Code* · *Domain: Platform* · [Manual](../../manual_user/login_registration/One_Time_Code.md)
 
 ### Online meeting (Events and absences)
 
 The link between an event and an online session in BigBlueButton, in Microsoft Teams or through the meeting link of another provider. Participants enter the session straight from the event.
 
-*German: Online Meeting* · *Domain: Events and absences*
+*German: Online Meeting* · *Domain: Events and absences* · [Manual](../../manual_user/learningresources/Events_and_absences.md)
 
 ### Online meeting (Integrations and standards)
 
 A scheduled session in BigBlueButton or Microsoft Teams with a name, a date, lead and follow-up time, a main presenter and a room template. It is created in the course element, the course, the group or the appointment scheduling; participants join from OpenOlat. A permanent reservation is an online meeting without a date.
 
-*German: Online-Termin* · *Domain: Integrations and standards*
+*German: Online-Termin* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/bigbluebutton/index.md)
 
 ### ONLYOFFICE
 
 The connection to ONLYOFFICE. It allows Office documents to be edited in the browser, by several people at the same time as well.
 
-*German: ONLYOFFICE* · *Domain: Integrations and standards*
+*German: ONLYOFFICE* · *Domain: Integrations and standards* · [Manual](../../manual_user/area_modules/Project_Files.md)
 
 ### ONNX embedding model
 
@@ -2532,73 +2532,73 @@ An embedding model in the ONNX format that OpenOlat loads from a model directory
 
 The AI provider OpenAI, connected through an API key. Using it produces costs on the operator's account.
 
-*German: OpenAI* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: OpenAI* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### OpenBadges
 
 The Open Badges standard. It describes a digital credential in a way that makes it verifiable and lets it be shown outside the issuing platform.
 
-*German: OpenBadges* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/personal_menu/OpenBadges/)
+*German: OpenBadges* · *Domain: Evidence* · [Manual](../../manual_user/personal_menu/OpenBadges.md)
 
 ### Opencast (Course)
 
 A course element that shows video recordings from an Opencast server in the course, as a single recording or as a series.
 
-*German: Opencast* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Opencast/)
+*German: Opencast* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Opencast.md)
 
 ### Opencast (Integrations and standards)
 
 The connection to the free video management system Opencast. Recordings and series stay on the Opencast server and are only displayed in the course, not copied. Opencast can also take in the recordings of BigBlueButton.
 
-*German: Opencast* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Opencast/)
+*German: Opencast* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Opencast.md)
 
 ### OpenID Connect
 
 The OpenID Connect standard. It extends OAuth 2.0 with the proof of identity and is the method Keycloak, Microsoft Entra ID and similar providers are connected through.
 
-*German: OpenID Connect* · *Domain: Platform*
+*German: OpenID Connect* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ### OpenMeetings (Course)
 
 A course element that embeds a room of the web conferencing system Apache OpenMeetings into the course.
 
-*German: OpenMeetings* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_OpenMeetings/)
+*German: OpenMeetings* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_OpenMeetings.md)
 
 ### OpenMeetings (Integrations and standards)
 
 The connection to the free web conferencing system Apache OpenMeetings. Every course element and every group with the group tool gets its own room on the OpenMeetings server.
 
-*German: OpenMeetings* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_OpenMeetings/)
+*German: OpenMeetings* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_OpenMeetings.md)
 
 ### OpenOlat Manual
 
 The help entry that opens the manual at docs.openolat.org. The URL is configurable, for example for a manual of your own.
 
-*German: OpenOlat Handbuch* · *Domain: Platform*
+*German: OpenOlat Handbuch* · *Domain: Platform* · [Manual](../../manual_user/help/index.md)
 
 ### Order
 
 A question type in which the candidate drags texts or images into the right order.
 
-*German: Reihenfolge* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Reihenfolge* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Order management
 
 The area of the coaching site for the correction workflow of tests. Owners of a test see their correctors, their grading assignments and the submissions not yet assigned, and they assign orders.
 
-*German: Auftragsverwaltung* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Order_Management/)
+*German: Auftragsverwaltung* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Order_Management.md)
 
 ### Organisation
 
 A unit in the structure of the platform, for example a school, an institute or a department. Organisations are hierarchical, carry the roles of their members and limit what administrative roles can reach.
 
-*German: Organisation* · *Domain: Platform*
+*German: Organisation* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Organisations.md)
 
 ### Organisation roles
 
 The roles that hang on an organisation. Their reach ends at that organisation and its sub-organisations. All of them except User are administrative and are inherited by sub-organisations.
 
-*German: Organisationsrollen* · *Domain: Roles*
+*German: Organisationsrollen* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Organisation unit
 
@@ -2610,7 +2610,7 @@ The faculty or the institute a call belongs to, which provides a sender address 
 
 Course role. The person responsible for an occasion and shown to the participants. The course element sets whether owners, coaches or both count as organizers.
 
-*German: Organisator:in* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Organisator:in* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Other applications
 
@@ -2622,13 +2622,13 @@ The list of the other calls the same person has applied for. Whether multiple ap
 
 A learning resource for an uploaded file whose format matches none of the other types.
 
-*German: Andere Datei* · *Domain: Learning resources*
+*German: Andere Datei* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Owner
 
 Course role. A course role with full responsibility for a learning resource. Owners edit the content, configure the resource, publish it and grant the other course roles.
 
-*German: Besitzer:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Besitzer:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ## P
 
@@ -2636,151 +2636,151 @@ Course role. A course role with full responsibility for a learning resource. Own
 
 A course element that presents content in a block-based layout. The page is written in the content editor straight in the course and needs no file.
 
-*German: Seite* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Page/)
+*German: Seite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Page.md)
 
 ### Partial archive
 
 A course archive with chosen course elements and optionally further objects such as course results or log files.
 
-*German: Teilarchiv* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Archiving/)
+*German: Teilarchiv* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Partial elements
 
 The steps of a course element that can be switched on, for example submission, revision and assessment in the task. Only the steps that are switched on appear to the participants.
 
-*German: Teilbausteine* · *Domain: Course*
+*German: Teilbausteine* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Participant
 
 Course role. A course role. Participants work through the course and see their own results only.
 
-*German: Teilnehmer:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Teilnehmer:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Participant folder
 
 A course element for exchanging files between participants and coaches. Every participant gets their own drop box and return box, seen only by them and the coaches.
 
-*German: Teilnehmer:innen Ordner* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Participant_Folder/)
+*German: Teilnehmer:innen Ordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Participant_Folder.md)
 
 ### Participant list
 
 A course element that shows the members of the course grouped by role. Which roles and which entries are visible is configurable.
 
-*German: Liste der Teilnehmer:innen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Participant_List/)
+*German: Liste der Teilnehmer:innen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Participant_List.md)
 
 ### Participants accepted
 
 The group of a topic in the topic assignment that lists the participants accepted for the topic.
 
-*German: Akzeptierte Teilnehmer:innen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Assignment/)
+*German: Akzeptierte Teilnehmer:innen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Assignment.md)
 
 ### Participation
 
 The entry of a person in an appointment. Participants enter and withdraw themselves, organizers can add, remove or rebook them to another appointment.
 
-*German: Teilnahme* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Appointment_Scheduling/)
+*German: Teilnahme* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.md)
 
 ### Passkey
 
 Signing in without a password, following the WebAuthn standard. The person identifies themselves with a fingerprint, their face or a security key of the device.
 
-*German: Passkey* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/login_registration/Passkey/)
+*German: Passkey* · *Domain: Platform* · [Manual](../../manual_user/login_registration/Passkey.md)
 
 ### Password syntax
 
 The rules an OpenOlat password must meet. Default: 12 to 128 characters, at least one letter, at least one digit or special character, neither the username nor the first or last name contained, and the last 10 passwords are blocked.
 
-*German: Passwort-Syntax* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Login_Password_and_Authentication/)
+*German: Passwort-Syntax* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login_Password_and_Authentication.md)
 
 ### PayPal
 
 The connection to PayPal as a payment method for paid offers.
 
-*German: PayPal* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_admin/administration/Payment_PayPal/)
+*German: PayPal* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Payment_PayPal.md)
 
 ### PDF
 
 A learning resource for a PDF document. OpenOlat shows it in the built-in viewer, without it having to be downloaded.
 
-*German: PDF* · *Domain: Learning resources*
+*German: PDF* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Peer review
 
 The step in which participants review the work of other participants and give them feedback. OpenOlat distributes who gets whose work.
 
-*German: Peer-Review* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_how-to/peer_review/peer_review/)
+*German: Peer-Review* · *Domain: Tasks and practice* · [Manual](../../manual_how-to/peer_review/peer_review.md)
 
 ### People
 
 The area of the coaching site that lists all participants a person coaches across all courses, grouped by the role one holds towards them. From there one click leads to the person's assessment tool.
 
-*German: Personen* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_People/)
+*German: Personen* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_People.md)
 
 ### Performance summary
 
 The block with status, score, grade and comment of an assessment. Participants see it in the course element, coaches in the assessment form and there additionally as a preview of the participants' view.
 
-*German: Leistungsübersicht* · *Domain: Assessment*
+*German: Leistungsübersicht* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Element_Structure.md)
 
 ### Personal RSS Feed
 
 An RSS feed with the news from all subscriptions of a person. An RSS reader fetches it through a personal address, without signing in to OpenOlat.
 
-*German: Persönlicher RSS-Feed* · *Domain: Collaboration*
+*German: Persönlicher RSS-Feed* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Subscriptions.md)
 
 ### Platform
 
 The system that embeds an LTI content and passes the sign-in along, in LTI terminology. In the tab "External platforms" OpenOlat records the foreign systems for which it is the tool itself.
 
-*German: Plattform* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/LTI_External_platforms/)
+*German: Plattform* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_External_platforms.md)
 
 ### Podcast (Course)
 
 A course element that embeds a podcast learning resource into the course. Participants listen to or watch the episodes and can subscribe to them.
 
-*German: Podcast* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Podcast/)
+*German: Podcast* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Podcast.md)
 
 ### Podcast (Learning resources)
 
 A learning resource for audio and video episodes that can be subscribed to. It provides an RSS feed through which episodes are listened to outside OpenOlat as well.
 
-*German: Podcast* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Podcast/)
+*German: Podcast* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Podcast.md)
 
 ### Pool
 
 A collection in the question bank that questions are shared into so that others see them and take them into their own tests. Question bank managers create the pools; usually there is one public pool.
 
-*German: Pool* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_Bank_Administration/)
+*German: Pool* · *Domain: Testing and question bank* · [Manual](../../manual_user/area_modules/Question_Bank_Administration.md)
 
 ### Pool "Batch" (threads)
 
 The pool for long-running AI jobs such as generating questions from page content. Such a job can take several minutes.
 
-*German: Pool "Batch" (Threads)* · *Domain: Artificial intelligence*
+*German: Pool "Batch" (Threads)* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Pool "Interactive" (threads)
 
 The pool for AI tasks a person is actively waiting for, for example the feedback on a free text answer. It must be large enough to serve a learning group submitting at the same time.
 
-*German: Pool "Interaktiv" (Threads)* · *Domain: Artificial intelligence*
+*German: Pool "Interaktiv" (Threads)* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Portal
 
 A tab with freely arranged sections such as My courses, calendar, notes and subscriptions, which every person shows and hides themselves. Superseded since 10.0 and switched off by default.
 
-*German: Portal* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Portal_configuration/)
+*German: Portal* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Portal_configuration.md)
 
 ### Portfolio 2.0
 
 The entry Portfolio 2.0 in the personal menu. It leads to the person's own binders, own entries, the media center, the shares and the trash.
 
-*German: Portfolio 2.0* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Portfolio/)
+*German: Portfolio 2.0* · *Domain: ePortfolio* · [Manual](../../manual_user/personal_menu/Portfolio.md)
 
 ### Portfolio 2.0 template
 
 A learning resource that prescribes the structure and the assignments of a portfolio binder. The portfolio task course element assigns every participant a binder made from this template.
 
-*German: Portfolio 2.0 Vorlage* · *Domain: Learning resources*
+*German: Portfolio 2.0 Vorlage* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Portfolio_template_Creation.md)
 
 ### Portfolio roles
 
@@ -2792,13 +2792,13 @@ The roles the owner of a portfolio binder grants in the sharing tab. They apply 
 
 A course element that assigns every participant a portfolio binder made from a template. Participants work on the binder and submit it for assessment.
 
-*German: Portfolioaufgabe* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Portfolio_Task/)
+*German: Portfolioaufgabe* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)
 
 ### Portfolio template
 
 The binder that authors build in the learning resource Portfolio 2.0 template: sections with assignments, dates and settings. Every person who collects the portfolio task or books the template receives their own copy of it; changes to the template are synchronised into the copies.
 
-*German: Portfoliovorlage* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/learningresources/Portfolio_template_Creation/)
+*German: Portfoliovorlage* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Creation.md)
 
 ### Position
 
@@ -2810,31 +2810,31 @@ An advertised professorship in Selectus. It holds the text of the call, the appl
 
 A single post in a forum, with text, attachments and a note of which post it replies to.
 
-*German: Beitrag* · *Domain: Collaboration*
+*German: Beitrag* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Forum.md)
 
 ### PowerPoint
 
 A learning resource for a PowerPoint presentation. It can be edited in the browser when ONLYOFFICE or Microsoft 365 is connected.
 
-*German: PowerPoint* · *Domain: Learning resources*
+*German: PowerPoint* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Practice (Course)
 
 A course element for practising. Participants answer questions from a stock of questions over and over until they have solved a set number correctly. It serves the transfer of knowledge and self-checking.
 
-*German: Übung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Practice/)
+*German: Übung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Practice (Tasks and practice)
 
 A course element for practising on the flashcard principle. Participants answer questions from test learning resources or from shares of the question bank in practice series; wrongly answered questions come back. It awards no points, coaches see the learning status as levels.
 
-*German: Übung* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Practice/)
+*German: Übung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Practice series
 
 A block of questions a participant works through in one go, for example ten questions. The configuration sets the number.
 
-*German: Übungsserie* · *Domain: Tasks and practice*
+*German: Übungsserie* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Practice.md)
 
 ### Pre-order
 
@@ -2852,7 +2852,7 @@ An earlier collection on the same topic, used as a comparison value. Without it 
 
 Organisation role. An organisation role with the same reach as Administrator, but read only. Principals see the objects of their organisation and do not change them.
 
-*German: Principal* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Principal* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Privacy
 
@@ -2864,25 +2864,25 @@ The Administration page with the system-wide privacy rules: which roles see the 
 
 The statement of which data the platform processes and for what purpose. It can be set system-wide and additionally per course.
 
-*German: Datenschutzerklärung* · *Domain: Platform*
+*German: Datenschutzerklärung* · *Domain: Platform* · [Manual](../../manual_how-to/legal_consents/legal_consents.md)
 
 ### Product
 
 The top level in the Course Planner. A product describes an educational offering with its structure, with the elements and the implementations hanging below it.
 
-*German: Produkt* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Products/)
+*German: Produkt* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Products.md)
 
 ### Product owner
 
 Curriculum role. Manages a whole product in the Course Planner with all elements and implementations below it.
 
-*German: Produktbesitzer:in* · *Domain: Roles*
+*German: Produktbesitzer:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Course_Planner.md)
 
 ### Profile
 
 The page in the personal menu where a person maintains their own entries: name, e-mail, address, institution, portrait and the About me text. Its tab My visiting card sets which entries others see.
 
-*German: Profil* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Profile/)
+*German: Profil* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Profile.md)
 
 ### Profile paper
 
@@ -2894,19 +2894,19 @@ The document that describes the profile of the advertised professorship and is a
 
 The module for the project work of a group of people, with events, milestones, to-dos, decisions, notes, files and a whiteboard in one place. Unlike the course it teaches no content and assesses nobody.
 
-*German: Projekt* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Whiteboard/)
+*German: Projekt* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Whiteboard.md)
 
 ### Project manager
 
 Organisation role. An administrative organisation role. It manages the projects of its own organisation, without being a member itself.
 
-*German: Projektverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Projektverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Project office
 
 A role in the project for the administrative lead: events, files and minutes. It does not lead the project in substance.
 
-*German: Projektbüro* · *Domain: Roles*
+*German: Projektbüro* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Project_Member_Management.md)
 
 ### Project roles
 
@@ -2918,13 +2918,13 @@ The roles inside a project.
 
 The area for project work, with events, to-dos, decisions, notes, files and a whiteboard per project.
 
-*German: Projekte* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Projects/)
+*German: Projekte* · *Domain: Platform* · [Manual](../../manual_admin/administration/Modules_Projects.md)
 
 ### Publication
 
 Making the changes made in the course editor visible to the participants. Until the publication the owners work on the course without disturbing the running operation.
 
-*German: Veröffentlichung* · *Domain: Course*
+*German: Veröffentlichung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.md)
 
 ### Public feedback
 
@@ -2942,13 +2942,13 @@ The link the staff generates and distributes per application. Whoever opens it g
 
 Access to a data collection without signing in. It allows people without an account to be surveyed as well, for example placement companies.
 
-*German: Öffentlicher Zugang* · *Domain: Quality management and forms*
+*German: Öffentlicher Zugang* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collections.md)
 
 ### Published groups
 
 Groups with an offer that people join themselves in the Groups area. The offer is freely available, protected by an access code or paid; when the group is full the waiting list takes over.
 
-*German: Veröffentlichte Gruppen* · *Domain: Collaboration*
+*German: Veröffentlichte Gruppen* · *Domain: Collaboration* · [Manual](../../manual_user/groups/Group_Administration.md)
 
 ## Q
 
@@ -2956,49 +2956,49 @@ Groups with an offer that people join themselves in the Groups area. The offer i
 
 The Question and Test Interoperability standard, version 2.1. It describes questions, tests and results in a way that lets them be exchanged between systems. OpenOlat uses it for the test, the self-test, the questionnaire and the question pool.
 
-*German: QTI 2.1* · *Domain: Integrations and standards*
+*German: QTI 2.1* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Test.md)
 
 ### Quality feedback for reviewer
 
 The peer review setting with which participants judge a review they received: whether it was helpful, with thumbs or stars.
 
-*German: Qualitäts-Feedback für Reviewer:in* · *Domain: Tasks and practice*
+*German: Qualitäts-Feedback für Reviewer:in* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Quality management
 
 The module for assessing an institution's own offerings and processes. It plans data collections, runs them, analyses the answers and follows up the measures derived from them. It sits at the end of the education cycle and assesses the offering, not the learners.
 
-*German: Qualitätsmanagement* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Quality_Management/)
+*German: Qualitätsmanagement* · *Domain: Quality management and forms* · [Manual](../../manual_admin/administration/Modules_Quality_Management.md)
 
 ### Quality manager
 
 Organisation role. An administrative organisation role. It plans the data collections of quality management, runs them and analyses the results.
 
-*German: Qualitätsverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Qualitätsverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Question
 
 A single question in a test, in a questionnaire or in the question bank. It carries the question text, the answer options, the points and the feedback.
 
-*German: Frage* · *Domain: Testing and question bank*
+*German: Frage* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_test_questions.md)
 
 ### Question bank (Platform)
 
 The area where questions for tests are collected, tagged, released and reviewed. Questions from the question bank can be used in several tests.
 
-*German: Fragenpool* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_Bank/)
+*German: Fragenpool* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Question_Bank.md)
 
 ### Question bank (Testing and question bank)
 
 The area where questions are collected, tagged, released and reviewed independently of a single test. The same question can be used in several tests this way.
 
-*German: Fragenpool* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_Bank/)
+*German: Fragenpool* · *Domain: Testing and question bank* · [Manual](../../manual_user/area_modules/Question_Bank.md)
 
 ### Question bank manager
 
 System role. A system role. It manages the question bank with the questions, the collections, the shares and the review process. It is a system role and not an organisation role, because the question bank is not assigned to an organisation so far.
 
-*German: Poolverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Poolverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Questionnaire (Course)
 
@@ -3010,43 +3010,43 @@ A course element that embeds a test learning resource (QTI 2.1) configured as a 
 
 Legacy: a questionnaire learning resource in the QTI 1.2 format that collected opinions instead of measuring knowledge. It can neither be created nor imported. The questionnaire course element today embeds a test learning resource configured as a questionnaire.
 
-*German: Fragebogen* · *Domain: Learning resources*
+*German: Fragebogen* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Course_Element_Survey.md)
 
 ### Questionnaire (Testing and question bank)
 
 The course element that embeds a test learning resource (QTI 2.1) configured as a questionnaire. It collects opinions instead of knowledge and analyses the answers anonymously.
 
-*German: Fragebogen* · *Domain: Testing and question bank*
+*German: Fragebogen* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Course_Archiving.md)
 
 ### Question type
 
 The kind of a question. The question type determines how the candidate answers, how the points are calculated and whether OpenOlat can assess automatically.
 
-*German: Fragetyp* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Fragetyp* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Quick start
 
 The area at the start of a project that shows the six most recently used files and notes and offers the upload directly.
 
-*German: Schnellzugriff* · *Domain: Collaboration*
+*German: Schnellzugriff* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Notes.md)
 
 ### Quiz (Content and media)
 
 Questions right on the page, with no test element of their own. Learners answer while reading and see the result at once.
 
-*German: Quiz* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Quiz* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Quiz (Learning resources)
 
 A question that stops the video at a set point. Learners answer before it goes on.
 
-*German: Quiz* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Quiz* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Quota
 
 The storage space a folder may occupy at most, in KB. Every folder type has a default quota, for example course folder, groups or personal folder; the default is 200 MB. The administration overrides it per folder.
 
-*German: Quota* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Files_and_Folders/)
+*German: Quota* · *Domain: Platform* · [Manual](../../manual_admin/administration/Files_and_Folders.md)
 
 ## R
 
@@ -3054,7 +3054,7 @@ The storage space a folder may occupy at most, in KB. Every folder type has a de
 
 The rating of a learning resource or a piece of content by its users with one to five stars. Shown is the average of all stars given; a person can change their own rating at any time. The administration switches the feature on or off system-wide.
 
-*German: Beurteilung* · *Domain: Learning resources*
+*German: Beurteilung* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Blog_Blogging.md)
 
 ### Rating (Selectus)
 
@@ -3072,25 +3072,25 @@ The rules of a call for who may see which ratings and reviews and from when. The
 
 The classification of an absence maintained by the administration, for example illness or accident. It is chosen from a list on the absence or notice and has a say in whether the absence is authorized.
 
-*German: Absenzenbegründung* · *Domain: Events and absences*
+*German: Absenzenbegründung* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Events_and_Absences.md)
 
 ### Reasons events
 
 The list of reasons maintained by the administration for closing an event with a deviation, for example ended early. When closing, teachers choose a reason from the list; without entries the selection does not appear.
 
-*German: Begründungen Termine* · *Domain: Events and absences*
+*German: Begründungen Termine* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Events_and_Absences.md)
 
 ### Recertification
 
 The renewed issue of a certificate before or after it expires. In a single course participants complete the course again for it. In a certification program it runs automatically or by hand, optionally against credit points.
 
-*German: Rezertifizierung* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Settings_Assessment_Certificate/)
+*German: Rezertifizierung* · *Domain: Evidence* · [Manual](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)
 
 ### Recipients
 
 Who receives the reminder. Either the course member the rules apply to, or specified recipients only, instead of that person.
 
-*German: Empfänger:innen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: Empfänger:innen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### Referee
 
@@ -3108,25 +3108,25 @@ The area where applicants record their referees themselves and follow whether th
 
 The wizard a person uses to create their own account. The steps: language, terms of use, New here?, e-mail validation with a validation code, personal data with username and password, additional personal data.
 
-*German: Registrierung* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/login_registration/index/)
+*German: Registrierung* · *Domain: Platform* · [Manual](../../manual_user/login_registration/index.md)
 
 ### Reminder (Course)
 
 An automatic e-mail set up in a course. It goes to a course member as soon as all of its rules are met, and once per person only.
 
-*German: Erinnerung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: Erinnerung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### Reminder (Quality management and forms)
 
 An e-mail of a data collection to the respondents: the invitation with the link to the form and up to two reminders to people who have not answered yet. The delivery date is set per data collection.
 
-*German: Erinnerung* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Data_Collections/)
+*German: Erinnerung* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collections.md)
 
 ### Report
 
 The evaluation of a single data collection: the answers and key figures of the form. The tab appears as soon as a report exists. Who may see it is set by role in the tab Berechtigungen Report, optionally with an e-mail on completion.
 
-*German: Report* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Data_Collections/)
+*German: Report* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collections.md)
 
 ### Reporting
 
@@ -3138,25 +3138,25 @@ The area in Selectus for the statistical evaluation of closed calls. A call in t
 
 The area of the coaching site where authorised roles produce Excel files about the coached persons from report templates, for example about issued certificates, absences or open booking orders. It evaluates the operation, not single learners.
 
-*German: Reports* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Reports/)
+*German: Reports* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Reports.md)
 
 ### Reports (Course Planner)
 
 The area of the Course Planner with ready-made analyses of the booking orders, produced as Excel files from report templates. It is available in the overview for all implementations and as a tab on every product and every implementation for their own.
 
-*German: Reports* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Reports/)
+*German: Reports* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Reports.md)
 
 ### Reports (Platform)
 
 The Administration section with system-wide evaluations: Certificates, Questions in tests and Course memberships. It searches the whole system and delivers the results as a table or an Excel file.
 
-*German: Reports* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Reports/)
+*German: Reports* · *Domain: Platform* · [Manual](../../manual_admin/administration/Reports.md)
 
 ### Report templates
 
 A predefined query a report is produced from, with name, category, description and type. OpenOlat ships seven templates in the categories absences, booking orders and certificates; only those the role is authorised for are shown.
 
-*German: Reportvorlagen* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_Reports/)
+*German: Reportvorlagen* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_Reports.md)
 
 ### Reprints up to 5 publications
 
@@ -3174,43 +3174,43 @@ The document in which an applicant sets out their research plans for the adverti
 
 A learning resource that stores files for several courses in one place. Instead of copying the same file into every course, the courses embed the resource folder.
 
-*German: Ressourcenordner* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Resource_Folder/)
+*German: Ressourcenordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Resource_Folder.md)
 
 ### Respondent details
 
 A block in the form that asks for or prefills details of the respondent, such as name or e-mail, optional, mandatory or entered automatically. It appears only once per form and removes anonymity.
 
-*German: Angaben zur befragten Person* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Angaben zur befragten Person* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Responsible for the topic
 
 The group of a topic in the topic assignment that lists the coaches responsible for the topic.
 
-*German: Zuständig für dieses Thema* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Assignment/)
+*German: Zuständig für dieses Thema* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Assignment.md)
 
 ### REST API
 
 A programming interface following the REST pattern. Third-party systems use it to create accounts, courses and enrolments without going through the interface.
 
-*German: REST API* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/REST_API/)
+*German: REST API* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/REST_API.md)
 
 ### Results
 
 The evaluation of a test attempt that the candidate sees after submitting or on the test start page. The setting "Overview results" decides how detailed: from the test summary down to question, answer and solution.
 
-*German: Resultate* · *Domain: Testing and question bank*
+*German: Resultate* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Course_Element_Test.md)
 
 ### Return and feedback
 
 The step in which the coaches return the corrected work and their feedback to the participant.
 
-*German: Rückgabe und Feedback* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Task/)
+*German: Rückgabe und Feedback* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Return box (Course)
 
 The folder in the participant folder element where coaches return files to a participant.
 
-*German: Rückgabeordner* · *Domain: Course*
+*German: Rückgabeordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Participant_Folder.md)
 
 ### Return box (Tasks and practice)
 
@@ -3234,7 +3234,7 @@ Comments and replies that committee members can record on a review.
 
 Course role. A participant who reviews the work of another in the peer review.
 
-*German: Reviewer:in* · *Domain: Roles*
+*German: Reviewer:in* · *Domain: Roles* · [Manual](../../manual_how-to/peer_review/peer_review.md)
 
 ### Reviewer (Gutachter:in)
 
@@ -3246,13 +3246,13 @@ Portfolio role. A person the owner of a portfolio binder gives read and comment 
 
 The work of another participant that is to be reviewed in the peer review.
 
-*German: Review-Objekt* · *Domain: Tasks and practice*
+*German: Review-Objekt* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Review process
 
 The quality process of the question bank. Peers rate a new question with stars; it goes through the statuses Draft, Review, Revision where needed, and Final before it may be used in tests.
 
-*German: Beurteilungsprozess* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_Bank_Review_Process/)
+*German: Beurteilungsprozess* · *Domain: Testing and question bank* · [Manual](../../manual_user/area_modules/Question_Bank_Review_Process.md)
 
 ### Review questionnaire
 
@@ -3270,67 +3270,67 @@ The area where committee members record their reviews of the applications assign
 
 The step in which the participant revises their solution after feedback and submits it again. It can be run through several times.
 
-*German: Überarbeitung* · *Domain: Tasks and practice*
+*German: Überarbeitung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Role mapping
 
 The mapping of the OpenOlat course roles onto the roles of the LTI tool. It decides who may assess in the external tool and who may only work in it.
 
-*German: Rollen-Mapping* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/LTI_Role_Mapping/)
+*German: Rollen-Mapping* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_Role_Mapping.md)
 
 ### Roles manager
 
 Organisation role. An administrative organisation role. It grants and withdraws roles on the accounts of its own organisation.
 
-*German: Rollenverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Rollenverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### Roll call
 
 The recording of attendance per participant and per unit of an event by the teachers. It can be switched on per course and yields the absences the attendance rate is built from.
 
-*German: Anwesenheitskontrolle* · *Domain: Events and absences*
+*German: Anwesenheitskontrolle* · *Domain: Events and absences* · [Manual](../../manual_user/learningresources/Toolbar_Events.md)
 
 ### Room
 
 A physical room in a building, with a reference, a number of seats, additional information and an occupancy. Events book it; an inactive room can no longer be booked.
 
-*German: Raum* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Rooms/)
+*German: Raum* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Rooms.md)
 
 ### Room booking
 
 The occupancy of a room by an event, with start, end and an optional buffer before and after. It comes into being when a room is assigned to an event and appears in room scheduling with its warnings.
 
-*German: Raumbuchung* · *Domain: Events and absences*
+*German: Raumbuchung* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Course_Planner_Rooms.md)
 
 ### Room management
 
 The Room management area in the Course Planner: a read-only view of room scheduling and of the rooms of one's own organisations. Buildings and rooms are not maintained here but in the administration in the Rooms module.
 
-*German: Raumverwaltung* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Rooms/)
+*German: Raumverwaltung* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Course_Planner_Rooms.md)
 
 ### Rooms
 
 The module for the physical rooms: buildings, rooms with a number of seats and their booking by events. The administration maintains buildings and rooms, room scheduling shows all bookings; without the module no rooms can be booked on events.
 
-*German: Räume* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Rooms/)
+*German: Räume* · *Domain: Events and absences* · [Manual](../../manual_admin/administration/Modules_Rooms.md)
 
 ### Room scheduling
 
 The overview of all room bookings, with filters and a calendar view. It reports double bookings, too few seats and inactive rooms as a warning.
 
-*German: Raumplanung* · *Domain: Events and absences* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Rooms/)
+*German: Raumplanung* · *Domain: Events and absences* · [Manual](../../manual_user/area_modules/Course_Planner_Rooms.md)
 
 ### Room template
 
 A system-wide template for BigBlueButton rooms that is chosen when an online meeting is created. It sets the functions and presets in the room, the number of participants, the duration, the number of simultaneous rooms and the roles that may use it.
 
-*German: Raumvorlage* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/BigBlueButton_module/)
+*German: Raumvorlage* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/BigBlueButton_module.md)
 
 ### Rubric (Quality management and forms)
 
 A block in the form that lets several statements be judged on the same scale. It supplies the numbers the analysis works with.
 
-*German: Rubrik* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Element_Rubric/)
+*German: Rubrik* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Element_Rubric.md)
 
 ### Rubric (Selectus)
 
@@ -3342,19 +3342,19 @@ A weighted criterion in the decision tool with a name, a type and a weight. The 
 
 The criteria-based assessment of an element with the help of a rubric. It is switched on at the assessment element and uses a rubric form for it.
 
-*German: Rubrik-Bewertung* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Assessment/)
+*German: Rubrik-Bewertung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Element_Assessment.md)
 
 ### Rubric form
 
 A form with a rubric that coaches fill in while assessing. It makes the criteria visible and the assessment comparable between several coaches.
 
-*German: Rubrik-Formular* · *Domain: Assessment*
+*German: Rubrik-Formular* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)
 
 ### Rule
 
 A criterion that must be met before a reminder goes out, for example the enrolment date or the course status. Several rules are always joined with "and".
 
-*German: Bedingung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: Bedingung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ## S
 
@@ -3362,43 +3362,43 @@ A criterion that must be met before a reminder goes out, for example the enrolme
 
 The connection to the Safe Exam Browser. The assessment mode requires this browser and thereby locks every other program on the device during the exam.
 
-*German: Safe Exam Browser* · *Domain: Assessment*
+*German: Safe Exam Browser* · *Domain: Assessment* · [Manual](../../manual_how-to/SEB/SEB.md)
 
 ### Sample solution (Course)
 
 The sample solution of a task, which the coaches only release once the submission deadline has passed.
 
-*German: Musterlösung* · *Domain: Course*
+*German: Musterlösung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Sample solution (Tasks and practice)
 
 The sample solution of a task, stored as a document. It becomes visible from a set date, for all participants or only for those whose submission was accepted.
 
-*German: Musterlösung* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Task/)
+*German: Musterlösung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Schedule
 
 The schedule of a project with single events, recurring events and milestones. The events appear in the personal calendar of the members as well.
 
-*German: Terminplan* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Schedule/)
+*German: Terminplan* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Schedule.md)
 
 ### SCORM
 
 The Sharable Content Object Reference Model standard. It packages learning content so that it runs in any learning system and reports progress and points back.
 
-*German: SCORM* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_SCORM_Learning_Content/)
+*German: SCORM* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_SCORM_Learning_Content.md)
 
 ### SCORM 1.2 (Course)
 
 A course element that plays a SCORM 1.2 package. The package reports progress and points back, which is why the element is assessable.
 
-*German: SCORM 1.2* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_SCORM_Learning_Content/)
+*German: SCORM 1.2* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_SCORM_Learning_Content.md)
 
 ### SCORM 1.2 (Learning resources)
 
 A learning resource in the SCORM 1.2 format. Unlike CP learning content the package reports progress and points back to OpenOlat, which is why it is assessable.
 
-*German: SCORM 1.2* · *Domain: Learning resources*
+*German: SCORM 1.2* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Screening
 
@@ -3416,43 +3416,43 @@ Selectus role. Supports the appointment committee administratively and prepares 
 
 A chapter of a binder. A section carries a title, a summary, a begin date and an end date, and it holds entries and assignments; there are no subsections. Coaches close a section and assess it with points and passed.
 
-*German: Bereich* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/learningresources/Portfolio_template_Administration_and_editing/)
+*German: Bereich* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### Section (Testing and question bank)
 
 A level of structure inside a test part. The section bundles questions into a block and can draw a random selection from it, so that not all candidates get the same questions.
 
-*German: Sektion* · *Domain: Testing and question bank*
+*German: Sektion* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_tests.md)
 
 ### Security
 
 The Administration page under Login with the security settings: HTTP headers against embedding in frames, HTTPS downgrade and content type sniffing, SameSite cookie, CSRF protection, Content Security Policy with log and the enabled media servers.
 
-*German: Sicherheit* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Login_Security/)
+*German: Sicherheit* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login_Security.md)
 
 ### Segment (Learning resources)
 
 A time section of the video with start, duration and a term as its label. Segments do not overlap; the video task lets learners assign the segments to a term.
 
-*German: Segment* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Segment* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Segment (Tasks and practice)
 
 A stretch of the video that holds a situation to be judged. Segments are set in the video editor of the learning resource.
 
-*German: Segment* · *Domain: Tasks and practice*
+*German: Segment* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Video_Task.md)
 
 ### Selection (course element)
 
 A course element with which participants pick a set number of course elements below it themselves. Only the ones they picked appear in their course menu afterwards. It can only be used in learning path courses.
 
-*German: Auswahl* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Selection/)
+*German: Auswahl* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Selection.md)
 
 ### Selection (concept)
 
 The choice of a topic by a participant in the topic broker, with a priority. From the selections of all persons OpenOlat calculates the enrolment.
 
-*German: Auswahl* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Broker/)
+*German: Auswahl* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Broker.md)
 
 ### Selection roles
 
@@ -3476,67 +3476,67 @@ Organisation role. An administrative organisation role. It manages the appointme
 
 The evaluation the owning person gives on their own assignment. It is possible with every form; whether invitees see it is set by the assignment, and only after their own external evaluation.
 
-*German: Selbsteinschätzung* · *Domain: ePortfolio*
+*German: Selbsteinschätzung* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### Self-registration
 
 The module a person uses to create an account themselves on the login page, without user management creating it. The administration sets the home organisation, the permitted e-mail domains, the mandatory fields and whether the account is active at once or pending.
 
-*German: Selbstregistrierung* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Login_Self-Registration/)
+*German: Selbstregistrierung* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login_Self-Registration.md)
 
 ### Self-test (Course)
 
 A course element that embeds a test learning resource for self-checking. The result does not feed into the course assessment and cannot be seen by the coaches.
 
-*German: Selbsttest* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Self_Test/)
+*German: Selbsttest* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Self_Test.md)
 
 ### Self-test (Testing and question bank)
 
 The course element that embeds a test learning resource for self-checking. The result does not feed into the course assessment, the results are stored anonymised, and the number of runs is unlimited.
 
-*German: Selbsttest* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Self_Test/)
+*German: Selbsttest* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Course_Element_Self_Test.md)
 
 ### Sent reminder
 
 The log entry for a reminder that actually went out, with recipient, send time and status. It is what prevents a second delivery to the same person.
 
-*German: Versendete Erinnerung* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Reminders/)
+*German: Versendete Erinnerung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### Separator
 
 A horizontal line that separates two sections of a page.
 
-*German: Separator* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Separator* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Shared by me
 
 The list of the person's own binders that they have shared with others. It shows who may access which binder and leads to the binder's access control to change rights.
 
-*German: Von mir freigegeben* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/area_modules/Shared_by_me/)
+*German: Von mir freigegeben* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/Shared_by_me.md)
 
 ### Shared with me
 
 The list of binders and entries other people have shared with the logged-in person. Coaches find their learners' binders here in the tabs Favorites, Entries / To do and Binders and comment on, assess or close them.
 
-*German: An mich freigegeben* · *Domain: ePortfolio* · [Manual](https://docs.openolat.org/manual_user/area_modules/Shared_with_me/)
+*German: An mich freigegeben* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/Shared_with_me.md)
 
 ### Shares (Content and media)
 
 Sharing a medium of the Media Center with other people, groups, courses or organisations, optionally with the right to edit it.
 
-*German: Freigaben* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Media_Center/)
+*German: Freigaben* · *Domain: Content and media* · [Manual](../../manual_admin/administration/Modules_Media_Center.md)
 
 ### Shares (Testing and question bank)
 
 Sharing questions of the question bank with a group or a pool. It decides who sees a question and may take it into their own tests.
 
-*German: Freigaben* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/area_modules/Question_Bank/)
+*German: Freigaben* · *Domain: Testing and question bank* · [Manual](../../manual_user/area_modules/Question_Bank.md)
 
 ### Sharing
 
 The tab of a binder in which the owning person grants access rights. They choose course participants, course coaches, course owners or invite external persons by e-mail, set the shared sections and entries and the level: read, comment, assess. Without a share even course coaches do not see a binder collected from the course.
 
-*German: Freigabe* · *Domain: ePortfolio*
+*German: Freigabe* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
 
 ### Shibboleth
 
@@ -3548,37 +3548,37 @@ The connection to a Shibboleth federation. Signing in happens at the home instit
 
 The view of the visibility and access tabs with predefined check boxes: blocked for learners, depending on date, group or assessment, only in assessment mode.
 
-*German: Einfacher Modus* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/General_Configuration_of_Course_Elements/)
+*German: Einfacher Modus* · *Domain: Course* · [Manual](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)
 
 ### Single choice (Quality management and forms)
 
 A question in the form with several answers of which exactly one can be chosen.
 
-*German: Einzelauswahl* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Einzelauswahl* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Single choice (Testing and question bank)
 
 A question type with several answer options, of which exactly one can be chosen and exactly one is right.
 
-*German: Single Choice* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Single Choice* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Sites
 
 The Administration page that manages the tabs of the main navigation: order, enabled, access per site and an alternative when access is denied. Plus the configuration of the info pages 1 to 4 and the external sites 1 and 2.
 
-*German: Sites* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Customizing/)
+*German: Sites* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
 
 ### SMS reminders
 
 Reminders as a text message instead of an e-mail. They depend on an SMS provider and are switched on separately in the administration.
 
-*German: SMS Erinnerungen* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Course_Reminders/)
+*German: SMS Erinnerungen* · *Domain: Course*
 
 ### Sponsor / Client
 
 A role in the project for the commissioning party. It reads the state of the project but has no access to the objects in it.
 
-*German: Sponsor:in / Auftraggeber:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Member_Management/)
+*German: Sponsor:in / Auftraggeber:in* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Project_Member_Management.md)
 
 ### Staff
 
@@ -3590,13 +3590,13 @@ Selectus role. The administrative body that creates calls, manages the applicati
 
 A role in the project for oversight. It reads the state of the project but has no access to the objects in it and does not work in it.
 
-*German: Lenkungsausschuss* · *Domain: Roles*
+*German: Lenkungsausschuss* · *Domain: Roles* · [Manual](../../manual_user/area_modules/Project_Member_Management.md)
 
 ### Storage folder
 
 The file area of a course where the files of the course sit. Participants do not see it; they reach the files only through the course elements.
 
-*German: Ablageordner* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Storage_folder/)
+*German: Ablageordner* · *Domain: Course* · [Manual](../../manual_user/learningresources/Storage_folder.md)
 
 ### Storage usage
 
@@ -3608,37 +3608,37 @@ The evaluation in the course administration that shows per folder and course ele
 
 A course element that structures the course menu into chapters. It combines the assessments of the elements below it into one overall assessment.
 
-*German: Struktur* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Structure/)
+*German: Struktur* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Structure.md)
 
 ### Submission
 
 The step in which the participant uploads their solution or writes it straight in the browser. After the submission date no submission is possible any more.
 
-*German: Abgabe* · *Domain: Tasks and practice*
+*German: Abgabe* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Subscription
 
 Signing up to changes on an object. OpenOlat collects the changes and sends them bundled as an e-mail to the subscriber.
 
-*German: Abonnement* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Subscriptions/)
+*German: Abonnement* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Subscriptions.md)
 
 ### Subtitles
 
 A subtitle track for the video, one WebVTT file per language. OpenOlat can also generate them itself.
 
-*German: Untertitel* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Untertitel* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Suggestion for improvement
 
 A suggestion for improvement that a person submits about a course or an offering. Unlike a data collection it starts from the person submitting it and not from a survey.
 
-*German: Verbesserungsvorschlag* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Improvement/)
+*German: Verbesserungsvorschlag* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Improvement.md)
 
 ### Supervisor chat
 
 A chat during an exam. Candidates ask their questions in it, the supervisor answers.
 
-*German: Betreuer:innen-Chat* · *Domain: Testing and question bank*
+*German: Betreuer:innen-Chat* · *Domain: Testing and question bank* · [Manual](../../manual_how-to/communication_during_exam/communication_during_exam.md)
 
 ### Surgical expertise
 
@@ -3650,7 +3650,7 @@ Evidence of an applicant's surgical experience, with the kind and the number of 
 
 A course element that embeds a form learning resource as a survey. The answers are analysed anonymously.
 
-*German: Umfrage* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Survey/)
+*German: Umfrage* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Survey.md)
 
 ### Switch edu-ID
 
@@ -3662,13 +3662,13 @@ The connection to Switch edu-ID, the Swiss higher education identity. It stays w
 
 The Administration section for operations: system information, info messages, user sessions, errors, caches, locks, database ORM, Java VM infos and scheduler.
 
-*German: System* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/System/)
+*German: System* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
 ### System administrator
 
 System role. A system role. It opens the Administration area and thereby the system configuration. It grants no rights on objects: without an additional organisation role a system administrator sees neither courses nor accounts.
 
-*German: Systemadministrator:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Systemadministrator:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### System roles
 
@@ -3680,13 +3680,13 @@ The three roles that apply to the whole system and belong to no organisation: sy
 
 The page in the personal menu with the preferences of an account, in the tabs System, WebDAV, Instant Messaging, Terms of use, User data and GUI preferences.
 
-*German: Einstellungen* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Settings/)
+*German: Einstellungen* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Settings.md)
 
 ### System settings (concept)
 
 The preferences of an account in the System tab of the settings: language, e-mail notification, character set for downloads, document editor, session resume and the personal landing page. In user management the tab of the same name shows and changes them.
 
-*German: Systemeinstellungen* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Settings/)
+*German: Systemeinstellungen* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Settings.md)
 
 ## T
 
@@ -3694,13 +3694,13 @@ The preferences of an account in the System tab of the settings: language, e-mai
 
 A table, entered directly on the page.
 
-*German: Tabelle* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Tabelle* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Table of contents
 
 A list built from the titles of the page, which grows with them.
 
-*German: Inhaltsverzeichnis* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Inhaltsverzeichnis* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Tags
 
@@ -3712,31 +3712,31 @@ A freely assigned keyword on an object that lists can be filtered by. Media in t
 
 The course element for a task workflow with configurable steps: assign the task, submit the solution, revise it, assess it and release the sample solution. Every participant works on their own.
 
-*German: Aufgabe* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Task/)
+*German: Aufgabe* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ### Taxonomy
 
 A hierarchical tree of terms that learning resources, questions, documents and competences are classified with. It is not Bloom's taxonomy of learning objectives.
 
-*German: Taxonomie* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Taxonomy/)
+*German: Taxonomie* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Taxonomy.md)
 
 ### Taxonomy level
 
 A node in a taxonomy. It classifies learning resources, questions and documents and can be used as a competence.
 
-*German: Taxonomieebene* · *Domain: Learning resources*
+*German: Taxonomieebene* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Taxonomy.md)
 
 ### Taxonomy Matching (Embeddings)
 
 The AI feature that assigns a text to the right taxonomy level using an embedding model. It suggests a placement instead of leaving it to be searched for by hand.
 
-*German: Taxonomie-Zuordnung (Embeddings)* · *Domain: Artificial intelligence*
+*German: Taxonomie-Zuordnung (Embeddings)* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Teacher
 
 Course role. A person who holds an event. They record the attendance and close the event. The role belongs to the event and not to the course.
 
-*German: Dozent:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Dozent:in* · *Domain: Roles* · [Manual](../../manual_user/learningresources/Events_and_absences.md)
 
 ### Teaching assessment
 
@@ -3754,169 +3754,169 @@ The document in which an applicant sets out their understanding of teaching and 
 
 An image in SVG or PNG the wizard creates a badge class from. The template can hold colours and text to adapt and belongs to a category. The administration maintains the templates under e-Assessment; a default set is shipped.
 
-*German: Vorlage* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_admin/administration/e-Assessment_openBadges/)
+*German: Vorlage* · *Domain: Evidence* · [Manual](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 ### Template (ePortfolio)
 
 A document or form in the template folder of a binder from which users create a new entry. The template folder is a setting of the portfolio template; if it is mandatory, new entries come only from a template.
 
-*German: Vorlage* · *Domain: ePortfolio*
+*German: Vorlage* · *Domain: ePortfolio* · [Manual](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)
 
 ### Term (Learning resources)
 
 An entry in the glossary: the word that is explained, with its definition, its synonyms and its flections. In the course every term is highlighted in the text.
 
-*German: Begriff* · *Domain: Learning resources*
+*German: Begriff* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Glossary_create.md)
 
 ### Term (Tasks and practice)
 
 A term participants assign to a segment. The terms form the grid the video is observed by.
 
-*German: Begriff* · *Domain: Tasks and practice*
+*German: Begriff* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Video_Task.md)
 
 ### Terms of use (Platform)
 
 The conditions a person has to accept before using the platform or a course. They can be set system-wide and per course.
 
-*German: Nutzungsbedingungen* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Terms_Of_Use/)
+*German: Nutzungsbedingungen* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Terms_Of_Use.md)
 
 ### Terms of use (Quality management and forms)
 
 A text in the form the respondent must agree to before they can submit the form.
 
-*German: Nutzungsbedingungen* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Nutzungsbedingungen* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Test (Learning resources)
 
 A learning resource with questions in the QTI 2.1 format that measures knowledge. It is embedded into a course through the test or self-test course element and can take questions from the question pool.
 
-*German: Test* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Test/)
+*German: Test* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Course_Element_Test.md)
 
 ### Test (Testing and question bank)
 
 The course element that embeds a test learning resource into the course. The result counts towards the course assessment.
 
-*German: Test* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Test/)
+*German: Test* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Course_Element_Test.md)
 
 ### Test part
 
 The top level of structure of a test. A test part bundles sections and sets for all of them together whether the candidate may go back and change answers.
 
-*German: Test-Part* · *Domain: Testing and question bank*
+*German: Test-Part* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Configure_tests.md)
 
 ### Test (QTI 1.2 - no longer supported)
 
 Legacy: a test learning resource in the QTI 1.2 format. Since release 15.0 it no longer runs, since 16.0 it can no longer be converted. It can neither be created nor imported and appears only in lists of old entries.
 
-*German: Test (QTI 1.2 - nicht mehr unterstützt)* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1/)
+*German: Test (QTI 1.2 - nicht mehr unterstützt)* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)
 
 ### Test receipt
 
 A digitally signed confirmation of a completed test attempt. It proves later what was submitted at what time.
 
-*German: Testquittung* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_how-to/achievements/achievements/)
+*German: Testquittung* · *Domain: Testing and question bank* · [Manual](../../manual_how-to/achievements/achievements.md)
 
 ### Test run
 
 One person's run through a test, from the first question to the submission. It holds the answers, the duration and the points.
 
-*German: Testversuch* · *Domain: Testing and question bank*
+*German: Testversuch* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Assessing_tests.md)
 
 ### Test Statistics
 
 The analysis of a test that has been taken: figures per question, discrimination index, difficulty and the distribution of the results.
 
-*German: Test Statistiken* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Statistics_Test/)
+*German: Test Statistiken* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Statistics_Test.md)
 
 ### Text
 
 A block of text with the full formatting toolbar. The most common content element of a page.
 
-*German: Text* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Text* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Text block
 
 An input field in the form for a freely worded answer, single-line or multi-line, optionally restricted to a number or a date.
 
-*German: Textblock* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Textblock* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Thread
 
 A line of discussion in a forum. It starts with an opening post that further posts reply to.
 
-*German: Diskussionsthema* · *Domain: Collaboration*
+*German: Diskussionsthema* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Forum.md)
 
 ### Timeline (Collaboration)
 
 The chronological overview of everything that has happened in the project. It shows events, decisions, notes and files in one strand.
 
-*German: Timeline* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Timeline/)
+*German: Timeline* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Timeline.md)
 
 ### Timeline (ePortfolio)
 
 The graphical overview of the activities under My entries. Coloured dots show when an entry was edited and which status it has; administration can switch the timeline off.
 
-*German: Zeitstrahl* · *Domain: ePortfolio*
+*German: Zeitstrahl* · *Domain: ePortfolio* · [Manual](../../manual_user/area_modules/My_entries.md)
 
 ### Timeline (Learning resources)
 
 The time axis below the video. It shows every event in its place: chapter, annotation, comment, quiz and segment.
 
-*German: Timeline* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Timeline* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Time period
 
 A centrally maintained, named period such as a semester or a quarter that a course can choose as its implementation period. It serves filtering and sorting in the authoring area and in the Course Planner lists.
 
-*German: Zeitabschnitt* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Time_Period/)
+*German: Zeitabschnitt* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Time_Period.md)
 
 ### Timetable
 
 All the events of an implementation put together into one plan, with rooms and coaches.
 
-*German: Stundenplan* · *Domain: Course Planner*
+*German: Stundenplan* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Course_Planner.md)
 
 ### Title
 
 A heading on the page, in one of six levels.
 
-*German: Titel* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Titel* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### To-do (Course Planner)
 
 An open item on an element of the Course Planner, with a responsible person and a deadline. It keeps the planning work on the object instead of in a separate list.
 
-*German: To-do* · *Domain: Course Planner* · [Manual](https://docs.openolat.org/manual_user/area_modules/Course_Planner_Todos/)
+*German: To-do* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Todos.md)
 
 ### To-do (Platform)
 
 An open item with a due date, a responsible person and a status. To-dos come into being personally, in a course, in a project or from a measure of quality management, and they come together in one list.
 
-*German: To-do* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_ToDo/)
+*German: To-do* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/To_Dos_Basics.md)
 
 ### Tool
 
 The external application connected through LTI.
 
-*German: Tool* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+*German: Tool* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/LTI_External_tools.md)
 
 ### Topic
 
 A selectable topic in the topic broker, with a title, a description, a minimum and maximum number of participants, an optional execution period and a group restriction. Participants pick several topics and rank them by priority.
 
-*German: Thema* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Broker/)
+*German: Thema* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Broker.md)
 
 ### Topic assignment
 
 A course element for advertising, assigning and supervising topics. Coaches advertise topics, participants apply for them and the coaches hand out the places.
 
-*German: Themenvergabe* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Assignment/)
+*German: Themenvergabe* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Assignment.md)
 
 ### Topic broker
 
 A course element participants use to sign up for working on particular topics themselves.
 
-*German: Themenbörse* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Topic_Broker/)
+*German: Themenbörse* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Broker.md)
 
 ### Transaction
 
@@ -3928,19 +3928,19 @@ A single movement on the credit point account: credit, debit, removal, reversal 
 
 The conversion of an uploaded video file into several resolutions, so that playback matches the connection. It runs in the background.
 
-*German: Transkodierung* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_admin/administration/Modules_Video/)
+*German: Transkodierung* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Video.md)
 
 ### Trash (Course)
 
 The area deleted learning resources are moved to first. From there they can be restored, until they are deleted for good.
 
-*German: Papierkorb* · *Domain: Course*
+*German: Papierkorb* · *Domain: Course* · [Manual](../../manual_user/learningresources/Access_configuration.md)
 
 ### Trash (Platform)
 
 The trash of a folder. Deleted files and subfolders land there first and can be restored; after 30 days the system deletes them for good. The administration sets the period or switches the automatic deletion off.
 
-*German: Papierkorb* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Folder_Concept/)
+*German: Papierkorb* · *Domain: Platform* · [Manual](../../manual_user/basic_concepts/Folder_Concept.md)
 
 ### Trash (ePortfolio)
 
@@ -3952,13 +3952,13 @@ The place for a person's deleted binders and entries in Portfolio 2.0. From ther
 
 The development of a value across several collections. It shows whether a measure has worked.
 
-*German: Trend Detail* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/area_modules/Quality_Management_Analysis/)
+*German: Trend Detail* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Analysis.md)
 
 ### True/false
 
 A question type like Kprim but with any number of rows. Per statement the candidate chooses between unanswered, true and false.
 
-*German: True/false* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: True/false* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ## U
 
@@ -3966,25 +3966,25 @@ A question type like Kprim but with any number of rows. Per statement the candid
 
 Changes in the course editor that are not published yet and that the participants therefore do not see.
 
-*German: Nicht publizierte Änderungen* · *Domain: Course*
+*German: Nicht publizierte Änderungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.md)
 
 ### Upload file (Quality management and forms)
 
 A field in the form through which the respondent hands in a file. The author sets the permitted file types and the maximum size.
 
-*German: Datei hochladen* · *Domain: Quality management and forms* · [Manual](https://docs.openolat.org/manual_user/learningresources/Form_Elements/)
+*German: Datei hochladen* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Elements.md)
 
 ### Upload file (Testing and question bank)
 
 A question type in which the candidate uploads one or more files as the answer. It has to be assessed manually.
 
-*German: Datei hochladen* · *Domain: Testing and question bank* · [Manual](https://docs.openolat.org/manual_user/learningresources/Test_question_types/)
+*German: Datei hochladen* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
 ### Usage log
 
 The record of all AI calls of an installation with the feature, provider, model, status, duration and tokens. It is the basis for cost control and for answering what the AI was used for. It can be analysed by time range and exported as an Excel file.
 
-*German: Nutzungsprotokoll* · *Domain: Artificial intelligence* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_AI/)
+*German: Nutzungsprotokoll* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### User (Platform)
 
@@ -3996,43 +3996,43 @@ The human behind an account. The term stands wherever the person is meant and no
 
 Organisation role. The base role of every account, also called the home base. It sets what a person sees at all: the accounts of their home base and the courses with an offer for their home base. It is not administrative and is not inherited by sub-organisations.
 
-*German: Benutzer:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Benutzer:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/User_Types.md)
 
 ### User management
 
 The area for creating, searching, editing, importing and deleting accounts and for granting the roles.
 
-*German: Kontoverwaltung* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/usermanagement/)
+*German: Kontoverwaltung* · *Domain: Platform* · [Manual](../../manual_admin/usermanagement/index.md)
 
 ### User manager
 
 Organisation role. An administrative organisation role. It manages the accounts of its own organisation: create, edit, import, block and delete.
 
-*German: Benutzerverwalter:in* · *Domain: Roles* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Roles/)
+*German: Benutzerverwalter:in* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
 ### User Properties
 
 The fields of an account such as first name, e-mail or institution. The administration decides per property and per usage context whether it is used, whether it is mandatory, whether only administrators see it and whether the person may change it themselves.
 
-*German: Benutzer:innen-Attribute* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Customizing/)
+*German: Benutzer:innen-Attribute* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
 
 ### User search
 
 The search form of the coaching site that finds a coached person by name, username or further attributes. Without input it returns the whole list of coached persons.
 
-*German: Personensuche* · *Domain: Assessment* · [Manual](https://docs.openolat.org/manual_user/area_modules/Coaching_User_Search/)
+*German: Personensuche* · *Domain: Assessment* · [Manual](../../manual_user/area_modules/Coaching_User_Search.md)
 
 ### User sessions
 
 The Administration page under System that shows the signed-in sessions and ends them one by one or all at once. The Configuration tab holds the session timeout, the maximum number of sessions and the block on new logins.
 
-*German: Aktive Sitzungen* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/System/)
+*German: Aktive Sitzungen* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
 ### User tools
 
 The personal tools of a person, reachable everywhere: notes, subscriptions, settings and the like. Which of them are available is configured by the administration.
 
-*German: Persönliche Werkzeuge* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/personal_menu/Personal_Tools/)
+*German: Persönliche Werkzeuge* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Personal_Tools.md)
 
 ## V
 
@@ -4040,97 +4040,97 @@ The personal tools of a person, reachable everywhere: notes, subscriptions, sett
 
 The value added tax on a paid offer. The rate is set system-wide and shown on the invoice.
 
-*German: Mehrwertsteuer* · *Domain: Catalogue, booking and payment*
+*German: Mehrwertsteuer* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Payment_modules.md)
 
 ### Verification
 
 The check whether a badge is genuine and comes from this instance. Every badge class fixes the method at creation: Hosted fetches the data from the OpenOlat address, Signed checks a digital signature. The administration uploads a badge file for this.
 
-*German: Verifizierung* · *Domain: Evidence* · [Manual](https://docs.openolat.org/manual_admin/administration/e-Assessment_openBadges/)
+*German: Verifizierung* · *Domain: Evidence* · [Manual](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 ### Versioning
 
 The module that keeps earlier versions of a file in folders. The administration sets the number of versions, from 2 to 50 or unlimited; every version can be restored or deleted. Switched off by default.
 
-*German: Versionierung* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/Files_and_Folders/)
+*German: Versionierung* · *Domain: Platform* · [Manual](../../manual_admin/administration/Files_and_Folders.md)
 
 ### Video (Content and media)
 
 A video on a page, either as a file from the Media Center or through a URL from YouTube or Vimeo.
 
-*German: Video* · *Domain: Content and media* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Content_Editor/)
+*German: Video* · *Domain: Content and media* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
 
 ### Video (Course)
 
 A course element that plays a video learning resource, together with the elements added in OpenOlat such as quiz questions, comments, segments and annotations.
 
-*German: Video* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Video/)
+*German: Video* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Video.md)
 
 ### Video (Learning resources)
 
 A learning resource for a video file in mp4 format, extended with chapters, quiz questions, comments, segments and annotations. OpenOlat converts the file into several resolutions.
 
-*German: Video* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Video* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Video Collection
 
 The overview of the video learning resources a person has access to.
 
-*German: Video Collection* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_user/area_modules/Video_Collection/)
+*German: Video Collection* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Video_Collection.md)
 
 ### Video editor
 
 The working surface of the video learning resource. Chapters, annotations, comments, quiz questions and segments are made here, all tied to a point in time in the video.
 
-*German: Video-Editor* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Learning_resource_Video/)
+*German: Video-Editor* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Video live stream
 
 A course element that shows up to two live streams in a set time window, single or side by side. The administration sets up the stream addresses as URL templates.
 
-*German: Video Livestream* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Video_Livestream/)
+*German: Video Livestream* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Video_Livestream.md)
 
 ### Video task (Course)
 
 A course element in which participants mark places in a video and assign categories to them. It serves the observation and judgement of situations in the video.
 
-*German: Videoaufgabe* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Video_Task/)
+*German: Videoaufgabe* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Video_Task.md)
 
 ### Video task (Tasks and practice)
 
 A course element in which participants mark places in a video and assign terms to them. It serves the observation and judgement of situations, for example in teacher training or in nursing.
 
-*German: Videoaufgabe* · *Domain: Tasks and practice* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Video_Task/)
+*German: Videoaufgabe* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Video_Task.md)
 
 ### Virtual classroom
 
 A room for a session in real time, with video, audio, a shared screen and a recording. OpenOlat does not provide it itself but embeds a third-party system.
 
-*German: Virtuelles Klassenzimmer* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/basic_concepts/Virtual_classrooms/)
+*German: Virtuelles Klassenzimmer* · *Domain: Integrations and standards* · [Manual](../../manual_user/basic_concepts/Virtual_classrooms.md)
 
 ### Vision model
 
 A model that can read images. The image description generator needs it, because a pure language model does not see an image.
 
-*German: Vision Modell* · *Domain: Artificial intelligence*
+*German: Vision Modell* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
 ### Visiting card
 
 The publicly visible page of a person with the entries they have released themselves.
 
-*German: Visitenkarte* · *Domain: Platform*
+*German: Visitenkarte* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Profile.md)
 
 ### vitero (Course)
 
 A course element that embeds booked vitero team rooms into the course.
 
-*German: vitero* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_vitero/)
+*German: vitero* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_vitero.md)
 
 ### vitero (Integrations and standards)
 
 The connection to the web conferencing system vitero with booked team rooms.
 
-*German: vitero* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_vitero/)
+*German: vitero* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_vitero.md)
 
 ## W
 
@@ -4138,73 +4138,73 @@ The connection to the web conferencing system vitero with booked team rooms.
 
 The queue of people who wanted to book a course or enter a group when no place was left. When a place opens up, the first person moves up, on request on its own.
 
-*German: Warteliste* · *Domain: Catalogue, booking and payment*
+*German: Warteliste* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/groups/Create_Groups.md)
 
 ### Web catalog
 
 The mirror of the catalog outside the login: people without an account see offers, prices and free places and are led through registration only when they book. It requires a catalog 2.0 and is switched on in the administration.
 
-*German: Web-Katalog* · *Domain: Catalogue, booking and payment* · [Manual](https://docs.openolat.org/manual_user/area_modules/catalog2.0_web/)
+*German: Web-Katalog* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog2.0_web.md)
 
 ### WebDAV
 
 A separate password for file access through WebDAV. It is kept apart from the sign-in password, because WebDAV programs store the password permanently.
 
-*German: WebDAV* · *Domain: Platform* · [Manual](https://docs.openolat.org/manual_admin/administration/WebDAV/)
+*German: WebDAV* · *Domain: Platform* · [Manual](../../manual_admin/administration/WebDAV.md)
 
 ### Whiteboard
 
 A shared drawing surface in the project that several people work on at the same time. It is based on draw.io.
 
-*German: Whiteboard* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/area_modules/Project_Whiteboard/)
+*German: Whiteboard* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Whiteboard.md)
 
 ### White list
 
 The list of courses or implementations a generator restricts its rule to: data collections are created only for cases the rule covers and that are on the list. It is the counterpart of the black list.
 
-*German: Positivliste* · *Domain: Quality management and forms*
+*German: Positivliste* · *Domain: Quality management and forms* · [Manual](../../manual_user/area_modules/Quality_Management_Data_Collection_Generators.md)
 
 ### Widget
 
 A tile on a dashboard that shows one slice: implementations, offers, members, courses, events or to-dos. The administration sets the active widgets as the system default; every person adapts them for themselves.
 
-*German: Widget* · *Domain: Platform*
+*German: Widget* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Course_Planner_Dashboard.md)
 
 ### Wiki (Collaboration)
 
 An area for pages that several people write together and link to each other. Every change is versioned and can be undone.
 
-*German: Wiki* · *Domain: Collaboration* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Wiki/)
+*German: Wiki* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Wiki (Course)
 
 A course element that embeds a wiki learning resource into the course so that participants write content together.
 
-*German: Wiki* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Wiki/)
+*German: Wiki* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Wiki (Learning resources)
 
 A learning resource for pages that several people write together and link to each other. Every change is versioned.
 
-*German: Wiki* · *Domain: Learning resources* · [Manual](https://docs.openolat.org/manual_user/learningresources/Course_Element_Wiki/)
+*German: Wiki* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Wiki page
 
 A single page inside a wiki. It comes into being as soon as a link to a name that does not exist yet is created.
 
-*German: Wiki-Seite* · *Domain: Collaboration*
+*German: Wiki-Seite* · *Domain: Collaboration* · [Manual](../../manual_user/learningresources/Course_Element_Wiki.md)
 
 ### Word
 
 A learning resource for a Word document. It can be edited in the browser when ONLYOFFICE or Microsoft 365 is connected.
 
-*German: Word* · *Domain: Learning resources*
+*German: Word* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Workflow
 
 The sequence of steps a task goes through. Every step can be switched on individually, so that everything from a plain submission to the full run with revision and peer review is possible.
 
-*German: Workflow* · *Domain: Tasks and practice*
+*German: Workflow* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
 ## X
 
@@ -4212,7 +4212,7 @@ The sequence of steps a task goes through. Every step can be switched on individ
 
 The connection to X, formerly Twitter, for signing in with the X account through OAuth.
 
-*German: X (Twitter)* · *Domain: Platform*
+*German: X (Twitter)* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login.md)
 
 ## Y
 
@@ -4220,7 +4220,7 @@ The connection to X, formerly Twitter, for signing in with the X account through
 
 The connection to the YouTube programming interface through an API key. When a YouTube video is embedded it fetches the title, the description, the licence, the duration and the thumbnail.
 
-*German: YouTube API* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/External_Tools_-_Administration/)
+*German: YouTube API* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/External_Tools_-_Administration.md)
 
 ## Z
 
@@ -4228,16 +4228,16 @@ The connection to the YouTube programming interface through an API key. When a Y
 
 A course element that embeds a Zoom meeting into the course through LTI. Participants join from inside the course.
 
-*German: Zoom* · *Domain: Course* · [Manual](https://docs.openolat.org/manual_user/learningresources/zoom/)
+*German: Zoom* · *Domain: Course* · [Manual](../../manual_user/learningresources/zoom/index.md)
 
 ### Zoom (Integrations and standards)
 
 The connection to Zoom through LTI 1.3 and the Zoom LTI Pro app. Zoom meetings are available as a course element, a course tool and a group tool; the connection to the Zoom account is a Zoom profile. A Zoom Education or Enterprise licence is a prerequisite.
 
-*German: Zoom* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Zoom/)
+*German: Zoom* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Zoom.md)
 
 ### Zoom profile
 
 The connection from OpenOlat to a Zoom account through a Zoom LTI Pro credential. A profile carries the LTI key from Zoom; OpenOlat produces the client ID and the access token for it, which are entered in Zoom. Several profiles are possible.
 
-*German: Zoom-Profil* · *Domain: Integrations and standards* · [Manual](https://docs.openolat.org/manual_admin/administration/Zoom/)
+*German: Zoom-Profil* · *Domain: Integrations and standards* · [Manual](../../manual_admin/administration/Zoom.md)
