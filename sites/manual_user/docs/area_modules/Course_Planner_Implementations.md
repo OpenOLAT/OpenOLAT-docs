@@ -20,6 +20,7 @@ From this conceptual idea, the same courses are generally assigned and used in e
 ## The list of implementations {: #listing}
 
 If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
+
 ![All implementations of a product in a filterable list with Reference, Type and Status, here with the Occupancy status filter open, on the Implementations page in the Course Planner](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
@@ -44,7 +45,7 @@ The same action is available in the search of the Course Planner and in the "Str
 
 ---
 
-## Navigation the implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
+## Navigation in the implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8128)" }](https://track.frentix.com/issue/OO-8128){:target="_blank"} {: #navigation}
 
 Once you have selected and opened an implementation in the list, the tabs shown allow you to make all settings for this implementation:
 
@@ -67,7 +68,7 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 ### Tab Overview [:octicons-tag-16:{ title="from Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
-The "Overview" tab shows you the members, the next dates, the offers in the catalog and the course content for this product. This makes it easier for you to navigate the activities related to this implementation.
+The "Overview" tab shows you the members, the next events, the offers in the catalog and the course content of this product. This makes it easier for you to navigate the activities related to this implementation.
 
 Use the **Show all** button in the **Events** widget to go directly to the Events tab.
 
@@ -158,18 +159,18 @@ To **remove several courses**, select the courses with the checkboxes in the fir
 **Automatically controlled course content** [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
 If automation rules control the content of this implementation, the "Automation overview" section appears above the list. Only active rules that concern the content are listed. For each rule you see the type of rule, either "Instantiation" or the target status, plus the date of the planned execution and the condition that triggers the execution. Use the "Settings" link to switch directly to the [automation configuration](#tab_settings_automation).
 
-![Content tab of an implementation with the "Automation overview" info box: for each rule it shows the type, here instantiation and three target statuses, the planned execution date and the triggering condition, plus the "Settings" link.](assets/course_planner_implementations_tab_content_automation_v1_en.png){ class="shadow lightbox" }
+![The Automation overview info box with type, planned execution date and triggering condition per rule as well as the Settings link, in the Content tab of an implementation](assets/course_planner_implementations_tab_content_automation_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
 **Course template as course content**<br>
 If it corresponds to the selected implementation type (individual course required), it is also possible to add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the implementation (instantiated).
 
-Using a template for instancing is recommended if it is a recurring course that is always the same.
+Using a template for instantiation is recommended if it is a recurring course that is always the same.
 
 ![The Course template section with the Add course template button below the still empty course list, in the Content tab of an implementation of type single course](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
 
-The "Add course" and "Add course templates" buttons become inactive once the number of courses or templates corresponding to the selected delivery type has been added.
+The "Add course" and "Add course templates" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
 **Creation of course templates**<br>
 Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. 
@@ -184,26 +185,28 @@ The templates for course content in Course Planner do not have independent membe
 
 ---
 
-### Tab events [:octicons-tag-16:{ title="from Release 20.0 (OO-8064)" }](https://track.frentix.com/issue/OO-8064){:target="_blank"} {: #tab_events}
+### Tab Events [:octicons-tag-16:{ title="from Release 20.0 (OO-8064)" }](https://track.frentix.com/issue/OO-8064){:target="_blank"} {: #tab_events}
 
-- If there are many appointments, the **filters** above the table are useful for keeping an overview.
-- The **"Add appointment"** button can be used to add new appointments to the currently selected implementation.
-- A click on the **+** at the beginning of a line shows the **details** of this appointment.
-- It is also possible to **import** appointments. To do this, click on the small arrow next to the "Add appointment" button.
+- If there are many events, the **filters** above the table are useful for keeping an overview.
+- The **"Add event"** button can be used to add new events to the currently selected implementation.
+- A click on the **+** at the beginning of a line shows the **details** of this event.
+- It is also possible to **import** events. To do this, click on the small arrow next to the "Add event" button.
 
-![The events of an implementation with date, time, units and lecturers, the All levels and This level switches and the Add appointment button, in the Events tab](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" }
+![The events of an implementation with date, time, units and lecturers, the All levels and This level switches and the Add event button, in the Events tab](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
 ---
 
-### Tab members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
+### Tab Members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
 ![The members of an implementation filtered by role, with the views Active, Pending, Non-members and Members' history, in the Members tab](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
 As mentioned above, an educational product (consisting of one or more courses) can be carried out several times. Different participants take part in each implementation.
 
 Participants are therefore made members of a specific implementation (not members of individual courses or an educational product). It can be determined whether they become members of the entire implementation or only of a sub-area.
+
+The **"Participant comment"** column of the member list uses a note icon to show whether the participant has attached a comment to the booking; a click on it opens the comment. The same column is part of the booking orders table in the Catalog tab [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
 If the participants were made members of the educational product (the "copy template"), they would be present as participants in all implementations of this product. This is not desirable. Therefore, only owners can be added to a product as members, not participants.
 
@@ -215,7 +218,7 @@ If the participants were made members of the educational product (the "copy temp
 
 <br>
 
-#### Tab members > Add members {: #add_members}
+#### Tab Members > Add members {: #add_members}
 
 
 To add participants to an implementation as members, use:<br>
@@ -225,7 +228,7 @@ To add participants to an implementation as members, use:<br>
 
 <br>
 
-#### Tab members > Invitation and membership requests [:octicons-tag-16:{ title="from Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #invitation_flow}
+#### Tab Members > Invitation and membership requests [:octicons-tag-16:{ title="from Release 20.3 (OO-9156)" }](https://track.frentix.com/issue/OO-9156){:target="_blank"} {: #invitation_flow}
 
 When participants are assigned to an implementation, they receive a system notification by email depending on the context:
 
@@ -245,7 +248,7 @@ For administrators: [System-wide configuration of the invitation >](../../manual
 
 <br>
 
-#### Tab members > Confirmation of membership by line managers/education managers {: #confirm_membership}
+#### Tab Members > Confirmation of membership by line managers/education managers {: #confirm_membership}
 
 
 The Course Planner can be set up so that a booking request must be confirmed by an administrative role (e.g. a line manager or education manager). With this setting, users can book a course, but the manager must confirm or decline the booking in an intermediate step.
@@ -341,7 +344,7 @@ Enabled automations run once a day at a fixed time. The information text above t
 
 As soon as at least one rule is active, the header of the implementation above the tabs shows the date of the next execution under "Automation". If no execution is pending, a dash appears there.
 
-![Automation sub-tab of the settings of an implementation: the "Override" mode is selected, the table lists context, automation, target status, condition and planned execution for each rule, the header names the next execution.](assets/course_planner_implementations_tab_settings_automation_v3_en.png){ class="shadow lightbox" }
+![The Override mode and the rule table with context, automation, target status, condition and planned execution, in the Automation sub-tab of the settings of an implementation](assets/course_planner_implementations_tab_settings_automation_v3_en.png){ class="shadow lightbox" }
 
 [To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
 [To the to-dos on CPL elements >](Course_Planner_Todos.md)
@@ -370,7 +373,7 @@ When [copying an implementation](#copy), the link to the certification program i
 
 Separate settings can be made here for each implementation:
 
-- Calender configuration
+- Calendar configuration
 - Schedule
 - Absence configuration
 - Absence management
@@ -414,19 +417,19 @@ You will then find the Excel files created in this way listed at the bottom of t
 ---
 
 
-## Copy an implememtation [:octicons-tag-16:{ title="from Release 20.0 (OO-8418)" }](https://track.frentix.com/issue/OO-8418){:target="_blank"} {: #copy}
+## Copy an implementation [:octicons-tag-16:{ title="from Release 20.0 (OO-8418)" }](https://track.frentix.com/issue/OO-8418){:target="_blank"} {: #copy}
 
 You will find the **"Copy element"** action in the list of implementations at the end of a line under the 3 dots.
 
 ![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard, in the list of implementations](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
 
-In the first step of the small wizard, you can select whether course content, dates, members, to-dos and room bookings should also be copied.
+In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied.
 
 ![Title and reference of the copy as well as the options for course content, standalone events, to-dos and memberships, in the General settings step of the Copy element wizard](assets/course_planner_implementations_copy2_v2_en.png){ class="shadow lightbox" }  
 
 The second step of the wizard shows you an overview of the elements that will now be copied.<br>
-You can still make adjustments here (especially to the dates).<br>
-Click on the + in front of an element to display the courses and dates for the element.
+You can still make adjustments here (especially to the events).<br>
+Click on the + in front of an element to display the courses and events of the element.
 
 ![The elements to be copied with start, end and the counters #Courses, #Templates and #Events, one element expanded with its courses and events, in the Overview elements step](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
@@ -490,12 +493,22 @@ If you have already opened an implementation, you will also find the option to d
 
 ## Further information {: #further_information}
 
-[How do I create my first OpenOlat course >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+**Mentioned on this page**<br>
+[Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
+[Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
+[Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Course Planner: To-dos >](Course_Planner_Todos.md)<br>
+[Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Course Planner: Room management >](Course_Planner_Rooms.md)<br>
+[Course Planner: Overview >](Course_Planner.md)
+
+**Further reading**<br>
+[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
-[How can I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)
+
+[To the top of the page ^](#implementations)

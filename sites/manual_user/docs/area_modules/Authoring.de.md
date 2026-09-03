@@ -1,8 +1,8 @@
 # Autorenbereich - Übersicht {: #authoring}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
 
-Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge um Kurse und andere Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
+Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge, um Kurse und andere Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
@@ -13,8 +13,7 @@ Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angeze
 Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, wenn Sie den Autorenbereich aufrufen.
 
 ### 2. Meine Kurse
-Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
-haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
+Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
 ### 3. Meine Einträge 
 Im Filter-Tab "**Meine Einträge**" finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
@@ -37,11 +36,7 @@ Der Filter "Autor/Besitzer" durchsucht den Vornamen, den Nachnamen, den Benutzer
 ### 8. Suchfeld 
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
-Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum Filtermenü.
-
-!!! note "Filtermenü"
-    Beschreibung der Filteroptionen und des Tabellenkonzepts.<br>
-    [Filtermenü](../basic_concepts/Table_Concept.de.md)
+Weitere Details zu den Filteroptionen und zum Tabellenkonzept finden Sie auf der Seite [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
 !!! tip "Tipp"
 
@@ -67,7 +62,7 @@ Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisc
 
 **Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
 
-Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reihenfolge sortiert: Vorbereitung, Review, Zugriff für Betreuer, Veröffentlicht, Beendet, Papierkorb.
+Die Spalte "Status" wird immer in folgender fester Reihenfolge sortiert: Vorbereitung, Review, Zugriff für Betreuer, Veröffentlicht, Beendet, Papierkorb.
 
 #### Sortierung nach Zeitabschnitt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
@@ -83,12 +78,7 @@ Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reih
 
 ![Spalte Zeitabschnitt absteigend sortiert, gleiche Zeitabschnitte stehen beieinander, der Eintrag ohne Zeitabschnitt bleibt am Listenende](assets/autorenbereich_sort_time_period_v1_de.png){ class="shadow lightbox" }
 
-!!! tip "Tipp"
-    Die verfügbaren Zeitabschnitte werden durch die Systemadministration bereitgestellt.
-
-!!! note "Modul Zeitabschnitte"
-    Wie Administrator:innen Zeitabschnitte verwalten.<br>
-    [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
+Die verfügbaren Zeitabschnitte stellt die System-Administration bereit. Wie Administrator:innen Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
 
 [Zum Seitenanfang ^](#authoring)
 
@@ -96,7 +86,7 @@ Die Spalte "Status" (vormals "Lebenszyklus") wird immer in folgender fester Reih
 
 ### 12. Typfilter [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
 
-Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" (vormals "Sound") sowie eine Gruppe **Weitere**, die folgende Typen zusammenfasst: Test (QTI 1.2, nicht mehr unterstützt), Fragebogen, Film, Animation, Andere Datei.
+Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" sowie eine Gruppe **Weitere**, die folgende Typen zusammenfasst: Test (QTI 1.2, nicht mehr unterstützt), Fragebogen, Film, Animation, Andere Datei.
 
 [Zum Seitenanfang ^](#authoring)
 
@@ -112,7 +102,7 @@ Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" (v
 [Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)
 
-**youtube**
+**youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)
 
 [Zum Seitenanfang ^](#authoring)

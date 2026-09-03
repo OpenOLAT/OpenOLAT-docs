@@ -1,13 +1,13 @@
 # Coaching - Bewertungsaufträge {: #assessment_orders}
 
-![Startseite Coaching: Der Eintrag "Bewertungsaufträge" unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
+![Markierter Eintrag Bewertungsaufträge unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen, auf der Startseite Coaching.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
 
 
-Hier sehen Sie, an welchen Stellen noch konkrete Coaching Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen, bzw. ob diese noch freigegeben werden müssen.
+Hier sehen Sie, an welchen Stellen noch konkrete Coaching-Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen, bzw. ob diese noch freigegeben werden müssen.
 
-Je nach Rolle, sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen angezeigt und Sie können sich einen Überblick verschaffen.
+Je nach Rolle sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen angezeigt und Sie können sich einen Überblick verschaffen.
 
-![Tab Offene Bewertungen: Die Liste zeigt Anmeldename, Name, Kurs, Baustein, letzte Aktualisierung und den Link "Bewerten".](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
+![Liste mit Anmeldename, Name, Betreuer:in, Kursname, Baustein, letzter Aktualisierung und dem Link Bewerten, im Tab Offene Bewertungen.](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -23,7 +23,7 @@ Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese 
 
 Hier finden Sie alle Kursbausteine, die zwar schon bewertet wurden, bei denen aber die manuelle Zuordnung zu einer Notenskala bzw. einem Bewertungssystem noch nicht abgeschlossen wurde.
 
-Der Tab ist nur relevant, wenn mindestens einem  Kursbaustein auch eine Bewertungsskala zur manuellen Freigabe zugewiesen wurde.
+Der Tab ist nur relevant, wenn mindestens einem Kursbaustein auch eine Bewertungsskala zur manuellen Freigabe zugewiesen wurde.
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -31,7 +31,7 @@ Der Tab ist nur relevant, wenn mindestens einem  Kursbaustein auch eine Bewertun
 
 ### Tab Freizugebende Bewertungen {: #tab_assessments_to_be_released}
 
-Hier finden Sie alle Bewertungen, die noch nicht für die Teilnehmer:innnen sichtbar sind und noch freigegeben werden müssen. 
+Hier finden Sie alle Bewertungen, die noch nicht für die Teilnehmer:innen sichtbar sind und noch freigegeben werden müssen.
 
 In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf einmal freizugeben.
 
@@ -44,7 +44,7 @@ In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf
 
 Dieser Tab erscheint nur, wenn Sie als Korrektor:in für einen Test eingetragen wurden. Sie sehen eine Übersicht der Tests in den verschiedenen Kursen, die Sie noch manuell prüfen und korrigieren müssen. Je nach Einstellung in der Lernressource "Test" erfolgt die Bewertung anonym oder nicht.
 
-![Tab Korrekturaufträge: Die Liste zeigt Frist, Kurs, Kursbaustein und den Link "Korrigieren", filterbar nach Kurs, Test, Status und Korrekturzeitraum.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
+![Filter für Taxonomie, Kurs, Test, Korrektor:in, Status, Korrekturzeitraum, Punkte und Bestanden, darunter die Liste mit Frist, Kurs, Kursbaustein und dem Link Korrigieren, im Tab Korrekturaufträge.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
 
 Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen Sie in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
 
@@ -54,7 +54,7 @@ Bei Freitextfragen laden Sie die Antwort einer Person über den Button "Als PDF 
 
 !!! tip "Voraussetzung"
 
-    Der Download setzt voraus, dass in der Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
+    Der Download setzt voraus, dass in der System-Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
 
 Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [Auftragsverwaltung](Coaching_Order_Management.de.md).
 
@@ -65,6 +65,12 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)
+
+**Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
@@ -72,9 +78,7 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
-[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
 
 [Zum Seitenanfang ^](#assessment_orders)

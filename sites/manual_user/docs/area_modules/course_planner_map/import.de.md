@@ -1,4 +1,4 @@
-# Excel-Import und -Export
+# Excel-Import und -Export {: #import_export}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -9,7 +9,7 @@ Ganze Semester auf einmal: Produkte, Strukturen und Mitglieder werden per Excel 
 
 ## Wie setze ich das um?
 
-Über das Mehr-Menü (⋮) auf dem Dashboard den Import-Assistenten starten und die Excel-Datei hochladen. Der 5-Schritte-Wizard prüft Produkte, Durchführungen, Benutzer:innen und Mitgliedschaften und zeigt vor der Ausführung, was neu, geändert oder ignoriert wird. Der Export läuft analog über Mehr-Menü bzw. Bulk-Aktion.
+Über das Mehr-Menü (⋮) auf dem Dashboard den Import-Assistenten starten und die Excel-Datei hochladen. Der Assistent prüft in fünf Schritten Produkte, Durchführungen, Benutzer:innen und Mitgliedschaften und zeigt vor der Ausführung, was neu, geändert oder ignoriert wird. Der Export läuft analog über Mehr-Menü bzw. Bulk-Aktion.
 
 ## Vorbedingungen
 
@@ -17,13 +17,18 @@ Rolle Kursplaner:in oder Administrator:in. Die Excel-Datei muss das Sheet «Prod
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Dashboard › Mehr-Menü (⋮) › Import bzw. Export
+`Course Planner > Dashboard > Mehr-Menü (⋮) > Import` bzw. `Course Planner > Dashboard > Mehr-Menü (⋮) > Export`
 
 ## Zusammenhänge
 
 Produkte und Durchführungen können neu erstellt oder aktualisiert werden; Benutzer:innen und Mitgliedschaften nur neu angelegt. Fehlerhafte Zeilen werden automatisch vom Import ausgeschlossen.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Import / Export](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Import_Export/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import/Export - Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)
+
+[Zum Seitenanfang ^](#import_export)

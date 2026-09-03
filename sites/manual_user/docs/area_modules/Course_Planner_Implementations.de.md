@@ -21,6 +21,7 @@ Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleic
 ## Die Liste der Durchführungen {: #listing}
 
 Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit Filtern die Auswahl eingrenzen.
+
 ![Alle Durchführungen eines Produkts in einer filterbaren Liste mit Kennzeichen, Typ und Status, hier mit geöffnetem Filter Belegungsstatus, auf der Seite Durchführungen im Course Planner](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
 
 Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
@@ -165,7 +166,7 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 **Automatisch gesteuerte Kursinhalte** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
 Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberhalb der Liste der Abschnitt «Übersicht Automatisierung». Aufgeführt sind nur aktive Regeln, die den Inhalt betreffen. Zu jeder Regel sehen Sie die Art der Regel, also «Instanziierung» oder den Zielstatus, dazu das Datum der geplanten Ausführung und die Bedingung, die die Ausführung auslöst. Über den Link «Einstellungen» wechseln Sie direkt zur [Konfiguration der Automatisierung](#tab_settings_automation).
 
-![Tab Kursinhalt einer Durchführung mit der Infobox "Übersicht Automatisierung": Je Regel stehen die Art, hier Instanziierung und drei Zielstatus, das geplante Ausführungsdatum und die auslösende Bedingung, dazu der Link "Einstellungen".](assets/course_planner_implementations_tab_content_automation_v1_de.png){ class="shadow lightbox" }
+![Die Infobox Übersicht Automatisierung mit Art, geplantem Ausführungsdatum und auslösender Bedingung je Regel sowie dem Link Einstellungen, im Tab Kursinhalt einer Durchführung](assets/course_planner_implementations_tab_content_automation_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -214,6 +215,8 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 Wie bereits weiter oben erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
 
 Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Es kann bestimmt werden, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereiches werden.
+
+Die Spalte **"Teilnehmer:inkommentar"** der Mitgliederliste zeigt mit einem Notiz-Symbol, ob zur Buchung ein Kommentar der Teilnehmer:in vorliegt; ein Klick darauf öffnet den Kommentar. Dieselbe Spalte führt die Tabelle der Buchungsaufträge im Tab Katalog [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
 Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
@@ -351,7 +354,7 @@ Aktivierte Automatisierungen laufen einmal täglich zu einer festen Uhrzeit. Die
 
 Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter «Automatisierung» das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
 
-![Unter-Tab Automatisierung der Einstellungen einer Durchführung: Der Modus "Überschreiben" ist gewählt, die Tabelle listet je Regel Kontext, Automatisierung, Zielstatus, Bedingung und geplante Ausführung, der Kopfbereich nennt die nächste Ausführung.](assets/course_planner_implementations_tab_settings_automation_v3_de.png){ class="shadow lightbox" }
+![Der Modus Überschreiben und die Regeltabelle mit Kontext, Automatisierung, Zielstatus, Bedingung und geplanter Ausführung, im Unter-Tab Automatisierung der Einstellungen einer Durchführung](assets/course_planner_implementations_tab_settings_automation_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
@@ -504,23 +507,24 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-!!! note "Weitere Informationen"
-    [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-    [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-    [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
-    [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-    [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
-    [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-    [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-    [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-    [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
+[Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
+[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)<br>
+[Course Planner: Übersicht >](Course_Planner.de.md)
 
+**Weiterführend**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)
 
 [zum Seitenanfang ^](#implementations)
-
-
-
-
-

@@ -1,4 +1,4 @@
-# Strukturregeln festlegen (Elementtypen)
+# Strukturregeln festlegen (Elementtypen) {: #element_types}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -17,13 +17,18 @@ Course Planner muss aktiviert sein. Für das Feature Absenzenmanagement muss das
 
 ## Wo finde ich die Einstellung
 
-Administration › Module › Course Planner › Tab Elementtypen
+In der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`
 
 ## Zusammenhänge
 
 Elementtypen bestimmen, welche Elemente ein Produkt enthalten darf und ihre Hierarchie (z. B. Lehrgang > Semester > Modul > Kurs). Pro Typ lassen sich Automatisierungsregeln als Vorlage hinterlegen, die einzelne Elemente übernehmen oder überschreiben.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Modul Course Planner](https://docs.openolat.org/de/manual_admin/administration/Modules_Course_Planner/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)
+
+[Zum Seitenanfang ^](#element_types)

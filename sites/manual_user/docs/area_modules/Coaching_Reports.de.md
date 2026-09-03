@@ -27,7 +27,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Generierter Report**.
 4. Klicken Sie beim erzeugten Report auf **Herunterladen**.
 
-![coaching_reports1_v1_de.png](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Markierte Spalte Ausführen mit einem Startsymbol je Reportvorlage, darunter der noch leere Abschnitt Generierter Report, im Bereich Reporting des Coaching Tools.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 
@@ -37,7 +37,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 Die Tabelle **Reportvorlagen** zeigt für jede Vorlage Name, Kategorie, Beschreibung und Typ ("Statisch" oder "Dynamisch") sowie die Spalte "Ausführen". Über den Filter "Kategorie" grenzen Sie die Liste ein.
 
-![coaching_reports2_v1_de.png](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Tabelle Reportvorlagen mit drei Zertifikatsvorlagen, den Spalten Name, Kategorie, Beschreibung, Typ und Ausführen sowie dem Filter Kategorie, im Bereich Reporting.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
 
 ### Vorlagen der Kategorie Zertifikate {: #certificate_templates}
 
@@ -57,7 +57,7 @@ Die erzeugte Excel-Datei enthält das Worksheet "Einzelkurse" und, falls das Mod
 
 Die erstellten Excel-Dateien werden im Abschnitt **Generierter Report** aufgelistet. Jede Datei steht nach der Erstellung 10 Tage zum Download bereit; die verbleibende Zeit wird angezeigt. Über die nebenstehenden Aktionen können Sie die Datei herunterladen, kopieren, löschen oder Detailinformationen anzeigen.
 
-![coaching_reports3_v1_de.png](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Markierter Abschnitt Generierter Report mit einer Excel-Datei, der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reporting.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 
@@ -65,8 +65,11 @@ Die erstellten Excel-Dateien werden im Abschnitt **Generierter Report** aufgelis
 
 ## Weiterführende Informationen {: #further_information}
 
-[Reports: Zertifikate >](../area_modules/Reports_Certficates.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
 [Rollen zuweisen >](../basic_concepts/Assign_Roles.de.md)<br>
+[Reports: Zertifikate >](../area_modules/Reports_Certficates.de.md)
+
+**Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
@@ -75,6 +78,6 @@ Die erstellten Excel-Dateien werden im Abschnitt **Generierter Report** aufgelis
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
 
 [Zum Seitenanfang ^](#reports)

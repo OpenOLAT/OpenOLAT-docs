@@ -9,7 +9,7 @@ This page describes the structure of the Excel files generated with the [report 
 | Certificate ID        | Certificate | Unique number of the certificate           |
 | Course                | Course      | Title of the course                        |
 | Reference             | Course      | Reference of the course                    |
-| User data             | Person      | Configurable under `Administration > Customizing > User Properties`, context "Certificates report"; by default last name, first name and e-mail address |
+| User data             | Person      | Configurable in the system administration under `Administration > Customizing > User Properties`, context "Certificates report"; by default last name, first name and e-mail address |
 | Initial course launch | Course      | Date of the first visit to the course      |
 | Success status        | Course      | "Passed", "Not passed" or "Undefined"      |
 | Issued on             | Certificate | Date of issue of the certificate           |
@@ -26,5 +26,13 @@ The worksheet "Products" lists the certificates of courses that are assigned to 
 | Element type | Course Planner | Title of the element type    |
 
 If a course is assigned to several curriculum elements, the values in the cell are listed separated by a vertical bar.
+
+[To the top of the page ^](#certificate_reports)
+
+---
+
+## Further information {: #further_information}
+
+[Coaching: Reports >](../area_modules/Coaching_Reports.md)
 
 [To the top of the page ^](#certificate_reports)

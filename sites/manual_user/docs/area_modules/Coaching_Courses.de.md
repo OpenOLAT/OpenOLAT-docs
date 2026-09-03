@@ -1,9 +1,9 @@
 # Coaching - Kurse {: #courses}
 
 
-![coaching_courses1_v1_de.png](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
+![Markierter Button Kurse in der Gruppe Coaching führt zur Liste Ihrer betreuten Kurse, auf der Einstiegsseite Coaching.](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
 
-![coaching_courses2_v1_de.png](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
+![Kursliste in Kacheldarstellung mit dem Fokus Als Betreuer:in, den Filter-Tabs Favoriten bis Beendet und Filtern wie Durchführungszeitraum und Erfolgsstatus, im Werkzeug Kurse.](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
 
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
@@ -12,7 +12,7 @@ Der Menüpunkt "Kurse" im Coaching Tool zeigt die Liste aller **Kurse**, in dene
 
 * Es werden die Teilnehmenden aus **allen** von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
 * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
-* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br> 
+* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br>
 Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Kursbesitzer:in entsprechen.
 * In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
 
@@ -44,7 +44,7 @@ Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden 
 
     Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listen- und der Kacheldarstellung wechseln.
 
-![coaching_courses3_v1_de.png](assets/coaching_courses3_v1_de.png){ class="shadow lightbox" }
+![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v1_de.png){ class="shadow lightbox" }
 
 
 Sie sehen auf einen Blick zum Beispiel
@@ -66,7 +66,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Ext. ID** (externe ID, die einer anderen Systematik folgen kann als die von OpenOlat automatisch vergebene ID)
 * **Kennzeichen**
 * **Beginn** (Beginn des Durchführungszeitraums dieses Kurses)
-* **Ende** (Ende des Durchführungszeitraums dieses Kurses) 
+* **Ende** (Ende des Durchführungszeitraums dieses Kurses)
 * **Referenzierungen**
 * **Status** ("in Review", "Veröffentlicht", "Beendet")
 * **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
@@ -84,7 +84,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **durchschnittliche Punkte** (durchschnittliche Punktzahl aller Teilnehmenden, die diesen Kurs bereits bearbeitet haben)
 * **Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
-* **Information Seite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Administration > Einstellungen` eingegeben wurden)
+* **Informationsseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
 
 
 [Zum Seitenanfang ^](#courses)
@@ -94,6 +94,11 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)
+
+**Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
@@ -102,7 +107,6 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Rollen >](../../manual_user/basic_concepts/Roles.de.md)
 
 [Zum Seitenanfang ^](#courses)

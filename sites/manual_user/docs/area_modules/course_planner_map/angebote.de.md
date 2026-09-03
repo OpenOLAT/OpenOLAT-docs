@@ -1,4 +1,4 @@
-# Im Katalog anbieten
+# Im Katalog anbieten {: #offers}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -17,13 +17,19 @@ Durchführung vorhanden; Kurszugang auf «Buchbare und offene Angebote» gesetzt
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Durchführung › Tab Katalog
+`Course Planner > Durchführungen > "Durchführung" > Tab Katalog`
 
 ## Zusammenhänge
 
 Das Angebot platziert die Durchführung im Katalog, ermöglicht damit die Buchung und erzeugt die Mitgliedschaft in der Durchführung. Direktlinks auf das Angebot können z. B. per Mail verschickt werden.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Katalog 2.0: Angebote](https://docs.openolat.org/de/manual_user/area_modules/catalog2.0_angebote/){: target="_blank" rel="noopener" } · [Course Planner: Durchführungen](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Katalog 2.0 - Angebote >](../catalog2.0_angebote.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)
+
+[Zum Seitenanfang ^](#offers)

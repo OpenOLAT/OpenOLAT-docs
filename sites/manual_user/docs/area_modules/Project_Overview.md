@@ -1,25 +1,24 @@
 # Projects: Overview {: #overviews}
 
-:octicons-tag-24: Release 18.0
-
-## What is the project tool for?
+## What is the project tool for? [:octicons-tag-16:{ title="from Release 18.0 (OO-6612)" }](https://track.frentix.com/issue/OO-6612)
 
 The project tool integrated in OpenOlat is primarily a tool for **project documentation** (not for **project planning**).
 
 
 ## Where can I find projects in OpenOlat?
 
-OpenOlat users can find the projects **in the header menu**. 
+Users can find the projects **in the header menu**.
 
-!!! info "Note"
+!!! info "Important"
 
     The menu entry can also be in a different location. If many entries are displayed in the header, "Projects" may also be included under "More" on the far right.
 
-![projekte_hauptmenue_v1_de.png](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
+![Entry Projects in the expanded More menu of the header, below it the Projects area with the tab My projects](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
-!!! info “Note”
+!!! info "Important"
 
-    If a project has been deleted, it can no longer be edited. However, it is still in the “My projects” area -> in the “Deleted” tab. You can still access it from here. You can also download the report or reactivate the project.
+    If a project is deleted, it can no longer be edited. However, it is still available under `Projects > Tab "My projects" > Tab "Deleted"`. You still have read access from there. You can also download the report or reopen the project.
+
 
 [To the top of the page ^](#overviews)
 
@@ -43,18 +42,18 @@ Examples:
 
 ## What are the main functions/components of a project?
 
-After calling up a project, the main functions are displayed in the cockpit:
+After opening a project, the main functions are displayed in the cockpit:
 
-1. Dates and milestones
+1. Appointments and milestones
 2. To-dos
 3. Decisions
 4. Notes
-6. Files
-5. Whiteboard (draw.io)
+5. Files
+6. Whiteboard (draw.io)
 7. Timeline
 8. Administration functions
 
-![projekte_overview_v1_de.png](assets/projekte_overview_v1_de.png){ class="shadow lightbox" }
+![Cockpit of a project with the numbered main functions Schedule, To-dos, Decisions, Notes, Files, Whiteboard and Timeline as well as the 3-dot menu with the administration functions](assets/projekte_overview_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#overviews)
 

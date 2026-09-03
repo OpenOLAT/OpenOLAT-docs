@@ -1,49 +1,38 @@
 # Coaching - Order management {: #order_management}
 
 
-![coaching_auftragsverwaltung_v1_de.png](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" }
+![Marked entry Order management under Administration leads to the management of the correctors and their grading assignments, on the Coaching start page.](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" }
 
-This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The [Correction workflow](../learningresources/Test_settings.md) can be activated in the learning resource "Test". You can then assign one or more people to tests as correctors. If you are at least the owner of a test for which this option has been activated, you will see the order management in the Coaching Tool and be able to manage the individual correctors and their activities.
-
+This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The [Correction workflow](../learningresources/Test_settings.md) can be activated in the learning resource Test. You can then assign tests to one or more people as correctors. If you are at least the owner of a test for which this option has been activated, you see the Order management in the Coaching Tool and can manage the individual correctors and their activities.
 
 [To the top of the page ^](#order_management)
 
 ---
 
 
-## 1. Tab Correctors {: #tab_correctors}
+## Tab "Correctors" {: #tab_correctors}
 
-![coaching_order_management_tab_correctors_v1_de.png](assets/coaching_order_management_tab_correctors_v1_de.png){ class="shadow lightbox" }
+![Filters State, Test, Corrector and Grading period, button Add corrector and the list with Total, Done, Open, Overdue, correction times and Absence leave, in the tab Correctors.](assets/coaching_order_management_tab_correctors_v1_de.png){ class="shadow lightbox" }
 
-Here you can see an overview of all your graders and their assessment status. You can filter the graders according to various criteria, e.g., specific courses, specific tests, or assessments that are still pending.
+Here you get an overview of all your correctors and their assessment status. You can filter the correctors according to various criteria, e.g. specific courses, specific tests or assessments that are still open.
 
-By selecting the appropriate column, you can display
+By selecting the appropriate columns, you can display
 
-* how many tests a proofreader should evaluate in total, 
-* how many he/she has already completed, 
-* how many are open and which ones are overdue 
-* and what correction time is planned. 
+* how many tests a corrector should assess in total,
+* how many of them are already done,
+* how many are open and which ones are overdue
+* and what correction time is planned.
 
-Furthermore, additional proofreaders can be added to a test, or existing assignments can be deactivated.
+The column "Correction (real minutes)" shows the correction time actually recorded. Which roles see it is defined by the system administration under `Administration > e-Assessment > Test` in the segment "Correction workflow".
 
+Use the button "Add corrector" to add further correctors to a test. You can deactivate existing assignments.
 
 It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.md).
 
-Using the "Download report" button, you can generate an Excel file here with the current state of the correction workflow. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+In the row menu of a corrector, open the entry "Download report" to generate an Excel file with the state of the grading assignments of this corrector. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
 
+![Row menu with Show assignments, Contact corrector, Download report, Record absence, Deactivate and Remove, in the tab Correctors of the Order management.](assets/coaching_order_management_report_download_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#order_management)
-
----
-
-
-## 2. Tab "Grading assignments"" {: #tab_grading_assignments}
-
-This tab only appears if you have been entered as a corrector for a test. You see an overview of the tests in the different courses that you still have to check and correct manually. Depending on the setting in the learning resource "Test", the assessment is anonymous or not.
-
-This tab only appears if you have been registered as a proofreader for a test. You will see an overview of the tests in the various courses that still need to be checked and corrected manually. Depending on the settings in the "Test" learning resource, the assessment may be anonymous or not.
-
-Via the link "Correct", the corrector can directly access the test to be corrected and can make manual evaluations here and also overwrite automatic evaluations if necessary. It also makes sense to leave a corresponding comment.
 
 
 [To the top of the page ^](#order_management)
@@ -51,30 +40,50 @@ Via the link "Correct", the corrector can directly access the test to be correct
 ---
 
 
-## 3. Tab "Open grading assignments" {: #tab_open_grading_assignments}
+## Tab "Grading assignments" {: #tab_grading_assignments}
 
-![coaching_order_management_tab_open_grading_assignments_v1_de.png](assets/coaching_order_management_tab_open_grading_assignments_v1_de.png){ class="shadow lightbox" }
+Administrators, learning resource managers and owners of a test with activated correction workflow get an overview of all correctors and their grading assignments in the tab "Grading assignments", including the display of how many assignments are still open or overdue.
 
-The course elements (tests and tasks) with the respective persons, who have not yet been assigned to a corrector, are displayed here. 
+Use the button "Report" to generate the Excel report about the displayed grading assignments.
+
+![Filters from Taxonomy to Passed, button Report and bulk actions to select, change and contact correctors, extend the deadline and remove, in the tab Grading assignments of the Order management.](assets/coaching_order_management_tab_grading_assignments_v1_de.png){ class="shadow lightbox" }
+
+
+You do not find your own grading assignments as a corrector here, but under `Coaching > Assessment orders`: [Coaching: Assessment orders](Coaching_Assessment_Orders.md#tab_grading_assignments).
+
 
 [To the top of the page ^](#order_management)
 
 ---
+
+
+## Tab "Open assignments" {: #tab_open_grading_assignments}
+
+![Per row course, course element and number of open assignments with the link Assign, in the tab Open assignments of the Order management.](assets/coaching_order_management_tab_open_grading_assignments_v1_de.png){ class="shadow lightbox" }
+
+Here the course elements (tests and tasks) with the respective persons who have not yet been assigned to a corrector are displayed.
+
+
+[To the top of the page ^](#order_management)
+
+---
+
 
 ## Further information {: #further_information}
 
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
-[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational products (several courses or implementations as one offering) >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
-[Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
-[Roles >](../../manual_user/basic_concepts/Roles.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+**Mentioned on this page**<br>
+[Test settings - Administration >](../learningresources/Test_settings.md)<br>
+[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)
 
- [To the top of the page ^](#order_management)
+**Further reading**<br>
+[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
+[Coaching: People >](../area_modules/Coaching_People.md)<br>
+[Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
+[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
+[Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
+[Roles >](../basic_concepts/Roles.md)<br>
+[Assessment tool >](../learningresources/Assessment_tool_overview.md)
 
-
-
+[To the top of the page ^](#order_management)

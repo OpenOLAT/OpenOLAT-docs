@@ -1,19 +1,21 @@
 # Coaching - Courses {: #courses}
 
-![coaching_kurse_v1_de.png](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
 
-![coaching_courses2_v1_de.png](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
+![Marked button Courses in the Coaching group leads to the list of your coached courses, on the Coaching entry page.](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
+
+![Course list in tile view with the focus As coach, the filter tabs Favourites to Finished and the filters Implementation period, Not visited, Last visit, Success status and Type, in the Courses tool.](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
 
 
 ### WHICH courses does the list show? {: #courses_which}
 
-The "Courses" menu item in the Coaching Tool shows a list of all **courses** in which you are a **coach** or **owner**.
+The menu item "Courses" in the Coaching Tool shows the list of all **courses** in which you are **coach** or **owner**.
 
-* Participants from **all** courses you supervise are displayed. (This differs from the course's [assessment tool](../learningresources/Assessment_tool_overview.md), which only displays participants from the current course.)
-* Each coach can only see the participants they are supervising.
-* The participants you are supervising are **grouped and assigned roles** that you, as their coach, have in relation to them.<br> 
-In the example shown above, the caregiver can access pre-sorted lists that correspond to their two roles as caregiver and course owner.
-* In the list for instructors, you will only see courses that have been published, completed, or are at least accessible to instructors.
+* The participants from **all** courses you coach are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
+* Each coach only sees the participants they coach.
+* The participants you coach are **grouped and assigned to the roles** you have in relation to them.<br>
+In the example shown above, the coach can access presorted lists that correspond to their two roles as coach and as course owner.
+* In the list for coaches, you only see courses that are published, finished or at least accessible for coaches.
+
 
 [To the top of the page ^](#courses)
 
@@ -36,56 +38,53 @@ For more information on working with filters and filter tabs in general, see [Wo
 
 ---
 
-
 ### WHAT does the list show? [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
 
 !!! tip "Tip"
 
     By clicking on the small buttons at the top right above the list, you can switch between list and tile view at any time.
 
-![coaching_courses3_v1_de.png](assets/coaching_courses3_v1_de.png){ class="shadow lightbox" }
+![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Points and Certificates, switch at the top right.](assets/coaching_courses3_v1_de.png){ class="shadow lightbox" }
 
 
-You will see at a glance:
+You see at a glance, for example,
 
-* Which courses (learning resources) you are a tutor for,
-* How many participants are there in these courses?
+* in which courses (learning resources) you are coach,
+* how many participants are in these courses
 * and how far the processing of these courses has progressed overall.
 
-From this list, you can switch directly to a course and the assessment tool used there.<br>
-Clicking on a course name takes you directly to the course. There, you can navigate further to individual participants and view performance overviews or absence management.
+From this list, you can switch directly to a course and its assessment tool.<br>
+Clicking on a course name takes you directly to the course. There, you can navigate further to individual participants and view performance summaries or the absence management.
 
-You can choose which columns are displayed by clicking on the gear icon in the top right corner.
-
+You can choose which columns are displayed by clicking on the gear icon at the top right.
 
 * **ID** (unique number)
-* **Favorite**
-* **Type** (Cube icon for "course"; for stand-alone learning resources, a corresponding different icon)
-* **Technical type** (e.g., "learning path" or "traditional course")
+* **Favourite**
+* **Type** (cube icon for "Course", a corresponding different icon for stand-alone learning resources)
+* **Technical Type** (e.g. "Learning path" or "Conventional course")
 * **Title**
-* **Ext. ID** (External ID, which may follow a different classification system than the ID automatically assigned by OpenOlat.)
-* **Identifier**
-* **Beginning** (Start of the implementation period for this course)
-* **Ending** (End of the implementation period for this course) 
-* **References**
-* **Status** ("in Review", "Published", "Finished")
-* **Participants** (Number of all participants)
-* **Visited** (Number of all participants who have visited the course)
-* **Not visited** (Number of participants who have never taken this course before)
-* **Last visit** (When was this course last attended by a participant?)
-* **Average progress** (Average of the progress scores of all participants who have already taken the course)
-* **Success status** (graphically and in figures: "Passed" | "Not passed" | "Not specified")<br>
+* **Ext. ID** (external ID, which may follow a different system than the ID automatically assigned by OpenOlat)
+* **Reference**
+* **Begin** (begin of the implementation period of this course)
+* **End** (end of the implementation period of this course)
+* **Ref.**
+* **Status** ("Review", "Published", "Finished")
+* **Participants** (number of all participants)
+* **Visited** (number of participants who have already visited this course)
+* **Not visited** (number of participants who have never visited this course)
+* **Last visit** (when this course was last visited by a participant)
+* **Average progress** (average of the progress values of all participants who have already visited the course)
+* **Success status** (graphically and in numbers: "Passed" | "Not passed" | "Not specified")<br>
 
 !!! info "Tooltip for success status"
-
     Hovering the mouse over the graphic bar shows a tooltip with the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 * **Passed**
 * **Not passed**
 * **Not specified**
-* **Average points** (average score of all participants who have already completed this course)
-* **Certificate** (Number of certificates already issued for this course)
-* **Assessment tool** (clickable icon that leads directly to the evaluation tool for this course)
-* **Information site** (Clickable light bulb icon that leads directly to the information entered in the course under `Administration > Settings`)
+* **Average points** (average score of all participants who have already worked on this course)
+* **Certificates** (number of certificates already issued in this course)
+* **Assessment tool** (clickable icon that leads directly to the assessment tool of this course)
+* **Info page** (clickable light bulb icon that leads directly to the information entered in the course under `Course > Administration > Settings`)
 
 
 [To the top of the page ^](#courses)
@@ -95,20 +94,19 @@ You can choose which columns are displayed by clicking on the gear icon in the t
 
 ## Further information {: #further_information}
 
-[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
-[Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational Products >](../area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
-[Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+**Mentioned on this page**<br>
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Working with tables >](../basic_concepts/Table_Concept.md)
+
+**Further reading**<br>
+[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
+[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
+[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
-[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
-[Roles >](../basic_concepts/Roles.md)<br>
-[Assessment tool >](../learningresources/Assessment_tool_overview.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
+[Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
+[Roles >](../../manual_user/basic_concepts/Roles.md)
 
-[To the top of the page ^](#people)
-
-
-
-
-
+[To the top of the page ^](#courses)

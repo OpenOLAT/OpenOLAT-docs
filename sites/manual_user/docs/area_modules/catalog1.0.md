@@ -1,63 +1,112 @@
 # Catalog 1.0 {: #catalog_1}
 
-## Functionality
+:octicons-device-camera-video-24: **Video introduction (German)**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank"}
 
-The Catalog 1.0 can be set up by an administrator or catalog administrator, so that authors can sort courses and other learning resources into the catalog in a meaningful way. The order of catalog entries can be defined by the administrator or catalog administrator.
+:octicons-device-camera-video-24: **Video introduction (German)**: [Kurs in Katalog eintragen](<https://www.youtube.com/embed/hc5yJAPIX9s>){:target="_blank"}
 
-![catalog](assets/catalog.png)
+## How the Catalog 1.0 works
 
-Use the search mask in case you should not find the appropriate course in the catalog. Perhaps the course author has not yet listed that course in the OpenOlat catalog.
+In the Catalog 1.0, course owners can enter their courses and thus make them visible. In addition, the catalog gives access to the information of the respective course info page, so that users can get an overview in advance without having to enter or book a course.
 
-Teachers can only enter courses and learning resources in the catalog that are also available to learners. The visibility in the catalog depends on the publication status and access settings of the learning resource:
+Depending on the configuration, courses can be booked directly via the catalog, or the catalog serves as an overview of the courses in which participants are already enrolled.
 
-Users role | Access settings | Publication status
----|---|---  
-Owner of learning resource| Private, Bookable, Open| Always visible  
-Coach of learning resource| Private, Bookable, Open|  "Access for coach", "Published" oder "Finished"  
-Participant of learning resource| Private, Bookable, Open | "Published" or "Finished"  
-All OpenOlat users| Bookable, Open | "Published" or "Finished"  
-Guests| Open & Access without login enabled | "Published" or "Finished"  
+The catalog can also be used to map the structures of a university or further education institution. This provides a quick overview of bookable offers and courses already assigned.
 
-## Offers in catalog 1.0
+**Management by catalog administrators:**
 
-In the catalog 1.0, all offers are created in the courses (**Administration > Settings > Tab Shared**) and then compiled in the **catalog administration**.
+Administrators or catalog administrators prepare the structure of the catalog and can also change the order of the entries.
 
-!!! hint "Requirements for an offer"
+![Category Vorlagen with a subcategory and six published learning resources, toolbar with Edit data, Move, Order and Appoint managers, Catalog administration menu](assets/Katalogverwaltung1.png){ class="shadow lightbox" }
 
-    To be able to create an offer, you must select the option "Bookable and open quotes" as the offer style.
-    (**Administration > Settings > Tab Shared**)
+Course owners can then link their courses within the predefined structure.
 
-    ![catalog20_freigabe_v1_de.png](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }
 
-    If "**Private**" is selected, the participants are entered by the owners or persons who have the right to manage members. What is private should not be published in the catalog.
+## Enter a course in the Catalog 1.0
 
-    If the option "**Bookable and open offers**" is selected, learners can book a course/learning resource themselves, but may have to enter a password (depending on the setting).
+To add a course to the catalog, open the "Catalog" tab of the course settings as course owner:<br>
+`Course > Administration > Settings > Tab "Catalog"`
 
-    Only if the second option "Bookable and open offers" is selected can you then create offers.
+Click on the "Add to catalog" button and navigate to the desired position in the catalog.
 
-![catalog10_new_offer_v1_de.png](assets/catalog10_new_offer_v1_de.png){ class="shadow lightbox" }
+![Button Add to catalog and the table showing which role sees the course in the catalog in which status, Catalog tab of the course settings](assets/Katalog1a.jpg){ class="shadow lightbox" }
 
-**Select an offer type** and open the popup to create a new offer.<br>
-Click on the **"Create" button** to create the new offer.
+Afterwards it is displayed for whom the course is visible in its current state. You can also repeat the process and thus create several catalog entries for one course.
 
-![catalog10_create_offer_v1_de.png](assets/catalog10_create_offer_v1_de.png){ class="shadow lightbox" }
+**Further settings:**
 
-Click on "**Open catalog configuration**" in the offer. This will take you directly from the "Release" tab to the "Catalog" tab.
+Now go to the "Share" tab as course owner to make the desired further settings:<br>
+`Course > Administration > Settings > Tab "Share"`
 
-![catalog10_offer_in_catalog_v1_de.png](assets/catalog10_offer_in_catalog_v1_de.png){ class="shadow lightbox" }
+![Status Published and the Share tab highlighted, below them the usage Standalone and the access for participants, course settings](assets/Einstellungen_Tab_Freigabe1.jpg){ class="shadow lightbox" }
 
-Then click on the "**Add to catalog**" button to register the course in the catalog.
+!!! tip "Hint"
 
-![catalog10_insert_in_catalog_v1_de.png](assets/catalog10_insert_in_catalog_v1_de.png){ class="shadow lightbox" }
+    It is often useful to enter the course in the catalog as the last step, namely when the course is finished and access is to be released for the learners.
 
-If the offer is to be displayed in other places in the catalog (subfolders), additional entries can be added as required.
+    Set the status of the course to "Published" so that the participants can also enter the course.
 
-![catalog10_additional_entries_v1_de.png](assets/catalog10_additional_entries_v1_de.png){ class="shadow lightbox" }
 
-The finished catalog can be called up in the header menu.
+## Who sees what in the Catalog 1.0?
 
-![catalog10_result_v1_de.png](assets/catalog10_result_v1_de.png){ class="shadow lightbox" }
+Courses can be entered in the catalog at any time, but are not visible or accessible to everyone in every case. The visibility in the catalog is influenced by several factors, including the course role of the person calling up the catalog, the publication status of the course and the type of course access, e.g. private or bookable.
 
-!!! tipp "Catalog 2.0"
+User role| Access setting| Publication status
+---|---|---
+Owner of the learning resource| Private, Bookable, Open| always visible
+Coach of the learning resource| Private, Bookable, Open| "Access for coach", "Published" or "Finished"
+Participant of the learning resource| Private, Bookable, Open| "Published" or "Finished"
+All OpenOlat users| Bookable, Open| "Published" or "Finished"
+Guests| Open & guest access enabled| "Published" or "Finished"
 
-    Information on creating offers in catalog 2.0 can be found [here](../area_modules/catalog2.0_angebote.md).
+Here is an example of how the configuration settings affect the catalog:
+
+### Example
+
+A course owner enters a course in the catalog. The course has the status "Preparation" and its access is set to "Private Membership management by administration".
+
+In this case, the course is displayed in the catalog for course owners and for all enrolled members. However, the course itself cannot yet be entered, as it is still in the status "Preparation". Only after publication can the members also access it via the catalog.
+
+Persons who are not members of the course do *not* see the course in the catalog and cannot enter, enrol in or book the course.
+
+## Enrolling via the catalog
+
+If a course is to appear in the catalog so that interested persons can enrol in it, you should configure it as follows.
+
+* Add the course to the catalog in the "Catalog" tab as described above
+
+* Set up an offer of the type "Freely available" in the "Share" tab
+Optionally, an end date can be set in the configuration if the enrolment is to be limited in time.
+In addition, an offer description is recommended, as well as removing the check mark for "Book automatically"
+
+* The course status must be "Preparation" and must not be set to "Published"
+
+This way, users can read the course info page and enrol in the course.
+Course owners see all enrolled persons in the members management of the course and can remove individual persons if necessary or contact them by e-mail. However, participants cannot yet access content and course elements. This access is only activated when the course owners set the course to "Published".
+
+## How users get to the catalog
+
+Users can call up the Catalog 1.0 via the top menu and navigate to the desired position.
+
+![Category Lernerlebnispfade with four courses, per course the learning progress in percent or the status Passed and the button Learn more, Catalog 1.0 in tile view](assets/Katalog_Lernerlebnispfad.png){ class="shadow lightbox" }
+
+The display is possible both as a list view and as a table view. In each case, further information is displayed, e.g. on the learning progress in learning paths, the implementation format, the time period, whether the course has already been passed, and further information stored in the course settings. The "Learn more" button takes users to the course info page.
+
+
+!!! note "Catalog 2.0"
+
+    Information on creating offers in Catalog 2.0 can be found [here](../area_modules/catalog2.0_angebote.md).
+
+[To the top of the page ^](#catalog_1)
+
+---
+
+
+## Further information {: #further_information}
+
+[Catalog 2.0: Offers >](catalog2.0_angebote.md)
+
+**youtube**<br>
+[Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>)<br>
+[Kurs in Katalog eintragen](<https://www.youtube.com/embed/hc5yJAPIX9s>)
+
+[To the top of the page ^](#catalog_1)

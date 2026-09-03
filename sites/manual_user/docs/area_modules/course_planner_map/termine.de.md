@@ -1,11 +1,11 @@
-# Termine, Lehrpersonen und Räume
+# Termine, Dozent:innen und Räume {: #events}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
 [:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
 
-Termine hängen direkt am Element: mit Lehrpersonen-Verwaltung per Massenaktion, automatisch erstellten Online-Meetings (BigBlueButton, MS Teams) und Taxonomie-Zuordnung. Ab 21.0 kommt die Raumverwaltung für physische Termine dazu.
+Termine hängen direkt am Element: mit Verwaltung der Dozent:innen per Massenaktion, automatisch erstellten Online Meetings (BigBlueButton, MS Teams) und Taxonomie-Zuordnung. Für physische Termine kommt die Raumverwaltung dazu. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570)
 
 ## Wie setze ich das um?
 
@@ -17,13 +17,18 @@ Durchführung vorhanden. Für die Raumbelegung muss das Modul «Räume» aktiv s
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Durchführungen › Durchführung wählen › Tab Termine
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
 ## Zusammenhänge
 
-Termine beziehen sich auf eine Durchführung bzw. ein Element und ermöglichen Absenzenerfassung sowie Verknüpfung mit Online-Meetings. Die zentrale Raumbelegung wird im Modul «Räume» der Administration geführt.
+Termine beziehen sich auf eine Durchführung bzw. ein Element und ermöglichen Absenzenerfassung sowie Verknüpfung mit Online Meetings. Die zentrale Raumbelegung wird in der System-Administration geführt:<br>
+`Administration > Module > Räume`
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Termine](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Events/){: target="_blank" rel="noopener" } · [Termine und Absenzen](https://docs.openolat.org/de/manual_user/basic_concepts/Events_and_Absences/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
+[Termine und Absenzen >](../../basic_concepts/Events_and_Absences.de.md)
+
+[Zum Seitenanfang ^](#events)

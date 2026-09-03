@@ -2,18 +2,18 @@
 
 Selektieren Sie in der Liste mehrere Fragen, können Sie mit den Buttons am unteren Rand die ausgewählten Fragen weiter verwenden.
 
-![question_bank_use_questions_v1_de.png](assets/question_bank_use_questions_v1_de.png){ class="shadow lightbox" }
+![Zwei ausgewählte Fragen, darunter die Leiste mit den neun Aktionsbuttons für die Auswahl. Fragenliste im Fragenpool.](assets/question_bank_use_questions_v1_de.png){ class="shadow lightbox" }
 
 
 ## Listen {: #lists}
 
-Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen Kriterien. Wählen Sie dazu unter ""Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" unterhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
+Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" unterhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
 
-![question_bank_use_questions_list1_v1_de.png](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü des Buttons Listen mit Liste erstellen und Zur Liste hinzufügen. Aktionsleiste unter der Fragenliste.](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" }
 
 Eine Liste ist nur für Sie sichtbar. Wenn Sie eine Frage zu einer Liste hinzufügen, wird diese nur referenziert und nicht kopiert. Änderungen an Fragen, die Sie in einer Liste vornehmen, werden dementsprechend auch im Original unter "Meine Fragen" vorgenommen. Ihre Liste finden Sie im Anschluss links im Menü unterhalb von "Meine Favoriten".
 
-![question_bank_use_questions_list2_v1_de.png](assets/question_bank_use_questions_list2_v1_de.png){ class="shadow lightbox" }
+![Eigene Liste OpenOlat-Training 1 markiert unter Mein Fragenpool unterhalb von Meine Favoriten, rechts die zwei Fragen der Liste. Fragenpool.](assets/question_bank_use_questions_list2_v1_de.png){ class="shadow lightbox" }
 
 Ist eine Liste geöffnet, erlaubt diese Schaltfläche die entsprechende Liste zu löschen oder umzubenennen. Items werden nicht separat auf Listen gespeichert. Wenn Sie Items von Listen entfernen, werden diese Items nicht aus der Datenbank gelöscht.
 
@@ -43,7 +43,7 @@ Markierte Fragen können Sie in verschiedene Formate exportieren. Folgende Mögl
 
 Vorab markierte Items können mit dieser Funktion zu Gruppen oder Pools hinzugefügt werden, auf die andere Benutzer:innen Zugriff haben.
 
-![question_bank_use_questions_share1_v1_de.png](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü des Buttons Freigeben mit In Pool freigeben und In Gruppe freigeben. Aktionsleiste unter der Fragenliste.](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" }
 
 **in Gruppe freigeben**
 
@@ -51,13 +51,13 @@ Gruppenmitglieder der von Ihnen ausgewählten Gruppen erhalten dadurch Zugriff a
 
 Wurden ein oder mehrere Fragen für eine oder mehrere Gruppen freigegeben, so erscheinen die Gruppennamen im Fragenpool-Menü unter "Freigaben".
 
-![question_bank_use_questions_share_in_group_v1_de.png](assets/question_bank_use_questions_share_in_group_v1_de.png){ class="shadow lightbox" }
+![Bereich Freigaben markiert mit zwei Pools und der Gruppe Study group 2, für die Fragen freigegeben sind. Fragenpool.](assets/question_bank_use_questions_share_in_group_v1_de.png){ class="shadow lightbox" }
 
 **in Pool freigeben**
 
 Bei Freigabe in einen Pool haben alle Benutzer:innen Zugriff auf die freigegebenen Fragen, die auch auf diesen Fragenpool Zugriff haben. 
 
-!!! tip "Hinweis"
+!!! info "Wichtig"
 
     Beachten Sie, dass auch bei der Freigabe in einen Pool oder für eine Gruppe die jeweiligen Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool besitzen müssen. Beispielsweise besitzen normale Benutzer:innen standardmässig nicht das Zugriffsrecht auf die Fragenpools.
 
@@ -65,7 +65,7 @@ Bei Freigabe in einen Pool haben alle Benutzer:innen Zugriff auf die freigegeben
 
 Bei der Freigabe kann definiert werden, ob die Frage am neuen Ort bearbeitet werden darf oder nicht.
 
-!!! tip "Hinweis"
+!!! tip "Tipp"
 
     Items, die in der Gruppe oder dem Pool nicht bearbeitet werden dürfen, können bearbeitet werden, sobald Sie in "Meine Fragen" kopiert wurden.
 
@@ -74,7 +74,7 @@ Bei der Freigabe kann definiert werden, ob die Frage am neuen Ort bearbeitet wer
 
 ## Kopieren {: #copy}
 
-Kopieren Sie Items aus Pools um eine Kopie in ihrer Fragendatenbank unter "Meine Fragen" zu erstellen. Kopierte Fragen haben den Zusatz "(Copy)". 
+Kopieren Sie Items aus Pools, um eine Kopie in Ihrer Fragendatenbank unter "Meine Fragen" zu erstellen. Kopierte Fragen haben den Zusatz "(Copy)". 
 
 Die Kopie von Fragen, welche in Listen oder Freigaben erstellt wird, kann zusätzlich zu "Meine Fragen" auch unter der jeweiligen Liste oder Freigabe abgespeichert werden.
 
@@ -116,27 +116,33 @@ Metainformationen zu Fragen können hier oder in der [Detailansicht](Item_Detail
 
 Mit dem Button "Metadaten ändern" können einzelne Informationen bei mehreren Items gleichzeitig angepasst werden, ohne die Detailansicht der Fragen zu öffnen. So gemachte Änderungen können hier aber nicht mehr rückgängig gemacht werden. 
 
-![question_bank_use_questions_metadata1_v1_de.png](assets/question_bank_use_questions_metadata1_v1_de.png){ class="shadow lightbox" }
+![Dialog Metadaten ändern für 2 ausgewählte Fragen mit einer Checkbox je Metadatum in den Bereichen Allgemein, Itemanalyse und Rechte.](assets/question_bank_use_questions_metadata1_v1_de.png){ class="shadow lightbox" }
 
 Für weitere Anpassungen muss jede Frage einzeln aufgerufen werden. 
 
 Klicken Sie auf das "+"-Icon zu Beginn einer Zeile der Fragenliste. Es öffnet sich die Vorschau dieses Items und das Menü zu den Metadaten dieser Frage.
 
-![question_bank_use_questions_metadata2_v1_de.png](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" }
+![Über das Plus-Icon aufgeklappte Zeile mit der Vorschau der Frage Zugangswege und rechts den Metadatenbereichen. Fragenliste im Fragenpool.](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" }
 
 Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Detailansicht einer Frage - Metadaten](Item_Detailed_View.de.md#metadata).
 
 [Zum Seitenanfang ^](#using_the_questions)
 
 
-## Weitere Informationen {: #further_info}
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Tests erstellen >](../learningresources/Test.de.md)<br>
+[Fragenpool: Administration >](Question_Bank_Administration.de.md)<br>
+[Von QTI 1.2 zu QTI 2.1 >](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md)<br>
+[Detailansicht einer Frage >](Item_Detailed_View.de.md)
+
+**Weiterführend**<br>
 [Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br> 
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#using_the_questions)
 

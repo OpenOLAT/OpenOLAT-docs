@@ -206,7 +206,7 @@ Das berechnete Datum wird als Vorschau angezeigt, solange ein Durchführungszeit
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>

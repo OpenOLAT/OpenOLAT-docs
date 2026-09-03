@@ -26,7 +26,7 @@ The "Role" column in the "Memberships" sheet uses the following fixed values:
 
 The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF", and (for elements and implementations) "DEFAULT".
 
-[Back to top ^](#import_export_reference)
+[To the top of the page ^](#import_export_reference)
 
 ---
 
@@ -72,7 +72,7 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 | W5 | \<Column header\>: \<value\> does not exist. Change will not be applied |
 | W7 | \<Column header\>: \<value\> has changed. Change will not be applied |
 
-[Back to top ^](#import_export_reference)
+[To the top of the page ^](#import_export_reference)
 
 ---
 
@@ -104,6 +104,7 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 | Unit | Yes for EVENT | Yes | E2, E6, change is detected |
 | REF - Reference | Yes for EVENT with course | No | E2, E5, E4 |
 | Location | No | Yes | W2, change is detected |
+| Rooms (EVENT only) [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} | No | Yes | E4 (on creation), W5 (on update), change is detected |
 | ELEM Type - Reference | Yes for IMPL/ELEM | No | E2, E3, E4 |
 | Calendar / Absences / Progress | Yes for IMPL/ELEM/TMPL/COURSE | Yes | E2, E6, W1, change is detected |
 | Subjects | No | Yes | E4 (on creation), W5 (on update), change is detected |
@@ -145,7 +146,7 @@ Memberships can only be newly created, not updated.
 
 Users can only be newly created, not updated.
 
-[Back to top ^](#import_export_reference)
+[To the top of the page ^](#import_export_reference)
 
 ---
 
@@ -153,4 +154,4 @@ Users can only be newly created, not updated.
 
 [Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
 
-[Back to top ^](#import_export_reference)
+[To the top of the page ^](#import_export_reference)

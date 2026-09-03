@@ -9,19 +9,16 @@ The "Room management" area in the Course Planner gives you a read-only overview 
 
 ---
 
-## Who has access? {: #access_roles}
+## Who has access? [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9721)" }](https://track.frentix.com/issue/OO-9721){:target="_blank"} {: #access_roles}
 
 Room management in the Course Planner is available to the following roles:
 
 * Administrator
 * Course planner
-* Product owner
-* Principal
-* Element owner
 
-Course owner, Master coach, Coach and Participant do not see Room management. Their role relates to running the course, not to its organisational planning.
+Product owner, Element owner and Principal do not see the area. Course owner, Master coach, Coach and Participant do not see Room management either. Their role relates to running the course, not to its organisational planning.
 
-The view is read-only for all roles listed: creating, editing or deleting rooms and buildings is not possible in the Course Planner, not even for administrators. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner.md#rights_matrix) of the Course Planner.
+The view is read-only for both roles: creating, editing or deleting rooms and buildings is not possible in the Course Planner, not even for administrators. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner.md#rights_matrix) of the Course Planner.
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -95,7 +92,8 @@ For each room you see, among other things, the building, the "Occupancy rate" (u
 ## Further information {: #further_information}
 
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
-[Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_planner_rooms)

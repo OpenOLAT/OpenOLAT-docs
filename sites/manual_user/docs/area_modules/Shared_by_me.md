@@ -1,9 +1,7 @@
 # Shared by me
 
-In this section **"Go to my shares"**, you can see all the binders you have shared, regardless of your role, the type of the binder or if the binder is shared completely or partially to comment on or grade it.
+In the area **"Go to my shares"**, all binders appear that the respective user has shared. It does not matter which role the person has in OpenOlat, what type of binder it is and whether the entire binder or only parts of the binder have been shared for commenting or grading.
 
-This overview shows at a glance who can access which Portfolio resources. From here it is possible to access the binders with the usual settings. Access modifications can easily be made by clicking on a binder and changing the specific settings under "Access control".
+This area gives you a quick overview of who can access which of your own portfolio resources. From here it is also possible to open the respective binders with all the usual settings. Changes to the sharing can thus be made quickly by clicking on the respective binder and changing the settings in the "Access control" area.
 
-  ![shared_by_me.png](assets/go_to_my_shares.png)
-
-
+![Link Go to my shares in the Opened sections area of the portfolio overview, the tooltip describes it as a list of all entries shared with other people](assets/go_to_my_shares.png){ class="shadow lightbox" }

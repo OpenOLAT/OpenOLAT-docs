@@ -7,20 +7,20 @@
 !!! info "Zusammenfassung"
 
     Bei einer Datenerhebung wird
-    
+
     * ein bestimmter **Personenkreis**
     * in einem bestimmten **Zeitfenster**
     * zu einem bestimmten **Thema**
     * mit einem bestimmten **Formular** befragt.
 
 
-* Um Rückmeldung zur Qualität von Unterricht, Kursen, Dozierenden u.a. zu erhalten, wird ein Fragebogen (Formular-Lernressource) einem bestimmten Personenkreis zum Ausfüllen vorgelegt.  
+* Um Rückmeldung zur Qualität von Unterricht, Kursen, Dozierenden u.a. zu erhalten, wird ein Fragebogen (Formular-Lernressource) einem bestimmten Personenkreis zum Ausfüllen vorgelegt.
 * Zum festgelegten Zeitpunkt werden dann E-Mails mit einem Link auf die Formular-Lernressource verschickt.
 * Die Eingaben der Teilnehmer:innen werden vom Modul "Qualitätsmanagement" ausgewertet, z.B. auch über verschiedene Kurse hinweg.
 * Am Ende wird ein Report erzeugt, auf den ein bestimmbarer Personenkreis Zugriff erhält.
 * Die Datenerhebungen werden im Modul "Qualitätsmanagement" erstellt.
 
-![quality_management_scheme_data_collection_v1_de.png](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
+![Eine Formular-Lernressource wird in zwei Datenerhebungen mit je eigenem Personenkreis und Abgabetermin verwendet](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
 
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collections)
@@ -32,27 +32,27 @@
 
 Bei entsprechender Berechtigung (Rolle) erscheint in Ihrer Hauptnavigation das **Qualitätsmanagement**. Klicken Sie auf den Link im Abschnitt **"Datenerhebungen"**.
 
-![quality_management_data_collection_v1_de.png](assets/quality_management_data_collection_v1_de.png){ class="shadow lightbox" }
+![Abschnitt Datenerhebungen und Eintrag Qualitätsmanagement im Menü Mehr markiert, Startseite des Qualitätsmanagements](assets/quality_management_data_collection_v1_de.png){ class="shadow lightbox" }
 
 Erstellen Sie dort eine neue Datenerhebung.
 
-![quality_management_data_collection_create_v1_de.png](assets/quality_management_data_collection_create_v1_de.png){ class="shadow lightbox" }
+![Button Datenerhebung erstellen markiert, über der leeren Liste der Datenerhebungen mit den Statusfiltern Alle bis Abgeschlossen](assets/quality_management_data_collection_create_v1_de.png){ class="shadow lightbox" }
 
 Als Erstes werden Sie aufgefordert, eine Formular-Lernressource zu bestimmen.
 Wählen Sie eine bereits vorhandene oder erstellen Sie eine neue.
 
-![quality_management_data_collection_select_form_v1_de.png](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
+![Dialog Formular auswählen mit einer veröffentlichten Formular-Lernressource zur Auswahl und den Buttons Erstellen und Importieren](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
 
 Die Eigenschaften und Funktionsweise der Datenerhebung wird in 5 Tabs definiert. Zum festgelegten Zeitpunkt werden E-Mails mit einem Link zum Formular an die hier festgelegten Teilnehmer:innen geschickt. Am Ende wird ein Report erzeugt, auf den die im Tab "Berechtigungen Report" genannten Personen Zugriff bekommen.
 (Sobald ein Report vorhanden ist, wird ein weiterer Tab "Report" angezeigt.)
 
-![quality_management_data_collection_config_v1_de.png](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
+![Tab Konfiguration einer Datenerhebung mit Titel, Zeitraum Von und Bis, verknüpftem Formular, Organisationen und Gegenstandsart, darüber die fünf Tabs und der Status Vorbereitung](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
 
 
 
 ### Tab "Konfiguration" {: #tab_config}
 
-Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das hier ausgewählte Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich. 
+Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das hier ausgewählte Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
 Nach Ende der Abgabefrist steht der Report allen Personen zur Verfügung, die im Tab "Berechtigungen Report" aufgelistet sind.
 
@@ -61,11 +61,11 @@ Nach Ende der Abgabefrist steht der Report allen Personen zur Verfügung, die im
 
 In diesem Tab wird die Gruppe der befragten Personen definiert, bzw. wer die Aufforderung zur Teilnahme mit dem Link zum Formular per Mail erhält.
 
-Unter dem Button "Teilnehmer:innen hinzufügen" können Personengruppen gesucht oder übernommen werden. Auch eine Einladung via Mail-Liste ist möglich. 
+Unter dem Button "Teilnehmer:innen hinzufügen" können Personengruppen gesucht oder übernommen werden. Auch eine Einladung via Mail-Liste ist möglich.
 
-Durch Aktivierung des Toggle-Buttons "Zugang über öffentlichen Link" kann ein Link generiert werden. Jeder der diesen Link benutzt, kann dann an der Datenerhebung teilnehmen ohne als OpenOlat-Benutzer:in registriert zu sein. 
+Durch Aktivierung des Toggle-Buttons "Zugang über öffentlichen Link" kann ein Link generiert werden. Jede Person, die diesen Link benutzt, kann dann an der Datenerhebung teilnehmen ohne als OpenOlat-Benutzer:in registriert zu sein.
 
-![quality_management_data_collection_config_tab_participants_v1_de.png](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
+![Schalter Zugang über öffentlichen Link und Menü Teilnehmer:innen hinzufügen mit vier Quellen von Benutzer:in suchen bis E-Mail-Einladung markiert, Tab Teilnehmer:innen einer Datenerhebung](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
 
 
 ### Tab "Erinnerungen" {: #tab_reminders}
@@ -77,38 +77,38 @@ Die Einladung ist eine E-Mail an die Teilnehmer:innen mit dem Link zum Formular.
 
 ### Tab "Massnahmen To-dos" {: #tab_action_to_dos}
 
-Auf die Ergebnisse von Datenerhebungen oder einer bestimmten Teilnehmerbefragung kann direkt mit entsprechenden Massnahmen reagiert werden. Notwendige To-dos können kontextbezogen angelegt und direkt an die betreffenden Personen delegiert werden. Sie werden per E-Mail über ein neues To-do informiert. Alle To-dos stehen im neuen Bereich ["Massnahmen (To-dos")](Quality_Management_To-dos.de.md) zur Verfügung.
+Auf die Ergebnisse von Datenerhebungen oder einer bestimmten Teilnehmerbefragung kann direkt mit entsprechenden Massnahmen reagiert werden. Notwendige To-dos können kontextbezogen angelegt und direkt an die betreffenden Personen delegiert werden. Sie werden per E-Mail über ein neues To-do informiert. Alle To-dos stehen im Bereich ["Massnahmen (To-dos)"](Quality_Management_To-dos.de.md) zur Verfügung.
 
 
 ### Tab "Berechtigungen Report" {: #tab_permission_report}
 
-Ist eine Datenerhebung abgeschlossen, kann von den aufgelisteten Personen auf die Reports zugegriffen werden. 
+Ist eine Datenerhebung abgeschlossen, kann von den aufgelisteten Personen auf die Reports zugegriffen werden.
 Im Tab "Berechtigungen Report" kann bestimmt werden,<br>
 a) wer welche Reports sehen darf<br>
 b) und ob/wie darüber informiert wird.
 
-![quality_management_data_collection_tab_permission_report_v1_de.png](assets/quality_management_data_collection_tab_permission_report_v1_de.png){ class="shadow lightbox" }
+![Rollentabelle mit den Spalten Online-Zugriff, Massnahmen To-Do, E-Mail nach Abschluss und E-Mail bei qualitativem Feedback, darunter Abschnitt Einzelne Benutzer:innen, Tab Berechtigungen Report](assets/quality_management_data_collection_tab_permission_report_v1_de.png){ class="shadow lightbox" }
 
 
-* Spalte **Online-Zugriff:**<br>Die in der 1. Spalte genannten Empfänger können online auf Reports zugreifen.
-* Spalte **E-Mail nach Abschluss:**<br> Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde.
-* Spalte **E-Mail bei qualitativem Feedback:**<br> Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde und im Formular **Textfelder** ausgefüllt wurden oder eine Datei von den Befragten hochgeladen wurde.
-* Abschnitt **Einzelne Benutzer*innen:**<br>Es kann auch frei bestimmbaren Benutzer:innen Zugriff gewährt werden, die nicht aufgrund einer Rolle Zugriff haben.
+* Spalte **Online-Zugriff:**<br>Die in der 1. Spalte genannten Empfänger:innen können online auf Reports zugreifen.
+* Spalte **E-Mail nach Abschluss:**<br> Die in der 1. Spalte genannten Empfänger:innen erhalten eine E-Mail, sobald ein Report erzeugt wurde.
+* Spalte **E-Mail bei qualitativem Feedback:**<br> Die in der 1. Spalte genannten Empfänger:innen erhalten eine E-Mail, sobald ein Report erzeugt wurde und im Formular **Textfelder** ausgefüllt wurden oder eine Datei von den Befragten hochgeladen wurde.
+* Abschnitt **Einzelne Benutzer:innen:**<br>Es kann auch frei bestimmbaren Benutzer:innen Zugriff gewährt werden, die nicht aufgrund einer Rolle Zugriff haben.
 
 
 Qualitätsmanager:innen haben auch schon vor Abschluss Zugriff auf den aktuellen Status der Datenerhebung.
 
 **Bedingungen einer E-Mail-Benachrichtigung**<br>
 Die Berechnung, in welchen Fällen eine E-Mail ausgelöst werden soll, erfolgt auf Basis der verwendeten Rubrik-Elemente im Formular.<br>
-Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechnet. Dieser Durchschnitt wird dann anhand der Wertebereiche (Skala) in der Konfiguration des Rubriks in eine Klassierung umgewandet (ungenügend, neutral, gut). Wenn der Durchschnitt nicht innerhalb eines Wertebereiches liegt (z.B. weil diese gar nicht definiert sind), wird die Klassierung “ohne” ausgegeben.
+Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechnet. Dieser Durchschnitt wird dann anhand der Wertebereiche (Skala) in der Konfiguration der Rubrik in eine Klassierung umgewandelt (ungenügend, neutral, gut). Wenn der Durchschnitt nicht innerhalb eines Wertebereiches liegt (z.B. weil diese gar nicht definiert sind), wird die Klassierung "ohne" ausgegeben.
 
 **Beispiel:**
 
-- Das Formular enthält 6 Rubriks.<br>
-- Bei den ersten beiden Rubriks sind keine Wertebereiche definiert, es wird also immer die Klassierung "ohne" ausgegeben.<br>
+- Das Formular enthält 6 Rubriken.<br>
+- Bei den ersten beiden Rubriken sind keine Wertebereiche definiert, es wird also immer die Klassierung "ohne" ausgegeben.<br>
 - Für die anderen 4 werden Durchschnitte und Klassierungen ermittelt.
-- Das E-Mail wird bei der Einstellung "ungenügend" versendet, wenn für mindestens einen der Rubriks die Klassierung "ungenügend" berechnet wurde.
-- Das E-Mail wird bei der Einstellung "ungenügend oder neutral" versendet, wenn für mindestens einen der Rubriks die Klassierung "ungenügend" oder "neutral" berechnet wurde.
+- Das E-Mail wird bei der Einstellung "ungenügend" versendet, wenn für mindestens eine der Rubriken die Klassierung "ungenügend" berechnet wurde.
+- Das E-Mail wird bei der Einstellung "ungenügend oder neutral" versendet, wenn für mindestens eine der Rubriken die Klassierung "ungenügend" oder "neutral" berechnet wurde.
 - Wenn im vorliegenden Fall der Versand des E-Mail "ungenügend" konfiguriert ist, reicht es also, wenn eine der Fragen 3-6 im Durchschnitt als ungenügend klassiert wurde, um das E-Mail auszulösen.
 
 
@@ -116,7 +116,7 @@ Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechne
 
 Dieser Tab wird erst sichtbar, wenn ein Report vorhanden ist.
 
-![quality_management_data_collection_report_v1_de.png](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
+![Kennzahlen einer abgeschlossenen Datenerhebung von Titel bis Bearbeitungsdauer, darüber die Buttons Drucken, Export PDF und Export Excel und vier Unter-Tabs, Tab Report](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
@@ -124,13 +124,13 @@ Dieser Tab wird erst sichtbar, wenn ein Report vorhanden ist.
 
 ### Empfohlene Formulare {: #recommended_forms}
 
-Für Umfragen im Rahmen des Qualitätsmanagements werden in OpenOlat erstellte **Formular-Lernressourcen** verwendet. Sie können im Content-Editor erstellt werden und enthalten idealerweise **Rubrik-Fragen**. Diese können nach einer Datenerhebung am besten ausgewertet werden. Es sind zwar z.B. auch Freitext-Felder möglich, doch dieser Fragetyp kann nicht automatisch ausgewertet werden. Es empfiehlt sich also in der Regel ein Formular mit mehreren Rubrik-Elementen und ergänzend ein oder zwei Freitext-Felder, in denen die Befragten ergänzende Kommentare selbst formulieren können.
+Für Umfragen im Rahmen des Qualitätsmanagements werden in OpenOlat erstellte **Formular-Lernressourcen** verwendet. Sie können im Content Editor erstellt werden und enthalten idealerweise **Rubrik-Fragen**. Diese können nach einer Datenerhebung am besten ausgewertet werden. Es sind zwar z.B. auch Freitext-Felder möglich, doch dieser Fragetyp kann nicht automatisch ausgewertet werden. Es empfiehlt sich also in der Regel ein Formular mit mehreren Rubrik-Elementen und ergänzend ein oder zwei Freitext-Felder, in denen die Befragten ergänzende Kommentare selbst formulieren können.
 
 Mehr Informationen über die Erstellung geeigneter Formulare für das Qualitätsmanagement finden Sie hier:
 
-[Qualitätsmanagement: Umfragen >](../../manual_user/area_modules/Quality_Management_Surveys.de.md)<br>
-[Was sollte ein Qualitätsmanagements-Formular enthalten? >](../../manual_user/area_modules/Quality_Management_Surveys.de.md#was-sollte-ein-qualitatsmanagements-formular-enthalten)<br>
-[Formular als Rubrik Bewertung in einem Kurs >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
+[Qualitätsmanagement: Umfragen >](Quality_Management_Surveys.de.md)<br>
+[Was sollte ein Qualitätsmanagements-Formular enthalten? >](Quality_Management_Surveys.de.md#was-sollte-ein-qualitatsmanagements-formular-enthalten)<br>
+[Formular als Rubrik Bewertung in einem Kurs >](../learningresources/Forms_in_Rubric_Scoring.de.md)
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
@@ -139,7 +139,7 @@ Mehr Informationen über die Erstellung geeigneter Formulare für das Qualitäts
 
 ## Datenerhebung ausführen {: #execute_data_collection}
 
-Die Durchführung wird automatisch angestossen. Sobald das definierte Zeitfenster beginnt (Tab "Konfiguration"), können die befragten Personen das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich. 
+Die Durchführung wird automatisch angestossen. Sobald das definierte Zeitfenster beginnt (Tab "Konfiguration"), können die befragten Personen das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
@@ -148,9 +148,9 @@ Die Durchführung wird automatisch angestossen. Sobald das definierte Zeitfenste
 
 ## Datenerhebung abschliessen {: #complete_data_collection}
 
-Eine Datenerhebung schliesst sich selbst ab, wenn das vorgegebene Zeitfenster abgelaufen ist. 
+Eine Datenerhebung schliesst sich selbst ab, wenn das vorgegebene Zeitfenster abgelaufen ist.
 
-![quality_management_closed_v1_de.png](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
+![Status Abgeschlossen und der Pfad Qualitätsmanagement, Datenerhebungen in der Brotkrumen-Navigation markiert, Konfiguration einer Datenerhebung](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
 
 Wurde eine Datenerhebung beendet, kann sie nicht mehr in den Status "Durchführung" zurückversetzt werden.
 
@@ -161,8 +161,18 @@ Die Bearbeitung einer abgeschlossenen Datenerhebung ist nur noch möglich in den
 
 Es besteht die Möglichkeit, den Abschluss einer laufenden Datenerhebung auch manuell zu erzwingen (ohne den Ablauf des vorgegebenen Zeitfensters abzuwarten). Klicken Sie dazu auf den Button zum Wechsel des Status.
 
-![quality_management_data_collection_close_manually_v1_de.png](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
+![Status-Button Durchführung mit Pfeil zum Wechsel des Status markiert, Konfiguration einer laufenden Datenerhebung](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Qualitätsmanagement: Massnahmen (To-dos) >](Quality_Management_To-dos.de.md)<br>
+[Qualitätsmanagement: Umfragen >](Quality_Management_Surveys.de.md)<br>
+[Formular als Rubrik Bewertung >](../learningresources/Forms_in_Rubric_Scoring.de.md)
+
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)

@@ -1,9 +1,9 @@
 # Qualitätsmanagement: Umfragen {: #Quality_Management_Surveys}
 
 
-## Womit werden Umfragen erstellt? 
+## Womit werden Umfragen erstellt?
 
-Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource** verwendet, die statt in einen Kursbaustein (KB Formular, KB Umfrage, KB Bewertung) **direkt im Modul Qualitätsmanagement** eingebunden wird. Von dort wird zum konfigurierten Zeitpunkt ein **Link** an die ebenfalls im Modul definierte Zielgruppe verschickt, unter dem die Empfänger die Fragen vorfinden.
+Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource** verwendet, die statt in einen Kursbaustein (Kursbaustein Formular, Kursbaustein Umfrage, Kursbaustein Bewertung) **direkt im Modul Qualitätsmanagement** eingebunden wird. Von dort wird zum konfigurierten Zeitpunkt ein **Link** an die ebenfalls im Modul definierte Zielgruppe verschickt, unter dem die Empfänger:innen die Fragen vorfinden.
 
 
 !!! note "Hinweis"
@@ -12,7 +12,7 @@ Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource
 
     * **Lernressource "Formular"** (entspricht einem Blatt Papier mit Fragen)
     * **[Kursbaustein "Formular"](../learningresources/Course_Element_Form.de.md)**<br>
-    In diesen Kursbaustein wird eine Formular-Lernressource eingebunden. 
+    In diesen Kursbaustein wird eine Formular-Lernressource eingebunden.
     * **[Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)**<br>
     Auch in diesen Kursbaustein wird eine Formular-Lernressource eingebunden. Im Unterschied zum Kursbaustein "Formular" können die Eintragungen der Teilnehmer:innen in die Formular-Lernressource jedoch anonym gemacht werden. Ausserdem wird ein Report mit Statistiken erzeugt.
 
@@ -22,7 +22,7 @@ Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource
 
 Die Formular-Lernressourcen für das Qualitätsmanagement werden **[im Autorenbereich](../area_modules/Authoring.de.md)** erstellt, wie alle anderen Lernressourcen auch.
 
-Auch bei der Erstellung einer Datenerhebung oder eines Datenerhebungsgenerators besteht die Möglichkeit, in den Autorenbereich zu wechseln und dort eine Formular-Lernressource zu erstellen. 
+Auch bei der Erstellung einer Datenerhebung oder eines Datenerhebungsgenerators besteht die Möglichkeit, in den Autorenbereich zu wechseln und dort eine Formular-Lernressource zu erstellen.
 
 
 
@@ -33,8 +33,8 @@ Die Erstellung von Formular-Lernressourcen für das Qualitätsmanagement ist **n
 Alle Autor:innen können Formular-Lernressourcen erstellen, die dann für das Qualitätsmanagement verwendet werden können.
 
 Die Qualitätsmanager:innen werden zwar oft ihre Fragen zur Qualitätskontrolle selbst formulieren (d.h. die Lernressource selbst erstellen), aber sie können auch bereits vorhandene Formular-Lernressourcen anderer Autor:innen in ihre Datenerhebungen einbinden.<br>
-Umgekehrt sind die selbst zur Qualitätskontrolle erstellten Lernressourcen für alle anderen Autor:innen sichtbar. Rechte zur Bearbeitung müssen müssen aber von Besitzer:innen einer Lernressource explizit gewährt werden.<br> 
-(Lernressource im Autorenbereich auswählen > Administration > Einstellungen > Tab Freigabe > Optionen unter "Autor:innen können ...") 
+Umgekehrt sind die selbst zur Qualitätskontrolle erstellten Lernressourcen für alle anderen Autor:innen sichtbar. Rechte zur Bearbeitung müssen aber von Besitzer:innen einer Lernressource explizit gewährt werden:<br>
+`Lernressource > Administration > Einstellungen > Tab "Freigabe" > Optionen unter "Autor:innen können ..."`
 
 
 ## Was sollte ein Qualitätsmanagements-Formular enthalten?
@@ -43,7 +43,7 @@ Lernressourcen vom Typ "Formular" werden im Autorenbereich mit dem [Content Edit
 
 Häufig wird ein Rubrik-Element mit einer Likertskala verwendet. Mit Feldern für Freitext-Eingaben können persönliche Kommentare ermöglicht werden. Wenn keine Felder zur Angabe des Namens angelegt werden, bleibt die Umfrage anonym.
 
-![quality_management_rubric_v1_de.png](assets/quality_management_rubric_v1_de.png){ class="shadow lightbox" }
+![Rubrik-Element mit fünfstufiger Skala von gar nicht bis sehr gut und einer Frage zur Unterrichtsvorbereitung, rechts der Inspector Rubrik mit den Tabs Generell und Erweitert, Formular-Editor](assets/quality_management_rubric_v1_de.png){ class="shadow lightbox" }
 
 Wenn ein Formular für Befragungen im Rahmen des Qualitätsmanagements verwendet wird, ist ein einheitliches Formular für alle Teilnehmer:innen und Kurse erforderlich. Die enthaltenen Fragen sollten dem entsprechend allgemein formuliert sein und dem jeweiligen Verwendungszweck angepasst sein, z.B.
 
@@ -58,8 +58,16 @@ Es kommen also relativ wenige Standardfragebogen zum Einsatz, und ein Fragebogen
 
 ## Änderung von Formularen für das Qualitätsmanagement
 
-Einmal verwendete Formular-Lernressourcen können nur noch minimal bearbeitet werden. Abänderungen würden das Ergebnis verfälschen, weil dadurch die neu Befragten andere Fragen beantworten würden als vor der Änderung Befragte. 
+Einmal verwendete Formular-Lernressourcen können nur noch minimal bearbeitet werden. Abänderungen würden das Ergebnis verfälschen, weil dadurch die neu Befragten andere Fragen beantworten würden als vor der Änderung Befragte.
 
 Soll mit neuen Formular-Lernressourcen gearbeitet werden, kann die bisherige Lernressource im Autorenbereich kopiert und die Kopie abgeändert werden. Anschliessend sollte die Formular-Lernressource für die weiteren Datenerhebungen zu einem günstigen Stichtag ausgetauscht werden.
 
 
+## Weiterführende Informationen {: #further_information}
+
+[Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
+[Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Der Formular-Editor >](../learningresources/Form_Editor.de.md)
+
+[Zum Seitenanfang ^](#Quality_Management_Surveys)

@@ -3,12 +3,12 @@
 Wenn Sie eine Frage im Fragenpool auswählen, befinden Sie sich in ihrer Detailansicht und direkt im Editor der Frage.
 Sie können dort die Frage bearbeiten, sowie weitere Konfigurationen vornehmen, z.B. Metadaten zuordnen.
 
-![question_details_v1_de.png](assets/question_details_v1_de.png){ class="shadow lightbox" }
+![Detailansicht einer Frage mit Toolbar, dem Frage-Editor mit den Tabs Auswahl, Punkte, Feedback und Vorschau, rechts die eingeklappten Metadatenbereiche, unten Bewertung und Kommentare. Fragenpool.](assets/question_details_v1_de.png){ class="shadow lightbox" }
 
 
 ## Toolbar {: #toolbar}
 
-![question_details_toolbar1_v1_de.png](assets/question_details_toolbar1_v1_de.png){ class="shadow lightbox" }
+![Markierte Toolbar mit den Menüs Frage, Freigeben und Status Final, rechts die Navigation Vorherige und Nächste sowie der Schalter Metadaten. Detailansicht einer Frage.](assets/question_details_toolbar1_v1_de.png){ class="shadow lightbox" }
 
 In der Toolbar können Sie über das Menü "**Frage**" die ausgewählte Frage kopieren oder löschen.
 
@@ -39,11 +39,11 @@ Insgesamt stehen im Fragenpool mehr als 20 Metadatenfelder gemäss den [Learning
 
 Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben angezeigt werden.
 
-![question_details_metadata_v1_de.png](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
+![Schalter Metadaten rechts oben markiert, ein Pfeil zeigt auf die eingeblendeten Metadatenbereiche rechts neben dem Editor. Detailansicht einer Frage.](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Info"
+!!! info "Wichtig"
 
-    Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert, wird zusätzlich die Option ["Bewertung"](#metadata_ratings) angzeigt.
+    Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert, wird zusätzlich die Option ["Bewertungen"](#metadata_ratings) angezeigt.
 
 
 
@@ -52,7 +52,7 @@ Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben
 
 ### Metadaten bearbeiten {: #metadata_edit}
 
-Sofern der Beurteilungsprozess aktiviert ist, können die Metadaten im Status "Draft" und "In Revision" bearbeitet werden. Benutzer:innen mit "Verwalten"-Recht, Poolmanager:innen oder Systemadministrator:innen können die Metadaten zudem im Status "Review" und "Final" bearbeiten.
+Sofern der Beurteilungsprozess aktiviert ist, können die Metadaten im Status "Draft" und "In Revision" bearbeitet werden. Benutzer:innen mit "Verwalten"-Recht, Poolverwalter:innen oder Systemadministrator:innen können die Metadaten zudem im Status "Review" und "Final" bearbeiten.
 
 Bearbeitbar sind die Metadaten unter den Punkten **Allgemein**, **Itemanalyse**, **Rechte** und **Technik**. Bitte beachten Sie jedoch, dass insbesondere Änderungen unter Itemanalyse nur mit diesbezüglichen Vorkenntnissen vorgenommen werden sollten.
 Die Eingaben müssen anschliessend noch mit "OK" gespeichert werden.
@@ -62,15 +62,15 @@ Die Eingaben müssen anschliessend noch mit "OK" gespeichert werden.
 
 ### Allgemein {: #metadata_general}
 
-![question_details_general_v1_de.png](assets/question_details_general_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Allgemein mit den Feldern Thema, Fachbereich mit Taxonomiepfad, Stufe, Schlagworte, Zusatzinformationen, Abdeckung, Sprache und Testart. Metadaten einer Frage.](assets/question_details_general_v1_de.png){ class="aside-right lightbox"}
 
 Dieser Einstellungsbereich enthält Informationen zur Kategorisierung der Frage. 
 
 Das **Thema** kann frei formuliert werden und sich am Inhalt der Frage orientieren.
 
-Der **Fachbereich** bezieht sich auf die für den Fragenpool hinterlegte Taxonomie. Die angebotene Auswahl sollte die Bereiche Ihrer Institution abdecken. Sie können hier aus denjenigen Fachbereichen auswählen, die Ihnen zugeordnet worden sind. Nehmen Sie deshalb Kontakt mit Ihrem Poolverwalter oder Administrator auf, falls Fachbereiche fehlen.
+Der **Fachbereich** bezieht sich auf die für den Fragenpool hinterlegte Taxonomie. Die angebotene Auswahl sollte die Bereiche Ihrer Institution abdecken. Sie können hier aus denjenigen Fachbereichen auswählen, die Ihnen zugeordnet worden sind. Nehmen Sie deshalb Kontakt mit Ihrer Poolverwalter:in oder Administrator:in auf, falls Fachbereiche fehlen.
 
-Unter "**Stufe**" kann beispielsweise eine Schul- oder Hochschulstufe ausgewählt werden. Hier bieten sich auch Kompetenzstufen oder Schwierigkeitsgrade an. Auch diese wurden zuvor durch den Administrator definiert.
+Unter "**Stufe**" kann beispielsweise eine Schul- oder Hochschulstufe ausgewählt werden. Hier bieten sich auch Kompetenzstufen oder Schwierigkeitsgrade an. Auch diese werden zuvor durch die Poolverwalter:innen definiert.
 
 **Schlagworte** können frei vergeben werden. Sie sind im Unterschied zum Fachbereich nicht an eine Taxonomie gekoppelt.
 
@@ -88,13 +88,13 @@ Bei der **Testart** können Sie auswählen, ob die Frage für einen summativen (
 
 ### Itemanalyse {: #metadata_item_analysis}
 
-![question_details_item_analysis_v1_de.png](assets/question_details_item_analysis_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Itemanalyse mit Typ, Bearbeitungszeit, Itemschwierigkeit, Standardabweichung, Trennschärfe, Distraktoren, Verwendung in Tests und Korrekturzeit. Metadaten einer Frage.](assets/question_details_item_analysis_v1_de.png){ class="aside-right lightbox"}
 
 Enthält Informationen zur Itemanalyse und der Verwendung in Tests. 
 
 Die Itemanalyse ist ein Satz an (statistischen) Verfahren, mit dem einzelne Fragen im Hinblick auf ihre Eignung zur Wissensmessung respektive Wissensabfrage des Untersuchungszieles bewertet und beurteilt werden. Typische Kennwerte sind die Itemschwierigkeit und die Trennschärfe.
 
-Geben Sie an, mit welchen _**durchschnittlichen Bearbeitungszeit**_ Sie für die Bearbeitung der Frage ausgehen. So können Sie später Tests für eine bestimmten Bearbeitungsdauer leichter zusammenstellen.
+Geben Sie an, von welcher _**durchschnittlichen Bearbeitungszeit**_ Sie für die Bearbeitung der Frage ausgehen. So können Sie später Tests für eine bestimmten Bearbeitungsdauer leichter zusammenstellen.
 
 Die  _**Itemschwierigkeit**_  drückt mit einem Wert zwischen 0 und 1 aus, wie schwer eine Frage zu beantworten ist und gibt damit an, wieviele Personen einer Kandidatengruppe die Frage korrekt lösen im Verhältnis zur maximal erreichbaren Punktzahl. Zweck des Schwierigkeitsindexes ist die Unterscheidung von Personen mit hoher Merkmalsausprägung und Personen mit niedriger Merkmalsausprägung. Unbrauchbar sind demzufolge alle Items, die von allen Personen, bzw. Items, die von keiner Person gelöst werden konnten oder bejaht wurden (Index-Wert nahe 1 bzw. 0). Items mit Werten nahe 1 sind zu einfach und unterscheiden nicht zwischen den Leistungen von Personen und Items mit Werten nahe 0 sind zu schwierig. Beachten Sie, dass bei einer Multiple Choice Frage mit 5 Antwortalternativen (4 Distraktoren) die Ratewahrscheinlichkeit bereits 20% beträgt. Für eine gute Leistungsdifferenzierung eignen sich Items im Bereich 0.4-0.9 oder 40-90%.
 
@@ -119,11 +119,11 @@ Alle anderen Parameter werden _nicht_ von OpenOlat berechnet. Wenn Daten dazu vo
 
 ### Rechte {: #metadata_rights}
 
-![question_details_rights_v1_de.png](assets/question_details_rights_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Rechte mit Autor:innen, Lizenz CC BY-NC-SA, Lizenzgeber und dem Link zum Lizenztext. Metadaten einer Frage.](assets/question_details_rights_v1_de.png){ class="aside-right lightbox"}
 
 Dieser Abschnitt enthält Informationen über den Urheber bzw. den Verfasser des Frageitems. Alle Personen, welche die Frage erstellt oder editiert haben, werden als Autor:innen aufgelistet. Die Autor:innen können zudem manuell hinzugefügt oder entfernt werden. Der Urheber kann nur manuell hinzugefügt oder entfernt werden.
 
-Weiter kann das Copyright definiert werden. Standardmässig stehen Creative Commons Lizenzen zur Auswahl. Informationen zu Creative Commons finden Sie in der [Wikipedia](http://de.wikipedia.org/wiki/Creative_Commons "Wikipedia") und unter [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). Werden weitere zusätzliche Lizenzen benötigt, können diese vom Systemadministrator erstellt werden.
+Weiter kann das Copyright definiert werden. Standardmässig stehen Creative Commons Lizenzen zur Auswahl. Informationen zu Creative Commons finden Sie in der [Wikipedia](http://de.wikipedia.org/wiki/Creative_Commons "Wikipedia") und unter [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). Werden weitere zusätzliche Lizenzen benötigt, können diese von Systemadministrator:innen erstellt werden.
 
 Sowohl Lizenzgeber als auch Lizenz können manuell hinzugefügt werden und haben keine weiteren Auswirkungen. Ist eine initiale Lizenz bzw. ein initialer Lizenzgeber für den Fragenpool in der Administration konfiguriert, so werden diese automatisch beim Anlegen einer neuen Frage eingetragen. Sobald jemand die Rechte zur Bearbeitung eines Frageitems hat, kann diese Person aber die Lizenz und den Lizenzgeber anpassen.
 
@@ -133,7 +133,7 @@ Sowohl Lizenzgeber als auch Lizenz können manuell hinzugefügt werden und haben
 
 ### Technik {: #metadata_technical}
 
-![question_details_technical_v1_de.png](assets/question_details_technical_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Technik mit ID, Master ID, Editor, Editor Version, Format, Erstellt, Letzte Änderung, dem editierbaren Feld Version und Letzte Änderung Status. Metadaten einer Frage.](assets/question_details_technical_v1_de.png){ class="aside-right lightbox"}
 
 Unter "Technik" finden Sie Informationen zum **Editor**, in der die Frage erstellt wurde, sowie dessen **Version**. Das **Format** gibt an, welches technische Format die Frage hat. **Erstellt** und **letzte Änderung** geben an, wann die Frage erstellt bzw. importiert wurde und ob z.B. anschliessend noch Änderungen daran vorgenommen wurden.
 
@@ -147,7 +147,7 @@ Alle anderen Attribute im Bereich Technik können nicht bearbeitet werden.
 
 ### Bewertungen {: #metadata_ratings}
 
-![question_details_ratings_v1_de.png](assets/question_details_ratings_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Bewertungen mit einem Eintrag, bestehend aus Datum und einer Bewertung mit fünf Sternen. Metadaten einer Frage.](assets/question_details_ratings_v1_de.png){ class="aside-right lightbox"}
 
 Sofern der Beurteilungsprozess aktiviert ist, werden in diesem Abschnitt die Bewertungen der Frage im Zusammenhang mit dem Beurteilungsprozess angezeigt. Diese Bewertungen aus dem Beurteilungsprozess werden zusätzlich noch bei den [Kommentaren und Bewertungen](#comments) durch andere Personen am unteren Rand des Bildschirms angezeigt.
 
@@ -160,7 +160,7 @@ Ist der Beurteilungsprozess nicht aktiviert, fehlt das Dropdown "Bewertungen" in
 
 
 
-###  Pool {: #metadata_pool}
+### Pool {: #metadata_pool}
 
 Listet die Pools in welchen das Frageitem freigegeben wurde.
 
@@ -168,7 +168,7 @@ Listet die Pools in welchen das Frageitem freigegeben wurde.
 
 
 
-###  Gruppen {: #metadata_groups}
+### Gruppen {: #metadata_groups}
 
 Listet die Gruppen in welchen das Frageitem freigegeben wurde.
 
@@ -176,14 +176,14 @@ Listet die Gruppen in welchen das Frageitem freigegeben wurde.
 [Zum Seitenanfang ^](#question_details)
 
 
-!!! Achtung
+!!! warning "Achtung"
 
-    Wenn ein Frageitem aus einem Test im Standard QTI 2.1 in den Fragepool importiert wird, verliert es alle Metadaten.
+    Wenn ein Frageitem aus einem Test im Standard QTI 2.1 in den Fragenpool importiert wird, verliert es alle Metadaten.
 
 
 ## Kommentare {: #comments}
 
-![question_details_comment_v1_de.png](assets/question_details_comment_v1_de.png){ class="shadow lightbox" }
+![Bewertung der anderen mit fünf leeren Sternen und dem Durchschnitt 0.0 von 5, darunter 0 Kommentare und das Eingabefeld für einen Kommentar. Unterer Rand der Detailansicht einer Frage.](assets/question_details_comment_v1_de.png){ class="shadow lightbox" }
 
 Die Kommentare und Bewertungen (Sterne), die hier am unteren Rand der Detailansicht zu einer Frage eingegeben werden, stammen von Autor:innen und Personen, die zur Administration Zugriff auf diese Frage haben. Jede Person mit Zugriff kann hier einen Kommentar abgeben. 
 
@@ -192,12 +192,20 @@ Die Bewertungen im Zusammenhang mit einem Beurteilungsprozess (siehe Metadaten) 
 [Zum Seitenanfang ^](#question_details)
 
 
-## Weitere Informationen {: #further_info}
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Test Fragen konfigurieren >](../learningresources/Configure_test_questions.de.md)<br>
+[Learning Objects Metadata (Wikipedia) >](http://de.wikipedia.org/wiki/Learning_Objects_Metadata)<br>
+[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Creative Commons (Wikipedia) >](http://de.wikipedia.org/wiki/Creative_Commons)<br>
+[www.creativecommons.org >](http://www.creativecommons.org/)<br>
+[e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)
+
+**Weiterführend**<br>
 [Frage erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br> 
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
-[Zum Seitenanfang ^](#create_questions)
+[Zum Seitenanfang ^](#question_details)

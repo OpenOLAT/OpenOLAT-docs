@@ -1,33 +1,33 @@
-# Projekte - Administration
+# Projekte - Administration {: #administration}
 
-Um zur Projekt Administration Ihres Projektes zu gelangen öffnen Sie das gewünschte Projekt und klicken rechts oben auf die 3 Punkte. Im aufgeklappten Menü erscheinen mehrere administrative Möglichkeiten. 
+Um zur Projektadministration Ihres Projektes zu gelangen, öffnen Sie das gewünschte Projekt und klicken rechts oben auf die 3 Punkte. Im aufgeklappten Menü erscheinen mehrere administrative Möglichkeiten.
 
 Zur Administration eines Projektes gehören
 
-* die Konfiguration und Darstellung der Startseite (Projekt bearbeiten) 
+* die Konfiguration und Darstellung der Startseite (Projekt bearbeiten)
 * die [Verwaltung der Mitglieder](../area_modules/Project_Member_Management.de.md) des Projektes
-* die Möglichkeit [Reports](../area_modules/Project_Report.de.md) herunterzuladen
+* die Möglichkeit, [Reports](../area_modules/Project_Report.de.md) herunterzuladen
 * Projekte zu kopieren
 * Projekte als Vorlage zu speichern
 * Projekte zu beenden und abzuschliessen
 * Projekte zu löschen
 
-!!! info "Info"
+!!! info "Wichtig"
 
-    Welche Menüpunkte in dem Bereich erscheinen ist von der Projektrolle abhängig. 
+    Welche Menüpunkte in dem Bereich erscheinen, ist von der Projektrolle abhängig.
 
 ## Projekt bearbeiten
 
 Mit "Projekt bearbeiten" ist nicht die inhaltliche Bearbeitung gemeint (Termine eintragen, To-dos erstellen, usw.), sondern die **Bearbeitung der Startseite** des Projektes.
 
-![projekte_admin_projekt_bearbeiten_v2_de.png](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt bearbeiten im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
 
-![projekte_admin_projekt_bearbeiten_popup_v1_de.png](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
+![Dialog Projekt bearbeiten mit den Angaben und Bildern der Projekt-Startseite](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
 
 
-## Projekt kopieren 
+## Projekt kopieren
 
-![projekte_admin_projekt_kopieren_v2_de.png](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt kopieren im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
 
 Kopiert werden:
 
@@ -45,24 +45,24 @@ Kopiert werden:
 * Termine und Meilensteine (werden ohne Datum kopiert)
 
 
-## Projektvorlagen 
+## Projektvorlagen
 
-Es vereinfacht die Erstellung eines neuen Projektes, wenn auf eine Vorlage zurückgegriffen werden kann. 
+Es vereinfacht die Erstellung eines neuen Projektes, wenn auf eine Vorlage zurückgegriffen werden kann.
 
-Ein angelegtes Projekt kann als Vorlage gespeichert werden. Wählen Sie hierfür im 3-Punkte-Menü die Option "Als Vorlage speichern". 
+Ein angelegtes Projekt kann als Vorlage gespeichert werden. Wählen Sie hierfür im 3-Punkte-Menü die Option "Als Vorlage speichern".
 
-![projekte_admin_als_vorlage_speichern_v3_de.png](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
+![Eintrag Als Vorlage speichern im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
 
 Es erscheint ein Menü. Hier kann u.a. angegeben werden, ob die Vorlage nur für den eigenen Gebrauch oder für alle Mitglieder der Organisationseinheit zur Verfügung stehen soll.
 
-Darüber hinaus kann eine leere Vorlage im Tab "Projektvorlagen" erstellt werden, was häufig ein sinnvollerer Weg ist. 
+Darüber hinaus kann eine leere Vorlage im Tab "Projektvorlagen" erstellt werden, was häufig ein sinnvollerer Weg ist.
 
-![projekte_admin_leere_vorlage_v1_de.png](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
+![Button Leere Vorlage erstellen im Tab Projektvorlagen des Bereichs Projekte](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
 
 
-## Projekte abschliessen 
+## Projekte abschliessen
 
-![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
+![Eintrag Projekt abschliessen im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 Wird ein Projekt abgeschlossen, haben alle Projektmitglieder anschliessend nur noch schreibgeschützten Zugriff.
 
@@ -74,14 +74,14 @@ Abgeschlossen werden kann ein Projekt nur durch
 * Administrator:innen,
 * und Projektverwalter:innen.
 
-!!! Note "Hinweis"
+!!! info "Wichtig"
 
     Durch diese Personen kann ein Projekt auch wieder reaktiviert werden.
 
 
-## Projekt löschen 
+## Projekt löschen
 
-![projekte_admin_loeschen_v2_de.png](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt löschen im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
 
 Gelöscht werden können Projekte nur durch
 
@@ -90,18 +90,18 @@ Gelöscht werden können Projekte nur durch
 * und Projektverwalter:innen.
 
 
-!!! Note "Hinweis"
+!!! info "Wichtig"
 
     Durch das Löschen eines Projektes erscheint es in der Liste "Gelöschte". Die Projekte können dort nur noch angesehen, aber nicht mehr bearbeitet werden.
 
 
-## Tab Projektadministration 
+## Tab Projektadministration
 
-OpenOlat Administrator:innen und Projektverwalter:innen haben unter dem Menüpunkt "Projekte" einen weiteren Tab: "Administration".
+OpenOlat-Administrator:innen und Projektverwalter:innen haben unter dem Menüpunkt "Projekte" einen weiteren Tab: `Projekte > Tab "Administration"`.
 
-![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+![Tab Administration im Bereich Projekte mit den Filtern Ohne kürzliche Aktivität, Zu löschen, Abgeschlossen und Gelöschte oberhalb der Projektliste](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
 
-Für Ihre Verwaltungsaufgaben stehen dort folgende (Filter-) Funktionen zur Verfügung: 
+Für Ihre Verwaltungsaufgaben stehen dort folgende (Filter-)Funktionen zur Verfügung:
 
 * **Ohne kürzliche Aktivität**<br>
 In dieser Liste befinden sich Projekte, in denen seit mehr als 28 Tagen keine Aktivität stattgefunden hat. Ihr Status kann "aktiv" oder "abgeschlossen" sein. Projekte in dieser Liste sollten geprüft werden, ob sie nicht evtl. abgeschlossen bzw. gelöscht werden können. (Man kann bei dem/der Projektbesitzer:in evtl. nachfragen.)
@@ -117,4 +117,9 @@ Abgeschlossene Projekte können noch reaktiviert werden.
 Gelöschte Projekte können nur noch angesehen, aber nicht mehr bearbeitet werden.
 
 
+## Weiterführende Informationen {: #further_information}
 
+[Projekte: Mitgliederverwaltung >](../area_modules/Project_Member_Management.de.md)<br>
+[Projekte - Projektreport >](../area_modules/Project_Report.de.md)
+
+[Zum Seitenanfang ^](#administration)

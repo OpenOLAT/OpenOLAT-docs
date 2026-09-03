@@ -1,4 +1,4 @@
-# Kopieren statt neu bauen
+# Kopieren statt neu bauen {: #copy}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -17,13 +17,18 @@ Eine bestehende Durchführung.
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Durchführungen › 3 Punkte › Kopieren
+`Course Planner > Durchführungen > 3 Punkte > Kopieren`
 
 ## Zusammenhänge
 
 Erzeugt die nächste Durchführung aus einer bestehenden. Die Verknüpfung zum Zertifikatsprogramm wird übernommen, sofern die Berechtigung dafür besteht.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Durchführungen](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](../Course_Planner_Certification_Programs.de.md)
+
+[Zum Seitenanfang ^](#copy)

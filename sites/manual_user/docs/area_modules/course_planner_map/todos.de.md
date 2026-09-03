@@ -1,4 +1,4 @@
-# Planungsaufgaben (To-dos)
+# Planungsaufgaben (To-dos) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417) {: #todos}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -13,17 +13,21 @@ Auf einem Element im Tab «To-dos» über «To-do erstellen» eine Aufgabe anleg
 
 ## Vorbedingungen
 
-Course Planner aktiviert (ab Release 21.0). Für relative Fälligkeits-/Startdaten muss ein Durchführungszeitraum definiert sein.
+Course Planner aktiviert. Für relative Fälligkeits-/Startdaten muss ein Durchführungszeitraum definiert sein.
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Element › Tab To-dos (bzw. Dashboard › Launcher «To-dos»)
+`Course Planner > Produkte > "Ihr Element" > Tab To-dos`<br>
+`Course Planner > Produktivität > To-dos`
 
 ## Zusammenhänge
 
 To-dos lassen sich auf Übersicht, Produkt, Durchführung und einzelnem Element erfassen. Kursplaner:innen und Elementbesitzer:innen erstellen und bearbeiten, Kursbesitzer:innen können nur erledigen, Principals nur einsehen. Beim Kopieren einer Durchführung werden To-dos übernommen.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: To-dos](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Todos/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: To-dos >](../Course_Planner_Todos.de.md)
+
+[Zum Seitenanfang ^](#todos)

@@ -1,4 +1,4 @@
-# Durchführung planen
+# Durchführung planen {: #implementation}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
@@ -9,7 +9,7 @@ Aus dem Produkt entstehen konkrete Durchführungen (Implementierungen), zum Beis
 
 ## Wie setze ich das um?
 
-Zum Produkt eine Durchführung anlegen (Typ Einzelkurs oder strukturiert wird beim Erstellen gewählt) und in den Tabs (Übersicht, Struktur, Kursinhalt, Termine, Mitglieder, Katalog, Einstellungen) konfigurieren. Durchführungszeitraum, Ort und Teilnehmerzahl unter Tab Einstellungen › Durchführung.
+Zum Produkt eine Durchführung anlegen (Typ Einzelkurs oder strukturiert wird beim Erstellen gewählt) und in den Tabs (Übersicht, Struktur, Kursinhalt, Termine, Mitglieder, Katalog, Einstellungen) konfigurieren. Durchführungszeitraum, Ort und Teilnehmerzahl unter `Tab Einstellungen > Durchführung`.
 
 ## Vorbedingungen
 
@@ -17,13 +17,18 @@ Ein Produkt muss vorhanden sein.
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Durchführungen (bzw. Produkt › Durchführungen)
+`Course Planner > Durchführungen` oder `Course Planner > Produkte > "Produkt" > Durchführungen`
 
 ## Zusammenhänge
 
 Teilnehmer:innen werden Mitglieder einer Durchführung (nicht des Produkts oder einzelner Kurse). Jede Durchführung hat eigene Termine, Kursinhalte, Mitglieder und Katalogangebote und kann mehrfach zu verschiedenen Terminen angeboten werden.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Durchführungen](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
+[Course Planner: Termine >](../Course_Planner_Events.de.md)
+
+[Zum Seitenanfang ^](#implementation)

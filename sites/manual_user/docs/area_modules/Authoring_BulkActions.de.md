@@ -1,4 +1,4 @@
-#  Autorenbereich - Sammelaktionen {: #authoring_bulk_actions}
+# Autorenbereich - Sammelaktionen {: #authoring_bulk_actions}
 
 Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons (1-6). Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen, also für mehrere Lernressourcen gemeinsam (Bulk Actions).<br>
 Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource selektiert ist.
@@ -6,24 +6,24 @@ Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource sele
 Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile (10) werden Optionen nur für diese einzelne Lernressource dieser Zeile angezeigt. 
 
 
-![autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png){ class="shadow lightbox" }
+![Sechs Buttons für Sammelaktionen über der Tabelle und das 3-Punkte-Menü einer Zeile mit den Einzelaktionen, nummeriert wie die Abschnitte dieser Seite. Autorenbereich.](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png){ class="shadow lightbox" }
 
 
 !!! tip "Tipp"
 
-    Wenn Sie die **Checkbox in der Titelzeile der Tabelle** wählen, werden alle Lernressourcen auf einmal selektiert. ![autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png){ class="shadow lightbox" }
+    Wenn Sie die **Checkbox in der Titelzeile der Tabelle** wählen, werden alle Lernressourcen auf einmal selektiert. ![Angehakte Checkbox in der Titelzeile, alle Zeilen der Tabelle sind ausgewählt. Autorenbereich.](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png){ class="shadow lightbox" }
 
 ---
 
 ### 1. E-Mail versenden
 
-Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail versenden". Es öffnet sich ein Dialog. Sie können nun definieren, an wen die E-Mail verschickt werden soll. Mögliche Empfänger sind **alle Kursbesitzer, alle Kursbetreuer und alle Teilnehmenden**.
+Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail versenden". Es öffnet sich ein Dialog. Sie können nun definieren, an wen die E-Mail verschickt werden soll. Mögliche Empfänger:innen sind **alle Kursbesitzer:innen, alle Kursbetreuer:innen und alle Teilnehmenden**.
 
 Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann noch ein Anhang und eine Kopie für den Absender ergänzt werden.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
-    Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für **alle Autoren** sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
+    Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für **alle Autor:innen** sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
 ### 2. Status ändern [:octicons-tag-16:{ title="ab Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"}
 
@@ -31,7 +31,7 @@ Wählen Sie den Publikationsstatus aus, der für alle ausgewählten Lernressourc
 
 ### 3. Besitzer bearbeiten [:octicons-tag-16:{ title="ab Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"}
 
-Hier werden Ihnen alle **Besitzer der ausgewählten Lernressourcen** angezeigt. Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue Besitzer den ausgewählten Lernressourcen hinzufügen. Eine E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
+Hier werden Ihnen alle **Besitzer:innen der ausgewählten Lernressourcen** angezeigt. Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue Besitzer:innen den ausgewählten Lernressourcen hinzufügen. Eine E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
 
 ### 4. Metadaten und Einstellungen [:octicons-tag-16:{ title="ab Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
 
@@ -44,7 +44,7 @@ Es kann für alle markierten Lernressourcen
 * Sprache und Zeitaufwand definiert werden. 
 * sowie eine passende Lizenz für die Lernressourcen gewählt werden.
 * ein passender Fachbereich und die gewünschte Organisation für die Lernressourcen gewählt werden.
-* zusätzliche Rechte für alle anderen Autoren vergeben werden.
+* zusätzliche Rechte für alle anderen Autor:innen vergeben werden.
 * sowie ein einheitlicher Durchführungszeitraum und Ort angegeben werden.
 
 Bei Kursen besteht darüber hinaus auch die Möglichkeit, eine einheitliche Auswahl für die Tools der Toolbar zu treffen. 
@@ -65,7 +65,7 @@ Eine Lernressource kann nur von den Besitzer:innen der Lernressource sowie Lernr
 Mit dem **Button über der Tabelle** können Sie schnell **mehrere Lernressourcen auf einmal** löschen.<br>
 Wollen Sie nur eine **einzelne Lernressource** löschen, können Sie auch auf die **3 Punkte am Ende der betreffenden Tabellenzeile** klicken und dann auf die Option "Löschen".
 
-Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
+Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer:innen der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
 
 Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "**Gelöscht**"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
 
@@ -77,7 +77,7 @@ Ein Klick auf den **Titel** einer Lernressource öffnet die entsprechende Ressou
 
 ### 8. Infoseite öffnen
 
-Durch Klick auf das **Symbol der Glühbirne** ![Glühbirne](assets/infopage_5e89ac_64.png){ width=30px class="lightbox" } wird die Infoseite **angezeigt**.
+Durch Klick auf das **Symbol der Glühbirne** ![Symbol Infoseite](assets/infopage_5e89ac_64.png){ width=30px class="lightbox" } wird die Infoseite **angezeigt**.
 
 Klicken Sie dagegen **im Menü unter den 3 Punkten** auf "Infoseite bearbeiten", gelangen Sie in den Bereich "Einstellungen" und können die Informationen, die auf der Infoseite erscheinen, **bearbeiten**.
 
@@ -108,7 +108,7 @@ Eine ausführliche Anleitung zum Thema finden Sie [hier](../../manual_how-to/oai
 
 ### 14. In Lernpfad-Kurs konvertieren
 
-Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, wird zusätzlich die Option "In Lernpfad-Kurs konvertieren" angezeigt. Ein neuer, konvertierter [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) wird als Kopie erstellt, die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.  
+Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, wird zusätzlich die Option "In Lernpfad-Kurs konvertieren" angezeigt. Ein neuer, konvertierter [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) wird als Kopie erstellt, die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
 
 ### 15. Kopieren mit Wizard 
 
@@ -119,11 +119,18 @@ Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, wird zusätzlich di
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Autorenbereich - Übersicht >](Authoring.de.md)<br>
+[Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
+[Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
+[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)
+
+**Weiterführend**<br>
 [Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? (Ausführliche Anleitung) >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#authoring_bulk_actions)

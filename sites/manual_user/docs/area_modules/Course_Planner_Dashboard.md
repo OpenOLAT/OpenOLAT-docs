@@ -8,12 +8,12 @@ The overview shows, for example:
 - the buttons for accessing the areas/functions described below,
 - as well as the search.
 
-![course_planner_overview_v5_en.png](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }  
+![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }  
 
 By entering a term in the search field, you can search for **implementations, courses and events**.<br>
 As with other searches, filters can be used to narrow down the search results.
 
-![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
+![The search result with the open Status filter from Preparation to Deleted, after a search in the Course Planner](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
 
 Below the buttons and the search, the overview page shows an area with **widgets** (tiles) in a responsive layout: depending on the screen width, the arrangement of the tiles adjusts automatically.
 
@@ -47,7 +47,7 @@ You can individually configure widgets (e.g. the implementation widget) via :o_i
 
 Use **Save** to apply the settings, use **Cancel** to discard them.
 
-![course_planner_widget_settings_v1_en.png](assets/course_planner_widget_settings_v1_en.png){ class="shadow lightbox" }
+![The Settings popover with the main figure Relevant and the selectable key figures, opened via the gear symbol of the implementation widget](assets/course_planner_widget_settings_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#dashboard)
 
@@ -62,7 +62,7 @@ Two areas are available in edit mode:
 * **Active widgets**: Here you rearrange the widgets via drag & drop (move widget) or remove them.
 * **Available widgets**: Here you find deactivated widgets, which you can reactivate via the **"Add to dashboard"** link. Newly added widgets are inserted at the end of the active widgets.
 
-![course_planner_overview_customize_v1_en.png](assets/course_planner_overview_customize_v1_en.png){ class="shadow lightbox" }
+![The Active widgets and Available widgets areas with Move widget, Add to dashboard and the Save as system default menu, in edit mode of the dashboard](assets/course_planner_overview_customize_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "Tip"
 

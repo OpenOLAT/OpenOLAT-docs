@@ -10,10 +10,9 @@ Besonders relevante Fragen können Sie als **Favorit** markieren und so schnell 
 
 Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei werden die Frageitems aber grundsätzlich unter "Meine Fragen" abgelegt und dann referenziert. 
 
-Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können finden Sie im Kapitel ["Test Fragetypen"](../learningresources/Test_question_types.de.md) 
+Eine Übersicht der **Fragetypen**, die erstellt und importiert werden können, finden Sie im Kapitel ["Test Fragetypen"](../learningresources/Test_question_types.de.md).
 
 [Zum Seitenanfang ^](#create_questions)
-
 
 ## Fragen im Fragenpool erstellen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #create}
 
@@ -25,14 +24,13 @@ Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum 
 
 [Zum Seitenanfang ^](#create_questions)
 
-
 ## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
 Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden. Über den Eintrag "KI Fragen" öffnen Sie den Generierungsdialog.
 
 !!! info "Wichtig"
 
-    Diese Funktion steht nur zur Verfügung, wenn in der Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und mindestens eine passende KI Funktion mit einem KI Anbieter und Modell konfiguriert ist: "MC Fragen Generator" für Multiple-Choice-Fragen sowie "Essay Fragen Generator" und "Essay Bewertung" für Freitextfragen mit KI-Korrektur.
+    Diese Funktion steht nur zur Verfügung, wenn in der System-Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und mindestens eine passende KI Funktion mit einem KI Anbieter und Modell konfiguriert ist: "MC Fragen Generator" für Multiple-Choice-Fragen sowie "Essay Fragen Generator" und "Essay Bewertung" für Freitextfragen mit KI-Korrektur.
 
 Als Ausgangsmaterial wählen Sie einen von zwei Modi:
 
@@ -48,7 +46,6 @@ Die Generierung läuft im Hintergrund. Sie können den Dialog offen lassen oder 
 Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrektheit überprüft werden müssen.
 
 [Zum Seitenanfang ^](#create_questions)
-
 
 ## KI-Bewertung einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
@@ -76,14 +73,12 @@ Mit dem Button **"Feedback testen"** geben Sie eine Beispielantwort ein und sehe
 
 [Zum Seitenanfang ^](#create_questions)
 
-
 ## Beurteilung durch Fachkollegen [:octicons-tag-16:{ title="ab Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #review}
 
 Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch Fachkollegen in einen Beurteilungsprozess gegeben werden.
 
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
-
 
 ## Frage in den Pool freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
@@ -94,7 +89,6 @@ Es können mehrere Pools von dem/der Poolverwalter:in angelegt worden sein. Als 
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
 
-
 ## Frage in Gruppe freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_with_group}
 
 Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe erstellen. Soll eine neu erstellte Frage zunächst ausschliesslich von den Gruppenmitgliedern einsehbar sein, können Sie in der Toolbar unter "Freigeben" die Frage auch nur für diese Gruppe freigeben.
@@ -102,15 +96,18 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
 
-
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)
+
+**Weiterführend**<br>
 [Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
 [Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
-[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
-[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#create_questions)

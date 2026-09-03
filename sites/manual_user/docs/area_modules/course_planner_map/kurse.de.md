@@ -1,29 +1,35 @@
-# Kurse und Vorlagen einbinden
+# Kurse und Kurstemplates einbinden {: #courses}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
 [:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
 
-Kurse werden eingebunden statt dupliziert: Bestehende Kurse erhalten den Laufzeittyp «curricular», Kursvorlagen werden erst bei Bedarf zu echten Kursen instanziert. Titel, Kennzeichen und Daten bleiben mit dem Element synchron.
+Kurse werden eingebunden statt dupliziert: Bestehende Kurse erhalten den Verwendungszweck «Verwendung im Course Planner», Kurstemplates werden erst bei Bedarf zu echten Kursen instanziert. Titel, Kennzeichen und Daten bleiben mit dem Element synchron.
 
 ## Wie setze ich das um?
 
-Im Tab «Kursinhalt» einer Durchführung über «Kurs hinzufügen» einen Kurs oder ein Kurstemplate einbinden. Im Kurs selbst den Verwendungszweck auf «Einbindung in Produkt» bzw. «Template» stellen.
+Im Tab «Kursinhalt» einer Durchführung über «Kurs hinzufügen» einen Kurs oder ein Kurstemplate einbinden. Im Kurs selbst den Verwendungszweck auf «Verwendung im Course Planner» bzw. «Template» stellen.
 
 ## Vorbedingungen
 
-Kurs bzw. Template als Lernressource vorhanden und auf den Verwendungszweck «Einbindung in Produkt» oder «Template» gesetzt.
+Kurs bzw. Kurstemplate als Lernressource vorhanden und auf den Verwendungszweck «Verwendung im Course Planner» oder «Template» gesetzt.
 
 ## Wo finde ich die Einstellung
 
-Course Planner › Durchführung › Tab Kursinhalt; im Kurs: Administration › Einstellungen › Tab Freigabe › Verwendungszweck
+`Course Planner > Durchführungen > "Durchführung" > Tab Kursinhalt`; im Kurs: `Kurs > Administration > Einstellungen > Freigabe > Verwendungszweck`
 
 ## Zusammenhänge
 
-Eingebundene Kurse haben keine eigenständige Mitgliederverwaltung: Diese läuft über die Durchführung. Templates werden je Durchführung instanziert (kopiert) und bleiben danach unabhängig vom Original.
+Eingebundene Kurse haben keine eigenständige Mitgliederverwaltung: Diese läuft über die Durchführung. Kurstemplates werden je Durchführung instanziert (kopiert) und bleiben danach unabhängig vom Original.
 
----
+## Weiterführende Informationen {: #further_information}
 
-!!! info "Volle Ausführung im Handbuch"
-    [Course Planner: Durchführungen](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/){: target="_blank" rel="noopener" } · [Course Planner: Produkte](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Products/){: target="_blank" rel="noopener" }
+[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
+[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)
+
+[Zum Seitenanfang ^](#courses)

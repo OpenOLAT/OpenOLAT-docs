@@ -1,8 +1,9 @@
-# Catalog 2.0 - Sorting/order  {: #catalog_sort}
+# Catalog 2.0 - Sorting/order {: #catalog_sort}
 
 In Catalog 2.0, offers can be compiled manually or dynamically. If course owners have specified during configuration that they want their course to appear in the catalog, entries are dynamically added to the catalog.
 
 This raises the question of where in the catalog the offers are displayed.
+
 
 ## Sorting/order on the catalog start page {: #sorting_startpage}
 
@@ -10,19 +11,19 @@ On the **home page** of the catalog, the order of the objects is determined by t
 
 ![Four numbered launchers determine the order on the catalog start page: welcome text, categories, popular courses, recently published resources](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
 
-!!! info "How do I display my courses in the catalog?"
+!!! note "How do I display my courses in the catalog?"
     Instructions on how to display courses in the catalog.<br>
     [How do I display my courses in the catalog? >](../../manual_how-to/catalog/catalog.md)
 
 
 ### Set the order of launchers {: #sorting_startpage_launcher}
 
-The order of the launchers (sections on the start page) is defined under:<br>
-`Administration > Module > Catalog > Tab "Start page"`
+The order of the launchers (sections on the start page) is defined in the system administration under:<br>
+`Administration > Modules > Catalog > Tab "Launch page"`
 
 The order can be set by clicking on the double arrows at the beginning of the lines.
 
-![Four launchers with double arrows in the Position column for re-ordering, Start page tab of the catalog module](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
+![Four launchers with double arrows in the Position column for re-ordering, Launch page tab of the catalog module](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#catalog_sort)
 
@@ -33,7 +34,7 @@ The order can be set by clicking on the double arrows at the beginning of the li
 
 Within a launcher, the order of the offers depends on the launcher type:
 
-!!! info "Launcher type"
+!!! note "Launcher type"
     Configuration of launcher types in the administration.<br>
     [Launcher type >](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page)
 
@@ -42,8 +43,7 @@ Within a launcher, the order of the offers depends on the launcher type:
 There is no automatic sorting.
 
 **Launcher type "Popular courses":**<br>
-The order of the offers is determined by the number of clicks on course components during the last 28 days. 
-Only courses with the status "Published" are taken into account.
+The order of the offers is determined by the number of clicks on course components during the last 28 days. Only courses with the status "Published" are taken into account.
 
 **Launcher type "Last published":**<br>
 The order of offers is determined by publishing date.
@@ -52,11 +52,11 @@ The order of offers is determined by publishing date.
 Random order.
 
 **Launcher type "Taxonomy level":**<br>
-In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found.<br> 
+In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found.<br>
 The offerings are automatically selected based on the taxonomy and then listed alphabetically on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.
 
 **Launcher type "Selected learning resources":**<br>
-The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.  
+The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.
 
 **Launcher type "Selected implementations":**<br>
 The manually added implementations can be sorted by clicking on the double arrows in front of the entries.
@@ -73,18 +73,19 @@ If a launcher is to display subcategories, a launcher of the "taxonomy level" ty
 ![Launcher Course offerings with nine category tiles as sub-pages, start page of the catalog](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
 
 The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy and must therefore be changed via taxonomy.<br>
-`Administration > Module > Taxonomy > Activation of a taxonomy for learning resources/catalog`
+`Administration > Modules > Taxonomy > Activation of a taxonomy for learning resources/catalog`
 
-Example: Taxonomy structure for the taxonomy launcher displayed above: 
+Example: Taxonomy structure for the taxonomy launcher displayed above:
+
 ![Taxonomy levels of the catalog with the open row menu and the Edit option, Levels tab of the taxonomy](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
 
-* Select the option to edit a taxonomy level from the 3 dots. <br>
-* In the "Metadata" tab, you will find the field for specifying the sorting order. 
+* Select the option to edit a taxonomy level from the 3 dots.<br>
+* In the "Metadata" tab, you will find the field for specifying the sorting order.<br>
 * The number specified here for the taxonomy also determines the position within the launcher. (In the example shown above: 0 = 1. Subpage/Category, 1 = 2. Subpage/Category, 2 = 3. Subpage/Category => third in the catalog)
 
 ![The Sorting field with the value 2 determines the position of the sub-page, Metadata tab of a taxonomy level](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Note"
+!!! info "Important"
 
     A change in the taxonomy structure not only affects the catalog, but also everywhere else where this taxonomy is used for selection. 
 
@@ -162,6 +163,7 @@ If no date is specified, entries without a date are displayed after those with a
 `Course Planner > Implementation > tab Catalog > button "Offers" > section "Offer Overview" > click on "change"`
 
 Example Course Planner:
+
 ![Row Catalog priority for sorting with the adjust link, Catalog tab of an implementation in the Course Planner](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#catalog_sort)
@@ -182,11 +184,9 @@ As a priority, you can select a preset boost value or enter your own boost value
 
 ![Priority selection High with the corresponding boost value 2000, dialog Adjust priority](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Note"
+!!! info "Important"
 
     Sorting by priority does not affect the sorting on the start page. There, the order of the offers is determined by the respective launcher types and the manual arrangement in the administration.
-
-
 
 
 [To the top of the page ^](#catalog_sort)
@@ -204,5 +204,3 @@ As a priority, you can select a preset boost value or enter your own boost value
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
 
 [To the top of the page ^](#catalog_sort)
-
-

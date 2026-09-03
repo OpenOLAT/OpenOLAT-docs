@@ -30,7 +30,7 @@ Den Link **"Katalog-Verwaltung"** haben
 - Systemadministrator:innen
 - Personen mit der Kompetenz "Verwalten" auf einer Taxonomieebene
 
-Ob Lernressourcenverwalter:innen den Link erhalten, legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > Katalog > Einstellungen`, Feld "Taxonomie bearbeitbar von".
+Ob Lernressourcenverwalter:innen den Link erhalten, legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > Katalog > Tab "Einstellungen"`, Feld "Taxonomie bearbeitbar von".
 
 Den Link **"Zur Administration"** haben
 
@@ -43,7 +43,7 @@ Den Link **"Zur Administration"** haben
 
 ## Wie bekommt man das Recht (die Kompetenz) zur Katalog-Verwaltung? [:octicons-tag-16:{ title="ab Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544) {: #competence}
 
-Die Kompetenz "Verwalten" (das Recht zur Bearbeitung der im Katalog verwendeten Taxonomien) kann auf 2 Arten erteilt werden:
+Die Kompetenz "Verwalten" (das Recht zur Bearbeitung der im Katalog verwendeten Taxonomien) kann auf zwei Arten erteilt werden:
 
 **Möglichkeit 1:**<br>
 Durch Systemadministrator:innen in der System-Administration:<br>
@@ -69,7 +69,8 @@ Sobald die Kompetenz erteilt wird, erscheint für diese Person der Link "Katalog
 
 Die inhaltliche Bearbeitung von Lernressourcen im Katalog findet im Autorenbereich statt. Kurse bearbeiten Sie deshalb [im Autorenbereich](../area_modules/Authoring.de.md). Dort werden diese auch gelöscht, zum Beispiel wenn sie beendet sind.
 
-### Tab Ebenen  {: #tab_level}
+### Tab Ebenen {: #tab_level}
+
 Die Bearbeitungsmöglichkeiten der Fachbereiche (Taxonomieebenen) umfassen:
 
 - Bearbeiten
