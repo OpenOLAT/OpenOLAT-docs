@@ -26,9 +26,9 @@
 Sie haben bereits
 
 - einen Kurs erstellt (siehe ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)),
-- in diesem Kurs einen Kursbaustein "Test" eingefügt (siehe ["5. Kursbausteine hinzufügen"](../my_first_course/my_first_course.de.md#5-kursbausteine-hinzufugen)),
+- in diesem Kurs einen Kursbaustein "Test" eingefügt (siehe ["5. Kursbausteine hinzufügen"](../my_first_course/my_first_course.de.md#add_course_elements)),
 - eine Test-Lernressource mit allen Fragen fertiggestellt und in den Kursbaustein eingefügt
-(siehe ["6. Kursbausteine konfigurieren und Lernressourcen hinzufügen"](../my_first_course/my_first_course.de.md#6-kursbausteine-konfigurieren-und-lernressourcen-hinzufugen)).
+(siehe ["6. Kursbausteine konfigurieren und Lernressourcen hinzufügen"](../my_first_course/my_first_course.de.md#configure_course_elements)).
 
 Jetzt geht es darum, mit diesem Kurs/Test eine Prüfung zu planen und durchzuführen. Damit Sie für mögliche Probleme gewappnet sind, zeigt Ihnen die folgende Auflistung, wo eventuell ein Stolperstein liegt und wie Sie Vorkehrungen treffen können.
 

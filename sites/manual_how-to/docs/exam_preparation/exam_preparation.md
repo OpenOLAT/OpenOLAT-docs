@@ -28,9 +28,9 @@
 You have already
 
 - created a course (see ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)),
-- inserted a "Test" course element into this course (see ["5. Adding course elements"](../my_first_course/my_first_course.md#5-add-course-elements)),
+- inserted a "Test" course element into this course (see ["5. Adding course elements"](../my_first_course/my_first_course.md#add_course_elements)),
 - completed a test learning resource with all questions and inserted it into the course element
-(see ["6. Configuring course elements and adding learning resources"](../my_first_course/my_first_course.md#6-configure-course-elements-and-add-learning-resource)).
+(see ["6. Configuring course elements and adding learning resources"](../my_first_course/my_first_course.md#configure_course_elements)).
 
 Now it is a matter of planning and conducting an exam with this course/test. To make sure you are prepared for potential problems, the following list shows you where a stumbling block might lie and how you can take precautions.
 
