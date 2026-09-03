@@ -11,6 +11,9 @@ Ein Prüfungsmodus ist eine **Prüfungskonfiguration**, in der Tests und Prüfun
 
 Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im betroffenen Kurs gestattet. Alle weiteren Funktionen in OpenOlat, wie andere Kurse, Gruppen, Notizen etc., werden während der Prüfungsdauer (Laufzeit des Prüfungsmodus) ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
 
+---
+
+
 ## Prüfungsmodus hinzufügen
 
 Sie **erstellen** und konfigurieren einen Prüfungsmodus, indem Sie
@@ -49,6 +52,18 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
     Im herkömmlichen Kurs haben Sie ausserdem die Möglichkeit, beim Editieren eines Kursbausteins unter den Tabs "Sichtbarkeit" und "Zugang" die Option **"Nur im Prüfungsmodus"** zu wählen. Diese Option steht in Lernpfadkursen nicht zur Verfügung.
 
+!!! note "Vor- und Nachlaufzeit auf 0 setzen"
+
+    Beim Erstellen eines neuen Prüfungsmodus sind Vor- und Nachlaufzeit ab
+    Release 21 mit je 10 Minuten vorbelegt. Dieser Vorschlagswert lässt sich
+    pro Prüfungsmodus frei überschreiben – auch auf **0**, wenn OpenOlat vor
+    bzw. nach der Prüfung nicht gesperrt werden soll. Ein globaler Standardwert
+    ist nicht konfigurierbar; die 0 muss also in jeder Prüfungskonfiguration
+    einzeln eingetragen werden.
+
+---
+
+
 ## Tab "Allgemein"
 
 ![assessment_management_create_exam_setting_tab_general_v1_de.png](assets/assessment_management_create_exam_setting_tab_general_v1_de.png){ class="shadow lightbox" }
@@ -65,6 +80,9 @@ Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser
 
 **Art des Beginns / Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "manuelle Bedienung" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem Sie den Prüfungsmodus manuell einschalten können.
 
+---
+
+
 ## Tab "Einschränkungen Kursbaustein"
 
 ![assessment_management_create_exam_setting_tab_element_restriction_v1_de.png](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_de.png){ class="shadow lightbox" }
@@ -72,6 +90,9 @@ Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser
 **Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses - wählen Sie jene Kurselemente aus, die den Probanden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
 
 **Startbaustein**: Soll den Studenten ein bestimmtes Kurselement direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kurselementen eines aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
+
+---
+
 
 ## Tab "Zugang"
 
@@ -94,6 +115,9 @@ Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.
 !!! note "Hinweis"
 
     Vor Version 19.1 wurden auch Kursbesitzer:innen in den Prüfungsmodus versetzt. Ab Version 19.1 können Kursbesitzer:innen weiterhin normal auf ihren Kurs zugreifen.
+
+---
+
 
 ## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
@@ -128,7 +152,8 @@ Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewäh
 !!! info "Weitere Informationen"
     [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
 
-<br>
+---
+
 
 ##  Prüfung durchführen
 
@@ -148,7 +173,7 @@ Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug v
 
 Bewertungen, z.B. für Einsendeaufgaben oder Freitext Elemente von Tests, können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und -besprechung ermöglicht.
 
-<br>
+---
 
 ##  Prüfung beenden
 

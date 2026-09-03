@@ -10,6 +10,9 @@ An assessment mode is an **assessment configuration** in which tests and assessm
 
 During this time, access is only permitted to previously defined course elements in the affected course. All other functions in OpenOlat, such as other courses, groups, notes, etc., are hidden during the duration of the assessment mode. Only a logout is possible during the test.
 
+---
+
+
 ## Create configuration
 
 You **create** the configuration of an assessment mode by selecting
@@ -48,6 +51,15 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
     In conventional courses, you also have the option of selecting the option **"Only in assessment mode"** under the "Visibility" and "Access" tabs when editing a course element. This option is not available in learning path courses.
 
+!!! note "Set Pre- and Post-Exam Time to "
+
+    When creating a new exam mode, the pre- and post-exam times are preset to
+    10 minutes each starting with Release 21. This default value can be
+    freely overridden for each exam mode—including to **0**, if OpenOlat is not to be locked before or after the exam. A global default value cannot be configured; therefore, the value 0 must be entered individually in each exam configuration.
+
+---
+
+
 ## Tab "General"
 
 ![assessment_management_create_exam_setting_tab_general_v1_en.png](assets/assessment_management_create_exam_setting_tab_general_v1_en.png){ class="shadow lightbox" }
@@ -64,6 +76,9 @@ If a **follow-up time** is specified in minutes, OpenOlat remains locked for thi
 
 **Type of start/end**: You can choose between automatic and manual start/end. If you as the author set "manual operation" here, coaches will find a start and end button on the overview page of the assessment tool for the corresponding assessment configuration, which they can use to switch on the assessment mode manually.
 
+---
+
+
 ## Tab "Element restriction"
 
 ![assessment_management_create_exam_setting_tab_element_restriction_v1_en.png](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_en.png){ class="shadow lightbox" }
@@ -71,6 +86,9 @@ If a **follow-up time** is specified in minutes, OpenOlat remains locked for thi
 **Restrict access to course element**: To restrict the check to selected course elements of the relevant course, select the checkbox here and then click on the "Select course elements" button. A list of all course elements of the course opens - select the course elements that you want to be displayed to the participants during the exam. All other course elements are hidden for the duration of the exam.
 
 **Start module**: If you want a specific course element to be displayed to students directly at the start, use the "Select course element" button. Select one of the available course elements. Only the course elements that were selected for display in the previous step are displayed.
+
+---
+
 
 ## Tab "Access"
 
@@ -95,6 +113,9 @@ If this option is selected, the assessment mode also applies to coaches. This me
     Before version 19.1, course owners were also switched to assessment mode. From version 19.1, course owners can continue to access their course as normal. 
 
 You can also define whether the assessment mode should also be applied to coaches.
+
+---
+
 
 ## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
@@ -128,7 +149,8 @@ Under the **Configuration from the template** legend, the detailed settings take
 !!! note "Further information"
     [Configure Safe Exam Browser (SEB) >](../../manual_how-to/SEB/SEB.md)
 
-<br>
+---
+
 
 ## Perform Exam
 
@@ -148,7 +170,8 @@ An ongoing assessment mode can be tracked by the coaches in the assessment tool.
 
 Evaluations, e.g. for submission tasks or free text elements of tests, can also be evaluated directly and activated or made visible for the participants. This enables direct assessment and discussion.
 
-<br>
+---
+
 
 ## End Exam
 
