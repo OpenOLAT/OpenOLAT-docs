@@ -52,10 +52,6 @@ A newly created form does not yet contain any elements, questions or text fields
 
 When a form is created in the course editor, a new learning resource Form is automatically created which can also be found in the [Authoring area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
 
-!!! note "Hint"
-
-    After a form has been selected, it can be designed via the "Edit" link. If the form has already been set up appropriately, editing is no longer necessary.
-
 ![Toggle Fill out the form multiple times switched on, field Participation until with option Relative date and four recipient groups of the e-mail confirmation, in the tab Form of the course editor](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
 
 **Fill out the form multiple times**

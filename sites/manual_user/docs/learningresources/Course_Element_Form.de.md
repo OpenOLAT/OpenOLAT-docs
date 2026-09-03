@@ -52,11 +52,6 @@ Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen ode
 
 Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
 
-!!! note "Hinweis"
-
-    Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr nötig.
-
-
 ![Schalter Mehrfaches Ausfüllen des Formulars eingeschaltet, Feld Teilnahme bis mit Option Relatives Datum und vier Empfängergruppen der E-Mail Bestätigung, im Tab Formular des Kurseditors](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
 
 **Mehrfaches Ausfüllen des Formulars**
