@@ -396,20 +396,16 @@ Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Admi
     Kursweite Archivierungsfunktion für alle bewertbaren Kursbausteine.<br>
     [Archivierung & Reports](../learningresources/Course_Archiving.de.md)
 
-Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die "Kursarchivierung" -> "Teilarchive" -> "Archiv erstellen" und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
+Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür in der Kursadministration "Archivierung & Reports" -> "Kursarchivierung" -> "Archiv erstellen". Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
 
-Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es beim Kursbaustein Test unter **"Export"** 2 Varianten:
+Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein Test unter **"Export"** 2 Varianten:
 
 * Der Export **Standard** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
 * Die Option **"Erweitert - mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
 
 Enthält der Test Freitextfragen und wurde die Option **"Erweitert - mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt.
 
-!!! danger "⚡ Neues Bild erforderlich"
-
-    Der Screenshot zeigt den alten Dialog ("Resultate" / "Resultate mit PDF"). Aktuell heisst die Auswahl "Export" mit den Optionen "Standard" und "Erweitert - mit PDF" sowie der zusätzlichen Option "Separate PDF-Datei für jede Freitextfrage".
-
-![Tests archivieren](assets/Kurs_archivieren_20.jpg)
+![Export-Optionen für den Kursbaustein Test im Wizard-Schritt Einstellungen der Kursarchivierung](assets/course_element_test_archive_export_v1_de.png){ class="shadow" }
 
 Weiterhin erhalten bleibt die Möglichkeit die Rohdaten von Tests über die Test Statistiken im Bereich Administration herunterzuladen. Auch die grafische Auswertung ist hier zu finden.
 

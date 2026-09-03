@@ -63,5 +63,15 @@ Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort**
 
 Zu jedem Schritt können unterschiedliche Benachrichtigungen im Kontext der Schritte formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden.
 
+### Deaktivierung und Reaktivierung {: #account_reactivation}
+
+Die Deaktivierung setzt den Kontostatus auf "Inaktiv". Die Person kann sich nicht mehr anmelden. Das Konto selbst bleibt vollständig erhalten. Passwort, Profil, Rollen, Gruppenmitgliedschaften und Kursdaten bleiben unverändert.
+
+Die Reaktivierung setzt den Kontostatus zurück auf "Aktiv". Die Person meldet sich mit dem bisherigen Passwort an. Ein neues Passwort ist nicht nötig.
+
+Ein Konto reaktivieren Sie manuell unter Benutzerverwaltung > Benutzer wählen > Tab «Konto». Meldet sich die Person über Shibboleth an, reaktiviert OpenOlat das inaktive Konto automatisch.
+
+Daten entfernt erst die Löschung. Sie löscht auch das Passwort unwiderbringlich, siehe [Benutzer:in löschen >](../usermanagement/Delete_User.de.md).
+
 
 [Zum Seitenanfang ^](#lifecycles)

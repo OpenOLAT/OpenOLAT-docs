@@ -60,4 +60,14 @@ Similar to the automatically controlled course lifecycle, the lifecycle of OpenO
 
 Different notifications can be formulated for each step in the context of the steps and the time of the mail notification can be defined.
 
+### Deactivation and reactivation {: #account_reactivation}
+
+Deactivation sets the account status to "Inactive". The person can no longer log in. The account itself is fully retained. Password, profile, roles, group memberships and course data remain unchanged.
+
+Reactivation sets the account status back to "Active". The person logs in with the existing password. A new password is not required.
+
+You reactivate an account manually under User Management > Select user > "Account" tab. If the person logs in via Shibboleth, OpenOlat reactivates the inactive account automatically.
+
+Only deletion removes data. It also deletes the password irrevocably, see [Delete user >](../usermanagement/Delete_User.md).
+
 [To the top of the page ^](#lifecycles)

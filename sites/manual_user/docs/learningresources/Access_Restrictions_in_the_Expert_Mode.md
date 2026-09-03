@@ -151,7 +151,7 @@ participant's first course attendance.
  **Booleans**|  &| Logical AND  
  | \|| Logical OR  
   
-User attributes (UserProperty)
+### User attributes (UserProperty) {: #user_properties}
 
 Various expert rules require the use of user attributes in order to filter
 eligible users for access content. Those rules enable authors to limit access
@@ -171,6 +171,8 @@ parameter if it is a **multi-value field** :
 
   * hasUserProperty("[ _userPropertyname]", "[string]", " , ")_
   * hasNotUserProperty("[ _userPropertyname]", "[string]", " , ")_
+
+### Available user attributes {: #available_user_properties}
 
 The following user attributes are available in OpenOlat. Please note that
 access restrictions using user attributes can only be successful if those user
@@ -198,6 +200,8 @@ institutionalUserIdentifier| Institution identifier (registration number) | offi
 | studySubject| Field of studies | officeCity| Office city | position| Role / position
 | graduation| Graduation year| officeCountry| Office country | userInterests| Expertise
 || officeMobilePhone| Office mobile phone
+
+### Examples and combination of expert rules {: #rule_examples}
 
 Examples on how to apply "getUserProperty":
 

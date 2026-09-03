@@ -161,7 +161,7 @@ Typ| Syntax| Bedeutung
  **Booleans**|  &| Logisches UND  
  | \| | Logisches ODER  
   
- Benutzerattribute (UserProperty)
+### Benutzerattribute (UserProperty) {: #user_properties}
 
 Verschiedene Expertenregeln benötigen Benutzerattribute um Einschränkungen
 vornehmen zu können. Dies ermöglicht bspw. die Einschränkung von Benutzern
@@ -184,6 +184,8 @@ werden, falls es sich um ein **Multi-Value Feld** handelt:
   * hasUserProperty("[ _userPropertyname]", "[string]", " , ")_
 
   * hasNotUserProperty("[ _userPropertyname]", "[string]", " , ")_
+
+### Verfügbare Benutzerattribute {: #available_user_properties}
 
 Die folgenden Benutzerattribute stehen in OpenOlat zur Verfügung. Bitte
 beachten Sie, dass eine Einschränkung mittels Benutzerattributen nur dann
@@ -211,6 +213,8 @@ orgUnit| Organisationseinheit / Studiengruppe| officeZipCode| Dienst-Postleitzah
 studySubject| Studienfach| officeCity| Dienstadresse - Stadt| position| Funktion / Stellung  
 graduation| Abschlussjahr| officeCountry| Dienstadresse - Land| userInterests| Expertise  
 || | officeMobilePhone| Dienstmobiltelefon|  
+
+### Beispiele und Verknüpfung von Expertenregeln {: #rule_examples}
 
 Beispiele für die Anwendung "getUserProperty":
 
