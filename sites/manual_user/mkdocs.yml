@@ -164,7 +164,7 @@ nav:
         - Overview:
           - Introduction: "area_modules/Course_Planner.md"
           - Application map (concept study):
-            - "area_modules/Course_Planner_Map.md"
+            - Overview: "area_modules/Course_Planner_Map.md"
             - Roles:
               - Course planner: "area_modules/course_planner_map/rolle_kursplaner.md"
               - Product owner: "area_modules/course_planner_map/rolle_produktbesitzer.md"
