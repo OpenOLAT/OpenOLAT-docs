@@ -395,5 +395,5 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer auch
 [Website des Herstellers >](http://www.safeexambrowser.org)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
-[Wie richte ich als Administrator:in den Safe Exam Browser systemweit ein? > ](../../manual_how-to/SEB/SEB.de.md)<br>
+[Wie richte ich als Administrator:in den Safe Exam Browser systemweit ein? > ](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
 
