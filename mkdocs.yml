@@ -161,6 +161,12 @@ plugins:
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
           BBB - FAQ : BBB - FAQ
           Badges: Badges
+          Bookings and invoices : Buchungen und Rechnungen
+          Certificates and credit points : Zertifikate und Kreditpunkte
+          Cockpit and widgets : Cockpit und Widgets
+          Copying instead of rebuilding : Kopieren statt neu bauen
+          Course planner : Kursplaner:in
+          Defining structure rules (element types) : Strukturregeln festlegen (Elementtypen)
           eAssessment OpenBadges: Badges
           Basic concepts : Basiskonzepte
           Basic principals : Grundsätze
@@ -186,7 +192,7 @@ plugins:
           Chat : Chat
           Checklist : Checkliste
           Classes : Klassen
-          Coach : Betreuer
+          Coach : Betreuer:in
           Coach files : Unterlagen Betreuer:innen
           Coaching : Coaching
           Cockpit : Cockpit
@@ -292,6 +298,9 @@ plugins:
           E-Mail Settings : E-Mail Einstellungen
           eAssessment : Online Prüfungen
           eAssessment Levels/Grading : eAssessment Einstufung/Noten
+          Element : Element
+          Element owner : Elementbesitzer:in
+          Embedding courses and course templates : Kurse und Kurstemplates einbinden
           ePortfolio : ePortfolio
           Edit a project : Projekt bearbeiten
           edu-sharing: edu-sharing
@@ -300,8 +309,10 @@ plugins:
           Enrolment: Einschreibung
           Events : Termine
           Events and absences : Termine und Absenzen
+          Events, teachers and rooms : Termine, Dozent:innen und Räume
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
+          Excel import and export : Excel-Import und -Export
           Export content : Inhalt exportieren
           Export tests : Tests exportieren
           External catalog : Externer Katalog
@@ -314,6 +325,7 @@ plugins:
           File Hub: File Hub
           Files and Folders : Dateien und Ordner
           Finding courses : Kurse finden
+          Finishing an implementation : Durchführung beenden
           Folder: Ordner
           Folder concept: Ordnerkonzept
           Form : Formular
@@ -378,6 +390,7 @@ plugins:
           How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
           How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
           HTML Page : HTML-Seite
+          Implementation : Durchführung
           Implementations : Durchführungen
           Import questions : Fragen importieren
           Imprint: Impressum
@@ -425,7 +438,9 @@ plugins:
           LTI Page : LTI-Seite
           Making successes and achievements visible : Erfolge und Leistungen sichtbar machen
           Management : Verwaltung
+          Managing members : Mitglieder verwalten
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
+          Master coach : Klassenlehrer:in
           Math formula : Mathematische Formel
           Media Center : Media Center
           Media items : Einzelmedien
@@ -468,6 +483,7 @@ plugins:
           Notes : Notizen
           Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
+          Offering in the catalog : Im Katalog anbieten
           Offers : Angebote
           Offer concepts : Angebotskonzepte
           Offer types : Angebotsarten
@@ -479,7 +495,9 @@ plugins:
           Order management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
           Overview : Übersicht
+          Owner : Besitzer:in
           Page: Seite
+          Participant : Teilnehmer:in
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
@@ -496,6 +514,8 @@ plugins:
           Personal menu and general components: Persönliches Menü und allgemeine Funktionen
           Personal tools : Persönliche Werkzeuge
           Planning :  Planung
+          Planning an implementation : Durchführung planen
+          Planning tasks (to-dos) : Planungsaufgaben (To-dos)
           Podcast : Podcast
           Portal configuration : Portal konfigurieren
           Portfolio : Portfolio
@@ -507,6 +527,8 @@ plugins:
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
+          Product : Produkt
+          Product owner : Produktbesitzer:in
           Products : Produkte
           Import / Export : Import / Export
           Profile : Profil
@@ -520,12 +542,14 @@ plugins:
           Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
+          Recording absences : Absenzen erfassen
           Reference glossary : Referenzglossar
           Reduce storage consumption : Speicherverbrauch reduzieren
           Registration, Login and Logout : Registrierung, Login und Logout
           Release notes: Release Notes
           Reporting : Reporte
           Reports : Reports
+          Reports and evaluations : Reports und Auswertungen
           Requirements : Voraussetzungen
           Requirements when Working with OpenOlat : Voraussetzungen für die Arbeit mit OpenOlat
           Reset data : Daten zurücksetzen
@@ -563,6 +587,7 @@ plugins:
           Start screen : Startscreen
           Structure: Struktur
           Storage folder : Ablageordner
+          Structuring a program (elements) : Lehrgang gliedern (Elemente)
           Subscriptions : Abonnements
           Suggestion for improvement : Verbesserungsvorschlag
           Supported Technologies : Unterstützende Technologien

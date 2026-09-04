@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Concrete implementations arise from the product, for example "Program 2026/27". The implementation is the bookable unit: it carries events, members, offer and status and shows at a glance whether it is fully booked or overbooked.
 
 ## How do I do this?
@@ -30,5 +28,3 @@ Participants become members of an implementation (not of the product or of indiv
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [Course Planner: Events >](../Course_Planner_Events.md)
-
-[To the top of the page ^](#implementation)

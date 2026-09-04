@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Ist der Lehrgang vorbei, wird die Durchführung beendet: Der Status wechselt auf «Beendet», Auswertungen und Zertifikate sind gezogen, nichts bleibt offen.
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Der Status steuert Automatisierungsregeln (Aktion bei Statuswechsel) sowie den Z
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
 [Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)
-
-[Zum Seitenanfang ^](#finish_implementation)

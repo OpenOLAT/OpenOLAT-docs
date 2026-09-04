@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Ganze Semester auf einmal: Produkte, Strukturen und Mitglieder werden per Excel importiert und exportiert, mit Validierung und Fehlerbericht.
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Produkte und Durchführungen können neu erstellt oder aktualisiert werden; Benu
 [Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
 [Course Planner: Import/Export - Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)
-
-[Zum Seitenanfang ^](#import_export)

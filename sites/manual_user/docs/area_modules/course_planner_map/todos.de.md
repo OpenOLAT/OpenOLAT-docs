@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Aus einer Durchführung entstehen laufend Aufgaben: den Raum bestätigen, Unterlagen drucken oder am Ende den Buchungsreport ziehen. Solche Planungsaufgaben hängen als To-dos direkt am betroffenen Teil des Lehrgangs, mit relativen Fristen, die sich beim Kopieren automatisch mitverschieben.
 
 ## Wie setze ich das um?
@@ -29,5 +27,3 @@ To-dos lassen sich auf Übersicht, Produkt, Durchführung und einzelnem Element 
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.de.md)
-
-[Zum Seitenanfang ^](#todos)

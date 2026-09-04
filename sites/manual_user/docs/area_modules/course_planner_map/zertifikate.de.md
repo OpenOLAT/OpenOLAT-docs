@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Durchführungen lassen sich mit Zertifikatsprogrammen verknüpfen; Seriennummern sind menschenlesbar, Kreditpunkte werden inklusive Berechtigungen geprüft. Zum Zertifikatsprogramm gehört die Rezertifizierung: die erneute Erlangung eines Zertifikats nach dessen Ablauf.
 
 ## Wie setze ich das um?
@@ -28,5 +26,3 @@ Ein Zertifikat wird für den Besuch einer Durchführung oder mehrerer Kurse ausg
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../Course_Planner_Certification_Programs.de.md)
-
-[Zum Seitenanfang ^](#certificates)

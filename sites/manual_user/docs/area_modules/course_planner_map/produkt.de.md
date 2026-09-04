@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Die Bildungsverantwortliche legt ein Produkt an (bis Version 20.1 «Curriculum» genannt) und baut die Struktur auf: Lehrgang, Module, Einzelkurse. Jedes Element durchläuft einen Lebenszyklus von «Vorbereitung» über «Provisorisch», «Bestätigt» und «Aktiv» bis «Beendet» oder «Abgebrochen».
 
 ## Wie setze ich das um?
@@ -29,5 +27,3 @@ Das Produkt ist die zentrale Kopiervorlage, auf der die Durchführungen basieren
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)
-
-[Zum Seitenanfang ^](#product)

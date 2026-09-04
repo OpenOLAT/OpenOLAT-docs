@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Courses are embedded instead of duplicated: existing courses receive the usage "Use in Course Planner", course templates are only instantiated into real courses when needed. Title, reference and dates stay in sync with the element.
 
 ## How do I do this?
@@ -31,5 +29,3 @@ Embedded courses have no standalone member management: this runs via the impleme
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Module Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.md)
-
-[To the top of the page ^](#courses)

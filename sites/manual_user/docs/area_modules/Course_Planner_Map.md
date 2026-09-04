@@ -6,7 +6,27 @@
 The rings show containment: the product contains implementations, these contain elements, these contain courses. Dashed segments are functions docked to their level. Every area is clickable and leads to a short version (how, prerequisites, where to find it, relations); from there, the manual link opens the full description in a new browser tab.
 
 <div style="max-width:1450px">
-<svg viewBox="0 0 820 860" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Course Planner application map: concentric rings of the levels product, implementation, element and course">
+<svg viewBox="0 0 820 125" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Roles and accounts in the Course Planner">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 600; fill: #344054; }
+  a { cursor: pointer; }
+  a:hover .seg path { stroke-width: 3.5; }
+  a:hover .chip rect { stroke-width: 3; }
+  a:focus { outline: 2px solid #2E6BBF; }
+</style>
+<text x="21" y="18" font-size="13.8" fill="#64748b">Roles &amp; accounts (dashed = organisation role)</text>
+<a href="../course_planner_map/rolle_kursplaner/"><title>Course planner</title><g class="chip"><rect x="98" y="28" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5" stroke-dasharray="5 3"/><text x="173" y="52.5" text-anchor="middle" font-size="15">Course planner</text></g></a>
+<a href="../course_planner_map/rolle_produktbesitzer/"><title>Product owner</title><g class="chip"><rect x="256" y="28" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="331" y="52.5" text-anchor="middle" font-size="15">Product owner</text></g></a>
+<a href="../course_planner_map/rolle_elementbesitzer/"><title>Element owner</title><g class="chip"><rect x="414" y="28" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="489" y="52.5" text-anchor="middle" font-size="15">Element owner</text></g></a>
+<a href="../course_planner_map/rolle_besitzer/"><title>Owner</title><g class="chip"><rect x="572" y="28" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="647" y="52.5" text-anchor="middle" font-size="15">Owner</text></g></a>
+<a href="../course_planner_map/rolle_betreuer/"><title>Coach</title><g class="chip"><rect x="177" y="76" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="252" y="100.5" text-anchor="middle" font-size="15">Coach</text></g></a>
+<a href="../course_planner_map/rolle_klassenlehrer/"><title>Master coach</title><g class="chip"><rect x="335" y="76" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="410" y="100.5" text-anchor="middle" font-size="15">Master coach</text></g></a>
+<a href="../course_planner_map/rolle_teilnehmer/"><title>Participant</title><g class="chip"><rect x="493" y="76" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="568" y="100.5" text-anchor="middle" font-size="15">Participant</text></g></a>
+</svg>
+</div>
+
+<div style="max-width:1450px">
+<svg viewBox="0 0 820 705" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Course Planner application map: concentric rings of the levels product, implementation, element and course">
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 600; fill: #344054; }
   a { cursor: pointer; }
@@ -36,14 +56,6 @@ rules</title><g class="seg"><path d="M 312.4920058203221 220.74415247087143 A 17
 <a href="../course_planner_map/mitglieder/"><title>Members</title><g class="seg"><path d="M 700.3737427702794 199.0432060782161 A 332 332 0 0 1 721.9779501009216 246.44931241587796 L 661.8376223706234 268.33860158872073 A 268 268 0 0 0 644.3980815133581 230.07102177398164 Z" fill="#2E6BBF" fill-opacity="0.075" stroke="#407303" stroke-width="2"/><text x="682.988381262963" y="235.59202720312834" text-anchor="middle" dominant-baseline="central" transform="rotate(-24.5 682.988381262963 235.59202720312834)" font-size="12.1"><tspan x="682.988381262963" dy="0em">Members</tspan></text></g></a>
 <a href="../course_planner_map/produkt/"><title>Product</title><g class="seg"><circle cx="410" cy="360" r="80" fill="#2E6BBF"/><text x="410" y="358" text-anchor="middle" font-size="19.5" style="fill:#fff" font-weight="700">Product</text><text x="410" y="378" text-anchor="middle" font-size="12.6" style="fill:#fff" opacity="0.85">contains implementations</text></g></a>
 <a href="../course_planner_map/dashboard/"><title>Cockpit and widgets</title><g class="chip"><rect x="21" y="24" width="230" height="46" rx="9" fill="#EEF4FB" stroke="#18188F" stroke-width="1.5"/><text x="136" y="43" text-anchor="middle" font-size="15">Module Course Planner</text><text x="136" y="60" text-anchor="middle" font-size="12.6" fill="#64748b">Cockpit &amp; widgets · Layer 3</text></g></a>
-<text x="21" y="748" font-size="13.8" fill="#64748b">Roles &amp; accounts (dashed = organisation role)</text>
-<a href="../course_planner_map/rolle_kursplaner/"><title>Course planner</title><g class="chip"><rect x="98" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5" stroke-dasharray="5 3"/><text x="173" y="782.5" text-anchor="middle" font-size="15">Course planner</text></g></a>
-<a href="../course_planner_map/rolle_produktbesitzer/"><title>Product owner</title><g class="chip"><rect x="256" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="331" y="782.5" text-anchor="middle" font-size="15">Product owner</text></g></a>
-<a href="../course_planner_map/rolle_elementbesitzer/"><title>Element owner</title><g class="chip"><rect x="414" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="489" y="782.5" text-anchor="middle" font-size="15">Element owner</text></g></a>
-<a href="../course_planner_map/rolle_besitzer/"><title>Owner</title><g class="chip"><rect x="572" y="758" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="647" y="782.5" text-anchor="middle" font-size="15">Owner</text></g></a>
-<a href="../course_planner_map/rolle_betreuer/"><title>Coach</title><g class="chip"><rect x="177" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="252" y="830.5" text-anchor="middle" font-size="15">Coach</text></g></a>
-<a href="../course_planner_map/rolle_klassenlehrer/"><title>Master coach</title><g class="chip"><rect x="335" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="410" y="830.5" text-anchor="middle" font-size="15">Master coach</text></g></a>
-<a href="../course_planner_map/rolle_teilnehmer/"><title>Participant</title><g class="chip"><rect x="493" y="806" width="150" height="40" rx="9" fill="#EEF4FB" stroke="#344054" stroke-width="1.5"/><text x="568" y="830.5" text-anchor="middle" font-size="15">Participant</text></g></a>
 </svg>
 </div>
 

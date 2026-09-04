@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 An implementation continuously produces tasks: confirm the room, print the documents or, at the end, pull the booking report. Such planning tasks are attached as to-dos directly to the affected part of the study programme, with relative deadlines that shift automatically when copying.
 
 ## How do I do this?
@@ -29,5 +27,3 @@ To-dos can be recorded on the overview, the product, the implementation and each
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.md)
-
-[To the top of the page ^](#todos)

@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 When the program is over, the implementation is finished: the status changes to "Finished", evaluations and certificates have been produced, nothing remains open.
 
 ## How do I do this?
@@ -30,5 +28,3 @@ The status controls automation rules (action on status change) as well as access
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [Module Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.md)
-
-[To the top of the page ^](#finish_implementation)

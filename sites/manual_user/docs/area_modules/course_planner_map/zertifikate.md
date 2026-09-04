@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Implementations can be linked to certification programs; serial numbers are human-readable, credit points are checked including the permissions. Recertification is part of the certification program: obtaining a certificate again after it has expired.
 
 ## How do I do this?
@@ -28,5 +26,3 @@ A certificate is issued for attending one implementation or several courses; the
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Certification programs >](../Course_Planner_Certification_Programs.md)
-
-[To the top of the page ^](#certificates)

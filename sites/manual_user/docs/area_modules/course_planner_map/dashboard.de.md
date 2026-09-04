@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Das Dashboard ist die Schaltzentrale des Course Planners und begleitet alle Prozessschritte: ausstehende Mitgliedschaften, anstehende Termine, Angebote, Durchführungen, To-dos und Reports.
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennza
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.de.md)
-
-[Zum Seitenanfang ^](#dashboard)

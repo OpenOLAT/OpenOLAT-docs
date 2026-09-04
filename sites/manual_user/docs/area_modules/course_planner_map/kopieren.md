@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 The next implementation is not rebuilt but copied: the copy wizard takes over structure, courses and events and shifts all dates to the new start date.
 
 ## How do I do this?
@@ -30,5 +28,3 @@ Creates the next implementation from an existing one. The link to the certificat
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../Course_Planner_Certification_Programs.md)
-
-[To the top of the page ^](#copy)

@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Buchhaltungs-, Buchungs-, Rechnungs- und Zertifikatsreports stehen direkt im Course Planner bereit.
 
 ## Wie setze ich das um?
@@ -31,5 +29,3 @@ Reports beziehen sich auf die eigene Organisation (nicht organisationsübergreif
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Reports >](../Course_Planner_Reports.de.md)<br>
 [Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)
-
-[Zum Seitenanfang ^](#reports)

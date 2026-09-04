@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Booking orders accumulate directly on the implementation: confirm, cancel (with or without a fee), maintain the invoice and payment status.
 
 ## How do I do this?
@@ -31,5 +29,3 @@ Booking orders arise from catalog bookings; the offer type "Invoice" supplies th
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Catalog 2.0 - Offers >](../catalog2.0_angebote.md)<br>
 [Course Planner: Reports >](../Course_Planner_Reports.md)
-
-[To the top of the page ^](#bookings)

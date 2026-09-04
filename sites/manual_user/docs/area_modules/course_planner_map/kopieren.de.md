@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Für die nächste Durchführung wird nicht neu gebaut, sondern kopiert: Der Kopier-Wizard übernimmt Struktur, Kurse und Termine und verschiebt alle Daten auf das neue Startdatum.
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Erzeugt die nächste Durchführung aus einer bestehenden. Die Verknüpfung zum Z
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../Course_Planner_Certification_Programs.de.md)
-
-[Zum Seitenanfang ^](#copy)

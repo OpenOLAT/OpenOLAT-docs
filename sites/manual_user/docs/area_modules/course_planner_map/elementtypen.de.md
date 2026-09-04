@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Bevor das erste Bildungsprodukt entsteht, legt die Administration die Spielregeln fest: Aus welchen Bestandteilen soll ein Lehrgang bestehen, was darf/soll zuoberst stehen, was worin liegen? In OpenOlat heissen diese Regeln «Elementtypen»; sie geben allen späteren Strukturen einen verlässlichen Rahmen.
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Elementtypen bestimmen, welche Elemente ein Produkt enthalten darf und ihre Hier
 [Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)
-
-[Zum Seitenanfang ^](#element_types)

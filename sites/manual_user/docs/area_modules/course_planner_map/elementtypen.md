@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Before the first educational product is created, the administration sets the rules of the game: which components should a program consist of, what may or should be at the top, what lies within what? In OpenOlat these rules are called "element types"; they give all later structures a reliable framework.
 
 ## How do I do this?
@@ -30,5 +28,3 @@ Element types determine which elements a product may contain and their hierarchy
 [Module Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)
-
-[To the top of the page ^](#element_types)

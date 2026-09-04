@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 The dashboard is the control center of the Course Planner and accompanies all process steps: pending memberships, upcoming events, offers, implementations, to-dos and reports.
 
 ## How do I do this?
@@ -30,5 +28,3 @@ The widgets (implementations, events, participants, to-dos) bundle key figures a
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.md)
-
-[To the top of the page ^](#dashboard)

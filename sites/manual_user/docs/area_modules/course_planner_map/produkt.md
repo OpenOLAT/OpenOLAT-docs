@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 The person responsible for education creates a product (called "Curriculum" up to version 20.1) and builds up its structure: study programme, modules, single courses. Every element passes through a life cycle from "Preparation" via "Provisional", "Confirmed" and "Active" to "Finished" or "Cancelled".
 
 ## How do I do this?
@@ -29,5 +27,3 @@ The product is the central copy template on which the implementations are based.
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)
-
-[To the top of the page ^](#product)

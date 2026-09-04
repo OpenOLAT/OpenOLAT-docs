@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Kurse werden eingebunden statt dupliziert: Bestehende Kurse erhalten den Verwendungszweck «Verwendung im Course Planner», Kurstemplates werden erst bei Bedarf zu echten Kursen instanziert. Titel, Kennzeichen und Daten bleiben mit dem Element synchron.
 
 ## Wie setze ich das um?
@@ -31,5 +29,3 @@ Eingebundene Kurse haben keine eigenständige Mitgliederverwaltung: Diese läuft
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)
-
-[Zum Seitenanfang ^](#courses)

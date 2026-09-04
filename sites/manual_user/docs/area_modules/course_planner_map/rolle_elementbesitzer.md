@@ -3,8 +3,6 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-[:material-arrow-left: Back to the overview](../../Course_Planner_Map/)
-
 Manages single Course Planner elements of their own: full access to their content and events; members and settings read only. Other people's elements stay hidden, deleting is not possible.
 
 ## Access
@@ -16,5 +14,3 @@ Access restricted to the assigned element (and its sub-elements) within a produc
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Roles and Rights: Authorisation in courses >](../../basic_concepts/Authorisation_Concept.md)
-
-[To the top of the page ^](#role_element_owner)

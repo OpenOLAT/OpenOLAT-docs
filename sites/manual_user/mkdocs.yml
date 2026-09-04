@@ -163,7 +163,36 @@ nav:
     - Course Planner:
         - Overview:
           - Introduction: "area_modules/Course_Planner.md"
-          - Application map (concept study): "area_modules/Course_Planner_Map.md"
+          - Application map (concept study):
+            - "area_modules/Course_Planner_Map.md"
+            - Roles:
+              - Course planner: "area_modules/course_planner_map/rolle_kursplaner.md"
+              - Product owner: "area_modules/course_planner_map/rolle_produktbesitzer.md"
+              - Element owner: "area_modules/course_planner_map/rolle_elementbesitzer.md"
+              - Owner: "area_modules/course_planner_map/rolle_besitzer.md"
+              - Coach: "area_modules/course_planner_map/rolle_betreuer.md"
+              - Master coach: "area_modules/course_planner_map/rolle_klassenlehrer.md"
+              - Participant: "area_modules/course_planner_map/rolle_teilnehmer.md"
+            - Cockpit and widgets: "area_modules/course_planner_map/dashboard.md"
+            - Product: "area_modules/course_planner_map/produkt.md"
+            - Implementation:
+              - Planning an implementation: "area_modules/course_planner_map/durchfuehrung.md"
+              - Defining structure rules (element types): "area_modules/course_planner_map/elementtypen.md"
+              - Copying instead of rebuilding: "area_modules/course_planner_map/kopieren.md"
+              - Excel import and export: "area_modules/course_planner_map/import.md"
+              - Reports and evaluations: "area_modules/course_planner_map/reports.md"
+              - Finishing an implementation: "area_modules/course_planner_map/abschliessen.md"
+            - Element:
+              - Structuring a program (elements): "area_modules/course_planner_map/element.md"
+              - Offering in the catalog: "area_modules/course_planner_map/angebote.md"
+              - Bookings and invoices: "area_modules/course_planner_map/buchungen.md"
+              - Certificates and credit points: "area_modules/course_planner_map/zertifikate.md"
+            - Course:
+              - Embedding courses and course templates: "area_modules/course_planner_map/kurse.md"
+              - Events, teachers and rooms: "area_modules/course_planner_map/termine.md"
+              - Planning tasks (to-dos): "area_modules/course_planner_map/todos.md"
+              - Recording absences: "area_modules/course_planner_map/absenzen.md"
+              - Managing members: "area_modules/course_planner_map/mitglieder.md"
         - Dashboard: "area_modules/Course_Planner_Dashboard.md"
         - Products: "area_modules/Course_Planner_Products.md"
         - Import / Export: "area_modules/Course_Planner_Import_Export.md"

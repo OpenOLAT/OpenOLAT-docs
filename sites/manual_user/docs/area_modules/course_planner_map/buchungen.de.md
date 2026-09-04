@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Buchungsaufträge laufen direkt an der Durchführung auf: bestätigen, stornieren (mit oder ohne Gebühr), Rechnungs- und Zahlungsstatus pflegen.
 
 ## Wie setze ich das um?
@@ -31,5 +29,3 @@ Buchungsaufträge entstehen aus Katalogbuchungen; der Angebotstyp «Rechnung» l
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Katalog 2.0 - Angebote >](../catalog2.0_angebote.de.md)<br>
 [Course Planner: Reports >](../Course_Planner_Reports.de.md)
-
-[Zum Seitenanfang ^](#bookings)

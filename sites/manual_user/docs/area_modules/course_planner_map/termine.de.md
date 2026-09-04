@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Termine hängen direkt am Element: mit Verwaltung der Dozent:innen per Massenaktion, automatisch erstellten Online Meetings (BigBlueButton, MS Teams) und Taxonomie-Zuordnung. Für physische Termine kommt die Raumverwaltung dazu. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570)
 
 ## Wie setze ich das um?
@@ -30,5 +28,3 @@ Termine beziehen sich auf eine Durchführung bzw. ein Element und ermöglichen A
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
 [Termine und Absenzen >](../../basic_concepts/Events_and_Absences.de.md)
-
-[Zum Seitenanfang ^](#events)

@@ -3,8 +3,6 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-[:material-arrow-left: Zurück zur Übersicht](../../Course_Planner_Map/)
-
 Durchführungen erhalten Angebote mit Preis, Teilnehmerzahl und Werbedaten und erscheinen mit eigener Infoseite im Katalog. Anzeigeregeln steuern, wann welche Durchführung sichtbar ist.
 
 ## Wie setze ich das um?
@@ -31,5 +29,3 @@ Das Angebot platziert die Durchführung im Katalog, ermöglicht damit die Buchun
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)
-
-[Zum Seitenanfang ^](#offers)
