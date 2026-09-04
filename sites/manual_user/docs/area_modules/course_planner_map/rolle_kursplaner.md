@@ -1,7 +1,7 @@
 # Course planner {: #role_course_planner}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Organisation role with full access to the Course Planner: manages the products and implementations of their own organisation, uses import and export and opens embedded courses in read mode with the right to change their status.
 

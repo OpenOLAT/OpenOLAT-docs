@@ -1,7 +1,7 @@
 # Certificates and credit points {: #certificates}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Implementations can be linked to certification programs; serial numbers are human-readable, credit points are checked including the permissions. Recertification is part of the certification program: obtaining a certificate again after it has expired.
 
@@ -17,7 +17,7 @@ Course Planner activated; implementations to link exist. For credit points as a 
 
 `Course Planner > Certification programs`
 
-## Context
+## Connections
 
 A certificate is issued for attending one implementation or several courses; the linked implementations are combined with OR (one is enough). Unmet recertification criteria end the membership automatically.
 

@@ -1,7 +1,7 @@
 # Product owner {: #role_product_owner}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Manages a whole product in the Course Planner: all actions on its implementations (structure, content, events, members, catalog, absences, reports), but without the Owners tab and without deleting the product.
 

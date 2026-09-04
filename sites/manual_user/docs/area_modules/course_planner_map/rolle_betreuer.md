@@ -1,7 +1,7 @@
 # Coach {: #role_coach}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Coaches participants in courses and implementations: own events, recording of absences and a coaching view of the coached persons.
 

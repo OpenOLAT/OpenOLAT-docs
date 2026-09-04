@@ -1,7 +1,7 @@
 # Participant {: #role_participant}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 The learner: books through the catalog, passes through the membership workflow (pending, active) and works in the embedded courses of the implementation.
 

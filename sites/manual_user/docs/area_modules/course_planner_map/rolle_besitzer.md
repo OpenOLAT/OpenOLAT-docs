@@ -1,7 +1,7 @@
 # Owner {: #role_owner}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Owner of a learning resource or a course. Restricted for courses embedded in the Course Planner: members are managed through the Course Planner, to-dos can be marked as done.
 

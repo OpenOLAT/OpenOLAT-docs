@@ -1,7 +1,7 @@
 # Reports and evaluations {: #reports}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Accounting, booking, invoice and certificate reports are available directly in the Course Planner.
 
@@ -19,7 +19,7 @@ Role Course owner, Principal or Administrator; existing booking orders.
 `Course Planner > Products > "Your product" > Reports tab`<br>
 `Course Planner > Implementations > "Your implementation" > Reports tab`
 
-## Context
+## Connections
 
 Reports refer to your own organisation (not across organisations). The export is divided into worksheets per offer type and is suitable, for example, for handover to external invoicing.
 

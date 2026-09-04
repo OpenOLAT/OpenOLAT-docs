@@ -1,7 +1,7 @@
 # Element owner {: #role_element_owner}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 Manages single Course Planner elements of their own: full access to their content and events; members and settings read only. Other people's elements stay hidden, deleting is not possible.
 

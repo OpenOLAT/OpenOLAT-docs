@@ -1,7 +1,7 @@
 # Course Planner: Application map {: #course_planner_map}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately condensed. The regular manual page [Course Planner](../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../Course_Planner/) is authoritative.
 
 The rings show containment: the product contains implementations, these contain elements, these contain courses. Dashed segments are functions docked to their level. Every area is clickable and leads to a short version (how, prerequisites, where to find it, relations); from there, the manual link opens the full description in a new browser tab.
 

@@ -1,7 +1,7 @@
 # Planning tasks (to-dos) [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417) {: #todos}
 
 !!! warning "Concept study: possible new presentation"
-    This page is part of an experiment exploring a visual entry point for the Course Planner. The content is deliberately abridged. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
+    This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
 An implementation continuously produces tasks: confirm the room, print the documents or, at the end, pull the booking report. Such planning tasks are attached as to-dos directly to the affected part of the study programme, with relative deadlines that shift automatically when copying.
 
@@ -18,7 +18,7 @@ Course Planner activated. For relative due/start dates, an implementation period
 `Course Planner > Products > "Your element" > To-dos tab`<br>
 `Course Planner > Productivity > To-dos`
 
-## Context
+## Connections
 
 To-dos can be recorded on the overview, the product, the implementation and each single element. Course planners and element owners create and edit them, course owners can only mark them as done, principals can only view them. When an implementation is copied, the to-dos are copied along.
 
