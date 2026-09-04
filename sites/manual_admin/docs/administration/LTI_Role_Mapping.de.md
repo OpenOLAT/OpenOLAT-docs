@@ -1,27 +1,31 @@
-# LTI - Rollen-Mapping {: #LTI_role_mapping}
+# LTI - Rollen-Mapping [:octicons-tag-16:{ title="ab Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003) {: #LTI_role_mapping}
 
-:octicons-tag-24: Release 20.2
+Beim Aufruf eines externen Tools sendet OpenOlat die LTI-Rollen der aufrufenden Person mit. Welche LTI-Rollen eine Person erhält, hängt von ihrer Kursrolle ab. Kursbesitzer:innen legen diese Zuordnung im Kurseditor fest, im [Kursbaustein "LTI-Seite"](../../manual_user/learningresources/Course_Element_LTI_Page.de.md), Tab "Seiteninhalt". Administrator:innen begrenzen in der System-Administration, welche LTI-Rollen Kursbesitzer:innen dabei zur Wahl haben, und setzen die Standardwerte für neue Kursbausteine.
 
-Bei der Konfiguration eines LTI-Kursbausteins im Kurseditor kann der Autor festlegen, welche LTI-Rollen einem Benutzer 
-automatisch aufgrund seiner Rolle im Kurs zugewiesen werden. In der Regel gibt es bestimmte Einschränkungen 
-hinsichtlich der LTI-Rollen, die bestimmten Kursrollen zugewiesen werden können.
+## Zuordnung im Kurseditor {: #course_editor}
 
+Im Tab "Seiteninhalt" ordnen Kursbesitzer:innen den drei Kursrollen "Besitzer:in", "Betreuer:in" und "Teilnehmer:in" je eine oder mehrere der sechs LTI-Rollen zu: "Lerner", "Instruktor", "Administrator:in", "Assistent Lehrperson", "Inhaltsersteller" und "Mentor". Ein neu angelegter Kursbaustein übernimmt die Standardwerte aus der System-Administration. Beim Kopieren eines Kursbausteins oder eines Kurses bleibt die bestehende Zuordnung erhalten.
 
-Im folgenden Beispiel ist die Zuweisung der LTI-Rolle "Administrator" an einen Kursbenutzer mit den Rollen
-"Autor", "Betreuer" oder "Teilnehmer" deaktiviert:
+LTI-Rollen, die die System-Administration nicht freigegeben hat, sind für Kursbesitzer:innen ausgegraut. Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs zugeordnet ist, können alle LTI-Rollen zuweisen. Im folgenden Beispiel ist die LTI-Rolle "Administrator:in" für alle drei Kursrollen gesperrt:
 
-![LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" }
+![Spalte Administrator:in für die drei Kursrollen ausgegraut und markiert, die übrigen fünf LTI-Rollen bleiben wählbar, im Tab Seiteninhalt des Kursbausteins LTI-Seite im Kurseditor](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" }
 
-Wenn OpenOlat beim Ausführen des Kurses die Verbindung zum LTI Tool herstellt, sendet OpenOlat automatisch die 
-LTI-Rollen zusammen mit der E-Mail-Adresse des Benutzers, der Deployment ID und anderen Attributen an das LTI Tool.
+Beim Aufruf des Kursbausteins sendet OpenOlat die LTI-Rollen zusammen mit der Deployment ID und den weiteren konfigurierten Attributen, zum Beispiel der E-Mail-Adresse, an das Tool.
 
-Die Registerkarte "Rollen-Mapping" in der LTI-Verwaltung legt fest, welche LTI-Rollen Kursbesitzer:innen im Kurseditor den drei Kursrollen "Besitzer:in", "Betreuer:in" und "Teilnehmer:in" zuweisen darf:
+## Einstellungen in der System-Administration {: #administration}
 
-![LTI_role_mapping_admin_v1_en.png](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" }
+Administrator:innen legen in der System-Administration unter `Administration > Externe Werkzeuge > LTI`, Tab "Rollen-Mapping", die Grenzen und Standardwerte fest:
 
-Das System verwendet Standardwerte, die denen in den obigen Screenshots ähneln. Diese Standardwerte sind in der Datei
-olat.properties gespeichert und müssen nicht geändert werden, es sei denn, Sie möchten andere Einschränkungen anwenden. 
-Die Standardwerte in olat.properties sind:
+| Feld | Bemerkung |
+|---|---|
+| Konfigurierbar durch Kursbesitzer:innen | Die LTI-Rollen, die Kursbesitzer:innen im Kurseditor zuweisen dürfen. Nicht gewählte LTI-Rollen sind im Kurseditor ausgegraut. |
+| Standardeinstellungen für Besitzer:innen | Die LTI-Rollen, die ein neuer Kursbaustein "LTI-Seite" der Kursrolle Besitzer:in vorbelegt. |
+| Standardeinstellungen für Betreuer:innen | Die Vorbelegung für die Kursrolle Betreuer:in. |
+| Standardeinstellungen für Teilnehmer:in | Die Vorbelegung für die Kursrolle Teilnehmer:in. |
+
+![Konfigurierbar durch Kursbesitzer:innen ohne Administrator:in, darunter die Standardeinstellungen je Kursrolle, im Tab Rollen-Mapping der Seite LTI in der System-Administration](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" }
+
+Die Standardwerte stehen in der Datei `olat.properties`:
 
 ```
 # LTI roles (capitalized) that can be assigned to users based on their OpenOlat roles in the course editor by the course owner.
@@ -39,27 +43,20 @@ lti13.default.role.settings.for.participants=LEARNER
 lti13.default.role.settings.for.xxx.values=LEARNER,INSTRUCTOR,ADMINISTRATOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
 ```
 
-Wenn Sie die Werte in olat.properties überschreiben möchten, können Sie dies tun, indem Sie die entsprechenden Eigenschaften in der Datei olat.local.properties bearbeiten.
-
-Die Einstellungen in der Datei olat.local.properties übersteuern die Standardeinstellungen in olat.properties, und die Einstellungen in der OpenOlat Administration übersteuern die Einstellungen in olat.local.properties.
-
-
+Um die Standardwerte zu ändern, tragen Sie die entsprechenden Eigenschaften in der Datei `olat.local.properties` ein oder passen Sie die Werte direkt im Tab "Rollen-Mapping" an. Die Werte in `olat.local.properties` übersteuern `olat.properties`, und die Einstellungen im Tab "Rollen-Mapping" übersteuern `olat.local.properties`.
 
 ## Weiterführende Informationen {: #further_information}
 
-IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
+**Auf dieser Seite erwähnt**<br>
+[Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
-Administrationshandbuch: [LTI 1.3 Integration](../administration/LTI_Integrations.de.md)
+**Weiterführend**<br>
+[Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
+[LTI - Externe Werkzeuge >](../administration/LTI_External_tools.de.md)<br>
+[LTI - Externe Plattformen >](../administration/LTI_External_platforms.de.md)<br>
+[LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)<br>
+[LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
+[LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)
 
-Administrationshandbuch: [LTI - Externe Werkzeuge](../administration/LTI_External_tools.de.md)
-
-Administrationshandbuch: [LTI - Externe Plattformen](../administration/LTI_External_platforms.de.md)
-
-Administrationshandbuch: [LTI - Deep Linking](../administration/LTI_Deeplinking.de.md)
-
-Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
-
-Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
-
-Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
-
+[Zum Seitenanfang ^](#LTI_role_mapping)

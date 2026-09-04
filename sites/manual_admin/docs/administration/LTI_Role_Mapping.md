@@ -1,28 +1,31 @@
-# LTI - Role mapping {: #LTI_role_mapping}
+# LTI - Role mapping [:octicons-tag-16:{ title="from Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003) {: #LTI_role_mapping}
 
-:octicons-tag-24: Release 20.2
+When an external tool is launched, OpenOlat sends the LTI roles of the launching person along. Which LTI roles a person receives depends on their course role. Course owners define this mapping in the course editor, in the [course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md), tab "Page content". Administrators limit in the system administration which LTI roles course owners can choose from, and set the default values for new course elements.
 
+## Mapping in the course editor {: #course_editor}
 
-When configuring an LTI course element in the course editor, the author can specify which LTI roles are automatically
-assigned to a user based on their role in the course. Typically, there are certain limitations as to which LTI roles
-can be assigned to which course roles. 
+In the tab "Page content", course owners assign one or more of the six LTI roles to each of the three course roles "Author", "Coach" and "Participant": "Learner", "Instructor", "Administrator", "Teaching assistant", "Content developer" and "Mentor". A newly created course element takes over the default values from the system administration. When a course element or a course is copied, the existing mapping is retained.
 
-In the example below, assigning the LTI role 'Administrator' to a course user with roles 'Author', 'Coach', or 
-'Participant' is disabled:
+LTI roles that the system administration has not released are greyed out for course owners. Administrators and learning resource managers of the organisation to which the course is assigned can assign all LTI roles. In the following example, the LTI role "Administrator" is locked for all three course roles:
 
-![LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" }
+![Column Administrator greyed out and highlighted for the three course roles, the other five LTI roles remain selectable, in the tab Page content of the course element LTI Page in the course editor](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" }
 
-When OpenOlat establishes the connection to the LTI tool when running the course, OpenOlat automatically sends the LTI 
-roles to the LTI tool, along with the user's email address, the deployment ID and other attributes.
+When the course element is launched, OpenOlat sends the LTI roles to the tool together with the deployment ID and the other configured attributes, for example the e-mail address.
 
-The configuration tab 'Role mapping' in the LTI administration specifies which LTI roles a course owner is allowed to 
-assign to the three course roles "Owner", "Coach" and "Participant" in the course editor: 
+## Settings in the system administration {: #administration}
 
-![LTI_role_mapping_admin_v1_en.png](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" }
+Administrators define the limits and default values in the system administration under `Administration > External tools > LTI`, tab "Role mapping":
 
-The system uses default values similar to the ones in the screenshots above. These default values are stored in the
-olat.properties file and do not need to be changed unless you want to apply other restrictions. The default values
-in olat.properties are:
+| Field | Note |
+|---|---|
+| Configurable by course owner | The LTI roles that course owners may assign in the course editor. LTI roles not selected here are greyed out in the course editor. |
+| Default settings for owners | The LTI roles that a new course element "LTI Page" preselects for the course role owner. |
+| Default settings for coaches | The preselection for the course role coach. |
+| Default settings for participants | The preselection for the course role participant. |
+
+![Configurable by course owner without Administrator, below it the default settings per course role, in the tab Role mapping on the page LTI in the system administration](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" }
+
+The default values are stored in the file `olat.properties`:
 
 ```
 # LTI roles (capitalized) that can be assigned to users based on their OpenOlat roles in the course editor by the course owner.
@@ -40,27 +43,20 @@ lti13.default.role.settings.for.participants=LEARNER
 lti13.default.role.settings.for.xxx.values=LEARNER,INSTRUCTOR,ADMINISTRATOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
 ```
 
-If you want to override the values in olat.properties, you can do so by editing the corresponding properties in the 
-olat.local.properties file.
-
-The settings in the olat.local.properties file override the default settings in olat.properties, and the 
-settings in the OpenOlat administration override the settings in olat.local.properties.
-
+To change the default values, enter the corresponding properties in the file `olat.local.properties` or adjust the values directly in the tab "Role mapping". The values in `olat.local.properties` override `olat.properties`, and the settings in the tab "Role mapping" override `olat.local.properties`.
 
 ## Further information {: #further_information}
 
-IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
+**Mentioned on this page**<br>
+[Course element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-Admin manual: [LTI 1.3 Integrations](../administration/LTI_Integrations.md)
+**Further reading**<br>
+[Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
+[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
+[LTI - External tools >](../administration/LTI_External_tools.md)<br>
+[LTI - External platforms >](../administration/LTI_External_platforms.md)<br>
+[LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
+[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
+[Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)
 
-Admin manual: [LTI - External tools](../administration/LTI_External_tools.md)
-
-Admin manual: [LTI - External platforms](../administration/LTI_External_platforms.md)
-
-Admin manual: [LTI - Deep Linking](../administration/LTI_Deeplinking.md)
-
-User manual: [Configure LTI access to course](../../manual_user/learningresources/LTI_Share_courses.md)
-
-User manual: [Course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md)
-
-User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
+[To the top of the page ^](#LTI_role_mapping)

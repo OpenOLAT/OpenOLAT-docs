@@ -1,74 +1,48 @@
-# Landing pages
+# Landing pages {: #landing_pages}
 
-Specify exactly who is presented with which landing page by defining finely-
-grained rule sets depending on user role and user attribute. Landing pages are
-assigned to each user group / rule separately. You can create as many rules as
-necessary, but please note that rules are independent of each other and must
-not necessarily be all true, and that it's always the first matching rule
-that's applied. Because of that, you might want to give the order of the rules
-some consideration.
+Administrators specify here in fine-grained detail which user groups are presented with which landing page when they log in to OpenOlat. You find the setting in the system administration under:<br>
+`Administration > Core functions > Landing pages`
+
+You define the specific user group either by role and / or by a user attribute, and then assign the corresponding landing page to this group by means of Landing page and Selection. You can create as many rules as necessary, but please note that it is always the first matching rule that is applied. The rules are independent of each other and do not all have to match; only the order is relevant.
 
 !!! info "Important"
 
-    Each user can choose their preferred landing page in the personal menu under
-    [`Settings > System > Specific system settings`](../../manual_user/personal_menu/Settings.md#special).
-    However, this overrides the system default.
+    The user-specific landing page that users set for themselves in the personal menu under [`Settings > System > Specific system settings`](../../manual_user/personal_menu/Settings.md#special) overrides the system-wide landing page.
 
-![](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
+![Three rules by position, each with role, user attribute, value, landing page and selection, plus Up, Down, Add and Delete; page Landing pages in the Core functions](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
 
-The **position** defines the order in which the rules are applied: the first
-rule to match with a user role or an attribute, is applied, and the
-corresponding landing page is displayed. You can change the order by moving
-rules **up** or **down**. You can always **add** new rules or **delete**
-existing ones.
+The **Position** defines the order in which the rules are checked: the first rule that matches determines the page for the user group concerned. You change the position via the columns **Up** / **Down**. You add further rules via the column **Add** and remove a rule via **Delete**. Click **Save** to apply the rules.
 
-Adding a **role** allows you to set a landing page for users with a specific
-role (e.g. Author or Question bank manager), such as the setting the
-"Authoring" site for authors. If no role is selected, subsequent restrictions
-apply to all system users, independent of their role.
+Via **Role** you define whether you want to set a specific landing page for users with a specific role (e.g. Course authors or Pool managers), for example the "Authoring" site for all authors. If no role is selected, any subsequent restrictions apply to all registered users, independent of their role.
 
-You can further specify the previously selected user group (either all system
-users, or just users with a specific role) by adding a **user attribute**. The
-user attribute (e.g. gender, country or field of studies) is then further
-defined / specified via the **value** column. This means you could use the
-values _male/female_ for the attribute "Gender", _Switzerland, Germany_ or
-other countries for "Country", or e.g. _Informatics, Theology_ for "Field of
-studies". The values that can be used in the value column depend on your
-organisation and how the attributes are used in your OpenOlat installation.
-User attributes also depend on other administrative settings - user attributes
-can be renamed, or the complete list of available attributes can be changed in
-Administration/Customizing/User attributes.
+Via the **User attribute** the previously defined user group (either all users of the system or users with a specific role) is further specified. The user attribute (e.g. gender, country or field of study) is then defined via the column **Value**. For the attribute "Gender" the values _male/female_ are possible, for country e.g. _Switzerland, Germany_ etc., or for field of study _Informatics, Theology_ etc. Which values can be entered in the Value column depends on your organisation and on how these values are available in your OpenOlat instance. User attributes can also change depending on previously made settings. Attributes may have been renamed, or the list of available attributes may have been adjusted. You find both settings in the system administration under:<br>
+`Administration > Customizing > User Properties`
 
-The exact landing page is defined by either selecting one of the preset sites
-in the **Selection** column (such as the catalog in the the course area, the
-group area, the subscriptions or the Infocourse 1) or pasting a custom link
-from OpenOlat, e.g. from a specific course element, in the **Landing page**
-column. Please note that the link needs to look like the following example:
+Which page or which course is opened, you define either by selecting one of the preset pages in the **Selection** column (e.g. Catalog in course area, Group area, My subscriptions or Infocours 1) or by entering a link copied from OpenOlat, e.g. to a course, in the **Landing page** column. The link must have the following format:
 
-        
     /MyCoursesSite/0
 
-Which would look for a course accordingly:  
-    
-    
+For a course this looks as follows:
+
     /RepositoryEntry/292192256/
 
-If you are planning to use a custom link from the browser address bar, the URL
-always needs to be shortened according to the following pattern:  
+So if you use a link from the browser address bar, you always have to shorten the URL according to this pattern:
 
-![](assets/landingPage_URL.png){ class="shadow lightbox" }
+![Only the part after /auth/ remains of the browser URL, here MyCoursesSite/0 marked in red; browser address bar](assets/landingPage_URL.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
-    You can predefine two courses that will be displayed in the top navigation in
-    addition to the default sites. These are the Info courses 1 & 2. Which
-    courses will be displayed as info course 1 or 2 and are thus available for
-    selection in this form, is determined in the Info page n°1 / n°2 tabs under:<br>
+    Two courses can be defined that are added to the navigation in addition to the known areas as desired: the Info courses 1 and 2. Which courses are displayed as Info course 1 or 2, and are thus available for selection here, you define in the tabs Info page n°1 / n°2 in the system administration under:<br>
     `Administration > Customizing > Sites`
 
+## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)
 
+**Further reading**<br>
+[Core functions: Overview >](../administration/Core_functions.md)<br>
+[Customizing >](../administration/Customizing.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)
 
-
-
-
+[To the top of the page ^](#landing_pages)
