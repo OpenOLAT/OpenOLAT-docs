@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 698 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 712 Begriffe.
 
 ## A
 
@@ -292,6 +292,12 @@ Kursbaustein für einen Aufgabenworkflow mit konfigurierbaren Teilschritten: Auf
 
 *Englisch: Task* · *Bereich: Aufgaben und Üben* · [Handbuch](../../manual_user/learningresources/Course_Element_Task.de.md)
 
+### Aufgaben
+
+Der Abschnitt der Coaching-Einstiegsseite mit der eigenen Arbeit: Bewertungsaufträge, Reports und Auftragsverwaltung. Welche Buttons erscheinen, hängt von Rolle und Modulen ab.
+
+*Englisch: Assignments* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+
 ### Aufgabenstellung
 
 Der Schritt, in dem die teilnehmende Person ihre Aufgabenstellung erhält. Sie wird zugewiesen oder aus einer Liste selbst gewählt.
@@ -302,7 +308,7 @@ Der Schritt, in dem die teilnehmende Person ihre Aufgabenstellung erhält. Sie w
 
 Der Bereich des Coaching für den Korrektur-Workflow der Tests. Besitzende eines Tests sehen dort ihre Korrektor:innen, deren Korrekturaufträge und die noch nicht zugewiesenen Abgaben, und sie weisen Aufträge zu.
 
-*Englisch: Order management* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Order_Management.de.md)
+*Englisch: Order management* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Order_Management.de.md)
 
 ### Ausbildungsverantwortliche:r
 
@@ -321,6 +327,18 @@ Eine Abweichung von der Durchführung eines Kursbausteins für bestimmte Persone
 Eine ausgeschriebene Professur in Selectus. Sie enthält den Ausschreibungstext, das Bewerbungsformular, die Fristen und die Berufungskommission.
 
 *Englisch: Position* · *Bereich: Selectus*
+
+### Ausstehende Bestätigungen
+
+Der Bereich des Coaching mit den Buchungen von Durchführungen, die noch eine Bestätigung brauchen. Er erscheint, wenn Course Planner und Rechnungen eingeschaltet sind und die Person das Recht Ausstehende Kursbuchungen hat.
+
+*Englisch: Pending confirmations* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_People.de.md)
+
+### Ausstehende Mitgliedschaften
+
+Die Mitgliedschaften einer Person in Durchführungen, die eine Genehmigung durch Linienvorgesetzte oder Ausbildungsverantwortliche brauchen. In der Detailansicht der Person im Coaching stehen dazu Akzeptieren und Ablehnen.
+
+*Englisch: Pending memberships* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_People.de.md)
 
 ### Auswahl (Kursbaustein)
 
@@ -474,6 +492,12 @@ Kursrolle. Betreuende begleiten die Teilnehmenden eines Kurses oder einer Gruppe
 
 *Englisch: Coach* · *Bereich: Rollen* · [Handbuch](../../manual_user/basic_concepts/coach.de.md)
 
+### Betreuer:innen Benachrichtigungen
+
+Die Liste der Benachrichtigungen an eine betreuende Person aus ihren Kursen und Gruppen, erreichbar über den Link Coaching-Aktivitäten auf der Einstiegsseite und als eigener Eintrag in der Administration.
+
+*Englisch: Coach's notifications* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+
 ### Betreuer:innen-Chat
 
 Ein Chat während einer Prüfung. Prüflinge stellen darin ihre Fragen, die aufsichtführende Person antwortet.
@@ -556,7 +580,7 @@ Der Schritt, in dem Betreuende die abgegebene Arbeit bewerten und Punkte, Status
 
 Der Bereich des Coaching, der die eigene offene Bewertungsarbeit über alle Kurse sammelt: offene Bewertungen, offene Einstufungen/Noten, freizugebende Bewertungen und die eigenen Korrekturaufträge.
 
-*Englisch: Assessment orders* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)
+*Englisch: Assessment orders* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)
 
 ### Bewertungsdokumente
 
@@ -630,7 +654,13 @@ KI Funktion, die für hochgeladene Bilder Titel, Beschreibung, Alt-Text und Schl
 
 *Englisch: Image Description Generator* · *Bereich: Künstliche Intelligenz* · [Handbuch](../../manual_admin/administration/External_Tools_AI.de.md)
 
-### Bildungsprodukte
+### Bildungsprodukte (Coaching)
+
+Der Bereich des Coaching mit den Durchführungen des Course Planner, in denen die Person betreut oder besitzt, mit ihrer Struktur aus Elementen und Kursen. Der Button erscheint nur, wenn das Modul Course Planner eingeschaltet ist.
+
+*Englisch: Educational products* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
+
+### Bildungsprodukte (Course Planner)
 
 Ein im Course Planner geführtes Bildungsangebot aus mehreren Kursen und Durchführungen, wie es Coaching und Katalog anzeigen.
 
@@ -738,7 +768,7 @@ Sammelbegriff für die Anmeldeverfahren, bei denen ein Fremdanbieter die Anmeldu
 
 Der Bereich, in dem Betreuende ihre Lernenden über alle Kurse hinweg verfolgen, mit Fortschritt, Bewertungen, Anwesenheit und Zertifikaten an einem Ort.
 
-*Englisch: Coaching* · *Bereich: Plattform* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+*Englisch: Coaching* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
 
 ### Code-Beispiel
 
@@ -1376,6 +1406,12 @@ Ein Eintrag, der keiner Mappe zugeordnet ist. Er entsteht unter Meine Einträge,
 
 *Englisch: Floating entry* · *Bereich: ePortfolio* · [Handbuch](../../manual_user/area_modules/My_entries.de.md)
 
+### Fokus
+
+Die Schalter über den Listen Personen, Kurse und Termine / Absenzen, mit denen eine Person eine ihrer Rollen wählt: Als Betreuer:in, Als Kursbesitzer:in, Als Klassenlehrer, Als Principal, Als Linienvorgesetzte:r, Als Ausbildungsverantwortliche:r oder Als Rolle einer Personenbeziehung. Die Liste zeigt dann nur, wen sie in dieser Rolle betreut.
+
+*Englisch: Scope* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+
 ### Formular (Kurs)
 
 Kursbaustein, der eine Formular-Lernressource einbindet, die Teilnehmende ausfüllen. Anders als bei der Umfrage sind die Antworten einer Person zuordenbar.
@@ -1520,7 +1556,7 @@ Ein Gebäude, dem Räume zugeordnet sind. Es trägt Kennzeichen, Adresse mit Kar
 
 Die Excel-Datei, die eine Reportvorlage erzeugt hat. Sie liegt zehn Tage zum Herunterladen bereit, zeigt die verbleibende Zeit an und lässt sich kopieren oder löschen.
 
-*Englisch: Generated report* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
+*Englisch: Generated report* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
 
 ### Generischer KI Anbieter
 
@@ -1576,11 +1612,11 @@ Eine Gruppe von Personen, die zusammenarbeitet, mit eigenen Mitgliedern, eigenen
 
 *Englisch: Group* · *Bereich: Zusammenarbeit* · [Handbuch](../../manual_user/groups/index.de.md)
 
-### Gruppen (Bewertung)
+### Gruppen (Coaching)
 
 Der Bereich des Coaching, der alle betreuten Gruppen aus Kursen auflistet, mit den Teilnehmenden der Gruppe und ihrem Stand.
 
-*Englisch: Groups* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Groups.de.md)
+*Englisch: Groups* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Groups.de.md)
 
 ### Gruppen (Plattform)
 
@@ -1956,6 +1992,12 @@ Die Zuteilung von Bewerbungen an einzelne Kommissionsmitglieder. Sie legt fest, 
 
 *Englisch: Committee assignment* · *Bereich: Selectus*
 
+### Kommunikation
+
+Der Abschnitt der Coaching-Einstiegsseite, der neue Anfragen je Ressource zählt und verlinkt: die Benachrichtigungen des Instant-Messaging an die betreuende Person, mit rotem Punkt und Anzahl.
+
+*Englisch: Communication* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+
 ### Kompetenz
 
 Eine Fähigkeit, die einer Person zugeschrieben wird, benannt über eine Taxonomieebene. Sie entsteht durch Zuweisung oder durch das Bestehen eines Kurses.
@@ -2076,17 +2118,23 @@ Der Zähler, wie oft eine Person denselben Kurs durchlaufen hat: die Erstdurchf�
 
 *Englisch: Course execution* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)
 
-### Kurse (Bewertung)
+### Kurse (Coaching)
 
 Der Bereich des Coaching, der alle Kurse auflistet, in denen die Person Betreuer:in oder Besitzer:in ist, mit Teilnehmerzahl, Fortschritt und Erfolgsstatus je Kurs.
 
-*Englisch: Courses* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Courses.de.md)
+*Englisch: Courses* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Courses.de.md)
 
 ### Kurse (Plattform)
 
 Die Übersicht über die Kurse, in denen eine Person Mitglied ist, mit Fortschritt und letztem Zugriff.
 
 *Englisch: Courses* · *Bereich: Plattform* · [Handbuch](../../manual_user/area_modules/Courses.de.md)
+
+### Kurse - Als Betreuer:in
+
+Das Widget der Coaching-Übersicht mit den betreuten Kursen: Kennzahlen Relevant, Favoriten, Veröffentlicht, Freigabe Betreuer:innen und Beendet über einer Kursliste mit Fortschritt und Erfolgsstatus. Alle anzeigen öffnet den Bereich Kurse.
+
+*Englisch: Courses - As coach* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
 
 ### Kurseditor
 
@@ -2105,6 +2153,12 @@ Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, z
 Administrative Organisationsrolle. Sie legt im Course Planner Produkte, Elemente und Durchführungen an, verwaltet deren Mitglieder und weist ihnen Kurse zu.
 
 *Englisch: Course planner* · *Bereich: Rollen* · [Handbuch](../../manual_user/area_modules/Course_Planner.de.md)
+
+### Kursrechte
+
+Die neun Rechtepakete, die Besitzende in der Mitgliederverwaltung an Betreuende, Teilnehmende oder eine Gruppe vergeben: Kurseditor, Mitglieder-Verwaltung, Bewertungs-Werkzeug und weitere.
+
+*Englisch: Course rights* · *Bereich: Rollen* · [Handbuch](../../manual_user/learningresources/Members_management.de.md)
 
 ### Kurs Statistiken
 
@@ -2804,13 +2858,19 @@ Der Mensch hinter einem Konto. Der Begriff steht dort, wo es um die Person geht 
 
 Der Bereich des Coaching, der alle von einer Person betreuten Teilnehmenden über alle Kurse hinweg auflistet, gruppiert nach der Rolle, die man ihnen gegenüber hat. Von dort führt ein Klick zum Bewertungswerkzeug der Person.
 
-*Englisch: People* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_People.de.md)
+*Englisch: People* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_People.de.md)
+
+### Personenbeziehungen
+
+Die Personenliste im Coaching für eine Beziehungsrolle, etwa Mentor:in zu Mentee: sie zeigt die Personen, zu denen die angemeldete Person diese Beziehung als Quelle hat, und erlaubt, was die Rechte der Rolle freigeben.
+
+*Englisch: User relations* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_People.de.md)
 
 ### Personensuche
 
 Das Suchformular des Coaching, mit dem eine betreute Person über Name, Anmeldename oder weitere Merkmale gefunden wird. Ohne Eingabe liefert es die ganze Liste der betreuten Personen.
 
-*Englisch: User search* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_User_Search.de.md)
+*Englisch: User search* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_User_Search.de.md)
 
 ### Persönlicher RSS-Feed
 
@@ -3110,6 +3170,12 @@ Die Anschrift, an welche die Rechnung geht. Sie kann von der Anschrift der buche
 
 *Englisch: Billing address* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_user/area_modules/Reports_BookingOrders.de.md)
 
+### Rechte von Beziehungsrollen
+
+Die 22 Rechte, die eine Administration einer Beziehungsrolle oder einer Organisationsrolle wie Linienvorgesetzte:r geben kann. Sie wirken im Coaching auf die zugeordneten Personen: sehen, kontaktieren, Konten führen, im Namen buchen.
+
+*Englisch: Relation role rights* · *Bereich: Rollen* · [Handbuch](../../manual_user/basic_concepts/Roles.de.md)
+
 ### Referenzenliste
 
 Die Liste der Referenzpersonen, die eine bewerbende Person angegeben hat, mit dem Stand der jeweiligen Anfrage.
@@ -3164,11 +3230,11 @@ Der Bereich in Selectus für die statistische Auswertung abgeschlossener Ausschr
 
 *Englisch: Reporting* · *Bereich: Selectus*
 
-### Reports (Bewertung)
+### Reports (Coaching)
 
 Der Bereich des Coaching, in dem berechtigte Rollen aus Reportvorlagen Excel-Dateien über die betreuten Personen erzeugen, etwa über ausgestellte Zertifikate, Absenzen oder offene Buchungsaufträge. Er wertet den Betrieb aus, nicht einzelne Lernende.
 
-*Englisch: Reports* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
+*Englisch: Reports* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
 
 ### Reports (Course Planner)
 
@@ -3186,7 +3252,7 @@ Der Abschnitt der Administration mit systemweiten Auswertungen: Zertifikate, Fra
 
 Eine vorgegebene Abfrage, aus der ein Report entsteht, mit Name, Kategorie, Beschreibung und Typ. OpenOlat liefert sieben Vorlagen in den Kategorien Absenzen, Buchungsaufträge und Zertifikate; angezeigt werden nur die, für die die Rolle berechtigt ist.
 
-*Englisch: Report templates* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
+*Englisch: Report templates* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Reports.de.md)
 
 ### Ressourcenordner
 
@@ -3259,6 +3325,12 @@ Die Rollen im Berufungsverfahren von Selectus, von der Sachbearbeitung über die
 Die Zuordnung der Kursrollen von OpenOlat zu den Rollen des LTI-Werkzeugs. Sie entscheidet, wer im fremden Werkzeug bewerten und wer nur arbeiten darf.
 
 *Englisch: Role mapping* · *Bereich: Integrationen und Standards* · [Handbuch](../../manual_admin/administration/LTI_Role_Mapping.de.md)
+
+### Rollenrechte der Kommission
+
+Die Einstellung, welche Kommissionsrolle in einer Ausschreibung was darf: bewerten, Notizen führen, Reviews sehen, Kommentare lesen. Pro Recht wählt die Selectusverwaltung die zugelassenen Rollen aus Mitglied, Präsidium, Sekretariat und Ex-Officio.
+
+*Englisch: Committee role permissions* · *Bereich: Selectus*
 
 ### Rollenverwalter:in
 
@@ -3630,11 +3702,17 @@ Typ eines Anlasses: Teilnehmende tragen sich für einen oder mehrere feste Termi
 
 *Englisch: Appointment booking* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.de.md)
 
+### Termine
+
+Das Widget der Coaching-Übersicht mit den Terminen der laufenden Woche ab heute, mit Wochennavigation, Status, Kennzeichen, Ort und Dauer. Es erscheint nur, wenn die Person Termine hat; Alle anzeigen öffnet Termine / Absenzen.
+
+*Englisch: Events* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
+
 ### Termine / Absenzen
 
 Der Bereich des Coaching für Termine und Absenzen der betreuten Personen, mit den Tabs Cockpit, Termine, Absenzen, Meldungen, Rekurse und Personensuche. Er erscheint nur, wenn das Modul Termine und Absenzen eingeschaltet ist.
 
-*Englisch: Events / Absences* · *Bereich: Bewertung* · [Handbuch](../../manual_user/area_modules/Coaching_Events_Absences.de.md)
+*Englisch: Events / Absences* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching_Events_Absences.de.md)
 
 ### Termine und Absenzen
 
@@ -3805,6 +3883,12 @@ Fragetyp wie Kprim, aber mit beliebig vielen Zeilen. Je Aussage wählt die Testp
 Der Schritt, in dem die teilnehmende Person ihre Lösung nach einer Rückmeldung überarbeitet und erneut abgibt. Er lässt sich mehrfach durchlaufen.
 
 *Englisch: Revision* · *Bereich: Aufgaben und Üben* · [Handbuch](../../manual_user/learningresources/Course_Element_Task.de.md)
+
+### Übersicht
+
+Der Widget-Bereich der Coaching-Einstiegsseite unterhalb der Buttons, mit den Widgets Kurse - Als Betreuer:in und Termine. Über Übersicht anpassen ordnet die Person die Widgets, entfernt sie oder holt sie zurück; Systemadministration setzt den Systemstandard.
+
+*Englisch: Overview* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
 
 ### Übung (Kurs)
 

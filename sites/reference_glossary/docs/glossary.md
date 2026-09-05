@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 698 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 712 terms.
 
 ## Catalogue, booking and payment
 
@@ -166,7 +166,7 @@ A course assigned to an element in the Course Planner in order to instantiate a 
 
 *German: Kurstemplate* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
 
-### Educational products
+### Educational products (Course Planner)
 
 An educational offering kept in the Course Planner, made up of several courses and implementations, as coaching and the catalogue show it.
 
@@ -2012,6 +2012,142 @@ The place for a person's deleted binders and entries in Portfolio 2.0. From ther
 
 *German: Papierkorb*
 
+## Coaching
+
+The Coaching site: the cross-course entry point for everyone who coaches learners - course coaches, course owners, master coaches, line managers, education managers and relation roles.
+
+### Assessment orders
+
+The area of the coaching site that collects one's own open assessment work across all courses: open assessments, open levels/gradings, assessments to release and one's own grading assignments.
+
+*German: Bewertungsaufträge* · [Manual](../manual_user/area_modules/Coaching_Assessment_Orders.md)
+
+### Assignments
+
+The section of the Coaching entry page with one's own work: Assessment orders, Reports and Order management. Which buttons appear depends on role and modules.
+
+*German: Aufgaben* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Coaching
+
+The area where coaches follow their learners across all courses, with progress, assessments, attendance and certificates in one place.
+
+*German: Coaching* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Coach's notifications
+
+The list of notifications to a coaching person from their courses and groups, reached via the link Coaching activities on the entry page and as an entry of its own in the administration.
+
+*German: Betreuer:innen Benachrichtigungen* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Communication
+
+The section of the Coaching entry page that counts and links new requests per resource: the instant messaging notifications to the coaching person, with red dot and count.
+
+*German: Kommunikation* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Courses (Coaching)
+
+The area of the coaching site that lists all courses in which the person is coach or owner, with the number of participants, progress and success status per course.
+
+*German: Kurse* · [Manual](../manual_user/area_modules/Coaching_Courses.md)
+
+### Courses - As coach
+
+The widget of the Coaching overview with the coached courses: figures Relevant, Favourites, Published, Coach access and Finished above a course list with progress and success status. Show all opens the Courses area.
+
+*German: Kurse - Als Betreuer:in* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Educational products (Coaching)
+
+The Coaching area with the Course Planner implementations in which the person coaches or owns, with their structure of elements and courses. The button appears only when the Course Planner module is on.
+
+*German: Bildungsprodukte* · [Manual](../manual_user/area_modules/Coaching_Educational_Products.md)
+
+### Events
+
+The widget of the Coaching overview with the events of the current week from today, with week navigation, status, reference, location and duration. It appears only if the person has events; Show all opens Events / Absences.
+
+*German: Termine* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Events / Absences
+
+The area of the coaching site for events and absences of the coached persons, with the tabs cockpit, events, absences, notices, appeals and user search. It appears only when the events and absences module is switched on.
+
+*German: Termine / Absenzen* · [Manual](../manual_user/area_modules/Coaching_Events_Absences.md)
+
+### Generated report
+
+The Excel file a report template has produced. It stays available for download for ten days, shows the remaining time and can be copied or deleted.
+
+*German: Generierter Report* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
+
+### Groups (Coaching)
+
+The area of the coaching site that lists all coached groups from courses, with the participants of the group and their state.
+
+*German: Gruppen* · [Manual](../manual_user/area_modules/Coaching_Groups.md)
+
+### Order management
+
+The area of the coaching site for the correction workflow of tests. Owners of a test see their correctors, their grading assignments and the submissions not yet assigned, and they assign orders.
+
+*German: Auftragsverwaltung* · [Manual](../manual_user/area_modules/Coaching_Order_Management.md)
+
+### Overview
+
+The widget area of the Coaching entry page below the buttons, with the widgets Courses - As coach and Events. Customise overview lets the person arrange, remove and restore the widgets; system administration sets the system default.
+
+*German: Übersicht* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### Pending confirmations
+
+The Coaching area with the bookings of implementations that still need a confirmation. It appears when Course Planner and invoices are on and the person holds the right Pending course bookings.
+
+*German: Ausstehende Bestätigungen* · [Manual](../manual_user/area_modules/Coaching_People.md)
+
+### Pending memberships
+
+A person's memberships in implementations that need approval by a line manager or education manager. The person's detail view in Coaching offers Accept and Decline.
+
+*German: Ausstehende Mitgliedschaften* · [Manual](../manual_user/area_modules/Coaching_People.md)
+
+### People
+
+The area of the coaching site that lists all participants a person coaches across all courses, grouped by the role one holds towards them. From there one click leads to the person's assessment tool.
+
+*German: Personen* · [Manual](../manual_user/area_modules/Coaching_People.md)
+
+### Reports (Coaching)
+
+The area of the coaching site where authorised roles produce Excel files about the coached persons from report templates, for example about issued certificates, absences or open booking orders. It evaluates the operation, not single learners.
+
+*German: Reports* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
+
+### Report templates
+
+A predefined query a report is produced from, with name, category, description and type. OpenOlat ships seven templates in the categories absences, booking orders and certificates; only those the role is authorised for are shown.
+
+*German: Reportvorlagen* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
+
+### Scope
+
+The switches above the lists People, Courses and Events / Absences with which a person picks one of their roles: As coach, As course owner, As master coach, As principal, As line manager, As education manager or As role of a user relation. The list then shows only whom they coach in that role.
+
+*German: Fokus* · [Manual](../manual_user/area_modules/Coaching.md)
+
+### User relations
+
+The people list in Coaching for a relation role, such as mentor to mentee: it shows the persons to whom the signed-in person holds this relation as source, and allows what the role's rights grant.
+
+*German: Personenbeziehungen* · [Manual](../manual_user/area_modules/Coaching_People.md)
+
+### User search
+
+The search form of the coaching site that finds a coached person by name, username or further attributes. Without input it returns the whole list of coached persons.
+
+*German: Personensuche* · [Manual](../manual_user/area_modules/Coaching_User_Search.md)
+
 ## Testing and question bank
 
 How an exam is built, run, corrected and analysed, and where the questions come from.
@@ -2278,12 +2414,6 @@ A window of time in which a course becomes an exam. During the assessment mode a
 
 *German: Prüfungsmodus* · [Manual](../manual_user/learningresources/Assessment_mode.md)
 
-### Assessment orders
-
-The area of the coaching site that collects one's own open assessment work across all courses: open assessments, open levels/gradings, assessments to release and one's own grading assignments.
-
-*German: Bewertungsaufträge* · [Manual](../manual_user/area_modules/Coaching_Assessment_Orders.md)
-
 ### Assessment tool
 
 The area of a course where coaches and owners see, assess, release and reset all results of the participants.
@@ -2308,35 +2438,17 @@ A person reviewing and grading a submitted piece of work. It is needed wherever 
 
 *German: Korrektur* · [Manual](../manual_user/learningresources/Test_settings.md)
 
-### Courses (Assessment)
-
-The area of the coaching site that lists all courses in which the person is coach or owner, with the number of participants, progress and success status per course.
-
-*German: Kurse* · [Manual](../manual_user/area_modules/Coaching_Courses.md)
-
 ### Disadvantage compensation
 
 An adjustment of the exam conditions for a person with a disability or an impairment, as a rule as extra time. It applies to that person and leaves the task unchanged.
 
 *German: Nachteilsausgleich* · [Manual](../manual_admin/usermanagement/Configure_User.md)
 
-### Events / Absences
-
-The area of the coaching site for events and absences of the coached persons, with the tabs cockpit, events, absences, notices, appeals and user search. It appears only when the events and absences module is switched on.
-
-*German: Termine / Absenzen* · [Manual](../manual_user/area_modules/Coaching_Events_Absences.md)
-
 ### Exam course
 
 A course created only to run an exam. The wizard creates it with the assessment mode and the test in one step.
 
 *German: Prüfungskurs* · [Manual](../manual_how-to/test_creation_procedure/test_creation_procedure.md)
-
-### Generated report
-
-The Excel file a report template has produced. It stays available for download for ten days, shows the remaining time and can be copied or deleted.
-
-*German: Generierter Report* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
 
 ### Grade
 
@@ -2362,47 +2474,17 @@ A named system of grade values, for example the Swiss scale from 1 to 6. It sets
 
 *German: Bewertungssystem* · [Manual](../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
-### Groups (Assessment)
-
-The area of the coaching site that lists all coached groups from courses, with the participants of the group and their state.
-
-*German: Gruppen* · [Manual](../manual_user/area_modules/Coaching_Groups.md)
-
 ### Levels/Grading
 
 The module where the grading systems and their scales are maintained. It sets which grades exist and from which score a grade is reached.
 
 *German: Einstufung/Noten* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
-### Order management
-
-The area of the coaching site for the correction workflow of tests. Owners of a test see their correctors, their grading assignments and the submissions not yet assigned, and they assign orders.
-
-*German: Auftragsverwaltung* · [Manual](../manual_user/area_modules/Coaching_Order_Management.md)
-
-### People
-
-The area of the coaching site that lists all participants a person coaches across all courses, grouped by the role one holds towards them. From there one click leads to the person's assessment tool.
-
-*German: Personen* · [Manual](../manual_user/area_modules/Coaching_People.md)
-
 ### Performance summary
 
 The block with status, score, grade and comment of an assessment. Participants see it in the course element, coaches in the assessment form and there additionally as a preview of the participants' view.
 
 *German: Leistungsübersicht* · [Manual](../manual_user/learningresources/Course_Element_Structure.md)
-
-### Reports (Assessment)
-
-The area of the coaching site where authorised roles produce Excel files about the coached persons from report templates, for example about issued certificates, absences or open booking orders. It evaluates the operation, not single learners.
-
-*German: Reports* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
-
-### Report templates
-
-A predefined query a report is produced from, with name, category, description and type. OpenOlat ships seven templates in the categories absences, booking orders and certificates; only those the role is authorised for are shown.
-
-*German: Reportvorlagen* · [Manual](../manual_user/area_modules/Coaching_Reports.md)
 
 ### Rubric assessment
 
@@ -2421,12 +2503,6 @@ A form with a rubric that coaches fill in while assessing. It makes the criteria
 The connection to the Safe Exam Browser. The assessment mode requires this browser and thereby locks every other program on the device during the exam.
 
 *German: Safe Exam Browser* · [Manual](../manual_how-to/SEB/SEB.md)
-
-### User search
-
-The search form of the coaching site that finds a coached person by name, username or further attributes. Without input it returns the whole list of coached persons.
-
-*German: Personensuche* · [Manual](../manual_user/area_modules/Coaching_User_Search.md)
 
 ## Evidence
 
@@ -2752,6 +2828,12 @@ The combined rating of an application by the whole committee, as opposed to the 
 
 *German: Kommissionsbeurteilung*
 
+### Committee role permissions
+
+The setting that says which committee role may do what in a position: rate, take notes, see reviews, read comments. For each right the Selectus manager picks the admitted roles from member, head, secretary and ex officio.
+
+*German: Rollenrechte der Kommission*
+
 ### Comparative assessment
 
 An expert assessment in which several applications of the same call are compared with each other.
@@ -3055,12 +3137,6 @@ The area where learning resources are created, edited, copied and managed. It is
 The collective term for the sign-in methods in which a third-party provider handles the sign-in and OpenOlat only receives the confirmation. In the interface the area is called Cloud Login.
 
 *German: Cloud Login* · [Manual](../manual_admin/administration/Login.md)
-
-### Coaching
-
-The area where coaches follow their learners across all courses, with progress, assessments, attendance and certificates in one place.
-
-*German: Coaching* · [Manual](../manual_user/area_modules/Coaching.md)
 
 ### Configuration
 
@@ -3654,6 +3730,12 @@ The roles that hang on a product or an element of the Course Planner and reach f
 
 *German: Course-Planner-Rollen* · [Manual](../manual_user/area_modules/Course_Planner.md)
 
+### Course rights
+
+The nine right packages an owner grants in members management to coaches, participants or a group: course editor, members management, assessment tool and more.
+
+*German: Kursrechte* · [Manual](../manual_user/learningresources/Members_management.md)
+
 ### Education manager
 
 Organisation role. An administrative organisation role for training responsibility. In coaching it sees the same overview as the line managers and additionally takes on administrative tasks such as checking booking orders and blocking accounts.
@@ -3821,6 +3903,12 @@ System role. A system role. It manages the question bank with the questions, the
 Selectus role. A person named by the applicant who writes a letter of reference.
 
 *German: Referenzperson*
+
+### Relation role rights
+
+The 22 rights an administration can grant to a relation role or to an organisation role such as line manager. They act in the coaching tool on the assigned people: view, contact, manage accounts, book on behalf.
+
+*German: Rechte von Beziehungsrollen* · [Manual](../manual_user/basic_concepts/Roles.md)
 
 ### Reviewer (Reviewer:in)
 
