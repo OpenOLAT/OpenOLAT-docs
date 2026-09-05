@@ -1,12 +1,32 @@
 {% extends "base.html" %}
 
 {#
-  Sophia chat sidebar (fxKnowledge). Two parts:
-  1. Pre-paint restore: if the sidebar was open on the previous page, set the
-     layout class BEFORE first paint so the content column never jumps and the
-     sidebar restores without any flicker (design: fxKnowledge docs/manual-sidebar.html §5).
-  2. The widget script tag. data-* attributes cannot be expressed in
-     mkdocs.yml extra_javascript, hence this template override.
+  Sophia chat (fxKnowledge). The widget script tag lives here because data-*
+  attributes cannot be expressed in mkdocs.yml extra_javascript.
+
+  ACTIVE: the FLOATING panel — a launcher pill in the bottom-right corner and a
+  window the reader can drag by its title bar, resize from any corner or edge,
+  and reset with a double-click on the title bar. The attributes carry over what
+  the sidebar embedding gave us, so nothing is lost by floating:
+    data-host-ui="on"      the "Sophia fragen" header button and the Ask row in
+                           Material's search dropdown
+    data-persist="on"      the conversation survives navigation between manual
+                           pages (without it every page starts a new chat)
+    data-dock-toggle="on"  a button in the panel header docks the window as a
+                           right-hand column with the page padded beside it, so
+                           a reader who prefers the old split can have it
+    data-size="560x780"    the size it opens at; a size the reader drags wins
+  Requires fxKnowledge >= 4.5.0. On an older deployment these attributes are
+  ignored, which would silently cost the header button and the persistence.
+
+  The SIDEBAR embedding is kept below, commented out, so the change is one edit
+  to undo.
+
+  The pre-paint snippet and the padding rule belong to the sidebar. They are
+  inert in floating mode: the widget clears fxk-sidebar-open at startup and the
+  rule only matches while that class is set. They stay so that switching back
+  needs no second edit.
+
   The /sophia/* paths are relative on purpose: the web server in front of this
   site reverse-proxies  location /sophia/ -> the fxKnowledge host  (prefix is
   stripped), so widget and API are same-origin. No host to configure here.
@@ -14,7 +34,18 @@
 {% block extrahead %}
 <script>try{var fxkSt=JSON.parse(sessionStorage.getItem('fxk-sophia-v1')||'{}');if(fxkSt.open){document.documentElement.classList.add('fxk-sidebar-open');if(fxkSt.w)document.documentElement.style.setProperty('--fxk-sbw',fxkSt.w+'px')}}catch(e){}</script>
 <style>@media(min-width:1100px){html.fxk-sidebar-open body{padding-right:var(--fxk-sbw,400px)}}</style>
+
+<script src="/sophia/public/sophia.js" defer
+        data-mode="floating"
+        data-host-ui="on"
+        data-persist="on"
+        data-dock-toggle="on"
+        data-size="560x780"
+        data-api-base="/sophia/"></script>
+
+{# --- previous embedding: the docked sidebar. Swap the two blocks to revert.
 <script src="/sophia/public/sophia.js" defer
         data-mode="sidebar"
         data-api-base="/sophia/"></script>
+--------------------------------------------------------------------------- #}
 {% endblock %}
