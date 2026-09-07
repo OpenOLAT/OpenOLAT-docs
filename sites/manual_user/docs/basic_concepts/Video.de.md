@@ -95,6 +95,6 @@ Ferner sind Videos als Anhang eines Foren-Postings oder einer Mitteilung, als Di
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
 [Kursbaustein "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.de.md)<br>
 [Kursbaustein "Podcast" >](../learningresources/Course_Element_Podcast.de.md)<br>
-[Kursbaustein "Mediasite" >](../learningresources/Course_Element_Mediasite.de.md)
+[Kursbaustein "MediaSite" >](../learningresources/Course_Element_Mediasite.de.md)
 
 [Zum Seitenanfang ^](#overview)

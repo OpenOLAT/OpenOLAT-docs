@@ -205,13 +205,26 @@ Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auc
 
 ## MediaSite [:octicons-tag-16:{ title="ab Release 16.0.4 (OO-5492)" }](https://track.frentix.com/issue/OO-5492){:target="_blank"} {: #mediasite}
 
-Aktivierung von MediaSite. MediaSite ist eine automatisierte Videoplattform
-für Videoaufzeichnung, Videomanagement und Untertitelung. Das OpenOlat
-Mediasite-Modul ermöglicht es Ihnen, MediaSite-Inhalte als Einzelpräsentation,
-Kanal oder Modul in Kurse zu integrieren. 
+Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videomanagement und Untertitelung. Mit dem Mediasite-Modul binden Kursbesitzer:innen eine einzelne Aufzeichnung oder einen Kanal des Mediasite-Servers über den Kursbaustein "MediaSite" in Kurse ein. Sie aktivieren das Modul unter:<br>
+`Administration > Externe Werkzeuge > MediaSite`
 
-Das MediaSite-Modul lässt sich über LTI 1.1 oder LTI 1.3 mit dem MediaSite-Server verbinden [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Für LTI 1.3 wählen Sie im Feld **LTI-Version** die Version 1.3 und hinterlegen die Felder **LTI 1.3 Client ID** und **LTI 1.3 Deployment ID** sowie die vom MediaSite-Server benötigten Endpunkt-URLs. Verbindungen über LTI 1.1 bleiben unverändert nutzbar.
+**Vorkonfigurierter Server:** Ist diese Option aktiviert, hinterlegen Sie hier eine Verbindung zu einem Mediasite-Server, die allen Kursbausteinen "MediaSite" der Instanz zur Verfügung steht. Ist sie nicht aktiviert, richten die Kursbesitzer:innen die Verbindung in jedem Kursbaustein selbst ein. Die Felder für die Verbindung erscheinen erst, wenn die Option aktiviert ist.
 
+**Server Name:** Name, unter dem die Kursbesitzer:innen den vorkonfigurierten Server im Kurseditor sehen.
+
+**LTI-Version:** Die Verbindung zum Mediasite-Server läuft über LTI 1.1 oder LTI 1.3 [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Version bestimmt, welche Verbindungsangaben Sie eintragen und wie die Kursbesitzer:innen den Inhalt im Kurseditor auswählen. Die Angaben erhalten Sie von der Betreiberin des Mediasite-Servers.
+
+LTI 1.3 setzt voraus, dass das Modul LTI 1.3 unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](LTI_Integrations.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
+
+| | LTI 1.1 | LTI 1.3 |
+|---|---|---|
+| Angaben von der Betreiberin des Mediasite-Servers | **LTI Key**, **LTI Secret**, **LTI URL**, **My MediaSite - Administration URL**, **Username Property Key** | **LTI 1.3 Initiate Login URL**, **LTI 1.3 Redirect URL**, **LTI 1.3 JWKS URL**, **LTI URL**, optional **My MediaSite - Administration URL** |
+| Angaben, die OpenOlat erzeugt | keine | **LTI 1.3 Client ID** und **LTI 1.3 Deployment ID**. OpenOlat zeigt sie nach dem Speichern an. Die Betreiberin des Mediasite-Servers registriert OpenOlat damit auf ihrer Seite. |
+| Inhaltsauswahl im Kurseditor | Kursbesitzer:innen tragen die Modul-ID oder den Präsentationslink von Hand ein | Kursbesitzer:innen wählen den Kanal oder die Aufzeichnung über die Schaltfläche **Inhalt auswählen** direkt aus dem Mediasite-Server [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9717)" }](https://track.frentix.com/issue/OO-9717){:target="_blank"} |
+
+**Zustimmung "Datenübertragung" unterdrücken:** Ist diese Option aktiviert, öffnet sich der Inhalt für Teilnehmende ohne die Seite "Zustimmung Datenübertragung". Kursbesitzer:innen mit einem eigenen Server legen dies im Kursbaustein selbst fest.
+
+Die Konfiguration des Kursbausteins ist im Benutzerhandbuch beschrieben: [Kursbaustein "MediaSite"](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 [Dokumentation zu MediaSite >](https://mediasite.com/)<br>
 [Zum Seitenanfang ^](#ext_tools)
