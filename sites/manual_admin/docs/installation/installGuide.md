@@ -109,6 +109,9 @@ Create the file `~/bin/setenv.sh` containing
 	
 The scripts of tomcat will parse this file at startup.
 
+!!! info "What this does"
+	This file tells Tomcat how to start OpenOlat. The first line of `CATALINA_OPTS` is the one that matters most: it gives the Java process at most 1 GB of memory for the application data (`-Xmx1024m`) and 512 MB for the loaded program code (`-XX:MaxMetaspaceSize=512m`). These values are sized for a local test installation. For a production server, raise them according to the expected number of concurrent users, and add memory for PostgreSQL and the operating system on top. The remaining lines set the time zone and the configuration profile, and write a memory dump to disk if OpenOlat runs out of memory, which helps to analyse the problem.
+
 
 ### server.xml
 
@@ -123,6 +126,9 @@ Create the file `~/conf/server.xml`
 	    </Engine>
 	  </Service>
 	</Server>
+
+!!! info "What this does"
+	This file configures Tomcat, the web server that runs OpenOlat. Port 8088 is where the browser reaches OpenOlat, port 8085 is an internal port that Tomcat uses to shut down. The two `-1` values remove the default limits on the number of uploaded file parts and form fields per request. OpenOlat needs this for large forms and uploads with many files.
 
 Make sure the chosen ports (8085 and 8088 in this example) are available.
 Set the environment variables `CATALINA_HOME` and `JRE_HOME`, for example by appending the following to your `~/.bashrc`
@@ -174,6 +180,9 @@ Now while logged in to postgresql, we create the user and the database:
 
 	postgres=# create user oodbu with password 'oodbpasswd';
 	postgres=# create database oodb with owner oodbu;
+
+!!! info "What this does"
+	OpenOlat stores all structured data such as users, courses and assessment results in a PostgreSQL database. These two commands create a database user `oodbu` with the password `oodbpasswd` and an empty database `oodb` that belongs to this user. Replace the password with your own. You enter the same three values later in the application context descriptor `ROOT.xml`, so that OpenOlat can connect to its database. Files that users upload are not stored in the database but in the folder set as `userdata.dir` in the OpenOlat configuration.
 
 ### Test DB access
 
@@ -228,6 +237,9 @@ Create the file `~/lib/olat.local.properties`
 	smtp.host=disabled
 	tomcat.id=1
 	userdata.dir=/home/openolat/olatdata
+
+!!! info "What this does"
+	This is the main configuration file of OpenOlat. Every setting you change for your installation goes here, the built-in defaults stay untouched inside the application. The example tells OpenOlat where to find its database (through Tomcat, `db.source=jndi`), where to write logs and user files, under which domain and port it runs, and switches mail sending off (`smtp.host=disabled`). For a real installation, replace `localhost` with your domain name and configure a mail server, otherwise OpenOlat cannot send registration and notification mails.
 
 ### Recommended: content domain for user provided content
 
