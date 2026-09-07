@@ -7,7 +7,7 @@ Name | Structure
 Icon | :o_icon_o_st_icon:
 Available since | Release 1
 Functional group | Knowledge transfer
-Purpose | Structuring of the menu into chapters, collection of assessments of all course elements subordinate to the structure element
+Purpose | Structuring of the menu into chapters, summary of the assessments of freely selected assessable course elements of the course
 Assessable | yes
 Specialty / Note | Generation of automatic overviews
 
@@ -95,12 +95,18 @@ Conventional courses have the "Score" tab. Here points that were collected in ot
 
 The following settings are possible:
 
- Calculate **score**: An overview of the assessable elements of your course will appear, which you can take into account when calculating the points. Select either all or specific course elements and OpenOlat adds the respective points. It is also possible to calculate an average value instead of a total. This makes sense, for example, if all course elements have the same maximum number of points. Course elements that do not (yet) contain a rating are not taken into account in the calculation. The calculated value is displayed to the participants after the assessment under "Score".
+ Calculate **score**: Under **Total score of**, an overview of all assessable course elements of your course appears, which you can take into account when calculating the points. Select either all or specific course elements and OpenOlat adds the respective points. It is also possible to calculate an average value instead of a total. This makes sense, for example, if all course elements have the same maximum number of points. Course elements that do not (yet) contain a rating are not taken into account in the calculation. The calculated value is displayed to the participants after the assessment under "Score".
 
- Calculate **passing score:** Pass or fail can refer to a minimum score that you define or to passing selected or all assessable course elements.
- If you select  _«As of minimum score»_ , you can enter the minimum score in another field. This refers to the course elements selected above, i.e. on the course element  _Structure_  a _«Passed»_  is displayed, if the total score is greater or equal to the selected minimum score. 
- 
- If you select _«Adopt from course element»_, assessable course elements of your course are displayed by means of  **Passed by**. You can now select those whose "Passed" value should result in the "Passed" value of the course element  _Structure_ with a boolean AND-link. I.e. if the course element _Structure_  should show a  _«Passed»_, all selected course elements have to have a  _«Passed»_.
+ Calculate **passing score:** Pass or fail can refer to a minimum score that you define, or to passing selected course elements. If you select _«As of minimum score»_, enter the minimum score. It refers to the course elements selected under "Total score of": The course element _Structure_ shows _«Passed»_ if their total score is greater than or equal to the minimum score.
+
+If you select _«Adopt from course element»_, OpenOlat shows the assessable course elements of your course under **Relevant course element**. Select those whose "Passed" value should count. Under **Passed if** you define how many of them have to be passed: [:octicons-tag-16:{ title="from Release 19.0.3 (OO-7484)" }](https://track.frentix.com/issue/OO-7484)
+
+  * **All relevant course elements passed**: The course element _Structure_ shows _«Passed»_ only when every selected course element is passed.
+  * **A certain number of the relevant course elements passed**: Under **Number of course elements to pass**, enter how many of the selected course elements have to be passed. The number must be smaller than the number of selected course elements. This is how you model an elective requirement, for example: Three out of five tests must be passed.
+
+!!! tip "The selection covers the whole learning resource"
+
+    Under "Total score of" and "Relevant course element", OpenOlat offers all assessable course elements of the course, regardless of where they are located in the menu. A structure element can therefore show "Failed" although all course elements below it are passed: for example, if a test from another chapter is also selected as relevant. In case of unexpected results, first check the selected course elements in the "Score" tab.
 
  Calculate **failed score:**  It is also possible to calculate "Failed".
 

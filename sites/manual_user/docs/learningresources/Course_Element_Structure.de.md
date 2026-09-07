@@ -7,7 +7,7 @@ Name | Struktur
 Icon | :o_icon_o_st_icon:
 Verfügbar seit | Release 1
 Funktionsgruppe | Wissensvermittlung
-Verwendungszweck | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine
+Verwendungszweck | Gliederung des Menüs in Kapitel, Zusammenfassung der Bewertungen frei gewählter bewertbarer Kursbausteine des Kurses
 Bewertbar | ja
 Spezialität / Hinweis | Generierung von automatischen Übersichten
 
@@ -97,11 +97,18 @@ Herkömmliche Kurse verfügen über den Tab "Punkte". Hier können Punkte, die i
 
 Folgende Einstellungen zur Konfiguration der manuellen Bewertung sind möglich:
 
- **Punkte** berechnen: Es erscheint eine Übersicht der bewertbaren Bausteine Ihres Kurses, die Sie für die Berechnung der Punkte berücksichtigen können. Wählen Sie entweder alle oder gezielte Bausteine aus und OpenOlat addiert die jeweiligen Punkte. Es ist auch möglich anstatt einer Gesamtsumme einen Durchschnittswert berechnen zu lassen. Das macht z.B. Sinn, wenn alle Bausteine dieselbe maximale Punktzahl haben. Bausteine, die (noch) keine Bewertung enthalten, bleiben bei der Berechnung unberücksichtigt. Der berechnete Wert wird den Teilnehmenden nach der Bewertung unter "Punkte" angezeigt.
+ **Punkte** berechnen: Unter **Punkte von** erscheint eine Übersicht aller bewertbaren Kursbausteine Ihres Kurses, die Sie für die Berechnung der Punkte berücksichtigen können. Wählen Sie entweder alle oder gezielte Kursbausteine aus und OpenOlat addiert die jeweiligen Punkte. Es ist auch möglich anstatt einer Gesamtsumme einen Durchschnittswert berechnen zu lassen. Das macht z.B. Sinn, wenn alle Bausteine dieselbe maximale Punktzahl haben. Bausteine, die (noch) keine Bewertung enthalten, bleiben bei der Berechnung unberücksichtigt. Der berechnete Wert wird den Teilnehmenden nach der Bewertung unter "Punkte" angezeigt.
 
- **Bestanden** berechnen: Bestanden bzw. nicht bestanden kann sich auf eine Mindestpunktzahl beziehen, die Sie definieren oder auf das bestehen ausgewählter oder aller bewertbarer Kursbausteine. Wenn Sie _«Aus Punkteminimum»_ wählen, können Sie das Punkteminimum eingeben. Dieses bezieht sich auf die zuvor ausgewählten Kursbausteine, d.h. es wird auf dem Kursbaustein _Struktur_ ein _«Bestanden»_ angezeigt, wenn die Punktesumme obiger Kursbausteine grösser oder gleich gross wie das von Ihnen gewählte Punkteminimum ist.
+ **Bestanden** berechnen: Bestanden bzw. nicht bestanden kann sich auf eine Mindestpunktzahl beziehen, die Sie definieren, oder auf das Bestehen ausgewählter Kursbausteine. Wenn Sie _«Aus Punkteminimum»_ wählen, geben Sie das Punkteminimum ein. Es bezieht sich auf die unter "Punkte von" gewählten Kursbausteine: Der Kursbaustein _Struktur_ zeigt _«Bestanden»_ an, wenn deren Punktesumme grösser oder gleich dem Punkteminimum ist.
 
-Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestanden von** die bewertbaren Kursbausteine Ihres Kurses angezeigt. Sie können nun diejenigen anwählen, deren Bestanden-Wert mit einer boolschen UND-Verknüpfung den Bestanden-Wert des Kursbausteins _Struktur_ bilden sollen. D.h. damit der Kursbaustein _Struktur_ ein _«Bestanden»_ anzeigt, müssen alle gewählten Kursbausteine ein _«Bestanden»_ aufweisen.
+Wenn Sie _«Von Bausteinen übernehmen»_ wählen, zeigt OpenOlat unter **Relevante Kursbausteine** die bewertbaren Kursbausteine Ihres Kurses an. Wählen Sie diejenigen aus, deren Bestanden-Wert zählen soll. Unter **Bestanden, wenn** legen Sie fest, wie viele davon bestanden sein müssen: [:octicons-tag-16:{ title="ab Release 19.0.3 (OO-7484)" }](https://track.frentix.com/issue/OO-7484)
+
+  * **Alle relevanten Kursbausteine bestanden**: Der Kursbaustein _Struktur_ zeigt erst _«Bestanden»_ an, wenn jeder gewählte Kursbaustein bestanden ist.
+  * **Eine bestimmte Anzahl der relevanten Kursbausteine bestanden**: Geben Sie unter **Anzahl Kursbausteine zu bestehen** ein, wie viele der gewählten Kursbausteine bestanden sein müssen. Die Zahl muss kleiner sein als die Anzahl der gewählten Kursbausteine. So bilden Sie zum Beispiel eine Wahlpflicht ab: Drei von fünf Tests müssen bestanden sein.
+
+!!! tip "Die Auswahl umfasst die ganze Lernressource"
+
+    Unter "Punkte von" und "Relevante Kursbausteine" bietet OpenOlat alle bewertbaren Kursbausteine des Kurses an, unabhängig davon, wo sie im Menü stehen. Ein Strukturbaustein kann darum "Nicht bestanden" anzeigen, obwohl alle Kursbausteine unterhalb bestanden sind: zum Beispiel, wenn ein Test aus einem anderen Kapitel ebenfalls als relevant gewählt ist. Prüfen Sie bei unerwarteten Ergebnissen zuerst die gewählten Kursbausteine im Tab "Punkte".
 
 **Nicht bestanden** berechnen: Es ist auch möglich gezielt ein "nicht bestanden" zu berechnen.
 
