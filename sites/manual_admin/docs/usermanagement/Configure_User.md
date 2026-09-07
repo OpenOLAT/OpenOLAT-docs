@@ -53,7 +53,9 @@ The roles of the user are defined in this tab. If the Organizational units modul
 
 If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons: "Send invitation link to set login credentials" (primary button) sends a link by mail that the person can use to set their own login credentials; "Create login credentials" sets the login credentials directly.
 
-If an invitation link has already been sent, a message in the "Password" tab shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time.
+If an invitation link has already been sent, a message in the "Password" tab shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time. You define how long an invitation link remains valid in the administration under [Login > Self-registration](../administration/Login_Self-Registration.md#tab_configuration) in the section "Validity period of the login data".
+
+![Flow in three lanes: the administrator sends the invitation link in the Password tab, OpenOlat sends the e-mail with the configured validity period, the person sets username and password in the wizard; the link can be deactivated at any time](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
 
 The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
 

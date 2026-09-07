@@ -52,7 +52,9 @@ In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktivierte
 
 Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons: "Einladungslink zum Setzen der Zugangsdaten senden" (Primärbutton) versendet einen Link per Mail, über den die Person selbst Zugangsdaten setzen kann; "Zugangsdaten erstellen" legt die Zugangsdaten direkt fest.
 
-Wurde ein Einladungslink bereits versendet, zeigt eine Meldung im Tab «Passwort» dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden.
+Wurde ein Einladungslink bereits versendet, zeigt eine Meldung im Tab «Passwort» dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Wie lange ein Einladungslink gültig bleibt, legen Sie in der Administration unter [Login > Selbstregistrierung](../administration/Login_Self-Registration.de.md#tab_configuration) im Abschnitt "Gültigkeitsdauer der Logindaten" fest.
+
+![Ablauf in drei Bahnen: Die Administrator:in sendet im Tab Passwort den Einladungslink, OpenOlat verschickt die E-Mail mit der eingestellten Gültigkeitsdauer, die Person setzt im Assistenten Benutzername und Passwort; der Link kann jederzeit deaktiviert werden](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
 
 Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
 
