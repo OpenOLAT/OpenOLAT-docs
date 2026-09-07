@@ -6,14 +6,14 @@ The main navigation of OpenOlat is composed according to role. Every task has it
 
 OpenOlat consistently separates the two perspectives on a course by role:
 
-* Under **Courses** ("My Courses") you find the learning resources in which you yourself are entered as a participant.
+* Under **Courses** ("My courses") you find the learning resources in which you yourself are entered as a participant.
 * Learning resources you accompany as a coach or owner are found in the **Coaching** area.
 
 If you are assigned both roles in a course, the course appears in both areas. You then open it where your current task lies: under "Courses" for learning, in "Coaching" for coaching.
 
 Two people can therefore see different menus after logging in. If a menu item is missing, this is not an error: either the corresponding module is not activated or the required role has not been assigned.
 
-![roles_home_areas_v1_en.svg](assets/roles_home_areas_v1_en.svg){ class="shadow lightbox" }
+![Each of the five roles works in its own area of the main navigation, from Courses to Administration](assets/roles_home_areas_v1_en.svg){ class="shadow lightbox" }
 
 ---
 
@@ -29,18 +29,18 @@ Two people can therefore see different menus after logging in. If a menu item is
 
 The working areas complement each other without overlapping. This keeps each area focused on its task: those who complete a course are not distracted by administrative functions; those who coach or plan find all the necessary tools in one place.
 
-[to the top ^](#home_areas)
+[To the top of the page ^](#home_areas)
 
 ---
 
 ## Multiple roles, multiple working areas {: #multiple_roles}
 
-Roles can of course be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My Courses". In this case the main navigation displays all the corresponding menu items side by side.
+Roles can of course be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My courses". In this case the main navigation displays all the corresponding menu items side by side.
 
-Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "User role" in the course toolbar.<br>
+Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "User's role" in the course toolbar.<br>
 (See [Roles in a course](Roles.md#course))
 
-[to the top ^](#home_areas)
+[To the top of the page ^](#home_areas)
 
 ---
 
@@ -63,15 +63,29 @@ Besides the core areas, there are further menu items and areas that only become 
 
 You find the complete description of all roles and the associated rights under [Which roles are there?](Roles.md) An overview of all menu items of the main navigation is provided on the page [Area and modules](../area_modules/index.md).
 
-[to the top ^](#home_areas)
+[To the top of the page ^](#home_areas)
 
 ---
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Roles and Rights: Which roles are available? >](Roles.md)<br>
+[Finding courses >](../area_modules/Courses.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[System >](../../manual_admin/administration/System.md)<br>
+[User management >](../../manual_admin/usermanagement/index.md)<br>
+[Group Management >](../area_modules/Group_Management.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Absence management >](../area_modules/Absence_Management.md)<br>
+[Projects - Administration >](../area_modules/Project_Admin.md)<br>
+[Area and modules >](../area_modules/index.md)
+
+**Further reading**<br>
 [Roles and Rights: Overview >](Roles_Rights.md)<br>
-[Which roles are there? >](Roles.md)<br>
-[Area and modules >](../area_modules/index.md)<br>
 [Navigation >](Navigation.md)
 
-[to the top ^](#home_areas)
+[To the top of the page ^](#home_areas)

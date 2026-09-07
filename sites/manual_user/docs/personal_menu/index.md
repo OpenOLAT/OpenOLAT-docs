@@ -1,27 +1,27 @@
-# Personal menu and general components
+# Personal menu and general components {: #personal_menu}
 
-Each registered OpenOlat user has a personal menu that can be configured individually.
+All registered OpenOlat users have a personal menu that can be configured individually.
 
 It opens in the right margin by clicking on the small image in the upper right corner or the small arrow next to it.
 
-![pers_menu1_v1_de.png](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
+![Profile picture at the top right of the header, marked with a circle and an arrow, opens the personal menu; to the left the main navigation with Courses, Groups, Catalog and Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
 
 You can find the following sections in the personal menu:
 
-![1_green_20.png](assets/1_green_20.png) **Personal Tools**<br>
-![2_green_20.png](assets/2_green_20.png) **Achievements/Successes**<br>
-![3_green_20.png](assets/3_green_20.png) **Configuration**<br>
-![4_green_20.png](assets/4_green_20.png) **Help**<br>
-![5_green_20.png](assets/5_green_20.png) **System**<br>
-as well as the **Logout** function
+![1](assets/1_green_20.png) **Personal tools**<br>
+![2](assets/2_green_20.png) **Achievements/Successes**<br>
+![3](assets/3_green_20.png) **Configuration**<br>
+![4](assets/4_green_20.png) **Help**<br>
+![5](assets/5_green_20.png) **System**<br>
+as well as the **Log out** function
 
-![pers_menu2_v3_en.png](assets/pers_menu2_v3_en.png){ class="shadow aside-right lightbox"}
+![The five sections of the personal menu, numbered 1 to 5, and the entry Log out at the end](assets/pers_menu2_v3_en.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
     **Personal tools**
 
-    * [Calender](../personal_menu/Calendar.md)
+    * [Calendar](../personal_menu/Calendar.md)
     * [Subscriptions](../personal_menu/Subscriptions.md)
     * [Personal files](../personal_menu/File_Hub.md#personal_files)
     * [File Hub](../personal_menu/File_Hub.md)
@@ -37,56 +37,53 @@ as well as the **Logout** function
 
     **Achievements/Successes**
 
-    * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
+    * [Evidence of achievement](../personal_menu/Evidence_of_Achievements.md)
     * [Certificates](../personal_menu/Certificates.md)
     * [Badges](../personal_menu/OpenBadges.md)
-    * [Credit points](../personal_menu/Credit_Points.md) 
+    * [Credit points](../personal_menu/Credit_Points.md)
 
     **Configuration**
 
     * [Profile](../personal_menu/Profile.md)
-    * [System settings](../personal_menu/Settings.md)
+    * [Settings](../personal_menu/Settings.md)
     * [Password](../personal_menu/Password.md)
 
 
 ## Available tools
 
-Administrators can make a preselection and define the available tools (activate or deactivate).
-Depending on the configuration, the available selection may therefore contain more or fewer tools.
+Administrators can make a preselection and define the available tools (activate or deactivate). Depending on the configuration, the available selection may therefore contain more or fewer tools.
 
 ## Move tools to the main navigation
 
-If you prefer to have a tool displayed in the header instead of the personal menu, you can move the menu option from the personal menu to it.
+If you prefer to have a tool displayed in the header instead of the personal menu, you can move the menu option from the personal menu to the header.
 
-![pers_menu_moved_tool_v1_de.png](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
+![Calendar and Subscriptions icons in the header next to the chat status, marked with a circle; the two tools are missing from the opened personal menu](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
 
 You make the setting for this in the<br>
-`Personal Menu > Configuration > Tab System > Personal tools`
+`Personal menu > Configuration > Settings > Tab "System" > User tools`
 
 All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.
 
-![pers_menu_move_item_v1_de.png](assets/pers_menu_move_item_v1_de.png){ class="shadow lightbox"}
+![Section User tools in the System tab of the settings: the marked checkboxes Calendar and Subscriptions move the two tools as icons into the header](assets/pers_menu_move_item_v1_de.png){ class="shadow lightbox"}
 
-!!! note "Please note:"
+!!! info "Important"
 
     The tools are displayed only once, either in the personal menu **or** in the header.
 
+
 ## Tools generally displayed in the main navigation
 
-The [Chat](../basic_concepts/Chat.md) (instant messenger) and the [Search](../basic_concepts/Full_Text_Search.md) are generally always available in the top navigation bar.
+The [Chat](../basic_concepts/Chat.md) (instant messaging) and the [Search](../basic_concepts/Full_Text_Search.md) are always available in the header.
 
-![pers_menu_chat_suche_v1_de.png](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
-
-
-## Further information (German)
-
-:octicons-device-camera-video-24: **Video introduction**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}
-
-:octicons-device-camera-video-24: **Video introduction**: [The OpenOlat screen](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank"}
-
-:octicons-device-camera-video-24: **Video introduction**: [Personal menu](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank"}
-
-:octicons-device-camera-video-24: **Video introduction**: [Menu bar](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank"}
+![Chat status, counter of unread messages and search icon on the right of the header, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
 
 
+## Further information {: #further_information}
 
+**youtube**<br>
+[Navigation (German)](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}<br>
+[The OpenOlat screen (German)](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank"}<br>
+[Personal menu (German)](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank"}<br>
+[Menu bar (German)](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank"}
+
+[To the top of the page ^](#personal_menu)

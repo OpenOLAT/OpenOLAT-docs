@@ -2,22 +2,22 @@
 
 ## Funktionen [:octicons-tag-16:{ title="ab Release 19.1 (OO-8156)" }](https://track.frentix.com/issue/OO-8156){:target="_blank"} {: #functions}
 
-Das Media Center ist eine **zentrale Sammelstelle** für unterschiedliche Medientypen. 
+Das Media Center ist eine **zentrale Sammelstelle** für unterschiedliche Medientypen.
 
 Medien können...
 
-* ... direkt im Media Center erstellt werden 
+* ... direkt im Media Center erstellt werden
 * ... in verschiedenen Kursbausteinen erstellt und dann im Media Center abgelegt werden
 * ... extern erstellt und als Datei hochgeladen werden
 * ... kursübergreifend verwendet werden
-* ... an andere Personen freigegeben (geteilt)  und gemeinsam genutzt werden
+* ... an andere Personen freigegeben (geteilt) und gemeinsam genutzt werden
 * ... versioniert werden
 * ... mit Tags verschlagwortet werden
 * ... einer Taxonomie zugeordnet werden
 * ... gefiltert werden (z.B. "Meine Medien")
 * ... nach Verwendungsort gesucht werden
 
-![media_center_concept_v1_de.png](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" }
+![Mein Media Center in der Kachelansicht mit Filtern nach Typ, Fachbereich, Verwendung und Freigabe, dem Button Mediendatei hinzufügen und der Speicheranzeige unten links](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -27,12 +27,12 @@ Medien können...
 
 Das Media Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
 
-![media_center_concept_access1_v1_de.png](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" }
+![Markiertes Profilbild oben rechts in der Hauptnavigation öffnet das persönliche Menü](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" }
 
-![media_center_concept_access2_v1_de.png](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
+![Markierter Eintrag Media Center unter Persönliche Werkzeuge im geöffneten persönlichen Menü](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
 
 Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden.<br>
-[Mehr über das Teilen (Freigabe) >](#share) 
+[Mehr über das Teilen (Freigabe) >](#share)
 
 ### Administrativer Zugriff {: #administrative_access}
 
@@ -45,7 +45,7 @@ Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrat
 
 ## Medientypen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #media_types}
 
-Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:  
+Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:
 
 * Bilder (png, jpg, svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}, ...)
 * Video-Dateien (mp4)
@@ -69,20 +69,20 @@ Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** ab
 
 ## Medien dem Media Center hinzufügen [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![media_center_concept_add_media_v1_de.png](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" } 
+![Markiertes Aufklappmenü neben Mediendatei hinzufügen mit Datei, Video per URL, Video- und Audioaufzeichnung, draw.io Diagramm, Text und Zitat, in Mein Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" }
 
-Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege: 
+Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Existierende Medien direkt im Media Center hochladen bzw. verlinken {: #add_existing}
 
-* **Mediendateien hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
-* **Video per URL hinzufügen**: Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden. 
+* **Mediendatei hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
+* **Video per URL hinzufügen:** Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden.
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
 ### Neue Medien direkt im Media Center erstellen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"} {: #create_in_media_center}
 
 * **Dokument erstellen:** Dokumente integrierter Editoren, z.B. Word, Excel, PowerPoint
-* **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
+* **draw.io Diagramm erstellen:** Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 * **Text hinzufügen:** Textelemente zur Verwendung im Content Editor, mit einem einfachen HTML-Editor erstellt
 * **Video aufzeichnen:** In OpenOlat integrierte Video-Recording-Funktion. Klickt man auf "Video aufzeichnen" wird direkt die Aufnahmefunktion für die Webcam gestartet, sofern man im Browser den Zugriff auf die Kamera erlaubt.
 * **Audio aufzeichnen:** In OpenOlat integrierte Audio-Recording-Funktion. Klickt man auf "Audio aufzeichnen" wird die Aufnahmefunktion gestartet, sofern im Browser der Zugriff erlaubt wurde.
@@ -90,25 +90,25 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Neue Medien ausserhalb des Media Centers im Content Editor erstellen {: #create_in_editor}
 
-Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center".  Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten. 
+Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
 
-![Medium auswählen aus dem Mediencenter2](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
+![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat, im Dialog Medium auswählen des Kursbausteins Seite](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
 
 
 ### Inhaltselemente sammeln und mit dem Media Center verknüpfen {: #assign_media}
 
-Neben der Erstellung oder dem Upload von Medien im Media Center können Medien auch an anderen Stellen in OpenOlat _gesammelt_ und mit dem Media Center per Klick auf das Puzzleteil verknüpft werden. 
+Neben der Erstellung oder dem Upload von Medien im Media Center können Medien auch an anderen Stellen in OpenOlat _gesammelt_ und mit dem Media Center per Klick auf das Puzzleteil verknüpft werden.
 
 Zu den Elementen gehören:
 
-  * Forum-Postings
-  * Blogeinträge
-  * Wiki Seiten
-  * Leistungsnachweise aus Kursen
+* Forum-Postings
+* Blogeinträge
+* Wiki Seiten
+* Leistungsnachweise aus Kursen
 
-Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken auf das Puzzleteil. 
+Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken auf das Puzzleteil.
 
-![forumseintrag sammeln](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" }
+![Markiertes Puzzleteil-Symbol oben rechts an einem Forumsbeitrag, mit dem der Beitrag ins Media Center übernommen wird](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" }
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
@@ -116,17 +116,17 @@ Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles
 
     Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es erforderlich, dass man selbst Ersteller:in eines Eintrages bzw. einer Wikiseite ist. Nur eine Bearbeitung des Beitrags reicht nicht aus.
 
-!!! note "Pflichtangaben"
+!!! info "Pflichtangaben"
 
     Jedes Medienelement benötigt zwingend einen Titel und kann dann mit weiteren Informationen und Metadaten versehen werden. Später können diese Informationen über die Tabs eines Medienelements weiter konfiguriert werden.
 
 
 ### Freigabe für andere [:octicons-tag-16:{ title="ab Release 18.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #share}
 
-Wenn Sie eine Mediendatei im Media Center hinzufügen, haben Sie die Möglichkeit, es für andere Personen (Mitbenutzer:innen) frei zu geben.
+Wenn Sie eine Mediendatei im Media Center hinzufügen, können Sie sie für andere Personen (Mitbenutzer:innen) freigeben.
 
 Ansicht der Benutzer:innen:<br>
-![media_center_concept_share_v1_de.png](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
+![Markierter Bereich Share im Dialog Mediendatei hinzufügen mit dem Button Freigabe hinzufügen und den Freigabezielen Benutzer:in, Gruppe, Kurs und Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -137,22 +137,22 @@ Ansicht der Benutzer:innen:<br>
 
 Wählen Sie oben rechts über der Liste die Tabellenansicht, falls Sie gerade die Medien in der Kachelansicht angezeigt haben.
 
-Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen. 
+Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen.
 
-![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
+![Angehakter Eintrag Muster.pdf und Button Löschen über der Liste, beide markiert, in der Tabellenansicht von Mein Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einzelnes Medium angeklickt haben und die Informationen und Beschreibungen angezeigt werden. (Gleiches Menü wie zum Herunterladen.)
 
 !!! info "Wichtig"
 
-    Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können. 
+    Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können.
 
-Ins Media Center hochgeladene Medien gehören grundsätzlich einem/einer Besitzer:in. Beim Löschen des/der Besitzer:in gilt für seine/ihre Inhalte:
+Ins Media Center hochgeladene Medien gehören grundsätzlich einer Besitzer:in. Wird die Besitzer:in gelöscht, gilt für ihre Inhalte:
 
 * Medien mit Verwendung im ePortfolio werden gelöscht.
 * Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
 * Medien mit Verwendung in einem Kursbaustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
-* Medien ohne Besitzer:in werden in Zukunft in der Medienverwaltung für Administrator:innen angezeigt.
+* Medien ohne Besitzer:in werden in der Medienverwaltung für Administrator:innen angezeigt (Filter "Ohne Ersteller:in").
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -161,15 +161,15 @@ Ins Media Center hochgeladene Medien gehören grundsätzlich einem/einer Besitze
 
 ## Quota [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
 
-Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
+Der im Media Center verfügbare Speicherplatz kann von den OpenOlat Administrator:innen eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten.
 
-![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+![Markierte Speicheranzeige 0 B von 304.8 MB belegt unten links in Mein Media Center, darüber die Tabs Mein Media Center und Medienverwaltung](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
 
 !!! note "Hinweis"
 
-    Als Speicherverbrauch wird nur angezeigt, was an eigenen Medien hochgeladen/erstellt wurde. Sind also alle angezeigten Medien ausschliesslich referenziert (von anderen Autoren freigegeben), dann wird ein Speicherverbrauch von 0 angezeigt.
+    Als Speicherverbrauch wird nur angezeigt, was an eigenen Medien hochgeladen/erstellt wurde. Sind also alle angezeigten Medien ausschliesslich referenziert (von anderen Autor:innen freigegeben), dann wird ein Speicherverbrauch von 0 angezeigt.
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -177,17 +177,17 @@ In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden 
 
 ## Medien verwenden [:octicons-tag-16:{ title="ab Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-Und wie können die Medien, die sich im Media Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
+Und wie können die Medien, die sich im Media Center befinden, weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden.
 
-![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+![Markierter Eintrag Aus meinem Medien Center wählen im Menü Inhalt hinzufügen des Kursbausteins Seite, neben Bild, Video, Zitat und Dokument](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
 Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
 
-![media_center_filter_function_v1_de](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
+![Filterleiste des Media Centers mit den Tabs Alle bis Suchmaske und den Filtern Typ, Fachbereich Pfade, Verwendet in, In Verwendung, Geteilt mit, Quelle und Plattform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Hinweis"
 
-    Bei der Einbindung von Dokumenten in einer Portfolio Mappe werden diese als _Links_ dargestellt und nicht direkt angezeigt.  
+    Bei der Einbindung von Dokumenten in einer Portfolio Mappe werden diese als _Links_ dargestellt und nicht direkt angezeigt.
 
 
 [Zum Seitenanfang ^](#media_center_concept)
@@ -201,17 +201,20 @@ Personen mit administrativem Zugriff (z.B. Administrator:innen) haben beim Aufru
 
 Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar.
 
-![media_center_concept_administration_v2_de.png](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
+![Markierter Tab Medienverwaltung mit der Kachelübersicht aller fremden Medien und dem zusätzlichen Filter Ohne Autor:in](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-!!! note "Weitere Informationen"
-    [Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
-    [Media Center im persönlichen Menü >](../personal_menu/Media_Center.de.md)<br>
-    [Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
+[Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
+[Portfolio erstellen >](../area_modules/Portfolio.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
+[Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
+[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)
 
 [Zum Seitenanfang ^](#media_center_concept)

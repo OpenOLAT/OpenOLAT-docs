@@ -291,7 +291,7 @@ On the OpenOlat side, a declaration can be presented to the participants for con
 
 A declaration can be set up for individual courses in OpenOlat (in this case the course with the exam) under<br>
 **Administration > Settings > "Terms of use" tab**.<br>
-See also [Course-specific terms of use >](../../manual_user/basic_concepts/Terms_Of_Use.md#define-terms-of-use-for-a-course)<br>
+See also [Course-specific terms of use >](../../manual_user/basic_concepts/Terms_Of_Use.md#terms_of_use_course)<br>
 
 To block all other activities in OpenOlat after the start of a test, use an [assessment mode](../../manual_user/learningresources/Assessment_mode.md).
 
@@ -352,7 +352,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 
 ## Further information {: #further_information}
 
-[Defining the terms of use of a course >](../../manual_user/basic_concepts/Terms_Of_Use.en.md#nutzungsbedingungen-eines-kurs-definieren)<br>
+[Defining the terms of use of a course >](../../manual_user/basic_concepts/Terms_Of_Use.md#terms_of_use_course_define)<br>
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.en.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.en.md)<br>
 [How do I exchange a test? >](../../manual_how-to/exchange_tests/exchange_tests.en.md)<br>

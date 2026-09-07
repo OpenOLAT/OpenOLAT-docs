@@ -2,33 +2,33 @@
 
 When searching, it depends on which **starting point** you are searching from. Depending on this
 
-* it will only be searched in a specific area
-* it will only be searched for a specifix object type
-* it will be searched via means of another search procedure
+* only a specific area is searched
+* only specific object types are searched for
+* a different search method is used
+
+:octicons-device-camera-video-24: **Video introduction (German)**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank"}
 
 [Global search >](Search_Global.md)
 
 [Local search >](Search_Local.md)
 
-[Person search >](Search_Person.md)
+[Search other users >](Search_Person.md)
 
-[Search in courses >](Search_in_Course.md)
+[Search in a course >](Search_in_Course.md)
 
-[Search in file hub >](Search_in_FileHub.md)
+[Search in the File Hub >](Search_in_FileHub.md)
 
 ---
 
-## Full text search {: #full_text_search}
+## Full-text search [:octicons-tag-16:{ title="from Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #full_text_search}
 
-The full-text search is used for the global search. You can use it to search for the search terms in various course and group **content**, for example in forum posts, PDF and Word files.
-You can also search for portfolio folders and artifacts, as well as for documents in the in your personal files in the [File Hub](../personal_menu/File_Hub.md).
+The full-text search is used for the global search. It searches the **content** of courses, groups and learning resources for your search terms, for example in forum posts, wiki pages and in files from folders. The file formats PDF, HTML, TXT, Word, PowerPoint and Excel are indexed. Personal data such as profiles or visiting cards is not indexed.
 
-![](assets/generelle_Suche.png){ class="shadow lightbox" }
+![Result list for the search term e-learning with highlighted hits, the location of each hit and the link Advanced search, in the dialog Full-text search](assets/generelle_Suche.en.png){ class="shadow lightbox" }
 
-!!! info "Hint"
+!!! info "Important"
 
-    Using the full-text search, you will only ever find the course content to which you have access authorization.
-
+    Using the full-text search, you will only ever find the course content to which you have access.
 
 [To the top of the page ^](#search_general)
 
@@ -38,16 +38,15 @@ You can also search for portfolio folders and artifacts, as well as for document
 
 To refine your search, use the advanced search.
 
-![Erweiterte Suche aktivieren](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" }
+![Link Advanced search below the search field, in the dialog Full-text search](assets/full_text_search_advanced_link_EN.png){ class="shadow lightbox" }
 
-![Erweiterte Volltextsuche - Beispiel](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" }
+![Form of the advanced search with the fields Full-text search, Author, Title, Description, Creation date, Last modification, Document type, License and Meta data, in the dialog Full-text search](assets/full_text_search_advanced.png){ class="shadow lightbox" }
 
-In _Advanced search_ mode, you can refine your search entry. Please note that the various search fields are linked with the Boolean AND operator. This means that if you fill in the fields _Title_ and _Author_, for example, only documents in which the terms in the respective fields occur simultaneously will be found.
+In _Advanced search_ mode, you can refine your search entry. The fields Full-text search, Author, Title, Description, Creation date, Last modification, Document type, License and Meta data are available. Please note that the various search fields are linked with the Boolean AND operator. This means that if you fill in the fields _Title_ and _Author_, for example, only documents in which the terms occur in the respective fields at the same time will be found.
 
-Exception: The Full text search field searches across all fields.
+Exception: The Full-text search field searches across all fields.
 
-From the results list, you can jump directly to the learning content with the search term found.
-
+From the result list, you can jump directly to the learning content with the search term found.
 
 [To the top of the page ^](#search_general)
 
@@ -55,18 +54,17 @@ From the results list, you can jump directly to the learning content with the se
 
 ## Bulk search {: #bulk_search}
 
-In some search forms it is possible to switch to a bulk search. Instead of the search form with individual input fields, a single large field will appear into which you can copy several email addresses that you have copied from an Office document to the clipboard, for example.
+In some search forms it is possible to switch to a bulk search. Instead of the search form with individual input fields, a single large field appears into which you can copy, for example, several email addresses that you have copied from an Office document to the clipboard.
 
-![search_general_bulk_search1_v1_de.png](assets/search_general_bulk_search1_v1_de.png){ class="shadow lightbox"}
+![Link Bulk search next to the title User search: search form, in the user management](assets/search_general_bulk_search1_v1_de.png){ class="shadow lightbox" }
 
-![search_general_bulk_search2_v1_de.png](assets/search_general_bulk_search2_v1_de.png){ class="shadow lightbox"}
+![Large input field with line numbers for several search values and the link Search form to switch back, view User search: bulk search in the user management](assets/search_general_bulk_search2_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_general)
 
 ---
 
-
-## Search sytax {: #syntax}
+## Search syntax {: #syntax}
 
 You can modify your search query with the following syntax.
 
@@ -76,25 +74,43 @@ You can modify your search query with the following syntax.
 
 **Search using wildcards:** Wildcards can be used to search for specific word fragments.
 
-* The question mark in a search term stands for any single letter. For example, by entering _te?t_ you will find all documents containing the words "test", "text" etc.
-* The asterisk in a search term stands for any number of letters. For example, if you enter the search term _test*_, you will find all documents containing words beginning with "test". The asterisk can also appear within a search term: _Te*t_
+  * The question mark in a search term stands for any single letter. For example, by entering _te?t_ you will find all documents containing the words "test", "text" etc.
+  * The asterisk in a search term stands for any number of letters. For example, if you enter the search term _Test*_, you will find all documents containing words beginning with "Test". The asterisk can also appear within a search term: _Te*t_
 
-**Advanced search:** In advanced search mode, the various search fields are linked with the AND operator.
+**Advanced search:** In _Advanced search_ mode, the various search fields are linked with the AND operator.
 
 [To the top of the page ^](#search_general)
 
 ---
 
-Metadata or _meta information_ is data that contains information about the characteristics of other data, but not the data itself. Metadata, i.e. data **about** data, describes a file with additional information such as a title, the author or the publisher. They are there to make it easier to recognize what kind of document it is. This is particularly useful if the title of a document cannot be written in the file name because it is far too long or contains special characters.
+## Metadata {: #metadata}
 
-Metadata can be added to each file as well as complete learning resources. The metadata is optional and does not have to be filled in. They are based on the [Dublin Core Simple Standard](https://wikipedia.org/wiki/Dublin_Core). Some metadata cannot be changed. These are the name of the person who uploaded the document, the size of the document, the time at which the document was uploaded and the file type. You can enter information such as the original author, the title, a description, the source or the language manually.
+Metadata or _meta information_ is data that contains information about the characteristics of other data, but not the data itself. Metadata, i.e. data **about** data, describes a file with additional information such as a title, the author or the publisher. It is there to make it easier to recognize what kind of document it is. This is particularly useful if the title of a document cannot be written in the file name because it is far too long or contains special characters.
+
+Metadata can be added to each file as well as to complete learning resources. The metadata is optional and does not have to be filled in. It is based on the [Dublin Core Simple Standard](https://en.wikipedia.org/wiki/Dublin_Core). Some metadata cannot be changed. These are the name of the person who uploaded the document, the size of the document, the time at which the document was uploaded and the file type. You can enter information such as the original author, the title, a description, the source or the language manually.
 
 The metadata is indexed by the full-text search. This means that you can search for the indexed metadata in the search and thus find the relevant documents more easily.
 
-**Lock file:** You can mark a file as locked in the metadata. Locked files are provided with a lock and can no longer be overwritten, deleted or moved by other users. This option is not available for folders.
+**Lock file:** You can mark a file as locked in the metadata. Locked files are marked with a lock and can no longer be overwritten, deleted or moved by other users. This option is not available for folders.
 
-![](assets/Datei_gesperrt_DE_Detail.png){ class="shadow lightbox" }
+![Locked file with the lock icon framed in red in the column Locked, in the file list of a folder](assets/Datei_sperren_EN_detail.png){ class="shadow lightbox" }
 
-With the help of the available external link, you can also link directly to a specific file outside of OpenOlat.
+With the help of the available external link, you can also link directly to a specific file from outside OpenOlat.
+
+[To the top of the page ^](#search_general)
+
+---
+
+## Further information {: #further_information}
+
+[Global search >](Search_Global.md)<br>
+[Local search >](Search_Local.md)<br>
+[Search other users >](Search_Person.md)<br>
+[Search in a course >](Search_in_Course.md)<br>
+[Search in the File Hub >](Search_in_FileHub.md)<br>
+[Dublin Core (Wikipedia) >](https://en.wikipedia.org/wiki/Dublin_Core)
+
+**youtube**<br>
+[Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)
 
 [To the top of the page ^](#search_general)

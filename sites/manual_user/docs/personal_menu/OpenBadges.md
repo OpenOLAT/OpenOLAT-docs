@@ -1,39 +1,39 @@
 # Personal achievements/successes: Badges {: #badges}
 
-![pers_menu_badges_v4_de.png](assets/pers_menu_badges_v4_de.png){ class="aside-right lightbox"}
+![Menu group Achievements/Successes with the entries Evidence of achievement, Certificates, Badges and Credit points, the entry Badges is selected, in the personal menu](assets/pers_menu_badges_v4_de.png){ class="aside-right lightbox"}
 
-![icon_badges.png](assets/icon_badges.png)
+![Icon Badges](assets/icon_badges.png)
 
-“Badges” in your personal menu are the place where you can store and view all the badges you have earned, regardless of how and where they were awarded in OpenOlat.
+"Badges" in your personal menu is the place where you store and view all the badges you have earned, regardless of how and where they were awarded in OpenOlat.
 
-Central information about each badge is displayed, and individual badges can be downloaded and added to LinkedIn.
+The overview "My badges" shows the issuer and the date of award for each badge. You can filter the list by status and issuer. "Download badge" saves the badge as an image file, "Add to LinkedIn" adds it to your LinkedIn profile.
 
-![Badge personal tool](assets/Badge_erhalten.jpg) 
+![Badge cards with issuer, date of award and the buttons Download badge and Add to LinkedIn, above them the filters by status and issuer, in the overview My badges](assets/Badge_erhalten.jpg){ class="shadow lightbox" }
 
-If you click on a badge you have received, you will be taken to the badge information page with further information.
+Click on a badge you have received to open the badge details.
+
 
 ---
 
 
-## Badge info page {: #badge_info}
+## Badge details {: #badge_info}
 
-Here you can find out when and by whom the badge was awarded and information on the award context. A description and, in particular, the award criteria assigned by the creator of the badge contain further important information.
+The badge details show when and by whom the badge was awarded, and the context in which it was awarded. The page also contains a description and the award criteria that the creator of the badge has defined.
 
-The badge info page can be shared via the listed public link and integrated into other web contexts. This means that people can also access the badge info page without an OpenOlat account. 
+Under "Public link" you find the address with which you share the badge details or embed them in other websites. People without an OpenOlat account can access them this way.
 
-![Badges Infoseite](assets/Badge_Beispiel.jpg)
+![Recipient, awarded by, issued on, course, description, criteria with an if-then rule and Public link, top right the button Download badge, in the badge details](assets/Badge_Beispiel.jpg){ class="shadow lightbox" }
 
 [To the top of the page ^](#badges)
 
 ---
 
 
-## Further information on the badges for teachers {: #further_information}
+## Further information {: #further_information}
 
-* [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
-* [Badges in the e-Assessment Administration >](../../manual_admin/administration/e-Assessment_openBadges.md) <br> 
-* [How do I award badges in my course? >](../../manual_how-to//badges/badges.md)<br>
-* [Evidences of achievement in courses >](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
-* [Certificates >](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>
+[Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
+[Badges in the e-Assessment Administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
+[How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)
 
 [To the top of the page ^](#badges)

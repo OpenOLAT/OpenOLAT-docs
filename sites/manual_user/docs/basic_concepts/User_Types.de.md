@@ -4,12 +4,12 @@
 
 OpenOlat arbeitet mit einem Rollen- und Rechte-Management. Auf oberster Ebene wird zwischen 3 grundsätzlichen Benutzertypen unterschieden. Dies sind:
 
-![roles_rights_user_types_v1_de.png](assets/roles_rights_user_types_v1_de.png){ class=" shadow lightbox" }
+![Gast und externe Benutzer:in greifen von aussen auf OpenOlat zu, die registrierten Benutzer:innen stehen im System selbst](assets/roles_rights_user_types_v1_de.png){ class="shadow lightbox" }
 
 
 ### Registrierte Benutzer:innen (Standard) {: #registered_users} 
 
-Alle Benutzer:innen haben einen eindeutigen Benutzernamen, der nach der Registrierung zur Identifikation benutzt wird. Benutzer:innen können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Lernergebnisse (z.B. aus Tests) werden dem Benutzernamen zugeordnet. Zudem haben alle Benutzer:innen eine individuell konfigurierbare Startseite und [Speicherplatz](../personal_menu/File_Hub.de.md#quota) zur Verfügung. Alle registrierten Benutzer:innen hat auch die Möglichkeit eigene [Gruppen](../groups/index.de.md) zu erstellen und alle darin enthaltenen Funktionen und Tools zu nutzen. 
+Alle Benutzer:innen haben einen eindeutigen Benutzernamen, der nach der Registrierung zur Identifikation benutzt wird. Benutzer:innen können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Lernergebnisse (z.B. aus Tests) werden dem Benutzernamen zugeordnet. Zudem haben alle Benutzer:innen eine individuell konfigurierbare Startseite und [Speicherplatz](../personal_menu/File_Hub.de.md#quota) zur Verfügung. Alle registrierten Benutzer:innen haben auch die Möglichkeit, eigene [Gruppen](../groups/index.de.md) zu erstellen und alle darin enthaltenen Funktionen und Tools zu nutzen.
 
 Bei registrierten Benutzer:innen ohne weitere Rollen und Rechte handelt es sich in der Regel um die Lernenden.
 
@@ -20,10 +20,12 @@ Registrierte Benutzer:innen können aber auch zusätzlich eine oder mehrere Roll
 ---
 
 
-### Externe Benutzer:innen {: #external_users} 
+### Externe Benutzer:innen [:octicons-tag-16:{ title="ab Release 19.1.11 (OO-8636)" }](https://track.frentix.com/issue/OO-8636) {: #external_users}
 
-sind in OpenOlat mit ihrer E-Mail-Adresse bekannt. Es existiert jedoch kein kompletter Datensatz mit Benutzerdaten, wie bei registrierten Benutzer:innen. Externe Benutzer:innen können dem entsprechend die meisten Rollen in OpenOlat nicht übernehmen, da sie eine volle Registrierung erfordern.
+Externe Benutzer:innen sind in OpenOlat mit ihrer E-Mail-Adresse bekannt. Es existiert jedoch kein kompletter Datensatz mit Benutzerdaten, wie bei registrierten Benutzer:innen. Externe Benutzer:innen können dementsprechend die meisten Rollen in OpenOlat nicht übernehmen, da sie eine volle Registrierung erfordern.
 Externe Benutzer:innen können bei Bedarf zu vollwertigen registrierten Benutzer:innen umgewandelt werden.
+
+Das Konto einer externen Benutzer:in wird nach Ablauf der Frist (Voreinstellung: 180 Tage) automatisch inaktiv. Eine neue Einladung aktiviert das Konto wieder und setzt ein neues Ablaufdatum.
 
 [zum Seitenanfang ^](#user_types)
 
@@ -41,18 +43,18 @@ Gäste haben, ohne sich zu registrieren, beschränkten Zugang zu OpenOlat. Sie k
 
 ## Vergleich {: #comparison} 
 
-| Merkmal | Gast | Externes Benutzer:in | Registrierte Benutzer:in |
+| Merkmal | Gast | Externe Benutzer:in | Registrierte Benutzer:in |
 |---|---|---|---|
 | Account erforderlich | nein | temporär (per Einladungslink) | ja |
 | Identifikation | anonym | E-Mail bekannt | Daten gemäss Profil (mit verschiedenen Pflichtfeldern) |
 | Zeitbegrenzung | nein (Zugriff möglich, solange Kurs offen) | Voreinstellung: max. 180 Tage | unbegrenzt oder zeitlich begrenzt (mit Kontoablaufdatum)|
 | in herkömmlichen Kursen | ja | ja | ja |
 | in Lernpfad-Kursen | ja | ja | ja |
-| Aktivierung durch Admin nötig | ja | ja | nein |
+| Aktivierung durch Administrator:in nötig | ja | ja | nein |
 | spezifische Angebote | ja, Angebot "Gastzugang"  | nein | nein (Standard) |
 | Sammeleinladung| nein  | ja (E-Mail-Liste) | ja |
 | Authentifizierung | nein | ja, durch validierte E-Mail-Adresse | ja, verschiedene Verfahren |
-| Verwaltung der Lerner:innen | nicht möglich, da Benutzer:in unbekannt | Benutzerverwaltung, Mitgliederverwaltung | Benutzerverwaltung, Mitgliederverwaltung |
+| Verwaltung der Lernenden | nicht möglich, da Benutzer:in unbekannt | Benutzerverwaltung, Mitgliederverwaltung | Benutzerverwaltung, Mitgliederverwaltung |
 | Verwaltung von Lerndaten | nicht möglich, da Benutzer:in unbekannt | ja | ja |
 | Gruppenmitgliedschaft | nicht möglich, da Benutzer:in unbekannt | ja (evtl. durch Administrator:in generell eingeschränkt) | ja |
 
@@ -66,11 +68,13 @@ Gäste haben, ohne sich zu registrieren, beschränkten Zugang zu OpenOlat. Sie k
 ---
 
 
-## Weiterführende Informationen  {: #further_information} 
+## Weiterführende Informationen {: #further_information}
 
-[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md#add_members)<br>
-[Gastzugang >](../../manual_user/basic_concepts/guest_access.de.md)<br>
-[Aktivierung durch Administrator:in >](../../manual_admin/administration/Guest_and_invitation.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
+[Gruppen >](../groups/index.de.md)<br>
+[Rollen und Rechte: Gastzugang >](guest_access.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
+[Anonyme Gäste und externe Benutzer:innen >](../../manual_admin/administration/Guest_and_invitation.de.md)
 
 [zum Seitenanfang ^](#user_types)
 

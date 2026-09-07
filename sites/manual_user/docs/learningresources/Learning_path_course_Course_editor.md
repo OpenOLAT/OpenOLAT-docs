@@ -1,154 +1,164 @@
-# Learning path course - Course editor
+# Learning path course - Course editor {: #course_editor}
 
 ## Sequence of learning steps {: #learning_steps_order}
 
 ### Sequential or no sequence {: #sequential_or_not}
 
-Learning path courses can be configured to be followed sequentially or in any order by learners. The basic setting is set on the top course element, which is automatically created when a course is created. This setting then initially applies to the entire course.
+Learning path courses can be configured so that learners go through the course elements sequentially or in any order. You make the basic setting "Sequence of steps" on the top course element, which OpenOlat creates automatically when a course is created. It initially applies to the entire course.
 
-Examples and a further introduction can also be found in our [Whitepaper for learning path courses (download here)](assets/Whitepaper_Lernpfadkurse_final.pdf).
+Examples and a further introduction can be found in our [Whitepaper on learning path courses (PDF, German)](assets/Whitepaper_Lernpfadkurse_final.pdf).
 
-:fontawesome-solid-cubes:
+![Tab Learning path of the top course element with the options Sequential and No sequence for the sequence of steps and the execution Part of learning path or Excluded](assets/Tab_Lernpfad_Struktur.png){ class="shadow lightbox" }
 
-If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../learningresources/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
+If certain areas of the course are to have a different setting, add a [course element "Structure"](../learningresources/Course_Element_Structure.md) and configure the sequence of steps there. The setting applies to all subordinate course elements. For example, a course can be sequential by default while learners access a certain area in any order.
 
 ## Tab "Learning path" {: #tab_learning_path}
 
-Learning paths, unlike conventional courses, do not have the tabs "Visibility" and "Access", but the tab "Learning path". The following things can be configured here:
+In the course editor, learning path courses have the tab "Learning path" instead of the tabs "Visibility" and "Access". Here you configure:
 
-![Learning path](assets/Lernpfad_tab17_en.png)
+![Tab Learning path of a course element with Execution, Relative dates, Release date, Due date, Learning time in minutes and Completion criterion](assets/Lernpfad_tab17_en.png){ class="shadow lightbox" }
 
- * **Execution**
-  *  **Mandatory**: The completion of the course element is binding and will be considered in the percentage evaluation.
-  *  **Optional**: Completion will not be taken into account when displaying percentages.
-  * **Excluded**: Completion is not part of the learning path and is only controllable by exception. The course element is not visible for the participants.
-  *  **Release date**: In learning path courses, it is sometimes possible to grant participants time-limited access to a course:<br>
-  \- at the course module level: yes (Editor > Learning Path tab > relative date)<br>
-  \- at the structure module level: no<br>
-  \- at the top-level node (overall course): no<br>
-  The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the course element remains permanently available from the release date, provided you have access to the course.
-  *  **Due date**: The course element can be opened and worked through up to the specified date. If no entry is made, the course element remains permanently available from the release date, provided you have access to the course.
-  *  **Learning time (minutes)**: Here you can enter how long the author estimates the processing time for a given element. The processing time is independent of how much time the user really needs for the course element. However, the estimated time can be used to calculate the learning progress.
+* **Execution**
+    * **Mandatory**: The completion of the course element is binding and counts in the percentage calculation of the learning progress.
+    * **Optional**: The completion does not count in the percentage display.
+    * **Excluded**: The course element is not part of the learning path and can only be controlled via exceptions. It is not visible to the participants.
+* **Release date**: Before the release date the course element is visible but not accessible. From the specified date participants can open and work on it. Without an entry the course element is permanently available, provided the person has access to the course. Time-limited access with the option "Relative dates" is only possible at the level of individual course elements, not on structure elements and not on the top course element.
+* **Due date**: Participants can open and work on the course element up to the specified date. If the deadline expires while the course element is open, it remains editable; access does not end automatically.
+* **Learning time (minutes)**: Planned or estimated effort for working on the course element. The value is independent of how much time participants actually need. It can be used for calculating the learning progress, see [Learning time](#learning_time).
+* **Completion criterion**: defines when the course element counts as done, see [Completion criteria](#completion_criterion).
 
-These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
+These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md), which bundles course elements. In the structure element you define the sequence of steps for all subordinate course elements: "Sequential" or "No sequence".
 
 ### Exceptions {: #exceptions}
 
-![configure exceptions in learning path](assets/Ausnahmen.png)
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>){:target="_blank"}
 
-Switching on the "Exceptions" allows you to differentiate who is allowed to see and edit the respective course element and who is not. First a basic setting is made and then exceptions to this basic setting can be defined. It is also possible to define several exceptions (or-link). For example, a course element can be basically obligatory but configured in such a way that editing is voluntary for certain persons or groups or the course element is not visible at all (excluded). With the help of these exceptions individual learning paths for different learners can be implemented.
+With "Enable exceptions" you define in a differentiated way who may see and work on the respective course element and who may not. First you make a basic setting, then you define exceptions to this basic setting. Several exceptions are possible (or-link). For example, a course element can be mandatory in general but optional or not visible at all (excluded) for certain persons or groups. With exceptions you implement individual learning paths for different learners.
+
+![Button Add exception, expanded with the types Groups, Organisations, Users, User property, Course element passed and Course execution number, tab Learning path in the course editor](assets/learning_path_exceptions_v1_de.png){ class="shadow lightbox" }
 
 The exceptions can refer to the following aspects:
 
-  * Groups
-  * Organizations
-  * User
-  * User attribute
-  * Course element passed: The configured course element is provided depending on another assessable course element. For example, the course element is not visible (= excluded) if a certain test has not been passed.
-  * Course run number: If the course is attended multiple times (e.g. for recertification), the configured course element can also only be displayed in one or some of the runs. In this way, different course elements can be offered to course participants for a recertification or a repeat course.
+* Groups
+* Organisations
+* Users
+* User property: The value can contain the wildcard `*`, for example `*@example.org` for all accounts with this e-mail domain. [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7337)" }](https://track.frentix.com/issue/OO-7337)
+* Course element passed: The configured course element is provided depending on another assessable course element. For example, the course element is not visible (excluded) if a certain test has not been passed.
+* Course execution number: If the course is attended several times, for example for a recertification, the configured course element can be displayed in only one or some of the executions. This way participants get different course elements for a recertification or a repeat course.
 
 **Further configuration examples for exceptions:**
 
-a) The course element is basically not visible unless you are a member of the group "B-ernhardiner". Then the processing is obligatory.
+a) The course element is generally not visible unless you are a member of the group "B-ernhardiner". Then the processing is mandatory.
 
-![Example A: Exception with group](assets/image2021-12-13_13-41-2.png)
+![Exception table with default Excluded and the group B-ernhardiner as Mandatory, below the completion criteria of a course element Assessment](assets/image2021-12-13_13-41-2.png){ class="shadow lightbox" }
 
-b) The course element structure and all subordinated course elements are basically visible except for the members of the group Glossary or the individual "John Green".
+b) The course element "Structure" and all subordinate course elements are generally visible, except for the members of the group "Glossar" and the individual "John Green".
 
-![Example B: Exception with group or person](assets/Ausnahme_b.png)
+![Exception table of a structure element with default Part of learning path, the entry John Green of type User and the group Glossar are marked as Excluded](assets/Ausnahme_b.png){ class="shadow lightbox" }
 
-c) The course element is mandatory. For those who have passed a certain checklist the course element is optional and for those who have passed a certain test the course element is not visible at all (exceptions).
+c) The course element is mandatory in general. For persons who have passed a certain check list, the processing is optional. For persons who have passed a certain test, the course element is not visible (excluded).
 
-![Example C: Exception with course elements](assets/Ausnahme_c.png)
+![Exception table with default Mandatory, the passed check list leads to Optional, the passed test to Excluded](assets/Ausnahme_c.png){ class="shadow lightbox" }
 
 ### Learning time {: #learning_time}
 
-The learning time is particularly relevant if the learning progress is determined on the basis of the learning time in the course settings for the execution (see [Create learning path courses](../learningresources/Creating_learning_path_courses.md)). In this case, all time entries of the individual course elements are summed up and the total sum is taken as the basis for 100%.
+The learning time is particularly relevant if the learning progress is calculated according to the learning time under `Course > Administration > Settings`, tab "Execution" (see [Creating learning path courses](../learningresources/Creating_learning_path_courses.md)). In this case OpenOlat sums up the time entries of the mandatory course elements; the total corresponds to 100 %.
 
-If a time has been entered for a course element, this learning time will also be displayed to the participants as long as they have not yet completed the course element. If a course element is bundled with a structure element, the total learning time of the subordinate course elements will be displayed to the participants. The prerequisite is that the display of the title is activated in the tab "Layout" of the structure element. By displaying the learning time learners can quickly get an overview of the time spent on a section or chapter of the course.
+If a time is entered for a course element, participants see this learning time as long as the course element is not yet done. If course elements are bundled with a structure element, participants additionally see the added-up learning time of all subordinate course elements. The prerequisite is that the display of the title is activated in the tab "Layout" of the structure element. This way learners quickly get an overview of the time required for a section or chapter.
 
-The time display is independent of the type of learning progress calculation selected in the course settings. So even if progress is based on the number of course elements, the learning time will be displayed for the structure element and for the subordinate course elements.
+The time display is independent of the type of learning progress calculation selected in the course settings. Even if the progress is calculated according to the number of course elements, OpenOlat displays the learning time for the structure element and for the subordinate course elements.
 
-### Completion criterion {: #completion_criterion}
+### Completion criteria {: #completion_criterion}
 
-Except for the course element "Structure", all course elements offer the possibility that the element is considered
-"done" when it is opened or when the user explicitly confirms the processing. Depending on your course element there are also other criteria for completion.
+Except for the course element "Structure", every course element counts as done when participants open it or explicitly confirm the processing. Depending on the course element, further completion criteria are available:
 
- * **Open course element**: all course elements except Structure  
+* **Visit course element**: all course elements except Structure
+* **Confirmation by participant**: all course elements except Structure
+* **Score**: Done when participants have reached the minimal score. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task
+* **Passed**: Done when the pass criteria defined for the course element are met. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task
+* **Execution done**: Done when all steps have been completed. In the intermediate stages, partial completion counts as a percentage of the progress. Available for the course elements Task, Grouptask, Portfolio task, Video task
+* **Test finished**: Only for the course element Test
+* **Survey finished**: Done when participants have submitted the survey. Only for the course element Survey
+* **Enrollment done**: Done when participants have enrolled in at least one group. Only for the course element Enrolment
+* **Form filled in**: Only for the course element Form
+* **Challenges completed**: Only for the course element Practice
+* **Assessment finalized**: Only for the course elements Assessment and Check list
+* **All checkboxes marked as completed**: Only for the course element Check list
+* **Video watched to the end (95%)**: Only for the course element Video
+* **E-mail sent**: Only for the course element E-mail
+* **Course elements are selected and done**: Only for the course element [Selection](../learningresources/Course_Element_Selection.md) [:octicons-tag-16:{ title="from Release 19.1 (OO-7276)" }](https://track.frentix.com/issue/OO-7276)
 
- * **Confirmation by the participant**: all course elements except Structure  
-  
- * **Score**: Done when the user has reached a certain minimum score. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task  
-  
- * **Passed**: Completed when the pass criteria defined for the course component are met. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task
+#### Default values for completion criteria {: #completion_criterion_defaults}
 
- * **Execution done**: Completely done when all steps of the task have been completed. In the intermediate stages, partial completion is taken into account as a percentage of progress. Available for the course elements Task, Grouptask, portfolio task, video task
-  
- * **Test finished**: Only for the course element Test
-  
- * **Survey finished**: Done when the user has submitted the survey. Only for the course element Survey  
-  
- * **Enrollment done**: Done if the user has enrolled in one or more group(s). Only for the course element Enrollment  
-  
- * **Form filled in**: Only for the course element Form  
+When a course element is inserted, OpenOlat sets a completion criterion that supports the typical use case of the course element.
 
- * **Challenges finished**: Only for the course element Practice
-
- * **Bewertung finished**: Only for the course element Checklist
-
- * **All checkboxes marked as completed**: Only for the course element Checklist
-
- * **Video watched to the end (95%)**: Only for the course element Video  
-
- * **E-Mail sent**: Only for the course element E-Mail
-
-#### Specific default values for completion criteria
-
-For each course element, a specific completion criterion is set during creation, which supports the standard use case of the element.
-
-Module | Default completion criterion
+Course element | Default completion criterion
 ---------|----------
 Adobe Connect | Visit course element
-Appointment scheduling | Confirmation by participant
+Task and Grouptask | Execution done
+Selection | Course elements are selected and done
 Assessment | Assessment finalized
 BigBlueButton | Visit course element
 Blog | Confirmation by participant
-Calendar | Visit course element
-Card2Brain | Confirmation by participant
-Checklist | Passed
-ContentPackage | Confirmation by participant
+card2brain flashcards | Confirmation by participant
+Check list | Passed
+CP learning content | Confirmation by participant
+File dialog | Confirmation by participant
 Document | Confirmation by participant
 Edubase | Confirmation by participant
-Edusharing | Confirmation by participant
-Enrollment | Enrollment done
+edu-sharing | Confirmation by participant
+Enrolment | Enrollment done
 E-mail | Visit course element
 External page | Visit course element
-File discussion | Confirmation by participant
-Folder | Visit course element
 Form | Form filled in
 Forum | Visit course element
 GoToMeeting | Visit course element
-Linklist | Visit course element
+HTML page | Visit course element
+JupyterHub | Visit course element
+Calendar | Visit course element
+Link list | Visit course element
 Livestream | Visit course element
-LTI | Confirmation by participant
-Messages | Visit course element
-MS Teams | Visit course element
+LTI page | Confirmation by participant
+MediaSite | Confirmation by participant
+Microsoft Teams | Visit course element
+Notifications | Visit course element
 Opencast | Visit course element
-OpenMeeting | Visit course element
+OpenMeetings | Visit course element
+Folder | Visit course element
 Podcast | Confirmation by participant
-Portfolio Task | Completion
-Scorm | Confirmation by participant
-Self-Test | Confirmation by participant
-Structure | Visit Course Element
-Participant List | Visit Course Element
-Participant Folder | Confirmation by User
-Practice | Challenges completed
-Single page | Visit course element
-Survey | Survey finished
-Task and Group Task | Execution done
+Portfolio task | Execution done
+SCORM 1.2 | Confirmation by participant
+Page | Visit course element
+Self-test | Confirmation by participant
+Participant list | Visit course element
+Participant folder | Confirmation by participant
+Appointment scheduling | Confirmation by participant
+Assignment of dates | Confirmation by participant
 Test | Test finished
-Topic Assignment | Confirmation by participant
+Topic broker | Confirmation by participant
+Topic assignment | Confirmation by participant
+Practice | Challenges completed
+Survey | Survey finished
 Video | Video watched to the end (95%)
-Video Task | Execution done
-Vitero | Visit course element
+Video task | Execution done
+vitero | Visit course element
 Wiki | Visit course element
+Zoom | Visit course element
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Whitepaper on learning path courses (PDF, German) >](assets/Whitepaper_Lernpfadkurse_final.pdf)<br>
+[Course Element "Structure" >](../learningresources/Course_Element_Structure.md)<br>
+[Creating learning path courses >](../learningresources/Creating_learning_path_courses.md)<br>
+[Course Element "Selection" >](../learningresources/Course_Element_Selection.md)
+
+**Further reading**<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Learning path course - Participant view >](../learningresources/Learning_path_course_Participant_view.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)
+
+**youtube**<br>
+[Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>)
+
+[To the top of the page ^](#course_editor)

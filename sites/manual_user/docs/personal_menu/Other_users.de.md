@@ -1,30 +1,22 @@
 # Persönliche Werkzeuge: Personensuche {: #other_users}
 
-![pers_menu_other_users_v3_de.png](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
+![Menü Persönliche Werkzeuge mit dem Eintrag Personensuche, über den andere Benutzer:innen anhand ihrer Kontoangaben gesucht werden](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
 
-![icon_other_users.png](assets/icon_other_users.png)
+![Symbol Personensuche](assets/icon_other_users.png)
 
+Im Unterschied zur allgemeinen Volltextsuche, die Sie über das Lupensymbol in der Kopfzeile aufrufen, ist die Suchfunktion im persönlichen Menü eine **Personensuche**. Das Suchformular enthält die Felder, mit denen Sie die Suche eingrenzen.
 
-Im Unterschied zur allgemeinen Volltextsuche, die unter dem Lupensymbol in der Kopfzeile aufgerufen werden kann, ist die Suchfunktion im persönlichen Menü eine **Personensuche**. Das Suchformular enthält die entsprechenden Felder, mit denen die Suche eingegrenzt werden kann.
+Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren. Geben Sie mindestens einen Suchbegriff mit mindestens vier Zeichen ein.
 
-Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren. 
+![Suchformular mit einem Feld für die Suche mit Autovervollständigung und den Feldern Anmeldename, Vorname, Nachname, E-Mail, Institution und weiteren Kontoangaben, darunter der Button Suchen](assets/Personensuche_20.png){ class="shadow lightbox"}
 
-![Personensuche](assets/Personensuche_20.png){ class="shadow lightbox"}
+## Weiterführende Informationen {: #further_information}
 
-!!! tip "Hinweis"
-
-    Es muss mindestens ein Begriff zur Eingrenzung eingegeben werden.<br>
-    Ausserdem muss der Suchbegriff eine gewisse Mindestlänge haben.
-
-
-## Weitere Informationen {: #further_information}
-
-Generelle Möglichkeiten der [Personensuche >](../basic_concepts/Search_Person.de.md)<br>
-
+[Personensuche >](../basic_concepts/Search_Person.de.md)<br>
 [Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)<br>
 [Globale Suche >](../basic_concepts/Search_Global.de.md)<br>
 [Lokale Suche >](../basic_concepts/Search_Local.de.md)<br>
-[Suche im Kurs >](../basic_concepts/Search_in_Course.de.md)<br>
-[Suche im File Hub >](../basic_concepts/Search_in_FileHub.de.md)<br>
+[Suche in einem Kurs >](../basic_concepts/Search_in_Course.de.md)<br>
+[Suche im File Hub >](../basic_concepts/Search_in_FileHub.de.md)
 
-
+[Zum Seitenanfang ^](#other_users)

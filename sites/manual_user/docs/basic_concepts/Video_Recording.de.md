@@ -2,56 +2,54 @@
 
 ## Voraussetzungen
 
-* Wenn in OpenOlat Videos aufgenommen werden sollen, muss zunächst eine Kamera verfügbar sein. Sie muss grundsätzlich im Device aktiviert worden sein.
+* Wenn in OpenOlat Videos aufgenommen werden sollen, muss zunächst eine Kamera verfügbar sein. Sie muss grundsätzlich auf dem Gerät aktiviert worden sein.
 
-* Damit die Kamera auch in OpenOlat für Aufnahmen genutzt werden kann, muss sie für OpenOlat frei gegeben sein. 
+* Damit die Kamera auch in OpenOlat für Aufnahmen genutzt werden kann, muss sie für OpenOlat frei gegeben sein.
 
-* *Nur MacOS:* In anderen Browsern als Safari muss die allgemeine Erlaubnis zur Verwendung des Mikrofons 
-  und der Kamera erteilt werden. Stellen Sie diese Berechtigungen auf dem Mac unter<br> 
-  **System Settings -> Privacy & Security -> Microphone** und<br> 
-  **System Settings -> Privacy & Security -> Camera**<br>
-  für den/die Browser ein, die Sie für OpenOlat verwenden.
+* *Nur macOS:* In anderen Browsern als Safari muss die allgemeine Erlaubnis zur Verwendung des Mikrofons und der Kamera erteilt werden. Stellen Sie diese Berechtigungen auf dem Mac für die Browser ein, die Sie für OpenOlat verwenden:<br>
+  `System Settings > Privacy & Security > Microphone` und<br>
+  `System Settings > Privacy & Security > Camera`
 
-* Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Videoaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
-**Administration > Module > Audio-/Videoaufnahmen**
+* Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Videoaufnahmen** durch den/die Administrator:in in der System-Administration aktiviert worden sein:<br>
+`Administration > Module > Audio/Video-Aufnahme`
 
-* Die Einstellungen für das **Transcoding** der Aufnahmen (Einstellungen zu Dateigrösse und Bildqualität) werden ebenfalls gemacht unter<br>
-**Administration > Module > Audio-/Videoaufnahmen**.
+* Die Einstellungen für das **Transcoding** der Aufnahmen (Einstellungen zu Dateigrösse und Bildqualität) werden ebenfalls in der System-Administration gemacht unter:<br>
+`Administration > Module > Audio/Video-Aufnahme`
 
 
 ## Wo können in OpenOlat Videos aufgenommen werden?
 
 ### Aufnahme im Media Center
- 
+
 Öffnen Sie das **persönliche Menü** durch Klick auf das kleine Bild oder Dreieck rechts oben.
 Öffnen Sie darin dann das Media Center.
 
 Unter den Möglichkeiten zum Hinzufügen neuer Mediendateien befindet sich auch **"Video aufzeichnen"**.
 
-![video_recording_mediacenter_v1_de.png](assets/video_recording_mediacenter_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufzeichnen im Menü des Buttons Mediendatei hinzufügen, im Media Center](assets/video_recording_mediacenter_v1_de.png){ class=" shadow lightbox" }
 
 
 ### Aufnahme im Kursbaustein Seite
 
-Im Kursbaustein Seite kann innerhalb eines Layout-Elements auch ein Video eingefügt werden. 
+Im Kursbaustein Seite kann innerhalb eines Layout-Elements auch ein Video eingefügt werden.
 
-![video_recording_page_v1_de.png](assets/video_recording_page_v1_de.png){ class=" shadow lightbox" }
+![Inhaltstyp Video in der Auswahl Inhalt hinzufügen eines Layout-Elements, im Kursbaustein Seite](assets/video_recording_page_v1_de.png){ class=" shadow lightbox" }
 
 Hat man sich dafür entschieden, erscheint ein Popup zur Auswahl eines vorhandenen Videos. Im Popup befindet sich zusätzlich ein Button zur Aufnahme eines eigenen Videos.
 
-![video_recording_page_add_v1_de.png](assets/video_recording_page_add_v1_de.png){ class=" shadow lightbox" }
+![Buttons Video aufnehmen und Video hinzufügen im Dialog Video auswählen, im Kursbaustein Seite](assets/video_recording_page_add_v1_de.png){ class=" shadow lightbox" }
 
 
 ### Aufnahme im Kursbaustein HTML-Seite
 
-Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und Aufzeichnen von Videos verwendet. Die Option zum Aufzeichnen eines Videos befindet sich unter den Werkzeugen, die auch zum Einfügen bereits vorhandener Medien verwendet werden.  
+Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und Aufzeichnen von Videos verwendet. Die Option zum Aufzeichnen eines Videos befindet sich unter den Werkzeugen, die auch zum Einfügen bereits vorhandener Medien verwendet werden.
 
-![video_recording_html_editor_v1_de.png](assets/video_recording_html_editor_v1_de.png){ class=" shadow lightbox" }
+![Symbol zum Einfügen von Medien in der Werkzeugleiste des HTML-Editors, im Kursbaustein HTML-Seite](assets/video_recording_html_editor_v1_de.png){ class=" shadow lightbox" }
 
 
-!!! Note "Hinweis"
+!!! note "Hinweis"
 
-    Im HTML-Editor sind Videoaufnahmen zwar prinzipiell möglich, an manchen Stellen werden bei Aufruf des Editors aber aus verschiedenen Gründen nicht alle Bearbeitungsmöglichkeiten angeboten. Es kann also sein, dass beim Aufruf des HTML-Editors die Option zum Aufzeichnen eines Videos angeboten wird, bei einem Aufruf von anderer Stelle aus nicht. 
+    Im HTML-Editor sind Videoaufnahmen zwar prinzipiell möglich, an manchen Stellen werden bei Aufruf des Editors aber aus verschiedenen Gründen nicht alle Bearbeitungsmöglichkeiten angeboten. Es kann also sein, dass beim Aufruf des HTML-Editors die Option zum Aufzeichnen eines Videos angeboten wird, bei einem Aufruf von anderer Stelle aus nicht.
 
 
 
@@ -59,9 +57,9 @@ Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und A
 
 Die Möglichkeit zu Videoaufnahmen in einer Aufgabe ist in den Workflow eingebettet. Sie finden die Recording-Funktion im Arbeitsschritt, wo das Video als Aufgabenstellung oder Musterlösung eingefügt werden soll.
 
-![video_recording_task_create_task_v1_de.png](assets/video_recording_task_create_task_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufnehmen im Menü des Buttons Aufgabe erstellen, Tab Aufgabenstellung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_task_v1_de.png){ class=" shadow lightbox" }
 
-![video_recording_task_create_solution_v1_de.png](assets/video_recording_task_create_solution_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufnehmen im Menü des Buttons Musterlösung erstellen, Tab Musterlösung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_solution_v1_de.png){ class=" shadow lightbox" }
 
 Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Media Center.
 
@@ -74,10 +72,10 @@ Die Videoaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaust
 
 ## Wo werden die Videoaufnahmen gespeichert?
 
-**Innerhalb eines Kursbausteins aufgenommene Videos** werden auch bei diesem Kursbaustein gespeichert. 
+**Innerhalb eines Kursbausteins aufgenommene Videos** werden auch bei diesem Kursbaustein gespeichert.
 Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center aufgeführt (Ausnahme: Kursbaustein Seite).
 
-![video_recording_task_storage_v1_de.png](assets/video_recording_task_storage_v1_de.png){ class=" shadow lightbox" }
+![Aufgenommene mp4-Datei in der Spalte Datei der Aufgabenliste, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_storage_v1_de.png){ class=" shadow lightbox" }
 
 Wird dagegen die **Videoaufnahme im Media Center** gestartet, wird das Video auch im Media Center gespeichert.
 
@@ -90,18 +88,18 @@ Für reine Audios ist es das m4a-Format.
 
 In welcher **Bildgrösse** ein Video aufgenommen wird, ist in erster Linie abhängig von Browser und Kamera. Die Grösse wird im Aufnahmefenster links oben angezeigt.
 
-Um den Speicherverbrauch durch Videos der Kursteilnehmer:innen etwas zu steuern, kann z.B. im Kursbaustein "Aufgabe" die **Auflösung** für die Videoaufnahmen nur durch die Kursbesitzer:innen eingestellt werden. Die Kursteilnehmer:innen machen dann alle Aufnahmen in dieser Standardqualität. 
+Um den Speicherverbrauch durch Videos der Teilnehmer:innen etwas zu steuern, kann z.B. im Kursbaustein "Aufgabe" die **Auflösung** für die Videoaufnahmen nur durch die Kursbesitzer:innen eingestellt werden. Die Teilnehmer:innen machen dann alle Aufnahmen in dieser Standardqualität.
 
-!!! Note "Empfehlung"
+!!! tip "Empfehlung"
 
     Verwenden Sie wenn möglich eine mittlere Auflösung.<br>
     Eine grosse Auflösung erzeugt wesentlich grössere Dateien und verbraucht entsprechend Speicherplatz.
-    Bei einer kleinen Auflösung ist zwar die Dateigrösse optimiert, jedoch kann die Qualität des Bildes ungenügend werden. Berücksichtigen Sie in jedem Fall das aufgenommene Motiv. Wenn Details scharf abgebildet werden müssen, ist eine höhere Auflösung berechtigt. Bei grossen einheitlichen Flächen im Bild reduziert eine geringe Auflösung die Qualität so gut wie nicht. 
+    Bei einer kleinen Auflösung ist zwar die Dateigrösse optimiert, jedoch kann die Qualität des Bildes ungenügend werden. Berücksichtigen Sie in jedem Fall das aufgenommene Motiv. Wenn Details scharf abgebildet werden müssen, ist eine höhere Auflösung berechtigt. Bei grossen einheitlichen Flächen im Bild reduziert eine geringe Auflösung die Qualität so gut wie nicht.
 
 
-![video_recording_quality_v1_en.png](assets/video_recording_quality_v1_en.png){ class=" shadow lightbox" }
+![Auswahl der Aufnahmequalität mit den Stufen Lower, Standard und Higher quality, Aufnahmefenster Record video mit der Bildgrösse 640 x 480 links oben](assets/video_recording_quality_v1_en.png){ class=" shadow lightbox" }
 
-Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösung und Qualität den voreingestellten Standards an. Dieses **Transcoding** wird automatisch von OpenOlat ausgeführt und die Videos werden dann gemäss der Voreinstellungen gespeichert. Das gewährleistet, dass die Videos bei der Anzeige in einem passenden Seitenverhältnis angezeigt werden und die Dateigrösse für die Speicherung optimiert wird.
+Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösung und Qualität den voreingestellten Standards an. Dieses **Transcoding** wird automatisch von OpenOlat ausgeführt und die Videos werden dann gemäss den Voreinstellungen gespeichert. Das gewährleistet, dass die Videos bei der Anzeige in einem passenden Seitenverhältnis angezeigt werden und die Dateigrösse für die Speicherung optimiert wird.
 
 
 ## Wie viel Speicherplatz steht für meine Videos zur Verfügung?
@@ -109,7 +107,7 @@ Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösun
 Bsp.: Media Center<br>
 In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Media Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
 
-![video_recording_space_v1_de.png](assets/video_recording_space_v1_de.png){ class=" shadow lightbox" }
+![Anzeige 0 B von 102.4 MB belegt in der linken unteren Ecke, im Media Center](assets/video_recording_space_v1_de.png){ class=" shadow lightbox" }
 
 
 ## Wie lassen sich Videoaufnahmen exportieren?
@@ -117,17 +115,17 @@ In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das ge
 
 ### Download aus dem Kursbaustein Aufgabe und Gruppenaufgabe
 
-Sowohl Videoaufnahmen aus Aufgabenstellung als auch Videoaufnahmen in der Musterlösung können direkt im Kursbaustein heruntergeladen werden. Verwenden Sie dazu die Option unter den 3 Punkten am Ende einer Zeile. 
+Sowohl Videoaufnahmen aus Aufgabenstellung als auch Videoaufnahmen in der Musterlösung können direkt im Kursbaustein heruntergeladen werden. Verwenden Sie dazu die Option unter den 3 Punkten am Ende einer Zeile.
 
-![video_recording_task_download_v1_de.png](assets/video_recording_task_download_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Datei herunterladen im Drei-Punkte-Menü einer Aufgabenzeile, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_download_v1_de.png){ class=" shadow lightbox" }
 
 
 ### Download aus dem Media Center
 
-Wählen und öffnen Sie im Media Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen. 
+Wählen und öffnen Sie im Media Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen.
 
-![video_recording_mediacenter_download_v1_de.png](assets/video_recording_mediacenter_download_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Herunterladen im Drei-Punkte-Menü der Detailansicht eines Videos, im Media Center](assets/video_recording_mediacenter_download_v1_de.png){ class=" shadow lightbox" }
 
-!!! Note "Hinweis"
+!!! info "Wichtig"
 
-    Ein Video, das innerhalb eines Kursbausteins aufgenommen wurde, wird **nicht** im Ablageordner des Kurses abgelegt. 
+    Ein Video, das innerhalb eines Kursbausteins aufgenommen wurde, wird **nicht** im Ablageordner des Kurses abgelegt.

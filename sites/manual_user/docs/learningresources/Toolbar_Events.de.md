@@ -1,7 +1,7 @@
 # Toolbar: Termine {: #toolbar_events}
 
 
-Das Icon "Termine" wird automatisch angezeigt, wenn im Kurs die Termine und Absenzen aktiviert wurden.<br>
+Das Icon "Termine" wird automatisch angezeigt, wenn im Kurs die Termine und Absenzen aktiviert sind.<br>
 `Kurs > Administration > Einstellungen > Durchführung`
 
 Es steht dann Teilnehmer:innen, Betreuer:innen und Besitzer:innen des Kurses zur Verfügung. Doch je nach Rolle und den damit verbundenen Rechten, werden andere Optionen angezeigt. 
@@ -26,7 +26,7 @@ Wird das Icon "Termine" in der Toolbar durch Betreuer:innen aufgerufen, können 
 
 ![Icon "Termine" und Rollenwechsel in der Toolbar aus Sicht der Betreuer:innen](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox"}
 
-In der Betreuer:innen-Rolle finden Sie im Unterschied zu Besitzer:innen nur 2 Tabs angezeigt.
+In der Betreuer:innen-Rolle werden Ihnen im Unterschied zu Besitzer:innen nur zwei Tabs angezeigt.
 
 ![Terminliste eines Kurses aus Sicht der Betreuer:innen mit Tabs, Filtern und Tabellenansicht](assets/toolbar_events_coach2_v1_de.png){ class="shadow lightbox"}
 
@@ -39,7 +39,7 @@ Wurde ein Termin beendet, werden Sie als Betreuer:in darauf aufmerksam gemacht, 
 ![Hinweis auf offene Absenzen und Buch-Icon zum Erfassen in der Terminliste](assets/toolbar_events_coach_record_absences1_v1_de.png){ class="shadow lightbox"}
 
 Die Termine sind in Einheiten unterteilt (z.B. ein Termin von 8.00 Uhr - 12.00 Uhr in 4 Einheiten zu je einer Stunde). Sie können die Absenzen für jede einzelne Einheit erfassen.
-Markieren Sie ob die Abwesenheit entschuldigt ist und geben Sie einen Kommentar dazu an. Ein weiteres Kommentarfeld für den Gesamttermin ist ebenfalls pro Teilnehmer vorhanden.
+Markieren Sie, ob die Abwesenheit entschuldigt ist, und geben Sie einen Kommentar dazu an. Ein weiteres Kommentarfeld für den Gesamttermin ist ebenfalls pro Teilnehmer:in vorhanden.
 
 ![Formular zum Erfassen der Absenzen pro Einheit mit Kommentarfeldern](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox"}
 
@@ -52,7 +52,7 @@ Kann die Erfassung der Absenzen endgültig abgeschlossen werden, gehen Sie folge
 
 1. Icon "Termine" in der Toolbar klicken
 2. Tab "Termine" wählen
-3. Bei dem betreffendem Termin in der Liste auf das Buch-Icon klicken (Absenz editieren)
+3. Beim betreffenden Termin in der Liste auf das Buch-Icon klicken (Absenz editieren)
   (nur möglich, wenn Termin bereits gestartet oder erledigt)
 4. Button "Termine abschliessen" am unteren Rand der Liste klicken
 5. Es öffnet sich ein Popup, in dem Sie die Absenzenerfassung endgültig abschliessen können.
@@ -67,14 +67,14 @@ Als Betreuer:in können Sie einen laufenden Termin absagen, indem Sie
 
 1. das Icon "Termine" in der Toolbar klicken
 2. den Tab "Termine" wählen
-3. Bei dem betreffendem Termin in der Liste auf das Buch-Icon klicken (Absenz editieren)
+3. Beim betreffenden Termin in der Liste auf das Buch-Icon klicken (Absenz editieren)
   (nur möglich, wenn Termin bereits gestartet)
 4. den Button "Termine absagen" am unteren Rand der Liste klicken
 
 
 ### Listen erstellen und Export {: #lists_and_export}
 
-Unter den 3 Punkten am Ende einer Zeile finden Sie Möglichkeiten zum Erstellen von Listen und dem Export des Termins als zip-Datei.<br> 
+Unter den 3 Punkten am Ende einer Zeile finden Sie Möglichkeiten zum Erstellen von Listen und dem Export des Termins als zip-Datei.<br>
 So exportierte Termine können Sie an anderer Stelle wieder in OpenOlat [importieren](../learningresources/Events_and_absences.de.md#import_events).
 
 ![Menü am Zeilenende mit Absenzenliste, Präsenzliste, Log und Export](assets/toolbar_events_coach_lists_and_export_v1_de.png){ class="shadow lightbox"}
@@ -112,15 +112,17 @@ Technisch gesehen werden in diesen beiden Screens Laufzeitdaten erfasst, im Unte
 
 ## Weiterführende Informationen {: #further_information}
 
-[Toolbar Übersicht >](../learningresources/Toolbar.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Termine und Absenzen (Kurs-Administration) >](../learningresources/Events_and_absences.de.md)<br>
+[Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)
 
-[Basiskonzept: Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
-[Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
-[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
+**Weiterführend**<br>
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Termine und Absenzen (Basiskonzept) >](../basic_concepts/Events_and_Absences.de.md)<br>
+[Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)
 
 [Zum Seitenanfang ^](#toolbar_events)
 

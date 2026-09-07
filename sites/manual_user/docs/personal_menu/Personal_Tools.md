@@ -1,16 +1,16 @@
-# Personal Tools {: #personal_tools}
+# Personal tools {: #personal_tools}
 
-![pers_menu_tools_v4_en.png](assets/pers_menu_tools_v4_en.png){ class="aside-right shadow lightbox"}
+![Section Personal tools in the personal menu, marked with a frame and an arrow, with twelve entries from Calendar to E-mail](assets/pers_menu_tools_v4_en.png){ class="aside-right shadow lightbox"}
 
-You can find the personal Tools as a section in the [Personal Menu](index.md).
+You can find the personal tools as a section in the [personal menu](index.md).
 
-Which tools are offered to you here is determined on the one hand by the default settings/activation in the system administration. On the other hand, you can decide whether the tools should appear in the [personal menu](index.md) or in the quick access in the header.
+Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the header.
 
 <br>
 <br>
 
 ## Calendar {: #calendar}
-  
+
 In the personal calendar, you can see your private appointments as well as entries from group and course calendars that have been added to your personal calendar via the calendar list.
 
 You can create private appointments that only you can see, or public appointments that other OpenOlat users with access rights can also see.
@@ -18,59 +18,58 @@ You can create private appointments that only you can see, or public appointment
 Find out [more >](Calendar.md)
 
 
-##  Subscriptions {: #subscriptions}
+## Subscriptions {: #subscriptions}
 
-Would you like to be informed promptly about changes to courses and groups? Then you can set up subscriptions for the desired course modules. News will then be sent to you once a day by e-mail.
+:octicons-device-camera-video-24: **Video introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
-You can subscribe to change notifications for the following course elements: 
+Would you like to be informed promptly about changes to courses and groups? Then you can set up subscriptions for the desired course elements. News will then be sent to you once a day by e-mail.
 
-* Forum
-* Folder
-* Wiki
-* Calendar
-* Task
-* File discussion
-* Portfolio maps
-* Notifications
-* Participant folder
-* Blog
-* Podcast
-* Video
+You can subscribe to change notifications for the following objects:
+
+  * Forum
+  * Folder
+  * Wiki
+  * Calendar
+  * Task
+  * File dialog
+  * Portfolio binders
+  * Notifications
+  * Participant folder
+  * Blog
+  * Podcast
+  * Video
+  * Projects [:octicons-tag-16:{ title="from Release 18.0 (OO-6980)" }](https://track.frentix.com/issue/OO-6980)
 
 Find out [more >](Subscriptions.md)
 
 
-
-
 ## File Hub {: #file_hub}
 
-From Release 19, a file hub is available in OpenOlat in which all folders available in OpenOlat are listed. (Course folders, group folders, archive folders, etc.) However, only folders to which the logged-in user has access authorization are displayed in the File Hub. The **personal folder** can also be accessed via the File Hub.
-
-For this reason, "Personal Folder" has been replaced by "File Hub" in the selection options for personal tools from Release 19.
+The File Hub lists all folders you have access to: course folders, group folders, archive folders and more. You can also reach your **personal files** via the File Hub.
 
 Find out [more >](File_Hub.md)
 
 
-##  Notes {: #notes}
+## Notes {: #notes}
 
 You can write notes in every course. Here you can see which notes you have made and can edit and print them out.
 
 Find out [more >](Notes.md)
 
 
-##  Evidences of achievement {: #evidences_of_achievement}
+## Evidence of achievement {: #evidences_of_achievement}
 
-A certificate of achievement is a confirmation of a completed performance assessment and shows, for example, completed tests or submitted and assessed tasks. Course authors specify in their courses whether OpenOlat should create certificates of achievement. Course participants see their transcripts of records if they are attending courses with transcripts of records, have already performed and have been assessed. 
+An evidence of achievement is a confirmation of a completed assessment and shows, for example, completed tests or submitted and assessed tasks. Course authors specify in their courses whether OpenOlat should create evidences of achievement. Participants see their evidences of achievement if they attend courses with evidences of achievement, have already performed and have been assessed.
 
-Certificates are a special form of proof of performance.
+Certificates are a special form of evidence of achievement.
 
 Find out [more >](Evidence_of_Achievements.md)<br>
-[For more details on **certificates** >](../learningresources/Course_Settings_Assessment.md#certificate)<br>
+[For more details on **certificates** >](../learningresources/Course_Settings_Assessment.md#section_certificate)
 
 
 ## Competences {: #competences}
 
-Here the user receives an overview of all personal skills assigned in OpenOlat, e.g. in ePortfolio entries or as skills in the user profile.
+Here you get an overview of all personal competences assigned to you in OpenOlat, e.g. in ePortfolio entries or as a competence in the user profile.
 
 Find out [more >](Competences.md)
 
@@ -84,26 +83,26 @@ Find out [more >](OpenBadges.md)
 
 ## Booking orders {: #bookings}
 
-All of the users booking orders are listed here, including further booking information.
+All your booking orders are listed here, including further booking information.
 
 Find out [more >](Bookings.md)
 
 
-##  Other users {: #other_users}
+## Other users {: #other_users}
 
-You can search for other OpenOlat users, view public business cards, browse the "public" section of users' personal folders, view shared portfolio folders or contact the respective persons using the contact form.
+You can search for other OpenOlat users, view public visiting cards, browse the "public" section of other users' personal files, view shared portfolio binders or contact the respective persons using the contact form.
 
 Find out [more >](Other_users.md)
 
 
 ## Absences {: #absences}
 
-If the "Absence Management" module is activated, users can view the absences recorded for them at this point.
+If the module for lectures and absences is activated, you can view the absences recorded for you at this point.
 
 Find out [more >](Absences.md)
 
 
-##  Portfolio 2.0 {: #portfolio}
+## Portfolio 2.0 {: #portfolio}
 
 A portfolio is used to collect and document (learning) artifacts, learning outcomes and learning processes, as well as to promote reflection on one's own development process. Learning products can be collected here and made accessible to specific people if required.
 
@@ -115,7 +114,7 @@ Find out [more >](Portfolio.md)
 The Media Center is the central collection point for media:
 
 * Different media types (file formats),
-* which (depending on the access authorization assigned) can also be used by different people.
+* which (depending on the access authorization assigned) can also be used by different people
 * and can be used in different places in OpenOlat.
 
 Find out [more >](Media_Center.md)
@@ -128,15 +127,15 @@ The tasks to be completed (to-dos) can be found in several places in OpenOlat (e
 Find out [more >](To-Dos.md)
 
 
-##  E-mail {: #mail}
+## E-mails {: #mail}
 
-You can view all emails sent and received in OpenOlat under Emails. The email history in OpenOlat is saved, thus maintaining an overview of emails received and sent. For a better overview, you can sort and display emails by context.
+You can view all e-mails sent and received in OpenOlat under E-mails. The e-mail history in OpenOlat is saved, thus maintaining an overview of e-mails received and sent. For a better overview, you can sort and display e-mails by context.
 
 Find out [more >](E-Mail.md)
 
 
-!!! note "General Note"
+!!! tip "Tip"
 
-    If you prefer to have your tools displayed in the header instead of the personal menu, you can move the menu option from the personal menu to there. You make the setting for this under<br>
-    **Personal Menu > Setting > System tab > Personal tools section**<br>
+    If you prefer to have your tools displayed in the header instead of the personal menu, you can move the menu option from the personal menu to the header. You make the setting for this under<br>
+    `Personal menu > Configuration > Settings > Tab "System" > User tools`<br>
     All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.

@@ -1,40 +1,38 @@
 # Personal Configuration {: #personal_configuration}
 
-![pers_menu_configuration_v3_de.png](assets/pers_menu_configuration_v3_de.png){ class="aside-right shadow lightbox"}
+![Section Configuration with three entries, marked with a frame and an arrow, between the sections Achievements/Successes and Help in the personal menu](assets/pers_menu_configuration_v3_de.png){ class="aside-right shadow lightbox"}
 
-The personal configurations can be found as a section in the [personal menu](index.md), below the personal tools.
+You find the personal configurations as the section "Configuration" in the [personal menu](index.md), below the sections "Personal tools" and "Achievements/Successes".
 
-Which configuration tools are offered to you here is determined on the one hand by the default settings/activation in the system administration. On the other hand, you can decide whether the tools should appear in the [personal menu](../index.md) or in the quick access in the header.
+Which configuration tools are offered to you here is determined on the one hand by the activation in the system administration: `Administration > Core functions > User tools`. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the header.
 
 <br>
 <br>
 
 
-##  Profile
+## Profile {: #profile}
 
-In the personal menu under the "Profile" option, you can change your personal details and set up your business card.
+In the personal menu under "Profile" you change your personal details and set up your visiting card.
 
-[View the details >](Profile.md) 
+[View the details >](Profile.md)
 
 
-##  Settings
+## Settings {: #settings}
 
 All users can customise OpenOlat according to their own needs and, for example, select the language of the user interface or display the most important personal functions in the header.
 
 [View the details >](Settings.md)
 
 
-##  Password
+## Password {: #password}
 
 You can change your password here.
 
 [View the details >](Password.md)
 
 
-##  COVID Certificate
+## COVID certificate {: #covid_certificate}
 
-During the COVID pandemic, frentix integrated functions for uploading and managing COVID certificates in OpenOlat. If these functions have been activated by administrators, they can also be found in the "Personal configuration" section.
+During the COVID pandemic, frentix integrated functions for uploading and managing COVID certificates in OpenOlat. If administrators have activated these functions, you also find them in the section "Configuration".
 
 [View the details >](COVID_certificate.md)
-
-

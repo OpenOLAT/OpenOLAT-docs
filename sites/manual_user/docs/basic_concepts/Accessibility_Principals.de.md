@@ -1,9 +1,15 @@
 # Barrierefreiheit: Grundsätze {: #principals}
 
+Bei der Entwicklung von OpenOlat arbeiten wir darauf hin, die WCAG-2.1-Richtlinie mit AA-Konformität zu erreichen.
 
-Bei der Entwicklung von OpenOlat arbeiten wir darauf hin, die WCAG 2.1 Richtlinie mit AA Konformität zu erreichen.
+WCAG ist ein internationaler Accessibility-Standard mit dem Ziel, barrierefreie Inhalte zu fördern, siehe [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/).
 
-WCAG ist ein internationaler Accessibility Standard mit dem Ziel, barrierefreie Inhalte zu fördern, siehe [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/). 
+Der WCAG-2.1-AA-Standard wird auch international in vielen Gesetzestexten und Vorgaben bei öffentlich-rechtlichen Institutionen erwähnt oder gefordert.
 
-Der WCAG 2.1 AA Standard wird auch international in vielen Gesetzestexten und Vorgaben bei öffentlich rechtlichen Institutionen erwähnt oder gefordert.
+## Weiterführende Informationen {: #further_information}
 
+[WCAG 2.1 (W3C) >](https://www.w3.org/TR/WCAG21/)<br>
+[Barrierefreiheit: Farben >](Accessibility_Colors.de.md)<br>
+[Content Editor >](Content_Editor.de.md)
+
+[Zum Seitenanfang ^](#principals)

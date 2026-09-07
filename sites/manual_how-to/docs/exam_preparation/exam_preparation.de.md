@@ -350,7 +350,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 
 ## Weiterführende Informationen {: #further_information}
 
-[Nutzungsbedingungen eines Kurs definieren >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#nutzungsbedingungen-eines-kurs-definieren)<br>
+[Nutzungsbedingungen eines Kurs definieren >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_course_define)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../../manual_how-to/exchange_tests/exchange_tests.de.md)<br>

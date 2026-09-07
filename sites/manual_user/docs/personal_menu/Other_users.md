@@ -1,31 +1,22 @@
 # Personal tools: Other users {: #other_users}
 
-![pers_menu_other_users_v3_de.png](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
+![Personal tools menu with the entry Other users, which searches for other users by their account details](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
 
-![icon_other_users.png](assets/icon_other_users.png)
+![Other users icon](assets/icon_other_users.png)
 
+In contrast to the general full-text search, which you open via the magnifying glass symbol in the header, the search function in the personal menu is a **search for other users**. The search form contains the fields with which you narrow down the search.
 
-In contrast to the general full-text search, which can be called up under the magnifying glass symbol in the header, the search function in the personal menu is a **person search**. The search form contains the corresponding fields with which the search can be narrowed down. 
+The available search fields may vary depending on the role. Enter at least one search term with at least four characters.
 
-The search fields available may vary depending on the role.
-
-![search other users](assets/Personensuche_20_en.png){ class="shadow lightbox"}
-
-!!! tip "Note"
-
-    At least one term must be entered to narrow it down.<br>
-    In addition, the search term must have a certain minimum length.
-
+![Search form with one field for the search with auto-completion and the fields Username, First name, Last name, E-mail, Institution and further account details, below it the button Search](assets/Personensuche_20_en.png){ class="shadow lightbox"}
 
 ## Further information {: #further_information}
 
-General options for [Search for other users >](../basic_concepts/Search_Person.md)<br>
-
-[General information about the search >](../basic_concepts/Search_General.md)<br>
+[Search other Users >](../basic_concepts/Search_Person.md)<br>
+[General information on the search >](../basic_concepts/Search_General.md)<br>
 [Global search >](../basic_concepts/Search_Global.md)<br>
 [Local search >](../basic_concepts/Search_Local.md)<br>
 [Search in a course >](../basic_concepts/Search_in_Course.md)<br>
-[Search in File Hub >](../basic_concepts/Search_in_FileHub.md)<br>
+[Search in the File Hub >](../basic_concepts/Search_in_FileHub.md)
 
-
-
+[To the top of the page ^](#other_users)

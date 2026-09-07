@@ -1,6 +1,6 @@
 # Suche im File Hub {: #search_in_file_hub}
 
-Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt verfügbare Dateien der OpenOlat-Instanz. 
+Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt verfügbare Dateien der OpenOlat-Instanz.
 
 Entsprechend ist die Suche im File Hub in erster Linie auf **Dateien** ausgerichtet, die Sie z.B. kopieren oder verschieben wollen.
 
@@ -10,19 +10,20 @@ Entsprechend ist die Suche im File Hub in erster Linie auf **Dateien** ausgerich
 
 Die Suchfunktion in Ordnern sucht im aktuellen Ordner mit seinen Unterordnern nach
 
-* Dateinamen,
+* Dateiname,
+* Titel,
 * Beschreibung
-* und Ersteller
+* und Ersteller:in.
 
-(Es ist aktuell keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.)
+Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
 ---
 
 ## Suche im Suchfeld {: #search_in_search_field}
 
-Im Suchfeld des File Hub, wird eine [Volltextsuche](Search_General.de.md#full_text_search) ausgeführt.
+Im Suchfeld des File Hub wird eine [Volltextsuche](Search_General.de.md#full_text_search) ausgeführt.
 
-![search_in_filehub_fulltext_v1_de.png](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" }
+![Dialog Volltextsuche mit Suchbegriff, Trefferzahl und einem gefundenen PDF aus einem Kursordner, geöffnet aus dem Suchfeld des File Hub](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" }
 
 Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind folgende Ordner:
 
@@ -35,35 +36,30 @@ Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind fol
 
 ## Erweiterte Suche im Suchresultat {: #advanced_search}
 
-Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search_General.de.md#full_text_search) ohne Einschränkungen.
+Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search_General.de.md#full_text_search) ohne Einschränkungen. Die Suchfelder der erweiterten Suche beschreibt die Seite [Allgemeines zur Suche](Search_General.de.md#advanced_search).
 
-![search_in_filehub_advanced_search1_v1_de.png](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" }
+![Link Erweiterte Suche unter dem Suchfeld im Dialog Volltextsuche des File Hub](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" }
 
-![search_in_filehub_advanced_search2_v1_de.png](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" }
-
+![Formular der erweiterten Suche mit den Feldern Autor:in, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten, Dialog Volltextsuche des File Hub](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hintergrundinformation"
 
-        **File Hub = File System + Zusatzinfo (Metadaten)**
-        
-        Im File Hub von OpenOlat wird ein Abbild des File-Systems verwendet, das um Metadaten ergänzt wird. Diese werden zur Indexierung verwendet.
-        
-        Das Abbild wird ständig automatisch aktualisiert. Bei Bedarf kann auch manuell ein Abgleich angestossen werden.
+    **File Hub = File System + Zusatzinfo (Metadaten)**
 
+    Im File Hub von OpenOlat wird ein Abbild des File-Systems verwendet, das um Metadaten ergänzt wird. Diese werden zur Indexierung verwendet.
 
-
-
+    Das Abbild wird ständig automatisch aktualisiert. Bei Bedarf kann auch manuell ein Abgleich angestossen werden.
 
 ---
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
+[Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
 [Allgemeines zur Suche >](Search_General.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>
-[Suche im Kurs >](Search_in_Course.de.md)<br>
-
+[Suche in einem Kurs >](Search_in_Course.de.md)
 
 [zum Seitenanfang ^](#search_in_file_hub)
-

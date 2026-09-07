@@ -1,29 +1,35 @@
 # Personal achievements/successes: Certificates {: #certificates}
 
-![pers_menu_certificates_v1_de.png](assets/pers_menu_certificates_v1_de.png){ class="aside-right lightbox"}
+![Menu group Achievements/Successes with the entries Evidence of achievement, Certificates, Badges and Credit points, the entry Certificates is selected, in the personal menu](assets/pers_menu_certificates_v1_de.png){ class="aside-right lightbox"}
 
-![icon_certificate.png](assets/icon_certificate.png)
+![Icon Certificates](assets/icon_certificate.png)
 
-You can view all your certificates in your personal menu. Even expired certificates can still be viewed.
 
-You can display the certificates pre-sorted. (All - Valid - Expired)
+In the personal tool "Certificates" you see all certificates that were issued to you from courses and certification programs or that you uploaded yourself. Expired certificates also remain visible.
 
-![pers_menu_certificates_statement_v1_de.png](assets/pers_menu_certificates_statement_v1_de.png){ class="shadow lightbox"}
+With the tabs "All", "Valid" and "Expired" you display the certificates pre-sorted. With the filters "With recertification", "Origin" (Certificate program, Course, Uploaded manually) and "Status" you narrow the list down further. The certificates are shown as cards or as a table.
 
-Click on one of the certificates displayed to enlarge it and view all the details. 
+![Five certificate cards with status Valid or Expired, Awarded by, Issued on and recertification deadline, above them the tabs All, Valid, Expired, in the tool Certificates](assets/pers_menu_certificates_statement_v1_de.png){ class="shadow lightbox"}
 
-![pers_menu_certificates_example_v1_de.png](assets/pers_menu_certificates_example_v1_de.png){ class="shadow lightbox"}
+
+Click one of the displayed certificates to enlarge it and to see all details.
+
+![Expired certificate with Awarded by, Origin, Issued on, Valid until, recertification deadline and requirement 10 XP, top right the button Download certificate, in the detail view](assets/pers_menu_certificates_example_v1_de.png){ class="shadow lightbox"}
 
 More detailed information is available for each certificate:
 
-* Who awarded the certificate. This must be traceable, especially in the case of manual awarding.
-* The origin information shows in which OpenOlat course the certificate was created.
-* Date of issue
-* Period of validity
-* Whether recertification is/was possible.
-* What requirements were necessary for recertification, e.g., a certain number of credit points.
+* "Awarded by": Who awarded the certificate. This must be traceable, especially in the case of manual awarding.
+* "Origin": Whether the certificate originates from an OpenOlat course or a certification program or was uploaded manually.
+* "Issued on": Date of issue
+* "Valid until": Period of validity
+* "Recertification": Whether and until when recertification is/was possible.
+* "Requirements": Which requirements were necessary for recertification, e.g. a certain number of credit points.
 
-You will also find a download button in the top right-hand corner.
+You also find the button "Download certificate" in the top right-hand corner.
+
+**Upload external certificates**
+
+You upload externally acquired certificates with the button "Upload certificate", provided the administration allows this for users. Uploaded certificates carry the origin "Uploaded manually". [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [To the top of the page ^](#certificates)
 
@@ -34,7 +40,7 @@ You will also find a download button in the top right-hand corner.
 
 [Certificates in single courses >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Certificates in certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Evidence of achievements in courses >](../learningresources/Course_Settings_Assessment.md#section_evidence_of_achievements)<br>
+[Evidence of achievement in the personal tools >](Evidence_of_Achievements.md)<br>
+[Credit points in the personal tools >](Credit_Points.md)
 
 [To the top of the page ^](#certificates)
-

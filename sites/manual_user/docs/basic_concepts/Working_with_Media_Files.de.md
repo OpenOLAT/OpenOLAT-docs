@@ -1,6 +1,6 @@
 # Arbeiten mit Mediendateien {: #media_files}
 
-In OpenOlat verwendete Mediendateien werden in der Regel direkt am Ort der Verwendung hochgeladen und eingebunden. Sie finden die Medien an 3 verschiedenen Orten. 
+In OpenOlat verwendete Mediendateien werden in der Regel direkt am Ort der Verwendung hochgeladen und eingebunden. Sie finden die Medien an 3 verschiedenen Orten.
 
 
 ## Ordner
@@ -22,7 +22,7 @@ Mediendateien, die mit dem [Content Editor](../basic_concepts/Content_Editor.de.
 
 * Die Medien sind in anderen Kursbausteinen verwendbar, die ebenfalls ihre Medien aus dem [Media Center](../basic_concepts/Media_Center_Concept.de.md) beziehen.
 * Es steht ein Rechtemanagement für das Teilen der Medien mit anderen Autor:innen zur Verfügung.
-* Die Mediendateien können mit Metadaten zur besseren Verwaltung versehen werden. 
+* Die Mediendateien können mit Metadaten zur besseren Verwaltung versehen werden.
 
 
 ## Fest zugeordnete Medien
@@ -35,3 +35,14 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 * [Wiki >](../learningresources/Wiki.de.md)
 * [Test >](../learningresources/Test.de.md)
 
+
+## Weiterführende Informationen {: #further_information}
+
+[Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
+[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Wiki erstellen >](../learningresources/Wiki.de.md)<br>
+[Tests erstellen >](../learningresources/Test.de.md)
+
+[Zum Seitenanfang ^](#media_files)

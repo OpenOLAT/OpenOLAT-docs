@@ -1,108 +1,100 @@
-# Videos: Overview {: #overview}
+# Video: Overview {: #overview}
 
-Videos can be used in many places in OpenOlat – as a standalone learning resource, embedded in courses, or as part of assignments, tests, and portfolios. This page provides a brief overview of the possibilities for creating, integrating, and using videos in OpenOlat in a didactically meaningful way. Details can be found on other pages.
+Videos can be provided in OpenOlat in various ways and integrated into different contexts, partly also created directly in OpenOlat. This page gives you a quick overview of the most important options. For further details, use the integrated links.
+
 
 ## Fundamentals {: #fundamentals}
 
-OpenOlat distinguishes between the independent use of videos and the integration of videos into other contexts.
+Videos can be used in OpenOlat either as a standalone element (e.g. as a [learning resource Video](../learningresources/Learning_resource_Video.md) or via the [Video Collection](../area_modules/Video_Collection.md)) or embedded in other contexts (e.g. course elements, [Portfolio](../area_modules/The_portfolio_editor_17_1.md), [Projects](../area_modules/Project_VideoAudio.md)).
 
-The central element for providing videos is the [learning resource Video](../learningresources/Learning_resource_Video.md). In addition, videos can be used in many other tools and learning resources.
+Depending on the integration, videos are either displayed directly in OpenOlat and can be started manually or automatically, or they are available as a file and can be downloaded.
 
-## Create, publish, and embed videos {: #create_publish_embed}
+The central element for providing videos is the [learning resource Video](../learningresources/Learning_resource_Video.md). A video learning resource can be integrated in courses via various course elements, provided with metadata and further designed with the video editor. Learning resources are created and managed in the Authoring area and listed under "My entries".
 
-Videos in OpenOlat can be embedded in several different ways:
+Further details on the [learning resource Video](../learningresources/Learning_resource_Video.md) can be found in the corresponding chapter.
 
-* Upload of a video file (e.g. MP4)
-* Direct [recording](../learningresources/Learning_resource_Video.md) via webcam or mobile device within OpenOlat
-* Linking external videos via a link (e.g. YouTube)
-* Integration of internal videos from your own [Media Center](../personal_menu/Media_Center.md)
+## How do videos get into OpenOlat? {: #create_publish_embed}
 
-Depending on the tool, videos are displayed directly or provided as clickable elements.
+There are several ways to provide videos in OpenOlat:
 
-
-## Wo können Videos in OpenOlat verwendet werdenhere can videos be used in OpenOlat?
-
-### As Video learning resource
-
-The central element for videos in OpenOlat is the learning resource Video with optional interactive extensions such as annotations or quiz questions.
-
-### Implemented in other learning resources
-
-* e.g. integrated in the learning resource [Podcast](../learningresources/Podcast.md), [Blog](../learningresources/Blog.md) or [CP editor](../learningresources/CP_Editor.md)
-* as a separate file in the learning resource [Resource folder](../learningresources/Resource_Folder.md) for use across courses.
-
-## In courses
-
-Videos can be used in various course modules. In the course modules ...
-
-* Video
-* Video task
-* Page
-* HTML Page
-* Podcast
-* Blog
-* Folder (as file)
-* Test (for questions and answers)
+* [Upload](../basic_concepts/Video_Upload.md) a video as a file
+* Embed a video as a link to a video that is available outside OpenOlat, on the Internet
+* [Record](../basic_concepts/Video_Recording.md) a video directly in OpenOlat, e.g. via webcam
 
 
-### In futher contexts
-
-* OpenOlat [Projects](../area_modules/Project_VideoAudio.md) (File Upload)
-* [Groups](../groups/Using_Group_Tools.md) (in the folder tool as a file upload and in the forum as an attachment)
-* [E-Portfolios](../area_modules/The_portfolio_editor_17_1.md) (as an element in the portfolio editor)
-* In the ["Personal tools"](../personal_menu/Personal_Tools.md) Media Center and File Hub for file storage
-* [Video Collection](../area_modules/Video_Collection.md) as an overview of all approved video learning resources
-* Use as a teaser video in the catalog and on the [Info-Seite](../learningresources/Info_page.md) of courses and learning resources
-
-## Displaying videos
-
-Videos can be displayed in different ways in OpenOlat:
-
-* Directly embedded and playable, e.g., in the course module Video or Page, in HTML pages, or in the e-portfolio
-* As a link or attachment that can be opened with a click, e.g., in a folder or forum (sometimes also as a download)
-
-## Typical application scenarios
-
-Videos can be used in OpenOlat...
-
-* as information and teaching/learning content
-* as feedback or sample solutions from teachers
-* as a form of submission for assignments by learners
-* for interactive videos with additional learning activities in the video learning resource or in the video task
-* as a collection of your own learning reflections in a blog or portfolio
+Not all three variants are available in all contexts.
 
 
-## Links
+## Display of videos
 
-### Fundamentals
-* [Video Upload](Video_Upload.md)
-* [Video Recording](Video_Recording.md)
+Depending on the integration, videos are displayed differently in OpenOlat:
 
-* [Learning resource video](../learningresources/Learning_resource_Video.md) and [Video collection](../area_modules/Video_Collection.md)
-* Videos in [Media Center](../personal_menu/Media_Center.md)
+* Directly embedded and playable, e.g. in the course element Video or Page, in HTML pages or in the ePortfolio
+* As a link or attachment that is opened with a click, e.g. in the course element Folder or Forum
 
-### Videos in courses:
+## What can videos be used for in OpenOlat?
 
-* [in course element "Video"](../learningresources/Course_Element_Video.md)
-
-* [in course element "Video task"](../learningresources/Course_Element_Video_Task.md)
-
-* [in course element HTML page](Video_in_HTML_Pages.md)
-
-* [in course element "Page"](../learningresources/Course_Element_Page.md)
-
-* [in course element "Video Livestream"](../learningresources/Course_Element_Video_Livestream.md)
-
-* [in course element "Podcast"](../learningresources/Course_Element_Podcast.md)
-
-* [in course element "Mediasite"](../learningresources/Course_Element_Mediasite.md)
+Videos can be used, for example, ...
 
 
-!!! info "Info"
-
-    If you cannot find the course element or learning resource "Video" in your OpenOlat instance, or if you cannot see the "Video Collection" menu, this has been disabled system-wide by the administrators.
+* as information and teaching/learning content, <br>
+e.g. in courses via the course element Video and the learning resource Video
+* as a form of submission by learners, via the course element Task or Group task
+* as feedback or sample solution by teachers, via the course element Task or Group task
+* for interactive videos with additional learning activities (quiz questions, chapter structure, annotations), in the learning resource Video or in the video task
+* as a collection of your own learning reflections, e.g. in the blog or portfolio
+* for questions or answers in OpenOlat tests
+* as a teaser video in the catalog and on the [info page](../learningresources/Info_page.md) of courses and published learning resources
 
 
 
+## Embedding videos in OpenOlat course elements
+
+Videos can be used in various course elements. Different ways are used for this:
+
+* Course elements: Video, Video task
+
+A link to a learning resource Video is created here, or a new learning resource Video is created by upload or URL.
+
+* Course element: Page
+
+A link to the Media Center is created. Videos can be uploaded, embedded via URL or recorded directly.
+
+* Course element: HTML page
+
+The TinyMCE HTML editor is used. Here it is possible to embed certain video types via URL or to use embed code in the HTML source code window.
+
+* Course elements: Podcast, Blog
+
+Here a video can be uploaded directly into the learning resource.
+
+* Course elements: Folder, Participant Folder
+
+A video file is provided without direct display (e.g. as a download). Videos can be uploaded or recorded.
+
+Furthermore, videos are possible as an attachment to a forum posting or a notification, as a discussion element of the file dialog or as a teaser video in the topic broker.
+
+!!! info "Important"
+
+    If you cannot find the course element or the learning resource "Video" in your OpenOlat instance, or if you cannot see the "Video Collection" menu, this has been switched off system-wide by the administrators.
 
 
+## Further information {: #further_information}
+
+**Fundamentals**<br>
+[Video Upload >](Video_Upload.md)<br>
+[Video Recording >](Video_Recording.md)<br>
+[Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
+[Video Collection >](../area_modules/Video_Collection.md)<br>
+[Personal tools: Media Center >](../personal_menu/Media_Center.md)
+
+**Videos in courses**<br>
+[Course Element "Video" >](../learningresources/Course_Element_Video.md)<br>
+[Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
+[Videos in course element "HTML page" >](Video_in_HTML_Pages.md)<br>
+[Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
+[Course Element "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.md)<br>
+[Course Element "Podcast" >](../learningresources/Course_Element_Podcast.md)<br>
+[Course Element "Mediasite" >](../learningresources/Course_Element_Mediasite.md)
+
+[To the top of the page ^](#overview)

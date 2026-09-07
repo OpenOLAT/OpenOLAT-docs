@@ -34,13 +34,13 @@ Wenn "Leistungsnachweis" im Kurs eingeschaltet ist, erscheint diese Option auch 
 Unter "Mein Kurs" finden Sie ausschliesslich Werkzeuge, die Ihre persönlichen Daten im aktuellen Kurs betreffen.<br>
 Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folgenden Einträge angezeigt.
 
-* Der [**Leistungsnachweis**](#evidence_of_achievement) zeigt die individuellen Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) des Kurses.
+* Der [**Leistungsnachweis**](#evidence_of_achievement) zeigt die individuellen Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) des Kurses.
 * [**To-dos**](#to-dos) zeigt die aktuellen To-dos des Kurses an.
 * [**Meine Badges**](#my_badges) zeigt Ihre Badges an.
 * [**Notizen**](#notes): Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
 * [**Bookmark**](#bookmark): Aktivieren Sie den Bookmark, dann erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
-* [**Einwilligung**](#terms_of_use): Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben der Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.
-* [**Gruppen**](#groups): Hier sehe Sie alle kursspezifischen Gruppen in denen Sie Mitglied sind und können direkt dorthin navigieren.
+* [**Einwilligung**](#terms_of_use): Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben, der Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.
+* [**Gruppen**](#groups): Hier sehen Sie alle kursspezifischen Gruppen, in denen Sie Mitglied sind, und können direkt dorthin navigieren.
 * Mit [**"Kurs verlassen"**](#leave_course) können Sie sich aus dem Kurs austragen.
 
 [Zum Seitenanfang ^](#my_course)
@@ -50,17 +50,17 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 
 ### Leistungsnachweis {: #evidence_of_achievement}
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss von den Kursbesitzer:innen zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
 
 ![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
 
-Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
 !!! note "Hinweis"
 
-    Leistungsnachweise und Zertifikate aus **allen** Ihren Kursen finden Sie im persönlichen Menü unter ["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#leistungsnachweise). 
+    Leistungsnachweise und Zertifikate aus **allen** Ihren Kursen finden Sie im persönlichen Menü unter ["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#evidences_of_achievement). 
 
 [Mehr über Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)
 
@@ -71,8 +71,8 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Ku
 
 ### To-dos [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
-Hier werden Teilnehmenden alle für Sie relevanten To-dos des Kurses angezeigt. 
-Dabei kann es sich zum einen um automatisch generierte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task.de.md) handeln. Dann werden Sie aufgefordert einen bestimmten Schritt im Aufgabenablauf zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
+Hier werden Teilnehmenden alle für sie relevanten To-dos des Kurses angezeigt. 
+Dabei kann es sich zum einen um automatisch generierte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task.de.md) handeln. Dann werden Sie aufgefordert, einen bestimmten Schritt im Aufgabenablauf zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
 Zum anderen können Lehrende allen Teilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
 
 Die To-dos dienen den Teilnehmenden als Orientierung, was aktuell im Kurs zu tun ist. 
@@ -138,17 +138,17 @@ Sind Sie aufgrund einer Gruppenmitgliedschaft in diesem Kurs dabei (Gruppenteiln
 
 ### Kurs verlassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
-Die "Kurs verlassen" Funktion beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw. Sie müssen den entsprechenden Kurs- oder Gruppenbetreuer kontaktieren, um wieder Kurszugriff zu erhalten.
+Die Funktion "Kurs verlassen" beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw. Sie müssen die entsprechenden Kurs- oder Gruppenbetreuer:innen kontaktieren, um wieder Kurszugriff zu erhalten.
 
-Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor von den Kursbesitzer:innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Teilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
+Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitzer:innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Teilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
 
-![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow" }
+![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" }
 
 **Wann ist "Kurs verlassen" verfügbar?**
 
 "Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
 
-- Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer-Rolle.
+- Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer:innen-Rolle.
 - Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Der Austritt aus einer Durchführung erfolgt dann über den Course Planner.
 - Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
 - Im Kurs läuft gerade kein Prüfungsmodus.
@@ -179,7 +179,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**
+**Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
@@ -194,7 +194,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share.de.md)<br>
 [Kursbaustein "Einschreibung" >](Course_Element_Enrolment.de.md)
 
-**Weiterführend**
+**Weiterführend**<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
 
 [Zum Seitenanfang ^](#my_course)

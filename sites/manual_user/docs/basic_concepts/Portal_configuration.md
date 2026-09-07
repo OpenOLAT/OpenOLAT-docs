@@ -1,12 +1,19 @@
-# Portal configuration
+# Portal configuration {: #portal_configuration}
 
-Provided that the portal function has been enabled by the administrator, OpenOlat users can configure their portal page. The sections in your Portal consist of various shortcuts to your groups, your learning resources, your calendar, your notifications, a comic strip, as well as to information on OpenOlat in general. You can choose which sections should be displayed in an arrangement of your choice.
+The portal is disabled by default. If administrators have enabled the portal function, OpenOlat users can configure their portal page. The sections on the portal consist of various shortcuts, for example to personal groups, learning resources, the calendar, the notifications and to information about OpenOlat. You can choose which sections are displayed in which arrangement.
 
-Let us assume that most of the time you have to deal with groups. Therefore you may want to position the section "My groups" more prominently: just click on "Configure page" on your top right. Then move the section "My groups" wherever you want to by means of the arrows provided.
+If, for example, you mainly work with groups and therefore want to position the section "My groups" more prominently, click on "Configure page" at the top right. Move the section "My groups" to the desired place by means of the arrows.
 
-You can further determine how many entries should be visible within a certain section. In order to do this just click on one of the following icons: "Sort manually" or "Sort automatically." If you choose "Sort manually" you will be able to determine the selection of entries as well as their sequence.
+You can further determine how many entries are displayed within a section. To make such adjustments, click on one of the icons "Sort manually" or "Sort automatically". With manual sorting, you can set the sequence of the entries in addition to selecting the entries displayed.
 
-If you do not want to see certain sections in your Home you can deactivate these sections. Deactivated sections will be displayed at the bottom of the page when configuring your Home. You can reactivate them anytime.
+If you do not want to see certain sections in your Home, you can inactivate them. Inactive sections are displayed at the bottom of the page when configuring and can be reactivated at any time.
 
-After completing your configuration you should click on "End configuration" on your top right.
+Once you have completed the configuration, click on "End configuration" at the top right.
 
+## Further information {: #further_information}
+
+[Area and modules >](../area_modules/index.md)<br>
+[Finding courses >](../area_modules/Courses.md)<br>
+[Customizing (Administration) >](../../manual_admin/administration/Customizing.md)
+
+[To the top of the page ^](#portal_configuration)

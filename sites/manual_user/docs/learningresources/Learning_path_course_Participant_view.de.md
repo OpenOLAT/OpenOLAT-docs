@@ -1,60 +1,64 @@
-## Lernpfad Kurs - Teilnehmeransicht
+# Lernpfadkurs - Teilnehmeransicht {: #participant_view}
 
-Ein Lernpfad Kurs unterscheidet sich auch für die Lernenden von einem
-herkömmlichen Kurs. Die größten Unterschiede liegen in der Fortschrittsanzeige
-und dem Bereich Lernpfad. Im Folgenden werden die zentralen Bereiche kurz erläutert.
+Ein Lernpfadkurs unterscheidet sich auch für die Lernenden von einem herkömmlichen Kurs. Die grössten Unterschiede liegen in der Fortschrittsanzeige und im Bereich "Lernpfad". Im Folgenden werden die zentralen Bereiche kurz erläutert.
 
-Durch die visualisierte Anzeige und die bereitgestellten Infos erhalten die Lernenden rasch und kontinuierlich einen Überblick über ihren Kursfortschritt und den aktuellen Bearbeitungsstand.
+Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten die Lernenden rasch und kontinuierlich einen Überblick über ihren Kursfortschritt und den aktuellen Bearbeitungsstand.
 
-## Typische Elemente eines Lernpfad Kurses aus Sicht der Lernenden:
+## Typische Elemente eines Lernpfadkurses aus Sicht der Lernenden {: #typical_elements}
 
-![Bereiche des Lernpfad Kurses Teilnehmerperspektive](assets/Lernpfad_Bereiche_19.png)
+![Vier markierte Bereiche in der Kursansicht: Fortschrittsleiste im Kursmenü, Link Lernpfad in der Toolbar, Fortschrittsgrafik mit 14 Prozent und die Pfeilnavigation mit dem Button Element erledigt](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" }
 
-1. **Fortschrittsleiste** im Kursmenü:   
+1. **Fortschrittsleiste** im Kursmenü
 
-Hier sehen die Lernenden welche Elemente sie schon aufgerufen bzw. erledigt
-haben und auch welche Kursbereiche noch nicht zugänglich sind. Grün bedeutet erledigt, gelb teilweise erledigt und grau bedeutet nicht zugänglich.
+    Hier sehen die Lernenden, welche Kursbausteine sie bereits aufgerufen oder erledigt haben und welche Kursbereiche noch nicht zugänglich sind. Grün bedeutet erledigt, gelb teilweise erledigt und grau nicht zugänglich.
 
-Ob die Anzeige in der Kursnavigation sichtbar ist kann vom Kursbesitzer in den Einstellungen der Kursadministration im Tab "Layout"  mit "Pfad im Menü anzeigen eingestellt werden. 
+    Ob die Fortschrittsleiste im Kursmenü sichtbar ist, legen Kursbesitzer:innen unter `Kurs > Administration > Einstellungen`, Tab "Layout", mit der Option "Pfad im Menu anzeigen" fest.
 
-2. Link "Lernpfad" in der Toolbar:   
+2. Link **"Lernpfad"** in der Toolbar
 
-Hier gelangen die Lernenden zum **Gesamtüberblick** über ihren
-Bearbeitungsstand aller Kursbausteine mit weiteren Feedback Informationen wie
-Fortschritt, Status, Verbindlichkeit, angesetzte Bearbeitungszeit sowie
-eventuelle Datumsangaben. 
+    Hier gelangen die Lernenden zum Gesamtüberblick über ihren Bearbeitungsstand aller Kursbausteine mit den Spalten Fortschritt, Status, Durchführung, Bearbeitungszeit, Freigabedatum, Zu bearbeiten bis und Datum erledigt.
 
-Kursbesitzer oder Betreuer sehen hier den Bearbeitungsstand *aller* Kursteilnehmenden und sie können auch bestimmte Anpassungen vornehmen z.B. einzelne Kursbausteine für einen User von verbindlich auf freiwillig umstellen.  
-![Lernpfad Übersicht ](assets/Lernpfad_uebersicht.png)
+    Kursbesitzer:innen und Betreuer:innen sehen hier den Bearbeitungsstand *aller* Teilnehmenden und können Anpassungen vornehmen, zum Beispiel für einzelne Teilnehmende die Durchführung eines Kursbausteins von obligatorisch auf freiwillig umstellen.
 
-3. Visualisierte Anzeige des **prozentualen Fortschritts**. 
+    ![Lernpfad-Übersicht einer Teilnehmerin mit Fortschritt, Status und Durchführung je Kursbaustein; ein Dialog überschreibt die Durchführung eines Kursbausteins auf Freiwillig](assets/Lernpfad_uebersicht.png){ class="shadow lightbox" }
 
-Hier erkennen die Lernenden wieviel Prozent der obligatorischen Kursbausteine sie bereits erledigt haben. Als Grundlage für die Prozentanzeige wird entweder die Anzahl der bearbeiteten Kursbausteine oder die aufaddierte Zeitspanne der obligatorischen Kursbausteine verwendet. 
+3. Visualisierte Anzeige des **prozentualen Fortschritts**
 
-Sofern in der Kursadministration aktiviert (siehe Konfiguration im Menü "Einstellungen" → Tab
-"Bewertung"), werden hier auch die erreichten Gesamtpunkte des Users angezeigt.
+    Hier erkennen die Lernenden, wie viel Prozent der obligatorischen Kursbausteine sie bereits erledigt haben. Grundlage ist entweder die Anzahl der erledigten Kursbausteine oder die aufaddierte Bearbeitungszeit der obligatorischen Kursbausteine, siehe [Lernpfadkurse erstellen](../learningresources/Creating_learning_path_courses.de.md).
 
-![Pozente und Punkte im Lernpfad](assets/Lernpfad_Prozent_Punkte.png)
+    Sofern unter `Kurs > Administration > Einstellungen`, Tab "Bewertung", aktiviert, zeigt die Grafik auch die erreichten Gesamtpunkte an.
 
-Werden im laufenden Kurs neue Bausteine hinzugefügt oder gelöscht, wird dies bei der Gesamtsumme berücksichtigt und der bisherige Prozentwert der Lernenden wird entsprechend neu berechnet.
+    ![Fortschrittsgrafik mit 17 Prozent und 3 Punkten neben dem Menü Mein Kurs in der Kurs-Toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" }
 
-4. **Pfeilbuttons** 
+    Werden im laufenden Kurs Kursbausteine hinzugefügt oder gelöscht, berücksichtigt OpenOlat dies in der Gesamtsumme und berechnet den bisherigen Prozentwert der Lernenden neu.
 
-Mit den Pfeilen kann der User zum nächsten Kursbaustein navigieren und sich so durch den gesamten Kurs bzw. zum jeweils nächsten zugänglichen Kursabaustein bewegen. 
+4. **Pfeilbuttons**
 
-Müssen bestimmte Anforderungen für den folgenden Baustein erfüllt sein, die noch nicht erfüllt wurden, z.B. fehlt eine Bestätigung durch den User oder ein Test wurde noch nicht absolviert, hat der User keinen Zugriff auf den nächsten Kursbaustein und es erscheint eine entsprechende Meldung.   
+    Mit den Pfeilen navigieren die Lernenden zum jeweils nächsten zugänglichen Kursbaustein und so durch den gesamten Kurs.
 
-![Lernpfad Meldung wenn kein Zugang](assets/Lernfpad_Meldung_Zuganenglichkeit.png)
+    Sind für den folgenden Kursbaustein Anforderungen noch nicht erfüllt, zum Beispiel eine fehlende Bestätigung oder ein noch nicht absolvierter Test, haben die Lernenden keinen Zugriff auf den nächsten Kursbaustein. OpenOlat zeigt eine entsprechende Meldung.
 
+    ![Meldung, dass der Kursbaustein aufgrund einer Regel nicht zugänglich ist, weil der vorherige Baustein noch nicht abgeschlossen wurde, mit dem Button Link zum Kursbaustein](assets/Lernfpad_Meldung_Zuganenglichkeit.png){ class="shadow lightbox" }
 
-Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation "**Als erledigt markieren**" und der User kann markieren, dass er den entsprechenden Kursbaustein bearbeitet hat. 
+    Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation der Button "Als erledigt markieren". Damit bestätigen die Lernenden, dass sie den Kursbaustein bearbeitet haben.
 
-!!! note "Info"
+!!! note "Hinweis"
 
-    Einen Überblick über mögliche Erledigungskriterien findet man [hier](../learningresources/Learning_path_course_Course_editor.de.md).
+    Einen Überblick über die möglichen Erledigungskriterien finden Sie auf der Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md#completion_criterion).
 
-!!! Tip "Tipp"
+!!! tip "Tipp"
 
-    Lehrende können auch [Erinnerungsmails](../learningresources/Course_Reminders.de.md) so konfigurieren, dass sie bei einem bestimmten prozentualen Bearbeitungswert verschickt werden, z.B. wer weniger als 60 % bearbeitet hat wird noch einmal motiviert die restlichen Bearbeitungen im Kurs vorzunehmen.
+    Kursbesitzer:innen können [Erinnerungen](../learningresources/Course_Reminders.de.md) so konfigurieren, dass OpenOlat sie bei einem bestimmten prozentualen Bearbeitungsstand verschickt, zum Beispiel an alle, die weniger als 60 % bearbeitet haben.
 
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Lernpfadkurse erstellen >](../learningresources/Creating_learning_path_courses.de.md)<br>
+[Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
+[Erinnerungen >](../learningresources/Course_Reminders.de.md)
+
+**Weiterführend**<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+[Zum Seitenanfang ^](#participant_view)

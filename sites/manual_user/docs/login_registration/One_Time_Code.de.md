@@ -1,10 +1,10 @@
 # One Time Code {: #one_time_code}
 
-Wenn Sie sich anmelden und nach Benutzername und Passwort ein zusätzlicher Schritt "Login - Validierung" erscheint, hat Ihre Organisation den One Time Code als zweiten Faktor aktiviert. OpenOlat schickt Ihnen dann einen Bestätigungscode per E-Mail, den Sie eingeben, um die Anmeldung abzuschliessen. Diese Seite erklärt, was ein One Time Code ist und wie die Anmeldung damit abläuft.
+Wenn Sie sich anmelden und nach Anmeldename und Passwort ein zusätzlicher Schritt "Login - Validierung" erscheint, hat Ihre Organisation den One Time Code als zweiten Faktor aktiviert. OpenOlat schickt Ihnen dann einen Bestätigungscode per E-Mail, den Sie eingeben, um die Anmeldung abzuschliessen. Diese Seite erklärt, was ein One Time Code ist und wie die Anmeldung damit abläuft.
 
 ## Was ist ein One Time Code? [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) {: #about}
 
-Ein One Time Code ist ein 8-stelliger Bestätigungscode, den OpenOlat Ihnen während der Anmeldung per E-Mail zustellt. Er dient als zweiter Faktor (2-Faktoren-Authentifizierung) zusätzlich zu Ihrem Passwort und ist nur für den aktuellen Anmeldevorgang gültig.
+Ein One Time Code ist ein 8-stelliger Bestätigungscode, den OpenOlat Ihnen während der Anmeldung per E-Mail zustellt. Er dient als zweiter Faktor (2-Faktor-Authentifizierung) zusätzlich zu Ihrem Passwort und ist nur für den aktuellen Anmeldevorgang gültig.
 
 Voraussetzung ist eine gültige E-Mail-Adresse an Ihrem Konto, denn ohne sie kann der Code nicht zugestellt werden.
 
@@ -14,7 +14,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse an Ihrem Konto, denn ohne sie kan
 
 ## So melden Sie sich mit One Time Code an {: #login}
 
-1. Geben Sie Ihren Benutzernamen und Ihr Passwort wie gewohnt ein.
+1. Geben Sie Ihren Anmeldenamen und Ihr Passwort wie gewohnt ein.
 2. OpenOlat zeigt den Schritt "Login - Validierung" an und sendet Ihnen eine E-Mail mit dem Betreff "Bestätigungscode für \<Instanzname\> Login".
 3. Öffnen Sie die E-Mail und übernehmen Sie den 8-stelligen Code in das Feld "Bestätigungscode".
 4. Klicken Sie auf "Login", um die Anmeldung abzuschliessen.

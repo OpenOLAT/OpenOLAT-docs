@@ -10,7 +10,7 @@ Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet.
 
 !!! note "Hinweis"
 
-    Neben dem Content Editor existiert in OpenOlat noch der HTML-Editor "Tiny MC", der z.B. im [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) verwendet wird. 
+    Neben dem Content Editor existiert in OpenOlat noch der HTML-Editor "TinyMCE", der z.B. im [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) verwendet wird. 
 
 
 ## Wo kommt der Content Editor zum Einsatz? {: #content_editor_use}
@@ -166,7 +166,7 @@ Im Tab "Stil" legen Sie den Hintergrund eines Layouts fest [:octicons-tag-16:{ t
 
 **Block-Stil 'Hinweis'**
 
-Layouts und verschiedene Inhaltsblöcke können als formatierte Hinweis-Box dargestellt werden [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. Bei Auswahl eines vordefinierten Hinweis-Typs werden Informationen durch eine entsprechende Farbgebung der Box und mit passendem Icon - deutlich hervorgehoben. Zur Auswahl stehen die Typen "Notiz", "Information", "Tipp", "Wichtig", "Warnung", "Fehler" und "Erfolg". Mit dem Typ "Benutzerdefiniert" gestalten Sie Farbe und Icon der Box selbst. Auf Wunsch kann eine Box auch einklappbar gemacht werden.
+Layouts und verschiedene Inhaltsblöcke können als formatierte Hinweis-Box dargestellt werden [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. Bei Auswahl eines vordefinierten Hinweis-Typs werden Informationen durch eine entsprechende Farbgebung der Box und mit passendem Icon deutlich hervorgehoben. Zur Auswahl stehen die Typen "Notiz", "Information", "Tipp", "Wichtig", "Warnung", "Fehler" und "Erfolg". Mit dem Typ "Benutzerdefiniert" gestalten Sie Farbe und Icon der Box selbst. Auf Wunsch kann eine Box auch einklappbar gemacht werden.
 
 ![Die Hinweis-Box ist eingeschaltet, die Typenliste ist geöffnet. Tab Stil im Inspektor eines Layouts.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
 
@@ -221,7 +221,7 @@ Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
 ![Eingabefeld im Inhaltsblock mit der Formeltastatur und ihren Registern. Formeleditor.](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" }
 
-Dieses Textelement existiert nicht im Formular Editor. 
+Dieses Textelement existiert nicht im Formular-Editor. 
 
 ### Code-Beispiel [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"} {: #code}
 
@@ -229,13 +229,13 @@ Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen 
 
 ![Zwei Code-Blöcke in Java und C-Sharp mit Zeilennummern, Syntaxfarben und Kopier-Symbol.](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" }
 
-Dieses Textelement existiert nicht im Formular Editor. 
+Dieses Textelement existiert nicht im Formular-Editor. 
 
 ### Zitat {: #quote}
 
 Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Media Center gespeichert.
 
-Dieses Textelement existiert nicht im Formular Editor. 
+Dieses Textelement existiert nicht im Formular-Editor. 
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -288,7 +288,7 @@ Zusätzlich besteht im Bereich "Share" die Möglichkeit, für neu erstellte oder
 ![Ablagefeld für die Datei, darunter Titel, Tags, Themen, Beschreibung und Lizenz. Dialog Dokument hinzufügen.](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 
-### Diagramm (draw.io.) [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
+### Diagramm (draw.io) [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
 Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
 
@@ -335,12 +335,12 @@ Sie fügen das Element über "Inhalt hinzufügen" im Bereich "Andere & Design" e
 
 Bleibt das Verzeichnis leer, erscheint der Hinweis "Keine Titel nach dieser Position gefunden". Das Element steht dann unterhalb der Titel, die es auflisten soll, oder die gewählten Titelgrössen passen nicht zu den vorhandenen Titeln. Verschieben Sie es vor die gewünschten Titel oder passen Sie die Titelgrössen im Inspektor an.
 
-Dieses Element existiert nicht im Formular Editor.
+Dieses Element existiert nicht im Formular-Editor.
 
 
 ### HTML-Textcode {: #html}
 
-Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
+Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text", bietet aber noch weitere Menüs und Möglichkeiten.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -489,6 +489,7 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 [Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
 [Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept.de.md)
 

@@ -1,6 +1,6 @@
 # Ordnerkonzept {: #folders}
 
-Die Ordnerkomponente ist überarbeitet, Ansichten und Arbeitsweisen haben sich teilweise geändert. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
+Die Ordnerkomponente ist überall in OpenOlat im Einsatz, wo Dateien abgelegt werden. Diese Seite zeigt die verschiedenen Ordner und die Arbeit mit Dateien. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
 
 ## Die verschiedenen Ordner {: #folder_types}
 
@@ -8,13 +8,13 @@ Die Ordnerkomponente ist überarbeitet, Ansichten und Arbeitsweisen haben sich t
 
 Den persönlichen Ordner finden Sie bei den persönlichen Werkzeugen im [persönlichen Menü](../personal_menu/index.de.md), im [File Hub](../personal_menu/File_Hub.de.md).
 
-Er bietet die Möglichkeit, individuelle Dateien unabhängig von Kursen oder Ressourcenordner abzulegen. 
+Er bietet die Möglichkeit, individuelle Dateien unabhängig von Kursen oder Ressourcenordnern abzulegen.
 
 Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem **öffentlichen** Bereich unterschieden. Dateien im privaten Ordner sind nur für die jeweilige Person sichtbar, während Dateien im öffentlichen Bereich über die Visitenkarte von allen Benutzer:innen im System gelesen und heruntergeladen werden können.
 
 !!! tip "Tipp"
 
-    Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie **Personensuche** im persönlichen Menü und suchen die gewünschte Person über die Suchmaske.
+    Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie "Personensuche" im persönlichen Menü und suchen die gewünschte Person über die Suchmaske.
 
 [Zu den Details der persönlichen Dateien >](../personal_menu/File_Hub.de.md#personal_files)<br>
 [Zu den Details des File Hubs >](../personal_menu/File_Hub.de.md)<br>
@@ -23,9 +23,9 @@ Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem *
 
 ### Ablageordner {: #storage_folder}
 
-In einem Kurs verwendete Dateien können im Ablageordner dieses Kurses hinterlegt werden. 
+In einem Kurs verwendete Dateien können im Ablageordner dieses Kurses hinterlegt werden.
 
-Der Zugriff erfolgt im Kurs über **Administration > Dateien > Ablageornder** oder im persönlichen Bereich über [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse". Hier den passenden Kurs auswählen.
+Der Zugriff erfolgt im Kurs über `Kurs > Administration > Dateien > Ablageordner` oder im persönlichen Bereich über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse". Wählen Sie dort den passenden Kurs aus.
 
 Im Ablageordner können z.B. Dateien hochgeladen werden, die später innerhalb des Kurses von einer Seite aus verlinkt und aufgerufen werden sollen.
 
@@ -35,11 +35,11 @@ Im Ablageordner können z.B. Dateien hochgeladen werden, die später innerhalb d
 
 ### Ressourcenordner {: #resource_folder}
 
-In einen Ressourcenordner können Dateien hochgeladen werden, die in mehreren Kursen verwendet verwendet sollen. So können diese zentral und nur an einer Stelle bearbeitet werden.
+In einen Ressourcenordner können Dateien hochgeladen werden, die in mehreren Kursen verwendet werden sollen. So können diese zentral und nur an einer Stelle bearbeitet werden.
 
-Um den Ressourcenordner innerhalb eines Kurses zu nutzen, muss er im Kurs über **Administration > Einstellungen > Tab Optionen** eingebunden werden. Anschliessend findet man im Ablageordner des Kurses den neuen Ordner "shared folder" und hat dort Zugriff auf die Dateien des Resssourcenordners. Pro Kurs kann nur ein Ressourcenordner verwendet werden.
+Um den Ressourcenordner innerhalb eines Kurses zu nutzen, muss er im Kurs über `Kurs > Administration > Einstellungen > Tab "Optionen"` eingebunden werden. Anschliessend finden Sie im Ablageordner des Kurses den neuen Ordner "shared folder" und haben dort Zugriff auf die Dateien des Ressourcenordners. Pro Kurs kann nur ein Ressourcenordner verwendet werden.
 
-Der kursübergreifende "Ressourcenordner" ist eine Lernressource und deshalb auch im Autorenbereich aufgelistet und er kann dort bearbeitet werden. 
+Der kursübergreifende Ressourcenordner ist eine Lernressource. Er ist deshalb auch im Autorenbereich aufgelistet und kann dort bearbeitet werden.
 
 [Zu den Details >](../learningresources/Resource_Folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -47,15 +47,15 @@ Der kursübergreifende "Ressourcenordner" ist eine Lernressource und deshalb auc
 
 ### Kursbaustein "Ordner" {: #course_element_folder}
 
-Der [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md) ist eine Ablagemöglichkeit innerhalb eines Kurses. Kursbetreuer:innen und Kursbesitzer:innen können dort Dateien zum Download bereitstellen. Teilnehmende des Kurses können bei Bedarf ebenfalls das Upload Recht erhalten.
+Der [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md) ist eine Ablagemöglichkeit innerhalb eines Kurses. Betreuer:innen und Besitzer:innen des Kurses können dort Dateien zum Download bereitstellen. Teilnehmende des Kurses können bei Bedarf ebenfalls das Upload-Recht erhalten.
 
 [Zu den Details >](../learningresources/Course_Element_Folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
 
 
-### Kursbaustein "Teilnehmer:innen-Ordner" {: #course_element_participant_folder}
+### Kursbaustein "Teilnehmer:innen Ordner" {: #course_element_participant_folder}
 
-Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element_Participant_Folder.de.md) ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Unterordner zur Verfügung. Zum einen ist dies der "Teilnehmer:innen Abgabeorder", über den Teilnehmende Dateien an Betreuer:innen abgeben können. Zum anderen der "Betreuer:innen Rückgabeorder", in welchem die Betreuer:innen Dateien an alle Teilnehmer:innen gleichzeitig oder individuell zurückgeben können.
+Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element_Participant_Folder.de.md) ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Unterordner zur Verfügung. Zum einen ist dies der "Teilnehmer:innen Abgabeordner", über den Teilnehmende Dateien an Betreuer:innen abgeben können. Zum anderen der "Betreuer:innen Rückgabeordner", in welchem die Betreuer:innen Dateien an alle Teilnehmer:innen gleichzeitig oder individuell zurückgeben können.
 
 [Zu den Details >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -63,8 +63,7 @@ Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element
 
 ### Ordner im Kursbaustein "Aufgabe" bzw. "Gruppenaufgabe" {: #course_element_task}
 
-Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokument von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurück gegebene Dokumente, überarbeitete Dokumente und Musterlösung. 
-Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
+Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokumente von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurückgegebene Dokumente, überarbeitete Dokumente und Musterlösung. Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
 
 [Zu den Details >](../learningresources/Course_Element_Task.de.md#workflow)<br>
 [Zum Seitenanfang ^](#folders)
@@ -74,7 +73,7 @@ Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die 
 
 Innerhalb einer Gruppe können Gruppenmitglieder Dokumente im gemeinsamen Gruppenordner austauschen. Dort können Dateien hochgeladen, erstellt und heruntergeladen werden. Eine weitere Strukturierung mit Unterordnern ist ebenfalls möglich.
 
-Auch über den [File Hub](../personal_menu/File_Hub.de.md) kann auf Gruppenordner zugegriffen werden. Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen deshalb im File Hub angezeigt werden. 
+Auch über den [File Hub](../personal_menu/File_Hub.de.md) kann auf Gruppenordner zugegriffen werden. Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen deshalb im File Hub angezeigt werden.
 
 Der Zugriff auf einen Gruppenordner ist in jedem Fall an die Mitgliedschaft in der betreffenden Gruppe gebunden.
 
@@ -82,23 +81,21 @@ Der Zugriff auf einen Gruppenordner ist in jedem Fall an die Mitgliedschaft in d
 [Zum Seitenanfang ^](#folders)
 
 
-### Ordner für Betreuer:innen (Betreuer:innenordner) {: #coach_folder}
+### Ordner für Betreuer:innen (Unterlagen Betreuer:innen) {: #coach_folder}
 
 Innerhalb eines Kurses kann ein Ordner eingerichtet werden, der nur für die Betreuer:innen dieses Kurses zugänglich ist. Dort können z.B. Dokumente ausgetauscht werden oder einfach Dateien zum Kurs abgelegt werden, die den Teilnehmer:innen nicht zugänglich sein sollen.
 
-Eingerichtet wird dieser Ordner unter **Administration > Einstellungen > Tab Optionen > Abschnitt "Einstellungen Betreuer:innen"**. 
-Es kann ein Unterordner aus dem Ablageordner des Kurses verwendet werden oder ein Ordner automatisch neu erstellt werden (_coachdocuments).
+Eingerichtet wird dieser Ordner unter `Kurs > Administration > Einstellungen > Tab "Optionen" > Abschnitt "Einstellungen Betreuer:innen"`. Es kann ein Unterordner aus dem Ablageordner des Kurses verwendet werden oder ein Ordner automatisch neu erstellt werden (`_coachdocuments`).
 
-Geöffnet werden kann der Ordner anschliessend unter **Administration > Unterlagen Betreuer:innen**.
-Auch via [File Hub](../personal_menu/File_Hub.de.md) kann durch Auswahl des Kurses auf den Ordner zugegriffen werden.
+Geöffnet werden kann der Ordner anschliessend unter `Kurs > Administration > Unterlagen Betreuer:innen`. Auch via [File Hub](../personal_menu/File_Hub.de.md) kann durch Auswahl des Kurses auf den Ordner zugegriffen werden.
 
 [Zu den Details >](../learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)<br>
 [Zum Seitenanfang ^](#folders)
 
 
-### Archive {: #archive}
+### Kursarchiv {: #archive}
 
-Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteine ein Teilarchiv erstellt, sind diese im [File Hub](../personal_menu/File_Hub.de.md) im Ordner "Kursarchiv" abgelegt.
+Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteinen ein Teilarchiv erstellt, ist dieses Archiv im [File Hub](../personal_menu/File_Hub.de.md) im Ordner "Kursarchiv" abgelegt.
 
 [Zu den Details >](../learningresources/Course_Archiving.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -114,65 +111,59 @@ Auch der Dokumentenpool ist im File Hub als Ordner angezeigt, in dem unterschied
 
 ## Ansicht {: #view}
 
-Mit den Buttons über der Liste schalten Sie um zwischen
-
-* hierarchischer Ansicht mit Ordner und
-* nur Dateien in der Ansicht 
+Mit den Buttons "Ordner" und "Dateien" über der Liste schalten Sie um zwischen der hierarchischen Ansicht mit Ordnern und der reinen Dateiansicht. In der Dateiansicht stehen zusätzlich die Filter-Tabs "Von mir" und "Für mich" zur Verfügung.
 
 === "Hierarchische Ansicht mit Ordnern"
 
-    ![folder_concept_view_folder_v1_de.png](assets/folder_concept_view_folder_v1_de.png){ class="shadow lightbox" title=" " }
+    ![Aktiver Button Ordner, die Liste zeigt Unterordner und Dateien mit Typ, Grösse und Dateistatus, Kursbaustein Ordner im Kurs](assets/folder_concept_view_folder_v1_de.png){ class="shadow lightbox" title=" " }
 
 === "Nur Dateien in der Ansicht"
 
-    ![folder_concept_view_files_v1_de.png](assets/folder_concept_view_files_v1_de.png){ class="shadow lightbox" title=" " }
-
+    ![Aktiver Button Dateien, die Liste zeigt alle Dateien der Unterordner ohne Ordnerstruktur mit den Filter-Tabs Alle, Von mir und Für mich, Kursbaustein Ordner im Kurs](assets/folder_concept_view_files_v1_de.png){ class="shadow lightbox" title=" " }
 
 !!! tip "Tipp"
 
     Im Krümelpfad unter den Buttons ist jederzeit ersichtlich, in welchem Ordner Sie sich gerade befinden. Durch Klick auf einen Abschnitt im Krümelpfad springen Sie direkt zu dieser Ebene.
 
 
-
-
 ## Suche {: #search}
 
-Die Suchfunktion in Ordnern sucht nach 
+Die Suchfunktion in Ordnern sucht nach
 
 * Dateinamen,
-* Beschreibung und 
+* Beschreibung und
 * Ersteller
 
-im aktuellen Ordner mit seinen Unterordnern.
-(Es ist aktuell keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.)
-
+im aktuellen Ordner mit seinen Unterordnern. Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
 
 ## Dateistatus {: #status}
 
-Den Dateistatus entnehmen Sie der **Spalte "Dateistatus"**. (Sollte die Spalte nicht sichtbar sein, kann sie über das Zahnrad-Icon eingeblendet werden.)
+Den Dateistatus entnehmen Sie der **Spalte "Dateistatus"**. Sollte die Spalte nicht sichtbar sein, kann sie über das Zahnrad-Icon eingeblendet werden.
 
-Wenn eine Datei aktuell bearbeitet wird, erhält sie den **Status "Wird bearbeitet"**.
+Wenn eine Datei aktuell bearbeitet wird, erhält sie den **Status "Wird gerade bearbeitet"**.
 
-Der **Status "gesperrt"** kann in den Metadaten gesetzt werden. Sie bearbeiten die Metadaten unter den 3 Punkten am Ende einer Zeile.  
+Der **Status "Gesperrt"** kann in den Metadaten gesetzt werden. Sie bearbeiten die Metadaten unter den drei Punkten am Ende einer Zeile.
 
-Wenn eine Datei hochgeladen wird, wird sie zunächst mit einem **Label als "Neu"** gekennzeichnet. (Dies hilft beim sofortigen "Weiterbearbeiten", wie Verschieben oder Kopieren). Das Label wird nur der Person angezeigt, die die Datei hochgeladen hat. Es verschwindet, sobald der Ordner einmal verlassen wurde.
+Wenn eine Datei hochgeladen wird, wird sie zunächst mit einem **Label "Neu"** gekennzeichnet. Dies hilft beim sofortigen Weiterbearbeiten, wie Verschieben oder Kopieren. Das Label wird nur der Person angezeigt, die die Datei hochgeladen hat. Es verschwindet, sobald der Ordner einmal verlassen wurde.
 
 
-
-##  Mit Dateien arbeiten {: #work_with_files}
+## Mit Dateien arbeiten {: #work_with_files}
 
 ### Aktionen via Menü
-Um Dateien zu verschieben, zu kopieren, herunterzuladen, zu packen (zippen) oder zu löschen, finden Sie Auswahloptionen **unter den 3 Punkten** am Ende einer Zeile (rechter Rand einer Liste).
 
-### Drag & drop
-Dateien können auch per **drag & drop** mit der Maus auf ein markiertes Zielfeld geschoben werden.
+Um Dateien zu verschieben, zu kopieren, herunterzuladen, zu packen (zippen) oder zu löschen, finden Sie Auswahloptionen **unter den drei Punkten** am Ende einer Zeile (rechter Rand einer Liste).
+
+### Drag & Drop
+
+Dateien können auch per **Drag & Drop** mit der Maus auf ein markiertes Zielfeld geschoben werden.
 
 ### Multi-File-Upload
+
 Es ist auch möglich, mehrere Dateien zu selektieren und gemeinsam auf das Zielfeld zu schieben.
 
+### Massenaktionen
 
-### Massen-Aktionen
 Sobald in einer Liste mindestens eine Checkbox am Zeilenbeginn ausgewählt ist, erscheinen über der Liste Buttons mit verfügbaren Optionen (herunterladen, verschieben, usw.).
 
 Markieren Sie die Checkbox in der Kopfzeile, werden alle Listeneinträge ausgewählt und markiert. Dadurch können schnell mehrere Einträge gleichzeitig bearbeitet werden.
@@ -182,18 +173,40 @@ Markieren Sie die Checkbox in der Kopfzeile, werden alle Listeneinträge ausgew�
 
 Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelöscht werden. Die Verbleibdauer im Papierkorb und das automatische Löschen wird von Administrator:innen eingerichtet.
 
-
-
-!!! info "Hinweis" 
+!!! note "Hinweis"
 
     Die Ordnerkomponente wird in folgenden OpenOlat-Bereichen verwendet:
 
-    - Shared Folder
+    - Ressourcenordner (shared folder)
     - Ablageordner des Kurses
     - Kursarchiv
-    - Modul Bibliothek
+    - Bibliothek
     - Projekt
-    - Kollaborationstools
+    - Kollaborationstools der Gruppen
     - Taxonomie / Lost & Found
-    - Teinehmerordner
+    - Kursbaustein "Teilnehmer:innen Ordner"
 
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Persönliches Menü >](../personal_menu/index.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
+[Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
+[Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
+[Kursbaustein "Teilnehmer:innen Ordner" >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
+[Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
+[Konzept des File Hub >](File_Hub_Concept.de.md)
+
+**Weiterführend**<br>
+[Unterlagen Betreuer:innen >](../learningresources/Coach_Files.de.md)<br>
+[Mit welchen Ordnern kann ich Dokumente anbieten? >](../../manual_how-to/folders/folders.de.md)<br>
+[Suche im File Hub >](Search_in_FileHub.de.md)<br>
+[Einsatz von WebDAV >](Using_WebDAV.de.md)
+
+[Zum Seitenanfang ^](#folders)

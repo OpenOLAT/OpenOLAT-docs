@@ -1,8 +1,8 @@
-# Local search
+# Local search {: #search_local}
 
 The local search refers to a specific folder (e.g. course element "Folder").
 
-It searches using the following metadata of the folders/files in this folder:
+It searches the following metadata of the folders/files in this folder:
 
 * Created by
 * Title
@@ -11,11 +11,12 @@ It searches using the following metadata of the folders/files in this folder:
 
 To do this, use the search field in the action line.
 
-## Further information
+## Further information {: #further_information}
 
-[General things about the search >](Search_General.md)<br>
-[Local search >](Search_Local.md)<br>
-[Personal search >](Search_Person.md)<br>
+[General information on the search >](Search_General.md)<br>
+[Global search >](Search_Global.md)<br>
+[Search other users >](Search_Person.md)<br>
 [Search in a course >](Search_in_Course.md)<br>
-[Search in FileHub >](Search_in_FileHub.md)<br>
+[Search in the File Hub >](Search_in_FileHub.md)
 
+[To the top of the page ^](#search_local)

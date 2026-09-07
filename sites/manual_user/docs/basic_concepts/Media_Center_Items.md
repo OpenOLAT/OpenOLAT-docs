@@ -1,40 +1,44 @@
 # Information and settings for items in the Media Center {: #media_center_items}
 
-Information and settings can be entered for each individual media item stored in the Media Center. To do this, open the Media Center in your personal menu and click on the desired media item. A screen will open with the tabs described below.
+Information and settings can be entered for each individual media item stored in the Media Center. To do this, open the Media Center in your personal menu and click on the desired media item. A view opens with the tabs described below:
 
 * Overview
 * Metadata
-* Usage
+* Uses
 * Shares
+
 
 ## Tab Overview {: #media_center_overview}
 
-The **Overview** tab shows the details Type, Creator, Creation date, and File size. You can also view the activity log and create a new version or replace the image.
+The **Overview** tab shows the details Type, Creator, Date and Size. You can also view the activity log and create a new version or replace the image.
 
-![media_center_items_tab_overview_v1_de.png](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" } 
+![Overview tab of an image with Type, Creator, Date and Size, the buttons Create new version and Replace image and the collapsed activity log](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" }
 
 
 ### Activity log {: #media_center_activitylog}
 
 The activity log can be used to track when the media element was edited and by whom.
 
-![media_center_items_tab_overview_activity_v1_de.png](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" } 
+![Highlighted, expanded activity log with the period tabs Last 7 days to All and one entry Uploaded with date, version and author](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" }
 
 
-### "Createnew version" and "Replace image" [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
+### "Create new version" and "Replace image" [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
 
 An interesting feature is the option to **version** media elements. This allows you to save different work steps or intermediate stages, for example. You can then switch back to older versions at any time.
 
-In contrast, **Replace Image** replaces the image in the current version. All other metadata and settings (e.g., permissions) remain unchanged. 
+In contrast, **Replace image** replaces the image in the current version. All other metadata and settings (e.g. shares) remain unchanged.
 
-![media_center_items_tab_overview_new_version_v1_de.png](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" } 
+
+![Highlighted buttons Create new version and Replace image at the top right of the Overview tab of an image](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" }
+
 
 
 ### Download or delete {: #media_center_download}
 
-You can download individual media files from the Media Center using the three dots in the top right corner. If you are the owner, you can also delete your media file. 
+You can download individual media files from the Media Center using the 3-dot menu at the top right. If you are the owner, you can also delete your media element.
 
-![media_center_items_tab_overview_download_v1_de.png](assets/media_center_items_tab_overview_download_v1_de.png){ class="shadow lightbox" } 
+![Highlighted, opened 3-dot menu with Download and Delete at the top right above the tabs of a media element](assets/media_center_items_tab_overview_download_v1_de.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#media_center_items)
 
@@ -45,17 +49,17 @@ You can download individual media files from the Media Center using the three do
 
 The following information can be added to a media element:
 
-* a title that differs from the file name 
-* Tags for keyword indexing and a better overview
-* Classification according to topics and subject areas (taxonomy) 
-* a description 
-* An "alt text" for draw.io files or images/graphics. This is particularly relevant for screen readers.
+* a title that differs from the file name
+* tags for keyword indexing and a better overview
+* a classification according to topics and subject areas (taxonomy)
+* a description
+* an "alt text" for draw.io files or images/graphics. This is particularly relevant for screen readers.
 * a license specification, such as "CC BY-NC-SA"
 * a source reference
 
-The information and options available for metadata vary depending on the type of media. All information can be changed later.  
+The information and options available for metadata vary depending on the type of media. All information can be changed later.
 
-![media_center_items_tab_metadata_v1_de.png](assets/media_center_items_tab_metadata_v1_de.png){ class="shadow lightbox" } 
+![Metadata form of an image with the fields Title, File name, Tags, Topics/Subject areas, Description, Alt text, License and Source](assets/media_center_items_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 
 ### Generate metadata with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
@@ -64,38 +68,47 @@ If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is co
 
 Fields that are already filled in are retained during generation; the title is only replaced if it is empty or corresponds to a file name.
 
-![media_center_items_ai_v1_en.png](assets/media_center_items_ai_v1_en.png){ class="shadow lightbox" }
+![Highlighted notice Metadata has been generated with AI and highlighted button Generate metadata with AI in the dialog Add media file, title, tags, description and alt text are filled in](assets/media_center_items_ai_v1_en.png){ class="shadow lightbox" }
 
-Metadata of imported images is also generated by AI in the background during [markdown import into the content editor](Content_Editor.md#markdown) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
+Metadata of imported images is also generated by AI in the background during [Markdown import into the Content Editor](Content_Editor.md#markdown) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [To the top of the page ^](#media_center_items)
 
 ---
 
 
-## Tab Uses  {: #media_center_uses}
+## Tab Uses {: #media_center_uses}
 
 In the "Uses" tab, you can see where the media element is used.<br>
-By clicking on the usage information, you can jump directly to that section in this course.
+By clicking on the usage information, you can jump directly to that place in this course.
 
-![media_center_items_tab_uses_v1_de.png](assets/media_center_items_tab_uses_v1_de.png){ class="shadow lightbox" } 
+![Table in the Uses tab with one entry: usage Page, resource Obstbau, user, version Latest, status Valid](assets/media_center_items_tab_uses_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#media_center_items)
 
 ---
 
 
-## Tab Share [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #media_center_share}
+## Tab Shares [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #media_center_share}
 
 Here you can specify who is allowed to use a media element. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups, or courses. By sharing files, they can also be used collaboratively if editing is allowed.
 
-![media_center_items_tab_share_v1_de.png](assets/media_center_items_tab_share_v1_de.png){ class="shadow lightbox" } 
+
+![Highlighted button Add share with the targets User, Group, Course and Organisation and highlighted share row with the switch Share editable in the Shares tab](assets/media_center_items_tab_share_v1_de.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#media_center_items)
 
 ---
 
+
 ## Further information {: #further_information}
 
-[Concept of the Media Center >](../basic_concepts/Media_Center_Concept.md)<br>
-[Media Center in he personal menu >](../personal_menu/Media_Center.md)<br>
+[External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Content Editor >](Content_Editor.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
+[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
+[Working with media files >](../basic_concepts/Working_with_Media_Files.md)
+
+[To the top of the page ^](#media_center_items)

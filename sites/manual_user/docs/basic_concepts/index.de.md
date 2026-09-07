@@ -8,7 +8,7 @@ Was wird benötigt, um mit OpenOlat arbeiten zu können? Mehr dazu in diesem Abs
 
 ## [Rollen und Rechte](Roles_Rights.de.md)
 
-Nicht jeder kann in OpenOlat alles ausführen. Es gibt verschiedene Rollen mit jeweils unterschiedlichen Rechten. Das reicht von Administrator:innen bis zum Gastzugang, mit dem verständlicherweise nur wenig Rechte verbunden sind.
+Nicht alle Benutzer:innen können in OpenOlat alles ausführen. Es gibt verschiedene Rollen mit jeweils unterschiedlichen Rechten. Das reicht von Administrator:innen bis zum Gastzugang, mit dem verständlicherweise nur wenig Rechte verbunden sind.
 
 ## [Konto](Session_Timeout_and_Logout.de.md)
 
@@ -20,4 +20,4 @@ Hier finden Sie Informationen zu den plattformübergreifenden Funktionen wie Cha
 
 ## [Technologie](Technology.de.md)
 
-Hier erfahren Sie mehr über die Tools, mit denen OpenOlat entwickelt wird. Ausserdem werden verschiedene unterstützende Technologien genutzt. (Z.B. WebDAV, ein spezieller Editor für Mathematik-Formeln, usw.)
+Hier erfahren Sie mehr über die Tools, mit denen OpenOlat entwickelt wird. Ausserdem werden verschiedene unterstützende Technologien genutzt, z.B. WebDAV oder ein spezieller Editor für Mathematik-Formeln.

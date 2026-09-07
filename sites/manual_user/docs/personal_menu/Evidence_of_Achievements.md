@@ -1,65 +1,61 @@
 # Personal achievements/successes: Evidence of Achievements {: #evidence_of_achievements}
 
-![pers_menu_evid_of_achiev_v4_de.png](assets/pers_menu_evid_of_achiev_v4_de.png){ class="aside-right lightbox"}
+![Menu group Achievements/Successes with the entries Evidence of achievement, Certificates, Badges and Credit points, the entry Evidence of achievement is selected, in the personal menu](assets/pers_menu_evid_of_achiev_v4_de.png){ class="aside-right lightbox"}
 
-![icon_icon_evidence_of_achievements.png](assets/icon_evidence_of_achievements.png)
+![Icon Evidence of achievement](assets/icon_evidence_of_achievements.png)
 
-A performance record is a confirmation that a performance check has been carried out.
-In OpenOlat, proof of performance can be provided for various assessment course elements, e.g. for completed tests, submitted and assessed tasks, etc. 
+An evidence of achievement summarises all results of a person in a course: per assessable course element with score, status and date, e.g. for completed tests or submitted and assessed tasks.
+
+![Four courses with score, Passed, certificate and ePortfolio action, above them the selection by product or Individual Courses, in the tool Evidence of achievement](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
+
+A [PDF certificate](../learningresources/Course_Settings_Assessment_Certificate.md#certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of an evidence of achievement.
 
 
-![pers_menu_evid_of_achiev_list_v1_de.png](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
+## Who awards evidence of achievement? {: #who_awards}
 
-A [PDF certificate](../learningresources/Course_Settings_Assessment.md#certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of a transcript of records
-
-## Who awards certificates of achievement? {: #who_awards}
-
-The course authors determine in their courses whether OpenOlat should create performance records.
-
-Activation takes place in Administration -> Settings in the [Assessment tab](../learningresources/Course_Settings_Assessment.md). 
+Course owners define in their courses whether participants see their evidence of achievement. They find the option "Show evidence of achievement to participants" under `Course > Administration > Settings > Assessment` (see [Course Settings - Tab Assessment](../learningresources/Course_Settings_Assessment.md)). OpenOlat creates the evidence of achievement regardless of this setting; course owners and coaches always see it in the assessment views, e.g. when resetting course data or during recertification. [:octicons-tag-16:{ title="from Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
 
 [To the top of the page ^](#evidence_of_achievements)
 
 ---
 
 
-## Where can I see the the evidence of achievements? {: #where}
+## Where can I see the evidence of achievement? {: #where}
 
-Users can find their certificates of achievement, and if activated also their received [certificates](../learningresources/Course_Settings_Assessment.md#certificate), both in the respective course in which the certificate of achievement or certificate was issued and also collected in the personal tool menu. 
+Users find their evidence of achievement and, if activated, also their received [certificates](../learningresources/Course_Settings_Assessment_Certificate.md#certificate) both in the respective course in which the evidence of achievement or the certificate was issued and collected in the personal menu.
+
 
 ### Evidence of achievement in the personal tools {: #where_in_pers_tools}
 
-The display in the personal menu is suitable for obtaining a quick overview of all personal evidences of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidences of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Points, Passed, Certificate. If the grading module is active, you can additionally show the "Rating" column with the achieved grade; the "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581) 
+The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, you can additionally show the "Rating" column with the achieved grade; the "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
-Activate "ePortfolio" to transfer an evidence of achievement to your [Portfolio](../personal_menu/Portfolio.md). In a first step, the evidence of achievement is added to their personal ["Media Center"](../personal_menu/Media_Center.md) and can be inserted from there as a content element in a portfolio. In this way, compilations of evidences of achievement can be combined for different purposes and also made accessible to specific persons. 
+If you are a member of a product in the Course Planner, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-!!! info  "Info"
+Click the icon "ePortfolio" to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](../personal_menu/Portfolio.md) binders.
+In this way, compilations of evidence of achievement can be combined for different purposes and also made accessible to specific persons.
 
-    Please note: Evidences of achievement and certificates are only displayed if achievements have already been made and if these have also been evaluated and the visibility has been released for the user. Certificates issued can also be downloaded.
+!!! info "Important"
 
+    Evidence of achievement and certificates are only displayed once achievements have been made, once these have been assessed and once the visibility has been released for the participants. Issued certificates can also be downloaded.
 
 **External certificates**
 
-OpenOlat users can also upload externally acquired certificates to OpenOlat to complete their profile. The "Upload certificate" button is located in the personal menu under the "Evidence of achievement" tab (if activated by the administrator).
-
-![pers_menu_evid_of_achiev_cert_upload_v1_de.png](assets/pers_menu_evid_of_achiev_cert_upload_v1_de.png){ class="shadow lightbox"}
+You upload externally acquired certificates in the personal tool [Certificates](Certificates.md), provided the administration allows it. Uploaded certificates appear there and not in the list of evidence of achievement. [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [To the top of the page ^](#evidence_of_achievements)
 
 ---
 
 
-## View evidence of achievement in the course {: #where_in_course}
+### View evidence of achievement in the course {: #where_in_course}
 
-If the transcript of records has been activated in a course, participants will find the link to their transcript of records in the toolbar under "My course". If you click on the link, you will get an overview of the assessable course elements of the course with their current assessment status.
+If the evidence of achievement is activated in a course, participants find the link "Evidence of achievement" in the toolbar under "My course". A click on it shows the assessable course elements of the course with their current assessment status.
 
-![Leistungsnachweis im Kurs](../learningresources/assets/Mein_Kurs_menue_19en.jpg)
+![Entry Evidence of achievement at the top of the opened menu My course, below it To-dos, Notes, Bookmark and a group, in the toolbar of the course](../learningresources/assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" }
 
+!!! info "Important"
 
-
-!!! info "Note"
-
-    The link to the evidence of achievement only appears in the course if at least one assessable course element exists in the course and the course participant has already received at least one assessment. This can be, for example, the attempted solution to a test or the assessment of an assignment.
+    The link to the evidence of achievement only appears in the course once at least one assessable course element exists and the participants themselves have received at least one assessment. This can be, for example, the attempted solution of a test or the assessment of a task.
 
 [To the top of the page ^](#evidence_of_achievements)
 
@@ -68,14 +64,19 @@ If the transcript of records has been activated in a course, participants will f
 
 ## Further information {: #further_information}
 
-[Evidences of achievements >](../learningresources/Course_Settings_Assessment.md#evidence_of_achievement)<br>
-[Certificates >](../learningresources/Course_Settings_Assessment.md#certificate)<br>
+**Mentioned on this page**<br>
+[Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[Personal tools: Portfolio >](../personal_menu/Portfolio.md)<br>
+[Personal achievements/successes: Certificates >](Certificates.md)
+
+**Further reading**<br>
 [Assessment systems in OpenOlat: Grades >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
-[Badges in the Personal Tools >](OpenBadges.md)<br>
-[Badges in the Assessment Tool >](../learningresources/OpenBadges.md)<br>
+[Badges in the personal tools >](OpenBadges.md)<br>
+[Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the eAssessment administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
-[Create test receipt >](../learningresources/Test_settings.md#tab-options)<br>
-[Validate test receipt >](../learningresources/Assessing_tests.md#grading-tool)<br>
-[Recertification >](../learningresources/Course_Settings_Assessment.md#recertification)
+[Create test receipt: Test settings >](../learningresources/Test_settings.md)<br>
+[Validate test receipt: Assessing tests >](../learningresources/Assessing_tests.md)
 
 [To the top of the page ^](#evidence_of_achievements)

@@ -1,11 +1,11 @@
 # Working with media files {: #media_files}
 
-Media files used in OpenOlat are usually uploaded and integrated directly at the place of use. You will find the media in 3 different locations. 
+Media files used in OpenOlat are usually uploaded and integrated directly at the place of use. You will find the media in 3 different locations.
 
 
 ## Folder
 
-There are folders in various places in OpenOlat in which media files are also stored. In these folders, the files can be exchanged as a whole. (This is possible because the folders are not provided with additional metadata).
+There are folders in various places in OpenOlat in which media files are also stored. In these folders, the files can be exchanged as a whole. (This is possible because the files are not provided with additional metadata.)
 
 **Examples:**
 
@@ -22,7 +22,7 @@ Media files that are integrated with the [Content Editor](../basic_concepts/Cont
 
 * The media can be used in other course elements that also obtain their media from the [Media Center](../basic_concepts/Media_Center_Concept.md).
 * Rights management is available for sharing media with other authors.
-* The media files can be provided with metadata for better management. 
+* The media files can be provided with metadata for better management.
 
 
 ## Fixed assigned media
@@ -35,3 +35,14 @@ For learning resources in the author area that contain media files, these media 
 * [Wiki >](../learningresources/Wiki.md)
 * [Test >](../learningresources/Test.md)
 
+
+## Further information {: #further_information}
+
+[Folder concept >](../basic_concepts/Folder_Concept.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
+[Blog: Overview >](../learningresources/Blog.md)<br>
+[Creating Wikis >](../learningresources/Wiki.md)<br>
+[Creating Tests >](../learningresources/Test.md)
+
+[To the top of the page ^](#media_files)

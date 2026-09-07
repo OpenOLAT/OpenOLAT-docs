@@ -2,57 +2,77 @@
 
 ![Chat icon](assets/chat_icon.png)
 
-Instant Messaging (IM) allows the exchange of messages with persons in real time - commonly known as "chat". Information on the availability of chat partners is important. You get this information by means of a group peers list. To begin chatting with one of the available contacts, click on that contact and the chat will be started in a chat window. If a contact is not available, messages will be saved and delivered when the user logs in the next time. 
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Chat](<https://www.youtube.com/embed/OX44EiWqZTk>){:target="_blank"}
 
-![Group chat window](assets/chat_group.gif)
+Instant Messaging (IM) allows the exchange of messages with persons in real time, commonly known as "chat". Information on the availability of potential chat partners is important. This information is provided by the list of group peers. To start a chat with one of the available contacts, click on that contact. The chat is started in a chat window. If a person is not available at the moment, the messages are saved and displayed to the user at the next login.
+
+![List Group peers with the online members of your own groups and the toggles for offline contacts and groups, opened via the digits in the header](assets/chat_group.gif){ class="shadow lightbox" }
 
 ## Messaging Status {: #status}
 
+The following statuses are distinguished:
+
 ![Icon "Available"](assets/available.png)
-Available: Select this status to receive chat messages immediately. You are signaling that you are open for discussion.
+Available: Select this status to receive chat requests and messages immediately. You are signaling that you are open for discussion.
 
 ![Icon "Please do not disturb"](assets/nodisturb.png)
-Please do not disturb: Select this status when you are busy and you do not
-want to be disturbed by opening chat windows. You are signaling that although
-you are online you do not want to answer to requests immediately.
+Please do not disturb: Select this status when you are busy and do not want to be disturbed by opening chat windows. You are signaling that you are online, but do not want to answer requests immediately.
 
 ![Icon "Not available"](assets/notavailable.png)
-Not available: Select this status when you do not want to be contacted by
-other users. For other users you seem not to be online at all. You will still get sent messages and you can also reply immediately if you like to.
+Not available: Select this status when you do not want to be contacted by other users. For other users, you appear to be offline. You still receive messages as a letter icon and can reply to messages if you like.
 
-By clicking on the round symbol you can change your Instant Messaging status. That way you can show other OpenOlat users if you would like to chat or not. While taking a test your status will automatically show the status "Please do not disturb". Only after that test you will be able to chat again.
+By clicking on the round symbol, you can change your Instant Messaging status. That way you show other OpenOlat users whether you are available for chat or not. While you are taking a test, your status is automatically set to "Please do not disturb". Only after finishing the test are you able to chat again.
 
-If you basically want to have a status other than "Available" after logging in, you can change this in the personal menu → Settings → Instant Messaging (see "Personal Settings" below).
+If you generally want a status other than "Available" after logging in, change this under `Personal menu > Settings > Tab "Instant Messaging"` (see "Personal chat settings" below).
 
-## Sending Messages {: #send}
-By clicking on the two digits (xx/xx) on the top right of the menu bar next to the Instant Messaging status symbol (e.g. green dot) a list will pop up. There you will see all members of your groups logged on at that time. To start a chat you just have to click on the name of the one you would like to chat with. By selecting a name a new chat window will be opened. You can also send messages to offline users. After the next login, the respective user will receive your message as they will appear as a small envelope to the left of the chat icon.
+## Sending messages {: #send}
 
-You will not see the two digits though if the direct chat with group peers has been disabled by a system administrator. Completing the following steps, you will still be able to send messages to other users. Search for the user either via the OpenOlat search or in your personal menu in the menu item "Other users". A click on the name opens the visiting card of this user. Below the profile image you will find a link to contact that user via chat. If that specific user has disabled the chat in his settings though, there will be no contact link available.
+By clicking on the two digits (xx/xx) at the top right of the header next to the Instant Messaging status symbol (e.g. green dot), a list opens. There you see all members of your groups who are currently logged in. To start a chat, click on the name of the desired person. A chat window opens. If the desired user is displayed as offline, you can send them a message as well. At the next login, the message appears as a small envelope to the left of the chat icon.
 
-Of course, this approach also works with the enabled chat in order to contact OpenOlat users that are not in your group peer list.
+If the two digits are not displayed, system administrators have disabled the direct chat. Even with disabled group peers, you can send messages to other users: Search for the person via the OpenOlat search or in the personal menu under [Other users](../personal_menu/Other_users.md). In the visiting card, below the profile image, you find the option to contact the person. If the user has disabled the receipt of messages, the contact link is not available for this person.
 
-Popular emoticons such as smiling, winking, cool, suprised or kissing are supported, as well as thumbs up ( + ) and thumbs down ( - )
+This also works with the chat enabled, in order to contact OpenOlat users who are not in your contact list.
+
+Popular emoticons such as smiling, winking, cool or surprised are supported, as well as thumbs up ( + ) and thumbs down ( - ).
 
 ## Receiving messages {: #receive}
-Messages can be received in two ways: In case your Instant Message status is "Available" a chat window will open upon receiving a new message. If your status is "Please do not disturb" or "Not available", messages will appear as a small envelope on the left next to the chat icon that can be found on the top right of the menu bar.
 
-When clicking on that small letter a chat window will open containing your message. In case the chat window is already open, all new messages will be displayed there.
+Messages can be received in two ways: If your status is "Available", a chat window opens when new messages are received.
+If your status is "Please do not disturb" or "Not available", the messages appear as a blinking envelope to the left of the chat icon at the top right of the header. When you click on the envelope, a chat window with the message opens. If the chat window is already open, new messages are displayed there.
 
-In case you receive a message while being offline, the message will be stored. The next time you log on, it will appear as small blinking letter next to the chat icon.
+If you receive a message while you are offline, this message is stored and displayed as an envelope at the next login.
 
 ## Manage group list contacts {: #group_list}
-Contacts can be added or removed via the OpenOlat groups. Provided that you are the coach of a group you can invite or disinvite coaches or participants to your group. These persons will then appear on your group list of the OpenOlat chat if the group members display setting is properly configured. Group coaches are displayed in the contact list in bold font.
 
-How the members display settings can be modified is described in the [group administration](../groups/Group_Administration.md).
+Contacts can be added or removed via the groups of OpenOlat.
+Provided that you are the coach of a group, you can invite or disinvite coaches or participants to your group. These persons then appear on your group list in the chat, provided that the group allows the display of group members. Group coaches are displayed in bold in the contact list.
 
-## Join a group/course chat {: #join_group}
-Links to chat rooms are found at different places in OpenOlat (e.g. group/course). Click on the link _Start chat_. A new window will be opened and you can start your group/course chat. If a chat history is available you can display it to learn what the discussion is about and what has already been said. Messages to a chat room are sent to all persons in that room. A list of all participants will be displayed next to your chat window. If you want to participate anonymously you can select a nick name. Chat participants will then not see your real identity. This option must be enabled by the system amdinistrator. It might not be available on your system. If you want to exit the chat room, just close that window.
+How to configure the display of group members in your group is described in the [Group Administration](../groups/Group_Administration.md).
 
-## Personal Settings {: #settings}
-In the tab "Instant Messaging" you can specify whether other users should be able to contact you. If you do not wish to receive messages from other users, turn off this feature. The contact link in the card is then removed. In that case, you can only receive messages from your direct course/group peers.
+## Join a group or course chat {: #join_group}
 
- **Default status after login:**
-Here you can choose between 3 settings to be activated after your next login. If you want to change your current status you can do this by means of the status symbol in the top right corner. The status selected here will be reactivated upon your next login.
+There are chatrooms at different places in OpenOlat, e.g. in the course and in the group. Open the chatroom in the course via "Course chat" in the toolbar, in the group via the menu entry "Chat". A chat window opens and you enter the group or course chat. If a history already exists, display it via "Show history" to learn about the discussion so far. Messages to a chatroom are sent to all persons in that room. The list of participants is displayed next to the chat window. If you want to participate anonymously, you can choose a nickname. The other chat participants then do not see your real name. System administrators must enable this option; it may not be available on your system. If you want to leave the room, close the window.
+
+## Personal chat settings {: #settings}
+
+In the tab "Instant Messaging" of the [personal settings](../personal_menu/Settings.md#tab_instant-messaging), you specify whether other users may contact you. If you do not wish to receive messages from other users, turn off this feature. The contact link in the visiting card is then removed. In that case, you can only receive messages from course and group members.
+
+**Default status after login:**<br>
+Here you can choose between three settings that are active after each future login. If you want to change your current status, you can do this via the round status symbol at the top right. At the next login, the status you have set here is active again.
 
 ## Chat logs {: #chat_logs}
-To view chat logs, open the chat window of the desired chat partner. In the top half of the window, select the time period for the protocol. You can view the chat transcript of the last day, the last week or last month.
+
+To view chat logs, open the chat window of the desired chat partner. Then select the period of the log at the top. You can view the chat log of the last day, the last week or the last month.
+
+## Further information {: #further_information}
+
+[Personal tools: Other users >](../personal_menu/Other_users.md)<br>
+[Group Administration >](../groups/Group_Administration.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
+[Module Instant Messaging (Administration) >](../../manual_admin/administration/Instant_Messaging.md)<br>
+[Additional Course Features >](../learningresources/Additional_Course_Features.md)
+
+**youtube**<br>
+[Chat](<https://www.youtube.com/embed/OX44EiWqZTk>)
+
+[To the top of the page ^](#chat)

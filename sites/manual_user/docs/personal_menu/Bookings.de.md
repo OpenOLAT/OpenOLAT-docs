@@ -1,28 +1,28 @@
 # Persönliche Werkzeuge: Buchungsaufträge {: #bookings}
 
-![pers_menu_bookings_v3_de.png](assets/pers_menu_bookings_v3_de.png){ class="aside-right lightbox"}
+![Menü Persönliche Werkzeuge mit dem Eintrag Buchungsaufträge, der zur Übersicht aller selbst gebuchten Kurse und Lernressourcen führt](assets/pers_menu_bookings_v3_de.png){ class="aside-right lightbox"}
 
-![icon_bookings.png](assets/icon_bookings.png)
+![Symbol Buchungsaufträge](assets/icon_bookings.png)
 
-Unter "Buchungsaufträge" im Bereich "Persönliche Werkzeuge" finden OpenOlat Nutzer:innen eine Übersicht all ihrer gebuchten Kurse und Lernressourcen. Dabei erscheinen nur die Kurse und Lernressourcen, die auch mit einer [Angebotsart](../learningresources/Access_configuration.de.md), z.B. mit einem Kurscode verknüpft sind und vom Nutzer bzw. der Nutzerin gebucht wurden (Selbstregistrierung). Buchen kann dabei als Synonym für "belegen", "einschreiben" oder "einkaufen" verstanden werden.
+Unter "Buchungsaufträge" im Bereich "Persönliche Werkzeuge" finden Benutzer:innen eine Übersicht all ihrer gebuchten Kurse und Lernressourcen. Dabei erscheinen nur die Kurse und Lernressourcen, die mit einer [Angebotsart](../learningresources/Access_configuration.de.md) verknüpft sind, z.B. mit einem Zugangscode, und die Benutzer:innen selbst gebucht haben. Buchen kann dabei als Synonym für "belegen", "einschreiben" oder "einkaufen" verstanden werden.
 
-Lernressourcen bei denen die Besitzer:innen die Teilnehmenden manuell eintragen oder die Lernende über eine Gruppe zugeordnet werden, erscheinen hier *nicht*. 
+Lernressourcen, bei denen die Besitzer:innen die Teilnehmenden manuell eintragen oder bei denen Teilnehmende über eine Gruppe zugeordnet werden, erscheinen hier *nicht*.
 
-![pers_menu_booking_orders2_v1_de.png](assets/pers_menu_booking_orders2_v1_de.png){ class="shadow lightbox }
+![Tabelle Meine Buchungsaufträge mit Buchungsnummer, Status, Angebotstyp, Inhalt und Auftragsdatum je Buchung, darüber die Tabs Buchungsaufträge und Rechnungsadressen](assets/pers_menu_booking_orders2_v1_de.png){ class="shadow lightbox" }
 
-Wählen Sie über das Zahnrad die Spalten aus, die Sie sehen möchten, z.B. den Angebotstyp (Code, frei verfügbar, PayPal) und den Titel des Angebots (= Inhalt). OpenOlat legt bei Buchung automatisch eine Buchungsnummer an, unter der diese Kursteilnahme verwaltet wird. Diese ist ebenfalls hier ersichtlich.
+Wählen Sie über das Zahnrad die Spalten aus, die Sie sehen möchten, z.B. den Angebotstyp ("Zugangscode", "Frei verfügbar", "Rechnung", PayPal), das Angebot und den Inhalt (die gebuchte Lernressource). OpenOlat legt bei jeder Buchung automatisch eine Buchungsnummer an, unter der dieser Buchungsauftrag verwaltet wird. Diese ist ebenfalls hier ersichtlich.
 
-Über das Icon rechts neben dem Zahnrad können Sie alle Buchungen downloaden. Des Weiteren können über das 3-Punkte-Menü die vorhandenen Infos zu einer konkreten Buchung gebündelt angezeigt werden.
-Sind für die einzelnen Buchungen Rechnungsadressen von den OpenOlat [Administrator:innen](../../manual_admin/administration/Modules_Organisations.de.md) hinterlegt, können diese im Reiter Rechnungsadressen ausgelesen werden. 
+Über das Download-Icon rechts neben dem Zahnrad laden Sie alle Buchungsaufträge als Tabelle herunter. Über das 3-Punkte-Menü einer Buchung zeigen Sie die Detailinformationen zu diesem Buchungsauftrag an.
 
-Die Möglichkeit zur Buchung erscheint ferner im [Katalog](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt), sofern das entsprechendes Angebot/die Lernressource dort veröffentlicht wurde.
+Ist die Angebotsart "Rechnung" eingeschaltet, erscheint zusätzlich der Tab "Rechnungsadressen". Dort sehen Sie die Rechnungsadressen, die für Ihre Buchungen hinterlegt sind. Rechnungsadressen von Organisationen pflegen [Administrator:innen](../../manual_admin/administration/Modules_Organisations.de.md).
 
+Die Möglichkeit zur Buchung erscheint ferner im [Katalog](../area_modules/catalog2.0_angebote.de.md#offers_create), sofern das entsprechende Angebot dort veröffentlicht wurde.
 
+## Weiterführende Informationen {: #further_information}
 
-## Weitere Informationen {: #further_information}
-
-[Angebotsart >](../learningresources/Access_configuration.de.md#status-der-veroffentlichung)<br>
-[Mitglieder zu Kursen hinzufügen >](../learningresources/Members_management.de.md#mitglieder-hinzufugen)<br>
-[Angebote im Katalog >](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
+[Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 [Zum Seitenanfang ^](#bookings)

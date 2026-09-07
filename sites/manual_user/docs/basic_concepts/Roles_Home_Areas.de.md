@@ -13,7 +13,7 @@ Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden B
 
 Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehlt ein Menüpunkt, ist das kein Fehler: Entweder ist das entsprechende Modul nicht aktiviert oder die dafür nötige Rolle wurde nicht zugewiesen.
 
-![roles_home_areas_v1_de.svg](assets/roles_home_areas_v1_de.svg){ class="shadow lightbox" }
+![Jede der fünf Rollen arbeitet in einem eigenen Bereich der Hauptnavigation, von Kurse bis Administration](assets/roles_home_areas_v1_de.svg){ class="shadow lightbox" }
 
 ---
 
@@ -22,7 +22,7 @@ Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehl
 | Wer | Arbeitsbereich | Typische Tätigkeiten |
 |---|---|---|
 | **Lernende**<br>Kursrolle Teilnehmer:in | [Kurse](../area_modules/Courses.de.md) | Kurse aufrufen und absolvieren, Favoriten verwalten, den eigenen Lernstand verfolgen |
-| **Betreuende**<br>Kursrolle Betreuer:in oder Besitzer:in, Gruppenbetreuer:in, Ausbildungsverantwortliche/r | [Coaching](../area_modules/Coaching.de.md) | betreute Personen, Kurse und Gruppen kursübergreifend begleiten, bewerten und verwalten |
+| **Betreuende**<br>Kursrolle Betreuer:in oder Besitzer:in, Gruppenbetreuer:in, Ausbildungsverantwortliche:r | [Coaching](../area_modules/Coaching.de.md) | betreute Personen, Kurse und Gruppen kursübergreifend begleiten, bewerten und verwalten |
 | **Kursersteller:innen**<br>Organisationsrolle Autor:in | [Autorenbereich](../area_modules/Authoring.de.md) | Kurse und weitere Lernressourcen erstellen, importieren und pflegen |
 | **Kursplanende**<br>Organisationsrolle Kursplaner:in | [Course Planner](../area_modules/Course_Planner.de.md) | Produkte, Durchführungen und Termine des Bildungsangebots planen und verwalten |
 | **Systemverantwortliche**<br>Rolle Systemadministrator:in | [Administration](../../manual_admin/administration/System.de.md) | die OpenOlat-Instanz technisch konfigurieren und überwachen |
@@ -54,7 +54,7 @@ Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit d
 | Rollenverwalter:in | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), mit dem Recht zur Vergabe von Rollen |
 | Gruppenverwalter:in | Menüpunkt "Gruppen", zusätzlicher Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md) |
 | Poolverwalter:in | [Fragenpool](../area_modules/Question_Bank.de.md), inklusive Bereich Administration |
-| Qualityverwalter:in | Menüpunkt [Qualitätsmanagement](../area_modules/Quality_Management.de.md) |
+| Qualitätsverwalter:in | Menüpunkt [Qualitätsmanagement](../area_modules/Quality_Management.de.md) |
 | Absenzenverwalter:in | Menüpunkt [Absenzenverwaltung](../area_modules/Absence_Management.de.md) |
 | Projektverwalter:in | Menüpunkt "Projekte", zusätzlicher Tab [Administration](../area_modules/Project_Admin.de.md) |
 | Lernressourcenverwalter:in | [Autorenbereich](../area_modules/Authoring.de.md), mit Besitzerrechten für die Kurse und Lernressourcen der eigenen Organisation |
@@ -69,9 +69,23 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](Roles.de.md)<br>
+[Kurse finden >](../area_modules/Courses.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[System >](../../manual_admin/administration/System.de.md)<br>
+[Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
+[Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
+[Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
+[Projekte - Administration >](../area_modules/Project_Admin.de.md)<br>
+[Bereiche und Module >](../area_modules/index.de.md)
+
+**Weiterführend**<br>
 [Rollen und Rechte: Übersicht >](Roles_Rights.de.md)<br>
-[Welche Rollen gibt es? >](Roles.de.md)<br>
-[Bereiche und Module >](../area_modules/index.de.md)<br>
 [Navigation >](Navigation.de.md)
 
 [zum Seitenanfang ^](#home_areas)

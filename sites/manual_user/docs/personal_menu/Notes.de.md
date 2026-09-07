@@ -1,8 +1,8 @@
 # Persönliche Werkzeuge: Notizen {: #notes}
 
-![pers_menu_notes_v3_de.png](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
+![Menü der persönlichen Werkzeuge mit dem Eintrag Notizen, der Sammelstelle für alle persönlichen Kursnotizen](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
 
-![icon_notes.png](assets/icon_notes.png)
+![Symbol Notizen](assets/icon_notes.png)
 
 
 
@@ -14,23 +14,27 @@ In OpenOlat können an verschiedenen Stellen Notizen gemacht werden:
 * Notizen in Projekten
 * Notizen in Tests
 
-In den persönlichen Werkzeugen finden Sie alle Notizen, die Sie **zu Ihren Kursen** gemacht haben. (Die Notizen zu Tests und Projekten sind hier nicht enthalten.) 
+In den persönlichen Werkzeugen finden Sie alle Notizen, die Sie **zu Ihren Kursen** gemacht haben. (Die Notizen zu Tests und Projekten sind hier nicht enthalten.)
+
+[Zum Seitenanfang ^](#notes)
+
+---
 
 
 ## Wo kann ich Notizen zu einem Kurs erstellen? {: #where_create}
 
 Notizen zu einem Kurs können Sie erstellen, wenn Sie in einem Kurs rechts oben das **Dropdown-Menü "Mein Kurs"** öffnen und dann die Option "Notizen" wählen. Hier können Sie kursspezifische Notizen eintragen, die nur Sie lesen können.
 
-![pers_menu_notes_open_v1_de.png](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
+![Geöffnetes Dropdown-Menü Mein Kurs in der Kurs-Toolbar mit markiertem Eintrag Notizen, darunter der Eintrag Bookmark](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
 
-Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht. 
+Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht.
 
-![pers_menu_notes_editor_v1_de.png](assets/pers_menu_notes_editor_v1_de.png){ class="shadow lightbox"}
+![Notizeditor in einem eigenen Fenster mit dem Titel Notizen und dem Kursnamen, Formatierungsleiste und Druck-Symbol in der Kopfzeile](assets/pers_menu_notes_editor_v1_de.png){ class="shadow lightbox"}
 
-!!! hint "Hinweis"
+!!! tip "Tipp"
 
     Auf Wunsch können Sie Ihr Notizblatt auch ausdrucken. Sie finden den Button in der Kopfzeile des Editors.
-    
+
     Vergessen Sie nicht zu speichern, wenn Sie den Editor verlassen. Scrollen Sie dazu zum Button am unteren Rand.
 
 [Zum Seitenanfang ^](#notes)
@@ -40,23 +44,20 @@ Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht.
 
 ## Wo kann ich die Notizen zu Kursen ansehen? {: #where_view}
 
-Die Notizblätter aus den verschiedenen Kursen können Sie **gesammelt in den persönlichen Werkzeugen** ansehen, bearbeiten, ausdrucken und löschen. 
-Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
+Die Notizblätter aus den verschiedenen Kursen können Sie **gesammelt in den persönlichen Werkzeugen** ansehen, bearbeiten, ausdrucken und löschen. Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
 
-![pers_menu_notes_list_v1_de.png](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
+![Liste Meine Notizen mit zwei Kursen und den Spalten Titel, Lernressource und Löschen; der Kurstitel ist der Link zum Notizblatt](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 
 [Zum Seitenanfang ^](#notes)
 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Unterbindung von Notizen im Prüfungsmodus >](../learningresources/Assessment_mode.de.md#was-versteht-man-unter-prufungsmodus)<br>
-[Unterschied zu Projekt-Notizen >](../area_modules/Project_Notes.de.md)<br>
-[Unterschied zu Notizen in Tests >](../learningresources/Configure_tests.de.md#expert)<br>
-[Notizen und Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md#daten-die-exportiert-werden-konnen)<br>
+[Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
+[Projekte - Notizen >](../area_modules/Project_Notes.de.md)<br>
+[Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>
+[Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
 
 [Zum Seitenanfang ^](#notes)
-
-

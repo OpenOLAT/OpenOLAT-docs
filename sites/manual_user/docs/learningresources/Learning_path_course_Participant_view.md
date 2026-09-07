@@ -1,61 +1,64 @@
-## Learning path course - Participant view
+# Learning path course - Participant view {: #participant_view}
 
-A learning path course also differs from a traditional course for learners.
-The biggest differences are in the progress indicator and the learning path
-area. Also, learning path courses do not display tool icons to students for orientation. The key areas are briefly highlighted below.
+A learning path course also differs from a conventional course for learners. The biggest differences are the progress display and the "Learning path" area. The key areas are briefly explained below.
 
-The visualized display and infos provide learners
-with a quick and continuous overview of their course progress and current
-completion status.
+The visualized display and the information provided give learners a quick and continuous overview of their course progress and current completion status.
 
-## Typical elements of a learning path course from the participants' point of view:
+## Typical elements of a learning path course from the learners' point of view {: #typical_elements}
 
-![Bereiche des Lernpfad Kurses Teilnehmerperspektive](assets/Lernpfad_Bereiche_19.png)
+![Four highlighted areas in the course view: progress bar in the course menu, link Learning path in the toolbar, progress graphic with 14 percent and the arrow navigation with the button Element done](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" }
 
+1. **Progress bar** in the course menu
 
-1.  **Progress bar** (learning path) in the course:  
+    Here learners see which course elements they have already accessed or completed and which course areas are not yet accessible. Green means done, yellow partially done and grey not accessible.
 
-Here the learners can see which elements they have already accessed or completed and also which course areas are not yet accessible. Whether the display is visible can be set by the course owner in the course administration in the tab "Layout". Green means completed, yellow means partially completed and gray means not accessible.
+    Whether the progress bar is visible in the course menu is defined by course owners under `Course > Administration > Settings`, tab "Layout", with the option "Display path in menu".
 
-Ob die Anzeige in der Kursnavigation sichtbar ist kann vom Kursbesitzer in den Einstellungen der Kursadministration im Tab "Layout"  mit "Pfad im Menü anzeigen eingestellt werden. 
+2. Link **"Learning path"** in the toolbar
 
-2. "Learning path" link in the toolbar:  
+    Here learners reach the overall overview of their completion status of all course elements with the columns Progress, Status, Execution, Learning time, Release date, Due date and Date done.
 
-Here, learners can access the **general overview** of their completion status of all course elements with additional feedback information such as progress, status, commitment, scheduled completion time, and any date information. 
+    Course owners and coaches see the completion status of *all* participants here and can make adjustments, for example switch the execution of a course element from mandatory to optional for individual participants.
 
-Course owners or coaches can see the progress of *all* course participant und sie können auch bestimmte Anpassungen vornehmen z.B. einzelne Kursbausteine für einen User von verbindlich auf freiwillig umstellen.  
- 
-![](assets/learning_path_overview.png)
+    ![Learning path overview of a participant with the course elements, her progress, status and the execution; an open dialog overrides the execution of a course element to Optional](assets/learning_path_overview.png){ class="shadow lightbox" }
 
-3. Visualized display of the **progress in percent**. 
+3. Visualized display of the **progress in percent**
 
-Here, learners can see what percentage of the mandatory course elements they have already completed. Als Grundlage für die Prozentanzeige wird entweder die Anzahl der bearbeiteten Kursbausteine oder die aufaddierte Zeitspanne der obligatorischen Kursbausteine verwendet. 
+    Here learners see what percentage of the mandatory course elements they have already completed. The basis is either the number of completed course elements or the added-up learning time of the mandatory course elements, see [Creating learning path courses](../learningresources/Creating_learning_path_courses.md).
 
-Sofern in der Kursadministration aktiviert (siehe Konfiguration im Menü "Einstellungen" → Tab
-"Bewertung"), werden hier auch die erreichten Gesamtpunkte des Users angezeigt.
+    If activated under `Course > Administration > Settings`, tab "Assessment", the graphic also displays the total score achieved.
 
-![Pozente und Punkte im Lernpfad](assets/Lernpfad_Prozent_Punkte.png)
+    ![Progress graphic with 17 percent and 3 points next to the menu My course in the course toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" }
 
-Werden im laufenden Kurs neue Bausteine hinzugefügt oder gelöscht, wird dies bei der Gesamtsumme berücksichtigt und der bisherige Prozentwert der Lernenden wird entsprechend neu berechnet.
+    If course elements are added or deleted in a running course, OpenOlat takes this into account in the total and recalculates the learners' previous percentage.
 
-4. **Arrow buttons** 
+4. **Arrow buttons**
 
-Mit den Pfeilen kann der User zum nächsten Kursbaustein navigieren und sich so durch den gesamten Kurs bzw. zum jeweils nächsten zugänglichen Kursabaustein bewegen. 
+    With the arrows, learners navigate to the next accessible course element and thus through the entire course.
 
-If certain requirements have to be met for the following course element that have not yet been met, e.g. confirmation by the user is missing or a test has not yet been completed und es erscheint eine entsprechende Meldung.   
+    If requirements for the following course element are not yet met, for example a missing confirmation or a test not yet taken, learners have no access to the next course element. OpenOlat displays a corresponding message.
 
-![Lernpfad Meldung wenn kein Zugang](assets/Lernfpad_Meldung_Zuganenglichkeit.png)
+    ![Message that the course element is not accessible due to a rule because the previous course element has not yet been completed, with the button Link to course element](assets/Lernfpad_Meldung_Zuganenglichkeit.png){ class="shadow lightbox" }
 
-Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation "**Als erledigt markieren**" und der User kann markieren, dass er den entsprechenden Kursbaustein bearbeitet hat. 
+    If "Confirmation by participant" is selected as the completion criterion, the button "Mark as done" appears next to the arrow navigation. With it learners confirm that they have worked on the course element.
 
+!!! note "Note"
 
-!!! note
+    An overview of the possible completion criteria can be found on the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md#completion_criterion).
 
-    An overview of possible confirmation criteria can be found [here](../learningresources/Learning_path_course_Course_editor.md).
+!!! tip "Tip"
 
+    Course owners can configure [reminders](../learningresources/Course_Reminders.md) so that OpenOlat sends them at a certain percentage of completion, for example to everyone who has completed less than 60 %.
 
-!!! tip 
+## Further information {: #further_information}
 
-    The coach can also configure [reminder e-mails](../learningresources/Course_Reminders.md) to be sent when a certain percentage has been completed, e.g. anyone who has completed less than 60% will be otivated once again to complete the remaining work in the course.
+**Mentioned on this page**<br>
+[Creating learning path courses >](../learningresources/Creating_learning_path_courses.md)<br>
+[Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
+[Course Reminders >](../learningresources/Course_Reminders.md)
 
+**Further reading**<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)
 
+[To the top of the page ^](#participant_view)

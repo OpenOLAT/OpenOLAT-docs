@@ -1,68 +1,77 @@
-# Lernpfad Kurse erstellen
+# Lernpfadkurse erstellen {: #creating_learning_path_courses}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Lernpfade einrichten](<https://www.youtube.com/embed/7TFx8877Uaw>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Lernpfade einrichten](<https://www.youtube.com/embed/7TFx8877Uaw>){:target="_blank"}
 
-Die Erstellung sowohl von herkömmlichen als auch von Lernpfad Kursen erfolgt
-im Autorenbereich unter "Meine Einträge" oder "Favoriten" -> Erstellen ->
-Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
+Herkömmliche Kurse und Lernpfadkurse erstellen Sie über `Autorenbereich > Erstellen > Kurs`. Im Dialog "Kurs erstellen" wählen Sie das Kursdesign: "Mit Lernpfad" oder "Mit Lernfortschritt" ergibt einen Lernpfadkurs, "Klassisch" einen herkömmlichen Kurs.
 
-Bereits existierende, herkömmliche Kurse können in Lernpfad Kurse umgewandelt
-werden. Einen entsprechenden Link findet man in der Kurs Administration und
-auch im Bereich ["Einstellungen"](../learningresources/Course_Settings.de.md) im Tab "Durchführung". Bei der Konvertierung kann ab :octicons-tag-24: Release 18.1.  auch der gewünschte Kurstyp für die Konvertierung "Mit Lernpfad" oder "Mit Lernfortschritt" ausgewählt werden. 
+## Herkömmliche Kurse umwandeln {: #convert_course}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank”}
+Bestehende herkömmliche Kurse lassen sich in Lernpfadkurse umwandeln. Die Aktion "Als Lernpfad duplizieren" finden Sie unter `Kurs > Administration` sowie unter `Kurs > Administration > Einstellungen` im Tab "Durchführung", Abschnitt "Zugriff Kursbausteine". Details zur Aktion finden Sie auf der Seite [Kurs-Administration: Übersicht](../learningresources/Administration.de.md#duplicate_as_learning_path). [:octicons-tag-16:{ title="ab Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967)
 
-![Link zur Konvertierung von herkömmlichen Kursen](assets/Kurs_umwandeln_Lernpad.png)
+Im Dialog "Kursdesign wählen" legen Sie fest, ob die Kopie das Kursdesign "Mit Lernpfad" (sequenzielle Reihenfolge) oder "Mit Lernfortschritt" (ohne fixe Reihenfolge) erhält. Mit "Duplizieren und konvertieren" starten Sie die Umwandlung. [:octicons-tag-16:{ title="ab Release 18.1 (OO-7035)" }](https://track.frentix.com/issue/OO-7035)
 
-Bei der Umwandlung wird eine Kopie des Kurses angelegt. Kurse die eine
-Portfolioaufgabe oder einen alten Fragebogen enthalten, können allerdings
-nicht umgewandelt werden. Hier müssen zunächst die entsprechenden
-Kursbausteine entfernt werden und dann die Umwandlung noch einmal gestartet
-werden.
+:octicons-device-camera-video-24: **Video-Einführung**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank"}
 
-!!! warning "Achtung"
+![Button zum Umwandeln eines herkömmlichen Kurses im Abschnitt Zugriff Kursbausteine, Tab Durchführung der Kurseinstellungen](assets/Kurs_umwandeln_Lernpad.png){ class="shadow lightbox" }
 
-    Eine Umwandlung eines Lernpfad Kurses in einen herkömmlichen Kurs ist nicht
-    möglich!
+Beim Umwandeln legt OpenOlat eine Kopie des Kurses an; der herkömmliche Kurs bleibt erhalten. Kurse mit Kursbausteinen, die in Lernpfadkursen nicht unterstützt werden, lassen sich nicht umwandeln. OpenOlat listet die betroffenen Kursbausteine im Dialog "Nicht unterstützte Kursbausteine" auf. Entfernen Sie diese Kursbausteine und starten Sie die Umwandlung erneut.
+
+!!! info "Wichtig"
+
+    Ein Lernpfadkurs lässt sich nicht in einen herkömmlichen Kurs umwandeln.
 
 ## Konfiguration zur Berechnung des Lernfortschritts
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Lernfortschritt berechnen](<https://www.youtube.com/embed/j8Yfkht2gQU>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Lernfortschritt berechnen](<https://www.youtube.com/embed/j8Yfkht2gQU>){:target="_blank"}
 
-Gehen Sie in die Kursadministration und wählen Sie die "Einstellungen". Im Tab
-"Durchführung" kann definiert werden wie der Lernfortschritt des Kurses
-berechnet wird. Der Kursfortschritt kann basierend auf der Anzahl der
-erfolgreich bearbeiteten obligatorischen Kursbausteine definiert werden.
-Alternativ kann jeder obligatorische Kursbaustein mit einer zu erwartenden
-Bearbeitungszeit versehen werden und der Fortschritt sich auf die bereits
-absolvierten Zeiteinheiten beziehen.
+Öffnen Sie `Kurs > Administration > Einstellungen`, Tab "Durchführung". Im Abschnitt "Zugriff Kursbausteine" legen Sie unter "Lernfortschritt berechnen" fest, wie OpenOlat den Lernfortschritt des Kurses berechnet:
 
-![Berechnungsgrundlage Lernfortschritt](assets/Access_Course_Elements.de.png)
- 
-Die Berechnungsgrundlage beeinflusst dann den für die Lernenden angezeigten
-Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" der Toolbar angezeigt
-wird.
+* **Anhand der Anzahl der obligatorischen Kursbausteine**: Jeder erledigte obligatorische Kursbaustein zählt gleich viel.
+* **Anhand der Bearbeitungszeit der obligatorischen Kursbausteine**: Jeder obligatorische Kursbaustein trägt im Kurseditor eine geschätzte Bearbeitungszeit. Der Fortschritt ergibt sich aus den bereits absolvierten Zeiteinheiten. Beim Wechsel auf diese Option fragt OpenOlat nach einem Initialwert, den es bei Kursbausteinen ohne Bearbeitungszeit einträgt.
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer?](<https://www.youtube.com/embed/VO7TyxN9EOA>){:target="_blank”}
+![Feld Lernfortschritt berechnen mit den Optionen Anhand der Anzahl und Anhand der Bearbeitungszeit der obligatorischen Kursbausteine, Abschnitt Zugriff Kursbausteine im Tab Durchführung](assets/Access_Course_Elements.de.png){ class="shadow lightbox" }
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank”}
+Die Berechnungsgrundlage bestimmt den Fortschritt, den die Lernenden in der Fortschrittsgrafik rechts oben in der Kurs-Toolbar und im Bereich "Lernpfad" sehen.
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer?](<https://www.youtube.com/embed/VO7TyxN9EOA>){:target="_blank"}
 
-Darüber hinaus kann in den "Einstellungen" im Tab "Bewertung" noch definiert werden, ob auch die Gesamtpunkte des Kurses in der Fortschrittsgrafikanzeige erscheinen sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen des Kurses berechnet wird.
-  
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank"}
 
-![Lerner Prozentfortschritt](assets/Prozentanzeige.png)
+Unter `Kurs > Administration > Einstellungen`, Tab "Bewertung", legen Sie zusätzlich fest, ob die Fortschrittsgrafik auch die Gesamtpunkte des Kurses anzeigt (Summe oder Durchschnitt) und ob und wie der Kurs als bestanden gilt. Mehr dazu unter [Kurseinstellungen, Tab Bewertung](../learningresources/Course_Settings.de.md#assessment).
 
-## Lernpfad Kurse kopieren
+![Fortschrittsgrafik in der Kurs-Toolbar mit 17 Prozent und 2 Punkten neben dem Menü Mein Kurs](assets/Prozentanzeige.png){ class="shadow lightbox" }
 
-Wie alle Lernressourcen können auch Lernpfad Kurse kopiert werden. Neu ist jedoch seit OpenOlat 16 die Möglichkeit einen Lernpfad mit Hilfe eines Wizards zu kopieren. Auf diesem Weg können weitere Detaileinstellungen vor dem Kopiervorgang vorgenommen werden, so dass eine spätere Überarbeitung entfällt. Folgende Dinge können eingestellt werden:
+## Lernpfadkurse kopieren {: #copy_learning_path_course}
 
-  * ob bei Änderung des Durchführungszeitraums alle Datumseinstellungen automatisch angepasst werden
-  * ob alle bisherigen Besitzer und Betreuer mitkopiert werden
-  * ob Gruppen mitkopiert werden
-  * ob Aufgabenstellungen und Musterlösungen kopiert werden
-  * ob Nutzungsbedingungen übernommen werden
-  * ob einzelne Kursbausteine obligatorisch oder freiwillig sind
-  * sowie weitere Datumsangaben zu den einzelnen Kursbausteinen
+Wie alle Lernressourcen lassen sich Lernpfadkurse kopieren. Zusätzlich steht unter `Kurs > Administration > Kopieren mit Wizard` ein Assistent zur Verfügung, mit dem Sie Detaileinstellungen vor dem Kopieren festlegen. So müssen Sie die Kopie nicht nachbearbeiten. Sie können festlegen:
 
-![Administration - Kopieren mit Wizard](assets/Copy_Learning_Path.de.wm.png)
+* ob bei einer Änderung des Durchführungszeitraums alle Datumseinstellungen automatisch angepasst werden
+* ob die bisherigen Besitzer:innen und Betreuer:innen mitkopiert werden
+* ob Gruppen mitkopiert werden
+* ob Aufgabenstellungen und Musterlösungen kopiert werden
+* ob Nutzungsbedingungen übernommen werden
+* ob einzelne Kursbausteine obligatorisch oder freiwillig sind
+* weitere Datumsangaben zu den einzelnen Kursbausteinen
+
+![Eintrag Kopieren mit Wizard im Menü Administration der Kurs-Toolbar, direkt unter dem Eintrag Kopieren](assets/Copy_Learning_Path.de.wm.png){ class="shadow lightbox" }
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+**Weiterführend**<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
+[Lernpfadkurs - Teilnehmeransicht >](../learningresources/Learning_path_course_Participant_view.de.md)<br>
+[Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)
+
+**youtube**<br>
+[Lernpfade einrichten](<https://www.youtube.com/embed/7TFx8877Uaw>)<br>
+[Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>)<br>
+[Lernfortschritt berechnen](<https://www.youtube.com/embed/j8Yfkht2gQU>)<br>
+[Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer?](<https://www.youtube.com/embed/VO7TyxN9EOA>)<br>
+[Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>)
+
+[Zum Seitenanfang ^](#creating_learning_path_courses)

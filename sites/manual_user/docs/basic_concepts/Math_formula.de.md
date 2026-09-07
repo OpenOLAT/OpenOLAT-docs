@@ -1,41 +1,51 @@
-# Matheformel {:#formula}
+# Matheformel {: #formula}
 
-Formeln können in OpenOlat an verschiedenen Stellen eingefügt werden. Verwendet wird dabei entweder der HTML-Editor oder Content-Editor. 
+Formeln können in OpenOlat an verschiedenen Stellen eingefügt werden. Verwendet wird dabei entweder der HTML-Editor oder der Content Editor.
 
 ## Einfügen einer Formel per HTML-Editor {: #insert_via_html}
 
-1. Man kann mathematische Formeln über `Einfügen> Mathematische Formel einfügen` im Kontextmenü des HTML-Editors oder direkt über den Formel-Button, falls aktiviert, hinzufügen.
+1. Fügen Sie die Formel über `Einfügen > Mathematische Formel einfügen` im Menü des HTML-Editors hinzu oder, falls aktiviert, direkt über den Formel-Button.
 
-    ![formel im html editor](assets/mathjax-html.de.jpg)
+    ![Menü Einfügen mit dem markierten Eintrag Mathematische Formel einfügen und dem Formel-Button in der Werkzeugleiste, HTML-Editor einer Testfrage](assets/mathjax-html.de.jpg){ class="shadow lightbox" }
 
-2. Geben Sie die Formel über den LaTeX-Editor oder den grafischen Formeleditor ein. Weitere Informationen zur Verwendung des grafischen Editors finden Sie hier: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
+2. Geben Sie die Formel im grafischen Editor oder im LaTeX-Feld ein. Weitere Informationen zur Verwendung des grafischen Editors finden Sie hier: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
 
-    ![formeleditor öffnen](assets/Formeleditor_16_de.png)
-  
-3. Schliessen Sie den HTML-Editor mit `Speichern` und die Formel ist nun eingebunden.
+    ![Eingabe im grafischen Editor oder im LaTeX-Feld mit Vorschau, darunter die Formeltastatur mit Zahlen, Operatoren und Funktionen, Dialog Formel](assets/Formeleditor_16_de.png){ class="shadow lightbox" }
 
-    ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
+3. Schliessen Sie den HTML-Editor mit "Speichern". Die Formel ist nun eingebunden.
+
+    ![Gesetzte Formel im Text, daneben der Formel-Button in der Werkzeugleiste, HTML-Editor](assets/mathjax-embedded.jpg){ class="shadow lightbox" }
 
 Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per HTML-Editor eingefügt werden:
 
-* Kursbaustein Einzelne Seite
-* Kursbaustein Aufgabe + Gruppenaufgabe (HTML)
-* Kursbaustein Forum
-* Lernressource CP-Lerninhalt
-* Lernressource Blog
-* Lernressource Test
+* Kursbaustein "HTML-Seite"
+* Kursbaustein "Aufgabe" und "Gruppenaufgabe" (HTML)
+* Kursbaustein "Forum"
+* Lernressource "CP-Lerninhalt"
+* Lernressource "Blog"
+* Lernressource "Test"
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Wortzählung bei Aufgaben: Die mathematische Formel zählt als ein Wort, unabhängig von Länge und Komplexität.
 
 ## Einfügen einer Formel per Content Editor im Portfolio 2.0 {: #insert_formula}
 
+1. Öffnen oder erstellen Sie einen Portfolio-Eintrag und öffnen Sie den Content Editor. Klicken Sie auf "Inhalt hinzufügen".
 
-1. Öffnen oder erstellen Sie einen Portfolio Eintrag und öffnen Sie den Inhaltseditor. Klicken Sie auf "Inhalt hinzufügen" und Sie erhalten u.a. die Möglichkeit den Formeleditor auszuwählen.
+    ![Auswahl der Inhaltstypen Titel, Paragraph, Tabelle, Mathematische Formel, Bild und Textabschnitt sowie der Bereiche Einbinden und Layout, Menü Inhalt hinzufügen im Content Editor](assets/mathjax-content-editor.de.jpg){ class="shadow lightbox" }
 
-    ![contenteditor-fragetyp](assets/mathjax-content-editor.de.jpg){class="shadow"}
+2. Wählen Sie "Mathematische Formel".
 
-2. Wählen Sie `Mathematische Formel`
+3. Der grafische Formeleditor öffnet sich. Erstellen Sie Ihre Formel.
 
-3. Der grafische Formeleditor öffnet sich. Jetzt können Sie Ihre Formel erstellen.  ![Formel im Portfolio erstellen](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
+    ![Formelblock mit einer eingegebenen Formel und der geöffneten Formeltastatur, Content Editor eines Portfolio-Eintrags](assets/Formeleditor_Portfolio_16_de.png){ class="shadow lightbox" }
+
+## Weiterführende Informationen {: #further_information}
+
+[CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
+[Content Editor >](Content_Editor.de.md)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Persönliche Werkzeuge: Portfolio >](../personal_menu/Portfolio.de.md)
+
+[Zum Seitenanfang ^](#formula)

@@ -1,26 +1,24 @@
 # Personal tools: Absences {: #pers_tools_absences}
 
-![pers_menu_absences_v3_de.png](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
+![Personal tools menu with the entry Absences, which shows the user's own events, absences, notices of absence, dispensations and appeals of all courses with absence management](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
 
-![icon_absences.png](assets/icon_absences.png){ class="shadow lightbox" }
+![Absences icon](assets/icon_absences.png){ class="shadow lightbox" }
 
+If the module Events and Absences is enabled, you see under "Absences" in the personal menu the courses in which absence management is used. All users can view their own absences there and, if permitted, edit them.
 
-When absence management is activated, the courses in which absence management is used are visible in the personal menu. All users can view and edit their own absences there, if permitted.
+Not only your personal absences in these courses (events) are displayed, but for the sake of clarity also all events that belong to the overall programme of the courses and would normally have to be attended.
 
-Not only are your personal absences from these courses (dates) displayed, but for the sake of clarity, all dates that are part of the overall course program and would normally be attended are also displayed.
+You are also shown notices of absence, dispensations and appeals.
 
-You will also be shown deregistrations, dispensations and appeals.
+The views are distributed over up to four tabs. The tabs "Notices / Dispensation" and "Appeals" only appear if administrators have enabled notices of absence or appeals respectively. Above the tabs, the button "Record new notice of absence" is shown if participants are allowed to notify an absence themselves (see tab Notices / Dispensation).
 
-The views can be accessed in 4 tabs. Each tab displays a button for unsubscribing on your own initiative.
-
-![pers_menu_absences_tabs_v1_de.png](assets/pers_menu_absences_tabs_v1_de.png){ class="shadow lightbox" }
-
+![The four tabs Daily overview, Events and Absences, Notices / Dispensation and Appeals, and at the top right the button Record new notice of absence, both highlighted](assets/pers_menu_absences_tabs_v1_de.png){ class="shadow lightbox" }
 
 ## Tab Daily overview {: #tab_overview}
-In the "Daily overview" tab, you can see the events and any absences for the current day. 
-To display a different day, select the desired day at the top right of the table.
 
-![pers_menu_absences_day_v2_de.png](assets/pers_menu_absences_day_v2_de.png){ class="shadow lightbox"}
+In the "Daily overview" tab, you see the events and any absences of the current day. To display a different day, select the desired day at the top right above the table.
+
+![Lessons of the selected day by time, course, event and location, at the top right the highlighted date selection with arrows to change the day, in the tab Daily overview](assets/pers_menu_absences_day_v2_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#pers_tools_absences)
 
@@ -28,10 +26,9 @@ To display a different day, select the desired day at the top right of the table
 
 ## Tab Events and Absences {: #tab_events_absences}
 
-Here you can find out how many events are recorded per course and how your attendance or absence per course is actually distributed. <br> The **progress** to date is also displayed. Green stands for attendance in a lesson, orange for "excused" and red for "unexcused absence".<br>
-In addition, further details can be displayed using the "**Details**" option. <br> A red exclamation mark appears in the **column with the warning triangle** if the attendance rate falls below the required minimum.
+Here you find out how many events are recorded per course and how your attendance or absence per course is actually distributed. The **progress** to date is also displayed. Green stands for attendance in a unit, orange for "excused", red for "unexcused absence" and grey for "dispensed". In addition, further details can be displayed using the "**Details**" option. A red exclamation mark appears in the **column with the warning triangle** if the attendance rate falls below the required minimum. Above the table you find the buttons "Print" and "Log".
 
-![pers_menu_absences_lectures_v2_de.png](assets/pers_menu_absences_lectures_v2_de.png){ class="shadow lightbox"}
+![One row per course with units, attended, not excused, authorized, dispensed, progress bar, warning column and presence rate, above it the buttons Print and Log, in the tab Events and Absences](assets/pers_menu_absences_lectures_v2_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#pers_tools_absences)
 
@@ -39,10 +36,9 @@ In addition, further details can be displayed using the "**Details**" option. <b
 
 ## Tab Notices / Dispensation {: #tab_notices_dispensation}
 
-Administrators can allow participants to unsubscribe themselves (under: Administration > Modules > Events/Absences). The "Log out" button will then appear in the top right corner. Otherwise, only the absences recorded by coaches will be displayed in this list. <br>
+Administrators can enable the option "Participants are allowed to notify an absence" in the system administration under `Administration > Modules > Events / Absences`, tab "Permissions". The button "Record new notice of absence" then appears at the top right, via which you notify your own absence from events. Otherwise, this list only shows the notices of absence and dispensations that teachers or absence managers have recorded for you.
 
-
-![pers_menu_absences_dispensation_v1_de.png](assets/Abmeldung_Dispense.jpg){ class="shadow lightbox"}
+![Recorded notices of absence and dispensations per course with units, teachers, date, from, to, reason and type, plus the display filter with All or Not excused, in the tab Notices / Dispensation](assets/Abmeldung_Dispense.jpg){ class="shadow lightbox"}
 
 [To the top of the page ^](#pers_tools_absences)
 
@@ -50,11 +46,11 @@ Administrators can allow participants to unsubscribe themselves (under: Administ
 
 ## Tab Appeals {: #tab_appeals}
 
-Your own appeals are listed here. Who else is allowed to view your appeals (lecturers, class teachers) is determined by the administrator.
+Your own appeals are listed here. Who else is allowed to view your appeals (teachers, master coaches) is determined by administrators.
 
-![pers_menu_absences_appeals_v2_de.png](assets/pers_menu_absences_appeals_v2_de.png){ class="shadow lightbox"}
+![Empty appeal list with the message that no appeal matches the criteria, at the top right the filter icon, in the tab Appeals](assets/pers_menu_absences_appeals_v2_de.png){ class="shadow lightbox"}
 
-If a participant disagrees with the recorded absence, an appeal can be lodged. Once the appointment has ended, a date will appear from which the appeal can be lodged. This is calculated from the end time of the appointment plus the number of days of the blocking period. As soon as a deadline has been set to "Completed" automatically (after the end of the blocking period) or manually by the lecturer (course coach), a new date appears by which the appeal can be submitted. Subsequently, "Closed" is displayed. The deadlines are stored system-wide in the administration. The appeal application is sent to the lecturers of the corresponding deadline. 
+If you disagree with a recorded absence, you can lodge an appeal. After the end of the event, the date from which the appeal is possible appears: the end time of the event plus the days of the auto-close period. As soon as the event has been set to "Closed" automatically (after the auto-close period has expired) or manually by the teachers, the date by which the appeal can be lodged appears (appeal period). Subsequently, "Closed" is displayed. Administrators set the auto-close period and the appeal period system-wide, in the system administration under `Administration > Modules > Events / Absences`, tab "Configuration". The appeal is sent to the teachers of the event.
 
 [To the top of the page ^](#pers_tools_absences)
 
@@ -62,13 +58,14 @@ If a participant disagrees with the recorded absence, an appeal can be lodged. O
 
 ## Further information {: #further_information}
 
-[Basic concept of events and absences >](../basic_concepts/Events_and_Absences.md)<br>
-[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuration of absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
-[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
-[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
-[Events and absences in the coaching tool >](../area_modules/Coaching_Events_Absences.md)<br>
-[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
-[Cross-course absence management by absence managers >](../area_modules/Absence_Management.md)<br>
+**Further reading**<br>
+[Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Events and absences (course) >](../learningresources/Events_and_absences.md)<br>
+[Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
+[Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Absence management >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#pers_tools_absences)

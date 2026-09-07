@@ -1,7 +1,7 @@
 # Toolbar: Events {: #toolbar_events}
 
 
-The "Events" icon is displayed automatically if events and absences have been activated in the course.<br>
+The "Events" icon is displayed automatically if events and absences are activated in the course.<br>
 `Course > Administration > Settings > Execution`
 
 It is then available to participants, coaches, and owners of the course. However, depending on the role and the associated rights, different options are displayed.
@@ -112,14 +112,16 @@ Technically speaking, runtime data is recorded in these two screens, in contrast
 
 ## Further information {: #further_information}
 
-[Toolbar overview >](../learningresources/Toolbar.md)<br>
+**Mentioned on this page**<br>
+[Events and absences (course administration) >](../learningresources/Events_and_absences.md)<br>
+[Absence management >](../area_modules/Absence_Management.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)
 
-[Basic concept: Events and absences >](../basic_concepts/Events_and_Absences.md)<br>
-[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md)<br>
-[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
-[Personal absences >](../personal_menu/Absences.md)<br>
-[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
-[Cross-course absence management by absence administrators >](../area_modules/Absence_Management.md)<br>
+**Further reading**<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)
 
 [To the top of the page ^](#toolbar_events)

@@ -1,8 +1,8 @@
 # Personal tools: Notes {: #notes}
 
-![pers_menu_notes_v3_de.png](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
+![Personal tools menu with the entry Notes, the collection point for all personal course notes](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
 
-![icon_notes.png](assets/icon_notes.png)
+![Notes icon](assets/icon_notes.png)
 
 
 
@@ -14,20 +14,24 @@ Notes can be made in various places in OpenOlat:
 * Notes in projects
 * Notes in tests
 
-In the personal tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here).
+In the personal tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here.)
+
+[To the top of the page ^](#notes)
+
+---
 
 
 ## Where can I create notes on a course? {: #where_create}
 
-You can create notes for a course by opening the **"My course"** drop-down menu in the top right-hand corner of a course and then selecting the "Notes” option. Here you can enter course-specific notes that only you can read.
+You can create notes on a course by opening the **"My course"** drop-down menu in the top right-hand corner of a course and then selecting the "Notes" option. Here you can enter course-specific notes that only you can read.
 
-![pers_menu_notes_open_v1_de.png](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
+![Opened drop-down menu My course in the course toolbar with the highlighted entry Notes, below it the entry Bookmark](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
 
 An editor opens in which one note sheet is available per course.
 
-![pers_menu_notes_editor_v1_de.png](assets/pers_menu_notes_editor_v1_de.png){ class="shadow lightbox"}
+![Note editor in a separate window with the title Notes and the course name, formatting toolbar and print icon in the header](assets/pers_menu_notes_editor_v1_de.png){ class="shadow lightbox"}
 
-!!! hint "Note"
+!!! tip "Tip"
 
     If you wish, you can also print out your note sheet. You will find the button in the header of the editor.
 
@@ -40,18 +44,20 @@ An editor opens in which one note sheet is available per course.
 
 ## Where can I view the course notes? {: #where_view}
 
-You can view, edit, print and delete the note sheets from the various courses **collected in the personal tools**. 
-To edit a note, click on the name of the course.
+You can view, edit, print and delete the note sheets from the various courses **collected in the personal tools**. To edit a note, click on the name of the course.
 
-![pers_menu_notes_list_v1_de.png](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
-
-## Further information {: #further_information}
-
-[Preventing notes in assessment mode >](../learningresources/Assessment_mode.md#what-is-meant-by-assessment-mode)<br>
-[Difference to project notes >](../area_modules/Project_Notes.md)<br>
-[Difference to notes in tests >](../learningresources/Configure_tests.md#expert)<br>
-[Notes and data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
+![List My notes with two courses and the columns Title, Learning resource and Delete; the course title is the link to the note sheet](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#notes)
 
+---
 
+
+## Further information {: #further_information}
+
+[Assessment mode >](../learningresources/Assessment_mode.md)<br>
+[Projects - Notes >](../area_modules/Project_Notes.md)<br>
+[Configure tests >](../learningresources/Configure_tests.md)<br>
+[Data protection >](../../manual_admin/usermanagement/Data_protection.md)
+
+[To the top of the page ^](#notes)

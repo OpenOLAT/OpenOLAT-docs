@@ -1,36 +1,39 @@
 # Personal tools: Subscriptions {: #subscriptions}
 
-![pers_menu_subscriptions_v3_de.png](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
+![Entry Subscriptions in the section Personal tools of the personal menu, selected with the mouse pointer](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
 
-![icon_subscriptions.png](assets/icon_subscriptions.png)
+![Icon Subscriptions](assets/icon_subscriptions.png)
+
+:octicons-device-camera-video-24: **Video introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
 
 Subscribe to certain elements in courses and groups to be informed quickly about changes.
 
-The following objects can be subscribed to: 
+The following objects can be subscribed to:
 
-  * Forum 
-  * Folder 
-  * Wiki 
-  * Calender
+  * Forum
+  * Folder
+  * Wiki
+  * Calendar
   * Task
-  * File discussion
-  * Portfolio
+  * File dialog
+  * Portfolio binders
   * Notifications
-  * Participant folders
+  * Participant folder
   * Blog
   * Podcast
-  * Video 
+  * Video
+  * Projects [:octicons-tag-16:{ title="from Release 18.0 (OO-6980)" }](https://track.frentix.com/issue/OO-6980)
 
 <br>
 
-## Abonnement einrichten {: #activate_abo}
+## Set up a subscription {: #activate_abo}
 
-If you click the bell icon in the upper-right corner of a course module that you have subscribed to, you will see an overview of the updates that have been made to that course module.
+If you click the bell icon in the upper-right corner of a subscribable course element, you see an overview of the updates that have been made in that course element.
 
-If you enable the subscription option in this pop-up window, you won’t have to manually click the bell icons for each course module you’re interested in; instead, you’ll automatically receive notifications about any updates to that course module.
+If you switch on "Subscribe" in this pop-up window, you automatically receive all notifications about updates in that course element. You then no longer have to check the bell icons of the individual course elements yourself.
 
-![pers_menu_subscriptions_activate_v1_de.png](assets/pers_menu_subscriptions_activate_v1_de.png){ class=" shadow lightbox" }
+![Bell icon in the course element Forum opens the pop-up Subscriptions with the toggle Subscribe, the periods Last 7 days, Last 4 weeks and Last 6 months, and the latest message](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#subscriptions)
 
@@ -41,43 +44,40 @@ If you enable the subscription option in this pop-up window, you won’t have to
 
 Under "Subscriptions" in the personal menu, you can view all your news in one place.
 
-On the overview page, in the **"News"** tab, you can display changes within a period of time and, if necessary, send the changes again by e-mail.
+On the overview page, in the **"News"** tab, you select the period under "Modifications since" and display the changes. With "Send news via e-mail" you also receive the list by e-mail.
 
-![subscriptions_news_v1_en.png](assets/subscriptions_news_v1_en.png){ class=" shadow lightbox" }
+![News tab with the date field Modifications since, the button Send news via e-mail and the latest changes per subscribed project](assets/subscriptions_news_v1_en.png){ class="shadow lightbox" }
 
-The total number of objects you have subscribed to is listed in the **"Subscriptions"** tab.
+All your subscriptions are listed in the **"Subscriptions"** tab. With the toggle in the "Status" column you suspend a subscription temporarily, with the trash icon you delete it.
 
-![subscriptions_subscriptions_v1_en.png](assets/subscriptions_subscriptions_v1_en.png){ class=" shadow lightbox" }
+![Subscriptions tab with a filter by area, the columns Area, Learning resource, Subscribed resource, Additional description and Status, and a toggle ON and a trash icon per row](assets/subscriptions_subscriptions_v1_en.png){ class="shadow lightbox" }
 
-You also have the option of using **RSS** to find out about the change process.
+You can also use **RSS** to keep informed about the changes (see below).
 
+How often you receive change notifications by e-mail, or whether you do not want to receive them at all, is set under:<br>
+`Personal menu > Settings > Tab "System" > General system settings > E-mail notification`
 
+If the **Portal** is activated, the change notifications are also displayed there under "My notifications".
 
-If you want to receive change notifications less frequently or more frequently by e-mail or do not want to receive the e-mail, you can adjust this under "**Settings - General system settings**" in the "**System**" tab.
+!!! note "Example: New test results"
 
-If the **Portal** is activated in the header menu, the change notifications can also be displayed there under "**My notifications**".
-
-!!! hint "Example: New test results"
-
-    Persons who have the right to use the **assessment tool** (e.g. coaches or course owners) can be notified when **new test results** have been received or **new users** have registered.
+    Persons with access to the **assessment tool** (e.g. coaches or course owners) can be notified when **new test results** have been received. User managers can be notified when **new users** have registered.
 
 [To the top of the page ^](#subscriptions)
 
 ---
 
 
-## Global subscriptions {: #global_subscriptions}
+## Global subscriptions [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6739)" }](https://track.frentix.com/issue/OO-6739) {: #global_subscriptions}
 
-If the global subscription for learning resources is activated, the status changes are clearly listed under the personal subscriptions in the News tab and are also listed in the collective e-mail notification for subscriptions.
+If the global subscription for learning resources is activated, the status changes of your learning resources are listed under the personal subscriptions in the "News" tab and are also included in the collective e-mail notification for subscriptions.
 
-The function is activated by default and applies to new course and learning resource owners. Owners can deactivate the subscription themselves.
-
-The global subscription can be activated retrospectively for all learning resources that were created before release 17.2.
+The function is activated by default and applies to owners of courses and learning resources. In the "Subscriptions" tab, owners switch the global subscription off or on again; it cannot be deleted.
 
 
-!!! hint "Example: Notification of status change of learning resources"
+!!! note "Example: Notification of status change of learning resources"
 
-    Owners of courses and learning resources sometimes need to be informed when the status of their resources is changed by other authors or - when using the automatic course lifecycle - by the system. This can be important, for example, if several responsible persons administer a course together or if the course is explicitly set to the status "Finished" or "Deleted".
+    Owners of courses and learning resources sometimes need to be informed when the status of their resources is changed by other authors or, when using the automatic course lifecycle, by the system. This can be important, for example, if several responsible persons administer a course together or if the course is explicitly set to the status "Finished" or "Deleted".
 
 [To the top of the page ^](#subscriptions)
 
@@ -86,9 +86,13 @@ The global subscription can be activated retrospectively for all learning resour
 
 ## Unsubscribe {: #unsubscribe}
 
-If you no longer want the subscription, you can either cancel it (in the same place as "Subscribe") or you can select the "Delete" option under "Subscriptions" after the resource.
+If you no longer want the subscription, you can unsubscribe in the same place as "Subscribe" or delete it in the "Subscriptions" tab with the trash icon.
 
-The subscription also expires if you are no longer a member of the corresponding course or module (direct member or member via group).
+The subscription also expires if you are no longer a member of the corresponding course or group (direct member or member via group).
+
+!!! note "Note"
+
+    All subscriptions of a person are displayed in **User management**. User managers can also delete them there.
 
 [To the top of the page ^](#subscriptions)
 
@@ -97,21 +101,20 @@ The subscription also expires if you are no longer a member of the corresponding
 
 ## News per RSS {: #rss}
 
-**Why should I know what RSS is?:**
+**Why should I know what RSS is?**
 
-Thanks to RSS, you are quickly and conveniently informed about changes in the forums and folders you have subscribed to. At a glance, you can see the headings of new posts and what has happened since your last visit. You will also receive the corresponding links to jump directly to the "place of action" in OpenOlat. All you need for this service is the Internet address of the RSS file provided for you and a so-called RSS reader.
+Thanks to RSS, you are quickly and conveniently informed about changes in the forums and folders you have subscribed to. At a glance, you can see the headings of new posts and what has happened since your last visit. You also receive the corresponding links to jump directly to the "place of action" in OpenOlat. All you need for this service is the Internet address of the RSS file provided for you and a so-called RSS reader.
 
- **Where can I find the address of the RSS file??:**
+**Where can I find the address of the RSS file?**
 
-Click on the icon ![](assets/icon_rss_small.png). A new browser window opens. Ignore the content of the page and copy the web address (URL) to the clipboard. Then paste the web address into your RSS reader.
+Open the "RSS news Feed" tab and click the link with the icon ![Icon RSS](assets/icon_rss_small.png). A new browser window opens. Ignore the content of the page and copy the web address (URL) to the clipboard. Then paste the web address into your RSS reader.
 
-![subscriptions_rss_v1_en.png](assets/subscriptions_rss_v1_en.png){ class=" shadow lightbox" }
+![RSS news Feed tab with the section Personal RSS Feed and the link OpenOlat news with the RSS icon](assets/subscriptions_rss_v1_en.png){ class="shadow lightbox" }
 
 
- **How to get an RSS reader?:**
+**How do I get an RSS reader?**
 
-We recommend the following search terms: _RSS reader_ , _RSS newsreader_ ,
-_feedreader_ to find a suitable RSS reader for you.
+We recommend the following search terms: _RSS reader_, _RSS newsreader_, _feedreader_ to find a suitable RSS reader for you.
 
 [To the top of the page ^](#subscriptions)
 
@@ -120,15 +123,11 @@ _feedreader_ to find a suitable RSS reader for you.
 
 ## Further information {: #further_information}
 
-[Wikipedia-Artikel zu RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
-[Kursbaustein Mitteilungen](../learningresources/Course_Element_Notifications.md)<br>
-[Abonnements auf der Startseite (Einrichtung durch Administrator:innen)](../../manual_admin/administration/Landing_pages.md)
+[Wikipedia article on RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
+[Course element "Notifications"](../learningresources/Course_Element_Notifications.md)<br>
+[Landing pages: set up subscriptions on the landing page (administration)](../../manual_admin/administration/Landing_pages.md)
 
-
-!!! info "Note"
-
-    All of a users subscriptions are displayed in **User management**. They can also be deleted there by user administrators.
-
+**youtube**<br>
+[Subscriptions (German)](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
 [To the top of the page ^](#subscriptions)
-

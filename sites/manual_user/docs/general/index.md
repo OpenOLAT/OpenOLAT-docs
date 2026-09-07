@@ -1,10 +1,10 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 ---
-# Manual
 
-![Logo: OpenOlat – infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png)
+# User manual
 
+![OpenOlat logo with the claim infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png)
 
 <div class="grid cards" markdown>
 
@@ -43,7 +43,7 @@
 
 	[:octicons-arrow-right-24: Assessment tool](../learningresources/Assessment_tool_overview.md)
 
-	[:octicons-arrow-right-24: Coaching module](../area_modules/Coaching.md)
+	[:octicons-arrow-right-24: Coaching](../area_modules/Coaching.md)
 
 
 -	:fontawesome-solid-cubes:{ .lg .middle }  __Manage courses__
@@ -52,7 +52,6 @@
 
 	[:octicons-arrow-right-24: General information](../learningresources/General_Information.md)
 
-	[:octicons-arrow-right-24: Course operation](../learningresources/Administration.md)	
-	
+	[:octicons-arrow-right-24: Course administration](../learningresources/Administration.md)
+
 </div>
-	

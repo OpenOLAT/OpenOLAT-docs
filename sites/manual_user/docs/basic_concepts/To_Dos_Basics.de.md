@@ -1,4 +1,4 @@
-# To-dos: Grundlagen
+# To-dos: Grundlagen {: #to_dos_basics}
 
 Ein To-do ist eine Aufgabe mit einer verantwortlichen Person und einem Termin. OpenOlat führt To-dos in mehreren Modulen, überall mit denselben Feldern, demselben Statusmodell und derselben Benachrichtigung. Diese Seite beschreibt, was für alle To-dos gilt. Wie Sie in einem Modul damit arbeiten, steht auf der Seite des Moduls.
 
@@ -73,3 +73,19 @@ To-dos lassen sich nur dort löschen, wo sie erstellt wurden.
 ## Benachrichtigungen
 
 Werden To-dos erstellt oder bearbeitet und sind andere Personen davon betroffen, benachrichtigt OpenOlat sie per E-Mail. Bei mehreren Änderungen in kurzer Zeit fasst OpenOlat sie in einer Mail zusammen.
+
+[Zum Seitenanfang ^](#to_dos_basics)
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
+[Projekte: To-dos >](../area_modules/Project_Todos.de.md)<br>
+[To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Course Planner: To-dos >](../area_modules/Course_Planner_Todos.de.md)<br>
+[Qualitätsmanagement: Massnahmen (To-dos) >](../area_modules/Quality_Management_To-dos.de.md)
+
+[Zum Seitenanfang ^](#to_dos_basics)

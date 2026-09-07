@@ -6,7 +6,7 @@
 In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 
 - einfache Termine (Einträge in Kalendern)
-- Termine mit Zusatzoptionen: Sie erscheinen in [Kursen ](../learningresources/Events_and_absences.de.md), im [Course Planer](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
+- Termine mit Zusatzoptionen: Sie erscheinen in [Kursen](../learningresources/Events_and_absences.de.md), im [Course Planner](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)<br>
 Termine mit Zusatzoptionen können den Status "Geplant", "Am laufen", "Erledigt" oder "Abgesagt" haben.<br>
 Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
@@ -23,7 +23,7 @@ Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 |[Termine im persönlichen Menü](../personal_menu/To-Dos.de.md)| x | x | 
 |[Termine in Kalendern](../personal_menu/Calendar.de.md#create_entry)| x |  | 
 |[Termine in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.de.md#tab_online-meetings)| x |  | 
-|[Termine in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
+|[Termine in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#closed_editor_configuration)| x |  | 
 
 
 [Zum Seitenanfang ^](#events_and_absences)
@@ -34,7 +34,7 @@ Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 
 Die Sichtbarkeit von Terminen hängt generell davon ab,
 
-- ob das Modul "Termine/Absenzen" in der Administration global aktiviert ist
+- ob das Modul "Termine / Absenzen" in der System-Administration global aktiviert ist
 - ob das Fokuselement "Termine" eingeblendet ist
 - ob es tatsächlich relevante Termine gibt
 - ob der Termin für die Rolle sichtbar sein soll 
@@ -49,12 +49,12 @@ Teilnehmer:innen erhalten eine Sicht auf ihre Termine in der **Toolbar** des Kur
 
 Auch auf den verschiedenen **Dashboards** der Betreuer:innen werden Termine angezeigt.
 
-Auf den Übersichtsseiten z.B. des Coaching-Tools und dem Course Planner stehen **Termin-Widgets** zur Verfügung.
+Auf den Übersichtsseiten, z.B. im Coaching und im Course Planner, stehen **Termin-Widgets** zur Verfügung.
 
 Welche Angaben eine Terminliste enthält, hängt vom Bereich ab:
 
 - Im **Course Planner** dient die Liste der Planung. Ein Absenzenmanagement gibt es dort nicht.
-- Im **Coaching-Tool** sehen Betreuer:innen die Termine aller ihrer Kurse und erfassen dort auch die Absenzen.
+- Im **Coaching** sehen Betreuer:innen die Termine aller ihrer Kurse und erfassen dort auch die Absenzen.
 - In der **Toolbar eines Kurses** sehen Teilnehmer:innen nur ihre eigenen Termine mit den für sie relevanten Angaben.
 
 [Zum Seitenanfang ^](#events_and_absences)
@@ -63,7 +63,7 @@ Welche Angaben eine Terminliste enthält, hängt vom Bereich ab:
 
 ### Welchen Status können Termine in OpenOlat haben? {: #event_status}
 
-Termine mit Zusatzoptionen (z.B. im Course Planner oder Coaching Tool) haben einen der folgenden Status-Werte:
+Termine mit Zusatzoptionen (z.B. im Course Planner oder im Coaching) haben einen der folgenden Status-Werte:
 
 - Geplant
 - Am laufen
@@ -107,7 +107,7 @@ Aus den erfassten Absenzen wird eine **Anwesenheitsrate** berechnet. Durch Abgle
 
 ### Abmeldungen {: #abcenses_cancellations}
 
-Es kann den Teilnehmer:innen erlaubt werden, dass sie sich im [persönlichen Menü](../personal_menu/Absences.de.md#tab-abmeldung-dispense) im Voraus abmelden.
+Es kann den Teilnehmer:innen erlaubt werden, dass sie sich im [persönlichen Menü](../personal_menu/Absences.de.md#tab_notices_dispensation) im Voraus abmelden.
 
 ### Entschuldigte Absenzen {: #excused_absences}
 
@@ -131,7 +131,7 @@ Teilnehmer:innen haben die Möglichkeit, gegen eine von Betreuer:innen z.B. verm
 Es ist zu unterscheiden zwischen 
 
 1. der **generellen Aktivierung und Konfiguration** des Absenzenmanagements durch Administrator:innen in der System-Administration unter:<br>
-   `Administration > Module > Termine und Absenzen`<br>
+   `Administration > Module > Termine / Absenzen`<br>
    [Mehr dazu >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)
 
 
@@ -156,9 +156,9 @@ Es ist zu unterscheiden zwischen
     [Mehr dazu >](../personal_menu/Absences.de.md)
 
 
-6.  der **kursübergreifenden Absenzenerfassung** durch Coaches<br>
-    Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Coaches im <br>
-    `Coachingtool > Button "Termine/Absenzen"`<br>
+6. der **kursübergreifenden Absenzenerfassung** durch Betreuer:innen<br>
+    Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Betreuer:innen unter:<br>
+    `Coaching > Termine / Absenzen`<br>
     [Mehr dazu >](../area_modules/Coaching.de.md)
 
 
@@ -175,13 +175,22 @@ Es ist zu unterscheiden zwischen
 
 ## Weiterführende Informationen {: #further_information}
 
-[Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
-[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
+[Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
+[Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
+[Projekte - Terminplan >](../area_modules/Project_Schedule.de.md)<br>
+[Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
+[Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
+[Modul BigBlueButton >](../../manual_admin/administration/BigBlueButton_module.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
+[Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
+[Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)
 
 [Zum Seitenanfang ^](#events_and_absences)
 

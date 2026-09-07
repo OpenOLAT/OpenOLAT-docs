@@ -1,33 +1,38 @@
-# Videos im Kursbaustein "HTML-Seite"
+# Videos im Kursbaustein "HTML-Seite" {: #video_html_page}
 
-![video.png](assets/add_video.png)
+![Symbol Video hinzufügen / editieren](assets/add_video.png)
 
-Videos, die in den Kursbaustein "HTML-Seite " eingebunden werden, sind **direkt eingebundene** Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
+Videos, die in den Kursbaustein "HTML-Seite" eingebunden werden, sind **direkt eingebundene** Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
 
-Es können in die OpenOlat-Datenbank **hochgeladene** Videos sein oder **Links**, z.B. auf Youtube-Videos.<br> 
-(Bei Videos in HTML-Seiten handelt sich also nicht um Video-Lernressourcen, d.h. sie sind ohne Annotationen, Quiz, usw.)
+Es können in die OpenOlat-Datenbank **hochgeladene** Videos sein oder **Links**, z.B. auf YouTube-Videos.<br>
+(Bei Videos in HTML-Seiten handelt es sich also nicht um Video-Lernressourcen, d.h. sie sind ohne Annotationen, Quiz, usw.)
 
 Die direkt eingebundenen Videos im Kursbaustein "HTML-Seite" sind **im Ablageordner des Kurses abgelegt**. Von dort werden sie in den Kursbaustein verlinkt. So eingebettete Videos stehen nur im jeweiligen Kurs zur Verfügung.
 
 
-##  Anzeige der Videos in einer HTML-Seite
+## Anzeige der Videos in einer HTML-Seite
 
-Für die Anzeige greift das Tool auf den in OpenOlat integrierten **Mediaplayer** zurück, was einige Vorteile hat.  
+Für die Anzeige greift das Tool auf den in OpenOlat integrierten **Mediaplayer** zurück, was einige Vorteile hat.
 
-1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.  
-2. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreift. In dem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.  
+1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.
+2. Der Player erkennt, ob Benutzer:innen mit einem HTML5-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreifen. In dem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.
 
 OpenOlat unterstützt neben mp4 auch HTML5-Videos, welche in einer HTML-Seite mit externen Werkzeugen eingebunden wurden. In diesem Fall müssen Sie als Autor:in selbst dafür sorgen, dass in den HTML-Tags verschiedene alternative Videoformate angegeben wurden (z.B. m4v und ogg) und dass diese allenfalls auch in unterschiedlichen Auflösungen in OpenOlat abgelegt werden.
 
-OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Download bzw. Range-Requests.  
+OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Download bzw. Range-Requests.
+
+### Freigegebene Medien-Server [:octicons-tag-16:{ title="ab Release 19.1 (OO-7955)" }](https://track.frentix.com/issue/OO-7955) {: #media_server}
+
+Welche externen Videoplattformen OpenOlat per Link einbetten darf, legen Administrator:innen in der System-Administration fest: `Administration > Login > Sicherheit`, Tab "Medien-Server". Ein Video von einer nicht freigegebenen Domäne wird in der HTML-Seite nicht abgespielt. An seiner Stelle erscheint die Meldung "Die Medienressource stammt aus einer eingeschränkten Domäne." Details finden Sie im Administrationshandbuch unter [Sicherheit](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver).
 
 
-
-##  Video hinzufügen / editieren
+## Video hinzufügen / editieren
 
 Im Kursbaustein "HTML-Seite" steht Ihnen ein HTML-Editor zur Verfügung, über den Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt" können Sie den Editor öffnen und gelangen zum Button "Video hinzufügen / editieren".
 
-![video_button.png](assets/video_button.png){ class=" shadow lightbox" }  
+![Button Video hinzufügen / editieren mit Tooltip zu den unterstützten Formaten FLV, MP4 und AAC, Symbolleiste des HTML-Editors im Kursbaustein HTML-Seite](assets/video_button.png){ class="shadow lightbox" }
+
+Im Dialog wählen Sie unter "Typ" die Art der Einbindung. Unter "Adresse" geben Sie den Link zum Video ein oder laden eine Datei hoch. Unter "Grösse" legen Sie Breite und Höhe des Players in Pixeln fest.
 
 !!! tip "Tipp"
 
@@ -43,82 +48,80 @@ In der Praxis hat sich der **mp4** (oder MPEG-4) Container mit dem H.264 Video-C
 
 Die folgenden Optionen stehen Ihnen zur Verfügung:
 
-![video_typen.png](assets/Video_Audio_Typen_DE.png){ class=" shadow lightbox" }
+![Auswahlliste Typ mit den sieben Einträgen Video, Musik, YouTube, Vimeo, Nanoo.tv, http (pseudo) Streamingserver und rtmp Streamingserver, Dialog Video hinzufügen / editieren](assets/Video_Audio_Typen_DE.png){ class="shadow lightbox" }
 
-| Option |  Beschreibung  |
----|---  
-Video | Einbindung eines Videos mit spezifischer Codierung.  
-Musik | Einbindung eines Audio-Files ohne Video.  
-YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube / Vimeo / Nanoo.tv - Videos  
-http | Streaming mit Flash-Datei von einem Webserver.  
-rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server.  
-  
+| Option | Beschreibung |
+|---|---|
+| Video | Einbindung eines Videos mit spezifischer Codierung. |
+| Musik | Einbindung einer Audiodatei ohne Video. |
+| YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube-, Vimeo- oder Nanoo.tv-Videos. |
+| http | Streaming mit Flash-Datei von einem Webserver. |
+| rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server. |
+
 #### Video (.FLV, .F4V, .MP4 und .M4V - h264 kodiert, .AAC sowie .M4A)
 
-Diese Einstellung eignet sich für die Integration von Videos auf OpenOlat am Besten. Als Container-Formate, d.h. die Formate die hochgeladen werden können, eignen sich die folgenden Kennzeichnungen:
+Diese Einstellung eignet sich für die Integration von Videos auf OpenOlat am besten. Als Container-Formate, d.h. die Formate, die hochgeladen werden können, eignen sich die folgenden Kennzeichnungen:
 
-| Format Container | Bezeichnung des Containers | Beschreibung  |
-| ---|---|---  |
-| .FLV | Flash Container | Flash-Videos mit Video und Audio, von Adobe definiert (Achtung: Flash Player
-muss aktiviert sein)  
-  .F4V | | Kein Container, sondern reines Video-Format ohne Audio, von Adobe definiert  
-  .MP4| MPEG-4|MP4 Video- und Audioformat, von MPEG-Verbund definiert, verschiedene Codecs  
-  .M4V|MPEG-4|MP4 Videoformat mit H.264 Videocodec und MP3 oder AAC Audiocodec; Format für iTunes  
-  
+| Format Container | Bezeichnung des Containers | Beschreibung |
+|---|---|---|
+| .FLV | Flash Container | Flash-Videos mit Video und Audio, von Adobe definiert (Achtung: Flash Player muss aktiviert sein) |
+| .F4V | | Kein Container, sondern reines Video-Format ohne Audio, von Adobe definiert |
+| .MP4 | MPEG-4 | MP4 Video- und Audioformat, von MPEG-Verbund definiert, verschiedene Codecs |
+| .M4V | MPEG-4 | MP4 Videoformat mit H.264 Videocodec und MP3 oder AAC Audiocodec; Format für iTunes |
+
 In das Adressfeld können Sie entweder den Link auf das Video direkt eingeben oder die Datei entsprechend hochladen.
 
 !!! tip "Tipp"
 
-    Um optimale Kompatibilität sicherzustellen sollte ein MPEG-4 Container mit H.264 Kodierung für Video und AAC oder MP3 Kodierung für Audio verwendet werden. 
-    
-    Als Dateiendung stehen somit .mp4 oder .m4v zur Verfügung, wobei .m4v nicht von allen Geräten abgespielt werden kann. 
-    
-    Von Flash Filmen wird abgeraten, da diese auf vielen mobilen Geräten wie z.B. das iPad grundsätzlich nicht abspielbar sind.
+    Um optimale Kompatibilität sicherzustellen, sollte ein MPEG-4 Container mit H.264 Kodierung für Video und AAC oder MP3 Kodierung für Audio verwendet werden.
+
+    Als Dateiendung stehen somit .mp4 oder .m4v zur Verfügung, wobei .m4v nicht von allen Geräten abgespielt werden kann.
+
+    Von Flash Filmen wird abgeraten, da diese auf vielen mobilen Geräten wie z.B. dem iPad grundsätzlich nicht abspielbar sind.
 
 
-
-#### YouTube  
+#### YouTube
 
 YouTube Videos werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
 
-![einbinden_youtube.png](assets/youtube_embed_DE.png){ class=" shadow lightbox" }   
+![Typ YouTube mit einem youtu.be-Link im Feld Adresse, Startbild logo.png unter Vorschau und Grösse 400 mal 300 Pixel, Dialog Video hinzufügen / editieren](assets/youtube_embed_DE.png){ class="shadow lightbox" }
 
 Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter dem Link "**Teilen**".
 
-![teilen_youtube.png](assets/youtube_share.png){ class=" shadow lightbox" } 
+![Kurzlink youtu.be im Tab Teilen eines YouTube-Videos, darunter die Option Start um für eine Startzeit](assets/youtube_share.png){ class="shadow lightbox" }
 
-#### Vimeo  
+#### Vimeo
 
 Vimeo Videos werden in OpenOlat ebenfalls direkt verlinkt. Unter "Adresse" geben Sie den Link des gewünschten Videos ein.
 
-![einbinden_vimeo.png](assets/vimeo_embed_DE.png){ class=" shadow lightbox" }   
+![Typ Vimeo mit einem vimeo.com-Link im Feld Adresse und Videovorschau, Dialog Video hinzufügen / editieren](assets/vimeo_embed_DE.png){ class="shadow lightbox" }
 
-Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".  
+Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".
 
-![teilen_vimeo.png](assets/vimeo_share_DE.png){ class=" shadow lightbox" } 
+![Feld Link mit der Videoadresse im Vimeo-Dialog Dieses Video teilen, daneben Sozial, E-Mail hinzufügen und Einbetten](assets/vimeo_share_DE.png){ class="shadow lightbox" }
 
 #### Nanoo.tv
 
 Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-Account notwendig.
 
-![nanootv.png](assets/Nanoo_tv_DE.png){ class=" shadow lightbox" } 
+![Typ Nanoo.tv mit einem nanoo.tv/link/n-Link im Feld Adresse, Grösse 384 mal 216 Pixel und Videovorschau, Tab Allgemein im Dialog Video hinzufügen / editieren](assets/Nanoo_tv_DE.png){ class="shadow lightbox" }
 
-Über die URL kann - unabhängig vom Browser - gesteuert werden, ob das Video sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/ entsprechend angepasst werden.
+Über die URL kann unabhängig vom Browser gesteuert werden, ob das Video sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/ entsprechend angepasst werden.
 
-  * automatisch starten mit "n": https://www.nanoo.tv/link/ **n** /sdxpLoaC
-  * manuell starten mit "v": https://www.nanoo.tv/link/ **v** /sdxpLoaC
+* automatisch starten mit "n": https://www.nanoo.tv/link/ **n** /sdxpLoaC
+* manuell starten mit "v": https://www.nanoo.tv/link/ **v** /sdxpLoaC
 
 Die Einstellungen im Tab "Erweitert" funktionieren hier nicht.
 
-##### http (pseudo) Streamingserver (nur .FLV)
+#### http (pseudo) Streamingserver (nur .FLV)
 
-Mit dieser Funktion können **Flash-Filme** im Format **.flv** integriert werden. Wenn die Filme am Ursprungsort richtig exportiert werden, enthalten sie eine Indexierung. Mit Hilfe dieses Inhaltsverzeichnisses kann man auch innerhalb des Films schnell an eine beliebige Stelle springen, der Film muss nicht erst komplett geladen werden. Es handelt sich dabei nicht um ein richtiges Streaming, bei diesem muss auch auf dem Server eine entsprechende Streaming- Software installiert sein muss.
+Mit dieser Funktion können **Flash-Filme** im Format **.flv** integriert werden. Wenn die Filme am Ursprungsort richtig exportiert werden, enthalten sie eine Indexierung. Mit Hilfe dieses Inhaltsverzeichnisses kann man auch innerhalb des Films schnell an eine beliebige Stelle springen, der Film muss nicht erst komplett geladen werden. Es handelt sich dabei nicht um ein richtiges Streaming, bei diesem muss auch auf dem Server eine entsprechende Streaming-Software installiert sein.
 
 In das Feld "Streamingserver" muss die Adresse des Servers eingegeben werden. Unter "Adresse" wird die Adresse des eigentlichen Films eingegeben.
 
 !!! warning "Achtung"
 
-    Da mit dieser Variante der Einbettung die Inhalte nicht auf dem iPad und den meisten anderen mobilen Geräten angesehen werden können wird dieses Vorgehen **nicht empfohlen**.
+    Da mit dieser Variante der Einbettung die Inhalte nicht auf dem iPad und den meisten anderen mobilen Geräten angesehen werden können, wird dieses Vorgehen **nicht empfohlen**.
 
 #### rtmp Streamingserver
 
@@ -128,8 +131,15 @@ Dieses von Adobe entwickelte Protokoll ermöglicht die Übertragung des Videos v
 
 !!! warning "Achtung"
 
-    Da mit dieser Variante der Einbettung die Inhalte nicht auf dem iPad und den meisten anderen mobilen Geräten angesehen werden können wird dieses Vorgehen **nicht empfohlen**.
+    Da mit dieser Variante der Einbettung die Inhalte nicht auf dem iPad und den meisten anderen mobilen Geräten angesehen werden können, wird dieses Vorgehen **nicht empfohlen**.
 
     Da Flash von den meisten Browsern nicht mehr oder nur sehr eingeschränkt unterstützt wird, sollte generell auf den Einsatz von flashbasierten Videos verzichtet werden.
 
 
+## Weiterführende Informationen {: #further_information}
+
+[Video: Übersicht >](Video.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
+[Nanoo.tv >](https://portal.nanoo.tv/)
+
+[Zum Seitenanfang ^](#video_html_page)

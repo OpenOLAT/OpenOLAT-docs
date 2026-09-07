@@ -4,8 +4,8 @@
 
 # Benutzerhandbuch
 
-![Logo: OpenOlat – infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png)
-	
+![OpenOlat-Logo mit dem Claim infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png)
+
 <div class="grid cards" markdown>
 
 -	:fontawesome-solid-rocket:{ .lg .middle }  __Los gehts__
@@ -43,7 +43,7 @@
 
 	[:octicons-arrow-right-24: Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
 
-	[:octicons-arrow-right-24: Coaching Modul](../area_modules/Coaching.de.md)
+	[:octicons-arrow-right-24: Coaching](../area_modules/Coaching.de.md)
 
 
 -	:fontawesome-solid-cubes:{ .lg .middle }  __Kurse verwalten__
@@ -52,7 +52,6 @@
 
 	[:octicons-arrow-right-24: Allgemeines](../learningresources/General_Information.de.md)
 
-	[:octicons-arrow-right-24: Kursbetrieb](../learningresources/Administration.de.md)	
-	
+	[:octicons-arrow-right-24: Kurs-Administration](../learningresources/Administration.de.md)
+
 </div>
-	

@@ -1,41 +1,32 @@
-# Course editor tools
+# Course editor tools {: #course_editor_tools}
 
-In the course editor menu you have access to further configuration tools in the toolbar.  Here you can insert and import course elements and display the current status with any problems. 
+In the course editor menu you have access to further configuration tools in the toolbar. Here you can insert and import course elements and display the current status with any problems.
 
-![Course editor toolbar](assets/Menu_Kurseditor19_en.png)
+![Six editor tools in the course editor toolbar, the status shows the number of open configuration problems as a number](assets/Menu_Kurseditor19_en.png){ class="shadow lightbox" }
 
 ## Administration
 
-Here you have access to various other course tools. You will find information
-on the separate pages of the tools. More information you will find [here](../learningresources/Using_additional_Course_Editor_Tools.md).
+Via the course administration you have access to various other course tools. You will find information under "[Course Administration](../learningresources/Administration.md)".
 
+## Insert course element
 
-## Insert course elements
-
-Here you have access to all [course elements](Course_Elements.md)
-that you can integrate into a course. Simply select and add to the course. Further information can be found [here](../learningresources/General_Configuration_of_Course_Elements.md). 
+Here you have access to all [course elements](Course_Elements.md) that you can integrate into a course. Simply select and add to the course. Further information can be found under "[Elements](../learningresources/General_Configuration_of_Course_Elements.md)".
 
 ## Quick-Add
 
-Depending on the size of your screen window, the "Quick Add" function may also be available. This allows you to simply enter the name of the desired course element in the field and add the element even faster. 
+Depending on the size of your screen window, the "Quick-Add" function may also be available. This allows you to simply enter the name of the desired course element in the field and add the element even faster.
 
 ## Import course elements
 
-Here you can import course elements from other courses using a wizard. 
+Here you can import course elements from other courses using a wizard.
 
-Select a course that you own and choose one or more course modules from that course. In some cases, you can also make further configurations to the selected modules. Finally, select "Finish" and the desired course modules will be added to the current course. 
-
+Select a course that you own and choose one or more course elements from that course. In some cases, you can also make further configurations to the selected elements. Finally, select "Finish" and the desired course elements will be added to the current course.
 
 ## Status
 
-Here you can see if there are problems when configuring course elements. Click
-on the number indicated and the corresponding problems will be displayed and
-can be solved. The legend also indicates what kind of problem it is.
+Here you can see if there are problems when configuring course elements. Click on the number indicated and the corresponding problems will be displayed. Follow the links to solve the problems. The legend below also indicates what kind of problem it is.
 
-Possible configuration problems will additionally be displayed in the course
-navigation.  
-
-![status problem course editor](assets/Status_19_en.jpg)
+![Status window with two incomplete course elements, the date of the last publication and the legend of the status symbols](assets/Status_19_en.jpg){ class="shadow lightbox" }
 
 Any configuration problems are also displayed in the course navigation for the corresponding course elements.
 
@@ -45,86 +36,76 @@ Any configuration problems are also displayed in the course navigation for the c
 
 ## Course preview (only for conventional courses) {: #preview}
 
-The editor tool "Course preview" enables you to see course settings and
-content from the course participant's point of view. By clicking on "Course
-preview" you will first get to the configuration menu to simulate your course
-at a certain point in time, as member of a distinct group, or with other
-attributes used in your course.
+The editor tool "Course preview" enables you to see course settings and content from the participants' point of view. By clicking on "Course preview" you will first get to a configuration menu to simulate entering the course at a certain date, as a participant of a certain group, or with other attributes used in your course.
 
-In contrast to the view of the course content you will see all modifications
-or course elements not yet published in the course preview. Features depending
-on an interaction between participant and system will not be available in the
-course preview, e.g. enrolling in groups, starting a test, self-test or questionnaire, and performing tasks in the course element "Task."
+In contrast to the view of the course content, the course preview also shows all course elements and modifications not yet published. Features that depend on an interaction between participants and the system are not available in the course preview. This includes enrolling in groups, starting tests, self-tests and surveys, and submitting solutions in the course element "Task".
 
+### Configuration of the course preview
 
-### More information on configuring the course preview:
+In this form you can define the conditions that apply to the course preview.
 
-By means of this form you can define the conditions of the course's preview.  
-  
-**Date**: This field is mandatory. Please enter date or time you want the
-course preview to be displayed. The current date and time is pre-set.  
-  
-**Group**: Select the name(s) of one or more groups to view the course from the perspective of the members of that group. 
-  
-**Learning area**: Please enter the name of a learning area in order to make
-this course available for members of this learning area.  
-  
-**Role**: Please select to whom this preview should be accessible.
+**Date**: This field is mandatory. Enter the date and time at which the course preview should be displayed. The current date and time are pre-set.
 
-  *  _«Registered OLAT users»_ : This is how the course is presented to a regular OLAT user (e.g. student).
-  *  _«Guests»_ : This is how the course is presented to a guest user (who log in without an OpenOlat account), if this course is available for guests at all.
-  *  _«Tutors»_ : This is how the course is presented to a tutor of any learning group during this course.
-  *  _«Course owners»_ : This is how the course is presented to course owners (course administrators).
-  *  _«OLAT authors»_ : This is how the course is presented to users with OLAT author rights.
+**Groups**: Select the name(s) of one or more groups to view the course from the perspective of the members of these groups.
 
- **Attributes**: By means of these fields you can enter up to five AAI attribute
-names with their relevant values. By means of this preview, this course is
-presented in the way a user with these AAI attributes would see it.  
-  
-**Example**:  
-Attribute name: swissEduPersonStudyBranch3  
-Attribute value: 4600  
-This is how the course is presented to Chemistry students.  
-  
-The course preview is useful, for example, to view a course from the participant's perspective before it starts or to check certain visibility
-rules.
+**Learning areas**: Enter the name of a learning area to view the course from the perspective of the members of this learning area.
 
-For more information:  
-[AAI attributes ](Access_Restrictions_in_the_Expert_Mode.md)  
-[__ General information on AAI](http://www.switch.ch/aai/)
+**Role**: Select the role for which the preview should be displayed.
 
-!!! info "Note"
+* "Registered OLAT users": Shows the course as it is presented to persons with the role "User" (usually participants).
+* "Guests": Shows the course as it is presented to a guest (persons who log in without an OpenOlat account), provided the course is available for guests.
+* "Tutors": Shows the course as it is presented to a coach of any group in the course.
+* "Course owners": Shows the course as it is presented to the owners of the course.
+* "OLAT authors": Shows the course as it is presented to persons with the role "Author".
 
-    However, this preview is usually no longer necessary, as you can simply select “Participant view” when the course editor is closed. This method is also suitable for learning path courses.
+**Attributes**: In these fields you can enter up to five AAI attribute names with their corresponding values. The preview shows the course as it is presented to a user with these AAI attributes.
 
+**Example**:<br>
+Attribute name: swissEduPersonStudyBranch3<br>
+Attribute value: 4600<br>
+This entry shows the course as it is presented to Chemistry students.
+
+The course preview is useful, for example, to view a course from the participants' perspective before it starts or to check certain visibility rules.
+
+Further information on AAI attributes can be found on the page "[Access Restrictions in the Expert Mode](Access_Restrictions_in_the_Expert_Mode.md)" and at [Switch](http://www.switch.ch/aai/).
+
+!!! tip "Tip"
+
+    Usually this preview is not necessary, as you can simply select the "Participant view" when the course editor is closed. This method is also suitable for learning path courses.
 
 ## Publishing
 
-All settings and modifications made in the course editor will be released by
-means of "Publish". This way you can prepare, set up and design your course in
-the course editor at your leisure.
+All settings and modifications made in the course editor are released by means of "Publish". This way you can prepare, set up and design your course in the course editor at your leisure.
 
-Only once you have published your course it will become visible in the course run with closed editor. This does not mean that learners will already see your course. In order to be able to do that you have to publish your course and configure your access (see chapter
-"[Access configuration](Access_configuration.md)").
+Only once you have published the course do the course elements and the modifications become visible with the editor closed. This does not mean that learners can already see the course. For this, the course must be published and the access configured (see chapter "[Access configuration](Access_configuration.md)").
 
-The easiest way to publish quickly is to close the course editor by simply clicking on the course title in the breadcrumb bar. Here you will be asked whether you want to publish automatically, manually, or not at all. 
+The easiest way to publish quickly is to close the course editor by clicking on the course title in the breadcrumb navigation. You will be asked whether you want to publish automatically, manually, or not at all.
 
-The option to publish manually corresponds to the "Publish" option in the course editor and is carried out using a wizard. 
+The option to publish manually corresponds to the "Publish" option in the course editor and is carried out using a wizard.
 
-!!! warning
+!!! warning "Attention"
 
-    In case you publish a course while others are working on it all non-saved data (such as entries in forums or Wikis) will be lost.
-   
-### Manual publishing with Wizard
+    If you publish a course while participants are working in it, their current activity data such as unsaved forum and wiki entries will be lost.
 
-Step 1: First you have to select all those course elements you have modified
-and want to publish. Your choice will be reduced to course elements that are
-available for publishing.
+### Manual publishing with wizard
 
-Step 2: Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat-
-users should have access to your course. See
-section "[Course Settings](Course_Settings.md)" to learn more about those options at your disposal. Now you can complete your publishing process.
-Just click on "Finish".
+Step 1 - Select course elements: Select all course elements that you have modified and want to publish. The selection is already limited to course elements that can be published.
 
-There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [catalog 2.0](../area_modules/catalog2.0.md), the entry is made automatically according to the taxonomy configuration.
+Step 2 - Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat users should have access to your course. Read the chapter "[Course Settings](Course_Settings.md)" to learn which options are available here. After this step, the publishing process can already be completed. Click on "Finish".
 
+There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [Catalog 2.0](../area_modules/catalog2.0.md), the entry is made automatically according to the taxonomy configuration.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
+[Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Access configuration >](Access_configuration.md)<br>
+[Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
+[Switch AAI >](http://www.switch.ch/aai/)<br>
+[Course Settings >](Course_Settings.md)<br>
+[Catalog 1.0 >](../area_modules/catalog1.0.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)
+
+[To the top of the page ^](#course_editor_tools)

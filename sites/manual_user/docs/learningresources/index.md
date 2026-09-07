@@ -1,22 +1,25 @@
-# Various Types of Learning Resources {: #learning_resources} 
+# Various Types of Learning Resources {: #learning_resources}
 
-OpenOlat comprises different types of [Learning Resources](../learningresources/General_Functions_Concept.md). Most of the time, these are embedded into [Course Elements](../learningresources/Course_Elements.md). Some learning resources can be created directly in the authoring area. In addition, [further learning resource types](#further_learningresources) can be created or imported.
+OpenOlat comprises different types of [learning resources](../learningresources/General_Functions_Concept.md).<br>
+Most of the time, these are embedded into [course elements](../learningresources/Course_Elements.md).<br>
+Some learning resources can be created directly in the authoring area.<br>
+In addition, [further learning resource types](#further_learningresources) can be created or imported.
 
-![learning_resources_v1_de.png](assets/learning_resources_v1_de.png){ class=" shadow lightbox" }
+
+![Expanded Create menu with the ten learning resource types that can be created directly, next to it the button Import file, authoring area](assets/learning_resources_v1_de.png){ class="shadow lightbox" }
 
 ---
 
 ## Course {: #course}
 
-![learning_resource_course_v1_de.png](assets/learning_resource_course_v1_de.png){ class="aside-right lightbox"}
+![Entry Course highlighted in the Create menu of the authoring area](assets/learning_resource_course_v1_de.png){ class="aside-right lightbox"}
 
-![icon](assets/course.png){class="size16"}
+![Course icon](assets/icon_course.png)
 
-An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OpenOlat course different didactic concepts like webquest, group puzzles, cooperative online seminars, problem-based learning, game-based approaches etc. can be implemented.
-OpenOlat courses are unique document types. They can contain any number of "course elements", as well as other functionalities. 
+An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OpenOlat course, different didactic concepts like webquest, group puzzles, cooperative online seminars, problem-based learning, game-based approaches etc. can be implemented. In OpenOlat, a course is a document type of its own that can contain any number of "course elements" as well as other functionalities.
 
-How to create courses will be illustrated in the chapter ["Creating Courses"](../learningresources/Creating_Course.md). 
-More information on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements.md).
+How to create courses is explained in the chapter ["Creating Courses"](Creating_Course.md). Details on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements.md).
+
 
 [To the top of the page ^](#learning_resources)
 
@@ -24,11 +27,11 @@ More information on course elements and the course editor can be found in the ch
 
 ## Test {: #test}
 
-![learning_resource_test_v1_de.png](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
+![Entry Test highlighted in the Create menu of the authoring area](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
 :fontawesome-solid-square-pen:
 
-Tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the test subjects; in the second case, the results are stored anonymously. Each test is available in the standardized IMS-QTI 2.1 format.
+OpenOlat tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the participants; in the second case, the results are stored anonymously. Each test is available in the standardized format IMS QTI 2.1.
 
 More information on using and creating tests can be found in the chapter ["Creating Tests"](../learningresources/Test.md).
 
@@ -36,113 +39,103 @@ More information on using and creating tests can be found in the chapter ["Creat
 
 ---
 
-
 ## CP Learning Content {: #cp-content}
 
-![learning_resource_cp-content_v1_de.png](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
+![Entry CP learning content highlighted in the Create menu of the authoring area](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
 
 :fontawesome-solid-box-archive:
 
-Content Packaging (abbr.: CP) is a kind of learning content in standardized e-learning format.  The specification of this format also comes from
-[IMS resp. 1EdTech Consortium](http://www.imsglobal.org/ "IMS"). OpenOlat supports the IMS CP version
-1.1.2. CPs are suitable for being either used in OpenOlat courses or outside of it. OpenOlat supports this format; therefore learning content cannot only be used in OpenOlat but in other LMS as well. Further information on generating Content Packages can be found in the chapter  ["CP Editor"](../learningresources/CP_Editor.md).
+A Content Packaging (abbr.: CP) is learning content in a standardized e-learning format. The specification of this data format also comes from [IMS resp. 1EdTech Consortium](http://www.imsglobal.org/ "IMS resp. 1EdTech Consortium"). OpenOlat supports the IMS CP version 1.1.2. CPs are suitable for use in OpenOlat courses or outside of OpenOlat. OpenOlat supports this format so that learning content can be used not only in OpenOlat but in other LMS as well. More information on creating Content Packagings can be found in the chapter ["CP Editor"](../learningresources/CP_Editor.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## Wiki {: #wiki}
 
-![learning_resource_wiki_v1_de.png](assets/learning_resource_wiki_v1_de.png){ class="aside-right lightbox"}
+![Entry Wiki highlighted in the Create menu of the authoring area](assets/learning_resource_wiki_v1_de.png){ class="aside-right lightbox"}
 
-![Wiki Icon](assets/icon_wiki.png)
+![Wiki icon](assets/icon_wiki.png)
 
-Wikis are particularly suited for creating content jointly in an easy way. A Wiki can be used for working in groups, as documentation tool or as knowledge base for studies and projects.
+Wikis make it easy to create content jointly. A wiki can be used for group work, as a documentation tool or as a knowledge base for studies and projects.
 
-For more information on how to create Wikis and embed those in your course, please go to the chapter ["Creating Wikis"](../learningresources/Wiki.md). How to generate content within a Wiki you can find [here](../learningresources/Course_Element_Wiki.md).
+More information on creating wikis can be found in the chapter ["Creating Wikis"](../learningresources/Wiki.md). How to create content in a wiki and work with it efficiently is explained in the chapter [Course Element "Wiki"](../learningresources/Course_Element_Wiki.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## Podcast {: #podcast}
 
-![learning_resource_podcast_v1_de.png](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
+![Entry Podcast highlighted in the Create menu of the authoring area](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
 
 :fontawesome-solid-podcast:
 
-A podcast allows you to upload audio or video files that can later be made available in OpenOlat. Podcasts can either be accessed directly in OpenOlat or they can be subscribed via online services such as iTunes in order to copy single episodes to mobile devices later on. Your course participants will be able to easily assess or comment on such podcast episodes.
+A podcast allows you to upload audio or video files that can then be made available in OpenOlat. Podcasts can either be listened to or watched directly in OpenOlat, or they can be subscribed to in portals such as iTunes in order to copy single episodes to mobile devices later on. Participants can easily rate and comment on episodes.
 
-Further information about podcasts can be found [here](../learningresources/Podcast.md).
+Further information on podcasts can be found in the chapter ["Podcast: Overview"](../learningresources/Podcast.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## Blog {: #blog}
 
-![learning_resource_blog_v1_de.png](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
+![Entry Blog highlighted in the Create menu of the authoring area](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
 
 :fontawesome-solid-bullhorn:
 
-In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as a kind of diary or journal. Course participants will be able to comfortably assess or comment on blog entries.
+In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as an online diary or online journal. Blogs embedded in courses can also be rated and commented on easily by participants.
 
-Here you can find more information about the [course element blog](../learningresources/Course_Element_Blog.md). Information on how to create a blog and integrate it into your course, can be found in the ["How to section"](../../manual_how-to/blog/blog.md). 
+Here you can find more information about the [course element blog](../learningresources/Course_Element_Blog.md). Information on how to create a blog and embed it in your course can be found in the ["How to section"](../../manual_how-to/blog/blog.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## :o_icon_o_FileResource-SHAREDFOLDER_icon: Resource Folder {: #resource_folder}
 
-![learning_resource_resource_folder_v1_de.png](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
+![Entry Resource folder highlighted in the Create menu of the authoring area](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
 
-With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. In doing so, the files are referenced from the resource folder and thus do not need to be created multiple times. The linked resource folder is displayed in the storage folder of the linked course under _sharedfolder and there is access to all files stored in the resource folder. Changes to the files in the resource folder then apply to all linked courses. It should be noted that only *one* resource folder can be added per course. Further information can be found in the chapter  ["Course settings"](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen) in the submenu "Resource folder".
+With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the chapter ["Course Settings"](../learningresources/Course_Settings.md#options) in the tab "Options".
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## Form {: #form}
 
-![learning_resource_form_v1_de.png](assets/learning_resource_form_v1_de.png){ class="aside-right lightbox"}
+![Entry Form highlighted in the Create menu of the authoring area](assets/learning_resource_form_v1_de.png){ class="aside-right lightbox"}
 
-![Icon Formular](assets/icon_formular.png)
+![Form icon](assets/icon_formular.png)
 
-Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task". 
+Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task".
 
-You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter [Creating forms](../learningresources/Form.md).
+More information on the use and creation of forms for surveys, rubrics etc. can be found in the chapter [Creating forms](../learningresources/Form.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ## Portfolio 2.0 Template {: #portfolio}
 
-![learning_resource_portfolio_v1_de.png](assets/learning_resource_portfolio_v1_de.png){ class="aside-right lightbox"}
+![Entry Portfolio 2.0 template highlighted in the Create menu of the authoring area](assets/learning_resource_portfolio_v1_de.png){ class="aside-right lightbox"}
 
-![Icon Portfolio](assets/icon_portfolio.png)
+![Portfolio 2.0 template icon](assets/icon_portfolio.png)
 
-A Portfolio 2.0 template contains tasks that can be used as part of a portfolio assessment and entered into an OLAT course as a portfolio task.  With the help of a Portfolio 2.0 template, lecturers can create a structured portfolio folder that learners can collect and edit. Further information on the [Portfolio template](Portfolio_template_Creation.md) can be found in the corresponding chapter.
+A Portfolio 2.0 template contains assignments that can be used as part of a portfolio assessment and embedded in an OpenOlat course as a portfolio task. With the help of a Portfolio 2.0 template, lecturers can design a structured portfolio binder that learners can collect and edit. Further information on the [Portfolio 2.0 template](Portfolio_template_Creation.md) can be found in the corresponding chapter.
 
 [To the top of the page ^](#learning_resources)
 
 ---
 
-
 ## Glossary {: #glossary}
 
-![learning_resource_glossary_v1_de.png](assets/learning_resource_glossary_v1_de.png){ class="aside-right lightbox"}
+![Entry Glossary highlighted in the Create menu of the authoring area](assets/learning_resource_glossary_v1_de.png){ class="aside-right lightbox"}
 
-![Icon Glossar](assets/icon_glossary.png)
+![Glossary icon](assets/icon_glossary.png)
 
-A glossary can be used to store terms and definitions and make them accessible alphabetically sorted. If a glossary is integrated into an OpenOlat course the terms can also be displayed directly for explanation in integrated HTML files. Furthermore, it is possible to configure glossaries that learners can also fill in the content of a glossary.
+A glossary can be used to store terms and definitions and make them accessible in alphabetical order. If a glossary is embedded in an OpenOlat course, the terms can also be displayed directly for explanation in embedded HTML files. Furthermore, glossaries can be configured so that learners can also add content to a glossary.
 
 Further information on the [creation](../learningresources/Glossary_create.md) and [usage](../learningresources/Glossary_usage.md) of glossaries can be found in the corresponding chapters.
 
@@ -150,15 +143,16 @@ Further information on the [creation](../learningresources/Glossary_create.md) a
 
 ---
 
-
 ## Further learning resources {: #further_learningresources}
-In addition to the learning resources that are created directly in OpenOlat, there are other learning resources that are created by uploading.
+
+In addition to the learning resources that are created directly in OpenOlat, there are further learning resources that are created by upload.
 
 
 ### SCORM 1.2
+
 :fontawesome-solid-box-archive:
 
-Another standardized e-learning format supported by OpenOlat is the SCORM format (version 1.2). SCORM is short for "Sharable Content Object Reference Model" and a reference model for exchangeable electronic learning content of the ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/).  SCORM learning content is suitable for courses within OpenOlat as well as courses outside. OpenOlat supports this format; therefore your learning content can be applied not only in OpenOlat but also in other LMS.
+Another standardized e-learning format supported by OpenOlat is the SCORM format (version 1.2). SCORM stands for "Sharable Content Object Reference Model" and is a reference model for exchangeable electronic learning content of the ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/). SCORM learning content is suitable for use in OpenOlat courses or outside of OpenOlat. OpenOlat supports this format so that you can use your learning content not only in OpenOlat but also in other LMS.
 
 SCORM modules cannot be created in OpenOlat, only imported.
 
@@ -166,38 +160,38 @@ SCORM modules cannot be created in OpenOlat, only imported.
 
 ---
 
-
 ### Audio
-![Icon Audio](assets/icon_audio.png)
 
+![Audio icon](assets/icon_audio.png)
 
-Audio files can be uploaded to OpenOlat and in some places can also be recorded directly [in OpenOlat](../learningresources/Audio_Recording.md).
+Audio files can be uploaded to OpenOlat and, in some places, can also be [recorded directly in OpenOlat](../learningresources/Audio_Recording.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
-
 
 ### Video
-:fontawesome-solid-film:
 
-A video is a learning content in the MPEG-4 format with the file extension .mp4, and is used for audio and video playback. The learning resource video can be added to OpenOLAT by importing or import URL and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. Further information can be found in the ["Creating Videos"](../basic_concepts/Video.md) chapter.
+![Video icon](assets/icon_video.png)
+
+OpenOlat uses video learning content in the MPEG-4 format with the file extension MP4. The learning resource video can be added in OpenOlat via "Import file" or "Embed via URL" and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. General information can be found in the chapter [Learning resource: Video](../learningresources/Learning_resource_Video.md).
 
 [To the top of the page ^](#learning_resources)
 
 ---
 
+### Learning resources of the type file and other files
 
-## Learning resources of the type "File"
+![Entries Word, Excel and PowerPoint highlighted at the end of the Create menu in the authoring area](assets/learning_resource_file_v1_de.png){ class="aside-right lightbox"}
 
-Apart from the above-mentioned learning resources, a comprehensive number of other file types may be imported into OpenOlat. Among these are PDF, PowerPoint, Excel and Word, as well as movie, image, sound or animation files.
+Apart from the above-mentioned learning resources, you can import a number of other file types into OpenOlat. Among these are PDF, PowerPoint, Excel and Word files as well as images, music and animations.
 
-If a corresponding document editor is activated, you can also create Word, Excel or PowerPoint files directly in OpenOlat as a learning resource. In the displayed "Create" list you can see exactly which files can be created.
+In addition, if a corresponding document editor is activated, you can create Word, Excel or PowerPoint files directly in OpenOlat as a learning resource. Which files can be created with your configuration is shown in the "Create" list.
 
-!!! info 
 
-    Diagram files (draw.io) can usually not be created directly here. Use the Media Center, a course or the project area for creating draw.io diagrams.   
+!!! info "Important"
+
+    Diagram files (draw.io) can usually not be created directly here. Use the Media Center, a course or the "Projects" area for this purpose.
 
 
 [To the top of the page ^](#learning_resources)
-

@@ -21,7 +21,7 @@ Basically, "My Course" is only available to course participants, as personalized
 The individual options under "My Course" appear **automatically** when the functions are available or have been activated.
 
 **Example:**<br>
-If "Performance record" is enabled in the course, this option will also appear under "My course"; otherwise, it will not. 
+If "Evidence of achievement" is enabled in the course, this option will also appear under "My Course"; otherwise, it will not. 
 
 [To the top of the page ^](#my_course)
 
@@ -32,12 +32,12 @@ If "Performance record" is enabled in the course, this option will also appear u
 Under "My Course," you will find only tools that relate to your personal data in the current course.<br>
 Depending on the configuration of the course, not all of the following entries may be displayed.
 
-* The [**evidence of achievement**](#evidence_of_achievement) shows the individual assessments in the course and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#certificate) for the course.
+* The [**evidence of achievement**](#evidence_of_achievement) shows the individual assessments in the course and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) for the course.
 * [**To-dos**](#to-dos) displays the current to-dos for the course.
-* [**My Badges**](#my_badges) displays your badges.
+* [**My badges**](#my_badges) displays your badges.
 * [**Notes**](#notes): Here you can enter course-specific notes that only you as a course participant can read.
 * [**Bookmark**](#bookmark): Activate the bookmark, and the course will appear in the "Courses" menu in the "Favorites" tab.
-* [**Consent**](#terms_of_use): If there are specific terms of use and/or a course-related privacy policy that you have agreed to, you can view them here and also revoke your consent.  
+* [**Consent**](#terms_of_use): If there are specific terms of use and/or a course-related privacy policy that you have agreed to, you can view them here and also revoke your consent.
 * [**Groups**](#groups): Here you can see all course-specific groups you are a member of and navigate directly to them.
 * With [**"Leave course"**](#leave_course) you can unsubscribe from the course.
 
@@ -47,17 +47,17 @@ Depending on the configuration of the course, not all of the following entries m
 
 ### Evidence of achievement {: #evidence_of_achievement}
 
-A performance record is a confirmation of a completed performance assessment and must first be activated by the course owner. Learners can then see the individual assessment modules of the course that they have completed, such as tests, assignments, etc., their scores, and further information.
+An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owners. Learners can then see the individual assessment modules of the course that they have completed, such as tests, assignments, etc., their scores, and further information.
 
 ![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
 
-If a [certificate](../learningresources/Course_Settings_Assessment.md#certificate) has been issued for the course, you will also find it under "Performance record" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching.md).
+If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching.md).
 
 For certificates issued automatically after successful completion of a course, you will receive an automatically generated notification by email.
 
 !!! note "Note"
 
-    You can find transcripts and certificates from **all** your courses in the personal menu under [“Transcripts”](../personal_menu/Personal_Tools.md#transcripts). 
+    You can find evidences of achievement and certificates from **all** your courses in the personal menu under ["Evidence of achievement"](../personal_menu/Personal_Tools.md#evidences_of_achievement).
 
 [More about evidence of achievement >](../personal_menu/Evidence_of_Achievements.md)
 
@@ -65,7 +65,7 @@ For certificates issued automatically after successful completion of a course, y
 
 ---
 
-### To dos [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
+### To-dos [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
 Here, participants can see all the relevant to-dos for the course. 
 These may be automatically generated to-dos from the [task course elements](../learningresources/Course_Element_Task.md). You will then be asked to take a specific step in the task process, e.g., select a task, submit a solution, or similar. 
@@ -74,19 +74,22 @@ On the other hand, teachers can assign specific tasks to all course participants
 The to-dos serve as guidance for users on what currently needs to be done in the course. 
 Participants can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. There, they can also create their own to-dos.
 
-[More about To dos >](../basic_concepts/To_Dos_Basics.md)<br>
-[More about To dos in a course >](../learningresources/Course_todos.md)
+[More about To-dos >](../basic_concepts/To_Dos_Basics.md)<br>
+[More about To-dos in a course >](../learningresources/Course_todos.md)
 
 [To the top of the page ^](#my_course)
 
 ---
 
-### My Badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
+### My badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
 
 If badges are enabled, access to all badges you have earned in this course will automatically be displayed in "My Course."
 
 [More about badges >](../personal_menu/OpenBadges.md)
 
+[To the top of the page ^](#my_course)
+
+---
 
 ### Notes {: #notes}
 
@@ -106,7 +109,7 @@ Activate the bookmark, and these courses will appear in the "Courses" menu in th
 
 ---
 
-### Terms of use [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
+### Consent [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
 
 If the course requires consent to the terms of use and/or privacy policy at the beginning, you can read them here at any time. 
 
@@ -126,11 +129,11 @@ If you are participating in this course as a group member (group participant or 
 
 ### Leave course [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
-The "Leave course" function immediately terminates your course or group membership, depending on how you access the course. After that, you will no longer have access to the course, or you will need to contact the relevant course or group administrator to regain access to the course.
+The "Leave course" function immediately terminates your course or group membership, depending on how you access the course. After that, you will no longer have access to the course, or you will need to contact the relevant course or group coach to regain access to the course.
 
 The option to unsubscribe from a course must first be enabled by the course owners in the course settings under the "Share" tab and only applies to participants, not to coaches or owners.
 
-![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow" }
+![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" }
 
 **When is "Leave course" available?**
 
@@ -167,7 +170,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**
+**Mentioned on this page**<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Personal Tools >](../personal_menu/Personal_Tools.md)<br>
@@ -182,7 +185,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [Course settings - Tab Share >](Course_Settings_Share.md)<br>
 [Course Element "Enrolment" >](Course_Element_Enrolment.md)
 
-**Further reading**
+**Further reading**<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)
 
 [To the top of the page ^](#my_course)

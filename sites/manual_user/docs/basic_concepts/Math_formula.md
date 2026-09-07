@@ -1,42 +1,51 @@
 # Math formula {: #formula}
 
-Formulas can be inserted in OpenOlat in various places. Either the HTML editor or the content editor is used.
+Formulas can be inserted in OpenOlat in various places. Either the HTML editor or the Content editor is used.
 
-## Insert math formula via HTML Editor {: #insert_via_html}
+## Insert a formula via HTML editor {: #insert_via_html}
 
-1. You insert the math formula via `Insert>Insert math formula` in the context menu of the html editor or directly via formula button, if available. A new popup window will open.
+1. Insert the formula via `Insert > Insert math formula` in the menu of the HTML editor or, if activated, directly via the formula button.
 
-    ![explanation to insert math formula](assets/mathjax-html.jpg){class="shadow"}
+    ![Menu Insert with the highlighted entry Insert math formula and the formula button in the toolbar, HTML editor of a test question](assets/mathjax-html.jpg){ class="shadow lightbox" }
 
-2. Type in the formula via the LaTeX editor or th graphical form editor. Further information on how to use the graphical editor can be found here: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
+2. Enter the formula in the graphical editor or in the LaTeX field. Further information on how to use the graphical editor can be found here: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
 
-    ![formula editor window](assets/Formeleditor_16_eng.png){class="shadow"}
-  
-3. Close the html-editor with `Save`.
-The math formula is now embedded into the text.
+    ![Input in the graphical editor or in the LaTeX field with preview, below the formula keyboard with numbers, operators and functions, dialog Formula](assets/Formeleditor_16_eng.png){ class="shadow lightbox" }
 
-   ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
+3. Close the HTML editor with "Save". The formula is now embedded.
 
-Mathematical formulas can be inserted in the following course elements and learning resources via HTML editor:
+    ![Rendered formula in the text, next to it the formula button in the toolbar, HTML editor](assets/mathjax-embedded.jpg){ class="shadow lightbox" }
 
-* Course element Single page
-* Course element Task + Group task (HTML)
-* Course element Forum
-* Learning resource CP learning content
-* Learning resource Blog
-* Learning resource Test   
+Math formulas can be inserted in the following course elements and learning resources via HTML editor:
 
-!!! info "Note"
+* Course element "HTML-Page"
+* Course element "Task" and "Group task" (HTML)
+* Course element "Forum"
+* Learning resource "CP learning content"
+* Learning resource "Blog"
+* Learning resource "Test"
 
-    Word count for tasks: The mathematical formula counts as one word, regardless of length and complexity.
+!!! info "Important"
 
-## Insert a formula in Content Editor in the Portfolio 2.0 {: #insert_formula}
+    Word count for tasks: The math formula counts as one word, regardless of length and complexity.
 
-1.  Open or create a portfolio entry and open the Content Editor. Click on add Content Block and (among other things) you get the possibility to select the formula editor.
+## Insert a formula via Content editor in Portfolio 2.0 {: #insert_formula}
 
-    ![content editor question type](assets/mathjax-content-editor.jpg){class="shadow"}
+1. Open or create a portfolio entry and open the Content editor. Click "Add content".
 
-2. Select `Mathematic Formula` in the menu.
+    ![Selection of the content types Title, Paragraph, Table, Math formula, Image and Text section as well as the sections Embed and Layout, menu Add content in the Content editor](assets/mathjax-content-editor.jpg){ class="shadow lightbox" }
 
-3. The graphical formula editor opens. Now you can create your ![formula](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
+2. Select "Math formula".
 
+3. The graphical formula editor opens. Create your formula.
+
+    ![Formula block with an entered formula and the opened formula keyboard, Content editor of a portfolio entry](assets/Formeleditor_Portfolio_16_de.png){ class="shadow lightbox" }
+
+## Further information {: #further_information}
+
+[CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
+[Content Editor >](Content_Editor.md)<br>
+[Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
+[Personal tools: Portfolio >](../personal_menu/Portfolio.md)
+
+[To the top of the page ^](#formula)

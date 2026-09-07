@@ -1,42 +1,42 @@
 # Content Editor
 
-## What can the Content Editor do? {: #content_editor}
+## What is the Content Editor? {: #content_editor}
 
-In the Content Editor, authors can compile pages and forms in several layout grids. Various content elements such as text, images, videos, etc. can be inserted into a selectable grid.
+The Content Editor lets you insert various content elements into a page based on a layout of your choice and thus design a content page optimised for mobile devices. Changes are saved automatically.
 
-The aim is to enable an adaptive design so that the content is also displayed appropriately on mobile devices.
+The Content Editor is used in several places in OpenOlat.
 
 ![A selected title block with its toolbar and an open inspector, next to it the Add content links in the areas of the layout. Content Editor in edit mode.](assets/content_editor_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
-    Another editor in OpenOlat is, for example, the HTML editor "Tiny MC", which is used in the course element [HTML page](../learningresources/Course_Element_HTML_Page.md), for example.
+    Besides the Content Editor, OpenOlat also has the HTML editor "TinyMCE", which is used in the [course element "HTML page"](../learningresources/Course_Element_HTML_Page.md), for example.
 
 ## Where is the Content Editor used? {: #content_editor_use}
 
-The content editor is used in the [Course element page](../learningresources/Course_Element_Page.md), in the [Learning resource “Form”](../learningresources/Form.md) and in the [“Portfolio 2.0”](../area_modules/The_portfolio_editor_17_1.md).
+The Content Editor is used in the [course element Page](../learningresources/Course_Element_Page.md), in the [learning resource "Form"](../learningresources/Form.md) and in the ["Portfolio 2.0"](../area_modules/The_portfolio_editor_17_1.md).
 
 ### Course element page [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
-The Content Editor is activated in the "Page" course block either in the Course Editor under the "Page Content" tab, or, when the Course Editor is closed, by enabling edit mode directly on the desired "Page" course block. 
+The Content Editor is activated in the course element Page either in the course editor in the tab "Page content" or, with the course editor closed, by switching on the edit mode directly on the desired course element Page.
 
 **When the course editor is closed:**
 
 ![The Edit mode switch is set to Off, highlighted in turquoise. Course element Page with the course editor closed.](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" }
 
-The slide switch can be used to turn the processing mode on and off. 
+The slide switch turns the edit mode on and off.
 
 **In the course editor:**
 
 ![Three marked steps: course element Page, tab Page content, button Edit page. Course editor.](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" }
 
-In the course editor, you can configure whether, in addition to course owners, instructors are also allowed to use the course module's content editor and make changes when the course editor is closed. 
+In the course editor, you can configure whether, in addition to course owners, coaches are also allowed to use the Content Editor of the course element and make changes when the course editor is closed.
 
 ![The option Edit page is ticked for coaches. Permissions section in the tab Page content.](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
 The media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, quotes, documents, etc.) is stored in the [Media Center](../personal_menu/Media_Center.md), not in the course’s storage folder (see [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md)). For more information, see the explanations for the respective course element types. 
 
-Different rules apply to the portfolio and the form-based learning resource.
+Different rules apply to the portfolio and the learning resource Form.
 
 [To the top of the page ^](#content_editor)
 
@@ -45,11 +45,11 @@ Different rules apply to the portfolio and the form-based learning resource.
 
 ### Learning resource form {: #form}
 
-The content editor is also used in the [learning resource form](../learningresources/Form.md) and all elements that use the learning resource form. 
+The Content Editor is also used in the [learning resource Form](../learningresources/Form.md) and in all elements that use the learning resource Form.
 
 The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
-![Open Add content menu of a form with the areas Content, Question types, Organisational and Layout.](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" }
+![The Add content dialog in the Form Editor with the additional area Question types.](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" }
 
 [To the top of the page ^](#content_editor)
 
@@ -58,7 +58,7 @@ The displayed options for inserting content are adapted to the form, e.g. differ
 
 ### E-portfolio [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-This also applies to entries in [portfolio folders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), the Content Editor is used.
+The Content Editor is also used for entries in [portfolio binders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md).
 
 ![Selection of the layout templates with nine grids, opened via Insert new layout. Entry of a portfolio folder.](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
@@ -77,11 +77,11 @@ There are various layouts to choose from, which differ in the way the fields are
 
 If necessary, the layout can be changed later at any time. To do this, simply click on the gear icon (Edit settings) of the layout and select a new layout.
 
-![The Select layout menu with nine grids, opened via Insert new layout. Course element Page in edit mode.](assets/content_editor_layout_v1_de.png){ class="shadow lightbox" }
+![The gear icon opens the inspector with the layout templates, the selected one is marked in turquoise.](assets/Lyout_Formular.jpg){ class="shadow lightbox" }
 
-If several layouts are available in a form, you can change the order of the layouts. Use the arrows to move an entire layout.
+If several layouts exist, you can change the order of the layouts. Use the arrows to move an entire layout.
 
-![The arrows on the right edge of the layout bar move the whole layout. Course element Page in edit mode.](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
+![The arrows marked in turquoise on the right edge move the whole layout. Course element Page in edit mode.](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
 
 ### Deleting a layout [:octicons-tag-16:{ title="from Release 21.0 (OO-9407)" }](https://track.frentix.com/issue/OO-9407){:target="_blank"} {: #delete_layout}
 
@@ -91,14 +91,14 @@ Every layout on a page can be deleted via the layout's three-dot menu, including
 
 ---
 
-## Organizing Content in the Layout {: #organize_content}
+## Organizing content in the layout {: #organize_content}
 
-### Content Blocks {: #content_blocks}
+### Content blocks {: #content_blocks}
 
 Content blocks with various specific types of content can be added to each section of a layout. The number of content blocks varies depending on the selected design. For example, a three-column design has 3 content blocks. 
 
 
-### Adding, Positioning, and Configuring Content in a Block {: #add_content}
+### Adding, positioning and configuring content in a block {: #add_content}
 
 Use "Add content" to add specific content and media to a block. The link appears in every section of a layout, so you can insert the content exactly where it belongs.
 
@@ -127,32 +127,32 @@ A block can be copied with the "Duplicate" action, both as a short action on the
 ---
 
 
-### General Formatting for All Content Blocks - The Inspector [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
+### General formatting for all content blocks - The Inspector [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
 
-**Distances**
+**Spacing**
 
 Consistent spacing between the layout fields (content blocks) is important for creating an appealing layout. You can choose from various spacing options: 
 
-* no distance
+* no spacing
 * S (small)
 * M (medium)
 * L (large)
 * XL (extra large)
 * custom
 
-=== "S (small distance)"
+=== "S (small spacing)"
 
-    ![Image, text and form elements sit close together. Example page with the spacing S.](assets/content_editor_layout_spacing_small.jpg){ class="shadow lightbox" title="kleiner Abstand" }
-
-
-=== "M (medium distance)"
-
-    ![A clearly visible, medium spacing between image, text and form elements. Same example page with M.](assets/content_editor_layout_spacing_medium.jpg){ class="shadow lightbox" title="mittlerer Abstand" }
+    ![Image, text and form elements sit close together. Example page with the spacing S.](assets/content_editor_layout_spacing_small.jpg){ class="shadow lightbox" title="small spacing" }
 
 
-=== "XL (extra large distance)"
+=== "M (medium spacing)"
 
-    ![Image, text and form elements are set far apart. Same example page with the spacing XL.](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra-grosser Abstand" }
+    ![Visible spacing between image, text and form elements. Same example page with the spacing M.](assets/content_editor_layout_spacing_medium.jpg){ class="shadow lightbox" title="medium spacing" }
+
+
+=== "XL (extra large spacing)"
+
+    ![Image, text and form elements are set far apart. Same example page with the spacing XL.](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra large spacing" }
 
 
 **Background**
@@ -162,7 +162,7 @@ In the "Style" tab you define the background of a layout [:octicons-tag-16:{ tit
 
 **Block style "Note"**
 
-Layouts and some content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding color scheme to the box, along with a matching icon, if applicable. The types "Note", "Info", "Tip", "Important", "Warning", "Error" and "Success" are available. With the type "Custom" you design the colour and icon of the box yourself. If desired, a box can also be made collapsible.
+Layouts and various content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding colour scheme to the box, along with a matching icon. The types "Note", "Info", "Tip", "Important", "Warning", "Error" and "Success" are available. With the type "Custom" you design the colour and icon of the box yourself. If desired, a box can also be made collapsible.
 
 ![The info box is switched on, the list of types is open. Tab Style in the inspector of a layout.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" }
 
@@ -210,7 +210,7 @@ Use this element to add texts.
 
 ![Fields for row and column, row header and column header as well as the row style. Inspector of a table block.](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" }
 
-### Mathematic formula [:octicons-tag-16:{ title="from Release 16.2.0 (OO-6070)" }](https://track.frentix.com/issue/OO-6070){:target="_blank"} {: #formula}
+### Math formula [:octicons-tag-16:{ title="from Release 16.2.0 (OO-6070)" }](https://track.frentix.com/issue/OO-6070){:target="_blank"} {: #formula}
 
 A special small editor is available for mathematical formulas.
 
@@ -267,7 +267,7 @@ Audio can be recorded directly in OpenOlat, uploaded or selected from existing a
 
 ### Video [:octicons-tag-16:{ title="from Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
-Videos can also be integrated via URL in the 'Video' block. The video formats MP4 and m3u8 as well as the platforms Youtube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
+Videos can also be integrated via URL in the 'Video' block. The video formats MP4 and m3u8 as well as the platforms YouTube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
 
 
 ### Document {: #document}
@@ -281,7 +281,7 @@ In addition, the "Share" section allows you to share newly created or uploaded d
 
 ![Drop field for the file, below it title, tags, topics, description and licence. Add document dialogue.](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
-### draw.io diagram [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
+### Diagram (draw.io) [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
 Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
@@ -330,9 +330,9 @@ If the table of contents stays empty, the hint "No titles found after this posit
 
 This element does not exist in the Form Editor.
 
-### HTML Code {: #html}
+### HTML text code {: #html}
 
-The HTML text code editor is available exclusively in the "Page" course element editor. It performs similar functions to the "Text" content element but offers additional menus and options. 
+The HTML text code editor is available exclusively in the editor of the course element Page. It performs similar functions to the "Text" content element, but offers additional menus and options.
 
 [To the top of the page ^](#content_editor)
 
@@ -359,7 +359,7 @@ OpenOlat rejects answers that are too long before grading starts. The permitted 
 
 ---
 
-## Importing Markdown and Word Files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
+## Importing Markdown and Word files [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown}
 
 !!! info "Important"
 
@@ -447,7 +447,7 @@ Generation runs in the background and can take a minute; the quiz element appear
 
 ## Media Center {: #media_center}
 
-In the Content Editor for the "Page" and "Portfolio" course blocks, there is a separate button that leads to the Media Center. Essentially, this provides an additional way to access the files, regardless of the type of media. 
+In the Content Editor of the course element Page and of the portfolio, there is a separate button that leads to the Media Center. Essentially, this provides an additional way to access the files, regardless of the type of media.
 
 Click the link to access the files in your Media Center. Here, you can select, create, or upload files. 
 
@@ -478,6 +478,7 @@ Click the link to access the files in your Media Center. Here, you can select, c
 [Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Question pool: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
 [Media Center Concept >](Media_Center_Concept.md)
 
