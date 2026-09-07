@@ -136,7 +136,9 @@ Die **Statusanzeige in Tests** wurde vereinfacht und die Anzahl der Versuche ist
 
 Für den Safe Exam Browser können eigene **Konfigurationsvorlagen** erstellt und für eine Prüfung ausgewählt werden.
 
-In :octicons-tag-24: Release 20.3.7 wurde die **Teilpunkteberechnung** für **Matrix- und Drag-und-Drop-Fragen** mit Single Choice Antworten angepasst.
+Für stets aktuelle Bewertungsdaten der Teilnehmenden (inklusive Leistungsnachweis) erfolgt ab :octicons-tag-24: Release 20.3.7 eine **automatsche Neuberechnung der Bewertungsdaten** auf Ebene Struktur-Baustein sowie am obersten Kursknoten, sobald Bewertungsregeln geändert und publiziert werden.
+
+Ausserdem wurde in :octicons-tag-24: Release 20.3.7 die **Teilpunkteberechnung** für **Matrix- und Drag-und-Drop-Fragen** mit Single Choice Antworten angepasst.
 
 !!! warning "Keine automatische Migration"
 
@@ -220,6 +222,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
     - Prototype.js 1.7 entfernt
 -  OpenOlat wird mit einer Projektkonfiguration für Anthropic Claude Code zur KI-gestützten Entwicklung inkl. Architekturwissen und Entwickler-Skill ausgeliefert
 - Rest API Erweiterung für Kreditpunktesystem (Transaktionen, Systeme, Guthaben) (:octicons-tag-24: Release 20.3.2)
+- Wartungstool zum Auffinden und Wiederherstellen beschädigter Zertifikat-PDFs (:octicons-tag-24: Release 20.3.7)
 
 * * *
 
@@ -233,6 +236,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
     * [x] SEO Metadaten (Organisation, Stichwörter) konfigurieren: `Module > SEO / OAI-PMH Metadaten > Suchmaschinenoptimierung`
     * [x] SEB-Konfigurationsvorlagen erstellen und freigeben: `e-Assessment > Prüfungsverwaltung > Safe Exam Browser Konfiguration`
     * [x] Content Security Policy nach Update auf Kompatibilität prüfen: `Login > Sicherheit > Konfiguration`
+    * [x] Wartung Zertifikate: `e-Assessment > Zertifikate > Wartung`
 
 * * *
 

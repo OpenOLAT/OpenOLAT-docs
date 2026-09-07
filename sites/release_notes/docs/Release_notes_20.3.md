@@ -135,7 +135,9 @@ The **status display in tests** has been simplified, and the number of attempts 
 
 For the Safe Exam Browser, custom **configuration templates** can be created and selected for an exam.
 
-In :octicons-tag-24: Release 20.3.7, the **partial scoring** for **matrix and drag-and-drop questions** with single-choice answers was adjusted.
+To ensure that participant assessment data (including evidence of achievement) is always up to date, from :octicons-tag-24: Release 20.3.7 onward, an **automatic recalculation of assessment data** will take place at the structure module level and at the top-level course node whenever assessment rules are modified and published.
+
+Furthermore, in :octicons-tag-24: Release 20.3.7, the **partial scoring** for **matrix and drag-and-drop questions** with single-choice answers has been adjusted.
 
 !!! warning "No automatic migration"
 
@@ -219,6 +221,7 @@ The transition of background images on the login page has been completely redesi
     - Prototype.js 1.7 removed
 - OpenOlat ships with a project configuration for Anthropic Claude Code for AI-assisted development, including architectural knowledge and developer skills
 - Rest API extension for Credit Point System (transactions, systems, balances) (:octicons-tag-24: Release 20.3.2)
+- Maintenance tool to find and regenerate broken certificate PDFs (:octicons-tag-24: Release 20.3.7)
 
 * * *
 
@@ -232,6 +235,7 @@ The transition of background images on the login page has been completely redesi
     * [x] Configure SEO metadata (organization, keywords): `Modules > SEO / OAI-PMH metadata > Search Engine`
     * [x] Create and share SEB configuration templates: `e-Assessment > Assessment management > Safe Exam Browser configuration`
     * [x] Check Content Security Policy for compatibility after an update: `Login > Security > Configuration`
+    * [x] Maintenance Certificates: `e-Assessment > Certificates > Maintenance`
 
 * * *
 

@@ -227,7 +227,7 @@ The exportable report on grading assignments has been extended by an additional 
 
 The **report on the correction workflow** has been optimized and extended: it is now also possible to export **only the completed assignments**, and the report contains information on status, due date and missed deadlines.
 
-### Evidence of achievement
+### Evidence of achievement and assessment data
 
 In the overview of the evidence of achievement - [personal menu](https://docs.openolat.org/en/manual_user/personal_menu/) and [user management](https://docs.openolat.org/en/manual_admin/usermanagement/Configure_User/) - further information is available:
 
@@ -235,6 +235,10 @@ In the overview of the evidence of achievement - [personal menu](https://docs.op
 * **Reference:** Shows the reference of the respective course
 
 In addition, an individual **evidence of achievement can be deleted** in user management. If the person is still a participant of the course, the evidence of achievement is automatically recreated; if they are no longer in the course, it is permanently removed.
+
+To ensure that participant assessment data (including evidence of achievement) is always up to date, from :octicons-tag-24: Release 21.0.1 onward, an **automatic recalculation of assessment data** will take place at the structure module level and at the top-level course node whenever assessment rules are modified and published.
+
+To avoid inconsistencies, the configuration of **scoring rules** is available only **in read-only mode** if assessments are already present. Editing must be explicitly enabled.
 
 * * *
 
@@ -283,6 +287,7 @@ The prerequisite is a valid email address on the account as well as a functional
 * **Catalog 2.0** is enabled by default for new installations
 * Secure delivery of unsafe content via a second domain (`olat.properties key: server.content.domainname`) using **iFrame sandboxing** for SCORM, HTML page and all content delivered in iFrames
 * Update of third-party libraries
+* fxSyncher: Dedicated site in the main menu with configurable access (:octicons-tag-24: Release 21.0.1 - frentix release only)
 
 * * *
 

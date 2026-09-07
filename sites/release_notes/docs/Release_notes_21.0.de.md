@@ -227,7 +227,7 @@ Der exportierbare Bericht zu Korrekturaufträgen wurde um ein zusätzliches Shee
 
 Der **Report zum Korrektur-Workflow** wurde optimiert und erweitert: Neu können auch **nur die erledigten Aufträge** exportiert werden und der Bericht enthält Informationen zu Status, Fälligkeitsdatum und versäumten Fristen.
 
-### Leistungsnachweis
+### Leistungsnachweis und Bewertungsdaten
 
 In der Übersicht der Leistungsnachweise – [persönliches Menü](https://docs.openolat.org/de/manual_user/personal_menu/) und [Benutzerverwaltung](https://docs.openolat.org/de/manual_admin/usermanagement/Configure_User/) – sind weitere Informationen verfügbar:
 
@@ -235,6 +235,10 @@ In der Übersicht der Leistungsnachweise – [persönliches Menü](https://docs.
 * **Kennzeichen:** Zeigt das Kennzeichen des jeweiligen Kurses
 
 Zusätzlich lässt sich in der Benutzerverwaltung ein einzelner **Leistungsnachweis löschen**. Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig entfernt.
+
+Für stets aktuelle Bewertungsdaten der Teilnehmenden (inklusive Leistungsnachweis) erfolgt ab :octicons-tag-24: Release 21.0.1 eine **automatsche Neuberechnung der Bewertungsdaten** auf Ebene Struktur-Baustein sowie am obersten Kursknoten, sobald Bewertungsregeln geändert und publiziert werden.
+
+Um Inkonsistenzen zu vermeiden, ist die Konfiguration von **Bewertungsregeln nur im Lese-Modus** verfügbar, wenn bereits Bewertungen vorhanden sind. Eine Bearbeitung muss aktiv freigeschaltet werden.
 
 * * *
 
@@ -283,6 +287,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 * **Katalog 2.0** ist bei Neuinstallationen standardmäßig aktiviert
 * Sicheres Ausliefern von unsicheren Inhalten über zweite Domäne (`olat.properties key: server.content.domainname`) per **iFrame Sandboxing** für SCORM, HTML-Seite und alle Inhalte, die in iFrames ausgeliefert werden
 * Aktualisierung der Bibliotheken von Drittanbietern
+* fxSyncher: eigene Site im Hauptmenü mit konfigurierbarem Zugriff (:octicons-tag-24: Release 21.0.1 - nur frentix-Release)
 
 * * *
 
