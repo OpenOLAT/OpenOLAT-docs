@@ -1,20 +1,27 @@
 # Coaching - Courses {: #courses}
 
 
-![Marked button Courses in the Coaching group leads to the list of your coached courses, on the Coaching entry page.](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
-
-![Course list in tile view with the focus As coach, the filter tabs Favourites to Finished and the filters Implementation period, Not visited, Last visit, Success status and Type, in the Courses tool.](assets/coaching_courses2_v2_de.png){ class="shadow lightbox" }
+![Courses in the Coaching Tool with the focus entries As coach, As owner and the selected Other resources, below them the tabs Favourites, All and Finished and the columns ID to Status.](assets/coaching_courses2_v3_en.png){ class="shadow lightbox" }
 
 
 ### WHICH courses does the list show? {: #courses_which}
 
-The menu item "Courses" in the Coaching Tool shows the list of all **courses** in which you are **coach** or **owner**.
+The menu item "Courses" in the Coaching Tool shows the learning resources you are responsible for. Above the list, you use the **focus** to choose which resources the list loads:
+
+* **As coach**: courses in which you are coach.
+* **As owner**: courses with the usage "Standalone" or "Use in Course Planner" that you own.
+* **Other resources** [:octicons-tag-16:{ title="from Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: learning resources with the usage "Embedding in course" or "Template" that you own, for example a test, a wiki or a course template.
+
+A focus only appears if you own at least one matching learning resource with a status from "Preparation" to "Finished". The focus selection itself becomes visible as soon as more than one focus applies to you. In the example shown above, all three focus entries are available, "Other resources" is selected.
 
 * The participants from **all** courses you coach are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
 * Coaches only see the participants they coach.
-* The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.<br>
-In the example shown above, the coach can access presorted lists that correspond to their two roles as coach and as owner.
+* The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.
 * In the list for coaches, you only see courses that are published, finished or at least accessible for coaches.
+
+!!! tip "This is where you find your embedded resources and your templates"
+
+    The focus "Other resources" is intended for people without author rights. You see it if you have neither the role Author nor Learning resource manager nor Administrator. With one of these roles, you manage the same resources in [Authoring](Authoring.md); the focus is then not offered to you. For all other owners, it is the only way to a learning resource that is embedded in someone else's course.
 
 
 [To the top of the page ^](#courses)
@@ -23,7 +30,7 @@ In the example shown above, the coach can access presorted lists that correspond
 
 ### Predefined filter tabs [:octicons-tag-16:{ title="from Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
 
-Predefined filter tabs are available above the list. They narrow down which courses are displayed:
+Predefined filter tabs are available above the list. They narrow down which courses are displayed. In the focus entries "As coach" and "As owner", six tabs are available:
 
 * **Favourites**: only the courses you have marked as a favourite.
 * **All**: all courses regardless of status.
@@ -31,6 +38,8 @@ Predefined filter tabs are available above the list. They narrow down which cour
 * **Published**: only courses with the status "Published".
 * **Access for coach**: only courses with the status "Access for coach".
 * **Finished**: only courses with the status "Finished".
+
+In the focus "Other resources", only the three tabs **Favourites**, **All** and **Finished** are available. The default when opening is **All** here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status" and "Type". If your resources belong to educational products, the filter "Products" is added.
 
 For more information on working with filters and filter tabs in general, see [Working with tables](../basic_concepts/Table_Concept.md).
 
@@ -83,7 +92,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **Reference**
 * **Begin** (begin of the implementation period of this course)
 * **End** (end of the implementation period of this course)
-* **Ref.**
+* **Ref.** (number of references, only with an active Course Planner)
 * **Status** ("Review", "Published", "Finished")
 * **Participants** (number of all participants)
 * **Visited** (number of participants who have already visited this course)
@@ -99,6 +108,10 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **Assessment tool** (clickable icon that leads directly to the assessment tool of this course)
 * **Info page** (clickable light bulb icon that leads directly to the information entered in the course under `Course > Administration > Settings`)
 
+At the right edge of each row, the three-dot menu opens the actions for this entry: **Assessment tool**, **Info page** and **Open course**. The menu contains the entry "Assessment tool" only for courses and tests.
+
+In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Favourite, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Ref., Status and Info page.
+
 !!! tip "Exact numbers for the success status"
 
     Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
@@ -112,7 +125,8 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - Overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Authoring - Overview >](Authoring.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Finding courses >](Courses.md)
 
