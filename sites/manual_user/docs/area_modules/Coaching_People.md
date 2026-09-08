@@ -13,7 +13,7 @@ The menu item "People" in the Coaching Tool shows the list of **all participants
 
   * The participants from **all** coached courses are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
   * Each coach only sees the participants they coach.
-  * The participants you coach are **grouped and assigned to the roles** you have in relation to them.<br>
+  * The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.<br>
   In the example shown above, the coach can access presorted lists that correspond to their roles:
     * as coach
     * as course owner
@@ -41,9 +41,11 @@ The menu item "People" in the Coaching Tool shows the list of **all participants
 
 You can define the displayed columns yourself by clicking on the gear icon at the top right above the list. The available columns may vary depending on the selected role.
 
+With the search field above the list, you narrow down the people by name and further account details. Separate several search terms with a space or a comma; a person appears when all terms apply to them. The asterisk `*` stands for any number of characters, for example `Mei*` for all names beginning with "Mei". The wildcard behaves in the same way as in the [course search of the Coaching Tool](Coaching_Courses.md#courses_search) [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9630)" }](https://track.frentix.com/issue/OO-9630){:target="_blank"}.
+
 * **Status**
 * **Username**
-* **Last name, First name**<br>Clicking on the username, last name or first name of a person leads to the overview of all courses of this participant. This gives the teacher access to the assessment areas of a course of this person, including access to the respective evidence of achievement, the assessment tool of the course and the respective lectures.
+* **Last name, First name**<br>Clicking on the username, last name or first name of a person leads to the overview of all courses of this participant. This gives the teacher access to the assessment areas of a course of this person, including access to the respective evidence of achievement, the assessment tool of the course and the respective lectures. The search field above this course list also knows the asterisk `*` as a wildcard.
 * **E-mail**
 * **Gender**
 * **Birth date**
@@ -55,14 +57,13 @@ You can define the displayed columns yourself by clicking on the gear icon at th
 * **Success status**
     * "Passed"/"Not passed"/"Not specified" in graphic depiction
     * "Passed"/"Not passed"/"Not specified" in numbers
-
-!!! info "Important"
-
-    Hovering the mouse over the graphic bar shows a tooltip with the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
-
 * **Certificates**<br> Number of certificates received / Number of possible certificates
 * **Further actions** _(icon with 3 dots)_<br>
     * Contact (by e-mail)
+
+!!! tip "Exact numbers for the success status"
+
+    Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 [To the top of the page ^](#people)
 
@@ -146,7 +147,7 @@ Your employees are required to take safety or compliance courses. As you are res
 
 ---
 
-### Confirm pending memberships {: #linemanager_educationmanager_confirm_membership}
+### Confirm pending memberships [:octicons-tag-16:{ title="from Release 20.1.5 (OO-8892)" }](https://track.frentix.com/issue/OO-8892){:target="_blank"} {: #linemanager_educationmanager_confirm_membership}
 
 Line managers and education managers often decide whether learners can participate in a training measure. In OpenOlat, they can be given the option to accept or reject pending memberships.
 
@@ -154,7 +155,7 @@ To do this, select the relevant person in the Coaching Tool and open the **detai
 
 At the top right of the detail view, you will find the two **buttons "Accept" and "Reject"** with which you decide on a membership.
 
-Alternatively and more simply, you can also use the **link within the notification**.
+Alternatively and more simply, you can also use the **link within the notification**. If the invoice module is active, the button "Pending confirmations" on the Coaching overview additionally leads to a list of all open memberships; its search field knows the asterisk `*` as a wildcard.
 
 ![Buttons Accept and Reject for a pending membership, reached via the link Go to confirmation and the tab Bookings, in the detail view of a person in Coaching.](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
 
@@ -193,11 +194,11 @@ If you, as a line manager or education manager, want certain rights, you can hav
 [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
+[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 **Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>

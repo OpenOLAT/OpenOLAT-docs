@@ -2,7 +2,7 @@
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank"}
 
-The "Courses" menu item gives you access to the courses and possibly other learning resources available to you. Click on the "Courses" menu item in the main navigation at the top.
+The "Courses" menu item gives you access to the courses and possibly other learning resources available to you. Click on the "Courses" menu item in the main navigation at the top. The area is open to all logged-in users; guests and accounts with the role Invitee do not see it.
 
 ## My courses
 
@@ -28,19 +28,13 @@ The system administration provides the available execution periods through the "
 !!! info "Important"
     Sorting by execution period is chronological according to the **time frame** and not alphabetical by the label: first by the begin date, without a begin date by the end date. Within the same period the sorting is alphabetical. Courses without an execution period always appear at the end of the list.
 
-!!! note "Module Time periods"
-    How administrators manage the time periods.<br>
-    [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
-
-!!! note "Filter options"
-    More on how to best filter your view.<br>
-    [Filter options and table concept](../basic_concepts/Table_Concept.md)
+How administrators manage the time periods is described on the page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md). How you filter your view is described under [Working with tables](../basic_concepts/Table_Concept.md).
 
 You have two options for viewing the courses. You can display the desired courses in the table view as shown in the screenshot above or in the list view and also select the desired display columns.
 
 ### Search
 
-Use the search function to find all the learning resources you have access to. Enter a keyword or the course title and have the matching courses or learning resources displayed. Unfold the filter option to further narrow the search based on the filters.
+Use the search function to find all the learning resources you have access to. Enter a keyword or the course title and have the matching courses or learning resources displayed. If you do not know the exact spelling, use the asterisk `*` as a wildcard for any number of characters: `Blog*` finds courses whose title begins with "Blog", `ab*cd` courses whose title begins with "ab" and ends with "cd". If you put the search term in quotation marks, for example `"Blog"`, the search only finds courses whose title reads exactly like that. Unfold the filter option to further narrow the search based on the filters.
 
 ![Search field with a keyword, active filters below it and one hit as a tile, Search tab in the My courses area](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
 
