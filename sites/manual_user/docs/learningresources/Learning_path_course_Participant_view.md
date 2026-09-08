@@ -36,11 +36,11 @@ The visualized display and the information provided give learners a quick and co
 
     With the arrows, learners navigate to the next accessible course element and thus through the entire course.
 
-    If requirements for the following course element are not yet met, for example a missing confirmation or a test not yet taken, learners have no access to the next course element. OpenOlat displays a corresponding message.
+    If the requirements of **the previous** course element are not yet met, for example a missing confirmation or a test not yet taken, learners have no access to the following course element. **OpenOlat displays a corresponding message**.
 
-    ![Message that the course element is not accessible due to a rule because the previous course element has not yet been completed, with the button Link to course element](assets/Lernfpad_Meldung_Zuganenglichkeit.png){ class="shadow lightbox" }
+    If "Confirmation by participant" is selected as the completion criterion, the toggle button "Mark as done" appears next to the arrow navigation. With it learners confirm that they have worked on the course element.
 
-    If "Confirmation by participant" is selected as the completion criterion, the button "Mark as done" appears next to the arrow navigation. With it learners confirm that they have worked on the course element.
+    ![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 

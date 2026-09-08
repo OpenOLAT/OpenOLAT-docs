@@ -150,3 +150,9 @@ A number of course elements can be used either for summative or formative assess
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Assessment.md#Assessment-_test_kursbaustein) (automatic & manual assessment)
+
+[Learning path courses](../learningresources/Learning_path_course.md) control the progress with the completion criterion, which you set in the course editor for each course element in the tab "Learning path". With the criterion "Confirmation by participant", the participants confirm the completion themselves with the toggle button "Mark as done".
+
+![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
+
+An overview of all criteria can be found on the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md#completion_criterion).
