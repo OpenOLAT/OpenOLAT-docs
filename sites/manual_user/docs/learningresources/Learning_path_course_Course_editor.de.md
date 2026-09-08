@@ -16,7 +16,7 @@ Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, fügen Si
 
 Lernpfadkurse haben im Kurseditor anstelle der Tabs "Sichtbarkeit" und "Zugang" den Tab "Lernpfad". Hier konfigurieren Sie:
 
-![Tab Lernpfad eines Kursbausteins mit Durchführung, Relatives Datum, Freigabedatum, Zu bearbeiten bis, Bearbeitungszeit in Minuten und Erledigungskriterium](assets/Lernpfad_tab17_de.png){ class="shadow lightbox" }
+![Tab Lernpfad eines Kursbausteins mit Durchführung, Relatives Datum, Freigabedatum, Zu bearbeiten bis, Bearbeitungszeit in Minuten und Erledigungskriterium](assets/learning_path_tab_v1_de.png){ class="shadow lightbox" }
 
 * **Durchführung**
     * **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und zählt bei der prozentualen Berechnung des Lernfortschritts.
@@ -35,7 +35,7 @@ Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Aus
 
 Mit "Ausnahmen einschalten" legen Sie differenziert fest, wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Zunächst nehmen Sie eine Grundeinstellung vor, anschliessend definieren Sie Ausnahmen von dieser Grundeinstellung. Mehrere Ausnahmen sind möglich (Oder-Verknüpfung). So kann ein Kursbaustein grundsätzlich obligatorisch sein, aber für bestimmte Personen oder Gruppen freiwillig oder gar nicht sichtbar (ausgenommen). Mit Ausnahmen setzen Sie individuelle Lernpfade für verschiedene Lernende um.
 
-![Button Ausnahme hinzufügen, aufgeklappt mit den Typen Gruppen, Organisationen, Benutzer:in, Konto-Attribut, Kursbaustein bestanden und Kursdurchführung Nummer, Tab Lernpfad im Kurseditor](assets/learning_path_exceptions_v1_de.png){ class="shadow lightbox" }
+![Button Ausnahme hinzufügen, aufgeklappt mit den Typen Gruppen, Organisationen, Benutzer:in, Konto-Attribut, Kursbaustein bestanden und Kursdurchführung Nummer, Tab Lernpfad im Kurseditor](assets/learning_path_exceptions_v2_de.png){ class="shadow lightbox" }
 
 Die Ausnahmen können sich auf folgende Aspekte beziehen:
 

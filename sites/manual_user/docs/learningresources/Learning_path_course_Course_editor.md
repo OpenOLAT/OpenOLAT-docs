@@ -16,7 +16,7 @@ If certain areas of the course are to have a different setting, add a [course el
 
 In the course editor, learning path courses have the tab "Learning path" instead of the tabs "Visibility" and "Access". Here you configure:
 
-![Tab Learning path of a course element with Execution, Relative dates, Release date, Due date, Learning time in minutes and Completion criterion](assets/Lernpfad_tab17_en.png){ class="shadow lightbox" }
+![Tab Learning path of a course element with Execution, Relative dates, Release date, Due date, Learning time in minutes and Completion criterion](assets/learning_path_tab_v1_en.png){ class="shadow lightbox" }
 
 * **Execution**
     * **Mandatory**: The completion of the course element is binding and counts in the percentage calculation of the learning progress.
@@ -35,7 +35,7 @@ These settings are available for almost all course elements. An exception is the
 
 With "Enable exceptions" you define in a differentiated way who may see and work on the respective course element and who may not. First you make a basic setting, then you define exceptions to this basic setting. Several exceptions are possible (or-link). For example, a course element can be mandatory in general but optional or not visible at all (excluded) for certain persons or groups. With exceptions you implement individual learning paths for different learners.
 
-![Button Add exception, expanded with the types Groups, Organisations, Users, User property, Course element passed and Course execution number, tab Learning path in the course editor](assets/learning_path_exceptions_v1_de.png){ class="shadow lightbox" }
+![Button Add exception, expanded with the types Groups, Organisations, Users, User property, Course element passed and Course execution number, tab Learning path in the course editor](assets/learning_path_exceptions_v2_en.png){ class="shadow lightbox" }
 
 The exceptions can refer to the following aspects:
 
