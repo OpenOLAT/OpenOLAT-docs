@@ -3,7 +3,7 @@
 
 ![Markierter Button Kurse in der Gruppe Coaching führt zur Liste Ihrer betreuten Kurse, auf der Einstiegsseite Coaching.](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
 
-![Kursliste in Kacheldarstellung mit dem Fokus Als Betreuer:in, den Filter-Tabs Favoriten bis Beendet und Filtern wie Durchführungszeitraum und Erfolgsstatus, im Werkzeug Kurse.](assets/coaching_courses2_v1_de.png){ class="shadow lightbox" }
+![Kursliste in Kacheldarstellung mit dem Fokus Als Betreuer:in, den Filter-Tabs Favoriten bis Beendet und Filtern wie Durchführungszeitraum und Erfolgsstatus, im Werkzeug Kurse.](assets/coaching_courses2_v2_de.png){ class="shadow lightbox" }
 
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
@@ -11,9 +11,9 @@
 Der Menüpunkt "Kurse" im Coaching Tool zeigt die Liste aller **Kurse**, in denen Sie **Betreuer:in** oder **Besitzer:in** sind.
 
 * Es werden die Teilnehmenden aus **allen** von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
-* Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
-* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br>
-Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Kursbesitzer:in entsprechen.
+* Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
+* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuer:in gegenüber dieser Person haben.<br>
+Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Besitzer:in entsprechen.
 * In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
 
 
@@ -21,7 +21,7 @@ Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufe
 
 ---
 
-### Vordefinierte Filter-Tabs {: #courses_filters}
+### Vordefinierte Filter-Tabs [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
 
 Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränken ein, welche Kurse angezeigt werden:
 
@@ -38,13 +38,29 @@ Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden 
 
 ---
 
+### Kurse suchen {: #courses_search}
+
+Mit dem Suchfeld oberhalb der Liste grenzen Sie die Kurse nach Titel, Kennzeichen oder externer ID ein. Die Suche unterscheidet nicht zwischen Gross- und Kleinschreibung. Ohne weitere Zeichen findet sie alle Kurse, die den Suchbegriff an beliebiger Stelle enthalten.
+
+Kennen Sie die genaue Schreibweise nicht, setzen Sie den Stern `*` als Platzhalter ein. Er steht für beliebig viele beliebige Zeichen [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9630)" }](https://track.frentix.com/issue/OO-9630){:target="_blank"}:
+
+* `Blog*` findet Kurse, deren Titel mit "Blog" beginnt.
+* `*2026` findet Kurse, deren Titel auf "2026" endet.
+* `ab*cd` findet Kurse, deren Titel mit "ab" beginnt und auf "cd" endet, unabhängig davon, was dazwischen steht.
+
+Der Platzhalter verhält sich damit gleich wie im Bereich [Kurse](Courses.de.md).
+
+[Zum Seitenanfang ^](#courses)
+
+---
+
 ### WAS zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8806)" }](https://track.frentix.com/issue/OO-8806) {: #courses_what}
 
 !!! tip "Tipp"
 
     Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listen- und der Kacheldarstellung wechseln.
 
-![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v1_de.png){ class="shadow lightbox" }
+![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" }
 
 
 Sie sehen auf einen Blick zum Beispiel
@@ -74,10 +90,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Nicht besucht** (Anzahl der Teilnehmenden, die diesen Kurs noch nie besucht haben)
 * **Letzter Besuch** (Wann wurde dieser Kurs zuletzt von einer/einem Teilnehmenden besucht)
 * **durchschnittlicher Fortschritt** (Durchschnitt aus den Fortschrittswerten aller Teilnehmenden, die den Kurs schon einmal besucht haben)
-* **Erfolgsstatus** (grafisch und in Zahlen: "Bestanden" | "Nicht bestanden" | "Keine Angabe")<br>
-
-!!! info "Tooltip zum Erfolgsstatus"
-    Fährt man mit der Maus über den grafischen Balken, zeigt ein Tooltip die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+* **Erfolgsstatus** (grafisch und in Zahlen: "Bestanden" | "Nicht bestanden" | "Keine Angabe")
 * **Bestanden**
 * **Nicht bestanden**
 * **Keine Angabe**
@@ -85,6 +98,10 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
 * **Informationsseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
+
+!!! tip "Genaue Zahlen zum Erfolgsstatus"
+
+    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 
 [Zum Seitenanfang ^](#courses)
@@ -96,7 +113,8 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Kurse finden >](Courses.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>

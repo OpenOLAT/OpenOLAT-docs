@@ -2,7 +2,7 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank"}
 
-Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der Hauptnavigation oben auf den Punkt "Kurse".
+Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der Hauptnavigation oben auf den Punkt "Kurse". Der Bereich steht allen angemeldeten Benutzer:innen offen; Gäste und Konten mit der Rolle Einladung sehen ihn nicht.
 
 ## Meine Kurse
 
@@ -28,19 +28,13 @@ Die verfügbaren Durchführungszeiträume stellt die Systemadministration über 
 !!! info "Wichtig"
     Die Sortierung nach Durchführungszeitraum erfolgt chronologisch nach dem **Zeitrahmen** und nicht alphabetisch nach der Bezeichnung: zuerst nach dem Beginndatum, ohne Beginndatum nach dem Enddatum. Innerhalb desselben Zeitraums wird alphabetisch sortiert. Kurse ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
 
-!!! note "Modul Zeitabschnitte"
-    Wie Administrator:innen die Zeitabschnitte verwalten.<br>
-    [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
-
-!!! note "Filteroptionen"
-    Mehr dazu, wie Sie Ihre Ansicht optimal filtern können.<br>
-    [Filteroptionen und Tabellenkonzept](../basic_concepts/Table_Concept.de.md)
+Wie Administrator:innen die Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md). Wie Sie Ihre Ansicht filtern, lesen Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
 Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die gewünschten Kurse in der Tabellenansicht wie im Screenshot oben oder in der Listensicht anzeigen lassen und auch die gewünschten Anzeigespalten auswählen.
 
 ### Suchen
 
-Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Klappen Sie die Filteroption auf um die Suche anhand der Filter weiter einzugrenzen.
+Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Kennen Sie die genaue Schreibweise nicht, setzen Sie den Stern `*` als Platzhalter für beliebig viele Zeichen ein: `Blog*` findet Kurse, deren Titel mit "Blog" beginnt, `ab*cd` Kurse, deren Titel mit "ab" beginnt und auf "cd" endet. Setzen Sie den Suchbegriff in Anführungszeichen, zum Beispiel `"Blog"`, findet die Suche nur Kurse, deren Titel genau so lautet. Klappen Sie die Filteroption auf um die Suche anhand der Filter weiter einzugrenzen.
 
 ![Suchfeld mit einem Stichwort, aktive Filter darunter und ein Treffer als Kachel, Tab Suche im Bereich Meine Kurse](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
 

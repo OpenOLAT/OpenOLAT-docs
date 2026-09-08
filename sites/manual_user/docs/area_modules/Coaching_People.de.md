@@ -41,9 +41,11 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
 
 Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben über der Liste auf das Zahnrad-Icon klicken. Die verfügbaren Spalten können je nach gewählter Rolle variieren.
 
+Mit dem Suchfeld oberhalb der Liste grenzen Sie die Personen nach Namen und weiteren Kontoangaben ein. Mehrere Suchbegriffe trennen Sie mit Leerzeichen oder Komma; eine Person erscheint, wenn alle Begriffe auf sie zutreffen. Der Stern `*` steht für beliebig viele beliebige Zeichen, zum Beispiel `Mei*` für alle Namen, die mit "Mei" beginnen. Der Platzhalter verhält sich gleich wie in der [Kurssuche des Coaching Tools](Coaching_Courses.de.md#courses_search) [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9630)" }](https://track.frentix.com/issue/OO-9630){:target="_blank"}.
+
 * **Status**
 * **Anmeldename**
-* **Nachname, Vorname**<br>Ein Klick auf den Anmeldenamen, Nachnamen oder Vornamen einer Person führt zur Übersicht aller Kurse dieser Teilnehmer:in. So erhält die/der Lehrende Zugriff auf die Assessmentbereiche eines Kurses der Person inklusive des Zugriffes auf den jeweiligen Leistungsnachweis, das Bewertungswerkzeug des Kurses sowie die jeweiligen Lektionen.
+* **Nachname, Vorname**<br>Ein Klick auf den Anmeldenamen, Nachnamen oder Vornamen einer Person führt zur Übersicht aller Kurse dieser Teilnehmer:in. So erhält die/der Lehrende Zugriff auf die Assessmentbereiche eines Kurses der Person inklusive des Zugriffes auf den jeweiligen Leistungsnachweis, das Bewertungswerkzeug des Kurses sowie die jeweiligen Lektionen. Auch das Suchfeld über dieser Kursliste kennt den Stern `*` als Platzhalter.
 * **E-Mail**
 * **Geschlecht**
 * **Geburtsdatum**
@@ -55,14 +57,13 @@ Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben übe
 * **Erfolgsstatus**
     * "Bestanden"/"Nicht bestanden"/"keine Angabe" in grafischer Darstellung
     * "Bestanden"/"Nicht bestanden"/"keine Angabe" in Zahlen
-
-!!! info "Wichtig"
-
-    Fährt man mit der Maus über den grafischen Balken, zeigt ein Tooltip die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
-
 * **Zertifikate**<br> Anzahl der erhaltenen Zertifikate / Anzahl der möglichen Zertifikate
 * **Weitere Aktionen** _(Icon mit 3 Punkten)_<br>
     * Kontaktieren (per E-Mail)
+
+!!! tip "Genaue Zahlen zum Erfolgsstatus"
+
+    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 [Zum Seitenanfang ^](#people)
 
@@ -146,7 +147,7 @@ Ihre Mitarbeiter:innen sind verpflichtet, Sicherheitskurse oder Compliancekurse 
 
 ---
 
-### Ausstehende Mitgliedschaften genehmigen {: #linemanager_educationmanager_confirm_membership}
+### Ausstehende Mitgliedschaften genehmigen [:octicons-tag-16:{ title="ab Release 20.1.5 (OO-8892)" }](https://track.frentix.com/issue/OO-8892){:target="_blank"} {: #linemanager_educationmanager_confirm_membership}
 
 Oft entscheiden Linienvorgesetzte und Ausbildungsverantwortliche, ob Lernende an einer Bildungsmassnahme teilnehmen können. In OpenOlat kann ihnen die Möglichkeit eingerichtet werden, ausstehende Mitgliedschaften zu akzeptieren oder abzulehnen.
 
@@ -154,7 +155,7 @@ Wählen Sie dazu im Coaching Tool die betreffende Person und öffnen Sie die **D
 
 Rechts oben innerhalb der Detailansicht finden Sie die beiden **Buttons "Akzeptieren" und "Ablehnen"** mit denen Sie über eine Mitgliedschaft entscheiden.
 
-Alternativ und einfacher können Sie auch den **Link innerhalb der Benachrichtigung** benutzen.
+Alternativ und einfacher können Sie auch den **Link innerhalb der Benachrichtigung** benutzen. Ist das Rechnungsmodul aktiv, führt zusätzlich der Button "Ausstehende Bestätigungen" auf der Coaching-Übersicht zu einer Liste aller offenen Mitgliedschaften; ihr Suchfeld kennt den Stern `*` als Platzhalter.
 
 ![Buttons Akzeptieren und Ablehnen zu einer ausstehenden Mitgliedschaft, erreicht über den Link Zur Bestätigung gehen und den Tab Buchungen, in der Detailansicht einer Person im Coaching.](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
 
@@ -193,11 +194,11 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
+[Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
