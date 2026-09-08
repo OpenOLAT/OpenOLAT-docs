@@ -137,6 +137,6 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewert
 
 Die Fortschrittskontrolle steuern [Lernpfadkurse](../learningresources/Learning_path_course.de.md) über das Erledigungskriterium, das Sie im Kurseditor pro Kursbaustein im Tab "Lernpfad" festlegen. Mit dem Kriterium "Bestätigung durch Benutzer:in" bestätigen die Teilnehmenden die Bearbeitung selbst über den Toggle-Button "Als erledigt markieren".
 
-![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
+![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
 
 Eine Übersicht aller Kriterien finden Sie auf der Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md#completion_criterion).

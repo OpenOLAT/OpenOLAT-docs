@@ -40,7 +40,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
     Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation der Toggle-Button "Als erledigt markieren". Damit bestätigen die Lernenden, dass sie den Kursbaustein bearbeitet haben.
 
-    ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
+    ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 

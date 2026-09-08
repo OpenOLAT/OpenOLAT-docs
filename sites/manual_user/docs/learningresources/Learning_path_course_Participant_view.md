@@ -40,7 +40,7 @@ The visualized display and the information provided give learners a quick and co
 
     If "Confirmation by participant" is selected as the completion criterion, the toggle button "Mark as done" appears next to the arrow navigation. With it learners confirm that they have worked on the course element.
 
-    ![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
+    ![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
