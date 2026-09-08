@@ -36,11 +36,11 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
     Mit den Pfeilen navigieren die Lernenden zum jeweils nächsten zugänglichen Kursbaustein und so durch den gesamten Kurs.
 
-    Sind für den folgenden Kursbaustein Anforderungen noch nicht erfüllt, zum Beispiel eine fehlende Bestätigung oder ein noch nicht absolvierter Test, haben die Lernenden keinen Zugriff auf den nächsten Kursbaustein. OpenOlat zeigt eine entsprechende Meldung.
+    Sind die Anforderungen **des vorherigen** Kursbausteins noch nicht erfüllt, zum Beispiel eine fehlende Bestätigung oder ein noch nicht absolvierter Test, haben die Lernenden keinen Zugriff auf den folgenden Kursbaustein. **OpenOlat zeigt eine entsprechende Meldung**.
 
-    ![Meldung, dass der Kursbaustein aufgrund einer Regel nicht zugänglich ist, weil der vorherige Baustein noch nicht abgeschlossen wurde, mit dem Button Link zum Kursbaustein](assets/Lernfpad_Meldung_Zuganenglichkeit.png){ class="shadow lightbox" }
+    Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation der Toggle-Button "Als erledigt markieren". Damit bestätigen die Lernenden, dass sie den Kursbaustein bearbeitet haben.
 
-    Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation der Button "Als erledigt markieren". Damit bestätigen die Lernenden, dass sie den Kursbaustein bearbeitet haben.
+    ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/Lernpfad_Als_erledigt_markieren_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 
