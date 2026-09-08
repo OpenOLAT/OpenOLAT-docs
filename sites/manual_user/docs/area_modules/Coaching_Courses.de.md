@@ -1,20 +1,27 @@
 # Coaching - Kurse {: #courses}
 
 
-![Markierter Button Kurse in der Gruppe Coaching führt zur Liste Ihrer betreuten Kurse, auf der Einstiegsseite Coaching.](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
-
-![Kursliste in Kacheldarstellung mit dem Fokus Als Betreuer:in, den Filter-Tabs Favoriten bis Beendet und Filtern wie Durchführungszeitraum und Erfolgsstatus, im Werkzeug Kurse.](assets/coaching_courses2_v2_de.png){ class="shadow lightbox" }
+![Kurse im Coaching Tool mit den Fokus-Einträgen Als Betreuer:in, Als Besitzer:in und dem gewählten Weitere Ressourcen, darunter die Tabs Favoriten, Alle und Beendet und die Spalten ID bis Status.](assets/coaching_courses2_v3_de.png){ class="shadow lightbox" }
 
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
 
-Der Menüpunkt "Kurse" im Coaching Tool zeigt die Liste aller **Kurse**, in denen Sie **Betreuer:in** oder **Besitzer:in** sind.
+Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie zuständig sind. Oberhalb der Liste wählen Sie mit dem **Fokus**, welche Ressourcen die Liste lädt:
+
+* **Als Betreuer:in**: Kurse, in denen Sie Betreuer:in sind.
+* **Als Besitzer:in**: Kurse mit dem Verwendungszweck "Eigenständig" oder "Verwendung im Course Planner", die Sie besitzen.
+* **Weitere Ressourcen** [:octicons-tag-16:{ title="ab Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: Lernressourcen mit dem Verwendungszweck "Einbindung in Kurs" oder "Template", die Sie besitzen, zum Beispiel ein Test, ein Wiki oder eine Kursvorlage.
+
+Ein Fokus erscheint nur, wenn Sie mindestens eine passende Lernressource im Status "Vorbereitung" bis "Beendet" besitzen. Die Fokus-Auswahl selbst wird sichtbar, sobald mehr als ein Fokus für Sie zutrifft. Im oben gezeigten Beispiel stehen alle drei Fokus-Einträge zur Verfügung, gewählt ist "Weitere Ressourcen".
 
 * Es werden die Teilnehmenden aus **allen** von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
 * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
-* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuer:in gegenüber dieser Person haben.<br>
-Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren beiden Rollen als Betreuer:in und als Besitzer:in entsprechen.
+* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuer:in gegenüber dieser Person haben.
 * In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
+
+!!! tip "Hier finden Sie Ihre eingebundenen Ressourcen und Ihre Vorlagen"
+
+    Der Fokus "Weitere Ressourcen" richtet sich an Personen ohne Autor:innenrechte. Sie sehen ihn, wenn Sie weder die Rolle Autor:in noch Lernressourcenverwalter:in noch Administrator:in besitzen. Mit einer dieser Rollen verwalten Sie dieselben Ressourcen im [Autorenbereich](Authoring.de.md); der Fokus wird Ihnen dann nicht angeboten. Für alle anderen Besitzer:innen ist er der einzige Weg zu einer Lernressource, die in einem fremden Kurs eingebunden ist.
 
 
 [Zum Seitenanfang ^](#courses)
@@ -23,7 +30,7 @@ Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufe
 
 ### Vordefinierte Filter-Tabs [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
 
-Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränken ein, welche Kurse angezeigt werden:
+Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränken ein, welche Kurse angezeigt werden. In den Fokus-Einträgen "Als Betreuer:in" und "Als Besitzer:in" stehen sechs Tabs bereit:
 
 * **Favoriten**: nur die von Ihnen als Favorit markierten Kurse.
 * **Alle**: alle Kurse unabhängig vom Status.
@@ -31,6 +38,8 @@ Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränk
 * **Veröffentlicht**: nur Kurse im Status "Veröffentlicht".
 * **Freigabe Betreuer:innen**: nur Kurse im Status "Freigabe Betreuer:innen".
 * **Beendet**: nur Kurse im Status "Beendet".
+
+Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs **Favoriten**, **Alle** und **Beendet** zur Verfügung. Standard beim Öffnen ist hier **Alle**. Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu.
 
 Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
@@ -83,7 +92,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Kennzeichen**
 * **Beginn** (Beginn des Durchführungszeitraums dieses Kurses)
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses)
-* **Referenzierungen**
+* **Ref.** (Anzahl der Referenzierungen, nur bei aktivem Course Planner)
 * **Status** ("in Review", "Veröffentlicht", "Beendet")
 * **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
 * **Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
@@ -99,6 +108,10 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
 * **Informationsseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
 
+Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: **Bewertungswerkzeug**, **Informationsseite** und **In neuem Tab öffnen**. Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
+
+Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Ref., Status und Informationsseite.
+
 !!! tip "Genaue Zahlen zum Erfolgsstatus"
 
     Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
@@ -112,7 +125,8 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Autorenbereich - Übersicht >](Authoring.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Kurse finden >](Courses.de.md)
 
