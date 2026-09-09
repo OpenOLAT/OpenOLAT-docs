@@ -55,13 +55,11 @@ The text entered in this field will be displayed in the course information.
 
 This section is edited by **course owners**. Coaches do not reach it; they find the "Events" tool in the course toolbar.
 
-### Activation and release
-
 #### Event & absence management {: #lecture_enabled }
 
 This toggle is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
 
-If you enable event and absence management for the current course, the remaining settings of this section appear. The fields under "Exam and Safe Exam Browser" are only added once "Event can be marked as an exam" is switched on.
+If you enable event and absence management for the current course, the remaining settings of this section appear. The fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" are only added once "Event can be marked as an exam" is switched on.
 
 In addition, the "Events and Absences" menu will then appear in the course administration. As the **course owner**, you can enter events and absences there once the configuration is complete (at runtime).
 
@@ -88,8 +86,6 @@ Whether you can switch on overwriting at all is controlled by the administration
 
     In both cases the default values shown are effective in the course.
 
-### Attendance and quotas
-
 #### Roll call enabled {: #roll_call_enabled }
 
 If attendance monitoring is enabled, the additional configuration options **"Calculate attendance rate"** and **"Attendance quota global in %"** are available.
@@ -107,8 +103,6 @@ An event consists of 10 sessions. The participant was absent from one of the ses
 A global attendance rate is calculated for all participants across all dates of the current course and displayed in the personal menu under "Absences".
 The global absence rate specified here is used to assess the attendance rate.
 
-### Calendar synchronization
-
 #### Synchronize teacher calendar {: #teacher_calendar_sync }
 
 If this option is selected, course dates are entered into the lecturers' personal calendars. (These dates are dates for which absences can be recorded.)
@@ -116,8 +110,6 @@ If this option is selected, course dates are entered into the lecturers' persona
 #### Synchronize course calendar {: #course_calendar_sync }
 
 If this option is selected, events are entered in the course calendar. If this option is not selected, only the simple events are listed in the course calendar; events with the option to record an absence are no longer listed.
-
-### Exam and Safe Exam Browser
 
 #### Event can be marked as an exam {: #event_as_exam }
 

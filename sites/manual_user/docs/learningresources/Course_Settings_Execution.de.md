@@ -56,14 +56,12 @@ Die Eingabe in diesem Textfeld wird in der Kursinfo angezeigt.
 
 Diesen Abschnitt bearbeiten **Kursbesitzende**. Betreuende erreichen ihn nicht; sie finden das Werkzeug "Termine" in der Kurs-Werkzeugleiste.
 
-### Aktivierung und Freigabe
-
 
 #### Termin- und Absenzenverwaltung {: #lecture_enabled }
 
 Dieser Toggle steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul fehlt der ganze Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs" im Tab "Durchführung".
 
-Wird hier für den aktuellen Kurs die Termin- und Absenzenverwaltung eingeschaltet, erscheinen die übrigen Einstellungen dieses Abschnitts. Die Felder unter "Prüfung und Safe Exam Browser" kommen erst dazu, wenn "Termin kann als Prüfung markiert werden" eingeschaltet ist.
+Wird hier für den aktuellen Kurs die Termin- und Absenzenverwaltung eingeschaltet, erscheinen die übrigen Einstellungen dieses Abschnitts. Die Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" kommen erst dazu, wenn "Termin kann als Prüfung markiert werden" eingeschaltet ist.
 
 Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" in der Kurs-Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
 
@@ -90,8 +88,6 @@ Ob Sie das Überschreiben überhaupt einschalten können, steuert die Administra
 
     In beiden Fällen sind die angezeigten Vorgabewerte der Administration im Kurs wirksam.
 
-### Anwesenheit und Quoten
-
 
 #### Anwesenheitskontrolle einschalten {: #roll_call_enabled }
 
@@ -110,8 +106,6 @@ Ein Termin besteht aus 10 Einheiten. An einer der Einheiten war der/die Teilnehm
 Über alle Termine des aktuellen Kurses hinweg wird bei allen Teilnehmer:innen eine globale Anwesenheitsquote errechnet und im persönlichen Menü unter dem Punkt "Absenzen" angezeigt. 
 Die hier angegebene globale Absenzquote wird für die Beurteilung der Anwesenheitsquote verwendet.
 
-### Kalendersynchronisation
-
 
 #### Dozentenkalender synchronisieren {: #teacher_calendar_sync }
 
@@ -120,8 +114,6 @@ Ist die Option gewählt, werden Kurs-Termine bei den Dozenten in ihren persönli
 #### Kurs Kalender synchronisieren {: #course_calendar_sync }
 
 Ist die Option gewählt, werden Termine im Kurskalender eingetragen. Ist die Option nicht gewählt, sind nur noch die einfachen Termine im Kurskalender aufgeführt, die Termine mit der Möglichkeit zum Erfassen einer Absenz nicht mehr.
-
-### Prüfung und Safe Exam Browser
 
 
 #### Termin kann als Prüfung markiert werden {: #event_as_exam }
