@@ -7,7 +7,7 @@ Course owners can additionally activate certain toolbar tools under:<br>
 
 Activated tools are then displayed directly in the toolbar, independent of the course structure.
 
-![Activated tools in the course toolbar](assets/toolbar_b.png){ class="shadow lightbox" }
+![Administration, State, Role and My course frame the activated tools, which appear with icon and label and wrap onto a second row. Toolbar of a course.](assets/course_toolbar_activated_tools_v1_en.png){ class="shadow lightbox" }
 
 ## Course Search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 

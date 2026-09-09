@@ -3,11 +3,9 @@
 Kursbesitzer:innen können zusätzlich bestimmte Werkzeuge der Toolbar aktivieren unter:<br>
 `Kurs > Administration > Einstellungen`
 
-![Auswahl der aktivierbaren Werkzeuge im Tab Toolbar der Kurseinstellungen](assets/Toolbar_154.png){ class="shadow lightbox" }
-
 Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar unabhängig von der Kursstruktur angezeigt.
 
-![Aktivierte Werkzeuge in der Toolbar des Kurses](assets/Toolbar15a.png){ class="shadow lightbox" }
+![Administration, Status, Rolle und Mein Kurs rahmen die aktivierten Werkzeuge ein, die mit Symbol und Beschriftung erscheinen und auf eine zweite Zeile umbrechen. Werkzeugleiste eines Kurses.](assets/course_toolbar_activated_tools_v1_de.png){ class="shadow lightbox" }
 
 ## Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
