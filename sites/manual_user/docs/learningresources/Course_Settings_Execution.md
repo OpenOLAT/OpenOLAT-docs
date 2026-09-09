@@ -1,20 +1,20 @@
 # Course Settings - Tab Execution {: #tab_execution}
 
-Unlike other learning resources, courses still have a "Delivery" tab in the "Settings" menu.
+Unlike other learning resources, courses still have an "Execution" tab in the "Settings" menu.
 
-![course_settings_execution1_v1_en.png](assets/course_settings_execution1_v1_en.png){ class="shadow lightbox"}
+![All settings of the tab one below the other, from Execution period to Calculation of learning progress. Tab Execution in the Settings menu of a course.](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox"}
 
-## Settings for implementation  {: #config_execution}
+## Configuration of execution {: #config_execution}
 
-![1_green_24.png](assets/1_green_24.png) **Implementation period**
+#### Execution period {: #execution_period }
 
 For learning resources of the "Course" type, a duration can be specified. The following options are available:
 
-* _Without_: Wählen Sie diese Option, wenn der Kurs nicht zu einem bestimmten Daten beginnt und aufhört oder Sie den Termin nicht explizit in den Informationen einbauen möchten.
+* _None_: Select this option if the course does not begin and end on a specific date, or if you do not want to include the dates explicitly in the course information.
 
-* _With start and end dates_: The course owner can enter the start and end dates of the course here. The end date includes the final day (11:59 p.m.).
+* _With begin and end date_: The course owner can enter the start and end dates of the course here. The end date includes the final day (11:59 p.m.).
 
-* _Time period_: If you select this option, you will be presented with predefined time periods, such as semesters, to choose from. See point 2.
+* _Time period_: If you select this option, you will be presented with predefined time periods, such as semesters, to choose from. See the section "Time period".
 
 The selected course period is displayed in the course information. 
 
@@ -24,7 +24,7 @@ The selected course period is displayed in the course information.
 
 However, keep the following in mind: 
 
-If "with start and end dates" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. 
+If "With begin and end date" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. 
 
 The end date of the course period is also used for the course lifecycle. The exact implications of this are determined by the OpenOlat administrators. For example, the course could be set to "completed" two days after the end date and/or deleted four weeks after the end date. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. 
 
@@ -35,11 +35,13 @@ In traditional courses, the "Pass" status is determined based on whether the res
     When using the automatic lifecycle, the course status is determined by the end date.
 
 
-![2_green_24.png](assets/2_green_24.png) **Time Period**<br>
-If the OpenOlat administrator has configured time periods (e.g., semesters) at the system level, you can select one of the predefined options here when "Time Period" is selected as the implementation period. The time period then appears as information in the course overview. However, the time period is independent of the course status and course access rights (see the chapter ["Access Configuration"](../learningresources/Access_configuration.md)). It therefore has no effect on visibility or access for course members.
+#### Time period {: #lifecycle }
+
+If the OpenOlat administrator has configured time periods (e.g., semesters) at the system level, you can select one of the predefined options here when "Time period" is selected as the execution period. The time period then appears as information in the course overview. However, the time period is independent of the course status and course access rights (see the chapter ["Access Configuration"](../learningresources/Access_configuration.md)). It therefore has no effect on visibility or access for course members.
 
 
-![3_green_24.png](assets/3_green_24.png) **Implementation place**<br>
+#### Location {: #execution_location }
+
 The location where a course or learning resource takes place. This field is particularly useful for blended learning offerings. For courses that are entirely online, this field can be left blank. Alternatively, you can enter "online" or "Internet" here.
 The text entered in this field will be displayed in the course information.
 
@@ -49,69 +51,102 @@ The text entered in this field will be displayed in the course information.
 ---
 
 
-## Configuring event and absence management in the course {: #config_event_and_absence_management}
+## Configuration of Event & Absence management in course {: #config_event_and_absence_management} [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-![4_green_24.png](assets/4_green_24.png) **Enable event & absence management**<br>
-This option is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the entire section (points 4 to 15) does not appear in the "Execution" tab.
+This section is edited by **course owners**. Coaches do not reach it; they find the "Events" tool in the course toolbar.
 
-If you enable event and absence management for the current course, points 5 to 11 are displayed for further configuration, and with assessment mode allowed additionally points 12 to 15.
+### Activation and release
 
-In addition, the "Events and Absences" menu will then appear under (Course) Administration. As the **course owner**, you can enter appointments and absences there once the configuration is complete (at runtime).
+#### Event & absence management {: #lecture_enabled }
+
+This toggle is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
+
+If you enable event and absence management for the current course, the remaining settings of this section appear. The fields under "Exam and Safe Exam Browser" are only added once "Event can be marked as an exam" is switched on.
+
+In addition, the "Events and Absences" menu will then appear in the course administration. As the **course owner**, you can enter events and absences there once the configuration is complete (at runtime).
 
 !!! note "Note"
 
     Unlike owners, **coaches** can find the capture tool in the toolbar.<br>
-    **Members** find their absences in the [Personal Menu](../personal_menu/Absences.md)
+    **Participants** find their absences in the [personal menu](../personal_menu/Absences.md).
 
 
-![5_green_24.png](assets/5_green_24.png) **Override default configuration**<br>
-If overwriting is permitted, the following checkboxes and input fields can be edited and a specific configuration of the event and absence management can be made for this course.
+#### Override default configuration {: #config_override }
 
-If overwriting is not permitted, the administrator's default setting will be applied. The checkboxes and input fields below remain inactive and display the default value. The functions preset there are nevertheless effective in the course.
+If overwriting is permitted with "Yes", the following checkboxes and input fields can be edited and a specific configuration of the event and absence management can be made for this course.
 
-Whether overwriting can be enabled in the course is controlled by the administration with the setting "Allow override of configuration".
+If the option is set to "No", the administrator's default setting will be applied. The checkboxes and input fields below remain inactive and display the default value. The functions preset there are nevertheless effective in the course.
 
-![6_green_24.png](assets/6_green_24.png) **Roll call enabled**<br>
+Whether you can switch on overwriting at all is controlled by the administration with the setting "Default configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
+
+!!! note "You cannot edit the settings in your course?"
+
+    Greyed-out fields have two possible causes. Look at the field "Override default configuration" itself:
+
+    - **It is clickable and set to "No"**: Set it to "Yes", then the fields below become editable.
+    - **It is greyed out itself**: The administration has set "Default configuration" to "Read-only". Please contact the OpenOlat administration for a release.
+
+    In both cases the default values shown are effective in the course.
+
+### Attendance and quotas
+
+#### Roll call enabled {: #roll_call_enabled }
+
 If attendance monitoring is enabled, the additional configuration options **"Calculate attendance rate"** and **"Attendance quota global in %"** are available.
 
-![7_green_24.png](assets/7_green_24.png) **Calculate attendance rate**<br>
+#### Calculate attendance rate {: #attendance_rate_calculation }
+
 The attendance rate is calculated based on events with multiple units and absences.
 
 **Example:**<br>
 An event consists of 10 sessions. The participant was absent from one of the sessions.<br>
 => This results in an attendance rate of 90%.
 
-![8_green_24.png](assets/8_green_24.png) **Attendance quota global in %**<br>
+#### Attendance quota global in % {: #global_absence_rate }
+
 A global attendance rate is calculated for all participants across all dates of the current course and displayed in the personal menu under "Absences".
 The global absence rate specified here is used to assess the attendance rate.
 
-![9_green_24.png](assets/9_green_24.png) **Synchronize teacher calendar**<br>
+### Calendar synchronization
+
+#### Synchronize teacher calendar {: #teacher_calendar_sync }
+
 If this option is selected, course dates are entered into the lecturers' personal calendars. (These dates are dates for which absences can be recorded.)
 
-![10_green_24.png](assets/10_green_24.png) **Synchronize course calendar**<br>
+#### Synchronize course calendar {: #course_calendar_sync }
+
 If this option is selected, events are entered in the course calendar. If this option is not selected, only the simple events are listed in the course calendar; events with the option to record an absence are no longer listed.
 
-![11_green_24.png](assets/11_green_24.png) **Allow assessment mode for events**<br>
-If assessment mode is allowed for events, you can select the "Mark as exam" option from the 3-dot menu for events. This creates an assessment mode. In addition, the following points 12 to 15 are displayed with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
+### Exam and Safe Exam Browser
 
-To change this setting in the course, the option "Override default configuration" is required. If overwriting is not permitted and assessment mode is allowed in the administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
+#### Event can be marked as an exam {: #event_as_exam }
 
-![12_green_24.png](assets/12_green_24.png) **Prep time**<br>
-The prep time refers to "Allow assessment mode for events".<br>
+The help icon next to the option shows the text "If this option is enabled, the event can be marked as an 'Exam'. A marked event is executed in assessment mode, optionally with SEB."
+
+If the option is switched on, you can select the "Mark as exam" option from the 3-dot menu for events. This creates an assessment mode. In addition, the following fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" appear with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
+
+The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
+
+#### Prep time {: #lead_time }
+
+The prep time refers to "Event can be marked as an exam".<br>
 When coaches or owners "mark an event as an exam", an assessment mode is created with this setting. (All assessment modes created in this way for the course have the same prep time.)
 
-![13_green_24.png](assets/13_green_24.png) **Follow-up**<br>
-The follow-up refers to "Allow assessment mode for events".<br>
+#### Follow-up {: #followup_time }
+
+The follow-up refers to "Event can be marked as an exam".<br>
 When coaches or owners "mark an event as an exam", an assessment mode is created with this setting. (All assessment modes created in this way for the course have the same follow-up.)
 
-![14_green_24.png](assets/14_green_24.png) **Admissible IP addresses**<br>
-This setting also refers to "Allow assessment mode for events".<br>
+#### Admissible IP addresses {: #admissible_ips }
+
+This setting also refers to "Event can be marked as an exam".<br>
 The IP addresses entered here are applied to the assessment mode when an event is "marked as exam".
 
-![15_green_24.png](assets/15_green_24.png) **Safe Exam Browser Keys**<br>
+#### Safe Exam Browser Keys {: #seb_key }
+
 This field is the course-wide default value for the "SEB with manual keys" variant. The stored key is applied when an event is "marked as exam" and the exam is secured with the Safe Exam Browser. In the assessment mode of the event, the key is displayed for information and cannot be edited there.
 
-The field only appears if the administration has selected the "SEB with manual keys" variant for "Safe Exam Browser - Type of use". You find the setting under:<br>
+The field only appears if the administration has selected the "SEB with manual keys" variant for "Safe Exam Browser - Type of use". You find the setting in the system administration under:<br>
 `Administration > Modules > Events / Absences`, tab "Configuration".
 
 If the field is left empty while overwriting is permitted, the assessment modes of this course receive no key; the key from the administration is not used in that case.
@@ -127,12 +162,14 @@ Assessment modes created directly via the [assessment management](../learningres
 
 ## Access course elements {: #access_course_elements}
 
-![16_green_24.png](assets/16_green_24.png) **Type**<br>
+#### Type {: #course_type }
+
 For your information, this section indicates whether the current course is a learning path course or a traditional (classic) course. 
 
 Existing courses can be converted into a learning path course at this point. 
 
-![17_green_24.png](assets/17_green_24.png) **Calculate learning progress**
+#### Calculation of learning progress {: #learning_progress }
+
 For learning path courses, you can specify whether the displayed course progress is calculated based on the number of required course modules or based on the time spent on the required course modules. If you select "time spent," all required course modules must be assigned corresponding durations in the course editor. 
 Optional course modules are not taken into account.
 
@@ -143,15 +180,19 @@ Traditional courses do not include a "Learning Progress" option.
 
 ---
 
-## Further Informationen {: #further_information}
+## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)
+
+**Further reading**<br>
 [Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
-[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Tracking and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
-[Tracking and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
-[Personal absences >](../personal_menu/Absences.md)<br>
-[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
-[Cross-course absence management by absence administrators >](../area_modules/Absence_Management.md)<br>
+[Events and absences >](../learningresources/Events_and_absences.md)<br>
+[Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Absence management >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#tab_execution)
-
