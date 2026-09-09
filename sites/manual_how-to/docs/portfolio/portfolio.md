@@ -13,7 +13,7 @@
 
 ??? abstract "Expected prior knowledge"
 
-    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.en.md)<br>
+    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)<br>
 
 
 ??? abstract "Terms briefly explained"
@@ -269,7 +269,7 @@ A binder can be created in 3 ways:
 
 - Here you find the buttons for creating a new binder.
 
-![Create portfolio binder](assets/portfolio_creating_a_binder2_v1_dn.png){ class="shadow lightbox" }
+![Create portfolio binder](assets/portfolio_creating_a_binder2_v1_de.png){ class="shadow lightbox" }
 
 [Back to top ^](#portfolio)
 
@@ -398,7 +398,7 @@ The checklist summarises the preparation steps of this guide.
 [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 
 **For participants**:<br>
-[Personal menu >](../../manual_user/personal_menu/index.en.md)<br>
+[Personal menu >](../../manual_user/personal_menu/index.md)<br>
 [More about the Portfolio task course element >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)
 
 [Back to top ^](#portfolio)
