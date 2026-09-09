@@ -1,8 +1,8 @@
 # Kursbausteine
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
 In OpenOlat stehen verschiedene Kursbausteine zur Verfügung, mit denen ein Kurs sehr flexibel und modular nach den gewünschten Bedürfnissen aufgebaut werden kann. So können Kursinhalte strukturiert und Inhalte bereitgestellt, kollaboratives Arbeiten und Austausch gefördert, der Wissenstand der Teilnehmenden geprüft sowie organisatorische Belange abgedeckt werden.
 
@@ -61,9 +61,9 @@ Alle bewertbaren Kursbausteine, mit Ausnahme von "Übung" und "Struktur", erhalt
 
 Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem der Highscore angezeigt wird. Ohne Angabe des Datums wird der Highscore direkt nach Beenden des Tests angezeigt.
 
-Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente des Highscores angezeigt werden sollen. Zur Auswahl stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer. Für die Liste kann zudem definiert werden, ob alle Benutzer oder nur eine gewisse Anzahl der besten Benutzer erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
+Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente des Highscores angezeigt werden sollen. Zur Auswahl stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer. Für die Liste kann zudem definiert werden, ob alle Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
 
-![Highscore](assets/Highscore.png)
+![Podium mit drei Rängen und Punktzahlen, Histogramm der Punkteverteilung und Rangliste der Teilnehmenden. Ansicht des Highscore-Elements.](assets/Highscore.png){ class="shadow lightbox" }
 
 ### Kommunikation und Kollaboration
 
@@ -84,7 +84,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 #### Virtuelle Räume
 
-![Vitero](assets/vitero.png)
+![Sinnbild für virtuelle Räume](assets/vitero.png)
 
 Mit den Kursbausteinen 
 [Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](bigbluebutton/index.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](zoom/index.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
@@ -97,7 +97,7 @@ Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset un
 
 ### Verwaltung und Organisation
 
-Für organisatorische Belange und zur Verteilung von Informationen eignen sich besonders die nachfolgenden Kursbaussteine.
+Für organisatorische Belange und zur Verteilung von Informationen eignen sich besonders die nachfolgenden Kursbausteine.
 
 * [:o_icon_o_en_icon: Einschreibung](Course_Element_Enrolment.de.md)
 * [:o_icon_o_infomsg_icon: Mitteilungen](Course_Element_Notifications.de.md)

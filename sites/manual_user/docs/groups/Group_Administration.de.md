@@ -3,7 +3,7 @@
 Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser
 Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "**Administration**" im Menu.
 
-![group_administration_v1_de.png](assets/group_administration_v1_de.png){ class="shadow lightbox"}
+![Menüeintrag Administration in der linken Navigation einer Gruppe](assets/group_administration_v1_de.png){ class="shadow lightbox"}
 
 Über die angezeigten Tabs können Sie:
 
@@ -35,7 +35,7 @@ Hinweis: Diese Einstellungen haben Sie bereits bei der Erstellung vorgenommen.
 Im Tab Werkzeuge können Sie die Gruppe mit kollaborativen Werkzeugen
 ausstatten. Wurde ein Werkzeug aktiviert, erscheint der entsprechende Eintrag inkl. Icon im Menü links.
 
-!!! Info
+!!! info
 
     Damit die Werkzeuge in Gruppen zur Verfügung stehen, müssen Sie vom OpenOlat Administrator aktiviert werden. Das gilt insbesondere für BigBlueButton, MS Teams OpenMeetings, Wiki und Kalender. Stehen Ihnen bestimmte Werkzeuge als Gruppenbesitzer:in nicht zur Verfügung, wurden diese vom OpenOlat Administrator
     deaktiviert.
@@ -44,18 +44,18 @@ Folgende Werkzeuge können aktiviert werden:
 
 Werkzeug | | Beschreibung
 ---|---|---
-:o_icon_o_icon_news: | Information an Mitglieder| Ist das Werkzeug "Information" aktiviert, kann definiert werden, ob nur Gruppenbetreuer:innen oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer:in können Sie alle Mitteilungen editieren und löschen.  
+:o_icon_o_icon_news: | Information an Mitglieder| Ist das Werkzeug "Information" aktiviert, kann definiert werden, ob nur Gruppenbetreuer:innen oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer:in können Sie alle Mitteilungen editieren und löschen.
 :o_icon_o_co_icon:| E-Mail| Ist das Werkzeug "E-Mail" aktiviert, können auch Gruppenteilnehmer:innen Nachrichten an (ausgewählte) Betreuer:innen und/oder Teilnehmer:innen verschicken. 
-:o_icon_o_calendar_icon: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Es kann konfiguriert werden ob nur Gruppenbetreuer:innen oder alle Gruppenmitglieder Einträge im Kalender vornehmen dürfen. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).  
-:o_icon_o_bc_icon: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office-Dokumenten ist je nach Konfiguration durch die OpenOlat Administrator:innen möglich. Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf.   
-:o_icon_o_fo_icon:| Forum| Aktivieren Sie das Forum um allen eine asynchrone Austauschmöglichkeit zur Verfügung zu stellen. Als Betreuer:in der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen, sowie neue Beiträge zu verfassen.   
-:o_icon_o_icon_chat: | Chat| Sie können der Gruppe einen einfachen, synchronen Chat zur Verfügung stellen. Sie sehen hier auch, welche anderen Mitglieder aktuell im OpenOlat eingeloggt sind.   
+:o_icon_o_calendar_icon: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Es kann konfiguriert werden ob nur Gruppenbetreuer:innen oder alle Gruppenmitglieder Einträge im Kalender vornehmen dürfen. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).
+:o_icon_o_bc_icon: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office-Dokumenten ist je nach Konfiguration durch die OpenOlat Administrator:innen möglich. Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf.
+:o_icon_o_fo_icon:| Forum| Aktivieren Sie das Forum um allen eine asynchrone Austauschmöglichkeit zur Verfügung zu stellen. Als Betreuer:in der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen, sowie neue Beiträge zu verfassen.
+:o_icon_o_icon_chat: | Chat| Sie können der Gruppe einen einfachen, synchronen Chat zur Verfügung stellen. Sie sehen hier auch, welche anderen Mitglieder aktuell im OpenOlat eingeloggt sind.
 :o_icon_o_wiki_icon: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learningresources/Wiki.de.md).
-:o_icon_o_ep_icon: | Portfolio| Sie können der Gruppe ein [Portfolio](../area_modules/Portfolio_General_Information.de.md) 2.0 zur Verfügung stellen um eine gemeinsame Portfolio-Arbeit zu ermöglichen. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.   
-:material-monitor: | OpenMeetings| Sofern OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung. Die Funktionalität ist ähnlich wie beim entsprechenden Kursbaustein. Weitere Informationen zu OpenMeetings finden Sie [hier](../learningresources/Course_Element_OpenMeetings.de.md)  
-:material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../learningresources/bigbluebutton/index.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer:in, Kursbesitzer:in, Autor:in oder Administrator:in, stehen gegebenenfalls noch weitere BigBlueButton Raum-Templates zur Verfügung.  
-:material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../learningresources/Course_Element_Microsoft_Teams.de.md).  
-  
+:o_icon_o_ep_icon: | Portfolio| Sie können der Gruppe ein [Portfolio](../area_modules/Portfolio_General_Information.de.md) 2.0 zur Verfügung stellen um eine gemeinsame Portfolio-Arbeit zu ermöglichen. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.
+:material-monitor: | OpenMeetings| Sofern OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung. Die Funktionalität ist ähnlich wie beim entsprechenden Kursbaustein. Weitere Informationen zu OpenMeetings finden Sie [hier](../learningresources/Course_Element_OpenMeetings.de.md)
+:material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../learningresources/bigbluebutton/index.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer:in, Kursbesitzer:in, Autor:in oder Administrator:in, stehen gegebenenfalls noch weitere BigBlueButton Raum-Templates zur Verfügung.
+:material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../learningresources/Course_Element_Microsoft_Teams.de.md).
+
 Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also nicht möglich, einer Gruppe mehrere Ordner, Wikis oder Foren-Bausteine zur Verfügung zu stellen. Wenn Sie mehrere Werkzeuge eines Typs benötigen, sollten Sie statt einer Gruppe einen Kurs verwenden.
 
 Infos zur Nutzung der Gruppen-Werkzeuge aus der Gruppen-Teilnehmer:innen Perspektive finden Sie [hier](Using_Group_Tools.de.md).
@@ -90,7 +90,7 @@ Je nach Kurs-Rolle stehen dem User unterschiedliche Möglichkeiten zur Verfügun
 
 <details>
     <summary>Autor:innen Ansicht</summary>
-	<img src="../assets/group_administration_external_members_v1_de.png" />
+	<img src="../assets/group_administration_external_members_v1_de.png" alt="Option Externe Mitglieder einladen im Tab Mitglieder der Gruppenadministration" />
 </details><br>
 
 
@@ -156,7 +156,24 @@ Wenn Sie Personen manuell aus der Gruppe löschen, können sich diese, sofern no
 
 Hier werden der Status der Gruppe sowie weitere Informationen angezeigt. Ferner kann der Status geändert werden, z.B. kann eine aktive Gruppe inaktiv gesetzt oder eine inaktive Gruppe gelöscht oder reaktiviert werden. Auch kann die Gruppe vom automatischen Gruppen-Lebenszyklus ausgenommen werden, z.B. wenn es sich um eine wichtige Gruppe handelt, die permanent vorhanden bleiben muss. 
 
-![Tab Gruppen-Lebenszyklus](assets/Gruppe_inaktivieren_173a.png){ class="shadow lightbox" }
+![Bestätigungsdialog zum Starten der Inaktivierung im Tab Gruppen-Lebenszyklus](assets/Gruppe_inaktivieren_173a.png){ class="shadow lightbox" }
 
-Weitere Informationen finden Sie im separaten Kapitel [Automatischer Gruppen-Lebenszyklus](https://docs.openolat.org/de/manual_admin/administration/Automatic_Group_Lifecycle/) im Administrationshandbuch.
+Weitere Informationen finden Sie im separaten Kapitel [Automatischer Gruppen-Lebenszyklus](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md) im Administrationshandbuch.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
+[Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
+[Wiki erstellen >](../learningresources/Wiki.de.md)<br>
+[Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
+[Kursbaustein "OpenMeetings" >](../learningresources/Course_Element_OpenMeetings.de.md)<br>
+[Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
+[Gruppenmitglied werden >](Group_Membership.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
+[Automatischer Gruppenlebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
+
+[Zum Seitenanfang ^](#group_administration)
 

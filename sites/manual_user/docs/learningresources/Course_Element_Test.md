@@ -34,9 +34,7 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
 
 !!! note "Note"
 
-    :fontawesome-solid-square-pen:
-
-    There are two different course elements for tests in OpenOlat: "Tests" and ["Self_Tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, **the test results are saved anonymously in the self-test**. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
+    There are two different course elements for tests in OpenOlat: "Tests" and ["Self-tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, **the test results are saved anonymously in the self-test**. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
 
     The handling of self-tests is otherwise identical to the handling of the tests.
 
@@ -51,11 +49,11 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
 
 
 
-## Test configuration
+## Test configuration {: #config}
 
 To do so, open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
 
-![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow" }
+![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
 
 The tabs "Title and description" and "Layout" are the same for all course elements.
 
@@ -66,7 +64,7 @@ In the Learning path tab, you can define whether the test is mandatory for the l
 
 The following completion criteria are also available for tests: 
 
-![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
+![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
 Only if the selected condition is met will the progress be shown to the user in the learning path display and in the progress percentage.
 
@@ -106,7 +104,7 @@ Select one of the given rating scales e.g. grades, levels or emojis. You can als
 If nothing is activated here, the test is accessible at all times, provided no restrictions have been defined elsewhere, e.g. under "Visibility" for conventional courses or due to a serial sequence for learning path courses.
 
 
-#### Section Correction {: #correction}
+#### Section Correction {: #section_correction}
 
 **Correction**: The correction is performed either **automatically or manually**. As soon as a question type to be evaluated manually, e.g. free text, is available, a manual variant must be selected. With automatic correction, all questions are corrected automatically and directly, the result is visible immediately.
 
@@ -118,7 +116,7 @@ In case of manual correction, the visibility of the result is limited and the co
 
 If the option "**Manually by external graders**" is activated, OpenOlat users can also correct a test without being a member or even a coach of the course. This selection also activates the "Corrector" tab and you can see who is assigned to the test as a corrector.
 
-[Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
+![Tab "Correctors" with the users assigned as correctors of the test](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
 
 
 !!! info "Important"
@@ -128,9 +126,9 @@ If the option "**Manually by external graders**" is activated, OpenOlat users ca
 
 **Release rating**: Set here whether the results are released by default or not.
 
-![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
+![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
-#### Section Report {: #report}
+#### Section Report {: #section_report}
 
 Here you define whether and in what form the test results and the performance status should be displayed to the learners. If nothing is selected here, learners will not receive any information.
 
@@ -142,7 +140,7 @@ However, it is important that you specifically select the form in which the resu
 
 If the "Always" field is selected, the results will be available immediately after the test is finished. If "No" is selected, the results will not be displayed at all. And for the other options, criterion- or date-dependent displays can be defined.
 
-![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow" }
+![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
 
 The **Test Summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
@@ -162,7 +160,7 @@ Depending on the combination of display options, different types of feedback can
 
 For the display on the start page, you can also define the conditions under which it should be displayed.
 
-![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow" }
+![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow lightbox" }
 
 
 [Beginning of test configuration section ^](#config)<br>
@@ -177,7 +175,7 @@ If the settings for a test included in the course are to be changed, "Customize 
 
 If the "Show question title" option is not selected but menu navigation is enabled at the same time, only anonymized titles are displayed in the navigation instead of the actual titles.
 
-!!! info "Hinweis"
+!!! info "Important"
 
     These adjustments in the test have no effect on the configuration of the test learning resource itself.
 
@@ -201,7 +199,7 @@ Here you can set whether participants are allowed to send live chat requests to 
 
 A highscore overview can also be activated and further configured here for a test. This overview compares the test results of the course participants and ranks the individual results in comparison. 
 
-![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
+![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
 !!! note "Highscore"
     More information on the topic of high scores.<br>
@@ -220,7 +218,7 @@ If correctors have been defined for the test in the learning resource via the co
 
 ### Tab "E-mail Confirmation" {: #tab_email_confirmation}
 
-Activate the e-mail confirmation if you want to confirm the submission of the test by e-mail. You can use different variables like name or score in the mail text. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
+Activate the e-mail confirmation if you want to confirm the submission of the test by e-mail. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
 
 For the mail text you can use the template and a preset subject with the title of the test course module in the subject. Alternatively, the template and the subject can also be changed. In this case, select "Template" -> "Custom Text" to edit or completely change the mailing text.
 
@@ -275,7 +273,7 @@ Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen:
 !!! tip "Hint"
 
     Sometimes it makes sense to use the "Test" type, even if you actually want to provide learners with a self-test. Tests enable learners to be supported individually as needed and also provide feedback on manually assessable question types, and can give teachers feedback on the quality and effectiveness of their questions.
-    
+
 
 [To the top of the page ^](#course_element_test)
 
@@ -308,7 +306,7 @@ Before the replacement, a dialog box informs you of the effects. You must explic
 
 
 **Example:**
-![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
+![Dialog "Replace test" comparing the properties of the current and the new test](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow lightbox" }
 
 After the replacement, the link "Show history" also appears next to the "Replace" button.
 
@@ -332,7 +330,7 @@ Alternatively, the results can also be viewed and managed in the course run with
 To do this, switch to the “Participants” tab. As the course owner, you also have access to other tabs in the course run, such as Preview, Communication, Reminders, and Badges. Some of these tabs are also available to coaches.
 
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow" }
+![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" }
 
 If external correctors have also been activated for a test, they can assess it via the Coaching Tool.
 
@@ -351,24 +349,24 @@ If external correctors have also been activated for a test, they can assess it v
 
 **B)** If you would like to see when which test learning resource was replaced in the course element, you will find an overview under the "Replace" button. Click on the small arrow next to the button and then on "Show history".
 
-![course_element_test_replace_resource2_v1_de.png](assets/course_element_test_replace_resource2_v1_de.png){ class="shadow" }
+![Link "Show history" in the drop-down menu of the "Replace" button](assets/course_element_test_replace_resource2_v1_de.png){ class="shadow lightbox" }
 
 You can see this in the list displayed,
 
-![1_green_24.png](assets/1_green_24.png) when the learning resource was exchanged ("Assigned on")<br>
-![2_green_24.png](assets/2_green_24.png) by whom it was replaced ("Assigned by")<br>
-![3_green_24.png](assets/3_green_24.png) how often the test learning resource has been completed by participants ("Runs in this course").<br> Please note that the number of runs can come from different people who have each taken the test once. However, it is also possible that a person has completed the test several times. The multiple attempts also count as runs.
+![Digit 1](assets/1_green_24.png) when the learning resource was exchanged ("Assigned on")<br>
+![Digit 2](assets/2_green_24.png) by whom it was replaced ("Assigned by")<br>
+![Digit 3](assets/3_green_24.png) how often the test learning resource has been completed by participants ("Runs in this course").<br> Please note that the number of runs can come from different people who have each taken the test once. However, it is also possible that a person has completed the test several times. The multiple attempts also count as runs.
 
-![course_element_test_replace_resource3_v1_de.png](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow" }
+![History of the test resources with assignment date, assigning person and number of runs](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow lightbox" }
 
 **C)** If the test learning resource is replaced, new test statistics are also created with the new test learning resource.
 As a coach, select the test course element and the "Participants" tab as usual. The "Test statistics" button is displayed here. 
 
-![course_element_test_replace_statistic1_v1_de.png](assets/course_element_test_replace_statistic1_v1_de.png){ class="shadow" }
+![Button "Test statistics" in the tab "Participants" of the test course element](assets/course_element_test_replace_statistic1_v1_de.png){ class="shadow lightbox" }
 
 If the test learning resource has been replaced, a button for switching between the statistics of the different test versions (test learning resources used) is displayed at the top right. 
 
-![course_element_test_replace_statistic2_v1_de.png](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow" }
+![Selecting the test version in the test statistics after replacing the test learning resource](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
@@ -397,7 +395,7 @@ A zip file is created, which is then available in the course archiving area for 
 
 If the test contains essay questions and the **"Advanced – with PDF"** option was selected, the **"Additional option"** with **"Separate PDF file for each essay question"** can additionally be activated below. The answer to each essay question is then placed in the archive as a separate PDF file.
 
-![Export options for the course element Test in the wizard step Settings of the course archiving](assets/course_element_test_archive_export_v1_de.png){ class="shadow" }
+![Export options for the course element Test in the wizard step Settings of the course archiving](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" }
 
 It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration area. The graphical assessment can also be found here.
 
@@ -434,7 +432,7 @@ Tests can be used in the following scenarios, among others:
 
 Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered (filled), which questions have only been looked at (circle highlighted) and which have not been clicked at all (no marking).
 
-![test_show_answeroverview_V1_en](assets/test_show_answeroverview_V1_en.png)
+![Question overview in the left navigation with answered, viewed and open questions](assets/test_show_answeroverview_V1_en.png){ class="shadow lightbox" }
 
 Depending on the setting, you can navigate further using the "Next question" button and/or a link in the left-hand navigation or the next question will be displayed automatically. Whether you can skip questions or see the progress of answers also depends on the configuration of the teacher. Depending on the configuration, you can interrupt the test and continue at a later time or cancel it without saving the results.
 
@@ -444,7 +442,7 @@ When you have finished editing and want to complete the test, click on the "End 
 
 Whether, how and when you see the results and the performance overview depends on the test configuration.
 
-![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg)
+![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" }
 
 If you have more attempts available to process the test, you can run through the test again with "Start test". Previous runs will be retained.
 
@@ -455,8 +453,25 @@ If you have more attempts available to process the test, you can run through the
 
 ## Further information {: #further_information}
 
-[Setting the number of attempts for questions >](../learningresources/Configure_test_questions.md#score)<br>
-[Setting the number of attempts for sections >](../learningresources/Configure_tests.md#section)
-[Setting the number of attempts for test learning resources >](../learningresources/Test_settings.md#settings)<br>
+**Mentioned on this page**<br>
+[Test question types >](Test_question_types.md)<br>
+[Course Element "Self-test" >](Course_Element_Self_Test.md)<br>
+[Creating Tests >](Test.md)<br>
+[Learning path course - Overview >](Learning_path_course.md)<br>
+[Test settings - Administration >](Test_settings.md)<br>
+[Configure tests >](Configure_tests.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
+[Course Element "E-Mail" >](Course_Element_EMail.md)<br>
+[Course Reminders >](Course_Reminders.md)<br>
+[Badges >](OpenBadges.md)<br>
+[Test editor QTI 2.1 >](Test_editor_QTI_2.1.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving.md)<br>
+[Test statistics >](Statistics_Test.md)<br>
+[Setting the number of attempts for questions >](Configure_test_questions.md)<br>
+
+**Further reading**<br>
+[Export tests >](Test_export.md)
 
 [To the top of the page ^](#course_element_test)

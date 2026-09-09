@@ -2,7 +2,7 @@
 
 ## Einstieg in die Expertenregeln
 
-!!! warning "Achtung"
+!!! info "Wichtig"
 
     Die Einstellungen in den Tabs "Sichtbarkeit" und "Zugang" stehen nur in herkömmlichen Kursen zur Verfügung. Der Expertenmodus kann also **nur in herkömmlichen Kursen** nicht in "[Lernpfad Kursen](Learning_path_course.de.md)" verwendet werden.
 
@@ -20,7 +20,7 @@ oder mit relativen Daten arbeiten. Ein Beispiel soll dies erläutern:
 
 ??? tip "Fragebogen Beispiel"
 
-    Sie wollen einen Kursfragebogen erst in der letzter letzten Kurswoche frei schalten, möchten diese Option aber schon mal einrichten, damit Sie es später nicht vergessen.
+    Sie wollen einen Kursfragebogen erst in der letzten Kurswoche frei schalten, möchten diese Option aber schon mal einrichten, damit Sie es später nicht vergessen.
 
     Sie schalten also den Kursbaustein "Umfrage" datumsabhängig frei, damit Sie sich im Kursverlauf nicht mehr darum kümmern müssen. In den Tabs _Sichtbarkeit_ und _Zugang_ des "Fragebogens" können Sie hierfür im einfachen Modus das Anfangs- und Enddatum eingeben. Sie können Ihren Fragebogen auch nur für eine bestimmte Teilnehmergruppe zugängig machen. Wählen Sie hierfür unter Sichtbarkeit bzw. Zugang ergänzend "Gruppenabhängig". So könnten Sie z.B. bei institutionsübergreifenden Online-Kursen zwei unterschiedliche Fragebögen verwenden. Voraussetzung ist lediglich, dass Sie die Kursteilnehmenden in (zwei) unterschiedliche Gruppen geteilt haben die sie nun zuweisen können.
 
@@ -41,7 +41,7 @@ Dann klicken Sie auf "Expertenmodus anzeigen" und sehen Ihre erste Expertenregel
 
     (  ( isCourseCoach(0) | isCourseAdministrator(0) ) )
 
-Der gesamte Ausdruck ist doppelt eingeklammert. Die beiden äußeren Klammern kann man in diesem Fall auch weglassen. Probieren Sie es einfach aus. CourseCoach ist der Kursbetreuer und CourseAdministrator der Kursbesitzer. Der
+Der gesamte Ausdruck ist doppelt eingeklammert. Die beiden äusseren Klammern kann man in diesem Fall auch weglassen. Probieren Sie es einfach aus. CourseCoach ist der Kursbetreuer und CourseAdministrator der Kursbesitzer. Der
 senkrechte Strich in der Mitte "|" steht für den Booleschen Operator ODER.
 Diese Expertenregel ist WAHR für den Betreuer ODER den Besitzer. Nur diese
 beiden haben Zugang auf den Kursbaustein "Seite".
@@ -65,7 +65,7 @@ Attribut| Beschreibung| Beispiel Expertenregel
 isGuest| nur für Gäste zugänglich| isGuest(0)  
 isCourseCoach| nur für Betreuer sichtbar| isCourseCoach(0)  
 isUser| nur für einen bestimmten Benutzer verfügbar| isUser("pmuster")  
-  
+
 ### Arbeiten mit den Konstanten "TRUE" und "FALSE"
 
 Die Konstanten "true" und "false" prüfen das Vorhandensein ("true" bzw. "1")
@@ -88,9 +88,9 @@ ist. Für diese Expertenregel gibt es drei Alternativen:
 
  **isGuest(0)** oder **isGuest(0)=1** oder **isGuest(0)=true**
 
-  
 
- **Fall 2**: Hier sollen alle Nutzer außer den Gast-Nutzern einen Zugang
+
+ **Fall 2**: Hier sollen alle Nutzer ausser den Gast-Nutzern einen Zugang
 erhalten. Der jeweilige Nutzer erhält also Zugang, wenn das Attribut "isGuest"
 nicht wahr bzw. nicht vorhanden ist. Für diese Expertenregel gibt es zwei
 Alternativen:
@@ -160,7 +160,7 @@ Typ| Syntax| Bedeutung
  | -| Subtraktion  
  **Booleans**|  &| Logisches UND  
  | \| | Logisches ODER  
-  
+
 ### Benutzerattribute (UserProperty) {: #user_properties}
 
 Verschiedene Expertenregeln benötigen Benutzerattribute um Einschränkungen
@@ -219,7 +219,7 @@ graduation| Abschlussjahr| officeCountry| Dienstadresse - Land| userInterests| E
 Beispiele für die Anwendung "getUserProperty":
 
   * Es sollen nur Kursteilnehmer eines bestimmten Studienganges Zugang erhalten:
-    
+
         getUserProperty("studySubject") = "Maschinenbau"
 
 Nun muss, wer Zugang haben möchte, in seinem Profil, im Feld Studienfach
@@ -248,8 +248,7 @@ Bitte beachten Sie, dass eine ODER-Verknüpfung vor einer UND-Verknüpfung
 gemacht wird. Damit die UND-Verknüpfung zuerst gemacht wird, müssen Klammern
 gesetzt werden.
 
-Beispiel: Die Expertenregel (inGroup("Teilnehmende Intensivkurs")  ** **|****
-isCourseCoach(0)) lässt entweder Teilnehmende des Intensivkurses oder alle
+Beispiel: Die Expertenregel **(inGroup("Teilnehmende Intensivkurs") | isCourseCoach(0))** lässt entweder Teilnehmende des Intensivkurses oder alle
 Gruppenbetreuer auf den Kursbaustein zugreifen.
 
 Nachfolgend sind einige Beispiele aufgeführt, die Ihnen zeigen, wie Sie die
@@ -279,24 +278,21 @@ Ausschliesslich Studierende der Humanmedizin haben Zugriff auf den
 Kursbaustein.  
 Siehe auch:  
 AAI-Attribute  
-[__ Spezifikation der AAI-Attribute (pdf-
-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
  **hasAttribute("swissEduPersonHomeOrganization","[uzh.ch](http://uzh.ch/)")**  
 Ausschliesslich Studierende der Universität Zürich haben Zugriff auf den
 Kursbaustein.  
 Siehe auch:  
 AAI-Attribute  
-[__ Spezifikation der AAI-Attribute (pdf-
-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
  **isInAttribute("surname","Mue")**  
 Gibt TRUE für alle Personen, deren Attribut _surname_ die Buchstabenfolge
 "Mue" enthaltet. Gibt z.B. TRUE für den Wert "Mueller" oder "Muehlebacher"  
 Siehe auch:  
 AAI-Attribute  
-[__ Spezifikation der AAI-Attribute (pdf-
-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
 **isInAttribute("eduPersonEntitlement","[http://vam.uzh.ch](http://vam.uzh.ch/)")**  
 Gibt TRUE für alle Personen, deren Attribut _eduPersonEntitlement_ den Wert
@@ -304,8 +300,7 @@ Gibt TRUE für alle Personen, deren Attribut _eduPersonEntitlement_ den Wert
 den Wert "<http://vam.uzh.ch/surgery>"  
 Siehe auch:  
 AAI-Attribute  
-[__ Spezifikation der AAI-Attribute (pdf-
-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
  **(getUserProperty("orgUnit") = "Sales")**  
 Prüft ob eine Person in der Organisationseinheit "Sales" ist. Sinnvoll z.B.
@@ -361,7 +356,7 @@ Enddatum des Durchführungszeitraums des Kurses liegt.
 
 **isAssessmentMode(0)**  
 Gibt TRUE sobald der Kurs innerhalb eine Prüfung ist.  
-  
+
  **hasUserProperty("email","john.doe@[openolat.org](http://openolat.org/)")  
 **Gibt TRUE, wenn der Kursteilnehmer in OpenOlat mit der eingetragenen E-Mail-
 Adresse registriert ist.  
@@ -373,16 +368,16 @@ Wert "staff" eingetragen ist, z. B. "staff, student".
  **userPropertyEndswith("email","@[openolat.org](http://openolat.org/)")**  
 Gibt TRUE, wenn die E-Mail-Adresse des Kursteilnehmers auf
 _@[openolat.org](http://openolat.org/)_ endet.  
-  
+
  **isInUserProperty("email","doe@openo")**  
 Gibt TRUE, wenn der Begriff _doe@openo_ ein Teil der E-Mail-Adresse des
 Kursteilnehmers ist.  
-  
+
  **isNotInUserProperty("email","doe@openo")**  
 Gibt FALSE, wenn der Begriff _doe@openo_ ein Teil der E-Mail-Adresse des
 Kursteilnehmers ist.  
-  
-!!! warning
+
+!!! warning "Achtung"
 
     Bitte beachten Sie, dass die oben erwähnten Kursbaustein-IDs Beispiele sind. Wenn Sie Ihren Kurs erstellen, müssen Sie jeweils die Nummern referenzieren, die auf dem ersten Tab _«Titel und Beschreibung»_ des gewünschten Kursbausteins sichtbar sind.
 
@@ -411,7 +406,7 @@ Attribut| Beschreibung| Beispiel Expertenregel und Erklärung
 ---|---|---  
 swissEduPerson-HomeOrganization| Universität oder Heimorganisation| hasAttribute ("swissEduPersonHomeOrganization", "[uzh.ch](http://uzh.ch)"): Nur Angehörige der Universität Zürich sind zugelassen.  
 swissEduStudyBranch3| Studienrichtung 3. Klassifikation| hasAttribute ("swissEduPersonStudyBranch3","6400"): Nur Studierende der Studienrichtung Veterinärmedizin sind zugelassen.  
-  
+
 ### Anwendung
 
 Sie können AAI-Attribute mit der Syntax
@@ -424,7 +419,7 @@ Dabei gilt folgendes:
 * **[AttrName]** ist der Attributnamen, den Sie in der nachfolgenden Tabelle und auch in der Spezifikation der AAI-Attribute (pdf-Datei) (Spalte _LDAP Namen_ ) auf Seite 5 vorfinden.  
 * **[string]** ist der Wert des AAI-Attributes mit Namen [AttrName].  
 * **[substring]** ist ein beliebig grosser Teil von [string].  
-  
+
 #### AAI Beispiel
 
 _Abfragen für Hans Muster_
@@ -445,7 +440,7 @@ swissEduPersonStudyLevel| 15| Beschreibung des Studien-Fortschrittes
 eduPersonEntitlement| <http://vam.uzh.ch/surgery>| Zugriffsrecht auf Ressource  
 employeeNumber| 01-234-567| Matrikelnummer (nur für Studierende der Universität Zürich)  
 organizationalUnit| 1| Einheit der Heimorganisation z.B. Fakultät (nur für Mitarbeiter)  
-  
+
 Für das oben genannte Beispiel "Hans Muster" würden die folgenden Abrufe jeweils zu einem Ergebnis führen:
 
 Abfrage | Output
@@ -459,8 +454,22 @@ hasAttribute("employeeNumber","01-234-567")|  **true**
 
 Einen Link zur Liste der möglichen Attribut-Werte finden Sie im Appendix der Spezifikation der AAI-Attribute (pdf-Datei) ab Seite 20. [Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
 
-Für weitere Informationen zu Werten oder der Anwendung von AAI-Attributen, wenden Sie sich in der Schweiz bitte an [Switch](http://www.switch.ch/de/"Switch"), und in Deutschland an das [Deutsche Forschungsnetz](https://www.aai.dfn.de/ "Deutsche Forschungsnetz").
+Für weitere Informationen zu Werten oder der Anwendung von AAI-Attributen, wenden Sie sich in der Schweiz bitte an [Switch](http://www.switch.ch/de/aai/ "Switch"), und in Deutschland an das [Deutsche Forschungsnetz](https://www.aai.dfn.de/ "Deutsche Forschungsnetz").
 
 !!! tip "Tipp"
 
     Verwenden Sie die AAI Attribute nur dann, wenn Sie sicher sind, dass alle Teilnehmer Ihres Kurses sich über eine AAI Struktur einwählen. Ansonsten greifen die Parameter nicht!
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Spezifikation der AAI-Attribute (PDF) >](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)<br>
+[Switch AAI >](http://www.switch.ch/de/aai/)<br>
+[Deutsches Forschungsnetz (DFN-AAI) >](https://www.aai.dfn.de/der-dienst/attribute/)
+
+**Weiterführend**<br>
+[Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)
+
+[Zum Seitenanfang ^](#zugriffsbeschrankungen-im-expertenmodus)

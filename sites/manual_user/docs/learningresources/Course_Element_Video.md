@@ -1,4 +1,4 @@
-# Course Element "Video"
+# Course Element "Video" {: #course_element_video}
 
 ## Profile
 
@@ -47,7 +47,7 @@ If the title and description are enabled, they will be displayed below the video
 
 To change the assignment of a video afterwards and select a different video, click on "Change video" in the "Learning content" tab and then select a different video.
 
-!!! info "Info"
+!!! info "Important"
 
     In learning path courses, the tab "Learning path" can also be used to define as a completion criterion whether learners have to finish watching the video (95%) for the course element to be considered completed.
 
@@ -63,3 +63,12 @@ A video that has been integrated into a course with the help of the course eleme
   * Assessments
   * a start image as desired
   * Combination with specific completion criteria in [Learning path courses](../learningresources/Learning_path_course.md)
+
+## Further information {: #further_information}
+
+[Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Single Page: Add / edit video >](Single_Page_Add_edit_video.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)
+
+[To the top of the page ^](#course_element_video)

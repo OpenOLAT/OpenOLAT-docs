@@ -21,7 +21,7 @@ b) **appointment finding**<br>
 
 Several individually selectable **appointments** are combined into an **occasion**.
 
-![Appointment scheduling course element in the course view: The occasion "Vorbereitungsmeeting" shows a selectable appointment with date, time and the "Select" button as well as the filters "All", "Future", "Selected" and "Fully booked"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
+![Appointment scheduling course element in the course view: occasion "Vorbereitungsmeeting" with a selectable appointment, date, time and "Select" button](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
 
 
 Among other things, authors can define whether multiple appointments can be selected, whether the number of participants is limited, whether it is visible who has enrolled, and whether a virtual classroom installed in the OpenOlat instance (e.g. BigBlueButton or Teams) should be assigned.
@@ -34,7 +34,7 @@ Among other things, authors can define whether multiple appointments can be sele
 
 Once the course element has been added in the course editor, the permissions for specific groups of people are defined in the "Configuration" tab.
 
-![Tab "Configuration" of the course element in the course editor: Organizers, email notification and comment permission are set via checkbox, the rights "Edit occasion" and "Edit appointments" per role or person, optionally with a time restriction](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
+![Tab "Configuration" of the course element in the course editor: checkboxes for organizers, notification, comment permission and rights "Edit occasion" and "Edit appointments"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
 
 **Organizers**<br>
 You can define whether course owners and/or course coaches are considered organizers of the appointments.
@@ -80,7 +80,7 @@ First, click on **"Create occasion".**
 
 The configuration menu appears and you can define the following aspects:
 
-![Dialog "Create occasion" in the course run: In addition to title and description, the type, configuration, organizer, location, participant limit, enrollment deadline, type of appointment with the associated appointment fields and the online appointment are defined](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
+![Dialog "Create occasion" in the course run: fields for title, description, type, configuration, organizer, location, participant limit, enrollment deadline, type of appointment and online appointment](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
 
 
 **Title**<br>
@@ -156,7 +156,7 @@ As course owner or coach, however, you are also shown the "Add appointment" butt
 
 ### Organize appointments {: #config_appointment}
 
-![Occasion tile "Terminbuchung" in the course run: The highlighted "Show appointments" link opens the appointment overview, above it an info box states the number of appointments and the selections made](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
+![Occasion tile "Terminbuchung" in the course run with "Show appointments" link and info box about the number of appointments](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
 
 The concrete appointments defined for an "occasion" can be viewed in more detail via the "Show appointments" link in the overview and can also be edited individually by the course owners or coaches.
 
@@ -180,7 +180,7 @@ The appointments can then be selected. If there is only one occasion, the concre
 
 Using the "Select" button, an appointment can be chosen. Depending on the configuration, a comment can also be added or several appointments can be selected. Unenrolling is also possible.
 
-![Appointment selection from the participant view: Each appointment shows the free seats and the "Select" or "Deselect" button; if an enrollment deadline is set, the end date "Select until" is shown on the appointment](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
+![Appointment selection from the participant view: each appointment shows free seats and "Select" or "Deselect"; with a deadline set, "Select until" is shown](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
 
 Using the "Fully booked" filter option, participants can also see who has selected the appointment (if activated) and contact each other to swap appointments.
 

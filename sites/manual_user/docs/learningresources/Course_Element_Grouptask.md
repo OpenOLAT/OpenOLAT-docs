@@ -51,3 +51,15 @@ There are no to-dos for group tasks, even if the option can be activated and ini
 ## Group task user perspective {: #group_task_user_perspective}
 
 All decisions and submissions made during the workflow always apply to the entire group. It is therefore important to coordinate within the group _before_ making a final submission. At the same time, care should be taken not to miss any deadlines.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Element "Task" >](Course_Element_Task.md)<br>
+[Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)
+
+**Further reading**<br>
+[Create Groups >](../groups/Create_Groups.md)<br>
+[Group Administration >](../groups/Group_Administration.md)
+
+[To the top of the page ^](#course_element_group_tasks)

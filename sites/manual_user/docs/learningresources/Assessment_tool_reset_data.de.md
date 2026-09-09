@@ -13,20 +13,20 @@ Bevor die Daten endgültig zurückgesetzt werden, können die alten Ergebnisse h
 
 ### Sicherung des gesamten Kurses {: #backup_course}
 
-In der (Kurs-)Administration unter **Archivierung & Reports** können Sie Reports der Kursresultate generieren. 
+Unter `Kurs > Administration > Archivierung & Reports` können Sie Reports der Kursresultate generieren. 
 
-![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
+![Kursarchivierung mit den Optionen "Alle Archive", "Gesamtarchive" und "Teilarchive", im Bereich Archivierung der Kurs-Administration](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" }
 
 
 ### Sicherung eines Kursbausteins "Test" {: #backup_test}
 
 Die Daten eines Kursbausteins "Test" können im Bewertungswerkzeug als zip-Datei heruntergeladen und gespeichert werden.
 
-![assessment_tool_reset_data_backup_course_element_test1_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
+![Button "Resultate exportieren" in der Toolleiste, im Tab "Teilnehmer:innen" des Bewertungswerkzeugs für den Kursbaustein "Test"](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
 
 Die erzeugten zip-Dateien sind dann im unteren Bereich des Bildschirms aufgelistet und können heruntergeladen werden.
 
-![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
+![Exportoptionen "Standard" und "Erweitert - mit PDF" sowie Liste bereits erstellter Exportdateien zum Herunterladen, im Dialog "Export Resultate"](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reset_data)
 
@@ -44,20 +44,20 @@ Die erzeugten zip-Dateien sind dann im unteren Bereich des Bildschirms aufgelist
 3. Unter "Betreuer:innen können" die Option "Daten zurücksetzen" aktivieren
 4. Speichern
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
 
 ## Daten zurücksetzen mit Wizard {: #wizard}
 
-![assessment_tool_reset_data_wizard1_v1_de.png](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
+![Button "Daten zurücksetzen" oben rechts, im Tab "Übersicht" des Bewertungswerkzeugs](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
 
-![assessment_tool_reset_data_wizard2_v1_de.png](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
+![Erster Wizard-Schritt "Allgemeine Auswahl" mit der Wahl zwischen "Gesamter Kurs"/"Ausgewählte Kursbausteine" und "Alle Teilnehmer:innen"/"Ausgewählte Teilnehmer:innen"](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
 
 Wählen Sie im Wizard die Optionen "Ausgewählte Teilnehmer:innen" und "Ausgewählte Kursbausteine", werden Sie im Wizard zusätzlich durch die Teilschritte geführt und zum Schluss nochmals gefragt, ob das Zurücksetzen nun so erfolgen soll.
 
-![assessment_tool_reset_data_wizard3_v1_de.png](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
+![Liste der Kursbausteine zum Ankreuzen, im Wizard-Schritt "Auswahl Kursbausteine"](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reset_data)
 
@@ -68,13 +68,13 @@ Wählen Sie im Wizard die Optionen "Ausgewählte Teilnehmer:innen" und "Ausgewä
 
 ### Zurücksetzen im Bewertungswerkzeug {: #members_assessment_tool}
 
-![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
+![Schritte 1 bis 4 markiert: Kursbaustein wählen, Tab "Teilnehmer:innen", Checkbox-Auswahl und Button "Daten zurücksetzen", im Bewertungswerkzeug](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
 
 1. Kurs öffnen → Administration → Bewertungswerkzeug → Kursbaustein wählen<br>
 (Bei Klick auf das Wurzelelement des Kurses (oberste Ebene) bezieht sich die nachfolgenden Schritte auf alle Kursbausteine.)
 2. Tab Teilnehmer:innen wählen
 3. Eine Teilnehmer:in in der Tabelle anklicken → Übersicht Teilnehmer:in öffnet sich.<br>
-Für mehrere Teilnehmer:innen selektieren Sie in der dersten Spalte die entsprechenden Checkboxen.
+Für mehrere Teilnehmer:innen selektieren Sie in der ersten Spalte die entsprechenden Checkboxen.
 4. Sobald mindestens 1 Person selektiert ist, erscheinen über der Tabelle weitere Buttons.
 Nach Klick auf den Button "Daten zurücksetzen" werden nach einer Sicherheitsabfrage die Daten der selektierten Personen zurückgesetzt.
 
@@ -82,15 +82,15 @@ Nach Klick auf den Button "Daten zurücksetzen" werden nach einer Sicherheitsabf
 
 1\. Kurs öffnen → Administration → Lernpfad-Tool auswählen
 
-![assessment_tool_reset_data_member2_v1_de.png](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt "Lernpfad" hervorgehoben in der Kurs-Toolbar](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
 
 2\. Es öffnet sich eine Teilnehmerliste. Wählen Sie eine:n Teilnehmer:in in der Tabelle.
 
-![assessment_tool_reset_data_member3_v1_de.png](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
+![Teilnehmerliste mit Fortschritt und Bestehensstatus, im Lernpfad-Werkzeug des Kurses](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
 
 3\. Klicken Sie auf ein 3-Punkte-Icon am Ende einer Zeile. Dort finden Sie die Option "Daten zurücksetzen". Sie können Daten für einzelne Kursbausteine zurücksetzen oder für den Kurs als Ganzes, wenn Sie das oberste Icon für den Gesamtkurs wählen.
 
-![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
+![Kontextmenü einer Teilnehmerin mit Option "Daten zurücksetzen", in der Lernpfad-Detailansicht](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#reset_data)
@@ -202,7 +202,7 @@ Teilnehmer-Ordner | Ordner zurückgesetzt; Export aller eingereichten und zurüc
 Terminplanung | Anmeldungen bleiben erhalten
 Test | Alle Versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
 Themenvergabe | Themen-Zuweisungen werden entfernt
-Themenbörse | Zuordnungen und Einschreibungen werden zuzrückgesetzt
+Themenbörse | Zuordnungen und Einschreibungen werden zurückgesetzt
 Übung | Übungsdaten und -versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
 Umfrage | Reset für alle Teilnehmenden: Zurückgesetzt und Export ins Archiv; Reset für einzelne Teilnehmende: Kein Zurücksetzen und Export, da Umfragen anonym sind
 Video-Aufgabe | Alle Versuche zurückgesetzt; Durchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
@@ -232,32 +232,14 @@ Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
 ---
 
 
-## Daten neu berechnen {: #recalculate}
-
-
-!!! info "Hinweis"
-
-    Diese Funktion ist ab Release 20.2 entfernt worden, weil sie nicht mehr erforderlich ist.
-
-Über diesen Link des Menüs kann eine Neuberechnung des Kurses angestoßen werden. So können die Kursbewertungen und Leistungsnachweise aktualisiert, die Berechnung für bestanden und auch manuell gesetztes "bestanden" zurückgesetzt werden.
-
-![Daten neu berechnen](assets/neu_berechnen1.jpg)
-
-
-
-[Zum Seitenanfang ^](#reset_data)
-
----
-
-
 ## Unterschied: "Daten zurücksetzen" - "Alle Daten löschen" {: #reset_vs_delete}
 
 
 Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ihnen sowohl Möglichkeiten zum Zurücksetzen als auch zum Löschen der Daten zur Verfügung. Worin bestehen die Unterschiede?
 
-![assessment_tool_reset_data_distinguish_v1_de.png](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
+![Drei Bedienelemente markiert: "Daten zurücksetzen" mit Wizard, "Daten zurücksetzen" ohne Wizard und "Alle Daten löschen", im Bewertungswerkzeug eines Kursbausteins "Test"](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
 
-| ![1_green_24.png](assets/1_green_24.png)<br>Daten zurücksetzen<br>mit Wizard| ![2_green_24.png](assets/2_green_24.png)<br>Daten für ausgewählte einzelne Teilnehmer:innen ohne Wizard zurücksetzen | ![3_green_24.png](assets/3_green_24.png)<br>Alle Daten löschen<br>&nbsp; |
+| ![1](assets/1_green_24.png)<br>Daten zurücksetzen<br>mit Wizard| ![2](assets/2_green_24.png)<br>Daten für ausgewählte einzelne Teilnehmer:innen ohne Wizard zurücksetzen | ![3](assets/3_green_24.png)<br>Alle Daten löschen<br>&nbsp; |
 | ----------------- | ----------------- | ----------------- |
 | Mit diesem Button öffnen Sie den Wizard.<br>Gemäss der dort gemachten Angaben werden die Daten dann zurückgesetzt. | Mit diesem Button werden nur die Daten der selektierten Teilnehmer:innen zurückgesetzt.<br>&nbsp; | Mit diesem Button werden alle bisher in diesem Kursbaustein gemachten Eingaben von allen Teilnehmer:innen komplett gelöscht. |
 |<b>Beispiel: |<b>Alle haben 3 Versuche, den Test zu bestehen.| |
@@ -269,11 +251,11 @@ Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ih
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Bewertungswerkzeug - Tab Teilnehmer >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
-[Kurs löschen >](../../manual_user/learningresources/Course_Delete.de.md)<br>
-[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
+[Bewertungswerkzeug - Tab Teilnehmer >](Assessment_tool_tab_Users.de.md)<br>
+[Kurs löschen >](Course_Delete.de.md)<br>
+[Benutzer:in löschen >](../../../manual_admin/docs/usermanagement/Delete_User.de.md)<br>
 
 [Zum Seitenanfang ^](#reset_data)
 

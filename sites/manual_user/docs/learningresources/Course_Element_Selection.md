@@ -7,7 +7,7 @@ Name | Selection
 ---------|----------
 Icon | :o_icon_o_icon_cns:
 Available since | Release 19.1
-Functional group | Administration and Organisation
+Functional group | Others
 Purpose | Selection of a certain number of course elements within the course structure (course menu) by the participants
 Assessable | no
 Speciality / Note | The course element can only be used in learning path courses.
@@ -34,15 +34,15 @@ The course element "Selection" is used in a similar way to the "Structure" cours
 **Step 1:**<br>
 As a participant, simply select the course element of the "Selection" type in your course. There you choose which of the suggested course elements you want to include in your course menu.
 
-![course_element_selection_participant_choose_v1_de.png](assets/course_element_selection_participant_choose_v1_de.png){ class="shadow lightbox" }
+![Course element "Selection" with four course elements offered for selection, one of them already selected](assets/course_element_selection_participant_choose_v1_de.png){ class="shadow lightbox" }
 
 **Step 2:**<br>
 The selected course elements will then appear in your course menu and can be edited.
 
-![course_element_selection_participant_selecterd_v1_de.png](assets/course_element_selection_participant_selected_v1_de.png){ class="shadow lightbox" }
+![Course menu with the course element "Selection" and the two selected course elements below it](assets/course_element_selection_participant_selected_v1_de.png){ class="shadow lightbox" }
 
 
-!!! info "Note"
+!!! info "Important"
 
     Once a selection has been made, it can no longer be changed by participants. Intervention by the course owner or coach is required to reset the selection.
 
@@ -52,9 +52,9 @@ The selected course elements will then appear in your course menu and can be edi
 Course participants will find the "Learning path" icon in the toolbar, where they can see which course elements they have already completed.
 As long as no selection has been made in a course element of the type "Selection", no course elements assigned to the selection element are displayed in the learning path tool. As soon as a selection has been made, the selected course elements are displayed.
 
-![course_element_selection_participant_learningpath_tool_v1_de.png](assets/course_element_selection_participant_learningpath_tool_v1_de.png){ class="shadow lightbox" }
+![Course toolbar with the "Learning path" icon highlighted](assets/course_element_selection_participant_learningpath_tool_v1_de.png){ class="shadow lightbox" }
 
-![course_element_selection_participant_learningpath_v1_de.png](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
+![Learning path tool with the course element "Selection" and the two selected course elements below it](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
 
 
 [Up (Participant perspective) ^](#selection_participant)<br>
@@ -75,7 +75,7 @@ In the course editor, drag additional course elements onto the "Selection" cours
 
 ### Tab "Learning path" {: #selection_setup_tab_learning_path}
 
-In contrast to the assigned course elements, you can choose whether the course element is compulsory, voluntary or subject to an exception in the selection element itself for **implementation**.
+In contrast to the assigned course elements, you can choose whether the course element is mandatory, optional or subject to an exception in the selection element itself for **execution**.
 
 The **completion criterion** can **not** be set for a course element "Selection", but is predefined.
 It counts whether assigned course elements have been selected and completed. 
@@ -88,7 +88,7 @@ This automatically set property **cannot** be changed by authors in the course e
 
 Later, during the course, this property is automatically changed individually according to the selection made by the participants.
 
-![course_element_selection_subordinate_path_v1_de.png](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
+!["Learning path" tab of an assigned course element in the course editor with the execution set to "Excluded"](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
 
 
 ### Tab "Configuration" {: #selection_setup_tab_config}
@@ -96,7 +96,7 @@ Later, during the course, this property is automatically changed individually ac
 In the "Configuration" tab, you can specify how many course elements the participants must transfer from the suggestions to their personal course menu.
 This is mandatory information for course owners so that the "Selection" course element works. 
 
-![course_element_selection_config_v1_de.png](assets/course_element_selection_config_v1_de.png){ class="shadow lightbox" }
+!["Configuration" tab of the course element "Selection" with the field "Selections per participant"](assets/course_element_selection_config_v1_de.png){ class="shadow lightbox" }
 
 
 [Up (Perspective course owner) ^](#selection_setup)<br>
@@ -116,23 +116,23 @@ If a complete selection has not yet been made, you can recognize this by the sma
 
 In the detailed view, you can see which course elements a participant has selected.
 
-Course elements with the implementation status "Excluded" are not displayed in the course menu.
-Before a selection is made, all selectable course elements have this status. Once a selection has been made, the course element is assigned the status "Compulsory" or "Optional" (depending on the status of the course element "Selection"). 
+Course elements with the execution status "Excluded" are not displayed in the course menu.
+Before a selection is made, all selectable course elements have this status. Once a selection has been made, the course element is assigned the execution "Mandatory" or "Optional" (depending on the status of the course element "Selection"). 
 
 If the participant has selected the required number of course elements, the yellow triangle is no longer displayed.
 
-![course_element_selection_coach1_v1_de.png](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
+![Participant list of the course element "Selection" with detail view of a participant and yellow triangle for a still missing selection](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
 
 
 ### View of selected course elements in the learning path tool {: #selection_coaching_view_selected_elements}
 
 Coaches can display the learning paths of all course participants under the "Learning path" icon in the toolbar. Open the tool and select a participant.
 
-![course_element_selection_coach2_v1_de.png](assets/course_element_selection_coach2_v1_de.png){ class="shadow lightbox" }
+![Course toolbar with the "Learning path" icon highlighted, from the coach perspective](assets/course_element_selection_coach2_v1_de.png){ class="shadow lightbox" }
 
 If no selection has yet been made by the course participant, no course elements will be displayed below the "Selection" course element. As soon as participants have made a selection, the selected course elements are also visible to coaches in their learning path tool.
 
-![course_element_selection_coach3_v1_de.png](assets/course_element_selection_coach3_v1_de.png){ class="shadow lightbox" }
+![Learning path of a participant from the coach perspective with the course element "Selection" and the two selected course elements below it](assets/course_element_selection_coach3_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -146,9 +146,9 @@ Coaches and owners have the opportunity to edit the selection made by participan
 
 * Select the desired course element "Selection" in the course menu. 
 * All participants are displayed as coaches. Select a participant.
-* Click on the entry in the "Implementation" column to open the pop-up for overwriting the implementation setting.
+* Click on the entry in the "Execution" column to open the pop-up for overwriting the execution setting.
 
-![course_element_selection_coach_modify1_v1_de.png](assets/course_element_selection_coach_modify1_v1_de.png){ class="shadow lightbox" }
+![Pop-up for overwriting the execution of a course element with the options "Mandatory" and "Optional"](assets/course_element_selection_coach_modify1_v1_de.png){ class="shadow lightbox" }
 
 **Variant:**
 
@@ -156,7 +156,7 @@ Coaches and owners have the opportunity to edit the selection made by participan
 * Click on the 3 dots at the end of a line. The pop-up for overwriting the setting for execution opens. 
 * To completely reset, change all course elements to "Excluded". To do this, click on "Delete change". This will restore the original status.
 
-![course_element_selection_coach_modify2_v1_de.png](assets/course_element_selection_coach_modify2_v1_de.png){ class="shadow lightbox" }
+![Pop-up for overwriting the execution, opened via the 3 dots in the learning path tool](assets/course_element_selection_coach_modify2_v1_de.png){ class="shadow lightbox" }
 
 
 [Up (Course coach) ^](#selection_coaching)<br>
@@ -167,10 +167,8 @@ Coaches and owners have the opportunity to edit the selection made by participan
 
 ## Further information {: #further_information}
 
-
-[How do I use course element "Selection"?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
-[Course element "structure"](../learningresources/Course_Element_Structure.md)<br>
-
+[How do I use course element selection?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
+[Course Element "Structure"](../learningresources/Course_Element_Structure.md)
 
 <br>
 

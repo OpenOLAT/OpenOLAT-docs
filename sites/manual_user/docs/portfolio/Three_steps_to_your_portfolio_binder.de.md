@@ -1,63 +1,65 @@
-# Drei Schritte zu Ihrer Mappe
+# Drei Schritte zu Ihrer Mappe {: #portfolio_binder_three_steps}
 
-Jeder OpenOlat User kann unabhängig von einem Kurs oder von Autorenrechten
-eigene Portfolio Mappen erstellen.
+Jede Person kann in OpenOlat unabhängig von einem Kurs oder von Autorenrechten
+eigene Mappen erstellen.
 
 Eine Mappe besteht aus Bereichen, Einträgen und Inhalten. Schritt für Schritt
 wird hier gezeigt, wie eine Mappe erstellt wird.
 
-## Schritt 1: Mappe erstellen  
----  
-1. Gehen Sie in den Bereich Portfolio 2.0. und wählen Sie "Zu meinen Mappen".|
+## Schritt 1: Mappe erstellen
+1. Gehen Sie in den Bereich Portfolio 2.0 und wählen Sie "Zu meinen Mappen".
 
-![mappe_erstellen.png](assets/portfolio_mappe_erstellen.png)  
-  
+![Button Neue Mappe erstellen oben rechts und die drei Optionen leer, aus Vorlage oder aus Portfolioaufgabe. Übersicht Meine Mappen.](assets/portfolio_mappe_erstellen.png){ class="shadow lightbox" }
+
 2. Wählen Sie "Neue Mappe erstellen". Wenn Sie die untere Option zur
-Erstellung nutzen können Sie zwischen einer leeren Mappe, einer Portfolio
-Mappe die auf einer Portfoliovorlage beruht wählen oder eine Portfolioaufgabe
-aus einem Kurs verwenden.  
+Erstellung nutzen, können Sie zwischen einer leeren Mappe, einer Mappe aus
+einer Portfoliovorlage oder einer Portfolioaufgabe aus einem Kurs wählen.
 
 3. Bei einer leeren Mappe kann ein Titel selbst gewählt und auch eine
 Zusammenfassung und ein Titelbild hochgeladen werden. Der Text der
 Zusammenfassung erscheint auf der Überblicksseite der Mappe und kann später
-auch über „Metadaten bearbeiten“ geändert werden. Bei den Mappen die auf
-Portfoliovorlagen beruhen bzw. die im Kurs abgeholt werden, hat man diese
-Möglichkeit nicht.  
-  
-## Schritt 2: Bereich erstellen  
----  
-1. Sobald eine leere Mappe erstellt worden ist, kann ein Bereich angelegt, und
-so die Mappe strukturiert werden.|
+auch über „Metadaten bearbeiten“ geändert werden. Bei den Mappen, die auf
+Portfoliovorlagen beruhen bzw. die im Kurs abgeholt werden, haben Sie diese
+Möglichkeit nicht.
 
-![bereich_erstellen.png](assets/eportfolio_Bereich_erstellen.png)  
-  
+## Schritt 2: Bereich erstellen
+1. Sobald eine leere Mappe erstellt worden ist, kann ein Bereich angelegt und
+so die Mappe strukturiert werden.
+
+![Button Neuen Bereich erstellen oben rechts und im Kasten darunter. Tab Überblick einer Mappe.](assets/eportfolio_Bereich_erstellen.png){ class="shadow lightbox" }
+
 2. Rechts oben oder mit dem Button unten in der Mitte einen neuen Bereich
-erstellen.  
-3. Kurzen Titel eingeben und speichern.  
-4. Zusätzlich kann eine Zusammenfassung hinzugefügt werden.  
-  
-!!! tip "Tipp"
+erstellen.
+3. Kurzen Titel eingeben und speichern.
+4. Zusätzlich kann eine Zusammenfassung hinzugefügt werden.
+
+!!! info "Wichtig"
 
     Bereiche können nur im Tab "Überblick" bearbeitet werden. Bereiche können nicht in Unterbereiche unterteilt werden. Jedem Bereich können Einträge hinzugefügt werden.
 
-## Schritt 3: Eintrag erstellen  
----  
+## Schritt 3: Eintrag erstellen
 1. Sobald ein Bereich vorhanden ist, können dem Bereich "Einträge" hinzugefügt
 werden.
 
-![neuer_eintrag.png](assets/eportfolio_eintrag_neu_DE.png)  
-  
+![Button Neuen Eintrag erstellen oben rechts und im Kasten im Bereich. Tab Einträge einer Mappe.](assets/eportfolio_eintrag_neu_DE.png){ class="shadow lightbox" }
+
 2. Rechts oben oder mit dem Button unten in der Mitte einen neuen Eintrag
-erstellen.  
-3. Kurzen Titel eingeben und mit "Neuer Eintrag erstellen" speichern.  
+erstellen.
+3. Kurzen Titel eingeben und mit "Neuer Eintrag erstellen" speichern.
 4. Zusätzlich können eine Zusammenfassung, ein Titelbild und Kategorien
-hinzugefügt werden.  
+hinzugefügt werden.
 5. Anschliessend können verschiedene
-[Inhalte](../area_modules/My_portfolio_binders.de.md#MeinePortfolioMappen-portfolioinhalt)
-bzw. Artefakte hinzugefügt werden.  
-  
+[Inhalte](../area_modules/The_portfolio_editor_17_1.de.md)
+bzw. Artefakte hinzugefügt werden.
+
 !!! info "Info"
 
-    Solange ein Eintrag noch bearbeitet wird, befindet er sich im Status "Entwurf". Nach der Fertigstellung sollte er publiziert werden. Nach dem Publizieren kann der Eintrag nicht mehr bearbeitet werden. Allerdings besteht dann die Möglichkeit Kommentare zu hinterlassen.
+    Solange ein Eintrag noch bearbeitet wird, befindet er sich im Status "Entwurf". Nach der Fertigstellung sollte er publiziert werden. Nach dem Publizieren kann der Eintrag nicht mehr bearbeitet werden. Allerdings besteht dann die Möglichkeit, Kommentare zu hinterlassen.
 
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Der Portfolio Editor](../area_modules/The_portfolio_editor_17_1.de.md)
+
+[Zum Seitenanfang ^](#portfolio_binder_three_steps)
 

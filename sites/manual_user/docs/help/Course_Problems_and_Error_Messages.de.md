@@ -1,7 +1,7 @@
-# Probleme und Fehlermeldungen im Kurs
+# Probleme und Fehlermeldungen im Kurs {: #course_problems}
 
 Wenn Sie den gewünschten Kurs oder einzelne Kursbausteine nicht öffnen können,
-hat der Kursbesitzer Ihnen die Berechtigung dazu nicht gegeben oder ist gerade
+hat die Kursbesitzer:in Ihnen die Berechtigung dazu nicht gegeben oder ist gerade
 daran, den Kurs zu aktualisieren.
 
 ## Berechtigung/Zugang für den Kurs
@@ -13,24 +13,24 @@ sonstwie auf eine bestimmte Gruppe eingeschränkt worden.
 
 Möglicherweise haben Sie einen Kurs starten können und zu einem späteren
 Zeitpunkt treffen Sie die Fehlermeldung an, dass sich Berechtigungen geändert
-haben. Der Kursbesitzer hat den Kurszugriff nachträglich eingeschränkt oder
+haben. Die Kursbesitzer:in hat den Kurszugriff nachträglich eingeschränkt oder
 den Kurs geschlossen.
 
-Falls der Besitzer zu einem späteren Zeitpunkt den Zugangscode zum Kurs
+Falls die Kursbesitzer:in zu einem späteren Zeitpunkt das Passwort zum Kurs
 ändert, haben alle die sich mit dem bisherigen Passwort in den Kurs eingewählt
 haben aber weiterhin Zugang zum Kurs. Anders sieht es aus, wenn das Passwort
 innerhalb des Kurses auf einem Strukturbaustein oder dem obersten Kursbaustein
 gesetzt wurde.
 
 Wenn Sie Zugang zu bestimmten Kursen benötigen und nicht reinkommen,
-kontaktieren Sie bitte den jeweiligen Besitzer des Kurses. Er wird Ihre
-Berechtigung prüfen und kann ihnen dann das benötigte Passwort zusenden, Sie
+kontaktieren Sie bitte die jeweilige Kursbesitzer:in des Kurses. Sie wird Ihre
+Berechtigung prüfen und kann Ihnen dann das benötigte Passwort zusenden, Sie
 direkt in den Kurs eintragen bzw. Ihnen auf anderen Wegen Zugang gewähren.
 
 ## Berechtigung / Passwortschutz für Kursbausteine (bei herkömmlichen Kursen)
 
 Möglicherweise ist nicht der ganze Inhalt eines Kurses für Sie sichtbar, oder
-Sie haben keinen Zugang zu gewissen Kursbausteinen. Der Besitzer kann z.B.
+Sie haben keinen Zugang zu gewissen Kursbausteinen. Die Kursbesitzer:in kann z.B.
 gewisse Kursbausteine nur für bestimmte Gruppen, nur zu einem bestimmten
 Zeitpunkt oder nach Erreichen einer bestimmten Punktzahl in einem Test o.ä.
 freigeben. Auch können bestimmte Bereiche des Kurses mit einem Passwort
@@ -38,15 +38,15 @@ versehen sein. Der Zugangsschutz gilt dann für alle untergeordneten
 Kursbausteine.
 
 Wenn Ihnen unklar ist, warum Sie keinen Zugang zu diesen Bereichen haben,
-kontaktieren Sie bitte den Kursbesitzer, damit er Ihnen erklären kann, weshalb
+kontaktieren Sie bitte die Kursbesitzer:in, damit sie Ihnen erklären kann, weshalb
 Sie keine Berechtigungen haben.
 
-## Berechtigungen bei sequenziellen Lernpfad Kursen
+## Berechtigungen bei sequenziellen Lernpfadkursen
 
-Handelt es sich um einen Lernpfad-Kurs der sequenziell freigegeben wird, sehen
+Handelt es sich um einen Lernpfadkurs, der sequenziell freigegeben wird, sehen
 Sie zwar schon zu Beginn sämtliche Kursbausteine, müssen aber die Bausteine
 nacheinander abarbeiten um jeweils zum nächsten Baustein zu gelangen. Je nach
-Konfiguration durch den Lehrenden müssen Sie z.B. die Lesebestätigung
+Konfiguration durch die Lehrenden müssen Sie z.B. die Lesebestätigung
 anklicken, etwas eingereicht haben, eine bestimmte Punktzahl erreicht haben,
 den Kursbaustein bestanden haben usw. Im einfachsten Fall reicht es aus den
 Kursbaustein einfach aufzurufen um dann den Zugang zum folgenden Baustein zu
@@ -61,7 +61,16 @@ zugänglich sind.
 ## Änderungen am Kurs
 
 Wenn Sie einen Kurs bearbeiten und die Meldung bekommen, der Kurs wäre
-verändert worden, hat der Besitzer im Hintergrund den Kurs gerade aktualisiert
+verändert worden, hat die Kursbesitzer:in im Hintergrund den Kurs gerade aktualisiert
 und neu publiziert. Klicken Sie auf "Kurs schliessen und neustarten", um zur
 aktualisierten Version des Kurses zu gelangen.
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Rollen >](../basic_concepts/Roles.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+
+[Zum Seitenanfang ^](#course_problems)
 

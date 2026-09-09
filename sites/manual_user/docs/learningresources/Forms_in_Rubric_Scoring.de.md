@@ -1,8 +1,8 @@
-# Formular als Rubrik Bewertung
+# Formular als Rubrik-Bewertung
 
 Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](../learningresources/Form_Element_Rubric.de.md) Element eignet sich optimal für eine kriterienbasierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Auch Bewertungen im Rahmen eines Peer-Reviews werden mit Rubrik-Formularen ausgeführt. Dazu benötigt es den [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md).
 
@@ -11,11 +11,11 @@ Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](../learni
 
 Gehen Sie in den Kurseditor und fügen Sie den [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md) hinzu. Aktivieren Sie anschliessend den Tab "Bewertung" des Kursbausteins und setzen Sie den Haken bei "Rubrik-Bewertung".
 
-![Rubrik-Bewertung konfigurieren](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
+![Checkbox Rubrik-Bewertung aktiviert mit Button "Rubrik-Formular auswählen", im Tab "Bewertung" des Kursbausteins](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
 
 Im nächsten Schritt können sie ein passendes Rubrik-Formular auswählen oder erstellen.
 
-![Rubrik-Formular Auswahldialog](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
+![Liste eigener Formular-Lernressourcen zum Auswählen, im Dialog "Rubrik-Formular auswählen"](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
 
 Die Basis des Rubriks ist die Lernressource Formular der im [Formular-Editor](../learningresources/Form_Editor.de.md) ein Rubrik Element hinzugefügt wurde.
 
@@ -33,21 +33,21 @@ Nachdem ein Formular (mit Rubrik) ausgewählt wurde kann es über den Link "Bear
 
 So könnte ein Bewertungsrubrik aussehen:
 
-![Beispiel Bewertungsrubrik](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
+![Beispielrubrik mit vier Kriterienzeilen und fünf Bewertungsstufen von "sehr schlecht" bis "sehr gut"](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
 
-#### Rubrik Bewertung konfigurieren
+#### Rubrik-Bewertung konfigurieren
 
 Nachdem ein Rubrik mit der Bewertung verknüpft wurde können im Tab "Bewertung" folgende weitere Konfigurationen vorgenommen werden:
 
 **Status "Korrigieren" setzen, wenn Zugriff gewährt**: Wird der Haken gesetzt erscheint bei geschlossenem Editor für Besitzer und Betreuer unter Status die Anzeige "Korrigieren". Den Teilnehmenden wird passend dazu "In Korrektur" angezeigt. Ist der Haken nicht gesetzt, sieht der User "Keine Angabe" und den Lehrenden wird der Status "Nicht gestartet" oder "Bewertet" angezeigt, je nachdem ob eine Bewertung schon vorgenommen wurde oder nicht.  
-  
+
 **Punkte vergeben**: Punkte können, sofern aktiviert, automatisch oder manuell vergeben werden. Automatische Punkte können als Summe oder Durchschnitt aus dem Rubrik übernommen werden. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
 
 **Bewertung mit Einstufung/Noten**: Sofern Punkte vergeben werden können diese auch mit einer Einstufung/Noten verbunden werden. Die Zuweisung kann Manuell oder automatisch erfolgen. Ferner muss eine Bewertungsskala ausgewählt werden. Weitere Infos finden Sie [hier](../learningresources/Assessment_translate_points_in_grades.de.md). 
 
 **Bestanden/Nicht bestanden ausgeben**:  Sofern ein bestanden angezeigt werden soll kann definiert werden ob die Anzeige automatisch basierend auf einer Punkteschwelle erfolgen soll oder ob ein bestanden manuell gesetzt werden soll.
 
-!!! Info
+!!! info "Wichtig"
 
     Wenn Einstufung/Noten ausgewählt wurde ist hier bereits enthalten ob die Skala mit einem Bestehen kombiniert ist oder nicht. Eine separate Auswahl ist dann nicht mehr möglich. 
 
@@ -60,14 +60,27 @@ Nachdem ein Rubrik mit der Bewertung verknüpft wurde können im Tab "Bewertung"
 **Hinweise für Benutzer:innen**: Allgemeine Informationen zur Bewertung des Kursbausteins für alle Lernenden. Erläutern sie eventuell näher die Kategorien des Rubriks.  
 
 **Hinweise für alle Betreuer:innen**: Hier können Hinweise für Betreuende hinterlegt werden, z.B. was bei der Bewertung der Rubrik-Kategorien wichtig und zu beachten ist. Die Teilnehmenden sehen die Hinweise nicht.
-  
+
 Weitere Informationen zum Kursbaustein Bewertung finden Sie [hier](../learningresources/Course_Element_Assessment.de.md).
 
 ### Rubrik-Bewertung vornehmen
 
 Die eigentliche Bewertung der Lernenden erfolgt dann bei geschlossenem Kurs-Editor im Kursrun direkt beim gewünschten Kursbaustein oder im Bewertungswerkzeug.
 
-![Bewertung Teilnehmerliste](assets/Bewertung181.jpg){ class="shadow lightbox" }
+![Teilnehmerliste mit Punkten, Note und Bestehensstatus, im Bewertungswerkzeug](assets/Bewertung181.jpg){ class="shadow lightbox" }
 
 Wählen Sie hierfür die zu bewertende Person aus der Liste aus und markieren Sie einfach die gewünschten Ausprägungen. Sofern aktiviert werden die Punkte aus der Rubrikbewertung automatisch übernommen und führen so schnell zu einer Kriterien basierten, transparenten Bewertung.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
+[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+[Zum Seitenanfang ^](#formular-als-rubrik-bewertung)
 

@@ -1,10 +1,10 @@
 # Assessment tool - overview {: #assessment_tool_overview}
 
-The assessment tool is the central switch point for assessments of an OpenOlat course. Here course owners and tutors will get a general overview of all assessable elements of their course and can carry out assessments.
+The assessment tool is the central switch point for assessments of an OpenOlat course. Course owners and coaches get a general overview here of all assessable course elements contained in the course and can carry out the assessments.
 
-Via course administration you will get to the assessment tool. When you open the assessment tool you will first see an overview page with central information as well as an overview of currently pending assessments.  This way you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of the individual course elements and persons.
+You reach the assessment tool via `Course > Administration > Assessment tool`. When you open the assessment tool, you will first see the overview page with central information as well as an overview of the currently pending assessments and actions. This way you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of the individual course elements and persons.
 
-![assessment_tool_overview_v1_de.png](assets/assessment_tool_overview.jpg)
+![Overview page of the assessment tool with participant statistics, assessment mode, open reviews, and notification service](assets/assessment_tool_overview.jpg){ class="shadow lightbox" }
 
 Let's take a closer look at the individual areas of the overview:
 
@@ -12,102 +12,97 @@ Let's take a closer look at the individual areas of the overview:
 
 ### "Open reviews" (Overview)
 
-Here you can see at a glance for which users one or more ratings are open.  It also shows how many modules of the respective user are to be rated. If only one building block needs to be rated, it is listed directly. By clicking on this module, you can access the corresponding rating.
+At a glance you can see whether, and for whom, one or more reviews are open. It also shows how many course elements of the respective user need to be reviewed. If only one course element needs to be reviewed, it is listed directly. Clicking on the course element takes you to the corresponding review.
 
-![open reviews](assets/open_reviews.jpg)
+![List of open reviews by course element and participant in the assessment tool](assets/open_reviews.jpg){ class="shadow lightbox" }
 
-Only the unfinished assessments are displayed here. Reviews that have already been completed are not listed here.
+Only the unfinished reviews are displayed here. Reviews that have already been carried out are not listed here.
 
 ### "Reviews to release" (Overview)
 
-If there are assessments in the course that have not yet been made visible to participants, they will appear here.
-![reviews to release](assets/review_to_release.jpg)
+If there are reviews in the course that have not yet been made visible to the participants, they appear here.
 
+![List of reviews not yet released, by course element and participant, in the assessment tool](assets/review_to_release.jpg){ class="shadow lightbox" }
 
 ### "Participants" (Overview)
 
-This area shows how many users, groups and course elements are generally available in this course.
+This area shows how many participants, groups and curriculum elements are generally available in the specific course.
 
-If passed/not passed has been configured for the entire course, the number of course members who have passed or failed the course is displayed. The average distribution of points can also be seen if points are activated in the course. 
+If "passed" has been configured for the entire course, the number of the respective course members who have passed or not passed the course is displayed. The average distribution of points is also visible, provided points are activated in the course. 
 
+![Participant statistics with score distribution, passed course members, and groups and curriculum elements in the assessment tool overview](assets/Uebersicht_Bewertungswerkzeug.jpg){ class="shadow lightbox" }
 
-![oberste Übersicht Bewertungswerkzeug](assets/Uebersicht_Bewertungswerkzeug.jpg)
+### Assessment mode (Overview)
 
-## Assessment mode
+If an exam in [assessment mode](../learningresources/Assessment_mode.md) is planned for the course, or an exam is currently taking place, this is also displayed in the assessment tool.
 
-If the course is in [Assessment mode](../learningresources/Assessment_mode.md), this is also displayed in the assessment tool.
+![Ongoing and scheduled exams with start, end, and number of participants in the assessment mode area of the assessment tool](assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" }
 
-![Prüfungsmodus Überblick](assets/Pruefng1_Bewertungswerkzeug1.jpg)
+You can also see how many people are already logged in and waiting for the exam to start.
 
-You can also see how many people are already logged in and waiting for the test to start.
-
-![start exam manual](assets/start_exam.jpg)
+![Scheduled exam with waiting participants and the Start exam button in the assessment tool](assets/start_exam.jpg){ class="shadow lightbox" }
 
 ### "Notification Service"
 
-Here coaches can activate the option to receive an email for new submissions, test results and other submissions.  Notifications about newly generated certificates (if generally activated) can also be subscribed to.
+Here coaches can use the subscribe toggle to activate receiving an email for new submissions, test results and other submissions. Notifications about newly generated certificates (if generally activated) can also be subscribed to.
 
-![Benachrichtigungsservice aktivieren](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg)
-
+![Subscribe toggle for notifications about new test results and certificates in the assessment tool](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg){ class="shadow lightbox" }
 
 ## Orders
 
-Below the overview is the link to the "Orders" area. Here you can see whether there are open assessments, levels/gradings have to be made manually and whether there are assessments to be released.
+Below the overview is the link to the "Orders" area. Here you can see whether there are open reviews, whether ratings/grades need to be entered manually, and whether there are reviews to release.
 
-![Assessment Aufträge](assets/Auftraege1.jpg)
+![The "Orders" area with tabs for open reviews, open gradings, and reviews to release in the assessment tool](assets/Auftraege1.jpg){ class="shadow lightbox" }
 
+## Assessment inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
-## Assessment inspection
+This menu area is only visible if an exam has been configured for the course and the assessment inspection option has also been activated.
 
-:octicons-tag-24: Release 18.2
+Coaches can then add participants, define which exam the inspection applies to, and at what specific time the inspection is possible. If required, an access code for the inspection can also be assigned and an info email sent.
 
-This menu area is only visible if an exam has been configured for the course and the exam view option has also been activated. 
+![The "Assessment inspection" tab of a course element with participant list, viewing period, and status](assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" }
 
-Coaches can give exam participants individual access to their exam after it has been completed. For this purpose, time slots are set in which the persons concerned can view their exam again under preconfigured conditions. f required, an access code for the inspection can also be assigned and an info email sent. 
-
-![Aufträge Prüfungseinsicht](assets/Pruefungseinsicht_Baustein1.jpg)
-
-You can find more information about the examination inspection [here](../learningresources/Assessment_inspection.md).
+You can find more information about assessment inspection [here](../learningresources/Assessment_inspection.md).
 
 ## Overview of the assessment elements of the course
 
-In the left navigation of the assessment tool you can see all assessable course elements. All elements are displayed with the tabs "Overview" and "Participants". 
+In the left navigation of the assessment tool you see all assessable course elements. For all course elements, the tabs "Overview" and "Participants" are displayed.
 
-The overview tab displays similar information to the overview area of the assessment tool, only related to the course element, e.g. the distribution of points, number of assessments, information on passing, etc. 
-
+The overview tab shows information similar to the overview area of the assessment tool, but related to the course element, e.g. the distribution of points, number of reviews, information on passing, etc.
 
 ### Tab Participants
 
-The actual evaluation is carried out in the "Participants" tab, where individuals can be selected, points and feedback can be entered, and visibility settings can be configured. 
-The table then shows the processing status of all participants in the specific course module.  
-Furthermore, all submitted documents can be downloaded from the Participant Tab. 
+In the "Participants" tab, the actual assessment is carried out: persons can be selected, points and feedback entered, and the release of visibility set. 
+The table then shows the processing status of all participants of the specific course element.<br>
+Furthermore, for tasks, all submitted documents can also be downloaded in the Participants tab.
 
-The automatically generated top course node also counts as an assessable module. It corresponds to a ["Structure"](../learningresources/Knowledge_Transfer.md/#structure) module.  
-Clicking on a person in the top course module gives you a complete overview of the progress made by that person in the assessment modules of the course, allowing you to view their performance record. 
+The automatically generated top course node also counts as an assessable element. It corresponds to a ["Structure"](../learningresources/Knowledge_Transfer.md#structure) element.<br>
+Clicking on a person at the top course element gives you a complete overview of the processing status of the assessment elements of the course for that person, allowing you to also view their proof of performance.
 
-If a point calculation is set up on the top course module, the *total points* for a course or the points defined for the top module can also be displayed at the top level of the user view, and the overall results of the course participants can be downloaded.
+If a point calculation is set up on the top course element, the *total points* of a course, or the points defined for the top element, can also be displayed at the top level of the user view, and the overall results of the course participants can be downloaded.
 
-!!! info "Hint"
+!!! tip "Tip"
 
-    Use the filter settings to display only certain participants in the table. You can also use the column configuration via the gear icon to display the columns that are relevant to you. 
+    Use the filter settings to display only certain participants in the table. Also use the column configuration via the gear icon to display the columns that are relevant to you.
 
- To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../learningresources/Assessment_of_course_modules.md) or ["User assessment](../learningresources/Assessment_tool_tab_Users.md).
+To learn exactly how assessments are carried out, see the chapters ["Assessment of course elements"](../learningresources/Assessment_of_course_modules.md) or ["Assessing learners"](../learningresources/Assessment_of_learners.md).
 
-!!! info "Note"
+!!! info "Important"
 
-    If exam viewing has been enabled for participants, the "Exam viewing" tab will also appear for the corresponding course element. 
+    If assessment inspection has been activated for participants, the "Assessment inspection" tab also appears for the corresponding course element.
 
+Detailed information on processing and assessing in the Participants tab is available in the chapter ["Tab Participants"](../learningresources/Assessment_tool_tab_Users.md).
 
 ## Reset data {: #course_reset}
 
-With the help of the wizard, the data of course participants can be reset. The reset can be performed for the entire course or only for selected course modules, for all participants or selected participants.
+With the help of the wizard, the data of the participants of a course can be reset. The reset can be carried out for the entire course or only for selected course elements, for all or selected participants.
 
 [Find out more >](../../manual_user/learningresources/Assessment_tool_reset_data.md)
 
 ## Mass assessment {: #mass_assessment}
 
-The "Mass Assessment" tool can be used to transfer assessment data such as points, status information, comments, and return files for multiple participants in a single step. 
+With the "Mass assessment" tool, assessment data such as points, status information, comments as well as return files can be submitted for several participants in one step.
 
-![Massenbewertung](assets/Massenbewertung_wizard.png)
+![Wizard step "Select course element" for the mass assessment with a list of assessable course elements](assets/Massenbewertung_wizard.png){ class="shadow lightbox" }
 
 Find out how to create a mass assessment in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) section.

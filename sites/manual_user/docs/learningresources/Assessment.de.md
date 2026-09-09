@@ -5,7 +5,7 @@ Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
 existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 
-![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung_172.png)
+![Kursbaustein-Menü im Kurseditor mit allen Optionen der Wissensüberprüfung](assets/Wissensueberpruefung_172.png){ class="shadow lightbox" }
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die anderen Bausteine wie [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), [Bewertungen](Course_Element_Assessment.de.md) mit und ohne Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien viel Potenzial.
 
@@ -22,7 +22,7 @@ Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nich
 
 Auf separaten Seiten erfahren Sie wie man eine  [Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und konfiguriert.
 
-  
+
 
 ## Kursbaustein "Aufgabe" {: #course_element_task}
 
@@ -35,27 +35,25 @@ Bewertung. Ebenso können Überarbeitungen eingefordert oder Musterlösungen ber
 
 Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 "Workflow". Hier bestimmen Sie, welche der folgenden Optionen Sie verwenden möchten. Anschliessend können Sie diese weiter konfigurieren:
- 
+
   * **Aufgabenstellung**: Stellen Sie eine Aufgabenstellung direkt im Kursbaustein zur Verfügung. 
-  * **Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Kursteilnehmer erstellen hier ihre Lösungen oder laden diese als PDF hoch.
-  * **Rückgabe und Feedback**: Korrigierte Aufgaben und Überarbeitungsanforderungen können hier den Teilnehmern zurückgegeben werden.
-  *  **Überarbeitung**: Teilnehmer geben in diesem Abschnitt überarbeitete Dokumente ab. Sie können weitere Korrekturanforderungen stellen, bis Sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
+  * **Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Teilnehmende erstellen hier ihre Lösungen oder laden diese als PDF hoch.
+  * **Rückgabe und Feedback**: Korrigierte Aufgaben und Überarbeitungsanforderungen können hier den Teilnehmenden zurückgegeben werden.
+  *  **Überarbeitung**: Teilnehmende geben in diesem Abschnitt überarbeitete Dokumente ab. Sie können weitere Korrekturanforderungen stellen, bis Sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
   *  **Musterlösung**: Stellen Sie allen Teilnehmenden eine Musterlösung für die Aufgabe  zur Verfügung. Musterlösungen können als Datei hochgeladen oder direkt in OpenOlat erstellt werden.
   *  **Bewertung**: Punkte, bestanden/nicht bestanden und Feedbacks können individuell hinterlegt werden. 
 
  Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen) kann ferner definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. Obligatorische Aufgaben müssen bearbeitet werden und werden nach Ablauf des eingestellten Abgabetermins eingezogen und zur Bewertung an den Lehrenden übergeben. Bei freiwilligen Aufgaben kann der User selbst entscheiden ob er sie bearbeiten möchte. Ferner werden freiwillige Aufgaben nach der Deadline _nicht_ eingezogen.   
 
-!!! info "Info"
+Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Course_Element_Task.de.md) finden Sie im Kapitel ["Aufgabe erstellen"](Course_Element_Task.de.md).
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Course_Element_Task.de.md) finden Sie im Kapitel ["Aufgabe erstellen"](Course_Element_Task.md).
 
-  
 
 ## Kursbaustein "Portfolioaufgabe" {: #course_element_portfolio}
 
 :fontawesome-solid-briefcase:
 
-Über den Kursbaustein „Portfolioaufgabe“ werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die
+Über den Kursbaustein „Portfolioaufgabe“ werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Teilnehmenden können die
 Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren. 
 
 Für den Kursbaustein Portfolioaufgabe benötigen Sie eine "Portfolio 2.0
@@ -65,23 +63,23 @@ erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe
 genau erstellen erfahren Sie
 [hier](../learningresources/Creating_Portfolio_Tasks.de.md).
 
-  
+
 Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese
 unter Gewählte Portfoliovorlage. Folgen Sie dem Link um zur Vorschau zu
 gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche
 "Portfoliovorlage auswechseln" eine andere Portfolioaufgabe zu wählen.
 
-!!! Info 
+!!! info "Wichtig"
 
     Wurde eine Portfoliovorlage bereits heruntergeladen und bearbeitet, kann diese Vorlage nicht mehr ausgewechselt werden.
 
-Im Kurseditor im Tab „Bewertung" können Sie die Anzeige von Punkten, Status
+Im Kurseditor im Tab „Bewertung“ können Sie die Anzeige von Punkten, Status
 Bestanden/Nicht bestanden und individuellen Kommentaren vorkonfigurieren.
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
 finden Sie im Kapitel "[Portfolioaufgabe: abholen und bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)".
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
-2[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)".
+"[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)".
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 [hier](../area_modules/index.de.md) nachlesen.
@@ -89,7 +87,7 @@ Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 ## Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
 :fontawesome-solid-list-check:
 
-Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
+Der Kursbaustein Gruppenaufgabe funktioniert grösstenteils wie der Kursbaustein
 ["Aufgabe"](Course_Element_Task.de.md).
 Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
 
@@ -123,7 +121,7 @@ Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md)".
 
-Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und "**Optionen**".
+Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind "Test-Konfiguration" und "Optionen".
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.
@@ -145,22 +143,22 @@ Sobald Sie eine Datei ausgewählt haben, erweitert sich die Anzeige um das Feld
 "Sicherheitseinstellung" und Sie können Verlinkungen zu Dateien im
 Ablageordner zulassen. Das ist sinnvoll, wenn Sie z.B. auf andere HTML-Dateien
 oder Grafiken verlinken möchten. Diese Einstellung bewirkt aber auch, dass
-versierte Kursteilnehmer Einsicht in den gesamten Ablageordner des Kurses
+versierte Teilnehmende Einsicht in den gesamten Ablageordner des Kurses
 erlangen können.
 
 Wenn Sie den eingebundenen Test austauschen möchten, klicken Sie im Tab "Test-
 Konfiguration" auf "Datei auswechseln" und wählen den neuen Test. Falls
-bereits Testresultate von Kursteilnehmern vorhanden sind, können Sie diese im
+bereits Testresultate von Teilnehmenden vorhanden sind, können Sie diese im
 nächsten Schritt herunterladen.
 
 Ein in einem Kurs verlinkter Test kann nur solange vollständig im Test-Editor bearbeitet werden, bis er von mindestens einem Teilnehmenden gestartet und
 abgeschlossen wurde. Danach können nur noch Tippfehler korrigiert werden.
 
-!!! Warning "Achtung"
+!!! warning "Achtung"
 
     Wenn Teilnehmer aktuell den Test ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren. Ebenso gehen alle Resultate verloren, die zwischen dem Austauschen des Tests und dem Publizieren dieser Änderung angefallen sind.
 
-Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
+Die Resultate der Teilnehmenden werden personalisiert aufgezeichnet.
 
 ##  Kursbaustein "Selbsttest" {: #course_element_self_test}
 
@@ -169,7 +167,7 @@ Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab
 "Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
 
-Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
+Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Teilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
 Im Kursbaustein "Selbsttest" werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle"](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 
@@ -179,19 +177,19 @@ Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar.
 
 ## Kursbaustein "Übung" {: #course_element_uebung}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
 
-Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Kursteilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Lernenden selbständig in Serien und Challenges bearbeiten können. Die Anzahl der Fragen pro Übungsserie kann genau wie die Anzahl der Gesamt-Challenges festgelegt werden. Umfasst eine Serie beispielsweise 10 Fragen, werden dem Lernenden 10 Fragen eingeblendet. Danach kann er entscheiden, ob er falsch beantwortete Fragen noch mal beantworten oder diese überspringen will. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an wie häufig eine Frage wiederholt korrekt beantwortet werden muss. 
+Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Teilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Lernenden selbständig in Serien und Challenges bearbeiten können. Die Anzahl der Fragen pro Übungsserie kann genau wie die Anzahl der Gesamt-Challenges festgelegt werden. Umfasst eine Serie beispielsweise 10 Fragen, werden dem Lernenden 10 Fragen eingeblendet. Danach kann er entscheiden, ob er falsch beantwortete Fragen noch mal beantworten oder diese überspringen will. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an wie häufig eine Frage wiederholt korrekt beantwortet werden muss. 
 
-![Kursbaustein Übung](assets/KB_Uebung_de.png)
+![Ansicht des Kursbausteins Übung mit Übungsserie, individuellem Üben nach Fachbereich und persönlicher Lernstatistik](assets/KB_Uebung_de.png){ class="shadow lightbox" }
 
-Neben den von der Lehrperson konfigurierten Übungssettings können Kursteilnehmende auch bestimmte Fragen wie neue Fragen oder Fragen eines bestimmten Levels filtern und bearbeiten. Auch eigene Serien können zusammengestellt werden.
+Neben den von der Lehrperson konfigurierten Übungssettings können Teilnehmende auch bestimmte Fragen wie neue Fragen oder Fragen eines bestimmten Levels filtern und bearbeiten. Auch eigene Serien können zusammengestellt werden.
 
 Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillierte Statistiken zum Lernstand sowie eine zusammenfassende Übersicht verfügbar.
 
-!!! info "Info"
+!!! info "Wichtig"
 
-    Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden. 
+    Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden.
 
 ## Kursbaustein "Videoaufgabe"
 
@@ -210,7 +208,7 @@ verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden
 bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit
 Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im
 Anhang.
-  
+
 Betreuende sehen in der Übersichtstabelle im Kursrun welche Teilnehmenden das
 Formular schon ausgefüllt haben und welche nicht. Bereits abgegebene Formulare
 können zur weiteren Bearbeitung durch den Teilnehmenden vom Betreuer wieder
@@ -220,15 +218,15 @@ Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
 Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden bestimmte Formulare verpflichtend ausfüllen müssen, z.B. vor der Aufnahme eines Laborpraktikums oder als Bestätigung für das eigenständige Erbringen einer Leistung.
 
-!!! Info 
+!!! info "Wichtig"
 
-    Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht. 
+    Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht.
 
 ##  Kursbaustein "Umfrage" {: #course_element_survey}
 
 :fontawesome-solid-sliders:
 
- 
+
 Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
 Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
 
@@ -236,7 +234,7 @@ Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
 "[Formular-Editor](../learningresources/Form_Editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
 Danach können nur noch Tippfehler korrigiert werden.
 
-!!! note "Achtung"
+!!! warning "Achtung"
 
     Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren.
 
@@ -250,7 +248,7 @@ entsprechenden Unterkapiteln.
 
 Der Kursbaustein bietet Ihnen die Möglichkeit, Check- oder Prüflisten in der Kursstruktur einzubetten und zu bewerten. Eine Checkliste enthält
 Checkelemente mit erledigten und unerledigten Tätigkeiten oder Überprüfungen.
-Als informationelle Arbeitshilfe, die Benutzer dabei unterstützt z.B. kleinere
+Als informationelle Arbeitshilfe, die Teilnehmende dabei unterstützt z.B. kleinere
 Aufgaben zu erledigen oder Informationen gesichert zu behalten, erlaubt die
 Checkliste z.B. das Führen von Anwesenheits- oder To Do-Listen. 
 
@@ -285,10 +283,10 @@ Anschliessend kann definiert werden, ob die Benutzerdaten anonymisiert oder
 mit Vor- und Nachnamen dargestellt werden. Im nächsten Abschnitt können Sie
 wählen, welche Elemente der Highscore angezeigt werden sollen. Zur Auswahl
 stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste
-der besten Teilnehmer. Bei der Liste kann zudem definiert werden, ob alle
-Benutzer oder nur eine gewisse Anzahl der besten Benutzer angezeigt werden
+der besten Teilnehmenden. Bei der Liste kann zudem definiert werden, ob alle
+Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden angezeigt werden
 soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 
-  
 
-![Highscore](assets/Highscore.png)
+
+![Highscore-Rangliste mit Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmenden](assets/Highscore.png){ class="shadow lightbox" }

@@ -3,7 +3,7 @@
 
 In the "Metadata" tab you can make further settings for the info page.
 
-![course_settings_tab_metadata1_v1_de.png](assets/course_settings_tab_metadata1_v1_de.png){ class="shadow lightbox" }
+![Form of the Metadata tab with fields Type, Id, Created by, Authors, Subject areas, Implementation format, Main language, Time required and License in the course settings](assets/course_settings_tab_metadata1_v1_de.png){ class="shadow lightbox" }
 
 **Authors**: Here you can enter the responsible contact persons or
 lecturers. They do not have to match the creator of the learning resource. The field is a plain text field, the content is only displayed on the course overview page.  
@@ -16,7 +16,7 @@ lecturers. They do not have to match the creator of the learning resource. The f
 
 The **time required** for the learning resource can also be entered here.
 
-**License** : Select in the drop down menu under which license the learning resource should be. The default setting is "All rights reserved", further settings of the Creative Commons can also be used here. The administrator defines which licenses can be set in the general OLAT settings.
+**License**: Select in the drop down menu under which license the learning resource should be. The default setting is "No license", further settings of the Creative Commons can also be used here. The administrator defines which licenses can be set in the general OpenOlat settings.
 
 Typical license are
 
@@ -34,19 +34,18 @@ Typical license are
 
 In the overview of the authoring area, the assigned licenses are displayed in the "License" column. Click on the license to get detailed information about it.
 
-![Licenses in the author area](assets/Autorenbereich_Lizenz_en.png)
+![Callout with license and license text after clicking the license name in the License column of the course list in the author area](assets/Autorenbereich_Lizenz_en.png){ class="shadow lightbox" }
 
 What exactly hides behind which license you can read [here](https://creativecommons.org/licenses/). In addition to the license, the  **licensor**  can also be registered.
 
 !!! note "Important"
 
-  Think carefully about which license you want to use for a course or other learning resource. If you want to create more OER (open educational resources), the Creative Commons licenses are a suitable approach. But be sure to respect the copyright for all materials used so that your information is correct.
+    Think carefully about which license you want to use for a course or other learning resource. If you want to create more OER (open educational resources), the Creative Commons licenses are a suitable approach. But be sure to respect the copyright for all materials used so that your information is correct.
 
 ---
 
-## Further informations  {: #further_information}
+## Further information {: #further_information}
 
 [Further details about the Taxonomy > ](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Further details about the info page > ](../learningresources/Info_page.md)<br>
-
 [To the top of the page ^](#tab_metadata)

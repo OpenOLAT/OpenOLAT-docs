@@ -42,7 +42,7 @@ When selecting "**Appears in table**" this field will be displayed in the overvi
 
 By means of "**Delete field**" you can delete additional fields.
 
-![additional_fields.png](assets/Themenvergabe_Zusatz_EN.png){ class="shadow lightbox" }
+![Three example fields: additional information, a "Prerequisites" selection list and a free text field, each with an "Appears in table" checkbox: tab Configuration in the course editor](assets/Themenvergabe_Zusatz_EN.png){ class="shadow lightbox" }
 
 **Manage dates:**
 You can choose which dates should be at the disposal of topic authors.
@@ -146,7 +146,7 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
 
   When choosing this option you will get an e-mail notification in case a course participant selects or deselects your Topic.
 
-![themen_belegt.png](assets/Themen_belegt.jpg){ class="shadow lightbox" }
+![Topic status "Check participant" with the buttons Edit Topic, Delete Topic and Topic set status on "Filled": tab Description of a topic](assets/Themen_belegt.jpg){ class="shadow lightbox" }
 
 Via "**Edit Topic**" you will get to the editing mode.
 
@@ -166,9 +166,9 @@ Via "**Reset Topic status to "Vacancies"**" you can open a Topic anew - even if 
 
 If the configuration of your topic assignment requires that course participants have to be accepted by the topic author you will see on the home page of topic assignments the note "Check participant" in a table as soon as somebody has applied for your topic.
 
-![assignment_participants.png](assets/Topic_Assignement_TN_EN.png){ class="shadow lightbox" }
+![Table with the columns Topic, In charge and Topic status, the entry "Check participants" highlighted: home page of the topic assignment](assets/Topic_Assignement_TN_EN.png){ class="shadow lightbox" }
 
-![topic_assignment_user_managementv2_en.png](assets/topic_assignment_user_managementv2_en.png){ class="shadow lightbox" }
+![Groups "Responsible for the topic" and "Participants accepted" with a table of username, first name, last name, e-mail and a Remove button: tab Administration of users](assets/topic_assignment_user_managementv2_en.png){ class="shadow lightbox" }
 
 Now open the tab "**Administration of users**" and accept the application of your candidate(s).
 

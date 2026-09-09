@@ -1,6 +1,6 @@
 # Einstufung/Noten {: #rating_grades}
 
-:octicons-tag-24: Release 16.2
+:octicons-tag-16:{ title="ab Release 16.2" }
 
 Sofern ein Assessment-Kursbaustein, wie beispielsweise ein Test, eine Aufgabe usw. mit Punkten versehen werden, können die Punkte auch in Noten übersetzt werden. 
 
@@ -17,12 +17,12 @@ Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfig
 Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten. 
 (Bei Tests im Tab "Testkonfiguration".) Achten Sie darauf, dass auch "Punkte vergeben" aktiviert ist und aktivieren Sie "Bewertung mit Einstufung/Noten". 
 2. **Zuweisung wählen**<br>
-Sie können zwischen manueller und automatischer Zuweisung wählen. Bei manueller Zuweisung muss der/die Betreuer:in die Zuordnung manuell auslösen und für die Benutzer:innen sichtbar machen. 
+Sie können zwischen manueller und automatischer Zuweisung wählen. Bei manueller Zuweisung muss der/die Betreuer:in die Zuordnung manuell auslösen und für die Teilnehmenden sichtbar machen. 
 
 3. **Bewertungsskala auswählen und anpassen**<br>
 Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich ein Einstellungsfenster. Hier können Sie ein Bewertungssystem auswählen und die Bewertungsskala weiter anpassen.
 
-    ![Bewertungsskala](assets/ratingscale_de.png){class="shadow"}
+    ![Dialog "Bewertungsskala bearbeiten" mit Bewertungssystem, Punktebereichen je Note und dem Diagramm der Notenskala.](assets/ratingscale_de.png){class="shadow"}
 
 4. **Speichern**
 

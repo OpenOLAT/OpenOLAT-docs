@@ -15,13 +15,13 @@ Spezialität / Hinweis | Übungsfragen können im Fragenpool verwaltet werden
 
 ## Funktionsprinzip {: #operating_principle}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
 
 Der Kursbaustein "Übung" funktioniert nach dem Prinzip einer Lernkartei. Die Fächer entsprechen Levels.
 
-![course_element_practice_flashcardfile_v1_de.png](assets/course_element_practice_flashcardfile_v1_de.png){ class="shadow lightbox" }
+![Lernkartei mit drei Fächern für die Levels 1 bis 3](assets/course_element_practice_flashcardfile_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Alle Fragen müssen automatisch korrigierbar sein. Es sind deshalb keine Fragetypen erlaubt, die zwingend eine manuelle Beurteilung erfordern, wie z.B. "Freitexteingabe" oder "Zeichnen".
 
@@ -77,12 +77,12 @@ Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillie
 
 ## Tab Konfiguration {: #configuration}
 
-Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab "Konfiguration“** finden sich dann die Einstellmöglichkeiten und Settings.
+Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab "Konfiguration"** finden sich dann die Einstellmöglichkeiten und Settings.
 
-![course_element_practice_config_v2_de.png](assets/course_element_practice_config_v2_de.png){ class="shadow lightbox" }
+![Tab Konfiguration des Kursbausteins Übung mit den Abschnitten Ressourcen, Kriterien, Übungssettings und Verwendete Fragen](assets/course_element_practice_config_v2_de.png){ class="shadow lightbox" }
 
 
-### ![1_green_24.png](assets/1_green_24.png) Ressourcen {: #resources}
+### ![1](assets/1_green_24.png) Ressourcen {: #resources}
 
 Im Unterschied zu den meisten anderen Kursbausteinen, können im Kursbaustein Übung **mehrere Lernressourcen** eingebunden werden. Die im Kursbaustein Übung verwendeten Fragen entstammen dem Fragenpool oder Test-Lernressourcen. 
 
@@ -95,7 +95,7 @@ Aktuell gibt es 2 Möglichkeiten, Fragen in den Kursbaustein Übung einzufügen:
 Späteres Ändern oder Hinzufügen von Fragen ist möglich.
 
 
-### ![2_green_24.png](assets/2_green_24.png) Kriterien {: #criteria}
+### ![2](assets/2_green_24.png) Kriterien {: #criteria}
 
 Durch die Festlegung von Kriterien für Fachbereiche (Taxonomie) und Metadaten lassen sich gezielt die gewünschten Fragen herausfiltern.
 
@@ -104,7 +104,7 @@ Durch die Festlegung von Kriterien für Fachbereiche (Taxonomie) und Metadaten l
 * Für die Filterung nach Metadaten können gewählt werden: Testart, Schlagwort, Sprache und Level. (Filterkriterien mit diesen Metadaten können auch kombiniert werden.)
 
 
-### ![3_green_24.png](assets/3_green_24.png) Übungssettings {: #practice_settings}
+### ![3](assets/3_green_24.png) Übungssettings {: #practice_settings}
 
 In den Übungssettings wird von den Autor:innen festgelegt:
 
@@ -114,8 +114,8 @@ In den Übungssettings wird von den Autor:innen festgelegt:
 * Anzahl Challenges, deren Abschluss als Erledigungskriterium für den Kursbaustein erforderlich sind
 
 
-### ![4_green_24.png](assets/4_green_24.png) Verwendete Fragen {: #questions}
- 
+### ![4](assets/4_green_24.png) Verwendete Fragen {: #questions}
+
 In einer Übersicht sind alle gemäss der Kriterien zur Verfügung stehenden Fragen zur Kontrolle angezeigt (nach Fachbereichen/Taxonomie gruppiert).
 
 
@@ -135,7 +135,7 @@ In einer Übersicht sind alle gemäss der Kriterien zur Verfügung stehenden Fra
 
 Betreuer:innen können in der Konfiguration des Kursbausteins steuern, welche Fragen die automatisch zusammengesetzten Übungsserien enthalten.
 
-![course_element_practice_ueben1_v1_de.png](assets/course_element_practice_ueben1_v1_de.png){ class="shadow lightbox" }
+![Startseite des Kursbausteins Übung mit Übungsserie und Stand der Challenges](assets/course_element_practice_ueben1_v1_de.png){ class="shadow lightbox" }
 
 Die Filterung nimmt der/die Autorin vor im Kurseditor durch die Einstellungen im Abschnitt "Kriterien":
 
@@ -146,7 +146,7 @@ Die Filterung nimmt der/die Autorin vor im Kurseditor durch die Einstellungen im
 
 Ausserdem können die Teilnehmer:innen auch nach Fachbereich üben, die entsprechend der Vorauswahl der Autor:innen angeboten werden.
 
-![course_element_practice_ueben_fachbereich_v1_de.png](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
+![Übungsauswahl nach Fachbereich mit dem Stand der Fragen pro Level](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
 
 
 ### Selbst zusammengestellte Übungen {: #self_compiled_exercises}
@@ -164,7 +164,7 @@ Für das individuelle Üben nach eigenen Bedürfnissen können die Teilnehmer:in
 
 **Eigene Serie**: Üben mit einer selbst zusammengestellten Fragenserie
 
-![course_element_individual_practice_v1_de.png](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
+![Individuelles Üben mit den Modi Neue Fragen, Meine Fehler und Eigene Serie](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
 
 
 ### Feedbacks {: #feedbacks}
@@ -194,5 +194,14 @@ mit Punkten | mit Punkten  | ohne Punkte
 einsehbar für Betreuer |  nicht einsehbar für Betreuer | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
 1 Test-Lernressource | 1 Test-Lernressource | mehrere Lernressourcen<br>Freigaben/Shares aus dem Fragenpool<br>Filter mit Verwendung der Taxonomie
 
+
+[Zum Seitenanfang ^](#course_element_uebung)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+**youtube**<br>
+[Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>)
 
 [Zum Seitenanfang ^](#course_element_uebung)

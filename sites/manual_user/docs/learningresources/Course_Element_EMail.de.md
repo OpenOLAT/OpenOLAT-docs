@@ -14,9 +14,9 @@ Spezialität / Hinweis |
 
 
 
-Der Kursbaustein "E-Mail" dient als Kontaktformular und gibt Kursteilnehmenden die Möglichkeit, eine E-Mail an einen von Ihnen definierten Empfängerkreis zu senden.
+Der Kursbaustein "E-Mail" dient als Kontaktformular und gibt Teilnehmenden die Möglichkeit, eine E-Mail an einen von Ihnen definierten Empfängerkreis zu senden.
 
-Sie haben zwei Möglichkeiten, um Nachrichten zu versenden. Entweder geben Sie im Tab "**Empfänger**" direkt die E-Mail-Adresse von bestimmten Personen ein, oder sie wählen die Personengruppen aus, an die eine Nachricht versendet werden soll. Sie können differenziert festlegen ob die Nachricht an Kursbesitzer:innen, Betreuer:innen und / oder Teilnehmer:innen von Kurs und / oder Gruppen geschickt wird.
+Sie haben zwei Möglichkeiten, um Nachrichten zu versenden. Entweder geben Sie im Tab "**Empfänger**" direkt die E-Mail-Adresse von bestimmten Personen ein, oder sie wählen die Personengruppen aus, an die eine Nachricht versendet werden soll. Sie können differenziert festlegen, ob die Nachricht an Kursbesitzer:innen, Betreuer:innen und/oder Teilnehmer:innen von Kurs und/oder Gruppen geschickt wird.
 
 Um im Feld "E-Mail-Adressen" mehrere Empfängeradressen einzutragen, müssen Sie diese durch einen Zeilenumbruch trennen, d.h. jede E-Mail-Adresse muss auf einer eigenen Zeile stehen.
 
@@ -38,15 +38,15 @@ Folgende Variablen können im Betreff und im Text der E-Mail verwendet werden:
 
 | Variable | Beschreibung |
 | -----|----|
-|  `$firstname` | Der Vorname des Benutzers  |
-| `$lastname` | Der Nachname des Benutzers  |
-| `$fullName` | Der volle Name des Benutzers  |
+|  `$firstname` | Der Vorname der Teilnehmenden  |
+| `$lastname` | Der Nachname der Teilnehmenden  |
+| `$fullName` | Der volle Name der Teilnehmenden  |
 | `$username` | Der Benutzername  |
-| `$email` | Die E-Mailadresse des Benutzers  |
+| `$email` | Die E-Mailadresse der Teilnehmenden  |
 | `$courseurl` | Die Internetadresse des Kurses  |
 | `$coursename` | Der Name des Kurses wie auf der Infoseite  |
 | `$coursedescription` | Die Beschreibung des Kurses wie auf der Infoseite  |
-  
+
 !!! note "Hinweis"
 
     Die Benutzervariablen beziehen sich auf denjenigen, der die E-Mail über den **"Senden"-Button** auslöst und verschickt.
@@ -55,4 +55,10 @@ Geben Sie durch einen geeigneten Kurztitel des Kursbausteins "E-Mail" Ihren Kurs
 
 !!! tip "Tipp"
 
-    Ein Element "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Course_Settings.de.md#tab-toolbar).
+    Ein Element "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar).
+
+## Weiterführende Informationen {: #further_information}
+
+[Kurseinstellungen - Tab Toolbar](../learningresources/Course_Settings.de.md)
+
+[zum Seitenanfang ^](#mail)

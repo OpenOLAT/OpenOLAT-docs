@@ -7,9 +7,9 @@ Die Lernressource Video ist das zentrale Element für Videos in OpenOlat. Sie wi
 
 ![Lernressource erstellen](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" }
 
-Eine Video-Lernressource besteht nicht nur aus der Videodatei selbst, sondern ist ein eigenständiges Objekt mit eigener Infoseite, Administrationsmenü und Freigabeeinstellungen. Sie steht kursübergreifend zur Verfügung und kann in mehreren Kursen eingebunden oder auch unabhängig von Kursen bereitgestellt werden.
+Die Lernressource Video besteht nicht nur aus der Videodatei selbst, sondern ist ein eigenständiges Objekt mit eigener Infoseite, Administrationsmenü und Freigabeeinstellungen. Sie steht kursübergreifend zur Verfügung und kann in mehreren Kursen eingebunden oder auch unabhängig von Kursen bereitgestellt werden.
 
-Darüber hinaus können Video Lernressourcen auch mit dem OpenOlat Video-Editor der Lernressource interaktiv weiter ausgestaltet werden z.B. mit Annotationen oder Quizfragen.
+Darüber hinaus kann die Lernressource Video auch mit dem OpenOlat Video-Editor interaktiv weiter ausgestaltet werden, z.B. mit Annotationen oder Quizfragen.
 
 Weitere technische Hinweise zum Upload und Organisation von Videos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
 
@@ -23,7 +23,7 @@ Weitere technische Hinweise zum Upload und Organisation von Videos finden Sie [h
 Die Lernressource Video verfügt über folgende Administrations-Menüs:
 
 * **Einstellungen** (siehe unten)
-* [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Video Lernressource. Wird das Video in einem Kurs verwendet brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer*innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
+* [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Lernressource Video. Wird das Video in einem Kurs verwendet, brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer:innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
 * **Video-Editor** (siehe unten)
 * [Angebotsarten](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen
 * **Video ersetzen**: Möglichkeit eine andere/neue Video Datei in der Lernressource zu hinterlegen. Das bietet sich z.B. für Aktualisierungen eines Videos an. Der Link zur Lernressource sowie eventuelle Einbindungen bleibt dabei erhalten, während das neue Video angezeigt wird. Sind für das Video bereits Untertitel vorhanden und ist der frentix Cloud-Transcodingservice aktiv, fragt OpenOlat beim Ersetzen, ob neue Untertitel generiert werden sollen (siehe [Tab "Untertitel konfigurieren"](#video_subtitles)).
@@ -37,12 +37,12 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs:
 
 ## Menü "Einstellungen" der Lernressource Video {: #video_settings}
 
-![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
+![Tabs des Menüs "Einstellungen" der Lernressource Video](assets/Video_Einstellungen.png){ class="shadow lightbox" }
 
 
 ### Tab "Info"
 
-Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Kennzeichen einzutragen, die auf der Info-Seite des Videos angezeigt werden. Wird die Lernressource im Kurs für den Kursbaustein Video eingebunden, können Beschreibung und Titel zusätzlich direkt bei dem Video im Kurs eingeblendet werden. Wie man Videos die Lernressource Video generell in einen Kurs einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
+Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Kennzeichen einzutragen, die auf der Info-Seite des Videos angezeigt werden. Wird die Lernressource im Kurs für den Kursbaustein Video eingebunden, können Beschreibung und Titel zusätzlich direkt bei dem Video im Kurs eingeblendet werden. Wie man die Lernressource Video generell in einen Kurs einbindet, erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
 
 Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Course_Settings_Info.de.md#configure_info).
 
@@ -52,7 +52,7 @@ Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite ei
 
 ### Tab "Metadaten"
 
-Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit, wie in anderen Lernressourcen auch, Informationen zu Autor*innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
+Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit, wie in anderen Lernressourcen auch, Informationen zu Autor:innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
 
 
 !!! note "Hinweis für YouTube Videos"
@@ -62,7 +62,7 @@ Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und D
 ### Tab "Freigabe"
 Im Tab Freigabe legen Sie fest, ob die Lernressource Video in einem Kurs eingebunden oder eigenständig verwendet werden soll. Wählen Sie beim Verwendungszweck "Eigenständig" muss die Buchungsmethode noch zusätzlich definiert werden. Weitere Infos finden Sie [hier](../learningresources/Course_Settings_Share.de.md).
 
-Sofern die [Video Collection](../area_modules/Video_Collection.de.md) in Ihrer Instanz aktiviert ist können Sie auch entscheiden ob Ihre Video Lernressource dort angezeigt werden soll. 
+Sofern die [Video Collection](../area_modules/Video_Collection.de.md) in Ihrer Instanz aktiviert ist können Sie auch entscheiden ob Ihre Lernressource Video dort angezeigt werden soll. 
 
 ### Tab "Poster konfigurieren"
 
@@ -147,9 +147,9 @@ Wird über das Administrationsmenü "Video ersetzen" eine neue Videodatei hochge
 Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
 
 Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
-![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
+![Symbol für Untertitel im Video-Player](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat ist diese Funktion im Player unten rechts zu finden. Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
+CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese von den Teilnehmenden aktiviert werden. In OpenOlat ist diese Funktion im Player unten rechts zu finden. Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
 ![Untertitel](assets/video_subtitle.png){ class="shadow lightbox" }
 
@@ -161,11 +161,11 @@ Im Tab "Videoqualitäten" sehen Sie in welchen Auflösungen das Video vorliegt. 
 
 Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden.
 
-![video_quailty.png](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
+![Tabelle der verfügbaren Videoauflösungen im Tab "Videoqualitäten"](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
 
 Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Source Chooser" auswählen.
 
-![video_aufloesung.png](assets/video_aufloesung.png){ class="shadow lightbox" }
+![Auswahl der Videoauflösung über den Source Chooser im Videoplayer](assets/video_aufloesung.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -173,7 +173,7 @@ Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Sour
 
 ### Tab "Download"
 
-Im Tab Download kann eingestellt werden, ob  User das Video herunterladen dürfen oder nicht.
+Im Tab Download kann eingestellt werden, ob Teilnehmende das Video herunterladen dürfen oder nicht.
 
 !!! info "Wichtig"
 
@@ -196,7 +196,7 @@ In der Administration der Lernressource findet man den Link zum "Video-Editor".
 
 Hier kann das Video mit (interaktiven) Elementen ausgestaltet und weiter konfiguriert werden. 
 
-![lernressource_video.png](assets/Video-Editor.png){ class="shadow lightbox" }
+![Übersicht des Video-Editors mit Vorschau, Konfigurationsbereich und Timeline](assets/Video-Editor.png){ class="shadow lightbox" }
 
 Der Video Editor umfasst drei Bearbeitungsbereiche:
 
@@ -243,7 +243,7 @@ Segmente sind spezifische Bereiche im Video, die z.B. einem übergeordneten Ansa
 
 Im Video-Editor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es erscheint das Konfigurationsmenü. 
 
-![learning_resource_video_segments1_v1_de.png](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" }
+![Tab "Segmente" im Video-Editor mit der Schaltfläche "Hinzufügen"](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" }
 
 Für jedes Segment muss mit "Hinzufügen" ein Element angelegt und mit passendem Zeitslot und **Begriff** versehen werden.  Die Segmente dürfen sich dabei zeitlich nicht überschneiden. Also einem zeitlichen  Segment wird genau ein Begriff zugeordnet.  
 
@@ -251,11 +251,11 @@ Sie können direkt alle relevanten Video-Segmentbegriffe eingeben und diese dann
 
 * Button "Begriffe" anklicken. 
 
-![learning_resource_video_segments2_v1_de.png](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" }
+![Konfiguration eines Segments mit der Schaltfläche "Begriffe"](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" }
 
 * Über das Plus-Zeichen alle relevanten Begriffe einfügen. Möglichst schon passend in der Reihenfolge in der sie im Video auftauchen. Dann können sie später leichter zugeordnet werden.
 
-![learning_resource_video_segments3_v1_de.png](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" }
+![Dialog "Begriffe bearbeiten" mit den Plus-Symbolen zum Hinzufügen weiterer Begriffe](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" }
 
 
 Alternative: Sie springen jeweils zum gewünschten Zeitpunkt in der Timeline des Videos und fügen dann denn passenden Begriff für das Segement hinzu. So geht´s: 
@@ -266,7 +266,7 @@ Alternative: Sie springen jeweils zum gewünschten Zeitpunkt in der Timeline des
 
 Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt und können so auch rasch aufgerufen und dann bearbeitet werden. 
 
-![learning_resource_video_segments4_v1_de.png](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
+![Eingefügte Segmente mit Beschriftung in der Timeline des Video-Editors](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipps"
 
@@ -274,7 +274,7 @@ Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt un
     * Sie können ein Segment in der Timeline anklicken und gelangen dadurch direkt zur Bearbeitung dieses Segments.
 
 
-Die Segmente werden vor allem im Kursbaustein Video-Aufgabe verwendet. Wofür könnte man die Segmente hier verwenden? Hier ein paar Ideen:
+Die Segmente werden vor allem im Kursbaustein Videoaufgabe verwendet. Wofür könnte man die Segmente hier verwenden? Hier ein paar Ideen:
 
 **a)** Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. <br>
 **b)** Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.<br>
@@ -307,19 +307,19 @@ Die konkreten Tabs für die Quizfrage entsprechen dem gewählten Frage-Typ.
 Nach der Eingabe gelangen Sie wieder in den Video-Editor und können die Quizfrage weiter für das Video konfigurieren. Definieren Sie hier:
 
 * den Startpunkt der Quizfrage im Video -> "Beginn"
-* wie lange der User Zeit für die Beantwortung der Quizfrage hat. 
+* wie lange die Teilnehmenden Zeit für die Beantwortung der Quizfrage haben. 
 * ob die Frage übersprungen werden darf
 * ob mehrere Versuche erlaubt sind
 * mit welcher Farbe die Frage gekennzeichnet und angezeigt wird
 
 Die Quiz-Fragen im Video werden direkt bei der Beantwortung der Frage "ausgewertet" - aber nur, ob sie richtig oder falsch beantwortet wurden. Die zu einer Frage hinterlegten Punkte spielen bei der Verwendung im Video keine Rolle. Es gibt daher auch keine Gesamtauswertung am Ende des Videos. (Bei Verwendung der gleichen Frage z.B. in einem Test, werden die Punkte dagegen verwendet.)
 
-Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gibt und sie auch nicht übersprungen werden darf, dann springt das Video wieder zum Anfang und der User kommt nicht weiter. 
+Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gibt und sie auch nicht übersprungen werden darf, dann springt das Video wieder zum Anfang, und die Teilnehmenden kommen nicht weiter. 
 
 
 !!! note "Hinweis"
 
-    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. sie eignen sich nicht für komplexe Prüfverfahren. 
+    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. Sie eignen sich nicht für komplexe Prüfverfahren. 
 
 
 [Zum Seitenanfang ^](#learning_resource_video)
@@ -328,7 +328,7 @@ Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gib
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein Video >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
-[Kursbaustein Videoaufgabe >](../../manual_user/learningresources/Course_Element_Video_Task.de.md)<br>
+[Kursbaustein Video >](Course_Element_Video.de.md)<br>
+[Kursbaustein Videoaufgabe >](Course_Element_Video_Task.de.md)<br>
 
-[Zum Seitenanfang ^](#learning_resource_video))
+[Zum Seitenanfang ^](#learning_resource_video)

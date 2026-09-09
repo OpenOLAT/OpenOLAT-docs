@@ -60,7 +60,7 @@ Web, etc.) einbinden möchten. Es lassen sich nur externe Seiten über die Proto
 **Darstellung konfigurieren:** Sie können zwischen vier Optionen wählen:
 
 *  _Vollständig integriert (Quelle verborgen):_ Dies bedeutet, dass die externe HTML-Seite geparst und vollständig in die OpenOlat-Seite eingebaut wird. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
-*  _Eingebettet (Quelle verborgen):_ Hier wird die externe HTML-Seite in ein sog. «iframe» eingebaut. Die Internet-Adresse der externen Seite ist für den Benutzer nicht sichtbar. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
+*  _Eingebettet (Quelle verborgen):_ Hier wird die externe HTML-Seite in ein sog. «iframe» eingebaut. Die Internet-Adresse der externen Seite ist für die Teilnehmenden nicht sichtbar. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
 *  _Eingebettet (Quelle sichtbar):_ Hier wird die externe HTML-Seite ebenfalls in ein «iframe» eingebaut. Im Quellcode der OLAT-Seite kann die Internet-Adresse der externen Seite eingesehen werden.
 *  _Neues Browser-Fenster (Quelle sichtbar):_ Als weitere Option können Sie die externe Seite auch in einem eigenen Browserfenster anzeigen lassen.
 
@@ -70,7 +70,7 @@ Vorteil von «iframe»: Sie können beliebige Inhalte (komplexe Webseiten in ver
 
 Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scroll-Balken.
 
-!!! info "Info"
+!!! tip "Tipp"
 
     Sollten Sie sich nicht sicher sein, welche Variante in Ihrem Fall die Richtige ist, dann beginnen Sie mit der Option „Vollständig integriert“ und testen die anderen Darstellungsmöglichkeiten, bis die verlinkte Seite wie gewünscht angezeigt wird.
 
@@ -95,7 +95,7 @@ Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).
 Über den Kursbaustein "SCORM 1.2" können extern erstellte SCORM-Pakete in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen Systemen eingebunden werden können. Weitere Informationen zur Konfiguration des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM 1.2"](Course_Element_SCORM_Learning_Content.de.md).
 
 ## Kursbaustein "Dokument" {: #document}
-![icon document](assets/document_icon.jpg)
+![Symbol Dokument](assets/document_icon.jpg)
 
 Mit dem Kursbaustein "Dokument" können verschieden Dokumentformate direkt
 sichtbar in den Kurs eingebunden werden. Der Kursbaustein ist besonders für
@@ -124,7 +124,7 @@ der Anzeigefläche kann definiert werden.
 Nach dem Download eines entsprechenden Dokuments wird in den Metadaten
 angezeigt, wer das Dokument als letztes bearbeitet hat.
 
-!!! warning "Hinweis"
+!!! tip "Tipp"
 
     Für Video-Dateien sollte der Kursbaustein "Video" und für HTML-Seiten der Kursbaustein "Einzelseite" anstatt des Kursbaustein "Dokument" verwendet werden.
 
@@ -150,7 +150,7 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 
 Den Kursbaustein "Podcast" können Sie entweder dazu benutzen, Ihre eigenen
 Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat
-bereitzustellen. Kursteilnehmer können sich Episoden direkt in OpenOlat
+bereitzustellen. Teilnehmende können sich Episoden direkt in OpenOlat
 anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
 iTunes laden und auf ihre mobilen Endgeräte kopieren.
 
@@ -164,10 +164,10 @@ Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcas
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
 einbinden als auch einen neue OLAT Lernressource "Blog" erstellen und
 verwenden. Kursbesitzer können in einem Blog beispielsweise mehr oder weniger
-regelmässig einen inhaltlichen Blog führen und so die Kursteilnehmenden über
+regelmässig einen inhaltlichen Blog führen und so die Teilnehmenden über
 neue aktuelle Inhalte zum Veranstaltungsthema informieren. Die Teilnehmenden
 können diese Beiträge dann kommentieren und auch mit 1-5 Sternen bewerten.
-Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
+Ferner ist es möglich, den Teilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
 Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
@@ -191,7 +191,16 @@ finden Sie im Kapitel "[Lernressource: Video](../learningresources/Learning_reso
 
 ##  Kursbaustein "Video Livestream"  {: #livestream}
 
+:o_icon_o_livestream_icon:
 
+Mit dem Kursbaustein "Video Livestream" zeigen Sie bis zu zwei Livestreams
+gleichzeitig an, zum Beispiel eine Vorlesung mit zwei Kameras oder eine
+Webcam-Beobachtung. Die Videos erscheinen während eines vordefinierten
+Zeitfensters einzeln oder nebeneinander. Die Konfiguration des Bausteins
+richtet die Administration in der System-Administration ein.
+
+Weitere Informationen zum Kursbaustein Video Livestream finden Sie
+[hier](Course_Element_Video_Livestream.de.md).
 
 ##  Kursbaustein "Opencast"  {: #opencast}
 
@@ -203,11 +212,20 @@ oder ganze Serien eingebunden werden.
 
 ##  Kursbaustein "edu-sharing" {: #edusharing}
 
+:o_icon_o_edusharing_icon:
 
+Mit dem Kursbaustein "edu-sharing" binden Sie Inhalte der Bildungscloud
+edu-sharing in Ihren Kurs ein. Edu-sharing vernetzt Lernplattformen
+miteinander, um Lerninhalte, Metadaten und Werkzeuge auszutauschen und in
+allen angeschlossenen Systemen nutzbar zu machen. Die Administration
+schaltet den Kursbaustein in der System-Administration frei.
+
+Weitere Informationen zum Kursbaustein edu-sharing finden Sie
+[hier](Course_Element_edu_Sharing.de.md).
 
 ##  Kursbaustein "card2brain" {: #card2brain}
 
-![icon c2b](assets/card2brain_434343_64.png)
+![Symbol card2brain](assets/card2brain_434343_64.png)
 
 Der Baustein card2brain ermöglicht das Lernen mit Lernkarten. Um diesen
 Baustein zu nutzen, müssen Sie zwingend ein Entreprise-Account von card2brain
@@ -220,7 +238,7 @@ Weitere Informationen zum Kursbaustein finden Sie
 
 ##  Kursbaustein "Edubase" {: #edubase}
 
-![icon edubase](assets/edubas_icon.png)
+![Symbol Edubase](assets/edubas_icon.png)
 
 Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in
 OpenOlat aufgerufen werden.
@@ -231,9 +249,37 @@ Kunden von frentix wenden Sie dafür bitte an
 [edubase@frentix.com](mailto:edubase@frentix.com), Nichtkunden kontaktieren
 direkt [Edubase](https://www.edubase.ch/).
 
-!!! info "Info"
+!!! tip "Tipp"
 
-    Der Baustein muss zunächst in der Administration freigeschalten und konfiguriert werden, ebenso werden Berechtigungsschlüssel für die eBooks benötigt. Sind die Voreinstellungen abgeschlossen, kann der Baustein zu einem Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor möglich, Leseaufträge zu bestimmten Buchpassagen für Kursteilnehmer zu erstellen.
+    Der Baustein muss zunächst in der Administration freigeschalten und konfiguriert werden, ebenso werden Berechtigungsschlüssel für die eBooks benötigt. Sind die Voreinstellungen abgeschlossen, kann der Baustein zu einem Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor möglich, Leseaufträge zu bestimmten Buchpassagen für Teilnehmende zu erstellen.
 
-![Edubase Screen](assets/Edubase_DE.png){ class="shadow lightbox" }
+![Konfigurierte Buchpassagen mit Edubase-ID, Seitenzahlen und Leseauftrag, Tab Buchpassagen im Kursbaustein Edubase](assets/Edubase_DE.png){ class="shadow lightbox" }
 
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
+[Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
+[Fünf Schritte zu Ihrem Content-Packaging >](../resource_cp/In_Five_Steps_to_Your_Content_Package.de.md)<br>
+[eLML >](http://www.elml.org)<br>
+[CP-Lerninhalt erstellen >](CP_Editor.de.md)<br>
+[Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
+[Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
+[Vier Schritte zu Ihrem Podcast >](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)<br>
+[Podcast konfigurieren >](Podcast_Configuration.de.md)<br>
+[Vier Schritte zu Ihrem Blog >](../resource_blog/Four_Steps_to_Your_Blog.de.md)<br>
+[Blog konfigurieren >](Blog_Configuration.de.md)<br>
+[Kursbaustein "Video" >](Course_Element_Video.de.md)<br>
+[Lernressource: Video >](Learning_resource_Video.de.md)<br>
+[Kursbaustein "Video Livestream" >](Course_Element_Video_Livestream.de.md)<br>
+[Kursbaustein "edu-sharing" >](Course_Element_edu_Sharing.de.md)<br>
+[card2brain >](http://card2brain.ch/info/contact)<br>
+[Kursbaustein "card2brain Lernkarten" >](Course_Element_card2brain_Flashcards.de.md)<br>
+[Edubase >](https://www.edubase.ch/)
+
+**Weiterführend**<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
+[Gestalterische Möglichkeiten von Kursen und Kursbausteinen >](Design_possibilities_of_courses_and_course_elements.de.md)
+
+[Zum Seitenanfang ^](#wissensvermittlung)

@@ -11,7 +11,7 @@ Verwendungszweck | Gemeinsames Erstellen von Inhalten
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug und generell für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
+Verwenden Sie ein Wiki, um auf einfache Weise mit Teilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug und generell für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
 
 ## Im Kurseditor
 
@@ -21,16 +21,16 @@ Klicken Sie im Tab "**Wiki-Lerninhalt**" auf "Wiki wählen, erstellen oder impor
 
 Wenn Sie schon eine Wiki Lernressource hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln" und wählen anschliessend ein anderes Wiki oder erstellen Sie ein neues.
 
-Im Tab "Wiki-Lerninhalt" können Sie auch die Berechtigungen für die Bearbeitung des Wikis definieren. So kann eingestellt werden, dass neben den Besitzern auch Betreuer und Teilnehmende Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Einzelne Wiki-Seiten können nur von Besitzern der Lernressource gelöscht werden.
+Im Tab "Wiki-Lerninhalt" können Sie auch die Berechtigungen für die Bearbeitung des Wikis definieren. So kann eingestellt werden, dass neben den Besitzern auch Betreuer und Teilnehmende Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Teilnehmenden Lese- und Schreibrechte in einem Wiki. Einzelne Wiki-Seiten können nur von Besitzern der Lernressource gelöscht werden.
 
 
-!!! warning "Achtung"
+!!! info "Wichtig"
 
-    Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
+    Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können, so wird dies systemweit von einem Administrator ausgeschaltet.
 
 ## Arbeiten mit Wiki (geschlossener Kurseditor)
 
-![Wiki Editor](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" }
+![Wiki-Navigation mit Seitenliste und Editor-Werkzeugleiste beim Bearbeiten der Wiki-Seite "Index"](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" }
 
 Wird ein Wiki in einem OpenOlat Kurs verwendet erscheint automatisch in der linken Kursnavigation das Wiki-Menü sowie weitere Wiki Links. Über den Link "Von A-Z" rufen Sie das Inhaltsverzeichnis mit der Anzeige aller Wiki-Seite auf. So sehen Sie auf einen Blick, welche Seiten bereits erstellt wurden.
 
@@ -44,7 +44,7 @@ Ein anderer Weg eine neue Wiki Seite zu erstellen ist, auf der Seite auf der die
 
 Die entsprechende Seite wird beim ersten Aufruf des Links dann automatisch angelegt.
 
-![Wiki internen Link anlegen](assets/interner_Link.png){ class="shadow lightbox" }
+![Button "Interner Link" in der Wiki-Werkzeugleiste, darunter der eingefügte Platzhalter für den Link, Tab Seite bearbeiten](assets/interner_Link.png){ class="shadow lightbox" }
 
 ### Inhalte einer Wiki-Seite ändern
 
@@ -56,7 +56,7 @@ Im nachfolgenden wird die Wiki-Syntax genauer erklärt.
 
 Ihre Eingaben können Sie mit der folgenden Wiki-Syntax formatieren.
 
-!!! Warning "Achtung"
+!!! warning "Achtung"
 
     Es empfiehlt sich, Sonderzeichen in Wikiwords zurückhaltend einzusetzen. Nicht erlaubt ist der Doppelpunkt (:). Beachten Sie auch, dass ein Leerzeichen am Anfang einer Zeile als ein Formatierungsbefehl interpretiert wird (Preformatted Text).
 
@@ -114,7 +114,7 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
 
 === "Ergebnis"
 
-    Zelle 1 Zelle 2  
+    Zelle 1 Zelle 2<br>
     Zelle 3 Zelle 4
 
 #### Mit Rahmen
@@ -138,7 +138,7 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
     Zelle 3| Zelle 4
 
 ### Bilder und andere Dateien
-  
+
 Um z.B. Bilder ins Wiki einzufügen, müssen Sie diese zuerst in OpenOlat hochladen (via Button "_Datei hochladen_"). Sobald sich mindestens eine Datei im Wiki befindet, erscheint das Drop-Down Menu "_Datei einfügen_" , womit sich Bilder etc. bequem einfügen lassen.
 
 === "Syntax"
@@ -159,9 +159,9 @@ Beim Einfügen des Bildes bestehen folgende optionale Formatierungsmöglichkeite
 
 === "Ergebnis"
 
-    ![OpenOlat Logo](assets/openolat_logo_72.png)  
+    ![OpenOlat Logo](assets/openolat_logo_72.png)<br>
     Das ist das OpenOlat-Logo.  
-  
+
 #### Ausrichtung
 
 Mit dem Zusatz "left" oder "right" geben Sie an, wie das Bild ausgerichtet werden soll.
@@ -171,7 +171,7 @@ Mit dem Zusatz "left" oder "right" geben Sie an, wie das Bild ausgerichtet werde
     [[Image:openolat_logo_72.png|right]]
 
 === "Ergebnis"
-  
+
     ![OpenOlat Logo](assets/openolat_logo_72.png){ align=right }
 
 #### Bildgrösse
@@ -222,7 +222,7 @@ Mehrere Formatierungsmöglichkeiten können auch gleichzeitig verwendet werden.
 
 ### Mathematische Formeln (LaTeX)
 
-Damit OpenOlat die Formeln schneller und schöner darstellt, können Sie jsMath-Schriften auf Ihrem Rechner installieren. Den Downloadbereich und eine Anleitung dazu finden Sie unter:  
+Damit OpenOlat die Formeln schneller und schöner darstellt, können Sie jsMath-Schriften auf Ihrem Rechner installieren. Den Downloadbereich und eine Anleitung dazu finden Sie unter:<br>
 [http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)
 
 Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter: [http://meta.wikimedia.org/wiki/Help:Formula](http://meta.wikimedia.org/wiki/Help:Formula)  
@@ -255,7 +255,7 @@ Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter:
 
     Hier den unformatierten Text eingeben  
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     Weitere Informationen zur Wiki-Syntax des Media-Wikis finden Sie hier: https://www.mediawiki.org/wiki/Help:Formatting.
 
@@ -267,10 +267,18 @@ Links auf Dateien in Ordner-Kurselementen in OpenOlat erstellen Sie, indem Sie a
 
 Das Wiki kann über den entsprechenden Link von allen Beteiligten als IMS-Content-Packaging exportiert und gespeichert werden. Autoren können ein exportiertes CP auch in OpenOlat wieder importieren.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
-    Soll ein Wiki direkt als Wiki exportiert werden, ist dies nur vom Besitzer des Wikis direkt in der Lernressource über die Menüs "Kopieren" bzw. "Inhalt exportieren" möglich. Kursteilnehmer haben diese Option nicht.
+    Soll ein Wiki direkt als Wiki exportiert werden, ist dies nur vom Besitzer des Wikis direkt in der Lernressource über die Menüs "Kopieren" bzw. "Inhalt exportieren" möglich. Teilnehmende haben diese Option nicht.
 
-!!! Warning "Achtung"
-  
+!!! danger "Achtung"
+
     Beim Löschen von Seiten werden auch alle Versionen mitgelöscht. Sie können also keine gelöschten Seiten wiederherstellen.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[jsMath-Schriften (Download)](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)<br>
+[MediaWiki: Hilfe zu Formeln](http://meta.wikimedia.org/wiki/Help:Formula)
+
+[Zum Seitenanfang ^](#wiki)

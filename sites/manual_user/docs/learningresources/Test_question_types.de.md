@@ -10,13 +10,13 @@ Eine Single-Choice-Frage besteht aus einer Frage und Antworten, von denen nur ei
 
 Zuerst werden ein kurzer Titel und die Frage eingegeben.
 
-Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
+Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Checkboxen links oder rechts ausgerichtet sind.
 
 Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche :o_icon_o_icon_add:, entfernt werden die Antworten mit der Schaltfläche :o_icon_o_icon_delete:.
 
 Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschte Antwort markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
-![Beispiel Single Choice Frage](assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
+![Single-Choice-Frage mit fünf Antwortoptionen und je einem Radiobutton davor](assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 ---
 
@@ -24,21 +24,21 @@ Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ di
 
 Eine Multiple-Choice-Frage besteht aus einer Frage und mindestens zwei Antworten, wobei mehrere Antworten ausgewählt werden können. Im Test können mehrere Antworten richtig sein.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
+![Multiple-Choice-Frage mit fünf Antwortoptionen und je einer Checkbox davor](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 
-**Tab "Auswahl**<br>
+**Tab "Auswahl"**<br>
 Im Reiter "Auswahl" wird zuerst ein kurzer Titel und die Frage eingegeben.
 
-Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
+Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Checkboxen links oder rechts ausgerichtet sind.
 
 Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche :o_icon_o_icon_add:, entfernt werden die Antworten mit der Schaltfläche :o_icon_o_icon_delete:.
 
 Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschten Antworten markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
 
-**Tab "Punkte**<br>
-Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+**Tab "Punkte"**<br>
+Für MC-Fragen werden 3 Bewertungsmethoden unterstützt:
 
 * **Alle korrekten Antworten**<br>
 Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
@@ -52,9 +52,8 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 <br>
 
-
 **Tab "Feedback"**<br>
-Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die Anzahl der Antwortmöglichkeiten des Users definiert werden.
+Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die Anzahl der Antwortmöglichkeiten der Testperson definiert werden.
 
 
 ---
@@ -65,7 +64,7 @@ Eine Kprim-Frage besteht immer aus einer Frage und genau vier Antworten. Für je
 
 Zuerst werden ein kurzer Titel und die Frage eingegeben.
 
-Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
+Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig erscheinen soll und ob die Checkboxen links oder rechts ausgerichtet sind.
 
 Dann können Antworttexte eingefügt werden. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern. Es können keine neuen Antworten hinzugefügt und auch keine Antworten gelöscht werden. Für jede Frage muss ausgewählt werden, ob sie Richtig oder Falsch ist.
 
@@ -75,7 +74,7 @@ Alle Antworten korrekt = 100% der Punktzahl<br>
 3 korrekte Antworten = 50% der Punktzahl<br>
 2, 1 oder 0 korrekte Antworten = 0% der Punktzahl
 
-![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl lightbox" }
+![Kprim-Frage mit vier Aussagen und je einer Spalte für Richtig und Falsch](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl lightbox" }
 
 ---
 
@@ -83,7 +82,7 @@ Alle Antworten korrekt = 100% der Punktzahl<br>
 
 Eine Matrix-Frage besteht aus mehreren Spalten und Zeilen, wobei die Antwort entweder als Single Choice oder als Multiple Choice pro Zeile ausgefüllt werden kann.
 
-![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow lightbox" }
+![Matrix-Frage mit vier Zeilen und fünf Spalten mit je einer Checkbox](assets/Matrix_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 **Tab "Matrix"**<br>
 Wiederum werden zuerst der Titel und die Frage eingetragen.
@@ -91,11 +90,10 @@ Wiederum werden zuerst der Titel und die Frage eingetragen.
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig
 erscheinen soll und ob die Antworten als Single oder Multiple Choice möglich sind.
 
-Dann können sowohl in den Kolonnen als auch in den Zeilen die gewünschten Werte eingetragen werden. Falls mehr Kolonnen oder Zeilen benötigt werden, können diese mit den entsprechenden Schaltflächen hinzugefügt werden. Zum Schluss müssen pro Zeile die korrekten Antworten ausgewählt werden. Bei Single Choice ist dies eine korrekte Antwort pro Zeile, bei Multiple Choice können dies mehrere korrekte Antworten pro Zeile sein.
+Dann können sowohl in den Spalten als auch in den Zeilen die gewünschten Werte eingetragen werden. Falls mehr Spalten oder Zeilen benötigt werden, können diese mit den entsprechenden Schaltflächen hinzugefügt werden. Zum Schluss müssen pro Zeile die korrekten Antworten ausgewählt werden. Bei Single Choice ist dies eine korrekte Antwort pro Zeile, bei Multiple Choice können dies mehrere korrekte Antworten pro Zeile sein.
 
-
-**Tab "Punkte**<br>
-Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+**Tab "Punkte"**<br>
+Für diesen Fragetyp werden 3 Bewertungsmethoden unterstützt:
 
 * **Alle korrekten Antworten**<br>
 Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
@@ -112,9 +110,9 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 ## :o_icon_o_mi_qtimatch_draganddrop: Drag&Drop [:octicons-tag-16:{ title="ab Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
-Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Testteilnehmer müssen die Antworten jedoch nicht in Checkboxen ankreuzen, sondern können die Begriffe in die entsprechenden Kategorien verschieben.
+Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Testpersonen müssen die Antworten jedoch nicht in Checkboxen ankreuzen, sondern können die Begriffe in die entsprechenden Kategorien verschieben.
 
-![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow lightbox" }
+![Drag&Drop-Frage mit zwei Kategorien links und vier zuzuordnenden Begriffen rechts](assets/DragDrop_Beispiel_DE.png){ class="shadow lightbox" }
 
 **Tab "Drag and drop"**<br>
 Zuerst werden der Titel und die Frage eingetragen.
@@ -127,9 +125,8 @@ Bei der Ausrichtung der Antworten wird definiert, wo sich die zuzuordnenden Begr
 
 Dann werden in den Spalten Kategorien definiert. Kategorien sind die fixen Elemente, in welche die Begriffe gezogen werden. In den Zeilen werden Begriffe hinzugefügt. Die Begriffe können anschliessend mit Drag&Drop in die Kategorien gezogen werden.
 
-
-**Tab "Punkte**<br>
-Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+**Tab "Punkte"**<br>
+Für diesen Fragetyp werden 3 Bewertungsmethoden unterstützt:
 
 * **Alle korrekten Antworten**<br>
 Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
@@ -144,7 +141,7 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
+    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Testpersonen an einem Desktop-Gerät oder Laptop bearbeiten.
 
 ---
 
@@ -152,11 +149,11 @@ Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anza
 
 Eine True/False-Frage ähnelt dem Kprim-Fragentyp, jedoch mit beliebiger Zeilenzahl Pro Zeile müssen Aussagen bewertet werden.
 
-Benutzer wählen aus einer von drei Antwortoptionen aus: "Unbeantwortet", "Richtig", "Falsch". Die Spalte "Unbeantwortet" ist immer vorausgewählt. Es können keine weiteren Spalten hinzugefügt werden.
+Die Testpersonen wählen aus einer von drei Antwortoptionen aus: "Unbeantwortet", "Richtig", "Falsch". Die Spalte "Unbeantwortet" ist immer vorausgewählt. Es können keine weiteren Spalten hinzugefügt werden.
 
 Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortoption "Unbeantwortet" können ebenfalls Punkte vergeben werden.
 
-![Beispiel True False Frage](assets/True_false_Beispiel_DE.png){ class="shadow lightbox" }
+![True/False-Frage mit vier Zeilen und den Spalten Unbeantwortet, Richtig und Falsch](assets/True_false_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -171,21 +168,21 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
 * Lösung: In diesem Feld wird die korrekte und erwünschte Lösung eingetragen.
 * Alternative Antworten: Mit diesem Schalter werden weitere akzeptierte Lösungen als Varianten erfasst. Mit "Antwort hinzufügen" wird je ein Feld ergänzt, mit "Mehrfach hinzufügen" werden mehrere Varianten auf einmal erfasst, getrennt durch ein wählbares Trennzeichen.
 * Anzeige:
-    * Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext für die Teilnehmer eingetragen werden.
+    * Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext für die Testpersonen eingetragen werden.
     * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
     * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke mit Platzhalter und Lückenlänge dargestellt wird.
 * Optionen: Über die Checkbox-Gruppe "Korrektur" wird festgelegt, wie streng die Antworten automatisch korrigiert werden:
     * Gross- und Kleinschreibung beachten: Wenn diese Option gewählt ist, wird die Gross-/Kleinschreibung beachtet. Ansonsten ist es egal, ob die Lösungen gross oder klein geschrieben werden.
     * Leerzeichen ignorieren: Zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche in der Antwort führen nicht zur Abwertung. So wird z.B. bei der Lösung "log in" auch eine Eingabe mit doppeltem Leerzeichen als richtig gewertet. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
-    * Wildcard: Das Zeichen * steht in der Lösung für "etwas oder nichts" und kann auch in den Varianten verwendet werden. So deckt z.B. die Lösung "col*r" die Schreibweisen "color", "colour" und "colr" ab. Geben Teilnehmer selbst ein * ein, wird es als normales Zeichen behandelt. Eine Lösung, die nur aus Wildcards besteht, wird beim Speichern nicht akzeptiert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
+    * Wildcard: Das Zeichen * steht in der Lösung für "etwas oder nichts" und kann auch in den Varianten verwendet werden. So deckt z.B. die Lösung "col*r" die Schreibweisen "color", "colour" und "colr" ab. Geben Testpersonen selbst ein * ein, wird es als normales Zeichen behandelt. Eine Lösung, die nur aus Wildcards besteht, wird beim Speichern nicht akzeptiert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
-![Dialog "Lücke bearbeiten" mit den Korrektur-Optionen](assets/Lueckentext_Dialog_Korrektur_de.png){ class="shadow lightbox" }
+![Dialog "Lücke erstellen" mit der Wildcard-Lösung "col*r" und den Korrektur-Optionen](assets/Lueckentext_Dialog_Korrektur_de.png){ class="shadow lightbox" }
 
 Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalternativen vergeben werden.
 
 Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, ist im Tab "Punkte" die Option "Doppelte Eingaben erlauben" verfügbar. Darüber kann die Eingabe der gleichen Antwort in mehrere Lücken zugelassen oder unterbunden werden.
 
-![Editor-Werkzeugleiste mit den Buttons zum Einfügen von Text-, numerischen und Dropdown-Lücken](assets/Lueckentext_Editor_Buttons_de.png){ class="shadow lightbox" }
+![Editor-Werkzeugleiste mit hervorgehobenem Icon der drei Punkte zum Einfügen einer Lücke](assets/Lueckentext_Editor_Buttons_de.png){ class="shadow lightbox" }
 
 ![Lückentext in der Teilnehmeransicht](assets/Lueckentext_Beispiel_de.png){ class="shadow lightbox" }
 
@@ -203,7 +200,7 @@ Unter "Anzeige" legt die Option "Reihenfolge der Antwortoptionen" fest, ob die A
 
 ![Dialog "Lücke erstellen" mit der Option "Reihenfolge der Antwortoptionen"](assets/Lueckentext_dropdown_Reihenfolge_de.png){ class="shadow lightbox" }
 
-Ferner können auch globale Antwortmöglichkeiten für die Lücken verwendet werden. Diese werden über "Globale Antwort hinzufügen" einmal pro Frage definiert und dann in jeder Lücke der jeweiligen Frage angezeigt; der User muss die für diese Lücke passende Antwort auswählen.
+Ferner können auch globale Antwortmöglichkeiten für die Lücken verwendet werden. Diese werden über "Globale Antwort hinzufügen" einmal pro Frage definiert und dann in jeder Lücke der jeweiligen Frage angezeigt; die Testperson muss die für diese Lücke passende Antwort auswählen.
 
 ![Editor mit eingeschalteten globalen Antwortmöglichkeiten](assets/Lueckentext_dropdown_Global_de.png){ class="shadow lightbox" }
 
@@ -230,7 +227,7 @@ Für jede Lücke können folgende Einstellungen vorgenommen werden:
 		_Beispiel:_ Lösung 20, untere Grenze 10, obere Grenze 10 → Alle Lösungen zwischen 18 und 22 sind gültig, denn die untere Grenze bedeutet minus 10% (20-2) und die obere Grenze plus 10% (20+2).
 
 * Anzeige:
-    * Platzhalter: Wenn gewünscht, kann hier ein Platzhalter eingetragen werden. Dieser erscheint im Text in der Lücke und ist für die Teilnehmer sichtbar.
+    * Platzhalter: Wenn gewünscht, kann hier ein Platzhalter eingetragen werden. Dieser erscheint im Text in der Lücke und ist für die Testpersonen sichtbar.
     * Lückenlänge: Hier kann eine maximale Länge für das Lückenfeld eingetragen werden, z.B. zur Formatierung. Es hat keine Auswirkungen auf die tatsächliche Länge des Eintrages.
     * Vorschau: Zeigt an einem Beispielsatz direkt im Dialog, wie die Lücke dargestellt wird.
 
@@ -256,19 +253,19 @@ Bestehende Fragen der Typen Lückentext und Lückentext numerisch, die sowohl Te
 
 ## :o_icon_o_mi_qtihottext: Hottext [:octicons-tag-16:{ title="ab Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
-Die Hottext-Frage verhält sich ähnlich wie ein Lückentext. In einem Fliesstext werden verschiedene Begriffe markiert, welche anschliessend vom Testteilnehmer ausgewählt werden können.
+Die Hottext-Frage verhält sich ähnlich wie ein Lückentext. In einem Fliesstext werden verschiedene Begriffe markiert, welche anschliessend von der Testperson ausgewählt werden können.
 
 Zuerst wird ein kurzer Titel eingegeben.
 
 Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als Hottext markiert. Zum Schluss müssen die korrekten Antworten markiert werden, indem die Checkbox angewählt wird.
 
-![Beispiel Hottext Frage](assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" }
+![Hottext-Frage mit sieben markierbaren Begriffen im Fliesstext](assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
 ## :o_icon_o_mi_qtihotspot: Hotspot {: #hotspot}
 
-Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hotspots, Anpassung der Bildgrösse sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmenden sichtbar.
+Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen von der Testperson korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single-Choice- oder Multiple-Choice-Frage gestaltet werden. Diverse Feineinstellungen wie die Form des Hotspots, die Farbe des Hotspots, Anpassung der Bildgrösse sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Hotspots sind für die Testpersonen sichtbar.
 
 ### Vorgehen
 
@@ -277,7 +274,7 @@ Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild da
 * Dann können Spots in Form von Kreis oder Viereck auf dem Bild platziert werden. In der erweiterten Bearbeitung lassen sich Spots auch einfach duplizieren.
 * Zum Schluss müssen noch die korrekten Antworten ausgewählt werden.
 
-![Beispiel Hotspot Frage](assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" }
+![Hotspot-Frage mit drei runden Auswahlbereichen auf einem Bild, einer davon ausgewählt](assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
@@ -289,31 +286,31 @@ Zuerst werden der Titel und die Frage eingetragen.
 
 Dann können die Antworten in korrekter Reihenfolge eingetragen und die Ausrichtung der Darstellung vertikal oder horizontal gesetzt werden.
 
-![Beispiel Reihenfolge Frage](assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" }
+![Reihenfolge-Frage mit vier ungeordneten Elementen und einem leeren Sortierbereich](assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
+    Dieser Fragetyp wird durch Ziehen der Antwortelemente bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Testpersonen an einem Desktop-Gerät oder Laptop bearbeiten.
 
 ---
 
 ## :o_icon_o_mi_qtiessay: Freitext* {: #essay}
 
-Die Antwort auf die Freitext-Frage füllen Testteilnehmer frei formuliert in ein Textfeld beliebiger Grösse ein. Im Test muss die Freitext-Frage gesondert manuell bewertet werden.
+Die Antwort auf die Freitext-Frage füllen Testpersonen frei formuliert in ein Textfeld beliebiger Grösse ein. Im Test muss die Freitext-Frage gesondert manuell bewertet werden.
 
 Zuerst werden ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend können folgende Optionen ausgewählt werden:
 
-* Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext eingetragen werden. Dieser erscheint im Textfeld und ist für die Teilnehmer sichtbar.
-* Höhe (Anzahl Zeilen): Hier kann die Grösse des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Teilnehmer mehr Zeilen eintragen.
+* Platzhalter: Wenn gewünscht, kann hier ein Platzhaltertext eingetragen werden. Dieser erscheint im Textfeld und ist für die Testpersonen sichtbar.
+* Höhe (Anzahl Zeilen): Hier kann die Grösse des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Testpersonen mehr Zeilen eintragen.
 * Min. Anzahl Wörter: Diese Anzahl Wörter muss mindestens geschrieben sein, damit die Aufgabe gesendet werden kann.
 * Max. Anzahl Wörter: Diese Anzahl Wörter darf maximal geschrieben sein, damit die Aufgabe gesendet werden kann. Die Eingabe dient der Begrenzung der Eingabe.
 * Copy/paste erlauben: Hier definieren Sie, ob die Lernenden Inhalte per copy+paste oder per Drag&Drop aus einer externen Quelle einfügen dürfen. Internes Verschieben von Text innerhalb desselben Feldes bleibt davon unabhängig weiterhin möglich. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
 Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion ausgestattet. Antworten können somit besser formatiert und zum Beispiel Spalten abgebildet werden.
 
-![Beispiel Freitext Frage](assets/Essay_Beispiel_DE.png){ class="shadow lightbox" }
+![Freitext-Frage mit einer per Tabulator formatierten Preisliste im Antwortfeld](assets/Essay_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! info "Autosave"
 
@@ -323,32 +320,32 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 ## :o_icon_o_mi_qtiupload: Datei hochladen* [:octicons-tag-16:{ title="ab Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
-Bei diesem Fragetyp müssen die Testteilnehmenden als Antwort eine Datei hochladen.
+Bei diesem Fragetyp müssen die Testpersonen als Antwort eine Datei hochladen.
 
 Es werden ein kurzer Titel und die Frage eingegeben sowie definiert wieviele Upload Felder zur Verfügung stehen. Mit den Upload Feldern kann die Anzahl der maximal hochzuladenden Dateien festgelegt werden. Die Höchstzahl beträgt generell 10 Upload Felder.
 
 Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps ausschliesslich manuell möglich ist.
 
-![Beispiel Datei Upload Frage](assets/Fileupload_Beispiel_DE.png){ class="shadow lightbox" }
+![Datei-hochladen-Frage mit einem Upload-Feld für die Antwort](assets/Fileupload_Beispiel_DE.png){ class="shadow lightbox" }
 
 ---
 
 ## :o_icon_o_mi_qtidrawing: Zeichnen* {: #draw}
 
-Die Testteilnehmenden haben beim Fragetyp Zeichnen die Aufgabe, ein vorgegebenes Bild mit den zur Verfügung stehenden Zeichnungsinstrumenten zu bearbeiten.
+Die Testpersonen haben beim Fragetyp Zeichnen die Aufgabe, ein vorgegebenes Bild mit den zur Verfügung stehenden Zeichnungsinstrumenten zu bearbeiten.
 
 Zuerst wird ein kurzer Titel und die Frage, respektive die Bearbeitungsanweisung eingegeben.
 
-Anschliessend wird ein Bild als Hintergrund hochgeladen. Dieses Bild muss dann von den Testteilnehmenden bearbeitet werden. Es muss keine Antwort angegeben werden, da die Auswertung dieses Fragetyps ausschliesslich manuell erfolgt.
+Anschliessend wird ein Bild als Hintergrund hochgeladen. Dieses Bild muss dann von den Testpersonen bearbeitet werden. Es muss keine Antwort angegeben werden, da die Auswertung dieses Fragetyps ausschliesslich manuell erfolgt.
 
 Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe der Pinselgrösse steuern.
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 
-    Dieser Fragetyp wird durch freihändiges Zeichnen bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmer an einem Desktop-Gerät oder Laptop bearbeiten.
+    Dieser Fragetyp wird durch freihändiges Zeichnen bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Testpersonen an einem Desktop-Gerät oder Laptop bearbeiten.
 
 
-![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow lightbox" }
+![Zeichnen-Frage mit Zeichenwerkzeugen und einem Hintergrundbild eines Steckers](assets/Zeichnen_Beispiel_DE.png){ class="shadow lightbox" }
 
 !!! tip "Import von Fragen"
 
@@ -358,14 +355,18 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
 
 	Mit der Lernressource Test und dem Fragetyp Freitext können im OpenOlat Aufsätze geschrieben werden. Dazu sind folgende Punkte zu beachten:
 
-    * Die Autosave Funktion für den Fragetyp Freitext speichert den geschriebenen Text jede Minute. Die Uhrzeit der letzten Speicherung ist unten rechts sichtbar. Der Autosave verhindert, dass geschriebener Text verloren geht, wenn beispielsweise die Internetverbindung unterbrochen oder ein Session Timeout erreicht wird. Hat ein Teilnehmer die Antwort zur Frage nicht aktiv über den Button "Antwort speichern" abgegeben, wird der bereits per Autosave gespeicherte Inhalt im Korrektur-Workflow mit einem entsprechenden Hinweis angezeigt.
-    * Falls es zu einem Unterbruch kommt, sollen die Testteilnehmer den Test nochmals starten können. Dies setzt folgende Einstellungen voraus:
-        * Die Anzahl Versuche für den gesamten Test ist nicht eingeschränkt. Damit der Test später (nach Beenden des aktuellen Tests) nicht nochmals gestartet werden kann, wird er entweder im Save Exam Browser durchgeführt, oder die Sichtbarkeit ist auf den Prüfungsmodus beschränkt.
-        * Das Unterbrechen des Tests ist erlaubt. So kommt der Testteilnehmer nach einem Unterbruch wieder dorthin zurück, wo er rausgeworfen worden ist. Der Text ist bis zur letzten Speicherung gespeichert. Es kann also zu kleinen Textverlusten kommen.
-        * Die Anzahl Versuche für die Freitext Frage ist nicht eingeschränkt. Dies erlaubt es Testteilnehmer:innen, den geschriebenen Text immer wieder abzuschicken und dann weiterzuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Testteilnehmer:innen Sicherheit.
-    * Falls der Test eine Zeitbeschränkung hat, wird der Text ganz am Schluss nur dann gespeichert, wenn er vor Ablauf der Zeit nochmals abgeschickt worden ist. Erinnern Sie die Testteilnehmer kurz vor Schluss daran, die Frage nochmals abzuschicken und anschliessend nichts mehr zu schreiben.
+    * Die Autosave Funktion für den Fragetyp Freitext speichert den geschriebenen Text jede Minute. Die Uhrzeit der letzten Speicherung ist unten rechts sichtbar. Der Autosave verhindert, dass geschriebener Text verloren geht, wenn beispielsweise die Internetverbindung unterbrochen oder ein Session Timeout erreicht wird. Hat eine Testperson die Antwort zur Frage nicht aktiv über den Button "Antwort speichern" abgegeben, wird der bereits per Autosave gespeicherte Inhalt im Korrektur-Workflow mit einem entsprechenden Hinweis angezeigt.
+    * Falls es zu einem Unterbruch kommt, sollen die Testpersonen den Test nochmals starten können. Dies setzt folgende Einstellungen voraus:
+        * Die Anzahl Versuche für den gesamten Test ist nicht eingeschränkt. Damit der Test später (nach Beenden des aktuellen Tests) nicht nochmals gestartet werden kann, wird er entweder im Safe Exam Browser durchgeführt, oder die Sichtbarkeit ist auf den Prüfungsmodus beschränkt.
+        * Das Unterbrechen des Tests ist erlaubt. So kommt die Testperson nach einem Unterbruch wieder dorthin zurück, wo sie herausgeworfen worden ist. Der Text ist bis zur letzten Speicherung gespeichert. Es kann also zu kleinen Textverlusten kommen.
+        * Die Anzahl Versuche für die Freitext Frage ist nicht eingeschränkt. Dies erlaubt es Testpersonen, den geschriebenen Text immer wieder abzuschicken und dann weiterzuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Testpersonen Sicherheit.
+    * Falls der Test eine Zeitbeschränkung hat, wird der Text ganz am Schluss nur dann gespeichert, wenn er vor Ablauf der Zeit nochmals abgeschickt worden ist. Erinnern Sie die Testpersonen kurz vor Schluss daran, die Frage nochmals abzuschicken und anschliessend nichts mehr zu schreiben.
 
 	Bei Beachtung dieser Empfehlungen kann ein Aufsatz im OpenOlat geschrieben werden.
 
+## Weiterführende Informationen {: #further_information}
+
+[Fragenpool >](../area_modules/Question_Bank.de.md)<br>
+[Mehr über das Erstellen von Fragen >](../area_modules/Data_Management.de.md)
 
 [Zum Seitenanfang ^](#question_types)

@@ -12,9 +12,9 @@ Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise können Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische forenbasierte Online-Methoden um usw.
+Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise können Teilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische forenbasierte Online-Methoden um usw.
 
-![Beispiel: Startposting](assets/Posting_beantworten.png){ class="shadow lightbox" }
+![Forumsbeitrag mit Titel, Autorin und Text sowie den Buttons Antworten mit Zitat und Antworten ohne Zitat, Beispiel eines Startpostings im Forum](assets/Posting_beantworten.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#forum)
 
@@ -23,41 +23,41 @@ Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynch
 
 ## Tab Konfiguration {: #config}
 
-Die Konfiguration eines Forums erfolgt im Kurseditor im Tab "Konfiguration". Hier können die Benutzerberechtigungen des Forums eingestellt und definiert werden, welche Kursrollen Forenbeiträge erstellen dürfen. Zur Wahl stehen Betreuer, Teilnehmer und Gäste. Auch wird hier eingestellt, ob Betreuer das Forum moderieren dürfen und ob in dem Forum pseudonymisierte Postings erlaubt sind. 
+Die Konfiguration eines Forums erfolgt im Kurseditor im Tab "Konfiguration". Hier können die Benutzerberechtigungen des Forums eingestellt und definiert werden, welche Kursrollen Forenbeiträge erstellen dürfen. Zur Wahl stehen Betreuer:innen, Teilnehmende und Gäste. Auch wird hier eingestellt, ob Betreuer:innen das Forum moderieren dürfen und ob in dem Forum pseudonymisierte Postings erlaubt sind.
 
 ---
 
 ### Foren mit Pseudonym [:octicons-tag-16:{ title="ab Release 10.4 (OO-1769)" }](https://track.frentix.com/issue/OO-1769){:target="_blank"} {: #pseudonym}
 
-Wurde der Haken bei "Beiträge mit Pseudonym zulassen" aktiviert können die Beitragsersteller selbst einen Namen eintragen unter dem ihr Beitrag erscheint. Das Pseudonym kann von Benutzenden mit einem Passwort geschützt werden, damit nur diese Person dieses Pseudonym verwenden kann. Ohne Passwortschutz könnte dasselbe Pseudonym von mehreren Benutzern verwendet werden. 
+Wurde der Haken bei "Beiträge mit Pseudonym zulassen" aktiviert können die Ersteller:innen des Beitrags selbst einen Namen eintragen unter dem ihr Beitrag erscheint. Das Pseudonym kann von Teilnehmenden mit einem Passwort geschützt werden, damit nur diese Person dieses Pseudonym verwenden kann. Ohne Passwortschutz könnte dasselbe Pseudonym von mehreren Teilnehmenden verwendet werden.
 Weiter kann eingestellt werden, ob der eingegebene Pseudonymname bei weiteren Postings im Forum als Standard voreingestellt ist und somit auch weitere Postings unter dem definierten Namen erfolgen. Wählen Sie dazu die Checkbox "Pseudonym im einzelnen Forum-Post aktiviert".
 
-![Konfigurationsoptionen Forum](assets/forum_config_DE.png){ class="shadow lightbox" }
+![Checkboxen Beiträge mit Pseudonym zulassen und Pseudonym im Forum-Post aktiviert, dazu die Rollenauswahl für Moderation und Beitragserstellung, Tab Konfiguration eines Forums](assets/forum_config_DE.png){ class="shadow lightbox" }
 
 ---
 
 ### Moderationsrechte {: #moderator}
 
-Alle Kursbesitzer und sofern aktiviert alle [Betreuer](../basic_concepts/coach.de.md) verfügen über folgende weitere **Moderationsrechte**. Sie können:
+Alle Kursbesitzer:innen und sofern aktiviert alle [Betreuer:innen](../basic_concepts/coach.de.md) verfügen über folgende weitere **Moderationsrechte**. Sie können:
 
 * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
 * Threads priorisieren (sticky): So erscheint das Diskussionsthema immer zuoberst auf der Liste.
 * Diskussionsthemen beenden: Antworten auf Beiträge zu diesem Diskussionsthema sind nicht mehr möglich.
 * Diskussionsthemen verbergen: Das Thema erscheint nicht mehr in der Liste der Diskussionsthemen.
 * Diskussionsthemen anzeigen: Verborgene Themen werden wieder angezeigt.
-* Personenfiltern nutzen: Auf der Forumsübersichtsseite können Forumsbeiträge eines einzelnen Kursteilnehmers sowie weitere Informationen (z.B. Wörter, Zeichenzahl der Postings) angezeigt werden.
+* Personenfiltern nutzen: Auf der Forumsübersichtsseite können Forumsbeiträge einer einzelnen teilnehmenden Person sowie weitere Informationen (z.B. Wörter, Zeichenzahl der Postings) angezeigt werden.
 * Foren archivieren: Forumsbeiträge (im MS Word-Format) und angefügte Dateien werden in eine ZIP-Datei verpackt und heruntergeladen.
 * Excel report von Foren (xlsx Format) zum Download. Generieren Sie einen Bericht für die ausgewählten Forums-Kursbausteine. Der Bericht enthält eine Zeile für jeden geschriebenen Forumsbeitrag zur weiteren statistischen Analyse. [:octicons-tag-16:{ title="ab Release 18.1 (OO-6960)" }](https://track.frentix.com/issue/OO-6960)
 
-Personen mit Moderationsrechten können auch Threads oder einzelne Beiträge verschieben. Die Beiträge können in ein anderes Thema desselben Forums, in ein anderes Forum im Kurs oder auch in ein Forum in einen anderen Kurs verschoben werden. Dabei werden jeweils alle darunter liegenden Forumsbeiträge mit verschoben und sind anschliessend im Ursprungsforum nicht mehr sichtbar. Der verschobene Beitrag oder Thread kann als neuer Thread oder integriert in einen existierenden angelegt werden. Im letzten Schritt der Verschiebung kann zudem ein E-Mail an alle vom Verschieben betroffenen Benutzer geschickt werden, mit der Information, wohin das Forum nun verschoben wird.
+Personen mit Moderationsrechten können auch Threads oder einzelne Beiträge verschieben. Die Beiträge können in ein anderes Thema desselben Forums, in ein anderes Forum im Kurs oder auch in ein Forum in einen anderen Kurs verschoben werden. Dabei werden jeweils alle darunter liegenden Forumsbeiträge mit verschoben und sind anschliessend im Ursprungsforum nicht mehr sichtbar. Der verschobene Beitrag oder Thread kann als neuer Thread oder integriert in einen existierenden angelegt werden. Im letzten Schritt der Verschiebung kann zudem ein E-Mail an alle vom Verschieben betroffenen Teilnehmenden geschickt werden, mit der Information, wohin das Forum nun verschoben wird.
 
 !!! warning "Achtung"
 
-    Forumsbeiträge können auch in Foren verschoben werden, in welchen der Ersteller des Beitrages keinen Zugriff hat.
+    Forumsbeiträge können auch in Foren verschoben werden, in welchen der/die Ersteller:in des Beitrags keinen Zugriff hat.
 
 !!! info "Wichtig"
 
-    Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich Moderationsrechte in einem Forum erhalten.
+    Es ist möglich, dass Teilnehmende vom Lehrenden zusätzlich Moderationsrechte in einem Forum erhalten.
 
 [Zum Seitenanfang ^](#forum)
 
@@ -66,17 +66,17 @@ Personen mit Moderationsrechten können auch Threads oder einzelne Beiträge ver
 
 ## Arbeiten mit Foren {: #usage}
 
-Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-Kursen und auch in OpenOlat Gruppen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
+Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-Kursen und auch in OpenOlat Gruppen. Standardmässig haben alle Teilnehmenden Lese- und Schreibrechte in einem Forum.
 
 Teilnehmende können in Foren Themen eröffnen, Themen archivieren und auch die Darstellung eines Threads/Themas anpassen. Sie können Postings erstellen, editieren und markieren sowie ein Forum komplett abonnieren.
 
-![Arbeiten mit Foren](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" }
+![Diskussionsthema im Forum mit markierten Bedienelementen Darstellung anpassen, Abonnieren, Markieren und Posting erstellen](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" }
 
 
 !!! tip "Tipp"
 
-    Empfehlen Sie den Kursteilnehmenden, das Forum zu **abonnieren**, um bei neuen Beiträgen benachrichtigt zu werden. 
-    Auch sollten alle User im "[Profil](../personal_menu/Profile.de.md#profile_photo)" ein **Profilfoto** hinterlegen, das dann mit dem jeweiligen Posting zusammen angezeigt wird und so die Beiträge persönlicher macht.      
+    Empfehlen Sie den Teilnehmenden, das Forum zu **abonnieren**, um bei neuen Beiträgen benachrichtigt zu werden.
+    Auch sollten alle Teilnehmenden im "[Profil](../personal_menu/Profile.de.md#profile_photo)" ein **Profilfoto** hinterlegen, das dann mit dem jeweiligen Posting zusammen angezeigt wird und so die Beiträge persönlicher macht.
 
 ---
 
@@ -99,7 +99,7 @@ Sofern aktiviert können Sie Ihren Beitrag eventuell auch unter einem Pseudonym 
 
 !!! tip "Tipp"
 
-    Schauen Sie also zu Beginn immer, ob es schon einen passenden Thread für Ihren Beitrag gibt bevor Sie ein neues Diskussionsthema eröffnen bzw. bereiten Sie als Kursbesitzer oder Betreuer eine passende Forenstruktur vor.
+    Schauen Sie also zu Beginn immer, ob es schon einen passenden Thread für Ihren Beitrag gibt bevor Sie ein neues Diskussionsthema eröffnen bzw. bereiten Sie als Kursbesitzer:in oder Betreuer:in eine passende Forenstruktur vor.
 
 ---
 
@@ -107,7 +107,7 @@ Sofern aktiviert können Sie Ihren Beitrag eventuell auch unter einem Pseudonym 
 
 Einzelne Forenbeiträge können markiert werden. Klicken Sie dazu in der Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke eines Beitrags. In der Forenübersicht sehen Sie wie viele Beiträge pro Thema markiert wurden. Auf diese Weise können einzelne Beiträge leichter wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
-![Posting markieren](assets/Posting_markieren.png){ class="shadow lightbox" }
+![Flaggen-Symbol oben rechts an einem Forumsbeitrag zum Markieren des Beitrags](assets/Posting_markieren.png){ class="shadow lightbox" }
 
 ---
 
@@ -115,13 +115,13 @@ Einzelne Forenbeiträge können markiert werden. Klicken Sie dazu in der Detaila
 
 Wenn Sie den Kursbaustein "Forum" ausgewählt haben, finden Sie unter dem Button mit den 3 Punkten die Optionen zum Export der Forenbeiträge als Word-Datei. 
 
-![course_element_forum_export_v1_de.png](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
+![Menü mit den Optionen Personenfilter, Export to Word und Excel report markiert, geöffnet über den Button mit den 3 Punkten im Kursbaustein Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
 
 Mit dem Personenfilter können Sie gezielt Beiträge bestimmter Personen suchen, z.B. auch nur die neusten.
 
-![course_element_forum_export_person_v1_de.png](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
+![Gefilterte Forumsbeiträge einer einzelnen Person nach Anwenden des Personenfilters im Kursbaustein Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
 
-Die hier ebenfalls erstellbare Excel-Datei enthält einen Bericht mit statistischen Daten über die Anzahl der Beiträge, deren Autoren, usw, jedoch ohne die Beiträge selbst. Sie enthält eine Zeile für jeden geschriebenen Forumsbeitrag.
+Die hier ebenfalls erstellbare Excel-Datei enthält einen Bericht mit statistischen Daten über die Anzahl der Beiträge, deren Autor:innen, usw, jedoch ohne die Beiträge selbst. Sie enthält eine Zeile für jeden geschriebenen Forumsbeitrag.
 
 ---
 
@@ -132,9 +132,9 @@ Forumsbeiträge einzelner Diskussionsthemen können auch archiviert werden. Es w
 * Klicken Sie zum Erstellen eines Archivs auf das Diskussionsthema um es zu öffnen. 
 * Über dem angezeigten Diskussionsthema finden Sie dann den Button "Diskussionsthema archivieren".
 
-![course_element_forum_archive1_v1_de.png](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
+![Diskussionsthemen markiert in der Themenübersicht des Forums, zum Öffnen des Archivs anklicken](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
 
-![course_element_forum_archive2_v1_de.png](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
+![Button Diskussionsthema archivieren markiert über einem geöffneten Diskussionsthema im Forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
 
 
 ---
@@ -149,7 +149,7 @@ Eine Benachrichtigung erfolgt nur, wenn ein neuer Beitrag erstellt wurde, nicht 
 
 !!! tip "Tipp"
 
-    Empfehlen Sie den Kursteilnehmenden, alle Foren zu abonnieren, um bei neuen Beiträgen benachrichtigt zu werden.
+    Empfehlen Sie den Teilnehmenden, alle Foren zu abonnieren, um bei neuen Beiträgen benachrichtigt zu werden.
 
 ---
 
@@ -163,11 +163,11 @@ Es gibt verschiedene Darstellungsmöglichkeiten:
 * markiert
 * neu
 
-User können sich alle Beiträge untereinander anzeigen lassen (alle), mit oder ohne Einrückung. Der Startbeitrag erscheint dabei als erster und die weiteren Beiträge werden entsprechend der Diskussionsstruktur angezeigt. Bei umfangreichen Foren mit vielen Beiträgen bietet es sich an, sich über den Button "neu", nur die neuen Beiträge anzeigen zu lassen. 
+Teilnehmende können sich alle Beiträge untereinander anzeigen lassen (alle), mit oder ohne Einrückung. Der Startbeitrag erscheint dabei als erster und die weiteren Beiträge werden entsprechend der Diskussionsstruktur angezeigt. Bei umfangreichen Foren mit vielen Beiträgen bietet es sich an, sich über den Button "neu", nur die neuen Beiträge anzeigen zu lassen. 
 
 Besonders interessant für komplexere Diskussionen ist auch die Ansicht "einer". Hier wird die gesamte Thread-Struktur angezeigt und kann so sehr gut nachvollzogen werden. Hilfreich dabei ist es, dass sich einzelne Parts ein- und ausblenden lassen. Darüber hinaus erkennt man in dieser Darstellung auch rasch neue Forenbeiträge an dem Sternchen.
 
-![Thread Struktur](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" }
+![Verschachtelte Diskussionsstruktur mit markiertem neuen Beitrag als Sternchen und grün hervorgehobenem aktuell angezeigten Beitrag, Ansicht einer im Forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#forum)
 
@@ -190,9 +190,16 @@ c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
+[Rolle Betreuer:in >](../basic_concepts/coach.de.md)<br>
+[Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)<br>
+[Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>
 [Kursbaustein Dateidiskussion >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md)<br>
-[Kursbaustein Blog >](../../manual_user/learningresources/Course_Element_Blog.de.md)<br>
+[Kursbaustein Blog >](../../manual_user/learningresources/Course_Element_Blog.de.md)
+
+**youtube**<br>
+[Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
 
 [Zum Seitenanfang ^](#forum)

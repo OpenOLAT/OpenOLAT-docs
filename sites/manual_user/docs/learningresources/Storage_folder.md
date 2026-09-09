@@ -1,16 +1,16 @@
-# Storage folder
+# Storage folder {: #storage_folder}
 
 The "Storage folder" of a course serves the course creator as a repository for the files used in the course. This includes e.g. all HTML pages, graphics and files used that are made available via the course element "Folder". The files are, so to speak, ready to hand in the background and can be made available at any time via the corresponding course elements.
 
 Course participants have no direct but only indirect access to files of the storage folder. In order to access the files, they must be linked via corresponding [Course Elements](Course_Elements.md). A storage folder is always course specific.
 
-![Course storage folder](assets/Storagefolder_01.png){ class="shadow lightbox" }
+![Storage folder of a course with automatically created subfolders, file list, and functions for uploading, zipping, and WebDAV access](assets/Storagefolder_01.png){ class="shadow lightbox" }
 
-In the storage folder files can be uploaded, deleted, moved, searched for, zipped, un-zipped or created. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the administration, further file formats can be created. For example, if Only Office is used, Word, Excel or PowerPoint files can also be created.
+In the storage folder files can be uploaded, deleted, moved, searched for, zipped, un-zipped or created. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the administration, further file formats can be created. For example, if OnlyOffice is used, Word, Excel or PowerPoint files can also be created.
 
 When uploading a file, the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder.
 
-![File upload](assets/upload_file.png){ class="shadow lightbox" }
+![Dialog for uploading a file to the storage folder with fields for title, file name, description, and license](assets/upload_file.png){ class="shadow lightbox" }
 
 Furthermore, the storage folder can be usefully provided with further subfolders and thus a systematic structuring of course-related files can be implemented.
 
@@ -18,8 +18,8 @@ Furthermore, the storage folder can be usefully provided with further subfolders
 
 In addition to the folders you create yourself, OpenOlat automatically generates special subfolders in the storage folder, depending on the course configuration:
 
-* **_courseelementdata**: Generated as soon as the course contains at least one [course element "Folder"](../learningresources/Knowledge_Transfer.md#folder). This subfolder contains all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Elements.md)" of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited in the storage folder as well.
-* **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/index.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing via the storage folder, deactivate the option "read only" for the selected resource folder in the course options.
+* **_courseelementdata**: Generated as soon as the course contains at least one [course element "Folder"](../learningresources/Knowledge_Transfer.md#folder). This subfolder contains all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Element_Participant_Folder.md)" of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited in the storage folder as well.
+* **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/Resource_Folder.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing via the storage folder, deactivate the option "read only" for the selected resource folder in the course options.
 * **_documents**: Generated when the course tool "[Documents](../learningresources/Toolbar.md#documents)" is enabled. It contains the files that teachers provide for central download via the "Documents" tool.
 
 ### Link course element "Single page" to storage folder
@@ -27,3 +27,15 @@ In addition to the folders you create yourself, OpenOlat automatically generates
 Single web specific pages (e.g. html, pdf), which are stored in the storage folder, can be made visible in the course with the course element "Single page".Additionally, the checkbox "Allow links in the entire storage folder" can be selected. Thus it becomes possible to link html-files, which can be found in the storage folder, directly. This is helpful to show linked charts of a html-page or other linked files.
 
 As soon as the checkbox is activated, the path for other files of the storage folder is visible. Thus it becomes possible, to call up files, which are determined in the storage folder but aren't published in the course itself.
+
+## Further information {: #further_information}
+
+[Types of Course Elements >](Course_Elements.md)<br>
+[Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
+[Knowledge Transfer >](Knowledge_Transfer.md)<br>
+[Course Element "Folder" >](Course_Element_Folder.md)<br>
+[Course Element "Participant folder" >](Course_Element_Participant_Folder.md)<br>
+[Resource folder >](Resource_Folder.md)<br>
+[Toolbar: Overview >](Toolbar.md)
+
+[To the top of the page ^](#storage_folder)

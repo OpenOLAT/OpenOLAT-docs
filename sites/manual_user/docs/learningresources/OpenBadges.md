@@ -157,20 +157,20 @@ As soon as you have decided to create a new badge (click on the "Create new badg
 
 
 1. **Image**: The first step is to select a template or upload your own image. SVG and PNG are currently supported.
-![Image step in the badge wizard: selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own badge.](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
+![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image: image step in the badge wizard](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
 
 2. **Customization**: If the template was created with variables, you can change e.g. the background color and the title of the template. This step only appears for customizable templates.
-![Customization step in the badge wizard: for the selected template, the background color bronze and the title are set, the preview shows the finished badge.](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
+![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge: customization step in the badge wizard](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
 
 3. **Details**: Mandatory details are the name, version and description of the badge, as well as the issuer. You can additionally add an issuer URL and an issuer email. The expiration can be set to "Never" or defined with a validity period, e.g. 12 months.
-![Details step in the badge wizard with the mandatory fields name, version, description and issuer as well as issuer URL, issuer email and the expiration with validity period.](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
-   
+![Mandatory fields name, version, description and issuer, plus issuer URL, issuer email and expiration with validity period: details step in the badge wizard](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
+
 4. **Award criteria**: Fill in the criteria description and choose the award procedure: automatic awarding based on the selected criteria, or manual awarding only via the assessment tool. The available criteria are described under [Course badges assigned automatically](#award_criteria).
-![Award criteria step in the badge wizard: criteria description, award procedure automatic or manual only via the assessment tool, and the selected rule course is passed.](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
-   
+![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed: award criteria step in the badge wizard](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
+
 5. **Summary**: Summary screen of all the details.
-![Summary step in the badge wizard: badge preview with name, version, description and the award rule, when the course is passed, then the badge is awarded.](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
-   
+![Badge preview with name, version, description and the award rule, when the course is passed the badge is awarded: summary step in the badge wizard](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
+
 6. **Recipients**: Shows in a preview which participants receive the badge based on the criteria immediately after "Finish". For manual awarding, you select the recipients here.
 
 !!! note "Note"
@@ -228,6 +228,8 @@ LinkedIn allows you to display certificates and badges in your personal profile.
 
 Administrators can upload a badge file, and OpenOlat will then verify whether it is a validly issued badge.
 
+In addition to host-based verification, badges can also be digitally signed. A digitally signed badge shows a "Verified" label in the badge view. [:octicons-tag-16:{ title="from Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
+
 See [Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.md#verification)<br>
 
 [To the top of the page ^](#badges)
@@ -235,13 +237,11 @@ See [Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.
 ---
 
 
-## Further information  {: #further_information}
+## Further information {: #further_information}
 
+[e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
-[Global Badges >](../../manual_admin/administration/e-Assessment_openBadges.md#global_badges)<br>
-[OpenBadges administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
-[The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)<br>
-[Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.md#verification)<br>
+[The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)
 
 [To the top of the page ^](#badges)
 

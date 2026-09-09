@@ -1,11 +1,11 @@
 # Datenerhebungsvorschau {: #Data_Collection_Preview}
 
-:octicons-tag-24: Release 18.2
+[:octicons-tag-16:{ title="ab Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399)
 
 
 ## Was ist eine Datenerhebungsvorschau?
 
-In OpenOlat kann ein **Modul "Qualitätssicherung"** eingebunden werden. Damit können kursübergreifend Umfragen (basierend auf Formularen) erstellt und ausgewertet werden. Beispielsweise könnte ein Kursbaustein "Umfrage" zu Beginn des Kurses und ein weiterer Kursbaustein "Umfrage" am Ende des Kurses eingebaut sein.
+In OpenOlat kann ein **Modul "Qualitätsmanagement"** eingebunden werden. Damit können kursübergreifend Umfragen (basierend auf Formularen) erstellt und ausgewertet werden. Beispielsweise könnte ein Kursbaustein "Umfrage" zu Beginn des Kurses und ein weiterer Kursbaustein "Umfrage" am Ende des Kurses eingebaut sein.
 
 Für die **Erstellung und Auswertung** solcher Umfragen ist eine Person mit der **Rolle "Qualitätsmanager:in"** vorgesehen. Sie sieht dann kursübergreifend auch alle Ergebnisse der Umfragen.
 
@@ -13,12 +13,12 @@ Wurde in einen Kurs ein Kursbaustein eingefügt, mit dem die Qualität erfasst w
 
 Mit der Datenerhebungsvorschau wird den **Kursbesitzer:innen** angezeigt, welche Erhebungen geplant sind.
 
-![data_collection_preview_menu_v1_de.png](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt "Datenerhebungsvorschau" markiert im Kursmenü "Administration"](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
 
-![data_collection_preview_v1_de.png](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
+![Zeitspannen-Tabs 1 Monat, 3 Monate und Individuell sowie Tabs Alle und Negativliste, Seite Datenerhebungsvorschau](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
-      
+!!! info "Wichtig"
+
     Kursbesitzer:innen haben hier nur Leserecht. Die Planung, wann Daten erhoben werden, ist den Qualitätsmanager:innen vorbehalten.
 
 **Negativliste:**<br>
@@ -27,9 +27,21 @@ Wurde eine Datenerhebung vorbereitet, bezieht sie sich in aller Regel auf mehrer
 
 ## Aktivierung
 
-Damit Datenerhebungen zur Qualitätssicherung durchgeführt werden können, muss das Modul "Qualitätssicherung" von einem/einer Administrator:in eingebunden worden sein.
+Damit Datenerhebungen zur Qualitätssicherung durchgeführt werden können, muss das Modul "Qualitätsmanagement" von einem/einer Administrator:in eingebunden worden sein.
 
-Innerhalb der Konfiguration des Moduls muss dann die Option "Datenerhebungsvorschau" aktiviert worden sein. Erst dann erscheint für Kursautor:innen die Option im Kursmenü "Administration".
+Innerhalb der Konfiguration des Moduls unter `Administration > Module > Qualitätsmanagement` muss dann die Option "Datenerhebungsvorschau" aktiviert werden. Erst dann erscheint für Kursbesitzer:innen und Betreuer:innen die Option im Kursmenü "Administration".
 
-Siehe [Administrationshandbuch](../../manual_admin/administration/Modules_Quality_Management.de.md).
+Siehe [Modul Qualitätsmanagement](../../manual_admin/administration/Modules_Quality_Management.de.md).
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Modul Qualitätsmanagement >](../../manual_admin/administration/Modules_Quality_Management.de.md)
+
+**Weiterführend**<br>
+[Qualitätsmanagement: Datenerhebungsvorschau >](../area_modules/Quality_Management_Data_Collection_Preview.de.md)<br>
+[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
+[Qualitätsmanagement: Datenerhebung >](../area_modules/Quality_Management_Data_Collections.de.md)
+
+[Zum Seitenanfang ^](#Data_Collection_Preview)
 

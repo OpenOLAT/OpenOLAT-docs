@@ -1,4 +1,4 @@
-# Kursbaustein "GoToMeeting"
+# Kursbaustein "GoToMeeting" {: #gotomeeting}
 
 
 ## Steckbrief
@@ -14,10 +14,10 @@ Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kurs
 
 
  ## Tool Spezifisches {: #tool_specific}
-  
+
 !!! note "Link zu weiteren Infos"
 
-    Tool Webseite: <https://www.gotomeeting.com>  
+    Tool Webseite: <https://www.goto.com/meeting>
 
 ## Konfiguration im Kurseditor {: #editor_config}
 
@@ -27,7 +27,20 @@ Kein spezifischer Tab
 
 Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden.
 
-![gotomeeting_erstellen](assets/goto_meeting_erstellen.png)
+![Dialog Neue Schulung erstellen mit Feldern für Name, Beschreibung sowie Start- und Endzeit](assets/goto_meeting_erstellen.png){ class="shadow lightbox" }
 
-!!! info "Im Bereich *Schulungen* erhält man Zugang zum Meeting Raum."
+!!! info "Zugang zum Meeting-Raum"
 
+    Im Bereich "Schulungen" erhält man Zugang zum Meeting-Raum.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[GoToMeeting (Anbieter-Website)](https://www.goto.com/meeting)
+
+**Weiterführend**<br>
+[Kommunikation und Kollaboration](Communication_and_Collaboration.de.md)<br>
+[Kursbaustein "Adobe Connect"](Course_Element_Adobe_Connect.de.md)<br>
+[Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+
+[Zum Seitenanfang ^](#gotomeeting)

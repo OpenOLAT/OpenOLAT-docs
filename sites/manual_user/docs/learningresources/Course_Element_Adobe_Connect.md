@@ -1,12 +1,12 @@
-# Course Element "Adobe Connect"
+# Course Element "Adobe Connect" {: #adobe_connect}
 
 ## Profile
 
 Name | Adobe Connect
 ---------|----------
 Icon | :o_icon_o_vc_icon:
-Available since | 
-Functional group | Communication und collaboration
+Available since | Release 14.0 (OO-3888)
+Functional group | Communication and collaboration
 Purpose | Integration of the Adobe Connect web conferencing software 
 Assessable | no
 Specialty / Note | Adobe Connect is commercial software. To use the course element, a separate license and server hosting is required.
@@ -19,17 +19,17 @@ By default, course owners and coaches are Adobe Connect administrators and parti
 
 In the Connect room, various elements (pods) are available, which can be combined with each other and organized in "layouts". For example, presentation files can be uploaded and an event recording can be activated. Both the uploaded presentation files and the recordings are visible in OpenOlat for course owners and coaches and can be made available to course participants in full or in part.
 
-![connect_meeting_editor.png](assets/AC_Files_EN.png)  
-  
+![Meeting view with recording and presentation files, Share files button](assets/AC_Files_EN.png){ class="shadow lightbox" }
+
 ## Configuration in the course editor
- 
-Here, the configuration tab is available for further settings.  
+
+Here, the configuration tab is available for further settings.
 
 ## Configuration in the course run (closed editor)
 
 After the course element has been added, a meeting room must be created in the tab "Configuration" via the button "Add Meeting". Then the following dialog appears:
 
-![connect_add_meeting.png](assets/AC_Anlegen_EN.png)
+![Input fields for template, time-binding and lead/follow-up time in the Add meeting dialog](assets/AC_Anlegen_EN.png){ class="shadow lightbox" }
 
 Under the entered title the room is displayed in the meeting area. The description becomes visible after you have selected the room.
 
@@ -37,17 +37,29 @@ If available, you can use a template provided by the hosting server or "No templ
 
 Irrespective of the room configuration, access to the course element of the virtual classroom can also be configured like all other course elements via the Visibility and Access tabs in the course editor.
 
-A built-in Adobe Connect course element can contain multiple differently configured meeting rooms. Depending on the configuration in the OpenOlat Administration, all meetings set up run in the same or different Adobe Connect rooms.
+A built-in Adobe Connect course element can contain multiple differently configured meeting rooms. Depending on the configuration under `Administration > External Tools > Adobe Connect`, all meetings set up run in the same or different Adobe Connect rooms.
 
 In the "Meetings" tab, the overview of the virtual rooms set up is displayed in the same way as they are visible to participants. Scheduled meetings are marked accordingly.
 
-![connect_overview.png](assets/AC_overview_EN.png)
+![Upcoming and old meetings lists with schedule details and Select button, Meetings tab](assets/AC_overview_EN.png){ class="shadow lightbox" }
 
-"Select" takes you to the corresponding virtual classroom. At the first call you have to "register" for the meeting and afterwards you have the possibility to join the meeting via another dialog window. With "Join Meeting" you enter the virtual classroom and all room specific tools are available.  
-  
- !!! note "Link to further information"
+"Select" takes you to the corresponding virtual classroom. At the first call you have to "register" for the meeting and afterwards you have the possibility to join the meeting via another dialog window. With "Join the meeting" you enter the virtual classroom and all room specific tools are available.
+
+!!! note "Link to further information"
 
     Adobe Connect Provider Website: <https://www.adobe.com/de/products/adobeconnect.html>
 
-    Since many universities in Germany use the [DFN server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect) for Adobe Connect, the corresponding information can also be interesting.  
-  
+    Since many universities in Germany use the [DFN server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect) for Adobe Connect, the corresponding information can also be interesting.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Adobe Connect (provider website)](https://www.adobe.com/de/products/adobeconnect.html)<br>
+[DFN server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect)
+
+**Further reading**<br>
+[Communication and Collaboration](Communication_and_Collaboration.md)<br>
+[Course Element "GoToMeeting"](Course_Element_GoToMeeting.md)<br>
+[External Tools: Overview](../../manual_admin/administration/External_Tools_-_Administration.md)
+
+[To the top of the page ^](#adobe_connect)

@@ -4,13 +4,13 @@ Dieses Kapitel erklärt Kursautoren, wie CP-Lerninhalte erstellt werden können.
 
 CP steht für "Content-Packaging" und ist ein E-Learning-Standard für Lerninhalte. Ein Content-Packaging ist ein in sich abgeschlossener Lerninhalt in einem standardisierten E-Learning-Format, beispielsweise ein Online-Modul zu Ihrem Fachgebiet. Wenn Sie Ihren Lerninhalt als CP aufbereiten, können Sie ihn nicht nur in OpenOlat, sondern auch in anderen Lernplattformen verwenden, welche das CP-Format unterstützen.
 
-CPs werden können sowohl integriert in einen OLAT-Kurs oder separat verwendet werden. In der Regel werden CPs in einen Kurs eingebunden. Dabei kann ein und dasselbe CP in mehreren Kursen verwendet werden. Beispielsweise können Sie ein einführendes Modul nicht nur in der Veranstaltung für Studienanfänger, sondern auch als Grundlage für weiterführende Kurse verwenden. Weiterführende Inhalte stehen im Kapitel ["Kurs erstellen"](../learningresources/Creating_Course.de.md)
+CPs können sowohl in einen Kurs integriert als auch separat verwendet werden. In der Regel werden CPs in einen Kurs eingebunden. Dabei kann ein und dasselbe CP in mehreren Kursen verwendet werden. Beispielsweise können Sie ein einführendes Modul nicht nur in der Veranstaltung für Studienanfänger, sondern auch als Grundlage für weiterführende Kurse verwenden. Weiterführende Inhalte stehen im Kapitel ["Kurs erstellen"](../learningresources/Creating_Course.de.md).
 
 Für die Erstellung umfangreicher CP-Lerninhalte empfehlen wir z.B. den Einsatz von [eLML (EN Webseite)](http://www.elml.org/website/en/html/index.html "eLML.org").
 
 # CP Editor
 
-Mit diesem Werkzeug können Sie Lerninhalte einfach erstellen und editieren. Die Inhalte können direkt im Editor erfasst werden und es besteht die Möglichkeit, beliebige Dateien zu integrieren. Die Lerninhalte werden als IMS Content Packages (IMS CP) abgespeichert. IMS Content Packaging ist ein einfacher Standard, um web-basierte Lerninhalte auf verschiedenen Systemen zu verwenden. Lernmodule, die Sie mit diesem Editor erstellen, können auch in anderen E-Learning Systemen verwendet werden. Weitere Informationen zu IMS CP finden Sie unter der folgenden Adresse:
+Mit diesem Werkzeug können Sie Lerninhalte einfach erstellen und editieren. Die Inhalte können direkt im Editor erfasst werden und es besteht die Möglichkeit, beliebige Dateien zu integrieren. Die Lerninhalte werden als IMS Content Packages (IMS CP) abgespeichert. IMS Content Packaging ist ein einfacher Standard, um web-basierte Lerninhalte auf verschiedenen Systemen zu verwenden. Lernmodule, die Sie mit diesem Editor erstellen, können auch in anderen E-Learning Systemen verwendet werden. Weitere Informationen zu IMS CP finden Sie unter der folgenden Adresse:<br>
 [http://www.imsglobal.org/content/packaging/](http://www.imsglobal.org/content/packaging/)
 
 Der Editor verfügt über eine Titelleiste, einen Strukturbereich auf der linken Seite und ein Inhaltsfeld im zentralen Bereich. In der Titelleiste können Sie mit den Symbolen auf der linken Seite die folgenden Funktionen durchführen:
@@ -57,3 +57,11 @@ Wählen Sie die Seite aus, deren Inhalt Sie editieren wollen. Der Inhalt der Sei
 ## Vorschau
 
 Mit der Symbolschaltfläche "Vorschau" der Titelleiste können Sie jederzeit den aktuellen Stand Ihres Lernmodules überprüfen.
+
+## Weiterführende Informationen {: #further_information}
+
+[Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
+[eLML (EN Webseite) >](http://www.elml.org/website/en/html/index.html "eLML.org")<br>
+[IMS Content Packaging >](http://www.imsglobal.org/content/packaging/)
+
+[Zum Seitenanfang ^](#cp-lerninhalt-erstellen)

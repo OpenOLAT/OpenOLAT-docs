@@ -2,9 +2,9 @@
 
 A shared folder can be set up for coaches to store files. Only coaches and course owners can access this folder.
 
-![course_coach_files_v1_de.png](assets/course_coach_files_v1_de.png){ class="shadow lightbox" }
+![Administration menu of a course with the entry "Coach files" highlighted, used to open the coach folder](assets/course_coach_files_v1_de.png){ class="shadow lightbox" }
 
-In order for the menu option to appear in the course under "Administration", the option "Documents for coaches folder" must first be activated in the course under **"Administration" > "Settings" > "Options"** tab.
+In order for the menu option to appear in the course under "Administration", the option "Documents for coaches folder" must first be activated under `Course > Administration > Settings > Tab "Options"`.
 
 An existing folder of the [Storage folder](Storage_folder.md) of the course can be selected as the storage location in the Options tab or a new folder can be generated specifically for the coaches in the storage folder. 
 

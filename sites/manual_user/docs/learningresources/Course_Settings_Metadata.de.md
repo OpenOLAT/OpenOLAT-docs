@@ -3,7 +3,7 @@
 
 Im Reiter "Metadaten" nehmen Sie weitere Einstellungen für die Infoseite vor.
 
-![course_settings_tab_metadata1_v1_de.png](assets/course_settings_tab_metadata1_v1_de.png){ class="shadow lightbox" }
+![Formular Tab Metadaten mit Feldern Typ, Id, Erstellt durch, Autor:innen, Fachbereiche, Durchführungsformat, Hauptsprache, Zeitaufwand und Lizenz in den Kurseinstellungen](assets/course_settings_tab_metadata1_v1_de.png){ class="shadow lightbox" }
 
 **Autor:innen/Durchführung mit**: Hier können die zuständigen Ansprechpartner oder Lehrenden eingetragen werden. Sie müssen nicht mit dem Ersteller der Lernressource übereinstimmen. Das Feld ist ein reines Textfeld, der Inhalt wird lediglich auf der Kursübersichtsseite angezeigt.
 
@@ -33,7 +33,7 @@ Typische Lizenzen sind
 
 In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der Spalte "Lizenz" angezeigt. Mit Klick auf die Lizenz erhalten Sie dazu detaillierte Informationen.
 
-![Lizenzen im Autorenbereich](assets/Autorenbereich_Lizenz.png)
+![Callout mit Lizenz und Lizenztext nach Klick auf den Lizenznamen in der Spalte Lizenz der Kursliste im Autorenbereich](assets/Autorenbereich_Lizenz.png){ class="shadow lightbox" }
 
 Was sich genau hinter welcher Lizenz verbirgt können Sie [hier](https://creativecommons.org/licenses/?lang=de)nachlesen. Ergänzend zur Lizenz kann auch der **Lizenzgeber** eingetragen werden.
 
@@ -43,7 +43,7 @@ Was sich genau hinter welcher Lizenz verbirgt können Sie [hier](https://creativ
 
 ---
 
-## Weiterführende Informationen  {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Weitere Details zur Taxonomie > ](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Weitere Details zur Infoseite > ](../learningresources/Info_page.de.md)<br>

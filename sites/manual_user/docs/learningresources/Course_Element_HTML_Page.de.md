@@ -1,4 +1,4 @@
-# Kursbaustein "HTML-Seite"
+# Kursbaustein "HTML-Seite" {: #html_page}
 
 ## Steckbrief
 
@@ -19,24 +19,24 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
 ## Beispiel {: #example}
 
 === "Ansicht im Kurs"
-    
+
     Eine HTML-Seite kann vor allem mit Bildern, Texten, Tabellen und Videos gestaltet werden. Fortgeschrittene Autor:innen können aber auch HTML-Elemente wie Accordion einfügen.
 
-    ![course_element_html_page_run_view_v1_de.png](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![HTML-Seite mit Bild und Fliesstext, dargestellt in der Kursansicht](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
 
 === "Bearbeitung im Editor"
 
     Die Zusammenstellung der Inhalte funktioniert ähnlich wie in einem Textverarbeitungsprogramm. Zur Bearbeitung der HTML-Dateien direkt in OpenOlat wird der Tiny-Editor verwendet.
 
-    (Hinweis: Im Kursbaustein "Seite" wird dagegen der Content Editor verwendet, in dem die Inhalte als Blöcke zusammengestellt werden. => Verbesserte Dartstellung auf Mobiles)
-    
-    ![course_element_html_page_editor_view2_v1_de.png](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+    (Hinweis: Im Kursbaustein "Seite" wird dagegen der Content Editor verwendet, in dem die Inhalte als Blöcke zusammengestellt werden. => Verbesserte Darstellung auf Mobiles)
+
+    ![Text und Bild im Tiny-Editor bearbeitet, im Bearbeitungsdialog des Kursbausteins HTML-Seite](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
 
 === "HTML-Quellcode"
 
     Für Autor:innen mit HTML-Kenntnissen besteht auch die Möglichkeit, direkt den erzeugten HTML-Quellcode einzusehen und zu bearbeiten.
 
-    ![course_element_html_page_sourcecode_view_v1_de.png](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+    ![HTML-Quelltext einer Seite mit Absätzen und eingebettetem Bild, im Quelltext-Dialog des Editors](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -48,7 +48,7 @@ Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor, indem Sie e
   * Eine beliebige HTML-Datei aus dem Ablageordner wählen
   * Eine extern erstellte HTML-Datei in den Ablageordner hochladen und mit dem Kursbaustein verknüpfen
 
-![course_element_html_page_tab_pagecontent_v1_de.png](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
+![HTML-Datei, Sicherheitseinstellungen und Button Seite bearbeiten im Tab Seiteninhalt](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
 
 Für die **weitere Bearbeitung** von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
@@ -56,13 +56,13 @@ Für die **weitere Bearbeitung** von HTML-Seiten können Sie den OpenOlat Editor
 
 Unter "**Sicherheitseinstellungen**" können Sie festlegen, ob Verweise in Ihren HTML-Seiten nur auf Dateien des gleichen Ordners und auf darin enthaltene Unterordner möglich sind, oder ob alle Dateien des Ablageordners referenziert werden können. Dies ist beispielsweise notwendig, wenn Ihre HTML-Seite Grafiken, CSS-Dateien oder Skripte enthält, die sich in anderen Ordnern befinden.
 
-Ferner können Sie definieren, **ob Betreuer die hinterlegte HTML-Datei bearbeiten dürfen**. Die Betreuer benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor.
+Ferner können Sie definieren, **ob Betreuer:innen die hinterlegte HTML-Datei bearbeiten dürfen**. Betreuer:innen benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor.
 
 ## Tab Anzeige Inhalt {: #layout}
 
 Im Tab "**Anzeige Inhalt**" definieren Sie die Einstellungen für die Anzeige des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
-![course_element_html_page_tab_displaycontent_v1_de.png](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
+![Anzeigemodus, JavaScript, Glossarbegriffe und Zeichensatz im Tab Anzeige Inhalt](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
 
 Folgende Einstellungen können für den Kursbaustein "HTML-Seite" vorgenommen werden.
 
@@ -106,19 +106,19 @@ Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensa
 
 An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der **HTML-Editor Tiny MCE** eingebunden.
 
-![course_element_html_page_editor_v1_en.png](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
+![Tiny-Editor mit Menüs Einfügen und Format hervorgehoben, beim Bearbeiten einer HTML-Seite](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
 
 Dieser extern entwickelte Editor ist ebenfalls Open Source. Weitere Informationen finden Sie auf der Website: [https://www.tiny.cloud](https://www.tiny.cloud)
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Der Tiny-Editor kann von OpenOlat mit Voreinstellungen aufgerufen werden. Die **verfügbaren Bearbeitungsmöglichkeiten** (angebotene Buttons im Editor) können so den Verwendungssituationen angepasst werden.
-    
-    **Beispiel:**<br> 
+
+    **Beispiel:**<br>
     In einer HTML-Seite für einen Kursbaustein ist es eine Bereicherung, dass beim Aufruf des HTML-Editors die Option zum Aufzeichnen eines Videos angeboten wird. Es gibt andere Stellen, an denen der HTML-Editor verwendet wird, bei denen ein Video-Recording nicht sinnvoll und erwünscht ist. Dort wird die Option zum Video-Recording nicht angezeigt, wenn der Editor geöffnet wird.
 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Es können aus Sicherheitsgründen nicht sämtliche Möglichkeiten von HTML zur Verfügung gestellt werden. Dies betrifft insbesondere integriertes Javascript.
 
@@ -142,22 +142,22 @@ Dazu gehören z.B.
 
 ### Video
 
-![course_element_html_page_editor_menu_v1_de.png](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
+![Video-Symbol in der Werkzeugleiste des HTML-Editors markiert](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
 
-Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.  
+Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.
 
-1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.  
-2. Der Player erkennt, ob ein Benutzer mit einem HTML-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreift. In diesem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.
+1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.<br>
+2. Der Player erkennt, ob Teilnehmende mit einem HTML-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreifen. In diesem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Hier in HTML eingebundene Videos werden einfach abgespielt. Es handelt sich nicht um OpenOlat Video-Lernressourcen. (Sie sind also ohne Annotationen, Quiz, usw.)
-    
+
     Sollen Video-Lernressourcen verwendet werden, gibt es dafür einen eigenen Kursbaustein "Video".
 
 Es können Video-Dateien hochgeladen (und in OpenOlat gespeichert) werden oder Links auf externe Videos (z.B. Youtube) gesetzt werden.  
 
-Im Kurbaustein eingefügte Video-Dateien können bei Bedarf später auch wieder ausgetauscht werden.
+Im Kursbaustein eingefügte Video-Dateien können bei Bedarf später auch wieder ausgetauscht werden.
 
 Detaillierte Information zum Einbinden von Videos finden Sie hier: ["Videos in HTML-Seiten"](../basic_concepts/Video_in_HTML_Pages.de.md).
 
@@ -201,7 +201,7 @@ Es können Links ins Internet und innerhalb OpenOlat (bestimmte Kursbausteine, a
 Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) zeigen.<br>
 Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster angezeigt werden soll.
 
-![course_element_html_page_editor_links_v1_de.png](assets/course_element_html_page_editor_links_v1_de.png){ class="shadow lightbox" }
+![Vier Linkarten wählbar: Dateiverlinkung, Kursknotenverlinkung, Kurswerkzeugverlinkung, Bibliothek](assets/course_element_html_page_editor_links_v1_de.png){ class="shadow lightbox" }
 
 ### PDF-Dokumente
 
@@ -209,7 +209,7 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 
     Prinzipiell ist auch die Anzeige von pdf- und Office-Dokumenten in einer HTML-Seite möglich.
     Sollen ausschliesslich Office-Dokumente eingebunden werden, empfehlen wir, die Kursbausteine ["Dokument"](Course_Element_Document.de.md) oder ["Ordner"](Course_Element_Folder.de.md) zu verwenden.
-    
+
 ### Extern erstellte HTML-Seiten hochladen
 
 !!! tip "Tipp"
@@ -241,7 +241,25 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 
 
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Der Kursbaustein HTML-Seite kann von Kurs-Besitzer:innen oder optional auch von Betreuenden bearbeitet werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[tiny.cloud](https://www.tiny.cloud)<br>
+[Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
+[Video aufnehmen >](../basic_concepts/Video_Recording.de.md)<br>
+[Audio aufnehmen >](../learningresources/Audio_Recording.de.md)<br>
+[Kursbaustein "Dokument" >](Course_Element_Document.de.md)<br>
+[Kursbaustein "Ordner" >](Course_Element_Folder.de.md)
+
+**Weiterführend**<br>
+[Kursbaustein "Seite" >](Course_Element_Page.de.md)<br>
+[Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)
+
+[Zum Seitenanfang ^](#html_page)
 

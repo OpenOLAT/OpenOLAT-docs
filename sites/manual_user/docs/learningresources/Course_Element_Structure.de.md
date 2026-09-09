@@ -18,7 +18,7 @@ Der Kursbaustein Struktur bietet u.a. eine automatische Übersicht über alle ih
 
 Die Einstellungen des Kursbausteins nehmen Besitzer:innen des Kurses im Kurseditor vor: `Kurs > Administration > Kurseditor`. Betreuer:innen erreichen den Kurseditor nur, wenn ihnen im Kurs das Recht "Kurseditor" erteilt wurde.
 
-![Leistungsübersicht mit erreichten Punkten und Link zum Leistungsnachweis, darunter die Inhaltsübersicht mit Status je untergeordnetem Kursbaustein. Automatische Übersicht eines Strukturbausteins im Lernpfad-Kurs, Ansicht der Teilnehmenden.](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" }
+![Leistungsübersicht mit erreichten Punkten und Link zum Leistungsnachweis, darunter Status je Kursbaustein. Automatische Übersicht des Strukturbausteins im Lernpfad-Kurs, Teilnehmendenansicht.](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" }
 
 ### Das gewählte Kursformat
 
@@ -32,11 +32,11 @@ Die Einstellungen des Kursbausteins nehmen Besitzer:innen des Kurses im Kursedit
 
 **Tabs in herkömmlichen Kursen**
 
-![Sieben Tabs stehen zur Verfügung: Titel und Beschreibung, Layout, Sichtbarkeit, Zugang, Übersicht, Punkte und HighScore. Tab-Leiste des Kursbausteins Struktur im Kurseditor eines herkömmlichen Kurses.](assets/Struktur_Tabs_herkoemmlich_de.png){ class="shadow lightbox" }
+![Sieben Tabs am Strukturbaustein im herkömmlichen Kurs: Titel und Beschreibung, Layout, Sichtbarkeit, Zugang, Übersicht, Punkte, HighScore.](assets/Struktur_Tabs_herkoemmlich_de.png){ class="shadow lightbox" }
 
 Einen weiteren Sonderfall stellt der oberste Eintrag im Kurseditor dar: der Kurshauptknoten. Auch er ist ein Strukturbaustein, obwohl man es ihm nicht ansieht: Er trägt das Symbol des Kurses :o_icon_o_CourseModule_icon: und nicht das Symbol des Strukturbausteins :o_icon_o_st_icon:. Er hat deshalb dieselben Tabs wie jeder andere Strukturbaustein, aber er trägt als einziger den Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)". Zudem sind Löschen und Verschieben beim Kurshauptknoten **nicht** möglich.
 
-![Der oberste Eintrag der Kursstruktur trägt das Symbol des Kurses, die untergeordneten Strukturbausteine tragen das Symbol des Strukturbausteins. Kurshauptknoten im Kurseditor eines Lernpfad-Kurses, Tab "Erinnerungen" geöffnet.](assets/Struktur_Kurshauptknoten_de.png){ class="shadow lightbox" }
+![Tab "Erinnerungen" nur am Kurshauptknoten vorhanden, hier mit der Erinnerungsliste geöffnet. Kurseditor eines Lernpfad-Kurses.](assets/Struktur_Kurshauptknoten_de.png){ class="shadow lightbox" }
 
 Im Kurseditor erscheinen die Tabs des Strukturbausteins in dieser Reihenfolge:
 
@@ -112,7 +112,7 @@ Wenn Sie _«Von Bausteinen übernehmen»_ wählen, zeigt OpenOlat unter **Releva
 
 **Nicht bestanden** berechnen: Es ist auch möglich gezielt ein "nicht bestanden" zu berechnen.
 
-![Die Auswahlliste bietet zwei Varianten: nicht bestanden, solange bis Bestanden erreicht ist, oder nicht bestanden erst nach dem Enddatum des Kurses. Einstellung "Nicht bestanden berechnen?" im Tab Punkte des Strukturbausteins.](assets/nicht_bestanden_berechnen.png){ class="shadow lightbox" }
+![Zwei Varianten für "Nicht bestanden": bis Bestanden erreicht ist, oder erst nach Kursende. Auswahlliste im Tab Punkte des Strukturbausteins.](assets/nicht_bestanden_berechnen.png){ class="shadow lightbox" }
 
   * Nicht bestanden wird solange angezeigt bis die Anforderungen, die für das Bestehen definiert wurden, erfüllt sind.
   * Nicht bestanden wird erst dann angezeigt, wenn die Anforderungen an das Bestehen nicht erfüllt sind _und_ das Enddatum des Kurses erreicht ist. Wurden schon vor Kursende die Bedingungen für "bestanden" erfüllt, wird bestanden schon während der Kurslaufzeit angezeigt.
@@ -121,7 +121,7 @@ Sollen für einen Kurs Leistungsnachweise ausgestellt werden, ist es notwendig d
 
 Für Teilnehmende zeigt sich die Leistungsübersicht wie folgt:
 
-![Leistungsübersicht mit Erfolgsstatus "Bestanden", erreichten Punkten und Link zum Leistungsnachweis. Ansicht des Strukturbausteins im laufenden herkömmlichen Kurs, links das Kursmenü mit den untergeordneten Kursbausteinen.](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" }
+![Leistungsübersicht mit Erfolgsstatus "Bestanden", Punkten und Link zum Leistungsnachweis. Strukturbaustein im laufenden herkömmlichen Kurs, mit Kursmenü.](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 
@@ -159,3 +159,18 @@ Der Kursbaustein "Struktur" und damit seine untergeordneten Kursbausteine könne
 !!! warning "Achtung"
 
     Auf dem Kurshauptknoten kann im Tab "Zugang" _kein_ Passwort hinterlegt werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
+[Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)
+
+**Weiterführend**<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)
+
+[Zum Seitenanfang ^](#course_element_structure)

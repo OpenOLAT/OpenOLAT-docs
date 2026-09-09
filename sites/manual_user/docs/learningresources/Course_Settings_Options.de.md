@@ -1,6 +1,6 @@
 # Kurseinstellungen - Tab Optionen {: #course_settings_options}
 
-Unter **Administration > Einstellungen > Optionen** können Sie
+Unter `Kurs > Administration > Einstellungen > Optionen` können Sie
 
 * ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) 
 * einen [Ressourcenordner](../learningresources/index.de.md) 
@@ -8,27 +8,27 @@ Unter **Administration > Einstellungen > Optionen** können Sie
 
 einrichten, sowie (mit entsprechender Berechtigung) ein paar spezielle Konfigurationen aktivieren. 
 
-![course_settings_options_v1_de.png](assets/course_settings_options_v1_de.png){ class="shadow lightbox" }
+![Tab Optionen der Kurseinstellungen mit Glossar- und Ressourcenordner-Auswahl, Einstellungen für den Betreuer:innen-Ordner und Konfigurationsoptionen für administrative Rollen](assets/course_settings_options_v1_de.png){ class="shadow lightbox" }
 
 
 ## Glossar einbinden
 
 Sie können hier entweder eine Verbindung zu einem bereits erstellten Glossar herstellen oder im erscheinenden Menü ein neues Glossar erstellen.  Sobald ein Glossar gewählt wurde, kann es auch im Tab "Toolbar" aktiviert werden.
 
-[Zum Seitenanfang ^](#course_settings)
+[Zum Seitenanfang ^](#course_settings_options)
 
 
 ## Ressourcenordner einbinden
 
-Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressource "Ressourcenordner" herstellen oder im erscheinenden Menü einen neuen Ressourcenordner erstellen. Die Dateien des Ressourcenordners erscheinen anschließend im Ablageordner des Kurses im automatisch erstellten Unterordner "_sharedfolder“.
+Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressource "Ressourcenordner" herstellen oder im erscheinenden Menü einen neuen Ressourcenordner erstellen. Die Dateien des Ressourcenordners erscheinen anschliessend im Ablageordner des Kurses im automatisch erstellten Unterordner "_sharedfolder".
 
 Standardmässig sind die Dateien des Ressourcenordners im Kurs schreibgeschützt und eine Bearbeitung nur direkt in der Lernressource, nicht aber im Ablageordner des Kurses oder bei der Einbindung über Einzelseiten im Kurseditor möglich. Soll eine Bearbeitung aber auch im Kurs möglich sein, muss in den Optionen der Kurseinstellungen der Haken bei "Schreibgeschützt" entfernt werden.
 
-Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../manual_how-to/multiple_use/multiple_use.de.md).
+Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../manual_how-to/docs/multiple_use/multiple_use.de.md).
 
 **Beachten Sie:**<br> Sie können lediglich _einen_ Ressourcenordner pro Kurs einbinden. Überlegen Sie deshalb im Vorfeld genau, welche Dateien Sie über einen kursübergreifenden Ressourcenordner statt des kursbezogenen Ablageordners organisieren möchten.
 
-[Zum Seitenanfang ^](#course_settings)
+[Zum Seitenanfang ^](#course_settings_options)
 
 
 ## Einstellungen Betreuer:innen
@@ -39,11 +39,11 @@ Als Ort für den Ordner kann entweder ein bereits existierender Ordner aus dem A
 
 Im Menü Administration erscheint sowohl für Betreuer:innen als auch für Besitzer:innen des Kurses das neue Untermenü "Unterlagen Betreuer:innen".
 
-![Menü Administration](assets/coach_folder_menu_DE.png){ class="shadow" }
+![Neuer Menüeintrag "Unterlagen Betreuer" im Menü Administration eines Kurses](assets/coach_folder_menu_DE.png){ class="shadow lightbox" }
 
 Sollen Betreuer:innen kurspezifische **To-dos** verwenden können, aktivieren Sie diese Option ebenfalls in diesem Abschnitt.
 
-[Zum Seitenanfang ^](#course_settings)
+[Zum Seitenanfang ^](#course_settings_options)
 
 
 ## Zugriff bei Status "Beendet" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
@@ -60,14 +60,26 @@ Mit **"Systemstandard übernehmen"** gilt die von der Administration vorgegebene
 
 ## Weitere Konfigurationsoptionen 
 
-Benutzer*innen mit administrativen Rollen (Lernressourcenveralter:in, Administrator:in) erhalten im Tab "Optionen" zusätzlich die folgenden Möglichkeiten angezeigt:
+Benutzer:innen mit administrativen Rollen (Lernressourcenverwalter:in, Administrator:in) erhalten im Tab "Optionen" zusätzlich die folgenden Möglichkeiten angezeigt:
 
 * Option **"Einladung externe Benutzer:innen für Kursbesitzer:innen mit Autorenrecht aktivieren"**<br>
-    In Kursen können auch externe Benutzer:innen teilnehmen (ohne Mitgliederstatus). Sie müssen aber ausdrücklich von einem/einer Kursbesitzer:in mit Autorenrecht dazu eingeladen werden. Die Möglichkeit zum Einladen muss mit dieser Option aktiviert werden. Dann kann auch ein Kursbesitzer mit Autorenrecht in der Mitgliederverwaltung externe Benutzerinnen einladen (Button "Mitglieder hinzufügen" erhält Zusatzoption "Externe Mitglieder einladen") 
+    In Kursen können auch externe Benutzer:innen teilnehmen (ohne Mitgliederstatus). Sie müssen aber ausdrücklich von einem/einer Kursbesitzer:in mit Autorenrecht dazu eingeladen werden. Die Möglichkeit zum Einladen muss mit dieser Option aktiviert werden. Dann kann auch eine Kursbesitzer:in mit Autorenrecht in der Mitgliederverwaltung externe Benutzer:innen einladen (Button "Mitglieder hinzufügen" erhält Zusatzoption "Externe Mitglieder einladen"). 
 
 * Option **"LTI 1.3-Freigabe für Kursbesitzer:innen mit Autorenrecht aktivieren"**<br>
     Im Tab "Freigabe" der Kurseinstellungen kann erlaubt werden, dass auch Personen von anderen Lernplattformen aus auf einen OpenOlat-Kurs zugreifen können. Dazu müssen verschiedene Konfigurationen vorgenommen werden. Dies ist normalerweise nur Benutzer:innen mit administrativen Rollen möglich.<br>
     Wird diese Option aktiviert, ist die Einrichtung der LTI-Freigabe auch Kursbesitzer:innen mit Autorenrecht erlaubt.
 
-[Mehr zum LTI-Zugang > ](../learningresources/LTI_Share_courses.de.md)<br>
-[Zum Seitenanfang ^](#course_settings)
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[Lernressourcen >](../learningresources/index.de.md)<br>
+[Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/docs/multiple_use/multiple_use.de.md)<br>
+[Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
+
+**Weiterführend**<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+
+[Zum Seitenanfang ^](#course_settings_options)

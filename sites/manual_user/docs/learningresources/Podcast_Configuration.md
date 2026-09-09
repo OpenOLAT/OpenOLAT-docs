@@ -6,7 +6,7 @@ The following information on configuration relates to podcasts in courses.
 
 The basic settings are made in the course editor in the "Podcast learning content" tab. 
 
-![Podcast anlegen](assets/Podcast-Lerninhalt1_20_3.jpg)
+![Selecting, creating, or embedding a podcast learning resource in the "Podcast learning content" tab of the course editor](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" }
 
 Once you have added a new podcast course element to your course, you must first select an existing podcast learning resource, create a new podcast learning resource, or integrate an existing podcast from the internet into a new learning resource. 
 
@@ -30,18 +30,18 @@ If an external podcast from the Internet is to be made available for the course 
 
 A podcast link created in the course module can be replaced or edited at any time. 
 
-![Podcast ersetzen](assets/Podcast_ersetzen.png)
- 
+![Replacing the linked podcast learning resource via the "Replace" button in the "Podcast learning content" tab](assets/Podcast_ersetzen.png){ class="shadow lightbox" }
+
 
 ### Include external podcast
 
 If you would like to integrate an external podcast from the Internet, you need the link to the specific podcast or the RSS feed of the podcast or vodcast. This is usually a URL with the extension .xml. Attention: The link is not identical to a video or audio link!
 
-To add an external podcast to the course, select the "Embed via URL" option in the course editor under the "Podcast content" tab. Enter the RSS feed link of the external podcast in the "URL" field that appears.
+To add an external podcast to the course, select the "Embed via URL" option in the course editor under the "Podcast learning content" tab. Enter the RSS feed link of the external podcast in the "URL" field that appears.
 
-External podcasts usually already contain specific content (episodes). The corresponding episodes are then displayed in the course element when the course editor is closed.
+External podcast feeds often end in .xml or .rss and usually contain the words "feed", "rss", or "podcast" in the URL (not always, but often). Once the podcast is embedded, the course element displays the corresponding episodes.
 
-![Beispiel eines externen Podcasts](assets/Podcast_extern.png)
+![External podcast embedded in a course, with episode list, filters, and RSS, iTunes, and iOS subscription icons](assets/Podcast_extern.png){ class="shadow lightbox" }
 
 
 ### Show metadata
@@ -63,25 +63,24 @@ The advanced permission configuration allows you to further differentiate the se
 
         Please observe the upload and storage limits set by the OpenOlat administrators and upload files that are as small as possible.
 
-When the course editor is closed, the podcast episodes provided and—if activated in the course editor—the information stored in the learning resource (title, description, image) are displayed.
+When the course editor is closed, the podcast episodes provided and, if activated in the course editor, the information stored in the learning resource (title, description, image) are displayed.
 
 
-### Rights for course participants
+### Rights for participants
 
 Participants can...
 
 * ... listen to audio episodes or watch video files and navigate through the chronological episodes
 * ... leave comments and star ratings for each media file. Comments can also be deleted again
-* ... be informed about changes to OpenOlat (switch on changes) and also subscribe to podcast episodes via RSS feed.
+* ... be informed about changes to OpenOlat (switch on subscriptions)
 
 With the "Create contributions" right, participants can also create episodes and thus upload audio and videos. 
 
+## Further information {: #further_information}
+
+**Further**<br>
+[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
+[Listen and watch to podcasts >](../learningresources/Podcast_listen_and_watch.md)
+
 [To the top of the page ^](#config)
-
-
-## Further information
-
-[Create podcasts in courses >](../../manual_how-to/podcast/podcast.md)<br>
-[Listen to and view podcasts >](../learningresources/Podcast_listen_and_watch.md)<br>
-[How to Instruction: "How do I create a podcast?"](../../manual_how-to/podcast/podcast.md)
 

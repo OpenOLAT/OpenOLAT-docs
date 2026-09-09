@@ -16,7 +16,7 @@ Creating blogs here means creating the blog learning resources and integrating t
 
 [Further details >](../learningresources/Blog_Create.md)
 
-If you have little experience with creating courses, you will find step-by-step instructions for creating and integrating them here:
+If you have little experience with creating courses, you will find step-by-step instructions for creating and integrating them here:<br>
 [How do I create a blog?](../../manual_how-to/blog/blog.md)<br>
 
 
@@ -40,7 +40,19 @@ So how course participants and coaches can work with a blog in an OpenOlat cours
 [Further details >](Blog_Blogging.md)
 
 
-!!! tip "Note"
+!!! note "Note"
 
     An alternative to a blog could possibly be a [forum](../learningresources/Course_Element_Forum.md).
+
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Blogging >](Blog_Blogging.md)<br>
+[Create a blog >](Blog_Create.md)<br>
+[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
+[Configure a blog >](Blog_Configuration.md)<br>
+[Forum >](Course_Element_Forum.md)
+
+[To the top of the page ^](#blog_learning_resource_overview)
 

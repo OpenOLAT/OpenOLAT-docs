@@ -2,7 +2,7 @@
 
 
 
-![statistics_course_v1_de.png](assets/statistics_course_v1_de.png){ class="shadow lightbox" }
+![Administration button and Course statistics menu item marked in the open administration menu of a course.](assets/statistics_course_v1_de.png){ class="shadow lightbox" }
 
 
 This course function provides you with statistics regarding access to your OpenOlat course. All course owners have access to those statistics. You will receive data in the form of tables as well as in the form of charts. Table data can be downloaded as Excel files (e.g. for further processing) to your computer.

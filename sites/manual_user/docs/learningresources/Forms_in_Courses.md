@@ -14,12 +14,24 @@ These include:
 
 In general, forms can also be created directly in the course via the respective course element.
 
-!!! info "Hint"
+!!! tip "Tip"
 
     It is often unclear to OpenOlat authors that the forms created in the course are a _course-independent_ OpenOlat learning resource "form" that can be used in the various course elements as well as in other courses. It is therefore recommended that the learning resource is not created in the course, but in the [authoring area](../area_modules/Authoring.md) and then integrated into the course.
 
-## Changes to forms and included questionnaires
+## Changes to forms
 
-Please note that once a form has been called up by a participant, the form can only be changed in a limited way.
+Please note that once a form has been integrated into a course and accessed, the form can only be changed to a limited extent.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
+[Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
+[Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Form in the Portfolio 2.0 template >](../learningresources/Forms_in_the_ePortfolio_template.md)<br>
+[Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)
 
 [To the top of the page ^](#forms_in_courses)

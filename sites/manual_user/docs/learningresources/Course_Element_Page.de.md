@@ -1,4 +1,4 @@
-# Kursbaustein "Seite"
+# Kursbaustein "Seite" {: #course_element_page}
 
 ## Steckbrief
 
@@ -17,7 +17,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 
     Es stehen verschiedene Layout-Varianten zur Auswahl, in denen die gewünschten Elemente wie z.B. Bilder, Texte, Tabellen und Videos flexibel platziert und so die gesamte Seite gestaltet werden kann.
 
-    [Kursbaustein Seite im Kurs](assets/KB_Seite.png){ class="shadow lightbox" } 
+    ![Beispielseite mit Titel, Tabelle, Formel, Dokument, Audio, Bild, Video, Diagramm, Zitat und Textabschnitt im Blocklayout. Kursbaustein Seite in der Kursansicht.](assets/KB_Seite.png){ class="shadow lightbox" } 
 
 
 
@@ -26,7 +26,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 
     Im Unterschied zum HTML-Editor (Kursbaustein "HTML-Seite") entspricht die Darstellung im blockbasierten Content Editor bereits weitgehend der Vorschau.
 
-    [Kursbaustein Seite im Bearbeitungsmodus](assets/KB_Seite_Bearbeitungsmodus.jpg){ class="shadow lightbox" } 
+    ![Dieselbe Beispielseite im Bearbeitungsmodus mit Werkzeugleisten und Inhalt-hinzufügen-Buttons pro Block. Kursbaustein Seite im Content Editor.](assets/KB_Seite_Bearbeitungsmodus.jpg){ class="shadow lightbox" } 
 
 
 
@@ -34,11 +34,11 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 
 Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguriert. Im **Tab "Seiteninhalt"** rufen Sie den Editor auf.
 
-![Kursbaustein Seite im Kurseditor](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
+![Tab Seiteninhalt mit Button Seite editieren und Berechtigung für Betreuer:innen. Kursbaustein Seite im Kurseditor.](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
 
 Es öffnet sich der **Content Editor**. Fügen Sie zunächst ein neues Layout ein. (Es können weitere dieser Layouts ergänzt werden.)
 
-![course_element_page_tab_layout1_v1_de.png](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
+![Neun Layout-Varianten zur Auswahl beim Einfügen eines neuen Layouts. Content Editor des Kursbausteins Seite.](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
 
 Für das Befüllen der Seite stehen zwei Wege zur Verfügung: Inhaltselemente werden einzeln hinzugefügt, oder bestehende Inhalte im Markdown- oder Word-Format werden in einem Schritt importiert.
 
@@ -46,7 +46,7 @@ Für das Befüllen der Seite stehen zwei Wege zur Verfügung: Inhaltselemente we
 
 In jedem Feld eines Layouts können ein oder mehrere **Inhaltselemente** hinzugefügt werden.
 
-![Inhaltselement im Kursbaustein Seite hinzufügen](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" }
+![Popup mit den wählbaren Inhaltselementen wie Titel, Tabelle, Bild oder Video. Kursbaustein Seite, Feld eines Layouts.](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" }
 
 Es stehen folgende Inhaltselemente zur Verfügung:
 
@@ -56,7 +56,7 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Mathematische Formel:** Erstellung mathematischer Formeln mit dem Formeleditor MathJax.
 * **Code:** Darstellung von Programmiercode ohne Ausführung.
 30 versch. Programmiersprachen [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}
-![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
+![Inhaltselement Code mit Sprachauswahl und Beispieltext. Content Editor des Kursbausteins Seite.](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
 * **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Media Center übernommen werden.
 * **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen [:octicons-tag-16:{ title="ab Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
 * **Bild:** Einfügen eines Bildes aus dem Media Center bzw. Upload.
@@ -90,14 +90,14 @@ Ist ein Layout selektiert, kann die Anordnung der Inhaltselemente auch nachträg
 
 Vorhandene Inhaltselemente bleiben erhalten und können in neue Layout-Felder verschoben werden.
 
-![course_element_page_layout_edit_v1_de.png](assets/course_element_page_layout_edit_v1_de.png){ class="shadow lightbox" }
+![Zahnrad-, Punkte- und Pfeilkreuz-Icon am selektierten Layout, Popup mit wählbaren Layout-Anordnungen. Content Editor des Kursbausteins Seite.](assets/course_element_page_layout_edit_v1_de.png){ class="shadow lightbox" }
 
 
 ### Inhaltselemente editieren
 
 Ein Inhaltselement kann geändert werden, indem man es per Mausklick selektiert und die Buttons links oben verwendet.
 
-![course_element_page_contentelement_title_v1_de.png](assets/course_element_page_contentelement_title_v1_de.png){ class="shadow lightbox" }
+![Zahnrad-, Punkte- und Pfeilkreuz-Icon am selektierten Inhaltselement Titel. Content Editor des Kursbausteins Seite.](assets/course_element_page_contentelement_title_v1_de.png){ class="shadow lightbox" }
 
 * **Zahnrad-Icon:** öffnet Popup mit Bearbeitungsoptionen
 * **3 Punkte:** Löschen des aktuellen Elements, Einfügen weiterer Inhaltselemente 
@@ -107,7 +107,7 @@ Ein Inhaltselement kann geändert werden, indem man es per Mausklick selektiert 
 
 ## Ablage der Medien
 
-Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources//Storage_folder.de.md) des Kurses sondern im [Media Center](../personal_menu/Media_Center.de.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
+Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses sondern im [Media Center](../personal_menu/Media_Center.de.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
 
 Der Upload der Medien ins Media Center erfolgt im persönlichen Menü oder im Content Editor bei der Erstellung eines neuen Inhaltselements.
 
@@ -138,4 +138,18 @@ Der Upload der Medien ins Media Center erfolgt im persönlichen Menü oder im Co
 !!! info "Wichtig"
 
     Die Seite kann von Kurs-Besitzer:innen oder optional auch von Betreuenden bearbeitet werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)
+
+**Weiterführend**<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)
+
+[Zum Seitenanfang ^](#course_element_page)
 

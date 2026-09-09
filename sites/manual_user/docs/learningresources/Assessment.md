@@ -3,27 +3,27 @@
 Here you get an overview of the course elements that can be used for knowledge testing. For some course elements there are separate pages or chapters here in the manual.
 
 
-![assessment icon](assets/Wissensueberpruefung_172_en.png)
+![Course element menu in the course editor with all assessment options](assets/Wissensueberpruefung_172_en.png){ class="shadow lightbox" }
 
 OpenOlat provides various course elements for knowledge testing. The central course elements for this are the three course elements for OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), [assessments](Course_Element_Assessment.md) with and without assessment grid (rubric) or the checklists offer a lot of potential for certain scenarios.
 
-Most course elements in the assessment category can also be given points if required and then will be given the "Highscore" configuration tab. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Knowledge_Transfer.md#structure) is used for this.
+Most course elements in the assessment category can also be given points if required and then will be given the "Highscore" configuration tab. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Course_Element_Structure.md) is used for this for conventional courses.
 
 Another configuration tab that is available for most assessment course elements (except for self-test and survey) is the tab "Reminder". Here, emails can be sent depending on the progress of the respective course element. For example, a mail can be sent if a task has not yet been worked on by a certain date. The possibilities are similar to those in the menu "Reminder" in the course administration for which you can find more information [here](../learningresources/Course_Reminders.md).
 
-The OpenOlat [Questionnaire](../learningresources/Form_Elements.md#question-rules) or the course element Survey can also be found in the assessment category.
+The assessment category also includes the course elements "Survey" and "Form", which let you build OpenOlat [forms](../learningresources/Form_Editor.md) for surveys and similar purposes into a course.
 
-  
+
 
 ##  Course Element: Assessment {: #course_element_assessment}
 
 :fontawesome-regular-thumbs-up:
 
-The course element "Assessment" is suitable for evaluating services which are not explicitly submitted electronically, e.g. presence presentations or online websites.
+The course element "Assessment" is suitable for evaluating services which are not explicitly submitted electronically, e.g. presence presentations or online websites. A rubric-based assessment is also available here.
 
 On separate pages you will learn how to set up, perform and configure an [assessment](Course_Element_Assessment.md).
 
-  
+
 
 ##  Course Element: Task {: #course_element_task}
 
@@ -49,11 +49,11 @@ The central configuration of the course element takes place in the first step in
 
 Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are not collected after the deadline.
 
-!!! info "Info"
-
-    How to create tasks step by step and further information on other [configuration possibilities](../learningresources/Course_Element_Task.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
+How to create tasks step by step and further information on the [configuration possibilities](../learningresources/Course_Element_Task.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task.md).
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
+
+:fontawesome-solid-briefcase:
 
 By means of the course element "Portfolio task" you can provide predefined portfolio templates to be filled by your course participants. The course participants can then pick up the portfolio task in their course,  and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
 
@@ -62,7 +62,7 @@ For the course element Portfolio task you need a "Portfolio 2.0 template", which
 
 If you have already added a portfolio template, it will appear under Selected Portfolio Template. Follow the link to get to the preview. You now have the option of selecting a different content with the "Change Portfolio Template" button.
 
-!!! info
+!!! info "Important"
 
     In case a portfolio template has already been downloaded and edited it will no longer be possible to replace it.
 
@@ -70,15 +70,13 @@ In the tab "Assessment" you can preconfigure the display of points, status passe
 
 Further information on how learners can pick up and use a portfolio task can be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)". How teachers can evaluate a portfolio task can be found in the chapter "[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
 
-How the portfolio component looks like from the students' point of view and how it can be solved can be found in the chapter "Learning activities in the course" under the item ["Portfolio task"](../learningresources/Portfolio_assignment_Grading.md).
-
 General information on the subject of portfolios and e-portfolios can be found [here](../area_modules/index.md).
 
 ## Course Element: Group Task {: #course_element_group_tasks}
 
 :fontawesome-solid-list-check:
 
-The course element Group task functions largely like the course element[Task](Course_Element_Task.md). 
+The course element Group task functions largely like the course element [Task](Course_Element_Task.md).
 
 Points and feedbacks are created for the whole group in this course element, but can be customized.
 
@@ -94,7 +92,7 @@ When the editor is closed, the tab "All participants" does not show the individu
 
 The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of question types, it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
 
-If you have not selected any test yet, there will be a message saying _No file chosen_ under the tab Test configuration. Click on "Choose, create or import file" to add a test to the course element, or to create a new test, respectively. In case you have already selected a test the name of this learning resource will be displayed after _Selected file_. Click on the name to open a preview of the test. Click on "Replace file" if you would like to exchange the learning resource with another one. Further information can be found in the chapter "[Creating Tests](../learningresources/Configure_tests.md)".
+If you have not selected any test yet, there will be a message saying _No file chosen_ under the tab Test configuration. Click on "Choose, create or import file" to add a test to the course element, or to create a new test, respectively. In case you have already selected a test the name of this learning resource will be displayed after _Selected file_. Click on the name to open a preview of the test. Click on "Replace file" if you would like to exchange the learning resource with another one. Further information can be found in the chapter "[Creating Tests](../learningresources/Test.md)".
 
 The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
 
@@ -106,13 +104,13 @@ Once you have selected a file, the security setting field is added to the displa
 
 Any test linked to a course can only be edited in your test-editor as long as there are no users launching and taking it. After that only typing errors can be corrected.
 
-!!! attention
+!!! warning "Attention"
 
     In case participants are taking a test at that moment all their
     results will be lost since that test is not complete. All results achieved between replacing and publishing a test will be lost as well.
 
 The test results of the participants will be personalised.
-  
+
 
 ##  Course Element: Self-test {: #course_element_self_test}
 
@@ -122,27 +120,26 @@ Like the "Test", the course element "Self-test" uses the learning resource Test 
 
 In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed. The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter ["How do I proceed when I create a test"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Configure_tests.md)".  The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Test.md)".  The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
-Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
+A more complex alternative to the self-test is the course element Practice.
 
 ## Course Element: Practice {: #course_element_uebung}
 
 The course element with flashcard logic is used for individual self-testing of course participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question pool, which the learners can work on independently in series and challenges. The number of questions per exercise series can be defined, as can the number of total challenges. For example, if a series comprises 10 questions, the learner is shown 10 questions. Afterwards, he can decide whether he wants to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the exercise and indicates how often a question has to be answered correctly repeatedly. 
 
-![Course element practice](assets/KB_Uebung_en.png)
+![View of the course element Practice with practice series, individual practice by subject and personal learning statistics](assets/KB_Uebung_en.png){ class="shadow lightbox" }
 
 In addition to the practice settings configured by the teacher, course participants can also filter and edit specific questions such as new questions or questions of a certain level. Custom series can also be created.
 
 After completion of a challenge, detailed statistics on the learning status as well as a summary overview are available in addition to the classification in ranking lists.
 
-!!! info "Info"
+!!! info "Important"
 
-    Only automatically evaluable test questions can be used for this course element. 
+    Only automatically evaluable test questions can be used for this course element.
 
 ## Course Element: Video task
-With the course element "Video task" video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations ("teachable moment") in a video and assign them to a category.
-Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
+With the course element "Video task" video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations ("teachable moment") in a video and assign them to a category. The placeholders required for this in the video (= segments) as well as the categories are defined in the "Video" learning resource (see Video Editor). A practice mode and a strict test mode are available.
 
 ## Course Element: Form  {: #course_element_form}
 
@@ -156,30 +153,30 @@ Coaches can see in the overview table in the course run which participants have 
 
 The use of this course element makes sense e.g. if the learners have to fill in certain forms obligatorily, e.g. before starting a laboratory internship or as confirmation for the independent performance of a service.
 
-!!! Info 
+!!! info "Important"
 
-    Unlike the Survey course module, however, this course module does not generate a specific graphical summary of the results. 
+    Unlike the Survey course module, however, this course module does not generate a specific graphical summary of the results.
 
 ##  Course Element: Survey {: #course_element_survey}
 
 :fontawesome-solid-sliders:
 
-With the course element "Survey" you can add an online questionnaire to your course. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft.  A questionnaire must first be created with the learning resource "Form" in the author area. If you have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results are stored anonymously. 
+With the course element "Survey" you can add an online questionnaire to your course. The learning resource "Form" is used as a basis and is linked to the course element Survey. If you have not yet created a form for surveys, follow the instructions in the chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results of a survey are stored anonymously.
 
-A formular linked in a course can only be edited completely in the formular editor as long as the page has not been opened. After that only typing errors can be corrected.
+A form linked in a course can only be edited completely in the "[form editor](../learningresources/Form_Editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
 
-!!! Note 
+!!! warning "Attention"
 
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
-Further information on the subject of questionnaires and surveys can be found in the chapter "[Creating questionnaires](../learningresources/Form_Elements.md#question-rules)" and the corresponding subchapters.
+Further information on the subject of questionnaires and surveys can be found in the chapter "[Creating forms](../learningresources/Form.md)" and the corresponding subchapters.
 
 
 ##  Course Element: Checklist {: #course_element_checklist}
 
 :fontawesome-regular-square-check:
 
-The course element allows you to embed and evaluate checklists in the course structure. A checklist contains check elements with completed and uncompleted tasks or checks. The checklist can be used as an informational tool that helps users to complete smaller tasks or to keep information secure, for example, by maintaining attendance or to-do lists. It is the only module that the user or course participant can complete as a self-assessment.
+The course element allows you to embed and evaluate checklists in the course structure. A checklist contains check elements with completed and uncompleted tasks or checks. The checklist can be used as an informational tool that helps participants to complete smaller tasks or to keep information secure, for example, by maintaining attendance or to-do lists.
 
 You can also add several checklists at once. This procedure is useful if you need several identical checklists. Several (maximum of 12) modules with the same check elements are created and bundled with a structure module. A title is automatically created for each module, but changes are possible. Each module can then be given a specific submission date.
 
@@ -187,11 +184,11 @@ In this way, several checklists with identical check criteria but for different 
 
 Further information can be found [here](Course_Element_Checklist.md).
 
-  
+
 
 ###  Highscore  {: #highscore}
 
-The highscore, except for the course element "practice" , can be added for all assessable course element as well as for
+The highscore, except for the course element "practice", can be added for all assessable course elements as well as for
 structure elements.
 
 The highscore makes a playful comparison between test participants possible
@@ -201,18 +198,18 @@ task, evaluation).
 
 First "Show Highscore" needs to be enabled. Optional a starting date can be
 added. Upon this date the highscore will be shown. Otherwise the highscore is
-shown directly after finishing the test. Afterword it can be defined, if the
+shown directly after finishing the test. Afterwards it can be defined, if the
 user data is shown anonymized or with pre and last name. In the next part it
 can be chosen, which elements of the highscore should be shown. There is the
 choice between congratulation title, podium, histogram and top result listing.
 For the listing it can be defined additionally, if all users or only a certain
-number should be shown. At least one of the above options need to be selected.
+number should be shown. At least one of the above options needs to be selected.
 
-  
 
-![highscore](assets/Highscore_EN.png)
 
-  
+![Highscore ranking with podium, points histogram and list of top participants](assets/Highscore_EN.png){ class="shadow lightbox" }
 
-  
+
+
+
 

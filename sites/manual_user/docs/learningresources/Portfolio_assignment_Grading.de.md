@@ -11,33 +11,33 @@ Ob die Möglichkeit zum Kommentieren und Bewerten eines Portfolios besteht, best
 
 Öffnen Sie das persönliche Menü und dort Ihr Portfolio. 
 
-![portfolio_assignment_grading_comment1a_v1_de.png](assets/portfolio_assignment_grading_comment1a_v1_de.png){ class="shadow lightbox" }
+![Profilsymbol rechts oben markiert zum Öffnen des persönlichen Menüs: Ansicht Kursübersicht](assets/portfolio_assignment_grading_comment1a_v1_de.png){ class="shadow lightbox" }
 
-![portfolio_assignment_grading_comment1b_v1_de.png](assets/portfolio_assignment_grading_comment1b_v1_de.png){ class="shadow lightbox" }
+![Eintrag "Portfolio 2.0" im geöffneten persönlichen Menü markiert](assets/portfolio_assignment_grading_comment1b_v1_de.png){ class="shadow lightbox" }
 
-  
+
 ### 2. "Zeige an mich freigegebene Mappen" wählen {: #comment_open_shared_binders}
 
-![portfolio_assignment_grading_comment2_v1_de.png](assets/portfolio_assignment_grading_comment2_v1_de.png){ class="shadow lightbox" }
+![Kachel "Zeige an mich freigegebene Mappen" im öffentlichen Bereich markiert: Seite Mein Portfolio](assets/portfolio_assignment_grading_comment2_v1_de.png){ class="shadow lightbox" }
 
 
 ### 3. Eintrag wählen {: #comment_choose_entry}
 
 Wählen Sie im Tab "Einträge/To do" einen der Einträge aus.
 
-![portfolio_assignment_grading_comment3_v1_de.png](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
+![Eintrag "Eintrag Pedro1" von Pedro Lenz im Tab Einträge/To do mit Status Neu: Seite An mich freigegeben](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
 
 
 ### 4. Portfolioeintrag/Bearbeitung ansehen {: #comment_view_entry}
 
-![portfolio_assignment_grading_comment4_v1_de.png](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
+![Kommentarfeld im geöffneten Eintrag markiert: Seite Eintrag Pedro1 im Bereich An mich freigegeben](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
 
 
 ### 5. Kommentartext einfügen {: #comment_add}
 
 Fügen Sie Ihren Kommentar im vorgesehenen Feld hinzu. (Bei einem längeren Portfolioeintrag müssen Sie eventuell nach unten scrollen, um das Kommentarfeld zu sehen.) 
 
-![portfolio_assignment_grading_comment5_v1_de.png](assets/portfolio_assignment_grading_comment5_v1_de.png){ class="shadow lightbox" }
+![Kommentarfeld unter "0 Kommentare" markiert: Seite Eintrag Pedro1](assets/portfolio_assignment_grading_comment5_v1_de.png){ class="shadow lightbox" }
 
 
 ### 6. Kommentar speichern {: #comment_save}
@@ -50,14 +50,14 @@ Die Ergänzung eines Kommentars wird automatisch gespeichert.
 Als **Betreuer:in** haben Sie zusätzlich den Button "Eintrag schliessen".
 Schliessen Betreuer:innen einen Portfolioeintrag, wird er auch für andere Benutzer:innen, die den Eintrag kommentieren können, als geschlossen angezeigt und kann nicht mehr von ihnen kommentiert werden.
 
-![portfolio_assignment_grading_comment7_v1_de.png](assets/portfolio_assignment_grading_comment7_v1_de.png){ class="shadow lightbox" }
+![Button "Eintrag schliessen" markiert: Seite Eintrag Pedro1](assets/portfolio_assignment_grading_comment7_v1_de.png){ class="shadow lightbox" }
 
 
 ### 8. Geschlossenen Eintrag wieder öffnen {: #comment_reopen}
 
 Einen geschlossenen Eintrag (nicht mehr kommentierbar) können Sie als **Betreuer:in** mit dem Button "Neu eröffnen" wieder für die Ergänzung von Kommentaren frei geben.
 
-![portfolio_assignment_grading_comment8_v1_de.png](assets/portfolio_assignment_grading_comment8_v1_de.png){ class="shadow lightbox" }
+![Button "Neu eröffnen" bei Status "abgeschlossen" markiert: Tab Einträge der Mappe Portfoliovorlage B](assets/portfolio_assignment_grading_comment8_v1_de.png){ class="shadow lightbox" }
 
 
 ### 9. Status der Begutachtung eines Eintrags {: #comment_status}
@@ -73,11 +73,11 @@ Als Status der Begutachtung kann gesetzt werden:
 Der **Status der Begutachtung**, der mit dem Auswahlbutton am rechten Rand eingestellt wird, hat nichts mit dem **Bearbeitungsstatus** zu tun, der links ersichtlich ist (Entwurf, publiziert, in Überarbeitung). 
 
 
-![portfolio_assignment_grading_comment9a_v1_de.png](assets/portfolio_assignment_grading_comment9a_v1_de.png){ class="shadow lightbox" }
+![Auswahlbutton für den Begutachtungsstatus rechts oben markiert: Seite Eintrag Pedro1](assets/portfolio_assignment_grading_comment9a_v1_de.png){ class="shadow lightbox" }
 
 Der **Status der Begutachtung/Kommentierung** durch einen/eine Betreuer:in wird im Tab Überblick grau hinterlegt angezeigt, zusätzlich zum **Status der Bearbeitung** durch den/die Erstellerin. 
 
-![portfolio_assignment_grading_comment9b_v1_de.png](assets/portfolio_assignment_grading_comment9b_v1_de.png){ class="shadow lightbox" }
+![Grauer Zusatzstatus neben dem farbigen Bearbeitungsstatus je Eintrag: Tab Überblick der Mappe Portfoliovorlage B](assets/portfolio_assignment_grading_comment9b_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -87,7 +87,7 @@ Der **Status der Begutachtung/Kommentierung** durch einen/eine Betreuer:in wird 
 
 
 ## Portfolioaufgabe überarbeiten lassen  {: #rework} 
- 
+
 ### 1. Portfolio öffnen {: #rework_open} 
 
 Öffnen Sie das persönliche Menü und dort Ihr Portfolio.<br>
@@ -112,11 +112,11 @@ Wählen Sie im Tab "Einträge/To do" einen der Einträge aus.<br>
 
 ### 5. "Überarbeitung anfordern" anklicken {: #rework_request_rework} 
 
-![portfolio_assignment_grading_rework5a_v1_de.png](assets/portfolio_assignment_grading_rework5a_v1_de.png){ class="shadow lightbox" }
+![Button "Überarbeitung anfordern" markiert: Seite Eintrag Pedro1](assets/portfolio_assignment_grading_rework5a_v1_de.png){ class="shadow lightbox" }
 
 Sowohl der Person, die den Kommentar abgegeben hat, wie auch dem/der Ersteller:in wird nun der Status "In Überarbeitung" angezeigt.  
 
-![portfolio_assignment_grading_rework5b_v1_de.png](assets/portfolio_assignment_grading_rework5b_v1_de.png){ class="shadow lightbox" }
+![Status "In Überarbeitung" nach der Anforderung angezeigt: Seite Eintrag Pedro1](assets/portfolio_assignment_grading_rework5b_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#portfolio_comment_grading)
@@ -127,11 +127,11 @@ Sowohl der Person, die den Kommentar abgegeben hat, wie auch dem/der Ersteller:i
 
 ## Portfolioaufgabe bewerten  {: #grading} 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Unterscheiden Sie das Kommentieren und Begutachten eines Portfolioeintrags von der Bewertung durch Betreuer:innen. 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Eine Bewertung geben Sie jeweils für eine Mappe ab, nicht für einzelne Einträge in dieser Mappe.
 
@@ -140,7 +140,7 @@ Sowohl der Person, die den Kommentar abgegeben hat, wie auch dem/der Ersteller:i
 Öffnen Sie das persönliche Menü und dort Ihr Portfolio.<br>
 [Siehe oben ^](#comment_open)
 
-  
+
 ### 2. "Zeige an mich freigegebene Mappen" wählen {: #grading_open_shared_binders} 
 
 [Siehe oben ^](#comment_open_shared_binders)
@@ -150,14 +150,14 @@ Sowohl der Person, die den Kommentar abgegeben hat, wie auch dem/der Ersteller:i
 
 Klicken Sie auf den Tab "Mappen" und wählen Sie die gewünschte Mappe zur Bewertung aus.  
 
-![portfolio_assignment_grading_assess3_v1_de.png](assets/portfolio_assignment_grading_assess3_v1_de.png){ class="shadow lightbox" }
+![Tab "Mappen" und Button "Auswählen" der Mappe Portfoliovorlage B markiert: Seite An mich freigegeben](assets/portfolio_assignment_grading_assess3_v1_de.png){ class="shadow lightbox" }
 
 
 ### 4. Tab "Bewertung" wählen {: #grading_tab_grading} 
 
 Wählen Sie den Tab "Bewertung".
 
-![portfolio_assignment_grading_assess4_v1_de.png](assets/portfolio_assignment_grading_assess4_v1_de.png){ class="shadow lightbox" }
+![Tab "Bewertung" markiert: Mappe Portfoliovorlage B mit Bereichsübersicht](assets/portfolio_assignment_grading_assess4_v1_de.png){ class="shadow lightbox" }
 
 
 ### 5. Begutachtung der Bereiche prüfen {: #grading_check_sections} 
@@ -168,30 +168,30 @@ Bei Bedarf können Sie mit dem kleinen Zahnrad rechts oben über der Tabelle Spa
 
 Mit Klick auf "Öffnen" in der Spalte "Sektion öffnen" können Sie direkt zum Tab "Überblick" springen.
 
-![portfolio_assignment_grading_assess5_v1_de.png](assets/portfolio_assignment_grading_assess5_v1_de.png){ class="shadow lightbox" }
+![Bereichstabelle mit Status je Kategorie und Button "Öffnen" zum Sprung ins Überblick markiert: Tab Bewertung der Mappe Portfoliovorlage B](assets/portfolio_assignment_grading_assess5_v1_de.png){ class="shadow lightbox" }
 
 
 ### 6. Punkte vergeben und "Bestanden" {: #grading_give_points} 
 
 Tragen Sie Punkte für die Bereiche in der gewählten Mappe ein und setzen Sie ggf. den Haken bei "Bestanden".
 
-![portfolio_assignment_grading_assess6_v1_de.png](assets/portfolio_assignment_grading_assess6_v1_de.png){ class="shadow lightbox" }
+![Felder "Bestanden" und "Punkte" je Bereich markiert: Tab Bewertung der Mappe Portfoliovorlage B](assets/portfolio_assignment_grading_assess6_v1_de.png){ class="shadow lightbox" }
 
 
 ### 7. Bewertung abschliessen {: #grading_close} 
 
 Mit "Bereich schliessen" schliessen Sie die Bewertung komplett ab. Vergessen Sie nicht, zum Schluss noch zu speichern.
 
-![portfolio_assignment_grading_assess7_v1_de.png](assets/portfolio_assignment_grading_assess7_v1_de.png){ class="shadow lightbox" }
+![Button "Bereich schliessen" je Bereich und Button "Speichern" markiert: Tab Bewertung der Mappe Portfoliovorlage B](assets/portfolio_assignment_grading_assess7_v1_de.png){ class="shadow lightbox" }
 
 
 Dem User wird nun der Status "Bestanden" oder "Nicht bestanden" und die eingetragene Punktzahl angezeigt.  
 
-!!! Tip "Hinweis"
+!!! info "Wichtig"
 
     Wird die Portfoliomappe aus einem Kursbaustein aufgerufen, beachten Sie bitte, dass die konkreten Bewertungsmöglichkeiten von den Einstellungen im Kurseditor abhängig sind. Je nach Voreinstellungen im Tab "Bewertung" des Kursbausteins Portfolioaufgabe können Punkte vergeben und/oder "Bestanden" angekreuzt werden oder nicht. 
 
-!!! Tip "Hinweis"
+!!! info "Wichtig"
 
     Wenn ein Bereich in der Bewertung geschlossen wird, kann der gesamte Bereich von Benutzer:innen nicht mehr bearbeitet werden.
 

@@ -9,7 +9,7 @@ Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich 
 [Verwendung](#section_usage)<br>
 [Freigabe](#section_share)<br>
 [Angebot](#section_offer)<br>
-[LTI 1.3 Zugriffskonfiguration](#section_LTI)<br>
+[LTI 1.3 Zugangskonfiguration](#section_LTI)<br>
 [Freigabeübersicht](#section_share_overview)<br>
 
 ---
@@ -35,7 +35,7 @@ Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Ad
 
 ![Bei Verwendung im Course Planner bleibt von der Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt allein die Besitzer:innen](assets/course_settings_share_cpl_v1_de.png){ class="shadow lightbox"}
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Der Abschnitt Externe OER-Kataloge und Suchmaschinen erscheint zusätzlich nur, wenn das Modul OAI-PMH aktiviert ist, und die Administrative Freigabe nur, wenn das Modul Organisationseinheiten aktiviert ist. Den Verwendungszweck "Verwendung im Course Planner" gibt es nur, wenn das Modul Course Planner aktiviert ist.
 
@@ -143,7 +143,7 @@ Mehr über Angebote und den Katalog finden Sie hier:<br>
 
 ---
 
-## Abschnitt LTI 1.3 Zugriffskonfiguration [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
+## Abschnitt LTI 1.3 Zugangskonfiguration [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
 OpenOlat-Kurse können via LTI 1.3 auch von einem anderen LMS aus aufgerufen werden. Für diesen Zugriff von aussen braucht es aber Sicherheitsvorkehrungen und genau festgelegte Berechtigungen.<br>
 In diesem Abschnitt können Sie dazu ein sogenanntes Deployment einrichten, um den Kurs für ein anderes LMS aufrufbar zu machen.

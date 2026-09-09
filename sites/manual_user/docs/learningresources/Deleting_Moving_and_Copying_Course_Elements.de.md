@@ -1,12 +1,12 @@
 # Löschen, Verschieben und Kopieren von Kursbausteinen
 
-Änderungen an Ihrem Kurs nehmen Sie im Kurseditor vor. Sie gelangen in den Kurseditor indem Sie den Kurs starten und im Menü unter "Administration" die Option "Kurseditor" auswählen.  
+Änderungen an Ihrem Kurs nehmen Sie im Kurseditor vor. Sie gelangen dorthin, indem Sie den Kurs starten und `Kurs > Administration > Kurseditor` wählen.
 
-![Administration, Link zum Kurseditor](assets/Kurseditor_link_19.png)
+![Menü Administration eines gestarteten Kurses mit dem Eintrag Kurseditor](assets/Kurseditor_link_19.png){ class="shadow lightbox" }
 
 Um einen Kursbaustein zu löschen zu duplizieren oder zu verschieben müssen Sie den gewünschten Kursbaustein zunächst auswählen. Anschliessend erscheint rechts oben das entsprechende Menü.
 
-![Kursbausteine verschieben Menü](assets/Kurseditor_verschieben.png)
+![3-Punkte-Menü eines markierten Kursbausteins mit den Einträgen Verschieben und Duplizieren, neben dem Button Löschen](assets/Kurseditor_verschieben.png){ class="shadow lightbox" }
 
 Die jeweilige Aktion bezieht sich dabei auf den aktuell markierten und alle ihm untergeordneten Kursbausteine. Wählen Sie im Verschieben- bzw. Duplizieren-Fenster die Position unter die Sie das Kurselement einsetzen wollen, und wählen den entsprechenden Pfeil: Nach oben um das neue Element oberhalb einzusetzen, nach unten um das Element unterhalb einzusetzen, und den gebogenen Pfeil um das Element untergeordnet einzusetzen. 
 Ebenso ist es möglich, Kursbausteine einfach mittels „Drag&Drop“ in der Kursstruktur links zu verschieben.
@@ -20,13 +20,13 @@ Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müsse
 
 Haben Sie in einem anderen Kurs bereits eine umfangreiche Kursstruktur angelegt die Sie weiterverwenden wollen, bietet es sich an, diese Kursbausteine über "Kursbausteine importieren" in den gewünschten Kurs zu kopieren.
 
-![Kursbausteine importieren Link](assets/KB_importieren.png)
+![Schaltfläche Kursbausteine importieren in der Werkzeugleiste des Kurseditors](assets/KB_importieren.png){ class="shadow lightbox" }
 
 Anschliessend öffent sich ein Wizard. 
 
 ### Der Weg:
 
-![Kursbausteine importieren Schritte im Wizard](assets/Weg_importieren_KB.png)
+![Vier Schritte des Wizards Kursbausteine importieren: Kurs auswählen, Kursbausteine auswählen, Kursbausteine bestätigen, Dateien auswählen](assets/Weg_importieren_KB.png){ class="shadow lightbox" }
 
 a) Wählen Sie den gewünschten Kurs in dem sich der oder die zu kopierenden Kursbausteine befinden.
 
@@ -47,3 +47,11 @@ d) Im nächsten Schritt erscheinen die Dateien, die sich im Ablageordner des zu 
 ## Änderungen am laufenden Kurs
 
 Sie entscheiden über den Zeitpunkt, an dem die Änderungen im laufenden Kurs erscheinen. Alle Benutzer, die zum Zeitpunkt des Publizierens den Kurs bearbeiten, müssen den Kurs neu starten. Nicht gespeicherte Forumsbeiträge oder Testresultate gehen dabei verloren! Wenn Benutzer im Kurs sind und Sie das Publizieren auf einen späteren Zeitpunkt verschieben können, empfehlen wir, den Publiziervorgang abzubrechen und später zu wiederholen.
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)
+
+[Zum Seitenanfang ^](#loschen-verschieben-und-kopieren-von-kursbausteinen)

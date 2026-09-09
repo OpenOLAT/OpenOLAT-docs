@@ -21,8 +21,18 @@ Only course authors and moderators are allowed to create calendar entries by def
 
 When displaying a certain semester week in your calendar and inserting links on course elements, that calendar will serve as a kind of overview showing all events and tasks of that week.
 
-Check whether the course element "Calendar" is really the optimal choice for you. In many cases, especially with [learning path courses](../learningresources/Learning_path_course.md), it makes more sense to activate the calendar in the [toolbar](../learningresources/Course_Settings.md#tab-toolbar) in the settings.
+Check whether the course element "Calendar" is really the optimal choice for you. In many cases, especially with [learning path courses](../learningresources/Learning_path_course.md), it makes more sense to activate the calendar in the [toolbar](../learningresources/Course_Settings.md#toolbar) in the settings.
 
 !!! tip "Hint"
 
     If you can't find the "Calendar" course element in the course editor, it was disabled by a system administrator.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)
+
+[To the top of the page ^](#cal)

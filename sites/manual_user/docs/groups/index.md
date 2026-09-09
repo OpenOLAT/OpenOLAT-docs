@@ -1,16 +1,18 @@
 # :fontawesome-solid-user-group: Groups {: #groups}
 
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Working with groups](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank"}
+
 !!! note "Quick Links"
 
     * [Create Groups](Create_Groups.md)
     * [Become a group member](Group_Membership.md)
-    * [Group Administration](Group_Administration.md)
-    * [Leave a group](Leave_a_Group.md)
     * [Using Group Tools](Using_Group_Tools.md)
+    * [Leave a group](Leave_a_Group.md)
+    * [Group Administration](Group_Administration.md)
     * [LTI Sharing](LTI_Share_groups.md)
     * [Roles in groups](../basic_concepts/Roles.md#groups)
 
-    For authorized persons with administrative tasks
+    For authorized persons with administrative tasks:
 
     * [Group Management](../area_modules/Group_Management.md)
 
@@ -26,9 +28,9 @@ groups as desired in order to meet different requirements. This chapter describe
 
 In the main navigation you will also find "Groups". After clicking on it, you will see all groups where you are registered as a member, in the tab "My groups".
 
-The groups can be displayed in a filtered way, which is especially helpful with many groups. To see the filter options, they must be expanded with the with the help of the small arrow.
+The groups can be displayed in a filtered way, which is especially helpful with many groups. To see the filter options, they must be expanded with the help of the small arrow.
 
-![Groups](assets/groups16.jpg){ class="shadow lightbox" }
+![Tabs My groups and Published groups with the filter bar Favourites, Course title and Add filter, plus the button Create group, in the Groups area.](assets/groups16.jpg){ class="shadow lightbox" }
 
 There you can
 
@@ -42,13 +44,13 @@ There you can
 ---
 
 
-## What types of groups are there?  {: #types}
+## What types of groups are there? {: #types}
 
 ### Learning groups within a course
 
 If a course exists and group work is to be carried out there, learning groups can be created in the course administration (members management).
 
-### Groups that attend several courses together.
+### Groups that attend several courses together
 
 This type of group corresponds to a class that stays together for a longer period of time and attends different courses together. In this case, each participant does not have to be enrolled in a course individually, but the entire group can be added to the course. If a group associated with a course is deleted, only the group is deleted, not the course.
 

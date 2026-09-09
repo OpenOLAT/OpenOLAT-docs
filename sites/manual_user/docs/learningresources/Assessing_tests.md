@@ -1,153 +1,155 @@
 # Assessing tests {: #assessing_tests}
 
-Here you will learn how to make assessments for tests using the OpenOlat "Assessment tool".
+Here you will learn how to make assessments for tests using OpenOlat's "Assessment tool".
 
-Go to the assessment tool and select a test from the left overview of the assessment elements of the course. The table will now show you various action options as well as all assessable persons for the test.
+Go to the assessment tool and, in the left-hand overview that reflects the course structure, select the test you want to assess. Here you find two tabs: Overview and Participants.
 
 ## Tab Participants
 
 **General action options**
 
-![Tests in the assessment tool](assets/Test_Bewertungswerkzeug.png){ class="shadow lightbox" }
+![Tab Participants in the assessment tool of a test: buttons for statistics, export, retracting and resetting, as well as the list of participants with status and points.](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" }
 
-Course coaches and course owners have the possibility to...
+Course coaches and course owners have the possibility, via the corresponding buttons, to:
 
-* view the test statistics
-* export the results of all displayed learners as zip file
-* to pull tests that are currently in progress and
-* reset the results of all previous tests
-* set the task's status to "completed" for all or several selected learners, thus finalizing the assessment
-* to set the assessments of the task to visible or invisible for all or several selected participants at one go
-* to extend the time for processing the test
+* view the test statistics,
+* export the results of all displayed learners as a zip file,
+* retract tests that are currently in progress,
+* reset the results (data) of all previous tests.
+* set the assessment for all or several selected participants to the status "completed", finalizing the assessment.
+* set the assessments of the tests to visible or invisible for all or several selected participants at once (release).
+* extend the time for processing the test.
 * send an email to one or more participants
-* correct the tests question by question ("Correct" button)
-* set up rating scale, which can be adjusted once again
+* correct the tests question by question (button "Grading tool")
+* also adjust the previously configured rating scale again.
 
-... via the corresponding buttons.
+!!! note "Note"
 
-
-!!! note "Hinweis"
-
-    Which options are displayed in detail depends partly on the configuration of the course element.
+    Which options are displayed in detail depends partly on the configuration of the course element. 
 
 The buttons and options in detail:
 
 ### Test Statistics
-Access detailed test statistics for each question of a test. All learner responses are included.
+Opens the detailed statistics for each question of a test. All responses from the learners are taken into account.
 
 ### Export results
-Here, the complete test results can be exported as a zip file and thus archived. The title of the zip file shows the name of the test, the corresponding course and the date and time of the download. The results download includes a user overview as html page, folders with the respective user results as well as other files. If the test receipt is enabled, it will be exported as well.
+Here you can export the complete test results as a zip file and archive them. The title of the zip file shows the name of the test, the corresponding course and the date of the download. The results download includes a participant overview as an HTML page, folders with the participants' results, as well as other files. If the test receipt is activated, it is exported as well.
 
 ### Retract tests
-If there are tests that have been started but not yet submitted, they can be pulled in and thus viewed. Tests can also be pulled in once after the end of the test run.
+If tests have been started but not yet submitted, they can be retracted and viewed. Tests can also be retracted once after the end of the test run.
 
 ### Grading tool
-This button can be used to make manual evaluations _per test question_. Points can be assigned and comments added here. The option appears only in case of manual scoring.
-
-!!! note "Note"
-
-    The Grading tool is the key element for the manual assessment of tests.
+This button lets you make manual assessments _per test question_. Here you can award points and add comments. The option only appears for manual assessment.
 
 ### Validate test receipt
 If this option is selected, a test receipt is created after the test is completed, which can be downloaded as an XML file. It is used to verify the test. The created XML file can additionally be sent to the participant by mail if the option "Send test receipt by mail" is activated.
 
 ### Reset all data
-This resets all data of the current test. This means that all data of all users including results will be irrevocably deleted. It is also possible to reset only single tests of certain users. This is done directly in the respective user settings.
+This resets the data of the current test. This means that all data of all participants, including results, is irrevocably deleted. It is also possible to reset only individual tests of certain persons. This is done directly in the settings of the respective person.
 
 ### Extend
 Here the preset test time can be extended.
 
 ### Customize rating scale
-This button can be used to change the rating scale or switch to another rating system.
+This button lets you change the rating scale or switch to another rating system.
 
-## Manual correction of test questions
-For the manual assessment of the questions of a test, the following procedures are generally possible:
+## Manual assessment of test questions 
+For the manual assessment of the questions of a test, the following approaches are generally possible:
 
-a) Assessment of all users based on a single test item
+a) Assessment of all participants based on a single test item 
 
-b) Assessment of all manual questions of the test starting from one user
+b) Assessment of all manual questions of the test based on one person 
 
 c) Assessment of a single person
 
 !!! note "Note"
 
-    For the assessment of a) and b) use the "Correction tool" button.
+    For the assessment of a) and b), use the "Grading tool" button.
 
-![To correct questions](assets/Test_korrigieren_Fragen.jpg){ class="shadow lightbox" }
 
-The columns provide information about where something still needs to be done:
+### a) Manual assessment per test item - Tab Questions
 
-* Auto: questions that have been corrected automatically by the system
-* Manual: Questions that need to be corrected manually
-* Not corrected: Questions that have not yet been corrected. But here you should first check whether answers have been submitted for this question. (Tab "Answered").
-* Review: Questions that have been marked for further review
+Select the desired test in the left navigation and click "Grading tool". An overview of all questions of the test with the assessment status appears. 
 
-Sort the test items (questions) for the "Manual" or "Not corrected" column to get an overview of the pending assessments.
+![Tab Questions in the grading tool: list of all test questions with the columns Auto, Manual, Not corrected and Review.](assets/Manuelle_Korrktur_pro_Frage.png){ class="shadow lightbox" } 
 
-Then click on the question title of the item to be corrected and you will get to the evaluation form. Here they can now leave points and comments and if necessary also "Mark for review" the correction. For items that can be evaluated automatically, you can also display the solutions or overwrite the points.
+The columns show where something still needs to be done: 
 
-Multiple graders can make assessments for a test at the same time. If a question is already being edited by a corrector, it is automatically blocked for others. In the administration it is possible to define for this correction process whether the participants are listed anonymously. The participant identifier then appears instead of the name.
+* Auto: questions that were corrected automatically by the system; no action is needed at first, but the points can also be overwritten here.
+* Manual: questions that must be corrected manually
+* Not corrected: questions that have not yet been corrected. Here you should first check whether answers were submitted for this question (column "Answered").
+* Review: questions that have been marked for further review. 
 
-Finally, you save the entries and can switch to the next person or go back to the item overview of the correction tool and select the next item.
+Sort the test items (questions) by the "Manual" or "Not corrected" column to get an overview of the pending assessments.
+
+Then click the question title of the item to be corrected and you reach the assessment form. Here you can now leave points and comments, and if necessary also "Mark for review" the correction. 
+For automatically evaluated items, you can also display the solutions or overwrite the points. 
+
+Several correctors can make assessments for a test at the same time. If a question is already being edited by a corrector, it is automatically blocked for others. In the administration, it can be defined for this correction process whether the participants are listed anonymously. The participant identifier then appears instead of the name.
+
+Finally, save the entries. You can then switch to the next person or go back to the item overview of the grading tool and select the next item.
 
 ### b) Manual assessment per person - Tab Participants
 
-Select the desired test in the left navigation and click on "Correction tool". An overview of all questions of the test with the evaluation status appears.
+Select the desired test in the left navigation and click "Grading tool". An overview of all questions of the test with the assessment status appears. 
 
-![Tab Participants in the correction tool: The list shows the assessment status of the selected test per person.](assets/Test_Tab_Benutzer.png){ class="shadow lightbox" }
+![Tab Participants in the grading tool: the list shows the assessment status of the selected test per person.](assets/Test_Tab_Benutzer.png){ class="shadow lightbox" }
 
-In the Participants tab, you can see an (anonymized) overview of the persons to be evaluated as well as their current evaluation status for the selected test.
+In the Participants tab, you see an (anonymized) overview of the persons to be assessed as well as their current assessment status for the selected test.
 
-Select the first person here and you will get to the assessment overview of this person for a test. Here you select the desired question and make the assessment in the assessment tool (see a)). Then select the next person until all evaluations have been completed.
+Select the first person here and you reach the assessment overview of this person for a test. Here you select the desired question and make the assessment in the assessment tool (see a)). Then select the next person until all assessments are done.
 
-### c) Manual assessment of a user
 
-If only one person is to be evaluated, the following method is recommended:
+### c) Manual assessment starting from a single person
 
-Activate the tab "User" in the left navigation. Now directly select the person you would like to assess. A list with all test attempts of this person appears. Select the current test here and click on "Correct".
+If only a single person is to be assessed, the following approach is recommended: 
 
-![Action to correct test](assets/Test_korrigieren.png){ class="shadow lightbox" }
+Select the desired test in the left navigation and select the tab "Participants". Then click the name of the person to be assessed. A list with all test attempts of this person appears. Select the current attempt here and click "Correct".
 
-One lands again in the test item overview with all questions of the test and can get an overview of the processing status and make the evaluations (see a).
+![Test attempts of a person in the grading tool: the "Correct" link opens the current attempt.](assets/Test_korrigieren.png){ class="shadow lightbox" }
+
+This leads back to the test item overview with all questions of the test, where you can get an overview of the processing status and make the assessments (see a).
+
 
 ### Downloading essay answers as PDF
 
-You can download answers to essay questions as PDF, either one by one or all at once. For a single answer, open a person's answer to an essay question in the correction tool. Use the "Download as PDF" button at the top right to download this answer as a PDF.
+You can download answers to essay questions as PDF, either individually or in bulk. For a single answer, open a person's answer to an essay question in the grading tool. Use the "Download as PDF" button at the top right to download this answer as a PDF.
 
-![Answer to an essay question in the correction tool: The "Download as PDF" button is at the top right, with anonymous correction the participant identifier appears instead of the name.](assets/assessing_tests_essay_pdf_button_v1_en.png){ class="shadow lightbox" }
+![Answer to an essay question in the grading tool: the "Download as PDF" button is at the top right, with anonymous correction the participant identifier appears instead of the name.](assets/assessing_tests_essay_pdf_button_v1_en.png){ class="shadow lightbox" }
 
 For all answers to a question, open the menu with three dots at the end of the row in the "Questions" tab. Via "Download as PDF files for all participants" you receive a zip file with one PDF per participant.
 
-![Tab "Questions" in the correction tool: The menu with three dots at the end of an essay question's row contains the action "Download as PDF files for all participants".](assets/assessing_tests_essay_pdf_menu_v1_en.png){ class="shadow lightbox" }
+![Tab "Questions" in the grading tool: the menu with three dots at the end of an essay question's row contains the action "Download as PDF files for all participants".](assets/assessing_tests_essay_pdf_menu_v1_en.png){ class="shadow lightbox" }
 
 The PDF contains information about the course, course element and test in the header so that it can be clearly assigned. If the test is corrected anonymously, the participants' personal details are omitted and the "Participant identifier" is shown instead.
 
-The download is available in the correction tool of a course and in the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) for external correctors.
+The download is available in the grading tool of a course, as well as in the [Grading workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) for external correctors.
 
 !!! tip "Prerequisite"
 
     The download requires a [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) configured in the administration.
 
-### Invalidate or cancel tests
 
-Test attempts performed by learners can also be undone. To do this, the corresponding test of a person is called up and then the option "Cancel" or "Reset test data" is selected.
+## Resetting or invalidating tests
 
-![Cancel or reset test attempt](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" }
+Test attempts performed by learners can also be undone. To do this, open the corresponding test of a person and select the option "Invalidate" or "Reset test data".
 
-When **invalidating**, a single attempt is marked as invalid. This means that the attempt continues to appear in the list and can be viewed and even reactivated by the teacher, but is no longer taken into account as a result for the learner. If the user has performed several attempts, the next attempt in time will be considered as the result. However, this does not change the number of attempts displayed. For example, if a test is limited to three attempts and the user has made three attempts, no further attempts are available to the user, even if one or more of the attempts have been cancelled.
+![Test attempts of a person: the actions "Invalidate" per attempt and "Reset test data" for all attempts are highlighted.](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" }
 
-If there is only one attempt and it is cancelled, the table display in the evaluation tool does not change. The cancelled attempt with the associated points is still displayed.
+When **invalidating**, a single attempt is marked as invalid. This means the attempt continues to appear in the list and can be viewed and even reactivated by the teacher, but is no longer taken into account as a result for the learner. If the learner has made several attempts, the next attempt in time is taken into account as the result.
+However, this does not change the number of attempts displayed. So if, for example, a test is limited to three attempts and the learner has made three attempts, no further attempts are available, even if one or more of the attempts have been invalidated.
 
-In contrast to cancelling, **"Reset test data"** results in all tests being completely deleted, and the number of tests is therefore set to 0.
+If there is only one attempt and it is invalidated, the table display in the assessment tool does not change. The invalidated attempt with its points is still displayed.
+
+In contrast to invalidating, **"Reset test data"** completely deletes all attempts, so the number of attempts is set to 0.
 
 ## Assessment in the course run
 
-In addition to the assessment in the assessment tool, individual tests can also be assessed in the course run with the editor closed. The assessment options in the tabs "Overview" and "Participants" are mostly identical.Only the "Preview" and "Reminders" tabs supplement the options.
+In addition to the assessment in the assessment tool, individual tests can also be assessed in the course run with the editor closed. The assessment options in the tabs "Overview" and "Participants" are mostly identical. However, the course run also has the tabs "Communication", "Preview" and "Reminders". 
 
-The preview shows the user perspective and in the tab "Reminders", there is the possibility to send a reminder email for certain conditions e.g. at a certain score, certain number of attempts or at pass/fail
-(see also [Reminder](Course_Reminders.md)). The tab "Communication" is intended for communication during an ongoing test, e.g. in the context of online exams.
+The preview shows the participants' perspective, and the "Reminders" tab lets you send a reminder email for certain conditions of the test processing, e.g. at a certain score, a certain number of attempts, or upon passing/failing (see [Reminders](Course_Reminders.md)). The "Communication" tab is intended for communication during an ongoing test, e.g. as part of online exams.
 
-![Test overview for coaches](assets/Test_kursrun.jpg){ class="shadow lightbox" }
+![Tab Participants of a test course element in the course run, with the additional tabs Communication, Preview and Reminders.](assets/Test_Kursrun_172.png){ class="shadow lightbox" }
 
 ---
 

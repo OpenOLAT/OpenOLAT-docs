@@ -3,24 +3,26 @@
 
 ## Profile {: #profile}
 
-Name | Task
+Name | Practice
 ---------|----------
-Icon | :o_icon_o_gta_icon:
-Available since | Release 17
+Icon | :o_icon_o_practice_icon:
+Available since | Release 17.0
 Functional group | Assessment
 Purpose | Knowledge transfer and self-examination. A defined number of questions must be answered. Questions that are not answered correctly are asked again and repeated according to the flashcard principle. 
 Assessable | no
-Specialty / Note | Exercise questions can be managed in the question pool
+Specialty / Note | Practice questions can be managed in the question bank
 
 ---
 
 ## Operating principle {: #operating_principle}
 
+:octicons-device-camera-video-24: **Video Introduction (German)**: [The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
+
 The course element "Practice" works according to the principle of a flashcard. The subjects correspond to levels.
 
-![course_element_practice_flashcardfile_v1_de.png](assets/course_element_practice_flashcardfile_v1_de.png){ class="shadow lightbox" }
+![Flashcard box with three compartments for levels 1 to 3](assets/course_element_practice_flashcardfile_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Info"
+!!! info "Important"
 
     All questions must be automatically correctable. Therefore, no question types are allowed that require mandatory manual assessment, such as "free text entry" or "drawing".
 
@@ -36,23 +38,23 @@ For example, if a question was answered correctly 3 times in a row, it is in lev
 **System wide availability**<br>
 The results (personal level for a question) are stored with the respective participant. They are thus available globally throughout the system. Even if the participant takes part in another course.
 
-This means, for example, that if a question has already been answered correctly twice and is therefore classified in level 2, OpenOlat remembers: Learner A has question y in level 2. If this question comes up again in another course element exercise or in a completely different course, Learner A does not start there from 0, but builds on his/her already achieved level.
+This means, for example, that if a question has already been answered correctly twice and is therefore classified in level 2, OpenOlat remembers: Learner A has question y in level 2. If this question comes up again in another course element Practice or in a completely different course, Learner A does not start there from 0, but builds on his/her already achieved level.
 
-This can even mean that someone enters a course for the first time and discovers there in the learning status display of a course element exercise that a certain percentage has already been reached.
+This can even mean that someone enters a course for the first time and discovers there in the learning status display of a course element Practice that a certain percentage has already been reached.
 
 ---
 
-### Exercise series {: #exercise_series}
+### Practice series {: #exercise_series}
 
-Questions are always asked in exercise series of, for example, 10 questions. The number of questions can be set per exercise series.
+Questions are always asked in practice series of, for example, 10 questions. The number of questions can be set per practice series.
 
-For the exercise series questions can be compiled
+For the practice series questions can be compiled
 
 * from several learning resources (different test learning resources) 
-* or from shares (freely given questions of a question pool) 
+* or from shares (freely given questions from a question bank) 
 
 
-The learning resources and shares that should be available for the creation of the exercise series have to be specified by the author in the configuration of the course element.
+The learning resources and shares that should be available for the creation of the practice series have to be specified by the author in the configuration of the course element.
 
 It is also possible for participants to compile their own series of questions. Learners can thus focus individually on specific subject areas and filter out questions relevant to them on the basis of the taxonomy.
 
@@ -60,7 +62,7 @@ It is also possible for participants to compile their own series of questions. L
 
 ### Challenges {: #challenge}
 
-Several series of exercises make up a challenge. A challenge is an intermediate goal that can be reached by completing a certain number of series.
+Several practice series make up a challenge. A challenge is an intermediate goal that can be reached by completing a certain number of series.
 
 The total number of challenges can be set.
 
@@ -72,25 +74,25 @@ After completion of a challenge, detailed statistics on the learning status as w
 
 ## Configuration tab {: #configuration}
 
-As with all course elements, the author selects the course element Exercise in the course menu for configuration. Especially in the **tab "Configuration"** you will find the setting options and settings.
+As with all course elements, the author selects the course element Practice in the course menu for configuration. Especially in the **tab "Configuration"** you will find the setting options and settings.
 
-![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
+![Configuration tab of the course element Practice with the sections Resources, Criteria, Practice settings and Used questions](assets/course_element_practice_config_v2_de.png){ class="shadow lightbox" }
 
 
-### ![1_green_24.png](assets/1_green_24.png) Ressources {: #resources}
+### ![1](assets/1_green_24.png) Ressources {: #resources}
 
-In contrast to most other course elements, the course element Practice allows you to integrate **several learning resources**. The questions used in the course element practice come from the question pool or test learning resources.
+In contrast to most other course elements, the course element Practice allows you to integrate **several learning resources**. The questions used in the course element Practice come from the question bank or test learning resources.
 
-Currently there are 2 ways to insert questions into the Course element Practice:
+Currently there are 2 ways to insert questions into the course element Practice:
 
-* On the one hand, you can include a **learning resource Test**, as you do in the course elements Test and Self-Test. Then the questions from the tests can be practiced.
+* On the one hand, you can include a **learning resource Test**, as you do in the course elements Test and Self-test. Then the questions from the tests can be practiced.
 
-* Second, you can insert questions from the **question pool**. You can insert question sets from lists, shared items, and group shares.
+* Second, you can insert questions from the **question bank**. You can insert question sets from lists, shares, and group shares.
 
 Later modification or addition of questions is possible.
 
 
-### ![2_green_24.png](assets/2_green_24.png) Criteria {: #criteria}
+### ![2](assets/2_green_24.png) Criteria {: #criteria}
 
 By defining criteria for taxonomy and metadata, the desired questions can be specifically filtered out.
 
@@ -99,24 +101,24 @@ By defining criteria for taxonomy and metadata, the desired questions can be spe
 * The following metadata options are available for filtering: test type, keyword, language, and level. (Filter criteria based on this metadata can also be combined.)
 
 
-### ![3_green_24.png](assets/3_green_24.png) Practice settings {: #practice_settings}
+### ![3](assets/3_green_24.png) Practice settings {: #practice_settings}
 
 In the practice settings, the author determines:
 
 * Number of levels (how many times a question should be answered correctly)
-* Number of questions per series (how many questions to answer per exercise set)
+* Number of questions per series (how many questions to answer per practice series)
 * Number of series per challenge
 * Number of challenges required as completion criteria
 
 
-### ![4_green_24.png](assets/4_green_24.png) Used questions {: #questions}
+### ![4](assets/4_green_24.png) Used questions {: #questions}
 
 An overview displays all questions available for review based on the criteria (grouped by subject area/taxonomy).
 
 
 !!! info "Please note:"
 
-    These are links to the questions. No copies of the questions are stored in the course module. Therefore, if a question is modified or deleted, it is also modified or removed in the Exercise course module.
+    These are links to the questions. No copies of the questions are stored in the course module. Therefore, if a question is modified or deleted, it is also modified or removed in the course element Practice.
 
 [To the top of the page ^](#course_element_uebung)
 
@@ -127,9 +129,9 @@ An overview displays all questions available for review based on the criteria (g
 
 ### Given practices {: #given_practices}
 
-In the configuration of the course element, coaches can control which questions are included in the automatically assembled series of exercises.
+In the configuration of the course element, coaches can control which questions are included in the automatically assembled practice series.
 
-![course_element_practice_ueben1_v1_de.png](assets/course_element_practice_ueben1_v1_de.png){ class="shadow lightbox" }
+![Home screen of the course element Practice with a practice series and the challenge status](assets/course_element_practice_ueben1_v1_de.png){ class="shadow lightbox" }
 
 The filtering is done by the author in the course editor through the settings in the "Criteria" section:
 
@@ -140,7 +142,7 @@ The filtering is done by the author in the course editor through the settings in
 
 In addition, the participants can also practice by subject area, which will be offered according to the pre-selection of the authors.
 
-![course_element_practice_ueben_fachbereich_v1_de.png](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
+![Practice selection by subject area with the question status per level](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
 
 
 ### Self compiled exercises {: #self_compiled_exercises}
@@ -158,14 +160,14 @@ For individual practice according to their own needs, participants can therefore
 
 **Individual series**: Practice with a series of questions you put together yourself
 
-![course_element_individual_practice_v1_de.png](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
+![Individual practice with the modes New questions, My mistakes and Individual series](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
 
 
 ### Feedbacks {: #feedbacks}
 
 Feedback to the learner on whether he or she answered a question correctly or incorrectly is provided immediately following the completion of a question.
 
-For the entire practice, the learner can, for example, retrieve information about his learning time.
+For the entire practice, the learner can, for example, retrieve information about their learning time.
 
 Rankings are also possible, if desired.
 
@@ -184,7 +186,16 @@ Course element Test | Course element Self-test | Course element Practice
 ---------|----------|----------
  :fontawesome-solid-square-pen: | :fontawesome-solid-square-pen: | :fontawesome-regular-futbol:
 with score | with score  | without score 
-visible for coaches|  not visible for coaches | einsehbare Level<br>Learning level per level<br> Emphasis by participant:in
-1 test learning resource | 1 test learning resource | multiple learning resources<br>Shares/Shares from the question pool<br>filter with use of taxonomy
+visible for coaches|  not visible for coaches | visible levels<br>learning status per level<br> focus set by the participant
+1 test learning resource | 1 test learning resource | multiple learning resources<br>shares from the question bank<br>filter with use of taxonomy
+
+[To the top of the page ^](#course_element_uebung)
+
+---
+
+## Further information {: #further_information}
+
+**youtube**<br>
+[The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>)
 
 [To the top of the page ^](#course_element_uebung)

@@ -17,7 +17,7 @@
 
 **Who is Sophia?**
 
-Sophia is the AI help assistant in the OpenOlat user manual (sidebar on docs.openolat.org) and as a chat widget within OpenOlat itself. You ask a question about using OpenOlat in plain language and receive an answer with clickable links to the relevant manual pages—including screenshots and tables from the manual where helpful. Sophia responds in the language of the question (DE/EN) and understands follow-up questions as the conversation progresses.
+Sophia is the AI help assistant in the OpenOlat user manual (sidebar on docs.openolat.org) and as a chat widget within OpenOlat itself. You ask a question about using OpenOlat in plain language and receive an answer with clickable links to the relevant manual pages, including screenshots and tables from the manual where helpful. Sophia responds in the language of the question (DE/EN) and understands follow-up questions as the conversation progresses.
 
 **How does Sophia work?**
 
@@ -25,7 +25,7 @@ Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmente
 
 **What can’t Sophia do?**
 
-- It does not search course content, courses, or user data—Sophia only knows the public manual, not the contents of an OpenOlat instance.
+- It does not search course content, courses, or user data: Sophia only knows the public manual, not the contents of an OpenOlat instance.
 - Sophia does not answer questions outside of OpenOlat.
 - Answers may be incomplete; the linked manual pages are the authoritative reference. Feedback buttons (“Was this helpful?”) can be found directly in the chat.
 
@@ -36,7 +36,7 @@ Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmente
 
 At the top right of the main menu bar, you can always access the OpenOlat
 manual (this is where you are currently located) and possibly to further
-help pages, depending on the configuration by the system administrator.  Click
+help pages, depending on the configuration by system administrators. Click
 on the question mark! :fontawesome-solid-circle-question:.
 
 !!! info "Important"
@@ -65,14 +65,14 @@ which give you briefly and concisely required or more detailed information on e.
 individual form fields. If you find this icon :o_icon_o_icon_help:
 next to a field label, move the mouse over it to get a short information. Here is an example from the configuration of a test in the course editor:
 
-![](assets/example_questionmark.en.png){ class="shadow" width=400px }
+![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px }
 
 [To the top of the page ^](#help)
 
 
 ## Light gray text inside fields... {: #help_within_fields}
 
-![](assets/help_gui_demo.en.png){ class="shadow" width=150px }
+![Light gray placeholder text "Search" in the empty search field](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px }
 
 ...gives assistance **how** the fields should be filled in.
 
@@ -81,7 +81,7 @@ next to a field label, move the mouse over it to get a short information. Here i
 
 ## Light gray text below fields... {: #help_below_fields}
 
-![](assets/help_gui_demo1.en.png){ class="shadow" width=420px }
+![Light gray hint text "Max. 25 characters" below the Title in course menu field](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px }
 
 ...provides directly needed information **about** the field content.
 
@@ -99,5 +99,14 @@ There are demo courses which you can view on the [Community Server](https://comm
 
 Please contact the respective support center(s) of your OpenOlat
 instance. The support address can usually be found in the help menu in the header area of the page or in the imprint in the header area or in the footer area of the page.
+
+[To the top of the page ^](#help)
+
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[About this manual >](../about/index.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)
 
 [To the top of the page ^](#help)

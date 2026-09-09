@@ -2,7 +2,7 @@
 
 Die Konfiguration eines Zertifikates für einen Kurs erfolgt in den Einstellungen des Kurses im Tab "Bewertung".
 
-![course_settings_assessment_certification_config_v1_de.png](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
+![Weg zur Zertifikatskonfiguration über Administration > Einstellungen > Tab Bewertung, Abschnitt Zertifikat mit Gültigkeitsdauer und Rezertifizierung](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
 
 
 ## Zertifikate {: #certificate}
@@ -35,7 +35,7 @@ Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribu
 
 ### Was geschieht beim Ablauf eines Zertifikats? {: #certificate_expiry}
 
-Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md) ausgelöst werden. Z.B. können Kursteilnehmer:innen eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
+Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md) ausgelöst werden. Z.B. können Teilnehmende eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
 
 
 ### Zertifikatsvorlage erstellen {: #certificate_template}
@@ -51,7 +51,7 @@ Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt
 
 Die mitgelieferte Standardvorlage ist HTML-basiert und schlicht gehalten. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
-Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank”} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank”} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
+Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
 Die Formularfelder müssen bestimmte Variablen enthalten, die vom System später durch die spezifischen Daten ersetzt werden. Es können alle Attribute als Variablen verwendet werden. Bei PDF-Vorlagen werden die Variablennamen ohne $-Präfix, bei HTML-Formularen mit $-Präfix verwendet.
 
@@ -140,7 +140,7 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
 
 Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [contact@frentix.com](mailto:contact@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
-[Zum Seitenanfang ^](#certificate_and_recertification})
+[Zum Seitenanfang ^](#certificate_and_recertification)
 
 ---
 
@@ -167,7 +167,7 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-![course_settings_assessment_recertification_v2_de.png](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+![Einstellungsseite Bewertung mit den Abschnitten Zertifikat, Gültigkeitsdauer und Rezertifizierung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
 
 
 ### Rezertifizierung aktivieren  {: #recertification_activation}
@@ -187,15 +187,23 @@ Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgese
 
 Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
-[Zum Seitenanfang ^](#certificate_and_recertification})
+[Zum Seitenanfang ^](#certificate_and_recertification)
 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Zertifikate im Bewertungswerkzeug ausstellen und verwalten >](Assessment_tool_overview.de.md)
+**Auf dieser Seite erwähnt**<br>
+[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
+[Zertifikate im Bewertungswerkzeug ausstellen und verwalten >](Assessment_tool_overview.de.md)<br>
+[Erinnerungen >](Course_Reminders.de.md)<br>
+[Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
+[Zertifikatsbot: Repository >](https://gitlab.vcrp.de/openolat/zertifikatsbot)<br>
+[Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)
 
-[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)
+**Weiterführend**<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Bewertungswerkzeug - Daten zurücksetzen >](Assessment_tool_reset_data.de.md)
 
-[Zum Seitenanfang ^](#certificate_and_recertification})
+[Zum Seitenanfang ^](#certificate_and_recertification)

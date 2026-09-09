@@ -3,10 +3,10 @@
 
 Für Betreuer:innen kann ein gemeinsamer Ordner zur Ablage von Dateien eingerichtet werden. Nur Betreuer:innen und Kursbesitzer:innen können auf diesen Ordner zugreifen.
 
-![course_coach_files_v1_de.png](assets/course_coach_files_v1_de.png){ class="shadow lightbox" }
+![Administrationsmenü eines Kurses mit hervorgehobenem Eintrag "Unterlagen Betreuer:innen" zum Öffnen des Betreuer:innen-Ordners](assets/course_coach_files_v1_de.png){ class="shadow lightbox" }
 
 
-Damit die Menüoption im Kurs unter "Administration" erscheint, muss zunächst im Kurs unter **"Administration" > "Einstellungen" > Tab "Optionen"** die Option "Unterlagen Betreuer:innen Ordner" aktiviert werden.
+Damit die Menüoption im Kurs unter "Administration" erscheint, muss zunächst unter `Kurs > Administration > Einstellungen > Tab "Optionen"` die Option "Unterlagen Betreuer:innen Ordner" aktiviert werden.
 
 Als Ablageort kann im Tab Optionen ein bereits existierender Ordner des [Ablageordners](Storage_folder.de.md) des Kurses gewählt oder ein neuer Ordner speziell für die Betreuer:innen im Ablageordner generiert werden. 
 

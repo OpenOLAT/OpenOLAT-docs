@@ -6,7 +6,7 @@ Hier erhalten Sie einen Überblick wie Sie einen Test in einem Kurs weiter konfi
 
 Öffnen Sie dafür den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
 
-![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow" }
+![Konfigurationstabs des Kursbausteins Test im Kurseditor](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
 
 Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich. 
 
@@ -14,7 +14,7 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 Im Tab Lernpfad kann definiert werden, ob der Kursbaustein obligatorisch für den Lernpfad Kurs ist, ob er nicht für die Lernpfad Anzeige verwendet werden soll (Einstellung "Freiwillig") oder ob der Kursbaustein gar nicht angezeigt werden soll (Einstellung "Ausgenommen"). Ferner können ein Freigabedatum, ein maximales Bearbeitungsdatum sowie die voraussichtliche Bearbeitungszeit definiert werden. Des Weiteren stehen für Tests folgende Erledigungskriterien zur Verfügung:
 
-![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
+![Auswahl des Erledigungskriteriums für den Kursbaustein Test im Tab Lernpfad](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
 ### Tab "Test-Konfiguration"
 
@@ -25,12 +25,12 @@ Im Einzelnen sind folgende Einstellungen möglich nachdem Sie eine Lernressource
 #### Abschnitt Test
 
 **Bewertung mit Einstufung/Noten**
-Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschliessend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für den User sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll.  
+Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschliessend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für die Teilnehmenden sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll.
 
 **Bei Kursbewertung ausschliessen**: Wird hier der Haken gesetzt, bleibt der Test bei der Fortschrittsberechnung in einem [Lernpfad Kurs](../learningresources/Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
-**Testzeitraum festlegen**: Während des Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B.  x Tage nach dem ersten Kursbesuch.
-  
+**Testzeitraum festlegen**: Während des Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B. x Tage nach dem ersten Kursbesuch.
+
 #### Abschnitt Korrektur {: #correction}
 
 **Korrektur**: Die Korrektur wird entweder **automatisch oder manuell** durchgeführt. Sobald ein manuell auszuwertender [Fragetyp](Test_question_types.de.md), z.B. Freitext vorhanden ist, muss zwingend eine manuelle Variante gewählt werden. Bei der automatischen Korrektur werden alle Fragen automatisch und direkt korrigiert, das Resultat ist sofort sichtbar.
@@ -39,32 +39,32 @@ Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränk
 
 Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 
-![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
+![Konfiguration und Liste der zugeordneten Korrektoren im Tab Korrektoren des Kursbausteins Test](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 
     Steht die Option "Manuell durch externe Korrektoren" nicht zur Verfügung, wurden in der Lernressource Test keine [externen Korrektoren](Test_settings.de.md) konfiguriert.
 
-**Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standarmässig freigegeben sind oder nicht.
+**Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig freigegeben sind oder nicht.
 
 * Nicht freigegeben: Die Bewertung des Tests ist standardmässig nicht freigegeben und kann von den Teilnehmenden nicht eingesehen werden.
 * Freigegeben: Die Bewertung wird standardmässig freigegeben und kann von den Teilnehmenden eingesehen werden.
 
-![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
-  
+![Auswahl der Korrekturart und der Freigabe der Bewertung im Abschnitt Korrektur](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
+
 #### Abschnitt Report {: #report}
 
-**Punkte auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden die Punkte auf der Startseite des Tests für den Benutzer angezeigt.
+**Punkte auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden die Punkte auf der Startseite des Tests für die Teilnehmenden angezeigt.
 
 **Bewertung auf Test-Startseite anzeigen**: Hiermit kann definiert werden, ob bzw. unter welchen Bedingungen die Bewertung auf der Test-Startseite angezeigt werden sollen.
 
-![Test Report Einstellungen](assets/Test_Report_Einstellungen_DE.png){ class="shadow" }
+![Einstellungen zur Anzeige von Punkten und Resultaten im Abschnitt Report](assets/Test_Report_Einstellungen_DE.png){ class="shadow lightbox" }
 
 Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden des Tests zur Verfügung. Bei der Auswahl "Nein" werden die Ergebnisse gar nicht angezeigt. Und bei den anderen Optionen können kriterien- bzw. datumsabhängige Anzeigen definiert werden.
 
 **Bewertung nach Testabschluss anzeigen**: Hier wird konfiguriert, welche Informationen die Lernenden erhalten. Die gewählte Auswahl ist dieselbe für "Resultate auf Test-Startseite anzeigen" und "Resultate nach Testabschluss anzeigen":
 
-![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow" }
+![Auswahl der Inhalte für die Übersicht Resultate](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
 
 Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
@@ -76,7 +76,7 @@ Bei der **Antwort der Teilnehmer** wird die Frage, alle Antwortoptionen sowie di
 
 Die **Lösung** beinhaltet die korrekten Antworten.
 
-Je nach Kombination der Anzeige Optionen können dem User somit unterschiedliche Arten von Feedback hinterlassen werden.  
+Je nach Kombination der Anzeige Optionen können den Teilnehmenden somit unterschiedliche Arten von Feedback hinterlassen werden.
 
 ### Tab "Optionen"
 
@@ -91,12 +91,12 @@ Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmend
 
 Hier kann für einen Test auch eine Highscore Übersicht aktiviert und weiter konfiguriert werden.
 
-![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
+![Konfiguration der Highscore-Anzeige des Kursbausteins Test im Tab HighScore](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
 ### Tab "Korrektoren"
 Es erscheint eine Übersicht der Korrektoren sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
 
-### E-mail Bestätigung (:octicons-tag-24: Release 17.2. )
+### E-Mail Bestätigung :octicons-tag-16:{ title="ab Release 17.2" }
 Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email bestätigen wollen. Sie können in dem Mailtext auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen. Eine Kopie der Mail kann auch an die Kursbesitzer, zuständige Betreuer oder externe Mail-Adressen verschickt werden. 
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern. 
@@ -114,7 +114,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Herstellung mit | [Testeditor](Test_editor_QTI_2.1.de.md) | [Testeditor](Test_editor_QTI_2.1.de.md)
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
- Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
+ Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
  Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
@@ -130,7 +130,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Testpersonen die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
-Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschließend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor und tauschen Sie im Kursbaustein des gewünschten Tests die Datei aus. Wenn bereits Resultate eingegangen sind, werden diese in Ihrem persönlichen Ordner (private) archiviert und Sie können entscheiden, ob OpenOlat diejenigen Kursteilnehmer, die den Test bereits absolviert haben, über die Änderung informieren soll.
+Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschliessend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor und tauschen Sie im Kursbaustein des gewünschten Tests die Datei aus. Wenn bereits Resultate eingegangen sind, werden diese in Ihrem persönlichen Ordner (private) archiviert und Sie können entscheiden, ob OpenOlat diejenigen Teilnehmenden, die den Test bereits absolviert haben, über die Änderung informieren soll.
 
 ## Tests einsehen und bewerten
 
@@ -138,7 +138,7 @@ Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungsw
 "Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines Kurses angezeigt und können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden. 
 Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow" }
+![Liste der Teilnehmenden mit Testresultaten und Bewertungsaktionen im Kursrun](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
 
 Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese die Bewertungen über das [Coaching Tool](../area_modules/Coaching.de.md) vornehmen.
 
@@ -149,3 +149,20 @@ Wählen Sie in der Kursansicht aus der "Administration" -> [Datenarchivierung](.
 Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
 
 Über Administration -> ["Test Statistiken"](../learningresources/Statistics_Test.de.md) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Test Fragetypen >](Test_question_types.de.md)<br>
+[Test Einstellungen - Administration >](Test_settings.de.md)<br>
+[Test konfigurieren >](Configure_tests.de.md)<br>
+[Verwaltung und Organisation >](Administration_and_Organisation.de.md)<br>
+[Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Test Statistiken >](../learningresources/Statistics_Test.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
+
+[Zum Seitenanfang ^](#tests-auf-kursebene)

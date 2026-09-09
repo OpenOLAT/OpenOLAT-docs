@@ -21,7 +21,7 @@ Je nach Fragetyp können eine oder mehrere Antworten angekreuzt, Elemente per dr
     Übersicht aller verfügbaren Fragetypen.<br>
     [Fragetypen](../learningresources/Test_question_types.de.md)
 
-Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Einsatz kommen. Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
+Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Einsatz kommen. Die Resultate der Teilnehmenden werden personalisiert aufgezeichnet.
 
 OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt. 
 
@@ -53,7 +53,7 @@ Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen kö
 
 Öffnen Sie den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
 
-![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow" }
+![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
 
 Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich.
 
@@ -65,7 +65,7 @@ Im Tab Lernpfad kann definiert werden, ob der Test obligatorisch für den Lernpf
 
 Des Weiteren stehen für Tests folgende Erledigungskriterien zur Verfügung: 
 
-![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
+![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
 Nur wenn die gewählte Bedingung erfüllt ist, wird dem User der Fortschritt in der Lernpfadanzeige und in der Fortschrittsprozentzahl angezeigt.
 
@@ -117,7 +117,7 @@ Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränk
 
 Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer:innen einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer:in des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 
-![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
+![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 
@@ -125,7 +125,7 @@ Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch Op
 
 **Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig für die User freigegeben und somit sichtbar sind oder nicht.
 
-![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
+![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
 #### Abschnitt Report {: #section_report}
 
@@ -139,7 +139,7 @@ Wichtig ist jedoch, dass Sie im nächsten Schritt konkret unter **"Übersicht Re
 
 Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden des Tests zur Verfügung. Bei der Auswahl "Nein" werden die Ergebnisse gar nicht angezeigt. Und bei den anderen Optionen können kriterien- bzw. datumsabhängige Anzeigen definiert werden.
 
-![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow" }
+![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
 
 Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
@@ -159,7 +159,7 @@ Je nach Kombination der Anzeige Optionen können dem User somit unterschiedliche
 
 Für die Anzeige auf der Startseite können Sie zusätzlich noch definieren unter welchen Bedingungen diese angezeigt werden soll.
 
-![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow" }
+![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow lightbox" }
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -198,9 +198,9 @@ Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmend
 
 ### Tab "HighScore" {: #tab_highscore}
 
-Hier kann für einen Test eine Highscore Übersicht aktiviert und weiter konfiguriert werden. Diese Übersicht vergleicht die Test-Ergebnisse der Kursteilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. 
+Hier kann für einen Test eine Highscore Übersicht aktiviert und weiter konfiguriert werden. Diese Übersicht vergleicht die Test-Ergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. 
 
-![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
+![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
 !!! note "Highscore"
     Weitere Informationen zum Thema Highscore.<br>
@@ -274,7 +274,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Herstellung mit | [Testeditor](Test_editor_QTI_2.1.de.md) | [Testeditor](Test_editor_QTI_2.1.de.md)
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
- Anzahl Aufrufe durch Kursteilnehmende | konfigurierbar | unlimitiert
+ Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
  Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den Test Statistiken und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den Test Statistiken und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
@@ -294,7 +294,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
     Sobald ein Test oder Selbsttest in einen Kurs eingebunden wird, können nur noch sehr eingeschränkt Änderungen unter "Lernressource bearbeiten" vorgenommen werden. Deshalb sollte ein Test möglichst erst in einen Kurs eingebunden werden, wenn er vollständig fertiggestellt ist.
 
-Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Testpersonen die gleichen Voraussetzungen antreffen. Andererseits könnten bereits gespeicherte Resultate nicht mehr eindeutig einer Version der Testdatei zugewiesen werden. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
+Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Teilnehmenden die gleichen Voraussetzungen antreffen. Andererseits könnten bereits gespeicherte Resultate nicht mehr eindeutig einer Version der Testdatei zugewiesen werden. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
 Die Frage ist also was man tun kann, wenn man doch mal einen Test aus triftigen Gründen ändern muss. Hierfür haben Sie folgende Möglichkeit:
 
@@ -313,7 +313,7 @@ Im nächsten Schritt stehen zwei Optionen zur Verfügung:
 Vor dem Austausch informiert Sie ein Dialog über die Auswirkungen. Diese müssen Sie ausdrücklich bestätigen.
 
 **Beispiel:**
-![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
+![Dialog "Test ersetzen" mit Vergleich der Eigenschaften von aktuellem und neuem Test](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow lightbox" }
 
 Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzeigen".
 
@@ -328,7 +328,7 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 
 ## Tests einsehen und bewerten {: #assess}
 
-Betreuer:innen und Kursbesitzer:innen haben im Bewertungswerkzeug Zugriff auf alle bearbeiteten Tests. Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Kursteilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen angezeigt.
+Betreuer:innen und Kursbesitzer:innen haben im Bewertungswerkzeug Zugriff auf alle bearbeiteten Tests. Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Teilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen angezeigt.
 
 !!! note "Bewertungswerkzeug"
     Zentrale Oberfläche zur Bewertung, Benotung und Verwaltung von Teilnehmer-Bewertungen.<br>
@@ -336,7 +336,7 @@ Betreuer:innen und Kursbesitzer:innen haben im Bewertungswerkzeug Zugriff auf al
 
 Alternativ können die Ergebnisse eines spezifischen Tests auch im Kursrun bei geschlossenem Kurseitor direkt beim jeweiligen Test-Kursbaustein eingesehen und verwaltet werden. Wechseln Sie hierfür in den Tab "Teilnehmer:innen". Zusätzlich stehen Ihnen als Kursbesitzer:in im Kursrun noch weitere Tabs wie Vorschau, Kommunikation, Erinnerungen und Badges zur Verfügung. Auch Betreuer:innen verfügen teilweise über diese Tabs.
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow" }
+![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" }
 
 Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese die Bewertungen über das Coaching Tool vornehmen.
 
@@ -356,26 +356,26 @@ Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese 
 
 **B)** Wenn Sie nachsehen möchten, wann welche Test-Lernressource im Kursbaustein ausgetauscht wurde, finden Sie eine Übersicht beim Button "Ersetzen". Klicken Sie auf den kleinen Pfeil neben dem Button und dann auf "Verlauf anzeigen".
 
-![course_element_test_replace_resource2_v1_de.png](assets/course_element_test_replace_resource2_v1_de.png){ class="shadow" }
+![Link "Verlauf anzeigen" im Dropdown-Menü des Buttons "Ersetzen"](assets/course_element_test_replace_resource2_v1_de.png){ class="shadow lightbox" }
 
 
 In der angezeigten Liste können Sie nachvollziehen,
 
-![1_green_24.png](assets/1_green_24.png) wann die Lernressource ausgetauscht wurde ("Zugewiesen am")<br>
-![2_green_24.png](assets/2_green_24.png) von wem sie ausgewechselt wurde ("Zugewiesen von")<br>
-![3_green_24.png](assets/3_green_24.png) wie oft die Testlernressource von Teilnehmer:innen bearbeitet wurde ("Durchläufe in diesem Kurs").<br> Beachten Sie, dass die Anzahl der Durchläufe von verschiedenen Personen stammen kann, die den Test jeweils einmal gemacht haben. Es kann aber auch sein, dass eine Person den Test mehrfach bearbeitet hat. Die Mehrfachbearbeitungen zählen auch jeweils als Durchläufe.
+![Ziffer 1](assets/1_green_24.png) wann die Lernressource ausgetauscht wurde ("Zugewiesen am")<br>
+![Ziffer 2](assets/2_green_24.png) von wem sie ausgewechselt wurde ("Zugewiesen von")<br>
+![Ziffer 3](assets/3_green_24.png) wie oft die Testlernressource von Teilnehmer:innen bearbeitet wurde ("Durchläufe in diesem Kurs").<br> Beachten Sie, dass die Anzahl der Durchläufe von verschiedenen Personen stammen kann, die den Test jeweils einmal gemacht haben. Es kann aber auch sein, dass eine Person den Test mehrfach bearbeitet hat. Die Mehrfachbearbeitungen zählen auch jeweils als Durchläufe.
 
-![course_element_test_replace_resource3_v1_de.png](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow" }
+![Verlauf der Test-Ressourcen mit Zuweisungsdatum, zuweisender Person und Durchläufen](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow lightbox" }
 
 
 **C)** Wird die Test-Lernressource ausgewechselt, wird auch eine neue Teststatistik mit der neuen Test-Lernressource angelegt.
 Als Betreuer:in wählen Sie wie gewohnt den Test-Kursbaustein und den Tab "Teilnehmer:innen". Hier wird der Button "Test Statistiken" angezeigt. 
 
-![course_element_test_replace_statistic1_v1_de.png](assets/course_element_test_replace_statistic1_v1_de.png){ class="shadow" }
+![Button "Test Statistiken" im Tab "Teilnehmer:innen" des Test-Kursbausteins](assets/course_element_test_replace_statistic1_v1_de.png){ class="shadow lightbox" }
 
 Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wechsel zwischen den Statistiken der verschiedenen Testversionen (verwendeten Test-Lernressourcen) angezeigt. 
 
-![course_element_test_replace_statistic2_v1_de.png](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow" }
+![Auswahl der Testversion in den Test Statistiken nach Austausch der Test-Lernressource](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "Hinweis"
@@ -405,7 +405,7 @@ Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine 
 
 Enthält der Test Freitextfragen und wurde die Option **"Erweitert – mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt.
 
-![Export-Optionen für den Kursbaustein Test im Wizard-Schritt Einstellungen der Kursarchivierung](assets/course_element_test_archive_export_v1_de.png){ class="shadow" }
+![Export-Optionen für den Kursbaustein Test im Wizard-Schritt Einstellungen der Kursarchivierung](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" }
 
 Weiterhin erhalten bleibt die Möglichkeit die Rohdaten von Tests über die Test Statistiken im Bereich Administration herunterzuladen. Auch die grafische Auswertung ist hier zu finden.
 
@@ -441,7 +441,7 @@ Tests können unter anderem in folgenden Szenarien eingesetzt werden:
 
 Wechseln wir noch in die Lernendenperspektive. Um mit der Bearbeitung eines Tests zu beginnen drücken Sie "Test starten". Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden (ausgefüllt), welche Fragen nur angeschaut (Kreis hervorgehoben)wurden und welche noch gar nicht angeklickt wurden (ohne Markierung).
 
-![test_show_answeroverview_V1_de](assets/test_show_answeroverview_V1_de.png)
+![Fragenübersicht in der linken Navigation mit beantworteten, angeschauten und offenen Fragen](assets/test_show_answeroverview_V1_de.png){ class="shadow lightbox" }
 
 Je nach Einstellung können Sie über den Button "Nächste Frage" und/oder einem Link in der linken Navigation weiter navigieren oder es wird automatisch die nächste Frage angezeigt. Ob Sie Fragen überspringen können oder Sie einen Beantwortungsfortschritt sehen, ist ebenfalls von der Konfiguration des Lehrenden abhängig. Je nach Konfiguration dürfen Sie den Test unterbrechen und zu einem späteren Zeitpunkt fortfahren oder generell abbrechen ohne dass Resultate gespeichert werden.
 
@@ -451,7 +451,7 @@ Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klick
 
 Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen ist von der Test-Konfiguration abhängig.
 
-![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg)
+![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" }
 
 Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, können Sie mit "Test starten" den Test noch einmal durchlaufen. Bisherige Durchläufe bleiben dabei erhalten.
 
@@ -463,8 +463,25 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 
 ## Weiterführende Informationen {: #further_information}
 
-[Einstellen der Lösungsversuche für Fragen >](../learningresources/Configure_test_questions.de.md#score)<br>
-[Einstellen der Lösungsversuche für Sektionen >](../learningresources/Configure_tests.de.md#section)
-[Einstellen der Lösungsversuche für Test-Lernressourcen >](../learningresources/Test_settings.de.md#settings)<br>
+**Auf dieser Seite erwähnt**<br>
+[Test Fragetypen >](Test_question_types.de.md)<br>
+[Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)<br>
+[Tests erstellen >](Test.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Test Einstellungen - Administration >](Test_settings.de.md)<br>
+[Test konfigurieren >](Configure_tests.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbaustein "E-Mail" >](Course_Element_EMail.de.md)<br>
+[Erinnerungen >](Course_Reminders.de.md)<br>
+[Badges >](OpenBadges.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
+[Test Statistiken >](Statistics_Test.de.md)<br>
+[Einstellen der Lösungsversuche für Fragen >](Configure_test_questions.de.md)<br>
+
+**Weiterführend**<br>
+[Tests exportieren >](Test_export.de.md)
 
 [Zum Seitenanfang ^](#course_element_test)

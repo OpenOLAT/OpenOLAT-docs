@@ -16,14 +16,14 @@ In the assessment tool, assessments can be made for the following course element
 Here, the general aspects are explained first and then the specifics of the individual assessable course elements with the associated assessment forms are addressed. The evaluation of assignments/group tasks and tests can be found on separate pages. 
 
 ## The 3-point menu
-![The 3-point menu test-participants](assets/Bewertungswerkzeug_3_Punkte_en.png){ class="shadow lightbox" }
+![Assessment tool menu of the course element with the actions "Show details / assess", "Finalize assessment" and "Release": 3-point menu in the assessment tool](assets/Bewertungswerkzeug_3_Punkte_en.png){ class="shadow lightbox" }
 
 The gear wheel icon provides key options in the assessment context. These include:
 
   * **Show details/assess:** To access the respective evaluations or test results.
-  
+
   * **Finalize assessment** or **Reopen assessment:** Depending on the previous status.
-  
+
   * **Release / Withdraw release** This allows learners to see or not see the results.
 
 The following options are additionally available for tests: 
@@ -36,35 +36,33 @@ The following options are additionally available for tests:
    * **Extend test time:** If the test is in "started" status.
   * **Retract running test:** This way the previously completed data will be used for assessment and can be viewed by the teacher.
 
- !!! note "Note"
+!!! tip "Tip"
 
     Make sure that the 3-point menu icon is displayed in the table overview. This gives you quick access to specific actions for assessing learners.
-
-
 
 ## Checklist
 The assessment of the course element "Checklist" includes the following options:
 
-![Checklist](assets/Bewertungswerkzeug_Checkliste172_en.png){ class="shadow lightbox" }
+![3-point menu with the three options "Show details / assess", "Reopen assessment" and "Withdraw release"](assets/Bewertungswerkzeug_Checkliste172_en.png){ class="shadow lightbox" }
 
-By clicking on the name of a user, you can get to the specific rating.
+By clicking on the name of a participant, you can get to the specific rating.
 
-The checkboxes of the individual users can be added manually and the assessment form can be filled in. Depending on the course element configuration, either points and/or the attribute "Passed" can be assigned. Further information on the checklist can be found [here](../learningresources/Course_Element_Checklist.md).
+The checkboxes of the individual participants can be added manually and the assessment form can be filled in. Depending on the course element configuration, either points and/or the attribute "Passed" can be assigned. Further information on the checklist can be found [here](../learningresources/Course_Element_Checklist.md).
 
-![Checkliste im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
+![Assessment form of the checklist with individually selectable checkboxes, added-up score and the result "Not passed": checklist assessment in the assessment tool](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
 
 ## Assessment
 The assessment of the course element "Assessment" includes the following options:
 
-![Assessment](assets/Bewertungswerkzeug_assessment_en.png){ class="shadow lightbox" }
+![Buttons "Reset all data" and "Start new bulk assessment" above the participant list: 3-point menu for the course element Assessment in the assessment tool](assets/Bewertungswerkzeug_assessment_en.png){ class="shadow lightbox" }
 
 The button "Statistics" is only available when using a rubric assessment.
 
 The button "Adjust rating scale" is only available if a rating scale has been activated for the course element in the course editor. 
 
-By clicking on the name of a user you will get to the concrete assessment. Here you fill in the corresponding assessment form and, if linked, use the assigned rubric assessment form.
+By clicking on the name of a participant you will get to the concrete assessment. Here you fill in the corresponding assessment form and, if linked, use the assigned rubric assessment form.
 
-![assessment form](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
+![Assessment form with four rubric criteria from "very poor" to "very good" as well as a score field and the status "Passed": assessment form for the course element Assessment](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
 If you have stored a [rubric](../learningresources/Form_Element_Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment.
 
@@ -73,11 +71,11 @@ In addition, bulk assessment is also possible for the course element "Assessment
 ## Portfolio task
 The assessment of the course element "[Portfolio task](../learningresources/Creating_Portfolio_Tasks.md)" includes the following options:
 
-![Portfolio task](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
+![3-point menu of the portfolio task with the actions "Show details / assess", "Set status 'completed'" and "Set results to not visible"](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
 
 The assessment for the portfolio is the same in the assessment tool as in the ["Assessment" tab in the portfolio](../learningresources/Portfolio_assignment_Grading.md) itself. However, the individual areas cannot be opened here, only assessed. It is therefore recommended to perform the assessment directly in the portfolio.
 
-![assessment of portfolio task](assets/Portfolioaufgabe172.png){ class="shadow lightbox" }
+![Portfolio binder with the areas Design principles, Tools and Online moderation, each with a number of entries and the status "Passed": assessment of a portfolio task in the assessment tool](assets/Portfolioaufgabe172.png){ class="shadow lightbox" }
 
 ## Course element "Structure" or total course assessment
 
@@ -85,13 +83,32 @@ The course element "Structure" also appears in the assessment tool. If points ha
 
 For learning path courses, the results of all subordinate assessment elements are automatically taken into account. For conventional courses, the course elements to be taken into account can be specifically selected in the course editor in the "Points" tab. The top course element is also a structural element, therefore the points of the entire course are added up here.
 
-!!! note "Hint"
+!!! tip "Tip"
 
     The display of scores per structure module is always useful if you want to automatically calculate a combination of scores for the entire course or for certain sections.
 
 ## Integrated external modules
-###  SCORM
+### SCORM
 For the SCORM element the assessment form can be filled in. It is important that either Score or Transfer Passed is selected in the course element under Learning Content. More information can be found [here](../learningresources/Course_Element_SCORM_Learning_Content.md).
 
 ### LTI
 The assessment form can also be filled out and customized for the LTI element. In the course element under Page content, it is mandatory that "Transfer points" is selected. Depending on this, a scaling factor must be entered and the passing score defined. Further information on configuring LTI pages can be found [here](../learningresources/Course_Element_LTI_Page.md).
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
+[Assessing tests >](Assessing_tests.md)<br>
+[Course Element "Checklist" >](Course_Element_Checklist.md)<br>
+[The form element rubric >](Form_Element_Rubric.md)<br>
+[Creating Portfolio Tasks >](Creating_Portfolio_Tasks.md)<br>
+[Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
+[Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
+[Course Element "LTI Page" >](Course_Element_LTI_Page.md)
+
+**Further**<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course Element "Structure" >](Course_Element_Structure.md)<br>
+[Assessment tool - reset data >](Assessment_tool_reset_data.md)
+
+[To the top of the page ^](#assessment-of-course-modules)

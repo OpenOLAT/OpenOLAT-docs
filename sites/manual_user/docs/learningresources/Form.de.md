@@ -2,9 +2,9 @@
 
 Formulare lassen sich in OpenOlat auf vielfältige Weise nutzen:  
 
-* als klassische Formulare (mit Auswahlfeldern oder Freitexteingaben)  
-* für Online-Umfragen  
-* als Bewertungsrubrics
+* als klassische Formulare (mit Auswahlfeldern oder Freitexteingaben)
+* für Online-Umfragen
+* als Rubrik-Bewertung
 * oder zur Selbsteinschätzung  
 
 Welche Variante sinnvoll ist, hängt von Ihren Zielen und dem Einsatzszenario ab.

@@ -50,21 +50,27 @@ The following variables can be used in the subject and text of the e-mail:
 
 | Variable | Description |
 | ---|--- |
-| `$firstname` |The users first name | 
-| `$lastname` | The users last name  |
-| `$fullName` | The users full name  |
-| `$username` | The users username  |
-| `$email` | The users email adress  |
+| `$firstname` | The participant's first name | 
+| `$lastname` | The participant's last name  |
+| `$fullName` | The participant's full name  |
+| `$username` | The username  |
+| `$email` | The participant's e-mail address  |
 | `$courseurl` | The internet address of the course  |
 | `$coursename`| The name of the course as defined in the course info page  |
 | `$coursedescription` | The description of the course as defined in the course info page  |
-  
-!!! info ""
+
+!!! note "Note"
 
     The user variables refer to the person who triggers and sends the e-mail via the **"Send" button**.
 
 By means of a suitable short title for the course element "E-mail", you can provide your course participants with information to whom they can send messages. For privacy reasons they will not be able to see the recipients' addresses in your e-mail form.
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Course_Settings.md#tab-toolbar).
+    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Course_Settings.md#toolbar).
+
+## Further information {: #further_information}
+
+[Course settings - Toolbar tab](../learningresources/Course_Settings.md)
+
+[To the top of the page ^](#mail)

@@ -21,9 +21,19 @@ Diese Einbindung ist eine Alternative gegenüber der Einbindung des Kalenders in
 Standardmässig dürfen nur Besitzer und Betreuer Termine erstellen. Alle Kursteilnehmer dürfen jedoch Kalendereinträge lesen. Im Tab "Kalender-Konfiguration" können Sie definieren, ob neben den Kursbesitzern auch Teilnehmer und Betreuer des Kurses Kalendereinträge einstellen und bearbeiten dürfen. Ferner können Sie hier konfigurieren, welches Datum angezeigt wird, wenn der Kurskalender aus der Kursstruktur aufgerufen wird. Kurskalender werden automatisch den [persönlichen Kalendern](../personal_menu/Calendar.de.md) der Kursteilnehmer hinzugefügt.
 
 Wenn Sie im Kalender jeweils eine Semesterwoche anzeigen und Links auf Kursbausteine einfügen, dient der Kalender als Übersichtsseite auf die Termine und Aufgaben der Woche.
-  
-Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale Wahl darstellt. In vielen Fällen, insbesondere bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md), ist es sinnvoller in den Einstellungen den Kalender in der [Toolbar](../learningresources/Course_Settings.de.md#tab-toolbar) zu aktivieren.
+
+Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale Wahl darstellt. In vielen Fällen, insbesondere bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md), ist es sinnvoller in den Einstellungen den Kalender in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar) zu aktivieren.
 
 !!! tip "Tipp"
 
     Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Kalender" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+[Zum Seitenanfang ^](#cal)

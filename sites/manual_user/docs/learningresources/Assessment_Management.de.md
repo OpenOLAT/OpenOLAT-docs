@@ -1,10 +1,10 @@
 # Prüfungsverwaltung: Übersicht {: #Assessment_Management}
 
-:octicons-tag-24: Release 18.2
+:octicons-tag-16: Release 18.2
 
-Die Prüfungsverwaltung umfasst die Konfiguration des **Prüfungsmodus** und die Konfiguration der **Prüfungseinsicht**. 
+Die Prüfungsverwaltung umfasst die Konfiguration des [**Prüfungsmodus**](Assessment_mode.de.md) und die Konfiguration der [**Prüfungseinsicht**](Assessment_inspection.de.md). 
 
-Sie finden die beiden Tabs in der **Kursadministration > Prüfungsverwaltung**. 
+Sie finden die beiden Tabs unter `Kurs > Administration > Prüfungsverwaltung`. 
 
-![assessment_management_overview_v1_de.png](assets/assessment_management_overview_v1_de.png){ class="shadow lightbox" }
+![Tabs Prüfungsmodus und Prüfungseinsicht im Werkzeug Prüfungsverwaltung der Kursadministration](assets/assessment_management_overview_v1_de.png){ class="shadow lightbox" }
 

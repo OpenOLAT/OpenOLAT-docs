@@ -22,18 +22,18 @@ Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährl
 ## 1. Setup "External Tool" in Moodle 
 
 Die Administration der externen Tools in Moodle befinden sich unter folgendem Pfad:<br>
-**Site administration > Plugins > External Tool > Manage Tools**
+`Site administration > Plugins > External Tool > Manage Tools`
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup1_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup1_v1_en.png" alt="Eintrag External tool mit Manage tools, im Menü Plugins der Site administration in Moodle" />
 </details>
 
 Für die Konfiguration mit OpenOlat ist die Option "**configure a tool manually**" zu wählen.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup2_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup2_v1_en.png" alt="Der Link 'configure a tool manually' zum manuellen Anlegen eines externen Tools, im Dialog Manage tools in Moodle" />
 </details>
 
 Folgende Parameter sind als Mindestanforderung im Dialog zu definieren:
@@ -45,7 +45,7 @@ Folgende Parameter sind als Mindestanforderung im Dialog zu definieren:
 | LTI Version			| LTI 1.3 |
 | Client ID				| Wird erst nach dem Speichern in dieser Maske ersichtlich |
 | Public key type		| RSA key |
-| Public key			| Wird in OpenOlat generiert – kann erst nachträglich eingetragen werden |
+| Public key			| Wird in OpenOlat generiert, kann erst nachträglich eingetragen werden |
 | Initiate Login URL	| Anmelde-URL (Form: hdps://<OpenOlat- URL/lT/login_iniTaTon) |
 | Redirection URL(s)	| Umleitungs-URL (Form: hdps://<OpenOlat-URL/lT/login) |
 | Tool Configuration Usage| Show in actvity chooser and as a preconfigured tool |
@@ -53,14 +53,14 @@ Folgende Parameter sind als Mindestanforderung im Dialog zu definieren:
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup3_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup3_v1_en.png" alt="Ausgefülltes Formular External tool configuration mit Tool-URL, LTI-Version und öffentlichem Schlüssel, in Moodle" />
 </details>
 
 Nach dem Speichern können Sie weitere Details in der Übersicht über den Detail-Link im LTI-Tool abrufen. Die Details werden beim Setup der externen Plattform in OpenOlat benötigt:
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup4_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup4_v1_en.png" alt="Tool configuration details mit Platform-ID, Client-ID und Deployment-ID, in der Tool-Übersicht in Moodle" />
 </details>
 
 
@@ -69,11 +69,11 @@ Nach dem Speichern können Sie weitere Details in der Übersicht über den Detai
 ## 2. Setup "externe Plattform" in OpenOlat
 
 Die Administration von LTI 1.3 befindet sich in OpenOlat unter folgendem Pfad:<br>
-**Administration > Externe Werkzeuge > LTI 1.3**
+`Administration > Externe Werkzeuge > LTI`
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup5_v2_de.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup5_v2_de.png" alt="Modul 'LTI 1.3' mit Plattform-ID und Organisation, im Tab Konfiguration unter Externe Werkzeuge > LTI der System-Administration" />
 </details>
 
 Unter “Externe Plattorm” kann die Moodle-Instanz erfasst werden:
@@ -93,7 +93,7 @@ Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf Moodle 
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup6_v2_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup6_v2_en.png" alt="Ausgefülltes Formular zum Bearbeiten der Plattform mit Plattform-ID, Client-ID und öffentlichem Schlüssel, im Dialog Plattform editieren in OpenOlat" />
 </details>
 
 <br>
@@ -101,11 +101,11 @@ Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf Moodle 
 ## 3. LTI-Freigabe des Kurses in OpenOlat
 
 Die Freigabe eines OpenOlat-Kurses (oder einer OpenOlat-Gruppe) erfolgt in den Einstellungen unter folgendem Pfad:<br>
-**OpenOlat-Kurs > Einstellungen > Tab Freigabe > LTI 1.3 Zugangskonfiguration**
+`OpenOlat-Kurs > Einstellungen > Tab "Freigabe" > LTI 1.3 Zugangskonfiguration`
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup7_v2_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup7_v2_en.png" alt="Abschnitt LTI 1.3 Zugangskonfiguration mit dem eingerichteten Deployment, im Tab Freigabe der Kurseinstellungen" />
 </details>
 
 
@@ -118,7 +118,7 @@ Ergänzen Sie ein Deployment für den Kurs (oder die Gruppe):
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup8_v2_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup8_v2_en.png" alt="Ausgefülltes Formular Neues Tool hinzufügen mit Plattform und Deployment-ID, im Dialog für ein neues Deployment in OpenOlat" />
 </details>
 
 <br>
@@ -129,14 +129,14 @@ Im Moodle-Kurs kann nun das externe Tool (OpenOlat) eingefügt werden.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup9_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup9_v1_en.png" alt="Suche nach External tool im Dialog Add an activity or resource, im Moodle-Kurs" />
 </details>
 
 Der konfigurierte OpenOlat-Kurs lässt sich hier im externen Tool auf Moodle als "preconfigured tool" auswählen.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup10_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup10_v1_en.png" alt="Auswahl des vorkonfigurierten Tools im Feld Preconfigured tool, beim Hinzufügen des externen Tools im Moodle-Kurs" />
 </details>
 
 
@@ -148,7 +148,7 @@ Ob die Konfiguration geklappt hat, ist mit einem einfachen Test-Aufruf möglich.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup11_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup11_v1_en.png" alt="Das eingebundene externe Tool im Kursbereich General, im Moodle-Kurs" />
 </details>
 
 Der Link in Moodle sollte den gewünschten OpenOlat-Kurs in einem neuen Fenster öffnen. 
@@ -158,29 +158,23 @@ Der Link in Moodle sollte den gewünschten OpenOlat-Kurs in einem neuen Fenster 
 	Wenn Sie schon in einem anderen Tab in OpenOlat eingeloggt sind, werden Sie dort ausgeloggt.  
 
 
-Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifizieren – der LTI-Aufruf hat einen neuen LTI-Benutzer angelegt und einer LTI-Gruppe hinzugefügt:
+Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifizieren: Der LTI-Aufruf hat einen neuen LTI-Benutzer angelegt und einer LTI-Gruppe hinzugefügt:
 
-![LTI_share_coures_moodle-setup12_v1_en.png](assets/LTI_share_coures_moodle-setup12_v1_en.png){ class="shadow lightbox" }
+![Neu angelegter LTI-Benutzer mit der Rolle Gruppenbetreuer:in in der LTI-Gruppe, in der Mitgliederverwaltung des Kurses](assets/LTI_share_coures_moodle-setup12_v1_en.png){ class="shadow lightbox" }
 
 
 ## Externe Kurse im Bewertungswerkzeug
 
-Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angepasst werden. Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/).
+Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angepasst werden. Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../../manual_user/learningresources/Course_Element_LTI_Page.de.md).
 
+## Weiterführende Informationen {: #further_information}
 
-
-##  Weiterführende Informationen {: #further_information}
-
-Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)
-
-Benutzerhandbuch: [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
-
-Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)
-
-Administrationshandbuch: [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)
-
-Administrationshandbuch: [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)
-
-Administrationshandbuch: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
-
+Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)<br>
+Benutzerhandbuch: [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
+Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+Administrationshandbuch: [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
+Administrationshandbuch: [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
+Administrationshandbuch: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
 Administrationshandbuch: [LTI - Rollen-Mapping](../../manual_admin/administration/LTI_Role_Mapping.de.md)
+
+[Zum Seitenanfang ^](#LTI_share_course)

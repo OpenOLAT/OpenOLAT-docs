@@ -33,7 +33,7 @@ As an owner, you also have the option to set up reminders, unlike coaches in Run
 
 ## Editing in the editor {: #editor}
 
-As a course owner, you can create and edit the “SCORM 1.2” course object just like any other course object by opening the **Course Editor** under **Administration**. You can then configure the settings further using the tabs.
+As a course owner, you can create and edit the “SCORM 1.2” course object just like any other course object in the course editor: `Course > Administration > Course editor`. You can then configure the settings further using the tabs.
 
 
 ### "Learning Content" tab {: #editor_tab_learning_content}
@@ -189,6 +189,7 @@ If the course owner has enabled badge awarding under `Course > Administration > 
 ## Further information {: #further_information}
 
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
 [Knowledge Transfer >](Knowledge_Transfer.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>

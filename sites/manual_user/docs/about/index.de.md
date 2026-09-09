@@ -21,7 +21,7 @@ Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat Handbu
 
 !!! info "Wichtig"
 
-    Falls der Link nicht erscheint, wurde er bei den persönlichen Werkzeugen in den persönlichen [Einstellungen](../personal_menu/Settings.de.md) ausgeblendet.
+    Falls der Link nicht erscheint, wird er bei den persönlichen Werkzeugen in den persönlichen [Einstellungen](../personal_menu/Settings.de.md) ausgeblendet.
 
 #### :o_icon_o_icon_help: Kontextsensitive Hilfe
 
@@ -32,19 +32,19 @@ Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch zu
 
 Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen, die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B. einzelnen Formularfeldern geben. Wenn Sie dieses Icon :o_icon_o_icon_help: neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines Tests im Kurseditor:
 
-![](assets/example_questionmark.de.png){ class="shadow" width=400px }
+![Tooltip zum Feld Korrektur mit Erklärung zu automatischer und manueller Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px }
 
 
 #### Hellgrauer Text innerhalb von Feldern...
 
-![](assets/help_gui_demo.de.png){ class="shadow" width=150px }
+![Eingabefeld mit hellgrauem Platzhaltertext "Suchen" als Hinweis zum Ausfüllen](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen,
 
 
 #### Hellgrauer Text unterhalb von Feldern 
 
-![](assets/help_gui_demo1.de.png){ class="shadow" width=420px }
+![Feld "Titel im Kursmenü" mit hellgrauem Hinweistext "Max. 25 Zeichen" darunter](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px }
 
 stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 
@@ -66,9 +66,9 @@ Seit 2015 wird das Handbuch von der Firma [frentix GmbH](https://www.frentix.com
 
 In der langen Zeit der Entwicklung des Handbuches waren viele Personen involviert. Bitte respektieren Sie das geistige Eigentum und die Lizenz, unter der das Handbuch veröffentlicht wird. 
 
-!!! info ""
-	Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
-	<http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
+!!! info "Wichtig"
+    Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
+    <http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
 
 ##### Verantwortliche Personen (sortiert nach Vorname):
 

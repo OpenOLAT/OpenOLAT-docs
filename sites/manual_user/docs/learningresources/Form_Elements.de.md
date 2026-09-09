@@ -2,7 +2,7 @@
 
 In ein Formular können Sie über den Link "Inhalt hinzufügen" die folgenden Inhaltselemente  einem Layout hinzufügen:
 
-![form_content_types_v1_de.png](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
+![Popup "Inhalt hinzufügen" mit den Inhaltselementen des Formular-Editors, gruppiert nach Text, Fragetypen, Organisatorisch, Medien sowie Andere und Design](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
 
 Generell können alle Elemente aus dem Bereich "Fragetypen" als obligatorisch oder freiwillig konfiguriert werden. Obligatorisch bedeutet, dass die Teilnehmenden dieses Element zwingend ausfüllen müssen um das Formular final speichern zu können. Bei "freiwillig" kann das Formular auch gespeichert werden, wenn das Element nicht ausgefüllt wurde. 
 
@@ -14,7 +14,7 @@ Ferner können viele Elemente im Tab "Style" mit einer speziellen *Hinweisbox* v
 
 Das Inhaltselement "Titel" verwenden Sie für Überschriften. Sie können für die Schriftgrösse vordefinierte Formatierungen von h1 bis h6 auswählen.
 
-![form_content_title_v1_de.png](assets/form_content_title_v1_de.png){ class="shadow lightbox" }
+![Inspektor des Titel-Elements im Formular-Editor mit dem Tab "Style" und der Auswahl der Schriftgrösse](assets/form_content_title_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -24,7 +24,7 @@ Das Inhaltselement "Titel" verwenden Sie für Überschriften. Sie können für d
 
 Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen oder Fragen einem Formular hinzugefügt werden. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, Hinzufügen von Aufzählungspunkten, usw...
 
-![form_content_text_v1_de.png](assets/form_content_text_v1_de.png){ class="shadow lightbox" }
+![Text-Element mit Editor-Symbolleiste im Formular sowie dem Inspektor mit Spaltenzahl und Hinweis-Box](assets/form_content_text_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#form_elements)
@@ -36,7 +36,7 @@ Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen 
 
 Fügen Sie bei Bedarf dem Formular eine Tabelle hinzu und konfigurieren Sie diese.
 
-![form_content_table_v1_de.png](assets/form_content_table_v1_de.png){ class="shadow lightbox" }
+![Tabellen-Element im Formular mit dem Inspektor zur Konfiguration von Zeilen, Spalten, Kopfspalte, Kopfzeile und Rahmenstil](assets/form_content_table_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#form_elements)
@@ -50,7 +50,7 @@ Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varia
 
 Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements](Form_Element_Rubric.de.md).
 
-![Rubrik Element](assets/Rubrik.jpg){ class="shadow lightbox" }
+![Rubrik-Element mit Statements in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten, im Formular-Editor mit geöffnetem Inspektor](assets/Rubrik.jpg){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -58,13 +58,13 @@ Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements
 
 ## Einzelauswahl {: #form_element_sc}
 
-In einer Einzelauswahl (Single-Choice) muss von den Kursteilnehmenden genau 1 Option aus einer Liste ausgewählt werden.
+In einer Einzelauswahl (Single-Choice) muss von den Teilnehmenden genau 1 Option aus einer Liste ausgewählt werden.
 
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
 * Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. 
 
-!!! Tip "Hinweis"
+!!! tip "Tipp"
 
     Soll die Auswahl mit einer Fragestellung verknüpft werden müssen Sie dafür ein separates Text-Element verwenden. Gleiches gilt für die Mehrfachauswahl.
 
@@ -72,7 +72,7 @@ Die Einzelauswahl kann auch als Basis (Bedingung) für die [Frageregeln](Form_Qu
 
 Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei den Frageregeln den Überblick behalten.
 
-![form_content_sc_v1_de.png](assets/form_content_sc_v1_de.png){ class="shadow lightbox" }
+![Einzelauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und Pflichtangabe](assets/form_content_sc_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -80,7 +80,7 @@ Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei de
 
 ## Mehrfachauswahl {: #form_element_mc}
 
-In einer Mehrfachauswahl (Multiple-Choice) können von den Kursteilnehmenden mehrere Optionen aus einer Liste ausgewählt werden.
+In einer Mehrfachauswahl (Multiple-Choice) können von den Teilnehmenden mehrere Optionen aus einer Liste ausgewählt werden.
 
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
@@ -93,7 +93,7 @@ Die Mehrfachauswahl kann auch als Basis (Bedingung) für die [Frageregeln](Form_
 Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei den Frageregeln den Überblick behalten.
 
 
-![form_content_mc_v1_de.png](assets/form_content_mc_v1_de.png){ class="shadow lightbox" }
+![Mehrfachauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und die Option "weitere Werte erfassen"](assets/form_content_mc_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -106,7 +106,7 @@ Mit diesem Element erhalten die Teilnehmenden die Möglichkeit selbst Text im Fo
 * Formularersteller:innen können festlegen, welche Eingaben erlaubt sind (Text, nur Zahlen, nur Datum).
 * Das Eingabefeld kann ein- oder mehrzeilig angeboten werden.
 
-![form_content_text_input_v1_de.png](assets/form_content_text_input_v1_de.png){ class="shadow lightbox" }
+![Texteingabe-Element im Formular mit dem Inspektor für erlaubte Werte, Zeilentyp und Anzahl Zeilen](assets/form_content_text_input_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -119,7 +119,7 @@ Mit diesem Element erhalten die Lernenden die Möglichkeit, Dateien hochzuladen.
 * Lehrende können die Dateigrösse begrenzen.
 * Der Upload kann auf bestimmte Dateitypen begrenzt werden (z.B. pdf oder Bild-Dateien).
 
-![form_content_file_upload_v1_de.png](assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" }
+![Datei-hochladen-Element im Formular mit dem Inspektor für maximale Dateigrösse und erlaubten Dateityp](assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -132,14 +132,14 @@ Mit dem Inhaltselement "Informationen" können weitere benutzerspezifische Infor
 Es kann eine der folgenden 3 Varianten ausgewählt werden:
 
 a) die Angaben sind freiwillig (optional)<br>
-b) die Angaben müssen vom Benutzer verpflichtend ausgefüllt werden (obligatorisch)<br>
+b) die Angaben müssen von den Teilnehmenden verpflichtend ausgefüllt werden (obligatorisch)<br>
 c) die Angaben sind bereits automatisch eingetragen (nicht veränderbar)
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Beachten Sie: Durch diese Informationen verliert das Formular seine Anonymität.
 
-![form_content_info_v1_de.png](assets/form_content_info_v1_de.png){ class="shadow lightbox" }
+![Informationen-Element im Formular mit den ankreuzbaren Angaben wie Vorname und E-Mail sowie der Auswahl "Obligatorisch, automatisch ausgefüllt und nicht bearbeitbar"](assets/form_content_info_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -149,7 +149,7 @@ c) die Angaben sind bereits automatisch eingetragen (nicht veränderbar)
 
 Dieses Element fügt dem Formular eine Einverständniserklärung hinzu, die von den Benutzer:innen abgehakt werden muss. Ansonsten ist nur ein Zwischenspeichern aber keine Abgabe des Formulars möglich.
 
-![form_content_terms_of_use_v1_de.png](assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" }
+![Nutzungsbedingungen-Element im Formular mit Einverständniserklärung und Beschriftung der Checkbox](assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -159,7 +159,7 @@ Dieses Element fügt dem Formular eine Einverständniserklärung hinzu, die von 
 
 Wenn Sie nach Klick auf "Inhalte einfügen" im Popup mit der Übersicht der Inhaltselemente "Bild" auswählen, werden Sie zunächst aufgefordert eine Bild-Datei hochzuladen. Erst nach dem Upload gelangen Sie wieder in den Editor und es werden das Bild-Element und der Inspektor angezeigt.
 
-![form_content_picture_v1_de.png](assets/form_content_picture_v1_de.png){ class="shadow lightbox" }
+![Bild-Element im Formular mit hochgeladenem Bild sowie dem Inspektor für Ausrichtung, Bildgrösse und Stil im Tab "Stil"](assets/form_content_picture_v1_de.png){ class="shadow lightbox" }
 
 
 Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
@@ -195,7 +195,7 @@ Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
 Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche.
 
 
-![form_content_separator_v1_de.png](assets/form_content_separator_v1_de.png){ class="shadow lightbox" }
+![Separator als Trennlinie zwischen zwei Text-Elementen im Formular](assets/form_content_separator_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -204,7 +204,7 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 Kein Inhaltselement aber eine interessante Funktion, die für viele Inhaltselemente wie Text, Tabelle, Bild, Rubrik, Nutzungsbedingungen usw. zur Verfügung steht ist die Hinweis-Box. Sie wird im Tab "Style" aktiviert und hilft ein Element besonders hervorzuheben.  
 
-![form_content_text_box_v1_de.png](assets/form_content_text_box_v1_de.png){ class="shadow lightbox" }
+![Hinweis-Box um ein Text-Element aktiviert, mit dem Inspektor für Typ, Titel, Icon und Farbe der Box](assets/form_content_text_box_v1_de.png){ class="shadow lightbox" }
 
 Es werden die nachfolgenden Optionen zur Konfiguration angeboten.
 
@@ -234,10 +234,12 @@ Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick
 
 ---
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
 [Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Der Formular-Editor](Form_Editor.de.md)<br>
 [Das Formular-Element Rubrik](Form_Element_Rubric.de.md)<br>
 [Einrichtung von Frageregeln im Formular](Form_Question_Rules.de.md)<br>
+
+[zum Seitenanfang ^](#form_elements)
 

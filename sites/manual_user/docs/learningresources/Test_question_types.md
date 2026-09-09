@@ -6,17 +6,17 @@ The question types marked with an * must be evaluated manually.
 
 ## :o_icon_o_mi_qtisc: Single Choice {: #sc}
 
-A single-choice question consists of a question and answers, of which only one can be selected. In a test only one of those two answers is correct.
+A single-choice question consists of a question and answers, of which only one can be selected. In a test only one answer is correct.
 
 First a short title and a question are inserted.
 
-Afterward it needs to be selected, if the questions should be shuffled, if the alignment of the questions is vertically or horizontally and if the checkboxes are aligned left or right.
+Afterward it needs to be selected, if the order of the answers should be shuffled, if the alignment of the answers is vertical or horizontal and if the checkboxes are aligned left or right.
 
 Then the answer texts can be added. Additional answers can be added with the button :o_icon_o_icon_add:. Answers can be deleted with the button :o_icon_o_icon_delete:.
 
-The correct answer can be selected in column _Correct Answer_. The order of the questions can be changed with the arrows.
+The correct answer can be selected in column _Correct Answer_. The order of the answers can be changed with the arrows.
 
-![Example Single Choice Question](assets/Single_choice_Beispiel.gif){ class="shadow lightbox" }
+![Single-choice question with three answer options and a radio button in front of each](assets/Single_choice_Beispiel.gif){ class="shadow lightbox" }
 
 ---
 
@@ -24,16 +24,16 @@ The correct answer can be selected in column _Correct Answer_. The order of the 
 
 A multiple-choice question comprises one question and at least two answers; several answers can be selected. In a test several answers can be correct.
 
-![Example Multiple Choice Question](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
+![Multiple-choice question with five answer options and a checkbox in front of each](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow lightbox" }
 
 **Tab "Choice"**<br>
 First a short title and a question are inserted.
 
-Afterward it need to be selected, if the questions should be shuffled, if the alignment of the questions is vertically or horizontally and if the check-boxes are aligned left or right.
+Afterward it needs to be selected, if the order of the answers should be shuffled, if the alignment of the answers is vertical or horizontal and if the checkboxes are aligned left or right.
 
 Then the answer texts can be added. Additional answers can be added with the button :o_icon_o_icon_add:. Answers can be deleted with the button :o_icon_o_icon_delete:.
 
-The correct answers can be selected in column _Correct Answer_. The order of the questions can be changed with the arrows.
+The correct answers can be selected in column _Correct Answer_. The order of the answers can be changed with the arrows.
 
 
 **Tab "Score"**<br>
@@ -53,19 +53,19 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 
 **Tab "Feedback"**<br>
-Furthermore, in the "Feedback" tab, the number of response options for the user can be defined in addition to the exact point allocation.
+Furthermore, in the "Feedback" tab, the number of response options for the candidate can be defined in addition to the exact point allocation.
 
 ---
 
 ## :o_icon_o_mi_qtikprim: Kprim {: #kprim}
 
-A Kprim question can only be used in a test. It comprises one questions and exactly four answers. The one taking that test has to decide for every single answer if it is correct or not. 0 to 4 answers can be correct.
+A Kprim question always consists of one question and exactly four answers. For each of these four answers, the candidate has to decide whether it is correct or not. 0 to 4 answers can be correct.
 
 First a short title and a question are inserted.
 
-Afterward it needs to be selected, if the questions should be shuffled and if the check-boxes are aligned left or right.
+Afterward it needs to be selected, if the order of the answers should be shuffled and if the checkboxes are aligned left or right.
 
-Then answer texts can be inserted. The order of the questions can be changed with the arrows. No more answers can be added and no answers can be deleted. For every answer it must be chosen, if it is true or false.
+Then answer texts can be inserted. The order of the answers can be changed with the arrows. No more answers can be added and no answers can be deleted. For every answer it must be chosen, if it is true or false.
 
 For the assessment, the following score can be reached:
 
@@ -73,7 +73,7 @@ All correct answers = 100% score<br>
 3 correct answers = 50% score<br>
 2, 1 or 0 correct answers = 0% score
 
-![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow lightbox" }
+![Kprim question with four statements and one column for True and one for False](assets/KPrim_Beispiel.jpeg){ class="shadow lightbox" }
 
 ---
 
@@ -81,18 +81,17 @@ All correct answers = 100% score<br>
 
 A matrix question consists of several rows and columns, where the answer can be filled in for every row, either as single choice or as multiple choice.
 
-![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow lightbox" }
+![Matrix question with four rows and two columns with a checkbox in each cell](assets/Matrix_Beispiel.png){ class="shadow lightbox" }
 
 **Tab "Match"**<br>
 Again first a title and the question are inserted.
 
-Afterwards, it needs to be selected, if the questions should be shuffled and if the answers are single or multiple choice.
+Afterwards, it needs to be selected, if the order of the answers should be shuffled and if the answers are single or multiple choice.
 
 Then values can be added in the columns as well as in the rows. If more columns or rows are needed, they can be added with the corresponding button. Finally, the correct answer needs to be selected per row. For single choice it is one answer per row, for multiple choice several answers per row are possible.
 
-
 **Tab "Score"**<br>
-3 assessment methods are supported for MC questions:
+3 assessment methods are supported for this question type:
 
 * **All correct answers**<br>
 To receive the full score, all correct answers must be selected. If one or more correct answers are not selected or one or more incorrect answers are selected, the final score will be 0.
@@ -108,24 +107,23 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 ## :o_icon_o_mi_qtimatch_draganddrop: Drag&Drop [:octicons-tag-16:{ title="from Release 11.5 (OO-2732)" }](https://track.frentix.com/issue/OO-2732) {: #drag_drop}
 
-In general the Drag&Drop questions has the same behavior as the matrix question. However, the test participants do not select the checkboxes, but move the items in the corresponding category.
+In general the Drag&Drop questions has the same behavior as the matrix question. However, the candidates do not select checkboxes, but move the items into the corresponding category.
 
-![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow lightbox" }
+![Drag&Drop question with two categories on the left and four terms to assign on the right](assets/DragDrop_Beispiel.png){ class="shadow lightbox" }
 
 **Tab "Drag and drop"**<br>
 First a title and the question are inserted.
 
-Afterward it need to be selected, if the questions and categories should be shuffled.
+Afterward it needs to be selected, if the order of the terms and categories should be shuffled.
 
 If the type single choice is selected, every item can be dropped only once. For multiple choice every item can be dropped in every category once, but not twice in the same category.
 
 The alignment of the answers defines where the items in relation to the categories are set.
 
-Then, the columns categories will be defined. Categories are the fix elements where the items will be dropped into. In the rows the items are added. With drag&drop the items can be moved into the categories afterward.
-
+Then categories are defined in the columns. Categories are the fixed elements where the items will be dropped into. The items are added in the rows. With drag&drop the items can be moved into the categories afterward.
 
 **Tab "Score"**<br>
-3 assessment methods are supported for MC questions:
+3 assessment methods are supported for this question type:
 
 * **All correct answers**<br>
 To receive the full score, all correct answers must be selected. If one or more correct answers are not selected or one or more incorrect answers are selected, the final score will be 0.
@@ -140,7 +138,7 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 
 !!! info "Note: Restriction to mobile devices"
 
-    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
+    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that candidates work on at a desktop computer or laptop.
 
 ---
 
@@ -149,11 +147,11 @@ Score = maximum score * (number of correctly marked answers / number of correct 
 The question type True/False is similar to Kprim. In each line the
 corresponding statement has to be assessed.
 
-User can choose from three options: "Unanswered", "Right", "Wrong". "Unanswered" is selected by default. There is no option to add more columns.
+The candidates choose from three options: "Unanswered", "Right", "Wrong". "Unanswered" is selected by default. There is no option to add more columns.
 
 The scores can be defined as needed. You may even give points for the option "Unanswered".
 
-![Example True False Question](assets/True_false_Beispiel.png){ class="shadow lightbox" }
+![True/False question with four rows and the columns Unanswered, Right and Wrong](assets/True_false_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
@@ -168,21 +166,21 @@ For every gap the following settings can be made:
 * Solution: Fill in the correct and desired solution.
 * Alternative answers: With this toggle, further accepted solutions are entered as alternatives. "Add answer" adds one field at a time; "Add multiple" enters several alternatives at once, separated by a selectable delimiter.
 * Display:
-    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
+    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the candidate.
     * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
     * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed with placeholder and gap size.
 * Options: The "Correction" checkbox group defines how strictly the answers are corrected automatically:
     * Consider upper/lower case: If this option is selected, there is a case sensitivity. Otherwise it doesn't matter if a solution is written in upper or lower cases.
     * Ignore spaces: Additional spaces, tabs and line breaks in the answer do not lead to a devaluation. For example, with the solution "log in", an entry with a double space is also counted as correct. [:octicons-tag-16:{ title="from Release 21.0 (OO-9560)" }](https://track.frentix.com/issue/OO-9560)
-    * Wildcard: The character * stands for "something or nothing" in the solution and can also be used in the alternatives. For example, the solution "col*r" covers the spellings "color", "colour" and "colr". If participants enter a * themselves, it is treated as a normal character. A solution consisting only of wildcards is not accepted when saving. [:octicons-tag-16:{ title="from Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
+    * Wildcard: The character * stands for "something or nothing" in the solution and can also be used in the alternatives. For example, the solution "col*r" covers the spellings "color", "colour" and "colr". If candidates enter a * themselves, it is treated as a normal character. A solution consisting only of wildcards is not accepted when saving. [:octicons-tag-16:{ title="from Release 21.0 (OO-9384)" }](https://track.frentix.com/issue/OO-9384)
 
-![Dialog "Edit gap" with the correction options](assets/Lueckentext_Dialog_Korrektur_en.png){ class="shadow lightbox" }
+![Dialog "Edit gap" with the wildcard solution "col*r" and the correction options](assets/Lueckentext_Dialog_Korrektur_en.png){ class="shadow lightbox" }
 
 The points can be chosen freely. Points can also be awarded for alternative answers.
 
 If at least two gaps contain an identical answer option, the "Allow twice the same input" setting is available in the " Score" tab. This allows or prevents the entry of the same answer in multiple gaps.
 
-![Editor toolbar with the buttons for inserting text, numerical and dropdown gaps](assets/Lueckentext_Editor_Buttons_en.png){ class="shadow lightbox" }
+![Editor toolbar with the highlighted three-dots icon for inserting a gap](assets/Lueckentext_Editor_Buttons_en.png){ class="shadow lightbox" }
 
 ![Gap text in the participant view](assets/Lueckentext_Beispiel_en.png){ class="shadow lightbox" }
 
@@ -196,11 +194,11 @@ Gap text with dropdown is basically a combination of gap text and single-choice 
 
 ![Gap text with dropdown in the participant view](assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow lightbox" }
 
-Under "Display", the option "Order of answers options" defines whether the answers are shown to the participants in shuffled order or in the preset order you entered. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
+Under "Display", the option "Order of answers options" defines whether the answers are shown to the candidates in shuffled order or in the preset order you entered. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
 ![Dialog "Create gap" with the "Order of answers options" option](assets/Lueckentext_dropdown_Reihenfolge_en.png){ class="shadow lightbox" }
 
-Furthermore, global answer options can also be used for the gaps. They are defined once per question via "Add global answer" and are then displayed in each gap of the respective question; the user must select the appropriate answer for this gap.
+Furthermore, global answer options can also be used for the gaps. They are defined once per question via "Add global answer" and are then displayed in each gap of the respective question; the candidate must select the appropriate answer for this gap.
 
 ![Editor with global answer options switched on](assets/Lueckentext_dropdown_Global_en.png){ class="shadow lightbox" }
 
@@ -214,7 +212,7 @@ Scoring can be done across all gaps as well as configured separately for each an
 
 In general the Gap FIB numerical is the same as the gap text. But as solution there are numbers required, not texts. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
-First a short title is inserted. Afterward the next is written with fields for the gaps. For every gap the following settings can be made:
+For every gap the following settings can be made:
 
 * Solution: Fill in the correct and desired solution.
 * Tolerance: If the toggle is switched off, the answer must exactly match the entered solution. If it is switched on, the gap accepts answers between a lower and an upper bound. Two modes are available:
@@ -227,7 +225,7 @@ First a short title is inserted. Afterward the next is written with fields for t
 		_Example:_ Solution 20, lower bound 10, upper bound 10 → all solutions between 18 and 22 are correct, as the lower bound means minus 10% (20-2) and the upper bound plus 10% (20+2).
 
 * Display:
-    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
+    * Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the candidate.
     * Gap size: Here you can enter a maximum length for the gap field, e.g. for formatting. It has no effect on the actual length of the entry.
     * Preview: Shows directly in the dialog, using an example sentence, how the gap is displayed.
 
@@ -253,19 +251,19 @@ Existing questions of the types Gap text and Gap FIB numerical that contain both
 
 ## :o_icon_o_mi_qtihottext: Hottext [:octicons-tag-16:{ title="from Release 11.4 (OO-2610)" }](https://track.frentix.com/issue/OO-2610) {: #hottext}
 
-The hottext questions is similar to the gap text. In a running text different terms are marked, and can then be selected by the test participants.
+The hottext questions is similar to the gap text. In a running text different terms are marked, and can then be selected by the candidates.
 
 First a short title is inserted.
 
-Afterward a text is written and the selectable terms are marked as hottext. Finally the correct answers need to be marked by selecting the check boxes.
+Afterward a text is written and the selectable terms are marked as hottext. Finally the correct answers need to be marked by selecting the checkboxes.
 
-![Example Hottext Question](assets/Hottext_Beispiel.png){ class="shadow lightbox" }
+![Hottext question with seven selectable terms in a running text](assets/Hottext_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
 ## :o_icon_o_mi_qtihotspot: Hotspot {: #hotspot}
 
-In a hotspot question, hotspots/areas are graphically presented on an image and need to be selected by the participant correctly. Thereby the question can be created either as single or as multiple choice question. Various fine adjustments as the hotspot form or color, the adjustment of the size as well as the advanced edit  allow an optimal visualization. The spots are visible for the participant.  
+In a hotspot question, hotspots/areas are graphically presented on an image and need to be selected by the candidate correctly. Thereby the question can be created either as a single-choice or as a multiple-choice question. Various fine adjustments as the shape of the hotspot, the color of the hotspot, the adjustment of the size as well as the advanced edit allow an optimal visualization. The hotspots are visible for the candidates.
 
 ### Approach
 
@@ -274,7 +272,7 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 * Then spots in form of circles or rectangles can be placed on the image. In advanced editing, spots can also be easily duplicated.
 * Finally, the correct answer needs to be selected.
 
-![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow lightbox" }
+![Hotspot question with three round selection areas on an image, one of them selected](assets/Hotspot_Beispiel.jpg){ class="shadow lightbox" }
 
 ---
 
@@ -284,14 +282,13 @@ This type of question requires learners to put elements (text or images) in a co
 
 First the title and the question are entered.
 
-Then the answers can be entered in the correct order and the alignment of the display can be set vertically or horizontally.
+Then the answers can be entered in the correct order and the alignment of the display can be set vertical or horizontal.
+
+![Order question editor with the preview showing four unordered elements and an empty sorting area](assets/Reihenfolge_Beispiel.png){ class="shadow lightbox" }
 
 !!! info "Note: Restriction to mobile devices"
 
-    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
-
-
-![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow lightbox" }
+    This question type is operated by dragging the answer elements and is not optimized for touch operation. It is best suited for tests that candidates work on at a desktop computer or laptop.
 
 ---
 
@@ -303,15 +300,15 @@ First a short title and a question are inserted.
 
 Afterward the following attributes can be chosen:
 
-* Placeholder: If desired, a placeholder can be added. It appears in the text in the gap and is visible for the participant.
-* Height (number of lines): Here can be defined, which height the textfield should have. This height is not restrictive. A participant can also write more lines than indicated here.
+* Placeholder: If desired, a placeholder can be added. It appears in the text field and is visible for the candidate.
+* Height (number of lines): Here can be defined, which height the textfield should have. This height is not restrictive. A candidate can also write more lines than indicated here.
 * Min. words: This number of words must at least be written, to be able to send the task.
 * Max. words: This number of words can at most be written, to be able to send the task.
 * Allow copy/paste: Here you define if the learners are allowed to insert content via copy+paste or via drag&drop from an external source. Moving text within the same field internally remains possible regardless. [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
 Essay questions come with a pre-defined width and a tab function. Hence, answers can be formatted more easily, e.g. by displaying columns.
 
-![Example Essay Question](assets/Essay_Beispiel.png){ class="shadow lightbox" }
+![Essay question with a tab-formatted price list in the answer field](assets/Essay_Beispiel.png){ class="shadow lightbox" }
 
 !!! info "Autosave"
 
@@ -321,33 +318,33 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 ## :o_icon_o_mi_qtiupload: File upload* [:octicons-tag-16:{ title="from Release 11.2 (OO-2344)" }](https://track.frentix.com/issue/OO-2344) {: #file_upload}
 
-For this question type participants need to upload a file.
+For this question type candidates need to upload a file.
 
 A short title and the question are entered as well as the number of available upload fields. With the upload fields the maximum number of files to be uploaded can be defined. The maximum number of upload fields is 10.
 
 No correct answer can be marked, as the assessment of this question type is only manually possible.
 
-![Example File Upload Question](assets/Fileupload_Beispiel.png){ class="shadow lightbox" }
+![File upload question with an upload field for the answer](assets/Fileupload_Beispiel.png){ class="shadow lightbox" }
 
 ---
 
 ## :o_icon_o_mi_qtidrawing: Drawing* {: #draw}
 
-For the questions type drawing the participant get the task to edit a given picture with the available drawing tools.
+For the questions type drawing the candidate gets the task to edit a given picture with the available drawing tools.
 
 First a short title and a question, or more an edit instruction are inserted.
 
-Afterward a picture for the background is uploaded. This picture need to be edited by the test participants. No answer needs to be added, as the
+Afterward a picture for the background is uploaded. This picture needs to be edited by the candidates. No answer needs to be added, as the
 assessment of this question type is done manually.
 
-It is also possible for the participants to add text via the text tool. The text size can be customized using the brush size.
+It is also possible for the candidates to add text via the text tool. The text size can be customized using the brush size.
 
 !!! info "Note: Restriction to mobile devices"
 
-    This question type is operated by freehand drawing and is not optimized for touch operation. It is best suited for tests that participants work on at a desktop computer or laptop.
+    This question type is operated by freehand drawing and is not optimized for touch operation. It is best suited for tests that candidates work on at a desktop computer or laptop.
 
 
-![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow lightbox" }
+![Drawing question with drawing tools and a background image of a connector](assets/Zeichnen_Beispiel.png){ class="shadow lightbox" }
 
 !!! tip "Import questions"
 
@@ -357,14 +354,18 @@ It is also possible for the participants to add text via the text tool. The text
 
 	With the learning resource test and the question type essay, essays can be written in OpenOlat. The following points need to be considered:
 
-    * The autosave feature for the question type essay saves the written text every minute. The time of the last storage is visible on the bottom right. Autosave prevents the test participants from losing written text, for e.g. if the internet connection is broken or a session time out is reached. If a participant has not actively submitted the answer to the question via the "Submit answer" button, the content already saved via autosave is displayed in the correction workflow with a note to this effect.
-    * If it comes to an interruption, the test participants should be able to start the test again. So the following settings need to be met:
-        * The number of attempts for the whole test should not be limited. To make sure that the test is not started again at a later point (after the actual test time), it can be done with the Save Exam Browser or in the assessment mode.
-        * Suspending the test is allowed. So after an interruption the test participant comes back to where they left. The text is stored until the last saving. There can be some small text losses.
-        * The number of attempts for the essay question is not limited. This allows test participants to submit the written text over and over again and continue writing. The regular submitting of the written text gives security to the test participants.
-    * If a test has a time limit, the text is saved at the very end only if it is submitted right before the time is running out. Please remind your test participants shortly before test end to submit the question one more time and not writing anything anymore afterward.
+    * The autosave feature for the question type essay saves the written text every minute. The time of the last storage is visible on the bottom right. Autosave prevents the candidates from losing written text, for e.g. if the internet connection is broken or a session time out is reached. If a candidate has not actively submitted the answer to the question via the "Submit answer" button, the content already saved via autosave is displayed in the correction workflow with a note to this effect.
+    * If it comes to an interruption, the candidates should be able to start the test again. So the following settings need to be met:
+        * The number of attempts for the whole test should not be limited. To make sure that the test is not started again at a later point (after the actual test time), it can be done with the Safe Exam Browser or in the assessment mode.
+        * Suspending the test is allowed. So after an interruption the candidate comes back to where they left. The text is stored until the last saving. There can be some small text losses.
+        * The number of attempts for the essay question is not limited. This allows candidates to submit the written text over and over again and continue writing. The regular submitting of the written text gives security to the candidates.
+    * If a test has a time limit, the text is saved at the very end only if it is submitted right before the time is running out. Please remind your candidates shortly before test end to submit the question one more time and not writing anything anymore afterward.
 
 	If considering these recommendations an essay can be written in OpenOlat.
 
+## Further information {: #further_information}
+
+[Question bank >](../area_modules/Question_Bank.md)<br>
+[More about the creation of questions >](../area_modules/Data_Management.md)
 
 [To the top of the page ^](#question_types)

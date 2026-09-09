@@ -1,7 +1,7 @@
 # Fragebogen Statistiken {: #survey_statistics}
 
 
-![statistics_survey_v1_de.png](assets/statistics_survey_v1_de.png){ class="shadow lightbox" }
+![Menüeintrag "Fragebogen Statistiken" in der Kurs-Administration mit den Tabs Übersicht, Tabellen, Diagramme und Einzelne Formulare](assets/statistics_survey_v1_de.png){ class="shadow lightbox" }
 
 
 Die Fragebogen Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Für jede Umfrage gibt es eine Übersicht, Tabellen, Diagramme, sowie Zugriff auf die einzelnen Fragebogen-Formulare. Ferner ist ein Export der Daten als PDF oder Excel Tabelle sowie ein Ausdruck möglich.

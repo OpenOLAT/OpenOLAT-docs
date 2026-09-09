@@ -36,7 +36,7 @@ Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retr
 
 Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
 Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
-Hilfeseiten, je nach Konfiguration durch den System Administrator. Klicken
+Hilfeseiten, je nach Konfiguration durch Systemadministrator:innen. Klicken
 Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 !!! info "Wichtig"
@@ -61,21 +61,21 @@ Klicken Sie darauf und das Handbuch öffnet sich in einem neuen Fenster.
 
 ## Hilfe in Formularen {: #help_in_forms}
 
-Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen,
+Des Weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen,
 die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B.
 einzelnen Formularfeldern geben. Wenn Sie dieses Icon :o_icon_o_icon_help:
 neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![](assets/example_questionmark.de.png){ class="shadow" width=400px }
+![Tooltip zum Feld Korrektur mit Erklärung zu Auto- und Manuell-Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px }
 
 [Zum Seitenanfang ^](#help)
 
 
 ## Hellgrauer Text innerhalb von Feldern... {: #help_within_fields}
 
-![](assets/help_gui_demo.de.png){ class="shadow" width=150px }
+![Hellgrauer Platzhaltertext «Suchen» im leeren Suchfeld](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen.
 
@@ -84,7 +84,7 @@ Tests im Kurseditor:
 
 ## Hellgrauer Text unterhalb von Feldern... {: #help_below_fields}
 
-![](assets/help_gui_demo1.de.png){ class="shadow" width=420px }
+![Hellgrauer Hinweistext «Max. 25 Zeichen» unter dem Feld Titel im Kursmenü](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px }
 
 ...stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 
@@ -103,5 +103,14 @@ die Sie betrachten können.
 
 Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat
 Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite.
+
+[Zum Seitenanfang ^](#help)
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Über dieses Handbuch >](../about/index.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)
 
 [Zum Seitenanfang ^](#help)

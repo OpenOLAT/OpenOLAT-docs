@@ -1,4 +1,4 @@
-# Process of an assessment portfolio
+# Process of an assessment portfolio {: #process_of_an_assessment_portfolio}
 
 There are different variations of how a portfolio can be used. Here the process of a learning portfolio is shown exemplarily including provided tasks, comments and assessments from the lecturer. In this process authors as well as users are involved in interaction with each other.
 
@@ -6,13 +6,13 @@ Via "portfolio task" lecturers are able to provide predefined portfolio binders 
 
 More information about the particular processes you can find in the corresponding process step.
 
-Authoring ![](assets/place_in_OO_EN.png) | Authoring | Authoring ![](assets/arrow_434343_64.png){ class=size16 } ![](assets/course.png){ class=size16 }
+Authoring ![Caption "Place in OpenOLAT"](assets/place_in_OO_EN.png) | Authoring | Authoring ![Arrow](assets/arrow_434343_64.png){ class=size16 } ![Course area icon](assets/course.png){ class=size16 }
 ---------|----------|---------
- [![](assets/pf_prozess_feld1_EN.png)](../learningresources/Portfolio_template_Creation.md) | [![](assets/pf_prozess_feld2_EN.png)](../learningresources/Portfolio_template_Administration_and_editing.md) | [![](assets/pf_prozess_feld3_EN.png)](../learningresources/Portfolio_template_Creation.md)
- ![](assets/course.png){ class=size16 } ![](assets/arrow_434343_64.png){ class=size16 } :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase:
- [![](assets/pf_prozess_feld4_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld5_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld6_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
- :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: | 
- [![](assets/pf_prozess_feld7_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | [![](assets/pf_prozess_feld8_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | ![](assets/pf_legend_process_EN.png)
+ [![Create a portfolio template](assets/pf_prozess_feld1_EN.png)](../learningresources/Portfolio_template_Creation.md) | [![Edit template: create sections and assignments](assets/pf_prozess_feld2_EN.png)](../learningresources/Portfolio_template_Administration_and_editing.md) | [![Add template to a course](assets/pf_prozess_feld3_EN.png)](../learningresources/Creating_Portfolio_Tasks.md)
+ ![Course area icon](assets/course.png){ class=size16 } ![Arrow](assets/arrow_434343_64.png){ class=size16 } :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase:
+ [![Collect task](assets/pf_prozess_feld4_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![Solve and edit assignment](assets/pf_prozess_feld5_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![Give access right for binder, section, or assignment](assets/pf_prozess_feld6_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
+ :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: |
+ [![Add comment, or](assets/pf_prozess_feld7_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | [![Grade assignment](assets/pf_prozess_feld8_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | ![Color legend: green author, blue user, yellow author, coach, user, extern](assets/pf_legend_process_EN.png)
 
 !!! info "Note"
 
@@ -21,4 +21,15 @@ Authoring ![](assets/place_in_OO_EN.png) | Authoring | Authoring ![](assets/arro
 !!! tip "Tip"
 
         It is best practice to discuss the assessment criteria with the users beforehand.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
+[Portfolio template: Administration and editing >](../learningresources/Portfolio_template_Administration_and_editing.md)<br>
+[Creating Portfolio Tasks >](../learningresources/Creating_Portfolio_Tasks.md)<br>
+[Portfolio task: collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
+[Portfolio assignment: Grading >](../learningresources/Portfolio_assignment_Grading.md)
+
+[To the top of the page ^](#process_of_an_assessment_portfolio)
 

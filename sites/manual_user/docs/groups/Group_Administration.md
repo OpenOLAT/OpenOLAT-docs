@@ -2,7 +2,7 @@
 
 If you create a new group you are automatically coach of this group. Coaches of a group get the link "**Administration**" in the menu of the group. 
 
-![Group administration](assets/Gruppe_173a_en.png){ class="shadow lightbox"}
+![Administration menu entry in the left-hand navigation of a group](assets/Gruppe_173a_en.png){ class="shadow lightbox"}
 
 Via the displayed tabs you can:
 
@@ -34,7 +34,7 @@ In the tab Tools the group can be provided by collaborative tools.
 Once a tool is activated, its
 corresponding icon will be visible in the group menu on the left.
 
-!!! Info  
+!!! info
 
     In order for the tools to be available in groups, they must be activated by the OpenOlat administrator. This is especially true for BigBlueButton, MS Teams OpenMeetings, Wikis and Calendars. If certain tools are not available to you as a group owner, they have been deactivated by the OpenOlat administrator.
 
@@ -42,18 +42,18 @@ The following tools are available for group use.
 
 Tool | | Description
 ---|---|---
-:o_icon_o_icon_news: | Information to members| If the tool "Information" is activated, you can define if only group coaches or group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.  
-:o_icon_o_co_icon:| Email| If the "Email" tool is enabled, non-members can access the email functionality and send messages to group members (coaches, participants or all members).  
-:o_icon_o_calendar_icon: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal_menu/Calendar.md).  
-:o_icon_o_bc_icon: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.   
-:o_icon_o_fo_icon:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.  
-:o_icon_o_icon_chat: | Chat| You can provide a chat room for the group. You can also see here which other members are currently logged in to OpenOlat.  
-:o_icon_o_wiki_icon: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../learningresources/Course_Element_Wiki.md)
-:o_icon_o_ep_icon: | Portfolio| You can provide a [portfolio](../area_modules/Portfolio_General_Information.md) 2.0 to the group. However, it is not an assessment portfolio.  
+:o_icon_o_icon_news: | Information to members| If the tool "Information" is activated, you can define if only group coaches or group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.
+:o_icon_o_co_icon:| Email| If the "Email" tool is enabled, non-members can access the email functionality and send messages to group members (coaches, participants or all members).
+:o_icon_o_calendar_icon: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal_menu/Calendar.md).
+:o_icon_o_bc_icon: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.
+:o_icon_o_fo_icon:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.
+:o_icon_o_icon_chat: | Chat| You can provide a chat room for the group. You can also see here which other members are currently logged in to OpenOlat.
+:o_icon_o_wiki_icon: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../learningresources/Wiki.md).
+:o_icon_o_ep_icon: | Portfolio| You can provide a [portfolio](../area_modules/Portfolio_General_Information.md) 2.0 to the group. However, it is not an assessment portfolio.
 :material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group. Further information about OpenMeetings can be found [here](../learningresources/Course_Element_OpenMeetings.md)
-:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../learningresources/bigbluebutton/index.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a coach, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to them.  
-:material-monitor: | Microsoft Teams| By choosing Microsoft Teams, multiple rooms can be made available to a group. Further information about MS Teams can be found [here](../learningresources/Course_Element_Microsoft_Teams.md)
-  
+:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../learningresources/bigbluebutton/index.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a coach, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to them.
+:material-monitor: | Microsoft Teams| By choosing Microsoft Teams, multiple rooms can be made available to a group. Further information about MS Teams can be found [here](../learningresources/Course_Element_Microsoft_Teams.md).
+
 Each tool can only be used once in a group. It is therefore not possible to e.g. provide your members with more than one folder, wiki or forum elements. If you need more tools of said elements, it is better to use an OpenOlat course instead.
 
 Information on using the group tools from the group participant perspective can be found [here](Using_Group_Tools.md).
@@ -90,7 +90,7 @@ Depending on the course role, users have different options for adding group memb
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/group_administration_external_members_v1_de.png" />
+	<img src="../assets/group_administration_external_members_v1_de.png" alt="Option Invite external members in the Members tab of the group administration" />
 </details>
 
 
@@ -119,8 +119,7 @@ Course owners can link groups to several courses, and a course may have several 
 
 Groups are used in many different ways in courses, e.g. for controlled enrolment in the course, for cooperative activities, for assigning presentations, for registering for excursions, but also for rights management within courses.
 
-Groups and courses can be linked in two ways: In the group, under the tab "Courses" in the group administrationor starting from the course via the "[Members management](../learningresources/Members_management.md)" → "Groups"
- 
+Groups and courses can be linked in two ways: in the group, under the tab "Courses", or from the course via the "[Members management](../learningresources/Members_management.md)" → "Groups".
 
 ## Tab Share {: #booking}
 
@@ -156,6 +155,23 @@ Public groups with various access options are particularly suitable, especially 
 
 The status of the group and other information are displayed here. Furthermore, the status can be changed, e.g. an active group can be set inactive or an inactive group can be deleted or reactivated. Also, the group can be excluded from the automatic group life cycle, e.g. if it is an important group that must remain permanently present.
 
-![Tab Group Life Cycle](assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
+![Confirmation dialog for starting the inactivation in the Group life cycle tab](assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
 
-For more information, see the separate chapter [Automatic group life cycle](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/) in the Administration Manual.
+For more information, see the separate chapter [Automatic Group Lifecycle](../../manual_admin/administration/Automatic_Group_Lifecycle.md) in the Administration Manual.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Group Management >](../area_modules/Group_Management.md)<br>
+[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[Creating Wikis >](../learningresources/Wiki.md)<br>
+[Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
+[Course Element "OpenMeetings" >](../learningresources/Course_Element_OpenMeetings.md)<br>
+[Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
+[Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Using Group Tools >](Using_Group_Tools.md)<br>
+[Become a group member >](Group_Membership.md)<br>
+[Members management >](../learningresources/Members_management.md)<br>
+[Automatic Group Lifecycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+
+[To the top of the page ^](#group_administration)

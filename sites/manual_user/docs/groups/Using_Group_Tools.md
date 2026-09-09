@@ -6,20 +6,20 @@ Group **participants** will then see the following items in the group menu on th
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
 | :o_icon_o_icon_news: | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
-| :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |  
-| ![](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
-| ![](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |  
+| :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |
+| ![Course icon](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
+| ![Members icon](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |
 | :o_icon_o_co_icon: | E-Mail |  | Send all group owners or participants an email. |
 | :o_icon_o_bc_icon: | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
-| ![](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.  
-| ![](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |  
-| ![](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |
+| ![Forum icon](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.
+| ![Chat icon](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |
+| ![Wiki icon](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |
 | :o_icon_o_ep_icon: | Portfolio |  | Use a portfolio to jointly create a binder or add entries.  |
-| ![](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in virtual classrooms. |
-| ![](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/bigbluebutton/index.md). |  
-| ![](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new meetings for joint online session. |
+| ![OpenMeetings icon](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in virtual classrooms. |
+| ![BigBlueButton icon](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/bigbluebutton/index.md). |
+| ![Microsoft Teams icon](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new meetings for joint online session. |
 
-  
+
 !!! info ""  
 
 	The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes.
@@ -34,13 +34,25 @@ Group **participants** will then see the following items in the group menu on th
 
 
 !!! info "Group calendars in conjunction with course calendars" 
-	
+
 	In a group calendar, the group participants can see all the entries of the group members, regardless of whether the appointments are private or public.
-	
+
 	If the group is assigned to a course, the following entries are displayed to the group participants in the course calendar:
 
 	- public entries of the group,
 	- the respective group members own group calendar entries,
 	- as well as course specific calendar entries. 
-	
+
 	People who are not members of the group will not see the calendar entries of the other groups in the course calendar. If several groups are assigned to a course, the members will only see their own group calendar entries, but not those of the other groups.
+
+[To the top of the page ^](#group_tools)
+
+---
+
+## Further information {: #further_information}
+
+[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+
+[To the top of the page ^](#group_tools)

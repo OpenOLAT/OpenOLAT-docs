@@ -13,10 +13,10 @@ Generell können im Bewertungswerkzeug Bewertungen für die folgenden Kursbauste
 * [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md)
 * [Tests](Assessing_tests.de.md)
 
-Es werden zunächst die generellen Aspekte erläutert und anschließend die Spezifika der einzelnen bewertbaren Kursbausteine behandelt. Die Bewertung von Aufgaben/Gruppenaufgaben und Tests finden Sie auf separaten Seiten. 
+Es werden zunächst die generellen Aspekte erläutert und anschliessend die Spezifika der einzelnen bewertbaren Kursbausteine behandelt. Die Bewertung von Aufgaben/Gruppenaufgaben und Tests finden Sie auf separaten Seiten. 
 
 ## Das 3-Punkte Menü
-![3-Punkte Menü](assets/Bewertungswerkzeug_Checkliste172.png){ class="shadow lightbox" }
+![Bewertungswerkzeug-Menü der Checkliste mit den Aktionen "Details anzeigen / bewerten", "Bewertung wieder eröffnen" und "Freigeben": 3-Punkte-Menü im Bewertungswerkzeug](assets/Bewertungswerkzeug_Checkliste172.png){ class="shadow lightbox" }
 
 Über das 3-Punkte Menü stehen für die Bewertung der Kursbausteine zentrale Optionen im Bewertungskontext zur Verfügung:
 
@@ -29,7 +29,7 @@ Es werden zunächst die generellen Aspekte erläutert und anschließend die Spez
 Folgende Optionen stehen zusätzlich für Tests zur Verfügung: 
 
 * **Resultate als PDF:** für den Download von Testresultaten
-* **Beendeten Test wieder öffnen:** Testteilnehmende können den Test dort weiterführen, wo sie aufgehört haben. Falls der Test auf 1 Versuch beschränkt ist, müssen außerdem die Versuche zurückgesetzt werden, damit der Testteilnehmende den Test weiterführen kann.
+* **Beendeten Test wieder öffnen:** Testteilnehmende können den Test dort weiterführen, wo sie aufgehört haben. Falls der Test auf 1 Versuch beschränkt ist, müssen ausserdem die Versuche zurückgesetzt werden, damit der Testteilnehmende den Test weiterführen kann.
 * **Anzahl Versuche zurücksetzen:** hiermit wird die Anzahl der Versuche eines Assessmentbausteins auf 0 gesetzt, die eigentlichen Daten bleiben erhalten
 * **Daten von Test zurücksetzen:** alle Daten werden gelöscht
 * **Nachteilsausgleich hinzufügen:** auf diesem Weg können einzelnen Personen zusätzliche Zeit für die Bearbeitung eines Tests erhalten, z.B. aufgrund eines Handicaps.
@@ -37,7 +37,7 @@ Folgende Optionen stehen zusätzlich für Tests zur Verfügung:
 * **Laufenden Test einziehen:** dadurch werden die bisher ausgefüllten Daten für die Bewertung verwendet und können vom Lehrenden eingesehen werden.
 
 
-!!! info "Hinweis"
+!!! tip "Tipp"
 
     Achten Sie darauf, dass in der Tabellenübersicht das 3-Punkte Symbol eingeblendet ist. Hierüber haben Sie schnell Zugriff auf bestimmte Aktionen zur Bewertung der Lernenden.
 
@@ -45,26 +45,26 @@ Folgende Optionen stehen zusätzlich für Tests zur Verfügung:
 ## Checkliste
 Die Bewertung des Kursbausteins "Checkliste" umfasst die drei genannten Optionen:
 
-![3-Punkte Menü](assets/3-Punkte_Bewertung_generell.png){ class="shadow lightbox" }
+![3-Punkte-Menü mit den drei Optionen "Details anzeigen / bewerten", "Bewertung wieder eröffnen" und "Freigabe zurückziehen"](assets/3-Punkte_Bewertung_generell.png){ class="shadow lightbox" }
 
-Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. 
+Durch Klick auf den Namen einer teilnehmenden Person gelangt man zur konkreten Bewertung. 
 
-Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein Konfiguration können entweder Punkte und/oder das Attribut "Bestanden" vergeben werden. Weitere Informationen zur Checkliste finden Sie [hier](../learningresources/Course_Element_Checklist.de.md).
+Die Checkboxen der einzelnen Teilnehmenden können manuell nachgetragen und das Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein Konfiguration können entweder Punkte und/oder das Attribut "Bestanden" vergeben werden. Weitere Informationen zur Checkliste finden Sie [hier](../learningresources/Course_Element_Checklist.de.md).
 
-![Checkliste bewerten im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
+![Bewertungsformular der Checkliste mit einzeln ankreuzbaren Checkboxen, addierten Punkten und dem Ergebnis "Nicht bestanden": Checkliste bewerten im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
 
 ## Bewertung
 Die Bewertung des Kursbausteins "Bewertung" umfasst folgende Optionen:
 
-![3-Punkte Menü für Kursbaustein Bewertung](assets/Bewertungswerkzeug_Bewertung172.png){ class="shadow lightbox" }
+![Buttons "Statistik", "Alle Daten zurücksetzen" und "Neue Massenbewertung starten" über der Teilnehmerliste: 3-Punkte-Menü für Kursbaustein Bewertung im Bewertungswerkzeug](assets/Bewertungswerkzeug_Bewertung172.png){ class="shadow lightbox" }
 
 Der Button "Statistik" steht nur bei der Verwendung einer Rubrik-Bewertung zur Verfügung. 
 
 Der Button "Bewertungsskala anpassen" steht nur zur Verfügung wenn zuvor im Kurseditor eine Bewertungsskala für den Kursbaustein aktiviert wurde. 
 
-Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. Hier füllen Sie das entsprechende Bewertungsformular aus und nutzen, sofern verknüpft, das zugeordnete Rubrik Bewertungsformular.
+Durch Klick auf den Namen einer teilnehmenden Person gelangt man zur konkreten Bewertung. Hier füllen Sie das entsprechende Bewertungsformular aus und nutzen, sofern verknüpft, das zugeordnete Rubrik Bewertungsformular.
 
-![Bewertungsformular](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
+![Bewertungsformular mit vier Rubrik-Kriterien von "sehr schlecht" bis "sehr gut" sowie Punktefeld und Status "Bestanden": Bewertungsformular für den Kursbaustein Bewertung](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
 Haben Sie ein [Rubrik](../learningresources/Form_Element_Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen.
 
@@ -73,11 +73,11 @@ Darüber hinaus ist für den Kursbaustein "Bewertung" auch eine Massenbewertung 
 ## Portfolioaufgabe
 Die Bewertung des Kursbausteins "[Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md)" umfasst folgende Möglichkeiten:
 
-![3-Punkte Menü für Kursbaustein Portfolioaufgabe](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
+![3-Punkte-Menü der Portfolioaufgabe mit den Aktionen "Details anzeigen / bewerten", "Status 'abgeschlossen' setzen" und "Resultate auf nicht sichtbar setzen"](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
 
 Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab ["Bewertung" im Portfolio](../learningresources/Portfolio_assignment_Grading.de.md) selbst. Hier können die einzelnen Bereiche jedoch nicht geöffnet, sondern nur bewertet werden. Es empfiehlt sich deshalb, die Bewertung direkt im Portfolio vorzunehmen.
 
-![Bewertung einer Portfolioaufgabe](assets/Portfolioaufgabe172.png){ class="shadow lightbox" }
+![Portfoliomappe mit den Bereichen Gestaltungsprinzipien, Tools und Online-Moderation, je mit Anzahl Einträgen und Status "Bestanden": Bewertung einer Portfolioaufgabe im Bewertungswerkzeug](assets/Portfolioaufgabe172.png){ class="shadow lightbox" }
 
 ## Kursbaustein "Struktur" oder gesamte Kursbewertung
 
@@ -95,3 +95,22 @@ Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig i
 
 ### LTI
 Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../learningresources/Course_Element_LTI_Page.de.md).
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>
+[Tests bewerten >](Assessing_tests.de.md)<br>
+[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
+[Das Formular-Element Rubrik >](Form_Element_Rubric.de.md)<br>
+[Portfolioaufgabe erstellen >](Creating_Portfolio_Tasks.de.md)<br>
+[Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
+[Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
+[Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)
+
+**Weiterführend**<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
+[Bewertungswerkzeug - Daten zurücksetzen >](Assessment_tool_reset_data.de.md)
+
+[Zum Seitenanfang ^](#bewertung-von-kursbausteinen)

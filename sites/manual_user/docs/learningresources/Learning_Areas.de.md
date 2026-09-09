@@ -3,7 +3,7 @@
 
 Hier können die Lernbereiche des Kurses erstellt, angezeigt und editiert werden.
 
-![course_learning_areas_v1_de.png](assets/course_learning_areas_v1_de.png){ class="shadow lightbox" }
+![Schaltfläche Administration und Menüpunkt Lernbereich im geöffneten Administrationsmenü eines Kurses markiert.](assets/course_learning_areas_v1_de.png){ class="shadow lightbox" }
 
 
 Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Dies ist besonders bei vielen Gruppen innerhalb eines Kurses sinnvoll. Über die Schaltfläche "Lernbereich erstellen" weisen Sie dem Kurs einen neuen Lernbereich zu. Ordnen Sie anschliessend diesem Lernbereich die gewünschten im Kurs existierenden Gruppen zu.
@@ -16,11 +16,11 @@ Der Vorteil gegenüber der expliziten Auflistung aller relevanten Gruppen in den
 !!! tip "Tipp"
 
     Lernbereiche können z.B. eingesetzt werden, 
-    
+
     * wenn Sie denselben Kursbaustein mehreren Gruppen innerhalb eines Kurses verfügbar machen möchten, 
     * oder wenn bei einem Einschreibebaustein viele Gruppen zur Auswahl stehen, 
     * oder wenn Sie mehrere Gruppen für einen Betreuer bündeln möchten. 
-    
+
     Mit einem Lernbereich sparen Sie sich die wiederholte Auswahl jeder einzelnen Gruppe.
 
 

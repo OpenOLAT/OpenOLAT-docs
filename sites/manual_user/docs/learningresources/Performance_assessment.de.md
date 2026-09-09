@@ -6,7 +6,7 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewert
 [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
 
 * [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
-* [Gruppenaufgabe](../learningresources/Assessment.de.md)(manuelle Bewertung)
+* [Gruppenaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
 * [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
 * [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
 * [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
@@ -18,6 +18,25 @@ Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weite
 
 ## Leistungsnachweis & Zertifikat
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Benutzer im persönlichen Menü und im Kurs abrufbar, während Betreuer diese im
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Teilnehmende im persönlichen Menü und im Kurs abrufbar, während Betreuer:innen diese im
 [Coaching-Tool](../area_modules/Coaching.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung
 ["Leistungsnachweis"](../learningresources/Course_Settings.de.md) ausgestellt werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
+[Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
+[Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
+[Wissensvermittlung >](../learningresources/Knowledge_Transfer.de.md)<br>
+[Tests erstellen >](../learningresources/Test.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+**Weiterführend**<br>
+[Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
+[Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
+[Lernende bewerten >](../learningresources/Assessment_of_learners.de.md)
+
+[Zum Seitenanfang ^](#leistungsbewertung)

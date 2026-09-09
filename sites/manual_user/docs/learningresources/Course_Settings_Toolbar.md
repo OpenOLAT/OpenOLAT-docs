@@ -2,13 +2,13 @@
 
 If you specify here that the toolbar should be displayed for the participants in the current course, you can then select which of the tools should be made available.
 
-![course_settings_toolbar1_v1_en.png](assets/course_settings_toolbar1_v1_en.png){ class="shadow lightbox"}
+![Tab "Toolbar" of the course settings with checkbox "Toolbar visible for participants" and list of tools that can be enabled](assets/course_settings_toolbar1_v1_en.png){ class="shadow lightbox"}
 
 In this way, tools that are to be continuously available can be accessed from a central location.
 
 **Example:**
 
-![course_settings_toolbar_v1_de.png](assets/course_settings_toolbar_v1_de.png){ class="shadow lightbox" }
+![Toolbar in the course with the enabled tools Course info, Learning path, Calendar, BigBlueButton and Course search](assets/course_settings_toolbar_v1_de.png){ class="shadow lightbox" }
 
 In addition to course search, glossary and course chat these tools include various [tools](../learningresources/Using_Additional_Course_Features.md) that can also be called up as course element, e.g. calendar, list of participants, e-mail, blog, wiki, forum, and documents folder. In the case of [Wiki](../learningresources/Wiki.md) and [Blog](../learningresources/Blog.md), it is also possible to fall back on learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer the further configuration options as they are available in the course elements in the course editor.
 
@@ -22,7 +22,7 @@ The use of the tools in the toolbar is particularly important for linear [Learni
 
 The "Toolbar" tab contains four collapsible sections **"External course tool 1"** to **"External course tool 4"**. Each tool can be enabled independently and configured with a name, URL, icon and role-based visibility.
 
-![course_settings_toolbar_external_tools_v1_en.png](assets/course_settings_toolbar_external_tools_v1_en.png){ class="shadow lightbox"}
+![Configuration form for "External course tool 1" with the fields Name, URL, Icon and Visible to](assets/course_settings_toolbar_external_tools_v1_en.png){ class="shadow lightbox"}
 
 | Field | Description |
 |---|---|
@@ -32,7 +32,7 @@ The "Toolbar" tab contains four collapsible sections **"External course tool 1"*
 | **Icon** | Selection from the icon catalog (around 30 entries, e.g. Link, E-mail, Calendar, Timetable, Absence management, School portal). |
 | **Visible to** | Separate checkboxes for *Participants*, *Coaches* and *Owners and users with administrative roles* (non-additive). Administrators, learning resource managers, principals and course planners see the tool when the owner option is selected. If a tool is enabled but no option is selected, the form displays a warning. |
 
-![course_toolbar_with_external_tools_v1_en.png](assets/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox"}
+![Course toolbar with the external course tool "Time tracking" as an additional icon](assets/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox"}
 
 **Course copy / import**
 
@@ -45,4 +45,15 @@ The "Toolbar" tab contains four collapsible sections **"External course tool 1"*
 [To the top of the page ^](#tab_toolbar)
 
 ---
+
+## Further information {: #further_information}
+
+[Using Additional Course Features >](Using_Additional_Course_Features.md)<br>
+[Creating Wikis >](Wiki.md)<br>
+[Blog: Overview >](Blog.md)<br>
+[Learning path course - Overview >](Learning_path_course.md)<br>
+[Course Settings >](Course_Settings.md)<br>
+[Course Settings - Tab Options >](Course_Settings_Options.md)
+
+[To the top of the page ^](#tab_toolbar)
 

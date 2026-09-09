@@ -2,7 +2,7 @@
 
 ## Was sind Blogs?
 
-Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Blogs werden häufig als Online-Journal für fachbezogene oder persönliche Information eingesetzt. Mit einem Blog können Sie Ihren Kursteilnehmern Inhalte als Text, Bild oder Video schnell und einfach zur Verfügung stellen. Die Einträge werden zeitlich sortiert angezeigt, die neuesten Meldungen erscheinen immer oben. Kursteilnehmer können Blogs über den RSS-Feed abonnieren, Einträge bewerten und Kommentare dazu verfassen.
+Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Blogs werden häufig als Online-Journal für fachbezogene oder persönliche Information eingesetzt. Mit einem Blog können Sie Ihren Kursteilnehmer:innen Inhalte als Text, Bild oder Video schnell und einfach zur Verfügung stellen. Die Einträge werden zeitlich sortiert angezeigt, die neuesten Meldungen erscheinen immer oben. Kursteilnehmer:innen können Blogs über den RSS-Feed abonnieren, Einträge bewerten und Kommentare dazu verfassen.
 
 !!! info ""
 
@@ -15,7 +15,7 @@ Mit dem Erstellen von Blogs ist hier das Erstellen der Blog-Lernressourcen und d
 
 [Zu den Details >](../learningresources/Blog_Create.de.md)
 
-Falls Sie noch wenig Erfahrung mit dem Erstellen von Kursen haben, finden Sie hier eine Schritt-für-Schritt-Anleitung zum Erstellen und Einbinden:
+Falls Sie noch wenig Erfahrung mit dem Erstellen von Kursen haben, finden Sie hier eine Schritt-für-Schritt-Anleitung zum Erstellen und Einbinden:<br>
 [Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
 
 
@@ -29,7 +29,7 @@ Die Konfiguration eines Blogs geschieht einerseits in der Blog-**Lernressource**
 ## Bloggen
 
 Der Begriff "Bloggen" meint das Nutzen, Verwenden, Einsetzen eines erstellten und konfigurierten Blogs.
-Also wie Kursteilnehmer:innen und Betreuer:innen mit einen Blog in einem OpenOlat-Kurs arbeiten können: 
+Also wie Kursteilnehmer:innen und Betreuer:innen mit einem Blog in einem OpenOlat-Kurs arbeiten können:
 
 * aufrufen, lesen 
 * Beiträge hinzufügen
@@ -39,7 +39,19 @@ Also wie Kursteilnehmer:innen und Betreuer:innen mit einen Blog in einem OpenOla
 [Zu den Details >](Blog_Blogging.de.md)
 
 
-!!! tip "Hinweis"
+!!! note "Hinweis"
 
     Eine Alternative zu einem Blog könnte eventuell ein [Forum](../learningresources/Course_Element_Forum.de.md) sein.
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Bloggen >](Blog_Blogging.de.md)<br>
+[Blog erstellen >](Blog_Create.de.md)<br>
+[Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
+[Blog konfigurieren >](Blog_Configuration.de.md)<br>
+[Forum >](Course_Element_Forum.de.md)
+
+[Zum Seitenanfang ^](#blog_learning_resource_overview)
 

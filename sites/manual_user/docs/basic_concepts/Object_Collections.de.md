@@ -10,7 +10,7 @@ a) mp4-Datei, ohne Zusätze        = Objekt im File Hub
 
 b) mp4-Datei + Metadaten, Versionierung u.a.    = Objekt im Media Center
 
-c) mp4-Datei + Quizfragen, Kommentar, usw.   = Video-Lernessource, Objekt im Autorenbereich
+c) mp4-Datei + Quizfragen, Kommentar, usw.   = Video-Lernressource, Objekt im Autorenbereich
 
 
 ## Objektsammlungen: Inhalt {: #object_collections_content}

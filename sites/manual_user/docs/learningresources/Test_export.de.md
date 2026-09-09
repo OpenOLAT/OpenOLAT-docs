@@ -11,9 +11,9 @@ Beim Exportieren von Tests ist zu unterscheiden zwischen
 
 ## Kurs exportieren {: #export_course}
 
-Ein gesamter Kurs, z.B. ein Prüfungskurs, kann als zip-Datei exportiert werden unter<br>**Administration > Inhalt exportieren**
+Ein gesamter Kurs, z.B. ein Prüfungskurs, kann als zip-Datei exportiert werden in der Kurs-Administration unter<br>`Administration > Inhalt exportieren`
 
-![test_export_course_content_v1_de.png](assets/test_export_course_content_v1_de.png){ class="shadow lightbox"}
+![Export des gesamten Kurses als zip-Datei über die Kurs-Administration, Menüpunkt "Inhalt exportieren"](assets/test_export_course_content_v1_de.png){ class="shadow lightbox"}
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -23,9 +23,9 @@ Ein gesamter Kurs, z.B. ein Prüfungskurs, kann als zip-Datei exportiert werden 
 ## Test-Lernressource exportieren {: #export_learning_resource}
 
 Test-Lernressoucen enthalten ganze Fragenbündel und können als Fragenpäckchen inklusive Konfiguration (Gesamtpunktzahl usw.) in Test-Kursbausteine eingebunden werden.
-Auch eine Test-Lernressource kann exportiert werden unter<br>**Administration > Inhalt exportieren**
+Auch eine Test-Lernressource kann exportiert werden in der Administration der Lernressource unter<br>`Administration > Inhalt exportieren`
 
-![test_export_resource_content_v1_de.png](assets/test_export_resource_content_v1_de.png){ class="shadow lightbox"}
+![Export der Test-Lernressource als zip-Datei über die Administration der Lernressource, Menüpunkt "Inhalt exportieren"](assets/test_export_resource_content_v1_de.png){ class="shadow lightbox"}
 
 !!! tip "Tipp"
 
@@ -44,7 +44,7 @@ Auch eine Test-Lernressource kann exportiert werden unter<br>**Administration > 
 
 Test-Lernressourcen können als Word-Dokument exportiert werden. Oft werden solche Dateien für Review-Zwecke vor Durchführung eines Tests erstellt, damit man darin auf einfache Art Ergänzungen und Korrekturen notieren kann.
 
-![test_export_resource_word_v1_de.png](assets/test_export_resource_word_v1_de.png){ class="shadow lightbox"}
+![Export der Test-Lernressource als Word-Dokument über die Administration der Lernressource, Menüpunkt "Als Worddatei exportieren"](assets/test_export_resource_word_v1_de.png){ class="shadow lightbox"}
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -53,27 +53,27 @@ Test-Lernressourcen können als Word-Dokument exportiert werden. Oft werden solc
 
 ### Handschriftliche Prüfungen generieren
 
-Die Word-Dokumente, die mit dieser Option unter der Administration einer Test-Lernressource erstellt werden, unterscheiden sich von einem einfachen Word-Export.
+Die Word-Dokumente, die mit dieser Option unter `Administration > Handschriftliche Prüfungen generieren` einer Test-Lernressource erstellt werden, unterscheiden sich von einem einfachen Word-Export.
 
-![test_export_resource_test_manually1_v1_de.png](assets/test_export_resource_test_manually1_v1_de.png){ class="shadow lightbox"}
+![Erzeugen handschriftlicher Prüfungen über die Administration der Lernressource, Menüpunkt "Handschriftliche Prüfungen generieren"](assets/test_export_resource_test_manually1_v1_de.png){ class="shadow lightbox"}
 
 Jedes Dokument erhält ein Deckblatt, sowie eine Seriennummer, so dass nach dem handschriftlichen Ausfüllen des Tests durch die Teilnehmenden eine klare Zuordnung möglich ist.
 
 Sie müssen deshalb zwingend eine Anzahl für die zu erzeugenden Word-Dateien angeben.
 
-![test_export_resource_test_manually2_v1_de.png](assets/test_export_resource_test_manually2_v1_de.png){ class="shadow lightbox"}
+![Wizard-Schritt "Optionen" mit dem Pflichtfeld "Anzahl der Tests" und der Seriennummer für den Export](assets/test_export_resource_test_manually2_v1_de.png){ class="shadow lightbox"}
 
 Für das Deckblatt können verschiedene Attribute ausgewählt werden.
 
-![test_export_resource_test_manually3_v1_de.png](assets/test_export_resource_test_manually3_v1_de.png){ class="shadow lightbox"}
+![Wizard-Schritt "Deckblattattribute" mit den auswählbaren Feldern für Deckblatt und Testparameter](assets/test_export_resource_test_manually3_v1_de.png){ class="shadow lightbox"}
 
 Auch ein Beschreibungstext kann angegeben werden.
 
-![test_export_resource_test_manually4_v1_de.png](assets/test_export_resource_test_manually4_v1_de.png){ class="shadow lightbox"}
+![Wizard-Schritt "Deckblattfelder" mit Titel, Verfahren und dem Beschreibungsfeld für den Deckblatttext](assets/test_export_resource_test_manually4_v1_de.png){ class="shadow lightbox"}
 
 **Deckblatt Beispiel:**
 
-![test_export_resource_test_manually6_v1_de.png](assets/test_export_resource_test_manually6_v1_de.png){ class="shadow lightbox"}
+![Erzeugtes Deckblatt mit Seriennummer, Titel, Feldern für die Angaben der Teilnehmenden und den Testparametern](assets/test_export_resource_test_manually6_v1_de.png){ class="shadow lightbox"}
 
 
 [Zum Seitenanfang ^](#test_export)
@@ -89,9 +89,9 @@ In OpenOlat erstellte Fragen entsprechen dem QTI-Standard. Sie können dadurch a
 
 Befinden Sie sich im Editor einer Test-Lernressource, wählen Sie die gewünschte Frage aus und klicken auf das Icon mit den 3 Punkten rechts oben um die Frage in den Pool zu exportieren.
 
-![test_export_question_to_pool_v1_de.png](assets/test_export_question_to_pool_v1_de.png){ class="shadow lightbox"}
+![Export einer Frage in den Fragenpool über das 3-Punkte-Menü der Frage im Testeditor](assets/test_export_question_to_pool_v1_de.png){ class="shadow lightbox"}
 
-!!! tip "Hinweis"
+!!! tip "Tipp"
 
     Auf diese Art können Sie auch eine ganze Sektion mit mehreren Fragen in den Fragenpool exportieren. Wählen Sie einfach links die Sektion aus und klicken Sie dann auf die 3 Punkte.
 
@@ -103,9 +103,9 @@ Befinden Sie sich im Editor einer Test-Lernressource, wählen Sie die gewünscht
 
 ### Einzelne Frage aus dem Pool exportieren
 
-Haben Sie eine einzelne Frage im Frageneditor geöffnet, finden Sie unter dem Icon "Freigabe" eine Möglichkeit zum Export dieser Einzelfrage in eine zip-Datei. Da die Fragen in OpenOlat dem QTI-Standard entsprechen, kann die zip-Datei in einem anderen OpenOlat oder einem anderen LMS, das ebenfalls den QTI-Standard benutzt, wieder importiert werden.  
+Haben Sie eine einzelne Frage im Frageneditor geöffnet, finden Sie unter dem Icon "Freigeben" eine Möglichkeit zum Export dieser Einzelfrage in eine zip-Datei. Da die Fragen in OpenOlat dem QTI-Standard entsprechen, kann die zip-Datei in einem anderen OpenOlat oder einem anderen LMS, das ebenfalls den QTI-Standard benutzt, wieder importiert werden.  
 
-![test_export_single_question_from_pool_v1_de.png](assets/test_export_single_question_from_pool_v1_de.png){ class="shadow lightbox"}
+![Export einer einzelnen Frage aus dem Fragenpool als zip-Datei über das Icon "Freigeben"](assets/test_export_single_question_from_pool_v1_de.png){ class="shadow lightbox"}
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -114,12 +114,12 @@ Haben Sie eine einzelne Frage im Frageneditor geöffnet, finden Sie unter dem Ic
 
 ### Mehrere ausgewählte Einzelfragen aus dem Pool exportieren
 
-Haben Sie mehrere Fragen im Fragenpool ausgewählt, können diese Fragen gemeinsam sowohl in einer Word-Datei als auch in einer zip-Datei für den Transfer in ein anderes LMS exportiert werden.
+Haben Sie mehrere Fragen im Fragenpool ausgewählt, können diese Fragen gemeinsam in einer Word-Datei für die offline Prüfung, in einer QTI-2.1-Testdatei für den Austausch mit anderen kompatiblen LMS oder in einer zip-Datei für den Austausch mit anderen OpenOlat-Systemen oder zur Archivierung exportiert werden.
 
-![test_export_several_questions_from_pool1_v1_de.png](assets/test_export_several_questions_from_pool1_v1_de.png){ class="shadow lightbox"}
+![Auswahl mehrerer Fragen im Fragenpool und Klick auf den Button "Export"](assets/test_export_several_questions_from_pool1_v1_de.png){ class="shadow lightbox"}
 
 
-![test_export_several_questions_from_pool2_v1_de.png](assets/test_export_several_questions_from_pool2_v1_de.png){ class="shadow lightbox"}
+![Wizard-Schritt "Typ" mit den Formaten Word-Datei, QTI-2.1-Testdatei und zip-Datei für den Export](assets/test_export_several_questions_from_pool2_v1_de.png){ class="shadow lightbox"}
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -132,38 +132,38 @@ Haben Sie mehrere Fragen im Fragenpool ausgewählt, können diese Fragen gemeins
 
 Eine Möglichkeit zur Auswertung der Testergebnisse, ist die in Statistiken aufbereitete Form. Verwenden Sie dazu den **Button "Test Statistiken"** innerhalb des Tab "Teilnehmer:innen". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung, wenn sie einen Kursbaustein "Test" im Run-Mode anwählen.
 
-![test_export_statistics1_v1_de.png](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox"}
+![Button "Test Statistiken" im Tab "Teilnehmer:innen" des Kursbausteins Test](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox"}
 
-* Sie können die verschiedenen Statistiken zu den Testergebnissen ausdrucken (evtl. auch in eine pdf-Datei "drucken") oder die Rohdaten als Excel-Datei herunterladen.
+* Sie können die verschiedenen Statistiken zu den Testergebnissen ausdrucken (evtl. auch in eine PDF-Datei "drucken") oder die Rohdaten als Excel-Datei herunterladen.
 * Wenn Sie die Sektionen eines Tests aufklappen, können Sie detaillierte Statistiken zu jeder einzelnen Frage abrufen. 
 
-![test_export_statistics2_v1_de.png](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox"}
+![Teststatistiken mit Kennzahlen, Diagrammen sowie den Optionen "Drucken" und "Rohdaten herunterladen"](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox"}
 
 
 ### Testresultate der Teilnehmenden
 
 Mit dem **Button "Resultate exportieren"** wird eine zip-Datei erstellt, die sämtliche Testresultate aller Teilnehmenden im ausgewählten Kursbaustein enthält.
 
-![test_export_results1_v1_de.png](assets/test_export_results1_v1_de.png){ class="shadow lightbox"}
+![Button "Resultate exportieren" im Tab "Teilnehmer:innen" des Kursbausteins Test](assets/test_export_results1_v1_de.png){ class="shadow lightbox"}
 
 Haben Sie sich für das Erstellen der zip-Datei entschieden, können Sie einen Namen für die zip-Datei angeben und eine der angebotenen Varianten für ihren Inhalt wählen.
 Es können 2 Varianten der zip-Datei erstellt werden:
 
 * Der **Standardexport** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* Die Option **"Erweitert - mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt. 
+* Die Option **"Erweitert – mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch PDF-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt. 
 
-![test_export_results2_v1_de.png](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+![Export-Dialog mit Namensfeld, den Optionen "Standard" und "Erweitert – mit PDF" sowie dem Button "Export starten"](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
 
-Enthält der Test Freitextfragen und wurde die Option **"Erweitert - mit PDF"** gewählt, erscheint darunter unter **"Zusätzliche Option"** die Auswahl **"Separate PDF-Datei für jede Freitextfrage"**. Ist sie aktiviert, wird die Antwort jeder Freitextfrage zusätzlich als eigene PDF-Datei in die zip-Datei gelegt.
+Enthält der Test Freitextfragen und wurde die Option **"Erweitert – mit PDF"** gewählt, erscheint darunter unter **"Zusätzliche Option"** die Auswahl **"Separate PDF-Datei für jede Freitextfrage"**. Ist sie aktiviert, wird die Antwort jeder Freitextfrage zusätzlich als eigene PDF-Datei in die zip-Datei gelegt.
 
 Klicken Sie auf den **Button "Export starten"** um die zip-Datei mit den Testresultaten zu erzeugen. 
 
-Erstellte zip-Dateien werden im unteren Bereich unter **"Exportverlauf"** aufgelistet.
+Erstellte zip-Dateien werden im unteren Bereich unter **"Exportverlauf"** aufgelistet und stehen dort nur für einen begrenzten Zeitraum von 10 Tagen zur Verfügung.
 
 Öffnen bzw. entpacken Sie dann die erstellte zip-Datei um auf die benötigten Dateien zuzugreifen.
 
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Auch in der Kursadministration gibt es eine Option zum Exportieren bzw. Archivieren von Testergebnissen. Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test.de.md#archive).
 
@@ -172,16 +172,19 @@ Erstellte zip-Dateien werden im unteren Bereich unter **"Exportverlauf"** aufgel
 ---
 
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Testergebnisse archivieren >](../learningresources/Course_Element_Test.de.md)
+
+**Weiterführend**<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Allgemeines zu Tests >](../learningresources/Test.de.md)<br>
 [Der Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Test-Fragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test-Lernressourcen konfigurieren](Configure_tests.de.md)<br>
-[Test-Lernressourcen Einstellungen >](Test_settings.de.md)<br>
-[Testergebnisse archivieren >](../learningresources/Course_Element_Test.de.md#archive)
+[Test-Lernressourcen Einstellungen >](Test_settings.de.md)
 
 [Zum Seitenanfang ^](#test_export)
 

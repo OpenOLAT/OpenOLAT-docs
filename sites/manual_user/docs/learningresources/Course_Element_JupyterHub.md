@@ -1,4 +1,4 @@
-# Course Element "JupyterHub"
+# Course Element "JupyterHub" {: #jupyterhub}
 
 
 ## Profile
@@ -7,7 +7,7 @@ Name | JupyterHub
 ---------|----------
 Icon | ![JupyterHub Icon](assets/course_element_jupyterhub_icon.png){ class=size24 }
 Available since | Release 18
-Functional group | Knopwledge transfer
+Functional group | Knowledge transfer
 Purpose | Provision of Jupyter images
 Assessable | no
 Specialty / Note | Beta version
@@ -20,3 +20,10 @@ For more information see [jupyter.org](https://jupyter.org/hub).
 ## Configuring the course element
 
 In the course editor, use the **Hub** field in the "JupyterHub configuration" tab to set which hub is used. Only active hubs are available for selection [:octicons-tag-16:{ title="from Release 21.0 (OO-9565)" }](https://track.frentix.com/issue/OO-9565){:target="_blank"}. If the hub configured for an existing course element has since become inactive, it remains selected but is shown with a warning that it will no longer work.
+
+## Further information {: #further_information}
+
+[Jupyter.org >](https://jupyter.org/hub)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+
+[To the top of the page ^](#jupyterhub)

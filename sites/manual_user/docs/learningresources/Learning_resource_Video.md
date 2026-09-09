@@ -1,14 +1,14 @@
-# Learning resource: Video
+# Learning resource: Video {: #learning_resource_video}
 
 :fontawesome-solid-film:
 
 The "Video" learning resource is the central element for videos in OpenOlat. It is [created](../area_modules/authoring_new_course.md#import-learning-resources) in the authoring area via "Import File" (to upload an MP4 file) or "Import via URL" (to embed an external video, e.g., from YouTube or Vimeo) and can then be found in the "My Entries" section of the authoring area.
 
-![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
- 
-A video learning resource consists not only of the video file itself, but is a standalone object with its own information page, administration menu, and sharing settings. It is available across courses and can be embedded in multiple courses or made available independently of courses.
+![Create learning resource](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" }
 
-In addition, video learning resources can be further enhanced with interactive features using the OpenOlat video editor, such as annotations or quiz questions.
+The Video learning resource does not consist only of the video file itself, but is a standalone object with its own information page, administration menu, and sharing settings. It is available across courses and can be embedded in multiple courses or made available independently of courses.
+
+In addition, the Video learning resource can also be further customized interactively using the OpenOlat video editor, e.g. with annotations or quiz questions.
 
 For more technical information on uploading and organizing videos, click [here](../basic_concepts/Video_Upload.md).
 
@@ -22,7 +22,7 @@ For more technical information on uploading and organizing videos, click [here](
 The "Video" learning resource has the following administration menus:
 
 * **Settings** (see below)
-* [Member Management](../learningresources/Members_management.md): Primarily relevant when using the video learning resource on its own. If the video is used within a course, members do not need to be managed separately. Only additional owners of the learning resource are added and managed in this menu.
+* [Member Management](../learningresources/Members_management.md): Primarily relevant when using the Video learning resource on its own. If the video is used within a course, members do not need to be managed separately. Only additional owners of the learning resource are added and managed in this menu.
 * **Video Editor** (see below)
 * [Offer Types](../learningresources/Offer_Types.md): Links to the booking orders
 * **Replace Video**: Allows you to upload a different or new video file to the learning resource. This is useful, for example, when updating a video. The link to the learning resource and any embedded content remain intact while the new video is displayed. If subtitles already exist for the video and the frentix cloud transcoding service is active, OpenOlat asks when replacing the video whether new subtitles should be generated (see [Tab "Configure subtitles"](#video_subtitles)).
@@ -36,35 +36,35 @@ The "Video" learning resource has the following administration menus:
 
 ## "Settings" menu for the Video learning resource {: #video_settings}
 
-![lernressource_video.png](assets/Video_Einstellungen.png){ class="shadow lightbox" }
+![Tabs of the "Settings" menu for the Video learning resource](assets/Video_Einstellungen.png){ class="shadow lightbox" }
 
 
 ### Tab "Info"
 
-On the "Info" tab, you can enter a description, a teaser, and a tag, which will be displayed on the video's info page. If the learning resource is embedded in the course using the Video course block, the description and title can also be displayed directly next to the video in the course. You can learn how to integrate videos—specifically, the “Video” learning resource—into a course in the chapter [“Course Element: Video”](Course_Element_Video.md).
+On the "Info" tab, you can enter a description, a teaser, and a tag, which will be displayed on the video's info page. If the learning resource is embedded in the course using the Video course element, the description and title can also be displayed directly next to the video in the course. For general information on how to embed the Video learning resource into a course, see the chapter [“Course Element: Video”](Course_Element_Video.md).
 
 For more information on setting up the info page, see the section ["Set up info page"](../learningresources/Course_Settings_Info.md#configure_info).
 
 
 !!! tip "Tip"
 
-    Since the learning resource is already a video, it is usually neither practical nor necessary to include a teaser video as well. One exception would be a short summary of a longer video intended to provide a preview of its content. However, this video would only be visible if the video learning resource is offered on its own and not as part of a course. For more information, see the "Sharing" tab. 
+    Since the learning resource is already a video, it is usually neither practical nor necessary to include a teaser video as well. One exception would be a short summary of a longer video intended to provide a preview of its content. However, this video would only be visible if the Video learning resource is offered on its own and not as part of a course. For more information, see the "Share" tab. 
 
 
-### Tab "Meta data"
+### Tab "Metadata"
 
 In the "Metadata" tab, you will find general information about the video, such as the creation date and file size. As with other learning resources, you can also enter information about the authors, departments, primary language, duration, and license.
 
 !!! note "Note for YouTube videos"
 
-    When YouTube videos are imported via "Import URL," the metadata from the YouTube file—such as the title or thumbnail—is also imported.
+    When YouTube videos are imported via "Import URL," the metadata from the YouTube file, such as the title or thumbnail, is also imported.
 
 
 ### Tab "Share"
 
-On the "Sharing" tab, you can specify whether the video learning resource should be embedded in a course or used as a standalone resource. If you select "Standalone" as the usage type, you must also define the booking method. For more information, click [here](../learningresources/Course_Settings_Share.md).
+On the "Share" tab, you can specify whether the Video learning resource should be embedded in a course or used as a standalone resource. If you select "Standalone" as the usage type, you must also define the booking method. For more information, click [here](../learningresources/Course_Settings_Share.md).
 
-If the [Video Collection](../area_modules/Video_Collection.md) is enabled in your instance, you can also choose whether your video learning resource should be displayed there. 
+If the [Video Collection](../area_modules/Video_Collection.md) is enabled in your instance, you can also choose whether your Video learning resource should be displayed there. 
 
 ### Tab "Configure poster"
 
@@ -74,7 +74,7 @@ Using the "Replace Poster" button, you can choose between different still images
 
 !!! tip "Tip"
 
-    Please note that an uploaded image should have the same pixel dimensions as the original video. You can find the relevant information in the "Meta data" tab.
+    Please note that an uploaded image should have the same pixel dimensions as the original video. You can find the relevant information in the "Metadata" tab.
 
 
 ###  Tab "Configure subtitles"  {: #video_subtitles}
@@ -101,7 +101,7 @@ A timestamp is required before each subtitle line, and it must be in the followi
 
     hh\:mm\:ss.msec 
 
-    Example: 00:00:20.396 (Time: 0 hours, 0 minutes, 20,396 seconds)
+    Example: 00:00:20.396 (Time: 0 hours, 0 minutes, 20.396 seconds)
 
     Milliseconds must be specified to the third decimal place.
 
@@ -152,11 +152,11 @@ If a new video file is uploaded via the "Replace Video" administration menu and 
 By default, videos in OpenOlat play without subtitles. 
 
 When subtitles are available, the following icon appears in the video player:
-![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
+![Icon for subtitles in the video player](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), and means that subtitles are hidden until the user turns them on. In OpenOlat, this function is located at the bottom right of the player. When you hover your mouse pointer over the icon, the list of available subtitles unfolds. The currently selected option is highlighted.
+CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), and means that subtitles are hidden until participants turn them on. In OpenOlat, this function is located at the bottom right of the player. When you hover your mouse pointer over the icon, the list of available subtitles unfolds. The currently selected option is highlighted.
 
-![Untertitel](assets/video_subtitle.png){ class="shadow lightbox" }
+![Subtitles](assets/video_subtitle.png){ class="shadow lightbox" }
 
 ###  "Video Quality" tab {: #video_quality}
 
@@ -165,11 +165,11 @@ In the "Video Quality" tab, you can see the resolutions in which the video is av
 
 Pending videos can be transcoded, and unused resolutions can be deleted.
 
-![video_quailty.png](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
+![Table of available video resolutions in the "Video Quality" tab](assets/Video_qualitaten_20.png){ class="shadow lightbox" }
 
 In the video player, you can select the desired resolution using the "Source Chooser" if needed.
 
-![video_aufloesung.png](assets/video_aufloesung.png){ class="shadow lightbox" }
+![Selecting the video resolution via the Source Chooser in the video player](assets/video_aufloesung.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -177,7 +177,7 @@ In the video player, you can select the desired resolution using the "Source Cho
 
 ### Tab "Download"
 
-In the Download tab, you can specify whether users are allowed to download the video or not.
+In the Download tab, you can specify whether participants are allowed to download the video or not.
 
 !!! info "Important"
 
@@ -197,14 +197,14 @@ The "Catalog" tab appears only if [Catalog 1.0](../area_modules/catalog1.0.md) i
 
 In the learning resource administration, you will find the link to the "Video Editor".
 
-![Menü Video Editor starten](assets/Video_Editor_administratio.jpg){ class="shadow lightbox" }
+![Link to open the Video Editor menu](assets/Video_Editor_administratio.jpg){ class="shadow lightbox" }
 
 Here, you can enhance the video with (interactive) elements and further customize it. 
 
-![lernressource_video.png](assets/Video-Editor.png){ class="shadow lightbox" }
+![Overview of the Video Editor with preview, configuration area and timeline](assets/Video-Editor.png){ class="shadow lightbox" }
 
 The Video Editor includes three editing areas:
- 
+
 * Configuration area (top right)
 * Timeline (bottom)
 * Preview area (top left)
@@ -214,31 +214,37 @@ The following can be configured: Chapters, annotations, segments, comments and q
 
 ### Video editor: Chapters [:octicons-tag-16:{ title="from Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
-"Chapters" can be added to each video as jump labels. This simplifies especially the navigation in the video and should be used for longer videos. A chapter is added with the button **"Add chapter"**. The name of the chapter can be inserted. Additionally the begin of the chapter needs to be defined.
+"Chapters" can be added to each video as jump markers. This makes navigation in the video easier and should be added especially for longer videos. A chapter is created on the "Chapters" tab with the "Add" button.
 
-Alternatively the video can be stopped at the place, where the new chapter should start. Click the button "Add chapter". The starting time is taken over automatically and only the name of the chapter needs to inserted.
+Select the point in time for the start of the chapter and assign a name. OpenOlat then sets a chapter marker at that point.
 
-Chapters can then be edited and deleted. Furthermore, the chapters are visible in the timeline.
+You can also navigate to a specific point in the video via the timeline and then click "Add" to create a chapter starting exactly at that point. The start time is then taken over automatically.
 
-![lernressource_video.png](assets/Video-Editor_Kapitel.png){ class="shadow lightbox" }
+Chapters can then be edited or deleted again. Chapters are also visible in the timeline.
+
+![Chapters in videos](assets/Video_Kapitel.jpg){ class="shadow lightbox" }
 
 ### Video editor: Annotations :octicons-tag-16:{ title="from Release 17.2 (OO-6344)" } {: #video_annotation}
 
-In addition to the chapter markers, further annotations and comments can also be stored at any point in the video, e.g. to highlight particularly important points or to supplement certain aspects. In addition to text, links can also be set that lead, for example, to further information or additional videos.
+Notes or annotations can also be added at any point in the video, e.g. to highlight particularly important points or to add certain aspects, e.g. references. In addition to text, links can also be added, e.g. leading to further information.
 
-![lernressource_video.png](assets/Video-Editor_Annotationen.png){ class="shadow lightbox" }
+Select the point in the timeline where the annotation should be added and click "Add". The configuration for the annotation appears.
 
-Select the place where the annotation should be added and define the further settings, such as the duration, the position where the annotation should appear and of course the text to be displayed. The annotation blocks can be flexibly moved by drag&drop.
+Enter the desired text, set the display duration, and choose a color to mark it in the left area. Click the pencil icon to adjust the position and size of the annotation field. You can also move the annotation field using drag and drop. Save the settings.
+
+![Configuring annotations in videos](assets/Video_Annotationen.jpg){ class="shadow lightbox" }
+
+You can add as many annotations as you like and switch between them using the arrows. Annotations can also be deleted again via the three-dot menu.
 
 ### Video editor: Segments  :octicons-tag-16:{ title="from Release 17.2 (OO-6598)" } {: #video_segments}
 
-Segments are specific sections of a video that are assigned to, for example, an overarching theme or structure. Segments are particularly relevant in courses for the "Video" and "Video Assignment" course blocks, where they can be displayed and used.
+Segments are specific sections of a video that are assigned to, for example, an overarching theme or structure. Segments are particularly relevant in courses for the "Video" and "Video task" course elements, where they can be displayed and used.
 
 #### Create segments
 
 In the video editor, select the "Segments" tab and click "Add". The configuration menu will appear. 
 
-![learning_resource_video_segments1_v1_de.png](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" }
+![The "Segments" tab in the video editor with the "Add" button](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" }
 
 For each segment, you must create an element by clicking "Add" and assign it an appropriate time slot and **term**.  The segments must not overlap in time. In other words, exactly one term is assigned to each time segment.
 
@@ -246,11 +252,11 @@ You can enter all relevant video segment terms directly and then assign them to 
 
 * Click the "Terms" button. 
 
-![learning_resource_video_segments2_v1_de.png](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" }
+![Configuring a segment with the "Terms" button](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" }
 
 * Use the plus sign to add all relevant terms. If possible, list them in the order they appear in the video. This will make it easier to match them up later.
 
-![learning_resource_video_segments3_v1_de.png](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" }
+![The "Edit terms" dialog with the plus icons for adding further terms](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" }
 
 Alternatively, you can jump to the desired point in the video timeline and then add the appropriate term for that segment. Here’s how: 
 
@@ -260,14 +266,14 @@ Alternatively, you can jump to the desired point in the video timeline and then 
 
 Inserted segments are displayed in a separate track on the timeline, allowing you to quickly access and edit them. 
 
-![learning_resource_video_segments4_v1_de.png](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
+![Inserted segments with labels in the video editor timeline](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Hints"
 
     * Use the play button on the video to check your work.
     * You can click on a segment in the timeline to go directly to the editing screen for that segment.
 
-The segments are primarily used in the "Video Assignment" course module. How could you use the segments here? Here are a few ideas:
+The segments are primarily used in the "Video task" course element. How could you use the segments here? Here are a few ideas:
 
 a) For example, instructors could assign a key concept to a specific time slot in the video. Later in the course, students must locate the exact point where this aspect appears.<br>
 b) Instructors define different phases of a process and label them as segments. Students must then identify the corresponding sections in the video. This works similarly when matching theories.<br>
@@ -276,13 +282,13 @@ c) When watching a video recording of a kindergarten scene, a job interview, or 
 
 ### Video editor: Comments :octicons-tag-16:{ title="from Release 17.2 (OO-6766)" } {: #video_comments}
 
-Comments can be placed specifically at a certain point in the video and, for example, highlight important key statements of the video, provide supplementary information on the topic or notes on the following video section. The comment is marked with the name of the person who created it.
+Comments can be placed at a specific point in the video. They can highlight key statements, add additional information, or prepare for the following video section. Each comment is marked with the name of the person who created it.
 
-If the user watches the video, it stops at the point marked with the comment. To continue, either the comment must be actively closed or the play button of the video must be clicked manually.
+During playback, the video automatically stops at the commented point. To continue, the comment must be actively closed or the play button clicked again. This is the key difference to annotations.
 
-In addition to simple text comments and the integration of existing videos (import as a file or via URL, e.g. from YouTube), video comments can also be recorded and integrated directly in the editor via the recording function.
+Comments can be created as text or as video comments. Video comments can be recorded directly via webcam in OpenOlat, imported as a file, or embedded via a link: this creates a "video within a video" at that point.
 
-![lernressource_video.png](assets/Video-Editor_Kommentare.png){ class="shadow lightbox" }
+![Adding video comments](assets/Video_Kommentare.jpg){ class="shadow lightbox" }
 
 
 ### Video editor: Quiz {: #video_quiz}
@@ -298,14 +304,14 @@ The specific tabs for the quiz question correspond to the selected question type
 After entering the information, you will return to the video editor, where you can continue configuring the quiz question for the video. Here, define:
 
 * the starting point of the quiz question in the video -> "Start"
-* how much time the user has to answer the quiz question. 
+* how much time participants have to answer the quiz question. 
 * whether the question may be skipped
 * whether multiple attempts are allowed
 * the color used to highlight and display the question
 
-The quiz questions in the video are "assessed" immediately as they are answered—but only to determine whether the answer is correct or incorrect. The points assigned to a question do not factor into the video's functionality. There is therefore no overall score at the end of the video. (However, if the same question is used in a test, for example, the points will be counted.)
+The quiz questions in the video are "assessed" immediately as they are answered, but only to determine whether the answer is correct or incorrect. The points assigned to a question do not factor into the video's functionality. There is therefore no overall score at the end of the video. (However, if the same question is used in a test, for example, the points will be counted.)
 
-If a question is answered incorrectly, and there is only one attempt allowed for that question and it cannot be skipped, the video will return to the beginning and the user will not be able to proceed. 
+If a question is answered incorrectly, and there is only one attempt allowed for that question and it cannot be skipped, the video will return to the beginning and participants will not be able to proceed. 
 
 
 !!! note "Note"
@@ -320,7 +326,7 @@ If a question is answered incorrectly, and there is only one attempt allowed for
 
 ## Further information {: #further_information}
 
-[Course element Video >](../../manual_user/learningresources/Course_Element_Video.md)<br>
-[Course element Video task >](../../manual_user/learningresources/Course_Element_Video_Task.md)<br>
+[Course element Video >](Course_Element_Video.md)<br>
+[Course element Video task >](Course_Element_Video_Task.md)<br>
 
-[To the top of the page ^](#learning_resource_video))
+[To the top of the page ^](#learning_resource_video)

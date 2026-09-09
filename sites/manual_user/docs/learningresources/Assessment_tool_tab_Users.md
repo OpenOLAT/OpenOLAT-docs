@@ -1,85 +1,88 @@
-# Assessment tool - Tab Users {: #assessment_tool_users}
+# Assessment tool: Tab Participants {: #assessment_tool_users}
 
-You have two general options for the assessment in the assessment tool. Either you start from one person and assess the work done by this person or you start from the course structure and a concrete assessment element and assess all persons for this task, this test, and so on.
+You have two general options for carrying out an assessment in the assessment tool. Either you start from one person and assess the work done by this person, or you start from the course structure and a specific assessment element and assess all persons for this task, this test, or other assessment course element.
 
-On the far left you will see the course structure with all assessable course elements. Here you can navigate directly to one of the elements to make your assessment.  For each course element, a tab with the "Overview" and a tab with the "Participants" are displayed. 
+In the left column of the assessment tool you see the course structure with all assessable course elements. Here you can navigate directly to one of the course elements to make your assessment. For each course element, a tab with "Overview" and a tab with "Participants" is displayed.
 
-![Assessment tool participant overview](assets/Bewertungswerkzeug_Teilnehmer_172.png)
+![Tab "Participants" of the course element "Test" with filters, participant list, points, and status in the assessment tool](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" }
 
-The exact procedure is described in the chapters [Assessing participants](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
+The exact procedure is described in the chapters [Assessing learners](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 
 ---
 
-## Participants tab in the assessment tool {: #assessment_tool_participants}
+## Search for participants {: #assessment_tool_participants}
 
-In the tab Participants, all course participants are listed that can be evaluated. In addition, specific people, e.g. all those who have not yet "passed" this course element, can be displayed in a filtered manner, or specific participant names can be searched for.
+In the "Participants" tab, all participants who can be assessed are listed. They can be filtered by various criteria, e.g. all participants who have "not yet passed" this course element, or all participants of a specific group. Individual persons can also be searched for.
 
+### Display and column selection {: #display_column}
 
-### Display and column selection {: #display_coulmn}
+The information displayed in the "Participants" tab can be further customized by selecting the desired columns. To do this, click on the gear icon.
 
-The information displayed in the "Participants" tab can be further customized by selecting the desired columns. To do this, click on the gear wheel. 
+The specific display options vary depending on the assessment element. In addition to basic information such as name or matriculation number, information on status or the last update can also be displayed here. Customizing the columns is therefore helpful to get a quick overview. The information on points, attempts, status, and the last update in particular is often needed.
 
-Which table columns are exactly available depends on the course element type and the respective configuration. Depending on the selection of the activated columns, different information will be displayed. In addition to basic information such as name or matriculation number, information on the status or the last update can also be displayed here.
+Set up the columns as it makes sense for your context, and check in the settings whether a column is activated if you happen to miss a piece of information.
 
-Set up the columns as it makes sense for your context and check in the settings if it is also activated when you miss a piece of information.
+Here are examples of the column selection via the gear icon:
 
-Especially the information about scores, attempts, status and last update is often needed. It is best to set up the columns as it makes sense for your context.
-
-Here are examples of selectable column with the gear: 
-
-![Kursbaustein Struktur Spaltenwahl](assets/Bewertungswerkzeug_Struktur_Spalte_172.png)
+![Column selection via the gear icon for the course element "Structure" in the assessment tool](assets/Bewertungswerkzeug_Struktur_Spalte_172.png){ class="shadow lightbox" }
 
 Course element "Structure"
 
-![Kursbaustein Test Spaltenwahl](assets/Bewertungswerkzeug_test_Spalte_172.png)
+![Column selection via the gear icon for the course element "Test" in the assessment tool](assets/Bewertungswerkzeug_test_Spalte_172.png){ class="shadow lightbox" }
 
 Course element "Test"
 
-![Kursbaustein Aufgabe Spaltenwahl](assets/Bewertungswerkzeug_aufgabe_Spalte_172.png)
+![Column selection via the gear icon for the course element "Task" in the assessment tool](assets/Bewertungswerkzeug_aufgabe_Spalte_172.png){ class="shadow lightbox" }
 
 Course element "Task"
-
-### View points earned {: #points}
-
-To check how many points specific participants have earned, open the (course) administration for the relevant course and then open the grading tool.
-The overview page offers several ways to access (pre-filtered) participant lists.
-If a list is open, click on the name of the person in question.
-
-![assessment_tool_tab_users_points1_v1_de](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" }
-
-#### Course Overview
-
-To view the grades for the entire course, select the course name on the left and then click the "Students" tab.
-
-![assessment_tool_tab_users_points2_v1_de](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" }
-
-The configuration may specify that instructors can assign points in the assessment tool but are not permitted to approve the results themselves. 
-In this case, these points are provisional and should not yet be included in the total.
-
-To help instructors see how many points participants will have once all points have been awarded, the provisional scores are shown in parentheses.
-
-Example:
-![assessment_tool_tab_users_points3_v1_de](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" }
-
-
-#### Points for a specific course module
-
-To view the points for a specific course module only, select the course module on the left and then select the desired person in the "Participants" tab.
 
 [To the top of the page ^](#assessment_tool_users)
 
 ---
 
+### View points earned {: #points}
 
+To check as a coach how many points specific participants have earned, open the Administration for the relevant course and then open the assessment tool.
+The overview page offers several ways to access (pre-filtered) participant lists.
+If a list is open, click on the name of the person in question.
 
-  
-### Activate further options {: #further_options}
+![Overview page of the assessment tool with highlighted links to pre-filtered participant lists](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" }
 
-After selecting one or more people in an assessment module, further functions appear, e.g. the status can be set to completed, visibility can be activated, an email can be sent or a test can be extended. The options vary depending on the assessment module.
+#### Points for the entire course
 
-![Activate further options](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
+To view the points for the entire course, select the course name on the left and then the "Participants" tab.
 
+![Tab "Participants" of the top course element with the "Points" column highlighted in the assessment tool](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" }
+
+The configuration may specify that coaches can assign points in the assessment tool but are not permitted to release the result themselves.
+In this case, these points are provisional and must not yet be included in the total.
+
+To let coaches see how many points participants will have once all points have been released, the provisional points are shown in parentheses.
+
+Example:
+![Points overview of a person with provisional, not yet released points in parentheses next to the already released points](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" }
+
+#### Points for a specific course element
+
+To view the points for a specific course element only, select the course element on the left and then the desired person in the "Participants" tab.
 
 [To the top of the page ^](#assessment_tool_users)
 
+---
 
+## Activate further options {: #further_options}
+
+After selecting one or more people in an assessment element, further functions appear, e.g. the status can be set to completed, visibility can be activated, an email can be sent, or a test can be extended. The options vary depending on the assessment course element.
+
+![Further functions such as setting status, activating visibility, and sending an email after selecting several participants in the assessment tool](assets/Bewerungswerkzeug_Funktionen_erscheinen.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#assessment_tool_users)
+
+---
+
+## Further information {: #further_information}
+
+[Assessing learners >](Assessment_of_learners.md)<br>
+[Assessment of course elements >](Assessment_of_course_modules.md)
+
+[To the top of the page ^](#assessment_tool_users)

@@ -1,34 +1,34 @@
-# Record of Course Activities
+# Record of Course Activities {: #record_of_course_activities}
 
-OpenOlat records course activities of participants and authors in so-called log files.
+OpenOlat records course activities of participants and course authors in log files.
 
-By using the [data archiving](../learningresources/Using_additional_Course_Editor_Tools.md) tool, you can download those log files to your personal folder.
+Within a course, the following log files can be downloaded via [data archiving](../learningresources/Course_Archiving.md):
 
-* administrator's log file with personalized data of the course authors
-* user's log file Statistics log file with the anonymized data of the course participants
+* Admin log file with personalized data of the course authors
+* Statistics log file with the anonymized data of the participants
+* Participants log file with detailed, personalized data of the participants
 
-
-![log file](assets/log_files.png){ class="shadow lightbox" }
+![Log file selection with date range and "Archive" button in the "Archiving & Reports" area of the course administration](assets/log_files.png){ class="shadow lightbox" }
 
 !!! info "Privacy protection"
 
-    The user log file with personalized data is only available for system administrators for privacy reasons.
+    For privacy reasons, the participants log file with the personalized data of the participants is only available to system administrators.
 
-Users with the right to archive (usually course administrators) can save the desired log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in their [personal files](../personal_menu/File_Hub.md#personal_files). This ZIP file contains the selected files _course_statistic_log.csv_, _course_admin_log.csv_ or _course_user_log.csv_.
+Course owners and other persons who have the right to archive can save the desired log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in their [personal files](../personal_menu/File_Hub.md#personal_files). The ZIP file then contains the selected files _course_statistic_log.xlsx_, _course_admin_log.xlsx_ and _course_user_log.xlsx_.
 
-Please note that in the file _course_statistic_log.csv_ course participants are anonymized as follows:
-Each course participant receives a number (e.g. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6) generated at random; this number remains unchanged within a course. This number persists throughout the course. Thus it is possible to observe activities of participant X in course Y but you will not be able to compare these data with course Z since your participant will get another number in course Z.
+Please note that in the file course_statistic_log.xlsx the participants are anonymized as follows:<br>
+Each participant receives a randomly generated number (e.g. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6), which remains constant within a course. This allows you to track the activities of participant X in course Y, but not to compare them with their activities in course Z, since participant X receives a new number in course Z.
 
-Possible entries in the log file columns **actionCrudType** (database operation), **actionVerb** (action) and **actionObject** (handled course object)(sorted):
+Possible entries in the log file columns **actionCrudType** (database operation), **actionVerb** (action) and **actionObject** (course object handled) (grouped alphabetically):
 
-actionCrudType| actionVerb| actionObject  
----|---|---  
+actionCrudType| actionVerb| actionObject
+---|---|---
 c | add | calendar, chat, course, cpgetfile
 r | copy | editor, efficency
 u | denied | feed, feeditem, file, folder, forummessage, forumthread
 d | do | glossary, gotonode, groupmanagement, group, grouparea, groupareaempty
 e | edit | help
-|  | exit | layout
+|  | exit | layout
 |  | hide | node
 |  | launch | owner
 |  | lock | participant, publisher
@@ -37,25 +37,32 @@ e | edit | help
 |  | remove | sharedfolder, spgetfile
 |  | view | testattempts, testcomment, testid, testscore, testsuccess, tools, toolsempty
 |  |  | waitingperson
-  
-The column **actionCrudType** summarizes the executed actions in basic database operations. As these are broken down in the column actionVerb, the column actionCrudType is not relevant for you. Nevertheless, the operations as follows:
+
+The column **actionCrudType** summarizes the actions performed in basic database operations. Since these are further broken down in the actionVerb column, actionCrudType is not further relevant.
+
+Nevertheless, here is the key:
 
 * C=Create
 * R=Read / Retrieve
-* U= Update / Modify
+* U=Update / Modify
 * D=Delete
 * E=Exit
 
-The column **actionVerb** now further examines what the user (from "userName) actually did with the course object from column actionObject. The entry from column **actionObject** thus represents the course object being altered, at least from the database's perspective.
+The column **actionVerb** then examines in more detail which action the users under "userName" performed on the course object from the actionObject column. The entry in the **actionObject** column is thus the object that was "changed", at least from a database perspective.
 
-![](assets/course_statistic_log.gif){ class="shadow lightbox" }
+![Sample entries of the statistics log file with the columns creationDate, userName, actionCrudType, actionVerb and actionObject](assets/course_statistic_log.gif){ class="shadow lightbox" }
 
-So, the third row
+The third row
 
 `u / add / participant / [group name] / [username]`
 
-would be read accordingly (database operation: update / modify):
+is read as follows (database operation: update / modify):
 
 `Add user [username] to [group]`
 
+## Further information {: #further_information}
 
+[Data archiving >](../learningresources/Course_Archiving.md)<br>
+[Details on the File Hub >](../personal_menu/File_Hub.md)
+
+[To the top of the page ^](#record_of_course_activities)

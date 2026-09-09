@@ -17,11 +17,11 @@ With the course element "Survey" you can add an online questionnaire to your cou
 
 If you have not yet created a form for surveys, take a look at the [How-to section](../../manual_how-to/create_a_form/create_a_form.md) to find out how you can create forms for your survey.
 
-!!! Note "Attention"
+!!! note "Note"
 
-    A formu linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_Editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
+    A form linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_Editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
 
-!!! Note "Attention"
+!!! note "Attention"
 
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
@@ -31,14 +31,14 @@ Further information on the subject of questionnaires and surveys can be found in
 
 The learning resource form is used in the course element "Survey" in the form of a questionnaire. Course owners can thus include questionnaires in their course and learners can complete the surveys provided. The results are displayed to the course owners and coaches then accordingly.
 
-OpenOlat ensures that course participants can only fill out the survey or questionnaire once. The results are stored anonymously by default. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_Editor.md)
+OpenOlat ensures that participants can only fill out the survey or questionnaire once. The results are stored anonymously by default. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_Editor.md).
 
 
 ### Course editor {: #course_editor}
 
 Go to the course editor and add the course element Survey. After you have added the course element Survey to the course, the following tabs will be available in the course editor:
 
-![Umfrage Kurseditor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
+![Tabs Title and description, Layout, Learning path and Survey of the course element Survey in the course editor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
 
 In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [Tab Learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined, which are valid for learning path courses, e.g. "Survey participated" can be selected as completion criterion.
 
@@ -48,7 +48,7 @@ Classic courses, on the other hand, have the Visibility and Access tabs. Here yo
 
 The central configuration is done in the "Survey" tab. Here, in the first step, either a new form is created or an existing one is selected. In the overview that appears, all forms for which one is the owner are displayed and can be selected simply by clicking on the checkmark and thus added to the course.
 
-![Formular Auswahldialog](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
+![Three own forms under My entries with checkmarks in the column Select, buttons Create and Import at the top right, in the dialog Select form](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
 
 If you have not yet created a form, you can create a new learning resource form using the "Create" button or import an existing external form. Subsequently, the form just created or imported also appears in the list and can be selected.
 
@@ -58,7 +58,7 @@ If a form is created directly in the course editor, a new learning resource Form
 
 After a form has been selected, it can be designed via the "Edit" link. If the form has already been set up appropriately, editing is no longer necessary.
 
-![Umrage einbinden](assets/Umfrage_Tab.png){ class="shadow lightbox" }
+![Form Kursbefragung selected with buttons Replace and Edit, in the tab Survey of the course editor](assets/Umfrage_Tab.png){ class="shadow lightbox" }
 
 !!! warning "Attention"
 
@@ -78,18 +78,18 @@ Also the results can be released to all these groups and associated with a start
 !!! tip "Hint"
 
     However, a prerequisite for processing the survey is that the entire course is also released for the respective group of people. For example, if a survey is also to be completed by external persons (guests), the course must also include an access offer for guests > [Release](../learningresources/Access_configuration.md). Please note that a course release for guests is only possible for classic courses, not for learning path courses.   
- 
+
 If a form is included as a survey in a course, the form can be modified in a limited way in the course via the "edit" button. Texts can be changed but individual blocks can no longer be moved or new areas can be created or deleted. The message "The resource is already used..." appears in the form.
 
 ### View {: #view}
 
 What owners, coaches and participants see when the editor is closed depends on what user permissions are selected in the Survey tab. If the respective group of persons has the right to fill in the questionnaire (participation by...), then they will see the respective questionnaire first. As soon as the person has filled out the questionnaire, the questionnaire statistics overview appears directly at the respective survey module, provided that the results are also visible for the user group.
 
-![Umfrage Statistik](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" }
+![Tab Overview with key figures and bar chart Total rubrics, buttons Print, Export PDF and Export Excel, in the statistics of the course element Survey](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" }
 
 If a group of people (e.g. learners) is authorized to fill in the survey but not authorized to see the results, this message will appear after filling in:
 
-![Meldung Umfrage ausgefüllt](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
+![Message "Form completed, You have already completed the form. Thank you for your participation.", in the course element Survey](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
 
 The survey can be filled out only once and cannot be changed after it has been submitted. The user will see a corresponding information. If the questionnaire is not to be sent directly, the option "Save temporarily" can be used.
 
@@ -113,12 +113,25 @@ Furthermore, the contents of all 4 tabs can also be printed or downloaded as an 
 
 The same assessment can be found in the menu `Administration > Questionnaire statistics`.
 
-The results can also be saved as part of the [course archiving](../learningresources//Course_Archiving.md). It is even possible to bundle the results of several course elements in one zip file.
+The results can also be saved as part of the [course archiving](../learningresources/Course_Archiving.md). It is even possible to bundle the results of several course elements in one zip file.
 
 ### Reset surveys {: #reset_surveys}
 
 Course owners can also "Reset" already completed questionnaires via the link in the 3-point menu of the respective course element. In this case, all questionnaires already submitted for this survey will be deleted. It is not possible to reset individual questionnaires, as the submission is anonymous.
 
-![survey reset](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" }
+![Three-dot menu with the highlighted option Reset, in the course element Survey](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" }
 
 Furthermore, the contents of all 4 tabs can also be printed or downloaded as an Excel spreadsheet or as a PDF version.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[The Form Editor >](../learningresources/Form_Editor.md)<br>
+[Forms - Overview >](../learningresources/Form.md)<br>
+[Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
+
+[To the top of the page ^](#course_element_survey)

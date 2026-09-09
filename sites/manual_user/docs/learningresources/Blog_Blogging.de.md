@@ -31,7 +31,7 @@ Mit dem Toggle-Button darüber können Sie sich zusätzlich eine Zeitleiste und 
 
     Haben Sie nur Leserechte auf den Blog (z.B. als Betreuer:in ohne Schreibrecht oder als Kursteilnehmer:in, die/der keine eigenen Beiträge erstellen darf), steht Ihnen nur der Filter "Alle Einträge" zur Verfügung [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
 
-![blog_blogging_list_v2_de.png](assets/blog_blogging_list_v2_de.png){ class="shadow lightbox" }
+![Listenansicht des Blogs mit Umschaltern für Zeitleiste/Tags und für die Listendarstellung](assets/blog_blogging_list_v2_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 
@@ -57,7 +57,7 @@ Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufüge
 
 **Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt.
 
-**Datum und Zeit der Veröffentlichung:** Das Datum und die Zeit der Veröffentlichung werden dafür verwendet, den Eintrag für andere Benutzer sichtbar zu machen oder zu verbergen. Liegt der Zeitpunkt der Veröffentlichung in der Vergangenheit, so wird der Eintrag sichtbar. Liegt er hingegen in der Zukunft, so handelt es sich um eine geplante Veröffentlichung des Eintrags.
+**Datum und Zeit der Veröffentlichung:** Das Datum und die Zeit der Veröffentlichung werden dafür verwendet, den Eintrag für andere Teilnehmende sichtbar zu machen oder zu verbergen. Liegt der Zeitpunkt der Veröffentlichung in der Vergangenheit, so wird der Eintrag sichtbar. Liegt er hingegen in der Zukunft, so handelt es sich um eine geplante Veröffentlichung des Eintrags.
 
 Sie können den Eintrag durch Klicken auf "Veröffentlichen" für andere zugänglich machen (ab dem angegebenen Datum). Wenn Sie an Ihrem Eintrag zu einem späteren Zeitpunkt weiterschreiben wollen, klicken Sie auf "Entwurf speichern". "Abbrechen" verwirft Ihre Änderungen und schliesst das Formularfenster. Entwürfe erscheinen in der Liste der Einträge gelb hinterlegt. Geplante Veröffentlichungen sind grün gekennzeichnet. Alle anderen Einträge sind öffentlich und für andere sichtbar.
 
@@ -83,11 +83,11 @@ Die Kursmitglieder können Blogbeiträge mit einem Text kommentieren. An Komment
 
 Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie in die Kommentarzeile. Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
 
-![blog_blogging_comment_v2_de.png](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
+![Kommentarfeld unter einem Blogbeitrag mit dem Button Kommentieren](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
 
 Sie können Ihrem Kommentar auch eine Datei anhängen. Dazu können Sie eine Datei neu hochladen oder aus Ihrem File Hub eine Datei auswählen.
 
-![blog_blogging_comment_file_v1_de.png](assets/blog_blogging_comment_file_v1_de.png){ class="shadow lightbox" }
+![Dialog Dateien hinzufügen mit lokalem Upload und Auswahl aus dem File Hub für einen Kommentar](assets/blog_blogging_comment_file_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#blog_blogging)
 
@@ -95,9 +95,9 @@ Sie können Ihrem Kommentar auch eine Datei anhängen. Dazu können Sie eine Dat
 ## Beiträge bewerten {: #blog_blogging_assess_posts}
 
 Zur Bewertung können Kursmitglieder für Beiträge 1-5 Sterne vergeben. <br>
-Im Normalzustand sehen Sie die Bewertungen der anderen Blogleser:innen angezeigt. Sobald Sie Ihre Maus über die Sterne bewegen, können Sie Ihre eigene Bewertung ergänzen. 
+Im Normalzustand sehen Sie die Bewertungen der anderen Lesenden angezeigt. Sobald Sie Ihre Maus über die Sterne bewegen, können Sie Ihre eigene Bewertung ergänzen. 
 
-![blog_blogging_assess_v1_de.png](assets/blog_blogging_assess_v1_de.png){ class="shadow lightbox" }
+![Sternebewertung eines Blogbeitrags mit Durchschnittswert und Anzahl Bewertungen](assets/blog_blogging_assess_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#blog_blogging)
 
@@ -136,10 +136,17 @@ Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An
 [zum Seitenanfang ^](#blog_blogging)
 
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Blog konfigurieren](../learningresources/Blog_Configuration.de.md)
+
+**Weiterführend**<br>
 [Blog erstellen (als Kursbesitzer:in/Autor:in)](../learningresources/Blog_Create.de.md)<br>
-[Schritt-für-Schritt-Anleitung: Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
-[Blog konfigurieren (als Kursbesitzer:in/Autor:in)](../learningresources/Blog_Configuration.de.md)<br>
-[Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)<br>
+[Schritt-für-Schritt-Anleitung: Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)
+
+**youtube**<br>
+[Abonnements einrichten](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
+
+[zum Seitenanfang ^](#blog_blogging)
 

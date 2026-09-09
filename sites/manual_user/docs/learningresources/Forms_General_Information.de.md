@@ -6,5 +6,11 @@ In Formularen stehen verschiedene Fragetypen zur Verfügung, etwa Rubrik, Einzel
 
 Wird ein Formular als Stand-alone-Version, also unabhängig von einem Online-Kurs, veröffentlicht, kann es zwar angesehen und ausgefüllt werden, jedoch nicht gespeichert oder eingereicht werden. Das heisst: Es dient dann nur zu Demonstrationszwecken und erfüllt nicht die volle Funktionalität eines Formulars.
 
-Wenn Sie möchten, dass Personen ein Formular ausfüllen und einreichen können und Sie als Ersteller:in die Ergebnisse sehen, müssen Sie es unbedingt in einen [OpenOlat Kurs einbinden](Forms_in_Courses.de.md). 
+Wenn Sie möchten, dass Personen ein Formular ausfüllen und einreichen können und Sie als Ersteller:in die Ergebnisse sehen, müssen Sie es unbedingt in einen [OpenOlat Kurs einbinden](Forms_in_Courses.de.md).
 
+## Weiterführende Informationen {: #further_information}
+
+[Frageregeln in Formularen >](Form_Question_Rules.de.md)<br>
+[Formulare in Kursen >](Forms_in_Courses.de.md)
+
+[Zum Seitenanfang ^](#allgemeines-zu-formularen)

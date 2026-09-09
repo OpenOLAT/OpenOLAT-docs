@@ -20,7 +20,7 @@ Der Kursbaustein ist gut geeignet für die Anzeige von PDF- und auch JPG- und PN
 
 OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:octicons-tag-16:{ title="ab Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"}, der eine klare Darstellung bietet. Grosse PDF-Dateien werden dabei stufenweise geladen, sofern die Datei dies unterstützt. Der PDF-Viewer ist schreibgeschützt: zum Bearbeiten wird ein separater Editor benötigt.
 
-!!! note "Hinweis"
+!!! tip "Tipp"
 
     Für Video-Dateien sollte der [Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md) und für HTML-Seiten der [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) anstatt des Kursbaustein "Dokument" verwendet werden.
 
@@ -28,7 +28,7 @@ OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:oct
 
 Die Konfiguration erfolgt im Kurseditor im Tab "Dokument". Es gibt viele Möglichkeiten, wie die Dateien in den Kursbaustein gelangen können. Sie können grundsätzlich hochgeladen, verknüpft oder neu erstellt werden.
 
-![Dateien einbinden Kursbaustein Dokument](assets/KB_Dokument.png){ class="lightbox" }
+![Drei Wege, einen Inhalt hinzuzufügen: Datei hochladen, aus Ablageordner oder Lernressourcenverwaltung verknüpfen, oder neu erstellen](assets/KB_Dokument.png){ class="lightbox" }
 
 
 #### Datei hochladen [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
@@ -49,7 +49,7 @@ Es kann ...
 
 Um eine Datei für den Kursbaustein neu zu erstellen wählen Sie **"Dokument erstellen"** und markieren das gewünschte Datei-Format.
 
-![Dokument erstellen](assets/Dokument_erstellen.png){ class="lightbox" }
+![Dateiformat Word, Excel oder PowerPoint wählbar, Pflichtfeld Dateiname, dazu Beschreibung und Lizenz: Dialog Dokument erstellen](assets/Dokument_erstellen.png){ class="lightbox" }
 
 Alternativ kann auch eine neue Datei als Lernressource erstellt werden. Wählen Sie hierfür: **"Aus Lernressourcenverwaltung" → "Erstellen"**.
 
@@ -73,15 +73,22 @@ Dokumente, Bilder und Videos werden standardmässig im **Lightbox-Modus** angeze
 
 Eingebundene Dokumente können bei Bedarf später auch bearbeitet und Metadaten geändert werden. Auch ein kompletter Austausch des Dokuments ist möglich. Was genau möglich ist, ist vom Dateityp abhängig.
 
-![Dokument bearbeiten](assets/Dokument_bearbeiten.png){ class="lightbox" }
+![Menü Bearbeiten mit Metadaten bearbeiten, Dokument bearbeiten, anderes Dokument wählen und in Lernressourcenverwaltung speichern: Detailansicht eines Dokuments](assets/Dokument_bearbeiten.png){ class="lightbox" }
 
 
 ### Berechtigungen konfigurieren [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
-Nachdem ein Dokument mit dem Kursbaustein verbunden wurde kann definiert werden welche Benutzer-Rollen das Dokument bearbeiten bzw. herunterladen dürfen. Nach dem Download eines entsprechenden Dokuments wird in den Metadaten angezeigt, wer das Dokument als letztes bearbeitet hat.
+Nachdem ein Dokument mit dem Kursbaustein verbunden wurde kann definiert werden welche Rollen das Dokument bearbeiten bzw. herunterladen dürfen. Nach dem Download eines entsprechenden Dokuments wird in den Metadaten angezeigt, wer das Dokument als letztes bearbeitet hat.
 
 Durch diese Berechtigungen sind unterschiedliche, auch kollaborative Szenarien mit dem Kursbaustein umsetzbar.
 
 !!! info "Wichtig"
 
     Ist das Herunterladen für eine Rolle nicht erlaubt, wird für diese Rolle automatisch auch das Drucken deaktiviert: Die Drucken-Schaltfläche sowie der Menüeintrag im PDF-Viewer werden nicht mehr angezeigt [:octicons-tag-16:{ title="ab Release 20.3.4 (OO-9530)" }](https://track.frentix.com/issue/OO-9530){:target="_blank"}.
+
+## Weiterführende Informationen {: #further_information}
+
+[Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)
+
+[Zum Seitenanfang ^](#document)

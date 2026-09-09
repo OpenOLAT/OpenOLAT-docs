@@ -10,9 +10,9 @@ Im Tab Übersicht erhalten Sie eine Übersicht zur Bewertung dieses Kursbaustein
 
 **Generelle Aktionsmöglichkeiten**
 
-![Tests im Bewertungswerkzeug](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" }
+![Tab Teilnehmer im Bewertungswerkzeug eines Tests: Buttons für Statistiken, Export, Einziehen und Zurücksetzen sowie die Liste der Teilnehmenden mit Status und Punkten.](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" }
 
-Kursbetreuer und Kursbesitzer haben über die entsprechenden Buttons die Möglichkeit:
+Kursbetreuer:innen und Kursbesitzer:innen haben über die entsprechenden Buttons die Möglichkeit:
 
 * Sich die Test Statistiken anzuschauen,
 * die Resultate aller angezeigten Lernenden als ZIP file zu exportieren,
@@ -35,7 +35,7 @@ Die Buttons und Optionen im Detail:
 Aufrufen der detaillierten Statistik zu jeder Frage eines Tests. Sämtliche Antworten der Lernenden werden dabei berücksichtigt.
 
 ### Resultate exportieren
-Hier können die kompletten Testresultate als ZIP file exportiert und somit archiviert werden. Der Titel der ZIP Datei zeigt den Namen des Tests, den zugehörigen Kurs sowie Datum des Downloads an. Der Ergebsnisdownload beinhaltet eine Benutzerübersicht als HTML-Seite, Ordner mit den User-Ergebnissen sowie weitere Dateien. Wenn die Testquittung aktiviert wurde, wird auch diese exportiert.
+Hier können die kompletten Testresultate als ZIP file exportiert und somit archiviert werden. Der Titel der ZIP Datei zeigt den Namen des Tests, den zugehörigen Kurs sowie Datum des Downloads an. Der Ergebnisdownload beinhaltet eine Teilnehmendenübersicht als HTML-Seite, Ordner mit den Ergebnissen der Teilnehmenden sowie weitere Dateien. Wenn die Testquittung aktiviert wurde, wird auch diese exportiert.
 
 ### Tests einziehen
 Sofern gestartete aber noch nicht abgegebene Tests vorliegen, können diese eingezogen und somit angeschaut werden. Die Tests können auch einmalig nach Ende des Testdurchlaufs eingezogen werden.
@@ -43,13 +43,13 @@ Sofern gestartete aber noch nicht abgegebene Tests vorliegen, können diese eing
 ### Korrekturwerkzeug
 Über diesen Button können manuelle Bewertungen _pro Testfrage_ vorgenommen werden. Hier können Punkte vergeben und Kommentare hinzugefügt werden. Die Option erscheint nur bei manueller Bewertung.
 
-### Testquittung validieren:
+### Testquittung validieren
 Wenn diese Option angewählt wird, wird nach Beenden des Tests eine Testquittung erstellt, welche als XML-File heruntergeladen werden kann. Es dient der Verifizierung des Tests. Das erstellte XML-File kann zusätzlich per Mail an den Teilnehmer verschickt werden, wenn die Option "Testquittung per Mail schicken" aktiviert wird.
 
-### Alle Daten zurücksetzen:
-Hiermit werden die Daten des aktuellen Tests zurückgesetzt. Das bedeutet, alle Daten, aller User inklusive Resultate werden unwiderruflich gelöscht. Es ist aber auch möglich nur einzelne Tests von bestimmten Personen zurückzusetzen. Dies erfolgt direkt in den jeweiligen User-Settings.
+### Alle Daten zurücksetzen
+Hiermit werden die Daten des aktuellen Tests zurückgesetzt. Das bedeutet, alle Daten aller Teilnehmenden inklusive Resultate werden unwiderruflich gelöscht. Es ist aber auch möglich, nur einzelne Tests von bestimmten Personen zurückzusetzen. Dies erfolgt direkt in den Einstellungen der jeweiligen Person.
 
-### Verlängern:
+### Verlängern
 Hier kann die voreingestellte Testzeit verlängert werden.
 
 ### Bewertungsskala anpassen
@@ -58,9 +58,9 @@ Hier kann die voreingestellte Testzeit verlängert werden.
 ## Manuelle Bewertung von Testfragen 
 Für die manuelle Bewertung der Fragen eines Tests sind grundsätzlich folgende Vorgehensweisen möglich:
 
-a) Bewertung aller User ausgehend von einem einzelnen Test-Item 
+a) Bewertung aller Teilnehmenden ausgehend von einem einzelnen Test-Item 
 
-b) Bewertung aller manuellen Fragen des Tests ausgehend von einem User 
+b) Bewertung aller manuellen Fragen des Tests ausgehend von einer Person 
 
 c) Bewertung einer einzelnen Person
 
@@ -73,7 +73,7 @@ c) Bewertung einer einzelnen Person
 
 Wählen Sie den gewünschten Test in der linken Navigation aus und klicken Sie auf "Korrekturwerkzeug". Es erscheint eine Übersicht aller Fragen des Tests mit dem Bewertungsstand. 
 
-![Fragen korrigieren](assets/Manuelle_Korrktur_pro_Frage.png){ class="shadow lightbox" } 
+![Tab Fragen im Korrekturwerkzeug: Liste aller Testfragen mit den Spalten Auto, Manuell, Nicht korrigiert und Überprüfen.](assets/Manuelle_Korrktur_pro_Frage.png){ class="shadow lightbox" } 
 
 Die Spalten geben darüber Auskunft an welchen Stellen noch etwas zu tun ist: 
 
@@ -87,7 +87,7 @@ Sortieren Sie die Test-Items (Fragen) für die Spalte "Manuell" oder "Nicht korr
 Klicken Sie dann auf den Fragentitel des zu korrigierenden Items und Sie gelangen in das Bewertungsformular. Hier können sie nun Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". 
 Für automatisiert auswertbare Items können Sie sich auch die Lösungen anzeigen lassen oder die Punkte überschreiben. 
 
-Mehrere Korrektoren können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine/n Korrektor:In bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der Administration kann für diesen Korrekturprozess festgelegt werden, ob die Teilnehmenden dabei anonym aufgeführt werden. Statt des Namens erscheint dann die Teilnehmendenkennung.
+Mehrere Korrektor:innen können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine:n Korrektor:in bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der Administration kann für diesen Korrekturprozess festgelegt werden, ob die Teilnehmenden dabei anonym aufgeführt werden. Statt des Namens erscheint dann die Teilnehmendenkennung.
 
 Abschliessend speichern Sie die Eingaben und können zur nächsten Person wechseln oder zurück in die Itemübersicht des Korrekturwerkzeug gehen und das nächste Item auswählen.
 
@@ -108,7 +108,7 @@ Falls nur eine einzelne Person bewertet werden soll bietet sich folgender Weg an
 
 Wählen Sie den gewünschten Test in der linken Navigation aus und wählen Sie den Tab "Teilnehmer". Klicken Sie dann auf den Namen der zu bewertenden Person. Es erscheint eine Liste mit allen Testversuchen dieser Person. Wählen Sie hier den aktuellen Versuch aus und klicken auf "Korrigieren".
 
-![Test korrigieren](assets/Test_korrigieren.png){ class="shadow lightbox" }
+![Testversuche einer Person im Korrekturwerkzeug: Der Link "Korrigieren" öffnet den aktuellen Versuch.](assets/Test_korrigieren.png){ class="shadow lightbox" }
 
 Man landet wieder in der Test-Item Übersicht mit allen Fragen des Tests und kann sich einen Überblick über den Bearbeitungsstand verschaffen und die Bewertungen vornehmen (siehe a).
 
@@ -136,10 +136,10 @@ Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Ko
 
 Von Lernenden durchgeführte Test-Versuche können auch rückgängig gemacht werden. Dafür wird der entsprechende Test einer Person aufgerufen und dann die Option "Annullieren" oder "Testdaten zurücksetzen" gewählt.
 
-![Test annulieren oder zurücksetzen](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" }
+![Testversuche einer Person: Die Aktionen "Annullieren" je Versuch und "Testdaten zurücksetzen" für alle Versuche sind hervorgehoben.](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" }
 
-Beim **Annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet der Versuch erscheint weiter in der Liste und kann vom Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für den Lernenden berücksichtigt. Hat der User mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
-Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat der User drei Versuche unternommen, stehen ihm keine weiteren Versuche zur Verfügung auch wenn einer oder mehrere der Versuche annulliert wurden.
+Beim **Annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet, der Versuch erscheint weiter in der Liste und kann vom Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für den Lernenden berücksichtigt. Hat der Lernende mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
+Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat der Lernende drei Versuche unternommen, stehen ihm keine weiteren Versuche zur Verfügung, auch wenn einer oder mehrere der Versuche annulliert wurden.
 
 Liegt nur ein Versuch vor und wird dieser annulliert, ändert sich die Tabellenanzeige im Bewertungswerkzeug nicht. Der annullierte Versuch mit den zugehörigen Punkten wird weiterhin angezeigt.
 
@@ -149,9 +149,9 @@ Im Gegensatz zum Annullieren führt **"Testdaten zurücksetzen"** dazu, dass all
 
 Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun bei geschlossenem Editor bewertet werden. Die Bewertungsmöglichkeiten in den Tabs "Übersicht" und "Teilnehmer" sind überwiegend identisch. Allerdings gibt es im Kursrun noch die Tabs "Kommunikation", "Vorschau" und "Erinnerungen". 
 
-Die Vorschau zeigt die User-Perspektive an und im Tab "Erinnerungen" besteht die Möglichkeit eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim bestehen/nicht bestehen zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)). Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht.
+Die Vorschau zeigt die Perspektive der Teilnehmenden an und im Tab "Erinnerungen" besteht die Möglichkeit eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim bestehen/nicht bestehen zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)). Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht.
 
-![Test Übersicht für Betreuer](assets/Test_Kursrun_172.png){ class="shadow lightbox" }
+![Tab Teilnehmer eines Test-Kursbausteins im Kursrun mit den zusätzlichen Tabs Kommunikation, Vorschau und Erinnerungen.](assets/Test_Kursrun_172.png){ class="shadow lightbox" }
 
 ---
 

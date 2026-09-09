@@ -1,45 +1,48 @@
 # Creating Portfolio Tasks
 
-To integrate a Portfolio 2.0 template into an OpenOlat course follow the steps
-to add the course element "Portfolio task" and link the Portfolio 2.0
-template to it.
+To integrate a created and configured Portfolio 2.0 template into an OpenOlat
+course, add the course element "Portfolio task" to your course. Proceed as
+follows:
 
 ## 1. Open course editor and insert the course element Portfolio task  
 
-a) Search for the corresponding course in authoring "My entries" and open it.
- 
-b) Click in the dropdown menu "Administration" on "Course editor".  
-  
-c) In the pop-up "Insert course elements" chose "Portfolio task".
+a) In Authoring, under "My entries", search for the course and open it.
 
-![](assets/portfoliovorlage_KB_einfuegen_17_en.png)
+b) Click "Course editor" in the dropdown menu "Administration" of the course.  
 
-d) Insert a short title in the tab "Title and description" and save.  
-  
+c) In the pop-up "Insert course elements" select "Portfolio task".
+
+![Selection of the course element Portfolio task in the Assessment section when inserting course elements](assets/portfoliovorlage_KB_einfuegen_17_en.png){ class="shadow lightbox" }
+
+d) Insert a short title of the course element in the tab "Title and
+description" and save.
+
 ## 2. Add template to the course  
 
-Nun muss dem Kursbaustein Portfolioaufgabe eine passende Lernressource Portfolio 2.0 Vorlage zugeordnet werden.
+Now the course element "Portfolio task" needs a matching learning resource
+Portfolio 2.0 template.
 
-a) In the tab learning content "Select or create portfolio template"
+a) In the tab "Learning content", click "Select or create portfolio
+template".
 
-![](assets/pf_course_add_template_EN.png)  
-  
-b) In "My entries" select the template just created before.
+![Selection of a Portfolio 2.0 template from the own entries in the dialog Replace portfolio template](assets/pf_course_add_template_EN.png){ class="shadow lightbox" }
 
- Alternatively a new template can be "Created".  
-  
-To grade a Portfolio with a score it has to be integrated in the course
-element "Portfolio task". Also the option "Score granted" in the tab
-"Assessment" of this course element has to be enabled.
+b) Under "My entries" select the template created before.
+
+Alternatively, a new Portfolio 2.0 template can be created with the button
+"Create".
+
+To grade a Portfolio with a score, the Portfolio 2.0 template has to be added
+to a course as a course element, and the checkbox "Score granted" in the tab
+"Assessment" of the course element "Portfolio task" has to be enabled.
 
 ## 3. Finalize
 
-After adding the course element and linking the "Portfolio 2.0 template" the
-complete course must be published. You can choose fast publishing by simply
-closing the course editor. Otherwise follow the steps of the publishing wizard by
-clicking on the option "Publish".
+After the course element has been added and configured, the complete course
+must be published as usual. Click the option "Publish" in the course editor
+and follow the next steps, or simply close the course editor to publish
+quickly.
 
-The Portfolio 2.0 template is now available in the course and the course
-participants can collect the portfolio task to edit it.
-
+The Portfolio 2.0 template is now available in the course, and participants
+can collect the portfolio task and work on it.
 

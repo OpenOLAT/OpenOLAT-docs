@@ -21,3 +21,11 @@ The course element "Self-test" contains learning resources of the type "Test." I
 For more information on tests, refer to the chapter "[Configure tests](../learningresources/Configure_tests.md)". The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
 A more complex alternative to the self-test is the course element "Practice".
+
+## Further information {: #further_information}
+
+[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[Configure tests >](../learningresources/Configure_tests.md)<br>
+[Tests at course level >](../learningresources/Tests_at_course_level.md)
+
+[To the top of the page ^](#course_element_self_test)

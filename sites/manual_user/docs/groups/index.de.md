@@ -1,6 +1,6 @@
 # :fontawesome-solid-user-group: Gruppen {: #groups}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Arbeit mit Gruppen](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Arbeit mit Gruppen](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank"}
 
 !!! note "Quick Links"
 
@@ -11,7 +11,7 @@
     * [Gruppenadministration](Group_Administration.de.md)
     * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)
     * [Rollen in Gruppen](../basic_concepts/Roles.de.md#groups)
-  
+
     Für Berechtigte mit Verwaltungsaufgaben:
 
     * [Gruppenverwaltung](../area_modules/Group_Management.de.md)
@@ -34,7 +34,7 @@ Nach Klick darauf sehen Sie z.B. im Tab "Meine Gruppen" alle Gruppen, bei denen 
 Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
 Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit Hilfe des kleinen Pfeils aufgeklappt werden.
 
-![Gruppen](assets/Gruppe.png){ class="shadow lightbox" }
+![Aufgeklappte Filterleiste über der Gruppenliste mit Rolle, Betreuer:innen, Teilnehmenden und den Aktionen Verlassen und Löschen je Gruppe, Tab Meine Gruppen.](assets/Gruppe.png){ class="shadow lightbox" }
 
 Sie können dort
 
@@ -56,7 +56,7 @@ Besteht ein Kurs und es sollen dort Gruppenarbeiten durchgeführt werden, könne
 
 ### Gruppen, die mehrere Kurse gemeinsam besuchen
 
-Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammen bleibt und gemeinsam verschiedene Kurse besucht. In einen Kurs muss dann nicht jeder/jede Teilnehmer:in einzeln eingebucht werden, sondern es kann die gesamte Gruppe dem Kurs hinzugefügt werden. Wird eine Gruppe gelöscht, die mit einem Kurs verbunden ist, wird lediglich die Gruppe gelöscht, nicht aber der Kurs.
+Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammen bleibt und gemeinsam verschiedene Kurse besucht. In einen Kurs muss dann nicht jede Teilnehmer:in einzeln eingebucht werden, sondern es kann die gesamte Gruppe dem Kurs hinzugefügt werden. Wird eine Gruppe gelöscht, die mit einem Kurs verbunden ist, wird lediglich die Gruppe gelöscht, nicht aber der Kurs.
 
 ### Interessengruppen
 

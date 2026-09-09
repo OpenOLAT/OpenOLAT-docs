@@ -1,6 +1,6 @@
 # Delete (a course or learning resource) {: #course_delete}
 
-![course_delete_v1_en.png](assets/course_delete_v1_en.png){ class="shadow lightbox" }
+![Menu item "Delete" in the administration menu of a learning resource](assets/course_delete_v1_en.png){ class="shadow lightbox" }
 
 When a course or learning resource is deleted, all user data is removed and the course can now neither be accessed nor viewed by former participants or coaches.
 
@@ -21,6 +21,10 @@ If a learning resource has been deleted, the menu item "Restore" appears in the 
 
 A course can also be closed or deleted automatically. The administrator makes the appropriate settings. 
 
+
+## Further information {: #further_information}
+
+[Details on the File Hub >](../personal_menu/File_Hub.md)
 
 [To the top of the page ^](#course_delete)
 

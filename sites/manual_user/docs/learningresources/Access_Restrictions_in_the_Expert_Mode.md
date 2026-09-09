@@ -2,7 +2,7 @@
 
 ## Introduction to Expert Rules
 
-!!! warning "Attention"
+!!! info "Important"
 
     The settings in the tabs "Visibility" and "Access" are only available in conventional courses. This means that the expert mode can only be used in conventional courses and not in "[Learning path Courses](Learning_path_course.md)".
 
@@ -19,7 +19,7 @@ date values. The following example illustrates this:
 
 ??? tip "Questionnaire example"
 
-    You want to activate a course questionnaire only in the last last course week, but want to set this option up so that you don't forget it later.
+    You want to activate a course questionnaire only in the last course week, but want to set this option up so that you don't forget it later.
 
     This means that you activate the course element "Survey" date-dependently so that you no longer have to worry about it during the course. In the _Visibility_ and _Access_ tabs of the "Survey" you can enter the start and end dates in simple mode. You can also make your questionnaire only accessible to a certain group of participants. Select "Group-dependent" under Visibility or Access. For example, you could use two different questionnaires for cross- institutional online courses. The only requirement is that you have divided the course participants into (two) different groups which they can now assign.
 
@@ -58,7 +58,7 @@ Attribute| Description| Example Expert rule
 isGuest| accessible only for guests| isGuest(0)  
 isCourseCoach| available only for coach| isCourseCoach(0)  
 isUser| available only for one specific user| isUser("pmuster")  
-  
+
 ### Working with the constants "TRUE" and "FALSE"
 
 By using the constants "true" and "false", the existence ("true" = "1") or
@@ -71,7 +71,7 @@ of the Boolean Algebra). These variables can only take a limited number of value
 To give a practical example in our OLAT context, we will use a simple expert
 rule for managing the access to a course element / area in a course:
 
- **Case 1**: Only guest users should get access to the course. Only guest users should have access to a module,
+ **Case 1**: Only guest users should have access to a course element,
 for example to separate areas for guests and OLAT users. The respective user thus gains access if the attribute "isGuest" is true. There are three
 alternatives for this expert rule:
 
@@ -115,8 +115,8 @@ Type| Syntax| Meaning
  | _getUserProperty("userPropertyname")_|  Generates the value of a specific user attribute. By means of "=" this value can be compared to another fixed value.  
  | _getPassed("_ [integer] _")_|  Generates the Boolean TRUE (= Passed) or FALSE (= Failed) from a course element with specified ID  
  | _getScore("_ [integer] _")_|  Generates the score from a course element with specified ID  
- |  _getMaxScore("_ [integer] _")_|  Returns the maximum achievable number of points from the course element with specified ID. For course elements without configured number of points, the function returns 0. For course elements with configured number of points, but without specification of a maximum number of points, the function returns [positive infinity](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html#POSITIVE_INFINITY) zurück.
- | _getAttempts("_ [integer] _")_|  Generates the number of completed attempts from a course element with specified ID. Can be applied to course elements of the type _Test_ , _Self-test_ , _Questionnaire_ (possible return values 0 or 1) and ~~_Task (deprecated)_~~ (return value = number of files handed in).  
+ |  _getMaxScore("_ [integer] _")_|  Returns the maximum achievable number of points from the course element with specified ID. For course elements without configured number of points, the function returns 0. For course elements with configured number of points, but without specification of a maximum number of points, the function returns [positive infinity](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html#POSITIVE_INFINITY).
+ | _getAttempts("_ [integer] _")_|  Generates the number of completed attempts from a course element with specified ID. Can be applied to course elements of the type _Test_ , _Self-test_ , _Questionnaire_ .  
  | _getLastAttemptDate("_ [integer] _")_|  Generates the date of the last
 attempt from a course element with the specified ID. Can be applied like the getAttempts method.  
  | _getInitialEnrollmentDate("_ [integer] _")_|  Generates the date of the first registration of the relevant course participant from the course element _Enrolment_ with specified ID.  
@@ -150,7 +150,7 @@ participant's first course attendance.
  | -| Subtraction  
  **Booleans**|  &| Logical AND  
  | \|| Logical OR  
-  
+
 ### User attributes (UserProperty) {: #user_properties}
 
 Various expert rules require the use of user attributes in order to filter
@@ -206,18 +206,18 @@ institutionalUserIdentifier| Institution identifier (registration number) | offi
 Examples on how to apply "getUserProperty":
 
   * Only course participants of a specific field of study should be granted access:
-    
+
         getUserProperty("studySubject") = "Mechanical Engineering"
 
 Now anybody who needs access must first complete the field "field of study" in
 their profile and state it as Mechanical Engineering.
 
   * The other way round, should you intend to grant access only to those who have not stated their field of study in their profile, you can express the corresponding rule as follows:
-    
+
         getUserProperty("studySubject") = ""
 
   * Should you want to grant access only course participants who have completed the field of study in their profile (no matter what the study subjects are), the rule can be defined as follows:
-    
+
         getUserProperty("studySubject") = "" = false
 
 or
@@ -248,10 +248,10 @@ syntax.
 With the exception of the group _«Amateur»_ this course element is visible for
 all participants.  
 
- **(now >= date("22.03.2018 12:00")) & (now <= date("23.08.2018 18:00")) |
-inLearningGroup("Tutor")**  
-This course element is visible for all participants between 22-3-2018 and
-23-8-2018. For members of the learning group _«Tutor»_ it is always visible.  
+ **(now >= date("22.07.2018 12:00")) & (now <= date("23.12.2018 18:00")) |
+inLearningGroup("Coach")**  
+This course element is visible for all participants between 22-7-2018 and
+23-12-2018. For members of the learning group _«Coach»_ it is always visible.  
 
  **(now >= date("03.09.2018 00:00")) & (now <= date("13.10.2018 00:00")) &
 inRightGroup("Assessors")| isUser("Author")**  
@@ -263,23 +263,20 @@ name _«Author»_ it is always visible.
 Only students of human medicine have access to this course element.  
 See also:  
 AAI attributes  
-[__ Specification of AAI attributes (pdf
-file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Specification of AAI attributes (pdf file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
  **hasAttribute("swissEduPersonHomeOrganization","[uzh.ch](http://uzh.ch/)")**  
 Only students of the University of Zurich have access to this course element.  
 See also:  
 AAI attributes  
-[ __ Specification of AAI attributes (pdf
-file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
-  
+[Specification of AAI attributes (pdf file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
+
  **isInAttribute("surname","Mue")**  
 Generates TRUE for all persons whose attribute _surname_ contains the letter
 sequence "Mue". E.g. gives TRUE for the value "Mueller" or "Muehlebacher"  
 See also:  
 AAI attributes  
-[ __ Specification of AAI attributes (pdf
-file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Specification of AAI attributes (pdf file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
 **isInAttribute("eduPersonEntitlement","[http://vam.uzh.ch](http://vam.uzh.ch/)")**  
 Generates TRUE for all persons whose attribute _eduPersonEntitlement_ contains
@@ -287,8 +284,7 @@ the value "[http://vam.uzh.ch](http://vam.uzh.ch/)". E.g. gives TRUE for the
 value "<http://vam.uzh.ch/surgery>"  
 See also:  
 AAI attributes  
-[ __ Specification of AAI attributes (pdf
-file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
+[Specification of AAI attributes (pdf file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
 
  **(getUserProperty("orgUnit") = "Sales")**  
 Checks if a person is part of the organizational unit 'Sales.' This can be
@@ -312,17 +308,12 @@ of 140 points in all tests is achieved or if _«Passed»_ is entered manually.
 Generates TRUE, as soon as the relevant course participant has completed the
 test with specified ID for the first time, regardless of the score.  
 
-**getAttempts("70323524635734") <= 3 **  
-Generates FALSE, as soon as the relevant course participant has put more than
-3 files into the storage folder of the course element ~~_Task (deprecated)_~~
-.  
-
 **getLastAttemptDate("70323524635734") + 24h < now **  
 Generates TRUE when the last test attempt is older than 24 hours.
 
-**getInitialEnrollmentDate("70323786958847") <= date("26.5.2005 18:00")**  
+**getInitialEnrollmentDate("70323786958847") <= date("26.5.2018 18:00")**  
 Generates TRUE for those participants who enrolled in an available group
-before 6 p.m. on May 26th, 2005, by means of the course element _Enrollment_
+before 6 p.m. on May 26th, 2018, by means of the course element _Enrollment_
 with specified ID.  
 
 **getInitialEnrollmentDate("70323786958847") + 2h > now**  
@@ -382,7 +373,7 @@ course material. AAI means "Authentication and Authorization Infrastructure"
 and allows university members to use systems of other participating
 institutions with only one username and password. For further information on
 AAI please go to e.g. [Switch](http://www.switch.ch/aai/ "Switch") or to
-[Deutsches Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz") .
+[Deutsches Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz").
 
 Available attributes and possible values are described in the AAI Attribute
 Specification on the
@@ -395,7 +386,7 @@ Attribute| Description| Example Expert rule and Explication
 ---|---|---  
 swissEduPerson-HomeOrganization| University or home organization| hasAttribute ("swissEduPersonHomeOrganization", "[uzh.ch](http://uzh.ch)"): only members of the Zurich University will get access.  
 swissEduStudyBranch3| Field of study, 3rd classification| hasAttribute ("swissEduPersonStudyBranch3","6400"): only veterinary medicine students will have access.  
-  
+
 ### Utilization
 
 You can retrieve AAI attributes by using the syntax  
@@ -407,7 +398,7 @@ The following applies:
 * **[AttrName]** is the attribute name you can find in the following table and also in the Specification of AAI attributes (pdf file) (column _LDAP names_ ) on page 5.
 * **[string]** is the value of the AAI attribute with the name [AttrName].
 * **[substring]** is any part of [string].
-  
+
 #### AAI example
 
 _Values for John Doe_
@@ -428,7 +419,7 @@ swissEduPersonStudyLevel| 15| Description of study level
 eduPersonEntitlement| <http://vam.uzh.ch/surgery>| Access right to resource  
 employeeNumber| 01-234-567| Registration number (only for students at Zurich university)  
 organizationalUnit| 1| Unity of home organisation e.g. faculty (only for employees)  
-  
+
   For the example "John Doe" mentioned above the following retrievals would respectively produce:
 
 Request | Output
@@ -439,18 +430,31 @@ hasAttribute("swissEduPersonStudyBranch3","1200")|  **false**
 isInAttribute("eduPersonEntitlement","<http://vam.uzh.ch>")|  **true**  
 isInAttribute("eduPersonEntitlement","<http://vam.uzh.ch/ophthalmology>")|**false**  
 hasAttribute("employeeNumber","01-234-567")|  **true**  
-  
+
 You will find the link to a list of possible attribute values in the
 Specification of AAI attributes (pdf file) appendix, as of page 20.
 [Specification of AAI attributes (pdf
 file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
 
 For further information on attribute values or the application of AAI
-attributes in Switzerland please go to [Switch](http://www.switch.ch/
+attributes in Switzerland please go to [Switch](http://www.switch.ch/aai/
 "Switch"), and for Germany go to [Deutsches
 Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz").
 
-
-!!! tip "Tipp"
+!!! tip "Tip"
 
     Only use the AAI attributes if you are sure that all participants of your course are dialing in via an AAI structure. Otherwise the parameters do not apply!
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Learning path course - Overview >](Learning_path_course.md)<br>
+[Specification of AAI attributes (PDF) >](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)<br>
+[Switch AAI >](http://www.switch.ch/aai/)<br>
+[Deutsches Forschungsnetz (DFN-AAI) >](https://www.aai.dfn.de/der-dienst/attribute/)
+
+**Further information**<br>
+[Course elements in the Course editor >](General_Configuration_of_Course_Elements.md)<br>
+[Types of Course Elements >](Course_Elements.md)
+
+[To the top of the page ^](#access-restrictions-in-the-expert-mode)

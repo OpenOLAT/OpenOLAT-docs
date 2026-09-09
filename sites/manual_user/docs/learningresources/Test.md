@@ -17,7 +17,7 @@ Tests are used to monitor performance, check current knowledge, or as online exa
 
 Formative tests are about assessing interim learning progress and achieving learning-related improvement based on automated or manual feedback.  
 
-Summative tests are only used at the end of a learning process or course. They are used to check whether the planned learning objectives have been achieved. Examples of this are rigorous exams or online tests.
+Summative tests are only used at the end of a learning process or course. They are used to check whether the planned learning objectives have been achieved. Examples of this are "live" exams or online tests.
 
 Tests are created with the [OpenOlat test editor](Test_editor_QTI_2.1.md) as QTI 2.1 tests. The length of the test, the [question types](Test_question_types.md), and a range of other configurations can be specified.
 
@@ -25,7 +25,7 @@ Test subjects cannot see which answers are correct and which are incorrect in th
 
 When you integrate a test into your course, you can decide whether you want to use it as a self-test, i.e. for practice purposes, or as an exam test ("live" test). In the first case, use the "Self-test" course element when integrating the test into the course; in the second case, use the "Test" course element. Self-test results are anonymized, while exam test results are stored in a personalized manner. In the case of self-tests, the teacher cannot see the results achieved by a specific learner.
 
-Depending on the teaching scenario, however, it also makes sense to use normal "tests" rather than "self-tests" for practice purposes, namely whenever the teacher wants to know how individual learners are progressing or when it comes to identifying weaker course members and providing them with targeted support. In this respect, it should always be checked on an individual basis which module is the most suitable in each case.
+Depending on the teaching scenario, however, it also makes sense to use normal "tests" rather than "self-tests" for practice purposes, namely whenever the teacher wants to know how individual learners are progressing or when it comes to identifying weaker course members and providing them with targeted support. In this respect, it should always be checked on an individual basis which course element is the most suitable in each case.
 
 [To the top of the page ^](#create_tests)
 
@@ -34,7 +34,7 @@ Depending on the teaching scenario, however, it also makes sense to use normal "
 
 ## How do the questions get into a test? {: #create_questions_in_tests}
 
-Questions can either be created directly in the learning resource Test or created in the [question pool](../area_modules/Question_Bank.md) and then integrated into the test. In the chapter [How do I proceed when creating a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md), you will learn how to create a test.
+Questions can either be created directly in the learning resource Test or created in the [question pool](../area_modules/Question_Bank.md) and then integrated into the test. In the chapter [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md), you will learn how to create a test.
 
 When importing a question from the question pool into a test, a copy of the question is made at that point in time. The question in the test is therefore independent of the original question in the question pool. If the original question in the question pool is modified, this does not affect the imported question in the test. It remains unchanged.
 
@@ -55,14 +55,14 @@ You may have already exported a test file in IMS QTI format from another LMS and
 
 ## Further information {: #further_information}
 
-* [Changing from QTI 1.2 to QTI 2.1](Changing_from_QTI_1.2_to_QTI_2.1.md)
-* [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
-* [Test editor QTI 2.1](Test_editor_QTI_2.1.md)
-  * [Test question types](Test_question_types.md)
-  * [Configure test questions](Configure_test_questions.md)
-  * [Configure tests](Configure_tests.md)
-* [Test settings](Test_settings.md)
-* [Tests at course level](Tests_at_course_level.md)
-* [Export tests](Test_export.md)
+[Changing from QTI 1.2 to QTI 2.1 >](Changing_from_QTI_1.2_to_QTI_2.1.md)<br>
+[How do I proceed when I create a test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[Test editor >](Test_editor_QTI_2.1.md)<br>
+[Test question types >](Test_question_types.md)<br>
+[Configure test questions >](Configure_test_questions.md)<br>
+[Configure tests >](Configure_tests.md)<br>
+[Test settings >](Test_settings.md)<br>
+[Tests at course level >](Tests_at_course_level.md)<br>
+[Export tests >](Test_export.md)<br>
 
 [To the top of the page ^](#create_tests)

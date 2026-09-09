@@ -33,15 +33,15 @@ Der Kursbaustein "Auswahl" wird ähnlich verwendet, wie der Kursbaustein "Strukt
 **Schritt 1:**<br>
 Als Teilnehmer:in wählen Sie einfach den Kursbaustein vom Typ "Auswahl" in Ihrem Kurs. Dort wählen Sie, welche der vorgeschlagenen Kursbausteine Sie in Ihr Kursmenü aufnehmen wollen.
 
-![course_element_selection_participant_choose_v1_de.png](assets/course_element_selection_participant_choose_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein "Auswahl" mit vier angebotenen Kursbausteinen zur Wahl, davon einer bereits ausgewählt](assets/course_element_selection_participant_choose_v1_de.png){ class="shadow lightbox" }
 
 **Schritt 2:**<br>
 Anschliessend erscheinen die gewählten Kursbausteine in Ihrem Kursmenü und können bearbeitet werden.
 
-![course_element_selection_participant_selecterd_v1_de.png](assets/course_element_selection_participant_selected_v1_de.png){ class="shadow lightbox" }
+![Kursmenü mit dem Kursbaustein "Auswahl" und den zwei gewählten Kursbausteinen darunter](assets/course_element_selection_participant_selected_v1_de.png){ class="shadow lightbox" }
 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Die einmal getroffene Auswahl kann nicht mehr durch Teilnehmer:innen geändert werden. Für ein Zurücksetzen ist ein Eingreifen von Kursbesitzer:in oder Betreuer:in erforderlich.
 
@@ -51,9 +51,9 @@ Anschliessend erscheinen die gewählten Kursbausteine in Ihrem Kursmenü und kö
 Kursteilnehmer:innen finden in der Werkzeugleiste das Icon "Lernpfad" und können dort nachvollziehen, welche Kursbausteine sie schon abgearbeitet haben.
 Solange in einem Kursbaustein vom Typ "Auswahl" noch keine Auswahl getroffen wurde, werden im Lernpfad-Werkzeug keine Kursbaustein angezeigt, die dem Auswahl-Baustein zugeordnet sind. Sobald eine Auswahl getroffen wurde, werden die ausgewählten Kursbausteine angezeigt.
 
-![course_element_selection_participant_learningpath_tool_v1_de.png](assets/course_element_selection_participant_learningpath_tool_v1_de.png){ class="shadow lightbox" }
+![Werkzeugleiste des Kurses mit markiertem Icon "Lernpfad"](assets/course_element_selection_participant_learningpath_tool_v1_de.png){ class="shadow lightbox" }
 
-![course_element_selection_participant_learningpath_v1_de.png](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
+![Lernpfad-Werkzeug mit dem Kursbaustein "Auswahl" und den zwei ausgewählten Kursbausteinen darunter](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#selection_participant)<br>
@@ -87,7 +87,7 @@ Diese automatisch gesetzte Eigenschaft kann im Kurseditor **nicht** durch Autor:
 
 Später, während der Durchführung des Kurses, wird nach getroffener Auswahl durch die Teilnehmer:innnen diese Eigenschaft automatisch individuell abgeändert.
 
-![course_element_selection_subordinate_path_v1_de.png](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
+![Tab "Lernpfad" eines zugeordneten Kursbausteins im Kurseditor mit der Durchführung "Ausgenommen"](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
 
 
 ### Tab "Konfiguration" {: #selection_setup_tab_config}
@@ -95,7 +95,7 @@ Später, während der Durchführung des Kurses, wird nach getroffener Auswahl du
 Im Tab "Konfiguration" kann angegeben werden, wie viele Kursbausteine die Teilnehmer:innen aus den Vorschlägen in ihr persönliches Kursmenü übernehmen müssen.
 Für Kursbesitzer:innen ist dies eine Pflichtangabe, damit der Kursbaustein "Auswahl" funktioniert. 
 
-![course_element_selection_config_v1_de.png](assets/course_element_selection_config_v1_de.png){ class="shadow lightbox" }
+![Tab "Konfiguration" des Kursbausteins "Auswahl" mit dem Feld "Auswahl pro Teilnehmer:in"](assets/course_element_selection_config_v1_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbesitzer:in) ^](#selection_setup)<br>
@@ -120,18 +120,18 @@ Vor einer Auswahl haben alle wählbaren Kursbausteine diesen Status. Mit getroff
 
 Hat der/die Teilnehmer:in die geforderte Anzahl Kursbausteine ausgewählt, wird das gelbe Dreieck nicht mehr angezeigt.
 
-![course_element_selection_coach1_v1_de.png](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
+![Teilnehmer:innen-Liste des Kursbausteins "Auswahl" mit Detailansicht eines Teilnehmers und gelbem Dreieck bei noch fehlender Auswahl](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
 
 
 ### Ansicht gewählter Kursbausteine im Lernpfad-Werkzeug {: #selection_coaching_view_selected_elements}
 
 Betreuer:innen können unter dem Icon "Lernpfad" in der Werkzeugleiste die Lernpfade aller Kursteilnehmer:innen anzeigen lassen. Öffnen sie das Werkzeug und wählen Sie einen/eine Teilnehmer:in aus.
 
-![course_element_selection_coach2_v1_de.png](assets/course_element_selection_coach2_v1_de.png){ class="shadow lightbox" }
+![Werkzeugleiste des Kurses mit markiertem Icon "Lernpfad" aus Sicht der Betreuung](assets/course_element_selection_coach2_v1_de.png){ class="shadow lightbox" }
 
 Wenn noch keine Auswahl durch den/die Kursteilnehmer:in getroffen ist, werden auch noch keine Kursbausteine unterhalb des Kursbausteins "Auswahl" angezeigt. Sobald von Teilnehmer:innen eine Auswahl getroffen wurde, werden die gewählten Kursbaustein auch für Betreuer:innen in ihrem Lernpfadwerkzeug sichtbar.
 
-![course_element_selection_coach3_v1_de.png](assets/course_element_selection_coach3_v1_de.png){ class="shadow lightbox" }
+![Lernpfad eines Teilnehmers aus Sicht der Betreuung mit dem Kursbaustein "Auswahl" und den zwei ausgewählten Kursbausteinen darunter](assets/course_element_selection_coach3_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -147,7 +147,7 @@ Betreuer:innen und Besitzer:innen haben die Möglichkeit, die von Teilnehmer:inn
 * Als Betreuer:in werden Ihnen alle Teilnehmer:innen angezeigt. Wählen Sie einen/eine Teilnehmer:in.
 * Mit Klick auf den Eintrag in der Spalte "Durchführung" öffnet sich das Popup zum Überschreiben der Einstellung zur Durchführung.
 
-![course_element_selection_coach_modify1_v1_de.png](assets/course_element_selection_coach_modify1_v1_de.png){ class="shadow lightbox" }
+![Popup zum Überschreiben der Durchführung eines Kursbausteins mit den Optionen "Obligatorisch" und "Freiwillig"](assets/course_element_selection_coach_modify1_v1_de.png){ class="shadow lightbox" }
 
 **Variante:**
 
@@ -155,7 +155,7 @@ Betreuer:innen und Besitzer:innen haben die Möglichkeit, die von Teilnehmer:inn
 * Klicken Sie auf die 3 Punkte am Ende einer Zeile. Es öffnet sich das Popup zum Überschreiben der Einstellung zur Durchführung. 
 * Zum kompletten Zurücksetzen ändern Sie alle Kursbausteine auf "Ausgenommen". Klicken Sie dazu auf "Änderung löschen". Dadurch wird wieder der Ausgangszustand hergestellt.
 
-![course_element_selection_coach_modify2_v1_de.png](assets/course_element_selection_coach_modify2_v1_de.png){ class="shadow lightbox" }
+![Popup zum Überschreiben der Durchführung, geöffnet über die 3 Punkte im Lernpfad-Werkzeug](assets/course_element_selection_coach_modify2_v1_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#selection_coaching)<br>
@@ -164,10 +164,10 @@ Betreuer:innen und Besitzer:innen haben die Möglichkeit, die von Teilnehmer:inn
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Wie verwende ich den Kursbaustein "Auswahl"?](../../manual_how-to/course_element_selection/course_element_selection.de.md)<br>
-[Kursbaustein Struktur](../learningresources/Course_Element_Structure.de.md)
+[Wie verwende ich den Kursbaustein Auswahl?](../../manual_how-to/course_element_selection/course_element_selection.de.md)<br>
+[Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md)
 
 <br>
 

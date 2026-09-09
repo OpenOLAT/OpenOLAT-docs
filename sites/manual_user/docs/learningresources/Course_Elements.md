@@ -1,5 +1,9 @@
 # Types of Course Elements
 
+:octicons-device-camera-video-24: **Video Introduction (German)**: [What are course elements?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
+
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
+
 In OpenOlat, various course elements are available with which a course can be structured very flexibly and modularly according to the desired needs. In this way, course content can be structured and provided, collaborative work and exchange can be promoted, the knowledge level of the participants can be checked, and organizational concerns can be covered.
 
 ## Course elements at a glance
@@ -63,9 +67,9 @@ All assessable course elements, with the exception of "Practice" and "Structure"
 
 First, "Show highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the high score will be displayed immediately after the test is finished.
 
-It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the position display, the winner's podium, the histogram and the list of the best participants. For the list it is also possible to define whether all users or only a certain number of the best users should appear. At least one of these options must be selected.
+It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the position display, the winner's podium, the histogram and the list of the best participants. For the list it is also possible to define whether all participants or only a certain number of the best participants should appear. At least one of these options must be selected.
 
-![highscore](assets/Highscore_EN.png)
+![Podium with three ranks and scores, histogram of the score distribution and ranking list of the participants. View of the highscore element.](assets/Highscore_EN.png){ class="shadow lightbox" }
 
 ### Communication and Collaboration
 
@@ -88,15 +92,15 @@ Course elements in this category are mainly used for collaborative work and exch
 
 </div>
 
-### Virtual Classrooms
+#### Virtual Classrooms
 
-![](assets/virtual_class.png)
+![Icon for virtual rooms](assets/virtual_class.png)
 
 With the course elements 
 [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
 [BigBlueButton](bigbluebutton/index.md),
 [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
-[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
+[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), [Vitero](Course_Element_vitero.md) and [Zoom](zoom/index.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
 
 Which course element will be integrated and which functionalities will be available depends on which configuration your OpenOlat system administrator has selected.
 
@@ -104,7 +108,7 @@ A virtual room allows you to work online (synchronously) with several people who
 
 To be able to use all functionalities you will need a headset and a connected camera. Depending on your system you might have to download additional software temporarily.
 
-### Administration and Org
+### Administration and Organization
 
 The following course elements are particularly suitable for organizational matters and for the distribution of information.
 
@@ -149,7 +153,7 @@ A number of course elements can be used either for summative or formative assess
 * [Assessment](../learningresources/Assessment.md) (manual assessment)
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
-* [Test](../learningresources/Assessment.md#Assessment-_test_kursbaustein) (automatic & manual assessment)
+* [Test](../learningresources/Assessment.md#course_element_test) (automatic & manual assessment)
 
 [Learning path courses](../learningresources/Learning_path_course.md) control the progress with the completion criterion, which you set in the course editor for each course element in the tab "Learning path". With the criterion "Confirmation by participant", the participants confirm the completion themselves with the toggle button "Mark as done".
 

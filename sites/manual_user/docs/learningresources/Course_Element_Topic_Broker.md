@@ -43,7 +43,7 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 - Choice of topic/project/group and indication of personal priorities (first choice, second choice, etc.).
 - Once everyone has submitted their preferred wishes, the assignment is made. If a topic was requested with first priority more often than there are places available, the assignment is made using the fair algorithm according to the information on the second priority. 
 
-![course_element_topic_broker_periods_v1_en.png](assets/course_element_topic_broker_periods_v1_en.png){ class="shadow lightbox" }
+![Timeline of the three phases Selection in progress, Final enrolment pending and Enrolment done](assets/course_element_topic_broker_periods_v1_en.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
@@ -73,15 +73,15 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 
 In the "Configuration" tab, the framework conditions for the choice of subject and enrollment are defined.
 
-![course_element_topic_broker_configuration_v3_en.png](assets/course_element_topic_broker_configuration_v3_en.png){ class="shadow lightbox" }
+![Tab Configuration with enrolment method, enrolments per participant, selection period, trigger options and edit rights for topics and participants](assets/course_element_topic_broker_configuration_v3_en.png){ class="shadow lightbox" }
 
 
-#### Topic selection ![1_green_24.png](assets/1_green_24.png)
+#### Topic selection ![1](assets/1_green_24.png)
 
 **Selection period**<br>
 The selection period is the time frame within which participants must submit their topic requests. Registration will be triggered at the end of the selection period.
 
-!!! hint "Note"
+!!! info "Important"
 
     Course owners can still change the selection period even after enrollments have been processed. In this case, the status will change back to "Selection in progress". Registrations that have already been submitted will remain unchanged, but participants can now edit them again. 
 
@@ -92,32 +92,32 @@ Both are mandatory fields.
 
 #### Enrolment
 
-![2_green_24.png](assets/2_green_24.png) **Enrolments per participant**<br>
+![2](assets/2_green_24.png) **Enrolments per participant**<br>
 This defines how many subjects a participant will ultimately be enrolled in, regardless of the number of his/her priorities. This information is binding.
 
-![3_green_24.png](assets/3_green_24.png) **Participant can ...**<br>
-If necessary, participants can also **reduce** the specified number of registrations from ![2_green_24.png](assets/2_green_24.png) themselves, e.g. if they do not want to work on multiple topics. 
+![3](assets/3_green_24.png) **Participant can ...**<br>
+If necessary, participants can also **reduce** the specified number of registrations from ![2](assets/2_green_24.png) themselves, e.g. if they do not want to work on multiple topics. 
 
-![4_green_24.png](assets/4_green_24.png)
+![4](assets/4_green_24.png)
 Participants may also be allowed to **withdraw** their registrations if allocation and registration have taken place after the selection period has expired. If this option is checked, a date can be entered by which a registration can be withdrawn.<br>
 
-![5_green_24.png](assets/5_green_24.png) **Selection period**<br>
+![5](assets/5_green_24.png) **Enrolment method**<br>
 Currently, only the ["Fair Selection"] method is available. There are plans to add further selection methods in the future. 
 
-![6_green_24.png](assets/6_green_24.png) **Enrolment after the deadline**<br>
+![6](assets/6_green_24.png) **Overlapping implementation periods**<br>
 In general, election issues can also be assigned a timeframe. If this is the case, it may be important to avoid scheduling conflicts during the election. For example, when topics are linked to an in-person session. When assigning topics, a person must not be assigned any overlapping topics (=sessions).<br>
 Checking the box prevents overlapping during the registration process and ensures that the implementation period is taken into account by the algorithm. 
 
-![7_green_24.png](assets/7_green_24.png) **Withdraw deadline**<br>
+![7](assets/7_green_24.png) **Trigger enrolment after the deadline**<br>
 There are basically two ways to trigger the distribution of participants after the registration deadline has expired: either manually by the course administrators (see below) or automatically by the system after the end of the selection period.
 
-If you select "automatic", additional options will appear and you can define the principle according to which the automatic distribution should take place.  
+If you select "automatic", additional options will appear and you can define the principle according to which the automatic distribution should take place.<br>
 a) **Maximum number of enrolments**: High enrolment rate and short waiting list<br>
 b) **Maximum consideration of priorities**: Focused on achieving the highest possible level of fulfillment of the selected priorities<br>
 c) **Maximum number of topics**: High topic quota due to sufficient number of participants
 
 
-#### Authorization ![8_green_24.png](assets/8_green_24.png)
+#### Authorization ![8](assets/8_green_24.png)
 If necessary, in addition to course owners, coaches can also be given the right to edit topics and/or participants. 
 
 **Edit topic**<br>
@@ -137,20 +137,20 @@ The processing can be specified in even greater detail if the advanced configura
 
 Additional fields can be created in the "Custom fields" tab, which are then displayed in each topic. They can be edited and deleted at any time under the 3 dots at the end of a line.
 
-![course_element_topic_broker_custom_fields_v1_de.png](assets/course_element_topic_broker_custom_fields_v1_de.png){ class="shadow lightbox" }
+![Custom fields tab of the topic broker with button Add custom field and three-dot menu to edit a field](assets/course_element_topic_broker_custom_fields_v1_de.png){ class="shadow lightbox" }
 
-![course_element_topic_broker_custom_field_add_v1_de.png](assets/course_element_topic_broker_custom_field_add_v1_de.png){ class="shadow lightbox" }
+![Pop-up Add custom field with fields Name, input type Text or File and toggle Display in table](assets/course_element_topic_broker_custom_field_add_v1_de.png){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) **Name**<br>
+![1](assets/1_green_24.png) **Name**<br>
 The name entered here appears as an additional field in the "Add custom field" pop-up.
 
 
-![2_green_24.png](assets/2_green_24.png) **Input type**<br>
+![2](assets/2_green_24.png) **Input type**<br>
 **Text**: When entering data, you can enter a text entry for each topic. <br>
 **File**: When entering, a file can be uploaded for each topic, e.g. a pdf file with information on the topic.
 
 
-![3_green_24.png](assets/3_green_24.png) **Display in table**<br>
+![3](assets/3_green_24.png) **Display in table**<br>
 If the toggle button is activated, this field appears in the overview table by default.
 
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>
@@ -161,11 +161,11 @@ If the toggle button is activated, this field appears in the overview table by d
 
 The selectable topics can be added and described by course owners in the "Topics" tab of the course editor. Alternatively, this can also be done outside of the editor in run mode. Depending on the configuration, this can also be done by course coaches.
 
-![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
+![Topics tab with topic list (identifier, title, min, max, created by, ECTS points) and dropdown button Add topic](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
 
 In the example below, the lower section also contains a field that was added in the "Custom fields" tab.
 
-![course_element_topic_broker_add_topic_v2_de.png](assets/course_element_topic_broker_add_topic_v2_de.png){ class="shadow lightbox" }
+![Pop-up Add topic with standard fields Identifier, Title, Description, Number of participants, Teaser image/video and the custom field ECTS points](assets/course_element_topic_broker_add_topic_v2_de.png){ class="shadow lightbox" }
 
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>
 [To the top of the page ^](#topic_broker)
@@ -180,7 +180,7 @@ The button is also available after leaving the course editor in run mode (header
 
 When exporting, a zip file is created that contains an Excel file (with all topics) and the associated media files. The Participants’ tab in the Excel file shows which participants are registered for this topic.
 
-![course_element_topic_broker_topic_export1_v1_de.png](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
+![Topics tab in run mode with the Export data button marked](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -191,13 +191,13 @@ You can import topics that have been exported from another course element "Topic
 - all associated media files,
 - as well as the necessary information for assigning the media files to the correct topics.
 
-To import the themes, select **"Import themes"** after you have clicked on the small arrow next to the "Add theme" button.
+To import the topics, select **"Import topics"** after you have clicked on the small arrow next to the "Add topic" button.
 
-![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
+![Expanded dropdown menu of the Add topic button with the option Import topics in the Topics tab](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
 
 A small wizard guides you through the import process.
 
-![course_element_topic_broker_topic_import1_v1_dn.png](assets/course_element_topic_broker_topic_import1_v1_en.png){ class="shadow lightbox" }
+![Topics step of the Import topics wizard with template topic_import_template.xlsx and upload field for the zip file with media files](assets/course_element_topic_broker_topic_import1_v1_en.png){ class="shadow lightbox" }
 
 The topics and media files must be entered in two different fields. Sample files are also available to download for both fields. Normally, however, you will use the zip file exported elsewhere from an OpenOlat course element "Topic broker".
 
@@ -220,9 +220,9 @@ The media files must be assigned to the correct topic during import. The informa
 
 The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by **course coaches**. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
 
-![course_element_topic_broker_topics_coach_v1_de.png](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
+![Coach view with the course element Topic broker, Topics tab and Import topics dropdown marked](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -230,17 +230,17 @@ The selectable topics may have already been added and described by course owners
 
 In the "Participants" tab, coaches can see who has already submitted their topic requests, who is on the waiting list or who is already enrolled. Click on the + in front of one of the names to open the detailed view.
 
-![course_element_topic_broker_participant_list1_v1_de.png](assets/course_element_topic_broker_participant_list1_v1_de.png){ class="shadow lightbox" }
+![Participants tab with status filters and list showing Boost, Enrolled, Waiting list and Priority per person](assets/course_element_topic_broker_participant_list1_v1_de.png){ class="shadow lightbox" }
 
 
-!!! tip "Note"
+!!! tip "Tip"
 
     If course coaches have been given the right, they can intervene at any time and override a selection made or make a selection for the person if there is no selection.
     It is also possible to add another topic.
 
     However, this should only be used in exceptional situations if possible.
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -258,7 +258,7 @@ Participants and topics must now be assigned. OpenOlat can automatically make as
 
 The execution of the assignment process can be triggered **automatically or manually**. The way in which the process is triggered is determined by the course owner in the course editor in the **"Configuration"** tab. 
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -268,40 +268,40 @@ If the course owner has selected the "Automatic" option in the "Configuration" t
 
 The assignment algorithm is **only executed once**. The mapping result found is used for enrolment.
 
-However, coaches can manually correct and amend the enrolments see [Adjustment](../learningresources/Course_Element_Topic_Broker.md#topic_broker_adjustment)
+However, coaches can manually correct and amend the enrolments (see [Adjustment](../learningresources/Course_Element_Topic_Broker.md#topic_broker_adjustment)).
 
 After an automatic assignment, an e-mail is always sent to all course participants.
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
-###  Manual topic assignment/enrolment by coaches {: #topic_broker_assignment_manually}
+### Manual topic assignment/enrolment by coaches {: #topic_broker_assignment_manually}
 
 If the course owner has selected the "manual" option in the "Configuration" tab in the course editor, the execution of the assignment algorithm must be started by a course administrator.
 
 There is no set time when you must initiate enrolment. During the assignment process, the course module still has the status "Final enrolment pending".
 
-![course_element_topic_broker_enrollment_start_v1_de.png](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
+![Status Definitive enrolment pending with the Trigger enrolment button marked](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
 
 When the assignment algorithm is triggered manually, **multiple runs** can be performed. The results differ from one another because the algorithm includes a random component. They are listed in a dropdown menu, and coaches can select a run from this list to be used for final enrollment.
 
-![course_element_topic_broker_choose_a_run_v1_de.png](assets/course_element_topic_broker_choose_a_run_v1_de.png){ class="shadow lightbox" }
+![Dialog Trigger enrolment with dropdown of previous runs and result statistics on enrolments, priorities and waiting list](assets/course_element_topic_broker_choose_a_run_v1_de.png){ class="shadow lightbox" }
 
-Once the coach has decided on a run (an assignment result), the **enrolment** is carried out based on this assignment by clicking on the "Apply" button. Reconfirmation is required, as enrolment cannot be repeated with a different assignment result/pass.
+Once the coach has decided on a run (an assignment result), the **enrolment** is carried out based on this assignment by clicking on the "Accept" button. Reconfirmation is required.
 
-![course_element_topic_broker_confirm_assignment_v1_de.png](assets/course_element_topic_broker_confirm_assignment_v1_de.png){ class="shadow lightbox" }
+![Confirmation dialog with checkbox to confirm the run and a note about the notification e-mail to participants](assets/course_element_topic_broker_confirm_assignment_v1_de.png){ class="shadow lightbox" }
 
 In the case of manual kick-off, you can also specify that the participants are subsequently informed of the enrolment by e-mail.
 
 
-!!! tip "Note"
+!!! tip "Tip"
 
     If there are still people with the status "Waiting list" or "Open" after clicking on "Accept", you can assign them manually (see [Adjustment](Course_Element_Topic_Broker.md#topic_broker_adjustment)).<br>
     This may be necessary, for example, if a person has not yet entered a topic after the time window has expired and therefore could not be assigned by the algorithm.
 
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -309,7 +309,7 @@ In the case of manual kick-off, you can also specify that the participants are s
 
 Topics can be assigned using various strategies. You can choose a strategy yourself. To do so, use the "Customize Strategy" link on the right-hand side of the optimization strategy details.
 
-![course_element_topic_broker_strategy1_v1_de.png](assets/course_element_topic_broker_strategy1_v1_de.png){ class="shadow lightbox" }
+![Marked link Customize strategy next to the optimization strategy Maximum number of enrolments](assets/course_element_topic_broker_strategy1_v1_de.png){ class="shadow lightbox" }
 
 The following strategies are available:
 
@@ -318,11 +318,11 @@ The following strategies are available:
 * Maximum number of topics (High topic coverage due to sufficient number of participants)
 * Custom (Define your own weighting and fine-tune the priorities)
 
-![course_element_topic_broker_strategy2_v1_de.png](assets/course_element_topic_broker_strategy2_v1_de.png){ class="shadow lightbox" }
+![Dialog Customize strategy with the options Maximum number of enrolments, Maximum consideration of priorities, Maximum number of topics and Custom](assets/course_element_topic_broker_strategy2_v1_de.png){ class="shadow lightbox" }
 
-![course_element_topic_broker_strategy3_v1_de.png](assets/course_element_topic_broker_strategy3_v1_de.png){ class="shadow lightbox" }
+![Custom strategy with weighting sliders for enrolments, priorities and topics plus fine-tuning of the priority function](assets/course_element_topic_broker_strategy3_v1_de.png){ class="shadow lightbox" }
 
-[Up (Coach Perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -330,9 +330,9 @@ The following strategies are available:
 
 With a **boost function**, coaches can add a weighting for each individual and thus take corrective action. The assignments of participants with a boost are given preferential treatment by the enrolment algorithm.
 
-![course_element_topic_broker_boost_v1_de.png](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
+![Expanded detail view of a person with dropdown Boost: none, single bonus, double bonus](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
 
-[Up (Coach perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -344,10 +344,10 @@ To view an overview, select the course module as the course instructor, then cli
 
 As an instructor, you have the option to remove a preselected topic or (if you approve of this topic assignment) to manually enroll students. 
 
-![course_element_topic_broker_enrollment_manually_v2_de.png](assets/course_element_topic_broker_enrollment_manually_v2_de.png){ class="shadow lightbox" }
+![Detail view of a person with an open three-dot menu for a topic: options Enrol and Remove](assets/course_element_topic_broker_enrollment_manually_v2_de.png){ class="shadow lightbox" }
 
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -357,10 +357,10 @@ In the "Topics" tab, you can use the "Export data" button to download a zip file
 
 The button is available both in the course editor (for course owners) and in run mode for coaches/owners.
 
-![course_element_topic_broker_topic_export_coach_v1_de.png](assets/course_element_topic_broker_topic_export_coach_v1_de.png){ class="shadow lightbox" }
+![Coach view with the course element Topic broker, Topics tab and Export data button marked](assets/course_element_topic_broker_topic_export_coach_v1_de.png){ class="shadow lightbox" }
 
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 ---
@@ -371,15 +371,15 @@ Even if the "Enrolment Closed" phase has already been reached, you, as the cours
 
 To do this, select the "Topics" tab and click the "+" in the first column to open a topic.
 
-![course_element_topic_broker_modify_enrollment1_v2_de.png](assets/course_element_topic_broker_modify_enrollment1_v2_de.png){ class="shadow lightbox" }
+![Topic expanded in the Enrolment completed status with the Edit enrolments button marked](assets/course_element_topic_broker_modify_enrollment1_v2_de.png){ class="shadow lightbox" }
 
 A registration (including those made automatically) can be canceled (removed). Click "Unsubscribe" in the row for the person in question.
 
-![course_element_topic_broker_modify_enrollment2_v1_de.png](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
+![Dialog Edit enrolments with the list of enrolled people and an Unsubscribe link per row](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
 
 
-[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
-[zum Seitenanfang ^](#topic_broker)
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
+[To the top of the page ^](#topic_broker)
 
 ---
 
@@ -387,16 +387,16 @@ A registration (including those made automatically) can be canceled (removed). C
 
 Course owners and instructors can use the Activity Log tab to see when changes were made to a course module and by whom.
 
-![course_element_topic_broker_activitylog_v1_de.png](assets/course_element_topic_broker_activitylog_v1_de.png){ class="shadow lightbox" }
+![Activity log tab with entries for date, activity, original and new value, and the person who made the change](assets/course_element_topic_broker_activitylog_v1_de.png){ class="shadow lightbox" }
 
 
-[Up (Coach perspective) ^](#topic_broker_coaching)<br>
+[Up (Course coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 ---
 
 
-## Choice of topic (student perspective) {: #topic_broker_participant}
+## Choice of topic (course participant perspective) {: #topic_broker_participant}
 
 As a participant, simply select the course element Topic Broker in your course. Depending on the phase of the enrolment process, you will be shown the current status of topic allocation.
 
@@ -406,10 +406,10 @@ Click on the "Add" button for a topic description that you would like to enrol i
 
 Depending on the preset authorization, participants can also withdraw an enrolment or reduce the number of enrolments.
 
-![course_element_topic_broker_topic_participant_choose_v1_de.png](assets/course_element_topic_broker_topic_participant_choose_v1_de.png){ class="shadow lightbox" }
+![Topic cards with the dropdown button Add marked: position and priority selectable](assets/course_element_topic_broker_topic_participant_choose_v1_de.png){ class="shadow lightbox" }
 
 
-[Up (Perspective course participant) ^](#topic_broker_participant)<br>
+[Up (Course participant perspective) ^](#topic_broker_participant)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -419,9 +419,9 @@ If you have many topics to choose from, it is advisable to first include all pos
 
 As long as the selection is still in progress (the time window for this is not yet closed), you can change the position of the topics in your list by clicking on the double arrows. Excess topics will then not be considered for enrolment.
 
-![course_element_topic_broker_topic_participant_choose_priority_v1_de.png](assets/course_element_topic_broker_topic_participant_choose_priority_v1_de.png){ class="shadow lightbox" }
+![List of selected topics with priorities 1 and 2, two excess topics and position arrows for reordering](assets/course_element_topic_broker_topic_participant_choose_priority_v1_de.png){ class="shadow lightbox" }
 
-[Up (Perspective course participant) ^](#topic_broker_participant)<br>
+[Up (Course participant perspective) ^](#topic_broker_participant)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -429,10 +429,10 @@ As long as the selection is still in progress (the time window for this is not y
 
 You will be informed as soon as you have been assigned a topic. The final assignment and enrolment (by your coach) will only take place once the selection period has expired and all course participants have submitted their requests. (To enable fair allocation, OpenOlat creates an allocation proposal from an algorithm).
 
-![course_element_topic_broker_participant_v1_de.png](assets/course_element_topic_broker_participant_v1_de.png){ class="shadow lightbox" }
+![Status Definitive enrolment pending with both chosen topics in the Waiting list status](assets/course_element_topic_broker_participant_v1_de.png){ class="shadow lightbox" }
 
 
-[Up (Perspective course participant) ^](#topic_broker_participant)<br>
+[Up (Course participant perspective) ^](#topic_broker_participant)<br>
 [To the top of the page ^](#topic_broker)
 
 
@@ -440,9 +440,9 @@ You will be informed as soon as you have been assigned a topic. The final assign
 
 As soon as the final enrolment has been made by the coach, you as a participant will be able to see in the course element which topic(s) you have been enroled for.  
 
-![course_element_topic_broker_participant_enrolled_v1_de.png](assets/course_element_topic_broker_participant_enrolled_v1_de.png){ class="shadow lightbox" }
+![Status Enrolment completed with both topics in the Enrolled status](assets/course_element_topic_broker_participant_enrolled_v1_de.png){ class="shadow lightbox" }
 
-[Up (Perspective course participant) ^](#topic_broker_participant)<br>
+[Up (Course participant perspective) ^](#topic_broker_participant)<br>
 [To the top of the page ^](#topic_broker)
 
 ---
@@ -451,9 +451,7 @@ As soon as the final enrolment has been made by the coach, you as a participant 
 
 [Course element Topic Assignment](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Course element Enrolment](../learningresources/Course_Element_Enrolment.md)<br>
-[OpenOlat_Project_Broker_Matching_Algorithm.pdf](assets/OpenOlat_Project_Broker_Matching_Algorithm.pdf)<br>
+[OpenOlat_Project_Broker_Matching_Algorithm.pdf](assets/OpenOlat_Project_Broker_Matching_Algorithm.pdf)
 
-
-
-
+[To the top of the page ^](#topic_broker)
 

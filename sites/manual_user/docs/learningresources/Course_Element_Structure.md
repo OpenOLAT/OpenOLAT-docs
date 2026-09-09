@@ -17,7 +17,7 @@ The course element Structure offers, among other things, an automatic overview o
 
 The settings of the course element are made by the owners of the course in the course editor: `Course > Administration > Course editor`. Coaches only reach the course editor if they have been granted the "Course editor" right in the course.
 
-![Performance overview with the score achieved and a link to the evidence of achievement, below it the content overview with the status of each subordinate course element. Automatic overview of a structure element in a learning path course, participant view.](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" }
+![Score achieved, link to the evidence of achievement and status per course element. Automatic overview of the structure element, participant view.](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" }
 
 ### The chosen course format
 
@@ -31,11 +31,11 @@ The settings of the course element are made by the owners of the course in the c
 
 **Tabs in conventional courses**
 
-![Seven tabs are available: Title and description, Layout, Visibility, Access, Overview, Score and HighScore. Tab bar of the course element Structure in the course editor of a conventional course.](assets/structure_tabs_cc_en.png){ class="shadow lightbox" }
+![Seven tabs on the structure element in the conventional course: Title and description, Layout, Visibility, Access, Overview, Score, HighScore.](assets/structure_tabs_cc_en.png){ class="shadow lightbox" }
 
 A further special case is the topmost entry in the course editor: the course root node. It is a structure element as well, even though it does not look like one: It carries the symbol of the course :o_icon_o_CourseModule_icon: and not the symbol of the structure element :o_icon_o_st_icon:. It therefore has the same tabs as any other structure element, but it is the only one that carries the tab "[Reminders](../learningresources/Course_Reminders.md)". In addition, deleting and moving are **not** possible for the course root node.
 
-![The topmost entry of the course structure carries the symbol of the course, the subordinate structure elements carry the symbol of the structure element. Course root node in the course editor of a learning path course, tab "Reminders" open.](assets/Struktur_Kurshauptknoten_en.png){ class="shadow lightbox" }
+![Tab "Reminders" only present on the course root node, here open with the list of reminders. Course editor of a learning path course.](assets/Struktur_Kurshauptknoten_en.png){ class="shadow lightbox" }
 
 In the course editor, the tabs of the structure element appear in this order:
 
@@ -46,11 +46,11 @@ In the course editor, the tabs of the structure element appear in this order:
 
 #### Tab Overview {: #overview}
 
-The central settings are made in the "Overview" tab.You can choose between four display modes for the course element "Structure" in the tab Overview and thus generate an automatically generated overview, integrate your own HTML page or simply display the first subordinate course element.
+The central settings are made in the "Overview" tab. You can choose between four display modes for the course element "Structure" in the tab Overview and thus generate an automatically generated overview, integrate your own HTML page or simply display the first subordinate course element.
 
 * **Automatic overview** generates a list of the subordinate course elements. You can additionally select whether all or only certain course elements are displayed and whether the display should be in one or two columns.
 * **Automatically generated overview incl. preview**  also generates a directory of the subordinate course elements, but also displays a preview for some course elements. The exact preview varies depending on the course element. The configuration options for this setting are similar to those for the automatic overview. Furthermore, it can be set whether the preview refers to all course elements or only to structure elements. However, the user does not see a preview for course elements to which he does not (yet) have access.
-* **Custom HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. Text, images etc. can then be added in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears and further specific settings for HTML pages can be made.  
+* **Custom HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. Text, images etc. can then be added in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears and further specific settings for HTML pages can be made.
 * If you select the radio button **«No overview, activate first visible child node»**, the first visible subordinate course element will be displayed instead of an overview. 
 
 !!! info "Important"
@@ -110,7 +110,7 @@ If you select _«Adopt from course element»_, OpenOlat shows the assessable cou
 
  Calculate **failed score:**  It is also possible to calculate "Failed".
 
-![The selection list offers two variants: failed until passed is reached, or failed only after the end date of the course. Setting "Calculate failed score?" in the tab Score of the structure element.](assets/structure_score_tab.png){ class="shadow lightbox" }
+![Two variants for "failed": until passed is reached, or only after the end of the course. Selection list in the tab Score of the structure element.](assets/structure_score_tab.png){ class="shadow lightbox" }
 
   * As long as the conditions for passed are not reached, the structure is shown as "Failed". 
   * As long as the conditions for passed are not reached _and_ the end date of the course is reached, the structure is shown as "Failed". If the conditions for "passed" have already been fulfilled before the end of the course, passed is already displayed during the course duration.
@@ -119,7 +119,7 @@ If certificates of achievement are to be issued for a course, it is necessary to
 
 For participants, the performance overview is as follows:
 
-![Performance overview with the success status "Passed", the score achieved and a link to the evidence of achievement. View of the structure element in the running conventional course, on the left the course menu with the subordinate course elements.](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" }
+![Performance overview with the success status "Passed", score and a link to the evidence of achievement. Structure element in the running conventional course, with course menu.](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" }
 
 
 !!! note "Note"
@@ -161,6 +161,21 @@ The course element "Structure" and thus its subordinate course elements can be p
 
     On the course root node, _no_ password can be stored in the "Access" tab.
 
+## Further information {: #further_information}
 
-  
+**Mentioned on this page**<br>
+[Course Reminders >](../learningresources/Course_Reminders.md)<br>
+[Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)
+
+**Further reading**<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)
+
+[To the top of the page ^](#course_element_structure)
+
+
+
 

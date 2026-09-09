@@ -31,13 +31,13 @@ Eine Übersicht über weitere Informationen rund um das Thema "Formulare" finden
 
 Die Lernressource Formular wird im Kursbaustein "Umfrage" in Form eines Fragebogens verwendet. Kursbesitzer:innen können so Fragebögen in ihren Kurs einbinden und Lernende können die bereitgestellten Umfragen ausfüllen. Die Ergebnisse werden den Kursbesitzenden und Betreuenden, dann entsprechend angezeigt.
 
-OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../learningresources/Form_Editor.de.md) möglich.
+OpenOlat stellt sicher, dass Teilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../learningresources/Form_Editor.de.md) möglich.
 
 ### Im Kurseditor {: #course_editor}
 
 Gehen Sie in den Kurseditor und fügen Sie den Kursbaustein Umfrage hinzu. Nachdem Sie den Kursbaustein Umfrage dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
-![Umfrage Kurseditor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
+![Tabs Titel und Beschreibung, Layout, Lernpfad und Umfrage des Kursbausteins Umfrage im Kurseditor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
 
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und die optische Darstellung definiert werden. Im [Tab Lernpfad](../learningresources/Learning_path_course_Course_editor.de.md) werden spezielle Einstellungen die für Lernpfad Kurse gelten definiert, z.B. kann als Erledigungskriterium "Umfrage teilgenommen" gewählt werden.
 
@@ -47,7 +47,7 @@ Klassische bzw. herkömmliche Kurs verfügen dagegen über die Tabs Sichtbarkeit
 
 Die zentrale Konfiguration erfolgt im Tab "Umfrage". Hier wird im ersten Schritt entweder ein neues Formular erstellt oder ein existierendes ausgewählt. In der erscheinenden Übersicht werden alle Formulare, bei denen man Besitzer:in ist, angezeigt und können einfach per Klick auf den Haken ausgewählt und so dem Kurs hinzugefügt werden.
 
-![Formular Auswahldialog](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
+![Drei eigene Formulare unter Meine Einträge mit Häkchen in der Spalte Auswählen, Buttons Erstellen und Importieren oben rechts, im Dialog Formular auswählen](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
 
 Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular importiert werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
@@ -57,7 +57,7 @@ Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue
 
 Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr notwendig. 
 
-![Umrage einbinden](assets/Umfrage_Tab.png){ class="shadow lightbox" }
+![Formular Kursbefragung ausgewählt mit Buttons Ersetzen und Bearbeiten, im Tab Umfrage des Kurseditors](assets/Umfrage_Tab.png){ class="shadow lightbox" }
 
 !!! warning "Achtung"
 
@@ -85,11 +85,11 @@ Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Ku
 
 Was Besitzer:innen, Betreuer:innen und Teilnehmende bei geschlossenem Editor sehen ist davon abhängig welche Benutzerberechtigungen im Tab Umfrage ausgewählt wurden. Hat die jeweilige Personengruppe das Recht den Fragebogen auszufüllen (Teilnahme durch...), dann sieht sie als erstes auch den jeweiligen Fragebogen.  Sobald die Person aber selbst den Fragebogen ausgefüllt hat, erscheint die Fragebogen Statistik Übersicht direkt bei dem jeweiligen Umfrage Baustein, sofern für die Benutzergruppe auch die Anzeige der Resultate freigegeben ist.
 
-![Umfrage Statistik](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" }
+![Tab Übersicht mit Kennzahlen und Balkendiagramm Gesamttotal Rubriken, Buttons Drucken, Export PDF und Export Excel, in der Statistik des Kursbausteins Umfrage](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" }
 
 Ist eine Personengruppe (z.B. Teilnehmende) berechtigt die Umfrage auszufüllen aber nicht berechtigt die Ergebnisse zu sehen, erscheint *nach* dem Ausfüllen die Meldung:
 
-![Meldung Umfrage ausgefüllt](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
+![Meldung "Formular ausgefüllt, Sie haben das Formular bereits ausgefüllt. Vielen Dank für Ihre Teilnahme.", im Kursbaustein Umfrage](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
 
 Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geändert werden. Der User sieht eine entsprechende Information. Soll der Fragebogen noch nicht direkt abgeschickt werden, kann die Option "Zwischenspeichern" verwendet werden.
 
@@ -106,19 +106,32 @@ Folgende Auswertungstabs stehen den Berechtigten zur Verfügung:
 **Diagramme**: Im Tab Diagramme sehen Sie eine grafische Darstellung der einzelnen Fragen
 
 **Einzelne Formulare**: Hier hat man Zugriff auf die gesamten ausgefüllten, anonymen Fragebogen einzelner Personen.  
-  
+
 Ferner können die Inhalte aller 4 Tabs auch ausgedruckt oder als Excel Tabelle oder als PDF-Version heruntergeladen werden.
 
 **Weitere Bereiche für die Ansicht der Ergebnisse**
 
 Dieselbe Auswertung finden Sie übrigens auch im Menü `Administration > Fragebogen Statistiken`.
 
-Die Ergebnisse können auch als Teil der [Kursarchivierung](../learningresources//Course_Archiving.de.md) gespeichert werden. Dabei ist es sogar möglich die Ergebnisse mehrere Kursbausteine in einem zip file zu bündeln.
+Die Ergebnisse können auch als Teil der [Kursarchivierung](../learningresources/Course_Archiving.de.md) gespeichert werden. Dabei ist es sogar möglich die Ergebnisse mehrere Kursbausteine in einem zip file zu bündeln.
 
 ### Umfragen zurücksetzen {: #reset_surveys}
 
 Kursbesitzer:innen können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein "Zurücksetzen". In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
 
-![Umfrage zurücksetzen](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" }
+![Mehr-Menü mit hervorgehobener Option Zurücksetzen, im Kursbaustein Umfrage](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" }
 
 Ferner können die Inhalte aller 4 Tabs auch ausgedruckt oder als Excel Tabelle oder als PDF-Version heruntergeladen werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
+[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
+
+[Zum Seitenanfang ^](#course_element_survey)

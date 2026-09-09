@@ -35,9 +35,9 @@ and password.
 
 The following parameters can be configured:
 
-![course_element_lti_page_content_v1_de.png](assets/course_element_lti_page_content_v1_de.png){ class="shadow lightbox" }
+![URL, key and password, OpenOlat roles with LTI role mapping, transfer score with scaling factor, and the three display options: tab Page content in the course editor](assets/course_element_lti_page_content_v1_de.png){ class="shadow lightbox" }
 
-**LTI-Version:** We recommend the current version LTI 1.3 However, for compatibility reasons, the older version can also be selected.
+**LTI-Version:** We recommend the current version LTI 1.3. However, for compatibility reasons, the older version can also be selected.
 
 If your administrator has set up deep links, you can select preconfigured deep links under this item. Some of the following entries are then already made automatically.
 
@@ -61,6 +61,8 @@ If your administrator has set up deep links, you can select preconfigured deep l
 
 **OpenOlat roles:** Here you can configure which role the user will have when launching the LTI resource. The three OpenOlat roles Author, Coach and Participant are supported. For each role the mapping can be defined to a corresponding role on the LTI resource. The following LTI roles are available: Learner, Instructor, Administrator, Teaching assistant, Content developer and Mentor.
 
+Which of these LTI roles you may assign as a course owner is determined by the system administration. LTI roles that are not released are greyed out. Administrators and learning resource managers of the organisation the course belongs to can always assign all LTI roles [:octicons-tag-16:{ title="from Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
+
 **Transfer score:** Select this checkbox when the LTI resource is generating a score value that can be transmitted to OpenOlat using the LTI 1.1 standard. This is optional. The submitted score will appear on the users start screen of the LTI course element as well as in the efficiency statement of this course. Please be aware that according to the LTI standard only values between 0 and 1 are allowed.
 
 !!! info "Info"
@@ -70,6 +72,8 @@ If your administrator has set up deep links, you can select preconfigured deep l
  **Scaling factor:** With the scaling factor the LTI results, which must have a value between 0 and 1 according to the LTI specification, can be scaled to a more practical value for the OpenOlat course. For example, if you want an LTI exam to have a maximum of 10 points in OpenOlat, you must specify a scaling factor of "10". If you want the transmitted score to be unmodified, use the factor "1".
 
  **Score needed to pass:** Here you can configure an optional cut value to define when the LTI course element is considered as being passed. The cut value relates to the score value after scaling and not to the raw value transmitted by LTI. In the example above a cut value of "5" is equivalent to "50%".
+
+**Ignore in course assessment:** Activate this option so that the score and the status of this course element are not included in the overall assessment of the course.
 
 * * *
 
@@ -85,25 +89,19 @@ If your administrator has set up deep links, you can select preconfigured deep l
 
 
  ## Tab Badges
- 
+
  If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
- 
+
  [To the top of the page ^](#lti)
- 
- 
- ##  Further information {: #further_information}
 
-User manual: [Configure LTI access to a group >](../groups/LTI_Share_groups.md)
+## Further information {: #further_information}
 
-Admin manual: [LTI 1.3 Integrations at a glance >](../../manual_admin/administration/LTI_Integrations.md)
-
-Admin manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)
-
-Admin manual: [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)
-
-Admin manual: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.md)
-
-Admin manual: [LTI - Role mapping](../../manual_admin/administration/LTI_Role_Mapping.md)
+User manual: [Configure LTI access to a group >](../groups/LTI_Share_groups.md)<br>
+Admin manual: [LTI 1.3 Integrations at a glance >](../../manual_admin/administration/LTI_Integrations.md)<br>
+Admin manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
+Admin manual: [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
+Admin manual: [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.md)<br>
+Admin manual: [LTI - Role mapping >](../../manual_admin/administration/LTI_Role_Mapping.md)
 
 
 [To the top of the page ^](#lti)

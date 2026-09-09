@@ -5,19 +5,19 @@ erstellt, dieses in Ihren Kurs eingebunden und den Kurs für Teilnehmende
 freigeschaltet.
 
 ## Schritt 1: Kurseditor öffnen und CP-Kursbaustein einfügen  
-  
+
  - Im Autorenbereich unter “Meine Kurse" Kurs suchen und öffnen.
-![Meine Kurse](assets/Kurs_waehlen_16_de.png){ class="shadow" }
- - Oben im Dropdown-Menü “Administration“ auf **“Kurseditor“** klicken.  
- - Kurselement, unter dem der CP-Kursbaustein eingefügt werden soll, durch Klicken auswählen.  
- - Oben im Pop-Up **“Kursbausteine einfügen“** “CP-Lerninhalt“ wählen.  
+![Kurs zum Öffnen auswählen, Tab Meine Kurse im Autorenbereich](assets/Kurs_waehlen_16_de.png){ class="shadow lightbox" }
+ - Oben im Dropdown-Menü “Administration“ auf **“Kurseditor“** klicken.<br>
+ - Kurselement, unter dem der CP-Kursbaustein eingefügt werden soll, durch Klicken auswählen.<br>
+ - Oben im Pop-Up **“Kursbausteine einfügen“** “CP-Lerninhalt“ wählen.<br>
  - Im Tab “Titel und Beschreibung“ einen Titel und eventuell auch einen Titel für das Kursmenü eintragen. Weitere Beschreibung in diesem Tab können später noch vorgenommen werden.   
-  
+
 ## Schritt 2: CP-Lerninhalt erstellen  
 
  - Im Tab “Lerninhalt“ auf **“CP-Lerninhalt wählen, erstellen oder importieren“** klicken.
-![choose-cp](assets/CP_anlegen_de.png){ class="shadow" }
- - Im erscheinenden Dialog rechts oben auf **“Erstellen“** klicken.  
+![CP-Lerninhalt wählen, erstellen oder importieren, Tab Lerninhalt des CP-Kursbausteins](assets/CP_anlegen_de.png){ class="shadow lightbox" }
+ - Im erscheinenden Dialog rechts oben auf **“Erstellen“** klicken.<br>
  - Titel des CPs eingeben und mit "Erstellen" bestätigen.
 
  Die Lernressource CP ist nun angelegt und Sie können sie über den Link "Editieren" bearbeiten. Alternativ kann die erstellte Lernressource auch direkt im Autorenbereich aufgerufen und bearbeitet werden. 
@@ -26,8 +26,8 @@ freigeschaltet.
 ## Schritt 3: CP bearbeiten und speichern
 
 - Auf den **“Editieren“** Button klicken.
-    
-    ![content-package editieren](assets/CP_editieren_de.png){ class="shadow" }
+
+    ![Editieren-Button für den gewählten CP-Lerninhalt, Bereich CP-Lerninhalt auswählen](assets/CP_editieren_de.png){ class="shadow lightbox" }
 
    Nun befindet man sich in der Lernressource CP. Sie wird in einem neuen OpenOlat Tab geöffnet. 
 
@@ -61,3 +61,10 @@ Um das CP weiter zu bearbeiten, können Sie jederzeit wieder bei Schritt 3 anset
 !!! tip "Alternativer Weg"
 
     Ein CP kann, wie alle anderen Lernressourcen, im Autorenbereich erstellt und anschliessend in den gewünschten Kurs eingebunden werden. Dieses Vorgehen empfiehlt sich um zu verstehen, dass Lernressourcen kursübergreifende Tools sind und die Einbindung in den gewählten Kurs nur eine Möglichkeit darstellt. Dasselbe CP kann in mehreren OpenOlat-Kursen eingebunden und verwendet werden.
+
+## Weiterführende Informationen {: #further_information}
+
+[CP-Lerninhalt erstellen >](../learningresources/CP_Editor.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+
+[Zum Seitenanfang ^](#funf-schritte-zu-ihrem-content-packaging)

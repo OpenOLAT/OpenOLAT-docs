@@ -1,6 +1,6 @@
 # Configure LTI access to a group {: #LTI_access_to_a_group}
 
-:octicons-tag-24: Release 15.5 
+:octicons-tag-16: Release 15.5
 
 With LTI, it is not only possible to use content (courses) on another LMS. LTI can also be used to exchange data about course participants and coaches (LTI services for the provisioning of names and roles, as well as the LTI "Assignments and Grades" services).
 
@@ -14,7 +14,7 @@ Information about groups and members can generally be exchanged in both directio
 * from the other LMS (= tool) to OpenOlat (= platform)
 
 
-![LTI_share_groups_platform_tool_v1_de.png](assets/LTI_share_groups_platform_tool_v1_de.png){ class="lightbox" }
+![Exchange directions between OpenOlat and another LMS: OpenOlat as tool or as platform](assets/LTI_share_groups_platform_tool_v1_de.png){ class="shadow lightbox" }
 
 
 ## Requirements
@@ -29,7 +29,7 @@ Administrator access must be ensured in both systems for the configuration. (In 
 4. Embedding the external tool (= OpenOlat) in the Moodle course
 5. Connection test
 
-The detailed procedure for a configuration is described under [Configure LTI access to a course](https://docs.openolat.org/en/manual_user/learningresources/LTI_Share_courses/?h=lti).
+The detailed procedure for a configuration is described under [Configure LTI access to a course](../learningresources/LTI_Share_courses.md).
 
 
 
@@ -37,7 +37,7 @@ The detailed procedure for a configuration is described under [Configure LTI acc
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" />
+	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" alt="Configuration of learner data and OpenOlat roles in the Page content tab of the LTI page course element" />
 </details>
 
 **Transmit firstname/name:**<br>
@@ -68,26 +68,22 @@ Enter the optional threshold value here, from which the LTI element is considere
 
 An OpenOlat group is shared for LTI access in the same way as a course. Sharing is configured in the group management in the "Share" tab, in the "LTI 1.3 access configuration" section, via the "Add deployment" button.
 
-In the deployment dialog you enter the same details as when sharing a course: the previously configured "Platform", the "Deployment ID", the technical addresses ("Tool URL", "Initiate login URL", "Redirection URL") and the "Public Key". The detailed procedure including the counterpart configuration in the external LMS is described under [Configure LTI access to a course](https://docs.openolat.org/en/manual_user/learningresources/LTI_Share_courses/?h=lti) and applies to groups in the same way.
+In the deployment dialog you enter the same details as when sharing a course: the previously configured "Platform", the "Deployment ID", the technical addresses ("Tool URL", "Initiate login URL", "Redirection URL") and the "Public Key". The detailed procedure including the counterpart configuration in the external LMS is described under [Configure LTI access to a course](../learningresources/LTI_Share_courses.md) and applies to groups in the same way.
 
-The exchange of member data (names and roles) uses the LTI standard service "Names and Role Provisioning Service" (NRPS). Which member data is transmitted is determined by the system that provides the connection as the platform. The basic LTI 1.3 settings are managed by administrators under `Administration > External tools > LTI 1.3`.
+The exchange of member data (names and roles) uses the LTI standard service "Names and Role Provisioning Service" (NRPS). Which member data is transmitted is determined by the system that provides the connection as the platform. The basic LTI 1.3 settings are managed by administrators under `Administration > External tools > LTI`.
 
 ## Groups without course affiliation
 
 A group can be shared via LTI independently of a course. This is useful when you do not want to share an entire course but only exchange data about users and their group membership. For example, only the results of an assessment can be transferred without sharing the associated course.
 
-##  Further information {: #further_information}
+## Further information {: #further_information}
 
-User manual: [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
+User manual: [Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)<br>
+User manual: [Course element "LTI page" >](../learningresources/Course_Element_LTI_Page.md)<br>
+Admin manual: [LTI 1.3 Integrations at a glance >](../../manual_admin/administration/LTI_Integrations.md)<br>
+Admin manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
+Admin manual: [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
+Admin manual: [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.md)<br>
+Admin manual: [LTI - Role mapping >](../../manual_admin/administration/LTI_Role_Mapping.md)
 
-User manual: [Course element "LTI page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)
-
-Admin manual: [LTI 1.3 Integrations at a glance >](../../manual_admin/administration/LTI_Integrations.md)
-
-Admin manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)
-
-Admin manual: [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)
-
-Admin manual: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.md)
-
-Admin manual: [LTI - Role mapping](../../manual_admin/administration/LTI_Role_Mapping.md)
+[To the top of the page ^](#LTI_access_to_a_group)

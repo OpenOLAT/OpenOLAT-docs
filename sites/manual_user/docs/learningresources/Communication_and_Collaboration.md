@@ -4,149 +4,128 @@ Get more info on [Virtual classrooms](../basic_concepts/Virtual_classrooms.md)
 ## Course Element: Wiki {: #wiki}
 :fontawesome-solid-globe:
 
-Use a Wiki to easily create learning content together with your course participants. A Wiki is suitable for doing group work; it can serve as documentation tool or as some sort of knowledge base for your studies and projects.
+Use a Wiki to easily create learning content together with participants. A Wiki is suitable for group work, as a documentation tool, or as a knowledge base for your studies or project work.
 
-The course element "Wiki" helps you to embed a Wiki in your course. Just click on "Select, create or import Wiki" in the tab "**Wiki learning content**" to assign a Wiki already existing or to create a new one. The chapter ["Creating Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md) will tell you how to do so step by step. If you have not already selected a Wiki yet the title **Selected Wiki** will show the message _No Wiki selected_.
+The course element "Wiki" helps you to embed a Wiki learning resource in your course. In the tab "Wiki learning content", click "Select, create or import Wiki" to assign a Wiki that already exists or to create a new one. The chapter ["Creating Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md) describes this step by step. If you have not selected a Wiki yet, the title **Selected Wiki** shows the message _No Wiki selected_.
 
-If you have already added a Wiki its name will appear in the field. In order to change the assignment of a Wiki click on "Replace Wiki" in the tab "Wiki learning content" before selecting another Wiki.
+If you have already added a Wiki, its name appears. To change the assignment of a Wiki afterwards, click "Replace Wiki" in the tab "Wiki learning content" and then select another Wiki.
 
-In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
+In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that besides owners, coaches and participants may also edit Wiki articles. By default, all participants have read and write permission in a Wiki. Only the person who created the page, or persons registered as owners of the Wiki, may delete Wiki pages.
 
-In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Course_Element_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
+In the chapter "Learning Activities in Courses" you find under ["Wiki"](../learningresources/Course_Element_Wiki.md) information on how the Wiki navigation can be adapted, how you create new pages, and how you view the different versions of a page.
 
 !!! warning "Attention"
 
-    If you can't find the "Wiki" course element in the course editor, it was disabled by a system administrator.
+    If you cannot find the "Wiki" course element in your OpenOlat instance, it was disabled system-wide by an administrator.
 
 ##  Course Element: Forum {: #forum}
-
 :fontawesome-regular-comments:
 
-With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
+With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, participants can write posts with questions about the content of the course and answer each other, or you can initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you find under ["Forum"](../learningresources/Working_with_Forums.md) information on how forum posts are created and answered. By default, all participants have read and write permission in a forum.
 
-A course author can also use the forum to notify course participants in the short term. Just configure your forum in the tab "Access" accordingly, i.e. that only course authors have write permission.
+You can also use the forum as an alternative to the notification element for announcements from course authors, especially when questions from learners are welcome.
 
 !!! tip "Tip"
 
-    Advise your course participants on subscribing to the forum to be up-to-date.
-   
-### Tab Configuration
-Here you can set the user rights of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also define whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of a pseudonym is activated by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
+    Advise participants to subscribe to the forum to be notified of new posts.
 
-![Configuration options for forum](assets/forum_config.png){ class="shadow" }
+### Tab Configuration
+Here you can set the user permissions of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also set whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. In pseudonymized forums, the authors of a post can choose their own pseudonym. Once a pseudonym has been created, it always remains active in the forum, but can be changed or switched off as needed. The pseudonym can be protected by participants with a password, so that only this person can use this pseudonym. Without password protection, the same pseudonym could be used by several participants. Furthermore, it can be set that the use of a pseudonym is enabled by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
+
+![Checkboxes for pseudonym aliases and role selection for moderation and creating forum posts, tab Configuration of a forum](assets/forum_config.png){ class="shadow lightbox" }
 
 **Moderation rights**
-All course owners and [coaches](../basic_concepts/coach.md) have the following additional moderation rights. You can:
+All course owners and [coaches](../basic_concepts/coach.md) have the following additional moderation rights. They can:
 
-  * Editing and deleting all posts in a forum; attaching files.
-  * Prioritizing threads (sticky): a certain discussion subject will always appear on top of a list.
-  * Closing discussion: it will no longer be possible to reply to a certain discussion subject.
-  * Hiding discussion: a certain subject will no longer appear in the forum list.
-  * Displaying discussion: hidden subject will be displayed anew.
-  * Filter for persons: on the forum's overview page posts of every single course participant can be displayed.
-  * Archiving forum: posts (as MS Word) and attached files will be zipped before storing them in your personal folder.
+  * Edit and delete all forum posts and attach files.
+  * Prioritize threads (sticky): the discussion topic then always appears at the top of the list.
+  * Close discussion topics: replies to posts on this discussion topic are no longer possible.
+  * Hide discussion topics: the topic no longer appears in the list of discussion topics.
+  * Show discussion topics: hidden topics are shown again.
+  * Use the person filter: on the forum overview page, forum posts of a single participant can be displayed.
+  * Archive forums: forum posts (in MS Word format) and attached files are packed into a ZIP file and saved in your personal folder.
 
-Persons with moderation rights can also move forum topics or individual posts. On the one hand, contributions can be moved to another topic of the same forum, on the other hand, entire forum topics or contributions can be moved to another forum. All forum posts underneath are moved and are no longer visible in the original forum. It is possible to move topics and posts to another forum both in the same course and in other courses. The moved thread can be created as a new discussion thread. In the last step of the move, an email can be sent to all users affected by the move, with the information where the forum is now moved to.
+People with moderation rights can also move forum topics or individual posts. On one hand, posts can be moved to another topic of the same forum; on the other hand, entire forum topics or posts can be moved to another forum. All underlying forum posts are moved along with them and are then no longer visible in the original forum. Moving topics and posts to another forum is possible both within the same course and to other courses. The moved thread can be created as a new discussion thread. In the last step of the move, an email can also be sent to all participants affected by the move, with information on where the forum is now moved to.
 
 !!! warning "Attention"
 
-    Forum posts can also be moved to forums in which the creator of the post has no access.
+    Forum posts can also be moved to forums the creator of the post has no access to.
 
-Besides the course element "Forum" there is also the possibility to display a central forum for the entire course in the [course toolbar](../learningresources/Using_Additional_Course_Features.md). Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
-  
-##  Course Element: File Dialog {: #file_dialog}
-![File dailog icon](../assets/file_dialog_icon.png)
+Besides the course element "Forum", there is also the option to display a central forum for the entire course in the [course toolbar](../learningresources/Using_Additional_Course_Features.md). This is often useful when the course only has one forum that should be permanently available. No further settings such as pseudonymization or assignment of moderation rights can be made here.
 
-The course element File Dialog can be understood as a combination of forum and folder. The course element "File dialog" provides you with preset discussion forums; in contrast to an ordinary forum, dialogs here are explicitly based on certain documents. Use such a file dialog to let your course participants discuss e.g. scientific articles or papers.
+## Course Element: File Dialog {: #file_dialog}
+![File dialog icon](../assets/file_dialog_icon.png)
 
-In the editor in the tab "Files" or in the runtime files can be uploaded in the storage of the file dialog with "Upload file". Afterward they can be looked up and downloaded by the course participants. The related discussion forum is created automatically and opens with a click on "Show". The different columns give an overview who uploaded which file when.
+The course element File Dialog can be understood as a combination of forum and folder. Unlike with forums, the starting point is always an uploaded document, which forms the basis for discussion in the associated forum discussion.
 
-Who besides the course owner can take which actions will be defined in the course editor in the user permissions of the tab "Configuration".
+Use the file dialog, for example, when you want your learners to comment specifically on an article, a graphic or another text, and discuss its content.
+
+Whether the editor is closed or open (in the tab "**Files**"), you can click "Upload file" to upload documents to the file dialog's storage; participants can then view and download them. The associated discussion forum is created automatically and can be opened by clicking "Show". By selecting the relevant columns, you can see who uploaded which file when and what the discussion status is.
+
+Who, besides the course owners, can take which actions is defined in the course editor in the user permissions of the tab "Configuration".
 
 ### Tab Configuration
-Here you can set the user rights of the module and define which course roles are allowed to upload files and create discussion topics. In addition, you can define who is allowed to create forum posts in the respective discussion topics. You can choose between coaches and participants. It can also be set here whether coaches are allowed to moderate the file discussion.
+Here you can set the user permissions of the element and define which course roles are allowed to upload files and create discussion topics. You can also define who may create forum posts in the respective discussion topics. You can choose between coaches and participants. It can also be set here whether coaches are allowed to moderate the file dialog.
 
-![Configuration options for file dialog](assets/file_dialog_config.png){ class="shadow" }
+![Role selection for moderation, uploading files and creating discussion topics, and creating forum posts, tab Configuration of the file dialog](assets/file_dialog_config.png){ class="shadow lightbox" }
 
-!!! warning "Achtung"
+!!! warning "Attention"
 
-    A discussion can only begin when a corresponding file has been uploaded.
+    A discussion can only start once a corresponding file has been uploaded.
 
 ##  Course Element: Participant folder {: #participant_folder}
 :fontawesome-solid-inbox:
 
+The course element "Participant folder" allows a file exchange between individual participants and coaches. Two folders are available for this. One is the "participant drop box", through which participants can submit files to coaches. The other is the "coach return box", in which coaches can return files to all participants at once or individually. In principle, this course element hides two folders, one with write permission and one without, which are visible only to coaches and a single participant.
 
-The course element "Participant folder" allows you to exchange files between
-participants and coaches. With the creation of the course element there are
-two folders available. On one side this is the drop box where participants can
-upload files for the coaches. On the other side it is the return box where
-coaches can upload files for all participants together or individually.
-Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen einzelnen Teilnehmer sichtbar sind. 
+!!! info "Note"
 
-!!! info
+    A similar configuration for submitting and returning files by coaches can also be implemented with the [course element "Task"](Course_Element_Task.md), except that the task element offers considerably more comprehensive and complex options, and here also allows assessment or awarding of points.
 
-    A similar configuration of file delivery + file return by coaches can also be     implemented with the course element ["Task"](Course_Element_Task.md), only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
-The course element "Participant folder" allows you to exchange files between participants and coaches. With the creation of the course element there are two folders available. On one side this is the drop box where participants can upload files for the coaches. On the other side it is the return box where coaches can upload files for all participants together or individually.
+### Tab "Folder settings"
+In the tab "Folder settings" in the course editor, you can configure the drop box and the return box. By default, both folders are enabled, and participants are allowed to delete and overwrite files.
 
-### Folder settings
-In the folder settings configurations for the drop box and the return box can be made. By default both folders are enabled and delete and override is enabled for the participants. For the drop box some more configurations can be made.
+If the participant drop box is enabled, participants can upload files or create them directly in OpenOlat. If the administrator of the OpenOlat instance has activated further document editors, it is also possible to create other file formats such as Word, Excel or PowerPoint files.
 
-Delete and override can be unenabled. This means that the participants cannot delete any files. Uploaded files stay in the drop box coercively. Further a time interval can be defined. The upload in the drop box is only possible in this time frame. Out of this time frame files can only be downloaded.
+Further configurations can also be made for the participant drop box. For example, delete and overwrite can be disabled. This means participants can no longer delete documents once they have uploaded or created them. All documents then remain in the drop box. A time window for submission can also be defined. Submission is then only possible within this period. Outside this period, documents can only be downloaded.
 
-If the participant's folder is activated, the participants can upload files or create them directly in OpenOlat. If the administrator of the OpenOlat instance has activated further document editors, it is also possible to create further file formats such as Word, Excel or PowerPoint files.
-In the folder settings configurations for the drop box and the return box can
-be made. By default both folders are enabled and delete and override is enabled for the participants. 
-
-Additionally the number of files can be limited. As soon as this number is reached no writing tools are available anymore. This means that uploaded files cannot be moved, copied, zipped or unzipped anymore. But they can be deleted, if this option is enabled. If desired only the drop box or only the return box can be enabled.
-
-In the Template Settings tab, subfolders can also be created for both the Submission and Return folders to create a continuous folder structure. For example, a return folder could include a subfolder for content feedback and one for supplemental files, or a submission folder could reflect some desired structure for the submissions. 
-  
+In addition, the number of documents that can be submitted can be limited. Once this number is reached, no writing tools are available anymore. This means the documents can no longer be moved, copied, zipped or unzipped. However, they can still be deleted. If desired, only the drop box or only the return box can be enabled.
 
 !!! warning "Attention"
 
-    As for all upload areas, there is a memory limit for the participant folder. The file upload limits set by the administrator and the entire folder limit are displayed when you try to upload a file.
+    As with all upload areas, a storage limit applies to the participant folder. The upload limit for the file, set by the administrator, and the limit for the entire folder are shown when you try to upload a file.
 
+### Tab Template settings
 
-### Tab Template Einstellungen
+In the tab "Template settings", subfolders can be created for both the drop box and the return box, creating a consistent folder structure for all participants. For example, a return box could include a subfolder for content feedback and one for supplementary files, or a drop box could reflect a certain desired structure for submissions.
 
-In the Template Settings tab, subfolders can be created for both the submission folder and the return folder, creating a continuous folder structure for all participants. For example, a return folder could include a subfolder for content feedback and one for supplemental files, or a submission folder could reflect some desired structure for the submissions. 
+!!! warning "Attention"
 
-!!! warning 
-
-    The subfolders created here cannot be renamed later. Only a deletion and a new creation is possible. In the course run, when you try to rename these subfolders, copies of the subfolders with new names will be created.
-
+    Subfolders created here cannot be renamed later. Only deleting and recreating them is possible. In the course run, attempting to rename these subfolders creates copies of the subfolders under the new name.
 
 ##  Course Element: Participant list {: #participant_list}
 :fontawesome-solid-users:
 
-In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
+In the participant list, the members of the course can be made visible to everyone. Unlike the course tool [Member management](../learningresources/Members_management.md), which is only visible to owners, the course element "Participant list" makes all participants of the course visible to all persons who can open the course. Members are listed by their course role, sorted as "course administrators", "coaches" and "participants", with a photo, according to their "highest" role. In the configuration, you can define which user groups are displayed in the participant list.
 
-![Configuration options for paricipant list](assets/participant_list_config.png){ class="shadow" }
+![Configuration of the participant list: checkboxes for course administrator, coaches and participants with visibility scopes, plus toggles for the e-mail and download function](assets/participant_list_config.png){ class="shadow lightbox" }
+By linking to the OpenOlat business card, and the option to send an OpenOlat mail to any desired member of the course directly from the course element, this course element makes it easy and straightforward to contact other participants. In the course editor, you can define whether the e-mail function is available for all participants, or only for owners and coaches. Mails to individual or multiple persons (groups) are sent from the course view via the "Send e-mail" button. External mail addresses can also be added to the form as needed.
 
-By linking the member names to their OpenOlat visiting card as well as the
-OpenOlat mail service, this course element facilitates contacting your fellow
-course members directly from within the course. In the course editor you can
-determine whether the e-mail function should be available for all course
-participants or just for course owners and coaches. Use the "Send e-mail"
-button in the course view to send mails to multiple user (groups). If
-required, external mail addresses can also be added.
+Besides the mail function, the chat function is also available in the participant list in the course view. The online status of each participant is visible next to their name. Clicking it opens the chat window (instant messenger).
 
-The course view also offers, apart from the mail function, the online instant
-messaging status of listed course participants. A click on the status icon
-opens the chat window.
+Finally, it can be defined who is allowed to download the participant list as Excel or print it as an overview. Again, a distinction is made between coaches and administrators, or all participants.
 
-Finally it can be defined, who is allowed to download the participant list as
-Excel or to print it. Again it is differentiated between coach and owner or
-all users.
+!!! info "Important"
 
-!!! info 
+    A similar function is available in the toolbar with the "List of participants" tool. However, no further configuration can be made here.
 
-    A similar function is available in the toolbar with the "List of participants" tool. However, no further configurations can be made here.   
+## Further information {: #further_information}
 
-  
+[Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
+[Working with forums >](Working_with_Forums.md)<br>
+[Role: Coach >](../basic_concepts/coach.md)<br>
+[Using additional course features in the toolbar >](Using_Additional_Course_Features.md)<br>
+[Course element "Task" >](Course_Element_Task.md)<br>
+[Member management >](Members_management.md)
 
-By linking the member names to their OpenOlat visiting card as well as the OpenOlat mail service, this course element facilitates contacting your fellow course members directly from within the course. In the course editor you can determine whether the e-mail function should be available for all course participants or just for course owners and coaches. Use the "Send e-mail" button in the course view to send mails to multiple user (groups). If required, external mail addresses can also be added.
-
-The course view also offers, apart from the mail function, the online instant messaging status of listed course participants. A click on the status icon opens the chat window.
-
-Finally it can be defined, who is allowed to download the participant list as Excel or to print it. Again it is differentiated between coach and owner or all users.
+[To the top of the page ^](#communication-and-collaboration)

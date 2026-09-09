@@ -1,4 +1,4 @@
-# Kursbaustein "Microsoft Teams"
+# Kursbaustein "Microsoft Teams" {: #microsoft_teams}
 
 ## Steckbrief
 
@@ -23,8 +23,8 @@ Microsoft Teams ermöglicht virtuelle Räume für synchrone Meetings mit Webcam-
 MS Teams kann sowohl als App als auch im MS Browser Edge verwendet werden.
 
 !!! tip "Empfehlung"
-  
-    Für die vollständige Nutzung aller Funktionen – insbesondere **Breakout-Räume** – wird die MS Teams **Desktop-App** auf Windows oder macOS empfohlen. Im Webbrowser sowie auf Linux, iOS und Android stehen nicht alle Funktionen zur Verfügung.
+
+    Für die vollständige Nutzung aller Funktionen: insbesondere **Breakout-Räume**: wird die MS Teams **Desktop-App** auf Windows oder macOS empfohlen. Im Webbrowser sowie auf Linux, iOS und Android stehen nicht alle Funktionen zur Verfügung.
 
 ## Rollen in MS Teams {: #teams_roles}
 
@@ -32,13 +32,13 @@ In einem MS Teams Meeting gibt es drei Rollen:
 
 | Rolle | Wer | Rechte |
 |-------|-----|--------|
-| **Organizer** | Automatisch die Person, die das Meeting zuerst betritt – genau eine Person pro Meeting | Breakout-Räume erstellen, Meeting-Einstellungen, volle Kontrolle |
+| **Organizer** | Automatisch die Person, die das Meeting zuerst betritt: genau eine Person pro Meeting | Breakout-Räume erstellen, Meeting-Einstellungen, volle Kontrolle |
 | **Presenter** | Alle als Moderator konfigurierten Personen | Bildschirm teilen, Inhalte verwalten |
 | **Attendee** | Alle übrigen Teilnehmenden | Zuhören und zuschauen |
 
 !!! warning "Achtung: First-Joiner = Organizer"
 
-    Die erste Person, die ein Meeting betritt, erhält automatisch die Rolle **Organizer** – unabhängig von der Moderator-Einstellung in OpenOlat. Diese Rolle kann nachträglich weder in OpenOlat noch in Microsoft Teams geändert oder neu vergeben werden.
+    Die erste Person, die ein Meeting betritt, erhält automatisch die Rolle **Organizer**: unabhängig von der Moderator-Einstellung in OpenOlat. Diese Rolle kann nachträglich weder in OpenOlat noch in Microsoft Teams geändert oder neu vergeben werden.
 
     Bei **permanenten Räumen** mit wechselnden Betreuenden hat daher nur diejenige Person, die das Meeting zuerst gestartet hat, dauerhaft Zugriff auf erweiterte Funktionen wie Breakout-Räume. Soll eine andere Person als Organizer auftreten, muss ein neuer Raum erstellt werden.
 
@@ -65,7 +65,7 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
 
   *  **Name** : Bezeichnung des Termins
   *  **Erstellt durch:** Der Name des Erstellers wird automatisch angezeigt.
-  *  **Beschreibung** : Beschreibung des Termins. Diese Information wird angezeigt bevor die Kursteilnehmenden den jeweiligen Meetingraum aufrufen. 
+  *  **Beschreibung** : Beschreibung des Termins. Diese Information wird angezeigt bevor die Teilnehmenden den jeweiligen Meetingraum aufrufen. 
   *  **Hauptmoderator:** Hier kann der Name einer Person eingetragen werden.
   *  **Zugang externe Benutzer:** Hinterlegen sie hier ein Kennzeichen/Wort
   *  **Raumbuchungen anzeigen** : Kalenderansicht zur Prüfung von belegten Online-Meetings
@@ -81,7 +81,7 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
 | **Organisation** | Alle Benutzer:innen der Azure-Organisation erhalten beim Beitritt automatisch die Rolle Presenter |
 | **Alle** | Alle Teilnehmenden werden Presenter |
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Eine einmal erstellte Raum-Konfiguration kann nachträglich nicht mehr geändert werden. Sollen andere Moderator-Einstellungen gelten, muss ein neuer Raum angelegt werden.
 
@@ -92,7 +92,7 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
   *  **Ende** : Endtermin des Meetings - die maximale Laufzeit eines Meetings ist abhängig von der gewählten Raumvorlage
   *  **Nachlaufzeit (Min.)** :  Nachlaufzeit, in der das Meeting für alle Personen verlängert werden kann. Es erscheint eine Anzeige mit der verbleibenden Konferenzzeit.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Bei täglich oder wöchentlich wiederkehrenden Terminen muss zusätzlich das Start und Enddatum definiert werden. Im Anschluss werden sämtliche Termine für diese Zeitspanne angezeigt und es können noch einzelne Termine aus der Liste gelöscht oder hinzugefügt werden.
 
@@ -109,7 +109,7 @@ bzw. Raum.
 
 Breakout-Räume können ausschliesslich vom **Organizer** eines Meetings erstellt und verwaltet werden (siehe [Rollen in MS Teams](#teams_roles)).
 
-**Unterstützte Plattformen:** Breakout-Räume stehen nur in der Teams Desktop-App unter Windows und macOS zur Verfügung – nicht im Webbrowser und nicht auf mobilen Geräten.
+**Unterstützte Plattformen:** Breakout-Räume stehen nur in der Teams Desktop-App unter Windows und macOS zur Verfügung: nicht im Webbrowser und nicht auf mobilen Geräten.
 
 **Einschränkungen bei der Teilnehmerzuweisung:** Folgende Personen können Breakout-Räumen nicht zugewiesen werden:
 
@@ -128,7 +128,7 @@ automatisch in den kursspezifischen Kalender eingetragen und von den
 Teilnehmenden abonniert werden. Auch kann man rasch aus dem Kalender in den
 termingebundenen Raum gelangen.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
     Im Kurskalender erscheinen nur Termine mit einem definierten Start- und Enddatum. Permanente Reservierungen ohne Datum werden im Kalender nicht angezeigt.
 
   :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
@@ -139,13 +139,13 @@ Ruft ein Kursteilnehmer einen MS Teams Kursbaustein auf, sieht er eine
 Übersicht der bevorstehenden und der abgelaufenen Termine, sofern vorhanden.
 Ein Klick auf "**Auswählen**" öffnet die Detailansicht des jeweiligen Meetings.
 
-![course_element_teams_overview_v1_de.png](assets/course_element_teams_overview_v1_de.png)
+![Aktuelle und vergangene Online-Termine mit Beginn, Ende und Link Auswählen je Zeile, im Kursbaustein Microsoft Teams](assets/course_element_teams_overview_v1_de.png){ class="shadow lightbox" }
 
 Läuft ein Meeting, kann es über "**Meeting beitreten**" gestartet werden. Ob
 Teilnehmende das Meeting auch ohne Betreuer eröffnen dürfen, hängt von der
 Konfiguration des Termins ab (siehe oben).
 
-![course_element_teams_join_v1_de.png](assets/course_element_teams_join_v1_de.png)
+![Button Meeting beitreten in der Detailansicht eines Online-Termins im Kursbaustein Microsoft Teams](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" }
 
 !!! warning "Achtung"
 
@@ -156,3 +156,19 @@ Konfiguration des Termins ab (siehe oben).
 Bei anwendungsspezifischen Herausforderungen steht die Microsofthilfe zur Verfügung:
 
 [Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
+
+**Weiterführend**<br>
+[Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
+[Kursbaustein "Zoom" >](zoom/index.de.md)<br>
+[Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)
+
+**youtube**<br>
+[Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>)<br>
+[Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
+
+[Zum Seitenanfang ^](#microsoft_teams)

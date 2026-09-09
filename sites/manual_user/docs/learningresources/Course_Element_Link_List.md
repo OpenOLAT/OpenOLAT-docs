@@ -18,4 +18,4 @@ The course element "Link list" enables the author to quickly assemble a collecti
 
 Example:
 
-![linklist_example.png](assets/Linklist_EN.png)
+![Link entries with URL, window mode, title and description, plus buttons to remove and add entries, in the Configuration tab of the link list](assets/Linklist_EN.png){ class="shadow lightbox" }

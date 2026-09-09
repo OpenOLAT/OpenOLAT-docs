@@ -5,7 +5,7 @@
 Name | Forum
 ---------|----------
 Icon | :o_icon_o_fo_icon:
-Available since | New edition with release 18
+Available since | New edition with release 18.0
 Functional group | Communication and collaboration
 Purpose | Asynchronous online discussions
 Assessable | no
@@ -14,13 +14,13 @@ Specialty / Note |
 
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. 
 
-![Beispiel: Startposting](assets/Posting_beantworten.png)
+![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of a start posting in a forum](assets/Posting_beantworten.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#forum)
 
 ---
 
-   
+
 ## Tab Configuration {: #config}
 
 A forum is configured in the course editor in the "configuration" tab. Here you can set the user rights of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also define whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. 
@@ -30,9 +30,9 @@ A forum is configured in the course editor in the "configuration" tab. Here you 
 
 ### Forums with alias [:octicons-tag-16:{ title="from Release 10.4 (OO-1769)" }](https://track.frentix.com/issue/OO-1769){:target="_blank"} {: #pseudonym}
 
-In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of a pseudonym is activated by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
+In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of an alias is activated by default. To do this, select the checkbox "Activate alias in every message".
 
-![Configuration options for forum](assets/forum_config.png){ class="shadow" }
+![Checkboxes Allow posts using an alias and Activate alias in every message, plus the role selection for moderation and creating posts, Configuration tab of a forum](assets/forum_config.png){ class="shadow lightbox" }
 
 ---
 
@@ -70,13 +70,15 @@ Forums are the central tools for asynchronous discussion in online courses and a
 
 Participants can open topics in forums, archive topics and also customize the display of a thread/topic. They can create, edit and mark posts and subscribe to a forum completely.
 
-![Arbeiten mit Foren](assets/arbeiten_mit_Foren.png)
+![Discussion topic in a forum with the marked controls Adjust display, Subscribe, Mark and Create post](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" }
 
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    Recommend that course participants **subscribe** to the forum in order to be notified of new posts. 
-    All users should also enter a **profile photo** in the "[profile](../personal_menu/Profile.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
+    Recommend that participants **subscribe** to the forum in order to be notified of new posts.
+    All participants should also enter a **profile photo** in the "[profile](../personal_menu/Profile.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
+
+---
 
 ### Start discussion topic  {: #start_discussion}
 
@@ -92,9 +94,9 @@ With the help of the forum editor you can create and format your post and also a
 
 Depending on the configuration by the course owner, you may also be able to publish your post under a pseudonym.
 
-!!! info "Hint"
+!!! tip "Tip"
 
-    Always check at the beginning whether there is already a suitable thread for your contribution before you open a new discussion topic or prepare a suitable forum structure as the course owner. 
+    Always check at the beginning whether there is already a suitable thread for your contribution before you open a new discussion topic, or prepare a suitable forum structure as course owner or coach.
 
 ---
 
@@ -102,7 +104,7 @@ Depending on the configuration by the course owner, you may also be able to publ
 
 Individual forum posts can be marked. To do so, click on the small flag in the upper right corner of a post in the detailed view of a topic. In the forum overview you can see how many posts per topic have been marked. This makes it easier to find individual posts again or mark them for a later reply.
 
-![Posting markieren](assets/Posting_markieren.png)
+![Flag icon in the top right corner of a forum post to mark the post](assets/Posting_markieren.png){ class="shadow lightbox" }
 
 ---
 
@@ -110,11 +112,11 @@ Individual forum posts can be marked. To do so, click on the small flag in the u
 
 If you have selected the "Forum" course module, you will find the options to export forum posts as a Word file under the button with the three dots. 
 
-![course_element_forum_export_v1_de.png](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
+![Menu with the options Person filter, Export to Word and Excel report marked, opened via the button with the 3 dots in the course element Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
 
-With the user filter, you can search specifically for posts by certain users, such as just the most recent ones.
+With the person filter, you can search specifically for posts by certain persons, such as just the most recent ones.
 
-![course_element_forum_export_person_v1_de.png](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
+![Filtered forum posts of a single person after applying the person filter in the course element Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
 
 The Excel file that can also be generated here contains a report with statistical data on the number of posts, their authors, etc., but does not include the posts themselves. It contains one row for each forum post written.
 
@@ -127,9 +129,9 @@ Posts in individual forum threads can also be archived. A ZIP archive is created
 * To create an archive, click on the discussion thread to open it. 
 * Above the displayed discussion topic, you will see the "Archive discussion topic" button.
 
-![course_element_forum_archive1_v1_de.png](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
+![Discussion topics marked in the forum's topic overview, click to open for archiving](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
 
-![course_element_forum_archive2_v1_de.png](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
+![Archive discussion topic button marked above an open discussion topic in the forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
 
 
 ---
@@ -137,14 +139,16 @@ Posts in individual forum threads can also be archived. A ZIP archive is created
 
 ### Subscribe to forums {: #abo}
 
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
+
 To receive notifications about new forum posts, set the "Changes" slider to "On" in the discussion topics overview. You will then receive a notification via email or under "Subscriptions" in the "Personal Tools" section. It doesn't matter who posted the new message.
 
 You will only receive a notification when a new post is created, not when an existing post is edited!
 
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    Advise your course participants on subscribing to the forum to be up-to-date.
+    Recommend that participants subscribe to all forums in order to be notified of new posts.
 
 ---
 
@@ -158,11 +162,11 @@ There are several display options:
 * marked
 * new
 
-Users can view all posts below each other (all), with or without indentation. The starting post appears first and the other posts are displayed according to the discussion structure. For extensive forums with many posts, it is useful to use the "new" button to display only the new posts. 
+Participants can view all posts below each other (all), with or without indentation. The starting post appears first and the other posts are displayed according to the discussion structure. For extensive forums with many posts, it is useful to use the "new" button to display only the new posts. 
 
 Especially interesting for more complex discussions is also the view "one". The entire thread structure is displayed here and can thus be traced very well. It is helpful that individual parts can be shown and hidden. In addition, you can quickly recognize new forum posts by the asterisk in this display.
 
-![Thread structure](assets/Forum_Aufbau-1a.png)
+![Nested discussion structure with a new post marked by an asterisk and the currently displayed post highlighted in green, view "one" in a forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#forum)
 
@@ -185,7 +189,14 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 
 ## Further information {: #further_information}
 
+[Role of a coach >](../basic_concepts/coach.md)<br>
+[Personal Configuration: Profile >](../personal_menu/Profile.md)<br>
+[Course Element Notifications >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
+[Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
 [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
-[Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)<br>
+[Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)
+
+**youtube**<br>
+[Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
 
 [To the top of the page ^](#forum)

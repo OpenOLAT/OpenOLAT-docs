@@ -3,9 +3,9 @@
 You can make the configurations that affect the course as a whole under:<br>
 `Course > Administration > Settings`
 
-![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
+![Administration menu with the Settings entry and the tabs Info, Metadata, Execution, Release, Terms of use, Layout, Toolbar, Assessment and Options of the course settings](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
-!!! info "Notes"
+!!! info "Important"
 
     Every [learning resource](../learningresources/index.md) has a "Settings" menu, not just courses.
 
@@ -16,7 +16,7 @@ You can make the configurations that affect the course as a whole under:<br>
 
 ## Tab Info {: #info}
 
-![course_settings_tab_info_v1_de.png](assets/course_settings_tab_info_v1_de.png){ class="shadow lightbox" }
+![Tab "Info" active in the course settings](assets/course_settings_tab_info_v1_de.png){ class="shadow lightbox" }
 
 Here you define information about the course or learning resource. This includes:
 
@@ -40,7 +40,7 @@ The learning resource appears under the title defined here in the alphabetical c
 
 ## Tab Metadata {: #metadata}
 
-![course_settings_tab_metadata_v1_de.png](assets/course_settings_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Tab "Metadata" active in the course settings](assets/course_settings_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 Metadata contains keywords that describe the course. The metadata can be used to make your course easier to find, for example. They are optional and do not have to be filled in.
 
@@ -62,13 +62,13 @@ Metadata of a course are
 
 ## Tab Execution {: #Execution}
 
-![course_settings_tab_execution_v1_de.png](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
+![Tab "Execution" active in the course settings](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
 
 
 Here you can
 
 * define the implementation period of the course,
-* switch on the "[Lesson and absence management](../learningresources/Events_and_absences.md)" and configure it further (if activated by the administrator),
+* switch on the "[Absence management](../area_modules/Absence_Management.md)" and configure it further (if activated by the administrator),
 * convert existing conventional courses into learning path courses
 * or for [Learning_path_courses](Learning_path_course.md) define how the learning progress is calculated, based on the number of course elements or on the duration of the course elements.
 
@@ -77,7 +77,7 @@ Here you can
 
 ## Tab Share {: #share}
 
-![course_settings_tab_share_v1_de.png](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
+![Tab "Release" active in the course settings](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
 
 In the "Release" tab, you define how and for whom a course or learning resource is released.
 
@@ -87,7 +87,7 @@ In the "Release" tab, you define how and for whom a course or learning resource 
 * Whether and how other authors can access the course
 * Whether external OER catalogs and search engines receive information
 * Whether an offer is made in the catalog for the course and if so, which one
-* Ob der Kurs auch von einem anderen LMS aus via LTI genutzt werden kann
+* Whether the course can also be used from another LMS via LTI
 
 [Details about **Tab Share** >](Course_Settings_Share.md)<br>
 [More about the **Share** >](Access_configuration.md)<br>
@@ -96,11 +96,11 @@ In the "Release" tab, you define how and for whom a course or learning resource 
 
 ## Tab Catalog (only applies to catalog version 1) {: #catalog}
 
-![course_settings_tab_catalog_v1_de.png](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
+![Tab "Catalog" active in the course settings](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
 
 The "Add to catalog" button can be used to enter the learning resource in the catalog and assign it to one or more predefined categories. To enter the course or learning resource in several catalog areas, the step must be repeated. All catalog entries then appear here in the "Catalog" tab and can also be removed here.
 
-The entire OpenOlat [catalog (version 1)](../learningresources/General_Information.md) can be viewed by all users in the "Courses" menu.
+The entire OpenOlat [catalog (version 1)](../area_modules/Courses.md) can be viewed by all users in the "Courses" menu.
 
 Only enter your courses in the catalog once they have been completed and should be visible to users.
 
@@ -110,7 +110,7 @@ Only enter your courses in the catalog once they have been completed and should 
 
 ## Tab Terms of use {: #disclaimer}
 
-![course_settings_tab_disclaimer_v1_de.png](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
+![Tab "Terms of use" active in the course settings](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
 
 Here
 
@@ -128,7 +128,7 @@ In the [Member management](../learningresources/Members_management.md) you can s
 
 ## Tab Layout {: #layout}
 
-![course_settings_tab_layout_v1_de.png](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Tab "Layout" active in the course settings](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
 
 Under "Layout" you can
 
@@ -140,8 +140,8 @@ Depending on the settings by the course administrator, certain **layout template
 
 In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses it is also possible to set whether the menu icons and the specific learning path are displayed to the user or not. Depending on the linear or flexible scenario, one or the other variant offers itself.
 
-![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow lightbox" }
-![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons.png){ class="shadow lightbox" }
+![Learning path with icons](assets/lp_icons.png){ class="shadow lightbox" }
+![Learning path without path and icons](assets/no_lp_no_icons.png){ class="shadow lightbox" }
 
 In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
@@ -150,7 +150,7 @@ In the section "**Course element default style**" you can define the default pre
 
 ## Tab Toolbar {: #toolbar}
 
-![course_settings_tab_toolbar_v1_de.png](assets/course_settings_tab_toolbar_v1_de.png){ class="shadow lightbox" }
+![Tab "Toolbar" active in the course settings](assets/course_settings_tab_toolbar_v1_de.png){ class="shadow lightbox" }
 
 Here you can switch the toolbar in the course header on or off and define which specific individual tools are displayed to course participants in the toolbar.
 
@@ -160,7 +160,7 @@ Here you can switch the toolbar in the course header on or off and define which 
 
 ## Tab Assessment {: #assessment}
 
-![course_settings_tab_assessment_v1_de.png](assets/course_settings_tab_assessment_v1_de.png){ class="shadow lightbox" }
+![Tab "Assessment" active in the course settings](assets/course_settings_tab_assessment_v1_de.png){ class="shadow lightbox" }
 
 In the Assessment tab, you can make settings for
 
@@ -174,7 +174,7 @@ In the Assessment tab, you can make settings for
 
 
 
-!!! info 
+!!! info "Important"
 
     For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the evaluation table.  The configuration for passing the course is done in the course editor on the top course element in the "Score" tab. There is no progression for conventional courses.
 
@@ -186,7 +186,7 @@ In the Assessment tab, you can make settings for
 
 ## Tab Options {: #options}
 
-![course_settings_tab_options_v1_de.png](assets/course_settings_tab_options_v1_de.png){ class="shadow lightbox" }
+![Tab "Options" active in the course settings](assets/course_settings_tab_options_v1_de.png){ class="shadow lightbox" }
 
 Here you activate as required
 
@@ -194,7 +194,7 @@ Here you activate as required
 * a [resource folder](../learningresources/index.md) for your course
 * a special folder for coaches
 * to-dos for coaches<br>
-If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:
+If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:<br>
 * invitation to activate external users for course owners with author rights
 * activate the "LTI 1.3" release for course owners with authoring rights
 

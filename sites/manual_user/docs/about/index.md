@@ -20,7 +20,7 @@ At the top right of the main menu bar there is always access to the OpenOlat man
 
 !!! info "Important"
 
-    If the link does not appear, it was hidden in the personal tools in the personal [settings](../personal_menu/Settings.md).
+    If the link does not appear, it is hidden in the personal tools in the personal [settings](../personal_menu/Settings.md).
 
 
 #### :o_icon_o_icon_help: Context help
@@ -32,20 +32,20 @@ While working with OpenOlat, you cannot only dispose of this manual, but also us
 
 In addition to that, you will find 3 more types of assistance mainly in forms, but not restricted to, which will provide you with brief information on single form fields. When locating this icon :o_icon_o_icon_help: to the right of a label, a mouseover will display a short information. Here, an example of the configuration of a test in the course editor:
 
-![](assets/example_questionmark.en.png){ class="shadow" width=400px }
+![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px }
 
-  
+
 
 #### Light grey text within a form field...
 
-![](assets/help_gui_demo.en.png){ class="shadow" width=150px }
+![Input field with light grey placeholder text "Search" as a hint on what to fill in](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px }
 
 ...assists you with filling out the field itself,
 
 
 #### Light grey text underneath a field...
 
-![](assets/help_gui_demo1.en.png){ class="shadow" width=420px }
+![Field "Title in course menu" with light grey hint text "Max. 25 characters" underneath](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px }
 
 ...provides information about what is required.
 
@@ -69,9 +69,9 @@ Since 2015 the manual is financed and maintained by [frentix GmbH](https://www.f
 
 In the long history of this manual, many people contributed their part. Please respect the intellectual property and the license under which this manual is published: 
 
-!!! info "" 
-	Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
-	<http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
+!!! info "Important"
+    Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
+    <http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
 
 ##### Responsible people (in alphabetical order):
 

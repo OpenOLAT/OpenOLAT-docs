@@ -1,6 +1,6 @@
 # Löschen (eines Kurses/einer Lernressource) {: #course_delete}
 
-![course_delete_v1_de.png](assets/course_delete_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt "Löschen" im Administrationsmenü einer Lernressource](assets/course_delete_v1_de.png){ class="shadow lightbox" }
 
 Wenn ein Kurs bzw. eine Lernressource gelöscht wird, werden alle Benutzerdaten entfernt und der Kurs ist nun weder für die ehemaligen Teilnehmenden noch die Betreuer:innen aufruf- oder einsehbar. 
 
@@ -21,5 +21,9 @@ Bei einer gelöschten Lernressource erscheint in der Kursadministration der Men�
 
 Ebenso kann ein Kurs auch automatisiert beendet bzw. gelöscht werden. Entsprechende Einstellungen nehmen ebenfalls OpenOlat-Administrator:innen vor.
 
+
+## Weiterführende Informationen {: #further_information}
+
+[Zu den Details über den File Hub >](../personal_menu/File_Hub.de.md)
 
 [Zum Seitenanfang ^](#course_delete)

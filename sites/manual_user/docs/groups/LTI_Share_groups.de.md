@@ -1,6 +1,6 @@
 # LTI-Zugang zu einer Gruppe konfigurieren {: #LTI_access_to_a_group}
 
-:octicons-tag-24: Release 15.5 
+:octicons-tag-16: Release 15.5
 
 Mit LTI lassen sich nicht nur Inhalte (Kurse) auf einem anderen LMS nutzen. Via LTI können auch Daten über die Kursteilnehmer:innen und Betreuer:innen ausgetauscht werden (LTI-Services für das Provisioning von Namen und Rollen, sowie LTI-Services "Assignments and Grades"). 
 
@@ -14,7 +14,7 @@ Die Informationen zu Gruppen und Mitgliedern können grundsätzlich in beiden Ri
 * vom anderen LMS (= Tool) zu OpenOlat (= Platform)
 
 
-![LTI_share_groups_platform_tool_v1_de.png](assets/LTI_share_groups_platform_tool_v1_de.png){ class="lightbox" }
+![Austauschrichtungen zwischen OpenOlat und einem anderen LMS: OpenOlat als Tool oder als Platform](assets/LTI_share_groups_platform_tool_v1_de.png){ class="shadow lightbox" }
 
 
 ## Voraussetzungen
@@ -31,7 +31,7 @@ Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da best
 4. Einbinden des externen Tools (=OpenOlat) im Moodle-Kurs
 5. Verbindungstest
 
-Der ausführliche Ablauf einer Konfiguration ist beschrieben unter [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti).
+Der ausführliche Ablauf einer Konfiguration ist beschrieben unter [LTI-Zugang zu einem Kurs konfigurieren](../learningresources/LTI_Share_courses.de.md).
 
 
 
@@ -39,7 +39,7 @@ Der ausführliche Ablauf einer Konfiguration ist beschrieben unter [LTI-Zugang z
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" />
+	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" alt="Konfiguration der Lernerdaten und OpenOlat-Rollen im Tab Seiteninhalt des Kursbausteins LTI-Seite" />
 </details>
 
 **Vorname/Name übertragen:**<br> 
@@ -70,26 +70,22 @@ Geben Sie hier den optionalen Schwellenwert an, ab dem das LTI.Element als besta
 
 Eine OpenOlat-Gruppe wird für den LTI-Zugang genauso freigegeben wie ein Kurs. Die Freigabe erfolgt in der Gruppenverwaltung im Tab "Freigabe" im Abschnitt "LTI 1.3 Zugangskonfiguration" über die Schaltfläche "Neues Deployment hinzufügen".
 
-Im Deployment-Dialog werden dieselben Angaben erfasst wie bei der Kursfreigabe: die zuvor konfigurierte "Plattform", die "Deployment-ID" sowie die technischen Adressen ("Tool URL", "Anmelde-URL", "Umleitungs-URL") und der "Öffentliche Schlüssel". Der ausführliche Ablauf inklusive der Gegenkonfiguration im externen LMS ist unter [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti) beschrieben und gilt für Gruppen gleichermassen.
+Im Deployment-Dialog werden dieselben Angaben erfasst wie bei der Kursfreigabe: die zuvor konfigurierte "Plattform", die "Deployment-ID" sowie die technischen Adressen ("Tool URL", "Anmelde-URL", "Umleitungs-URL") und der "Öffentliche Schlüssel". Der ausführliche Ablauf inklusive der Gegenkonfiguration im externen LMS ist unter [LTI-Zugang zu einem Kurs konfigurieren](../learningresources/LTI_Share_courses.de.md) beschrieben und gilt für Gruppen gleichermassen.
 
-Der Austausch der Mitgliederdaten (Namen und Rollen) erfolgt über den LTI-Standarddienst "Names and Role Provisioning Service" (NRPS). Welche Mitgliederdaten übermittelt werden, bestimmt jeweils das System, das die Verbindung als Plattform bereitstellt. Die grundlegenden LTI-1.3-Einstellungen werden von den Administrator:innen unter `Administration > Externe Werkzeuge > LTI 1.3` verwaltet.
+Der Austausch der Mitgliederdaten (Namen und Rollen) erfolgt über den LTI-Standarddienst "Names and Role Provisioning Service" (NRPS). Welche Mitgliederdaten übermittelt werden, bestimmt jeweils das System, das die Verbindung als Plattform bereitstellt. Die grundlegenden LTI-1.3-Einstellungen werden von den Administrator:innen unter `Administration > Externe Werkzeuge > LTI` verwaltet.
 
 ## Gruppen ohne Kurszugehörigkeit
 
 Eine Gruppe kann unabhängig von einem Kurs per LTI freigegeben werden. Das ist sinnvoll, wenn nicht ein ganzer Kurs geteilt werden soll, sondern nur Daten zu Benutzer:innen und deren Gruppenzugehörigkeit ausgetauscht werden. So lassen sich beispielsweise ausschliesslich die Ergebnisse einer Prüfung übertragen, ohne den zugehörigen Kurs freizugeben.
 
-##  Weiterführende Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti)
+Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)<br>
+Benutzerhandbuch: [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
+Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+Administrationshandbuch: [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
+Administrationshandbuch: [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
+Administrationshandbuch: [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
+Administrationshandbuch: [LTI - Rollen-Mapping >](../../manual_admin/administration/LTI_Role_Mapping.de.md)
 
-Benutzerhandbuch: [Kursbaustein "LTI-Seite"](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
-
-Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
-
-Administrationshandbuch: [LTI - Externe Werkzeuge](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
-
-Administrationshandbuch: [LTI - Externe Plattformen](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
-
-Administrationshandbuch: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
-
-Administrationshandbuch: [LTI - Rollen-Mapping](../../manual_admin/administration/LTI_Role_Mapping.de.md)
+[Zum Seitenanfang ^](#LTI_access_to_a_group)

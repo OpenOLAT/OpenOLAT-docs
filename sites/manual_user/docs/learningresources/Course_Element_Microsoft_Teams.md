@@ -1,16 +1,18 @@
-# Course Element "Microsoft Teams"
+# Course Element "Microsoft Teams" {: #microsoft_teams}
 
 ## Profile
 
 Name | Microsoft Teams
 ---------|----------
 Icon | :o_icon_o_vc_icon:
-Available since | 
-Functional group | Communication und collaboration
+Available since | Release 15.4
+Functional group | Communication and collaboration
 Purpose | Integration of the Microsoft Teams web conferencing software 
 Assessable | no
 Specialty / Note | Microsoft Teams is commercial software. To use the course element, a separate license and server hosting is required.
 
+
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>){:target="_blank"}
 
 ## Software functions {: #software_functions}
 
@@ -23,7 +25,7 @@ MS Teams can be used both as an app and in the MS Edge browser.
 
 !!! tip "Recommendation"
 
-    For full use of all features – in particular **breakout rooms** – the MS Teams **desktop app** on Windows or macOS is recommended. Not all features are available in the web browser or on Linux, iOS, and Android.
+    For full use of all features: in particular **breakout rooms**: the MS Teams **desktop app** on Windows or macOS is recommended. Not all features are available in the web browser or on Linux, iOS, and Android.
 
 ## Roles in MS Teams {: #teams_roles}
 
@@ -31,13 +33,13 @@ There are three roles in an MS Teams meeting:
 
 | Role | Who | Rights |
 |------|-----|--------|
-| **Organizer** | Automatically the person who enters the meeting first – exactly one person per meeting | Create breakout rooms, meeting settings, full control |
+| **Organizer** | Automatically the person who enters the meeting first: exactly one person per meeting | Create breakout rooms, meeting settings, full control |
 | **Presenter** | All persons configured as moderators | Share screen, manage content |
 | **Attendee** | All other participants | Listen and watch |
 
 !!! warning "Note: First Joiner = Organizer"
 
-    The first person to enter a meeting automatically receives the **Organizer** role – regardless of the moderator setting in OpenOlat. This role cannot be changed or reassigned afterwards, neither in OpenOlat nor in Microsoft Teams.
+    The first person to enter a meeting automatically receives the **Organizer** role: regardless of the moderator setting in OpenOlat. This role cannot be changed or reassigned afterwards, neither in OpenOlat nor in Microsoft Teams.
 
     In **permanent rooms** with rotating coaches, only the person who started the meeting first has permanent access to advanced features such as breakout rooms. If a different person is to act as organizer, a new room must be created.
 
@@ -60,7 +62,7 @@ The variants differ only in the creation of the dates. Separate online appointme
 
   *  **Name**: Appointment name
   *  **Created by**: The name of the creator is displayed automatically.
-  *  **Description**: Appointment description. This information is displayed before the course participants enter the respective meeting room.
+  *  **Description**: Appointment description. This information is displayed before the participants enter the respective meeting room.
   *  **Main moderator**: Here, the name of a person can be entered.
   *  **Access external user**: Enter a code/word here
   *  **Show room bookings**: Calendar view for checking busy online meetings
@@ -76,7 +78,7 @@ The variants differ only in the creation of the dates. Separate online appointme
 | **Organisation** | All users of the Azure organisation automatically receive the Presenter role when joining |
 | **All** | All participants become Presenters |
 
-!!! info "Note"
+!!! info "Important"
 
     A room configuration cannot be changed once it has been created. To apply different moderator settings, a new room must be created.
 
@@ -87,7 +89,7 @@ The variants differ only in the creation of the dates. Separate online appointme
   *  **End**: Ending time of the meeting - the maximum duration of a meeting depends on the selected room template
   *  **Follow-up time (Min.)**: Follow-up time in which the meeting can be extended for all persons. A display with the remaining conference time appears.
 
-!!! info "Note"
+!!! info "Important"
 
     For daily or weekly recurring appointments, the start and end date must also be defined. Subsequently, all appointments for this period are displayed and individual appointments can still be deleted from the list or added.
 
@@ -99,7 +101,7 @@ Via the tab "**Online appointments**" you get access to a specific appointment o
 
 Breakout rooms can only be created and managed by the **Organizer** of a meeting (see [Roles in MS Teams](#teams_roles)).
 
-**Supported platforms:** Breakout rooms are only available in the Teams desktop app on Windows and macOS – not in the web browser and not on mobile devices.
+**Supported platforms:** Breakout rooms are only available in the Teams desktop app on Windows and macOS: not in the web browser and not on mobile devices.
 
 **Restrictions on participant assignment:** The following persons cannot be assigned to breakout rooms:
 
@@ -115,20 +117,22 @@ Breakout rooms can only be created and managed by the **Organizer** of a meeting
 
 In addition, the online appointments created in the course element will be automatically entered in the course-specific calendar and subscribed to by the participants. You can also quickly move from the calendar to the appointment-based room.
 
-!!! info "Note"
+!!! info "Important"
     Only appointments with a defined start and end date appear in the course calendar. Permanent reservations without a date are not displayed in the calendar.
+
+  :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
 ## Participant perspective {: #participant_perspective}
 
 If a course participant calls up an MS Teams course element, they will see an overview of the current, the expired and the permanent rooms, if available. A click on "**Select**" opens the detail view of the respective meeting.
 
-![course_element_teams_overview_v1_de.png](assets/course_element_teams_overview_v1_de.png)
+![Current and past online meetings with start, end and Select link per row, in the Microsoft Teams course element](assets/course_element_teams_overview_v1_de.png){ class="shadow lightbox" }
 
 Current sessions can be started by clicking on "**Join meeting**".
 
-![course_element_teams_join_v1_de.png](assets/course_element_teams_join_v1_de.png)
+![Join meeting button in the detail view of an online meeting in the Microsoft Teams course element](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" }
 
-!!! warning "Note"
+!!! warning "Attention"
 
     When meetings have expired, joining is no longer possible. Recordings are not available in OpenOlat; recordings made directly in Microsoft Teams are only accessible via Microsoft Teams.
 
@@ -137,3 +141,19 @@ Current sessions can be started by clicking on "**Join meeting**".
 For application-specific issues, Microsoft's official help is available:
 
 [Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
+
+**Further reading**<br>
+[Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
+[Course Element "Zoom" >](zoom/index.md)<br>
+[Events and Absences >](../basic_concepts/Events_and_Absences.md)
+
+**youtube**<br>
+[Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>)<br>
+[Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
+
+[To the top of the page ^](#microsoft_teams)

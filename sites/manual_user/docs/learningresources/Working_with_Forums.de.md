@@ -1,10 +1,10 @@
-# :o_icon_o_fo_icon: Arbeiten mit Foren
+# :o_icon_o_fo_icon: Arbeiten mit Foren {: #working_with_forums}
 
 ## Wofür kann ein Forum verwendet werden?
 
 Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-
 Kursen und auch in OpenOlat Gruppen. Foren können für den Austausch zwischen den
-Kursteilnehmenden, für organisatorische Absprachen oder die fachliche
+Teilnehmenden, für organisatorische Absprachen oder die fachliche
 Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden
 verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die
 strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
@@ -13,7 +13,7 @@ strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
 
 In einem Forumsthread stehen Ihnen folgende Optionen zur Verfügung:
 
-![](assets/Forum_Optionen.png){ class="shadow lightbox" }
+![Werkzeugleiste eines Forumsthreads mit den Optionen Diskussionsthema archivieren, Änderungen abonnieren und Ansicht wählen](assets/Forum_Optionen.png){ class="shadow lightbox" }
 
 Teilnehmer können in Foren ...
 
@@ -24,13 +24,13 @@ Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie
 Achten Sie darauf einen aussagekräftigen Titel zu verwenden und bei Reply-
 Postings angemessen zu verändern.
 
-![](assets/Diskussionsthema_eroeffnen.png){ class="shadow lightbox" }
+![Button "Diskussionsthema eröffnen" in der Übersicht der Diskussionsthemen](assets/Diskussionsthema_eroeffnen.png){ class="shadow lightbox" }
 
 Mit Hilfe des Foren-Editors können Sie Ihren Beitrag erstellen und formatieren
 und auch Dateien anhängen. Je nach Konfiguration durch den Kursbesitzer können
 Sie Ihren Beitrag eventuell auch unter einem Pseudonym veröffentlichen.
 
-![](assets/Posting.png){ class="shadow lightbox" }
+![Foren-Editor zum Erstellen eines Beitrags mit Titel, Formatierung, Dateianhang und optionalem Pseudonym](assets/Posting.png){ class="shadow lightbox" }
 
 ### Forumsbeiträge beantworten
 
@@ -41,7 +41,7 @@ soll bzw. Sie direkt auf einzelne Passagen des Beitrags eingehen wollen. Oder
 wählen Sie „Antwort ohne Zitat“, um den Anfangsbeitrag nicht nochmals
 aufzuführen.
 
-![](assets/Posting_beantworten.png){ class="shadow lightbox" }
+![Forumsbeitrag mit den Buttons "Antworten mit Zitat" und "Antworten ohne Zitat"](assets/Posting_beantworten.png){ class="shadow lightbox" }
 
 ### Forumsbeiträge markieren
 
@@ -51,7 +51,7 @@ eines Beitrags. In der Forumsübersicht sehen Sie wie viele Beiträge pro Thema
 markiert wurden. Auf diese Weise können einzelne Beiträge leichter
 wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
-![](assets/Posting_markieren.png){ class="shadow lightbox" }
+![Markiertes Forumsposting mit Fähnchen oben rechts](assets/Posting_markieren.png){ class="shadow lightbox" }
 
 ### Foren archivieren
 
@@ -65,9 +65,8 @@ eine ZIP-Datei verpackt und können gespeichert werden.
 Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
 Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen" auf
 "Ein". Dann erhalten Sie per E-Mail oder unter
-Abonnements im Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei ist es egal ob
-ein neuer Beitrag von einem registrierten OpenOlat Benutzer oder einem Gast
-eingestellt wurde.
+Abonnements im Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei spielt es keine Rolle, ob eine teilnehmende Person oder ein Gast den
+Beitrag erstellt hat.
 
 Eine Benachrichtigung erfolgt nur, wenn ein neuer Beitrag erstellt wurde,
 nicht aber wenn ein bestehender Beitrag geändert wurde!
@@ -79,7 +78,7 @@ Anhang angefügt und im Posting selbst nur kurz angerissen werden. Sie können
 Ihr Posting zu einem späteren Zeitpunkt auch wieder editieren oder löschen,
 sofern noch niemand auf Ihren Beitrag geantwortet hat.
 
-Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich
+Es ist möglich, dass Teilnehmende vom Lehrenden zusätzlich
 Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist,
 erfahren Sie im Kapitel „[Kommunikation und
 Kollaboration](../learningresources/Communication_and_Collaboration.de.md)“.
@@ -105,7 +104,7 @@ Hilfreich dabei ist es, dass sich einzelne Parts ein- und ausblenden lassen.
 Darüber hinaus erkennt man in dieser Darstellung auch rasch neue Forenbeiträge
 an dem Sternchen.
 
-![](assets/Forum_Aufbau-1.png){ class="shadow lightbox" }
+![Ansicht "einer" mit beschrifteter Diskussionsstruktur, Markierung, Anzeigeoptionen und neuem Beitrag](assets/Forum_Aufbau-1.png){ class="shadow lightbox" }
 
 Laden Sie im
 "[Profil](../personal_menu/Profile.de.md#profile_photo)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
@@ -125,8 +124,15 @@ eröffnen oder Beiträge zu beantworten wie im Forum.
 
 ### Datei hochladen
 
-Standardmässig können Kursteilnehmer keine Dateien hochladen. Diese Option kann
+Standardmässig können Teilnehmende keine Dateien hochladen. Diese Option kann
 aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese
 Möglichkeit verfügen, wählen Sie „Datei hochladen“, um eine eigene Datei
 hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten
 Vorname, Nachname bzw. Datum erkennbar.
+
+## Weiterführende Informationen {: #further_information}
+
+[Kommunikation und Kollaboration >](Communication_and_Collaboration.de.md)<br>
+[Profil >](../personal_menu/Profile.de.md)
+
+[Zum Seitenanfang ^](#working_with_forums)

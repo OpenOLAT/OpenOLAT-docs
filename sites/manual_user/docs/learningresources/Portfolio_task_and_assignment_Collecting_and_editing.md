@@ -1,119 +1,92 @@
-#  Portfolio task and assignment: Collecting and editing
+# Portfolio task: collecting and editing
 
-The following section describes how a learner can collect an available
-portfolio task (portfolio binder with assignments based on a portfolio template) in a course and edit it.
+The following section describes how learners can collect and edit a portfolio task provided in a course (a portfolio binder based on a portfolio template, with assignments).
 
 To do this, you first have to call up the course in which the portfolio task is located and select the corresponding course element.
 
-(Open the course where the portfolio task is located.)
+## Collect portfolio task
 
-## Collect portfolio task  
+Click the "Collect portfolio task" button.
 
+![Course element portfolio task with instructions and the "Collect portfolio task" button](assets/pf_course_collect_assigment_EN.png){ class="shadow lightbox" }
 
-![](assets/pf_course_collect_assigment_EN.png)  
+## Find portfolio task
 
-## Find Portfolio task 
+The portfolio task is now collected and saved in the ["Portfolio 2.0"](../personal_menu/Personal_Tools.md#portfolio) under "[My
+portfolio binders](../area_modules/My_portfolio_binders.md)".
 
-Select the course element portfolio task. Click the button "Collect portfolio task ".  
+The next time the portfolio task is accessed, it can be opened either via the link in the course or directly in the personal portfolio.
 
-Now, the portfolio task is collected and your portfolio is saved in "[My
-portfolio binders](../area_modules/My_portfolio_binders.md)".  
-  
-  
-(For the next access you can open the portfolio task directly in the portfolio.)
+In the personal portfolio, all portfolio tasks collected from a course are marked with a red stripe on the left edge and contain a reference to the associated course.
 
-The next time the portfolio task is accessed, it can be opened either via the link in the course or directly in the personal portfolio.   
- 
-Folders picked up from courses are marked with a red left border and contain
-the reference to the associated course.
-  
-## Edit portfolio task  
+## Edit portfolio task
 
-Open portfolio. Depending on how the instructor has pre-structured the portfolio assignment, different areas of portfolio assignments are available. 
+Open the binder of the portfolio task. Depending on how the instructor has pre-structured the portfolio task, different sections with portfolio tasks are available to you.
 
-Click on a folder area in either the "Overview" or "Entries" tab and "Select a task for editing". Subsequently, the associated task and the editing editor are visible.
-(Open in "My portfolio binders" the corresponding portfolio template.)
-  
-Now the tasks can be edited and suitable artefacts can be added within the portfolio editor and suitable content (text, images, videos, etc.) and artifacts can be added via the Portfolio editor. 
- 
- If the portfolio task contains forms, these can also be completed. 
+Click on a section in either the "Overview" or "Entries" tab and "Select a task for editing". The associated assignment and the editing editor are then visible.
 
-If the configuration of the Portfolio 2.0 template allows, a user can add new
-entries or delete the collected binder.
+You can now edit the tasks with the Portfolio Editor and add suitable content (texts, images, videos, etc.) and artifacts via the Portfolio
+Editor.
 
+![Entry in the Portfolio Editor with the assignment and the open "Add content" menu with the content element options](assets/Portfolioaufgabe_bearbeiten.jpg){ class="shadow lightbox" }
 
-  
-## Bearbeitungsstatus 
-The processing status of a portfolio task is indicated by the color and symbol marking. The details are explained in the lower legend in the portfolio. For example, a red lightning bolt in the "Overview" tab symbolizes that a task has not yet been selected, or a green check mark that the task has already been published. 
+If the portfolio task contains forms, these can also be filled in. If configured in the settings of the portfolio template, users may also add new entries or delete the entire collected binder.
 
-(With the coloured marks the status of the different portfolio tasks is visible
-at a glance, for example:
+## Processing status
 
-  * The red lightning under "Overview" shows that a task has not been collected yet.
-  * The yellow spot indicates that the task is in edit mode and has not been published yet.
-  * Tasks with a blue spot are already published. )
+The processing status of a portfolio task can be identified by its color and symbol. The details are explained in the legend at the bottom of the binder. For example, a red lightning bolt in the "Overview" tab symbolizes that a task has not yet been selected, or a green check mark that the task has already been published.
 
-Under "Entries" all assigned tasks which have not been collected yet are
-available in a dropdown list. Collected tasks will be shown under the
-portfolio section title.
+In the "Entries" tab, all not yet selected tasks of the respective section are grouped in a drop-down menu, while collected tasks appear below the drop-down menu.
 
 ## Publish portfolio {: #publish}
-  
-During editing the status of the entry/assignment is "Draft".
-  
-![](assets/pf_entry_publish_EN.png)  
-  
- 
-As soon as the entry/assignment is done, "Publish entry" can be selected. This makes the editing visible to other people who have access to the portfolio, and feedback or comments are possible.   
- 
-!!! info "Info"
 
-    As soon as the entry of a portfolio template is published, it cannot be
-    modified by the user anymore, but commented. So learners should be aware to
-    only publish entries and tasks when finished.
+While editing, the status of the entry is "Draft".
 
-## Share portfolio 
-  
-To allow another user or teacher to comment on or grade an portfolio assignment, it must be shared.
-Portfolio binders can be shared with other OpenOlat users (teachers, learners)
-and external persons.
+![Entry with status "Draft" and the "Publish entry" button](assets/pf_entry_publish_EN.png){ class="shadow lightbox" }
 
-!!! info "Info"
-    
-    Also binders from courses are not visible by default for the course owner.
+As soon as the entry or the task is complete, select "Publish entry". This makes the work visible to other people who have access to the portfolio, and feedback or comments become possible.
 
-**Gehen Sie für die Freigabe wie folgt vor:**
+!!! info "Note"
 
-a) Open the tab "Access control".
+    Once an entry is published, it can no longer be changed, only commented on. Learners should therefore make sure to publish an entry or an edited task only when it is completely finished!
 
-b) Select the link "Add access rights" on the top right.
+## Share portfolio
 
-![](assets/portfolio_access_control.png)  
-  
-c) Select the desired option, e.g. "Select course owner", to add the corresponding group of people or individual. For sharing with external persons, even without an OpenOlat account, select "Add invitation". Invitations will then be sent by
-e-mail will be sent. 
-  
-d) Chose the sections and entries for which you want to give access control for
-grading and commenting. External persons only can comment, but not grade.
+For a task to be assessed or commented on by other people, the owner of the binder must first share it with the relevant person(s).
 
-![](assets/pf_access_control_rights_EN.png)
+You can share portfolio binders with other OpenOlat users (teachers, learners) as well as with external persons.
 
+!!! info "Note"
 
-You can send an email with a portfolio binder link as well.  
-  
-e) Finally save the configuration (for external persons) or finish the dialog
-(for OpenOlat user).  
-  
-!!! info  "Info"
+    Binders from courses are also not automatically visible to course owners or course coaches.
 
-    When starting to edit a portfolio, users should add the corresponding coaches
-    to the access control already. If entries will be published, they will be
-    visible for the coach directly.
-    However, editing the solution is then no longer possible.
+**Proceed as follows to share:**
 
-  
+a) Open the "Sharing" tab.
 
-  
+b) Click the link "Add access rights" at the top right.
 
-  
+c) Select the desired option, e.g. "Select course coach", to add the corresponding group of people or an individual. To share with external persons, even without an OpenOlat account, select "Add invitation". Invitations are then sent by
+e-mail.
 
+d) In the dialog that appears, define which sections you want to provide to the selected person(s) and whether they may assess and/or comment. External persons can only comment, but
+not assess.
+
+An e-mail notification with a link to the corresponding binder
+can also be sent.
+
+e) Finally, select save (for external persons) or finish (for OpenOlat users)
+to complete the action.
+
+!!! info "Note"
+
+    If the owner sets up sharing with the course coaches already at the start of their work, the coaches can already see the development of the portfolio
+    and follow the ongoing process, provided the owner publishes individual intermediate steps. Editing the solution is then no longer possible.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[My portfolio binders >](../area_modules/My_portfolio_binders.md)
+
+[To the top of the page ^](#portfolio-task-collecting-and-editing)

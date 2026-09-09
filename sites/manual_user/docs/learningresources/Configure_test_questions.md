@@ -2,17 +2,17 @@
 
 With each [question type](Test_question_types.md) you have the following tabs available: Choice/[name of the question type], Score, Feedback, Preview, Preview Solution and Metadata. In the following, the individual tabs for setting up a test question are explained in more detail.
 
-![Question items tabs](assets/question_editor_tabs.png){ class="shadow" }
+![Tab bar of a test question with Choice, Score, Feedback, Preview, Preview solution and Metadata, in the test question editor](assets/question_editor_tabs.png){ class="shadow lightbox" }
 
 ## Tab Choice
 
-In the first tab called "Choice" or the respective question type name, the actual question and the alternative answers are entered. Depending on the question type, more setup options are available. For example, you may define whether the answers will be displayed randomly. Furthermore, you can change formatting and other settings. For the question types Single and Multiple Choice, as well as KPrim, the tabs question type and Feedback contain three formatting options:
+In the first tab called "Choice" or the respective question type name, the actual question and the alternative answers are entered. Depending on the question type, more setup options are available. For example, you may define whether the answers will be displayed randomly. Furthermore, you can change formatting and other settings. For the question types Single and Multiple Choice, as well as Kprim, the tabs question type and Feedback contain three formatting options:
 
-![Three formats for text](assets/three_formats.jpg){ class="shadow" }
+![Three formatting options for answer text: One line, Multi-line, Formatted](assets/three_formats.jpg){ class="shadow lightbox" }
 
 By default "One line" is chosen, which is for answers using only one line and no further formatting is necessary. Use the option "Multi-line" if answers consist of two or more lines and no further formatting is necessary. Use "Formatted" if the answer consists of images, videos, links, mathematic formulas or any other formatting which can be created in the html editor of OpenOlat.
 
-![Editor to format text](assets/formatted.jpg){ class="shadow lightbox" }
+![HTML editor with formatting toolbar for answer text in Formatted mode](assets/formatted.jpg){ class="shadow lightbox" }
 
 ## Tab Score {: #score} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
@@ -24,7 +24,7 @@ The following settings are possible:
 
     * **Yes**: Specify here how often the user may edit and save this question. The corresponding maximum number will then also be displayed during test editing. For example, if the number 1 is entered, the user can only edit and save the question once. Changes are then no longer possible. This is especially important if you are working with answer-specific feedback but do not want the user to be able to revise his answer based on this feedback during test editing.
     * **No**: The number of attempts is unlimited. In this case, the user can save and correct his answers as many times as he wants. However, you can still limit attempts to work on a specific section or the whole test.
-    * **Inherit:** The number of attempts is taken form the level above.
+    * **Inherit:** The number of attempts is taken from the level above.
 
 * **Min. score:** For the question types single choice, multiple choice, hotspot, matrix and drag&drop, where it is possible to get a negative value, the minimum reachable score can be defined. Also for a negative total score the result can be set to 0 to avoid a negative score or a negative score can be tolerated. For all question types the default is set to 0.
 
@@ -33,7 +33,7 @@ The following settings are possible:
 * **Method of assessment:** For most question types, the type of scoring can also be defined.  
 
     * If **"All correct answers"** is chosen, the score can only be reached when all answers are correct.
-    * If **"Score per answer"** is chosen, you can datermine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
+    * If **"Score per answer"** is chosen, you can determine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
     * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text, numerical and mixed), gap with dropdown. In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. [:octicons-tag-16:{ title="from Release 18.1 (OO-7231)" }](https://track.frentix.com/issue/OO-7231)
     * For the question types Gap text, Gap FIB numerical and Gap mixed, different **"Score per answer and alternatives"** can also be assigned, e.g. a reduced score for alternative spellings of a solution.
     * The method of assessment cannot be chosen for Kprim, upload file, drawing or essay.
@@ -53,22 +53,22 @@ You can add different types of feedback to each question. e.g. hints to help wit
 
 You can add and even combine the following types of feedback:
 
-* **Hint:** The solution hint appears in the form of a question mark under the question. The user can click on the question mark and then receives the solution hint. This variant is suitable, for example, to provide additional links or texts, but not necessarily to provide the correct solution.  
+* **Hint:** The solution hint appears in the form of a question mark under the question. The user can click on the question mark and then receives the solution hint. This variant is suitable, for example, to provide additional links or texts, but not necessarily to provide the correct solution.
 * **Correct solution:** The solution is shown automatically, if the answer is wrong.
 
-!!! info "Special Cases: Essay, File Upload, Drawing"
+!!! info "Special Cases: Essay, Upload file, Drawing"
     The solution will not be shown during the test. But this feedback option can be used to provide the sample solution, which is shown in the correction workflow (assessment tool) and in the results report.
 * **Feedback for all correct answers:** The feedback appears only if all answers are correct. You could for example add a praise for the correct answer.
-* **Feedback for wrong answer:** This feedback appears as soon as one answer is wrong. Example: In the case of a multiple choice or KPRIM question or an extensive gap text of 50 gaps, feedback is displayed as soon as at least one answer is incorrect. The feedback types allows you to signal the learner that he/she is on the right track, although not all answers have been answered correctly yet.
+* **Feedback for wrong answer:** This feedback appears as soon as one answer is wrong. Example: In the case of a multiple choice or Kprim question or an extensive gap text of 50 gaps, feedback is displayed as soon as at least one answer is incorrect. This feedback type allows you to signal the learner that he/she is on the right track, although not all answers have been answered correctly yet.
 * **Conditional feedback:** This feedback variant offers a lot of potential for more individualized feedback. Depending on the question type you may define feedback which is dependent on the _score_, the _number of attempts_, or the _answer_ provided by the learner. Conditional feedback allows you to individualise feedback. The learner can be provided with a specific feedback to a specific answer. You can thus address common errors, for example. Depending on the criteria additional options may be available: such as equal to (=), not equal to (≠), or smaller/greater than (<, >). You can even combine criteria of conditional feedback.
 
-  ![Conditional feedback](assets/Bedingte_Feedbacks.png){ class="shadow lightbox" }
+  ![Three conditional feedbacks in the Feedback tab: by score reached, by number of attempts, and by chosen answer](assets/Bedingte_Feedbacks.png){ class="shadow lightbox" }
 
 Feedback typically requires a title and a feedback text. The title is optional, whereas the feedback text is mandatory if feedback shall be displayed. If the feedback text is missing, the feedback will not be shown, and the entry will be deleted, respectively. If no feedback is available, the learner is guided to the next question when clicking on "Submit answer".
 
 For tests already in use, the stored feedback on the questions can still be edited, but it is not possible to add new feedback.
 
-"Feedback for all correct answers" is not effective in a Multiple Choice question where no wrong, but not all correct answers are chosen.
+The option "Feedback for wrong answer" does not take effect if, in a Multiple Choice question, no wrong answer is chosen but not all correct answers are chosen either.
 
 At the test level, you can set the overall feedback of a test in the Test Editor in the "Feedback" tab. Under `Administration > Settings > Options`, the feedbacks for a test can generally be switched on or off.
 
@@ -76,13 +76,13 @@ At the test level, you can set the overall feedback of a test in the Test Editor
     Configuration options at test level in the test editor.<br>
     [Test level](Configure_tests.md)
 
-## Preview
+## Tab Preview
 
 In the preview all questions are visible like the test participant will see them afterward. Here you can try if all configurations are correct (e.g. feedback).
 
-## Preview solution
+## Tab Preview solution
 
-In the Preview solution the Model solution is shown. That is the correct solution which will also be shown in the result reporting. Especially for gap-text questions this preview can be helpful als the whole text with the solutions of every gap will be shown and can be read as fluent text. The solution is inserted in the gap. Alternative answers are additionally listed next to the gap, unless they are scored with 0 or negative points. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
+In the Preview solution, the model solution is shown. That is the correct solution which will also be shown in the result reporting. Especially for gap-text questions this preview can be helpful, as the whole text with the solutions of every gap will be shown and can be read as fluent text. The solution is inserted in the gap. Alternative answers are additionally listed next to the gap, unless they are scored with 0 or negative points. [:octicons-tag-16:{ title="from Release 21.0 (OO-9385)" }](https://track.frentix.com/issue/OO-9385)
 
 ## Tab Metadata
 

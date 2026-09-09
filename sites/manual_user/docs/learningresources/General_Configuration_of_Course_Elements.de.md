@@ -11,7 +11,7 @@ In der linken Navigation ganz oben wird die  Konfigurationsübersicht des Kurses
 
 Um Anpassungen vorzunehmen klicken Sie auf den gewünschten Kursbaustein um direkt zum Kursbaustein zu gelangen. Alternativ können Sie auch mehrere Kursbausteine auswählen. Dann erscheint der Button "Konfiguration ändern" und sie können bestimmte Änderungen für alle gewählten Kursbausteine übernehmen. Die konkreten Möglichkeiten sind abhängig vom Kursbaustein und vom Kurstyp.
 
-![Kurskonfiguration - Konfiguration ändern](assets/Kurseditor_Konfiguration_aendern.png)
+![Checkboxen für Anzeige, Bewertungsausschluss sowie Lernpfad-Felder mehrerer markierter Kursbausteine im Dialog Konfiguration ändern](assets/Kurseditor_Konfiguration_aendern.png){ class="shadow lightbox" }
 
 !!! tip "Tipp" 
 
@@ -86,7 +86,7 @@ Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen
 Kursbausteins sowie Information, die Sie benötigen, wenn Sie einen Link zu
 diesem Kursbaustein setzen möchten.
 
-![Link auf Kursbaustein setzen](assets/KB_Link_setzen.png)
+![Externer und kursinterner Link zum Verweisen auf diesen Kursbaustein, im Bereich Link auf diesen Kursbaustein setzen](assets/KB_Link_setzen.png){ class="shadow lightbox" }
 
  **Externer Link:** Um von einem anderen OpenOlat-Kurs oder ausserhalb von
 OpenOlat auf diesen Kursbaustein zu verlinken, nutzen Sie einfach den externen
@@ -101,7 +101,7 @@ Die **ID-Nummer** links oben im Feld brauchen Sie, um in den Vorbedingungen
 (z.B. Sichtbarkeit) eines anderen Kursbausteins auf diesen zu verweisen. Jeder
 Kursbaustein hat eine eigene ID-Nummer.
 
-![Kursbaustein ID](assets/Baustein_ID.png)
+![Id-Nummer des Kursbausteins hervorgehoben, im Tab Titel und Beschreibung](assets/Baustein_ID.png){ class="shadow lightbox" }
 
 ### Tab Layout
 
@@ -122,7 +122,7 @@ anzeigen lassen und erkennt wie sich die Überschriften des konfigurierten
 Kursbausteins im Kurs darstellen werden und wie die Übersicht-Struktur des
 Kursbausteins aussehen wird.
 
-![Kursbaustein Tab Layout](assets/Tab_Layoutd.png)
+![Anzeige-, Hintergrundbild- und Farbeinstellungen mit Live-Vorschau des Kursbaustein-Headers, im Tab Layout](assets/Tab_Layoutd.png){ class="shadow lightbox" }
 
 ### Tab "Sichtbarkeit" und "Zugang" der herkömmlichen Kurse  {: #access}
 
@@ -150,7 +150,7 @@ Folgende Einstellungen bzw. Einschränkungen sind in beiden Tabs möglich:
 * Bewertungsabhängig
 * Nur im Prüfungsmodus
 
-**Für Lernende gesperrt** Alle Personen die ausschließlich als Kurs- oder
+**Für Lernende gesperrt** Alle Personen die ausschliesslich als Kurs- oder
 Gruppenteilnehmer eingetragen sind, haben keinen Zugriff auf diesen Baustein.
 Dies kann beispielsweise genutzt werden, wenn bestimmte Bereiche (zunächst)
 nur für die Lehrenden sichtbar sein sollen.
@@ -226,3 +226,11 @@ verwenden.
 
 Informationen zum Tab "Lernpfad" von Lernpfad Kursen finden Sie
 [hier](../learningresources/Learning_path_course_Course_editor.de.md).
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Kurseditorwerkzeuge >](Using_additional_Course_Editor_Tools.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course.de.md)
+
+[Zum Seitenanfang ^](#kursbausteine-im-kurseditor)

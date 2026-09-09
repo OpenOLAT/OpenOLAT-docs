@@ -1,51 +1,58 @@
 # Using Additional Course Features
 
-You can configure the following additional functions under:<br>
+Course owners can additionally activate certain toolbar tools under:<br>
 `Course > Administration > Settings`
 
-![](assets/Toolbar1.png){ class="shadow lightbox" }
+![Selection of the activatable tools in the Toolbar tab of the course settings](assets/Toolbar1.png){ class="shadow lightbox" }
 
-![](assets/toolbar_b.png){ class="shadow lightbox" }
+Activated tools are then displayed directly in the toolbar, independent of the course structure.
+
+![Activated tools in the course toolbar](assets/toolbar_b.png){ class="shadow lightbox" }
 
 ## Course Search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
-In addition to a [full text search](../basic_concepts/Full_Text_Search.md) for the total of OpenOlat you can activate a search within a course. You can search for the following elements:
+In addition to the full text search for all of OpenOlat, a course search can be activated per course. This search finds the following elements:
 
-* Title, short title, description of all course elements
-* Content of html pages
+* Title, short title and description of all course elements
+* Content of HTML pages
 * Documents in folders
 * Title and content of forum entries
 * Title and content of notifications
 * Wiki entries
 
+:octicons-device-camera-video-24: **Video introduction (German)**: [Search function](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank"}
+
 ## Course Calendar
 
-One calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a [course element](../learningresources/Course_Elements.md) or at a central position at the top of the course toolbar and thus provide a good
-overview.
+When you open the calendar, it opens in a new window. Only one calendar can be activated per course. Even if you add further calendars via the course element Calendar, it is still the same calendar.
 
-New dates are simply created by clicking on the desired date. Afterwards, the title, description, start and end as well as a location, possible repetitions and visibility can be set. The date then appears in the calendar or in all instances of the course calendar and can be edited by clicking on the date and the "Edit" option.
+New appointments can be created simply by clicking on the desired date. You can then set the title, description, start and end, location, repetitions and visibility. The appointment then appears in the calendar, or in all instances of the course calendar.
 
-With the "Edit" option you also get access to further calendar tabs and can set links to course elements or external websites used in the course. If you would like to delete all dates of a course calendar, simply click on the gear symbol in the calendar area and select "Reset calendar".
+You can adjust appointments by clicking on the appointment and selecting the "Edit" option. Here you can also set links to course elements or external websites, or delete the appointment.
 
-Course calendars are also automatically transferred to the [personal calendars](../personal_menu/Calendar.md) of course members. Thus all dates can be called up also directly over the personal OpenOlat calendar. The same applies to group calendars. In the case of group calendars, it is possible to set in the group administration which write/read rights the members receive.
+If you want to delete all appointments of a course calendar, you can do this via the gear icon in the calendar area with the option "Reset calendar".
 
-By default, only owners of a course have write access to the calendar. Course participants only have read rights, so they cannot write new appointments or edit existing ones. However, if you insert the calendar as a course element, you can configure the permissions.
+![Option "Reset calendar" in the calendar list menu](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
+
+By default, only course owners can create appointments in the calendar. Participants only have read rights and can neither create new appointments nor edit existing ones. If participants should be able to create appointments themselves, a course element "Calendar" can be added instead of the toolbar calendar and configured accordingly.
+
+Course calendars are automatically transferred to the [personal calendar](../personal_menu/Calendar.md) of course members. Thus all dates can also be called up directly via the personal OpenOlat calendar. The same applies to group calendars. For group calendars, the group administration can be used to set which write or read rights the members receive.
 
 ## Participant list
 
-Here all course owners, coaches and participants of a course can be displayed centrally. Course participants can send e-mails to specific persons, even to individual course members. In contrast to the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md) no further configurations can be made here.
+Here all course owners, coaches and participants of a course can be displayed centrally. Participants can send e-mails to specific persons, even to individual course members, via the participant list. In contrast to the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md), no further configurations can be made here.
 
-## Participant infos
+## Notifications
 
-This tool corresponds to the [course element "Notifications"](../learningresources/Course_Element_Notifications.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
+This tool corresponds to the [course element "Notifications"](../learningresources/Course_Element_Notifications.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element, no further configurations can be made here.
 
 ## E-Mail
 
-Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner", "coach", and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Course_Element_EMail.md) or the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md).
+Here course owners can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owners", "coaches" and "participants". A further differentiation is not possible. If you need more differentiated settings for sending mails to course members, you should use the [course element "E-Mail"](../learningresources/Course_Element_EMail.md) or the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md).
 
 ## Teams Online-Meeting
 
-Similar to the Microsoft Teams course element, rooms for synchronous meetings can be created here.
+Similar to the [Microsoft Teams course element](../learningresources/Course_Element_Microsoft_Teams.md), rooms for synchronous meetings with Teams can be created here.
 
 ## BigBlueButton online meetings
 
@@ -61,52 +68,91 @@ Here you can create or import a [Wiki (learning resource)](../learningresources/
 
 ## Forum
 
-A central forum can be activated for a course. Course members can subscribe to the forum as usual. However, differentiated settings as in the [course element "Forum"](../learningresources/Course_Element_Forum.md) are not possible here.
+Similar to the [course element Forum](../learningresources/Course_Element_Forum.md), a forum can be activated here. Course members can subscribe to the forum as usual. However, differentiated settings as in the course element "Forum" are not possible here.
+
+!!! tip "Tip"
+
+    Use the forum in the toolbar if asynchronous discussion is not a priority in your course and *one* forum for the entire course is sufficient for you.
+
+    However, if your course involves increased asynchronous discussion and many posts, you should use several course elements Forum instead.
 
 ## Documents
 
-The teacher can use this link to provide important central documents of the course for download. Students can download the documents, be notified when new documents are available (subscribe) and, if required, send the files by e-mail. However, configuration options are not as extensive as in the [course element "Folder"](../learningresources/Course_Element_Folder.md).
+Course owners and coaches can use this link to provide central documents for download. Learners can download the files, subscribe to notifications about new documents and, if required, send the files by e-mail. However, the configuration options are not as extensive as in the [course element "Folder"](../learningresources/Course_Element_Folder.md).
 
 ## Course chat
 
-A simple chat room is available as standard in every course. It is suitable for short, synchronous exchanges. Here course members can make live contact with other learners and lecturers, provided they are logged in at the same time.
+The simple chat is suitable for short, synchronous exchanges. Course members can communicate live with other participants and lecturers here, as long as everyone is logged in at the same time.
 
-If the chat is enabled, course visitors will see the link to the course chat in the middle of the course toolbar. When calling up the chat, each course member can decide whether to act under his own name or anonymously in the chat. The default setting is "anonymous".
+When opening the chat, each course member can choose whether to participate under their own name or anonymously (default: anonymous). The size of the chat window can be adjusted flexibly. Chat histories are available for up to one month; the desired period can be selected above the text field.
 
-The history of a course chat is accessible for up to one month. Above the text field, select the desired period. The Chat will be adapted when using a mobile device. Tip: Partially the portrait format is more useful than the landscape format.
-
-!!! tip "Hint"
-
-    If you want to use the chat more intensively, you should drag the chat window to a pleasant size.
+**Tip** for mobile use: In some cases, using portrait mode is more useful than landscape mode.
 
 ## Glossary {: #glossary}
 
-A glossary explains the terms of a course, subject or event to the participants. Glossaries are OpenOlat learning resources that can be used separately or integrated into a course.
+In a glossary, the terms of a course, a subject or an event can be explained. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.
 
-The glossaries can be created as learning resources in the author area or directly in the course under:<br>
-`Course > Administration > Settings > Options`
+If teachers activate the glossary in the "Toolbar" tab of the course settings, a specific glossary still needs to be selected or created in the next step. To do this, switch to the "Options" tab. Here you can select an existing learning resource Glossary or create a new learning resource Glossary.
 
-Once a glossary has been integrated into a course, the link to the glossary will appear in the course toolbar. In order to make that glossary visible in the toolbar you have to activate the corresponding tool "Glossary" in the tab "Toolbar".
+Once a glossary is defined, the glossary link appears in the toolbar, and users can open the entire glossary in a new window or display glossary terms in learning content, e.g. in the course element HTML page, Page, or forum postings.
 
-Enter the desired technical term under "Term". You can also add synonyms. For example, the term "Information Technology" can be supplemented with the synonym "IT". In the tab "Definition" you can then add the concrete definition of the term. Terms that have been entered can also be changed or deleted afterwards.
+As a course owner, once you have opened the glossary via the corresponding link, you can add entries, regardless of whether you are also the owner of the glossary learning resource.
 
-If you no longer use the glossary or want to integrate another glossary, you can make the desired changes under:<br>
-`Course > Administration > Settings > Options`
+Enter the term you want to define as well as any synonyms. Switch to the "Definition" tab and add the definition of the term. Save the entries and you are done.
 
-In the learning resource "Glossary" you can define in the tab "Write permission" if only owners of that learning resource are allowed to create and edit contributions or if users are granted that right as well. Owners of the learning resource "Glossary" can basically change and delete all glossary entries created. By default new glossary entries can only be made by course owners.
+![Entering a term and synonyms when creating a glossary entry](assets/glossary_add.png){ class="shadow lightbox" }
 
-![](assets/glossary_add.png){ class="shadow lightbox" }
-
-![](assets/glossary_permission.png){ class="shadow lightbox" }
-
-If you only want to give certain people, e.g. the participants of a course, the right to write a glossary, you take a different approach. For this purpose, the "[Members management](Members_management.md)" of a course is used. Create a new group there and add the desired persons as participants to that group. Then go to "Rights" in the course's "Members management" and check the box "Glossary tool" for course participants of that group. Now persons in that group can add and modify glossary entries.
+All entries can of course also be changed or deleted later.
 
 !!! info "Note"
 
-    Per course only one glossary is allowed.
+    Please note: only *one* glossary can be integrated per course.
+
+If you no longer use the glossary or want to integrate another glossary, make the desired change under:<br>
+`Course > Administration > Settings > Options`
 
 !!! warning "Attention"
 
-    The owners of a course are not automatically also owners of the learning resource.  If someone else has created a learning resource "Glossary" he/she will not automatically become owner of the course in which that resource has been integrated. In order to enable other course owners to make modifications you have to set up one of the described permissions or you have to enter the desired course owners as owners of the learning resource "Glossary".
+    The owners of a course are not automatically also owners of the glossary learning resource. Course owners only have access to the learning resource for as long as it is integrated into the course. If the glossary is removed, only persons who are also owners of the glossary can add it back to the course.
 
-Furthermore, the links to the "[course info](../learningresources/Info_page.md)" and to the "Lectures" appear in the course toolbar.  
+Whether participants can also add and edit glossary entries depends on the settings in the learning resource Glossary. By default, only course owners can make entries in the glossary.
+
+### How to configure a glossary with additional write permissions
+
+There are two ways to do this:
+
+**Define write permissions in the learning resource Glossary**
+
+Switch to the author area and open the desired learning resource "Glossary". Here, in the "Write permission" tab, you can define whether only the owners of the learning resource may create and edit entries, or whether users are also granted this right.
+
+![Activating write permission for all users in the Write permission tab of the learning resource Glossary](assets/glossary_permission.png){ class="shadow lightbox" }
+
+**Define write permissions for specific persons of the course**
+
+If, on the other hand, you want to grant the write permission for a glossary integrated into a course only to specific persons, e.g. the participants *of one course*, you take a different approach.
+
+Go to the course in which the glossary is integrated and switch to the "[Members management](Members_management.md)". Create a new group there and name it clearly, e.g. "Rights group Glossary". Once the group has been created, you are automatically taken to the group and can add the desired persons who should receive write permissions as participants of the group via the group administration in the "Members" tab.
+
+Switch back to the "Members management" of the course and select the "Rights" area there. There you can activate the glossary tool for the participants of the rights group Glossary.
+
+Now the persons in the group can add and change glossary entries.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
+[Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
+[Course Element "E-Mail" >](../learningresources/Course_Element_EMail.md)<br>
+[Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
+[Blog: Overview >](../learningresources/Blog.md)<br>
+[Creating Wikis >](../learningresources/Wiki.md)<br>
+[Course Element "Forum" >](../learningresources/Course_Element_Forum.md)<br>
+[Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
+[Members management >](Members_management.md)
+
+**youtube**<br>
+[Search function](<https://www.youtube.com/embed/GlUCyVl11ic>)
+
+[To the top of the page ^](#using-additional-course-features)

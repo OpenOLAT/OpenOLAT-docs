@@ -3,7 +3,7 @@
 Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast
 hinzugefügt und eine erste Episode erstellt.
 
-##  Voraussetzungen
+## Voraussetzungen
 
 Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer
 dafür vorgesehenen Aufnahmesoftware (z.B.
@@ -14,45 +14,39 @@ AAC und achten Sie auf die angegebene Maximalgrösse.
 Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs erstellen"](../learningresources/Creating_Course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe
 der folgenden Anleitung Ihren Podcast erstellen.
 
-##  Podcast erstellen
+## Podcast erstellen
 
-  
-
-### Schritt 1: Kurseditor öffnen und Podcast-Kursbaustein einfügen  
----  
+### Schritt 1: Kurseditor öffnen und Podcast-Kursbaustein einfügen<br>
+---<br>
 1. Im Autorenbereich unter „Meine Kurse“ oder "Favoriten" Kurs suchen und
 öffnen.
 
-![Autorenbereich.png](assets/Autorenbereich3.png)  
-  
-  
-2. Oben im Dropdown-Menü „Administration“ auf „Kurseditor“ klicken.  
-3. Kurselement, unter dem der Podcast-Kursbaustein eingefügt werden soll,
-durch Klicken auswählen.  
-4. Oben im Pop-Up „Kursbausteine einfügen“ „Podcast“ wählen.  
-5. Im Tab „Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und
-speichern.  
-  
-### Schritt 2: Podcast erstellen  
----  
-1. Im Tab „Podcast-Lerninhalt“ auf „Podcast wählen, erstellen oder
-importieren“ klicken.|
+![Kurs im Autorenbereich unter "Meine Kurse" suchen](assets/Autorenbereich3.png){ class="shadow lightbox" }
 
-![podcast_erstellen.png](assets/Podcast_erstellen1.png)  
-  
-  
-2. „Erstellen“ klicken.  
+2. Oben im Dropdown-Menü „Administration“ auf „Kurseditor“ klicken.<br>
+3. Kurselement, unter dem der Podcast-Kursbaustein eingefügt werden soll,
+durch Klicken auswählen.<br>
+4. Oben im Pop-Up „Kursbausteine einfügen“ „Podcast“ wählen.<br>
+5. Im Tab „Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und
+speichern.
+
+### Schritt 2: Podcast erstellen<br>
+---<br>
+1. Im Tab „Podcast-Lerninhalt“ auf „Podcast wählen, erstellen oder
+importieren“ klicken.
+
+![Podcast im Tab "Podcast-Lerninhalt" wählen, erstellen oder importieren](assets/Podcast_erstellen1.png){ class="shadow lightbox" }
+
+2. „Erstellen“ klicken.<br>
 3. Titel des Podcasts eingeben. Diese Information wird im Header des Podcasts
-angezeigt. Auf "Erstellen" klicken.  
-  
-### Schritt 3: Podcast mit Inhalt füllen  
----  
+angezeigt. Auf "Erstellen" klicken.
+
+### Schritt 3: Podcast mit Inhalt füllen<br>
+---<br>
 1. Im Kurseditor im Tab "Podcast Lerninhalt" auf „Editieren“ klicken.
 
-![opencast.png](assets/openpodcast.gif)  
-  
-  
-  
+![Button "Editieren" im Tab "Podcast-Lerninhalt" anklicken](assets/openpodcast.gif){ class="shadow lightbox" }
+
 2. „Episoden selbst erstellen“ wählen.
 
 !!! info ""
@@ -60,12 +54,11 @@ angezeigt. Auf "Erstellen" klicken.
     Falls Sie schon über einen externen Podcast verfügen können Sie diesen ebenfalls einbinden.
 
 
-![podcast_einbinden.png](assets/13_podcast_einbinden.png)  
-  
-  
+![Podcast-Kursbaustein ohne Episoden mit den Optionen "Episoden selbst erstellen" und "Einen bestehenden externen Podcast einbinden"](assets/13_podcast_einbinden.png){ class="shadow lightbox" }
+
 3. Titel eingeben, Audio- oder Videodatei von Ihrem Rechner wählen und auf
-„Veröffentlichen“ klicken. Bei Bedarf noch eine Beschreibung ergänzen.  
-  
+„Veröffentlichen“ klicken. Bei Bedarf noch eine Beschreibung ergänzen.
+
 !!! info ""
 
     Weitere Episoden können später mit demselben Vorgehen oder direkt in der Kursansicht hinzugefügt werden.
@@ -74,9 +67,9 @@ angezeigt. Auf "Erstellen" klicken.
 
     Schritt 3 ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden bevor die Lernenden selbst Videos hochladen können.
 
-### Schritt 4: Kurs publizieren und freischalten  
----  
-1. Am einfachsten erfolgt das Publizieren, wenn Sie den Kurseditor schließen und
+### Schritt 4: Kurs publizieren und freischalten<br>
+---<br>
+1. Am einfachsten erfolgt das Publizieren, wenn Sie den Kurseditor schliessen und
 direkt in die normale Kursansicht wechseln.
 
     Klicken Sie dafür einfach in der Bread-Crumb-Leiste auf den Kurstitel und es erscheint die Abfrage wie Sie den Kurs publizieren wollen.
@@ -86,16 +79,23 @@ werden sollen. Wählen sie "**Ja, manuell**" wenn Sie nur einige Änderungen zum
 publizieren auswählen wollen.
 
 
-![podcast_publizieren.png](assets/publizieren.jpg)  
-  
+![Dialog "Änderungen publizieren" mit den Optionen "Nein", "Ja, manuell" und "Ja, automatisch"](assets/publizieren.jpg){ class="shadow lightbox" }
+
 !!! tip "Tipp"
 
     Alternativ kann auch der ausführliche Publizier-Prozess über den Link in der Toolbar im Kurseditor gewählt werden.
 
-Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode
+Der Podcast ist nun eingebunden und Teilnehmende können die erste Episode
 herunterladen.
 
 Wie bei allen OpenOlat Lernressourcen kann auch zunächst die Lernressource
 (hier Podcast) erstellt und dann die erstellte Lernressource in den
 gewünschten Kurs eingebunden werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kurs erstellen >](../learningresources/Creating_Course.de.md)
+
+[Zum Seitenanfang ^](#vier-schritte-zu-ihrem-podcast)
 

@@ -1,21 +1,21 @@
 # Einzelne Seite: Video hinzufügen / editieren
 
 
-Eine weitere Möglichkeit Videos in OLAT Kursen einzubinden ist die Verwendung
+Eine weitere Möglichkeit, Videos in OpenOlat-Kursen einzubinden, ist die Verwendung
 des Kursbausteins "**Einzelne Seite**".
 
 Im Kursbaustein "Einzelne Seite" steht Ihnen ein Editor zur Verfügung über den
 Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt"
-können Sie den Editor öffnen und gelangen zum Button „Video hinzufügen /
+können Sie den Editor öffnen und gelangen zum Button "Video hinzufügen /
 editieren".
 
 
 Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer
-zurück, was einige Vorteile hat.  
+zurück, was einige Vorteile hat.
 1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten
-richtig codiert sind.  
-1. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-
-kompatiblen mobile-Browser auf das Video zugreift. In dem Fall werden die
+richtig codiert sind.
+1. Der Player erkennt, ob Benutzer:innen mit einem HTML5-fähigen und Codec-
+kompatiblen Mobile-Browser auf das Video zugreifen. In dem Fall werden die
 Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä.
 angezeigt werden.  
 
@@ -34,41 +34,40 @@ Video-Codec für Video und dem **mp3** Audio-Codec für Audio etabliert.
 Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos
 abspielen.
 
-  
 
-Die folgenden Optionen stehen Ihnen zur Verfügung
 
-| Option |  Beschreibung  | 
----|---  
-Video | Einbindung eines Videos mit spezifischer Codierung.  
-Musik | Einbindung eines Audio-Files ohne Video.  
-YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube / Vimeo / Nanoo.tv - Videos  
-http | Streaming mit Flash-Datei von einem Webserver  
-rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server  
-  
+Die folgenden Optionen stehen Ihnen zur Verfügung:
+
+| Option | Beschreibung |
+|---|---|
+| Video | Einbindung eines Videos mit spezifischer Codierung. |
+| Musik | Einbindung einer Audiodatei ohne Video. |
+| YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube-, Vimeo- oder Nanoo.tv-Videos. |
+| http | Streaming mit Flash-Datei von einem Webserver. |
+| rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server. |
+
 ### Video (.FLV, .F4V, .MP4 und .M4V - h264 kodiert, .AAC sowie .M4A)
 
 Diese Einstellung eignet sich für die Integration von Videos auf OpenOlat am
-Besten. Als Container-Formate, d.h. die Formate die hochgeladen werden können,
+besten. Als Container-Formate, d.h. die Formate, die hochgeladen werden können,
 eignen sich die folgenden Kennzeichnungen:
 
-| Format Container | Bezeichnung des Containers | Beschreibung  | 
-| ---|---|---  | 
-| .FLV | Flash Container | Flash-Videos mit Video und Audio, von Adobe definiert (Achtung: Flash Player
-muss aktiviert sein)  
-  .F4V | | Kein Container, sondern reines Video-Format ohne Audio, von Adobe definiert  
-  .MP4| MPEG-4|MP4 Video- und Audioformat, von MPEG-Verbund definiert, verschiedene Codecs  
-  .M4V|MPEG-4|MP4 Videoformat mit H.264 Videocodec und MP3 oder AAC Audiocodec; Format für iTunes  
-  
+| Format Container | Bezeichnung des Containers | Beschreibung |
+|---|---|---|
+| .FLV | Flash Container | Flash-Videos mit Video und Audio, von Adobe definiert (Achtung: Flash Player muss aktiviert sein) |
+| .F4V | | Kein Container, sondern reines Video-Format ohne Audio, von Adobe definiert |
+| .MP4 | MPEG-4 | MP4 Video- und Audioformat, von MPEG-Verbund definiert, verschiedene Codecs |
+| .M4V | MPEG-4 | MP4 Videoformat mit H.264 Videocodec und MP3 oder AAC Audiocodec; Format für iTunes |
+
 In das Adressfeld können Sie entweder den Link auf das Video direkt eingeben
 oder die Datei entsprechend hochladen.
 
 !!! tip "Tipp"
 
     Um optimale Kompatibilität sicherzustellen sollte ein MPEG-4 Container mit H.264 Kodierung für Video und AAC oder MP3 Kodierung für Audio verwendet werden. 
-    
+
     Als Dateiendung stehen somit .mp4 oder .m4v zur Verfügung, wobei .m4v nicht von allen Geräten abgespielt werden kann. 
-    
+
     Von Flash Filmen wird abgeraten, da diese auf vielen mobilen Geräten wie z.B. das iPad grundsätzlich nicht abspielbar sind.
 
 ### Musik (.MP3)
@@ -77,13 +76,13 @@ Bei der Einbindung von reinen Audio-Dateien stehen nur eingeschränkte
 Funktionen im Player zur Verfügung. Man kann starten, stoppen und hat eine
 Fortschrittsanzeige, Funktionen wie Vollbild fehlen hier. 
 
-Im Feld „Adresse“
+Im Feld "Adresse"
 kann entweder ein Link auf ein mp3-File eingegeben werden oder man lädt eine
 Datei auf OpenOlat hoch. 
 
-!!! check ""
+!!! info "Wichtig"
 
-    Das Abspielen von mp3 Audiodateien ist auf **allen** gängigen Browsern problemlos.
+    Das Abspielen von mp3-Audiodateien ist auf **allen** gängigen Browsern problemlos.
 
 ### YouTube  
 
@@ -130,8 +129,8 @@ komplett geladen werden. Es handelt sich dabei nicht um ein richtiges
 Streaming, bei diesem muss auch auf dem Server eine entsprechende Streaming-
 Software installiert sein muss.
 
-In das Feld „Streamingserver“ muss die Adresse des Servers eingegeben werden.
-Unter „Adresse“ wird die Adresse des eigentlichen Films eingegeben.
+In das Feld "Streamingserver" muss die Adresse des Servers eingegeben werden.
+Unter "Adresse" wird die Adresse des eigentlichen Films eingegeben.
 
 !!! warning "Achtung"
 

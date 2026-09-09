@@ -6,7 +6,7 @@ Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kurs
 
 Die Basis-Einstellungen werden im Kurseditor im Tab "Podcast-Lerninhalt" vorgenommen. 
 
-![Podcast anlegen](assets/Podcast-Lerninhalt1_20_3.jpg)
+![Auswahl, Erstellung oder Einbindung einer Podcast-Lernressource im Tab "Podcast-Lerninhalt" des Kurseditors](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" }
 
 Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, müssen Sie als erstes eine bereits erstellte Lernressource Podcast auswählen, eine neue Podcast Lernressource erstellen oder einen im Internet existierenden Podcast in eine neue Lernressource einbinden. 
 
@@ -30,18 +30,18 @@ Soll ein externer Podcast aus dem Internet über den Kursbaustein für den Kurs 
 
 Eine im Kursbaustein angelegte Podcast-Verknüpfung kann jederzeit wieder ausgewechselt oder editiert werden. 
 
-![Podcast ersetzen](assets/Podcast_ersetzen.png)
+![Auswechseln der verknüpften Podcast-Lernressource über die Schaltfläche "Ersetzen" im Tab "Podcast-Lerninhalt"](assets/Podcast_ersetzen.png){ class="shadow lightbox" }
 
 
 ### Externen Podcast einbinden 
 
 Möchten Sie einen externen Podcast aus dem Internet in Ihren Kurs einbinden, benötigen Sie den RSS-Feed des Podcasts oder Vodcasts. Dieser Feed-Link endet häufig auf .xml. Beachten Sie: Der Link zum Podcast-Feed unterscheidet sich vom direkten Audio- oder Video-Link!
 
-Um einen externen Podcast in den Kurs einzufügen, wählen Sie im Kurseditor unter dem Tab "Podcast-Inhalt" die Option "Per URL einbinden". Im daraufhin erscheinenden Feld "URL" geben Sie den RSS-Feed-Link des externen Podcast ein.
+Um einen externen Podcast in den Kurs einzufügen, wählen Sie im Kurseditor unter dem Tab "Podcast-Lerninhalt" die Option "Per URL einbinden". Im daraufhin erscheinenden Feld "URL" geben Sie den RSS-Feed-Link des externen Podcast ein.
 
 Externe Podcast-Feeds enden häufig auf .xml oder .rss und enthalten meist die Begriffe "feed", "rss" oder "podcast" in der URL (nicht immer, aber oft). Sobald der Podcast eingebunden ist, werden im Kursbaustein die entsprechenden Episoden angezeigt.
 
-![Beispiel eines externen Podcasts](assets/Podcast_extern.png)
+![Eingebundener externer Podcast mit Episodenliste, Filtern und Abonnement-Icons für RSS, iTunes und iOS](assets/Podcast_extern.png){ class="shadow lightbox" }
 
 ### Metadaten anzeigen 
 
@@ -62,10 +62,10 @@ Das **Recht zum Erstellen von Beiträgen** gilt nur für interne OpenOlat Podcas
 
     Beachten Sie die von den OpenOlat Administrator:innen festgelegten Upload- und Speichergrenzen und laden Sie möglichst kleine Dateien hoch.
 
-Ist der Kurseditor geschlossen, werden die bereitgestellten Podcast-Episoden sowie – sofern im Kurseditor aktiviert – die in der Lernressource hinterlegten Informationen (Titel, Beschreibung, Bild) angezeigt.
+Ist der Kurseditor geschlossen, werden die bereitgestellten Podcast-Episoden sowie, sofern im Kurseditor aktiviert, die in der Lernressource hinterlegten Informationen (Titel, Beschreibung, Bild) angezeigt.
 
 
-### Rechte für Kursteilnehmende
+### Rechte für Teilnehmende
 
 Teilnehmende können: 
 
@@ -76,11 +76,10 @@ Teilnehmende können:
 Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen und somit Audios und Videos hochladen. 
 
 
-[zum Seitenanfang ^](#config)
+## Weiterführende Informationen {: #further_information}
 
+**Weiterführend**<br>
+[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
+[Podcasts anhören und ansehen >](../learningresources/Podcast_listen_and_watch.de.md)
 
-## Weitere Informationen
-
-[Podcasts in Kursen erstellen >](../../manual_how-to/podcast/podcast.de.md)<br>
-[Podcasts anhören und ansehen >](../learningresources/Podcast_listen_and_watch.de.md)<br>
-[How to Anleitung: "Wie erstelle ich einen Podcast"](../../manual_how-to/podcast/podcast.de.md)
+[Zum Seitenanfang ^](#config)

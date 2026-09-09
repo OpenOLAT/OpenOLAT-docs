@@ -10,7 +10,7 @@ Es gibt Gruppen, in denen eine Mitgliedschaft freiwillig sein soll, z.B. in Inte
 
 Ob den Gruppenmitgliedern das selbstständige Verlassen einer Gruppe möglich ist, können Gruppenbetreuer:innen vorab festlegen. Wählen Sie die Gruppe. Unter **Administration** im **Tab "Mitglieder"** finden Sie die Option, mit der Sie Teilnehmer:innen ein Verlassen der Gruppe aus Eigeninitiative ermöglichen können. 
 
-![leave_group_on_own_initiative_v1_de.png](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" }
+![Option "Teilnehmer:innen können Gruppe verlassen" im Tab "Mitglieder" der Gruppenadministration](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#leave_group)
@@ -25,7 +25,7 @@ Um eine **einzelne Person** aus der Gruppe zu entfernen, können Sie auf die 3 P
 
 Möchten Sie **mehrere Gruppenmitglieder** gleichzeitig aus der Gruppe entfernen, können Sie die betreffenden Zeilen in der ersten Spalte markieren. Über der Liste erscheint dann u.a. der Button "Entfernen".
 
-![leave_group_removed_by_group_coach_v1_de.png](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" }
+![Button "Entfernen" und Option "Entfernen" im Zeilenmenü im Tab "Mitglieder" der Gruppenadministration](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#leave_group)
 
@@ -39,7 +39,7 @@ Um die Person **aus einer einzelnen Gruppe** zu entfernen, klicken Sie am Ende e
 
 Möchten Sie die Person gleichzeitig **aus mehreren Gruppen entfernen**, können Sie die betreffenden Zeilen in der ersten Spalte markieren. Über der Liste erscheint dann der Button "Verlassen".
 
-![leave_group_removed_by_user_manager_v1_de.png](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" }
+![Button "Verlassen" und Link "Verlassen" im Tab "Gruppen" der Benutzerverwaltung](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#leave_group)
 
@@ -91,13 +91,13 @@ Sind neben dem/der Gruppenbetreuer:in, die ihre Mitgliedschaft beendet, weitere 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Gruppe erstellen >](Create_Groups.de.md)<br>
-[Gruppenmitglied werden > ](Group_Membership.de.md)<br>
+[Gruppenmitglied werden >](Group_Membership.de.md)<br>
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
-[LTI-Zugang zu einer Gruppe konfigurieren > ](LTI_Share_groups.de.md)<br>
-[Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br> ...für Administratoren
+[LTI-Zugang zu einer Gruppe konfigurieren >](LTI_Share_groups.de.md)<br>
+[Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)
 
-[Zum Seitenanfang ^](#group_membership)
+[Zum Seitenanfang ^](#leave_group)
 

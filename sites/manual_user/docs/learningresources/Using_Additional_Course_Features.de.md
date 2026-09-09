@@ -3,11 +3,11 @@
 Kursbesitzer:innen können zusätzlich bestimmte Werkzeuge der Toolbar aktivieren unter:<br>
 `Kurs > Administration > Einstellungen`
 
-![Toolbar einrichten](assets/Toolbar_154.png){ class="shadow lightbox" }
+![Auswahl der aktivierbaren Werkzeuge im Tab Toolbar der Kurseinstellungen](assets/Toolbar_154.png){ class="shadow lightbox" }
 
-Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar  unabhängig von der Kursstruktur angezeigt. 
+Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar unabhängig von der Kursstruktur angezeigt.
 
-![Toolbar](assets/Toolbar15a.png){ class="shadow lightbox" }
+![Aktivierte Werkzeuge in der Toolbar des Kurses](assets/Toolbar15a.png){ class="shadow lightbox" }
 
 ## Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
@@ -20,7 +20,7 @@ Neben der Volltextsuche für das gesamte OpenOlat kann pro Kurs eine Kurssuche a
 * Titel und Inhalt von Mitteilungen
 * Wiki Beiträge
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank"}
 
 ## Kurskalender
 
@@ -32,7 +32,7 @@ Neue Termine lassen sich einfach durch einen Klick auf das gewünschte Datum ers
 
 Sollen alle Termine eines Kurskalenders gelöscht werden, kann dies über das Zahnradsymbol im Kalenderbereich mit der Option „Kalender zurücksetzen“ erfolgen.
 
-![Kalender komplett löschen](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
+![Option "Kalender zurücksetzen" im Menü der Kalenderliste](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
 
 Standardmässig können nur Kursbesitzer:innen Termine im Kalender erstellen. Teilnehmende haben lediglich Leserechte und können weder neue Termine anlegen noch bestehende bearbeiten. Sollen Teilnehmende selbst Termine erstellen dürfen, kann statt des Kalenders in der Toolbar ein Kursbaustein „Kalender“ hinzugefügt und entsprechend konfiguriert werden.
 
@@ -41,7 +41,7 @@ Kurskalender werden automatisch in den [persönlichen Kalender](../personal_menu
 
 ## Liste der Teilnehmenden
 
-Hier können alle Kursbesitzer:innen, Betreuer:innen und Teilnehmenden eines Kurses zentral angezeigt werden. Kursteilnehmende können über die Teilnehmerliste E-Mails an bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als im [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+Hier können alle Kursbesitzer:innen, Betreuer:innen und Teilnehmenden eines Kurses zentral angezeigt werden. Teilnehmende können über die Teilnehmerliste E-Mails an bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als im [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
 
 ## Mitteilungen
 
@@ -79,7 +79,7 @@ Hier können Sie ein [Wiki (Lernressource)](../learningresources/Wiki.de.md) ers
 
 ## Dokumente
 
-Über diesen Link können Kursbesitzer:innen und Betreuer:innen zentral Dokumente zum Download bereitstellen. Lernende können die Dateien herunterladen, Benachrichtigungen bei neuen Dokumenten abonnieren und die Dateien bei Bedarf per E-Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.md).
+Über diesen Link können Kursbesitzer:innen und Betreuer:innen zentral Dokumente zum Download bereitstellen. Lernende können die Dateien herunterladen, Benachrichtigungen bei neuen Dokumenten abonnieren und die Dateien bei Bedarf per E-Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md).
 
 ## Kurs-Chat
 
@@ -97,11 +97,11 @@ Aktivieren Lehrende das Glossar im Tab „Toolbar“ der Kurseinstellungen, muss
 
 Ist ein Glossar definiert erscheint der Glossar-Link in der Toolbar und User können das gesamte Glossar in einem neuen Fenster öffnen oder Glossarbegriffe in Lerninhalten z.B. im Kursbaustein HTML-Seite, Seite oder Foren-Postings einblenden lassen.  
 
-Als Kursbesitzer:in können Sie, wenn Sie das Glossar über den entsprechenden Link geöffnet haben, Einträge hinzufügen, unabhängig davon, ob Sie auch Besitzer:in der  Glossar Lernressource  sind. 
+Als Kursbesitzer:in können Sie, wenn Sie das Glossar über den entsprechenden Link geöffnet haben, Einträge hinzufügen, unabhängig davon, ob Sie auch Besitzer:in der Glossar Lernressource sind.
 
 Geben Sie den Begriff, den Sie definieren möchten sowie eventuelle Synonyme ein. Wechseln Sie zum Tab „Definition“ und ergänzen Sie die Definition des Begriffs. Speichern Sie die Einträge und fertig. 
 
-![Glossareintrag erstellen](assets/Glossar_Eintrag.png){ class="shadow lightbox" }
+![Eingabe von Begriff und Synonymen beim Erstellen eines Glossareintrags](assets/Glossar_Eintrag.png){ class="shadow lightbox" }
 
 Alle Einträge können später natürlich auch wieder geändert oder gelöscht werden.  
 
@@ -116,7 +116,7 @@ Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden mö
 
     Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Glossar Lernressource. Kursbesitzer:innen haben nur solange Zugriff auf die Lernressource wie sie auch im Kurs eingebunden ist. Wird das Glossar entfernt können nur Personen, die auch Besitzer:in des Glossars sind dieses wieder dem Kurs hinzufügen.
 
-Ob auch Kursteilnehmende Glossareinträge hinzufügen und bearbeiten können ist abhängig von den Einstellungen in der Lernressource Glossar. Standardmässig können nur Kurs-Besitzer:innen Einträge im Glossar vornehmen.
+Ob auch Teilnehmende Glossareinträge hinzufügen und bearbeiten können ist abhängig von den Einstellungen in der Lernressource Glossar. Standardmässig können nur Kurs-Besitzer:innen Einträge im Glossar vornehmen.
 
 ### So konfigurieren Sie ein Glossar mit weiteren Schreibrechten
 
@@ -126,7 +126,7 @@ Hierfür gibt es zwei Wege:
 
 Wechseln Sie in den Autorenbereich und rufen Sie die gewünschte Lernressource "Glossar" auf. Hier kann im Tab "Schreibberechtigung" definiert werden ob nur die Besitzer:innen der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer:innen das Recht erhalten. 
 
-![Schreibberechtitung für User aktivieren](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" }
+![Aktivierung der Schreibberechtigung für alle Benutzer im Tab Schreibberechtigung der Lernressource Glossar](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" }
 
 **Schreibrechte für bestimmte Personen des Kurses definieren**
 
@@ -138,7 +138,23 @@ Wechseln Sie wieder in die "Mitgliederverwaltung" des Kurses und wählen Sie dor
 
 Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
+[Kursbaustein "Teilnehmerliste" >](../learningresources/Course_Element_Participant_List.de.md)<br>
+[Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
+[Kursbaustein "E-Mail" >](../learningresources/Course_Element_EMail.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
+[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Wiki erstellen >](../learningresources/Wiki.de.md)<br>
+[Kursbaustein "Forum" >](../learningresources/Course_Element_Forum.de.md)<br>
+[Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
+[Mitgliederverwaltung >](Members_management.de.md)
 
+**youtube**<br>
+[Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)
 
+[Zum Seitenanfang ^](#einsatz-weiterer-kursfunktionen-der-toolbar)
 

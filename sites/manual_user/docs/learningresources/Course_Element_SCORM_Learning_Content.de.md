@@ -33,7 +33,7 @@ Als Besitzer:in haben Sie im Vergleich zu Betreuer:innen im Run-Mode zusätzlich
 
 ## Bearbeitung im Editor {: #editor}
 
-Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
+Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine im Kurseditor: `Kurs > Administration > Kurseditor`. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
 
 ### Tab "Lerninhalt" {: #editor_tab_learning_content}
 
@@ -191,6 +191,7 @@ Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen >
 ## Weiterführende Informationen {: #further_information}
 
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
 [Wissensvermittlung >](Knowledge_Transfer.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>

@@ -1,12 +1,14 @@
 # :o_icon_o_icon_search: Full-Text Search {: #full_text_search}
 
+:octicons-device-camera-video-24: **Video introduction (German)**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank"}
+
 The search is only visible and usable, if it is activated in the
 administration. If this is not the case for you, please contact your
 OpenOlat administrator directly.
 
-The box for the full-text search is at the top right of the status bar. The full-text search helps you to look for search terms in the course or group content, in a forum or even in PDF and Word files. Furthermore you can look for users, portfolio folders, artefacts, and documents in the [personal files](../personal_menu/File_Hub.md#personal_files). The only exceptions are private folders since they will not be indexed.
+The box for the full-text search is at the top right of the status bar. The full-text search helps you to look for search terms in the course or group content, in a forum or even in PDF and Word files. Furthermore you can look for participants, portfolio folders, artefacts, and documents in the [personal files](../personal_menu/File_Hub.md#personal_files). The only exceptions are private folders since they will not be indexed.
 
-![](assets/generelle_Suche.en.png)
+![Search results list for the search term e-learning with highlighted matches and each hit's location shown, in the Full-text search dialog](assets/generelle_Suche.en.png){ class="shadow lightbox" }
 
 You will only get search results of the course contents you have access to.
 
@@ -14,21 +16,21 @@ You will only get search results of the course contents you have access to.
 
 In order to search in more detail please use the advanced search.
 
-![Activate advanced search](assets/full_text_search_advanced_link_EN.png)
+![Advanced search link below the search field, in the Full-text search dialog](assets/full_text_search_advanced_link_EN.png){ class="shadow lightbox" }
 
-![Advanced full text search - example](assets/full_text_search_advanced.png)
+![Advanced search form with the fields Full-text search, Author, Title, Description, Creation date, Last modified, Document type, License and Metadata, in the Full-text search dialog](assets/full_text_search_advanced.png){ class="shadow lightbox" }
 
-Select the option "Advanced search." The mode _Advanced search_ enables you to refine your search. Please note that these different fields have to be linked by the Boolean AND operator. This means that e.g. by filling in the fields _Title_ and _Author_ you will find documents containing the respective terms in all indicated fields.
+The mode _Advanced search_ enables you to refine your search. Please note that these different fields have to be linked by the Boolean AND operator. This means that e.g. by filling in the fields _Title_ and _Author_ you will find documents containing the respective terms in all indicated fields.
 
 Exception: The field Full-text search searches through all fields.
 
 You will be provided with a list of search results that is linked to the learning content along with your search term.
 
-!!! Info
+!!! info "Important"
 
     Beside the full-text search for the whole OpenOlat there exists also a [course
-    search](../learningresources/Course_Settings.md#toolbar), which can be
-    activated for every course in the course toolbar. The setting is activated under "Administration" -> "Settings" in the "Toolbar" tab. The course search searches only the corresponding course.
+    search](../learningresources/Course_Settings.md), which can be
+    activated for every course in the course toolbar. You activate the setting under `Course > Administration > Settings` in the "Toolbar" tab. The course search searches only the corresponding course.
 
 ## Syntax {: #syntax}
 
@@ -53,9 +55,9 @@ Each file and each learning resource can be provided with metadata. Metadata are
 
 Metadata are indexed by the full-text search. Therefore you can search for metadata by means of keywords when trying to find relevant documents.
 
-**Lock a file:** Within the meta data you can mark a file as locked. Locked files are marked with a lock and other users can no longer change, delete or move it. This option is not available for folders.
+**Lock a file:** Within the meta data you can mark a file as locked. Locked files are marked with a lock and other participants can no longer change, delete or move it. This option is not available for folders.
 
-![](assets/Datei_sperren_EN_detail.png)
+![Locked file with a red-framed lock icon in the Locked column, in a folder's file list](assets/Datei_sperren_EN_detail.png){ class="shadow lightbox" }
 
 Using the external link, you can link directly to a specific file from outside of OpenOlat.
 
@@ -67,3 +69,14 @@ In your search results the following will appear:
 * Data / documents from "public folders" of users
 * Data / documents from courses in which you are a member and to which you also have access as a course member
 * Data / documents from courses that are configured as follows under Settings > Sharing: "Without booking" or "Openly available"
+
+## Further information {: #further_information}
+
+[Personal files >](../personal_menu/File_Hub.md)<br>
+[Course search >](../learningresources/Course_Settings.md)<br>
+[Dublin Core Simple Standard (Wikipedia) >](https://en.wikipedia.org/wiki/Dublin_Core)
+
+**youtube**<br>
+[Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)
+
+[To the top of the page ^](#full_text_search)

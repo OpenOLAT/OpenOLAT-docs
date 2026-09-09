@@ -1,21 +1,19 @@
 # Members management {: #members_management}
 
-In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-
-related rights, contact participants and organize course groups. Rights management and the administration of consents to course-related terms of use or privacy policy also take place here.
+In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-related rights, contact participants, and organize course groups. Rights management and the administration of consents to course-related terms of use or the privacy policy also take place here.
 
-![members_management_open_v1_de.png](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
+![Members management of a course with the areas Members, Groups, Course Planner, Booking Orders, Invitations, Rights, and Consents](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
 
 
 ## Members {: #section_members}
 
-When you open member management, you will find yourself in the “Members” area. There you will see a tabular overview of all persons who have access to the course or learning resource. Using various tabs, you can display all or selected course members, for example, only coaches or only participants. It is also possible to filter by course role or account type.
+When you open the members management, you find yourself in the "Members" area. There you see a tabular overview of all persons who have access to the course or learning resource. Using various tabs, you can display all or selected course members, for example only coaches or only participants. It is also possible to filter by course role or account type.
 
-You can edit the role assignments of the individuals, remove them from the course, or send them an email. You can also export the member data as an Excel spreadsheet.
+You can edit the role assignments of the persons, remove them from the course, or send them an email. You can also export the member data as an Excel spreadsheet.
 
+![Members area with preset filters by role and origin, and a table with role, institution, and last visit](assets/Mitglieder20.png){ class="shadow lightbox" }
 
-![Members area](assets/Mitglieder20.png){ class="shadow lightbox" }
-
-The "Search" element in the Members management can be used to search for members of a course, which is helpful for many participants.
+The search field can be used to search for members of a course, which is helpful when there are many participants.
 
 Select the columns that are relevant for you via the cogwheel menu and sort the list according to your wishes.
 
@@ -28,8 +26,8 @@ The tabs above the table provide the following preset filters:
 * **Coaches**
 * **Participants**
 * **Waiting list**
-* **Origin: course**
-* **Origin: group**
+* **Origin: Course**
+* **Origin: Group**
 * **Origin: CPL** (only visible if the course is linked to the Course Planner)
 * **Search**
 
@@ -41,70 +39,71 @@ In the extended filter panel (arrow icon), the selection can also be modified by
 * **Group**: selection from the groups used in the course
 * **CPL element**: selection from the Course Planner elements used in the course
 
-The cogwheel menu can also be used to show the **Origin** column. It shows how a person became a member of the course (course, group, or Course Planner). The **Registration** and **Last visit** columns can also be added here.
+The cogwheel menu can also be used to show the **Origin** column. It shows the way a person became a member of the course (course, group, or Course Planner). The **Joined** and **Last visit** columns can also be added here.
 
-**Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, registration date, last visit if applicable) with the **Edit membership** action and, where applicable, up to three origin sections:
+**Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, join date, last visit if applicable) with the **Edit** action and, where applicable, up to three origin sections:
 
 * **Origin: Course**: columns Role, Created
 * **Origin: Group**: columns Role, Group, Created
 * **Origin: Course Planner**: columns Role, Element, Reference, Product, Created
 
-!!! tip "Important"
-    Each section only appears if the person actually has a corresponding origin.
+!!! info "Important"
+    Each section only appears if the person concerned actually has a corresponding origin.
 
 #### Excel export of the origin [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"}
 
-In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements by name (comma-separated).
+In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements in full by name (comma-separated).
 
 
 ### Edit user information {: #edit_user_info}
 
-When you select a person from the list, you will receive further information about that person, e.g., you can see the number of course views and assign additional roles to that person.
+When you select a person from the list, you receive further information about that person, e.g. you see the number of course views and can assign additional roles to the person.
 
-![Edit member](assets/Benutzerinfos_20.png){ class="shadow lightbox" }
+![Edit member dialog with account information, course role checkboxes, and a table of group memberships](assets/Benutzerinfos_20.png){ class="shadow lightbox" }
 
 There are three specific course roles:
 
-  *  **Owner**  
-Owners have all rights within a course and can access all menus of the [course administration](../learningresources/Using_additional_Course_Editor_Tools.md). They create the course structure and usually create the OpenOlat course. The person who creates a course is automatically the course owner. Course owners can also add other owners to the course.
+  *  **Owner**<br>
+Owners have all rights within a course and can access all menus of the [course administration](../learningresources/Administration.md). They create the course structure and usually create the OpenOlat course. The person who creates a course automatically becomes the course owner. Course owners can also add other owners to the course.
 
-  *  **Coaches**  
-Coaches typically play a role in course _delivery_, but are not involved in course creation. 
-Course coaches have access to the assessment tool, to-do lists, data collection previews, and statistics. If a document folder has been activated for coaches, they will also see "Coach files"" in the administration area. 
+  *  **Coach**<br>
+Coaches typically play a role in _course delivery_, but are not involved in course creation. Course coaches have access to the assessment tool, the to-dos, the data collection preview, and the statistics. If a document folder has been activated for coaches, they also see it in the administration. Coaches can also carry out assessments in the course run. Depending on the configuration in the course editor, they may also have access to further options and functions of certain course elements.
 
-Coaches can also carry out assessments during the course run. Depending on the configuration in the course editor, they may also have access to additional options and functions for certain course elements.
+  *  **Participant**<br>
+Participants are usually the learners, or the persons who take part in an online course. Participants can only act within the possibilities provided by the owners. By default, participants do not have access to the course administration and the menus it contains.
+In [learning path courses](../learningresources/Learning_path_course.md), only the participants see the visualized percentage display in the top right corner of the [toolbar](../learningresources/Toolbar.md).
 
-  *  **Participants**  
-Participants are usually the learners or people who participate in an online course. Participants can only act within the scope of the options provided by the owner. By default, participants do not have access to the course administration and the menus it contains. In a [learning path course](../learningresources/Learning_path_course.md) only the participants see the visualized percentage display in the top right corner of the [toolbar](../learningresources/Toolbar.md).
+A course member can hold multiple roles in a course at the same time. In this case, the option to switch roles and view the course from the perspective of the respective course role appears in the course toolbar for the person concerned.
 
-A course member can have multiple roles in the course at the same time. In this case these persons will see the possibility to change roles in the course toolbar and thus to view the course from different course roles.
-
-![role change](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" }
+![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" }
 
 If the user has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
+
 ### Adding members {: #add_members}
 
-Users can be added to a course in several ways:
+People can be added to a course in several ways:
 
-* By manual entry by the course owner
-* By learners booking orders (see [Access configuration](../learningresources/Access_configuration.md))
-* By adding an OpenOlat group. All group members are automatically added to the course.  
+
+* by manual entry by the course owners<br>
+* by booking orders from learners (see [access configuration](../learningresources/Access_configuration.md))<br>
+* by adding an OpenOlat group. All group members are then automatically added to the course.<br>
 * via the Course Planner as part of a higher-level education product (CPL membership)
 
-#### Manual entry by course owners: {: #add_members_manually}
 
-Use the “Add member” link to search for specific individuals with an OpenOlat account or use the bulk search function. A wizard will guide you through the steps for adding new course members.
+#### Manual entry by course owners {: #add_members_manually}
 
-The mass search is useful if you know the login name, the email address used by the user, or the institution number. This way, you can add many people to the course at once.
+Using the "Add member" link, you can search for specific people with an OpenOlat account, or use the bulk search. A wizard guides you through the steps for adding new course members.
 
-Alternatively, you can use the “Invite external members” option. This allows you to add people without an OpenOlat account to the learning resource for a maximum period of 180 days.
+The bulk search is useful if the login name, the email address used by the person, or the institution number is known. This way, many people can also be added to the course at once.
 
-![add members](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
+Alternatively, the "Invite external members" option can be used. This way, people without an OpenOlat account can also be added to the learning resource for a maximum of 180 days.
 
-!!! tip "Hint"
+![Add member button with the additional option Invite external members in the members management](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
 
-    In the last step of the wizard, you can formulate an e-mail. You can also use variables in the email text. 
+!!! tip "Tip"
+
+    In the last step of the wizard, you can compose an email. There, you can also use variables in the email text.
     ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
 
 For administrators: [System-wide configuration of the invitation (email, accept membership) >](../../manual_admin/administration/Modules_Groups.md#data_privacy)
@@ -116,20 +115,20 @@ For administrators: [System-wide configuration of the invitation (email, accept 
 
 ## Groups {: #section_groups}
 
-Here you can see the groups for the course and quickly get an overview of certain aspects such as the number of participants, waiting list, or access. You can add existing OpenOlat groups to the course or create new groups. Existing groups can also be removed from the course.
+Here you see the groups of the course and can quickly get an overview of certain aspects such as number of participants, waiting list, or access. You can add existing OpenOlat groups to the course or create new groups. Existing groups can also be removed from the course again.
 
-Clicking on a group name or on "Modify" opens the group itself in a new OpenOlat tab and takes you as a group coach to the group administration. 
+Clicking on a group name or on "Modify" opens the respective group. This takes you, as a group coach, directly to the group administration, where you can make changes.
 
-Groups can have different functions in an OpenOlat course. Typical examples
-are:
+Groups can have different functions in an OpenOlat course.
+Typical examples are:
 
-  * Bundling of individuals for selective releases
-  * Groups for group work (joint actions)
-  * Groups for the organization of the course-related rights management
+  * bundling individual persons for selective releases
+  * groups for group work (collaborative actions)
+  * groups for organizing course-related rights management
 
-Furthermore, certain course elements can automatically create groups, e.g., the [topic assignment](../learningresources/Course_Element_Topic_Assignment.md).  
+Furthermore, certain course elements can automatically create groups, e.g. the [topic assignment](../learningresources/Course_Element_Topic_Assignment.md).
 
-How to create and configure groups and how to manage group members is covered in the chapter "[Groups](../groups/index.md)".
+How groups are generally created and configured, and how group members are managed, is covered in the chapter "[Groups](../groups/index.md)".
 
 [To the top of the page ^](#members_management)
 
@@ -137,7 +136,10 @@ How to create and configure groups and how to manage group members is covered in
 
 
 ## Course Planner {: #section_course_planner}
-If a course is linked to the [Course Planner](../area_modules/Course_Planner.md), the relevant information will also appear in the members management section. 
+
+If a course is linked to the [Course Planner](../area_modules/Course_Planner.md), the relevant information also appears in the members management.
+
+![Course Planner area in the members management with elements and their number of owners, coaches, and participants](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#members_management)
 
@@ -146,11 +148,11 @@ If a course is linked to the [Course Planner](../area_modules/Course_Planner.md)
 
 ## Booking Orders {: #section_booking_orders}
 
-If an [offer](../learningresources/Access_configuration.md) has been set up for a course, all booking orders for this course are displayed under “Booking orders” sorted by status.  
+If [offers](../learningresources/Access_configuration.md) have been set up for a course, all booking orders for this course are displayed under "Booking orders", sorted by status.
 
-A booking order displayed here means that the course is independent and bookable and therefore contains an offer – for example, via an access code.
+A booking order displayed here means that the course is self-contained and bookable, and therefore contains an offer, for example via an access code.
 
-![members_management_booking_orders_v1_de.png](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
+![Booking Orders area with status tabs and a table of the bookings including offer type and price](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#members_management)
 
@@ -158,9 +160,8 @@ A booking order displayed here means that the course is independent and bookable
 
 
 ## Invitations {: #section_invitations}
-Available in :octicons-tag-24: 17.0.
 
-All persons added to the course via the "Invite external members" option (see above) are displayed here. 
+All persons who were added to the course via the "Invite external members" option (see above) are displayed here.
 
 [To the top of the page ^](#members_management)
 
@@ -169,90 +170,114 @@ All persons added to the course via the "Invite external members" option (see ab
 
 ##  Rights  {: #section_rights}
 
-There is often a desire to grant individual users additional rights without transferring full ownership rights to them or assigning them another course-specific role. You can do this in the **Rights** section of the members management.
+There is often a wish to grant individual users additional rights without transferring full ownership rights to them or assigning them another course-specific role. You can do this in the **Rights** area of the members management.
 
-In the "Rights" area, all course-specific groups appear, divided into group coaches and group participants and the rights groups assigned to the respective group.
+There, all course-specific groups are displayed, divided into group coaches and group participants, together with the rights groups assigned to each.
 
-Please keep in mind that here no individual rights are granted but rights for certain _course tool groups_, e.g. access to the course editor with all its integrated options or to the complete assessment tool. 
+Note that this does not grant individual rights, but rights for certain _course tool groups_, such as access to the course editor with all its integrated options, or the complete assessment tool.
 
-All persons who are registered in
-are entered in the respective group in the corresponding role will then then automatically receive the authorization to use the respective tool with all options in the entire course. Course rights of a group are always bound to a single course.
+All persons entered in the respective group in the corresponding role then automatically receive the authorization to use the respective tool with all its options throughout the entire course. The course rights of a group are always bound to a single course and never apply generally.
 
-Often, the specific assignment of certain rights, instead of the entry as owner, is already useful or necessary for data protection reasons. However, it is best to assign these extended rights to the _participants_ of a group not to the coach, as this involves additional permissions. 
+Often, the targeted assignment of certain rights, instead of entering someone as an owner, is already useful or necessary for data protection reasons.
+However, it is best to assign these extended rights to the _participants_ of a group, not to the coaches, since this involves further permissions.
 
-!!! Warning "Attention"
+!!! warning "Attention"
 
-    Group coaches basically also get access to the [assessment tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, they are allowed to make changes to the coached groups and have access to all things shared for coaches in the course run!
+    Group coaches basically also get access to the [assessment tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, they are allowed to make changes to the coached groups and have access to everything shared for coaches in the course run!
 
 
 ### Assignment of additional rights {: #additional_rights}
 
-The following course rights can be assigned to individual user groups:
+The following course rights can be assigned to groups:
+
 
 **Group management**
 
-In addition to the activated person search, the menu of the course "administration"  appears. Additionally, all actions of the area "Groups" of the members management, e.g. create groups, add to or remove from course, send mails to groups, as well as actions from the area "Consents".
-  
+For the activated group of people, the "Administration" menu of the course also appears, and all actions from the "Groups" area of the members management are additionally available, e.g. create groups, add to or remove from the course, send emails to groups, as well as the actions from the "Consents" area.
+
 **Member management**
 
-The "Administration" menu also appears. All actions of the areas "Members", "Groups" and "Booking orders" and "Consents" of the member administration are available but not "rights management" or the "Course Planner" area.  
-  
+For the activated group of people, the "Administration" menu of the course also appears.
+All actions of the Members, Groups, Booking Orders, and Consents areas of the members management are available, but not rights management or the Course Planner area.
+
 **Course editor**
 
-The "Administration" menu also appears.
+For the activated group of people, the "Administration" menu of the course also appears.
 
-Even non-authors can use the course editor with all its functionalities. In addition there are further menus such as storage folder, lessons and absences, learning area, etc.  In addition, other menus such as the storage folder, lessons and absences, learning area, etc. are provided.
-  
-**Archive tool**
+When this rights group is activated, even non-authors can use the course editor with all its associated functionalities. In addition, the group also has access to further menus such as "Files", "Reminder", "Assessment management", "Learning area", and others.
 
-For the activated group, the Course Administration menu with the "Archiving & Reports" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results for all participants.  
+**Archiving**
 
-The granting of this authorization should be carefully considered for data protection reasons.  
-  
+For the activated group, the course administration menu with the "Archiving & Reports" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
+
+The granting of this permission should be carefully weighed for data protection reasons.
+
+
 **Assessment tool**
 
-In addition, the "Administration" menu appears with the [Assessment tool](Assessment_tool_overview.md).
+The "Administration" menu with the [assessment tool](Assessment_tool_overview.md) also appears.
 
-Even without being registered as a coach for the course, members can evaluate and comment on all of the course participants' achievements. 
+Even without being entered as a coach in the course, members can assess and comment on all achievements of the participants this way.
 
-!!! info "info"
+!!! info "Important"
 
-    However, there is no access to the assessment in the course run.  
-  
+    However, this does not include access to the assessment in the course run.
+
 **Glossary tool**
 
-This right allows members to edit the glossary, which of course only makes sense if a [glossary](../learningresources/Glossary.md)  is assigned to the course. Access is directly via the "Glossary" tool in the toolbar.
-  
+This right allows members to edit the glossary of the course, which of course only makes sense if a [glossary](../learningresources/Glossary.md) is assigned to the course. Access is directly via the "Glossary" tool in the toolbar.
+
 **Statistics**
 
-The "Administration" menu also appears for the activated group of people.
+For the activated group of people, the "Administration" menu of the course also appears.
 
-Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire statistics and test statistics. The data can be displayed and downloaded.  
-  
+Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire statistics, and test statistics. The data can be displayed and downloaded.
+
 **Assessment mode**
 
-For the activated user group, the “Administration” menu with the "assessment management" also appears.
+For the activated group of people, the "Administration" menu of the course also appears, with assessment management.
 
-The "Administration" menu also appears for the activated group of people.
+Members may set up, edit, and delete new [assessment configurations](../learningresources/Assessment_mode.md).
 
-Members are allowed to set up the configuration for the [assessment](../learningresources/Assessment_mode.md) mode to run this course or individual course elements in a safe mode. 
-
-  
 **Course database**
 
-The "Administration" menu also appears for the activated group of people.
+For the activated group of people, the "Administration" menu of the course also appears.
 
-Members have access to the course database and can create, reset, delete or export it.  
-  
+Members can create, reset, delete, and export course databases here.
+
 [To the top of the page ^](#members_management)
 
 ---
 
 
-##  Consents {: #section_consent}
+##  Consents  {: #section_consent}
 
-If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consent of the individual users is listed here. Selected consents can be revoked or deleted at this point. When revoking, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents of the user are also removed.
+If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consents of the individual users are listed here. Selected consents can be revoked or deleted at this point. When revoked, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents are also removed.
 
 [To the top of the page ^](#members_management)
 
+---
 
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Roles and Rights: Overview >](../basic_concepts/Roles_Rights.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
+[Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
+[Groups >](../groups/index.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
+[Glossary >](../learningresources/Glossary.md)<br>
+[Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)
+
+**Further reading**<br>
+[Roles and Rights: Assign roles >](../basic_concepts/Assign_Roles.md)<br>
+[Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)
+
+[To the top of the page ^](#members_management)

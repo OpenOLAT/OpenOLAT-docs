@@ -1,9 +1,9 @@
-# Von QTI 1.2 zu QTI 2.1
+# Von QTI 1.2 zu QTI 2.1 {: #qti_conversion}
 
 !!! warning "Achtung"
-  
+
     Seit der OpenOlat Version 15.0 wird das alte QTI 1.2 Format **nicht mehr unterstützt**.
-    Ab OpenOlat 16.0 ist  **keine Konvertierung** von QTI 1.2 Tests mehr möglich!
+    Ab OpenOlat 16.0 ist **keine Konvertierung** von QTI 1.2 Tests mehr möglich!
 
 ## Konvertierung von QTI 1.2 Tests
 
@@ -13,7 +13,7 @@
 
     Um einen QTI 1.2 Test zu konvertieren, öffnen Sie die Lernressource Test im Autorenbereich und wählen im Menü `Administration > In QTI 2.1 konvertieren`. Hierbei wird eine Kopie des alten Tests im neuen Format gespeichert. Es liegen somit beide Test-Versionen unter "Meine Einträge" vor.
 
-    ![Test konvertieren](assets/Test_konvertieren_DE.png){ class="shadow" }
+    ![Menüeintrag "In QTI 2.1 konvertieren" im Administrationsmenü der Test-Lernressource](assets/Test_konvertieren_DE.png){ class="shadow lightbox" }
 
 4. Exportieren Sie den neu erstellten QTI 2.1 Test von OpenOlat 15.x
 5. Importieren Sie den QTI 2.1 Test wieder in OpenOlat 16
@@ -26,7 +26,7 @@ Neben Tests können auch einzelne Fragen konvertiert werden. Fragen werden im Fr
 2. Markieren Sie die Fragen, welche Sie konvertieren möchten (solche im Format IMS QTI 1.2)
 3. Wählen Sie die Schaltfläche "Konvertieren"
 
-![Frage konvertieren](assets/DE_convert_question.png){ class="shadow lightbox" }
+![Auswahl von QTI-1.2-Fragen im Fragenpool mit hervorgehobener Schaltfläche "Konvertieren"](assets/DE_convert_question.png){ class="shadow lightbox" }
 
 Konvertierte Fragen werden unter "Meine Fragen" gespeichert.
 
@@ -40,15 +40,15 @@ Falls Sie Fragen zusätzlich in Listen oder Freigaben abgelegt haben, sind diese
 
 Folgende Punkte sind zu beachten, wenn Fragen oder Tests von QTI 1.2 zu QTI 2.1 konvertiert werden:
 
-* Wenn der Lösungshinweis eingetragen ist, wird er in QTI 2.1 angezeigt. Er kann nicht verborgen werden. (Anzeige als Kästchen, welches durch den Testteilnehmer geöffnet werden kann.)
+* Wenn der Lösungshinweis eingetragen ist, wird er in QTI 2.1 angezeigt. Er kann nicht verborgen werden. (Anzeige als Kästchen, welches durch die Testperson geöffnet werden kann.)
 * Wenn Feedback ausgefüllt ist, wird es in QTI 2.1 angezeigt. Es kann nicht verborgen werden.
 * Die Beschreibung auf der Testebene wird nicht konvertiert. Im QTI 2.1 kann der Testebene keine Beschreibung mehr hinzugefügt werden.
-* Die Sektionsbeschreibung wird konvertiert. Sie wird im QTI 2.1 anschließend oberhalb jeder Frage angezeigt.
+* Die Sektionsbeschreibung wird konvertiert. Sie wird im QTI 2.1 anschliessend oberhalb jeder Frage angezeigt.
 * Die Fragebeschreibung wird nicht konvertiert. Beschreibungen einer Frage werden in QTI 2.1 Fragen nirgends angezeigt, da QTI 2.1 Frage keine Beschreibung besitzen.
 * Zeiteinschränkungen stehen im QTI 2.1 nur für den gesamten Test zur Verfügung. Zeitbeschränkungen auf Fragen- und Sektionsebene werden deshalb nicht konvertiert.
 * Bei Lückentext-Fragen können Alternativen hinzugefügt werden. Die Trennung dieser Alternativen ist im QTI 1.2 mit Semikolon und im QTI 2.1 mit Komma. Bei der Konvertierung wird das Trennzeichen geändert.
 
-## QTI1.2 Tests im Kurs ersetzen
+## QTI 1.2 Tests im Kurs ersetzen
 
 Wurde die Lernressource in einen Kurs als Test eingebettet, wird sie nicht automatisch ausgetauscht.
 
@@ -60,3 +60,14 @@ Wenn Sie den Test im neuen Format QTI 2.1 durchführen möchten, können Sie:
 !!! tip "Empfehlung"
 
     Wenn Sie den bestehenden Test austauschen, gehen alle Ergebnisse verloren. Es empfiehlt sich daher, einen neuen Kursbaustein "Test" zu erstellen und die Sichtbarkeit/den Zugriff auf den alten Test zu beschränken.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)
+
+**Weiterführend**<br>
+[Tests erstellen >](Test.de.md)<br>
+[Fragenpool: Fragen verwenden >](../area_modules/Question_bank_possible_operations.de.md)
+
+[Zum Seitenanfang ^](#qti_conversion)

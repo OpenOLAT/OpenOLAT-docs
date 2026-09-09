@@ -5,34 +5,34 @@ embedding it in your course and activating it for your participants.
 
 ## Step 1: Start course editor and insert CP course element  
 
- - Search for your course in "Authoring", section "My entries," and open it.
-![open-course](assets/opencourse.gif){ class="shadow" }
- - Click on **"Course editor"** in the drop-down menu "Administration" in the toolbar.  
- - Select position at which your CP course element should be inserted by clicking on it.  
- - Select "CP learning content" in the pop-up **"Insert course elements"** in the toolbar.  
+ - Search for your course in "Authoring", section "My courses," and open it.
+![Select the course to open, My courses tab in Authoring](assets/opencourse.gif){ class="shadow lightbox" }
+ - Click on **"Course editor"** in the drop-down menu "Administration" in the toolbar.<br>
+ - Select position at which your CP course element should be inserted by clicking on it.<br>
+ - Select "CP learning content" in the pop-up **"Insert course elements"** in the toolbar.<br>
  - Indicate a short title for your course element in the tab "Title and description" and save your settings.  
-  
+
 ## Step 2: Creating CP learning content  
 
  - Click on **"Select, create or import CP learning content"** in the tab "Learning content."
-![choose-content-package](assets/choosecp.gif){ class="shadow" }
- - Click on "Create" im erscheinenden Dialog rechts oben
+![Select, create or import CP learning content, Learning content tab of the CP course element](assets/choosecp.gif){ class="shadow lightbox" }
+ - Click on "Create" in the top right corner of the dialog that appears.<br>
  - Indicate the title of your CP and click on "Create".  
-  
- Die Lernressource CP ist nun angelegt und Sie können sie über den Link "Editieren" bearbeiten. Alternativ kann die erstellte Lernressource auch direkt im Autorenbereich aufgerufen und bearbeitet werden. 
+
+ The CP learning resource is now created and you can edit it via the "Edit" link. Alternatively, you can also access and edit the newly created learning resource directly in the authoring area. 
 
 ## Step 3: Edit and save CP  
 
  - Click on "Edit."
-    
-    ![edit-content-package](assets/editcp.gif){ class="shadow" }
+
+    ![Edit button for the selected CP learning content, CP learning content selection area](assets/editcp.gif){ class="shadow lightbox" }
 
      Now you are in the learning resource CP. It is opened in a new OpenOlat tab.
 
  - Open the **CP-Editor**:
- 
+
     Go to the menu "Administration" of the CP learning resource and select **"Edit content"**. This way you get to the CP editor. Here you can edit, format and save the content using the HTML editor. You can also upload new pages and files to design your CP. Create a structured hypertext with multiple pages here.   
- 
+
  - When you have made all the desired changes, select "save" and close the CP-editor. 
 
 More information on the available editor features can be found in the **[CP Editor](../learningresources/CP_Editor.md)** chapter.
@@ -59,3 +59,10 @@ To edit the CP further, you can always start again at step 3 or access the learn
 
 !!! tip "Alternative Way"
     A Content Package can be created just like any other learning resource in the author area and then integrated into the desired course. This procedure is recommended to understand that learning resources are cross-course tools and that integration into the selected course is only one possibility. The same CP can be integrated and used in several OpenOlat courses.
+
+## Further information {: #further_information}
+
+[Create CP learning content >](../learningresources/CP_Editor.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)
+
+[To the top of the page ^](#in-five-steps-to-your-content-package)

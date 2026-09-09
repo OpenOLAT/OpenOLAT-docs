@@ -12,7 +12,7 @@ Dabei ist die Test Ebene die oberste Ebene. Der Test kann dann mehrere Parts ent
 
 **Sektionen** werden zur Gliederung Ihres Tests verwendet. Häufig werden zum Beispiel zuerst einleitende Fragen gestellt und dafür eine Sektion "Allgemeines" erstellt. Ihr Test kann aus beliebig vielen Sektionen bestehen. Eine Verschachtelung mehrerer Sektionen untereinander ist möglich.
 
-Wenn Sie eine neue Sektion oder einen weiteren Part hinzufügen möchten, wählen Sie oben im Dropdown-Menü `Elemente hinzufügen > Sektion` bzw. `Test-Part`. Anschließend können Sie der Sektion konkrete Fragen zuordnen.
+Wenn Sie eine neue Sektion oder einen weiteren Part hinzufügen möchten, wählen Sie oben im Dropdown-Menü `Elemente hinzufügen > Sektion` bzw. `Test-Part`. Anschliessend können Sie der Sektion konkrete Fragen zuordnen.
 
 Im Folgenden werden die Einstellungsmöglichkeiten auf den drei Ebenen erläutert:
 
@@ -20,7 +20,7 @@ Im Folgenden werden die Einstellungsmöglichkeiten auf den drei Ebenen erläuter
 
 Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Zudem können folgende Konfigurationen ausgewählt werden:
 
-![Test Konfiguration](assets/test_configuration_DE.png){ class="shadow lightbox" }
+![Titel und Punkteschwelle eines Tests festlegen im Tab Testkonfiguration des Testeditors](assets/test_configuration_DE.png){ class="shadow lightbox" }
 
 ### Tab Testkonfiguration
 
@@ -28,7 +28,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 * **Bestanden / Nicht bestanden ausgegeben:** Aktivieren Sie das Feld, wenn für den Test ein "bestanden" bzw. "nicht bestanden" angezeigt werden soll.
 * **Art der Ausgabe:** Wenn bestanden / nicht bestanden aktiviert wurde kann hier definiert werden, ob die Ausgabe automatisch durch eine Punktschwelle oder manuell von einem Lehrenden übernommen werden soll.
 * **Punktschwelle für "Bestanden":** Geben Sie hier die Punktzahl die mindestens notwendig ist, damit der Test als bestanden gilt.
-* **Zeitbeschränkung:** Die Zeitbeschränkung kann für den gesamten Test definiert werden. Es können Stunden und Minuten definiert werden. Dem User wird oberhalb des Tests angezeigt, wieviel Zeit ihm noch zur Verfügung steht. Durch die farbliche Hervorhebung wir zusätzlich das nahende Ende des Tests verdeutlicht. Eine Zeitbeschränkung für eine Sektion oder einzelne Fragen ist nicht möglich.
+* **Zeitbeschränkung:** Die Zeitbeschränkung kann für den gesamten Test definiert werden. Es können Stunden und Minuten definiert werden. Der Testperson wird oberhalb des Tests angezeigt, wieviel Zeit ihr noch zur Verfügung steht. Durch die farbliche Hervorhebung wird zusätzlich das nahende Ende des Tests verdeutlicht. Eine Zeitbeschränkung für eine Sektion oder einzelne Fragen ist nicht möglich.
 
     Sobald die Zeit abgelaufen ist, wird der Test eingezogen. Antworten, welche noch nicht gesendet wurden, werden als leere, nicht beantwortete Fragen behandelt und geben keine Punkte. Es wird nicht nachgefragt, ob die Frage gespeichert werden soll oder nicht. Das Feedback über den gesamten Test und der Rückblick gehören der Zeiterfassung an.
 
@@ -38,14 +38,14 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 ### Tab Feedback
 
-* **Notwendige Punktzahl für "Bestanden" erreicht:** Geben Sie hier ein Gesamtfeedback ein, wenn die Punktzahl für bestanden erreicht ist.  
-* **Notwendige Punktzahl für "Bestanden" _nicht_ erreicht:** Tragen sie hier ein Gesamtfeedback ein, wenn die Punktzahl nicht ausreicht.  
-  
+* **Notwendige Punktzahl für "Bestanden" erreicht:** Geben Sie hier ein Gesamtfeedback ein, wenn die Punktzahl für bestanden erreicht ist.
+* **Notwendige Punktzahl für "Bestanden" _nicht_ erreicht:** Tragen sie hier ein Gesamtfeedback ein, wenn die Punktzahl nicht ausreicht.
+
 ### Tab Expert {: #expert} [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
 Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde) können folgende Konfigurationen vorgenommen werden:
 
-![Tab Expert](assets/expert_DE.jpg){ class="shadow" }
+![Navigation, Lösungsversuche, Kommentar und Rückblick einstellen im Tab Expert des Testeditors](assets/expert_DE.jpg){ class="shadow lightbox" }
 
 * **Navigation:**
 
@@ -55,16 +55,16 @@ Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde) k�
 * **Anzahl Versuche einschränken** Wenn nur eine gewisse Anzahl an Lösungsversuchen zulässig sein soll, kann dies hier definiert werden. Diese Einschränkung gilt jedoch nur für den Testpart. Wenn die Anzahl Lösungsversuche für den gesamten Test eingeschränkt werden sollen, muss dies unter Optionen oder im Kursbaustein Test vorgenommen werden. Enthält ein Test nur einen Test-Part gilt die Einstellung ebenfalls für den gesamten Test.
 
     Wenn die Anzahl Lösungsversuche auf Ebene Test oder Part eingeschränkt wird, vererbt sich diese Einschränkung auf alle darunter liegenden Sektionen und Fragen.
-  
+
 * **Fragen überspringen erlauben:** Wenn dieser Menü Punkt gewählt ist, kann der Test beendet werden, bevor alle Fragen beantwortet sind.
 
-* **Kommentar erlauben:** Die Testteilnehmer können sich persönliche Notizen machen, welche nach dem Beenden des Tests nicht mehr zur Verfügung stehen und nicht ausgewertet werden. Diese Funktion kann nur gewählt werden, wenn unter Optionen "Persönliche Notizen" ausgewählt ist.
+* **Kommentar erlauben:** Die Testperson kann sich persönliche Notizen machen, welche nach dem Beenden des Tests nicht mehr zur Verfügung stehen und nicht ausgewertet werden. Diese Funktion kann nur gewählt werden, wenn unter Optionen "Persönliche Notizen" ausgewählt ist.
 
 * **Rückblick erlauben:** Nach dem Beenden des Tests kann der Test und die Antworten nochmals angeschaut, aber nicht mehr korrigiert werden.
 
-* **Lösung anzeigen:** Beim Rückblick werden zusätzlich die Lösungen angezeigt. Diese Funktion ist nur möglich, wenn "Rückblick erlauben" ausgewählt ist.  
-  
-## Part Ebene  
+* **Lösung anzeigen:** Beim Rückblick werden zusätzlich die Lösungen angezeigt. Diese Funktion ist nur möglich, wenn "Rückblick erlauben" ausgewählt ist.
+
+## Part Ebene
 
 Auf der Ebene Part verhält es sich praktisch wie auf der Ebene des Tests. Jeder erstellte Test besteht aus einem Part. Dieser wird jedoch zunächst nicht separat dargestellt. Die Parts sind erst sichtbar, wenn mindestens ein weiterer Part hinzugefügt wird und der Test somit aus mindestens zwei Parts besteht.
 
@@ -80,7 +80,13 @@ Der Tab "Expert" der Test oder Part Ebene kann auf Sektionsebene noch einmal üb
 
 Ist die Sichtbarkeit des Sektionstitels im Tab "Expert" aktiviert, so wird auch die jeweilige Sektionsbeschreibung an folgenden Stellen in OpenOlat angezeigt:
 
-* Im Test, wenn eine zur Sektion zugehörige Frage aufgerufen wird. Die Sektionsbeschreibung kann vom Teilnehmer aus- und eingeblendet werden.
+* Im Test, wenn eine zur Sektion zugehörige Frage aufgerufen wird. Die Sektionsbeschreibung kann von der Testperson aus- und eingeblendet werden.
 * In den Testresultaten.
 * Im Korrektur-Workflow an den zu dieser Sektion gehörenden Fragen.
 * Keine Stichwörter
+
+## Weiterführende Informationen {: #further_information}
+
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+
+[Zum Seitenanfang ^](#test-konfigurieren)

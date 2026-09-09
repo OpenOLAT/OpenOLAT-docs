@@ -9,7 +9,7 @@ Verfügbar seit | Neuauflage mit Release 19.1
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von Dateien zum Download (z.B. Material zum Kurs)
 Bewertbar | nein
-Spezialität / Hinweis | Ein ähnlicher Kursbaustein ist der Kursbaustein "Teilnehmer Ordner". 
+Spezialität / Hinweis | Ein ähnlicher Kursbaustein ist der Kursbaustein "Teilnehmer:innen Ordner". 
 
 
 Der Kursbaustein "Ordner" ermöglicht es Lehrenden, Dateien zum Download bereitzustellen. Häufig werden hier Kursmaterialien wie Folien oder Skripte hinterlegt. Der "Ordner" kann aber auch als kollaboratives Werkzeug für den Dateiupload durch Lernende konfiguriert werden.
@@ -21,13 +21,13 @@ Der Kursbaustein "Ordner" ermöglicht es Lehrenden, Dateien zum Download bereitz
 ### Tab Lernpfad {: #tab_learning_path}
 
 === "Tab Lernpfad mit fixen Zeitangaben"
-    
-    ![course_element_folder_tab_learning_path_v1_de.png](assets/course_element_folder_tab_learning_path_v1_de.png){ class="shadow lightbox" }
+
+    ![Freigabedatum und Zu bearbeiten bis mit festen Datums- und Zeitfeldern, Erledigungskriterium Kursbaustein öffnen: Tab Lernpfad mit fixen Zeitangaben](assets/course_element_folder_tab_learning_path_v1_de.png){ class="shadow lightbox" }
 
 
 === "Tab Lernpfad mit relativen Zeitangaben"
 
-    ![Kursbaustein Ordner](assets/course_element_folder_tab_learning_path_relativ_v1_de.png){ class="shadow lightbox" } 
+    ![Relatives Datum aktiviert, Freigabedatum und Zu bearbeiten bis als Tage nach Erster Kursbesuch des Teilnehmenden: Tab Lernpfad mit relativen Zeitangaben](assets/course_element_folder_tab_learning_path_relativ_v1_de.png){ class="shadow lightbox" } 
 
 
 
@@ -55,15 +55,15 @@ Hier kann eingetragen werden, wie lang der/die Autor:in die Bearbeitungszeit fü
 
 
 **Erledigungskriterium**<br>
-Hier bestimmen Sie, wodurch der Kursbaustein im Kursmenü als "erledigt" markiert wird.
+Hier bestimmen Sie, wodurch der Kursbaustein im Kursmenü als "erledigt" markiert wird. Zur Wahl stehen "Kursbaustein öffnen" und "Bestätigung durch Benutzer:in".
 
 ---
 
 ### Tab Ordnerkonfiguration {: #tab_folder_config}
 
-![course_element_folder_tab_folder_config_v1_de.png](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox"}
+![Ablageort automatisch generiert oder aus dem Kurs gewählt, Vollzugriff-Checkbox für Betreuer:innen aktiv, für Teilnehmer:innen inaktiv: Tab Ordnerkonfiguration im Kurseditor](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox"}
 
-![1_green_24.png](assets/1_green_24.png) **Ordner wählen**<br>
+![1](assets/1_green_24.png) **Ordner wählen**<br>
 Im Tab "Ordnerkonfiguration" legen Sie fest, *wo* die Dateien dieses Ordners im Ablageordner des Kurses gespeichert werden sollen. OpenOlat kann dafür entweder automatisch einen neuen Ordner erstellen, oder Sie wählen einen bereits vorhandenen Ordner im Ablagebereich des Kurses aus.
 
 Wird die Option **"Automatisch generierter Ordner"** gewählt, legt OpenOlat im Menü "Dateien" den Unterordner "_courselementdata" an inklusive eines Unterordners mit dem Namen des jeweiligen Kursbaustein "Ordners" entlang der Navigationsstruktur. Alle Dateien des Kursbausteins werden nun hier gespeichert.
@@ -72,16 +72,16 @@ Wählt man **"Ordner aus Ablageordner des Kurses verwenden"** kann ein bereits e
 
 <br>
 
-![2_green_24.png](assets/2_green_24.png) **Dateien hochladen**<br>
+![2](assets/2_green_24.png) **Dateien hochladen**<br>
 Nachdem der konkrete Ablageort gewählt ist können Sie über den Button "Ordner verwalten" im Bereich "Dateien hochladen" Ihre Dateien hochladen oder erstellen. 
 
-![Dateien upload](assets/KB_Ordner_Datei_upload.png )
+![Aufgeklapptes Menü Dateien hochladen mit fünf Optionen von Aus File Hub hinzufügen bis Audio aufzeichnen: Vorschau des Kursbausteins Ordner](assets/KB_Ordner_Datei_upload.png){ class="shadow lightbox" }
 
 Ein Zugriff auf diesen Dateibereich ist auch bei geschlossenem Kurseditor möglich (siehe unten).
 
 <br>
 
-![3_green_24.png](assets/3_green_24.png) **Benutzerberechtigungen**<br>
+![3](assets/3_green_24.png) **Benutzerberechtigungen**<br>
 Unter "Berechtigungen" kann definiert werden, wer Dateien in dem Kursbaustein Ordner hochladen und erstellen darf. Standardmässig dürfen neben den Besitzer:innen auch Betreuer:innen, aber nicht die Teilnehmer:innen Dateien hochladen.
 
 Über die erweiterte Konfiguration kann ferner die Bereitstellung von Dateien auch für bestimmte Gruppen, z.B. für Assistenten oder Hiwis oder auch nur für einzelne Personen definiert werden. 
@@ -90,7 +90,7 @@ Unter "Berechtigungen" kann definiert werden, wer Dateien in dem Kursbaustein Or
 
 ## Ansicht bei geschlossenem Kurseditor {: #view_with_editor_closed}
 
-![folder screenshot](assets/Kursbasutein_Ordner_191a.jpg)
+![Dateiliste mit Aktionen wie Herunterladen und Zippen, Spalten für Dateistatus und Lizenz: Ansicht bei geschlossenem Kurseditor](assets/Kursbasutein_Ordner_191a.jpg){ class="shadow lightbox" }
 
 Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprechenden Berechtigung zur Verfügung:
 
@@ -99,13 +99,13 @@ Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprech
 **Dateien hochladen:** Wählen Sie eine Datei von Ihrer Festplatte aus. Klicken Sie auf den kleinen Pfeil nach unten, um zusätzliche Optionen zu sehen (vergl. Screenshot "Dateien hochladen"):
 
  * **Aus File Hub hinzufügen:** Greifen Sie auf den [File Hub](../personal_menu/File_Hub.de.md) sowie auf Ihre Ordner und Dateien zu. Sie können auch auf Ihr [Media Center](../personal_menu/Media_Center.de.md) zugreifen und Dateien direkt in den File Hub hochladen.
-  
+
 * **Dokument erstellen:** Je nach aktivierten Editoren (z.B. Word, Excel, PowerPoint, Diagramme, Whiteboard, Text, HTML, CSS, XML) können Sie hier neue Dokumente erstellen und diese mit einer Beschreibung, Lizenz und weiteren Metadaten versehen.
-  
+
 * **Ordner erstellen:** Erstellt einen neuen Unterordner im Kursbaustein.
-  
+
 * **Video aufzeichnen:** Zeichnen Sie ein Video mit der Webcam auf.
-  
+
 * **Audio aufzeichnen:** Nehmen Sie eine Audiodatei auf.
 
 ---
@@ -134,7 +134,16 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 
 ## Weiterführende Informationen {: #further_information}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
+[Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
+[Volltextsuche >](../basic_concepts/Full_Text_Search.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Lernpfad Kurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)
 
-[Lernpfad Kurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)<br>
+**youtube**<br>
+[Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>)
+
+[Zum Seitenanfang ^](#folder)
 

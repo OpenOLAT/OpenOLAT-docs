@@ -12,23 +12,27 @@ Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie entweder direkt in OpenOlat erstellen, was im Kapitel "[Wie erstelle ich ein Content Package?](../../manual_how-to/content_package/content_package.de.md)" erklärt wird. Oder Sie erstellen das CP extern.
+Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie entweder direkt in OpenOlat erstellen, was im Kapitel "[Wie erstelle ich ein Content Package?](../../../manual_how-to/docs/content_package/content_package.de.md)" erklärt wird. Oder Sie erstellen das CP extern.
 
 ## Tab Lerninhalt :octicons-tag-16:{ title="Neuauflage ab Release 16.2" } {: #tab_learning_content}
 
 Im Kurseditor wird der Kursbaustein "CP-Lerninhalt" als einzelner Kursbaustein angezeigt, dessen Inhalt (das Content Package) erstellt, bearbeitet oder ausgetauscht werden kann.
 
-![course_element_cp_learning_content_tab_content1_v1_de](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" }
+![Content Package myCP mit Checkbox CP-Navigation im Kurs-Menü integrieren, im Tab Lerninhalt](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" }
 
 Das Content Package selbst besteht jedoch in der Regel dann aus mehreren Seiten. Die Struktur dieses Inhalt wird direkt im OpenOlat-Menü angezeigt, wenn die Option **"CP-Navigation ins Kurs-Menü integrieren"** aktiviert ist.<br>
 Ansonsten ist die Struktur für Teilnehmer:innen nicht sichtbar. Sie können dann nach Aufruf des Kursbausteins mit separaten Buttons rechts oben im Content durch die Inhaltsseiten des CP navigieren. 
 
-![course_element_cp_learning_content_tab_content2_v1_de](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" }
+![CP-Seiten als eigene Einträge im Kursmenü, weil CP-Navigation integriert ist](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" }
 
-![course_element_cp_learning_content_tab_content3_v1_de](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" }
+![Pfeile zum Navigieren durch die CP-Seiten, ohne Struktur im Kursmenü](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" }
 
+## Weiterführende Informationen {: #further_information}
 
-## Weiterführende Informationen
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../../manual_how-to/docs/content_package/content_package.de.md)
 
-[Erstellen und Bearbeiten eines Content Packages >](../learningresources/CP_Editor.de.md)<br>
-[Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../manual_how-to/content_package/content_package.de.md)
+**Weiterführend**<br>
+[Erstellen und Bearbeiten eines Content Packages >](../learningresources/CP_Editor.de.md)
+
+[Zum Seitenanfang ^](#CP_learning_content)

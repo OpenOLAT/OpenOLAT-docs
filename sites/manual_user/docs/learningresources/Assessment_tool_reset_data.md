@@ -13,19 +13,19 @@ Before the data is permanently reset, the old results can be downloaded and save
 
 ### Securing the entire course {: #backup_course}
 
-In the (course) administration under **Archiving & Reports**, you can generate reports of the course results. 
+Under `Course > Administration > Archiving & Reporting` you can generate reports of the course results. 
 
-![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
+![Course archiving with the options "All archives", "Complete archives" and "Partial archives", in the archiving area of the course administration](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" }
 
 ### Saving a course element "Test" {: #backup_test}
 
 The data for a course element "Test" can be downloaded and saved as a zip file in the assessment tool.
 
-![assessment_tool_reset_data_backup_course_element_test1_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
+![Button "Export results" in the toolbar, in the "Participants" tab of the assessment tool for the course element "Test"](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
 
 The generated zip files are then listed at the bottom of the screen and can be downloaded.
 
-![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
+![Export options "Standard" and "Advanced - with PDF" plus a list of already generated export files for download, in the "Export results" dialog](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reset_data)
 
@@ -49,13 +49,13 @@ The generated zip files are then listed at the bottom of the screen and can be d
 
 ## Reset data with Wizard {: #wizard}
 
-![assessment_tool_reset_data_wizard1_v1_de.png](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
+![Button "Reset data" at the top right, in the "Overview" tab of the assessment tool](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
 
-![assessment_tool_reset_data_wizard2_v1_de.png](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
+![First wizard step "General selection" with the choice between "Entire course"/"Selected course elements" and "All participants"/"Selected participants"](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
 
 If you select the options "Selected participants" and "Selected course elements" in the wizard, you will be guided through the sub-steps in the wizard and asked again at the end whether you want to proceed with the reset.
 
-![assessment_tool_reset_data_wizard3_v1_de.png](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
+![List of course elements to check, in the wizard step "Select course elements"](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page  ^](#reset_data)
 
@@ -66,7 +66,7 @@ If you select the options "Selected participants" and "Selected course elements"
 
 ### Reset in the assessment tool {: #members_assessment_tool}
 
-![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
+![Steps 1 to 4 marked: select course element, "Participants" tab, checkbox selection and "Reset data" button, in the assessment tool](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
 
 1. Open course → Administration → Assessment tool → Select course element<br>
 (When you click on the root element of the course (top level), the following steps apply to all course elements.)
@@ -81,15 +81,15 @@ After clicking on the "Reset data" button, the data of the selected persons will
 
 1. Open course → Administration → Select Learning Path Tool
 
-![assessment_tool_reset_data_member2_v1_de.png](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
+![Menu item "Learning path" highlighted in the course toolbar](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
 
 2. A list of participants will open. Select a participant from the table.
 
-![assessment_tool_reset_data_member3_v1_de.png](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
+![List of participants with progress and pass status, in the course's learning path tool](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
 
 3. Click on the three-dot icon at the end of a line. There you will find the option "Reset data". You can reset data for individual course elements or for the course as a whole by selecting the top icon for the entire course.
 
-![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
+![Context menu of a participant with the "Reset data" option, in the learning path detail view](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page  ^](#reset_data)
 
@@ -161,7 +161,7 @@ The performance record is versioned at the time of the reset. It remains visible
 ---
 
 
-### Impact on evidence of achievement {: #impact_on_evidence_of_achievements}
+### Impact on certificates {: #impact_on_certificates}
 
 If the entire course is reset, the certificate will be reissued after successful completion of the course. 
 
@@ -172,7 +172,7 @@ Once acquired, certificates are stored with the participant's data and can still
 ---
 
 
-### Course elements
+### Impact on course elements {: #impact_on_course_elements}
 
 Resetting the data has an individual effect on the course elements.
 
@@ -202,6 +202,7 @@ Survey | Reset for all participants: Reset and export to archive; Reset for indi
 Task | All workflow data (assignment, documents, extensions) reset; Export of all documents to archive
 Test | All attempts reset; Test executions remain and are marked as invalid; Export of test results to archive
 Topic Assignment | Topic assignments are removed
+Topic Broker | Assignments and enrollments are reset
 Video task | All attempts reset; Executions remain and are marked as invalid; Export test results to archive
 Wiki | Entries remain
 
@@ -229,34 +230,19 @@ The following items will not be deleted during the reset process:
 ---
 
 
-## Recalculate data {: #recalculate}
-
-!!! info "Note"
-
-    This feature has been removed as of release 20.2 because it is no longer necessary.
-
-This link in the menu can be used to trigger a recalculation of the course. This allows course grades and performance records to be updated, and the calculation for "pass" and manually set "pass" to be reset.
-
-![Daten neu berechnen](assets/neu_berechnen1.jpg)
-
-[To the top of the page  ^](#reset_data)
-
----
-
-
-## Difference: “Reset data” - “Delete all data” {: #reset_vs_delete}
+## Difference: "Reset data" - "Delete all data" {: #reset_vs_delete}
 
 
 If you have selected a test course module in the assessment tool, you have the option to either reset or delete the data. What are the differences?
 
-![assessment_tool_reset_data_distinguish_v1_de.png](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
+![Three controls marked: "Reset data" with wizard, "Reset data" without wizard and "Delete all data", in the assessment tool of a course element "Test"](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
 
 
-| ![1_green_24.png](assets/1_green_24.png)<br>Reset data<br>mit Wizard| ![2_green_24.png](assets/2_green_24.png)<br>Reset data of selected participants without wizard | ![3_green_24.png](assets/3_green_24.png)<br>Delete all data<br>&nbsp; |
+| ![1](assets/1_green_24.png)<br>Reset data<br>with wizard| ![2](assets/2_green_24.png)<br>Reset data of selected participants without wizard | ![3](assets/3_green_24.png)<br>Delete all data<br>&nbsp; |
 | ----------------- | ----------------- | ----------------- |
 | With this button you open the wizard.<br>According to the instructions provided there, the data will then be reset. | This button resets only the data for the selected participants.<br>&nbsp; | Clicking this button will completely delete all entries made so far in this course module by all participants. |
 |<b>Example: |<b>Everyone has three chances to pass the test.| |
-| Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool. |  Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool.| All data from previous attempts to solve the test (“test runs”) will be deleted for all participants.<br>&nbsp;<br>&nbsp; |
+| Clicking "Reset Data" will reset the number of attempts made so far to 0. "Passed" and other statuses will also be reset. However, the data from previous attempts ("test runs") will be retained and will remain visible in the assessment tool. |  Clicking "Reset Data" will reset the number of attempts made so far to 0. "Passed" and other statuses will also be reset. However, the data from previous attempts ("test runs") will be retained and will remain visible in the assessment tool.| All data from previous attempts to solve the test ("test runs") will be deleted for all participants.<br>&nbsp;<br>&nbsp; |
 
 
 [To the top of the page ^](#reset_data)
@@ -266,9 +252,9 @@ If you have selected a test course module in the assessment tool, you have the o
 
 ## Further information {: #further_information}
 
-[Assessment tool - Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
-[Delete course >](../../manual_user/learningresources/Course_Delete.md)<br>
-[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
+[Assessment tool - Tab Participants >](Assessment_tool_tab_Users.md)<br>
+[Delete course >](Course_Delete.md)<br>
+[Delete user >](../../../manual_admin/docs/usermanagement/Delete_User.md)<br>
 
 [To the top of the page ^](#reset_data)
 

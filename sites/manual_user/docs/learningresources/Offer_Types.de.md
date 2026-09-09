@@ -2,10 +2,10 @@
 
 
 Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, benötigt es jeweils ein Angebot.
-Angebote können erstellt werden unter: 
-**Administration > Einstellungen > Freigabe > Bereich "Angebote"**
+Angebote können erstellt werden unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Bereich "Angebot"`
 
-Sind Angebote erstellt worden, können sie auch in der **(Kurs-)Administration unter "Angebotsarten"** nachgesehen werden.<br>
+Sind Angebote erstellt worden, können sie auch unter `Kurs > Administration > Angebotsarten` nachgesehen werden.
 
 
 ## Die Angebotsarten/-typen
@@ -27,9 +27,9 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 
 ## Angebotsarten für einzelne Kurse
 
-![offer_types_course1_v1_de.png](assets/offer_types_course1_v1_de.png){ class="shadow lightbox" }
+![Bereich Angebot im Tab Freigabe mit den Buttons Zugangscode, Frei verfügbar, PayPal Checkout und Ohne Buchung](assets/offer_types_course1_v1_de.png){ class="shadow lightbox" }
 
-![offer_types_course2_v1_de.png](assets/offer_types_course2_v1_de.png){ class="shadow lightbox" }
+![Dialog Angebot hinzufügen mit den Angebotsarten Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout](assets/offer_types_course2_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -40,9 +40,9 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 
 ## Angebotsarten für Durchführungen (im Course Planner)
 
-![offer_types_course_planner1_v1_de.png](assets/offer_types_course_planner1_v1_de.png){ class="shadow lightbox" }
+![Bereich Angebot im Tab Katalog der Durchführung mit Zugangscode, Frei verfügbar, PayPal Checkout und Rechnung](assets/offer_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
-![offer_types_course_planner2_v1_de.png](assets/offer_types_course_planner2_v1_de.png){ class="shadow lightbox" }
+![Dialog Angebot hinzufügen der Durchführung mit Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout](assets/offer_types_course_planner2_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#offer_types)
@@ -54,6 +54,6 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 
 [Zum Katalog >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Zu Angeboten >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
-[Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog)
+[Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 [zum Seitenanfang ^](#offer_types)

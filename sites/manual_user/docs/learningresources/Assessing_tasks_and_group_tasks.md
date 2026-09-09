@@ -12,7 +12,7 @@ In the tab Participants the participants are displayed and the actual evaluation
 
 **General action options**
 
-![Above the participant list stand the actions "Start new bulk assessment", "Export results", "Export data" and "Statistic"; for each person the list carries Coach, Attempts, Passed, Task, State and last update: tab Participants of the assessment tool](assets/assessment_tool_task_participants_en.png){ class="shadow lightbox" }
+![Buttons "Start new bulk assessment", "Export results", "Export data" and "Statistic" above the participant list: tab Participants of the assessment tool](assets/assessment_tool_task_participants_en.png){ class="shadow lightbox" }
 
 Course coaches and course owners have various action options via the corresponding buttons:
 
@@ -28,23 +28,23 @@ Course coaches and course owners have various action options via the correspondi
 Directly selectable are the options "Export results" as well as to perform a mass evaluation. How to create a mass evaluation for tasks exactly you will learn here in the section [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md).
 For further actions that only apply to certain participants, the desired participants must first be selected before the options are displayed.
 
-![After a row is selected, a bar with six actions for the selected people appears above the list: "Finalize assessment", "Release", "Withdraw release", "Extend", "Export results" and "E-Mail": tab Participants of the assessment tool](assets/assessment_tool_task_bulk_actions_en.png){ class="shadow lightbox" }
+![After selecting a person, six actions appear: "Finalize assessment", "Release", "Withdraw release", "Extend", "Export results" and "E-Mail": assessment tool](assets/assessment_tool_task_bulk_actions_en.png){ class="shadow lightbox" }
 
 ## View submitted documents
 
 Before an assignment can be graded, the coaches or course owners must look at the submissions or submitted documents. This can be done either individually for each participant or in the form of mass evaluation or downloading the submitted documents from several people.
 
-### Submissions of individual users
+### Submissions of individual participants
 
 Once a file has been submitted by a learner via the "final submission" button, it can be opened and viewed by the teacher.
 
 To view the submission of _an individual person_ select that person and click on the submitted file.
 
-![The step Submission is marked "Completed" and lists the submitted file with its submission date, the actions "Open" and "Download" as well as the button "Submitted documents": assessment workflow of an individual person in the assessment tool](assets/Aufgabe_abgegeben.png){ class="shadow lightbox" }
+![Step Submission is marked "Completed", with the submitted file, submission date and the actions "Open", "Download" and "Submitted documents": assessment workflow of a person](assets/Aufgabe_abgegeben.png){ class="shadow lightbox" }
 
 You can find out how to assess the assessment modules of individual persons in general in a [step-by-step guide](Assessment_of_learners.md).
 
-### Submissions from all or multiple users
+### Submissions from all or multiple participants
 
 If many solution attempts have been uploaded or you need to assess many learners, it is recommended to use the "Export results" button to download all solution attempts at once. In the downloaded folder you will also find all the task assignments. 
 
@@ -89,7 +89,7 @@ Once participants have definitely submitted a task, it is no longer possible for
 
 Both learners and teachers can see how far the assessment workflow has progressed by the green ticks next to the individual assessment steps.
 
-Once a submission has been accepted and the user is not to make any more submissions or revisions, the "Accept Submission" button should be confirmed. 
+Once a submission has been accepted and the participant is not to make any more submissions or revisions, the "Accept Submission" button should be confirmed. 
 
 The further assessment actions for the task take place in the lower part in the "Assessment" area, in the actual assessment form. Here points, feedbacks etc. can be deposited. A description of the possibilities can also be found [here](The_assessment_form.md).
 
@@ -105,7 +105,7 @@ The evaluation of submissions via the course element "Group task" is similar to 
 
 In the "Assessment" area, i.e. the actual assessment form, click on the "Assess" button.
 
-![Assignment, submission and return of the group are completed, the step Assessment stands on "Open" and shows the performance overview of both group members with the button "Assess": assessment workflow of a group in the assessment tool](assets/Gruppe_bewerten.png){ class="shadow lightbox" }
+![Assignment, submission and return are completed, step Assessment stands on "Open" with performance overview and button "Assess": assessment workflow of a group in the assessment tool](assets/Gruppe_bewerten.png){ class="shadow lightbox" }
 
 The advantage of a group task is that an assessment can be made for all group members at once using the "Grade" button, but at the same time adjustments can be made for individual group members.
 
@@ -118,6 +118,22 @@ If not the whole group has passed or not all should receive the same score, "For
 
     If other assessable course elements are to be assessed instead of a "group task" for a group, the assessments must be made separately for each group member.
 
-!!! note "Hint"
+!!! note "Note"
 
     In the course run, the assessment of the individual groups is also possible, similar to the course element Task in general.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[How and where can I do a bulk assessment? >](../../manual_how-to/bulk_assessment/bulk_assessment.md)<br>
+[Assessment of learners >](Assessment_of_learners.md)<br>
+[The assessment form >](The_assessment_form.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)
+
+**Further**<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - Tab Users >](Assessment_tool_tab_Users.md)<br>
+[Assessment of course modules >](Assessment_of_course_modules.md)
+
+[To the top of the page ^](#assessing-tasks-and-group-tasks)

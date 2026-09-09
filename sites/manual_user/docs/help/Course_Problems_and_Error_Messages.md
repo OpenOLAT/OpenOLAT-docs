@@ -1,7 +1,7 @@
-#  Course Problems and Error Messages
+# Course Problems and Error Messages {: #course_problems}
 
 If you cannot open a course or single course elements, it may be that the
-course author has not given you the relevant rights or the course is being
+course owner has not given you the relevant rights or the course is being
 updated at that very moment.
 
 ## Authorization/access for the course
@@ -15,18 +15,18 @@ You may have been able to start a course and later encounter the error message
 that permissions have changed. The course owner has subsequently restricted
 course access or closed the course.
 
-If the owner changes the access code to the course at a later point in time,
-however, all those who have logged into the course with the previous password
-will still have access to the course. The situation is different if the
+If the course owner changes the password for the course at a later point in
+time, however, all those who have logged into the course with the previous
+password will still have access to the course. The situation is different if the
 password has been set within the course on a structure element or the top-
 level course element.
 
 If you need access to certain courses and cannot get in, please contact the
-respective owner of the course. He will check your authorization and can then
+respective owner of the course. They will check your authorization and can then
 send you the required password, enter you directly into the course or grant
 you access by other means.
 
-## Authorization / password protection for course elements (for conventional courses).
+## Authorization / password protection for course elements (for conventional courses)
 
 You may not be able to see the entire content of a course, or you may not have
 access to certain course elements. The owner can e.g. release certain course
@@ -36,7 +36,7 @@ password protected. The access protection then applies to all subordinate
 course elements.
 
 If it is unclear to you why you do not have access to these areas, please
-contact the course owner so that he can explain why you do not have
+contact the course owner so that they can explain why you do not have
 permissions.
 
 ## Permissions for sequential learning path courses
@@ -58,9 +58,16 @@ left navigation.
 ## Course Modifications
 
 When working on a course and getting the message that the course has been
-modified, the course author has just updated that course in the meantime.
+modified, the course owner has just updated that course in the meantime.
 Click on the button "Close course and restart" to get to the updated course
 version.
 
-  
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[Roles >](../basic_concepts/Roles.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)
+
+[To the top of the page ^](#course_problems)
 

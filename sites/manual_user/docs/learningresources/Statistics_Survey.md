@@ -1,7 +1,7 @@
 # Survey statistics {: #survey_statistics}
 
 
-![statistics_survey_v1_de.png](assets/statistics_survey_v1_de.png){ class="shadow lightbox" }
+![Menu entry "Survey statistics" in the course administration, with the tabs Overview, Tables, Diagrams and Individual forms](assets/statistics_survey_v1_de.png){ class="shadow lightbox" }
 
 
 The survey statistics allow you to perform a general course-related, anonymized statistical evaluation of your surveys. For each survey there is an overview, tables, diagrams and access to the individual questionnaire forms. It is also possible to export the data as a PDF or Excel table and to print it out.

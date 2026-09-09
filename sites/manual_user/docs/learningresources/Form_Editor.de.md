@@ -10,7 +10,7 @@ Benötigen Sie den Formular-Editor zum Erstellen einer neuen Formular-Lernressou
 
 **Autorenbereich > Erstellen > Formular**
 
-![form_open_editor1_v1_de.png](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" }
+![Neue Formular-Lernressource erstellen über das Menü "Erstellen" im Autorenbereich](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" }
 
 
 <h3> Möglichkeit 2</h3>
@@ -21,7 +21,7 @@ Wählen Sie im Suchergebnis die entsprechende Zeile und klicken Sie am Ende der 
 
 **Autorenbereich öffnen > Formular-Lernressource suchen > editieren**
 
-![form_open_editor2_v1_de.png](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" }
+![Formular-Lernressourcen im Autorenbereich mit dem Filter "Typ" suchen](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" }
 
 
 <h3> Möglichkeit 3</h3>
@@ -30,11 +30,11 @@ Wenn Sie zuerst einen Kursbaustein im Kurseditor einfügen, können Sie in den "
 
 **Kurseditor > Kursbaustein einfügen > Tab Formular > erstellen**
 
-![form_open_editor3_v1_de.png](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
+![Formular-Lernressource im Tab "Formular" des Kursbausteins wählen, erstellen oder importieren](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
 
-Auf die gleiche Art und Weise ist der Formular-Editor auch von anderen Kursbausteinen aus aufrufbar (z.B. [Kursbaustein Umfrage](../learningresources/Form_Editor.de.md)). 
+Auf die gleiche Art und Weise ist der Formular-Editor auch von anderen Kursbausteinen aus aufrufbar (z.B. [Kursbaustein Umfrage](../learningresources/Course_Element_Survey.de.md)). 
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
     Da die Lernressource Formular sehr unterschiedlich verwendet werden kann, ist es sinnvoll schon bei der Vergabe des Titels die spätere Verwendung zur berücksichtigen, z.B. ein passendes Kürzel voranzustellen. Das erleichtert später das Auffinden und Zuordnen.
 
@@ -46,7 +46,7 @@ Auf die gleiche Art und Weise ist der Formular-Editor auch von anderen Kursbaust
 
 Nach dem Aufruf des Editors ist das neue Formular zunächst noch leer. Fügen Sie als Erstes ein neues Layout hinzu.
 
-![form_edit_new_layout_v1_de.png](assets/form_edit_new_layout_v1_de.png){ class="shadow lightbox" }
+![Neues Layout einfügen im leeren Formular-Editor](assets/form_edit_new_layout_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -58,7 +58,7 @@ Ein Layout ist ein übergeordneter Block, der unterschiedliche Strukturierungen 
 
 Aktuell sind folgende Layoutvorlagen verfügbar:
 
-![form_layoutblock_template_V1.jpg](assets/form_layoutblock_template_V1.jpg)
+![Verfügbare Layoutvorlagen mit unterschiedlicher Spalten- und Zeilenaufteilung](assets/form_layoutblock_template_V1.jpg){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#editor)
 
@@ -74,7 +74,7 @@ Um den Inspektor für ein Layout anzuzeigen,<br>
 
 Weitere Optionen zum Bearbeiten dieses Layouts finden Sie in den Icons rechts daneben (Duplizieren, Löschen, Verschieben).
 
-![form_layout_inspector_v1_de.png](assets/form_layout_inspector_v1_de.png){ class="shadow lightbox" }
+![Inspektor-Popup zum Bearbeiten eines Layouts mit Layoutvorlage, Name und Style](assets/form_layout_inspector_v1_de.png){ class="shadow lightbox" }
 
 
 !!! info "Kann ich ein bestehendes Layout noch ändern?"
@@ -93,19 +93,19 @@ Es können mehrere Inhaltselemente in einem Layoutbereich eingefügt werden.
 
 Das neue Element wird in dem Layoutbereich eingefügt, in dem sich der Button befindet.
 
-![form_content_add_v1_de.png](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
+![Inhaltselement über den Button "Inhalt hinzufügen" in einem Layoutbereich einfügen](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#editor)
 
 ---
 
-### Verfügbare Inhalteselemente {: #content_elements} 
+### Verfügbare Inhaltselemente {: #content_elements} 
 
 
-![form_content_types_v1_de.png](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
+![Verfügbare Inhaltselemente im Dialog "Inhalt hinzufügen", gegliedert nach Text, Fragetypen, Organisatorisch, Medien und Design](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
 
-Eine Beschreibung der Inhaltelemente finden Sie [hier >](Form_Elements.de.md#form_element_title)<br>
+Eine Beschreibung der Inhaltselemente finden Sie [hier >](Form_Elements.de.md#form_element_title)<br>
 
 [zum Seitenanfang ^](#editor)
 
@@ -117,7 +117,7 @@ Die Einstellungen zu den jeweiligen Blöcken befinden sich (wie beim Layout) im 
 
 Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
 
-![form_content_inspector_v1_de.png](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
+![Inspektor eines Textelements rechts neben dem selektierten Block mit Tab "Style"](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
 
 Je nach gewähltem Inhaltsblock werden im Inspektor verschiedene Optionen angezeigt.
 
@@ -125,13 +125,13 @@ Je nach gewähltem Inhaltsblock werden im Inspektor verschiedene Optionen angeze
 
 Hier können Sie für den Titel eine vordefinierte Schriftgrösse wählen.
 
-![form_content_title_style_v1_de.png](assets/form_content_title_style_v1_de.png){ class="shadow lightbox" }
+![Schriftgrösse des Titels wählen im Tab "Style" des Inspektors](assets/form_content_title_style_v1_de.png){ class="shadow lightbox" }
 
 **Beispiel Inspektor zum Titel, Tab "Layout"**
 
 Hier können Sie die Grösse des Abstands zwischen den Inhaltsblöcken wählen. (Vergleichbar einem "leeren Rahmen" um das Inhaltselement.)
 
-![form_content_title_layout_v1_de.png](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
+![Abstand zwischen den Inhaltsblöcken wählen im Tab "Layout" des Inspektors](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#editor)
@@ -142,7 +142,7 @@ Hier können Sie die Grösse des Abstands zwischen den Inhaltsblöcken wählen. 
 
 Unter den Icons in der linken oberen Ecke - sie erscheinen sobald ein Inhaltselement ausgewählt ist - befindet sich auch ein Doppelkreuz. Wenn Sie den Mauszeiger darauf positionieren, können Sie mit gedrückter Maustaste das Inhaltselement an eine andere Position im Layout verschieben. Das ist über die verschiedenen Layoutbereiche hinweg möglich. 
 
-![form_content_move_v1_de.png](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
+![Inhaltselement mit dem Doppelkreuz-Icon an eine andere Position im Layout verschieben](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#editor)
 
@@ -154,7 +154,7 @@ Um für die Formular-Lernressource als Ganzes Einstellungen vorzunehmen, verlass
 
 Wählen Sie für die Konfiguration **Administration > Einstellungen**.
 
-![form_config_v1_de.png](assets/form_config_v1_de.png){ class="shadow lightbox" }
+![Konfiguration der Formular-Lernressource öffnen über "Administration" > "Einstellungen"](assets/form_config_v1_de.png){ class="shadow lightbox" }
 
 Sie können hier die Konfiguration vornehmen, wie Sie es von anderen Lernressourcen kennen.
 
@@ -171,11 +171,11 @@ Sie können hier die Konfiguration vornehmen, wie Sie es von anderen Lernressour
 
 ---
 
-## Tipps zur Nutzung des Formular Editors {: #hints} 
+## Tipps zur Nutzung des Formular-Editors {: #hints} 
 
 Hier noch ein paar Tipps zur Verwendung des Formular-Editors:
 
-* Bei der Wahl des Inhaltselements "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
+* Bei der Wahl des Inhaltselements "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Text" erstellt und den Antworten des passenden Fragetyps zugeordnet.
 * Verwenden Sie [Frageregeln](../learningresources/Form_Question_Rules.de.md), wenn Sie komplexere Formulare mit Verzweigungen erstellen möchten.
 * Vergessen Sie nicht, den Blöcken Namen zu geben, wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
 
@@ -183,9 +183,12 @@ Hier noch ein paar Tipps zur Verwendung des Formular-Editors:
 
 ---
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
+[Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)<br>
+[Formular-Elemente](Form_Elements.de.md)<br>
+[Frageregeln in Formularen](Form_Question_Rules.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Inhaltselemente eines Formulars](Form_Elements.de.md)<br>
-[Das Formular-Element Rubrik](Form_Element_Rubric.de.md)<br>
-[Einrichtung von Frageregeln im Formular](Form_Question_Rules.de.md)<br>
+[Das Formular-Element Rubrik](Form_Element_Rubric.de.md)
+
+[Zum Seitenanfang ^](#editor)

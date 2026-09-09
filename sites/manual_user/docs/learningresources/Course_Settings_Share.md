@@ -35,7 +35,7 @@ For a course in the Course Planner, only the administrative access therefore rem
 
 ![With Use in Course Planner only the administrative access remains, and the share overview counts the owners alone](assets/course_settings_share_cpl_v2_en.png){ class="shadow lightbox"}
 
-!!! note "Note"
+!!! info "Important"
 
     The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisational units module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated.
 
@@ -138,7 +138,7 @@ You can find more information about offers and the catalog here:<br>
 
 ---
 
-## Section LTI 1.3  [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
+## Section LTI 1.3 access configuration [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
 OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, this external access requires security measures and precisely defined permissions.<br>
 In this section, you can set up a deployment to make the course accessible for another LMS.

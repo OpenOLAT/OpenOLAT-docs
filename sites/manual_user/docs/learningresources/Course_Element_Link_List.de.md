@@ -18,5 +18,5 @@ Der Kursbaustein "Linkliste" erlaubt es schnell und einfach eine Linksammlung f�
 
 Beispiel:
 
-![linkliste_beispiel.png](assets/Linkliste.jpg)
+![Linkeinträge mit URL, Fenstermodus, Titel und Beschreibung sowie Schaltflächen zum Löschen und Hinzufügen im Tab Konfiguration der Linkliste](assets/Linkliste.jpg){ class="shadow lightbox" }
 

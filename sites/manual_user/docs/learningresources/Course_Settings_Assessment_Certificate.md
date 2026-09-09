@@ -1,14 +1,14 @@
-# Course Settings - Tab Assessment:<br>Certifikates and recertification {: #tab_assessment_certificate}
+# Course Settings - Tab Assessment:<br>Certificates and recertification {: #certificate_and_recertification}
 
 The configuration of a certificate for a course is done in the course settings in the "Assessment" tab.
 
-![course_settings_assessment_certification_config_v1_de.png](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
+![Path to the certificate configuration via Administration > Settings > Assessment tab, Certificate section with validity period and recertification](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
 
 ## Certificates {: #certificate}
 
 ### What is a certificate? {: #certificate_description}
 
-A **PDF certificate** can be issued as confirmation of attendance at a course or completion of certain course-related activities. It is also possible to issue a certificate without using a transcript of records.
+A **PDF certificate** can be issued as confirmation of attendance at a course or completion of certain course-related activities. It is also possible to issue a certificate without using an evidence of achievement.
 
 In addition to these course certificates, the certificate program can also issue a certificate for attending multiple courses. Such certificates are awarded within the Course Planner (Implementation).
 
@@ -26,7 +26,7 @@ The "manual" option allows certificates to be used even in courses without asses
 
 ### Where can the certificates be viewed? {: #certificate_view}
 
-Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the transcript of records. Users also automatically receive an **email notification** as soon as a certificate has been issued.
+Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. Users also automatically receive an **email notification** as soon as a certificate has been issued.
 
 
 ### How is validity verified? {: #certificate_validation}
@@ -43,7 +43,7 @@ Reminders can be triggered based on the certificate's issue date and expiration 
 
 ### Create certificate template {: #certificate_template}
 
-A system-wide PDF template specified by the administrator is usually used as the template for the certificate. If you want to use your own template, you can upload it in the course under `Administration > Settings > Grading > "Certificate" section > Certificate template`.
+A system-wide PDF template specified by the administrator is usually used as the template for the certificate. If you want to use your own template, you can upload it in the course under `Administration > Settings > Assessment > "Certificate" section > Certificate template`.
 
 !!! note "Note"
 
@@ -54,7 +54,7 @@ A PDF template is not a normal PDF file, but must be created using HTML to ensur
 
 The default template supplied is HTML-based and kept simple. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
-This [certificate bot](https://tools.vcrp.de/zertifikatsbot/) allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot) with the publicly available code (MIT license) is available.
+This [certificate bot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} with the publicly available code (MIT license) is available.
 
 The form fields must contain certain variables that will later be replaced by the system with specific data. All attributes can be used as variables. For PDF templates, the variable names are used without the $ prefix, while for HTML forms, they are used with the $ prefix.
 
@@ -119,7 +119,7 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
 
     _Relative date:_
 
-      Data calculated relative to a raw date can be specified on the certificate.:
+      Data calculated relative to a raw date can be specified on the certificate:
 
       Method and parameter | Example: $dateNextRecertificationRaw = 15.11.2021 
       ---------|----------
@@ -144,7 +144,7 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
 
 If you would like a certificate template, please contact us at [contact@frentix.com](mailto:contact@frentix.com) for a quote for a template tailored to your individual requirements.
 
-[To the top of the page ^](#certificate_and_recertification})
+[To the top of the page ^](#certificate_and_recertification)
 
 ---
 
@@ -170,7 +170,7 @@ The recertification option is linked to
 * an existing previous (initial) certification
 * A defined indication of the earliest date on which recertification is possible.
 
-![course_settings_assessment_recertification_v2_de.png](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+![Assessment settings page with the sections Certificate, Validity period and Recertification](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
 
 ### Activate recertification  {: #recertification_activation}
 
@@ -186,17 +186,25 @@ Before recertification is finally activated, you will be prompted to set up remi
 
 The data of participating individuals will be reset during recertification (course reset).
 
-Performance records and certificates from previous rounds will be retained.
+Evidence of achievement and certificates from previous rounds will be retained.
 
-[To the top of the page ^](#certificate_and_recertification})
+[To the top of the page ^](#certificate_and_recertification)
 
 ---
 
 ## Further information {: #further_information}
 
-[Issue and manage certificates in the assessment tool >](Assessment_tool_overview.md)
+**Mentioned on this page**<br>
+[Certificates program (Certificates for multiple courses) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
+[Issue and manage certificates in the assessment tool >](Assessment_tool_overview.md)<br>
+[Course Reminders >](Course_Reminders.md)<br>
+[Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
+[Zertifikatsbot: Repository >](https://gitlab.vcrp.de/openolat/zertifikatsbot)<br>
+[Learning path course - Course editor >](Learning_path_course_Course_editor.md)
 
-[Certificates program (Certificates for multiple courses) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)
+**Further reading**<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Assessment tool - reset data >](Assessment_tool_reset_data.md)
 
-[To the top of the page ^](#certificate_and_recertification})
+[To the top of the page ^](#certificate_and_recertification)
 

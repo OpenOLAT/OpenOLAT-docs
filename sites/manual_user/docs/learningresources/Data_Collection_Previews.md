@@ -1,6 +1,6 @@
 # Data Collection Preview {: #Data_Collection_Preview}
 
-:octicons-tag-24: Release 18.2
+[:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399)
 
 ## What is a Data Collection Preview?
 
@@ -12,11 +12,11 @@ If a course element has been added to a course in order to record the quality, t
 
 The data collection preview shows the **course owners** which surveys are planned.
 
-![data_collection_preview_menu_v1_de.png](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
+![Menu item "Data collection preview" marked in the "Administration" course menu](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
 
-![data_collection_preview_v1_de.png](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
+![Time span tabs 1 month, 3 months and Custom, and tabs All and Negative list, Data collection preview page](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Note"
+!!! info "Important"
 
     Course owners only have read-only rights here. The quality managers are responsible for planning when data is collected.
 
@@ -25,8 +25,20 @@ If a data collection has been prepared, it usually relates to several courses an
 
 ## Activation
 
-The "Quality management" module must be integrated by an administrator so that data can be collected for quality management purposes. The "Data Collection Preview" option must then be activated within the configuration of the module.
+The "Quality management" module must be integrated by an administrator so that data can be collected for quality management purposes.
 
-The "Data collection preview" option must then be activated within the module configuration. Only then will the option appear for course authors in the "Administration" course menu.
+The "Data collection preview" option must then be activated within the module configuration under `Administration > Modules > Quality Management`. Only then will the option appear for course owners and coaches in the "Administration" course menu.
 
-See [Admin manual](../../manual_admin/administration/Modules_Quality_Management.md).
+See [Module Quality Management](../../manual_admin/administration/Modules_Quality_Management.md).
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Module Quality Management >](../../manual_admin/administration/Modules_Quality_Management.md)
+
+**Further information**<br>
+[Quality Management: Data Collection Preview >](../area_modules/Quality_Management_Data_Collection_Preview.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Quality Management: Data collections >](../area_modules/Quality_Management_Data_Collections.md)
+
+[To the top of the page ^](#Data_Collection_Preview)

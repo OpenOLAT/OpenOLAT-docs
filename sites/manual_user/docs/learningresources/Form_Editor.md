@@ -10,7 +10,7 @@ If you need the form editor to create a new form learning resource, the easiest 
 
 **Authoring > Create > Form**
 
-![form_open_editor1_v1_de.png](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" }
+![Create a new form learning resource via the "Create" menu in the authoring area](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" }
 
 
 <h3> Option 2</h3>
@@ -21,7 +21,7 @@ Select the corresponding line in the search result and click on the edit button 
 
 **Open Authoring > Search for form learning resource > edit**
 
-![form_open_editor2_v1_de.png](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" }
+![Search for form learning resources in the authoring area using the "Type" filter](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" }
 
 
 <h3> Option 3</h3>
@@ -30,11 +30,11 @@ If you first insert a course element in the course editor, you can then insert a
 
 **Course editor > Insert course element > Tab Form > Create**
 
-![form_open_editor3_v1_de.png](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
+![Select, create or import a form learning resource in the "Form" tab of the course element](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
 
-The form editor can also be called up from other course elements in the same way (e.g. [course element Survey](../learningresources/Form_Editor.md)).
+The form editor can also be called up from other course elements in the same way (e.g. [course element Survey](../learningresources/Course_Element_Survey.md)).
 
-!!! hint "Hint"
+!!! tip "Tip"
 
     As the learning resource form can be used in very different ways, it makes sense to consider the later use when assigning the title, e.g. to prefix it with a suitable abbreviation. This makes it easier to find and assign later.
 
@@ -46,7 +46,7 @@ The form editor can also be called up from other course elements in the same way
 
 After calling up the editor, the new form is initially still empty. First add a new layout.
 
-![form_edit_new_layout_v1_de.png](assets/form_edit_new_layout_v1_de.png){ class="shadow lightbox" }
+![Insert a new layout in the empty form editor](assets/form_edit_new_layout_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -58,7 +58,7 @@ A layout is a superordinate block that enables different structuring of the cont
 
 The following layout templates are currently available:
 
-![form_layoutblock_template_V1.jpg](assets/form_layoutblock_template_V1.jpg)
+![Available layout templates with different column and row arrangements](assets/form_layoutblock_template_V1.jpg){ class="shadow lightbox" }
 
 [To the top of the page ^](#editor)
 
@@ -70,11 +70,11 @@ Whenever you select an object in the form editor, an **Inspector pop-up** appear
 
 To display the inspector for a layout,<br>
 - select the layout<br>
-- and click on the small gear wheel :materical-cog: at the top right of the selection frame (currently selected layout).
+- and click on the small gear wheel :material-cog: at the top right of the selection frame (currently selected layout).
 
 Further options for editing this layout can be found in the icons to the right (duplicate, delete, move).
 
-![form_layout_inspector_v1_de.png](assets/form_layout_inspector_v1_de.png){ class="shadow lightbox" }
+![Inspector pop-up for editing a layout with layout template, name and style](assets/form_layout_inspector_v1_de.png){ class="shadow lightbox" }
 
 
 !!! info "Can I change an already existing layout?"
@@ -94,8 +94,19 @@ Several content elements can be inserted in one layout area.
 
 The new element is inserted in the layout area in which the button is located.
 
-![form_content_add_v1_de.png](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
+![Insert a content element using the "Add content" button in a layout area](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
 
+
+[To the top of the page ^](#editor)
+
+---
+
+### Available content elements {: #content_elements}
+
+
+![Available content elements in the "Add content" dialog, grouped by Text, Question types, Organizational, Media and Design](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
+
+You can find a description of the content elements [here >](Form_Elements.md#form_element_title)<br>
 
 [To the top of the page ^](#editor)
 
@@ -107,7 +118,7 @@ The settings for the respective blocks can be found (as with the layout) in the 
 
 The inspector can also be moved by clicking on the title bar of the inspector window. If you select a new block, the inspector jumps back to the default position.
 
-![form_content_inspector_v1_de.png](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
+![Inspector of a text element next to the selected block with the "Style" tab](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
 
 Depending on the content block selected, different options are displayed in the inspector.
 
@@ -115,13 +126,13 @@ Depending on the content block selected, different options are displayed in the 
 
 Here you can select a predefined font size for the title.
 
-![form_content_title_style_v1_de.png](assets/form_content_title_style_v1_de.png){ class="shadow lightbox" }
+![Select the font size of the title in the "Style" tab of the inspector](assets/form_content_title_style_v1_de.png){ class="shadow lightbox" }
 
 **Example inspector for the title, "Layout" tab**
 
 Here you can select the size of the space between the content blocks. (Comparable to an "empty frame" around the content element).
 
-![form_content_title_layout_v1_de.png](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
+![Select the spacing between the content blocks in the "Layout" tab of the inspector](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#editor)
@@ -132,20 +143,20 @@ Here you can select the size of the space between the content blocks. (Comparabl
 
 Among the icons in the top left-hand corner - they appear as soon as a content element is selected - there is also a double cross. If you position the mouse pointer on it, you can move the content element to another position in the layout by holding down the mouse button. This is possible across the various layout areas.
 
-![form_content_move_v1_de.png](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
+![Move a content element to another position in the layout using the double-cross icon](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#editor)
 
 ---
 
-### Configure Form
+## Configure Form {: #config}
 
 To make settings for the form learning resource as a whole, exit the content editor. (You can call up the content editor again at any time under **Administration > Edit content**).
 
 Select **Administration > Settings** for the configuration.
 
-![form_config_v1_de.png](assets/form_config_v1_de.png){ class="shadow lightbox" }
+![Open the configuration of the form learning resource via "Administration" > "Settings"](assets/form_config_v1_de.png){ class="shadow lightbox" }
 
 You can make the configuration here as you know it from other learning resources.
 
@@ -163,11 +174,11 @@ You can make the configuration here as you know it from other learning resources
 ---
 
 
-## Tips for using the Form Editor
+## Tips for using the Form Editor {: #hints}
 
 Here are a few more tips for using the Form Editor:
 
-* For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
+* For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Text" element and assigned to the answers of the appropriate question type.
 * Use [Question rules](../learningresources/Form_Question_Rules.md) if you want to create more complex forms with branches.
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.
 
@@ -176,10 +187,13 @@ Here are a few more tips for using the Form Editor:
 
 ---
 
-## Further information
+## Further information {: #further_information}
 
+[Course Element "Survey"](../learningresources/Course_Element_Survey.md)<br>
+[Form elements](Form_Elements.md)<br>
+[Question rules in forms](Form_Question_Rules.md)<br>
 [How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Contents elements of a form](Form_Elements.md)<br>
-[The form elements rubric](Form_Element_Rubric.md)<br>
-[Setting up question rules in the form](Form_Question_Rules.md)<br>
+[The form element rubric](Form_Element_Rubric.md)
+
+[To the top of the page ^](#editor)
 

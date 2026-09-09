@@ -24,7 +24,7 @@ Mit dem Kursbaustein "Videoaufgabe" können OpenOlat Video-Lernressourcen für i
 
 ### Übung: Begriffe zuordnen
 
-![video_task_modus_uebung_begriffe_zuordnen_v1_de.png](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Übungsmodus Begriffe zuordnen: Begriffe müssen den passenden Videoabschnitten zugeordnet werden](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video markiert.
 
@@ -40,7 +40,7 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video markiert.
 
 ### Übung: Situationen erkennen
 
-![video_task_modus_uebung_situationen_erkennen_v1_de.png](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Übungsmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.
 
@@ -49,14 +49,14 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.
 * Das Video zeigt ein Beratungsgespräch.
 * Im unteren Bereich des Videos sind keine Segmente (Videoabschnitte) markiert.
 * Während das Video abgespielt wird, muss die lernende Person erkennen, um welche Gesprächsphase es sich gerade handelt.
-* Das Feedback erfolgt unmittelbar nach der Wahl eines Begiffes.
+* Das Feedback erfolgt unmittelbar nach der Wahl eines Begriffes.
 * Eine manuelle Bewertung durch Betreuer:innen ist nicht möglich. (=> Üben soll ohne Kontrolle möglich sein.)
 
 ---
 
 ### Test: Situationen erkennen
 
-![video_task_modus_test_situationen_erkennen_v1_de.png](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Testmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt, bewertbar](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.<br> Im Unterschied zur Übung ist der Test **bewertbar**. 
 
@@ -107,9 +107,9 @@ Um Segmente (Videoabschnitte) zuordnen zu können, benötigt eine Videoaufgabe z
 | Quiz              | optional (nicht ausgewertet)       | 
 
 
-!!! hint "Hinweis"
+!!! tip "Tipp"
 
-    Wird für die Video-Lernressource ein Link (z.B. YouTube) benutzt, ist zu bedenken, dass bei einem nicht mehr gültigen Link die Videoaufgabe unbrauchbar wird. Wir empfehlen deshalb, möglichst eine mp4-Datei in OpenOlat hochzuladen. 
+    Wird für die Video-Lernressource ein Link (z.B. YouTube) benutzt, ist zu bedenken, dass bei einem nicht mehr gültigen Link die Videoaufgabe unbrauchbar wird. Wir empfehlen deshalb, möglichst eine mp4-Datei in OpenOlat hochzuladen.
 
 [Zum Seitenanfang ^](#video_task)
 
@@ -139,7 +139,7 @@ Stellen Sie sicher, dass im Tab "Konfiguration"
 * die richtigen Begriffe verwendet werden
 * die Reihenfolge der Begriffe in der Videoaufgabe stimmt
 
-!!! hint "Tipp"
+!!! tip "Tipp"
 
     * Mit Klick auf "Lernressource bearbeiten" öffnen Sie den Video-Editor und können die Segmentzuordnung weiter bearbeiten.
 
@@ -171,11 +171,11 @@ Bei **Übungen** erhalten Teilnehmer:innen während der Lösung der Aufgabe unmi
 
 Ausserdem wird am Ende der Übung eine Zusammenfassung angezeigt und die Lösung kann angesehen werden.
 
-![video_task_modus_uebung_begriffe_feedback_v1_de.png](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
+![Ergebnis nach einem Übungsversuch mit Anzahl korrekt zugeordneter Videoabschnitte je Antwortversuch, Buttons für weiteren Versuch, Lösung anzeigen und Aufgabe beenden](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
 
-Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Lösungsversuche angzeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
+Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Lösungsversuche angezeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
 
-![video_task_modus_test_feedback.png](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
+![Nach einem Testversuch nur die Anzahl Lösungsversuche sichtbar, kein Feedback, bei weiteren Versuchen erneut die Aufgabenstellung mit Startbutton, Abschlussansicht der Videoaufgabe im Testmodus](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
 
 ### Ergebnisse für Betreuer:innen in Übungen
 
@@ -186,7 +186,7 @@ Wenn in Übungen Betreuer:innen im Kursmenü einen Kursbaustein mit der Videoauf
 
 Betreuer:innen können bei jedem/jeder Teilnehmer:in einzeln die Anzahl der Versuche zurücksetzen und/oder die Daten einer Videoaufgabe zurücksetzen.
 
-![video_task_betreueransicht_v1_de.png](assets/video_task_betreueransicht_v1_de.png){ class="shadow lightbox" }
+![Zeilenmenü mit den Optionen Anzahl Versuche zurücksetzen und Daten von Videoaufgabe zurücksetzen für eine teilnehmende Person, Tab Teilnehmer:innen der Betreuer:innen-Ansicht](assets/video_task_betreueransicht_v1_de.png){ class="shadow lightbox" }
 
 
 ### Button "Alle Versuche abspielen"
@@ -195,27 +195,27 @@ Da bei Übungen die Versuche der anonym bleiben sollen, können Betreuer:innen k
 
 Klicken Sie dazu den Button "Alle Versuche abspielen".
 
-![video_task_modus_uebung_alleversucheabspielen_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
+![Button Alle Versuche abspielen markiert, Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
 
 In der Timeline des Videos werden alle erfolgreiche Antworten als grüne Striche dargestellt, die falschen Antworten als rote Striche. Betreuer:innen können so z.B. Rückschlüsse auf weit verbreitete Wissenslücken unter den Teilnehmer:innen ziehen. Die so dargestellten Ergebnisse können aber evtl. auch anzeigen, dass die Aufgabenstellung vielleicht angepasst werden sollte.
 
-![video_task_modus_uebung_alleversucheabspielen2_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
+![Timeline mit grünen Strichen für korrekte und roten Strichen für falsche Antworten aller Teilnehmenden, Ansicht Alle Versuche abspielen einer Videoaufgabe](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
 
 
 ### Button "Alle Daten zurücksetzen"
 
-![video_task_modus_uebung_alledatenzuruecksetzen_v1_de.png](assets/video_task_modus_uebung_alledatenzuruecksetzen_v1_de.png){ class="shadow lightbox" }
+![Button Alle Daten zurücksetzen markiert, Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe](assets/video_task_modus_uebung_alledatenzuruecksetzen_v1_de.png){ class="shadow lightbox" }
 
-Nach Klick auf den Button erscheint eine Sicherheitsabfrage, die beschreibt, was zurückgesetzt wird:
+Nach Klick auf den Button erscheint eine Sicherheitsabfrage, die beschreibt, was zurückgesetzt wird: Fortschritt, Anzahl Versuche, Testdurchläufe, Punkte und Erfolgsstatus, Freigabe der Bewertung sowie Erinnerungen. Vor dem Zurücksetzen wird eine Archivdatei mit den bisherigen Daten erstellt und heruntergeladen; sie steht zusätzlich im Leistungsnachweis der Teilnehmenden zur Verfügung.
 
-![video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png](assets/video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png){ class="shadow lightbox" }
+![Dialog Daten zurücksetzen mit Liste der betroffenen Daten und Bestätigungscheckbox vor dem endgültigen Zurücksetzen](assets/video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png){ class="shadow lightbox" }
 
 
 ### Ergebnisse für Betreuer:innen in Tests
 
-Wurde für die Videoaufgabe der Modus "Test" gewählt, erscheinen ausser den **Tabs "Teilnehmer:innen" und "Vorschau"** noch die beiden **Tabs "Übersicht" und "Erinnerungen"**.
+Wurde für die Videoaufgabe der Modus "Test" gewählt, erscheinen ausser den **Tabs "Teilnehmer:innen" und "Vorschau"** noch die beiden **Tabs "Übersicht" und "Erinnerungen"**. Im Tab "Erinnerungen" können Betreuer:innen automatische E-Mails an Kursmitglieder einrichten, die versendet werden, sobald hinterlegte Regeln zutreffen, zum Beispiel einen Tag vor einem noch nicht absolvierten Test.
 
-![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
+![Tabs Übersicht und Erinnerungen markiert, Betreuer:innen-Ansicht einer Videoaufgabe im Testmodus mit geöffnetem Tab Erinnerungen](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 
 Alle Resultate können von den Besitzer:innen und Betreuer:innen dieses Kurses im **Tab "Teilnehmer:innen"** detailliert für jeden/jede Teilnehmer:in eingesehen werden.
 
@@ -226,6 +226,6 @@ Alle Resultate können von den Besitzer:innen und Betreuer:innen dieses Kurses i
 ## Weiterführende Informationen {: #further_information}
 
 [Lernressource Video >](../../manual_user/learningresources/Learning_resource_Video.de.md)<br>
-[Kursbaustein Video >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
+[Kursbaustein Video >](../../manual_user/learningresources/Course_Element_Video.de.md)
 
 [Zum Seitenanfang ^](#video_task)

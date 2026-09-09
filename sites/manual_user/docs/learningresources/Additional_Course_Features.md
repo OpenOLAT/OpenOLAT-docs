@@ -1,94 +1,103 @@
 # Additional Course Features
 
-In the course users have a number of additional course functions at their disposal, which the course author can activate and deactivate as required. These functions then appear either in the toolbar or under "My course". 
+![Course toolbar with the icons Administration, Status, Course info, Learning path, Calendar, Events, Participant list, Notifications, E-mail, Forum, Documents, Role and My course](assets/Toolbar_20.jpg){ class="shadow lightbox" }
+
+In the toolbar of a course, participants have a number of additional course functions at their disposal. Some elements, such as ["Course info"](../learningresources/Info_page.md), "My course" or the "Learning path" area (for learning path courses), are added automatically. The "Events" element also appears automatically in the toolbar once ["Events and absences"](../learningresources/Events_and_absences.md) has been activated in the course.
+
+Other tools can be additionally activated by the course owners under `Administration > Settings > Toolbar`. For more information on these activatable tools, see the separate page ["Using Additional Course Features"](../learningresources/Using_Additional_Course_Features.md).
 
 ## Menu "My course"
 
-The drop down menu "My course" provides access to personalized course functions. 
+The drop-down menu "My course" in the toolbar provides access to personalized parts of the course.
 
-![Dropdown - Mein Kurs](assets/Mein_Kurs_menue_19en.jpg)
+![Open drop-down menu My course with the entries Evidence of achievement, To-dos, Notes, Bookmark, Consent, the group Gruppe2 and Leave course](assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" }
 
-Depending on the course configuration, it is possible that not all options are available.  
+Depending on the configuration of the course, not all of the following entries may be displayed.
 
- * **Evidence of achievement** displays your assessments in the course in table form and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#certificate) of the course.*
- * **To-dos**: Displays the current to-dos of the course. 
-  * **Notes**: Here you can enter course-specific notes that only you as a course participant can read. 
-  * **Bookmark**: Bookmarked courses can be found in the "Courses" section in the "Favourites" tab.
-  **Consent**: If there are specific terms of use and/or a course-related privacy policy in the course that you have agreed to, you can view them here and also revoke your consent. 
-  * **Groups**: Here you can see all course-specific groups in which you are a member.
-  * **Leave course**: With "Leave course" you can sign out of the course.
+* **Evidence of achievement** shows your individual assessments in the course and, if activated, gives access to the course [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate).
+* **To-dos** shows the current to-dos of the course.
+* **Notes**: Here you can enter course-specific notes that only you as a course participant can read.
+* **Bookmark**: Activate the bookmark, and the course appears in the "Courses" menu under the "Favourites" tab.
+* **Consent**: If there are specific terms of use and/or a course-related privacy policy in the course that you have agreed to, you can view them here and also revoke your consent.
+* **Groups**: Here you see all course-specific groups you are a member of and can navigate directly to them.
+* With **"Leave course"** you can remove yourself from the course.
 
 
-###  Evidence of Achievement & Certificate
+### Evidence of Achievement
 
-An evidence of achievement is a confirmation of an existing efficiency control, e.g. taken tests or assessed tasks and must first be activated by the course owner. Learners can then see the individual assessment modules completed in the course, such as tests or tasks, their points and further information.
+An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owner. Participants then see the individual assessment elements completed in the course, such as tests or tasks, their points and further information.
 
-![evidence of achievement](assets/evidence_of_achievement_19.jpg)
+![Evidence of achievement with progress 27 percent, 12 of 20 points and the course element table with score and pass status](assets/evidence_of_achievement_19.jpg){ class="shadow lightbox" }
 
-If a [certificate](../learningresources/Course_Settings_Assessment.md#certificate) has been issued for this course, you will find it alongside the evidence of achievement details, ready for download. Coaches can view the certificates in the [Coaching-Tool](../area_modules/Coaching.md).
+If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Coaches of the course can view the certificates in the [coaching tool](../area_modules/Coaching.md).
 
-Once a certificate is automatically issued after successfully completing a course, you will receive an automatically generated email notification.
+For certificates issued automatically after successfully completing a course, you receive an automatically generated notification by e-mail.
 
-!!! info 
+!!! tip "All evidences of achievement at a glance"
 
-    All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../personal_menu/Personal_Tools.md#evidences-of-achievement). It always opens in a new window and is printable.
+    Evidences of achievement and certificates from all your courses can be found in the personal menu under ["Evidence of achievement"](../personal_menu/Personal_Tools.md#evidences_of_achievement).
 
 ### To-dos [:octicons-tag-16:{ title="from Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039)
-Participants are shown all relevant to-dos for the course here. 
-On the one hand, these can be automatically generated to-dos from the task course elements. Then you are asked to take a certain step in the task flow, e.g. select a task, submit a solution or similar. 
-On the other hand, teachers can assign specific to-dos to all course participants or just to individuals. Learners can change the status of a to-do once they have completed the action. 
+Here, all to-dos of the course relevant to you are shown to participants.
+On the one hand, these can be to-dos automatically generated from the [task course elements](../learningresources/Course_Element_Task.md). In that case, you are asked to take a certain step in the task flow, for example select a task or submit a solution.
+On the other hand, teachers can assign specific to-dos to all participants or only to individual persons. Participants can change the status of a to-do once they have completed the action.
 
-The to-dos serve as an orientation for the user as to what currently needs to be done in the course. 
-Users can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. They can also add their own to-dos there.
+The to-dos serve participants as an orientation for what currently needs to be done in the course.
+Participants find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) area. There, participants can also create their own to-dos.
+
 
 ### Leave course [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405)
 
-The "Leave course" function immediately ends either your course or group membership, depending on how you gained access to the course. Subsequently, access to the course will be denied. In order to gain access to the course again, you will have to contact the respective course or group coach.
+The "Leave course" function immediately ends your course or group membership, depending on how you have access to the course. After that, you no longer have access to the course and must contact the respective course or group coach to regain access.
 
-Attention: The possibility to unsubscribe from a course has to be activated by the course owner in the access configuration and is only valid for course participants and not for tutors or owners.
+The option to unsubscribe from a course must first be activated by the course owners in the course settings on the "Share" tab and is only valid for participants, not for coaches or owners.
 
+## Learning path in the toolbar
+Via the learning path icon in the toolbar, participants get an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of implementation and dates can also be displayed. This way, participants can easily keep track of their activities in the course.
 
-## Elements of the toolbar
+![Learning path table with course elements, progress in percent, status such as Started or Completed, mandatory flag and processing deadlines per element](assets/Mein_Lernpfad.png){ class="shadow lightbox" }
 
-The tools are available in the toolbar independently of specific releases within the course structure.
-
-By default the [course info](../learningresources/Info_page.md) is visible in the toolbar. 
-
-For learning path courses, the “Learning path” element also appears in the toolbar. Here users can see their progress in the course in a more differentiated way and thus get a good overview of completed and still to be completed course elements. 
-
-![Mein Lernpfad](assets/Mein_Lernpfad.png)
-
-Here is a **quick overview** of the toolbar tools available after activation by the course owner. 
-
- * Course search: Search the course by keywords  
- * Course calendar: Access to the course-specific calendar
-  * Participant list: Overview of course members
-  * Participant information: The coach can store central course information here (notifications)
-  * E-mail: Pre-configured by the coach to send emails to course owners, coaches and/or participants
-  * BigBlueButton (or other virtual classrooms): For synchronous meetings
-  * Blog: Access to a central course blog
-  * Wiki: Access to a central Wiki for the course
-  * Forum: Access to a central course forum
-  * Documents: Access to a central documents folder
-  * Glossary: Access to the glossary of the course if a glossary has been linked to the course
-  * [Course chat](../basic_concepts/Chat.md): For the synchronous exchange of course members
-  * [External course tools](../learningresources/Course_Settings_Toolbar.md#external_tools) [:octicons-tag-16:{ title="from Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488): Up to four configurable links to external web applications
- 
-  
-
-### Course Calendar
-
-The calendar opens in a new window. Only course authors are allowed to add events to the course calendar. Course calendars are automatically added to your [personal calendar](../personal_menu/Personal_Tools.md#PersonalMenu-_pers_kalender). Just select the course calendar from your personal calendar list. Information on the calendar list and further course functions can be found in the chapter [calendar](../personal_menu/Calendar.md).
-
-###   Glossary {: #glossary}
-
-If your course author has included a glossary to clarify terms in your course you will see the glossary drop-down menu at the top of the course toolbar. You can open that glossary in a new window or show the terms in your course. If a term in your course (e.g. in Wiki) is mentioned that is listed in the glossary, you will see its definition when you move your mouse over that term. The glossary can also be printed.
-
-You may also be able to edit glossary entries if this option has been activated by the teacher. Further information can be found [here](../learningresources/Using_Additional_Course_Features.md).
+Course owners and coaches first get an overview of all participants via the "Learning path" link and can then select a person in the next step to display their learning progress.
 
 
-Further information on the other elements of the toolbar can be found [here](../learningresources/Using_Additional_Course_Features.md)
-  
+## Other activatable toolbar tools at a glance
 
-  
 
+* [Course search](../basic_concepts/Search_in_Course.md): Search the course by keywords
+* **Course calendar**: Access to the course-specific calendar
+* Participant list: Overview of **course members**
+* **Notifications**: Here, the teacher can store central course information.
+* **E-mail**: Contact option for the course owners and coaches
+* **BigBlueButton** (or other virtual classrooms): For synchronous meetings
+* **Blog**: Access to a central course blog
+* **Wiki**: Access to a central wiki for the course
+* **Forum**: Access to a central course forum
+* **Documents**: Access to a central documents folder
+* **Glossary**: Access to the course glossary, if a glossary has been linked to the course
+* [Course chat](../basic_concepts/Chat.md): For the synchronous exchange of course members
+* [External course tools](../learningresources/Course_Settings_Toolbar.md#external_tools): Up to four configurable links to external web applications
+
+Further information on the tools can be found under ["Using Additional Course Features"](../learningresources/Using_Additional_Course_Features.md).
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Toolbar: Info page >](../learningresources/Info_page.md)<br>
+[Events and absences >](../learningresources/Events_and_absences.md)<br>
+[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[Search in a course >](../basic_concepts/Search_in_Course.md)<br>
+[Chat >](../basic_concepts/Chat.md)<br>
+[Course Settings - Tab Toolbar >](../learningresources/Course_Settings_Toolbar.md)
+
+**Further reading**<br>
+[Toolbar: My Course >](../learningresources/Toolbar_My_Course.md)<br>
+[Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)
+
+[To the top of the page ^](#additional-course-features)

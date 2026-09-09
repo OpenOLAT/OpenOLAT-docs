@@ -1,4 +1,4 @@
-# Course Element "HTML page"
+# Course Element "HTML page" {: #html_page}
 
 ## Profile
 
@@ -22,7 +22,7 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
     An HTML page can be designed primarily with images, text, tables and videos. Advanced authors can also insert HTML elements such as Accordion.
 
-    ![course_element_html_page_run_view_v1_de.png](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![HTML page with an image and running text, displayed in the course view](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
 
 === "Editing in editor"
 
@@ -30,13 +30,13 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
     (Note: In the "Page" course element, on the other hand, the content editor is used, in which the content is compiled as blocks => Improved display on mobile devices)
 
-    ![course_element_html_page_editor_view2_v1_de.png](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+    ![Text and image edited in the Tiny editor, in the edit dialog of the course element](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
 
 === "HTML source code"
 
     Authors with HTML knowledge can also view and edit the generated HTML source code directly.
 
-    ![course_element_html_page_sourcecode_view_v1_de.png](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+    ![HTML source code of a page with paragraphs and an embedded image, in the editor's source code dialog](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -48,7 +48,7 @@ Here you carry out the central configuration of this course element. There are t
   * Select any file from the storage folder
   * Upload an externally created HTML file to the storage folder and link it to the course element
 
-![course_element_html_page_tab_pagecontent_v1_de.png](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
+![HTML file, security settings and Edit page button in the Page content tab](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
 For **further editing** of HTML pages you can use the OpenOlat Editor. It works similar to a word processing program. The automatically created file when you create a page for the first time already has the name of the course element. Once created, open the file with the link "Edit page" and you will get to the OpenOlat HTML Editor.
 
@@ -60,7 +60,7 @@ You can also define **whether coaches are allowed to edit the stored HTML file**
 
 In the "**Layout**" tab you can define the settings for the display of page contents. Here you determine whether the page should be displayed unaltered, or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the page content, or to enable the course [Glossary](../learningresources/Using_Additional_Course_Features.md#glossary).
 
-![course_element_html_page_tab_displaycontent_v1_de.png](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
+![Display mode, JavaScript, glossary terms and character set in the Layout tab](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
 
 The following settings can be made for the course element "HTML page". 
 
@@ -75,7 +75,7 @@ Use the mode "Optimized for OpenOlat" when you want to embed the course layout, 
 In case of SCORM modules the mode "Standard" is recommended.
 
  **Embed Javascript library:**
-  
+
 To use the features of the display mode "Optimized for OpenOlat" the JavaScript library "jQuery" must be activated. The option "Prototype" should only be used in case your content requests this library. Select no JavaScript library if you have display issues with your content within OpenOlat.
 
  **Embed glossary terms:** 
@@ -107,11 +107,11 @@ of a predefined character set (by default the same set will be used for content 
 
 The **HTML editor Tiny MCE** is integrated at all points in OpenOlat where HTML pages are created and edited.
 
-![course_element_html_page_editor_v1_en.png](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
+![Tiny editor with the Insert and Format menus highlighted, while editing an HTML page](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
 
 This externally developed editor is also open source. Further information can be found on the website: [https://www.tiny.cloud](https://www.tiny.cloud)
 
-!!! info "Note"
+!!! info "Important"
 
     The Tiny editor can be called up from OpenOlat with default settings. The **available editing options** (buttons offered in the editor) can thus be adapted to the usage situations.
 
@@ -119,7 +119,7 @@ This externally developed editor is also open source. Further information can be
     In an HTML page for a course element, it is an enrichment that the option to record a video is offered when the HTML editor is called up. There are other places where the HTML editor is used where video recording is not useful or desirable. The option for video recording is not displayed there when the editor is opened.
 
 
-!!! info "Note"
+!!! info "Important"
 
     For security reasons, not all HTML options can be made available. This applies in particular to integrated Javascript.
 
@@ -140,14 +140,14 @@ These include, for example
 
 ### Video
 
-![course_element_html_page_editor_menu_v1_de.png](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
+![Video icon highlighted in the toolbar of the HTML editor](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
 
 The tool uses the media player integrated in OpenOlat for the display, which has several advantages.
 
-1. The player recognizes the format itself as long as the video and audio data are encoded correctly.
-2. The player recognizes whether a user is accessing the video with an HTML-capable and codec-compatible mobile browser. In this case, the films are provided with an HTML5 tag and can also be displayed on an iPad or similar without any problems.
+1. The player recognizes the format itself as long as the video and audio data are encoded correctly.<br>
+2. The player recognizes whether participants are accessing the video with an HTML-capable and codec-compatible mobile browser. In this case, the films are provided with an HTML5 tag and can also be displayed on an iPad or similar without any problems.
 
-!!! info "Note"
+!!! info "Important"
 
     Videos embedded here in HTML are simply played. They are not OpenOlat video learning resources. (They are therefore without annotations, quizzes, etc.)
 
@@ -155,7 +155,7 @@ The tool uses the media player integrated in OpenOlat for the display, which has
 
 Video files can be uploaded (and saved in OpenOlat) or links to external videos (e.g. YouTube) can be set.
 
-Video files inserted in the course module can also be replaced later if required.
+Video files inserted in the course element can also be replaced later if required.
 Detailed information on integrating videos can be found here: ["Videos in HTML pages"](../basic_concepts/Video_in_HTML_Pages.md).
 
 
@@ -202,6 +202,8 @@ Links to the Internet and within OpenOlat (certain course elements, also in othe
 The links can point to images, videos or the tools in the [Toolbar](../learningresources/Using_Additional_Course_Features.md).<br>
 Select whether the link should be displayed in the OpenOlat course content or in a new window.
 
+![Four link types selectable: file link, course node link, course tool link, library](assets/course_element_html_page_editor_links_v1_de.png){ class="shadow lightbox" }
+
 ### PDF files
 
 !!! tip "Recommendation"
@@ -238,8 +240,25 @@ Select whether the link should be displayed in the OpenOlat course content or in
 
 
 
-!!! info "Info"
+!!! info "Important"
 
     The HTML page course element can be edited by course owners or optionally also by coaches.
 
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Storage folder >](../learningresources/Storage_folder.md)<br>
+[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[tiny.cloud](https://www.tiny.cloud)<br>
+[Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
+[Video Recording >](../basic_concepts/Video_Recording.md)<br>
+[Audio recording >](../learningresources/Audio_Recording.md)<br>
+[Course Element "Document" >](Course_Element_Document.md)<br>
+[Course Element "Folder" >](Course_Element_Folder.md)
+
+**Further reading**<br>
+[Course Element "Page" >](Course_Element_Page.md)<br>
+[Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)
+
+[To the top of the page ^](#html_page)
 

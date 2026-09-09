@@ -14,7 +14,7 @@ Bitte unterscheiden Sie:
 
     Durch Kursbesitzer:innen/Betreuer:innen sollten mindestens initial die Ausgangsfragen oder Texte erstellt werden. Anschliessend können die Leser:innen diese kommentieren und bewerten.
 
-    Es ist möglich, auch den Kursteilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können. Zum Erstellen von Blogeinträgen klicken Sie auf den Button "Neuen Eintrag erstellen" und verfassen dann den Blogeintrag.
+    Es ist möglich, auch den Teilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können. Zum Erstellen von Blogeinträgen klicken Sie auf den Button "Eintrag hinzufügen" und verfassen dann den Blogeintrag.
     <br><br> 
 
 * **Blogeintrag kommentieren** (= bestehende Blogeinträge kommentieren)
@@ -30,10 +30,17 @@ Bitte unterscheiden Sie:
     <br><br>  
 
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
-[Schritt-für-Schritt-Anleitung: Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
 [Blog konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
 [Bloggen](../learningresources/Blog_Blogging.de.md)<br>
-[Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md)<br>
+[Kursbaustein "Blog"](../learningresources/Course_Element_Blog.de.md)
+
+**Weiterführend**<br>
+[Wiki erstellen](../learningresources/Wiki.de.md)<br>
+[Podcast: Übersicht](../learningresources/Podcast.de.md)
+
+[zum Seitenanfang ^](#blog_create)
 

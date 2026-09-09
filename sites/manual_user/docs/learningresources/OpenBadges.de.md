@@ -154,19 +154,19 @@ Badges werden im Badge-Tool erstellt. Ein Wizard führt durch die Erstellung.<br
 Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf den Button "Neuen Badge erstellen"), führt Sie ein Wizard in Schritten durch den Erstellungsprozess.
 
 1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
-![Schritt Bild im Badge-Wizard: Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Badges.](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
+![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes: Schritt Bild im Badge-Wizard](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
 
 2. **Anpassung**: Wenn die Vorlage mit Variablen erstellt wurde, können Sie z.B. Hintergrundfarbe und Titel der Vorlage ändern. Dieser Schritt erscheint nur bei anpassbaren Vorlagen.
-![Schritt Anpassung im Badge-Wizard: Für die gewählte Vorlage sind die Hintergrundfarbe Bronze und der Titel Test bestanden gesetzt, die Vorschau zeigt den fertigen Badge.](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
+![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge: Schritt Anpassung im Badge-Wizard](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
 
 3. **Details**: Obligatorische Angaben sind Name, Version und Beschreibung des Badges sowie der Herausgeber. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-Email hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden.
-![Schritt Details im Badge-Wizard mit den Pflichtfeldern Name, Version, Beschreibung und Herausgeber sowie Herausgeber-URL, Herausgeber-Email und dem Verfall mit Gültigkeitsdauer.](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
+![Pflichtfelder Name, Version, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer: Schritt Details im Badge-Wizard](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
 
 4. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben.
-![Schritt Vergabekriterien im Badge-Wizard: Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug und die gewählte Regel Kurs bestanden.](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
+![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden: Schritt Vergabekriterien im Badge-Wizard](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
 
 5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Schritt Zusammenfassung im Badge-Wizard: Badge-Vorschau mit Name, Version, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben.](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
+![Badge-Vorschau mit Name, Version, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben: Schritt Zusammenfassung im Badge-Wizard](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
 
 6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger hier aus.
 
@@ -225,6 +225,8 @@ LinkedIn ermöglicht es Ihnen, Zertifikate und Badges in Ihrem persönlichen Pro
 
 Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellten Badge handelt.
 
+Zusätzlich zur host-basierten Prüfung können Badges auch digital signiert werden. Ein digital signierter Badge zeigt in der Badge-Ansicht das Abzeichen "Verifiziert". [:octicons-tag-16:{ title="ab Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
+
 Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
 
 [Zum Seitenanfang ^](#badges)
@@ -232,13 +234,11 @@ Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_ope
 ---
 
 
-## Weiterführende Informationen  {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
+[e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
-[Globale Badges >](../../manual_admin/administration/e-Assessment_openBadges.de.md#global_badges)<br>
-[OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)<br>
-[Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
+[Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)
 
 [Zum Seitenanfang ^](#badges)
 

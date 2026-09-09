@@ -21,7 +21,7 @@ organisieren.
 
 Mehrere einzeln wählbare **Termine** werden zusammengestellt zu einem **Anlass**. 
 
-![Kursbaustein Terminplanung in der Kursansicht: Der Anlass "Vorbereitungsmeeting" zeigt einen wählbaren Termin mit Datum, Uhrzeit und dem Button "Eintragen" sowie die Filter "Alle", "Zukünftige", "Ausgewählte" und "Ausgebucht"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein Terminplanung in der Kursansicht: Anlass "Vorbereitungsmeeting" mit wählbarem Termin, Datum, Uhrzeit und Button "Eintragen"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
 
 
 Autor:innen können unter anderem festlegen, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
@@ -34,7 +34,7 @@ Autor:innen können unter anderem festlegen, ob mehrere Termine auswählbar sind
 
 Wurde im Kurseditor der Kursbaustein hinzugefügt, werden im Tab "Konfiguration" die Berechtigungen für bestimmte Personengruppen festgelegt.
 
-![Tab "Konfiguration" des Kursbausteins im Kurseditor: Organisatoren, E-Mail-Benachrichtigung und Kommentar-Erlaubnis werden per Checkbox gesetzt, die Rechte "Anlass bearbeiten" und "Termine bearbeiten" pro Rolle oder Person auch mit zeitlicher Eingrenzung](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
+![Tab "Konfiguration" des Kursbausteins im Kurseditor: Checkboxen für Organisatoren, Benachrichtigung, Kommentar-Erlaubnis sowie Rechte "Anlass bearbeiten" und "Termine bearbeiten"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
 
 **Organisatoren**<br>
 Es kann definiert werden, ob Kurs-Besitzer:innen und/oder Kurs-Betreuer:innen als Organisator:innen der Termine gelten.
@@ -80,7 +80,7 @@ Klicken Sie als erstes auf **"Anlass erstellen".**
 
 Es erscheint das Konfigurationsmenü und Sie können folgende Aspekte festlegen: 
 
-![Dialog "Anlass erstellen" im Kursrun: Neben Titel und Beschreibung werden Typ, Konfiguration, Organisator:in, Ort, Teilnehmerbegrenzung, Einschreibefrist, Terminart mit den zugehörigen Terminfeldern und der Online-Termin festgelegt](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
+![Dialog "Anlass erstellen" im Kursrun: Felder für Titel, Beschreibung, Typ, Konfiguration, Organisator:in, Ort, Teilnehmerbegrenzung, Einschreibefrist, Terminart und Online-Termin](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
 
 
 **Titel**<br>
@@ -156,7 +156,7 @@ Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbau
 
 ### Termine organisieren {: #config_appointment}
 
-![Anlass-Kachel "Terminbuchung" im Kursrun: Der markierte Link "Termine anzeigen" öffnet die Terminübersicht, darüber informiert eine Hinweisbox über die Anzahl der Termine und die getroffenen Auswahlen](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
+![Anlass-Kachel "Terminbuchung" im Kursrun mit Link "Termine anzeigen" und Hinweisbox zur Anzahl Termine](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
 
 Die konkreten für einen "Anlass" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen auch einzeln editiert werden. 
 

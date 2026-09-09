@@ -11,23 +11,25 @@ Purpose | Collaborative content creation
 Assessable | no
 Specialty / Note |
 
-Use a Wiki to easily create learning content together with your course participants. A wiki can be used for group work, as a documentation tool and generally for the cooperative creation of texts. The individual pages are implemented in the form of hypertext with linked pages.
+Use a Wiki to easily create learning content together with participants. A wiki can be used for group work, as a documentation tool and generally for the cooperative creation of texts. The individual pages are implemented in the form of hypertext with linked pages.
 
-## in the course editor
+## In the course editor
 
-With the "Wiki" course element, you integrate a wiki learning resource into your course. Just click on "Select, create or import Wiki" in the tab "**Wiki learning content**" to assign an already existing Wiki or to create a new one. 
+With the "Wiki" course element, you integrate a wiki learning resource into your course.
+
+Click on "Select, create or import Wiki" in the tab "**Wiki learning content**" to assign an already existing Wiki or to create a new one. 
 
 If you have already added a Wiki, its name will appear in the field. In order to change the assignment of a Wiki, click on "Replace Wiki" in the tab "Wiki learning content" before selecting another Wiki.
 
-In the "Wiki learning content" tab, you can also define who is allowed to edit the wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only the OpenOlat user who has created the page or OpenOlat users, who are registered as owners in a Wiki, will be allowed to delete Wiki pages.
+In the "Wiki learning content" tab, you can also define who is allowed to edit the wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all participants have read and write permission in a Wiki. Individual wiki pages can only be deleted by owners of the learning resource.
 
-!!! warning "Attention"
+!!! info "Important"
 
-    If you can't find the "Wiki" course element in the course editor, it was disabled by a system administrator.
+    If you can't find the "Wiki" course element in your OpenOlat instance, it is disabled system-wide by an administrator.
 
 ## Working with Wiki (closed course editor)
 
-![Wiki Editor](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" } 
+![Wiki navigation with page list and editor toolbar while editing the wiki page "Index"](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" }
 
 If a Wiki is used in an OpenOlat course, the Wiki menu and other Wiki links automatically appear in the left course navigation. Use the "From A-Z" link to call up the table of contents with the display of all Wiki pages. This way you can see at a glance which pages have already been created.
 
@@ -41,7 +43,7 @@ Another way to create a new Wiki page is to create a matching internal link on t
 
 The corresponding page will then be created automatically the first time the link is called.
 
-![Create internal wiki link](assets/interner_Link.png){ class="shadow lightbox" }
+![Toolbar button "Interner Link" in the wiki editor, with the inserted placeholder text for the link below, tab Edit page](assets/interner_Link.png){ class="shadow lightbox" }
 
 ### Change contents of a wiki page
 
@@ -53,7 +55,7 @@ The wiki syntax is explained in more detail below.
 
 You can format your input using the following wiki syntax.
 
-!!! Warning "Attention"
+!!! warning "Attention"
 
     It is recommended to use special characters in Wikiwords with restraint. The colon (:) is not allowed. Also note that a space at the beginning of a line is interpreted as a formatting command (Preformatted Text).
 
@@ -83,7 +85,7 @@ External addresses are automatically converted to a link if you provide the full
 #### Single Row
 
 === "Syntax"
-    
+
     ```markdown
     {|  
     |Cell 1  
@@ -111,7 +113,7 @@ External addresses are automatically converted to a link if you provide the full
 
 === "Result"
 
-    Cell 1 Cell 2  
+    Cell 1 Cell 2<br>
     Cell 3 Cell 4
 
 #### With frame
@@ -156,7 +158,7 @@ When inserting the image, the following optional formatting options are availabl
 
 === "Result"
 
-    ![OpenOlat Logo](assets/openolat_logo_72.png)  
+    ![OpenOlat Logo](assets/openolat_logo_72.png)<br>
     This is the OpenOlat logo.
 
 #### Alignment
@@ -168,7 +170,7 @@ Use the "left" or "right" addition to specify how the image should be aligned.
     [[Image:openolat_logo_72.png|right]]
 
 === "Result"
-  
+
     ![OpenOlat Logo](assets/openolat_logo_72.png){ align=right }
 
 #### Picture size
@@ -179,7 +181,7 @@ Specify in pixels how large the image should be displayed.
 
     [[Image:openolat_logo_72.png|120px]]|
 
-=== "Ergebnis"
+=== "Result"
 
     ![OpenOlat Logo](assets/openolat_logo_72.png){ width=120px }
 
@@ -219,7 +221,7 @@ Multiple formatting options can also be used simultaneously.
 
 ### Mathematical formulas (LaTeX)
 
-To make OpenOlat display the formulas faster and nicer, you can install jsMath fonts on your computer. You can find the download area and instructions at:
+To make OpenOlat display the formulas faster and nicer, you can install jsMath fonts on your computer. You can find the download area and instructions at:<br>
 [http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)
 
 The syntax of the mathematical notation used in OpenOlat can be found at: [http://meta.wikimedia.org/wiki/Help:Formula](http://meta.wikimedia.org/wiki/Help:Formula)
@@ -252,7 +254,7 @@ The syntax of the mathematical notation used in OpenOlat can be found at: [http:
 
     Insert the unformatted text here
 
-!!! info
+!!! note "Note"
 
     Further information on the wiki syntax of the Media Wiki can be found here: https://www.mediawiki.org/wiki/Help:Formatting.
 
@@ -264,10 +266,18 @@ You create links to files in folder course elements in OpenOlat by clicking on t
 
 The wiki can be exported and saved as IMS content packaging by all participants via the corresponding link. Authors can also re-import an exported CP into OpenOlat.
 
-!!! info "Note"
+!!! info "Important"
 
-    If a wiki is to be exported directly as a wiki, this is only possible by the owner of the wiki directly in the learning resource via the menus "Copy" or "Export content". Course participants do not have this option.
+    If a wiki is to be exported directly as a wiki, this is only possible by the owner of the wiki directly in the learning resource via the menus "Copy" or "Export content". Participants do not have this option.
 
-!!! Warning "Attention"
+!!! danger "Attention"
 
     When you delete pages, all versions are also deleted. So you cannot restore deleted pages.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[jsMath fonts (download)](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)<br>
+[MediaWiki: Help on formulas](http://meta.wikimedia.org/wiki/Help:Formula)
+
+[To the top of the page ^](#wiki)

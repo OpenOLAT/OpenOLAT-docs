@@ -1,6 +1,6 @@
 # Creating Wikis
 
-A Wiki (Hawaiian for "fast") is a collaborative hypertext system for web pages. Here participants and coaches can create hypertexts together. By default, all participants have read and write access.
+A Wiki (Hawaiian for "fast") is a collaborative hypertext system for web pages. Here learners and teachers can create hypertexts together. By default, all participants have read and write access.
 
 In OpenOlat a Wiki is a learning resource that can be used independently of a course or integrated into a course. Furthermore groups also contain a [group tool "Wiki"](../groups/Using_Group_Tools.md).
 
@@ -8,7 +8,7 @@ If a Wiki is integrated into a course it can be used in several courses. If you 
 
 ## Possible applications of Wikis
 
-A wiki can be used, for example, for the joint text creation of groups or the entire plenum of a course. In this way the content of a course can be created cooperatively or the coach can create a wiki structure which the participants have to fill with appropriate content. A common idea, in the form of short profiles, can also be implemented in the Wiki.
+A wiki can be used, for example, for the joint text creation of groups or the entire plenum of a course. In this way the content of a course can be created cooperatively or the teacher can create a wiki structure which the learners have to fill with appropriate content. A common idea, in the form of short profiles, can also be implemented in the Wiki.
 
 Or use a Wiki as a knowledge base that can be created by course participants
 of a higher semester and used as a reference in preliminary courses or
@@ -25,9 +25,9 @@ participants and coaches in the tab "Wiki learning content".
 
 Wiki pages are created, edited and linked by means of a [Wiki syntax](../learningresources/Course_Element_Wiki.md#wiki-syntax).
 
-Hint: Make sure to create targeted links between the individual pages to create a
+Tip: Make sure to create targeted links between the individual pages to create a
 real hypertext with multiple nodes.
 
-!!! info "Info"
+!!! info "Important"
 
     If you can neither find the course element nor the learning resource "Wiki" in your OpenOlat instance an administrator has disabled this feature system-wide.

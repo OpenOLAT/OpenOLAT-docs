@@ -1,7 +1,7 @@
 # Kurs Statistiken {: #course_statistics}
 
 
-![statistics_course_v1_de.png](assets/statistics_course_v1_de.png){ class="shadow lightbox" }
+![Schaltfläche Administration und Menüpunkt Kurs Statistiken im geöffneten Administrationsmenü eines Kurses markiert.](assets/statistics_course_v1_de.png){ class="shadow lightbox" }
 
 Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer des Kurses. Sie erhalten jeweils sowohl eine tabellarische wie auch eine grafische Darstellung der Daten. Die Daten der Tabelle können Sie als Excel-Datei (z.B. für die Weiterverarbeitung) auf Ihren Rechner herunterladen.
 

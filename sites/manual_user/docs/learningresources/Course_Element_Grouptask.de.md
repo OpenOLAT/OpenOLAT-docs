@@ -52,3 +52,15 @@ Bei Gruppenaufgaben gibt es keine To-dos, auch wenn sich sich die Option aktivie
 
 Sämtliche Entscheidungen und Einsendungen, die während des Workflows getroffen werden, gelten immer für die gesamte Gruppe. Deshalb ist es wichtig, sich in der Gruppe abzustimmen _bevor_ eine endgültige Abgabe erfolgt. Gleichzeitig sollte man darauf achten, keine Deadline zu verpassen.
 
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)
+
+**Weiterführend**<br>
+[Gruppen erstellen >](../groups/Create_Groups.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration.de.md)
+
+[Zum Seitenanfang ^](#course_element_group_tasks)
+

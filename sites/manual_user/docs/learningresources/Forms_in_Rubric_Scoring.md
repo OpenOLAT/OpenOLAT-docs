@@ -2,7 +2,7 @@
 
 The learning resource Form, especially the [rubric](Form_Element_Rubric.md) element integrated there, is ideally suited for a criteria-based assessment of achievements. For this purpose, a previously created form with a rubric element is integrated into the course element "Assessment" of a course.
 
-!!! info "Note"
+!!! note "Note"
 
     Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md).
 
@@ -10,11 +10,11 @@ The learning resource Form, especially the [rubric](Form_Element_Rubric.md) elem
 
 Go to the course editor and add the [course element "Assessment"](../learningresources/Course_Element_Assessment.md). Then go to the "Assessment" tab and activate the "Rubric assessment".
 
-![Configure rubric scoring](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
+![Checkbox "Rubric assessment" activated with button "Select rubric form", in the "Assessment" tab of the course element](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
 
 In the next step they can select or create a suitable rubric form.
 
-![Select rubric form](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
+![List of your own form learning resources to select, in the dialog "Select rubric form"](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
 
 The basis of the rubric is the learning resource form to which a rubric element has been added in the [form editor](Form_Editor.md).
 
@@ -32,21 +32,21 @@ After a form has been selected it can be designed via the link "Edit". If the fo
 
 This is how a assessment rubric could look like:
 
-![Example rubric form](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
+![Example rubric with four criteria rows and five rating levels from "very poor" to "very good"](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
 
 #### Configure rubric assessment
 
 After a rubric has been linked to the assessment, the following additional configurations can be made in the "Assessment" tab:
 
 **Set status "To review" if accessible**: If the checkmark is set, the display "Correct" appears under status for owners and coaches when the editor is closed. The participants will see "In correction". If the check mark is not set, the user will see "No indication" and the teachers will see the status "Not started" or "Assessed", depending on whether an assessment has already been made or not.  
-  
-**Score granted**: Points can be awarded automatically or manually, if enabled. Automatic points can be taken as sum or average. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
+
+**Score granted**: Points can be awarded automatically or manually, if enabled. Automatic points can be taken as sum or average. The minimum and maximum points are displayed, or can be entered for manual assessment.
 
 **Levels/Grading**: If points are awarded, these can also be linked to a rating/grade. The assignment can be done manually or automatically. A rating scale must also be selected. Further information can be found [here](../learningresources/Assessment_translate_points_in_grades.md). 
 
 **Display pass/not passed**: If a pass is to be displayed, you can define whether the display should be automatic based on a point threshold or whether a pass should be set manually.
 
-!!! Info
+!!! info "Important"
 
     If Grading/Grades has been selected, it is already included here whether the scale is combined with a pass or not. A separate selection is then no longer possible. 
 
@@ -66,7 +66,20 @@ Further information on the course element Assessment can be found [here](../lear
 
 The actual assessment of learners will then take place in course run directly at the desired course element or in the assessment tool when the course editor is closed.
 
-![Bewertung Teilnehmerliste](assets/Bewertung181.jpg){ class="shadow lightbox" }
+![Participant list with points, grade and pass status, in the assessment tool](assets/Bewertung181.jpg){ class="shadow lightbox" }
 
 To do this, select the person to be assessed from the list and simply mark the desired points. If activated, the points from the rubric rating are automatically taken over and thus quickly lead to a criteria-based, transparent rating.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[The form element rubric >](Form_Element_Rubric.md)<br>
+[Course Element "Task" >](Course_Element_Task.md)<br>
+[Course Element "Assessment" >](Course_Element_Assessment.md)<br>
+[The Form Editor >](Form_Editor.md)<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Translate points into rating or grades >](Assessment_translate_points_in_grades.md)<br>
+[Course Settings >](Course_Settings.md)
+
+[To the top of the page ^](#forms-in-rubric-scoring)
 

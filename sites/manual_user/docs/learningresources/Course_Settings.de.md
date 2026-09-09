@@ -3,11 +3,11 @@
 Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br>
 `Kurs > Administration > Einstellungen`
 
-![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
+![Menü Administration mit Eintrag Einstellungen und die Tabs Info, Metadaten, Durchführung, Freigabe, Nutzungsbedingungen, Layout, Toolbar, Bewertung und Optionen der Kurseinstellungen](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
-!!! info "Hinweise"
+!!! info "Wichtig"
 
     Jede [Lernressource](../learningresources/index.de.md) verfügt über ein Menü "Einstellungen", nicht nur Kurse.
 
@@ -19,7 +19,7 @@ Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br
 
 ## Tab Info {: #info}
 
-![course_settings_tab_info_v1_de.png](assets/course_settings_tab_info_v1_de.png){ class="shadow lightbox" }
+![Tab "Info" aktiv in den Kurseinstellungen](assets/course_settings_tab_info_v1_de.png){ class="shadow lightbox" }
 
 Hier definieren Sie Informationen über den Kurs bzw. die Lernressource. Dazu zählen: 
 
@@ -44,7 +44,7 @@ Unter dem hier definierten Titel erscheint die Lernressource in der alphabetisch
 
 ## Tab Metadaten {: #metadata}
 
-![course_settings_tab_metadata_v1_de.png](assets/course_settings_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Tab "Metadaten" aktiv in den Kurseinstellungen](assets/course_settings_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 Metadaten enthalten Schlagwörter, die den Kurs beschreiben. Anhand der Metadaten kann Ihr Kurs z.B. besser gefunden werden. Sie sind optional und müssen nicht zwingend ausgefüllt werden.
 
@@ -66,7 +66,7 @@ Metadaten eines Kurses sind
 
 ## Tab Durchführung {: #execution}
 
-![course_settings_tab_execution_v1_de.png](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
+![Tab "Durchführung" aktiv in den Kurseinstellungen](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
 
 Hier können Sie 
 
@@ -80,7 +80,7 @@ Hier können Sie
 
 ## Tab Freigabe {: #share}
 
-![course_settings_tab_share_v1_de.png](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
+![Tab "Freigabe" aktiv in den Kurseinstellungen](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
 
 Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressource freigegeben wird. 
 
@@ -99,20 +99,20 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 
 ## Tab Katalog (gilt nur für Katalog Version 1) {: #catalog}
 
-![course_settings_tab_catalog_v1_de.png](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
+![Tab "Katalog" aktiv in den Kurseinstellungen](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
 
 Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorien zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen, muss der Schritt wiederholt werden. Anschliessend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
 
 Der gesamte OpenOlat [Katalog (Version 1)](../area_modules/Courses.de.md) ist für alle User im Menü "Kurse" einsehbar.
 
-Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind und für die Benutzer sichtbar sein sollen.  
+Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind und für die Benutzer:innen sichtbar sein sollen.
 
 [Zum Seitenanfang ^](#course_settings)
 
 
 ## Tab Nutzungsbedingungen {: #disclaimer}
 
-![course_settings_tab_disclaimer_v1_de.png](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
+![Tab "Nutzungsbedingungen" aktiv in den Kurseinstellungen](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
 
 Hier können 
 
@@ -130,7 +130,7 @@ In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) seh
 
 ## Tab Layout {: #layout}
 
-![course_settings_tab_layout_v1_de.png](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Tab "Layout" aktiv in den Kurseinstellungen](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
 
 Unter Layout kann 
 
@@ -152,7 +152,7 @@ Im Bereich "**Standard Stil Kursbausteine**" können Sie die Basisdarstellung de
 
 ## Tab Toolbar {: #toolbar}
 
-![course_settings_tab_toolbar_v1_de.png](assets/course_settings_tab_toolbar_v1_de.png){ class="shadow lightbox" }
+![Tab "Toolbar" aktiv in den Kurseinstellungen](assets/course_settings_tab_toolbar_v1_de.png){ class="shadow lightbox" }
 
 Hier schalten Sie die Toolbar in der Kopfzeile des Kurses ein oder aus und definieren, welche konkreten einzelnen Werkzeuge in der Toolbar den Kursteilnehmer:innen angezeigt werden.
 
@@ -163,7 +163,7 @@ Hier schalten Sie die Toolbar in der Kopfzeile des Kurses ein oder aus und defin
 
 ## Tab Bewertung {: #assessment}
 
-![course_settings_tab_assessment_v1_de.png](assets/course_settings_tab_assessment_v1_de.png){ class="shadow lightbox" }
+![Tab "Bewertung" aktiv in den Kurseinstellungen](assets/course_settings_tab_assessment_v1_de.png){ class="shadow lightbox" }
 
 Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
@@ -176,7 +176,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 * die Vergabe von Badges aktivieren
 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar.  Die Konfiguration für das Bestehen erfolgt im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte". Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.
 
@@ -189,7 +189,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 ## Tab Optionen {: #options}
 
-![course_settings_tab_options_v1_de.png](assets/course_settings_tab_options_v1_de.png){ class="shadow lightbox" }
+![Tab "Optionen" aktiv in den Kurseinstellungen](assets/course_settings_tab_options_v1_de.png){ class="shadow lightbox" }
 
 Hier aktivieren Sie je nach Bedarf
 
@@ -197,7 +197,7 @@ Hier aktivieren Sie je nach Bedarf
 * einen [Ressourcenordner](../learningresources/index.de.md) zu Ihrem Kurs
 * einen speziellen Ordner für Betreuer:innen
 * To-dos für Betreuer:innen<br>
-Falls Sie Benutzer*in mit einer administrativen Rolle sind (Lernressourcenverwalter:in, Administrator:in), werden Ihnen hier zusätzlich noch spezielle Optionen angezeigt:<br>
+Falls Sie Benutzer:in mit einer administrativen Rolle sind (Lernressourcenverwalter:in, Administrator:in), werden Ihnen hier zusätzlich noch spezielle Optionen angezeigt:<br>
 * Einladung externe Benutzer:innen für Kursbesitzer:innen mit Autorenrecht aktivieren
 * die "LTI 1.3"-Freigabe für Kursbesitzer:innen mit Autorenrecht aktivieren
 
