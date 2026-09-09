@@ -11,6 +11,7 @@
 2. [How can I create certification programs with the Course Planner?](/manual_how-to/certification_programs/certification_programs)
 3. [How do I comply with legal consent requirements?](/manual_how-to/legal_consents/legal_consents)
 4. [How do I set up document submission options?](/manual_how-to/document_upload/document_upload)
+5. [How do I prepare for the creation of personal portfolios by participants?](/manual_how-to/portfolio/portfolio)
 
 ## Create Courses
 

@@ -11,6 +11,7 @@
 2. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](/de/manual_how-to/certification_programs/certification_programs)
 3. [Wie setze ich rechtliche Zustimmungspflichten um?](/de/manual_how-to/legal_consents/legal_consents)
 4. [Wie kann ich Abgabemöglichkeiten für Dokumente einrichten?](/de/manual_how-to/document_upload/document_upload)
+5. [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](/de/manual_how-to/portfolio/portfolio)
 
 ## Kurse erstellen
 
