@@ -1,30 +1,32 @@
 # Datenschutz {: #data_protection}
 
 Die seit dem 25. Mai 2018 gültige Datenschutzgrundverordnung (DSGVO) der EU
-regelt die Grundlagen für den Datenschutz von Benutzern. Zur Erfüllung der
+regelt die Grundlagen für den Datenschutz von Benutzer:innen. Zur Erfüllung der
 Anforderungen der DSGVO bietet OpenOlat zum einen die Möglichkeit,
 Benutzerdaten zu exportieren und zum anderen die Löschung von Benutzer:innen und
 deren Daten.
 
-## Löschen von Benutzer:innen und Benutzerdaten {: #delete_user}
+## Löschen von Benutzer:innen und Benutzerdaten {: #deletion_overview}
 
-Das Löschen von OpenOlat Benutzer:innen bewirkt folgendes:
+Konten löschen Benutzerverwalter:innen und Administrator:innen über die [Benutzerverwaltung](index.de.md). Systemadministrator:innen lösen Löschvorgänge über den Benutzerkonten-Lebenszyklus aus.
 
-* Für Benutzer:innen ohne Systemrolle werden alle Benutzerdaten gelöscht.
-* Für Benutzer:innen mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](../usermanagement/index.de.md) über die Aktion «Entfernen» in der Tabelle "Gelöschte Benutzer" ebenfalls gelöscht werden.
-* Persönliche Daten werden aus den Log-Tabellen gelöscht. Der Benutzername wird gelöscht und in den Log-Tabellen durch eine ID ersetzt.
-* Persönliche Daten werden aus dem Logfile gelöscht. Anstelle des Benutzernamens wird nur noch eine ID ins Logfile geschrieben.
-* Das [Portfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) der Benutzer:innen wird gelöscht.
-* Ins [Media Center](../../manual_user/basic_concepts/Media_Center_Concept.de.md) hochgeladene Medien gehören grundsätzlich einem/einer Besitzer:in. Beim Löschen des/der Besitzer:in gilt für seine/ihre Inhalte:
-    * Medien mit Verwendung im ePortfolio werden gelöscht.
-    * Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
-    * Medien mit Verwendung in einem Kursbaustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
-    * Medien ohne Besitzer:in werden in Zukunft in der Medienverwaltung für Administrator:innen angezeigt.
-* Persönliche Chat-Nachrichten der Benutzer:in werden gelöscht.
-* Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.
-* Kommentare und Bewertungen (Ratings) des Benutzers werden gelöscht. Antworten des gelöschten Benutzers auf Kommentare werden durch "User has been deleted" ersetzt.
-* Die Visitenkarte des Benutzers wird nicht mehr in OpenOlat (z. B. im Forum oder bei Kommentaren) angezeigt.
+Beim Löschen wird ein Konto nicht physisch aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Für Personen mit administrativer Rolle, für Kursbesitzer:innen und für Korrektor:innen mit Korrekturaufträgen in der Historie bleiben Vor- und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben.
 
+Welche Daten dabei gelöscht, anonymisiert oder erhalten werden, zeigt die Tabelle auf der Seite [Benutzer:in löschen](Delete_User.de.md#del_properties) im Detail.
+
+[Zum Seitenanfang ^](#data_protection)
+
+---
+
+
+## Benutzerkonten-Lebenszyklus {: #account_lifecycle}
+
+Der Benutzerkonten-Lebenszyklus ist das Instrument für die fristgerechte Löschung. Er läuft in drei Schritten: Kontoablauf, Deaktivierung und Löschung. Die Fristen und die Benachrichtigungen zu jedem Schritt legt die System-Administration fest:<br>
+`Administration > Lebenszyklen > Konto`
+
+Die Deaktivierung sperrt nur die Anmeldung. Das Konto bleibt mit allen Daten erhalten und lässt sich reaktivieren. Erst die Löschung anonymisiert das Konto und entfernt Daten. Die letzte Stufe läuft je nach Konfiguration automatisch ab oder wird ausschliesslich manuell ausgelöst.
+
+[Details zum Benutzerkonten-Lebenszyklus >](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
 [Zum Seitenanfang ^](#data_protection)
 
@@ -33,59 +35,110 @@ Das Löschen von OpenOlat Benutzer:innen bewirkt folgendes:
 
 ## Export von Benutzerdaten {: #export_user_data}
 
-Für jeden Benutzer kann ein Export der in OpenOlat hinterlegten Benutzerdaten durchgeführt werden.
+Für alle Benutzer:innen kann ein Export der in OpenOlat hinterlegten Benutzerdaten durchgeführt werden. Der Export dient einzig zur Information, welche Daten auf OpenOlat gespeichert und verarbeitet werden. Das Wiederherstellen einer gelöschten Benutzer:in ist damit nicht möglich.
 
-Der Export muss beim jeweiligen Benutzerverwalter angefordert werden. Der Benutzerverwalter kann über die Benutzerverwaltung den Export durchführen. Anschliessend steht der Export in den persönlichen Einstellungen des Nutzers, welcher den Export angefordert hat, im Tab "Benutzerdaten" zum Download bereit. Zusätzlich wird ein Download-Link generiert, welcher dem Nutzer vom Benutzerverwalter zur Verfügung gestellt werden kann.
+Am Export sind zwei Rollen mit je eigenen Handlungen beteiligt. Die Grafik zeigt, wer was tut und wo die Datei am Ende liegt.
 
-Die exportierten Benutzerdaten sind nur für den Benutzer einsehbar, welcher den Export angefordert hat. Andere Benutzer und auch der Benutzerverwalter, der den Export ausgeführt hat, haben keinen Zugriff auf die exportierten Daten.
+![Ablauf über drei Bahnen: Auslösen in der Benutzerverwaltung, Erstellen im Hintergrund, Abholen im Tab Personendaten](assets/user_data_export_flow_v1_de.svg){ class="shadow lightbox" title="Ablauf des Datenexports nach Rollen" }
 
-Der Export dient einzig zur Information des Nutzers, welche Daten auf OpenOlat gespeichert und verarbeitet werden. Das Wiederherstellen eines gelöschten Benutzers ist damit nicht möglich.
+### Export auslösen {: #export_trigger}
 
-### Daten, die exportiert werden können
+Den Export lösen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals aus, jeweils für die Konten, die sie verwalten dürfen. Öffnen Sie das Konto und wählen Sie in der Werkzeugleiste **Daten exportieren**:<br>
+`Benutzerverwaltung > Konto öffnen > Werkzeugleiste "Daten exportieren"`
 
-* Benutzerprofil und Stammdaten (inkl. versteckte Stammdaten) sowie persönliche Einstellungen
-* Profilbild / Avatar
-* Persönliche Notizen
-* Dokumente des privaten und öffentlichen Ordners
-* Informationen zu Nutzungsbedingungen und wann diese akzeptiert wurden
-* Einträge des persönlichen Kalenders (iCal)
+Im Dialog «Kontendaten von "Vorname Nachname" exportieren» wählen Sie unter **Export Elemente** aus, was der Export enthalten soll. Mindestens ein Element ist Pflicht. Starten Sie den Lauf mit **Start Export**.
+
+Der Export läuft im Hintergrund und kann mehrere Stunden dauern. Solange er läuft, ist kein zweiter Export für dasselbe Konto möglich. Pro Konto existiert höchstens ein Export: ein neuer Auftrag ersetzt den vorherigen.
+
+### Benachrichtigung und Link {: #export_notification}
+
+Sobald der Export bereit ist, erhalten Sie als auslösende Person eine E-Mail mit dem Betreff «Export von "Vorname Nachname" ist fertig». Sie enthält den Link zu den Daten, der auch im Dialog unter **Link zu Daten** steht.
+
+Der Link führt die betroffene Person direkt zu ihrem Tab «Personendaten». Leiten Sie den Link an die Person weiter. Die betroffene Person selbst erhält keine E-Mail.
+
+### Export abholen {: #export_download}
+
+Die betroffene Person findet die Datei unter:<br>
+`Persönliches Menü > Einstellungen > Tab "Personendaten"`
+
+Dort steht die Schaltfläche **Dateien herunterladen** bereit. Die Datei heisst «Archive.zip» und enthält je gewähltem Element einen Ordner. Mehr zu diesem Tab: [Persönliche Konfiguration: Einstellungen](../../manual_user/personal_menu/Settings.de.md#tab_user_data)
+
+!!! info "Wichtig"
+    Nur die betroffene Person kann die Datei herunterladen. Wer den Export ausgelöst hat, hat keinen Zugriff darauf, auch nicht in der Rolle Benutzerverwalter:in.
+
+Der Export bleibt einen Monat abrufbar. Danach löscht OpenOlat die Datei automatisch, und es ist ein neuer Export nötig.
+
+Benutzer:innen können den Export nicht selbst auslösen. Im Tab «Personendaten» finden sie einen Mail-Link an den Support der Instanz, über den sie eine Übersicht ihrer Daten nach Artikel 15 DSGVO anfordern können.
+
+### Daten, die exportiert werden können {: #exportable_data}
+
+Der Dialog führt die Elemente alphabetisch auf. Die Auswahl umfasst:
+
 * Abonnements
-* Kurs-Buchungsaufträge
+* Alle Dokumente im private / public Ordner
+* Alle Stammdaten/Attribute, inklusive "versteckte" Stammdaten
+* Aufgabe
+* Blogs und Podcasts
+* Buchungsaufträge
+* Chat
+* Dateidiskussion
+* ePortfolio Mappen
+* Foren
+* Kalendareinträge
+* Kommentare und Bewertungen
 * Leistungsnachweise
-* Zugehörigkeit zu Kursen
-* Zugehörigkeit zu Gruppen
-* Mails
-* Chat-Nachrichten
-* Forum-Posts
-* Kommentare und Bewertungen (Ratings)
-* Blog- und Podcast-Beiträge
-* Persönliche Dokumente aus Kurs Aufgaben
-* Persönliche Dokumente aus Kurs Dateidiskussionen
-* Persönliche Dokumente aus Kurs Teilnehmer-Ordner
-* Log
-* ePortfolio
+* Logs
+* Mail
+* Nutzungsbedingungen
+* Persönliche Notizen
+* Profilbild
+* Teilnehmer:innen Ordner
 * Zertifikate
+* Zugehörigkeit zu Gruppen
+* Zugehörigkeit zu Kursen
 
-![Userdaten exportieren](assets/Export1_DE.png){ class="shadow lightbox" }
+![Pflichtfeld Export Elemente mit 22 Kontrollkästchen, darüber der Link zu Daten, darunter Start Export, im Dialog Kontendaten exportieren](assets/data_protection_export_dialog_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#data_protection)
 
 ---
 
 
-## Weitere Datenschutz-Funktionen 
+## Weitere Datenschutz-Funktionen
 
 ### Drucken der Nutzungsbedingungen {: #print_terms_of_use}
 
 Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab "Nutzungsbedingungen" möglich.
 
-![Nutzungsbedingungen drucken nach Login](assets/Nutzungsbedingungen_drucken2_DE-2.png){ class="shadow lightbox thumbnail-lg" }
+![Druck-Link rechts unter dem Bedingungstext, darunter Kontrollkästchen und die Schaltflächen Akzeptieren und Ablehnen, im Dialog Nutzungsbedingungen beim Anmelden](assets/data_protection_terms_login_v1_de.png){ class="shadow lightbox" }
 
-![Nutzungsbedingungen drucken in Benutzereinstelungen](assets/Nutzungsbedingungen_drucken1_DE-2.png){ class="shadow lightbox thumbnail-lg" }
+![Markierter Druck-Link rechts unter dem Bedingungstext, darunter Zustimmungsdatum und Schaltfläche Konto löschen beantragen, im Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/data_protection_terms_settings_v1_de.png){ class="shadow lightbox" }
 
-### Sichtbarkeit von E-Mail-Adressen in OpenOlat {: #visibility_of_e-mail}
+### Löschung des eigenen Kontos beantragen {: #request_account_deletion}
+
+Im Tab «Nutzungsbedingungen» der persönlichen Einstellungen steht neben dem Zustimmungsdatum die Schaltfläche **Konto löschen beantragen**. Benutzer:innen stellen damit selbst einen Antrag, wenn sie den Nutzungsbedingungen nicht mehr zustimmen. Der Antrag geht als E-Mail an eine hinterlegte Adresse und nennt Konto-ID, Anmeldename und Namen. Löschen kann das Konto danach nur die Benutzerverwaltung, der Antrag löst keine automatische Löschung aus.
+
+Die Schaltfläche erscheint nur, wenn die System-Administration diesen Weg freigegeben und eine Empfängeradresse hinterlegt hat:<br>
+`Administration > Module > Anfrage Konto löschen`
+
+Den Tab selbst beschreibt die Seite [Persönliche Konfiguration: Einstellungen](../../manual_user/personal_menu/Settings.de.md#tab_terms_of_use).
+
+### Sichtbarkeit von E-Mail-Adressen in OpenOlat [:octicons-tag-16:{ title="ab Release 12.5 (OO-3518)" }](https://track.frentix.com/issue/OO-3518) {: #visibility_of_e-mail}
 
 E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen, nicht aber für normale Benutzer:innen sichtbar.
 
 [Zum Seitenanfang ^](#data_protection)
 
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Benutzerverwaltung >](index.de.md)<br>
+[Benutzer:in löschen >](Delete_User.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
+[Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
+
+[Zum Seitenanfang ^](#data_protection)

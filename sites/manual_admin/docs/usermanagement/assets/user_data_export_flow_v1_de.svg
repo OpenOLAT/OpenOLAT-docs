@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1225 580" width="1225" height="580" role="img" aria-labelledby="t d">
+  <title id="t">Ablauf des Datenexports in OpenOlat nach Rollen</title>
+  <desc id="d">Drei Bahnen: Benutzerverwalter:in löst den Export in der Kontoverwaltung aus, OpenOlat erstellt die Datei im Hintergrund und mailt den Link an die auslösende Person, die betroffene Person lädt die Datei unter Einstellungen, Tab Personendaten herunter. Nur die betroffene Person hat Zugriff, die Datei wird nach einem Monat gelöscht.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#135E5F"/>
+    </marker>
+    <marker id="arrPeach" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#F2AF40"/>
+    </marker>
+    <marker id="arrGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#A6A6A6"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; fill: #2D2926; }
+    .lane { fill: #FFFFFF; stroke: #A6A6A6; stroke-width: 1; }
+    .laneTitle { font-size: 16px; font-weight: 700; fill: #FFFFFF; }
+    .laneSub { font-size: 12px; fill: #E6F4F4; }
+    .step { font-size: 13px; font-weight: 700; fill: #135E5F; }
+    .label { font-size: 13px; }
+    .ui { font-size: 12.5px; font-weight: 700; }
+    .flow { stroke: #135E5F; stroke-width: 2; fill: none; marker-end: url(#arr); }
+    .flowPeach { stroke: #F2AF40; stroke-width: 2; fill: none; marker-end: url(#arrPeach); stroke-dasharray: 6 4; }
+    .flowGrey { stroke: #A6A6A6; stroke-width: 2; fill: none; marker-end: url(#arrGrey); stroke-dasharray: 3 4; }
+    .badge { font-size: 12px; font-weight: 700; fill: #FFFFFF; }
+    .note { font-size: 12.5px; }
+  </style>
+  <rect x="0" y="0" width="1225" height="580" fill="#F3F4EF"/>
+  <rect class="lane" x="20" y="20" width="1185" height="150"/>
+  <rect x="20" y="20" width="190" height="150" fill="#209D9E"/>
+  <text x="36" y="87" class="laneTitle">Benutzerverwalter:in</text>
+  <text x="36" y="109" class="laneSub">Administrator:in, Rollen-</text>
+  <text x="36" y="125" class="laneSub">verwalter:in, Principal</text>
+  <rect class="lane" x="20" y="180" width="1185" height="150"/>
+  <rect x="20" y="180" width="190" height="150" fill="#135E5F"/>
+  <text x="36" y="255" class="laneTitle">OpenOlat</text>
+  <text x="36" y="277" class="laneSub">Hintergrundaufgabe</text>
+  <rect class="lane" x="20" y="340" width="1185" height="150"/>
+  <rect x="20" y="340" width="190" height="150" fill="#209D9E"/>
+  <text x="36" y="415" class="laneTitle">Betroffene Person</text>
+  <text x="36" y="437" class="laneSub">Inhaber:in des Kontos</text>
+  <rect x="244" y="45" width="219" height="100" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="260" y="70" class="step">1  Konto öffnen</text>
+  <text x="260" y="91" class="label">Kontoverwaltung, Werkzeugleiste</text>
+  <text x="260" y="112" class="ui">«Daten exportieren»</text>
+  <rect x="497" y="45" width="281" height="100" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="513" y="70" class="step">2  Elemente wählen</text>
+  <text x="513" y="91" class="label">Dialog «Kontendaten von … exportieren»</text>
+  <text x="513" y="112" class="ui">«Start Export»</text>
+  <rect x="812" y="45" width="359" height="100" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="828" y="70" class="step">4  E-Mail erhalten, Link weiterleiten</text>
+  <text x="828" y="91" class="label">«Export von … ist fertig» mit «Link zu Daten»</text>
+  <text x="828" y="112" class="label">Kein Zugriff auf die Datei selbst</text>
+  <rect x="497" y="205" width="281" height="100" rx="8" fill="#F3F4EF" stroke="#135E5F" stroke-width="2"/>
+  <text x="513" y="230" class="step">3  Export erstellen</text>
+  <text x="513" y="251" class="label">Kann mehrere Stunden dauern</text>
+  <text x="513" y="272" class="label">Ein Export pro Konto, ersetzt den vorherigen</text>
+  <text x="513" y="293" class="label">Datei Archive.zip, ein Ordner pro Element</text>
+  <rect x="812" y="205" width="359" height="100" rx="8" fill="#F3F4EF" stroke="#135E5F" stroke-width="2"/>
+  <text x="828" y="230" class="step">7  Nach einem Monat löschen</text>
+  <text x="828" y="251" class="label">Ein täglicher Auftrag entfernt Exporte,</text>
+  <text x="828" y="272" class="label">die älter als ein Monat sind.</text>
+  <text x="828" y="293" class="label">Danach ist ein neuer Export nötig.</text>
+  <rect x="497" y="365" width="281" height="100" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="513" y="390" class="step">5  Link öffnen oder Menü nutzen</text>
+  <text x="513" y="411" class="label">Persönliches Menü &gt; Einstellungen</text>
+  <text x="513" y="432" class="ui">Tab «Personendaten»</text>
+  <rect x="812" y="365" width="359" height="100" rx="8" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2.5"/>
+  <text x="828" y="390" class="step">6  Datei herunterladen</text>
+  <text x="828" y="411" class="ui">«Dateien herunterladen»</text>
+  <text x="828" y="432" class="label">Nur die betroffene Person sieht die Datei</text>
+  <rect x="1082" y="378" width="77" height="20" rx="10" fill="#F2AF40"/>
+  <text x="1121" y="392" class="badge" text-anchor="middle">Ablageort</text>
+  <path class="flow" d="M463 95 H497"/>
+  <path class="flow" d="M637 145 V205"/>
+  <path class="flow" d="M778 255 H790 V95 H812"/>
+  <path class="flowPeach" d="M991 145 V175 H475 V415 H497"/>
+  <path class="flow" d="M778 415 H812"/>
+  <path class="flowGrey" d="M991 305 V365"/>
+  <line x1="36" y1="524" x2="76" y2="524" class="flowPeach"/>
+  <text x="86" y="528" class="note">«Link zu Daten» wird weitergeleitet</text>
+  <line x1="608" y1="524" x2="648" y2="524" class="flowGrey"/>
+  <text x="658" y="528" class="note">Frist: die Datei bleibt einen Monat abrufbar</text>
+  <text x="1185" y="568" text-anchor="end" style="font-size:11px; fill:#A6A6A6">OpenOlat ∞ Datenexport</text>
+</svg>

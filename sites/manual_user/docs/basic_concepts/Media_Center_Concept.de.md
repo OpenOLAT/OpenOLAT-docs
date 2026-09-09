@@ -147,12 +147,20 @@ Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einze
 
     Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können.
 
-Ins Media Center hochgeladene Medien gehören grundsätzlich einer Besitzer:in. Wird die Besitzer:in gelöscht, gilt für ihre Inhalte:
+### Was mit den Medien beim Löschen eines Kontos geschieht {: #delete_media_account}
 
-* Medien mit Verwendung im ePortfolio werden gelöscht.
-* Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
-* Medien mit Verwendung in einem Kursbaustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
-* Medien ohne Besitzer:in werden in der Medienverwaltung für Administrator:innen angezeigt (Filter "Ohne Ersteller:in").
+Ins Media Center hochgeladene Medien gehören grundsätzlich einer Besitzer:in. Wird deren Konto gelöscht, entscheidet eine einzige Frage über jedes Medium: Ist es in eine Seite eingebunden?
+
+![Entscheidungsbaum von der Kontolöschung bis zu erhalten oder endgültig gelöscht](assets/delete_user_media_decision_v1_de.svg){ class="shadow lightbox" title="Medien beim Löschen eines Kontos" }
+
+Eingebunden zählt sowohl im Kursbaustein "Seite" als auch in einer ePortfolio-Seite, auch in der einer anderen Person. Ist das Medium eingebunden, bleibt es erhalten und ist danach niemandem mehr zugeordnet. Ist es nirgends eingebunden, wird es endgültig gelöscht.
+
+Eine **Freigabe schützt das Medium nicht**. Freigegeben, aber nirgends eingebunden bedeutet: gelöscht. Zu beachten: Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht.
+
+Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter **Ohne Ersteller:in**.
+
+!!! tip "Vor dem Löschen eines Kontos"
+    Bitten Sie die betroffene Person, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, muss es vorher in eine Seite eingebunden werden. Die vollständige Tabelle aller Datenarten steht auf der Seite [Benutzer:in löschen](../../manual_admin/usermanagement/Delete_User.de.md#del_properties).
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -199,9 +207,7 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 Personen mit administrativem Zugriff (z.B. Administrator:innen) haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. (Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
 
-Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar.
-
-![Markierter Tab Medienverwaltung mit der Kachelübersicht aller fremden Medien und dem zusätzlichen Filter Ohne Autor:in](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
+Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar. Der Filter **Ohne Ersteller:in** zeigt die Medien, deren Konto gelöscht wurde.
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -215,6 +221,8 @@ Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben
 [Portfolio erstellen >](../area_modules/Portfolio.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
-[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)
+[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)<br>
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
+[Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
 
 [Zum Seitenanfang ^](#media_center_concept)

@@ -147,12 +147,20 @@ You can also delete individual files in the 3-dot menu if you have clicked on an
 
     Please note that you can only delete **your own** media that are not integrated in other places in OpenOlat.
 
-Media uploaded to the Media Center always belong to one owner. When the owner is deleted, the following applies to their content:
+### What happens to the media items when an account is deleted {: #delete_media_account}
 
-* Media used in the ePortfolio will be deleted.
-* Media not used in a "Page" course element that are not shared are deleted.
-* Media used in a "Page" course element or those that have been shared are retained, but are then without an owner.
-* Media without an owner are displayed in the media management for administrators (filter "Without creator").
+Media items uploaded to the Media Center always belong to one owner. When that account is deleted, a single question decides the fate of every media item: is it embedded in a page?
+
+![Decision tree from the account deletion to retained or permanently deleted](assets/delete_user_media_decision_v1_en.svg){ class="shadow lightbox" title="Media items when an account is deleted" }
+
+Embedded counts both in the "Page" course element and in an ePortfolio page, including one belonging to another person. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted.
+
+**Sharing does not protect the media item.** Shared, but embedded nowhere means: deleted. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well.
+
+Administrators and learn resource managers find the retained media items without an assignment in the media management, using the **Without creator** filter.
+
+!!! tip "Before an account is deleted"
+    Ask the person concerned to download any media items they need. If a media item is to remain in the system, it must be embedded in a page beforehand. The complete table of all data types is on the page [Delete user](../../manual_admin/usermanagement/Delete_User.md#del_properties).
 
 [To the top of the page ^](#media_center_concept)
 
@@ -199,9 +207,7 @@ The **filter functions** help you to find the media you are looking for quickly.
 
 When accessing the Media Center, persons with administrative access (e.g. administrators) have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except their own are listed there. (Users without administrative access will not see this tab.)
 
-After clicking on a medium, the usage locations, shares, last views, etc. can be called up for each medium.
-
-![Highlighted tab Media management with the card overview of all foreign media and the additional filter Without creator](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
+After clicking on a medium, the usage locations, shares, last views, etc. can be called up for each medium. The **Without creator** filter shows the media items whose account was deleted.
 
 [To the top of the page ^](#media_center_concept)
 
@@ -215,6 +221,8 @@ After clicking on a medium, the usage locations, shares, last views, etc. can be
 [Creating Portfolios >](../area_modules/Portfolio.md)<br>
 [Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
-[Working with media files >](../basic_concepts/Working_with_Media_Files.md)
+[Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
+[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
+[Data protection >](../../manual_admin/usermanagement/Data_protection.md)
 
 [To the top of the page ^](#media_center_concept)

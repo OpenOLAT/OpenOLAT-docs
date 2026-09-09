@@ -103,7 +103,7 @@ In the tab "Instant Messaging" you define the settings for the [chat function](.
 
 Here you can read the terms of use, which you confirmed the first time you logged in. The exact terms of use are determined by the OpenOlat administrators.
 
-Furthermore you can request the deletion of your complete OpenOlat account here.
+Furthermore you can request the deletion of your complete OpenOlat account here. The request is sent as an email to an address configured by the system administration; the deletion itself is carried out by the user management. More about this: [Data protection](../../manual_admin/usermanagement/Data_protection.md#request_account_deletion)
 
 ![Text of the terms of use with the date of consent, button Ask to delete your account and three confirmed check boxes, tab Terms of use of the personal settings](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" }
 
@@ -116,7 +116,9 @@ Furthermore you can request the deletion of your complete OpenOlat account here.
 
 In this section, you can request an overview of your data stored in OpenOlat from the operator in accordance with Article 15 of the GDPR. The relevant support link is provided here.
 
-Once the export is complete, you can download the user data stored about you here.
+Once the export is complete, you can obtain the user data stored about you here with the **Download the data** button. The file stays available for one month, after that a new export is required.
+
+How the export is triggered and who is allowed to do so is described on the page [Data protection](../../manual_admin/usermanagement/Data_protection.md#export_user_data) in the administration manual.
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -138,7 +140,8 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 
 **Mentioned on this page**<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
-[Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)
+[Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
+[Data protection >](../../manual_admin/usermanagement/Data_protection.md)
 
 **Further reading**<br>
 [Personal Configuration: Profile >](Profile.md)<br>

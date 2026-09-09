@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 700" width="940" height="700" role="img" aria-label="Entscheidungsbaum: was beim Löschen eines Kontos mit den Medien im Media Center geschieht">
+  <title>Medien beim Löschen eines Kontos</title>
+  <rect x="0" y="0" width="940" height="700" fill="#F3F4EF"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#135E5F"/>
+    </marker>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A6A6A6"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#135E5F">Medien beim Löschen eines Kontos</text>
+  <text x="40" y="80" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Entscheidend ist die Einbindung in eine Seite, nicht die Freigabe.</text>
+
+  <!-- Schritt 0 -->
+  <rect x="290" y="110" width="360" height="58" rx="8" fill="#135E5F"/>
+  <text x="470" y="146" font-family="'Roboto', sans-serif" font-size="19" font-weight="600" fill="#FFFFFF" text-anchor="middle">Konto wird gelöscht</text>
+  <line x1="470" y1="168" x2="470" y2="196" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Schritt 1 -->
+  <rect x="210" y="198" width="520" height="80" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2.5"/>
+  <text x="470" y="226" font-family="'Roboto', sans-serif" font-size="18" font-weight="600" fill="#135E5F" text-anchor="middle">Schritt 1: eigene ePortfolio-Mappen werden gelöscht</text>
+  <text x="470" y="252" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">nur wenn die Person die einzige Besitzerin ist;</text>
+  <text x="470" y="270" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Mappen-Vorlagen bleiben bestehen</text>
+  <line x1="470" y1="278" x2="470" y2="306" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Schritt 2: Entscheidung -->
+  <rect x="190" y="308" width="560" height="94" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="3"/>
+  <text x="470" y="338" font-family="'Roboto', sans-serif" font-size="18" font-weight="600" fill="#135E5F" text-anchor="middle">Schritt 2: Ist das Medium in einer Seite eingebunden?</text>
+  <text x="470" y="364" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Kursbaustein «Seite» oder ePortfolio-Seite,</text>
+  <text x="470" y="384" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">auch die einer anderen Person</text>
+
+  <!-- Verzweigung -->
+  <path d="M 300 402 L 300 440 L 235 440 L 235 470" fill="none" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 640 402 L 640 440 L 705 440 L 705 470" fill="none" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="262" y="432" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F" text-anchor="end">ja</text>
+  <text x="680" y="432" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">nein</text>
+
+  <!-- Ergebnis links -->
+  <rect x="55" y="472" width="360" height="118" rx="8" fill="#FFFFFF" stroke="#B2CF42" stroke-width="3"/>
+  <rect x="55" y="472" width="360" height="34" rx="8" fill="#B2CF42"/>
+  <text x="235" y="496" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#2D2926" text-anchor="middle">Bleibt erhalten</text>
+  <text x="235" y="528" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Danach niemandem mehr zugeordnet.</text>
+  <text x="235" y="550" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Funktioniert in Kursen und Seiten</text>
+  <text x="235" y="572" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">unverändert weiter.</text>
+
+  <!-- Ergebnis rechts -->
+  <rect x="525" y="472" width="360" height="118" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="3"/>
+  <rect x="525" y="472" width="360" height="34" rx="8" fill="#8F1F40"/>
+  <text x="705" y="496" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Wird endgültig gelöscht</text>
+  <text x="705" y="528" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Betrifft auch Medien, die nur in der</text>
+  <text x="705" y="550" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">eigenen, in Schritt 1 gelöschten</text>
+  <text x="705" y="572" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Mappe eingebunden waren.</text>
+
+  <!-- Hinweis unter "bleibt erhalten" -->
+  <rect x="55" y="606" width="360" height="62" rx="8" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2"/>
+  <text x="75" y="632" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Wo sie zu finden sind:</text>
+  <text x="75" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">Media Center &gt; Medienverwaltung.</text>
+  <line x1="235" y1="590" x2="235" y2="604" stroke="#A6A6A6" stroke-width="2"/>
+
+  <!-- Hinweis unter "wird geloescht" -->
+  <rect x="525" y="606" width="360" height="62" rx="8" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2.5"/>
+  <text x="545" y="632" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Eine Freigabe schützt nicht:</text>
+  <text x="545" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">freigegeben, nirgends eingebunden = gelöscht.</text>
+  <line x1="705" y1="590" x2="705" y2="604" stroke="#F2AF40" stroke-width="2"/>
+</svg>

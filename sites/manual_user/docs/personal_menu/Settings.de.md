@@ -103,7 +103,7 @@ Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](
 
 Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login bestätigt haben. Die genauen Nutzungsbedingungen werden von den OpenOlat-Administrator:innen festgelegt.
 
-Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt werden.
+Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt werden. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 
 ![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" }
 
@@ -116,7 +116,9 @@ Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt wer
 
 In diesem Bereich können Sie eine Übersicht über Ihre in OpenOlat gespeicherten Daten nach Artikel 15 DSGVO beim Betreiber anfordern. Es ist der entsprechende Support-Link hier hinterlegt.
 
-Sobald der Export durchgeführt wurde, können Sie die über Sie gespeicherten Benutzerdaten hier herunterladen.
+Sobald der Export durchgeführt wurde, können Sie die über Sie gespeicherten Benutzerdaten hier über die Schaltfläche **Dateien herunterladen** beziehen. Die Datei bleibt einen Monat zum Herunterladen bereit, danach ist ein neuer Export nötig.
+
+Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#export_user_data) im Administrationshandbuch.
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -138,7 +140,8 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 
 **Auf dieser Seite erwähnt**<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
-[Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)
+[Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
+[Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
 
 **Weiterführend**<br>
 [Persönliche Konfiguration: Profil >](Profile.de.md)<br>

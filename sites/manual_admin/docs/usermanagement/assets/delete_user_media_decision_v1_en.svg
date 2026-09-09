@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 700" width="940" height="700" role="img" aria-label="Decision tree: what happens to the media items in the Media Center when an account is deleted">
+  <title>Media items when an account is deleted</title>
+  <rect x="0" y="0" width="940" height="700" fill="#F3F4EF"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#135E5F"/>
+    </marker>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A6A6A6"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#135E5F">Media items when an account is deleted</text>
+  <text x="40" y="80" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">What matters is the embedding in a page, not the sharing.</text>
+
+  <!-- Schritt 0 -->
+  <rect x="290" y="110" width="360" height="58" rx="8" fill="#135E5F"/>
+  <text x="470" y="146" font-family="'Roboto', sans-serif" font-size="19" font-weight="600" fill="#FFFFFF" text-anchor="middle">Account is deleted</text>
+  <line x1="470" y1="168" x2="470" y2="196" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Schritt 1 -->
+  <rect x="210" y="198" width="520" height="80" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2.5"/>
+  <text x="470" y="226" font-family="'Roboto', sans-serif" font-size="18" font-weight="600" fill="#135E5F" text-anchor="middle">Step 1: the person's own ePortfolio binders are deleted</text>
+  <text x="470" y="252" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">only if the person is their only owner;</text>
+  <text x="470" y="270" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">binder templates remain</text>
+  <line x1="470" y1="278" x2="470" y2="306" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Schritt 2: Entscheidung -->
+  <rect x="190" y="308" width="560" height="94" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="3"/>
+  <text x="470" y="338" font-family="'Roboto', sans-serif" font-size="18" font-weight="600" fill="#135E5F" text-anchor="middle">Step 2: is the media item embedded in a page?</text>
+  <text x="470" y="364" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">"Page" course element or ePortfolio page,</text>
+  <text x="470" y="384" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">including one belonging to another person</text>
+
+  <!-- Verzweigung -->
+  <path d="M 300 402 L 300 440 L 235 440 L 235 470" fill="none" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 640 402 L 640 440 L 705 440 L 705 470" fill="none" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="262" y="432" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F" text-anchor="end">yes</text>
+  <text x="680" y="432" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">no</text>
+
+  <!-- Ergebnis links -->
+  <rect x="55" y="472" width="360" height="118" rx="8" fill="#FFFFFF" stroke="#B2CF42" stroke-width="3"/>
+  <rect x="55" y="472" width="360" height="34" rx="8" fill="#B2CF42"/>
+  <text x="235" y="496" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#2D2926" text-anchor="middle">Is retained</text>
+  <text x="235" y="528" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">No longer assigned to anyone.</text>
+  <text x="235" y="550" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Keeps working unchanged in courses</text>
+  <text x="235" y="572" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">and pages.</text>
+
+  <!-- Ergebnis rechts -->
+  <rect x="525" y="472" width="360" height="118" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="3"/>
+  <rect x="525" y="472" width="360" height="34" rx="8" fill="#8F1F40"/>
+  <text x="705" y="496" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Is permanently deleted</text>
+  <text x="705" y="528" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">This also affects media items embedded</text>
+  <text x="705" y="550" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">only in the person's own binder</text>
+  <text x="705" y="572" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">deleted in step 1.</text>
+
+  <!-- Hinweis unter "bleibt erhalten" -->
+  <rect x="55" y="606" width="360" height="62" rx="8" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2"/>
+  <text x="75" y="632" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Where to find them:</text>
+  <text x="75" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">Media Center &gt; Media management.</text>
+  <line x1="235" y1="590" x2="235" y2="604" stroke="#A6A6A6" stroke-width="2"/>
+
+  <!-- Hinweis unter "wird geloescht" -->
+  <rect x="525" y="606" width="360" height="62" rx="8" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2.5"/>
+  <text x="545" y="632" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Sharing does not protect:</text>
+  <text x="545" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">shared, embedded nowhere = deleted.</text>
+  <line x1="705" y1="590" x2="705" y2="604" stroke="#F2AF40" stroke-width="2"/>
+</svg>

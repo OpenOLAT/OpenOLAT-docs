@@ -18,7 +18,7 @@ To delete an account, access to user management is required. The following roles
 * Administrator
 * System administrator (no direct access to user management, but can trigger deletions via the account lifecycle)
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
 
 ---
 
@@ -31,14 +31,14 @@ In the user management, use the account search to find the users whose accounts 
 **Step 2:**<br>
 In the search results, mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete account" button appears above the list.
 
-![delete_user_var1_step2_v1_de.png](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
+![Checkbox of a row ticked, above it the Delete account button appears, in the account search of the user management](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
 
 **Step 3:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
 
-![delete_user_var1_step3_v1_de.png](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" }
+![Confirmation dialog Delete account with a warning and the Confirmation checkbox that must be ticked before deleting](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" }
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
 
 ---
 
@@ -47,7 +47,7 @@ After clicking this button, a confirmation dialog appears which you must confirm
 **Step 1:**<br>
 Users can also be selected and their OpenOlat accounts deleted via the "Delete accounts" link.
 
-![delete_user_var2_step1_v1_de.png](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
+![Delete accounts link in the toolbar above the search form of the account search](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Step 2:**<br>
 Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the user account lifecycle:
@@ -58,32 +58,34 @@ Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases 
 
 **Tab "Ready to delete":** Users whose account has exceeded the configured deactivation period and is ready for permanent deletion.
 
+On all three tabs, the **Inactivation** filter narrows the list by period, either to "Account expiry in the next" or to "Inactive for the last", in days, weeks, months or years.
+
 !!! info "Configuration of the user account lifecycle"
     The lifecycle runs in three phases: **Account expiry**, **Deactivation** and **Deletion**. The applicable deadlines and notifications are configured under Administration > Life Cycles > Account.<br>
     [Details on the user account lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
-![delete_user_var2_step2_v1_de.png](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
+![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
 
 **Step 3:**<br>
 Mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete account" button appears above the list.
 
-![delete_user_var2_step3_v1_de.png](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" }
+![Marked row in the Deactivated accounts tab, above it the Delete account button next to Change account settings and Change status](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" }
 
 **Step 4:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
 
 ---
 
 ## Option 3: Automatic deletion {: #delete_user_var3}
 
-Users can also be deleted fully automatically by an activated user lifecycle.
+Users can also be deleted fully automatically by an activated user account lifecycle.
 
-[Details on the user lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
+[Details on the user account lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md#user_account_lifecycle)
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
 
 ---
 
@@ -100,6 +102,10 @@ It must be taken into account that information is technically linked to differen
 :octicons-person-24: = Information is directly linked to the **person**<br>
 :octicons-package-24: = Information is stored together with a **course/group/etc.**<br>
 :octicons-infinity-24: = Information is stored in the **OpenOlat system**
+
+The most frequent question concerns the media items in the Media Center. There, a single question decides the fate of a media item, and the diagram shows it with both of its outcomes.
+
+![Decision tree from the account deletion to retained or permanently deleted](assets/delete_user_media_decision_v1_en.svg){ class="shadow lightbox" title="Media items when an account is deleted" }
 
 |Information|What happens to it?|
 |---| ---------------------------------------- |
@@ -123,7 +129,7 @@ It must be taken into account that information is technically linked to differen
 |**Competences** :octicons-person-24: | Competences are deleted.|
 |User management > **Course Planner roles** :octicons-person-24: | The Course Planner / Curriculum roles are deleted together with the account, as they are memberships. |
 |**Personal calendar** :octicons-person-24: | The personal calendar is deleted.|
-|**Chat history** :octicons-person-24: | Chats (messages, settings) are anonymised.|
+|**Chat history** :octicons-person-24: | The chat messages of the person are deleted, as are the roster entry and the chat settings. Only the posts written by this person are removed. The posts of the other participants in the same conversations remain.|
 |**Personal folder** :octicons-person-24: |The personal folder is deleted.|
 |**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either.|
 |**Personal to-dos** :octicons-person-24: | The assignment to the deleted account is removed; the to-do entry itself remains but is then no longer assigned to anyone. (to-dos in projects: see below) |
@@ -148,7 +154,7 @@ It must be taken into account that information is technically linked to differen
 |User management > **Badges** :octicons-person-24: | Badges are retained so that authenticity can be confirmed (host-based verification, signed verification). It is nevertheless advisable to inform users whose accounts are to be deleted in advance so that they can download their earned badges from the personal menu. If **global badges** were awarded, the recipient's name is replaced by "unknown user" in the list of awarded global badges (accessible by administrators under Administration > e-Assessment > OpenBadges > tab "Awarded global badges"). It remains visible when and by whom a global badge was once awarded. Even if the badge is revoked by clicking "Revoke", it remains as a list entry with the status "Revoked" in the list of awarded global badges. |
 |**Owner role in learning resources and courses** :octicons-package-24: | Learning resources and courses are not deleted when their owner is deleted, regardless of whether the learning resource was published, shared with other authors, or not referenced/used anywhere. If the deleted user was the sole owner, an administrator is entered as a substitute owner. This also applies to test learning resources.|
 |**Questions in the question bank** :octicons-person-24: :octicons-package-24:| Questions from the question bank are only deleted if the person is their sole author and the setting "Delete questions when author deleted" is enabled. Questions with additional authors, as well as all questions when the setting is disabled, are retained. |
-|**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | If a media item in the Media Center was used in a course, it is not deleted.<br> If it was not used anywhere, it is deleted. (Even if it was shared but then not used.) |
+|**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | What matters is whether the media item is embedded in a page. This applies to the "Page" course element as well as to ePortfolio pages. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted. Sharing a media item in the Media Center does not protect it. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well. Administrators and learn resource managers find the retained media items under `Personal menu > Media Center > "Media management" segment`.<br> It makes sense to ask the person concerned to download any media items they need before their account is deleted. If a media item is to remain in the system, it must be embedded in a page beforehand. |
 |**External graders** :octicons-package-24:| If accounts of external graders are deleted, they are no longer listed by name. The associated grading assignment records are removed; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
 |**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external graders are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (grading time, close date) is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
 |**Statistics** :octicons-infinity-24: |Deleted users are no longer included in the statistics of visited courses.|
@@ -157,7 +163,7 @@ It must be taken into account that information is technically linked to differen
 
 
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
 
 ---
 
@@ -170,4 +176,18 @@ Accounts with the status **"Active and not deletable"** cannot be deleted, neith
 For **automatic deletion** via the user account lifecycle, an additional safeguard against mass deletion applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion run is aborted completely.
 
 
-[To top of page ^](#delete_user)
+[To the top of the page ^](#delete_user)
+
+---
+
+
+## Further information {: #further_information}
+
+[Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
+[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Data protection >](Data_protection.md)<br>
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
+[User management >](index.md)
+
+[To the top of the page ^](#delete_user)
