@@ -13,49 +13,59 @@ Deshalb gibt es in OpenOlat ein spezielles Werkzeug zur Prüfungseinsicht. Sie d
 * ein festes Zeitfenster,
 * ob während diesem Zeitfenster der Prüfungsmodus aktiv ist.
 
-## Konfiguration eines Ablaufschemas für eine Einsichtnahme [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
+## Konfiguration eines Ablaufschemas für eine Einsichtnahme [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425){:target="_blank"}
 
 Als **Kursbesitzer:in** erstellen Sie Ablaufschemata, in denen Sie bestimmen, wie Prüfungseinsichten ablaufen. <br>
 Die **Betreuer:innen** terminieren dann für die Prüfungsteilnehmer:innen die Einsichtnahmen und wählen dazu eines der vorderfinierten Ablaufschemata (Konfigurationen).
 
 Sie definieren als Kursbesitzer:in eine Prüfungseinsicht (Ablaufschema) unter<br>
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
 Dort fügen Sie durch Klick auf den **Button "Prüfungseinsicht hinzufügen"** eine neue Konfiguration (Ablaufschema) zur Prüfungseinsicht hinzu. Bereits definierte Ablaufschemata werden aufgelistet.
 
 
-![Button "Prüfungseinsicht hinzufügen" markiert, Tab Konfiguration Prüfungsansicht in der Prüfungsverwaltung](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
+![Button "Prüfungseinsicht hinzufügen" markiert, Tab Konfiguration Prüfungseinsicht in der Prüfungsverwaltung](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
 
 
 ### Tab "Allgemein"
 
 Zunächst definieren Sie, wie lange die Einsichtnahme dauern darf und was während der Prüfungseinsicht gezeigt werden soll: Testzusammenfassung, Sektionszusammenfassung, Fragezusammenfassung, die von den Teilnehmenden abgegebene Antwort und die Lösung. (Datum und Uhrzeit bestimmt dann der/die Betreuer:in, wenn er/sie eine Einsichtnahme mit Prüfungsteilnehmer:innen organisert.)
 
-![Tab "Allgemein" mit Feldern Name, Maximale Einsichtsdauer und den fünf Checkboxen der Übersicht Resultate](assets/assessment_management_inspection_general2_v1_de.png){ class="shadow lightbox" }
+![Felder Name und Maximale Einsichtsdauer sowie die fünf Checkboxen der Übersicht Resultate, Tab Allgemein einer Prüfungseinsicht](assets/assessment_management_inspection_general2_v1_de.png){ class="shadow lightbox" }
 
 
 ### Tab "Zugang"
 
 Im Tab "Zugang" kann die Einsichtnahme durch Angabe einer oder mehrerer IP-Adressen auf ganz bestimmte Geräte eingeschränkt werden. (Z.B. nur ein ganz bestimmter Computer in einem bestimmten Raum.)
 
-![Tab "Zugang" mit eingeschalteter Einschränkung auf IP Adressen und Feld für die zulässigen IP Adressen](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
+![Eingeschaltete Einschränkung auf IP-Adressen mit dem Feld für die zulässigen Adressen, Tab Zugang einer Prüfungseinsicht](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
 
-### Tab "Safe Exam Browser (SEB)" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
+### Tab "Safe Exam Browser (SEB)" {: #seb_tab}
 
-Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer während der Einsichtnahme gesperrt werden.  
+Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer während der Einsichtnahme gesperrt werden.
 
 ![Tab "Safe Exam Browser" markiert mit dem ausgeschalteten Schalter "Safe Exam Browser verwenden"](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
 
 ![Eingeschalteter Schalter "Safe Exam Browser verwenden" mit Typ von Anwendung, Konfiguration, Vorlage und Prüfungsmodus-spezifischer Konfiguration](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_de.png){ class="shadow lightbox" }
 
-**Typ von Anwendung** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): Wie im Prüfungsmodus wählen Sie mit «SEB-Config (empfohlen)» die Konfiguration in OpenOlat oder über eine importierte SEB-Datei (Prüfung über den Config Key) oder mit «SEB mit manuellen Keys» eine benutzerdefinierte SEB-Datei mit extern gepflegten Keys.
+#### Typ von Anwendung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571){:target="_blank"} {: #seb_type_of_use}
 
-**Konfiguration**: Übernehmen Sie die Einstellungen aus einer «Vorlage» oder passen Sie sie «Benutzerdefiniert» an; bei einer importierten SEB-Datei-Vorlage werden sie schreibgeschützt angezeigt.
+Wie im Prüfungsmodus wählen Sie mit «SEB-Config (empfohlen)» die Konfiguration in OpenOlat oder über eine importierte SEB-Datei (Prüfung über den Config Key) oder mit «SEB mit manuellen Keys» eine benutzerdefinierte SEB-Datei mit extern gepflegten Keys.
 
-**Vorlage**: Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+#### Konfiguration {: #seb_configuration}
 
-Unter der Legende **Prüfungsmodus-spezifische Konfiguration** lassen sich die **Herunterladbare Konfigurationsdatei**, der **Hinweis für Teilnehmende**, **Beenden von SEB erlauben** und das **Beenden/Entsperren-Kennwort** für diese Einsichtnahme übersteuern. Das Kennwort überschreibt dann jenes der Vorlage, und der Config Key wird automatisch neu berechnet.
+Übernehmen Sie die Einstellungen aus einer «Vorlage» oder passen Sie sie «Benutzerdefiniert» an; bei einer importierten SEB-Datei-Vorlage werden sie schreibgeschützt angezeigt.
 
-Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewählten Vorlage übernommenen Detaileinstellungen angezeigt.
+#### Vorlage [:octicons-tag-16:{ title="ab Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159){:target="_blank"} {: #seb_template}
+
+Wählen Sie aus dem Dropdown eine der aktiven SEB-Konfigurationsvorlagen aus, die von der Administration bereitgestellt werden. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie als ausgewähltes Element in der Liste erhalten, bis eine andere Vorlage gewählt wird.
+
+#### Prüfungsmodus-spezifische Konfiguration {: #seb_assessment_mode_configuration}
+
+Unter dieser Legende lassen sich die **Herunterladbare Konfigurationsdatei**, der **Hinweis für Teilnehmende**, **Beenden von SEB erlauben** und das **Beenden/Entsperren-Kennwort** für diese Einsichtnahme übersteuern. Das Kennwort überschreibt dann jenes der Vorlage, und der Config Key wird automatisch neu berechnet.
+
+#### Konfiguration anhand der Vorlage {: #seb_template_configuration}
+
+Unter dieser Legende werden die aus der gewählten Vorlage übernommenen Detaileinstellungen angezeigt.
 
 ![Aus der Vorlage übernommene SEB-Detaileinstellungen wie Browser-Ansichtsmodus, Taskleiste und Konfigurationsschlüssel, schreibgeschützt](assets/assessment_management_create_exam_setting_tab_seb_config_v1_de.png){ class="shadow lightbox" }
 
@@ -69,7 +79,7 @@ Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewäh
 
 Als Betreuer:in organisieren Sie im **Bewertungswerkzeug** die Einsichtnahmen für einzelne oder mehrere Prüfungsteilnehmer. (Z.B nur für diejenigen Prüfungsteilnehmer, die ausdrücklich eine Einsichtnahme wünschen.)
 
-![Reiter Prüfungseinsicht und Button "Teilnehmer:in hinzufügen" markiert, Bewertungswerkzeug eines Kurses](assets/assessment_management_inspection_new_v1_de.png){ class="shadow lightbox" }
+![Tab Prüfungseinsicht und Button "Teilnehmer:in hinzufügen" markiert, Bewertungswerkzeug eines Kurses](assets/assessment_management_inspection_new_v1_de.png){ class="shadow lightbox" }
 
 Ein Wizard führt Sie durch die Schritte.
 Bestimmen Sie z.B. den Termin und wählen Sie eines der von dem/der Kursbesitzer:in vordefinierten Ablaufschemata (Konfiguration). So wird sichergestellt, dass für alle Einsichtnehmenden die gleichen Bedingungen herrschen.
@@ -115,7 +125,7 @@ Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende ei
 | Definierte **Resultatansicht für alle** Kursteilnehmer:innen | Die Prüfungseinsicht ist insbesondere für die **Einsichtnahme durch Einzelpersonen** geeignet (z.B. wenn im Einzelfall Zweifel bestehen). |
 | wiederholbar               | einmalig                    |
 | jederzeit, solange Zugriff auf den Kurs besteht       | nur zu fixen Terminen         |
-| Zugriff für Besitzer:innen:<br>`Kurs-Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"`| Zugriff für Besitzer:innen:<br>`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"` |
+| Zugriff für Besitzer:innen:<br>`Kurs > Administration > Kurseditor > Test-Kursbaustein wählen > Tab "Testkonfiguration" > Abschnitt "Report"`| Zugriff für Besitzer:innen:<br>`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"` |
 | Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug`  | Zugriff für Betreuer:innen:<br> `Bewertungswerkzeug > Tab Prüfungseinsicht` |
 
 ## Weiterführende Informationen {: #further_information}
@@ -123,7 +133,8 @@ Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende ei
 **Weiterführend**<br>
 [Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)
 
 [Zum Seitenanfang ^](#Assessment_inspection)
 

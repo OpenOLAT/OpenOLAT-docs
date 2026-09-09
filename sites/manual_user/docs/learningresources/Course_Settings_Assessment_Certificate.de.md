@@ -1,11 +1,12 @@
 # Kurseinstellungen - Tab Bewertung:<br>Zertifikate und Rezertifizierung {: #certificate_and_recertification}
 
-Die Konfiguration eines Zertifikates für einen Kurs erfolgt in den Einstellungen des Kurses im Tab "Bewertung".
+Die Konfiguration eines Zertifikates für einen Kurs erfolgt unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Bewertung"`
 
-![Weg zur Zertifikatskonfiguration über Administration > Einstellungen > Tab Bewertung, Abschnitt Zertifikat mit Gültigkeitsdauer und Rezertifizierung](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
+![Vier markierte Schritte zum Abschnitt Zertifikat: Administration, Einstellungen, Tab Bewertung, dazu die Optionen Zertifikat ausstellen, Zertifikatvorlage, Optionale Variablen und Gültigkeitsdauer](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
 
 
-## Zertifikate {: #certificate}
+## Zertifikate [:octicons-tag-16:{ title="ab Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
 
 ### Was ist ein Zertifikat? {: #certificate_description}
 
@@ -19,7 +20,7 @@ Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifik
 
 ### Von wem wird ein Zertifikat ausgestellt? {: #certificate_issuer}
 
-Als Autor:in wählen Sie aus, ob das Zertifikat **manuell** von Betreuer:innen ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
+Als Autor:in wählen Sie beim Feld "PDF Zertifikat erzeugen" aus, ob das Zertifikat **manuell** von Betreuer:innen ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
 
 Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten.
 
@@ -27,7 +28,7 @@ Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen o
 
 Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. Die Benutzer:innen erhalten ausserdem automatisch eine **E-Mail-Benachrichtigung**, sobald ein Zertifikat ausgestellt worden ist.
 
-### Wie wird die Gültigkeit überprüft? {: #certificate_validation}
+### Wie wird die Gültigkeit überprüft? [:octicons-tag-16:{ title="ab Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
 
 Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
 
@@ -40,7 +41,8 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
 ### Zertifikatsvorlage erstellen {: #certificate_template}
 
-Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese im Kurs unter `Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage` hochladen.
+Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
+`Kurs > Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage`
 
 !!! note "Hinweis"
 
@@ -53,13 +55,15 @@ Die mitgelieferte Standardvorlage ist HTML-basiert und schlicht gehalten. HTML-V
 
 Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
-Die Formularfelder müssen bestimmte Variablen enthalten, die vom System später durch die spezifischen Daten ersetzt werden. Es können alle Attribute als Variablen verwendet werden. Bei PDF-Vorlagen werden die Variablennamen ohne $-Präfix, bei HTML-Formularen mit $-Präfix verwendet.
+#### Variablen in der Zertifikatsvorlage {: #certificate_variables}
+
+Die Formularfelder müssen bestimmte Variablen enthalten, auch Platzhalter genannt. Das System ersetzt sie beim Ausstellen des Zertifikats durch die Daten der Person und des Kurses. Es können alle Attribute als Variablen verwendet werden. Bei PDF-Vorlagen werden die Variablennamen ohne $-Präfix, bei HTML-Formularen mit $-Präfix verwendet.
 
 Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügung. Damit lassen sich die "*Raw" formate mittels "formatDate()" formatieren oder mit formatDateRelative (Date baseLineDate, days, months, years) eine angegebene Periode addieren.
 
 Unterschriften, Logos o.ä. können über die optionalen Variablen als statische Grafiken in das Zertifikat integriert werden. Die entsprechenden Dateien müssen dafür mit der Zertifikatsvorlage zur Verfügung stehen.
 
-???+ note "Übersicht der wichtigsten Variablen:"
+!!! note "Übersicht der wichtigsten Variablen"
 
     _Benutzer:_
 
@@ -72,7 +76,7 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       * $studySubject
       * ...
 
-        Sämtliche Userattribute sind als Variable verfügbar.
+    Sämtliche Userattribute sind als Variable verfügbar.
 
     _Kurs:_
 
@@ -138,7 +142,7 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       * $custom2
       * $custom3
 
-Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [contact@frentix.com](mailto:contact@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
+Sollten Sie eine Zertifikatsvorlage wünschen, kontaktieren Sie uns unter [contact@frentix.com](mailto:contact@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
 [Zum Seitenanfang ^](#certificate_and_recertification)
 
@@ -156,7 +160,7 @@ Ist die Druckversion aktiviert, können Kursbesitzer:innen und berechtigte Betre
 ---
 
 
-## Rezertifizierung {: #recertification}
+## Rezertifizierung [:octicons-tag-16:{ title="ab Release 18.0 (OO-6808)" }](https://track.frentix.com/issue/OO-6808) {: #recertification}
 
 ### Voraussetzungen {: #recertification_conditions}
 
@@ -167,12 +171,12 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-![Einstellungsseite Bewertung mit den Abschnitten Zertifikat, Gültigkeitsdauer und Rezertifizierung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+![Zertifikat ausstellen eingeschaltet, Gültigkeitsdauer gesetzt, darunter der Schalter Rezertifizierung, Tab Bewertung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
 
 
 ### Rezertifizierung aktivieren  {: #recertification_activation}
 
-Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat".
+Wird die Rezertifizierung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat".
 
 (Der Wert muss kleiner als die Gültigkeitsdauer sein.)
 

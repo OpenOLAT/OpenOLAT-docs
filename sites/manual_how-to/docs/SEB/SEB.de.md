@@ -22,11 +22,11 @@
 ---
 
 
-## Der SEB - Was ist das? {: #SEB_description}
+## Der SEB - Was ist das? [:octicons-tag-16:{ title="ab Release 10.2 (OO-1349)" }](https://track.frentix.com/issue/OO-1349){:target="_blank"} {: #SEB_description}
 
 Statt eine Online-Prüfung mit Browsern wie Edge, Firefox, Safari oder Chrome durchzuführen, kann zum Aufruf der OpenOlat-Online-Prüfung der [Safe Exam Browser](http://www.safeexambrowser.org) zur Pflicht gemacht werden. Dieser spezielle Browser ermöglicht es, dass während des Prüfungszeitraums die Möglichkeit andere Websites aufzurufen oder Funktionen wie Copy&Paste deaktiviert sind (Kioskmodus). Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. 
 
-In einem Kurs unter `Kurs-Administration > Prüfungsverwaltung` kann ein [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) konfiguriert werden, der Bedingungen (Zeitfenster usw.) einer Prüfung festlegt. Im Rahmen eines [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) kann auch bestimmt werden, ob der SEB verwendet werden soll. Wird diese Option aktiviert, kann direkt dort in OpenOlat eine Konfiguration des SEB vorgenommen und eine Konfigurationsdatei zum Versand an die Teilnehmer:innen erzeugt werden. 
+Unter `Kurs > Administration > Prüfungsverwaltung` kann ein [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) konfiguriert werden, der Bedingungen (Zeitfenster usw.) einer Prüfung festlegt. Im Rahmen eines [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) kann auch bestimmt werden, ob der SEB verwendet werden soll. Wird diese Option aktiviert, kann direkt dort in OpenOlat eine Konfiguration des SEB vorgenommen und eine Konfigurationsdatei zum Versand an die Teilnehmer:innen erzeugt werden. 
 
 !!! info "Der SEB ist ein externes Tool"
 
@@ -61,9 +61,9 @@ Fordern Sie auch alle Prüfungsteilnehmer:innen auf, den SEB auf ihrem Rechner z
 ### Schritt 2: Prüfungsmodus erstellen {: #create_assessment_mode}
 
 Als Autor:in des OpenOlat-Prüfungskurses erstellen Sie einen Prüfungsmodus unter<br> 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Button "Prüfungsmodus hinzufügen"`
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Button "Prüfungsmodus hinzufügen"`
 
-![SEB_new_assessment_mode_v1_de.png](assets/SEB_new_assessment_mode_v1_de.png){ class="shadow lightbox" }
+![Markierter Weg über Administration und Prüfungsverwaltung zum Tab Konfiguration Prüfungsmodus, dort der Button Prüfungsmodus hinzufügen](assets/SEB_new_assessment_mode_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#SEB)
@@ -75,9 +75,9 @@ Als Autor:in des OpenOlat-Prüfungskurses erstellen Sie einen Prüfungsmodus unt
 
 In einem Prüfungsmodus ist die Verwendung des SEB optional. Wird es gewünscht, aktivieren Sie diese Option unter<br>
 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen/bearbeiten > Tab "Safe Exam Browser"`
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen/bearbeiten > Tab "Safe Exam Browser"`
 
-![SEB_activate_v1_de.png](assets/SEB_activate_v1_de.png){ class="shadow lightbox" }
+![Markierter Tab Safe Exam Browser mit dem ausgeschalteten Schalter Safe Exam Browser verwenden, weitere Optionen erscheinen erst danach](assets/SEB_activate_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#SEB)
 
@@ -91,122 +91,154 @@ Sobald der SEB aktiviert wurde, werden die Konfigurationsoptionen angezeigt. Nac
 Bei Konfiguration in OpenOlat gilt:<br>
 Die vorgeschlagenen Einstellungen können in der OpenOlat-Systemadministration so gesetzt werden. Sie können also als Empfehlung Ihres/Ihrer Administrator:in zum Übernehmen betrachtet werden.
 
-![SEB_config_fields_v1_de.png](assets/SEB_config_fields_v1_de.png){ class="shadow lightbox" }
+![Eingeschalteter Schalter Safe Exam Browser verwenden mit Typ von Anwendung, Konfiguration und Vorlage, darunter die Legende Prüfungsmodus-spezifische Konfiguration](assets/SEB_config_fields_v1_de.png){ class="shadow lightbox" }
 
-**Typ von Anwendung**<br>
+#### Typ von Anwendung {: #type_of_use}
+
 Legen Sie fest, wie die SEB-Konfiguration bereitgestellt wird. Mit «SEB-Config (empfohlen)» konfigurieren Sie den SEB direkt in OpenOlat oder über eine importierte SEB-Datei; die Gültigkeit wird über den Config Key sichergestellt. Mit «SEB mit manuellen Keys» verwenden Sie eine benutzerdefinierte SEB-Datei und tragen die Safe Exam Browser Keys in OpenOlat ein. (Mehr dazu auf der [Web Site des Herstellers](http://www.safeexambrowser.org).) In diesem Fall erübrigen sich bis auf den Hinweistext die nachfolgend aufgelisteten Konfigurationsoptionen. Vollständige `.seb-Konfigurationsdateien` lassen sich zudem in der Administration als Vorlage importieren, siehe [Prüfungsverwaltung](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb).
 
 
 !!! note "Hinweis"
     Der Import einer `.seb`-Datei als Vorlage erfolgt im Administrationsbereich und steht nur Benutzer:innen mit Administrationsrechten zur Verfügung. Als Autor:in bzw. Kursbesitzer:in wählen Sie im Prüfungsmodus eine bereitgestellte Vorlage aus.
 
-**Konfiguration**<br>
+#### Konfiguration {: #configuration}
+
 Wählen Sie, ob die Einstellungen aus einer «Vorlage» übernommen oder «Benutzerdefiniert» angepasst werden. Bei einer Formularvorlage lassen sich die Einstellungen nach Auswahl von «Benutzerdefiniert» anpassen; bei einer importierten SEB-Datei-Vorlage sind sie fest vorgegeben und werden schreibgeschützt angezeigt.
 
-**Vorlage**<br>
+#### Vorlage {: #template}
+
 Wählen Sie aus dem Dropdown eine der von der Administration bereitgestellten SEB-Konfigurationsvorlagen. Die als Standard markierte Vorlage ist vorausgewählt.
 
-**Herunterladbare Konfigurationsdatei**<br>
+Die folgenden vier Felder stehen unter der Legende **"Prüfungsmodus-spezifische Konfiguration"**. Was Sie dort eintragen, gilt nur für diesen Prüfungsmodus und übersteuert die Werte der Vorlage.
+
+#### Herunterladbare Konfigurationsdatei {: #downloadable_config_file}
+
 Wird hier "Ja" gewählt, kann die Konfigurationsdatei durch die Prüfungsteilnehmer:innen bei gestartetem Prüfungsmodus aus OpenOlat heruntergeladen werden. Auch Autor:innen können die Datei jederzeit herunterladen und an die Prüfungsteilnehmer:innen verschicken. Siehe [Schritt 6](#download_SEB_configfile).
 
 Wird hier "Nein" gewählt, besteht die Downloadmöglichkeit für Teilnehmer:innen nicht mehr, für Autor:innen jedoch weiterhin, wie in [Schritt 6](#download_SEB_configfile) beschrieben.
 
-**Hinweis für Teilnehmende**<br>
+#### Hinweis für Teilnehmende {: #information_for_participants}
+
 Der hier eingegebene Hinweistext erscheint, sobald die Prüfungsteilnehmer:innen mit den SEB starten. Sie können hier z.B. nochmals auf die Prüfungsbedingungen und die Einschränkungen durch den SEB hinweisen.
 
-**Beenden von SEB erlauben**<br>
+#### Beenden von SEB erlauben {: #allow_exit}
+
 Manche Prüfungsteilnehmer:innen sind teilweise früher fertig und können dann bis zum eingestellten Ende des Prüfungsmodus nicht auf OpenOlat oder andere Websites zugreifen.
 Besteht keine Gefahr von Missbrauch (gegenseitiger Hilfe), kann den Prüfungsteilnehmer:innen das Beenden des SEB erlaubt werden, sobald sie ihre Prüfung abgegeben haben. In diesem Fall wird ein Quit-Button rechts unten auf dem Bildschirm angezeigt.
 
-**Beenden/Entsperren-Kennwort**<br>
+#### Beenden/Entsperren-Kennwort {: #password_for_quitting}
+
 Dieses Eingabefeld wird als Konfigurationsmöglichkeit nur angezeigt, wenn das Beenden des SEB erlaubt wurde.
-Klicken Prüfungsteilnehmer:innen den Quit-Button zum Beenden der Einschränkungen des SEB, werden sie zur Eingabe dieses Passworts aufgefordert. 
+Klicken Prüfungsteilnehmer:innen den Quit-Button zum Beenden der Einschränkungen des SEB, werden sie zur Eingabe dieses Passworts aufgefordert.
 
 Bei einer Prüfung in einem gemeinsamen Prüfungsraum kann dieses Passwort zum Beispiel die Prüfungsaufsicht jeweils denjenigen Personen bekannt geben, die den Prüfungsraum verlassen.
 
-![SEB_config_details_v1_de.png](assets/SEB_config_details_v1_de.png){ class="shadow lightbox" }
+Die weiteren Felder stehen unter der Legende **"Konfiguration anhand der Vorlage"**. Sie sind durch die gewählte Vorlage vorbelegt und lassen sich anpassen, sobald Sie bei "Konfiguration" die Option «Benutzerdefiniert» wählen.
 
-**Link um SEB nach der Prüfung zu verlassen**<br>
+![Aus der Vorlage vorbelegte Felder vom Beenden-Link bis zum URL-Filter, darunter der Konfigurationsschlüssel, Legende Konfiguration anhand der Vorlage](assets/SEB_config_details_v1_de.png){ class="shadow lightbox" }
+
+#### Link um SEB nach der Prüfung zu verlassen {: #link_to_quit}
+
 Wenn kein Quit-Button angezeigt werden soll, kann dieser Link innerhalb der Prüfung an geeigneter Stelle angegeben werden. Mit ihm können die Prüfungsteilnehmer:innen dann den Safe Exam Browser verlassen.
 
-**Benutzer:in muss das Beenden bestätigen**<br>
+#### Benutzer:in muss das Beenden bestätigen {: #confirm_quitting}
+
 Ist diese Option aktiviert, müssen alle Prüfungsteilnehmer:innen das Beenden der Prüfung nochmals bestätigen. Dies ist als Sicherheitsmassnahme vorgesehen, damit eine Prüfung nicht versehentlich beendet wird.
 
-**Neuladen in Prüfung zulassen**<br>
-Wird das erneute Laden der Website (Prüfungsseite) während der laufenden Prüfung zugelassen, erscheint bei den Prüfungsteilnehmer:innen rechts unten auf dem Bildschirm ein Button zum Neuladen. 
+#### Neuladen in Prüfung zulassen {: #enable_reload}
 
-**Browser-Ansichtsmodus**<br>
-Wählen Sie einen der angegebenen Modi. Wenn keine weiteren Websites freigegeben wurden, empfiehlt sich der Vollbildmodus. Sollen die Prüfungsteilnehmer:innen auf bestimmte freigegebene Seiten zugreifen, kann die Verwendung von Browserfenstern sinnvoll sein. 
+Wird das erneute Laden der Website (Prüfungsseite) während der laufenden Prüfung zugelassen, erscheint bei den Prüfungsteilnehmer:innen rechts unten auf dem Bildschirm ein Button zum Neuladen.
 
-**SEB-Taskleiste anzeigen**<br>
+#### Browser-Ansichtsmodus {: #browser_view_mode}
+
+Wählen Sie einen der angegebenen Modi. Wenn keine weiteren Websites freigegeben wurden, empfiehlt sich der Vollbildmodus. Sollen die Prüfungsteilnehmer:innen auf bestimmte freigegebene Seiten zugreifen, kann die Verwendung von Browserfenstern sinnvoll sein.
+
+#### SEB-Taskleiste anzeigen {: #show_tasklist}
+
 Diese Option hat Einfluss auf einige andere Optionen. Wenn die Taskleiste nicht angezeigt wird, fehlen auch die Anzeigen für den Beenden-Button, Audio-Steuerung, Uhrzeit, Tastaturbelegung und WLAN-Auswahl.
 
-**Neuladen-Taste anzeigen**<br>
-Ist das erneute Laden erlaubt, wird links oben eine Button zum Neuladen angezeigt. Bei "Nein" ist er ausgegraut und kann nicht verwendet werden.
+#### Neuladen-Taste anzeigen {: #show_reload_button}
 
-**Uhrzeit anzeigen**<br>
-Ein hilfreiches Feature für die Prüfungsteilnehmer:innen, um die verbleibende Restzeit im Blick zu behalten. 
+Ist das erneute Laden erlaubt, wird links oben ein Button zum Neuladen angezeigt. Bei "Nein" ist er ausgegraut und kann nicht verwendet werden.
 
-**Auswahl Tastaturbelegung anzeigen**<br>
-Es wird eine Auswahl für Tastaturbelegungen zum Sprachenwechsel angezeigt. 
+#### Uhrzeit anzeigen {: #show_time_clock}
 
-**WLAN-Auswahl anzeigen**<br>
+Ein hilfreiches Feature für die Prüfungsteilnehmer:innen, um die verbleibende Restzeit im Blick zu behalten.
+
+#### Auswahl Tastaturbelegung anzeigen {: #show_keyboard_layout}
+
+Es wird eine Auswahl für Tastaturbelegungen zum Sprachenwechsel angezeigt.
+
+#### WLAN-Auswahl anzeigen {: #show_wlan_chooser}
+
 Die Auswahl erreichbarer WLAN-Netze wird rechts unten in der Taskleiste angezeigt, wenn die Option auf "Ja" gesetzt ist.
 
-**Audio-Steuerung anzeigen**<br>
+#### Audio-Steuerung anzeigen {: #enable_audio_controls}
+
 Die Audiosteuerung kann rechts unten in der Taskleiste angezeigt werden. Diese Option wird für Prüfungen mit Video oder Audio benötigt.
 
-**Stummschaltung beim Start**<br>
+#### Stummschaltung beim Start {: #mute_on_startup}
+
 Mit deaktivierter Audio-Steuerung verhindert diese Option das Verwenden von Audio Devices.
 
-**Audioaufnahme zulassen (Mikrofon, Win)**<br>
+#### Audioaufnahme zulassen (Mikrofon, Win) {: #allow_audio_capture}
+
 Es empfiehlt sich, diese Option nur zu aktivieren, wenn ausdrücklich Audioaufnahmen während der Prüfung erwünscht sind.
 
-**Videoaufnahmen zulassen (Webcam, Win)**<br>
+#### Videoaufnahmen zulassen (Webcam, Win) {: #allow_video_capture}
+
 Es empfiehlt sich, diese Option nur zu aktivieren, wenn ausdrücklich Videoaufnahmen während der Prüfung erwünscht sind.
 
-**Rechtschreibprüfung zulassen**<br>
+#### Rechtschreibprüfung zulassen {: #enable_spell_checking}
+
 Je nach Prüfungsgegenstand kann die Rechtschreibprüfung (derzeit nur Englisch) deaktiviert oder verfügbar gemacht werden. Wenn die Option auf "Ja" gesetzt ist, werden falsch geschriebene Wörter rot unterstrichen.
 
-**Zoom in/out erlauben**<br>
+#### Zoom in/out erlauben {: #allow_zoom}
+
 Gründe für eine Unterdrückung des Zoom könnten z.B. sein, dass die Prüfungsteilnehmer:innen auf Bildmaterial durch Zoom unerwünscht Schrift lesen könnten. In der Regel sollte jedoch Zoom erlaubt sein, um (insbesondere bei BYOD - Bring your own device) eine gute Lesbarkeit zu gewährleisten. Gezoomt werden kann mit Strg + und Strg -, sowie im Menü oben rechts.
 
-**URL-Filter aktivieren**<br>
-Ist der Filter aktiviert, werden alle Webseiten bis auf die Prüfung blockiert. Mit der aktivierung werden weitere Optionen zur Konfiguration angezeigt. Dort können Sie genauer steuern, welche URLs während der Prüfung ausserdem noch aufgerufen werden dürfen.
+#### URL-Filter aktivieren {: #enable_url_filtering}
 
-![SEB_config_url_filter_v1_de.png](assets/SEB_config_url_filter_v1_de.png){ class="shadow lightbox" }
+Ist der Filter aktiviert, werden alle Webseiten bis auf die Prüfung blockiert. Mit der Aktivierung werden weitere Optionen zur Konfiguration angezeigt. Dort können Sie genauer steuern, welche URLs während der Prüfung ausserdem noch aufgerufen werden dürfen.
 
-**Eingebetteten Inhalt ebenfalls filtern**<br>
+![Eingeschalteter URL-Filter mit den vier Textfeldern für erlaubte und blockierte Ausdrücke sowie Regex, darunter der Konfigurationsschlüssel](assets/SEB_config_url_filter_v1_de.png){ class="shadow lightbox" }
+
+#### Eingebetteten Inhalt ebenfalls filtern {: #filter_embedded_content}
+
 Wird diese Option gewählt, wird auch im Inhalt einer Seite geprüft, ob erlaubte/nicht erlaubte Ausdrücke enthalten sind und entsprechend ein Zugriff freigegeben oder blockiert.
 
-**Erlaubte Ausdrücke**<br>
+#### Erlaubte Ausdrücke {: #expressions_allowed}
+
 Die in dieser Positivliste angegebenen Ausdrücke dürfen von den Prüfungsteilnehmer:innen während aktivem Prüfungsmodus gesucht werden.
 
-**Erlaubte Regex**<br>
+#### Erlaubte Regex {: #regex_allowed}
+
 Regex sind "Regular Expressions" (= Platzhalter). Es kann in dieser Positivliste angegeben werden, welche Ausdrücke mit Platzhaltern von den Prüfungsteilnehmer:innen während aktivem Prüfungsmodus gesucht werden dürfen.
 
-**Blockierte Ausdrücke**<br>
+#### Blockierte Ausdrücke {: #expressions_blocked}
+
 Hier angegebene Ausdrücke blockieren den Zugriff auf URLs und Dateinamen auf dem eigenen Rechner, die diese Ausdrücke enthalten.
-Wenn die Option "Eingebetteten Inhalt ebenfalls filtern" gewählt ist, auch wenn sie in deren Inhalten gefunden werden. 
+Wenn die Option "Eingebetteten Inhalt ebenfalls filtern" gewählt ist, auch wenn sie in deren Inhalten gefunden werden.
 
-**Blockierte Regex**<br>
-URLs mit den hier angegebene Regex-Ausdrücken (Ausdrücken mit Platzhaltern) werden blockiert. Wird der eingebettete Inhalt ebenfalls gefiltert, werden auch solche Seiten blockiert.
+#### Blockierte Regex {: #regex_blocked}
 
+URLs mit den hier angegebenen Regex-Ausdrücken (Ausdrücken mit Platzhaltern) werden blockiert. Wird der eingebettete Inhalt ebenfalls gefiltert, werden auch solche Seiten blockiert.
 
-**Konfigurationsschlüssel der gespeicherten Konfiguration**<br>
+#### Konfigurationsschlüssel der gespeicherten Konfiguration {: #config_key}
+
 Wird die Konfigurationsdatei in OpenOlat erstellt, muss dieser Schlüssel nicht separat eingetragen werden. Lediglich wenn Sie eine Konfigurationsdatei selbst bearbeiten, wird er benötigt.
 
-!!! tip Wichtiger Hinweis
+!!! tip "Wichtiger Hinweis"
     Bei jeder Änderung an der Konfigurationsdatei ändert sich der generierte Schlüssel. Sie sollten also nur den Schlüssel kopieren und verwenden, nachdem Sie **alle** Einstellungen vorgenommen haben.
 
 
 Bei **«SEB mit manuellen Keys»** entfallen die obigen Konfigurationsoptionen; stattdessen erscheint das Feld **«Safe Exam Browser Keys»**, in das Sie die extern gepflegten Keys eintragen:
 
-![SEB_config_manualkeys_v1_de.png](assets/SEB_config_manualkeys_v1_de.png){ class="shadow lightbox" }
+![Gewählter Typ SEB mit manuellen Keys, statt der Konfigurationsfelder erscheinen nur Hinweis für Teilnehmende und Safe Exam Browser Keys](assets/SEB_config_manualkeys_v1_de.png){ class="shadow lightbox" }
 
 Wird eine importierte **SEB-Datei-Vorlage** verwendet, erscheint zusätzlich die Legende **«Konfiguration anhand der SEB-Datei Vorlage»**. Die dort gelisteten Einstellungen sind durch die Vorlage festgelegt und schreibgeschützt:
 
-![SEB_config_sebfile_v1_de.png](assets/SEB_config_sebfile_v1_de.png){ class="shadow lightbox" }
+![Markierte Auswahl Vorlage UC1, darunter die aufgeklappte Legende Konfiguration anhand der SEB-Datei Vorlage mit 205 schreibgeschützten Schlüssel-Wert-Einträgen](assets/SEB_config_sebfile_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -220,7 +252,7 @@ Wird eine importierte **SEB-Datei-Vorlage** verwendet, erscheint zusätzlich die
 Wählen Sie im Tab "Safe Exam Browser" die Option<br> **"Herunterladbare Konfigurationsdatei: Ja"**.<br>
 Vergessen Sie nicht die Konfiguration zu speichern!
 
-![SEB_configfile_create_v1_de.png](assets/SEB_configfile_create_v1_de.png){ class="shadow lightbox" }
+![Markierte Option Herunterladbare Konfigurationsdatei auf Ja im Tab Safe Exam Browser eines Prüfungsmodus](assets/SEB_configfile_create_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#SEB)
@@ -233,9 +265,9 @@ Vergessen Sie nicht die Konfiguration zu speichern!
 Ist die Konfiguration abgeschlossen (Schritt 5), kehren Sie zum Exportieren der Konfigurationsdatei zurück zur vorherigen Ebene **"Prüfungsverwaltung"**, in der alle Prüfungsmodi aufgelistet sind.
 
 Klicken Sie dort beim betreffenden Prüfungsmodus auf<br>
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Icon "Herunterladen"`
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Icon "Herunterladen"`
 
-![SEB_configfile_download_v1_de.png](assets/SEB_configfile_download_v1_de.png){ class="shadow lightbox" }
+![Markiertes Download-Icon in der Spalte SEB einer Prüfungsmodus-Zeile mit dem Tooltip SEB-Konfiguration herunterladen](assets/SEB_configfile_download_v1_de.png){ class="shadow lightbox" }
 
 Beispiel: SEBClientSettings.seb
 
@@ -265,10 +297,10 @@ Damit die Prüfungsteilnehmer einen Test im SEB starten können, müssen Sie ein
 ## Starten der Prüfung durch Betreuer:innen
 
 Der Start und die Dauer der Prüfung wird durch die Angabe in der Konfiguration des [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) bestimmt. Wird ein manueller Start durch Betreuer:innen gewünscht, kann der Prüfungsmodus unter 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"` 
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"` 
 durch Klicken auf den **Starten-Button** begonnen werden. 
 
-![SEB_start_assessment_mode_v1_de.png](assets/SEB_start_assessment_mode_v1_de.png){ class="shadow lightbox" }
+![Markierte Spalte Art des Beginns/Endes mit dem Wert manuell und daneben der markierte Button Starten in der Spalte Prüfung starten](assets/SEB_start_assessment_mode_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#SEB)
 
@@ -339,15 +371,15 @@ oder
 
 Der SEB wird im Rahmen eines **Prüfungsmodus** in OpenOlat verwendet. Wird der Prüfungsmodus beendet, wird auch der SEB beendet.
 Das automatische Beenden eines Prüfungsmodus wird konfiguriert unter<br> 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
 
 ### Prüfung manuell beenden (Prüfung gleichzeitig für alle Beenden, durch Betreuer:innen)
 
 Es gilt auch hier: Wird der **Prüfungsmodus** durch den/die Betreuer:in beendet, wird auch der SEB beendet. Das manuelle Beenden eines laufenden Prüfungsmodus erfolgt durch Betreuer:innen unter<br>
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br> 
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br> 
 Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
 
-![SEB_quit_exam_mode_v1_de.png](assets/SEB_quit_exam_mode_v1_de.png){ class="shadow lightbox" }
+![Markiertes Statusband einer laufenden Prüfung mit dem Button Prüfung beenden, in der Liste die Status Laufend und Beendet sowie der Button Beenden](assets/SEB_quit_exam_mode_v1_de.png){ class="shadow lightbox" }
 
 
 ### Individuelles Beenden per Exit-Link
@@ -360,11 +392,13 @@ Wurde es entsprechend konfiguriert (siehe [Schritt 4](#SEB_configuration)), wird
 ---
 
 
-## SEB während der Einsichtnahme in die Prüfungsergebnisse {: #SEB_exam_inspection}
+## SEB während der Einsichtnahme in die Prüfungsergebnisse [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425){:target="_blank"} {: #SEB_exam_inspection}
 
 Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer auch während der Einsichtnahme in die Prüfungsergebnisse gesperrt werden.
 
-[zu den Details > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
+Sie aktivieren den SEB für eine Einsichtnahme im Ablaufschema der Prüfungseinsicht, nicht im Prüfungsmodus. Öffnen Sie dazu als Kursbesitzer:in `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`, wählen Sie ein Ablaufschema und schalten Sie im Tab "Safe Exam Browser (SEB)" den Schalter **"Safe Exam Browser verwenden"** ein. Danach wählen Sie den Typ von Anwendung, die Konfiguration und die Vorlage.
+
+[zu den Details > ](../../manual_user/learningresources/Assessment_inspection.de.md#seb_tab)<br>
 [zum Seitenanfang ^](#SEB)
 
 
@@ -392,8 +426,20 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer auch
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../test_creation_procedure/test_creation_procedure.de.md)<br>
 [Website des Herstellers >](http://www.safeexambrowser.org)<br>
+[Safe Exam Browser herunterladen >](http://www.safeexambrowser.org/download_de.html)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
-[Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
-[Wie richte ich als Administrator:in den Safe Exam Browser systemweit ein? > ](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
+[e-Assessment Administration: Prüfungsverwaltung >](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
+[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../SEB_Admin/SEB_Admin.de.md)<br>
+[Kommunikation während einer Prüfung >](../communication_during_exam/communication_during_exam.de.md)<br>
+[Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)
+
+**Weiterführend**<br>
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+
+[zum Seitenanfang ^](#SEB)
 
