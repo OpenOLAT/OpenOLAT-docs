@@ -21,7 +21,7 @@ Sophia is the AI help assistant in the OpenOlat user manual (sidebar on docs.ope
 
 **How does Sophia work?**
 
-Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmented Generation): The relevant manual pages are retrieved for the question, and a language model uses them to formulate the answer with source references. The model used is gpt-oss-120b, hosted by a European inference provider in compliance with European data protection laws.
+Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmented Generation): The relevant manual pages are retrieved for the question, and a language model uses them to formulate the answer with source references. The model used is an Open Source model, hosted by a European inference provider in compliance with European data protection laws.
 
 **What can’t Sophia do?**
 

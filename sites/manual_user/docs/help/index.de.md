@@ -21,7 +21,7 @@ Sophia ist der KI-Hilfe-Assistent im OpenOlat-Benutzerhandbuch (Seitenleiste auf
 
 **Wie funktioniert Sophia?**
 
-Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retrieval-Augmented Generation): Zur Frage werden die relevanten Handbuchseiten gesucht, und ein Sprachmodell formuliert daraus die Antwort mit Quellenangaben. Als Modell kommt gpt-oss-120b zum Einsatz, betrieben bei einem europäischen Inferenz-Anbieter unter europäischem Datenschutzrecht.
+Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retrieval-Augmented Generation): Zur Frage werden die relevanten Handbuchseiten gesucht, und ein Sprachmodell formuliert daraus die Antwort mit Quellenangaben. Als Modell kommt ein Open Source Modell zum Einsatz, betrieben bei einem europäischen Inferenz-Anbieter unter europäischem Datenschutzrecht.
 
 **Was kann Sophia nicht?**
 
