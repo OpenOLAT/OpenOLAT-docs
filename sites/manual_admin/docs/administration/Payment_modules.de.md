@@ -1,15 +1,13 @@
 # Bezahlungsmodule: Übersicht {: #payment}
 
-![admin_payment_overview_v3_de.png](assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü Bezahlungsmodule mit den Einträgen Rechnung und PayPal in der Administration](assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguriert werden:
 
 ---
 
 
-## Rechnung {: #payment_invoice}
-
-Verfügbar ab :octicons-tag-24: Release 20
+## Rechnung [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8210)" }](https://track.frentix.com/issue/OO-8210) {: #payment_invoice}
 
 Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
 
@@ -18,10 +16,9 @@ Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
 
 ---
 
-  
-## Paypal {: #payment_paypal}
+## PayPal {: #payment_paypal}
 
-Im Bereich "Paypal" wird Paypal aktiviert. Konfigurieren Sie die PayPal API-Berechtigung für den PayPal Zugang mit den Elementen Client ID und Client Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Änderungen an Bestellungen von Ihrem Paypal Konto.
+Im Bereich "PayPal" wird PayPal aktiviert. Konfigurieren Sie die PayPal API-Berechtigung für den PayPal Zugang mit den Elementen Client ID und Client Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Änderungen an Bestellungen von Ihrem PayPal Konto.
 
 [Zu den Details >](Payment_PayPal.de.md)<br>
 [Zum Seitenanfang ^](#payment)
@@ -29,10 +26,10 @@ Im Bereich "Paypal" wird Paypal aktiviert. Konfigurieren Sie die PayPal API-Bere
 ---
 
 
-## Angaben, die alle Bezahlungsarten betreffen: Mehrwertsteuer {: #payment_VAT}
+## Angaben, die alle Zahlungsarten betreffen: Mehrwertsteuer {: #payment_VAT}
 
 Auf dem Eingangsbildschirm zu "Bezahlungsmodule" werden Ihnen Angaben ermöglicht, die alle Zahlungsarten betreffen. Insbesondere sind dies Angaben zur Mehrwertsteuer.
 
-![admin_payment_overview_vat_v1_de.png](assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox }
+![Einstellungen zur Mehrwertsteuer auf der Übersichtsseite der Bezahlungsmodule](assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#payment)

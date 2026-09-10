@@ -3,7 +3,7 @@
 
 ## Zeitabschnitte helfen beim Filtern und Sortieren [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"}
 
-Das Modul "Zeitabschnitte" muss durch die Systemadministration befüllt werden. Sie finden es in der System-Administration unter:<br>
+Das Modul "Zeitabschnitte" muss durch die System-Administration befüllt werden. Sie finden es in der System-Administration unter:<br>
 `Administration > Module > Zeitabschnitte`
 
 Die Zeitabschnitte sind frei definierbar und sollen das Filtern von Durchführungen innerhalb bestimmter Zeiträume unterstützen (zum Beispiel: Semester a, b, c).
@@ -29,6 +29,8 @@ Feld | Bedeutung
 ---------|----------
 Zeitabschnitt | Kurzbezeichnung, zum Beispiel "HS26". Pflichtangabe, maximal 64 Zeichen.
 Beschreibung | Ausgeschriebener Name, zum Beispiel "Herbst Semester 2026". Optional, maximal 250 Zeichen.
+Beginn | Startdatum des Zeitabschnitts.
+Ende | Enddatum des Zeitabschnitts.
 Als Standard für Kurse festlegen | Der Zeitabschnitt ist beim Erstellen einer Lernressource vorausgewählt. Es gibt immer nur einen Standard: Beim Setzen verliert der bisherige Standard die Markierung.
 
 !!! info "Wichtig"
@@ -43,8 +45,13 @@ Als Standard für Kurse festlegen | Der Zeitabschnitt ist beim Erstellen einer L
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../../manual_user/area_modules/catalog2.0_sort_offers.de.md)
+
+**Weiterführend**<br>
+[Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[Modul Katalog >](Modules_Catalog_2.0.de.md)
 
 [Zum Seitenanfang ^](#zeitabschnitte)

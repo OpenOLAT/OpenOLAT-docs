@@ -11,24 +11,29 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![The "Course Planner" tab of the module configuration with the switch to turn it on, the option Product in "My courses", the option tree "User overview" and the linked taxonomies, in the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
+![Switch to turn on Course Planner, Product in "My courses" and option tree "User overview", in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
 
-**Turn on Course Planner**<br>
+#### Turn on Course Planner {: #enable_course_planner }
+
 This checkbox activates the entire module.
 
-**Product in "My courses"**<br>
+#### Product in "My courses" {: #product_in_my_courses }
+
 All participants will find the menu item "Courses" in the header of the main navigation bar. Products can also be displayed to participants under this menu item.
 
-**User overview**<br>
+#### User overview {: #user_overview }
+
 As an administrator you determine here which options the roles Course planner, Education manager and Line manager are shown. In other words, what a person working with the Course Planner is allowed to see of the participants. Individual entries can be released separately for each area, for example course progress and status, events and absences, evidence of achievement, badges, bookings or access to the quality management report.
 
-**Linked taxonomies**<br>
+#### Linked taxonomies {: #linked_taxonomies }
+
 From the taxonomies created in the "Taxonomy" module, you can select those that should also be available in the Course Planner.
 
 **Note:**<br>
 The taxonomies selected here should be the same as those used in the catalog. Only then can these taxonomies be searched for in the catalog.
 
-**Standard purpose for new courses**<br>
+#### Standard purpose for new courses {: #default_purpose_new_courses }
+
 Courses can be intended for stand-alone use or for integration into a product. As an administrator, you specify here which use is preset by default.
 
 * **Standalone**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog.
@@ -38,7 +43,7 @@ Courses can be intended for stand-alone use or for integration into a product. A
 
 !!! tip "Tip"
 
-	If Course Planner is used extensively, it is advisable to set the default purpose for new courses under `System administration > Course Planner settings` to "Integration into product".
+	If Course Planner is used extensively, it is advisable to set the default purpose for new courses under `Administration > Course Planner` to "Use in Course Planner".
 
 [To the top of the page ^](#module_course_planner)
 
@@ -66,7 +71,7 @@ The overview table shows all element types that have been created. An element ty
 | #Parents | Number of superordinate element types that allow this type as a child element |
 | #Children | Number of element types defined as child elements of this type |
 
-![The overview table of the element types with title, reference, state, for use as, subelements, content and the counters, plus the buttons for creating new types, in the Element types tab of the system administration](assets/modules_course_planner_element_types_v1_en.png){ class="shadow lightbox" }
+![Overview table of the element types with the buttons for creating new types, in the Element types tab of the system administration](assets/modules_course_planner_element_types_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#module_course_planner)
@@ -80,16 +85,20 @@ Two buttons create new element types: **"Create type for implementation"** and *
 
 ![The dialog "Create type for implementation" with title, reference, description, the features and the configuration of subelements and content, in the system administration](assets/modules_course_planner_element_type_create_v1_en.png){ class="shadow lightbox" }
 
-**Title** (mandatory field)<br>
+#### Title (mandatory field) {: #element_type_title }
+
 The name of the element type that is shown in the selection when an element is created.
 
-**Reference** (mandatory field)<br>
+#### Reference (mandatory field) {: #element_type_identifier }
+
 A unique identifier used to distinguish between elements with the same title. Appears as a selection option when a new curriculum element is created.
 
-**Description**<br>
+#### Description {: #element_type_description }
+
 Explanatory text for the element type.
 
-**Features**<br>
+#### Features {: #element_type_features }
+
 * **Absences**: Course planners get the "Absences" tab on elements of this type and can view the absences of all participants. Prerequisite: the Absence management module is activated.
 * **Timetable**: Combines all course calendar dates of the courses assigned to the product element.
 * **Progress**: Shows the learning progress in learning path courses as a pie chart. With several sub-elements, the average of the sub-elements is calculated.
@@ -99,26 +108,33 @@ Explanatory text for the element type.
 
 In the **Configuration** section you define the structure:
 
-**For use as**<br>
+### Configuration {: #configuration }
+
+#### For use as {: #for_use_as }
+
 Shows the function of elements of this type in the product. The value results from the button you chose and cannot be edited:
 
 * **Implementation**: Elements of this type are implementations (the topmost parent element). They have an implementation period and are the starting point for automation rules.
 * **Element**: Elements of this type are sub-elements below an implementation and have no implementation period of their own.
 * **Implementation or element (legacy)**: Elements of this type can be used both as an implementation and as a sub-element. This mode is used for backward compatibility with existing product structures and is not available for new types.
 
-**Subelements**<br>
+#### Subelements {: #subelements }
+
 * **No**: Elements of this type stand alone, with no subelements.
 * **Yes**: Elements of this type can contain subelements.
 
-**Content**<br>
+#### Content {: #content }
+
 * **No content**: The element carries no course. It is a pure structure element, comparable to the course element "Structure".
 * **Single course**: The element has exactly one course.
 * **Course bundle**: The element can have several courses.
 
-**Parent elements** and **Child elements**<br>
+#### Parent elements and Child elements {: #parent_and_child_elements }
+
 For an existing type you determine here under which types it may be used and which types can be subordinated to it. This is how the hierarchy of a product is built.
 
-**State**<br>
+#### State {: #status }
+
 * **Active**: The type is available for selection when creating new elements.
 * **Inactive**: The type is hidden and is no longer available for selection for new elements. Existing elements of this type are retained.
 
@@ -136,7 +152,7 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the **"Automation"** tab. Use **"Add automation rule"** to add new rules.
 
-![The Automation section in the dialog of an element type with the switch, the filters and the rule table of context, automation, target status, condition and required status, plus the parent and child elements, in the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" }
+![Automation section in the dialog of an element type: switch, filters and rule table with context, target status and condition, in the Element types tab of the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" }
 
 Each automation rule contains:
 

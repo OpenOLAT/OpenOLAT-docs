@@ -3,7 +3,7 @@
 ## Aufnahmekonfigurationen {: #recording_config}
 
 ### Videoaufzeichnung aktivieren
-  
+
 Wenn Sie die Videoaufzeichnungsfunktion aktivieren, können Benutzer an vielen Stellen, an denen Videos verwendet werden, wie z. B. in Aufgaben oder Gruppenaufgaben, ihre eigenen Videos aufzeichnen.
 
 ### Audioaufzeichnung aktivieren
@@ -29,3 +29,15 @@ Wie Sie ffmpeg lokal installieren, erfahren Sie im Kapitel [ffmpeg](../installat
 ## Umstellungsarbeiten {: #conversion_jobs}
 
 Dieser Bereich enthält Audio- und Videodateien, die auf eine Konvertierung warten oder die nicht erfolgreich konvertiert werden konnten.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[HandBrakeCLI](../installation/handBrakeCli.md)<br>
+[ffmpeg](../installation/ffmpeg.md)
+
+**Weiterführend**<br>
+[Modul Video](Modules_Video.de.md)<br>
+[Video aufnehmen](../basic_concepts/Video_Recording.de.md)
+
+[Zum Seitenanfang ^](#module_audio_video_recording)

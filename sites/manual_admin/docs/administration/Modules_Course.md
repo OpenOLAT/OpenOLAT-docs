@@ -5,16 +5,16 @@ As an administrator, you make the default settings here that apply to the creati
 
 ## Tab Settings {: #settings}
 
-![modules_course_settings_v1_de.png](assets/modules_course_settings_v1_en.png){ class="shadow lightbox" }
+![Default settings for new courses in the Settings tab: execution period, course design and assessable course elements](assets/modules_course_settings_v1_en.png){ class="shadow lightbox" }
 
 **Default setting**
 
-From release 19.1.6, a default can be preset for the implementation period of a course.
+A default can be preset for the implementation period of a course.
 
 
 !!! tip "Note"
 
-    If “Semester” is selected as the implementation period, a semester name can be set as the default under **Modules > Semester data > Edit semester**.
+    If "Semester" is selected as the implementation period, a time period can be set as the default under `Administration > Modules > Time periods`.
 
 **Course design**
 
@@ -39,9 +39,9 @@ E.g. regarding login for anonymous and external users.
 
 ## Tab Implementation formats {: #implementation_formats}
 
-![modules_course_implementation_formats_v1_en.png](assets/modules_course_implementation_formats_v1_en.png){ class="shadow lightbox" }
+![List of implementation formats with identifier, translation, CSS class and number of courses in the Implementation formats tab](assets/modules_course_implementation_formats_v1_en.png){ class="shadow lightbox" }
 
-The implementation formats created and listed here can be used by authors to classify courses. They can be selected by course owners when configuring a course under **(Course-)Administration > Settings > Metadata**
+The implementation formats created and listed here can be used by authors to classify courses. They can be selected by course owners when configuring a course under: `Course > Administration > Settings > Metadata`
 
 [To the top of the page ^](#course)
 
@@ -50,7 +50,7 @@ The implementation formats created and listed here can be used by authors to cla
 
 ## Tab Color categories {: #color_categories}
 
-![modules_course_color_categories_v1_en.png](assets/modules_course_color_categories_v1_en.png){ class="shadow lightbox" }
+![List of color categories with identifier, translation and CSS class in the Color categories tab](assets/modules_course_color_categories_v1_en.png){ class="shadow lightbox" }
 
 The color categories created here are available as css classes. They can be used by authors to design course elements in the “Layout” tab of the course editor, for example.
 
@@ -60,9 +60,18 @@ The color categories created here are available as css classes. They can be used
 
 ## Tab Style images {: #style_images}
 
-![modules_course_style_images_v1_en.png](assets/modules_course_style_images_v1_en.png){ class="shadow lightbox" }
+![Library of style images for the default style of new courses in the Style images tab](assets/modules_course_style_images_v1_en.png){ class="shadow lightbox" }
 
 The images listed here can be used by the authors in the “Layout” tab of the course editor to design the header of the course elements. They can be colored differently by selecting a color category.
+
+[To the top of the page ^](#course)
+
+---
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)
 
 [To the top of the page ^](#course)
 

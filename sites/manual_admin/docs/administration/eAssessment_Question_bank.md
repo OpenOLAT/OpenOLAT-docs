@@ -2,11 +2,11 @@
 
 Here you can configure the question pool from the system administrator's point of view. Some of the settings can also be made in the [pool manager's administration](../../manual_user/area_modules/Question_Bank_Administration.md).
 
-![](assets/Question bank administration EN.png){ class="shadow lightbox" }
+![Basic settings of the question bank and rights of the pool managers, tab "Question bank" in the administration](assets/Question bank administration EN.png){ class="shadow lightbox" }
 
 ## Tab Question bank
 
-In the first tab Question bank, basic settings of the question bank are made. It is defined whether the review process is activated and whether lists, pools and groups should be available. By default, the review process is switched off, while lists, pools and groups are activated. This is how the question pool behaves as in versions 12.2 and older.
+In the first tab Question bank, basic settings of the question bank are made. It is defined whether the review process is activated and whether lists, pools and groups should be available. By default, the review process is switched off, while lists, pools and groups are activated.
 
 For example, if lists are now disabled, lists will no longer be displayed in the question pool and questions can no longer be added to lists. Questions that were in lists are still visible under "My questions", they are not deleted. When the lists are reactivated, the same questions as before are linked in the corresponding lists. It is exactly the same with pools and groups.
 
@@ -15,9 +15,7 @@ For more information on the [review process](../../manual_user/area_modules/Ques
   * Taxonomy: The taxonomy "Question bank" is assigned to each question bank. 
   This taxonomy was automatically created from the former subject. Changes can 
   be made in the "Subjects" tab. More information about the taxonomy can be found  [here](Modules_Taxonomy.md).
-  * Selectable subjects: When "All subjects" is selected, any subject can be selected 
-  for a question, regardless of its own competencies.   
-However, if "Subjects with the competence "Teach" or "Manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either under `Administration → Modules → Taxonomy` or in the user administration.
+  * Selectable subjects: When "All subjects" is selected, any subject can be selected for a question, regardless of its own competencies. However, if "Subjects with the competence "Teach" or "Manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either under `Administration → Modules → Taxonomy` or in the user administration.
   * Create subject when importing: Questions can be added to the question bank via Excel import. For each question, the subject can be imported as metadata. If this option is activated, it means that new subjects will be created by the import, if they do not already exist. If it is just a typo, a new subject will also be created.
   * Levels: The use of [levels](../administration/Assessment_translate_points_in_grades_admin.md) can be activated here.
   * Delete questions when author deleted: If the last author of a question is deleted from the user administration of OpenOlat, all these questions will be deleted, if this option is activated here. Otherwise, the questions remain in the question bank, without an assigned author. As a system administrator, you can search for all those questions in the question bank under `Questions → without author` and assign a new author.
@@ -36,7 +34,7 @@ Here you can create an info page. This info page is displayed when you open the 
 
 ## Tab Review process
 
-![](assets/Review process - administration EN.png){ class="shadow lightbox" }
+![Review process settings such as decision method and visibility of final questions, tab "Review process" in the administration](assets/Review process - administration EN.png){ class="shadow lightbox" }
 
   * Decision method: For the time being, only the assessment method Lower limit can be selected. The decision method "Lower limit" changes the status of a question to "Final", if the minimum number of ratings is reached and if all ratings are equal or higher than the lower limit. If a rating is lower than the lower limit, the question status this immediately changed to "Revision", even if the minimum number of ratings is not reached yet.
   * Number of ratings per question: This number of people must give a positive rating per question, i.e. above the lower limit, for the questions to change to Final status.
@@ -52,7 +50,7 @@ Here you can add, edit, merge and delete new subjects. For more information, see
 New pools can be created, edited and deleted here. Pools as well as groups allow to share questions with each other.
 
   * **Public pools**: everyone has access to these pools
-  * **Private" pools**: only those who have been added as owners have access to these pools
+  * **Private pools**: only those who have been added as owners have access to these pools
 
 ## Tab Question types
 
@@ -62,5 +60,13 @@ All question types that appear in the question bank are listed here. On the one 
 
 Various levels can be created here. The level can then be selected in the metadata of each question. For example, difficulty levels or competence levels are available here.
 
-  
+## Further information {: #further_information}
+
+[Question Bank: Administration >](../../manual_user/area_modules/Question_Bank_Administration.md)<br>
+[Question Bank Review Process >](../../manual_user/area_modules/Question_Bank_Review_Process.md)<br>
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
+[e-Assessment Administration: Levels/Grading >](Assessment_translate_points_in_grades_admin.md)<br>
+[Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+
+[To the top of the page ^](#question_bank)
 

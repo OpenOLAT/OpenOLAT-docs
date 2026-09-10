@@ -1,10 +1,12 @@
 # Module Video {: #module_video}
 
-As an administrator activate/deactivate in the **Video configuration** tab,
+The Video module is configured in the system administration under `Administration > Modules > Video`.
+
+In the Video configuration tab, as an administrator you activate/deactivate,
 
 - whether video resources are generally permitted in the OpenOlat instance.<br> Please note: These are videos that are listed in the authoring area (learning resources). Directly linked videos (e.g. in an HTML page) are not affected.
 
-- whether the **course element video** may be used by authors.
+- whether the course element "Video" may be used by authors.
 
 - Settings for transcoding. You can specify which resolutions are to be created. The original file (master) can also be deleted or replaced to optimise storage space.
 
@@ -18,7 +20,7 @@ The frentix cloud transcoding service can also automatically generate subtitles 
 
 ## Tab Video Configuration {: #video_config}
 
-![video_tab_video_config_v2_en.png](assets/video_tab_video_config_v2_en.png){ class="shadow lightbox" }
+![Enable video resource and course element, enable transcoding with mode, service URL, master video file and resolutions; Video configuration tab in the Video module](assets/video_tab_video_config_v2_en.png){ class="shadow lightbox" }
 
 ### Transcoding mode {: #transcoding_mode}
 
@@ -43,13 +45,20 @@ The transcoding settings can be locked against changes by the server configurati
 
 ## Tab Pending Transcodings {: #pending_transcodings}
 
-![video_tab_pending_transcodings_v1_en.png](assets/video_tab_pending_transcodings_v1_en.png){ class="shadow lightbox" }
+![List of running and pending transcodings, here without entries, with a refresh button; Pending Transcodings tab in the Video module](assets/video_tab_pending_transcodings_v1_en.png){ class="shadow lightbox" }
 
 ## Tab Failed Transcodings {: #failed_transcodings}
 
-![video_tab_failed_transcodings_v1_en.png](assets/video_tab_failed_transcodings_v1_en.png){ class="shadow lightbox" }
+![List of failed transcodings, here without entries, with a refresh button; Failed Transcodings tab in the Video module](assets/video_tab_failed_transcodings_v1_en.png){ class="shadow lightbox" }
 
 
 ## Tab Manage Transcodings {: #manage_transcodings}
 
-![video_tab_admin_transcodings_v1_en.png](assets/video_tab_admin_transcodings_v1_en.png){ class="shadow lightbox" }
+![Table per resolution with number of videos, external, transcoded, failed and missing, with transcode and delete actions; Manage Transcodings tab in the Video module](assets/video_tab_admin_transcodings_v1_en.png){ class="shadow lightbox" }
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Learning resource: Video >](../../manual_user/learningresources/Learning_resource_Video.md)
+
+[To the top of the page ^](#module_video)

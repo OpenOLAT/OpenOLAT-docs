@@ -6,7 +6,7 @@ In the Groups module, administrators define system-wide who is allowed to create
     `Administration > Modules > Groups`
 
 !!! tip "Data privacy"
-    Note that this menu also allows data-protection-related configurations (mandatory notifications) that **also apply to courses**: [Jump to data privacy](#data_privacy)
+    Note that this menu also allows data-protection-related configurations (mandatory notifications) that **also apply to courses**: See [data privacy](#data_privacy)
 
 
 ## Create groups [:octicons-tag-16:{ title="from Release 8.2 (OO-291)" }](https://track.frentix.com/issue/OO-291){:target="_blank"} {: #create_groups}
@@ -44,7 +44,7 @@ Defines per role of the **inviting** person whether an email notification must b
 
 Configurable roles: Users with no additional role, Authors, User managers, Roles managers, Group managers, Learning resource managers, Question bank managers, Course planners, Absence managers, Project managers, Quality managers, Line managers.
 
-![module_groups_privacy_v1_en.png](assets/module_groups_privacy_v1_en.png){ class="shadow lightbox" }
+![Data privacy settings in the Groups module with role lists for mandatory email notification and membership confirmation](assets/module_groups_privacy_v1_en.png){ class="shadow lightbox" }
 
 ### Accept or leave membership {: #accept_membership}
 
@@ -58,8 +58,9 @@ Pending membership requests appear in the course area, in the group area, and on
 
 Configurable roles: Users with no additional role, Authors, User managers, Roles managers, Group managers, Learning resource managers, Question bank managers, Course planners, Absence managers, Project managers, Quality managers, Line managers.
 
-!!! tip **Example view for a corresponding configuration for a course**:
-![module_groups_membership_request_v1_en.png](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
+!!! tip "Example view for a corresponding configuration for a course"
+
+    ![Dialog at first login with a pending membership request for a course, options Accept and Decline](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
 
 ##### Members are allowed to leave the group {: #leave_group}
 

@@ -2,11 +2,11 @@
 
 ## Tab "Authentication"
 
-![login_password_and_authentication_auth_v2_de.png](assets/login_password_and_authentication_auth_v2_de.png){ class="shadow lightbox" }
+![Authentication tab with security levels, security level per role and expert settings](assets/login_password_and_authentication_auth_v2_de.png){ class="shadow lightbox" }
 
 <h3>1 Use security levels/passkey</h3>
 
-OpenOlat has a a three-stage security concept:<br>
+OpenOlat has a three-stage security concept:<br>
 **Step 1: Password only**<br>
 **Step 2: Passkey only**<br>
 **Step 3: Passkey + Password**<br>
@@ -21,7 +21,7 @@ By switching this on, a **button** is displayed on the login page **instead of t
 If the primary login method is not the OpenOlat login, then the input field for the OpenOlat login should often not be displayed directly and prominently. An input field has a high prompt character and users immediately enter their (incorrect) login name instead of considering the other login options.<br>
 With a button next to other buttons (other login options), the decision for a specific login procedure is more considered.
 
-![login_password_and_authentication_login_v1_de.png](assets/login_password_and_authentication_login_v1_de.png){ class="lightbox" }
+![Comparison of the login page with an input field for the user name and with a button instead of the input field](assets/login_password_and_authentication_login_v1_de.png){ class="shadow lightbox" }
 
 <h4>3 One Time Code</h4>
 
@@ -48,12 +48,12 @@ If the security level has been increased by an administrator, the persons concer
 As the administrator, you define here which criteria a password must fulfill.
 A minimum and maximum length must be defined.
 
-![login_password_and_authentication_syntax_v2_de.png](assets/login_password_and_authentication_syntax_v2_de.png){ class="shadow lightbox" }
+![Password Syntax tab with minimum and maximum length, requirements for letters and special characters, and disallowed values](assets/login_password_and_authentication_syntax_v2_de.png){ class="shadow lightbox" }
 
 ## Tab "Password change policy"
 
 Here you can define how often users have to change their password and whether a password can be reused. The lifetime of the password can be defined for each role.
 
-![login_password_and_authentication_pw_change_policies_v2_de.png](assets/login_password_and_authentication_pw_change_policies_v2_de.png){ class="shadow lightbox" }
+![Password change policy tab with validity period and password lifetime per role](assets/login_password_and_authentication_pw_change_policies_v2_de.png){ class="shadow lightbox" }
 
 

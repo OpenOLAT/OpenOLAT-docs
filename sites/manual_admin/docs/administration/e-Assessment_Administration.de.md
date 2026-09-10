@@ -1,6 +1,6 @@
 # e-Assessment Administration: Übersicht {: #e-assessments}
 
-![admin_e-assessment_overview_v2_de.png](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü e-Assessment in der System-Administration mit den Einträgen Coaching, Fragenpool, Test, Einstufung/Noten, Prüfungsverwaltung, Zertifikate, OpenBadges, Kreditpunkte und ePortfolio](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Im Bereich e-Assessment können Administrator:innen folgende Einstellungen vornehmen:
 
@@ -20,13 +20,12 @@ Hier können Sie als Administrator:in die grundsätzlichen Einstellungen zum Fra
 
 ## Test {: #test}
 
-An dieser Stelle werden die Testquittung konfiguriert und Einstellungen für den Korrektur-Workflow von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
+An dieser Stelle wird die Testquittung konfiguriert und werden Einstellungen für den Korrektur-Workflow von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
 
 [Zu den Details >](../administration/e-Assessment_Test.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
 
-  
-## Einstufung/Noten {: #e-assessments}
+## Einstufung/Noten {: #grading_levels}
 
 Neben dem Bewertungssystem durch Punkte, kann das Modul "Einstufung/Noten" aktiviert werden. Dort können weitere Bewertungssysteme ergänzt und konfiguriert werden.
 
@@ -44,11 +43,11 @@ An dieser Stelle können Administratoren Prüfungsmodus und Prüfungseinsicht f�
 
 ## Zertifikate {: #certificates}
 
-Hier kann eine E-Mail-Adresse hinterlegt werden, an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich. 
+Hier kann eine E-Mail-Adresse hinterlegt werden, an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetzte möglich.
 
 Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden. 
 
-Zusätzlich ist diese Funktion auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
+Zusätzlich ist diese Funktion auch für Benutzerverwalter:innen, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehung verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
 [Zu den Details >](../administration/e-Assessment_Certificates.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)

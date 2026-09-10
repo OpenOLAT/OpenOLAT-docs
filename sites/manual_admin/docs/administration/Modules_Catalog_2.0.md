@@ -4,11 +4,11 @@
 
 Administrators can activate the catalog module here. You can activate the catalog V1 or V2 or deactivate it completely. Depending on which option you select, different additional tabs appear.
 
-If the [Catalog V2](#config_catalog_v2) is activated, the [Web catalog](#config_web-catalog) can also be activated from release 20. 
+If the [Catalog V2](#config_catalog_v2) is activated, the [Web catalog](#config_web-catalog) can also be activated.
 
 In addition, a [Taxonomy](Modules_Taxonomy.md) can be selected for the catalog.
 
-![modules_catalog_tab_settings_v1_de.png](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Settings tab in the Catalog module: Catalog V2 activated, taxonomy selected, learning resource manager role enabled for editing, web catalog switched off](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#modul_catalog)
@@ -20,7 +20,7 @@ In addition, a [Taxonomy](Modules_Taxonomy.md) can be selected for the catalog.
 
 If you activate the catalog V1 you see the tab "configuration" and can configure more details.
 
-![Administration Catalog Version 1](assets/Admin_KatalogV1_en.png)
+![Configuration tab of catalog V1: checkboxes Catalog in "Courses" and Catalog in its own site, sorting settings for new categories and entries](assets/Admin_KatalogV1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#modul_catalog)
@@ -38,7 +38,7 @@ The content displayed in a launcher is automatically selected based on the selec
 
 All launchers can be given a name in different languages. The name then appears as a header above the tiles. Launchers can also be released only for specific organizations. To do this, select "Restriction to organization." In addition, you can specify separately whether a launcher is displayed in the internal and/or external catalog.
 
-![modules_catalog_tab_settings_add_launcher_v1_de.png](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
+![Dropdown menu Add launcher with all available launcher types, below a list of three already configured launchers, Launch page tab in the Catalog module](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
 
 
 #### Launcher type "Static text"
@@ -86,17 +86,17 @@ The manually added entries can be sorted by clicking on the double arrows in fro
 
 ### Tab Filters {: #tab_filter}
 
-This tab controls which filters are available on the microsites and the search results page and can be used by the user. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc. 
+The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the user. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc. 
 
-### Layout {: #tab_layout}
+### Tab Layout {: #tab_layout}
 
 This tab contains everything concerning the appearance of the catalog V2. You can customize the display title of the catalogue and select a background image for the header of the start page.
 
 Under **Tiles Taxonomy Levels Launcher**, one can influence the appearance of the tiles of the microsites.
 
-The **Learning Resources Card display** controls which metadata should be displayed on the card of the start page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
+The **Information displayed in card** field controls which metadata is displayed on the card of the start page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
 
-![modules_catalog_tab_layout_v1_de.png](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Header with catalog title and background image upload (1324 x 240 px, maximum 2.0 MB), below the shape choice for the taxonomy tiles and the checklist of card information](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#modul_catalog)
 
@@ -104,7 +104,7 @@ The **Learning Resources Card display** controls which metadata should be displa
 
 ### Management of catalog V2 {: #v2_admin}
 
-Catalog V2 is fed from the subject taxonomy, who can be administrated  under `Administration > Taxonomy`. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
+Catalog V2 is fed from the subject taxonomy. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
 Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
@@ -114,18 +114,18 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
     The subjects, keywording, taxonomy that can be edited as a learning resource administrator can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
 
 
-![modules_catalog_management2_v1_de.png](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+![List of subject areas with reference code, creation date and number of sub-levels, Catalog management page](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
 
 The right to manage a catalog or subject area section can be granted to different persons. (Initially, this right is assigned by administrators.) Select the desired subject area section and then the "management" tab.
 
-![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+![Management tab and Add manager button highlighted, no managers registered yet, subject area page (example Ski Jumping)](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 
 The following applies to users with this right:
 
 - **Editing:** They can edit, move or delete elements within the taxonomy levels or create new sub-levels.
 - **Inheritance:** Anyone who has rights at a higher level (e.g. at institute level) may automatically edit the levels below (e.g. study programs).
 - **Sub-delegation:** These rights can be passed on from top to bottom.<br> 
-Example: An administrator gives a person the rights for a taxonomy level below (e.g. faculty). This person can then give similar rights to others within this faculty - even for subordinate areas.
+Example: An administrator gives a person the rights for a taxonomy level below (e.g. faculty). This person can then give similar rights to others within this faculty: even for subordinate areas.
 
 
 Users with this right cannot:
@@ -145,18 +145,18 @@ Images are used for various illustrative purposes in the catalog. This is a list
 
 #### Background images
 
-Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage. If the image is higher than 240px, a suitable section is taken from the centre. All the Images get cropped from the left, when viewing on smaller screens.
+Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage, the maximum file size for the upload is **2.0 MB**. If the image is higher than 240px, a suitable section is taken from the centre.
 Taxonomy level backgrounds can be customised in the "Taxonomy" tab.
 The background image for the start page can be found under Layout.
 
 Cropping Behaviour illustrated.
-![cropping behaviour illustrated](assets/catalog_cropping.png)
+![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
 
 Background for the start page
-![Background start image](assets/catalog_background_start.png){class="lightbox"}
+![Crop guide for the background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, search and title text zone approx. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" }
 
 Background for the taxonomy levels
-![Background start image](assets/catalog_background_taxonomy.png){class="lightbox"}
+![Crop guide for the taxonomy background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, semi-transparent text bar top left](assets/catalog_background_taxonomy.png){ class="shadow lightbox" }
 
 #### Taxonomy launcher images
 Depending on the setting, we are dealing here with square or rectangular images.
@@ -164,17 +164,31 @@ The rectangular images have an aspect ratio of **16:9** with a recommended displ
 
 Rectangular
 
-![Rectangular teaser](assets/catalog_taxteaser.png){class="lightbox"}
+![Schema of the rectangular teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser.png){ class="shadow lightbox" }
 
 Square
 
-![Square teaser](assets/catalog_taxteaser_square.png){class="lightbox"}
+![Schema of the square teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" }
 
 #### Course images
 
 Can be set directly in the course and should not exceed the dimensions 570x380 px. Otherwise a suitable section from the centre will be used.
 
-![catalog Image](assets/catalog_course.png){class="lightbox"}
+![Schema of the course image with the recommended size of 570x380 px](assets/catalog_course.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#modul_catalog)
+
+---
+
+## Configuration of the Web catalog {: #config_web-catalog}
+
+If Catalog V2 is selected in the "Settings" tab, activating the web catalog is available as a further option.
+
+The web catalog is a catalog mirrored to the outside, which can also be accessed by persons who are not yet registered in OpenOlat. A link can therefore also be set up on the login page, so that the web catalog can be opened without logging in. Visitors are only guided through the registration process when booking a course.
+
+The web catalog can also be deactivated temporarily.
+
+![Highlighted switches Web catalog, Web catalog temporarily deactivated and Link on login page in the Settings tab with Catalog V2 activated](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#modul_catalog)
 
@@ -182,5 +196,12 @@ Can be set directly in the course and should not exceed the dimensions 570x380 p
 
 ## Further information {: #further_information}
 
-[Configure taxonomy >](Modules_Taxonomy.md)<br>
-[Description of the catalog in the user manual >](../../manual_user/area_modules/catalog2.0.md)<br>
+**Mentioned on this page**<br>
+[Module Taxonomy](Modules_Taxonomy.md)<br>
+[Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
+
+**Further reading**<br>
+[Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0.md)<br>
+[Module Learning Resource](Modules_Learning_Resource.md)
+
+[To the top of the page ^](#modul_catalog)

@@ -3,9 +3,9 @@
 
 ## SharePoint {: #sharepoint}
 
-Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und die Microsoft SharePoint Integration nur noch eine einzige Microsoft Azure App eingerichtet.
+Für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und die Microsoft SharePoint Integration wird nur eine einzige Microsoft Azure App eingerichtet.
 
-!!! info "Info"
+!!! info "Wichtig"
 
     Für Unterstützung und Details wenden Sie sich bitte an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
@@ -14,7 +14,7 @@ Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra
 
 SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die Voraussetzung für die Nutzung der Microsoft SharePoint Integration in OpenOlat. Dafür wird nur die entsprechende Berechtigung in der Login App ergänzt.
 
-!!! tip "Hinweis"
+!!! tip "Tipp"
 
     Im Rahmen dieser Konfiguration kann auch **Office for the web** aktiviert werden. Diese Einstellung braucht jedoch nicht in der Microsoft Azure App konfiguriert werden, sondern ausschliesslich in der OpenOlat Administration. Diese Konfiguration muss von frentix vorgenommen werden.
 
@@ -24,16 +24,19 @@ SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die
 1. Erstellung Microsoft Azure App-Registrierung
 2. Ergänzung Berechtigungen in App-Registrierung für SSO über Microsoft Entra ID und für Microsoft SharePoint Integration
 3. Generierung Schlüssel / Geheimnis (Key / Secret) für OpenOlat
-4. Aktivierung SSO über Microsoft Azure Authentication (Microsoft Entra ID) in OpenOlat
+4. Aktivierung SSO über Microsoft Azure AD Authentication (Microsoft Entra ID) in OpenOlat
 5. nach Bedarf: Aktivierung der Microsoft SharePoint Integration in OpenOlat
 
 
 ### Aktivierung in der OpenOlat-Administration 
 
+Sie finden die Konfiguration in der System-Administration unter:<br>
+`Administration > Externe Werkzeuge > Microsoft SharePoint / OneDrive`
+
 **Beachten Sie:**<br>
 SharePoint und OneDrive können einzeln und unabhängig voneinander eingebunden werden.
 
-![sharepoint_config_v1_de.png](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" }
+![Konfigurationsseite der Microsoft SharePoint / OneDrive Integration mit Modul-Aktivierung, Rollenauswahl sowie Listen der erlaubten und ausgeschlossenen Sites und Drives in der System-Administration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" }
 
 ---
 

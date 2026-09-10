@@ -2,7 +2,7 @@
 
 Mit diesem Modul ermöglicht OpenOlat eine software-unterstützte physische Kontaktverfolgung an einer Institution.
 
-> **Wikipedia: _"_** _Als Kontakpersonennachverfolgung (Englisch: Contact
+> **Wikipedia: _"_** _Als Kontaktpersonennachverfolgung (Englisch: Contact
 > Tracing), oder auch nur als Kontaktverfolgung, bezeichnet man im Rahmen der
 > Umgebungsuntersuchung das Nachverfolgen von Kontaktpersonen, sowie das
 > aktive Ermitteln von Personen, die Kontakt zu einem Erkrankten hatten und
@@ -24,14 +24,15 @@ Ihnen definierten Frist automatisch gelöscht.
 ### OOacademy-Video (Kontaktverfolgung im Praxiseinsatz)
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-## Aktivierung des Moduls
 
-Das Modul "Kontaktverfolgung" ist für die Rolle "Systemadministrator"
-zugänglich (Administration → Modules → Kontaktverfolung). Im Tab
-"Konfiguration" wird das Modul insgesamt aktiviert und auch eine
-Aufbewahrungsfrist und Standardaufhaltedauer definiert werden. Die optionalen und verbindlichen Felder des Kontaktverfolgungsfragebogens werden hier konfiguriert und weitere Texte und Nachrichten können konfiguriert werden.
+## Aktivierung des Moduls {: #module_activation}
+
+Das Modul "Kontaktverfolgung" ist für Systemadministrator:innen zugänglich:<br>
+`Administration > Module > Kontaktverfolgung`
+
+Im Tab "Konfiguration" aktivieren Sie das Modul und legen eine
+Aufbewahrungsfrist sowie eine Standardaufhaltedauer fest. Hier konfigurieren Sie auch die optionalen und verbindlichen Felder des Kontaktverfolgungsfragebogens sowie weitere Texte und Nachrichten.
 
 Im Tab "Standorte" können Standorte importiert bzw. hinzugefügt werden.
 
-![assets hinzufügen](assets/Standort_hinzufuegen.png){ class="shadow" }
+![Formular zum Erfassen eines neuen Standorts im Tab Standorte](assets/Standort_hinzufuegen.png){ class="shadow lightbox" }

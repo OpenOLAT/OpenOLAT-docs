@@ -2,7 +2,7 @@
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 
-![modules_learning_resource_tab_settings_v1_de.png](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Settings tab in the Learning resource module with the sections Default settings, Notification, and Default role priority](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#learning_resource)
 
@@ -16,13 +16,13 @@ Activating the first checkbox makes the pre-selection "In Preparation" visible f
 #### Area "In Preparation" under "Courses":
 
 **Participant view when activated**
-![modules_learning_resource_tab_settings_section_v1_de.png](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
+![Courses area with active filter "In Preparation" and one course in preparation in the list](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
 
 #### Course search {: #course_search}
 
 Course owners can activate [course search](../../manual_user/basic_concepts/Search_in_Course.md) in the course under `(Course) Administration > Settings > Toolbar tab` to search for content within the course.
 
-![modules_repository_course_search_v1_de.png](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
+![Course toolbar with the Course search button highlighted](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
 
 The availability of this function can be switched on/off globally by administrators in this module. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
@@ -34,11 +34,11 @@ The availability of this function can be switched on/off globally by administrat
 
 The course info page can be called up in the header of a course. The comment is "hidden" within it.
 
-![modules_repository_course_info_v1_de.png](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
+![Course toolbar with the Course info button highlighted](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
 
 An input field for submitting a comment can then be displayed on the info page.
 
-![modules_repository_course_comment_v1_de.png](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
+![Course info page with the input field for a comment highlighted](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
 
 The availability of this input field can be switched on/off globally by administrators in this module.
 
@@ -51,7 +51,7 @@ The availability of this input field can be switched on/off globally by administ
 
 Clickable stars for rating can also be displayed on the info page of a course.
 
-![modules_repository_course_review_v1_de.png](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
+![Course info page with the rating widget of five clickable stars highlighted](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
 
 The availability of stars for rating a course can be switched on/off globally by administrators in this module.
 
@@ -64,7 +64,7 @@ The availability of stars for rating a course can be switched on/off globally by
 If someone opens a course to which they do not have access, a screen with a notice appears. 
 There is a button here that can be used to request membership. When clicked, an email is sent to all course owners.
 
-![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
+![Notice page "You are not a member" with the Request membership button](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
 This function can be switched on/off globally by administrators in this module.
 
@@ -152,14 +152,14 @@ This setting defines the order in which roles are prioritized when a member has 
 
 Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which a user with the coach role is a participant themselves.
 
-![modules_learning_resource_tab_access_v2_en.png](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
+![Access tab in the Learning resource module with the overview of access settings for sites and the Status "Finished" section](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
 
 #### Show notice in "Courses"
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
-![modules_learning_resource_tab_access_hint_v1.png](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
-![Modules_Learning_Resource_user_hint_v1.png](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
+![Access tab with the toggle button Show notice in "Courses" activated](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
+![Courses area with a notice box for coaches/owners linking to the Coaching area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
 
 #### Settings for Sites
 
@@ -180,4 +180,16 @@ Here you define system-wide what access participants have to a course or a learn
 * **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
 
 Course owners set the course-specific override in the course under:<br>
-`Administration > Settings > Options tab`
+`(Course) Administration > Settings > Options tab`
+
+[To the top of the page ^](#learning_resource)
+
+---
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course search](../../manual_user/basic_concepts/Search_in_Course.md)<br>
+[To module Taxonomy >](Modules_Taxonomy.md)
+
+[To the top of the page ^](#learning_resource)

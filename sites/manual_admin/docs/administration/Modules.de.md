@@ -61,7 +61,7 @@ Dieses Modul wurde während der COVID-Pandemie erstellt. Aktivieren Sie das Modu
 
 
 
-## Covid-Zertifikat {: #covid_certificate}
+## COVID-Zertifikat {: #covid_certificate}
 
 Während der COVID-Pandemie wurde hier die Aktivierung des COVID-Zertifikats mit weiteren Einstellungen wie Gültigkeitsdauer, Erinnerungseinstellungen, Scan-Einstellungen für das Zertifikat implementiert.
 

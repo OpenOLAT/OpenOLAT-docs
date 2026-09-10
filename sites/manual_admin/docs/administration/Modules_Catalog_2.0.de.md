@@ -4,11 +4,11 @@
 
 Hier können Administrator:innen das Modul des Kataloges einschalten. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen, erscheinen unterschiedliche weitere Tabs.
 
-Ist der [Katalog V2](#config_catalog_v2) aktiviert, kann zusätzlich ab Release 20 der [Web-Katalog](#config_web-catalog) aktiviert werden. 
+Ist der [Katalog V2](#config_catalog_v2) aktiviert, kann zusätzlich der [Web-Katalog](#config_web-catalog) aktiviert werden.
 
 Ausserdem kann eine [Taxonomie](Modules_Taxonomy.de.md) für den Katalog gewählt werden.
 
-![modules_catalog_tab_settings_v1_de.png](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Tab Einstellungen im Modul Katalog: Katalog V2 aktiviert, Taxonomie ausgewählt, Rolle Lernressourcenverwalter:in für die Bearbeitung freigegeben, Web-Katalog ausgeschaltet](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -17,10 +17,10 @@ Ausserdem kann eine [Taxonomie](Modules_Taxonomy.de.md) für den Katalog gewähl
 
 ## Konfiguration des Katalogs V1 {: #config_catalog_v1}
 
-Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen. 
+Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen.
 
-![Administration Katalog Version 1](assets/Admin_KatalogV1.png)
-    
+![Tab Konfiguration von Katalog V1: Checkboxen Katalog in Kurse und Katalog in eigener Site, Sortier-Einstellungen für neue Kategorien und Einträge](assets/Admin_KatalogV1.png){ class="shadow lightbox" }
+
 [Zum Seitenanfang ^](#modul_catalog)
 
 ---
@@ -36,7 +36,7 @@ Die in einem Launcher angezeigten Inhalte werden automatisch je nach gewähltem 
 
 Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisation". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalog angezeigt wird.
 
-![modules_catalog_tab_settings_add_launcher_v1_de.png](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
+![Dropdown-Menü Launcher hinzufügen mit allen verfügbaren Launchertypen, darunter eine Liste mit drei bereits konfigurierten Launchern, Tab Startseite im Modul Katalog](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
 
 
 #### Launchertyp "Statischer Text"
@@ -98,10 +98,10 @@ Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Ma
 
 Unter **Kacheln Taxonomieebenen Launcher**, kann man die Form der Kacheln der Microsites wählen.
 
-Die **angezeigten Informationen auf der Karte** sind Texte aus den Metadaten, die auf den Karten der Startseite angezeigt werden. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
+Die **Angezeigten Informationen in Karte** sind Texte aus den Metadaten, die auf den Karten der Startseite angezeigt werden. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
 
 
-![modules_catalog_tab_layout_v1_de.png](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Header mit Titel Katalog und Hintergrundbild-Upload (1324 x 240 px, maximal 2.0 MB), Formwahl der Taxonomiekacheln und Checkliste der Karteninformationen, Tab Layout im Modul Katalog](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -119,11 +119,11 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
     Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
 
-![modules_catalog_management2_v1_de.png](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+![Liste der Fachbereiche mit Kennzeichen, Erstelldatum und Anzahl Unterebenen, Seite Katalog-Verwaltung](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
 
 Das Recht zur Verwaltung eines Katalog- bzw. Fachbereichteils kann verschiedenen Personen gegeben werden. (Initial wird dieses Recht von Administrator:innen vergeben.) Wählen Sie den gewünschten (Teil-)Fachbereich und dann den Tab "Verwaltung".
 
-![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+![Tab Verwaltung und Button Verwalter:in hinzufügen hervorgehoben, keine Verwalter:innen eingetragen, Fachbereichsseite (Beispiel Ski Jumping)](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 
 
 Für Benutzer:innen mit diesem Recht gilt: 
@@ -131,7 +131,7 @@ Für Benutzer:innen mit diesem Recht gilt:
 - **Bearbeiten:** Sie können Elemente innerhalb der Taxonomieebenen bearbeiten, verschieben, löschen oder neue Unterebenen erstellen.
 - **Vererbung:** Wer auf einer höheren Ebene Rechte hat (z. B. auf Institutsebene), darf automatisch auch die darunter liegenden Ebenen (z.B. Studiengänge) bearbeiten.
 - **Unterdelegation:** Diese Rechte können von oben nach unten weitergegeben werden.<br> 
-Beispiel: Ein Administrator gibt einer Person die Rechte für eine Taxonomieebene darunter (z.B. Fakultät). Diese Person kann dann selbst anderen innerhalb dieser Fakultät ähnliche Rechte geben – auch für untergeordnete Bereiche.
+Beispiel: Ein Administrator gibt einer Person die Rechte für eine Taxonomieebene darunter (z.B. Fakultät). Diese Person kann dann selbst anderen innerhalb dieser Fakultät ähnliche Rechte geben: auch für untergeordnete Bereiche.
 
 Benutzer mit diesem Recht können nicht:
 
@@ -150,18 +150,18 @@ Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies
 
 #### Hintergrundbilder
 
-Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bilddimensionen von **1324 x 240 px** empfohlen. Ist das Bild höher als 240px wird ein passender Ausschnitt aus der Mitte heraus genommen.
+Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bilddimensionen von **1324 x 240 px** empfohlen, die maximale Dateigrösse für den Upload beträgt **2.0 MB**. Ist das Bild höher als 240px wird ein passender Ausschnitt aus der Mitte heraus genommen.
 Taxonomieebenen-Hintergründe lassen sich im Tab "Taxonomie" anpassen.
 Das Hintergrundbild für die Startseite finet man unter Layout.
 
 Das Anschnitt (Cropping) Verhalten bei kleineren Bildgrössen illustriert:
-![cropping behaviour illustrated](assets/catalog_cropping.png)
+![Vergleich der Kachelgrössen auf Mobile und Laptop: Teaser-Bilder 240x120 px, Kursbilder 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
 
 Hintergrund für den Start
-![Hintergrund-Startbild](assets/catalog_background_start.png){class="lightbox"}
+![Schnittmaske für das Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, Textzone Suche und Titel ca. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" }
 
 Hintergrund für die Taxonomyebenen
-![Hintergrund-Startbild](assets/catalog_background_taxonomy.png){class="lightbox"}
+![Schnittmaske für das Taxonomie-Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, halbtransparenter Textbalken oben links](assets/catalog_background_taxonomy.png){ class="shadow lightbox" }
 
 #### Taxonomie-Launcher-Bilder
 Je nach Einstellung haben wir es hier mit quadratischen oder rechteckigen Bildern zu tun.
@@ -169,17 +169,17 @@ Die Rechteckigen Bilder besitzen eine Aspect Ratio von **16:9** mit empfohlener 
 
 Rechteckig
 
-![Rechteckiger Teaser](assets/catalog_taxteaser.png){class="lightbox"}
+![Schema des rechteckigen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser.png){ class="shadow lightbox" }
 
 Quadratisch
 
-![Quadratischer Teaser](assets/catalog_taxteaser_square.png){class="lightbox"}
+![Schema des quadratischen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser_square.png){ class="shadow lightbox" }
 
 #### Kursbilder
 
 Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px nicht überschreiten. Ansonsten wird hier auch ein passender Ausschnitt aus der Mitte genommen. Siehe hier
 
-![Quadratischer Teaser](assets/catalog_course.png){class="lightbox"}
+![Schema des Kursbilds mit den empfohlenen Massen 570x380 px](assets/catalog_course.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -187,22 +187,29 @@ Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px
 
 ## Konfiguration des Web-Katalogs {: #config_web-catalog}
 
-Wurde im Tab "Einstellungen" der Katalog V2 gewählt, steht als weitere Option die Aktivierung des Web-Katalogs zur Auswahl (ab Release 20).
+Wurde im Tab "Einstellungen" der Katalog V2 gewählt, steht als weitere Option die Aktivierung des Web-Katalogs zur Auswahl.
 
 Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen zugreifen können, die noch nicht in OpenOlat registriert sind. Deshalb kann auch ein Link auf der Login-Seite eingerichtet werden, so dass der Web-Katalog ohne Login aufgerufen werden kann. Erst bei Buchung eines Kurses werden die Besucher:innen dann durch den Registrierungsprozess geführt.
 
 Der Web-Katalog kann auch vorübergehend deaktiviert werden.
 
-![modules_catalog_web-catalog_v1_de.png](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
+![Markierte Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite im Tab Einstellungen bei aktiviertem Katalog V2](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Taxonomie einrichten >](Modules_Taxonomy.de.md)<br>
-[Beschreibung des Katalogs im Benutzerhandbuch >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Modul Taxonomie](Modules_Taxonomy.de.md)<br>
+[Rollen und Rechte: Übersicht](../../manual_user/basic_concepts/Roles_Rights.de.md)
+
+**Weiterführend**<br>
+[Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Modul Lernressource](Modules_Learning_Resource.de.md)
+
+[Zum Seitenanfang ^](#modul_catalog)
 
 

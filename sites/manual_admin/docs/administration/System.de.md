@@ -1,6 +1,6 @@
 # System {: #system}
 
-![admin_system_overview_v1_de.png](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü System in der System-Administration mit zehn Bereichen, darunter Info messages, Errors, Caches und Scheduler, für Systeminformationen, Wartung und Diagnose](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle Klickzahlen oder Datenverzeichnisse. 
 

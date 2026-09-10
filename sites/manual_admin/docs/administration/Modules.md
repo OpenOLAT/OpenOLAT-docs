@@ -1,6 +1,6 @@
 # Modules: Overview {: #modules}
 
-![admin_module_overview_v4_de.png](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Expanded Modules menu in the System Administration, each list entry corresponds to a section on this page](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the modules in this area:
 
@@ -51,7 +51,7 @@ The recorded audio and video data is automatically converted in the background b
 
 
 
-## Contact Tracing {: #contact_tracing}
+## Contact tracing {: #contact_tracing}
 
 This module was created during the COVID pandemic. Activate the module if you have physical locations where people meet and you need to provide contact tracing information to the authorities due to public health regulations (e.g. COVID19).
 
@@ -61,7 +61,7 @@ This module was created during the COVID pandemic. Activate the module if you ha
 
 
 
-## Covid certificate {: #covid_certificate}
+## COVID certificate {: #covid_certificate}
 
 During the COVID pandemic, the activation of the COVID certificate with further settings such as validity period, reminder settings, scan settings for the certificate was implemented here.
 
@@ -71,7 +71,7 @@ During the COVID pandemic, the activation of the COVID certificate with further 
 
 ## Document pool {: #documentpool}
 
-Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer Strukturierung auf Basis einer Taxonomie und Kompetenzen.
+The document pool provides a document library with automatic structuring based on a taxonomy and competencies.
 
 [See the details >](Modules_Document_pool.md)<br>
 [To the top of the page ^](#modules)
@@ -98,7 +98,7 @@ The course element "Livestream" can be made available and configured here (Paell
 ## Time periods {: #time_periods}
 
 Create and manage time periods (e.g. semester dates) to be able to refer to a time period designation
-instead of a date for course durations. The time period created here can be used when configuring the execution period of a course in learning resource management. For example, "SuSe26" could be used as the designation and "Summer semester 2026" as the name.
+instead of a date for course durations. The time period created here can be used when configuring the execution period of a course in learning resource management. For example, "SoSe26" could be used as the designation and "Summer semester 2026" as the name.
 
 [See the details >](Modules_Time_Period.md)<br>
 [To the top of the page ^](#modules)
@@ -118,7 +118,7 @@ You can also define whether or which taxonomy should be connected to the Media C
 
 ## External page {: #external_page}
 
-The “External Page” course element can be configured in general, particularly because of the ability to transfer data to other websites.
+The "External Page" course element can be configured in general, particularly because of the ability to transfer data to other websites.
 
 [See the details >](Modules_External_Page.md)<br>
 [To the top of the page ^](#modules)
@@ -227,7 +227,7 @@ Here you make settings on learning resources.
 
 ## Organisations {: #organisations}
 
-With the "Organizations" module activated, organisational structures can be mapped in OpenOlat. This allows roles or access permissions to be restricted to specific organizational units.
+With the "Organisations" module activated, organisational structures can be mapped in OpenOlat. This allows roles or access permissions to be restricted to specific organisational units.
 
 [See the details >](Modules_Organisations.md)<br>
 [To the top of the page ^](#modules)
@@ -286,7 +286,7 @@ Here you will find the activation of quality management and the necessary defini
 
 
 
-## SEO / OATI-PMH metadata {: #OAI-PMH}
+## SEO / OAI-PMH metadata {: #OAI-PMH}
 
 Here you can enable and configure that other service providers can collect the metadata of learning resources or forward it to search engine providers.
 

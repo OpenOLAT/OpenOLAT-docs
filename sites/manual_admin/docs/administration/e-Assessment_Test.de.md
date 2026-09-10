@@ -1,9 +1,14 @@
 # e-Assessment Administration: Test {: #test}
 
-## Tab QTI  {: #tab_QTI}
+Die Testeinstellungen liegen in der System-Administration unter `Administration > e-Assessment > Test`, verteilt auf vier Tabs.
 
+## Tab QTI {: #tab_QTI}
 
-![e-assessment_test_tab_QTI_v1_de.png](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" }
+Auf diesem Tab kann eine digital signierte Testquittung der Testergebnisse aktiviert werden. Für die Signatur benötigt es ein Zertifikat im Format .pfx mit privatem Schlüssel sowie das zugehörige Passwort. Die Testquittung bestätigt Teilnehmer:innen, dass sie den Test zum angegebenen Zeitpunkt absolviert haben.
+
+Unter Erweiterungen kann die QtiWorks Math extension aktiviert werden. Sie benötigt eine Maxima-Installation auf dem Server.
+
+![Checkbox Testquittung der Testergebnisse mit Zertifikats-Upload und Certificat password, darunter Checkbox QtiWorks Math extension, Tab QTI auf der Seite Test](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" }
 
 
 ---
@@ -14,7 +19,7 @@ Administrator:innen können festlegen, ob das Korrekturwerkzeug für anonyme Kor
 
 Ausserdem können sie grundsätzlich festlegen, ob eine Bewertung nach der manuellen Korrektur freigegeben und von Teilnehmer:innen eingesehen werden kann.
 
-![e-assessment_test_tab_correction_v1_de.png](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" }
+![Checkbox Korrekturwerkzeug Anonym aktiviert und Option Nicht freigegeben gewählt, Tab Korrektur auf der Seite Test](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#test)
@@ -30,7 +35,7 @@ Für das Management der Korrekturen durch mehrere verschiedene Korrektor:innen b
 Die angefallenen Korrekturaufwände können verschiedenen Rollen zugänglich gemacht werden.
 
 
-![e-assessment_test_tab_correction_workflow_v1_de.png](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" }
+![Korrektur-Workflow eingeschaltet, Sichtbarkeit der echten Korrekturminuten für vier Rollen, Liste der Mail-Vorlagen mit Übersetzen-Link, Tab Korrektur-Workflow auf der Seite Test](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#test)
@@ -41,17 +46,17 @@ Die angefallenen Korrekturaufwände können verschiedenen Rollen zugänglich gem
 
 Werden OpenOlat-Prüfungen als handschriftliche Prüfungen ausgegeben, kann eine zusätzliche Seite angehängt werden, die hier definiert wird.
 
-![e-assessment_test_tab_tests_export_v1_de.png](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" }
+![Feld Zusätzliche Seite mit Button Bearbeiten zum Definieren des Zusatztexts, Tab Prüfungsexport auf der Seite Test](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#test)
 
 ---
 
-## Weiterführende Informationen  {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Coachingwerkzeug >](../../manual_user/area_modules/Coaching.de.md)<br>
-[Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#korrektur-workflow)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Coaching - Übersicht >](../../manual_user/area_modules/Coaching.de.md)<br>
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 
 [Zum Seitenanfang ^](#test)

@@ -6,7 +6,7 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 
 ## Tab Konfiguration {: #tab_config}
 
-![login_security_tab_config_v1_de.png](assets/login_security_tab_config_v1_de.png){ class="shadow lightbox" }
+![Tab Konfiguration mit Sicherheitseinstellungen für Dateidownload, HTTP-Header, CSRF-Schutz und Content Security Policy mit ihren Direktiven](assets/login_security_tab_config_v1_de.png){ class="shadow lightbox" }
 
 
 ### Dateien in Ordnern {: #files}
@@ -67,7 +67,7 @@ Ist die Content Security Policy eingeschaltet, erscheinen zusätzlich die Einste
 
 Dieser Tab erscheint, sobald die Content Security Policy eingeschaltet ist. Er listet die gemeldeten Verstösse auf.
 
-![login_security_tab_csp-log_v1_de.png](assets/login_security_tab_csp-log_v1_de.png){ class="shadow lightbox" }
+![Tab Content security policy log mit Liste der gemeldeten Verstösse, je mit Datum, Direktive, blockierter URI und Referrer](assets/login_security_tab_csp-log_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#security)
@@ -77,7 +77,7 @@ Dieser Tab erscheint, sobald die Content Security Policy eingeschaltet ist. Er l
 
 Hier können die für OpenOlat freigegebenen Medien-Server bestimmt werden.
 
-![login_security_tab_mediaserver_v1_de.png](assets/login_security_tab_mediaserver_v1_de.png){ class="shadow lightbox" }
+![Tab Medien-Server mit Modus, freigegebenen Medien-Servern und Liste frei definierbarer Medien-Server](assets/login_security_tab_mediaserver_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#security)

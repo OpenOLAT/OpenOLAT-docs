@@ -3,7 +3,7 @@
 ## Recording configuration {: #recording_config}
 
 ### Enable video recording
-  
+
 When you enable the video recording feature, users can record their own video in many places where video is used, such as in tasks or group tasks.
 
 ### Enable audio recording
@@ -29,3 +29,15 @@ For information on how to install ffmpeg locally, see the chapter [ffmpeg](../in
 ## Conversion jobs {: #conversion_jobs}
 
 This section contains audio and video files that are waiting to be converted or that failed to be converted successfully.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[HandBrakeCLI](../installation/handBrakeCli.md)<br>
+[ffmpeg](../installation/ffmpeg.md)
+
+**Further reading**<br>
+[Module Video](Modules_Video.md)<br>
+[Video Recording](../basic_concepts/Video_Recording.md)
+
+[To the top of the page ^](#module_audio_video_recording)

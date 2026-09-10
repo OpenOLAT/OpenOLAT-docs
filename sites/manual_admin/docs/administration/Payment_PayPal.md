@@ -2,11 +2,11 @@
 
 The PayPal payment module allows authors of courses and project groups to charge money to grant access to those resources. Your clients can either pay by credit card or by their PayPal account if they have one. Note that your clients must not have a PayPal account to use this service, a credit card is enough. In the PayPal configuration in the system administration you can configure your PayPal business account information that is used for all payment processes on this system.
 
-In order to use the PayPal payment method you must have a PayPal business account. Such an account can be created at the PayPal website at no cost. Within your PayPal account you can then create the so called API-Credentials. The API-Credentials consist of the API-username, the API-password and the API- signature. Those three security elements must be configured in the PayPal configuration section in the system administration. Below you find more information how to create the API-Credentials at the PayPal website.
+In order to use the PayPal payment method, you must have a PayPal business account. Such an account can be created at the PayPal website at no cost. Within your PayPal account you can then create what is called the API credentials. These consist of the Client ID and the key (Client secret). You must enter these two security elements in the PayPal configuration in OpenOlat so that the system can process your clients' payments to your account. Below you find information on how to create these security elements on the PayPal website.
 
 ## Usage in courses and project groups
 
-In order to publish courses and project groups with payment restrictions you can select the PayPal offer style on the course details page or in the administration section of a project group. Make sure the PayPal module is configured properly in the system administration. You can find more information [here](../../manual_user/learningresources/Access_configuration.md){ class="shadow lightbox" }
+In order to publish courses and project groups with payment restrictions you can select the PayPal offer style on the course details page or in the administration section of a project group. Make sure the PayPal module is configured properly in the system administration. You will find more information under [Access configuration](../../manual_user/learningresources/Access_configuration.md).
 
 !!! warning "Attention"
 	Depending on the used currency, the country and the amount PayPal will charge you a transaction fee. The fee will be about 5% of the resource price you define and will be subtracted from the payment made by your clients.
@@ -30,10 +30,18 @@ Log into your PayPal business account and make the necessary settings to connect
   b) "Avoid duplicate payments."
 - [x] Log in to your OpenOlat system with a system administrator account.
   a) Click on the "Administration" tab.
-  b) Click on "Payment method" in the navigation on the left, then on "PayPal".
+  b) Click on "Payment modules" in the navigation on the left, then on "PayPal".
   c) Activate the PayPal module in OpenOlat by switching PayPal on.
   d) Select "PayPal Smart Buttons" as the integration. Only with this variant is it possible to pay by credit card without the buyer having to open a PayPal account.
   e) Select the currency and then enter the "Client ID" and "Client secret" (=key) that you previously saved.
 
-  
+[To the top of the page ^](#PayPal)
+
+---
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Access configuration >](../../manual_user/learningresources/Access_configuration.md)
+
 [To the top of the page ^](#PayPal)

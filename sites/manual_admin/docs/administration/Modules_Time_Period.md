@@ -45,8 +45,13 @@ Set as default for courses | The time period is preselected when a learning reso
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Authoring - Overview >](../../manual_user/area_modules/Authoring.md)<br>
 [Catalog 2.0 - Sorting/order >](../../manual_user/area_modules/catalog2.0_sort_offers.md)
+
+**Further reading**<br>
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
+[Module Catalog >](Modules_Catalog_2.0.md)
 
 [To the top of the page ^](#zeitabschnitte)

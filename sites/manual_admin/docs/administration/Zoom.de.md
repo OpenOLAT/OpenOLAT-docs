@@ -1,4 +1,4 @@
-# Zoom
+# Zoom {: #zoom}
 
 Zoom ist ein kommerzielles Web-Konferenzsystem. Bitte besuchen Sie die [Zoom-Homepage](https://zoom.us) für weitere Informationen.
 
@@ -21,7 +21,7 @@ und unter Verwendung eines bestehenden Zoom-Kontos gestartet werden kann.
 	Die Zoom Integration ist nur möglich, wenn OpenOlat auf dem Root-Context betrieben wird, also direkt unter `https://<openolat_instance>/` und nicht
 	etwa unter `https://<openolat_instance>/olat/` oder so ähnlich. Ebenso muss sichergestellt sein, dass eine allfällige Firewall die Adressen
 	`https://<openolat_instance>/mod/lti/auth.php`, `https://<openolat_instance>/mod/lti/token.php` und `https://<openolat_instance>/mod/lti/certs.php` nicht blockiert, 
-	da diese von Zoom während des the OAuth Handshakes aufgerufen werden. 	
+	da diese von Zoom während des OAuth-Handshakes aufgerufen werden.
 
 ## Konfigurations-Schritte
 
@@ -40,21 +40,20 @@ Sie befinden sich nun im Bereich Credential Management der LTI Pro App.
 
 Klicken Sie auf **Create a new credential** und erstellen Sie ein LTI 1.3 Credential und geben Sie ihm einen Namen:
 
-![](assets/zoom_create_credential.png){ class="shadow lightbox thumbnail-xl" }
+![Dialog "Create a credential" in Zoom LTI Pro mit Titelfeld und Auswahl der LTI-Version 1.3](assets/zoom_create_credential.png){ class="shadow lightbox thumbnail-xl" }
 
 Jetzt haben Sie ein neues Credential in LTI Pro.
 
-Die Informationen, an denen wir am meisten interessiert sind und die wir
-im nächsten Schritt verwenden werden, ist der Wert des Feldes **LTI Key**:
+Die wichtigste Information für den nächsten Schritt ist der Wert des Feldes **LTI Key**:
 
-![](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" }
+![LTI-Credential-Editor in Zoom mit hervorgehobenem Feld "LTI Key"](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" }
 
 Das LTI Pro Credential enthält neben dem LTI Key weitere Einstellungen. Für den korrekten Betrieb ist die
 Zeitzone des Credentials entscheidend: Stellen Sie diese auf dieselbe Zeitzone ein, die für Ihren OpenOlat-Server
 konfiguriert ist. Stimmen die Zeitzonen beider Systeme überein, werden die Start- und Endzeiten der Meetings für
 alle Beteiligten korrekt angezeigt.
 
-!!! warning
+!!! warning "Achtung"
 	Weicht die Zeitzone des LTI Pro Credentials von der Zeitzone des OpenOlat-Servers ab, können Coaches ihre
 	Meetings zwar normal starten. Teilnehmende erhalten beim Beitritt jedoch eine 401-artige Fehlermeldung mit
 	einer Correlation ID, aber ohne weitere Angaben zur Ursache. Gleichen Sie in diesem Fall die Zeitzonen der
@@ -62,14 +61,14 @@ alle Beteiligten korrekt angezeigt.
 
 ### Schritte in OpenOlat
 
-* Öffnen Sie die Zoom-Verwaltungsseite in OpenOlat, indem Sie zu **Administration &rarr; Externe Werkzeuge &rarr; Zoom** 
+* Öffnen Sie die Zoom-Verwaltungsseite in OpenOlat, indem Sie zu `Administration > Externe Werkzeuge > Zoom`
   navigieren.
-* Aktivieren Sie Zoom und aktivieren Sie es für alle Anwendungen: Kursbaustein "Zoom", Kurswerkzeug und Gruppenwerkzeug.
+* Aktivieren Sie Zoom für alle Anwendungen: Kursbaustein "Zoom", Kurswerkzeug und Gruppenwerkzeug.
 * Klicken Sie auf **Zoom LTI Pro Konfiguration hinzufügen**.
 
 Dies öffnet den Dialog Zoom-Profil:
 
-![](assets/zoom_add_lti_pro_configuration.png){ class="shadow lightbox" }
+![Dialog "Add Zoom Profile" in OpenOlat mit den Feldern Name, LTI Key, Mail-Domains sowie den generierten Feldern Client ID und Access Token](assets/zoom_add_lti_pro_configuration.png){ class="shadow lightbox" }
 
 Dieser Dialog erstellt ein OpenOlat Zoom-Profil für das Zoom LTI Pro Credential. 
 
@@ -81,8 +80,8 @@ Dieser Dialog erstellt ein OpenOlat Zoom-Profil für das Zoom LTI Pro Credential
 
 ### Kopieren von Informationen zurück zu LTI Pro
 
-Nachdem wir ein Zoom-Profil erstellt haben, müssen wir zwei generierte Werte von OpenOlat
-nach LTI Pro kopieren.
+Nachdem Sie ein Zoom-Profil erstellt haben, kopieren Sie zwei von OpenOlat generierte Werte
+nach LTI Pro.
 
 * **Client ID**: Dies ist eine eindeutige, von OpenOlat generierte ID, die Zoom benötigt, um OpenOlat die Erlaubnis
   zu geben, sich bei Zoom anzumelden.
@@ -91,18 +90,18 @@ nach LTI Pro kopieren.
 
 Klicken Sie auf der Seite LTI Pro Credentials auf **3rd party Credentials**:
 
-![](assets/zoom_credential_editor_3rd_party.png){ class="shadow lightbox" }
+![LTI-Pro-Credential-Editor in Zoom mit hervorgehobener Registerkarte "3rd Party Credentials"](assets/zoom_credential_editor_3rd_party.png){ class="shadow lightbox" }
 
 Wählen Sie **LTI Moodle** auf der linken Seite. OpenOlat verwendet die LTI Moodle-Integration.
 
-Zuerst aktivieren wir die Kalenderfunktion. Dadurch wird Zoom angewiesen, OpenOlat über neue Meetings und
+Aktivieren Sie zuerst die Kalenderfunktion. Dadurch wird Zoom angewiesen, OpenOlat über neue Meetings und
 Meeting-Aktualisierungen zu informieren:
 
 :fontawesome-regular-calendar-days:
 
 Klicken Sie auf "Add Instance", um den Dialog für Serverinstanzen zu öffnen:
 
-![](assets/zoom_add_instance.png){ class="shadow lightbox thumbnail-xl" }
+![Dialog "Add Instance" in Zoom mit den Feldern LTI Moodle Site Domain, Access Token und Client ID](assets/zoom_add_instance.png){ class="shadow lightbox thumbnail-xl" }
 
 Zusätzlich zu den von OpenOlat generierten Informationen (**Client Id** und **Access Token**), müssen Sie auch die
 URL Ihrer OpenOlat-Server-Instanz angeben.
@@ -114,3 +113,11 @@ Nun ist es Zeit, zurück in OpenOlat zu gehen und die Zoom-Integration zu testen
 Klicken Sie auf **Editieren** für Ihr Zoom-Profil in OpenOlat. Klicken Sie im Zoom-Profil-Editor 
 auf **Zoom-Verbindung prüfen**. Wenn Zoom LTI Pro und OpenOlat richtig konfiguriert sind, sollte dieser 
 Test erfolgreich sein.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Zoom-Homepage](https://zoom.us)<br>
+[Zoom App Marketplace](https://marketplace.zoom.us/)
+
+[Zum Seitenanfang ^](#zoom)

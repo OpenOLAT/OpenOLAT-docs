@@ -1,6 +1,6 @@
 # System
 
-![admin_system_overview_v1_de.png](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Menu System in the System Administration with ten areas, including Info messages, Errors, Caches and Scheduler, for system information, maintenance and diagnostics](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 In the "System" area of the OpenOlat administration, administrators receive general information about the system runtime, such as memory used, current click counts or data directories. 
 
@@ -46,7 +46,7 @@ Cache settings are listed here and OpenOlat caches can be emptied.
 
 ## Locks {: #locks}
 
-The objects saved by users are displayed here.
+The objects locked by users are displayed here.
 
 [To the top of the page ^](#system)
 

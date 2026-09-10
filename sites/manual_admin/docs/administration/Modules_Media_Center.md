@@ -1,9 +1,9 @@
 # Module Media Center {: #module_media_center}
 
-The configuration of the media center can be made by the administrator under<br>
-**Administration > Module > Media Center**
+Administrators configure the Media Center in the System Administration under:<br>
+`Administration > Modules > Media Center`
 
-![modules_media_center_admin_v2_de.png](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
+![Configuration page of the Media Center module with the sections Licences, Taxonomy and Shares](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#module_media_center)
 
@@ -11,11 +11,11 @@ The configuration of the media center can be made by the administrator under<br>
 
 ## Licences {: #licences}
 
-If the use of licences for the Media Center is specified under **Core Configuration > Licences**, this checkbox can then be used to make the licence information a mandatory field for all media uploaded or created in the Media Centre.
+If the use of licences for the Media Center is specified under **Core Configuration > Licences**, this checkbox can then be used to make the licence information a mandatory field for all media uploaded or created in the Media Center.
 
 [More on the usage of licences >](Licenses.md)<br>
 [To the top of the page ^](#module_media_center)
-  
+
 ---
 
 
@@ -26,19 +26,19 @@ All contents of the media center can be assigned to a taxonomy (meta data). Sinc
 You can find further information in the chapter [Taxonomy](../administration/Modules_Taxonomy.md).
 
 [To the top of the page ^](#module_media_center)
-  
+
 ---
 
 
 ## Shares {: #shares}
 
-If contents are deposited in the media center, they can be shared for others to use (Share). Which share options are available to authors and other roles can be determined by administrator in the tab "Share".
+If contents are deposited in the media center, they can be shared for others to use (Share). Which share options are available to authors and other roles can be determined by administrators in the section "Shares".
 
 
 | My role           | If "User"<br>is allowed by an admin | If "Course" <br>is allowed by an admin | If "Group" <br>is allowed by an admin | If "Organisation" <br>is allowed by an admin |
 | ----------------- | ---------------------| ------ | ------ | ------------ |
-| I am user (without additional roles)| I can give co-users access, when they belong to org units where they are authorised to use the media center. | I can give co-users access in all courses, where the co-user is a course owner. | I can co-users of all groups give access, if the co-user is a group member. | media sharing is not possible |
-| I am author       | I can give co-users access, when they belong to org units where they are authorised to use the media center. | I can give co-users access in all courses, where the co-user is a course owner. | I can co-users of all groups give access, if the co-user is a group member. | media sharing is not possible |  
+| I am user (without additional roles)| I can give co-users access, when they belong to org units where they are authorised to use the media center. | I can give co-users access in all courses, where the co-user is an owner. | I can co-users of all groups give access, if the co-user is a group member. | media sharing is not possible |
+| I am author       | I can give co-users access, when they belong to org units where they are authorised to use the media center. | I can give co-users access in all courses, where the co-user is an owner. | I can co-users of all groups give access, if the co-user is a group member. | media sharing is not possible |
 | I am learning resource manager | I can give co-users access, when they belong to org units where they are authorised to use the media center. | I can give co-users access in all courses in org units, where the co-user is authorised to use the media center. | I can co-users of all groups give access, if the co-user is a group member. | I can give co-users access in all organisations where the co-user is authorised to use the media center. |
 | I am administrator  | I can give co-users access, when they belong to org units where they are authorised to use the media center.| I can give co-users access in all courses in org units, where the co-user is authorised to use the media center. | I can co-users of all groups give access. | I can give co-users access in all organisations where the co-user is authorised to use the media center. |
 

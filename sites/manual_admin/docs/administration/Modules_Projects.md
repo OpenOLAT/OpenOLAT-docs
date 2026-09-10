@@ -1,27 +1,27 @@
 # Module Projects {: #module_projects}
 
-:octicons-tag-24: Release 18.0
+[:octicons-tag-16:{ title="from Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
 Administrators can
 
-* **activate** the module "Projects"
-* Assign **authorizations** for the cross-project roles (Organizational roles)
+* **activate** the "Projects" module
+* assign **authorizations** for the cross-project roles (organizational roles)
 
-![projects_admin_v1_de.png](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
+![Activation of the Projects module and assignment of authorizations for the cross-project roles](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
 
 ## Settings (activation of the module) {: #settings}
 
-Projects can only be created once the "Projects" module has been activated by an administrator.
+Projects can only be created once the "Projects" module has been switched on by an administrator.
 
 ## Authorizations {: #authorization}
 
 As an administrator, you determine whether **all registered OpenOlat users** or only **specific roles** are allowed to create new projects and project templates.
 
-If only certain roles are to receive this right, these can be specified in more detail.
+If only specific roles are to receive this right, they can be specified in more detail.
 
 ## Roles {: #roles}
 
-As an administrator, you will only see the two system roles **Project administrator** and **Administrator** in addition to the **Authors**, because these are roles that can act across several projects (organizational roles).
+As an administrator, you see here, besides the **authors**, only the two system roles **Project manager** and **Administrator**, because these are roles that can act across several projects (organizational roles).
 
 The other roles and their rights are determined in the respective project.
 
@@ -29,74 +29,73 @@ The other roles and their rights are determined in the respective project.
 
 **Project manager**
 
-* Project administrators can view, update and manage all projects, including their members.
-* However, you do not see the "content" of the projects (appointments, files, to-dos, etc.).
-* In addition to the owners and administrators, they are the people who can assign the management role to others.
-* You have access to the "Administration" tab in the Projects area.
+* Project managers can see, update and manage all projects, including their members.
+* However, they do not see the "content" of the projects (appointments, files, to-dos, etc.).
+* Besides the owners and the administrators, they are the people who can assign the leader role to others.
+* They have access to the "Administration" tab in the projects area.
 
 **Administrator**
 
-* The system-wide administrator role only has limited access to projects. Administrators only have access to a project if they are also a member of the project.
+* The system-wide administrator role has only limited access to projects. Administrators only have insight into a project if they are also a member of the project.
 * Administrators can make themselves a member, but this is then logged. This is intended to curb abusive access.
 
-## Roles, project-specific
+## Roles, project-specific {: #roles_specific}
 
 Within a project, various roles can be assigned that only apply to the respective project.
 
-![projects_membersmanagement_roles_v1_de.png](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
+![Member list with roles and role permission matrix in the Member management tab of a project](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
 
 **Owner (Project owner)**
 
-* Project owner is the person who creates a new project.
-* They have all write and read rights in the project, including the right to delete.
+* The project owner is the person who creates a new project.
+* They have all write and read rights in the project, including the right to delete it.
 
-**Manager (project manager)**
+**Leader (Project leader)**
 
-* Project managers, like project owners, have all write and read rights in their project.
+* Project leaders, like the project owners, have all write and read rights in their project.
 
 **Project office**
 
-* Members of the project office are entrusted with organizational tasks and therefore have extensive writing and deletion rights, except for the project itself.
+* Members of the project office are entrusted with organizational tasks and therefore have extensive write and delete rights, except for the project itself.
 * This is a task/role in project management, not an OpenOlat role with specific rights.
 
-**Participant (project member)**
+**Participant (Project team member)**
 
 * The term **participant** shows the analogy to course participants.
 * Project team members can create appointments, to-dos, files, etc. (all object types in a project).
-* However, they only have read-only rights for the project team members and the overall project.
+* However, they only have read rights regarding the project team members and the overall project.
 
-**Business analyst/Supplier**
+**Business analyst / Supplier**
 
-* Business analyst/supplier is a role in project management, not an OpenOlat role with specific rights.
+* Business analyst / Supplier is a role in project management, not an OpenOlat role with specific rights.
 
-**Sponsor/Client**
+**Sponsor / Client**
 
-* Sponsor is a role in project management, not an OpenOlat role with specific rights.
-* Sponsors are not operationally active and therefore only have read-only rights in OpenOlat.
+* Sponsor / Client is a role in project management, not an OpenOlat role with specific rights.
+* Sponsors are not operationally active and therefore only have read rights in OpenOlat.
 
-**Steering Committee**
+**Steering committee**
 
-* The steering committee is also known as the steering committee, steering board, steering committee, steering group, control board or decision-making body.
+* The steering committee is also known as Steering Committee, Steering Board, Steuerungsausschuss, Lenkungskreis, Steuerungskreis, Control Board or decision-making body.
 * It is a role in project management, not an OpenOlat role with specific rights.
-* Members of the Steering Committee are not operationally active and therefore only have read-only rights in OpenOlat.
+* Members of the steering committee are not operationally active and therefore only have read rights in OpenOlat.
 
 ## Project members {: #project_members}
 
-The project members are usually made project members by the project manager. (As a rule, the project manager is the person who creates the new project). The role in the project is also assigned.
+Project members are usually made project members by the project leaders. (As a rule, the project leadership lies with the person who creates the new project.) The role in the project is assigned at the same time.
 
-As soon as a project member is registered, they receive a link. After clicking on the link, a wizard guides the new project member through the login and registration process.
+As soon as a project member is registered, they receive a link. After opening the link, a wizard guides the new project member through login and registration.
 
-![projekte_mitgliederverwaltung_aufrufen_v1_de.png](../administration/assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
+![Opening member management from the "More" menu of a project](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
 
-![projekte_mitgliederverwaltung_v1_de.png](../administration/assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
+![Member list with the "Add members" button in the Member management tab](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
 
 ## External members {: #external_members}
 
-If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. The usage period is for them limited to 180 days.
+If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. Their usage period is limited to 180 days.
 
-![projekte_mitgliederverwaltung_externe_einladen_v1_de.png](../administration/assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
+![Option "Invite external members" in the menu of the "Add members" button](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Note"
 
     "External member" is not a role. An external member can have all roles except owner and course owner (roles that can be used to delete the entire project).
-

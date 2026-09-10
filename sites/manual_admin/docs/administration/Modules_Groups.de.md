@@ -1,12 +1,12 @@
 # Modul Gruppen {: #groups}
 
-Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und wie das Datenschutz-konforme Einladungsverfahren für Gruppen und Kurse konfiguriert wird.
+Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und wie das datenschutzkonforme Einladungsverfahren für Gruppen und Kurse konfiguriert wird.
 
 !!! note "Navigation"
     `Administration > Module > Gruppen`
 
 !!! tip "Datenschutz"
-    Beachte, dass in diesem Menu datenschutzbezogende Konfigurationen durchgeführt werden können (erzwungene Benachrichtigungen), die insbesondere **auch für Kurse gelten**: [Spring zu Datenschutz](#data_privacy)
+    Beachten Sie, dass in diesem Menü datenschutzbezogende Konfigurationen durchgeführt werden können (erzwungene Benachrichtigungen), die insbesondere **auch für Kurse gelten**: Siehe [Datenschutz](#data_privacy)
 
 
 ## Gruppen erstellen [:octicons-tag-16:{ title="ab Release 8.2 (OO-291)" }](https://track.frentix.com/issue/OO-291){:target="_blank"} {: #create_groups}
@@ -44,7 +44,7 @@ Legt pro Rolle der **einladenden** Person fest, ob beim manuellen Hinzufügen in
 
 Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Benutzerverwalter:innen, Rollenverwalter:innen, Gruppenverwalter:innen, Lernressourcenverwalter:innen, Poolverwalter:innen, Kursplaner:innen, Absenzenverwalter:innen, Projektverwalter:innen, Qualityverwalter:innen, Linienvorgesetzte.
 
-![module_groups_privacy_v1_de.png](assets/module_groups_privacy_v1_de.png){ class="shadow lightbox" }
+![Datenschutz-Einstellungen im Modul Gruppen mit Rollenlisten für erzwungene E-Mail-Benachrichtigung und Mitgliedschaftsbestätigung](assets/module_groups_privacy_v1_de.png){ class="shadow lightbox" }
 
 ### Mitgliedschaft akzeptieren oder verlassen {: #accept_membership}
 
@@ -58,8 +58,9 @@ Ausstehende Mitgliedschaftsanfragen erscheinen im Kursbereich, im Gruppenbereich
 
 Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Benutzerverwalter:innen, Rollenverwalter:innen, Gruppenverwalter:innen, Lernressourcenverwalter:innen, Poolverwalter:innen, Kursplaner:innen, Absenzenverwalter:innen, Projektverwalter:innen, Qualityverwalter:innen, Linienvorgesetzte.
 
-!!! tip **Beispielansicht bei einer entsprechenden Konfiguration für einen Kurs**:
-![module_groups_membership_request_v1_de.png](assets/module_groups_membership_request_v1_de.png){ class="shadow lightbox" }
+!!! tip "Beispielansicht bei einer entsprechenden Konfiguration für einen Kurs"
+
+    ![Dialog beim ersten Anmeldevorgang mit ausstehender Mitgliedschaftsanfrage für einen Kurs, Optionen Akzeptieren und Ablehnen](assets/module_groups_membership_request_v1_de.png){ class="shadow lightbox" }
 
 ##### Mitglieder dürfen Gruppe verlassen {: #leave_group}
 
@@ -73,7 +74,7 @@ Diese Funktion legt fest, ob Mitglieder "ihre" Gruppen selbstständig verlassen 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 Benutzer-Handbuch:<br>
 [Gruppenmitglied werden >](../../manual_user/groups/Group_Membership.de.md)<br>

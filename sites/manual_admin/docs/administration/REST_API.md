@@ -2,14 +2,14 @@
 
 The goal of the REST API is to provide an easy way to exchange URLs. It is e.g. possible to manage users and learning groups, import courses, or assemble catalogs. It is also used to integrate with other systems such as student administration, external course administration and/or external learning group administration. It also supports the process of adding multiple system specific objects and creating various amounts of structural behaviors.
 
-The REST API can be activated / deactivated under administration.
+The REST API can be activated or deactivated in the system administration, under:<br>
+`Administration > Core functions > REST API`
 
-![admin_core_config_rest_api_v1_de.png](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox }
+![REST API page in Core functions with REST API access, generation of API key by user, API access and the checkboxes for managed objects](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#REST-API)
 
 ---
-  
 
 ## Concept {: #concept}
 
@@ -29,7 +29,7 @@ The API key cannot be used to log in to the OpenOlat web application; it is only
 
 API keys are generated in the user management: the "Add API-Key" button is available in the authentications of a person. To also allow users to generate a key themselves, activate the "Generation of API Key by user" option in the REST configuration (disabled by default).
 
-!!! note "Note"
+!!! info "Important"
 
 	As long as the Passkey feature is not enabled, the OpenOlat password can still be used for REST access.
 
@@ -63,7 +63,6 @@ While theoretically possible, it is not meant as an API to implement alternative
 [To the top of the page ^](#REST-API)
 
 ---
-  
 
 ##  Security {: #security}
 
@@ -90,7 +89,6 @@ If you are building a remote portal and want to implement some kind of home- bre
 [To the top of the page ^](#REST-API)
 
 ---
-    
 
 ##  Configuration {: #configuration}
 
@@ -120,7 +118,6 @@ Here is a little example on how to create a user and add it to a learning group:
 [To the top of the page ^](#REST-API)
 
 ---
-  
 
 ## Documentation {: #documentation}
 
@@ -131,7 +128,6 @@ The OpenAPI allows to choose a custom server prefix in and it is possible to exe
  [To the top of the page ^](#REST-API)
 
 ---
-   
 
 ##  Externally managed courses and groups  {: #managed}
 
@@ -139,15 +135,13 @@ Courses and groups can be created via REST API. Such externally managed courses 
 
 Via REST API an optional external ID can be attached to courses and groups. For courses an additional external reference can be used to help identify the resource for end users.
 
-If such external ID's are used for courses or groups, the external systems must also configure for each external resource which elements in OpenOlat are managed by the external system and which can be modified within the OpenOlat user interface. This is configured with so called "managed flags". Either all elemens are managed or the managed elements are listed in detail. The configuration of the "managed flags" are described in the technical documentation of the REST API.
+If such external ID's are used for courses or groups, the external systems must also configure for each external resource which elements in OpenOlat are managed by the external system and which can be modified within the OpenOlat user interface. This is configured with so called "managed flags". Either all elements are managed or the managed elements are listed in detail. The configuration of the "managed flags" are described in the technical documentation of the REST API.
 
 If the external management is enabled, the user elements in the OpenOlat user interface configured to be "managed" are displayed non-editable. In addition, the external ID's are used in search fields, detail pages and tables. Other non managed resources can be used and managed within OpenOlat as usual.
 
-  
-
 ??? abstract "Managed organisations"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * identifier
 	    * displayName
 	    * description
@@ -156,10 +150,10 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * move
 	    * members
 	    * delete
-	
+
 ??? abstract "Managed organisation types"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * identifier
 	    * displayName
 	    * description
@@ -167,20 +161,20 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * externalId
 	    * subTypes
 	    * delete
-	
+
 ??? abstract "Managed products"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * identifier
 	    * displayName
 	    * description
 	    * externalId
 	    * delete
 	    * members
-	
+
 ??? abstract "Managed elements"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * identifier
 	    * displayName
 	    * description
@@ -195,10 +189,10 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * move
 	    * addChildren
 	    * delete
-	
+
 ??? abstract "Managed element types"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * identifier
 	    * displayName
 	    * cssClass
@@ -209,9 +203,9 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * subTypes
 	    * copy
 	    * delete
-	
+
 ??? abstract "Managed groups"
-	
+
 	* Fully externally managed (all)
 	    * Title, description and available seats/waiting list configuration (details)
 	        * Group title (title)
@@ -224,9 +218,9 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * Adding courses (resources)
 	    * Booking rules (bookings)
 	    * Delete group workflow (delete)
-	
+
 ??? abstract "Managed learning resources (courses)"
-	
+
 	* Fully externally managed (all)
 	    * Course Editor (editcontent)
 	    * Details (details) 
@@ -250,15 +244,15 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	        * Unit configurations (unitconfig)
 	        * Unit management (unitmanagement)
 	    * Booking rules (bookings)
-	    * Members management (memebersmanagement)
+	    * Members management (membersmanagement)
 	    * Group management (groups)
 	    * Close course workflow (close)
 	    * Delete course (delete)
-	    * Cope Course (copy)
-	
+	    * Copy course (copy)
+
 ??? abstract "Managed events"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * details
 	        * title
 	        * compulsory
@@ -271,20 +265,20 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	        * dates
 	    * settings
 	    * delete
-	
+
 ??? abstract "Managed taxonomies"
-	
-	* all
-	    * idientifier
+
+	* Fully externally managed (all)
+	    * identifier
 	    * displayName
 	    * description
 	    * externalId
 	    * librarySettings
-	
+
 ??? abstract "Managed taxonomy levels"
-	
-	* all
-	    * idientifier
+
+	* Fully externally managed (all)
+	    * identifier
 	    * displayName
 	    * description
 	    * externalId
@@ -297,11 +291,11 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	        * targetCompetence
 	    * move
 	    * delete
-	
+
 ??? abstract "Managed taxonomy level types"
-	
-	* all
-	    * idientifier
+
+	* Fully externally managed (all)
+	    * identifier
 	    * displayName
 	    * description
 	    * cssClass
@@ -311,32 +305,31 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * librarySettings
 	    * copy
 	    * delete
-	
+
 ??? abstract "Managed calendars"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * details
 	        * subject
 	        * description
 	        * location
 	        * dates
-	        * liveStreamIrl
+	        * liveStreamUrl
 	    * classification
 	    * links
-	
-??? abstract "Managed role to role"
-	
-	* all
+
+??? abstract "Managed roles"
+
+	* Fully externally managed (all)
 	    * name
 	    * rights
 	    * delete
-	
+
 ??? abstract "Managed identity to identity relations"
-	
-	* all
+
+	* Fully externally managed (all)
 	    * delete
 
 
 [To the top of the page ^](#REST-API)
 
-  

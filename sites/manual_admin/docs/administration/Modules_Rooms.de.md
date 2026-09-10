@@ -22,12 +22,29 @@ Die Gebäude verwalten Sie in der System-Administration unter:<br>
 
 Jeder Raum gehört zu einem Gebäude. Im Segment «Gebäude» legen Sie die Gebäude Ihrer Organisation an und pflegen deren Stammdaten. Über die Aktion «Erstellen» öffnen Sie den Dialog «Gebäude erstellen» mit den folgenden Angaben:
 
-* **Kennzeichen** (Pflichtfeld): das massgebende Identifikationsmerkmal des Gebäudes, zum Beispiel ein Kürzel oder eine Hausnummer. Es wird überall dort angezeigt, wo auf das Gebäude verwiesen wird.
-* **Beschreibung**: ein optionaler Klartext-Name wie «Hauptgebäude». Ist eine Beschreibung gesetzt, erscheint sie zusätzlich zum Kennzeichen.
-* **Farbe**: eine Farbe zur schnellen Wiedererkennung des Gebäudes in Listen und im Kalender.
-* **Organisationseinschränkung**: Standardmässig steht ein Gebäude der ganzen Organisation zur Verfügung. Ist der Schalter aktiviert, wählen Sie unter «Administrative Freigabe» die Organisationen aus, für die das Gebäude nutzbar sein soll.
-* **Standort**: Unter «Adresse» erfassen Sie die Anschrift. Mit «Auf Karte finden» wird die Position auf der Karte gesetzt. Über die Karte öffnen Sie den Standort direkt in Apple Maps oder Google Maps.
-* **Info-URL** und **Weitere Informationen**: optionale Zusatzangaben, etwa ein Link zu einer Gebäudeseite oder ein Hinweis wie «Schlüssel beim Empfang beziehen».
+#### Kennzeichen (Pflichtfeld) {: #building_identifier }
+
+Das massgebende Identifikationsmerkmal des Gebäudes, zum Beispiel ein Kürzel oder eine Hausnummer. Es wird überall dort angezeigt, wo auf das Gebäude verwiesen wird.
+
+#### Beschreibung {: #building_description }
+
+Ein optionaler Klartext-Name wie «Hauptgebäude». Ist eine Beschreibung gesetzt, erscheint sie zusätzlich zum Kennzeichen.
+
+#### Farbe {: #building_color }
+
+Eine Farbe zur schnellen Wiedererkennung des Gebäudes in Listen und im Kalender.
+
+#### Organisationseinschränkung {: #building_org_restriction }
+
+Standardmässig steht ein Gebäude der ganzen Organisation zur Verfügung. Ist der Schalter aktiviert, wählen Sie unter «Administrative Freigabe» die Organisationen aus, für die das Gebäude nutzbar sein soll.
+
+#### Standort {: #building_location }
+
+Unter «Adresse» erfassen Sie die Anschrift. Mit «Auf Karte finden» wird die Position auf der Karte gesetzt. Über die Karte öffnen Sie den Standort direkt in Apple Maps oder Google Maps.
+
+#### Info-URL und Weitere Informationen {: #building_info }
+
+Optionale Zusatzangaben, etwa ein Link zu einer Gebäudeseite oder ein Hinweis wie «Schlüssel beim Empfang beziehen».
 
 Ein Gebäude hat den Status «Aktiv», «Inaktiv» oder «Gelöscht». Wird ein Gebäude deaktiviert, werden auch alle seine Räume inaktiv. Löschen ist nur bei einem inaktiven Gebäude möglich und entfernt auch dessen Räume. Solange für Räume des Gebäudes noch aktive Buchungen bestehen, ist das Löschen nicht möglich. Mit den vordefinierten Filtern «Alle», «Relevant» (nur aktive Gebäude) und «Gelöscht» steuern Sie, welche Gebäude die Liste zeigt.
 
@@ -39,12 +56,29 @@ Die Räume verwalten Sie in der System-Administration unter:<br>
 
 Im Segment «Räume» legen Sie die einzelnen Räume an und ordnen sie einem Gebäude zu. Im Dialog «Raum erstellen» stehen unter anderem folgende Felder zur Verfügung:
 
-* **Kennzeichen** (Pflichtfeld): das Identifikationsmerkmal des Raums, zum Beispiel die Raumnummer.
-* **Beschreibung**: ein optionaler Name des Raums, etwa «Aula».
-* **#Plätze** (Pflichtfeld): die Anzahl Sitzplätze. Der Wert muss grösser als 0 sein und dient dazu, bei einer Buchung zu wenig Kapazität zu erkennen.
-* **Gebäude** (Pflichtfeld): das Gebäude, zu dem der Raum gehört. Zur Auswahl stehen die aktiven Gebäude.
-* **Weitere Informationen**: allgemeine Zusatzangaben zum Raum.
-* **Administrative Informationen**: Angaben, die nur für Personen mit einer administrativen Rolle sichtbar sind, zum Beispiel Hinweise zur Ausstattung.
+#### Kennzeichen (Pflichtfeld) {: #room_identifier }
+
+Das Identifikationsmerkmal des Raums, zum Beispiel die Raumnummer.
+
+#### Beschreibung {: #room_description }
+
+Ein optionaler Name des Raums, etwa «Aula».
+
+#### #Plätze (Pflichtfeld) {: #room_seats }
+
+Die Anzahl Sitzplätze. Der Wert muss grösser als 0 sein und dient dazu, bei einer Buchung zu wenig Kapazität zu erkennen.
+
+#### Gebäude (Pflichtfeld) {: #room_building }
+
+Das Gebäude, zu dem der Raum gehört. Zur Auswahl stehen die aktiven Gebäude.
+
+#### Weitere Informationen {: #room_notes }
+
+Allgemeine Zusatzangaben zum Raum.
+
+#### Administrative Informationen {: #room_admin_info }
+
+Angaben, die nur für Personen mit einer administrativen Rolle sichtbar sind, zum Beispiel Hinweise zur Ausstattung.
 
 In der Raumliste sehen Sie zu jedem Raum unter anderem den «Nächsten Termin» und die «Belegung» (Auslastung des laufenden Monats). Ein Symbol öffnet den «Kalender» des Raums mit seiner Belegung, über «Details» rufen Sie die Vorschau des Raums mit Standort und Karte auf. Neben der Tabellen- steht auch eine Kalenderansicht zur Verfügung.
 
@@ -63,9 +97,13 @@ Bedeutung der Warnungen und der verfügbaren Filter siehe [Raumplanung im Course
 
 ---
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
+
+**Weiterführend**<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
+[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)
 
 [Zum Seitenanfang ^](#module_rooms)

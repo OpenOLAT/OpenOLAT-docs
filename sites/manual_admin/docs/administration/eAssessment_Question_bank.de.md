@@ -2,9 +2,9 @@
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der 
-[Administration des Poolverwalters](../../manual_user/area_modules/Question_Bank_Administration.md) vorgenommen werden.
+[Administration der Poolverwalter:innen](../../manual_user/area_modules/Question_Bank_Administration.de.md) vorgenommen werden.
 
-![](assets/Fragenpool_admin.png){ class="shadow lightbox" }
+![Grundeinstellungen des Fragenpools und Rechte der Poolverwalter:innen, Tab "Fragenpool" in der Administration](assets/Fragenpool_admin.png){ class="shadow lightbox" }
 
 ## Tab Fragenpool
 
@@ -16,9 +16,7 @@ Weitere Informationen zum
 [Beurteilungsprozess](../../manual_user/area_modules/Question_Bank_Review_Process.de.md) finden Sie im entsprechenden Kapitel.
 
   * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules_Taxonomy.de.md).
-  * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen.   
-Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten"" ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt. Diese Kompetenzen werden entweder unter `Administration → Modules → Taxonomie`
-oder in der Benutzerverwaltung hinzugefügt.
+  * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen. Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten"" ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt. Diese Kompetenzen werden entweder unter `Administration → Module → Taxonomie` oder in der Benutzerverwaltung hinzugefügt.
   * Fachbereich beim Import erzeugen: Fragen können via Excel-Import im Fragenpool hinzugefügt werden. Bei jeder Frage kann als Metadaten der Fachbereich importiert werden. Wenn diese Option aktiviert ist, bedeutet dies, dass durch den Import neue Fachbereiche angelegt werden, sofern diese noch nicht bestehen. Wenn es sich nur um einen Tippfehler handelt, wird auch ein neuer Fachbereich erstellt.
   * Stufen: Hier kann die Verwendung von [Stufen](../administration/Assessment_translate_points_in_grades_admin.de.md) aktiviert werden.
   * Fragen löschen, wenn Autor gelöscht: Wenn der letzte Autor einer Frage aus der Benutzerverwaltung von OpenOlat gelöscht wird, werden alle diese Fragen gelöscht, sofern diese Option hier aktiviert wird. Ansonsten bleiben die Fragen im Fragenpool drin, ohne zugeordneten Autor. Als Systemadministrator können Sie im Fragenpool unter `Fragen → Ohne Autor` all diejenigen Fragen suchen und einen neuen Autor zuordnen.
@@ -27,9 +25,9 @@ oder in der Benutzerverwaltung hinzugefügt.
 
 	Wenn Sie mit einer Taxonomie und Kompetenzen arbeiten, ist es empfohlen, die Option "Fachbereich beim Import erzeugen" _nicht_ zu aktivieren. Nur so haben Sie die Möglichkeit, einen Wildwuchs der Taxonomiestufen zu vermeiden und die Kontrolle und Struktur zu behalten.
 
-### Rechte Poolverwalter
+### Rechte Poolverwalter:innen
 
-Im Folgenden können die Rechte des Poolverwalters konfiguriert werden. Die Rolle des Poolverwalters wird in der Benutzerverwaltung vergeben. Das Bearbeiten der Einstellungen bezieht sich auf die Tabs, die hier in der Administration sichtbar sind. Der Poolverwalter kann die aktivierten Optionen in der Administration im Fragenpool bearbeiten.
+Im Folgenden können die Rechte der Poolverwalter:innen konfiguriert werden. Die Rolle Poolverwalter:in wird in der Benutzerverwaltung vergeben. Das Bearbeiten der Einstellungen bezieht sich auf die Tabs, die hier in der Administration sichtbar sind. Poolverwalter:innen können die aktivierten Optionen in der Administration im Fragenpool bearbeiten.
 
 ## Tab Infoseite
 
@@ -37,7 +35,7 @@ Hier können Sie eine Infoseite erstellen. Diese Infoseite wird angezeigt, wenn 
 
 ## Tab Beurteilungsprozess
 
-![](assets/admin_fp_beurteilungsprozess.png){ class="shadow lightbox" }
+![Einstellungen des Beurteilungsprozesses wie Beurteilungsmethode und Sichtbarkeit finaler Fragen, Tab "Beurteilungsprozess" in der Administration](assets/admin_fp_beurteilungsprozess.png){ class="shadow lightbox" }
 
   * Beurteilungsmethode: Vorerst kann nur die Beurteilungsmethode Untergrenze ausgewählt werden. Bei der Beurteilungsmethode "Untergrenze" wird eine Frage auf den Status "Final" gesetzt, wenn die minimale Anzahl der Bewertungen erreicht ist und alle Bewertungen höher oder gleich hoch sind wie die Untergrenze. Wenn eine Bewertung unterhalb der Untergrenze liegt, dann wird der Status der Frage sofort auf "Revision" gesetzt, auch wenn die minimale Anzahl Bewertungen noch nicht erreicht ist.
   * Anzahl Beurteilungen pro Frage: Diese Anzahl an Personen muss pro Frage eine positive Beurteilung, also oberhalb der Untergrenze, abgeben, damit die Frage in den Status Final wechselt.
@@ -62,3 +60,13 @@ Hier werden alle Fragetypen aufgelistet, welche im Fragenpool auftauchen. Dies s
 ## Tab Stufen
 
 Hier können diverse Stufen erstellt werden. In den Metadaten jeder Fragen kann dann diese Stufe oder das Level ausgewählt werden. Hier bieten sich beispielsweise Schwierigkeitsgrade oder Kompetenzstufen an.
+
+## Weiterführende Informationen {: #further_information}
+
+[Fragenpool: Administration >](../../manual_user/area_modules/Question_Bank_Administration.de.md)<br>
+[Fragenpool: Beurteilungsprozess >](../../manual_user/area_modules/Question_Bank_Review_Process.de.md)<br>
+[Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[e-Assessment Administration: Einstufung/Noten >](Assessment_translate_points_in_grades_admin.de.md)<br>
+[Test Fragetypen >](../../manual_user/learningresources/Test_question_types.de.md)<br>
+
+[Zum Seitenanfang ^](#question_bank)

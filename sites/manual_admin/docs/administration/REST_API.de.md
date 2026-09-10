@@ -2,9 +2,10 @@
 
 Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung, externe Kursverwaltung und/oder externe Lerngruppen-Verwaltung. Es unterstützt ebenfalls den Prozess vom Hinzufügen von mehreren System-spezifischen Objekten und Kreieren von verschiedensten strukturellen Eigenschaften.
 
-Das REST API kann unter Administration aktiviert / deaktiviert werden.
+Das REST API kann in der System-Administration aktiviert oder deaktiviert werden, unter:<br>
+`Administration > Core Konfiguration > REST API`
 
-![admin_core_config_rest_api_v1_de.png](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox }
+![Seite REST API in der Core Konfiguration mit REST API Zugang, Erzeugen von API Key durch Benutzer:in, API Zugriff und den Checkboxen für Managed Objekte](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#REST-API)
 
@@ -29,7 +30,7 @@ Der API-Schlüssel kann nicht zur Anmeldung in der OpenOlat-Webanwendung verwend
 
 API-Schlüssel werden in der Benutzerverwaltung erzeugt: In den Authentifizierungen einer Person steht dazu die Schaltfläche "API-Key hinzufügen" zur Verfügung. Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, aktivieren Sie in der REST-Konfiguration die Option "Erzeugen von API Key durch Benutzer:in" (standardmässig deaktiviert).
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
 	Solange die Passkey-Funktion nicht aktiviert ist, kann für den REST-Zugriff weiterhin das OpenOlat-Passwort verwendet werden.
 
@@ -90,16 +91,16 @@ wird, dann ist es empfehlenswert die „Basic Authentication“ zu benutzen und
 Session Cookies im HTTP client der fernen Applikation zu aktivieren.
 
 Wenn die zwei genannten Methoden nicht möglich sind, dann benutzen Sie die
-Methode 2 mit em `X-OLAT-TOKEN`. Beachten Sie, dass ein Benutzer nur ein `X-OLAT- TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre ferne Applikation mehrere (gleichzeitige) Arbeiter hat, dann sollte „basic authentication“ benutzt werden.
+Methode 2 mit dem `X-OLAT-TOKEN`. Beachten Sie, dass ein Benutzer nur ein `X-OLAT-TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre ferne Applikation mehrere (gleichzeitige) Arbeiter hat, dann sollte „basic authentication“ benutzt werden.
 
 Wenn Sie ein fernes Portal und einen eigenen single-sign-on Prozess
 implementieren möchten, dann kann Methode 2 benutzt werden um ein X-OLAT-TOKEN
 für jeden Benutzer als Serveranfrage zu generieren. Das Token kann dann jedem
 Link im Portal hinzugefügt werden, um den Benutzer basierend auf dem Token zu
 authentifizieren (`?X-OLAT-TOKEN=xyz`). Wenn auf den Link geklickt wird,
-identifiziert OpenOlat den Benutzter basierend auf dem Token und kreiert eine
-gültige Benutzer Session. Sicherheitstechnisch gibt es besser Optionen um das
-selbe Resultat zu erhalten. Wir empfehlen oAuth als alternative, was ebenfalls
+identifiziert OpenOlat den Benutzer basierend auf dem Token und kreiert eine
+gültige Benutzer Session. Sicherheitstechnisch gibt es bessere Optionen um das
+selbe Resultat zu erhalten. Wir empfehlen oAuth als Alternative, was ebenfalls
 von OpenOlat unterstützt wird.
 
 [Zum Seitenanfang ^](#REST-API)
@@ -116,7 +117,7 @@ Hinzufügen oder Entfernen von Klassen und Singletons zum/vom Bean (Bean Id ist
 die selbe wie im Interface: `org.Olat.restapi.support.RestRegistrationService`
 ).
 
-OpenOlat benutzt den Standart-JAXB-Provider von Jersey um XML von Javaobjekten
+OpenOlat benutzt den Standard-JAXB-Provider von Jersey um XML von Javaobjekten
 zu generieren, sowie auch JSON-Provider von
 [Jackson](http://jackson.codehaus.org/), welches die selben JAXB-Annotationen
 wiederbenutzt.  
@@ -150,7 +151,7 @@ Lerngruppe hinzufügen:
 
 Die Dokumentation basiert auf der OpenAPI-Spezifikation (früher Swagger-
 Spezifikation), welche ein API-Beschreibungsformat ist für REST APIs. Das
-OpenAPI beschreibt verfügbare Endpunkte und Opertationen auf den
+OpenAPI beschreibt verfügbare Endpunkte und Operationen auf den
 entsprechenden Endpunkten, Parameter und Input sowie Output für jede
 Operation. Die Werteobjekte die vom REST API benutzt werden, sind ebenfalls
 aufgelistet.
@@ -167,7 +168,6 @@ direkt mit dem adressierten System interagieren.
  [Zum Seitenanfang ^](#REST-API)
 
 ---
- 
 
 ##  Extern verwaltete (managed) Kurse und Gruppen {: #managed}
 
@@ -181,7 +181,7 @@ hinterlegt werden. Bei Kursen kann zudem eine externe Referenz verwendet
 werden, die aus Benutzersicht eine Identifikation des Kurses ermöglicht.
 
 Verwendet man die externen ID's für Kurse oder Gruppen, so ist zusätzlich zu
-definieren welche Elemente einer sochen extern erstellten Ressource in
+definieren welche Elemente einer solchen extern erstellten Ressource in
 OpenOlat nicht verwaltet werden dürfen. Dies wird mit sogenannten "managed
 Flags" definiert. Es können entweder alle Elemente extern verwaltet sein, oder
 feingranular verwaltet sein; z.B. nur die Metadaten und die
@@ -192,7 +192,7 @@ Ist die externe Verwaltung eingeschaltet, so werden in der OpenOlat
 Benutzerschnittstelle für entsprechende Ressourcen die mit den "managed Flags"
 konfigurierten Elemente als nicht editierbar dargestellt. Zudem werden die
 externen Id's in Suchfeldern, Anzeigen und Tabellen verwendet. Andere, nicht
-extern erstellte Ressourcen können parallell dazu normal verwendet und
+extern erstellte Ressourcen können parallel dazu normal verwendet und
 verwaltet werden.
 
 ??? abstract "Managed Organisationen"
@@ -208,28 +208,28 @@ verwaltet werden.
 	    * Mitgliederverwaltung (members)
 
 ??? abstract "Managed Organisationstypen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
 	    * Beschreibung (description)
 	    * css Klasse (cssClass)
-	    * Externe Id (externald)
+	    * Externe Id (externalId)
 	    * Untertypen Verwaltung (subTypes)
 	    * Typ löschen (delete)
-	
+
 ??? abstract "Managed Produkte"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
 	    * Beschreibung (description)
-	    * Externe Id (exernalId)
+	    * Externe Id (externalId)
 	    * Produkt löschen (delete)
 	    * Mitgliederverwaltung (members)
-	
+
 ??? abstract "Managed Elemente"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
@@ -245,9 +245,9 @@ verwaltet werden.
 	    * Element verschieben (move)
 	    * Unterelemente hinzufügen (addChildren)
 	    * Element löschen (delete)
-	
+
 ??? abstract "Managed Elementtypen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
@@ -259,9 +259,9 @@ verwaltet werden.
 	    * Untertypen (subTypes)
 	    * Kopieren (copy)
 	    * Den Typen löschen (delete)
-	
+
 ??? abstract "Managed Gruppen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Titel, Beschreibung und Einstellungen Plätze/Warteliste (details)
 	        * Gruppentitel (title)
@@ -274,9 +274,9 @@ verwaltet werden.
 	    * Kurse einbinden (resources)
 	    * Buchungsregeln (bookings)
 	    * Gruppe Löschen (delete)
-	
+
 ??? abstract "Managed Lernressourcen (Kurse)"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Kurseditor (editcontent)
 	    * Details (details) 
@@ -300,14 +300,14 @@ verwaltet werden.
 	        * Einstellungen der Einheit (unitconfig)
 	        * Verwaltung der Einheit (unitmanagement)
 	    * Buchungsregeln (bookings)
-	    * Mitgliederverwaltung (memebersmanagement)
+	    * Mitgliederverwaltung (membersmanagement)
 	    * Gruppenverwaltung (groups)
 	    * Kurs schliessen (close)
 	    * Kurs löschen (delete)
 	    * Kurs kopieren (copy)
-	
+
 ??? abstract "Managed Termine"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Details (details)
 	        * Titel (title)
@@ -321,18 +321,18 @@ verwaltet werden.
 	        * Angaben zum Datum (dates)
 	    * Einstellungen (settings)
 	    * Termine löschen (delete)
-	
+
 ??? abstract "Managed Taxonomien"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
 	    * Beschreibung (description)
 	    * Externe Id (externalId)
 	    * Bibliothek Einstellungen (librarySettings)
-	
+
 ??? abstract "Managed Taxonomiebenen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
@@ -347,9 +347,9 @@ verwaltet werden.
 	        * Kompetenz "Ziel" (targetCompetence)
 	    * Ebene verschieben (move)
 	    * Ebene löschen (delete)
-	
+
 ??? abstract "Managed Taxonomieebenentypen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
@@ -361,9 +361,9 @@ verwaltet werden.
 	    * Kopieren (copy)
 	    * Bibliothek Einstellungen (librarySettings)
 	    * Typ löschen (delete)
-	
+
 ??? abstract "Managed Kalender"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Details (details)  	
 	        * Fach (subject)
@@ -373,20 +373,18 @@ verwaltet werden.
 	        * Livestream URL (liveStreamUrl)
 	    * Klassifizierung (classification)
 	    * Links (links)
-	
+
 ??? abstract "Managed Rollen"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Name (name)
 	    * Rechte (rights)
 	    * Rolle löschen (delete)
-	
+
 ??? abstract "Managed Identität zu Identität Verhältnis"
-	
+
 	* Vollständige externe Verwaltung (all)
 	    * Verhältnis löschen (delete)
-
-  
 
 [Zum Seitenanfang ^](#REST-API)
 

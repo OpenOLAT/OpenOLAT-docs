@@ -1,13 +1,13 @@
 # Modul Projekte {: #module_projects}
 
-:octicons-tag-24: Release 18.0
+[:octicons-tag-16:{ title="ab Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
 Administrator:innen können
 
-* das Modul "Projekt" **aktivieren**
+* das Modul "Projekte" **aktivieren**
 * **Berechtigungen** für die projektübergreifenden Rollen vergeben (Organisationsrollen)
 
-![projects_admin_v1_de.png](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
+![Aktivierung des Moduls Projekte und Berechtigungsvergabe für die projektübergreifenden Rollen](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
 
 
 ## Einstellungen (Aktivierung des Moduls) {: #settings}
@@ -42,11 +42,11 @@ Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 * Administrator:innen können sich zwar selbst zum Mitglied machen, aber das ist dann protokolliert. Auf diese Art soll missbräuchlicher Zugriff eingedämmt werden.
 
 
-## Rollen, projektspezifisch 
+## Rollen, projektspezifisch {: #roles_specific}
 
 Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur für das jeweilige Projekt gelten.
 
-![projects_membersmanagement_roles_v1_de.png](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
+![Mitgliederliste mit Rollen und Rollen-Berechtigungsmatrix im Tab Mitgliederverwaltung eines Projekts](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
 
 **Besitzer:in (Projektbesitzer:in)**
 
@@ -68,14 +68,14 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 * Projektmitarbeiter:innen können Termine, To-dos, Dateien usw. erstellen (alle Objekttypen in einem Projekt).
 * Sie haben jedoch nur Leserecht was die Projektmitarbeiter und das Gesamtprojekt angeht.
 
-**Business-Analyst:in/Lieferant:in**
+**Business-Analyst:in / Lieferant:in**
 
-* Business-Analyst:in/Lieferant:in ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Business-Analyst:in / Lieferant:in ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
 
-**Sponsor/Auftraggeber**
+**Sponsor:in / Auftraggeber:in**
 
-* Sponsor ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
-* Sponsoren sind nicht operativ tätig und haben deshalb in OpenOlat nur Leserecht.
+* Sponsor:in / Auftraggeber:in ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Sponsor:innen sind nicht operativ tätig und haben deshalb in OpenOlat nur Leserecht.
 
 **Lenkungsausschuss**
 
@@ -90,16 +90,16 @@ Die Projektmitglieder werden in der Regel durch die Projektleiter:innen zu Proje
 
 Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des Links führt ein Wizard das neue Projektmitglied durch Anmeldung und Registration.
 
-![projects_membersmanagement_open_v1_de.png](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
+![Aufruf der Mitgliederverwaltung über das Mehr-Menü eines Projekts](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
 
-![projects_membersmanagements_members_v1_de.png](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
+![Mitgliederliste mit Button "Mitglieder hinzufügen" im Tab Mitgliederverwaltung](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
 
 
 ## Externe Mitglieder  {: #external_members}
 
 Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Die Nutzungsdauer ist für sie auf 180 Tage begrenzt.
 
-![projects_membersmanagement_add_external_v1_de.png](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
+![Option "Externe Mitglieder einladen" im Menü des Buttons "Mitglieder hinzufügen"](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
 
 
 

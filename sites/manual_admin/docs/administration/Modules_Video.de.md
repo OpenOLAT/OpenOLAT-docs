@@ -1,9 +1,11 @@
 # Modul Video {: #module_video}
 
-Als Administrator:in aktivieren/deaktivieren Sie im **Tab Videokonfiguration**,
+Das Modul Video wird in der System-Administration unter `Administration > Module > Video` konfiguriert.
+
+Im Tab Videokonfiguration aktivieren/deaktivieren Sie als Administrator:in,
 
 - ob Videoressourcen generell in der OpenOlat-Instanz zugelassen sind.<br> Beachten Sie: Es handelt sich um Videos, die im Autorenbereich gelistet sind (Lernressourcen). Direkt verlinkte Videos (z.B. in einer HTML-Seite) sind davon nicht betroffen.
-- ob durch Autor:innen der **Kursbaustein Video** verwendet werden darf.
+- ob durch Autor:innen der Kursbaustein "Video" verwendet werden darf.
 
 - Einstellungen zum Transcoding. Es kann festgelegt werden, welche Auflösungen erstellt werden. Die Originaldatei (Master) kann zur Speicherplatzoptimierung auch gelöscht bzw. ersetzt werden.
 
@@ -16,7 +18,7 @@ Der frentix Cloud-Transcodingservice kann beim Transcodieren zusätzlich automat
 
 ## Tab Videokonfiguration {: #video_config}
 
-![video_tab_video_config_v2_de.png](assets/video_tab_video_config_v2_de.png){ class="shadow lightbox" }
+![Videoressource und Kursbaustein einschalten, Transcoding aktivieren mit Modus, Service-URL, Master-Videodatei und Auflösungen; Tab Videokonfiguration im Modul Video](assets/video_tab_video_config_v2_de.png){ class="shadow lightbox" }
 
 ### Transcoding-Modus {: #transcoding_mode}
 
@@ -41,13 +43,20 @@ Die Transcoding-Einstellungen können durch die Serverkonfiguration gegen Änder
 
 ## Tab Warteschlange {: #pending_transcodings}
 
-![video_tab_pending_transcodings_v1_de.png](assets/video_tab_pending_transcodings_v1_de.png){ class="shadow lightbox" }
+![Liste der laufenden und wartenden Transcodings, hier ohne Einträge, mit Schaltfläche Neu laden; Tab Warteschlange im Modul Video](assets/video_tab_pending_transcodings_v1_de.png){ class="shadow lightbox" }
 
 ## Tab Fehlgeschlagene Transcodings {: #failed_transcodings}
 
-![video_tab_failed_transcodings_v1_de.png](assets/video_tab_failed_transcodings_v1_de.png){ class="shadow lightbox" }
+![Liste der fehlgeschlagenen Transcodings, hier ohne Einträge, mit Schaltfläche Neu laden; Tab Fehlgeschlagene Transcodings im Modul Video](assets/video_tab_failed_transcodings_v1_de.png){ class="shadow lightbox" }
 
 
 ## Tab Transcodings verwalten {: #manage_transcodings}
 
-![video_tab_admin_transcodings_v1_de.png](assets/video_tab_admin_transcodings_v1_de.png){ class="shadow lightbox" }
+![Tabelle je Auflösung mit Anzahl Videos, extern, transkodiert, fehlgeschlagen und fehlend, mit Aktionen Transkodieren und Löschen; Tab Transcodings verwalten im Modul Video](assets/video_tab_admin_transcodings_v1_de.png){ class="shadow lightbox" }
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Lernressource: Video >](../../manual_user/learningresources/Learning_resource_Video.de.md)
+
+[Zum Seitenanfang ^](#module_video)

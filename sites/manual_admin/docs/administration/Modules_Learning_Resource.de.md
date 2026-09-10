@@ -2,7 +2,7 @@
 
 Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
-![modules_learning_resource_tab_settings_v1_de.png](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Tab Einstellungen im Modul Lernressource mit den Abschnitten Standardeinstellung, Benachrichtigung und Standard-Rollenpriorität](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -19,13 +19,13 @@ Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:i
 #### Bereich "In Vorbereitung" unter "Kurse":
 
 **Ansicht Teilnehmer:in bei Aktivierung**
-![modules_learning_resource_tab_settings_section_v1_de.png](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
+![Bereich Kurse mit aktiviertem Filter "In Vorbereitung" und einem Kurs in Vorbereitung in der Liste](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
 
 #### Kurssuche {: #course_search}
 
 Kursbesitzer:innen können im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Toolbar` die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) aktivieren, um innerhalb des Kurses nach Inhalten zu suchen.
 
-![modules_repository_course_search_v1_de.png](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
+![Kurs-Toolbar mit hervorgehobenem Button Kurssuche](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
 
 Die Verfügbarkeit dieser Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
@@ -37,11 +37,11 @@ Die Verfügbarkeit dieser Funktion kann von Administrator:innen in diesem Modul 
 
 In der Kopfzeile eines Kurses kann die Info-Seite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
 
-![modules_repository_course_info_v1_de.png](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
+![Kurs-Toolbar mit hervorgehobenem Button Kursinfo](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
 
 Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeigt werden.
 
-![modules_repository_course_comment_v1_de.png](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
+![Info-Seite eines Kurses mit hervorgehobenem Eingabefeld für einen Kommentar](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
 
 Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -54,7 +54,7 @@ Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem M
 
 Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurteilung angezeigt werden.
 
-![modules_repository_course_review_v1_de.png](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
+![Info-Seite eines Kurses mit hervorgehobenem Beurteilungs-Widget mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
 
 Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -67,7 +67,7 @@ Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrato
 Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Screen mit Hinweis. 
 Hier gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
 
-![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
+![Hinweisseite "Sie sind kein Mitglied" mit Button Mitgliedschaft beantragen](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
 Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -156,14 +156,14 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 
 Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen User mit der Rolle Betreuer:in selbst Teilnehmer:in ist.
 
-![modules_learning_resource_tab_access_v2_de.png](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
+![Tab Zugang im Modul Lernressource mit Übersicht Zugangseinstellungen für Sites und Abschnitt Status "Beendet"](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
 
 #### Hinweis in "Kurse" anzeigen
 
 Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:innen Hinweise zu den Auswirkungen der Zugangseinstellung.
 
-![modules_learning_resource_tab_access_hint_v1_de.png](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" }
-![Modules_Learning_Resource_user_hint_de_v1.png](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" }
+![Tab Zugang mit aktiviertem Toggle-Button Hinweis in "Kurse" anzeigen](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" }
+![Bereich Kurse mit Hinweisbox für Betreuer:innen/Besitzer:innen zum Link Coaching-Bereich](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" }
 
 #### Einstellungen für Sites
 
@@ -186,5 +186,17 @@ Hier legen Sie systemweit fest, welchen Zugriff Teilnehmende auf einen Kurs oder
 * **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
 
 Den kursspezifischen Override nehmen Kursbesitzer:innen im Kurs vor:<br>
-`Administration > Einstellungen > Tab Optionen`
+`(Kurs-)Administration > Einstellungen > Tab Optionen`
+
+[Zum Seitenanfang ^](#learning_resource)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md)<br>
+[Zum Modul Taxonomie >](Modules_Taxonomy.de.md)
+
+[Zum Seitenanfang ^](#learning_resource)
 
