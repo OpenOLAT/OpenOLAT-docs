@@ -156,3 +156,76 @@ i.o_icon.size64 {
 .ᴴₒᴴₒᴴₒ {
   border-color: #ccc !important;
 }
+
+/* --- VERSUCH 11.09.2026: Fliessueberschrift fuer Feldlisten (Kriterium 3.19) ---
+   H4 und H5 stehen in derselben Zeile wie ihr erster Absatz oder ihre Liste.
+   Im HTML bleibt es eine Ueberschrift: Anker, Deep-Links und der Sophia-Index
+   sind nicht betroffen, es aendert sich nur die Darstellung.
+
+   Drei Punkte, die beim Ausprobieren noetig wurden:
+   - Feste Spaltenbreite, damit alle Textkanten auf einer Linie liegen. Laengere
+     Beschriftungen brechen in der Spalte um, statt den Text zu verschieben.
+   - Oben kein Abstand an der Ueberschrift. Der Float wird schon auf der Hoehe des
+     Absatzes platziert; ein Aussen- oder Innenabstand schiebt ihn darunter.
+   - Eingegrenzt auf .md-content__inner, nicht .md-typeset: die Zustimmungsbox des
+     Themes traegt .md-typeset ebenfalls und bekam die Regel sonst mit ab.
+
+   Nicht committet, zur Beurteilung. */
+:root {
+  --oo-fieldlabel-width: 15em;
+  --oo-fieldlabel-gap: 1.2em;
+}
+.md-content__inner > h4,
+.md-content__inner > h5 {
+  float: left;
+  clear: left;
+  box-sizing: border-box;
+  width: var(--oo-fieldlabel-width);
+  margin: 0;
+  padding: 0 var(--oo-fieldlabel-gap) 0 0;
+  font-size: 1em;
+  line-height: 1.7;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.md-content__inner > h4 + p,
+.md-content__inner > h4 + ul,
+.md-content__inner > h4 + ol,
+.md-content__inner > h5 + p,
+.md-content__inner > h5 + ul,
+.md-content__inner > h5 + ol {
+  margin-top: 0.9em;
+  line-height: 1.7;
+  overflow: hidden;
+}
+/* Alles, was nicht zur Beschriftung gehoert, raeumt den Float ab. */
+.md-content__inner > h4 + *:not(p):not(ul):not(ol),
+.md-content__inner > h5 + *:not(p):not(ul):not(ol),
+.md-content__inner > h4 + p + *,
+.md-content__inner > h4 + ul + *,
+.md-content__inner > h4 + ol + *,
+.md-content__inner > h5 + p + *,
+.md-content__inner > h5 + ul + *,
+.md-content__inner > h5 + ol + * {
+  clear: both;
+}
+
+/* Schmale Fenster: zurueck zur Blockform, sonst bleibt fuer den Text zu wenig uebrig. */
+@media screen and (max-width: 59.9375em) {
+  .md-content__inner > h4,
+  .md-content__inner > h5 {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    margin-top: 0.9em;
+  }
+  .md-content__inner > h4 + p,
+  .md-content__inner > h4 + ul,
+  .md-content__inner > h4 + ol,
+  .md-content__inner > h5 + p,
+  .md-content__inner > h5 + ul,
+  .md-content__inner > h5 + ol {
+    overflow: visible;
+    margin-top: 0.4em;
+  }
+}
