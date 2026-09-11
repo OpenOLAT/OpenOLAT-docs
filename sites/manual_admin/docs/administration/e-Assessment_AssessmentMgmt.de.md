@@ -100,9 +100,15 @@ Aktivieren Sie dazu **"Mindest SEB Version erzwingen"**. Anschliessend legen Sie
 
 #### Minimal Version Windows {: #min_version_windows }
 
+Geforderte Mindestversion für Teilnehmende, die den Safe Exam Browser unter Windows starten.
+
 #### Minimal Version Mac {: #min_version_mac }
 
+Geforderte Mindestversion für Teilnehmende, die den Safe Exam Browser unter Mac starten.
+
 #### Minimal Version iOS {: #min_version_ios }
+
+Geforderte Mindestversion für Teilnehmende, die den Safe Exam Browser unter iOS starten.
 
 ![Tab Safe Exam Browser Versionen mit eingeschaltetem Schalter und den Feldern Minimal Version Windows, Mac und iOS](assets/e-assessment_mgmt_tab_version_on_v1_de.png){ class="shadow lightbox" }
 

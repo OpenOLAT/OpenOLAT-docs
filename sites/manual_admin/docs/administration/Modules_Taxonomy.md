@@ -105,7 +105,11 @@ In the type the beforehand created level type can be chosen.
 
 #### Teaser image {: #level_teaser_image}
 
+The image is uploaded as a file. Best results with size 240x100px, maximum 2 MB.
+
 #### Background image {: #level_background_image}
+
+The image is uploaded as a file. Best results with size 1324x240px, maximum 5 MB.
 
 #### Display name {: #level_display_name}
 

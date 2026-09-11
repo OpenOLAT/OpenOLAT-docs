@@ -36,7 +36,7 @@ Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
 
 ## Metadaten {: #metadata}
 
-Beim Erstellen werden die Metadaten Bezeichnung und Name, und falls gewünscht
+Beim Erstellen werden die Metadaten Kennzeichen und Name, und falls gewünscht
 die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
@@ -113,9 +113,13 @@ Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
 
 ::octicons-tag-24: *aktuell Beta Feature* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02,03,04,...)
 
-#### Teaserbild {: #level_teaser_image}
+#### Teaser Bild {: #level_teaser_image}
 
-#### Hintergrundbild {: #level_background_image}
+Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 240x100px, maximal 2 MB.
+
+#### Hintergrund Bild {: #level_background_image}
+
+Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 1324x240px, maximal 5 MB.
 
 #### Anzeigename {: #level_display_name}
 
