@@ -14,22 +14,50 @@ The settings allow you to adapt OpenOlat according to your needs.
 
 ### ![1](assets/1_green_24.png) General system settings {: #general}
 
-Here you see your username and your OpenOlat roles. You can also select your individual system language. OpenOlat has been translated into numerous languages. Changing the language only becomes active after the next login.
+In the general system settings you see your account data. You also set the language, the notifications and the delivery of your e-mails here.
+
+#### Username and roles {: #username_roles}
+
+Here you see your username and your OpenOlat roles. Both entries are for viewing only and cannot be changed here.
+
+#### Language {: #language}
+
+Under "Language" you select your individual system language. OpenOlat has been translated into numerous languages. Changing the language only becomes active after the next login.
 
 !!! info "Important"
 
     The language of course content is not affected by the language selection here.
 
-You can also set how often you want to receive e-mail notifications. You can choose between: never, monthly, weekly, daily, every six hours, every four hours and every two hours. You can also specify whether OpenOlat e-mails are only displayed in the inbox within the OpenOlat system or whether they are also sent to the external e-mail address configured in your profile. In the notification mail, you also find a note regarding new e-mails within the OpenOlat inbox, if you have selected the option "Send e-mails to the OpenOlat internal inbox".
+#### E-mail notification {: #notification_interval}
+
+Under "E-mail notification" you set how often you want to receive notifications by e-mail. You can choose between: "never", "monthly", "weekly", "daily", "every twelve hours", "every four hours" and "every two hours".
+
+#### E-mail delivery {: #mail_delivery}
+
+Under "E-mail delivery" you set where OpenOlat delivers your e-mails. The field only appears when the administration has switched on the OpenOlat inbox.
+
+  * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `Personal tools > E-Mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
+  * "Send e-mails to the OpenOlat internal inbox and the address ...": OpenOlat puts every message into the inbox and forwards it to the address shown as well. The address shown is the one from your profile. This is the permanent forwarding.
+
+Your choice overrides the system-wide default setting. If you make no choice, the default of the administration applies: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#e-mail-inbox-and-outbox).
+
+You can also forward a single message without this setting: [Personal tools: E-Mail](E-Mail.md#forward).
+
+#### Character set used in download {: #charset}
 
 Via the "Character set used in download" you determine in which character set files that you download via data archiving are stored. This concerns the download of test and questionnaire results as well as course results. By default, the character set UTF-8 is preset. If your tests or questionnaires contain e.g. Arabic characters, UTF-8 must be selected here.
+
+#### Document editor {: #document_editor}
+
+Under "Document editor" you select which editor OpenOlat uses to open your documents. The field only appears when at least two external editors are available to you.
 
 
 ### ![2](assets/2_green_24.png) Specific system settings {: #special}
 
 In the specific system settings, you view and change the settings that can make it easier for you to get started and work with OpenOlat on a daily basis.
 
-**Resume last session**<br>
+#### Resume last session {: #resume_session}
+
 In the selection "Resume last session" you specify what happens immediately after login:
 
   * "No": The landing page is loaded.
@@ -37,7 +65,8 @@ In the selection "Resume last session" you specify what happens immediately afte
   * "Yes, on request": You decide after each login where you want to go.
 
 
-**Landing page**<br>
+#### Landing page {: #landing_page}
+
 If you have selected the setting "Yes, automatically", the field "Landing page" is hidden. This field allows you to set any page within OpenOlat as your personal landing page, thereby overriding the system-wide landing page.
 
 You find page-specific links in the social sharing bar at the bottom left under "Copy link". It is even easier to click the landing page icon on the desired page. Any OpenOlat page you have access to can be selected as your personal landing page this way.
@@ -74,7 +103,7 @@ After the reset you are automatically logged out of OpenOlat.
 ---
 
 
-## Tab WebDAV {: #webdav}
+## Tab WebDAV {: #tab_webdav}
 
 In the tab "WebDAV" you find the [WebDAV link to your OpenOlat instance](../basic_concepts/Using_WebDAV.md), which you can use to conveniently manage files. Via WebDAV you access your personal folder as an OpenOlat user. OpenOlat authors can organize their entire course files via WebDAV.
 
@@ -139,6 +168,8 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
+[Personal tools: E-Mail >](E-Mail.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)
@@ -147,7 +178,6 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 [Personal Configuration: Profile >](Profile.md)<br>
 [Personal Configuration: Password >](Password.md)<br>
 [Personal tools >](Personal_Tools.md)<br>
-[Personal tools: E-Mail >](E-Mail.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Chat >](../basic_concepts/Chat.md)
 

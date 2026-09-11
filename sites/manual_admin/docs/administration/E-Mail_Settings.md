@@ -37,10 +37,14 @@ OpenOlat has an internal email inbox system that lists all emails sent and recei
   * If the OpenOlat inbox is switched off, all emails created in OpenOlat are sent exclusively to the personal email address. The OpenOlat inbox is not visible in the personal tools.
   * If the OpenOlat inbox is switched on, all received and sent emails are listed in the personal inbox of each person.
 
-In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md) whether received emails are delivered internally only or also to the personal email address. As an administrator you define the default behaviour:
+Under "Standard settings for e-mail sending" you define the default behaviour as an administrator:
 
-  * Send emails to the internal OpenOlat inbox
-  * Send emails to the internal OpenOlat inbox and the personal email address
+  * "Send e-mails to the internal OLAT inbox"
+  * "Send e-Mails to the internal OLAT inbox and the personal e-mail address"
+
+In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
+
+Independently of both settings, every person forwards single messages from the inbox to their own address: [Personal tools: E-Mail](../../manual_user/personal_menu/E-Mail.md#forward).
 
 ### Inbox and outbox [:octicons-tag-16:{ title="from Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
 

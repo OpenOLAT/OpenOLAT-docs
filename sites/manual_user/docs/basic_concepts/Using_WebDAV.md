@@ -25,7 +25,7 @@ Microsoft Windows, macOS, iOS, Android and Linux support WebDAV for file transfe
 
 To access a folder on OpenOlat via WebDAV, you need:
 
-  * WebDAV link: You find this link below WebDAV-compatible folders or in the [settings](../personal_menu/Settings.md#webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
+  * WebDAV link: You find this link below WebDAV-compatible folders or in the [settings](../personal_menu/Settings.md#tab_webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
   * Your OpenOlat username or, alternatively, the stored email address
   * Your OpenOlat/WebDAV password
 
