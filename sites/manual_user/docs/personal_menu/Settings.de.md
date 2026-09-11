@@ -14,22 +14,50 @@ Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpass
 
 ### ![1](assets/1_green_24.png) Allgemeine Systemeinstellungen {: #general}
 
-Hier sehen Sie Ihren Anmeldenamen und Ihre OpenOlat-Rollen. Darüber hinaus können Sie Ihre individuelle Systemsprache auswählen. OpenOlat ist in zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach dem nächsten Login aktiv.
+In den allgemeinen Systemeinstellungen sehen Sie Ihre Kontodaten. Sie legen hier ausserdem die Sprache, die Benachrichtigungen und die Zustellung Ihrer E-Mails fest.
+
+#### Anmeldename und Rollen {: #username_roles}
+
+Hier sehen Sie Ihren Anmeldenamen und Ihre OpenOlat-Rollen. Beide Angaben sind nur zur Ansicht und lassen sich hier nicht ändern.
+
+#### Sprache {: #language}
+
+Unter "Sprache" wählen Sie Ihre individuelle Systemsprache. OpenOlat ist in zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach dem nächsten Login aktiv.
 
 !!! info "Wichtig"
 
     Die Sprache von Kursinhalten wird von der Sprachwahl hier nicht beeinflusst.
 
-Darüber hinaus können Sie einstellen, wie oft Sie Benachrichtigungen per E-Mail erhalten wollen. Zur Auswahl stehen: ausgeschaltet, monatlich, wöchentlich, täglich, halbtäglich, alle vier und alle zwei Stunden. Legen Sie zusätzlich fest, ob OpenOlat E-Mails nur im Posteingang innerhalb des OpenOlat-Systems angezeigt oder ob sie auch an Ihre im Profil konfigurierte externe E-Mail-Adresse verschickt werden sollen. In der Benachrichtigungsmail finden Sie auch einen Hinweis bezüglich neuer E-Mails innerhalb des OpenOlat-Postfachs, falls Sie die Option "E-Mails an das interne OpenOlat Postfach zustellen" gewählt haben.
+#### E-Mail-Benachrichtigung {: #notification_interval}
+
+Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie Benachrichtigungen per E-Mail erhalten wollen. Zur Auswahl stehen: "ausgeschaltet", "monatlich", "wöchentlich", "täglich", "halbtäglich", "alle vier Stunden" und "alle zwei Stunden".
+
+#### E-Mail Versand {: #mail_delivery}
+
+Unter "E-Mail Versand" legen Sie fest, wohin OpenOlat Ihre E-Mails zustellt. Das Feld erscheint nur, wenn die Administration das OpenOlat Postfach eingeschaltet hat.
+
+  * "E-Mails an das interne OpenOlat Postfach zustellen": Die Nachrichten bleiben in OpenOlat. Sie lesen sie unter `Persönliche Werkzeuge > E-Mail`. In der Benachrichtigungsmail finden Sie zusätzlich einen Hinweis auf neue E-Mails im OpenOlat-Postfach.
+  * "E-Mails an das interne OpenOlat Postfach und die Adresse ... zustellen": OpenOlat legt jede Nachricht ins Postfach und leitet sie zusätzlich an die angezeigte Adresse weiter. Angezeigt wird die Adresse aus Ihrem Profil. Das ist die dauerhafte Weiterleitung.
+
+Ihre Wahl überschreibt die systemweite Standardeinstellung. Treffen Sie keine Wahl, gilt die Vorgabe der Administration: [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md#e-mail-inbox-and-outbox).
+
+Eine einzelne Nachricht leiten Sie auch ohne diese Einstellung weiter: [Persönliche Werkzeuge: E-Mail](E-Mail.de.md#forward).
+
+#### Zeichensatz für Download {: #charset}
 
 Über den "Zeichensatz für Download" bestimmen Sie, in welchem Zeichensatz Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Im Standard ist der Zeichensatz UTF-8 voreingestellt. Enthalten Ihre Tests oder Fragebogen z.B. arabische Zeichen, muss hier UTF-8 gewählt sein.
+
+#### Dokumenteneditor {: #document_editor}
+
+Unter "Dokumenteneditor" wählen Sie, mit welchem Editor OpenOlat Ihre Dokumente öffnet. Das Feld erscheint nur, wenn Ihnen mindestens zwei externe Editoren zur Verfügung stehen.
 
 
 ### ![2](assets/2_green_24.png) Spezielle Systemeinstellungen {: #special}
 
 In den Speziellen Systemeinstellungen sehen und ändern Sie die Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat erleichtern können.
 
-**Sitzung wiederherstellen**<br>
+#### Sitzung wiederherstellen {: #resume_session}
+
 In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Login passiert:
 
   * "Nein": Die Startseite wird geladen.
@@ -37,7 +65,8 @@ In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Lo
   * "Ja, bei Bedarf": Sie legen nach jedem Login fest, wohin Sie gelangen wollen.
 
 
-**Startseite**<br>
+#### Startseite {: #landing_page}
+
 Wenn Sie die Einstellung "Ja, automatisch" gewählt haben, wird das Feld "Startseite" ausgeblendet. Dieses Feld gestattet Ihnen, jede beliebige Seite innerhalb OpenOlat als Ihre persönliche Startseite festzulegen und damit die systemweit eingestellte Startseite zu überschreiben.
 
 Seitenspezifische Links finden Sie in der Social-Sharing-Leiste links unten unter "Link kopieren". Noch einfacher ist es, auf der gewünschten Startseite das Startseiten-Icon anzuklicken. Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so als persönliche Startseite gewählt werden.
@@ -139,6 +168,8 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
+[Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
@@ -147,7 +178,6 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 [Persönliche Konfiguration: Profil >](Profile.de.md)<br>
 [Persönliche Konfiguration: Passwort >](Password.de.md)<br>
 [Persönliche Werkzeuge >](Personal_Tools.de.md)<br>
-[Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
 [Chat >](../basic_concepts/Chat.de.md)
 

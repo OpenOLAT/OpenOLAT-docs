@@ -37,10 +37,14 @@ OpenOlat verfügt über ein internes E-Mail-Postfach-System, das alle im System 
   * Ist das OpenOlat Postfach ausgeschaltet, so werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse versandt. Das OpenOlat Postfach ist in den persönlichen Werkzeugen nicht sichtbar.
   * Ist das OpenOlat Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im persönlichen Postfach jeder Person aufgelistet.
 
-Jede Person kann zudem in ihren persönlichen [Einstellungen](../../manual_user/personal_menu/Settings.de.md) festlegen, ob empfangene E-Mails nur intern oder auch an die persönliche E-Mail-Adresse zugestellt werden. Als Administrator:in legen Sie das Standardverhalten fest:
+Unter "Standardeinstellung für E-Mail Versand" legen Sie als Administrator:in das Standardverhalten fest:
 
-  * E-Mails an das interne OpenOlat Postfach zustellen
-  * E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail-Adresse zustellen
+  * "E-Mails an das interne OpenOlat Postfach zustellen"
+  * "E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail Adresse zustellen"
+
+Jede Person kann zudem in ihren persönlichen [Einstellungen](../../manual_user/personal_menu/Settings.de.md#mail_delivery) unter "E-Mail Versand" selbst festlegen, wohin OpenOlat ihre E-Mails zustellt. Diese eigene Wahl überschreibt Ihre Standardeinstellung. Die Standardeinstellung gilt nur für die Personen, die selbst noch keine Wahl getroffen haben. Ohne gültige E-Mail-Adresse im Profil findet in keinem Fall eine Zustellung nach aussen statt.
+
+Unabhängig von beiden Einstellungen leitet jede Person einzelne Nachrichten aus dem Postfach an ihre eigene Adresse weiter: [Persönliche Werkzeuge: E-Mail](../../manual_user/personal_menu/E-Mail.de.md#forward).
 
 ### Posteingang und Postausgang [:octicons-tag-16:{ title="ab Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
 
