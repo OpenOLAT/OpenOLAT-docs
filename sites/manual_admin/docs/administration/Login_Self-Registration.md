@@ -37,7 +37,7 @@ See [Module Organisations >](../administration/Modules_Organisations.md)
 ### Section "Validity period of login data"
 The validity period of the login data can be specified separately for the GUI and the REST API.
 
-The validity period applies to self-registration and to the invitation link to set login credentials that administrators send in user management in the "Password" tab. After expiry, the link leads nowhere. See [Configure User](../usermanagement/Configure_User.md). [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
+The validity period applies to self-registration and to the invitation link to set login credentials that administrators, user managers and roles managers send in user management in the "Password" tab. After expiry, the link leads nowhere. See [Configure User](../usermanagement/Configure_User.md). [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
 
 [To the top of the page ^](#self-registration)

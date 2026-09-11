@@ -51,11 +51,16 @@ The roles of the user are defined in this tab. If the Organizational units modul
 
 ### Password [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons: "Send invitation link to set login credentials" (primary button) sends a link by mail that the person can use to set their own login credentials; "Create login credentials" sets the login credentials directly.
+If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons. The primary button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. "Create login credentials" sets them directly.
 
-If an invitation link has already been sent, a message in the "Password" tab shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time. You define how long an invitation link remains valid in the administration under [Login > Self-registration](../administration/Login_Self-Registration.md#tab_configuration) in the section "Validity period of the login data".
+If an invitation link has already been sent, a message shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time. After expiry or deactivation the link leads nowhere; you can then send a new invitation link.
 
-![Flow in three lanes: the administrator sends the invitation link in the Password tab, OpenOlat sends the e-mail with the configured validity period, the person sets username and password in the wizard; the link can be deactivated at any time](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
+The "Password" tab and its actions are available to administrators, user managers and roles managers. User managers do not see the tab for accounts that are themselves administrator or roles manager.
+
+You define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
+`Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).
+
+![Six steps from sending the invitation link to the saved login credentials, in three lanes](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
 
 The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
 

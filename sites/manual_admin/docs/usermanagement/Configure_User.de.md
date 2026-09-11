@@ -50,11 +50,16 @@ In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktivierte
 
 ### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons: "Einladungslink zum Setzen der Zugangsdaten senden" (Primärbutton) versendet einen Link per Mail, über den die Person selbst Zugangsdaten setzen kann; "Zugangsdaten erstellen" legt die Zugangsdaten direkt fest.
+Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Primärbutton "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
 
-Wurde ein Einladungslink bereits versendet, zeigt eine Meldung im Tab «Passwort» dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Wie lange ein Einladungslink gültig bleibt, legen Sie in der Administration unter [Login > Selbstregistrierung](../administration/Login_Self-Registration.de.md#tab_configuration) im Abschnitt "Gültigkeitsdauer der Logindaten" fest.
+Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
 
-![Ablauf in drei Bahnen: Die Administrator:in sendet im Tab Passwort den Einladungslink, OpenOlat verschickt die E-Mail mit der eingestellten Gültigkeitsdauer, die Person setzt im Assistenten Benutzername und Passwort; der Link kann jederzeit deaktiviert werden](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
+Den Reiter "Passwort" und seine Aktionen erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Benutzerverwalter:innen sehen den Reiter nicht bei Konten, die selbst Administrator:in oder Rollenverwalter:in sind.
+
+Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
+`Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
+
+![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, in drei Bahnen](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
 
 Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
 

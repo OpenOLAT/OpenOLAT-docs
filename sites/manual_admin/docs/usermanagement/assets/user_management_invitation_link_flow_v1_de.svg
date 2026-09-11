@@ -10,22 +10,22 @@
 
   <rect width="1100" height="620" fill="#F3F4EF"/>
   <text x="40" y="44" font-size="22" font-weight="700" fill="#135E5F">Zugangsdaten per Einladungslink setzen</text>
-  <text x="40" y="68" font-size="13" fill="#2D2926">Die Administrator:in sendet den Link, OpenOlat begrenzt seine Gültigkeit, die Person setzt ihre Zugangsdaten selbst.</text>
+  <text x="40" y="68" font-size="13" fill="#2D2926">Die Administrator:in, Benutzerverwalter:in oder Rollenverwalter:in sendet den Link, OpenOlat begrenzt seine Gültigkeit, die Person setzt ihre Zugangsdaten selbst.</text>
 
   <!-- Lanes -->
   <rect x="40" y="96" width="1020" height="150" rx="8" fill="#FFFFFF" stroke="#E0E1DA"/>
   <rect x="40" y="262" width="1020" height="150" rx="8" fill="#FFFFFF" stroke="#E0E1DA"/>
   <rect x="40" y="428" width="1020" height="150" rx="8" fill="#FFFFFF" stroke="#E0E1DA"/>
-  <rect x="40" y="96" width="120" height="150" rx="8" fill="#135E5F"/>
-  <rect x="40" y="262" width="120" height="150" rx="8" fill="#209D9E"/>
-  <rect x="40" y="428" width="120" height="150" rx="8" fill="#135E5F"/>
-  <text x="100" y="175" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Administrator:in</text>
-  <text x="100" y="341" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">OpenOlat</text>
-  <text x="100" y="507" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Person</text>
+  <rect x="40" y="96" width="140" height="150" rx="8" fill="#135E5F"/>
+  <rect x="40" y="262" width="140" height="150" rx="8" fill="#209D9E"/>
+  <rect x="40" y="428" width="140" height="150" rx="8" fill="#135E5F"/>
+  <text x="110" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="110" y="150">Administrator:in,</tspan><tspan x="110" y="167">Benutzerverwalter:in</tspan><tspan x="110" y="184">oder</tspan><tspan x="110" y="201">Rollenverwalter:in</tspan></text>
+  <text x="110" y="341" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">OpenOlat</text>
+  <text x="110" y="507" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Person</text>
 
   <!-- Admin lane: step 1 -->
   <rect x="190" y="118" width="250" height="106" rx="6" fill="#F3F4EF" stroke="#209D9E" stroke-width="2"/>
-  <text x="204" y="142" font-size="13" font-weight="700" fill="#135E5F">1  Tab «Passwort» öffnen</text>
+  <text x="204" y="142" font-size="13" font-weight="700" fill="#135E5F">1  Reiter «Passwort» öffnen</text>
   <text x="204" y="162" font-size="12" fill="#2D2926">Benutzerverwaltung › Benutzerdetail.</text>
   <text x="204" y="179" font-size="12" fill="#2D2926">Die Person hat noch keine lokale</text>
   <text x="204" y="196" font-size="12" fill="#2D2926">OpenOlat-Authentifizierung.</text>
@@ -41,7 +41,7 @@
   <!-- Admin lane: step 5 optional -->
   <rect x="750" y="118" width="290" height="106" rx="6" fill="#FFFFFF" stroke="#8F1F40" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="764" y="142" font-size="13" font-weight="700" fill="#8F1F40">Jederzeit: Link deaktivieren</text>
-  <text x="764" y="162" font-size="12" fill="#2D2926">Der Tab «Passwort» meldet: Link versendet,</text>
+  <text x="764" y="162" font-size="12" fill="#2D2926">Der Reiter «Passwort» meldet: Link versendet,</text>
   <text x="764" y="179" font-size="12" fill="#2D2926">gültig bis Datum und Uhrzeit.</text>
   <text x="764" y="199" font-size="12" fill="#2D2926">Aktion «Einladungslink deaktivieren»</text>
   <text x="764" y="216" font-size="12" fill="#2D2926">macht den Link sofort ungültig.</text>
@@ -60,9 +60,9 @@
   <rect x="190" y="284" width="250" height="106" rx="6" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2"/>
   <text x="204" y="308" font-size="13" font-weight="700" fill="#2D2926">Einstellung</text>
   <text x="204" y="328" font-size="12" fill="#2D2926">Administration › Login ›</text>
-  <text x="204" y="345" font-size="12" fill="#2D2926">Selbstregistrierung › Abschnitt</text>
+  <text x="204" y="345" font-size="12" fill="#2D2926">Selbstregistration › Abschnitt</text>
   <text x="204" y="362" font-size="12" fill="#2D2926">«Gültigkeitsdauer der Logindaten».</text>
-  <text x="204" y="381" font-size="11.5" fill="#A6A6A6">Gilt für Selbstregistrierung und Einladungslink.</text>
+  <text x="204" y="381" font-size="11" fill="#A6A6A6">Gilt für Selbstregistrierung und Einladungslink.</text>
   <path d="M440,337 L470,337" fill="none" stroke="#A6A6A6" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
 
   <!-- System lane: step 6 result -->
@@ -70,7 +70,7 @@
   <text x="764" y="308" font-size="13" font-weight="700" fill="#2D2926">6  Zugangsdaten gespeichert</text>
   <text x="764" y="328" font-size="12" fill="#2D2926">Die Person meldet sich mit Benutzername</text>
   <text x="764" y="345" font-size="12" fill="#2D2926">und Passwort an.</text>
-  <text x="764" y="365" font-size="12" fill="#2D2926">Der Tab «Passwort» zeigt jetzt die lokale</text>
+  <text x="764" y="365" font-size="12" fill="#2D2926">Der Reiter «Passwort» zeigt jetzt die lokale</text>
   <text x="764" y="382" font-size="12" fill="#2D2926">Authentifizierung statt des Links.</text>
 
   <!-- Person lane: step 4 -->
@@ -86,7 +86,6 @@
   <text x="764" y="474" font-size="13" font-weight="700" fill="#FFFFFF">5  Assistent «Zugangsdaten setzen»</text>
   <text x="764" y="494" font-size="12" fill="#FFFFFF">Die Person wählt Benutzername und</text>
   <text x="764" y="511" font-size="12" fill="#FFFFFF">Passwort selbst.</text>
-  <text x="764" y="536" font-size="11.5" fill="#FFFFFF" font-style="italic">Bis 20.2: «Neues OpenOlat-Passwort setzen».</text>
 
   <!-- Flow arrows -->
   <path d="M595,224 L595,284" fill="none" stroke="#135E5F" stroke-width="2" marker-end="url(#arrow)"/>
