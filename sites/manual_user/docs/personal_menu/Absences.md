@@ -30,6 +30,8 @@ Here you find out how many events are recorded per course and how your attendanc
 
 ![One row per course with units, attended, not excused, authorized, dispensed, progress bar, warning column and presence rate, above it the buttons Print and Log, in the tab Events and Absences](assets/pers_menu_absences_lectures_v2_de.png){ class="shadow lightbox"}
 
+The list is complete: it holds your events regardless of where the course comes from. If courses belong to an educational product of the Course Planner, the list separates them into the sections **Absences within a product** and **Absences outside a product**. Events from projects do not appear here, they are managed in the project itself.
+
 [To the top of the page ^](#pers_tools_absences)
 
 ---

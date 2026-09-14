@@ -77,11 +77,19 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 Im Tab "Übersicht" werden Ihnen die Mitglieder, die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt. Dies erleichtert Ihnen die Navigation innerhalb der Durchführungsbezogenen Aktivitäten.
 
-Über den Button **Alle anzeigen** im Widget **Termine** gelangen Sie direkt zum Tab Termine.
+Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 Die Widgets **Kursinhalt** und **Katalog** zeigen zusätzlich ein Icon im Titel sowie den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
 
 ![Die Widgets für Termine, Kursinhalt, Mitglieder und Katalog mit den Buttons Alle anzeigen und Details, im Tab Übersicht einer Durchführung](assets/course_planner_implementations_tab_overview_v2_de.png){ class="shadow lightbox" }
+
+#### Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
+
+Das Widget **Termine** zeigt die Termine der laufenden Woche, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+
+Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf eine Zeile öffnet den Termin. Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
+
+Über den Button **"Alle anzeigen"** gelangen Sie direkt zum Tab **Termine** dieser Durchführung.
 
 #### Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
 
@@ -163,7 +171,7 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 
 <br>
 
-**Automatisch gesteuerte Kursinhalte** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
+**Automatisch gesteuerte Kursinhalte**<br>
 Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberhalb der Liste der Abschnitt «Übersicht Automatisierung». Aufgeführt sind nur aktive Regeln, die den Inhalt betreffen. Zu jeder Regel sehen Sie die Art der Regel, also «Instanziierung» oder den Zielstatus, dazu das Datum der geplanten Ausführung und die Bedingung, die die Ausführung auslöst. Über den Link «Einstellungen» wechseln Sie direkt zur [Konfiguration der Automatisierung](#tab_settings_automation).
 
 ![Die Infobox Übersicht Automatisierung mit Art, geplantem Ausführungsdatum und auslösender Bedingung je Regel sowie dem Link Einstellungen, im Tab Kursinhalt einer Durchführung](assets/course_planner_implementations_tab_content_automation_v1_de.png){ class="shadow lightbox" }
@@ -518,7 +526,9 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)<br>
-[Course Planner: Übersicht >](Course_Planner.de.md)
+[Course Planner: Übersicht >](Course_Planner.de.md)<br>
+[Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

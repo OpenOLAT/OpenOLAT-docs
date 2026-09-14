@@ -87,12 +87,14 @@ Ein Zertifikatsprogramm kann vom Status "Aktiv" auf "Inaktiv" gesetzt werden. Di
 
 ### Tab Übersicht {: #config_tab_overview}
 
-Auf der Übersicht sehen Sie auf einen Blick die Anzahl der Mitglieder sortiert nach Status:
+Die Übersichtsseite des Zertifikatsprogramms zeigt ein Widget **Aktive Mitglieder**. Es nennt die Anzahl der Mitglieder nach Status:
 
 * Aktive
 * Zertifiziert
 * Zertifikat läuft bald ab
 * in Rezertifizierung
+
+Ein Klick auf eine Kennzahl filtert die Mitgliederliste darunter. Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 ![Die Kennzahlen Aktive, Zertifiziert, Läuft bald ab und In Rezertifizierung mit der Liste der zertifizierten Mitglieder, im Tab Übersicht eines Zertifikatsprogramms](assets/course_planner_certification_programs_config_overview_v2_de.png){ class="shadow lightbox" }
 
@@ -362,5 +364,6 @@ Wird eine Teilnehmer:in in der Benutzerverwaltung ausgewählt, befindet sich dor
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)<br>
 [Kreditpunkte (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 [Zum Seitenanfang ^](#certification_programs)

@@ -92,6 +92,21 @@ Course planners work with the "All" view, which shows the active products. Admin
 ---
 
 
+## Overview tab of a product {: #tab_overview}
+
+When you open a product, the tab **Overview** shows three widgets, each limited to this product:
+
+- **Implementations**: the implementations of this product, with key figures as a preselection. **"Show all"** opens the complete list.
+- **Events**: the events of the current week from this product. The widget only appears if the module **Events and absences** is active system-wide.
+- **To-do**: the open and overdue tasks of this product.
+
+How an overview page is structured, which controls the tiles have in common and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+
+[To the top of the page ^](#products)
+
+---
+
+
 ## Import and export products {: #import_product}
 
 Products, implementations and memberships can also be imported or exported via an Excel file. The import wizard checks the data in several steps and shows exactly what will be newly created, changed or ignored before execution [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
@@ -133,7 +148,8 @@ In the selected course you will find the usage in the **Usage** section under:<b
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
@@ -141,6 +157,8 @@ In the selected course you will find the usage in the **Usage** section under:<b
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Course Planner: Dashboard >](../../manual_user/area_modules/Course_Planner_Dashboard.md)<br>
+[Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.md)<br>
 [Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)

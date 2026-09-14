@@ -3704,7 +3704,7 @@ Typ eines Anlasses: Teilnehmende tragen sich für einen oder mehrere feste Termi
 
 ### Termine
 
-Das Widget der Coaching-Übersicht mit den Terminen der laufenden Woche ab heute, mit Wochennavigation, Status, Kennzeichen, Ort und Dauer. Es erscheint nur, wenn die Person Termine hat; Alle anzeigen öffnet Termine / Absenzen.
+Das Widget der Coaching-Übersicht mit den Terminen der laufenden Woche ab heute, mit Wochennavigation, Status, Kennzeichen, Ort und Dauer. Es zeigt nur Termine, in denen die Person selbst als Dozent:in eingetragen ist, und keine Termine aus Bildungsprodukten. Es fehlt ganz, wenn die Person auf keinem Termin Dozent:in und kein Master Coach ist; Alle anzeigen öffnet Termine / Absenzen.
 
 *Englisch: Events* · *Bereich: Coaching* · [Handbuch](../../manual_user/area_modules/Coaching.de.md)
 
@@ -4156,7 +4156,7 @@ Eine gemeinsame Zeichenfläche im Projekt, auf der mehrere Personen gleichzeitig
 
 Eine Kachel auf einem Dashboard, die einen Ausschnitt zeigt: Durchführungen, Angebote, Mitglieder, Kurse, Termine oder To-dos. Die Administration legt die aktiven Widgets als Systemstandard fest; jede Person passt sie für sich an.
 
-*Englisch: Widget* · *Bereich: Plattform* · [Handbuch](../../manual_user/area_modules/Course_Planner_Dashboard.de.md)
+*Englisch: Widget* · *Bereich: Plattform* · [Handbuch](../../manual_user/basic_concepts/Dashboard_Concept.de.md)
 
 ### Wiki (Zusammenarbeit)
 

@@ -37,6 +37,38 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9
 
 ---
 
+## Events widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
+
+The widget **Events** shows the events of the current week from the selected day. It only appears if the module **Events and absences** is active system-wide.
+
+Displayed are events from educational products for which you are administrator, absence manager, owner or coach.
+
+!!! info "Important"
+
+    The widget with the same name **Events** in Coaching shows different events: there you only see events in which you are entered as a lecturer yourself, and no events from educational products. See [Coaching - Overview](Coaching.md#widget_events).
+
+### Week bar and event list {: #widget_events_week}
+
+The week bar runs from Monday to Sunday. A dot below the day figure marks the days on which events take place [:octicons-tag-16:{ title="from Release 21.0 (OO-9515)" }](https://track.frentix.com/issue/OO-9515){:target="_blank"}. A click on a day sets the starting point of the list, the arrow buttons change the week. The day column stays in place while you scroll, even if the week holds many events.
+
+The list shows the events from the selected day to Sunday, sorted by start. Each entry shows weekday, date, reference, title, location, start and duration. A click on the row opens the event.
+
+A coloured stripe at the left edge of a row places the event in time: it marks the next scheduled event and the one currently running. Screen readers additionally read **"Scheduled next"** and **"Running"**.
+
+![Week bar with dots below the days with events, below it three events with reference, title, location and duration, in the Events widget of the Course Planner](assets/course_planner_widget_events_week_v1_en.png){ class="shadow lightbox" }
+
+### Empty state {: #widget_events_empty}
+
+If the displayed week holds no event, the message **"No events until the end of the week"** appears. Use the buttons **"Previous event"** and **"Next event"** to jump to the closest event before or after. The buttons are only active if such an event exists.
+
+![Message No events until the end of the week with the greyed out buttons Previous event and Next event, in the Events widget of the Course Planner](assets/course_planner_widget_events_empty_v1_en.png){ class="shadow lightbox" }
+
+Use the button **"Show all"** to get to the complete event list of the Course Planner.
+
+[To the top of the page ^](#dashboard)
+
+---
+
 ## Configure table widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
 
 You can individually configure widgets (e.g. the implementation widget) via :o_icon_o_icon_customize: in the widget:
@@ -55,30 +87,7 @@ Use **Save** to apply the settings, use **Cancel** to discard them.
 
 ## Edit overview [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
 
-Below the widgets, the **"Edit overview"** button is available, which lets you switch to edit mode.
-
-Two areas are available in edit mode:
-
-* **Active widgets**: Here you rearrange the widgets via drag & drop (move widget) or remove them.
-* **Available widgets**: Here you find deactivated widgets, which you can reactivate via the **"Add to dashboard"** link. Newly added widgets are inserted at the end of the active widgets.
-
-![The Active widgets and Available widgets areas with Move widget, Add to dashboard and the Save as system default menu, in edit mode of the dashboard](assets/course_planner_overview_customize_v1_en.png){ class="shadow lightbox" }
-
-!!! tip "Tip"
-
-    For operation without a mouse (keyboard/screen reader), the actions **"Move up"** and **"Move down"** are additionally available.
-
-Use **Save** to apply the changes and leave edit mode, use **Cancel** to discard them. Use **"Reset dashboard"** to restore the default setting.
-
-As long as no personal configuration has been saved, the system default is used.
-
-!!! info "Important"
-
-    Guests do not see the "Edit overview" button.
-
-!!! tip "Note for system administrators"
-
-    As a system administrator, you additionally have the actions **"Save as system default"** and **"Reset system default"** available in edit mode, to define the system default for all users without their own configuration.
+The button **"Edit overview"** is below the widgets. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md#customize)
 
 [To the top of the page ^](#dashboard)
 
@@ -91,6 +100,8 @@ As long as no personal configuration has been saved, the system default is used.
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../area_modules/Course_Planner_Reports.md)
+[Course Planner: Reports >](../area_modules/Course_Planner_Reports.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 [To the top of the page ^](#dashboard)

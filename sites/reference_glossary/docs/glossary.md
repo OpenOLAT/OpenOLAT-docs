@@ -2066,7 +2066,7 @@ The Coaching area with the Course Planner implementations in which the person co
 
 ### Events
 
-The widget of the Coaching overview with the events of the current week from today, with week navigation, status, reference, location and duration. It appears only if the person has events; Show all opens Events / Absences.
+The widget of the Coaching overview with the events of the current week from today, with week navigation, status, reference, location and duration. It shows only events in which the person is entered as a lecturer, and no events from educational products. It is absent if the person is not a lecturer on any event and not a master coach; Show all opens Events / Absences.
 
 *German: Termine* · [Manual](../manual_user/area_modules/Coaching.md)
 
@@ -3628,7 +3628,7 @@ A separate password for file access through WebDAV. It is kept apart from the si
 
 A tile on a dashboard that shows one slice: implementations, offers, members, courses, events or to-dos. The administration sets the active widgets as the system default; every person adapts them for themselves.
 
-*German: Widget* · [Manual](../manual_user/area_modules/Course_Planner_Dashboard.md)
+*German: Widget* · [Manual](../manual_user/basic_concepts/Dashboard_Concept.md)
 
 ### X (Twitter)
 

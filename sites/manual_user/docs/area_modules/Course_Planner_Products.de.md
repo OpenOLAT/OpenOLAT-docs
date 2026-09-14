@@ -96,6 +96,21 @@ Kursplaner:innen arbeiten mit der Ansicht "Alle", die die aktiven Produkte zeigt
 ---
 
 
+## Tab Übersicht eines Produkts {: #tab_overview}
+
+Öffnen Sie ein Produkt, zeigt der Tab **Übersicht** drei Widgets, jeweils eingeschränkt auf dieses Produkt:
+
+- **Durchführungen**: die Durchführungen dieses Produkts, mit Kennzahlen als Vorauswahl. **"Alle anzeigen"** öffnet die vollständige Liste.
+- **Termine**: die Termine der laufenden Woche aus diesem Produkt. Das Widget erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+- **To-do**: die offenen und überfälligen Aufgaben dieses Produkts.
+
+Wie eine Übersichtsseite aufgebaut ist, welche Bedienelemente die Kacheln gemeinsam haben und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+
+[zum Seitenanfang ^](#products)
+
+---
+
+
 ## Produkte importieren und exportieren {: #import_product}
 
 Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel-Datei importieren oder exportieren. Der Import-Assistent prüft die Daten in mehreren Schritten und zeigt vor der Ausführung genau an, was neu erstellt, geändert oder ignoriert wird [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
@@ -139,7 +154,8 @@ Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** u
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
@@ -147,6 +163,8 @@ Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** u
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Course Planner: Dashboard >](../../manual_user/area_modules/Course_Planner_Dashboard.de.md)<br>
+[Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)

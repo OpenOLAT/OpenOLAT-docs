@@ -2132,7 +2132,7 @@ Eine vorgegebene Abfrage, aus der ein Report entsteht, mit Name, Kategorie, Besc
 
 ### Termine
 
-Das Widget der Coaching-Übersicht mit den Terminen der laufenden Woche ab heute, mit Wochennavigation, Status, Kennzeichen, Ort und Dauer. Es erscheint nur, wenn die Person Termine hat; Alle anzeigen öffnet Termine / Absenzen.
+Das Widget der Coaching-Übersicht mit den Terminen der laufenden Woche ab heute, mit Wochennavigation, Status, Kennzeichen, Ort und Dauer. Es zeigt nur Termine, in denen die Person selbst als Dozent:in eingetragen ist, und keine Termine aus Bildungsprodukten. Es fehlt ganz, wenn die Person auf keinem Termin Dozent:in und kein Master Coach ist; Alle anzeigen öffnet Termine / Absenzen.
 
 *Englisch: Events* · [Handbuch](../manual_user/area_modules/Coaching.de.md)
 
@@ -3628,7 +3628,7 @@ Ein eigenes Passwort für den Dateizugriff über WebDAV. Es ist vom Anmeldepassw
 
 Eine Kachel auf einem Dashboard, die einen Ausschnitt zeigt: Durchführungen, Angebote, Mitglieder, Kurse, Termine oder To-dos. Die Administration legt die aktiven Widgets als Systemstandard fest; jede Person passt sie für sich an.
 
-*Englisch: Widget* · [Handbuch](../manual_user/area_modules/Course_Planner_Dashboard.de.md)
+*Englisch: Widget* · [Handbuch](../manual_user/basic_concepts/Dashboard_Concept.de.md)
 
 ### X (Twitter)
 

@@ -37,6 +37,38 @@ Im Kopfbereich wählen Sie über die Hauptkennzahl **"Relevant"** oder eine der 
 
 ---
 
+## Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
+
+Das Widget **Termine** zeigt die Termine der laufenden Woche ab dem gewählten Tag. Es erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+
+Angezeigt werden Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind.
+
+!!! info "Wichtig"
+
+    Das gleichnamige Widget **Termine** im Coaching zeigt andere Termine: dort erscheinen nur Termine, in denen Sie selbst als Dozent:in eingetragen sind, und keine Termine aus Bildungsprodukten. Siehe [Coaching - Übersicht](Coaching.de.md#widget_events).
+
+### Wochenleiste und Terminliste {: #widget_events_week}
+
+Die Wochenleiste läuft von Montag bis Sonntag. Ein Punkt unter der Tagesziffer markiert die Tage, an denen Termine stattfinden [:octicons-tag-16:{ title="ab Release 21.0 (OO-9515)" }](https://track.frentix.com/issue/OO-9515){:target="_blank"}. Ein Klick auf einen Tag setzt den Startpunkt der Liste, mit den Pfeilschaltflächen wechseln Sie die Woche. Die Tagesspalte bleibt beim Scrollen stehen, auch wenn die Woche viele Termine enthält.
+
+Die Liste zeigt die Termine ab dem gewählten Tag bis Sonntag, sortiert nach Beginn. Je Eintrag sehen Sie Wochentag, Datum, Kennzeichen, Titel, Ort, Beginn und Dauer. Ein Klick auf die Zeile öffnet den Termin.
+
+Ein farbiger Streifen am linken Rand einer Zeile ordnet den Termin zeitlich ein: Er markiert den nächsten anstehenden Termin und den gerade laufenden. Screenreader lesen dazu **"Als nächstes geplant"** beziehungsweise **"Am laufen"**.
+
+![Wochenleiste mit Punkten unter den Tagen mit Terminen, darunter drei Termine mit Kennzeichen, Titel, Ort und Dauer, im Termine-Widget des Course Planners](assets/course_planner_widget_events_week_v1_de.png){ class="shadow lightbox" }
+
+### Leerzustand {: #widget_events_empty}
+
+Enthält die angezeigte Woche keinen Termin, erscheint der Hinweis **"Keine Termine bis Ende der Woche"**. Über die Schaltflächen **"Vorheriger Termin"** und **"Nächster Termin"** springen Sie zum nächstgelegenen Termin davor oder danach. Die Schaltflächen sind nur aktiv, wenn ein solcher Termin existiert.
+
+![Hinweis Keine Termine bis Ende der Woche mit den ausgegrauten Schaltflächen Vorheriger und Nächster Termin, im Termine-Widget des Course Planners](assets/course_planner_widget_events_empty_v1_de.png){ class="shadow lightbox" }
+
+Über den Button **"Alle anzeigen"** gelangen Sie zur vollständigen Terminliste des Course Planners.
+
+[Zum Seitenanfang ^](#dashboard)
+
+---
+
 ## Tabellen-Widget konfigurieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_table_settings}
 
 Widgets (z.B. das Durchführungs-Widget) können Sie über :o_icon_o_icon_customize: im Widget individuell konfigurieren:
@@ -55,30 +87,7 @@ Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen
 
 ## Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
 
-Unterhalb der Widgets steht der Button **"Übersicht anpassen"** zur Verfügung, mit dem Sie in den Bearbeitungsmodus wechseln.
-
-Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
-
-* **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
-* **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
-
-![Die Bereiche Aktive Widgets und Verfügbare Widgets mit Kachel bewegen, Zum Dashboard hinzufügen und dem Menü Als Systemstandard speichern, im Bearbeitungsmodus des Dashboards](assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" }
-
-!!! tip "Tipp"
-
-    Für die Bedienung ohne Maus (Tastatur/Screenreader) stehen zusätzlich die Aktionen **"Nach oben verschieben"** und **"Nach unten verschieben"** zur Verfügung.
-
-Mit **Speichern** übernehmen Sie die Änderungen und verlassen den Bearbeitungsmodus, mit **Abbrechen** verwerfen Sie sie. Über **"Dashboard zurücksetzen"** stellen Sie die Standardeinstellung wieder her.
-
-Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstandard verwendet.
-
-!!! info "Wichtig"
-
-    Gäste sehen den Button "Übersicht anpassen" nicht.
-
-!!! tip "Hinweis für Systemadministrator:innen"
-
-    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen.
+Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen Sie die Kacheln neu an, blenden sie aus und holen sie zurück. Die Bedienung ist auf allen Übersichtsseiten gleich und dort einmal beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md#customize)
 
 [Zum Seitenanfang ^](#dashboard)
 
@@ -91,6 +100,8 @@ Solange keine persönliche Konfiguration gespeichert wurde, wird der Systemstand
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../area_modules/Course_Planner_Reports.de.md)
+[Course Planner: Reports >](../area_modules/Course_Planner_Reports.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 [Zum Seitenanfang ^](#dashboard)

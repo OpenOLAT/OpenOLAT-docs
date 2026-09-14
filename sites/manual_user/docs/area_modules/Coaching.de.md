@@ -87,7 +87,7 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 ## Widgets {: #widgets}
 
 
-#### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
+### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
 ![Markierter Trennbereich Übersicht zwischen den Buttons und Aufgaben oben und den Widgets darunter, auf der Einstiegsseite Coaching.](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
@@ -98,6 +98,14 @@ Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend bes
 
 Das Widget **Termine** erscheint als Kachel auf der Coaching-Übersicht und zeigt die anstehenden Termine ab dem heutigen Tag bis zum Ende der aktuellen Woche auf einen Blick.
 
+Angezeigt werden nur Termine, in denen Sie selbst als Dozent:in eingetragen sind, und nur aus Kursen mit eigener Terminkonfiguration. Termine aus Bildungsprodukten erscheinen hier nicht.
+
+!!! info "Wichtig"
+
+    Das gleichnamige Widget **Termine** im Course Planner zeigt andere Termine: dort erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Siehe [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
+
+Das Widget erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+
 #### Kopfbereich und Tagesanzeige
 
 Der Kopfbereich des Widgets zeigt das aktuelle Datum mit Monat, Jahr und der Beschriftung **Heute, \<Wochentag\>**. Der heutige Tag ist hervorgehoben. Das Wochenende wird optisch zurückgenommen (gedämpft dargestellt).
@@ -105,6 +113,8 @@ Der Kopfbereich des Widgets zeigt das aktuelle Datum mit Monat, Jahr und der Bes
 #### Wochennavigation
 
 Mit den Schaltflächen `<` und `>` navigieren Sie wochenweise durch die Termine. Eine Woche läuft immer von Montag bis Sonntag. Initial wird die aktuelle Woche ab dem heutigen Tag angezeigt.
+
+Ein Punkt unter der Tagesziffer markiert die Tage, an denen Termine stattfinden. Die Tagesspalte bleibt beim Scrollen stehen, auch wenn die Woche viele Termine enthält. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9515)" }](https://track.frentix.com/issue/OO-9515)
 
 #### Terminliste
 
@@ -126,7 +136,7 @@ Pro Termin werden folgende Informationen angezeigt:
 Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **Keine Termine bis Ende der Woche**. Über die Schaltflächen **Vorheriger Termin** und **Nächster Termin** springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
 
 !!! info "Wichtig"
-    Gibt es für diesen Coach überhaupt keine Termine, wird das Widget komplett ausgeblendet.
+    Das Widget fehlt ganz, wenn Sie auf keinem einzigen Termin als Dozent:in eingetragen und kein Master Coach sind. Liegt in der angezeigten Woche kein Termin, erscheint dagegen der Leerzustand.
 
 #### Zur Vollansicht
 
@@ -162,20 +172,7 @@ Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
 ### Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3 (OO-9273)" }](https://track.frentix.com/issue/OO-9273) {: #overview_customize}
 
-Unterhalb der Widgets steht der Button **"Übersicht anpassen"** zur Verfügung, mit dem Sie in den Bearbeitungsmodus wechseln.
-
-Im Bearbeitungsmodus stehen zwei Bereiche zur Verfügung:
-
-* **Aktive Widgets**: Hier ordnen Sie die Widgets per Drag & Drop (Kachel bewegen) neu an oder entfernen sie.
-* **Verfügbare Widgets**: Hier finden Sie deaktivierte Widgets, die Sie über den Link **"Zum Dashboard hinzufügen"** wieder aktivieren können. Neu hinzugefügte Widgets werden am Ende der aktiven Widgets eingefügt.
-
-![Bereiche Aktive Widgets und Verfügbare Widgets, Link Zum Dashboard hinzufügen und Menü mit den Systemstandard-Aktionen, im Bearbeitungsmodus der Coaching-Übersicht.](assets/coaching_overview_customize_v1_de.png){ class="shadow lightbox" }
-
-Mit **"Speichern"** übernehmen Sie Ihre Anordnung, mit **"Abbrechen"** verwerfen Sie die Änderungen. **"Dashboard zurücksetzen"** stellt die Standardanordnung wieder her.
-
-!!! tip "Hinweis für Systemadministrator:innen"
-
-    Als Systemadministrator:in stehen Ihnen im Bearbeitungsmodus zusätzlich die Aktionen **"Als Systemstandard speichern"** und **"Systemstandard zurücksetzen"** zur Verfügung, um den Systemstandard für alle Benutzer:innen ohne eigene Konfiguration festzulegen. So lässt sich auch ein einzelnes Widget, z.B. das Termine-Widget, für alle Benutzer:innen ohne eigene Anordnung ausblenden.
+Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen Sie die Kacheln neu an, blenden sie aus und holen sie zurück. Die Bedienung ist auf allen Übersichtsseiten gleich und dort einmal beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md#customize)
 
 [Zum Seitenanfang ^](#coaching)
 
@@ -191,6 +188,8 @@ Mit **"Speichern"** übernehmen Sie Ihre Anordnung, mit **"Abbrechen"** verwerfe
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
-[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
+[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
+[Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 [Zum Seitenanfang ^](#coaching)

@@ -22,6 +22,10 @@ Three key figures summarise the current state:
 
 Below that, the widget lists your own to-dos with title, priority, due date and time remaining; dates that have passed appear in red. A click on the title opens the to-do directly. If no to-dos exist, the note "No to-dos available." appears.
 
+How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+
+The widget shows the to-dos of the Course Planner. **All** your to-dos, wherever they come from, are in the personal tool [To-dos](../personal_menu/To-Dos.md). It combines personal to-dos, to-dos from courses and from the course element Task, from implementations of the Course Planner, from projects and from quality management in one list. Listed are the to-dos for which you are assignee or delegatee.
+
 !!! note "Dashboard configuration"
     Like all CPL dashboard widgets, the widget can be shown and hidden via the dashboard configuration.
 
@@ -213,5 +217,6 @@ The calculated date is shown as a preview as long as an implementation period is
 [To-dos (personal menu) >](../personal_menu/To-Dos.md)<br>
 [General information on to-dos >](../basic_concepts/To_Dos_Basics.md)<br>
 [Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 [To the top of the page ^](#course_planner_todos)

@@ -70,11 +70,19 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 The "Overview" tab shows you the members, the next events, the offers in the catalog and the course content of this product. This makes it easier for you to navigate the activities related to this implementation.
 
-Use the **Show all** button in the **Events** widget to go directly to the Events tab.
+How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 The **Content** and **Catalog** widgets also show an icon in the title as well as the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
 
 ![The widgets for Events, Content, Members and Catalog with the Show all and Details buttons, in the Overview tab of an implementation](assets/course_planner_implementations_tab_overview_v2_en.png){ class="shadow lightbox" }
+
+#### Events widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
+
+The widget **Events** shows the events of the current week, limited to this implementation and its subordinate elements. It only appears if the module **Events and absences** is active system-wide.
+
+The week bar runs from Monday to Sunday, a dot below the day figure marks the days with events. A click on a row opens the event. You find the complete description of the widget under [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
+
+Use the button **"Show all"** to go directly to the tab **Events** of this implementation.
 
 #### Member widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
 
@@ -502,7 +510,9 @@ If you have already opened an implementation, you will also find the option to d
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](Course_Planner_Rooms.md)<br>
-[Course Planner: Overview >](Course_Planner.md)
+[Course Planner: Overview >](Course_Planner.md)<br>
+[Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

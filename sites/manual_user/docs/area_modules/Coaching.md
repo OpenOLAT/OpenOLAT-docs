@@ -87,7 +87,7 @@ You can select one of your roles using the focus elements above the list. This w
 ## Widgets {: #widgets}
 
 
-#### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
+### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
 ![Marked separator area Overview between the buttons and tasks above and the widgets below, on the Coaching entry page.](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
@@ -98,6 +98,14 @@ A separator area labelled **"Overview"** visually separates the widget area desc
 
 The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
 
+Displayed are only events in which you are entered as a lecturer yourself, and only from courses with their own event configuration. Events from educational products do not appear here.
+
+!!! info "Important"
+
+    The widget with the same name **Events** in the Course Planner shows different events: there you see events from educational products for which you are administrator, absence manager, owner or coach. See [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
+
+The widget only appears if the module **Events and absences** is active system-wide.
+
 #### Header and day display
 
 The widget header shows the current date with month, year and the label **Today, \<weekday\>**. Today's date is highlighted. The weekend is visually toned down.
@@ -105,6 +113,8 @@ The widget header shows the current date with month, year and the label **Today,
 #### Week navigation
 
 Use the `<` and `>` buttons to navigate through the events week by week. A week always runs from Monday to Sunday. Initially, the current week from today onwards is displayed.
+
+A dot below the day figure marks the days on which events take place. The day column stays in place while you scroll, even if the week holds many events. [:octicons-tag-16:{ title="from Release 21.0 (OO-9515)" }](https://track.frentix.com/issue/OO-9515)
 
 #### Event list
 
@@ -126,7 +136,7 @@ Each event shows the following information:
 If there are no events in the displayed week, the message **No events until the end of the week** appears. Use the **Previous event** and **Next event** buttons to jump to the nearest event in the past or future.
 
 !!! info "Important"
-    If this coach has no events at all, the widget is hidden completely.
+    The widget is absent entirely if you are not entered as a lecturer on a single event and are not a master coach. If the displayed week holds no event, the empty state appears instead.
 
 #### Full view
 
@@ -162,20 +172,7 @@ Use the **Show all** button to go to the full course list in the **Courses** too
 
 ### Edit overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9273)" }](https://track.frentix.com/issue/OO-9273) {: #overview_customize}
 
-Below the widgets, the **"Edit overview"** button takes you to the edit mode.
-
-The edit mode offers two areas:
-
-* **Active widgets**: Here you rearrange the widgets via drag and drop (Move widget) or remove them.
-* **Available widgets**: Here you find deactivated widgets, which you can activate again via the **"Add to dashboard"** link. Newly added widgets are inserted at the end of the active widgets.
-
-![Areas Active widgets and Available widgets, link Add to dashboard and menu with Save as system default and Reset system default, in the edit mode of the Coaching overview.](assets/coaching_overview_customize_v1_en.png){ class="shadow lightbox" }
-
-Use **"Save"** to apply your arrangement and **"Cancel"** to discard the changes. **"Reset dashboard"** restores the default arrangement.
-
-!!! tip "Note for system administrators"
-
-    As a system administrator, the edit mode offers you the additional actions **"Save as system default"** and **"Reset system default"** to define the system default for all users without a personal configuration. This also allows you to hide a single widget, e.g. the Event widget, for all users without a personal arrangement.
+Below the widgets, the button **"Edit overview"** takes you to the edit mode. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md#customize)
 
 [To the top of the page ^](#coaching)
 
@@ -191,6 +188,8 @@ Use **"Save"** to apply your arrangement and **"Cancel"** to discard the changes
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
-[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)
+[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
+[Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 [To the top of the page ^](#coaching)

@@ -22,6 +22,10 @@ Drei Kennzahlen fassen den Stand zusammen:
 
 Darunter listet das Widget Ihre eigenen To-dos mit Titel, Priorität, Fälligkeitstermin und Fälligkeit auf; überschrittene Termine erscheinen in Rot. Ein Klick auf den Titel öffnet das To-do direkt. Sind keine To-dos vorhanden, erscheint der Hinweis «Keine To-dos verfügbar».
 
+Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+
+Das Widget zeigt die To-dos des Course Planners. **Alle** Ihre To-dos, gleich woher sie stammen, finden Sie dagegen im persönlichen Werkzeug [To-dos](../personal_menu/To-Dos.de.md). Es führt persönliche To-dos, To-dos aus Kursen und aus dem Kursbaustein Aufgabe, aus Durchführungen des Course Planners, aus Projekten und aus dem Qualitätsmanagement in einer Liste zusammen. Aufgeführt sind die To-dos, bei denen Sie Zuständige:r oder Delegierte:r sind.
+
 !!! note "Dashboard Konfiguration"
     Das Widget kann wie alle CPL-Dashboard-Widgets über die Dashboard-Konfiguration ein- und ausgeblendet werden.
 
@@ -213,5 +217,6 @@ Das berechnete Datum wird als Vorschau angezeigt, solange ein Durchführungszeit
 [To-dos (persönliches Menü) >](../personal_menu/To-Dos.de.md)<br>
 [Allgemeines zu To-dos >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
 [Zum Seitenanfang ^](#course_planner_todos)

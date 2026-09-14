@@ -80,12 +80,14 @@ A certification program can be set from "Active" to "Inactive" status. This is p
 
 ### Tab Overview {: #config_tab_overview}
 
-The overview shows you the number of members sorted by status at a glance:
+The overview page of the certification program shows a widget **Active members**. It states the number of members by status:
 
 * Active
 * Certified
 * Expiring soon
 * In recertification
+
+A click on a key figure filters the member list below it. How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 ![The key figures Active, Certified, Expiring soon and In recertification with the list of certified members, in the Overview tab of a certification program](assets/course_planner_certification_programs_config_overview_v2_de.png){ class="shadow lightbox" }
 
@@ -345,5 +347,6 @@ If a participant is selected in user management, there is a **Certificates tab**
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Credit points in the personal menu >](../personal_menu/Credit_Points.md)<br>
 [Credit points (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 [To the top of the page ^](#certification_programs)

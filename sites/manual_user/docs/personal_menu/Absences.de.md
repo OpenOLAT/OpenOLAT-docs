@@ -30,6 +30,8 @@ Sie erfahren hier, wie viele Termine pro Kurs erfasst sind und wie sich Ihre Anw
 
 ![Eine Zeile pro Kurs mit Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert, Fortschrittsbalken und Anwesenheitsquote, darüber die Buttons Drucken und Log, im Tab Termine und Absenzen](assets/pers_menu_absences_lectures_v2_de.png){ class="shadow lightbox"}
 
+Die Liste ist vollständig: Sie führt Ihre Termine unabhängig davon, woher der Kurs kommt. Gehören Kurse zu einem Bildungsprodukt des Course Planners, trennt die Liste sie in die Abschnitte **Absenzen innerhalb eines Produkts** und **Absenzen ausserhalb eines Produkts**. Termine aus Projekten erscheinen hier nicht, sie werden im Projekt selbst geführt.
+
 [Zum Seitenanfang ^](#pers_tools_absences)
 
 ---
