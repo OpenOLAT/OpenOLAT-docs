@@ -55,7 +55,7 @@ Jede Zeile der Tabelle lässt sich aufklappen. Die Detailansicht zeigt den Titel
 
 ### Callout «Buchung» in der Kalenderansicht {: #booking_callout}
 
-Das Callout gibt es nur in der Kalenderansicht, nicht in der Tabelle. Über das erste der Symbole rechts über der Liste wechseln Sie dorthin. Ein Klick auf einen farbigen Buchungsblock öffnet dann das Callout «Buchung»; ein Klick auf die Tageszelle daneben nicht. Es nennt in dieser Reihenfolge das Kennzeichen des Raums mit seiner Beschreibung, den Titel des Termins mit seinem Kennzeichen, das Datum und die Uhrzeit. Über «Im Kursplaner öffnen» gelangen Sie von dort zum Termin, wie in der Detailansicht oben.
+Das Callout gibt es nur in der Kalenderansicht, nicht in der Tabelle. Über das erste der Symbole rechts über der Liste wechseln Sie dorthin. Enthält die Liste im gewählten Zeitraum keine Buchung, fehlen diese Symbole ganz und es gibt keine Kalenderansicht. Ein Klick auf einen farbigen Buchungsblock öffnet dann das Callout «Buchung»; ein Klick auf die Tageszelle daneben nicht. Es nennt in dieser Reihenfolge das Kennzeichen des Raums mit seiner Beschreibung, den Titel des Termins mit seinem Kennzeichen, das Datum und die Uhrzeit. Über «Im Kursplaner öffnen» gelangen Sie von dort zum Termin, wie in der Detailansicht oben.
 
 Das Callout steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in der Kalenderansicht der Raumplanung, in der Kalenderansicht der Raumliste und im Kalender einer einzelnen Raumzeile. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
@@ -65,7 +65,7 @@ Das Callout steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in
 
 ### Warnungen {: #warnings}
 
-Die Spalte «Warnungen» macht auf Konflikte aufmerksam:
+In der Tabellenansicht macht die Spalte «Warnungen» auf Konflikte aufmerksam. In der Kalenderansicht tragen die Blöcke die Farbe ihres Gebäudes, und eine Buchung mit Konflikt trägt zusätzlich ein Warndreieck im Block. Es gibt drei Warnungen:
 
 * **Doppelbuchung**: «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!»
 * **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.

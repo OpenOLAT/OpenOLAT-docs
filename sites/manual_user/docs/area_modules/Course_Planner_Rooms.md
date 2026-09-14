@@ -55,7 +55,7 @@ Each row of the table can be expanded. The detail view shows the title and the r
 
 ### Callout "Booking" in the calendar view {: #booking_callout}
 
-The callout exists only in the calendar view, not in the table. Use the first of the icons above the list on the right to switch there. A click on a coloured booking block then opens the callout "Booking"; a click on the day cell next to it does not. In this order it names the reference of the room with its description, the title of the event with its reference, the date and the time. Via "Open in Course Planner" you reach the event from there, as in the detail view above.
+The callout exists only in the calendar view, not in the table. Use the first of the icons above the list on the right to switch there. If the list holds no booking in the selected period, these icons are absent altogether and there is no calendar view. A click on a coloured booking block then opens the callout "Booking"; a click on the day cell next to it does not. In this order it names the reference of the room with its description, the title of the event with its reference, the date and the time. Via "Open in Course Planner" you reach the event from there, as in the detail view above.
 
 The callout is available in every calendar view of the room management: in the calendar view of the room scheduling, in the calendar view of the room list and in the calendar of a single room row. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
@@ -65,7 +65,7 @@ The callout is available in every calendar view of the room management: in the c
 
 ### Warnings {: #warnings}
 
-The column "Warnings" draws attention to conflicts:
+In the table view, the column "Warnings" draws attention to conflicts. In the calendar view, the blocks carry the colour of their building, and a booking with a conflict also carries a warning triangle inside the block. There are three warnings:
 
 * **Double booking**: "The room "..." is double-booked during this period!"
 * **Not enough seats**: "There aren't enough seats!" if the number of participants exceeds the number of seats.
