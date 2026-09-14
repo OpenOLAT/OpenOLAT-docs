@@ -14,6 +14,12 @@ Das Modul wird von einer Person mit administrativer Rolle in der System-Administ
 !!! info "Termine ohne Räume"
     Ist das Modul ausgeschaltet, sind diese Ansichten ausgeblendet und an Terminen lassen sich keine Räume buchen.
 
+### Modulabhängigkeiten [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} {: #module_dependencies}
+
+Der Abschnitt «Modulabhängigkeiten» zeigt den Zustand der beiden Module, in denen Räume gebucht werden: «Course Planner» und «Termine / Absenzen». Je Modul steht dort «Aktiviert» oder «Deaktiviert». Beim Course Planner steht zusätzlich, welcher Rollenkreis die Site erreicht, zum Beispiel «Kursplaner:innen, Produkt- und Elementbesitzer:innen, Zertifikatsprogrammbesitzer:innen». Diesen Rollenkreis legen Sie fest unter: [Customizing: Sites >](Customizing.de.md#sites)
+
+Ist eines der beiden Module deaktiviert, entstehen dort keine Raumbuchungen. Die Raumverwaltung bleibt bedienbar, die Raumplanung führt dann aber keine Buchungen aus diesem Modul.
+
 
 ## Gebäude [:octicons-tag-16:{ title="ab Release 21.0 (OO-9522)" }](https://track.frentix.com/issue/OO-9522){:target="_blank"} {: #buildings}
 
@@ -82,6 +88,8 @@ Angaben, die nur für Personen mit einer administrativen Rolle sichtbar sind, zu
 
 In der Raumliste sehen Sie zu jedem Raum unter anderem den «Nächsten Termin» und die «Belegung» (Auslastung des laufenden Monats). Ein Symbol öffnet den «Kalender» des Raums mit seiner Belegung, über «Details» rufen Sie die Vorschau des Raums mit Standort und Karte auf. Neben der Tabellen- steht auch eine Kalenderansicht zur Verfügung.
 
+Ein Klick auf einen Kalendereintrag öffnet das Callout «Buchung» mit den Angaben zur Raumbuchung. Es steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung, auch im Kalender einer einzelnen Raumzeile. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"} Was im Callout steht, beschreibt der Abschnitt [Raumplanung im Course Planner >](../../manual_user/area_modules/Course_Planner_Rooms.de.md#room_scheduling).
+
 Wie beim Gebäude hat ein Raum den Status «Aktiv», «Inaktiv» oder «Gelöscht». Ein inaktiver Raum kann nicht mehr gebucht werden; bereits vorgenommene Buchungen behalten ihre Gültigkeit. Ein Raum lässt sich nicht löschen, solange für ihn aktive Buchungen bestehen.
 
 
@@ -92,7 +100,7 @@ Die Raumplanung finden Sie in der System-Administration unter:<br>
 
 Das Segment «Raumplanung» bündelt alle Raumbuchungen als Übersicht. Filter sowie eine Kalenderansicht stehen zur Verfügung.
 
-Bedeutung der Warnungen und der verfügbaren Filter siehe [Raumplanung im Course Planner: Details >](../../manual_user/area_modules/Course_Planner_Rooms.de.md).
+Dieselbe Ansicht erreichen Kursplaner:innen im Course Planner unter `Course Planner > Tools > Raumverwaltung`. Sie unterscheidet sich nur durch die Hinweiszeile, die hier über der Tabelle steht. Die Warnungen, die Filter, die aufklappbare Detailansicht einer Buchung und das Callout «Buchung» in der Kalenderansicht sind dort beschrieben: [Raumplanung im Course Planner: Details >](../../manual_user/area_modules/Course_Planner_Rooms.de.md#room_scheduling)
 
 
 ---
@@ -100,6 +108,7 @@ Bedeutung der Warnungen und der verfügbaren Filter siehe [Raumplanung im Course
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Customizing: Übersicht >](Customizing.de.md)<br>
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>

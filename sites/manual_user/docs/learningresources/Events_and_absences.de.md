@@ -43,6 +43,44 @@ Im 3-Punkte-Menü am Ende jeder Zeile finden Sie weitere Optionen für einen Ter
 
 ![Das 3-Punkte-Menü eines Termins bietet unter anderem Bearbeiten, Kopieren, Ändere in Online Meeting, Als Prüfung markieren, Absenzen- und Präsenzliste, Export und Termin wiederöffnen](assets/Termine_Asenzen.jpg){ class="shadow lightbox" }
 
+Über die Spaltenauswahl (Zahnrad) blenden Sie weitere Spalten ein. Ist das Modul "Räume" aktiviert, steht dort zusätzlich die Spalte "Räume" mit den gebuchten Räumen des Termins. Sie ist standardmässig ausgeblendet.
+
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+### Ansichten: Zeitansicht und Tabelle {: #views}
+
+Die Terminliste steht in zwei Ansichten zur Verfügung. Rechts über der Liste stehen die beiden Umschalter nebeneinander: links die "Zeitansicht", rechts die "Tabellenansicht". Für Kursbesitzer:innen ist die Tabellenansicht voreingestellt, Teilnehmende sehen die Zeitansicht.
+
+In der Zeitansicht steht jeder Termin als eigener Block, nach Jahr und Datum gruppiert. Der Kopf des Blocks nennt links den Titel und das Kennzeichen des Termins mit dem Statusabzeichen, darunter die Zeit. Rechts steht das 3-Punkte-Menü mit den Aktionen zum Termin. Optional kommen dazu: die Fachbereiche als Etiketten unter dem Titel, der Ort, und bei einem Online Meeting die Schaltfläche zum Beitreten. Sind Vor- oder Nachlaufzeiten erfasst, erscheinen sie als Minutenangabe hinter der Zeit.
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+### Detailansicht eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #event_details}
+
+In der Tabellenansicht klappt ein Klick auf das + zu Beginn einer Zeile die Detailansicht auf, in der Zeitansicht der Pfeil am unteren Rand des Blocks. Der Inhalt ist in beiden Ansichten derselbe.
+
+In der Tabellenansicht steht zuoberst eine Titelzeile mit Titel und Kennzeichen des Termins, den Abzeichen "Status" und "Absenzen" und rechts der Aktion "Bearbeiten". In der Zeitansicht entfällt sie, weil der Kopf des Blocks diese Angaben bereits trägt; bearbeitet wird dort über das 3-Punkte-Menü.
+
+Die Attributzeile fasst die Eckwerte zusammen: Datum, Zeit, Teilnehmer:innen und Präsenz. "Einheit" erscheint nur, wenn der Termin mehr als eine Einheit umfasst, "Ort" nur, wenn ein Ort erfasst ist.
+
+Danach folgen die Dozent:innen als Personenkarten mit Visitenkarte, E-Mail und Chat. Ist niemand eingetragen, steht dort "Keine Dozenten verfügbar.".
+
+Die übrigen Angaben erscheinen nur, wenn sie am Termin gepflegt sind:
+
+* **Online Meeting**: "Online Meeting beitreten" als hervorgehobene Schaltfläche, dazu der Link auf eine hinterlegte Aufzeichnung.
+* **Raum**: die Raumkarte unter dem Label "Raum", bei mehreren Räumen unter "Räume". Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung unterhalb der Raumkarte und die Karte erhält einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
+* **Beschreibung** und **Vorbereitung/Nachbereitung** als eigene Absätze.
+
+Zuunterst steht die Tabelle der Elemente, deren Teilnehmende zum Termin gehören.
+
+![Aufgeklappter Terminblock mit Eckwerten, Dozentenfeld, Raumkarte, Beschreibung und Elementtabelle, in der Zeitansicht](assets/events_and_absences_timeline_v1_de.png){ class="shadow lightbox" }
+
+Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt deshalb keine Raumkarten: [Räume für einen Termin belegen >](../area_modules/Course_Planner_Events.de.md#room_booking)
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -61,7 +99,7 @@ Zum Hinzufügen (weiterer) Termine verwenden Sie den Button "Termin hinzufügen"
 
 Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin. 
 
-![Das Popup "Termin hinzufügen" erfasst Titel, Kennzeichen, Datum, Zeit, Einheit, Ort, Online Meeting, URL für Aufzeichnung, Fachbereiche, Dozenten, Beschreibung, Vorbereitung/Nachbereitung und Präsenz](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
+![Eingabemaske für einen neuen Termin mit den Pflichtfeldern Titel, Datum und Zeit, dem Toggle Online Meeting und dem Schalter Präsenz, Popup Termin hinzufügen](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
 
  **Titel**: Vergeben Sie einen sinnvollen Namen.
 
@@ -110,7 +148,7 @@ Alternativ können die Optionen zum Kopieren und Löschen unter den 3 Punkten am
 ---
 
 
-### Termine importieren {: #import_events}
+### Termine importieren [:octicons-tag-16:{ title="ab Release 13.0 (OO-3666)" }](https://track.frentix.com/issue/OO-3666){:target="_blank"} {: #import_events}
 
 Es ist auch möglich, Termine zu importieren, die an anderer Stelle in OpenOlat exportiert wurden. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen".
 
@@ -254,13 +292,19 @@ Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, 
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
+[Safe Exam Browser >](../../manual_how-to/SEB/SEB.de.md)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
+[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
+[Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)
+
+**Weiterführend**<br>
 [Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
-[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
+[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
+[Modul Räume (Admin) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 

@@ -43,6 +43,44 @@ In the 3-dot menu at the end of each line, you will find further options for an 
 
 ![The 3-dot menu of an event offers, among others, Edit, Copy, Change to an online meeting, Mark as exam, absence and attendance list, Export and Reopen event](assets/Termine_Asenzen.jpg){ class="shadow lightbox" }
 
+Use the column selection (gear icon) to show further columns. If the module "Rooms" is activated, the column "Rooms" with the booked rooms of the event is available there. It is hidden by default.
+
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
+
+### Views: timeline and table {: #views}
+
+The event list is available in two views. The two switches sit next to each other above the list on the right: the "Timeline" on the left, the "Table view" on the right. For course owners the table view is preset, participants see the timeline.
+
+In the timeline, each event stands as its own block, grouped by year and date. The head of the block names the title and the reference of the event with the status badge on the left, and the time below it. The 3-dot menu with the actions for the event is on the right. Optional additions are: the subjects as labels below the title, the location, and for an online meeting the button to join. If lead or follow-up times are recorded, they appear as a minute value after the time.
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
+
+### Detail view of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #event_details}
+
+In the table view, a click on the + at the beginning of a line expands the detail view; in the timeline it is the arrow at the bottom edge of the block. The content is the same in both views.
+
+In the table view, a title line at the top names the title and the reference of the event, the badges "Status" and "Absences", and on the right the action "Edit". In the timeline it is omitted, because the head of the block already carries this information; editing runs through the 3-dot menu there.
+
+The attributes line sums up the key values: date, time, participants and compulsory presence. "Unit" only appears if the event covers more than one unit, "Location" only if a location is recorded.
+
+The teachers follow as user cards with business card, e-mail and chat. If nobody is assigned, it says "No teachers assigned yet.".
+
+The remaining details only appear if they are maintained for the event:
+
+* **Online meeting**: "Join online meeting" as a highlighted button, plus the link to a stored recording.
+* **Room**: the room card under the label "Room", with several rooms under "Rooms". If a room is double-booked during the period of the event, the warning appears below the room card and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
+* **Description** and **Preparation/Follow up** as their own paragraphs.
+
+At the very bottom you find the table of the elements whose participants belong to the event.
+
+![Expanded event block with key values, teachers field, room card, description and element table, in the timeline](assets/events_and_absences_timeline_v1_en.png){ class="shadow lightbox" }
+
+Rooms are assigned in the Course Planner. A standalone course therefore shows no room cards: [Book rooms for an event >](../area_modules/Course_Planner_Events.md#room_booking)
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -61,7 +99,7 @@ To add (further) events, use the "Add event" button at the top right above the l
 
 A popup opens for entering all details of the event. 
 
-![The popup "Add event" captures Title, Reference, Date, Time, Unit, Location, Online meeting, Recording URL, Subjects, Teacher, Description, Preparation/Follow up and Compulsory](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
+![Input mask for a new event with the mandatory fields Title, Date and Time, the toggle Online meeting and the switch Compulsory, popup Add event](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
 
  **Title**: Give the event a meaningful name.
 
@@ -110,7 +148,7 @@ Alternatively, the options for copying and deleting can be accessed under the 3 
 ---
 
 
-### Import events {: #import_events}
+### Import events [:octicons-tag-16:{ title="from Release 13.0 (OO-3666)" }](https://track.frentix.com/issue/OO-3666){:target="_blank"} {: #import_events}
 
 It is also possible to import events that have been exported elsewhere in OpenOlat. To do this, click on the small arrow next to the "Add event" button in the "Events" tab.
 
@@ -254,12 +292,18 @@ Appeals are usually processed by absence managers, who can access all appeals ac
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Personal absences >](../personal_menu/Absences.md)<br>
+[Safe Exam Browser >](../../manual_how-to/SEB/SEB.md)<br>
+[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
+[Cross-course absence management by absence managers >](../area_modules/Absence_Management.md)<br>
+[Course Planner: Events >](../area_modules/Course_Planner_Events.md)
+
+**Further reading**<br>
 [Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuration of absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
-[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
-[Personal absences >](../personal_menu/Absences.md)<br>
+[Configuration of absence management in a course >](../learningresources/Course_Settings_Execution.md)<br>
 [Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
-[Cross-course absence management by absence managers >](../area_modules/Absence_Management.md)<br>
+[Module Rooms (Admin) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_admin_events_and_absences)

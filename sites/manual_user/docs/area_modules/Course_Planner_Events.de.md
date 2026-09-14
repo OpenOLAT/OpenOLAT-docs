@@ -101,9 +101,11 @@ Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch impor
 Ist das Modul «Räume» aktiviert, können Sie einem Termin einen oder mehrere Räume zuweisen. Das Feld «Räume» steht im Dialog zum Erstellen oder Bearbeiten eines Termins zur Verfügung, den Sie hier öffnen:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume «Verfügbar» und welche «Besetzt» sind. Zu jedem Raum werden das Gebäude und die Anzahl Plätze angezeigt; reicht die Kapazität für die Teilnehmerzahl nicht aus, wird darauf hingewiesen. Über «Räume hinzufügen» öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen.
+Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume «Verfügbar» und welche «Besetzt» sind. Zu jedem Raum werden das Gebäude und die Anzahl Plätze angezeigt; reicht die Kapazität für die Teilnehmerzahl nicht aus, wird darauf hingewiesen. Über «Räume hinzufügen» öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen. In der Kalenderansicht dieser Auswahl öffnet ein Klick auf einen Eintrag das Callout «Buchung» mit Raum, Termin, Datum und Zeit der bestehenden Buchung. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
-In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label «Raum» als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label «Räume». Konflikte wie eine Doppelbuchung oder zu wenige Plätze werden als Warnung angezeigt.
+In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label «Raum» als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label «Räume».
+
+Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!» unterhalb der Raumkarte; die Karte erhält dazu einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} Die Warnungen zu fehlenden Plätzen und zu inaktiven Räumen sehen Sie in der [Raumplanung](Course_Planner_Rooms.de.md#warnings).
 
 ![Drei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung, in der Detailansicht eines Termins](assets/course_planner_events_room_booking_v1_de.png){ class="shadow lightbox" }
 
@@ -130,6 +132,10 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
+
+**Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
@@ -139,6 +145,7 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Räume (Admin) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#events)
 

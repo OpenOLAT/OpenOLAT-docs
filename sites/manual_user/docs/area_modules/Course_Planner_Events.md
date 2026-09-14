@@ -97,9 +97,11 @@ You can also import events by clicking on the small arrow next to the button.
 If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available in the dialog for creating or editing an event, which you open here:<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". The building and the number of seats are displayed for each room; if the capacity is not sufficient for the number of participants, this is indicated. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms.
+The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". The building and the number of seats are displayed for each room; if the capacity is not sufficient for the number of participants, this is indicated. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms. In the calendar view of this selection, a click on an entry opens the callout "Booking" with room, event, date and time of the existing booking. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
-In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms". Conflicts such as a double booking or insufficient seats are displayed as a warning.
+In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms".
+
+If a room is double-booked during the period of the event, the warning "The room "..." is double-booked during this period!" appears below the room card, and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} You see the warnings about missing seats and inactive rooms in the [room scheduling](Course_Planner_Rooms.md#warnings).
 
 ![Three booked rooms as room cards with building and address, one with the double booking warning, in the detail view of an event](assets/course_planner_events_room_booking_v1_en.png){ class="shadow lightbox" }
 
@@ -125,6 +127,10 @@ If required, the events displayed in the list can also be downloaded as an Excel
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)
+
+**Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
@@ -133,6 +139,7 @@ If required, the events displayed in the list can also be downloaded as an Excel
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)
+[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Module Rooms (Admin) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#events)

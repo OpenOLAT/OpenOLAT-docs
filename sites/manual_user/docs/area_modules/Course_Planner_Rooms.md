@@ -43,17 +43,33 @@ The segment "Room Scheduling" shows you all room bookings as an overview. Bookin
 
 Above the table you select the period of the display: "Today and upcoming", "Last 3 months" or "Custom" with a timerange of your own.
 
-Use the pre-defined tabs "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. A full-text search is also available. In addition to the table view there is a calendar view with the views "Month", "Week", "Day" and "Year". Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner. Each row can be expanded to show the details of the booking.
+Use the pre-defined tabs "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. A full-text search is also available. In addition to the table view there is a calendar view with the views "Month", "Week", "Day" and "Year". Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner; the event opens in a new browser tab. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
+
+![All room bookings with date, time, reference, building, event, number of participants and seats, warnings as an icon at the start of the row, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" }
+
+### Details of a booking {: #booking_details}
+
+Each row of the table can be expanded. The detail view shows the title and the reference of the event with its status badge, any warnings as a highlighted block, the subjects as well as date, time, number of participants, absences and compulsory presence. A location only appears if one is recorded for the event. Below it you find the teachers, the corresponding course as a course card and the booked rooms as room cards. If more than one room is booked, the room of the expanded row is shown under "Room", the others under "More rooms for this booking".
+
+![Key values, teacher and two room cards, the first under Room, the second under More rooms for this booking, in the expanded row of a booking](assets/course_planner_rooms_scheduling_details_v1_en.png){ class="shadow lightbox" }
+
+### Callout "Booking" in the calendar view {: #booking_callout}
+
+The callout exists only in the calendar view, not in the table. Use the first of the icons above the list on the right to switch there. A click on a coloured booking block then opens the callout "Booking"; a click on the day cell next to it does not. In this order it names the reference of the room with its description, the title of the event with its reference, the date and the time. Via "Open in Course Planner" you reach the event from there, as in the detail view above.
+
+The callout is available in every calendar view of the room management: in the calendar view of the room scheduling, in the calendar view of the room list and in the calendar of a single room row. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
+
+![The callout Booking with the reference of the room, event, date, time and the action Open in Course Planner, above a booking in the year view](assets/course_planner_rooms_scheduling_callout_v1_en.png){ class="shadow lightbox" }
+
+![The switch between table and calendar view with the views Month, Week, Day and Year, here the month view with the bookings in the calendar, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" }
+
+### Warnings {: #warnings}
 
 The column "Warnings" draws attention to conflicts:
 
 * **Double booking**: "The room "..." is double-booked during this period!"
 * **Not enough seats**: "There aren't enough seats!" if the number of participants exceeds the number of seats.
 * **Inactive room**: "The room "..." is inactive!"
-
-![All room bookings with date, time, reference, building, event, number of participants and seats, warnings as an icon at the start of the row, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" }
-
-![The switch between table and calendar view with the views Month, Week, Day and Year, here the month view with the bookings in the calendar, in the Room Scheduling segment of the room management](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -66,6 +82,8 @@ The segment "Rooms" shows you the rooms you have access to through your organisa
 Use the pre-defined tabs "All" and "Relevant" as well as the filter by status (active/inactive), building and room to narrow down the display. A full-text search is also available. In addition to the table view there is a calendar view.
 
 For each room you see, among other things, the building, the "Occupancy rate" (utilisation of the current month) and the "Next event". An icon opens the "Calendar" of the room with its occupancy, and "Details" opens a read-only preview of the room with location and map. Via the building link you jump directly to the building concerned.
+
+In the calendar of a single room row, too, a click on an entry opens the [callout "Booking"](#booking_callout).
 
 ![The accessible rooms with reference, description, status, seats, building, occupancy and next event, plus a calendar and a details icon per row, in the Rooms segment of the room management](assets/course_planner_rooms_list_v1_en.png){ class="shadow lightbox" }
 
