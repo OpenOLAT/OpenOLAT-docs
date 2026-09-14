@@ -85,7 +85,7 @@ Kennen Sie den Schlüssel nicht, ist es für Nicht-Experten etwas schwierig, die
 
 Je nach bereits bekannten Informationen können Sie eine der Suchfunktionen nutzen. In der Regel empfiehlt sich die Suche mit Suchbegriff im Bereich rechts unten:
 
-![language_adaption_tool_search1_v1_de.png](assets/language_adaption_tool_search1_v1_de.png) { class="aside-right"}
+![language_adaption_tool_search1_v1_de.png](assets/language_adaption_tool_search1_v1_de.png){ class="shadow lightbox aside-right" }
 
 **b)** Suchbegriff eingeben
 

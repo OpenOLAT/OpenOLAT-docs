@@ -83,7 +83,7 @@ If you do not know the key, it is somewhat difficult for non-experts to find the
 ![language_adaption_tool_language_v1_de.png](assets/language_adaption_tool_language_v1_de.png){ class="shadow lightbox"}
 
 Depending on the information you already know, you can use one of the search functions. As a rule, we recommend searching with the search term in the area at the bottom right:
-![language_adaption_tool_search1_v1_de.png](assets/language_adaption_tool_search1_v1_de.png) { class="aside-right"}
+![language_adaption_tool_search1_v1_de.png](assets/language_adaption_tool_search1_v1_de.png){ class="shadow lightbox aside-right" }
 
 **b)** Enter search term
 
