@@ -120,7 +120,7 @@ Ausserdem kann definiert werden, ob bzw. welche Taxonomie mit dem Media Center v
 
 ## Externe Seite {: #external_page}
 
-Insbesondere wegen der Möglichkeit, Daten an andere Websites zu übertragen, kann der Kursbausteins "Externe Seite" generell konfiguriert werden.
+Der Kursbaustein "Externe Seite" zeigt Inhalte einer fremden Domäne innerhalb Ihrer OpenOlat-Domäne an und kann dabei Daten an die externe Seite übertragen. frentix empfiehlt, Domänen nicht zu vermischen, und rät vom Einsatz ab.
 
 [Zu den Details >](Modules_External_Page.de.md)<br>
 [Zum Seitenanfang ^](#modules)
@@ -133,7 +133,7 @@ Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-P
 
 Ebenso kann bestimmt werden, welche Systemrollen den letzten Besuch der Benutzer:innen sehen dürfen.
 
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
+Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
 
 [Zum Seitenanfang ^](#modules)
 

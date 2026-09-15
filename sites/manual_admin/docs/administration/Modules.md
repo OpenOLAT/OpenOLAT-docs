@@ -118,7 +118,7 @@ You can also define whether or which taxonomy should be connected to the Media C
 
 ## External page {: #external_page}
 
-The "External Page" course element can be configured in general, particularly because of the ability to transfer data to other websites.
+The course element "External Page" displays content of a foreign domain inside your OpenOlat domain and can transfer data to the external page in the process. frentix recommends not to mix domains and advises against its use.
 
 [See the details >](Modules_External_Page.md)<br>
 [To the top of the page ^](#modules)
@@ -131,7 +131,7 @@ You can define which system roles are allowed to see the administrative user pro
 
 You can also determine which system roles are allowed to see the user's last visit.
 
-The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, email, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not.
+The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, email, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not. frentix recommends to leave the sharing switched off.
 
 [To the top of the page ^](#modules)
 

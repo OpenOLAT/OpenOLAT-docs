@@ -16,8 +16,6 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
 * [:o_icon_o_st_icon: Struktur](Course_Element_Structure.de.md)
 * [:o_icon_o_page_icon: Seite](Course_Element_Page.de.md)
-* [:o_icon_o_sp_icon: HTML-Seite](Course_Element_HTML_Page.de.md)
-* [:o_icon_o_tu_icon: Externe Seite](Course_Element_External_Page.de.md)
 * [:o_icon_o_cp_icon: CP-Lerninhalt](Course_Element_CP_Learning_Content.de.md)
 * [:o_icon_o_scorm_icon: SCORM 1.2](Course_Element_SCORM_Learning_Content.de.md)
 * [:o_icon_o_filetype_file: Dokument](Course_Element_Document.de.md)
@@ -111,6 +109,8 @@ Für organisatorische Belange und zur Verteilung von Informationen eignen sich b
 Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
 * [:o_icon_o_lti_icon: LTI-Seite](Course_Element_LTI_Page.de.md)
+* [:o_icon_o_sp_icon: HTML-Seite](Course_Element_HTML_Page.de.md)
+* [:o_icon_o_tu_icon: Externe Seite](Course_Element_External_Page.de.md)
 * [:o_icon_o_projectbroker_icon: Themenvergabe](Course_Element_Topic_Assignment.de.md)
 * [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
 * [:o_icon_o_icon_cns: Auswahl](Course_Element_Selection.de.md)

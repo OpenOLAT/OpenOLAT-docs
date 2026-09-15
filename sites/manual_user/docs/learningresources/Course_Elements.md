@@ -16,8 +16,6 @@ The following course elements serve in particular to provide and structure cours
 
 * [:o_icon_o_st_icon: Structure](Course_Element_Structure.md)
 * [:o_icon_o_page_icon: Page](Course_Element_Page.md)
-* [:o_icon_o_sp_icon: HTML-Page](Course_Element_HTML_Page.md)
-* [:o_icon_o_tu_icon: External Page](Course_Element_External_Page.md)
 * [:o_icon_o_cp_icon: CP Learning Content](Course_Element_CP_Learning_Content.md)
 * [:o_icon_o_scorm_icon: SCORM 1.2](Course_Element_SCORM_Learning_Content.md)
 * [:o_icon_o_filetype_file: Document](Course_Element_Document.md)
@@ -130,6 +128,8 @@ Additional building blocks can be found in the category "Other".
 <div class="grid cards" markdown>
 
 * [:o_icon_o_lti_icon: LTI Page](Course_Element_LTI_Page.md)
+* [:o_icon_o_sp_icon: HTML-Page](Course_Element_HTML_Page.md)
+* [:o_icon_o_tu_icon: External Page](Course_Element_External_Page.md)
 * [:o_icon_o_projectbroker_icon: Topic Assignment](Course_Element_Topic_Assignment.md)
 * [:octicons-link-24: Link list](Course_Element_Link_List.md)
 * [:o_icon_o_icon_cns: Selection](Course_Element_Selection.md)

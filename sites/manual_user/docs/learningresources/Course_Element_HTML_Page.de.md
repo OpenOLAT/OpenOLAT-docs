@@ -6,15 +6,23 @@ Name | HTML-Seite
 ---------|----------
 Icon | :o_icon_o_sp_icon:
 Verfügbar seit | Neuauflage mit Release 18
-Funktionsgruppe | Wissensvermittlung
+Funktionsgruppe | Andere
 Verwendungszweck | Darstellung verschiedener Inhalte (Texte, Bilder, Videos) innerhalb einer HTML-Seite
 Bewertbar | nein
-Spezialität / Hinweis | Für die Einbindung von Office-Dokumenten nutzen Sie bitte den Kursbaustein "Dokument".
+Spezialität / Hinweis | Für die Einbindung von Office-Dokumenten nutzen Sie bitte den Kursbaustein "Dokument". frentix empfiehlt den Einsatz nicht.
 
 Der Kursbaustein wird dazu verwendet, **Text, Bilder und Videos** zu präsentieren (Wissensvermittlung), wie man es von Websites her kennt.
 
 Im Kursbaustein "HTML-Seite" ist eine **HTML-Datei als Lernressource**  eingebunden.<br>
 Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninhalt aufgerufen wird. Die verwendeten Dateien werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses abgelegt. Auch die HTML-Datei selbst ist dort gespeichert.
+
+!!! warning "frentix empfiehlt, Domänen getrennt zu halten"
+
+    Im Kursbaustein "HTML-Seite" hinterlegen Sie beliebigen HTML- und
+    JavaScript-Code, auch Inhalte einer fremden Domäne. OpenOlat liefert diesen
+    Code unter Ihrer eigenen Domäne aus. Aus modernen Sicherheitsüberlegungen
+    empfiehlt frentix, verschiedene Domänen nicht zu vermischen, und rät deshalb
+    vom Einsatz dieses Kursbausteins ab.
 
 ## Beispiel {: #example}
 

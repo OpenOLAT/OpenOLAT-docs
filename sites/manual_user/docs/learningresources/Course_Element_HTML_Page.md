@@ -6,15 +6,23 @@ Name | HTML-Page
 ---------|----------
 Icon | :o_icon_o_sp_icon:
 Available since | New edition with release 18
-Functional group | Knowledge transfer
+Functional group | Other
 Purpose | Presentation of different content elements (text, images, videos) within an HTML page
 Assessable | no
-Specialty / Note | To integrate Office documents, please use the "Document" course element.
+Specialty / Note | To integrate Office documents, please use the "Document" course element. frentix does not recommend its use.
 
 The course element is used to display **texts, images and videos** (Knowledge Transfer) as shown on websites.
 
 In the course element "HTML page", an **HTML file** is embedded as a **learning resource**.<br>
 You can design an HTML page in the **HTML editor**, which you can find in the tab "page content". The used files, as well as the HTML file itself, are put in the [Storage folder](../learningresources/Storage_folder.md) of the course. 
+
+!!! warning "frentix recommends keeping domains separate"
+
+    In the course element "HTML page" you store any HTML and JavaScript code,
+    including content of a foreign domain. OpenOlat delivers this code under your
+    own domain. Based on modern security considerations, frentix recommends not
+    to mix different domains and therefore advises against the use of this course
+    element.
 
 ## Example {: #example}
 
