@@ -44,7 +44,7 @@ Die Liste zeigt Ihre Durchführungen. Die Spalte "Produkt" nennt zu jeder Durchf
 
 Als Betreuer:in oder Kursbesitzer:in begegnet Ihnen dieselbe Liste an einer zweiten Stelle: unter `Coaching > Personen > "Person" > Bildungsprodukte` sehen Sie die Durchführungen einer einzelnen Person. Diese Liste arbeitet mit derselben Filterlogik. Der Tab "Favoriten" fehlt dort, weil Sie eine Durchführung nur in Ihrer eigenen Liste markieren können.
 
-Dieselbe Liste erscheint ausserdem für andere Rollen, unter `Kurse > Bildungsprodukte` für Teilnehmende und unter `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen und Administrator:innen. Die Liste arbeitet dort gleich, Filter und Spalten sind je Bereich anders gesetzt.
+Dieselbe Liste erscheint ausserdem für andere Rollen, unter `Kurse > Bildungsprodukte` für Teilnehmende und unter `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen, Rollenverwalter:innen, Administrator:innen und Principals. Die Liste arbeitet dort gleich, Filter und Spalten sind je Bereich anders gesetzt.
 
 ### Die Liste filtern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #filter}
 

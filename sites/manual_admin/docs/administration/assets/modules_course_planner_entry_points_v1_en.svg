@@ -30,9 +30,10 @@
     <text x="48" y="372">Coaching &gt; People &gt; Person</text>
     <text x="48" y="393" font-size="15" fill="#A6A6A6">as line manager or education manager</text>
 
-    <rect x="30" y="416" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <rect x="30" y="416" width="330" height="76" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
     <text x="48" y="442">User management &gt; Person</text>
-    <text x="48" y="463" font-size="15" fill="#A6A6A6">User manager, administrator</text>
+    <text x="48" y="463" font-size="15" fill="#A6A6A6">User manager, roles manager,</text>
+    <text x="48" y="482" font-size="15" fill="#A6A6A6">administrator, principal</text>
   </g>
 
   <!-- Arrows to the shared list -->

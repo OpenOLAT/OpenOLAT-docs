@@ -19,7 +19,7 @@ Two switches in this tab determine where products and implementations appear: Pr
 * `Coaching > Educational products` for coaches and course owners
 * `Coaching > People > "Person" > Educational products` as a coach or a course owner
 * the same path `Coaching > People > "Person" > Educational products` as a line manager or an education manager
-* `User management > "Person" > Educational products` for user managers and administrators
+* `User management > "Person" > Educational products` for user managers, roles managers, administrators and principals
 
 The switch Product in "My courses" turns the entry point under `Courses > Educational products` on or off. The User overview determines what line managers and education managers see under `Coaching > People > "Person"`.
 

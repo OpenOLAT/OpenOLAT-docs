@@ -19,7 +19,7 @@ Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheine
 * `Coaching > Bildungsprodukte` für Betreuer:innen und Kursbesitzer:innen
 * `Coaching > Personen > "Person" > Bildungsprodukte` als Betreuer:in oder Kursbesitzer:in
 * derselbe Weg `Coaching > Personen > "Person" > Bildungsprodukte` als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r
-* `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen und Administrator:innen
+* `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen, Rollenverwalter:innen, Administrator:innen und Principals
 
 Der Schalter «Produkt in "Meine Kurse"» schaltet den Einstieg unter `Kurse > Bildungsprodukte` ein oder aus. Die «Benutzer:innen-Übersicht» bestimmt, was Linienvorgesetzte und Ausbildungsverantwortliche unter `Coaching > Personen > "Person"` sehen.
 

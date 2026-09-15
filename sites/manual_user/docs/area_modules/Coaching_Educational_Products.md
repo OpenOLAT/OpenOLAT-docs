@@ -44,7 +44,7 @@ The list shows your implementations. The "Product" column names the educational 
 
 As a coach or a course owner, you meet the same list in a second place: under `Coaching > People > "Person" > Educational products` you see the implementations of a single person. This list works with the same filter logic. The tab "Favourites" is missing there, because you can only mark an implementation in your own list.
 
-The same list also appears for other roles, under `Courses > Educational products` for participants and under `User management > "Person" > Educational products` for user managers and administrators. The list works in the same way there, the filters and the columns are set differently per area.
+The same list also appears for other roles, under `Courses > Educational products` for participants and under `User management > "Person" > Educational products` for user managers, roles managers, administrators and principals. The list works in the same way there, the filters and the columns are set differently per area.
 
 
 ### Filtering the list [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #filter}
