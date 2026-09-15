@@ -1,5 +1,8 @@
 # Self-registration  {: #self-registration}
 
+Administrators configure the self-registration and its process steps in the system administration under:<br>
+`Administration > Login > Self-registration`
+
 ## Tab Configuration {: #tab_configuration}
 
 ![Configuration tab of self-registration with the sections Configuration, Self registration, Restriction to domain and Validity period of login data](assets/login_self_registration_tab1_v1_de.png){ class="shadow lightbox" }
