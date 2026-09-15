@@ -42,7 +42,7 @@ The list shows your implementations. The "Product" column names the educational 
 
 ![Five filter tabs above the list, one implementation per row with reference, product, begin and end, in the Educational products of the Coaching Tool.](assets/coaching_educational_products2_v1_en.png){ class="shadow lightbox" }
 
-As a coach or a course owner, you meet the same list in a second place: under `Coaching > People > "Person" > Educational products` you see the implementations of a single person. It works with the same filter logic, but offers fewer filters and columns.
+As a coach or a course owner, you meet the same list in a second place: under `Coaching > People > "Person" > Educational products` you see the implementations of a single person. This list works with the same filter logic. The tab "Favourites" is missing there, because you can only mark an implementation in your own list.
 
 The same list also appears for other roles, under `Courses > Educational products` for participants and under `User management > "Person" > Educational products` for user managers and administrators. The list works in the same way there, the filters and the columns are set differently per area.
 
@@ -62,7 +62,7 @@ Each tab shows the implementations in a certain status:
 
 ![Assignment of the five filter tabs to the six statuses of an implementation, the tab Finished also covers cancelled implementations.](assets/coaching_educational_products_filter_status_v1_en.svg){ class="shadow lightbox" }
 
-With the "Filter" menu you additionally narrow the list by product, status and execution period. The search field above the list searches the title and the reference. How you combine filters and save your own filters is shown in [Working with tables](../basic_concepts/Table_Concept.md).
+With the "Filter" menu you additionally narrow the list by product, status and execution period. The search field above the list searches the title and the reference of the implementation as well as the title and the reference of the product. How you combine filters and save your own filters is shown in [Working with tables](../basic_concepts/Table_Concept.md).
 
 ### The columns of the list [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #columns}
 
@@ -79,7 +79,7 @@ Which columns the list shows, you determine with the gear icon to the right abov
 * **Status**<br>The status of the implementation, that is "Preparation", "Provisional", "Confirmed", "Active", "Cancelled" or "Finished". This column is hidden at the start.
 * **Timetable**<br>The access to the events of the implementation.
 
-In the other areas the choice of columns differs. The user management additionally shows the column "Roles", "My courses" and the person view in the Coaching Tool show the learning progress.
+In the other areas the choice of columns differs. The user management additionally shows the column "Roles". The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Learning progress".
 
 [To the top of the page ^](#educational_products)
 

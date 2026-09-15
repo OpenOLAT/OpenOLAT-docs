@@ -48,7 +48,7 @@ Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. 
 
 Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
-* Administrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) aktiviert: `Administration > Module > Course Planner`.
+* Administrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert: `Administration > Module > Course Planner`.
 * In diesem Modul ist die Einstellung [Produkt in "Meine Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses) eingeschaltet.
 * Sie sind in mindestens einer Durchführung eingetragen.
 

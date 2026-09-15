@@ -17,13 +17,13 @@ Two switches in this tab determine where products and implementations appear: Pr
 
 * `Courses > Educational products` for participants
 * `Coaching > Educational products` for coaches and course owners
-* `Coaching > People > "Person" > Educational products` for coaches and course owners
-* `Coaching > People > "Person" > Educational products` for line managers and education managers
+* `Coaching > People > "Person" > Educational products` as a coach or a course owner
+* the same path `Coaching > People > "Person" > Educational products` as a line manager or an education manager
 * `User management > "Person" > Educational products` for user managers and administrators
 
-The switch Product in "My courses" turns the first entry point on or off. The User overview determines what course planners, education managers and line managers see in the fourth entry point.
+The switch Product in "My courses" turns the entry point under `Courses > Educational products` on or off. The User overview determines what line managers and education managers see under `Coaching > People > "Person"`.
 
-![Five entry points lead to the same list of implementations, from there a click on the title opens the structure with the contained courses.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" }
+![Five entry points lead to the same list of implementations, a click on the title opens their structure.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" }
 
 #### Turn on Course Planner {: #enable_course_planner }
 

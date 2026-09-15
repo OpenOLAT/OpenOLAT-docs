@@ -42,10 +42,9 @@ Die Liste zeigt Ihre Durchführungen. Die Spalte "Produkt" nennt zu jeder Durchf
 
 ![Fünf Filter-Tabs über der Liste, je Zeile eine Durchführung mit Kennzeichen, Produkt, Beginn und Ende, in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
 
-Als Betreuer:in oder Kursbesitzer:in begegnet Ihnen dieselbe Liste an einer zweiten Stelle: unter `Coaching > Personen > "Person" > Bildungsprodukte` sehen Sie die Durchführungen einer einzelnen Person. Sie arbeitet mit derselben Filterlogik, bietet aber weniger Filter und Spalten.
+Als Betreuer:in oder Kursbesitzer:in begegnet Ihnen dieselbe Liste an einer zweiten Stelle: unter `Coaching > Personen > "Person" > Bildungsprodukte` sehen Sie die Durchführungen einer einzelnen Person. Diese Liste arbeitet mit derselben Filterlogik. Der Tab "Favoriten" fehlt dort, weil Sie eine Durchführung nur in Ihrer eigenen Liste markieren können.
 
 Dieselbe Liste erscheint ausserdem für andere Rollen, unter `Kurse > Bildungsprodukte` für Teilnehmende und unter `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen und Administrator:innen. Die Liste arbeitet dort gleich, Filter und Spalten sind je Bereich anders gesetzt.
-
 
 ### Die Liste filtern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #filter}
 
@@ -62,7 +61,7 @@ Jeder Tab zeigt die Durchführungen in einem bestimmten Status:
 
 ![Zuordnung der fünf Filter-Tabs zu den sechs Status einer Durchführung, der Tab Beendet umfasst auch abgebrochene Durchführungen.](assets/coaching_educational_products_filter_status_v1_de.svg){ class="shadow lightbox" }
 
-Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchführungszeitraum ein. Das Suchfeld über der Liste durchsucht Titel und Kennzeichen. Wie Sie Filter kombinieren und eigene Filter speichern, zeigt [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchführungszeitraum ein. Das Suchfeld über der Liste durchsucht Titel und Kennzeichen der Durchführung sowie Titel und Kennzeichen des Produkts. Wie Sie Filter kombinieren und eigene Filter speichern, zeigt [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
 ### Die Spalten der Liste [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #columns}
 
@@ -79,7 +78,7 @@ Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts übe
 * **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Aktiv", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
 * **Stundenplan**<br>Der Zugang zu den Terminen der Durchführung.
 
-In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalte "Rollen", "Meine Kurse" und die Personenansicht im Coaching Tool zeigen den Lernfortschritt.
+In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalte "Rollen". Die Bildungsprodukte unter "Kurse" und die Personenansicht im Coaching Tool zeigen zusätzlich die Spalte "Lernfortschritt".
 
 [Zum Seitenanfang ^](#educational_products)
 

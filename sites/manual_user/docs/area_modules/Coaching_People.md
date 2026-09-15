@@ -185,7 +185,7 @@ If you, as a line manager or education manager, want certain rights, you can hav
 
 ### The educational products of a person [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
 
-Open a person and switch to "Educational products". The list shows the implementations of this person. It follows the same logic as the list under [Coaching > Educational products](../area_modules/Coaching_Educational_Products.md#filter), but offers fewer filters and columns:
+Open a person and switch to "Educational products". The list shows the implementations of this person. It follows the same logic as the list under [Coaching - Educational products](../area_modules/Coaching_Educational_Products.md#filter), but offers fewer filters and columns:
 
 * The filter tabs available are "All", "Relevant" and "Finished". "Relevant" is preselected.
 * The tabs "Favourites" and "Preparation" do not exist here. Only coaches and course owners see implementations in preparation.

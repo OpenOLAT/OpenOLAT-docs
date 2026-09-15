@@ -185,7 +185,7 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 
 ### Die Bildungsprodukte einer Person [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
 
-Öffnen Sie eine Person und wechseln Sie zu "Bildungsprodukte". Die Liste zeigt die Durchführungen dieser Person. Sie folgt derselben Logik wie die Liste unter [Coaching > Bildungsprodukte](../area_modules/Coaching_Educational_Products.de.md#filter), bietet aber weniger Filter und Spalten:
+Öffnen Sie eine Person und wechseln Sie zu "Bildungsprodukte". Die Liste zeigt die Durchführungen dieser Person. Sie folgt derselben Logik wie die Liste unter [Coaching - Bildungsprodukte](../area_modules/Coaching_Educational_Products.de.md#filter), bietet aber weniger Filter und Spalten:
 
 * Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung. "Relevant" ist vorausgewählt.
 * Die Tabs "Favoriten" und "Vorbereitung" gibt es hier nicht. Durchführungen in Vorbereitung sehen nur Betreuer:innen und Kursbesitzer:innen.

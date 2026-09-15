@@ -48,7 +48,7 @@ Once you have found the course, you can also mark it as a favorite. To do this, 
 
 The "Educational products" area appears when three conditions are met:
 
-* Administrators have activated the [Course Planner](../area_modules/Course_Planner.md): `Administration > Modules > Course Planner`.
+* Administrators have activated the [Course Planner](../area_modules/Course_Planner.md) in the system administration: `Administration > Modules > Course Planner`.
 * In this module, the setting [Product in "My courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses) is switched on.
 * You are entered in at least one implementation.
 

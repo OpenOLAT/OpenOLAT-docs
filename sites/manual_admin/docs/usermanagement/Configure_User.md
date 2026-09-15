@@ -208,11 +208,9 @@ Areas of competence can be added to the user here. They are categorized accordin
 
 Here you will find the implementations of the user. The list shows all implementations of the person, regardless of the role they hold in them [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-The list follows the same filter logic as in the Coaching Tool, but differs in two columns: the column "Roles" states for each implementation in which role the person takes part, while the column "Progress" is missing. A click on the title of an implementation opens its structure with the contained courses.
+The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the list shows the additional column "Roles", which states for each implementation in which role the person takes part. In return, the column "Status" and the tabs "Favourites" and "Preparation" are missing. A click on the title of an implementation opens its structure with the contained courses.
 
-!!! note "Filters and columns of this list"
-    Which filter tabs the list offers and what they show is described in the user manual.<br>
-    [The educational products of a person](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_products)
+What the individual tabs show is described in the section [Filtering the list](../../manual_user/area_modules/Coaching_Educational_Products.md#filter) in the user manual.
 
 [To the top of the page ^](#user_configuration)
 
