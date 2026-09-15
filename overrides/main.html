@@ -27,6 +27,9 @@
   rule only matches while that class is set. They stay so that switching back
   needs no second edit.
 
+  docs-feedback.js: the page rating at the foot of every manual page (not on
+  the start page). Same /sophia/ proxy. Requires fxKnowledge >= 5.0.0.
+
   The /sophia/* paths are relative on purpose: the web server in front of this
   site reverse-proxies  location /sophia/ -> the fxKnowledge host  (prefix is
   stripped), so widget and API are same-origin. No host to configure here.
@@ -41,6 +44,9 @@
         data-persist="on"
         data-dock-toggle="on"
         data-size="560x780"
+        data-api-base="/sophia/"></script>
+
+<script src="/sophia/public/docs-feedback.js" defer
         data-api-base="/sophia/"></script>
 
 {# --- previous embedding: the docked sidebar. Swap the two blocks to revert.
