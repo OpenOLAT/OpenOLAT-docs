@@ -183,6 +183,15 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 
 ![Rechte der Rolle Linienvorgesetzte:r als Checkbox-Liste, von Kurse und Produkte anzeigen bis Administrative Eigenschaften anzeigen, im Tab Linienvorgesetzte:r einer Organisationseinheit.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
 
+### Die Bildungsprodukte einer Person [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
+
+Öffnen Sie eine Person und wechseln Sie zu "Bildungsprodukte". Die Liste zeigt die Durchführungen dieser Person. Sie folgt derselben Logik wie die Liste unter [Coaching > Bildungsprodukte](../area_modules/Coaching_Educational_Products.de.md#filter), bietet aber weniger Filter und Spalten:
+
+* Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung. "Relevant" ist vorausgewählt.
+* Die Tabs "Favoriten" und "Vorbereitung" gibt es hier nicht. Durchführungen in Vorbereitung sehen nur Betreuer:innen und Kursbesitzer:innen.
+* Eine Spalte "Status" gibt es nicht. Abgebrochene Durchführungen erscheinen im Tab "Beendet", lassen sich dort aber nicht einzeln herausfiltern.
+* Die Spalten "Fortschritt" und "Stundenplan" erscheinen nur, wenn Administrator:innen Ihrer Rolle die entsprechenden Rechte erteilt haben.
+
 [Zum Seitenanfang ^](#people)
 
 ---
@@ -195,11 +204,11 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
-[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
+[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>

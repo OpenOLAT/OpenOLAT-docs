@@ -40,9 +40,46 @@ Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abs
 
 Die Liste zeigt Ihre Durchführungen. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört. Wählen Sie im ersten Schritt eine Durchführung aus.
 
-![Je Zeile eine Durchführung mit Kennzeichen, zugehörigem Produkt, Beginn, Ende und Status, in der Liste Bildungsprodukte des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
+![Fünf Filter-Tabs über der Liste, je Zeile eine Durchführung mit Kennzeichen, Produkt, Beginn und Ende, in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
 
-Die Filter-Tabs "Favoriten", "Alle", "Relevant", "In Vorbereitung" und "Beendet" schränken die Liste ein. Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+Als Betreuer:in oder Kursbesitzer:in begegnet Ihnen dieselbe Liste an einer zweiten Stelle: unter `Coaching > Personen > "Person" > Bildungsprodukte` sehen Sie die Durchführungen einer einzelnen Person. Sie arbeitet mit derselben Filterlogik, bietet aber weniger Filter und Spalten.
+
+Dieselbe Liste erscheint ausserdem für andere Rollen, unter `Kurse > Bildungsprodukte` für Teilnehmende und unter `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen und Administrator:innen. Die Liste arbeitet dort gleich, Filter und Spalten sind je Bereich anders gesetzt.
+
+
+### Die Liste filtern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #filter}
+
+Sie finden die Filter-Tabs über der Liste unter:<br>
+`Coaching > Bildungsprodukte`
+
+Jeder Tab zeigt die Durchführungen in einem bestimmten Status:
+
+* **Favoriten**<br>Nur die Durchführungen, die Sie selbst mit der Flagge markiert haben, unabhängig vom Status. Sobald mindestens eine Markierung besteht, ist dieser Tab beim Öffnen vorausgewählt.
+* **Alle**<br>Alle Durchführungen ohne Einschränkung, auch die beendeten und die abgebrochenen. Nützlich, wenn Sie eine Durchführung suchen und ihren Status nicht kennen.
+* **Relevant**<br>Die Durchführungen mit dem Status "Provisorisch", "Bestätigt" oder "Aktiv". Das ist alles, was läuft oder verbindlich geplant ist, und damit die Ansicht für den Alltag. Haben Sie keine Favoriten markiert, ist dieser Tab vorausgewählt.
+* **Vorbereitung**<br>Durchführungen, die noch nicht freigegeben sind. Diesen Tab sehen nur Betreuer:innen und Kursbesitzer:innen. Teilnehmende sehen Durchführungen in Vorbereitung nicht.
+* **Beendet**<br>Die Durchführungen mit dem Status "Beendet" und die mit dem Status "Abgebrochen", gemeinsam in einem Tab. Eine abgebrochene Durchführung verschwindet also nicht, sie wandert hierher.
+
+![Zuordnung der fünf Filter-Tabs zu den sechs Status einer Durchführung, der Tab Beendet umfasst auch abgebrochene Durchführungen.](assets/coaching_educational_products_filter_status_v1_de.svg){ class="shadow lightbox" }
+
+Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchführungszeitraum ein. Das Suchfeld über der Liste durchsucht Titel und Kennzeichen. Wie Sie Filter kombinieren und eigene Filter speichern, zeigt [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+
+### Die Spalten der Liste [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #columns}
+
+Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts über der Liste. Ihre Auswahl bleibt für Ihr Konto gespeichert.
+
+![Nur die Spalten ID und Status sind nicht angekreuzt, im geöffneten Dialog Spalten auswählen in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products_columns_v1_de.png){ class="shadow lightbox" }
+
+* **Favorit**<br>Die Flagge, mit der Sie eine Durchführung markieren. Markierte Durchführungen erreichen Sie über den Tab "Favoriten".
+* **ID**<br>Die Nummer, unter der OpenOlat die Durchführung führt. Nützlich für Rückfragen an den Support. Diese Spalte ist zu Beginn ausgeblendet.
+* **Titel**<br>Der Name der Durchführung. Ein Klick darauf öffnet ihre Struktur.
+* **Kennzeichen**<br>Die Referenz aus Ihrer eigenen Systematik, zum Beispiel eine Kursnummer. Kursplaner:innen vergeben sie beim Anlegen der Durchführung.
+* **Produkt**<br>Das Bildungsprodukt, zu dem die Durchführung gehört, mit seinem Kennzeichen.
+* **Beginn** und **Ende**<br>Der geplante Zeitraum der Durchführung.
+* **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Aktiv", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
+* **Stundenplan**<br>Der Zugang zu den Terminen der Durchführung.
+
+In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalte "Rollen", "Meine Kurse" und die Personenansicht im Coaching Tool zeigen den Lernfortschritt.
 
 [Zum Seitenanfang ^](#educational_products)
 
@@ -52,11 +89,29 @@ Die Filter-Tabs "Favoriten", "Alle", "Relevant", "In Vorbereitung" und "Beendet"
 
 Durch Klick auf einen Namen öffnen Sie die Baumstruktur dieser Durchführung.
 
-![Button Mehr erfahren im Kopfbereich, darunter die Baumstruktur mit Elementen und Kursen, je Kurs die Links Infoseite und starten, in der geöffneten Durchführung Office-Tools.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
+![Baumstruktur der enthaltenen Kurse mit den Spalten Infoseite und Öffnen, darüber der Button Mehr erfahren, in einer geöffneten Durchführung.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
 
 Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren. Der Link "Öffnen" startet den Kurs, der Link "Infoseite" zeigt die [Infoseite des Kurses](../learningresources/Info_page.de.md).
 
 Mit dem **Button "Mehr erfahren"** gelangen Sie zur Infoseite der Durchführung. Sie zeigt die Beschreibung, die enthaltenen Kurse und die Termine.
+
+### Die Struktur filtern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #structure_filter}
+
+Öffnen Sie eine Durchführung mit einem Klick auf ihren Titel:<br>
+`Coaching > Bildungsprodukte > "Titel der Durchführung"`
+
+Die Struktur zeigt die Gliederung der Durchführung, zum Beispiel Semester und Module. Hängt an einer Zeile ein Kurs, nennt ihn die Spalte "Titel der Lernressource". Auch hier stehen Filter-Tabs über der Liste: "Alle", "Aktiv", "In Vorbereitung" und "Beendet".
+
+Zwei der Tabs heissen fast gleich, beantworten aber verschiedene Fragen:
+
+* **"Vorbereitung" in der Liste der Durchführungen**<br>Was kommt auf mich zu? Sie sehen die Durchführungen, die noch nicht laufen, und können sie vorbereiten, bevor Teilnehmende dazukommen.
+* **"In Vorbereitung" in der Struktur**<br>Ist diese Durchführung startbereit? Sie sehen, welche Teile noch nicht freigegeben sind. Was hier erscheint, sehen Teilnehmende noch nicht.
+
+![Zwei Filterleisten untereinander, je mit Menüpfad: oben die Tabs der Durchführungsliste mit Vorbereitung, unten die Tabs der Struktur mit In Vorbereitung.](assets/coaching_educational_products_filter_levels_v1_de.png){ class="shadow lightbox" }
+
+Das Bild zeigt nur die beiden Filterleisten. Die vollständigen Ansichten finden Sie weiter oben: die Durchführungsliste im Abschnitt [Was zeigt die Liste?](#list), die geöffnete Durchführung im Abschnitt [Die Struktur einer Durchführung](#structure).
+
+Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile steht: Bei einer Zeile mit Kurs zählt der Status, den die Kursbesitzer:innen im Kurs setzen. Bei einer Zeile ohne Kurs zählt der Status des Gliederungselements aus dem Course Planner. Ein Modul kann deshalb im Tab "Aktiv" stehen, während der Kurs darin noch im Tab "In Vorbereitung" erscheint.
 
 [Zum Seitenanfang ^](#educational_products)
 

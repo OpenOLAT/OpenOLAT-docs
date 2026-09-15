@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 655" width="1020" height="655" role="img" aria-label="Zuordnung der Vorauswahl-Filter zu den Status einer Durchfuehrung">
+  <rect x="0" y="0" width="1020" height="655" fill="#F3F4EF"/>
+
+  <text x="30" y="46" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#135E5F">Welcher Filter zeigt welchen Status</text>
+  <text x="30" y="76" font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">Die Vorauswahl-Filter über der Liste setzen einen Statusfilter. Eine abgebrochene Durchführung</text>
+  <text x="30" y="100" font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">verschwindet nicht, sie erscheint im Filter "Beendet".</text>
+
+  <!-- Spaltenkoepfe -->
+  <g font-family="'Roboto', sans-serif" font-size="17" font-weight="700">
+    <rect x="330" y="132" width="126" height="44" rx="6" fill="#F2AF40"/>
+    <text x="393" y="160" fill="#2D2926" text-anchor="middle">Favoriten</text>
+
+    <rect x="462" y="132" width="126" height="44" rx="6" fill="#A6A6A6"/>
+    <text x="525" y="160" fill="#FFFFFF" text-anchor="middle">Alle</text>
+
+    <rect x="594" y="132" width="126" height="44" rx="6" fill="#209D9E"/>
+    <text x="657" y="160" fill="#FFFFFF" text-anchor="middle">Relevant</text>
+
+    <rect x="726" y="132" width="126" height="44" rx="6" fill="#135E5F"/>
+    <text x="789" y="160" fill="#FFFFFF" text-anchor="middle">Vorbereitung</text>
+
+    <rect x="858" y="132" width="126" height="44" rx="6" fill="#8F1F40"/>
+    <text x="921" y="160" fill="#FFFFFF" text-anchor="middle">Beendet</text>
+  </g>
+
+  <text x="30" y="160" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">Status der Durchführung</text>
+
+  <!-- Zeilen: Status -->
+  <g font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">
+    <rect x="30" y="188" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="217">Vorbereitung</text>
+    <rect x="462" y="196" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="726" y="196" width="126" height="30" rx="5" fill="#135E5F"/>
+
+    <rect x="30" y="242" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="271">Provisorisch</text>
+    <rect x="462" y="250" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="250" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="296" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="325">Bestätigt</text>
+    <rect x="462" y="304" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="304" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="350" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="379">Aktiv</text>
+    <rect x="462" y="358" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="358" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="404" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="433">Abgebrochen</text>
+    <rect x="462" y="412" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="858" y="412" width="126" height="30" rx="5" fill="#8F1F40"/>
+
+    <rect x="30" y="458" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="487">Beendet</text>
+    <rect x="462" y="466" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="858" y="466" width="126" height="30" rx="5" fill="#8F1F40"/>
+  </g>
+
+  <!-- Favoriten-Spalte als quer liegender Fall -->
+  <rect x="330" y="188" width="126" height="316" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="393" y="330" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">jeder Status,</text>
+  <text x="393" y="352" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">nur markierte</text>
+
+  <!-- Hinweise -->
+  <text x="30" y="546" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">Nicht jeder Bereich hat jeden Filter</text>
+  <g font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">
+    <text x="30" y="576">"Favoriten" gibt es nur in Kurse und in Coaching &gt; Bildungsprodukte.</text>
+    <text x="30" y="602">"Vorbereitung" gibt es nur dort, wo Betreuer:innen und Kursbesitzer:innen arbeiten.</text>
+    <text x="30" y="628">"Alle" setzt keinen Statusfilter. Sichtbar bleibt trotzdem nur, was die eigene Rolle sehen darf.</text>
+  </g>
+  <text x="990" y="641" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6" text-anchor="end">OpenOlat ∞</text>
+</svg>

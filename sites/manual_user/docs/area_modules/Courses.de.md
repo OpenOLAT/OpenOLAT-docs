@@ -46,11 +46,17 @@ Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. 
 
 ## Bildungsprodukte
 
-Der Bereich "Bildungsprodukte" wird angezeigt, wenn der [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert ist: `Administration > Module > Course Planner`.
+Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
-Unter Bildungsprodukte werden dann den Benutzer:innen die Kurse und Lernressourcen angezeigt, die zu ihren Bildungsgängen (Durchführungen) gehören. Hat sich eine Benutzer:in z.B. in einen Bildungsgang eingeschrieben, der mit dem Course Planner organisiert wird, erscheinen hier alle Kurse, die diesem Bildungsgang zugeordnet sind. Ist die Benutzer:in in mehreren Durchführungen eingeschrieben, sieht sie unter Bildungsprodukte alle zugehörigen Kurse.
+* Administrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) aktiviert: `Administration > Module > Course Planner`.
+* In diesem Modul ist die Einstellung [Produkt in "Meine Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses) eingeschaltet.
+* Sie sind in mindestens einer Durchführung eingetragen.
 
-Ferner können hier auch nur die Favoriten, die aktiven oder die beendeten Kurse der Durchführungen angezeigt werden, oder es kann gezielt nach Kursen gesucht werden. Unter Bildungsprodukte gelangen Lernende also schnell und fokussiert zu den für ihren Bildungsgang/ihr Modul/ihre Durchführung relevanten Kursen und Lernressourcen.
+Die Liste zeigt Ihre Durchführungen, nicht einzelne Kurse. Ein Klick auf den Titel einer Durchführung öffnet deren Struktur, und erst dort sehen Sie die Kurse und Lernressourcen, die zu ihr gehören. Sind Sie in mehreren Durchführungen eingetragen, stehen sie alle in dieser Liste. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört, die Spalte "Fortschritt" Ihren Lernfortschritt darin. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}
+
+Die Filter-Tabs "Favoriten", "Alle", "Relevant" und "Beendet" schränken die Liste ein, das Suchfeld darüber durchsucht Titel und Kennzeichen. Was die einzelnen Tabs zeigen und welche Spalten zur Verfügung stehen, beschreibt der Abschnitt [Die Liste filtern](../area_modules/Coaching_Educational_Products.de.md#filter). Er gilt für alle Bereiche, die Bildungsprodukte auflisten.
+
+Einen Filter-Tab "Vorbereitung" gibt es hier nicht. Lernressourcen, die noch nicht veröffentlicht sind, finden Sie stattdessen im Bereich "In Vorbereitung".
 
 ## In Vorbereitung
 
@@ -67,7 +73,9 @@ Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorberei
 
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
-[Course Planner >](../area_modules/Course_Planner.de.md)
+[Course Planner >](../area_modules/Course_Planner.de.md)<br>
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)

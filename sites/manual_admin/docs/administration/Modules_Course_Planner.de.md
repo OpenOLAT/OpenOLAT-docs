@@ -11,7 +11,19 @@ Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOla
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Schalter zum Einschalten des Course Planners, Produkt in «Meine Kurse» und Optionsbaum «Benutzer:innen-Übersicht», im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" }
+![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und Optionsbaum Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" }
+
+Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheinen: «Produkt in "Meine Kurse"» und die «Benutzer:innen-Übersicht». Fünf Einstiege öffnen dieselbe Liste:
+
+* `Kurse > Bildungsprodukte` für Teilnehmer:innen
+* `Coaching > Bildungsprodukte` für Betreuer:innen und Kursbesitzer:innen
+* `Coaching > Personen > "Person" > Bildungsprodukte` für Betreuer:innen und Kursbesitzer:innen
+* `Coaching > Personen > "Person" > Bildungsprodukte` für Linienvorgesetzte und Ausbildungsverantwortliche
+* `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen und Administrator:innen
+
+Der Schalter «Produkt in "Meine Kurse"» schaltet den ersten Einstieg ein oder aus. Die «Benutzer:innen-Übersicht» bestimmt, was Kursplaner:innen, Ausbildungsverantwortliche und Linienvorgesetzte im vierten Einstieg sehen.
+
+![Fünf Einstiege führen auf dieselbe Liste der Durchführungen, von dort öffnet ein Klick auf den Titel die Struktur mit den enthaltenen Kursen.](assets/modules_course_planner_entry_points_v1_de.svg){ class="shadow lightbox" }
 
 #### Course Planner einschalten {: #enable_course_planner }
 

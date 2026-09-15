@@ -204,11 +204,13 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Hier finden Sie dieselbe hierarchische Übersicht über die Bildungsprodukte, Durchführungen und Kurse des/der Benutzer:in wie im Coaching-Tool aus Sicht Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r.
+Hier finden Sie die Durchführungen des/der Benutzer:in. Die Liste zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-!!! note "Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche"
-    Details zu Filtern, Status und Darstellung dieser Ansicht.<br>
-    [Kontrollaufgaben als Linienvorgesetzte / Ausbildungsverantwortliche](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_observe)
+Die Liste folgt derselben Filterlogik wie im Coaching Tool, unterscheidet sich aber in zwei Spalten: die Spalte "Rollen" weist je Durchführung aus, in welcher Rolle die Person beteiligt ist, dafür fehlt die Spalte "Fortschritt". Ein Klick auf den Titel einer Durchführung öffnet deren Struktur mit den enthaltenen Kursen.
+
+!!! note "Filter und Spalten dieser Liste"
+    Welche Filter-Tabs die Liste bietet und was sie zeigen, beschreibt das Benutzerhandbuch.<br>
+    [Die Bildungsprodukte einer Person](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_products)
 
 [zum Seitenanfang ^](#user_configuration)
 
