@@ -233,6 +233,31 @@ Siehe [Schritt 4: Konfiguration (für Kursbesitzer:innen) >](../../manual_how-to
 
 ---
 
+### (verschiedene Rollen) Kurs als Prüfung markieren {: #mark_course_as_assessment}
+
+Einen Termin als Prüfung markieren können
+
+- Kursbesitzer:innen
+- Betreuer:innen / Dozierende (im Kurs eingetragen bzw. als Dozent:in an Terminen hinterlegt)
+- Master-Coaches
+- Kursverantwortliche 
+- weitere Personen mit dem Recht zum Editieren des Kurses
+
+Die Funktion wird angezeigt über das Toolbar-Icon „Termine" → 3-Punkte-Menü → „Als Prüfung markieren".
+
+Voraussetzungen, damit sie angezeigt wird, sind:
+
+- Der Prüfungsmodus muss systemweit aktiviert sein. (Administration > e-Assessment > Prüfungsverwaltung). Ohne diese Aktivierung erscheint die Option bei niemandem.
+- Im Kurs > Administration > Einstellungen > Tab Durchführung muss die Option "Termin kann als Prüfung markiert werden" ausgewählt sein.
+- Der Termin ist kein Online-Meeting. (Bei BBB-/Teams-Terminen wird „Als Prüfung markieren" ausgeblendet.)
+
+!!! note "Hinweis"
+
+    Betreuer:innen können zwar keine Termine anlegen oder bearbeiten (das können nur die Besitzer:innen), das Markieren als Prüfung ist aber ein eigenes Recht und steht ihnen trotzdem zur Verfügung.
+
+[zum Seitenanfang ^](#SEB_admin)
+
+---
 
 ### (durch Kursbesitzer:in) Verteilung der Konfigurationsdatei an die Teilnehmer:innen {: #config_distribution}
 

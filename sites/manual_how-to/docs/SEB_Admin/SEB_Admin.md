@@ -233,6 +233,31 @@ See [Step 4: Configuration (for course owners) >](../../manual_how-to/SEB/SEB.md
 
 ---
 
+### (various roles) Mark course as an exam {: #mark_course_as_assessment}
+
+An event can be marked as an exam by
+
+- Course owners
+- Coaches / teachers (listed in the course or designated as teachers for specific sessions)
+- Master coaches
+- Course staff
+- Other users with permission to edit the course
+
+This feature is accessed via the “Event” toolbar icon → 3-dot menu → “Mark as Exam.”
+
+The following requirements must be met for this option to appear:
+
+- Exam mode must be enabled system-wide. (Administration > e-Assessment > Assessment Management). Without this activation, the option will not appear for anyone.
+- In the course > Administration > Settings > “Delivery” tab, the option “Event can be marked as an exam” must be selected.
+- The event is not an online meeting. (For BBB/Teams sessions, “Mark as Exam” is hidden.)
+
+!!! note "Note"
+
+    Although coaches cannot create or edit appointments (only owners can do that), marking an appointment as an exam is a separate permission and is still available to them.
+
+[To the top of the page ^](#SEB_admin)
+
+---
 
 ### (by the course owner) Distributing the configuration file to the participants {: #config_distribution}
 
