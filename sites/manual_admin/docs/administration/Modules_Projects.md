@@ -52,12 +52,13 @@ Within a project, various roles can be assigned that only apply to the respectiv
 
 **Leader (Project leader)**
 
-* Project leaders, like the project owners, have all write and read rights in their project.
+* Like project owners, project leaders have full write, read, and delete permissions within the project; however, unlike owners, they do not have the right to delete the entire project.
 
 **Project office**
 
 * Members of the project office are entrusted with organizational tasks and therefore have extensive write and delete rights, except for the project itself.
-* This is a task/role in project management, not an OpenOlat role with specific rights.
+* This is a task/role in project management, however, the right to delete the entire project does not exist.
+
 
 **Participant (Project team member)**
 
@@ -67,17 +68,17 @@ Within a project, various roles can be assigned that only apply to the respectiv
 
 **Business analyst / Supplier**
 
-* Business analyst / Supplier is a role in project management, not an OpenOlat role with specific rights.
+* Business analyst / Supplier is a role in project management that has permission to read, write, and delete objects. For the project itself and its members, only read access is granted.
 
 **Sponsor / Client**
 
-* Sponsor / Client is a role in project management, not an OpenOlat role with specific rights.
+* Sponsor / Client is a role in project management.
 * Sponsors are not operationally active and therefore only have read rights in OpenOlat.
 
 **Steering committee**
 
 * The steering committee is also known as Steering Committee, Steering Board, Steuerungsausschuss, Lenkungskreis, Steuerungskreis, Control Board or decision-making body.
-* It is a role in project management, not an OpenOlat role with specific rights.
+* It is a role in project management.
 * Members of the steering committee are not operationally active and therefore only have read rights in OpenOlat.
 
 ## Project members {: #project_members}
