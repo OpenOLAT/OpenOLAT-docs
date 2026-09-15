@@ -70,7 +70,7 @@ The identification attribute of the room, for example the room number.
 
 An optional name of the room, such as "Auditorium".
 
-#### #Seats (mandatory field) {: #room_seats }
+#### Seats (mandatory field) {: #room_seats }
 
 The number of seats. The value must be greater than 0 and is used to detect insufficient capacity when booking.
 

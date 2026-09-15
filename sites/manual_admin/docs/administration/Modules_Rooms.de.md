@@ -70,7 +70,7 @@ Das Identifikationsmerkmal des Raums, zum Beispiel die Raumnummer.
 
 Ein optionaler Name des Raums, etwa «Aula».
 
-#### #Plätze (Pflichtfeld) {: #room_seats }
+#### Plätze (Pflichtfeld) {: #room_seats }
 
 Die Anzahl Sitzplätze. Der Wert muss grösser als 0 sein und dient dazu, bei einer Buchung zu wenig Kapazität zu erkennen.
 
