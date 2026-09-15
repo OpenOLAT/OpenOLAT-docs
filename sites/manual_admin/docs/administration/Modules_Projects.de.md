@@ -55,12 +55,12 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 
 **Leiter:in (Projektleiter:in)**
 
-* Projektleiter:innen haben wie die Projektbesitzer:innen alle Schreib- und Leserechte in ihrem Projekt.
+* Projektleiter:innen haben wie die Projektbesitzer:innen alle Schreib-, Lese- und Löschrechte im Projekt, im Unterschied zu Besitzer:innen jedoch kein Recht zum Löschen des gesamten Projekts.
 
 **Projektbüro**
 
 * Mitglieder des Projektbüros sind mit organisatorischen Aufgaben betraut und haben deshalb weitgehende Schreib- und Löschrechte, ausser beim Projekt selbst.
-* Es handelt sich um eine Aufgabe/Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Es handelt sich um eine Aufgabe/Rolle im Projektmanagement, ein Recht zum Löschen des gesamten Projekts besteht nicht.
 
 **Teilnehmer:in (Projektmitarbeiter:in)**
 
@@ -70,17 +70,17 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 
 **Business-Analyst:in / Lieferant:in**
 
-* Business-Analyst:in / Lieferant:in ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Business-Analyst:in / Lieferant:in ist eine Rolle im Projektmanagement, die Objekte lesen, schreiben und löschen darf. Für das Projekt selbst und Mitglieder besteht nur Leserecht. 
 
 **Sponsor:in / Auftraggeber:in**
 
-* Sponsor:in / Auftraggeber:in ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Sponsor:in / Auftraggeber:in ist eine Rolle im Projektmanagement.
 * Sponsor:innen sind nicht operativ tätig und haben deshalb in OpenOlat nur Leserecht.
 
 **Lenkungsausschuss**
 
 * Der Lenkungsausschuss wird auch bezeichnet als Steering Committee, Steering Board, Steuerungsausschuss, Lenkungskreis, Steuerungskreis, Controlboard oder Entscheidungsgremium.
-* Es ist eine Rolle im Projektmanagement, keine OpenOlat-Rolle mit bestimmten Rechten.
+* Es ist eine Rolle im Projektmanagement.
 * Mitglieder des Lenkungsausschusses sind nicht operativ tätig und haben deshalb in OpenOlat nur Leserecht.
 
 
