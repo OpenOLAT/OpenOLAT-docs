@@ -10,7 +10,7 @@ A number of course elements can be used either for summative or formative assess
 * [Checklist](../learningresources/Assessment.md) (manual & automatic assessment)
 * [Assessment](../learningresources/Assessment.md) (manual assessment)
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
-* [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
+* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Assessment.md) (automatic & manual assessment)
 
 Refer to the chapter ["Test"](../learningresources/Test.md) for more information on creating and configuring tests.
@@ -28,7 +28,7 @@ An evidence of achievement is a confirmation of an existing efficiency control a
 [Assessment >](../learningresources/Assessment.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
-[Knowledge Transfer >](../learningresources/Knowledge_Transfer.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)

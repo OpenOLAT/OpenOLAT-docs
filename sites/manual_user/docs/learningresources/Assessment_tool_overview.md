@@ -76,7 +76,7 @@ In the "Participants" tab, the actual assessment is carried out: persons can be 
 The table then shows the processing status of all participants of the specific course element.<br>
 Furthermore, for tasks, all submitted documents can also be downloaded in the Participants tab.
 
-The automatically generated top course node also counts as an assessable element. It corresponds to a ["Structure"](../learningresources/Knowledge_Transfer.md#structure) element.<br>
+The automatically generated top course node also counts as an assessable element. It corresponds to a ["Structure"](../learningresources/Course_Element_Structure.md) element.<br>
 Clicking on a person at the top course element gives you a complete overview of the processing status of the assessment elements of the course for that person, allowing you to also view their proof of performance.
 
 If a point calculation is set up on the top course element, the *total points* of a course, or the points defined for the top element, can also be displayed at the top level of the user view, and the overall results of the course participants can be downloaded.

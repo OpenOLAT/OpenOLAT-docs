@@ -190,7 +190,6 @@ If the course owner has enabled badge awarding under `Course > Administration > 
 
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>
-[Knowledge Transfer >](Knowledge_Transfer.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Badges >](OpenBadges.md)

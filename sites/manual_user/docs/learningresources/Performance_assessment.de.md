@@ -11,7 +11,7 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewert
 * [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
 * [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
 * [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
-* [SCORM](../learningresources/Knowledge_Transfer.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
+* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
 * [Test](../learningresources/Assessment.de.md) (automatische & manuelle Bewertung)
 
 Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weitere Informationen zur Erstellung und Konfiguration von Tests.
@@ -29,7 +29,7 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 [Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
-[Wissensvermittlung >](../learningresources/Knowledge_Transfer.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)

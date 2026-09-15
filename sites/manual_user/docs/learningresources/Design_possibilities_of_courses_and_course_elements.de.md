@@ -62,7 +62,6 @@ Auf dem obersten Kursknoten und allen Struktur-Kursbausteinen können im Tab "Ü
 **Weiterführend**<br>
 [Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
-[Wissensvermittlung >](../learningresources/Knowledge_Transfer.de.md)
 
 **youtube**<br>
 [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>)

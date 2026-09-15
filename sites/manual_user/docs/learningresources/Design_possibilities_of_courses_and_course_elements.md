@@ -57,7 +57,6 @@ On the top course node and all structure course elements, further display settin
 **Further reading**<br>
 [Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>
-[Knowledge Transfer >](../learningresources/Knowledge_Transfer.md)
 
 **youtube**<br>
 [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>)

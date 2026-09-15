@@ -192,7 +192,6 @@ Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen >
 
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Kursbausteine >](Course_Elements.de.md)<br>
-[Wissensvermittlung >](Knowledge_Transfer.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Badges >](OpenBadges.de.md)

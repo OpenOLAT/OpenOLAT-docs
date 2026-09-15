@@ -18,7 +18,7 @@ Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen 
 
 Neben den selbst erstellten Ordnern legt OpenOlat im Ablageordner je nach Kurskonfiguration automatisch spezielle Unterordner an:
 
-* **_courseelementdata**: Wird angelegt, sobald der Kurs mindestens einen [Kursbaustein "Ordner"](../learningresources/Knowledge_Transfer.de.md#folder) enthält. In diesem Unterordner befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learningresources/Course_Element_Participant_Folder.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier automatisch, nachdem sie im Kurseditor angelegt wurden, und können im Ablageordner auch editiert werden.
+* **_courseelementdata**: Wird angelegt, sobald der Kurs mindestens einen Kursbaustein "Ordner" enthält. In diesem Unterordner befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learningresources/Course_Element_Participant_Folder.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier automatisch, nachdem sie im Kurseditor angelegt wurden, und können im Ablageordner auch editiert werden.
 * **_sharedfolder**: Wird angelegt, wenn der Kurs mit einem [Ressourcenordner](../learningresources/Resource_Folder.de.md) verknüpft wird. Der zugewiesene Ressourcenordner kann hier eingesehen, per default jedoch nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
 * **_documents**: Wird angelegt, wenn im Kurs das Werkzeug "[Dokumente](../learningresources/Toolbar.de.md#documents)" aktiviert ist. Hier liegen die Dateien, die die Lehrkraft über das Werkzeug "Dokumente" zentral zum Download bereitstellt.
 
@@ -32,7 +32,6 @@ Sobald diese Checkbox aktiviert ist, ist der Pfad für andere Dateien im Ablageo
 
 [Kursbausteine >](Course_Elements.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
-[Wissensvermittlung >](Knowledge_Transfer.de.md)<br>
 [Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](Course_Element_Participant_Folder.de.md)<br>
 [Ressourcenordner >](Resource_Folder.de.md)<br>

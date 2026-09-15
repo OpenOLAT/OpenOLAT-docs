@@ -132,7 +132,7 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewert
 * [Checkliste](../learningresources/Assessment.de.md)  (manuelle & automatische Bewertung)
 * [Bewertung](../learningresources/Assessment.de.md)  (manuelle Bewertung)
 * [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
-* [SCORM](../learningresources/Knowledge_Transfer.de.md)  (automatische Bewertung, wird durch SCORM-Modul übertragen)
+* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md)  (automatische Bewertung, wird durch SCORM-Modul übertragen)
 * [Test](../learningresources/Assessment.de.md)  (automatische & manuelle Bewertung)
 
 Die Fortschrittskontrolle steuern [Lernpfadkurse](../learningresources/Learning_path_course.de.md) über das Erledigungskriterium, das Sie im Kurseditor pro Kursbaustein im Tab "Lernpfad" festlegen. Mit dem Kriterium "Bestätigung durch Benutzer:in" bestätigen die Teilnehmenden die Bearbeitung selbst über den Toggle-Button "Als erledigt markieren".

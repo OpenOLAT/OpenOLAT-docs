@@ -152,7 +152,7 @@ A number of course elements can be used either for summative or formative assess
 * [Check list](../learningresources/Assessment.md) (manual & automatic assessment)
 * [Assessment](../learningresources/Assessment.md) (manual assessment)
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
-* [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
+* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Assessment.md#course_element_test) (automatic & manual assessment)
 
 [Learning path courses](../learningresources/Learning_path_course.md) control the progress with the completion criterion, which you set in the course editor for each course element in the tab "Learning path". With the criterion "Confirmation by participant", the participants confirm the completion themselves with the toggle button "Mark as done".
