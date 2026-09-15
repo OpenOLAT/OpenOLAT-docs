@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 530" width="1020" height="530" role="img" aria-label="Five entry points lead to the same list of implementations and from there into the structure">
+  <rect x="0" y="0" width="1020" height="530" fill="#F3F4EF"/>
+
+  <text x="30" y="46" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#135E5F">Five entry points, one list</text>
+  <text x="30" y="76" font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">All entry points show the same list. Only filters and columns are set differently per area.</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#135E5F"/>
+    </marker>
+  </defs>
+
+  <!-- Entry points -->
+  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#135E5F">Entry points</text>
+
+  <g font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">
+    <rect x="30" y="136" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <text x="48" y="162">Courses &gt; Educational products</text>
+    <text x="48" y="183" font-size="15" fill="#A6A6A6">Participant</text>
+
+    <rect x="30" y="206" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <text x="48" y="232">Coaching &gt; Educational products</text>
+    <text x="48" y="253" font-size="15" fill="#A6A6A6">Coach, course owner</text>
+
+    <rect x="30" y="276" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <text x="48" y="302">Coaching &gt; People &gt; Person</text>
+    <text x="48" y="323" font-size="15" fill="#A6A6A6">as coach or course owner</text>
+
+    <rect x="30" y="346" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <text x="48" y="372">Coaching &gt; People &gt; Person</text>
+    <text x="48" y="393" font-size="15" fill="#A6A6A6">as line manager or education manager</text>
+
+    <rect x="30" y="416" width="330" height="58" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+    <text x="48" y="442">User management &gt; Person</text>
+    <text x="48" y="463" font-size="15" fill="#A6A6A6">User manager, administrator</text>
+  </g>
+
+  <!-- Arrows to the shared list -->
+  <g stroke="#135E5F" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 360 165 L 400 250"/>
+    <path d="M 360 235 L 400 270"/>
+    <path d="M 360 305 L 400 300"/>
+    <path d="M 360 375 L 400 330"/>
+    <path d="M 360 445 L 400 350"/>
+  </g>
+
+  <!-- Shared list -->
+  <rect x="410" y="200" width="290" height="200" rx="10" fill="#209D9E"/>
+  <text x="430" y="238" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">List of implementations</text>
+  <g font-family="'Roboto', sans-serif" font-size="16" fill="#FFFFFF">
+    <text x="430" y="272">Same preselection filters</text>
+    <text x="430" y="298">Same meaning of the columns</text>
+    <text x="430" y="324">Search over title and reference</text>
+    <text x="430" y="360" font-size="15">Each area sets which filters</text>
+    <text x="430" y="380" font-size="15">and columns exist.</text>
+  </g>
+
+  <path d="M 700 300 L 750 300" stroke="#135E5F" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="725" y="276" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926" text-anchor="middle">Click on</text>
+  <text x="725" y="291" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926" text-anchor="middle">the title</text>
+
+  <!-- Structure -->
+  <rect x="760" y="230" width="230" height="140" rx="10" fill="#FFFFFF" stroke="#135E5F" stroke-width="2"/>
+  <text x="778" y="266" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#135E5F">Structure of the</text>
+  <text x="778" y="290" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#135E5F">implementation</text>
+  <g font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">
+    <text x="778" y="322">Contained courses</text>
+    <text x="778" y="346">Column "Open"</text>
+  </g>
+
+  <!-- Out of scope -->
+  <rect x="410" y="430" width="580" height="76" rx="8" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="430" y="458" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#A6A6A6">Not part of this view</text>
+  <text x="430" y="484" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">Course Planner &gt; Implementations: separate management view for planning.</text>
+  <text x="990" y="516" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6" text-anchor="end">OpenOlat ∞</text>
+</svg>

@@ -44,13 +44,19 @@ Once you have found the course, you can also mark it as a favorite. To do this, 
 
 ![Flag symbol in the row with the Set bookmark hint, marked favorites are filled red, list in the My courses area](assets/favorites.png){ class="shadow lightbox" }
 
-## Education products
+## Educational products
 
-The "Education products" area is displayed when the [Course Planner](../area_modules/Course_Planner.md) is activated in the system administration: `Administration > Modules > Course Planner`.
+The "Educational products" area appears when three conditions are met:
 
-Under Education products, users then see the courses and learning resources that belong to their programmes (implementations). If a user has enrolled in a programme that is organised with the Course Planner, all courses assigned to this programme appear here. If the user is enrolled in several implementations, they see all associated courses under Education products.
+* Administrators have activated the [Course Planner](../area_modules/Course_Planner.md): `Administration > Modules > Course Planner`.
+* In this module, the setting [Product in "My courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses) is switched on.
+* You are entered in at least one implementation.
 
-Furthermore, only the favorites, the active or the finished courses of the implementations can be displayed here, or courses can be searched for specifically. Under Education products, learners thus get quickly and in a focused way to the courses and learning resources relevant to their programme/module/implementation.
+The list shows your implementations, not individual courses. A click on the title of an implementation opens its structure, and only there do you see the courses and learning resources that belong to it. If you are entered in several implementations, they all stand in this list. The column "Product" names the educational product each implementation belongs to, the column "Progress" your learning progress in it. [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}
+
+The filter tabs "Favourites", "All", "Relevant" and "Finished" narrow down the list, the search field above it searches the title and the reference. What the individual tabs show and which columns are available is described in the section [Filtering the list](../area_modules/Coaching_Educational_Products.md#filter). It applies to all areas that list educational products.
+
+There is no filter tab "Preparation" here. Learning resources that are not yet published you find in the area "In preparation" instead.
 
 ## In preparation
 
@@ -67,7 +73,9 @@ For coaches and course owners, the course is also accessible in the status "Prep
 
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
-[Course Planner >](../area_modules/Course_Planner.md)
+[Course Planner >](../area_modules/Course_Planner.md)<br>
+[Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)

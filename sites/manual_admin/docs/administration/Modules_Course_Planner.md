@@ -11,7 +11,19 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Switch to turn on Course Planner, Product in "My courses" and option tree "User overview", in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
+![Switch to turn on Course Planner, Product in "My courses" and option tree User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
+
+Two switches in this tab determine where products and implementations appear: Product in "My courses" and the User overview. Five entry points open the same list:
+
+* `Courses > Educational products` for participants
+* `Coaching > Educational products` for coaches and course owners
+* `Coaching > People > "Person" > Educational products` for coaches and course owners
+* `Coaching > People > "Person" > Educational products` for line managers and education managers
+* `User management > "Person" > Educational products` for user managers and administrators
+
+The switch Product in "My courses" turns the first entry point on or off. The User overview determines what course planners, education managers and line managers see in the fourth entry point.
+
+![Five entry points lead to the same list of implementations, from there a click on the title opens the structure with the contained courses.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" }
 
 #### Turn on Course Planner {: #enable_course_planner }
 

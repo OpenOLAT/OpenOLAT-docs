@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 655" width="1020" height="655" role="img" aria-label="Assignment of the preselection filters to the statuses of an implementation">
+  <rect x="0" y="0" width="1020" height="655" fill="#F3F4EF"/>
+
+  <text x="30" y="46" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#135E5F">Which filter shows which status</text>
+  <text x="30" y="76" font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">The preselection filters above the list set a status filter. A cancelled implementation</text>
+  <text x="30" y="100" font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">does not disappear, it appears in the filter "Finished".</text>
+
+  <!-- Column headers -->
+  <g font-family="'Roboto', sans-serif" font-size="17" font-weight="700">
+    <rect x="330" y="132" width="126" height="44" rx="6" fill="#F2AF40"/>
+    <text x="393" y="160" fill="#2D2926" text-anchor="middle">Favourites</text>
+
+    <rect x="462" y="132" width="126" height="44" rx="6" fill="#A6A6A6"/>
+    <text x="525" y="160" fill="#FFFFFF" text-anchor="middle">All</text>
+
+    <rect x="594" y="132" width="126" height="44" rx="6" fill="#209D9E"/>
+    <text x="657" y="160" fill="#FFFFFF" text-anchor="middle">Relevant</text>
+
+    <rect x="726" y="132" width="126" height="44" rx="6" fill="#135E5F"/>
+    <text x="789" y="160" fill="#FFFFFF" text-anchor="middle">Preparation</text>
+
+    <rect x="858" y="132" width="126" height="44" rx="6" fill="#8F1F40"/>
+    <text x="921" y="160" fill="#FFFFFF" text-anchor="middle">Finished</text>
+  </g>
+
+  <text x="30" y="160" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">Status of the implementation</text>
+
+  <!-- Rows: status -->
+  <g font-family="'Roboto', sans-serif" font-size="18" fill="#2D2926">
+    <rect x="30" y="188" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="217">Preparation</text>
+    <rect x="462" y="196" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="726" y="196" width="126" height="30" rx="5" fill="#135E5F"/>
+
+    <rect x="30" y="242" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="271">Provisional</text>
+    <rect x="462" y="250" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="250" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="296" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="325">Confirmed</text>
+    <rect x="462" y="304" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="304" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="350" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="379">Active</text>
+    <rect x="462" y="358" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="594" y="358" width="126" height="30" rx="5" fill="#209D9E"/>
+
+    <rect x="30" y="404" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="433">Cancelled</text>
+    <rect x="462" y="412" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="858" y="412" width="126" height="30" rx="5" fill="#8F1F40"/>
+
+    <rect x="30" y="458" width="954" height="46" rx="6" fill="#FFFFFF"/>
+    <text x="48" y="487">Finished</text>
+    <rect x="462" y="466" width="126" height="30" rx="5" fill="#A6A6A6"/>
+    <rect x="858" y="466" width="126" height="30" rx="5" fill="#8F1F40"/>
+  </g>
+
+  <!-- Favourites column as the cross-cutting case -->
+  <rect x="330" y="188" width="126" height="316" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="393" y="324" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">every status,</text>
+  <text x="393" y="346" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">only the ones</text>
+  <text x="393" y="368" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">you marked</text>
+
+  <!-- Notes -->
+  <text x="30" y="546" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#135E5F">Not every area has every filter</text>
+  <g font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">
+    <text x="30" y="576">"Favourites" exists only in Courses and in Coaching &gt; Educational products.</text>
+    <text x="30" y="602">"Preparation" exists only where coaches and course owners work.</text>
+    <text x="30" y="628">"All" sets no status filter. Only what your own role may see stays visible.</text>
+  </g>
+  <text x="990" y="641" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6" text-anchor="end">OpenOlat ∞</text>
+</svg>

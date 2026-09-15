@@ -183,6 +183,15 @@ If you, as a line manager or education manager, want certain rights, you can hav
 
 ![Rights of the role Line manager as a checkbox list from Show courses and products to Show administrative properties, in the tab Line manager of an organisation unit in the system administration.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
 
+### The educational products of a person [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
+
+Open a person and switch to "Educational products". The list shows the implementations of this person. It follows the same logic as the list under [Coaching > Educational products](../area_modules/Coaching_Educational_Products.md#filter), but offers fewer filters and columns:
+
+* The filter tabs available are "All", "Relevant" and "Finished". "Relevant" is preselected.
+* The tabs "Favourites" and "Preparation" do not exist here. Only coaches and course owners see implementations in preparation.
+* There is no column "Status". Cancelled implementations appear in the tab "Finished", but cannot be filtered out separately there.
+* The columns "Progress" and "Timetable" only appear if administrators granted your role the corresponding rights.
+
 [To the top of the page ^](#people)
 
 ---
@@ -195,11 +204,11 @@ If you, as a line manager or education manager, want certain rights, you can hav
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
-[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
+[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>

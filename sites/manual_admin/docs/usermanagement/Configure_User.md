@@ -204,13 +204,15 @@ Areas of competence can be added to the user here. They are categorized accordin
 [To the top of the page ^](#user_configuration)
 
 
-### Education products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
+### Educational products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Here you will find the same hierarchical overview of the education products, implementations and courses of the user as in the Coaching tool from the perspective of a line manager or education manager.
+Here you will find the implementations of the user. The list shows all implementations of the person, regardless of the role they hold in them [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-!!! note "Observational tasks"
-    Details on filters, status and display of this view.<br>
-    [Observational tasks](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_observe)
+The list follows the same filter logic as in the Coaching Tool, but differs in two columns: the column "Roles" states for each implementation in which role the person takes part, while the column "Progress" is missing. A click on the title of an implementation opens its structure with the contained courses.
+
+!!! note "Filters and columns of this list"
+    Which filter tabs the list offers and what they show is described in the user manual.<br>
+    [The educational products of a person](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_products)
 
 [To the top of the page ^](#user_configuration)
 
