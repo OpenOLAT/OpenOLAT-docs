@@ -70,7 +70,7 @@ Der Status steuert, ob sich die Person anmelden kann. Zur Auswahl stehen "Aktiv"
 
 Hier hinterlegen Sie das Datum, an dem OpenOlat das Konto deaktivieren soll. Das eignet sich für befristete Zugänge, etwa für Gastdozierende oder Projektmitarbeit. Bei Administrator:innen, Systemadministrator:innen und Gastkonten steht das Feld nicht zur Verfügung.
 
-#### Tage bis zum Ablauf {: #days_until_expiry }
+#### Tage bis Ablauf {: #days_until_expiry }
 
 Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "In 14 Tage". Liegt das Datum in der Vergangenheit, erscheint in Rot die Anzahl überfälliger Tage mit dem Hinweis, dass OpenOlat das Konto beim nächsten Durchlauf deaktiviert. Ohne Ablaufdatum entfällt das Feld.
 
@@ -91,7 +91,7 @@ Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt f�
 
 Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfallen.
 
-Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis zum Ablauf" für das Datum, "Tage bis Inaktivierung" für den letzten Login.
+Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis Ablauf" für das Datum, "Tage bis Inaktivierung" für den letzten Login.
 
 ![Kontoablauf 31.12.2028 mit "In 837 Tage", darunter der Abschnitt Automatischer Kontolebenszyklus mit letztem Login und "In 710 Tage": Reiter Konto eines aktiven Kontos](assets/user_management_account_tab_active_v1_de.png){ class="shadow lightbox" }
 

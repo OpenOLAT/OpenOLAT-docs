@@ -210,7 +210,7 @@ Die beiden Schalter setzen Sie in der System-Administration unter:<br>
 
 Alle fünf Spalten sind ab Werk ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
-Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, dort unter der Beschriftung "Tage bis zum Ablauf", siehe [Benutzer konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
+Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Benutzer konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
 
 [Zum Seitenanfang ^](#search_user)
 

@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![Status badge, identity, organisation, account type and username summarise the account, below them 25 tabs from User profile to Grading assignments open the configuration: account settings of a person in the user management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Header area with status badge, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -32,12 +32,77 @@ Personal data, personal details, contact details and details of the institution 
 The system settings made by the user are displayed here. See: `Personal Menu > Configuration >` [Settings](../../manual_user/personal_menu/Settings.md).<br>
 This includes, for example, the default language and whether emails are only sent within OpenOlat or also to the address in the profile. 
 
+If the account carries an expiry date, the tab shows it under "Account expiration". A number of remaining days is not given here; the periods are listed in the "Account" tab. For inactive accounts OpenOlat hides the entry. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+
 [To the top of the page ^](#user_configuration)
 
 
 ### Account
 
-For example, the last login can be seen here and the user's account can be set to inactive.  
+The "Account" tab shows the state of an account and the point it has reached in the lifecycle. Here you judge whether and when OpenOlat deactivates or deletes an account automatically, and here you set it to inactive manually.
+
+Administrators, user administrators and role administrators reach the tab. Which fields it shows depends on the role of the edited account and on the toggles of the user lifecycle, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts).
+
+#### User type {: #account_type }
+
+The user type distinguishes registered accounts, guest accounts and invited accounts. You convert an invited account with "Convert to registered user".
+
+#### Created at {: #creation_date }
+
+Date and time at which the account was created.
+
+#### Last login {: #last_login }
+
+Date and time of the last login. This value is the reference for the automatic user lifecycle. For guest accounts the entry is omitted.
+
+#### Inactivation date {: #inactivation_date }
+
+Date on which the account was deactivated. The field only appears for an account that has already been deactivated once.
+
+#### Reactivation date {: #reactivation_date }
+
+Date on which a deactivated account was released again. The field only appears after a reactivation.
+
+#### Status {: #account_status }
+
+The status controls whether the person can log in. Available are "Active", "Active and not deletable", "Pending", "Inactive" and "Login denied". For accounts with the role administrator, system administrator or role administrator the status cannot be changed.
+
+#### Account expiration {: #account_expiration }
+
+Here you store the date on which OpenOlat should deactivate the account. This suits fixed-term access, for example for guest lecturers or project work. For administrators, system administrators and guest accounts the field is not available.
+
+#### Days until expiry {: #days_until_expiry }
+
+If an expiry date is set, this field shows the remaining time in the format "In 14 days". If the date lies in the past, the number of overdue days appears in red, with the note that OpenOlat will deactivate the account in the next run. Without an expiry date the field is omitted.
+
+#### Automatic user lifecycle {: #automatic_user_lifecycle }
+
+This section shows how the system-wide lifecycle affects this account. It is omitted for guest accounts. Which entries appear depends on the state of the account:
+
+| State | Entry | Meaning |
+|-------|-------|---------|
+| Active | "Last login", "Days until inactivation" | OpenOlat deactivates the account automatically after this period without a login. |
+| Reactivated | additionally "Reactivation date", the period carries the addition "(grace period)" | The account was released again after a deactivation and runs in a grace period. |
+| Inactive | "Inactivation date", "Days until deletion" | The account is deactivated and will be deleted automatically after this period. |
+
+Besides the number of days, both periods also name the date on which the step falls due.
+
+"Days until inactivation" only appears when the toggle "Deactivate user after inactivity" is active, "Days until deletion" only when the toggle "Delete inactive user" is active. You find both toggles in the system administration under:<br>
+`Administration > Life cycles > User`
+
+If the toggles are off, no automatic process takes effect and the periods are omitted.
+
+An active account with a stored expiry date carries both periods next to each other: "Days until expiry" for the date, "Days until inactivation" for the last login.
+
+![Account expiration 12/31/2028 with "In 837 days", below it the section Automatic user lifecycle with last login and "In 710 days": Account tab of an active account](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" }
+
+After a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
+
+![Reactivation date 9/16/2026 and the period "In 710 days, on 8/26/2028 (grace period)": Account tab of a reactivated account](assets/user_management_account_tab_reactivated_v1_en.png){ class="shadow lightbox" }
+
+For an inactive account the inactivation date and "Days until deletion" take the place of the inactivation period.
+
+![Inactivation date 9/16/2026 and the period "In 1101 days, on 9/21/2029": Account tab of an inactive account](assets/user_management_account_tab_inactive_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -100,6 +165,8 @@ Under this tab, the user can also be assigned to other groups or removed from a 
 
 This tab generates an overview with all learning resources of the user. User administrators and administrators can remove users from the respective learning resources and call up the respective learning resources. Furthermore, the user can be registered as owner, coach or participant in further OpenOlat courses.  
 
+The list carries single learning resources with the course and group roles of the person. Implementations of the Course Planner are listed in the "Educational products" tab instead.
+
 [To the top of the page ^](#user_configuration)
 
 
@@ -147,7 +214,7 @@ Via the actions menu (three dots) of a row, a single evidence of achievement can
 
 This tab brings together all of the person's certificates, both those acquired in courses and those uploaded manually. For each certificate the table lists "Awarded by", "Origin", "Issued on", "Valid until", "Recertification", "Revoked on", "#Issued" and "State"; the predefined filters "All", "Valid" and "Expired" narrow down the list. Above the table on the right you can switch between tile and table view. "Upload certificate" is used to record externally acquired certificates so that the profile reflects the entire transcript of records.
 
-![The list shows each certificate with its origin, date of issue and state, the button "Upload certificate" records externally acquired certificates: Certificates tab of an account in the user management](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
+![Certificate list with origin, date of issue and state, above it the button Upload certificate: Certificates tab of an account](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -163,7 +230,7 @@ This tab displays all the badges you have purchased.
 
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab. The dialog "Add disadvantage compensation" requires "Approved by", "Approval date", "Extra time (minutes)" and the course. The field "Course element" narrows the compensation down to a single test of the course.
 
-![Mandatory entries are "Approved by", "Approval date", "Extra time (minutes)" and the course, the field "Course element" narrows the compensation down to one test: dialog "Add disadvantage compensation" in the tab Compensation for disadvantages](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
+![Four mandatory fields marked with an asterisk, below them the optional field Course element: dialog Add disadvantage compensation](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -208,6 +275,10 @@ Areas of competence can be added to the user here. They are categorized accordin
 
 Here you will find the implementations of the user. The list shows all implementations of the person, regardless of the role they hold in them [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
+OpenOlat only shows the tab when the Course Planner is active. Without this module it does not appear.
+
+The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which educational offerings the person passes through, "Learning resources" shows which courses they are registered in. Unlike there, you neither add nor remove the person here.
+
 The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the list shows the additional column "Roles", which states for each implementation in which role the person takes part. In return, the column "Status" and the tabs "Favourites" and "Preparation" are missing. A click on the title of an implementation opens its structure with the contained courses.
 
 What the individual tabs show is described in the section [Filtering the list](../../manual_user/area_modules/Coaching_Educational_Products.md#filter) in the user manual.
@@ -221,3 +292,23 @@ Here you can check which grading assignments have been assigned to this user.
 
 [To the top of the page ^](#user_configuration)
 
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Data protection >](Data_protection.md)<br>
+[Delete user >](Delete_User.md)<br>
+[E-mail settings >](../administration/E-Mail_Settings.md)<br>
+[User profile >](../../manual_user/personal_menu/Profile.md)<br>
+[Settings >](../../manual_user/personal_menu/Settings.md)<br>
+[Life cycles: Administration >](../administration/Life_cycles_-_Administration.md)<br>
+[Assign roles >](Assign_roles.md)<br>
+[Self-registration >](../administration/Login_Self-Registration.md)<br>
+[User roles >](index.md)<br>
+[The educational products of a person >](../../manual_user/area_modules/Coaching_People.md)
+
+**Further reading**<br>
+[User/account search >](Search_Users.md)<br>
+[Create user >](Create_User.md)
+
+[To the top of the page ^](#user_configuration)
