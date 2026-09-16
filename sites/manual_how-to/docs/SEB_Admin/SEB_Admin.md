@@ -71,7 +71,7 @@ Download the browser from the [manufacturer's website (ETH Zurich)](http://www.s
 ### Step 2: Switch on the assessment mode {: #activate_assessment_mode}
 
 The Safe Exam Browser is always used within an assessment mode. Activating the assessment mode is therefore a prerequisite. You do this under:<br>
-**Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"**
+`Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`
 
 ![SEB_Admin_step2_v1_de.png](assets/SEB_Admin_step2_v1_de.png){ class="shadow lightbox" }
 
@@ -87,7 +87,7 @@ As an administrator, you can enforce the use of a specific minimum version of th
 A separate minimum version can be defined for each operating system.
 
 You make this setting under<br>
-**Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser versions"**
+`Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser versions"`
 
 ![SEB_Admin_step3_v1_de.png](assets/SEB_Admin_step3_v1_de.png){ class="shadow lightbox" }
 
@@ -126,7 +126,7 @@ As an administrator, clarify with those responsible for the exams whether and wh
 ### Step 6: Provide an SEB configuration template {: #SEB_config_file} 
 
 If configuration templates are to be used (clarification in step 5), the clarifications made in step 4 can now be described and stored in various configuration templates. Under
-**Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser configuration"** you can provide a configuration template in 2 ways:
+`Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser configuration"` you can provide a configuration template in 2 ways:
 
 - by creating a template directly in OpenOlat
 - by importing a .seb file
@@ -181,13 +181,20 @@ Clicking on a three-dot icon shows the options
 
 ### Step 7: Activate the Events / Absences module if necessary {: #SEB_module_events}
 
-For everyone who works with the ["Events / Absences" module](../../manual_admin/administration/Modules_Events_and_Absences.de.md):<br>
-The assessment mode and the SEB configuration can also be configured directly on an event.
-The procedure (for authors) is analogous to creation in "Course administration > Assessment management"; it is the same process in "Course administration > Events".
+For anyone working with the [“Events and Absences” module](../../manual_admin/administration/Modules_Events_and_Absences.de.md):<br>
+Exam mode and SEB configuration can also be set directly on an event.
 
-As an administrator, you carry out the basic activation of the Events and Absences module under: **Administration > Modules > Events / Absences > Configuration tab > Configuration at course level section**.
+As an administrator, you can enable the “Events and Absences Management” module under: `Administration > Modules > Events/Absences > Configuration tab`.<br>
+In this tab, under the “Course-Level Configuration” section, you can then specify whether the Safe Exam Browser should use manual keys or keys in the SEB config. (Keys in the SEB config are recommended.) You can also specify there whether a downloadable configuration file should be available.
 
-In this tab you can then also define whether the Safe Exam Browser should be used with manual keys or keys in the SEB config. (Keys in the SEB config are recommended.)
+Course owners typically activate or create the SEB configuration under<br>
+`Course Administration > Exam Management > “Exam Mode Configuration” tab > Select mode and click the edit icon > “Safe Exam Browser” tab`<br> See [Creating the Configuration File >](#create_config_file)<br>
+You can also find the same input form in `Course Administration > Dates and Absences > Dates tab`.
+
+- After you've created an event, select the “Mark as Exam” option from the three-dot menu.
+(If the event has already been marked as an exam, you'll see the “Edit Exam” option in the three-dot menu.)
+- In the window that opens, toggle the “Use Safe Exam Browser” button to the “On” position.
+- Once the SEB is enabled, you can select one of the available configurations.
 
 !!! note "Note"
 
@@ -216,7 +223,7 @@ As an administrator, you may need to answer questions from authors. The followin
 ### (by the course owner) Create an assessment mode {: #create_assessment_mode}
 
 As the author of the OpenOlat exam course, you create an assessment mode under<br> 
-**Course administration > Assessment management > Tab "Assessment mode configuration" > "Add assessment mode" button**
+`Course administration > Assessment management > Tab "Assessment mode configuration" > "Add assessment mode" button`
 
 [To the top of the page ^](#SEB_admin)
 
@@ -225,7 +232,7 @@ As the author of the OpenOlat exam course, you create an assessment mode under<b
 ### (by the course owner) Creating the configuration file {: #create_config_file}
 
 Authors create a configuration file in the course (if necessary with the help of the configuration template) 
-under **Course administration > Assessment management > Tab "Assessment mode configuration" > Select/edit mode > Tab "Safe Exam Browser"**
+under `Course administration > Assessment management > Tab "Assessment mode configuration" > Select/edit mode > Tab "Safe Exam Browser"`
 
 See [Step 4: Configuration (for course owners) >](../../manual_how-to/SEB/SEB.md#SEB_configuration)
 
@@ -233,7 +240,7 @@ See [Step 4: Configuration (for course owners) >](../../manual_how-to/SEB/SEB.md
 
 ---
 
-### (various roles) Mark course as an exam {: #mark_course_as_assessment}
+### (various roles) Mark event as an exam {: #mark_course_as_assessment}
 
 An event can be marked as an exam by
 
@@ -247,8 +254,8 @@ This feature is accessed via the “Event” toolbar icon → 3-dot menu → “
 
 The following requirements must be met for this option to appear:
 
-- Exam mode must be enabled system-wide. (Administration > e-Assessment > Assessment Management). Without this activation, the option will not appear for anyone.
-- In the course > Administration > Settings > “Delivery” tab, the option “Event can be marked as an exam” must be selected.
+- Exam mode must be enabled system-wide. (`Administration > e-Assessment > Assessment Management`). Without this activation, the option will not appear for anyone.
+- In the `course > Administration > Settings > “Execution” tab`, the option “Event can be marked as an exam” must be selected.
 - The event is not an online meeting. (For BBB/Teams sessions, “Mark as Exam” is hidden.)
 
 !!! note "Note"
@@ -265,7 +272,7 @@ The following requirements must be met for this option to appear:
 If the course owners configure it this way, the configuration file can be downloaded from OpenOlat by the exam participants when the assessment mode has started. 
 
 **Option 2: Download and send by course owners**<br>
-If downloading by participants is prohibited, the download option is no longer available for participants, but it remains available for authors. The course owners can download the configuration file at any time and send it to the exam participants. 
+If downloading by participants is prohibited, the download option is no longer available for participants, but it remains available for authors. The course owners can download the configuration file at any time and send it to the exam participants. <br>
 See [Step 6: Download configuration (for course owners) >](../../manual_how-to/SEB/SEB.md#download_SEB_configfile)
 
 
@@ -279,13 +286,17 @@ See [Step 6: Download configuration (for course owners) >](../../manual_how-to/S
 
 ### Key {: #SEB_key} 
 
-To ensure that only the correct locked-down browser is allowed to access the exam, proof is required. This proof can be provided in two ways:
+To ensure that only the correct, locked-down browser can access the exam, proof is required. This proof can be provided in two ways:
 
-**Option A – "SEB with manual keys":**<br>
-Course owners manually store a key. This is a kind of password/checksum. Only those who know this key can enter the exam. 
+**Option A – “SEB with Manual Keys”:**<br>
+A key is entered manually. This is a type of password or checksum. Only those who know this key can access the exam.<br>
+A system-wide default value can be entered under `(System) Administration > Modules > Events / Absences > Configuration tab > in the “Safe Exam Browser Key” field`. (This field appears as soon as “manual keys” is selected as the usage type.)<br>
+Course owners can then find this key in the course under `(Course) Administration > Settings > Execution tab > in the “Safe Exam Browser Key”` field. (This field appears as soon as a manual key has been specified system-wide.)<br>
 
-**Option B – "SEB config (recommended)":**<br>
-A configuration template can also bring the key with it. Instead of a manually stored key, a key that is contained in a ready-made configuration template is used. This is the more convenient method recommended by OpenOlat.
+
+**Option B – “SEB-Config (recommended)”:**<br>
+A configuration template can also include the key. Instead of a manually entered key, a key contained in a pre-built configuration template is used. This is the more convenient method recommended by OpenOlat.<br>
+Whether the key should be included in the template is specified under `(System) Administration > Modules > Events / Absences > Configuration tab > “Safe Exam Browser – Type of Use”`
 
 [See Step 7 ^](#SEB_module_events)
 
