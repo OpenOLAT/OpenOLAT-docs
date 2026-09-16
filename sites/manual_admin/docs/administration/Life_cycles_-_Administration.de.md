@@ -1,6 +1,6 @@
 # Lebenszyklen: Übersicht {: #lifecycles}
 
-![admin_lifecycles_overview_v1_de.png](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Die drei Einträge Gruppen, Kurse und Konto stehen unter dem Menüpunkt Lebenszyklen: Menü Lebenszyklen in der System-Administration](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Abschnitt können die folgenden Lebenszyklen administriert werden:
 
@@ -17,7 +17,7 @@ In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyk
 Einstellung können sowohl für Gruppen generell, als auch nur für bestimmte Gruppentypen gemacht werden. 
 
 
-!!! info "Gruppen-Lebenszyklus — Details"
+!!! info "Gruppen-Lebenszyklus: Details"
     Schritte und Einstellungen für den automatischen Gruppen-Lebenszyklus.<br>
     [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md)
 
@@ -37,7 +37,7 @@ Im Lebenszyklus von Kursen kann festgelegt werden,
 
 ### Laufenden Prozess steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
 
-Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Der Prozess prüft die aktive Konfiguration vor jedem Kurs erneut. Damit ist sichergestellt, dass geänderte Regeln sofort wirksam sind. Über die Schaltfläche **"Prozess stoppen"** lässt sich ein laufender Durchlauf zusätzlich sofort anhalten. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitet ausgewählt wurden.
+Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Der Prozess prüft die aktive Konfiguration vor jedem Kurs erneut. Damit ist sichergestellt, dass geänderte Regeln sofort wirksam sind. Über die Schaltfläche **"Prozess stoppen"** lässt sich ein laufender Durchlauf zusätzlich sofort anhalten. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitung ausgewählt wurden.
 
 
 [Zum Seitenanfang ^](#lifecycles)
@@ -46,22 +46,37 @@ Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort**
 
 ## Konto {: #lifecycle_accounts}
 
-Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann auch der Lebenszyklus von Konten der OpenOlat-Benutzer:innen automatisiert werden. 
+Ähnlich dem automatisch gesteuerten Kurs-Lebenszyklus lässt sich auch der Lebenszyklus der Konten automatisieren. Sie konfigurieren ihn in der System-Administration unter:<br>
+`Administration > Lebenszyklen > Konto`
 
-!!! note "Hinweis"
-    Der Lebenszyklus läuft in getrennten Schritten und wird aus teils Unterschiedlichen Einstellungen gefüttert. Folgende Tabelle soll der Übersicht dienen.
+### Kontoablauf und automatischer Kontolebenszyklus [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382) {: #account_expiration_and_lifecycle}
 
-| Variante | Einstellungsquelle | Mailaktionen für Automatisierungen | Version |
-|----------|-------------------|--------------|---------|
-| Kontoablauf | **a)** Benutzerverwaltung > Benutzer erstellen (Feld «Kontoablauf») oder nachträglich im Tab «Konto» **b)** Automatisch und damit Systemweit, in der Administration festlegen. **Wichtig** es können natürlich beide Wege aktiv sein, dann greift der zuerst dessen Zeit früher abläuft. | Vor und/oder nach Kontoablauf konfigurierbar | :octicons-tag-24:{ title="ab Release 15.4" } |
-| Deaktivierung | Automatisch: Administration > Lebenszyklen > Konto (Inaktivitätsfrist) oder Manuell: Benutzerverwaltung > Benutzer > Tab «Konto» | Vor und/oder nach der Deaktivierung konfigurierbar | :octicons-tag-24:{ title="verfügbar seit mindestens OO 20.1" } |
-| Löschung | Automatisch: Administration > Lebenszyklen > Konto (nach Deaktivierungsperiode) oder Manuell: Benutzerverwaltung > Benutzer löschen | Vor und/oder nach der Löschung konfigurierbar | :octicons-tag-24:{ title="verfügbar seit mindestens OO 20.1" } |
+Die Konfiguration steht in zwei getrennten Bereichen. Der Bereich **Kontoablauf** steuert, was geschieht, wenn ein Konto sein hinterlegtes Ablaufdatum erreicht. Dieses Datum wird pro Konto gesetzt, etwa für Gastdozierende oder befristete Projektmitarbeit. Der Bereich **Automatischer Kontolebenszyklus** steuert dagegen, was mit Konten geschieht, die über längere Zeit nicht mehr benutzt werden. Hier zählt nicht ein Datum, sondern der letzte Login.
 
-!!! note "Hinweis"
-    Generell gilt: Erfolgt im festgelegten Zeitraum kein erneuter Login, so wird das Benutzerkonto gelöscht.
-    Zusätzlich: Es kann eingerichtet werden, dass die unwiderrufliche Löschung im letzten Schritt automatisch oder ausschliesslich manuell erfolgen soll.
+Beide Prozesse haben eigene Auslöser und eigene Benachrichtigungen. Es greift, was zuerst eintritt: Ein Konto wird durch seinen Kontoablauf deaktiviert, auch wenn die Inaktivitätsfrist noch lange nicht erreicht ist.
 
-Zu jedem Schritt können unterschiedliche Benachrichtigungen im Kontext der Schritte formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden.
+Liegt das Ablaufdatum vor dem Termin der automatischen Inaktivierung, nennt die Angabe "Tage bis Inaktivierung" im Reiter "Konto" deshalb das Ablaufdatum. Sie zeigt immer den nächsten fälligen Termin, nicht die reine Inaktivitätsfrist.
+
+Jeder der beiden Bereiche nennt in seinem Erklärtext die Uhrzeit, zu der OpenOlat den jeweiligen Prozess täglich ausführt.
+
+Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist, inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt [Benutzer konfigurieren](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+
+![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" }
+
+### Varianten im Überblick {: #lifecycle_accounts_variants}
+
+Der Lebenszyklus läuft in getrennten Schritten und wird aus teils unterschiedlichen Einstellungen gespeist.
+
+| Variante | Auslöser | Einstellungsquelle | Mailbenachrichtigung | Version |
+|----------|----------|--------------------|----------------------|---------|
+| Kontoablauf | Das hinterlegte Ablaufdatum des Kontos ist erreicht. | Das Datum wird pro Konto gesetzt: `Benutzerverwaltung > Konto erstellen` oder nachträglich im Reiter "Konto". Auch der Benutzerimport, die Massenänderung und die Aktion "Temporäres Konto erstellen" setzen es. | Vor und nach dem Kontoablauf, im Bereich "Kontoablauf" | :octicons-tag-16:{ title="ab Release 15.4" } |
+| Deaktivierung | Während der Inaktivitätsfrist erfolgt keine Anmeldung. | Schalter "Konten nach Inaktivität deaktivieren" und Feld "Anzahl Tage vor Deaktivierung". Manuell über den Reiter "Konto" einer Person. | Vor und nach der Deaktivierung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
+| Löschung | Das Konto bleibt nach der Deaktivierung die eingestellte Zeit inaktiv. | Schalter "Inaktive Konten löschen" und Feld "Anzahl Tage vor Löschung". Manuell über `Benutzerverwaltung > Konten löschen`. | Vor und nach der Löschung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
+
+!!! info "Wichtig"
+    Der Bereich "Kontoablauf" konfiguriert nur die Benachrichtigungen. Ein systemweites Ablaufdatum gibt es nicht: Das Datum trägt jedes Konto einzeln.
+
+Zu jedem Schritt formulieren Sie eine eigene Benachrichtigung und legen fest, wie viele Tage vor dem Schritt OpenOlat sie versendet. Die unwiderrufliche Löschung im letzten Schritt richten Sie automatisch oder ausschliesslich manuell ein.
 
 ### Deaktivierung und Reaktivierung {: #account_reactivation}
 
@@ -69,9 +84,30 @@ Die Deaktivierung setzt den Kontostatus auf "Inaktiv". Die Person kann sich nich
 
 Die Reaktivierung setzt den Kontostatus zurück auf "Aktiv". Die Person meldet sich mit dem bisherigen Passwort an. Ein neues Passwort ist nicht nötig.
 
-Ein Konto reaktivieren Sie manuell unter Benutzerverwaltung > Benutzer wählen > Tab «Konto». Meldet sich die Person über Shibboleth an, reaktiviert OpenOlat das inaktive Konto automatisch.
+Ein Konto reaktivieren Sie manuell unter:<br>
+`Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`
+
+Nach einer Reaktivierung läuft eine Karenzfrist. In dieser Zeit deaktiviert der automatische Kontolebenszyklus das Konto nicht erneut, und der Reiter "Konto" weist die Frist mit dem Zusatz "(Karenzfrist)" aus. Ohne abweichende Einstellung dauert sie 30 Tage.
+
+Die Länge der Karenzfrist steht in der Konfigurationsdatei der Instanz, nicht in der Administration. Wenden Sie sich für eine Änderung oder für Auskunft über den geltenden Wert an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 Daten entfernt erst die Löschung. Sie löscht auch das Passwort unwiderbringlich, siehe [Benutzer:in löschen >](../usermanagement/Delete_User.de.md).
 
+Die Löschung entfernt die Daten des Kontos und trägt die Person aus allen Gruppen und Rollen aus. Der Datensatz selbst bleibt anonymisiert bestehen: OpenOlat ersetzt den Anmeldenamen durch eine ID der Form "del_884736" und setzt den Status auf "Gelöscht". Das ist nötig, weil Objekte wie Forenbeiträge weiterhin auf das Konto verweisen. Die anonymisierten Konten finden Sie unter `Benutzerverwaltung > Status > Gelöschte Konten`, siehe [Benutzer-/Kontosuche](../usermanagement/Search_Users.de.md#search_user_roles).
+
+Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Lebenszyklus von der Löschung aus.
+
+
+[Zum Seitenanfang ^](#lifecycles)
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
+[Benutzer:in löschen >](../usermanagement/Delete_User.de.md)
+
+**Weiterführend**<br>
+[Benutzer konfigurieren >](../usermanagement/Configure_User.de.md)<br>
+[Benutzer-/Kontosuche >](../usermanagement/Search_Users.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)

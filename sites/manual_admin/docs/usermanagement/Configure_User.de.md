@@ -4,7 +4,7 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![Statusbadge, Identität, Organisation, Kontotyp und Anmeldename fassen das Konto zusammen, darunter öffnen 25 Reiter von Profil bis Korrekturaufträge die Konfiguration: Kontoeinstellungen einer Person in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
+![Kopfbereich mit Statusbadge, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge: Seite Kontoeinstellungen verwalten in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
 
 In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -31,12 +31,77 @@ Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und A
 Hier werden die vom/von der Benutzer:in vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
 Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
 
+Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Eine Anzahl verbleibender Tage steht hier nicht; die Fristen führt der Reiter "Konto". Bei inaktiven Konten blendet OpenOlat die Angabe aus. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Konto
 
-Hier ist z.B. der letzte Login ersichtlich und das Konto des/der Benutzer:in kann auf inaktiv gesetzt werden.  
+Der Reiter "Konto" zeigt den Zustand eines Kontos und den Punkt, an dem es im Lebenszyklus steht. Hier beurteilen Sie, ob und wann OpenOlat ein Konto automatisch deaktiviert oder löscht, und hier setzen Sie es manuell auf inaktiv.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
+
+#### Kontotyp {: #account_type }
+
+Der Kontotyp unterscheidet registrierte Konten, Gastkonten und eingeladene Konten. Ein eingeladenes Konto wandeln Sie über "In registriertes Konto umwandeln" um.
+
+#### Erstellt am {: #creation_date }
+
+Datum und Uhrzeit, zu der das Konto angelegt wurde.
+
+#### Letzter Login {: #last_login }
+
+Datum und Uhrzeit der letzten Anmeldung. Dieser Wert ist die Bezugsgrösse des automatischen Kontolebenszyklus. Bei Gastkonten entfällt die Angabe.
+
+#### Inaktivierungsdatum {: #inactivation_date }
+
+Datum, an dem das Konto deaktiviert wurde. Das Feld erscheint nur bei einem Konto, das bereits einmal deaktiviert war.
+
+#### Reaktivierungsdatum {: #reactivation_date }
+
+Datum, an dem ein deaktiviertes Konto wieder freigeschaltet wurde. Das Feld erscheint nur nach einer Reaktivierung.
+
+#### Status {: #account_status }
+
+Der Status steuert, ob sich die Person anmelden kann. Zur Auswahl stehen "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt". Bei Konten mit der Rolle Administrator:in, Systemadministrator:in oder Rollenverwalter:in lässt sich der Status nicht ändern.
+
+#### Kontoablauf {: #account_expiration }
+
+Hier hinterlegen Sie das Datum, an dem OpenOlat das Konto deaktivieren soll. Das eignet sich für befristete Zugänge, etwa für Gastdozierende oder Projektmitarbeit. Bei Administrator:innen, Systemadministrator:innen und Gastkonten steht das Feld nicht zur Verfügung.
+
+#### Tage bis zum Ablauf {: #days_until_expiry }
+
+Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "In 14 Tage". Liegt das Datum in der Vergangenheit, erscheint in Rot die Anzahl überfälliger Tage mit dem Hinweis, dass OpenOlat das Konto beim nächsten Durchlauf deaktiviert. Ohne Ablaufdatum entfällt das Feld.
+
+#### Automatischer Kontolebenszyklus {: #automatic_user_lifecycle }
+
+Dieser Abschnitt zeigt, wie der systemweite Lebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
+
+| Zustand | Anzeige | Bedeutung |
+|---------|---------|-----------|
+| Aktiv | "Letzter Login", "Tage bis Inaktivierung" | OpenOlat deaktiviert das Konto nach dieser Frist ohne Login automatisch. |
+| Reaktiviert | zusätzlich "Reaktivierungsdatum", die Frist trägt den Zusatz "(Karenzfrist)" | Das Konto wurde nach einer Deaktivierung wieder freigeschaltet und läuft in einer Schonfrist. |
+| Inaktiv | "Inaktivierungsdatum", "Tage bis Löschung" | Das Konto ist deaktiviert und wird nach dieser Frist automatisch gelöscht. |
+
+Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt fällig wird.
+
+"Tage bis Inaktivierung" erscheint nur bei aktivem Schalter "Konten nach Inaktivität deaktivieren", "Tage bis Löschung" nur bei aktivem Schalter "Inaktive Konten löschen". Beide Schalter finden Sie in der System-Administration unter:<br>
+`Administration > Lebenszyklen > Konto`
+
+Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfallen.
+
+Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis zum Ablauf" für das Datum, "Tage bis Inaktivierung" für den letzten Login.
+
+![Kontoablauf 31.12.2028 mit "In 837 Tage", darunter der Abschnitt Automatischer Kontolebenszyklus mit letztem Login und "In 710 Tage": Reiter Konto eines aktiven Kontos](assets/user_management_account_tab_active_v1_de.png){ class="shadow lightbox" }
+
+Nach einer Reaktivierung kommt das Reaktivierungsdatum dazu, und die Frist trägt den Zusatz "(Karenzfrist)".
+
+![Reaktivierungsdatum 16.09.2026 und die Frist "In 710 Tage, am 26.08.2028 (Karenzfrist)": Reiter Konto eines reaktivierten Kontos](assets/user_management_account_tab_reactivated_v1_de.png){ class="shadow lightbox" }
+
+Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an die Stelle der Inaktivierungsfrist.
+
+![Inaktivierungsdatum 16.09.2026 und die Frist "In 1101 Tage, am 21.09.2029": Reiter Konto eines inaktiven Kontos](assets/user_management_account_tab_inactive_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -99,6 +164,8 @@ Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer
 Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des/der Benutzer:in.
 Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
 
+Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Person. Durchführungen des Course Planners stehen dagegen im Reiter "Bildungsprodukte".
+
 [zum Seitenanfang ^](#user_configuration)
 
 
@@ -146,7 +213,7 @@ Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benut
 
 Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; über die vordefinierten Filter "Alle", "Gültig" und "Abgelaufen" lässt sich die Liste eingrenzen. Rechts über der Tabelle wird zwischen Kachel- und Tabellenansicht umgeschaltet. Über "Zertifikat hochladen" werden extern erworbene Zertifikate erfasst, damit das Profil den gesamten Leistungsnachweis abbildet.
 
-![Die Liste führt jedes Zertifikat mit Herkunft, Ausstellungsdatum und Status, der Button "Zertifikat hochladen" erfasst extern erworbene Nachweise: Reiter Zertifikate eines Kontos in der Benutzerverwaltung](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
+![Zertifikatsliste mit Herkunft, Ausstellungsdatum und Status, darüber der Button Zertifikat hochladen: Reiter Zertifikate eines Kontos](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -162,7 +229,7 @@ Unter diesem Reiter werden alle erworbenen Badges angezeigt.
 
 Ein Nachteilausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
 
-![Pflichtangaben sind "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und der Kurs, das Feld "Kursbaustein" grenzt den Ausgleich auf einen Test ein: Dialog "Nachteilsausgleich hinzufügen" im Reiter Nachteilsausgleich](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
+![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein: Dialog Nachteilsausgleich hinzufügen](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -206,11 +273,15 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 
 Hier finden Sie die Durchführungen des/der Benutzer:in. Die Liste zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-Die Liste folgt derselben Filterlogik wie im Coaching Tool, unterscheidet sich aber in zwei Spalten: die Spalte "Rollen" weist je Durchführung aus, in welcher Rolle die Person beteiligt ist, dafür fehlt die Spalte "Fortschritt". Ein Klick auf den Titel einer Durchführung öffnet deren Struktur mit den enthaltenen Kursen.
+Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ohne dieses Modul erscheint er nicht.
 
-!!! note "Filter und Spalten dieser Liste"
-    Welche Filter-Tabs die Liste bietet und was sie zeigen, beschreibt das Benutzerhandbuch.<br>
-    [Die Bildungsprodukte einer Person](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_products)
+Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Bildungsangebote die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Anders als dort tragen Sie die Person hier weder ein noch aus.
+
+![Markierter Reiter Bildungsprodukte, vorausgewählter Tab Relevant und die Spalte Rollen, Benutzerverwaltung](assets/user_management_educational_products_v1_de.png){ class="shadow lightbox" }
+
+Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Gegenüber dem Coaching Tool zeigt die Liste zusätzlich die Spalte "Rollen", die je Durchführung ausweist, in welcher Rolle die Person beteiligt ist. Dafür fehlen die Spalten "Favorit" und "Status" sowie die Tabs "Favoriten" und "Vorbereitung". Ein Klick auf den Titel einer Durchführung öffnet deren Struktur mit den enthaltenen Kursen.
+
+Was die einzelnen Tabs zeigen, beschreibt der Abschnitt [Die Liste filtern](../../manual_user/area_modules/Coaching_Educational_Products.de.md#filter) im Benutzerhandbuch.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -221,3 +292,23 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 
 [zum Seitenanfang ^](#user_configuration)
 
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Datenschutz >](Data_protection.de.md)<br>
+[Benutzer:in löschen >](Delete_User.de.md)<br>
+[E-Mail Einstellungen >](../administration/E-Mail_Settings.de.md)<br>
+[Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
+[Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
+[Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Rollen zuweisen >](Assign_roles.de.md)<br>
+[Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
+[Benutzerrollen >](index.de.md)<br>
+[Die Bildungsprodukte einer Person >](../../manual_user/area_modules/Coaching_People.de.md)
+
+**Weiterführend**<br>
+[Benutzer-/Kontosuche >](Search_Users.de.md)<br>
+[Benutzer:in erstellen >](Create_User.de.md)
+
+[zum Seitenanfang ^](#user_configuration)

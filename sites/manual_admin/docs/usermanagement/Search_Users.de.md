@@ -9,6 +9,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
     * [Quicksearch](#search_user_quick_search)
     * [Massensuche](#search_user_bulk_search)
     * [Suchergebnisse filtern](#search_user_filter_searchresults)
+    * [Spalten der Ergebnistabelle](#search_user_result_columns)
 
 
 
@@ -16,7 +17,11 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
 Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder durch Klick auf den Button "Suchen".
 
-![user_management_search_form_v2_de.png](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
+![Suchfelder von Anmeldename bis Kontoablauf, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung und Kontostatus: Kontosuche mit dem Suchformular](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
+
+Über der Ansicht stehen die Aktionen "Konto erstellen", "Konten importieren", "Temporäres Konto erstellen" und "Konten löschen".
+
+Das Feld "Kontoablauf" sucht nach dem Ablaufdatum der Konten. Die Auswahl links bestimmt die Richtung: "Kontoablauf in den nächsten" findet Konten, die demnächst ablaufen, "Inaktiv seit den letzten" findet Konten, deren Ablauf zurückliegt. Rechts geben Sie die Anzahl und die Einheit an, etwa 30 Tage.
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -25,11 +30,11 @@ Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"
 
 Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie eine Eingrenzung vor.
 
-![user_management_search_left_menu_v2_de.png](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
+![Linkes Menü mit den Einstiegen Organisationen, Organisationsrollen, Kursrollen, Gruppenrollen, Course Planner Rollen, Kontorollen, Kontotypen, Status und Vordefinierte Suchabfragen: Kontosuche](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
 
 ### Organisationen
 
-Verwendet eine OpenOlat Instanz mehrere "Organisationen", können die Benutzer hier entsprechend sortiert dargestellt werden.
+Verwendet eine OpenOlat Instanz mehrere "Organisationen", lassen sich die Konten hier danach sortiert darstellen.
 
 ### Organisationsrollen
 
@@ -85,10 +90,12 @@ Nutzt eine OpenOlat Instanz den Course Planner, stehen neben üblichen Kursrolle
 * Kursteilnehmer:innen
 
 
-### Kontorollen 
-(Vor Version 19.0: Benutzerrollen)
+### Kontorollen
 
-Je nach Konfiguration in der Administration im Bereich "[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können. Zum Beispiel:
+Je nach Konfiguration stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können. Sie richten sie in der System-Administration ein unter:<br>
+`Administration > Module > Benutzer zu Benutzer`, siehe [Module](../administration/Modules.de.md)
+
+Zum Beispiel:
 
 * Vorgesetze:r
 * Untergebene:r
@@ -121,20 +128,19 @@ Hier können angezeigt werden:
 
 
 
-![user_management_search_status_v2_de.png](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
+![Tabelle der gelöschten Konten mit Del_Anmeldename, Gelöscht am, Erstellt und Gelöscht von, links der aufgeklappte Eintrag Status: Kontosuche mit Status Gelöschte Konten](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
 
 
-Die Tabelle "**Gelöschte Benutzer**" in der Benutzerverwaltung enthält folgende
-Informationen (Spaltentitel), die im Prozess der Benutzer-Löschung relevant sind:
+Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spalten, die im Löschprozess eine Rolle spielen:
 
-  *  **Del_Anmeldename:**  Im Lösch-Prozess wird der Benutzername des gelöschten Nutzers durch eine ID ersetzt.
-  *  **Vorname / Nachname:**  Handelt es sich bei dem gelöschten um einen administrativen Benutzer, so werden Vor- und Nachname hier angezeigt. Diese Daten können bei Bedarf über die Aktion «Entfernen» ebenfalls gelöscht werden.
+  *  **Del_Anmeldename:** Im Löschprozess ersetzt OpenOlat den Anmeldenamen des gelöschten Kontos durch eine ID.
+  *  **Vorname / Nachname:** Trug das gelöschte Konto eine administrative Rolle, stehen Vor- und Nachname hier. Über die Aktion "Entfernen" löschen Sie auch diese Daten.
   *  **Gelöscht am:** Datum der Löschung
   *  **Letzte Anmeldung:** Datum der letzten Anmeldung
   *  **Erstellt:** Datum der Kontenerstellung
-  *  **Rollen:**  Anzeige der administrativen Rollen der Person, die gelöscht wurde
+  *  **Rollen:** Die administrativen Rollen des gelöschten Kontos
   *  **Gelöscht von:** Person, die die Löschung vorgenommen hat
-  *  **Filter entfernen:**  Aktion zur Löschung des Vor- und Nachnamens von administrativen Benutzern.
+  *  **Filter entfernen:** Aktion, die Vor- und Nachname administrativer Konten löscht.
 
 
 !!! tip "Spaltentitel anzeigen"
@@ -149,9 +155,9 @@ Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabf
 
 * Konten ohne Gruppen
 * Fehlende Authentifizierung
-* Benutzer, welche in der letzten Woche neu dazugekommen sind
-* Benutzer, welche im letzten Monat  neu dazugekommen sind
-* Benutzer, welche im letzten Halbjahr neu dazugekommen sind
+* Konten, welche in der letzten Woche neu dazugekommen sind
+* Konten, welche im letzten Monat neu dazugekommen sind
+* Konten, welche im letzten Halbjahr neu dazugekommen sind
 * Neue Konten
 
 [Zum Seitenanfang ^](#search_user)
@@ -161,14 +167,14 @@ Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabf
 
 Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das Feld "Quick Search" ein.
 
-![user_management_quick_search_v2_de.png](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
+![Markiertes Eingabefeld mit dem Button Quick Search über den übrigen Suchfeldern: Kontosuche mit dem Suchformular](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
 
 ## Massensuche {: #search_user_bulk_search}
 
-![user_management_bulk_search_v2_de.png](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
+![Markierter Link Massensuche neben der Überschrift Kontosuche: Suchformular](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -177,10 +183,49 @@ Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das
 
 Wird nach einer Suchaktion eine Liste mit den Suchergebnissen angezeigt, kann darin mit Hilfe von Filtern die Auswahl in einem zweiten Schritt weiter spezifiziert werden.<br>
 **Beispiel**:<br>
-Sie suchen im ersten Schritt alle Benutzer, die einer bestimmten Organisationseinheit angehören.
-Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Benutzer dieser Organisationseinheit heraus.
- 
-![user_management_filter_searchresults_v2_de.png](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
+Sie suchen im ersten Schritt alle Konten, die einer bestimmten Organisationseinheit angehören.<br>
+Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser Organisationseinheit heraus.
+
+![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt: Suchergebnis der Kontosuche](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
+
+Über der Trefferliste stehen die Registerkarten "Alle", "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt" sowie die Filter "Status", "Organisationen" und "Inaktivierung". Der Filter "Inaktivierung" grenzt auf einen Zeitraum ein, in dem Konten deaktiviert wurden oder deaktiviert werden.
 
 [Zum Seitenanfang ^](#search_user)
 
+
+## Spalten der Ergebnistabelle {: #search_user_result_columns}
+
+Die Trefferliste führt neben den Personendaten fünf Spalten zum Lebenszyklus eines Kontos. Sie stehen in dieser Reihenfolge und beantworten die Frage, wann OpenOlat ein Konto automatisch deaktiviert oder löscht. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+
+| Spalte | Bedeutung |
+|--------|-----------|
+| Kontoablauf | Das pro Konto hinterlegte Ablaufdatum. |
+| Tage bis Ablauf | Verbleibende Tage bis zu diesem Datum. |
+| Tage bis Inaktivierung | Verbleibende Tage, bis OpenOlat das Konto wegen Inaktivität deaktiviert. Nur vorhanden bei aktivem Schalter "Konten nach Inaktivität deaktivieren". |
+| Inaktivierungsdatum | Datum, an dem das Konto deaktiviert wurde. |
+| Tage bis Löschung | Verbleibende Tage bis zur automatischen Löschung. Nur vorhanden bei aktivem Schalter "Inaktive Konten löschen". |
+
+Die beiden Schalter setzen Sie in der System-Administration unter:<br>
+`Administration > Lebenszyklen > Konto`, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+
+Alle fünf Spalten sind ab Werk ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
+
+Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, dort unter der Beschriftung "Tage bis zum Ablauf", siehe [Benutzer konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
+
+[Zum Seitenanfang ^](#search_user)
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
+[Gruppenverwaltung >](../../manual_user/groups/Group_Administration.de.md)<br>
+[Module >](../administration/Modules.de.md)<br>
+[Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Benutzer konfigurieren >](Configure_User.de.md)
+
+**Weiterführend**<br>
+[Benutzer:in erstellen >](Create_User.de.md)<br>
+[Benutzer:in löschen >](Delete_User.de.md)
+
+[Zum Seitenanfang ^](#search_user)

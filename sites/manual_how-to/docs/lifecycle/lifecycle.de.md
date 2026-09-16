@@ -4,7 +4,7 @@
 
     Sie sollten mit dieser Anleitung
 
-    * wissen, was man in OpenOlat unter Lebenszyklen versteht, 
+    * wissen, was man in OpenOlat unter Lebenszyklen versteht,
     * in der Lage sein, ein Lebenszyklenmanagement einzurichten.
 
 ??? abstract "Zielgruppe"
@@ -24,7 +24,7 @@ In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 * **Kurse**
 * **Benutzerkonten**
 
-OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder ein Benutzer lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
+OpenOlat überwacht, ob eine Gruppe oder ein Kurs länger nicht benutzt wurde oder sich an einem Konto lange niemand mehr angemeldet hat. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
 
 
 
@@ -32,84 +32,84 @@ OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde od
 
 Erreicht ein Kurs, eine Gruppe oder ein Konto das "end of life", werden folgende Stufen/Phasen eingehalten:
 
-- **Inaktivierung**<br> 
+- **Inaktivierung**<br>
 Bei der Inaktivierung wird der Status von "Aktiv" auf "Inaktiv" gestellt und die Gruppenmitglieder können z.B. nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen, Konten oder Kurse können vollständig reaktiviert werden.
-- **Löschung**<br> 
+- **Löschung**<br>
 Beim Löschen werden z.B. alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.
-- **Endgültige Löschung**<br> 
+- **Endgültige Löschung**<br>
 Beim unwiderruflichen Löschen wird die Gruppe, das Konto oder der Kurs vollständig entfernt.
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
 
-## Wo und wie werden die Lebenszyklen eingerichtet?
+## Wo und wie werden die Lebenszyklen eingerichtet? {: #lifecycle_setup}
 
 ### Generelle Aktivierung und Einstellung {: #lifecycle_activation}
 
-Die generelle Aktivierung und Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen wird vom Administrator eingestellt unter: 
-**Administration > Lebenszyklen**
+Die generelle Aktivierung und die Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen nimmt die Administration vor. Sie finden die Einstellungen in der System-Administration unter:<br>
+`Administration > Lebenszyklen`
 
-Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzelne** Kurse, Gruppen oder Benutzer Lebenszyklen aktiviert werden.
+Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzelne** Kurse, Gruppen oder Konten Lebenszyklen aktiviert werden.
 
-![lifecycle_benutzer_admin_v1_de.png](assets/lifecycle_benutzer_admin_v1_de.png){ class="shadow lightbox" }
+![Markierter Bereich Kontoablauf mit Erklärtext und täglicher Ausführungszeit, darunter die Ja/Nein-Auswahl für die Benachrichtigung: Seite Konto in der System-Administration](assets/lifecycle_benutzer_admin_v2_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
 
-### Gruppen-Lifecycle {: #group_lifestyle} 
+### Gruppen-Lifecycle {: #group_lifestyle}
 
-Die Betreuung des Gruppen-Lifecycles erfolgt durch Gruppenverwalter im Menü **Gruppen > Tab "Gruppenverwaltung"**<br>
-(auf Grundlage der Voreinstellungen des Administrators).
+Die Betreuung des Gruppen-Lifecycles erfolgt durch Gruppenverwalter:innen, auf Grundlage der Voreinstellungen der Administration, unter:<br>
+`Gruppen > Tab "Gruppenverwaltung"`
 
-Klicken Sie im Menü **"Gruppen" > Tab "Gruppenverwaltung"** auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen des Administrators wieder.
+Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen der Administration wieder.
 
-* Im ersten Schritt (1. Pfeil) finden Sie alle aktiven Gruppen aufgelistet. 
-* Ihm Tab "Zu inaktivieren" des 1. Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Kurse (gemäss den Regeln des Administrators).
+* Im ersten Schritt (1. Pfeil) finden Sie alle aktiven Gruppen aufgelistet.
+* Im Reiter "Zu inaktivieren" des 1. Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln der Administration.
 * Selektieren Sie eine oder mehrere Gruppen, erscheinen Buttons oberhalb der Liste.
-* Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren und über die bevorstehende Deaktivierung informieren.  
+* Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren und über die bevorstehende Deaktivierung informieren.
 
-![lifecycle_gruppen_aktiv_v1_de.png](assets/lifecycle_gruppen_aktiv_v1_de.png){ class="shadow lightbox" }
+![Drei Pfeile für aktive, inaktive und gelöschte Gruppen mit den eingestellten Fristen, darunter der markierte Reiter Zu inaktivieren mit den Buttons zum Inaktivieren: Tab Gruppenverwaltung](assets/lifecycle_gruppen_aktiv_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
 * Im zweiten Schritt (2. Pfeil) finden Sie alle bereits **inaktiven** Gruppen aufgelistet.
-* Wurden vom System Gruppen automatisch auf den Status "inaktiv" gesetzt, besteht hier auch die Möglichkeit, Gruppen wieder zu reaktivieren.  
+* Wurden vom System Gruppen automatisch auf den Status "inaktiv" gesetzt, besteht hier auch die Möglichkeit, Gruppen wieder zu reaktivieren.
 
-![lifecycle_gruppen_inaktiv_v1_de.png](assets/lifecycle_gruppen_inaktiv_v1_de.png){ class="shadow lightbox" }
+![Zweiter Pfeil Inaktive Gruppen aktiv, die Liste zeigt Inaktiviert am und Löschungsdatum, der Button Reaktivieren steht rechts: Tab Gruppenverwaltung](assets/lifecycle_gruppen_inaktiv_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
 * Im dritten Schritt (3. Pfeil) finden Sie alle **gelöschten** Gruppen aufgelistet.
-* Diese Liste entspricht dem "Papierkorb". Die Gruppen können nun - automatisch oder manuell - endgültig gelöscht werden.
+* Diese Liste entspricht dem "Papierkorb". Die Gruppen lassen sich hier automatisch oder manuell endgültig löschen.
 
-![lifecycle_gruppen_geloescht_v1_de.png](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" }
+![Dritter Pfeil Gelöschte Gruppen aktiv, die Liste nennt Gelöscht am und Datum Unwiderrufliches Löschen: Tab Gruppenverwaltung](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
 
-### Kurs-Lifecycle {: #course_lifecycle} 
+### Kurs-Lifecycle {: #course_lifecycle}
 
 Die Nutzung des Kurs-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
 
-Grundlage sind die Voreinstellungen des Administrators:
+Grundlage sind die Voreinstellungen der Administration:
 
-![lifecycle_kurs_admin_v1_de.png](assets/lifecycle_kurs_admin_v1_de.png){ class="shadow lightbox" }
+![Die drei Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen mit Frist und Einheit, darunter die erzwungene Benachrichtigung der Besitzenden: Seite Kurse in der System-Administration](assets/lifecycle_kurs_admin_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-* Kurse mit dem Status "Gelöscht" werden in einer eigenen Liste "Gelöscht" (= "Papierkorb") gespeichert.   
+* Kurse mit dem Status "Papierkorb" werden im Reiter "Gelöscht" des Autorenbereichs gesammelt.
 * Sobald Sie einen Kurs ausgewählt und die Checkbox am Beginn der Zeile markiert haben, erscheinen über der Liste weitere Buttons. Sie können hier einen Kurs wieder herstellen oder endgültig löschen.
-* Auch durch Klick auf die 3 Punkte am Ende einer Zeile gelangen Sie zu den Optionen für das Wiederherstellen oder dauerhafte Löschen. 
+* Auch durch Klick auf die 3 Punkte am Ende einer Zeile gelangen Sie zu den Optionen für das Wiederherstellen oder dauerhafte Löschen.
 
-![lifecycle_kurs_autorenbereich_v1_de.png](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" }
+![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Zeilenmenü: Autorenbereich](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
@@ -120,30 +120,35 @@ Die Nutzung des Benutzerkonten-Lifecycles kann durch alle Personen erfolgen, die
 
 Grundlage sind die Voreinstellungen der Administration:
 
-![lifecycle_benutzer2_admin_v1_de.png](assets/lifecycle_benutzer2_admin_v1_de.png){ class="shadow lightbox" }
+![Markierter Bereich Automatischer Kontolebenszyklus mit Erklärtext und Ausführungszeit, darunter der eingeschaltete Schalter und die Frist: Seite Konto](assets/lifecycle_benutzer2_admin_v2_de.png){ class="shadow lightbox" }
 
 <br>
 
-Der Lebenszyklus eines Benutzerkontos läuft in drei Phasen ab:
+Die Konfiguration steht in zwei getrennten Bereichen. Der Bereich **Kontoablauf** greift, wenn ein Konto sein hinterlegtes Ablaufdatum erreicht. Der Bereich **Automatischer Kontolebenszyklus** greift, wenn sich niemand mehr am Konto anmeldet. Es greift, was zuerst eintritt. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
-* **Kontoablauf** — Ein festes Ablaufdatum wird pro Konto oder systemweit festgelegt. Läuft das Datum ab, wird das Konto deaktiviert oder gelöscht.
-* **Deaktivierung** — Konten ohne Login-Aktivität während der konfigurierten Inaktivitätsfrist werden automatisch oder manuell deaktiviert.
-* **Löschung** — Nach der Deaktivierungsperiode erfolgt die endgültige Löschung automatisch oder manuell. Je nach Konfiguration kann sie auch ausschliesslich manuell ausgelöst werden.
+Daraus ergeben sich drei Phasen:
 
-Zu jeder Phase können Benachrichtigungsmails konfiguriert werden — vor oder nach dem jeweiligen Schritt.
+* **Kontoablauf**: Das Ablaufdatum wird pro Konto hinterlegt. Ist es erreicht, deaktiviert OpenOlat das Konto.
+* **Deaktivierung**: Konten ohne Anmeldung während der Inaktivitätsfrist werden automatisch oder manuell deaktiviert.
+* **Löschung**: Nach der Deaktivierungsperiode erfolgt die endgültige Löschung automatisch oder manuell. Je nach Konfiguration lässt sie sich auch ausschliesslich manuell auslösen.
+
+Zu jeder Phase können Benachrichtigungsmails konfiguriert werden, vor oder nach dem jeweiligen Schritt.
+
+Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Benutzer konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
 !!! info "Konfiguration in der Administration"
 
-    Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen werden unter Administration > Lebenszyklen > Konto eingestellt.<br>
+    Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen stellen Sie in der System-Administration ein unter:<br>
+    `Administration > Lebenszyklen > Konto`<br>
     [Details zum Benutzerkonten-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
 ## Benachrichtigungen {: #lifecycle_messages}
 
-Um unbeabsichtigtes Löschen bestmöglich zu vermeiden, können zu jeder Stufe/Phase der Vorbereitung des Löschens die betroffenen Personen informiert werden. 
+Um unbeabsichtigtes Löschen bestmöglich zu vermeiden, können zu jeder Stufe/Phase der Vorbereitung des Löschens die betroffenen Personen informiert werden.
 
 **Benachrichtigungs-Einstellungen für Kurse:**<br>
 Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informiert werden.
@@ -164,29 +169,41 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 - jeweils optionale Mail-Kopie an beliebige Adressen
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
 
 ---
 
 
-## Checkliste {: #checklist} 
+## Checkliste {: #checklist}
 
 **Gruppen-Lifecycle**
 
-- [x] durch Administrator:in : generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Gruppen** 
-- [x] durch Gruppenverwalter:in : Einrichtung im **Menü "Gruppen" > Tab "Gruppenverwaltung"**
+- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
+- [x] durch Gruppenverwalter:in: Einrichtung unter `Gruppen > Tab "Gruppenverwaltung"`
 - [x] Benachrichtigung der betroffenen Benutzer konfigurieren
 
 **Kurs-Lifecycle**
 
-- [x] durch Administrator:in : generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Kurse** 
-- [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: im **Autorenbereich > Tab "Gelöschte"** Kurse markieren und löschen
+- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
+- [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: unter `Autorenbereich > Tab "Gelöscht"` Kurse markieren und löschen
 - [x] Benachrichtigung der betroffenen Benutzer konfigurieren
 
 **Benutzerkonten-Lifecycle**
 
-- [x] durch Administrator:in : Generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Konto** 
-- [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: je nach Konfiguration von OpenOlat erkannte inaktive Benutzer manuell deaktivieren/löschen (**Benutzerverwaltung > Benutzer wählen > Tab Konto**)
+- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
+- [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: erkannte inaktive Konten manuell deaktivieren oder löschen unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`
 - [x] Benachrichtigung der betroffenen Benutzer konfigurieren
 
-[Zum Seitenanfang ^](#lifecycle)
+[Zum Seitenanfang ^](#lifecycles)
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Lebenszyklen: Administration >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
+[Benutzer konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
+
+**Weiterführend**<br>
+[Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)<br>
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)
+
+[Zum Seitenanfang ^](#lifecycles)
