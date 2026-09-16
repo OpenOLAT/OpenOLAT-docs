@@ -17,7 +17,7 @@ nav:
       - Guest access: "basic_concepts/guest_access.md"
     - Account:
       - Session Timeout and Logout: "basic_concepts/Session_Timeout_and_Logout.md"  
-    - Framework:
+    - Platform-wide features:
       - Navigation: "basic_concepts/Navigation.md"
       - Search:
         - General information on the search: "basic_concepts/Search_General.md"

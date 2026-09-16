@@ -14,9 +14,9 @@ Not all users can do everything in OpenOlat. There are different roles, each wit
 
 Here you can learn more about login, sessions, timeout, etc.
 
-## [Framework](Navigation.md)
+## [Platform-wide features](Navigation.md)
 
-Here you can find information about cross-platform features such as chat, search function, etc.
+Here you can learn more about features and concepts that apply throughout the platform, independent of a single course or group: navigation, search, chat, folders and more.
 
 ## [Technology](Technology.md)
 

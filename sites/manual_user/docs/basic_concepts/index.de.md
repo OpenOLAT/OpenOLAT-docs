@@ -14,9 +14,9 @@ Nicht alle Benutzer:innen können in OpenOlat alles ausführen. Es gibt verschie
 
 Hier erfahren Sie mehr über Login, Sessions, Timeout, usw.
 
-## [Framework](Navigation.de.md)
+## [Übergreifende Funktionen](Navigation.de.md)
 
-Hier finden Sie Informationen zu den plattformübergreifenden Funktionen wie Chat, Suchfunktion usw.
+Hier erfahren Sie mehr über Funktionen und Konzepte, die in der ganzen Plattform gelten, unabhängig von einem einzelnen Kurs oder einer Gruppe: Navigation, Suche, Chat, Ordner und mehr.
 
 ## [Technologie](Technology.de.md)
 
