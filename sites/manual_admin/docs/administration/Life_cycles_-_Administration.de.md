@@ -87,9 +87,9 @@ Die Reaktivierung setzt den Kontostatus zurück auf "Aktiv". Die Person meldet s
 Ein Konto reaktivieren Sie manuell unter:<br>
 `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`
 
-Nach einer Reaktivierung läuft eine Karenzfrist. In dieser Zeit deaktiviert der automatische Kontolebenszyklus das Konto nicht erneut, und der Reiter "Konto" weist die Frist mit dem Zusatz "(Karenzfrist)" aus. Ohne abweichende Einstellung dauert sie 30 Tage.
+Nach einer Reaktivierung hat die Person 30 Tage Zeit, sich anzumelden. In dieser Karenzfrist lässt der automatische Kontolebenszyklus das Konto stehen, und der Reiter "Konto" weist die Frist mit dem Zusatz "(Karenzfrist)" aus. Verstreicht die Frist ohne Anmeldung, deaktiviert OpenOlat das Konto erneut.
 
-Die Länge der Karenzfrist steht in der Konfigurationsdatei der Instanz, nicht in der Administration. Wenden Sie sich für eine Änderung oder für Auskunft über den geltenden Wert an frentix: [contact@frentix.com](mailto:contact@frentix.com)
+Die 30 Tage sind systemweit festgelegt und gelten für alle Konten.
 
 Daten entfernt erst die Löschung. Sie löscht auch das Passwort unwiderbringlich, siehe [Benutzer:in löschen >](../usermanagement/Delete_User.de.md).
 

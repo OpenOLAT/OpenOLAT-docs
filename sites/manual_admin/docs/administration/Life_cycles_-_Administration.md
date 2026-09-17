@@ -86,9 +86,9 @@ You reactivate an account manually under:<br>
 
 If the person logs in via Shibboleth, OpenOlat reactivates the inactive account automatically.
 
-After a reactivation a grace period runs. During this time the automatic user lifecycle does not deactivate the account again, and the "Account" tab marks the period with the addition "(grace period)". Without a deviating setting it lasts 30 days.
+After a reactivation the person has 30 days to log in. During this grace period the automatic user lifecycle leaves the account in place, and the "Account" tab marks the period with the addition "(grace period)". If the period passes without a login, OpenOlat deactivates the account again.
 
-The length of the grace period is held in the configuration file of the instance, not in the administration. For a change, or for information about the value in force, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com)
+The 30 days are set system-wide and apply to all accounts.
 
 Only deletion removes data. It also deletes the password irrevocably, see [Delete user >](../usermanagement/Delete_User.md).
 
