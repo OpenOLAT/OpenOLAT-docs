@@ -1,5 +1,11 @@
 # Catalog 1.0 {: #catalog_1}
 
+!!! warning "Catalog 2.0 replaces Catalog 1.0"
+
+    Catalog 1.0 is deprecated. It is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0.md).
+
+    You still use Catalog 1.0 if the course settings show the "Catalog" tab with the "Add to catalog" button. The [image in the section "Enter a course in the Catalog 1.0"](#enter_course) shows both. Catalog 2.0 instead opens with a search field in the header. The administration decides which version is active: `Administration > Modules > Catalog > Tab "Settings"`.
+
 :octicons-device-camera-video-24: **Video introduction (German)**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank"}
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Kurs in Katalog eintragen](<https://www.youtube.com/embed/hc5yJAPIX9s>){:target="_blank"}
@@ -21,7 +27,7 @@ Administrators or catalog administrators prepare the structure of the catalog an
 Course owners can then link their courses within the predefined structure.
 
 
-## Enter a course in the Catalog 1.0
+## Enter a course in the Catalog 1.0 {: #enter_course}
 
 To add a course to the catalog, open the "Catalog" tab of the course settings as course owner:<br>
 `Course > Administration > Settings > Tab "Catalog"`
@@ -92,9 +98,9 @@ Users can call up the Catalog 1.0 via the top menu and navigate to the desired p
 The display is possible both as a list view and as a table view. In each case, further information is displayed, e.g. on the learning progress in learning paths, the implementation format, the time period, whether the course has already been passed, and further information stored in the course settings. The "Learn more" button takes users to the course info page.
 
 
-!!! note "Catalog 2.0"
+!!! warning "Catalog 2.0 replaces Catalog 1.0"
 
-    Information on creating offers in Catalog 2.0 can be found [here](../area_modules/catalog2.0_angebote.md).
+    Catalog 1.0 is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0.md). The page [Catalog 2.0: Offers](catalog2.0_angebote.md) describes how to create offers there.
 
 [To the top of the page ^](#catalog_1)
 

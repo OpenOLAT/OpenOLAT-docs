@@ -1,5 +1,11 @@
 # Katalog 1.0 {: #catalog_1}
 
+!!! warning "Katalog 2.0 löst den Katalog 1.0 ab"
+
+    Der Katalog 1.0 ist veraltet. Er wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0.de.md) ein.
+
+    Sie nutzen noch den Katalog 1.0, wenn die Kurseinstellungen den Tab "Katalog" mit dem Button "In Katalog einfügen" zeigen. Das [Bild im Abschnitt "Kurs in den Katalog 1.0 eintragen"](#enter_course) zeigt beides. Der Katalog 2.0 öffnet stattdessen mit einem Suchfeld im Kopfbereich. Welche Version aktiv ist, legt die Administration fest: `Administration > Module > Katalog > Tab "Einstellungen"`.
+
 :octicons-device-camera-video-24: **Video-Einführung**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank"}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kurs in Katalog eintragen](<https://www.youtube.com/embed/hc5yJAPIX9s>){:target="_blank"}
@@ -21,7 +27,7 @@ Administrator:innen oder Katalogverwalter:innen bereiten die Struktur des Katalo
 Kursbesitzer:innen können dann ihre Kurse innerhalb der vordefinierten Struktur verknüpfen.
 
 
-## Kurs in den Katalog 1.0 eintragen
+## Kurs in den Katalog 1.0 eintragen {: #enter_course}
 
 Um einen Kurs dem Katalog hinzuzufügen, öffnen Sie als Kursbesitzer:in den Tab "Katalog" der Kurseinstellungen:<br>
 `Kurs > Administration > Einstellungen > Tab "Katalog"`
@@ -92,9 +98,9 @@ Benutzer:innen können den Katalog 1.0 über das obere Menü aufrufen und zur ge
 Die Darstellung ist sowohl als Listen- als auch als Tabellenansicht möglich. Angezeigt werden dabei jeweils weitere Informationen z.B. zum Lernfortschritt in Lernerlebnispfaden, dem Durchführungsformat, dem Zeitabschnitt, ob der Kurs bereits bestanden wurde sowie weitere Informationen, die in den Kurseinstellungen hinterlegt wurden. Über den Button "Mehr erfahren" gelangen Benutzer:innen zur Kursinfo-Seite.
 
 
-!!! note "Katalog 2.0"
+!!! warning "Katalog 2.0 löst den Katalog 1.0 ab"
 
-    Informationen zum Erstellen von Angeboten im Katalog 2.0 finden Sie [hier](../area_modules/catalog2.0_angebote.de.md).
+    Der Katalog 1.0 wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0.de.md) ein. Wie Sie dort Angebote erstellen, beschreibt die Seite [Katalog 2.0: Angebote](catalog2.0_angebote.de.md).
 
 [Zum Seitenanfang ^](#catalog_1)
 
