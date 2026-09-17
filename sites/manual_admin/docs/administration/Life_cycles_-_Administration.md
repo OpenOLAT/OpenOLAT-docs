@@ -1,6 +1,6 @@
 # Life cycles - Overview {: #lifecycles}
 
-![admin_lifecycles_overview_v1_de.png](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![The three entries Groups, Courses and Account are listed under the Life cycles menu item: Life cycles menu in the system administration](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 The following life cycles can be administered in this section:
 
@@ -86,7 +86,7 @@ You reactivate an account manually under:<br>
 
 If the person logs in via Shibboleth, OpenOlat reactivates the inactive account automatically.
 
-After a reactivation the person has 30 days to log in. During this grace period the automatic user lifecycle leaves the account in place, and the "Account" tab marks the period with the addition "(grace period)". If the period passes without a login, OpenOlat deactivates the account again.
+If the automatic deactivation is switched on, the person has 30 days to log in after a reactivation. During this time the automatic user lifecycle leaves the account in place, and the "Account" tab shows the remaining days with the addition "(grace period)". If no login occurs, OpenOlat deactivates the account again.
 
 The 30 days are set system-wide and apply to all accounts.
 

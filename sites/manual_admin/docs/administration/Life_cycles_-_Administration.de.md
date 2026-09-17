@@ -87,7 +87,7 @@ Die Reaktivierung setzt den Kontostatus zurück auf "Aktiv". Die Person meldet s
 Ein Konto reaktivieren Sie manuell unter:<br>
 `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`
 
-Nach einer Reaktivierung hat die Person 30 Tage Zeit, sich anzumelden. In dieser Karenzfrist lässt der automatische Kontolebenszyklus das Konto stehen, und der Reiter "Konto" weist die Frist mit dem Zusatz "(Karenzfrist)" aus. Verstreicht die Frist ohne Anmeldung, deaktiviert OpenOlat das Konto erneut.
+Bei eingeschalteter automatischer Deaktivierung hat die Person nach einer Reaktivierung 30 Tage Zeit, sich anzumelden. In dieser Zeit lässt der automatische Kontolebenszyklus das Konto stehen, und der Reiter "Konto" weist die verbleibenden Tage mit dem Zusatz "(Karenzfrist)" aus. Erfolgt keine Anmeldung, deaktiviert OpenOlat das Konto erneut.
 
 Die 30 Tage sind systemweit festgelegt und gelten für alle Konten.
 
