@@ -1,8 +1,8 @@
 # Automatischer Gruppenlebenszyklus
 
-Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Stationen: Erstellung, aktiv, Inaktivierung, Löschung als Markierung und endgültige Löschung.
+Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung.
 
-![Fünf Stationen des Gruppenlebenszyklus, von der Erstellung bis zur endgültigen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
+![Fünf Schritte des Gruppenlebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
 
 
 !!! note "Hinweis"
@@ -17,7 +17,7 @@ Berechtigte Personen (Gruppenverwalter:innen, Administrator:innen) erhalten bei 
 
 ![Drei Statuspfeile mit ihren Fristen und die Filterzeile darunter, Tab Gruppenverwaltung im Bereich Gruppen](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
 
-Durch Klick auf einen der 3 Pfeile (Phasen/Status) werden alle vorhandenen Gruppen sortiert in 3 Kategorien aufgelistet:
+Durch Klick auf einen der 3 Pfeile werden alle vorhandenen Gruppen sortiert in 3 Kategorien aufgelistet:
 
 * I. Aktive Gruppen
 * II. Inaktive Gruppen
@@ -25,7 +25,7 @@ Durch Klick auf einen der 3 Pfeile (Phasen/Status) werden alle vorhandenen Grupp
 
 Unterhalb der Pfeile grenzen Filter die Liste weiter ein, bei aktiven Gruppen zum Beispiel "Länger ohne Aktivität", "Zu inaktivieren" oder "Innerhalb Reaktionsfrist".
 
-Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die von der Administrator:in für diese Phase eingerichtet wurde.
+Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die Administrator:innen für diesen Schritt eingerichtet haben.
 
 
 ## Konfiguration
@@ -62,7 +62,7 @@ Die Konfiguration umfasst 4 Abschnitte:
 * **4 Unwiderrufliche Löschung**<br>
   Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.<br>
   **Optionen:**
-    * Anzahl der Tage, die eine Gruppe im Status "Gelöscht" verbleibt, bis sie endgültig gelöscht wird
+    * Anzahl der Tage, die eine Gruppe im Status "Gelöscht" verbleibt, bis sie unwiderruflich gelöscht wird
     * automatische oder manuelle Löschung?
 
 Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen Teil des Konfigurationsscreens (für Administrator:innen) zusammengefasst, als auch in den Pfeilen im Tab "Gruppenverwaltung", das Gruppenverwalter:innen und Administrator:innen unter der Hauptnavigation in "Gruppen" sehen.
@@ -75,7 +75,7 @@ Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen T
 
   *  **inaktiv:** Die Gruppe ist inaktiv. Eine Mail wird verschickt (falls so konfiguriert). Wenn niemand mehr etwas an dieser Gruppe ändert, wird sie gelöscht.
 
-  *  **gelöscht:** Im Status "gelöscht" ist die Gruppe wiederherstellbar. Allerdings sind nicht alle Daten wiederherstellbar. Nach 2 Tagen wird diese Gruppe komplett gelöscht.
+  *  **gelöscht:** Im Status "gelöscht" ist die Gruppe wiederherstellbar. Allerdings sind nicht alle Daten wiederherstellbar. Nach 2 Tagen wird diese Gruppe unwiderruflich gelöscht.
 
 
 

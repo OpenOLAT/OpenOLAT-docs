@@ -49,7 +49,7 @@ Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von ano
 
 ## Selbstregistration {: #self-registration}
 
-Hier können Administrator:innen die Selbstregistration aktivieren, sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. die Gültigkeitsdauer eines Kontos bei Selbstregistrierung eingeschränkt werden (Standardwert für die Konto-Gültigkeit).
+Hier können Administrator:innen die Selbstregistration aktivieren, sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
 
 [Zu den Details >](../administration/Login_Self-Registration.de.md)<br>
 [Zum Seitenanfang ^](#login)

@@ -38,7 +38,7 @@ Hier kann man die Vorlagen nach Kategorien einteilen. Badge-Vorlagen mit gleiche
 
 #### Anwendungsbereich {: #scope }
 
-Der Anwendungsbereich legt fest, ob ein Badge global (für das Ausstellen auf Instanzebene) oder für Kurse verfügbar sein soll.
+Der Anwendungsbereich legt fest, ob ein Badge global (für das Ausstellen in der ganzen OpenOlat-Instanz) oder für Kurse verfügbar sein soll.
 
 [Zum Seitenanfang ^](#badges)
 
@@ -53,20 +53,20 @@ Globale Badges können in einem separaten Tab eingesehen werden, ebenso ihr Stat
 
 ### Erstellen und Bearbeiten eines globalen Badges
 
-Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufügen". Er startet das Badge-Tool (Wizard) mit den folgenden Schritten:
+Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufügen". Er startet den Wizard mit den folgenden Schritten:
 
 1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
-![Auswahl einer Vorlage oder Hochladen eines eigenen Bilds, Schritt "Bild" im Badge-Tool für globale Badges](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
+![Auswahl einer Vorlage oder Hochladen eines eigenen Bilds, Schritt "Bild" im Wizard für globale Badges](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
 2. **Anpassung**: Wenn die Vorlage entsprechend erstellt wurde, können Sie Farben und Text während der Erstellung des Badges ändern.
-![Anpassung von Hintergrundfarbe und Titel des Badges mit Vorschau, Schritt "Anpassung" im Badge-Tool für globale Badges](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
+![Anpassung von Hintergrundfarbe und Titel des Badges mit Vorschau, Schritt "Anpassung" im Wizard für globale Badges](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
 3. **Vergabekriterien**: Geben Sie die Kriterien und die Erklärung für die von Ihnen gewählten Regeln an. Im Unterschied zu Badges, die von Autor:innen in einem Kurs vergeben werden, können globale Badges z.B. auch kursübergreifend für das Bestehen mehrerer Kurse vergeben werden.
-![Kriterien-Beschreibung und Vergabeverfahren automatisch oder manuell, Schritt "Vergabekriterien" im Badge-Tool für globale Badges](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
+![Kriterien-Beschreibung und Vergabeverfahren automatisch oder manuell, Schritt "Vergabekriterien" im Wizard für globale Badges](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
 4. **Details & Validierungszeitraum:** Obligatorische Details sind der Name und die Beschreibung des Badge sowie der Aussteller. Sie können zusätzlich eine URL und einen Kontakt zu den Ausstellereigenschaften hinzufügen. Die Gültigkeitsdauer kann auch so festgelegt werden, dass sie nie abläuft oder z.B. 12 Monate beträgt.
-![Details wie Name, Beschreibung, Aussteller und Verfall des Badges, Schritt "Details" im Badge-Tool für globale Badges](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
+![Details wie Name, Beschreibung, Aussteller und Verfall des Badges, Schritt "Details" im Wizard für globale Badges](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
 5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung der wichtigen Details.
-![Zusammenfassung der Details und Vergabekriterien vor dem Erstellen, Schritt "Zusammenfassung" im Badge-Tool für globale Badges](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
+![Zusammenfassung der Details und Vergabekriterien vor dem Erstellen, Schritt "Zusammenfassung" im Wizard für globale Badges](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
 6. **Empfänger**: Zeigt die Empfänger in einer Tabelle an, um zu sehen, welche Teilnehmer:innen sich bereits gemäss der von Ihnen gewählten Kriterien qualifiziert haben.
-![Tabelle der Teilnehmer:innen, die den Badge gemäss den gewählten Kriterien bereits erhalten, Schritt "Empfänger" im Badge-Tool für globale Badges](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
+![Tabelle der Teilnehmer:innen, die den Badge gemäss den gewählten Kriterien bereits erhalten, Schritt "Empfänger" im Wizard für globale Badges](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
 
 
 ### Globale Badges manuell vergeben

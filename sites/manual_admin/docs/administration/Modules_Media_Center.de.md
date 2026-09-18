@@ -34,7 +34,7 @@ Weitere Informationen finden Sie im Kapitel [Taxonomie](Modules_Taxonomy.de.md).
 
 ## Freigaben {: #shares}
 
-Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere freigeben werden (Share). Welche Freigabe-Optionen den Autor:innen und anderen Rollen zur Verfügung stehen, kann durch Administrator:innen im Abschnitt "Freigaben" festgelegt werden.
+Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere freigegeben werden. Welche Freigabemöglichkeiten den Autor:innen und anderen Rollen zur Verfügung stehen, legen Administrator:innen im Abschnitt "Freigaben" fest.
 
 
 | Meine Rolle           | Wenn "Benutzer"<br>durch Admins erlaubt wurde | Wenn "Kurse"<br>durch Admins erlaubt wurde | Wenn "Gruppen"<br> durch Admins erlaubt wurde | Wenn "Organisation"<br> durch Admins erlaubt wurde |

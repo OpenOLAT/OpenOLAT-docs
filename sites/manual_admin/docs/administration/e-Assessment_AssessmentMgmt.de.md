@@ -31,7 +31,7 @@ Verwalten Sie Safe Exam Browser Konfigurationsvorlagen, die auf Prüfungsmodi an
 
 ### Die Vorlagenliste im Tab *SEB Konfiguration* 
 
-Die Übersichtstabelle zeigt alle angelegten SEB-Konfigurationsvorlagen mit verschiedenen, über das Zahnradsymbol, persönlich konfigurierbaren Spalten.
+Die Vorlagenliste zeigt alle angelegten SEB-Konfigurationsvorlagen mit verschiedenen, über das Zahnradsymbol, persönlich konfigurierbaren Spalten.
 
 Die Spalte **Typ** zeigt, ob eine Vorlage als **Formular** (in OpenOlat konfiguriert) oder als importierte **SEB-Datei** vorliegt.
 
@@ -39,7 +39,7 @@ Ist noch **keine Vorlage** vorhanden, erscheint der Hinweis: *«Es wurden noch k
 
 #### Vorlage hinzufügen / bearbeiten
 
-Mit dem Button **"Vorlage erstellen"** legen Sie eine neue SEB-Konfigurationsvorlage an. Bestehende Vorlagen öffnen Sie mit **"Vorlage bearbeiten"** im 3-Punkte-Menü. Das Formular enthält alle bestehenden SEB-Konfigurationsoptionen sowie das Pflichtfeld:
+Mit dem Button **"Vorlage erstellen"** legen Sie eine neue SEB-Konfigurationsvorlage an. Bestehende Vorlagen öffnen Sie mit **"Vorlage bearbeiten"** im 3-Punkte-Menü. Das Formular enthält alle bestehenden Einstellungen des Safe Exam Browser sowie das Pflichtfeld:
 
 #### Name {: #name }
 
@@ -53,7 +53,7 @@ Legt fest, ob die Vorlage für Autor:innen auswählbar ist: **Aktiv** oder **Ina
 
 Wir unterscheiden zwei Arten von Vorlagen:
 
-- **Formular**: Die Konfiguration wird über die einzelnen Formularoptionen in OpenOlat gepflegt (wie unter **"Vorlage erstellen"** beschrieben).
+- **Formular**: Die Konfiguration wird über die einzelnen Felder des Formulars in OpenOlat gepflegt (wie unter **"Vorlage erstellen"** beschrieben).
 - **SEB-Datei**: Eine vollständige, unverschlüsselte `.seb-Konfigurationsdatei` wird importiert und deckt den vollen Funktionsumfang des Safe Exam Browser ab.
 
 Für den Import verwenden Sie die Aktion **"SEB-Datei importieren"**. OpenOlat liest die Konfiguration aus der Datei, zeigt sie schreibgeschützt an und berechnet den Config Key automatisch. Die Datei darf nicht verschlüsselt oder passwortgeschützt sein.
@@ -72,11 +72,11 @@ Ein optionaler Text, der Autor:innen bei der Verwendung der Vorlage im Prüfungs
 
 #### Standardvorlage festlegen
 
-Genau eine Vorlage muss als Standard markiert sein. Verwenden Sie die Aktion **"Als Standard setzen"**, um eine andere Vorlage als Standard zu definieren. Die Standardvorlage wird bei der SEB-Aktivierung im Prüfungsmodus automatisch vorausgewählt.
+Genau eine Vorlage muss als Standard markiert sein. Verwenden Sie die Aktion **"Als Standard setzen"**, um eine andere Vorlage als Standard zu definieren. Die Standardvorlage ist automatisch vorausgewählt, sobald der Safe Exam Browser im Prüfungsmodus eingeschaltet wird.
 
 #### Vorlagen aktivieren / deaktivieren
 
-Deaktivierte Vorlagen erscheinen nicht mehr in der Vorlagenauswahl bei der Konfiguration eines Prüfungsmodus.
+Deaktivierte Vorlagen stehen bei der Konfiguration eines Prüfungsmodus nicht mehr zur Auswahl.
 
 !!! note "Vorlagen löschen"
     Eine Vorlage kann nur gelöscht werden, wenn diese nicht länger verwendet wird:

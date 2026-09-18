@@ -18,8 +18,8 @@ Switching on activates the option for level 2 and 3 and the other configuration 
 By switching this on, a **button** is displayed on the login page **instead of the input field** for the user name, with which the input field can be called up.
 
 **Purpose:**<br>
-If the primary login method is not the OpenOlat login, then the input field for the OpenOlat login should often not be displayed directly and prominently. An input field has a high prompt character and users immediately enter their (incorrect) login name instead of considering the other login options.<br>
-With a button next to other buttons (other login options), the decision for a specific login procedure is more considered.
+If the primary login method is not the OpenOlat login, then the input field for the OpenOlat login should often not be displayed directly and prominently. An input field invites input, and users immediately enter their (incorrect) login name instead of considering the other login methods.<br>
+With a button next to other buttons (other login methods), the decision for a specific login method is more considered.
 
 ![Comparison of the login page with an input field for the user name and with a button instead of the input field](assets/login_password_and_authentication_login_v1_de.png){ class="shadow lightbox" }
 

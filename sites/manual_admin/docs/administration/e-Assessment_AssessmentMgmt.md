@@ -29,7 +29,7 @@ Manage Safe Exam Browser configuration templates that can be applied to assessme
 
 ### Template list in the *SEB Configuration* tab
 
-The overview table shows all created SEB configuration templates with various columns that can be configured individually via the gear icon.
+The template list shows all created SEB configuration templates with various columns that can be configured individually via the gear icon.
 
 The **Type** column shows whether a template is a **Form** (configured in OpenOlat) or an imported **SEB-File**.
 
@@ -37,7 +37,7 @@ If **no template** has been created yet, the message is displayed: *"No Safe Exa
 
 #### Adding / editing a template
 
-Use the **"Create template"** button to create a new SEB configuration template. Open existing templates with **"Edit template"** in the three-dot menu. The form contains all existing SEB configuration options as well as the required field:
+Use the **"Create template"** button to create a new SEB configuration template. Open existing templates with **"Edit template"** in the three-dot menu. The form contains all existing settings of the Safe Exam Browser as well as the required field:
 
 #### Name {: #name }
 
@@ -51,7 +51,7 @@ Defines whether the template is selectable for authors: **Active** or **Inactive
 
 We distinguish two types of templates:
 
-- **Form**: The configuration is maintained via the individual form options in OpenOlat (as described under **"Create template"**).
+- **Form**: The configuration is maintained via the individual fields of the form in OpenOlat (as described under **"Create template"**).
 - **SEB-File**: A complete, unencrypted `.seb configuration file` is imported and covers the full range of Safe Exam Browser functionality.
 
 For the import, use the **"Import SEB-File"** action. OpenOlat reads the configuration from the file, displays it read-only, and calculates the config key automatically. The file must not be encrypted or password-protected.
@@ -70,11 +70,11 @@ An optional text shown to authors when using the template in the assessment mode
 
 #### Setting the default template
 
-Exactly one template must be marked as the default. Use the **"Set as default"** action to define a different template as the default. The default template is automatically pre-selected when SEB is activated in the assessment mode.
+Exactly one template must be marked as the default. Use the **"Set as default"** action to define a different template as the default. The default template is automatically pre-selected as soon as the Safe Exam Browser is switched on in the assessment mode.
 
 #### Activating / deactivating templates
 
-Deactivated templates no longer appear in the template selection when configuring an assessment mode.
+Deactivated templates are no longer available for selection when configuring an assessment mode.
 
 !!! note "Deleting templates"
     A template can only be deleted if it is no longer in use:

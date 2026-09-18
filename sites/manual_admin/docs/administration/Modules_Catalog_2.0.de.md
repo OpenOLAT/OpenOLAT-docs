@@ -61,11 +61,11 @@ In diesem Lauchner angezeigte Angebote werden in zufälliger Reihenfolge angezei
 
 #### Launchertyp "Taxonomieebene"
 
-Taxonomie-Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel anzuzeigen. In einem Launcher vom Typ "Taxonomie" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Lernressourcen zu finden sind.
+Taxonomie-Launcher nutzen die Fachbereiche des Katalogs, um die verschiedenen Taxonomieebenen anzuzeigen. In einem Taxonomie-Launcher werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomieebenen entsprechen vielmehr Ordnern, in denen dann erst die Lernressourcen zu finden sind.
 
-Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxonomie-Level), gelangt man auf eine Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
+Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxonomieebene), gelangt man auf eine Microsite. Hier werden alle Kurse angezeigt, die unter dieser Taxonomieebene eingeordnet wurden. Hat die Taxonomie darunter weitere Ebenen, werden auch diese angezeigt.
 
-Die Angebote werden entsprechend dem definierten Taxonomielevel automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
+Die Angebote werden entsprechend der definierten Taxonomieebene automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
 
 Beim Konfigurieren dieses Launchers wählen Sie über das Feld **Typ** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"}, worauf sich der Launcher bezieht:
 
@@ -90,7 +90,7 @@ Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile 
 ### Tab Filter {: #tab_filter}
 
 Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
-Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite verfügbar sind und vom User genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein. 
+Dieser Tab steuert, welche Filter auf den Microsites und der Suchergebnisseite verfügbar sind und von den Benutzer:innen genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein. 
 
 ### Tab Layout {: #tab_layout}
 
@@ -110,7 +110,7 @@ Die **Angezeigten Informationen in Karte** sind Texte aus den Metadaten, die auf
 
 ### Verwalten des Kataloges {: #v2_admin}
 
-Der Katalog V2 wird aus der Fachbereichs-Taxonomie gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../manual_user/basic_concepts/Roles_Rights.de.md) und Administratoren können die Verschlagwortung über das Menü verwalten.
+Der Katalog V2 wird aus der Taxonomie der Fachbereiche gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../manual_user/basic_concepts/Roles_Rights.de.md) und Administratoren können die Verschlagwortung über das Menü verwalten.
 Bei Klick gelangt man auf die Fachbereiche. Dort kann man die aktuelle Taxonomie auswählen, Neue Taxonomieebenen erstellen und importieren und auch Ebenen löschen.
 
 Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
@@ -130,7 +130,7 @@ Für Benutzer:innen mit diesem Recht gilt:
 
 - **Bearbeiten:** Sie können Elemente innerhalb der Taxonomieebenen bearbeiten, verschieben, löschen oder neue Unterebenen erstellen.
 - **Vererbung:** Wer auf einer höheren Ebene Rechte hat (z. B. auf Institutsebene), darf automatisch auch die darunter liegenden Ebenen (z.B. Studiengänge) bearbeiten.
-- **Unterdelegation:** Diese Rechte können von oben nach unten weitergegeben werden.<br> 
+- **Weitergabe:** Diese Rechte können von oben nach unten weitergegeben werden.<br> 
 Beispiel: Ein Administrator gibt einer Person die Rechte für eine Taxonomieebene darunter (z.B. Fakultät). Diese Person kann dann selbst anderen innerhalb dieser Fakultät ähnliche Rechte geben: auch für untergeordnete Bereiche.
 
 Benutzer mit diesem Recht können nicht:
@@ -154,7 +154,7 @@ Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bil
 Taxonomieebenen-Hintergründe lassen sich im Tab "Taxonomie" anpassen.
 Das Hintergrundbild für die Startseite finet man unter Layout.
 
-Das Anschnitt (Cropping) Verhalten bei kleineren Bildgrössen illustriert:
+So wählt OpenOlat den Ausschnitt bei kleineren Bildgrössen:
 ![Vergleich der Kachelgrössen auf Mobile und Laptop: Teaser-Bilder 240x120 px, Kursbilder 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
 
 Hintergrund für den Start
@@ -165,7 +165,7 @@ Hintergrund für die Taxonomyebenen
 
 #### Taxonomie-Launcher-Bilder
 Je nach Einstellung haben wir es hier mit quadratischen oder rechteckigen Bildern zu tun.
-Die Rechteckigen Bilder besitzen eine Aspect Ratio von **16:9** mit empfohlener Anzeige von **640 x 360 px**. Der Textbalken darunter verdeckt ca. 80px.
+Die Rechteckigen Bilder besitzen ein Seitenverhältnis von **16:9** mit empfohlener Anzeige von **640 x 360 px**. Der Textbalken darunter verdeckt ca. 80px.
 
 Rechteckig
 

@@ -18,7 +18,7 @@ In the section **Formats** the **number format** is defined. It determines which
 
 ## Starting page [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
 
-Administrators can define a default start page for different roles or users with certain user attributes.
+Administrators can preset a start page for different roles or users with certain user attributes.
 
 
 [See the details >](../administration/Landing_pages.md)<br>
@@ -37,7 +37,7 @@ Here administrators can set which OpenOlat [tools](../../manual_user/personal_me
 
 ## REST API
 
-Besides activating the interface, the managed objects are also determined here.
+Besides activating the interface, the externally managed objects are also determined here.
 
 [To the details >](../administration/REST_API.md)<br>
 [To the top of the page ^](#core_config)
@@ -55,7 +55,7 @@ At this point the system administrators can enable or disable the OpenOlat calen
 
 ## E-mail
 
-As an administrator, you will find configuration options for the OpenOlat email sending options and the mailbox, as well as the mail template.
+As an administrator, you will find configuration options for sending email and for the mailbox, as well as the mail templates.
 
 [See the details >](../administration/E-Mail_Settings.md)<br>
 [To the top of the page ^](#core_config)
@@ -111,14 +111,14 @@ Administrators can arrange for them to be sent immediately.
 
 ## GUI settings
 
-Values set for the graphical user interface can be reset here.
+Stored GUI settings can be reset here.
 
 [To the top of the page ^](#core_config)
 
 
 ## Licenses [:octicons-tag-16:{ title="from Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
 
-The optional license management can be configured here.
+The optional licenses can be configured here.
 
 [See the details >](../administration/Licenses.md)<br>
 [To the top of the page ^](#core_config)

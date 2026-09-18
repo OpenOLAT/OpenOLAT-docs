@@ -3,7 +3,7 @@
 Das virtuelle Klassenzimmer BigBlueButton wird in der System-Administration aktiviert:<br>
 `Administration > Externe Werkzeuge > BigBlueButton`
 
-Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, das Load-Balancing und das Einrichten von systemweiten Raumvorlagen.
+Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, die Verteilung der Online-Termine auf diese Server und das Einrichten von systemweiten Raumvorlagen.
 
 Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:innen wird im Kapitel [Kursbaustein "BigBlueButton"](../../manual_user/learningresources/bigbluebutton/index.de.md) beschrieben.
 
@@ -32,9 +32,9 @@ Mit Klick auf den Button "Server hinzufügen" im Tab "Konfiguration" öffnen Sie
 
   *  **BigBlueButton API URL:** URL BBB-Server
   *  **Shared secret:** API Key BBB-Server
-  *  **Capacity factor:** Server-Gewichtung im Load-Balancing
-  *  **Server aktivieren:** Server steht für das Load-Balancing zur Verfügung
-  *  **Nur manuelle Auswahl:** Nur manuell ausgewählte Server stehen für das Load-Balancing zur Verfügung
+  *  **Capacity factor:** Gewichtung des Servers bei der Verteilung der Online-Termine
+  *  **Server aktivieren:** Der Server steht für neue Online-Termine zur Verfügung
+  *  **Nur manuelle Auswahl:** Der Server nimmt nur Online-Termine auf, für die er von Hand ausgewählt wurde
   *  **Button "Serververbindung testen":** Prüft den Zugriff auf den hier angegebenen Server.
 
 ![API URL und Shared secret sind Pflicht, Serververbindung testen prüft die Angaben vor dem Speichern; Dialog Server hinzufügen](assets/bbb_admin_add_server_v1_de.png){ class="shadow lightbox" }
@@ -49,15 +49,15 @@ Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Insta
 ![Je Server Kapazität und aktuelle Last, der Filter trennt dieses OpenOlat von allen OpenOlats; Tab Server im Modul BigBlueButton](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
 
 
-### Load-Balancing [:octicons-tag-16:{ title="ab Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
+### Verteilung auf die Server [:octicons-tag-16:{ title="ab Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
-Ziel ist es, die erzeugte Last von gleichzeitigen Online-Terminen durch die Berücksichtigung von Performance-Parametern (wie Anzahl Videos und Anzahl Teilnehmende der Meetings) auf die verfügbaren BigBlueButton-Server zu verteilen. OpenOlat besitzt dazu ein integriertes Load-Balancing. Beim initialen Start des Online-Termins (je nach Konfiguration durch die Moderator:in oder die erste teilnehmende Person) wird der Server mit der geringsten Auslastung für das Meeting ausgewählt. Die Auslastung berechnet sich aus den unterschiedlichen Messfaktoren und gewichtet das Ergebnis mit dem Kapazitätsfaktor.
+OpenOlat verteilt die Last gleichzeitiger Online-Termine selbst auf die verfügbaren BigBlueButton-Server. Dabei zählen die Anzahl Videos und die Anzahl Teilnehmende der laufenden Online-Termine. Beim Start eines Online-Termins wählt OpenOlat den Server mit der geringsten Auslastung. Den Start löst je nach Konfiguration die Moderator:in oder die erste teilnehmende Person aus. Die Auslastung ergibt sich aus diesen Werten, gewichtet mit dem Wert im Feld "Capacity factor".
 
-Über den Filter zeigen Sie die Kennzahlen für alle OpenOlat-Instanzen auf dem BigBlueButton-Server ("Alle OpenOlats") oder nur für die Sessions dieser Instanz ("Dieses OpenOlat") an.
+Über den Filter zeigen Sie die Kennzahlen für alle OpenOlat-Instanzen auf dem BigBlueButton-Server ("Alle OpenOlats") oder nur für die Online-Termine dieser Instanz ("Dieses OpenOlat") an.
 
-### Kapazitätsfaktor {: #capacity_factor}
+### Capacity factor {: #capacity_factor}
 
-Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server erfasst. Die berechnete Anzahl Benutzer:innen auf dem Server wird mit dem Kapazitätsfaktor multipliziert. Bei der Zählung wiegen Video-Benutzer:innen am stärksten, dann Audio-Benutzer:innen, dann Viewer. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem schwächeren an.
+Das Feld "Capacity factor" nimmt je Server einen Wert zwischen 1 und 100 auf. Die berechnete Anzahl Benutzer:innen auf dem Server wird mit diesem Wert multipliziert. Bei der Zählung wiegen Video-Benutzer:innen am stärksten, dann Audio-Benutzer:innen, dann Viewer. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem schwächeren an.
 
 
 ---

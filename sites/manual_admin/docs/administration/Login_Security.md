@@ -11,14 +11,14 @@ The security requirements may vary depending on the institution. In the **system
 
 ### Files in folders {: #files}
 
-**Force file download in folders**: Select this security function to always download files in the folder component and never open them directly in the browser. This prevents any cross-site scripting (XSS) attacks. If this function is activated, HTML pages stored in folders are also downloaded as files and no longer opened directly in the browser. The course element “HTML page” is not affected by this mechanism.
+**Force file download in folders**: Select this security function to always download files in the folder component and never open them directly in the browser. This prevents cross-site scripting (XSS). If this function is activated, HTML pages stored in folders are also downloaded as files and no longer opened directly in the browser. The course element “HTML page” is not affected by this mechanism.
 
 
 ### HTTP headers {: #headers}
 
 **Prevent embedding in frames using JavaScript code**: This function is permanently switched on and cannot be changed in the form. Due to compatibility reasons, the rich text component (TinyMCE) of OpenOlat cannot be embedded in a frame.
 
-**Prevent embedding in frames by sending HTTP header X-FRAME-OPTIONS=SAMEDOMAIN**: Select this security function to prevent OpenOlat from loading in a frame or iFrame. This prevents any cross-frame scripting attacks (XFS). If this function is activated, you cannot embed OpenOlat in an existing website using frames.
+**Prevent embedding in frames by sending HTTP header X-FRAME-OPTIONS=SAMEDOMAIN**: Select this security function to prevent OpenOlat from loading in a frame or iFrame. This prevents cross-frame scripting (XFS). If this function is activated, you cannot embed OpenOlat in an existing website using frames.
 
 **Prevent downgrade of HTTPS to HTTP with HTTP header**: The browser only calls the platform via HTTPS, even if a link points to HTTP. OpenOlat sends the `Strict-Transport-Security` header for this, valid for one year and including subdomains.
 

@@ -5,13 +5,13 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![Header area with status badge, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Header area with status, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
 Besides that, the account information states the status of the account, the identity, the account type, the username and the email address. Above the view, the action "Export data" compiles the personal data of the account, see [Data protection](Data_protection.md). At the same place the account can be deleted, see [Delete user](Delete_User.md).
 
-Each user account is maintained independently; accounts are not merged. A person's learning history, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
+Each user account is maintained independently; accounts are not merged. What a person has achieved in OpenOlat, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
 
 If the option "Unique" is activated in the system administration, no two accounts with the same email address are created. You find the option in the section "User email address" under:<br>
 `Administration > Core functions > E-mail`, segment "Settings", see [Email Settings](../administration/E-Mail_Settings.md#email_address).
@@ -109,14 +109,14 @@ For an inactive account the inactivation date and "Days until deletion" take the
 
 ### Roles
 
-The roles of the user are defined in this tab. If the Organizational units module is activated, different roles can be assigned per organizational unit. See ["Assign roles"](Assign_roles.md).
+The roles of the user are defined in this tab. If the "Organisations" module is activated, different roles can be assigned per organizational unit. See ["Assign roles"](Assign_roles.md).
 
 [To the top of the page ^](#user_configuration)
 
 
 ### Password [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons. The primary button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. "Create login credentials" sets them directly.
+If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons. The button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. "Create login credentials" sets them directly.
 
 If an invitation link has already been sent, a message shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time. After expiry or deactivation the link leads nowhere; you can then send a new invitation link.
 
@@ -125,7 +125,7 @@ The "Password" tab and its actions are available to administrators, user manager
 You define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
 `Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).
 
-![Six steps from sending the invitation link to the saved login credentials, in three lanes](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
+![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
 
 The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
 

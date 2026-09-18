@@ -35,7 +35,7 @@ Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden
 
 ##  Wiki {: #wiki}
 
-Hier können Sie die Wiki-Ressource systemweit ein- oder ausschalten. Die Wiki-Komponente ist zurzeit noch anfällig für Cross-Site-Scripting Attacken (XSS). Daher kann zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen in der Wiki-Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings verfügt die Wiki-Komponente über eine automatische Versionierung, die es Angreifern schwierig macht, unerkannt zu bleiben. 
+Hier können Sie die Lernressource "Wiki" systemweit ein- oder ausschalten. Das Wiki ist zurzeit noch anfällig für Cross-Site-Scripting (XSS). Daher kann zusätzlich der XSS Scanner aktiviert werden. Dies kann einzelne Funktionen des Wikis in OpenOlat beeinträchtigen. Bei ausgeschaltetem XSS Scanner lässt sich das Wiki mit dem Risiko eines solchen Angriffs verwenden. Allerdings verfügt das Wiki über eine automatische Versionierung, so dass jede Änderung nachvollziehbar bleibt. 
 
 [Zum Seitenanfang ^](#modules)
 
@@ -189,8 +189,8 @@ Administrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge 
 
 Wenn Autor:innen neue Kurse erstellen, finden Sie Voreinstellungen vor, die durch Administrator:innen hier festgelegt werden.
 
-* Im Tab "Einstellungen" kann der Standardtyp für die OpenOlat Kurse, Lernpfad oder herkömmlicher Kurs, festgelegt werden. Auch Einstellungen für bewertbare Kursbausteine können hier vorgenommen werden. 
-* Im Tab "Durchführungsformate" können neue didaktische Typen definiert und vorhandene bearbeitet oder
+* Im Tab "Einstellungen" legen Sie fest, welcher Kurstyp bei neuen Kursen voreingestellt ist, Lernpfad oder herkömmlicher Kurs. Auch Einstellungen für bewertbare Kursbausteine können hier vorgenommen werden. 
+* Im Tab "Durchführungsformate" können neue Durchführungsformate definiert und vorhandene bearbeitet oder
 gelöscht werden. 
 * Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil der Bilder können in diesem Menü hinzugefügt werden.
 
@@ -236,7 +236,7 @@ Mit aktiviertem Modul "Organisationen" können Organisationsstrukturen in OpenOl
 
 ## Rolle Person zu Person {: #role_user_to_user}
 
-Nach Aktivierung von "Person zu Person" können OpenOlat-Rollen durch einen (definierbaren) Beziehungstyp verbunden werden, z.B. Vorgesetzter und Mitarbeiter oder Lehrer und Schüler.
+Nach Aktivierung von "Person zu Person" definieren Sie eigene Rollen und Gegenrollen, mit denen zwei Personen verbunden werden, z.B. Vorgesetzte:r und Mitarbeiter:in oder Lehrperson und Lernende:r.
 
 [Zum Seitenanfang ^](#modules)
 

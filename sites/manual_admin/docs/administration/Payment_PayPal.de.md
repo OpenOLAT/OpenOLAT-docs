@@ -7,7 +7,7 @@ Um die PayPal Bezahlmethode verwenden zu können, müssen Sie über ein PayPal F
 ## Verwendung in Kursen und Arbeitsgruppen
 
 Um Kurse und Arbeitsgruppen gegen Geld freizuschalten, können Sie nach
-erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses oder in der Administrationsumgebung der Arbeitsgruppe die PayPal Angebotsart auswählen. Weitere Informationen finden Sie unter [Zugangskonfiguration / Freigabe](../../manual_user/learningresources/Access_configuration.de.md).
+erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses oder in der Administration der Arbeitsgruppe die PayPal Angebotsart auswählen. Weitere Informationen finden Sie unter [Zugangskonfiguration / Freigabe](../../manual_user/learningresources/Access_configuration.de.md).
 
 !!! warning "Achtung"
 	Je nach Währung, Land und Betrag verlangt PayPal eine Transaktionsgebühr.
@@ -24,7 +24,7 @@ erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses ode
 Loggen Sie sich in Ihr PayPal Firmenkonto ein und vollziehen Sie Einstellungen zur Verbindung mit OpenOlat.
 
 !!! note "Hinweis"
-    Bitte berücksichtigen Sie, dass wir keine Anleitung für Drittanbieter pflegen. Nachfolgend finden Sie die Fixpunkte, damit Sie sich entsprechend orientieren können. Eine Schritt-für-Schritt-Anleitung bietet Ihnen möglicherweise die Anleitung des gewählten Tools.
+    Bitte berücksichtigen Sie, dass wir keine Anleitung für Drittanbieter pflegen. Nachfolgend finden Sie die nötigen Schritte zur Orientierung. Eine Schritt-für-Schritt-Anleitung bietet Ihnen möglicherweise die Anleitung des gewählten Tools.
 
 - [x] Richten Sie eine Onlinezahlung in Ihrem Geschäftskonto ein.
 - [x] Lassen Sie sich eine API-Berechtigung ausstellen.

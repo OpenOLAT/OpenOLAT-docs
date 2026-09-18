@@ -10,7 +10,7 @@ deren Daten.
 
 Konten löschen Benutzerverwalter:innen und Administrator:innen über die [Benutzerverwaltung](index.de.md). Systemadministrator:innen lösen Löschvorgänge über den Benutzerkonten-Lebenszyklus aus.
 
-Beim Löschen wird ein Konto nicht physisch aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Für Personen mit administrativer Rolle, für Kursbesitzer:innen und für Korrektor:innen mit Korrekturaufträgen in der Historie bleiben Vor- und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben.
+Beim Löschen wird ein Konto nicht aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Für Personen mit administrativer Rolle, für Kursbesitzer:innen und für Korrektor:innen mit Korrekturaufträgen in der Historie bleiben Vor- und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben.
 
 Welche Daten dabei gelöscht, anonymisiert oder erhalten werden, zeigt die Tabelle auf der Seite [Benutzer:in löschen](Delete_User.de.md#del_properties) im Detail.
 
@@ -68,7 +68,7 @@ Dort steht die Schaltfläche **Dateien herunterladen** bereit. Die Datei heisst 
 
 Der Export bleibt einen Monat abrufbar. Danach löscht OpenOlat die Datei automatisch, und es ist ein neuer Export nötig.
 
-Benutzer:innen können den Export nicht selbst auslösen. Im Tab «Personendaten» finden sie einen Mail-Link an den Support der Instanz, über den sie eine Übersicht ihrer Daten nach Artikel 15 DSGVO anfordern können.
+Benutzer:innen können den Export nicht selbst auslösen. Im Tab «Personendaten» steht ein Link, der eine E-Mail an den Support der Instanz öffnet. Damit fordern sie eine Übersicht ihrer Daten nach Artikel 15 DSGVO an.
 
 ### Daten, die exportiert werden können {: #exportable_data}
 

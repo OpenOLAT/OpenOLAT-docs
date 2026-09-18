@@ -22,7 +22,7 @@ For more information on the [review process](../../manual_user/area_modules/Ques
 
 !!! tip "Hint"
 
-	If you work with a taxonomy and competencies, it is recommended *not to* activate the "Create subject when importing" option. This is the only way to avoid a wild growth of taxonomy levels and to keep the control and structure.
+	If you work with a taxonomy and competencies, it is recommended *not to* activate the "Create subject when importing" option. This is the only way to avoid a wild growth of subjects and to keep the control and structure.
 
 ### Pool manager rights
 

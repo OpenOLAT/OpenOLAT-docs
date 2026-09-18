@@ -6,7 +6,7 @@ User administrators and administrators can search for specific users/accounts in
 
     * [Enter criteria in the search form](#search_user_form)
     * [Display users according to different roles and assignments](#search_user_roles)
-    * [Quicksearch](#search_user_quick_search)
+    * [Quick Search](#search_user_quick_search)
     * [Mass search](#search_user_bulk_search)
     * [Filter search results](#search_user_filter_searchresults)
     * [Columns of the result table](#search_user_result_columns)
@@ -164,7 +164,7 @@ Under the menu "**Predefined search queries**" you will find frequently used sea
 [To the top of the page ^](#search_user)
 
 
-## Quick search {: #search_user_quick_search}
+## Quick Search {: #search_user_quick_search}
 
 For a quick search, simply enter a term or part of a term in the "Quick Search" field.
 

@@ -32,7 +32,7 @@ You can find further information in the chapter [Taxonomy](../administration/Mod
 
 ## Shares {: #shares}
 
-If contents are deposited in the media center, they can be shared for others to use (Share). Which share options are available to authors and other roles can be determined by administrators in the section "Shares".
+If contents are deposited in the media center, they can be shared for others to use. Administrators define in the section "Shares" which sharing options are available to authors and other roles.
 
 
 | My role           | If "User"<br>is allowed by an admin | If "Course" <br>is allowed by an admin | If "Group" <br>is allowed by an admin | If "Organisation" <br>is allowed by an admin |

@@ -55,7 +55,7 @@ Aktivieren Sie diese Option, um auch Student:innen und Betreuer:innen den Zugrif
 
 #### Zugriff für Student:innen / Betreuer:innen Favoriten {: #access_favorites}
 
-Aktivieren Sie diese Option, um auch Student:innen und Betreuer:innen den Zugriff auf Kursordner von Kursen zu gestatten, die sich in ihrer Favoritenliste befinden, deren Mitglieder sie aber nicht sind. Dies ist nur möglich mit den entsprechenden Einstellungen in der Zugriffskonfiguration. Es werden nur die Ordner der entsprechenden Ordner-Kursbausteine angezeigt, sowie ein eventuell eingebundener Ressourcenordner.
+Aktivieren Sie diese Option, um auch Student:innen und Betreuer:innen den Zugriff auf Kursordner von Kursen zu gestatten, die sie als Favoriten markiert haben, deren Mitglieder sie aber nicht sind. Dies ist nur möglich mit den entsprechenden Einstellungen in der Zugriffskonfiguration. Es werden nur die Ordner der entsprechenden Ordner-Kursbausteine angezeigt, sowie ein eventuell eingebundener Ressourcenordner.
 
 ## Verwendung
 

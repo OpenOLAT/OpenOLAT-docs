@@ -28,7 +28,7 @@ In the PayPal section, PayPal is enabled. Configure the PayPal API authorization
 
 ## Information concerning all payment methods: VAT {: #payment_VAT}
 
-On the initial screen for "Payment modules", you can enter information relating to all payment methods. In particular, this includes information on value added tax.
+On the payment modules overview page, you enter information relating to all payment methods. In particular, this includes information on value added tax.
 
 ![VAT settings on the payment modules overview page](assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox" }
 

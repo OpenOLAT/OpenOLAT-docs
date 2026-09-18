@@ -28,7 +28,7 @@ Im Bereich "PayPal" wird PayPal aktiviert. Konfigurieren Sie die PayPal API-Bere
 
 ## Angaben, die alle Zahlungsarten betreffen: Mehrwertsteuer {: #payment_VAT}
 
-Auf dem Eingangsbildschirm zu "Bezahlungsmodule" werden Ihnen Angaben ermöglicht, die alle Zahlungsarten betreffen. Insbesondere sind dies Angaben zur Mehrwertsteuer.
+Auf der Übersichtsseite der Bezahlungsmodule machen Sie Angaben, die alle Zahlungsarten betreffen. Insbesondere sind dies Angaben zur Mehrwertsteuer.
 
 ![Einstellungen zur Mehrwertsteuer auf der Übersichtsseite der Bezahlungsmodule](assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox" }
 

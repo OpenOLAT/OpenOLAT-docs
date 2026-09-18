@@ -1,12 +1,12 @@
 # Licenses {: #licences}
 
-The license management in OpenOlat is optional. Administrators configure it in
-the system administration under:<br>
+Licenses are optional in OpenOlat. Administrators configure them in the system
+administration under:<br>
 `Administration > Core functions > Licenses`
 
 ## Activating license sections {: #licences_activation}
 
-![License management in the core functions: under Activate licenses in, the sections Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Licenses in the core functions: under Activate licenses in, the sections Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Licenses can be used in the following OpenOlat sections:
 

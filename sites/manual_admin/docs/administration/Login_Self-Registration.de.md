@@ -24,7 +24,7 @@ Wird die Option dort nicht angezeigt, kann die Selbstregistration z.B. erfolgen,
 #### Schritt Kontoüberprüfung {: #account_check_step }
 
 In einem optionalen Schritt kann ab :octicons-tag-24: Release 20 geprüft werden, ob Benutzer:innen bereits ein OpenOlat-Konto besitzen. Benutzer:innen, die bereits ein Konto haben, sollen ihr altes Konto weiter benutzen können, wenn sie es möchten. 
-Wird durch Administrator:innen die Prüfoption ausgewählt, werden die bereits bekannten Benutzer:innen nach einem bestehenden Konto gefragt und es wird ein Support-Formular zur Verfügung gestellt.
+Schalten Administrator:innen den Schritt "Kontoüberprüfung" ein, werden die bereits bekannten Benutzer:innen nach einem bestehenden Konto gefragt und es wird ein Support-Formular zur Verfügung gestellt.
 
 #### Schritt E-Mail Validierung {: #email_validation_step }
 

@@ -33,13 +33,13 @@ The "Organization structure" tab shows the organizations already created, togeth
 
 ### Creating and editing organizations {: #create_and_edit}
 
-![Organization tree with sub-organizations in the Organization structure tab](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
+![Tree structure of the organizations with their sub-organizations in the Organization structure tab](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
 
-New organizations can be added using the "Create new organization" button at the top right, or for existing organizations by clicking the three dots and "Create sub-organization". It is also possible to move the element within the organization tree or to create a new sub-organization directly.
+New organizations can be added using the "Create new organization" button at the top right, or for existing organizations by clicking the three dots and "Create sub-organization". It is also possible to move the organization within the tree structure or to create a new sub-organization directly.
 
-If an organizational element is selected in the tree structure, the metadata of the organizational element and other assignments can be adjusted or supplemented.
+If an organization is selected in the tree structure, its metadata and other assignments can be adjusted or supplemented.
 
-![Legal documents folder in the "Legal documents" tab of an organizational element](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
+![Legal documents folder in the "Legal documents" tab of an organization](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
 
 **Tab Organization structure > tab "Legal documents"**<br>
 If the folder has been activated under `Administration > Modules > Organizations > Tab "Configuration"`, this tab is displayed for administrators and other administrative roles. Administrators can store documents on organization-specific matters in it. Other administrative roles only have read access.
@@ -47,11 +47,11 @@ If the folder has been activated under `Administration > Modules > Organizations
 ### Metadata {: #edit_metadata}
 
 `Administration > Modules > Organizations > Tab "Organization structure" > Tab "Metadata"`
-![Metadata of an organizational element: designation, name, organization type, location and description](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Metadata of an organization: designation, name, organization type, location and description](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 In addition to the designation and the name, a description for the element can be entered.
 The organization type (as defined in the "Organization types" tab) is also assigned here.
-If every organizational element is linked to a corresponding organization type on creation, a hierarchical structure can be built. This makes it possible to map process and functional organizations, but a matrix organization cannot be represented.
+If every organization is linked to a corresponding organization type on creation, a hierarchical structure can be built. An organization that belongs to several higher-level organizations at the same time cannot be represented.
 
 ### Account management {: #edit_account_managment}
 
@@ -74,9 +74,9 @@ The **role assignment** is possible
 `Administration > Modules > Organizations > Tab "Organization structure" > Tab "Learning resources"`
 ![List of the assigned courses with the button "Add courses" in the Learning resources tab](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
-The "Learning resources" tab shows the courses directly assigned to the organizational element. These can also be removed again here. Via "Add courses", a dialog lets you search for further own and available courses to assign to the organizational element.
+The "Learning resources" tab shows the courses directly assigned to the organization. These can also be removed again here. Via "Add courses", a dialog lets you search for further own and available courses to assign to the organization.
 
-The **assignment of curricula** is done in the Course Planner, at the respective implementation.
+The **assignment of educational products** is done in the Course Planner, at the respective implementation.
 
 ### Line manager {: #edit_linemanager}
 
@@ -102,9 +102,9 @@ Billing addresses for course and seminar management can be stored here.
 ### E-mail domain mapping {: #edit_mail_domain}
 
 `Administration > Modules > Organizations > Tab "Organization structure" > Tab "E-mail domain mapping"`
-![List of the e-mail domain mappings in the tab of the same name of the organizational element](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
+![List of the e-mail domain mappings in the tab of the same name of the organization](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
-An e-mail domain can be specified for each organizational element, which is used to check whether users belong to this organizational unit. This matters when users can self-register for courses, but the courses should only be available for a specific organizational unit.
+An e-mail domain can be specified for each organization, which is used to check whether users belong to this organizational unit. This matters when users can self-register for courses, but the courses should only be available for a specific organizational unit.
 
 [To the top of the page ^](#organisations)
 

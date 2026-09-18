@@ -2,7 +2,7 @@
 
 In OpenOlat ist die Infrastruktur zur Unterstützung externer Analytics
 Werkzeuge bereitgestellt. Diese dienen der detaillierten Auswertung des
-Verhaltens von Anwendern innerhalb von OpenOlat oder zur Analyse der
+Verhaltens von Benutzer:innen innerhalb von OpenOlat oder zur Analyse der
 verwendeten Geräte.
 
 Sie aktivieren das Modul in der System-Administration unter:<br>
@@ -26,9 +26,9 @@ Account notwendig. Zudem muss eine sogenannte Tracking-ID hinterlegt werden.
 Sind die Konfigurationen abgeschlossen, bildet Google Analytics beispielsweise
 folgende Daten ab:
 
-  * Wo verbringen die User die meiste Zeit in OpenOlat?
-  * Welchen Browser verwenden die User dabei?
-  * Verwenden die User ein Smartphone?
+  * Wo verbringen die Benutzer:innen die meiste Zeit in OpenOlat?
+  * Welchen Browser verwenden die Benutzer:innen dabei?
+  * Verwenden die Benutzer:innen ein Smartphone?
 
 Echtzeit-Analyse steht ebenfalls zur Verfügung.
 
@@ -44,7 +44,7 @@ Für die Konfiguration hinterlegen Sie zwei Werte:
   * **Matomo URL**: die Adresse Ihres Matomo Servers.
 
 OpenOlat nimmt die hinterlegte Matomo URL automatisch als vertrauenswürdige
-Quelle in die Content-Security-Policy auf. Eine zusätzliche Anpassung der
-Sicherheitsrichtlinien ist nicht nötig.
+Quelle in die Content-Security-Policy auf. Eine zusätzliche Anpassung ist
+nicht nötig.
 
 ![Analytics Modul in der System-Administration: bei gewähltem Service Matomo (Piwik) verlangt die Konfiguration Site ID und Matomo URL](assets/admin_analytics_matomo_v1_de.png){ class="shadow lightbox" }

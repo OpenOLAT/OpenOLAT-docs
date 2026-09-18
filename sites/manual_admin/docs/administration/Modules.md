@@ -35,7 +35,7 @@ The video learning resource and the video course element can be activated here. 
 
 ## Wiki {: #wiki}
 
-Here you can switch the wiki resource on or off system-wide. The wiki component is currently still vulnerable to cross-site scripting attacks (XSS). The XSS scanner can therefore also be activated. This can lead to impairments in the wiki functionality in OpenOlat. If the XSS scanner is switched off, the wiki can be used with the risk of an XSS attack. However, the wiki component has automatic versioning, which makes it difficult for attackers to remain undetected. 
+Here you can switch the learning resource "Wiki" on or off system-wide. The wiki is currently still vulnerable to cross-site scripting (XSS). The XSS scanner can therefore also be activated. This can affect individual functions of the wiki in OpenOlat. If the XSS scanner is switched off, the wiki can be used with the risk of such an attack. However, the wiki has automatic versioning, so every change remains traceable. 
 
 [To the top of the page ^](#modules)
 
@@ -189,8 +189,8 @@ Administrators can define here whether pseudonymized forum posts are permitted a
 
 When authors create new courses, they will find default settings that are defined here by administrators.
 
-* The default type for OpenOlat courses, learning path or conventional course, can be defined in the "Settings" tab. Settings for assessable course elements can also be made here.
-* In the "Implementation formats" tab, new didactic types can be defined and existing ones edited or deleted.
+* In the "Settings" tab you define which course type is preset for new courses, learning path or conventional course. Settings for assessable course elements can also be made here.
+* In the "Implementation formats" tab, new implementation formats can be defined and existing ones edited or deleted.
 * Categories for color categories with CSS classes and style of images can also be added in this menu.
 
 [See the details >](Modules_Course.md)<br>
@@ -236,7 +236,7 @@ With the "Organisations" module activated, organisational structures can be mapp
 
 ## Role person to person {: #role_user_to_user}
 
-After activating "Person to person", OpenOlat roles can be linked by a (definable) relationship type, e.g. coach and employee or teacher and student.
+After activating "Person to person", you define your own roles and contra-roles that link two people, e.g. line manager and employee or teacher and student.
 
 [To the top of the page ^](#modules)
 

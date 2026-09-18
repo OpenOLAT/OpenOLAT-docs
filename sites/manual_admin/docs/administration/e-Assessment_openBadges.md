@@ -40,7 +40,7 @@ Here you can divide the templates into categories. Badge templates with the same
 
 #### Scope {: #scope }
 
-The scope defines whether a badge should be available globally (for issuing at instance level) or for courses.
+The scope defines whether a badge should be available globally (for issuing across the whole OpenOlat instance) or for courses.
 
 
 [To the top of the page ^](#badges)
@@ -56,20 +56,20 @@ Global badges can be viewed in a separate tab, along with their status (active /
 
 ### Creating and editing a global badge
 
-The tab "Global badges" also contains the button "Add global badge". It starts the badge tool (wizard) with the following steps:
+The tab "Global badges" also contains the button "Add global badge". It starts the wizard with the following steps:
 
 1. **Template**: The first step is to select a template or upload your own image. SVG is currently supported.
-![Selection of a template or upload of your own image, step "Image" in the badge tool for global badges](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
+![Selection of a template or upload of your own image, step "Image" in the wizard for global badges](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" }
 2. **Customization**: If the template was created accordingly, you can change colors and text while creating the badge.
-![Customization of the badge's background color and title with preview, step "Customization" in the badge tool for global badges](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
+![Customization of the badge's background color and title with preview, step "Customization" in the wizard for global badges](assets/badges-wizard_step2_v2_de.png){ class="shadow lightbox" }
 3. **Award Criteria**: Enter the criteria and explanation for the rules you have chosen. Unlike badges awarded by authors in a course, global badges can, for example, also be awarded across courses for passing multiple courses.
-![Criteria description and award method automatic or manual, step "Award Criteria" in the badge tool for global badges](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
+![Criteria description and award method automatic or manual, step "Award Criteria" in the wizard for global badges](assets/badges-wizard_step3_v2_de.png){ class="shadow lightbox" }
 4. **Details & Validation Period**: Mandatory details are the name and description of the badge and the issuer. You can also add a URL and a contact to the exhibitor properties. The validity period can also be set so that it never expires or is 12 months, for example.
-![Details such as name, description, issuer and expiration of the badge, step "Details" in the badge tool for global badges](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
+![Details such as name, description, issuer and expiration of the badge, step "Details" in the wizard for global badges](assets/badges-wizard_step4_v2_de.png){ class="shadow lightbox" }
 5. **Summary**: Screen with a summary of the key details.
-![Summary of the details and award criteria before creating, step "Summary" in the badge tool for global badges](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
+![Summary of the details and award criteria before creating, step "Summary" in the wizard for global badges](assets/badges-wizard_step5_v2_de.png){ class="shadow lightbox" }
 6. **Recipients**: Displays the recipients in a table to see which participants already qualify according to the criteria you have selected.
-![Table of participants who already qualify for the badge according to the selected criteria, step "Recipients" in the badge tool for global badges](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
+![Table of participants who already qualify for the badge according to the selected criteria, step "Recipients" in the wizard for global badges](assets/badges-wizard_step6_v2_de.png){ class="shadow lightbox" }
 
 ### Assign global badges manually
 

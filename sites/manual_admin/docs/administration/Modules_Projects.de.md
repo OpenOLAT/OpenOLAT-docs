@@ -50,12 +50,12 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 
 **Besitzer:in (Projektbesitzer:in)**
 
-* Projektbesitzer:in ist die Person, die ein neues Projekt anlegt.
+* Besitzer:in ist die Person, die ein neues Projekt anlegt.
 * Sie hat alle Schreib- und Leserechte im Projekt, inkl. dem Recht zur Löschung.
 
 **Leiter:in (Projektleiter:in)**
 
-* Projektleiter:innen haben wie die Projektbesitzer:innen alle Schreib-, Lese- und Löschrechte im Projekt, im Unterschied zu Besitzer:innen jedoch kein Recht zum Löschen des gesamten Projekts.
+* Leiter:innen haben wie die Besitzer:innen alle Schreib-, Lese- und Löschrechte im Projekt. Im Unterschied zu den Besitzer:innen dürfen sie das gesamte Projekt jedoch nicht löschen.
 
 **Projektbüro**
 
@@ -65,8 +65,8 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 **Teilnehmer:in (Projektmitarbeiter:in)**
 
 * Der Begriff **Teilnehmer:in** zeigt die Analogie zu Kursteilnehmer:innen.
-* Projektmitarbeiter:innen können Termine, To-dos, Dateien usw. erstellen (alle Objekttypen in einem Projekt).
-* Sie haben jedoch nur Leserecht was die Projektmitarbeiter und das Gesamtprojekt angeht.
+* Teilnehmer:innen können Termine, To-dos, Dateien usw. erstellen (alle Objekttypen in einem Projekt).
+* Für die Mitglieder und für das gesamte Projekt haben sie jedoch nur Leserecht.
 
 **Business-Analyst:in / Lieferant:in**
 
@@ -86,7 +86,7 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 
 ## Projektmitglieder  {: #project_members}
 
-Die Projektmitglieder werden in der Regel durch die Projektleiter:innen zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.) Dabei wird auch die Rolle im Projekt zugewiesen.
+Die Projektmitglieder werden in der Regel durch die Leiter:innen zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.) Dabei wird auch die Rolle im Projekt zugewiesen.
 
 Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des Links führt ein Wizard das neue Projektmitglied durch Anmeldung und Registration.
 

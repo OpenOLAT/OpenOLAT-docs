@@ -1,6 +1,6 @@
 # Modul Gruppen {: #groups}
 
-Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und wie das datenschutzkonforme Einladungsverfahren für Gruppen und Kurse konfiguriert wird.
+Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und welche Datenschutz-Einstellungen beim Hinzufügen von Mitgliedern in Gruppen und Kursen gelten.
 
 !!! note "Navigation"
     `Administration > Module > Gruppen`
@@ -35,7 +35,7 @@ Kursbesitzer:innen und Gruppenbetreuer:innen können eigene Gruppen in eigene Ku
 
 ## Datenschutz [:octicons-tag-16:{ title="ab Release 8.3 (OO-377)" }](https://track.frentix.com/issue/OO-377){:target="_blank"} {: #data_privacy}
 
-Die Datenschutz-Einstellungen gelten für **Kurse und Gruppen gleichermassen**. Sie steuern, wie das System reagiert, wenn Benutzer:innen manuell in einen Kurs oder eine Gruppe eingetragen werden. Bei der Selbsteinschreibung greifen diese Einstellungen nicht.
+Die Datenschutz-Einstellungen gelten für **Kurse und Gruppen gleichermassen**. Sie steuern, wie das System reagiert, wenn Benutzer:innen manuell in einen Kurs oder eine Gruppe eingetragen werden. Schreiben sich Personen selbst ein, greifen diese Einstellungen nicht.
 
 
 #### Erzwungene E-Mail-Benachrichtigung bei Einladung [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
@@ -54,7 +54,7 @@ Ausstehende Mitgliedschaftsanfragen erscheinen im Kursbereich, im Gruppenbereich
 
 !!! note "Hinweis"
 
-    Ausstehende Mitgliedschaften belegen Gruppenplätze. Wenn eine Gruppe 5 Plätze hat und 3 Personen mit ausstehender Einladung vorhanden sind, stehen für die Selbsteinschreibung noch 2 Plätze zur Verfügung.
+    Ausstehende Mitgliedschaften belegen Plätze in der Gruppe. Wenn eine Gruppe 5 Plätze hat und 3 Personen mit ausstehender Einladung vorhanden sind, stehen für die Einschreibung noch 2 Plätze zur Verfügung.
 
 Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Benutzerverwalter:innen, Rollenverwalter:innen, Gruppenverwalter:innen, Lernressourcenverwalter:innen, Poolverwalter:innen, Kursplaner:innen, Absenzenverwalter:innen, Projektverwalter:innen, Qualityverwalter:innen, Linienvorgesetzte.
 

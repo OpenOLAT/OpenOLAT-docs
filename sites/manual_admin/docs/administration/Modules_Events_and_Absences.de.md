@@ -17,11 +17,11 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Syste
 
 ## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-![Modul-Toggle und Absenzen-Option auf oberster Ebene, darunter Konfiguration auf Kursebene mit den Auswahlkarten Schreibgeschützt und Überschreibbar. Tab Konfiguration, Seite Termine / Absenzen.](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" }
+![Schalter für das Modul und Absenzen-Option auf oberster Ebene, darunter Konfiguration auf Kursebene mit den Optionen Schreibgeschützt und Überschreibbar. Tab Konfiguration, Seite Termine / Absenzen.](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" }
 
 Die obersten zwei Optionen gelten für das ganze System. Sie stehen ausserhalb der Sektion "Konfiguration auf Kursebene".
 
-**Modul "Termin- und Absenzenverwaltung"**: Der Hauptschalter des Moduls. Steht er auf "aus", sind alle weiteren Optionen dieses Tabs ausgeblendet und Kurse können die Termin- und Absenzenverwaltung nicht einschalten.
+**Modul "Termin- und Absenzenverwaltung"**: Der Schalter für das ganze Modul. Steht er auf "aus", sind alle weiteren Optionen dieses Tabs ausgeblendet und Kurse können die Termin- und Absenzenverwaltung nicht einschalten.
 
 **Absenzen / Abmeldungen / Dispensen einschalten**: Bewirkt, dass Betreuende unter `Coaching > Termine` das Tab "Meldungen" angezeigt bekommen.
 
@@ -31,7 +31,7 @@ Diese Sektion setzt die Vorgabewerte für alle Kurse. Die Option "Standardkonfig
 
 #### Standardkonfiguration {: #default_configuration }
 
-Die Auswahl erfolgt über zwei Auswahlkarten:
+Die Auswahl erfolgt über zwei Optionen:
 
 - **Schreibgeschützt**: "Die Konfiguration ist schreibgeschützt und kann nicht geändert werden." Kurse übernehmen die hier gesetzten Vorgabewerte und können sie nicht ändern.
 - **Überschreibbar**: "Die Konfiguration kann in den Kurseinstellungen überschrieben werden." Kursbesitzende dürfen die Vorgabewerte pro Kurs anpassen unter `Kurs > Administration > Einstellungen > Durchführung`.
@@ -42,9 +42,9 @@ Die Auswahl gilt nur für die nachfolgenden Optionen dieser Sektion. Die Werte d
 
 Nur mit dieser Option lässt sich eine Anwesenheitskontrolle durchführen. Dozierende sehen dann die Teilnehmenden und die Kontrollkästchen.
 
-#### Berechnung der Anwesenheitsrate {: #attendance_rate_calculation }
+#### Berechnung der Anwesenheitsquote {: #attendance_rate_calculation }
 
-Wenn diese Option eingeschaltet ist, wird eine Prozentquote der Anwesenheit berechnet.
+Wenn diese Option eingeschaltet ist, wird die Anwesenheitsquote in Prozent berechnet.
 
 #### Absenzenquote global in % {: #global_absence_rate }
 
@@ -52,11 +52,11 @@ Diese Quote gibt an, wie viel Prozent Anwesenheit gefordert ist, um die Bedingun
 
 #### Dozentenkalender synchronisieren {: #teacher_calendar_sync }
 
-Dozierende (Kursbetreuer) bekommen Einträge in ihrem persönlichen Kalender (nicht im Kurskalender) für diejenigen Lektionenblöcke, bei welchen sie als Dozierende zugewiesen sind (Für Px-Kunden muss diese Funktion ausgeschaltet sein).
+Dozierende (Kursbetreuer) bekommen Einträge in ihrem persönlichen Kalender (nicht im Kurskalender) für diejenigen Termine, bei welchen sie als Dozierende zugewiesen sind (Für Px-Kunden muss diese Funktion ausgeschaltet sein).
 
 #### Kurs Kalender synchronisieren {: #course_calendar_sync }
 
-Durch diese Option werden die erfassten Lektionenblöcke gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
+Durch diese Option werden die erfassten Termine gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
 
 #### Termin kann als Prüfung markiert werden {: #event_as_exam }
 

@@ -5,7 +5,7 @@ freigeschaltet werden. Die Einstellungen dazu finden Sie in der
 System-Administration unter:<br>
 `Administration > Module > Instant-Messaging`
 
-Die folgenden Konfigurationsparameter stehen zur Verfügung:
+Die folgenden Einstellungen stehen zur Verfügung:
 
  **Chat und Kurznachrichten einschalten:** Mit dieser Einstellung können Sie
 die gesamte Instant-Messaging Funktionalität ein- und ausschalten. Wenn

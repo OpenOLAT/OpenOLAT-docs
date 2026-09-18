@@ -5,7 +5,7 @@
 
 Wird das Konto eines/einer Benutzer:in gelöscht, ist diese Person in Zukunft nicht mehr als registriert in OpenOlat bekannt und auffindbar.
 
-Beim Löschen wird das Konto nicht physisch aus der Datenbank entfernt, sondern **anonymisiert**: Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Objekte, die technisch mit dem Konto verknüpft sind (z. B. Beiträge, Zertifikate, Buchungsaufträge), bleiben dadurch bestehen, verweisen aber nur noch auf das anonymisierte, nicht mehr auflösbare Konto. In der Tabelle unten wird deshalb zwischen **gelöscht**, **anonymisiert** und **erhalten/verwaist** unterschieden.
+Beim Löschen wird das Konto nicht aus der Datenbank entfernt, sondern **anonymisiert**: Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Objekte, die mit dem Konto verknüpft sind (z. B. Beiträge, Zertifikate, Buchungsaufträge), bleiben dadurch bestehen, verweisen aber nur noch auf das anonymisierte Konto. In der Tabelle unten wird deshalb zwischen **gelöscht**, **anonymisiert** und **erhalten** unterschieden.
 
 Für die **Arbeitsergebnisse** dieser Person gelten beim Löschen ihres Kontos eigene Regeln. Siehe unten: [Was wird gelöscht?](#del_properties)
 
@@ -16,7 +16,7 @@ Um ein Konto zu löschen, muss ein Zugriff auf die Benutzerverwaltung möglich s
 
 * Benutzerverwalter:in
 * Administrator:in
-* Systemadministrator:in (kein direkter Zugriff auf Benutzerverwaltung, kann jedoch via Konten-Lebenzyklus Löschvorgänge auslösen)
+* Systemadministrator:in (kein direkter Zugriff auf Benutzerverwaltung, kann jedoch über den Benutzerkonten-Lebenszyklus Löschvorgänge auslösen)
 
 [Zum Seitenanfang ^](#delete_user)
 
@@ -97,7 +97,7 @@ Wird ein/eine Benutzer:in gelöscht,
 * können/sollen manche Informationen ohne Namen erhalten bleiben (z.B. Forumsbeitrag, ohne den ein Diskussionstrang seinen Sinn verlieren würde)
 * müssen manche Informationen erhalten bleiben (z.B. Rechnungsadresse -> Aufbewahrungspflicht) 
 
-Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unterschiedliche Objekte angebunden sind:
+Dabei muss berücksichtigt werden, dass OpenOlat die Informationen an unterschiedliche Objekte bindet:
 
 :octicons-person-24: = Information ist direkt an die **Person** gebunden<br>
 :octicons-package-24: = Information wird zusammen mit einem **Kurs/einer Gruppe/o.a.** gespeichert<br>
@@ -129,20 +129,20 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 |**Kompetenzen** :octicons-person-24: | Kompetenzen werden gelöscht.|
 |Benutzerverwaltung > **Course Planner Rollen** :octicons-person-24: | Die Course-Planner-/Curriculum-Rollen werden als Mitgliedschaften mit dem Konto gelöscht. |
 |**Persönlicher Kalender** :octicons-person-24: | Der persönliche Kalender wird gelöscht|
-|**Chatverlauf** :octicons-person-24: | Die Chat-Nachrichten der Person werden gelöscht, ebenso der Roster-Eintrag und die Chat-Einstellungen. Gelöscht werden dabei die Beiträge, die diese Person geschrieben hat. Die Beiträge der Gesprächspartner:innen in denselben Unterhaltungen bleiben bestehen.|
+|**Chatverlauf** :octicons-person-24: | Die Chat-Nachrichten der Person werden gelöscht, ebenso ihr Eintrag in den Kontaktlisten und die Chat-Einstellungen. Gelöscht werden dabei die Beiträge, die diese Person geschrieben hat. Die Beiträge der Gesprächspartner:innen in denselben Unterhaltungen bleiben bestehen.|
 |**Persönlicher Ordner** :octicons-person-24: |Der persönliche Ordner wird gelöscht|
 |**Portfolio** :octicons-person-24: | In einem ePortfolio erstellte Mappen, Bereiche und Einträge werden gelöscht. Wenn Mappen an andere Benutzer:innen frei gegeben wurden, sind sie auch dort nicht mehr abrufbar.|
 |**persönliche To-dos** :octicons-person-24: | Die Zuweisung zum gelöschten Konto wird entfernt; der To-do-Eintrag selbst bleibt bestehen, ist danach aber niemandem mehr zugewiesen. (To-dos in Projekten: siehe unten) |
 |**Mailbox** :octicons-person-24: |Mails, die in der Mailbox des persönlichen Menüs aufgeführt sind, werden gelöscht. (Die interne E-Mail-Box wird komplett gelöscht.)|
 |**Empfänger:in einer Erinnerungsmail** :octicons-package-24: |War der/die gelöschte Benutzer:in potenzieller/potenzielle Empfänger:in einer Erinnerungsmail, wird die Mail nicht mehr an die gelöschte Person geschickt. (Die Empfängerliste wird zum Zeitpunkt der Prüfung der Regeln erstellt, deshalb erscheint eine gelöschte Person gar nicht mehr auf der Versandliste.)|
-|**Mitgliedschaft in Gruppen** :octicons-person-24: :octicons-package-24: | Die Mitgliedschaften in Gruppen werden gelöscht. (Die Gruppen selbst werden nicht gelöscht, auch wenn sie von dem/der gelöschten Benutzer:in erstellt wurden und er/sie einziges Mitglied ist. Es wird dann lediglich die gelöschte Benutzer:in als Gruppenmitglied entfernt. Wenn die gelöschte Benutzer:in der/die einzige Gruppenbetreuer:in war, wird ersatzweise der/die Administrator:in als Gruppenbetreuer:in eingetragen. In der Regel werden Gruppen ohne Mitglieder dann aber zu einem späteren Zeitpunkt durch den Group-Life-Cycle-Prozess gelöscht.)|
+|**Mitgliedschaft in Gruppen** :octicons-person-24: :octicons-package-24: | Die Mitgliedschaften in Gruppen werden gelöscht. (Die Gruppen selbst werden nicht gelöscht, auch wenn sie von dem/der gelöschten Benutzer:in erstellt wurden und er/sie einziges Mitglied ist. Es wird dann lediglich die gelöschte Benutzer:in als Gruppenmitglied entfernt. Wenn die gelöschte Benutzer:in der/die einzige Gruppenbetreuer:in war, wird ersatzweise der/die Administrator:in als Gruppenbetreuer:in eingetragen. In der Regel werden Gruppen ohne Mitglieder dann aber zu einem späteren Zeitpunkt durch den Lebenszyklus von Gruppen gelöscht.)|
 |**Mitgliedschaft in Projekten** :octicons-person-24: :octicons-package-24: |Die Mitgliedschaft in Projekten wird gelöscht und die Person ist nicht mehr in der Liste der Projektmitglieder zu finden. (Von dem/der gelöschten Benutzer:in in einem Projekt erstellte To-dos bleiben jedoch erhalten.)|
 |**To-dos in Projekten** :octicons-person-24: |In Projekten bleiben die To-dos eines/einer gelöschten Benutzer:in erhalten, sind dann allerdings niemandem mehr zugewiesen. Auch bereits erledigte To-dos bleiben erhalten (ohne Angabe des/der Benutzer:in, die dieses To-do zu erledigen hatte). Der Ablauf von Projekten bleibt so weiter ersichtlich. Unerledigte To-dos müssen aber neu zugeordnet werden.|
 |**Mitgliedschaft in Kursen** :octicons-person-24: | Kursmitgliedschaften werden gelöscht, auch wenn die Rolle in diesem Kurs "Besitzer:in" und "Betreuer:in" war. Wenn der/die gelöschte Benutzer:in Ersteller:in und einziger Besitzer/einzige Besitzer:in war, wird ersatzweise ein/eine Administrator:in als Besitzer:in des Kurses eingetragen.|
 |**Daten im Kursbaustein Aufgabe** :octicons-person-24: :octicons-package-24: |Innerhalb einer Aufgabe von der gelöschten Person erstellte und hochgeladene Dokumente werden gelöscht (z.B. draw.io, Word,Excel, ppt).|
 |**Daten des Peer Reviews im Kursbaustein Aufgabe** :octicons-person-24: :octicons-package-24: | Die von der Person abgegebenen bzw. hochgeladenen Dateien werden gelöscht. Die Peer-Review-Datensätze (Zuordnungen, Bewertungen) bleiben erhalten und verweisen auf das anonymisierte Konto. |
 |**Daten im Kursbaustein Teilnehmerordner** :octicons-person-24: :octicons-package-24: | Die Dateien der Person im Kursbaustein Teilnehmerordner werden gelöscht. |
-|**Daten im Kursbaustein Forum** :octicons-person-24: :octicons-package-24: |Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.|
+|**Daten im Kursbaustein Forum** :octicons-person-24: :octicons-package-24: |Persönliche Forumsbeiträge und -kommentare werden nach der Löschung des Kontos anonymisiert und mit "unknown user" ausgewiesen.|
 |**Daten im Kursbaustein BBB** :octicons-person-24: :octicons-package-24: |Sind Teilnehmer:innen in BBB-Meetings werden sie gelöscht.|
 |**Daten im Kursbaustein Adobe Connect** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
 |**Daten im Kursbaustein Vitero** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
@@ -173,7 +173,7 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 
 Konten mit dem Status **"Aktiv und nicht löschbar"** können nicht gelöscht werden, weder manuell noch automatisch. Sie werden in der Kontensuche gar nicht erst zur Löschung angeboten. Dieser Status wird typischerweise für Systemkonten wie das Administrator-Konto vergeben.
 
-Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift zusätzlich ein Schutz gegen Massenlöschung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht der automatische Löschlauf vollständig ab.
+Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift zusätzlich eine Sicherung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht die automatische Löschung vollständig ab.
 
 
 [Zum Seitenanfang ^](#delete_user)

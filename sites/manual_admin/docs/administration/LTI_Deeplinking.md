@@ -10,7 +10,7 @@ Deep linking is an LTI 1.3 service that enables authors to guide course particip
 **Example:**<br>
 Instead of providing a link to a book in the course element and letting learners search for a recommended chapter themselves (scrolling), a specific chapter can be displayed directly.
 
-The deep linking function can be activated by the administrator of the OpenOlat instance so that the OpenOlat authors can enable the deep links to the external tool in the course elements without having to repeatedly provide information on registration and parameter transfer. This simplifies the work of the authors when configuring an LTI course element.
+The deep linking function can be activated by the administrator of the OpenOlat instance so that the OpenOlat authors can enable the deep links to the external tool in the course elements without having to repeatedly provide information on registration and parameters. This simplifies the work of the authors when configuring an LTI course element.
 
 ## Available features {: #available_features}
 
@@ -48,7 +48,7 @@ You find the toggle button "Activate Deep-Linking" in the system administration 
 If deep linking has been permitted for authors, they can select preconfigured links under "LTI Version" when configuring the LTI course element:<br>
 `Course > Course editor > Course element "LTI page" > Tab "Page content"`
 
-If one of the pre-configurations is selected, the required URL is entered immediately and the author no longer has to worry about it.
+If one of the pre-configured links is selected, the required URL is entered immediately and the author no longer has to worry about it.
 
 ![Selection list LTI Version with the value LTI 1.3, in the tab Page content of the course element LTI page](assets/LTI_page_content_version_v1_de.png){ class="shadow lightbox" }
 

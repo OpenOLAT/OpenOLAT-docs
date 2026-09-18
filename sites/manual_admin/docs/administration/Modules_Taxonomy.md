@@ -201,7 +201,7 @@ OpenOlat only searches the taxonomies that are activated for the Media Center. T
 The assignment via embedding model needs three settings in the AI module, see [External tools: AI module](External_Tools_AI.md#ai_functions):
 
 * The AI feature "Taxonomy Matching (Embeddings)" is activated.
-* An AI provider is selected that can create embeddings.
+* An AI provider is selected that offers an embedding model.
 * An embedding model is selected.
 
 If one of these settings is missing, OpenOlat only assigns a level when the detected topic is identical to the display name or to the identifier of the level. Upper and lower case does not matter.

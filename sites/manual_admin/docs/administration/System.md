@@ -2,7 +2,7 @@
 
 ![Menu System in the System Administration with ten areas, including Info messages, Errors, Caches and Scheduler, for system information, maintenance and diagnostics](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-In the "System" area of the OpenOlat administration, administrators receive general information about the system runtime, such as memory used, current click counts or data directories. 
+In the "System" area of the OpenOlat administration, administrators receive general information about the runtime, such as memory used, current click counts or directories. 
 
 Administrators have access to the adjacent menu here.
 

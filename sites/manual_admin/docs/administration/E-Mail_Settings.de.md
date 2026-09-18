@@ -30,7 +30,7 @@ Wenn diese Option nicht aktiviert ist, bedeutet dies, dass mehrere Konten diesel
 
 ## E-Mail Postfach und Versand {: #e-mail-inbox-and-outbox}
 
-OpenOlat verfügt über ein internes E-Mail-Postfach-System, das alle im System gesendeten und empfangenen E-Mails im persönlichen Postfach jeder Person auflistet: [Persönliche Werkzeuge: E-Mail](../../manual_user/personal_menu/E-Mail.de.md). Das E-Mail-Postfach in OpenOlat ist eine optionale Komponente.
+OpenOlat verfügt über ein internes Postfach, das alle in OpenOlat gesendeten und empfangenen E-Mails im persönlichen Postfach jeder Person auflistet: [Persönliche Werkzeuge: E-Mail](../../manual_user/personal_menu/E-Mail.de.md). Das OpenOlat Postfach ist eine optionale Komponente.
 
 ### OpenOlat Postfach aktivieren
 
@@ -62,7 +62,7 @@ Die E-Mail Vorlage gilt für alle E-Mails und steuert nur deren Aussehen, nicht 
 Die folgenden Variablen müssen in der Vorlage vorkommen:
 
   *  **$content**: Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache der Empfänger:in angepasst.
-  *  **$footer**: Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und lässt sich mit dem Sprachanpassungswerkzeug für jede Sprache ändern (Variablen `footer.no.userdata` und `footer.with.userdata` im Paket `org.olat.core.util.mail`).
+  *  **$footer**: Wird ersetzt mit der Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und lässt sich mit dem Sprachanpassungswerkzeug für jede Sprache ändern (Variablen `footer.no.userdata` und `footer.with.userdata` im Paket `org.olat.core.util.mail`).
 
 ### Texte einzelner E-Mails {: #mail_texts}
 
@@ -92,7 +92,7 @@ Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im Mailfenster am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
+Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im E-Mail-Formular am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
 
 Damit das Feld für die Signatur im Profil erscheint, aktivieren Sie das Attribut "emailSignature" in der System-Administration unter:<br>
 `Administration > Customizing > Benutzer:innen-Attribute`

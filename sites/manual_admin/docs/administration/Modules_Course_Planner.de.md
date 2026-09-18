@@ -11,7 +11,7 @@ Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOla
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und Optionsbaum Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" }
+![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und die Auswahl der Angaben in der Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" }
 
 Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheinen: «Produkt in "Meine Kurse"» und die «Benutzer:innen-Übersicht». Fünf Einstiege öffnen dieselbe Liste:
 
@@ -73,7 +73,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 | Spalte | Bedeutung |
 |---|---|
 | Titel | Der Name des Elementtyps |
-| Kennzeichen | Der eindeutige Identifier des Elementtyps |
+| Kennzeichen | Der eindeutige Wert, der den Elementtyp von gleichnamigen Typen unterscheidet |
 | Status | Ob der Typ für neue Elemente zur Auswahl steht: «Aktiv» oder «Inaktiv» |
 | Verwendung als | Funktion des Elementtyps im Produkt: «Durchführung», «Element» oder «Durchführung oder Element (legacy)» |
 | Unterelemente | Ob Elemente dieses Typs Unterelemente enthalten können |
@@ -102,7 +102,7 @@ Der Name des Elementtyps, der bei der Auswahl beim Anlegen eines Elements angeze
 
 #### Kennzeichen (Pflichtfeld) {: #element_type_identifier }
 
-Ein eindeutiger Identifier, der zur Unterscheidung bei Elementen mit gleichem Titel dient. Erscheint bei der Erstellung eines neuen Curriculum-Elements als Auswahloption.
+Ein eindeutiger Wert, der Elemente mit gleichem Titel unterscheidet. Erscheint bei der Erstellung eines neuen Curriculum-Elements als Auswahloption.
 
 #### Beschreibung {: #element_type_description }
 
@@ -115,7 +115,7 @@ Erklärender Text zum Elementtyp.
 * **Fortschritt**: Zeigt den Lernfortschritt in Lernpfadkursen als Kreisdiagramm. Bei mehreren Unterelementen wird der Durchschnitt der Unterelemente berechnet.
 
 !!! note "CSS class"
-	Hier kann per CSS-Klasse ein typenspezifisches Layout hinterlegt werden. Bei Interesse an spezifischen Layouts wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com).
+	Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs. Bei Interesse an eigenen Layouts wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com).
 
 Im Abschnitt **Konfiguration** legen Sie die Struktur fest:
 
@@ -126,8 +126,8 @@ Im Abschnitt **Konfiguration** legen Sie die Struktur fest:
 Zeigt die Funktion von Elementen dieses Typs im Produkt. Der Wert ergibt sich aus dem gewählten Button und ist nicht editierbar:
 
 * **Durchführung**: Elemente dieses Typs sind Durchführungen (das oberste Elternelement). Sie verfügen über einen Durchführungszeitraum und sind der Ausgangspunkt für Automatisierungsregeln.
-* **Element**: Elemente dieses Typs sind Subelemente unterhalb einer Durchführung und haben keinen eigenen Durchführungszeitraum.
-* **Durchführung oder Element (legacy)**: Elemente dieses Typs können sowohl als Durchführung als auch als Subelement verwendet werden. Dieser Modus dient der Abwärtskompatibilität mit bestehenden Produktstrukturen und steht für neue Typen nicht zur Wahl.
+* **Element**: Elemente dieses Typs sind Unterelemente unterhalb einer Durchführung und haben keinen eigenen Durchführungszeitraum.
+* **Durchführung oder Element (legacy)**: Elemente dieses Typs können sowohl als Durchführung als auch als Unterelement verwendet werden. Diesen Wert tragen bestehende Produktstrukturen; für neue Typen steht er nicht zur Wahl.
 
 #### Unterelemente {: #subelements }
 
@@ -167,10 +167,10 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 Jede Automatisierungsregel enthält:
 
-* **Auslösertyp**:
+* **Auslöser**:
   * **Bei Statuswechsel**: Die Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen definierten Wert annimmt.
   * **Zeitgesteuert**: Die Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. Dabei legen Sie das Bezugsdatum (Beginn oder Ende) sowie einen optionalen Versatz (Anzahl Tage/Wochen/Monate vor oder nach dem Bezugsdatum) fest.
-* **Aktion**: Was automatisch ausgeführt wird, z. B. Kurs aus Vorlage erstellen (Instanzierung) oder Kursstatus setzen.
+* **Aktion**: Was automatisch ausgeführt wird, z. B. Kurs aus Vorlage erstellen (Instanziierung) oder Kursstatus setzen.
 
 
 [Zum Seitenanfang ^](#module_course_planner)

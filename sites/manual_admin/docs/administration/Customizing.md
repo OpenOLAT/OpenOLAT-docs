@@ -83,7 +83,7 @@ Various portlets can be selected for the "Portal" tab.
 
 ## User properties {: #user_properties}
 
-Administrators can use this feature to select the attributes displayed in user management and assign them to a display group.
+Administrators can use this feature to select the attributes displayed in user management and group them.
 In addition, the translations can be edited.
 
 [To the top of the page ^](#customizing)

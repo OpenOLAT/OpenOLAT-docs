@@ -1,6 +1,6 @@
 # Module Groups {: #groups}
 
-In the Groups module, administrators define system-wide who is allowed to create groups, which rights group managers and learning resource managers receive in the group context, and how the data-protection-compliant invitation procedure for groups and courses is configured.
+In the Groups module, administrators define system-wide who is allowed to create groups, which rights group managers and learning resource managers receive in the group context, and which data privacy settings apply when members are added to groups and courses.
 
 !!! note "Navigation"
     `Administration > Modules > Groups`
@@ -35,7 +35,7 @@ Course owners and group coaches can integrate their own groups into their own co
 
 ## Data privacy [:octicons-tag-16:{ title="from Release 8.3 (OO-377)" }](https://track.frentix.com/issue/OO-377){:target="_blank"} {: #data_privacy}
 
-The data privacy settings apply **equally to courses and groups**. They control how the system reacts when users are manually added to a course or group. These settings do not apply for self-registration.
+The data privacy settings apply **equally to courses and groups**. They control how the system reacts when users are manually added to a course or group. If people enrol themselves, these settings do not apply.
 
 
 #### Mandatory email notification on invitation [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
@@ -54,7 +54,7 @@ Pending membership requests appear in the course area, in the group area, and on
 
 !!! note "Note"
 
-    Pending memberships occupy group places. If a group has 5 places and 3 people have a pending invitation, only 2 places remain available for self-registration.
+    Pending memberships occupy places in the group. If a group has 5 places and 3 people have a pending invitation, only 2 places remain available for enrolment.
 
 Configurable roles: Users with no additional role, Authors, User managers, Roles managers, Group managers, Learning resource managers, Question bank managers, Course planners, Absence managers, Project managers, Quality managers, Line managers.
 

@@ -44,7 +44,7 @@ Administrators can define whether and to what extent OpenOlat can be used by ano
 
 ## Self-registration {: #self-registration}
 
-Here, administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the validity period of an account can be restricted for self-registration, for example (default value for account validity).
+Here, administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
 
 [See the details >](../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)

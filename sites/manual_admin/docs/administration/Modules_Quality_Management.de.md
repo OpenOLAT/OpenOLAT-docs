@@ -43,7 +43,7 @@ Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle
 
 ## Massnahmen To-dos {: #to_do}
 
-In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer oder mehreren Erhebungen. Technisch gesehen, handelt es sich bei "Massnahmen" aus dem QM um To-do-Objekte. 
+In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer oder mehreren Erhebungen. Eine "Massnahme" im Qualitätsmanagement ist ein To-do. 
 
 Wird diese Option aktiviert, können Qualitätsmanager:innen To-dos (Massnahmen) erstellen.
 

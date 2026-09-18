@@ -52,7 +52,7 @@ The implementation formats created and listed here can be used by authors to cla
 
 ![List of color categories with identifier, translation and CSS class in the Color categories tab](assets/modules_course_color_categories_v1_en.png){ class="shadow lightbox" }
 
-The color categories created here are available as css classes. They can be used by authors to design course elements in the “Layout” tab of the course editor, for example.
+The color categories created here are available as CSS classes. They can be used by authors to design course elements in the “Layout” tab of the course editor, for example.
 
 [To the top of the page ^](#course)
 
@@ -60,7 +60,7 @@ The color categories created here are available as css classes. They can be used
 
 ## Tab Style images {: #style_images}
 
-![Library of style images for the default style of new courses in the Style images tab](assets/modules_course_style_images_v1_en.png){ class="shadow lightbox" }
+![Library of style images for designing the course elements in the Style images tab](assets/modules_course_style_images_v1_en.png){ class="shadow lightbox" }
 
 The images listed here can be used by the authors in the “Layout” tab of the course editor to design the header of the course elements. They can be colored differently by selecting a color category.
 

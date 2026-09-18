@@ -1,6 +1,6 @@
 # Modul Kontaktverfolgung {: #contact_tracing}
 
-Mit diesem Modul ermöglicht OpenOlat eine software-unterstützte physische Kontaktverfolgung an einer Institution.
+Mit diesem Modul unterstützt OpenOlat die Kontaktverfolgung an den physischen Orten einer Institution.
 
 > **Wikipedia: _"_** _Als Kontaktpersonennachverfolgung (Englisch: Contact
 > Tracing), oder auch nur als Kontaktverfolgung, bezeichnet man im Rahmen der
@@ -10,11 +10,11 @@ Mit diesem Modul ermöglicht OpenOlat eine software-unterstützte physische Kont
 
 ## Übersicht und Praxiseinsatz {: #overview_practical}
 
-Das Contact Tracing Modul funktioniert mit den folgenden fünf Schritten:
+Das Modul Kontaktverfolgung funktioniert mit den folgenden fünf Schritten:
 
   1. Erfassung der **Standorte** (manuell oder via Import)
   2. Generierung der **QR-Codes** für die Platzierung an den Standorten
-  3. **Registration** von bestehenden OpenOlat-Benutzern oder Gästen an den Standorten
+  3. **Registration** von bestehenden OpenOlat-Benutzer:innen oder Gästen an den Standorten
   4. Versand einer **E-Mail Bestätigung** nach der Registration
   5. **Export** der Daten bei einer behördlichen Anfrage
 
@@ -31,7 +31,7 @@ Das Modul "Kontaktverfolgung" ist für Systemadministrator:innen zugänglich:<br
 `Administration > Module > Kontaktverfolgung`
 
 Im Tab "Konfiguration" aktivieren Sie das Modul und legen eine
-Aufbewahrungsfrist sowie eine Standardaufhaltedauer fest. Hier konfigurieren Sie auch die optionalen und verbindlichen Felder des Kontaktverfolgungsfragebogens sowie weitere Texte und Nachrichten.
+Aufbewahrungsfrist sowie eine Standardaufhaltedauer fest. Hier konfigurieren Sie auch die optionalen und verbindlichen Felder des Fragebogens sowie weitere Texte und Nachrichten.
 
 Im Tab "Standorte" können Standorte importiert bzw. hinzugefügt werden.
 

@@ -4,7 +4,7 @@ The Instant-Messaging module allows enabling of the "chat" and "messaging"
 features. You find these settings in the system administration under:<br>
 `Administration > Modules > Instant Messaging`
 
-The following configuration parameters are available:
+The following settings are available:
 
  **Enable chat and messaging:** Using this setting the entire Instant-
 Messaging functionality is enabled or disabled. When disabled all chat and

@@ -4,11 +4,11 @@
 
 ### Enable video recording
 
-When you enable the video recording feature, users can record their own video in many places where video is used, such as in tasks or group tasks.
+When you enable the video recording, users can record their own video in many places where video is used, such as in tasks or group tasks.
 
 ### Enable audio recording
 
-When you enable the audio recording feature, users can record their own audio in many places where audio is used, such as in tasks or group tasks.
+When you enable the audio recording, users can record their own audio in many places where audio is used, such as in tasks or group tasks.
 
 ### Enable local video conversion
 

@@ -19,14 +19,14 @@ Folgende Einstellungen können Systemadministrator:innen vornehmen, um die Bewer
 
 ### Numerischer Typ
 
-Numerische Bewertungssysteme können in ihrer Auflösung (Ganze, Halbe, Viertel, Zehntel) und in ihrem Rundungsverhalten angepasst werden. Dabei werden die Leistungsklassen anhand der eingegebenen maximalen Punktzahl und der Bewertungsschwelle berechnet und ergeben die Bewertungsskala.
+Numerische Bewertungssysteme lassen sich in der Auflösung (Ganze, Halbe, Viertel, Zehntel) und in der Rundung anpassen. OpenOlat berechnet die Leistungsklassen aus der eingegebenen maximalen Punktzahl und der Grenze "Bestanden mit". Daraus ergibt sich die Bewertungsskala.
 
 ### Textueller Typ
 
-Bei textuellen Bewertungssystemen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die jeweilige Notenuntergrenze bestimmen dann die Rahmenbedingungen der Bewertungsskala.
+Bei textuellen Bewertungssystemen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die Punkte Untergrenze je Leistungsklasse bestimmen dann die Rahmenbedingungen der Bewertungsskala.
 
 ![Dialog Bewertungssystem bearbeiten mit Typ Textuell: statt Zahlenbereichen definieren Leistungsklassen die Stufen, je Klasse legt die Spalte Bestanden das Ergebnis fest](assets/admin_Noten_Bewertungssystem_textuell.png){ class="shadow lightbox" }
 
-Weitere Beispiele für sinnvolle Labelbezeichnungen sind: Einsteiger, Fortgeschritten, Profi oder verschiedene Emojis.
+Weitere Beispiele für sinnvolle Label sind: Einsteiger, Fortgeschritten, Profi oder verschiedene Emojis.
 
 In der System-Administration können mehrere Bewertungssysteme hinterlegt und zur Verfügung gestellt werden.

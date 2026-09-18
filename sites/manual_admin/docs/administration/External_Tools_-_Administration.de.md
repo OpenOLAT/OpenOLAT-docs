@@ -8,7 +8,7 @@ In diesem Bereich schalten die OpenOlat-Administrator:innen diverse externe Werk
 
 ## BigBlueButton {: #bbb}
 
-BigBlueButton ist eine Software, welche Online-Konferenzen ermöglicht oder als virtueller Klassenraum dienen kann.
+BigBlueButton ist eine Software, welche Online-Konferenzen ermöglicht oder als virtuelles Klassenzimmer dienen kann.
 Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB unter `Administration > Externe Werkzeuge > BigBlueButton` aktiviert und konfiguriert worden sein.
 
 [Zu den Details >](BigBlueButton_module.de.md)<br>
@@ -23,9 +23,9 @@ OpenMeetings ist eine Webkonferenz-Lösung.
 In der System-Administration konfigurieren Sie das OpenMeetings-Modul und schalten die Funktionalität frei, unter:<br>
 `Administration > Externe Werkzeuge > OpenMeetings`
 
-Geben Sie im Tab "Konfiguration" die "URL OpenMeetings Server" ein, sowie den zuvor in OpenMeetings angelegten "Web Service Anmeldename" und das zugehörige "Web Service Passwort". Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
+Geben Sie im Tab "Konfiguration" die "URL OpenMeetings Server" ein, sowie den zuvor in OpenMeetings angelegten "Web Service Anmeldename" und das zugehörige "Web Service Passwort". Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Zugangsdaten zu überprüfen.
 
-Wenn das Modul eingeschaltet und die Verbindungsparameter zum OpenMeetings-
+Wenn das Modul eingeschaltet und die Zugangsdaten zum OpenMeetings-
 Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-
 Räume erzeugt und genutzt werden:
 
@@ -41,7 +41,7 @@ angelegten OpenMeetings-Räume.
 
 ## Adobe Connect [:octicons-tag-16:{ title="ab Release 14.0 (OO-3887)" }](https://track.frentix.com/issue/OO-3887){:target="_blank"} {: #adobe_connect}
 
-Adobe Connect ist die Webkonferenzlösung aus der Adobe-Produktlinie.
+Adobe Connect ist die Webkonferenz-Lösung aus der Adobe-Produktlinie.
 
 Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
 
@@ -212,7 +212,7 @@ Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videoma
 
 **Server Name:** Name, unter dem die Kursbesitzer:innen den vorkonfigurierten Server im Kurseditor sehen.
 
-**LTI-Version:** Die Verbindung zum Mediasite-Server läuft über LTI 1.1 oder LTI 1.3 [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Version bestimmt, welche Verbindungsangaben Sie eintragen und wie die Kursbesitzer:innen den Inhalt im Kurseditor auswählen. Die Angaben erhalten Sie von der Betreiberin des Mediasite-Servers.
+**LTI-Version:** Die Verbindung zum Mediasite-Server läuft über LTI 1.1 oder LTI 1.3 [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Version bestimmt, welche Angaben Sie eintragen und wie die Kursbesitzer:innen den Inhalt im Kurseditor auswählen. Die Angaben erhalten Sie von der Betreiberin des Mediasite-Servers.
 
 LTI 1.3 setzt voraus, dass das Modul LTI 1.3 unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](LTI_Integrations.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
 
@@ -220,7 +220,7 @@ LTI 1.3 setzt voraus, dass das Modul LTI 1.3 unter `Administration > Externe Wer
 |---|---|---|
 | Angaben von der Betreiberin des Mediasite-Servers | **LTI Key**, **LTI Secret**, **LTI URL**, **My MediaSite - Administration URL**, **Username Property Key** | **LTI 1.3 Initiate Login URL**, **LTI 1.3 Redirect URL**, **LTI 1.3 JWKS URL**, **LTI URL**, optional **My MediaSite - Administration URL** |
 | Angaben, die OpenOlat erzeugt | keine | **LTI 1.3 Client ID** und **LTI 1.3 Deployment ID**. OpenOlat zeigt sie nach dem Speichern an. Die Betreiberin des Mediasite-Servers registriert OpenOlat damit auf ihrer Seite. |
-| Inhaltsauswahl im Kurseditor | Kursbesitzer:innen tragen die Modul-ID oder den Präsentationslink von Hand ein | Kursbesitzer:innen wählen den Kanal oder die Aufzeichnung über die Schaltfläche **Inhalt auswählen** direkt aus dem Mediasite-Server [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9717)" }](https://track.frentix.com/issue/OO-9717){:target="_blank"} |
+| Inhalt im Kurseditor auswählen | Kursbesitzer:innen tragen die Modul-ID oder den Präsentationslink von Hand ein | Kursbesitzer:innen wählen den Kanal oder die Aufzeichnung über die Schaltfläche **Inhalt auswählen** direkt aus dem Mediasite-Server [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9717)" }](https://track.frentix.com/issue/OO-9717){:target="_blank"} |
 
 **Zustimmung "Datenübertragung" unterdrücken:** Ist diese Option aktiviert, öffnet sich der Inhalt für Teilnehmende ohne die Seite "Zustimmung Datenübertragung". Kursbesitzer:innen mit einem eigenen Server legen dies im Kursbaustein selbst fest.
 

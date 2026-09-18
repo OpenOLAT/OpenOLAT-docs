@@ -40,7 +40,7 @@ The data collection preview in the "Quality management" module refers to all pla
 
 ## Action to-dos {: #to_do}
 
-To-dos can be created in various places in OpenOlat (projects, tasks, etc.). In quality management, we tend to talk about "measures" as a reaction to findings from a survey. Technically speaking, "measures" from QM are to-do objects.
+To-dos can be created in various places in OpenOlat (projects, tasks, etc.). In quality management, we tend to talk about "measures" as a reaction to findings from a survey. A "measure" in quality management is a to-do.
 
 If this option is activated, quality managers can create to-dos (measures).
 

@@ -16,7 +16,7 @@ Use the toggle "Module "Rooms"" to switch on the module. Only then do the segmen
 
 ### Module dependencies [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} {: #module_dependencies}
 
-The section "Module dependencies" shows the state of the two modules in which rooms are booked: "Course Planner" and "Events / Absences". For each module it says "Enabled" or "Disabled". For the Course Planner it also says which group of roles reaches the site, for example "Course planners, product and element owners, certification program owners". You set this group of roles under: [Customizing: Sites >](Customizing.md#sites)
+The section "Module dependencies" shows the state of the two modules in which rooms are booked: "Course Planner" and "Events / Absences". For each module it says "Enabled" or "Disabled". For the Course Planner it also says which roles reach the site, for example "Course planners, product and element owners, certification program owners". You set these roles under: [Customizing: Sites >](Customizing.md#sites)
 
 If one of the two modules is disabled, no room bookings arise there. Room management stays usable, but the room scheduling then lists no bookings from that module.
 
@@ -30,11 +30,11 @@ Every room belongs to a building. In the segment "Buildings" you create the buil
 
 #### Reference (mandatory field) {: #building_identifier }
 
-The decisive identification attribute of the building, for example an abbreviation or a house number. It is displayed wherever the building is referenced.
+An abbreviation or a house number for the building. The reference is displayed wherever the building is referred to.
 
 #### Description {: #building_description }
 
-An optional plain-text name such as "Main building". If a description is set, it appears in addition to the reference.
+An optional name such as "Main building". If a description is set, it appears in addition to the reference.
 
 #### Color {: #building_color }
 
@@ -50,7 +50,7 @@ Under "Address" you enter the postal address. "Find on map" sets the position on
 
 #### Info-URL and Additional information {: #building_info }
 
-Optional additional details, such as a link to a building page or a note like "Collect the key at reception".
+Optional additional details, such as a link with further information on the building or a note like "Collect the key at reception".
 
 A building has the status "Active", "Inactive" or "Deleted". If a building is deactivated, all of its rooms become inactive as well. Deleting is only possible for an inactive building and also removes its rooms. As long as rooms of the building still have active bookings, the building cannot be deleted. The pre-defined filters "All", "Relevant" (active buildings only) and "Deleted" control which buildings the list shows.
 
@@ -64,7 +64,7 @@ In the segment "Rooms" you create the individual rooms and assign them to a buil
 
 #### Reference (mandatory field) {: #room_identifier }
 
-The identification attribute of the room, for example the room number.
+The detail by which you recognise the room, for example the room number.
 
 #### Description {: #room_description }
 
@@ -100,7 +100,7 @@ You find the room scheduling in the system administration under:<br>
 
 The segment "Room Scheduling" bundles all room bookings as an overview. Filters and a calendar view are available.
 
-Course planners reach the same view in the Course Planner under `Course Planner > Tools > Room management`. It differs only in the hint line that appears above the table here. The warnings, the filters, the expandable detail view of a booking and the "Booking" window in the calendar view are described there: [Room Scheduling in the Course Planner: details >](../../manual_user/area_modules/Course_Planner_Rooms.md#room_scheduling)
+Course planners reach the same view in the Course Planner under `Course Planner > Tools > Room management`. It differs only in the note that appears above the table here. The warnings, the filters, the expandable detail view of a booking and the "Booking" window in the calendar view are described there: [Room Scheduling in the Course Planner: details >](../../manual_user/area_modules/Course_Planner_Rooms.md#room_scheduling)
 
 
 ---

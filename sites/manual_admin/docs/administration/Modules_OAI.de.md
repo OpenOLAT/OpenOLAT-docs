@@ -7,14 +7,14 @@ Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI
 
 ## Metadataprefix {: #metadataprefix}
 
-Die Metadatenprefixe zeigen zwei verschiedene Metadatensammlungen an:
+Die Metadatenprefixe zeigen zwei verschiedene Metadatenformate an:
 
 * OpenOlat spezifisch (Lernressourcen-URL ist im Titel enthalten): _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_oo**_
 
 * Metadaten nach Dublin Core: _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_dc**_
 
 
-In Klammern ist das jeweilige XML Element in der passenden Metadatensammlung beschrieben.
+In Klammern ist das jeweilige XML Element im passenden Metadatenformat beschrieben.
 
 Metadaten | OAI OpenOlat | OAI Dublin Core
 ---------|----------|---------
@@ -57,20 +57,20 @@ Metadaten | OAI OpenOlat | OAI Dublin Core
 
 ## Administration {: #administration}
 
-Das Modul kann unter `Administration > Module > SEO / OAI-PMH Metadaten` eingeschaltet werden. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
+Das Modul kann unter `Administration > Module > SEO / OAI-PMH Metadaten` eingeschaltet werden. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API Endpunkt verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
 ### API Endpunkt {: #endpoint}
 
-Dies ist die Anwendungsschnittstelle, woher die Metadaten abgefragt werden. Mittels verschiedener Parameter kann man hier nach unterschiedlichen Lernressourcen filtern. Der API-Endpunkt kann auch mittels Klick auf den Button getestet werden.
+Dies ist die Schnittstelle, woher die Metadaten abgefragt werden. Mittels verschiedener Parameter kann man hier nach unterschiedlichen Lernressourcen filtern. Der API Endpunkt kann auch mittels Klick auf den Button getestet werden.
 
 
 ### Identifier Format {: #identifier_type}
 
-Mit dem Identifier Format kann das Format des Identifiers eingestellt werden. Entweder man benutzt den Dublin-Core-Namespace oder den OpenOlat eigenen Identifier, welcher auch die Ressourceninfo enthält, wo man auch die Infoseite sieht.
+Mit dem Identifier Format kann das Format des Identifiers eingestellt werden. Entweder man benutzt den Dublin-Core-Namespace oder den OpenOlat eigenen Identifier, welcher die URL der Lernressource enthält und damit direkt auf deren Infoseite führt.
 
 ### Lizenz Einschränkungen {: #license_restrictions}
 
-Man kann Lernressourcen auf Lizenzen einschränken. Entweder werden nur Lernressourcen mit einer Lizenz oder Lernressourcen mit einer bestimmten Lizenzart über die Schnittstelle weitergegeben. Sind Lizenzen für Lernressourcen nicht aktiviert, werden bei einer Einschränkung keine Lernressourcen indexiert.
+Man kann Lernressourcen auf Lizenzen einschränken. Entweder werden nur Lernressourcen mit einer Lizenz oder Lernressourcen mit einem bestimmten Lizenztyp über die Schnittstelle weitergegeben. Sind Lizenzen für Lernressourcen nicht aktiviert, werden bei einer Einschränkung keine Lernressourcen indexiert.
 
 [Zum Seitenanfang ^](#oai_pmh)
 
@@ -85,7 +85,7 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 
 * Taxonomie-basiertes Set
 * Organisations-basierte Set (basierend auf administrativer Org-Beziehung)
-* OER-Lizenzbasierte Set, sortiert nach Lizenzarten
+* OER-Lizenzbasierte Set, sortiert nach Lizenztypen
 * Typ-basiertes Set, sortiert nach den Lernressourcentypen wie Kurs, Video, Podcast.
 * Angebot-basiertes Set, sortiert nach den Angebotstypen wie privat, buchbar mit Konto, Gast
 

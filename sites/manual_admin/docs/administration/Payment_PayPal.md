@@ -19,7 +19,7 @@ In order to publish courses and project groups with payment restrictions you can
 Log into your PayPal business account and make the necessary settings to connect to OpenOlat.
 
 !!! note "Note"
-	Please note that we do not maintain instructions for third-party providers. Below you will find the key reference points to help you get oriented. A step-by-step guide may be available in the documentation of the chosen tool.
+	Please note that we do not maintain instructions for third-party providers. Below you will find the necessary steps for orientation. A step-by-step guide may be available in the documentation of the chosen tool.
 
 - [x] Set up online payments in your business account.
 - [x] Obtain API credentials.

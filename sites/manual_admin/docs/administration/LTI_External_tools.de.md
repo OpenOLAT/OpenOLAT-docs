@@ -15,7 +15,7 @@ Administrator:innen aktivieren die Einbindung externer Tools in der System-Admin
 * Lernkarteien
 * Apps
 * Interaktive Übungen
-* Games
+* Lernspiele
 
 Für jedes externe Tool wird eine eigene Konfiguration angelegt. Verwenden Sie den Button "Neues Tool hinzufügen", um die Verbindung zu einem neuen Tool anzulegen.
 
@@ -57,7 +57,7 @@ Die letzten vier Werte generiert OpenOlat. Der Dialog zeigt sie nur an. Übertra
 * **Aktiviert (globales Deployment):** OpenOlat erzeugt eine gemeinsame Deployment ID. Dasselbe Tool kann damit in mehreren Kursen wiederverwendet werden, ohne es pro Kurs neu konfigurieren zu müssen.
 * **Deaktiviert (lokales Deployment):** Für jeden Kurs wird ein eigenes Deployment angelegt. Das Tool ist dann nur im jeweiligen Kurs verfügbar.
 
-Die Deployment-Art wird beim Anlegen des Tools festgelegt und kann nachträglich nicht mehr geändert werden.
+Die Option "Mit Shared Deployment" legen Sie beim Anlegen des Tools fest. Nachträglich können Sie sie nicht mehr ändern.
 
 ## Weiterführende Informationen {: #further_information}
 

@@ -54,7 +54,7 @@ Activate this option to also allow students and coaches to access their course f
 
 #### Enable access for courses that users marked as favorite {: #access_favorites}
 
-Activate this option to also allow students and coaches to access course folders of courses that are in their favorites list but of which they are not members. This is only possible with the corresponding settings in the access configuration. Only the folders of the corresponding folder course elements are displayed, as well as any integrated resource folder.
+Activate this option to also allow students and coaches to access course folders of courses that they have marked as favorites but of which they are not members. This is only possible with the corresponding settings in the access configuration. Only the folders of the corresponding folder course elements are displayed, as well as any integrated resource folder.
 
 ## Usage
 

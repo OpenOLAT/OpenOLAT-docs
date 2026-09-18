@@ -23,7 +23,7 @@ Weitere Informationen zum
 
 !!! tip "Tipp"
 
-	Wenn Sie mit einer Taxonomie und Kompetenzen arbeiten, ist es empfohlen, die Option "Fachbereich beim Import erzeugen" _nicht_ zu aktivieren. Nur so haben Sie die Möglichkeit, einen Wildwuchs der Taxonomiestufen zu vermeiden und die Kontrolle und Struktur zu behalten.
+	Wenn Sie mit einer Taxonomie und Kompetenzen arbeiten, ist es empfohlen, die Option "Fachbereich beim Import erzeugen" _nicht_ zu aktivieren. Nur so haben Sie die Möglichkeit, einen Wildwuchs der Fachbereiche zu vermeiden und die Kontrolle und Struktur zu behalten.
 
 ### Rechte Poolverwalter:innen
 
@@ -40,7 +40,7 @@ Hier können Sie eine Infoseite erstellen. Diese Infoseite wird angezeigt, wenn 
   * Beurteilungsmethode: Vorerst kann nur die Beurteilungsmethode Untergrenze ausgewählt werden. Bei der Beurteilungsmethode "Untergrenze" wird eine Frage auf den Status "Final" gesetzt, wenn die minimale Anzahl der Bewertungen erreicht ist und alle Bewertungen höher oder gleich hoch sind wie die Untergrenze. Wenn eine Bewertung unterhalb der Untergrenze liegt, dann wird der Status der Frage sofort auf "Revision" gesetzt, auch wenn die minimale Anzahl Bewertungen noch nicht erreicht ist.
   * Anzahl Beurteilungen pro Frage: Diese Anzahl an Personen muss pro Frage eine positive Beurteilung, also oberhalb der Untergrenze, abgeben, damit die Frage in den Status Final wechselt.
   * Untergrenze für positive Beurteilung: Die hier definierte Anzahl Sterne muss von den Beurteilern mindestens vergeben werden, damit die Frage in den Status Final wechseln kann. Wird eine Bewertung unterhalb der Untergrenze vergeben, wird die Frage direkt in den Status Revision gesetzt. 
-  * Sichtbarkeit von finalen Fragen: Hier kann definiert werden, wer den Bereich Final und somit die Fragen im Status Final sieht. Dies können entweder nur die Personen mit der Kompetenz "Verwalten" des entsprechenden Fachs sein. Oder aber alle Personen, welche entweder die Kompetenz "Dozieren" oder "Verwalten" des entsprechenden Fachs besitzen.
+  * Sichtbarkeit von finalen Fragen: Hier kann definiert werden, wer den Bereich Final und somit die Fragen im Status Final sieht. Dies können entweder nur die Personen mit der Kompetenz "Verwalten" des entsprechenden Fachbereichs sein. Oder aber alle Personen, welche entweder die Kompetenz "Dozieren" oder "Verwalten" des entsprechenden Fachbereichs besitzen.
 
 ## Tab Fachbereiche
 

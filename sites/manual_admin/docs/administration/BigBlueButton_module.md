@@ -3,7 +3,7 @@
 The virtual classroom BigBlueButton is activated in the system administration:<br>
 `Administration > External tools > BigBlueButton`
 
-This article describes the configuration of multiple BigBlueButton servers, load balancing and setting up system-wide room templates.
+This article describes the configuration of multiple BigBlueButton servers, the distribution of the online meetings across these servers and setting up system-wide room templates.
 
 Instructions on how to configure individual online meetings for course owners are described in the chapter [Course Element "BigBlueButton"](../../manual_user/learningresources/bigbluebutton/index.md).
 
@@ -32,9 +32,9 @@ Click on the "Add server" button in the "Configuration" tab to open a pop-up for
 
   *  **BigBlueButton API URL:** URL of the BBB server
   *  **Shared secret:** API key of the BBB server
-  *  **Capacity factor:** Server weighting in load balancing
-  *  **Activate server:** Server is available for load balancing
-  *  **Manual selection only:** Only manually selected servers are available for load balancing
+  *  **Capacity factor:** Weighting of the server when the online meetings are distributed
+  *  **Activate server:** The server is available for new online meetings
+  *  **Manual selection only:** The server only takes online meetings for which it was selected by hand
   *  **Button "Check server connection":** Checks the access to the server specified here.
 
 ![API URL and shared secret are mandatory, Check server connection verifies the entries before saving; Add server dialog](assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" }
@@ -49,15 +49,15 @@ The available BigBlueButton servers per OpenOlat instance are displayed here.
 ![Per server capacity and current load, the filter separates this OpenOlat from all OpenOlats; Servers tab in the BigBlueButton module](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
 
 
-### Load balancing [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
+### Distribution across the servers [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
-The goal is to distribute the generated load of simultaneous online meetings to the available BigBlueButton servers by considering performance parameters (such as the number of videos and the number of participants in the meetings). OpenOlat has an integrated load balancing for this purpose. At the initial start of the online meeting (depending on the configuration by the moderator or the first participant) the server with the lowest load is selected for the meeting. The load is calculated from the different measurement factors and weights the result with the capacity factor.
+OpenOlat distributes the load of simultaneous online meetings across the available BigBlueButton servers itself. It counts the number of videos and the number of participants in the running online meetings. At the start of an online meeting, OpenOlat selects the server with the lowest load. Depending on the configuration, the moderator or the first participant starts it. The load results from these values, weighted with the value in the "Capacity factor" field.
 
-Use the filter to show the key figures for all OpenOlat instances on the BigBlueButton server ("All OpenOlats") or only for the sessions of this instance ("This OpenOlat").
+Use the filter to show the key figures for all OpenOlat instances on the BigBlueButton server ("All OpenOlats") or only for the online meetings of this instance ("This OpenOlat").
 
 ### Capacity factor {: #capacity_factor}
 
-The capacity factor is recorded with a value between 1 and 100 per server. The calculated number of users on the server is multiplied by the capacity factor. In this count, video users weigh most, then audio users, then viewers. This way, a server with stronger performance (RAM/CPU/disk) adapts to a weaker one.
+The "Capacity factor" field takes a value between 1 and 100 per server. The calculated number of users on the server is multiplied by this value. In this count, video users weigh most, then audio users, then viewers. This way, a server with stronger performance (RAM/CPU/disk) adapts to a weaker one.
 
 
 ---

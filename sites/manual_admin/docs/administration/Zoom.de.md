@@ -1,8 +1,8 @@
 # Zoom {: #zoom}
 
-Zoom ist ein kommerzielles Web-Konferenzsystem. Bitte besuchen Sie die [Zoom-Homepage](https://zoom.us) für weitere Informationen.
+Zoom ist eine kommerzielle Webkonferenz-Lösung. Bitte besuchen Sie die [Zoom-Homepage](https://zoom.us) für weitere Informationen.
 
-Mit der Zoom-Integration können Sie Zoom-Profile verwalten und Zoom-Meetings in OpenOlat als Kurselemente,
+Mit der Zoom-Integration können Sie Zoom-Profile verwalten und Zoom-Meetings in OpenOlat als Kursbausteine,
 Kurswerkzeuge und Gruppenwerkzeuge verwenden.
 
 Ein Zoom-Profil ist eine Verbindung zu einem Zoom-Konto und zu einem Zoom LTI Pro Credential. 

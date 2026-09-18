@@ -16,7 +16,7 @@ Das Modul wird von einer Person mit administrativer Rolle in der System-Administ
 
 ### Modulabhängigkeiten [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} {: #module_dependencies}
 
-Der Abschnitt «Modulabhängigkeiten» zeigt den Zustand der beiden Module, in denen Räume gebucht werden: «Course Planner» und «Termine / Absenzen». Je Modul steht dort «Aktiviert» oder «Deaktiviert». Beim Course Planner steht zusätzlich, welcher Rollenkreis die Site erreicht, zum Beispiel «Kursplaner:innen, Produkt- und Elementbesitzer:innen, Zertifikatsprogrammbesitzer:innen». Diesen Rollenkreis legen Sie fest unter: [Customizing: Sites >](Customizing.de.md#sites)
+Der Abschnitt «Modulabhängigkeiten» zeigt den Zustand der beiden Module, in denen Räume gebucht werden: «Course Planner» und «Termine / Absenzen». Je Modul steht dort «Aktiviert» oder «Deaktiviert». Beim Course Planner steht zusätzlich, welche Rollen die Site erreichen, zum Beispiel «Kursplaner:innen, Produkt- und Elementbesitzer:innen, Zertifikatsprogrammbesitzer:innen». Diese Rollen legen Sie fest unter: [Customizing: Sites >](Customizing.de.md#sites)
 
 Ist eines der beiden Module deaktiviert, entstehen dort keine Raumbuchungen. Die Raumverwaltung bleibt bedienbar, die Raumplanung führt dann aber keine Buchungen aus diesem Modul.
 
@@ -30,11 +30,11 @@ Jeder Raum gehört zu einem Gebäude. Im Segment «Gebäude» legen Sie die Geb�
 
 #### Kennzeichen (Pflichtfeld) {: #building_identifier }
 
-Das massgebende Identifikationsmerkmal des Gebäudes, zum Beispiel ein Kürzel oder eine Hausnummer. Es wird überall dort angezeigt, wo auf das Gebäude verwiesen wird.
+Ein Kürzel oder eine Hausnummer für das Gebäude. Das Kennzeichen wird überall dort angezeigt, wo auf das Gebäude verwiesen wird.
 
 #### Beschreibung {: #building_description }
 
-Ein optionaler Klartext-Name wie «Hauptgebäude». Ist eine Beschreibung gesetzt, erscheint sie zusätzlich zum Kennzeichen.
+Ein optionaler Name wie «Hauptgebäude». Ist eine Beschreibung gesetzt, erscheint sie zusätzlich zum Kennzeichen.
 
 #### Farbe {: #building_color }
 
@@ -50,7 +50,7 @@ Unter «Adresse» erfassen Sie die Anschrift. Mit «Auf Karte finden» wird die 
 
 #### Info-URL und Weitere Informationen {: #building_info }
 
-Optionale Zusatzangaben, etwa ein Link zu einer Gebäudeseite oder ein Hinweis wie «Schlüssel beim Empfang beziehen».
+Optionale Zusatzangaben, etwa ein Link mit weiteren Angaben zum Gebäude oder ein Hinweis wie «Schlüssel beim Empfang beziehen».
 
 Ein Gebäude hat den Status «Aktiv», «Inaktiv» oder «Gelöscht». Wird ein Gebäude deaktiviert, werden auch alle seine Räume inaktiv. Löschen ist nur bei einem inaktiven Gebäude möglich und entfernt auch dessen Räume. Solange für Räume des Gebäudes noch aktive Buchungen bestehen, ist das Löschen nicht möglich. Mit den vordefinierten Filtern «Alle», «Relevant» (nur aktive Gebäude) und «Gelöscht» steuern Sie, welche Gebäude die Liste zeigt.
 
@@ -64,7 +64,7 @@ Im Segment «Räume» legen Sie die einzelnen Räume an und ordnen sie einem Geb
 
 #### Kennzeichen (Pflichtfeld) {: #room_identifier }
 
-Das Identifikationsmerkmal des Raums, zum Beispiel die Raumnummer.
+Die Angabe, mit der Sie den Raum erkennen, zum Beispiel die Raumnummer.
 
 #### Beschreibung {: #room_description }
 
@@ -100,7 +100,7 @@ Die Raumplanung finden Sie in der System-Administration unter:<br>
 
 Das Segment «Raumplanung» bündelt alle Raumbuchungen als Übersicht. Filter sowie eine Kalenderansicht stehen zur Verfügung.
 
-Dieselbe Ansicht erreichen Kursplaner:innen im Course Planner unter `Course Planner > Tools > Raumverwaltung`. Sie unterscheidet sich nur durch die Hinweiszeile, die hier über der Tabelle steht. Die Warnungen, die Filter, die aufklappbare Detailansicht einer Buchung und das Fenster «Buchung» in der Kalenderansicht sind dort beschrieben: [Raumplanung im Course Planner: Details >](../../manual_user/area_modules/Course_Planner_Rooms.de.md#room_scheduling)
+Dieselbe Ansicht erreichen Kursplaner:innen im Course Planner unter `Course Planner > Tools > Raumverwaltung`. Sie unterscheidet sich nur durch den Hinweis, der hier über der Tabelle steht. Die Warnungen, die Filter, die aufklappbare Detailansicht einer Buchung und das Fenster «Buchung» in der Kalenderansicht sind dort beschrieben: [Raumplanung im Course Planner: Details >](../../manual_user/area_modules/Course_Planner_Rooms.de.md#room_scheduling)
 
 
 ---

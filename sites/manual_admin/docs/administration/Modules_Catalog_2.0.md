@@ -59,10 +59,10 @@ The offers displayed in this Lauchner are shown in random order.
 
 #### Launcher type "Taxonomy level"
 
-Taxonomy launchers use the catalog department structure to display the various taxonomy levels.
-In a “taxonomy” launcher, courses and learning resources are not displayed directly; instead, the taxonomy levels shown correspond to folders where the learning resources can be found.
+Taxonomy launchers use the subjects of the catalog to display the various taxonomy levels.
+In a taxonomy launcher, courses and learning resources are not displayed directly; instead, the taxonomy levels shown correspond to folders where the learning resources can be found.
 
-Clicking on one of the categories (taxonomy levels) displayed in a taxonomy launcher takes you to a microsite. All courses classified under this level are displayed here. If the department taxonomy has several levels in this string, the other levels are displayed.
+Clicking on one of the categories (taxonomy level) displayed in a taxonomy launcher takes you to a microsite. All courses classified under this taxonomy level are displayed here. If the taxonomy has further levels below it, these are displayed as well.
 
 The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
 
@@ -86,7 +86,7 @@ The manually added entries can be sorted by clicking on the double arrows in fro
 
 ### Tab Filters {: #tab_filter}
 
-The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the user. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc. 
+The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the users. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc. 
 
 ### Tab Layout {: #tab_layout}
 
@@ -104,7 +104,7 @@ The **Information displayed in card** field controls which metadata is displayed
 
 ### Management of catalog V2 {: #v2_admin}
 
-Catalog V2 is fed from the subject taxonomy. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
+Catalog V2 is fed from the taxonomy of the subjects. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
 Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
@@ -124,7 +124,7 @@ The following applies to users with this right:
 
 - **Editing:** They can edit, move or delete elements within the taxonomy levels or create new sub-levels.
 - **Inheritance:** Anyone who has rights at a higher level (e.g. at institute level) may automatically edit the levels below (e.g. study programs).
-- **Sub-delegation:** These rights can be passed on from top to bottom.<br> 
+- **Passing on:** These rights can be passed on from top to bottom.<br> 
 Example: An administrator gives a person the rights for a taxonomy level below (e.g. faculty). This person can then give similar rights to others within this faculty: even for subordinate areas.
 
 
@@ -149,7 +149,7 @@ Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the
 Taxonomy level backgrounds can be customised in the "Taxonomy" tab.
 The background image for the start page can be found under Layout.
 
-Cropping Behaviour illustrated.
+This is how OpenOlat chooses the section for smaller image sizes:
 ![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
 
 Background for the start page

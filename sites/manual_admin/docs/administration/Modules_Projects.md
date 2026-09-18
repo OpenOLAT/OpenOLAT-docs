@@ -47,12 +47,12 @@ Within a project, various roles can be assigned that only apply to the respectiv
 
 **Owner (Project owner)**
 
-* The project owner is the person who creates a new project.
+* The owner is the person who creates a new project.
 * They have all write and read rights in the project, including the right to delete it.
 
 **Leader (Project leader)**
 
-* Like project owners, project leaders have full write, read, and delete permissions within the project; however, unlike owners, they do not have the right to delete the entire project.
+* Like the owners, leaders have full write, read and delete rights within the project. Unlike the owners, however, they may not delete the entire project.
 
 **Project office**
 
@@ -63,8 +63,8 @@ Within a project, various roles can be assigned that only apply to the respectiv
 **Participant (Project team member)**
 
 * The term **participant** shows the analogy to course participants.
-* Project team members can create appointments, to-dos, files, etc. (all object types in a project).
-* However, they only have read rights regarding the project team members and the overall project.
+* Participants can create appointments, to-dos, files, etc. (all object types in a project).
+* For the members and for the entire project, however, they only have read rights.
 
 **Business analyst / Supplier**
 
@@ -83,7 +83,7 @@ Within a project, various roles can be assigned that only apply to the respectiv
 
 ## Project members {: #project_members}
 
-Project members are usually made project members by the project leaders. (As a rule, the project leadership lies with the person who creates the new project.) The role in the project is assigned at the same time.
+Project members are usually made project members by the leaders. (As a rule, the project leadership lies with the person who creates the new project.) The role in the project is assigned at the same time.
 
 As soon as a project member is registered, they receive a link. After opening the link, a wizard guides the new project member through login and registration.
 

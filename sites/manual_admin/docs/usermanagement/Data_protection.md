@@ -10,7 +10,7 @@ and their data.
 
 Accounts are deleted by user managers and administrators via the [user management](index.md). System administrators trigger deletions via the user account lifecycle.
 
-When an account is deleted, it is not physically removed from the database but anonymised. The login name is replaced by an anonymous identifier and the profile data is cleared. For persons with an administrative role, for course owners and for graders with grading assignments in their history, the first and last name are retained so that their actions remain traceable.
+When an account is deleted, it is not removed from the database but anonymised. The login name is replaced by an anonymous identifier and the profile data is cleared. For persons with an administrative role, for course owners and for graders with grading assignments in their history, the first and last name are retained so that their actions remain traceable.
 
 Which data is deleted, anonymised or retained in the process is shown in detail in the table on the page [Delete user](Delete_User.md#del_properties).
 
@@ -68,7 +68,7 @@ The **Download the data** button is available there. The file is called "Archive
 
 The export stays available for one month. After that OpenOlat deletes the file automatically, and a new export is required.
 
-Users cannot trigger the export themselves. In the "User data" tab they find a mail link to the support address of the instance, through which they can request an overview of their data in accordance with Article 15 GDPR.
+Users cannot trigger the export themselves. In the "User data" tab there is a link that opens an email to the support address of the instance. With it they request an overview of their data in accordance with Article 15 GDPR.
 
 ### Data that can be exported {: #exportable_data}
 

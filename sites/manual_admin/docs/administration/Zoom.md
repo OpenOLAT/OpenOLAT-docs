@@ -1,6 +1,6 @@
 # Zoom {: #zoom}
 
-Zoom is a commercial Web Conferencing System. Please visit the [Zoom homepage](https://zoom.us) for more information.
+Zoom is a commercial web conferencing solution. Please visit the [Zoom homepage](https://zoom.us) for more information.
 
 The Zoom integration lets you manage Zoom profiles and use Zoom Meetings as OpenOlat course elements, 
 course tools, and group tools.

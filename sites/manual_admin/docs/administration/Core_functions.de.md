@@ -19,7 +19,7 @@ Im Abschnitt **Formate** wird das **Zahlenformat** festgelegt. Es bestimmt, mit 
 
 ## Startseite [:octicons-tag-16:{ title="ab Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
 
-Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bestimmten Benutzerattributen eine Default-Startseite festlegen.
+Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bestimmten Benutzerattributen eine Startseite vorgeben.
 
 
 [Zu den Details >](../administration/Landing_pages.de.md)<br>
@@ -42,7 +42,7 @@ den Schnellzugriff aktiviert sind (Voreinstellung).
 
 ## REST API
 
-Neben der Aktivierung der Schnittstelle werden hier auch die gemanagten Objekte bestimmt. 
+Neben der Aktivierung der Schnittstelle werden hier auch die extern verwalteten Objekte bestimmt. 
 
 [Zu den Details >](../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
@@ -61,7 +61,7 @@ An dieser Stelle können die Systemadministrator:innen die OpenOlat-Kalender ein
 
 ## E-Mail
 
-Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten der OpenOlat-E-Mail-Versandoptionen und des Postfachs, sowie die Mail-Vorlage.
+Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten für den E-Mail-Versand und das Postfach, sowie die E-Mail-Vorlagen.
 
 [Zu den Details >](../administration/E-Mail_Settings.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
@@ -124,7 +124,7 @@ Administrator:innen können hier ein sofortiges Senden veranlassen.
 
 ## GUI-Einstellungen
 
-Hier können eingestellte Werte zum Graphical User Interface zurückgesetzt werden. 
+Hier können gespeicherte GUI-Einstellungen zurückgesetzt werden. 
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -132,7 +132,7 @@ Hier können eingestellte Werte zum Graphical User Interface zurückgesetzt werd
 
 ## Lizenzen [:octicons-tag-16:{ title="ab Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
 
-Hier kann das optionale Lizenzmanagement konfiguriert werden.
+Hier können die optionalen Lizenzen konfiguriert werden.
 
 [Zu den Details >](../administration/Licenses.de.md)<br>
 [Zum Seitenanfang ^](#core_config)

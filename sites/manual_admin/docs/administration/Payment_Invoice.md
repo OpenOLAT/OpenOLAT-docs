@@ -3,7 +3,7 @@
 Available on :octicons-tag-24: release 20
 
 If there are booking requests in OpenOlat, Excel files can be exported there.
-The strategy here is that the relevant data is transferred via these Excel reports to other programs specialized in invoicing, where it can be further processed.
+The strategy here is that the relevant data is transferred via these Excel files to other programs specialized in invoicing, where it can be further processed.
 
 OpenOlat itself cannot currently generate invoices. Accordingly, reminders, etc. cannot be created and managed directly in OpenOlat.
 

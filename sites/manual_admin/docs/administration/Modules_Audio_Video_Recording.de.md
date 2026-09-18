@@ -4,11 +4,11 @@
 
 ### Videoaufzeichnung aktivieren
 
-Wenn Sie die Videoaufzeichnungsfunktion aktivieren, können Benutzer an vielen Stellen, an denen Videos verwendet werden, wie z. B. in Aufgaben oder Gruppenaufgaben, ihre eigenen Videos aufzeichnen.
+Wenn Sie die Videoaufzeichnung aktivieren, können Benutzer:innen an vielen Stellen, an denen Videos verwendet werden, wie z. B. in Aufgaben oder Gruppenaufgaben, ihre eigenen Videos aufzeichnen.
 
 ### Audioaufzeichnung aktivieren
 
-Wenn Sie die Audioaufzeichnungsfunktion aktivieren, können Benutzer an vielen Stellen, an denen Audio verwendet wird, wie z. B. in Aufgaben oder Gruppenaufgaben, ihr eigenes Audio aufzeichnen.
+Wenn Sie die Audioaufzeichnung aktivieren, können Benutzer:innen an vielen Stellen, an denen Audio verwendet wird, wie z. B. in Aufgaben oder Gruppenaufgaben, ihr eigenes Audio aufzeichnen.
 
 ### Lokale Videokonvertierung aktivieren
 
@@ -26,7 +26,7 @@ Es ist möglich, diese Konvertierung direkt auf dem Server, auf dem OpenOlat lä
 
 Wie Sie ffmpeg lokal installieren, erfahren Sie im Kapitel [ffmpeg](../installation/ffmpeg.md).
 
-## Umstellungsarbeiten {: #conversion_jobs}
+## Konvertierungs-Aufträge {: #conversion_jobs}
 
 Dieser Bereich enthält Audio- und Videodateien, die auf eine Konvertierung warten oder die nicht erfolgreich konvertiert werden konnten.
 

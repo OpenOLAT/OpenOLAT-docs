@@ -2,9 +2,9 @@
 
 !!! info "What is the document pool?"
 
-	The document pool is a taxonomy based document management which can be
-	unlocked competence based. For example the resource management of learning
-	material based on the teach competence can be built.
+	The document pool is a library of documents that is built from a taxonomy.
+	Access is granted through competences. For example, you can map the storage
+	of learning material through the teacher competence.
 
 	The document pool can be activated for all OpenOlat users, also for learners.
 
@@ -15,7 +15,7 @@
 
 The document pool can be added as a site in the main navigation on top.
 
-![Site Document pool in the main navigation with the taxonomy tree on the left and the file storage of the selected level on the right, here the folders Grammatik and Texte](assets/Dokumentenpool_beispiel_DE.png){ class="shadow lightbox" }
+![Site Document pool in the main navigation with the taxonomy on the left and the documents of the selected level on the right, here the folders Grammatik and Texte](assets/Dokumentenpool_beispiel_DE.png){ class="shadow lightbox" }
 
 ## Tab Document pool
 
@@ -51,11 +51,11 @@ documents.<br>
 These settings need to be repeated for all defined competence types.
 
 Additionally the corresponding competence need to be added to the users. This
-happens either by the synchronization of an external management system or
+happens either by the synchronization from an external system or
 directly in OpenOlat. In OpenOlat this can be done either in the user
 management or in `Administration > Modules > Taxonomy`.
 
-Settings can also be made here for the "Field of action" and "Subject" competence types.
+Which competence types appear here depends on the level types of your taxonomy. In the image they are "Handlungsfeld" and "Fach".
 
 ![Tab Access permission, competence type "Handlungsfeld": switches for use, documents, manager, have and target competence, teacher competence additionally with a number for levels above](assets/documentpool_ap.png){ class="shadow lightbox" }
 

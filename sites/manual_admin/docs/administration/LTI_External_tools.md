@@ -15,7 +15,7 @@ Administrators enable the integration of external tools in the system administra
 * Flashcards
 * Apps
 * Interactive exercises
-* Games
+* Learning games
 
 A separate configuration is created for each external tool. Use the "Create a new tool" button to create the connection to a new tool.
 
@@ -57,7 +57,7 @@ The "With shared deployment" option determines how the external tool is embedded
 * **Enabled (global deployment):** OpenOlat generates a shared deployment ID. The same tool can then be reused in several courses without configuring it separately for each course.
 * **Disabled (local deployment):** A separate deployment is created for each course. The tool is then only available in the respective course.
 
-The deployment type is set when the tool is created and cannot be changed afterwards.
+You set the option "With shared deployment" when you create the tool. You cannot change it afterwards.
 
 ## Further information {: #further_information}
 

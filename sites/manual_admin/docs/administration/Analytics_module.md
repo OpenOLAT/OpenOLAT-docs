@@ -42,7 +42,7 @@ For the configuration you enter two values:
   * **Matomo URL**: the address of your Matomo server.
 
 OpenOlat automatically adds the configured Matomo URL as a trusted source to the
-Content Security Policy. An additional adjustment of the security policy is not
+Content Security Policy. An additional adjustment is not
 necessary.
 
 ![Analytics module in system administration: with Matomo (Piwik) selected as the service, the configuration requires the site ID and the Matomo URL](assets/admin_analytics_matomo_v1_en.png){ class="shadow lightbox" }

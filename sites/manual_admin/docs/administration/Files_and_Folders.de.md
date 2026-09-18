@@ -24,7 +24,7 @@ Der Bereich enthält folgende Tabs:
 
 Im Tab Überblick erhalten Administrator:innen einen schnellen Gesamtüberblick über die Anzahl und die Grösse von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten.
 
-Aus dem Überblick führen Links direkt in die zugehörigen Ansichten: "Zeige grosse Dateien", "Zeige gelöschte Dateien" und "Zeige Versionseinstellungen". Mit "Miniaturansichten zurücksetzen" wird der Status nicht erzeugter Vorschaubilder zurückgesetzt. Der Button "Neu berechnen" ermittelt die Kennzahlen neu.
+Aus dem Überblick führen Links direkt in die zugehörigen Ansichten: "Zeige grosse Dateien", "Zeige gelöschte Dateien" und "Zeige Versionseinstellungen". Mit "Miniaturansichten zurücksetzen" wird der Status nicht erzeugter Miniaturansichten zurückgesetzt. Der Button "Neu berechnen" ermittelt die Kennzahlen neu.
 
 [zum Seitenanfang ^](#files_and_folders)
 
@@ -103,13 +103,13 @@ Spezifische Quotas | Anwendungsbereich
 
 Im Tab "Grosse Dateien" können Administrator:innen gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
-Mit dem **Button "Metadaten aufräumen"** wird ein Abgleich zwischen dem File-System und dem in der OpenOlat-Datenbank gespeicherten Abbild vorgenommen. Sollten Unstimmigkeiten vorliegen, wird das Abbild in der Datenbank aktualisiert.<br>
-In diesem Zusammenhang werden auch die Vorschaubilder aktualisiert:
+Mit dem **Button "Metadaten aufräumen"** gleicht OpenOlat die Dateien im Dateisystem mit den Metadaten in der OpenOlat-Datenbank ab. Bei Unterschieden aktualisiert OpenOlat die Metadaten in der Datenbank.<br>
+In diesem Zusammenhang werden auch die Miniaturansichten aktualisiert:
 
-* Konnten Vorschaubilder nicht generiert werden (normalerweise aus technischen Gründen), wird ihr Status zurückgesetzt.
-* Es werden keine **bestehenden** Vorschaubilder gelöscht oder neu generiert.
-* Für Dateien mit **fehlendem** Vorschaubild, versucht das System das Vorschaubild neu zu erstellen. (Je nach Dateityp kann es sein, dass der Versuch nicht erfolgreich ist.)
-* Erstellt wird das Vorschaubild dann, wenn der betreffende Ordner geöffnet wird. Das bedeutet, dass es jeweils einen Moment dauern kann, bis das Vorschaubild erscheint.
+* Konnten Miniaturansichten nicht erzeugt werden (normalerweise aus technischen Gründen), wird ihr Status zurückgesetzt.
+* Es werden keine **bestehenden** Miniaturansichten gelöscht oder neu erzeugt.
+* Für Dateien mit **fehlender** Miniaturansicht versucht das System, die Miniaturansicht neu zu erstellen. (Je nach Dateityp kann es sein, dass der Versuch nicht erfolgreich ist.)
+* Erstellt wird die Miniaturansicht dann, wenn der betreffende Ordner geöffnet wird. Das bedeutet, dass es jeweils einen Moment dauern kann, bis die Miniaturansicht erscheint.
 
 Die Suchmaske kombiniert Zeit-, Mengen- und Statusfilter:
 
@@ -124,7 +124,7 @@ Mit dem Button "Suche" wird die Trefferliste erstellt, mit "Reset" werden die Fi
 
 ![Suchmaske mit Filtern nach Datum, Versionen und Mindestgrösse, darunter die Trefferliste mit Name, Grösse und Kontext](assets/core_config_files_and_folders_tab_large_files_screen_v1_de.png){ class="shadow lightbox" }
 
-Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. Über das Briefsymbol in der letzten Spalte lässt sich mit "E-Mail absenden" eine vorformulierte Nachricht an die Person schicken, welche die Datei abgelegt hat. Die Nachricht bittet darum, die Datei zu prüfen und bei Bedarf zu entfernen.
+Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. In der letzten Spalte schickt die Aktion "E-Mail absenden" eine vorformulierte Nachricht an die Person, welche die Datei abgelegt hat. Die Nachricht bittet darum, die Datei zu prüfen und bei Bedarf zu entfernen.
 
 [zum Seitenanfang ^](#files_and_folders)
 

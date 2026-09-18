@@ -49,7 +49,7 @@ Ebenentypen werden gebraucht, um der Taxonomiestruktur eine Bedeutung zu
 geben. So können beispielsweise die Ebenentypen Kompetenz → Handlungsfeld →
 Fach erstellt und untereinander als Unterkategorien angelegt werden. Es ist
 dabei nicht notwendig, dass ein Ebenentyp immer an derselben Stelle oder auf
-demselben Level der Taxonomiestruktur vorzufinden ist.
+derselben Ebene der Taxonomiestruktur vorzufinden ist.
 
 Zu Ebenentypen werden gewisse Konfigurationen hinzugefügt.
 
@@ -78,13 +78,13 @@ Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B
 
 #### Leistungsnachweise {: #level_type_achievements}
 
-Hier können Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen freigeschaltet werden.
+Hier können Taxonomieebenen mit diesem Ebenentyp für die Gruppierung von Leistungsnachweisen freigeschaltet werden.
 
 #### Beschreibung {: #level_type_description}
 
 Eine kurze Beschreibung des Ebenentyps (optional).
 
-#### Sub types {: #level_type_sub_types}
+#### Untertypen {: #level_type_sub_types}
 
 Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar.
 
@@ -211,7 +211,7 @@ OpenOlat durchsucht nur die Taxonomien, die für das Media Center aktiviert sind
 Die Zuordnung per Einbettungsmodell braucht drei Einstellungen im KI Modul, siehe [Externe Werkzeuge: KI Modul](External_Tools_AI.de.md#ai_functions):
 
 * Die KI Funktion "Taxonomie-Zuordnung (Embeddings)" ist aktiviert.
-* Ein KI Anbieter ist gewählt, der Einbettungen erzeugen kann.
+* Ein KI Anbieter ist gewählt, der ein Einbettungsmodell anbietet.
 * Ein Einbettungsmodell ist gewählt.
 
 Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn das erkannte Thema wortgleich mit dem Anzeigenamen oder dem Kennzeichen der Ebene ist. Gross- und Kleinschreibung spielt dabei keine Rolle.

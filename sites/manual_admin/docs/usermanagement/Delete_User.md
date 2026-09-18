@@ -5,7 +5,7 @@
 
 When a user's account is deleted, that person is no longer known as a registered user in OpenOlat and can no longer be found.
 
-When an account is deleted, it is not physically removed from the database but **anonymised**: the login name is replaced by an anonymous identifier and the profile data is cleared. Objects that are technically linked to the account (e.g. posts, certificates, booking orders) therefore remain, but only refer to the anonymised account, which can no longer be resolved. The table below therefore distinguishes between **deleted**, **anonymised** and **retained/orphaned**.
+When an account is deleted, it is not removed from the database but **anonymised**: the login name is replaced by an anonymous identifier and the profile data is cleared. Objects that are linked to the account (e.g. posts, certificates, booking orders) therefore remain, but only refer to the anonymised account. The table below therefore distinguishes between **deleted**, **anonymised** and **retained**.
 
 **Work results** created by that person are subject to their own rules when the account is deleted. See below: [What is deleted?](#del_properties)
 
@@ -16,7 +16,7 @@ To delete an account, access to user management is required. The following roles
 
 * User manager
 * Administrator
-* System administrator (no direct access to user management, but can trigger deletions via the account lifecycle)
+* System administrator (no direct access to user management, but can trigger deletions via the user account lifecycle)
 
 [To the top of the page ^](#delete_user)
 
@@ -97,7 +97,7 @@ When a user is deleted:
 * some information can/should be retained without a name (e.g. a forum post without which a discussion thread would lose its meaning)
 * some information must be retained (e.g. billing address → retention obligation)
 
-It must be taken into account that information is technically linked to different objects:
+It must be taken into account that OpenOlat links the information to different objects:
 
 :octicons-person-24: = Information is directly linked to the **person**<br>
 :octicons-package-24: = Information is stored together with a **course/group/etc.**<br>
@@ -129,20 +129,20 @@ The most frequent question concerns the media items in the Media Center. There, 
 |**Competences** :octicons-person-24: | Competences are deleted.|
 |User management > **Course Planner roles** :octicons-person-24: | The Course Planner / Curriculum roles are deleted together with the account, as they are memberships. |
 |**Personal calendar** :octicons-person-24: | The personal calendar is deleted.|
-|**Chat history** :octicons-person-24: | The chat messages of the person are deleted, as are the roster entry and the chat settings. Only the posts written by this person are removed. The posts of the other participants in the same conversations remain.|
+|**Chat history** :octicons-person-24: | The chat messages of the person are deleted, as are their entry in the contact lists and the chat settings. Only the posts written by this person are removed. The posts of the other participants in the same conversations remain.|
 |**Personal folder** :octicons-person-24: |The personal folder is deleted.|
 |**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either.|
 |**Personal to-dos** :octicons-person-24: | The assignment to the deleted account is removed; the to-do entry itself remains but is then no longer assigned to anyone. (to-dos in projects: see below) |
 |**Mailbox** :octicons-person-24: |Emails listed in the mailbox of the personal menu are deleted. (The internal email inbox is completely deleted.)|
 |**Recipient of a reminder email** :octicons-package-24: |If the deleted user was a potential recipient of a reminder email, the email will no longer be sent to the deleted person. (The recipient list is created at the time the rules are checked, so a deleted person no longer appears on the mailing list.)|
-|**Group membership** :octicons-person-24: :octicons-package-24: | Group memberships are deleted. (The groups themselves are not deleted, even if they were created by the deleted user and they were the only member. Only the deleted user is removed as a group member. If the deleted user was the only group coach, an administrator is entered as a substitute group coach. As a rule, groups without members will then be deleted at a later point in time by the Group Life Cycle process.)|
+|**Group membership** :octicons-person-24: :octicons-package-24: | Group memberships are deleted. (The groups themselves are not deleted, even if they were created by the deleted user and they were the only member. Only the deleted user is removed as a group member. If the deleted user was the only group coach, an administrator is entered as a substitute group coach. As a rule, groups without members will then be deleted at a later point in time by the group lifecycle.)|
 |**Project membership** :octicons-person-24: :octicons-package-24: |Project membership is deleted and the person is no longer found in the list of project members. (To-dos created by the deleted user in a project are retained, however.)|
 |**To-dos in projects** :octicons-person-24: |In projects, the to-dos of a deleted user are retained but are no longer assigned to anyone. Completed to-dos are also retained (without specifying the user who was supposed to complete the to-do). The progress of projects remains visible. Uncompleted to-dos must be reassigned.|
 |**Course membership** :octicons-person-24: | Course memberships are deleted, even if the role in that course was "Owner" or "Coach". If the deleted user was the creator and sole owner, an administrator is entered as a substitute owner.|
 |**Data in the course element Task** :octicons-person-24: :octicons-package-24: |Documents created and uploaded within a task by the deleted person are deleted (e.g. draw.io, Word, Excel, ppt).|
 |**Peer review data in the course element Task** :octicons-person-24: :octicons-package-24: | The files submitted or uploaded by the person are deleted. The peer review records (assignments, assessments) are retained and refer to the anonymised account. |
 |**Data in the course element Participant folder** :octicons-person-24: :octicons-package-24: | The person's files in the Participant folder course element are deleted. |
-|**Data in the course element Forum** :octicons-person-24: :octicons-package-24: |Personal forum posts and comments are anonymised after the user is deleted and displayed as "unknown user".|
+|**Data in the course element Forum** :octicons-person-24: :octicons-package-24: |Personal forum posts and comments are anonymised after the account is deleted and displayed as "unknown user".|
 |**Data in the course element BBB** :octicons-person-24: :octicons-package-24: |Participants in BBB meetings are deleted.|
 |**Data in the course element Adobe Connect** :octicons-person-24: :octicons-package-24: |All data stored by OpenOlat in the background is deleted.|
 |**Data in the course element Vitero** :octicons-person-24: :octicons-package-24: |All data stored by OpenOlat in the background is deleted.|
@@ -173,7 +173,7 @@ The most frequent question concerns the media items in the Media Center. There, 
 
 Accounts with the status **"Active and not deletable"** cannot be deleted, neither manually nor automatically. They are not even offered for deletion in the account search. This status is typically assigned to system accounts such as the administrator account.
 
-For **automatic deletion** via the user account lifecycle, an additional safeguard against mass deletion applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion run is aborted completely.
+For **automatic deletion** via the user account lifecycle, an additional safeguard applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion is aborted completely.
 
 
 [To the top of the page ^](#delete_user)

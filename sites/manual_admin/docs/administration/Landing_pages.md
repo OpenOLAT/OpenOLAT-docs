@@ -1,9 +1,9 @@
 # Landing pages {: #landing_pages}
 
-Administrators specify here in fine-grained detail which user groups are presented with which landing page when they log in to OpenOlat. You find the setting in the system administration under:<br>
+Administrators specify here in fine-grained detail which users are presented with which landing page when they log in to OpenOlat. You find the setting in the system administration under:<br>
 `Administration > Core functions > Landing pages`
 
-You define the specific user group either by role and / or by a user attribute, and then assign the corresponding landing page to this group by means of Landing page and Selection. You can create as many rules as necessary, but please note that it is always the first matching rule that is applied. The rules are independent of each other and do not all have to match; only the order is relevant.
+You narrow down the users either by role and / or by a user attribute, and then assign them the corresponding landing page by means of Landing page and Selection. You can create as many rules as necessary, but please note that it is always the first matching rule that is applied. The rules are independent of each other and do not all have to match; only the order is relevant.
 
 !!! info "Important"
 
@@ -11,11 +11,11 @@ You define the specific user group either by role and / or by a user attribute, 
 
 ![Three rules by position, each with role, user attribute, value, landing page and selection, plus Up, Down, Add and Delete; page Landing pages in the Core functions](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
 
-The **Position** defines the order in which the rules are checked: the first rule that matches determines the page for the user group concerned. You change the position via the columns **Up** / **Down**. You add further rules via the column **Add** and remove a rule via **Delete**. Click **Save** to apply the rules.
+The **Position** defines the order in which the rules are checked: the first rule that matches determines the page for the users concerned. You change the position via the columns **Up** / **Down**. You add further rules via the column **Add** and remove a rule via **Delete**. Click **Save** to apply the rules.
 
 Via **Role** you define whether you want to set a specific landing page for users with a specific role (e.g. Course authors or Pool managers), for example the "Authoring" site for all authors. If no role is selected, any subsequent restrictions apply to all registered users, independent of their role.
 
-Via the **User attribute** the previously defined user group (either all users of the system or users with a specific role) is further specified. The user attribute (e.g. gender, country or field of study) is then defined via the column **Value**. For the attribute "Gender" the values _male/female_ are possible, for country e.g. _Switzerland, Germany_ etc., or for field of study _Informatics, Theology_ etc. Which values can be entered in the Value column depends on your organisation and on how these values are available in your OpenOlat instance. User attributes can also change depending on previously made settings. Attributes may have been renamed, or the list of available attributes may have been adjusted. You find both settings in the system administration under:<br>
+Via the **User attribute** the previously defined users (either all users of the system or users with a specific role) are further narrowed down. The user attribute (e.g. gender, country or field of study) is then defined via the column **Value**. For the attribute "Gender" the values _male/female_ are possible, for country e.g. _Switzerland, Germany_ etc., or for field of study _Informatics, Theology_ etc. Which values can be entered in the Value column depends on your organisation and on how these values are available in your OpenOlat instance. User attributes can also change depending on previously made settings. Attributes may have been renamed, or the list of available attributes may have been adjusted. You find both settings in the system administration under:<br>
 `Administration > Customizing > User Properties`
 
 Which page or which course is opened, you define either by selecting one of the preset pages in the **Selection** column (e.g. Catalog in course area, Group area, My subscriptions or Infocours 1) or by entering a link copied from OpenOlat, e.g. to a course, in the **Landing page** column. The link must have the following format:

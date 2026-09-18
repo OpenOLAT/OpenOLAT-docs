@@ -30,9 +30,9 @@ Ausserdem können sie grundsätzlich festlegen, ob eine Bewertung nach der manue
 
 Eine Korrektur kann auch durch kurs-externe Betreuer:innen durchgeführt werden. (Diese sind zwar in OpenOlat registriert, aber kein Mitglied im Kurs.) Für diese steht der Korrektur-Workflow zur Verfügung, wenn er hier aktiviert wird.
 
-Für das Management der Korrekturen durch mehrere verschiedene Korrektor:innen benötigt es E-Mails zur Kommunikation. Es können mehrere Mail-Vorlagen an die verschiedenen Akteure in verschiedenen Sprachen vorformuliert werden.
+Für das Management der Korrekturen durch mehrere verschiedene Korrektor:innen benötigt es E-Mails zur Kommunikation. Es können mehrere Mail-Vorlagen an die verschiedenen Beteiligten in verschiedenen Sprachen vorformuliert werden.
 
-Die angefallenen Korrekturaufwände können verschiedenen Rollen zugänglich gemacht werden.
+Die angefallene Korrekturzeit kann verschiedenen Rollen zugänglich gemacht werden.
 
 
 ![Korrektur-Workflow eingeschaltet, Sichtbarkeit der echten Korrekturminuten für vier Rollen, Liste der Mail-Vorlagen mit Übersetzen-Link, Tab Korrektur-Workflow auf der Seite Test](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" }

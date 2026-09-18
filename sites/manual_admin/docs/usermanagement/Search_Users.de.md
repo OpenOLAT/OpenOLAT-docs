@@ -6,7 +6,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
     * [Eingabe von Kriterien im Suchformular](#search_user_form)
     * [Benutzer nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen](#search_user_roles)
-    * [Quicksearch](#search_user_quick_search)
+    * [Quick Search](#search_user_quick_search)
     * [Massensuche](#search_user_bulk_search)
     * [Suchergebnisse filtern](#search_user_filter_searchresults)
     * [Spalten der Ergebnistabelle](#search_user_result_columns)
@@ -110,7 +110,7 @@ Zum Beispiel:
 
 ### Kontotypen
 
-Hier suchen Sie innerhalb vorselektierter Kontentypen. 
+Hier suchen Sie innerhalb vorselektierter Kontotypen. 
 
 * Externe Konten
 * Registrierte Konten
@@ -163,7 +163,7 @@ Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabf
 [Zum Seitenanfang ^](#search_user)
 
 
-## Quicksearch {: #search_user_quick_search}
+## Quick Search {: #search_user_quick_search}
 
 Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das Feld "Quick Search" ein.
 

@@ -11,7 +11,7 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Switch to turn on Course Planner, Product in "My courses" and option tree User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
+![Switch to turn on Course Planner, Product in "My courses" and the selection of the entries in the User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
 
 Two switches in this tab determine where products and implementations appear: Product in "My courses" and the User overview. Five entry points open the same list:
 
@@ -74,7 +74,7 @@ The overview table shows all element types that have been created. An element ty
 | Column | Meaning |
 |---|---|
 | Title | The name of the element type |
-| Reference | The unique identifier of the element type |
+| Reference | The unique value that distinguishes the element type from types with the same name |
 | State | Whether the type is available for selection for new elements: "Active" or "Inactive" |
 | For use as | Function of the element type in the product: "Implementation", "Element" or "Implementation or element (legacy)" |
 | Subelements | Whether elements of this type can contain subelements |
@@ -103,7 +103,7 @@ The name of the element type that is shown in the selection when an element is c
 
 #### Reference (mandatory field) {: #element_type_identifier }
 
-A unique identifier used to distinguish between elements with the same title. Appears as a selection option when a new curriculum element is created.
+A unique value that distinguishes elements with the same title. Appears as a selection option when a new curriculum element is created.
 
 #### Description {: #element_type_description }
 
@@ -113,10 +113,10 @@ Explanatory text for the element type.
 
 * **Absences**: Course planners get the "Absences" tab on elements of this type and can view the absences of all participants. Prerequisite: the Absence management module is activated.
 * **Timetable**: Combines all course calendar dates of the courses assigned to the product element.
-* **Progress**: Shows the learning progress in learning path courses as a pie chart. With several sub-elements, the average of the sub-elements is calculated.
+* **Progress**: Shows the learning progress in learning path courses as a pie chart. With several subelements, the average of the subelements is calculated.
 
 !!! note "CSS class"
-	Here you can define a type-specific layout via a CSS class. If you are interested in specific layouts, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com).
+	Use the "CSS class" field to define your own layout for elements of this type. If you are interested in your own layouts, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com).
 
 In the **Configuration** section you define the structure:
 
@@ -127,8 +127,8 @@ In the **Configuration** section you define the structure:
 Shows the function of elements of this type in the product. The value results from the button you chose and cannot be edited:
 
 * **Implementation**: Elements of this type are implementations (the topmost parent element). They have an implementation period and are the starting point for automation rules.
-* **Element**: Elements of this type are sub-elements below an implementation and have no implementation period of their own.
-* **Implementation or element (legacy)**: Elements of this type can be used both as an implementation and as a sub-element. This mode is used for backward compatibility with existing product structures and is not available for new types.
+* **Element**: Elements of this type are subelements below an implementation and have no implementation period of their own.
+* **Implementation or element (legacy)**: Elements of this type can be used both as an implementation and as a subelement. Existing product structures carry this value; it is not available for new types.
 
 #### Subelements {: #subelements }
 
@@ -168,7 +168,7 @@ Open the desired element type via the :fontawesome-regular-pen-to-square: symbol
 
 Each automation rule contains:
 
-* **Trigger type**:
+* **Trigger**:
   * **On status change**: The action is triggered as soon as the implementation or element status reaches a defined value.
   * **Time-controlled**: The action is triggered relative to the start or end of the implementation period. You define the reference date (start or end) and an optional offset (number of days/weeks/months before or after the reference date).
 * **Action**: What is executed automatically, e.g. create course from template (instantiation) or set course status.

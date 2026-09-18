@@ -7,14 +7,14 @@ The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting"
 
 ## Metadata prefix {: #metadataprefix}
 
-The metadata prefixes indicate two different metadata collections:
+The metadata prefixes indicate two different metadata formats:
 
 * OpenOlat specific (learning resource URL is included in the title): _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_oo**_
 
 * Dublin Core metadata: _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_dc**_
 
 
-The respective XML element in the corresponding metadata collection is described in brackets.
+The respective XML element in the corresponding metadata format is described in brackets.
 
 Metadaten | OAI OpenOlat | OAI Dublin Core
 ---------|----------|---------
@@ -60,11 +60,11 @@ The module can be switched on under `Administration > Modules > SEO / OAI-PMH me
 
 ### API endpoint {: #endpoint}
 
-This is the application interface from which the metadata is retrieved. Different parameters can be used to filter for different learning resources. You can test the API endpoint by clicking the button beneath the URL.
+This is the interface from which the metadata is retrieved. Different parameters can be used to filter for different learning resources. You can test the API endpoint by clicking the button beneath the URL.
 
 ### Identifier format {: #identifier_type}
 
-The identifier format can be used to set the format of the identifier. Either you use the Dublin Core namespace or OpenOlat's own identifier, which also contains the resource info, where you also see the info page.
+The identifier format can be used to set the format of the identifier. Either you use the Dublin Core namespace or OpenOlat's own identifier, which contains the URL of the learning resource and therefore leads directly to its info page.
 
 ### Licence restrictions {: #license_restrictions}
 

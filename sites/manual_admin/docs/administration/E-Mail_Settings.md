@@ -30,7 +30,7 @@ If this option is not activated, it means that several accounts can have the sam
 
 ## E-mail inbox and outbox {: #e-mail-inbox-and-outbox}
 
-OpenOlat has an internal email inbox system that lists all emails sent and received within the system in the personal inbox of each person: [Personal tools: E-Mail](../../manual_user/personal_menu/E-Mail.md). The email inbox in OpenOlat is an optional component.
+OpenOlat has an internal inbox that lists all emails sent and received in OpenOlat in the personal inbox of each person: [Personal tools: E-Mail](../../manual_user/personal_menu/E-Mail.md). The OpenOlat inbox is an optional component.
 
 ### Enable the OpenOlat inbox
 
@@ -62,7 +62,7 @@ The email template applies to all emails and controls only their appearance, not
 The following variables have to be in the template:
 
   *  **$content**: Is replaced with the actual content of the email. The content is usually adapted to the language of the recipient.
-  *  **$footer**: Is replaced with the generic footer. The footer is adapted to the language of the recipient and can be changed for each language with the language adaptation tool (variables `footer.no.userdata` and `footer.with.userdata` in the package `org.olat.core.util.mail`).
+  *  **$footer**: Is replaced with the footer. The footer is adapted to the language of the recipient and can be changed for each language with the language adaptation tool (variables `footer.no.userdata` and `footer.with.userdata` in the package `org.olat.core.util.mail`).
 
 ### Texts of individual emails {: #mail_texts}
 
@@ -92,7 +92,7 @@ The obstacle is not the tool, but finding the variable: the mail texts are sprea
 
 ## E-Mail signature [:octicons-tag-16:{ title="from Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the mail window, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
+With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the email form, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
 
 For the signature field to appear in the profile, activate the attribute "emailSignature" in the system administration under:<br>
 `Administration > Customizing > User Properties`

@@ -16,11 +16,11 @@ Before the event and absence management can be used it need to be activated in t
 
 ## Tab Configuration [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-![Module toggle and absence option at the top level, below it the course-level configuration with the selection cards Read-only and Overridable. Tab Configuration, page Events / Absences.](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" }
+![Switch for the module and absence option at the top level, below it the course-level configuration with the options Read-only and Overridable. Tab Configuration, page Events / Absences.](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" }
 
 The two topmost options apply to the whole system. They are placed outside the section "Course-level configuration".
 
-**Module "Event & absence management"**: The main switch of the module. If it is set to "off", all further options of this tab are hidden and courses cannot enable the event and absence management.
+**Module "Event & absence management"**: The switch for the whole module. If it is set to "off", all further options of this tab are hidden and courses cannot enable the event and absence management.
 
 **Enable absences/notices of absence/dispensations**: Causes coaches to see the "Notifications" tab under `Coaching > Events`.
 
@@ -30,7 +30,7 @@ This section sets the default values for all courses. The option "Default config
 
 #### Default configuration {: #default_configuration }
 
-The selection is made with two selection cards:
+The selection is made with two options:
 
 - **Read-only**: "The configuration is read-only and cannot be changed." Courses take over the default values set here and cannot change them.
 - **Overridable**: "The configuration can be overridden in the course settings." Course owners may adapt the default values per course under `Course > Administration > Settings > Execution`.
@@ -43,7 +43,7 @@ Attendance can only be checked with this option. Teachers then see the participa
 
 #### Calculate attendance rate (default) {: #attendance_rate_calculation }
 
-If this option is activated, an attendance percentage is calculated.
+If this option is activated, the attendance rate is calculated in percent.
 
 #### Attendance quota global in % {: #global_absence_rate }
 
@@ -51,11 +51,11 @@ This quota indicates the percentage of attendance required to fulfill the condit
 
 #### Synchronize teachers calendars {: #teacher_calendar_sync }
 
-Teachers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as teachers (this function must be switched off for Px customers).
+Teachers (course coaches) receive entries in their personal calendar (not in the course calendar) for those events for which they are assigned as teachers (this function must be switched off for Px customers).
 
 #### Synchronize courses calendars {: #course_calendar_sync }
 
-This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, teachers and course owners.
+This option allows the events entered to be displayed directly in the course calendar for all participants, teachers and course owners.
 
 #### Event can be marked as an exam {: #event_as_exam }
 

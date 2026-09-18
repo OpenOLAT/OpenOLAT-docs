@@ -35,7 +35,7 @@ Die Verfügbarkeit dieser Funktion kann von Administrator:innen in diesem Modul 
 
 #### Kommentar {: #comment}
 
-In der Kopfzeile eines Kurses kann die Info-Seite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
+In der Kopfzeile eines Kurses kann die Infoseite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
 
 ![Kurs-Toolbar mit hervorgehobenem Button Kursinfo](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
 
@@ -64,8 +64,8 @@ Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrato
 
 #### Mitgliedschaft beantragen
 
-Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Screen mit Hinweis. 
-Hier gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
+Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Hinweis. 
+Dort gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
 
 ![Hinweisseite "Sie sind kein Mitglied" mit Button Mitgliedschaft beantragen](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
@@ -102,7 +102,7 @@ Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in ei
 
 Mit dieser Option wird eine Standardeinstellung für alle neuen Kurse vorgegeben. (Bereits bestehende Kurse sind davon nicht betroffen.) Kursteilnehmer:innen können ggf. dann selbst entscheiden, ob sie einen Kurs verlassen möchten.
 
-Als Default-Option kann gewählt werden zwischen
+Als Standardeinstellung kann gewählt werden zwischen
 
 * Jederzeit
 * Nach Kursenddatum oder Status "Beendet"
@@ -126,7 +126,7 @@ OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse verse
 #### Abonnenten
 
 A) Voreinstellung<br>
-Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Autorenbereich als Default auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
+Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Autorenbereich standardmässig auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
 
 B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons 
 "Bestehende Abonnements aktivieren" und "Bestehende Abonnements deaktivieren". 
@@ -154,7 +154,7 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 
 #### Zugang Kursbesitzer:innen/Betreuer:innen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen User mit der Rolle Betreuer:in selbst Teilnehmer:in ist.
+Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen Benutzer:innen mit der Rolle Betreuer:in selbst Teilnehmer:in sind.
 
 ![Tab Zugang im Modul Lernressource mit Übersicht Zugangseinstellungen für Sites und Abschnitt Status "Beendet"](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
 
@@ -183,9 +183,9 @@ Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:in
 Hier legen Sie systemweit fest, welchen Zugriff Teilnehmende auf einen Kurs oder eine Lernressource im Status "Beendet" haben. Diese Einstellung gilt als Standard für alle Kurse und kann pro Kurs überschrieben werden.
 
 * **Nur-Lese-Zugriff:** Der Inhalt steht den Teilnehmenden weiterhin im Lesemodus zur Verfügung.
-* **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
+* **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint ein Hinweis mit Verweis auf die zuständige Ansprechperson.
 
-Den kursspezifischen Override nehmen Kursbesitzer:innen im Kurs vor:<br>
+Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 `(Kurs-)Administration > Einstellungen > Tab Optionen`
 
 [Zum Seitenanfang ^](#learning_resource)

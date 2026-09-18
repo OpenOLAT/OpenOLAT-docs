@@ -1,8 +1,8 @@
 # Automatic Group Lifecycle
 
-The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five stages: creation, active, inactivation, deletion as a marking, and permanent deletion.
+The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion.
 
-![Five stages of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
+![Five steps of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
 
 
 !!! note "Note"
@@ -17,7 +17,7 @@ Authorized persons (group managers, administrators) receive the additional tab "
 
 ![Three status arrows with their deadlines and the filter row below, Group management tab in the Groups area](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
 
-By clicking on one of the 3 arrows (phases/status), all existing groups are listed sorted into 3 categories:
+By clicking on one of the 3 arrows, all existing groups are listed sorted into 3 categories:
 
 * I. Active groups
 * II. Inactive groups
@@ -25,7 +25,7 @@ By clicking on one of the 3 arrows (phases/status), all existing groups are list
 
 Below the arrows, filters narrow the list down further, for active groups for example "Longer without activity", "To inactivate" or "Within reaction time".
 
-The additional information in the 3 arrows describes the configuration set up by the administrator for this phase.
+The additional information in the 3 arrows describes the configuration set up by the administrators for this step.
 
 
 ## Configuration
@@ -75,7 +75,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
   *  **inactive:** The group is inactive. An email is sent (if configured). If no further changes are made to this group, it will be deleted.
 
-  *  **deleted:** In the "deleted" status, the group can be restored. However, not all data can be restored. This group is completely deleted after 2 days.
+  *  **deleted:** In the "deleted" status, the group can be restored. However, not all data can be restored. This group is permanently deleted after 2 days.
 
 
 

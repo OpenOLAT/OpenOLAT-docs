@@ -20,7 +20,7 @@ Die Einstellungen des KI Moduls finden Sie in der System-Administration unter:<b
 Sie sind in vier Bereiche (Tabs) gegliedert:
 
 * **"KI-Anbieter"**: die verwendeten KI-Dienste anbinden und mit einem API Schlüssel hinterlegen.
-* **"KI-Funktionen"**: pro Einsatzort festlegen, ob KI genutzt wird und mit welchem Anbieter und Modell.
+* **"KI-Funktionen"**: pro Funktion festlegen, ob KI genutzt wird und mit welchem Anbieter und Modell.
 * **"KI-Verarbeitungs-Pools"**: steuern, wie viele KI-Aufrufe gleichzeitig verarbeitet werden.
 * **"Nutzungsprotokoll"**: alle KI-Aufrufe der Instanz mit Tokens und Status auswerten.
 
@@ -88,7 +88,7 @@ Mit dem **Button "Verbindung prüfen"** testen Sie die Erreichbarkeit des Server
 
 ### KI Funktionen {: #ai_functions}
 
-Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die verfügbaren Modelle direkt vom jeweiligen Anbieter geladen werden.
+Sie konfigurieren jede KI Funktion einzeln. Die verfügbaren Modelle lädt OpenOlat direkt beim gewählten Anbieter.
 
 **Sie bestimmen**:
 
@@ -121,12 +121,12 @@ Zu jeder Funktion ausser der Taxonomie-Zuordnung zeigt der Link "Test ausführen
 
 #### Limits pro Funktion [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}
 
-Pro KI Funktion legen Sie zusätzlich fest, wie viel Text an das Modell gesendet wird, wie viel Text das Modell erzeugen darf und wie lange OpenOlat auf die Antwort wartet. Die Standardwerte reichen auch für Reasoning-Modelle, also für Modelle, die vor der eigentlichen Antwort interne Denkschritte ausführen.
+Pro KI Funktion legen Sie zusätzlich fest, wie viel Text an das Modell gesendet wird, wie viel Text das Modell erzeugen darf und wie lange OpenOlat auf die Antwort wartet. Die Standardwerte reichen auch für Reasoning-Modelle, also für Modelle, die vor der Antwort nachdenken.
 
-* **"Maximale Anzahl Ausgabe-Tokens"**: begrenzt, wie viel Text das Modell erzeugen darf. Ein Reasoning-Modell verbraucht einen Teil dieses Budgets für seine Denkschritte. Ist das Budget zu klein, bleibt für die Antwort nichts übrig und der Aufruf schlägt fehl. Kleinster zulässiger Wert: 1024.
-* **"Timeout (Sekunden)"**: legt fest, wie lange OpenOlat auf die Antwort des KI Anbieters wartet, bevor der Aufruf abgebrochen wird. Reasoning-Modelle und selbst gehostete Modelle brauchen deutlich länger als Cloud-Standardmodelle. Kleinster zulässiger Wert: 10.
+* **"Maximale Anzahl Ausgabe-Tokens"**: begrenzt, wie viel Text das Modell erzeugen darf. Ein Reasoning-Modell verbraucht einen Teil davon, um vor der Antwort nachzudenken. Ist der Wert zu klein, bleibt für die Antwort nichts übrig und der Aufruf schlägt fehl. Kleinster zulässiger Wert: 1024.
+* **"Timeout (Sekunden)"**: legt fest, wie lange OpenOlat auf die Antwort des KI Anbieters wartet, bevor der Aufruf abgebrochen wird. Reasoning-Modelle und selbst gehostete Modelle brauchen deutlich länger als Modelle in der Cloud. Kleinster zulässiger Wert: 10.
 * **"Maximale Anzahl Eingabezeichen"**: begrenzt den Quelltext, der zur Fragengenerierung an das Modell gesendet wird. Kleinster zulässiger Wert: 1000.
-* **"Maximale Anzahl Eingabewörter"**: begrenzt die Antwortlänge, die zur Essay Bewertung angenommen wird. Längere Antworten lehnt OpenOlat mit einer Fehlermeldung ab, bevor ein KI-Aufruf erfolgt. Die Meldung nennt den eingestellten Wert. Kleinster zulässiger Wert: 50.
+* **"Maximale Anzahl Eingabewörter"**: begrenzt die Anzahl Wörter einer Antwort, die zur Essay Bewertung angenommen wird. Längere Antworten lehnt OpenOlat mit einer Fehlermeldung ab, bevor ein KI-Aufruf erfolgt. Die Meldung nennt den eingestellten Wert. Kleinster zulässiger Wert: 50.
 
 Die Standardwerte je Funktion:
 
@@ -173,8 +173,8 @@ Das "Nutzungsprotokoll" zeichnet jeden KI-Aufruf der Instanz auf und macht so na
 Zur Auswertung stehen zur Verfügung:
 
 * **Zeitbereich**: "Dieser Monat" (Vorauswahl), "Letzter Monat", "Dieses Jahr", "Letztes Jahr" sowie "Individuell" für eine eigene Zeitspanne.
-* **Spaltenfilter** für "KI Funktion" und "Status".
-* **Excel-Download** der gefilterten Tabelle.
+* **Filter** für "KI Funktion" und "Status".
+* **Download** der gefilterten Tabelle als Excel-Datei.
 
 Das Widget "Tokens Total" über der Tabelle zeigt die Summe aller Tokens im gewählten Zeitbereich.
 

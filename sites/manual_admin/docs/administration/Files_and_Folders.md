@@ -24,7 +24,7 @@ The area contains the following tabs:
 
 In the Overview tab, administrators get a quick overall view of the number and size of OpenOlat files, versions, deleted files and thumbnails.
 
-From the overview, links lead directly to the corresponding views: "Show large files", "Show trash" and "Show version settings". "Reset thumbnails" resets the status of preview images that could not be generated. The "Recalculate" button determines the key figures anew.
+From the overview, links lead directly to the corresponding views: "Show large files", "Show trash" and "Show version settings". "Reset thumbnails" resets the status of thumbnails that could not be created. The "Recalculate" button determines the key figures anew.
 
 [To the top of the page ^](#files_and_folders)
 
@@ -104,13 +104,13 @@ Specific Quotas | Scope
 
 In the "Large files" tab, administrators can search specifically for large files and view more details about them.
 
-The **"Clean up metadata"** button is used to compare the file system with the image stored in the OpenOlat database. If there are any discrepancies, the image in the database is updated.<br>
-The preview images are also updated in this context:
+With the **"Clean up metadata"** button, OpenOlat compares the files in the file system with the metadata in the OpenOlat database. If there are any differences, OpenOlat updates the metadata in the database.<br>
+The thumbnails are also updated in this context:
 
-* If preview images could not be generated (usually for technical reasons), their status is reset.
-* No **existing** preview images are deleted or regenerated.
-* For files with a **missing** preview image, the system attempts to recreate the preview image. (Depending on the file type, the attempt may not be successful.)
-* The preview image is created when the folder in question is opened. This means that it may take a moment for the preview image to appear.
+* If thumbnails could not be created (usually for technical reasons), their status is reset.
+* No **existing** thumbnails are deleted or created anew.
+* For files with a **missing** thumbnail, the system attempts to recreate the thumbnail. (Depending on the file type, the attempt may not be successful.)
+* The thumbnail is created when the folder in question is opened. This means that it may take a moment for the thumbnail to appear.
 
 The search mask combines time, quantity and status filters:
 
@@ -125,7 +125,7 @@ The "Search" button creates the result list, "Reset" clears the filters.
 
 ![Search mask with filters by date, revisions and minimum size, below it the result list with name, size and context](assets/core_config_files_and_folders_tab_large_files_screen_v1_en.png){ class="shadow lightbox" }
 
-The result list shows the name, size and context of each file. Via the envelope symbol in the last column, "Send mail" sends a pre-formulated message to the person who stored the file. The message asks to check the file and to remove it if it is no longer needed.
+The result list shows the name, size and context of each file. In the last column, the action "Send mail" sends a pre-formulated message to the person who stored the file. The message asks to check the file and to remove it if it is no longer needed.
 
 [To the top of the page ^](#files_and_folders)
 

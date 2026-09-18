@@ -88,7 +88,7 @@ Für den Tab "Portal" können verschiedene Portlets ausgewählt werden.
 
 ## Benutzer:innen-Attribute {: #user_properties}
 
-Für Administrator:innen besteht hier die Möglichkeit, die in der Benutzerverwaltung angezeigten Attribute zu bestimmen und einer Darstellungsgruppe zuzuordnen.
+Für Administrator:innen besteht hier die Möglichkeit, die in der Benutzerverwaltung angezeigten Attribute zu bestimmen und zu gruppieren.
 Ausserdem können die Übersetzungen bearbeitet werden.
 
 [Zum Seitenanfang ^](#customizing)

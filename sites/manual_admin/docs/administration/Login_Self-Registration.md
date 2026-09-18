@@ -24,7 +24,7 @@ If the option is not displayed there, self-registration can be carried out, for 
 #### Step Account verification {: #account_check_step }
 
 In an optional step, starting with :octicons-tag-24: Release 20, it is possible to check whether users already have an OpenOlat account. Users who already have an account should be able to continue using their old account if they wish. 
-If administrators select the verification option, users who are already known will be asked for an existing account and a support form will be provided.
+If administrators enable the step "Account verification", users who are already known will be asked for an existing account and a support form will be provided.
 
 #### Step E-Mail Validation {: #email_validation_step }
 

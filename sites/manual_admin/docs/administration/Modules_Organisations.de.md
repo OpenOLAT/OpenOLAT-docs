@@ -37,13 +37,13 @@ Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen
 
 ### Neue Organisationen erstellen und bearbeiten {: #create_and_edit}
 
-![Organisationsbaum mit Unterorganisationen im Tab Organisationsstruktur](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
+![Baumstruktur der Organisationen mit ihren Unterorganisationen im Tab Organisationsstruktur](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
 
-Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden.  Es ist auch möglich, das Element im Organisationsbaum zu verschieben bzw. direkt eine neue Unterorganisation zu erstellen.
+Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden.  Es ist auch möglich, die Organisation in der Baumstruktur zu verschieben bzw. direkt eine neue Unterorganisation zu erstellen.
 
-Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metadaten des Organisationselementes und weitere Zuordnungen angepasst oder ergänzt werden.
+Wird in der Baumstruktur eine Organisation ausgewählt, können ihre Metadaten und weitere Zuordnungen angepasst oder ergänzt werden.
 
-![Ordner für rechtliche Dokumente im Tab "Rechtliche Dokumente" eines Organisationselements](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
+![Ordner für rechtliche Dokumente im Tab "Rechtliche Dokumente" einer Organisation](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
 
 **Tab Organisationsstruktur > Tab "Rechtliche Dokumente"**<br>
 Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert worden, wird dieses Tab für Administrator:innen und andere administrative Rollen angezeigt. Administrator:innen können darin Dokumente zu organisationsspezifischen Belangen ablegen. Andere administrative Rollen haben nur Lesezugriff.
@@ -53,11 +53,11 @@ Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfigurat
 ### Metadaten {: #edit_metadata}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten"`
-![Metadaten eines Organisationselements: Bezeichnung, Name, Organisationstyp, Standort und Beschreibung](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Metadaten einer Organisation: Bezeichnung, Name, Organisationstyp, Standort und Beschreibung](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 Neben der Bezeichnung und dem Namen kann eine Beschreibung für das Element eingetragen werden.
 Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert).
-Wird bei der Erstellung jedes Organisationselement mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Damit ist die Abbildung von Ablauf- und Aufbauorganisationen möglich, eine Matrix-Organisation kann hingegen nicht dargestellt werden.
+Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
 
 
 
@@ -84,9 +84,9 @@ Die **Rollen-Zuordnung** ist möglich
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Lernressourcen"`
 ![Liste der zugeordneten Kurse mit Button "Kurse hinzufügen" im Tab Lernressourcen](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
-Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese dem Organisationselement zuzuordnen.
+Im Tab "Lernressourcen" werden der Organisation direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese der Organisation zuzuordnen.
 
-Die **Zuordnung von Bildungsprogrammen** erfolgt im Course Planner in der jeweiligen Durchführung.
+Die **Zuordnung von Bildungsprodukten** erfolgt im Course Planner in der jeweiligen Durchführung.
 
 
 ### Linienvorgesetzte {: #edit_linemanager}
@@ -116,9 +116,9 @@ Für die Kurs- und Seminarverwaltung können hier Rechnungsadressen hinterlegt w
 ### E-Mail-Domänen-Zuordnung {: #edit_mail_domain}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "E-Mail-Domänen-Zuordnung"`
-![Liste der E-Mail-Domänen-Zuordnungen im gleichnamigen Tab des Organisationselements](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
+![Liste der E-Mail-Domänen-Zuordnungen im gleichnamigen Tab der Organisation](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
-Zu jedem Organisationselement kann eine E-Mail-Domäne angegeben werden, anhand derer die Zugehörigkeit von Benutzer:innen zu dieser Orgnisationseinheit geprüft werden kann. Die ist dann von Bedeutung, wenn sich Benutzer:innen selbst für Kurse anmelden können, die Kurse jedoch nur für eine bestimmte Organisationseinheit verfügbar sein soll. 
+Zu jeder Organisation kann eine E-Mail-Domäne angegeben werden, anhand derer die Zugehörigkeit von Benutzer:innen zu dieser Orgnisationseinheit geprüft werden kann. Die ist dann von Bedeutung, wenn sich Benutzer:innen selbst für Kurse anmelden können, die Kurse jedoch nur für eine bestimmte Organisationseinheit verfügbar sein soll. 
 
 [Zum Seitenanfang ^](#organisations)
 

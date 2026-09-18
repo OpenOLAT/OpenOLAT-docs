@@ -20,7 +20,7 @@ The AI module settings are located in the system administration under:<br>
 They are organised into four areas (tabs):
 
 * **"AI providers"**: connect the AI services used and store an API key.
-* **"AI features"**: define per location whether AI is used and with which provider and model.
+* **"AI features"**: define per feature whether AI is used and with which provider and model.
 * **"AI processing pools"**: control how many AI calls are processed simultaneously.
 * **"Usage log"**: review all AI calls on the instance with tokens and status.
 
@@ -84,7 +84,7 @@ Use the **"Check connection" button** to test whether the server can be reached.
 
 ### AI features {: #ai_functions}
 
-The AI integration is configured individually for each feature, with the available models being loaded directly from the respective provider.
+You configure each AI feature separately. OpenOlat loads the available models directly from the selected provider.
 
 **You define**:
 
@@ -117,12 +117,12 @@ For each feature except Taxonomy Matching, the "Run test" link shows an AI-gener
 
 #### Limits per feature [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}
 
-For each AI feature you additionally define how much text is sent to the model, how much text the model may produce and how long OpenOlat waits for the response. The default values are also sufficient for reasoning models, that is, models that perform internal reasoning steps before the actual answer.
+For each AI feature you additionally define how much text is sent to the model, how much text the model may produce and how long OpenOlat waits for the response. The default values are also sufficient for reasoning models, that is, models that think before answering.
 
-* **"Maximum output tokens"**: limits how much text the model may produce. A reasoning model uses part of this budget for its reasoning steps. If the budget is too small, nothing is left for the answer and the call fails. Smallest permitted value: 1024.
-* **"Timeout (seconds)"**: defines how long OpenOlat waits for the response of the AI provider before the call is cancelled. Reasoning models and self-hosted models take considerably longer than standard cloud models. Smallest permitted value: 10.
+* **"Maximum output tokens"**: limits how much text the model may produce. A reasoning model uses part of it to think before answering. If the value is too small, nothing is left for the answer and the call fails. Smallest permitted value: 1024.
+* **"Timeout (seconds)"**: defines how long OpenOlat waits for the response of the AI provider before the call is cancelled. Reasoning models and self-hosted models take considerably longer than models in the cloud. Smallest permitted value: 10.
 * **"Maximum input characters"**: limits the source text that is sent to the model for question generation. Smallest permitted value: 1000.
-* **"Maximum input words"**: limits the length of an answer that is accepted for essay grading. OpenOlat rejects longer answers with an error message before any AI call is made. The message states the configured value. Smallest permitted value: 50.
+* **"Maximum input words"**: limits the number of words of an answer that is accepted for essay grading. OpenOlat rejects longer answers with an error message before any AI call is made. The message states the configured value. Smallest permitted value: 50.
 
 The default values per feature:
 
@@ -168,8 +168,8 @@ The "Usage log" records every AI call on the instance, making it traceable which
 The following are available for analysis:
 
 * **Time range**: "This month" (preselected), "Last month", "This year", "Last year" as well as "Custom" for an own time range.
-* **Column filters** for "AI feature" and "Status".
-* **Excel download** of the filtered table.
+* **Filters** for "AI feature" and "Status".
+* **Download** of the filtered table as an Excel file.
 
 The "Total tokens" widget above the table shows the sum of all tokens in the selected time range.
 

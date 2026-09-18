@@ -61,8 +61,8 @@ The availability of stars for rating a course can be switched on/off globally by
 
 #### Request membership
 
-If someone opens a course to which they do not have access, a screen with a notice appears. 
-There is a button here that can be used to request membership. When clicked, an email is sent to all course owners.
+If someone opens a course to which they do not have access, a notice appears. 
+There is a button there that can be used to request membership. When clicked, an email is sent to all course owners.
 
 ![Notice page "You are not a member" with the Request membership button](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 
@@ -150,7 +150,7 @@ This setting defines the order in which roles are prioritized when a member has 
 
 #### Access for course owners/coaches [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
-Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which a user with the coach role is a participant themselves.
+Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which users with the coach role are participants themselves.
 
 ![Access tab in the Learning resource module with the overview of access settings for sites and the Status "Finished" section](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
 
@@ -177,9 +177,9 @@ Via the link "Open site settings" you go directly to `Administration > Customizi
 Here you define system-wide what access participants have to a course or a learning resource in the status "Finished". This setting is the default for all courses and can be overridden per course.
 
 * **Read-only:** The content is still available to participants in read-only mode.
-* **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
+* **No access:** Participants no longer have access to the content. When they open it, a notice appears referring them to the responsible contact person.
 
-Course owners set the course-specific override in the course under:<br>
+Course owners overwrite the setting for their course under:<br>
 `(Course) Administration > Settings > Options tab`
 
 [To the top of the page ^](#learning_resource)

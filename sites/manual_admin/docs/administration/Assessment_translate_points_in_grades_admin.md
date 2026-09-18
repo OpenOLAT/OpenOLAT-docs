@@ -19,14 +19,14 @@ System administrators can make the following settings to configure the rating sy
 
 ### Numeric type
 
-Numeric rating systems can be customised in their resolution (whole, half, quarter, tenth) and in their rounding behaviour. In this case, the performance classes are calculated on the basis of the entered maximum number of points and the grade threshold and result in the rating scale.
+Numeric rating systems can be customised in the resolution (whole, half, quarter, tenth) and in the rounding. OpenOlat calculates the performance classes from the entered maximum number of points and the "Passed with" limit. The rating scale follows from this.
 
 ### Textual type
 
-With textual rating systems, one defines the number of performance classes and their name/label. The maximum number of points and the respective grade threshold then determine the general conditions of the rating scale.
+With textual rating systems, one defines the number of performance classes and their name/label. The maximum number of points and the score lower bound per performance class then determine the general conditions of the rating scale.
 
 ![Edit rating system dialog with type Textual: performance classes define the levels instead of numeric ranges, and the Passed column sets the outcome per class](assets/admin_Noten_Bewertungssystem_textuell_en.png){ class="shadow lightbox" }
 
-Further examples of useful label names are: Beginner, Advanced, Professional or various emojis.
+Further examples of useful labels are: Beginner, Advanced, Professional or various emojis.
 
 Several rating systems can be stored and made available in the system administration.

@@ -4,13 +4,13 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![Kopfbereich mit Statusbadge, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge: Seite Kontoeinstellungen verwalten in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
+![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge: Seite Kontoeinstellungen verwalten in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
 
 In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
 Daneben nennen die Kontoinformationen den Status des Kontos, die Identität, den Kontotyp, den Anmeldenamen und die E-Mail-Adresse. Über der Ansicht stellt die Aktion "Daten exportieren" die personenbezogenen Daten des Kontos zusammen, siehe [Datenschutz](Data_protection.de.md). An derselben Stelle lässt sich das Konto löschen, siehe [Benutzer:in löschen](Delete_User.de.md).
 
-Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Die Lernhistorie einer Person, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem sie entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
+Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
 Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen keine zwei Konten mit derselben E-Mail-Adresse. Sie finden die Option im Abschnitt "E-Mail Adresse" unter:<br>
 `Administration > Core Konfiguration > E-Mail`, Segment "Einstellungen", siehe [E-Mail Einstellungen](../administration/E-Mail_Settings.de.md#email_address).
@@ -81,7 +81,7 @@ Dieser Abschnitt zeigt, wie der systemweite Lebenszyklus auf dieses Konto wirkt.
 | Zustand | Anzeige | Bedeutung |
 |---------|---------|-----------|
 | Aktiv | "Letzter Login", "Tage bis Inaktivierung" | OpenOlat deaktiviert das Konto nach dieser Frist ohne Login automatisch. |
-| Reaktiviert | zusätzlich "Reaktivierungsdatum", die Frist trägt den Zusatz "(Karenzfrist)" | Das Konto wurde nach einer Deaktivierung wieder freigeschaltet und läuft in einer Schonfrist. |
+| Reaktiviert | zusätzlich "Reaktivierungsdatum", die Frist trägt den Zusatz "(Karenzfrist)" | Das Konto wurde nach einer Deaktivierung wieder freigeschaltet und läuft in einer Karenzfrist. |
 | Inaktiv | "Inaktivierungsdatum", "Tage bis Löschung" | Das Konto ist deaktiviert und wird nach dieser Frist automatisch gelöscht. |
 
 Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt fällig wird.
@@ -108,14 +108,14 @@ Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an
 
 ### Rollen
 
-In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktiviertem Modul Organisationseinheiten können unterschiedliche Rollen pro Organisationseinheit vergeben werden. Siehe ["Rollen zuweisen"](Assign_roles.de.md). 
+In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktiviertem Modul "Organisationen" können unterschiedliche Rollen pro Organisationseinheit vergeben werden. Siehe ["Rollen zuweisen"](Assign_roles.de.md). 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Primärbutton "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
+Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
 
 Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
 
@@ -124,7 +124,7 @@ Den Reiter "Passwort" und seine Aktionen erreichen Administrator:innen, Benutzer
 Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
 `Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
 
-![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, in drei Bahnen](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
+![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
 
 Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
 
@@ -227,7 +227,7 @@ Unter diesem Reiter werden alle erworbenen Badges angezeigt.
 
 ### Nachteilsausgleich
 
-Ein Nachteilausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
+Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
 
 ![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein: Dialog Nachteilsausgleich hinzufügen](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
 

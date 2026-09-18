@@ -25,7 +25,7 @@ A dedicated API key is available for accessing the REST API. It is an automatica
 
 The API key is stored encrypted, in the same way as the OpenOlat password. It is shown only once when it is generated and cannot be retrieved again afterwards. If the key is lost, it must be deleted and a new one generated.
 
-The API key cannot be used to log in to the OpenOlat web application; it is only valid for accessing the REST API. Independently of this, access via a valid user session remains possible, for example to access the course database via JavaScript.
+The API key cannot be used to log in to the OpenOlat web application; it is only valid for accessing the REST API. Independently of this, access via a valid session remains possible, for example to access the course database via JavaScript.
 
 API keys are generated in the user management: the "Add API-Key" button is available in the authentications of a person. To also allow users to generate a key themselves, activate the "Generation of API Key by user" option in the REST configuration (disabled by default).
 
@@ -52,13 +52,13 @@ Combined with generating the keys exclusively through the user management, this 
 
 ###  Usage {: #usage}
 
-The OpenOlat REST API has been developed with remote management applications in mind. It does not implement all features available in the web UI and many of the requests are limited to administrative users such as admin, user- or group managers and authors.
+The OpenOlat REST API has been developed with remote management applications in mind. It does not implement all features available in the user interface and many of the requests are limited to administrative users such as admin, user- or group managers and authors.
 
 Some of the main abilities of the OpenOlat REST API are capable to create and organize users, courses, groups, organisations, curricula or calendar events for example.
 
 The REST API is however not able to execute roll calls or to edit specific settings.
 
-While theoretically possible, it is not meant as an API to implement alternative UI clients for end users. Keep this in mind when using the API.
+While theoretically possible, it is not meant as an API to implement an alternative user interface for end users. Keep this in mind when using the API.
 
 [To the top of the page ^](#REST-API)
 
@@ -69,7 +69,7 @@ While theoretically possible, it is not meant as an API to implement alternative
 The security is based on a two level mechanism, as it is in OpenOlat.
 
   1. The first level is a servlet filter which collects all requests to the REST API. This filter determines whether the URI is open to everyone (`/api`, `/ping`, `/auth`...) or if it needs an authentication. The authentication itself is delegated to a web service.
-  2. The second level happens in all entry points in the REST API. Every method checks if the user (if a user must be authenticated) has enough privileges to operate on the desired resource.
+  2. The second level applies to every call of the REST API. Every method checks if the user (if a user must be authenticated) has enough privileges to operate on the desired resource.
 
 To maintain a valid authentication over several requests, the filter proposes two methods:
 
@@ -82,9 +82,9 @@ If the REST API is used to implement specific features in the OpenOlat web user 
 
 If the REST API is used by an external (server based) application, best- practice is to use basic authentication to authenticate the user and enable session cookies in the http client of the remote application.
 
-If none of the above is possible, use method 2 using the `X-OLAT-TOKEN`. Note that a user can have only one `X-OLAT-TOKEN` at any time. If your remote application has several (concurrent) workers, basic authentication should be used.
+If none of the above is possible, use method 2 using the `X-OLAT-TOKEN`. Note that a user can have only one `X-OLAT-TOKEN` at any time. If your remote application sends several requests concurrently, basic authentication should be used.
 
-If you are building a remote portal and want to implement some kind of home- brew single-sign-on process, method 2 can be used to generate the X-OLAT-TOKEN for every user as a server request. The Token can then be added to each link in the portal to login the user based on the token (`?X-OLAT-TOKEN=xyz`). When clicking the link, OpenOlat will identify the user based on the token and create a valid user session. Security wise there are better options to achieve the same. We recommend using oAuth instead which is supported by OpenOlat as well.
+If you are building a remote portal and want to implement some kind of home- brew single-sign-on process, method 2 can be used to generate the X-OLAT-TOKEN for every user as a server request. The Token can then be added to each link in the portal to login the user based on the token (`?X-OLAT-TOKEN=xyz`). When clicking the link, OpenOlat will identify the user based on the token and create a valid session. Security wise there are better options to achieve the same. We recommend using oAuth instead which is supported by OpenOlat as well.
 
 [To the top of the page ^](#REST-API)
 
@@ -121,7 +121,7 @@ Here is a little example on how to create a user and add it to a learning group:
 
 ## Documentation {: #documentation}
 
-The documentation is based on the OpenAPI specification (formerly Swagger Specification), which is an API description format for REST APIs. The OpenAPI describes available endpoints and operations on each endpoint, operation parameters, input and output for each operation as well as the value objects used in the REST API.   The OpenAPI is made up of a single document and contains multiple components, which are all described in the openapi.json ( `/org/Olat/restapi/openapi.json`)
+The documentation is based on the OpenAPI specification (formerly Swagger Specification), which is an API description format for REST APIs. The OpenAPI describes available endpoints and operations on each endpoint, operation parameters, input and output for each operation as well as the objects used in the REST API.   The OpenAPI is made up of a single document and contains multiple components, which are all described in the openapi.json ( `/org/Olat/restapi/openapi.json`)
 
 The OpenAPI allows to choose a custom server prefix in and it is possible to execute the listed requests by pressing the "try it out" button. Be aware that these requests are binding and directly interacting with the addressed system.
 
