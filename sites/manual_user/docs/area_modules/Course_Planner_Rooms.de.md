@@ -55,7 +55,7 @@ Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warn
 
 Zu jeder Buchung sehen Sie, welcher Kurs, welche Dozent:innen und welche Räume dazugehören.
 
-Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel und das Kennzeichen des Termins mit seinem Statusabzeichen, allfällige Warnungen als hervorgehobenen Block, die Fachbereiche sowie Datum, Zeit, Teilnehmerzahl, Absenzen und Präsenzpflicht. Ein Ort erscheint, wenn er am Termin erfasst ist. Darunter stehen die Dozent:innen, der zugehörige Kurs als Kurskarte und die gebuchten Räume als Raumkarten. Ist mehr als ein Raum gebucht, steht der Raum der aufgeklappten Zeile unter «Raum», die übrigen unter «Weitere Räume für diese Buchung».
+Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel und das Kennzeichen des Termins mit seinem Statusabzeichen, allfällige Warnungen hervorgehoben, die Fachbereiche sowie Datum, Zeit, Teilnehmerzahl, Absenzen und Präsenzpflicht. Ein Ort erscheint, wenn er am Termin erfasst ist. Darunter stehen die Dozent:innen, der zugehörige Kurs als Kurskarte und die gebuchten Räume als Raumkarten. Ist mehr als ein Raum gebucht, steht der Raum der aufgeklappten Zeile unter «Raum», die übrigen unter «Weitere Räume für diese Buchung».
 
 ![Eckwerte, Dozent und zwei Raumkarten, die erste unter Raum, die zweite unter Weitere Räume für diese Buchung, in der aufgeklappten Zeile einer Buchung](assets/course_planner_rooms_scheduling_details_v1_de.png){ class="shadow lightbox" }
 
@@ -63,7 +63,7 @@ Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel un
 
 Ein Klick auf eine Buchung im Kalender zeigt Ihnen, welcher Termin den Raum belegt.
 
-Jede Buchung steht im Kalender als farbiger Block, beschriftet mit dem Kennzeichen des Raums und dem Titel des Termins, davor die Uhrzeit. Die Farbe ist die des Gebäudes. Ein Klick auf den Block öffnet das Fenster «Buchung» mit dem Kennzeichen des Raums und seiner Beschreibung, dem Titel des Termins mit seinem Kennzeichen, dem Datum und der Uhrzeit. Über «Im Kursplaner öffnen» gelangen Sie zum Termin im Course Planner.
+Im Kalender steht jede Buchung als Kalendereintrag, beschriftet mit dem Kennzeichen des Raums und dem Titel des Termins, davor die Uhrzeit. Seine Farbe ist die des Gebäudes. Ein Klick auf den Kalendereintrag öffnet das Fenster «Buchung» mit dem Kennzeichen des Raums und seiner Beschreibung, dem Titel des Termins mit seinem Kennzeichen, dem Datum und der Uhrzeit. Über «Im Kursplaner öffnen» gelangen Sie zum Termin im Course Planner.
 
 Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in der Raumplanung, in der Raumliste und im Kalender einer einzelnen Raumzeile. In der Tabellenansicht führt stattdessen die aufgeklappte Zeile zu den [Details einer Buchung](#booking_details).
 
@@ -73,9 +73,9 @@ Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in
 
 ### Warnungen {: #warnings}
 
-Sie erkennen früh, wenn eine Buchung nicht aufgeht.
+Sie sehen einer Buchung an, ob Raum und Termin zusammenpassen.
 
-In der Tabelle weist die Spalte «Warnungen» darauf hin. Im Kalender trägt der Block zusätzlich zur Farbe seines Gebäudes ein Warndreieck. Es gibt drei Warnungen:
+In der Tabelle weist die Spalte «Warnungen» darauf hin. Im Kalender trägt der Kalendereintrag zusätzlich zur Farbe seines Gebäudes ein Warndreieck. Es gibt drei Warnungen:
 
 * **Doppelbuchung**: «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!»
 * **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
@@ -91,7 +91,7 @@ Unter «Räume» sehen Sie, welche Räume Ihnen zur Verfügung stehen und wie st
 
 Die Liste führt die Räume, für die Ihre Organisation zuständig ist. Mit den vordefinierten Tabs «Alle» und «Relevant» sowie den Filtern nach Status (aktiv/inaktiv), Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Auch hier schalten Sie rechts über der Tabelle auf den Kalender um.
 
-Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und den «Nächsten Termin». Das Kalendersymbol der Zeile öffnet die Belegung des Raums, «Details» öffnet eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
+Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und den «Nächsten Termin». Über «Kalender» öffnen Sie die Belegung des Raums, über «Details» eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
 
 Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung das [Fenster «Buchung»](#booking_callout).
 
