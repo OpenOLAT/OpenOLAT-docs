@@ -88,7 +88,7 @@ Details that are visible only to persons with an administrative role, for exampl
 
 In the room list you see for each room, among other things, the "Next event" and the "Occupancy rate" (utilisation of the current month). An icon opens the "Calendar" of the room with its occupancy, and "Details" opens the preview of the room with location and map. In addition to the table view, a calendar view is available.
 
-A click on a calendar entry opens the callout "Booking" with the details of the room booking. It is available in every calendar view of the room management, including the calendar of a single room row. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"} What the callout contains is described in the section [Room Scheduling in the Course Planner >](../../manual_user/area_modules/Course_Planner_Rooms.md#room_scheduling).
+A click on a calendar entry opens the "Booking" window with the details of the room booking. It is available in every calendar view of the room management, including the calendar of a single room row. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"} What the window contains is described in the section [View a booking in the calendar >](../../manual_user/area_modules/Course_Planner_Rooms.md#booking_callout).
 
 As with the building, a room has the status "Active", "Inactive" or "Deleted". An inactive room can no longer be booked; bookings that have already been made remain valid. A room cannot be deleted as long as it still has active bookings.
 
@@ -100,7 +100,7 @@ You find the room scheduling in the system administration under:<br>
 
 The segment "Room Scheduling" bundles all room bookings as an overview. Filters and a calendar view are available.
 
-Course planners reach the same view in the Course Planner under `Course Planner > Tools > Room management`. It differs only in the hint line that appears above the table here. The warnings, the filters, the expandable detail view of a booking and the callout "Booking" in the calendar view are described there: [Room Scheduling in the Course Planner: details >](../../manual_user/area_modules/Course_Planner_Rooms.md#room_scheduling)
+Course planners reach the same view in the Course Planner under `Course Planner > Tools > Room management`. It differs only in the hint line that appears above the table here. The warnings, the filters, the expandable detail view of a booking and the "Booking" window in the calendar view are described there: [Room Scheduling in the Course Planner: details >](../../manual_user/area_modules/Course_Planner_Rooms.md#room_scheduling)
 
 
 ---
