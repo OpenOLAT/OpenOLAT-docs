@@ -54,6 +54,10 @@ The "Educational products" area appears when three conditions are met:
 
 The list shows your implementations, not individual courses. A click on the title of an implementation opens its structure, and only there do you see the courses and learning resources that belong to it. If you are entered in several implementations, they all stand in this list. The column "Product" names the educational product each implementation belongs to, the column "Progress" your learning progress in it. [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}
 
+![The implementation Staffel 6 - 2026 marked as a favourite stands as its own area before Educational products, Courses menu item](assets/courses_educational_products_v1_en.png){ class="shadow lightbox" }
+
+If you have marked an implementation as a favourite, it additionally appears as its own area before "Educational products". The area carries the title of the implementation, below it its period, provided a begin or end date is entered. A click on it opens its structure directly. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8519)" }](https://track.frentix.com/issue/OO-8519)
+
 The filter tabs "Favourites", "All", "Relevant" and "Finished" narrow down the list, the search field above it searches the title and the reference. What the individual tabs show and which columns are available is described in the section [Filtering the list](../area_modules/Coaching_Educational_Products.md#filter). It applies to all areas that list educational products.
 
 There is no filter tab "Preparation" here. Learning resources that are not yet published you find in the area "In preparation" instead.

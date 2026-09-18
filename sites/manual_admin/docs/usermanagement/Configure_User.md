@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![Header area with status badge, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Header area with status badge, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -278,6 +278,8 @@ Here you will find the implementations of the user. The list shows all implement
 OpenOlat only shows the tab when the Course Planner is active. Without this module it does not appear.
 
 The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which educational offerings the person passes through, "Learning resources" shows which courses they are registered in. Unlike there, you neither add nor remove the person here.
+
+![Marked tab Educational products, preselected filter tab Relevant and the column Roles, User management](assets/user_management_educational_products_v1_en.png){ class="shadow lightbox" }
 
 The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the list shows the additional column "Roles", which states for each implementation in which role the person takes part. In return, the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" are missing. A click on the title of an implementation opens its structure with the contained courses.
 
