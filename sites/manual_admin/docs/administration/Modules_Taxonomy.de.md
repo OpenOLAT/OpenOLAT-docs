@@ -20,13 +20,13 @@ Sie finden das Modul in der System-Administration unter:<br>
 Direkt auf der Übersichtsseite kann eine neue Taxonomiestruktur erstellt werden.
 
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke aktiviert
-werden. Pro Taxonomie zeigt die Übersichtskarte, für welche Bereiche sie aktiviert ist:
+werden. Die Übersicht zeigt je Taxonomie, für welche Bereiche sie aktiviert ist:
 Fragenpool, Dokumentenpool, ePortfolio, Lernressourcen / Katalog, Course Planner und
 Media Center. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
 Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
  Fächer-, Handlungsfeld- oder Kompetenzstruktur abgebildet werden. Zum anderen
- können den Benutzern Kompetenzen zugeordnet werden, welche ihnen den Zugriff
+ können den Benutzer:innen Kompetenzen zugeordnet werden, welche ihnen den Zugriff
  auf die Taxonomie erlauben.
 
 **Beispiel** einer ausgearbeiteten Taxonomiestruktur, nach Fächern für den Dokumentenpool:
@@ -111,7 +111,7 @@ Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
 
 #### Sortierung {: #level_sort_order}
 
-::octicons-tag-24: *aktuell Beta Feature* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02,03,04,...)
+*Aktuell Beta Feature.* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02, 03, 04, ...)
 
 #### Teaser Bild {: #level_teaser_image}
 
@@ -136,13 +136,13 @@ In der Übersicht ist nun die hierarchische Struktur sichtbar.
 ![Ausgeklappte Treetable der Taxonomie ABC mit den Spalten Anzeigename, Kennzeichen, Ebene Ext. Ref., Ebenentyp und Anzahl, Tab Taxonomie](assets/taxonomy-overview-hierarchy.de.jpg){ class="shadow lightbox" }
 
 !!! tip "Kompetenzen"
-    In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
+    In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer:innen die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
 
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
 
-* **Dozieren**: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
-* **Verwalten**: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen Sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
+* **Dozieren**: Eine Benutzer:in mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, sie hat ein gewisses Fachwissen, das sie weitergeben kann. Die Dozierkompetenz wird der Benutzer:in entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
+* **Verwalten**: Benutzer:innen können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
 * **Haben**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
 * **Ziel**: Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
@@ -198,6 +198,48 @@ Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben la
 Alternativ ist es auch möglich, die vorhandenen Vorlagen unter den jeweiligen Links herunterzuladen und diese entsprechend anzupassen.
 
 
+## Automatische Zuordnung per KI [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
+
+Die KI ordnet ein erkanntes Thema selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
+
+Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern.
+
+OpenOlat durchsucht nur die Taxonomien, die für das Media Center aktiviert sind. Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist.
+
+### Voraussetzungen {: #ai_matching_requirements}
+
+Die Zuordnung per Einbettungsmodell braucht drei Einstellungen im KI Modul, siehe [Externe Werkzeuge: KI Modul](External_Tools_AI.de.md#ai_functions):
+
+* Die KI Funktion "Taxonomie-Zuordnung (Embeddings)" ist aktiviert.
+* Ein KI Anbieter ist gewählt, der Einbettungen erzeugen kann.
+* Ein Einbettungsmodell ist gewählt.
+
+Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn das erkannte Thema wortgleich mit dem Anzeigenamen oder dem Kennzeichen der Ebene ist. Gross- und Kleinschreibung spielt dabei keine Rolle.
+
+### Was die Pflege der Taxonomie bewirkt {: #ai_matching_maintenance}
+
+OpenOlat vergleicht das erkannte Thema mit drei Angaben je Taxonomieebene, und zwar auf Deutsch und auf Englisch:
+
+* dem Anzeigenamen,
+* dem Anzeigenamen zusammen mit den übergeordneten Ebenen,
+* dem Anzeigenamen, den übergeordneten Ebenen und der Beschreibung zusammen.
+
+Die dritte Angabe entfällt, wenn die Ebene keine Beschreibung hat. Anzeigename und Beschreibung bestimmen deshalb, was die KI vergleicht. Eine Ebene mit sprechendem Namen und einer Beschreibung wird zuverlässiger gefunden als eine Ebene, die nur ein Kürzel trägt. Pflegen Sie beide Angaben auch in der zweiten Sprache.
+
+### Zusammenspiel von KI und Fachbereichen {: #ai_matching_interplay}
+
+Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
+
+| Auslöser | Was OpenOlat zuordnet | Was dafür nötig ist |
+|---|---|---|
+| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | die am besten passende Ebene, genau eine | Die KI Funktion "Bildbeschreibungs-Generator" erzeugt das Thema. |
+| Import einer Markdown-Datei in den Content Editor | alle passenden Ebenen, bis zu drei je Taxonomie | Dieselbe KI Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
+| Metadaten von Hand erfassen | nichts | Sie wählen die Ebene selbst im Feld "Themen/Fachbereiche". |
+
+Die KI erzeugt also das Thema, und die Taxonomie-Zuordnung sucht dazu die Ebene. Ohne die KI Funktion "Bildbeschreibungs-Generator" entsteht kein Thema, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Die zugeordnete Ebene ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
+
+[Zum Seitenanfang ^](#module_taxonomy)
+
 ## Lost+Found {: #lost_found}
 **Letzter Tab in der Übersicht**
 
@@ -213,7 +255,10 @@ Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
 [Fragenpool >](../../manual_user/area_modules/Question_Bank.de.md)<br>
 [ePortfolio >](eAssessment_ePortfolio.de.md)<br>
 [Katalog >](Modules_Catalog_2.0.de.md)<br>
-[Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)
+[Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
+[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)
 
 **Weiterführend**<br>
 [Media Center >](Modules_Media_Center.de.md)<br>

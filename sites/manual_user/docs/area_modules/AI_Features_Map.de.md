@@ -71,8 +71,8 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 <text x="558" y="310" class="place">TAXONOMIE</text>
 <text x="558" y="342" class="out">Zuordnung zum Fachbereich</text>
 <text x="558" y="372" class="body">Die KI ordnet einen Text der passenden Taxonomie-</text>
-<text x="558" y="395" class="body">Ebene zu, per Einbettungsmodell. Das greift bei der</text>
-<text x="558" y="418" class="body">Fragengenerierung und bei den Bildmetadaten.</text>
+<text x="558" y="395" class="body">Ebene zu, per Einbettungsmodell. Das greift bei den</text>
+<text x="558" y="418" class="body">Bildmetadaten und beim Markdown-Import.</text>
 <text x="558" y="468" class="fn">Taxonomie-Zuordnung</text>
 </g></a>
 

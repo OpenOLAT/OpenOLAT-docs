@@ -17,7 +17,7 @@ You find the module in the system administration under:<br>
 
 Directly on the overview page a new taxonomy structure can be created.
 
-Several taxonomy structures can be created and activated for different purposes. Per taxonomy, the overview card shows for which areas it is activated: Question bank, Document pool, ePortfolio, Learning resources / Catalog, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+Several taxonomy structures can be created and activated for different purposes. The overview shows per taxonomy for which areas it is activated: Question bank, Document pool, ePortfolio, Learning resources / Catalog, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
 Thus on one hand taxonomy structures can for example be built in the form of
 subject, sphere of activity or competence structures. On the other hand
@@ -101,7 +101,7 @@ In the type the beforehand created level type can be chosen.
 
 #### Order {: #level_sort_order}
 
-::octicons-tag-24: *currently Beta Feature* Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..)
+*Currently Beta Feature.* Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..)
 
 #### Teaser image {: #level_teaser_image}
 
@@ -188,6 +188,49 @@ If you have activated different languages in OpenOlat and use the [Catalog 2.0](
 
 Alternatively, it is also possible to download the existing templates under the respective links and adapt them accordingly.
 
+## Automatic assignment by AI [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
+
+The AI assigns a detected topic to a taxonomy level on its own. It compares the meaning, not the exact wording. An English text therefore also finds a level with a German name, a synonym finds the intended level, and a related term finds the one that is closest in content.
+
+The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there.
+
+OpenOlat only searches the taxonomies that are activated for the Media Center. The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated.
+
+### Requirements {: #ai_matching_requirements}
+
+The assignment via embedding model needs three settings in the AI module, see [External tools: AI module](External_Tools_AI.md#ai_functions):
+
+* The AI feature "Taxonomy Matching (Embeddings)" is activated.
+* An AI provider is selected that can create embeddings.
+* An embedding model is selected.
+
+If one of these settings is missing, OpenOlat only assigns a level when the detected topic is identical to the display name or to the identifier of the level. Upper and lower case does not matter.
+
+
+### What the maintenance of the taxonomy achieves {: #ai_matching_maintenance}
+
+OpenOlat compares the detected topic with three entries per taxonomy level, in German and in English:
+
+* the display name,
+* the display name together with the parent levels,
+* the display name, the parent levels and the description together.
+
+The third entry is dropped when the level has no description. The display name and the description therefore determine what the AI compares. A level with a meaningful name and a description is found more reliably than a level that only carries an abbreviation. Maintain both entries in the second language as well.
+
+### Interplay of AI and subject areas {: #ai_matching_interplay}
+
+Which subject area a media item receives depends on the trigger:
+
+| Trigger | What OpenOlat assigns | What is needed for it |
+|---|---|---|
+| Button "Generate metadata with AI" when uploading an image | the best matching level, exactly one | The AI feature "Image Description Generator" creates the topic. |
+| Import of a Markdown file into the Content Editor | all matching levels, up to three per taxonomy | The same AI feature. The assignment runs in the background after saving. |
+| Enter metadata manually | nothing | You select the level yourself in the field "Subjects". |
+
+The AI therefore creates the topic, and the taxonomy matching looks for the level. Without the AI feature "Image Description Generator" no topic is created, and the taxonomy matching has nothing to compare. The assigned level is a suggestion and can be changed in the metadata at any time.
+
+[To the top of the page ^](#module_taxonomy)
+
 ## Lost+Found {: #lost_found}
 **Last tab in the overview**
 
@@ -203,7 +246,10 @@ All deleted elements of the tab "Taxonomy" end up here.
 [Question bank >](../../manual_user/area_modules/Question_Bank.md)<br>
 [ePortfolio >](eAssessment_ePortfolio.md)<br>
 [Catalog >](Modules_Catalog_2.0.md)<br>
-[Catalog 2.0 >](../../manual_user/area_modules/catalog2.0.md)
+[Catalog 2.0 >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Media Center: information and settings for individual media >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
+[External tools: AI module >](External_Tools_AI.md)
 
 **Further reading**<br>
 [Media Center >](Modules_Media_Center.md)<br>

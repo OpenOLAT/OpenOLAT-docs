@@ -71,8 +71,8 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <text x="558" y="310" class="place">TAXONOMY</text>
 <text x="558" y="342" class="out">Assignment to the subject area</text>
 <text x="558" y="372" class="body">The AI assigns a text to the matching taxonomy</text>
-<text x="558" y="395" class="body">level via an embedding model. This applies to</text>
-<text x="558" y="418" class="body">question generation and to image metadata.</text>
+<text x="558" y="395" class="body">level via an embedding model. This applies to image</text>
+<text x="558" y="418" class="body">metadata and to the Markdown import.</text>
 <text x="558" y="468" class="fn">Taxonomy matching</text>
 </g></a>
 
