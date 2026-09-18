@@ -64,11 +64,11 @@ Je nach Art des Medientyps variieren die Informationen und Möglichkeiten der Me
 
 ### Metadaten mit KI generieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
 
-Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, steht beim Hochladen von Bildern und im Metadaten-Dialog der Button **"Metadaten mit KI generieren"** zur Verfügung. Ein Klick darauf befüllt Titel, Beschreibung, Alt-Text und Tags mit KI-generierten Vorschlägen. Erkennt die KI zusätzlich ein Thema, das exakt einem vorhandenen Fachbereich (Taxonomie) entspricht, wird auch dieses zugeordnet. Ein Hinweis im Formular zeigt an, dass die Metadaten mit KI generiert wurden. Prüfen Sie die Vorschläge vor dem Speichern und passen Sie sie bei Bedarf an. Für SVG-Bilder steht die KI-Bildanalyse nicht zur Verfügung.
+Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, steht beim Hochladen von Bildern und im Metadaten-Dialog der Button **"Metadaten mit KI generieren"** zur Verfügung. Ein Klick darauf befüllt Titel, Beschreibung, Alt-Text und Tags mit KI-generierten Vorschlägen. Erkennt die KI ein Thema, ordnet sie dem Medium auch einen Fachbereich (Taxonomie) zu. Ist die [automatische Zuordnung per KI](../../manual_admin/administration/Modules_Taxonomy.de.md#ai_matching) eingerichtet, findet sie den inhaltlich passenden Fachbereich auch ohne Wortgleichheit. Ohne diese Einrichtung trifft die Zuordnung nur bei einem wortgleichen Fachbereich. Ein Hinweis im Formular zeigt an, dass die Metadaten mit KI generiert wurden. Prüfen Sie die Vorschläge vor dem Speichern und passen Sie sie bei Bedarf an. Für SVG-Bilder steht die KI-Bildanalyse nicht zur Verfügung.
 
 Bereits ausgefüllte Felder bleiben bei der Generierung erhalten; der Titel wird nur ersetzt, wenn er leer ist oder einem Dateinamen entspricht.
 
-![Markierter Hinweis Metadaten wurden mit KI generiert und markierter Button Metadaten mit KI generieren im Dialog Mediendatei hinzufügen, Titel, Tags, Beschreibung und Alt-Text sind befüllt](assets/media_center_items_ai_v1_de.png){ class="shadow lightbox" }
+![Fachbereich Astronomy von der KI gesetzt, dazu Hinweis und auslösender Button, Dialog Mediendatei hinzufügen](assets/media_center_items_ai_v2_de.png){ class="shadow lightbox" }
 
 Auch beim [Markdown-Import in den Content Editor](Content_Editor.de.md#markdown) werden die Metadaten importierter Bilder im Hintergrund per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
@@ -109,6 +109,7 @@ Hier kann festgelegt werden, durch wen ein Medienelement verwendet werden darf. 
 [Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
-[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)
+[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)<br>
+[Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)
 
 [Zum Seitenanfang ^](#media_center_items)
