@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="How to create a grading assignment: five steps from the system administration to the submission, plus the assignment in the order management">
+  <rect x="0" y="0" width="900" height="420" fill="#F3F4EF"/>
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">How to create a grading assignment</text>
+  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Five steps, from the module to the assignment in the corrector's list.</text>
+
+  <g font-family="'Roboto', sans-serif">
+    <rect x="30" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="120" font-size="12" font-weight="700" fill="#135E5F">1. System</text>
+    <text x="44" y="141" font-size="12" fill="#2D2926">Administration:</text>
+    <text x="44" y="158" font-size="12" fill="#2D2926">e-Assessment,</text>
+    <text x="44" y="175" font-size="12" fill="#2D2926">switch on the</text>
+    <text x="44" y="192" font-size="12" fill="#2D2926">correction workflow.</text>
+
+    <rect x="212" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="226" y="120" font-size="12" font-weight="700" fill="#135E5F">2. Learning resource</text>
+    <text x="226" y="141" font-size="12" fill="#2D2926">Test &gt; Administration</text>
+    <text x="226" y="158" font-size="12" fill="#2D2926">Correction workflow:</text>
+    <text x="226" y="175" font-size="12" fill="#2D2926">switch on the</text>
+    <text x="226" y="192" font-size="12" fill="#2D2926">correction.</text>
+
+    <rect x="394" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="408" y="120" font-size="12" font-weight="700" fill="#135E5F">3. People</text>
+    <text x="408" y="141" font-size="12" fill="#2D2926">Tab «Correctors»:</text>
+    <text x="408" y="158" font-size="12" fill="#2D2926">enter the people,</text>
+    <text x="408" y="175" font-size="12" fill="#2D2926">regardless of</text>
+    <text x="408" y="192" font-size="12" fill="#2D2926">their role.</text>
+
+    <rect x="576" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <text x="590" y="120" font-size="12" font-weight="700" fill="#135E5F">4. Course element</text>
+    <text x="590" y="141" font-size="12" fill="#2D2926">Test, section</text>
+    <text x="590" y="158" font-size="12" fill="#2D2926">Correction: choose</text>
+    <text x="590" y="175" font-size="12" fill="#2D2926">«Manual by</text>
+    <text x="590" y="192" font-size="12" fill="#2D2926">graders».</text>
+
+    <rect x="758" y="96" width="112" height="112" rx="6" fill="#209D9E"/>
+    <text x="772" y="120" font-size="12" font-weight="700" fill="#FFFFFF">5. Submission</text>
+    <text x="772" y="141" font-size="12" fill="#FFFFFF">A person</text>
+    <text x="772" y="158" font-size="12" fill="#FFFFFF">completes</text>
+    <text x="772" y="175" font-size="12" fill="#FFFFFF">the test.</text>
+
+    <path d="M194 150 L210 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
+    <path d="M376 150 L392 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
+    <path d="M558 150 L574 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
+    <path d="M740 150 L756 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
+
+    <path d="M814 208 L814 248" stroke="#135E5F" stroke-width="2" marker-end="url(#d)"/>
+    <rect x="500" y="256" width="370" height="86" rx="6" fill="#135E5F"/>
+    <text x="516" y="286" font-size="14" font-weight="700" fill="#FFFFFF">Grading assignment in the coaching</text>
+    <text x="516" y="308" font-size="12" fill="#FFFFFF">Coaching &gt; Assessment orders &gt; Grading assignments,</text>
+    <text x="516" y="326" font-size="12" fill="#FFFFFF">at the assigned corrector.</text>
+
+    <rect x="30" y="256" width="440" height="86" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <text x="44" y="280" font-size="12" font-weight="700" fill="#135E5F">Nobody assigned yet?</text>
+    <text x="44" y="302" font-size="12" fill="#2D2926">The assignment waits with the status «Unassigned» in</text>
+    <text x="44" y="320" font-size="12" fill="#2D2926">Coaching &gt; Order management &gt; Grading assignments.</text>
+    <text x="44" y="338" font-size="12" fill="#2D2926">There, learning resource managers assign it to a person.</text>
+  </g>
+
+  <text x="30" y="378" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">The option in step 4 becomes available as soon as step 2 is set.</text>
+  <text x="30" y="398" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6">Anyone who manages the correction workflow works under Coaching &gt; Order management instead of Assessment orders.</text>
+
+  <defs>
+    <marker id="c" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#209D9E"/></marker>
+    <marker id="d" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#135E5F"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Creating assessment orders: four settings lead to the four tabs under Coaching Assessment orders, plus two further ways via the assessment form and the assignment">
+  <rect x="0" y="0" width="900" height="700" fill="#F3F4EF"/>
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Creating assessment orders</text>
+  <text x="30" y="68" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">You create an assessment order at the assessment mode of the course element. As soon as a participant</text>
+  <text x="30" y="86" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">completes their work, OpenOlat creates the order and shows it in the matching tab.</text>
+
+  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">How you create the order</text>
+  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Where it appears</text>
+
+  <g font-family="'Roboto', sans-serif">
+    <rect x="30" y="136" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="160" font-size="13" font-weight="700" fill="#2D2926">Set the correction to manual</text>
+    <text x="44" y="181" font-size="12" fill="#2D2926">Course element Test, section «Correction»: a manual variant.</text>
+    <text x="44" y="199" font-size="12" fill="#2D2926">Task: correction step. Assessment: status switch.</text>
+    <path d="M470 174 L556 174" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="136" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="168" font-size="14" font-weight="700" fill="#FFFFFF">Open reviews</text>
+    <text x="574" y="190" font-size="12" fill="#FFFFFF">The status of the person is «To review».</text>
+
+    <rect x="30" y="224" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="248" font-size="13" font-weight="700" fill="#2D2926">Assign levels and grades manually</text>
+    <text x="44" y="269" font-size="12" fill="#2D2926">Course element, tab «Assessment»: switch on «Levels/Grading»,</text>
+    <text x="44" y="287" font-size="12" fill="#2D2926">set «Assignment» to «Manually by coach».</text>
+    <path d="M470 262 L556 262" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="224" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="256" font-size="14" font-weight="700" fill="#FFFFFF">Open levels/gradings</text>
+    <text x="574" y="278" font-size="12" fill="#FFFFFF">Points are set, the grade follows.</text>
+
+    <rect x="30" y="312" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="336" font-size="13" font-weight="700" fill="#2D2926">Control the release of the assessment</text>
+    <text x="44" y="357" font-size="12" fill="#2D2926">Test: «Release assessment» in the section «Correction».</text>
+    <text x="44" y="375" font-size="12" fill="#2D2926">Otherwise: course option «release assessment».</text>
+    <path d="M470 350 L556 350" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="312" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="344" font-size="14" font-weight="700" fill="#FFFFFF">Reviews to release</text>
+    <text x="574" y="366" font-size="12" fill="#FFFFFF">Assessed, waiting for your release.</text>
+
+    <rect x="30" y="400" width="440" height="90" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <text x="44" y="424" font-size="13" font-weight="700" fill="#2D2926">Correction workflow and correctors</text>
+    <text x="44" y="445" font-size="12" fill="#2D2926">Test learning resource: switch on the workflow, enter people in</text>
+    <text x="44" y="463" font-size="12" fill="#2D2926">the tab «Correctors», then choose «Manual by graders» at the</text>
+    <text x="44" y="481" font-size="12" fill="#2D2926">course element.</text>
+    <path d="M470 445 L556 445" stroke="#135E5F" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="560" y="400" width="310" height="90" rx="6" fill="#135E5F"/>
+    <text x="574" y="432" font-size="14" font-weight="700" fill="#FFFFFF">Grading assignments</text>
+    <text x="574" y="454" font-size="12" fill="#FFFFFF">At the entered correctors.</text>
+    <text x="574" y="472" font-size="12" fill="#FFFFFF">Managers work in the order management.</text>
+
+    <text x="30" y="530" font-size="13" font-weight="700" fill="#135E5F">Two further ways to an order</text>
+
+    <rect x="30" y="542" width="420" height="94" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="566" font-size="13" font-weight="700" fill="#2D2926">Reopen assessment</text>
+    <text x="44" y="587" font-size="12" fill="#2D2926">Assessment form, button «Reopen assessment»:</text>
+    <text x="44" y="605" font-size="12" fill="#2D2926">the status returns to «To review», the row appears</text>
+    <text x="44" y="623" font-size="12" fill="#2D2926">again under «Open reviews».</text>
+
+    <rect x="470" y="542" width="400" height="94" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="484" y="566" font-size="13" font-weight="700" fill="#2D2926">Assign an order to a person</text>
+    <text x="484" y="587" font-size="12" fill="#2D2926">Course element Task, «Assignment coaches/</text>
+    <text x="484" y="605" font-size="12" fill="#2D2926">participants»: the coach finds the order via</text>
+    <text x="484" y="623" font-size="12" fill="#2D2926">the filter «Assigned to me».</text>
+  </g>
+
+  <text x="30" y="666" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">With «Automatic», OpenOlat evaluates the test itself and releases the result immediately.</text>
+  <text x="30" y="686" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6">Basic condition for the three upper tabs: assessable course element set to manual assessment, person is coach or owner.</text>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#209D9E"/></marker>
+    <marker id="b" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#135E5F"/></marker>
+  </defs>
+</svg>

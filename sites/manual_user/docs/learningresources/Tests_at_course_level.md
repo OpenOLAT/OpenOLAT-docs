@@ -33,22 +33,22 @@ Select one of the predefined rating scales, e.g. grades, levels or emojis. You c
 
 #### Section Correction {: #correction}
 
-**Correction**: The correction can be made **automatically or manually**. As soon as a [question type](Test_question_types.md) to be evaluated manually, e.g. free text, is available, it is mandatory to select a manual variant. For the auto correction the result is visible right away and all questions are revised automatically.
+**Correction**: Here you determine who evaluates the test. Three variants are available. As soon as the test contains a [question type](Test_question_types.md) to be evaluated manually, that is free text, file upload or drawing, choose one of the two manual variants. You can also have a test corrected manually if it consists of automatically scorable questions only.
 
-For a manual correction, the visibility of the result is limited and the coach or corrector must add the correction manually. The question types that must be corrected manually include free text, file upload and drawing. If needed, a manual correction can also be set even if the test only consists of automatically scorable question types.
+* **Automatic**: OpenOlat evaluates all questions directly. The result is visible right away.
+* **Manual by course coach/owner**: The course team does the correction. For each completed attempt an order is created in the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_assessments), in the tab "Open reviews".
+* **Manual by graders**: The people entered in the correction workflow do the correction. They need neither a membership nor the role coach in the course. Their orders appear in the coaching in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). With this choice the tab "Correctors" with the assigned people additionally appears at the course element.
 
-By selecting the option "**Manual by external graders**", OpenOlat users can also correct a test without being a member or even coach of the course. This option also activates the tab "Graders" and you can see who is assigned to the test as corrector.
+![List of the assigned correctors with their configuration, in the Correctors tab of the course element Test](assets/Test_Tab_Korrektoren.png){ class="shadow lightbox" }
 
-![Configuration and list of assigned graders in the Graders tab of the course element Test](assets/Test_Tab_Korrektoren.png){ class="shadow lightbox" }
+!!! tip "Prerequisite"
 
-!!! info "Note"
+    The option "Manual by graders" becomes available as soon as the [correction workflow](Test_settings.md#correction-workflow) is switched on in the learning resource Test.
 
-    If the option "Manual by external graders" is not available, no [external correctors](Test_settings.md) were configured in the learning resource Test.
+**Release assessment**: The field appears with the two manual variants. It controls whether OpenOlat releases the assessment itself once the correction is completed.
 
-**Release assessment**: Set here whether the results are released by default or not.
-
-* Not released: The test score is not released by default and cannot be viewed by the participant.
-* Released: The assessment is released by default and can be viewed by the participant.
+* Not released: After the correction the assessment stays with you until you release it. Until then the entry is in the coaching in the tab [Reviews to release](../area_modules/Coaching_Assessment_Orders.md#tab_assessments_to_be_released).
+* Released: OpenOlat releases the assessment when the correction is completed, the participants see it afterwards.
 
 ![Selection of the correction type and the release of the assessment in the Correction section](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
@@ -138,7 +138,7 @@ Access to tests completed by course participants is available in the "[Assessmen
 
 ![List of participants with test results and assessment actions in the course run](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
 
-If external graders have also been activated for a test, they can use the [Coaching Tool](../area_modules/Coaching.md) to make the assessments.
+If the correction workflow is switched on for a test, the entered correctors make the assessments via the [Coaching Tool](../area_modules/Coaching.md).
 
 ## Test results and archiving
 
@@ -161,6 +161,7 @@ Via "Administration" -> "[Test Statistics](../learningresources/Statistics_Test.
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Test statistics >](../learningresources/Statistics_Test.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
 
 [To the top of the page ^](#tests-at-course-level)

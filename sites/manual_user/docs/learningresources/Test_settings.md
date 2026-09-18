@@ -156,6 +156,10 @@ The respective correctors are automatically notified when new edits of the test 
 
 Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as correctors. Via the row menu of a corrector, further actions are available, for example contacting, deactivating or removing the corrector as well as displaying their grading assignments.
 
+The entered correctors find their orders under `Coaching > Assessment orders` in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). Two further steps are needed for this: at the course element Test the correction is set to "Manual by graders", and a participant completes the test. Only then is the order created.
+
+If no corrector is available at that moment, the assignment carries the status "Unassigned" and waits in the [Order management](../area_modules/Coaching_Order_Management.md). There, learning resource managers assign it to a person, and it appears in their list.
+
 ### Tab "Grading assignments"
 
 Here the processing status of the grading assignments of the different correctors can be displayed and filtered according to various criteria.
@@ -224,11 +228,17 @@ The test is then downloaded in zip format with two Word files, one of which cont
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Test editor >](Test_editor_QTI_2.1.md)<br>
+[Tests at course level >](Tests_at_course_level.md)<br>
+[Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
+[Coaching - Order management >](../area_modules/Coaching_Order_Management.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)
+
 **Further**<br>
 [How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
 [How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.md)
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [To the top of the page ^](#test_settings)

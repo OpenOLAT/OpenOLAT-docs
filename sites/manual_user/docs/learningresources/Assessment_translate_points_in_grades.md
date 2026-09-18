@@ -1,6 +1,6 @@
 # Levels/Grading {: #rating_grades}
 
-:octicons-tag-16:{ title="from Release 16.2" }
+[:octicons-tag-16:{ title="from Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009)
 
 If an assessment course element, such as a test, a task, etc., is assigned points, the points can also be translated into grades. 
 
@@ -9,7 +9,7 @@ Course owners can activate the function in the course editor and configure it th
 
 ## Configuring a course element for levels and grades
 
-!!! info "Prerequisite"
+!!! tip "Prerequisite"
 
     The Levels/Grading module has been activated by the OpenOlat administrators, and at least one rating system has been created.
 
@@ -17,7 +17,7 @@ Course owners can activate the function in the course editor and configure it th
 Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details 
 (for tests, in the "Test configuration" tab). Make sure that "Assign points" is also activated, and activate "Levels/Grading".
 2. **Select assignment**<br>
-You can choose between manual and automatic assignment. With manual assignment, the coach must trigger the assignment manually and make it visible to the participants. 
+You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". So that coaches without ownership can assign there as well, course owners set the option "assign Levels/Grading" under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights). With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
 
 3. **Select and customize the rating scale**<br>
 Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a rating system and further customize the rating scale.
@@ -64,5 +64,20 @@ The key figures for the assessment have been extended with grades. You see the n
 In the assessment tool, the grades are shown in a separate column after the score. (If the column is displayed -> gear button.) If set to manual, you can also apply grades manually here.
 
 To adjust the grading scale afterwards or to assign new grades, click the "Customize rating scale" button at the top. 
+
+[To the top of the page ^](#rating_grades)
+
+---
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)
+
+**Further reading**<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[The assessment form >](The_assessment_form.md)<br>
+[Tests at course level >](Tests_at_course_level.md)
 
 [To the top of the page ^](#rating_grades)
