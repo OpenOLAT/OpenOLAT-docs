@@ -6,7 +6,7 @@ The "Courses" menu item gives you access to the courses and possibly other learn
 
 ## My courses
 
-Under "My Courses", you can view all courses and learning resources that are active or finished. You can also mark favorites and display only the favorites. Or you can use the search function to find a course or learning resource based on a keyword.
+Under "My Courses", you can view all courses and learning resources that are active or finished. You can also mark favourites and display only the favourites. Or you can use the search function to find a course or learning resource based on a keyword.
 
 Learning resources in which you are a coach or owner are found in the "Coaching" area. Under "My Courses", learning resources are displayed in which you yourself are entered as a participant. [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
@@ -40,9 +40,9 @@ Use the search function to find all the learning resources you have access to. E
 
 If you do not find a course, check whether an unwanted filter is still active (e.g. "show only courses not passed"). In this case, remove the corresponding filter.
 
-Once you have found the course, you can also mark it as a favorite. To do this, click on the white flag, which will then turn red. The next time you log in, you will find the course directly in your favorites.
+Once you have found the course, you can also mark it as a favourite. To do this, click on the white flag, which will then turn red. The next time you log in, you will find the course directly in your favourites.
 
-![Flag symbol in the row with the Set bookmark hint, marked favorites are filled red, list in the My courses area](assets/favorites.png){ class="shadow lightbox" }
+![Flag symbol in the row with the Set bookmark hint, marked favourites are filled red, list in the My courses area](assets/favorites.png){ class="shadow lightbox" }
 
 ## Educational products
 

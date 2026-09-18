@@ -79,7 +79,7 @@ Which columns the list shows, you determine with the gear icon to the right abov
 * **Status**<br>The status of the implementation, that is "Preparation", "Provisional", "Confirmed", "Active", "Cancelled" or "Finished". This column is hidden at the start.
 * **Timetable**<br>The access to the events of the implementation.
 
-In the other areas the choice of columns differs. The user management additionally shows the column "Roles". The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Learning progress".
+In the other areas the choice of columns differs. The user management additionally shows the column "Roles". The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Progress".
 
 [To the top of the page ^](#educational_products)
 

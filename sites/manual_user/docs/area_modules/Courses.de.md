@@ -54,6 +54,10 @@ Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
 Die Liste zeigt Ihre Durchführungen, nicht einzelne Kurse. Ein Klick auf den Titel einer Durchführung öffnet deren Struktur, und erst dort sehen Sie die Kurse und Lernressourcen, die zu ihr gehören. Sind Sie in mehreren Durchführungen eingetragen, stehen sie alle in dieser Liste. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört, die Spalte "Fortschritt" Ihren Lernfortschritt darin. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}
 
+![Die als Favorit markierte Durchführung Staffel 6 - 2026 steht als eigener Bereich vor Bildungsprodukte, Menüpunkt Kurse](assets/courses_educational_products_v1_de.png){ class="shadow lightbox" }
+
+Haben Sie eine Durchführung als Favorit markiert, erscheint sie zusätzlich als eigener Bereich vor "Bildungsprodukte". Der Bereich trägt den Titel der Durchführung, darunter ihren Zeitraum, sofern ein Beginn- oder Enddatum hinterlegt ist. Ein Klick darauf öffnet ihre Struktur direkt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8519)" }](https://track.frentix.com/issue/OO-8519)
+
 Die Filter-Tabs "Favoriten", "Alle", "Relevant" und "Beendet" schränken die Liste ein, das Suchfeld darüber durchsucht Titel und Kennzeichen. Was die einzelnen Tabs zeigen und welche Spalten zur Verfügung stehen, beschreibt der Abschnitt [Die Liste filtern](../area_modules/Coaching_Educational_Products.de.md#filter). Er gilt für alle Bereiche, die Bildungsprodukte auflisten.
 
 Einen Filter-Tab "Vorbereitung" gibt es hier nicht. Lernressourcen, die noch nicht veröffentlicht sind, finden Sie stattdessen im Bereich "In Vorbereitung".

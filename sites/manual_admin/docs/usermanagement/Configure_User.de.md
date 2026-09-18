@@ -305,7 +305,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
-[Die Bildungsprodukte einer Person >](../../manual_user/area_modules/Coaching_People.de.md)
+[Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
 [Benutzer-/Kontosuche >](Search_Users.de.md)<br>
