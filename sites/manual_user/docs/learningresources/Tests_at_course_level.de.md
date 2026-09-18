@@ -33,22 +33,22 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 
 #### Abschnitt Korrektur {: #correction}
 
-**Korrektur**: Die Korrektur wird entweder **automatisch oder manuell** durchgeführt. Sobald ein manuell auszuwertender [Fragetyp](Test_question_types.de.md), z.B. Freitext vorhanden ist, muss zwingend eine manuelle Variante gewählt werden. Bei der automatischen Korrektur werden alle Fragen automatisch und direkt korrigiert, das Resultat ist sofort sichtbar.
+**Korrektur**: Hier bestimmen Sie, wer den Test auswertet. Drei Varianten stehen zur Auswahl. Sobald der Test einen manuell auszuwertenden [Fragetyp](Test_question_types.de.md) enthält, also Freitext, Datei hochladen oder Zeichnen, wählen Sie eine der beiden manuellen Varianten. Auch bei einem Test aus rein automatisch auswertbaren Fragen können Sie manuell korrigieren lassen.
 
-Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt und der Betreuer bzw. Korrektor muss die Korrektur manuell ergänzen. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur kann bei Bedarf aber auch eingestellt werden, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
+* **Automatisch**: OpenOlat wertet alle Fragen direkt aus. Das Resultat ist sofort sichtbar.
+* **Manuell durch Kursbetreuer:in oder -besitzer:in**: Die Korrektur übernimmt das Kursteam. Für jede abgeschlossene Bearbeitung entsteht ein Auftrag im Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_assessments), im Tab "Offene Bewertungen".
+* **Manuell durch Korrektor:innen**: Die Korrektur übernehmen die im Korrektur-Workflow eingetragenen Personen. Sie brauchen dafür weder eine Mitgliedschaft noch die Rolle Betreuer:in im Kurs. Ihre Aufträge erscheinen im Coaching im Tab [Korrekturaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments). Mit dieser Wahl erscheint im Kursbaustein zusätzlich der Tab "Korrektor:innen" mit den zugeordneten Personen.
 
-Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
+![Liste der zugeordneten Korrektor:innen mit ihrer Konfiguration, im Tab Korrektor:innen des Kursbausteins Test](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
 
-![Konfiguration und Liste der zugeordneten Korrektoren im Tab Korrektoren des Kursbausteins Test](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
+!!! tip "Voraussetzung"
 
-!!! info "Hinweis"
+    Die Option "Manuell durch Korrektor:innen" steht zur Auswahl, sobald in der Lernressource Test der [Korrektur-Workflow](Test_settings.de.md#correction-workflow) eingeschaltet ist.
 
-    Steht die Option "Manuell durch externe Korrektoren" nicht zur Verfügung, wurden in der Lernressource Test keine [externen Korrektoren](Test_settings.de.md) konfiguriert.
+**Freigabe Bewertung**: Das Feld erscheint bei den beiden manuellen Varianten. Es steuert, ob OpenOlat die Bewertung nach abgeschlossener Korrektur selbst freigibt.
 
-**Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig freigegeben sind oder nicht.
-
-* Nicht freigegeben: Die Bewertung des Tests ist standardmässig nicht freigegeben und kann von den Teilnehmenden nicht eingesehen werden.
-* Freigegeben: Die Bewertung wird standardmässig freigegeben und kann von den Teilnehmenden eingesehen werden.
+* Nicht freigegeben: Die Bewertung bleibt nach der Korrektur bei Ihnen, bis Sie sie freigeben. Bis dahin steht der Eintrag im Coaching im Tab [Freizugebende Bewertungen](../area_modules/Coaching_Assessment_Orders.de.md#tab_assessments_to_be_released).
+* Freigegeben: OpenOlat gibt die Bewertung mit dem Abschluss der Korrektur frei, die Teilnehmenden sehen sie danach.
 
 ![Auswahl der Korrekturart und der Freigabe der Bewertung im Abschnitt Korrektur](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
@@ -93,8 +93,8 @@ Hier kann für einen Test auch eine Highscore Übersicht aktiviert und weiter ko
 
 ![Konfiguration der Highscore-Anzeige des Kursbausteins Test im Tab HighScore](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
-### Tab "Korrektoren"
-Es erscheint eine Übersicht der Korrektoren sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
+### Tab "Korrektor:innen"
+Es erscheint eine Übersicht der Korrektor:innen sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
 
 ### E-Mail Bestätigung :octicons-tag-16:{ title="ab Release 17.2" }
 Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email bestätigen wollen. Sie können in dem Mailtext auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen. Eine Kopie der Mail kann auch an die Kursbesitzer, zuständige Betreuer oder externe Mail-Adressen verschickt werden. 
@@ -128,7 +128,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
     Sobald ein Test oder Selbsttest in einen Kurs eingebunden wird, können nur noch sehr eingeschränkt Änderungen unter "Inhalt editieren" vorgenommen werden. Deshalb sollten Test erst in einen Kurs eingebunden werden, wenn sie vollkommen fertiggestellt sind.
 
-Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Testpersonen die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
+Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Teilnehmenden die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
 Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschliessend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor und tauschen Sie im Kursbaustein des gewünschten Tests die Datei aus. Wenn bereits Resultate eingegangen sind, werden diese in Ihrem persönlichen Ordner (private) archiviert und Sie können entscheiden, ob OpenOlat diejenigen Teilnehmenden, die den Test bereits absolviert haben, über die Änderung informieren soll.
 
@@ -140,7 +140,7 @@ Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor einge
 
 ![Liste der Teilnehmenden mit Testresultaten und Bewertungsaktionen im Kursrun](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
 
-Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese die Bewertungen über das [Coaching Tool](../area_modules/Coaching.de.md) vornehmen.
+Sofern für einen Test der Korrektur-Workflow eingeschaltet ist, nehmen die eingetragenen Korrektor:innen die Bewertungen über das [Coaching Tool](../area_modules/Coaching.de.md) vor.
 
 ## Testergebnisse und Archivierung
 
@@ -163,6 +163,7 @@ Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttes
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Test Statistiken >](../learningresources/Statistics_Test.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
 
 [Zum Seitenanfang ^](#tests-auf-kursebene)

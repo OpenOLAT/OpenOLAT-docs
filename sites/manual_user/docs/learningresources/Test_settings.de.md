@@ -157,6 +157,10 @@ Die jeweiligen Korrektor:innen werden automatisch benachrichtigt, wenn neue Bear
 
 Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Personen mit der Rolle "Benutzer:in" können als Korrektor:in hinzugefügt werden. Über das Zeilenmenü einer Korrektor:in stehen weitere Aktionen bereit, zum Beispiel Korrektor:in kontaktieren, deaktivieren oder entfernen sowie die jeweiligen Korrekturaufträge anzeigen.
 
+Die eingetragenen Korrektor:innen finden ihre Aufträge unter `Coaching > Bewertungsaufträge` im Tab [Korrekturaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments). Dafür braucht es zwei weitere Schritte: Am Kursbaustein Test steht die Korrektur auf "Manuell durch Korrektor:innen", und eine teilnehmende Person schliesst den Test ab. Erst damit ist der Auftrag erstellt.
+
+Ist zu diesem Zeitpunkt keine Korrektor:in verfügbar, trägt der Auftrag den Status "Nicht zugeordnet" und wartet in der [Auftragsverwaltung](../area_modules/Coaching_Order_Management.de.md). Dort weisen ihn Lernressourcenverwalter:innen einer Person zu, und er erscheint in deren Liste.
+
 ### Tab "Korrekturaufträge"
 
 Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektor:innen angezeigt und nach verschiedenen Kriterien gefiltert werden.
@@ -227,11 +231,17 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
+[Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
+[Coaching - Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)
+
 **Weiterführend**<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
 
 [zum Seitenanfang ^](#test_settings)

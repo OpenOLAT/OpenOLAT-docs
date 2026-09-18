@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Bewertungsaufträge erstellen: vier Einstellungen führen zu den vier Tabs unter Coaching Bewertungsaufträge, dazu zwei weitere Wege über das Bewertungsformular und die Zuweisung">
+  <rect x="0" y="0" width="900" height="700" fill="#F3F4EF"/>
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Bewertungsaufträge erstellen</text>
+  <text x="30" y="68" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Sie erstellen einen Bewertungsauftrag an der Bewertungsart des Kursbausteins. Sobald eine teilnehmende Person</text>
+  <text x="30" y="86" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">ihre Arbeit abschliesst, legt OpenOlat den Auftrag an und zeigt ihn im passenden Tab.</text>
+
+  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">So erstellen Sie den Auftrag</text>
+  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Wo er erscheint</text>
+
+  <g font-family="'Roboto', sans-serif">
+    <rect x="30" y="136" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="160" font-size="13" font-weight="700" fill="#2D2926">Korrektur auf manuell stellen</text>
+    <text x="44" y="181" font-size="12" fill="#2D2926">Kursbaustein Test, Abschnitt «Korrektur»: eine manuelle Variante.</text>
+    <text x="44" y="199" font-size="12" fill="#2D2926">Aufgabe: Schritt Korrektur. Bewertung: Statusschalter.</text>
+    <path d="M470 174 L556 174" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="136" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="168" font-size="14" font-weight="700" fill="#FFFFFF">Offene Bewertungen</text>
+    <text x="574" y="190" font-size="12" fill="#FFFFFF">Status der Person steht auf «Korrigieren».</text>
+
+    <rect x="30" y="224" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="248" font-size="13" font-weight="700" fill="#2D2926">Einstufung/Noten manuell zuweisen</text>
+    <text x="44" y="269" font-size="12" fill="#2D2926">Kursbaustein, Tab «Bewertung»: «Bewertung mit Einstufung/Noten»</text>
+    <text x="44" y="287" font-size="12" fill="#2D2926">einschalten, Zuweisung auf «Manuell».</text>
+    <path d="M470 262 L556 262" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="224" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="256" font-size="14" font-weight="700" fill="#FFFFFF">Offene Einstufungen/Noten</text>
+    <text x="574" y="278" font-size="12" fill="#FFFFFF">Punkte sind gesetzt, die Note folgt.</text>
+
+    <rect x="30" y="312" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="336" font-size="13" font-weight="700" fill="#2D2926">Freigabe der Bewertung selbst steuern</text>
+    <text x="44" y="357" font-size="12" fill="#2D2926">Test: «Freigabe Bewertung» im Abschnitt «Korrektur».</text>
+    <text x="44" y="375" font-size="12" fill="#2D2926">Sonst: Kursoption «Bewertung freigeben».</text>
+    <path d="M470 350 L556 350" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="560" y="312" width="310" height="76" rx="6" fill="#209D9E"/>
+    <text x="574" y="344" font-size="14" font-weight="700" fill="#FFFFFF">Freizugebende Bewertungen</text>
+    <text x="574" y="366" font-size="12" fill="#FFFFFF">Bewertet, wartet auf Ihre Freigabe.</text>
+
+    <rect x="30" y="400" width="440" height="90" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <text x="44" y="424" font-size="13" font-weight="700" fill="#2D2926">Korrektur-Workflow und Korrektor:innen</text>
+    <text x="44" y="445" font-size="12" fill="#2D2926">Test-Lernressource: Workflow einschalten, Personen im Tab</text>
+    <text x="44" y="463" font-size="12" fill="#2D2926">«Korrektor:innen» eintragen, dann im Kursbaustein «Manuell</text>
+    <text x="44" y="481" font-size="12" fill="#2D2926">durch Korrektor:innen» wählen.</text>
+    <path d="M470 445 L556 445" stroke="#135E5F" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="560" y="400" width="310" height="90" rx="6" fill="#135E5F"/>
+    <text x="574" y="432" font-size="14" font-weight="700" fill="#FFFFFF">Korrekturaufträge</text>
+    <text x="574" y="454" font-size="12" fill="#FFFFFF">Bei den eingetragenen Korrektor:innen.</text>
+    <text x="574" y="472" font-size="12" fill="#FFFFFF">Verwaltende arbeiten in der Auftragsverwaltung.</text>
+
+    <text x="30" y="530" font-size="13" font-weight="700" fill="#135E5F">Zwei weitere Wege zum Auftrag</text>
+
+    <rect x="30" y="542" width="420" height="94" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="566" font-size="13" font-weight="700" fill="#2D2926">Bewertung wieder eröffnen</text>
+    <text x="44" y="587" font-size="12" fill="#2D2926">Bewertungsformular, Schaltfläche «Bewertung wieder</text>
+    <text x="44" y="605" font-size="12" fill="#2D2926">eröffnen»: der Status geht zurück auf «Korrigieren»,</text>
+    <text x="44" y="623" font-size="12" fill="#2D2926">die Zeile steht erneut unter «Offene Bewertungen».</text>
+
+    <rect x="470" y="542" width="400" height="94" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="484" y="566" font-size="13" font-weight="700" fill="#2D2926">Auftrag einer Person zuweisen</text>
+    <text x="484" y="587" font-size="12" fill="#2D2926">Kursbaustein Aufgabe, «Zuweisung Betreuende/</text>
+    <text x="484" y="605" font-size="12" fill="#2D2926">Teilnehmende»: die betreuende Person findet den</text>
+    <text x="484" y="623" font-size="12" fill="#2D2926">Auftrag über den Filter «Mir zugewiesen».</text>
+  </g>
+
+  <text x="30" y="666" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Bei «Automatisch» wertet OpenOlat den Test selbst aus und gibt das Resultat sofort frei.</text>
+  <text x="30" y="686" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6">Grundbedingung für die drei oberen Tabs: bewertbarer Kursbaustein auf manueller Bewertung, Person ist Betreuer:in oder Besitzer:in.</text>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#209D9E"/></marker>
+    <marker id="b" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#135E5F"/></marker>
+  </defs>
+</svg>
