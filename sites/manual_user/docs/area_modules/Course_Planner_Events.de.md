@@ -91,6 +91,12 @@ Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch impor
 
 ![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren, im Tab Termine einer Durchführung](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
 
+!!! tip "Damit ein Termin auch im Kalender erscheint"
+
+    Ein Termin wird nur dann im Kurskalender eingetragen, wenn die Durchführung mit einem Kurs verknüpft ist und für diesen Kurs die Kalendersynchronisation eingeschaltet ist. Ist kein Kurs verknüpft, bleibt der Termin im Course Planner sichtbar, erscheint aber in keinem Kalender. Die Synchronisation schalten Sie im Kurs ein unter<br>
+    `Kurs > Administration > Einstellungen > Tab Durchführung > Kurs Kalender synchronisieren`<br>
+    Mehr dazu unter [Kurseinstellungen, Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#course_calendar_sync).
+
 [zum Seitenanfang ^](#events)
 
 
@@ -133,7 +139,8 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
+[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)<br>
+[Kurseinstellungen: Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

@@ -87,6 +87,12 @@ You can also import events by clicking on the small arrow next to the button.
 
 ![The Add event button with the expanded Import events entry, in the Events tab of an implementation](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
 
+!!! tip "So an event also appears in the calendar"
+
+    An event is entered in the course calendar only if the implementation is linked to a course and the calendar synchronization is switched on for this course. If no course is linked, the event stays visible in the Course Planner but appears in no calendar. You switch the synchronization on in the course here:<br>
+    `Course > Administration > Settings > Tab Execution > Synchronize course calendar`<br>
+    More on this under [Course Settings, Tab Execution](../learningresources/Course_Settings_Execution.md#course_calendar_sync).
+
 [To the top of the page ^](#events)
 
 
@@ -128,7 +134,8 @@ If required, the events displayed in the list can also be downloaded as an Excel
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)
+[Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)<br>
+[Course Settings: Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
