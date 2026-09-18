@@ -30,6 +30,10 @@ Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
   * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
   * **Umfragen** bearbeiten
 
+!!! tip "Gäste bleiben anonym"
+
+    Der Gastzugang erzeugt keine Mitgliedschaft im Kurs. Alle Gäste benutzen dasselbe anonyme Gastkonto. Die Mitgliederverwaltung des Kurses und die Benutzerverwaltung führen darum keine Gäste auf, und einzelne Gäste lassen sich nicht voneinander unterscheiden. Sollen die Teilnehmenden namentlich erfasst werden, laden Sie sie als externe Mitglieder ein.
+
 Wenn Sie einem Gast direkten Zugriff auf einen Kurs geben möchten, schicken Sie ihm den externen Link zum Kurs.
 
 ![Externer Link eines Kurses mit dem Zusatz guest=true, hervorgehoben im Abschnitt Externer Link der Kurs-Infoseite](assets/Gast-link_20.jpg){ class="shadow lightbox" }

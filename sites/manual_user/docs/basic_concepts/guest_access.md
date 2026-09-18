@@ -30,6 +30,10 @@ Guests can see or partially edit the following course elements:
   * Participate in **BigBlueButton**, **OpenMeetings** and similar meetings
   * Edit **surveys**
 
+!!! tip "Guests stay anonymous"
+
+    Guest access does not create a membership in the course. All guests use the same anonymous guest account. The member management of the course and the user management therefore do not list any guests, and individual guests cannot be told apart. If you want to record the participants by name, invite them as external members.
+
 If you want to give a guest direct access to a course, send them the external link to the course.
 
 ![External link of a course with the suffix guest=true, highlighted in the External link section of the course info page](assets/Gast-link_20.jpg){ class="shadow lightbox" }
