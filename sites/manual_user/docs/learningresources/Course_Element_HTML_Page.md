@@ -54,10 +54,10 @@ Here you carry out the central configuration of this course element. There are s
 
   * Use "Create" to create a new HTML page online in OpenOlat
   * Use "Select" to choose an HTML file from the storage folder
-  * Use "Import" to upload an externally created HTML file from your computer
+  * Use "Import" to upload an externally created HTML file or a ZIP file from your computer
   * Upload an externally created HTML file to the storage folder and choose it there with "Select"
 
-![HTML file, security settings and Edit page button in the Page content tab](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
+![Menu of the Select button with Create and Import, linked HTML file, Edit page button and security settings in the Page content tab](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
 For **further editing** of HTML pages you can use the OpenOlat Editor. It works similar to a word processing program. The automatically created file when you create a page for the first time already has the name of the course element. Once created, open the file with the link "Edit page" and you will get to the OpenOlat HTML Editor.
 
@@ -67,13 +67,13 @@ You can also define **whether coaches are allowed to edit the stored HTML file**
 
 ### Replace the content {: #change_content}
 
-The buttons in the [Page content tab](#tab_page_content) also work afterwards. You use them to replace the content of a course element that already shows an HTML page. With "**Select**" you link a different file from the storage folder, with "**Import**" you upload a new file from your computer.
+If the content of an HTML page is out of date, replace the linked file instead of creating a new course element. The buttons in the [Page content tab](#tab_page_content) also work afterwards. With "Select" you link a different file from the storage folder. With "Import" you upload an HTML, ZIP or PDF file from your computer. With "Create" you create a new HTML page that takes the place of the previous one. If the course element already shows a file, you find "Create" and "Import" in the menu next to the "Select" button.
 
-If you upload a ZIP file with "Import", OpenOlat unpacks it and then offers the HTML files it contains for selection. This way you replace an externally created page together with its images, stylesheets and scripts in one step.
+If you upload a ZIP file with "Import", OpenOlat unpacks it and then offers the HTML files it contains for selection. This way you replace an externally created page together with its images, CSS files and scripts in one step.
 
 !!! info "Important"
 
-    OpenOlat unpacks an imported ZIP file into a new subfolder of the storage folder that carries the name of the ZIP file. If that folder already exists, OpenOlat appends a number to the name. The previous content therefore remains and is not overwritten. Delete the old folders yourself in the [storage folder](../learningresources/Storage_folder.md) if required.
+    OpenOlat unpacks an imported ZIP file into a new folder that carries the name of the ZIP file and is created where the linked file is stored. If that folder already exists, OpenOlat appends a number to the name. The existing content remains and is not overwritten. Delete the old folders yourself in the [storage folder](../learningresources/Storage_folder.md) if required.
 
 ## Tab Layout {: #layout}
 

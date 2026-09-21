@@ -54,10 +54,10 @@ Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor, indem Sie e
 
   * Mit "Erstellen" eine neue HTML-Seite online in OpenOlat anlegen
   * Mit "Auswählen" eine HTML-Datei aus dem Ablageordner wählen
-  * Mit "Import" eine extern erstellte HTML-Datei von Ihrem Rechner hochladen
+  * Mit "Import" eine extern erstellte HTML-Datei oder eine ZIP-Datei von Ihrem Rechner hochladen
   * Eine extern erstellte HTML-Datei in den Ablageordner hochladen und dort mit "Auswählen" wählen
 
-![HTML-Datei, Sicherheitseinstellungen und Button Seite bearbeiten im Tab Seiteninhalt](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
+![Menü des Buttons Auswählen mit Erstellen und Import, verknüpfte HTML-Datei, Button Seite bearbeiten und Sicherheitseinstellungen im Tab Seiteninhalt](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
 
 Für die **weitere Bearbeitung** von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
@@ -69,14 +69,13 @@ Ferner können Sie definieren, **ob Betreuer:innen die hinterlegte HTML-Datei be
 
 ### Inhalt auswechseln {: #change_content}
 
-Die Schaltflächen im [Tab "Seiteninhalt"](#tab_page_content) wirken auch nachträglich. Sie ersetzen damit den Inhalt eines Kursbausteins, der bereits eine HTML-Seite zeigt. Mit "**Auswählen**" verknüpfen Sie eine andere Datei aus dem Ablageordner, mit "**Import**" laden Sie eine neue Datei von Ihrem Rechner hoch.
+Ist der Inhalt einer HTML-Seite überholt, tauschen Sie die verknüpfte Datei aus, statt einen neuen Kursbaustein anzulegen. Die Buttons im [Tab "Seiteninhalt"](#tab_page_content) wirken auch nachträglich. Mit "Auswählen" verknüpfen Sie eine andere Datei aus dem Ablageordner. Mit "Import" laden Sie eine HTML-, ZIP- oder PDF-Datei von Ihrem Rechner hoch. Mit "Erstellen" legen Sie eine neue HTML-Seite an, die an die Stelle der bisherigen tritt. Zeigt der Kursbaustein bereits eine Datei, finden Sie "Erstellen" und "Import" im Menü neben dem Button "Auswählen".
 
-Laden Sie mit "Import" eine ZIP-Datei hoch, entpackt OpenOlat sie und zeigt Ihnen anschliessend die enthaltenen HTML-Dateien zur Auswahl an. So ersetzen Sie eine extern erstellte Seite samt Bildern, Stylesheets und Skripten in einem Schritt.
+Laden Sie mit "Import" eine ZIP-Datei hoch, entpackt OpenOlat sie und zeigt Ihnen anschliessend die enthaltenen HTML-Dateien zur Auswahl an. So ersetzen Sie eine extern erstellte Seite samt Bildern, CSS-Dateien und Skripten in einem Schritt.
 
 !!! info "Wichtig"
 
-    OpenOlat entpackt eine importierte ZIP-Datei in einen neuen Unterordner des Ablageordners, der den Namen der ZIP-Datei trägt. Existiert dieser Ordner bereits, hängt OpenOlat eine Nummer an den Namen an. Der bisherige Inhalt bleibt erhalten und wird nicht überschrieben. Löschen Sie die alten Ordner bei Bedarf selbst im [Ablageordner](../learningresources/Storage_folder.de.md).
-
+    OpenOlat entpackt eine importierte ZIP-Datei in einen neuen Ordner, der den Namen der ZIP-Datei trägt und dort entsteht, wo die verknüpfte Datei liegt. Existiert dieser Ordner bereits, hängt OpenOlat eine Nummer an den Namen an. Der bestehende Inhalt bleibt erhalten und wird nicht überschrieben. Löschen Sie die alten Ordner bei Bedarf selbst im [Ablageordner](../learningresources/Storage_folder.de.md).
 
 ## Tab Anzeige Inhalt {: #layout}
 
