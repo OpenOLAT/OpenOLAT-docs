@@ -246,7 +246,7 @@ All of a user's subscriptions are displayed here. They can also be deactivated o
 ### Relations [:octicons-tag-16:{ title="from Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 In this tab, relations between the selected user and other OpenOlat users can be defined. For example, whether someone is a teacher's superior, parent, training coach or student. The prerequisite is that roles for person to person are defined in the system administration. These roles grant the linked people the rights that are set there. You find the roles under:<br>
-`Administration > Modules > Role user to user`, see [Role person to person](../administration/Modules.md#role_user_to_user). (Cf. [User roles](index.md))
+`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules.md#role_user_to_user). (Cf. [User roles](index.md))
 
 [To the top of the page ^](#user_configuration)
 

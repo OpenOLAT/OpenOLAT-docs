@@ -234,7 +234,7 @@ With the "Organisations" module activated, organisational structures can be mapp
 
 
 
-## Role person to person {: #role_user_to_user}
+## Role user to user {: #role_user_to_user}
 
 After activating "Person to person", you define your own roles and contra-roles that link two people, e.g. line manager and employee or teacher and student.
 
