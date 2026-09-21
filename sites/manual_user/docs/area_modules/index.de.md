@@ -1,174 +1,60 @@
 # Bereiche und Module {: #sites}
 
-OpenOlat ist modular aufgebaut. Die wichtigsten Bereiche und Module sind allgemein verfügbar, einige können nach Bedarf zusätzlich aktiviert werden. Die zentralen Elemente erscheinen in der Regel als Menüpunkt in der obersten Navigationszeile. (Diese Zeile wird gelegentlich auch als "Header" bezeichnet.) Persönliche Bereiche können über die ["Persönlichen Werkzeuge"](../personal_menu/Personal_Tools.de.md) aufgerufen werden.
+Wer in OpenOlat arbeitet, wechselt über die oberste Navigationszeile zwischen den grossen Arbeitsbereichen: Kurse, Gruppen, Katalog, Coaching. Ein solcher Bereich heisst in OpenOlat Site und erscheint als Tab in dieser Zeile. (Die Zeile wird gelegentlich auch "Header" oder "Kopfzeile" genannt.) Persönliche Bereiche rufen Sie dagegen über die [Persönlichen Werkzeuge](../personal_menu/Personal_Tools.de.md) auf.
 
-Bei aktiviertem Modul ist die Verfügbarkeit im Hauptmenü ausserdem rollenabhängig.<br>
-Die Reihenfolge/Anordnung in der Kopfzeile kann von Administrator:innen bestimmt werden.
+Welche Tabs Sie sehen, entscheidet die Systemadministration zusammen mit Ihrer Rolle. Jede OpenOlat-Instanz stellt die Kopfzeile deshalb anders zusammen und ordnet sie anders. Das folgende Bild zeigt, was möglich ist: eine Instanz mit nahezu allen verfügbaren Bereichen. Die meisten Instanzen bieten weniger an.
 
-![Hauptnavigation von OpenOlat mit sechzehn nummerierten Bereichen und Modulen, die weiteren Einträge im aufgeklappten Menü Mehr](assets/sites_v2_de.png){ class="shadow lightbox" }
+![Beispiel einer weit bestückten Kopfzeile: sechzehn nummerierte Bereiche, neun davon als Tabs von Portal bis Video Collection, die übrigen im aufgeklappten Menü Mehr](assets/sites_v2_de.png){ class="shadow lightbox" title="Beispielansicht mit nahezu allen verfügbaren Bereichen, nicht der Standard einer Instanz" }
 
 
-## Portal {: #portal}
+## Was über einen Tab entscheidet {: #conditions}
 
-![1](assets/1_green_24.png){ class=" aside-left-lg" }
+Sie suchen einen Bereich und finden ihn nicht, eine Kollegin sieht ihn dagegen sehr wohl. Vier Bedingungen entscheiden darüber. Wer sie der Reihe nach durchgeht, findet die Ursache und weiss, wen er fragen muss.
 
-Wenn die Portalfunktion eingeschaltet ist, können auf der Portalseite (Einstiegsseite) verschiedene Informationen und Schnellzugänge angeboten werden.
+1. **Das Modul ist aktiviert.** Ohne aktives Modul erscheint der Bereich nicht, auch wenn die Site aktiviert ist. Den Katalog schalten Administrator:innen zum Beispiel im [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) ein.
+2. **Die Site ist aktiviert und einsortiert.** Die Systemadministration führt alle Sites in einer Liste. Das Kontrollkästchen "Aktiviert" gibt einen Eintrag frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest.
+3. **Die Rolle hat Zugang.** Die Spalte "Zugang" derselben Liste bestimmt, welche Rollen den Tab sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb verschiedene Kopfzeilen.
+4. **In der Zeile ist Platz.** Was nicht mehr in die Kopfzeile passt, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Breite des Bildschirms ab, nicht von einer Einstellung.
 
-[Zu den Details >](../basic_concepts/Portal_configuration.de.md)<br>
-[Zum Seitenanfang ^](#sites)
+Einzelne Einträge der Liste heissen anders als der Tab, den sie erzeugen: der Eintrag "Meine Kurse" erscheint als Tab "Kurse".
 
+Neben den Bereichen der Tabelle unten lassen sich vier Infoseiten und zwei externe Seiten als Tab einhängen. Die Systemadministration belegt sie mit einer Lernressource oder einer URL.
 
-## Kurse {: #courses}
+Wie die Systemadministration diese Liste bedient, beschreibt das Administrationshandbuch: [Sites](../../manual_admin/administration/Customizing.de.md#sites).
 
-![2](assets/2_green_24.png){ class=" aside-left-lg" }
 
-Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle Lerninhalte innerhalb von Kursen angeboten.
+## Wo die Bereiche beschrieben sind {: #areas}
 
-[Zu den Details >](Courses.de.md)<br>
-[Zum Seitenanfang ^](#sites)
+Sie kennen den Bereich und suchen die Seite, die ihn erklärt. Die Tabelle führt die Bereiche, die dieses Handbuch beschreibt. Sie zeigt nicht, welche Tabs auf einer bestimmten Instanz sichtbar sind. Die Nummer verweist auf die Markierung im Bild oben.
 
+| Nr. im Bild | Bereich | Beschrieben auf |
+|---|---|---|
+| 1 | Portal | [Portal konfigurieren](../basic_concepts/Portal_configuration.de.md) |
+| 2 | Kurse | [Kurse](Courses.de.md) |
+| 3 | Gruppen | [Gruppenverwaltung](Group_Management.de.md) |
+| 4 | Katalog | [Katalog 2.0](catalog2.0.de.md) |
+| 5 | Autorenbereich | [Autorenbereich](Authoring.de.md) |
+| 6 | Fragenpool | [Fragenpool](Question_Bank.de.md) |
+| 7 | Dokumentenpool | [Modul Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md), Administrationshandbuch |
+| 8 | Bibliothek | [Bibliothek](Library.de.md) |
+| 9 | Video Collection | [Video Collection](Video_Collection.de.md) |
+| 10 | Projekte | [Projekte](Project_Overview.de.md) |
+| 11 | Course Planner | [Course Planner](Course_Planner.de.md) |
+| 12 | Benutzerverwaltung | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), Administrationshandbuch |
+| 13 | Coaching | [Coaching](Coaching.de.md) |
+| 14 | Absenzenverwaltung | [Absenzenverwaltung](Absence_Management.de.md) |
+| 15 | Qualitätsmanagement | [Qualitätsmanagement](Quality_Management.de.md) |
+| 16 | Administration | [System](../../manual_admin/administration/System.de.md), Administrationshandbuch |
+| | Portfolio | [Portfolio erstellen](Portfolio.de.md) |
 
-## Gruppen {: #groups}
+Das Portfolio trägt keine Nummer, weil die abgebildete Instanz es nicht anbietet.
 
-![3](assets/3_green_24.png){ class=" aside-left-lg" }
 
-Gruppen können für unterschiedliche Zwecke verwendet werden, z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unabhängige Online-Lernen.
+## Weiterführende Informationen {: #further_information}
 
-[Zu den Details >](Group_Management.de.md)<br>
-[Zum Seitenanfang ^](#sites)
+**Weiterführend**<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
+[Rollen und ihre Arbeitsbereiche >](../basic_concepts/Roles_Home_Areas.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)
 
-
-## Katalog {: #catalog}
-
-![4](assets/4_green_24.png){ class=" aside-left-lg" }
-
-Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies von OpenOlat [Administrator:innen aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Der Katalog erscheint als eigener Menüpunkt. Das gilt sowohl für den [Katalog 1.0](../area_modules/catalog1.0.de.md) als auch für den [Katalog 2.0](../area_modules/catalog2.0.de.md).
-
-[Zu den Details >](catalog2.0.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Autorenbereich {: #authoring}
-
-![5](assets/5_green_24.png){ class=" aside-left-lg" }
-
-In diesem zentralen Bereich finden OpenOlat Autor:innen alles, was zum Erstellen neuer Kurse erforderlich ist.
-
-[Zu den Details >](Authoring.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Fragenpool {: #question_bank}
-
-![6](assets/6_green_24.png){ class=" aside-left-lg" }
-
-Der Fragenpool ist ein Bereich, in dem Test-Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
-
-[Zu den Details >](Question_Bank.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Dokumentenpool
-
-![7](assets/7_green_24.png){ class=" aside-left-lg" }
-
-Der Dokumentenpool ist eine taxonomiebasierte, kursübergreifende Dokumentenverwaltung.
-
-[Zu den Details >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Bibliothek  {: #library}
-
-![8](assets/8_green_24.png){ class=" aside-left-lg" }
-
-In der Bibliothek können unterschiedliche Dokumente (Office-Dokumente, Bild-Dateien, usw.) allen Benutzer:innen zur Verfügung gestellt werden.
-
-[Zu den Details >](Library.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Video Collection  {: #video_collection}
-
-![9](assets/9_green_24.png){ class=" aside-left-lg" }
-
-Die Video Collection ist eine Sammlung aller freigegebenen Video-Lernressourcen Ihrer OpenOlat-Instanz.
-
-[Zu den Details >](Video_Collection.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Projekte  {: #projects}
-
-![10](assets/10_green_24.png){ class=" aside-left-lg" }
-
-Hier finden Sie ein Tool für die kooperative Projekt-Arbeit mit Terminen, ToDos, Entscheid-Doku, gemeinsamen Dokumenten und mehr.
-
-[Zu den Details >](Project_Overview.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Course Planner [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834) {: #course_planner}
-
-![11](assets/11_green_24.png){ class=" aside-left-lg" }
-
-Der Course Planner ist die erweiterte, allgemeine Kursplanung in OpenOlat.
-
-[Zu den Details des Course Planners >](Course_Planner.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-
-## Benutzerverwaltung {: #user_management}
-
-![12](assets/12_green_24.png){ class=" aside-left-lg" }
-
-In der Benutzerverwaltung können neue Benutzer:innen importiert oder angelegt und konfiguriert werden.
-
-[Zu den Details >](../../manual_admin/usermanagement/index.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Coaching  {: #coaching}
-
-![13](assets/13_green_24.png){ class=" aside-left-lg" }
-
-Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewertungen und Aktionen durchzuführen. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md), das innerhalb eines bestimmten Kurses verwendet wird.)
-
-[Zu den Details >](Coaching.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Absenzenverwaltung {: #absence_management}
-
-![14](assets/14_green_24.png){ class=" aside-left-lg" }
-
-Absenzen werden in diesem separaten Modul verwaltet.
-
-[Zu den Details >](Absence_Management.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Qualitätsmanagement {: #quality_management}
-
-![15](assets/15_green_24.png){ class=" aside-left-lg" }
-
-Die Organisation von Befragungen (Datenerhebungen) mit Formularen kann durch ein Zusatzmodul "Qualitätsmanagement" kursübergreifend bewerkstelligt werden.
-
-[Zu den Details >](Quality_Management.de.md)<br>
-[Zum Seitenanfang ^](#sites)
-
-
-## Administration  {: #administration}
-
-![16](assets/16_green_24.png){ class=" aside-left-lg" }
-
-Dieser Menüpunkt wird nur Administrator:innen angezeigt. Mit entsprechendem Recht können hier die Verwaltungs- und Einrichtungsoptionen zur OpenOlat-Instanz aufgerufen werden.
-
-[Zum Administrationshandbuch >](../../manual_admin/administration/System.de.md)<br>
 [Zum Seitenanfang ^](#sites)

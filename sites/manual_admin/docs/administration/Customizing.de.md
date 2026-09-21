@@ -109,6 +109,16 @@ Der Eintrag "Coaching Werkzeug" kann [:octicons-tag-16:{ title="ab Release 21.0.
 
 ![Tab Reihenfolge auf der Seite Sites: die Checkbox Aktiviert der Zeile Coaching Werkzeug ist ausgegraut, die Pfeile Hoch und Runter bleiben nutzbar](assets/admin_customizing_sites_v2_de.png){ class="shadow lightbox" }
 
+Die Liste gilt für die ganze Instanz: Sie bestimmt, welche Tabs die Kopfzeile anbietet und in welcher Reihenfolge. Drei weitere Punkte entscheiden mit darüber, ob eine Person einen Tab sieht.
+
+**Das Modul muss aktiv sein.** Ein Eintrag erscheint nur, wenn zusätzlich das zugehörige Modul eingeschaltet ist. Ein aktivierter Eintrag "Katalog" bleibt ohne Wirkung, solange das [Modul Katalog](Modules_Catalog_2.0.de.md) ausgeschaltet ist.
+
+**Die Spalte "Zugang" entscheidet je Rolle.** Sie bestimmt, welche Rollen den Tab sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb verschiedene Kopfzeilen.
+
+**Der Platz in der Zeile entscheidet über die Darstellung.** Tabs, die nicht mehr in die Kopfzeile passen, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Bildschirmbreite der Betrachterin ab und lässt sich nicht einstellen.
+
+Was die Anwender:innen zu den Bereichen der Kopfzeile im Benutzerhandbuch finden, steht auf der Seite [Bereiche und Module](../../manual_user/area_modules/index.de.md).
+
 
 ### Übrige Tabs
 
@@ -120,6 +130,21 @@ Es können sowohl externe URLs sein, als auch OpenOlat-Lernressourcen (z.B. Kurs
 Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mit "Auswählen" öffnen Sie die Suche nach der referenzierbaren Lernressource. Erst dort verbinden Sie den Tab mit einem Kurs.
 
 ![Dialog Referenzierbare Lernressource suchen: Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#customizing)
+
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
+[Bereiche und Module >](../../manual_user/area_modules/index.de.md)
+
+**Weiterführend**<br>
+[Module: Übersicht >](Modules.de.md)<br>
+[Modul Externe Seite >](Modules_External_Page.de.md)<br>
+[Startseite >](Landing_pages.de.md)
 
 [Zum Seitenanfang ^](#customizing)
 
