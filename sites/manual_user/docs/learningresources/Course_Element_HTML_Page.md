@@ -50,11 +50,12 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
 ## Tab Page content {: #tab_page_content}
 
-Here you carry out the central configuration of this course element. There are three possibilities to embed a page's content in your course:
+Here you carry out the central configuration of this course element. There are several possibilities to embed a page's content in your course:
 
-  * Create new HTML page online
-  * Select any file from the storage folder
-  * Upload an externally created HTML file to the storage folder and link it to the course element
+  * Use "Create" to create a new HTML page online in OpenOlat
+  * Use "Select" to choose an HTML file from the storage folder
+  * Use "Import" to upload an externally created HTML file from your computer
+  * Upload an externally created HTML file to the storage folder and choose it there with "Select"
 
 ![HTML file, security settings and Edit page button in the Page content tab](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
@@ -63,6 +64,16 @@ For **further editing** of HTML pages you can use the OpenOlat Editor. It works 
 Under "**Security settings**" you can specify whether references in your HTML pages are only possible to files in the same folder and to subfolders contained therein, or whether all files in the storage folder can be referenced. This is necessary, for example, if your HTML page contains graphics, CSS files or scripts that are located in other folders.
 
 You can also define **whether coaches are allowed to edit the stored HTML file**. The coaches do not need course owner rights or access to the course editor.
+
+### Replace the content {: #change_content}
+
+The buttons in the [Page content tab](#tab_page_content) also work afterwards. You use them to replace the content of a course element that already shows an HTML page. With "**Select**" you link a different file from the storage folder, with "**Import**" you upload a new file from your computer.
+
+If you upload a ZIP file with "Import", OpenOlat unpacks it and then offers the HTML files it contains for selection. This way you replace an externally created page together with its images, stylesheets and scripts in one step.
+
+!!! info "Important"
+
+    OpenOlat unpacks an imported ZIP file into a new subfolder of the storage folder that carries the name of the ZIP file. If that folder already exists, OpenOlat appends a number to the name. The previous content therefore remains and is not overwritten. Delete the old folders yourself in the [storage folder](../learningresources/Storage_folder.md) if required.
 
 ## Tab Layout {: #layout}
 
@@ -223,7 +234,7 @@ Select whether the link should be displayed in the OpenOlat course content or in
 
 !!! tip "Hint"
 
-    You can also upload externally created files to the **storage folder** of the course or link a **resource folder** to the course and the storage folder. Click on the "Select" link to display all the files in the storage folder. You can then link these files via the "HTML page" course element and integrate them into your course. This method is recommended if you want to influence the structure of the storage folder yourself.
+    You can also upload externally created files to the **storage folder** of the course or link a **resource folder** to the course and the storage folder. Click the "Select" button to display all HTML and PDF files in the storage folder. You can then link these files via the "HTML page" course element and integrate them into your course. This method is recommended if you want to influence the structure of the storage folder yourself.
 
 !!! warning "Attention"
 
