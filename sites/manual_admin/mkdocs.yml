@@ -44,7 +44,7 @@ nav:
       - Module OAI PMH: "administration/Modules_OAI.md"
     - Life cycles:
       - Overview : "administration/Life_cycles_-_Administration.md"
-      - Automatic Group Lifecycle: "administration/Automatic_Group_Lifecycle.md"
+      - Automatic Group Life Cycle: "administration/Automatic_Group_Lifecycle.md"
     - Payment modules:
       - Overview: "administration/Payment_modules.md"
       - Invoice: "administration/Payment_Invoice.md"

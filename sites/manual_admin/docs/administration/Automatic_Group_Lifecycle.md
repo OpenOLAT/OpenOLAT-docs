@@ -1,4 +1,4 @@
-# Automatic Group Lifecycle
+# Automatic Group Life Cycle
 
 The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion.
 
@@ -7,7 +7,7 @@ The group life cycle makes it easy to **automatically** inactivate and then dele
 
 !!! note "Note"
 
-    The process is similar to the lifecycle management of user accounts and courses.
+    The process is similar to the life cycle management of user accounts and courses.
 
 
 

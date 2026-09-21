@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 712 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 713 Begriffe.
 
 ## A
 
@@ -2221,6 +2221,12 @@ Das Dokument, in dem eine bewerbende Person ihr Verständnis von Lehre und ihre 
 Ein Nachweis über die Qualität der bisherigen Lehre, zum Beispiel Ergebnisse von Lehrevaluationen.
 
 *Englisch: Teaching assessment* · *Bereich: Selectus*
+
+### Leistungsklasse
+
+Eine benannte Stufe eines textuellen Bewertungssystems, zum Beispiel Anfänger, Fortgeschritten oder Experte. Statt einer Note erhält eine Person den Namen der Stufe, die sie mit ihrer Punktzahl erreicht.
+
+*Englisch: Performance class* · *Bereich: Bewertung* · [Handbuch](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
 
 ### Leistungsnachweis
 

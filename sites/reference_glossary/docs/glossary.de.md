@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 712 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 713 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -2437,6 +2437,12 @@ Das Durchsehen und Benoten einer abgegebenen Arbeit durch eine Person. Sie ist n
 Der Auftrag an eine korrigierende Person, eine bestimmte Testabgabe von Hand zu benoten, mit Frist und erfasster Korrekturzeit. Er dient dort, wo die Korrektur ausserhalb des Kursteams vergeben und abgerechnet wird.
 
 *Englisch: Grading assignment* · [Handbuch](../manual_user/area_modules/Coaching_Order_Management.de.md)
+
+### Leistungsklasse
+
+Eine benannte Stufe eines textuellen Bewertungssystems, zum Beispiel Anfänger, Fortgeschritten oder Experte. Statt einer Note erhält eine Person den Namen der Stufe, die sie mit ihrer Punktzahl erreicht.
+
+*Englisch: Performance class* · [Handbuch](../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
 
 ### Leistungsübersicht
 

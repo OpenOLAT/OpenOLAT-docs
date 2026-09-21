@@ -42,7 +42,7 @@ den Schnellzugriff aktiviert sind (Voreinstellung).
 
 ## REST API
 
-Neben der Aktivierung der Schnittstelle werden hier auch die extern verwalteten Objekte bestimmt. 
+Neben der Aktivierung der REST API (Representational State Transfer) werden hier auch die extern verwalteten Objekte bestimmt. 
 
 [Zu den Details >](../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
@@ -82,7 +82,7 @@ Hier finden Sie Optionen zu allgemeinen Einstellungen/Konfigurationen betreffend
 
 ## WebDAV
 
-Hier kann der WebDAV-Zugang systemweit eingerichtet und konfiguriert werden.
+Hier kann der WebDAV-Zugang (Web-based Distributed Authoring and Versioning) systemweit eingerichtet und konfiguriert werden.
 
 [Zu den Details >](../administration/WebDAV.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
@@ -124,7 +124,7 @@ Administrator:innen können hier ein sofortiges Senden veranlassen.
 
 ## GUI-Einstellungen
 
-Hier können gespeicherte GUI-Einstellungen zurückgesetzt werden. 
+Hier können gespeicherte GUI-Einstellungen (Graphical User Interface) zurückgesetzt werden. 
 
 [Zum Seitenanfang ^](#core_config)
 

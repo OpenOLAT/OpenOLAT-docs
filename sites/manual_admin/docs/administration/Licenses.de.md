@@ -4,7 +4,7 @@ Lizenzen sind in OpenOlat optional. Administrator:innen konfigurieren sie in der
 System-Administration unter:<br>
 `Administration > Core Konfiguration > Lizenzen`
 
-## Aktivierung von Lizenzbereichen {: #licences_activation}
+## Lizenzen in Bereichen aktivieren {: #licences_activation}
 
 ![Lizenzen in der Core Konfiguration: unter Lizenzen aktivieren in stehen die Bereiche Ordner, Fragenpool und Lernressourcen als Checkboxen, alle drei angewählt](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 

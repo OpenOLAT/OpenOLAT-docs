@@ -105,4 +105,4 @@ Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer 
 
 !!! info "Hinweis"
 
-    "Externes Mitglied" ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer und Kursbesitzer (Rollen, mit denen das ganze Projekt gelöscht werden kann). 
+    "Externes Mitglied" ist keine Rolle. Ein externes Mitglied kann jede Rolle im Projekt erhalten, ausser Besitzer:in. Nur die Besitzer:innen dürfen das ganze Projekt löschen, und dieses Recht bleibt registrierten OpenOlat-Benutzer:innen vorbehalten.

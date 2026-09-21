@@ -4,11 +4,11 @@ Licenses are optional in OpenOlat. Administrators configure them in the system
 administration under:<br>
 `Administration > Core functions > Licenses`
 
-## Activating license sections {: #licences_activation}
+## Activate licenses in areas {: #licences_activation}
 
-![Licenses in the core functions: under Activate licenses in, the sections Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Licenses in the core functions: under Activate licenses in, the areas Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
-Licenses can be used in the following OpenOlat sections:
+Licenses can be used in the following OpenOlat areas:
 
   * Folder
   * Question pool
@@ -16,7 +16,7 @@ Licenses can be used in the following OpenOlat sections:
   * Media Center
 
 Under "Activate licenses in" the licenses are activated or deactivated for
-these sections. After each change, OpenOlat reminds you to start the full text
+these areas. After each change, OpenOlat reminds you to start the full text
 search indexer so that the licenses are shown correctly in the search results.
 
 [To the top of the page ^](#licences)

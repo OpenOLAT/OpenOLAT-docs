@@ -8,7 +8,7 @@ The following life cycles can be administered in this section:
 
 ## Groups {: #lifecycle_groups}
 
-In OpenOlat Administration, settings for the [group lifecycle](Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
+In OpenOlat Administration, settings for the [group life cycle](Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
 
 * Inactivation
 * Deletion
@@ -16,9 +16,9 @@ In OpenOlat Administration, settings for the [group lifecycle](Automatic_Group_L
 
 Settings can be made both for groups in general and only for certain group types. 
 
-!!! info "Group lifecycle — Details"
-    Steps and settings for the automatic group lifecycle.<br>
-    [Group lifecycle](Automatic_Group_Lifecycle.md)
+!!! info "Group life cycle: Details"
+    Steps and settings for the automatic group life cycle.<br>
+    [Group life cycle](Automatic_Group_Lifecycle.md)
 
 [To the top of the page ^](#lifecycles)
 
@@ -102,7 +102,7 @@ An account with the status "Active and not deletable" is excluded from deletion 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Group lifecycle >](Automatic_Group_Lifecycle.md)<br>
+[Group life cycle >](Automatic_Group_Lifecycle.md)<br>
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>

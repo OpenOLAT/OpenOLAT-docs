@@ -47,7 +47,7 @@ Personen mit der **Rolle Gruppenverwalter:in** verfügen im Menü "Gruppen" zus�
 
 Hier sehen Gruppenverwalter:innen zusätzlich alle veröffentlichten und privaten Gruppen des Systems und können diese Gruppen im selben Umfang verwalten, wie Gruppenbetreuer:innen ihre eigenen Gruppen.
 
-Gruppenverwalter:innen können zudem Gruppen ohne Mitglieder und Kursanbindung finden und löschen. Auch haben sie Zugriff auf den Lebenszyklus der Gruppen und können den Löschprozess starten oder Gruppen reaktivieren. Mehr Informationen zum automatischen Gruppenlebenszyklus finden Sie im [Administrationshandbuch](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md).
+Gruppenverwalter:innen können zudem Gruppen ohne Mitglieder und Kursanbindung finden und löschen. Auch haben sie Zugriff auf den Lebenszyklus der Gruppen und können den Löschprozess starten oder Gruppen reaktivieren. Mehr Informationen zum automatischen Gruppen-Lebenszyklus finden Sie im [Administrationshandbuch](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md).
 
 Darüber hinaus können Gruppenverwalter:innen auch die Quota des Werkzeugs "Ordner" einer Gruppe ändern.
 
@@ -60,6 +60,6 @@ Darüber hinaus können Gruppenverwalter:innen auch die Quota des Werkzeugs "Ord
 
 ## Weiterführende Informationen {: #further_information}
 
-[Automatischer Gruppenlebenszyklus (Administrationshandbuch) >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
+[Automatischer Gruppen-Lebenszyklus (Administrationshandbuch) >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
 
 [Zum Seitenanfang ^](#group_management)

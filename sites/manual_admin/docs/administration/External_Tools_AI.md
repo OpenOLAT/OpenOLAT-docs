@@ -126,7 +126,7 @@ For each AI feature you additionally define how much text is sent to the model, 
 
 The default values per feature:
 
-| AI feature | Input limit | Maximum output tokens | Timeout (seconds) |
+| AI feature | Maximum input characters / input words | Maximum output tokens | Timeout (seconds) |
 |---|---|---|---|
 | MC Question Generator | 60000 input characters | 16384 | 180 |
 | Image Description Generator | none | 8192 | 180 |
@@ -168,7 +168,7 @@ The "Usage log" records every AI call on the instance, making it traceable which
 The following are available for analysis:
 
 * **Time range**: "This month" (preselected), "Last month", "This year", "Last year" as well as "Custom" for an own time range.
-* **Filters** for "AI feature" and "Status".
+* **Search filters** for the columns "AI feature" and "Status".
 * **Download** of the filtered table as an Excel file.
 
 The "Total tokens" widget above the table shows the sum of all tokens in the selected time range.

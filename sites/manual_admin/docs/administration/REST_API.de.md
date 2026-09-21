@@ -26,7 +26,7 @@ Für den Zugriff auf die REST-API steht ein dedizierter API-Schlüssel zur Verf�
 
 Der API-Schlüssel wird wie das OpenOlat-Passwort verschlüsselt gespeichert. Er wird nur einmal bei der Erzeugung angezeigt und kann danach nicht erneut abgerufen werden. Geht der Schlüssel verloren, muss er gelöscht und ein neuer erzeugt werden.
 
-Der API-Schlüssel kann nicht zur Anmeldung in der OpenOlat-Webanwendung verwendet werden; er ist ausschliesslich für den Zugriff auf die REST-API gültig. Unabhängig davon bleibt der Zugriff über eine gültige Sitzung möglich, etwa um per JavaScript auf die Kursdatenbank zuzugreifen.
+Der API-Schlüssel kann nicht zur Anmeldung in der OpenOlat-Webanwendung verwendet werden; er ist ausschliesslich für den Zugriff auf die REST-API gültig. Unabhängig davon bleibt der Zugriff über eine gültige Sitzung (Session) möglich, etwa um per JavaScript auf die Kursdatenbank zuzugreifen.
 
 API-Schlüssel werden in der Benutzerverwaltung erzeugt: In den Authentifizierungen einer Person steht dazu die Schaltfläche "API-Key hinzufügen" zur Verfügung. Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, aktivieren Sie in der REST-Konfiguration die Option "Erzeugen von API Key durch Benutzer:in" (standardmässig deaktiviert).
 
@@ -57,7 +57,7 @@ Das OpenOlat REST API wurde im Sinne von externen Verwaltungsapplikationen entwi
 
 Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Erstellen und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Lehrgängen (Produkte) oder Kalenderereignissen (Events).
 
-Das REST API ist allerdings nicht in der Lage Anwesenheitskontrollen durchzuführen oder spezifische Einstellungen zu ändern.
+Das REST API ist allerdings nicht in der Lage, Anwesenheitskontrollen (Roll Call) durchzuführen oder spezifische Einstellungen zu ändern.
 
 Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts, das API für eine alternative Benutzeroberfläche zu verwenden.
 

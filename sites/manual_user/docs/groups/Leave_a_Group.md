@@ -49,7 +49,7 @@ If you want to **remove the person from several groups** at the same time, you c
 ---
 
 
-## End group membership by group lifecycle {: #removed_by_grouplifecycle}
+## End group membership by group life cycle {: #removed_by_grouplifecycle}
 
 If a group life cycle has been set up, groups can be deactivated and then deleted in a further step. 
 

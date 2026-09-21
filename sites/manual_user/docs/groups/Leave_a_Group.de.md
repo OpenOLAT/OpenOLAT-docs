@@ -45,9 +45,9 @@ Möchten Sie die Person gleichzeitig **aus mehreren Gruppen entfernen**, können
 
 ---
 
-## Gruppenmitgliedschaft durch den Gruppenlebenszyklus beenden {: #removed_by_grouplifecycle}
+## Gruppenmitgliedschaft durch den Gruppen-Lebenszyklus beenden {: #removed_by_grouplifecycle}
 
-Wurde ein Gruppenlebenszyklus eingerichtet, können damit Gruppen inaktiviert und dann in einem weiteren Schritt gelöscht werden. 
+Wurde ein Gruppen-Lebenszyklus eingerichtet, können damit Gruppen inaktiviert und dann in einem weiteren Schritt gelöscht werden. 
 
 Auf **inaktivierte Gruppen** können die Gruppenmitglieder nur noch im Lesemodus zugreifen. Sie sind aber weiterhin als Gruppenmitglieder eingetragen.
 

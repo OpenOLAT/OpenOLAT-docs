@@ -175,7 +175,7 @@ administrators can search specifically for large files and view further details 
 In OpenOlat, lifecycle management can be enabled for.
 
 * **course lifecycle**
-* **group lifecycle**
+* **group life cycle**
 * **user lifecycle**
 
 OpenOlat monitors whether an object has not been used for a long time or a user has not been active for a long time. According to predefined criteria, it sends a message that first enables a reaction and then, for example, manual deletion. Or OpenOlat deletes if necessary also automatically according to set criteria.

@@ -173,7 +173,7 @@ Weitere Informationen finden Sie im separaten Kapitel [Automatischer Gruppen-Leb
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
 [Gruppenmitglied werden >](Group_Membership.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Automatischer Gruppenlebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
+[Automatischer Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
 
 [Zum Seitenanfang ^](#group_administration)
 

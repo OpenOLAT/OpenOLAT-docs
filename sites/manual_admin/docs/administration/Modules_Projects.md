@@ -99,4 +99,4 @@ If people who are not registered as users in OpenOlat are also to work on the pr
 
 !!! info "Note"
 
-    "External member" is not a role. An external member can have all roles except owner and course owner (roles that can be used to delete the entire project).
+    "External member" is not a role. An external member can have every role in the project except owner. Only owners may delete the entire project, and this right stays reserved for registered OpenOlat users.

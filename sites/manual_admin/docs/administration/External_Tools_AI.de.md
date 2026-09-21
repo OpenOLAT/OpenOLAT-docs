@@ -130,7 +130,7 @@ Pro KI Funktion legen Sie zusätzlich fest, wie viel Text an das Modell gesendet
 
 Die Standardwerte je Funktion:
 
-| KI Funktion | Eingabegrenze | Maximale Anzahl Ausgabe-Tokens | Timeout (Sekunden) |
+| KI Funktion | Maximale Anzahl Eingabezeichen / Eingabewörter | Maximale Anzahl Ausgabe-Tokens | Timeout (Sekunden) |
 |---|---|---|---|
 | MC Fragen Generator | 60000 Eingabezeichen | 16384 | 180 |
 | Bildbeschreibungs-Generator | keine | 8192 | 180 |
@@ -173,7 +173,7 @@ Das "Nutzungsprotokoll" zeichnet jeden KI-Aufruf der Instanz auf und macht so na
 Zur Auswertung stehen zur Verfügung:
 
 * **Zeitbereich**: "Dieser Monat" (Vorauswahl), "Letzter Monat", "Dieses Jahr", "Letztes Jahr" sowie "Individuell" für eine eigene Zeitspanne.
-* **Filter** für "KI Funktion" und "Status".
+* **Suchfilter** für die Spalten "KI Funktion" und "Status".
 * **Download** der gefilterten Tabelle als Excel-Datei.
 
 Das Widget "Tokens Total" über der Tabelle zeigt die Summe aller Tokens im gewählten Zeitbereich.

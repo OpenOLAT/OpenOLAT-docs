@@ -77,7 +77,7 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
   * [Members management](../../manual_user/learningresources/Members_management.md#add_members): in the last step of the wizard "Add members" you formulate the email to the new members, likewise with variables.
   * [e-Assessment Administration: Test](e-Assessment_Test.md#tab_correction-workflow): system-wide pre-formulated texts for the emails to the people involved in the correction workflow, in several languages.
   * [Life cycles: Account](Life_cycles_-_Administration.md#lifecycle_accounts): notifications before and after account expiry, deactivation and deletion, each step separately formulated.
-  * [Automatic Group Lifecycle](Automatic_Group_Lifecycle.md): notifications before and after the inactivation as well as before and after the deletion of a group.
+  * [Automatic Group Life Cycle](Automatic_Group_Lifecycle.md): notifications before and after the inactivation as well as before and after the deletion of a group.
 
 ### Texts of the system emails {: #system_mails}
 
@@ -136,7 +136,7 @@ The recommended setting:
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
 [e-Assessment Administration: Test >](e-Assessment_Test.md)<br>
 [Life cycles - Overview >](Life_cycles_-_Administration.md)<br>
-[Automatic Group Lifecycle >](Automatic_Group_Lifecycle.md)<br>
+[Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
 [Profile >](../../manual_user/personal_menu/Profile.md)
 

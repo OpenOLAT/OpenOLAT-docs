@@ -157,7 +157,7 @@ The status of the group and other information are displayed here. Furthermore, t
 
 ![Confirmation dialog for starting the inactivation in the Group life cycle tab](assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
 
-For more information, see the separate chapter [Automatic Group Lifecycle](../../manual_admin/administration/Automatic_Group_Lifecycle.md) in the Administration Manual.
+For more information, see the separate chapter [Automatic Group Life Cycle](../../manual_admin/administration/Automatic_Group_Lifecycle.md) in the Administration Manual.
 
 ## Further information {: #further_information}
 
@@ -172,6 +172,6 @@ For more information, see the separate chapter [Automatic Group Lifecycle](../..
 [Using Group Tools >](Using_Group_Tools.md)<br>
 [Become a group member >](Group_Membership.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Automatic Group Lifecycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+[Automatic Group Life Cycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
 
 [To the top of the page ^](#group_administration)

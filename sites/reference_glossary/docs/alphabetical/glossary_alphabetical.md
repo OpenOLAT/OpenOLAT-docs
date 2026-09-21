@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 712 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 713 terms.
 
 ## A
 
@@ -2781,6 +2781,12 @@ A person's memberships in implementations that need approval by a line manager o
 The area of the coaching site that lists all participants a person coaches across all courses, grouped by the role one holds towards them. From there one click leads to the person's assessment tool.
 
 *German: Personen* · *Domain: Coaching* · [Manual](../../manual_user/area_modules/Coaching_People.md)
+
+### Performance class
+
+A named level of a textual grading system, for example Beginner, Advanced or Expert. Instead of a grade, a person receives the name of the level their score reaches.
+
+*German: Leistungsklasse* · *Domain: Assessment* · [Manual](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
 ### Performance summary
 

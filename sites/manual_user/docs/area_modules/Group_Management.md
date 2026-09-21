@@ -60,6 +60,6 @@ In addition, group managers can also change the quota of the "Folder" tool of a 
 
 ## Further information {: #further_information}
 
-[Automatic Group Lifecycle (administration manual) >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+[Automatic Group Life Cycle (administration manual) >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
 
 [To the top of the page ^](#group_management)

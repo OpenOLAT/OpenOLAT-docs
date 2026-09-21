@@ -19,9 +19,11 @@ Folgende Einstellungen können Systemadministrator:innen vornehmen, um die Bewer
 
 ### Numerischer Typ
 
-Numerische Bewertungssysteme lassen sich in der Auflösung (Ganze, Halbe, Viertel, Zehntel) und in der Rundung anpassen. OpenOlat berechnet die Leistungsklassen aus der eingegebenen maximalen Punktzahl und der Grenze "Bestanden mit". Daraus ergibt sich die Bewertungsskala.
+Numerische Bewertungssysteme lassen sich in der Auflösung (Ganze, Halbe, Viertel, Zehntel) und in der Rundung anpassen. Die niedrigste und die höchste Bewertung legen fest, welche Noten es in diesem System gibt. Die Grenze "Bestanden mit" bestimmt, ab welcher Note eine Leistung als bestanden gilt. Daraus ergibt sich die Bewertungsskala.
 
 ### Textueller Typ
+
+Eine Leistungsklasse ist eine benannte Stufe eines Bewertungssystems, zum Beispiel "Anfänger", "Fortgeschritten" oder "Experte". Statt einer Note erhält eine Person den Namen der Stufe, die sie mit ihrer Punktzahl erreicht.
 
 Bei textuellen Bewertungssystemen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die Punkte Untergrenze je Leistungsklasse bestimmen dann die Rahmenbedingungen der Bewertungsskala.
 

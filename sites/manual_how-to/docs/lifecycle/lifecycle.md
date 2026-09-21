@@ -59,9 +59,9 @@ Based on these **general** presets, life cycles can then be activated **for indi
 ---
 
 
-## Group lifecycle {: #group_lifestyle}
+## Group life cycle {: #group_lifestyle}
 
-The group lifecycle is managed by group administrators in the menu **Groups > tab "Group management"**<br>
+The group life cycle is managed by group administrators in the menu **Groups > tab "Group management"**<br>
 (based on the administrator's preferences).
 
 In the menu **"Groups" > tab "Group management"** click on the big arrows with the description of the steps. The descriptions on the arrows reflect the administrator's default settings.
@@ -172,7 +172,7 @@ It can be configured so that owners are notified of status changes.
 
 ## Checklist {: #checklist}
 
-**Group lifecycle**
+**Group life cycle**
 
 - [x] By administrators: general activation/configuration at **Administration > Lifecycle > Groups**
 - [x] By group managers: settings at **menu "Groups" > tab "Group management"**
@@ -199,7 +199,7 @@ It can be configured so that owners are notified of status changes.
 [Configure user >](../../manual_admin/usermanagement/Configure_User.md)
 
 **Further reading**<br>
-[Group lifecycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)<br>
+[Group life cycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)<br>
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)
 
 [To the top of the page ^](#lifecycles)

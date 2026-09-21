@@ -1,8 +1,8 @@
-# Automatischer Gruppenlebenszyklus
+# Automatischer Gruppen-Lebenszyklus
 
-Der Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung.
+Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung.
 
-![Fünf Schritte des Gruppenlebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
+![Fünf Schritte des Gruppen-Lebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
 
 
 !!! note "Hinweis"
@@ -30,7 +30,7 @@ Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die Admi
 
 ## Konfiguration
 
-Administrator:innen können den Verlauf des Gruppenlebenszyklus in der System-Administration konfigurieren unter:<br>
+Administrator:innen können den Verlauf des Gruppen-Lebenszyklus in der System-Administration konfigurieren unter:<br>
 `Administration > Lebenszyklen > Gruppen`
 
 ![Menüpunkt Gruppen unter Lebenszyklen markiert, rechts die Statuspfeile und der erste Konfigurationsabschnitt, System-Administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
@@ -87,9 +87,9 @@ Die vier Beispiele zeigen den Statuswechsel automatisch oder manuell, jeweils oh
 
 
 
-## Ausschluss einer Gruppe vom Gruppenlebenszyklus [:octicons-tag-16:{ title="ab Release 17.1 (OO-5887)" }](https://track.frentix.com/issue/OO-5887)
+## Ausschluss einer Gruppe vom Gruppen-Lebenszyklus [:octicons-tag-16:{ title="ab Release 17.1 (OO-5887)" }](https://track.frentix.com/issue/OO-5887)
 
-Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen Methoden explizit auszuschliessen. Das heisst, dass alle Aktionen im Gruppenlebenszyklus manuell angestossen werden müssen. Sie finden die Option unter:<br>
+Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen Methoden explizit auszuschliessen. Das heisst, dass alle Aktionen im Gruppen-Lebenszyklus manuell angestossen werden müssen. Sie finden die Option unter:<br>
 `Gruppe > Administration > Gruppen-Lebenszyklus`
 
 ![Markierte Checkbox Von den automatischen Methoden ausschliessen, darunter Status und Inaktivierungstermin, Tab Gruppen-Lebenszyklus](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }

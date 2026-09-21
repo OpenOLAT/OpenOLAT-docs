@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 712 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 713 terms.
 
 ## Catalogue, booking and payment
 
@@ -2479,6 +2479,12 @@ A named system of grade values, for example the Swiss scale from 1 to 6. It sets
 The module where the grading systems and their scales are maintained. It sets which grades exist and from which score a grade is reached.
 
 *German: Einstufung/Noten* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
+
+### Performance class
+
+A named level of a textual grading system, for example Beginner, Advanced or Expert. Instead of a grade, a person receives the name of the level their score reaches.
+
+*German: Leistungsklasse* · [Manual](../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
 ### Performance summary
 

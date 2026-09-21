@@ -37,7 +37,7 @@ Here administrators can set which OpenOlat [tools](../../manual_user/personal_me
 
 ## REST API
 
-Besides activating the interface, the externally managed objects are also determined here.
+Besides activating the REST API (Representational State Transfer), the externally managed objects are also determined here.
 
 [To the details >](../administration/REST_API.md)<br>
 [To the top of the page ^](#core_config)
@@ -74,7 +74,7 @@ Here you will find options for general settings/configurations relating to files
 
 ## WebDAV
 
-WebDAV access can be set up and configured system-wide here.
+WebDAV access (Web-based Distributed Authoring and Versioning) can be set up and configured system-wide here.
 
 [See the details >](../administration/WebDAV.md)<br>
 [To the top of the page ^](#core_config)
@@ -111,7 +111,7 @@ Administrators can arrange for them to be sent immediately.
 
 ## GUI settings
 
-Stored GUI settings can be reset here.
+Stored GUI settings (Graphical User Interface) can be reset here.
 
 [To the top of the page ^](#core_config)
 
