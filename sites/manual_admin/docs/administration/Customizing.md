@@ -1,4 +1,4 @@
-# Customizing
+# Customizing: Overview {: #customizing}
 
 ![Customizing menu in system administration with eight areas: representation and layout, imprint, help, language adaptation tool, system registration, portal, user properties and sites](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
@@ -103,6 +103,16 @@ The "Coaching tool" entry cannot be deactivated [:octicons-tag-16:{ title="from 
 
 ![Order tab on the Sites page: the Enabled checkbox of the Coaching tool row is greyed out, the Up and Down arrows remain usable](assets/admin_customizing_sites_v2_en.png){ class="shadow lightbox" }
 
+The list applies to the whole instance: it determines which tabs the header offers and in which order. Three further points decide together whether a person sees a tab.
+
+**The module must be active.** An entry only appears if the corresponding module is switched on as well. An activated "Catalog" entry has no effect as long as the [Module Catalog](Modules_Catalog_2.0.md) is switched off.
+
+**The "Access" column decides per role.** It determines which roles see the tab, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see different headers.
+
+**The space in the bar decides the presentation.** Tabs that no longer fit into the header are collected by OpenOlat in the "More" menu on the right. This depends on the screen width of the viewer and cannot be configured.
+
+What the users find about the areas of the header in the user manual is on the page [Areas and modules](../../manual_user/area_modules/index.md).
+
 ### Other tabs
 
 In the other tabs, you can add custom information pages that can be accessed via the main menu in the header. 
@@ -113,5 +123,20 @@ These can be external URLs as well as OpenOlat learning resources (e.g., courses
 For each language you store a separate title and a separate learning resource. With "Select" you open the search for the referenceable learning resource. There you connect the tab with a course.
 
 ![Search for referenceable learning resources dialog: select the course from the list, or use Create and Import file to add a new learning resource instead](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#customizing)
+
+
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Module Catalog >](Modules_Catalog_2.0.md)<br>
+[Areas and modules >](../../manual_user/area_modules/index.md)
+
+**Further**<br>
+[Modules: Overview >](Modules.md)<br>
+[Module External page >](Modules_External_Page.md)<br>
+[Landing pages >](Landing_pages.md)
 
 [To the top of the page ^](#customizing)
