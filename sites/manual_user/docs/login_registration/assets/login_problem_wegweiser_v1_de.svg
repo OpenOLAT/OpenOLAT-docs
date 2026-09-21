@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="Wegweiser bei sechs Anmeldeproblemen in OpenOlat: Wege, die Sie zuerst selbst versuchen können, und danach Ihre Organisation als zuständige Stelle">
+  <rect x="0" y="0" width="1000" height="700" rx="0" fill="#F3F4EF"/>
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Ich komme nicht in OpenOlat hinein</text>
+  <text x="30" y="68" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#2D2926">Haben Sie diese Wege bereits versucht? Welche davon es gibt, legt Ihre Organisation fest.</text>
+  <text x="30" y="94" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#A6A6A6">IHR FALL</text>
+  <text x="340" y="94" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#A6A6A6">ZUERST VERSUCHEN</text>
+  <text x="640" y="94" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#A6A6A6">WENN DAS NICHT HILFT</text>
+  <rect x="340" y="106" width="250" height="452" rx="8" fill="#FFFFFF" stroke="#B2CF42" stroke-width="2.5"/>
+  <rect x="30" y="106" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="131" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Passwort vergessen</text>
+  <text x="46" y="152" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Sie kennen Ihr Passwort nicht mehr</text>
+  <text x="356" y="131" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">«Passwort vergessen?» starten,</text>
+  <text x="356" y="152" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">falls Ihre Login-Seite den Link zeigt</text>
+  <path d="M290 137 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,137 326,131 326,143" fill="#A6A6A6"/>
+  <rect x="30" y="184" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="209" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Keine E-Mail mit Code</text>
+  <text x="46" y="230" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Der Validierungscode kommt nicht an</text>
+  <text x="356" y="209" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">«Validierungscode erneut senden»</text>
+  <text x="356" y="230" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">und Spam-Ordner prüfen</text>
+  <path d="M290 215 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,215 326,209 326,221" fill="#A6A6A6"/>
+  <rect x="30" y="262" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="287" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Keine Zugangsdaten</text>
+  <text x="46" y="308" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Sie haben nie ein Konto erhalten</text>
+  <text x="356" y="287" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">«Hier registrieren» nutzen,</text>
+  <text x="356" y="308" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">falls Ihre Login-Seite den Link zeigt</text>
+  <path d="M290 293 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,293 326,287 326,299" fill="#A6A6A6"/>
+  <rect x="30" y="340" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="365" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Anmeldung scheitert</text>
+  <text x="46" y="386" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Seite «Authentifizierung nicht erfolgreich»</text>
+  <text x="356" y="365" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">Meldung auf der Fehlerseite lesen,</text>
+  <text x="356" y="386" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">die Tabelle auf der Seite nennt den Weg</text>
+  <path d="M290 371 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,371 326,365 326,377" fill="#A6A6A6"/>
+  <rect x="30" y="418" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="443" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Konto gesperrt oder neu</text>
+  <text x="46" y="464" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Meldung «deaktiviert» oder «nicht aktiviert»</text>
+  <text x="356" y="443" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">Kein Weg zum Selbstlösen,</text>
+  <text x="356" y="464" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">direkt an Ihre Organisation</text>
+  <path d="M290 449 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,449 326,443 326,455" fill="#A6A6A6"/>
+  <rect x="30" y="496" width="260" height="62" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+  <text x="46" y="521" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Anmeldename oder Passwort falsch</text>
+  <text x="46" y="542" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">Die Eingabe wird abgelehnt</text>
+  <text x="356" y="521" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" fill="#135E5F">Anmeldenamen prüfen, er ist nicht</text>
+  <text x="356" y="542" font-family="'Roboto', sans-serif" font-size="12" font-weight="400" fill="#2D2926">zwingend Ihre E-Mail-Adresse</text>
+  <path d="M290 527 H332" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="338,527 326,521 326,533" fill="#A6A6A6"/>
+  <path d="M590 332 H630" stroke="#135E5F" stroke-width="3" fill="none"/>
+  <polygon points="640,332 626,325 626,339" fill="#135E5F"/>
+  <rect x="640" y="106" width="330" height="452" rx="10" fill="#135E5F"/>
+  <text x="660" y="144" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Ihre Organisation</text>
+  <text x="660" y="176" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">Das ist die Stelle, die Ihnen den Zugang</text>
+  <text x="660" y="197" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">zu OpenOlat gegeben hat:</text>
+  <text x="660" y="228" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#B2CF42">Ihre Schule, Hochschule oder Unternehmung</text>
+  <text x="660" y="251" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#B2CF42">Ihre Verwaltung, Ihr Weiterbildungsanbieter</text>
+  <text x="660" y="274" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#B2CF42">Ihre IT- oder Studienadministration</text>
+  <line x1="660" y1="300" x2="950" y2="300" stroke="#209D9E" stroke-width="1.5"/>
+  <text x="660" y="330" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#F2AF40">Nicht frentix, nicht dieses Handbuch.</text>
+  <text x="660" y="358" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">Ihre Organisation entscheidet, welche Wege</text>
+  <text x="660" y="379" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">es gibt. Solange Sie nicht hineinkommen,</text>
+  <text x="660" y="400" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">kann nur sie Ihnen ein Konto einrichten,</text>
+  <text x="660" y="421" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">es entsperren oder Ihre E-Mail-Adresse</text>
+  <text x="660" y="442" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">ändern.</text>
+  <text x="660" y="478" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Wie Sie sie erreichen, weiss nur sie selbst.</text>
+  <text x="660" y="502" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">Prüfen Sie «Brauchen Sie Hilfe?» und den</text>
+  <text x="660" y="523" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">Seitenfuss der Login-Seite: dort kann sie</text>
+  <text x="660" y="544" font-family="'Roboto', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF">ihre Kontaktangaben hinterlegen.</text>
+  <text x="30" y="610" font-family="'Roboto', sans-serif" font-size="12.5" font-weight="400" fill="#2D2926">Die Login-Seite sieht bei jeder Organisation anders aus. Fehlt ein Link auf Ihrer Login-Seite, gibt es diesen Weg bei Ihnen nicht.</text>
+  <text x="30" y="640" font-family="'Roboto', sans-serif" font-size="11" font-weight="400" fill="#A6A6A6">OpenOlat Handbuch, Login und Registrierung</text>
+</svg>
