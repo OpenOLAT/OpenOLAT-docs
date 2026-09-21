@@ -55,9 +55,9 @@ In Kombination mit der Erzeugung der Schlüssel ausschliesslich durch die Benutz
 
 Das OpenOlat REST API wurde im Sinne von externen Verwaltungsapplikationen entwickelt. Es beinhaltet nicht alle Funktionen, die in der Benutzeroberfläche vorhanden sind und viele Anfragen sind limitiert auf administrative Benutzer so wie Admin, Benutzer- oder Gruppenverwalter und Autoren.
 
-Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Erstellen und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Lehrgängen (Produkte) oder Kalenderereignissen (Events).
+Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Erstellen und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Produkten (curriculum) oder Kalenderereignissen (Events).
 
-Das REST API ist allerdings nicht in der Lage, Anwesenheitskontrollen (Roll Call) durchzuführen oder spezifische Einstellungen zu ändern.
+Anwesenheitskontrollen (Roll Call) liest das REST API, durchführen kann es sie nicht: Anwesend oder abwesend lässt sich für eine Person darüber nicht setzen. Änderbar sind das Benachrichtigungsdatum an die Aufsicht, der Kommentar und der Grund.
 
 Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts, das API für eine alternative Benutzeroberfläche zu verwenden.
 

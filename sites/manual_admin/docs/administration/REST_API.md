@@ -54,9 +54,9 @@ Combined with generating the keys exclusively through the user management, this 
 
 The OpenOlat REST API has been developed with remote management applications in mind. It does not implement all features available in the user interface and many of the requests are limited to administrative users such as admin, user- or group managers and authors.
 
-Some of the main abilities of the OpenOlat REST API are capable to create and organize users, courses, groups, organisations, curricula or calendar events for example.
+Some of the main abilities of the OpenOlat REST API are capable to create and organize users, courses, groups, organisations, products (curriculum) or calendar events for example.
 
-The REST API is however not able to execute roll calls or to edit specific settings.
+The REST API reads roll calls, but it cannot execute them: you cannot set a person as present or absent through it. What you can change is the supervisor notification date, the comment and the reason.
 
 While theoretically possible, it is not meant as an API to implement an alternative user interface for end users. Keep this in mind when using the API.
 
