@@ -3144,6 +3144,12 @@ Die Felder eines Kontos wie Vorname, E-Mail oder Institution. Die Administration
 
 *Englisch: User Properties* · [Handbuch](../manual_admin/administration/Customizing.de.md)
 
+### Benutzerverwaltung
+
+Der Bereich zum Anlegen, Suchen, Bearbeiten, Importieren und Löschen von Konten sowie zum Vergeben der Rollen.
+
+*Englisch: User management* · [Handbuch](../manual_admin/usermanagement/index.de.md)
+
 ### Bereich (Plattform)
 
 Ein Eintrag der Hauptnavigation in der obersten Zeile, zum Beispiel Kurse, Gruppen, Katalog oder Coaching. Ob eine Person einen Bereich sieht, entscheiden das Modul, die Freischaltung in der Administration und die Rolle. Was nicht in die Zeile passt, sammelt OpenOlat im Menü Mehr.
@@ -3383,12 +3389,6 @@ Das Fragezeichen-Symbol auf Seiten und in Formularen, das die passende Seite des
 Der Zugang einer Person zu OpenOlat, mit Anmeldename, Profilangaben, Rollen und Organisationszugehörigkeit. Im Deutschen heisst dieses Objekt Konto und nicht Benutzer:in, weil die gegenderte Form im Text unlesbar wird.
 
 *Englisch: Account* · [Handbuch](../manual_admin/usermanagement/Configure_User.de.md)
-
-### Kontoverwaltung
-
-Der Bereich zum Anlegen, Suchen, Bearbeiten, Importieren und Löschen von Konten sowie zum Vergeben der Rollen.
-
-*Englisch: User management* · [Handbuch](../manual_admin/usermanagement/index.de.md)
 
 ### Kurse (Plattform)
 

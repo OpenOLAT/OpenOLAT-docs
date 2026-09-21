@@ -4092,7 +4092,7 @@ Organisation role. The base role of every account, also called the home base. It
 
 The area for creating, searching, editing, importing and deleting accounts and for granting the roles.
 
-*German: Kontoverwaltung* · *Domain: Platform* · [Manual](../../manual_admin/usermanagement/index.md)
+*German: Benutzerverwaltung* · *Domain: Platform* · [Manual](../../manual_admin/usermanagement/index.md)
 
 ### User manager
 

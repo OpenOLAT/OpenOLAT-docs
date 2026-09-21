@@ -3592,7 +3592,7 @@ The human behind an account. The term stands wherever the person is meant and no
 
 The area for creating, searching, editing, importing and deleting accounts and for granting the roles.
 
-*German: Kontoverwaltung* · [Manual](../manual_admin/usermanagement/index.md)
+*German: Benutzerverwaltung* · [Manual](../manual_admin/usermanagement/index.md)
 
 ### User Properties
 
