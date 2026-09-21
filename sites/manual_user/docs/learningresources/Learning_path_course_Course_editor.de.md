@@ -119,7 +119,7 @@ Kalender | Kursbaustein öffnen
 Linkliste | Kursbaustein öffnen
 Livestream | Kursbaustein öffnen
 LTI-Seite | Bestätigung durch Benutzer:in
-Mediasite | Bestätigung durch Benutzer:in
+MediaSite | Bestätigung durch Benutzer:in
 Microsoft Teams | Kursbaustein öffnen
 Mitteilungen | Kursbaustein öffnen
 Opencast | Kursbaustein öffnen

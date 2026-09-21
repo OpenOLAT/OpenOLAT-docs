@@ -27,7 +27,7 @@ The following course elements serve in particular to provide and structure cours
 * [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.md)
 * [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.md)
 * [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.md)
-* [:octicons-arrow-right-24: Mediasite](Course_Element_Mediasite.md)
+* [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.md)
 * [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.md)
 * [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.md)
 

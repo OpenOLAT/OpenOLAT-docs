@@ -95,6 +95,6 @@ Furthermore, videos are possible as an attachment to a forum posting or a notifi
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
 [Course Element "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.md)<br>
 [Course Element "Podcast" >](../learningresources/Course_Element_Podcast.md)<br>
-[Course Element "Mediasite" >](../learningresources/Course_Element_Mediasite.md)
+[Course Element "MediaSite" >](../learningresources/Course_Element_Mediasite.md)
 
 [To the top of the page ^](#overview)

@@ -79,9 +79,9 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
   * [Lebenszyklen: Konto](Life_cycles_-_Administration.de.md#lifecycle_accounts): Benachrichtigungen vor und nach Kontoablauf, Deaktivierung und Löschung, je Schritt einzeln formulierbar.
   * [Automatischer Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md): Benachrichtigungen vor und nach der Inaktivierung sowie vor und nach der Löschung einer Gruppe.
 
-### Texte der System-Mails {: #system_mails}
+### Texte der System-E-Mail-Vorlagen {: #system_mails}
 
-Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Für diese System-Mails gibt es kein Textfeld in der System-Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
+Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Den Text dieser E-Mails legt eine System-E-Mail-Vorlage fest. Für diese Vorlagen gibt es kein Textfeld in der System-Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
 
 Anpassen lässt sich der Text mit dem Sprachanpassungswerkzeug in der System-Administration unter:<br>
 `Administration > Customizing > Sprachanpassungswerkzeug`

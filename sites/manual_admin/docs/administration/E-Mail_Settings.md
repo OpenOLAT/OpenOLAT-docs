@@ -79,9 +79,9 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
   * [Life cycles: Account](Life_cycles_-_Administration.md#lifecycle_accounts): notifications before and after account expiry, deactivation and deletion, each step separately formulated.
   * [Automatic Group Life Cycle](Automatic_Group_Lifecycle.md): notifications before and after the inactivation as well as before and after the deletion of a group.
 
-### Texts of the system emails {: #system_mails}
+### Texts of the system mail templates {: #system_mails}
 
-Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. For these system emails there is no text field in the system administration. Their text is stored as a variable in the language package of the respective function.
+Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. A system mail template sets the text of these emails. For these templates there is no text field in the system administration. Their text is stored as a variable in the language package of the respective function.
 
 You adapt the text with the language adaptation tool in the system administration under:<br>
 `Administration > Customizing > Language adaptation tool`

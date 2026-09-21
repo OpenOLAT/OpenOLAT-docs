@@ -27,7 +27,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 * [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.de.md)
 * [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.de.md)
 * [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
-* [:octicons-arrow-right-24: Mediasite](Course_Element_Mediasite.de.md)
+* [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.de.md)
 * [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 * [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
 
