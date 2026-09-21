@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 713 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 714 Begriffe.
 
 ## A
 
@@ -354,7 +354,7 @@ Die Wahl eines Themas durch eine teilnehmende Person in der Themenbörse, mit ei
 
 ### Auswertung
 
-Die Site, auf der Referenzpersonen und Gutachtende ihre Schreiben einreichen und auf der öffentliche Rückmeldungen abgegeben werden. Sie öffnet sich über einen persönlichen Link ohne OpenOlat-Konto.
+Der Bereich, in dem Referenzpersonen und Gutachtende ihre Schreiben einreichen und in dem öffentliche Rückmeldungen abgegeben werden. Er öffnet sich über einen persönlichen Link ohne OpenOlat-Konto.
 
 *Englisch: Evaluation* · *Bereich: Selectus*
 
@@ -474,11 +474,23 @@ Administrative Organisationsrolle. Sie verwaltet die Konten der eigenen Organisa
 
 *Englisch: User manager* · *Bereich: Rollen* · [Handbuch](../../manual_user/basic_concepts/Roles.de.md)
 
-### Bereich
+### Bereich (Plattform)
+
+Ein Eintrag der Hauptnavigation in der obersten Zeile, zum Beispiel Kurse, Gruppen, Katalog oder Coaching. Ob eine Person einen Bereich sieht, entscheiden das Modul, die Freischaltung in der Administration und die Rolle. Was nicht in die Zeile passt, sammelt OpenOlat im Menü Mehr.
+
+*Englisch: Site* · *Bereich: Plattform* · [Handbuch](../../manual_user/area_modules/index.de.md)
+
+### Bereich (ePortfolio)
 
 Ein Kapitel einer Mappe. Ein Bereich trägt einen Titel, eine Zusammenfassung, ein Beginn- und ein Enddatum, und er nimmt Einträge und Aufgaben auf; Unterbereiche gibt es nicht. Betreuende schliessen einen Bereich und bewerten ihn mit Punkten und Bestanden.
 
 *Englisch: Section* · *Bereich: ePortfolio* · [Handbuch](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.de.md)
+
+### Bereiche
+
+Die Seite der Administration, die die Bereiche der Hauptnavigation verwaltet: Reihenfolge, Aktiviert, Zugang je Bereich und eine Alternative bei verwehrtem Zugang. Dazu die Konfiguration der Infoseiten 1 bis 4 und der Externen Seiten 1 und 2.
+
+*Englisch: Sites* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Customizing.de.md)
 
 ### Besitzer:in
 
@@ -530,7 +542,7 @@ Die Regeln einer Ausschreibung dafür, wer welche Beurteilungen und Reviews sehe
 
 ### Bewerben
 
-Die Site für Bewerbende. Sie zeigt die publizierten Ausschreibungen und führt durch das Bewerbungsformular. Bewerbende erreichen sie ohne OpenOlat-Konto über den Link einer Ausschreibung oder über die Login-Seite.
+Der Bereich für Bewerbende. Er zeigt die publizierten Ausschreibungen und führt durch das Bewerbungsformular. Bewerbende erreichen ihn ohne OpenOlat-Konto über den Link einer Ausschreibung oder über die Login-Seite.
 
 *Englisch: Apply* · *Bereich: Selectus*
 
@@ -820,7 +832,7 @@ Die Rollen, die an einem Produkt oder einem Element des Course Planner hängen u
 
 ### COVID-Zertifikat
 
-Das Modul, mit dem eine Person die Gültigkeit ihres COVID-Zertifikats im persönlichen Menü hinterlegt, per QR-Scan, Import oder manuell. Gespeichert wird nur das Ablaufdatum. 3G Beauftragte erfassen Zertifikate für andere in der Site COVID-Zertifikat Verwaltung.
+Das Modul, mit dem eine Person die Gültigkeit ihres COVID-Zertifikats im persönlichen Menü hinterlegt, per QR-Scan, Import oder manuell. Gespeichert wird nur das Ablaufdatum. 3G Beauftragte erfassen Zertifikate für andere im Bereich COVID-Zertifikat Verwaltung.
 
 *Englisch: COVID certificate* · *Bereich: Plattform* · [Handbuch](../../manual_user/personal_menu/COVID_certificate.de.md)
 
@@ -838,7 +850,7 @@ Lernressource im Format IMS Content Packaging. Sie enthält fertigen Lerninhalt 
 
 ### Customizing
 
-Der Abschnitt der Administration für das Erscheinungsbild und die Anpassung der Plattform: Sites, Hilfe, Benutzer:innen-Attribute, Impressum, Nutzungsbedingungen und Sprachen.
+Der Abschnitt der Administration für das Erscheinungsbild und die Anpassung der Plattform: Bereiche, Hilfe, Benutzer:innen-Attribute, Impressum, Nutzungsbedingungen und Sprachen.
 
 *Englisch: Customizing* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Customizing.de.md)
 
@@ -1100,7 +1112,7 @@ Der Zugang für externe Personen ohne Konto. Die eingeladene Person erhält übe
 
 ### Einladungen (Plattform)
 
-Die Site, die eine eingeladene externe Person als einzigen Navigationseintrag sieht. Sie listet die Ressourcen, zu denen ihre Einladungen führen. Reguläre Konten und Gäste sehen sie nie.
+Der Bereich, den eine eingeladene externe Person als einzigen Navigationseintrag sieht. Er listet die Ressourcen, zu denen ihre Einladungen führen. Reguläre Konten und Gäste sehen ihn nie.
 
 *Englisch: Invitations* · *Bereich: Plattform*
 
@@ -1352,7 +1364,7 @@ Kursbaustein, der eine externe Webseite im Kurs anzeigt und in die Kursnavigatio
 
 ### Externe Seite (Plattform)
 
-Ein Tab der Hauptnavigation, der eine fremde Webadresse öffnet, eingebettet als iFrame oder als Link. Titel und URL werden je Sprache gesetzt. Es gibt zwei solche Sites; sie erscheinen erst, wenn sie konfiguriert sind.
+Ein Tab der Hauptnavigation, der eine fremde Webadresse öffnet, eingebettet als iFrame oder als Link. Titel und URL werden je Sprache gesetzt. Es gibt zwei solche Bereiche; sie erscheinen erst, wenn sie konfiguriert sind.
 
 *Englisch: External site* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Modules_External_Page.de.md)
 
@@ -1768,7 +1780,7 @@ Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit
 
 ### Infoseite (Plattform)
 
-Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Sites, Infoseite n°1 bis n°4.
+Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Bereiche, Infoseite n°1 bis n°4.
 
 *Englisch: Info page* · *Bereich: Plattform* · [Handbuch](../../manual_user/learningresources/General_Functions_Infopage.de.md)
 
@@ -2458,17 +2470,17 @@ Der persönliche Ablageort für Bilder, Videos, Zitate und andere Medien, die in
 
 *Englisch: Media Center* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Modules_Media_Center.de.md)
 
-### MediaSite
+### MediaSite (Kurs)
 
-Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry Mediasite im Kurs anzeigt.
+Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry MediaSite im Kurs anzeigt.
 
 *Englisch: MediaSite* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
-### Mediasite
+### MediaSite (Integrationen und Standards)
 
-Anbindung der Videoplattform Mediasite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
+Anbindung der Videoplattform MediaSite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
 
-*Englisch: Mediasite* · *Bereich: Integrationen und Standards* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: MediaSite* · *Bereich: Integrationen und Standards* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 ### Medien-Server
 
@@ -2570,7 +2582,7 @@ Die Zugehörigkeit einer Person zu einem Zertifikatsprogramm. Kandidat:innen neh
 
 Kursbaustein für Kursmitteilungen. Betreuende veröffentlichen kurze Nachrichten, wahlweise befristet, und können sie per E-Mail verschicken.
 
-*Englisch: Notifications* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Notifications.de.md)
+*Englisch: Info messages* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Notifications.de.md)
 
 ### Multi-Absenzenerfassung
 
@@ -3525,12 +3537,6 @@ Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-
 Fragetyp mit mehreren Antwortmöglichkeiten, von denen genau eine gewählt werden kann und genau eine richtig ist.
 
 *Englisch: Single choice* · *Bereich: Test und Fragenpool* · [Handbuch](../../manual_user/learningresources/Test_question_types.de.md)
-
-### Sites
-
-Die Seite der Administration, die die Tabs der Hauptnavigation verwaltet: Reihenfolge, Aktiviert, Zugang je Site und eine Alternative bei verwehrtem Zugang. Dazu die Konfiguration der Infoseiten 1 bis 4 und der Externen Seiten 1 und 2.
-
-*Englisch: Sites* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Customizing.de.md)
 
 ### SMS Erinnerungen
 

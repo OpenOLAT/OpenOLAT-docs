@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 713 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 714 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -1006,9 +1006,9 @@ Kursbaustein, der eine externe Lernanwendung über den Standard LTI einbindet. D
 
 *Englisch: LTI page* · [Handbuch](../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
-### MediaSite
+### MediaSite (Kurs)
 
-Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry Mediasite im Kurs anzeigt.
+Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry MediaSite im Kurs anzeigt.
 
 *Englisch: MediaSite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
@@ -1022,7 +1022,7 @@ Kursbaustein, der Microsoft-Teams-Besprechungen in den Kurs einbindet. OpenOlat 
 
 Kursbaustein für Kursmitteilungen. Betreuende veröffentlichen kurze Nachrichten, wahlweise befristet, und können sie per E-Mail verschicken.
 
-*Englisch: Notifications* · [Handbuch](../manual_user/learningresources/Course_Element_Notifications.de.md)
+*Englisch: Info messages* · [Handbuch](../manual_user/learningresources/Course_Element_Notifications.de.md)
 
 ### Musterlösung (Kurs)
 
@@ -1898,7 +1898,7 @@ Ein Auftrag in einem Bereich der Mappe, den die Vorlage vorgibt: ein Freitext, e
 
 *Englisch: Assignment* · [Handbuch](../manual_user/learningresources/Portfolio_template_Administration_and_editing.de.md)
 
-### Bereich
+### Bereich (ePortfolio)
 
 Ein Kapitel einer Mappe. Ein Bereich trägt einen Titel, eine Zusammenfassung, ein Beginn- und ein Enddatum, und er nimmt Einträge und Aufgaben auf; Unterbereiche gibt es nicht. Betreuende schliessen einen Bereich und bewerten ihn mit Punkten und Bestanden.
 
@@ -2014,7 +2014,7 @@ Die grafische Übersicht über die Aktivitäten unter Meine Einträge. Farbige P
 
 ## Coaching
 
-Die Site Coaching: der kursübergreifende Einstieg für alle, die Lernende betreuen - Kursbetreuende, Kursbesitzende, Klassenlehrpersonen, Linienvorgesetzte, Ausbildungsverantwortliche und Beziehungsrollen.
+Der Bereich Coaching: der kursübergreifende Einstieg für alle, die Lernende betreuen - Kursbetreuende, Kursbesitzende, Klassenlehrpersonen, Linienvorgesetzte, Ausbildungsverantwortliche und Beziehungsrollen.
 
 ### Aufgaben
 
@@ -2788,7 +2788,7 @@ Eine ausgeschriebene Professur in Selectus. Sie enthält den Ausschreibungstext,
 
 ### Auswertung
 
-Die Site, auf der Referenzpersonen und Gutachtende ihre Schreiben einreichen und auf der öffentliche Rückmeldungen abgegeben werden. Sie öffnet sich über einen persönlichen Link ohne OpenOlat-Konto.
+Der Bereich, in dem Referenzpersonen und Gutachtende ihre Schreiben einreichen und in dem öffentliche Rückmeldungen abgegeben werden. Er öffnet sich über einen persönlichen Link ohne OpenOlat-Konto.
 
 *Englisch: Evaluation*
 
@@ -2806,7 +2806,7 @@ Die Regeln einer Ausschreibung dafür, wer welche Beurteilungen und Reviews sehe
 
 ### Bewerben
 
-Die Site für Bewerbende. Sie zeigt die publizierten Ausschreibungen und führt durch das Bewerbungsformular. Bewerbende erreichen sie ohne OpenOlat-Konto über den Link einer Ausschreibung oder über die Login-Seite.
+Der Bereich für Bewerbende. Er zeigt die publizierten Ausschreibungen und führt durch das Bewerbungsformular. Bewerbende erreichen ihn ohne OpenOlat-Konto über den Link einer Ausschreibung oder über die Login-Seite.
 
 *Englisch: Apply*
 
@@ -3144,6 +3144,18 @@ Die Felder eines Kontos wie Vorname, E-Mail oder Institution. Die Administration
 
 *Englisch: User Properties* · [Handbuch](../manual_admin/administration/Customizing.de.md)
 
+### Bereich (Plattform)
+
+Ein Eintrag der Hauptnavigation in der obersten Zeile, zum Beispiel Kurse, Gruppen, Katalog oder Coaching. Ob eine Person einen Bereich sieht, entscheiden das Modul, die Freischaltung in der Administration und die Rolle. Was nicht in die Zeile passt, sammelt OpenOlat im Menü Mehr.
+
+*Englisch: Site* · [Handbuch](../manual_user/area_modules/index.de.md)
+
+### Bereiche
+
+Die Seite der Administration, die die Bereiche der Hauptnavigation verwaltet: Reihenfolge, Aktiviert, Zugang je Bereich und eine Alternative bei verwehrtem Zugang. Dazu die Konfiguration der Infoseiten 1 bis 4 und der Externen Seiten 1 und 2.
+
+*Englisch: Sites* · [Handbuch](../manual_admin/administration/Customizing.de.md)
+
 ### Bibliothek (Plattform)
 
 Der Bereich für eine gemeinsame Dokumentensammlung des ganzen Systems, mit einem Freigabeschritt vor der Veröffentlichung.
@@ -3176,13 +3188,13 @@ Der Bereich für die Planung des Bildungsangebots: Produkte, deren Elemente, die
 
 ### COVID-Zertifikat
 
-Das Modul, mit dem eine Person die Gültigkeit ihres COVID-Zertifikats im persönlichen Menü hinterlegt, per QR-Scan, Import oder manuell. Gespeichert wird nur das Ablaufdatum. 3G Beauftragte erfassen Zertifikate für andere in der Site COVID-Zertifikat Verwaltung.
+Das Modul, mit dem eine Person die Gültigkeit ihres COVID-Zertifikats im persönlichen Menü hinterlegt, per QR-Scan, Import oder manuell. Gespeichert wird nur das Ablaufdatum. 3G Beauftragte erfassen Zertifikate für andere im Bereich COVID-Zertifikat Verwaltung.
 
 *Englisch: COVID certificate* · [Handbuch](../manual_user/personal_menu/COVID_certificate.de.md)
 
 ### Customizing
 
-Der Abschnitt der Administration für das Erscheinungsbild und die Anpassung der Plattform: Sites, Hilfe, Benutzer:innen-Attribute, Impressum, Nutzungsbedingungen und Sprachen.
+Der Abschnitt der Administration für das Erscheinungsbild und die Anpassung der Plattform: Bereiche, Hilfe, Benutzer:innen-Attribute, Impressum, Nutzungsbedingungen und Sprachen.
 
 *Englisch: Customizing* · [Handbuch](../manual_admin/administration/Customizing.de.md)
 
@@ -3224,7 +3236,7 @@ Der Bereich für eine Dokumentensammlung, die über die Taxonomie gegliedert ist
 
 ### Einladungen (Plattform)
 
-Die Site, die eine eingeladene externe Person als einzigen Navigationseintrag sieht. Sie listet die Ressourcen, zu denen ihre Einladungen führen. Reguläre Konten und Gäste sehen sie nie.
+Der Bereich, den eine eingeladene externe Person als einzigen Navigationseintrag sieht. Er listet die Ressourcen, zu denen ihre Einladungen führen. Reguläre Konten und Gäste sehen ihn nie.
 
 *Englisch: Invitations*
 
@@ -3266,7 +3278,7 @@ Die Liste der Exporte eines Kurses oder einer Person, mit Status, Fortschritt, V
 
 ### Externe Seite (Plattform)
 
-Ein Tab der Hauptnavigation, der eine fremde Webadresse öffnet, eingebettet als iFrame oder als Link. Titel und URL werden je Sprache gesetzt. Es gibt zwei solche Sites; sie erscheinen erst, wenn sie konfiguriert sind.
+Ein Tab der Hauptnavigation, der eine fremde Webadresse öffnet, eingebettet als iFrame oder als Link. Titel und URL werden je Sprache gesetzt. Es gibt zwei solche Bereiche; sie erscheinen erst, wenn sie konfiguriert sind.
 
 *Englisch: External site* · [Handbuch](../manual_admin/administration/Modules_External_Page.de.md)
 
@@ -3338,7 +3350,7 @@ Die Seite der Administration unter System, auf der die Info Meldung für die Anm
 
 ### Infoseite (Plattform)
 
-Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Sites, Infoseite n°1 bis n°4.
+Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Bereiche, Infoseite n°1 bis n°4.
 
 *Englisch: Info page* · [Handbuch](../manual_user/learningresources/General_Functions_Infopage.de.md)
 
@@ -3539,12 +3551,6 @@ Anbindung an eine Shibboleth-Föderation. Die Anmeldung erfolgt bei der Heimatho
 Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-Header gegen Einbettung in Frames, HTTPS-Downgrade und Content-Type-Raten, SameSite-Cookie, CSRF-Schutz, Content Security Policy mit Log und die freigegebenen Medien-Server.
 
 *Englisch: Security* · [Handbuch](../manual_admin/administration/Login_Security.de.md)
-
-### Sites
-
-Die Seite der Administration, die die Tabs der Hauptnavigation verwaltet: Reihenfolge, Aktiviert, Zugang je Site und eine Alternative bei verwehrtem Zugang. Dazu die Konfiguration der Infoseiten 1 bis 4 und der Externen Seiten 1 und 2.
-
-*Englisch: Sites* · [Handbuch](../manual_admin/administration/Customizing.de.md)
 
 ### Speicherverbrauch
 
@@ -4100,11 +4106,11 @@ Anbindung von Matomo über Site ID und Matomo URL. Matomo läuft auf einem eigen
 
 *Englisch: Matomo (Piwik)* · [Handbuch](../manual_admin/administration/Analytics_module.de.md)
 
-### Mediasite
+### MediaSite (Integrationen und Standards)
 
-Anbindung der Videoplattform Mediasite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
+Anbindung der Videoplattform MediaSite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
 
-*Englisch: Mediasite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: MediaSite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 ### Microsoft SharePoint / OneDrive
 

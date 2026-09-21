@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 713 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 714 terms.
 
 ## Catalogue, booking and payment
 
@@ -958,6 +958,12 @@ A course element that shows a single HTML page with texts, images and videos. Th
 
 *German: HTML-Seite* · [Manual](../manual_user/learningresources/Course_Element_HTML_Page.md)
 
+### Info messages (Course)
+
+A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
+
+*German: Mitteilungen* · [Manual](../manual_user/learningresources/Course_Element_Notifications.md)
+
 ### Info page (Course)
 
 The page that describes a learning resource before a person enters it, with the description, the period, the coaches and the option to book.
@@ -1000,9 +1006,9 @@ A course element that embeds an external learning application through the LTI st
 
 *German: LTI-Seite* · [Manual](../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-### MediaSite
+### MediaSite (Course)
 
-A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry Mediasite in the course.
+A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry MediaSite in the course.
 
 *German: MediaSite* · [Manual](../manual_user/learningresources/Course_Element_Mediasite.md)
 
@@ -1011,12 +1017,6 @@ A course element that shows a presentation or a channel of the lecture recording
 A course element that embeds Microsoft Teams meetings into the course. OpenOlat creates the meeting and opens it for the course members.
 
 *German: Microsoft Teams* · [Manual](../manual_user/learningresources/Course_Element_Microsoft_Teams.md)
-
-### Notifications
-
-A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
-
-*German: Mitteilungen* · [Manual](../manual_user/learningresources/Course_Element_Notifications.md)
 
 ### Occasion
 
@@ -3318,7 +3318,7 @@ A message that appears on the login page, that is before signing in. It announce
 
 *German: Info Meldung* · [Manual](../manual_admin/administration/System.md)
 
-### Info messages
+### Info messages (Platform)
 
 The Administration page under System where the info message for the login page and the maintenance message for all pages are set, each with an optional start and end date.
 
@@ -3516,11 +3516,17 @@ The connection to a Shibboleth federation. Signing in happens at the home instit
 
 *German: Shibboleth*
 
+### Site
+
+An entry of the main navigation in the top row, for example Courses, Groups, Catalog or Coaching. Whether a person sees a site depends on the module, the activation in the administration and the role. What does not fit into the row is collected in the More menu.
+
+*German: Bereich* · [Manual](../manual_user/area_modules/index.md)
+
 ### Sites
 
 The Administration page that manages the tabs of the main navigation: order, enabled, access per site and an alternative when access is denied. Plus the configuration of the info pages 1 to 4 and the external sites 1 and 2.
 
-*German: Sites* · [Manual](../manual_admin/administration/Customizing.md)
+*German: Bereiche* · [Manual](../manual_admin/administration/Customizing.md)
 
 ### Storage usage
 
@@ -4100,11 +4106,11 @@ The connection to Matomo through a site ID and a Matomo URL. Matomo runs on the 
 
 *German: Matomo (Piwik)* · [Manual](../manual_admin/administration/Analytics_module.md)
 
-### Mediasite
+### MediaSite (Integrations and standards)
 
-The connection to the video platform Mediasite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
+The connection to the video platform MediaSite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
 
-*German: Mediasite* · [Manual](../manual_user/learningresources/Course_Element_Mediasite.md)
+*German: MediaSite* · [Manual](../manual_user/learningresources/Course_Element_Mediasite.md)
 
 ### Microsoft SharePoint / OneDrive
 

@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 713 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 714 terms.
 
 ## A
 
@@ -1988,7 +1988,13 @@ A message that appears on the login page, that is before signing in. It announce
 
 *German: Info Meldung* · *Domain: Platform* · [Manual](../../manual_admin/administration/System.md)
 
-### Info messages
+### Info messages (Course)
+
+A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
+
+*German: Mitteilungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Notifications.md)
+
+### Info messages (Platform)
 
 The Administration page under System where the info message for the login page and the maintenance message for all pages are set, each with an optional start and end date.
 
@@ -2368,17 +2374,17 @@ An external video platform whose videos OpenOlat may embed by URL: YouTube, Vime
 
 *German: Medien-Server* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Single_Page_Add_edit_video.md)
 
-### MediaSite
+### MediaSite (Course)
 
-A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry Mediasite in the course.
+A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry MediaSite in the course.
 
 *German: MediaSite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
-### Mediasite
+### MediaSite (Integrations and standards)
 
-The connection to the video platform Mediasite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
+The connection to the video platform MediaSite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
 
-*German: Mediasite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
+*German: MediaSite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
 ### Members
 
@@ -2519,12 +2525,6 @@ The advance notice that a person will miss an event. It is given before the even
 A message about a change a person has subscribed to. OpenOlat collects the notifications and sends them bundled as an e-mail.
 
 *German: Benachrichtigung* · *Domain: Collaboration* · [Manual](../../manual_user/personal_menu/Subscriptions.md)
-
-### Notifications
-
-A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
-
-*German: Mitteilungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Notifications.md)
 
 ## O
 
@@ -3646,11 +3646,17 @@ A question type with several answer options, of which exactly one can be chosen 
 
 *German: Single Choice* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_question_types.md)
 
+### Site
+
+An entry of the main navigation in the top row, for example Courses, Groups, Catalog or Coaching. Whether a person sees a site depends on the module, the activation in the administration and the role. What does not fit into the row is collected in the More menu.
+
+*German: Bereich* · *Domain: Platform* · [Manual](../../manual_user/area_modules/index.md)
+
 ### Sites
 
 The Administration page that manages the tabs of the main navigation: order, enabled, access per site and an alternative when access is denied. Plus the configuration of the info pages 1 to 4 and the external sites 1 and 2.
 
-*German: Sites* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
+*German: Bereiche* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
 
 ### SMS reminders
 
