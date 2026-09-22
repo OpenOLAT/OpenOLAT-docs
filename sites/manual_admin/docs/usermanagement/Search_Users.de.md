@@ -188,7 +188,7 @@ Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser O
 
 ![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt: Suchergebnis der Kontosuche](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
 
-Über der Trefferliste stehen die Registerkarten "Alle", "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt" sowie die Filter "Status", "Organisationen" und "Inaktivierung". Der Filter "Inaktivierung" grenzt auf einen Zeitraum ein, in dem Konten deaktiviert wurden oder deaktiviert werden.
+Über der Trefferliste stehen die Filter-Tabs "Alle", "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt" sowie die Filter "Status", "Organisationen" und "Inaktivierung". Der Filter "Inaktivierung" grenzt auf einen Zeitraum ein, in dem Konten deaktiviert wurden oder deaktiviert werden.
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -197,18 +197,20 @@ Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser O
 
 Die Trefferliste führt neben den Personendaten fünf Spalten zum Lebenszyklus eines Kontos. Sie stehen in dieser Reihenfolge und beantworten die Frage, wann OpenOlat ein Konto automatisch deaktiviert oder löscht. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
+OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation).
+
 | Spalte | Bedeutung |
 |--------|-----------|
 | Kontoablauf | Das pro Konto hinterlegte Ablaufdatum. |
 | Tage bis Ablauf | Verbleibende Tage bis zu diesem Datum. |
-| Tage bis Inaktivierung | Verbleibende Tage, bis OpenOlat das Konto wegen Inaktivität deaktiviert. Nur vorhanden bei aktivem Schalter "Konten nach Inaktivität deaktivieren". |
+| Tage bis Inaktivierung | Verbleibende Tage, bis OpenOlat das Konto deaktiviert. Nur vorhanden bei aktivem Schalter "Konten nach Inaktivität deaktivieren". |
 | Inaktivierungsdatum | Datum, an dem das Konto deaktiviert wurde. |
 | Tage bis Löschung | Verbleibende Tage bis zur automatischen Löschung. Nur vorhanden bei aktivem Schalter "Inaktive Konten löschen". |
 
 Die beiden Schalter setzen Sie in der System-Administration unter:<br>
 `Administration > Lebenszyklen > Konto`, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
-Alle fünf Spalten sind ab Werk ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
+Alle fünf Spalten sind standardmässig ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
 Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Benutzer konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
 

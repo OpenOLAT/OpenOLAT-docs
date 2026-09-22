@@ -77,7 +77,7 @@ If an expiry date is set, this field shows the remaining time in the format "In 
 
 #### Automatic user lifecycle {: #automatic_user_lifecycle }
 
-This section shows how the system-wide lifecycle affects this account. It is omitted for guest accounts. Which entries appear depends on the state of the account:
+This section shows how the system-wide lifecycle affects this account. It is omitted for guest accounts. OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation). Which entries appear depends on the state of the account:
 
 | State | Entry | Meaning |
 |-------|-------|---------|

@@ -19,7 +19,7 @@ Enter your relevant search criteria and confirm with the "Return" key or by clic
 
 ![user_management_search_form_v2_de.png](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
 
-Above the view you find the actions "Create account", "Import accounts", "Create temporary account" and "Delete accounts".
+Above the view you find the actions "Create user", "Import users", "Create temp. users" and "Delete user".
 
 The field "Account expiration" searches by the expiry date of the accounts. The selection on the left determines the direction: "Account expiration within the next" finds accounts that expire shortly, "Inactive since the last" finds accounts whose expiry lies in the past. On the right you enter the number and the unit, for example 30 days.
 
@@ -189,7 +189,7 @@ In the second step, you filter out all inactive users of this organizational uni
 
 ![user_management_filter_searchresults_v2_de.png](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
 
-Above the result list you find the tabs "All", "Active", "Active and not deletable", "Pending", "Inactive" and "Login denied" as well as the filters "Status", "Organisations" and "Inactivation". The filter "Inactivation" narrows the list to a period in which accounts were deactivated or will be deactivated.
+Above the result list you find the filter tabs "All", "Active", "Active and not deletable", "Pending", "Inactive" and "Login denied" as well as the filters "Status", "Organisations" and "Inactivation". The filter "Inactivation" narrows the list to a period in which accounts were deactivated or will be deactivated.
 
 [To the top of the page ^](#search_user)
 
@@ -198,11 +198,13 @@ Above the result list you find the tabs "All", "Active", "Active and not deletab
 
 Besides the personal data, the result list carries five columns on the lifecycle of an account. They stand in this order and answer the question when OpenOlat deactivates or deletes an account automatically. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
+OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation).
+
 | Column | Meaning |
 |--------|---------|
 | Account expiration | The expiry date stored per account. |
 | Days until expiry | Remaining days until this date. |
-| Days until inactivation | Remaining days until OpenOlat deactivates the account due to inactivity. Only present when the toggle "Deactivate user after inactivity" is active. |
+| Days until inactivation | Remaining days until OpenOlat deactivates the account. Only present when the toggle "Deactivate user after inactivity" is active. |
 | Inactivation date | Date on which the account was deactivated. |
 | Days until deletion | Remaining days until the automatic deletion. Only present when the toggle "Delete inactive user" is active. |
 

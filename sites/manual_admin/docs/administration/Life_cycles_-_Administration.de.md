@@ -63,15 +63,15 @@ Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist,
 
 ![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" }
 
-### Varianten im Überblick {: #lifecycle_accounts_variants}
+### Die drei Schritte im Überblick {: #lifecycle_accounts_variants}
 
-Der Lebenszyklus läuft in getrennten Schritten und wird aus teils unterschiedlichen Einstellungen gespeist.
+Drei Schritte beenden die Nutzung eines Kontos: der Kontoablauf, die Deaktivierung und die Löschung. Die Tabelle nennt zu jedem Schritt den Auslöser, den Ort der Einstellung und die Benachrichtigung.
 
-| Variante | Auslöser | Einstellungsquelle | Mailbenachrichtigung | Version |
-|----------|----------|--------------------|----------------------|---------|
-| Kontoablauf | Das hinterlegte Ablaufdatum des Kontos ist erreicht. | Das Datum wird pro Konto gesetzt: `Benutzerverwaltung > Konto erstellen` oder nachträglich im Reiter "Konto". Auch der Benutzerimport, die Massenänderung und die Aktion "Temporäres Konto erstellen" setzen es. | Vor und nach dem Kontoablauf, im Bereich "Kontoablauf" | :octicons-tag-16:{ title="ab Release 15.4" } |
-| Deaktivierung | Während der Inaktivitätsfrist erfolgt keine Anmeldung. | Schalter "Konten nach Inaktivität deaktivieren" und Feld "Anzahl Tage vor Deaktivierung". Manuell über den Reiter "Konto" einer Person. | Vor und nach der Deaktivierung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
-| Löschung | Das Konto bleibt nach der Deaktivierung die eingestellte Zeit inaktiv. | Schalter "Inaktive Konten löschen" und Feld "Anzahl Tage vor Löschung". Manuell über `Benutzerverwaltung > Konten löschen`. | Vor und nach der Löschung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
+| Schritt | Auslöser | Wo Sie es einstellen | Mailbenachrichtigung | Version |
+|---------|----------|----------------------|----------------------|---------|
+| Kontoablauf | Das hinterlegte Ablaufdatum des Kontos ist erreicht. | Das Datum setzen Sie pro Konto in der Benutzerverwaltung: beim Erstellen unter `Benutzerverwaltung > Konto erstellen` oder nachträglich unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`. Auch die Aktionen "Konten importieren" und "Temporäres Konto erstellen" in der Benutzerverwaltung sowie die Aktion "Kontoeinstellungen ändern" für ausgewählte Konten in der Kontosuche setzen es. | Vor und nach dem Kontoablauf, im Bereich "Kontoablauf" | :octicons-tag-16:{ title="ab Release 15.4" } |
+| Deaktivierung | Während der Inaktivitätsfrist erfolgt keine Anmeldung. | Automatisch: Schalter "Konten nach Inaktivität deaktivieren" und Feld "Anzahl Tage vor Deaktivierung" in der System-Administration unter `Administration > Lebenszyklen > Konto`. Manuell: Status "Inaktiv" unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`. | Vor und nach der Deaktivierung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
+| Löschung | Das Konto bleibt nach der Deaktivierung die eingestellte Zeit inaktiv. | Automatisch: Schalter "Inaktive Konten löschen" und Feld "Anzahl Tage vor Löschung" in der System-Administration unter `Administration > Lebenszyklen > Konto`. Manuell: Aktion "Konten löschen" unter `Benutzerverwaltung > Konten löschen`. | Vor und nach der Löschung, im Bereich "Automatischer Kontolebenszyklus" | :octicons-tag-16:{ title="ab Release 20.1" } |
 
 !!! info "Wichtig"
     Der Bereich "Kontoablauf" konfiguriert nur die Benachrichtigungen. Ein systemweites Ablaufdatum gibt es nicht: Das Datum trägt jedes Konto einzeln.
@@ -79,6 +79,14 @@ Der Lebenszyklus läuft in getrennten Schritten und wird aus teils unterschiedli
 Zu jedem Schritt formulieren Sie eine eigene Benachrichtigung und legen fest, wie viele Tage vor dem Schritt OpenOlat sie versendet. Die unwiderrufliche Löschung im letzten Schritt richten Sie automatisch oder ausschliesslich manuell ein.
 
 ### Deaktivierung und Reaktivierung {: #account_reactivation}
+
+Wer ein Konto deaktiviert oder ein deaktiviertes Konto sucht, trifft in der Oberfläche auf drei Wörter. Sie bezeichnen dieselbe Sache aus drei Blickwinkeln:
+
+| Wort | Was es bezeichnet | Wo es steht |
+|------|-------------------|-------------|
+| deaktivieren, Deaktivierung | Die Aktion: OpenOlat oder eine Person setzt das Konto auf inaktiv. | Schalter "Konten nach Inaktivität deaktivieren", Felder "Anzahl Tage vor Deaktivierung" und "E-Mail vor Deaktivierung" |
+| Inaktivierung | Der Zeitpunkt, an dem die Aktion ausgeführt wird oder wurde. | Spalten "Tage bis Inaktivierung" und "Inaktivierungsdatum", Filter "Inaktivierung" in der Kontosuche |
+| Inaktiv | Der Status des Kontos nach der Deaktivierung. | Feld "Status" im Reiter "Konto", Filter-Tab "Inaktiv" in der Kontosuche |
 
 Die Deaktivierung setzt den Kontostatus auf "Inaktiv". Die Person kann sich nicht mehr anmelden. Das Konto selbst bleibt vollständig erhalten. Passwort, Profil, Rollen, Gruppenmitgliedschaften und Kursdaten bleiben unverändert.
 

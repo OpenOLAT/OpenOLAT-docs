@@ -76,7 +76,7 @@ Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "
 
 #### Automatischer Kontolebenszyklus {: #automatic_user_lifecycle }
 
-Dieser Abschnitt zeigt, wie der systemweite Lebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
+Dieser Abschnitt zeigt, wie der systemweite Lebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation). Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
 
 | Zustand | Anzeige | Bedeutung |
 |---------|---------|-----------|
