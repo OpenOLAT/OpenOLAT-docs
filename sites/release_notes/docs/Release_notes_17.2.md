@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 11/01/2023**
+:material-calendar-month-outline: **Release date: 02/10/2023 • Last update: 11/01/2023**
 
 * * *
 

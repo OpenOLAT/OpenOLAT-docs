@@ -1,67 +1,65 @@
-## Allgemeine Arbeitsweisen
+---
+title: How-to-Anleitungen
+description: Schritt-für-Schritt-Anleitungen für OpenOlat, gruppiert nach Zielgruppe:
+  Autor:innen, Betreuer:innen, Planung und Administration.
+---
 
-1. [Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?](/de/manual_how-to/course_list/course_list)
-2. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/de/manual_how-to/multiple_use/multiple_use)
-3. [Mit welchen Ordnern kann ich Dokumente anbieten?](/de/manual_how-to/folders/folders)
-4. [Wie kann ich mittels WebDAV Dateien übertragen?](/de/manual_how-to/webdav/webdav)
+# How-to-Anleitungen {: #how_to}
 
-## Planung
+Diese Anleitungen führen Sie Schritt für Schritt durch eine vollständige Aufgabe in OpenOlat. Sie sind nach der Rolle gruppiert, die die Arbeit üblicherweise erledigt: Beginnen Sie mit der Gruppe, die zu Ihrer Rolle passt.
 
-1. [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](/de/manual_how-to/course_planner_courses/course_planner_courses)
-2. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](/de/manual_how-to/certification_programs/certification_programs)
-3. [Wie setze ich rechtliche Zustimmungspflichten um?](/de/manual_how-to/legal_consents/legal_consents)
-4. [Wie kann ich Abgabemöglichkeiten für Dokumente einrichten?](/de/manual_how-to/document_upload/document_upload)
-5. [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](/de/manual_how-to/portfolio/portfolio)
+## Für Autor:innen: Kurse und Inhalte erstellen {: #for_authors}
 
-## Kurse erstellen
+1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](my_first_course/my_first_course.de.md)
+2. [Wie verwende ich den Kursbaustein "Auswahl"?](course_element_selection/course_element_selection.de.md)
+3. [Wie vergebe ich in meinem Kurs Badges?](badges/badges.de.md)
+4. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](multiple_use/multiple_use.de.md)
+5. [Mit welchen Ordnern kann ich Dokumente anbieten?](folders/folders.de.md)
+6. [Wie kann ich Abgabemöglichkeiten für Dokumente einrichten?](document_upload/document_upload.de.md)
+7. [Wie erstelle ich einen Blog?](blog/blog.de.md)
+8. [Wie erstelle ich ein Content Package?](content_package/content_package.de.md)
+9. [Wie erstelle ich eine Formular-Lernressource?](create_a_form/create_a_form.de.md)
+10. [Wie erstelle ich einen Podcast?](podcast/podcast.de.md)
+11. [Wie erstelle ich ein Wiki?](wikis/wikis.de.md)
+12. [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
+13. [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](portfolio/portfolio.de.md)
 
-1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](/de/manual_how-to/my_first_course/my_first_course)
-2. [Wie verwende ich den Kursbaustein "Auswahl"?](/de/manual_how-to/course_element_selection/course_element_selection)
-3. [Wie vergebe ich in meinem Kurs Badges?](/de/manual_how-to/badges/badges)
+## Für Autor:innen und Betreuer:innen: Tests und Prüfungen {: #for_tests}
 
-## Lernressourcen erstellen
+1. [Wie gehe ich vor, wenn ich einen Test erstelle?](test_creation_procedure/test_creation_procedure.de.md)
+2. [Wie bereite ich eine Online-Prüfung vor?](exam_preparation/exam_preparation.de.md)
+3. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](SEB/SEB.de.md)
+4. [Kommunikation während einer Prüfung](communication_during_exam/communication_during_exam.de.md)
+5. [Wie bewerte ich einen Test?](assessing_tests/assessing_tests.de.md)
+6. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](assessing_tests_anonymously/assessing_tests_anonymously.de.md)
+7. [Wie führe ich ein Peer-Review durch?](peer_review/peer_review.de.md)
+8. [Wie wechsle ich einen Test aus?](exchange_tests/exchange_tests.de.md)
 
-1. [Wie erstelle ich einen Blog?](/de/manual_how-to/blog/blog)
-2. [Wie erstelle ich ein Content Package?](/de/manual_how-to/content_package/content_package)
-3. [Wie erstelle ich eine Formular-Lernressource?](/de/manual_how-to/create_a_form/create_a_form)
-4. [Wie erstelle ich einen Podcast?](/de/manual_how-to/podcast/podcast)
-5. [Wie erstelle ich ein Wiki?](/de/manual_how-to/wikis/wikis)
-6. [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](/de/manual_how-to/ai_essay/ai_essay)
+## Für Betreuer:innen: Kurse durchführen und bewerten {: #for_coaches}
 
-## Kurse anbieten
+1. [Wie und wo kann ich eine Massenbewertung vornehmen?](bulk_assessment/bulk_assessment.de.md)
+2. [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden?](progress_information/progress_information.de.md)
+3. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](oral_exam/oral_exam.de.md)
+4. [Gruppenszenarien](purpose_of_groups/purpose_of_groups.de.md)
+5. [Wie mache ich Erfolge und Leistungen sichtbar?](achievements/achievements.de.md)
 
-1. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](/de/manual_how-to/catalog/catalog)
-2. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/de/manual_how-to/oai_pmh/oai_pmh)
+## Für die Planung: Course Planner und Angebote {: #for_planners}
 
-## Teilnehmeradministration
+1. [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
+2. [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen?](course_planner_curriculum/course_planner_curriculum.de.md)
+3. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](certification_programs/certification_programs.de.md)
+4. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](catalog/catalog.de.md)
+5. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](oai_pmh/oai_pmh.de.md)
 
-1. [Gruppenszenarien](/de/manual_how-to/purpose_of_groups/purpose_of_groups)
+## Für Administrator:innen: Plattform betreiben {: #for_administrators}
 
-## Teilnehmer betreuen
+1. [Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein?](SEB_Admin/SEB_Admin.de.md)
+2. [Wie setze ich rechtliche Zustimmungspflichten um?](legal_consents/legal_consents.de.md)
+3. [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](reduce_storage_consumption/reduce_storage_consumption.de.md)
+4. [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](lifecycle/lifecycle.de.md)
+5. [Wie kann ich eigene CSS für das Kursdesign verwenden?](css/css.de.md)
+6. [Wie verwende ich das Sprachanpassungswerkzeug?](language_adaption_tool/language_adaption_tool.de.md)
+7. [Wie kann ich mittels WebDAV Dateien übertragen?](webdav/webdav.de.md)
+8. [Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?](course_list/course_list.de.md)
 
-1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/de/manual_how-to/bulk_assessment/bulk_assessment)
-2. [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden?](/de/manual_how-to/progress_information/progress_information)
-
-## Tests und Prüfungen
-
-1. [Wie gehe ich vor, wenn ich einen Test erstelle?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
-2. [Wie bereite ich eine Online-Prüfung vor?](/de/manual_how-to/exam_preparation/exam_preparation)
-3. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
-4. [Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein?](/manual_how-to/SEB_Admin/SEB_Admin)
-5. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
-6. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
-7. [Wie macht man in OpenOlat eine anonyme Test-Korrektur?](/de/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
-8. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
-9. [Wie wechsle ich einen Test aus?](/de/manual_how-to/exchange_tests/exchange_tests)
-10. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](/de/manual_how-to/oral_exam/oral_exam)
-
-## Erfolge und Leistungen sichtbar machen
-1. [Wie mache ich Erfolge und Leistungen sichtbar?](/de/manual_how-to/achievements/achievements)
-
-## OpenOlat anpassen
-
-1. [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](/de/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
-2. [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](/de/manual_how-to/lifecycle/lifecycle)
-3. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)
-4. [Wie verwende ich das Sprachanpassungswerkzeug?](/de/manual_how-to/language_adaption_tool/language_adaption_tool)
-
+[zum Seitenanfang ^](#how_to)
