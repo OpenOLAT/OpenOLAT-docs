@@ -4,15 +4,16 @@
 /* 2) custome styles */
 img {
   /* image border styles */
+  /* image sizes */
+  /* thumbnail styles */
+  /* aside styles */
+  /* lighbox style and marker class */
 }
 img.shadow {
   box-shadow: 0 4px 10px 1px silver;
 }
 img.border {
   border: 1px solid darkgray;
-}
-img {
-  /* image sizes */
 }
 img.size16 {
   width: 16px;
@@ -34,9 +35,6 @@ img.size64 {
   width: 64px;
   height: 64px;
 }
-img {
-  /* thumbnail styles */
-}
 img.thumbnail-sm {
   max-width: 150px;
   max-height: 100px;
@@ -52,9 +50,6 @@ img.thumbnail-lg {
 img.thumbnail-xl {
   max-width: 400px;
   max-height: 300px;
-}
-img {
-  /* aside styles */
 }
 img.aside-right-sm, img.aside-right, img.aside-right-lg, img.aside-right-xl {
   float: right;
@@ -90,9 +85,6 @@ img.aside-right-xl, img.aside-left-xl {
   img.aside-right, img.aside-right-lg, img.aside-right-xl, img.aside-left, img.aside-left-lg, img.aside-left-xl {
     max-width: 150px;
   }
-}
-img {
-  /* lighbox style and marker class */
 }
 img.lightbox:hover {
   cursor: pointer;
@@ -156,6 +148,693 @@ i.o_icon.size64 {
 .ᴴₒᴴₒᴴₒ {
   border-color: #ccc !important;
 }
+
+/* ============================================================================
+   3) OpenOlat brand palette, applied site-wide
+   ----------------------------------------------------------------------------
+   Source of the values: the OpenOlat product theme
+   openolat-lms/src/main/webapp/static/themes/openolat/_openolat_config.scss.
+   mkdocs.yml sets primary: custom and accent: custom, so Material ships no
+   colour definition of its own and the variables below are the palette.
+
+   Measured contrast, WCAG 2.1:
+     white on sea #126365 .......... 7.00:1  header, tabs, primary button
+     sea #126365 on white ......... 7.00:1  links
+     chocolate #342C24 on white .. 13.71:1  headings
+     ink #2D2926 on peach #F2AF40 . 7.54:1  "What's new" band
+     ink #2D2926 on sprout #B2CF42  8.17:1  "How-to" band
+   Peach and sprout are never used as text on white (1.91:1 and 1.77:1). They
+   are bands that carry ink text, the way the product theme uses peach for the
+   dirty button ($o-button-dirty-bg: peach, $o-button-dirty-color: $text-color).
+   ========================================================================== */
+:root {
+  --oo-sea: #126365;
+  --oo-sea-dark: #0F5456;
+  --oo-sea-light: #2E8486;
+  --oo-forest: #11624F;
+  --oo-berry: #8F1F40;
+  --oo-peach: #F2AF40;
+  --oo-sprout: #B2CF42;
+  --oo-chocolate: #342C24;
+  --oo-ink: #2D2926;
+  /* link text on white, the two light accents darkened by 40 percent */
+  --oo-peach-text: #916926;
+  --oo-sprout-text: #6B7C28;
+  /* radii of the product theme */
+  --oo-radius-lg: 10px;
+  --oo-radius: 8px;
+  --oo-radius-sm: 6px;
+  --oo-radius-panel: 20px;
+}
+
+[data-md-color-primary=custom] {
+  --md-primary-fg-color: #126365;
+  --md-primary-fg-color--light: #2E8486;
+  --md-primary-fg-color--dark: #0F5456;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.85);
+}
+
+[data-md-color-accent=custom] {
+  --md-accent-fg-color: #0F5456;
+  --md-accent-fg-color--transparent: rgba(18, 99, 101, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.85);
+}
+
+/* headings in chocolate; the dark scheme keeps Material's light heading ink */
+[data-md-color-scheme=default] .md-typeset h1, [data-md-color-scheme=default] .md-typeset h2, [data-md-color-scheme=default] .md-typeset h3, [data-md-color-scheme=default] .md-typeset h4, [data-md-color-scheme=default] .md-typeset h5, [data-md-color-scheme=default] .md-typeset h6 {
+  color: var(--oo-chocolate);
+}
+
+/* Sea is too dark to be link or accent ink on the slate ground, so the dark
+   scheme uses a lightened sea. #6FC2C4 on the slate background is 8.7:1. */
+[data-md-color-scheme=slate] {
+  --md-typeset-a-color: #6FC2C4;
+}
+[data-md-color-scheme=slate][data-md-color-accent=custom] {
+  --md-accent-fg-color: #9AD7D8;
+  --md-accent-fg-color--transparent: rgba(111, 194, 196, 0.1);
+  --md-accent-bg-color: #12151A;
+  --md-accent-bg-color--light: rgba(18, 21, 26, 0.7);
+}
+
+/* ============================================================================
+   4) Start page (docs/index.md and docs/index.de.md)
+   ----------------------------------------------------------------------------
+   No rule in this block declares a font size. Everything inherits Material's
+   body size (.md-typeset, .8rem) or Material's heading sizes. Only the icon
+   font is sized explicitly.
+   ========================================================================== */
+.md-typeset {
+  /* ---- the brand wash that carries the hero and the search panel -------- */
+  /* ---- hero: text left, wordmark right --------------------------------- */
+  /* ---- search and Sophia ----------------------------------------------- */
+  /* empty without JavaScript, and then it must not take part in the row */
+  /* ---- the three entrance cards ---------------------------------------- */
+  /* the three bands. Every pair is measured in the comment at the top. */
+  /* ---- quick start, one accent per column ------------------------------ */
+  /* No coloured top rule: on a 10px corner the rule bends and reads as a
+     defect. The accent sits in the icon tile instead, which is the same
+     device the three entrance cards use inside their band, so every card on
+     the page belongs to one family. */
+  /* ---- 2: the map link is not a fourth manual link ---------------------- */
+  /* ---- 3: the teaser under the version line ----------------------------- */
+  /* ---- 8: the language switch, under the wordmark ----------------------- */
+  /* ---- 6: the eLearning Journal block stands on its own ----------------- */
+  /* ---- foot strip ------------------------------------------------------ */
+  /* ---- the dark scheme -------------------------------------------------
+     The bands keep their brand tone: they are self-contained colour pairs
+     that pass AA on their own. The link and accent inks are lightened,
+     because sea, forest and berry are all too dark on the slate ground. */
+}
+.md-typeset .oo-home-panel {
+  margin: 0 0 1.6em;
+  padding: 1.6em 1.6em 1.4em;
+  border-radius: var(--oo-radius-panel);
+  background-color: var(--md-default-bg-color);
+  background-image: linear-gradient(105deg, rgba(18, 99, 101, 0.1) 0%, rgba(178, 207, 66, 0.14) 46%, rgba(242, 175, 64, 0.16) 100%);
+}
+.md-typeset .oo-home-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.6em;
+}
+.md-typeset .oo-home-hero__text {
+  flex: 1 1 auto;
+  min-width: 0;
+  order: 1;
+}
+.md-typeset .oo-home-hero__mark {
+  flex: 0 0 auto;
+  order: 2;
+  margin: 0 0 0 auto;
+}
+.md-typeset .oo-home-hero h1 {
+  /* no colour here: the scheme rules above set it, chocolate in the light
+     scheme and Material's light ink in the dark one */
+  margin: 0 0 0.3em;
+}
+.md-typeset .oo-home-lede {
+  margin: 0 0 0.6em;
+  max-width: 34em;
+}
+.md-typeset .oo-home-version {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0;
+  padding: 0.25em 0.75em;
+  border-radius: var(--oo-radius-sm);
+  background: var(--md-default-bg-color);
+  color: var(--md-typeset-a-color);
+  font-weight: 700;
+}
+.md-typeset .oo-home-mark {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+.md-typeset .oo-home-ask {
+  margin: 1.2em 0 0;
+  padding: 1.1em 1.2em 1em;
+  border-radius: var(--oo-radius-panel);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .oo-home-ask__h {
+  margin: 0 0 0.6em;
+}
+.md-typeset .oo-home-ask__row {
+  position: relative; /* the relocated result panel anchors here */
+  display: flex;
+  gap: 0.5em;
+  align-items: stretch;
+}
+.md-typeset .oo-home-ask__form {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 0.5em;
+  align-items: stretch;
+  min-width: 0;
+}
+.md-typeset .oo-home-searchslot:empty {
+  display: none;
+}
+.md-typeset .oo-home-searchslot {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.md-typeset .oo-home-ask__field {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  min-width: 0;
+  padding: 0 0.9em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: var(--oo-radius);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .oo-home-ask__field:focus-within {
+  border-color: var(--oo-sea);
+  box-shadow: 0 0 0 3px rgba(18, 99, 101, 0.18);
+}
+.md-typeset .oo-home-ask__field .o_icon {
+  color: var(--md-default-fg-color--light);
+  flex: none;
+}
+.md-typeset .oo-home-ask__field input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 2.8em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--md-typeset-color);
+  font: inherit;
+}
+.md-typeset .oo-home-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  padding: 0 1.1em;
+  min-height: 2.8em;
+  border: 1px solid transparent;
+  border-radius: var(--oo-radius);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.md-typeset .oo-home-btn--primary {
+  background: var(--oo-sea);
+  border-color: var(--oo-sea);
+  color: #fff;
+}
+.md-typeset .oo-home-btn--primary:hover {
+  background: var(--oo-sea-dark);
+  border-color: var(--oo-sea-dark);
+}
+.md-typeset .oo-home-btn--ghost {
+  background: var(--md-default-bg-color);
+  border-color: var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+}
+.md-typeset .oo-home-btn--ghost:hover {
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset .oo-home-ask__note {
+  margin: 0.8em 0 0;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .oo-home-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0.7em 0 0;
+}
+.md-typeset .oo-home-chips__label {
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .oo-home-chip {
+  padding: 0.2em 0.75em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: var(--oo-radius-sm);
+  color: var(--md-typeset-color);
+}
+.md-typeset .oo-home-chip:hover {
+  border-color: var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+}
+.md-typeset .oo-home-cards,
+.md-typeset .oo-home-qs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9em;
+  margin: 0 0 1.6em;
+}
+.md-typeset .oo-home-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--oo-radius-lg);
+  background: var(--md-default-bg-color);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.md-typeset .oo-home-card:hover {
+  box-shadow: var(--md-shadow-z2);
+  transform: translateY(-1px);
+}
+.md-typeset .oo-home-card__band {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.8em 0.9em;
+}
+.md-typeset .oo-home-card__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.4em;
+  height: 2.4em;
+  border-radius: var(--oo-radius-sm);
+}
+.md-typeset .oo-home-card__band h2 {
+  margin: 0;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.md-typeset .oo-home-card__band h2 a,
+.md-typeset .oo-home-card__band h2 a:hover {
+  color: inherit;
+}
+.md-typeset .oo-home-card__meta {
+  display: block;
+  margin: 0;
+  color: inherit;
+  opacity: 0.85;
+}
+.md-typeset .oo-home-card__body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0.9em 0.9em 1em;
+}
+.md-typeset .oo-home-card__body > p {
+  margin: 0 0 0.7em;
+}
+.md-typeset .oo-home-card__body ul {
+  margin: 0 0 0.7em;
+  padding: 0 0 0 1.2em;
+}
+.md-typeset .oo-home-card__links {
+  list-style: none;
+  margin: auto 0 0;
+  padding: 0;
+}
+.md-typeset .oo-home-card__links li {
+  margin: 0.25em 0;
+}
+.md-typeset .oo-home-card__links a {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-weight: 700;
+}
+.md-typeset .oo-home-card--news .oo-home-card__band {
+  background: var(--oo-peach);
+  color: var(--oo-ink);
+}
+.md-typeset .oo-home-card--howto .oo-home-card__band {
+  background: var(--oo-sprout);
+  color: var(--oo-ink);
+}
+.md-typeset .oo-home-card--news .oo-home-card__tile,
+.md-typeset .oo-home-card--howto .oo-home-card__tile {
+  background: rgba(45, 41, 38, 0.13);
+}
+.md-typeset .oo-home-card--manual .oo-home-card__band {
+  background: var(--oo-sea);
+  color: #fff;
+}
+.md-typeset .oo-home-card--manual .oo-home-card__tile {
+  background: rgba(255, 255, 255, 0.2);
+}
+.md-typeset .oo-home-qs__col {
+  padding: 0.9em 1em 1em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--oo-radius-lg);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .oo-home-qs__head {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0 0 0.6em;
+}
+.md-typeset .oo-home-qs__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.4em;
+  height: 2.4em;
+  border-radius: var(--oo-radius-sm);
+  color: var(--oo-accent);
+  background: var(--oo-accent-tint);
+}
+.md-typeset .oo-home-card__links li.oo-home-card__link--apart {
+  margin-top: 1.1em;
+}
+.md-typeset .oo-home-teaser {
+  margin: 0.35em 0 0;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .oo-home-lang {
+  margin: 0.7em 0 0;
+}
+.md-typeset .oo-home-langbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.35em 0.9em;
+  border: 1px solid var(--md-typeset-a-color);
+  border-radius: var(--oo-radius);
+  color: var(--md-typeset-a-color);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .oo-home-langbtn:hover {
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset .oo-home-langbtn .o_icon {
+  flex: none;
+}
+.md-typeset .oo-home-elj {
+  display: flow-root; /* contains the floated badge */
+  margin: 2.8em 0;
+}
+.md-typeset .oo-home-qs__col h3 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.md-typeset .oo-home-qs__col > p {
+  margin: 0 0 0.6em;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .oo-home-qs__col ol {
+  margin: 0;
+  padding: 0 0 0 1.3em;
+}
+.md-typeset .oo-home-qs__col li {
+  margin: 0.25em 0;
+}
+.md-typeset .oo-home-qs--learn {
+  --oo-accent: var(--oo-sea);
+  --oo-accent-tint: rgba(18, 99, 101, 0.12);
+}
+.md-typeset .oo-home-qs--teach {
+  --oo-accent: var(--oo-forest);
+  --oo-accent-tint: rgba(17, 98, 79, 0.12);
+}
+.md-typeset .oo-home-qs--admin {
+  --oo-accent: var(--oo-berry);
+  --oo-accent-tint: rgba(143, 31, 64, 0.12);
+}
+.md-typeset .oo-home-foot {
+  /* the eLearning Journal badge above floats left */
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4em;
+  margin: 2.4em 0 0;
+  padding: 1.2em 0 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .oo-home-foot h3 {
+  margin: 0 0 0.3em;
+  font-weight: 700;
+}
+.md-typeset .oo-home-foot ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.md-typeset .oo-home-foot li {
+  margin: 0.2em 0;
+}
+[data-md-color-scheme=slate] .md-typeset {
+  /* the wash is mixed for a white ground; on the slate ground the same
+     alphas read as mud, so they are halved */
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-panel {
+  background-image: linear-gradient(105deg, rgba(18, 99, 101, 0.22) 0%, rgba(178, 207, 66, 0.07) 46%, rgba(242, 175, 64, 0.07) 100%);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-card--news .oo-home-card__links a,
+[data-md-color-scheme=slate] .md-typeset .oo-home-card--howto .oo-home-card__links a {
+  color: var(--md-typeset-a-color);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--learn {
+  --oo-accent: #6FC2C4;
+  --oo-accent-tint: rgba(111, 194, 196, 0.14);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--teach {
+  --oo-accent: #63C0A5;
+  --oo-accent-tint: rgba(99, 192, 165, 0.14);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--admin {
+  --oo-accent: #E495AC;
+  --oo-accent-tint: rgba(228, 149, 172, 0.14);
+}
+
+/* the per-card link ink, light scheme only */
+[data-md-color-scheme=default] .md-typeset .oo-home-card--news .oo-home-card__links a {
+  color: var(--oo-peach-text);
+}
+[data-md-color-scheme=default] .md-typeset .oo-home-card--howto .oo-home-card__links a {
+  color: var(--oo-sprout-text);
+}
+
+/* the wordmark: one file per scheme, because the chocolate lettering of the
+   light file disappears on the slate ground */
+[data-md-color-scheme=default] .md-typeset .oo-home-mark--dark,
+[data-md-color-scheme=slate] .md-typeset .oo-home-mark--light {
+  display: none;
+}
+
+/* ---- one column below Material's medium breakpoint ---------------------- */
+@media screen and (max-width: 59.9375em) {
+  .md-typeset {
+    /* The field takes the first line, the two buttons split the second.
+       Stacking all three made the block three rows tall on a phone. */
+  }
+  .md-typeset .oo-home-cards,
+  .md-typeset .oo-home-qs,
+  .md-typeset .oo-home-foot {
+    grid-template-columns: 1fr;
+  }
+  .md-typeset .oo-home-panel {
+    padding: 1.2em 1em 1em;
+    border-radius: var(--oo-radius-lg);
+  }
+  .md-typeset .oo-home-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8em;
+  }
+  .md-typeset .oo-home-hero__mark {
+    order: 0;
+    margin: 0;
+  }
+  .md-typeset .oo-home-hero__text {
+    order: 1;
+  }
+  .md-typeset .oo-home-mark {
+    width: 150px;
+  }
+  .md-typeset .oo-home-ask {
+    padding: 1em;
+    border-radius: var(--oo-radius-lg);
+  }
+  .md-typeset .oo-home-ask__row {
+    flex-wrap: wrap;
+  }
+  .md-typeset .oo-home-searchslot {
+    flex: 1 1 100%;
+  }
+  .md-typeset .oo-home-ask__form {
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+  }
+  .md-typeset .oo-home-ask__field {
+    flex: 1 1 100%;
+  }
+  .md-typeset .oo-home-btn {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .md-typeset .oo-home-elj {
+    margin: 2.4em 0;
+  }
+}
+/* ============================================================================
+   5) Start page: Material's search, relocated into the big field
+   ----------------------------------------------------------------------------
+   extra.js moves .md-search out of the header into the slot inside the search
+   panel and sets the class oo-home-live-search on <html>. Material keeps every
+   binding, because it resolves its elements by selector and the element object
+   is unchanged. What does break is the theme CSS: every open-state rule reads
+     [data-md-toggle=search]:checked ~ .md-header .md-search__...
+   and stops matching once the element leaves the header. The rules below are
+   the replacement, and they are deliberately small: the panel is a plain
+   absolutely positioned box under the field, with no overlay, no scale
+   animation and no fixed positioning.
+
+   No rule here sets a font size. .md-search__input keeps the theme's .9rem,
+   which is larger than the .8rem body size.
+   ========================================================================== */
+html.oo-home-live-search {
+  /* the header has no search on this page any more */
+  /* the magnifier extra.js puts into the form */
+  /* the results, directly under the field and as wide as the whole row */
+  /* the fallback field is redundant once the live one is in place. Both
+     buttons stay: "Search" submits ?q=, "Ask Sophia" submits ?sophia=, and
+     extra.js copies the typed text into the hidden field first. */
+}
+html.oo-home-live-search .md-header label[for=__search],
+html.oo-home-live-search .md-header .md-search {
+  display: none;
+}
+html.oo-home-live-search .oo-home-searchslot {
+  /* the parts that only make sense in the header overlay */
+  /* the field itself, matching the fallback field of the no-JS path */
+}
+html.oo-home-live-search .oo-home-searchslot .md-search {
+  display: block;
+  position: static;
+  padding: 0;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__overlay,
+html.oo-home-live-search .oo-home-searchslot .md-search__options,
+html.oo-home-live-search .oo-home-searchslot .md-search__suggest,
+html.oo-home-live-search .oo-home-searchslot .md-search__icon {
+  display: none;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__inner {
+  position: static;
+  float: none;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transform: none;
+  transition: none;
+  overflow: visible;
+  pointer-events: auto;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__form {
+  position: relative;
+  height: 2.9em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: var(--oo-radius);
+  background-color: var(--md-default-bg-color);
+  box-shadow: none;
+  color: var(--md-typeset-color);
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__form:focus-within {
+  border-color: var(--oo-sea);
+  box-shadow: 0 0 0 3px rgba(18, 99, 101, 0.18);
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__input {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.9em 0 2.7em;
+  background: transparent;
+  color: var(--md-typeset-color);
+  text-overflow: ellipsis;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__input::placeholder {
+  color: var(--md-default-fg-color--light);
+  opacity: 1;
+}
+html.oo-home-live-search .oo-home-searchslot__icon {
+  position: absolute;
+  top: 50%;
+  left: 0.9em;
+  transform: translateY(-50%);
+  color: var(--md-default-fg-color--light);
+  pointer-events: none;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__output {
+  position: absolute;
+  top: calc(100% + 0.4em);
+  left: 0;
+  right: 0;
+  z-index: 3; /* below the sticky header, which is 4 */
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: var(--oo-radius);
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z3);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+}
+html.oo-home-live-search .oo-home-ask__row--open .oo-home-searchslot .md-search__output {
+  opacity: 1;
+  visibility: visible;
+}
+html.oo-home-live-search .oo-home-searchslot .md-search__scrollwrap {
+  width: auto;
+  height: auto;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+html.oo-home-live-search .oo-home-ask__field {
+  display: none;
+}
+html.oo-home-live-search .oo-home-ask__form {
+  flex: 0 0 auto;
+}
+
+@media screen and (max-width: 59.9375em) {
+  html.oo-home-live-search .oo-home-ask__form {
+    flex: 1 1 100%;
+  }
+}
+/* ============================================================================
+   6) "What is in OpenOlat": the two-layer map above the cards
+   ----------------------------------------------------------------------------
+   The map has its own stylesheet, docs/stylesheets/oo-map.css, registered in
+   mkdocs.yml after extra.css. It is a reduced port of the internal
+   concept-map viewer and is kept as plain CSS next to the viewer it comes
+   from, so its rules can be compared line by line.
+   ========================================================================== */
 
 /* --- VERSUCH 11.09.2026: Fliessueberschrift fuer Feldlisten (Kriterium 3.19) ---
    H4 und H5 stehen in derselben Zeile wie ihr erster Absatz oder ihre Liste.

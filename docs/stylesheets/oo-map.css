@@ -1,0 +1,330 @@
+/* ============================================================================
+   "What is in OpenOlat": the two-layer map above the cards
+   ----------------------------------------------------------------------------
+   A reduced port of the internal concept-map viewer
+   (fxIntelligence/knowledge/openolat/concept-map/index.html). The rules below
+   are that viewer's rules, renamed to the .oo-map namespace and stripped of
+   everything the two-layer map does not have: no tabs, no search, no filter
+   bar, no zoom control, no window mode, no split handle, no sphere.
+
+   What is kept verbatim in shape and value: the night-sky frame (.gwrap.sky),
+   the breadcrumb (.crumbs), the callout tooltip with its rotated arrow
+   (.gtip), and the detail panel (.detail / .dtitle / .desc / a.mlink).
+
+   The map is written by docs/javascripts/oo-map.js. Without JavaScript the
+   container stays hidden and every card is visible, so the page still works.
+
+   Plain CSS on purpose: extra.scss compiles to extra.css, and this file must
+   stay readable next to the viewer it comes from.
+
+   2026, frentix GmbH, https://frentix.com
+   ========================================================================== */
+
+.md-typeset .oo-map[hidden] {
+	display: none;
+}
+
+/* oo-map.js narrows the cards by setting the hidden attribute. Material
+   declares display on both the grid and its items, which beats the
+   user-agent rule for [hidden], so the attribute needs saying again.
+   Scoped to the elements the filter touches, never global. */
+.md-typeset .grid.cards[hidden],
+.md-typeset .grid.cards > ul > li[hidden],
+.md-typeset h2[hidden],
+.md-typeset p[hidden] {
+	display: none;
+}
+
+.md-typeset .oo-map__lead {
+	color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .oo-map {
+	/* The viewer's palette. --accent is the OpenOlat sea, which is the docs'
+	   own accent and within one step of the viewer's #135e5f. */
+	--oo-map-surface: var(--md-default-bg-color);
+	--oo-map-surface-2: #f2f3ee;
+	--oo-map-border: #dcded3;
+	--oo-map-border-2: #c4c8b9;
+	--oo-map-ink: var(--md-typeset-color);
+	--oo-map-ink-2: var(--md-default-fg-color--light);
+	--oo-map-muted: var(--md-default-fg-color--light);
+	--oo-map-accent: var(--oo-sea, #126365);
+	--oo-map-accent-soft: rgba(18, 99, 101, 0.10);
+	--oo-map-shadow: 0 1px 2px rgba(45, 41, 38, 0.07),
+		0 10px 28px -20px rgba(45, 41, 38, 0.38);
+	margin: 0 0 2em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .oo-map {
+	--oo-map-surface-2: #23262b;
+	--oo-map-border: #3a3f46;
+	--oo-map-border-2: #4b515a;
+	--oo-map-accent: #6FC2C4;
+	--oo-map-accent-soft: rgba(111, 194, 196, 0.14);
+	--oo-map-shadow: 0 1px 2px rgba(0, 0, 0, 0.45),
+		0 10px 28px -20px rgba(0, 0, 0, 0.75);
+}
+
+/* ---- the stage: drawing above, detail below ------------------------------ */
+
+.md-typeset .oo-map__stage {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	min-width: 0;
+}
+
+/* the canvas paints its own night sky, so the frame must not sit on top */
+.md-typeset .oo-map__wrap {
+	position: relative;
+	border: 1px solid var(--oo-map-border);
+	border-radius: 12px;
+	overflow: hidden;
+	background: #0c1526;
+	box-shadow: var(--oo-map-shadow);
+}
+
+/* the viewer draws on a landscape stage; a square one leaves the ring
+   stranded in the middle of an empty box */
+.md-typeset .oo-map__canvas {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 10;
+	min-height: 350px;
+	max-height: 540px;
+	touch-action: manipulation;
+	cursor: default;
+}
+
+.md-typeset .oo-map__canvas:focus-visible {
+	outline: 2px solid #5fd0cb;
+	outline-offset: -3px;
+}
+
+/* ---- breadcrumb: rides on the drawing, at its top edge ------------------- */
+
+.md-typeset .oo-map__crumbs {
+	position: absolute;
+	left: 14px;
+	top: 9px;
+	z-index: 6;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex-wrap: wrap;
+	min-height: 26px;
+	color: #e7eeed;
+	font-size: 0.8rem;
+}
+
+.md-typeset .oo-map__crumbs button {
+	font: inherit;
+	cursor: pointer;
+	background: none;
+	border: 0;
+	padding: 2px 6px;
+	color: #5fd0cb;
+	border-radius: 4px;
+}
+
+.md-typeset .oo-map__crumbs button:hover {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+.md-typeset .oo-map__crumbs button:focus-visible {
+	outline: 2px solid #5fd0cb;
+	outline-offset: 1px;
+}
+
+.md-typeset .oo-map__crumbs .sep {
+	color: #8fa3ad;
+}
+
+.md-typeset .oo-map__crumbs .cur {
+	font-weight: 700;
+	color: #fff;
+	padding: 2px 6px;
+}
+
+/* ---- the callout ---------------------------------------------------------
+   Not a cursor tooltip: it sits on the free side of the node it explains and
+   points at it, so the dot and its label stay visible under the pointer. The
+   side and the arrow offset (--ap, along the facing edge) are set by the
+   script every frame. */
+
+.md-typeset .oo-map__tip {
+	position: absolute;
+	pointer-events: none;
+	z-index: 5;
+	max-width: 280px;
+	padding: 8px 10px;
+	border-radius: 8px;
+	background: var(--oo-map-surface);
+	border: 1px solid var(--oo-map-border-2);
+	box-shadow: var(--oo-map-shadow);
+	font-size: 0.75rem;
+	line-height: 1.4;
+	color: var(--oo-map-ink);
+}
+
+.md-typeset .oo-map__tip::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: var(--oo-map-surface);
+	border: 1px solid var(--oo-map-border-2);
+	transform: rotate(45deg);
+}
+
+.md-typeset .oo-map__tip[data-side="right"]::before {
+	left: -6px;
+	top: calc(var(--ap, 50%) - 5px);
+	border-right: 0;
+	border-top: 0;
+}
+
+.md-typeset .oo-map__tip[data-side="left"]::before {
+	right: -6px;
+	top: calc(var(--ap, 50%) - 5px);
+	border-left: 0;
+	border-bottom: 0;
+}
+
+.md-typeset .oo-map__tip[data-side="below"]::before {
+	top: -6px;
+	left: calc(var(--ap, 50%) - 5px);
+	border-bottom: 0;
+	border-right: 0;
+}
+
+.md-typeset .oo-map__tip[data-side="above"]::before {
+	bottom: -6px;
+	left: calc(var(--ap, 50%) - 5px);
+	border-top: 0;
+	border-left: 0;
+}
+
+.md-typeset .oo-map__tip b {
+	display: block;
+	font-size: 0.85rem;
+	margin-bottom: 3px;
+}
+
+.md-typeset .oo-map__tip .t {
+	display: block;
+	color: var(--oo-map-muted);
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+/* ---- the detail panel ---------------------------------------------------- */
+
+.md-typeset .oo-map__detail:empty {
+	display: none;
+}
+
+.md-typeset .oo-map__detail .detail {
+	border-top: 2px solid var(--oo-map-accent);
+	background: var(--oo-map-surface-2);
+	padding: 16px 18px 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+	border-radius: 0 0 8px 8px;
+	min-width: 0;
+	overflow-x: hidden;
+}
+
+.md-typeset .oo-map__detail .dtitle {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: baseline;
+}
+
+.md-typeset .oo-map__detail .dtitle .de {
+	font-size: 1.35rem;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.md-typeset .oo-map__detail .dtitle .en {
+	color: var(--oo-map-muted);
+	font-size: 1rem;
+}
+
+.md-typeset .oo-map__detail .desc {
+	margin: 0;
+	padding: 12px 14px;
+	background: var(--md-default-bg-color);
+	border-left: 3px solid var(--oo-map-accent);
+	border-radius: 0 6px 6px 0;
+}
+
+.md-typeset .oo-map__detail .desc p {
+	margin: 0;
+	line-height: 1.55;
+	color: var(--oo-map-ink);
+}
+
+.md-typeset .oo-map__detail a.mlink {
+	color: var(--oo-map-accent);
+	text-decoration: none;
+	border-bottom: 1px solid var(--oo-map-accent);
+	align-self: flex-start;
+}
+
+.md-typeset .oo-map__detail a.mlink:hover {
+	background: var(--oo-map-accent-soft);
+}
+
+.md-typeset .oo-map__detail a.mlink .ext {
+	font-size: 0.8em;
+	margin-left: 4px;
+	opacity: 0.7;
+}
+
+.md-typeset .oo-map__detail .oo-map__hint {
+	margin: 0;
+	color: var(--oo-map-muted);
+	font-size: 0.85rem;
+}
+
+/* the live region that tells a screen reader what the map now shows */
+.md-typeset .oo-map__status {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* ---- narrow windows ------------------------------------------------------
+   The ring keeps its dynamics and only loses height; the script narrows the
+   label boxes to match. Labels stay at body size, so nothing shrinks below
+   the reading size of the page. */
+
+@media screen and (max-width: 38.75em) {
+	.md-typeset .oo-map__canvas {
+		aspect-ratio: auto;
+		height: 520px;
+		max-height: none;
+	}
+	.md-typeset .oo-map__tip {
+		max-width: 62vw;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.md-typeset .oo-map__canvas {
+		cursor: default;
+	}
+}

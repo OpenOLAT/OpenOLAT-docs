@@ -2,9 +2,11 @@
 ᴴₒᴴₒᴴₒ: true
 ---
 
+![OpenOlat logo with the claim infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png){ align=right width=200 }
+
 # User manual
 
-![OpenOlat logo with the claim infinite learning](../../assets/OpenOlat_Logo_claim_RGB.png)
+<div style="clear: both;"></div>
 
 <div class="grid cards" markdown>
 
@@ -53,5 +55,18 @@
 	[:octicons-arrow-right-24: General information](../learningresources/General_Information.md)
 
 	[:octicons-arrow-right-24: Course administration](../learningresources/Administration.md)
+
+
+-	:fontawesome-solid-puzzle-piece:{ .lg .middle }  __Modules__
+
+    ---
+
+	[:octicons-arrow-right-24: Areas and modules](../area_modules/index.md)
+
+	[:octicons-arrow-right-24: Learning resources](../learningresources/index.md)
+
+	[:octicons-arrow-right-24: Course elements](../learningresources/Course_Elements.md)
+
+	[:octicons-arrow-right-24: Test question types](../learningresources/Test_question_types.md)
 
 </div>
