@@ -38,7 +38,7 @@ Kursbesitzer:innen und Gruppenbetreuer:innen können eigene Gruppen in eigene Ku
 Die Datenschutz-Einstellungen gelten für **Kurse und Gruppen gleichermassen**. Sie steuern, wie das System reagiert, wenn Benutzer:innen manuell in einen Kurs oder eine Gruppe eingetragen werden. Schreiben sich Personen selbst ein, greifen diese Einstellungen nicht.
 
 
-#### Erzwungene E-Mail-Benachrichtigung bei Einladung [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
+### Erzwungene E-Mail-Benachrichtigung bei Einladung [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
 
 Legt pro Rolle der **einladenden** Person fest, ob beim manuellen Hinzufügen in einen Kurs oder eine Gruppe zwingend eine E-Mail-Benachrichtigung verschickt wird. Ist die Option für eine Rolle nicht aktiv, ist der E-Mail-Versand optional.
 
@@ -62,7 +62,7 @@ Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Ben
 
     ![Dialog beim ersten Anmeldevorgang mit ausstehender Mitgliedschaftsanfrage für einen Kurs, Optionen Akzeptieren und Ablehnen](assets/module_groups_membership_request_v1_de.png){ class="shadow lightbox" }
 
-##### Mitglieder dürfen Gruppe verlassen {: #leave_group}
+### Mitglieder dürfen Gruppe verlassen {: #leave_group}
 
 Diese Funktion legt fest, ob Mitglieder "ihre" Gruppen selbstständig verlassen dürfen. Die Einstellung wird nach der Rolle der Person definiert, die die Gruppe erstellt hat:
 

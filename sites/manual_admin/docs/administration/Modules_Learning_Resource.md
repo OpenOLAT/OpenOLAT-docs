@@ -2,7 +2,7 @@
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 
-![Settings tab in the Learning resource module with the sections Default settings, Notification, and Default role priority](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Settings tab in the Learning resource module with the sections Settings, Default setting, Notification and Default role priority, with the navigation path Administration > Modules > Learning resource highlighted](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#learning_resource)
 
@@ -20,11 +20,13 @@ Activating the first checkbox makes the pre-selection "In Preparation" visible f
 
 #### Course search {: #course_search}
 
-Course owners can activate [course search](../../manual_user/basic_concepts/Search_in_Course.md) in the course under `(Course) Administration > Settings > Toolbar tab` to search for content within the course.
+The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is configured per course, not in this module. Course owners activate it under `(Course) Administration > Settings > Toolbar tab`. The "Course search" button then appears in the toolbar of the course.
 
-![Course toolbar with the Course search button highlighted](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
+![Toolbar tab of the course settings with the activated Course search checkbox, row "Course search" highlighted](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" }
 
-The availability of this function can be switched on/off globally by administrators in this module. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+!!! note "Configuration in the course"
+    How course owners activate the course search and the other toolbar tools.<br>
+    [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)
 
 [To the top of the page ^](#learning_resource)
 
@@ -190,6 +192,7 @@ Course owners overwrite the setting for their course under:<br>
 
 **Mentioned on this page**<br>
 [Course search](../../manual_user/basic_concepts/Search_in_Course.md)<br>
+[Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
 [To module Taxonomy >](Modules_Taxonomy.md)
 
 [To the top of the page ^](#learning_resource)

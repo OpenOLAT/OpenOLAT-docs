@@ -2,7 +2,7 @@
 
 Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
-![Tab Einstellungen im Modul Lernressource mit den Abschnitten Standardeinstellung, Benachrichtigung und Standard-Rollenpriorität](assets/modules_learning_resource_tab_settings_v1_de.png){ class="shadow lightbox" }
+![Tab Einstellungen im Modul Lernressource mit den Abschnitten Einstellungen, Standardeinstellung, Benachrichtigung und Standard-Rollenpriorität, Navigationsweg Administration > Module > Lernressource hervorgehoben](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -23,11 +23,13 @@ Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:i
 
 #### Kurssuche {: #course_search}
 
-Kursbesitzer:innen können im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Toolbar` die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) aktivieren, um innerhalb des Kurses nach Inhalten zu suchen.
+Die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) wird pro Kurs konfiguriert, nicht in diesem Modul. Kursbesitzer:innen aktivieren sie unter `(Kurs-)Administration > Einstellungen > Tab Toolbar`. Danach erscheint der Button "Kurssuche" in der Toolbar des Kurses.
 
-![Kurs-Toolbar mit hervorgehobenem Button Kurssuche](assets/modules_repository_course_search_v1_de.png){ class="shadow lightbox" }
+![Tab Toolbar der Kurseinstellungen mit der aktivierten Checkbox Kurssuche, Zeile "Kurssuche" hervorgehoben](assets/modules_learning_resource_course_search_setting_v1_de.png){ class="shadow lightbox" }
 
-Die Verfügbarkeit dieser Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+!!! note "Konfiguration im Kurs"
+    Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar aktivieren.<br>
+    [Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -196,6 +198,7 @@ Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 
 **Auf dieser Seite erwähnt**<br>
 [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md)<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>
 [Zum Modul Taxonomie >](Modules_Taxonomy.de.md)
 
 [Zum Seitenanfang ^](#learning_resource)

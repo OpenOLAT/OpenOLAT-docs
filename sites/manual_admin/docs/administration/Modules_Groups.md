@@ -38,7 +38,7 @@ Course owners and group coaches can integrate their own groups into their own co
 The data privacy settings apply **equally to courses and groups**. They control how the system reacts when users are manually added to a course or group. If people enrol themselves, these settings do not apply.
 
 
-#### Mandatory email notification on invitation [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
+### Mandatory email notification on invitation [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9354)" }](https://track.frentix.com/issue/OO-9354){:target="_blank"} {: #mandatory_email}
 
 Defines per role of the **inviting** person whether an email notification must be sent when manually adding someone to a course or group. If the option is not active for a role, sending the email is optional.
 
@@ -62,7 +62,7 @@ Configurable roles: Users with no additional role, Authors, User managers, Roles
 
     ![Dialog at first login with a pending membership request for a course, options Accept and Decline](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
 
-##### Members are allowed to leave the group {: #leave_group}
+### Members are allowed to leave the group {: #leave_group}
 
 This function defines whether members are allowed to leave "their" groups on their own. The setting is defined according to the role of the person who created the group:
 
