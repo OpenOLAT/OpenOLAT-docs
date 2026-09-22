@@ -8,7 +8,7 @@ Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter 
 
 In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
-Daneben nennen die Kontoinformationen den Status des Kontos, die Identität, den Kontotyp, den Anmeldenamen und die E-Mail-Adresse. Über der Ansicht stellt die Aktion "Daten exportieren" die personenbezogenen Daten des Kontos zusammen, siehe [Datenschutz](Data_protection.de.md). An derselben Stelle lässt sich das Konto löschen, siehe [Benutzer:in löschen](Delete_User.de.md).
+Daneben nennen die Kontoinformationen den Status des Kontos, die Identität, den Kontotyp, den Anmeldenamen und die E-Mail-Adresse. Über der Ansicht stellt die Aktion "Daten exportieren" die personenbezogenen Daten des Kontos zusammen, siehe [Datenschutz](Data_protection.de.md). An derselben Stelle steht Administrator:innen die Aktion "Löschen" zur Verfügung, siehe [Benutzer:in löschen](Delete_User.de.md). Benutzerverwalter:innen und Rollenverwalter:innen sehen diese Aktion nicht.
 
 Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
@@ -93,7 +93,7 @@ Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfal
 
 Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis Ablauf" für das Datum, "Tage bis Inaktivierung" für den letzten Login.
 
-![Kontoablauf 31.12.2028 mit "In 837 Tage", darunter der Abschnitt Automatischer Kontolebenszyklus mit letztem Login und "In 710 Tage": Reiter Konto eines aktiven Kontos](assets/user_management_account_tab_active_v1_de.png){ class="shadow lightbox" }
+!["Tage bis Ablauf" zeigt "In 831 Tage" zum Kontoablauf 31.12.2028, "Tage bis Inaktivierung" zeigt "In 704 Tage": Reiter Konto eines aktiven Kontos](assets/user_management_account_tab_active_v2_de.png){ class="shadow lightbox" }
 
 Nach einer Reaktivierung kommt das Reaktivierungsdatum dazu, und die Frist trägt den Zusatz "(Karenzfrist)".
 
@@ -169,7 +169,7 @@ Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Per
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Projekte
+### Projekte [:octicons-tag-16:{ title="ab Release 19.1.0 (OO-7417)" }](https://track.frentix.com/issue/OO-7417)
 
 Unter diesem Tab werden alle Projekte aufgelistet, in denen dieser/diese Benutzer:in Mitglied ist. 
 
@@ -200,9 +200,9 @@ Hier sind die erworbenen Kreditpunkte des/der Benutzer:in angezeigt.
 
 ### Leistungsnachweise
 
-Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in aus Kursen angezeigt. Neben den Spalten für Punkte, Erfolgsstatus und Fortschritt lassen sich weitere Spalten einblenden, darunter "Bewertung" mit der erreichten Note (bei aktivem Notenmodul) und die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in aus Kursen angezeigt. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
-<h4>Leistungsnachweis löschen</h4>
+#### Leistungsnachweis löschen {: #delete_evidence }
 
 Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.  
 
@@ -227,7 +227,7 @@ Unter diesem Reiter werden alle erworbenen Badges angezeigt.
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Nachteilsausgleich
+### Nachteilsausgleich [:octicons-tag-16:{ title="ab Release 15.3 (OO-4934)" }](https://track.frentix.com/issue/OO-4934)
 
 Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
 
@@ -289,7 +289,7 @@ Was die einzelnen Tabs zeigen, beschreibt der Abschnitt [Die Liste filtern](../.
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Korrekturaufträge
+### Korrekturaufträge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4447)" }](https://track.frentix.com/issue/OO-4447)
 
 Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeordnet wurden.
 
@@ -307,6 +307,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 [Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
+[Module: Übersicht >](../administration/Modules.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 

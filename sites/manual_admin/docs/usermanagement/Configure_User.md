@@ -9,7 +9,7 @@ A maximum of the tabs listed below are available for configuration for each user
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
-Besides that, the account information states the status of the account, the identity, the account type, the username and the email address. Above the view, the action "Export data" compiles the personal data of the account, see [Data protection](Data_protection.md). At the same place the account can be deleted, see [Delete user](Delete_User.md).
+Besides that, the account information states the status of the account, the identity, the account type, the username and the email address. Above the view, the action "Export data" compiles the personal data of the account, see [Data protection](Data_protection.md). At the same place, administrators have the action "Delete" available, see [Delete user](Delete_User.md). User managers and roles managers do not see this action.
 
 Each user account is maintained independently; accounts are not merged. What a person has achieved in OpenOlat, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
 
@@ -94,7 +94,7 @@ If the toggles are off, no automatic process takes effect and the periods are om
 
 An active account with a stored expiry date carries both periods next to each other: "Days until expiry" for the date, "Days until inactivation" for the last login.
 
-![Account expiration 12/31/2028 with "In 837 days", below it the section Automatic user lifecycle with last login and "In 710 days": Account tab of an active account](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" }
+!["Days until expiry" shows "In 837 days" for the account expiration 12/31/2028, "Days until inactivation" shows "In 710 days": Account tab of an active account](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" }
 
 After a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
 
@@ -170,7 +170,7 @@ The list carries single learning resources with the course and group roles of th
 [To the top of the page ^](#user_configuration)
 
 
-### Projects
+### Projects [:octicons-tag-16:{ title="from Release 19.1.0 (OO-7417)" }](https://track.frentix.com/issue/OO-7417)
 
 All projects in which this user is a member are listed under this tab. 
 
@@ -201,9 +201,9 @@ The user's acquired credit points are displayed here.
 
 ### Evidence of achievements
 
-The evidence of achievements, points and progress of a user from courses are displayed here. In addition to the columns for points, success status and progress, further columns can be shown, including "Rating" with the achieved grade (if the grading module is active) and the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+The evidence of achievements, score and progress of a user from courses are displayed here. The table lists "Progress", "Score" and "Passed" per course; if the grading module is active, the "Rating" column with the achieved grade is added. Use the gear "Displayed columns" to show further columns, among them the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
-<h4>Delete evidence of achievement</h4>
+#### Delete evidence of achievement {: #delete_evidence }
 
 Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="from Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
 
@@ -228,7 +228,7 @@ This tab displays all the badges you have purchased.
 [To the top of the page ^](#user_configuration)
 
 
-### Compensation for disadvantages
+### Compensation for disadvantages [:octicons-tag-16:{ title="from Release 15.3 (OO-4934)" }](https://track.frentix.com/issue/OO-4934)
 
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab. The dialog "Add disadvantage compensation" requires "Approved by", "Approval date", "Extra time (minutes)" and the course. The field "Course element" narrows the compensation down to a single test of the course.
 
@@ -291,7 +291,7 @@ What the individual tabs show is described in the section [Filtering the list](.
 [To the top of the page ^](#user_configuration)
 
 
-### Grading assignments
+### Grading assignments [:octicons-tag-16:{ title="from Release 15.0 (OO-4447)" }](https://track.frentix.com/issue/OO-4447)
 
 Here you can check which grading assignments have been assigned to this user.
 
@@ -309,6 +309,7 @@ Here you can check which grading assignments have been assigned to this user.
 [Life cycles: Administration >](../administration/Life_cycles_-_Administration.md)<br>
 [Assign roles >](Assign_roles.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
+[Modules: Overview >](../administration/Modules.md)<br>
 [User roles >](index.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 

@@ -1,6 +1,6 @@
 # Kurseinstellungen - Tab Bewertung {: #tab_assessment}
 
-In Lernpfad-Kursen werden unter "Administration > Einstellungen" im Tab "Bewertung" die Einstellungen für die **Bewertungsmethode** und das **Bestehen** des Kurses definiert.<br>
+In Lernpfad-Kursen werden unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` die Einstellungen für die **Bewertungsmethode** und das **Bestehen** des Kurses definiert.<br>
 Ausserdem können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe von **Kreditpunkten**, **Zertifikaten** und **Badges** aktivieren. 
 
 Die Optionen dazu finden Sie in den Abschnitten
@@ -62,7 +62,7 @@ Es wird aus allen im Kurs erzielten Punkten die Summe gebildet.
 ---
 
 
-### Kursbewertung mit Punkten: Summe mit Gewichtung {: #evaluation_with_points_weighting}
+### Kursbewertung mit Punkten: Summe mit Gewichtung [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #evaluation_with_points_weighting}
 
 Bei der Summenbildung fliesst die Gewichtung mit ein.
 
@@ -99,9 +99,11 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
 Ist das Einstufungs-/Notenmodul aktiviert und wird der Kurs mit **Punkten** bewertet, können Sie mit der Option **"Mit Einstufung/Noten"** dem Kurs auf Kursebene eine Note zuweisen. Die Kursnote wird aus der Summe der Punkte der bewertbaren Kursbausteine gebildet (Summe, gewichtete Summe oder Durchschnitt gemäss der gewählten Punkteeinstellung) und über die gewählte **Bewertungsskala** in eine Note übersetzt.
 
-Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn das **Erfolgskriterium** der Bewertungsskala erfüllt ist. Die Einstellung "Mit Erfolgsstatus" wird in diesem Fall automatisch entsprechend gesetzt. Enthält die gewählte Bewertungsskala kein Erfolgskriterium, hat der Kurs auf Kursebene keinen Erfolgsstatus.
+Der Schalter lässt sich erst umlegen, wenn "Mit Punkten" eingeschaltet und "Mit Erfolgsstatus" ausgeschaltet ist. Fehlt eine der beiden Bedingungen, bleibt "Mit Einstufung/Noten" grau.
 
-Die Note wird manuell berechnet: Kursbesitzer:innen und berechtigte Betreuer:innen lösen die Berechnung im [Bewertungswerkzeug](Assessment_tool_overview.de.md) über die Aktion **"Einstufung/Noten zuweisen"** aus.
+Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn das **Erfolgskriterium** der Bewertungsskala erfüllt ist. "Mit Erfolgsstatus" bleibt dann ausgeschaltet und lässt sich nicht mehr ändern. Enthält die gewählte Bewertungsskala kein Erfolgskriterium, hat der Kurs auf Kursebene keinen Erfolgsstatus.
+
+Die Note wird nicht automatisch vergeben: Die "Zuweisung" steht fest auf "Manuell". Kursbesitzer:innen und berechtigte Betreuer:innen weisen die berechnete Note im [Bewertungswerkzeug](Assessment_tool_overview.de.md) zu. Damit auch Betreuende ohne Besitzrecht zuweisen können, setzen Kursbesitzer:innen im [Abschnitt Berechtigungen](#section_assessment_rights) die Option "Einstufung/Noten zuweisen".
 
 ![Eingeschaltete Einstellung "Mit Einstufung/Noten" mit Zuweisung, Bewertungsskala und Erfolgskriterium, darunter der ausgeschaltete Schalter "Mit Erfolgsstatus" mit seinem Hinweistext](assets/course_settings_assessment_grades_v1_de.png){ class="shadow lightbox" }
 
@@ -175,7 +177,7 @@ Wenn Sie die Funktion ausschalten, sehen Ihre Teilnehmenden keine Leistungsnachw
 ---
 
 
-## ![4](assets/4_green_24.png) Abschnitt Kreditpunkte {: #section_credit_points}
+## ![4](assets/4_green_24.png) Abschnitt Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #section_credit_points}
 
 ![Abschnitt Kreditpunkte mit Kreditpunktsystem, vergebenen Kreditpunkten und Gültigkeitsdauer](assets/course_settings_assessment_credit_points_v1_de.png){ class="lightbox" }
 
@@ -213,7 +215,7 @@ Wurde ein Zertifikat mit einer begrenzten Gültigkeitsdauer vergeben, kann ein *
 ---
 
 
-## ![6](assets/6_green_24.png) Abschnitt Badges {: #section_badges}
+## ![6](assets/6_green_24.png) Abschnitt Badges [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #section_badges}
 
 ![Abschnitt Badges mit aktiviertem Schalter Badges vergeben und den Optionen für die manuelle Vergabe durch Kursbesitzer und Betreuer](assets/course_settings_assessment_badges_v1_de.png){ class="lightbox" }
 

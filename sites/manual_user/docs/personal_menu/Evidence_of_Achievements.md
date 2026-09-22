@@ -27,7 +27,7 @@ Users find their evidence of achievement and, if activated, also their received 
 
 ### Evidence of achievement in the personal tools {: #where_in_pers_tools}
 
-The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, you can additionally show the "Rating" column with the achieved grade; the "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, the "Rating" column shows the achieved grade; it is displayed from the start. The "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 ![Opened column selection with the marked entries Reference and Rating, in the tool Evidence of achievement](assets/pers_menu_evid_of_achiev_columns_v1_en.png){ class="shadow lightbox"}
 

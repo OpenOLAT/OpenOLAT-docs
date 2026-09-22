@@ -1,6 +1,6 @@
 # Course Settings - Tab Assessment {: #tab_assessment}
 
-In learning path courses, the settings for the **assessment method** and the **pass** of the course are defined in this tab.<br>
+In learning path courses, the settings for the **assessment method** and the **pass** of the course are defined under `Course > Administration > Settings > Tab "Assessment"`.<br>
 You can also enable the use of **evidence of achievement** and the awarding of **credit points**, **certificates**, and **badges**. 
 
 You can find the options for this in the sections
@@ -61,7 +61,7 @@ The sum of all points achieved in the course is calculated.
 
 ---
 
-### Course assessment with points: Sum with weighting {: #evaluation_with_points_weighting}
+### Course assessment with points: Sum with weighting [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #evaluation_with_points_weighting}
 
 The weighting is taken into account when calculating the sum.
 
@@ -97,11 +97,13 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 ### Course assessment with levels/grading [:octicons-tag-16:{ title="from Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
 
-If the levels/grading module is enabled and the course is graded with **points**, you can use the **"With levels/grading"** option to assign a grade to the course at course level. The course grade is calculated from the sum of the points of the assessable course elements (sum, weighted sum, or average, depending on the selected points setting) and translated into a grade via the selected **rating scale**.
+If the levels/grading module is enabled and the course is graded with a **score**, you can use the **"With levels/grading"** option to assign a grade to the course at course level. The course grade is calculated from the sum of the score of the assessable course elements (sum, weighted sum, or average, depending on the selected scoring setting) and translated into a grade via the selected **rating scale**.
 
-If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. In this case, the "With success status" setting is set accordingly. If the selected rating scale has no success criterion, the course has no success status at course level.
+The toggle can only be switched once "With score" is on and "With success status" is off. As long as one of the two conditions is missing, "With levels/grading" stays greyed out.
 
-The grade is calculated manually: course owners and authorised coaches trigger the calculation in the [assessment tool](Assessment_tool_overview.md) via the action **"assign Levels/Grading"**.
+If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. "With success status" then stays switched off and can no longer be changed. If the selected rating scale has no success criterion, the course has no success status at course level.
+
+The grade is not assigned automatically: the "Assignment" is fixed to "Manually by coach". Course owners and authorised coaches apply the calculated grade in the [assessment tool](Assessment_tool_overview.md). So that coaches without ownership may apply it too, course owners set the "assign Levels/Grading" option in the [Assessment rights section](#section_assessment_rights).
 
 ![Enabled setting "With levels/grading" with assignment, rating scale and success criterion, below it the switched-off toggle "With success status" with its note](assets/course_settings_assessment_grades_v1_en.png){ class="shadow lightbox" }
 
@@ -168,7 +170,7 @@ If you deactivate this function, your participants will no longer see any eviden
 
 ---
 
-## ![4](assets/4_green_24.png) Section Credit points {: #section_credit_points}
+## ![4](assets/4_green_24.png) Section Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #section_credit_points}
 
 ![Credit points section with credit point system, awarded credit points and validity period](assets/course_settings_assessment_credit_points_v1_de.png){ class="lightbox" }
 
@@ -204,7 +206,7 @@ If a certificate with a limited period of validity has been issued, a **recertif
 
 ---
 
-## ![6](assets/6_green_24.png) Section Badges {: #section_badges}
+## ![6](assets/6_green_24.png) Section Badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #section_badges}
 
 ![Badges section with the Award badges switch enabled and the options for manual awarding by course owners and coaches](assets/course_settings_assessment_badges_v1_de.png){ class="lightbox" }
 
