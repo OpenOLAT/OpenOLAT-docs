@@ -433,13 +433,13 @@ You will find the **"Copy element"** action in the list of implementations at th
 
 In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied.
 
-![Title and reference of the copy as well as the options for course content, standalone events, to-dos and memberships, in the General settings step of the Copy element wizard](assets/course_planner_implementations_copy2_v2_en.png){ class="shadow lightbox" }  
+![Title and reference of the copy as well as the options for course content, standalone events, to-dos, room scheduling and memberships, in the General settings step of the Copy element wizard](assets/course_planner_implementations_copy2_v3_en.png){ class="shadow lightbox" }  
 
 The second step of the wizard shows you an overview of the elements that will now be copied.<br>
 You can still make adjustments here (especially to the events).<br>
 Click on the + in front of an element to display the courses and events of the element.
 
-![The elements to be copied with start, end and the counters #Courses, #Templates and #Events, one element expanded with its courses and events, in the Overview elements step](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
+![The elements to be copied with the counters #Courses, #Templates, #Events, #Rooms and #To-dos, one element expanded with the Rooms column in the Events table, in the Overview elements step](assets/course_planner_implementations_copy3_v2_en.png){ class="shadow lightbox" }  
 
 An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
 

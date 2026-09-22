@@ -446,13 +446,13 @@ Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am
 
 Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen.
 
-![Titel und Kennzeichen der Kopie sowie die Optionen für Kursinhalt, eigenständige Termine, To-dos und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v2_de.png){ class="shadow lightbox" }  
+![Titel und Kennzeichen der Kopie sowie die Optionen für Kursinhalt, eigenständige Termine, To-dos, Raumplanung und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v3_de.png){ class="shadow lightbox" }  
 
 Der zweite Schritt des Wizards zeigt Ihnen eine Übersicht der Elemente, die nun kopiert werden.<br>
 Sie können hier noch Anpassungen (insbesondere der Termine) vornehmen.<br>
 Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Elements an.
 
-![Die zu kopierenden Elemente mit Beginn, Ende und den Zählern #Kurse, #Templates und #Termine, ein Element mit Kursen und Terminen aufgeklappt, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
+![Die zu kopierenden Elemente mit den Zählern #Kurse, #Templates, #Termine, #Räume und #To-dos, ein Element aufgeklappt mit der Spalte Räume in der Tabelle Termine, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy3_v2_de.png){ class="shadow lightbox" }  
 
 In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
 
