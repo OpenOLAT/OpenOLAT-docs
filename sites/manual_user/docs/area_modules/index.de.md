@@ -11,8 +11,8 @@ Welche Tabs Sie sehen, entscheidet die Systemadministration zusammen mit Ihrer R
 
 Sie suchen einen Bereich und finden ihn nicht, eine Kollegin sieht ihn dagegen sehr wohl. Vier Bedingungen entscheiden darüber. Wer sie der Reihe nach durchgeht, findet die Ursache und weiss, wen er fragen muss.
 
-1. **Das Modul ist aktiviert.** Ohne aktives Modul erscheint der Bereich nicht, auch wenn die Site aktiviert ist. Den Katalog schalten Administrator:innen zum Beispiel im [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) ein.
-2. **Die Site ist aktiviert und einsortiert.** Die Systemadministration führt alle Sites in einer Liste. Das Kontrollkästchen "Aktiviert" gibt einen Eintrag frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest.
+1. **Das Modul ist aktiviert.** Ohne aktives Modul erscheint der Bereich nicht, auch wenn die Site aktiviert ist. Den Katalog schalten Administrator:innen zum Beispiel in der System-Administration ein, im [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md): `Administration > Module > Katalog`
+2. **Die Site ist aktiviert und einsortiert.** Die Systemadministration führt alle Sites in einer Liste: `Administration > Customizing > Sites`, Tab "Reihenfolge". Das Kontrollkästchen "Aktiviert" gibt einen Eintrag frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest.
 3. **Die Rolle hat Zugang.** Die Spalte "Zugang" derselben Liste bestimmt, welche Rollen den Tab sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb verschiedene Kopfzeilen.
 4. **In der Zeile ist Platz.** Was nicht mehr in die Kopfzeile passt, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Breite des Bildschirms ab, nicht von einer Einstellung.
 
@@ -45,9 +45,8 @@ Sie kennen den Bereich und suchen die Seite, die ihn erklärt. Die Tabelle führ
 | 14 | Absenzenverwaltung | [Absenzenverwaltung](Absence_Management.de.md) |
 | 15 | Qualitätsmanagement | [Qualitätsmanagement](Quality_Management.de.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.de.md), Administrationshandbuch |
-| | Portfolio | [Portfolio erstellen](Portfolio.de.md) |
 
-Das Portfolio trägt keine Nummer, weil die abgebildete Instanz es nicht anbietet.
+Das Portfolio erscheint nicht als Tab in der Kopfzeile. Sie öffnen es über die Persönlichen Werkzeuge als "Portfolio 2.0", beschrieben ist es unter [Portfolio erstellen](Portfolio.de.md).
 
 
 ## Weiterführende Informationen {: #further_information}

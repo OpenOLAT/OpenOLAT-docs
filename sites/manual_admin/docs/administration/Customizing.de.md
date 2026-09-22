@@ -107,11 +107,11 @@ Mit den Pfeilen am rechten Rand kann die Anzeigereihenfolge festgelegt werden.
 
 Der Eintrag "Coaching Werkzeug" kann [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) nicht deaktiviert werden, da das Coaching Tool obligatorisch ist: Die Checkbox "Aktiviert" ist ausgegraut. Die Anzeigereihenfolge und der Zugang lassen sich weiterhin anpassen.
 
-![Tab Reihenfolge auf der Seite Sites: die Checkbox Aktiviert der Zeile Coaching Werkzeug ist ausgegraut, die Pfeile Hoch und Runter bleiben nutzbar](assets/admin_customizing_sites_v2_de.png){ class="shadow lightbox" }
+![Checkbox Aktiviert der Zeile Coaching Werkzeug ausgegraut, Pfeile Hoch und Runter bleiben nutzbar, im Tab Reihenfolge auf der Seite Sites](assets/admin_customizing_sites_v2_de.png){ class="shadow lightbox" }
 
 Die Liste gilt für die ganze Instanz: Sie bestimmt, welche Tabs die Kopfzeile anbietet und in welcher Reihenfolge. Drei weitere Punkte entscheiden mit darüber, ob eine Person einen Tab sieht.
 
-**Das Modul muss aktiv sein.** Ein Eintrag erscheint nur, wenn zusätzlich das zugehörige Modul eingeschaltet ist. Ein aktivierter Eintrag "Katalog" bleibt ohne Wirkung, solange das [Modul Katalog](Modules_Catalog_2.0.de.md) ausgeschaltet ist.
+**Das Modul muss aktiv sein.** Ein Eintrag erscheint nur, wenn zusätzlich das zugehörige Modul eingeschaltet ist. Ein aktivierter Eintrag "Katalog" bleibt ohne Wirkung, solange das [Modul Katalog](Modules_Catalog_2.0.de.md) ausgeschaltet ist. Bei ausgeschaltetem Modul ist die Checkbox "Aktiviert" des Eintrags ausgegraut.
 
 **Die Spalte "Zugang" entscheidet je Rolle.** Sie bestimmt, welche Rollen den Tab sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb verschiedene Kopfzeilen.
 
@@ -125,11 +125,11 @@ Was die Anwender:innen zu den Bereichen der Kopfzeile im Benutzerhandbuch finden
 In den übrigen Tabs können individuell Infoseiten eingebunden werden, die via Hauptmenü in der Kopfzeile aufgerufen werden können. 
 Es können sowohl externe URLs sein, als auch OpenOlat-Lernressourcen (z.B. Kurse, die evtl. nur eine oder wenige Seiten enthalten).
 
-![Tab Infoseite auf der Seite Sites: je Sprache ein eigener Titel und eine eigene Lernressource, die Icon CSS Class bestimmt das Symbol des Tabs](assets/admin_customizing_infopage_v1_de.png){ class="shadow lightbox" }
+![Je Sprache ein eigener Titel und eine eigene Lernressource, die Icon CSS Class bestimmt das Symbol des Tabs, im Tab Infoseite auf der Seite Sites](assets/admin_customizing_infopage_v1_de.png){ class="shadow lightbox" }
 
 Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mit "Auswählen" öffnen Sie die Suche nach der referenzierbaren Lernressource. Erst dort verbinden Sie den Tab mit einem Kurs.
 
-![Dialog Referenzierbare Lernressource suchen: Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" }
+![Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen, im Dialog Referenzierbare Lernressource suchen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#customizing)
 

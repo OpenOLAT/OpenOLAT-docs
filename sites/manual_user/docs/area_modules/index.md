@@ -1,6 +1,6 @@
 # Area and modules {: #sites}
 
-When you work in OpenOlat, you switch between the large working areas through the top navigation bar: courses, groups, catalog, coaching. In OpenOlat such an area is called a site and appears as a tab in that bar. (The bar is sometimes also called "header".) Personal areas, in contrast, are accessed through the ["Personal Tools"](../personal_menu/Personal_Tools.md).
+When you work in OpenOlat, you switch between the large working areas through the top navigation bar: courses, groups, catalog, coaching. In OpenOlat such an area is called a site and appears as a tab in that bar. (The bar is sometimes also called "header".) Personal areas, in contrast, are accessed through the [Personal tools](../personal_menu/Personal_Tools.md).
 
 Which tabs you see is decided by the system administration together with your role. Every OpenOlat instance therefore composes and orders its header differently. The following image shows what is possible: an instance with almost all available areas. Most instances offer fewer.
 
@@ -11,8 +11,8 @@ Which tabs you see is decided by the system administration together with your ro
 
 You are looking for an area and cannot find it, while a colleague sees it. Four conditions decide about this. Going through them one by one leads to the cause and tells you whom to ask.
 
-1. **The module is activated.** Without an active module the area does not appear, even if the site is activated. Administrators switch on the catalog in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md), for example.
-2. **The site is activated and sorted in.** The system administration keeps all sites in one list. The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
+1. **The module is activated.** Without an active module the area does not appear, even if the site is activated. Administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
+2. **The site is activated and sorted in.** The system administration keeps all sites in one list: `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
 3. **The role has access.** The "Access" column of that same list determines which roles see the tab, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see different headers.
 4. **There is space in the bar.** What no longer fits into the header is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
 
@@ -33,8 +33,8 @@ You know the area and are looking for the page that explains it. The table lists
 | 2 | Courses | [Finding courses](Courses.md) |
 | 3 | Groups | [Group Management](Group_Management.md) |
 | 4 | Catalog | [Catalog 2.0](catalog2.0.md) |
-| 5 | Authoring area | [Authoring](Authoring.md) |
-| 6 | Question pool | [Question Bank](Question_Bank.md) |
+| 5 | Authoring | [Authoring](Authoring.md) |
+| 6 | Question bank | [Question Bank](Question_Bank.md) |
 | 7 | Document pool | [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md), administration manual |
 | 8 | Library | [Library](Library.md) |
 | 9 | Video Collection | [Video Collection](Video_Collection.md) |
@@ -45,9 +45,8 @@ You know the area and are looking for the page that explains it. The table lists
 | 14 | Absence management | [Absence management](Absence_Management.md) |
 | 15 | Quality management | [Quality Management](Quality_Management.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.md), administration manual |
-| | Portfolio | [Creating Portfolios](Portfolio.md) |
 
-The portfolio carries no number, because the instance shown does not offer it.
+The portfolio does not appear as a tab in the header. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
 
 
 ## Further information {: #further_information}
