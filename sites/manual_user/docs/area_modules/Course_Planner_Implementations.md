@@ -128,7 +128,7 @@ In the displayed tree structure, each individual element of the implementation c
 
 ![8](assets/8_green_24.png) Under the **3 points** you will find options for editing the elements.
 
-![The actions on an element: Open in new tab, Edit, Create new sub-element, Copy element, Member administration and Delete, in the menu of the 3 dots in the Structure tab](assets/course_planner_implementations_tab_structure2_v1_de.png){ class="shadow lightbox" }
+![The actions on an element: Open in a new tab, Edit, Move element, Create new sub-element, Copy element, Members management and Delete, in the menu of the 3 dots in the Structure tab](assets/course_planner_implementations_tab_structure2_v2_en.png){ class="shadow lightbox" }
 
 #### Move an element [:octicons-tag-16:{ title="from Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
@@ -144,7 +144,7 @@ After selecting a target position, the following actions appear directly on the 
 
 Click **Move element** to carry out the move.
 
-![The possible target positions as radio buttons with the actions Above, Below and Sub-element, the element to be moved highlighted in colour, in the Move element dialog](assets/course_planner_implementations_move_element_v1_en.png){ class="shadow lightbox" }
+![The possible target positions as radio buttons with the actions Above, Below and Sub-element, the element to be moved highlighted in colour, in the Move element dialog](assets/course_planner_implementations_move_element_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 

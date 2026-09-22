@@ -135,7 +135,7 @@ In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung be
 
 ![8](assets/8_green_24.png) Unter den **3 Punkten** finden Sie Optionen zum Bearbeiten der Elemente.
 
-![Die Aktionen am Element: In neuem Tab öffnen, Bearbeiten, Neues Unterelement erstellen, Element kopieren, Mitgliederverwaltung und Löschen, im Menü der drei Punkte im Tab Struktur](assets/course_planner_implementations_tab_structure2_v1_de.png){ class="shadow lightbox" }
+![Die Aktionen am Element: In neuem Tab öffnen, Bearbeiten, Element verschieben, Neues Unterelement erstellen, Element kopieren, Mitgliederverwaltung und Löschen, im Menü der drei Punkte im Tab Struktur](assets/course_planner_implementations_tab_structure2_v2_de.png){ class="shadow lightbox" }
 
 #### Ein Element verschieben [:octicons-tag-16:{ title="ab Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
@@ -151,7 +151,7 @@ Nach der Auswahl einer Zielposition erscheinen direkt am Element die Aktionen:
 
 Mit einem Klick auf **Element verschieben** wird die Verschiebung ausgeführt.
 
-![Die möglichen Zielpositionen als Radiobuttons mit den Aktionen Oben, Unten und Unterelement, das zu verschiebende Element farbig hervorgehoben, im Dialog Element verschieben](assets/course_planner_implementations_move_element_v1_de.png){ class="shadow lightbox" }
+![Die möglichen Zielpositionen als Radiobuttons mit den Aktionen Oben, Unten und Unterelement, das zu verschiebende Element farbig hervorgehoben, im Dialog Element verschieben](assets/course_planner_implementations_move_element_v2_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#implementations)
 

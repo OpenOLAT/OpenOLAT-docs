@@ -8,7 +8,9 @@ In order to delete, duplicate or move a course element, you have to select the c
 
 ![Three-dot menu of a selected course element with the entries Move and Duplicate, next to the Delete button](assets/course_editor_move_delete.png){ class="shadow lightbox" }
 
-The respective action refers to the currently selected course element and all subordinate course elements. In the Move or Duplicate window, select the position under which you want to insert the course element and select the corresponding arrow: Up to insert the new element above, down to insert the element below, and the curved arrow to insert the element below. Likewise, it is possible to move course elements simply by means of "Drag&Drop" in the course structure on the left.
+The respective action refers to the currently selected course element and all subordinate course elements. In the **Move** or **Duplicate** window, select the course element at which you want to insert the selected course element under **Target position**; the course element to be moved is highlighted in colour. The actions **Above** for the position above, **Below** for the position below and **Sub-element** for the subordinate position appear on the chosen course element. Click **Insert course element** to carry out the action. Likewise, it is possible to move course elements simply by means of "Drag&Drop" in the course structure on the left.
+
+![The target positions as radio buttons with the actions Above, Below and Sub-element on the chosen course element, the course element to be moved highlighted in colour, in the Move window of the course editor](assets/deleting_moving_copying_move_dialog_v1_en.png){ class="shadow lightbox" }
 
 Duplicating course elements is recommended if, for example, you want to offer
 group work and want to use the same structure several times.
