@@ -78,6 +78,8 @@ For a test, the field "Release assessment" in the [section Correction](../learni
 
 This tab only appears if you have been entered as a corrector for a test. You see an overview of the tests in the different courses that you still have to check and correct manually. Depending on the setting in the learning resource "Test", the assessment is anonymous or not.
 
+If you are neither coach nor owner of a learning resource, the other tabs are missing; the heading "My grading assignments" with your list then appears directly under the title "Assessment orders". If, on the other hand, you manage the correction workflow yourself, as owner of a test learning resource with correction workflow, as learning resource manager or as administrator, this tab is missing; you then find your assignments under `Coaching > Order management` in the tab [Grading assignments](Coaching_Order_Management.md#tab_grading_assignments).
+
 ![Filters for Taxonomy, Course, Test, Corrector, State, Grading period, Score and Passed, below them the list with Deadline, Course, Course element and the Grade link, in the tab Grading assignments.](assets/coaching_assessment_orders_grading_assignments_v1_en.png){ class="shadow lightbox" }
 
 In the example, the correction is set to anonymous. That is why the "First name" and "Last name" columns only show a dash. You make this setting in the learning resource under `Test > Administration > Correction workflow > Tab "Configuration"`.

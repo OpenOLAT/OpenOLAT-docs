@@ -78,6 +78,8 @@ Beim Test steuert das Feld "Freigabe Bewertung" im [Abschnitt Korrektur](../lear
 
 Dieser Tab erscheint nur, wenn Sie als Korrektor:in für einen Test eingetragen wurden. Sie sehen eine Übersicht der Tests in den verschiedenen Kursen, die Sie noch manuell prüfen und korrigieren müssen. Je nach Einstellung in der Lernressource "Test" erfolgt die Bewertung anonym oder nicht.
 
+Sind Sie weder Betreuer:in noch Besitzer:in einer Lernressource, fehlen die übrigen Tabs; die Überschrift "Meine Zuweisungen" mit Ihrer Liste steht dann direkt unter dem Titel "Bewertungsaufträge". Verwalten Sie den Korrektur-Workflow dagegen selbst, also als Besitzer:in einer Test-Lernressource mit Korrektur-Workflow, als Lernressourcenverwalter:in oder als Administrator:in, fehlt dieser Tab; Ihre Aufträge finden Sie dann unter `Coaching > Auftragsverwaltung` im Tab [Korrekturaufträge](Coaching_Order_Management.de.md#tab_grading_assignments).
+
 ![Filter für Taxonomie, Kurs, Test, Korrektor:in, Status, Korrekturzeitraum, Punkte und Bestanden, darunter die Liste mit Frist, Kurs, Kursbaustein und dem Link Korrigieren, im Tab Korrekturaufträge.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
 
 Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen Sie in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
