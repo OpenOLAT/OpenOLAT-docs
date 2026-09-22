@@ -152,7 +152,7 @@ The respective correctors are automatically notified when new edits of the test 
 
 ### Tab "Correctors"
 
-![Tab "Correctors" in the Correction workflow menu with the tabs "Configuration" and "Grading assignments" and the "Add corrector" button.](assets/grading_workflow_tab_correctors_v1_de.png){ class="shadow lightbox" }
+![Tab "Correctors" in the Correction workflow menu with the tabs "Configuration" and "Grading assignments" and the "Add corrector" button.](assets/grading_workflow_tab_correctors_v1_en.png){ class="shadow lightbox" }
 
 Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as correctors. Via the row menu of a corrector, further actions are available, for example contacting, deactivating or removing the corrector as well as displaying their grading assignments.
 
@@ -173,7 +173,7 @@ In the "Correctors" tab, open the "Download report" entry in the row menu of a c
 * With the "Only completed orders" switch, you limit the report to completed grading assignments.
 * Using the predefined periods "Last month" and "Last year", or the "Close date" fields (from and to), you narrow down the period. At least one date must be specified.
 
-![Download report dialog with the "Only completed orders" switch, the periods "Last month" and "Last year" and the mandatory "Close date" field.](assets/grading_report_export_dialog_v1_de.png){ class="shadow lightbox" }
+![Download report dialog with the "Only completed orders" switch, the periods "Last month" and "Last year" and the mandatory "Close date" field.](assets/grading_report_export_dialog_v1_en.png){ class="shadow lightbox" }
 
 In the "Grading assignments" tab, the "Report" button generates the same report for the grading assignments displayed there.
 
