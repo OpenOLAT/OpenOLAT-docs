@@ -55,6 +55,8 @@ With **"Adopt system default"**, the default specified by the administration app
 * **Read-only access:** The course content remains available to participants in read mode.
 * **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
 
+![Access section in the Options tab with the option Override selected and the two choice cards Read-only and No access](assets/course_settings_options_finished_access_v1_en.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#course_settings_options)
 
 

@@ -55,6 +55,8 @@ Mit **"Systemstandard übernehmen"** gilt die von der Administration vorgegebene
 * **Nur-Lese-Zugriff:** Der Kursinhalt steht den Teilnehmenden weiterhin im Lesemodus zur Verfügung.
 * **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
 
+![Abschnitt Zugriff im Tab Optionen mit gewählter Option Überschreiben und den beiden Auswahlkarten Nur-Lese-Zugriff und Kein Zugriff](assets/course_settings_options_finished_access_v1_de.png){ class="shadow lightbox" }
+
 [Zum Seitenanfang ^](#course_settings_options)
 
 

@@ -136,9 +136,11 @@ The **"Available if"** setting defines the conditions under which an offer can b
 
 * **"Status is":** the course or implementation statuses in which the offer should be available.
 * **"From" / "Until":** additionally narrow down the availability period. For each limit you choose a mode:
-    * **"Status only":** only the selected status applies, without a date limit.
-    * **"Absolute":** a fixed date.
-    * **"Relative":** a date relative to the execution period, for example three days before the course starts. For a relative date to take effect, the execution period of the learning resource must be set.
+    * **"Controlled by status":** only the selected status applies, without a date limit.
+    * **"Absolute date":** a fixed date.
+    * **"Relative date":** a date relative to the execution period, for example three days before the course starts. For a relative date to take effect, the execution period of the learning resource must be set.
+
+![Offer of the type Freely available with the setting Available if on Custom condition, Status is Published and From as a relative date three days before the begin of the execution period](assets/access_configuration_offer_availability_v1_en.png){ class="shadow lightbox" }
 
 This way an offer becomes bookable shortly before the course starts, for example, or closes automatically a few days before the course ends, without you having to maintain fixed dates.
 

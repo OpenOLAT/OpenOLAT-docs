@@ -136,9 +136,11 @@ Die bereits getätigten Buchungsaufträge bleiben bestehen und sind davon nicht 
 
 * **"Status ist":** die Kurs- bzw. Durchführungsstatus, in denen das Angebot verfügbar sein soll.
 * **"Ab" / "Bis":** grenzen den Verfügbarkeitszeitraum zusätzlich ein. Je Grenze wählen Sie einen Modus:
-    * **"Nur Status":** es gilt allein der gewählte Status, ohne Datumsgrenze.
-    * **"Absolut":** ein festes Datum.
-    * **"Relativ":** ein Datum relativ zum Durchführungszeitraum, zum Beispiel drei Tage vor Kursbeginn. Damit ein relatives Datum wirksam wird, muss der Durchführungszeitraum der Lernressource gesetzt sein.
+    * **"Statusgesteuert":** es gilt allein der gewählte Status, ohne Datumsgrenze.
+    * **"Absolutes Datum":** ein festes Datum.
+    * **"Relatives Datum":** ein Datum relativ zum Durchführungszeitraum, zum Beispiel drei Tage vor Kursbeginn. Damit ein relatives Datum wirksam wird, muss der Durchführungszeitraum der Lernressource gesetzt sein.
+
+![Angebot vom Typ Frei verfügbar mit der Einstellung Verfügbar wenn auf Benutzerdefinierte Bedingung, Status ist Veröffentlicht und Ab als relatives Datum drei Tage vor Beginn des Durchführungszeitraums](assets/access_configuration_offer_availability_v1_de.png){ class="shadow lightbox" }
 
 So wird ein Angebot beispielsweise erst kurz vor Kursbeginn buchbar oder schliesst automatisch einige Tage vor Kursende, ohne dass Sie feste Daten pflegen müssen.
 
