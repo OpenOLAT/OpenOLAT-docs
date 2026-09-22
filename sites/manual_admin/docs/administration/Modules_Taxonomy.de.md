@@ -36,7 +36,7 @@ Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
 
 ## Metadaten {: #metadata}
 
-Beim Erstellen werden die Metadaten Kennzeichen und Name, und falls gewünscht
+Beim Erstellen werden die Metadaten Kennzeichen und Titel, und falls gewünscht
 die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
@@ -60,9 +60,9 @@ erstellt werden.
 
 Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Wählen Sie ein eindeutiges und logisches Kennzeichen.
 
-#### Anzeigename {: #level_type_display_name}
+#### Titel {: #level_type_display_name}
 
-Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
+Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
 
 #### CSS class {: #level_type_css_class}
 
@@ -121,9 +121,9 @@ Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 240x100px, 
 
 Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 1324x240px, maximal 5 MB.
 
-#### Anzeigename {: #level_display_name}
+#### Titel {: #level_display_name}
 
-Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
+Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
 
 #### Beschreibung {: #level_description}
 
@@ -183,7 +183,7 @@ Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben la
 ![Excel-Vorlage der Taxonomiestruktur mit den Spalten Pfad, Kennzeichen, Typ, Sortierung sowie Sprache, Anzeigename und Beschreibung je Sprache](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
- Haben Sie verschiedene Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), ist es ratsam, Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Sprache", "Anzeigename" & "Beschreibung" kopieren, diese hinten anhängen und eine neue, existierende Sprache, Anzeigename + Beschreibung für jede Taxonomieebene ergänzen.
+ Haben Sie verschiedene Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), ist es ratsam, Titel und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Sprache", "Titel" & "Beschreibung" kopieren, diese hinten anhängen und eine neue, existierende Sprache, Titel + Beschreibung für jede Taxonomieebene ergänzen.
 
 3. Die geänderte Tabelle wird _ohne_ die Kopfzeile markiert und in das Eingabefeld kopiert. Im Schritt "Änderungen überprüfen" werden die Zellen auf Richtigkeit überprüft. Bei Fehlern erscheinen die Fehlermeldungen direkt am Eingabefeld.
 
@@ -200,7 +200,7 @@ Alternativ ist es auch möglich, die vorhandenen Vorlagen unter den jeweiligen L
 
 ## Automatische Zuordnung per KI [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
 
-Die KI ordnet ein erkanntes Thema selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
+Die KI liest aus einem Bild oder einem Text heraus, wovon er handelt, und ordnet das Ergebnis selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
 
 Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern.
 
@@ -214,17 +214,19 @@ Die Zuordnung per Einbettungsmodell braucht drei Einstellungen im KI Modul, sieh
 * Ein KI Anbieter ist gewählt, der ein Einbettungsmodell anbietet.
 * Ein Einbettungsmodell ist gewählt.
 
-Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn das erkannte Thema wortgleich mit dem Anzeigenamen oder dem Kennzeichen der Ebene ist. Gross- und Kleinschreibung spielt dabei keine Rolle.
+Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn das Ergebnis der KI wortgleich mit dem Titel oder dem Kennzeichen der Ebene ist. Gross- und Kleinschreibung spielt dabei keine Rolle.
 
-### Was die Pflege der Taxonomie bewirkt {: #ai_matching_maintenance}
+### Womit die KI vergleicht {: #ai_matching_maintenance}
 
-OpenOlat vergleicht das erkannte Thema mit drei Angaben je Taxonomieebene, und zwar auf Deutsch und auf Englisch:
+Titel und Beschreibung einer Taxonomieebene entscheiden, ob die KI sie findet. Beide pflegen Sie unter `Administration > Module > Taxonomie` im Tab "Taxonomie", nicht im Media Center.
 
-* dem Anzeigenamen,
-* dem Anzeigenamen zusammen mit den übergeordneten Ebenen,
-* dem Anzeigenamen, den übergeordneten Ebenen und der Beschreibung zusammen.
+OpenOlat vergleicht das Ergebnis der KI mit drei Angaben je Taxonomieebene, und zwar auf Deutsch und auf Englisch:
 
-Die dritte Angabe entfällt, wenn die Ebene keine Beschreibung hat. Anzeigename und Beschreibung bestimmen deshalb, was die KI vergleicht. Eine Ebene mit sprechendem Namen und einer Beschreibung wird zuverlässiger gefunden als eine Ebene, die nur ein Kürzel trägt. Pflegen Sie beide Angaben auch in der zweiten Sprache.
+* dem Titel,
+* dem Titel zusammen mit den übergeordneten Ebenen,
+* dem Titel, den übergeordneten Ebenen und der Beschreibung zusammen.
+
+Die dritte Angabe entfällt, wenn die Ebene keine Beschreibung hat. Eine Ebene mit sprechendem Titel und einer Beschreibung wird deshalb zuverlässiger gefunden als eine Ebene, die nur ein Kürzel trägt. Pflegen Sie beide Angaben auch in der zweiten Sprache.
 
 ### Zusammenspiel von KI und Fachbereichen {: #ai_matching_interplay}
 
@@ -232,11 +234,11 @@ Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
 
 | Auslöser | Was OpenOlat zuordnet | Was dafür nötig ist |
 |---|---|---|
-| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | die am besten passende Ebene, genau eine | Die KI Funktion "Bildbeschreibungs-Generator" erzeugt das Thema. |
+| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | die am besten passende Ebene, genau eine | Die KI Funktion "Bildbeschreibungs-Generator" liefert, wovon das Bild handelt. |
 | Import einer Markdown-Datei in den Content Editor | alle passenden Ebenen, bis zu drei je Taxonomie | Dieselbe KI Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
 | Metadaten von Hand erfassen | nichts | Sie wählen die Ebene selbst im Feld "Themen/Fachbereiche". |
 
-Die KI erzeugt also das Thema, und die Taxonomie-Zuordnung sucht dazu die Ebene. Ohne die KI Funktion "Bildbeschreibungs-Generator" entsteht kein Thema, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Die zugeordnete Ebene ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
+Die KI liefert also, wovon das Medium handelt, und die Taxonomie-Zuordnung sucht dazu die Ebene. Ohne die KI Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Die zugeordnete Ebene ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
 
 [Zum Seitenanfang ^](#module_taxonomy)
 

@@ -29,7 +29,7 @@ competences can be added to users which allows them access to the taxonomy.
 
 ## Metadata {: #metadata}
 
-When creating the metadata identifier, name and if desired a description can
+When creating the metadata reference, title and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
@@ -47,13 +47,13 @@ To the level types certain configurations can be added.
 
 In the tab "Level types" a new type can be created with "Add new level type".
 
-#### Identifier {: #level_type_identifier}
+#### Reference {: #level_type_identifier}
 
-Often an abbreviation of the corresponding level is added here. The identifier is shown in the table in the tab "Taxonomy" in the column "Level type". It is thus recommended to choose a unique and logic identifier.
+Often an abbreviation of the corresponding level is added here. The reference is shown in the table in the tab "Taxonomy" in the column "Level type". It is thus recommended to choose a unique and logic reference.
 
-#### Display name {: #level_type_display_name}
+#### Title {: #level_type_display_name}
 
-This name is shown under Modules → document pool in the tab "Access permissions" in a written form and can therefore be longer than the identifier.
+This name is shown under Modules → document pool in the tab "Access permissions" in a written form and can therefore be longer than the reference.
 
 #### CSS class {: #level_type_css_class}
 
@@ -91,9 +91,9 @@ When creating the following attributes are necessary:
 
 With the path the position of the taxonomy level can be defined directly.
 
-#### Identifier {: #level_identifier}
+#### Reference {: #level_identifier}
 
-With the identifier an abbreviation of the level can be defined.
+With the reference an abbreviation of the level can be defined.
 
 #### Type {: #level_type}
 
@@ -111,9 +111,9 @@ The image is uploaded as a file. Best results with size 240x100px, maximum 2 MB.
 
 The image is uploaded as a file. Best results with size 1324x240px, maximum 5 MB.
 
-#### Display name {: #level_display_name}
+#### Title {: #level_display_name}
 
-The display name depends on the language and is used in different places: Catalog 2.0, Document Pool, e-Portfolio.
+The title depends on the language and is used in different places: Catalog 2.0, Document Pool, e-Portfolio.
 
 #### Description {: #level_description}
 
@@ -174,7 +174,7 @@ Here you can decide whether you want to overwrite the existing taxonomy levels o
 ![Excel template of the taxonomy structure with the columns Path, Identifier, Type, Order as well as Language, Display name and Description per language](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. Inside the excel sheet you add new taxonomy levels or change existing ones. The path that indicates the hierarchical structure is important. If this is incorrect, certain layers cannot be imported.
-If you have activated different languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md), it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Language", "Display name" & "Description" and adding a new, existing language, display name + description for each taxonomy level.
+If you have activated different languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md), it is advisable to make the title and description language-dependent. Additional languages can be added by copying the columns "Language", "Title" & "Description" and adding a new, existing language, title + description for each taxonomy level.
 
 3. The modified table is now selected _without_ the header and copied into the input field. When proceeding to the next wizard step, the cells are checked for correctness. In case of errors, error messages appear directly at the input field.
 
@@ -190,7 +190,7 @@ Alternatively, it is also possible to download the existing templates under the 
 
 ## Automatic assignment by AI [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
 
-The AI assigns a detected topic to a taxonomy level on its own. It compares the meaning, not the exact wording. An English text therefore also finds a level with a German name, a synonym finds the intended level, and a related term finds the one that is closest in content.
+The AI works out what an image or a text is about and assigns the result to a taxonomy level on its own. It compares the meaning, not the exact wording. An English text therefore also finds a level with a German name, a synonym finds the intended level, and a related term finds the one that is closest in content.
 
 The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there.
 
@@ -204,18 +204,20 @@ The assignment via embedding model needs three settings in the AI module, see [E
 * An AI provider is selected that offers an embedding model.
 * An embedding model is selected.
 
-If one of these settings is missing, OpenOlat only assigns a level when the detected topic is identical to the display name or to the identifier of the level. Upper and lower case does not matter.
+If one of these settings is missing, OpenOlat only assigns a level when the result of the AI is identical to the title or to the reference of the level. Upper and lower case does not matter.
 
 
-### What the maintenance of the taxonomy achieves {: #ai_matching_maintenance}
+### What the AI compares {: #ai_matching_maintenance}
 
-OpenOlat compares the detected topic with three entries per taxonomy level, in German and in English:
+The title and the description of a taxonomy level decide whether the AI finds it. You maintain both under `Administration > Modules > Taxonomy` in the tab "Taxonomy", not in the Media Center.
 
-* the display name,
-* the display name together with the parent levels,
-* the display name, the parent levels and the description together.
+OpenOlat compares the result of the AI with three entries per taxonomy level, in German and in English:
 
-The third entry is dropped when the level has no description. The display name and the description therefore determine what the AI compares. A level with a meaningful name and a description is found more reliably than a level that only carries an abbreviation. Maintain both entries in the second language as well.
+* the title,
+* the title together with the parent levels,
+* the title, the parent levels and the description together.
+
+The third entry is dropped when the level has no description. A level with a meaningful title and a description is therefore found more reliably than a level that only carries an abbreviation. Maintain both entries in the second language as well.
 
 ### Interplay of AI and subject areas {: #ai_matching_interplay}
 
@@ -223,11 +225,11 @@ Which subject area a media item receives depends on the trigger:
 
 | Trigger | What OpenOlat assigns | What is needed for it |
 |---|---|---|
-| Button "Generate metadata with AI" when uploading an image | the best matching level, exactly one | The AI feature "Image Description Generator" creates the topic. |
+| Button "Generate metadata with AI" when uploading an image | the best matching level, exactly one | The AI feature "Image Description Generator" supplies what the image is about. |
 | Import of a Markdown file into the Content Editor | all matching levels, up to three per taxonomy | The same AI feature. The assignment runs in the background after saving. |
 | Enter metadata manually | nothing | You select the level yourself in the field "Subjects". |
 
-The AI therefore creates the topic, and the taxonomy matching looks for the level. Without the AI feature "Image Description Generator" no topic is created, and the taxonomy matching has nothing to compare. The assigned level is a suggestion and can be changed in the metadata at any time.
+The AI therefore supplies what the media item is about, and the taxonomy matching looks for the level. Without the AI feature "Image Description Generator" this entry stays empty, and the taxonomy matching has nothing to compare. The assigned level is a suggestion and can be changed in the metadata at any time.
 
 [To the top of the page ^](#module_taxonomy)
 
