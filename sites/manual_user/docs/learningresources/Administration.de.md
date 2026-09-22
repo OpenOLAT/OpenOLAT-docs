@@ -61,7 +61,6 @@ Manche im Kurs verwendete Dateien werden im **Ablageordner** abgelegt. Dieser ge
 [Zu den Details über den Ablageordner >](Storage_folder.de.md)<br>
 [Zu den Details über den File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Zu den Details über das Media Center >](../personal_menu/Media_Center.de.md)<br>
-[Über die Unterschiede zwischen Ablageordner, File Hub und Media Center >](../basic_concepts/Object_Collections.de.md)<br>
 
 [Zum Seitenanfang ^](#course_administration)
 

@@ -61,7 +61,6 @@ Some files used in the course are stored in the **storage folder**. This belongs
 [See the details about the Storage folder >](Storage_folder.md)<br>
 [See the details about the File Hub >](../personal_menu/File_Hub.md)<br>
 [See the details about the Media Center >](../personal_menu/Media_Center.md)<br>
-[About the differences between Storage folder, File Hub and Media Center >](../basic_concepts/Object_Collections.md)<br>
 
 [To the top of the page ^](#course_administration)
 
