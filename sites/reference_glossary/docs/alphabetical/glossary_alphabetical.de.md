@@ -2470,17 +2470,17 @@ Der persönliche Ablageort für Bilder, Videos, Zitate und andere Medien, die in
 
 *Englisch: Media Center* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Modules_Media_Center.de.md)
 
-### MediaSite (Kurs)
+### Mediasite (Kurs)
 
-Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry MediaSite im Kurs anzeigt.
+Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry Mediasite im Kurs anzeigt.
 
-*Englisch: MediaSite* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: Mediasite* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
-### MediaSite (Integrationen und Standards)
+### Mediasite (Integrationen und Standards)
 
-Anbindung der Videoplattform MediaSite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
+Anbindung der Videoplattform Mediasite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
 
-*Englisch: MediaSite* · *Bereich: Integrationen und Standards* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: Mediasite* · *Bereich: Integrationen und Standards* · [Handbuch](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 ### Medien-Server
 

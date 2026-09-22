@@ -105,5 +105,5 @@ These use OpenOlat's own custom icon font (fontello-built) rather than FontAweso
 | :o_icon_o_edusharing_icon: | edu-sharing | edu-sharing | `edusharing` | `o_edusharing_icon` |
 | :o_icon_o_edubase_icon: | Edubase | Edubase | `edubase` | `o_edubase_icon` |
 | :o_icon_o_jupyter_icon: | JupyterHub | JupyterHub | `jupyterHub` | `o_jupyter_icon` |
-| :o_icon_o_mediasite_icon: | MediaSite | MediaSite | `mediaSite` | `o_mediasite_icon` |
+| :o_icon_o_mediasite_icon: | Mediasite | Mediasite | `mediaSite` | `o_mediasite_icon` |
 | :o_icon_o_opencast_icon: | Opencast | Opencast | `opencast` | `o_opencast_icon` |

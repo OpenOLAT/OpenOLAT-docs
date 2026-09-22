@@ -119,7 +119,7 @@ Calendar | Visit course element
 Link list | Visit course element
 Livestream | Visit course element
 LTI page | Confirmation by participant
-MediaSite | Confirmation by participant
+Mediasite | Confirmation by participant
 Microsoft Teams | Visit course element
 Notifications | Visit course element
 Opencast | Visit course element

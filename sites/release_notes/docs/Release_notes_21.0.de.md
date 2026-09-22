@@ -275,7 +275,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 ## Weiteres, kurz notiert
 
 * **UX, Usability, Accessibility**: Optimierungen von Checkbox-Buttons, Objekt-Selektor, Button-Styling sowie im Bereich Barrierefreiheit
-* **MediaSite-Integration via LTI 1.3:** Das [MediaSite-Modul](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Mediasite/) lässt sich neu wahlweise über LTI 1.1 oder LTI 1.3 mit dem MediaSite-Server verbinden
+* **Mediasite-Integration via LTI 1.3:** Das [Mediasite-Modul](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Mediasite/) lässt sich neu wahlweise über LTI 1.1 oder LTI 1.3 mit dem Mediasite-Server verbinden
 * **JupyterHub** Bei der Konfiguration des [JupyterHub-Kursbausteins](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_JupyterHub/) sind nur noch aktive Hubs verfügbar; bei einem bereits konfigurierten, aber inaktiven Hub weist eine Warnung darauf hin, dass dieser nicht mehr funktioniert – so laufen Kurse nicht unbemerkt ins Leere
 * **Recruiting-Modul Selectus:** Die frentix Selectus Software wurde als eigenes OpenOlat Modul integriert und steht nach abgeschlossener Integrationsphase zukünftig für kommissionsbasierte Auswahlverfahren, Bewerbungen von Professuren/Stipendien, für Ausschreibungen und Wettbewerbe sowie Vergaben von Stiftungen zur Verfügung
 

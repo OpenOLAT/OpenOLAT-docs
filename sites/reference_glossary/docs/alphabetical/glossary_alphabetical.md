@@ -2374,17 +2374,17 @@ An external video platform whose videos OpenOlat may embed by URL: YouTube, Vime
 
 *German: Medien-Server* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Single_Page_Add_edit_video.md)
 
-### MediaSite (Course)
+### Mediasite (Course)
 
-A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry MediaSite in the course.
+A course element that shows a presentation or a channel of the lecture recording system Sonic Foundry Mediasite in the course.
 
-*German: MediaSite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
+*German: Mediasite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
-### MediaSite (Integrations and standards)
+### Mediasite (Integrations and standards)
 
-The connection to the video platform MediaSite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
+The connection to the video platform Mediasite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
 
-*German: MediaSite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
+*German: Mediasite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
 
 ### Members
 

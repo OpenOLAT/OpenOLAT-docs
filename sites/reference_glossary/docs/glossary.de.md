@@ -1006,11 +1006,11 @@ Kursbaustein, der eine externe Lernanwendung über den Standard LTI einbindet. D
 
 *Englisch: LTI page* · [Handbuch](../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
-### MediaSite (Kurs)
+### Mediasite (Kurs)
 
-Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry MediaSite im Kurs anzeigt.
+Kursbaustein, der eine Präsentation oder einen Kanal des Vorlesungsaufzeichnungssystems Sonic Foundry Mediasite im Kurs anzeigt.
 
-*Englisch: MediaSite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: Mediasite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 ### Microsoft Teams (Kurs)
 
@@ -4106,11 +4106,11 @@ Anbindung von Matomo über Site ID und Matomo URL. Matomo läuft auf einem eigen
 
 *Englisch: Matomo (Piwik)* · [Handbuch](../manual_admin/administration/Analytics_module.de.md)
 
-### MediaSite (Integrationen und Standards)
+### Mediasite (Integrationen und Standards)
 
-Anbindung der Videoplattform MediaSite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
+Anbindung der Videoplattform Mediasite für Vorlesungsaufzeichnung, Videoverwaltung und Untertitelung. Inhalte werden als Einzelpräsentation oder Kanal in den Kurs eingebunden; die Verbindung läuft über LTI 1.1 oder LTI 1.3.
 
-*Englisch: MediaSite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
+*Englisch: Mediasite* · [Handbuch](../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 ### Microsoft SharePoint / OneDrive
 
