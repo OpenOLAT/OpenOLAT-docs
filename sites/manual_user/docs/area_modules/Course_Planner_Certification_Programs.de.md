@@ -199,8 +199,8 @@ In den Einstellungen definieren Sie,
 * ob und wieviele Kreditpunkte vergeben werden
 * welches pdf-Zertifikat vergeben wird
 
-**Button "Metadata"**<br>
-![Die Felder Titel, Kennzeichen und Administrative Freigabe, im Bereich Metadata des Tabs Einstellungen](assets/course_planner_certification_programs_config_settings_metadata_v2_de.png){ class="shadow lightbox" }
+**Button "Metadaten"**<br>
+![Die Felder Titel, Kennzeichen und Administrative Freigabe, im Bereich Metadaten des Tabs Einstellungen](assets/course_planner_certification_programs_config_settings_metadata_v3_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -216,11 +216,11 @@ Unter dem Button "Zertifikat" legen Sie fest, welche Zertifikatsvorlage im Zerti
 
 **Seriennummer**<br>
 
-Mit der Option **"Mit Seriennummer"** erhält jedes ausgestellte Zertifikat automatisch eine fortlaufende, menschenlesbare Seriennummer [:octicons-tag-16:{ title="ab Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). Das **Format** legen Sie über Variablen fest: `${counter}` bzw. `${counter:N}` (Zähler, optional mit führenden Nullen bei N Stellen) sowie optional `${year}`, `${month}` und `${day}`, z.B. `REF-${year}-${counter:5}`. Über den **Startwert des Zählers** bestimmen Sie, bei welcher Nummer die Zählung beginnt; das Feld "Nächste Seriennummer" zeigt eine Vorschau. Die Seriennummer wird bei jeder Ausstellung (auch bei einer Rezertifizierung) neu vergeben, erscheint auf dem Zertifikat und im Dateinamen des PDF. In der Zertifikatsübersicht lässt sich die Spalte "Seriennummer" einblenden (standardmässig ausgeblendet).
+Mit der Option **"Mit Seriennummer"** erhält jedes ausgestellte Zertifikat automatisch eine fortlaufende, menschenlesbare Seriennummer [:octicons-tag-16:{ title="ab Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). Das **Format** legen Sie über Variablen fest: `${counter}` bzw. `${counter:N}` (Zähler, optional mit führenden Nullen bei N Stellen) sowie optional `${year}`, `${month}` und `${day}`, z.B. `REF-${year}-${counter:5}`. Über den **Startwert des Zählers** bestimmen Sie, bei welcher Nummer die Zählung beginnt. Format und Startwert sind Pflichtfelder, sobald die Option eingeschaltet ist; das Feld "Nächste Seriennummer (Vorschau)" zeigt nach dem Speichern die Nummer, die als nächste vergeben wird. Die Seriennummer wird bei jeder Ausstellung neu vergeben, auch bei einer Rezertifizierung, und steht im Dateinamen des PDF. Auf dem Zertifikat erscheint sie, sobald die verwendete Vorlage die Variable `$certificateSerialNumber` enthält. Im Tab "Mitglieder" und in der Detailansicht einer Person lässt sich die Spalte "Seriennummer" einblenden; standardmässig ist sie ausgeblendet.
 
 <h4>Druckversion für vorgedrucktes Papier</h4>
 
-Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvorlage** für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Berechtigte Personen können damit zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren** (einzeln, als Sammelaktion oder über das Aktionsmenü). Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
+Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvorlage** für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Besitzer:innen des Zertifikatsprogramms können damit zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren**. Die Aktion steht im Tab "Mitglieder" zur Verfügung: für eine einzelne Person unter den 3 Punkten am Ende der Listenzeile oder in der Detailansicht, für mehrere Personen nach dem Markieren der Zeilen und für alle Personen unter "Weitere Aktionen". Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
 
 
 

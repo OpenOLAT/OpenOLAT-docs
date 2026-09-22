@@ -43,14 +43,14 @@ Reminders can be triggered based on the certificate's issue date and expiration 
 
 ### Create certificate template {: #certificate_template}
 
-A system-wide PDF template specified by the administrator is usually used as the template for the certificate. If you want to use your own template, you can upload it in the course under `Administration > Settings > Assessment > "Certificate" section > Certificate template`.
+By default, the supplied default template is used as the template for the certificate. Administrators also provide further system-wide templates for selection. If you want to use your own template, you can upload it in the course under `Administration > Settings > Assessment > "Certificate" section > Certificate template`.
 
 !!! note "Note"
 
     When you use the "**Preview**" button, only a dummy will be displayed.
     Only dummy data is used in a preview, not real values from the database. For example, the current date is displayed everywhere. It should not give the impression that this could be a real certificate. A preview must be deliberately and obviously incorrect.
 
-A PDF template is not a normal PDF file, but must be created using HTML to ensure layout and variables.
+A certificate template is not a normal PDF file. Two formats are possible: an HTML template that you upload as a ZIP file with the file "index.html" in the main directory, or a PDF form with form fields that you upload as a PDF file.
 
 The default template supplied is HTML-based and kept simple. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="from Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
@@ -58,11 +58,13 @@ You can check the appearance of the default template directly in OpenOlat: the "
 
 The "Select" button next to the "Certificate template" field opens the "Select template" dialog. It offers the system-wide templates with the entry "Default" for the default template, and below that the field for your own file.
 
-![The Select template dialog with the Templates list, the Default entry and the File area for uploading your own template](assets/course_settings_assessment_certificate_template_select_v1_en.png){ class="shadow lightbox" }
+![Templates list with the Default entry and the File area for uploading your own template, in the Select template dialog](assets/course_settings_assessment_certificate_template_select_v1_en.png){ class="shadow lightbox" }
 
 This [certificate bot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} with the publicly available code (MIT license) is available.
 
-The form fields must contain certain variables that will later be replaced by the system with specific data. All attributes can be used as variables. For PDF templates, the variable names are used without the $ prefix, while for HTML forms, they are used with the $ prefix.
+#### Variables in the certificate template {: #certificate_variables}
+
+The form fields must contain certain variables, also called placeholders. When the certificate is issued, the system replaces them with the data of the person and the course. All attributes can be used as variables. For PDF templates, the variable names are used without the $ prefix, while for HTML forms, they are used with the $ prefix.
 
 The "dateFormatter" object is available for formatting date formats. This allows the "*Raw" formats to be formatted using "formatDate()" or a specified period to be added using formatDateRelative (Date baseLineDate, days, months, years).
 

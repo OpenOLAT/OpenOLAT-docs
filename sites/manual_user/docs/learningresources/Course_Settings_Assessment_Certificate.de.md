@@ -41,7 +41,7 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
 ### Zertifikatsvorlage erstellen {: #certificate_template}
 
-Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
+Als Vorlage für das Zertifikat dient standardmässig die mitgelieferte Standardvorlage. Administrator:innen stellen darüber hinaus weitere systemweite Vorlagen zur Auswahl. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
 `Kurs > Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage`
 
 !!! note "Hinweis"
@@ -49,7 +49,7 @@ Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Adminis
     Wenn Sie den Button "**Vorschau**" verwenden, wird Ihnen immer nur ein Dummy angezeigt.
     In einer Vorschau werden grundsätzlich nur Dummy-Daten verwendet und keine echten Werte aus der Datenbank. Es steht z.B. überall das aktuelle Datum. Es soll gar nicht der Eindruck entstehen, dass das ein echtes Zertifikat sein könnte. Eine Vorschau muss absichtlich und offensichtlich falsch sein.
 
-Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt werden, um Layout und Variablen zu gewährleisten.
+Eine Zertifikatsvorlage ist keine gewöhnliche PDF-Datei. Zwei Formate sind möglich: eine HTML-Vorlage, die Sie als ZIP-Datei mit der Datei "index.html" im Hauptverzeichnis hochladen, oder ein PDF-Formular mit Formularfeldern, das Sie als PDF-Datei hochladen.
 
 Die mitgelieferte Standardvorlage ist HTML-basiert und schlicht gehalten. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
@@ -57,7 +57,7 @@ Wie die Standardvorlage aussieht, prüfen Sie direkt in OpenOlat: Der Button "Vo
 
 Der Button "Auswählen" beim Feld "Zertifikatvorlage" öffnet den Dialog "Vorlage auswählen". Dort stehen die systemweiten Vorlagen mit dem Eintrag "Default" für die Standardvorlage zur Wahl, darunter das Feld für eine eigene Datei.
 
-![Der Dialog Vorlage auswählen mit der Auswahlliste Zertifikatsvorlagen, dem Eintrag Default und dem Bereich Datei zum Hochladen einer eigenen Vorlage](assets/course_settings_assessment_certificate_template_select_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste Zertifikatsvorlagen mit dem Eintrag Default und der Bereich Datei zum Hochladen einer eigenen Vorlage, im Dialog Vorlage auswählen](assets/course_settings_assessment_certificate_template_select_v1_de.png){ class="shadow lightbox" }
 
 Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 

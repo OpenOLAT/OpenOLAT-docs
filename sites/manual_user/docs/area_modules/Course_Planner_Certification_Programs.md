@@ -190,7 +190,7 @@ In the settings you can define the following:
 * Which PDF certificate is awarded
 
 **Button "Metadata"**<br>
-![The fields Title, Reference and Administrative release, in the Metadata area of the Settings tab](assets/course_planner_certification_programs_config_settings_metadata_v2_de.png){ class="shadow lightbox" }
+![The fields Title, Reference and Administrative release, in the Metadata area of the Settings tab](assets/course_planner_certification_programs_config_settings_metadata_v3_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -206,11 +206,11 @@ Under the "Certificate" button, you define which certificate template is used in
 
 **Serial number**<br>
 
-With the **"With serial number"** option, each issued certificate is automatically assigned a sequential, human-readable serial number [:octicons-tag-16:{ title="from Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). You define the **format** using variables: `${counter}` or `${counter:N}` (counter, optionally with leading zeros for N digits) as well as optional `${year}`, `${month}`, and `${day}`, e.g. `REF-${year}-${counter:5}`. The **counter start value** determines the number at which counting begins; the "Next serial number" field shows a preview. The serial number is assigned anew on each issuance (including a recertification), appears on the certificate and in the PDF file name. In the certificate overview, the "Serial number" column can be shown (hidden by default).
+With the **"With serial number"** option, each issued certificate is automatically assigned a sequential, human-readable serial number [:octicons-tag-16:{ title="from Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). You define the **format** using variables: `${counter}` or `${counter:N}` (counter, optionally with leading zeros for N digits) as well as optional `${year}`, `${month}`, and `${day}`, e.g. `REF-${year}-${counter:5}`. The **counter start value** determines the number at which counting begins. Format and counter start value are mandatory as soon as the option is switched on; after saving, the "Next serial number (preview)" field shows the number that will be assigned next. The serial number is assigned anew on each issuance, including a recertification, and it is part of the PDF file name. It appears on the certificate as soon as the template used contains the `$certificateSerialNumber` variable. In the "Members" tab and in the detail view of a person, the "Serial number" column can be shown; by default it is hidden.
 
 <h4>Print version for pre-printed paper</h4>
 
-With the **"With print version"** option, you activate an additional **print template** for pre-printed paper [:octicons-tag-16:{ title="from Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Authorised persons can thus export a **print certificate** alongside the standard certificate (individually, as a bulk action, or via the actions menu). Participants continue to receive only the standard certificate.
+With the **"With print version"** option, you activate an additional **print template** for pre-printed paper [:octicons-tag-16:{ title="from Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Owners of the certification program can thus export a **print certificate** alongside the standard certificate. The action is available in the "Members" tab: for a single person under the 3 dots at the end of the list row or in the detail view, for several persons after selecting the rows, and for all persons under "More actions". Participants continue to receive only the standard certificate.
 
 [To the top of the page ^](#certification_programs)
 

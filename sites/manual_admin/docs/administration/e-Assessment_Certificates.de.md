@@ -9,7 +9,7 @@ In OpenOlat können auch anderweitig erworbene Zertifikate hochgeladen werden. I
 
 Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere E-Mail-Adresse (z.B. die Personalabteilung) verschickt wird.
 
-![Tab Zertifikate Konfiguration mit den Schaltern für den Upload externer Zertifikate durch Benutzer:innen und Benutzerverwalter:innen sowie für die Kopie an E-Mail-Adresse oder Linienvorgesetzte](assets/e-assessment_certificates_tab_config_v1_de.png){ class="shadow lightbox" }
+![Die Schalter für den Upload externer Zertifikate durch Benutzer:innen und Benutzerverwalter:innen sowie für die Kopie an E-Mail-Adresse oder Linienvorgesetzte, im Tab Zertifikate Konfiguration](assets/e-assessment_certificates_tab_config_v2_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#certificates)
@@ -24,7 +24,9 @@ Die gleiche Auswahl der Zertifikatsvorlagen steht auch in Zertifikatsprogrammen 
 
 Die mitgelieferte Standardvorlage ist HTML-basiert. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
 
-![Tab Zertifikate Vorlage mit der Liste der hochgeladenen Zertifikatsvorlagen und den Aktionen Austauschen und Löschen je Vorlage](assets/e-assessment_certificates_tab_templates_v1_de.png){ class="shadow lightbox" }
+Die Standardvorlage selbst erscheint nicht in dieser Liste. Sie gehört zur Installation, steht bei der Vorlagenwahl als Eintrag "Default" bereit und lässt sich hier weder austauschen noch löschen. Die Liste enthält nur die Vorlagen, die Sie mit "Vorlage hochladen" hinzugefügt haben: HTML-Vorlagen als ZIP-Datei mit der Datei "index.html" im Hauptverzeichnis, PDF-Formulare als PDF-Datei.
+
+![Die Liste der hochgeladenen Zertifikatsvorlagen mit den Aktionen Austauschen und Löschen sowie dem Button Vorlage hochladen, im Tab Zertifikate Vorlage](assets/e-assessment_certificates_tab_templates_v2_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#certificates)
@@ -34,7 +36,7 @@ Die mitgelieferte Standardvorlage ist HTML-basiert. HTML-Vorlagen sind die empfo
 
 ## Tab Wartung [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9659)" }](https://track.frentix.com/issue/OO-9659) {: #tab_maintenance}
 
-Meldet eine Person, dass ihr Zertifikat als leere PDF-Datei angekommen ist, finden Administrator:innen im Tab "Wartung" alle betroffenen Zertifikate und erzeugen die PDF-Dateien neu. Solche Zertifikate entstehen, wenn der PDF-Dienst im Moment der Ausstellung nicht antwortet: Das Zertifikat gilt als ausgestellt, die Zertifikatsliste zeigt einen Downloadlink, und die Benachrichtigung geht mit leerem Anhang an die Person. In der Zertifikatsliste sind diese Fälle nicht erkennbar.
+Meldet eine Person, dass ihr Zertifikat als leere PDF-Datei angekommen ist, finden Administrator:innen im Tab "Wartung" alle betroffenen Zertifikate und erzeugen die PDF-Dateien neu. Solche Zertifikate entstehen, wenn der PDF-Dienst im Moment der Ausstellung nicht antwortet: Das Zertifikat gilt als ausgestellt, im persönlichen Menü unter "Zertifikate" steht ein Downloadlink, und die Benachrichtigung geht mit leerem Anhang an die Person. Welche Zertifikate betroffen sind, ist dieser Liste nicht anzusehen.
 
 Die Neuerstellung ersetzt nur die PDF-Datei. Seriennummer, Ausstellungsdatum und Gültigkeitsdauer bleiben unverändert. Auch bei einer Rezertifizierung bleibt das neu erzeugte Zertifikat das aktuelle Zertifikat der Person.
 
