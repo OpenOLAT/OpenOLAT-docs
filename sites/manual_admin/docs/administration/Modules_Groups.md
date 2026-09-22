@@ -62,7 +62,7 @@ Configurable roles: Users with no additional role, Authors, User managers, Roles
 
     ![Dialog at first login with a pending membership request for a course, options Accept and Decline](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
 
-### Members are allowed to leave the group {: #leave_group}
+### Members can leave group {: #leave_group}
 
 This function defines whether members are allowed to leave "their" groups on their own. The setting is defined according to the role of the person who created the group:
 
