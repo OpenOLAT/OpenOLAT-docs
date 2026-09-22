@@ -2,21 +2,25 @@
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 
-![Settings tab in the Learning resource module with the sections Settings, Default setting, Notification and Default role priority, with the navigation path Administration > Modules > Learning resource highlighted](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" }
+![Checkboxes for Comment, Rating and Request membership, plus the default setting for leaving and the role priority, Learning resource page in the Modules menu of the system administration](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#learning_resource)
 
 ---
 
 
-## Section Settings {: #tab_settings}
+## Settings tab {: #tab_settings}
+
+The "Settings" tab contains the sections Settings, Default setting, Notification and Default role priority.
+
+### Settings section
 
 Activating the first checkbox makes the pre-selection "In Preparation" visible for participants in the "Courses" menu. This has the following effect.
 
-#### Area "In Preparation" under "Courses":
+#### Scope "In preparation" under "Courses"
 
 **Participant view when activated**
-![Courses area with active filter "In Preparation" and one course in preparation in the list](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
+![Courses area with the active scope "In preparation" and one course in preparation in the list](assets/modules_learning_resource_tab_settings_section_v1_en.png){ class="shadow lightbox" }
 
 #### Course search {: #course_search}
 
@@ -36,11 +40,11 @@ The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is con
 
 The course info page can be called up in the header of a course. The comment is "hidden" within it.
 
-![Course toolbar with the Course info button highlighted](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
+![Course toolbar with the Info page button highlighted](assets/modules_repository_course_info_v1_en.png){ class="shadow lightbox" }
 
 An input field for submitting a comment can then be displayed on the info page.
 
-![Course info page with the input field for a comment highlighted](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
+![Info page of a course with the input field for a comment highlighted](assets/modules_repository_course_comment_v1_en.png){ class="shadow lightbox" }
 
 The availability of this input field can be switched on/off globally by administrators in this module.
 
@@ -49,11 +53,11 @@ The availability of this input field can be switched on/off globally by administ
 ---
 
 
-#### Assessment
+#### Rating
 
 Clickable stars for rating can also be displayed on the info page of a course.
 
-![Course info page with the rating widget of five clickable stars highlighted](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
+![Info page of a course with the rating widget of five clickable stars highlighted](assets/modules_repository_course_review_v1_en.png){ class="shadow lightbox" }
 
 The availability of stars for rating a course can be switched on/off globally by administrators in this module.
 
@@ -66,7 +70,7 @@ The availability of stars for rating a course can be switched on/off globally by
 If someone opens a course to which they do not have access, a notice appears. 
 There is a button there that can be used to request membership. When clicked, an email is sent to all course owners.
 
-![Notice page "You are not a member" with the Request membership button](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
+![Notice page "You are not a member." with the Request membership button](assets/modules_repository_request_membership_v1_en.png){ class="shadow lightbox" }
 
 This function can be switched on/off globally by administrators in this module.
 
@@ -95,9 +99,9 @@ A taxonomy cannot be deselected in this area as long as **it is used in a launch
 
 ---
 
-### Section "Default settings"
+### Default setting section
 
-#### Participants may leave {: #allow_leaving_courses}
+#### Participants can leave {: #allow_leaving_courses}
 
 This option specifies a default setting for all new courses. (Existing courses are not affected by this.) Course participants can then decide for themselves whether they want to leave a course.
 
@@ -109,20 +113,20 @@ The following options are available as the default:
 
 
 !!! tip "Course-specific"
-    This preselected setting can be adjusted again on a course-specific basis by course owners: `(Course) Administration > Settings > Sharing tab`
+    This preselected setting can be adjusted again on a course-specific basis by course owners: `(Course) Administration > Settings > Share tab`
 
 [To the top of the page ^](#learning_resource)
 
 ---
 
-### Section "Notification" {: #notification}
+### Notification section {: #notification}
 
 OpenOlat can send notifications about events at various points. If someone wants to receive the notifications, a subscription can be set up.
 
 !!! note "Note"
-    Notifications about events in the learning resource currently only affect the subscription "*Notify owners about status changes for learning resources*".
+    Notifications about events in the learning resource currently only affect the subscription "*Notify owner of status change for learning resources*".
 
-#### Subscribers
+#### Subscription
 
 A) Default setting<br>
 Activating/deactivating the subscription determines whether a subscription for the described target group is also set up by default when a new course or learning resource is created in the authoring area. This has no effect on already existing subscriptions.
@@ -134,7 +138,7 @@ B) Existing subscriptions can be updated using the "Activate existing subscripti
 ---
 
 
-### Section "Default role priority" [:octicons-tag-16:{ title="Available from Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
+### Default role priority section [:octicons-tag-16:{ title="from Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
 
 This setting defines the order in which roles are prioritized when a member has multiple roles when accessing the learning resource. The top role in the list has the highest priority. System roles always have a lower priority than member roles.
 
@@ -145,10 +149,9 @@ This setting defines the order in which roles are prioritized when a member has 
 
 ## Access tab {: #tab_accesss}
 
+The "Access" tab contains the sections Access and Status "Finished".
 
-
-
-### Section "Access"
+### Access section
 
 #### Access for course owners/coaches [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
@@ -156,16 +159,16 @@ Anyone who is an owner or coach in a course (a learning resource) finds that lea
 
 ![Access tab in the Learning resource module with the overview of access settings for sites and the Status "Finished" section](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
 
-#### Show notice in "Courses"
+#### Show hint in "Courses"
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
-![Access tab with the toggle button Show notice in "Courses" activated](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
+![Access tab with the toggle button Show hint in "Courses" activated](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
 ![Courses area with a notice box for coaches/owners linking to the Coaching area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
 
-#### Settings for Sites
+#### Site settings
 
-Via the link "Open site settings" you go directly to `Administration > Customizing > Sites`. There you define whether and in which order the sites "My courses" and "Coaching" appear in the header and for which roles they are visible.
+Via the button "Open site settings" you go directly to `Administration > Customizing > Sites`. There you define whether and in which order the sites "My courses" and "Coaching" appear in the header and for which roles they are visible.
 
 !!! note "Access to the setting"
     Only **administrators** can open this page and make changes.
@@ -174,7 +177,7 @@ Via the link "Open site settings" you go directly to `Administration > Customizi
 
 ---
 
-### Section Status "Finished" [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+### Status "Finished" section [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
 Here you define system-wide what access participants have to a course or a learning resource in the status "Finished". This setting is the default for all courses and can be overridden per course.
 

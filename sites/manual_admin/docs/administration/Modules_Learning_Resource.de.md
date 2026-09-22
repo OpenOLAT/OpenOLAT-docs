@@ -2,21 +2,22 @@
 
 Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
-![Tab Einstellungen im Modul Lernressource mit den Abschnitten Einstellungen, Standardeinstellung, Benachrichtigung und Standard-Rollenpriorität, Navigationsweg Administration > Module > Lernressource hervorgehoben](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" }
+![Kontrollkästchen für Kommentar, Bewertung und Mitgliedschaft beantragen, Standardeinstellung zum Austreten und Rollenpriorität, Seite Lernressource im Menü Module der System-Administration](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#learning_resource)
 
 ---
 
 
-## Abschnitt Einstellungen {: #tab_settings}
+## Tab Einstellungen {: #tab_settings}
 
+Der Tab "Einstellungen" enthält die Abschnitte Einstellungen, Standardeinstellung, Benachrichtigung und Standard-Rollenpriorität.
 
-
+### Abschnitt Einstellungen
 
 Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar. Dies bewirkt folgendes.
 
-#### Bereich "In Vorbereitung" unter "Kurse":
+#### Bereich "In Vorbereitung" unter "Kurse"
 
 **Ansicht Teilnehmer:in bei Aktivierung**
 ![Bereich Kurse mit aktiviertem Filter "In Vorbereitung" und einem Kurs in Vorbereitung in der Liste](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
@@ -98,7 +99,7 @@ Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in ei
 
 ---
 
-### Abschnitt "Standardeinstellung"
+### Abschnitt Standardeinstellung
 
 #### Teilnehmer:innen können austreten {: #allow_leaving_courses}
 
@@ -118,14 +119,14 @@ Als Standardeinstellung kann gewählt werden zwischen
 
 ---
 
-### Abschnitt "Benachrichtigung" {: #notification}
+### Abschnitt Benachrichtigung {: #notification}
 
 OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse versenden. Wenn jemand die Benachrichtigungen erhalten möchte, kann dazu ein Abonnement eingerichtet werden.
 
 !!! note "Hinweis"
     Benachrichtigungen über Ereignisse in der Lernressource betreffen aktuell nur das Abonnement "*Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen*".
 
-#### Abonnenten
+#### Abonnement
 
 A) Voreinstellung<br>
 Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Autorenbereich standardmässig auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
@@ -138,7 +139,7 @@ B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons
 ---
 
 
-### Abschnitt "Standard-Rollenpriorität" [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
+### Abschnitt Standard-Rollenpriorität [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8795)" }](https://track.frentix.com/issue/OO-8795){:target="_blank"}
 
 Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werden, wenn ein Mitglied beim Zugriff auf die Lernressource mehrere Rollen hat. Die oberste Rolle in der Liste hat die höchste Priorität. Systemrollen haben immer eine niedrigere Priorität als Mitgliedsrollen.
 
@@ -149,16 +150,15 @@ Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werde
 
 ## Tab Zugang {: #tab_accesss}
 
+Der Tab "Zugang" enthält die Abschnitte Zugang und Status "Beendet".
 
-
-
-### Abschnitt "Zugang"
+### Abschnitt Zugang
 
 #### Zugang Kursbesitzer:innen/Betreuer:innen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
 Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen Benutzer:innen mit der Rolle Betreuer:in selbst Teilnehmer:in sind.
 
-![Tab Zugang im Modul Lernressource mit Übersicht Zugangseinstellungen für Sites und Abschnitt Status "Beendet"](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
+![Tab Zugang im Modul Lernressource mit Übersicht Zugangseinstellungen für Bereiche und Abschnitt Status "Beendet"](assets/modules_learning_resource_tab_access_v2_de.png){ class="shadow lightbox" }
 
 #### Hinweis in "Kurse" anzeigen
 
@@ -167,11 +167,9 @@ Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:in
 ![Tab Zugang mit aktiviertem Toggle-Button Hinweis in "Kurse" anzeigen](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" }
 ![Bereich Kurse mit Hinweisbox für Betreuer:innen/Besitzer:innen zum Link Coaching-Bereich](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" }
 
-#### Einstellungen für Sites
+#### Bereichseinstellungen
 
-
-
-Über den Link "Site Einstellungen öffnen" gelangen Sie direkt zu `Administration > Customizing > Sites`. Dort legen Sie fest, ob und in welcher Reihenfolge die Sites "Meine Kurse" und "Coaching" in der Kopfzeile erscheinen und für welche Rollen sie sichtbar sind.
+Über den Button "Bereichseinstellungen öffnen" gelangen Sie direkt zu `Administration > Customizing > Bereiche`. Dort legen Sie fest, ob und in welcher Reihenfolge die Sites "Meine Kurse" und "Coaching" in der Kopfzeile erscheinen und für welche Rollen sie sichtbar sind.
 
 !!! note "Zugang zur Einstellung"
     Nur **Administrator:innen** können diese Seite aufrufen und Veränderungen vornehmen.
