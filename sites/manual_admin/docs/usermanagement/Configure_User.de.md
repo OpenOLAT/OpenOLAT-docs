@@ -206,6 +206,8 @@ Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benut
 
 Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.  
 
+![Warnhinweis, dass der Leistungsnachweis bei noch eingeschriebenen Personen neu erstellt wird, mit den Schaltflächen Löschen und Abbrechen: Dialog Leistungsnachweis löschen](assets/user_management_evidence_delete_v1_de.png){ class="shadow lightbox" }
+
 [zum Seitenanfang ^](#user_configuration)
 
 

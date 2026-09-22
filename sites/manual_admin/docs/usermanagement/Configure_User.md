@@ -207,6 +207,8 @@ The evidence of achievements, points and progress of a user from courses are dis
 
 Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="from Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
 
+![Warning that the evidence of achievement is created again for persons who are still enrolled, with the buttons Delete and Cancel: dialog Delete evidence of achievement](assets/user_management_evidence_delete_v1_en.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#user_configuration)
 
 

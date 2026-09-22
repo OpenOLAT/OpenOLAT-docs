@@ -97,11 +97,13 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
 ### Kursbewertung mit Einstufung/Noten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
 
-Ist das Einstufungs-/Notenmodul aktiviert und wird der Kurs mit **Punkten** bewertet, können Sie mit der Option **"Mit Einstufung/Noten"** dem Kurs auf Kursebene eine Note zuweisen. Die Kursnote wird aus der Summe der Punkte der bewertbaren Kursbausteine gebildet (Summe, gewichtete Summe oder Durchschnitt gemäss der gewählten Punkteeinstellung) und über das gewählte **Bewertungssystem** in eine Note übersetzt.
+Ist das Einstufungs-/Notenmodul aktiviert und wird der Kurs mit **Punkten** bewertet, können Sie mit der Option **"Mit Einstufung/Noten"** dem Kurs auf Kursebene eine Note zuweisen. Die Kursnote wird aus der Summe der Punkte der bewertbaren Kursbausteine gebildet (Summe, gewichtete Summe oder Durchschnitt gemäss der gewählten Punkteeinstellung) und über die gewählte **Bewertungsskala** in eine Note übersetzt.
 
-Ist "Mit Einstufung/Noten" aktiv, bestimmt das Bewertungssystem auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn die Bestehensregel des Bewertungssystems erfüllt ist. Die Einstellung "Mit Erfolgsstatus" wird in diesem Fall automatisch entsprechend gesetzt. Enthält das gewählte Bewertungssystem keine Bestehensregel, hat der Kurs auf Kursebene keinen Erfolgsstatus.
+Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn das **Erfolgskriterium** der Bewertungsskala erfüllt ist. Die Einstellung "Mit Erfolgsstatus" wird in diesem Fall automatisch entsprechend gesetzt. Enthält die gewählte Bewertungsskala kein Erfolgskriterium, hat der Kurs auf Kursebene keinen Erfolgsstatus.
 
 Die Note wird manuell berechnet: Kursbesitzer:innen und berechtigte Betreuer:innen lösen die Berechnung im [Bewertungswerkzeug](Assessment_tool_overview.de.md) über die Aktion **"Einstufung/Noten zuweisen"** aus.
+
+![Eingeschaltete Einstellung "Mit Einstufung/Noten" mit Zuweisung, Bewertungsskala und Erfolgskriterium, darunter der ausgeschaltete Schalter "Mit Erfolgsstatus" mit seinem Hinweistext](assets/course_settings_assessment_grades_v1_de.png){ class="shadow lightbox" }
 
 [Zum Abschnitt Einstellungen Bewertung ^](#section_assessment_settings)<br>
 [Zum Seitenanfang ^](#tab_assessment)

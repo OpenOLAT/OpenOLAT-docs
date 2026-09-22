@@ -95,13 +95,15 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 
 
-### Course assessment with levels/grading [:octicons-tag-16:{ title="ab Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
+### Course assessment with levels/grading [:octicons-tag-16:{ title="from Release 21.0 (OO-9511)" }](https://track.frentix.com/issue/OO-9511) {: #evaluation_with_grades}
 
-If the levels/grading module is enabled and the course is graded with **points**, you can use the **"With levels/grading"** option to assign a grade to the course at course level. The course grade is calculated from the sum of the points of the assessable course elements (sum, weighted sum, or average, depending on the selected points setting) and translated into a grade via the selected **grading system**.
+If the levels/grading module is enabled and the course is graded with **points**, you can use the **"With levels/grading"** option to assign a grade to the course at course level. The course grade is calculated from the sum of the points of the assessable course elements (sum, weighted sum, or average, depending on the selected points setting) and translated into a grade via the selected **rating scale**.
 
-If "With levels/grading" is active, the grading system also determines the **success status** of the course: the course is considered passed if the pass condition of the grading system is met. In this case, the "With success status" setting is set accordingly. If the selected grading system has no pass condition, the course has no success status at course level.
+If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. In this case, the "With success status" setting is set accordingly. If the selected rating scale has no success criterion, the course has no success status at course level.
 
 The grade is calculated manually: course owners and authorised coaches trigger the calculation in the [assessment tool](Assessment_tool_overview.md) via the action **"assign Levels/Grading"**.
+
+![Enabled setting "With levels/grading" with assignment, rating scale and success criterion, below it the switched-off toggle "With success status" with its note](assets/course_settings_assessment_grades_v1_en.png){ class="shadow lightbox" }
 
 [Find out more about Assessment Settings ^](#section_assessment_settings)<br>
 [To the top of the page ^](#tab_assessment)

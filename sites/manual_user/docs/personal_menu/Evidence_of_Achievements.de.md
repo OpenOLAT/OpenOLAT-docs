@@ -29,6 +29,8 @@ Benutzer:innen finden ihre Leistungsnachweise und, sofern aktiviert, auch ihre e
 
 Die Anzeige im Persönlichen Menü eignet sich, um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. Bei aktivem Notenmodul lässt sich zusätzlich die Spalte "Bewertung" mit der erreichten Note einblenden; die standardmässig ausgeblendete Spalte "Kennzeichen" zeigt das Kennzeichen des Kurses. Ihre Spaltenauswahl bleibt dauerhaft gespeichert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
+![Geöffnete Spaltenauswahl mit den markierten Einträgen Kennzeichen und Bewertung, im Werkzeug Leistungsnachweise](assets/pers_menu_evid_of_achiev_columns_v1_de.png){ class="shadow lightbox"}
+
 Sind Sie Mitglied in einem Produkt des Course Planners, wählen Sie oberhalb der Liste ein Produkt, "Einzelkurse" oder "Alle Leistungsnachweise" aus. [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
 Klicken Sie auf das Symbol "ePortfolio", um einen Leistungsnachweis als Element im [Media Center](../personal_menu/Media_Center.de.md) zu speichern und ihn so in Ihre [Portfolio](../personal_menu/Portfolio.de.md)-Mappen einbinden zu können.
