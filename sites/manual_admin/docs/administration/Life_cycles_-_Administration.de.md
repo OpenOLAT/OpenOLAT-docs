@@ -95,13 +95,18 @@ Die Reaktivierung setzt den Kontostatus zurück auf "Aktiv". Die Person meldet s
 Ein Konto reaktivieren Sie manuell unter:<br>
 `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`
 
+Meldet sich die Person über Shibboleth an, reaktiviert OpenOlat das inaktive Konto automatisch.
+
 Bei eingeschalteter automatischer Deaktivierung hat die Person nach einer Reaktivierung 30 Tage Zeit, sich anzumelden. In dieser Zeit lässt der automatische Kontolebenszyklus das Konto stehen, und der Reiter "Konto" weist die verbleibenden Tage mit dem Zusatz "(Karenzfrist)" aus. Erfolgt keine Anmeldung, deaktiviert OpenOlat das Konto erneut.
 
 Die 30 Tage sind systemweit festgelegt und gelten für alle Konten.
 
-Daten entfernt erst die Löschung. Sie löscht auch das Passwort unwiderbringlich, siehe [Benutzer:in löschen >](../usermanagement/Delete_User.de.md).
+### Löschung und gelöschte Konten {: #account_deletion}
 
-Die Löschung entfernt die Daten des Kontos und trägt die Person aus allen Gruppen und Rollen aus. Der Datensatz selbst bleibt anonymisiert bestehen: OpenOlat ersetzt den Anmeldenamen durch eine ID der Form "del_884736" und setzt den Status auf "Gelöscht". Das ist nötig, weil Objekte wie Forenbeiträge weiterhin auf das Konto verweisen. Die anonymisierten Konten finden Sie unter `Benutzerverwaltung > Status > Gelöschte Konten`, siehe [Benutzer-/Kontosuche](../usermanagement/Search_Users.de.md#search_user_roles).
+Die Deaktivierung lässt die Daten stehen. Erst die Löschung entfernt sie: Sie löscht das Passwort unwiderbringlich und trägt die Person aus allen Gruppen und Rollen aus, siehe [Benutzer:in löschen](../usermanagement/Delete_User.de.md).
+
+Der Datensatz selbst bleibt anonymisiert bestehen. OpenOlat ersetzt den Anmeldenamen durch eine ID der Form "del_884736" und setzt den Status auf "Gelöscht". Das ist nötig, weil Objekte wie Forenbeiträge weiterhin auf das Konto verweisen. Die anonymisierten Konten finden Sie unter:<br>
+`Benutzerverwaltung > Status > Gelöschte Konten`
 
 Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Lebenszyklus von der Löschung aus.
 
@@ -112,10 +117,11 @@ Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Lebe
 
 **Auf dieser Seite erwähnt**<br>
 [Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
+[Benutzer konfigurieren >](../usermanagement/Configure_User.de.md)<br>
 [Benutzer:in löschen >](../usermanagement/Delete_User.de.md)
 
 **Weiterführend**<br>
-[Benutzer konfigurieren >](../usermanagement/Configure_User.de.md)<br>
-[Benutzer-/Kontosuche >](../usermanagement/Search_Users.de.md)
+[Benutzer-/Kontosuche >](../usermanagement/Search_Users.de.md)<br>
+[Benutzer:in erstellen >](../usermanagement/Create_User.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)

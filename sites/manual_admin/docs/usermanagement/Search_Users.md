@@ -17,7 +17,7 @@ User administrators and administrators can search for specific users/accounts in
 
 Enter your relevant search criteria and confirm with the "Return" key or by clicking on the "Search" button.
 
-![user_management_search_form_v2_de.png](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
+![Search fields from login name to account expiration, grouped into personal data, address, institution, roles, authentication and account status: user search with the search form](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
 
 Above the view you find the actions "Create user", "Import users", "Create temp. users" and "Delete user".
 
@@ -30,7 +30,7 @@ The field "Account expiration" searches by the expiry date of the accounts. The 
 
 Select one of the relevant search criteria in the menu on the left and narrow it down.
 
-![user_management_search_left_menu_v2_de.png](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
+![Left menu with the entries Organisations, Organisation roles, Course roles, Group roles, Course Planner roles, Account roles, Account types, Status and Predefined search queries: user search](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
 
 ### Organizations
 
@@ -118,17 +118,17 @@ Here you can search within pre-selected account types.
 * Anonymous accounts
 
 
-### Status
+### Status {: #status}
 
 The following can be displayed here:
 
 * Pending user accounts
 * Inactive accounts
 * Blocked accounts
-* Deleted accounts
+* Deleted users
 
 
-![user_management_search_status_v2_de.png](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
+![Table of the deleted users with Del_login name, Deleted on, Created and Deleted by, on the left the expanded entry Status: user search with status Deleted users](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
 
 
 The "**Deleted users**" table in the user administration contains the following
@@ -168,14 +168,14 @@ Under the menu "**Predefined search queries**" you will find frequently used sea
 
 For a quick search, simply enter a term or part of a term in the "Quick Search" field.
 
-![user_management_quick_search_v2_de.png](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
+![Marked input field with the button Quick Search above the remaining search fields: user search with the search form](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
 
 ## Bulk search {: #search_user_bulk_search}
 
-![user_management_bulk_search_v2_de.png](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
+![Marked link Bulk search next to the heading User search: search form](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
@@ -187,16 +187,16 @@ If a list of search results is displayed after a search action, filters can be u
 In the first step, you search for all users who belong to a specific organizational unit.
 In the second step, you filter out all inactive users of this organizational unit in the results.
 
-![user_management_filter_searchresults_v2_de.png](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
+![Filter row with Status, Organisations, Inactivation and More above the result list, the selection field Status is expanded: search result of the user search](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
 
 Above the result list you find the filter tabs "All", "Active", "Active and not deletable", "Pending", "Inactive" and "Login denied" as well as the filters "Status", "Organisations" and "Inactivation". The filter "Inactivation" narrows the list to a period in which accounts were deactivated or will be deactivated.
 
 [To the top of the page ^](#search_user)
 
 
-## Columns of the result table {: #search_user_result_columns}
+## Columns of the result table [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382) {: #search_user_result_columns}
 
-Besides the personal data, the result list carries five columns on the lifecycle of an account. They stand in this order and answer the question when OpenOlat deactivates or deletes an account automatically. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+Besides the personal data, the result list carries five columns on the lifecycle of an account. They stand in this order and answer the question when OpenOlat deactivates or deletes an account automatically.
 
 OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation).
 

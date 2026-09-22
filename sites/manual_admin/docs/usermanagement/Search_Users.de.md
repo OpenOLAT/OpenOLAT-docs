@@ -117,7 +117,7 @@ Hier suchen Sie innerhalb vorselektierter Kontotypen.
 * Anonyme Konten
 
 
-### Status
+### Status {: #status}
 
 Hier können angezeigt werden:
 
@@ -193,9 +193,9 @@ Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser O
 [Zum Seitenanfang ^](#search_user)
 
 
-## Spalten der Ergebnistabelle {: #search_user_result_columns}
+## Spalten der Ergebnistabelle [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382) {: #search_user_result_columns}
 
-Die Trefferliste führt neben den Personendaten fünf Spalten zum Lebenszyklus eines Kontos. Sie stehen in dieser Reihenfolge und beantworten die Frage, wann OpenOlat ein Konto automatisch deaktiviert oder löscht. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+Die Trefferliste führt neben den Personendaten fünf Spalten zum Lebenszyklus eines Kontos. Sie stehen in dieser Reihenfolge und beantworten die Frage, wann OpenOlat ein Konto automatisch deaktiviert oder löscht.
 
 OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation).
 

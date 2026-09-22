@@ -98,9 +98,12 @@ If the automatic deactivation is switched on, the person has 30 days to log in a
 
 The 30 days are set system-wide and apply to all accounts.
 
-Only deletion removes data. It also deletes the password irrevocably, see [Delete user >](../usermanagement/Delete_User.md).
+### Deletion and deleted accounts {: #account_deletion}
 
-Deletion removes the data of the account and takes the person out of all groups and roles. The record itself remains in anonymised form: OpenOlat replaces the login name with an ID of the form "del_884736" and sets the status to "Deleted". This is necessary because objects such as forum posts still refer to the account. You find the anonymised accounts under `User management > Status > Deleted accounts`, see [User/account search](../usermanagement/Search_Users.md#search_user_roles).
+The deactivation leaves the data in place. Only the deletion removes it: it deletes the password irrevocably and takes the person out of all groups and roles, see [Delete user](../usermanagement/Delete_User.md).
+
+The record itself remains in anonymised form. OpenOlat replaces the login name with an ID of the form "del_884736" and sets the status to "Deleted". This is necessary because objects such as forum posts still refer to the account. You find the anonymised accounts under:<br>
+`User management > Status > Deleted users`
 
 An account with the status "Active and not deletable" is excluded from deletion by the automatic lifecycle.
 
@@ -111,10 +114,11 @@ An account with the status "Active and not deletable" is excluded from deletion 
 
 **Mentioned on this page**<br>
 [Group life cycle >](Automatic_Group_Lifecycle.md)<br>
+[Configure user >](../usermanagement/Configure_User.md)<br>
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>
-[Configure user >](../usermanagement/Configure_User.md)<br>
-[User/account search >](../usermanagement/Search_Users.md)
+[User/account search >](../usermanagement/Search_Users.md)<br>
+[Create user >](../usermanagement/Create_User.md)
 
 [To the top of the page ^](#lifecycles)

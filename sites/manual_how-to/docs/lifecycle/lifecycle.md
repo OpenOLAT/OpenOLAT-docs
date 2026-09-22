@@ -43,7 +43,7 @@ When you permanently delete a group, account, or course, it is completely remove
 ---
 
 
-## Where and how are the life cycles set up?
+## Where and how are the life cycles set up? {: #lifecycle_setup}
 
 ### General activation and setting {: #lifecycle_activation}
 
@@ -59,7 +59,7 @@ Based on these **general** presets, life cycles can then be activated **for indi
 ---
 
 
-## Group life cycle {: #group_lifestyle}
+### Group life cycle {: #group_lifestyle}
 
 The group life cycle is managed by group administrators in the menu **Groups > tab "Group management"**<br>
 (based on the administrator's preferences).
@@ -89,7 +89,7 @@ In the menu **"Groups" > tab "Group management"** click on the big arrows with t
 
 <br>
 
-## Course lifecycle {: #course_lifecycle}
+### Course lifecycle {: #course_lifecycle}
 
 The course lifecycle can be used by anyone who has access to the authoring area.
 
@@ -110,7 +110,7 @@ The basis is the administrator's default settings:
 ---
 
 
-## User account lifecycle {: #user_account_lifecycle}
+### User account lifecycle {: #user_account_lifecycle}
 
 The user account lifecycle can be used by anyone who has access to the user administration.
 
@@ -174,21 +174,21 @@ It can be configured so that owners are notified of status changes.
 
 **Group life cycle**
 
-- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Groups**
-- [x] By group managers: settings at **menu "Groups" > tab "Group management"**
-- [x] Configure notification of affected users
+- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > Groups`
+- [x] By group managers: settings under `Groups > Tab "Group management"`
+- [x] Configure the notification of the affected persons
 
 **Course lifecycle**
 
-- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Courses**
-- [x] By anyone who has access to the authoring area: mark courses in **Authoring > tab "Deleted"** and delete them
-- [x] Configure notification of affected users
+- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > Courses`
+- [x] By anyone who has access to the authoring area: mark courses under `Authoring > Tab "Deleted"` and delete them
+- [x] Configure the notification of the affected persons
 
 **User account lifecycle**
 
-- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Account**
-- [x] By anyone who has access to the **User management**: depending on the configuration of OpenOlat, manually deactivate/delete recognized inactive users (**User management > select user > tab Account**)
-- [x] Configure notification of affected users
+- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > User`
+- [x] By anyone who has access to the user management: deactivate recognised inactive accounts manually under `User management > "Account of the person" > Tab "Account"`, delete them manually under `User management > Delete user`
+- [x] Configure the notification of the affected persons
 
 [To the top of the page ^](#lifecycles)
 
