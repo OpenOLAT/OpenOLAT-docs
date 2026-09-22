@@ -15,13 +15,13 @@ Sie finden das Modul in der System-Administration unter:<br>
     * [ePortfolio](eAssessment_ePortfolio.de.md)
     * [Katalog](Modules_Catalog_2.0.de.md)
 
-![Übersichtsseite der Taxonomien mit Aktivierungsstatus je Bereich, Menüpunkt Taxonomie unter Administration > Module](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" }
+![Übersichtsseite der Taxonomien mit Aktivierungsstatus je Bereich, Menüpunkt Taxonomie im Menü Module der System-Administration](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" }
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomiestruktur erstellt werden.
 
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke aktiviert
 werden. Die Übersicht zeigt je Taxonomie, für welche Bereiche sie aktiviert ist:
-Fragenpool, Dokumentenpool, ePortfolio, Lernressourcen / Katalog, Course Planner und
+Lernressourcen / Katalog, Fragenpool, Dokumentenpool, ePortfolio, Course Planner und
 Media Center. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
 Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
@@ -58,7 +58,7 @@ erstellt werden.
 
 #### Kennzeichen {: #level_type_identifier}
 
-Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Wählen Sie ein eindeutiges und logisches Kennzeichen.
+Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Ebenen" in der Spalte "Ebenentyp" angezeigt. Die Spalte ist nicht voreingestellt, Sie blenden sie über das Zahnrad über der Tabelle unter "Spalten auswählen" ein. Wählen Sie ein eindeutiges und logisches Kennzeichen.
 
 #### Titel {: #level_type_display_name}
 
@@ -129,11 +129,11 @@ Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: K
 
 Beschreibung der Taxonomieebene. Wird im Katalog unter der Ebene angezeigt.
 
-![Dialog "Neue Taxonomieebene erstellen" mit den Feldern Pfad, Bezeichnung, Anzeigename, Typ, Sortierung und Beschreibung](assets/Taxebenen.png){ class="shadow lightbox" }
+![Dialog "Neue Taxonomieebene erstellen" mit den Feldern Pfad, Kennzeichen, Typ, Sortierung, Titel und Beschreibung sowie dem Abschnitt Bilder mit Teaser Bild und Hintergrund Bild](assets/modules_taxonomy_level_create_v1_de.png){ class="shadow lightbox" }
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
-![Ausgeklappte Treetable der Taxonomie ABC mit den Spalten Anzeigename, Kennzeichen, Ebene Ext. Ref., Ebenentyp und Anzahl, Tab Taxonomie](assets/taxonomy-overview-hierarchy.de.jpg){ class="shadow lightbox" }
+![Ausgeklappte Liste der Taxonomie ABC im Tab "Ebenen" mit den Spalten Ebene, Kennzeichen, Externe ID und Unterebenen](assets/modules_taxonomy_levels_overview_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Kompetenzen"
     In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer:innen die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
@@ -154,9 +154,9 @@ kurz umrissen:
 
 
 Die Taxonomie wird mit Klick auf den Menüpunkt (siehe Bild) als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
-![Taxonomie exportieren](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
+![Geöffnetes Drei-Punkte-Menü mit den Einträgen Taxonomieebenen exportieren und Taxonomieebenen importieren, rechts über der Liste der Taxonomieebenen](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
 
-### Taxonomie importieren {: #import}
+### Taxonomie importieren [:octicons-tag-16:{ title="ab Release 15.4 (OO-5177)" }](https://track.frentix.com/issue/OO-5177){:target="_blank"} {: #import}
 
 **Daten Einfügen**
 
@@ -200,11 +200,11 @@ Alternativ ist es auch möglich, die vorhandenen Vorlagen unter den jeweiligen L
 
 ## Automatische Zuordnung per KI [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
 
-Die KI liest aus einem Bild oder einem Text heraus, wovon er handelt, und ordnet das Ergebnis selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
+Die KI liest aus einem Bild oder einem Text heraus, worum es inhaltlich geht, und ordnet das Ergebnis selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
 
-Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern.
+Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern. Eine Taxonomieebene, die an einem Medium oder an einer Lernressource hängt, heisst dort Fachbereich.
 
-OpenOlat durchsucht nur die Taxonomien, die für das Media Center aktiviert sind. Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist.
+OpenOlat durchsucht nur die Taxonomien, die für das Media Center ausgewählt sind. Welche das sind, legen Sie in der System-Administration unter `Administration > Module > Media Center` im Feld "Verknüpfte Taxonomien" fest, siehe [Modul Media Center: Taxonomie](Modules_Media_Center.de.md#taxonomy). Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist.
 
 ### Voraussetzungen {: #ai_matching_requirements}
 
@@ -218,7 +218,7 @@ Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn da
 
 ### Womit die KI vergleicht {: #ai_matching_maintenance}
 
-Titel und Beschreibung einer Taxonomieebene entscheiden, ob die KI sie findet. Beide pflegen Sie unter `Administration > Module > Taxonomie` im Tab "Taxonomie", nicht im Media Center.
+Titel und Beschreibung einer Taxonomieebene entscheiden, ob die KI sie findet. Beide pflegen Sie unter `Administration > Module > Taxonomie` im Tab "Ebenen", nicht im Media Center.
 
 OpenOlat vergleicht das Ergebnis der KI mit drei Angaben je Taxonomieebene, und zwar auf Deutsch und auf Englisch:
 
@@ -234,18 +234,20 @@ Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
 
 | Auslöser | Was OpenOlat zuordnet | Was dafür nötig ist |
 |---|---|---|
-| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | die am besten passende Ebene, genau eine | Die KI Funktion "Bildbeschreibungs-Generator" liefert, wovon das Bild handelt. |
-| Import einer Markdown-Datei in den Content Editor | alle passenden Ebenen, bis zu drei je Taxonomie | Dieselbe KI Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
-| Metadaten von Hand erfassen | nichts | Sie wählen die Ebene selbst im Feld "Themen/Fachbereiche". |
+| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | den am besten passenden Fachbereich, genau einen | Die KI Funktion "Bildbeschreibungs-Generator" liefert, worum es im Bild geht. |
+| Import einer Markdown-Datei in den Content Editor | alle passenden Fachbereiche, bis zu drei je Taxonomie | Dieselbe KI Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
+| Metadaten von Hand erfassen | nichts | Sie wählen den Fachbereich selbst im Feld "Themen/Fachbereiche". |
 
-Die KI liefert also, wovon das Medium handelt, und die Taxonomie-Zuordnung sucht dazu die Ebene. Ohne die KI Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Die zugeordnete Ebene ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
+Die KI liefert also, worum es im Medium geht, und die Taxonomie-Zuordnung sucht dazu den passenden Fachbereich. Ohne die KI Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Der zugeordnete Fachbereich ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
+
+Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist.
 
 [Zum Seitenanfang ^](#module_taxonomy)
 
 ## Lost+Found {: #lost_found}
 **Letzter Tab in der Übersicht**
 
-Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
+Hier werden alle gelöschten Elemente aus dem Tab "Ebenen" abgelegt.
 
 !!! note "Hinweis"
     Gelöschte Objekte können momentan nicht wiederhergestellt werden.
@@ -260,10 +262,10 @@ Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
 [Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
-[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)
+[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)<br>
+[Modul Media Center >](Modules_Media_Center.de.md)
 
 **Weiterführend**<br>
-[Media Center >](Modules_Media_Center.de.md)<br>
 [Course Planner >](Modules_Course_Planner.de.md)
 
 [Zum Seitenanfang ^](#module_taxonomy)

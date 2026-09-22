@@ -13,11 +13,11 @@ You find the module in the system administration under:<br>
     * [ePortfolio](eAssessment_ePortfolio.md)
     * [Catalog](Modules_Catalog_2.0.md)
 
-![Overview page of the taxonomies with activation status per area, menu item Taxonomy under Administration > Modules](assets/modules_taxonomy_entry_v1_en.png){ class="shadow lightbox" }
+![Overview page of the taxonomies with activation status per area, menu item Taxonomy in the Modules menu of the system administration](assets/modules_taxonomy_entry_v1_en.png){ class="shadow lightbox" }
 
 Directly on the overview page a new taxonomy structure can be created.
 
-Several taxonomy structures can be created and activated for different purposes. The overview shows per taxonomy for which areas it is activated: Question bank, Document pool, ePortfolio, Learning resources / Catalog, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+Several taxonomy structures can be created and activated for different purposes. The overview shows per taxonomy for which areas it is activated: Learning resources / Catalog, Question bank, Document pool, ePortfolio, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
 Thus on one hand taxonomy structures can for example be built in the form of
 subject, sphere of activity or competence structures. On the other hand
@@ -49,7 +49,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
 
 #### Reference {: #level_type_identifier}
 
-Often an abbreviation of the corresponding level is added here. The reference is shown in the table in the tab "Taxonomy" in the column "Level type". It is thus recommended to choose a unique and logic reference.
+Often an abbreviation of the corresponding level is added here. The reference is shown in the table in the tab "Levels" in the column "Level type". The column is not shown by default, you switch it on with the gear icon above the table under "Displayed columns". It is thus recommended to choose a unique and logic reference.
 
 #### Title {: #level_type_display_name}
 
@@ -119,11 +119,11 @@ The title depends on the language and is used in different places: Catalog 2.0, 
 
 If desired a short description of the taxonomy level can be added. Displayed in the catalog below the level.
 
-![Dialog "Create new taxonomy level" with the fields Path, Identifier, Display name, Type, Order and Description](assets/Taxebenen EN.png){ class="shadow lightbox" }
+![Dialog "Create new taxonomy level" with the fields Path, Reference, Type, Order, Title and Description and the section Images with Teaser image and Background image](assets/modules_taxonomy_level_create_v1_en.png){ class="shadow lightbox" }
 
 In the overview a hierarchical structure is now visible.
 
-![Expanded treetable of the taxonomy ABC with the columns Level, Level ID, Level ext. ref., Level type and Number, Taxonomy tab](assets/taxonomy-overview-hierarchy.jpg){ class="shadow lightbox" }
+![Expanded list of the taxonomy ABC in the tab "Levels" with the columns Level, Reference, External ID and Sublevels](assets/modules_taxonomy_levels_overview_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "Competences"
     In the detail view competences can be added afterwards. Like this users get "access rights" for the single taxonomy levels.
@@ -143,10 +143,10 @@ shortly:
 ### Export taxonomy  {: #export}
 
 The taxonomy is downloaded as a .zip archive by clicking on the menu item (see image). This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
-![Export taxonomy menu item](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
+![Opened three-dot menu with the entries Export taxonomy levels and Import taxonomy levels, on the right above the list of taxonomy levels](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
 
 
-### Import taxonomy {: #import}
+### Import taxonomy [:octicons-tag-16:{ title="from Release 15.4 (OO-5177)" }](https://track.frentix.com/issue/OO-5177){:target="_blank"} {: #import}
 
 **Insert data**
 
@@ -192,9 +192,9 @@ Alternatively, it is also possible to download the existing templates under the 
 
 The AI works out what an image or a text is about and assigns the result to a taxonomy level on its own. It compares the meaning, not the exact wording. An English text therefore also finds a level with a German name, a synonym finds the intended level, and a related term finds the one that is closest in content.
 
-The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there.
+The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there. A taxonomy level that hangs on a media item or on a learning resource is called a subject there.
 
-OpenOlat only searches the taxonomies that are activated for the Media Center. The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated.
+OpenOlat only searches the taxonomies that are selected for the Media Center. You set these in the system administration under `Administration > Modules > Media Center` in the field "Linked taxonomies", see [Module Media Center: Taxonomy](Modules_Media_Center.md#taxonomy). The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated.
 
 ### Requirements {: #ai_matching_requirements}
 
@@ -209,7 +209,7 @@ If one of these settings is missing, OpenOlat only assigns a level when the resu
 
 ### What the AI compares {: #ai_matching_maintenance}
 
-The title and the description of a taxonomy level decide whether the AI finds it. You maintain both under `Administration > Modules > Taxonomy` in the tab "Taxonomy", not in the Media Center.
+The title and the description of a taxonomy level decide whether the AI finds it. You maintain both under `Administration > Modules > Taxonomy` in the tab "Levels", not in the Media Center.
 
 OpenOlat compares the result of the AI with three entries per taxonomy level, in German and in English:
 
@@ -219,24 +219,26 @@ OpenOlat compares the result of the AI with three entries per taxonomy level, in
 
 The third entry is dropped when the level has no description. A level with a meaningful title and a description is therefore found more reliably than a level that only carries an abbreviation. Maintain both entries in the second language as well.
 
-### Interplay of AI and subject areas {: #ai_matching_interplay}
+### Interplay of AI and subjects {: #ai_matching_interplay}
 
-Which subject area a media item receives depends on the trigger:
+Which subject a media item receives depends on the trigger:
 
 | Trigger | What OpenOlat assigns | What is needed for it |
 |---|---|---|
-| Button "Generate metadata with AI" when uploading an image | the best matching level, exactly one | The AI feature "Image Description Generator" supplies what the image is about. |
-| Import of a Markdown file into the Content Editor | all matching levels, up to three per taxonomy | The same AI feature. The assignment runs in the background after saving. |
-| Enter metadata manually | nothing | You select the level yourself in the field "Subjects". |
+| Button "Generate metadata with AI" when uploading an image | the best matching subject, exactly one | The AI feature "Image Description Generator" supplies what the image is about. |
+| Import of a Markdown file into the Content Editor | all matching subjects, up to three per taxonomy | The same AI feature. The assignment runs in the background after saving. |
+| Enter metadata manually | nothing | You select the subject yourself in the field "Subjects". |
 
-The AI therefore supplies what the media item is about, and the taxonomy matching looks for the level. Without the AI feature "Image Description Generator" this entry stays empty, and the taxonomy matching has nothing to compare. The assigned level is a suggestion and can be changed in the metadata at any time.
+The AI therefore supplies what the media item is about, and the taxonomy matching looks for the matching subject. Without the AI feature "Image Description Generator" this entry stays empty, and the taxonomy matching has nothing to compare. The assigned subject is a suggestion and can be changed in the metadata at any time.
+
+If the field "Subjects" stays empty although the AI has generated title, description and tags, first check whether a taxonomy is selected for the Media Center.
 
 [To the top of the page ^](#module_taxonomy)
 
 ## Lost+Found {: #lost_found}
 **Last tab in the overview**
 
-All deleted elements of the tab "Taxonomy" end up here.
+All deleted elements of the tab "Levels" end up here.
 
 !!! note "Note"
     Deleted objects cannot currently be restored.
@@ -251,10 +253,10 @@ All deleted elements of the tab "Taxonomy" end up here.
 [Catalog 2.0 >](../../manual_user/area_modules/catalog2.0.md)<br>
 [Media Center: information and settings for individual media >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
-[External tools: AI module >](External_Tools_AI.md)
+[External tools: AI module >](External_Tools_AI.md)<br>
+[Module Media Center >](Modules_Media_Center.md)
 
 **Further reading**<br>
-[Media Center >](Modules_Media_Center.md)<br>
 [Course Planner >](Modules_Course_Planner.md)
 
 [To the top of the page ^](#module_taxonomy)
