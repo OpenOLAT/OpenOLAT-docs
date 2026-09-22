@@ -11,7 +11,7 @@ Auf der Login-Seite weisen Sie nach, dass Sie zu OpenOlat Zutritt haben. Wie die
 Welchen Weg Sie nehmen, hängt davon ab, wo Ihr Konto liegt. Es gibt drei Möglichkeiten, und Ihre Organisation entscheidet, welche davon auf Ihrer Login-Seite angeboten werden.
 
 * **Mit dem Konto Ihrer Organisation.** Die Buttons unter "Bitte wählen Sie Ihren Identitätsanbieter." führen zu einem externen Dienst, zum Beispiel "Microsoft Azure AD". Sie melden sich dort mit den Zugangsdaten an, die Sie auch für die übrigen Dienste Ihrer Organisation verwenden. OpenOlat speichert dieses Passwort nicht. Haben Sie sich bei Ihrer Organisation bereits angemeldet, gelangen Sie unter Umständen ohne weitere Eingabe direkt in OpenOlat (Single Sign On).
-* **Mit einem lokalen OpenOlat-Konto.** Unter den Buttons steht "Gehören Sie keiner der oben aufgelisteten Institutionen an oder haben ein lokales Konto?" mit dem Link "Mit Konto anmelden". Anmeldename und Passwort sind hier in OpenOlat gespeichert.
+* **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort sind hier in OpenOlat gespeichert. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Link "Mit Konto anmelden" unter der Frage "Gehören Sie keiner der oben aufgelisteten Institutionen an oder haben ein lokales Konto?".
 * **Ohne Konto.** "Gastzugang" und "Entdecken Sie unsere Angebote" geben Einblick ohne Anmeldung, "Hier registrieren" legt ein eigenes Konto an, sofern Ihre Organisation die Selbstregistrierung erlaubt.
 
 Je nach Sicherheitsstufe folgt nach dem Passwort ein zweiter Schritt: eine Bestätigung per [Passkey](Passkey.de.md) oder die Eingabe eines [One Time Code](One_Time_Code.de.md), den OpenOlat Ihnen per E-Mail zustellt. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
@@ -66,6 +66,8 @@ Wirft Sie der Identitätsanbieter Ihrer Organisation zurück, sagt Ihnen die Mel
 
 Die Meldungen bitten Sie, "die Systemadministration" zu kontaktieren. Gemeint ist damit die Stelle, die Ihnen den Zugang gegeben hat, nicht frentix. Wer das ist, steht unter [Nichts davon hilft](#contact_support).
 
+Unter der Meldung kann eine E-Mail-Adresse stehen, eingeleitet mit "Bei wiederkehrenden Problemen wenden Sie sich bitte an den Support unter:". Diese Adresse hat Ihre Organisation hinterlegt, sie ist nicht zwingend die Stelle, die Ihr Konto verwaltet. Mit dem Button "Zur Loginseite" kommen Sie zurück zur Anmeldung.
+
 ### Mein Konto ist gesperrt oder noch nicht aktiv [:octicons-tag-16:{ title="ab Release 20.0 (OO-8466)" }](https://track.frentix.com/issue/OO-8466) {: #account_blocked}
 
 Diese beiden Meldungen betreffen den Zustand Ihres Kontos, nicht Ihre Eingabe. OpenOlat zeigt nach der Eingabe Ihrer Zugangsdaten entweder "Ihr Konto ist deaktiviert." oder "Ihr Konto wurde noch nicht aktiviert.", jeweils mit einem Link zum Support. Beides kann nur [Ihre Organisation](#contact_support) ändern.
@@ -111,7 +113,7 @@ Nach dem Login gelangen Sie entweder
 * auf eine von Ihnen selbst festgelegte Startseite.
 
 
-## Nach dem Aufruf des Katalogs {: #webcatalog}
+## Nach dem Aufruf des Katalogs [:octicons-tag-16:{ title="ab Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002) {: #webcatalog}
 
 Beim Aufruf des Katalogs auf der Login-Seite wird der [Web-Katalog](../area_modules/catalog2.0_web.de.md) angezeigt, eine gespiegelte Version des Katalogs 2.0, die ohne Registrierung durchsucht werden kann. Erst wenn ein bestimmter Kurs gebucht werden soll, werden Personen ohne Konto durch die Registrierung geführt.
 

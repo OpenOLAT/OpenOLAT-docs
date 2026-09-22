@@ -11,7 +11,7 @@ On the login page you prove that you have access to OpenOlat. Your organisation 
 Which way you take depends on where your account is stored. There are three possibilities, and your organisation decides which of them are offered on your login page.
 
 * **With the account of your organisation.** The buttons below "Please select your identity provider." lead to an external service, for example "Microsoft Azure AD". You log in there with the credentials that you also use for the other services of your organisation. OpenOlat does not store this password. If you have already logged in at your organisation, you may reach OpenOlat directly without any further entry (single sign on).
-* **With a local OpenOlat account.** Below the buttons you find "Don't you belong to one of the institutions mentioned above or have a local user account?" with the link "Login with account". Username and password are stored in OpenOlat here.
+* **With a local OpenOlat account.** Username and password are stored in OpenOlat here. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the link "Login with account" below the question "Don't you belong to one of the institutions mentioned above or have a local user account?".
 * **Without an account.** "Guest access" and "Explore our offers" provide an insight without logging in, "Register here" creates your own account, provided that your organisation allows self-registration.
 
 Depending on the security level, a second step follows after the password: a confirmation by [Passkey](Passkey.md) or the entry of a [one time code](One_Time_Code.md) that OpenOlat sends you by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
@@ -66,6 +66,8 @@ If the identity provider of your organisation throws you back, the message on th
 
 The messages ask you to contact "the system administrator". This means the body that gave you the access, not frentix. Who this is, is described under [None of this helps](#contact_support).
 
+An e-mail address can appear below the message, introduced with "If the problems can not be resolved, please contact support using the following address:". Your organisation has stored this address, it is not necessarily the body that manages your account. The button "Go to login page" brings you back to the login.
+
 ### My account is blocked or not yet active [:octicons-tag-16:{ title="from Release 20.0 (OO-8466)" }](https://track.frentix.com/issue/OO-8466) {: #account_blocked}
 
 These two messages concern the state of your account, not your entry. After you have entered your credentials, OpenOlat shows either "Your account is deactivated." or "Your account has not yet been activated.", each with a link to support. Only [your organisation](#contact_support) can change either of them.
@@ -111,7 +113,7 @@ After your login you will navigate either to
 * a landing page defined by yourself.
 
 
-## After calling up the catalog {: #webcatalog}
+## After calling up the catalog [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002) {: #webcatalog}
 
 When you call up the catalog on the login page, the [web catalog](../area_modules/catalog2.0_web.md) is displayed, a mirrored version of catalog 2.0 that can be browsed without registration. Only when a specific course is to be booked are persons without an account guided through the registration.
 
