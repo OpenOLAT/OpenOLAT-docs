@@ -13,7 +13,7 @@ Die Konfiguration eines Zertifikates für einen Kurs erfolgt unter:<br>
 Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ein **PDF-Zertifikat** ausgestellt werden. Es ist auch möglich, ohne die Verwendung eines Leistungsnachweises ein Zertifikat auszustellen.
 
 Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifikat für den Besuch mehrerer Kurse ausgestellt werden. Solche Zertifikate werden innerhalb des Course Planners (Durchführung) vergeben.<br>
-[Mehr zu Zertifikatsprogrammen >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md) 
+[Mehr zu Zertifikatsprogrammen >](../area_modules/Course_Planner_Certification_Programs.de.md) 
 
 **Die nachfolgenden Ausführungen beziehen sich auf das Zertifikat in einem einzelnen Kurs.**
 
@@ -52,6 +52,12 @@ Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Adminis
 Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt werden, um Layout und Variablen zu gewährleisten.
 
 Die mitgelieferte Standardvorlage ist HTML-basiert und schlicht gehalten. HTML-Vorlagen sind die empfohlene Variante; PDF-Formulare funktionieren weiterhin, sollten aber nur eingesetzt werden, wenn der Gotenberg-PDF-Dienst nicht installiert ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
+
+Wie die Standardvorlage aussieht, prüfen Sie direkt in OpenOlat: Der Button "Vorschau" erzeugt aus der aktuell gewählten Vorlage die PDF-Datei "Certificate_preview.pdf". Öffnen Sie diese Datei, um Layout und Platzierung der Variablen zu beurteilen.
+
+Der Button "Auswählen" beim Feld "Zertifikatvorlage" öffnet den Dialog "Vorlage auswählen". Dort stehen die systemweiten Vorlagen mit dem Eintrag "Default" für die Standardvorlage zur Wahl, darunter das Feld für eine eigene Datei.
+
+![Der Dialog Vorlage auswählen mit der Auswahlliste Zertifikatsvorlagen, dem Eintrag Default und dem Bereich Datei zum Hochladen einer eigenen Vorlage](assets/course_settings_assessment_certificate_template_select_v1_de.png){ class="shadow lightbox" }
 
 Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
@@ -151,9 +157,10 @@ Sollten Sie eine Zertifikatsvorlage wünschen, kontaktieren Sie uns unter [conta
 
 ### Druckversion für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568) {: #print_template}
 
-Manche Institutionen drucken Zertifikate auf hochwertiges, vorgedrucktes Papier, das Hintergrund, Grafiken oder Prägungen bereits enthält. Für diesen Fall aktivieren Sie mit der Option **"Mit Druckversion"** eine zusätzliche **Druckvorlage**, die nur die variablen Inhalte ohne die vorgedruckten Elemente enthält.
+Manche Organisationen drucken Zertifikate auf hochwertiges, vorgedrucktes Papier, das Hintergrund, Grafiken oder Prägungen bereits enthält. Für diesen Fall gibt es eine zusätzliche **Druckvorlage**, die nur die variablen Inhalte ohne die vorgedruckten Elemente enthält.
 
-Ist die Druckversion aktiviert, können Kursbesitzer:innen und berechtigte Betreuer:innen zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren** (einzeln, als Sammelaktion oder über das Aktionsmenü). Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
+Die Druckversion konfigurieren Sie nicht in den Kurseinstellungen, sondern im Zertifikatsprogramm.<br>
+[Mehr zur Druckversion im Zertifikatsprogramm >](../area_modules/Course_Planner_Certification_Programs.de.md#config_tab_settings)
 
 [Zum Seitenanfang ^](#certificate_and_recertification)
 
@@ -199,7 +206,7 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
+[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Zertifikate im Bewertungswerkzeug ausstellen und verwalten >](Assessment_tool_overview.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>

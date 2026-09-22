@@ -4,7 +4,7 @@ The configuration of a certificate for a course is done in the course settings i
 
 ![Path to the certificate configuration via Administration > Settings > Assessment tab, Certificate section with validity period and recertification](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
 
-## Certificates {: #certificate}
+## Certificates [:octicons-tag-16:{ title="from Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
 
 ### What is a certificate? {: #certificate_description}
 
@@ -12,7 +12,7 @@ A **PDF certificate** can be issued as confirmation of attendance at a course or
 
 In addition to these course certificates, the certificate program can also issue a certificate for attending multiple courses. Such certificates are awarded within the Course Planner (Implementation).
 
-[More about the certificate program >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md) 
+[More about the certificate program >](../area_modules/Course_Planner_Certification_Programs.md) 
 
 **The following information refers to the certificate for a single course.**
 
@@ -29,7 +29,7 @@ The "manual" option allows certificates to be used even in courses without asses
 Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. Users also automatically receive an **email notification** as soon as a certificate has been issued.
 
 
-### How is validity verified? {: #certificate_validation}
+### How is validity verified? [:octicons-tag-16:{ title="from Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
 
 A **validity period** can be specified for the certificate. You can specify the validity period in days, weeks, months, or years. 
 
@@ -52,7 +52,13 @@ A system-wide PDF template specified by the administrator is usually used as the
 
 A PDF template is not a normal PDF file, but must be created using HTML to ensure layout and variables.
 
-The default template supplied is HTML-based and kept simple. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
+The default template supplied is HTML-based and kept simple. HTML templates are the recommended option; PDF forms still work but should only be used if the Gotenberg PDF service is not installed. [:octicons-tag-16:{ title="from Release 21.0 (OO-9585)" }](https://track.frentix.com/issue/OO-9585)
+
+You can check the appearance of the default template directly in OpenOlat: the "Preview" button generates the PDF file "Certificate_preview.pdf" from the currently selected template. Open this file to judge the layout and the placement of the variables.
+
+The "Select" button next to the "Certificate template" field opens the "Select template" dialog. It offers the system-wide templates with the entry "Default" for the default template, and below that the field for your own file.
+
+![The Select template dialog with the Templates list, the Default entry and the File area for uploading your own template](assets/course_settings_assessment_certificate_template_select_v1_en.png){ class="shadow lightbox" }
 
 This [certificate bot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} with the publicly available code (MIT license) is available.
 
@@ -148,18 +154,19 @@ If you would like a certificate template, please contact us at [contact@frentix.
 
 ---
 
-### Print version for pre-printed paper [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568) {: #print_template}
+### Print version for pre-printed paper [:octicons-tag-16:{ title="from Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568) {: #print_template}
 
-Some institutions print certificates on high-value, pre-printed paper that already carries background colours, graphics, or embossed elements. For this case, the **"With print version"** option activates an additional **print template** that contains only the variable content without the pre-printed elements.
+Some organisations print certificates on high-value, pre-printed paper that already carries background colours, graphics, or embossed elements. For this case, an additional **print template** is available that contains only the variable content without the pre-printed elements.
 
-If the print version is activated, course owners and authorised coaches can export an additional **print certificate** alongside the standard certificate (individually, as a bulk action, or via the actions menu). Learners continue to receive only the standard certificate.
+You do not configure the print version in the course settings, but in the certification program.<br>
+[More about the print version in the certification program >](../area_modules/Course_Planner_Certification_Programs.md#config_tab_settings)
 
 [To the top of the page ^](#certificate_and_recertification)
 
 ---
 
 
-## Recertification {: #recertification}
+## Recertification [:octicons-tag-16:{ title="from Release 18.0 (OO-6808)" }](https://track.frentix.com/issue/OO-6808) {: #recertification}
 
 ### Conditions {: #recertification_conditions}
 
@@ -195,7 +202,7 @@ Evidence of achievement and certificates from previous rounds will be retained.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Certificates program (Certificates for multiple courses) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
+[Certificates program (Certificates for multiple courses) >](../area_modules/Course_Planner_Certification_Programs.md)<br>
 [Issue and manage certificates in the assessment tool >](Assessment_tool_overview.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
