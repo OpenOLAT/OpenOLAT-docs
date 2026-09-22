@@ -5,7 +5,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 !!! note "Quick Links"
 
     * [Eingabe von Kriterien im Suchformular](#search_user_form)
-    * [Benutzer nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen](#search_user_roles)
+    * [Konten nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen](#search_user_roles)
     * [Quick Search](#search_user_quick_search)
     * [Massensuche](#search_user_bulk_search)
     * [Suchergebnisse filtern](#search_user_filter_searchresults)
@@ -26,7 +26,7 @@ Das Feld "Kontoablauf" sucht nach dem Ablaufdatum der Konten. Die Auswahl links 
 [Zum Seitenanfang ^](#search_user)
 
 
-## Benutzer nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen {: #search_user_roles}
+## Konten nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen {: #search_user_roles}
 
 Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie eine Eingrenzung vor.
 
@@ -140,7 +140,7 @@ Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spal
   *  **Erstellt:** Datum der Kontenerstellung
   *  **Rollen:** Die administrativen Rollen des gelöschten Kontos
   *  **Gelöscht von:** Person, die die Löschung vorgenommen hat
-  *  **Filter entfernen:** Aktion, die Vor- und Nachname administrativer Konten löscht.
+  *  **Filter entfernen:** Spalte mit der Aktion "Entfernen", die Vor- und Nachname administrativer Konten löscht.
 
 
 !!! tip "Spaltentitel anzeigen"

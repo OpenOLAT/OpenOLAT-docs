@@ -5,7 +5,7 @@ User administrators and administrators can search for specific users/accounts in
 !!! note "Quick Links"
 
     * [Enter criteria in the search form](#search_user_form)
-    * [Display users according to different roles and assignments](#search_user_roles)
+    * [Display accounts according to different roles and assignments](#search_user_roles)
     * [Quick Search](#search_user_quick_search)
     * [Mass search](#search_user_bulk_search)
     * [Filter search results](#search_user_filter_searchresults)
@@ -21,12 +21,12 @@ Enter your relevant search criteria and confirm with the "Return" key or by clic
 
 Above the view you find the actions "Create user", "Import users", "Create temp. users" and "Delete user".
 
-The field "Account expiration" searches by the expiry date of the accounts. The selection on the left determines the direction: "Account expiration within the next" finds accounts that expire shortly, "Inactive since the last" finds accounts whose expiry lies in the past. On the right you enter the number and the unit, for example 30 days.
+The field "Account expiration" searches by the expiry date of the accounts. The selection on the left determines the direction: "Account expiration in the next" finds accounts that expire shortly, "Inactive since the last" finds accounts whose expiry lies in the past. On the right you enter the number and the unit, for example 30 days.
 
 [To the top of the page ^](#search_user)
 
 
-## Display users according to different roles and assignments {: #search_user_roles}
+## Display accounts according to different roles and assignments {: #search_user_roles}
 
 Select one of the relevant search criteria in the menu on the left and narrow it down.
 
@@ -122,26 +122,26 @@ Here you can search within pre-selected account types.
 
 The following can be displayed here:
 
-* Pending user accounts
-* Inactive accounts
-* Blocked accounts
+* Pending users
+* Inactive users
+* Blocked users
 * Deleted users
 
 
-![Table of the deleted users with Del_login name, Deleted on, Created and Deleted by, on the left the expanded entry Status: user search with status Deleted users](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
+![Table of the deleted users with Del_Username, Deleted, Created and Deleted by, on the left the expanded entry Status: user search with status Deleted users](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
 
 
 The "**Deleted users**" table in the user administration contains the following
 information (column titles) that is relevant in the user deletion process:
 
-  *  **Del_Loginname:**  In the deletion process, the user name of the deleted user is replaced by an ID.
-  *  **First name / Last name:**  If the deleted user is an administrative user, the first name and surname are displayed here. If required, this data can also be deleted using the "Remove" action.
-  *  **Deleted on:** Date of deletion
+  *  **Del_Username:**  In the deletion process, the user name of the deleted user is replaced by an ID.
+  *  **Name / Last name:**  If the deleted user is an administrative user, the first name and surname are displayed here. The "Clear" action deletes this data as well.
+  *  **Deleted:** Date of deletion
   *  **Last login:** Date of last login
   *  **Created:** Date of account creation
   *  **Roles:**  Display of the administrative roles of the person who was deleted
   *  **Deleted by:** Person who carried out the deletion
-  *  **Remove filters:**  Action to delete the first and last name of administrative users.
+  *  **Remove filter:** Column with the "Clear" action that deletes the first and last name of administrative users.
 
 
 !!! tip "Show column titles"
