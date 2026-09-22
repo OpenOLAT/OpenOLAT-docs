@@ -4,27 +4,27 @@
 
 ![Menü Administration eines gestarteten Kurses mit dem Eintrag Kurseditor](assets/Kurseditor_link_19.png){ class="shadow lightbox" }
 
-Um einen Kursbaustein zu löschen zu duplizieren oder zu verschieben müssen Sie den gewünschten Kursbaustein zunächst auswählen. Anschliessend erscheint rechts oben das entsprechende Menü.
+Um einen Kursbaustein zu löschen, zu duplizieren oder zu verschieben, müssen Sie den gewünschten Kursbaustein zunächst auswählen. Anschliessend erscheint rechts oben das entsprechende Menü.
 
 ![3-Punkte-Menü eines markierten Kursbausteins mit den Einträgen Verschieben und Duplizieren, neben dem Button Löschen](assets/Kurseditor_verschieben.png){ class="shadow lightbox" }
 
-Die jeweilige Aktion bezieht sich dabei auf den aktuell markierten und alle ihm untergeordneten Kursbausteine. Im Fenster **Verschieben** bzw. **Duplizieren** wählen Sie unter **Zielposition** den Kursbaustein aus, an dem Sie den markierten Kursbaustein einsetzen wollen; der zu verschiebende Kursbaustein ist farblich hervorgehoben. Am gewählten Kursbaustein erscheinen die Aktionen **Oben** für die Position oberhalb, **Unten** für die Position unterhalb und **Unterelement** für die untergeordnete Position. Mit **Kursbaustein einfügen** führen Sie die Aktion aus.
+Die jeweilige Aktion bezieht sich dabei auf den aktuell markierten und alle ihm untergeordneten Kursbausteine. Beide Aktionen öffnen denselben Dialog. Unter **Zielposition** wählen Sie den Kursbaustein aus, an dem Sie den markierten Kursbaustein einsetzen wollen; der zu verschiebende Kursbaustein ist farblich hervorgehoben und lässt sich nicht als Ziel auswählen. Am gewählten Kursbaustein erscheinen die Aktionen **Oben** für die Position oberhalb, **Unten** für die Position unterhalb und **Unterelement** für die untergeordnete Position. Nach der Wahl einer Aktion markiert **Wird hier landen** das Ziel. Erst dann können Sie die Aktion mit **Kursbaustein einfügen** ausführen.
 Ebenso ist es möglich, Kursbausteine einfach mittels „Drag&Drop“ in der Kursstruktur links zu verschieben.
 
-![Die Zielpositionen als Radiobuttons mit den Aktionen Oben, Unten und Unterelement am gewählten Kursbaustein, der zu verschiebende Kursbaustein farbig hervorgehoben, im Fenster Verschieben des Kurseditors](assets/deleting_moving_copying_move_dialog_v1_de.png){ class="shadow lightbox" }
+![Zielpositionen als Radiobuttons, Aktionen Oben, Unten und Unterelement am gewählten Kursbaustein, im Dialog zur Auswahl der Position im Kurseditor](assets/deleting_moving_copying_move_dialog_v1_de.png){ class="shadow lightbox" }
 
 Das Duplizieren von Kursbausteinen empfiehlt sich beispielsweise, wenn Sie Gruppenaktionen im Kurs anbieten und dieselbe Struktur für mehrere Gruppen verwenden möchten.
 
-Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müssen zum Schluss publiziert werden, um sie für die Kursteilnehmenden wirksam werden zu lassen. Solange Sie diese nicht publiziert haben, können gelöschte Kursbausteine wiederhergestellt werden.
+Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müssen zum Schluss publiziert werden, um sie für die Teilnehmenden wirksam werden zu lassen. Solange Sie diese nicht publiziert haben, können gelöschte Kursbausteine wiederhergestellt werden.
 
 
-## Kursbausteine importieren
+## Kursbausteine importieren [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210)
 
 Haben Sie in einem anderen Kurs bereits eine umfangreiche Kursstruktur angelegt die Sie weiterverwenden wollen, bietet es sich an, diese Kursbausteine über "Kursbausteine importieren" in den gewünschten Kurs zu kopieren.
 
 ![Schaltfläche Kursbausteine importieren in der Werkzeugleiste des Kurseditors](assets/KB_importieren.png){ class="shadow lightbox" }
 
-Anschliessend öffent sich ein Wizard. 
+Anschliessend öffnet sich ein Wizard.
 
 ### Der Weg:
 
@@ -48,7 +48,7 @@ d) Im nächsten Schritt erscheinen die Dateien, die sich im Ablageordner des zu 
 
 ## Änderungen am laufenden Kurs
 
-Sie entscheiden über den Zeitpunkt, an dem die Änderungen im laufenden Kurs erscheinen. Alle Benutzer, die zum Zeitpunkt des Publizierens den Kurs bearbeiten, müssen den Kurs neu starten. Nicht gespeicherte Forumsbeiträge oder Testresultate gehen dabei verloren! Wenn Benutzer im Kurs sind und Sie das Publizieren auf einen späteren Zeitpunkt verschieben können, empfehlen wir, den Publiziervorgang abzubrechen und später zu wiederholen.
+Sie entscheiden über den Zeitpunkt, an dem die Änderungen im laufenden Kurs erscheinen. Alle Benutzer:innen, die zum Zeitpunkt des Publizierens den Kurs bearbeiten, müssen den Kurs neu starten. Nicht gespeicherte Forumsbeiträge oder Testresultate gehen dabei verloren! Wenn Benutzer:innen im Kurs sind und Sie das Publizieren auf einen späteren Zeitpunkt verschieben können, empfehlen wir, den Publiziervorgang abzubrechen und später zu wiederholen.
 
 ## Weiterführende Informationen {: #further_information}
 

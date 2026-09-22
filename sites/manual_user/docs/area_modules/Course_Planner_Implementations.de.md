@@ -135,11 +135,11 @@ In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung be
 
 ![8](assets/8_green_24.png) Unter den **3 Punkten** finden Sie Optionen zum Bearbeiten der Elemente.
 
-![Die Aktionen am Element: In neuem Tab öffnen, Bearbeiten, Element verschieben, Neues Unterelement erstellen, Element kopieren, Mitgliederverwaltung und Löschen, im Menü der drei Punkte im Tab Struktur](assets/course_planner_implementations_tab_structure2_v2_de.png){ class="shadow lightbox" }
+![In neuem Tab öffnen, Bearbeiten, Element verschieben, Neues Unterelement erstellen, Element kopieren, Mitgliederverwaltung und Löschen, im Menü der drei Punkte im Tab Struktur](assets/course_planner_implementations_tab_structure2_v2_de.png){ class="shadow lightbox" }
 
 #### Ein Element verschieben [:octicons-tag-16:{ title="ab Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
-Über die Aktion **Element verschieben** unter den **3 Punkten** öffnen Sie den Verschiebe-Dialog. Das zu verschiebende Element ist darin farblich hervorgehoben.
+Über die Aktion **Element verschieben** unter den **3 Punkten** öffnen Sie den Verschiebe-Dialog. Das zu verschiebende Element ist darin zusammen mit seinen Unterelementen farblich hervorgehoben; diese Zeilen lassen sich nicht als Ziel auswählen.
 
 Jede mögliche Zielposition wird als Radiobutton angezeigt. Nicht erlaubte Zielpositionen (z. B. ein nicht kompatibler Elementtyp) sind ausgegraut und nicht auswählbar.
 
@@ -446,13 +446,15 @@ Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am
 
 Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen.
 
-![Titel und Kennzeichen der Kopie sowie die Optionen für Kursinhalt, eigenständige Termine, To-dos, Raumplanung und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v3_de.png){ class="shadow lightbox" }  
+![Titel und Kennzeichen der Kopie, Optionen für Kursinhalt, eigenständige Termine, To-dos, Raumplanung und Mitgliedschaften, im Schritt Allgemeine Einstellungen des Assistenten Element kopieren](assets/course_planner_implementations_copy2_v3_de.png){ class="shadow lightbox" }
 
 Der zweite Schritt des Wizards zeigt Ihnen eine Übersicht der Elemente, die nun kopiert werden.<br>
 Sie können hier noch Anpassungen (insbesondere der Termine) vornehmen.<br>
 Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Elements an.
 
 ![Die zu kopierenden Elemente mit den Zählern #Kurse, #Templates, #Termine, #Räume und #To-dos, ein Element aufgeklappt mit der Spalte Räume in der Tabelle Termine, im Schritt Übersicht Elemente](assets/course_planner_implementations_copy3_v2_de.png){ class="shadow lightbox" }  
+
+In den Detailbereichen "Kurse", "Termine" und "To-dos" zeigt die Spalte **"Aktivität"** mit einem Symbol, was mit der einzelnen Zeile geschieht: kopieren, wiederverwenden oder nicht kopieren.
 
 In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
 
@@ -488,7 +490,7 @@ Die Auswahl ist nur aktiv, wenn überhaupt Termine kopiert werden, also wenn bei
 
 Die Kopie übernimmt den Raum der ursprünglichen Buchung. Der Zeitraum der Buchung folgt dem kopierten Termin: Verschieben Sie mit **«Alle Daten schieben»** die Termine, verschieben sich die Buchungen mit. OpenOlat prüft beim Kopieren nicht, ob der Raum im neuen Zeitraum noch frei ist. Konflikte wie eine Doppelbuchung erscheinen erst danach als Warnung in der [Raumplanung](Course_Planner_Rooms.de.md#room_scheduling).
 
-Im Schritt **«Übersicht Elemente»** erscheint bei aktivem Modul und gewählter Option «Kopieren» zusätzlich die Spalte **"#Räume"**. Klappen Sie ein Element auf, führt die Tabelle «Termine» dort die Spalte **"Räume"** mit den gebuchten Räumen.
+Im Schritt **«Übersicht Elemente»** erscheint bei aktivem Modul und gewählter Option «Kopieren» zusätzlich die Spalte **"#Räume"**; klappen Sie ein Element auf, führt die Tabelle «Termine» dort auch die Spalte **"Räume"** mit den gebuchten Räumen. Mit «Nicht kopieren» fehlen beide Spalten.
 
 Die Aktion **«Element kopieren»** steht Administrator:innen, Kursplaner:innen und Produktbesitzer:innen zur Verfügung. Die vollständige Übersicht finden Sie in der [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 

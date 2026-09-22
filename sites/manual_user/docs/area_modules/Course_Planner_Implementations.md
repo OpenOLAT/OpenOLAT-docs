@@ -21,7 +21,7 @@ From this conceptual idea, the same courses are generally assigned and used in e
 
 If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
 
-![All implementations of a product in a filterable list with Reference, Type and Status, here with the Occupancy status filter open, on the Implementations page in the Course Planner](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
+![All implementations of a product in a filterable list with Reference, Type and Status, here with the Occupancy status filter open, on the Implementations page in the Course Planner](assets/course_planner_implementations_list_v1_en.png){ class="shadow lightbox" }  
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
@@ -110,7 +110,7 @@ If a maximum or minimum number of participants is defined, an additional note te
 The "Structure" tab is shown for a structured implementation (the type is selected when a new implementation is created).
 In the displayed tree structure, each individual element of the implementation can be edited or information about it can be queried.
 
-![The tree structure of the elements with the Create menu open and the columns Ref., #Participants and Status, in the Structure tab of an implementation](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
+![The tree structure of the elements with the Create menu open and the columns Ref., #Participants and Status, in the Structure tab of an implementation](assets/course_planner_implementations_tab_structure1_v1_en.png){ class="shadow lightbox" }
 
 ![1](assets/1_green_24.png) If you would like to add other elements for this implementation that deviate from the product structure ("copy template" of this structure), you will find the available element types under the **Create** button, as they were defined in the system administration under `Administration > Modules > Course Planner > Tab Element types`.
 
@@ -132,7 +132,7 @@ In the displayed tree structure, each individual element of the implementation c
 
 #### Move an element [:octicons-tag-16:{ title="from Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
-Use the **Move element** action under the **3 points** to open the move dialog. The element to be moved is highlighted in colour.
+Use the **Move element** action under the **3 points** to open the move dialog. The element to be moved is highlighted in colour together with its sub-elements; these rows cannot be chosen as a target.
 
 Every possible target position is displayed as a radio button. Positions that are not allowed (for example an incompatible element type) are greyed out and cannot be selected.
 
@@ -164,7 +164,7 @@ To **remove several courses**, select the courses with the checkboxes in the fir
 
 <br>
 
-**Automatically controlled course content** [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"}<br>
+**Automatically controlled course content**<br>
 If automation rules control the content of this implementation, the "Automation overview" section appears above the list. Only active rules that concern the content are listed. For each rule you see the type of rule, either "Instantiation" or the target status, plus the date of the planned execution and the condition that triggers the execution. Use the "Settings" link to switch directly to the [automation configuration](#tab_settings_automation).
 
 ![The Automation overview info box with type, planned execution date and triggering condition per rule as well as the Settings link, in the Content tab of an implementation](assets/course_planner_implementations_tab_content_automation_v1_en.png){ class="shadow lightbox" }
@@ -200,7 +200,7 @@ The templates for course content in Course Planner do not have independent membe
 - A click on the **+** at the beginning of a line shows the **details** of this event.
 - It is also possible to **import** events. To do this, click on the small arrow next to the "Add event" button.
 
-![The events of an implementation with date, time, units and lecturers, the All levels and This level switches and the Add event button, in the Events tab](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" }
+![The events of an implementation with date, time, units and lecturers, the All levels and This level switches and the Add event button, in the Events tab](assets/course_planner_implementations_tab_events_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
@@ -232,7 +232,7 @@ If the participants were made members of the educational product (the "copy temp
 To add participants to an implementation as members, use:<br>
 `Course Planner > Implementations > "your implementation" > Tab Members > Button "Add participants"`
 
-![The Add participants button at the top right of the member list, which starts the wizard for adding members, in the Members tab of an implementation](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
+![The Add participants button at the top right of the member list, which starts the wizard for adding members, in the Members tab of an implementation](assets/course_planner_implementations_add_member_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
@@ -275,7 +275,7 @@ This approval step can also be set up for all offers, except when paying with Pa
 
 The various implementations can be offered in the catalog. To do this, an [offer](../../manual_user/area_modules/catalog2.0_angebote.md) must be created, as for every catalog entry.
 
-![The offers of an implementation with the Add offer button and the available offer types, in the Catalog tab of an implementation](assets/course_planner_implementations_tab_catalog1_v1_de.png){ class="shadow lightbox" }
+![The offers of an implementation with the Add offer button and the available offer types, in the Catalog tab of an implementation](assets/course_planner_implementations_tab_catalog1_v1_en.png){ class="shadow lightbox" }
 
 To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per implementation in the Catalog tab).
 
@@ -302,21 +302,21 @@ The many possible settings for an implementation can be found under several subo
 
 The metadata entered here is used to simplify search processes, for example.
 
-![The mandatory fields Title, Reference and Type as well as Delivery format and Subjects, in the Metadata sub-tab of the settings of an implementation](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
+![The mandatory fields Title, Reference and Type as well as Implementation format and Subjects, in the Metadata sub-tab of the settings of an implementation](assets/course_planner_implementations_tab_settings_metadata_v1_en.png){ class="shadow lightbox" }
 
 
 #### Infos in the settings
 
 The information entered in the "Infos" tab is used for the display in the catalog, for example.
 
-![The details for the information page: teaser, title image, description, learning objectives, requirements and time expenditure, in the Infos sub-tab of the settings](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" }
+![The details for the information page: teaser, title image, description, learning objectives, requirements and time expenditure, in the Infos sub-tab of the settings](assets/course_planner_implementations_tab_settings_infos_v1_en.png){ class="shadow lightbox" }
 
 
-#### Implementation in the settings
+#### Execution in the settings
 
-The implementation settings include the implementation period, the location and the number of participants.
+The execution settings include the execution period, the location and the number of participants.
 
-![Implementation period, location and the minimum and maximum number of participants, in the Implementation sub-tab of the settings](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" }
+![Execution period, location and the minimum and maximum number of participants, in the Execution sub-tab of the settings](assets/course_planner_implementations_tab_settings_execution_v1_en.png){ class="shadow lightbox" }
 
 
 #### Configure automation [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
@@ -387,7 +387,7 @@ Separate settings can be made here for each implementation:
 - Absence management
 - Progress configuration
 
-![Calendar, absence and progress configuration adopted from the type or overridden per element, plus the Schedule and Absence management switches, in the Options sub-tab](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" }
+![Calendar, absence and progress configuration, each adopted from the type or overridden per element, in the Options sub-tab](assets/course_planner_implementations_tab_settings_options_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
@@ -414,9 +414,9 @@ The reports that can be created here relate to the currently selected implementa
 In contrast, the report creation, which can be called up in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md), refers to **all** implementations. 
 The structure of the Excel files (columns) and the procedure for creating them is identical for both.
 
-![The report templates with category, description and type, the Execute column and below it the generated Excel files with download, in the Reports tab of an implementation](assets/course_planner_implementations_tab_reports1_v1_de.png){ class="shadow lightbox" }
+![The report templates with category, description and type, the Run column and below it the Generated reports section, in the Reports tab of an implementation](assets/course_planner_implementations_tab_reports1_v1_en.png){ class="shadow lightbox" }
 
-Click on the **arrows in the "Execute"** column to generate Excel files with the current data using the listed templates.
+Click on the **arrows in the "Run"** column to generate Excel files with the current data using the listed templates.
 
 You will then find the Excel files created in this way listed at the bottom of the screen. They can be copied and downloaded.
 
@@ -429,7 +429,7 @@ You will then find the Excel files created in this way listed at the bottom of t
 
 You will find the **"Copy element"** action in the list of implementations at the end of a line under the 3 dots.
 
-![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard, in the list of implementations](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" } 
+![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard, in the list of implementations](assets/course_planner_implementations_copy1_v1_en.png){ class="shadow lightbox" } 
 
 In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied.
 
@@ -440,6 +440,8 @@ You can still make adjustments here (especially to the events).<br>
 Click on the + in front of an element to display the courses and events of the element.
 
 ![The elements to be copied with the counters #Courses, #Templates, #Events, #Rooms and #To-dos, one element expanded with the Rooms column in the Events table, in the Overview elements step](assets/course_planner_implementations_copy3_v2_en.png){ class="shadow lightbox" }  
+
+In the detail areas "Courses", "Events" and "To-dos", the **"Activity"** column shows with an icon what happens to the individual row: copy, reuse or don't copy.
 
 An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
 
@@ -475,7 +477,7 @@ The selection is only active if events are copied at all, that is if the "Copy" 
 
 The copy takes over the room of the original booking. The period of the booking follows the copied event: if you shift the events with **"Shift all dates"**, the bookings move along with them. When copying, OpenOlat does not check whether the room is still free in the new period. Conflicts such as a double booking only appear afterwards as a warning in [Room Scheduling](Course_Planner_Rooms.md#room_scheduling).
 
-In the **"Overview elements"** step, the **"#Rooms"** column additionally appears if the module is active and the "Copy" option is selected. Expand an element and the "Events" table there lists the **"Rooms"** column with the booked rooms.
+In the **"Overview elements"** step, the **"#Rooms"** column additionally appears if the module is active and the "Copy" option is selected; expand an element and the "Events" table there also lists the **"Rooms"** column with the booked rooms. With "Don't copy", both columns are missing.
 
 The **"Copy element"** action is available to administrators, course planners and product owners. You will find the complete overview in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
 
@@ -489,11 +491,11 @@ You copy individual events in the event list of an implementation instead, with 
 
 You will also find the option to delete in the list of implementations at the end of a line under the 3 dots.
 
-![The Delete action in the menu of the 3 dots at the end of a row, in the list of implementations in the Course Planner](assets/course_planner_implementations_delete1_v1_de.png){ class="shadow lightbox" }
+![The Delete action in the menu of the 3 dots at the end of a row, in the list of implementations in the Course Planner](assets/course_planner_implementations_delete1_v1_en.png){ class="shadow lightbox" }
 
 If you have already opened an implementation, you will also find the option to delete it at the top right under the 3 dots.
 
-![The Delete action in the menu of the 3 dots at the top right, available in an opened implementation above the tabs](assets/course_planner_implementations_delete2_v1_de.png){ class="shadow lightbox" } 
+![The Delete action in the menu of the 3 dots at the top right, available in an opened implementation above the tabs](assets/course_planner_implementations_delete2_v1_en.png){ class="shadow lightbox" } 
 
 [To the top of the page ^](#implementations)
 

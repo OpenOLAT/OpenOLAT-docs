@@ -4,24 +4,26 @@ You can make changes to your course in the course editor. You get there by start
 
 ![Menu Administration of a started course with the entry Course editor](assets/course_editor_link_19.png){ class="shadow lightbox" }
 
-In order to delete, duplicate or move a course element, you have to select the course element first. Then the corresponding menu appears in the top right.
+To delete, duplicate or move a course element, you have to select the course element first. Then the corresponding menu appears in the top right.
 
 ![Three-dot menu of a selected course element with the entries Move and Duplicate, next to the Delete button](assets/course_editor_move_delete.png){ class="shadow lightbox" }
 
-The respective action refers to the currently selected course element and all subordinate course elements. In the **Move** or **Duplicate** window, select the course element at which you want to insert the selected course element under **Target position**; the course element to be moved is highlighted in colour. The actions **Above** for the position above, **Below** for the position below and **Sub-element** for the subordinate position appear on the chosen course element. Click **Insert course element** to carry out the action. Likewise, it is possible to move course elements simply by means of "Drag&Drop" in the course structure on the left.
+The respective action refers to the currently selected course element and all subordinate course elements. Both actions open the same dialog. Under **Target position**, select the course element at which you want to insert the selected course element; the course element to be moved is highlighted in colour and cannot be chosen as a target. The actions **Above** for the position above, **Below** for the position below and **Sub-element** for the subordinate position appear on the chosen course element. After you have chosen an action, the marker **Will be dropped here** shows the target. Only then can you carry out the action with **Insert course element**. Likewise, it is possible to move course elements simply by means of "Drag&Drop" in the course structure on the left.
 
-![The target positions as radio buttons with the actions Above, Below and Sub-element on the chosen course element, the course element to be moved highlighted in colour, in the Move window of the course editor](assets/deleting_moving_copying_move_dialog_v1_en.png){ class="shadow lightbox" }
+![Target positions as radio buttons, actions Above, Below and Sub-element on the chosen course element, in the dialog for selecting the position in the course editor](assets/deleting_moving_copying_move_dialog_v1_en.png){ class="shadow lightbox" }
 
 Duplicating course elements is recommended if, for example, you want to offer
 group work and want to use the same structure several times.
 
 The changes for deleting, moving and copying course elements have to be published to become effective for the course participants. As long as you have not published them, deleted course elements can be restored.
 
-## Importing course elements
+## Importing course elements [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210)
 
 If you have already created a comprehensive course structure in another course you would like to continue using, it is a good idea to copy these course elements into the desired course via "Import course elements".
 
 ![Toolbar button Import course elements in the course editor](assets/KB_importieren.en.png){ class="shadow lightbox" }
+
+A wizard then opens.
 
 ### The way:
 
