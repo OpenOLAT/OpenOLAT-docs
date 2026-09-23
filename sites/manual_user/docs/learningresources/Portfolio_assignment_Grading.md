@@ -2,7 +2,7 @@
 
 If learners have edited a portfolio task and published at least parts of it, the binders or the published parts are available for other persons for commenting and (if settings allows it) grading. In the following the process is described:
 
-## Comment a portfolio task  {: #comment}
+## Comment a portfolio task [:octicons-tag-16:{ title="from Release 11.0 (OO-2311)" }](https://track.frentix.com/issue/OO-2311) {: #comment}
 
 The creator of the binder or entry determines whether it is possible to comment on and rate a portfolio. Only when the binder or entry has been approved can others access it. 
 
@@ -78,7 +78,7 @@ The **status of the review/commentary** by a coach is displayed in gray in the O
 
 ---
 
-## Rework portfolio task  {: #rework} 
+## Rework portfolio task [:octicons-tag-16:{ title="from Release 11.0 (OO-2310)" }](https://track.frentix.com/issue/OO-2310) {: #rework}
 
 ### 1. Open portfolio {: #rework_open} 
 
@@ -107,7 +107,7 @@ Both the person who posted the comment and the creator will now see the status "
 
 ---
 
-## Assess portfolio task  {: #grading} 
+## Assess portfolio task [:octicons-tag-16:{ title="from Release 11.0 (OO-2309)" }](https://track.frentix.com/issue/OO-2309) {: #grading}
 
 !!! info "Important"
 

@@ -1,8 +1,8 @@
-#  Portfolioaufgabe: kommentieren und bewerten {: #portfolio_comment_grading}
+# Portfolioaufgabe: kommentieren und bewerten {: #portfolio_comment_grading}
 
 Haben Lernende eine Portfolioaufgabe bearbeitet und zumindest Teile publiziert, können die Mappen bzw. Einträge von anderen Personen kommentiert und je nach Einstellung auch bewertet werden. Im Folgenden wird das entsprechende Vorgehen beschrieben.
 
-## Portfolioaufgabe kommentieren {: #comment}
+## Portfolioaufgabe kommentieren [:octicons-tag-16:{ title="ab Release 11.0 (OO-2311)" }](https://track.frentix.com/issue/OO-2311) {: #comment}
 
 Ob die Möglichkeit zum Kommentieren und Bewerten eines Portfolios besteht, bestimmt der Ersteller der Portfoliomappe oder des Eintrags. Nur wenn die Mappe oder der Eintrag freigegeben wurde, können andere darauf zugreifen. 
 
@@ -91,7 +91,7 @@ Der **Status der Begutachtung/Kommentierung** durch einen/eine Betreuer:in wird 
 ---
 
 
-## Portfolioaufgabe überarbeiten lassen  {: #rework} 
+## Portfolioaufgabe überarbeiten lassen [:octicons-tag-16:{ title="ab Release 11.0 (OO-2310)" }](https://track.frentix.com/issue/OO-2310) {: #rework}
 
 ### 1. Portfolio öffnen {: #rework_open} 
 
@@ -130,7 +130,7 @@ Sowohl der Person, die den Kommentar abgegeben hat, wie auch dem/der Ersteller:i
 
 
 
-## Portfolioaufgabe bewerten  {: #grading} 
+## Portfolioaufgabe bewerten [:octicons-tag-16:{ title="ab Release 11.0 (OO-2309)" }](https://track.frentix.com/issue/OO-2309) {: #grading}
 
 !!! info "Wichtig"
 
