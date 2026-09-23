@@ -178,19 +178,19 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 **Gruppen-Lifecycle**
 
-- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
-- [x] durch Gruppenverwalter:in: Einrichtung unter `Gruppen > Tab "Gruppenverwaltung"`
+- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
+- [x] durch Gruppenverwalter:innen: Einrichtung unter `Gruppen > Tab "Gruppenverwaltung"`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
 **Kurs-Lifecycle**
 
-- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
+- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
 - [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: unter `Autorenbereich > Tab "Gelöscht"` Kurse markieren und löschen
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
 **Benutzerkonten-Lifecycle**
 
-- [x] durch Administrator:in: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
+- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
 - [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: erkannte inaktive Konten manuell deaktivieren unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`, manuell löschen unter `Benutzerverwaltung > Konten löschen`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
