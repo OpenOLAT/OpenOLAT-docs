@@ -168,7 +168,7 @@ Wenn ein Kurs **beendet** wird, richtet sich der Zugriff der Kursmitglieder nach
 
 Alle Benutzerdaten bleiben bestehen. Im Menüpunkt "Kurse" steht der Kurs nicht mehr im Tab "Aktiv", sondern im Tab "Beendet" gleich nebenan.
 
-![Kursliste unter Kurse im Tab Beendet mit drei durchgestrichenen Kursen und dem Symbol für beendete Kurse vor dem Titel](assets/beendet2.png){ class="shadow lightbox" }
+![Menüpunkt Kurse, Tab "Beendet" mit einem beendeten Kurs: durchgestrichenes Symbol vor dem Titel und Hinweis "Dieser Kurs wurde beendet"](assets/access_configuration_courses_finished_v1_de.png){ class="shadow lightbox" }
 
 Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und durchgestrichen angezeigt.
 

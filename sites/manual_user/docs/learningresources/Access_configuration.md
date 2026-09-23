@@ -168,7 +168,7 @@ When a course is **finished**, member access depends on the setting for the stat
 
 All user data is retained. In the menu item "Courses", the course is no longer in the tab "Active", but in the tab "Finished" right next to it.
 
-![Course list under Courses in the tab Finished with a crossed-out course and the icon for finished courses in front of the title](assets/lifecycle_finished.png){ class="shadow lightbox" }
+![Courses menu item, tab "Finished" with one finished course: crossed-out icon in front of the title and the note "This course is finished"](assets/access_configuration_courses_finished_v1_en.png){ class="shadow lightbox" }
 
 In Authoring, the finished course is displayed with a new icon and crossed out.
 
