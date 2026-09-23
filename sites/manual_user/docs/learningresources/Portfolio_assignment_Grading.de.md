@@ -23,14 +23,14 @@ Ob die Möglichkeit zum Kommentieren und Bewerten eines Portfolios besteht, best
 
 ### 3. Eintrag wählen {: #comment_choose_entry}
 
-Wählen Sie im Tab "Einträge/To do" einen der Einträge aus.
+Wählen Sie im Tab "Einträge / To do" einen der Einträge aus.
 
-![Eintrag "Eintrag Pedro1" von Pedro Lenz im Tab Einträge/To do mit Status Neu: Seite An mich freigegeben](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
+![Eintrag "Eintrag Pedro1" von Pedro Lenz im Tab Einträge / To do mit Status Neu: Seite An mich freigegeben](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
 
 
 ### 4. Portfolioeintrag/Bearbeitung ansehen {: #comment_view_entry}
 
-![Kommentarfeld im geöffneten Eintrag markiert: Seite Eintrag Pedro1 im Bereich An mich freigegeben](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
+![Inhalt des Eintrags markiert, darunter die Kommentare: Seite Eintrag Pedro1 im Bereich An mich freigegeben](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
 
 
 ### 5. Kommentartext einfügen {: #comment_add}
@@ -43,6 +43,11 @@ Fügen Sie Ihren Kommentar im vorgesehenen Feld hinzu. (Bei einem längeren Port
 ### 6. Kommentar speichern {: #comment_save}
 
 Die Ergänzung eines Kommentars wird automatisch gespeichert.
+
+Ein abgegebener Kommentar bleibt für alle Beteiligten lesbar, auch wenn das Konto der kommentierenden Person später gelöscht wird. Text, angehängte Dateien und die Antworten darauf bleiben unverändert am Eintrag stehen. An die Stelle des Namens tritt die Bezeichnung "Unbekannte:r Benutzer:in", ohne Link auf eine Visitenkarte. Die Kommentare verschwinden erst, wenn der Eintrag, der Bereich, die Mappe oder der Kurs gelöscht wird. [:octicons-tag-16:{ title="ab Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)
+
+Mehr zum Löschen eines Kontos finden Sie hier:<br>
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)
 
 
 ### 7. Eintrag schliessen {: #comment_close_entry}
@@ -101,7 +106,7 @@ Der **Status der Begutachtung/Kommentierung** durch einen/eine Betreuer:in wird 
 
 ### 3. Eintrag wählen {: #rework_choose_entry} 
 
-Wählen Sie im Tab "Einträge/To do" einen der Einträge aus.<br>
+Wählen Sie im Tab "Einträge / To do" einen der Einträge aus.<br>
 [Siehe oben ^](#comment_choose_entry)
 
 
@@ -195,6 +200,19 @@ Dem User wird nun der Status "Bestanden" oder "Nicht bestanden" und die eingetra
 
     Wenn ein Bereich in der Bewertung geschlossen wird, kann der gesamte Bereich von Benutzer:innen nicht mehr bearbeitet werden.
 
+
+[Zum Seitenanfang ^](#portfolio_comment_grading)
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
+[Portfolioaufgabe: abholen und bearbeiten >](Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](Course_Element_Portfolio_Task.de.md)<br>
+[Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
+[Persönliche Werkzeuge: Portfolio >](../personal_menu/Portfolio.de.md)
 
 [Zum Seitenanfang ^](#portfolio_comment_grading)
 

@@ -1,7 +1,7 @@
 # Benutzer:in löschen {: #delete_user}
 
 
-## Was geschieht beim Löschen eines Kontos?
+## Was geschieht beim Löschen eines Kontos? [:octicons-tag-16:{ title="ab Release 12.5 (OO-3476)" }](https://track.frentix.com/issue/OO-3476)
 
 Wird das Konto eines/einer Benutzer:in gelöscht, ist diese Person in Zukunft nicht mehr als registriert in OpenOlat bekannt und auffindbar.
 
@@ -12,7 +12,7 @@ Für die **Arbeitsergebnisse** dieser Person gelten beim Löschen ihres Kontos e
 
 ## Wer darf Konten von Benutzer:innen löschen?
 
-Wer ein Konto endgültig entfernen will, braucht dafür die Rolle Administrator:in: Nur ihr zeigt die Benutzerverwaltung über der Trefferliste den Button "Konto löschen".
+Wer ein Konto endgültig entfernen will, braucht dafür die Rolle Administrator:in. Nur ihr zeigt die Benutzerverwaltung über der Trefferliste den Button "Konto löschen".
 
 Die Benutzerverwaltung selbst erreichen mehrere Rollen:
 
@@ -29,7 +29,7 @@ Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je n
 ---
 
 
-## Variante 1 {: #delete_user_var1}
+## Variante 1: über die Kontensuche {: #delete_user_var1}
 
 **Schritt 1:**<br>
 Suchen Sie in der Benutzerverwaltung mit der Kontensuche die Benutzer:innen, deren Konten gelöscht werden sollen.
@@ -137,7 +137,8 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 |**Persönlicher Kalender** :octicons-person-24: | Der persönliche Kalender wird gelöscht|
 |**Chatverlauf** :octicons-person-24: | Die Chat-Nachrichten der Person werden gelöscht, ebenso ihr Eintrag in den Kontaktlisten und die Chat-Einstellungen. Gelöscht werden dabei die Beiträge, die diese Person geschrieben hat. Die Beiträge der Gesprächspartner:innen in denselben Unterhaltungen bleiben bestehen.|
 |**Persönlicher Ordner** :octicons-person-24: |Der persönliche Ordner wird gelöscht|
-|**Portfolio** :octicons-person-24: | In einem ePortfolio erstellte Mappen, Bereiche und Einträge werden gelöscht. Wenn Mappen an andere Benutzer:innen frei gegeben wurden, sind sie auch dort nicht mehr abrufbar.|
+|**Portfolio** :octicons-person-24: | In einem ePortfolio erstellte Mappen, Bereiche und Einträge werden gelöscht. Wenn Mappen an andere Benutzer:innen frei gegeben wurden, sind sie auch dort nicht mehr abrufbar. Diese Zeile betrifft die eigenen Mappen, Bereiche und Einträge der gelöschten Person. Kommentare, die sie an fremden freigegebenen Einträgen hinterlassen hat, regelt die folgende Zeile "Kommentare".|
+|**Kommentare** :octicons-person-24: :octicons-package-24: | Die Kommentare der gelöschten Person werden zusammen mit den angehängten Dateien gelöscht: in Kursen, an Videos, im Fragenpool, in Blogs, in Podcasts und in der Bibliothek. Zwei Arten von Kommentaren bleiben dagegen lesbar. Erstens die Kommentare an ePortfolio-Einträgen: Mit ihnen kommentieren und bewerten die übrigen Beteiligten die Portfolioarbeit, deshalb bleiben Text und angehängte Dateien unverändert bestehen. Das gilt auch für Kommentare, welche die gelöschte Person an ihren eigenen Seiten geschrieben hat, und für Kommentare an Mappen, die noch aus einer früheren Portfolio-Version stammen. Zweitens jeder Kommentar, auf den jemand geantwortet hat, überall in OpenOlat und nicht nur im ePortfolio: Ohne ihn verlieren die Antworten ihren Bezug. Wer einen erhaltenen Kommentar geschrieben hat, erscheint als "Unbekannte:r Benutzer:in", mit dem Icon eines gelöschten Kontos statt des Profilbilds und ohne Link auf die Visitenkarte. Trägt die gelöschte Person eine administrative Rolle, bleiben Vor- und Nachname sichtbar: siehe die Zeile `Benutzerverwaltung > Profil` weiter oben in dieser Tabelle, Abschnitt "Ausnahmen". Endgültig verschwinden die erhaltenen Kommentare samt ihren Dateien, sobald die zugehörige Seite, der Bereich, die Mappe oder der Kurs gelöscht wird. [:octicons-tag-16:{ title="ab Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
 |**persönliche To-dos** :octicons-person-24: | Die Zuweisung zum gelöschten Konto wird entfernt; der To-do-Eintrag selbst bleibt bestehen, ist danach aber niemandem mehr zugewiesen. (To-dos in Projekten: siehe unten) |
 |**Mailbox** :octicons-person-24: |Mails, die in der Mailbox des persönlichen Menüs aufgeführt sind, werden gelöscht. (Die interne E-Mail-Box wird komplett gelöscht.)|
 |**Empfänger:in einer Erinnerungsmail** :octicons-package-24: |War der/die gelöschte Benutzer:in potenzieller/potenzielle Empfänger:in einer Erinnerungsmail, wird die Mail nicht mehr an die gelöschte Person geschickt. (Die Empfängerliste wird zum Zeitpunkt der Prüfung der Regeln erstellt, deshalb erscheint eine gelöschte Person gar nicht mehr auf der Versandliste.)|
@@ -189,11 +190,17 @@ Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)
+
+**Weiterführend**<br>
+[Benutzerverwaltung >](index.de.md)<br>
+[Benutzer-/Kontosuche >](Search_Users.de.md)<br>
+[Benutzer konfigurieren >](Configure_User.de.md)<br>
 [Datenschutz >](Data_protection.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
-[Benutzerverwaltung >](index.de.md)
+[Drei Schritte zu Ihrer Mappe >](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.de.md)
 
 [Zum Seitenanfang ^](#delete_user)
