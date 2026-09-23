@@ -134,7 +134,7 @@ Daraus ergeben sich drei Phasen:
 
 Zu jeder Phase können Benachrichtigungsmails konfiguriert werden, vor oder nach dem jeweiligen Schritt.
 
-Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Benutzer konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Konto konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
 !!! info "Konfiguration in der Administration"
 
@@ -200,7 +200,7 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 **Auf dieser Seite erwähnt**<br>
 [Lebenszyklen: Administration >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
-[Benutzer konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
 
 **Weiterführend**<br>
 [Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)<br>

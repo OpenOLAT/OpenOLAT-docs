@@ -123,7 +123,7 @@ An account with the status "Active and not deletable" is excluded from deletion 
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>
-[User/account search >](../usermanagement/Search_Users.md)<br>
+[User search >](../usermanagement/Search_Users.md)<br>
 [Create user >](../usermanagement/Create_User.md)
 
 [To the top of the page ^](#lifecycles)

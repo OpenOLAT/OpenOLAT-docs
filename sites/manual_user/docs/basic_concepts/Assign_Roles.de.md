@@ -11,7 +11,7 @@ Dementsprechend wird die Zuweisung typischerweise durch Benutzerverwalter:innen 
 
 Je nach Aufgabenbereich sind Rollen, und damit weitere Rechte, hinzuzufügen.
 
-Der Tab "Rollen" zeigt die Zugehörigkeit der Person ("Benutzer:in in"), ihre zusätzlichen Rollen je Organisation und unter "Rollen Verlauf" jede Änderung an den Rollen. Details dazu beschreibt das Administrationshandbuch: [Benutzer konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md)
+Der Tab "Rollen" zeigt die Zugehörigkeit der Person ("Benutzer:in in"), ihre zusätzlichen Rollen je Organisation und unter "Rollen Verlauf" jede Änderung an den Rollen. Details dazu beschreibt das Administrationshandbuch: [Konto konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md)
 
 ![Zugehörigkeit, zusätzliche Rollen je Organisation und Rollen Verlauf eines Kontos, Tab Rollen in der Benutzerverwaltung](assets/roles_rights_user_management_v2_de.png){ class="shadow lightbox" }
 
@@ -131,7 +131,7 @@ Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und so
 ## Weiterführende Informationen {: #further_information} 
 
 **Auf dieser Seite erwähnt**<br>
-[Benutzer konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Gruppen >](../groups/index.de.md)
 
 **Weiterführend**<br>

@@ -47,6 +47,6 @@ In the admin manual:
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [REST API >](../../manual_admin/administration/REST_API.md)<br>
-[Configure User >](../../manual_admin/usermanagement/Configure_User.md)
+[Configure user >](../../manual_admin/usermanagement/Configure_User.md)
 
 [To the top of the page ^](#competences)

@@ -1,4 +1,4 @@
-# User search / Account search {: #search_user}
+# User search {: #search_user}
 
 User administrators and administrators can search for specific users/accounts in different ways:
 

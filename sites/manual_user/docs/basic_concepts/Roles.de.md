@@ -268,7 +268,7 @@ Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.
 [Kurs Statistiken >](../learningresources/Statistics_Course.de.md)<br>
 [Prüfungsverwaltung: Übersicht >](../learningresources/Assessment_Management.de.md)<br>
 [Coaching - Personen >](../area_modules/Coaching_People.de.md)<br>
-[Benutzer-/Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)
+[Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)
 
 **Weiterführend**<br>
 [Rechte in Kursen >](Authorisation_Concept.de.md)<br>

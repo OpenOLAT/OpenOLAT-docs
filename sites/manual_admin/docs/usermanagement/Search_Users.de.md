@@ -1,4 +1,4 @@
-# Benutzer-/Kontosuche {: #search_user}
+# Kontosuche {: #search_user}
 
 Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Weise nach bestimmten Benutzer:innen/Konten suchen:
 
@@ -212,7 +212,7 @@ Die beiden Schalter setzen Sie in der System-Administration unter:<br>
 
 Alle fünf Spalten sind standardmässig ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
-Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Benutzer konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
+Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -224,10 +224,10 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Benut
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
 [Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
-[Benutzer konfigurieren >](Configure_User.de.md)
+[Konto konfigurieren >](Configure_User.de.md)
 
 **Weiterführend**<br>
-[Benutzer:in erstellen >](Create_User.de.md)<br>
+[Konto erstellen >](Create_User.de.md)<br>
 [Benutzer:in löschen >](Delete_User.de.md)
 
 [Zum Seitenanfang ^](#search_user)

@@ -42,7 +42,7 @@ Siehe [Modul Organisationen >](../administration/Modules_Organisations.de.md)
 
 Die Gültigkeitsdauer der Logindaten kann separat für das GUI und die REST-API angegeben werden.
 
-Die Gültigkeitsdauer gilt für die Selbstregistrierung und für den Einladungslink zum Setzen der Zugangsdaten, den Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen in der Benutzerverwaltung im Reiter "Passwort" versenden. Nach Ablauf führt der Link ins Leere. Siehe [Benutzer konfigurieren](../usermanagement/Configure_User.de.md). [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
+Die Gültigkeitsdauer gilt für die Selbstregistrierung und für den Einladungslink zum Setzen der Zugangsdaten, den Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen in der Benutzerverwaltung im Reiter "Passwort" versenden. Nach Ablauf führt der Link ins Leere. Siehe [Konto konfigurieren](../usermanagement/Configure_User.de.md). [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
 
 [Zum Seitenanfang ^](#self-registration)
@@ -130,7 +130,7 @@ Wenn auf der Startseite die Option "Selbstregistration" nicht angezeigt werden s
 
 **Auf dieser Seite erwähnt**<br>
 [Modul Organisationen >](Modules_Organisations.de.md)<br>
-[Benutzer konfigurieren >](../usermanagement/Configure_User.de.md)
+[Konto konfigurieren >](../usermanagement/Configure_User.de.md)
 
 [Zum Seitenanfang ^](#self-registration)
 

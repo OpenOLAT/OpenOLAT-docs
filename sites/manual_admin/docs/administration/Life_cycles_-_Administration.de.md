@@ -64,7 +64,7 @@ Liegt das Ablaufdatum vor dem Termin der automatischen Inaktivierung, nennt die 
 
 Jeder der beiden Bereiche nennt in seinem Erklärtext die Uhrzeit, zu der OpenOlat den jeweiligen Prozess täglich ausführt.
 
-Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist, inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt [Benutzer konfigurieren](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist, inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt [Konto konfigurieren](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
 ![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" }
 
@@ -122,11 +122,11 @@ Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Lebe
 
 **Auf dieser Seite erwähnt**<br>
 [Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
-[Benutzer konfigurieren >](../usermanagement/Configure_User.de.md)<br>
+[Konto konfigurieren >](../usermanagement/Configure_User.de.md)<br>
 [Benutzer:in löschen >](../usermanagement/Delete_User.de.md)
 
 **Weiterführend**<br>
-[Benutzer-/Kontosuche >](../usermanagement/Search_Users.de.md)<br>
-[Benutzer:in erstellen >](../usermanagement/Create_User.de.md)
+[Kontosuche >](../usermanagement/Search_Users.de.md)<br>
+[Konto erstellen >](../usermanagement/Create_User.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)

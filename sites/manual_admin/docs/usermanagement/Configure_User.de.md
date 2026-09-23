@@ -1,4 +1,4 @@
-# Benutzer konfigurieren {: #user_configuration} 
+# Konto konfigurieren {: #user_configuration}
 
 Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und für sie weitere Konfigurationen vornehmen. 
 
@@ -312,7 +312,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
-[Benutzer-/Kontosuche >](Search_Users.de.md)<br>
-[Benutzer:in erstellen >](Create_User.de.md)
+[Kontosuche >](Search_Users.de.md)<br>
+[Konto erstellen >](Create_User.de.md)
 
 [zum Seitenanfang ^](#user_configuration)

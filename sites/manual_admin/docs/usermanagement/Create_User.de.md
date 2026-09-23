@@ -1,4 +1,4 @@
-# Benutzer erstellen
+# Konto erstellen
 
 Um mit OpenOlat arbeiten zu können, muss zunächst vom OpenOlat Administrator
 bzw. Benutzerverwalter ein Benutzerkonto erstellt werden. Entweder geschieht

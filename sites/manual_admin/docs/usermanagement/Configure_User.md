@@ -1,4 +1,4 @@
-# Configure User {: #user_configuration} 
+# Configure user {: #user_configuration}
 
 If you have the right to manage users, you can search for a specific person using the user search and make further configurations for them.
 
@@ -314,7 +314,7 @@ Here you can check which grading assignments have been assigned to this user.
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
-[User/account search >](Search_Users.md)<br>
+[User search >](Search_Users.md)<br>
 [Create user >](Create_User.md)
 
 [To the top of the page ^](#user_configuration)

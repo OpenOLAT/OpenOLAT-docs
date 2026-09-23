@@ -47,6 +47,6 @@ Im Administrationshandbuch:
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [REST API >](../../manual_admin/administration/REST_API.de.md)<br>
-[Benutzer konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
 
 [Zum Seitenanfang ^](#competences)

@@ -212,7 +212,7 @@ plugins:
           Configure a podcast : Podcast konfigurieren
           Configure test questions : Test Fragen konfigurieren
           Configure tests : Test konfigurieren
-          Configure User : Benutzer konfigurieren
+          Configure user : Konto konfigurieren
           Content Editor : Content Editor
           Convert to learning path course : In Lernpfad-Kurs konvertieren
           Copy (a course) : Kopieren (eines Kurses)
@@ -263,7 +263,7 @@ plugins:
           Create Groups : Gruppen erstellen
           Create Learning Resources : Lernressourcen erstellen
           Create questions : Fragen erstellen
-          Create User : Benutzer erstellen
+          Create user : Konto erstellen
           Creating Blogs : Blog erstellen
           Creating Courses : Kurs erstellen
           Creating CP Learning Content : CP-Lerninhalt erstellen
@@ -650,7 +650,7 @@ plugins:
           User search : Personensuche
           User types : Benutzertypen
           User view  : Sicht Benutzer
-          User / Account Search :  Benutzer-/Kontosuche
+          Account search : Kontosuche
           Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
           Using Course Tools : Einsatz der Kurswerkzeuge

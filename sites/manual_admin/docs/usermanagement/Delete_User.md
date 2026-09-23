@@ -197,8 +197,8 @@ For **automatic deletion** via the user account lifecycle, an additional safegua
 
 **Further reading**<br>
 [User management >](index.md)<br>
-[User search / Account search >](Search_Users.md)<br>
-[Configure User >](Configure_User.md)<br>
+[User search >](Search_Users.md)<br>
+[Configure user >](Configure_User.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
 [Three steps to your portfolio binder >](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)

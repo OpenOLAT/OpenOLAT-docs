@@ -11,7 +11,7 @@ Accordingly, the assignment is typically made by user managers or administrators
 
 Depending on the area of responsibility, roles, and therefore additional rights, have to be added.
 
-The "Roles" tab shows the affiliation of the person ("User in"), their additional roles per organisation and, under "Roles history", every change to the roles. The administration manual describes the details: [Configure User](../../manual_admin/usermanagement/Configure_User.md)
+The "Roles" tab shows the affiliation of the person ("User in"), their additional roles per organisation and, under "Roles history", every change to the roles. The administration manual describes the details: [Configure user](../../manual_admin/usermanagement/Configure_User.md)
 
 ![Affiliation, additional roles per organisation and roles history of an account, Roles tab in the user management](assets/roles_rights_user_management_v2_de.png){ class="shadow lightbox" }
 
@@ -131,7 +131,7 @@ Specific rights can be defined for each user-to-user relation and thus access ca
 ## Further information {: #further_information} 
 
 **Mentioned on this page**<br>
-[Configure User >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Groups >](../groups/index.md)
 
 **Further reading**<br>
