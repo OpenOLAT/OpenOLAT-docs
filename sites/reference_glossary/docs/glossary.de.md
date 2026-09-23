@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 714 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 722 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -171,6 +171,12 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 Der konkrete Durchgang eines Bildungsangebots, mit Zeitraum, Ort, Mitgliedern und Kursen. Das Produkt beschreibt, was angeboten wird, die Durchführung, wann und mit wem es tatsächlich läuft.
 
 *Englisch: Implementation* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
+
+### Durchführungs-Lebenszyklus
+
+Der Ablauf einer Durchführung durch ihre Status, von Vorbereitung über Bestätigt bis Beendet. Die Automatisierung setzt die Status zu Zeitpunkten, die sich auf den Durchführungszeitraum beziehen. Der Elementtyp gibt die Regeln vor, die Durchführung kann sie überschreiben.
+
+*Englisch: Implementation life cycle* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 ### Element
 
@@ -958,6 +964,12 @@ Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, z
 
 *Englisch: Course reminders* · [Handbuch](../manual_admin/administration/Modules_Course_Reminders.de.md)
 
+### Kurs-Lebenszyklus
+
+Der Ablauf, mit dem OpenOlat Kurse nach dem Kursende automatisch auf Beendet setzt, später in den Papierkorb verschiebt und zuletzt endgültig löscht. Auslöser ist das Ende des Durchführungszeitraums. Die Besitzer:innen können über jeden Schritt informiert werden.
+
+*Englisch: Course life cycle* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
+
 ### Kurs Statistiken
 
 Das Kurswerkzeug, das die Zugriffe auf die Kursbausteine zählt und als Tabelle und Grafik zeigt: pro Stunde, pro Tag, pro Wochentag und pro Woche. Gezählt wird der Klick auf einen Baustein im Kursmenü, nicht der Klick in dessen Inhalt.
@@ -969,12 +981,6 @@ Das Kurswerkzeug, das die Zugriffe auf die Kursbausteine zählt und als Tabelle 
 Eine Pendenz innerhalb eines Kurses, mit verantwortlicher Person und Frist. Sie erscheint auch in der persönlichen To-do-Liste dieser Person.
 
 *Englisch: Course to-do* · [Handbuch](../manual_user/learningresources/Course_todos.de.md)
-
-### Lebenszyklus
-
-Der zeitlich gesteuerte Ablauf eines Kurses oder einer Gruppe von der Erstellung über das automatische Beenden und Inaktivieren bis zur Löschung.
-
-*Englisch: Life cycle* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
 
 ### Lernpfad
 
@@ -2426,6 +2432,18 @@ Das Modul, in dem die Bewertungssysteme und ihre Skalen gepflegt werden. Es legt
 
 *Englisch: Levels/Grading* · [Handbuch](../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
+### Erfolgskriterium
+
+Die tiefste Note oder Leistungsklasse einer Bewertungsskala, mit der eine Leistung als bestanden gilt. OpenOlat leitet sie aus dem Bewertungssystem ab und zeigt sie zum Beispiel als Bestanden mit 4 (Note). Sie ist nur sichtbar, wenn Mit Einstufung/Noten eingeschaltet ist.
+
+*Englisch: Success criterion* · [Handbuch](../manual_user/learningresources/Course_Settings_Assessment.de.md)
+
+### Erfolgsstatus
+
+Das Ergebnis einer Bewertung mit den Werten Bestanden, Nicht bestanden und Keine Angabe. OpenOlat setzt ihn über die Punkteschwelle oder über das Erfolgskriterium der Bewertungsskala, oder Betreuende setzen ihn von Hand. In den Listen des Coaching und in der Kursliste steht er grafisch und als Zahl.
+
+*Englisch: Success status* · [Handbuch](../manual_user/learningresources/Course_Settings_Assessment.de.md)
+
 ### Korrektur
 
 Das Durchsehen und Benoten einer abgegebenen Arbeit durch eine Person. Sie ist nötig, wo OpenOlat nicht automatisch bewerten kann, etwa bei Freitextfragen.
@@ -3126,6 +3144,12 @@ Der Nachweis, dass eine Person die ist, die sie zu sein vorgibt. OpenOlat unters
 
 *Englisch: Authentication* · [Handbuch](../manual_user/login_registration/Login_Concept.de.md)
 
+### Automatischer Kontolebenszyklus
+
+Der Ablauf, mit dem OpenOlat nicht mehr benutzte Konten automatisch deaktiviert und später löscht. Auslöser ist die letzte Anmeldung, nicht ein Datum. Vor jedem Schritt kann OpenOlat die Person per E-Mail warnen.
+
+*Englisch: Automatic user lifecycle* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
+
 ### Autorenbereich
 
 Der Bereich, in dem Lernressourcen erstellt, bearbeitet, kopiert und verwaltet werden. Er ist nur mit der Rolle Autor:in oder einer verwaltenden Rolle zugänglich.
@@ -3342,6 +3366,12 @@ Die gesetzlich vorgeschriebene Angabe darüber, wer die Plattform betreibt. Der 
 
 *Englisch: Imprint* · [Handbuch](../manual_admin/administration/Customizing.de.md)
 
+### Inaktivierung
+
+Der Schritt eines Lebenszyklus, der ein Konto oder eine Gruppe auf den Status Inaktiv setzt. Ein inaktives Konto kann sich nicht mehr anmelden, eine inaktive Gruppe ist nur noch lesbar. Die Daten bleiben erhalten, eine Reaktivierung ist möglich.
+
+*Englisch: Inactivation* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
+
 ### Info Meldung
 
 Eine Meldung, die auf der Anmeldeseite erscheint, also vor der Anmeldung. Sie kündigt zum Beispiel Wartungsarbeiten an oder erklärt eine Störung.
@@ -3359,6 +3389,12 @@ Die Seite der Administration unter System, auf der die Info Meldung für die Anm
 Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Bereiche, Infoseite n°1 bis n°4.
 
 *Englisch: Info page* · [Handbuch](../manual_user/learningresources/General_Functions_Infopage.de.md)
+
+### Karenzfrist
+
+Die Anzahl Tage nach einer Reaktivierung, in denen der Lebenszyklus ein Konto oder eine Gruppe nicht erneut inaktiviert. Sie gibt der Person Zeit, sich anzumelden oder die Gruppe wieder zu nutzen.
+
+*Englisch: Grace period* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
 
 ### Keycloak
 
@@ -3401,6 +3437,12 @@ Die Übersicht über die Kurse, in denen eine Person Mitglied ist, mit Fortschri
 Anbindung eines LDAP-Verzeichnisses. Konten werden von dort übernommen und die Anmeldung gegen das Verzeichnis geprüft.
 
 *Englisch: LDAP*
+
+### Lebenszyklus
+
+Der zeitlich gesteuerte Ablauf eines Objekts von der Erstellung bis zum Ende seiner Nutzung. OpenOlat kennt vier Lebenszyklen mit eigenen Auslösern und Schritten: für Konten, Gruppen, Kurse und Durchführungen.
+
+*Englisch: Life cycle* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
 
 ### LinkedIn
 
@@ -3521,6 +3563,12 @@ Der Bereich für die Projektarbeit, mit Terminen, To-dos, Entscheiden, Notizen, 
 Der Speicherplatz, den ein Ordner höchstens belegen darf, in KB. Jeder Ordnertyp hat eine Standard-Quota, zum Beispiel Kursordner, Gruppen oder persönlicher Ordner; Standard ist 200 MB. Die Administration überschreibt sie je Ordner.
 
 *Englisch: Quota* · [Handbuch](../manual_admin/administration/Files_and_Folders.de.md)
+
+### Reaktionsfrist
+
+Die Anzahl Tage zwischen der Warnung vor einem Schritt des Lebenszyklus und dem Schritt selbst. Reagiert in dieser Zeit niemand, führt OpenOlat den Schritt aus.
+
+*Englisch: Reaction time* · [Handbuch](../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
 
 ### Registrierung
 

@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 714 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 722 terms.
 
 ## A
 
@@ -435,6 +435,12 @@ Organisation role. An organisation role. It allows learning resources to be crea
 The area where learning resources are created, edited, copied and managed. It is only accessible with the Author role or with an administrative role.
 
 *German: Autorenbereich* · *Domain: Platform* · [Manual](../../manual_user/area_modules/Authoring.md)
+
+### Automatic user lifecycle
+
+The process with which OpenOlat automatically deactivates accounts that are no longer used and deletes them later. The trigger is the last login, not a date. Before each step OpenOlat can warn the person by e-mail.
+
+*German: Automatischer Kontolebenszyklus* · *Domain: Platform* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Automation
 
@@ -967,6 +973,12 @@ An element that can be added to the course structure in the course editor.
 The counter of how often a person has run through the same course: the first run or a repetition for recertification.
 
 *German: Kursdurchführung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Learning_path_course_Course_editor.md)
+
+### Course life cycle
+
+The process with which OpenOlat automatically sets courses to finished after the course end, later moves them to the trash and finally deletes them definitively. The trigger is the end of the implementation period. The owners can be informed about each step.
+
+*German: Kurs-Lebenszyklus* · *Domain: Course* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Course Planner (Course Planner)
 
@@ -1786,6 +1798,12 @@ The connection to GoToMeeting and GoToTraining for virtual sessions.
 
 *German: GoToMeeting* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_GoToMeeting.md)
 
+### Grace period
+
+The number of days after a reactivation during which the life cycle does not inactivate an account or a group again. It gives the person time to sign in or to use the group again.
+
+*German: Karenzfrist* · *Domain: Platform* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
+
 ### Grade
 
 The value a performance is named with under a grading system, for example the grade 5 or the verdict good. It comes from the points through the grading scale.
@@ -1976,11 +1994,23 @@ The concrete run of an educational offering, with a period, a location, members 
 
 *German: Durchführung* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
+### Implementation life cycle
+
+The course of an implementation through its statuses, from preparation through confirmed to finished. The automation sets the statuses at points in time that refer to the implementation period. The element type provides the rules, and the implementation can override them.
+
+*German: Durchführungs-Lebenszyklus* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
+
 ### Imprint
 
 The legally required statement of who operates the platform. The text is set per installation.
 
 *German: Impressum* · *Domain: Platform* · [Manual](../../manual_admin/administration/Customizing.md)
+
+### Inactivation
+
+The step of a life cycle that sets an account or a group to the status Inactive. An inactive account can no longer sign in, an inactive group is read-only. The data is kept, and a reactivation is possible.
+
+*German: Inaktivierung* · *Domain: Platform* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Info message
 
@@ -2230,9 +2260,9 @@ The area for a shared document collection of the whole system, with a release st
 
 ### Life cycle
 
-The scheduled course of a course or a group from its creation through the automatic finishing and deactivation to its deletion.
+The scheduled course of an object from its creation to the end of its use. OpenOlat knows four life cycles with their own triggers and steps: for accounts, groups, courses and implementations.
 
-*German: Lebenszyklus* · *Domain: Course* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
+*German: Lebenszyklus* · *Domain: Platform* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Line manager
 
@@ -3140,6 +3170,12 @@ The rules of a call for who may see which ratings and reviews and from when. The
 
 *German: Beurteilungsrichtlinien* · *Domain: Selectus*
 
+### Reaction time
+
+The number of days between the warning before a step of the life cycle and the step itself. If nobody reacts within this time, OpenOlat carries out the step.
+
+*German: Reaktionsfrist* · *Domain: Platform* · [Manual](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+
 ### Reason of absence
 
 The classification of an absence maintained by the administration, for example illness or accident. It is chosen from a list on the absence or notice and has a say in whether the absence is authorized.
@@ -3717,6 +3753,18 @@ Signing up to changes on an object. OpenOlat collects the changes and sends them
 A subtitle track for the video, one WebVTT file per language. OpenOlat can also generate them itself.
 
 *German: Untertitel* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
+
+### Success criterion
+
+The lowest grade or performance class of a grading scale with which a performance counts as passed. OpenOlat derives it from the grading system and shows it for example as Passed with 4 (Grade). It is only visible when With levels/grading is switched on.
+
+*German: Erfolgskriterium* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Settings_Assessment.md)
+
+### Success status
+
+The result of an assessment with the values Passed, Not passed and Undefined. OpenOlat sets it through the cut value or through the success criterion of the grading scale, or coaches set it by hand. In the coaching lists and in the course list it appears graphically and as a number.
+
+*German: Erfolgsstatus* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Settings_Assessment.md)
 
 ### Suggestion for improvement
 

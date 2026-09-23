@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 714 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 722 terms.
 
 ## Catalogue, booking and payment
 
@@ -189,6 +189,12 @@ The kind of an element in the Course Planner. The element type sets which elemen
 The concrete run of an educational offering, with a period, a location, members and courses. The product describes what is offered, the implementation when and with whom it actually runs.
 
 *German: Durchführung* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
+
+### Implementation life cycle
+
+The course of an implementation through its statuses, from preparation through confirmed to finished. The automation sets the statuses at points in time that refer to the implementation period. The element type provides the rules, and the implementation can override them.
+
+*German: Durchführungs-Lebenszyklus* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Instantiation
 
@@ -820,6 +826,12 @@ The counter of how often a person has run through the same course: the first run
 
 *German: Kursdurchführung* · [Manual](../manual_user/learningresources/Learning_path_course_Course_editor.md)
 
+### Course life cycle
+
+The process with which OpenOlat automatically sets courses to finished after the course end, later moves them to the trash and finally deletes them definitively. The trigger is the end of the implementation period. The owners can be informed about each step.
+
+*German: Kurs-Lebenszyklus* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
+
 ### Course reminders
 
 Automatic e-mails to participants, fired by a condition in the course, for example a missing submission or an approaching deadline.
@@ -987,12 +999,6 @@ The ordered sequence of the course elements in a learning path course. It sets w
 A course design that puts the course elements into an order and measures the progress per element. It steers through the learning path and exceptions, whereas the conventional course steers through conditions.
 
 *German: Lernpfadkurs* · [Manual](../manual_user/learningresources/Learning_path_course.md)
-
-### Life cycle
-
-The scheduled course of a course or a group from its creation through the automatic finishing and deactivation to its deletion.
-
-*German: Lebenszyklus* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Link list
 
@@ -2510,6 +2516,18 @@ The connection to the Safe Exam Browser. The assessment mode requires this brows
 
 *German: Safe Exam Browser* · [Manual](../manual_how-to/SEB/SEB.md)
 
+### Success criterion
+
+The lowest grade or performance class of a grading scale with which a performance counts as passed. OpenOlat derives it from the grading system and shows it for example as Passed with 4 (Grade). It is only visible when With levels/grading is switched on.
+
+*German: Erfolgskriterium* · [Manual](../manual_user/learningresources/Course_Settings_Assessment.md)
+
+### Success status
+
+The result of an assessment with the values Passed, Not passed and Undefined. OpenOlat sets it through the cut value or through the success criterion of the grading scale, or coaches set it by hand. In the coaching lists and in the course list it appears graphically and as a number.
+
+*German: Erfolgsstatus* · [Manual](../manual_user/learningresources/Course_Settings_Assessment.md)
+
 ## Evidence
 
 What comes out at the end and can be proven: the evidence of achievement from the course, the certificate as a document, the certification program as a running membership and the badge as an open credential.
@@ -3138,6 +3156,12 @@ The area where learning resources are created, edited, copied and managed. It is
 
 *German: Autorenbereich* · [Manual](../manual_user/area_modules/Authoring.md)
 
+### Automatic user lifecycle
+
+The process with which OpenOlat automatically deactivates accounts that are no longer used and deletes them later. The trigger is the last login, not a date. Before each step OpenOlat can warn the person by e-mail.
+
+*German: Automatischer Kontolebenszyklus* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
+
 ### Cloud login
 
 The collective term for the sign-in methods in which a third-party provider handles the sign-in and OpenOlat only receives the confirmation. In the interface the area is called Cloud Login.
@@ -3282,6 +3306,12 @@ The connection to Google for signing in with the Google account through OAuth 2.
 
 *German: Google* · [Manual](../manual_admin/administration/Login.md)
 
+### Grace period
+
+The number of days after a reactivation during which the life cycle does not inactivate an account or a group again. It gives the person time to sign in or to use the group again.
+
+*German: Karenzfrist* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
+
 ### Groups (Platform)
 
 The area for groups that belong to no course. People create their own groups there or join open ones.
@@ -3311,6 +3341,12 @@ The personal entry area of a person, with their courses, events, notifications, 
 The legally required statement of who operates the platform. The text is set per installation.
 
 *German: Impressum* · [Manual](../manual_admin/administration/Customizing.md)
+
+### Inactivation
+
+The step of a life cycle that sets an account or a group to the status Inactive. An inactive account can no longer sign in, an inactive group is read-only. The data is kept, and a reactivation is possible.
+
+*German: Inaktivierung* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### Info message
 
@@ -3365,6 +3401,12 @@ The connection to an LDAP directory. Accounts are taken from it and the sign-in 
 The area for a shared document collection of the whole system, with a release step before publication.
 
 *German: Bibliothek* · [Manual](../manual_user/area_modules/Library.md)
+
+### Life cycle
+
+The scheduled course of an object from its creation to the end of its use. OpenOlat knows four life cycles with their own triggers and steps: for accounts, groups, courses and implementations.
+
+*German: Lebenszyklus* · [Manual](../manual_admin/administration/Life_cycles_-_Administration.md)
 
 ### LinkedIn
 
@@ -3485,6 +3527,12 @@ The area where questions for tests are collected, tagged, released and reviewed.
 The storage space a folder may occupy at most, in KB. Every folder type has a default quota, for example course folder, groups or personal folder; the default is 200 MB. The administration overrides it per folder.
 
 *German: Quota* · [Manual](../manual_admin/administration/Files_and_Folders.md)
+
+### Reaction time
+
+The number of days between the warning before a step of the life cycle and the step itself. If nobody reacts within this time, OpenOlat carries out the step.
+
+*German: Reaktionsfrist* · [Manual](../manual_admin/administration/Automatic_Group_Lifecycle.md)
 
 ### Registration
 
