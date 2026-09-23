@@ -1,7 +1,7 @@
 # Delete user {: #delete_user}
 
 
-## What happens when an account is deleted?
+## What happens when an account is deleted? [:octicons-tag-16:{ title="from Release 12.5 (OO-3476)" }](https://track.frentix.com/issue/OO-3476)
 
 When a user's account is deleted, that person is no longer known as a registered user in OpenOlat and can no longer be found.
 
@@ -12,7 +12,7 @@ When an account is deleted, it is not removed from the database but **anonymised
 
 ## Who may delete user accounts?
 
-Whoever wants to remove an account permanently needs the role administrator: only for this role does user management show the "Delete users" button above the result list.
+Whoever wants to remove an account permanently needs the role administrator. Only for this role does user management show the "Delete users" button above the result list.
 
 User management itself is reached by several roles:
 
@@ -29,7 +29,7 @@ These roles search accounts, change user settings and status and, depending on t
 ---
 
 
-## Option 1 {: #delete_user_var1}
+## Option 1: Via the account search {: #delete_user_var1}
 
 **Step 1:**<br>
 In the user management, use the account search to find the users whose accounts are to be deleted.
@@ -137,7 +137,8 @@ The most frequent question concerns the media items in the Media Center. There, 
 |**Personal calendar** :octicons-person-24: | The personal calendar is deleted.|
 |**Chat history** :octicons-person-24: | The chat messages of the person are deleted, as are their entry in the contact lists and the chat settings. Only the posts written by this person are removed. The posts of the other participants in the same conversations remain.|
 |**Personal folder** :octicons-person-24: |The personal folder is deleted.|
-|**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either.|
+|**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either. This row covers the deleted person's own binders, sections and entries. Comments that this person left on shared entries of other people are covered by the following row "Comments".|
+|**Comments** :octicons-person-24: :octicons-package-24: | The comments of the deleted person are deleted together with their attached files: in courses, on videos, in the question bank, in blogs, in podcasts and in the Library. Two kinds of comments stay readable instead. First, the comments on ePortfolio entries. The other people involved use them to comment on and assess the portfolio work, so the text and the attached files remain unchanged. This also applies to comments the deleted person wrote on their own pages, and to comments on binders that still come from an earlier portfolio version. Second, every comment that someone has replied to, everywhere in OpenOlat and not only in the ePortfolio, because without it the replies lose their reference. The author of a retained comment is shown as "Unknown user", with the icon of a deleted account instead of the profile picture and without a link to the business card. If the deleted person holds an administrative role, first and last name stay visible. See the row `User management > Profile` further up in this table, part "Exceptions". Retained comments and their files disappear for good as soon as the corresponding page, section, binder or course is deleted. [:octicons-tag-16:{ title="from Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
 |**Personal to-dos** :octicons-person-24: | The assignment to the deleted account is removed; the to-do entry itself remains but is then no longer assigned to anyone. (to-dos in projects: see below) |
 |**Mailbox** :octicons-person-24: |Emails listed in the mailbox of the personal menu are deleted. (The internal email inbox is completely deleted.)|
 |**Recipient of a reminder email** :octicons-package-24: |If the deleted user was a potential recipient of a reminder email, the email will no longer be sent to the deleted person. (The recipient list is created at the time the rules are checked, so a deleted person no longer appears on the mailing list.)|
@@ -189,11 +190,17 @@ For **automatic deletion** via the user account lifecycle, an additional safegua
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)
+
+**Further reading**<br>
+[User management >](index.md)<br>
+[User search / Account search >](Search_Users.md)<br>
+[Configure User >](Configure_User.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
-[User management >](index.md)
+[Three steps to your portfolio binder >](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)
 
 [To the top of the page ^](#delete_user)

@@ -1,4 +1,4 @@
-# Portfolio assignment: Grading
+# Portfolio assignment: Grading {: #portfolio_comment_grading}
 
 If learners have edited a portfolio task and published at least parts of it, the binders or the published parts are available for other persons for commenting and (if settings allows it) grading. In the following the process is described:
 
@@ -18,15 +18,15 @@ Open the personal menu and then your portfolio.
 
 ![Tile "Go to shared items" marked in the public area: page My portfolio](assets/portfolio_assignment_grading_comment2_v1_de.png){ class="shadow lightbox" }
 
-### 3. Choose entry
+### 3. Choose entry {: #comment_choose_entry}
 
 In "Entries / To do" open the desired assignment.  
 
-![Entry "Eintrag Pedro1" by Pedro Lenz in the Entries/To do tab with status New: page Shared with me](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
+![Entry "Eintrag Pedro1" by Pedro Lenz in the Entries / To do tab with status New: page Shared with me](assets/portfolio_assignment_grading_comment3_v1_de.png){ class="shadow lightbox" }
 
 ### 4. View the entries in the edited binder {: #comment_view_entry}
 
-![Comment field marked in the open entry: page Eintrag Pedro1 in the Shared with me area](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
+![Content of the entry marked, below it the comments: page Eintrag Pedro1 in the Shared with me area](assets/portfolio_assignment_grading_comment4_v1_de.png){ class="shadow lightbox" }
 
 ### 5. Add a comment {: #comment_add}
 
@@ -37,6 +37,11 @@ Add your comment in the field provided. (For longer portfolio entries, you may n
 ### 6. Save comment {: #comment_save}
 
 Any additions to a comment are saved automatically.
+
+A comment that has been submitted stays readable for everyone involved, even if the account of the commenting person is deleted later. The text, the attached files and the replies to it remain unchanged on the entry. The name is replaced by the designation "Unknown user", without a link to a business card. The comments only disappear when the entry, the section, the binder or the course is deleted. [:octicons-tag-16:{ title="from Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)
+
+More about deleting an account is available here:<br>
+[Delete user >](../../manual_admin/usermanagement/Delete_User.md)
 
 ### 7. Close entry {: #comment_close_entry}
 
@@ -84,7 +89,7 @@ Open the personal menu and then your portfolio.<br>
 [See above ^](#comment_open_shared_binders)
 
 ### 3. Choose entry {: #rework_choose_entry} 
-Select one of the entries in the "Entries/To do" tab.<br>
+Select one of the entries in the "Entries / To do" tab.<br>
 [See above ^](#comment_choose_entry)
 
 ### 4. View entry/edit {: #rework_view_entry} 
@@ -164,5 +169,18 @@ The user is now shown the status "Passed" or "Failed" and the score entered.
 !!! info "Important"
 
     When an area in the assessment is closed, the entire area can no longer be edited by users.
+
+[To the top of the page ^](#portfolio_comment_grading)
+
+---
+
+
+## Further information {: #further_information}
+
+[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
+[Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
+[Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
+[Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
+[Personal tools: Portfolio >](../personal_menu/Portfolio.md)
 
 [To the top of the page ^](#portfolio_comment_grading)
