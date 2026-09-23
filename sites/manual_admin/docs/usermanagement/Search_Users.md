@@ -17,7 +17,7 @@ User administrators and administrators can search for specific users/accounts in
 
 Enter your relevant search criteria and confirm with the "Return" key or by clicking on the "Search" button.
 
-![Search fields from login name to account expiration, grouped into personal data, address, institution, roles, authentication and account status: user search with the search form](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
+![Search fields from ID to Last user login before, grouped into personal data, address, institution, roles, authentication, account status and dates: user search with the search form](assets/user_management_search_form_v2_en.png){ class="shadow lightbox" }
 
 Above the view you find the actions "Create user", "Import users", "Create temp. users" and "Delete user".
 
@@ -30,7 +30,7 @@ The field "Account expiration" searches by the expiry date of the accounts. The 
 
 Select one of the relevant search criteria in the menu on the left and narrow it down.
 
-![Left menu with the entries Organisations, Organisation roles, Course roles, Group roles, Course Planner roles, Account roles, Account types, Status and Predefined search queries: user search](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
+![Left menu with the entries Organisations, Organisation roles, Course roles, Group roles, Course Planner roles, User roles, User type, Status and Predefined searches: user search](assets/user_management_search_left_menu_v2_en.png){ class="shadow lightbox" }
 
 ### Organizations
 
@@ -128,7 +128,7 @@ The following can be displayed here:
 * Deleted users
 
 
-![Table of the deleted users with Del_Username, Deleted, Created and Deleted by, on the left the expanded entry Status: user search with status Deleted users](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
+![Table of the deleted users with Del_Username, Name, Last name, Deleted, Last login, Created, Deleted by and Remove filter, on the left the expanded entry Status: user search with status Deleted users](assets/user_management_search_status_v2_en.png){ class="shadow lightbox" }
 
 
 The "**Deleted users**" table in the user administration contains the following
@@ -168,14 +168,14 @@ Under the menu "**Predefined search queries**" you will find frequently used sea
 
 For a quick search, simply enter a term or part of a term in the "Quick Search" field.
 
-![Marked input field with the button Quick Search above the remaining search fields: user search with the search form](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
+![Marked input field with the button Search above the remaining search fields: user search with the search form](assets/user_management_quick_search_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
 
 ## Bulk search {: #search_user_bulk_search}
 
-![Marked link Bulk search next to the heading User search: search form](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
+![Marked link Bulk search next to the heading User search: search form](assets/user_management_bulk_search_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
@@ -187,7 +187,7 @@ If a list of search results is displayed after a search action, filters can be u
 In the first step, you search for all users who belong to a specific organizational unit.
 In the second step, you filter out all inactive users of this organizational unit in the results.
 
-![Filter row with Status, Organisations, Inactivation and More above the result list, the selection field Status is expanded: search result of the user search](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
+![Filter row with Status, Organisations, Inactivation and More above the result list, the selection field Status is expanded: search result of the user search](assets/user_management_filter_searchresults_v2_en.png){ class="shadow lightbox" }
 
 Above the result list you find the filter tabs "All", "Active", "Active and not deletable", "Pending", "Inactive" and "Login denied" as well as the filters "Status", "Organisations" and "Inactivation". The filter "Inactivation" narrows the list to a period in which accounts were deactivated or will be deactivated.
 
