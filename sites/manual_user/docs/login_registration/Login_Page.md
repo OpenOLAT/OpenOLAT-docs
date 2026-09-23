@@ -55,6 +55,8 @@ If the login page shows the link "Register here", you can create an account your
 
 If the identity provider of your organisation throws you back, the message on the page "Authentication not successful" tells you whether you can do something yourself. This applies to identity providers such as Microsoft Azure AD or Keycloak. With Shibboleth the messages read differently, for example "You are not authorized to log in OpenOlat."; the way is the same: [your organisation](#contact_support).
 
+![Page "Authentication not successful" with the message access_denied, below it the marked box with the support address, then the button "Go to login page"](assets/login_auth_failed_v1_en.png){ class="shadow lightbox" }
+
 | Message | What it means | What you do |
 |---|---|---|
 | "You are not authorized to use the OpenOlat service (access_denied). Please contact the system administrator." | The access was not granted: either your organisation has not released it, or you cancelled the login at the identity provider. | Log in again and agree to the access, otherwise contact your organisation. |

@@ -55,6 +55,8 @@ Zeigt die Login-Seite den Link "Hier registrieren", können Sie sich selbst ein 
 
 Wirft Sie der Identitätsanbieter Ihrer Organisation zurück, sagt Ihnen die Meldung auf der Seite "Authentifizierung nicht erfolgreich", ob Sie selbst etwas tun können. Das gilt für Identitätsanbieter wie Microsoft Azure AD oder Keycloak. Bei Shibboleth lauten die Meldungen anders, zum Beispiel "Sie dürfen nicht auf OpenOlat einloggen."; der Weg ist derselbe: [Ihre Organisation](#contact_support).
 
+![Seite "Authentifizierung nicht erfolgreich" mit der Meldung access_denied, darunter markiert der Kasten mit der Support-Adresse, dann der Button "Zur Loginseite"](assets/login_auth_failed_v1_de.png){ class="shadow lightbox" }
+
 | Meldung | Was sie bedeutet | Was Sie tun |
 |---|---|---|
 | "Sie sind nicht berechtigt auf den OpenOlat Dienst zuzugreifen (access_denied). Bitte kontaktieren Sie die Systemadministration." | Der Zugriff wurde nicht erteilt: entweder hat Ihre Organisation ihn nicht freigegeben, oder Sie haben die Anmeldung beim Identitätsanbieter abgebrochen. | Erneut anmelden und dem Zugriff zustimmen, sonst an Ihre Organisation wenden. |
