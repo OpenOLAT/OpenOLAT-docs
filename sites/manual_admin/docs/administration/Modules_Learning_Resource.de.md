@@ -40,11 +40,11 @@ Die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) wird pr
 
 In der Kopfzeile eines Kurses kann die Infoseite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
 
-![Kurs-Toolbar mit hervorgehobenem Button Kursinfo](assets/modules_repository_course_info_v1_de.png){ class="shadow lightbox" }
+![Hervorgehobener Button Infoseite in der Kurs-Toolbar](assets/modules_repository_course_info_v2_de.png){ class="shadow lightbox" }
 
 Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeigt werden.
 
-![Info-Seite eines Kurses mit hervorgehobenem Eingabefeld für einen Kommentar](assets/modules_repository_course_comment_v1_de.png){ class="shadow lightbox" }
+![Hervorgehobener Bereich Kommentar mit dem Eingabefeld "Schreiben Sie einen Kommentar..." auf der Infoseite eines Kurses](assets/modules_repository_course_comment_v2_de.png){ class="shadow lightbox" }
 
 Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -57,7 +57,7 @@ Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem M
 
 Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurteilung angezeigt werden.
 
-![Info-Seite eines Kurses mit hervorgehobenem Beurteilungs-Widget mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v1_de.png){ class="shadow lightbox" }
+![Hervorgehobene Bewertung mit fünf anklickbaren Sternen auf der Infoseite eines Kurses](assets/modules_repository_course_review_v2_de.png){ class="shadow lightbox" }
 
 Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -70,7 +70,7 @@ Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrato
 Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Hinweis. 
 Dort gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
 
-![Hinweisseite "Sie sind kein Mitglied" mit Button Mitgliedschaft beantragen](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
+![Button Mitgliedschaft beantragen neben Zurück auf der Hinweisseite "Sie sind kein Mitglied."](assets/modules_repository_request_membership_v2_de.png){ class="shadow lightbox" }
 
 Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
