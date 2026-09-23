@@ -11,7 +11,7 @@ Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourc
 Lernressourcen, bei denen Sie Betreuer:in oder Besitzer:in sind, finden Sie im Bereich "Coaching". Unter "Meine Kurse" finden Sie Lernressourcen, bei denen Sie selbst als Teilnehmer:in eingetragen sind. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
 !!! info "Wichtig"
-    Sollte Ihnen beide Rollen zugewiesen sein, wird die Lernressource in beiden "Reitern" angezeigt.
+    Sind Sie in derselben Lernressource Teilnehmer:in und zugleich Betreuer:in oder Besitzer:in, erscheint sie an beiden Orten: unter "Meine Kurse" und im Bereich "Coaching".
 
 Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, dazu gehören der Durchführungszeitraum, das Durchführungsformat, der Mitgliedsstatus, die Kursrolle und der Bewertungsstatus (Resultat). Klicken Sie auf den kleinen Pfeil um die weiteren Filteroptionen einzublenden.
 

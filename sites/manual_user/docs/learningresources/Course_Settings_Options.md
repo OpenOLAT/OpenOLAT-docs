@@ -52,7 +52,7 @@ In the "Access" section, you define what access participants have to this course
 
 With **"Adopt system default"**, the default specified by the administration applies; the currently valid default is shown in brackets. Select **"Override"** to set a different value for this course:
 
-* **Read-only access:** The course content remains available to participants in read mode.
+* **Read-only:** The course content remains available to participants in read mode.
 * **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
 
 ![Access section in the Options tab with the option Override selected and the two choice cards Read-only and No access](assets/course_settings_options_finished_access_v1_en.png){ class="shadow lightbox" }

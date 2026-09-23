@@ -11,7 +11,7 @@ Under "My Courses", you can view all courses and learning resources that are act
 Learning resources in which you are a coach or owner are found in the "Coaching" area. Under "My Courses", learning resources are displayed in which you yourself are entered as a participant. [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
 !!! info "Important"
-    If both roles are assigned to you, the learning resource is displayed in both "tabs".
+    If you are a participant in the same learning resource and at the same time a coach or owner, it appears in both places: under "My courses" and in the "Coaching" area.
 
 You can also filter your courses based on various criteria, including the execution period, the implementation format, the membership status, the course role and the assessment status (result). Click the small arrow to display the further filter options.
 

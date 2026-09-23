@@ -37,7 +37,12 @@ Im Lebenszyklus von Kursen kann festgelegt werden,
 
 ### Laufenden Prozess steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
 
-Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Der Prozess prüft die aktuellen Einstellungen vor jedem Kurs erneut. Damit ist sichergestellt, dass geänderte Regeln sofort wirksam sind. Über die Schaltfläche **"Prozess stoppen"** lässt sich ein laufender Durchlauf zusätzlich sofort anhalten. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitung ausgewählt wurden.
+Den laufenden Prozess sehen und steuern Sie im Abschnitt "Lebenszyklus-Prozess" unter:<br>
+`Administration > Lebenszyklen > Kurse`
+
+Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Vor jedem einzelnen Kurs prüft der Prozess erneut, ob der Schritt noch eingeschaltet ist. Schalten Sie einen Schritt ab, bricht der Durchlauf beim nächsten Kurs ab, statt die alte Einstellung zu Ende zu verarbeiten.
+
+Über die Schaltfläche **"Prozess stoppen"** halten Sie einen laufenden Durchlauf sofort an. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitung ausgewählt wurden.
 
 
 [Zum Seitenanfang ^](#lifecycles)

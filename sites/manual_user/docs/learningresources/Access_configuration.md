@@ -8,7 +8,7 @@ In general, the following publication variants are distinguished, which are visi
 A course or another newly created learning resource is initially only accessible to its owners and has the publication status "Preparation". Under
 "Status" the state can be changed and the learning resource can be made accessible to further persons or roles:
 
-![Status selection with the five buttons Preparation, Review, Access for coach, Published and Finished](assets/course-status.jpg){ class="thumbnail lightbox" }
+![Status Preparation on the button, the open menu showing Review, Access for coach, Published and Finished](assets/access_configuration_course_status_v2_en.png){ class="thumbnail lightbox" }
 
 Publication status | Access |
 ---|---|
@@ -132,19 +132,26 @@ The booking orders already made remain in place and are not affected by this.
 
 ### Manage offer availability [:octicons-tag-16:{ title="from Release 21.0 (OO-9304)" }](https://track.frentix.com/issue/OO-9304)
 
-The **"Available if"** setting defines the conditions under which an offer can be booked in the catalog. In addition to unrestricted availability, the **"Custom condition"** option is available. When it is selected, you configure the availability via:
+You set the availability in the offer itself. Click "Add offer" and choose the type of offer, or open an existing offer.
 
-* **"Status is":** the course or implementation statuses in which the offer should be available.
+At the top you find the field **"Internal label"**. The name is only visible internally and helps you tell several offers of the same learning resource apart. Below it, the offer is divided into the sections **"Catalog"** (publication, sharing and availability) and **"Membership"** (booking receipt and auto-booking).
+
+In the section "Catalog", the setting **"Available if"** defines when the offer can be booked. The following options are available:
+
+* **Course status "Published"** (default): The offer can be booked as soon as the course has the status "Published".
+* **"Custom condition"**: You define the conditions yourself.
+
+With the custom condition, these fields appear under "The conditions are met:":
+
+* **"Status is":** the statuses in which the offer should be bookable. For a course, "Preparation", "Review", "Access for coach" and "Published" are available, and several at the same time are possible.
 * **"From" / "Until":** additionally narrow down the availability period. For each limit you choose a mode:
     * **"Controlled by status":** only the selected status applies, without a date limit.
     * **"Absolute date":** a fixed date.
-    * **"Relative date":** a date relative to the execution period, for example three days before the course starts. For a relative date to take effect, the execution period of the learning resource must be set.
+    * **"Relative date":** a date relative to the execution period. Use "Set rule" to set the interval, for example three days before the begin of the execution period. For a relative date to take effect, the execution period of the learning resource must be set.
 
-![Offer of the type Freely available with the setting Available if on Custom condition, Status is Published and From as a relative date three days before the begin of the execution period](assets/access_configuration_offer_availability_v1_en.png){ class="shadow lightbox" }
+![Available if on Custom condition, From as a relative date three days before the begin of the execution period](assets/access_configuration_offer_availability_v1_en.png){ class="shadow lightbox" }
 
 This way an offer becomes bookable shortly before the course starts, for example, or closes automatically a few days before the course ends, without you having to maintain fixed dates.
-
-In the **"Internal label"** field you assign a name for the offer that is only visible internally. It helps you tell several offers of the same learning resource apart. The offer configuration is divided into the areas **"Catalog"** (visibility and availability) and **"Membership"** (type of membership).
 
 ## Share overview
 
@@ -159,7 +166,7 @@ deleted.
 
 When a course is **finished**, member access depends on the setting for the status "Finished": with "Read-only" the course remains accessible in read mode, with "No access" participants no longer see the content. This default is set by the system administration; it can be overridden per course in the tab "Options". [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
-All user data is retained. The course is no longer in the tab "My courses", but in the tab "Finished" right next to it.
+All user data is retained. In the menu item "Courses", the course is no longer in the tab "Active", but in the tab "Finished" right next to it.
 
 ![Course list under Courses in the tab Finished with a crossed-out course and the icon for finished courses in front of the title](assets/lifecycle_finished.png){ class="shadow lightbox" }
 

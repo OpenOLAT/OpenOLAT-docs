@@ -8,7 +8,7 @@ Generell werden folgende Varianten der Publikation unterschieden, die unter "Sta
 Ein Kurs oder eine andere neu erstellte Lernressource ist zunächst nur für die jeweiligen Besitzer:innen zugänglich und hat den Publikationsstatus "Vorbereitung". Unter
 "Status" kann der Zustand verändert und die Lernressource für weitere Personen bzw. Rollen zugänglich gemacht werden:
 
-![Statusauswahl mit den fünf Schaltflächen Vorbereitung, Review, Freigabe Betreuer:innen, Veröffentlicht und Beendet](assets/course-status.de.jpg){ class="thumbnail lightbox" }
+![Status Vorbereitung auf der Schaltfläche, im geöffneten Menü Review, Freigabe Betreuer:innen, Veröffentlicht und Beendet](assets/access_configuration_course_status_v2_de.png){ class="thumbnail lightbox" }
 
 Publikationsstatus | Zugriff |
 ---|---|
@@ -132,19 +132,26 @@ Die bereits getätigten Buchungsaufträge bleiben bestehen und sind davon nicht 
 
 ### Verfügbarkeit des Angebots steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9304)" }](https://track.frentix.com/issue/OO-9304)
 
-Über die Einstellung **"Verfügbar wenn"** legen Sie fest, unter welchen Bedingungen ein Angebot im Katalog buchbar ist. Neben der uneingeschränkten Verfügbarkeit steht die Option **"Benutzerdefinierte Bedingung"** zur Verfügung. Ist sie gewählt, konfigurieren Sie die Verfügbarkeit über:
+Die Verfügbarkeit stellen Sie im Angebot selbst ein. Klicken Sie auf "Angebot hinzufügen" und wählen Sie die Angebotsart, oder öffnen Sie ein bestehendes Angebot.
 
-* **"Status ist":** die Kurs- bzw. Durchführungsstatus, in denen das Angebot verfügbar sein soll.
+Zuoberst steht das Feld **"Interne Bezeichnung"**. Der Name ist nur intern sichtbar und hilft Ihnen, mehrere Angebote derselben Lernressource auseinanderzuhalten. Darunter gliedert sich das Angebot in die Abschnitte **"Katalog"** (Veröffentlichung, Freigabe und Verfügbarkeit) und **"Mitgliedschaft"** (Buchungsbeleg und automatisches Buchen).
+
+Im Abschnitt "Katalog" legen Sie mit der Einstellung **"Verfügbar wenn"** fest, wann das Angebot buchbar ist. Zur Wahl stehen:
+
+* **Kursstatus "Veröffentlicht"** (Voreinstellung): Das Angebot ist buchbar, sobald der Kurs den Status "Veröffentlicht" hat.
+* **"Benutzerdefinierte Bedingung"**: Sie legen die Bedingungen selbst fest.
+
+Bei der benutzerdefinierten Bedingung erscheinen unter "Die Bedingungen sind erfüllt:" diese Felder:
+
+* **"Status ist":** die Status, in denen das Angebot buchbar sein soll. Bei einem Kurs stehen "Vorbereitung", "Review", "Freigabe Betreuer:innen" und "Veröffentlicht" zur Wahl, mehrere gleichzeitig sind möglich.
 * **"Ab" / "Bis":** grenzen den Verfügbarkeitszeitraum zusätzlich ein. Je Grenze wählen Sie einen Modus:
     * **"Statusgesteuert":** es gilt allein der gewählte Status, ohne Datumsgrenze.
     * **"Absolutes Datum":** ein festes Datum.
-    * **"Relatives Datum":** ein Datum relativ zum Durchführungszeitraum, zum Beispiel drei Tage vor Kursbeginn. Damit ein relatives Datum wirksam wird, muss der Durchführungszeitraum der Lernressource gesetzt sein.
+    * **"Relatives Datum":** ein Datum relativ zum Durchführungszeitraum. Über "Regel festlegen" bestimmen Sie den Abstand, zum Beispiel drei Tage vor dem Beginn des Durchführungszeitraums. Damit ein relatives Datum wirksam wird, muss der Durchführungszeitraum der Lernressource gesetzt sein.
 
-![Angebot vom Typ Frei verfügbar mit der Einstellung Verfügbar wenn auf Benutzerdefinierte Bedingung, Status ist Veröffentlicht und Ab als relatives Datum drei Tage vor Beginn des Durchführungszeitraums](assets/access_configuration_offer_availability_v1_de.png){ class="shadow lightbox" }
+![Verfügbar wenn auf Benutzerdefinierte Bedingung, Ab als relatives Datum drei Tage vor Beginn des Durchführungszeitraums](assets/access_configuration_offer_availability_v1_de.png){ class="shadow lightbox" }
 
 So wird ein Angebot beispielsweise erst kurz vor Kursbeginn buchbar oder schliesst automatisch einige Tage vor Kursende, ohne dass Sie feste Daten pflegen müssen.
-
-Im Feld **"Interne Bezeichnung"** vergeben Sie einen nur intern sichtbaren Namen für das Angebot. Er hilft Ihnen, mehrere Angebote derselben Lernressource auseinanderzuhalten. Die Angebotskonfiguration ist in die Bereiche **"Katalog"** (Sichtbarkeit und Verfügbarkeit) und **"Mitgliedschaft"** (Art der Mitgliedschaft) gegliedert.
 
 ## Freigabeübersicht
 
@@ -159,7 +166,7 @@ gelöscht werden.
 
 Wenn ein Kurs **beendet** wird, richtet sich der Zugriff der Kursmitglieder nach der Einstellung für den Status "Beendet": Bei "Nur-Lese-Zugriff" bleibt der Kurs im Lesemodus zugänglich, bei "Kein Zugriff" sehen die Teilnehmenden die Inhalte nicht mehr. Diese Voreinstellung gibt die System-Administration vor; sie kann pro Kurs im Tab "Optionen" überschrieben werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
-Alle Benutzerdaten bleiben bestehen. Der Kurs befindet sich nicht mehr im Tab "Meine Kurse", sondern im Tab "Beendet" gleich nebenan.
+Alle Benutzerdaten bleiben bestehen. Im Menüpunkt "Kurse" steht der Kurs nicht mehr im Tab "Aktiv", sondern im Tab "Beendet" gleich nebenan.
 
 ![Kursliste unter Kurse im Tab Beendet mit drei durchgestrichenen Kursen und dem Symbol für beendete Kurse vor dem Titel](assets/beendet2.png){ class="shadow lightbox" }
 

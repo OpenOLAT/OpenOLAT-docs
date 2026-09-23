@@ -35,7 +35,12 @@ Course owners can be automatically informed of any status changes.
 
 ### Controlling a running process [:octicons-tag-16:{ title="from Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
 
-A saved change to the lifecycle settings takes effect **immediately** on a process that is already running: the process re-checks the current settings before each course. This ensures that changed rules take effect immediately. Using the **"Stop process"** button, a running pass can additionally be stopped immediately. This way a corrected setting takes effect right away, even when many courses have already been selected for processing.
+You see and control the running process in the section "Life cycle process" under:<br>
+`Administration > Life cycles > Courses`
+
+A saved change to the lifecycle settings takes effect **immediately** on a process that is already running: before each single course, the process checks again whether the step is still switched on. If you switch a step off, the pass stops at the next course instead of processing the old setting to the end.
+
+Using the **"Stop process"** button, you stop a running pass immediately. This way a corrected setting takes effect right away, even when many courses have already been selected for processing.
 
 [To the top of the page ^](#lifecycles)
 
