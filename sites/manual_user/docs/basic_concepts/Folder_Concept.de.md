@@ -168,6 +168,17 @@ Sobald in einer Liste mindestens eine Checkbox am Zeilenbeginn ausgewählt ist, 
 
 Markieren Sie die Checkbox in der Kopfzeile, werden alle Listeneinträge ausgewählt und markiert. Dadurch können schnell mehrere Einträge gleichzeitig bearbeitet werden.
 
+### HTML-Dateien öffnen [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"} {: #open_html}
+
+Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je nach Ihrem Recht im Ordner zum Bearbeiten oder nur zum Ansehen:
+
+- **Mit Schreibrecht** öffnet sich die Datei im HTML-Editor in einem neuen Browserfenster.
+- **Mit reinem Leserecht** öffnet sich eine Vorschau der Datei in einer Lightbox über der aktuellen Seite.
+
+Die Vorschau in der Lightbox liefert die Datei über eine eigene Inhaltsdomäne aus, also über eine zweite Webadresse neben der Adresse, unter der Sie OpenOlat aufrufen. HTML-Code und Skripte aus der Datei erhalten so keinen Zugriff auf die OpenOlat-Sitzung (Session) der Person, die die Datei ansieht.
+
+Die Vorschau in der Lightbox setzt eine Inhaltsdomäne voraus, die Administrator:innen eingerichtet haben. Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster. Wie die Inhaltsdomäne eingerichtet wird, beschreibt der englischsprachige [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+
 
 ## Papierkorb {: #paper_basket}
 
@@ -201,7 +212,8 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
-[Konzept des File Hub >](File_Hub_Concept.de.md)
+[Konzept des File Hub >](File_Hub_Concept.de.md)<br>
+[Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Weiterführend**<br>
 [Unterlagen Betreuer:innen >](../learningresources/Coach_Files.de.md)<br>

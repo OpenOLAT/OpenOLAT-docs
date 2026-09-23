@@ -19,6 +19,7 @@ Es gelten folgende Grundsätze:
 - Wenn keine Microsoft-Lizenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
 - Pdf werden in der Regel mit OnlyOffice geöffnet.
 - Bilder werden im Browser geöffnet.
+- HTML-Dateien öffnen sich mit Schreibrecht im HTML-Editor in einem neuen Browserfenster. Mit reinem Leserecht öffnet sich eine Vorschau in einer Lightbox, sofern eine Inhaltsdomäne eingerichtet ist. [Zu den Details im Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md#open_html) [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
 - Dateiformate, die eine spezielle Software benötigen, werden nicht geöffnet. OpenOlat bietet stattdessen einen Download an. Die Datei kann so trotzdem zusammen mit den übrigen Daten im Projekt gespeichert werden.<br>Beispiel: Mac-Dateiformate, wie z.B. Pages oder Keynote.
 
 
@@ -121,7 +122,7 @@ Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOl
 
 Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
 
-* Die vorhandenen Dateien können von allen Projektmitgliedern bearbeitet werden.
+* Die vorhandenen Dateien können alle Projektmitglieder bearbeiten, deren Rolle Objekte im Projekt bearbeiten darf. Welche Rollen das sind, zeigt die [Rollenübersicht der Mitgliederverwaltung](Project_Member_Management.de.md#roles).
 * Auch ein **gleichzeitiges Bearbeiten** (z.B. einer Word-Datei während einer Online-Besprechung) ist möglich, wenn die entsprechenden Lizenzen für den Dokumenteneditor vorhanden sind.
 
 Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
@@ -140,5 +141,17 @@ Zum Löschen einer Datei klicken Sie auf die 3 Punkte am Ende einer Zeile und da
 Wollen Sie mehrere Dateien auf einmal löschen (Sammelaktion), dann wählen Sie die Listenansicht und markieren die gewünschten Checkboxen am Anfang der Zeilen. Dadurch wird ein Button "Löschen" oberhalb der Liste eingeblendet.
 
 ![Button Löschen oberhalb der Dateiliste, nachdem Dateien über die Checkboxen am Zeilenanfang ausgewählt wurden](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#files)
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
+[Projekte: Mitgliederverwaltung >](Project_Member_Management.de.md)<br>
+[Projekte: Überblick >](Project_Overview.de.md)<br>
+[Projekte - Cockpit >](Project_Cockpit.de.md)
 
 [Zum Seitenanfang ^](#files)

@@ -526,6 +526,8 @@ Je nach Konfiguration stehen im Schritt **"Zuweisung Aufgabenstellung"** eine od
 
 Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewiesen wurde, klicken Sie auf "Aufgabe herunterladen", um die Aufgabenstellung herunterzuladen bzw. anzeigen zu lassen. Wenn Sie auf den Dateinamen der Aufgabenstellung klicken wird die Aufgabe angezeigt. Die Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
+HTML-Dateien, ob Aufgabenstellung, abgegebenes Dokument oder Musterlösung, öffnen sich in einer Lightbox, und Skripte darin laufen nur, wenn eine [Inhaltsdomäne](../basic_concepts/Folder_Concept.de.md#open_html) eingerichtet ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
+
 Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. einen anderen Kursbaustein, einer HTML-Seite, eine externe Webseite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
@@ -833,6 +835,7 @@ Wenn ein Peer-Review durchgeführt wurde, müssen die Ergebnisse nicht zwangslä
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Rubrik-Formular >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)<br>
+[Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Zum Seitenanfang ^](#course_element_task)
 
 

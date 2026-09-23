@@ -516,6 +516,8 @@ Depending on the configuration, one or more tasks are available for selection in
 
 If you have selected a task or a task has been automatically assigned to you, click on "Download task" to download or display the task. If you click on the file name of the task, the task is displayed. You can then download the task again at any time.
 
+HTML files, whether assignment, submitted document or sample solution, open in a lightbox, and scripts in them only run if a [content domain](../basic_concepts/Folder_Concept.md#open_html) is set up. [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
+
 It is also possible that your teacher has not stored the task in the course element "Task", but has chosen a different location, e.g. another course element, an HTML page, an external website or has set the task orally in presence or in an online meeting. In this case, the "Assign task" section does not appear.
 
 [Up (Participant perspective) ^](#process_task)<br>
@@ -819,6 +821,7 @@ If a peer review has been carried out, the results do not necessarily have to be
 [Course element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
 [Rubric forms >](../learningresources/Forms_in_Rubric_Scoring.md)<br>
 [How do I perform a peer review? >](../../manual_how-to/peer_review/peer_review.md)<br>
+[Folder concept >](../basic_concepts/Folder_Concept.md)<br>
 [To the top of the page ^](#course_element_task)
 
 

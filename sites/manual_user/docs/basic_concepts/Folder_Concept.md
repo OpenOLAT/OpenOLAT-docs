@@ -168,6 +168,17 @@ As soon as at least one checkbox is selected at the beginning of a line in a lis
 
 If you select the checkbox in the header, all list entries are selected and highlighted. This allows you to quickly edit several entries at the same time.
 
+### Opening HTML files [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"} {: #open_html}
+
+When you click an HTML file in a folder, OpenOlat opens it for editing or for viewing only, depending on your access in the folder:
+
+- **With write access**, the file opens in the HTML editor in a new browser window.
+- **With read-only access**, a preview of the file opens in a lightbox above the current page.
+
+The preview in the lightbox delivers the file through a separate content domain, that is, a second web address next to the address under which you call up OpenOlat. HTML code and scripts from the file therefore have no access to the OpenOlat session of the person viewing the file.
+
+The preview in the lightbox requires a content domain set up by administrators. Without a content domain, an HTML file opens in a new browser window even with read-only access. How to set up the content domain is described in the [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+
 
 ## Trash {: #paper_basket}
 
@@ -201,7 +212,8 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
-[File Hub Concept >](File_Hub_Concept.md)
+[File Hub Concept >](File_Hub_Concept.md)<br>
+[Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Further reading**<br>
 [Coach files >](../learningresources/Coach_Files.md)<br>

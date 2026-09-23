@@ -19,6 +19,7 @@ The following principles apply:
 - If no Microsoft licence is available, docx, pptx and xlsx are for example opened with OnlyOffice, if a licence is available for it.
 - Pdf files are usually opened with OnlyOffice.
 - Images are opened in the browser.
+- With write access, HTML files open in the HTML editor in a new browser window. With read-only access, a preview opens in a lightbox, provided a content domain is set up. [See the details in the folder concept >](../basic_concepts/Folder_Concept.md#open_html) [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
 - File formats that require special software are not opened. OpenOlat offers a download instead. The file can thus still be saved together with the other data in the project.<br>Example: Mac file formats, such as Pages or Keynote.
 
 
@@ -121,7 +122,7 @@ Files located elsewhere in OpenOlat can also be added in the "Files" area. This 
 
 The integration of document editors enables collaborative work.
 
-* The existing files can be edited by all project members.
+* All project members whose role is allowed to edit objects in the project can edit the existing files. The [role overview in the member management](Project_Member_Management.md#roles) shows which roles these are.
 * Even **simultaneous editing** (e.g. of a Word file during an online meeting) is possible if the corresponding licences for the document editor are available.
 
 If necessary, contact your administrator.
@@ -140,5 +141,17 @@ To delete a file, click on the 3 dots at the end of a line and then on "Delete".
 If you want to delete several files at once (bulk action), select the list view and tick the desired checkboxes at the beginning of the lines. This will display a "Delete" button above the list.
 
 ![Button Delete above the file list after files have been selected via the checkboxes at the beginning of the lines](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#files)
+
+---
+
+
+## Further information {: #further_information}
+
+[Folder concept >](../basic_concepts/Folder_Concept.md)<br>
+[Projects: Member Management >](Project_Member_Management.md)<br>
+[Projects: Overview >](Project_Overview.md)<br>
+[Projects - Cockpit >](Project_Cockpit.md)
 
 [To the top of the page ^](#files)

@@ -10,7 +10,7 @@ You open the members management in the project via the 3-dot menu at the top rig
 
 !!! info "Important"
 
-    Only OpenOlat administrators can see the "Administration" tab. Project owners do not see it.
+    Only administrators and project managers can see the "Administration" tab in the Projects area. Project owners do not see it.
 
 [To the top of the page ^](#member_management)
 
@@ -40,15 +40,15 @@ As soon as a project member is registered, he or she receives a link. After call
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
 |                                                                                       |
 |**Owner (project owner)** | create, edit, close, delete | create, edit, delete | create, edit, delete, can assign leadership role | create, edit, delete |
-|**Leader (project leader)**| edit | create, edit, close, delete | create, edit, delete | :material-cancel: |
-|**Project office** | edit | create, edit, delete | create, edit, delete | :material-cancel: |
-|**Participant (project collaborator)**              | read only | create, edit, delete            | :material-cancel: |     :material-cancel:    |
-|**Business analyst / Supplier**         | read only           | create, edit, delete | :material-cancel:| :material-cancel: |
-|**Sponsor / Client**          | read only           | :material-cancel: | :material-cancel: | :material-cancel: |
-|**Steering committee**         | read only          | :material-cancel: | :material-cancel:| :material-cancel: |
+|**Leader (project leader)**| edit, close | create, edit, close, delete | create, edit, delete, can assign leadership role | create, edit, delete |
+|**Project office** | edit, close | create, edit, delete | create, edit, delete, can assign leadership role | create, edit, delete |
+|**Participant (project collaborator)**              | read only | create, edit, delete own            | :material-cancel: |     :material-cancel:    |
+|**Business analyst / Supplier**         | read only           | create, edit, delete own | :material-cancel:| :material-cancel: |
+|**Sponsor / Client**          | read only           | read only | :material-cancel: | :material-cancel: |
+|**Steering committee**         | read only          | read only | :material-cancel:| :material-cancel: |
 | Roles that can act across multiple projects:                                                                                                   |
 |**Project manager**                                        | create, edit, close, delete, tab "Administration" in the Projects area      | sees no content | create, edit, delete, can assign leadership role | create, edit, delete  |
-|**Administrator**                                         | tab "Administration" in the Projects area      | only has insight into a project if also a member*       | can assign leadership role | create, edit, delete  |
+|**Administrator**                                         | create, edit, close, delete, tab "Administration" in the Projects area      | only has insight into a project if also a member*       | create, edit, delete, can assign leadership role | create, edit, delete  |
 
 
 *Administrators can make themselves members, but this is recorded. This way, abusive access is to be curbed.

@@ -10,7 +10,7 @@ Sie öffnen die Mitgliederverwaltung im Projekt über das 3-Punkte-Menü rechts 
 
 !!! info "Wichtig"
 
-    Den Tab "Administration" sehen nur OpenOlat-Administrator:innen. Projektbesitzer:innen sehen ihn nicht.
+    Den Tab "Administration" im Bereich Projekte sehen nur Administrator:innen und Projektverwalter:innen. Projektbesitzer:innen sehen ihn nicht.
 
 [Zum Seitenanfang ^](#member_management)
 
@@ -40,15 +40,15 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
 |                                                                                       |
 |**Besitzer:in (Projektbesitzer:in)** | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
-|**Leiter:in (Projektleiter:in)**| bearbeiten | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
-|**Projektbüro** | bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
-|**Teilnehmer:in (Projektmitarbeiter:in)**              | nur lesen | anlegen, bearbeiten, löschen            | :material-cancel: |     :material-cancel:    |
-|**Business-Analyst:in / Lieferant:in**         | nur lesen           | anlegen, bearbeiten, löschen | :material-cancel:| :material-cancel: |
-|**Sponsor:in / Auftraggeber:in**          | nur lesen           | :material-cancel: | :material-cancel: | :material-cancel: |
-|**Lenkungsausschuss**         | nur lesen          | :material-cancel: | :material-cancel:| :material-cancel: |
+|**Leiter:in (Projektleiter:in)**| bearbeiten, abschliessen | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
+|**Projektbüro** | bearbeiten, abschliessen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
+|**Teilnehmer:in (Projektmitarbeiter:in)**              | nur lesen | anlegen, bearbeiten, eigene löschen            | :material-cancel: |     :material-cancel:    |
+|**Business-Analyst:in / Lieferant:in**         | nur lesen           | anlegen, bearbeiten, eigene löschen | :material-cancel:| :material-cancel: |
+|**Sponsor:in / Auftraggeber:in**          | nur lesen           | nur lesen | :material-cancel: | :material-cancel: |
+|**Lenkungsausschuss**         | nur lesen          | nur lesen | :material-cancel:| :material-cancel: |
 | Rollen, die über mehrere Projekte hinweg agieren können:                                                                                                   |
 |**Projektverwalter:in**                                        | anlegen, bearbeiten, abschliessen, löschen, Tab "Administration" im Bereich Projekte      | sieht keine Inhalte | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
-|**Administrator:in**                                         | Tab "Administration" im Bereich Projekte      | hat nur Einblick in ein Projekt, wenn auch Mitglied*       | kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
+|**Administrator:in**                                         | anlegen, bearbeiten, abschliessen, löschen, Tab "Administration" im Bereich Projekte      | hat nur Einblick in ein Projekt, wenn auch Mitglied*       | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
 
 
 *Administrator:innen können sich zwar selbst zum Mitglied machen, aber das ist dann protokolliert. Auf diese Art soll missbräuchlicher Zugriff eingedämmt werden.
