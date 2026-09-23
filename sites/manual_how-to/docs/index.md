@@ -23,6 +23,7 @@ These guides walk you through a complete task in OpenOlat, step by step. They ar
 11. [How do I create a wiki?](wikis/wikis.md)
 12. [How do I create an essay question with AI grading?](ai_essay/ai_essay.md)
 13. [How do I prepare for the creation of personal portfolios by participants?](portfolio/portfolio.md)
+14. [How can I run a survey at the end of a course?](survey/survey.md)
 
 ## For authors and coaches: tests and exams {: #for_tests}
 

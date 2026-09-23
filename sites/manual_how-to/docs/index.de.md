@@ -23,6 +23,7 @@ Diese Anleitungen führen Sie Schritt für Schritt durch eine vollständige Aufg
 11. [Wie erstelle ich ein Wiki?](wikis/wikis.de.md)
 12. [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
 13. [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](portfolio/portfolio.de.md)
+14. [Wie kann ich am Ende eines Kurses eine Umfrage durchführen?](survey/survey.de.md)
 
 ## Für Autor:innen und Betreuer:innen: Tests und Prüfungen {: #for_tests}
 

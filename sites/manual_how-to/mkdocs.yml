@@ -46,6 +46,7 @@ nav:
     - How do I record an oral exam in OpenOlat?: "oral_exam/oral_exam.md"
   - Making successes and achievements visible:
     - How do I make successes and achievements visible?: "achievements/achievements.md"
+    - How can I run a survey at the end of a course?: "survey/survey.md"
   - Adjust OpenOlat:
     - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
     - Lifecycle management: "lifecycle/lifecycle.md"
