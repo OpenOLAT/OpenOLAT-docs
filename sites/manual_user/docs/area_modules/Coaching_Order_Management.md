@@ -35,7 +35,7 @@ It is also possible to add correctors directly to the respective [test learning 
 
 In the row menu of a corrector, open the entry "Download report" to generate an Excel file with the state of the grading assignments of this corrector. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
 
-The same row menu leads to the further actions: "Show assignments" switches to the tab "Grading assignments" with the assignments of this person, "Send e-mail" opens an e-mail, "Set absence leave" records an absence which then appears in the column "Absence leave", and "Remove" withdraws the person as a corrector and redistributes their assignments. If a corrector is deactivated, the entry "Activate" is available instead of "Deactivate".
+The same row menu leads to the further actions: "Show assignments" switches to the tab "Grading assignments" with the assignments of this person, "Contact corrector" opens an e-mail, "Set absence leave" records an absence which then appears in the column "Absence leave", and "Remove" withdraws the person as a corrector and redistributes their assignments. If a corrector is deactivated, the entry "Activate" is available instead of "Deactivate".
 
 ![Row menu with Show assignments, Contact corrector, Download report, Set absence leave, Deactivate and Remove, in the tab Correctors of the Order management.](assets/coaching_order_management_report_download_v1_en.png){ class="shadow lightbox" }
 
