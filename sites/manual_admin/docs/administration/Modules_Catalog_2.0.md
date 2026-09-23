@@ -1,14 +1,34 @@
 # Module Catalog {: #modul_catalog}
 
-## Tab Settings {: #tab_settings}
+## Tab Settings [:octicons-tag-16:{ title="from Release 17.0 (OO-6145)" }](https://track.frentix.com/issue/OO-6145) {: #tab_settings}
 
-Administrators can activate the catalog module here. You can activate the catalog V1 or V2 or deactivate it completely. Depending on which option you select, different additional tabs appear.
+Administrators define here whether users see a catalog and which one. The setting is located in the system administration under:<br>
+`Administration > Modules > Catalog > Tab "Settings"`
 
-If the [Catalog V2](#config_catalog_v2) is activated, the [Web catalog](#config_web-catalog) can also be activated.
+Under Module "Catalog" three options are available: "No catalog", "Catalog V1" and "Catalog V2". Depending on the choice, different additional tabs appear.
 
-In addition, a [Taxonomy](Modules_Taxonomy.md) can be selected for the catalog.
+On a new installation, Catalog V2 is preset, and Catalog V1 including its catalog administration is switched off. After an update from an older version, the existing setting remains. [:octicons-tag-16:{ title="from Release 21.0 (OO-9562)" }](https://track.frentix.com/issue/OO-9562)
 
-![Settings tab in the Catalog module: Catalog V2 activated, taxonomy selected, learning resource manager role enabled for editing, web catalog switched off](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
+If [Catalog V2](#config_catalog_v2) is activated, additional settings appear: the selection of the [Taxonomy](Modules_Taxonomy.md) for the catalog, the option "Taxonomy editable by" with the role Learning resource manager, the switch "Sorting by priority" and the switch [Web catalog](#config_web-catalog).
+
+The switch "Sorting by priority" adds a sort button to the lists of the catalog. Its default criterion "Relevance" orders the offers first by their priority, then by start date, end date and title. The page [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md#sorting_microsites_by_priority) describes the effect. [:octicons-tag-16:{ title="from Release 20.2 (OO-9039)" }](https://track.frentix.com/issue/OO-9039)
+
+![Highlighted switch Sorting by priority with Catalog V2 active, web catalog switched on, Settings tab in the Catalog module](assets/modules_catalog_tab_settings_v2_en.png){ class="shadow lightbox" }
+
+### Migration from Catalog V1 to V2 [:octicons-tag-16:{ title="from Release 17.0 (OO-6148)" }](https://track.frentix.com/issue/OO-6148) {: #migration_v1_v2}
+
+Whoever switches from Catalog V1 to Catalog V2 does not have to rebuild the existing catalog structure. As long as the migration has not run, the "Settings" tab shows, with Catalog V2 active, a second section below the settings with the title "Migration". It consists of an explanatory text listing the objects to be migrated and the button "Start migration".
+
+The button opens the confirmation dialog "Catalog 2.0 migration" with the question "Do you really want to start the migration?" and the buttons "Yes" and "No". After "Yes", OpenOlat migrates in the background:
+
+- The catalog structure becomes a new taxonomy: title, short title and description of the catalog become the taxonomy, each category becomes a taxonomy level. The taxonomy then appears in the "Settings" tab under "Taxonomy" and in the administration under Subjects/Catalog.
+- Titles, short titles and descriptions of the subcategories are shown on the redesigned subpages.
+- Catalog images are displayed as rectangular tiles in 2:1 format; the shape can be changed in the "Layout" tab.
+- The image of the top catalog level becomes the background image of the header of the launch page.
+- Launchers are created on the launch page: a launcher "Taxonomy level" for the new taxonomy, a launcher "Static text" with the description of the top catalog level and, if learning resources were placed directly on the top level, a launcher "Selected learning resources" with these learning resources.
+- In the "Filters" tab, the filter for the taxonomy levels is created if it does not exist yet.
+
+While the migration runs, the notice "The migration is in progress." replaces the button. After completion, the "Migration" section disappears permanently; the migration can only be run once.
 
 
 [To the top of the page ^](#modul_catalog)
@@ -20,7 +40,7 @@ In addition, a [Taxonomy](Modules_Taxonomy.md) can be selected for the catalog.
 
 If you activate the catalog V1 you see the tab "configuration" and can configure more details.
 
-![Configuration tab of catalog V1: checkboxes Catalog in "Courses" and Catalog in its own site, sorting settings for new categories and entries](assets/Admin_KatalogV1_en.png){ class="shadow lightbox" }
+![Checkboxes Catalog in "Courses" and Catalog in its own site, sorting settings for new categories and entries, Configuration tab of catalog V1](assets/Admin_KatalogV1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#modul_catalog)
@@ -55,7 +75,7 @@ The offers are sorted by publication date.
 
 #### Launcher type "Random generator"
 
-The offers displayed in this Lauchner are shown in random order.
+The offers displayed in this launcher are shown in random order.
 
 #### Launcher type "Taxonomy level"
 
@@ -73,7 +93,7 @@ When configuring this launcher, you use the **Type** field [:octicons-tag-16:{ t
 
 #### Launcher type "Selected learning resources"
 
-The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.  
+The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.
 
 #### Launcher type "Selected implementations"
 
@@ -86,7 +106,7 @@ The manually added entries can be sorted by clicking on the double arrows in fro
 
 ### Tab Filters {: #tab_filter}
 
-The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the users. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc. 
+The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the users. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc.
 
 ### Tab Layout {: #tab_layout}
 
@@ -102,21 +122,20 @@ The **Information displayed in card** field controls which metadata is displayed
 
 ---
 
-### Management of catalog V2 {: #v2_admin}
+### Management of catalog V2 [:octicons-tag-16:{ title="from Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #v2_admin}
 
-Catalog V2 is fed from the taxonomy of the subjects. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
-Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
+Catalog V2 is fed from the taxonomy of the subjects. Users with the role [Learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrators can manage the keywording via the menu. Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
 
 !!! warning "Attention"
 
-    The subjects, keywording, taxonomy that can be edited as a learning resource administrator can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
+    The subjects, keywording, taxonomy that can be edited as a Learning resource manager can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
 
 
 ![List of subject areas with reference code, creation date and number of sub-levels, Catalog management page](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
 
-The right to manage a catalog or subject area section can be granted to different persons. (Initially, this right is assigned by administrators.) Select the desired subject area section and then the "management" tab.
+The right to manage a catalog or subject area section can be granted to different persons. Initially, administrators assign this right. Select the desired subject area section and then the "management" tab. [:octicons-tag-16:{ title="from Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544)
 
 ![Management tab and Add manager button highlighted, no managers registered yet, subject area page (example Ski Jumping)](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 
@@ -124,7 +143,7 @@ The following applies to users with this right:
 
 - **Editing:** They can edit, move or delete elements within the taxonomy levels or create new sub-levels.
 - **Inheritance:** Anyone who has rights at a higher level (e.g. at institute level) may automatically edit the levels below (e.g. study programs).
-- **Passing on:** These rights can be passed on from top to bottom.<br> 
+- **Passing on:** These rights can be passed on from top to bottom.<br>
 Example: An administrator gives a person the rights for a taxonomy level below (e.g. faculty). This person can then give similar rights to others within this faculty: even for subordinate areas.
 
 
@@ -145,28 +164,29 @@ Images are used for various illustrative purposes in the catalog. This is a list
 
 #### Background images
 
-Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage, the maximum file size for the upload is **2.0 MB**. If the image is higher than 240px, a suitable section is taken from the centre.
-Taxonomy level backgrounds can be customised in the "Taxonomy" tab.
-The background image for the start page can be found under Layout.
+Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage, the maximum file size for the upload is **2.0 MB**. If the image is higher than 240px, a suitable section is taken from the centre. Taxonomy level backgrounds can be customised in the "Taxonomy" tab. The background image for the launch page is in the "Layout" tab.
 
 This is how OpenOlat chooses the section for smaller image sizes:
+
 ![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
 
-Background for the start page
+**Background for the launch page**
+
 ![Crop guide for the background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, search and title text zone approx. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" }
 
-Background for the taxonomy levels
+**Background for the taxonomy levels**
+
 ![Crop guide for the taxonomy background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, semi-transparent text bar top left](assets/catalog_background_taxonomy.png){ class="shadow lightbox" }
 
 #### Taxonomy launcher images
-Depending on the setting, we are dealing here with square or rectangular images.
-The rectangular images have an aspect ratio of **16:9** with a recommended display of **640 x 360 px**. The text bar underneath covers approx. 80px.
 
-Rectangular
+Depending on the setting, we are dealing here with square or rectangular images. The rectangular images have an aspect ratio of **16:9** with a recommended display of **640 x 360 px**. The text bar underneath covers approx. 80px.
+
+**Rectangular**
 
 ![Schema of the rectangular teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser.png){ class="shadow lightbox" }
 
-Square
+**Square**
 
 ![Schema of the square teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" }
 
@@ -180,7 +200,7 @@ Can be set directly in the course and should not exceed the dimensions 570x380 p
 
 ---
 
-## Configuration of the Web catalog {: #config_web-catalog}
+## Configuration of the Web catalog [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002) {: #config_web-catalog}
 
 If Catalog V2 is selected in the "Settings" tab, activating the web catalog is available as a further option.
 
@@ -198,6 +218,7 @@ The web catalog can also be deactivated temporarily.
 
 **Mentioned on this page**<br>
 [Module Taxonomy](Modules_Taxonomy.md)<br>
+[Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md)<br>
 [Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
 
 **Further reading**<br>
