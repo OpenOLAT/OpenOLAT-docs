@@ -157,7 +157,7 @@ Embedded counts both in the "Page" course element and in an ePortfolio page, inc
 
 **Sharing does not protect the media item.** Shared, but embedded nowhere means: deleted. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well.
 
-Administrators and learn resource managers find the retained media items without an assignment in the media management, using the **Without creator** filter, provided that the media item is shared with a course of their organisation. A media item that is only embedded in a page does not appear there.
+Administrators and learning resource managers find the retained media items without an assignment in the media management, using the **Without creator** filter, provided that the media item is shared with a course of their organisation. A media item that is only embedded in a page does not appear there.
 
 !!! tip "Before an account is deleted"
     Ask the person concerned to download any media items they need. If a media item is to remain in the system, it must be embedded in a page beforehand. The complete table of all data types is on the page [Delete user](../../manual_admin/usermanagement/Delete_User.md#del_properties).
@@ -205,15 +205,15 @@ The **filter functions** help you to find the media you are looking for quickly.
 
 ## Manage Media Center [:octicons-tag-16:{ title="from Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
-If you, as an administrator or learn resource manager, need to know where a media item of another person is embedded and with whom it is shared, you find the answer in the Media Center in the segment "Media management". Only these two roles see it next to the segment "My Media Center". All other roles only see their own Media Center and no segment bar.
+If you, as an administrator or learning resource manager, need to know where a media item of another person is embedded and with whom it is shared, you find the answer in the Media Center in the segment "Media management". Only these two roles see it next to the segment "My Media Center". All other roles only see their own Media Center and no segment bar.
 
 ![Add, delete and storage indicator only in My Media Center, compared with the media management](assets/media_center_segments_v1_en.svg){ class="shadow lightbox" title="The two segments of the Media Center" }
 
-The media management lists media items of other persons that are shared with a course belonging to an organisation in which you are an administrator or learn resource manager. Media items shared directly with you, with one of your groups or with your organisation do not appear there. Like your own media items, they are in the segment "My Media Center", in the tab "Shared with me".
+The media management lists media items of other persons that are shared with a course belonging to an organisation in which you are an administrator or learning resource manager. Media items shared directly with you, with one of your groups or with your organisation do not appear there. Like your own media items, they are in the segment "My Media Center", in the tab "Shared with me".
 
 After clicking on a media item, you see in the tab "Uses" where it is embedded, and in the tab "Shares" with whom it is shared. Depending on the media type, the tab "Overview" also shows the activities log with the previous actions on the media item. This lets you clarify where a media item is embedded before you ask its creator to replace or remove it. In the tab "Shares", you can remove a share with the "Remove" icon in its row and confirm with "Remove share".
 
-The filters **Used in**, **In use** and **Shared with** narrow down the list. The **Without creator** filter shows those media items whose creator no longer has an account because it was deleted.
+The filters **Used in**, **In use** and **Shared with** narrow down the list. The **Without creator** filter shows the media items in this list whose creator no longer has an account because it was deleted.
 
 If a media item is shared with you as editable (setting "Editable" in the share), you can also edit its metadata and, depending on the media type, its versions. You can then download it via the 3-dot menu. Without an editable share, the 3-dot menu is missing.
 
