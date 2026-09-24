@@ -100,7 +100,7 @@ Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werde
 
 !!! info "Wichtig"
 
-    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck **"Eigenständig"**. Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Der Austritt aus einer Durchführung erfolgt dann über den Course Planner und damit über die Verwaltung Ihrer Organisation.
+    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck **"Eigenständig"**. Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist (siehe [Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)). Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 **Administrative Freigabe**<br>
 Aus den hier ausgewählten Organisationseinheiten können Personen mit bestimmten übergeordneten Rollen (z.B. Administrator:innen, Lernressourcenverwalter:innen) ebenfalls auf diesen Kurs zugreifen. Weil es diese Rollen pro Organisationseinheit gibt (z.B. Admin für Abteilung xy), können Sie hier bestimmen, welche Organisationseinheiten administrativen Zugriff auf Ihren Kurs erhalten werden.
@@ -181,6 +181,7 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 **Weiterführend**

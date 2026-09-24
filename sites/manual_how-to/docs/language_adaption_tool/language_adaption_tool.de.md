@@ -185,6 +185,8 @@ Die Liste gilt immer für die Sprache, die im Feld "Sprache" gewählt ist. Rufen
 
 Wollen Sie nur innerhalb Ihrer eigenen Anpassungen suchen, wählen Sie im Abschnitt "Suche" bei "suchen in" die Option "Anpassungen".
 
+Einen Export der Übersetzungsliste gibt es nicht, weder als Tabelle noch als Datei. Wollen Sie die Liste festhalten, drucken Sie die angezeigte Übersetzungsliste aus dem Browser, zum Beispiel als PDF. Nach einem Klick auf "Anpassen" gehen Sie mit "Weiter" und "Zurück" durch die gefilterten Einträge, ohne etwas zu ändern. Der Button "Sprachpakete exportieren" in der System-Administration unter `Administration > Core Konfiguration > Sprache und Region` exportiert ganze Systemsprachen als Sprachpaket für eine andere OpenOlat-Instanz. Ihre Anpassungen sind darin nicht enthalten. Mehr dazu finden Sie unter [Sprache und Region](../../manual_admin/administration/Core_functions.de.md).
+
 !!! hint "Tipp"
 	
 	Führen Sie zusätzlich eine eigene Liste der angepassten Schlüssel mit dem Grund für die Anpassung. Das hilft Ihnen und Ihren Nachfolger:innen bei der Kontrolle nach einem Update.

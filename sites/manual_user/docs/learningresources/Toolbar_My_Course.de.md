@@ -149,7 +149,7 @@ Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitz
 "Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
 
 - Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer:innen-Rolle.
-- Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Der Austritt aus einer Durchführung erfolgt dann über den Course Planner.
+- Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung stattdessen selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist. Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 - Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
 - Im Kurs läuft gerade kein Prüfungsmodus.
 
