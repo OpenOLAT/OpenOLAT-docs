@@ -69,6 +69,8 @@ The administration decides which tools are offered to you at all. In the system 
 
 Accounts with the role Invitee only see Help, Subscriptions and Password in the personal menu as long as no further role is assigned to them.
 
+The areas of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see an area is decided by the administration: the module must be active, the area must be activated and your role must be permitted. You cannot switch it on yourself. If an area is missing, first check the **More** menu on the right edge of the top navigation bar. The page [Area and modules](../area_modules/index.md#conditions) describes what decides about an area.
+
 [Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions.md#personal_tools)
 
 

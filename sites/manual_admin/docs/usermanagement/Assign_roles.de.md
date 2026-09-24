@@ -8,7 +8,7 @@ So gelangen Sie zur Seite "Kontoeinstellungen verwalten". Hier stehen verschiede
 
 Welche Rechte eine Rolle mit sich bringt, beschreibt das Benutzerhandbuch: [Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles.de.md) für die Organisationsrollen und [Rechte in Kursen](../../manual_user/basic_concepts/Authorisation_Concept.de.md) für die Rollen in einem Kurs.
 
-Welche Rollen Sie vergeben können, hängt von Ihrer eigenen Rolle ab. Benutzerverwalter:innen vergeben die Rollen Benutzer:in und Autor:in. Rollenverwalter:innen vergeben die administrativen Rollen der Organisation sowie Gruppenverwalter:in und Poolverwalter:in. Principal, Administrator:in und Systemadministrator:in vergeben nur Administrator:innen.
+Welche Rollen Sie vergeben können, hängt von Ihrer eigenen Rolle ab. Benutzerverwalter:innen vergeben die Rollen Benutzer:in und Autor:in. Rollenverwalter:innen vergeben die administrativen Rollen der Organisation sowie Gruppenverwalter:in und Poolverwalter:in. Die Rollen Principal, Administrator:in und Systemadministrator:in vergeben nur Administrator:innen.
 
 
 

@@ -113,6 +113,10 @@ A popup opens for entering all details of the event.
  An event can comprise 1 - 12 units.<br>
  Example: An event comprises 2 hours, divided into 4 thematic units (4 x 0.5 hours).
 
+!!! info "Important"
+
+    If the events come from an external administration system that synchronises them to OpenOlat, the "Unit" field is locked in OpenOlat. The value comes from this system and is changed there. The field is also locked as soon as the roll call of the event has been closed.
+
  **Location**: This specifies where this event takes place. This can be, for example, an on-site location or the exact room designation.
 
  **Online meeting**: If the event is to take place online, switch on the toggle button "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting provider name" and the "URL to join the meeting".<br>
