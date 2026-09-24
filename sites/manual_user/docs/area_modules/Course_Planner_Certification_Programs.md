@@ -89,7 +89,7 @@ The overview page of the certification program shows a widget **Active members**
 
 A click on a key figure filters the member list below it. How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
-![The Active members widget with the key figures Active, Certified and Expiring soon, in the Overview tab of a certification program](assets/course_planner_certification_programs_config_overview_v2_en.png){ class="shadow lightbox" }
+![The key figures Active, Certified, Expiring soon and In recertification with the list of certified members, in the Overview tab of a certification program](assets/course_planner_certification_programs_config_overview_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -115,7 +115,7 @@ Individuals who have left the certification program can be viewed under a separa
 The three dots at the end of a list item allow certification program owners to contact the person in question.<br>
 The option to revoke certificates can also be found here. This allows, for example, certificates that have been issued automatically in error to be withdrawn manually.
 
-![The tiles Active, Candidates and Alumni and the Certify new users button, in the Members tab](assets/course_planner_certification_programs_config_members_v2_en.png){ class="shadow lightbox" }
+![The tiles Active, Candidates and Alumni, the Certify new users button and the row menu with Contact, Renew certificate and Revoke certificate, in the Members tab](assets/course_planner_certification_programs_config_members_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -125,7 +125,7 @@ The option to revoke certificates can also be found here. This allows, for examp
 
 Notifications and reminders always refer to the current configuration. You can check this again in the upper section.
 
-![The configuration overview, the prepared notifications with switch and the Reminders for recertification section, in the Messages tab](assets/course_planner_certification_programs_config_messages_v2_en.png){ class="shadow lightbox" }
+![The configuration overview, the five prepared notifications with switch and the Reminders for recertification section, in the Messages tab](assets/course_planner_certification_programs_config_messages_v2_en.png){ class="shadow lightbox" }
 
 **Notifications**<br>
 In the Notifications section, you will find **pre-prepared notifications** for the certification program according to the current configuration. You can enable/disable these notifications as needed and customize the default templates for the messages. (You can find the button for customizing a template under the three dots or when you have opened the detailed view.)
@@ -144,20 +144,16 @@ The condition for obtaining a certificate is the successful completion of one of
 Implementations of type single course can also be linked to the certification program directly in the implementation: in the settings of the implementation, in the sub-tab "Assessment". [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"}<br>
 [More details >](Course_Planner_Implementations.md#tab_settings_assessment)
 
-![The list of linked implementations and the Add implementation button, in the Implementations tab](assets/course_planner_certification_programs_config_implementations_v2_en.png){ class="shadow lightbox" }
+![The linked implementations with type, Ref., participants, passed and status and the Add implementation button, in the Implementations tab](assets/course_planner_certification_programs_config_implementations_v2_en.png){ class="shadow lightbox" }
 
 If you have created multiple certification programs, you can display filtered lists:<br>
 All - Relevant - Cancelled - Finished
 
-By **clicking on the plus sign** in front of a list entry, you can display the details of this implementation. (You can close the details by clicking on the minus sign.) You can view a lot of information here. To do so, scroll horizontally through the list.
+By **clicking on the plus sign** in front of a list entry, you can display the details of this implementation. (You can close the details by clicking on the minus sign.) The **Course** area shows the linked course as a tile; if several courses are linked, the area is called **Courses**. The tile shows the title and the technical type of the course, the period and the status of the participants: the average progress, how many persons have passed, not passed or are undefined, the average points and the number of participants.
 
-![The expanded Course area with technical type, status, participants, visits and progress, in the Implementations tab of a certification program](assets/course_planner_certification_programs_config_implementations_details1_v1_de.png){ class="shadow lightbox" }
+![The linked course as a tile with the Learn more and Open buttons, in the Implementations tab of a certification program](assets/course_planner_certification_programs_config_implementations_details1_v1_en.png){ class="shadow lightbox" }
 
-![The further columns success status, passed, score and certificates with trophy and light bulb icon after horizontal scrolling, in the Implementations tab](assets/course_planner_certification_programs_config_implementations_details2_v1_de.png){ class="shadow lightbox" }
-
-Clicking on the trophy icon takes you directly to the assessment tool. (You must be a coach or owner to do this.)
-
-Clicking on the light bulb icon takes you to the info page. (You must be a member of the implementation to do this.)
+Click **Learn more** to open the info page of the course. Click **Open** to go directly to the course.
 
 !!! tip "Recommendation"
 
@@ -250,7 +246,7 @@ In `Course Planner > Certification programs > "Program title" > Tab Members`, yo
 There you will see all certificates of the selected person, including expired and archived certificates.<br>
 The buttons above the list help you with presorted lists.
 
-![The expanded detail view of a member with all certificates, including expired and archived ones, and the courses, in the Members tab](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_de.png){ class="shadow lightbox" }
+![The expanded detail view of a member with all certificates, including expired and archived ones, and the courses, in the Members tab](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_en.png){ class="shadow lightbox" }
 
 
 ### Overview for coaches
@@ -268,7 +264,7 @@ Education managers see all certificates of individual participants from differen
 ### Overview for participants [:octicons-tag-16:{ title="from Release 20.2 (OO-8818)" }](https://track.frentix.com/issue/OO-8818){:target="_blank"}
 Participants can find their certificates listed in their **personal menu**. It does not matter whether a certificate comes from a certification program or an individual course.
 
-![The own certificates as tiles with validity and recertification, reachable via Certificates under Achievements in the personal menu](assets/course_planner_certification_programs_issued_certificates_participant_v1_de.png){ class="shadow lightbox" }
+![The own certificates as tiles with validity and recertification, reachable via Certificates under Achievements/Successes in the personal menu](assets/course_planner_certification_programs_issued_certificates_participant_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -306,7 +302,7 @@ In addition, users with the roles "Administrator" and "Course planner" also have
 * Click the three dots at the end of the row for the participant in question.
 * There, you will see the options for renewing or revoking the certificate.
 
-![The row menu with Contact, Renew certificate and Revoke certificate, in the Members tab of a certification program](assets/course_planner_certification_programs_renew_redraw_v1_de.png){ class="shadow lightbox" }
+![The row menu with Contact, Renew certificate and Revoke certificate, in the Members tab of a certification program](assets/course_planner_certification_programs_renew_redraw_v1_en.png){ class="shadow lightbox" }
 
 
 !!! info "Important"

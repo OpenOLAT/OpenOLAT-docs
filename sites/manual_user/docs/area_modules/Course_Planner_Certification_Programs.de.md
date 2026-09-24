@@ -160,15 +160,11 @@ Durchführungen vom Typ Einzelkurs können auch direkt in der Durchführung mit 
 Haben Sie mehrere Zertifikatsprogramme angelegt, können Sie gefilterte Listen anzeigen lassen:<br>
 Alle - Relevant - Abgebrochen - Beendet
 
-Mit **Klick auf das Plus-Zeichen** vor einem Listeneintrag zeigen Sie die Details dieser Durchführung an. (Bzw. Sie schliessen mit Klick auf das Minus-Zeichen die Details.) Sie können hier viele Informationen einsehen. Scrollen Sie dazu die Liste horizontal. 
+Mit **Klick auf das Plus-Zeichen** vor einem Listeneintrag zeigen Sie die Details dieser Durchführung an. (Bzw. Sie schliessen mit Klick auf das Minus-Zeichen die Details.) Im Bereich **Kurs** sehen Sie den verknüpften Kurs als Kachel, bei mehreren Kursen heisst der Bereich **Kurse**. Die Kachel zeigt den Titel und den technischen Typ des Kurses, den Zeitraum und den Stand der Teilnehmenden: den durchschnittlichen Fortschritt, wie viele Personen bestanden, nicht bestanden oder keine Angabe haben, die durchschnittlichen Punkte und die Zahl der Teilnehmer:innen.
 
-![Der aufgeklappte Bereich Kurs mit Technischem Typ, Status, Teilnehmer:innen, Besuchen und Fortschritt, im Tab Durchführungen eines Zertifikatsprogramms](assets/course_planner_certification_programs_config_implementations_details1_v1_de.png){ class="shadow lightbox" }
+![Der verknüpfte Kurs als Kachel mit den Buttons Mehr erfahren und Öffnen, im Tab Durchführungen eines Zertifikatsprogramms](assets/course_planner_certification_programs_config_implementations_details1_v2_de.png){ class="shadow lightbox" }
 
-![Die weiteren Spalten Erfolgsstatus, Bestanden, Punkte und Zertifikate mit Pokal- und Glühbirnen-Symbol nach horizontalem Scrollen, im Tab Durchführungen](assets/course_planner_certification_programs_config_implementations_details2_v1_de.png){ class="shadow lightbox" }
-
-Mit Klick auf das Pokal-Symbol gelangen Sie direkt zum Bewertungswerkzeug. (Sie müssen dazu Betreuer:in oder Besitzer:in sein.)
-
-Mit Klick auf das Glühbirnen-Symbol gelangen Sie zur Infoseite. (Sie müssen dazu Mitglied der Durchführung sein.)
+Mit Klick auf **Mehr erfahren** öffnen Sie die Infoseite des Kurses. Mit Klick auf **Öffnen** gelangen Sie direkt in den Kurs.
 
 !!! tip "Empfehlung"
 
