@@ -115,7 +115,7 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 
 |Information|Was geschieht damit?|
 |---| ---------------------------------------- |
-|`Benutzerverwaltung > Profil` :octicons-person-24: |**Gelöscht werden:** Anmeldename, Vorname, Nachname, E-Mail, E-Mail-Signatur, Geburtsdatum, Geschlecht, Telefon Privat, Telefon Mobil, Telefon Geschäft, Skype ID, XING Profilname, ICQ, Homepage, Strasse, Adresszusatz, Postfach, Postleitzahl, Region/Kanton, Stadt, Land, Institution, Institutionsnummer (Matrikelnummer), Institutions-E-Mail, Organisationseinheit, Studiengruppe, Studienfach, Persönlicher Text "Über mich", persönliches Profilbild  **Ausnahmen:** Von Personen mit administrativen Berechtigungen bleiben Name und Vorname erhalten um Aktionen weiter nachvollziehen zu können.|
+|`Benutzerverwaltung > Profil` :octicons-person-24: |**Gelöscht werden:** Anmeldename, Vorname, Nachname, E-Mail, E-Mail-Signatur, Geburtsdatum, Geschlecht, Telefon Privat, Telefon Mobil, Telefon Geschäft, Skype ID, XING Profilname, ICQ, Homepage, Strasse, Adresszusatz, Postfach, Postleitzahl, Region/Kanton, Stadt, Land, Institution, Institutionsnummer (Matrikelnummer), Institutions-E-Mail, Organisationseinheit, Studiengruppe, Studienfach, Persönlicher Text "Über mich", persönliches Profilbild  **Ausnahme:** Bei Personen mit einer administrativen Rolle bleiben Vorname und Nachname erhalten, siehe [Wessen Name bleibt erhalten?](#name_retention).|
 |`Benutzerverwaltung > Visitenkarte` :octicons-person-24:|Alle Angaben auf der Visitenkarte werden aus dem Profil übernommen, deshalb stehen sie nach dem Löschen des Profils auch nicht mehr für die Visitenkarte zur Verfügung. Die Visitenkarte des/der Benutzer:in wird nicht mehr in OpenOlat (z. B. im Forum oder bei Kommentaren) angezeigt.|
 |`Benutzerverwaltung > Systemeinstellungen` :octicons-person-24: | Es werden alle Systemeinstellungen gelöscht: Allgemeine Systemeinstellungen (z.B. die Sprache), spezielle Systemeinstellungen (z.B die Startseite) und persönliche Werkzeuge.|
 |`Benutzerverwaltung > Konto` :octicons-person-24:| Kontotyp, Erstellungsdatum des Kontos, Letzter Login und Kontoablauf werden gelöscht. Das Konto wird auf den Status "gelöscht" gesetzt. |
@@ -138,7 +138,7 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 |**Chatverlauf** :octicons-person-24: | Die Chat-Nachrichten der Person werden gelöscht, ebenso ihr Eintrag in den Kontaktlisten und die Chat-Einstellungen. Gelöscht werden dabei die Beiträge, die diese Person geschrieben hat. Die Beiträge der Gesprächspartner:innen in denselben Unterhaltungen bleiben bestehen.|
 |**Persönlicher Ordner** :octicons-person-24: |Der persönliche Ordner wird gelöscht|
 |**Portfolio** :octicons-person-24: | In einem ePortfolio erstellte Mappen, Bereiche und Einträge werden gelöscht. Wenn Mappen an andere Benutzer:innen frei gegeben wurden, sind sie auch dort nicht mehr abrufbar. Diese Zeile betrifft die eigenen Mappen, Bereiche und Einträge der gelöschten Person. Kommentare, die sie an fremden freigegebenen Einträgen hinterlassen hat, regelt die folgende Zeile "Kommentare".|
-|**Kommentare** :octicons-person-24: :octicons-package-24: | Die Kommentare der gelöschten Person werden zusammen mit den angehängten Dateien gelöscht: in Kursen, an Videos, im Fragenpool, in Blogs, in Podcasts und in der Bibliothek. Zwei Arten von Kommentaren bleiben dagegen lesbar. Erstens die Kommentare an ePortfolio-Einträgen: Mit ihnen kommentieren und bewerten die übrigen Beteiligten die Portfolioarbeit, deshalb bleiben Text und angehängte Dateien unverändert bestehen. Das gilt auch für Kommentare, welche die gelöschte Person an ihren eigenen Seiten geschrieben hat, und für Kommentare an Mappen, die noch aus einer früheren Portfolio-Version stammen. Zweitens jeder Kommentar, auf den jemand geantwortet hat, überall in OpenOlat und nicht nur im ePortfolio: Ohne ihn verlieren die Antworten ihren Bezug. Wer einen erhaltenen Kommentar geschrieben hat, erscheint als "Unbekannte:r Benutzer:in", mit dem Icon eines gelöschten Kontos statt des Profilbilds und ohne Link auf die Visitenkarte. Trägt die gelöschte Person eine administrative Rolle, bleiben Vor- und Nachname sichtbar: siehe die Zeile `Benutzerverwaltung > Profil` weiter oben in dieser Tabelle, Abschnitt "Ausnahmen". Endgültig verschwinden die erhaltenen Kommentare samt ihren Dateien, sobald die zugehörige Seite, der Bereich, die Mappe oder der Kurs gelöscht wird. [:octicons-tag-16:{ title="ab Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
+|**Kommentare** :octicons-person-24: :octicons-package-24: | Die Kommentare der gelöschten Person werden zusammen mit den angehängten Dateien gelöscht: in Kursen, an Videos, im Fragenpool, in Blogs, in Podcasts und in der Bibliothek. Zwei Arten von Kommentaren bleiben dagegen lesbar. Erstens die Kommentare an ePortfolio-Einträgen: Mit ihnen kommentieren und bewerten die übrigen Beteiligten die Portfolioarbeit, deshalb bleiben Text und angehängte Dateien unverändert bestehen. Das gilt auch für Kommentare, welche die gelöschte Person an ihren eigenen Seiten geschrieben hat, und für Kommentare an Mappen, die noch aus einer früheren Portfolio-Version stammen. Zweitens jeder Kommentar, auf den jemand geantwortet hat, überall in OpenOlat und nicht nur im ePortfolio: Ohne ihn verlieren die Antworten ihren Bezug. Wer einen erhaltenen Kommentar geschrieben hat, erscheint als "Unbekannte:r Benutzer:in", mit dem Icon eines gelöschten Kontos statt des Profilbilds und ohne Link auf die Visitenkarte. Trägt die gelöschte Person eine administrative Rolle, bleiben Vor- und Nachname sichtbar: siehe [Wessen Name bleibt erhalten?](#name_retention). Endgültig verschwinden die erhaltenen Kommentare samt ihren Dateien, sobald die zugehörige Seite, der Bereich, die Mappe oder der Kurs gelöscht wird. [:octicons-tag-16:{ title="ab Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
 |**persönliche To-dos** :octicons-person-24: | Die Zuweisung zum gelöschten Konto wird entfernt; der To-do-Eintrag selbst bleibt bestehen, ist danach aber niemandem mehr zugewiesen. (To-dos in Projekten: siehe unten) |
 |**Mailbox** :octicons-person-24: |Mails, die in der Mailbox des persönlichen Menüs aufgeführt sind, werden gelöscht. (Die interne E-Mail-Box wird komplett gelöscht.)|
 |**Empfänger:in einer Erinnerungsmail** :octicons-package-24: |War der/die gelöschte Benutzer:in potenzieller/potenzielle Empfänger:in einer Erinnerungsmail, wird die Mail nicht mehr an die gelöschte Person geschickt. (Die Empfängerliste wird zum Zeitpunkt der Prüfung der Regeln erstellt, deshalb erscheint eine gelöschte Person gar nicht mehr auf der Versandliste.)|
@@ -162,12 +162,54 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 |**Rolle Besitzer:in in Lernressourcen und Kurse** :octicons-package-24: | Lernressourcen und Kurse werden nicht gelöscht, wenn deren Besitzer:in gelöscht wird. Unabhängig davon, ob die Lernressource publiziert oder mit anderen Autoren geteilt oder nirgends referenziert/verwendet wurde. Wenn die gelöschte Benutzer:in der/die einzige Besitzer:in war, wird ersatzweise der/die Administrator:in als Besitzer:in eingetragen. Dies gilt auch für Test-Lernressourcen.|
 |**im Fragenpool enthaltene Fragen** :octicons-person-24: :octicons-package-24:| Fragen aus dem Fragenpool werden nur gelöscht, wenn die Person deren einzige Autor:in ist und die Einstellung "Fragen löschen, wenn Autor:in gelöscht" aktiviert ist. Fragen mit weiteren Autor:innen sowie alle Fragen bei deaktivierter Einstellung bleiben erhalten. |
 |**im Media Center erstellte Elemente** :octicons-person-24: :octicons-package-24: | Entscheidend ist, ob das Medium in eine Seite eingebunden ist. Das gilt für den Kursbaustein "Seite" ebenso wie für ePortfolio-Seiten. Ist das Medium eingebunden, bleibt es erhalten und ist danach niemandem mehr zugeordnet. Ist es nirgends eingebunden, wird es endgültig gelöscht. Eine Freigabe im Media Center schützt das Medium nicht. Zu beachten: Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht. Erhaltene Medien finden Administrator:innen und Lernressourcenverwalter:innen unter `Persönliches Menü > Media Center > Segment "Medienverwaltung"`.<br> Es ist sinnvoll, die betroffene Person vor dem Löschen ihres Kontos zu bitten, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, muss es vorher in eine Seite eingebunden werden. |
-|**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so werden diese in den Listen nicht mehr namentlich aufgeführt. Die zugehörigen Korrekturauftrag-Datensätze werden entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
+|**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so erscheinen sie in den Listen der Korrekturaufträge nicht mehr. Ihr Vorname und Nachname bleiben aber erhalten, siehe [Wessen Name bleibt erhalten?](#name_retention). Die zugehörigen Korrekturauftrag-Datensätze werden entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
 |**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer eine Korrektur vorgenommen hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.  Die Korrekturauftrag-Datensätze selbst werden beim Löschen entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten (siehe [Test-Einstellungen, Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)).|
 |**Statistiken** :octicons-infinity-24: |Gelöschte Benutzer:innen sind in den Statistiken besuchter Kurse nicht mehr berücksichtigt.|
 |**Umfrageergebnisse aus dem Qualitätsmanagement** :octicons-infinity-24: |Im Rahmen des Qualitätsmanagements ausgefüllte Formulare werden anonymisiert gespeichert und brauchen deshalb beim Löschen eines Benutzerkontos auch nicht gelöscht werden.|
 |**Log-Tabellen** :octicons-infinity-24:| Log-Einträge werden beim Löschen nicht verändert. Sie enthalten keinen Namen, sondern nur die interne Nummer des Kontos; ob personenbezogen oder anonym geloggt wird, hängt von der Server-Einstellung zum anonymen Logging ab. |
 
+
+### Wessen Name bleibt erhalten? {: #name_retention}
+
+Nach dem Löschen eines Kontos zeigen die Kurslogdaten und die Bewertungen bei einigen Personen weiterhin Vorname und Nachname, bei anderen nur die anonyme Kennung. Die folgende Liste sagt verbindlich, für wen der Name erhalten bleibt, etwa für die Antwort auf eine Datenschutzanfrage.
+
+Diese Personen handeln in einer institutionellen Funktion, nicht als Privatperson. Ihre Einträge in den Kurslogdaten, ihre Bewertungen und ähnliche Aktionen sollen deshalb auch nach dem Löschen lesbar und zuordenbar bleiben.
+
+Massgebend sind die Rollen, welche die Person zum Zeitpunkt der Löschung hat. Die Regel gilt für alle drei Löschwege dieser Seite, auch für die automatische Löschung durch den Benutzerkonten-Lebenszyklus. Eine Einstellung dazu gibt es nicht.
+
+Vorname und Nachname bleiben erhalten, wenn die Person mindestens eine dieser Rollen hat:
+
+* Systemadministrator:in
+* Administrator:in
+* Benutzerverwalter:in
+* Lernressourcenverwalter:in
+* Gruppenverwalter:in
+* Poolverwalter:in
+* Kursplaner:in
+* Autor:in
+* Besitzer:in einer Lernressource, zum Beispiel eines Kurses
+
+Unabhängig von jeder Rolle bleibt ausserdem der Name externer Korrektor:innen erhalten, denen ein Korrekturauftrag zugeteilt war. Das ist keine Rolle im engeren Sinn: Es genügt, dass die Person in einem Korrekturauftrag als Korrektor:in eingetragen war.
+
+Bei allen anderen Rollen wird der Name anonymisiert. Dazu gehören:
+
+* Rollenverwalter:in
+* Absenzenverwalter:in
+* Qualitätsverwalter:in
+* Projektverwalter:in
+* Selectusverwalter:in
+* Linienvorgesetzte:r
+* Ausbildungsverantwortliche:r
+* Principal
+* Betreuer:in eines Kurses oder einer Gruppe
+* Teilnehmer:in
+* Benutzer:in
+* Einladung (eingeladene Person)
+* Gast
+
+"Administrativ" ist hier also enger gefasst als bei der Vergabe von Rollen in der Benutzerverwaltung. Auch Rollenverwalter:innen und Qualitätsverwalter:innen verlieren beim Löschen ihren Namen.
+
+Wer die Benutzerverwaltung erreicht, findet die gelöschten Konten mit Vorname, Nachname und Rollen in der [Kontosuche, Status "Gelöschte Konten"](Search_Users.de.md#status). Die Spalte "Rollen" zeigt, welche Rollen das Konto beim Löschen hatte. Mit der Aktion "Entfernen" löschen Sie Vorname und Nachname auch bei diesen Konten nachträglich.
 
 
 [Zum Seitenanfang ^](#delete_user)
@@ -193,11 +235,11 @@ Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift
 **Auf dieser Seite erwähnt**<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Kontosuche >](Search_Users.de.md)
 
 **Weiterführend**<br>
 [Benutzerverwaltung >](index.de.md)<br>
-[Kontosuche >](Search_Users.de.md)<br>
 [Konto konfigurieren >](Configure_User.de.md)<br>
 [Datenschutz >](Data_protection.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>

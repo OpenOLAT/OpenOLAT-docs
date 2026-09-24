@@ -10,7 +10,7 @@ deren Daten.
 
 Konten löschen Benutzerverwalter:innen und Administrator:innen über die [Benutzerverwaltung](index.de.md). Systemadministrator:innen lösen Löschvorgänge über den Benutzerkonten-Lebenszyklus aus.
 
-Beim Löschen wird ein Konto nicht aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Für Personen mit administrativer Rolle, für Kursbesitzer:innen und für Korrektor:innen mit Korrekturaufträgen in der Historie bleiben Vor- und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben.
+Beim Löschen wird ein Konto nicht aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Bei Personen mit einer administrativen Rolle bleiben Vorname und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben. Welche Rollen das sind, listet die Seite [Benutzer:in löschen](Delete_User.de.md#name_retention) auf.
 
 Welche Daten dabei gelöscht, anonymisiert oder erhalten werden, zeigt die Tabelle auf der Seite [Benutzer:in löschen](Delete_User.de.md#del_properties) im Detail.
 
@@ -33,7 +33,7 @@ Die Deaktivierung sperrt nur die Anmeldung. Das Konto bleibt mit allen Daten erh
 ---
 
 
-## Export von Benutzerdaten {: #export_user_data}
+## Export von Benutzerdaten [:octicons-tag-16:{ title="ab Release 12.5 (OO-3489)" }](https://track.frentix.com/issue/OO-3489) {: #export_user_data}
 
 Für alle Benutzer:innen kann ein Export der in OpenOlat hinterlegten Benutzerdaten durchgeführt werden. Der Export dient einzig zur Information, welche Daten auf OpenOlat gespeichert und verarbeitet werden. Das Wiederherstellen einer gelöschten Benutzer:in ist damit nicht möglich.
 
@@ -106,7 +106,7 @@ Der Dialog führt die Elemente alphabetisch auf. Die Auswahl umfasst:
 
 ## Weitere Datenschutz-Funktionen
 
-### Drucken der Nutzungsbedingungen {: #print_terms_of_use}
+### Drucken der Nutzungsbedingungen [:octicons-tag-16:{ title="ab Release 12.5 (OO-3521)" }](https://track.frentix.com/issue/OO-3521) {: #print_terms_of_use}
 
 Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab "Nutzungsbedingungen" möglich.
 
@@ -114,7 +114,7 @@ Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im D
 
 ![Markierter Druck-Link rechts unter dem Bedingungstext, darunter Zustimmungsdatum und Schaltfläche Konto löschen beantragen, im Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/data_protection_terms_settings_v1_de.png){ class="shadow lightbox" }
 
-### Löschung des eigenen Kontos beantragen {: #request_account_deletion}
+### Löschung des eigenen Kontos beantragen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3520)" }](https://track.frentix.com/issue/OO-3520) {: #request_account_deletion}
 
 Im Tab «Nutzungsbedingungen» der persönlichen Einstellungen steht neben dem Zustimmungsdatum die Schaltfläche **Konto löschen beantragen**. Benutzer:innen stellen damit selbst einen Antrag, wenn sie den Nutzungsbedingungen nicht mehr zustimmen. Der Antrag geht als E-Mail an eine hinterlegte Adresse und nennt Konto-ID, Anmeldename und Namen. Löschen kann das Konto danach nur die Benutzerverwaltung, der Antrag löst keine automatische Löschung aus.
 
