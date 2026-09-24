@@ -158,7 +158,7 @@ The list shows all courses belonging to this implementation.
 If you want to add further courses for this implementation (deviating from the original structure), use the "**Add course**" button at the top right.
 
 The option to **remove** an **individual course** from this implementation can be found under the 3 dots at the end of a line.<br>
-To **remove several courses**, select the courses with the checkboxes in the first column. A Remove button will then be displayed above the list.
+To **remove several courses**, select the courses with the checkboxes in the first column. The buttons "Change status" and "Remove" then appear above the list.
 
 ![The courses of an implementation with type, creator and life cycle, the Add course button and, for a selected row, the Change status and Remove actions, in the Content tab of an implementation](assets/course_planner_implementations_tab_content_v1_en.png){ class="shadow lightbox" }
 

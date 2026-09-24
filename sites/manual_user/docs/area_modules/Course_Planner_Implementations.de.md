@@ -165,7 +165,7 @@ Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse.
 Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
 
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
-Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann wird Ihnen ein Button zum Entfernen über der Liste angezeigt.
+Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann erscheinen über der Liste die Buttons "Status ändern" und "Entfernen".
 
 ![Die Kurse einer Durchführung mit Freigabe, Erstellerin und Status, dazu die Buttons Kurs hinzufügen und Entfernen für markierte Zeilen, im Tab Kursinhalt einer Durchführung](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
 
@@ -185,7 +185,7 @@ Die Verwendung eines Templates zur Instanzierung empfiehlt sich, wenn es sich um
 
 ![Der Abschnitt Kurstemplate mit dem Button Kurstemplate hinzufügen unterhalb der noch leeren Kursliste, im Tab Kursinhalt einer Durchführung vom Typ Einzelkurs](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
 
-Die Buttons "Kurs hinzufügen" und "Kurstemplates hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
+Die Buttons "Kurs hinzufügen" und "Kurstemplate hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
 **Erstellung von Kurstemplates**<br>
 Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Freigabe > Verwendungszweck` die Option "Template" gewählt wird. 
