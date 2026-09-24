@@ -2,19 +2,22 @@
 
 OpenOlat records course activities of participants and course authors in log files.
 
-Within a course, the following log files can be downloaded via [data archiving](../learningresources/Course_Archiving.md):
+Within a course, you archive the log files in the [Archiving & Reporting](../learningresources/Course_Archiving.md) tool [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620) under:<br>
+`Course > Administration > Archiving & Reporting > Log files`
+
+The following log files are available:
 
 * Admin log file with personalized data of the course authors
 * Statistics log file with the anonymized data of the participants
 * Participants log file with detailed, personalized data of the participants
 
-![Log file selection with date range and "Archive" button in the "Archiving & Reports" area of the course administration](assets/log_files.png){ class="shadow lightbox" }
+![Log file selection with date range and "Archive" button, in the "Archiving & Reporting" tool of the course administration](assets/log_files.png){ class="shadow lightbox" }
 
 !!! info "Privacy protection"
 
     For privacy reasons, the participants log file with the personalized data of the participants is only available to system administrators.
 
-Course owners and other persons who have the right to archive can save the desired log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in their [personal files](../personal_menu/File_Hub.md#personal_files). The ZIP file then contains the selected files _course_statistic_log.xlsx_, _course_admin_log.xlsx_ and _course_user_log.xlsx_.
+Owners of the course and persons with the course right "Archive tool" can archive log files. OpenOlat stores the selected log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in the [personal files](../personal_menu/File_Hub.md#personal_files) in the folder `private/archive`. The ZIP file then contains the selected files _course_statistic_log.xlsx_, _course_admin_log.xlsx_ and _course_user_log.xlsx_.
 
 Please note that in the file course_statistic_log.xlsx the participants are anonymized as follows:<br>
 Each participant receives a randomly generated number (e.g. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6), which remains constant within a course. This allows you to track the activities of participant X in course Y, but not to compare them with their activities in course Z, since participant X receives a new number in course Z.
@@ -62,7 +65,8 @@ is read as follows (database operation: update / modify):
 
 ## Further information {: #further_information}
 
-[Data archiving >](../learningresources/Course_Archiving.md)<br>
-[Details on the File Hub >](../personal_menu/File_Hub.md)
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
+[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[Members management >](../learningresources/Members_management.md)
 
 [To the top of the page ^](#record_of_course_activities)

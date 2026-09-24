@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-In the **Reporting** area of the Coaching Tool you create Excel reports about the persons you coach, for example about issued certificates. The report templates are grouped into categories (e.g. Certificates, Absences, Booking orders). Only the templates you are authorised to run are displayed.
+In the **Reports** area of the Coaching Tool you create Excel reports about the persons you coach, for example about issued certificates. The report templates are grouped into categories (e.g. Certificates, Absences, Booking orders). Only the templates you are authorised to run are displayed. [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
 
 ## Who can run certificate reports? [:octicons-tag-16:{ title="from Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 
@@ -27,7 +27,7 @@ The report contains the certificate data of the persons you are responsible for 
 3. The report is generated as an Excel file (.xlsx) and appears in the **Generated report** section.
 4. Click **Download** next to the generated report.
 
-![Marked column Run with a start icon per report template, below it the still empty section Generated report, in the Reporting area of the Coaching Tool.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Marked tile Reports in the Assignments section, on the start page of the Coaching Tool.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
@@ -37,7 +37,7 @@ The report contains the certificate data of the persons you are responsible for 
 
 The **Report templates** table shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
 
-![Table Report templates with three certificate templates, the columns Name, Category, Description, Type and Run as well as the filter Category, in the Reporting area.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Table Report templates with three certificate templates, the columns Name, Category, Description, Type and Run as well as the filter Category, in the Reports area.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
 
 ### Templates of the category Certificates {: #certificate_templates}
 
@@ -57,7 +57,7 @@ The generated Excel file contains the worksheet "Individual courses" and, if the
 
 The generated Excel files are listed in the **Generated report** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information.
 
-![Marked section Generated report with one Excel file, the remaining time 10 days left and the actions Info, Copy to, Delete and Download, in the Reporting area.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Marked section Generated report with one Excel file, the remaining time 10 days left and the actions Info, Copy to, Delete and Download, in the Reports area.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
