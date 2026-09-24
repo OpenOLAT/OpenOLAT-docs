@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-Im Bereich **Reporting** des Coaching Tools erstellen Sie Excel-Reports über die von Ihnen betreuten Personen, zum Beispiel über ausgestellte Zertifikate. Die Reportvorlagen sind in Kategorien gegliedert (z. B. Zertifikate, Absenzen, Buchungsaufträge). Angezeigt werden nur die Vorlagen, für deren Ausführung Sie berechtigt sind.
+Im Bereich **Reports** des Coaching Tools erstellen Sie Excel-Reports über die von Ihnen betreuten Personen, zum Beispiel über ausgestellte Zertifikate. Die Reportvorlagen sind in Kategorien gegliedert (z. B. Zertifikate, Absenzen, Buchungsaufträge). Angezeigt werden nur die Vorlagen, für deren Ausführung Sie berechtigt sind. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
 
 ## Wer kann Zertifikats-Reports ausführen? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 
@@ -27,7 +27,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Generierter Report**.
 4. Klicken Sie beim erzeugten Report auf **Herunterladen**.
 
-![Markierte Spalte Ausführen mit einem Startsymbol je Reportvorlage, darunter der noch leere Abschnitt Generierter Report, im Bereich Reporting des Coaching Tools.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Markierte Kachel Reports im Abschnitt Aufgaben, auf der Startseite des Coaching Tools.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 
@@ -37,7 +37,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 Die Tabelle **Reportvorlagen** zeigt für jede Vorlage Name, Kategorie, Beschreibung und Typ ("Statisch" oder "Dynamisch") sowie die Spalte "Ausführen". Über den Filter "Kategorie" grenzen Sie die Liste ein.
 
-![Tabelle Reportvorlagen mit drei Zertifikatsvorlagen, den Spalten Name, Kategorie, Beschreibung, Typ und Ausführen sowie dem Filter Kategorie, im Bereich Reporting.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Tabelle Reportvorlagen mit drei Zertifikatsvorlagen, den Spalten Name, Kategorie, Beschreibung, Typ und Ausführen sowie dem Filter Kategorie, im Bereich Reports.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
 
 ### Vorlagen der Kategorie Zertifikate {: #certificate_templates}
 
@@ -57,7 +57,7 @@ Die erzeugte Excel-Datei enthält das Worksheet "Einzelkurse" und, falls das Mod
 
 Die erstellten Excel-Dateien werden im Abschnitt **Generierter Report** aufgelistet. Jede Datei steht nach der Erstellung 10 Tage zum Download bereit; die verbleibende Zeit wird angezeigt. Über die nebenstehenden Aktionen können Sie die Datei herunterladen, kopieren, löschen oder Detailinformationen anzeigen.
 
-![Markierter Abschnitt Generierter Report mit einer Excel-Datei, der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reporting.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Markierter Abschnitt Generierter Report mit einer Excel-Datei, der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reports.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 
