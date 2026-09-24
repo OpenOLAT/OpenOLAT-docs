@@ -157,7 +157,7 @@ Eingebunden zählt sowohl im Kursbaustein "Seite" als auch in einer ePortfolio-S
 
 Eine **Freigabe schützt das Medium nicht**. Freigegeben, aber nirgends eingebunden bedeutet: gelöscht. Zu beachten: Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht.
 
-Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter **Ohne Ersteller:in**.
+Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter **Ohne Ersteller:in**, sofern das Medium an einen Kurs ihrer Organisation freigegeben ist. Ein Medium, das nur in einer Seite eingebunden ist, erscheint dort nicht.
 
 !!! tip "Vor dem Löschen eines Kontos"
     Bitten Sie die betroffene Person, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, muss es vorher in eine Seite eingebunden werden. Die vollständige Tabelle aller Datenarten steht auf der Seite [Benutzer:in löschen](../../manual_admin/usermanagement/Delete_User.de.md#del_properties).
@@ -205,15 +205,19 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 ## Media Center verwalten [:octicons-tag-16:{ title="ab Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
-Administrator:innen und Lernressourcenverwalter:innen finden im Media Center neben "Mein Media Center" ein zweites Segment "Medienverwaltung". Alle übrigen Rollen sehen nur ihr eigenes Media Center und keine Segmentleiste.
+Wer als Administrator:in oder Lernressourcenverwalter:in wissen muss, wo das Medium einer anderen Person eingebunden und an wen es freigegeben ist, findet die Antwort im Media Center im Segment "Medienverwaltung". Nur diese beiden Rollen sehen es neben dem Segment "Mein Media Center". Alle übrigen Rollen sehen nur ihr eigenes Media Center und keine Segmentleiste.
 
-![Vergleich der Segmente Mein Media Center und Medienverwaltung nach Inhalt, Suchen, Einsehen, Herunterladen, Hinzufügen, Löschen und Speicheranzeige](assets/media_center_segments_v1_de.svg){ class="shadow lightbox" title="Die zwei Segmente des Media Centers" }
+![Hinzufügen, Löschen und Speicheranzeige nur in Mein Media Center, im Vergleich mit der Medienverwaltung](assets/media_center_segments_v1_de.svg){ class="shadow lightbox" title="Die zwei Segmente des Media Centers" }
 
-Die Medienverwaltung ist die Übersicht über die Medien anderer Personen. Sie zeigt die Medien, die in Ihre Reichweite geteilt sind: über eine Freigabe an Sie, an eine Ihrer Gruppen oder an Ihre Organisation, oder über eine Lernressource, in der Sie Lernressourcenverwalter:in oder Administrator:in sind. Ihre eigenen Medien stehen weiterhin im Segment "Mein Media Center".
+Die Medienverwaltung listet Medien anderer Personen, die an einen Kurs freigegeben sind, der zu einer Organisation gehört, in der Sie Administrator:in oder Lernressourcenverwalter:in sind. Medien, die direkt an Sie, an eine Ihrer Gruppen oder an Ihre Organisation freigegeben sind, erscheinen dort nicht. Sie stehen wie Ihre eigenen Medien im Segment "Mein Media Center", im Tab "Für mich freigegeben".
 
-Der Zweck des Segments ist das Nachvollziehen, nicht das Eingreifen. Nach Anklicken eines Mediums sehen Sie die Verwendungsorte, die Freigaben und die letzten Aufrufe. Damit klären Sie, wo ein Medium eingebunden ist, bevor Sie dessen Ersteller:in bitten, es zu ersetzen oder zu entfernen. Die Filter **Verwendet in**, **In Verwendung** und **Geteilt mit** grenzen die Liste ein. Der Filter **Ohne Ersteller:in** zeigt die Medien, deren Ersteller:in kein Konto mehr hat, weil es gelöscht wurde. Ist ein Medium Ihnen bearbeitbar freigegeben (Einstellung "Bearbeitbar freigeben" in der Freigabe), laden Sie es über das 3-Punkte-Menü herunter. Ohne bearbeitbare Freigabe fehlt das 3-Punkte-Menü.
+Nach Anklicken eines Mediums sehen Sie im Tab "Verwendungen", wo es eingebunden ist, und im Tab "Freigaben", an wen es freigegeben ist. Je nach Medientyp zeigt der Tab "Übersicht" zudem das Aktivitätslog mit den bisherigen Aktionen am Medium. So klären Sie, wo ein Medium eingebunden ist, bevor Sie dessen Ersteller:in bitten, es zu ersetzen oder zu entfernen. Im Tab "Freigaben" können Sie eine Freigabe über das Symbol "Entfernen" in ihrer Zeile entfernen und mit "Share entfernen" bestätigen.
 
-Die Speicheranzeige unten links gehört zum eigenen Media Center und erscheint in der Medienverwaltung nicht.
+Die Filter **Verwendet in**, **In Verwendung** und **Geteilt mit** grenzen die Liste ein. Der Filter **Ohne Ersteller:in** zeigt davon die Medien, deren Ersteller:in kein Konto mehr hat, weil es gelöscht wurde.
+
+Ist ein Medium Ihnen bearbeitbar freigegeben (Einstellung "Bearbeitbar freigeben" in der Freigabe), bearbeiten Sie zusätzlich seine Metadaten und, je nach Medientyp, seine Versionen. Herunterladen können Sie es dann über das 3-Punkte-Menü. Ohne bearbeitbare Freigabe fehlt das 3-Punkte-Menü.
+
+Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Mediendatei hinzufügen" fehlt dort. Auch die Speicheranzeige unten links gehört zum eigenen Media Center und erscheint in der Medienverwaltung nicht.
 
 !!! info "Wichtig"
 
