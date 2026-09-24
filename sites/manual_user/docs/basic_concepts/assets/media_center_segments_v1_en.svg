@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 743 664" width="743" height="664" role="img" aria-labelledby="t d">
+  <title id="t">My Media Center and Media management compared</title>
+  <desc id="d">Comparison of the two segments of the Media Center. My Media Center contains your own media items and allows adding and deleting media items that are not embedded, with a storage indicator. Media management contains the media items of other persons, allows searching, filtering, viewing and, with an editable share, downloading, but no adding and no deleting, and shows no storage indicator. It only appears for administrators and learn resource managers.</desc>
+  <style>
+    text { font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; fill: #2D2926; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #342C24; }
+    .sub { font-size: 14px; }
+    .colT { font-size: 17px; font-weight: 700; fill: #FFFFFF; }
+    .colS { font-size: 13px; fill: #FFFFFF; }
+    .lab { font-size: 14px; font-weight: 700; fill: #126365; }
+    .val { font-size: 14px; }
+    .no { font-size: 14px; font-weight: 700; fill: #8F1F40; }
+    .yes { font-size: 14px; font-weight: 700; fill: #2D2926; }
+    .foot { font-size: 13px; }
+  </style>
+  <rect x="0" y="0" width="743" height="664" fill="#FFFFFF"/>
+  <text x="26" y="48" class="h1">The two segments of the Media Center</text>
+  <text x="26" y="74" class="sub">Your role decides which segment you see. Authorship decides what you can do in it.</text>
+  <rect x="205" y="88" width="201" height="60" rx="8" fill="#2E8486"/>
+  <text x="227" y="113" class="colT">My Media Center</text>
+  <text x="227" y="134" class="colS">all roles</text>
+  <rect x="426" y="88" width="291" height="60" rx="8" fill="#0F5456"/>
+  <text x="448" y="113" class="colT">Media management</text>
+  <text x="448" y="134" class="colS">Administrator, learn resource manager</text>
+  <rect x="26" y="170" width="691" height="64" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="26" y="190" class="lab">Content</text>
+  <text x="227" y="190" class="val">Your own media items</text>
+  <text x="448" y="190" class="val">Media items of other persons,</text>
+  <text x="448" y="211" class="val">shared within your reach</text>
+  <line x1="26" y1="234" x2="717" y2="234" stroke="#A6A6A6" stroke-width="1"/>
+  <text x="26" y="254" class="lab">Search and filter</text>
+  <text x="227" y="254" class="yes">yes</text>
+  <text x="448" y="254" class="yes">yes</text>
+  <line x1="26" y1="277" x2="717" y2="277" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="26" y="277" width="691" height="64" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="26" y="297" class="lab">View usage</text>
+  <text x="26" y="318" class="lab">and shares</text>
+  <text x="227" y="297" class="yes">yes</text>
+  <text x="448" y="297" class="yes">yes</text>
+  <line x1="26" y1="341" x2="717" y2="341" stroke="#A6A6A6" stroke-width="1"/>
+  <text x="26" y="361" class="lab">Download</text>
+  <text x="227" y="361" class="yes">yes</text>
+  <text x="448" y="361" class="yes">yes, if shared as editable</text>
+  <line x1="26" y1="384" x2="717" y2="384" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="26" y="384" width="691" height="43" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="26" y="404" class="lab">Add</text>
+  <text x="227" y="404" class="yes">yes</text>
+  <text x="448" y="404" class="no">no</text>
+  <line x1="26" y1="427" x2="717" y2="427" stroke="#A6A6A6" stroke-width="1"/>
+  <text x="26" y="447" class="lab">Delete</text>
+  <text x="227" y="447" class="yes">yes, if the media item</text>
+  <text x="227" y="468" class="val">is not embedded anywhere</text>
+  <text x="448" y="447" class="no">no, in no case</text>
+  <line x1="26" y1="491" x2="717" y2="491" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="26" y="491" width="691" height="43" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="26" y="511" class="lab">Storage indicator</text>
+  <text x="227" y="511" class="yes">yes</text>
+  <text x="448" y="511" class="no">no</text>
+  <line x1="26" y1="534" x2="717" y2="534" stroke="#A6A6A6" stroke-width="1"/>
+  <text x="26" y="562" class="foot">Deleting requires that you are the creator of the media item yourself.</text>
+  <text x="26" y="586" class="foot">Media management shows exactly the media items for which this is not the case: this is why</text>
+  <text x="26" y="610" class="foot">the Delete button there never succeeds. Only its creator removes a media item of another person.</text>
+  <text x="717" y="654" text-anchor="end" style="font-size:11px; fill:#A6A6A6">OpenOlat ∞ Media Center</text>
+</svg>

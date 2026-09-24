@@ -171,7 +171,7 @@ Administrators and learn resource managers find the retained media items without
 
 The storage space available in the Media Center can be limited by the OpenOlat administrators. You can see exactly how much storage space you have available and how much you have already used at the bottom left.
 
-![Highlighted storage indicator 0 B of 304.8 MB used at the bottom left of My Media Center, above it the tabs My Media Center and Media management](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+![Highlighted storage indicator 0 B of 304.8 MB used at the bottom left of My Media Center, above it the segments My Media Center and Media management](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
 Authors usually require more storage space, so quota settings are configured separately for these power users. If you have any questions about storage requirements, please contact your administrators or user managers.
 
@@ -205,9 +205,19 @@ The **filter functions** help you to find the media you are looking for quickly.
 
 ## Manage Media Center [:octicons-tag-16:{ title="from Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
-When accessing the Media Center, persons with administrative access (e.g. administrators) have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except their own are listed there. (Users without administrative access will not see this tab.)
+Administrators and learn resource managers find a second segment "Media management" next to "My Media Center" in the Media Center. All other roles only see their own Media Center and no segment bar.
 
-After clicking on a medium, the usage locations, shares, last views, etc. can be called up for each medium. The **Without creator** filter shows the media items whose account was deleted.
+![Comparison of the segments My Media Center and Media management by content, search, view, download, add, delete and storage indicator](assets/media_center_segments_v1_en.svg){ class="shadow lightbox" title="The two segments of the Media Center" }
+
+The media management is the overview of the media items of other persons. It shows the media items shared within your reach: through a share with you, with one of your groups or with your organisation, or through a learning resource in which you are a learn resource manager or administrator. Your own media items remain in the segment "My Media Center".
+
+The purpose of the segment is to trace, not to intervene. After clicking on a media item, you see its usage locations, its shares and its last views. This lets you clarify where a media item is embedded before you ask its creator to replace or remove it. The filters **Used in**, **In use** and **Shared with** narrow down the list. The **Without creator** filter shows the media items whose creator no longer has an account because it was deleted. If a media item is shared with you as editable (setting "Editable" in the share), you download it via the 3-dot menu. Without an editable share, the 3-dot menu is missing.
+
+The storage indicator at the bottom left belongs to your own Media Center and does not appear in the media management.
+
+!!! info "Important"
+
+    You cannot delete media items of other persons in the media management, not even as an administrator. The "Delete" button above the list and, with an editable share, the "Delete" action in the 3-dot menu are present, but they always end with the message that the media item cannot be deleted. The message gives existing uses as the reason, even if the media item is not embedded anywhere. The actual reason: deleting requires that you are the creator of the media item yourself and that it is not embedded anywhere. Anyone who wants to remove a media item of another person asks its creator to do so. If the creator's account was deleted, the media item is retained without an assignment, see [What happens to the media items when an account is deleted](#delete_media_account).
 
 [To the top of the page ^](#media_center_concept)
 

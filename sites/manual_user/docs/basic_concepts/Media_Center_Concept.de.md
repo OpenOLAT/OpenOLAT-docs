@@ -171,7 +171,7 @@ Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenver
 
 Der im Media Center verfügbare Speicherplatz kann von den OpenOlat Administrator:innen eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten.
 
-![Markierte Speicheranzeige 0 B von 304.8 MB belegt unten links in Mein Media Center, darüber die Tabs Mein Media Center und Medienverwaltung](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+![Markierte Speicheranzeige 0 B von 304.8 MB belegt unten links in Mein Media Center, darüber die Segmente Mein Media Center und Medienverwaltung](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
 
@@ -205,9 +205,19 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 ## Media Center verwalten [:octicons-tag-16:{ title="ab Release 18.1 (OO-7254)" }](https://track.frentix.com/issue/OO-7254){:target="_blank"} {: #media_center_administration}
 
-Personen mit administrativem Zugriff (z.B. Administrator:innen) haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. (Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
+Administrator:innen und Lernressourcenverwalter:innen finden im Media Center neben "Mein Media Center" ein zweites Segment "Medienverwaltung". Alle übrigen Rollen sehen nur ihr eigenes Media Center und keine Segmentleiste.
 
-Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar. Der Filter **Ohne Ersteller:in** zeigt die Medien, deren Konto gelöscht wurde.
+![Vergleich der Segmente Mein Media Center und Medienverwaltung nach Inhalt, Suchen, Einsehen, Herunterladen, Hinzufügen, Löschen und Speicheranzeige](assets/media_center_segments_v1_de.svg){ class="shadow lightbox" title="Die zwei Segmente des Media Centers" }
+
+Die Medienverwaltung ist die Übersicht über die Medien anderer Personen. Sie zeigt die Medien, die in Ihre Reichweite geteilt sind: über eine Freigabe an Sie, an eine Ihrer Gruppen oder an Ihre Organisation, oder über eine Lernressource, in der Sie Lernressourcenverwalter:in oder Administrator:in sind. Ihre eigenen Medien stehen weiterhin im Segment "Mein Media Center".
+
+Der Zweck des Segments ist das Nachvollziehen, nicht das Eingreifen. Nach Anklicken eines Mediums sehen Sie die Verwendungsorte, die Freigaben und die letzten Aufrufe. Damit klären Sie, wo ein Medium eingebunden ist, bevor Sie dessen Ersteller:in bitten, es zu ersetzen oder zu entfernen. Die Filter **Verwendet in**, **In Verwendung** und **Geteilt mit** grenzen die Liste ein. Der Filter **Ohne Ersteller:in** zeigt die Medien, deren Ersteller:in kein Konto mehr hat, weil es gelöscht wurde. Ist ein Medium Ihnen bearbeitbar freigegeben (Einstellung "Bearbeitbar freigeben" in der Freigabe), laden Sie es über das 3-Punkte-Menü herunter. Ohne bearbeitbare Freigabe fehlt das 3-Punkte-Menü.
+
+Die Speicheranzeige unten links gehört zum eigenen Media Center und erscheint in der Medienverwaltung nicht.
+
+!!! info "Wichtig"
+
+    Medien anderer Personen können Sie in der Medienverwaltung nicht löschen, auch nicht als Administrator:in. Der Button "Löschen" über der Liste und, bei bearbeitbarer Freigabe, die Aktion "Löschen" im 3-Punkte-Menü sind zwar vorhanden, enden aber immer mit der Meldung, dass das Medium nicht gelöscht werden kann. Die Meldung nennt als Grund vorhandene Verwendungen, auch wenn das Medium nirgends eingebunden ist. Der eigentliche Grund: Löschen setzt voraus, dass Sie selbst Ersteller:in des Mediums sind und dass es nirgends eingebunden ist. Wer ein fremdes Medium entfernen möchte, bittet dessen Ersteller:in darum. Ist deren Konto gelöscht, bleibt das Medium erhalten und ohne Zuordnung, siehe [Was mit den Medien beim Löschen eines Kontos geschieht](#delete_media_account).
 
 [Zum Seitenanfang ^](#media_center_concept)
 
