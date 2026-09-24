@@ -161,7 +161,7 @@ Under this tab, the user can also be assigned to other groups or removed from a 
 [To the top of the page ^](#user_configuration)
 
 
-### Learning resources
+### Learning resources [:octicons-tag-16:{ title="from Release 9.1.0 (OO-788)" }](https://track.frentix.com/issue/OO-788)
 
 This tab generates an overview with all learning resources of the user. User administrators and administrators can remove users from the respective learning resources and call up the respective learning resources. Furthermore, the user can be registered as owner, coach or participant in further OpenOlat courses.  
 
@@ -203,11 +203,15 @@ The user's acquired credit points are displayed here.
 
 The evidence of achievements, score and progress of a user from courses are displayed here. The table lists "Progress", "Score" and "Passed" per course; if the grading module is active, the "Rating" column with the achieved grade is added. Use the gear "Displayed columns" to show further columns, among them the "Reference" column, which is hidden by default. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
+The tab is available to administrators, principals, user managers and roles managers.
+
 #### Delete evidence of achievement {: #delete_evidence }
 
 Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="from Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
 
 ![Warning that the evidence of achievement is created again for persons who are still enrolled, with the buttons Delete and Cancel: dialog Delete evidence of achievement](assets/user_management_evidence_delete_v1_en.png){ class="shadow lightbox" }
+
+You delete an evidence of achievement only here in the user management; the person concerned cannot delete their own evidence of achievement. The action "Delete Statement" is available only to administrators and roles managers. Principals and user managers see the tab without this action. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
 
 [To the top of the page ^](#user_configuration)
 

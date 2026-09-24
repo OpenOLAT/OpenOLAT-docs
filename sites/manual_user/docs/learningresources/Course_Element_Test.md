@@ -29,7 +29,7 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
 
 !!! warning "Attention"
 
-    If participants are currently taking the test but have not yet completed it, their results will be lost. Likewise, all results obtained between the replacement of the test and the publication of this change will be lost.
+    If you replace the test in the course element, ongoing and suspended test runs of the participants are collected and marked as invalid. What happens to finished test runs and existing assessments is described in the section [Changes to tests and self-tests](#changes).
 
 
 !!! note "Note"
@@ -39,9 +39,7 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
     The handling of self-tests is otherwise identical to the handling of the tests.
 
 
-!!! note "Test Learning Resource"
-    Further information on the learning resource Test.<br>
-    [Create tests](../learningresources/Test.md)
+Further information on the learning resource Test: [Create tests](../learningresources/Test.md)
 
 [To the top of the page ^](#course_element_test)
 
@@ -53,7 +51,7 @@ The two main tabs for test configuration are **Test configuration** and "**Optio
 
 To do so, open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
 
-![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
+![Ten tabs for configuring a course element Test, from Title and description to Reminders, in the course editor](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
 
 The tabs "Title and description" and "Layout" are the same for all course elements.
 
@@ -62,9 +60,9 @@ The tabs "Title and description" and "Layout" are the same for all course elemen
 
 In the Learning path tab, you can define whether the test is mandatory for the learning path course, whether it should not be used for the learning path display ("Voluntary" setting) or whether the course element should not be displayed at all ("Excluded" setting). Furthermore, a release date, a maximum processing date and the expected processing time can be defined. 
 
-The following completion criteria are also available for tests: 
+The following options are also available for tests under "Completion criterion": "Visit course element", "Confirmation by participant", "Score", "Passed" and "Test finished".
 
-![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
+![Completion criterion with five options as a selection, with Confirmation by participant selected, in the Learning path tab of the course element Test](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
 Only if the selected condition is met will the progress be shown to the user in the learning path display and in the progress percentage.
 
@@ -114,19 +112,16 @@ If nothing is activated here, the test is accessible at all times, provided no r
 
 In case of manual correction, the visibility of the result is limited and the coach or corrector has to complete the correction manually. Questions to be edited manually include free text, upload file and draw. However, manual correction can also be set if required when the test consists only of automatically evaluable question types.
 
-If the option "**Manually by external graders**" is activated, OpenOlat users can also correct a test without being a member or even a coach of the course. This selection also activates the "Corrector" tab and you can see who is assigned to the test as a corrector.
-
-![Tab "Correctors" with the users assigned as correctors of the test](assets/Test_Tab_Korrektoren_DE.png){ class="shadow lightbox" }
-
+If the option "**Manual by graders**" is activated, OpenOlat users can also correct a test without being a member or even a coach of the course. This selection also activates the "Correctors" tab and you can see who is assigned to the test as a corrector.
 
 !!! info "Important"
 
-    If the option "Manually by external correctors" is not available, no [external correctors](Test_settings.md) have been configured in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses.
+    If the option "Manual by graders" is not available, no [correctors](Test_settings.md#correction-workflow) have been configured in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses.
 
 
 **Release rating**: Set here whether the results are released by default or not.
 
-![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
+![Correction Automatic or manual and Release assessment as Not released or Released, in the Correction section of the Test configuration tab](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
 #### Section Report {: #section_report}
 
@@ -140,7 +135,7 @@ However, it is important that you specifically select the form in which the resu
 
 If the "Always" field is selected, the results will be available immediately after the test is finished. If "No" is selected, the results will not be displayed at all. And for the other options, criterion- or date-dependent displays can be defined.
 
-![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
+![Five checkboxes under Overview results, from Test summary to Solution, in the Report section of the Test configuration tab](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
 
 The **Test Summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
@@ -150,9 +145,9 @@ The **Section Summary** is only relevant if a test also contains sections.
     Description of the section configuration in the test editor.<br>
     [Section level](Configure_tests.md#section)
 
-In the **Question Summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed but not the question itself.
+In the **Question summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed but not the question itself.
 
-The **Participant Response** shows the question, all answer options, and the user's choice, but no rating of whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
+The option **Answer, submitted by participant** shows the question, all answer options, and the user's choice, but no rating of whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
 
 The **solution** contains the correct answers.
 
@@ -160,7 +155,7 @@ Depending on the combination of display options, different types of feedback can
 
 For the display on the start page, you can also define the conditions under which it should be displayed.
 
-![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow lightbox" }
+![Drop-down list Show assessment on test homepage with six options from No to If not passed or passed, in the Report section of the Test configuration tab](assets/Test_Report_config.png){ class="shadow lightbox" }
 
 
 [Beginning of test configuration section ^](#config)<br>
@@ -187,7 +182,7 @@ Activate "Allow linking in the entire storage folder" if you want to link to oth
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "Communication" {: #tab_communication}
+### Tab "Communication" [:octicons-tag-16:{ title="from Release 16.2.0 (OO-5966)" }](https://track.frentix.com/issue/OO-5966) {: #tab_communication}
 
 Here you can set whether participants are allowed to send live chat requests to the course coaches or owners during the test. Of course, this only makes sense if real coaches observe the test execution during a defined test period. This procedure is helpful, for example, when conducting online examinations or synchronous admission examinations by test. 
 
@@ -195,11 +190,11 @@ Here you can set whether participants are allowed to send live chat requests to 
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "HighScore" {: #tab_highscore}
+### Tab "HighScore" [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #tab_highscore}
 
 A highscore overview can also be activated and further configured here for a test. This overview compares the test results of the course participants and ranks the individual results in comparison. 
 
-![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
+![Checkbox Show Highscore with starting date and four displays, including Podium and Histogram, in the HighScore tab of the course element Test](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
 !!! note "Highscore"
     More information on the topic of high scores.<br>
@@ -210,13 +205,13 @@ A highscore overview can also be activated and further configured here for a tes
 
 ### Tab "Correctors" {: #tab_correctors}
 
-If correctors have been defined for the test in the learning resource via the correction workflow of the learning resource, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
+If correctors have been defined in the learning resource Test via the correction workflow, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "E-mail Confirmation" {: #tab_email_confirmation}
+### Tab "E-mail Confirmation" [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6672)" }](https://track.frentix.com/issue/OO-6672) {: #tab_email_confirmation}
 
 Activate the e-mail confirmation if you want to confirm the submission of the test by e-mail. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
 
@@ -232,7 +227,7 @@ You can also use different variables such as name or score in the mail text.
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "Reminders" {: #tab_reminders}
+### Tab "Reminders" [:octicons-tag-16:{ title="from Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #tab_reminders}
 
 Here, reminder e-mails can be configured according to certain criteria.
 
@@ -246,7 +241,7 @@ Here, reminder e-mails can be configured according to certain criteria.
 
 ### Tab "Badges" {: #tab_badges}
 
-If the course owner has activated the assignment of badges under `Administration > Settings > Assessment tab > Badges` section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
+If the course owner has activated the assignment of badges under `Course > Administration > Settings > Assessment tab > Badges` section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
 
 !!! note "Badges"
     More information on the topic of badges and how they are awarded.<br>
@@ -290,7 +285,7 @@ Why is that? Assuming you could still add questions in an embedded test or mark 
 
 So the question is what you can do if you need to change a test for valid reasons. You have the following options:
 
-### Replacing tests that have already been edited {: #tab_replace_tests}
+### Replacing tests that have already been edited [:octicons-tag-16:{ title="from Release 19.1.10 (OO-8400)" }](https://track.frentix.com/issue/OO-8400) {: #tab_replace_tests}
 
 If you want to change a test retrospectively (e.g., add new questions or correct incorrect answers), first copy the Test learning resource in the authoring area and edit the copy. Then integrate it into the desired course.
 
@@ -300,7 +295,7 @@ There are two options available in the next step:
 
 * **Controlled replacement**: All previous runs and evaluations become invalid, and the evaluation form is reset. You will also receive the previous results as a ZIP download.
 
-* **Replace only**: The test is replaced, existing runs and evaluations are retained.
+* **Replace only**: The test is replaced. Finished test runs remain valid, existing assessments remain unchanged. Ongoing and suspended test runs are collected and marked as invalid.
 
 Before the replacement, a dialog box informs you of the effects. You must explicitly confirm these.
 
@@ -330,12 +325,12 @@ Alternatively, the results can also be viewed and managed in the course run with
 To do this, switch to the “Participants” tab. As the course owner, you also have access to other tabs in the course run, such as Preview, Communication, Reminders, and Badges. Some of these tabs are also available to coaches.
 
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" }
+![Participants with attempts, score and status as well as an open row menu with the assessment actions, in the Participants tab of the test course element in the course run](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" }
 
-If external correctors have also been activated for a test, they can assess it via the Coaching Tool.
+If correctors have also been activated for a test, they can assess it via the Coaching Tool.
 
 !!! note "Coaching Tool"
-    Cross-course assessment by external correctors.<br>
+    Cross-course assessment by correctors.<br>
     [Coaching Tool](../area_modules/Coaching.md)
 
 
@@ -370,7 +365,7 @@ If the test learning resource has been replaced, a button for switching between 
 
 !!! note "Note"
 
-    If "Replace only" is selected, nothing is reset and added to the history! This option should be used with caution. If, for example, 12 points can now be achieved and previously only 10, a maximum of 10 points are still entered in the course. Such entries can lead to confusion and must be corrected manually.
+    If "Replace only" is selected, the existing assessments remain unchanged. This option should be used with caution. If, for example, 12 points can now be achieved and previously only 10, a maximum of 10 points are still entered in the course. Such entries can lead to confusion and must be corrected manually.
 
 [To the top of the page ^](#course_element_test)
 
@@ -380,13 +375,13 @@ If the test learning resource has been replaced, a button for switching between 
 
 ## Test results and archiving {: #archive} [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466)
 
-You can archive test results. To do this, select "Archiving & Reports" in the administration area.
+You can archive test results. To do this, select `Course > Administration > Archiving & Reporting`.
 
 !!! note "Archiving & Reports"
     Course-wide archiving function for all assessable course elements.<br>
     [Archiving & Reports](../learningresources/Course_Archiving.md)
 
-There you can download all course results from all assessable course components (including tests). Alternatively, you can also select only the results of specific tests and save only those. To do this, select "Archiving & Reporting" -> "Course archiving" -> "Create archive" in the course administration. In the wizard, select the archive type "Partial archive" and select the desired test elements in the step "Select course elements". In the step "Settings", choose either "Standard settings" or "Customised" for "Course elements" to adjust the archiving options.
+There you can download all course results from all assessable course components (including tests). Alternatively, you can also select only the results of specific tests and save only those. To do this, select `Course > Administration > Archiving & Reporting > Course archiving > Create archive`. In the wizard, select the archive type "Partial archive" and select the desired test elements in the step "Select course elements". In the step "Settings", choose either "Standard settings" or "Customised" for "Course elements" to adjust the archiving options.
 
 A zip file is created, which is then available in the course archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. In the wizard step "Settings", with "Customised" selected, there are two variants for the course element Test under **"Export"**:
 
@@ -397,7 +392,7 @@ If the test contains essay questions and the **"Advanced – with PDF"** option 
 
 ![Export options for the course element Test in the wizard step Settings of the course archiving](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" }
 
-It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration area. The graphical assessment can also be found here.
+You can also download the raw data of tests via the test statistics: `Course > Administration > Test statistics`. There you will also find the graphical evaluation.
 
 !!! note "Test Statistics"
     Raw data and graphical evaluation of test results.<br>
@@ -430,11 +425,13 @@ Tests can be used in the following scenarios, among others:
 
 ### How to edit a test (Learners perspective) {: #participate_as_learner} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
-Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered (filled), which questions have only been looked at (circle highlighted) and which have not been clicked at all (no marking).
+As a learner, you work through a test question by question and can see at any time what has already been answered. To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered (filled), which questions have only been looked at (circle highlighted) and which have not been clicked at all (no marking).
 
 ![Question overview in the left navigation with answered, viewed and open questions](assets/test_show_answeroverview_V1_en.png){ class="shadow lightbox" }
 
 Depending on the setting, you can navigate further using the "Next question" button and/or a link in the left-hand navigation or the next question will be displayed automatically. Whether you can skip questions or see the progress of answers also depends on the configuration of the teacher. Depending on the configuration, you can interrupt the test and continue at a later time or cancel it without saving the results.
+
+Work on a test in only one browser window. If the test is interrupted or completed in another window, the window that is still open reports "Test interrupted" or "Test completed" at the next input, with the text "Any input in this window will no longer be saved, as the test has already been completed or interrupted. Please close it now." [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9707)" }](https://track.frentix.com/issue/OO-9707)
 
 If the number of solution attempts is limited for a question, a section, or the entire test, the remaining number is displayed directly next to the question, for example "2 attempts remaining (1/3)". The same information also appears as a tooltip in the left-hand navigation.
 
@@ -442,7 +439,7 @@ When you have finished editing and want to complete the test, click on the "End 
 
 Whether, how and when you see the results and the performance overview depends on the test configuration.
 
-![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" }
+![Success status, assessment, score and attempts, below them the test results with duration and score achieved, in the performance summary of a test from the participants' view](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" }
 
 If you have more attempts available to process the test, you can run through the test again with "Start test". Previous runs will be retained.
 
@@ -468,10 +465,11 @@ If you have more attempts available to process the test, you can run through the
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving.md)<br>
-[Test statistics >](Statistics_Test.md)<br>
-[Setting the number of attempts for questions >](Configure_test_questions.md)<br>
+[Test statistics >](Statistics_Test.md)
 
 **Further reading**<br>
-[Export tests >](Test_export.md)
+[Test question configuration >](Configure_test_questions.md)<br>
+[Export tests >](Test_export.md)<br>
+[Tests at course level >](Tests_at_course_level.md)
 
 [To the top of the page ^](#course_element_test)

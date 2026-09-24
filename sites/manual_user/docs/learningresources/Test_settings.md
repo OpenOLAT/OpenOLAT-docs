@@ -232,10 +232,10 @@ The test is then downloaded in zip format with two Word files, one of which cont
 [Coaching - Order management >](../area_modules/Coaching_Order_Management.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)
 
-**Further**<br>
+**Further reading**<br>
 [How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
 [How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool - overview >](Assessment_tool_overview.md)
 
 [To the top of the page ^](#test_settings)

@@ -12,7 +12,7 @@ You can find the options for this in the sections
 ![5](assets/5_green_24.png) [Certificate](#section_certificate)<br>
 ![6](assets/6_green_24.png) [Badges](#section_badges)<br>
 
-![Tab "Assessment" of the course settings with the six sections Assessment settings, Assessment rights, Evidence of achievement, Credit points, Certificate and Badges](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
+![Six numbered sections in the "Assessment" tab of the course settings, from the assessment method to the awarding of badges](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#tab_assessment)
 
@@ -35,7 +35,7 @@ There are the following settings for course assessments:
     * [Sum with weighting](#evaluation_with_points_weighting) 
     * [Average](#evaluation_with_points_average)
 
-    ![Course widget "My course" with learning progress in percent and additional points](assets/course_settings_assessment_points_percentage_v1_de.png){ class="aside-right lightbox" }
+    ![Learning progress in percent with additional points: course widget "My course"](assets/course_settings_assessment_points_percentage_v1_de.png){ class="aside-right lightbox" }
     If [learning path courses](Learning_path_course.md) are graded with **points**, this affects whether and what type of points are displayed in addition to the percentage display in the course.
 
     It can be graded with points, even if they are not relevant for passing the course.
@@ -54,7 +54,7 @@ There are the following settings for course assessments:
 
 The sum of all points achieved in the course is calculated.
 
-![Points calculation setting with the Sum option selected](assets/course_settings_assessment_points_sum_v2_de.png){ class="shadow lightbox" }
+![Selected option Sum: points calculation setting](assets/course_settings_assessment_points_sum_v2_de.png){ class="shadow lightbox" }
 
 [Find out more about Assessment Settings ^](#section_assessment_settings)<br>
 [To the top of the page ^](#tab_assessment)
@@ -65,13 +65,13 @@ The sum of all points achieved in the course is calculated.
 
 The weighting is taken into account when calculating the sum.
 
-![Points calculation setting with the Sum with weighting option selected](assets/course_settings_assessment_points_sum_with_weighting_v2_de.png){ class="shadow lightbox" }
+![Selected option Sum with weighting: points calculation setting](assets/course_settings_assessment_points_sum_with_weighting_v2_de.png){ class="shadow lightbox" }
 
 If there are several assessments to be completed in a course, these are sometimes included in the overall assessment of the course with different weightings. The "Sum with weighting" option for the course assessment allows you to enter a **scaling factor** for the points **for assessable course elements**. The prerequisite is that these assessable course elements are taken into account in the course assessment.
 
 In the **Course configuration overview**, the scaling for all assessable course elements can be checked and set or edited directly if required. The "Assessable" pre-filter provides a compact view of the assessable course elements.
 
-![Course configuration overview with the "Assessable" pre-filter and the columns "Include in course assessment" and scaling factor, with the input field for the scaling factor open](assets/course_setting_assessment_weighting_score_scale_factor_v2_de.png){ class="shadow lightbox" title="Course configuration" }
+![Pre-filter "Assessable", columns "Include in course assessment" and scaling factor with the input field open: course configuration overview](assets/course_setting_assessment_weighting_score_scale_factor_v2_de.png){ class="shadow lightbox" title="Course configuration" }
 
 The weighted score is displayed to coaches in the assessment form. For participants, the weighted score is visible in the performance overview of the respective assessable course element and in the evidence of achievement.
 
@@ -82,7 +82,7 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 ### Course assessment with points: Average {: #evaluation_with_points_average}
 
-![Points calculation setting with the Average option selected](assets/course_settings_assessment_points_sum_average_v2_de.png){ class="shadow lightbox" }
+![Selected option Average: points calculation setting](assets/course_settings_assessment_points_sum_average_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Highscore"
 
@@ -142,7 +142,7 @@ A learning path course can be considered passed as soon as one of the criteria i
 
 ## ![2](assets/2_green_24.png) Section Assessment rights {: #section_assessment_rights}
 
-![Assessment rights section with the options for coaches: reset participant data, assign levels/grading and release the assessment](assets/course_settings_assessment_user_rights_v1_de.png){ class="lightbox" }
+![Options for coaches to reset participant data, to assign levels/grading and to release the assessment: Assessment rights section](assets/course_settings_assessment_user_rights_v1_de.png){ class="lightbox" }
 
 Coaches may be permitted to...
 
@@ -156,15 +156,15 @@ Coaches may be permitted to...
 
 ## ![3](assets/3_green_24.png) Section Evidence of achievement {: #section_evidence_of_achievements}
 
-![Evidence of achievement section with the "Show evidence of achievement to participants" switch enabled](assets/course_settings_assessment_evidence_of_achievements_v1_de.png){ class="lightbox" }
+![Enabled switch "Show evidence of achievement to participants": Evidence of achievement section](assets/course_settings_assessment_evidence_of_achievements_v1_de.png){ class="lightbox" }
 
-![The "My course" menu in the course with the Evidence of achievement entry](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
+![Entry Evidence of achievement in first position: "My course" menu in the course](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
 
-If you activate the option "Use evidence of achievement", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Additional_Course_Features.md) and the participants see an overview of the assessable course elements with their current assessment status.
+If you activate the option "Show evidence of achievement to participants", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Additional_Course_Features.md) and the participants see an overview of the assessable course elements with their current assessment status.
 
 The link to the evidence of achievement only appears in the course if at least one assessable course element exists in the course and the participant has already received at least one assessment. This can be, for example, the attempted solution to a test or the assessment of an assignment.
 
-If you deactivate this function, your participants will no longer see any evidence of achievement. The evidence of achievement is not lost, it is simply no longer displayed. If you reactivate the evidence of achievement, all current data will be available again. However, if you delete a course with existing evidence of achievement, participants will still be able to view their evidence of achievement.
+If you deactivate this function, your participants will no longer see any evidence of achievement. The evidence of achievement is not lost, it is simply no longer displayed. If you reactivate the evidence of achievement, all current data will be available again. However, if you delete a course with existing evidence of achievement, participants will still be able to view their [evidence of achievement](../personal_menu/Evidence_of_Achievements.md). There, the action "Open course" is missing for the deleted course. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-8667)" }](https://track.frentix.com/issue/OO-8667)
 
 [To the top of the page ^](#tab_assessment)
 
@@ -172,7 +172,7 @@ If you deactivate this function, your participants will no longer see any eviden
 
 ## ![4](assets/4_green_24.png) Section Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #section_credit_points}
 
-![Credit points section with credit point system, awarded credit points and validity period](assets/course_settings_assessment_credit_points_v1_de.png){ class="lightbox" }
+![Credit point system, awarded credit points and validity period: Credit points section](assets/course_settings_assessment_credit_points_v1_de.png){ class="lightbox" }
 
 When credit points are enabled, participants are automatically credited with credit points after passing the course. Various credit point systems (defined by administrators) can be selected for this purpose.
 
@@ -191,9 +191,9 @@ Further information:<br>
 ---
 
 
-## ![5](assets/5_green_24.png) Section (Course) certificate {: #section_certificate}
+## ![5](assets/5_green_24.png) Section (Course) certificate [:octicons-tag-16:{ title="from Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #section_certificate}
 
-![Certificate section with the fields Generate PDF certificate, Certificate template, Validity period and Recertification](assets/course_settings_assessment_certificate_v1_de.png){ class="lightbox" }
+![Fields Generate PDF certificate, Certificate template, Validity period and Recertification: Certificate section](assets/course_settings_assessment_certificate_v1_de.png){ class="lightbox" }
 
 A **PDF certificate** can be issued as confirmation of attendance at a course or completion of certain course-related activities.
 
@@ -208,7 +208,7 @@ If a certificate with a limited period of validity has been issued, a **recertif
 
 ## ![6](assets/6_green_24.png) Section Badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #section_badges}
 
-![Badges section with the Award badges switch enabled and the options for manual awarding by course owners and coaches](assets/course_settings_assessment_badges_v1_de.png){ class="lightbox" }
+![Enabled switch Award badges with the options for manual awarding by course owners and coaches: Badges section](assets/course_settings_assessment_badges_v1_de.png){ class="lightbox" }
 
 To use badges in courses, they must be activated here in the "Assessment" tab of the settings. A new menu item will then appear in the course administration, and the "Badge" tab will also appear when editing course elements under "Assessment."
 
@@ -230,6 +230,7 @@ Further information about badges can be found here:<br>
 [Learning path course - Overview >](Learning_path_course.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Additional Course Features >](Additional_Course_Features.md)<br>
+[Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](Course_Settings_Assessment_Certificate.md)<br>
 [Badges >](OpenBadges.md)<br>

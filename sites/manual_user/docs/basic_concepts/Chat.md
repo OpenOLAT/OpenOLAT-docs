@@ -23,7 +23,7 @@ Not available: Select this status when you do not want to be contacted by other 
 
 By clicking on the round symbol, you can change your Instant Messaging status. That way you show other OpenOlat users whether you are available for chat or not. While you are taking a test, your status is automatically set to "Please do not disturb". Only after finishing the test are you able to chat again.
 
-If you generally want a status other than "Available" after logging in, change this under `Personal menu > Settings > Tab "Instant Messaging"` (see "Personal chat settings" below).
+At your first login, you start with the status your system administrators have set as the default: [Module Instant Messaging](../../manual_admin/administration/Instant_Messaging.md). After that, the status you last selected applies after each login, via the round symbol or under `Personal menu > Settings > Tab "Instant Messaging"` (see "Personal chat settings" below). [:octicons-tag-16:{ title="from Release 21.0 (OO-9466)" }](https://track.frentix.com/issue/OO-9466)
 
 ## Sending messages {: #send}
 
@@ -51,14 +51,14 @@ How to configure the display of group members in your group is described in the 
 
 ## Join a group or course chat {: #join_group}
 
-There are chatrooms at different places in OpenOlat, e.g. in the course and in the group. Open the chatroom in the course via "Course chat" in the toolbar, in the group via the menu entry "Chat". A chat window opens and you enter the group or course chat. If a history already exists, display it via "Show history" to learn about the discussion so far. Messages to a chatroom are sent to all persons in that room. The list of participants is displayed next to the chat window. If you want to participate anonymously, you can choose a nickname. The other chat participants then do not see your real name. System administrators must enable this option; it may not be available on your system. If you want to leave the room, close the window.
+There are chatrooms at different places in OpenOlat, e.g. in the course and in the group. Open the chatroom in the course via "Course chat" in the toolbar, in the group via the menu entry "Chat". A chat window opens and you enter the group or course chat. If a history already exists, display it via "Show history" to learn about the discussion so far. Messages to a chatroom are sent to all persons in that room. The list of participants is displayed next to the chat window. If you want to write anonymously, answer the question "Show my real name?" with "No" and enter a different name. The other chat participants then do not see your real name. System administrators must enable this option; it may not be available on your system. If you want to leave the room, close the window.
 
 ## Personal chat settings {: #settings}
 
 In the tab "Instant Messaging" of the [personal settings](../personal_menu/Settings.md#tab_instant-messaging), you specify whether other users may contact you. If you do not wish to receive messages from other users, turn off this feature. The contact link in the visiting card is then removed. In that case, you can only receive messages from course and group members.
 
 **Default status after login:**<br>
-Here you can choose between three settings that are active after each future login. If you want to change your current status, you can do this via the round status symbol at the top right. At the next login, the status you have set here is active again.
+Here you choose between "Available", "Please do not disturb" and "Not available". This status is active after login. If you change your status via the round status symbol at the top right, OpenOlat also applies the change to this setting. At the next login, the status you last selected applies.
 
 ## Chat logs {: #chat_logs}
 
@@ -66,11 +66,12 @@ To view chat logs, open the chat window of the desired chat partner. Then select
 
 ## Further information {: #further_information}
 
+[Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [Personal tools: Other users >](../personal_menu/Other_users.md)<br>
 [Group Administration >](../groups/Group_Administration.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Module Instant Messaging (Administration) >](../../manual_admin/administration/Instant_Messaging.md)<br>
-[Additional Course Features >](../learningresources/Additional_Course_Features.md)
+[Additional Course Features >](../learningresources/Additional_Course_Features.md)<br>
+[Using Group Tools >](../groups/Using_Group_Tools.md)
 
 **youtube**<br>
 [Chat](<https://www.youtube.com/embed/OX44EiWqZTk>)
