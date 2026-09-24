@@ -2,6 +2,8 @@
 
 Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert. An verschiedenen Stellen können Erinnerungen erstellt, angezeigt, bearbeitet und der Versand überprüft werden.
 
+Erinnerungen sind eine Funktion des Kurses. Für Gruppen und einzelne Werkzeuge wie das Forum gibt es keine Erinnerungen. Eine Gruppe kann nur als Empfängerkreis einer Kurserinnerung gewählt werden. Wer über Änderungen in einer Gruppe oder in einem Forum informiert werden will, abonniert das Werkzeug: [Gruppenwerkzeuge](../groups/Using_Group_Tools.de.md), [Foren abonnieren](Course_Element_Forum.de.md#abo), [Abonnements](../personal_menu/Subscriptions.de.md).
+
 ## Wo werden Erinnerungen erstellt? {: #access}
 
 ### Kursadministration

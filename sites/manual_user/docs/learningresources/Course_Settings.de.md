@@ -3,7 +3,9 @@
 Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br>
 `Kurs > Administration > Einstellungen`
 
-![Menü Administration mit Eintrag Einstellungen und die Tabs Info, Metadaten, Durchführung, Freigabe, Nutzungsbedingungen, Layout, Toolbar, Bewertung und Optionen der Kurseinstellungen](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
+Das Menü "Einstellungen" steht Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung, ausserdem Personen, denen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) das Recht "Kurseditor" erteilt wurde.
+
+![Kurseinstellungen über den Eintrag Einstellungen im Menü Administration geöffnet, mit einem Tab je Einstellungsbereich](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
@@ -15,6 +17,11 @@ Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br
 
     Über die Tabs "Info", "Metadaten", "Durchführung" und "Freigabe" können Sie Informationen angeben, die in der [Kursinfoseite](../learningresources/Info_page.de.md) sichtbar werden.
 
+## Steckbrief
+
+Name | Kurseinstellungen
+---------|----------
+Verfügbar seit | Release 13.0 (OO-3706)
 
 
 ## Tab Info {: #info}
@@ -60,6 +67,7 @@ Metadaten eines Kurses sind
 * geschätzter Zeitaufwand zur Bearbeitung
 * Lizenz
 
+[Zu den Details >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Mehr über **Metadaten** >](../basic_concepts/Full_Text_Search.de.md#metadata)<br>
 [Zum Seitenanfang ^](#course_settings)
 
@@ -71,10 +79,11 @@ Metadaten eines Kurses sind
 Hier können Sie 
 
 * den Durchführungszeitraum des Kurses definieren, 
-* das "[Absenzmanagement](../area_modules/Absence_Management.de.md)" einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), 
-* existierende herkömmliche Kurse in Lernpfad Kurse konvertieren 
-* bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
+* das "[Absenzmanagement](../area_modules/Absence_Management.de.md)" einschalten und weiter konfigurieren (sofern in der System-Administration unter `Administration > Module > Termine / Absenzen` eingeschaltet), 
+* existierende herkömmliche Kurse in Lernpfadkurse konvertieren 
+* bzw. bei [Lernpfadkursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 
+[Zu den Details >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 
@@ -103,7 +112,7 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 
 Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorien zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen, muss der Schritt wiederholt werden. Anschliessend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
 
-Der gesamte OpenOlat [Katalog (Version 1)](../area_modules/Courses.de.md) ist für alle User im Menü "Kurse" einsehbar.
+Der gesamte OpenOlat [Katalog (Version 1)](../area_modules/Courses.de.md) ist für alle Benutzer:innen im Menü "Kurse" einsehbar.
 
 Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind und für die Benutzer:innen sichtbar sein sollen.
 
@@ -119,11 +128,11 @@ Hier können
 * frei definierbare kursbezogene **Nutzungsbedingungen** 
 * und eine kursbezogene **Datenschutzerklärung** 
 
-aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. 
+aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. Für jeden eingeschalteten Text erfassen Sie einen Titel, die Bedingungen und die Beschriftung der Checkbox, die zum Akzeptieren angekreuzt wird. Eine zweite Checkbox ist möglich.
 
 In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) sehen Sie im Bereich "Einwilligungen" welche Personen die Bedingungen bereits akzeptiert haben.
 
-![Formular Nutzungsbedingungen](assets/disclaimer_course_DE.png){ class="shadow lightbox" }
+![Nutzungsbedingungen und Datenschutzerklärung einzeln einschaltbar, je mit Titel, Bedingungen und bis zu zwei Checkbox-Beschriftungen, im Tab Nutzungsbedingungen](assets/disclaimer_course_DE.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#course_settings)
 
@@ -132,18 +141,18 @@ In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) seh
 
 ![Tab "Layout" aktiv in den Kurseinstellungen](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
 
-Unter Layout kann 
+Im Tab Layout bestimmen Sie, wie der Kurs aussieht und wie sich Teilnehmende darin bewegen. Hier kann
 
 * eine **Layoutvorlage** für einen Kurs ausgewählt, 
 * die **Kursnavigation** näher bestimmt 
 * und der **Stil der Kursbausteine** definiert werden.
 
-Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte **Layoutvorlagen**, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
+Welche **Layoutvorlagen** zur Auswahl stehen, bestimmt das Systemlayout (Theme), das für Ihre ganze OpenOlat-Instanz gilt. Die Vorlage "Standard" ist immer vorhanden. Ein einheitliches Erscheinungsbild für alle Kurse (Farben, Schriften, Logo) wird deshalb zentral über ein individuelles Systemlayout umgesetzt, siehe [Darstellung, Layout](../../manual_admin/administration/Customizing.de.md#layout). Für einen einzelnen Kurs wählen Sie die Option "Eigene Konfiguration festlegen": Dort legen Sie Schriftart und Farben für Text, Überschriften, Links, Menü und Toolbox fest und laden ein Logo hoch. Darüber hinaus können Sie im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses im Ordner "courseCSS" eigene CSS-Dateien hinterlegen, die dann in der Auswahl als "Aus Kursablageordner" erscheinen.
 
-Im Bereich "**Navigation**" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
+Im Bereich "**Navigation**" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfadkursen legen Sie zusätzlich fest, ob im Menü die Icons und der Pfad angezeigt werden ("Icons im Menu anzeigen", "Pfad im Menu anzeigen"). Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 
-![Lernpfad mit Icons](assets/lp_icons_DE.png){ class="shadow lightbox" }
-![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons_DE.png){ class="shadow lightbox" }
+![Kursmenü mit Pfad und Icons: Statussymbole an einer Linie links, vor jedem Titel das Symbol des Kursbausteins](assets/lp_icons_DE.png){ class="shadow lightbox" }
+![Kursmenü ohne Pfad und Icons: nur die Titel der Kursbausteine, Statussymbole rechts](assets/no_lp_no_icons_DE.png){ class="shadow lightbox" }
 
 Im Bereich "**Standard Stil Kursbausteine**" können Sie die Basisdarstellung der Kursbausteine definieren und z.B. ein eigenes Hintergrundbild hochladen oder ein Hintergrundbild aus der Bibliothek wählen, den Stil des Bildes definieren, sowie bei Bedarf eine Farbkategorie zuordnen. In der Vorschau sehen Sie die Auswirkungen.
 
@@ -178,7 +187,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 !!! info "Wichtig"
 
-    Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar.  Die Konfiguration für das Bestehen erfolgt im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte". Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.
+    Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar. Die Konfiguration für das Bestehen erfolgt im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte". Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.
 
 
 [Zu den Details >](../learningresources/Course_Settings_Assessment.de.md)<br>
@@ -196,11 +205,21 @@ Hier aktivieren Sie je nach Bedarf
 * ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) 
 * einen [Ressourcenordner](../learningresources/index.de.md) zu Ihrem Kurs
 * einen speziellen Ordner für Betreuer:innen
-* To-dos für Betreuer:innen<br>
-Falls Sie Benutzer:in mit einer administrativen Rolle sind (Lernressourcenverwalter:in, Administrator:in), werden Ihnen hier zusätzlich noch spezielle Optionen angezeigt:<br>
+* To-dos für Betreuer:innen
+
+Falls Sie Benutzer:in mit einer administrativen Rolle sind (Lernressourcenverwalter:in, Administrator:in), werden Ihnen hier zusätzlich noch spezielle Optionen angezeigt:
+
 * Einladung externe Benutzer:innen für Kursbesitzer:innen mit Autorenrecht aktivieren
 * die "LTI 1.3"-Freigabe für Kursbesitzer:innen mit Autorenrecht aktivieren
 
 
 [Details zum Tab Optionen > ](../learningresources/Course_Settings_Options.de.md)<br>
+[Zum Seitenanfang ^](#course_settings)
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
+[Kurs erstellen >](../learningresources/Creating_Course.de.md)
+
 [Zum Seitenanfang ^](#course_settings)
