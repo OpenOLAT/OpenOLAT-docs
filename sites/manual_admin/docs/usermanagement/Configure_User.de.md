@@ -159,7 +159,7 @@ Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Lernressourcen
+### Lernressourcen [:octicons-tag-16:{ title="ab Release 9.1.0 (OO-788)" }](https://track.frentix.com/issue/OO-788)
 
 Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des/der Benutzer:in.
 Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
@@ -202,11 +202,15 @@ Hier sind die erworbenen Kreditpunkte des/der Benutzer:in angezeigt.
 
 Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in aus Kursen angezeigt. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
+Den Reiter erreichen Administrator:innen, Principals, Benutzerverwalter:innen und Rollenverwalter:innen.
+
 #### Leistungsnachweis löschen {: #delete_evidence }
 
-Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.  
+Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.
 
 ![Warnhinweis, dass der Leistungsnachweis bei noch eingeschriebenen Personen neu erstellt wird, mit den Schaltflächen Löschen und Abbrechen: Dialog Leistungsnachweis löschen](assets/user_management_evidence_delete_v1_de.png){ class="shadow lightbox" }
+
+Einen Leistungsnachweis löschen Sie ausschliesslich hier in der Benutzerverwaltung, die betroffene Person kann ihre eigenen Leistungsnachweise nicht löschen. Die Aktion "Leistungsnachweis löschen" steht nur Administrator:innen und Rollenverwalter:innen zur Verfügung. Principals und Benutzerverwalter:innen sehen den Reiter ohne diese Aktion. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
 
 [zum Seitenanfang ^](#user_configuration)
 

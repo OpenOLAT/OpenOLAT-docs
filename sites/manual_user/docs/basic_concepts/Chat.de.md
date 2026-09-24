@@ -23,7 +23,7 @@ Nicht verfügbar: Wählen Sie diesen Status, wenn Sie nicht wollen, dass andere 
 
 Durch einen Klick auf das runde Symbol können Sie Ihren Instant-Messaging-Status wechseln. So signalisieren Sie anderen OpenOlat-Benutzer:innen, ob Sie für den Chat verfügbar sind oder nicht. Während Sie einen Test lösen, wird Ihr Status automatisch auf "Bitte nicht stören" gesetzt. Sie können erst nach dem Beenden des Tests wieder chatten.
 
-Wenn Sie nach dem Einloggen grundsätzlich einen anderen Status als "Verfügbar" haben möchten, ändern Sie dies unter `Persönliches Menü > Einstellungen > Tab "Instant-Messaging"` (siehe unten "Persönliche Chat-Einstellungen").
+Beim ersten Einloggen starten Sie mit dem Status, den Ihre Systemadministrator:innen als Standard festgelegt haben: [Modul Instant-Messaging](../../manual_admin/administration/Instant_Messaging.de.md). Danach gilt nach jedem Einloggen der Status, den Sie zuletzt gewählt haben, über das runde Symbol oder unter `Persönliches Menü > Einstellungen > Tab "Instant-Messaging"` (siehe unten "Persönliche Chat-Einstellungen"). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9466)" }](https://track.frentix.com/issue/OO-9466)
 
 ## Nachrichten senden {: #send}
 
@@ -51,14 +51,14 @@ Wie Sie die Anzeige der Gruppenmitglieder in Ihrer Gruppe konfigurieren, erfahre
 
 ## Einem Gruppen- oder Kurschat beitreten {: #join_group}
 
-An verschiedenen Orten in OpenOlat gibt es Chaträume, z.B. im Kurs und in der Gruppe. Öffnen Sie den Chatraum im Kurs über "Kurs-Chat" in der Toolbar, in der Gruppe über den Menüeintrag "Chat". Ein Chatfenster geht auf und Sie betreten den Gruppen- oder Kurs-Chat. Ist bereits ein Verlauf vorhanden, zeigen Sie ihn über "Verlauf anzeigen" an, um sich über den bisherigen Gesprächsverlauf zu informieren. Nachrichten an einen Chatraum werden an alle Personen im jeweiligen Raum gesendet. Die Liste der Teilnehmenden ist neben dem Chatfenster ersichtlich. Möchten Sie sich anonym äussern, so können Sie ein Pseudonym wählen. Die anderen Teilnehmenden des Chats sehen dann Ihren richtigen Namen nicht. Diese Option müssen Systemadministrator:innen einschalten; sie ist auf Ihrem System unter Umständen nicht verfügbar. Falls Sie den Raum wieder verlassen möchten, schliessen Sie das Fenster.
+An verschiedenen Orten in OpenOlat gibt es Chaträume, z.B. im Kurs und in der Gruppe. Öffnen Sie den Chatraum im Kurs über "Kurs-Chat" in der Toolbar, in der Gruppe über den Menüeintrag "Chat". Ein Chatfenster geht auf und Sie betreten den Gruppen- oder Kurs-Chat. Ist bereits ein Verlauf vorhanden, zeigen Sie ihn über "Verlauf anzeigen" an, um sich über den bisherigen Gesprächsverlauf zu informieren. Nachrichten an einen Chatraum werden an alle Personen im jeweiligen Raum gesendet. Die Liste der Teilnehmenden ist neben dem Chatfenster ersichtlich. Möchten Sie anonym schreiben, beantworten Sie die Frage "Meinen richtigen Namen anzeigen?" mit "Nein" und geben einen anderen Namen ein. Die anderen Teilnehmenden des Chats sehen dann Ihren richtigen Namen nicht. Diese Option müssen Systemadministrator:innen einschalten; sie ist auf Ihrem System unter Umständen nicht verfügbar. Falls Sie den Raum wieder verlassen möchten, schliessen Sie das Fenster.
 
 ## Persönliche Chat-Einstellungen {: #settings}
 
 Im Tab "Instant-Messaging" der [persönlichen Einstellungen](../personal_menu/Settings.de.md#tab_instant-messaging) legen Sie fest, ob andere Benutzer:innen Sie kontaktieren dürfen. Wenn Sie keine Nachrichten von anderen Benutzer:innen empfangen wollen, schalten Sie diese Funktion aus. Der Kontaktlink in der Visitenkarte wird dann entfernt. In diesem Fall können Sie nur von Kurs- und Gruppenmitgliedern Kurznachrichten empfangen.
 
 **Nach dem Einloggen ist mein Status:**<br>
-Hier können Sie zwischen drei Einstellungen wählen, die zukünftig jeweils nach dem Login aktiv sein sollen. Wenn Sie Ihren momentanen Status ändern wollen, können Sie dies über das runde Status-Symbol rechts oben tun. Beim nächsten Login ist dann wieder der Status aktiv, den Sie hier festgelegt haben.
+Hier wählen Sie zwischen "Verfügbar", "Bitte nicht stören" und "Nicht verfügbar". Dieser Status ist nach dem Login aktiv. Ändern Sie Ihren Status über das runde Status-Symbol rechts oben, übernimmt OpenOlat die Änderung auch in diese Einstellung: Beim nächsten Login gilt der zuletzt gewählte Status.
 
 ## Chat-Protokolle {: #chat_logs}
 
@@ -66,11 +66,12 @@ Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster der gewünschten Chat
 
 ## Weiterführende Informationen {: #further_information}
 
+[Modul Instant-Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
 [Persönliche Werkzeuge: Personensuche >](../personal_menu/Other_users.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
-[Modul Instant Messaging (Administration) >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
-[Zusätzliche Kursfunktionen >](../learningresources/Additional_Course_Features.de.md)
+[Zusätzliche Kursfunktionen >](../learningresources/Additional_Course_Features.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 
 **youtube**<br>
 [Chat](<https://www.youtube.com/embed/OX44EiWqZTk>)

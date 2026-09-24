@@ -239,6 +239,6 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
 
 [zum Seitenanfang ^](#test_settings)
