@@ -69,7 +69,7 @@ Metadata of a course are
 [To the top of the page ^](#course_settings)
 
 
-## Tab Execution {: #Execution}
+## Tab Execution {: #execution}
 
 ![Tab "Execution" active in the course settings](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
 
