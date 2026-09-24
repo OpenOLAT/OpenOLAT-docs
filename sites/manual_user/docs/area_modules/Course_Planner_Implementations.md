@@ -160,7 +160,7 @@ If you want to add further courses for this implementation (deviating from the o
 The option to **remove** an **individual course** from this implementation can be found under the 3 dots at the end of a line.<br>
 To **remove several courses**, select the courses with the checkboxes in the first column. A Remove button will then be displayed above the list.
 
-![The courses of an implementation with share, creator and status, plus the Add course and Remove buttons for selected rows, in the Content tab of an implementation](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
+![The courses of an implementation with type, creator and life cycle, the Add course button and, for a selected row, the Change status and Remove actions, in the Content tab of an implementation](assets/course_planner_implementations_tab_content_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
@@ -172,13 +172,13 @@ If automation rules control the content of this implementation, the "Automation 
 <br>
 
 **Course template as course content**<br>
-If it corresponds to the selected implementation type (individual course required), it is also possible to add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the implementation (instantiated).
+If it corresponds to the selected implementation type (Single course required), it is also possible to add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the implementation (instantiated).
 
 Using a template for instantiation is recommended if it is a recurring course that is always the same.
 
-![The Course template section with the Add course template button below the still empty course list, in the Content tab of an implementation of type single course](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
+![The Course template section with the Add course template button below the still empty course list, in the Content tab of an implementation of type Single course](assets/course_planner_implementations_tab_content_template1_v1_en.png){ class="shadow lightbox" }
 
-The "Add course" and "Add course templates" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
+The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
 **Creation of course templates**<br>
 Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. 
@@ -208,7 +208,7 @@ The templates for course content in Course Planner do not have independent membe
 
 ### Tab Members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
-![The members of an implementation filtered by role, with the views Active, Pending, Non-members and Members' history, in the Members tab](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
+![The members of an implementation filtered by role, with the views Active, Pending, Non-members and Members' history, in the Members tab](assets/course_planner_implementations_tab_members_v1_en.png){ class="shadow lightbox" }
 
 As mentioned above, an educational product (consisting of one or more courses) can be carried out several times. Different participants take part in each implementation.
 
@@ -263,7 +263,7 @@ The Course Planner can be set up so that a booking request must be confirmed by 
 
 This approval step can also be set up for all offers, except when paying with Paypal (since payment/booking there is immediate).
 
-![The choice between Standard and With confirmation, plus confirmation by administrative roles and the deadline, in the Membership step of the Add participants wizard](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" }
+![The choice between Standard and With confirmation, plus confirmation by administrative roles and the deadline, in the Membership step of the Add participants wizard](assets/course_planner_implementations_confirm_member_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#implementations)
@@ -279,11 +279,11 @@ The various implementations can be offered in the catalog. To do this, an [offer
 
 To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per implementation in the Catalog tab).
 
-![The direct links to the offer for the external and the internal catalog, opened via Access and Links in the offer overview, in the Catalog tab of an implementation](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" }
+![The direct links to the offer for the external and the internal catalog, opened via Access and Links in the offer overview, in the Catalog tab of an implementation](assets/course_planner_implementations_tab_catalog3_v1_en.png){ class="shadow lightbox" }
 
 If offers with booking options have been added to the catalog, the booking orders and their details can also be found under the "Catalog" tab in the "Booking orders" subsection.
 
-![The booking orders with status, offer type, price and billing address, plus the download of the list and the actions per order, in the Booking orders subsection of the Catalog tab](assets/course_planner_implementations_tab_catalog2_v1_de.png){ class="shadow lightbox" }
+![The booking orders with status, offer type, price and billing address, plus the Export booking orders button and the actions per order, in the Booking orders subsection of the Catalog tab](assets/course_planner_implementations_tab_catalog2_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#implementations)
@@ -360,7 +360,7 @@ As soon as at least one rule is active, the header of the implementation above t
 
 #### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-The sub-tab "Assessment" is displayed for implementations of type single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
+The sub-tab "Assessment" is displayed for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the **"Certification program"** toggle to enable or disable the link.
 * If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Reference, validity period, recertification and required credit points. Only programs you have access to are displayed.
@@ -400,7 +400,7 @@ This tab only appears if absences have been activated on the element.
 
 Activation takes place in the implementation settings: `Settings tab > Options > Absence configuration`.
 
-![Attendance and absences of the participants with units, excused and unexcused absences and attendance rate, in the Absences tab of an implementation](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
+![Units, attended, not excused and authorized absences and the attendance rate per participant, in the Absences tab of an implementation](assets/course_planner_implementations_tab_absences_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#implementations)
 
