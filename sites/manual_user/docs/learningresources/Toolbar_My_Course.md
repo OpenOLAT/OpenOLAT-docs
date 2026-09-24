@@ -140,7 +140,7 @@ The option to unsubscribe from a course must first be enabled by the course owne
 "Leave course" only appears if the following conditions are met:
 
 - The active role is "Participant". When switching roles, the option only appears while the participant role is active.
-- The course has the usage **"Standalone"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). If the Course Planner manages the course instead (usage **"Use in Course Planner"**), "Leave course" is not available. Leaving an implementation is then done via the Course Planner.
+- The course has the usage **"Standalone"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). If the Course Planner manages the course instead (usage **"Use in Course Planner"**), "Leave course" is not available. If participants have booked an implementation, they cancel the booking themselves instead: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable. After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 - Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share.md#section_share_leave), an option other than "Never" is selected.
 - No assessment mode is currently running in the course.
 

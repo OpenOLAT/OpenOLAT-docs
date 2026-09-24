@@ -96,7 +96,7 @@ If you share this link, this course can be accessed directly. If the person is n
 
 !!! info "Important"
 
-    This setting exists only for courses with the usage **"Standalone"**. If the Course Planner manages the course instead (usage **"Use in Course Planner"**), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. Leaving an implementation is then done via the Course Planner and thus via the administration of your organisation.
+    This setting exists only for courses with the usage **"Standalone"**. If the Course Planner manages the course instead (usage **"Use in Course Planner"**), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation, they cancel the booking themselves: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable (see [Cancellation policy](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation)). After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 **Administrative access**<br>
 People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organizational units selected here. Because these roles exist per organizational unit (e.g., admin for department xy), you can determine here which organizational units will have administrative access to your course.
@@ -174,6 +174,7 @@ If the course has been assigned to a product in the Course Planner, you will fin
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
+[Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 **Further reading**
