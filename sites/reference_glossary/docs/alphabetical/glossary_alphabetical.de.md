@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 722 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 736 Begriffe.
 
 ## A
 
@@ -242,7 +242,7 @@ Die Erfassung der Anwesenheit je Teilnehmende und je Einheit eines Termins durch
 
 Ein Paar aus Client ID und Client Secret, mit dem sich ein Fremdsystem an der REST API anmeldet. Die Kontoverwaltung legt es unter Authentifizierung an; das Secret ist nur einmal lesbar. Die Administration kann den API-Zugriff auf Konten mit API-Key beschränken.
 
-*Englisch: API-Key* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/REST_API.de.md)
+*Englisch: API Key* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/REST_API.de.md)
 
 ### Archivierung & Reports
 
@@ -279,6 +279,18 @@ Lernressource für eine einzelne Audiodatei.
 Modul, mit dem Personen Audio und Video direkt im Browser aufnehmen: im Media Center, im Content Editor, in der Aufgabe und im Video-Editor. Die Aufnahme wird im Hintergrund in ein browsertaugliches Format umgewandelt, lokal oder durch einen externen Dienst.
 
 *Englisch: Audio/video recording* · *Bereich: Lernressourcen* · [Handbuch](../../manual_admin/administration/Modules_Audio_Video_Recording.de.md)
+
+### Audit-Log
+
+Das Protokoll der Aufrufe der REST API, im Segment Audit-Log der Seite REST API. Es hält alle schreibenden Aufrufe (PUT, POST, DELETE) und alle abgelehnten Aufrufe fest, lesende Aufrufe nur mit einer eigenen Option. Jeder Eintrag nennt unter anderem Person, IP-Adresse, Pfad, Status und Dauer.
+
+*Englisch: Audit log* · *Bereich: Plattform*
+
+### Audit-Log Eintrag
+
+Ein einzelner protokollierter Aufruf im Audit-Log. Er hält Datum, Kanal, Methode, Pfad, Status, Dauer, IP-Adresse, Person, Authentifizierung und User-Agent fest, auf Wunsch auch den Request-Body.
+
+*Englisch: Audit log entry* · *Bereich: Plattform*
 
 ### Aufgabe (ePortfolio)
 
@@ -611,6 +623,12 @@ Der Bereich des Coaching, der die eigene offene Bewertungsarbeit über alle Kurs
 Dateien, welche Betreuende zu einer Bewertung ablegen, zum Beispiel ein korrigiertes Prüfungsblatt oder ein Beurteilungsraster.
 
 *Englisch: Assessment documents* · *Bereich: Bewertung* · [Handbuch](../../manual_user/learningresources/The_assessment_form.de.md)
+
+### Bewertungsformular
+
+Das Formular im Bewertungswerkzeug, in dem Betreuende für eine Person Status, Punkte, Erfolgsstatus, Kommentare und Bewertungsdokumente erfassen. Im Kurseditor legt der gleichnamige Abschnitt der Konfiguration Bewertung fest, ob es ein Kommentarfeld und Bewertungsdokumente hat.
+
+*Englisch: Assessment form* · *Bereich: Bewertung* · [Handbuch](../../manual_user/learningresources/The_assessment_form.de.md)
 
 ### Bewertungs-Kit (Referenz + Musterantwort)
 
@@ -1166,7 +1184,7 @@ Die verbindliche Zuteilung eines Themas an eine teilnehmende Person in der Theme
 
 ### Einstellungen
 
-Die Seite im persönlichen Menü mit den Voreinstellungen eines Kontos, in den Tabs System, WebDAV, Instant-Messaging, Nutzungsbedingungen, Personendaten und GUI-Einstellungen.
+Die Seite im persönlichen Menü mit den Voreinstellungen eines Kontos, in den Tabs System, WebDAV, Instant-Messaging, Nutzungsbedingungen, Personendaten und GUI-Einstellungen. Ist eine KI-Funktion für Personen verfügbar, kommt der Tab KI-Einstellungen dazu.
 
 *Englisch: System settings* · *Bereich: Plattform* · [Handbuch](../../manual_user/personal_menu/Settings.de.md)
 
@@ -1465,6 +1483,18 @@ Kursbaustein, der eine Formular-Lernressource einbindet, die Teilnehmende ausfü
 Die generische Lernressource für erfasste Angaben, gebaut im Content Editor. Sie wird an sechs Stellen mit unterschiedlicher Bedeutung eingesetzt: als Beurteilungsraster im E-Portfolio, im Kursbaustein Bewertung und im Kursbaustein Aufgabe samt Peer-Review; als Qualitätsraster im Qualitätsmanagement und im Kursbaustein Umfrage; als Formular im Kursbaustein Formular. Die Bedeutung kommt von der einbindenden Stelle, nicht vom Formular.
 
 *Englisch: Form* · *Bereich: Qualitätsmanagement und Formulare* · [Handbuch](../../manual_user/learningresources/Form.de.md)
+
+### Formulareditor
+
+Die Arbeitsfläche der Lernressource Formular. Sie baut das Formular mit dem Content Editor aus Formularelementen wie Rubrik, Einzelauswahl und Textblock und legt die Frageregeln fest. Ist das Formular schon im Einsatz, erlaubt sie nur noch eingeschränkte Änderungen.
+
+*Englisch: Form editor* · *Bereich: Qualitätsmanagement und Formulare* · [Handbuch](../../manual_user/learningresources/Form_Editor.de.md)
+
+### Formulare für Buchungsaufträge
+
+Formulare, welche die buchende Person beim Buchen eines Angebots einer Durchführung ausfüllt. Für jedes Angebot legt die verwaltende Person fest, welche Formulare es verwendet und in welcher Reihenfolge. Jedes Formular ist ein eigener Schritt des Buchungsablaufs, und die abgegebenen Formulare hängen am Buchungsauftrag.
+
+*Englisch: Booking order forms* · *Bereich: Katalog, Buchung und Bezahlung*
 
 ### Forschungsziel
 
@@ -1810,7 +1840,7 @@ Das Gruppenwerkzeug für Mitteilungen an alle Mitglieder einer Gruppe. Betreuend
 
 ### Infoseite (Kurs)
 
-Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit Beschreibung, Zeitraum, Betreuenden und Buchungsmöglichkeit.
+Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit Beschreibung, Zeitraum, Betreuenden und Buchungsmöglichkeit. Sie fasst die Fakten in einer Übersicht zusammen, zeigt auf Wunsch Termine, Dozent:innen, Zertifikat und Kreditpunkte und lässt sich als PDF herunterladen.
 
 *Englisch: Info page* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Info_page.de.md)
 
@@ -1944,6 +1974,12 @@ Eine einzelne Anfrage von OpenOlat an ein KI-Modell, ausgelöst durch eine KI-Fu
 
 *Englisch: AI call* · *Bereich: Künstliche Intelligenz* · [Handbuch](../../manual_admin/administration/External_Tools_AI.de.md)
 
+### KI-Einstellungen
+
+Der Tab in den persönlichen Einstellungen, in dem eine Person für jede KI Funktion, die ohne ihren Auftrag arbeitet, entscheidet, ob OpenOlat sie für sie nutzen darf: das KI-Feedback zu Freitextantworten und die KI-Bildbeschreibungen. Vorgabe folgt der Vorgabe der Administration, Ein und Aus gelten vor ihr.
+
+*Englisch: AI settings* · *Bereich: Künstliche Intelligenz*
+
 ### KI-Feedback
 
 Das formative Feedback, das Lernende im Quiz einer Seite zu ihrer Freitextantwort abrufen. Es besteht aus der Beurteilung, einer Gesamteinschätzung, der Verlässlichkeit und den Abschnitten "Was gut gelungen ist", "Was fehlt noch", "Nächster Schritt" und "Sprache". Es vergibt keine Punkte. Im Fragen-Editor heisst so auch der Tab, in dem das Bewertungs-Kit gepflegt wird.
@@ -1955,6 +1991,12 @@ Das formative Feedback, das Lernende im Quiz einer Seite zu ihrer Freitextantwor
 Ein Einsatzbereich der KI im Produkt, zum Beispiel der MC Fragen Generator. Jede Funktion wird einzeln aktiviert und erhält einen Anbieter, ein Modell, eine Obergrenze für Ein- und Ausgabe sowie ein Timeout.
 
 *Englisch: AI Feature* · *Bereich: Künstliche Intelligenz* · [Handbuch](../../manual_admin/administration/External_Tools_AI.de.md)
+
+### KI-Korrektur
+
+Die Korrektur von Freitextantworten durch die KI im Quiz einer Seite, so wie die antwortende Person sie sieht. Ohne gespeicherte Wahl fragt OpenOlat zu Beginn des Quiz, ob die KI die Antworten korrigieren darf. Das Ergebnis ist das KI-Feedback, keine Note.
+
+*Englisch: AI correction* · *Bereich: Künstliche Intelligenz* · [Handbuch](../../manual_user/basic_concepts/Content_Editor.de.md)
 
 ### KI Modul
 
@@ -2064,6 +2106,12 @@ Der Abschnitt des persönlichen Menüs unterhalb der Persönlichen Werkzeuge, mi
 
 *Englisch: Configuration* · *Bereich: Plattform* · [Handbuch](../../manual_user/personal_menu/Personal_Configuration.de.md)
 
+### Konfiguration Bewertung
+
+Der Abschnitt im Tab Bewertung eines bewertbaren Kursbausteins im Kurseditor, in dem Autorinnen und Autoren Punkte, Erfolgsstatus, Noten und das Bewertungsformular einstellen. Sind bereits Bewertungen vorhanden, zeigt OpenOlat bestimmte Einstellungen schreibgeschützt an, bis jemand den Bearbeitungsmodus aktiviert.
+
+*Englisch: Assessment configuration* · *Bereich: Bewertung* · [Handbuch](../../manual_user/learningresources/Course_Element_Assessment.de.md)
+
 ### Kontaktverfolgung
 
 Das Modul, mit dem sich Personen an Standorten mit QR-Code als anwesend registrieren, mit Konto oder als Gast. Die Registrierungen werden nach der Aufbewahrungsfrist von 40 Tagen gelöscht und nur auf behördliche Anfrage exportiert.
@@ -2130,11 +2178,17 @@ Fragetyp mit genau vier Aussagen. Die Testperson entscheidet für jede Aussage, 
 
 *Englisch: Kprim* · *Bereich: Test und Fragenpool* · [Handbuch](../../manual_user/learningresources/Test_question_types.de.md)
 
-### Kreditpunkte
+### Kreditpunkte (Katalog, Buchung und Bezahlung)
 
 Das Modul, das Kreditpunkte je Person in einem Kreditpunktesystem führt, sie bei bestandenen Kursen gutschreibt und in Zertifikatsprogrammen für die Rezertifizierung wieder abzieht. Das Bezahlen von Buchungen mit Kreditpunkten ist angekündigt, aber nicht umgesetzt.
 
 *Englisch: Credit points* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_user/personal_menu/Credit_Points.de.md)
+
+### Kreditpunkte (Coaching)
+
+Der Tab in der Übersicht einer betreuten Person im Coaching, der ihre Kreditpunkte mit Guthaben und Transaktionen zeigt. Er erscheint nur, wenn das Modul Kreditpunkte eingeschaltet ist und die Rolle das Recht Kreditpunkte anzeigen hat.
+
+*Englisch: Credit points* · *Bereich: Coaching*
 
 ### Kreditpunktesystem
 
@@ -2353,6 +2407,12 @@ Der Stand einer Person je Frage, ausgedrückt als Level. Wer eine Frage dreimal 
 Das Fach der Lernkartei in der Übung. Jede richtige Antwort hebt eine Frage um ein Level, eine falsche senkt sie um eines; die Anzahl Levels legt die Konfiguration fest.
 
 *Englisch: Level* · *Bereich: Aufgaben und Üben* · [Handbuch](../../manual_user/learningresources/Course_Element_Practice.de.md)
+
+### Limite für Anfragen
+
+Die Begrenzung der Anfragen an die REST API je Person und je IP-Adresse. Eine Anfrage über der Limite erhält den HTTP-Status 429 mit dem Header Retry-After. Die Administration stellt drei Werte ein: Anfragen pro Minute pro Person, parallele Anfragen pro Person und Anfragen pro Minute pro IP-Adresse ohne Authentifizierung.
+
+*Englisch: Request limit* · *Bereich: Plattform*
 
 ### Linienvorgesetzte:r
 
@@ -3238,7 +3298,7 @@ Die Anschrift, an welche die Rechnung geht. Sie kann von der Anschrift der buche
 
 ### Rechte von Beziehungsrollen
 
-Die 22 Rechte, die eine Administration einer Beziehungsrolle oder einer Organisationsrolle wie Linienvorgesetzte:r geben kann. Sie wirken im Coaching auf die zugeordneten Personen: sehen, kontaktieren, Konten führen, im Namen buchen.
+Die 24 Rechte, die eine Administration einer Beziehungsrolle oder einer Organisationsrolle wie Linienvorgesetzte:r geben kann. Sie wirken im Coaching auf die zugeordneten Personen: sehen, kontaktieren, Konten führen, im Namen buchen.
 
 *Englisch: Relation role rights* · *Bereich: Rollen* · [Handbuch](../../manual_user/basic_concepts/Roles.de.md)
 
@@ -3460,6 +3520,12 @@ Anbindung des Safe Exam Browser. Der Prüfungsmodus verlangt diesen Browser und 
 
 *Englisch: Safe Exam Browser* · *Bereich: Bewertung* · [Handbuch](../../manual_how-to/SEB/SEB.de.md)
 
+### Safe Exam Browser Konfigurationsvorlage
+
+Eine Vorlage mit Einstellungen des Safe Exam Browser, welche die Administration unter e-Assessment anlegt und die Autorinnen und Autoren im Prüfungsmodus oder in der Prüfungseinsicht auswählen. Sie ist ein Formular, das in OpenOlat gepflegt wird, oder eine importierte SEB-Datei, deren Einstellungen schreibgeschützt sind. Eine aktive Vorlage ist der Standard und wird vorausgewählt.
+
+*Englisch: Safe Exam Browser configuration template* · *Bereich: Bewertung* · [Handbuch](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)
+
 ### Schnellzugriff
 
 Der Bereich am Anfang eines Projekts, der die sechs zuletzt verwendeten Dateien und Notizen zeigt und den Upload direkt anbietet.
@@ -3576,7 +3642,7 @@ Anbindung an eine Shibboleth-Föderation. Die Anmeldung erfolgt bei der Heimatho
 
 ### Sicherheit
 
-Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-Header gegen Einbettung in Frames, HTTPS-Downgrade und Content-Type-Raten, SameSite-Cookie, CSRF-Schutz, Content Security Policy mit Log und die freigegebenen Medien-Server.
+Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-Header gegen Einbettung in Frames, HTTPS-Downgrade und Content-Type-Raten, SameSite-Cookie, CSRF-Schutz, Content Security Policy mit Log, die freigegebenen Medien-Server und seit 21.1 die SSRF Mitigation.
 
 *Englisch: Security* · *Bereich: Plattform* · [Handbuch](../../manual_admin/administration/Login_Security.de.md)
 
@@ -3756,6 +3822,12 @@ Ein einzelner wählbarer Zeitslot in einem Anlass der Terminplanung, mit Start, 
 
 *Englisch: Appointment* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Appointment_Scheduling.de.md)
 
+### Terminaufzeichnung
+
+Die Aufzeichnung eines Online-Termins in Microsoft Teams, die OpenOlat nach dem Termin im Hintergrund herunterlädt und selbst ablegt. Die Aufzeichnung startet automatisch mit dem Termin oder von Hand durch die Sitzungsleitung. OpenOlat veröffentlicht sie automatisch für die gewählten Rollen oder später von Hand. Ist eine Löschfrist gesetzt, löscht OpenOlat sie nach dieser Zahl Tage.
+
+*Englisch: Meeting recording* · *Bereich: Integrationen und Standards*
+
 ### Terminbuchung
 
 Typ eines Anlasses: Teilnehmende tragen sich für einen oder mehrere feste Termine aus einer Auswahl ein, optional mit begrenzter Teilnehmerzahl und Bestätigung durch die Organisierenden.
@@ -3815,6 +3887,12 @@ Lernressource mit Fragen im Format QTI 2.1, die Wissen misst. Sie wird über den
 Kursbaustein, der eine Test-Lernressource in den Kurs einbindet. Das Ergebnis zählt zur Kursbewertung.
 
 *Englisch: Test* · *Bereich: Test und Fragenpool* · [Handbuch](../../manual_user/learningresources/Course_Element_Test.de.md)
+
+### Testeditor
+
+Die Arbeitsfläche der Lernressource Test. Hier entstehen Testteile, Sektionen und Fragen im Format QTI 2.1, und hier stehen die Einstellungen des Tests und jeder Frage.
+
+*Englisch: Test editor* · *Bereich: Test und Fragenpool* · [Handbuch](../../manual_user/learningresources/Test_editor_QTI_2.1.de.md)
 
 ### Test-Part
 
@@ -3943,6 +4021,12 @@ Fragetyp wie Kprim, aber mit beliebig vielen Zeilen. Je Aussage wählt die Testp
 Der Schritt, in dem die teilnehmende Person ihre Lösung nach einer Rückmeldung überarbeitet und erneut abgibt. Er lässt sich mehrfach durchlaufen.
 
 *Englisch: Revision* · *Bereich: Aufgaben und Üben* · [Handbuch](../../manual_user/learningresources/Course_Element_Task.de.md)
+
+### Über diese Lernressource
+
+Das Fenster mit den automatisch erzeugten Angaben zu einer Lernressource: Technische Informationen wie ID, Erstellungsdatum und externer Link, darunter die Verantwortlichen. Der Titel nennt den Typ, beim Kurs "Über diesen Kurs". Es öffnet sich im Administrationsmenü der Lernressource und aus dem Tab Metadaten der Einstellungen.
+
+*Englisch: About this learning resource* · *Bereich: Lernressourcen*
 
 ### Übersicht
 
@@ -4102,7 +4186,7 @@ Die Übersicht über die Video-Lernressourcen, auf die eine Person Zugriff hat.
 
 *Englisch: Video Collection* · *Bereich: Plattform* · [Handbuch](../../manual_user/area_modules/Video_Collection.de.md)
 
-### Video-Editor
+### Videoeditor
 
 Die Arbeitsfläche der Lernressource Video. Hier entstehen Kapitel, Annotationen, Kommentare, Quizfragen und Segmente, alle an einen Zeitpunkt im Video gebunden.
 
@@ -4366,7 +4450,7 @@ Die Rollen für Personen ohne reguläres Konto: Gast und eingeladene Person.
 
 Eine weitere Bedingung neben der ersten. Die Oberfläche trennt die Hauptbedingung von den Zusatzbedingungen, geprüft werden alle gleich.
 
-*Englisch: Additional condition* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Reminders.de.md)
+*Englisch: Additional rule* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Reminders.de.md)
 
 ### Zusätzliche Seite
 

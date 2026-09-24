@@ -1,8 +1,14 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 722 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 736 terms.
 
 ## A
+
+### About this learning resource
+
+The window with the automatically generated data of a learning resource: technical information such as ID, creation date and external link, below it the responsible persons. The title names the type, for a course "About this course". It opens from the administration menu of the learning resource and from the Metadata tab of the settings.
+
+*German: Über diese Lernressource* · *Domain: Learning resources*
 
 ### Absence
 
@@ -100,7 +106,7 @@ A single action in the project, for example creating a note or changing an event
 
 *German: Aktivität* · *Domain: Collaboration* · [Manual](../../manual_user/area_modules/Project_Timeline.md)
 
-### Additional condition
+### Additional rule
 
 A further rule beside the first one. The interface separates the main condition from the additional ones, but all of them are checked alike.
 
@@ -148,6 +154,12 @@ A single request from OpenOlat to an AI model, triggered by an AI feature. Every
 
 *German: KI-Aufruf* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
+### AI correction
+
+The correction of free text answers by the AI in the quiz of a page, as the answering person sees it. Without a stored choice OpenOlat asks at the start of the quiz whether the AI may correct the answers. The result is the AI feedback, not a grade.
+
+*German: KI-Korrektur* · *Domain: Artificial intelligence* · [Manual](../../manual_user/basic_concepts/Content_Editor.md)
+
 ### AI Feature
 
 One place of use of AI in the product, for example the MC question generator. Every feature is switched on individually and is given a provider, a model, an upper limit for input and output, and a timeout.
@@ -177,6 +189,12 @@ The quota of simultaneous AI calls per server node. The AI module keeps two pool
 The service whose models an AI feature uses. Several providers can be set up at the same time, and each feature picks one of them. A provider is only ready for use once its API key has been checked.
 
 *German: KI Anbieter* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
+
+### AI settings
+
+The tab in the personal settings in which a person decides, for every AI feature that works without their request, whether OpenOlat may use it for them: the AI feedback on free text answers and the AI image descriptions. Default follows the administration default, On and Off take precedence over it.
+
+*German: KI-Einstellungen* · *Domain: Artificial intelligence*
 
 ### Alias
 
@@ -220,7 +238,7 @@ The AI provider Anthropic Claude, connected through an API key. Using it produce
 
 *German: Anthropic Claude* · *Domain: Artificial intelligence* · [Manual](../../manual_admin/administration/External_Tools_AI.md)
 
-### API-Key
+### API Key
 
 A pair of client ID and client secret a third-party system signs in to the REST API with. User management creates it under Authentication; the secret can be read only once. The administration can restrict API access to accounts with an API key.
 
@@ -316,11 +334,23 @@ The step in which coaches assess the submitted work and award points, a status o
 
 *German: Bewertung* · *Domain: Tasks and practice* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
 
+### Assessment configuration
+
+The section in the Assessment tab of an assessable course element in the course editor where authors set the score, the success status, the grades and the assessment form. If assessments already exist, OpenOlat shows certain settings read-only until someone enables the edit mode.
+
+*German: Konfiguration Bewertung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Element_Assessment.md)
+
 ### Assessment documents
 
 Files coaches store with an assessment, for example a corrected exam sheet or an assessment rubric.
 
 *German: Bewertungsdokumente* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/The_assessment_form.md)
+
+### Assessment form
+
+The form in the assessment tool where coaches record the status, score, success status, comments and assessment documents for one person. In the course editor the section of the same name in the assessment configuration sets whether it has a comment field and assessment documents.
+
+*German: Bewertungsformular* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/The_assessment_form.md)
 
 ### Assessment inspection
 
@@ -418,6 +448,18 @@ The module with which people record audio and video directly in the browser: in 
 
 *German: Audio/Video-Aufnahme* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Audio_Video_Recording.md)
 
+### Audit log
+
+The record of the calls to the REST API, in the Audit log segment of the REST API page. It records all write calls (PUT, POST, DELETE) and all denied calls, read calls only with an option of their own. Every entry names, among other things, the person, IP address, path, status and duration.
+
+*German: Audit-Log* · *Domain: Platform*
+
+### Audit log entry
+
+A single recorded call in the audit log. It holds the date, channel, method, path, status, duration, IP address, person, authentication and user agent, on request also the request body.
+
+*German: Audit-Log Eintrag* · *Domain: Platform*
+
 ### Authentication
 
 The proof that a person is who they claim to be. OpenOlat supports several methods side by side, and one account can carry several of them.
@@ -450,7 +492,7 @@ The rules the Course Planner uses to carry out recurring work on its own, for ex
 
 ### Automation rule
 
-A single rule of the automation. It consists of a trigger, either a status change or a point in time relative to the implementation period, and an action such as instantiate a course or set a status. The element type provides it, the implementation can override it.
+A single rule of the automation. It consists of a trigger, either a status change or a point in time relative to the execution period, and an action such as instantiate a course or set a status. The element type provides it, the implementation can override it.
 
 *German: Automatisierungsregel* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Course_Planner.md)
 
@@ -533,6 +575,12 @@ The process by which a person gains access to a learning resource. It ends with 
 The record created by a booking. It holds who booked what, when and at what price, and is kept after the course has ended as well.
 
 *German: Buchungsauftrag* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/Reports_BookingOrders.md)
+
+### Booking order forms
+
+Forms that the booking person fills in when booking an offer of an implementation. For every offer the managing person sets which forms it uses and in which order. Every form is a step of its own in the booking process, and the submitted forms hang on the booking order.
+
+*German: Formulare für Buchungsaufträge* · *Domain: Catalogue, booking and payment*
 
 ### Building
 
@@ -976,7 +1024,7 @@ The counter of how often a person has run through the same course: the first run
 
 ### Course life cycle
 
-The process with which OpenOlat automatically sets courses to finished after the course end, later moves them to the trash and finally deletes them definitively. The trigger is the end of the implementation period. The owners can be informed about each step.
+The process with which OpenOlat automatically sets courses to finished after the course end, later moves them to the trash and finally deletes them definitively. The trigger is the end of the execution period. The owners can be informed about each step.
 
 *German: Kurs-Lebenszyklus* · *Domain: Course* · [Manual](../../manual_admin/administration/Life_cycles_-_Administration.md)
 
@@ -1082,11 +1130,17 @@ A transaction that adds credit points to a person, as a rule after a passed cour
 
 *German: Gutschrift* · *Domain: Catalogue, booking and payment*
 
-### Credit points
+### Credit points (Catalogue, booking and payment)
 
 The module that keeps credit points per person in a credit point system, credits them for passed courses and debits them again in certification programs for recertification. Paying for bookings with credit points is announced but not implemented.
 
 *German: Kreditpunkte* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/personal_menu/Credit_Points.md)
+
+### Credit points (Coaching)
+
+The tab in the overview of a coached person in Coaching that shows their credit points with balance and transactions. It appears only when the credit points module is on and the role holds the right View credit points.
+
+*German: Kreditpunkte* · *Domain: Coaching*
 
 ### Credit point system
 
@@ -1694,6 +1748,12 @@ The generic learning resource for recorded entries, built in the content editor.
 
 *German: Formular* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form.md)
 
+### Form editor
+
+The working surface of the form learning resource. It builds the form with the content editor from form elements such as rubric, single choice and text block and sets the question rules. When the form is already in use, it allows only restricted changes.
+
+*German: Formulareditor* · *Domain: Quality management and forms* · [Manual](../../manual_user/learningresources/Form_Editor.md)
+
 ### Form letter
 
 A PDF letter produced from a template and sent together with an e-mail, for example a letter of rejection.
@@ -1996,7 +2056,7 @@ The concrete run of an educational offering, with a period, a location, members 
 
 ### Implementation life cycle
 
-The course of an implementation through its statuses, from preparation through confirmed to finished. The automation sets the statuses at points in time that refer to the implementation period. The element type provides the rules, and the implementation can override them.
+The course of an implementation through its statuses, from preparation through confirmed to finished. The automation sets the statuses at points in time that refer to the execution period. The element type provides the rules, and the implementation can override them.
 
 *German: Durchführungs-Lebenszyklus* · *Domain: Course Planner* · [Manual](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
@@ -2020,7 +2080,7 @@ A message that appears on the login page, that is before signing in. It announce
 
 ### Info messages (Course)
 
-A course element for course notifications. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
+A course element for course info messages. Coaches publish short messages, optionally for a limited time, and can send them by e-mail.
 
 *German: Mitteilungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Notifications.md)
 
@@ -2032,7 +2092,7 @@ The Administration page under System where the info message for the login page a
 
 ### Info page (Course)
 
-The page that describes a learning resource before a person enters it, with the description, the period, the coaches and the option to book.
+The page that describes a learning resource before a person enters it, with the description, the period, the coaches and the option to book. It sums up the facts in an overview, shows events, teachers, certificate and credit points on request and can be downloaded as a PDF.
 
 *German: Infoseite* · *Domain: Course* · [Manual](../../manual_user/learningresources/Info_page.md)
 
@@ -2415,6 +2475,12 @@ A course element that shows a presentation or a channel of the lecture recording
 The connection to the video platform Mediasite for lecture recording, video management and captioning. Content is embedded in the course as a single presentation or a channel; the connection runs through LTI 1.1 or LTI 1.3.
 
 *German: Mediasite* · *Domain: Integrations and standards* · [Manual](../../manual_user/learningresources/Course_Element_Mediasite.md)
+
+### Meeting recording
+
+The recording of an online meeting in Microsoft Teams that OpenOlat downloads in the background after the meeting and stores itself. The recording starts automatically with the meeting or by hand through the meeting host. OpenOlat publishes it automatically for the chosen roles or later by hand. When a deletion period is set, OpenOlat deletes it after this number of days.
+
+*German: Terminaufzeichnung* · *Domain: Integrations and standards*
 
 ### Members
 
@@ -3220,7 +3286,7 @@ The wizard a person uses to create their own account. The steps: language, terms
 
 ### Relation role rights
 
-The 22 rights an administration can grant to a relation role or to an organisation role such as line manager. They act in the coaching tool on the assigned people: view, contact, manage accounts, book on behalf.
+The 24 rights an administration can grant to a relation role or to an organisation role such as line manager. They act in the coaching tool on the assigned people: view, contact, manage accounts, book on behalf.
 
 *German: Rechte von Beziehungsrollen* · *Domain: Roles* · [Manual](../../manual_user/basic_concepts/Roles.md)
 
@@ -3277,6 +3343,12 @@ A predefined query a report is produced from, with name, category, description a
 Up to five publications in full text that the applicant picks themselves as their most important.
 
 *German: Sonderdrucke von bis zu 5 Publikationen* · *Domain: Selectus*
+
+### Request limit
+
+The limitation of the requests to the REST API per person and per IP address. A request above the limit receives the HTTP status 429 with the header Retry-After. The administration sets three values: requests per minute per person, parallel requests per person and requests per minute per IP address without authentication.
+
+*German: Limite für Anfragen* · *Domain: Platform*
 
 ### Research statement
 
@@ -3478,6 +3550,12 @@ The connection to the Safe Exam Browser. The assessment mode requires this brows
 
 *German: Safe Exam Browser* · *Domain: Assessment* · [Manual](../../manual_how-to/SEB/SEB.md)
 
+### Safe Exam Browser configuration template
+
+A template with settings of the Safe Exam Browser that the administration creates under e-Assessment and that authors select in the assessment mode or in the assessment inspection. It is a form that is maintained in OpenOlat, or an imported SEB file whose settings are read-only. One active template is the default and is preselected.
+
+*German: Safe Exam Browser Konfigurationsvorlage* · *Domain: Assessment* · [Manual](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)
+
 ### Sample solution (Course)
 
 The sample solution of a task, which the coaches only release once the submission deadline has passed.
@@ -3546,7 +3624,7 @@ A level of structure inside a test part. The section bundles questions into a bl
 
 ### Security
 
-The Administration page under Login with the security settings: HTTP headers against embedding in frames, HTTPS downgrade and content type sniffing, SameSite cookie, CSRF protection, Content Security Policy with log and the enabled media servers.
+The Administration page under Login with the security settings: HTTP headers against embedding in frames, HTTPS downgrade and content type sniffing, SameSite cookie, CSRF protection, Content Security Policy with log, the enabled media servers and since 21.1 the SSRF mitigation.
 
 *German: Sicherheit* · *Domain: Platform* · [Manual](../../manual_admin/administration/Login_Security.md)
 
@@ -3816,7 +3894,7 @@ The three roles that apply to the whole system and belong to no organisation: sy
 
 ### System settings (area)
 
-The page in the personal menu with the preferences of an account, in the tabs System, WebDAV, Instant Messaging, Terms of use, User data and GUI preferences.
+The page in the personal menu with the preferences of an account, in the tabs System, WebDAV, Instant Messaging, Terms of use, User data and GUI preferences. When an AI feature is available for persons, the tab AI settings is added.
 
 *German: Einstellungen* · *Domain: Platform* · [Manual](../../manual_user/personal_menu/Settings.md)
 
@@ -3936,6 +4014,12 @@ The course element that embeds a test learning resource into the course. The res
 
 *German: Test* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Course_Element_Test.md)
 
+### Test editor
+
+The working surface of the test learning resource. Test parts, sections and questions in the QTI 2.1 format are made here, and the settings of the test and of every question are here.
+
+*German: Testeditor* · *Domain: Testing and question bank* · [Manual](../../manual_user/learningresources/Test_editor_QTI_2.1.md)
+
 ### Test part
 
 The top level of structure of a test. A test part bundles sections and sets for all of them together whether the candidate may go back and change answers.
@@ -4004,7 +4088,7 @@ The time axis below the video. It shows every event in its place: chapter, annot
 
 ### Time period
 
-A centrally maintained, named period such as a semester or a quarter that a course can choose as its implementation period. It serves filtering and sorting in the authoring area and in the Course Planner lists.
+A centrally maintained, named period such as a semester or a quarter that a course can choose as its execution period. It serves filtering and sorting in the authoring area and in the Course Planner lists.
 
 *German: Zeitabschnitt* · *Domain: Course Planner* · [Manual](../../manual_admin/administration/Modules_Time_Period.md)
 
@@ -4226,7 +4310,7 @@ The overview of the video learning resources a person has access to.
 
 The working surface of the video learning resource. Chapters, annotations, comments, quiz questions and segments are made here, all tied to a point in time in the video.
 
-*German: Video-Editor* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
+*German: Videoeditor* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/Learning_resource_Video.md)
 
 ### Video live stream
 

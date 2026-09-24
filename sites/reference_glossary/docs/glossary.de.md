@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 722 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 736 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -29,6 +29,12 @@ Der Vorgang, mit dem eine Person Zugang zu einer Lernressource erhält. Er endet
 Der Datensatz, der bei einer Buchung entsteht. Er hält fest, wer wann was zu welchem Preis gebucht hat, und bleibt auch nach dem Ende des Kurses erhalten.
 
 *Englisch: Booking order* · [Handbuch](../manual_user/area_modules/Reports_BookingOrders.de.md)
+
+### Formulare für Buchungsaufträge
+
+Formulare, welche die buchende Person beim Buchen eines Angebots einer Durchführung ausfüllt. Für jedes Angebot legt die verwaltende Person fest, welche Formulare es verwendet und in welcher Reihenfolge. Jedes Formular ist ein eigener Schritt des Buchungsablaufs, und die abgegebenen Formulare hängen am Buchungsauftrag.
+
+*Englisch: Booking order forms*
 
 ### Gutschrift
 
@@ -60,7 +66,7 @@ Die Stelle im Rechnungswesen der Organisation, welche die Kosten einer Buchung t
 
 *Englisch: Cost center* · [Handbuch](../manual_user/area_modules/Reports_BookingOrders.de.md)
 
-### Kreditpunkte
+### Kreditpunkte (Katalog, Buchung und Bezahlung)
 
 Das Modul, das Kreditpunkte je Person in einem Kreditpunktesystem führt, sie bei bestandenen Kursen gutschreibt und in Zertifikatsprogrammen für die Rezertifizierung wieder abzieht. Das Bezahlen von Buchungen mit Kreditpunkten ist angekündigt, aber nicht umgesetzt.
 
@@ -482,6 +488,12 @@ Die Umwandlung einer hochgeladenen Videodatei in mehrere Auflösungen, damit die
 
 *Englisch: Transcoding* · [Handbuch](../manual_admin/administration/Modules_Video.de.md)
 
+### Über diese Lernressource
+
+Das Fenster mit den automatisch erzeugten Angaben zu einer Lernressource: Technische Informationen wie ID, Erstellungsdatum und externer Link, darunter die Verantwortlichen. Der Titel nennt den Typ, beim Kurs "Über diesen Kurs". Es öffnet sich im Administrationsmenü der Lernressource und aus dem Tab Metadaten der Einstellungen.
+
+*Englisch: About this learning resource*
+
 ### Untertitel
 
 Eine Untertitelspur zum Video, je Sprache eine Datei im WebVTT-Format. OpenOlat kann sie auch selbst erzeugen.
@@ -494,7 +506,7 @@ Lernressource für eine Videodatei im Format mp4, ergänzt um Kapitel, Quizfrage
 
 *Englisch: Video* · [Handbuch](../manual_user/learningresources/Learning_resource_Video.de.md)
 
-### Video-Editor
+### Videoeditor
 
 Die Arbeitsfläche der Lernressource Video. Hier entstehen Kapitel, Annotationen, Kommentare, Quizfragen und Segmente, alle an einen Zeitpunkt im Video gebunden.
 
@@ -912,7 +924,7 @@ Kursbaustein, der eine einzelne HTML-Seite mit Texten, Bildern und Videos anzeig
 
 ### Infoseite (Kurs)
 
-Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit Beschreibung, Zeitraum, Betreuenden und Buchungsmöglichkeit.
+Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit Beschreibung, Zeitraum, Betreuenden und Buchungsmöglichkeit. Sie fasst die Fakten in einer Übersicht zusammen, zeigt auf Wunsch Termine, Dozent:innen, Zertifikat und Kreditpunkte und lässt sich als PDF herunterladen.
 
 *Englisch: Info page* · [Handbuch](../manual_user/learningresources/Info_page.de.md)
 
@@ -1280,7 +1292,7 @@ Der Bereich einer Lernressource, in dem die Angebote festgelegt werden: wer buch
 
 Eine weitere Bedingung neben der ersten. Die Oberfläche trennt die Hauptbedingung von den Zusatzbedingungen, geprüft werden alle gleich.
 
-*Englisch: Additional condition* · [Handbuch](../manual_user/learningresources/Course_Reminders.de.md)
+*Englisch: Additional rule* · [Handbuch](../manual_user/learningresources/Course_Reminders.de.md)
 
 ### Zuständig für dieses Thema
 
@@ -2094,6 +2106,12 @@ Der Abschnitt der Coaching-Einstiegsseite, der neue Anfragen je Ressource zählt
 
 *Englisch: Communication* · [Handbuch](../manual_user/area_modules/Coaching.de.md)
 
+### Kreditpunkte (Coaching)
+
+Der Tab in der Übersicht einer betreuten Person im Coaching, der ihre Kreditpunkte mit Guthaben und Transaktionen zeigt. Er erscheint nur, wenn das Modul Kreditpunkte eingeschaltet ist und die Rolle das Recht Kreditpunkte anzeigen hat.
+
+*Englisch: Credit points*
+
 ### Kurse (Coaching)
 
 Der Bereich des Coaching, der alle Kurse auflistet, in denen die Person Betreuer:in oder Besitzer:in ist, mit Teilnehmerzahl, Fortschritt und Erfolgsstatus je Kurs.
@@ -2344,6 +2362,12 @@ Kursbaustein, der eine Test-Lernressource in den Kurs einbindet. Das Ergebnis z�
 
 *Englisch: Test* · [Handbuch](../manual_user/learningresources/Course_Element_Test.de.md)
 
+### Testeditor
+
+Die Arbeitsfläche der Lernressource Test. Hier entstehen Testteile, Sektionen und Fragen im Format QTI 2.1, und hier stehen die Einstellungen des Tests und jeder Frage.
+
+*Englisch: Test editor* · [Handbuch](../manual_user/learningresources/Test_editor_QTI_2.1.de.md)
+
 ### Test-Part
 
 Oberste Gliederungsebene eines Tests. Ein Test-Part fasst Sektionen zusammen und legt für sie gemeinsam fest, ob die Testperson zurückblättern und Antworten ändern darf.
@@ -2408,6 +2432,12 @@ Dateien, welche Betreuende zu einer Bewertung ablegen, zum Beispiel ein korrigie
 
 *Englisch: Assessment documents* · [Handbuch](../manual_user/learningresources/The_assessment_form.de.md)
 
+### Bewertungsformular
+
+Das Formular im Bewertungswerkzeug, in dem Betreuende für eine Person Status, Punkte, Erfolgsstatus, Kommentare und Bewertungsdokumente erfassen. Im Kurseditor legt der gleichnamige Abschnitt der Konfiguration Bewertung fest, ob es ein Kommentarfeld und Bewertungsdokumente hat.
+
+*Englisch: Assessment form* · [Handbuch](../manual_user/learningresources/The_assessment_form.de.md)
+
 ### Bewertungsskala
 
 Die Zuordnung von Punktebereichen zu Notenwerten. Sie übersetzt eine Punktzahl in eine Note.
@@ -2443,6 +2473,12 @@ Die tiefste Note oder Leistungsklasse einer Bewertungsskala, mit der eine Leistu
 Das Ergebnis einer Bewertung mit den Werten Bestanden, Nicht bestanden und Keine Angabe. OpenOlat setzt ihn über die Punkteschwelle oder über das Erfolgskriterium der Bewertungsskala, oder Betreuende setzen ihn von Hand. In den Listen des Coaching und in der Kursliste steht er grafisch und als Zahl.
 
 *Englisch: Success status* · [Handbuch](../manual_user/learningresources/Course_Settings_Assessment.de.md)
+
+### Konfiguration Bewertung
+
+Der Abschnitt im Tab Bewertung eines bewertbaren Kursbausteins im Kurseditor, in dem Autorinnen und Autoren Punkte, Erfolgsstatus, Noten und das Bewertungsformular einstellen. Sind bereits Bewertungen vorhanden, zeigt OpenOlat bestimmte Einstellungen schreibgeschützt an, bis jemand den Bearbeitungsmodus aktiviert.
+
+*Englisch: Assessment configuration* · [Handbuch](../manual_user/learningresources/Course_Element_Assessment.de.md)
 
 ### Korrektur
 
@@ -2527,6 +2563,12 @@ Ein Formular mit einer Rubrik, das Betreuende beim Bewerten ausfüllen. Es macht
 Anbindung des Safe Exam Browser. Der Prüfungsmodus verlangt diesen Browser und sperrt damit während der Prüfung alle anderen Programme des Geräts.
 
 *Englisch: Safe Exam Browser* · [Handbuch](../manual_how-to/SEB/SEB.de.md)
+
+### Safe Exam Browser Konfigurationsvorlage
+
+Eine Vorlage mit Einstellungen des Safe Exam Browser, welche die Administration unter e-Assessment anlegt und die Autorinnen und Autoren im Prüfungsmodus oder in der Prüfungseinsicht auswählen. Sie ist ein Formular, das in OpenOlat gepflegt wird, oder eine importierte SEB-Datei, deren Einstellungen schreibgeschützt sind. Eine aktive Vorlage ist der Standard und wird vorausgewählt.
+
+*Englisch: Safe Exam Browser configuration template* · [Handbuch](../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)
 
 ## Nachweise
 
@@ -2685,6 +2727,12 @@ Eine frühere Erhebung zum selben Gegenstand, die als Vergleichswert dient. Ohne
 Die generische Lernressource für erfasste Angaben, gebaut im Content Editor. Sie wird an sechs Stellen mit unterschiedlicher Bedeutung eingesetzt: als Beurteilungsraster im E-Portfolio, im Kursbaustein Bewertung und im Kursbaustein Aufgabe samt Peer-Review; als Qualitätsraster im Qualitätsmanagement und im Kursbaustein Umfrage; als Formular im Kursbaustein Formular. Die Bedeutung kommt von der einbindenden Stelle, nicht vom Formular.
 
 *Englisch: Form* · [Handbuch](../manual_user/learningresources/Form.de.md)
+
+### Formulareditor
+
+Die Arbeitsfläche der Lernressource Formular. Sie baut das Formular mit dem Content Editor aus Formularelementen wie Rubrik, Einzelauswahl und Textblock und legt die Frageregeln fest. Ist das Formular schon im Einsatz, erlaubt sie nur noch eingeschränkte Änderungen.
+
+*Englisch: Form editor* · [Handbuch](../manual_user/learningresources/Form_Editor.de.md)
 
 ### Heatmap
 
@@ -3136,7 +3184,19 @@ Die Seite der Administration unter System, die die angemeldeten Sitzungen zeigt 
 
 Ein Paar aus Client ID und Client Secret, mit dem sich ein Fremdsystem an der REST API anmeldet. Die Kontoverwaltung legt es unter Authentifizierung an; das Secret ist nur einmal lesbar. Die Administration kann den API-Zugriff auf Konten mit API-Key beschränken.
 
-*Englisch: API-Key* · [Handbuch](../manual_admin/administration/REST_API.de.md)
+*Englisch: API Key* · [Handbuch](../manual_admin/administration/REST_API.de.md)
+
+### Audit-Log
+
+Das Protokoll der Aufrufe der REST API, im Segment Audit-Log der Seite REST API. Es hält alle schreibenden Aufrufe (PUT, POST, DELETE) und alle abgelehnten Aufrufe fest, lesende Aufrufe nur mit einer eigenen Option. Jeder Eintrag nennt unter anderem Person, IP-Adresse, Pfad, Status und Dauer.
+
+*Englisch: Audit log*
+
+### Audit-Log Eintrag
+
+Ein einzelner protokollierter Aufruf im Audit-Log. Er hält Datum, Kanal, Methode, Pfad, Status, Dauer, IP-Adresse, Person, Authentifizierung und User-Agent fest, auf Wunsch auch den Request-Body.
+
+*Englisch: Audit log entry*
 
 ### Authentifizierung
 
@@ -3278,7 +3338,7 @@ Der Link, mit dem eine externe Person ohne Konto Zugang zu genau einer Ressource
 
 ### Einstellungen
 
-Die Seite im persönlichen Menü mit den Voreinstellungen eines Kontos, in den Tabs System, WebDAV, Instant-Messaging, Nutzungsbedingungen, Personendaten und GUI-Einstellungen.
+Die Seite im persönlichen Menü mit den Voreinstellungen eines Kontos, in den Tabs System, WebDAV, Instant-Messaging, Nutzungsbedingungen, Personendaten und GUI-Einstellungen. Ist eine KI-Funktion für Personen verfügbar, kommt der Tab KI-Einstellungen dazu.
 
 *Englisch: System settings* · [Handbuch](../manual_user/personal_menu/Settings.de.md)
 
@@ -3444,6 +3504,12 @@ Der zeitlich gesteuerte Ablauf eines Objekts von der Erstellung bis zum Ende sei
 
 *Englisch: Life cycle* · [Handbuch](../manual_admin/administration/Life_cycles_-_Administration.de.md)
 
+### Limite für Anfragen
+
+Die Begrenzung der Anfragen an die REST API je Person und je IP-Adresse. Eine Anfrage über der Limite erhält den HTTP-Status 429 mit dem Header Retry-After. Die Administration stellt drei Werte ein: Anfragen pro Minute pro Person, parallele Anfragen pro Person und Anfragen pro Minute pro IP-Adresse ohne Authentifizierung.
+
+*Englisch: Request limit*
+
 ### LinkedIn
 
 Anbindung an LinkedIn für die Anmeldung mit dem LinkedIn-Konto über OAuth 2.0.
@@ -3596,7 +3662,7 @@ Anbindung an eine Shibboleth-Föderation. Die Anmeldung erfolgt bei der Heimatho
 
 ### Sicherheit
 
-Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-Header gegen Einbettung in Frames, HTTPS-Downgrade und Content-Type-Raten, SameSite-Cookie, CSRF-Schutz, Content Security Policy mit Log und die freigegebenen Medien-Server.
+Die Seite der Administration unter Login mit den Sicherheitseinstellungen: HTTP-Header gegen Einbettung in Frames, HTTPS-Downgrade und Content-Type-Raten, SameSite-Cookie, CSRF-Schutz, Content Security Policy mit Log, die freigegebenen Medien-Server und seit 21.1 die SSRF Mitigation.
 
 *Englisch: Security* · [Handbuch](../manual_admin/administration/Login_Security.de.md)
 
@@ -3960,7 +4026,7 @@ Administrative Organisationsrolle. Sie plant die Datenerhebungen des Qualitätsm
 
 ### Rechte von Beziehungsrollen
 
-Die 22 Rechte, die eine Administration einer Beziehungsrolle oder einer Organisationsrolle wie Linienvorgesetzte:r geben kann. Sie wirken im Coaching auf die zugeordneten Personen: sehen, kontaktieren, Konten führen, im Namen buchen.
+Die 24 Rechte, die eine Administration einer Beziehungsrolle oder einer Organisationsrolle wie Linienvorgesetzte:r geben kann. Sie wirken im Coaching auf die zugeordneten Personen: sehen, kontaktieren, Konten führen, im Namen buchen.
 
 *Englisch: Relation role rights* · [Handbuch](../manual_user/basic_concepts/Roles.de.md)
 
@@ -4238,6 +4304,12 @@ Standard Sharable Content Object Reference Model. Er verpackt Lerninhalt so, das
 
 *Englisch: SCORM* · [Handbuch](../manual_user/learningresources/Course_Element_SCORM_Learning_Content.de.md)
 
+### Terminaufzeichnung
+
+Die Aufzeichnung eines Online-Termins in Microsoft Teams, die OpenOlat nach dem Termin im Hintergrund herunterlädt und selbst ablegt. Die Aufzeichnung startet automatisch mit dem Termin oder von Hand durch die Sitzungsleitung. OpenOlat veröffentlicht sie automatisch für die gewählten Rollen oder später von Hand. Ist eine Löschfrist gesetzt, löscht OpenOlat sie nach dieser Zahl Tage.
+
+*Englisch: Meeting recording*
+
 ### Tool
 
 Die externe Anwendung, die über LTI angebunden ist.
@@ -4332,6 +4404,12 @@ Eine einzelne Anfrage von OpenOlat an ein KI-Modell, ausgelöst durch eine KI-Fu
 
 *Englisch: AI call* · [Handbuch](../manual_admin/administration/External_Tools_AI.de.md)
 
+### KI-Einstellungen
+
+Der Tab in den persönlichen Einstellungen, in dem eine Person für jede KI Funktion, die ohne ihren Auftrag arbeitet, entscheidet, ob OpenOlat sie für sie nutzen darf: das KI-Feedback zu Freitextantworten und die KI-Bildbeschreibungen. Vorgabe folgt der Vorgabe der Administration, Ein und Aus gelten vor ihr.
+
+*Englisch: AI settings*
+
 ### KI-Feedback
 
 Das formative Feedback, das Lernende im Quiz einer Seite zu ihrer Freitextantwort abrufen. Es besteht aus der Beurteilung, einer Gesamteinschätzung, der Verlässlichkeit und den Abschnitten "Was gut gelungen ist", "Was fehlt noch", "Nächster Schritt" und "Sprache". Es vergibt keine Punkte. Im Fragen-Editor heisst so auch der Tab, in dem das Bewertungs-Kit gepflegt wird.
@@ -4343,6 +4421,12 @@ Das formative Feedback, das Lernende im Quiz einer Seite zu ihrer Freitextantwor
 Ein Einsatzbereich der KI im Produkt, zum Beispiel der MC Fragen Generator. Jede Funktion wird einzeln aktiviert und erhält einen Anbieter, ein Modell, eine Obergrenze für Ein- und Ausgabe sowie ein Timeout.
 
 *Englisch: AI Feature* · [Handbuch](../manual_admin/administration/External_Tools_AI.de.md)
+
+### KI-Korrektur
+
+Die Korrektur von Freitextantworten durch die KI im Quiz einer Seite, so wie die antwortende Person sie sieht. Ohne gespeicherte Wahl fragt OpenOlat zu Beginn des Quiz, ob die KI die Antworten korrigieren darf. Das Ergebnis ist das KI-Feedback, keine Note.
+
+*Englisch: AI correction* · [Handbuch](../manual_user/basic_concepts/Content_Editor.de.md)
 
 ### KI Modul
 
