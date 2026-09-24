@@ -171,8 +171,6 @@ Here you can decide whether you want to overwrite the existing taxonomy levels o
 
 1. First download the current taxonomy. If you don't have one yet, use the template.
 
-![Excel template of the taxonomy structure with the columns Path, Identifier, Type, Order as well as Language, Display name and Description per language](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
-
 2. Inside the excel sheet you add new taxonomy levels or change existing ones. The path that indicates the hierarchical structure is important. If this is incorrect, certain layers cannot be imported.
 If you have activated different languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md), it is advisable to make the title and description language-dependent. Additional languages can be added by copying the columns "Language", "Title" & "Description" and adding a new, existing language, title + description for each taxonomy level.
 

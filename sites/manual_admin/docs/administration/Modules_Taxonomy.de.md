@@ -180,8 +180,6 @@ Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben la
 
 1. Laden Sie die aktuelle Taxonomie herunter oder nutzen Sie die Vorlage unter dem entsprechenden Punkt
 
-![Excel-Vorlage der Taxonomiestruktur mit den Spalten Pfad, Kennzeichen, Typ, Sortierung sowie Sprache, Anzeigename und Beschreibung je Sprache](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
-
 2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
  Haben Sie verschiedene Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), ist es ratsam, Titel und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Sprache", "Titel" & "Beschreibung" kopieren, diese hinten anhängen und eine neue, existierende Sprache, Titel + Beschreibung für jede Taxonomieebene ergänzen.
 
