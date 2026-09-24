@@ -26,7 +26,7 @@ However, keep the following in mind:
 
 If "With begin and end date" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. 
 
-The end date of the course period is also used for the course lifecycle. The exact implications of this are determined by the OpenOlat administrators. For example, the course could be set to "completed" two days after the end date and/or deleted four weeks after the end date. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. 
+The end date of the course period is also used for the course lifecycle. The exact implications of this are determined by the OpenOlat administrators. For example, the course could be set to "completed" two days after the end date and/or deleted four weeks after the end date. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. The configuration is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
 In traditional courses, the "Pass" status is determined based on whether the result was achieved within the course period. If a "Pass" is not achieved by the end date, "Fail" is automatically displayed.
 
@@ -175,6 +175,7 @@ Traditional courses do not include a "Learning Progress" option.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Personal tools: Absences >](../personal_menu/Absences.md)<br>

@@ -95,15 +95,17 @@ The course lifecycle can be used by anyone who has access to the authoring area.
 
 The basis is the administrator's default settings:
 
-![The three steps Finished, Delete (recycle bin) and Delete permanently with period and unit, below them the enforced notification of the owners: page Courses in the system administration](assets/lifecycle_course_admin_v1_en.png){ class="shadow lightbox" }
+![The three steps Finished, Delete (Trash) and Delete permanently with period and unit, below them the enforced notification of the owners: page Courses in the system administration](assets/lifecycle_course_admin_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
-* Courses with the status "Recycle bin" are collected in the "Deleted" tab of the authoring area.
-* As soon as you have selected a course and marked the checkbox at the beginning of the line, further buttons appear above the list. Here you can restore a course or delete it permanently
+* Courses with the status "Trash" are collected in the "Deleted" tab of the authoring area.
+* As soon as you have selected a course and marked the checkbox at the beginning of the line, further buttons appear above the list. Here you can restore a course. Administrators and learning resource managers can delete it permanently.
 * Also by clicking on the 3 dots at the end of a line you will get to the options for restoring or permanently deleting.
 
-![Tab Deleted with courses in the status Recycle bin, the buttons Restore and Delete permanently and the same actions in the row menu: authoring area](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" }
+![Tab Deleted with courses in the status Trash, the buttons Restore and Delete permanently and the same actions in the row menu: authoring area](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" }
+
+How administrators configure the periods, check the impacts in the confirmation dialog and follow the running process is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
 [To the top of the page ^](#lifecycles)
 
@@ -195,6 +197,7 @@ It can be configured so that owners are notified of status changes.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Life cycles: Administration >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
 [Configure user >](../../manual_admin/usermanagement/Configure_User.md)
 

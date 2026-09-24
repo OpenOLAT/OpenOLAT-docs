@@ -51,7 +51,7 @@ Unter "Auswirkungen" steht für jeden eingeschalteten Schritt eine Zeile mit der
 ![Markierte Liste Auswirkungen mit der Anzahl Kurse je Schritt, darunter Kontrollkästchen Bestätigung und Button Speichern und starten, Dialog Lebenszyklus-Konfiguration speichern](assets/automatic_course_lifecycle_confirmation_v1_de.png){ class="shadow lightbox" }
 
 !!! warning "Achtung"
-    Auf einer Instanz mit vielen alten Kursen erfasst die Konfiguration bereits beim ersten Lauf sehr viele Kurse auf einmal, und der Prozess startet unmittelbar nach dem Speichern. Lesen Sie die Anzahlen im Dialog, bevor Sie bestätigen.
+    Der Prozess startet unmittelbar nach dem Bestätigen und verarbeitet im ersten Lauf alle Kurse, deren Frist bereits abgelaufen ist. Auf einer Instanz mit vielen alten Kursen landen so auf einen Schlag hunderte Kurse im Papierkorb oder werden endgültig gelöscht, und die Teilnehmenden verlieren ihren Zugang. Prüfen Sie die Anzahlen unter "Auswirkungen", bevor Sie bestätigen. Schalten Sie im Zweifel zuerst nur den Schritt "Beendet" ein und ergänzen Sie die weiteren Schritte, sobald das Ergebnis stimmt.
 
 Um zu speichern, wählen Sie unter "Bestätigung" das Kontrollkästchen "Ich habe die Auswirkungen verstanden und möchte den Lebenszyklus-Prozess mit dieser Konfiguration starten." und klicken auf "Speichern und starten". Ohne dieses Häkchen meldet der Dialog "Bestätigen Sie bitte." und speichert nichts. Nach der Bestätigung speichert OpenOlat die Konfiguration und startet den Prozess sofort. Läuft bereits ein Prozess, hält OpenOlat ihn an und startet ihn mit der neuen Konfiguration neu.
 

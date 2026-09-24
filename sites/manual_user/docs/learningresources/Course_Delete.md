@@ -4,12 +4,12 @@
 
 When a course or learning resource is deleted, all user data is removed and the course can now neither be accessed nor viewed by former participants or coaches.
 
-Course owners can then find the deleted learning resource in the "Deleted" tab in the author area. The learning resource appears here with the status "Recycle bin". The administration menu items can still be accessed. The "Trash" status cannot be changed. However, it is possible to restore the learning resource via the link in the 3-dot menu.
+Course owners can then find the deleted learning resource in the "Deleted" tab in the author area. The learning resource appears here with the status "Trash". The administration menu items can still be accessed. The "Trash" status cannot be changed. However, it is possible to restore the learning resource via the link in the 3-dot menu.
 
 
 !!! info "Final deletion"
 
-    The final deletion of a course or learning resource from the "Deleted" tab is only possible by OpenOlat administrators.
+    The final deletion of a course or learning resource from the "Deleted" tab is only possible by administrators and learning resource managers.
 
 !!! info "Archiving"
 

@@ -25,22 +25,18 @@ Settings can be made both for groups in general and only for certain group types
 
 ## Courses {: #lifecycle_courses}
 
-The life cycle of courses can be defined, 
+In the [course life cycle](Automatic_Course_Lifecycle.md) you can define, 
 
 * whether and when a course is automatically set to "Finished" status 
 * when it is then moved to the trash,
 * and when it will be permanently deleted
 
-Course owners can be automatically informed of any status changes.
+In addition, you can enforce the notification of the owners when someone finishes or deletes a course in the authoring area.
 
-### Controlling a running process [:octicons-tag-16:{ title="from Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
 
-You see and control the running process in the section "Life cycle process" under:<br>
-`Administration > Life cycles > Courses`
-
-A saved change to the lifecycle settings takes effect **immediately** on a process that is already running: before each single course, the process checks again whether the step is still switched on. If you switch a step off, the pass stops at the next course instead of processing the old setting to the end.
-
-Using the **"Stop process"** button, you stop a running pass immediately. This way a corrected setting takes effect right away, even when many courses have already been selected for processing.
+!!! info "Course life cycle: Details"
+    Steps, configuration, confirmation before saving and status display of the automatic course life cycle.<br>
+    [Course life cycle](Automatic_Course_Lifecycle.md)
 
 [To the top of the page ^](#lifecycles)
 
@@ -119,6 +115,7 @@ An account with the status "Active and not deletable" is excluded from deletion 
 
 **Mentioned on this page**<br>
 [Group life cycle >](Automatic_Group_Lifecycle.md)<br>
+[Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)<br>
 [Configure user >](../usermanagement/Configure_User.md)<br>
 [Delete user >](../usermanagement/Delete_User.md)
 
