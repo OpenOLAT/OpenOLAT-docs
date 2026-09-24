@@ -27,23 +27,18 @@ Einstellung können sowohl für Gruppen generell, als auch nur für bestimmte Gr
 
 ## Kurse {: #lifecycle_courses}
 
-Im Lebenszyklus von Kursen kann festgelegt werden, 
+Im [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md) kann festgelegt werden, 
 
 * ob und wann ein Kurs automatisch in den Status "Beendet" versetzt wird,
 * wann er danach in den Papierkorb verschoben wird,
 * und wann er endgültig gelöscht wird
 
-Über jede Statusänderung können die Kursbesitzer:innen automatisch informiert werden.
+Zusätzlich lässt sich die Benachrichtigung der Besitzer:innen erzwingen, wenn jemand einen Kurs im Autorenbereich beendet oder löscht.
 
-### Laufenden Prozess steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589)
 
-Den laufenden Prozess sehen und steuern Sie im Abschnitt "Lebenszyklus-Prozess" unter:<br>
-`Administration > Lebenszyklen > Kurse`
-
-Eine gespeicherte Änderung der Lebenszyklus-Einstellungen wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Vor jedem einzelnen Kurs prüft der Prozess erneut, ob der Schritt noch eingeschaltet ist. Schalten Sie einen Schritt ab, bricht der Durchlauf beim nächsten Kurs ab, statt die alte Einstellung zu Ende zu verarbeiten.
-
-Über die Schaltfläche **"Prozess stoppen"** halten Sie einen laufenden Durchlauf sofort an. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitung ausgewählt wurden.
-
+!!! info "Kurs-Lebenszyklus: Details"
+    Schritte, Konfiguration, Bestätigung vor dem Speichern und Statusanzeige des automatischen Kurs-Lebenszyklus.<br>
+    [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -122,6 +117,7 @@ Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Lebe
 
 **Auf dieser Seite erwähnt**<br>
 [Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
+[Automatischer Kurs-Lebenszyklus >](Automatic_Course_Lifecycle.de.md)<br>
 [Konto konfigurieren >](../usermanagement/Configure_User.de.md)<br>
 [Benutzer:in löschen >](../usermanagement/Delete_User.de.md)
 

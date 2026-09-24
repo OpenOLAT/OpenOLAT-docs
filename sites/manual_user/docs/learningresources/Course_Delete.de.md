@@ -9,7 +9,7 @@ Kursbesitzer:innen finden die gelöschte Lernressource anschliessend im Autorenb
 
 !!! info "Endgültiges Löschen"
 
-    Das endgültige Löschen eines Kurses bzw. Lernressource aus dem Tab "Gelöscht" ist nur durch OpenOlat-Administrator:innen möglich.
+    Das endgültige Löschen eines Kurses bzw. einer Lernressource aus dem Tab "Gelöscht" ist nur durch Administrator:innen und Lernressourcenverwalter:innen möglich.
 
 !!! info "Archivierung"
 

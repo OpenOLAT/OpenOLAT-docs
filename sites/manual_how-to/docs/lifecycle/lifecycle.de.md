@@ -104,10 +104,12 @@ Grundlage sind die Voreinstellungen der Administration:
 <br>
 
 * Kurse mit dem Status "Papierkorb" werden im Reiter "Gelöscht" des Autorenbereichs gesammelt.
-* Sobald Sie einen Kurs ausgewählt und die Checkbox am Beginn der Zeile markiert haben, erscheinen über der Liste weitere Buttons. Sie können hier einen Kurs wieder herstellen oder endgültig löschen.
+* Sobald Sie einen Kurs ausgewählt und die Checkbox am Beginn der Zeile markiert haben, erscheinen über der Liste weitere Buttons. Sie können hier einen Kurs wiederherstellen. Endgültig löschen können ihn Administrator:innen und Lernressourcenverwalter:innen.
 * Auch durch Klick auf die 3 Punkte am Ende einer Zeile gelangen Sie zu den Optionen für das Wiederherstellen oder dauerhafte Löschen.
 
 ![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Zeilenmenü: Autorenbereich](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" }
+
+Wie Administrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätigungsdialog prüfen und den laufenden Prozess verfolgen, beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -199,6 +201,7 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
 [Lebenszyklen: Administration >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
 [Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
 

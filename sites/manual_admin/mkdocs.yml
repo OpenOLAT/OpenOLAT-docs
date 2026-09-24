@@ -45,6 +45,7 @@ nav:
     - Life cycles:
       - Overview : "administration/Life_cycles_-_Administration.md"
       - Automatic Group Life Cycle: "administration/Automatic_Group_Lifecycle.md"
+      - Automatic Course Life Cycle: "administration/Automatic_Course_Lifecycle.md"
     - Payment modules:
       - Overview: "administration/Payment_modules.md"
       - Invoice: "administration/Payment_Invoice.md"

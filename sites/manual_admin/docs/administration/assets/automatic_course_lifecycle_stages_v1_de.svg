@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" width="780" height="330" role="img" aria-label="Drei Schritte des automatischen Kurs-Lebenszyklus">
+<rect width="780" height="330" fill="#F3F4EF"/>
+<text x="390" y="34" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="19" font-weight="600" fill="#2D2926">Automatischer Kurs-Lebenszyklus: drei Schritte</text>
+<text x="390" y="56" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#A6A6A6">Der tägliche Lauf bewegt Kurse nach Ablauf der konfigurierten Frist einen Schritt weiter</text>
+
+<rect x="30" y="86" width="210" height="120" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2"/>
+<rect x="30" y="86" width="210" height="30" rx="8" fill="#209D9E"/>
+<text x="50" y="106" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">1. Beendet</text>
+<text x="50" y="140" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Kurs wird auf «Beendet»</text>
+<text x="50" y="158" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">gesetzt</text>
+<text x="50" y="182" font-family="'Roboto', sans-serif" font-size="12" fill="#135E5F">Zugriff je nach Konfiguration</text>
+<text x="50" y="198" font-family="'Roboto', sans-serif" font-size="12" fill="#B2CF42">umkehrbar</text>
+
+<path d="M244 146 L280 146" stroke="#135E5F" stroke-width="2"/><path d="M276 142 l8 4 l-8 4 z" fill="#135E5F"/>
+<text x="262" y="136" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6">Frist</text>
+
+<rect x="286" y="86" width="210" height="120" rx="8" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+<rect x="286" y="86" width="210" height="30" rx="8" fill="#F2AF40"/>
+<text x="306" y="106" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#2D2926">2. Papierkorb</text>
+<text x="306" y="140" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Kurs wird verschoben,</text>
+<text x="306" y="158" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Teilnehmende entfernt</text>
+<text x="306" y="182" font-family="'Roboto', sans-serif" font-size="12" fill="#135E5F">im Autorenbereich sichtbar</text>
+<text x="306" y="198" font-family="'Roboto', sans-serif" font-size="12" fill="#B2CF42">wiederherstellbar</text>
+
+<path d="M500 146 L536 146" stroke="#135E5F" stroke-width="2"/><path d="M532 142 l8 4 l-8 4 z" fill="#135E5F"/>
+<text x="518" y="136" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#A6A6A6">Frist</text>
+
+<rect x="542" y="86" width="210" height="120" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="2"/>
+<rect x="542" y="86" width="210" height="30" rx="8" fill="#8F1F40"/>
+<text x="562" y="106" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">3. Endgültig gelöscht</text>
+<text x="562" y="140" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Kurs inklusive Daten</text>
+<text x="562" y="158" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">wird gelöscht</text>
+<text x="562" y="182" font-family="'Roboto', sans-serif" font-size="12" fill="#8F1F40">nicht wiederherstellbar</text>
+
+<rect x="30" y="232" width="722" height="70" rx="8" fill="#FFFFFF" stroke="#A6A6A6"/>
+<text x="50" y="256" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#135E5F">Vor dem Speichern: Bestätigung mit Vorschau</text>
+<text x="50" y="278" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">OpenOlat zeigt, wie viele Kurse die neue Konfiguration auf welchen Schritt setzt. Ein Abbruch speichert nichts.</text>
+<text x="50" y="294" font-family="'Roboto', sans-serif" font-size="12" fill="#A6A6A6">Danach zeigt der Abschnitt «Lebenszyklus-Prozess» den laufenden Prozess, den nächsten Lauf und die Vorschau der nächsten Tage.</text>
+</svg>
