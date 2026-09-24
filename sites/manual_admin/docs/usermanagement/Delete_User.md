@@ -115,7 +115,7 @@ The most frequent question concerns the media items in the Media Center. There, 
 
 |Information|What happens to it?|
 |---| ---------------------------------------- |
-|`User management > Profile` :octicons-person-24: |**Deleted:** Login name, first name, last name, email, email signature, date of birth, gender, private phone, mobile phone, business phone, Skype ID, XING profile name, ICQ, homepage, street, address supplement, PO box, postal code, region/canton, city, country, institution, institution number (matriculation number), institution email, organisational unit, study group, field of study, personal text "About me", personal profile picture. **Exceptions:** For persons with administrative permissions, first and last name are retained so that actions can continue to be traced.|
+|`User management > Profile` :octicons-person-24: |**Deleted:** Login name, first name, last name, email, email signature, date of birth, gender, private phone, mobile phone, business phone, Skype ID, XING profile name, ICQ, homepage, street, address supplement, PO box, postal code, region/canton, city, country, institution, institution number (matriculation number), institution email, organisational unit, study group, field of study, personal text "About me", personal profile picture. **Exception:** For persons with an administrative role, first name and last name are retained, see [Whose name is retained?](#name_retention).|
 |`User management > Business card` :octicons-person-24:|All details on the business card are taken from the profile, so after the profile is deleted they are no longer available for the business card either. The user's business card is no longer displayed in OpenOlat (e.g. in forums or comments).|
 |`User management > System settings` :octicons-person-24: |All system settings are deleted: general system settings (e.g. language), special system settings (e.g. the start page) and personal tools.|
 |`User management > Account` :octicons-person-24:| Account type, account creation date, last login and account expiry are deleted. The account is set to the status "deleted". |
@@ -138,7 +138,7 @@ The most frequent question concerns the media items in the Media Center. There, 
 |**Chat history** :octicons-person-24: | The chat messages of the person are deleted, as are their entry in the contact lists and the chat settings. Only the posts written by this person are removed. The posts of the other participants in the same conversations remain.|
 |**Personal folder** :octicons-person-24: |The personal folder is deleted.|
 |**Portfolio** :octicons-person-24: | Binders, sections and entries created in an ePortfolio are deleted. If binders were shared with other users, they are no longer accessible there either. This row covers the deleted person's own binders, sections and entries. Comments that this person left on shared entries of other people are covered by the following row "Comments".|
-|**Comments** :octicons-person-24: :octicons-package-24: | The comments of the deleted person are deleted together with their attached files: in courses, on videos, in the question bank, in blogs, in podcasts and in the Library. Two kinds of comments stay readable instead. First, the comments on ePortfolio entries. The other people involved use them to comment on and assess the portfolio work, so the text and the attached files remain unchanged. This also applies to comments the deleted person wrote on their own pages, and to comments on binders that still come from an earlier portfolio version. Second, every comment that someone has replied to, everywhere in OpenOlat and not only in the ePortfolio, because without it the replies lose their reference. The author of a retained comment is shown as "Unknown user", with the icon of a deleted account instead of the profile picture and without a link to the business card. If the deleted person holds an administrative role, first and last name stay visible. See the row `User management > Profile` further up in this table, part "Exceptions". Retained comments and their files disappear for good as soon as the corresponding page, section, binder or course is deleted. [:octicons-tag-16:{ title="from Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
+|**Comments** :octicons-person-24: :octicons-package-24: | The comments of the deleted person are deleted together with their attached files: in courses, on videos, in the question bank, in blogs, in podcasts and in the Library. Two kinds of comments stay readable instead. First, the comments on ePortfolio entries. The other people involved use them to comment on and assess the portfolio work, so the text and the attached files remain unchanged. This also applies to comments the deleted person wrote on their own pages, and to comments on binders that still come from an earlier portfolio version. Second, every comment that someone has replied to, everywhere in OpenOlat and not only in the ePortfolio, because without it the replies lose their reference. The author of a retained comment is shown as "Unknown user", with the icon of a deleted account instead of the profile picture and without a link to the business card. If the deleted person holds an administrative role, first and last name stay visible. See [Whose name is retained?](#name_retention). Retained comments and their files disappear for good as soon as the corresponding page, section, binder or course is deleted. [:octicons-tag-16:{ title="from Release 20.3.10 (OO-9632)" }](https://track.frentix.com/issue/OO-9632)|
 |**Personal to-dos** :octicons-person-24: | The assignment to the deleted account is removed; the to-do entry itself remains but is then no longer assigned to anyone. (to-dos in projects: see below) |
 |**Mailbox** :octicons-person-24: |Emails listed in the mailbox of the personal menu are deleted. (The internal email inbox is completely deleted.)|
 |**Recipient of a reminder email** :octicons-package-24: |If the deleted user was a potential recipient of a reminder email, the email will no longer be sent to the deleted person. (The recipient list is created at the time the rules are checked, so a deleted person no longer appears on the mailing list.)|
@@ -161,13 +161,55 @@ The most frequent question concerns the media items in the Media Center. There, 
 |`User management > Badges` :octicons-person-24: | Badges are retained so that authenticity can be confirmed (host-based verification, signed verification). It is nevertheless advisable to inform users whose accounts are to be deleted in advance so that they can download their earned badges from the personal menu. If **global badges** were awarded, the recipient's name is replaced by "unknown user" in the list of awarded global badges. Administrators find this list in the system administration: `Administration > e-Assessment > OpenBadges > Awarded global badges`. It remains visible when and by whom a global badge was once awarded. Even if the badge is revoked by clicking "Revoke", it remains as a list entry with the status "Revoked" in the list of awarded global badges. |
 |**Owner role in learning resources and courses** :octicons-package-24: | Learning resources and courses are not deleted when their owner is deleted, regardless of whether the learning resource was published, shared with other authors, or not referenced/used anywhere. If the deleted user was the sole owner, an administrator is entered as a substitute owner. This also applies to test learning resources.|
 |**Questions in the question bank** :octicons-person-24: :octicons-package-24:| Questions from the question bank are only deleted if the person is their sole author and the setting "Delete questions when author deleted" is enabled. Questions with additional authors, as well as all questions when the setting is disabled, are retained. |
-|**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | What matters is whether the media item is embedded in a page. This applies to the "Page" course element as well as to ePortfolio pages. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted. Sharing a media item in the Media Center does not protect it. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well. Administrators and learn resource managers find the retained media items under `Personal menu > Media Center > "Media management" segment`.<br> It makes sense to ask the person concerned to download any media items they need before their account is deleted. If a media item is to remain in the system, it must be embedded in a page beforehand. |
-|**External graders** :octicons-package-24:| If accounts of external graders are deleted, they are no longer listed by name. The associated grading assignment records are removed; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
-|**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external graders are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
+|**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | What matters is whether the media item is embedded in a page. This applies to the "Page" course element as well as to ePortfolio pages. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted. Sharing a media item in the Media Center does not protect it. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well. Administrators and learning resource managers find the retained media items under `Personal menu > Media Center > "Media management" segment`.<br> It makes sense to ask the person concerned to download any media items they need before their account is deleted. If a media item is to remain in the system, it must be embedded in a page beforehand. |
+|**External correctors** :octicons-package-24:| If accounts of external correctors are deleted, they no longer appear in the lists of grading assignments. Their first name and last name are retained, however, see [Whose name is retained?](#name_retention). The associated grading assignment records are removed; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
+|**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external correctors are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
 |**Statistics** :octicons-infinity-24: |Deleted users are no longer included in the statistics of visited courses.|
 |**Survey results from quality management** :octicons-infinity-24: |Forms completed as part of quality management are stored anonymously and therefore do not need to be deleted when a user account is deleted.|
 |**Log tables** :octicons-infinity-24:| Log entries are not changed on deletion. They contain no name, only the internal number of the account; whether logging is personalised or anonymous depends on the server setting for anonymous logging. |
 
+
+### Whose name is retained? {: #name_retention}
+
+After an account is deleted, the course log data and the assessments continue to show the first name and last name for some persons, and only the anonymous identifier for others. The following list states with binding effect for whom the name is retained, for example when answering a data protection request.
+
+These persons act in an institutional function, not as private individuals. Their entries in the course log data, their assessments and similar actions should therefore remain readable and attributable even after deletion.
+
+What counts are the roles the person holds at the time of deletion. The rule applies to all three deletion options on this page, including the automatic deletion by the user account lifecycle. There is no setting for it.
+
+First name and last name are retained if the person holds at least one of these roles:
+
+* System administrator
+* Administrator
+* User manager
+* Learning resource manager
+* Group manager
+* Question bank manager
+* Course planner
+* Author
+* Owner of a learning resource, for example of a course
+
+Regardless of any role, the name of external correctors who were assigned a grading assignment is also retained. This is not a role in the strict sense. It is enough that the person was entered as a corrector in a grading assignment.
+
+For all other roles, the name is anonymised. These include:
+
+* Roles manager
+* Absence manager
+* Quality manager
+* Project manager
+* Selectus manager
+* Line manager
+* Education manager
+* Principal
+* Coach of a course or a group
+* Participant
+* User
+* Invitee (invited person)
+* Guest
+
+"Administrative" is therefore defined more narrowly here than when roles are assigned in the user management. Roles managers and quality managers also lose their name on deletion.
+
+Anyone who can access the user management finds the deleted accounts with first name, last name and roles in the [User search, status "Deleted users"](Search_Users.md#status). The "Roles" column shows which roles the account held when it was deleted. Use the "Clear" action to delete the first name and last name of these accounts afterwards as well.
 
 
 [To the top of the page ^](#delete_user)
@@ -193,11 +235,11 @@ For **automatic deletion** via the user account lifecycle, an additional safegua
 **Mentioned on this page**<br>
 [Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)
+[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[User search >](Search_Users.md)
 
 **Further reading**<br>
 [User management >](index.md)<br>
-[User search >](Search_Users.md)<br>
 [Configure user >](Configure_User.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>

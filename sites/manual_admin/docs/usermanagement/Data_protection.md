@@ -10,7 +10,7 @@ and their data.
 
 Accounts are deleted by user managers and administrators via the [user management](index.md). System administrators trigger deletions via the user account lifecycle.
 
-When an account is deleted, it is not removed from the database but anonymised. The login name is replaced by an anonymous identifier and the profile data is cleared. For persons with an administrative role, for course owners and for graders with grading assignments in their history, the first and last name are retained so that their actions remain traceable.
+When an account is deleted, it is not removed from the database but anonymised. The login name is replaced by an anonymous identifier and the profile data is cleared. For persons with an administrative role, first name and last name are retained so that their actions remain traceable. The page [Delete user](Delete_User.md#name_retention) lists which roles these are.
 
 Which data is deleted, anonymised or retained in the process is shown in detail in the table on the page [Delete user](Delete_User.md#del_properties).
 
@@ -33,7 +33,7 @@ Deactivation only blocks the login. The account is retained with all its data an
 ---
 
 
-## Export of user data {: #export_user_data}
+## Export of user data [:octicons-tag-16:{ title="from Release 12.5 (OO-3489)" }](https://track.frentix.com/issue/OO-3489) {: #export_user_data}
 
 The user data stored in OpenOlat can be exported for all users. The export serves solely to inform the person which data is stored and processed on OpenOlat. It is not possible to restore a deleted user.
 
@@ -107,7 +107,7 @@ The dialog lists the elements alphabetically. The selection covers:
 
 ## Further data protection options
 
-### Printing the Terms of Use {: #print_terms_of_use}
+### Printing the Terms of Use [:octicons-tag-16:{ title="from Release 12.5 (OO-3521)" }](https://track.frentix.com/issue/OO-3521) {: #print_terms_of_use}
 
 The terms of use can be printed both during the login process in the "Terms of Use" dialog and in the personal settings in the "Terms of Use" tab.
 
@@ -115,7 +115,7 @@ The terms of use can be printed both during the login process in the "Terms of U
 
 ![Highlighted print link below the terms text on the right, below it the date of consent and the Ask to delete your account button, in the Terms of use tab of the personal settings](assets/data_protection_terms_settings_v1_en.png){ class="shadow lightbox" }
 
-### Ask to delete your own account {: #request_account_deletion}
+### Ask to delete your own account [:octicons-tag-16:{ title="from Release 13.2 (OO-3520)" }](https://track.frentix.com/issue/OO-3520) {: #request_account_deletion}
 
 In the "Terms of Use" tab of the personal settings, the **Ask to delete your account** button is shown next to the date of consent. Users use it to file a request themselves when they no longer agree to the terms of use. The request is sent as an email to a configured address and states the account ID, the login name and the name. Only the user management can delete the account afterwards; the request does not trigger an automatic deletion.
 
