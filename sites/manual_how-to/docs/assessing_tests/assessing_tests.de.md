@@ -21,6 +21,7 @@
 
 ---
 
+
 ## Was bedeutet "einen Test bewerten"? {: #meaning}
 
 In OpenOlat können Tests automatisch oder manuell ausgewertet werden. 
@@ -40,8 +41,24 @@ Als Betreuer:in können Sie im **Bewertungswerkzeug**:
 
 ---
 
+## Wie wird ein Bewertungsauftrag erstellt und vergeben? {: #assessment_order}
 
-## Wie gelange ich zur Bewertung eines Tests? {: #access}
+Ob ein Bewertungsauftrag für einen Test erstellt wird, entscheidet sich bereits mit einer Einstellung im Kursbaustein: Soll der Test automatisch von OpenOlat bewertet werden oder manuell?<br>
+Automatisch bewertete Kurse benötigen keinen Bewertungsauftrag an eine bestimmte Person, manuell zu bewertende dagegen schon. Der/die Kursbesitzer:in kann die Entscheidung eingeben unter:<br> `(Kurs-)Administration > Kurseditor > Kursbaustein wählen > Tab "Test-Konfiguration"`
+
+Soll manuell bewertet werden? Sobald ein:e Teilnehmer:in den Test bearbeitet hat, erstellt OpenOlat einen Bewertungsauftrag. 
+Es erfolgt eine Zuweisung zu einer Person, die die Bewertung vornimmt. Es können Betreuer:innen des Kurses sein oder auch Korrektor:innen, die keine Mitglieder des Kurses sind.
+
+Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Auftrag mit dem Status "Nicht zugeordnet" in `Coaching > Auftragsverwaltung > Korrekturaufträge`. Dort weisen Lernressourcenverwalter:innen den Bewertungsauftrag einer Korrektorin zu, und er erscheint in deren persönlicher Liste.
+
+[zum Seitenanfang ^](#assessing_tests)
+
+---
+
+
+## Wie gelange ich zu meinen Bewertungsaufträgen (Tests)? {: #access}
+
+Sind Sie Betreuer:in oder Korrektor:in, werden Ihnen von OpenOlat die Bewertungsaufträge zugeteilt.
 
 Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, gibt es 3 Einstiegspunkte:
 

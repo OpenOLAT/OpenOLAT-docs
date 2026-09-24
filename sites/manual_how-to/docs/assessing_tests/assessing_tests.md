@@ -42,8 +42,24 @@ As a coach, you can use the **assessment tool** to:
 
 ---
 
+## How is a assessment order created and assigned? {: #assessment_order}
 
-## How do I access the assessment of a test? {: #access}
+Whether an assessment order is created for a test is determined by a setting in the course module: Should the test be graded automatically by OpenOlat or manually?<br>
+Courses that are graded automatically do not require a grading assignment to be assigned to a specific person, whereas those that are graded manually do. The course owner can make this decision under:<br> `(Course) Administration > Course Editor > Select course element > “Test Configuration” tab`
+
+Should grading be done manually? As soon as a participant completes the test, OpenOlat creates an assessment order.
+The assignment is then assigned to a person who will perform the grading. This can be a course coach or a corrector who is not a member of the course.
+
+If no corretor is available when the assignment is submitted, the assignment remains in `Coaching > Assignment Management > Assessment Orders` with the status “Not Assigned.” There, learning resource managers assign the assessment order to a corretor, and it appears on that corretor's personal list.
+
+[To the top of the page ^](#assessing_tests)
+
+---
+
+
+## How do I access my assessment orders (tests)? {: #access}
+
+If you are a coach or corrector, OpenOlat will assign you assessment orders.
 
 Each test is graded using a grading form. There are three ways to access it:
 
