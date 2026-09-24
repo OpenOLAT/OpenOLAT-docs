@@ -69,6 +69,8 @@ Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheidet die Administrati
 
 Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnements und Passwort, solange ihnen keine weitere Rolle zugewiesen ist.
 
+Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü **Mehr** am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
+
 [Core Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md#personal_tools)
 
 

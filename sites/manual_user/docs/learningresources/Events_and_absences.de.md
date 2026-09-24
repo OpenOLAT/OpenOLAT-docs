@@ -113,6 +113,10 @@ Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin.
  Ein Termin kann 1 - 12 Einheiten umfassen.<br>
  Beispiel: Ein Termin umfasst 2 Stunden, die in 4 thematische Einheiten gegliedert sind (4 x 0.5 Stunden).
 
+!!! info "Wichtig"
+
+    Stammen die Termine aus einem externen Verwaltungssystem, das sie nach OpenOlat synchronisiert, ist das Feld "Einheit" in OpenOlat gesperrt. Der Wert kommt aus diesem System und wird dort geändert. Gesperrt ist das Feld ausserdem, sobald die Anwesenheitskontrolle des Termins abgeschlossen ist.
+
  **Ort**: Hier wird angegeben, wo dieser Termin stattfindet. Das kann z.B. ein Präsenzort oder die genaue Zimmerbezeichnung sein.
 
  **Online Meeting**: Soll der Termin online stattfinden, schalten Sie den Toggle-Button "Online Meeting" ein. Zur Auswahl stehen BigBlueButton, Microsoft Teams und "Sitzungs-Link". Der Sitzungs-Link deckt weitere Anbieter ab, zum Beispiel Zoom. Geben Sie dafür den "Name des Sitzungsanbieters" und die "URL für Sitzungsteilnahme" an.<br>
