@@ -2,6 +2,8 @@
 
 The reminder feature is used to manage the automatic sending of emails. Reminders can be created, viewed, edited, and their status checked in various places.
 
+Reminders are a feature of the course. Groups and individual tools such as the forum have no reminders. A group can only be selected as a recipient group of a course reminder. Anyone who wants to be informed about changes in a group or in a forum subscribes to the tool: [Group tools](../groups/Using_Group_Tools.md), [Subscribe to forums](Course_Element_Forum.md#abo), [Subscriptions](../personal_menu/Subscriptions.md).
+
 ## Where are reminders created? {: #access}
 
 ### Course administration

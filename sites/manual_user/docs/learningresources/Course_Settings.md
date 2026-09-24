@@ -3,7 +3,9 @@
 You can make the configurations that affect the course as a whole under:<br>
 `Course > Administration > Settings`
 
-![Administration menu with the Settings entry and the tabs Info, Metadata, Execution, Release, Terms of use, Layout, Toolbar, Assessment and Options of the course settings](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
+The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Member management](../learningresources/Members_management.md).
+
+![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -12,6 +14,12 @@ You can make the configurations that affect the course as a whole under:<br>
     The settings of conventional and [learning path courses](../learningresources/Learning_path_course.md) vary slightly.
 
     You can use the "Info", "Metadata", "Implementation" and "Release" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
+
+## Profile
+
+Name | Course settings
+---------|----------
+Available since | Release 13.0 (OO-3706)
 
 
 ## Tab Info {: #info}
@@ -56,6 +64,7 @@ Metadata of a course are
 * Estimated time required for processing
 * License
 
+[For more details >](../learningresources/Course_Settings_Metadata.md)<br>
 [More about **Meta data** >](../basic_concepts/Full_Text_Search.md#metadata)<br>
 [To the top of the page ^](#course_settings)
 
@@ -68,10 +77,11 @@ Metadata of a course are
 Here you can
 
 * define the implementation period of the course,
-* switch on the "[Absence management](../area_modules/Absence_Management.md)" and configure it further (if activated by the administrator),
+* switch on the "[Absence management](../area_modules/Absence_Management.md)" and configure it further (if switched on in the system administration under `Administration > Modules > Events / Absences`),
 * convert existing conventional courses into learning path courses
-* or for [Learning_path_courses](Learning_path_course.md) define how the learning progress is calculated, based on the number of course elements or on the duration of the course elements.
+* or for [learning path courses](Learning_path_course.md) define how the learning progress is calculated, based on the number of course elements or on the duration of the course elements.
 
+[For more details >](../learningresources/Course_Settings_Execution.md)<br>
 [To the top of the page ^](#course_settings)
 
 
@@ -117,11 +127,11 @@ Here
 * freely definable course-related **terms of use**
 * and a course-related **privacy policy** 
 
-can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible.
+can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible. For each text you switch on, you enter a title, the conditions and the label of the checkbox that is ticked to accept. A second checkbox is possible.
 
 In the [Member management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
 
-![Disclaimer form](assets/disclaimer_course.png){ class="shadow lightbox" }
+![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels, in the Terms of use tab](assets/disclaimer_course.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_settings)
 
@@ -130,18 +140,18 @@ In the [Member management](../learningresources/Members_management.md) you can s
 
 ![Tab "Layout" active in the course settings](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
 
-Under "Layout" you can
+In the Layout tab you determine how the course looks and how participants move through it. Here you can
 
 * select a **layout template** for a course,
 * define the **course navigation** in more detail
 * and define the **style of the course elements**.
 
-Depending on the settings by the course administrator, certain **layout templates** are available, but at least one default template. In addition, you can store your own CSS course templates in the course [Storage folder](../learningresources/Storage_folder.md) and link them in the Layout menu. For example, fonts and colors for texts, headlines, links, the menu and the toolbox can be individually designed and provided with a suitable logo.
+Which **layout templates** are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Representation, layout](../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../learningresources/Storage_folder.md). They then appear in the selection as "from course folder".
 
-In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses it is also possible to set whether the menu icons and the specific learning path are displayed to the user or not. Depending on the linear or flexible scenario, one or the other variant offers itself.
+In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
 
-![Learning path with icons](assets/lp_icons.png){ class="shadow lightbox" }
-![Learning path without path and icons](assets/no_lp_no_icons.png){ class="shadow lightbox" }
+![Course menu with path and icons: status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons.png){ class="shadow lightbox" }
+![Course menu without path and icons: only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons.png){ class="shadow lightbox" }
 
 In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
@@ -176,7 +186,7 @@ In the Assessment tab, you can make settings for
 
 !!! info "Important"
 
-    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the evaluation table.  The configuration for passing the course is done in the course editor on the top course element in the "Score" tab. There is no progression for conventional courses.
+    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. The configuration for passing the course is done in the course editor on the top course element in the "Score" tab. There is no progression for conventional courses.
 
 
 [For more details >](../learningresources/Course_Settings_Assessment.md)<br>
@@ -193,10 +203,20 @@ Here you activate as required
 * a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md)
 * a [resource folder](../learningresources/index.md) for your course
 * a special folder for coaches
-* to-dos for coaches<br>
-If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:<br>
+* to-dos for coaches
+
+If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:
+
 * invitation to activate external users for course owners with author rights
 * activate the "LTI 1.3" release for course owners with authoring rights
 
 [For more details > ](../learningresources/Course_Settings_Options.md)<br>
+[To the top of the page ^](#course_settings)
+
+
+## Further information {: #further_information}
+
+[Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Creating Courses >](../learningresources/Creating_Course.md)
+
 [To the top of the page ^](#course_settings)
