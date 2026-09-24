@@ -33,7 +33,7 @@ When creating the metadata reference, title and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
-![Metadata tab of a taxonomy with the fields ID, External ID, identifier, name and description](assets/modules_taxonomy_metadata_de.png){ class="shadow lightbox" }
+![Metadata tab of a taxonomy with the fields ID, External ID, Reference, Title and Description](assets/modules_taxonomy_metadata_v1_en.png){ class="shadow lightbox" }
 
 ## Level types {: #level_types}
 

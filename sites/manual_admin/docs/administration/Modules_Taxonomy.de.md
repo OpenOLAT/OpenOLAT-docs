@@ -41,7 +41,7 @@ die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
 Externe ID erstellt.
-![Tab Metadaten einer Taxonomie mit den Feldern ID, Externe ID, Bezeichnung, Name und Beschreibung](assets/modules_taxonomy_metadata_de.png){ class="shadow lightbox" }
+![Tab Metadaten einer Taxonomie mit den Feldern ID, Externe ID, Kennzeichen, Titel und Beschreibung](assets/modules_taxonomy_metadata_v1_de.png){ class="shadow lightbox" }
 
 ## Ebenentypen {: #level_types}
 
