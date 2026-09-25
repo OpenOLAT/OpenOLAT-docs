@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Bestanden im Kurs: ohne Einstufung/Noten entscheidet die Punkteschwelle des Tests, mit Einstufung/Noten die umgerechnete Note">
+  <rect x="0" y="0" width="1000" height="600" fill="#F3F4EF"/>
+  <text x="30" y="46" font-family="'Roboto', sans-serif" font-size="24" font-weight="700" fill="#126365">Wer entscheidet im Kurs über «Bestanden»?</text>
+  <text x="30" y="76" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Dieselbe Leistung, zwei Ergebnisse: 58 von 100 Punkten</text>
+
+  <rect x="250" y="98" width="500" height="72" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="500" y="128" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#126365">Test im Kurs eingebunden</text>
+  <text x="500" y="154" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Ist im Kursbaustein «Bewertung mit Einstufung/Noten» aktiv?</text>
+
+  <path d="M500 170 V186 H255 V202" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="249,202 261,202 255,212" fill="#A6A6A6"/>
+  <path d="M500 186 H745 V202" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="739,202 751,202 745,212" fill="#A6A6A6"/>
+
+  <rect x="30" y="214" width="450" height="360" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <rect x="30" y="214" width="450" height="48" rx="8" fill="#126365"/>
+  <rect x="30" y="240" width="450" height="22" fill="#126365"/>
+  <text x="50" y="245" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Nein: Der Test entscheidet</text>
+  <text x="50" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Es gilt die «Art der Ausgabe» des Tests,</text>
+  <text x="50" y="314" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">zum Beispiel «Automatisch durch Punkteschwelle».</text>
+  <rect x="46" y="332" width="418" height="110" rx="6" fill="#E3EFEF"/>
+  <text x="62" y="360" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Punkteschwelle für Bestanden: 60</text>
+  <text x="62" y="420" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#126365">58 Punkte → nicht bestanden</text>
+  <text x="50" y="476" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Oder «Manuell durch Betreuer:in»:</text>
+  <text x="50" y="498" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Die betreuende Person entscheidet.</text>
+  <text x="50" y="534" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">Wo: in der Lernressource Test,</text>
+  <text x="50" y="556" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">Tab «Test Konfiguration»</text>
+
+  <rect x="520" y="214" width="450" height="360" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2"/>
+  <rect x="520" y="214" width="450" height="48" rx="8" fill="#5F6E23"/>
+  <rect x="520" y="240" width="450" height="22" fill="#5F6E23"/>
+  <text x="540" y="245" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Ja: Die Bewertungsskala entscheidet</text>
+  <text x="540" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Die Bewertungsskala rechnet die Punkte in eine Note um.</text>
+  <text x="540" y="314" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Über «Bestanden» entscheidet die Note.</text>
+  <rect x="536" y="332" width="418" height="110" rx="6" fill="#EEF3DA"/>
+  <text x="552" y="360" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Umrechnung: 0 bis 100 Punkte → Note 1 bis 6</text>
+  <text x="552" y="386" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Bestanden mit: Note 4, das sind hier ab 55 Punkten</text>
+  <text x="552" y="420" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#5F6E23">58 Punkte → Note 4 → bestanden</text>
+  <text x="540" y="476" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Die Punkteschwelle 60 des Tests wird nicht</text>
+  <text x="540" y="498" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">umgerechnet. Sie zählt hier nicht.</text>
+  <text x="540" y="534" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">Wo: im Kursbaustein «Test», Tab «Test-Konfiguration»,</text>
+  <text x="540" y="556" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">dann «Bewertungsskala bearbeiten»</text>
+</svg>

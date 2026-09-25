@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Passed in the course: without Levels/Grading the cut value of the test decides, with Levels/Grading the converted grade">
+  <rect x="0" y="0" width="1000" height="600" fill="#F3F4EF"/>
+  <text x="30" y="46" font-family="'Roboto', sans-serif" font-size="24" font-weight="700" fill="#126365">Who decides on «passed» in the course?</text>
+  <text x="30" y="76" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Same performance, two results: 58 out of 100 points</text>
+
+  <rect x="250" y="98" width="500" height="72" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="500" y="128" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#126365">Test embedded in a course</text>
+  <text x="500" y="154" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Is «Levels/Grading» active in the course element «Test»?</text>
+
+  <path d="M500 170 V186 H255 V202" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="249,202 261,202 255,212" fill="#A6A6A6"/>
+  <path d="M500 186 H745 V202" stroke="#A6A6A6" stroke-width="2" fill="none"/>
+  <polygon points="739,202 751,202 745,212" fill="#A6A6A6"/>
+
+  <rect x="30" y="214" width="450" height="360" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <rect x="30" y="214" width="450" height="48" rx="8" fill="#126365"/>
+  <rect x="30" y="240" width="450" height="22" fill="#126365"/>
+  <text x="50" y="245" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">No: The test decides</text>
+  <text x="50" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">The «Type of display» of the test applies,</text>
+  <text x="50" y="314" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">for example «Using cut value».</text>
+  <rect x="46" y="332" width="418" height="110" rx="6" fill="#E3EFEF"/>
+  <text x="62" y="360" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Passed cut value: 60</text>
+  <text x="62" y="420" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#126365">58 points → not passed</text>
+  <text x="50" y="476" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Or «Manually by coach»:</text>
+  <text x="50" y="498" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">The coach decides.</text>
+  <text x="50" y="534" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">Where: in the learning resource Test,</text>
+  <text x="50" y="556" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">tab «Test configuration»</text>
+
+  <rect x="520" y="214" width="450" height="360" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2"/>
+  <rect x="520" y="214" width="450" height="48" rx="8" fill="#5F6E23"/>
+  <rect x="520" y="240" width="450" height="22" fill="#5F6E23"/>
+  <text x="540" y="245" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Yes: The rating scale decides</text>
+  <text x="540" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">The rating scale converts the points into a grade.</text>
+  <text x="540" y="314" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">The grade decides on «passed».</text>
+  <rect x="536" y="332" width="418" height="110" rx="6" fill="#EEF3DA"/>
+  <text x="552" y="360" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Conversion: 0 to 100 points → grade 1 to 6</text>
+  <text x="552" y="386" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">Passed with: grade 4, here from 55 points</text>
+  <text x="552" y="420" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#5F6E23">58 points → grade 4 → passed</text>
+  <text x="540" y="476" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">The cut value 60 of the test is not converted.</text>
+  <text x="540" y="498" font-family="'Roboto', sans-serif" font-size="15" font-weight="400" fill="#2D2926">It does not count here.</text>
+  <text x="540" y="534" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">Where: in the course element «Test», tab «Test configuration»,</text>
+  <text x="540" y="556" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#5A5A5A">then «Edit rating scale»</text>
+</svg>

@@ -1,6 +1,4 @@
-# Question Bank: Overview {: #question_bank}
-
-![Question bank symbol](assets/repository.png)
+# :o_icon_o_icon_qpool: Question Bank: Overview {: #question_bank}
 
 The collaborative question bank in OpenOlat allows authors to create, save, edit and reuse test questions as independent items in a catalog-like structure. 
 
@@ -10,9 +8,15 @@ The questions can be shared with other people who also have access to the pool.
 
 The **goal** is the **reuse** of questions that have already been created. Be it in tests, as a quiz question in an interactive video or in a course element of the "Page" type. By yourself or (if shared) by other authors.
 
-Users with **author rights** and administrative roles have **access** to a question bank. The question bank is displayed to these users in the main navigation in the header.
+**Authors**, question bank managers and administrators have **access** to the question bank. OpenOlat shows them the question bank in the main navigation in the header.
 
-![Question bank entry in the main menu marked, on the left the menu with My question bank, Public shares, Questions and Administration. Start page of the question bank.](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
+![Question bank as its own entry in the main navigation, on the left its menu with four areas, on the right the welcome page. Start page of the question bank.](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
+
+## Profile
+
+Name | Question bank
+---------|----------
+Available since | Release 9.0 (OO-533)
 
 
 !!! note "Quick Links"
@@ -28,13 +32,13 @@ Users with **author rights** and administrative roles have **access** to a quest
 
 The menu of the question bank is divided into the following areas:
 
-### My question bank {: #my_question_bank}
+## My question bank {: #my_question_bank}
 
 Under "**My questions**" you will find your own questions. You can mark the questions as **favorites** and group them in **lists**. Favorites and lists are two ways of sorting and organizing items. 
 
 Items that have been marked as favorites under "**My questions**" appear again under the menu item "**My favorites**". These are one and the same item. Changes in the "Favorites" are therefore also saved under "My questions".
 
-If the [review process](Question_Bank_Review_Process.md) is activated (authors review each other's questions), then your own subjects are also visible under "My question bank" and, depending on authorization, the **"Review"** and **"Final"** sections.
+If the [review process](Question_Bank_Review_Process.md) is activated (authors review each other's questions), "My question bank" also shows your subjects. Depending on authorization, the menu also shows the areas **"Review"** and **"Final"**.
 
 ![Expanded area My question bank with My questions, My favorites and two own lists, on the right the question table with the action buttons. Question bank.](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" }
 
@@ -46,14 +50,16 @@ If the [review process](Question_Bank_Review_Process.md) is activated (authors r
 
 Pools and groups for exchanging questions are provided in the "**Public shares**" area. While favorites and lists are used for personal organization and sorting, the pools are the collection point for all shared items. Before an item is listed in a pool, it must either first be shared by the owner or imported directly into the corresponding pool. 
 
-Lists, pools and groups can be deactivated by the administration and may therefore not be visible. 
+The icon in front of each entry shows the type of share: :o_icon_o_icon_pool_pool: stands for a pool, :o_icon_o_icon_pool_share: for a group that questions are shared with.
+
+Administrators can deactivate lists, pools and groups in the system administration, so they may not be visible: `Administration > e-Assessment > Question bank`
 
 [To the top of the page ^](#question_bank)
 
 
 ## Questions {: #questions}
 
-In contrast to the "**My questions**" section, **all** questions in the pool to which you have access authorization are listed here. This includes questions that have been created and shared by other authors.
+The area "Questions" is shown to administrators and to question bank managers who have been given the right "see all questions and edit the metadata" in the system administration. In contrast to "**My questions**", it lists **all** questions of the question bank, including questions of other authors. The entries "Without subject" and "Without author" show questions that lack this information.
 
 Questions can also be [created with the help of AI](Question_Bank_Create_Questions.md#create_with_AI), as multiple-choice questions and as essay questions with AI correction.
 
@@ -80,9 +86,7 @@ This chapter explains how individual test questions, called items, can be create
 
 ## Further information {: #further_information}
 
-[More about the creation of questions >](Data_Management.md)<br>
-[Detailed view of a question >](Item_Detailed_View.md)<br>
-[More about the review process >](Question_Bank_Review_Process.md)<br>
-[e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)
+[Creating Tests >](../learningresources/Test.md)<br>
+[Test question types >](../learningresources/Test_question_types.md)
 
 [To the top of the page ^](#question_bank)
