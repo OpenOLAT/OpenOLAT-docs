@@ -206,6 +206,34 @@ Siehe ["Audio aufnehmen"](../learningresources/Audio_Recording.de.md).
 
 Es können die üblichen Formate verwendet werden (png, jpg, ...). Zur Darstellungsgrösse und Ausrichtung können ebenfalls Angaben gemacht werden.
 
+### Mehrere Bilder nebeneinander {: #images_side_by_side}
+
+Möchten Sie zwei oder drei Bilder in einer Reihe zeigen, etwa Fotos zum Vergleich, weisen Sie jedem Bild die Klasse "Linksbündig" zu. So stehen die Bilder nebeneinander, ohne dass Sie eine Tabelle brauchen. Dieser Weg funktioniert überall, wo der HTML-Editor Bilder anbietet, auch in einem Blogeintrag.
+
+1. Setzen Sie den Cursor an die Stelle, an der die Bildreihe beginnen soll.
+2. Klicken Sie in der Werkzeugleiste auf das Bildsymbol oder wählen Sie im Menü "Einfügen" den Eintrag "Bild...".
+3. Wählen Sie im Tab "Allgemein" unter "Quelle" die Bilddatei aus.
+4. Wählen Sie unter "Klasse" den Eintrag "Linksbündig".
+5. Tragen Sie unter "Breite" einen Wert ein, der klein genug ist, damit alle Bilder zusammen in die Zeile passen.
+6. Klicken Sie auf "Speichern".
+7. Setzen Sie den Cursor direkt hinter das eingefügte Bild und wiederholen Sie die Schritte 2 bis 6 für jedes weitere Bild.
+
+![Klassenliste mit Linksbündig, Zentriert und Rechtsbündig geöffnet, im Tab Allgemein des Dialogs zum Einfügen eines Bildes](assets/html_editor_image_dialog_class_v1_de.png){ class="shadow lightbox" }
+
+Reicht die Breite der Zeile nicht für alle Bilder, rückt das nächste Bild in die folgende Zeile. Verkleinern Sie dann die Breite der Bilder.
+
+Pro Bild wählen Sie genau eine Klasse. Die wichtigsten Klassen bewirken Folgendes:
+
+* **Linksbündig:** Das Bild steht links. Text und weitere Bilder mit derselben Klasse folgen rechts daneben.
+* **Rechtsbündig:** Das Bild steht rechts, der Text fliesst links daneben.
+* **Zentriert:** Das Bild steht allein und mittig in seiner Zeile.
+* **Linksbündig und allein**, **Rechtsbündig und allein:** Das Bild steht allein in seiner Zeile, links oder rechts. Hier endet das Umfliessen der vorangehenden Bilder.
+* **Kreis**, **Rahmen:** Diese Klassen geben dem Bild eine runde Form oder einen Rahmen, verändern aber seine Position nicht.
+
+Die Klassen stammen aus den OpenOlat Stylesheets, die im Kursbaustein "HTML-Seite" standardmässig eingebunden sind. Wählen Sie im Tab ["Anzeige Inhalt"](#layout) den Anzeigemodus "Standard" oder unter "Layout anpassen" die Option "Keine", haben die Klassen in der Kursansicht keine Wirkung.
+
+Im Kursbaustein "HTML-Seite" gibt es einen zweiten Weg über das Menü "Tabelle": Wählen Sie dort den Eintrag "Tabelle" und im Raster eine Zeile mit drei Spalten. Fügen Sie anschliessend in jede Zelle ein Bild ein. Der Editor im Blog bietet das Menü "Tabelle" nicht an, dort führt nur der Weg über die Klasse zum Ziel.
+
 ### Mathematische Formeln
 
 In OpenOlat verwenden wir **Mathjax** zur Darstellung von Formeln.

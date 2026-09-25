@@ -53,9 +53,11 @@ Add your own entry by using the "Add entry" button.<br>
 
 **Title:** Enter a title that describes the blog entry. This field is mandatory.
 
-**Description:** The description is optional and is used as a preview of an article or entry. It can therefore also be a short introduction or summary.
+**Content:** The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted. You write the content in the same HTML editor as in the course element "HTML page", but here without the "Table" menu. How to arrange several images side by side is described in the section [Several images side by side](Course_Element_HTML_Page.md#images_side_by_side).
 
-**Content:** The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted.
+![Three images side by side in a row, arranged with the class Left, in a published blog entry](assets/blog_entry_images_side_by_side_v1_en.png){ class="shadow lightbox" }
+
+**Summary:** The summary is optional and is used as a preview of an article or entry. It can therefore also be a short introduction.
 
 **Date and time of publication:** The date and time of publication are used to make the entry visible to other participants or to hide it. If the time of publication is in the past, the entry will be visible. However, if it is in the future, it is a planned publication of the entry.
 
@@ -139,7 +141,8 @@ As a coach or owner, you can also store your blog posts in the Media Center. A c
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Configure a blog](../learningresources/Blog_Configuration.md)
+[Configure a blog](../learningresources/Blog_Configuration.md)<br>
+[Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)
 
 **Further reading**<br>
 [Create a blog (as course owner/author)](../learningresources/Blog_Create.md)<br>

@@ -204,6 +204,34 @@ See ["Audio Recording"](../learningresources/Audio_Recording.md).
 
 The usual formats can be used (png, jpg, ...). You can also specify the display size and orientation.
 
+### Several images side by side {: #images_side_by_side}
+
+If you want to show two or three images in a row, for example photos for comparison, assign the class "Left" to each image. The images then stand side by side without you needing a table. This works wherever the HTML editor offers images, including in a blog entry.
+
+1. Place the cursor where the row of images should begin.
+2. Click the image icon in the toolbar or select the entry "Image..." in the "Insert" menu.
+3. In the "General" tab, select the image file under "Source".
+4. Under "Class", select the entry "Left".
+5. Under "Width", enter a value small enough for all images to fit into the line together.
+6. Click "Save".
+7. Place the cursor directly behind the inserted image and repeat steps 2 to 6 for each further image.
+
+![Class list opened with Left, Center and Right, in the General tab of the dialog for inserting an image](assets/html_editor_image_dialog_class_v1_en.png){ class="shadow lightbox" }
+
+If the line is not wide enough for all images, the next image moves to the following line. In this case, reduce the width of the images.
+
+Select exactly one class per image. The most important classes have the following effect:
+
+* **Left:** The image stands on the left. Text and further images with the same class follow to the right of it.
+* **Right:** The image stands on the right, the text flows to the left of it.
+* **Center:** The image stands alone and centered in its line.
+* **Left and clear**, **Right and clear:** The image stands alone in its line, on the left or on the right. The flow around the preceding images ends here.
+* **Circle**, **Border:** These classes give the image a round shape or a border, but do not change its position.
+
+The classes come from the OpenOlat stylesheets, which are included by default in the course element "HTML page". If you select the display mode "Standard" or the option "None" under "Adapt layout" in the ["Display content"](#layout) tab, the classes have no effect in the course view.
+
+In the course element "HTML page" there is a second way via the "Table" menu: select the entry "Table" there and a row with three columns in the grid. Then insert an image into each cell. The editor in the blog does not offer the "Table" menu, so there the class is the only way.
+
 
 ### Mathematical formulas
 

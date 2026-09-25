@@ -53,9 +53,11 @@ Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufüge
 
 **Titel:** Geben Sie einen Titel ein, der den Blogeintrag beschreibt. Dieses Feld ist obligatorisch.
 
-**Beschreibung:** Die Beschreibung ist fakultativ und wird als Vorschau eines Artikels oder Eintrags verwendet. Es kann sich somit auch um eine kurze Einleitung oder Zusammenfassung handeln.
+**Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt. Sie schreiben den Inhalt im selben HTML-Editor wie im Kursbaustein "HTML-Seite", hier aber ohne das Menü "Tabelle". Wie Sie mehrere Bilder nebeneinander anordnen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](Course_Element_HTML_Page.de.md#images_side_by_side).
 
-**Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt.
+![Drei Bilder nebeneinander in einer Reihe, angeordnet mit der Klasse Linksbündig, in einem veröffentlichten Blogeintrag](assets/blog_entry_images_side_by_side_v1_de.png){ class="shadow lightbox" }
+
+**Zusammenfassung:** Die Zusammenfassung ist fakultativ und wird als Vorschau eines Artikels oder Eintrags verwendet. Es kann sich somit auch um eine kurze Einleitung handeln.
 
 **Datum und Zeit der Veröffentlichung:** Das Datum und die Zeit der Veröffentlichung werden dafür verwendet, den Eintrag für andere Teilnehmende sichtbar zu machen oder zu verbergen. Liegt der Zeitpunkt der Veröffentlichung in der Vergangenheit, so wird der Eintrag sichtbar. Liegt er hingegen in der Zukunft, so handelt es sich um eine geplante Veröffentlichung des Eintrags.
 
@@ -139,7 +141,8 @@ Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Blog konfigurieren](../learningresources/Blog_Configuration.de.md)
+[Blog konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)
 
 **Weiterführend**<br>
 [Blog erstellen (als Kursbesitzer:in/Autor:in)](../learningresources/Blog_Create.de.md)<br>
