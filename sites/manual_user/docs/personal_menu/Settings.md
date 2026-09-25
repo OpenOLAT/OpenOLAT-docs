@@ -30,7 +30,13 @@ Under "Language" you select your individual system language. OpenOlat has been t
 
 #### E-mail notification {: #notification_interval}
 
-Under "E-mail notification" you set how often you want to receive notifications by e-mail. You can choose between: "never", "monthly", "weekly", "daily", "every twelve hours", "every four hours" and "every two hours".
+Under "E-mail notification" you set how often at most you receive an e-mail with the news from your subscriptions. You can choose between: "Never", "Every two hours", "Every four hours", "Every twelve hours", "Daily", "Weekly" and "Monthly". If you make no choice, "Daily" applies. Depending on the configuration of your OpenOlat instance, fewer intervals are available, or the field does not appear at all.
+
+The chosen frequency is an upper limit: OpenOlat only sends you an e-mail if there is something new in your subscriptions. With "Never" you no longer receive notifications by e-mail. This applies regardless of the schedule of the instance. The news is not lost: your subscriptions remain, and you can see the news yourself at any time under `Personal menu > Subscriptions > Tab "News"` or via the bell icon in the respective course element. More about this: [Subscriptions](Subscriptions.md#view_notifications)
+
+The e-mail does not arrive at the moment your interval expires, but at the next run of the system-wide sending. The administration defines this schedule, by default the sending runs every two hours. If your interval has expired at a run and there is news, you receive the e-mail. More about this: [Core functions: Notifications](../../manual_admin/administration/Core_functions.md#notifications)
+
+![Users can suppress the e-mail with «Never», even though the administration has set up the sending](assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives?" }
 
 #### E-mail delivery {: #mail_delivery}
 
@@ -168,6 +174,8 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Personal tools: Subscriptions >](Subscriptions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
 [Personal tools: E-Mail >](E-Mail.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>

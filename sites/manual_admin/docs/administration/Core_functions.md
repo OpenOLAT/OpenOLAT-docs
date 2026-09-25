@@ -1,6 +1,6 @@
 # Core functions: Overview {: #core_config}
 
-![Core functions menu in system administration with fourteen areas: language and region, personal tools, starting page, REST API, calendar, e-mail, files and folders, WebDAV, access control, statistics, full text search, notifications, GUI settings and licenses](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Basic settings of the whole system in fourteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the adjacent menu in the system administration:<br>
 `Administration > Core functions`
@@ -101,10 +101,24 @@ Here you will find information on indexing the full text search.
 [To the top of the page ^](#core_config)
 
 
-## Notifications
+## Notifications {: #notifications}
 
-The notification emails for subscribed topics (e.g. forums) are sent once a day by default. Users can set shorter intervals. 
-Administrators can arrange for them to be sent immediately.
+Anyone who has subscribed to a forum, a folder or another element receives the news by e-mail: OpenOlat sends each person one single e-mail that lists the news from all their subscriptions. Here you see when OpenOlat sends these notifications, and you can trigger a sending immediately. You find the page in the system administration under:<br>
+`Administration > Core functions > Notifications`
+
+![Status switched on, rule 0 10 */2 * * ? for sending every two hours and button Trigger notifications, page Trigger e-mail notifications in the Core functions](assets/admin_core_config_notifications_v1_en.png){ class="shadow lightbox" }
+
+Three things control the sending:
+
+* **Schedule of the sending**: The page shows whether the notifications are switched on and by which rule in cron syntax the sending runs. By default it runs every two hours, ten minutes past the full hour (00:10, 02:10, 04:10 and so on). Neither the rule nor switching on and off can be changed in the user interface. The rule is part of the server configuration and applies after a change only from the next restart of OpenOlat. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+* **Immediate sending**: The button "Trigger notifications" starts the sending immediately, without waiting for the next scheduled time. Here too, only users whose interval has expired and for whom there is news receive an e-mail.
+* **Interval per person**: How often a person receives an e-mail at most, they set themselves in their [Settings](../../manual_user/personal_menu/Settings.md#notification_interval) under "E-mail notification", from "Every two hours" to "Monthly". With "Never" they no longer receive notifications by e-mail. If they choose nothing, "Daily" applies. Administrators, user managers and role managers also change the interval of a person in the user management in the tab "System settings", see [Configure user](../usermanagement/Configure_User.md).
+
+The schedule only determines when OpenOlat checks, not who receives an e-mail. At each run, a person only receives an e-mail if their interval has expired since the last e-mail and there is something new in one of their subscriptions. If there is nothing new, OpenOlat sends no e-mail. Subscriptions that a person has paused are not taken into account.
+
+The two settings complement each other, they do not override each other. Anyone who has chosen "Never" receives no e-mail, even when the sending of the instance runs. If the sending of the instance is switched off, nobody receives an e-mail, whatever interval a person has chosen. In both cases no news is lost: every person sees it themselves under `Personal menu > Subscriptions > Tab "News"` and via the bell icon in the respective course element.
+
+![Users can suppress the e-mail with «Never», even though the administration has set up the sending](assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives?" }
 
 [To the top of the page ^](#core_config)
 
@@ -121,4 +135,13 @@ Stored GUI settings (Graphical User Interface) can be reset here.
 The optional licenses can be configured here.
 
 [See the details >](../administration/Licenses.md)<br>
+[To the top of the page ^](#core_config)
+
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[Personal tools: Subscriptions >](../../manual_user/personal_menu/Subscriptions.md)<br>
+[Modules: Overview >](Modules.md)
+
 [To the top of the page ^](#core_config)

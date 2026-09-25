@@ -59,6 +59,8 @@ You can also use **RSS** to keep informed about the changes (see below).
 How often you receive change notifications by e-mail, or whether you do not want to receive them at all, is set under:<br>
 `Personal menu > Settings > Tab "System" > General system settings > E-mail notification`
 
+OpenOlat itself sends the e-mails according to a schedule that the administration defines for the whole instance. If your interval ends between two runs of the sending, the e-mail only arrives with the next run. If you have chosen "Never", you receive no e-mail, but you still see the news here in the "News" tab. More about this: [Settings: E-mail notification](Settings.md#notification_interval)
+
 If the **Portal** is activated, the change notifications are also displayed there under "My notifications".
 
 !!! note "Example: New test results"
@@ -72,7 +74,7 @@ If the **Portal** is activated, the change notifications are also displayed ther
 
 ## Global subscriptions [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6739)" }](https://track.frentix.com/issue/OO-6739) {: #global_subscriptions}
 
-If the global subscription for learning resources is activated, the status changes of your learning resources are listed under the personal subscriptions in the "News" tab and are also included in the collective e-mail notification for subscriptions.
+If the global subscription for learning resources is activated, the status changes of your learning resources are listed under the personal subscriptions in the "News" tab and are also included in the e-mail with the news from your subscriptions.
 
 The function is activated by default and applies to owners of courses and learning resources. In the "Subscriptions" tab, owners switch the global subscription off or on again; it cannot be deleted.
 
@@ -125,10 +127,16 @@ We recommend the following search terms: _RSS reader_, _RSS newsreader_, _feedre
 
 ## Further information {: #further_information}
 
-[My portfolio binders](../area_modules/My_portfolio_binders.md)<br>
-[Wikipedia article on RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
-[Course element "Notifications"](../learningresources/Course_Element_Notifications.md)<br>
-[Landing pages: set up subscriptions on the landing page (administration)](../../manual_admin/administration/Landing_pages.md)
+**Mentioned on this page**<br>
+[My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
+[Personal Configuration: Settings >](Settings.md)
+
+**Further reading**<br>
+[Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
+[Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Wikipedia article on RSS >](http://en.wikipedia.org/wiki/Rss_feed)
 
 **youtube**<br>
 [Subscriptions (German)](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
