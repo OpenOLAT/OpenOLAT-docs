@@ -33,7 +33,7 @@ Select one of the predefined rating scales, e.g. grades, levels or emojis. You c
 
 #### Section Correction {: #correction}
 
-**Correction**: Here you determine who evaluates the test. Three variants are available. As soon as the test contains a [question type](Test_question_types.md) to be evaluated manually, that is free text, file upload or drawing, choose one of the two manual variants. You can also have a test corrected manually if it consists of automatically scorable questions only.
+**Correction**: Here you determine who evaluates the test. Three variants are available. As soon as the test contains a [question type](Test_question_types.md) to be evaluated manually, that is free text, file upload or drawing, choose one of the two manual variants. You can also have a test corrected manually if it consists of automatically scorable questions only. The correction is a step of the assessment: whoever corrects awards the points, and the assessment of the test results from them. The difference between assessment, correction and levels/grading is explained under [Assessment, correction and levels/grading](../area_modules/Coaching_Assessment_Orders.md#assessment_terms).
 
 * **Automatic**: OpenOlat evaluates all questions directly. The result is visible right away.
 * **Manual by course coach/owner**: The course team does the correction. For each completed attempt an order is created in the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_assessments), in the tab "Open reviews".

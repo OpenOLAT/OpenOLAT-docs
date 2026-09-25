@@ -1,17 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Creating assessment orders: four settings lead to the four tabs under Coaching Assessment orders, plus two further ways via the assessment form and the assignment">
   <rect x="0" y="0" width="900" height="700" fill="#F3F4EF"/>
   <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Creating assessment orders</text>
-  <text x="30" y="68" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">You create an assessment order at the assessment mode of the course element. As soon as a participant</text>
-  <text x="30" y="86" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">completes their work, OpenOlat creates the order and shows it in the matching tab.</text>
+  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Owners of the course and of the test create the assessment order with their settings.</text>
+  <text x="30" y="83" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">As soon as a participant completes their work, OpenOlat creates the order.</text>
+  <text x="30" y="100" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Coaches and correctors work on it in the matching tab.</text>
 
-  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">How you create the order</text>
-  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Where it appears</text>
+  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">What owners set</text>
+  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Which tab the order is in</text>
 
   <g font-family="'Roboto', sans-serif">
     <rect x="30" y="136" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
     <text x="44" y="160" font-size="13" font-weight="700" fill="#2D2926">Set the correction to manual</text>
     <text x="44" y="181" font-size="12" fill="#2D2926">Course element Test, section «Correction»: a manual variant.</text>
-    <text x="44" y="199" font-size="12" fill="#2D2926">Task: correction step. Assessment: status switch.</text>
+    <text x="44" y="199" font-size="12" fill="#2D2926">Task: after the submission. Assessment: status switch.</text>
     <path d="M470 174 L556 174" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
     <rect x="560" y="136" width="310" height="76" rx="6" fill="#209D9E"/>
     <text x="574" y="168" font-size="14" font-weight="700" fill="#FFFFFF">Open reviews</text>

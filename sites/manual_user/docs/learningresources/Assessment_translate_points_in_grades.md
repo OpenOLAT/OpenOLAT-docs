@@ -4,6 +4,8 @@
 
 If an assessment course element, such as a test, a task, etc., is assigned points, the points can also be translated into grades. 
 
+Levels/Grading complements the assessment: without levels/grading, the assessment of a course element consists of points and, if applicable, "Passed". With levels/grading, the grade is added, and the grading system determines whether the score counts as passed. The difference between assessment, correction and levels/grading is explained under [Assessment, correction and levels/grading](../area_modules/Coaching_Assessment_Orders.md#assessment_terms).
+
 Course owners can activate the function in the course editor and configure it there. 
 
 
@@ -11,18 +13,18 @@ Course owners can activate the function in the course editor and configure it th
 
 !!! tip "Prerequisite"
 
-    The Levels/Grading module has been activated by the OpenOlat administrators, and at least one rating system has been created.
+    The Levels/Grading module has been activated by the OpenOlat administrators, and at least one grading system has been created.
 
 1. **Activate Levels/Grading for a course element**<br> 
 Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details 
 (for tests, in the "Test configuration" tab). Make sure that "Assign points" is also activated, and activate "Levels/Grading".
 2. **Select assignment**<br>
-You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". So that coaches without ownership can assign there as well, course owners set the option "assign Levels/Grading" under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights). With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
+You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". Coaches without ownership assign there as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section. With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
 
-3. **Select and customize the rating scale**<br>
-Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a rating system and further customize the rating scale.
+3. **Select and customize the grading scale**<br>
+Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a grading system and further customize the grading scale.
 
-    ![Dialog "Edit grading scale" with rating system, score ranges per grade, and the graph of the grade scale.](assets/ratingscale.png){class="shadow"}
+    ![Dialog "Edit rating scale" with grading system, score ranges per grade, and the graph of the grade scale.](assets/ratingscale.png){class="shadow"}
 
 4. **Save**
 
@@ -63,7 +65,7 @@ The key figures for the assessment have been extended with grades. You see the n
 * **Tab "Participants" of a course element:**<br>
 In the assessment tool, the grades are shown in a separate column after the score. (If the column is displayed -> gear button.) If set to manual, you can also apply grades manually here.
 
-To adjust the grading scale afterwards or to assign new grades, click the "Customize rating scale" button at the top. 
+To adjust the grading scale afterwards or to assign new grades, click the "Adjust Rating scale" button at the top. 
 
 [To the top of the page ^](#rating_grades)
 

@@ -2,8 +2,7 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    You have already created a course with a course element. <br>
-    You have published the course and participants have taken the test. <br>
+    There is a test course element in the course, and the participants have taken the test.<br>
     How do you go about viewing, manually grading, commenting on, and finalizing the participants' test results? The following instructions will show you how.
 
 
@@ -42,15 +41,21 @@ As a coach, you can use the **assessment tool** to:
 
 ---
 
-## How is a assessment order created and assigned? {: #assessment_order}
+## How is an assessment order created and assigned? {: #assessment_order}
 
-Whether an assessment order is created for a test is determined by a setting in the course module: Should the test be graded automatically by OpenOlat or manually?<br>
-Courses that are graded automatically do not require a grading assignment to be assigned to a specific person, whereas those that are graded manually do. The course owner can make this decision under:<br> `(Course) Administration > Course Editor > Select course element > “Test Configuration” tab`
+Whether an assessment order is created for a test depends on the setting "Correction" at the course element Test: does OpenOlat evaluate the test automatically, or does a person correct it by hand?<br>
+Automatically evaluated tests need no assessment order, OpenOlat shows the result immediately. For manually corrected tests, OpenOlat creates an order. Course owners choose the variant under:<br> `Course > Administration > Course editor > Select course element Test > Tab "Test configuration" > Section "Correction"`
 
-Should grading be done manually? As soon as a participant completes the test, OpenOlat creates an assessment order.
-The assignment is then assigned to a person who will perform the grading. This can be a course coach or a corrector who is not a member of the course.
+As a coach without ownership, you only change this setting if you have been granted the "Course editor" right in the course. You work on the order as soon as OpenOlat has created it.
 
-If no corretor is available when the assignment is submitted, the assignment remains in `Coaching > Assignment Management > Assessment Orders` with the status “Not Assigned.” There, learning resource managers assign the assessment order to a corretor, and it appears on that corretor's personal list.
+Should the test be corrected manually? As soon as a participant completes the test, OpenOlat creates an assessment order. Who receives it depends on the selected variant:
+
+* **Manual by course coach/owner**: The order is listed for all coaches of the person and for the course owners, under `Coaching > Assessment orders > Tab "Open reviews"`. With this variant, there is no assignment to a specific person.
+* **Manual by graders**: OpenOlat assigns the order to a person who is entered in the correction workflow of the learning resource Test. This variant is available as soon as the owners of the test have switched on the [correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow) in the learning resource Test. Correctors do not need a membership in the course. They find the order as a grading assignment under `Coaching > Assessment orders > Tab "Grading assignments"`.
+
+If no corrector is available at completion, the grading assignment waits with the status "Unassigned" under `Coaching > Order management > Tab "Grading assignments"`. There, owners of the test, learning resource managers or administrators assign it to a corrector, and it appears in that person's tab "Grading assignments".
+
+The section [Creating assessment orders](../../manual_user/area_modules/Coaching_Assessment_Orders.md#create_assessment_orders) shows which setting fills which tab in the coaching.
 
 [To the top of the page ^](#assessing_tests)
 
@@ -59,17 +64,17 @@ If no corretor is available when the assignment is submitted, the assignment rem
 
 ## How do I access my assessment orders (tests)? {: #access}
 
-If you are a coach or corrector, OpenOlat will assign you assessment orders.
+As a coach, you see the assessment orders of the people you coach, as a course owner the orders of all participants of the course. As a corrector, you see the grading assignments that are assigned to you.
 
-Each test is graded using a grading form. There are three ways to access it:
+Each test is assessed using an assessment form. There are three ways to access it:
 
-### 1. Start directly in the course module {: #access_course_element}
+### 1. Start directly in the course element {: #access_course_element}
 
 ![Three marked steps from the course element via the tab Participants to the row of a participant, in the course with the editor closed](assets/assessing_tests_access1a_v1_de.png){ class="shadow lightbox" }
 
-![1](assets/1_green_24.png) Users registered as coaches will not see the test (as participants do) when they **click on a test course module**, but rather an overview of the progress status of the participants they are coaching (with regard to the selected test course module).
+![1](assets/1_green_24.png) Users registered as coaches will not see the test (as participants do) when they **click on a test course element**, but rather an overview of the progress status of the participants they are coaching (with regard to the selected test course element).
 
-![2](assets/2_green_24.png) In the **"Participants" tab"**, you will find a list of the participants you are coaching, along with the processing status for this course module.
+![2](assets/2_green_24.png) In the **"Participants" tab"**, you will find a list of the participants you are coaching, along with the processing status for this course element.
 
 ![3](assets/3_green_24.png) After **selecting a participant**, you will be taken to the **assessment form** for the overall test.
 
@@ -86,7 +91,7 @@ In the **assessment form for the entire test**, you will find a list of all of t
 * Add assessment documents
 * Leave comments for other coaches
 
-![5](assets/5_green_24.png) Click the **correction icon** or the **three dots and then "Correct"** in the row of the current test attempt to open the **correction tool**. You will see a list of the questions in this test and can grade each individual question. (There is an **individual question grading form** for each question.) You can:
+![5](assets/5_green_24.png) Click the **correction icon** or the **three dots and then "Correct"** in the row of the current test attempt to open the **correction tool**. You will see a list of the questions in this test and can grade each individual question. (There is an **assessment form for the individual question** for each question.) You can:
 
 * view the results
 * reverse a test attempt
@@ -124,7 +129,7 @@ Also note the options under the icon at the end of the line.
 
 ### 3. Access through the coaching tool {: #access_coaching_tool}
 
-If you see the **"Coaching Tool" option in the header menu**, you can also use it to assess the test course module.
+If you see the **"Coaching Tool" option in the header menu**, you can also use it to assess the test course element.
 
 The **coaching tool** displays upcoming assessment assignments **across all courses**.
 From the Coaching Tool's overview page, you can access your assessment tasks via various links. For example, you can search for a specific person or view only the pending assessment tasks. 
@@ -159,10 +164,10 @@ What the three variants do is described on the page [Tests at course level](../.
 
 ## The assessment form {: #assessment_form}
 
-**For each question** on a test, there is a grading form in OpenOlat for each course participant.
+**For each question** on a test, there is an assessment form in OpenOlat for each course participant.
 
-There is also an evaluation form for the **entire test course module**. <br>
-See [1. Start directly in the course module, Step 3 ^](#access_course_element)
+There is also an assessment form for the **entire test course element**. <br>
+See [1. Start directly in the course element, Step 3 ^](#access_course_element)
 
 There you can:
 
@@ -190,7 +195,7 @@ The **assessment tool** can be used to grade various **gradable course elements*
 * Assessment
 * Portfolio task
 * The "Structure" module, as well as the entire course
-* Course module "Participant Folder"
+* Course element "Participant Folder"
 * Integrated external components such as SCORM
 * Task and group task
 * Tests
@@ -221,7 +226,7 @@ It is also possible to have tests graded anonymously in OpenOlat. You can learn 
 
 By default, every question in OpenOlat is graded on a point system.
 
-The points for each question are added to the total score for the course module.
+The points for each question are added to the total score for the course element.
 
 The total number of points can be converted to
 

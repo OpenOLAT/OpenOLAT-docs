@@ -139,11 +139,13 @@ If this checkbox is selected, the result is displayed after the test has been co
 
 ## Correction workflow [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442) {: #correction-workflow}
 
-To add additional correctors to a test, including correctors from other courses, you must enable correction under `Test > Administration > Correction workflow`. You can then add correctors, assign grading assignments and make further settings.
+To add additional correctors to a test, including correctors from other courses, you must switch on the correction workflow under `Test > Administration > Correction workflow`. You can then add correctors, assign grading assignments and make further settings.
+
+The correction workflow only concerns the manual correction of a test: who corrects, whether the correction is anonymous and in which period. The correctors award the points, and the assessment results from them. The difference between assessment, correction and levels/grading is explained under [Assessment, correction and levels/grading](../area_modules/Coaching_Assessment_Orders.md#assessment_terms).
 
 ### Tab "Configuration"
 
-Here the external correction is generally switched on. You can then define whether examinees are assessed anonymously or with a visible name. The correction period specifies the maximum time available to the corrector.
+Here you switch on the correction workflow. You can then define whether examinees are assessed anonymously or with a visible name. The correction period specifies the maximum time available to the corrector.
 
 The respective correctors are automatically notified when new edits of the test are available. The notification can be sent either immediately after the test is completed or once a day. For this purpose, a suitable mail text can be stored or a template ("Choose language template") can be used. After the first mail notification, two reminder mails can be sent at user-defined intervals (days).
 
