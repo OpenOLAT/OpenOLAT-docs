@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 804" width="940" height="804" role="img" aria-label="Die Administration richtet den Versand der Benachrichtigungen ein. Benutzer:innen erhalten die E-Mail, wenn sie ein Intervall gewählt haben, und keine E-Mail, wenn sie ausgeschaltet gewählt haben, auch wenn die Administration den Versand eingerichtet hat.">
+  <title>Wer bestimmt, ob eine Benachrichtigung ankommt?</title>
+<rect x="0" y="0" width="940" height="804" fill="#F3F4EF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#126365"/></marker></defs>
+<text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#126365" text-anchor="start">Wer bestimmt, ob eine Benachrichtigung ankommt?</text>
+<text x="40" y="82" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926" text-anchor="start">Die Administration legt fest, wann OpenOlat versendet. Benutzer:innen entscheiden, ob sie die E-Mail erhalten.</text>
+<rect x="250" y="112" width="440" height="118" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="470" y="150" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#126365" text-anchor="middle">Administration</text>
+<text x="470" y="184" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">richtet den Versand für die ganze Instanz ein,</text>
+<text x="470" y="208" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">im Standard alle zwei Stunden</text>
+<path d="M 470 232 L 470 266" fill="none" stroke="#126365" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="250" y="270" width="440" height="118" rx="10" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="470" y="308" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#5F6E23" text-anchor="middle">Benutzer:innen</text>
+<text x="470" y="342" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">wählen in ihren Einstellungen unter</text>
+<text x="470" y="366" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">«E-Mail-Benachrichtigung»</text>
+<path d="M 470 390 L 470 414" fill="none" stroke="#126365" stroke-width="2.5"/>
+<path d="M 470 414 L 245 454" fill="none" stroke="#126365" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 470 414 L 695 454" fill="none" stroke="#126365" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="458" width="410" height="118" rx="10" fill="#E3EFEF" stroke="#126365" stroke-width="2.5"/>
+<text x="245" y="496" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#126365" text-anchor="middle">Intervall gewählt, z. B. «täglich»</text>
+<text x="245" y="530" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Sie erhalten eine E-Mail mit den Neuigkeiten,</text>
+<text x="245" y="554" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">höchstens so oft wie gewählt.</text>
+<rect x="490" y="458" width="410" height="118" rx="10" fill="#EEF2DF" stroke="#5F6E23" stroke-width="4"/>
+<text x="695" y="496" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#5F6E23" text-anchor="middle">«ausgeschaltet» gewählt</text>
+<text x="695" y="530" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Sie erhalten keine E-Mail, obwohl die</text>
+<text x="695" y="554" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Administration den Versand eingerichtet hat.</text>
+<path d="M 695 578 L 695 612" fill="none" stroke="#126365" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="490" y="616" width="410" height="152" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="695" y="654" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#126365" text-anchor="middle">Die Neuigkeiten bleiben sichtbar</text>
+<text x="695" y="688" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Im persönlichen Menü unter</text>
+<rect x="558" y="695" width="274" height="24" rx="3" fill="#EDEDED"/>
+<text x="695" y="712" font-family="'Roboto Mono', 'Courier New', monospace" font-size="14" fill="#36464E" text-anchor="middle">Abonnements &gt; Tab "Neuigkeiten"</text>
+<text x="695" y="746" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">und über das Glockensymbol im Kursbaustein</text>
+</svg>

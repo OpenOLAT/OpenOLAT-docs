@@ -1,6 +1,6 @@
 # Core Konfiguration: Übersicht {: #core_config}
 
-![Menü Core Konfiguration in der System-Administration mit vierzehn Bereichen: Sprache und Region, Persönliche Werkzeuge, Startseite, REST API, Kalender, E-Mail, Dateien und Ordner, WebDAV, Zugangskontrolle, Statistiken, Volltextsuche, Benachrichtigungen, GUI-Einstellungen und Lizenzen](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Grundeinstellungen des ganzen Systems in vierzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core Konfiguration der System-Administration](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrator:innen haben in der System-Administration Zugriff auf das nebenstehende Menü:<br>
 `Administration > Core Konfiguration`
@@ -113,10 +113,24 @@ Hier finden Sie Angaben über die Indexierung der Volltextsuche.
 
 
 
-## Benachrichtigungen
+## Benachrichtigungen {: #notifications}
 
-Die Benachrichtigungsmails für abonnierte Themen (z.B. Foren) werden standardmässig jeweils einmal pro Tag versendet. Benutzer:innen können kürzere Intervalle einstellen. 
-Administrator:innen können hier ein sofortiges Senden veranlassen.
+Wer ein Forum, einen Ordner oder ein anderes Element abonniert hat, erhält die Neuigkeiten per E-Mail: OpenOlat verschickt je Person eine einzige E-Mail, die die Neuigkeiten aus allen ihren Abonnements auflistet. Hier sehen Sie, wann OpenOlat diese Benachrichtigungen verschickt, und können einen Versand sofort auslösen. Sie finden die Seite in der System-Administration unter:<br>
+`Administration > Core Konfiguration > Benachrichtigungen`
+
+![Status eingeschaltet, Regel 0 10 */2 * * ? für den Versand alle zwei Stunden und Button Benachrichtigungen auslösen, Seite E-Mail-Benachrichtigungen auslösen in der Core Konfiguration](assets/admin_core_config_notifications_v1_de.png){ class="shadow lightbox" }
+
+Den Versand steuern drei Dinge:
+
+* **Zeitplan des Versands**: Die Seite zeigt an, ob die Benachrichtigungen eingeschaltet sind und nach welcher Regel in Cron-Syntax der Versand läuft. Im Standard läuft er alle zwei Stunden, jeweils zehn Minuten nach der vollen Stunde (00.10, 02.10, 04.10 Uhr usw.). In der Oberfläche lassen sich weder die Regel noch das Ein- und Ausschalten ändern. Die Regel ist Teil der Serverkonfiguration und gilt nach einer Änderung erst ab dem nächsten Neustart von OpenOlat. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+* **Sofortiger Versand**: Der Button "Benachrichtigungen auslösen" startet den Versand sofort, ohne den nächsten Termin abzuwarten. Auch dabei erhalten nur Benutzer:innen eine E-Mail, deren Intervall abgelaufen ist und für die es Neuigkeiten gibt.
+* **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung im Tab "Systemeinstellungen", siehe [Konto konfigurieren](../usermanagement/Configure_User.de.md).
+
+Der Zeitplan bestimmt nur, wann OpenOlat prüft, nicht wer eine E-Mail erhält. Bei jedem Lauf erhält eine Person nur dann eine E-Mail, wenn ihr Intervall seit der letzten E-Mail abgelaufen ist und es in einem ihrer Abonnements etwas Neues gibt. Gibt es nichts Neues, verschickt OpenOlat keine E-Mail. Abonnements, die eine Person ausgesetzt hat, bleiben unberücksichtigt.
+
+Die beiden Einstellungen ergänzen sich, sie überschreiben sich nicht. Wer "ausgeschaltet" gewählt hat, erhält keine E-Mail, auch wenn der Versand der Instanz läuft. Ist der Versand der Instanz ausgeschaltet, erhält niemand eine E-Mail, gleich welches Intervall eine Person gewählt hat. In beiden Fällen gehen keine Neuigkeiten verloren: Jede Person sieht sie selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` und über das Glockensymbol im jeweiligen Kursbaustein.
+
+![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -138,3 +152,10 @@ Hier können die optionalen Lizenzen konfiguriert werden.
 [Zum Seitenanfang ^](#core_config)
 
 
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Persönliche Werkzeuge: Abonnements >](../../manual_user/personal_menu/Subscriptions.de.md)<br>
+[Module: Übersicht >](Modules.de.md)
+
+[Zum Seitenanfang ^](#core_config)

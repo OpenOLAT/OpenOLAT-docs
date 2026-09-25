@@ -59,6 +59,8 @@ Sie können sich auch mittels **RSS** über den Änderungsverlauf informieren la
 Wie oft Sie Änderungsmeldungen per E-Mail erhalten, oder ob Sie keine E-Mail erhalten wollen, legen Sie fest unter:<br>
 `Persönliches Menü > Einstellungen > Tab "System" > Allgemeine Systemeinstellungen > E-Mail-Benachrichtigung`
 
+Die E-Mails selbst verschickt OpenOlat nach einem Zeitplan, den die Administration für die ganze Instanz festlegt. Endet Ihr Intervall zwischen zwei Läufen des Versands, kommt die E-Mail erst mit dem nächsten Lauf. Haben Sie "ausgeschaltet" gewählt, erhalten Sie keine E-Mail, die Neuigkeiten sehen Sie aber weiterhin hier im Tab "Neuigkeiten". Mehr dazu: [Einstellungen: E-Mail-Benachrichtigung](Settings.de.md#notification_interval)
+
 Ist das **Portal** aktiviert, werden die Änderungsmeldungen auch dort unter "Meine Benachrichtigungen" angezeigt.
 
 !!! note "Beispiel: Neue Testresultate"
@@ -72,7 +74,7 @@ Ist das **Portal** aktiviert, werden die Änderungsmeldungen auch dort unter "Me
 
 ## Globale Abos [:octicons-tag-16:{ title="ab Release 17.2.4 (OO-6739)" }](https://track.frentix.com/issue/OO-6739) {: #global_subscriptions}
 
-Ist das globale Abonnement für Lernressourcen aktiviert, werden die Statusänderungen Ihrer Lernressourcen unter den persönlichen Abonnements im Tab "Neuigkeiten" aufgelistet und zusätzlich in der E-Mail-Sammelbenachrichtigung für Abonnements aufgeführt.
+Ist das globale Abonnement für Lernressourcen aktiviert, werden die Statusänderungen Ihrer Lernressourcen unter den persönlichen Abonnements im Tab "Neuigkeiten" aufgelistet und zusätzlich in der E-Mail mit den Neuigkeiten aus Ihren Abonnements aufgeführt.
 
 Die Funktion ist standardmässig aktiviert und gilt für Besitzer:innen von Kursen und Lernressourcen. Im Tab "Abonnements" schalten Besitzer:innen das globale Abonnement aus oder wieder ein; löschen lässt es sich nicht.
 
@@ -125,10 +127,16 @@ Wir empfehlen folgende Suchbegriffe: _RSS reader_, _RSS newsreader_, _feedreader
 
 ## Weiterführende Informationen {: #further_information}
 
-[Meine Portfolio Mappen](../area_modules/My_portfolio_binders.de.md)<br>
-[Wikipedia-Artikel zu RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
-[Kursbaustein "Mitteilungen"](../learningresources/Course_Element_Notifications.de.md)<br>
-[Startseite: Abonnements auf der Startseite einrichten (Administration)](../../manual_admin/administration/Landing_pages.de.md)
+**Auf dieser Seite erwähnt**<br>
+[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](Settings.de.md)
+
+**Weiterführend**<br>
+[Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
+[Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
+[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Wikipedia-Artikel zu RSS >](http://en.wikipedia.org/wiki/Rss_feed)
 
 **youtube**<br>
 [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}

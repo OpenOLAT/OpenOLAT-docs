@@ -30,7 +30,13 @@ Unter "Sprache" wählen Sie Ihre individuelle Systemsprache. OpenOlat ist in zah
 
 #### E-Mail-Benachrichtigung {: #notification_interval}
 
-Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie Benachrichtigungen per E-Mail erhalten wollen. Zur Auswahl stehen: "ausgeschaltet", "monatlich", "wöchentlich", "täglich", "halbtäglich", "alle vier Stunden" und "alle zwei Stunden".
+Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie höchstens eine E-Mail mit den Neuigkeiten aus Ihren Abonnements erhalten. Zur Auswahl stehen: "ausgeschaltet", "alle zwei Stunden", "alle vier Stunden", "alle zwölf Stunden", "täglich", "wöchentlich" und "monatlich". Treffen Sie keine Wahl, gilt "täglich". Je nach Konfiguration Ihrer OpenOlat-Instanz stehen weniger Intervalle zur Auswahl, oder das Feld erscheint gar nicht.
+
+Die gewählte Häufigkeit ist eine Obergrenze: OpenOlat schickt Ihnen nur dann eine E-Mail, wenn es in Ihren Abonnements etwas Neues gibt. Mit "ausgeschaltet" erhalten Sie keine Benachrichtigungen per E-Mail mehr. Das gilt unabhängig vom Zeitplan der Instanz. Die Neuigkeiten gehen dabei nicht verloren: Ihre Abonnements bleiben bestehen, und Sie sehen die Neuigkeiten jederzeit selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` oder über das Glockensymbol im jeweiligen Kursbaustein. Mehr dazu: [Abonnements](Subscriptions.de.md#view_notifications)
+
+Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions.de.md#notifications)
+
+![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
 
 #### E-Mail Versand {: #mail_delivery}
 
@@ -168,6 +174,8 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Persönliche Werkzeuge: Abonnements >](Subscriptions.de.md)<br>
+[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
