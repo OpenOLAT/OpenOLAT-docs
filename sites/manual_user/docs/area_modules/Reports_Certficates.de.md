@@ -1,4 +1,4 @@
-# Reports: Zertifikate {: #certificate_reports}
+# Coaching - Reports: Zertifikate {: #certificate_reports}
 
 Diese Seite beschreibt den Aufbau der Excel-Dateien, die mit den [Reportvorlagen der Kategorie Zertifikate](../area_modules/Coaching_Reports.de.md) erzeugt werden. Jede Datei enthält das Worksheet "Einzelkurse" und, falls das Modul Course Planner aktiv ist, zusätzlich das Worksheet "Produkte".
 

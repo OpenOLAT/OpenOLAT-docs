@@ -1,4 +1,4 @@
-# Reports: Certificates {: #certificate_reports}
+# Coaching - Reports: Certificates {: #certificate_reports}
 
 This page describes the structure of the Excel files generated with the [report templates of the category Certificates](../area_modules/Coaching_Reports.md). Each file contains the worksheet "Individual courses" and, if the Course Planner module is active, an additional worksheet "Products".
 
