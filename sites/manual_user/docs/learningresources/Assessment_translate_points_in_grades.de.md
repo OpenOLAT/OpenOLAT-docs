@@ -4,6 +4,8 @@
 
 Sofern ein Assessment-Kursbaustein, wie beispielsweise ein Test, eine Aufgabe usw. mit Punkten versehen werden, können die Punkte auch in Noten übersetzt werden. 
 
+Die Einstufung ergänzt die Bewertung: Ohne Einstufung besteht die Bewertung eines Kursbausteins aus Punkten und gegebenenfalls "Bestanden". Mit Einstufung kommt die Note dazu, und das Bewertungssystem bestimmt, ob die Punktzahl als bestanden gilt. Was Bewertung, Korrektur und Einstufung unterscheidet, steht unter [Bewertung, Korrektur und Einstufung](../area_modules/Coaching_Assessment_Orders.de.md#assessment_terms).
+
 Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfigurieren. 
 
 
@@ -17,7 +19,7 @@ Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfig
 Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten. 
 (Bei Tests im Tab "Test-Konfiguration".) Achten Sie darauf, dass auch "Punkte vergeben" aktiviert ist und aktivieren Sie "Bewertung mit Einstufung/Noten". 
 2. **Zuweisung wählen**<br>
-Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Damit auch Betreuende ohne Besitzrecht dort zuweisen können, setzen Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights) die Option "Einstufung/Noten zuweisen". Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
+Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Betreuende ohne Besitzrecht weisen dort zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht. Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
 
 3. **Bewertungsskala auswählen und anpassen**<br>
 Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich ein Einstellungsfenster. Hier können Sie ein Bewertungssystem auswählen und die Bewertungsskala weiter anpassen.

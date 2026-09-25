@@ -11,15 +11,31 @@ Je nach Rolle sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen an
 
 ---
 
+### Bewertung, Korrektur und Einstufung {: #assessment_terms}
+
+Auf dieser Seite kommen drei Begriffe vor. Sie bezeichnen verschiedene Dinge:
+
+* **Bewertung**: das Resultat einer Person an einem bewertbaren Kursbaustein, also Status, Punkte, "Bestanden" und gegebenenfalls die Note. Auch ein Test hat eine Bewertung. Sie bearbeiten sie im [Bewertungsformular](../learningresources/The_assessment_form.de.md) oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses.
+* **Korrektur**: das Durchsehen einer Abgabe von Hand, wo OpenOlat nicht selbst auswertet, etwa bei Freitextfragen in einem Test. Die Korrektur ist ein Schritt auf dem Weg zur Bewertung: In einem Test vergibt die korrigierende Person die Punkte, daraus entsteht die Bewertung. Betreuende korrigieren einen Test im [Korrekturwerkzeug](../learningresources/Assessing_tests.de.md), Korrektor:innen über "Korrigieren" in ihrem Korrekturauftrag.
+* **Einstufung/Noten**: die Umrechnung der Punkte in eine Note nach einer Bewertungsskala. Ohne Einstufung besteht die Bewertung aus Punkten und gegebenenfalls "Bestanden". Mit [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md) kommt die Note dazu, und das Bewertungssystem bestimmt, ob die Punktzahl als bestanden gilt.
+
+[Zum Seitenanfang ^](#assessment_orders)
+
+---
+
 ### Bewertungsaufträge erstellen {: #create_assessment_orders}
 
-Wer einen Kursbaustein auf manuelle Bewertung stellt, erstellt damit die Bewertungsaufträge für die Betreuung: Sobald eine teilnehmende Person ihre Arbeit abschliesst, legt OpenOlat den Auftrag an und zeigt ihn im passenden Tab. Betreuende sehen damit an einer Stelle, was ansteht.
+Bewertungsaufträge erstellen Kursbesitzer:innen am Kursbaustein: Sie stellen ihn auf manuelle Bewertung. Sobald danach eine teilnehmende Person ihre Arbeit abschliesst, legt OpenOlat den Bewertungsauftrag an und zeigt ihn im passenden Tab. Betreuende und Korrektor:innen bearbeiten die offenen Aufträge aus allen ihren Kursen unter `Coaching > Bewertungsaufträge`.
+
+Wer einen Auftrag bearbeitet, richtet diesen in der Regel nicht ein. Betreuende ohne Besitzrecht erreichen den Kurseditor nur, wenn ihnen im [Bereich "Rechte" der Mitgliederverwaltung](../learningresources/Members_management.de.md#section_rights) das Recht "Kurseditor" erteilt wurde. Den Korrektur-Workflow richten die Besitzer:innen des Tests ein, Korrektor:innen bearbeiten nur die Aufträge, die ihnen zugewiesen sind.
+
+Die vier Tabs sind keine vier Arten von Aufträgen. Die ersten drei zeigen die Bewertung einer Person an verschiedenen Stellen ihres Ablaufs: zu bewerten, Note zuzuweisen, freizugeben. Der vierte Tab zeigt die Korrekturaufträge: Testabgaben, die eine im Korrektur-Workflow eingetragene Korrektor:in korrigiert. Den Korrektur-Workflow gibt es nur für Tests. Andere Kursbausteine, etwa eine Aufgabe, erzeugen deshalb keine Korrekturaufträge.
 
 Die Tabs "Offene Bewertungen", "Offene Einstufungen/Noten" und "Freizugebende Bewertungen" sehen Kursbesitzer:innen für alle Teilnehmenden des Kurses, Betreuende für die Personen, die sie betreuen. Den Tab "Korrekturaufträge" sehen die Personen, die im Korrektur-Workflow als Korrektor:in eingetragen sind.
 
 ![Vier Einstellungen führen zu den vier Tabs, dazu zwei weitere Wege zu einem Auftrag.](assets/coaching_assessment_orders_create_v1_de.svg){ class="shadow lightbox" }
 
-Die Seiten, auf denen Sie die jeweilige Einstellung setzen:
+Die Seiten, auf denen Besitzer:innen die jeweilige Einstellung setzen:
 
 * **Offene Bewertungen**: [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction), [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md), [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
 * **Offene Einstufungen/Noten**: [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md)
@@ -41,7 +57,7 @@ Zwei weitere Wege führen zu einem Bewertungsauftrag:
 
 Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese können entsprechend der Spalten sortiert und dann einzeln ausgewählt und bewertet werden. Mit Klick auf den Link "Bewerten" gelangt man in das entsprechende Bewertungsformular.
 
-Eine Zeile erscheint, sobald der Bewertungseintrag der teilnehmenden Person auf dem Status "Korrigieren" steht. Diesen Status erzeugen die manuelle Korrektur eines [Tests](../learningresources/Tests_at_course_level.de.md#correction), der Schritt Korrektur beim Kursbaustein [Aufgabe](../learningresources/Course_Element_Task.de.md) sowie der Schalter "Status Korrigieren setzen, wenn Zugriff gewährt" beim Kursbaustein [Bewertung](../learningresources/Course_Element_Assessment.de.md).
+Eine Zeile erscheint, sobald der Bewertungseintrag der teilnehmenden Person auf dem Status "Korrigieren" steht. Diesen Status erzeugen die manuelle Korrektur eines [Tests](../learningresources/Tests_at_course_level.de.md#correction), die Schritte "Feedback", "Korrektur", "Peer-Review" und "Bewertung" beim Kursbaustein [Aufgabe](../learningresources/Course_Element_Task.de.md) sowie der Schalter "Status Korrigieren setzen, wenn Zugriff gewährt" beim Kursbaustein [Bewertung](../learningresources/Course_Element_Assessment.de.md). Betreuende sehen diese Schritte in der Spalte "Schritt", wenn sie die Aufgabe im Kurs öffnen.
 
 Über den Filter "Mir zugewiesen" schränken Sie die Liste auf die Aufträge ein, die Ihnen persönlich zugewiesen sind.
 
@@ -53,9 +69,9 @@ Eine Zeile erscheint, sobald der Bewertungseintrag der teilnehmenden Person auf 
 
 Hier finden Sie alle Kursbausteine, die zwar schon bewertet wurden, bei denen aber die manuelle Zuordnung zu einer Notenskala bzw. einem Bewertungssystem noch nicht abgeschlossen wurde.
 
-Eine Zeile erscheint, wenn am Kursbaustein "Bewertung mit Einstufung/Noten" eingeschaltet und die "Zuweisung" auf "Manuell" gestellt ist, die Punkte gesetzt sind und die Note noch aussteht. Sie setzen beides im Kurseditor am Kursbaustein, beim Test im Tab "Test-Konfiguration", sonst im Tab "Bewertung". Zusätzlich braucht es das Modul [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md) und eine hinterlegte Bewertungsskala.
+Eine Zeile erscheint, wenn am Kursbaustein "Bewertung mit Einstufung/Noten" eingeschaltet und die "Zuweisung" auf "Manuell" gestellt ist, die Punkte gesetzt sind und die Note noch aussteht. Kursbesitzer:innen setzen beides im Kurseditor am Kursbaustein, beim Test im Tab "Test-Konfiguration", sonst im Tab "Bewertung". Zusätzlich braucht es das Modul [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md) und eine hinterlegte Bewertungsskala.
 
-Damit auch Betreuende ohne Besitzrecht die Zeile sehen und die Note zuweisen können, setzen Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights) die Option "Einstufung/Noten zuweisen".
+Betreuende ohne Besitzrecht sehen die Zeile und weisen die Note zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein. Herkömmliche Kurse haben diesen Abschnitt nicht, dort dürfen Betreuende immer zuweisen.
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -67,7 +83,7 @@ Hier finden Sie alle Bewertungen, die noch nicht für die Teilnehmer:innen sicht
 
 In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf einmal freizugeben.
 
-Beim Test steuert das Feld "Freigabe Bewertung" im [Abschnitt Korrektur](../learningresources/Tests_at_course_level.de.md#correction), ob OpenOlat die Bewertung nach abgeschlossener Korrektur selbst freigibt. Bei den übrigen manuell bewerteten Kursbausteinen entscheidet die Kursoption "Bewertung freigeben" im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights); dieselbe Option gibt Betreuenden ohne Besitzrecht den Zugriff auf diesen Tab.
+Beim Test steuert das Feld "Freigabe Bewertung" im [Abschnitt Korrektur](../learningresources/Tests_at_course_level.de.md#correction), ob OpenOlat die Bewertung nach abgeschlossener Korrektur selbst freigibt. Bei den übrigen manuell bewerteten Kursbausteinen entscheidet die Kursoption "Bewertung freigeben". Dieselbe Option gibt Betreuenden ohne Besitzrecht den Zugriff auf diesen Tab. Sie ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht.
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -82,23 +98,23 @@ Sind Sie weder Betreuer:in noch Besitzer:in einer Lernressource, fehlen die übr
 
 ![Filter für Taxonomie, Kurs, Test, Korrektor:in, Status, Korrekturzeitraum, Punkte und Bestanden, darunter die Liste mit Frist, Kurs, Kursbaustein und dem Link Korrigieren, im Tab Korrekturaufträge.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
 
-Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen Sie in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
+Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen die Besitzer:innen des Tests in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
 
 Über den Link "Korrigieren" gelangen Sie direkt zum zu korrigierenden Test und nehmen dort manuelle Bewertungen vor. Automatische Bewertungen können Sie überschreiben. Hinterlassen Sie dazu einen Kommentar.
 
-#### So erstellen Sie einen Korrekturauftrag {: #create_grading_assignment}
+#### Wer einen Korrekturauftrag einrichtet {: #create_grading_assignment}
 
-Ein Korrekturauftrag entsteht in fünf Schritten. Er erreicht die Korrektor:in, sobald alle fünf gesetzt sind.
+Ein Korrekturauftrag entsteht in fünf Schritten. Drei Rollen richten ihn ein, die Abgabe einer teilnehmenden Person löst ihn aus. Er erreicht die Korrektor:in, sobald alle fünf Schritte erfolgt sind.
 
 ![Fünf Schritte vom Modul bis zum Korrekturauftrag, dazu die Zuweisung in der Auftragsverwaltung.](assets/coaching_assessment_orders_grading_chain_v1_de.svg){ class="shadow lightbox" }
 
-1. In der System-Administration ist der Korrektur-Workflow eingeschaltet: `Administration > e-Assessment > Test`.
-2. In der Lernressource Test ist die Korrektur eingeschaltet: `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
-3. Im Tab "Korrektor:innen" sind die korrigierenden Personen eingetragen. Ihre Rolle in OpenOlat spielt dabei keine Rolle.
-4. Am Kursbaustein Test steht die Korrektur auf "Manuell durch Korrektor:innen". Diese Option steht zur Auswahl, sobald Schritt 2 gesetzt ist. Mehr dazu auf der Seite [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction).
+1. Administrator:innen schalten in der System-Administration den Korrektur-Workflow ein: `Administration > e-Assessment > Test`.
+2. Besitzer:innen des Tests schalten in der Lernressource Test den Korrektur-Workflow ein: `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
+3. Besitzer:innen des Tests tragen im Tab "Korrektor:innen" die korrigierenden Personen ein. Deren Rolle in OpenOlat spielt dabei keine Rolle.
+4. Kursbesitzer:innen stellen am Kursbaustein Test die Korrektur auf "Manuell durch Korrektor:innen". Diese Option steht zur Auswahl, sobald Schritt 2 gesetzt ist. Mehr dazu auf der Seite [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction).
 5. Eine teilnehmende Person schliesst den Test ab.
 
-Ist beim Abschluss keine Korrektor:in verfügbar, trägt der Auftrag den Status "Nicht zugeordnet" und wartet in der [Auftragsverwaltung](Coaching_Order_Management.de.md). Dort weisen ihn Lernressourcenverwalter:innen einer Person zu, und er erscheint in deren Liste.
+Ist beim Abschluss keine Korrektor:in verfügbar, trägt der Auftrag den Status "Nicht zugeordnet" und wartet in der [Auftragsverwaltung](Coaching_Order_Management.de.md). Dort weisen ihn Besitzer:innen des Tests, Lernressourcenverwalter:innen oder Administrator:innen einer Person zu. Der Auftrag erscheint danach in der Liste dieser Person.
 
 Bei Freitextfragen laden Sie die Antwort einer Person über den Button "Als PDF herunterladen" oben rechts als PDF herunter. Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test. Bei anonymer Korrektur erscheint anstelle der persönlichen Angaben die "Teilnehmendenkennung". Alle Antworten einer Frage auf einmal laden Sie im [Korrekturwerkzeug des Kurses](../learningresources/Assessing_tests.de.md) herunter.
 
@@ -116,16 +132,17 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
+[Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
 [Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
-[Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
-[Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
-[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
-[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)
+[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
@@ -135,7 +152,6 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Rollen >](../../manual_user/basic_concepts/Roles.de.md)
 
 [Zum Seitenanfang ^](#assessment_orders)

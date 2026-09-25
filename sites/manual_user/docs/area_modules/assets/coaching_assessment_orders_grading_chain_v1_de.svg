@@ -1,59 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="So erstellen Sie einen Korrekturauftrag: fünf Schritte von der Systemadministration bis zur Abgabe, dazu die Zuweisung in der Auftragsverwaltung">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Wer einen Korrekturauftrag einrichtet: fünf Schritte von der Systemadministration bis zur Abgabe, dazu die Zuweisung in der Auftragsverwaltung">
   <rect x="0" y="0" width="900" height="420" fill="#F3F4EF"/>
-  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">So erstellen Sie einen Korrekturauftrag</text>
-  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Fünf Schritte, vom Modul bis zum Auftrag in der Liste der Korrektorin.</text>
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Wer einen Korrekturauftrag einrichtet</text>
+  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Drei Rollen richten ihn ein, die Abgabe löst ihn aus, die Korrektor:in bearbeitet ihn.</text>
 
   <g font-family="'Roboto', sans-serif">
-    <rect x="30" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
-    <text x="44" y="120" font-size="12" font-weight="700" fill="#135E5F">1. System</text>
+    <rect x="30" y="96" width="164" height="124" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="44" y="120" font-size="12" font-weight="700" fill="#135E5F">1. Administrator:in</text>
     <text x="44" y="141" font-size="12" fill="#2D2926">Administration:</text>
     <text x="44" y="158" font-size="12" fill="#2D2926">e-Assessment,</text>
     <text x="44" y="175" font-size="12" fill="#2D2926">Korrektur-Workflow</text>
     <text x="44" y="192" font-size="12" fill="#2D2926">einschalten.</text>
 
-    <rect x="212" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
-    <text x="226" y="120" font-size="12" font-weight="700" fill="#135E5F">2. Lernressource</text>
-    <text x="226" y="141" font-size="12" fill="#2D2926">Test &gt; Werkzeug</text>
-    <text x="226" y="158" font-size="12" fill="#2D2926">Korrektur-Workflow:</text>
-    <text x="226" y="175" font-size="12" fill="#2D2926">Korrektur</text>
-    <text x="226" y="192" font-size="12" fill="#2D2926">einschalten.</text>
+    <rect x="212" y="96" width="164" height="124" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="226" y="120" font-size="12" font-weight="700" fill="#135E5F">2. Besitzer:in Test</text>
+    <text x="226" y="141" font-size="12" fill="#2D2926">Lernressource Test,</text>
+    <text x="226" y="158" font-size="12" fill="#2D2926">Administration &gt;</text>
+    <text x="226" y="175" font-size="12" fill="#2D2926">Korrektur-Workflow,</text>
+    <text x="226" y="192" font-size="12" fill="#2D2926">Tab «Konfiguration»:</text>
+    <text x="226" y="209" font-size="12" fill="#2D2926">Workflow einschalten.</text>
 
-    <rect x="394" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
-    <text x="408" y="120" font-size="12" font-weight="700" fill="#135E5F">3. Personen</text>
+    <rect x="394" y="96" width="164" height="124" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
+    <text x="408" y="120" font-size="12" font-weight="700" fill="#135E5F">3. Besitzer:in Test</text>
     <text x="408" y="141" font-size="12" fill="#2D2926">Tab «Korrektor:innen»:</text>
     <text x="408" y="158" font-size="12" fill="#2D2926">Korrektor:innen</text>
     <text x="408" y="175" font-size="12" fill="#2D2926">eintragen, unab-</text>
     <text x="408" y="192" font-size="12" fill="#2D2926">hängig von der Rolle.</text>
 
-    <rect x="576" y="96" width="164" height="112" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
-    <text x="590" y="120" font-size="12" font-weight="700" fill="#135E5F">4. Kursbaustein</text>
-    <text x="590" y="141" font-size="12" fill="#2D2926">Test, Abschnitt</text>
-    <text x="590" y="158" font-size="12" fill="#2D2926">Korrektur: «Manuell</text>
-    <text x="590" y="175" font-size="12" fill="#2D2926">durch Korrektor:innen»</text>
-    <text x="590" y="192" font-size="12" fill="#2D2926">wählen.</text>
+    <rect x="576" y="96" width="164" height="124" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <text x="590" y="120" font-size="12" font-weight="700" fill="#135E5F">4. Kursbesitzer:in</text>
+    <text x="590" y="141" font-size="12" fill="#2D2926">Kursbaustein Test,</text>
+    <text x="590" y="158" font-size="12" fill="#2D2926">Abschnitt Korrektur:</text>
+    <text x="590" y="175" font-size="12" fill="#2D2926">«Manuell durch</text>
+    <text x="590" y="192" font-size="12" fill="#2D2926">Korrektor:innen»</text>
+    <text x="590" y="209" font-size="12" fill="#2D2926">wählen.</text>
 
-    <rect x="758" y="96" width="112" height="112" rx="6" fill="#209D9E"/>
+    <rect x="758" y="96" width="112" height="124" rx="6" fill="#209D9E"/>
     <text x="772" y="120" font-size="12" font-weight="700" fill="#FFFFFF">5. Abgabe</text>
-    <text x="772" y="141" font-size="12" fill="#FFFFFF">Eine Person</text>
+    <text x="772" y="141" font-size="12" fill="#FFFFFF">Teilnehmer:in</text>
     <text x="772" y="158" font-size="12" fill="#FFFFFF">schliesst den</text>
-    <text x="772" y="175" font-size="12" fill="#FFFFFF">Test ab.</text>
+    <text x="772" y="175" font-size="12" fill="#FFFFFF">Test ab und löst</text>
+    <text x="772" y="192" font-size="12" fill="#FFFFFF">den Auftrag aus.</text>
 
     <path d="M194 150 L210 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
     <path d="M376 150 L392 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
     <path d="M558 150 L574 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
     <path d="M740 150 L756 150" stroke="#209D9E" stroke-width="2" marker-end="url(#c)"/>
 
-    <path d="M814 208 L814 248" stroke="#135E5F" stroke-width="2" marker-end="url(#d)"/>
+    <path d="M814 220 L814 248" stroke="#135E5F" stroke-width="2" marker-end="url(#d)"/>
     <rect x="500" y="256" width="370" height="86" rx="6" fill="#135E5F"/>
     <text x="516" y="286" font-size="14" font-weight="700" fill="#FFFFFF">Korrekturauftrag im Coaching</text>
     <text x="516" y="308" font-size="12" fill="#FFFFFF">Coaching &gt; Bewertungsaufträge &gt; Korrekturaufträge,</text>
-    <text x="516" y="326" font-size="12" fill="#FFFFFF">bei der zugewiesenen Korrektorin.</text>
+    <text x="516" y="326" font-size="12" fill="#FFFFFF">bei der zugewiesenen Korrektor:in.</text>
 
-    <rect x="30" y="256" width="440" height="86" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
+    <rect x="30" y="256" width="440" height="96" rx="6" fill="#FFFFFF" stroke="#F2AF40" stroke-width="2"/>
     <text x="44" y="280" font-size="12" font-weight="700" fill="#135E5F">Ist noch niemand zugewiesen?</text>
-    <text x="44" y="302" font-size="12" fill="#2D2926">Der Auftrag wartet mit dem Status «Nicht zugeordnet» in</text>
-    <text x="44" y="320" font-size="12" fill="#2D2926">Coaching &gt; Auftragsverwaltung &gt; Korrekturaufträge. Dort</text>
-    <text x="44" y="338" font-size="12" fill="#2D2926">weisen Lernressourcenverwalter:innen ihn zu.</text>
+    <text x="44" y="302" font-size="12" fill="#2D2926">Der Auftrag wartet als «Nicht zugeordnet» in der Auftragsverwaltung.</text>
+    <text x="44" y="320" font-size="12" fill="#2D2926">Dort weisen ihn Besitzer:innen des Tests, Lernressourcen-</text>
+    <text x="44" y="338" font-size="12" fill="#2D2926">verwalter:innen oder Administrator:innen einer Korrektor:in zu.</text>
   </g>
 
   <text x="30" y="378" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Die Option in Schritt 4 steht zur Auswahl, sobald Schritt 2 gesetzt ist.</text>

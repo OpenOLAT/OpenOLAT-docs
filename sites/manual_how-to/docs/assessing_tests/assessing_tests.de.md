@@ -2,8 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Sie haben bereits einen Kurs mit einem Test-Kursbaustein erstellt.<br>
-    Sie haben den Kurs veröffentlicht und die Teilnehmenden haben den Test bearbeitet.<br>
+    Im Kurs gibt es einen Test-Kursbaustein, und die Teilnehmenden haben den Test bearbeitet.<br>
     Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmenden einzusehen, manuell zu bewerten, zu kommentieren und abzuschliessen? Die folgende Anleitung zeigt es Ihnen.
 
 ??? abstract "Zielgruppe"
@@ -43,13 +42,19 @@ Als Betreuer:in können Sie im **Bewertungswerkzeug**:
 
 ## Wie wird ein Bewertungsauftrag erstellt und vergeben? {: #assessment_order}
 
-Ob ein Bewertungsauftrag für einen Test erstellt wird, entscheidet sich bereits mit einer Einstellung im Kursbaustein: Soll der Test automatisch von OpenOlat bewertet werden oder manuell?<br>
-Automatisch bewertete Kurse benötigen keinen Bewertungsauftrag an eine bestimmte Person, manuell zu bewertende dagegen schon. Der/die Kursbesitzer:in kann die Entscheidung eingeben unter:<br> `(Kurs-)Administration > Kurseditor > Kursbaustein wählen > Tab "Test-Konfiguration"`
+Ob für einen Test ein Bewertungsauftrag entsteht, entscheidet die Einstellung "Korrektur" am Kursbaustein Test: Wertet OpenOlat den Test automatisch aus, oder korrigiert eine Person ihn von Hand?<br>
+Automatisch ausgewertete Tests brauchen keinen Bewertungsauftrag, OpenOlat zeigt das Resultat sofort. Für manuell korrigierte Tests erstellt OpenOlat einen Auftrag. Kursbesitzer:innen wählen die Variante unter:<br> `Kurs > Administration > Kurseditor > Kursbaustein Test wählen > Tab "Test-Konfiguration" > Abschnitt "Korrektur"`
 
-Soll manuell bewertet werden? Sobald ein:e Teilnehmer:in den Test bearbeitet hat, erstellt OpenOlat einen Bewertungsauftrag. 
-Es erfolgt eine Zuweisung zu einer Person, die die Bewertung vornimmt. Es können Betreuer:innen des Kurses sein oder auch Korrektor:innen, die keine Mitglieder des Kurses sind.
+Als Betreuer:in ohne Besitzrecht ändern Sie diese Einstellung nur, wenn Ihnen im Kurs das Recht "Kurseditor" erteilt wurde. Den Auftrag bearbeiten Sie, sobald OpenOlat ihn angelegt hat.
 
-Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Auftrag mit dem Status "Nicht zugeordnet" in `Coaching > Auftragsverwaltung > Korrekturaufträge`. Dort weisen Lernressourcenverwalter:innen den Bewertungsauftrag einer Korrektorin zu, und er erscheint in deren persönlicher Liste.
+Soll manuell korrigiert werden? Sobald eine teilnehmende Person den Test abschliesst, erstellt OpenOlat einen Bewertungsauftrag. Wer ihn erhält, hängt von der gewählten Variante ab:
+
+* **Manuell durch Kursbetreuer:in oder -besitzer:in**: Der Auftrag steht bei allen Betreuenden der Person und bei den Kursbesitzer:innen, unter `Coaching > Bewertungsaufträge > Tab "Offene Bewertungen"`. Eine Zuweisung an eine bestimmte Person gibt es bei dieser Variante nicht.
+* **Manuell durch Korrektor:innen**: OpenOlat weist den Auftrag einer Person zu, die im Korrektur-Workflow der Lernressource Test eingetragen ist. Diese Variante steht zur Wahl, sobald die Besitzer:innen des Tests in der Lernressource Test den [Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow) eingeschaltet haben. Korrektor:innen brauchen keine Mitgliedschaft im Kurs. Sie finden den Auftrag als Korrekturauftrag unter `Coaching > Bewertungsaufträge > Tab "Korrekturaufträge"`.
+
+Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Korrekturauftrag mit dem Status "Nicht zugeordnet" unter `Coaching > Auftragsverwaltung > Tab "Korrekturaufträge"`. Dort weisen Besitzer:innen des Tests, Lernressourcenverwalter:innen oder Administrator:innen ihn einer Korrektor:in zu, und er erscheint in deren Tab "Korrekturaufträge".
+
+Welche Einstellung welchen Tab im Coaching füllt, zeigt der Abschnitt [Bewertungsaufträge erstellen](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md#create_assessment_orders).
 
 [zum Seitenanfang ^](#assessing_tests)
 
@@ -58,7 +63,7 @@ Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Auftrag mit dem Sta
 
 ## Wie gelange ich zu meinen Bewertungsaufträgen (Tests)? {: #access}
 
-Sind Sie Betreuer:in oder Korrektor:in, werden Ihnen von OpenOlat die Bewertungsaufträge zugeteilt.
+Als Betreuer:in sehen Sie die Bewertungsaufträge der Personen, die Sie betreuen, als Kursbesitzer:in die Aufträge aller Teilnehmenden des Kurses. Als Korrektor:in sehen Sie die Korrekturaufträge, die Ihnen zugewiesen sind.
 
 Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, gibt es 3 Einstiegspunkte:
 

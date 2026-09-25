@@ -33,7 +33,7 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 
 #### Abschnitt Korrektur {: #correction}
 
-**Korrektur**: Hier bestimmen Sie, wer den Test auswertet. Drei Varianten stehen zur Auswahl. Sobald der Test einen manuell auszuwertenden [Fragetyp](Test_question_types.de.md) enthält, also Freitext, Datei hochladen oder Zeichnen, wählen Sie eine der beiden manuellen Varianten. Auch bei einem Test aus rein automatisch auswertbaren Fragen können Sie manuell korrigieren lassen.
+**Korrektur**: Hier bestimmen Sie, wer den Test auswertet. Drei Varianten stehen zur Auswahl. Sobald der Test einen manuell auszuwertenden [Fragetyp](Test_question_types.de.md) enthält, also Freitext, Datei hochladen oder Zeichnen, wählen Sie eine der beiden manuellen Varianten. Auch bei einem Test aus rein automatisch auswertbaren Fragen können Sie manuell korrigieren lassen. Die Korrektur ist ein Schritt der Bewertung: Wer korrigiert, vergibt die Punkte, daraus entsteht die Bewertung des Tests. Was Bewertung, Korrektur und Einstufung unterscheidet, steht unter [Bewertung, Korrektur und Einstufung](../area_modules/Coaching_Assessment_Orders.de.md#assessment_terms).
 
 * **Automatisch**: OpenOlat wertet alle Fragen direkt aus. Das Resultat ist sofort sichtbar.
 * **Manuell durch Kursbetreuer:in oder -besitzer:in**: Die Korrektur übernimmt das Kursteam. Für jede abgeschlossene Bearbeitung entsteht ein Auftrag im Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_assessments), im Tab "Offene Bewertungen".

@@ -1,17 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Bewertungsaufträge erstellen: vier Einstellungen führen zu den vier Tabs unter Coaching Bewertungsaufträge, dazu zwei weitere Wege über das Bewertungsformular und die Zuweisung">
   <rect x="0" y="0" width="900" height="700" fill="#F3F4EF"/>
   <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#135E5F">Bewertungsaufträge erstellen</text>
-  <text x="30" y="68" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Sie erstellen einen Bewertungsauftrag an der Bewertungsart des Kursbausteins. Sobald eine teilnehmende Person</text>
-  <text x="30" y="86" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">ihre Arbeit abschliesst, legt OpenOlat den Auftrag an und zeigt ihn im passenden Tab.</text>
+  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Besitzer:innen des Kurses und des Tests erstellen den Bewertungsauftrag mit ihren Einstellungen.</text>
+  <text x="30" y="83" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Sobald eine teilnehmende Person ihre Arbeit abschliesst, legt OpenOlat den Auftrag an.</text>
+  <text x="30" y="100" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Betreuende und Korrektor:innen bearbeiten ihn im passenden Tab.</text>
 
-  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">So erstellen Sie den Auftrag</text>
-  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Wo er erscheint</text>
+  <text x="30" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">Was Besitzer:innen einstellen</text>
+  <text x="560" y="122" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#135E5F">In welchem Tab der Auftrag steht</text>
 
   <g font-family="'Roboto', sans-serif">
     <rect x="30" y="136" width="440" height="76" rx="6" fill="#FFFFFF" stroke="#A6A6A6"/>
     <text x="44" y="160" font-size="13" font-weight="700" fill="#2D2926">Korrektur auf manuell stellen</text>
     <text x="44" y="181" font-size="12" fill="#2D2926">Kursbaustein Test, Abschnitt «Korrektur»: eine manuelle Variante.</text>
-    <text x="44" y="199" font-size="12" fill="#2D2926">Aufgabe: Schritt Korrektur. Bewertung: Statusschalter.</text>
+    <text x="44" y="199" font-size="12" fill="#2D2926">Aufgabe: nach der Abgabe. Bewertung: Statusschalter.</text>
     <path d="M470 174 L556 174" stroke="#209D9E" stroke-width="2" marker-end="url(#a)"/>
     <rect x="560" y="136" width="310" height="76" rx="6" fill="#209D9E"/>
     <text x="574" y="168" font-size="14" font-weight="700" fill="#FFFFFF">Offene Bewertungen</text>
