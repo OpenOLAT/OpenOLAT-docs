@@ -4,7 +4,7 @@
 
 Under `Administration > Life cycles`, you set up three of the four life cycles of OpenOlat in the system administration: the group life cycle, the course life cycle and the automatic user lifecycle. Each has its own trigger and its own steps.
 
-The fourth, the implementation life cycle, is not in this menu. It takes the implementations of the Course Planner through their status values and does not delete anything. The element type specifies its rules, and the individual implementation can override them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation).
+The fourth, the implementation life cycle, is not in this menu. It takes the implementations of the Course Planner through their status values and does not delete anything. The element type specifies its rules, and the individual implementation can override them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation). [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## Profile
 

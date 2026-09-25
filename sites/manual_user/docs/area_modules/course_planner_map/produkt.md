@@ -5,7 +5,7 @@
 
 The person responsible for education creates a product and builds up its structure: study programme, modules, single courses. Every element passes through the status values "Preparation", "Provisional", "Confirmed" and "Active" to "Finished" or "Cancelled". For the implementation, this sequence is called the implementation life cycle. [:octicons-tag-16:{ title="from Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
 
-The implementation life cycle does not delete anything and is not one of the three life cycles for groups, courses and accounts under `Administration > Life cycles`. You can set the status values manually or via [automation](../Course_Planner_Implementations.md#tab_settings_automation). The element type specifies the rules, and the individual implementation can override them.
+The implementation life cycle does not delete anything and is not one of the three life cycles for groups, courses and accounts under `Administration > Life cycles`. You can set the status values manually or via [automation](../Course_Planner_Implementations.md#tab_settings_automation). The element type specifies the rules, and the individual implementation can override them. [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## How do I do this?
 

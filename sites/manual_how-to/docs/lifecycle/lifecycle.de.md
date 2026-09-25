@@ -62,7 +62,7 @@ Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.
 Die generelle Aktivierung und die Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen nimmt die Administration vor. Sie finden die Einstellungen in der System-Administration unter:<br>
 `Administration > Lebenszyklen`
 
-Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzelne** Kurse, Gruppen oder Konten Lebenszyklen aktiviert werden.
+Diese Voreinstellungen gelten für das ganze System. Einzelne Gruppen nehmen ihre Betreuer:innen mit "Von den automatischen Methoden ausschliessen" davon aus, einzelne Konten schützt der Status "Aktiv und nicht löschbar" vor der Löschung.
 
 ![Markierter Bereich Kontoablauf mit Erklärtext und täglicher Ausführungszeit, darunter die Ja/Nein-Auswahl für die Benachrichtigung: Seite Konto in der System-Administration](assets/lifecycle_benutzer_admin_v2_de.png){ class="shadow lightbox" }
 
@@ -139,7 +139,7 @@ Grundlage sind die Voreinstellungen der Administration:
 
 Die Konfiguration steht in zwei getrennten Bereichen. Der Bereich **Kontoablauf** greift, wenn ein Konto sein hinterlegtes Ablaufdatum erreicht. Der Bereich **Automatischer Kontolebenszyklus** greift, wenn sich niemand mehr am Konto anmeldet. Es greift, was zuerst eintritt. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
-Daraus ergeben sich drei Phasen:
+Damit endet die Nutzung eines Kontos in drei Phasen. Der Kontoablauf steht für sich, Deaktivierung und Löschung bilden den automatischen Kontolebenszyklus:
 
 * **Kontoablauf**: Das Ablaufdatum wird pro Konto hinterlegt. Ist es erreicht, deaktiviert OpenOlat das Konto.
 * **Deaktivierung**: Konten ohne Anmeldung während der Inaktivitätsfrist werden automatisch oder manuell deaktiviert.
@@ -165,9 +165,9 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch", "Bestätigt" und "Aktiv" bis "Beendet" oder "Abgebrochen". Dieser Ablauf ist der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
 
 Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Administrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
-`Administration > Module > Course Planner > Tab Elementtypen`
+`Administration > Module > Course Planner > Tab Elementtypen` [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
-Jede Durchführung übernimmt die Regeln ihres Elementtyps oder überschreibt sie, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation).
+Jede Durchführung übernimmt die Regeln ihres Elementtyps oder überschreibt sie, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578)
 
 [Zum Seitenanfang ^](#lifecycles)
 

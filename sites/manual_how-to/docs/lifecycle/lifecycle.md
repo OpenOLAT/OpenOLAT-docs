@@ -61,7 +61,7 @@ When a group is permanently deleted, it is completely removed.
 The general activation and the definition of the automatically executed reminders or deletions is done by the administration. You find the settings in the system administration under:<br>
 `Administration > Life cycles`
 
-Based on these **general** presets, life cycles can then be activated **for individual** courses, groups or accounts.
+These presets apply to the whole system. Group coaches exclude individual groups with "Exclude from the automatic methods", and the status "Active and not deletable" protects individual accounts from deletion.
 
 ![Marked area Account expiration with explanatory text and daily run time, below it the Yes/No choice for the notification: page User in the system administration](assets/lifecycle_user_admin_v2_en.png){ class="shadow lightbox" }
 
@@ -94,7 +94,7 @@ Under `Groups > Tab "Group management"`, click on the big arrows with the descri
 <br>
 
 * In the third step (3rd arrow) you will find all **deleted** groups listed.
-* This list corresponds to the "recycle bin". The groups can now be permanently deleted - automatically or manually.
+* This list corresponds to the "Trash". The groups can be permanently deleted here, automatically or manually.
 
 ![Third arrow Deleted groups active, the list names Deleted on and Date of irrevocable deletion: tab Group administration](assets/lifecycle_groups_deleted_v1_en.png){ class="shadow lightbox" }
 
@@ -138,7 +138,7 @@ The basis is the default settings of the administration:
 
 The configuration is held in two separate areas. The area **Account expiration** takes effect when an account reaches the expiry date stored for it. The area **Automatic user lifecycle** takes effect when nobody logs in to the account any more. Whichever occurs first takes effect. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
-Three phases follow from this:
+The use of an account thus ends in three phases. The account expiration stands on its own, deactivation and deletion form the automatic user lifecycle:
 
 * **Account expiration**: The expiry date is stored per account. Once it is reached, OpenOlat deactivates the account.
 * **Deactivation**: Accounts without a login during the inactivity period are deactivated automatically or manually.
@@ -164,9 +164,9 @@ How far a single account has progressed through these phases is shown in the "Ac
 Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional", "Confirmed" and "Active" to "Finished" or "Cancelled". This sequence is the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not under `Administration > Life cycles`.
 
 You can set the status values manually or via the automation. Time-controlled rules of the automation refer to the begin or the end of the execution period, other rules take effect on a status change. Administrators store the rules per element type in the system administration under:<br>
-`Administration > Modules > Course Planner > Tab Element types`
+`Administration > Modules > Course Planner > Tab Element types` [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
-Each implementation takes over the rules of its element type or overrides them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation).
+Each implementation takes over the rules of its element type or overrides them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation). [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578)
 
 [To the top of the page ^](#lifecycles)
 
@@ -181,17 +181,17 @@ It can be configured so that owners are notified of status changes.
 
 **Notification Settings for Groups and Accounts:**<br>
 
-- Email announcing the deactivation
-- Response time following the announcement of the deactivation
-- Customizable notification text announcing the deactivation
-- An email confirming that the account has been deactivated
-- Customizable notification text after deactivation
+- Email announcing the inactivation
+- Reaction time following the announcement of the inactivation
+- Customizable notification text announcing the inactivation
+- Email with the information that the inactivation has been carried out
+- Customizable notification text after the inactivation
 
 - Email announcing the deletion
-- Response period following the notice of deletion
+- Reaction time following the announcement of the deletion
 - Customizable notification text announcing the deletion
-- An email confirming that the deletion has been completed
-- Customizable notification text after deletion
+- Email with the information that the deletion has been carried out
+- Customizable notification text after the deletion
 
 - Optional email copy to any address in each case
 

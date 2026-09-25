@@ -5,7 +5,7 @@
 
 Die Bildungsverantwortliche legt ein Produkt an und baut die Struktur auf: Lehrgang, Module, Einzelkurse. Jedes Element durchläuft die Status «Vorbereitung», «Provisorisch», «Bestätigt» und «Aktiv» bis «Beendet» oder «Abgebrochen». Für die Durchführung heisst dieser Ablauf Durchführungs-Lebenszyklus. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
 
-Der Durchführungs-Lebenszyklus löscht nichts und steht nicht bei den drei Lebenszyklen für Gruppen, Kurse und Konten unter `Administration > Lebenszyklen`. Die Status lassen sich von Hand setzen oder über die [Automatisierung](../Course_Planner_Implementations.de.md#tab_settings_automation): Der Elementtyp gibt die Regeln vor, die einzelne Durchführung kann sie überschreiben.
+Der Durchführungs-Lebenszyklus löscht nichts und steht nicht bei den drei Lebenszyklen für Gruppen, Kurse und Konten unter `Administration > Lebenszyklen`. Die Status lassen sich von Hand setzen oder über die [Automatisierung](../Course_Planner_Implementations.de.md#tab_settings_automation): Der Elementtyp gibt die Regeln vor, die einzelne Durchführung kann sie überschreiben. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## Wie setze ich das um?
 

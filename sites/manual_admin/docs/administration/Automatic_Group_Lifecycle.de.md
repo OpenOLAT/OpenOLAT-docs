@@ -48,6 +48,11 @@ Die Konfiguration umfasst vier Abschnitte.
 
 Hier können Sie Gruppen definieren, welche bei den automatischen Methoden berücksichtigt oder explizit ausgeschlossen werden.
 
+**Optionen:**
+
+* "Berücksichtigte Gruppen": "Alle Gruppen" oder "Nur Gruppen ohne eingebundene Kurse"
+* "Explizit ausgeschlossene Gruppen": "Extern verwaltete Gruppen"
+
 ### Inaktivierung {: #inactivation}
 
 Bei der Inaktivierung wird der Status der Gruppe von "Aktiv" auf "Inaktiv" gestellt und die Mitglieder können nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen können vollständig reaktiviert werden.
@@ -57,8 +62,8 @@ Bei der Inaktivierung wird der Status der Gruppe von "Aktiv" auf "Inaktiv" geste
 * "Inaktivierung nach": Anzahl der Tage, die eine Gruppe ohne Besuch im Status "Aktiv" verbleibt, bis sie inaktiviert wird
 * "Karenzfrist Reaktivierung": Anzahl der Tage nach einer Reaktivierung, in denen der Gruppen-Lebenszyklus die Gruppe nicht erneut inaktiviert (Standardwert: 30 Tage)
 * "Methode": automatische oder manuelle Inaktivierung, jeweils mit oder ohne Reaktionsfrist
-* Benachrichtigungen über bevorstehende Inaktivierung
 * "Reaktionsfrist": Anzahl der Tage zwischen der Benachrichtigung über die bevorstehende Inaktivierung und der Inaktivierung
+* Benachrichtigungen über bevorstehende Inaktivierung
 * Benachrichtigungen über erfolgte Inaktivierung
 
 ### Löschung {: #soft_deletion}
@@ -67,10 +72,10 @@ Beim Löschen werden alle Mitglieder aus der Gruppe und die Verknüpfungen auf K
 
 **Optionen:**
 
-* "Methode": automatische oder manuelle Löschung, jeweils mit oder ohne Reaktionsfrist
-* Benachrichtigungen über bevorstehende Löschung
-* "Reaktionsfrist": Anzahl der Tage zwischen der Benachrichtigung über die bevorstehende Löschung und der Löschung
 * "Löschung nach": Anzahl der Tage, die eine Gruppe im Status "Inaktiv" verbleibt, bis sie gelöscht wird
+* "Methode": automatische oder manuelle Löschung, jeweils mit oder ohne Reaktionsfrist
+* "Reaktionsfrist": Anzahl der Tage zwischen der Benachrichtigung über die bevorstehende Löschung und der Löschung
+* Benachrichtigungen über bevorstehende Löschung
 * Benachrichtigungen über erfolgte Löschung
 
 ### Unwiderrufliche Löschung {: #permanent_deletion}

@@ -4,7 +4,7 @@
 
 Unter `Administration > Lebenszyklen` stellen Sie in der System-Administration drei der vier Lebenszyklen von OpenOlat ein: den Gruppen-Lebenszyklus, den Kurs-Lebenszyklus und den automatischen Kontolebenszyklus. Jeder hat einen eigenen Auslöser und eigene Schritte.
 
-Der vierte, der Durchführungs-Lebenszyklus, steht nicht in diesem Menü. Er führt die Durchführungen des Course Planners durch ihre Status und löscht nichts. Seine Regeln legt der Elementtyp fest, die einzelne Durchführung kann sie überschreiben, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation).
+Der vierte, der Durchführungs-Lebenszyklus, steht nicht in diesem Menü. Er führt die Durchführungen des Course Planners durch ihre Status und löscht nichts. Seine Regeln legt der Elementtyp fest, die einzelne Durchführung kann sie überschreiben, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## Steckbrief
 
@@ -63,7 +63,7 @@ Liegt das Ablaufdatum vor dem Termin der automatischen Inaktivierung, nennt die 
 
 Jeder der beiden Bereiche nennt in seinem Erklärtext die Uhrzeit, zu der OpenOlat den jeweiligen Prozess täglich ausführt.
 
-Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist, inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt [Konto konfigurieren](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist (Schonfrist), inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt [Konto konfigurieren](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
 ![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" }
 
@@ -101,7 +101,7 @@ Ein Konto reaktivieren Sie manuell unter:<br>
 
 Meldet sich die Person über Shibboleth an, reaktiviert OpenOlat das inaktive Konto automatisch.
 
-Bei eingeschalteter automatischer Deaktivierung hat die Person nach einer Reaktivierung 30 Tage Zeit, sich anzumelden. Diese Zeit ist die Karenzfrist (Schonfrist): Der automatische Kontolebenszyklus deaktiviert das Konto in dieser Zeit nicht erneut, und der Reiter "Konto" weist die verbleibenden Tage mit dem Zusatz "(Karenzfrist)" aus. Erfolgt keine Anmeldung, deaktiviert OpenOlat das Konto erneut. [:octicons-tag-16:{ title="ab Release 15.2.3 (OO-4925)" }](https://track.frentix.com/issue/OO-4925)
+Bei eingeschalteter automatischer Deaktivierung hat die Person nach einer Reaktivierung 30 Tage Zeit, sich anzumelden. Diese Zeit ist die Karenzfrist: Der automatische Kontolebenszyklus deaktiviert das Konto in dieser Zeit nicht erneut, und der Reiter "Konto" weist die verbleibenden Tage mit dem Zusatz "(Karenzfrist)" aus. Erfolgt keine Anmeldung, deaktiviert OpenOlat das Konto erneut. [:octicons-tag-16:{ title="ab Release 15.2.3 (OO-4925)" }](https://track.frentix.com/issue/OO-4925)
 
 Die 30 Tage sind systemweit festgelegt und gelten für alle Konten.
 

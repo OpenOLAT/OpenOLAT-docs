@@ -48,6 +48,11 @@ The configuration comprises four sections.
 
 Here you can define groups that are included or explicitly excluded from the automatic methods.
 
+**Options:**
+
+* "Considered groups": "All groups" or "Only groups without linked courses"
+* "Explicitly excluded groups": "Externally managed groups"
+
 ### Inactivation {: #inactivation}
 
 Upon inactivation, the status of the group is set from "Active" to "Inactive" and members can only access the group in read-only mode. Inactive groups can be fully reactivated.
@@ -57,8 +62,8 @@ Upon inactivation, the status of the group is set from "Active" to "Inactive" an
 * "Inactivation after": Number of days that a group remains in the "Active" status without a visit until it is inactivated
 * "Reaction period after reactivation": Number of days after a reactivation during which the group life cycle does not inactivate the group again (default value: 30 days)
 * "Method": Automatic or manual inactivation, each with or without reaction time
-* Notifications about upcoming inactivation
 * "Reaction time": Number of days between the notification about the upcoming inactivation and the inactivation
+* Notifications about upcoming inactivation
 * Notifications about completed inactivation
 
 ### Deletion {: #soft_deletion}
@@ -67,10 +72,10 @@ When deleting, all members of the group and the links to courses are removed. Al
 
 **Options:**
 
-* "Method": Automatic or manual deletion, each with or without reaction time
-* Notifications about upcoming deletion
-* "Reaction time": Number of days between the notification about the upcoming deletion and the deletion
 * "Deletion after": Number of days a group remains in "Inactive" status until it is deleted
+* "Method": Automatic or manual deletion, each with or without reaction time
+* "Reaction time": Number of days between the notification about the upcoming deletion and the deletion
+* Notifications about upcoming deletion
 * Notifications about completed deletion
 
 ### Permanent deletion {: #permanent_deletion}
