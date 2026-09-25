@@ -6,6 +6,9 @@ Administrator:innen konfigurieren das Media Center in der System-Administration 
 
 ![Konfigurationsseite des Moduls Media Center mit den Abschnitten Lizenzen, Taxonomie und Freigaben](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
 
+Den Speicherplatz (Quota) des Media Centers legt dieses Modul nicht selbst fest. Die Quota stellen Sie unter `Administration > Core Konfiguration > Dateien und Ordner` ein.
+
+Siehe auch [Dateien und Ordner](Files_and_Folders.de.md#files_and_folders_quotas).<br>
 [Zum Seitenanfang ^](#module_media_center)
 
 ---
@@ -13,7 +16,7 @@ Administrator:innen konfigurieren das Media Center in der System-Administration 
 
 ## Lizenzen {: #licences}
 
-Falls unter **Core Konfiguration > Lizenzen** die Verwendung von Lizenzen für das Media Center vorgesehen ist, kann anschliessend durch diese Checkbox die Lizenzangabe zum Pflichtfeld für alle ins Media Center hochgeladenen oder erstellten Medien gemacht werden.  
+Falls unter `Administration > Core Konfiguration > Lizenzen` die Verwendung von Lizenzen für das Media Center vorgesehen ist, kann anschliessend durch diese Checkbox die Lizenzangabe zum Pflichtfeld für alle ins Media Center hochgeladenen oder erstellten Medien gemacht werden.
 
 [Mehr zur Verwendung von Lizenzen >](Licenses.de.md)<br>
 [Zum Seitenanfang ^](#module_media_center)
@@ -52,7 +55,10 @@ Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere
 
 ## Weiterführende Informationen {: #further_information}
 
+[Dateien und Ordner >](Files_and_Folders.de.md)<br>
+[Lizenzen >](Licenses.de.md)<br>
+[Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Media Center Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
-[Media Center im persönlichen Menü >](../../manual_user/personal_menu/Media_Center.de.md)<br>
+[Media Center im persönlichen Menü >](../../manual_user/personal_menu/Media_Center.de.md)
 
 [Zum Seitenanfang ^](#module_media_center)

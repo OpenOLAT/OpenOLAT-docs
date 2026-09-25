@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 792" width="940" height="792" role="img" aria-label="Zwei Wege zu mehr Speicherplatz im Media Center: für eine einzelne Person in der Benutzerverwaltung, für alle Personen einer Rolle unter Dateien und Ordner">
+<title>Mehr Speicherplatz im Media Center</title>
+<rect x="0" y="0" width="940" height="792" fill="#F3F4EF"/>
+<defs>
+<marker id="a_126365" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#126365"/></marker>
+<marker id="a_5F6E23" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5F6E23"/></marker>
+</defs>
+<text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#126365">Mehr Speicherplatz im Media Center</text>
+<text x="40" y="80" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Wo Sie die Quota ändern und was sich dadurch ändert</text>
+<rect x="40" y="104" width="880" height="54" rx="8" fill="#126365"/>
+<text x="480" y="138" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Für wen soll das Media Center mehr Platz erhalten?</text>
+<path d="M 250 158 L 250 190" stroke="#126365" stroke-width="2.5" marker-end="url(#a_126365)"/>
+<path d="M 710 158 L 710 190" stroke="#5F6E23" stroke-width="2.5" marker-end="url(#a_5F6E23)"/>
+<rect x="40" y="194" width="420" height="48" rx="8" fill="#126365"/>
+<text x="250" y="225" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Für eine einzelne Person</text>
+<rect x="500" y="194" width="420" height="48" rx="8" fill="#5F6E23"/>
+<text x="710" y="225" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Für alle Personen einer Rolle</text>
+<rect x="40" y="258" width="420" height="142" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">WO</text>
+<rect x="58" y="304" width="345" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Benutzerverwaltung &gt; "Benutzername" &gt;</text>
+<rect x="58" y="332" width="363" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Reiter "Quota" &gt; Zeile "Media Center" &gt;</text>
+<rect x="58" y="360" width="165" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="377" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">"Quota editieren"</text>
+<rect x="40" y="414" width="420" height="104" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="448" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">WER DARF DAS</text>
+<text x="58" y="477" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Administrator:innen, Benutzerverwalter:innen und</text>
+<text x="58" y="500" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Rollenverwalter:innen</text>
+<rect x="40" y="532" width="420" height="127" rx="8" fill="#E3EFEF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="566" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">AUSWIRKUNG</text>
+<text x="58" y="595" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Nur das Media Center dieser Person wächst.</text>
+<text x="58" y="618" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Ihre persönlichen Dateien und alle anderen</text>
+<text x="58" y="641" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Personen bleiben unverändert.</text>
+<rect x="500" y="258" width="420" height="239" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WO</text>
+<rect x="518" y="304" width="345" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Administration &gt; Core Konfiguration &gt;</text>
+<rect x="518" y="332" width="309" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Dateien und Ordner &gt; Tab "Quotas"</text>
+<rect x="518" y="360" width="201" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="377" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">::DEFAULT::POWERUSERS</text>
+<text x="518" y="405" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">für Autor:innen, Lernressourcenverwalter:innen</text>
+<text x="518" y="428" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">und Administrator:innen</text>
+<rect x="518" y="434" width="156" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="451" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">::DEFAULT::USERS</text>
+<text x="518" y="479" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">für alle übrigen Personen</text>
+<rect x="500" y="511" width="420" height="81" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="545" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WER DARF DAS</text>
+<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Nur Systemadministrator:innen</text>
+<rect x="500" y="606" width="420" height="150" rx="8" fill="#EEF3DA" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="640" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">AUSWIRKUNG</text>
+<text x="518" y="669" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Media Center und persönliche Dateien</text>
+<text x="518" y="692" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">wachsen gemeinsam.</text>
+<text x="518" y="715" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Das gilt für alle Personen der Rolle. Wer eine</text>
+<text x="518" y="738" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">eigene Quota hat, behält sie.</text>
+</svg>

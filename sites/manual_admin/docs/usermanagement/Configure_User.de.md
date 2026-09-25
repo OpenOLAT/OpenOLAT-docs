@@ -255,9 +255,15 @@ In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und wei
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Quota
+### Speicherplatz -> Quota {: #quota}
 
-Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit besonderen Aufgaben mehr Upload-Möglichkeit zu geben. Z.B. kann für Autor:innen, die besonders viele Videos in ihre Kurse einbinden müssen, die Quota im Media Center erhöht werden.
+Braucht eine Person mehr Speicherplatz, als der systemweite Standardwert vorsieht, etwa weil sie als Autor:in viele Videos in ihre Kurse einbindet, erhöhen Sie hier ihre Quota, ohne den Wert für alle anderen zu verändern. Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
+
+Der Reiter zeigt eine Tabelle mit zwei Zeilen, "Persönliche Dateien" und "Media Center". Je Zeile stehen "Anzahl Dateien", "Grösse", "Quota", "Upload Limite" und unter "Derzeit verwendet" ein Balken für den belegten Anteil der Quota. [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024)
+
+Die Aktion "Quota editieren" am Ende einer Zeile öffnet den gleichnamigen Dialog mit den Feldern "Pfad", "Quota (KB)" und "Upload Limite (KB)". Darunter listet der Dialog unter "Default Quotas" die Standardwerte und hebt die Zeile hervor, die für diese Person gilt. Eine hier gesetzte Quota gilt nur für diese Person und übersteuert den Standardwert. Öffnen Sie den Dialog aus der Zeile "Media Center" des Reiters, trägt das Feld "Pfad" den Pfad des Media Centers: Die neue Quota vergrössert nur das Media Center, die persönlichen Dateien behalten ihren Wert. Mit "Auf Default Quota zurücksetzen" gilt wieder der Standardwert.
+
+Welcher Standardwert gilt, hängt von der Rolle ab: Autor:innen, Lernressourcenverwalter:innen und Administrator:innen erhalten den Wert für Poweruser, alle übrigen den Wert für normale Benutzer:innen. Derselbe Wert gilt zugleich für die persönlichen Dateien und das Media Center. Einen eigenen Standardwert nur für das Media Center gibt es nicht. Die Werte und ihre Bedeutung beschreibt [Dateien und Ordner](../administration/Files_and_Folders.de.md#files_and_folders_quotas).
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -313,10 +319,12 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Module: Übersicht >](../administration/Modules.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
+[Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
 [Kontosuche >](Search_Users.de.md)<br>
-[Konto erstellen >](Create_User.de.md)
+[Konto erstellen >](Create_User.de.md)<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
 
 [zum Seitenanfang ^](#user_configuration)

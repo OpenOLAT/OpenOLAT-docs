@@ -125,7 +125,7 @@ Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles
 
 Wenn Sie eine Mediendatei im Media Center hinzufügen, können Sie sie für andere Personen (Mitbenutzer:innen) freigeben.
 
-Ansicht der Benutzer:innen:<br>
+Die Ansicht, die Benutzer:innen dabei sehen:<br>
 ![Markierter Bereich Share im Dialog Mediendatei hinzufügen mit dem Button Freigabe hinzufügen und den Freigabezielen Benutzer:in, Gruppe, Kurs und Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
@@ -167,13 +167,22 @@ Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenver
 ---
 
 
-## Quota [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
+## Speicherplatz -> Quota [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
 
-Der im Media Center verfügbare Speicherplatz kann von den OpenOlat Administrator:innen eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten.
+Der Speicherplatz im Media Center ist begrenzt. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten. So wissen Sie vor dem Hochladen, wie viel Platz Ihnen für neue Medien bleibt. Die Anzeige erscheint nur im Segment "Mein Media Center", in der Medienverwaltung fehlt sie, siehe [Media Center verwalten](#media_center_administration).
 
-![Markierte Speicheranzeige 0 B von 304.8 MB belegt unten links in Mein Media Center, darüber die Segmente Mein Media Center und Medienverwaltung](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links, im Segment Mein Media Center neben dem Segment Medienverwaltung](assets/media_center_quota_v2_de.png){ class="shadow lightbox" }
 
-In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
+In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Als Poweruser zählen neben den Autor:innen auch Lernressourcenverwalter:innen und Administrator:innen.
+
+Den Standardwert legen Systemadministrator:innen in der System-Administration fest, unter:<br>
+`Administration > Core Konfiguration > Dateien und Ordner`, Tab "Quotas"
+
+Derselbe Wert gilt auch für die persönlichen Dateien. Einen eigenen Standardwert nur für das Media Center gibt es nicht, siehe [Dateien und Ordner](../../manual_admin/administration/Files_and_Folders.de.md#files_and_folders_quotas).
+
+Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota, im Reiter "Quota" ihres Kontos in der Benutzerverwaltung, siehe [Konto konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
+
+![Zwei Wege zu mehr Platz im Media Center, für eine Person oder für alle einer Rolle, mit Ort und Auswirkung](assets/media_center_quota_ways_v1_de.svg){ class="shadow lightbox" title="Mehr Speicherplatz im Media Center" }
 
 !!! note "Hinweis"
 
@@ -229,14 +238,19 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
-[Portfolio erstellen >](../area_modules/Portfolio.de.md)<br>
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
+[Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Portfolio erstellen >](../area_modules/Portfolio.de.md)
+
+**Weiterführend**<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 [Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)<br>
-[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
 
 [Zum Seitenanfang ^](#media_center_concept)

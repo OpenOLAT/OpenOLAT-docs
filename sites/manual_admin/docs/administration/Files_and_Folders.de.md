@@ -20,8 +20,6 @@ Der Bereich enthält folgende Tabs:
 
 ## Tab Überblick {: #files_and_folders_overview}
 
-![Aktiver Tab Überblick in der Tab-Leiste von Dateien und Ordner](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
-
 Im Tab Überblick erhalten Administrator:innen einen schnellen Gesamtüberblick über die Anzahl und die Grösse von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten.
 
 Aus dem Überblick führen Links direkt in die zugehörigen Ansichten: "Zeige grosse Dateien", "Zeige gelöschte Dateien" und "Zeige Versionseinstellungen". Mit "Miniaturansichten zurücksetzen" wird der Status nicht erzeugter Miniaturansichten zurückgesetzt. Der Button "Neu berechnen" ermittelt die Kennzahlen neu.
@@ -31,15 +29,13 @@ Aus dem Überblick führen Links direkt in die zugehörigen Ansichten: "Zeige gr
 
 ## Tab Konfiguration {: #files_and_folders_configuration}
 
-![Aktiver Tab Konfiguration in der Tab-Leiste von Dateien und Ordner](assets/core_config_files_and_folders_tab_configuration_v1_de.png){ class="shadow lightbox" }
-
 
 ### Versionierung {: #files_and_folders_configuration_versions}
 
 
-Bei eingeschalteter Versionierung werden Dateien nicht überschrieben, sondern als neue Version (auch Revision genannt) angelegt. Ältere Versionen eines Dokumentes können heruntergeladen und bei Bedarf wiederhergestellt werden. Werden Dateien gelöscht, so erscheinen Sie in der Liste der gelöschten Dateien und können wiederhergestellt werden. Ist die Versionierungsfunktion eingeschaltet, so können Dateien auch gesperrt werden, z.B. wenn eine Person an einem Dokument arbeitet und verhindern möchte, dass eine andere Person zwischenzeitlich eine neue Version erstellt.
+Bei eingeschalteter Versionierung werden Dateien nicht überschrieben, sondern als neue Version (auch Revision genannt) angelegt. Ältere Versionen eines Dokumentes können heruntergeladen und bei Bedarf wiederhergestellt werden. Werden Dateien gelöscht, so erscheinen sie in der Liste der gelöschten Dateien und können wiederhergestellt werden. Ist die Versionierungsfunktion eingeschaltet, so können Dateien auch gesperrt werden, z.B. wenn eine Person an einem Dokument arbeitet und verhindern möchte, dass eine andere Person zwischenzeitlich eine neue Version erstellt.
 
-Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine "Ordner".
+Die Versionierung ist in allen Ordnern des Systems vorhanden: "Persönliche Dateien", Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine "Ordner".
 
 Im Abschnitt "Versionierung" schalten Sie die Funktion mit dem Schalter "Versionierung aktiviert" ein oder aus. Erst bei eingeschalteter Versionierung erscheinen die Auswahlliste "Anzahl Versionen", die Angabe "Versionen Grösse" und der Button "Versionen aufräumen". In der Auswahlliste "Anzahl Versionen" legen Sie die maximale Anzahl von Versionen für eine Datei fest; der Wert "Unlimitiert" hebt die Begrenzung auf.
 
@@ -63,10 +59,9 @@ Den aktuellen Inhalt des Papierkorbs sehen Sie im separaten Tab "Papierkorb".
 
 ## Tab Quotas {: #files_and_folders_quotas}
 
-![Aktiver Tab Quotas in der Tab-Leiste von Dateien und Ordner](assets/core_config_files_and_folders_tab_quota_v1_de.png){ class="shadow lightbox" }
+Damit der Platz der Instanz planbar bleibt, legen Sie im Tab "Quotas" fest, wie viel Speicher die Ordner und das Media Center höchstens belegen dürfen. Je Pfad gelten zwei Werte: "Quota (KB)" begrenzt den ganzen Ordner, "Upload Limite (KB)" eine einzelne hochgeladene Datei.
 
-Im Tab "Quotas" kann die maximale Speichergrösse und das Upload-Limit für
-bestimmte Pfade definiert und angepasst werden.
+Den Button "Quota hinzufügen" und die Aktionen zum Bearbeiten und Löschen einer Quota sehen Administrator:innen und Systemadministrator:innen. Die Standardwerte, deren Pfad mit "::DEFAULT::" beginnt, ändern nur Systemadministrator:innen.
 
 Folgende Standardwerte gelten systemweit:
 
@@ -74,32 +69,44 @@ Systemweite Quotas | Anwendungsbereich
 ---------|----------
 ::DEFAULT::BLOGSPODCASTS | Lernressourcen Blog und Podcast
 ::DEFAULT::COACHFOLDER | Betreuer:innen Ordner im Kurs
+::DEFAULT::COMMENTS | An Kommentare angehängte Dateien (Button "Datei anhängen") [:octicons-tag-16:{ title="ab Release 19.0.4 (OO-7759)" }](https://track.frentix.com/issue/OO-7759)
 ::DEFAULT::COURSEDOCUMENTS | Kurstool "Dokumente" (Kursmenü)
 ::DEFAULT::COURSEFOLDERS | Ablageordner des Kurses (ohne Unterordner von Kursbausteinen) und Ressourcenordner (Shared Folder)
 ::DEFAULT::GROUPS | Ordner in Gruppen
 ::DEFAULT::NODEFOLDERS | Kursbaustein "Ordner"
 ::DEFAULT::NODEPARTFOLDERS | Kursbaustein "Teilnehmer:innen Ordner"
-::DEFAULT::POWERUSERS | Persönlicher Ordner von Autor:innen
+::DEFAULT::POWERUSERS | "Persönliche Dateien" und Media Center von Autor:innen, Lernressourcenverwalter:innen und Administrator:innen
 ::DEFAULT::REPOSITORY | Lernressourcen wie Content Package oder Tests
-::DEFAULT::USERS | Persönlicher Ordner von Benutzer:innen ohne zusätzliche Systemrechte
+::DEFAULT::USERS | "Persönliche Dateien" und Media Center aller übrigen Benutzer:innen
 
-Es können individuelle Quotas ergänzt werden. Diese übersteuern den Standardwert und gelten beispielsweise nur für einen ganz bestimmten Kursordner oder den persönlichen Ordner einer ganz bestimmten Person.
+Im Dialog "Quota editieren" führt die Liste "Default Quotas" die beiden Werte als "Normale Benutzer:innen" und "Poweruser (Autor:innen)".
 
+Für das Media Center gibt es keinen eigenen systemweiten Standardwert. "::DEFAULT::USERS" und "::DEFAULT::POWERUSERS" gelten zugleich für die persönlichen Dateien und für das Media Center einer Person. Wer einen dieser Werte erhöht, gibt damit allen Personen, für die er gilt, mehr Platz in beiden. Soll nur eine einzelne Person mehr Platz im Media Center erhalten, setzen Sie für sie eine individuelle Quota. Sie vergrössert nur das Media Center, die persönlichen Dateien dieser Person behalten ihren Wert. [:octicons-tag-16:{ title="ab Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024)
+
+![Zwei Wege zu mehr Platz im Media Center, für eine Person oder für alle einer Rolle, mit Ort und Auswirkung](assets/media_center_quota_ways_v1_de.svg){ class="shadow lightbox" title="Mehr Speicherplatz im Media Center" }
+
+Individuelle Quotas übersteuern den Standardwert und gelten beispielsweise nur für einen ganz bestimmten Kursordner oder für die persönlichen Dateien einer ganz bestimmten Person. Sie legen eine individuelle Quota mit dem Button "Quota hinzufügen" an und tragen im Feld "Pfad" den Pfad des Ordners ein.
+
+![Feld Pfad mit dem Media-Center-Pfad einer Person markiert, darunter Quota (KB), Upload Limite (KB) und die Liste Default Quotas, im Dialog Quota hinzufügen des Tabs Quotas](assets/core_config_files_and_folders_quota_add_v1_de.png){ class="shadow lightbox" }
 
 Spezifische Quotas | Anwendungsbereich
 ---------|----------
 /course/101032323838456/coursefolder | Kursbaustein "Ordner" in einem bestimmten Kurs
 /cts/folders/BusinessGroup/414156565 | Ordner in einer bestimmten Gruppe
-/homes/mmusterfrau | Persönlicher Ordner der Benutzerin M. Musterfrau
-/HomeSite/"Benutzer-ID"/MediaCenter/0/My/0 | Anpassung einer persönlichen Quota im Media Center
+/homes/mmusterfrau | "Persönliche Dateien" der Person mit dem Anmeldenamen mmusterfrau
+/HomeSite/**"Identität"**/MediaCenter/0/My/0 | Media Center einer bestimmten Person
+
+Die Identität ist die Nummer, die OpenOlat jedem Konto fest zuteilt. Sie ist nicht dasselbe wie der Anmeldename: Der Pfad der persönlichen Dateien enthält den Anmeldenamen (`/homes/mmusterfrau`), der Pfad des Media Centers dagegen die Identität, etwa `/HomeSite/1212022784/MediaCenter/0/My/0`. Sie finden die Nummer in der Benutzerverwaltung:<br>
+`Benutzerverwaltung > "Benutzername"`<br>
+Auf der Seite "Kontoeinstellungen verwalten" steht sie in der Tabelle oben in der ersten Zeile "Identität".
+
+Die Quotas für die persönlichen Dateien und das Media Center einer Person legen Sie einfacher in der Benutzerverwaltung an, im Reiter "Quota" ihres Kontos. Dort entsteht derselbe Eintrag, ohne dass Sie den Pfad eintippen, siehe [Konto konfigurieren](../usermanagement/Configure_User.de.md#quota).
 
 [zum Seitenanfang ^](#files_and_folders)
 
 
 
 ## Tab Grosse Dateien {: #files_and_folders_large_files}
-
-![Aktiver Tab Grosse Dateien in der Tab-Leiste von Dateien und Ordner](assets/core_config_files_and_folders_tab_large_files_v1_de.png){ class="shadow lightbox" }
 
 Im Tab "Grosse Dateien" können Administrator:innen gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
@@ -122,7 +129,7 @@ Die Suchmaske kombiniert Zeit-, Mengen- und Statusfilter:
 
 Mit dem Button "Suche" wird die Trefferliste erstellt, mit "Reset" werden die Filter geleert.
 
-![Suchmaske mit Filtern nach Datum, Versionen und Mindestgrösse, darunter die Trefferliste mit Name, Grösse und Kontext](assets/core_config_files_and_folders_tab_large_files_screen_v1_de.png){ class="shadow lightbox" }
+![Suchmaske mit Filtern nach Datum, Versionen und Mindestgrösse, darunter die Trefferliste mit Name, Grösse und Kontext, im Tab Grosse Dateien unter Dateien und Ordner](assets/core_config_files_and_folders_tab_large_files_screen_v1_de.png){ class="shadow lightbox" }
 
 Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. In der letzten Spalte schickt die Aktion "E-Mail absenden" eine vorformulierte Nachricht an die Person, welche die Datei abgelegt hat. Die Nachricht bittet darum, die Datei zu prüfen und bei Bedarf zu entfernen.
 
@@ -130,8 +137,6 @@ Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. In der letzten Spa
 
 
 ## Tab Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #files_and_folders_trash}
-
-![Aktiver Tab Papierkorb in der Tab-Leiste von Dateien und Ordner](assets/core_config_files_and_folders_tab_trash_v1_de.png){ class="shadow lightbox" }
 
 Alle gelöschten Dateien der Instanz gelangen zunächst in den Papierkorb. Dort werden sie nach einer bestimmten Zeit automatisch gelöscht oder können von Administrator:innen gezielt ausgewählt und sofort endgültig gelöscht werden.
 
@@ -144,17 +149,14 @@ Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Lös
 [zum Seitenanfang ^](#files_and_folders)
 
 
----
+## Weiterführende Informationen {: #further_information}
 
-## Gelöschte Dateien (vor Version 19)
+**Auf dieser Seite erwähnt**<br>
+[Konto konfigurieren >](../usermanagement/Configure_User.de.md)
 
-Im Tab "**Gelöschte Dateien**" können von bestimmten Pfaden Dateien endgültig gelöscht werden.
-
-## Orphan Versionen löschen (vor Version 19)
-
-Alle Dokumente, welche manuell gelöscht werden oder für welche keine Versionierung mehr zur Verfügung steht, werden in eine Art Papierkorb gelegt. (Dieser Papierkorb unterscheidet sich vom Papierkorb ab Version 19.) Von dort könnten sie wiederhergestellt werden, benötigen jedoch auch nach wie vor dieselbe Speichermenge. Mit "Orphan Versionen löschen" wird dieser Papierkorb gelöscht. Die Versionen können nicht mehr wiederhergestellt werden, benötigen jedoch auch keinen Speicher mehr.  
+**Weiterführend**<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
+[Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md)
 
 [zum Seitenanfang ^](#files_and_folders)
-
-
-
