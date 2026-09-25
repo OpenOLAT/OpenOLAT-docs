@@ -1,4 +1,4 @@
-# Types of Course Elements
+# Types of Course Elements {: #course_elements}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [What are course elements?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
 
@@ -26,7 +26,7 @@ The following course elements serve in particular to provide and structure cours
 * [:o_icon_o_livestream_icon: Video Livestream](Course_Element_Video_Livestream.md)
 * [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.md)
 * [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.md)
-* [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.md)
+* [:octicons-arrow-right-24: card2brain flashcards](Course_Element_card2brain_Flashcards.md)
 * [:octicons-arrow-right-24: Mediasite](Course_Element_Mediasite.md)
 * [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.md)
 * [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.md)
@@ -46,7 +46,7 @@ The following course elements can be used in particular to test knowledge.
 * [:o_icon_o_iqtest_icon: Test](Course_Element_Test.md)
 * [:o_icon_o_iqself_icon: Self-test](Course_Element_Self_Test.md)
 * [:o_icon_o_practice_icon: Practice](Course_Element_Practice.md)
-* [:octicons-arrow-right-24: Video Task](Course_Element_Video_Task.md)
+* [:octicons-arrow-right-24: Video task](Course_Element_Video_Task.md)
 * [:material-clipboard-file-outline: Form](Course_Element_Form.md)
 * [:o_icon_o_survey_icon: Survey](Course_Element_Survey.md)
 * [:o_icon_o_cl_icon: Checklist](Course_Element_Checklist.md)
@@ -59,15 +59,15 @@ The configuration tab "Reminders" is available for all assessable elements of th
 
 In addition, the course elements "Survey" and "Form" are assigned to the category "Knowledge check". These enable the integration of OpenOlat forms into the course in order to use them for teaching evaluations, general surveys, structured queries of certain information of the participants, etc.
 
-#### Highscore  {: #highscore}
+#### Highscore {: #highscore}
 
-All assessable course elements, with the exception of "Practice" and "Structure", additionally receive the configuration tab "Highscore" if points are awarded at the element. The high score display enables a playful comparison of the participants and can be understood as a motivational factor.
+All assessable course elements except "Practice" additionally receive the configuration tab "HighScore", and so does the course element "Structure". The tab can be used as soon as points are awarded at the element. There you set up the highscore. It enables a playful comparison of the participants and can be understood as a motivational factor.
 
-First, "Show highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the high score will be displayed immediately after the test is finished.
+First, "Show Highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the highscore will be displayed immediately after the test is finished.
 
-It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the position display, the winner's podium, the histogram and the list of the best participants. For the list it is also possible to define whether all participants or only a certain number of the best participants should appear. At least one of these options must be selected.
+It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the congratulations title, the podium, the histogram and the top results listing. For the list it is also possible to define whether all participants or only a certain number of the best participants should appear. At least one of these options must be selected.
 
-![Podium with three ranks and scores, histogram of the score distribution and ranking list of the participants. View of the highscore element.](assets/Highscore_EN.png){ class="shadow lightbox" }
+![Congratulations title with your own position, podium with three ranks, histogram of the score distribution and top results listing, in the highscore area of a course element](assets/Highscore_EN.png){ class="shadow lightbox" }
 
 ### Communication and Collaboration
 
@@ -78,9 +78,9 @@ Course elements in this category are mainly used for collaborative work and exch
 * [:o_icon_o_wiki_icon: Wiki](Course_Element_Wiki.md)
 * [:o_icon_o_fo_icon: Forum](Course_Element_Forum.md)
 * [:material-file-multiple-outline: File Dialog](Course_Element_File_Dialog.md)
-* [:o_icon_o_pf_icon: Participant folder](Course_Element_Participant_Folder.md)
+* [:o_icon_o_pf_icon: Participant Folder](Course_Element_Participant_Folder.md)
 * [:o_icon_o_cmembers_icon: Participant list](Course_Element_Participant_List.md)
-* [:o_icon_o_vitero_icon: Vitero](Course_Element_vitero.md)
+* [:o_icon_o_vitero_icon: vitero](Course_Element_vitero.md)
 * [:o_icon_o_openmeetings_icon: OpenMeetings](Course_Element_OpenMeetings.md)
 * [:o_icon_o_vc_icon: Adobe Connect](Course_Element_Adobe_Connect.md)
 * [:o_icon_o_gotomeeting_icon: GoToMeeting](Course_Element_GoToMeeting.md)
@@ -92,13 +92,11 @@ Course elements in this category are mainly used for collaborative work and exch
 
 #### Virtual Classrooms
 
-![Icon for virtual rooms](assets/virtual_class.png)
-
 With the course elements 
 [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
 [BigBlueButton](bigbluebutton/index.md),
 [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
-[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), [Vitero](Course_Element_vitero.md) and [Zoom](zoom/index.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
+[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), [vitero](Course_Element_vitero.md) and [Zoom](zoom/index.md), different [Virtual classrooms](../basic_concepts/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
 
 Which course element will be integrated and which functionalities will be available depends on which configuration your OpenOlat system administrator has selected.
 
@@ -144,13 +142,13 @@ In addition to the course elements, there are other tools and learning resources
 
 ## Performance assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The assessable course elements can be viewed in the [assessment tool](../learningresources/Using_additional_Course_Editor_Tools.md). Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
+A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The assessable course elements can be viewed in the [assessment tool](../learningresources/Assessment_tool_overview.md). Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
 
-* [Task](../learningresources/Assessment.md) (manual assessment)
-* [Group task](../learningresources/Assessment.md)(Manual assessment)
-* [Portfolio task](../learningresources/Assessment.md) (manual assessment)
-* [Check list](../learningresources/Assessment.md) (manual & automatic assessment)
-* [Assessment](../learningresources/Assessment.md) (manual assessment)
+* [Task](../learningresources/Assessment.md#course_element_task) (manual assessment)
+* [Group task](../learningresources/Assessment.md#course_element_group_tasks) (manual assessment)
+* [Portfolio task](../learningresources/Assessment.md#course_element_portfolio) (manual assessment)
+* [Check list](../learningresources/Assessment.md#course_element_checklist) (manual & automatic assessment)
+* [Assessment](../learningresources/Assessment.md#course_element_assessment) (manual assessment)
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Assessment.md#course_element_test) (automatic & manual assessment)
@@ -160,3 +158,16 @@ A number of course elements can be used either for summative or formative assess
 ![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
 
 An overview of all criteria can be found on the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md#completion_criterion).
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Deleting, Moving and Copying Course Elements >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md)<br>
+[Course editor tools >](../learningresources/Using_additional_Course_Editor_Tools.md)
+
+**youtube**<br>
+[What are course elements?](<https://www.youtube.com/embed/JM6iSrfkHog>)<br>
+[Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>)
+
+[To the top of the page ^](#course_elements)

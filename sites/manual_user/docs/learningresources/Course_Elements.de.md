@@ -1,10 +1,10 @@
-# Kursbausteine
+# Kursbausteine {: #course_elements}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
-In OpenOlat stehen verschiedene Kursbausteine zur Verfügung, mit denen ein Kurs sehr flexibel und modular nach den gewünschten Bedürfnissen aufgebaut werden kann. So können Kursinhalte strukturiert und Inhalte bereitgestellt, kollaboratives Arbeiten und Austausch gefördert, der Wissenstand der Teilnehmenden geprüft sowie organisatorische Belange abgedeckt werden.
+In OpenOlat stehen verschiedene Kursbausteine zur Verfügung, mit denen ein Kurs sehr flexibel und modular nach den gewünschten Bedürfnissen aufgebaut werden kann. So können Kursinhalte strukturiert und Inhalte bereitgestellt, kollaboratives Arbeiten und Austausch gefördert, der Wissensstand der Teilnehmenden geprüft sowie organisatorische Belange abgedeckt werden.
 
 ## Kursbausteine im Überblick
 
@@ -26,7 +26,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 * [:o_icon_o_livestream_icon: Video Livestream](Course_Element_Video_Livestream.de.md)
 * [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.de.md)
 * [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.de.md)
-* [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
+* [:octicons-arrow-right-24: card2brain Lernkarten](Course_Element_card2brain_Flashcards.de.md)
 * [:octicons-arrow-right-24: Mediasite](Course_Element_Mediasite.de.md)
 * [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 * [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
@@ -42,7 +42,7 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 * [:o_icon_o_iqtest_icon: Test](Course_Element_Test.de.md)
 * [:o_icon_o_iqself_icon: Selbsttest](Course_Element_Self_Test.de.md)
 * [:o_icon_o_practice_icon: Übung](Course_Element_Practice.de.md)
-* [:octicons-arrow-right-24: Video-Aufgabe](Course_Element_Video_Task.de.md)
+* [:octicons-arrow-right-24: Videoaufgabe](Course_Element_Video_Task.de.md)
 * [:material-clipboard-file-outline: Formular](Course_Element_Form.de.md)
 * [:o_icon_o_survey_icon: Umfrage](Course_Element_Survey.de.md)
 * [:o_icon_o_cl_icon: Checkliste](Course_Element_Checklist.de.md)
@@ -53,15 +53,15 @@ Das Konfigurationstab "Erinnerungen" steht für alle bewertbaren Bausteine der W
 
 Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfrage" und "Formular" zugeordnet. Diese ermöglichen die Einbindung von OpenOlat Formularen in den Kurs, um diese für Unterrichtsevaluationen, allgemeine Befragungen, strukturierte Abfragen bestimmter Informationen der Teilnehmenden usw. zu nutzen.
 
-#### Highscore {: #highscore}
+#### Rangliste {: #highscore}
 
-Alle bewertbaren Kursbausteine, mit Ausnahme von "Übung" und "Struktur", erhalten zusätzlich das Konfigurationstab "Highscore", wenn am Baustein Punkte vergeben werden. Die Highscore-Darstellung ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
+Alle bewertbaren Kursbausteine ausser "Übung" erhalten zusätzlich das Konfigurationstab "HighScore", ebenso der Kursbaustein "Struktur". Nutzbar ist der Tab, sobald am Baustein Punkte vergeben werden. Dort richten Sie die Rangliste ein. Sie ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
 
-Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem der Highscore angezeigt wird. Ohne Angabe des Datums wird der Highscore direkt nach Beenden des Tests angezeigt.
+Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem die Rangliste angezeigt wird. Ohne Angabe des Datums wird die Rangliste direkt nach Beenden des Tests angezeigt.
 
-Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente des Highscores angezeigt werden sollen. Zur Auswahl stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer. Für die Liste kann zudem definiert werden, ob alle Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
+Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente der Rangliste angezeigt werden sollen. Zur Auswahl stehen der Gratulationstitel, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer:innen. Für die Liste kann zudem definiert werden, ob alle Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
 
-![Podium mit drei Rängen und Punktzahlen, Histogramm der Punkteverteilung und Rangliste der Teilnehmenden. Ansicht des Highscore-Elements.](assets/Highscore.png){ class="shadow lightbox" }
+![Gratulationstitel mit dem eigenen Platz, Siegertreppchen mit drei Rängen, Histogramm der Punkteverteilung und Liste der besten Teilnehmer:innen, im Bereich Rangliste eines Kursbausteins](assets/Highscore.png){ class="shadow lightbox" }
 
 ### Kommunikation und Kollaboration
 
@@ -70,9 +70,9 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 * [:o_icon_o_wiki_icon: Wiki](Course_Element_Wiki.de.md)
 * [:o_icon_o_fo_icon: Forum](Course_Element_Forum.de.md)
 * [:material-file-multiple-outline: Dateidiskussion](Course_Element_File_Dialog.de.md)
-* [:o_icon_o_pf_icon: Teilnehmer Ordner](Course_Element_Participant_Folder.de.md)
-* [:o_icon_o_cmembers_icon: Teilnehmerliste](Course_Element_Participant_List.de.md)
-* [:o_icon_o_vitero_icon: Vitero](Course_Element_vitero.de.md)
+* [:o_icon_o_pf_icon: Teilnehmer:innen Ordner](Course_Element_Participant_Folder.de.md)
+* [:o_icon_o_cmembers_icon: Liste der Teilnehmer:innen](Course_Element_Participant_List.de.md)
+* [:o_icon_o_vitero_icon: vitero](Course_Element_vitero.de.md)
 * [:o_icon_o_openmeetings_icon: OpenMeetings](Course_Element_OpenMeetings.de.md)
 * [:o_icon_o_vc_icon: Adobe Connect](Course_Element_Adobe_Connect.de.md)
 * [:o_icon_o_gotomeeting_icon: GoToMeeting](Course_Element_GoToMeeting.de.md)
@@ -82,12 +82,10 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 #### Virtuelle Räume
 
-![Sinnbild für virtuelle Räume](assets/vitero.png)
-
 Mit den Kursbausteinen 
-[Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](bigbluebutton/index.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](zoom/index.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
+[Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](bigbluebutton/index.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [vitero](Course_Element_vitero.de.md) und [Zoom](zoom/index.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
 
-Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitäten jeweils zur Verfügung stehen, hängt von der Konfiguration ihres OpenOlat-Systems ab.
+Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitäten jeweils zur Verfügung stehen, hängt von der Konfiguration Ihres OpenOlat-Systems ab.
 
 Ein virtueller Raum ermöglicht es, gleichzeitig (synchron) online mit mehreren Personen zusammen zu arbeiten, die geographisch an unterschiedlichen Orten sind. Funktionen von virtuellen Räumen sind unter anderem Live Chat, Audio und Video, Desktop- und Dokumentsharing. Wird ein virtueller Raum mittels eines Kursbausteins betreten, öffnet sich ein neues Browserfenster, in dem die virtuelle Sitzung stattfindet.
 
@@ -117,7 +115,7 @@ Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
 ## Allgemeines zu Kursbausteinen
 
-Alle Kursbausteine verfügen über die Tabs "**Titel und Beschreibung**" sowie "**Layout**". Darüber hinaus gibt es noch bestimmte Tabs die je nach technischem Kurstyp durchgängig vorhanden sind. Der Tab "Lernpfad" existiert nur bei Lernpfad Kursen. Die Tabs "Sichtbarkeit" und "Zugang" existieren nur bei den herkömmlichen Kursen.
+Alle Kursbausteine verfügen über die Tabs "**Titel und Beschreibung**" sowie "**Layout**". Darüber hinaus gibt es noch bestimmte Tabs, die je nach technischem Kurstyp durchgängig vorhanden sind. Der Tab "Lernpfad" existiert nur bei Lernpfadkursen. Die Tabs "Sichtbarkeit" und "Zugang" existieren nur bei den herkömmlichen Kursen.
 
 Neben den Kursbausteinen gibt es in OpenOlat Kursen noch weitere Tools und Lernressourcen, die zur Ausgestaltung von Kursen verwendet werden können. Hinweise darauf finden Sie in den jeweiligen Kapiteln.
 
@@ -126,17 +124,30 @@ Neben den Kursbausteinen gibt es in OpenOlat Kursen noch weitere Tools und Lernr
 Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewertung genutzt werden, oder dient der Fortschrittskontrolle. Die bewertbaren Kursbausteine können im
 [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
 
-* [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
-* [Gruppenaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
-* [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
-* [Checkliste](../learningresources/Assessment.de.md)  (manuelle & automatische Bewertung)
-* [Bewertung](../learningresources/Assessment.de.md)  (manuelle Bewertung)
+* [Aufgabe](../learningresources/Assessment.de.md#course_element_task) (manuelle Bewertung)
+* [Gruppenaufgabe](../learningresources/Assessment.de.md#course_element_group_tasks) (manuelle Bewertung)
+* [Portfolioaufgabe](../learningresources/Assessment.de.md#course_element_portfolio) (manuelle Bewertung)
+* [Checkliste](../learningresources/Assessment.de.md#course_element_checklist) (manuelle & automatische Bewertung)
+* [Bewertung](../learningresources/Assessment.de.md#course_element_assessment) (manuelle Bewertung)
 * [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
-* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md)  (automatische Bewertung, wird durch SCORM-Modul übertragen)
-* [Test](../learningresources/Assessment.de.md)  (automatische & manuelle Bewertung)
+* [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
+* [Test](../learningresources/Assessment.de.md#course_element_test) (automatische & manuelle Bewertung)
 
 Die Fortschrittskontrolle steuern [Lernpfadkurse](../learningresources/Learning_path_course.de.md) über das Erledigungskriterium, das Sie im Kurseditor pro Kursbaustein im Tab "Lernpfad" festlegen. Mit dem Kriterium "Bestätigung durch Benutzer:in" bestätigen die Teilnehmenden die Bearbeitung selbst über den Toggle-Button "Als erledigt markieren".
 
 ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
 
 Eine Übersicht aller Kriterien finden Sie auf der Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md#completion_criterion).
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
+[Kurseditorwerkzeuge >](../learningresources/Using_additional_Course_Editor_Tools.de.md)
+
+**youtube**<br>
+[Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>)<br>
+[Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>)
+
+[Zum Seitenanfang ^](#course_elements)

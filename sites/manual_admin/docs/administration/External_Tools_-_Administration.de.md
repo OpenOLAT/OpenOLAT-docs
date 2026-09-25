@@ -1,15 +1,12 @@
 # Externe Werkzeuge: Übersicht {: #ext_tools}
 
-![Ein Eintrag je externem Werkzeug, von BigBlueButton bis PDF Generator, im Menü Externe Werkzeuge der System-Administration](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
-
-
-In diesem Bereich schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Der Bereich liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
+Im Menü "Externe Werkzeuge" schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Das Menü liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
 
 
 ## BigBlueButton {: #bbb}
 
 BigBlueButton ist eine Software, welche Online-Konferenzen ermöglicht oder als virtuelles Klassenzimmer dienen kann.
-Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB unter `Administration > Externe Werkzeuge > BigBlueButton` aktiviert und konfiguriert worden sein.
+Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der System-Administration unter `Administration > Externe Werkzeuge > BigBlueButton` aktiviert und konfiguriert worden sein.
 
 [Zu den Details >](BigBlueButton_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -78,7 +75,7 @@ Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben
 
 ## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
-Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Werkzeuge unter `Administration > Externe Werkzeuge > Microsoft SharePoint / OneDrive` aktiviert werden. (Sie können einzeln aktiviert werden.)
+Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Werkzeuge in der System-Administration unter `Administration > Externe Werkzeuge > Microsoft SharePoint / OneDrive` aktiviert werden. (Sie können einzeln aktiviert werden.)
 
 Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
@@ -90,7 +87,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 ## Zoom [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
-Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom unter `Administration > Externe Werkzeuge > Zoom` aktiviert und konfiguriert worden sein.
+Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der System-Administration unter `Administration > Externe Werkzeuge > Zoom` aktiviert und konfiguriert worden sein.
 
 [Zu den Details >](Zoom.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -185,9 +182,12 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 
 
-## YouTube API [:octicons-tag-16:{ title="ab Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
+## Youtube API [:octicons-tag-16:{ title="ab Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
 
-Eingabe, Entfernung oder Prüfen des API Schlüssels. Der Schlüssel wird verwendet, um beim Einbinden von YouTube-Videos Metadaten wie Titel, Beschreibung und Lizenz automatisch zu übernehmen.
+Wer YouTube-Videos in OpenOlat einbindet, erhält Titel, Beschreibung und Lizenz des Videos automatisch, sobald hier ein API Schlüssel hinterlegt ist. Sie finden die Einstellung in der System-Administration unter:<br>
+`Administration > Externe Werkzeuge > Youtube API`
+
+Der Menüeintrag schreibt "Youtube API" und weicht damit von der Marke YouTube ab. Gemeint ist nicht die Videoplattform, sondern ihre Programmierschnittstelle: die YouTube Data API (Version 3) von Google. Über sie fragt OpenOlat die Angaben eines Videos ab. Im Feld "API Schlüssel" tragen Sie den Schlüssel für diese Schnittstelle ein. Mit "API Schlüssel Prüfen" testen Sie, ob OpenOlat damit Daten lesen darf, mit "Schlüssel entfernen" löschen Sie ihn wieder.
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -205,7 +205,7 @@ Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auc
 
 ## Mediasite [:octicons-tag-16:{ title="ab Release 16.0.4 (OO-5492)" }](https://track.frentix.com/issue/OO-5492){:target="_blank"} {: #mediasite}
 
-Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videomanagement und Untertitelung. Mit dem Mediasite-Modul binden Kursbesitzer:innen eine einzelne Aufzeichnung oder einen Kanal des Mediasite-Servers über den Kursbaustein "Mediasite" in Kurse ein. Sie aktivieren das Modul unter:<br>
+Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videomanagement und Untertitelung. Mit dem Mediasite-Modul binden Kursbesitzer:innen eine einzelne Aufzeichnung oder einen Kanal des Mediasite-Servers über den Kursbaustein "Mediasite" in Kurse ein. Sie aktivieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Mediasite`
 
 **Vorkonfigurierter Server:** Ist diese Option aktiviert, hinterlegen Sie hier eine Verbindung zu einem Mediasite-Server, die allen Kursbausteinen "Mediasite" der Instanz zur Verfügung steht. Ist sie nicht aktiviert, richten die Kursbesitzer:innen die Verbindung in jedem Kursbaustein selbst ein. Die Felder für die Verbindung erscheinen erst, wenn die Option aktiviert ist.
@@ -214,7 +214,7 @@ Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videoma
 
 **LTI-Version:** Die Verbindung zum Mediasite-Server läuft über LTI 1.1 oder LTI 1.3 [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Version bestimmt, welche Angaben Sie eintragen und wie die Kursbesitzer:innen den Inhalt im Kurseditor auswählen. Die Angaben erhalten Sie von der Betreiberin des Mediasite-Servers.
 
-LTI 1.3 setzt voraus, dass das Modul LTI 1.3 unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](LTI_Integrations.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
+LTI 1.3 setzt voraus, dass das Modul LTI 1.3 in der System-Administration unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](LTI_Integrations.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
 
 | | LTI 1.1 | LTI 1.3 |
 |---|---|---|
@@ -257,7 +257,7 @@ Die Konfiguration erfolgt in vier Schritten:
 
 ## Dokumenteneditoren [:octicons-tag-16:{ title="ab Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
-Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Werkzeuge verwendet werden, konfiguriert unter `Administration > Externe Werkzeuge > Dokumenteneditoren`:
+Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Werkzeuge verwendet werden, konfiguriert in der System-Administration unter `Administration > Externe Werkzeuge > Dokumenteneditoren`:
 
 * ONLYOFFICE
 * Microsoft Office
@@ -270,7 +270,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 ## draw.io [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
-draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat an vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion unter `Administration > Externe Werkzeuge > draw.io` eingerichtet werden.
+draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat an vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der System-Administration unter `Administration > Externe Werkzeuge > draw.io` eingerichtet werden.
 
 
 [Website draw.io >](https://www.drawio.com)<br>
@@ -280,7 +280,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat a
 
 ## Analytics [:octicons-tag-16:{ title="ab Release 12.3 (OO-3243)" }](https://track.frentix.com/issue/OO-3243){:target="_blank"} {: #analytics}
 
-Unter `Administration > Externe Werkzeuge > Analytics` aktivieren Sie externe Analyse-Services, wie z.B. Google Analytics.
+In der System-Administration unter `Administration > Externe Werkzeuge > Analytics` aktivieren Sie externe Analyse-Services, wie z.B. Google Analytics.
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -288,7 +288,7 @@ Unter `Administration > Externe Werkzeuge > Analytics` aktivieren Sie externe An
 
 ## KI Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
-Unter `Administration > Externe Werkzeuge > KI Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
+In der System-Administration unter `Administration > Externe Werkzeuge > KI Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
 
 [Zu den Details >](External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)

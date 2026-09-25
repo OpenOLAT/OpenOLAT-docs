@@ -33,7 +33,7 @@ Wenn Sie also einen Link aus der Adresszeile des Browsers verwenden, müssen Sie
 !!! info "Wichtig"
 
     Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten Bereichen nach Wunsch in die Navigation aufgenommen werden: die Infokurse 1 und 2. Welche Kurse als Infokurs 1 oder 2 angezeigt werden, und damit hier zur Auswahl stehen, legen Sie in den Tabs Infoseite n°1 / n°2 fest, in der System-Administration unter:<br>
-    `Administration > Customizing > Sites`
+    `Administration > Customizing > Bereiche`
 
 ## Weiterführende Informationen {: #further_information}
 

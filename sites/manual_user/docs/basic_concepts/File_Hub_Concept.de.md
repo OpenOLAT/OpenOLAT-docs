@@ -4,7 +4,7 @@
 
 ## Was ist der File Hub? [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-In OpenOlat steht ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.)
+In OpenOlat steht ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle Ordner** aufgelistet sind, auf die Sie Zugriff haben (Kursordner, Gruppenordner, Archivordner usw.).
 
 ![Sechs Kacheln der Ablageorte unter einem Suchfeld, Startseite des File Hub](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
@@ -51,12 +51,12 @@ Der [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.
 
 * Die darin enthaltenen Dokumente können mit einer Taxonomie versehen werden.
 * Der Zugriff auf den Dokumentenpool kann an Kompetenzen gebunden werden.
-* Er kann als Site für alle OpenOlat-Benutzer:innen freigeschaltet werden und ist dann in der Hauptnavigation am oberen Rand enthalten.
+* Er kann als [Bereich](../area_modules/index.de.md) in der Hauptnavigation am oberen Rand eingeblendet werden. Dort sehen ihn Administrator:innen, Principals und Personen mit einer Kompetenz in der Taxonomie des Dokumentenpools.
 * Die Dokumente aus dem Dokumentenpool können jedoch nicht in einen Kurs eingebunden werden.
 
 Der Dokumentenpool ist im Unterschied zum File Hub ein Teilbereich, ein "Teil-Behälter". Er kann beispielsweise für eine Verwaltung von Lehrmaterialien verwendet werden, auf die je nach hinterlegter Kompetenz zugegriffen werden kann.
 
-Im File Hub werden dagegen umfassend alle Ordner und Dateien in OpenOlat verwaltet, auch die des [Dokumentenpools](../../manual_admin/administration/Modules_Document_pool.de.md).
+Im File Hub erscheinen dagegen alle Ordner und Dateien, auf die Sie Zugriff haben, auch die des [Dokumentenpools](../../manual_admin/administration/Modules_Document_pool.de.md).
 
 
 ### Gruppen {: #groups}
@@ -103,17 +103,23 @@ Beispiel Gruppenordner<br>
 Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen im File Hub angezeigt werden. Wer also Zugriff auf einen Gruppenordner via File Hub erhalten möchte, muss eine Mitgliedschaft in der betreffenden Gruppe erhalten (siehe Gruppenverwaltung).
 
 Beispiel Ablageordner<br>
-Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kurs-Administration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs bearbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angezeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
+Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Dateien" in der Kurs-Administration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs bearbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angezeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
 
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: Das Media Center](../personal_menu/Media_Center.de.md)<br>
 [Modul Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
+[Bereiche und Module](../area_modules/index.de.md)<br>
 [Gruppenwerkzeuge nutzen](../groups/Using_Group_Tools.de.md)<br>
 [Kursadministration - Archivierung & Reports](../learningresources/Course_Archiving.de.md)<br>
 [Ablageordner](../learningresources/Storage_folder.de.md)<br>
 [Persönliche Werkzeuge: File Hub](../personal_menu/File_Hub.de.md)<br>
 [Ressourcenordner](../learningresources/Resource_Folder.de.md)
+
+**Weiterführend**<br>
+[Ordnerkonzept](Folder_Concept.de.md)<br>
+[Mit welchen Ordnern kann ich Dokumente anbieten?](../../manual_how-to/folders/folders.de.md)
 
 [Zum Seitenanfang ^](#file_hub_concept)

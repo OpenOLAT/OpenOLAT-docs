@@ -1,4 +1,4 @@
-# Wissensüberprüfung
+# Wissensüberprüfung {: #assessment}
 
 Hier erhalten Sie einen Überblick über die Kursbausteine, die zur
 Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
@@ -9,7 +9,7 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die anderen Bausteine wie [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), [Bewertungen](Course_Element_Assessment.de.md) mit und ohne Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien viel Potenzial.
 
-Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab "Highscore". Mit der Vergabe von Punkten können weitere Features wie die Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet wird hierfür ein Kursbaustein [Struktur](Course_Element_Structure.de.md) bei herkömmlichen Kursen.
+Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab "HighScore" für die Rangliste. Mit der Vergabe von Punkten können weitere Features wie die Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet wird hierfür ein Kursbaustein [Struktur](Course_Element_Structure.de.md) bei herkömmlichen Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in der Kurs-Administration. 
 
@@ -84,6 +84,8 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 [hier](../area_modules/index.de.md) nachlesen.
 
+Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Portfolioaufgabe"](Course_Element_Portfolio_Task.de.md).
+
 ## Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
 :fontawesome-solid-list-check:
 
@@ -101,7 +103,9 @@ Editor nicht sichtbar.
 
 Bei geschlossenem Editor werden im Tab "Alle Teilnehmer" die zugeordneten Gruppen angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des
 Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte
-Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.  
+Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.
+
+Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Gruppenaufgabe"](Course_Element_Grouptask.de.md).
 
 ##  Kursbaustein „Test“  {: #course_element_test}
 :fontawesome-solid-square-pen:
@@ -121,7 +125,7 @@ Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md)".
 
-Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind "Test-Konfiguration" und "Optionen".
+Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind "Test-Konfiguration" und "Optionen". Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test.de.md).
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.
@@ -165,7 +169,7 @@ Die Resultate der Teilnehmenden werden personalisiert aufgezeichnet.
 :fontawesome-solid-square-pen:
 
 Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab
-"Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
+"HighScore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
 
 Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Teilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
@@ -267,26 +271,62 @@ Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.
 Weitere Informationen finden Sie
 [hier](Course_Element_Checklist.de.md).
 
-### Highscore {: #highscore}
+### Rangliste {: #highscore}
 
-Alle bewertbaren Kursbausteine, mit Ausnahme des Kursbausteins Übung, sowie der Kursbaustein "Struktur" verfügen zusätzlich über den Tab "Highscore".
+Alle bewertbaren Kursbausteine, mit Ausnahme des Kursbausteins Übung, sowie der Kursbaustein "Struktur" verfügen zusätzlich über den Tab "HighScore". Dort richten Sie die Rangliste ein.
 
-Die Highscore Darstellung ermöglicht einen spielerischen Vergleich der
+Die Rangliste ermöglicht einen spielerischen Vergleich der
 Teilnehmenden und kann als Motivationsfaktor verstanden werden. Voraussetzung
-für die Nutzung des Tabs "Highscore" ist, dass für den gewählten Baustein
+für die Nutzung des Tabs "HighScore" ist, dass für den gewählten Baustein
 (z.B. Test, Aufgabe, Bewertung) Punkte vergeben werden.
 
 Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein
-Anfangsdatum hinzugefügt werden. Ab diesem Datum wird die Highscore angezeigt.
-Andernfalls wird die Highscore direkt nach Beenden des Tests angezeigt.
+Anfangsdatum hinzugefügt werden. Ab diesem Datum wird die Rangliste angezeigt.
+Andernfalls wird die Rangliste direkt nach Beenden des Tests angezeigt.
 Anschliessend kann definiert werden, ob die Benutzerdaten anonymisiert oder
 mit Vor- und Nachnamen dargestellt werden. Im nächsten Abschnitt können Sie
-wählen, welche Elemente der Highscore angezeigt werden sollen. Zur Auswahl
-stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste
-der besten Teilnehmenden. Bei der Liste kann zudem definiert werden, ob alle
+wählen, welche Elemente der Rangliste angezeigt werden sollen. Zur Auswahl
+stehen der Gratulationstitel, das Siegertreppchen, das Histogramm und die Liste
+der besten Teilnehmer:innen. Bei der Liste kann zudem definiert werden, ob alle
 Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden angezeigt werden
 soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 
 
 
 ![Highscore-Rangliste mit Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmenden](assets/Highscore.png){ class="shadow lightbox" }
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Test konfigurieren >](Configure_tests.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Portfolioaufgabe erstellen >](Creating_Portfolio_Tasks.de.md)<br>
+[Kursbaustein "Bewertung" >](Course_Element_Assessment.de.md)<br>
+[Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
+[Erinnerungen >](Course_Reminders.de.md)<br>
+[Der Formular-Editor >](Form_Editor.de.md)<br>
+[Portfolioaufgabe: abholen und bearbeiten >](Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
+[Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
+[Bereiche und Module >](../area_modules/index.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](Course_Element_Portfolio_Task.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](Course_Element_Grouptask.de.md)<br>
+[Test Fragetypen >](Test_question_types.de.md)<br>
+[Tests erstellen >](Test.de.md)<br>
+[Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
+[Drei Schritte zu Ihrem Formular >](../forms/Three_Steps_to_your_Form.de.md)<br>
+[Formulare - Übersicht >](Form.de.md)<br>
+[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)
+
+**Weiterführend**<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)
+
+**youtube**<br>
+[Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>)
+
+[Zum Seitenanfang ^](#assessment)

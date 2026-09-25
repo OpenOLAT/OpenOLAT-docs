@@ -23,11 +23,9 @@ Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: 
 
 Kursbesitzer:innen konfigurieren den Kursbaustein im Kurseditor im Tab "Mediasite Konfiguration". Sie legen dort fest, über welchen Server der Inhalt geladen wird und welche Aufzeichnung oder welcher Kanal im Kurs erscheint.
 
-![Tab Mediasite Konfiguration mit gewählter Karte Eigener Mediasite Server, LTI-Version 1.3 und den Feldern der LTI-1.3-Verbindung](assets/course_element_mediasite_config_lti13_de.png){ class="shadow lightbox" }
-
 ### Server wählen {: #server}
 
-Im Bereich "Konfiguration" wählen Sie, welche Verbindung der Kursbaustein verwendet:
+Unter "Konfiguration" wählen Sie, welche Verbindung der Kursbaustein verwendet:
 
 **Vorkonfigurierter Mediasite Server:** Der Kursbaustein verwendet den Server, den Ihre Administrator:innen in der System-Administration eingerichtet haben. Die Karte zeigt den Servernamen und die LTI-Version an. Diese Option erscheint nur, wenn in der System-Administration die Option "Vorkonfigurierter Server" aktiviert ist.
 

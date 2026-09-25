@@ -4,7 +4,7 @@
 
 ## What is the File Hub? [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-The File Hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.)
+The File Hub is available in OpenOlat as a **global file browser**, in which **all folders** are listed that you have access to (course folders, group folders, archive folders, etc.).
 
 ![Six tiles of the storage locations below a search field, start page of the File Hub](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
@@ -51,12 +51,12 @@ The [Document pool](../../manual_admin/administration/Modules_Document_pool.md) 
 
 * The documents contained therein can be provided with a taxonomy.
 * Access to the document pool can be linked to competences.
-* It can be activated as a site for all OpenOlat users and is then included in the main navigation at the top.
+* It can be shown as a [site](../area_modules/index.md) in the main navigation at the top. There it is visible to administrators, principals and people with a competence in the taxonomy of the document pool.
 * However, the documents from the document pool cannot be integrated into a course.
 
 In contrast to the File Hub, the document pool is a sub-area, a "partial container". It can be used, for example, to manage teaching materials that can be accessed depending on the assigned competence.
 
-In contrast, all folders and files in OpenOlat, including those in the [Document pool](../../manual_admin/administration/Modules_Document_pool.md), are managed comprehensively in the File Hub.
+In contrast, the File Hub shows all folders and files that you have access to, including those in the [Document pool](../../manual_admin/administration/Modules_Document_pool.md).
 
 
 ### Groups {: #groups}
@@ -103,17 +103,23 @@ Example group folder<br>
 The File Hub automatically recognizes whether you are a member of a group and which group folders are displayed in the File Hub. Anyone wishing to gain access to a group folder via File Hub must be a member of the relevant group (see Group management).
 
 Example storage folder<br>
-Files from the course elements of a course are stored in the storage folder of a course. By default, the "Storage folder" menu option in the course administration is only displayed to course owners who can edit the course as authors. Accordingly, only storage folders for which you are the course owner or which have been shared by other course owners in the course settings are displayed in the File Hub.
+Files from the course elements of a course are stored in the storage folder of a course. By default, the "Files" menu option in the course administration is only displayed to course owners who can edit the course as authors. Accordingly, only storage folders for which you are the course owner or which have been shared by other course owners in the course settings are displayed in the File Hub.
 
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Personal tools: Media Center](../personal_menu/Media_Center.md)<br>
 [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md)<br>
+[Area and modules](../area_modules/index.md)<br>
 [Using Group Tools](../groups/Using_Group_Tools.md)<br>
 [Course administration - Archiving & Reports](../learningresources/Course_Archiving.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>
 [Personal tools: File Hub](../personal_menu/File_Hub.md)<br>
 [Resource folder](../learningresources/Resource_Folder.md)
+
+**Further reading**<br>
+[Folder concept](Folder_Concept.md)<br>
+[Which folders can I use to provide documents?](../../manual_how-to/folders/folders.md)
 
 [To the top of the page ^](#file_hub_concept)

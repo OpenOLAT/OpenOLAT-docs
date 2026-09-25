@@ -12,7 +12,7 @@ Beispiele und eine weitere Einführung finden Sie im [Whitepaper Lernpfadkurse (
 
 Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, fügen Sie einen [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md) hinzu und konfigurieren dort die Abfolge der Lernschritte. Die Einstellung gilt für alle untergeordneten Kursbausteine. So kann ein Kurs standardmässig sequenziell sein, während die Lernenden einen bestimmten Bereich in beliebiger Reihenfolge aufrufen.
 
-## Der Tab Lernpfad {: #tab_learning_path}
+## Der Tab Lernpfad [:octicons-tag-16:{ title="ab Release 15.0 (OO-4206)" }](https://track.frentix.com/issue/OO-4206) {: #tab_learning_path}
 
 Lernpfadkurse haben im Kurseditor anstelle der Tabs "Sichtbarkeit" und "Zugang" den Tab "Lernpfad". Hier konfigurieren Sie:
 
@@ -29,7 +29,7 @@ Lernpfadkurse haben im Kurseditor anstelle der Tabs "Sichtbarkeit" und "Zugang" 
 
 Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme ist der [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md), der Kursbausteine bündelt. Im Strukturbaustein legen Sie die Abfolge der Lernschritte für alle untergeordneten Kursbausteine fest: "Sequenziell" oder "Ohne Reihenfolge".
 
-### Ausnahmen {: #exceptions}
+### Ausnahmen [:octicons-tag-16:{ title="ab Release 16.1 (OO-5209)" }](https://track.frentix.com/issue/OO-5209) {: #exceptions}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>){:target="_blank"}
 
@@ -40,6 +40,7 @@ Mit "Ausnahmen einschalten" legen Sie differenziert fest, wer den jeweiligen Kur
 Die Ausnahmen können sich auf folgende Aspekte beziehen:
 
 * Gruppen
+* Elemente: Die Ausnahme gilt für die Teilnehmer:innen eines Elements aus dem Course Planner. Der Typ steht zur Auswahl, wenn der Course Planner eingeschaltet ist und der Kurs mindestens einem Element zugeordnet ist.
 * Organisationen
 * Benutzer:in
 * Konto-Attribut: Der Wert kann den Platzhalter `*` enthalten, zum Beispiel `*@example.org` für alle Konten mit dieser E-Mail-Domain. [:octicons-tag-16:{ title="ab Release 18.1.1 (OO-7337)" }](https://track.frentix.com/issue/OO-7337)
@@ -117,7 +118,7 @@ HTML-Seite | Kursbaustein öffnen
 JupyterHub | Kursbaustein öffnen
 Kalender | Kursbaustein öffnen
 Linkliste | Kursbaustein öffnen
-Livestream | Kursbaustein öffnen
+Liste der Teilnehmer:innen | Kursbaustein öffnen
 LTI-Seite | Bestätigung durch Benutzer:in
 Mediasite | Bestätigung durch Benutzer:in
 Microsoft Teams | Kursbaustein öffnen
@@ -130,7 +131,6 @@ Portfolioaufgabe | Durchführung erledigt
 SCORM 1.2 | Bestätigung durch Benutzer:in
 Seite | Kursbaustein öffnen
 Selbsttest | Bestätigung durch Benutzer:in
-Teilnehmer:innen Liste | Kursbaustein öffnen
 Teilnehmer:innen Ordner | Bestätigung durch Benutzer:in
 Terminplanung | Bestätigung durch Benutzer:in
 Terminvergabe | Bestätigung durch Benutzer:in
@@ -140,6 +140,7 @@ Themenvergabe | Bestätigung durch Benutzer:in
 Übung | Challenges abgeschlossen
 Umfrage | Umfrage teilgenommen
 Video | Video bis zum Ende geschaut (95%)
+Video Livestream | Kursbaustein öffnen
 Videoaufgabe | Durchführung erledigt
 Vitero | Kursbaustein öffnen
 Wiki | Kursbaustein öffnen

@@ -9,14 +9,14 @@ Mit dem Modul «Räume» verwalten Sie physische Räume in Gebäuden zentral in 
 Das Modul wird von einer Person mit administrativer Rolle in der System-Administration aktiviert:<br>
 `Administration > Module > Räume > Einstellungen`
 
-Über den Schalter «Modul "Räume"» schalten Sie das Modul ein. Erst danach erscheinen die Segmente «Gebäude», «Räume» und «Raumplanung» sowie im Course Planner der schreibgeschützte Bereich «Raumverwaltung».
+Über den Schalter «Modul "Räume"» schalten Sie das Modul ein. Erst danach erscheinen die Segmente «Gebäude», «Räume» und «Raumplanung» sowie im Course Planner unter «Tools» die schreibgeschützte «Raumverwaltung».
 
 !!! info "Termine ohne Räume"
     Ist das Modul ausgeschaltet, sind diese Ansichten ausgeblendet und an Terminen lassen sich keine Räume buchen.
 
 ### Modulabhängigkeiten [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} {: #module_dependencies}
 
-Der Abschnitt «Modulabhängigkeiten» zeigt den Zustand der beiden Module, in denen Räume gebucht werden: «Course Planner» und «Termine / Absenzen». Je Modul steht dort «Aktiviert» oder «Deaktiviert». Beim Course Planner steht zusätzlich, welche Rollen die Site erreichen, zum Beispiel «Kursplaner:innen, Produkt- und Elementbesitzer:innen, Zertifikatsprogrammbesitzer:innen». Diese Rollen legen Sie fest unter: [Customizing: Sites >](Customizing.de.md#sites)
+Der Abschnitt «Modulabhängigkeiten» zeigt den Zustand der beiden Module, in denen Räume gebucht werden: «Course Planner» und «Termine / Absenzen». Je Modul steht dort «Aktiviert» oder «Deaktiviert». Beim Course Planner steht zusätzlich, welche Rollen den Bereich «Course Planner» in der Hauptnavigation erreichen, zum Beispiel «Kursplaner:innen, Produkt- und Elementbesitzer:innen, Zertifikatsprogrammbesitzer:innen». Diese Rollen legen Sie fest unter: [Customizing: Bereiche >](Customizing.de.md#sites)
 
 Ist eines der beiden Module deaktiviert, entstehen dort keine Raumbuchungen. Die Raumverwaltung bleibt bedienbar, die Raumplanung führt dann aber keine Buchungen aus diesem Modul.
 
@@ -113,6 +113,7 @@ Dieselbe Ansicht erreichen Kursplaner:innen im Course Planner unter `Course Plan
 
 **Weiterführend**<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)
+[Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
+[Bereiche und Module >](../../manual_user/area_modules/index.de.md)
 
 [Zum Seitenanfang ^](#module_rooms)

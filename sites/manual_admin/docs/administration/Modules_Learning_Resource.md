@@ -1,4 +1,4 @@
-# Module Learning resource [:octicons-tag-16:{ title="from Release 20.3 (formerly: Repository)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
+# Module Learning resource [:octicons-tag-16:{ title="from Release 20.3 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 
@@ -20,17 +20,15 @@ Activating the first checkbox makes the pre-selection "In Preparation" visible f
 #### Scope "In preparation" under "Courses"
 
 **Participant view when activated**
-![Courses area with the active scope "In preparation" and one course in preparation in the list](assets/modules_learning_resource_tab_settings_section_v1_en.png){ class="shadow lightbox" }
+![Scope "In preparation" activated, one course in preparation in the list, Courses area](assets/modules_learning_resource_tab_settings_section_v1_en.png){ class="shadow lightbox" }
 
 #### Course search {: #course_search}
 
-The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is configured per course, not in this module. Course owners activate it under `(Course) Administration > Settings > Toolbar tab`. The "Course search" button then appears in the toolbar of the course.
+The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is configured per course, not in this module. Course owners activate it under `Course > Administration > Settings > Tab "Toolbar"`. The "Course search" button then appears in the toolbar of the course.
 
-![Toolbar tab of the course settings with the activated Course search checkbox, row "Course search" highlighted](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" }
+![Course search checkbox activated and highlighted, Toolbar tab of the course settings](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" }
 
-!!! note "Configuration in the course"
-    How course owners activate the course search and the other toolbar tools.<br>
-    [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)
+How course owners activate the course search and the other toolbar tools is described on the page [Using Additional Course Features](../../manual_user/learningresources/Using_Additional_Course_Features.md).
 
 [To the top of the page ^](#learning_resource)
 
@@ -67,8 +65,7 @@ The availability of stars for rating a course can be switched on/off globally by
 
 #### Request membership
 
-If someone opens a course to which they do not have access, a notice appears. 
-There is a button there that can be used to request membership. When clicked, an email is sent to all course owners.
+If someone opens a course to which they do not have access, a notice appears. There is a button there that can be used to request membership. When clicked, an email is sent to all course owners.
 
 ![Notice page "You are not a member." with the Request membership button](assets/modules_repository_request_membership_v1_en.png){ class="shadow lightbox" }
 
@@ -85,21 +82,19 @@ This function can be switched on/off globally by administrators in this module.
 Activating taxonomy in the learning resource means that the selected "structure" is available in the catalog. For this to work, the corresponding taxonomy must first be created and integrated.
 
 !!! tip "Prerequisite"
-    Various taxonomies can be created under `Administration > Modules > Taxonomy`.
+    Various taxonomies can be created in the system administration under `Administration > Modules > Taxonomy`.
 
 
 A taxonomy cannot be deselected in this area as long as **it is used in a launcher of the catalog**. Attempting to deselect it shows the message: "The taxonomy is still used in a launcher of the catalogue and therefore cannot be deselected."
 
 
-!!! note "Module Taxonomy"
-    How taxonomies are created and configured.<br>
-    [To module Taxonomy >](Modules_Taxonomy.md)
+How taxonomies are created and configured is described on the page [Module Taxonomy](Modules_Taxonomy.md).
 
 [To the top of the page ^](#learning_resource)
 
 ---
 
-### Default setting section
+### Default setting section [:octicons-tag-16:{ title="from Release 10.4 (OO-1811)" }](https://track.frentix.com/issue/OO-1811){:target="_blank"}
 
 #### Participants can leave {: #allow_leaving_courses}
 
@@ -113,18 +108,15 @@ The following options are available as the default:
 
 
 !!! tip "Course-specific"
-    This preselected setting can be adjusted again on a course-specific basis by course owners: `(Course) Administration > Settings > Share tab`
+    This preselected setting can be adjusted again on a course-specific basis by course owners: `Course > Administration > Settings > Tab "Share"`
 
 [To the top of the page ^](#learning_resource)
 
 ---
 
-### Notification section {: #notification}
+### Notification section [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6739)" }](https://track.frentix.com/issue/OO-6739){:target="_blank"} {: #notification}
 
-OpenOlat can send notifications about events at various points. If someone wants to receive the notifications, a subscription can be set up.
-
-!!! note "Note"
-    Notifications about events in the learning resource currently only affect the subscription "*Notify owner of status change for learning resources*".
+OpenOlat can send notifications about events at various points. If someone wants to receive the notifications, a subscription can be set up. For events in the learning resource there is the subscription "*Notify owner of status change for learning resources*".
 
 #### Subscription
 
@@ -157,18 +149,21 @@ The "Access" tab contains the sections Access and Status "Finished".
 
 Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which users with the coach role are participants themselves.
 
-![Access tab in the Learning resource module with the overview of access settings for sites and the Status "Finished" section](assets/modules_learning_resource_tab_access_v2_en.png){ class="shadow lightbox" }
-
 #### Show hint in "Courses"
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
-![Access tab with the toggle button Show hint in "Courses" activated](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
-![Courses area with a notice box for coaches/owners linking to the Coaching area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
+![Toggle button Show hint in "Courses" switched on, Access tab in the Learning resource module](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
+![Notice box for coaches/owners with the link To the coaching area, Courses area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
 
 #### Site settings
 
-Via the button "Open site settings" you go directly to `Administration > Customizing > Sites`. There you define whether and in which order the sites "My courses" and "Coaching" appear in the header and for which roles they are visible.
+Whether the sites "My courses" and "Coaching Tool" appear in the main navigation and who sees them can be read in the "Overview of access settings for sites". It shows for each site whether it is enabled and which accounts can reach it, for example "Enabled | Registered users without guests/external users". The page [Area and modules >](../../manual_user/area_modules/index.md) describes what a site is.
+
+Via the button "Open site settings" you go directly to the "Sites" page of the system administration:<br>
+`Administration > Customizing > Sites`
+
+There you define the order of the sites in the main navigation and for which roles they are visible. You can also deactivate the site "My courses" there. The Coaching tool cannot be deactivated in the standard configuration, because owners and coaches find their learning resources only there. More on this: [Customizing: Sites >](Customizing.md#sites)
 
 !!! note "Access to the setting"
     Only **administrators** can open this page and make changes.
@@ -185,7 +180,7 @@ Here you define system-wide what access participants have to a course or a learn
 * **No access:** Participants no longer have access to the content. When they open it, a notice appears referring them to the responsible contact person.
 
 Course owners overwrite the setting for their course under:<br>
-`(Course) Administration > Settings > Options tab`
+`Course > Administration > Settings > Tab "Options"`
 
 [To the top of the page ^](#learning_resource)
 
@@ -194,8 +189,14 @@ Course owners overwrite the setting for their course under:<br>
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course search](../../manual_user/basic_concepts/Search_in_Course.md)<br>
+[Search in a course >](../../manual_user/basic_concepts/Search_in_Course.md)<br>
 [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
-[To module Taxonomy >](Modules_Taxonomy.md)
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
+[Area and modules >](../../manual_user/area_modules/index.md)<br>
+[Customizing: Overview >](Customizing.md)
+
+**Further reading**<br>
+[Coaching - Overview >](../../manual_user/area_modules/Coaching.md)<br>
+[Course Settings - Tab Options >](../../manual_user/learningresources/Course_Settings_Options.md)
 
 [To the top of the page ^](#learning_resource)

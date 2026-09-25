@@ -1,15 +1,12 @@
 # External Tools: Overview {: #ext_tools}
 
-![One entry per external tool, from BigBlueButton to PDF generator, in the External tools menu of the system administration](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
-
-
-In this area, the OpenOlat administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The area is located in the system administration under: `Administration > External tools`
+In the menu "External tools", the OpenOlat administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The menu is located in the system administration under: `Administration > External tools`
 
 
 ## BigBlueButton {: #bbb}
 
 BigBlueButton is software that enables online conferences or can serve as a virtual classroom.
-To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured under `Administration > External tools > BigBlueButton`.
+To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured in the system administration under `Administration > External tools > BigBlueButton`.
 
 [See the details >](BigBlueButton_module.md)<br>
 [To the top of the page ^](#ext_tools)
@@ -75,7 +72,7 @@ How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting 
 
 ## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
-To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, these two tools must be activated under `Administration > External tools > Microsoft SharePoint / OneDrive`. (They can be activated individually).
+To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, these two tools must be activated in the system administration under `Administration > External tools > Microsoft SharePoint / OneDrive`. (They can be activated individually).
 
 The prerequisite is that the required licenses are available.
 
@@ -87,7 +84,7 @@ The prerequisite is that the required licenses are available.
 ## Zoom [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom is software that can be used to hold video conferences, meetings, and webinars.
-To enable Zoom meetings in OpenOlat, Zoom must be activated and configured under `Administration > External tools > Zoom`.
+To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the system administration under `Administration > External tools > Zoom`.
 
 [See the details >](Zoom.md)<br>
 [To the top of the page ^](#ext_tools)
@@ -173,9 +170,12 @@ Activation and configuration can be carried out if the required licenses are ava
 
 
 
-## YouTube API [:octicons-tag-16:{ title="from Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
+## Youtube API [:octicons-tag-16:{ title="from Release 14.1 (OO-4086)" }](https://track.frentix.com/issue/OO-4086){:target="_blank"} {: #youtube_api}
 
-Enter, remove or check the API key. The key is used to automatically import metadata such as title, description and license when embedding YouTube videos.
+When you embed YouTube videos in OpenOlat, you receive the title, description and license of the video automatically as soon as an API key is stored here. You find the setting in the system administration under:<br>
+`Administration > External tools > Youtube API`
+
+The menu entry reads "Youtube API" and thus differs from the brand YouTube. It does not refer to the video platform itself but to its programming interface: the YouTube Data API (version 3) from Google. OpenOlat uses it to query the details of a video. In the field "API Key" you enter the key for this interface. With "Test API Key" you check whether OpenOlat may read data with it, with "Remove the key" you delete it again.
 
 [To the top of the page ^](#ext_tools)
 
@@ -193,7 +193,7 @@ After activation, the API and LTI configuration can be carried out. BigBlueButto
 
 ## Mediasite [:octicons-tag-16:{ title="from Release 16.0.4 (OO-5492)" }](https://track.frentix.com/issue/OO-5492){:target="_blank"} {: #mediasite}
 
-Mediasite is an automated video platform for video recording, video management and captioning. With the Mediasite module, course owners integrate a single recording or a channel of the Mediasite server into courses via the course element "Mediasite". You activate the module under:<br>
+Mediasite is an automated video platform for video recording, video management and captioning. With the Mediasite module, course owners integrate a single recording or a channel of the Mediasite server into courses via the course element "Mediasite". You activate the module in the system administration under:<br>
 `Administration > External tools > Mediasite`
 
 **Preconfigured Server:** If this option is activated, you enter here a connection to a Mediasite server that is available to all course elements "Mediasite" of the instance. If it is not activated, the course owners set up the connection in each course element themselves. The fields for the connection only appear when the option is activated.
@@ -202,7 +202,7 @@ Mediasite is an automated video platform for video recording, video management a
 
 **LTI version:** The connection to the Mediasite server runs over LTI 1.1 or LTI 1.3 [:octicons-tag-16:{ title="from Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. The version determines which details you enter and how the course owners select the content in the course editor. You receive the details from the operator of the Mediasite server.
 
-LTI 1.3 requires that the module LTI 1.3 is enabled under `Administration > External tools > LTI`, see [LTI 1.3 Integrations](LTI_Integrations.md). You manage the Mediasite connection exclusively here; it does not appear in the list of external tools on the LTI page.
+LTI 1.3 requires that the module LTI 1.3 is enabled in the system administration under `Administration > External tools > LTI`, see [LTI 1.3 Integrations](LTI_Integrations.md). You manage the Mediasite connection exclusively here; it does not appear in the list of external tools on the LTI page.
 
 | | LTI 1.1 | LTI 1.3 |
 |---|---|---|
@@ -245,7 +245,7 @@ Configuration takes place in four steps:
 
 ## Document editors [:octicons-tag-16:{ title="from Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
-Various tools can be used in OpenOlat to edit Office documents, configured under `Administration > External tools > Document editors`:
+Various tools can be used in OpenOlat to edit Office documents, configured in the system administration under `Administration > External tools > Document editors`:
 
 * ONLYOFFICE
 * Microsoft Office
@@ -258,7 +258,7 @@ The prerequisite in each case is that the necessary licenses are available.
 
 ## draw.io [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
-draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up under `Administration > External tools > draw.io`.
+draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the system administration under `Administration > External tools > draw.io`.
 
 
 [Website draw.io >](https://www.drawio.com)<br>
@@ -268,7 +268,7 @@ draw.io is an online tool for creating diagrams that can be used in many places 
 
 ## Analytics [:octicons-tag-16:{ title="from Release 12.3 (OO-3243)" }](https://track.frentix.com/issue/OO-3243){:target="_blank"} {: #analytics}
 
-Under `Administration > External tools > Analytics` you activate external analytics services, e.g. Google Analytics.
+In the system administration under `Administration > External tools > Analytics` you activate external analytics services, e.g. Google Analytics.
 
 [To the top of the page ^](#ext_tools)
 
@@ -276,7 +276,7 @@ Under `Administration > External tools > Analytics` you activate external analyt
 
 ## AI module [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
-Under `Administration > External tools > AI module` you activate and configure the artificial intelligence tools that can be integrated into OpenOlat.
+In the system administration under `Administration > External tools > AI module` you activate and configure the artificial intelligence tools that can be integrated into OpenOlat.
 
 [See the details >](External_Tools_AI.md)<br>
 [To the top of the page ^](#ext_tools)

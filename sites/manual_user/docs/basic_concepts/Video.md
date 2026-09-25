@@ -41,7 +41,7 @@ Videos can be used, for example, ...
 e.g. in courses via the course element Video and the learning resource Video
 * as a form of submission by learners, via the course element Task or Group task
 * as feedback or sample solution by teachers, via the course element Task or Group task
-* for interactive videos with additional learning activities (quiz questions, chapter structure, annotations), in the learning resource Video or in the video task
+* for interactive videos with additional learning activities (quiz questions, chapter structure, annotations), in the learning resource Video or in the course element Video task
 * as a collection of your own learning reflections, e.g. in the blog or portfolio
 * for questions or answers in OpenOlat tests
 * as a teaser video in the catalog and on the [info page](../learningresources/Info_page.md) of courses and published learning resources

@@ -21,7 +21,7 @@ Whoever switches from Catalog V1 to Catalog V2 does not have to rebuild the exis
 
 The button opens the confirmation dialog "Catalog 2.0 migration" with the question "Do you really want to start the migration?" and the buttons "Yes" and "No". After "Yes", OpenOlat migrates in the background:
 
-- The catalog structure becomes a new taxonomy: title, short title and description of the catalog become the taxonomy, each category becomes a taxonomy level. The taxonomy then appears in the "Settings" tab under "Taxonomy" and in the administration under Subjects/Catalog.
+- The catalog structure becomes a new taxonomy: title, short title and description of the catalog become the taxonomy, each category becomes a taxonomy level. The taxonomy then appears in the "Settings" tab under "Taxonomy" and in the system administration under `Administration > Modules > Taxonomy`.
 - Titles, short titles and descriptions of the subcategories are shown on the redesigned subpages.
 - Catalog images are displayed as rectangular tiles in 2:1 format; the shape can be changed in the "Layout" tab.
 - The image of the top catalog level becomes the background image of the header of the launch page.
@@ -38,10 +38,11 @@ While the migration runs, the notice "The migration is in progress." replaces th
 
 ## Configuration of Catalog V1 {: #config_catalog_v1}
 
-If you activate the catalog V1 you see the tab "configuration" and can configure more details.
+Whoever works with Catalog V1 sets in the "Configuration" tab where the catalog appears and where new categories and entries are placed. The tab appears as soon as Catalog V1 is selected in the "Settings" tab:
 
-![Checkboxes Catalog in "Courses" and Catalog in its own site, sorting settings for new categories and entries, Configuration tab of catalog V1](assets/Admin_KatalogV1_en.png){ class="shadow lightbox" }
-
+- **Catalog in its own site:** The catalog appears as a separate [site](../../manual_user/area_modules/index.md) in the main navigation.
+- **Add multiple entries at once:** When you add learning resources to a category, you can select several learning resources at once.
+- **Add new categories** and **Add new entries:** These drop-down lists set where new categories and new entries are placed. "Automatic sorting - Alphabetical" sorts them alphabetically, "Manual sorting - At the beginning" and "Manual sorting - At the end" place them at the beginning or at the end. With manual sorting, you can change the order by hand afterwards. A single category can deviate from this default in its own settings.
 
 [To the top of the page ^](#modul_catalog)
 
@@ -219,6 +220,7 @@ The web catalog can also be deactivated temporarily.
 **Mentioned on this page**<br>
 [Module Taxonomy](Modules_Taxonomy.md)<br>
 [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md)<br>
+[Area and modules](../../manual_user/area_modules/index.md)<br>
 [Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
 
 **Further reading**<br>

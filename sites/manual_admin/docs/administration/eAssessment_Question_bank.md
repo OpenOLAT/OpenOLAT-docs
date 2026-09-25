@@ -1,8 +1,11 @@
 # e-Assessment Administration: Question bank {: #question_bank}
 
-Here you can configure the question pool from the system administrator's point of view. Some of the settings can also be made in the [pool manager's administration](../../manual_user/area_modules/Question_Bank_Administration.md).
+Administrators configure the question bank for the whole platform in the system administration under:<br>
+`Administration > e-Assessment > Question bank`
 
-![Basic settings of the question bank and rights of the pool managers, tab "Question bank" in the administration](assets/Question bank administration EN.png){ class="shadow lightbox" }
+Question bank managers can also make some of the settings in the [administration of the question bank managers](../../manual_user/area_modules/Question_Bank_Administration.md).
+
+![Basic settings of the question bank and rights of the pool managers, tab Question bank in the system administration](assets/Question bank administration EN.png){ class="shadow lightbox" }
 
 ## Tab Question bank
 
@@ -10,23 +13,23 @@ In the first tab Question bank, basic settings of the question bank are made. It
 
 For example, if lists are now disabled, lists will no longer be displayed in the question pool and questions can no longer be added to lists. Questions that were in lists are still visible under "My questions", they are not deleted. When the lists are reactivated, the same questions as before are linked in the corresponding lists. It is exactly the same with pools and groups.
 
+The switch "Subjects" cannot be switched off while the review process is switched on.
+
 For more information on the [review process](../../manual_user/area_modules/Question_Bank_Review_Process.md), please refer to the corresponding chapter.
 
-  * Taxonomy: The taxonomy "Question bank" is assigned to each question bank. 
-  This taxonomy was automatically created from the former subject. Changes can 
-  be made in the "Subjects" tab. More information about the taxonomy can be found  [here](Modules_Taxonomy.md).
-  * Selectable subjects: When "All subjects" is selected, any subject can be selected for a question, regardless of its own competencies. However, if "Subjects with the competence "Teach" or "Manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either under `Administration → Modules → Taxonomy` or in the user administration.
+  * Taxonomy: The taxonomy "Question bank" is assigned to each question bank. Changes can be made in the "Subjects" tab. More information about the taxonomy can be found [here](Modules_Taxonomy.md).
+  * Selectable subjects: When "All subjects" is selected, any subject can be selected for a question, regardless of its own competencies. However, if "Subjects with the competence "Teach" or "Manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either in the system administration under `Administration > Modules > Taxonomy` or in the user management.
   * Create subject when importing: Questions can be added to the question bank via Excel import. For each question, the subject can be imported as metadata. If this option is activated, it means that new subjects will be created by the import, if they do not already exist. If it is just a typo, a new subject will also be created.
-  * Levels: The use of [levels](../administration/Assessment_translate_points_in_grades_admin.md) can be activated here.
-  * Delete questions when author deleted: If the last author of a question is deleted from the user administration of OpenOlat, all these questions will be deleted, if this option is activated here. Otherwise, the questions remain in the question bank, without an assigned author. As a system administrator, you can search for all those questions in the question bank under `Questions → without author` and assign a new author.
+  * Levels: Switches on the levels that are created in the "Levels" tab and selected in the metadata of a question.
+  * Delete questions when author deleted: When an account is deleted, the person is removed as author from all questions. If this option is switched on and the person is the only author of a question, the question is deleted as well. If the option is switched off, such questions remain in the question bank without an author. Administrators find them in the Question bank site under `Question bank > Questions > Without author` and can assign new authors to them.
 
 !!! tip "Hint"
 
-	If you work with a taxonomy and competencies, it is recommended *not to* activate the "Create subject when importing" option. This is the only way to avoid a wild growth of subjects and to keep the control and structure.
+    If you work with a taxonomy and competencies, it is recommended *not to* activate the "Create subject when importing" option. This is the only way to avoid a wild growth of subjects and to keep the control and structure.
 
 ### Pool manager rights
 
-In the following, the rights of the pool manager can be configured. The role of the pool manager is assigned in the user administration. Editing the settings refers to the tabs that are visible here in the administration. The pool manager can edit the activated options in the administration in the question bank.
+In the following, the rights of the question bank managers can be configured. The role Question bank manager is assigned in the user management. Editing the settings refers to the tabs that are visible here in the system administration. Question bank managers edit the activated options in the Question bank site under `Question bank > Administration`.
 
 ## Tab Info page
 
@@ -34,12 +37,12 @@ Here you can create an info page. This info page is displayed when you open the 
 
 ## Tab Review process
 
-![Review process settings such as decision method and visibility of final questions, tab "Review process" in the administration](assets/Review process - administration EN.png){ class="shadow lightbox" }
+![Review process settings such as decision method and visibility of final questions, tab Review process in the system administration](assets/Review process - administration EN.png){ class="shadow lightbox" }
 
   * Decision method: For the time being, only the assessment method Lower limit can be selected. The decision method "Lower limit" changes the status of a question to "Final", if the minimum number of ratings is reached and if all ratings are equal or higher than the lower limit. If a rating is lower than the lower limit, the question status this immediately changed to "Revision", even if the minimum number of ratings is not reached yet.
   * Number of ratings per question: This number of people must give a positive rating per question, i.e. above the lower limit, for the questions to change to Final status.
   * Lower limit for positive assessment: The minimum number of stars defined here must be awarded by the assessors for the question to change to the Final status. If a rating below the lower limit is awarded, the question is set directly to Revision status. 
-  * Visibility of final questions: Here you can define who sees the Final section and thus the questions in Final status. This can be either only the persons with the competence "Manage" of the corresponding subject. Or all persons who have either the competence "Teach" or "Manage" of the corresponding subject.
+  * Visibility of final questions: Here you can define who sees the entry "Final" in the question bank and thus the questions in Final status. This can be either only the persons with the competence "Manage" of the corresponding subject. Or all persons who have either the competence "Teach" or "Manage" of the corresponding subject.
 
 ## Tab Subjects
 
@@ -65,8 +68,9 @@ Various levels can be created here. The level can then be selected in the metada
 [Question Bank: Administration >](../../manual_user/area_modules/Question_Bank_Administration.md)<br>
 [Question Bank Review Process >](../../manual_user/area_modules/Question_Bank_Review_Process.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
-[e-Assessment Administration: Levels/Grading >](Assessment_translate_points_in_grades_admin.md)<br>
 [Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank.md)<br>
+[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights.md)
 
 [To the top of the page ^](#question_bank)
 

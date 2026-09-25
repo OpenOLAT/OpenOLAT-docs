@@ -18,11 +18,11 @@ The mails are always sent by OpenOlat with the standard address (no-reply).
 This address can be overridden by entering a different email in this section.
 The field "Sender email name" sets the name displayed for the sender.
 
-## Configuration suggestion for improvement {: #settings_improvement}
+## Configuration suggestion for improvement [:octicons-tag-16:{ title="from Release 13.0 (OO-3740)" }](https://track.frentix.com/issue/OO-3740) {: #settings_improvement}
 
 If the option is activated, the option to create suggestions for improvement is displayed under the Quality management menu item. The emails created there are sent to the email address specified here.
 
-## Data collection preview {: #data_collection_preview}
+## Data collection preview [:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399) {: #data_collection_preview}
 
 This preview is displayed after activation
 
@@ -38,7 +38,7 @@ In addition, the data collection preview can be called up in products and shows 
 
 The data collection preview in the "Quality management" module refers to all planned surveys (not just individual courses).
 
-## Action to-dos {: #to_do}
+## Action to-dos [:octicons-tag-16:{ title="from Release 18.0 (OO-6781)" }](https://track.frentix.com/issue/OO-6781) {: #to_do}
 
 To-dos can be created in various places in OpenOlat (projects, tasks, etc.). In quality management, we tend to talk about "measures" as a reaction to findings from a survey. A "measure" in quality management is a to-do.
 
@@ -46,15 +46,20 @@ If this option is activated, quality managers can create to-dos (measures).
 
 ## Activation of Site {: #site_activation}
 
-After the module has been activated, the checkbox must additionally be marked in the system administration under<br>
-`Administration > Customizing > Sites`<br>
-and the user group must be defined for which the "Quality management" option is displayed in the main navigation.
+For quality managers to find quality management in the main navigation, the activated module is not enough: the [site](../../manual_user/area_modules/index.md) "Quality management" must be activated as well. You activate it in the system administration under:<br>
+`Administration > Customizing > Sites`
+
+In the tab "Order", in the row "Quality management", set the checkbox in the column "Enabled" and define in the column "Access" who sees the site in the main navigation.
 
 ---
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Data collection preview >](../../manual_user/learningresources/Data_Collection_Previews.md)
+[Data collection preview >](../../manual_user/learningresources/Data_Collection_Previews.md)<br>
+[Area and modules >](../../manual_user/area_modules/index.md)
+
+**Further reading**<br>
+[Customizing: Overview >](Customizing.md)
 
 [To the top of the page ^](#Modules_Quality_Management)

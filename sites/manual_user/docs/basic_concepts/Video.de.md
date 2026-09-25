@@ -19,7 +19,7 @@ Es gibt verschiedene Wege, Videos in OpenOlat bereitzustellen:
 
 * Video als [Datei hochladen](../basic_concepts/Video_Upload.de.md)
 * Video als Link zu einem ausserhalb von OpenOlat, im Internet, vorliegenden Video einbinden
-* Video direkt in OpenOlat z.B. per Webcam [aufnehmen](../basic_concepts/Video_Recording.de.md)
+* Video direkt in OpenOlat z. B. per Webcam [aufnehmen](../basic_concepts/Video_Recording.de.md)
 
 
 Es stehen nicht in allen Kontexten alle drei Varianten zur Verfügung.
@@ -34,17 +34,17 @@ Je nach Einbindung werden Videos in OpenOlat unterschiedlich dargestellt:
 
 ## Wofür können Videos in OpenOlat verwendet werden?
 
-Videos können genutzt werden z.B. ...
+Videos können genutzt werden z. B. ...
 
 
 * als Informations- und Lehr-/Lerninhalte, <br>
 z. B. in Kursen über den Kursbaustein Video und die Lernressource Video
 * als Abgabeform durch Lernende, über den Kursbaustein Aufgabe oder Gruppenaufgabe
 * als Feedback oder Musterlösung durch Lehrende, über den Kursbaustein Aufgabe oder Gruppenaufgabe
-* für interaktive Videos mit zusätzlichen Lernaktivitäten (Quizfragen, Kapitelstruktur, Anmerkungen), in der Lernressource Video oder in der Video-Aufgabe
+* für interaktive Videos mit zusätzlichen Lernaktivitäten (Quizfragen, Kapitelstruktur, Anmerkungen), in der Lernressource Video oder im Kursbaustein Videoaufgabe
 * als Sammlung eigener Lernreflexionen, z. B. im Blog oder Portfolio
 * für Fragen oder Antworten in OpenOlat Tests
-* als Teaser-Video im Katalog und auf der [Info-Seite](../learningresources/Info_page.de.md) von Kursen und veröffentlichten Lernressourcen
+* als Teaser-Video im Katalog und auf der [Infoseite](../learningresources/Info_page.de.md) von Kursen und veröffentlichten Lernressourcen
 
 
 
@@ -70,7 +70,7 @@ Hier kann ein Video direkt in die Lernressource hochgeladen werden.
 
 * Kursbaustein: Ordner, Teilnehmer:innen Ordner
 
-Es wird eine Video-Datei ohne direkte Anzeige bereitgestellt (z.B. als Download). Videos können hochgeladen oder aufgezeichnet werden.
+Es wird eine Video-Datei ohne direkte Anzeige bereitgestellt (z. B. als Download). Videos können hochgeladen oder aufgezeichnet werden.
 
 Ferner sind Videos als Anhang eines Foren-Postings oder einer Mitteilung, als Diskussionselement der Dateidiskussion oder als Teaser-Video bei der Themenbörse möglich.
 

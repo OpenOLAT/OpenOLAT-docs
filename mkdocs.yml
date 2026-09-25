@@ -230,7 +230,7 @@ plugins:
           Course Element Checklist : Kursbaustein Checkliste
           Course Element Folder : Kursbaustein Ordner
           Course element GoToMeeting : Kursbaustein GoToMeeting
-          Course Element Mediasite : Kursbaustein MediaSite
+          Course Element Mediasite : Kursbaustein Mediasite
           Course element Microsoft Teams : Kursbaustein Microsoft Teams
           Course element OpenMeetings : Kursbaustein OpenMeetings
           Course Element SCORM Learning Content : Kursbaustein SCORM-Lerninhalt
@@ -450,7 +450,7 @@ plugins:
           Math formula : Mathematische Formel
           Media Center : Media Center
           Media items : Einzelmedien
-          MediaSite : MediaSite
+          Mediasite : Mediasite
           Members : Teilnehmer:innen
           Members management : Mitgliederverwaltung
           Microsoft Teams : Microsoft Teams

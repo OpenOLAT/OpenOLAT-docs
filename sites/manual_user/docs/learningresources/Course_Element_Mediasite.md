@@ -23,11 +23,9 @@ The setup is described in the administration manual: [External Tools: Overview](
 
 Course owners configure the course element in the course editor in the tab "Mediasite configuration". There they define which server loads the content and which recording or channel appears in the course.
 
-![Tab Mediasite configuration with the selected card Custom Mediasite Server, LTI version 1.3 and the fields of the LTI 1.3 connection](assets/course_element_mediasite_config_lti13_de.png){ class="shadow lightbox" }
-
 ### Select the server {: #server}
 
-In the section "Configuration" you select which connection the course element uses:
+Under "Configuration" you select which connection the course element uses:
 
 **Preconfigured Mediasite Server:** The course element uses the server that your administrators have set up in the system administration. The card shows the server name and the LTI version. This option only appears if the option "Preconfigured Server" is activated in the system administration.
 

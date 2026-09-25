@@ -21,7 +21,7 @@ Wer vom Katalog V1 auf den Katalog V2 umstellt, muss die bestehende Katalogstruk
 
 Der Button öffnet den Bestätigungsdialog "Katalog 2.0 Migration" mit der Frage "Wollen Sie die Migration wirklich starten?" und den Buttons "Ja" und "Nein". Nach "Ja" überführt OpenOlat im Hintergrund:
 
-- Die Katalogstruktur wird zu einer neuen Taxonomie: Titel, Kurztitel und Beschreibung des Katalogs werden zur Taxonomie, jede Kategorie zu einer Taxonomieebene. Die Taxonomie erscheint danach im Tab "Einstellungen" unter "Taxonomie" und in der Administration unter Fachbereiche/Katalog.
+- Die Katalogstruktur wird zu einer neuen Taxonomie: Titel, Kurztitel und Beschreibung des Katalogs werden zur Taxonomie, jede Kategorie zu einer Taxonomieebene. Die Taxonomie erscheint danach im Tab "Einstellungen" unter "Taxonomie" und in der System-Administration unter `Administration > Module > Taxonomie`.
 - Titel, Kurztitel und Beschreibungen der Unterkategorien stehen auf den neu gestalteten Unterseiten.
 - Katalogbilder werden als rechteckige Kacheln im Format 2:1 dargestellt; die Form lässt sich im Tab "Layout" ändern.
 - Das Bild der obersten Katalogebene wird zum Hintergrundbild des Headers der Startseite.
@@ -37,9 +37,11 @@ Während die Migration läuft, ersetzt der Hinweis "Die Migration wurde gestarte
 
 ## Konfiguration des Katalogs V1 {: #config_catalog_v1}
 
-Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen.
+Wer mit dem Katalog V1 arbeitet, legt im Tab "Konfiguration" fest, wo der Katalog erscheint und wie neue Kategorien und Einträge eingereiht werden. Der Tab erscheint, sobald im Tab "Einstellungen" der Katalog V1 gewählt ist:
 
-![Checkboxen Katalog in Kurse und Katalog in eigener Site, Sortier-Einstellungen für neue Kategorien und Einträge, Tab Konfiguration von Katalog V1](assets/Admin_KatalogV1.png){ class="shadow lightbox" }
+- **Katalog in eigenem Bereich:** Der Katalog erscheint als eigener [Bereich](../../manual_user/area_modules/index.de.md) in der Hauptnavigation.
+- **Mehrere Einträge zusammen hinzufügen:** Beim Hinzufügen von Lernressourcen zu einer Kategorie lassen sich mehrere Lernressourcen auf einmal auswählen.
+- **Neue Kategorien hinzufügen** und **Neue Einträge hinzufügen:** Diese Auswahllisten legen fest, wo neue Kategorien und neue Einträge eingereiht werden. "Automatische Sortierung - Alphabetisch" sortiert sie alphabetisch, "Manuelle Sortierung - Am Anfang" und "Manuelle Sortierung - Am Ende" setzen sie an den Anfang oder ans Ende. Bei manueller Sortierung lässt sich die Reihenfolge danach von Hand ändern. Eine einzelne Kategorie kann in ihren eigenen Einstellungen von diesem Standard abweichen.
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -224,6 +226,7 @@ Der Web-Katalog kann auch vorübergehend deaktiviert werden.
 **Auf dieser Seite erwähnt**<br>
 [Modul Taxonomie](Modules_Taxonomy.de.md)<br>
 [Katalog 2.0: Sortierung/Reihenfolge](../../manual_user/area_modules/catalog2.0_sort_offers.de.md)<br>
+[Bereiche und Module](../../manual_user/area_modules/index.de.md)<br>
 [Rollen und Rechte: Übersicht](../../manual_user/basic_concepts/Roles_Rights.de.md)
 
 **Weiterführend**<br>

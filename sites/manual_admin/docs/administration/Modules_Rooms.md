@@ -9,14 +9,14 @@ With the module "Rooms" you manage physical rooms in buildings centrally in Open
 The module is activated by a person with an administrative role in the system administration:<br>
 `Administration > Modules > Rooms > Settings`
 
-Use the toggle "Module "Rooms"" to switch on the module. Only then do the segments "Buildings", "Rooms" and "Room Scheduling" appear, as well as the read-only "Room management" area in the Course Planner.
+Use the toggle "Module "Rooms"" to switch on the module. Only then do the segments "Buildings", "Rooms" and "Room Scheduling" appear, as well as the read-only "Room management" under "Tools" in the Course Planner.
 
 !!! info "Events without rooms"
     If the module is switched off, these views are hidden and no rooms can be booked for events.
 
 ### Module dependencies [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} {: #module_dependencies}
 
-The section "Module dependencies" shows the state of the two modules in which rooms are booked: "Course Planner" and "Events / Absences". For each module it says "Enabled" or "Disabled". For the Course Planner it also says which roles reach the site, for example "Course planners, product and element owners, certification program owners". You set these roles under: [Customizing: Sites >](Customizing.md#sites)
+The section "Module dependencies" shows the state of the two modules in which rooms are booked: "Course Planner" and "Events / Absences". For each module it says "Enabled" or "Disabled". For the Course Planner it also says which roles reach the site "Course Planner" in the main navigation, for example "Course planners, product and element owners, certification program owners". You set these roles under: [Customizing: Sites >](Customizing.md#sites)
 
 If one of the two modules is disabled, no room bookings arise there. Room management stays usable, but the room scheduling then lists no bookings from that module.
 
@@ -113,6 +113,7 @@ Course planners reach the same view in the Course Planner under `Course Planner 
 
 **Further reading**<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
-[Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)
+[Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
+[Area and modules >](../../manual_user/area_modules/index.md)
 
 [To the top of the page ^](#module_rooms)

@@ -1,9 +1,13 @@
 # Customizing: Overview {: #customizing}
 
-![Customizing menu in system administration with eight areas: representation and layout, imprint, help, language adaptation tool, system registration, portal, user properties and sites](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
-
-The "Customizing" menu contains settings relating to the menu items listed here. You will find these settings in the system administration under:<br>
+In the "Customizing" menu, administrators and system administrators adapt the appearance and the main navigation of the whole instance. You will find these settings in the system administration under:<br>
 `Administration > Customizing`
+
+## Profile
+
+Name | Customizing
+---------|----------
+Available since | Release 8.0 (2011)
 
 ---
 
@@ -32,7 +36,7 @@ In this section, you define the text of the footer in the bottom-right corner an
 
 ## Imprint [:octicons-tag-16:{ title="from Release 10.0 (OO-1166)" }](https://track.frentix.com/issue/OO-1166){:target="_blank"} {: #imprint}
 
-Administrators determine, 
+Administrators determine,
 
 * where the link to the legal notice appears (e.g., in the footer)
 * whether a legal notice appears and what it says
@@ -47,7 +51,7 @@ All text can be entered in different languages.
 [To the top of the page ^](#customizing)
 
 
-## Help {: #help}
+## Help [:octicons-tag-16:{ title="from Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
 Here you can specify which help pages are displayed via the help icon :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
 
@@ -91,38 +95,37 @@ In addition, the translations can be edited.
 
 ## Sites {: #sites}
 
+On the "Sites" page, administrators define which sites the main navigation in the top row offers, in which order and for which roles. You will find the page in the system administration under:<br>
+`Administration > Customizing > Sites`
+
+What a site is and what decides whether a person sees it is explained in the user manual on the page [Area and modules](../../manual_user/area_modules/index.md#conditions).
+
 ### Tab Order
 
-Sites/Sections correspond to the menu items (tabs) in the main menu at the top of the page, e.g. "Courses", "Groups", "Catalog", "Authoring" or "Coaching".
+In the "Order" tab, you enable the sites for the whole instance and arrange them. The "Enabled" checkbox enables a site, and the "Up" and "Down" arrows set the order. Some entries in the list are named differently from the site in the main navigation. The entry "My courses" appears there as "Courses".
 
-Administrators can specify which OpenOlat areas are displayed there and made available system-wide. The display in the main menu and access to these areas can be restricted to specific permission and role groups. Some entries in the list are named differently from the tab in the main menu, e.g. the entry "My courses" appears in the main menu as the tab "Courses".
+The "Coaching tool" entry cannot be deactivated, because coaches and owners reach their learning resources through Coaching. The "Enabled" checkbox is greyed out. Order and access remain adjustable. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
-Use the arrows on the right side to set the display order.
-
-The "Coaching tool" entry cannot be deactivated [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661), as the Coaching tool is mandatory: the "Enabled" checkbox is greyed out. The display order and the access can still be adjusted.
-
-![Enabled checkbox of the Coaching tool row greyed out, Up and Down arrows remain usable, in the Order tab on the Sites page](assets/admin_customizing_sites_v2_en.png){ class="shadow lightbox" }
-
-The list applies to the whole instance: it determines which tabs the header offers and in which order. Three further points decide together whether a person sees a tab.
+The list applies to the whole instance. Three further points decide together whether a person sees a site.
 
 **The module must be active.** An entry only appears if the corresponding module is switched on as well. An activated "Catalog" entry has no effect as long as the [Module Catalog](Modules_Catalog_2.0.md) is switched off. While a module is switched off, the "Enabled" checkbox of its entry is greyed out.
 
-**The "Access" column decides per role.** It determines which roles see the tab, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see different headers.
+**The "Access" column decides per role.** It determines which roles see the site, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see a different main navigation.
 
-**The space in the bar decides the presentation.** Tabs that no longer fit into the header are collected by OpenOlat in the "More" menu on the right. This depends on the screen width of the viewer and cannot be configured.
+**The space in the bar decides the presentation.** Sites that no longer fit into the top row are collected by OpenOlat in the "More" menu on the right. This depends on the screen width of the viewer and cannot be configured.
 
-What the users find about the areas of the header in the user manual is on the page [Area and modules](../../manual_user/area_modules/index.md).
 
-### Other tabs
+### Other tabs [:octicons-tag-16:{ title="from Release 9.1 (OO-715)" }](https://track.frentix.com/issue/OO-715){:target="_blank"}
 
-In the other tabs, you can add custom information pages that can be accessed via the main menu in the header. 
-These can be external URLs as well as OpenOlat learning resources (e.g., courses that may consist of only one or a few pages).
+In the tabs "Info page n°1" to "Info page n°4", you add one course each as a separate site to the main navigation, for example for information addressed to all people of the instance.
 
-![Each language has its own title and its own learning resource, and the Icon CSS class determines the symbol of the tab, in the Info page tab on the Sites page](assets/admin_customizing_infopage_v1_en.png){ class="shadow lightbox" }
+For each language you store a separate title and a separate learning resource. With "Choose" you open the search for the referenceable learning resource. Only there do you connect the site with a course. The "Default" checkbox determines the entry that applies when no entry is stored for the language of a person.
 
-For each language you store a separate title and a separate learning resource. With "Select" you open the search for the referenceable learning resource. There you connect the tab with a course.
+In the "Icon CSS Class" field, you set the symbol of the site. With the "Show toolbar for all users" checkbox, all people see the toolbar of the course. Without a checkmark, only people who may manage the course see it, for example owners.
 
 ![Select the course from the list, or use Create and Import file to add a new learning resource instead, in the Search for referenceable learning resources dialog](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
+
+In the tabs "External page n°1" and "External page n°2", you add an external URL with its own title per language as a site. [:octicons-tag-16:{ title="from Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
 [To the top of the page ^](#customizing)
 
@@ -131,12 +134,12 @@ For each language you store a separate title and a separate learning resource. W
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Module Catalog >](Modules_Catalog_2.0.md)<br>
-[Area and modules >](../../manual_user/area_modules/index.md)
+[Area and modules >](../../manual_user/area_modules/index.md)<br>
+[Module Catalog >](Modules_Catalog_2.0.md)
 
-**Further**<br>
+**Further reading**<br>
 [Modules: Overview >](Modules.md)<br>
-[Module External page >](Modules_External_Page.md)<br>
-[Landing pages >](Landing_pages.md)
+[Landing pages >](Landing_pages.md)<br>
+[Navigation >](../../manual_user/basic_concepts/Navigation.md)
 
 [To the top of the page ^](#customizing)

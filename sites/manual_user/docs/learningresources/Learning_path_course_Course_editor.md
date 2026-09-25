@@ -12,7 +12,7 @@ Examples and a further introduction can be found in our [Whitepaper on learning 
 
 If certain areas of the course are to have a different setting, add a [course element "Structure"](../learningresources/Course_Element_Structure.md) and configure the sequence of steps there. The setting applies to all subordinate course elements. For example, a course can be sequential by default while learners access a certain area in any order.
 
-## Tab "Learning path" {: #tab_learning_path}
+## Tab "Learning path" [:octicons-tag-16:{ title="from Release 15.0 (OO-4206)" }](https://track.frentix.com/issue/OO-4206) {: #tab_learning_path}
 
 In the course editor, learning path courses have the tab "Learning path" instead of the tabs "Visibility" and "Access". Here you configure:
 
@@ -29,7 +29,7 @@ In the course editor, learning path courses have the tab "Learning path" instead
 
 These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md), which bundles course elements. In the structure element you define the sequence of steps for all subordinate course elements: "Sequential" or "No sequence".
 
-### Exceptions {: #exceptions}
+### Exceptions [:octicons-tag-16:{ title="from Release 16.1 (OO-5209)" }](https://track.frentix.com/issue/OO-5209) {: #exceptions}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>){:target="_blank"}
 
@@ -40,6 +40,7 @@ With "Enable exceptions" you define in a differentiated way who may see and work
 The exceptions can refer to the following aspects:
 
 * Groups
+* Elements: The exception applies to the participants of an element from the Course Planner. The type is available for selection when the Course Planner is switched on and the course is assigned to at least one element.
 * Organisations
 * Users
 * User property: The value can contain the wildcard `*`, for example `*@example.org` for all accounts with this e-mail domain. [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7337)" }](https://track.frentix.com/issue/OO-7337)
@@ -117,7 +118,7 @@ HTML page | Visit course element
 JupyterHub | Visit course element
 Calendar | Visit course element
 Link list | Visit course element
-Livestream | Visit course element
+Participant list | Visit course element
 LTI page | Confirmation by participant
 Mediasite | Confirmation by participant
 Microsoft Teams | Visit course element
@@ -130,7 +131,6 @@ Portfolio task | Execution done
 SCORM 1.2 | Confirmation by participant
 Page | Visit course element
 Self-test | Confirmation by participant
-Participant list | Visit course element
 Participant folder | Confirmation by participant
 Appointment scheduling | Confirmation by participant
 Assignment of dates | Confirmation by participant
@@ -140,6 +140,7 @@ Topic assignment | Confirmation by participant
 Practice | Challenges completed
 Survey | Survey finished
 Video | Video watched to the end (95%)
+Video live stream | Visit course element
 Video task | Execution done
 vitero | Visit course element
 Wiki | Visit course element

@@ -1,4 +1,4 @@
-# Assessment
+# Assessment {: #assessment}
 
 Here you get an overview of the course elements that can be used for knowledge testing. For some course elements there are separate pages or chapters here in the manual.
 
@@ -7,7 +7,7 @@ Here you get an overview of the course elements that can be used for knowledge t
 
 OpenOlat provides various course elements for knowledge testing. The central course elements for this are the three course elements for OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), [assessments](Course_Element_Assessment.md) with and without assessment grid (rubric) or the checklists offer a lot of potential for certain scenarios.
 
-Most course elements in the assessment category can also be given points if required and then will be given the "Highscore" configuration tab. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Course_Element_Structure.md) is used for this for conventional courses.
+Most course elements in the assessment category can also be given points if required and then will be given the "HighScore" configuration tab for the highscore. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Course_Element_Structure.md) is used for this for conventional courses.
 
 Another configuration tab that is available for most assessment course elements (except for self-test and survey) is the tab "Reminder". Here, emails can be sent depending on the progress of the respective course element. For example, a mail can be sent if a task has not yet been worked on by a certain date. The possibilities are similar to those in the menu "Reminder" in the course administration for which you can find more information [here](../learningresources/Course_Reminders.md).
 
@@ -72,6 +72,8 @@ Further information on how learners can pick up and use a portfolio task can be 
 
 General information on the subject of portfolios and e-portfolios can be found [here](../area_modules/index.md).
 
+All settings of the course element are described on the page [Course Element "Portfolio Task"](Course_Element_Portfolio_Task.md).
+
 ## Course Element: Group Task {: #course_element_group_tasks}
 
 :fontawesome-solid-list-check:
@@ -86,15 +88,17 @@ When creating the group task, one or more groups to which the task is assigned m
 
 When the editor is closed, the tab "All participants" does not show the individual persons directly, but the assigned groups are shown, which can then be selected and evaluated. Within the assessment process it can be decided whether the assessment is valid for the entire group or whether the assessment is only valid for a certain group member.
 
+All settings of the course element are described on the page [Course Element "Group Task"](Course_Element_Grouptask.md).
+
 ##  Course Element: Test {: #course_element_test}
 
 :fontawesome-solid-square-pen:
 
-The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of question types, it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
+The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of "[question types](../learningresources/Test_question_types.md)", it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
 
 If you have not selected any test yet, there will be a message saying _No file chosen_ under the tab Test configuration. Click on "Choose, create or import file" to add a test to the course element, or to create a new test, respectively. In case you have already selected a test the name of this learning resource will be displayed after _Selected file_. Click on the name to open a preview of the test. Click on "Replace file" if you would like to exchange the learning resource with another one. Further information can be found in the chapter "[Creating Tests](../learningresources/Test.md)".
 
-The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ". All settings of the course element are described on the page [Course Element "Test"](Course_Element_Test.md).
 
 The settings under "Options" are initially being copied from the options of the learning resource. However, the options can be adjusted if needed. To do so, open the tab "Options" and click on "Adjust configuration". You may now set a time limit, limit the number of attempts, allow guests to do the test, choose from various display options, etc. If the option "Show question title" is not selected while menu navigation is allowed, the navigation will only show "anonymised" titles, not the real titles.
 
@@ -116,7 +120,7 @@ The test results of the participants will be personalised.
 
 :fontawesome-solid-square-pen:
 
-Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "Highscore" is omitted.
+Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "HighScore" is omitted.
 
 In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed. The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter ["How do I proceed when I create a test"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
 
@@ -125,6 +129,8 @@ For more information on tests, refer to the chapter "[Creating Tests](../learnin
 A more complex alternative to the self-test is the course element Practice.
 
 ## Course Element: Practice {: #course_element_uebung}
+
+:octicons-device-camera-video-24: **Video introduction**: [The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
 
 The course element with flashcard logic is used for individual self-testing of course participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question pool, which the learners can work on independently in series and challenges. The number of questions per exercise series can be defined, as can the number of total challenges. For example, if a series comprises 10 questions, the learner is shown 10 questions. Afterwards, he can decide whether he wants to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the exercise and indicates how often a question has to be answered correctly repeatedly. 
 
@@ -193,7 +199,7 @@ structure elements.
 
 The highscore makes a playful comparison between test participants possible
 and can be seen as motivational factor. The prerequisite for using the
-"Highscore" tab is that points are awarded for the selected block (e.g. test,
+"HighScore" tab is that points are awarded for the selected block (e.g. test,
 task, evaluation).
 
 First "Show Highscore" needs to be enabled. Optional a starting date can be
@@ -209,7 +215,38 @@ number should be shown. At least one of the above options needs to be selected.
 
 ![Highscore ranking with podium, points histogram and list of top participants](assets/Highscore_EN.png){ class="shadow lightbox" }
 
+---
 
+## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Configure tests >](Configure_tests.md)<br>
+[Course Element "Task" >](Course_Element_Task.md)<br>
+[Creating Portfolio Tasks >](Creating_Portfolio_Tasks.md)<br>
+[Course Element "Assessment" >](Course_Element_Assessment.md)<br>
+[Course Element "Structure" >](Course_Element_Structure.md)<br>
+[Course Reminders >](Course_Reminders.md)<br>
+[The Form Editor >](Form_Editor.md)<br>
+[Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
+[Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
+[Area and modules >](../area_modules/index.md)<br>
+[Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
+[Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
+[Test question types >](Test_question_types.md)<br>
+[Creating Tests >](Test.md)<br>
+[Tests at course level >](Tests_at_course_level.md)<br>
+[Course Element "Test" >](Course_Element_Test.md)<br>
+[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[Three steps to your form >](../forms/Three_Steps_to_your_Form.md)<br>
+[Forms - Overview >](Form.md)<br>
+[Course Element "Checklist" >](Course_Element_Checklist.md)
 
+**Further reading**<br>
+[Types of Course Elements >](Course_Elements.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)
 
+**youtube**<br>
+[The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>)
+
+[To the top of the page ^](#assessment)

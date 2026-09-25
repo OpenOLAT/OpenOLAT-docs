@@ -1,31 +1,31 @@
 # Area and modules {: #sites}
 
-When you work in OpenOlat, you switch between the large working areas through the top navigation bar: courses, groups, catalog, coaching. In OpenOlat such an area is called a site and appears as a tab in that bar. (The bar is sometimes also called "header".) Personal areas, in contrast, are accessed through the [Personal tools](../personal_menu/Personal_Tools.md).
+When you work in OpenOlat, you switch between the areas through the top navigation bar. An area is an entry in this bar, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this area. In the English interface, such an area is called a site. (The bar is sometimes also called "header".) What concerns only you, for example your calendar or your notes, you open through the [Personal tools](../personal_menu/Personal_Tools.md) instead.
 
-Which tabs you see is decided by the system administration together with your role. Every OpenOlat instance therefore composes and orders its header differently. The following image shows what is possible: an instance with almost all available areas. Most instances offer fewer.
+Which sites you see is controlled by three things: the module, the activation in the administration and your role. Every OpenOlat instance therefore composes and orders its header differently. The following image shows what is possible: an instance with almost all available areas. Most instances offer fewer.
 
-![Example of a well-filled header: sixteen numbered areas, nine of them as tabs from Portal to Video Collection, the rest in the unfolded More menu](assets/sites_v2_en.png){ class="shadow lightbox" title="Example view with almost all available areas, not the standard of an instance" }
+![Example of a well-filled header: sixteen numbered areas, nine of them directly in the bar from Portal to Video Collection, the rest in the unfolded More menu](assets/sites_v2_en.png){ class="shadow lightbox" title="Example view with almost all available areas, not the standard of an instance" }
 
 
-## What decides about a tab {: #conditions}
+## What decides about a site {: #conditions}
 
 You are looking for an area and cannot find it, while a colleague sees it. Four conditions decide about this. Going through them one by one leads to the cause and tells you whom to ask.
 
-1. **The module is activated.** Without an active module the area does not appear, even if the site is activated. Administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
-2. **The site is activated and sorted in.** The system administration keeps all sites in one list: `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
-3. **The role has access.** The "Access" column of that same list determines which roles see the tab, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see different headers.
-4. **There is space in the bar.** What no longer fits into the header is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
+1. **The module is activated.** Without an active module the area does not appear, even if it is activated in the list of sites. Administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
+2. **The site is activated and sorted in.** Administrators keep all sites in one list, in the system administration under `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
+3. **The role has access.** The "Access" column of that same list determines which roles see the site, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see a different navigation bar.
+4. **There is space in the bar.** What no longer fits into the top bar is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
 
-Some entries in the list are named differently from the tab they create: the entry "My courses" appears as the tab "Courses".
+Some entries in the list are named differently from the site they create: the entry "My courses" appears as "Courses".
 
-Besides the areas of the table below, four info pages and two external sites can be added as a tab. The system administration fills them with a learning resource or a URL.
+Besides the areas of the table below, four info pages and two external sites can be added as a site of their own. Administrators fill an info page with a course, an external site with a URL.
 
-How the system administration operates this list is described in the administration manual: [Sites](../../manual_admin/administration/Customizing.md#sites).
+How administrators operate this list is described in the administration manual: [Customizing: Sites](../../manual_admin/administration/Customizing.md#sites).
 
 
 ## Where the areas are described {: #areas}
 
-You know the area and are looking for the page that explains it. The table lists the areas this manual describes. It does not show which tabs are visible on a particular instance. The number refers to the marking in the image above.
+You know the area and are looking for the page that explains it. The table lists the areas this manual describes. It does not show which sites are visible on a particular instance. The number refers to the marking in the image above.
 
 | No. in the image | Area | Described on |
 |---|---|---|
@@ -46,7 +46,7 @@ You know the area and are looking for the page that explains it. The table lists
 | 15 | Quality management | [Quality Management](Quality_Management.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.md), administration manual |
 
-The portfolio does not appear as a tab in the header. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
+The portfolio does not appear as a site in the navigation bar. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
 
 
 ## Further information {: #further_information}

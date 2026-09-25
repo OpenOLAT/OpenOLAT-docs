@@ -19,12 +19,12 @@ Durch Angabe einer anderen E-Mail in diesem Abschnitt, kann diese Adresse übers
 Im Feld "Absender Name" legen Sie den angezeigten Namen des Absenders fest.
 
 
-## Einstellungen Verbesserungsvorschlag {: #settings_improvement}
+## Einstellungen Verbesserungsvorschlag [:octicons-tag-16:{ title="ab Release 13.0 (OO-3740)" }](https://track.frentix.com/issue/OO-3740) {: #settings_improvement}
 
 Wird die Option aktiviert, wird unter dem Menüpunkt Qualitätsmanagement die Option zur Erstellung von Verbesserungsvorschlägen angezeigt. Die dort erstellten Mails werden an die hier angegebene Mailadresse geschickt.
 
 
-## Datenerhebungsvorschau {: #data_collection_preview}
+## Datenerhebungsvorschau [:octicons-tag-16:{ title="ab Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399) {: #data_collection_preview}
 
 Diese Vorschau wird nach der Aktivierung angezeigt
 
@@ -41,24 +41,29 @@ Ausserdem kann die Datenerhebungsvorschau in Produkten aufgerufen werden und zei
 Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle geplanten Erhebungen (nicht nur auf einzelne Kurse). 
 
 
-## Massnahmen To-dos {: #to_do}
+## Massnahmen To-dos [:octicons-tag-16:{ title="ab Release 18.0 (OO-6781)" }](https://track.frentix.com/issue/OO-6781) {: #to_do}
 
 In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer oder mehreren Erhebungen. Eine "Massnahme" im Qualitätsmanagement ist ein To-do. 
 
 Wird diese Option aktiviert, können Qualitätsmanager:innen To-dos (Massnahmen) erstellen.
 
 
-## Aktivierung der Site {: #site_activation}
+## Aktivierung des Bereichs {: #site_activation}
 
-Nachdem das Modul aktiviert worden ist, muss zusätzlich in der System-Administration unter<br>
-`Administration > Customizing > Sites`<br>
-die Checkbox gesetzt und die Benutzergruppe definiert werden, die die Option "Qualitätsmanagement" in der Hauptnavigation angezeigt bekommt.
+Damit Qualitätsmanager:innen das Qualitätsmanagement in der Hauptnavigation finden, braucht es neben dem aktivierten Modul auch den aktivierten [Bereich](../../manual_user/area_modules/index.de.md) "Qualitätsmanagement". Sie aktivieren ihn in der System-Administration unter:<br>
+`Administration > Customizing > Bereiche`
+
+Setzen Sie im Tab "Reihenfolge" in der Zeile "Qualitätsmanagement" die Checkbox in der Spalte "Aktiviert" und legen Sie in der Spalte "Zugang" fest, wer den Bereich in der Hauptnavigation angezeigt bekommt.
 
 ---
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Datenerhebungsvorschau >](../../manual_user/learningresources/Data_Collection_Previews.de.md)
+[Datenerhebungsvorschau >](../../manual_user/learningresources/Data_Collection_Previews.de.md)<br>
+[Bereiche und Module >](../../manual_user/area_modules/index.de.md)
+
+**Weiterführend**<br>
+[Customizing: Übersicht >](Customizing.de.md)
 
 [Zum Seitenanfang ^](#Modules_Quality_Management)

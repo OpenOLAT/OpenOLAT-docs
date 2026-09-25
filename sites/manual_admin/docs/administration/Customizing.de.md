@@ -1,9 +1,13 @@
 # Customizing: Übersicht {: #customizing}
 
-![Menü Customizing in der System-Administration mit acht Bereichen: Darstellung, Impressum, Hilfe, Sprachanpassungswerkzeug, Systemregistrierung, Portal, Benutzer:innen-Attribute und Sites](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
-
-Das Menü "Customizing" umfasst Einstellungen bezüglich der hier aufgeführten Menüpunkte. Sie finden diese Einstellungen in der System-Administration unter:<br>
+Im Menü "Customizing" passen Administrator:innen und Systemadministrator:innen das Erscheinungsbild und die Hauptnavigation der ganzen Instanz an. Sie finden diese Einstellungen in der System-Administration unter:<br>
 `Administration > Customizing`
+
+## Steckbrief
+
+Name | Customizing
+---------|----------
+Verfügbar seit | Release 8.0 (2011)
 
 ---
 
@@ -33,7 +37,7 @@ In diesem Abschnitt legen Sie den Text der Fusszeile rechts unten fest sowie die
 
 ## Impressum [:octicons-tag-16:{ title="ab Release 10.0 (OO-1166)" }](https://track.frentix.com/issue/OO-1166){:target="_blank"} {: #imprint}
 
-Administrator:innen legen fest, 
+Administrator:innen legen fest,
 
 * wo der Link zum Impressum erscheint (z.B. im Footer)
 * ob ein Impressumstext erscheint und wie er lautet
@@ -49,7 +53,7 @@ Alle Texte können in verschiedenen Sprachen hinterlegt werden.
 
 
 
-## Hilfe {: #help}
+## Hilfe [:octicons-tag-16:{ title="ab Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
 Hier kann definiert werden, welche Hilfeseiten über das Hilfe-Icon :fontawesome-solid-circle-question: im allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support Kontaktformular ist möglich.
 
@@ -95,41 +99,39 @@ Ausserdem können die Übersetzungen bearbeitet werden.
 
 
 
-## Sites {: #sites}
+## Bereiche {: #sites}
+
+Auf der Seite "Bereiche" legen Administrator:innen fest, welche Bereiche die Hauptnavigation in der obersten Zeile anbietet, in welcher Reihenfolge und für welche Rollen. Sie finden die Seite in der System-Administration unter:<br>
+`Administration > Customizing > Bereiche`
+
+Was ein Bereich ist und wovon abhängt, ob eine Person ihn sieht, erklärt das Benutzerhandbuch auf der Seite [Bereiche und Module](../../manual_user/area_modules/index.de.md#conditions).
 
 ### Tab Reihenfolge
 
-Sites/Bereiche entsprechen den Menüpunkten (Tabs) des Hauptmenüs in der Kopfzeile, z.B. "Kurse", "Gruppen", "Katalog", "Autorenbereich" oder "Coaching".
+Im Tab "Reihenfolge" schalten Sie die Bereiche für die ganze Instanz frei und ordnen sie. Die Checkbox "Aktiviert" gibt einen Bereich frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest. Einzelne Einträge heissen in der Liste anders als der Bereich in der Hauptnavigation: Der Eintrag "Meine Kurse" erscheint dort als "Kurse".
 
-Administrator:innen können definieren, welche OpenOlat-Bereiche dort angezeigt und systemweit zur Verfügung gestellt werden. Die Anzeige im Hauptmenü/der Zugriff kann auf bestimmte Rechte- und Rollengruppen beschränkt werden. Einzelne Einträge heissen in der Liste anders als der Tab im Hauptmenü, z.B. erscheint der Eintrag "Meine Kurse" im Hauptmenü als Tab "Kurse".
+Der Eintrag "Coaching Werkzeug" lässt sich nicht deaktivieren, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen: Die Checkbox "Aktiviert" ist ausgegraut. Reihenfolge und Zugang bleiben einstellbar. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
-Mit den Pfeilen am rechten Rand kann die Anzeigereihenfolge festgelegt werden.
-
-Der Eintrag "Coaching Werkzeug" kann [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) nicht deaktiviert werden, da das Coaching Tool obligatorisch ist: Die Checkbox "Aktiviert" ist ausgegraut. Die Anzeigereihenfolge und der Zugang lassen sich weiterhin anpassen.
-
-![Checkbox Aktiviert der Zeile Coaching Werkzeug ausgegraut, Pfeile Hoch und Runter bleiben nutzbar, im Tab Reihenfolge auf der Seite Sites](assets/admin_customizing_sites_v2_de.png){ class="shadow lightbox" }
-
-Die Liste gilt für die ganze Instanz: Sie bestimmt, welche Tabs die Kopfzeile anbietet und in welcher Reihenfolge. Drei weitere Punkte entscheiden mit darüber, ob eine Person einen Tab sieht.
+Die Liste gilt für die ganze Instanz. Drei weitere Punkte entscheiden mit darüber, ob eine Person einen Bereich sieht.
 
 **Das Modul muss aktiv sein.** Ein Eintrag erscheint nur, wenn zusätzlich das zugehörige Modul eingeschaltet ist. Ein aktivierter Eintrag "Katalog" bleibt ohne Wirkung, solange das [Modul Katalog](Modules_Catalog_2.0.de.md) ausgeschaltet ist. Bei ausgeschaltetem Modul ist die Checkbox "Aktiviert" des Eintrags ausgegraut.
 
-**Die Spalte "Zugang" entscheidet je Rolle.** Sie bestimmt, welche Rollen den Tab sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb verschiedene Kopfzeilen.
+**Die Spalte "Zugang" entscheidet je Rolle.** Sie bestimmt, welche Rollen den Bereich sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb eine verschiedene Hauptnavigation.
 
-**Der Platz in der Zeile entscheidet über die Darstellung.** Tabs, die nicht mehr in die Kopfzeile passen, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Bildschirmbreite der Betrachterin ab und lässt sich nicht einstellen.
-
-Was die Anwender:innen zu den Bereichen der Kopfzeile im Benutzerhandbuch finden, steht auf der Seite [Bereiche und Module](../../manual_user/area_modules/index.de.md).
+**Der Platz in der Zeile entscheidet über die Darstellung.** Bereiche, die nicht mehr in die oberste Zeile passen, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Bildschirmbreite der Betrachterin ab und lässt sich nicht einstellen.
 
 
-### Übrige Tabs
+### Übrige Tabs [:octicons-tag-16:{ title="ab Release 9.1 (OO-715)" }](https://track.frentix.com/issue/OO-715){:target="_blank"}
 
-In den übrigen Tabs können individuell Infoseiten eingebunden werden, die via Hauptmenü in der Kopfzeile aufgerufen werden können. 
-Es können sowohl externe URLs sein, als auch OpenOlat-Lernressourcen (z.B. Kurse, die evtl. nur eine oder wenige Seiten enthalten).
+In den Tabs "Infoseite n°1" bis "Infoseite n°4" binden Sie je einen Kurs als eigenen Bereich in die Hauptnavigation ein, zum Beispiel für Informationen an alle Personen der Instanz.
 
-![Je Sprache ein eigener Titel und eine eigene Lernressource, die Icon CSS Class bestimmt das Symbol des Tabs, im Tab Infoseite auf der Seite Sites](assets/admin_customizing_infopage_v1_de.png){ class="shadow lightbox" }
+Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mit "Auswählen" öffnen Sie die Suche nach der referenzierbaren Lernressource. Erst dort verbinden Sie den Bereich mit einem Kurs. Die Checkbox "Standard" bestimmt den Eintrag, der gilt, wenn für die Sprache einer Person keiner hinterlegt ist.
 
-Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mit "Auswählen" öffnen Sie die Suche nach der referenzierbaren Lernressource. Erst dort verbinden Sie den Tab mit einem Kurs.
+Im Feld "Icon CSS Class" legen Sie das Symbol des Bereichs fest. Mit der Checkbox "Kurs-Toolbar für alle anzeigen" sehen alle Personen die Toolbar des Kurses. Ohne Häkchen sehen sie nur Personen, die den Kurs verwalten dürfen, zum Beispiel Besitzer:innen.
 
 ![Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen, im Dialog Referenzierbare Lernressource suchen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" }
+
+In den Tabs "Externe Seite n°1" und "Externe Seite n°2" binden Sie je Sprache eine externe URL mit eigenem Titel als Bereich ein. [:octicons-tag-16:{ title="ab Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -138,13 +140,13 @@ Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mi
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
-[Bereiche und Module >](../../manual_user/area_modules/index.de.md)
+[Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
+[Modul Katalog >](Modules_Catalog_2.0.de.md)
 
 **Weiterführend**<br>
 [Module: Übersicht >](Modules.de.md)<br>
-[Modul Externe Seite >](Modules_External_Page.de.md)<br>
-[Startseite >](Landing_pages.de.md)
+[Startseite >](Landing_pages.de.md)<br>
+[Navigation >](../../manual_user/basic_concepts/Navigation.de.md)
 
 [Zum Seitenanfang ^](#customizing)
 

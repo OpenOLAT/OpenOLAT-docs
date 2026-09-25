@@ -3,7 +3,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Sie möchten Dokumente in OpenOlat ablegen oder ablegen lassen? Diese Seite zeigt ihnen, welchen Ordner Sie für welchen Zweck verwenden können.
+    Sie möchten Dokumente in OpenOlat ablegen oder ablegen lassen? Diese Seite zeigt Ihnen, welchen Ordner Sie für welchen Zweck verwenden können.
 
 ??? abstract "Zielgruppe"
 
@@ -18,11 +18,11 @@
 
 
 
-OpenOlat kennt nicht „den einen" Ordner, sondern rund ein Dutzend Ordnertypen für unterschiedliche Zwecke, vom Kursmaterial über Abgaben bis zur kursübergreifenden Dateipflege. Diese Übersicht ordnet sie **aus Autor:innen-Sicht** 
+OpenOlat kennt nicht „den einen" Ordner, sondern rund ein Dutzend Ordnertypen für unterschiedliche Zwecke, vom Kursmaterial über Abgaben bis zur kursübergreifenden Dateipflege. Diese Übersicht ordnet sie **aus Autor:innen-Sicht**:
 
 - wozu jeder Ordnertyp dient,
 - wo Sie ihn einrichten,
-- wer Zugriff darauf hat 
+- wer Zugriff darauf hat
 - und wie Sie mit Dateien darin arbeiten.
 
 Am Ende dieses Artikels finden Sie [Entscheidungshilfen](#decision_aid) und mögliche [Stolpersteine](#stumbling_stones).
@@ -32,13 +32,13 @@ Am Ende dieses Artikels finden Sie [Entscheidungshilfen](#decision_aid) und mög
 
 ## Ordnertypen nach Kontext
 
-Jeder Ordnertyp gehört zu einem Kontext: 
+Jeder Ordnertyp gehört zu einem Kontext:
 
-- **Persönlich** — Persönlicher Ordner (darin befindet sich ein privater und ein öffentlicher Bereich).
-- **Kurs** — Ablageordner · Kursbaustein „Ordner" · Teilnehmer:innen-Ordner · Ordner im Baustein „Aufgabe" · Betreuer:innen-Ordner · Kursarchiv.
-- **Gruppe** — Gruppenordner (Zugriff ist an Gruppenmitgliedschaft gebunden)
-- **Kursübergreifend** — Ressourcenordner (Shared Folder): einmal pflegen, überall aktuell.
-- **Systemweit** — Dokumentenpool (mit Taxonomie und Kompetenzsteuerung)
+- **Persönlich:** Persönlicher Ordner (darin befinden sich ein privater und ein öffentlicher Unterordner).
+- **Kurs:** Ablageordner · Kursbaustein „Ordner" · Teilnehmer:innen-Ordner · Ordner im Baustein „Aufgabe" · Betreuer:innen-Ordner · Kursarchiv.
+- **Gruppe:** Gruppenordner (Zugriff ist an Gruppenmitgliedschaft gebunden)
+- **Kursübergreifend:** Ressourcenordner (Shared Folder): einmal pflegen, überall aktuell.
+- **Systemweit:** Dokumentenpool (mit Taxonomie und Kompetenzsteuerung)
 
 
 ---
@@ -47,16 +47,16 @@ Jeder Ordnertyp gehört zu einem Kontext:
 
 | Ordner | Zweck | Wo einrichten / öffnen | Sichtbar für | Upload durch TN | Kursübergreifend |
 |--------|-------|------------------------|--------------|-----------------|------------------|
-| **Kursbaustein „Ordner"** | Dateien zum Download bereitstellen; optional Sammel-Upload | Kurseditor → Baustein „Ordner" | alle Kursteilnehmenden | optional | nein |
-| **Teilnehmer:innen-Ordner** | Abgabe & Rückgabe von Dateien je Teilnehmer:in | Kurseditor → Baustein „Teilnehmer:innen Ordner" | je TN nur eigener Ordner + Betreuende | ja | nein |
-| **Ordner im Baustein „Aufgabe"** | Dateien im Aufgaben-Workflow (Abgabe, Rückgabe, Lösung …) | Kurseditor → Baustein „Aufgabe"/„Gruppenaufgabe" | nur innerhalb des Bausteins | ja | nein |
-| **Betreuer:innen-Ordner** | Nur für Betreuende/Besitzende zugänglicher Ablagebereich | Kurs → Einstellungen → Optionen | nur Betreuer:innen & Besitzer:innen | nein | nein |
-| **Ablageordner** | Hintergrund-Ablage aller im Kurs verwendeten Dateien | Kurs → Administration → Dateien | nur Kursbesitzer:innen (TN nur indirekt) | nein | nein |
-| **Ressourcenordner** | Zentrale Dateien für mehrere Kurse (Shared Folder) | Autorenbereich + Kurs → Einstellungen → Optionen | je nach Kurs-/Freigabeberechtigung | nein | ja |
-| **Gruppenordner** | Gemeinsamer Dateiaustausch in einer Gruppe | Gruppe → Werkzeuge → „Ordner" aktivieren | alle Gruppenmitglieder | ja | an Gruppe gebunden |
-| **Persönlicher Ordner** | Individuelle Dateiablage (privat / öffentlich) | Persönliches Menü → File Hub | nur die Person selbst | — | personenbezogen |
-| **Dokumentenpool** | Dokumentenverwaltung mit Taxonomie & Kompetenzen | Administration (Modul) + File Hub | kompetenz-/rechtegesteuert | — | systemweit |
-| **Kursarchiv** | Archivierte Kurs-/Teilnehmerdaten (ZIP) | File Hub → „Kursarchiv" | Kursbesitzer:innen | — | nein |
+| **Kursbaustein „Ordner"** | Dateien zum Download bereitstellen; optional Sammel-Upload | Kurseditor, Baustein „Ordner" | alle Teilnehmenden | optional | nein |
+| **Teilnehmer:innen-Ordner** | Abgabe & Rückgabe von Dateien je Teilnehmer:in | Kurseditor, Baustein „Teilnehmer:innen Ordner" | je TN nur eigener Ordner + Betreuende | ja | nein |
+| **Ordner im Baustein „Aufgabe"** | Dateien im Aufgaben-Workflow (Abgabe, Rückgabe, Lösung …) | Kurseditor, Baustein „Aufgabe"/„Gruppenaufgabe" | nur innerhalb des Bausteins | ja | nein |
+| **Betreuer:innen-Ordner** | Nur für Betreuende/Besitzende zugänglicher Ablagebereich | `Kurs > Administration > Einstellungen > Optionen` | nur Betreuer:innen & Besitzer:innen | nein | nein |
+| **Ablageordner** | Hintergrund-Ablage aller im Kurs verwendeten Dateien | `Kurs > Administration > Dateien` | nur Kursbesitzer:innen (TN nur indirekt) | nein | nein |
+| **Ressourcenordner** | Zentrale Dateien für mehrere Kurse (Shared Folder) | Autorenbereich + `Kurs > Administration > Einstellungen > Optionen` | je nach Kurs-/Freigabeberechtigung | nein | ja |
+| **Gruppenordner** | Gemeinsamer Dateiaustausch in einer Gruppe | `Gruppe > Administration > Werkzeuge`, „Ordner" aktivieren | alle Gruppenmitglieder | ja | an Gruppe gebunden |
+| **Persönlicher Ordner** | Individuelle Dateiablage (privat / öffentlich) | `Persönliches Menü > File Hub` | nur die Person selbst | nicht zutreffend | personenbezogen |
+| **Dokumentenpool** | Dokumentenverwaltung mit Taxonomie & Kompetenzen | System-Administration `Administration > Module > Dokumentenpool` + File Hub | kompetenz-/rechtegesteuert | nicht zutreffend | systemweit |
+| **Kursarchiv** | Archivierte Kurs-/Teilnehmerdaten (ZIP) | `File Hub > Kursarchiv` | Kursbesitzer:innen | nicht zutreffend | nein |
 
 [zum Seitenanfang ^](#folders)
 
@@ -65,7 +65,7 @@ Jeder Ordnertyp gehört zu einem Kontext:
 
 ## Zugriffswege {: #access_path}
 
-Auf die Ordner kann von verschiedenen Stellen aus zugegriffen werden. Überlegen Sie, was beim geplanten Ordnerinhalt für Ihre Teilnehmer:innen Sinn macht.  
+Auf die Ordner kann von verschiedenen Stellen aus zugegriffen werden. Überlegen Sie, was beim geplanten Ordnerinhalt für Ihre Teilnehmer:innen Sinn macht.
 
 Zugriffsweg kursspezifisch:
 
@@ -75,7 +75,7 @@ Zugriffsweg kursspezifisch:
 
 Zugriffsweg kontextübergreifend, je nach Berechtigung:
 
-- via FileHub
+- via File Hub
 - via WebDAV
 
 
@@ -85,11 +85,11 @@ Wählen Sie im Kurs einen Kursbaustein "Ordner", "Teilnehmer:innen Ordner" oder 
 
 ### Öffnen eines Ordners in der Autor:innen oder Betreuer:innen-Rolle
 
-Der Betreuer:innen Ordner ist in der Kursadministration zu finden, die nur den Kursbesitzer:innen und - betreuer:innen angezeigt wird. Ebenso befindet sich in der Kursadministration unter "Dateien" auch der Ablageordner zum Kurs.
+Der Betreuer:innen-Ordner ist in der Kurs-Administration zu finden, die nur den Kursbesitzer:innen und -betreuer:innen angezeigt wird: `Kurs > Administration > Unterlagen Betreuer:innen`. Ebenso befindet sich in der Kurs-Administration unter "Dateien" auch der Ablageordner zum Kurs: `Kurs > Administration > Dateien`
 
 ### Öffnen via Icon in der Werkzeugleiste
 
-Ein Dokumentenordner zu einem Kurs kann von Autor:innen oben in der Werkzeugleiste als Icon angezeigt werden. 
+Ein Dokumentenordner zu einem Kurs kann von Autor:innen oben in der Werkzeugleiste als Icon angezeigt werden.
 
 ### Öffnen via persönlichem Menü
 
@@ -98,11 +98,11 @@ Der persönliche Ordner (mit den Unterordnern privat und öffentlich) ist im per
 
 ### File Hub {: #file_hub}
 
-*Ab Release 19 · globaler Dateibrowser*
+*Globaler Dateibrowser*
 
 Zentraler Einstiegspunkt im persönlichen Menü, der alle Ordner auflistet, auf die Sie berechtigt sind: Kurs-, Gruppen-, Archiv- und persönliche Ordner, Ressourcenordner und Dokumentenpool.
 
-- **Öffnen:** Persönliches Menü; ausserdem Kurs → Administration → `Dateien`.
+- **Öffnen:** `Persönliches Menü > File Hub`; ausserdem `Kurs > Administration > Dateien`.
 - **Merkmal:** Dateien werden beim Übernehmen **kopiert** (anders als das verlinkende Media Center).
 - **Sichtbarkeit:** Nur berechtigte Ordner; die Berechtigung wird jeweils in der Quelle vergeben.
 - **Komfort:** Multi-File-Upload per Drag & Drop.
@@ -116,7 +116,7 @@ Bindet OpenOlat-Ordner als Netzlaufwerk auf dem eigenen Rechner ein. Dies ist id
 - **Ordner:** `coursefolders`, `groupfolders`, `home`, `sharedfolders`.
 - **Zugang:** WebDAV-Link + Benutzername/E-Mail + (WebDAV-)Passwort.
 - **WebDAV-fähig:** Persönliche Dateien, Gruppen-, Ablage-, Baustein-„Ordner", Ressourcenordner.
-- **Grenzen:** von OpenOlat-Administrator:innen eingestellte Quota; Dateinamen max. 100 Zeichen Länge; Umlaute in Ordnernamen sind meiden; > 50 MB sind unter Windows heikel.
+- **Grenzen:** von OpenOlat-Administrator:innen eingestellte Quota; Dateinamen max. 100 Zeichen Länge; Umlaute in Ordnernamen sind zu meiden; > 50 MB sind unter Windows heikel.
 
 [zum Seitenanfang ^](#folders)
 
@@ -125,18 +125,18 @@ Bindet OpenOlat-Ordner als Netzlaufwerk auf dem eigenen Rechner ein. Dies ist id
 
 ## Bedienungsweisen, die in allen Ordnern gleich sind
 
-Seit Release 19 nutzen alle Ordner dieselbe überarbeitete Komponente. Diese Funktionen finden Sie im Ablageordner, in Kurs- und Gruppenordnern, im Kursarchiv, in Bibliothek, Projekt und weiteren Bereichen.
+Alle Ordner nutzen dieselbe Komponente. Diese Funktionen finden Sie im Ablageordner, in Kurs- und Gruppenordnern, im Kursarchiv, in Bibliothek, Projekt und weiteren Bereichen.
 
-- **Zwei Ansichten** — Hierarchisch mit Ordnern oder nur Dateien; zusätzlich Kachel- und Tabellenansicht mit wählbaren Spalten. Der Krümelpfad zeigt die aktuelle Ebene.
-- **Suche** — Nach Dateiname, Beschreibung und Ersteller:in im aktuellen Ordner samt Unterordnern (keine Volltextsuche in Dateien).
-- **Dateistatus** — „Wird bearbeitet", „gesperrt" (über Metadaten) und ein „Neu"-Label direkt nach dem Upload.
-- **Aktionen** — Im 3-Punkte-Menü: verschieben, kopieren, herunterladen, zippen und löschen je Datei.
-- **Drag & Drop + Multi-Upload** — Mehrere Dateien gleichzeitig per Maus auf das Zielfeld ziehen.
-- **Massen-Aktionen** — Über Checkboxen mehrere Einträge auswählen und gemeinsam bearbeiten.
-- **Erstellen im Ordner** — Dokumente (OnlyOffice: Word/Excel/PowerPoint, Diagramme, Whiteboard, HTML …), Unterordner, Video- und Audioaufnahmen.
-- **Metadaten & Lizenzen** — Beschreibung, Sperre, Lizenzangaben (z. B. Creative Commons), Aufrufzähler und Direktlink je Datei.
-- **Papierkorb** — Gelöschtes wandert in den Papierkorb; die automatische Löschfrist setzen Administrator:innen.
-- **Quota / Speicherlimit** — Begrenzung pro Datei und pro Ordner (Admin). Gilt auch bei WebDAV-Upload.
+- **Zwei Ansichten:** Hierarchisch mit Ordnern oder nur Dateien; zusätzlich Kachel- und Tabellenansicht mit wählbaren Spalten. Der Krümelpfad zeigt die aktuelle Ebene.
+- **Suche:** Nach Dateiname, Beschreibung und Ersteller:in im aktuellen Ordner samt Unterordnern (keine Volltextsuche in Dateien).
+- **Dateistatus:** „Wird bearbeitet", „gesperrt" (über Metadaten) und ein „Neu"-Label direkt nach dem Upload.
+- **Aktionen:** Im 3-Punkte-Menü: verschieben, kopieren, herunterladen, zippen und löschen je Datei.
+- **Drag & Drop + Multi-Upload:** Mehrere Dateien gleichzeitig per Maus auf das Zielfeld ziehen.
+- **Massen-Aktionen:** Über Checkboxen mehrere Einträge auswählen und gemeinsam bearbeiten.
+- **Erstellen im Ordner:** Dokumente (OnlyOffice: Word/Excel/PowerPoint, Diagramme, Whiteboard, HTML …), Unterordner, Video- und Audioaufnahmen.
+- **Metadaten & Lizenzen:** Beschreibung, Sperre, Lizenzangaben (z. B. Creative Commons), Aufrufzähler und Direktlink je Datei.
+- **Papierkorb:** Gelöschtes wandert in den Papierkorb; die automatische Löschfrist setzen Administrator:innen.
+- **Quota / Speicherlimit:** Begrenzung pro Datei und pro Ordner (Admin). Gilt auch bei WebDAV-Upload.
 
 [zum Seitenanfang ^](#folders)
 
@@ -145,12 +145,11 @@ Seit Release 19 nutzen alle Ordner dieselbe überarbeitete Komponente. Diese Fun
 
 ## Speicherplatz (Quota) {: #quota}
 
-Jeder Upload-Bereich unterliegt einer Quota (pro Datei und gesamt). 
-- **Quota / Speicherlimit** — Begrenzung pro Datei und pro Ordner (Admin). Gilt auch bei WebDAV-Upload.
+Jeder Ordner, in den Dateien hochgeladen werden, unterliegt einer Quota (pro Datei und pro Ordner, durch Administrator:innen festgelegt). Sie gilt auch bei WebDAV-Upload.
 
 Der **Papierkorbinhalt** zählt ebenfalls zur Quota. Fehlt einmal Speicherplatz, löschen Sie bitte zuerst den Papierkorb.
 
-Eine **Anpassung des verfügbaren Speicherplatzes** kann durch Administrator:innen vorgenommen werden. Die Quota kann sowohl für bestimmte Rollen (z.B. alle Autor:innen bekommen mehr Speicherplatz) als auch für Einzelpersonen eingestellt werden (z.B. eine bestimmte Person muss viele Videos speichern).  
+Eine **Anpassung des verfügbaren Speicherplatzes** kann durch Administrator:innen vorgenommen werden. Die Quota kann sowohl für bestimmte Rollen (z.B. alle Autor:innen bekommen mehr Speicherplatz) als auch für Einzelpersonen eingestellt werden (z.B. eine bestimmte Person muss viele Videos speichern).
 
 Nutzen Sie **Ressourcenordner** für mehrfach verwendete Dateien, statt sie in jeden Kurs zu kopieren. Das spart Speicherplatz und hält Inhalte konsistent.
 
@@ -158,8 +157,6 @@ Nutzen Sie **Ressourcenordner** für mehrfach verwendete Dateien, statt sie in j
 
 ---
 
-
-## Die Ordnertypen im Detail
 
 ## Welche Ordner gibt es?
 
@@ -173,7 +170,7 @@ Der klassische Weg, um Material zum Download bereitzustellen (Folien, Skripte). 
 
 - **Ablageort:** Tab „Ordnerkonfiguration": automatisch generierter Ordner unter `_courseelementdata` oder ein Ordner aus dem Ablage- bzw. Ressourcenordner.
 - **Rechte:** Standard: Besitzer + Betreuende dürfen hochladen; erweiterbar auf Gruppen oder einzelne Personen.
-- **Sichtbar:** Inhalte für alle Kursteilnehmenden.
+- **Sichtbar:** Inhalte für alle Teilnehmenden.
 - **Extras:** Dokumente erstellen, Metadaten/Lizenzen, Abonnement, WebDAV-Link im 3-Punkte-Menü.
 
 Mehr zum [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md)
@@ -183,9 +180,9 @@ Mehr zum [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Elem
 
 *Kurs · Kommunikation & Kollaboration*
 
-Dateiaustausch 1:1 zwischen Teilnehmenden und Betreuenden über zwei Unterordner — einen Abgabe- und einen Rückgabeordner. Jede:r sieht nur den eigenen Ordner. Bewertbar.
+Dateiaustausch 1:1 zwischen Teilnehmenden und Betreuenden über zwei Unterordner: einen Abgabe- und einen Rückgabeordner. Jede:r sieht nur den eigenen Ordner. Bewertbar.
 
-- **Einrichten:** Kurseditor → Tab „Ordner Einstellungen".
+- **Einrichten:** Im Kurseditor, Tab „Ordner Einstellungen".
 - **Optionen:** Löschen/Überschreiben sperren, Abgabezeitfenster, maximale Dokumentanzahl.
 - **Struktur:** Tab „Template Einstellungen": einheitliche Unterordner für alle Teilnehmenden.
 - **Achtung:** Template-Unterordner lassen sich später nicht umbenennen (nur löschen/neu anlegen).
@@ -197,9 +194,9 @@ Mehr zum [Kursbaustein Teilnehmer:innen Ordner >](../../manual_user/learningreso
 
 *Kurs · Aufgaben-Workflow*
 
-Innerhalb der Bausteine „Aufgabe" und „Gruppenaufgabe" stehen mehrere Ordner für den Workflow bereit: Aufgabenstellung, abgegebene, zurückgegebene und überarbeitete Dokumente sowie Musterlösung — nur im Baustein zugänglich.
+Innerhalb der Bausteine „Aufgabe" und „Gruppenaufgabe" stehen mehrere Ordner für den Workflow bereit: Aufgabenstellung, abgegebene, zurückgegebene und überarbeitete Dokumente sowie Musterlösung. Sie sind nur im Baustein zugänglich.
 
-- **Einrichten:** Kurseditor → Baustein „Aufgabe" / „Gruppenaufgabe".
+- **Einrichten:** Im Kurseditor, Baustein „Aufgabe" / „Gruppenaufgabe".
 - **Wann:** Für komplexere Abgabe-Prozesse als beim Teilnehmer:innen-Ordner.
 
 Mehr zum [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
@@ -210,11 +207,11 @@ Mehr zum [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Cou
 
 *Kurs · nur intern*
 
-Ein Ordner ausschliesslich für Betreuende und Besitzende — z. B. für interne Unterlagen, die Teilnehmenden nicht zugänglich sein sollen.
+Ein Ordner ausschliesslich für Betreuende und Besitzende, z. B. für interne Unterlagen, die Teilnehmenden nicht zugänglich sein sollen.
 
-- **Einrichten:** Einstellungen → Optionen → „Einstellungen Betreuer:innen".
+- **Einrichten:** `Kurs > Administration > Einstellungen > Optionen`, Abschnitt „Einstellungen Betreuer:innen".
 - **Quelle:** Bestehender Unterordner aus dem Ablageordner oder neu `_coachdocuments`.
-- **Öffnen:** Administration → „Unterlagen Betreuer:innen" oder über den File Hub.
+- **Öffnen:** `Kurs > Administration > Unterlagen Betreuer:innen` oder über den File Hub.
 
 Mehr zum [Betreuer:innen Ordner >](../../manual_user/learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)
 
@@ -225,10 +222,10 @@ Mehr zum [Betreuer:innen Ordner >](../../manual_user/learningresources/Course_Se
 
 Die zentrale Hintergrund-Ablage eines Kurses: hier liegen physisch alle im Kurs verwendeten Dateien (HTML-Seiten, Grafiken, Materialien der Ordner-Bausteine). Teilnehmende greifen nur indirekt über publizierte Bausteine darauf zu.
 
-- **Öffnen:** Administration → `Dateien` (früher „Ablageordner")
+- **Öffnen:** `Kurs > Administration > Dateien`
 - **Auto-Ordner:** `_courseelementdata`, `_sharedfolder`, `_documents`, `_coachdocuments`
 - **Struktur:** Unterordner frei anlegbar; sinnvoll strukturieren.
-- **Achtung:** Quota pro Datei und gesamt — gilt auch bei Upload via WebDAV.
+- **Achtung:** Quota pro Datei und gesamt, gilt auch bei Upload via WebDAV.
 
 Mehr zum [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)
 
@@ -236,11 +233,11 @@ Mehr zum [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.
 
 *Kursübergreifend · Lernressource*
 
-Der einzige Ordnertyp, der über mehrere Kurse hinweg dieselben Dateien liefert. Zentral einmal pflegen — Änderungen wirken in allen verknüpften Kursen.
+Der einzige Ordnertyp, der über mehrere Kurse hinweg dieselben Dateien liefert. Zentral einmal pflegen: Änderungen wirken in allen verknüpften Kursen.
 
 - **Erstellen:** Im Autorenbereich als eigene Lernressource (mit eigenen Besitzer:innen).
-- **Einbinden:** Kurs → Einstellungen → Optionen; max. 1 pro Kurs; erscheint als `_sharedfolder`.
-- **Modus:** Schreibgeschützt (nur referenziert) oder ohne Schreibschutz — dann schlagen Änderungen in allen Kursen durch.
+- **Einbinden:** `Kurs > Administration > Einstellungen > Optionen`; max. 1 pro Kurs; erscheint als `_sharedfolder`.
+- **Modus:** Schreibgeschützt (nur referenziert) oder ohne Schreibschutz. Ohne Schreibschutz schlagen Änderungen in allen Kursen durch.
 - **Standalone:** Über den Tab „Freigabe" auch kursunabhängig nutzbar.
 
 Mehr zum [Ressourcenordner >](../../manual_user/learningresources/Resource_Folder.de.md)
@@ -263,10 +260,10 @@ Mehr zum [Gruppenordner >](../../manual_user/groups/Using_Group_Tools.de.md)
 
 *Persönlich · pro Person*
 
-Die individuelle Dateiablage jeder Person, unabhängig von Kursen. Unterteilt in einen privaten und einen öffentlichen Bereich (letzterer über die Visitenkarte einsehbar).
+Die individuelle Dateiablage jeder Person, unabhängig von Kursen. Unterteilt in einen privaten und einen öffentlichen Unterordner (letzterer über die Visitenkarte einsehbar).
 
-- **Öffnen:** Persönliches Menü → File Hub.
-- **Bereiche:** `private` (nur ich) · `public` (via Visitenkarte lesbar).
+- **Öffnen:** `Persönliches Menü > File Hub`
+- **Unterordner:** `private` (nur ich) · `public` (via Visitenkarte lesbar).
 
 Den persönlichen Ordner finden Sie im [persönlichen Menü >](../../manual_user/personal_menu/index.de.md) im [File Hub >](../../manual_user/personal_menu/File_Hub.de.md).
 
@@ -276,7 +273,7 @@ Den persönlichen Ordner finden Sie im [persönlichen Menü >](../../manual_user
 
 Keine reine Dateiablage, sondern eine Dokumentenverwaltung: Dokumente werden mit Taxonomie/Metadaten versehen, der Zugriff kann an Kompetenzen gebunden werden. Dokumente lassen sich nicht direkt in einen Kurs einbinden.
 
-- **Sichtbar:** Im File Hub als Ordner; optional als Site in der Hauptnavigation.
+- **Sichtbar:** Im File Hub als Ordner; optional als [Bereich](../../manual_user/area_modules/index.de.md) in der Hauptnavigation.
 - **Zugriff:** Kompetenz-/rechtegesteuert; WebDAV möglich.
 
 Mehr zum [Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)
@@ -288,7 +285,7 @@ Mehr zum [Dokumentenpool >](../../manual_admin/administration/Modules_Document_p
 
 Beim Archivieren eines ganzen Kurses oder einzelner Bausteine landen die Daten als ZIP im Ordner „Kursarchiv". Inhalte lassen sich im File Hub anzeigen.
 
-- **Öffnen:** File Hub → „Kursarchiv".
+- **Öffnen:** `File Hub > Kursarchiv`
 - **Inhalt:** Teilnehmerdaten separat vom Kurs, als ZIP aufbewahrt.
 
 Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.de.md#wo-finde-ich-kursarchiv-dateien)
@@ -324,7 +321,7 @@ Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.de.
 
 * Werden im Kursmenü unterhalb eines Ordner-Kursbausteins weitere Ordner-Kursbausteine eingefügt, werden diese Unterordner nicht innerhalb des übergeordneten Ordners angezeigt. Das liegt daran, dass die separaten Ordner-Kursbausteine untereinander nicht kommunizieren.
 
-* Auf Unterordner innerhalb eines Ordner_Kursbausteins besteht kein WebDAV-Zugriff. 
+* Auf Unterordner innerhalb eines Ordner-Kursbausteins besteht kein WebDAV-Zugriff.
 
 * Auch der Papierkorbinhalt zählt zur Quota.
 
@@ -336,7 +333,7 @@ Mehr zum [Kursarchiv >](../../manual_user/learningresources/Course_Archiving.de.
 
 ## Dateien einfügen {: #insert_files}
 
-Sind die gewünschten Ordner vorhanden, können Sie dort 
+Sind die gewünschten Ordner vorhanden, können Sie dort:
 
 - Dokumente hochladen
 - Dokumente direkt im Ordner erstellen
@@ -344,9 +341,9 @@ Sind die gewünschten Ordner vorhanden, können Sie dort
 
 Welche Personen (OpenOlat-Rollen) in welchem Ordner Dokumente hochladen oder erstellen dürfen, hängt von den jeweiligen Konfigurationen (vergebenen Berechtigungen) durch Autor:innen oder Administrator:innen ab.
 
-Welche Dokument-Formate direkt erstellt werden können, hängt davon ab, welche Tools installiert sind. Z.B. ob Lizenzen für Microsoft Word und Excel für die Nutzung in OpenOlat vorhanden sind. Wenden Sie sich gegebenenfalls an Ihr Administrator:innen.
+Welche Dokument-Formate direkt erstellt werden können, hängt davon ab, welche Tools installiert sind. Z.B. ob Lizenzen für Microsoft Word und Excel für die Nutzung in OpenOlat vorhanden sind. Wenden Sie sich gegebenenfalls an Ihre Administrator:innen.
 
-Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspeicher eines Ordner durch Quotas festgelegt sind.
+Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspeicher eines Ordners durch Quotas festgelegt sind.
 
 [zum Seitenanfang ^](#folders)
 
@@ -355,18 +352,27 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Ordnerkonzept >](../../manual_user/basic_concepts/Folder_Concept.de.md)<br>
-[Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
-[Kursbaustein Teilnehmer:innen Ordner >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
-[Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
-[Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
-[Betreuer:innen Ordner >](../../manual_user/learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)<br>
+[Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
+[Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
+[Kurseinstellungen - Tab Optionen >](../../manual_user/learningresources/Course_Settings_Options.de.md)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
 [Ressourcenordner >](../../manual_user/learningresources/Resource_Folder.de.md)<br>
-[Gruppenordner >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
-[Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Kursarchiv >](../../manual_user/learningresources/Course_Archiving.md#wo-finde-ich-kursarchiv-dateien)<br>
-[File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
+[Persönliches Menü >](../../manual_user/personal_menu/index.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
+[Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
+[Modul Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)
+
+**Weiterführend**<br>
+[Konzept des File Hub >](../../manual_user/basic_concepts/File_Hub_Concept.de.md)<br>
+[Einsatz von WebDAV >](../../manual_user/basic_concepts/Using_WebDAV.de.md)<br>
+[Wie kann ich mittels WebDAV Dateien übertragen? >](../webdav/webdav.de.md)
 
 [zum Seitenanfang ^](#folders)
 
