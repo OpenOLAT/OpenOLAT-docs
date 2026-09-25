@@ -35,6 +35,8 @@ If you switch on "Subscribe" in this pop-up window, you automatically receive al
 
 ![Bell icon in the course element Forum opens the pop-up Subscriptions with the toggle Subscribe, the periods Last 7 days, Last 4 weeks and Last 6 months, and the latest message](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" }
 
+For a **portfolio binder**, the bell icon is not in a course element but in the binder itself: open the binder, switch to the "History" tab and click the bell icon at the top right next to the heading. In the pop-up window, switch on "Subscribe". For more information, see [My portfolio binders](../area_modules/My_portfolio_binders.md).
+
 [To the top of the page ^](#subscriptions)
 
 ---
@@ -123,6 +125,7 @@ We recommend the following search terms: _RSS reader_, _RSS newsreader_, _feedre
 
 ## Further information {: #further_information}
 
+[My portfolio binders](../area_modules/My_portfolio_binders.md)<br>
 [Wikipedia article on RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
 [Course element "Notifications"](../learningresources/Course_Element_Notifications.md)<br>
 [Landing pages: set up subscriptions on the landing page (administration)](../../manual_admin/administration/Landing_pages.md)

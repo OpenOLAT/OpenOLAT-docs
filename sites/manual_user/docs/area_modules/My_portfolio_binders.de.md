@@ -55,8 +55,10 @@ Neben der Möglichkeit, eine leere Mappe wie unter a) zu erstellen, gibt es noch
 
 Eine geöffnete Mappe führt die Tabs "Überblick", "Einträge", "Änderungsprotokoll" und "Freigabe".
 
-* Im **Änderungsprotokoll** sind alle Änderungen in chronologischer Reihenfolge aufgelistet, die neueste zuoberst.
+* Im **Änderungsprotokoll** sind alle Änderungen in chronologischer Reihenfolge aufgelistet, die neueste zuoberst. Über das Glockensymbol rechts oben neben der Überschrift lassen Sie sich über diese Änderungen informieren, statt den Tab selbst zu prüfen: Klicken Sie darauf und schalten Sie im Popup-Fenster "Abonnieren" ein. Gemeldet werden neue Kommentare zu Einträgen mit dem Namen der schreibenden Person sowie neue und geänderte Einträge, Bereiche und Einschätzungen, jeweils nur zu Inhalten, die Sie in der Mappe sehen dürfen. Die Meldungen sammeln sich unter [Abonnements](../personal_menu/Subscriptions.de.md) im persönlichen Menü und gehen je nach Ihrer Einstellung zusätzlich per E-Mail.
 * Unter **Freigabe** geben Sie Bereiche und Einträge frei. Mehr dazu unter [Sammeln und Bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+
+![Glockensymbol rechts oben öffnet das Popup-Fenster mit dem Schalter Abonnieren, im Tab Änderungsprotokoll einer Mappe](assets/my_portfolio_binders_history_subscribe_v1_de.png){ class="shadow lightbox" }
 
 Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 
@@ -69,12 +71,19 @@ Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Der Portfolio Editor >](The_portfolio_editor_17_1.de.md)<br>
 [Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
 [Mehrfachverwendung von Einträgen >](Multiple_use_of_entries.de.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.de.md)<br>
+[Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)<br>
 [Portfolioaufgabe: abholen und bearbeiten >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)
+
+**Weiterführend**<br>
+[Meine Einträge >](My_entries.de.md)<br>
+[An mich freigegeben >](Shared_with_me.de.md)<br>
+[Von mir freigegeben >](Shared_by_me.de.md)
 
 [Zum Seitenanfang ^](#my_portfolio_binders)

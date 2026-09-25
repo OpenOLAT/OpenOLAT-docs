@@ -35,6 +35,8 @@ Schalten Sie in diesem Popup-Fenster "Abonnieren" ein, erhalten Sie alle Mitteil
 
 ![Glockensymbol im Kursbaustein Forum öffnet das Popup Abonnements mit dem Schalter Abonnieren, den Zeiträumen Letzte 7 Tage, Letzte 4 Wochen und Letzte 6 Monate sowie der letzten Nachricht](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" }
 
+Bei einer **Portfoliomappe** steht das Glockensymbol nicht in einem Kursbaustein, sondern in der Mappe selbst: Öffnen Sie die Mappe, wechseln Sie in den Tab "Änderungsprotokoll" und klicken Sie rechts oben neben der Überschrift auf das Glockensymbol. Im Popup-Fenster schalten Sie "Abonnieren" ein. Mehr dazu unter [Meine Portfolio Mappen](../area_modules/My_portfolio_binders.de.md).
+
 [Zum Seitenanfang ^](#subscriptions)
 
 ---
@@ -123,6 +125,7 @@ Wir empfehlen folgende Suchbegriffe: _RSS reader_, _RSS newsreader_, _feedreader
 
 ## Weiterführende Informationen {: #further_information}
 
+[Meine Portfolio Mappen](../area_modules/My_portfolio_binders.de.md)<br>
 [Wikipedia-Artikel zu RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
 [Kursbaustein "Mitteilungen"](../learningresources/Course_Element_Notifications.de.md)<br>
 [Startseite: Abonnements auf der Startseite einrichten (Administration)](../../manual_admin/administration/Landing_pages.de.md)

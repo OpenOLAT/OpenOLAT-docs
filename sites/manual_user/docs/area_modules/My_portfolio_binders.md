@@ -55,8 +55,10 @@ In addition to creating an empty binder as described under a), there are the fol
 
 An opened binder shows the tabs "Overview", "Entries", "History" and "Access control".
 
-* In the **History**, all changes are listed in chronological order, with the most recent at the top.
+* In the **History**, all changes are listed in chronological order, with the most recent at the top. The bell icon at the top right next to the heading lets you be informed about these changes instead of checking the tab yourself: click it and switch on "Subscribe" in the pop-up window. You are notified of new comments on entries with the name of the person who wrote them, as well as new and changed entries, sections and evaluations, in each case only for content you are allowed to see in the binder. The notifications are collected under [Subscriptions](../personal_menu/Subscriptions.md) in the personal menu and, depending on your settings, are also sent by e-mail.
 * Under **Access control**, you share sections and entries. For more information, see [Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md).
+
+![Bell icon at the top right opens the pop-up window with the toggle Subscribe, in the History tab of a binder](assets/my_portfolio_binders_history_subscribe_v1_en.png){ class="shadow lightbox" }
 
 Two further tabs appear depending on the binder and your rights:
 
@@ -69,12 +71,19 @@ Two further tabs appear depending on the binder and your rights:
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [The Portfolio Editor >](The_portfolio_editor_17_1.md)<br>
 [Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
 [Multiple use of entries >](Multiple_use_of_entries.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.md)<br>
+[Personal tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
 [Portfolio task and assignment: Collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
+
+**Further reading**<br>
+[My entries >](My_entries.md)<br>
+[Shared with me >](Shared_with_me.md)<br>
+[Shared by me >](Shared_by_me.md)
 
 [To the top of the page ^](#my_portfolio_binders)
