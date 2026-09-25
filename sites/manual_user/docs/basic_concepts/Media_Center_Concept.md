@@ -125,7 +125,7 @@ A page will then appear where you can enter the metadata as usual and save every
 
 When you add a media file to the Media Center, you can share it with other people (co-users).
 
-Users view:<br>
+The view that users see:<br>
 ![Highlighted area Share in the dialog Add media file with the button Add share and the share targets User, Group, Course and Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#media_center_concept)
@@ -167,13 +167,22 @@ Administrators and learning resource managers find the retained media items with
 ---
 
 
-## Quota [:octicons-tag-16:{ title="from Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
+## Storage space -> Quota [:octicons-tag-16:{ title="from Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024){:target="_blank"} {: #quota}
 
-The storage space available in the Media Center can be limited by the OpenOlat administrators. You can see exactly how much storage space you have available and how much you have already used at the bottom left.
+The storage space in the Media Center is limited. You can see exactly how much storage space you have available and how much you have already used at the bottom left. This lets you know before uploading how much space remains for new media. The indicator only appears in the segment "My Media Center", it is missing in the media management, see [Manage Media Center](#media_center_administration).
 
-![Highlighted storage indicator 0 B of 304.8 MB used at the bottom left of My Media Center, above it the segments My Media Center and Media management](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left, in the segment My Media Center next to the segment Media management](assets/media_center_quota_v2_en.png){ class="shadow lightbox" }
 
-Authors usually require more storage space, so quota settings are configured separately for these power users. If you have any questions about storage requirements, please contact your administrators or user managers.
+Authors usually require more storage space, so quota settings are configured separately for these power users. Besides authors, learning resource managers and administrators also count as power users.
+
+System administrators define the default value in the system administration, under:<br>
+`Administration > Core functions > Files and folders`, tab "Quotas"
+
+The same value also applies to the personal files. There is no separate default value for the Media Center only, see [Files and Folders](../../manual_admin/administration/Files_and_Folders.md#files_and_folders_quotas).
+
+If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person, in the "Quota" tab of their account in the user management, see [Configure user](../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
+
+![Two ways to more space in the Media Center, for one person or for everyone in a role, with location and effect](assets/media_center_quota_ways_v1_en.svg){ class="shadow lightbox" title="More storage space in the Media Center" }
 
 !!! note "Note"
 
@@ -229,14 +238,19 @@ You cannot add media items in the media management, the "Add media file" button 
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
-[Creating Portfolios >](../area_modules/Portfolio.md)<br>
+[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
+[Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
+[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Creating Portfolios >](../area_modules/Portfolio.md)
+
+**Further reading**<br>
 [Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 [Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
-[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)
 
 [To the top of the page ^](#media_center_concept)

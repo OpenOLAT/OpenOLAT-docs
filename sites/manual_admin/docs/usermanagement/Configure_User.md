@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![Header area with status, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments: page Manage account settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Header area with status, identity, organisation, account type and username, below them 25 tabs from Profile to Grading assignments: page Manage user settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -257,9 +257,15 @@ In this tab, relations between the selected user and other OpenOlat users can be
 [To the top of the page ^](#user_configuration)
 
 
-### Quota
+### Storage space -> Quota {: #quota}
 
-An individual quota can be set up here, e.g. to give a person with special tasks more upload options. For example, the quota in the Media Centre can be increased for authors who need to include a particularly large number of videos in their courses.
+If a person needs more storage space than the system-wide default value provides, for example because as an author they include many videos in their courses, you increase their quota here without changing the value for everyone else. Administrators, user managers and roles managers can access the tab.
+
+The tab shows a table with two rows, "Personal files" and "Media Center". Each row shows "Number of files", "Size", "Quota", "Upload limit" and, under "Currently used", a bar for the occupied share of the quota. [:octicons-tag-16:{ title="from Release 18.1 (OO-7024)" }](https://track.frentix.com/issue/OO-7024)
+
+The "Edit quota" action at the end of a row opens the dialog of the same name with the fields "Path", "Quota (KB)" and "Upload limit (KB)". Below them, the dialog lists the default values under "Default quotas" and highlights the row that applies to this person. A quota set here only applies to this person and overrides the default value. If you open the dialog from the "Media Center" row of the tab, the "Path" field contains the path of the Media Center. The new quota then only enlarges the Media Center, the personal files keep their value. With "Reset to default quota", the default value applies again.
+
+Which default value applies depends on the role. Authors, learning resource managers and administrators receive the value for power users, all others the value for normal users. The same value applies to both the personal files and the Media Center. There is no separate default value for the Media Center only. The values and their meaning are described in [Files and Folders](../administration/Files_and_Folders.md#files_and_folders_quotas).
 
 [To the top of the page ^](#user_configuration)
 
@@ -315,10 +321,12 @@ Here you can check which grading assignments have been assigned to this user.
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
 [Modules: Overview >](../administration/Modules.md)<br>
 [User roles >](index.md)<br>
+[Files and Folders >](../administration/Files_and_Folders.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
 [User search >](Search_Users.md)<br>
-[Create user >](Create_User.md)
+[Create user >](Create_User.md)<br>
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)
 
 [To the top of the page ^](#user_configuration)

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 769" width="940" height="769" role="img" aria-label="Two ways to more storage space in the Media Center: for a single person in user management, for everyone in a role under Files and folders">
+<title>More storage space in the Media Center</title>
+<rect x="0" y="0" width="940" height="769" fill="#F3F4EF"/>
+<defs>
+<marker id="a_126365" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#126365"/></marker>
+<marker id="a_5F6E23" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5F6E23"/></marker>
+</defs>
+<text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#126365">More storage space in the Media Center</text>
+<text x="40" y="80" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Where you change the quota and what the change does</text>
+<rect x="40" y="104" width="880" height="54" rx="8" fill="#126365"/>
+<text x="480" y="138" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Who should get more space in the Media Center?</text>
+<path d="M 250 158 L 250 190" stroke="#126365" stroke-width="2.5" marker-end="url(#a_126365)"/>
+<path d="M 710 158 L 710 190" stroke="#5F6E23" stroke-width="2.5" marker-end="url(#a_5F6E23)"/>
+<rect x="40" y="194" width="420" height="48" rx="8" fill="#126365"/>
+<text x="250" y="225" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">For a single person</text>
+<rect x="500" y="194" width="420" height="48" rx="8" fill="#5F6E23"/>
+<text x="710" y="225" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">For everyone in a role</text>
+<rect x="40" y="258" width="420" height="142" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">WHERE</text>
+<rect x="58" y="304" width="372" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">User management &gt; "Name of the person" &gt;</text>
+<rect x="58" y="332" width="318" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Tab "Quota" &gt; Row "Media Center" &gt;</text>
+<rect x="58" y="360" width="120" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="377" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">"Edit quota"</text>
+<rect x="40" y="414" width="420" height="104" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="448" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">WHO CAN DO THIS</text>
+<text x="58" y="477" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Administrators, user managers and roles</text>
+<text x="58" y="500" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">managers</text>
+<rect x="40" y="532" width="420" height="127" rx="8" fill="#E3EFEF" stroke="#126365" stroke-width="2.5"/>
+<text x="58" y="566" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">EFFECT</text>
+<text x="58" y="595" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Only this person's Media Center grows.</text>
+<text x="58" y="618" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Their personal files and all other persons stay</text>
+<text x="58" y="641" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">unchanged.</text>
+<rect x="500" y="258" width="420" height="239" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WHERE</text>
+<rect x="518" y="304" width="309" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Administration &gt; Core functions &gt;</text>
+<rect x="518" y="332" width="300" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Files and folders &gt; Tab "Quotas"</text>
+<rect x="518" y="360" width="201" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="377" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">::DEFAULT::POWERUSERS</text>
+<text x="518" y="405" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">for authors, learning resource managers and</text>
+<text x="518" y="428" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">administrators</text>
+<rect x="518" y="434" width="156" height="24" rx="4" fill="#EDEDED"/>
+<text x="524" y="451" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">::DEFAULT::USERS</text>
+<text x="518" y="479" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">for all other persons</text>
+<rect x="500" y="511" width="420" height="81" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="545" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WHO CAN DO THIS</text>
+<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">System administrators only</text>
+<rect x="500" y="606" width="420" height="127" rx="8" fill="#EEF3DA" stroke="#5F6E23" stroke-width="2.5"/>
+<text x="518" y="640" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">EFFECT</text>
+<text x="518" y="669" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Media Center and personal files grow together.</text>
+<text x="518" y="692" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">This applies to everyone in the role. Anyone with</text>
+<text x="518" y="715" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">an individual quota keeps it.</text>
+</svg>

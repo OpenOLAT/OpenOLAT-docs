@@ -5,13 +5,16 @@ Administrators configure the Media Center in the System Administration under:<br
 
 ![Configuration page of the Media Center module with the sections Licences, Taxonomy and Shares](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
 
+This module does not define the storage space (quota) of the Media Center itself. You set the quota under `Administration > Core functions > Files and folders`.
+
+See also [Files and Folders](Files_and_Folders.md#files_and_folders_quotas).<br>
 [To the top of the page ^](#module_media_center)
 
 ---
 
 ## Licences {: #licences}
 
-If the use of licences for the Media Center is specified under **Core Configuration > Licences**, this checkbox can then be used to make the licence information a mandatory field for all media uploaded or created in the Media Center.
+If the use of licences for the Media Center is specified under `Administration > Core functions > Licenses`, this checkbox can then be used to make the licence information a mandatory field for all media uploaded or created in the Media Center.
 
 [More on the usage of licences >](Licenses.md)<br>
 [To the top of the page ^](#module_media_center)
@@ -50,8 +53,11 @@ If contents are deposited in the media center, they can be shared for others to 
 
 ## Further information {: #further_information}
 
+[Files and Folders >](Files_and_Folders.md)<br>
+[Licenses >](Licenses.md)<br>
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Media Center concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
-[Media Center in the personal menu >](../../manual_user/personal_menu/Media_Center.md)<br>
+[Media Center in the personal menu >](../../manual_user/personal_menu/Media_Center.md)
 
 [To the top of the page ^](#module_media_center)
 
