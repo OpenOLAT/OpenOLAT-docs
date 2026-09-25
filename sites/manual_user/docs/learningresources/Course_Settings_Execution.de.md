@@ -34,7 +34,7 @@ In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt
 
 !!! note "Hinweis"
 
-    Beim Einsatz des automatischen Lebenszyklus wird der Kursstatus durch das Enddatum gesteuert.
+    Beim Einsatz des Kurs-Lebenszyklus wird der Kursstatus durch das Enddatum gesteuert.
 
 
 #### Zeitabschnitt {: #lifecycle }

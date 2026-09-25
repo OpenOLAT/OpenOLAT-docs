@@ -223,7 +223,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 [Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
-[Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Konto konfigurieren >](Configure_User.de.md)
 
 **Weiterführend**<br>

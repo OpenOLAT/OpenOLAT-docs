@@ -83,9 +83,7 @@ Ist der Kurs abgelaufen, sollten Sie den Status auf "Beendet" setzen.
 
 ### 7. Kurs löschen {: #stage7}
 
-Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kurse können im Autorenbereich über die Filteroption
-im Lebenszyklus ein- oder ausgeblendet oder gezielt über den Tab "Gelöscht"
-angezeigt werden.
+Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kurse stehen im Autorenbereich im Tab "Gelöscht". In den übrigen Tabs blendet der Filter "Status" mit der Option "Papierkorb" sie ein oder aus.
 
 ![Filter Lebenszyklus mit den Optionen Aktiv, Beendet und Gelöscht im Tab Meine Kurse des Autorenbereichs, daneben der Tab Gelöscht](assets/Autorenbereich_geloescht1.jpg){ class="shadow lightbox" }
 

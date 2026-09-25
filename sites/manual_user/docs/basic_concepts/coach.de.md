@@ -146,7 +146,7 @@ Auf folgende Funktionen haben Kursbetreuer:innen ***keinen*** Zugriff
 |Lektionen und Absenzen| Erstellung und Konfiguration  |
 |Kopieren| Kopieren des Kurses  |
 |Inhalt exportieren| Exportieren des Kurses  |
-|Lebenszyklus: beenden/löschen| Kurs in Status beendet setzen oder löschen  |
+|Status "Beendet" und Löschen| Kurs in den Status "Beendet" setzen oder löschen  |
 |Herkömmliche Kurse in Lernpfad-Kurse konvertieren|   |
 
 [Zum Seitenanfang ^](#coach)

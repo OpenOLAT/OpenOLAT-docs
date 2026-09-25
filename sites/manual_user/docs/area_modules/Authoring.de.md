@@ -40,7 +40,7 @@ Weitere Details zu den Filteroptionen und zum Tabellenkonzept finden Sie auf der
 
 !!! tip "Tipp"
 
-    Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, könnte es eventuell am Lebenszyklus liegen. Überprüfen Sie dort die Einstellungen. Vielleicht wurde hier einfach die falsche Auswahl getroffen.
+    Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, könnte es am Filter "Status" liegen. Prüfen Sie, welche Status dort ausgewählt sind. Gelöschte Lernressourcen stehen im Tab "Gelöscht".
 
 
 ### 9. Spalten konfigurieren

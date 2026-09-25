@@ -8,7 +8,7 @@ deren Daten.
 
 ## Löschen von Benutzer:innen und Benutzerdaten {: #deletion_overview}
 
-Konten löschen Benutzerverwalter:innen und Administrator:innen über die [Benutzerverwaltung](index.de.md). Systemadministrator:innen lösen Löschvorgänge über den Benutzerkonten-Lebenszyklus aus.
+Konten löschen Benutzerverwalter:innen und Administrator:innen über die [Benutzerverwaltung](index.de.md). Systemadministrator:innen lösen Löschvorgänge über den automatischen Kontolebenszyklus aus.
 
 Beim Löschen wird ein Konto nicht aus der Datenbank entfernt, sondern anonymisiert. Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Bei Personen mit einer administrativen Rolle bleiben Vorname und Nachname erhalten, damit ihre Aktionen nachvollziehbar bleiben. Welche Rollen das sind, listet die Seite [Benutzer:in löschen](Delete_User.de.md#name_retention) auf.
 
@@ -19,14 +19,14 @@ Welche Daten dabei gelöscht, anonymisiert oder erhalten werden, zeigt die Tabel
 ---
 
 
-## Benutzerkonten-Lebenszyklus {: #account_lifecycle}
+## Automatischer Kontolebenszyklus [:octicons-tag-16:{ title="ab Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #account_lifecycle}
 
-Der Benutzerkonten-Lebenszyklus ist das Instrument für die fristgerechte Löschung. Er läuft in drei Schritten: Kontoablauf, Deaktivierung und Löschung. Die Fristen und die Benachrichtigungen zu jedem Schritt legt die System-Administration fest:<br>
+Der automatische Kontolebenszyklus ist das Instrument für die fristgerechte Löschung. Er läuft in zwei Schritten: Deaktivierung und Löschung. Auslöser ist die letzte Anmeldung. Unabhängig davon deaktiviert der Kontoablauf ein Konto an seinem hinterlegten Ablaufdatum. Die Fristen und die Benachrichtigungen zu jedem Schritt legt die System-Administration fest:<br>
 `Administration > Lebenszyklen > Konto`
 
 Die Deaktivierung sperrt nur die Anmeldung. Das Konto bleibt mit allen Daten erhalten und lässt sich reaktivieren. Erst die Löschung anonymisiert das Konto und entfernt Daten. Die letzte Stufe läuft je nach Konfiguration automatisch ab oder wird ausschliesslich manuell ausgelöst.
 
-[Details zum Benutzerkonten-Lebenszyklus >](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+[Details zum automatischen Kontolebenszyklus >](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
 [Zum Seitenanfang ^](#data_protection)
 

@@ -1,13 +1,8 @@
-# Automatischer Gruppen-Lebenszyklus
+# Automatischer Gruppen-Lebenszyklus {: #group_lifecycle}
 
-Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung.
+Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung. Der Prozess gleicht dem [automatischen Kontolebenszyklus](Life_cycles_-_Administration.de.md#lifecycle_accounts) und dem [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md).
 
 ![Fünf Schritte des Gruppen-Lebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
-
-
-!!! note "Hinweis"
-
-    Der Prozess gleicht dem Lebenszyklusmanagement von Benutzerkonten und Kursen.
 
 
 
@@ -35,36 +30,6 @@ Administrator:innen können den Verlauf des Gruppen-Lebenszyklus in der System-A
 
 ![Menüpunkt Gruppen unter Lebenszyklen markiert, rechts die Statuspfeile und der erste Konfigurationsabschnitt, System-Administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
 
-Die Konfiguration umfasst 4 Abschnitte:
-
-* **1 Konfiguration automatische Methoden**<br>
-  Hier können Sie Gruppen definieren, welche bei den automatischen Methoden berücksichtigt oder explizit ausgeschlossen werden.
-
-* **2 Inaktivierung**<br>
-  Bei der Inaktivierung wird der Status der Gruppe von "Aktiv" auf "Inaktiv" gestellt und die Mitglieder können nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen können vollständig reaktiviert werden.<br>
-  **Optionen:**
-    * Anzahl der Tage, die eine Gruppe ohne Aktivität im Status "Aktiv" verbleibt, bis sie inaktiviert wird
-    * automatische oder manuelle Inaktivierung?
-    * Benachrichtigungen über bevorstehende Inaktivierung
-    * Reaktionsfrist
-    * falls Reaktivierung erfolgt, Wartezeit bis zur erneuten Inaktivierung
-    * Benachrichtigungen über erfolgte Inaktivierung
-
-* **3 Löschung**<br>
-  Beim Löschen werden alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.<br>
-  **Optionen:**
-    * automatische oder manuelle Löschung?
-    * Benachrichtigungen über bevorstehende Löschung
-    * Reaktionsfrist
-    * Anzahl der Tage, die eine Gruppe im Status "Inaktiv" verbleibt, bis sie gelöscht wird
-    * Benachrichtigungen über erfolgte Löschung
-
-* **4 Unwiderrufliche Löschung**<br>
-  Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.<br>
-  **Optionen:**
-    * Anzahl der Tage, die eine Gruppe im Status "Gelöscht" verbleibt, bis sie unwiderruflich gelöscht wird
-    * automatische oder manuelle Löschung?
-
 Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen Teil des Konfigurationsscreens (für Administrator:innen) zusammengefasst, als auch in den Pfeilen im Tab "Gruppenverwaltung", das Gruppenverwalter:innen und Administrator:innen unter der Hauptnavigation in "Gruppen" sehen.
 
 **Beispiel: Ansicht für Gruppenverwalter:innen**
@@ -77,7 +42,45 @@ Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen T
 
   *  **gelöscht:** Im Status "gelöscht" ist die Gruppe wiederherstellbar. Allerdings sind nicht alle Daten wiederherstellbar. Nach 2 Tagen wird diese Gruppe unwiderruflich gelöscht.
 
+Die Konfiguration umfasst vier Abschnitte.
 
+### Konfiguration automatische Methoden {: #automatic_methods}
+
+Hier können Sie Gruppen definieren, welche bei den automatischen Methoden berücksichtigt oder explizit ausgeschlossen werden.
+
+### Inaktivierung {: #inactivation}
+
+Bei der Inaktivierung wird der Status der Gruppe von "Aktiv" auf "Inaktiv" gestellt und die Mitglieder können nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen können vollständig reaktiviert werden.
+
+**Optionen:**
+
+* "Inaktivierung nach": Anzahl der Tage, die eine Gruppe ohne Besuch im Status "Aktiv" verbleibt, bis sie inaktiviert wird
+* "Karenzfrist Reaktivierung": Anzahl der Tage nach einer Reaktivierung, in denen der Gruppen-Lebenszyklus die Gruppe nicht erneut inaktiviert (Standardwert: 30 Tage)
+* "Methode": automatische oder manuelle Inaktivierung, jeweils mit oder ohne Reaktionsfrist
+* Benachrichtigungen über bevorstehende Inaktivierung
+* "Reaktionsfrist": Anzahl der Tage zwischen der Benachrichtigung über die bevorstehende Inaktivierung und der Inaktivierung
+* Benachrichtigungen über erfolgte Inaktivierung
+
+### Löschung {: #soft_deletion}
+
+Beim Löschen werden alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.
+
+**Optionen:**
+
+* "Methode": automatische oder manuelle Löschung, jeweils mit oder ohne Reaktionsfrist
+* Benachrichtigungen über bevorstehende Löschung
+* "Reaktionsfrist": Anzahl der Tage zwischen der Benachrichtigung über die bevorstehende Löschung und der Löschung
+* "Löschung nach": Anzahl der Tage, die eine Gruppe im Status "Inaktiv" verbleibt, bis sie gelöscht wird
+* Benachrichtigungen über erfolgte Löschung
+
+### Unwiderrufliche Löschung {: #permanent_deletion}
+
+Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.
+
+**Optionen:**
+
+* "Unwiderrufliches Löschen nach": Anzahl der Tage, die eine Gruppe im Status "Gelöscht" verbleibt, bis sie unwiderruflich gelöscht wird
+* "Methode": automatische oder manuelle Löschung
 
 ## Beispiele zum zeitlichen Verlauf eines Statuswechsels
 
@@ -111,6 +114,14 @@ Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung au
 
 ![Entscheidungsbaum der Benachrichtigung: Gruppenbetreuer:innen, sonst Besitzer:innen der Kurse, sonst niemand](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" }
 
+## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
+[Automatischer Kurs-Lebenszyklus >](Automatic_Course_Lifecycle.de.md)
 
+**Weiterführend**<br>
+[Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)<br>
+[Gruppenverwaltung >](../../manual_user/area_modules/Group_Management.de.md)
 
+[Zum Seitenanfang ^](#group_lifecycle)

@@ -1,4 +1,4 @@
-# Wie kann ich mittels WebDAV Dateien übertragen?
+# Wie kann ich mittels WebDAV Dateien übertragen? {: #webdav}
 
 ## Was ist WebDAV?
 
@@ -86,7 +86,7 @@ fähigen Ordnern
 
 ??? abstract "Linux"
 
-    Für Linux-Benutzer gibt es drei Möglichkeiten:
+    Für Linux-Benutzer:innen gibt es drei Möglichkeiten:
 
     1. KDE Plasma: im Dolphin in der Pfadleiste webdavs:// + WebDAV-Link eingeben. Es wird nach Benutzername und Kennwort gefragt. Sollte die Pfadleiste nicht angezeigt werden, so kann sie jederzeit mit der Taste F6 aktiviert werden. Beispiel: <webdavs://www.olat.uzh.ch/olat/webdav/>.
 
@@ -109,13 +109,13 @@ fähigen Ordnern
 
 Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
 
-  *  **coursefolders**: Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
+  *  **coursefolders**: Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer:innen mit Autorenrechten. Alle anderen Benutzer:innen finden hier Kursordner. 
 
     * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche keinem Semester zugeordnet sind.
 
-    * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
+    * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurs-Lebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
-    ![webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" }
+    ![Markierte Option Kurse nach Semesterdaten gruppieren, hier ausgeschaltet, Seite WebDAV Zugang unter Core Konfiguration der System-Administration](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" }
 
   *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern "private" und "public").
@@ -129,3 +129,14 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
     * Dateinamen sind auf 100 Zeichen begrenzt
     * Dateinamen dürfen nicht mehrere Leerschläge hinter einander beinhalten
     * Bei Fehlermeldungen die oben genannten Punkte "Zu beachten" durchgehen und überprüfen, ob die Quota überschritten worden ist (vor allem wenn mehrere Dateien zusammen hochgeladen wurden)
+
+## Weiterführende Informationen {: #further_information}
+
+[Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
+[Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
+[Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
+[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
+[FUSE-Website >](http://fuse.sourceforge.net)
+
+[Zum Seitenanfang ^](#webdav)

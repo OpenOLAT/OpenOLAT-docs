@@ -44,7 +44,7 @@ Für Kursbewertungen gibt es folgende Einstellungen:
   Bei aktiviertem Einstufungs-/Notenmodul weisen Sie dem Kurs auf Kursebene eine Note zu.<br> [Mehr dazu >](#evaluation_with_grades)
 
 - **Mit Erfolgsstatus**<br>
-  Hier können Sie einstellen, wann ein Kurs als bestanden gilt. Neben einer bestimmten erreichten Punktzahl können auch andere Kriterien zu einem "Bestanden" führen.<br> [Mehr dazu >](#evaluation_passed_failed)
+  Hier können Sie einstellen, wann ein Kurs als bestanden gilt. Der Erfolgsstatus ist das Ergebnis der Kursbewertung: "Bestanden", "Nicht bestanden" oder "Keine Angabe". Neben einer bestimmten erreichten Punktzahl können auch andere Kriterien zu einem "Bestanden" führen.<br> [Mehr dazu >](#evaluation_passed_failed)
 
 [Zum Seitenanfang ^](#tab_assessment)
 
@@ -101,7 +101,7 @@ Ist das Einstufungs-/Notenmodul aktiviert und wird der Kurs mit **Punkten** bewe
 
 Der Schalter lässt sich erst umlegen, wenn "Mit Punkten" eingeschaltet und "Mit Erfolgsstatus" ausgeschaltet ist. Fehlt eine der beiden Bedingungen, bleibt "Mit Einstufung/Noten" grau.
 
-Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn das **Erfolgskriterium** der Bewertungsskala erfüllt ist. "Mit Erfolgsstatus" bleibt dann ausgeschaltet und lässt sich nicht mehr ändern. Enthält die gewählte Bewertungsskala kein Erfolgskriterium, hat der Kurs auf Kursebene keinen Erfolgsstatus.
+Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den **Erfolgsstatus** des Kurses: Der Kurs gilt als bestanden, wenn das **Erfolgskriterium** der Bewertungsskala erfüllt ist. Das Erfolgskriterium ist die tiefste Note oder Leistungsklasse der Bewertungsskala, mit der eine Leistung als bestanden gilt. "Mit Erfolgsstatus" bleibt dann ausgeschaltet und lässt sich nicht mehr ändern. Enthält die gewählte Bewertungsskala kein Erfolgskriterium, hat der Kurs auf Kursebene keinen Erfolgsstatus.
 
 Die Note wird nicht automatisch vergeben: Die "Zuweisung" steht fest auf "Manuell". Kursbesitzer:innen und berechtigte Betreuer:innen weisen die berechnete Note im [Bewertungswerkzeug](Assessment_tool_overview.de.md) zu. Damit auch Betreuende ohne Besitzrecht zuweisen können, setzen Kursbesitzer:innen im [Abschnitt Berechtigungen](#section_assessment_rights) die Option "Einstufung/Noten zuweisen".
 
@@ -118,9 +118,9 @@ Die Note wird nicht automatisch vergeben: Die "Zuweisung" steht fest auf "Manuel
 Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft:
 
 * **Lernfortschritt 100%**:<br> Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
-* **Regel "Alle Kursbausteine bestanden"**:<br> Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob es sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
+* **Regel "Alle relevanten Kursbausteine bestanden"**:<br> Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob es sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
 * **Regel "Eine bestimmte Anzahl der relevanten Kursbausteine bestanden"**:<br> Hier können Sie definieren, wie viele und welche Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss allerdings im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).
-* **Punktschwelle erreicht**:<br> Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt. Ausserdem können Sie kontrollieren, von welchen Kursbausteinen die Punkte stammen müssen. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).
+* **Punkteschwelle erreicht**:<br> Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt. Ausserdem können Sie kontrollieren, von welchen Kursbausteinen die Punkte stammen müssen. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).
 
 
 ![Aktivierte Bestehenskriterien Lernfortschritt 100%, Kursbausteine bestanden mit Regel "Eine bestimmte Anzahl der relevanten Kursbausteine bestanden" und Punkteschwelle erreicht](assets/course_settings_assessment_passed_v3_de.png){ class="shadow lightbox" }

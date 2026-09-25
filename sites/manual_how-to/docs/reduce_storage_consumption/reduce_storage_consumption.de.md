@@ -188,13 +188,13 @@ Lebenszyklen richten Sie in der System-Administration ein, unter:<br>
 
 Dort gibt es je einen Eintrag für:
 
-* **Gruppen**
-* **Kurse**
-* **Konto**
+* **Gruppen**: den Gruppen-Lebenszyklus
+* **Kurse**: den Kurs-Lebenszyklus
+* **Konto**: den automatischen Kontolebenszyklus
 
-OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder eine Benutzer:in lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
+OpenOlat überwacht, ob eine Gruppe länger nicht besucht wurde, ob das Kursende eines Kurses überschritten ist oder ob sich an einem Konto lange niemand mehr angemeldet hat. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
 
-Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
+Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 ["Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?"](../lifecycle/lifecycle.de.md)
 
 ---
@@ -216,7 +216,7 @@ Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
 [Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
-["Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?" >](../lifecycle/lifecycle.de.md)
+[Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../lifecycle/lifecycle.de.md)
 
 **Weiterführend**<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>

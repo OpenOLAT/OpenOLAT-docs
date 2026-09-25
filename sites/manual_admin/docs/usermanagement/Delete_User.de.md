@@ -22,7 +22,7 @@ Die Benutzerverwaltung selbst erreichen mehrere Rollen:
 * Administrator:in
 * Systemadministrator:in
 
-Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je nach Instanz auch den Bereich "Konten löschen", löschen aber selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den Benutzerkonten-Lebenszyklus aus.
+Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je nach Instanz auch den Bereich "Konten löschen", löschen aber selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den automatischen Kontolebenszyklus aus.
 
 [Zum Seitenanfang ^](#delete_user)
 
@@ -56,7 +56,7 @@ Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und der
 ![Link Konten löschen in der Werkzeugleiste über dem Suchformular der Kontosuche](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Schritt 2:**<br>
-Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert, entsprechend den Phasen des Benutzerkonten-Lebenszyklus:
+Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert, entsprechend den Phasen des automatischen Kontolebenszyklus:
 
 **Tab "Konten ohne Aktivität":** Benutzer:innen, die seit einem konfigurierten Zeitraum nicht mehr aktiv waren. Die Inaktivitätsfrist legt die Administration fest.
 
@@ -66,9 +66,9 @@ Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert,
 
 Auf allen drei Tabs schränkt der Filter **Inaktivierung** die Liste nach Zeitraum ein, entweder auf "Kontoablauf in den nächsten" oder auf "Inaktiv seit den letzten", je in Tagen, Wochen, Monaten oder Jahren.
 
-!!! info "Konfiguration des Benutzerkonten-Lebenszyklus"
-    Der Lebenszyklus läuft in drei Phasen: **Kontoablauf**, **Deaktivierung** und **Löschung**. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
-    [Details zum Benutzerkonten-Lebenszyklus](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+!!! info "Konfiguration des automatischen Kontolebenszyklus"
+    Der automatische Kontolebenszyklus läuft in zwei Schritten: **Deaktivierung** und **Löschung**. Unabhängig davon deaktiviert der **Kontoablauf** ein Konto an seinem hinterlegten Ablaufdatum. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
+    [Details zum automatischen Kontolebenszyklus](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
 ![Drei Tabs Konten ohne Aktivität, Deaktivierte Konten und Bereit zu löschen, darunter der geöffnete Filter Inaktivierung](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
 
@@ -86,9 +86,9 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 
 ## Variante 3: Automatisches Löschen {: #delete_user_var3}
 
-Das Löschen von Benutzer:innen kann auch vollautomatisch durch einen aktivierten Benutzerkonten-Lebenszyklus erfolgen.
+Das Löschen von Benutzer:innen kann auch vollautomatisch durch einen aktivierten automatischen Kontolebenszyklus erfolgen.
 
-[Details zum Benutzerkonten-Lebenszyklus >](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)<br>
+[Details zum automatischen Kontolebenszyklus >](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md#user_account_lifecycle)
 
 [Zum Seitenanfang ^](#delete_user)
@@ -175,7 +175,7 @@ Nach dem Löschen eines Kontos zeigen die Kurslogdaten und die Bewertungen bei e
 
 Diese Personen handeln in einer institutionellen Funktion, nicht als Privatperson. Ihre Einträge in den Kurslogdaten, ihre Bewertungen und ähnliche Aktionen sollen deshalb auch nach dem Löschen lesbar und zuordenbar bleiben.
 
-Massgebend sind die Rollen, welche die Person zum Zeitpunkt der Löschung hat. Die Regel gilt für alle drei Löschwege dieser Seite, auch für die automatische Löschung durch den Benutzerkonten-Lebenszyklus. Eine Einstellung dazu gibt es nicht.
+Massgebend sind die Rollen, welche die Person zum Zeitpunkt der Löschung hat. Die Regel gilt für alle drei Löschwege dieser Seite, auch für die automatische Löschung durch den automatischen Kontolebenszyklus. Eine Einstellung dazu gibt es nicht.
 
 Vorname und Nachname bleiben erhalten, wenn die Person mindestens eine dieser Rollen hat:
 
@@ -222,7 +222,7 @@ Wer die Benutzerverwaltung erreicht, findet die gelöschten Konten mit Vorname, 
 
 Konten mit dem Status **"Aktiv und nicht löschbar"** können nicht gelöscht werden, weder manuell noch automatisch. In der Kontensuche erscheinen sie zwar und lassen sich auch markieren, beim Löschen nimmt OpenOlat sie aber aus der Auswahl heraus. Dieser Status wird typischerweise für Systemkonten wie das Administrator-Konto vergeben.
 
-Bei der **automatischen Löschung** über den Benutzerkonten-Lebenszyklus greift zusätzlich eine Sicherung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht die automatische Löschung vollständig ab.
+Bei der **automatischen Löschung** über den automatischen Kontolebenszyklus greift zusätzlich eine Sicherung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht die automatische Löschung vollständig ab.
 
 
 [Zum Seitenanfang ^](#delete_user)

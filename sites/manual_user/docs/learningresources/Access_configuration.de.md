@@ -172,7 +172,7 @@ Alle Benutzerdaten bleiben bestehen. Im Menüpunkt "Kurse" steht der Kurs nicht 
 
 Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und durchgestrichen angezeigt.
 
-Falls der Kurs wieder geöffnet werden soll, rufen Sie erneut den Lebenszyklus des Kurses auf und klicken Sie auf "Erneut öffnen".
+Falls der Kurs wieder geöffnet werden soll, wählen Sie im Kurs im Menü "Status" der Toolbar einen anderen Status, zum Beispiel "Veröffentlicht".
 
 ### Kurs löschen
 

@@ -18,26 +18,37 @@
 
     * Erfahrung als Administrator:in
 
-In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
+OpenOlat kennt vier Lebenszyklen. Drei davon richten Administrator:innen in der System-Administration unter `Administration > Lebenszyklen` ein:
 
-* **Gruppen**
-* **Kurse**
-* **Benutzerkonten**
+* **Gruppen-Lebenszyklus**
+* **Kurs-Lebenszyklus**
+* **Automatischer Kontolebenszyklus**
 
-OpenOlat überwacht, ob eine Gruppe oder ein Kurs länger nicht benutzt wurde oder sich an einem Konto lange niemand mehr angemeldet hat. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
+Der vierte, der **Durchführungs-Lebenszyklus**, gehört zum Course Planner und wird dort eingerichtet, siehe [Durchführungs-Lebenszyklus](#implementation_lifecycle).
+
+OpenOlat überwacht, ob eine Gruppe länger nicht besucht wurde, ob sich an einem Konto lange niemand mehr angemeldet hat und ob das Kursende eines Kurses überschritten ist. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
 
 
 
 ## Stufen/Phasen {: #lifecycle_stages}
 
-Erreicht ein Kurs, eine Gruppe oder ein Konto das "end of life", werden folgende Stufen/Phasen eingehalten:
+Jeder Lebenszyklus hat einen eigenen Auslöser und eigene Schritte:
+
+| Lebenszyklus | Auslöser | Schritte |
+|---|---|---|
+| Gruppen-Lebenszyklus | Tage ohne Besuch durch Gruppenbetreuer:innen oder Gruppenteilnehmer:innen | Inaktivierung, Löschung, Unwiderrufliche Löschung |
+| Kurs-Lebenszyklus | Kursende, also das Enddatum des Durchführungszeitraums | Status "Beendet", Status "Papierkorb", "Endgültig löschen" |
+| Automatischer Kontolebenszyklus | letzte Anmeldung | Deaktivierung, Löschung |
+| Durchführungs-Lebenszyklus | Durchführungszeitraum oder Statuswechsel | Statuswechsel, zum Beispiel auf "Aktiv" oder "Beendet". Gelöscht wird nichts. |
+
+Am Beispiel des Gruppen-Lebenszyklus:
 
 - **Inaktivierung**<br>
-Bei der Inaktivierung wird der Status von "Aktiv" auf "Inaktiv" gestellt und die Gruppenmitglieder können z.B. nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen, Konten oder Kurse können vollständig reaktiviert werden.
+Bei der Inaktivierung wird der Status der Gruppe von "Aktiv" auf "Inaktiv" gestellt und die Gruppenmitglieder können nur noch schreibgeschützt auf die Gruppe zugreifen. Inaktive Gruppen und inaktive Konten können vollständig reaktiviert werden.
 - **Löschung**<br>
-Beim Löschen werden z.B. alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.
-- **Endgültige Löschung**<br>
-Beim unwiderruflichen Löschen wird die Gruppe, das Konto oder der Kurs vollständig entfernt.
+Beim Löschen werden alle Mitglieder aus der Gruppe und die Verknüpfungen auf Kurse entfernt. Alle restlichen Daten bleiben erhalten und sind einsehbar. Die Gruppe kann wiederhergestellt werden.
+- **Unwiderrufliche Löschung**<br>
+Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -60,9 +71,9 @@ Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzel
 ---
 
 
-### Gruppen-Lifecycle {: #group_lifestyle}
+### Gruppen-Lebenszyklus [:octicons-tag-16:{ title="ab Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #group_lifestyle}
 
-Die Betreuung des Gruppen-Lifecycles erfolgt durch Gruppenverwalter:innen, auf Grundlage der Voreinstellungen der Administration, unter:<br>
+Die Betreuung des Gruppen-Lebenszyklus erfolgt durch Gruppenverwalter:innen, auf Grundlage der Voreinstellungen der Administration, unter:<br>
 `Gruppen > Tab "Gruppenverwaltung"`
 
 Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen der Administration wieder.
@@ -70,7 +81,7 @@ Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit
 * Im ersten Schritt (1. Pfeil) finden Sie alle aktiven Gruppen aufgelistet.
 * Im Reiter "Zu inaktivieren" des 1. Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln der Administration.
 * Selektieren Sie eine oder mehrere Gruppen, erscheinen Buttons oberhalb der Liste.
-* Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren und über die bevorstehende Deaktivierung informieren.
+* Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren oder mit "Inaktivierung starten" über die bevorstehende Inaktivierung informieren. Eine gestartete Inaktivierung nehmen Sie mit "Inaktivierung abbrechen" zurück.
 
 ![Drei Pfeile für aktive, inaktive und gelöschte Gruppen mit den eingestellten Fristen, darunter der markierte Reiter Zu inaktivieren mit den Buttons zum Inaktivieren: Tab Gruppenverwaltung](assets/lifecycle_gruppen_aktiv_v1_de.png){ class="shadow lightbox" }
 
@@ -93,9 +104,9 @@ Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit
 ---
 
 
-### Kurs-Lifecycle {: #course_lifecycle}
+### Kurs-Lebenszyklus {: #course_lifecycle}
 
-Die Nutzung des Kurs-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
+Die Nutzung des Kurs-Lebenszyklus kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
 
 Grundlage sind die Voreinstellungen der Administration:
 
@@ -116,9 +127,9 @@ Wie Administrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätig
 ---
 
 
-### Benutzerkonten-Lifecycle {: #user_account_lifecycle}
+### Automatischer Kontolebenszyklus [:octicons-tag-16:{ title="ab Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #user_account_lifecycle}
 
-Die Nutzung des Benutzerkonten-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
+Die Nutzung des automatischen Kontolebenszyklus kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
 
 Grundlage sind die Voreinstellungen der Administration:
 
@@ -142,7 +153,21 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 
     Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen stellen Sie in der System-Administration ein unter:<br>
     `Administration > Lebenszyklen > Konto`<br>
-    [Details zum Benutzerkonten-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+    [Details zum automatischen Kontolebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+
+[Zum Seitenanfang ^](#lifecycles)
+
+---
+
+
+### Durchführungs-Lebenszyklus [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092) {: #implementation_lifecycle}
+
+Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch", "Bestätigt" und "Aktiv" bis "Beendet" oder "Abgebrochen". Dieser Ablauf ist der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
+
+Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Administrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
+`Administration > Module > Course Planner > Tab Elementtypen`
+
+Jede Durchführung übernimmt die Regeln ihres Elementtyps oder überschreibt sie, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation).
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -178,23 +203,28 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 ## Checkliste {: #checklist}
 
-**Gruppen-Lifecycle**
+**Gruppen-Lebenszyklus**
 
 - [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
 - [x] durch Gruppenverwalter:innen: Einrichtung unter `Gruppen > Tab "Gruppenverwaltung"`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
-**Kurs-Lifecycle**
+**Kurs-Lebenszyklus**
 
 - [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
 - [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: unter `Autorenbereich > Tab "Gelöscht"` Kurse markieren und löschen
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
-**Benutzerkonten-Lifecycle**
+**Automatischer Kontolebenszyklus**
 
 - [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
 - [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: erkannte inaktive Konten manuell deaktivieren unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`, manuell löschen unter `Benutzerverwaltung > Konten löschen`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
+
+**Durchführungs-Lebenszyklus**
+
+- [x] durch Administrator:innen: Regeln der Automatisierung je Elementtyp in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`
+- [x] je Durchführung: Regeln des Elementtyps übernehmen oder überschreiben unter `Tab Einstellungen > Automatisierung`
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -202,11 +232,13 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 **Auf dieser Seite erwähnt**<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
-[Lebenszyklen: Administration >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
-[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)
+[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
+[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>
-[Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)<br>
-[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)
+[Automatischer Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)<br>
+[Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)

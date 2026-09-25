@@ -2,7 +2,7 @@
 
 Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und für sie weitere Konfigurationen vornehmen. 
 
-Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
+Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
 ![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge: Seite Kontoeinstellungen verwalten in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
 
@@ -21,14 +21,14 @@ Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen kei
 
 ### Profil
 
-Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die vom User eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
+Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die von der Benutzer:in eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Systemeinstellungen
 
-Hier werden die vom/von der Benutzer:in vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
+Hier werden die von der Benutzer:in vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
 Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
 
 Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Eine Anzahl verbleibender Tage steht hier nicht; die Fristen führt der Reiter "Konto". Bei inaktiven Konten blendet OpenOlat die Angabe aus. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
@@ -38,9 +38,9 @@ Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Ei
 
 ### Konto
 
-Der Reiter "Konto" zeigt den Zustand eines Kontos und den Punkt, an dem es im Lebenszyklus steht. Hier beurteilen Sie, ob und wann OpenOlat ein Konto automatisch deaktiviert oder löscht, und hier setzen Sie es manuell auf inaktiv.
+Der Reiter "Konto" zeigt den Zustand eines Kontos und den Punkt, an dem es im automatischen Kontolebenszyklus steht. Hier beurteilen Sie, ob und wann OpenOlat ein Konto automatisch deaktiviert oder löscht, und hier setzen Sie es manuell auf inaktiv.
 
-Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des automatischen Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
 
 #### Kontotyp {: #account_type }
 
@@ -76,12 +76,12 @@ Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "
 
 #### Automatischer Kontolebenszyklus {: #automatic_user_lifecycle }
 
-Dieser Abschnitt zeigt, wie der systemweite Lebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation). Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
+Dieser Abschnitt zeigt, wie der systemweite automatische Kontolebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation). Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
 
 | Zustand | Anzeige | Bedeutung |
 |---------|---------|-----------|
 | Aktiv | "Letzter Login", "Tage bis Inaktivierung" | OpenOlat deaktiviert das Konto nach dieser Frist ohne Login automatisch. |
-| Reaktiviert | zusätzlich "Reaktivierungsdatum", die Frist trägt den Zusatz "(Karenzfrist)" | Das Konto wurde nach einer Deaktivierung wieder freigeschaltet und läuft in einer Karenzfrist (Schonfrist). |
+| Reaktiviert | zusätzlich "Reaktivierungsdatum", die Frist trägt den Zusatz "(Karenzfrist)" | Das Konto wurde nach einer Deaktivierung wieder freigeschaltet und läuft in einer Karenzfrist (Schonfrist): In dieser Zeit deaktiviert OpenOlat es nicht erneut. |
 | Inaktiv | "Inaktivierungsdatum", "Tage bis Löschung" | Das Konto ist deaktiviert und wird nach dieser Frist automatisch gelöscht. |
 
 Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt fällig wird.
@@ -108,14 +108,14 @@ Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an
 
 ### Rollen
 
-In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktiviertem Modul "Organisationen" können unterschiedliche Rollen pro Organisationseinheit vergeben werden. Siehe ["Rollen zuweisen"](Assign_roles.de.md). 
+In diesem Reiter werden die Rollen der Benutzer:in definiert. Bei aktiviertem Modul "Organisationen" können unterschiedliche Rollen pro Organisationseinheit vergeben werden. Siehe ["Rollen zuweisen"](Assign_roles.de.md). 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
-Verfügt der/die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
+Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
 
 Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
 
@@ -147,22 +147,22 @@ Hier können User Properties angezeigt und als Tabelle exportiert werden.
 
 ### GUI-Einstellungen
 
-Hier können die zu dem/der Benutzer:in gespeicherten Einstellungen des GUI zurückgesetzt werden.
+Hier können die zu der Benutzer:in gespeicherten Einstellungen des GUI zurückgesetzt werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Gruppen
 
-Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann der/die Benutzer:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
+Es wird eine Übersicht über alle Gruppen angezeigt, bei denen die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann die Benutzer:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Lernressourcen [:octicons-tag-16:{ title="ab Release 9.1.0 (OO-788)" }](https://track.frentix.com/issue/OO-788)
 
-Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des/der Benutzer:in.
-Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
+Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen der Benutzer:in.
+Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
 
 Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Person. Durchführungen des Course Planners stehen dagegen im Reiter "Bildungsprodukte".
 
@@ -171,14 +171,14 @@ Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Per
 
 ### Projekte [:octicons-tag-16:{ title="ab Release 19.1.0 (OO-7417)" }](https://track.frentix.com/issue/OO-7417)
 
-Unter diesem Tab werden alle Projekte aufgelistet, in denen dieser/diese Benutzer:in Mitglied ist. 
+Unter diesem Tab werden alle Projekte aufgelistet, in denen diese Benutzer:in Mitglied ist. 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Portfolio
 
-Hier werden alle Portfolio-Mappen angezeigt, zu welchen der/die Benutzer:in eingeladen ist. (Die eigenen Mappen dieses/dieser Benutzer:in werden hier nicht gelistet.)
+Hier werden alle Portfolio-Mappen angezeigt, zu welchen die Benutzer:in eingeladen ist. (Die eigenen Mappen dieser Benutzer:in werden hier nicht gelistet.)
 
 
 [zum Seitenanfang ^](#user_configuration)
@@ -186,21 +186,21 @@ Hier werden alle Portfolio-Mappen angezeigt, zu welchen der/die Benutzer:in eing
 
 ### Buchungen
 
-Hier werden die Buchungsaufträge und Vorbestellungen des/der Benutzer:in angezeigt. 
+Hier werden die Buchungsaufträge und Vorbestellungen der Benutzer:in angezeigt. 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558)
 
-Hier sind die erworbenen Kreditpunkte des/der Benutzer:in angezeigt. 
+Hier sind die erworbenen Kreditpunkte der Benutzer:in angezeigt. 
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Leistungsnachweise
 
-Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in aus Kursen angezeigt. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+Hier werden die Leistungsnachweise, Punkte und der Fortschritt einer Benutzer:in aus Kursen angezeigt. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 Den Reiter erreichen Administrator:innen, Principals, Benutzerverwalter:innen und Rollenverwalter:innen.
 
@@ -242,14 +242,14 @@ Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test au
 
 ### Abonnements [:octicons-tag-16:{ title="ab Release 8.1.2 (OO-265)" }](https://track.frentix.com/issue/OO-265)
 
-Hier werden sämtliche Abonnements des/der Benutzer:in angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
+Hier werden sämtliche Abonnements der Benutzer:in angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Beziehungen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
-In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzter, Elternteil, Ausbildungsverantwortliche oder Schüler:in eines Lehrers/einer Lehrerin ist. Voraussetzung ist, dass in der System-Administration Rollen für Person zu Person definiert sind. Diese Rollen erteilen den verbundenen Personen die Rechte, die dort festgelegt sind. Sie finden die Rollen unter:<br>
+In diesem Reiter können Beziehungen zwischen der gewählten Benutzer:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzte:r, Elternteil, Ausbildungsverantwortliche:r oder Schüler:in einer Lehrer:in ist. Voraussetzung ist, dass in der System-Administration Rollen für Person zu Person definiert sind. Diese Rollen erteilen den verbundenen Personen die Rechte, die dort festgelegt sind. Sie finden die Rollen unter:<br>
 `Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user). (Vergl. [Benutzerrollen](index.de.md))
 
 [zum Seitenanfang ^](#user_configuration)
@@ -270,21 +270,21 @@ Welcher Standardwert gilt, hängt von der Rolle ab: Autor:innen, Lernressourcenv
 
 ### Termine
 
-Hier finden Sie eine Übersicht über die Termine und Absenzen des/der Benutzer:in.
+Hier finden Sie eine Übersicht über die Termine und Absenzen der Benutzer:in.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kompetenzen
 
-Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind kategorisiert nach "Verwalten", "Dozieren", "Haben" und "Ziel".
+Hier können der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind kategorisiert nach "Verwalten", "Dozieren", "Haben" und "Ziel".
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Hier finden Sie die Durchführungen des/der Benutzer:in. Die Liste zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+Hier finden Sie die Durchführungen der Benutzer:in. Die Liste zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
 Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ohne dieses Modul erscheint er nicht.
 
@@ -301,7 +301,7 @@ Was die einzelnen Tabs zeigen, beschreibt der Abschnitt [Die Liste filtern](../.
 
 ### Korrekturaufträge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4447)" }](https://track.frentix.com/issue/OO-4447)
 
-Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeordnet wurden.
+Hier kann abgefragt werden, welche Korrekturaufträge der Benutzer:in zugeordnet wurden.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -314,7 +314,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge dem/der Benutzer:in zugeor
 [E-Mail Einstellungen >](../administration/E-Mail_Settings.de.md)<br>
 [Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
 [Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
-[Lebenszyklen: Administration >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Module: Übersicht >](../administration/Modules.de.md)<br>
