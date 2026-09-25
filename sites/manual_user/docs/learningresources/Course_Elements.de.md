@@ -55,7 +55,7 @@ Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfra
 
 #### Rangliste {: #highscore}
 
-Alle bewertbaren Kursbausteine ausser "Übung" erhalten zusätzlich das Konfigurationstab "HighScore", ebenso der Kursbaustein "Struktur". Nutzbar ist der Tab, sobald am Baustein Punkte vergeben werden. Dort richten Sie die Rangliste ein. Sie ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
+Alle bewertbaren Kursbausteine ausser "Übung" und "Videoaufgabe" erhalten zusätzlich das Konfigurationstab "HighScore", ebenso der Kursbaustein "Struktur". Nutzbar ist der Tab, sobald am Baustein Punkte vergeben werden. Dort richten Sie die Rangliste ein. Sie ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
 
 Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem die Rangliste angezeigt wird. Ohne Angabe des Datums wird die Rangliste direkt nach Beenden des Tests angezeigt.
 

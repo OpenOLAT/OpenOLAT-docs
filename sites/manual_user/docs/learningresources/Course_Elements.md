@@ -61,7 +61,7 @@ In addition, the course elements "Survey" and "Form" are assigned to the categor
 
 #### Highscore {: #highscore}
 
-All assessable course elements except "Practice" additionally receive the configuration tab "HighScore", and so does the course element "Structure". The tab can be used as soon as points are awarded at the element. There you set up the highscore. It enables a playful comparison of the participants and can be understood as a motivational factor.
+All assessable course elements except "Practice" and "Video task" additionally receive the configuration tab "HighScore", and so does the course element "Structure". The tab can be used as soon as points are awarded at the element. There you set up the highscore. It enables a playful comparison of the participants and can be understood as a motivational factor.
 
 First, "Show Highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the highscore will be displayed immediately after the test is finished.
 

@@ -271,12 +271,11 @@ Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.
 Weitere Informationen finden Sie
 [hier](Course_Element_Checklist.de.md).
 
-### Rangliste {: #highscore}
+### Rangliste [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
 
-Alle bewertbaren Kursbausteine, mit Ausnahme des Kursbausteins Übung, sowie der Kursbaustein "Struktur" verfügen zusätzlich über den Tab "HighScore". Dort richten Sie die Rangliste ein.
+Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Rangliste anzeigen. Die Rangliste ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
 
-Die Rangliste ermöglicht einen spielerischen Vergleich der
-Teilnehmenden und kann als Motivationsfaktor verstanden werden. Voraussetzung
+Eingerichtet wird die Rangliste im Tab "HighScore". Über diesen Tab verfügen alle bewertbaren Kursbausteine mit Ausnahme der Kursbausteine Übung und Videoaufgabe, zusätzlich der Kursbaustein "Struktur". Voraussetzung
 für die Nutzung des Tabs "HighScore" ist, dass für den gewählten Baustein
 (z.B. Test, Aufgabe, Bewertung) Punkte vergeben werden.
 
@@ -293,7 +292,7 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 
 
 
-![Highscore-Rangliste mit Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmenden](assets/Highscore.png){ class="shadow lightbox" }
+![Gratulationstitel, Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmer:innen in der Rangliste eines Kursbausteins](assets/Highscore.png){ class="shadow lightbox" }
 
 ---
 

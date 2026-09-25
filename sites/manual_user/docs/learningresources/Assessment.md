@@ -192,13 +192,11 @@ Further information can be found [here](Course_Element_Checklist.md).
 
 
 
-###  Highscore  {: #highscore}
+### Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
 
-The highscore, except for the course element "practice", can be added for all assessable course elements as well as for
-structure elements.
+If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison between participants possible and can be seen as motivational factor.
 
-The highscore makes a playful comparison between test participants possible
-and can be seen as motivational factor. The prerequisite for using the
+The highscore is set up in the tab "HighScore". This tab is available in all assessable course elements except for the course elements Practice and Video task, and additionally in the course element "Structure". The prerequisite for using the
 "HighScore" tab is that points are awarded for the selected block (e.g. test,
 task, evaluation).
 
@@ -213,7 +211,7 @@ number should be shown. At least one of the above options needs to be selected.
 
 
 
-![Highscore ranking with podium, points histogram and list of top participants](assets/Highscore_EN.png){ class="shadow lightbox" }
+![Congratulation title, podium, points histogram and top results listing in the highscore of a course element](assets/Highscore_EN.png){ class="shadow lightbox" }
 
 ---
 
