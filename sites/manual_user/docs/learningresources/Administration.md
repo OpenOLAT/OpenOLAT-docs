@@ -62,6 +62,37 @@ Some files used in the course are stored in the **storage folder**. This belongs
 [See the details about the File Hub >](../personal_menu/File_Hub.md)<br>
 [See the details about the Media Center >](../personal_menu/Media_Center.md)<br>
 
+### Storage usage [:octicons-tag-16:{ title="from Release 18.0.2 (OO-6938)" }](https://track.frentix.com/issue/OO-6938){:target="_blank"} {: #storage_usage}
+
+When a course grows large or an upload no longer goes through, the storage usage evaluation shows which folders and course elements occupy how much storage and where a quota sets the limit. This shows you where you can clean up and whether you need to request more space.
+
+You open the evaluation in the "Files" area with the :o_icon_o_icon_hdd: "Show memory usage" button at the top right:<br>
+`Course > Administration > Files > Show memory usage`
+
+![Show memory usage button at the top right of the toolbar, in the Files area of the course administration](assets/course_admin_files_storage_usage_button_v1_en.png){ class="shadow lightbox" }
+
+The "Files" area is visible to owners of the course and to persons who have been granted the "Course editor" right in the [Rights area of the members management](Members_management.md#section_rights).
+
+The storage usage page, titled "Memory usage resources" on screen, shows the values "Total size", "Internal size" and "Number of files" of the course at the top, together with a pie chart showing the share of resources with and without quota. Below, a table lists the storage folder and the course elements with files in the structure of the course. Each row shows the number of files, the size, the quota and, in the "Currently used" column, a bar showing how much of the quota is occupied. From 80 percent, OpenOlat highlights the bar in color.
+
+![Filters Internal with quota and Internal without quota, below them rows with and without the Edit quota action, on the storage usage page of a course](assets/course_admin_storage_usage_v1_en.png){ class="shadow lightbox" }
+
+Three filters narrow down the table:
+
+* "All": all resources of the course that contain files.
+* "Internal with quota": the folders with their own quota. These are the storage folder, "Coach files" and "Documents (Toolbar)" as well as the course elements "Folder" and "Participant folder".
+* "Internal without quota": the course elements that occupy storage but have no quota of their own. These are "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker".
+
+If a "Folder" course element uses a folder from the storage folder as its file destination, it does not appear as a separate row. The same applies to "Coach files" and "Documents (Toolbar)" when they use a folder from the storage folder. The files then count towards the storage folder and fall under its quota. For the "Participant folder" course element, the table shows the drop box and the return box for each participant. The quota applies to each of these folders individually.
+
+#### Edit quota {: #storage_usage_edit_quota}
+
+The "Edit quota" action only appears in rows with their own quota: for the storage folder, for "Coach files" and "Documents (Toolbar)" as well as for the course elements "Folder" and "Participant folder". The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker" count their usage but have no quota that can be adjusted.
+
+The quota can be changed by [administrators, system administrators and learning resource managers](../basic_concepts/Roles.md#org) of the organisation the course belongs to. Everyone else sees the current values in the "Edit quota" dialog, but no button to save. If you need more space for a folder, contact one of these persons.
+
+The guide ["What measures can I take to reduce storage space consumption?"](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md) describes further ways to reduce storage requirements.
+
 [To the top of the page ^](#course_administration)
 
 

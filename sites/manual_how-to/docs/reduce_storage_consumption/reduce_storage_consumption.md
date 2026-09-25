@@ -1,4 +1,4 @@
-# What measures can I take to reduce storage space consumption?
+# What measures can I take to reduce storage space consumption? {: #reduce_storage_consumption}
 
 ??? abstract "Objectives and content of this instruction"
 
@@ -38,41 +38,48 @@ Quotas can be used to define and adjust the maximum storage size and upload limi
 
 <h3> b) Where and by whom are quotas set?</h3>
 
-Basically, quotas are set by the administrator.<br>
-(**Administration > Core functions > Files and folders**)<br>
+Basically, administrators set the quotas, in the system administration under:<br>
+`Administration > Core functions > Files and folders`<br>
 In individual cases, quotas are set in the tools available in the affected area.<br>
 Example: Quota for group folders -> administration of the group<br>
 Example: Quota for certain users -> user management
 
 <br>
 
-Some quotas can be set individually by users.
-These override the default value set by the administrator and apply, for example, to
+A quota for an individual folder overrides the default value of the system administration. Only persons with an administrative role can change it: administrators and system administrators, for courses also learning resource managers, for group folders group managers, for personal folders roles managers and user managers. Course owners without such a role see the quota in the storage usage evaluation but cannot change it.
 
-* the course element "folder" in a certain course of a certain author.<br>
-**Authoring > Select a course > Course editor > Select course element of type "folder" > Tab "Folder configuration" > Button "Open folder" > Button "Edit quota" at the bottom**
-* the file folder of a course (setting by the course author):<br>
-**Authoring > Select a course > Administration > Storage folder > Button "Edit quota" at the bottom**
-![quota_storage_folder_v1_en.png](assets/quota_storage_folder_v1_en.png){ class="shadow lightbox" }  
+A quota of its own can be set, for example, in these places:
+
+* for the course element "Folder", if "Automatically generated folder" is selected as file destination:<br>
+`Course > Administration > Course editor > Course element "Folder" > Tab "Folder configuration" > Button "Open folder" > Menu with the three dots > "Edit quota"`
+* for the storage folder of a course:<br>
+`Course > Administration > Files > Storage folder > Menu with the three dots > "Edit quota"`
+![Storage folder menu entry in the course administration and Edit quota button below the empty file list of the storage folder](assets/quota_storage_folder_v1_en.png){ class="shadow lightbox" }
+* for all folders of a course with their own quota in a single overview, including the course element "Participant folder". The storage usage evaluation shows how much storage each folder occupies and carries the "Edit quota" action in these rows:<br>
+`Course > Administration > Files > Show memory usage > Action "Edit quota"`
 
 <br>
 
-The quota for the personal folder of a specific user can be set in the user administration (with the appropriate authorization as user administrator):<br>
-**User management > Select a user > Tab "Quota"**
-![quota_user_v1_en.png](assets/quota_user_v1_en.png){ class="shadow lightbox" }  
+User managers set the quota for the personal folder of a specific user in the user management:<br>
+`User management > "User name" > Tab "Quota"`
+![Quota tab of the account settings with path of the personal folder, quota and upload limit, below the default quotas per folder type, in the user management](assets/quota_user_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
 The quota for group folders is set in the group administration. It can be set once a group folder has been activated.<br>
-**Groups > Administration > Tab "Tools" > Option "Folder" > Area "Edit quota" is displayed**
-![quota_groupfolder_v1_en.png](assets/quota_groupfolder_v1_en.png){ class="shadow lightbox" }
+`Groups > Administration > Tab "Tools" > Option "Folder" > Area "Edit quota"`
+![Edit quota area with path, quota and upload limit appears after activating the folder, in the Tools tab of the group administration](assets/quota_groupfolder_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
-Most quotas as well as the default values are set up by the administrator under<br>
-**Administration > Core functions > Files and folders**
+The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker" have no quota of their own. Their usage appears in the storage usage evaluation under the "Internal without quota" filter; no limit can be set for them. The course administration describes the structure of the evaluation in the ["Storage usage"](../../manual_user/learningresources/Administration.md#storage_usage) section.
 
-You can find more about this in the administrator manual under
+<br>
+
+Most quotas as well as the default values are set up by administrators in the system administration:<br>
+`Administration > Core functions > Files and folders`
+
+You can find more about this in the administration manual under:<br>
 ["Files and folders"](../../manual_admin/administration/Files_and_Folders.md)
 
 <br>
@@ -139,7 +146,7 @@ If courses or learning resources are deleted in the authoring area, they no long
 They are now only visible there to their respective owners and can only be restored by them.
 The final deletion can also be done in this tab by selecting it and clicking on the **"Delete permanently"** button.
 
-![course_deleted_v1_en.png](assets/course_deleted_v1_en.png){ class="shadow lightbox" }
+![Delete permanently button for a selected course in the Deleted tab of the authoring area](assets/course_deleted_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
@@ -149,7 +156,7 @@ Administrators can perform the final deletion in specific paths. This means that
 **Administration > Core functions > Files and Folders < tab "Trash" > select a line > option "Delete" at the end of the line**<br>
 A click on "Delete" at the end of the line means here the final deletion of the files marked for deletion (files in the "Recycle Bin").
 
-![trash_final_delete_v1_en.png](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" }
+![Deleted files with size, deletion date and Delete action per row, in the Trash tab under Files and folders of the system administration](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
@@ -166,7 +173,7 @@ Some file formats (e.g. videos) generally require more storage space. Therefore,
 Under **Administration > Core functions > Files and Folders > tab "Large Files"**<br>
 administrators can search specifically for large files and view further details about these files. This overview is very helpful and helps when cleaning up or deciding which files should be deleted.
 
-![large_files_v1_en.png](assets/large_files_v1_en.png){ class="shadow lightbox" }
+![Search form by age, versions, downloads and minimum size, below it the largest files with context, in the Large files tab under Files and folders of the system administration](assets/large_files_v1_en.png){ class="shadow lightbox" }
 
 ---
 
@@ -195,4 +202,18 @@ Detailed information on life cycle management can be found at<br>
 - [x] Asked all users to clean up their personal folders? 
 - [x] Set up life cycles?
 
+---
 
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Administration: Overview >](../../manual_user/learningresources/Administration.md)<br>
+[Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
+["How do I manage lifecycles of groups, courses or user accounts?" >](../lifecycle/lifecycle.md)
+
+**Further reading**<br>
+[Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
+[Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
+[Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)
+
+[To the top of the page ^](#reduce_storage_consumption)

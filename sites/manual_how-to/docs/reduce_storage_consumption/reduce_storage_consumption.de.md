@@ -1,4 +1,4 @@
-# Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?
+# Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? {: #reduce_storage_consumption}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -32,47 +32,54 @@
 
 <h3>a) Was sind Quotas?</h3>
 
-Durch Quotas kann die maximale Speichergröße und das Upload-Limit für bestimmte Pfade definiert und angepasst werden.
+Durch Quotas kann die maximale Speichergrösse und das Upload-Limit für bestimmte Pfade definiert und angepasst werden.
 
 <br>
 
 <h3> b) Wo und durch wen werden Quotas festgesetzt?</h3>
 
-Grundsätzlich werden Quotas vom Administrator festgelegt.<br>
-(**Administration > Core Konfiguration > Dateien und Ordner**)<br>
+Grundsätzlich legen Administrator:innen die Quotas fest, in der System-Administration unter:<br>
+`Administration > Core Konfiguration > Dateien und Ordner`<br>
 Im Einzelfall werden Quotas je nach betroffenem Bereich in den dortigen Werkzeugen eingestellt.<br>
 Beispiel: Quota für Gruppenordner -> Administration der Gruppe<br>
-Beispiel: Quota für bestimmte Benutzer -> Benutzerverwaltung
+Beispiel: Quota für bestimmte Benutzer:innen -> Benutzerverwaltung
 
 <br>
 
-Einige Quotas können individuell von Benutzerinnen und Benutzern festgelegt werden.
-Diese übersteuern den vom Administrator festgelegten Standardwert und gelten beispielsweise für
+Eine Quota für einen einzelnen Ordner übersteuert den Standardwert der System-Administration. Ändern können sie nur Personen mit einer administrativen Rolle: Administrator:innen und Systemadministrator:innen, bei Kursen zusätzlich Lernressourcenverwalter:innen, bei Gruppenordnern Gruppenverwalter:innen, bei persönlichen Ordnern Rollenverwalter:innen und Benutzerverwalter:innen. Kursbesitzer:innen ohne eine solche Rolle sehen die Quota in der Auswertung Speicherverbrauch, können sie aber nicht ändern.
 
-* den Kursbaustein "Ordner" in einem bestimmten Kurs einer bestimmten Autorin / eines bestimmten Autors.<br>
-**Autorenbereich > Kurs wählen > Kurseditor > Kursbaustein vom Typ "Ordner" wählen > Tab "Ordnerkonfiguration" > Button "Ordner verwalten" > Button "Quota anpassen" am unteren Rand**
-* den Ablageordner eines Kurses (Einstellung durch die Kursautorin / den Autor):<br>
-**Autorenbereich > Kurs wählen > Administration > Ablageordner > Button "Quota anpassen" am unteren Rand**
-![quota_ablageordner_v1_de.png](assets/quota_ablageordner_v1_de.png){ class="shadow lightbox" }  
+Eine eigene Quota lässt sich beispielsweise an diesen Orten einstellen:
+
+* für den Kursbaustein "Ordner", wenn als Ablageort "Automatisch generierter Ordner" gewählt ist:<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Ordner" > Tab "Ordnerkonfiguration" > Button "Ordner verwalten" > Menü mit den drei Punkten > "Quota bearbeiten"`
+* für den Ablageordner eines Kurses:<br>
+`Kurs > Administration > Dateien > Ablageordner > Menü mit den drei Punkten > "Quota bearbeiten"`
+![Menüeintrag Ablageordner in der Kurs-Administration und Button Quota anpassen unter der leeren Dateiliste des Ablageordners](assets/quota_ablageordner_v1_de.png){ class="shadow lightbox" }
+* für alle Ordner eines Kurses mit eigener Quota in einer einzigen Übersicht, darunter auch den Kursbaustein "Teilnehmer:innen Ordner". Die Auswertung Speicherverbrauch zeigt, wie viel Speicher jeder Ordner belegt, und trägt in diesen Zeilen die Aktion "Quota anpassen":<br>
+`Kurs > Administration > Dateien > Speicherverbrauch anzeigen > Aktion "Quota anpassen"`
 
 <br>
 
-Die Quota für den persönlicher Ordner einer ganz bestimmten Benutzerin / eines Benutzers kann in der Benutzerverwaltung eingestellt werden (mit entsprechender Berechtigung als Benutzerverwalter):<br>
-**Benutzerverwaltung > Benutzer wählen > Tab Quota**
-![quota_benutzer_v1_de.png](assets/quota_benutzer_v1_de.png){ class="shadow lightbox" }  
+Die Quota für den persönlichen Ordner einer bestimmten Benutzer:in stellen Benutzerverwalter:innen in der Benutzerverwaltung ein:<br>
+`Benutzerverwaltung > "Benutzername" > Tab "Quota"`
+![Tab Quota der Kontoeinstellungen mit Pfad des persönlichen Ordners, Quota und Upload Limite, darunter die Default Quotas je Ordnertyp, in der Benutzerverwaltung](assets/quota_benutzer_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
 Die Quota für Gruppenordner wird in der Gruppenadministration eingestellt. Sie kann eingestellt werden, sobald ein Gruppenordner aktiviert wurde.<br>
-**Gruppe > Administration > Tab "Werkzeuge" > Option "Ordner" > Bereich Quota wird eingeblendet**
-![quota_gruppenordner_v1_de.png](assets/quota_gruppenordner_v1_de.png){ class="shadow lightbox" }
+`Gruppe > Administration > Tab "Werkzeuge" > Option "Ordner" > Bereich "Quota editieren"`
+![Bereich Quota editieren mit Pfad, Quota und Upload Limite erscheint nach Aktivieren des Ordners, im Tab Werkzeuge der Gruppenadministration](assets/quota_gruppenordner_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-Die meisten Quotas sowie die Standardwerte werden durch den Administrator eingerichtet unter<br>
-**Administration > Core Konfiguration > Dateien und Ordner**
+Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse". Ihr Verbrauch erscheint in der Auswertung Speicherverbrauch unter dem Filter "Intern ohne Quota", eine Grenze lässt sich für sie nicht einstellen. Wie die Auswertung aufgebaut ist, beschreibt die Kurs-Administration im Abschnitt ["Speicherverbrauch"](../../manual_user/learningresources/Administration.de.md#storage_usage).
 
-Mehr dazu finden Sie im Administrator-Handbuch unter 
+<br>
+
+Die meisten Quotas sowie die Standardwerte richten Administrator:innen in der System-Administration ein:<br>
+`Administration > Core Konfiguration > Dateien und Ordner`
+
+Mehr dazu finden Sie im Administrationshandbuch unter:<br>
 ["Dateien und Ordner"](../../manual_admin/administration/Files_and_Folders.de.md)
 
 <br>
@@ -139,7 +146,7 @@ Werden im Autorenbereich Kurse oder Lernressourcen gelöscht, erscheinen sie nic
 Sie sind dort nur noch für die jeweiligen Besitzer sichtbar und können nur durch sie wieder hergestellt werden.
 Auch das endgültige Löschen kann in diesem Tab durch Markieren und Klick auf den **Button "Dauerhaft löschen"** vorgenommen werden.
 
-![kurs_geloescht_v1_de.png](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" }
+![Button Dauerhaft löschen für einen markierten Kurs im Tab Gelöscht des Autorenbereichs](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -149,7 +156,7 @@ Administratoren können das endgültige Löschen in bestimmten Pfaden vornehmen.
 **Administration > Core Konfiguration > Dateien und Ordner < Tab "Papierkorb" > Zeile selektieren > Option "Löschen" am Ende der Zeile**<br>
 Ein Klick auf "Löschen" am Ende der Zeile meint hier also das endgültige Löschen der zum Löschen markierten Dateien (Dateien im "Papierkorb").
 
-![trash_final_delete_v1_de.png](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" }
+![Gelöschte Dateien mit Grösse, Löschdatum und Aktion Löschen je Zeile, im Tab Papierkorb unter Dateien und Ordner der System-Administration](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
@@ -166,7 +173,7 @@ Manche Dateiformate (z.B. Videos) benötigen generell mehr Speicherplatz. Deshal
 Unter **Administration > Core Konfiguration > Dateien und Ordner > Tab "Grosse Dateien"**<br>
 können Administratoren gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen. Dieser Überblick ist sehr hilfreich und hilft beim Aufräumen, bzw. beim Entscheiden, welche Dateien gelöscht werden sollten.
 
-![grosse_dateien_v1_de.png](assets/grosse_dateien_v1_de.png){ class="shadow lightbox" }
+![Suchmaske nach Alter, Versionen, Downloads und Mindestgrösse, darunter die grössten Dateien mit Kontext, im Tab Grosse Dateien unter Dateien und Ordner der System-Administration](assets/grosse_dateien_v1_de.png){ class="shadow lightbox" }
 
 ---
 
@@ -178,7 +185,7 @@ In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 * **Kurs-Lifecycle**
 * **Benutzer-Lifecycle**
 
-OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder ein Benutzer lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
+OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder eine Benutzer:in lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
 
 Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
 ["Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?"](../lifecycle/lifecycle.de.md)
@@ -191,7 +198,21 @@ Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
 - [x] Versionierung eingerichtet?
 - [x] Autoren auf Quota hingewiesen?
 - [x] Nach grossen Dateien gesucht und in Absprache mit den Besitzer:innen nicht mehr benötigte gelöscht? 
-- [x] Alle Benutzer zum Aufräumen ihres persönlichen Ordners aufgefordert? 
+- [x] Alle Benutzer:innen zum Aufräumen ihres persönlichen Ordners aufgefordert? 
 - [x] Lebenszyklen eingerichtet?
 
+---
 
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration.de.md)<br>
+[Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
+["Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?" >](../lifecycle/lifecycle.de.md)
+
+**Weiterführend**<br>
+[Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
+[Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
+[Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)
+
+[Zum Seitenanfang ^](#reduce_storage_consumption)

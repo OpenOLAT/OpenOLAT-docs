@@ -62,6 +62,37 @@ Manche im Kurs verwendete Dateien werden im **Ablageordner** abgelegt. Dieser ge
 [Zu den Details über den File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Zu den Details über das Media Center >](../personal_menu/Media_Center.de.md)<br>
 
+### Speicherverbrauch [:octicons-tag-16:{ title="ab Release 18.0.2 (OO-6938)" }](https://track.frentix.com/issue/OO-6938){:target="_blank"} {: #storage_usage}
+
+Wird ein Kurs gross oder geht ein Upload nicht mehr durch, zeigt die Auswertung Speicherverbrauch, welche Ordner und Kursbausteine wie viel Speicher belegen und wo eine Quota die Grenze setzt. So sehen Sie, wo Sie aufräumen können und ob Sie mehr Platz anfordern müssen.
+
+Sie öffnen die Auswertung im Bereich "Dateien" mit dem Button :o_icon_o_icon_hdd: "Speicherverbrauch anzeigen" oben rechts:<br>
+`Kurs > Administration > Dateien > Speicherverbrauch anzeigen`
+
+![Button Speicherverbrauch anzeigen oben rechts in der Werkzeugleiste, im Bereich Dateien der Kurs-Administration](assets/course_admin_files_storage_usage_button_v1_de.png){ class="shadow lightbox" }
+
+Den Bereich "Dateien" sehen Besitzer:innen des Kurses und Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](Members_management.de.md#section_rights) das Recht "Kurseditor" erteilt wurde.
+
+Die Seite "Speicherverbrauch Ressourcen" zeigt oben die Werte "Gesamtgrösse", "Interne Grösse" und "Anzahl Dateien" des Kurses, dazu ein Kreisdiagramm mit dem Anteil der Ressourcen mit und ohne Quota. Darunter listet eine Tabelle den Ablageordner und die Kursbausteine mit Dateien in der Struktur des Kurses. Je Zeile stehen die Anzahl Dateien, die Grösse, die Quota und in der Spalte "Aktuell verwendet" ein Balken, wie viel der Quota belegt ist. Ab 80 Prozent hebt OpenOlat den Balken farbig hervor.
+
+![Filter Intern mit Quota und Intern ohne Quota, darunter Zeilen mit und ohne Aktion Quota anpassen, auf der Seite Speicherverbrauch Ressourcen eines Kurses](assets/course_admin_storage_usage_v1_de.png){ class="shadow lightbox" }
+
+Drei Filter grenzen die Tabelle ein:
+
+* "Alle": alle Ressourcen des Kurses, die Dateien enthalten.
+* "Intern mit Quota": die Ordner mit eigener Quota. Das sind der Ablageordner, "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)" sowie die Kursbausteine "Ordner" und "Teilnehmer:innen Ordner".
+* "Intern ohne Quota": die Kursbausteine, die Speicher belegen, aber keine eigene Quota haben. Das sind "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse".
+
+Verwendet ein Kursbaustein "Ordner" als Ablageort einen Ordner aus dem Ablageordner, erscheint er nicht als eigene Zeile. Dasselbe gilt für "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)", wenn sie einen Ordner aus dem Ablageordner nutzen. Die Dateien zählen dann zum Ablageordner und fallen unter dessen Quota. Beim Kursbaustein "Teilnehmer:innen Ordner" zeigt die Tabelle je Teilnehmer:in den Abgabeordner und den Rückgabeordner. Die Quota gilt für jeden dieser Ordner einzeln.
+
+#### Quota anpassen {: #storage_usage_edit_quota}
+
+Die Aktion "Quota anpassen" steht nur in den Zeilen mit eigener Quota: beim Ablageordner, bei "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)" sowie bei den Kursbausteinen "Ordner" und "Teilnehmer:innen Ordner". Die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse" zählen ihren Verbrauch, haben aber keine Quota, die sich anpassen lässt.
+
+Ändern können die Quota [Administrator:innen, Systemadministrator:innen und Lernressourcenverwalter:innen](../basic_concepts/Roles.de.md#org) der Organisation, der der Kurs angehört. Alle anderen sehen im Dialog "Quota anpassen" die aktuellen Werte, aber keinen Button zum Speichern. Brauchen Sie für einen Ordner mehr Platz, wenden Sie sich an eine dieser Personen.
+
+Weitere Wege, den Speicherbedarf zu senken, beschreibt die Anleitung ["Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?"](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md).
+
 [Zum Seitenanfang ^](#course_administration)
 
 
