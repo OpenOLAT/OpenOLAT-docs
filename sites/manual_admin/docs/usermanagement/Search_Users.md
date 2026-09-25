@@ -225,7 +225,7 @@ The "Account" tab of a single person carries the same periods, see [Configure us
 [Roles and rights >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration.md)<br>
 [Modules >](../administration/Modules.md)<br>
-[Life cycles: Administration >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Configure user >](Configure_User.md)
 
 **Further reading**<br>

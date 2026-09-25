@@ -47,7 +47,7 @@ Persons with the **role group manager** additionally have the tab "Group managem
 
 Here, group managers additionally see all published and private groups of the system and can manage these groups to the same extent as group coaches manage their own groups.
 
-Group managers can also find and delete groups without members and course link. They also have access to the life cycle of the groups and can start the deletion process or reactivate groups. You can find more information on the automatic group life cycle in the [administration manual](../../manual_admin/administration/Automatic_Group_Lifecycle.md).
+Group managers can also find and delete groups without members and course link. They also have access to the group life cycle and can start the deletion process or reactivate groups. You can find more information on the automatic group life cycle in the [administration manual](../../manual_admin/administration/Automatic_Group_Lifecycle.md).
 
 In addition, group managers can also change the quota of the "Folder" tool of a group.
 

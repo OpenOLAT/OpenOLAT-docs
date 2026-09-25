@@ -32,7 +32,7 @@ In traditional courses, the "Pass" status is determined based on whether the res
 
 !!! note "Note"
 
-    When using the automatic lifecycle, the course status is determined by the end date.
+    When the course life cycle is used, the course status is determined by the end date.
 
 
 #### Time period {: #lifecycle }

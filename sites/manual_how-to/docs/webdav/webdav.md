@@ -1,4 +1,4 @@
-# How can I transfer files using WebDAV?
+# How can I transfer files using WebDAV? {: #webdav}
 
 ## What is WebDAV?
 
@@ -11,7 +11,7 @@ helps you to easily transfer files from your computer to OpenOlat folders.
     Without WebDAV it is only possible to upload files in OpenOlat by means of
     ordinary upload forms. You can either select each single file separately or
     several zipped files at once. 
-    
+
     With WebDAV you can use "Drag&Drop" on your computer (e.g. via the Windows Explorer) to copy single files as well as entire directories into OpenOlat folders.
 
 ## Which OpenOlat folders can be accessed with WebDAV?
@@ -20,7 +20,7 @@ Of course not all folders and files of an OpenOlat installation can be accessed 
 
 Once the items have been created via OpenOlat, the structure is automatically created. You can access the following OpenOlat folders:
 
-  * [Personal files](../../manual_user/personal_menu/File_Hub.md#personal_files) (every user)  
+  * [Personal files](../../manual_user/personal_menu/File_Hub.md#personal_files) (every user)
   * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
   * [Storage folders](../../manual_user/learningresources/Storage_folder.md) of courses (course owners only)
   * [Folder - course element](../../manual_user/learningresources/Course_Element_Folder.md) (course members)
@@ -109,11 +109,11 @@ your computer containing the following sub-directories:
 
   *  **coursefolders**: storage folder and folder course elements of all courses you own, or you are a member of. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
 
-    * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are added to a term can be found.
-  
-    * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished".
+    * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are not assigned to a semester term can be found.
 
-    ![webdav_group_courses_by_semester_terms_v1_en.png](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" }
+    * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life cycle. These are the courses which appear in the menu Courses in the tab "Finished".
+
+    ![Marked option Group courses by semester terms, here switched off, page WebDAV access under Core functions of the system administration](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" }
 
   *  **groupfolders**: all groups you are enrolled in and have access to corresponding folders.
   *  **home**: both of your personal folders (along with the sub-folders "private" and "public").
@@ -127,3 +127,14 @@ your computer containing the following sub-directories:
     * File names are limited to 100 characters
     * File names may not include several spaces after each other
     * If an error message appears anyway, go through the points "To consider". Check as well if the quota does not have been exceeded (especially if several files have been uploaded together)
+
+## Further information {: #further_information}
+
+[Personal tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[Using group tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
+[Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
+[Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[FUSE website >](http://fuse.sourceforge.net)
+
+[To the top of the page ^](#webdav)

@@ -142,7 +142,7 @@ Course coaches *do not* have access to the following functions.
 | Lectures and absences | Creation and configuration
 | Copy | Copy the course  |
 | Export content | Export the course |
-| Life cycle: close/delete | Set course to status finished or delete  |
+| Status "Finished" and deletion | Set the course to the status "Finished" or delete it  |
 |Convert traditional courses to learning path courses|   |
 
 [To the top of the page ^](#coach)

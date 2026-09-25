@@ -172,7 +172,7 @@ All user data is retained. In the menu item "Courses", the course is no longer i
 
 In Authoring, the finished course is displayed with a new icon and crossed out.
 
-If the course is to be reopened, open the life cycle of the course again and click "Reopen".
+If the course is to be reopened, select a different status in the "Status" menu of the course toolbar, for example "Published".
 
 ### Delete course
 

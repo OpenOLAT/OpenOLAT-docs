@@ -188,14 +188,13 @@ You set up life cycles in the system administration, under:<br>
 
 There is one entry each for:
 
-* **Groups**
-* **Courses**
-* **User**
+* **Groups**: the group life cycle
+* **Courses**: the course life cycle
+* **User**: the automatic user lifecycle
 
-OpenOlat monitors whether an object has not been used for a long time or a user has not been active for a long time. According to predefined criteria, it sends a message that first enables a reaction and then, for example, manual deletion. Or OpenOlat deletes if necessary also automatically according to set criteria.
+OpenOlat monitors whether a group has not been visited for a long time, whether the course end of a course has passed or whether nobody has logged in to an account for a long time. According to predefined criteria, it sends a message that first enables a reaction and then, for example, manual deletion. Or OpenOlat deletes if necessary also automatically according to set criteria.
 
-
-Detailed information on life cycle management can be found at<br>
+Detailed information on the life cycles can be found at<br>
 ["How do I manage lifecycles of groups, courses or user accounts?"](../lifecycle/lifecycle.md)
 
 ---
@@ -217,7 +216,7 @@ Detailed information on life cycle management can be found at<br>
 [Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Course Administration: Overview >](../../manual_user/learningresources/Administration.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
-["How do I manage lifecycles of groups, courses or user accounts?" >](../lifecycle/lifecycle.md)
+[How do I manage lifecycles of groups, courses or user accounts? >](../lifecycle/lifecycle.md)
 
 **Further reading**<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>

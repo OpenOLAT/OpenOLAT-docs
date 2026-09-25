@@ -2,49 +2,54 @@
 
 ![The three entries Groups, Courses and Account are listed under the Life cycles menu item: Life cycles menu in the system administration](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-The following life cycles can be administered in this section:
+Under `Administration > Life cycles`, you set up three of the four life cycles of OpenOlat in the system administration: the group life cycle, the course life cycle and the automatic user lifecycle. Each has its own trigger and its own steps.
+
+The fourth, the implementation life cycle, is not in this menu. It takes the implementations of the Course Planner through their status values and does not delete anything. The element type specifies its rules, and the individual implementation can override them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation).
+
+## Profile
+
+Name | Life cycles
+---------|----------
+Available since | Release 16.1 (2021)
 
 ---
 
-## Groups {: #lifecycle_groups}
+## Groups [:octicons-tag-16:{ title="from Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #lifecycle_groups}
 
 In OpenOlat Administration, settings for the [group life cycle](Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
 
 * Inactivation
 * Deletion
-* Irrevocable deletion
+* Permanent deletion
 
-Settings can be made both for groups in general and only for certain group types. 
+The trigger is the time without a visit by the group coaches or group participants. The group life cycle applies either to all groups or only to groups without included courses. Externally managed groups can also be excluded.
 
-!!! info "Group life cycle: Details"
-    Steps and settings for the automatic group life cycle.<br>
-    [Group life cycle](Automatic_Group_Lifecycle.md)
+The page [Automatic Group Life Cycle](Automatic_Group_Lifecycle.md) describes the steps and settings.
 
 [To the top of the page ^](#lifecycles)
 
 
 ## Courses {: #lifecycle_courses}
 
-In the [course life cycle](Automatic_Course_Lifecycle.md) you can define, 
+In the [course life cycle](Automatic_Course_Lifecycle.md) you can define how a course leaves operation after the course end:
 
-* whether and when a course is automatically set to "Finished" status 
+* whether and when a course is automatically set to "Finished" status,
 * when it is then moved to the trash,
-* and when it will be permanently deleted
+* and when it will be permanently deleted.
+
+The periods count from the end date of the execution period, for the permanent deletion from the day the course was moved to the trash.
 
 In addition, you can enforce the notification of the owners when someone finishes or deletes a course in the authoring area.
 
-
-!!! info "Course life cycle: Details"
-    Steps, configuration, confirmation before saving and status display of the automatic course life cycle.<br>
-    [Course life cycle](Automatic_Course_Lifecycle.md)
+The page [Automatic Course Life Cycle](Automatic_Course_Lifecycle.md) describes the steps, configuration, confirmation before saving and status display.
 
 [To the top of the page ^](#lifecycles)
 
 
 
-## Account {: #lifecycle_accounts}
+## Account [:octicons-tag-16:{ title="from Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #lifecycle_accounts}
 
-Similar to the automatically controlled course lifecycle, the lifecycle of accounts can also be automated. You configure it in the system administration under:<br>
+Similar to the course life cycle, the life cycle of accounts can also be automated: with the automatic user lifecycle. You configure it in the system administration under:<br>
 `Administration > Life cycles > User`
 
 ### Account expiration and automatic user lifecycle [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382) {: #account_expiration_and_lifecycle}
@@ -68,8 +73,8 @@ Three steps end the use of an account: the account expiration, the deactivation 
 | Step | Trigger | Where you set it | Mail notification | Version |
 |------|---------|------------------|-------------------|---------|
 | Account expiration | The expiry date stored for the account is reached. | You set the date per account in the user management: when creating it under `User management > Create user` or subsequently under `User management > "Account of the person" > Tab "Account"`. The actions "Import users" and "Create temp. users" in the user management and the action "Change user settings" for selected accounts in the user search set it as well. | Before and after the account expiration, in the area "Account expiration" | :octicons-tag-16:{ title="from Release 15.4" } |
-| Deactivation | No login occurs during the inactivity period. | Automatically: toggle "Deactivate user after inactivity" and field "Num. of days before deactivation" in the system administration under `Administration > Life cycles > User`. Manually: status "Inactive" under `User management > "Account of the person" > Tab "Account"`. | Before and after the deactivation, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 20.1" } |
-| Deletion | The account stays inactive for the configured time after the deactivation. | Automatically: toggle "Delete inactive user" and field "Num. of days before deletion" in the system administration under `Administration > Life cycles > User`. Manually: action "Delete user" under `User management > Delete user`. | Before and after the deletion, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 20.1" } |
+| Deactivation | No login occurs during the inactivity period. | Automatically: toggle "Deactivate user after inactivity" and field "Num. of days before deactivation" in the system administration under `Administration > Life cycles > User`. Manually: status "Inactive" under `User management > "Account of the person" > Tab "Account"`. | Before and after the deactivation, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 15.1" } |
+| Deletion | The account stays inactive for the configured time after the deactivation. | Automatically: toggle "Delete inactive user" and field "Num. of days before deletion" in the system administration under `Administration > Life cycles > User`. Manually: action "Delete user" under `User management > Delete user`. | Before and after the deletion, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 15.1" } |
 
 !!! info "Important"
     The area "Account expiration" only configures the notifications. There is no system-wide expiry date: each account carries the date individually.
@@ -95,7 +100,7 @@ You reactivate an account manually under:<br>
 
 If the person logs in via Shibboleth, OpenOlat reactivates the inactive account automatically.
 
-If the automatic deactivation is switched on, the person has 30 days to log in after a reactivation. During this time the automatic user lifecycle leaves the account in place, and the "Account" tab shows the remaining days with the addition "(grace period)". If no login occurs, OpenOlat deactivates the account again.
+If the automatic deactivation is switched on, the person has 30 days to log in after a reactivation. This time is the grace period. During this time the automatic user lifecycle does not deactivate the account again, and the "Account" tab shows the remaining days with the addition "(grace period)". If no login occurs, OpenOlat deactivates the account again. [:octicons-tag-16:{ title="from Release 15.2.3 (OO-4925)" }](https://track.frentix.com/issue/OO-4925)
 
 The 30 days are set system-wide and apply to all accounts.
 
@@ -106,7 +111,7 @@ The deactivation leaves the data in place. Only the deletion removes it: it dele
 The record itself remains in anonymised form. OpenOlat replaces the login name with an ID of the form "del_884736" and sets the status to "Deleted". This is necessary because objects such as forum posts still refer to the account. You find the anonymised accounts under:<br>
 `User management > Status > Deleted users`
 
-An account with the status "Active and not deletable" is excluded from deletion by the automatic lifecycle.
+An account with the status "Active and not deletable" is excluded from deletion by the automatic user lifecycle.
 
 
 [To the top of the page ^](#lifecycles)
@@ -114,13 +119,16 @@ An account with the status "Active and not deletable" is excluded from deletion 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Group life cycle >](Automatic_Group_Lifecycle.md)<br>
+[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)<br>
 [Configure user >](../usermanagement/Configure_User.md)<br>
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>
 [User search >](../usermanagement/Search_Users.md)<br>
-[Create user >](../usermanagement/Create_User.md)
+[Create user >](../usermanagement/Create_User.md)<br>
+[How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
+[Module Course Planner >](Modules_Course_Planner.md)
 
 [To the top of the page ^](#lifecycles)

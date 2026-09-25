@@ -39,9 +39,9 @@ If the account carries an expiry date, the tab shows it under "Account expiratio
 
 ### Account
 
-The "Account" tab shows the state of an account and the point it has reached in the lifecycle. Here you judge whether and when OpenOlat deactivates or deletes an account automatically, and here you set it to inactive manually.
+The "Account" tab shows the state of an account and the point it has reached in the automatic user lifecycle. Here you judge whether and when OpenOlat deactivates or deletes an account automatically, and here you set it to inactive manually.
 
-Administrators, user administrators and role administrators reach the tab. Which fields it shows depends on the role of the edited account and on the toggles of the user lifecycle, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts).
+Administrators, user administrators and role administrators reach the tab. Which fields it shows depends on the role of the edited account and on the toggles of the automatic user lifecycle, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts).
 
 #### User type {: #account_type }
 
@@ -77,12 +77,12 @@ If an expiry date is set, this field shows the remaining time in the format "In 
 
 #### Automatic user lifecycle {: #automatic_user_lifecycle }
 
-This section shows how the system-wide lifecycle affects this account. It is omitted for guest accounts. OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation). Which entries appear depends on the state of the account:
+This section shows how the system-wide automatic user lifecycle affects this account. It is omitted for guest accounts. OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation). Which entries appear depends on the state of the account:
 
 | State | Entry | Meaning |
 |-------|-------|---------|
 | Active | "Last login", "Days until inactivation" | OpenOlat deactivates the account automatically after this period without a login. |
-| Reactivated | additionally "Reactivation date", the period carries the addition "(grace period)" | The account was released again after a deactivation and runs in a grace period. |
+| Reactivated | additionally "Reactivation date", the period carries the addition "(grace period)" | The account was released again after a deactivation and runs in a grace period. During this time OpenOlat does not deactivate it again. |
 | Inactive | "Inactivation date", "Days until deletion" | The account is deactivated and will be deleted automatically after this period. |
 
 Besides the number of days, both periods also name the date on which the step falls due.
@@ -316,7 +316,7 @@ Here you can check which grading assignments have been assigned to this user.
 [E-mail settings >](../administration/E-Mail_Settings.md)<br>
 [User profile >](../../manual_user/personal_menu/Profile.md)<br>
 [Settings >](../../manual_user/personal_menu/Settings.md)<br>
-[Life cycles: Administration >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Assign roles >](Assign_roles.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
 [Modules: Overview >](../administration/Modules.md)<br>

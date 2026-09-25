@@ -1,13 +1,8 @@
-# Automatic Group Life Cycle
+# Automatic Group Life Cycle {: #group_lifecycle}
 
-The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion.
+The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion. The process is similar to the [automatic user lifecycle](Life_cycles_-_Administration.md#lifecycle_accounts) and the [course life cycle](Automatic_Course_Lifecycle.md).
 
 ![Five steps of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
-
-
-!!! note "Note"
-
-    The process is similar to the life cycle management of user accounts and courses.
 
 
 
@@ -35,36 +30,6 @@ Administrators can configure the progress of the group life cycle in the system 
 
 ![Menu item Groups under Life cycles highlighted, on the right the status arrows and the first configuration section, system administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
 
-The configuration comprises 4 sections:
-
-* **1 Configuration of automatic methods**<br>
-  Here you can define groups that are included or explicitly excluded from the automatic methods.
-
-* **2 Inactivation**<br>
-  Upon inactivation, the status of the group is set from "Active" to "Inactive" and members can only access the group in read-only mode. Inactive groups can be fully reactivated.<br>
-  **Options:**
-    * Number of days that a group remains in the "Active" status without activity until it is inactivated
-    * Automatic or manual inactivation?
-    * Notifications about upcoming inactivation
-    * Reaction time
-    * If reactivation takes place, waiting time until the next inactivation
-    * Notifications about completed inactivation
-
-* **3 Deletion**<br>
-  When deleting, all members of the group and the links to courses are removed. All remaining data is retained and can be viewed. The group can be restored.<br>
-  **Options:**
-    * Automatic or manual deletion?
-    * Notifications about upcoming deletion
-    * Reaction time
-    * Number of days a group remains in "Inactive" status until it is deleted
-    * Notifications about completed deletion
-
-* **4 Permanent deletion**<br>
-  Permanent deletion removes the group completely.<br>
-  **Options:**
-    * Number of days a group remains in "Deleted" status until it is permanently deleted
-    * Automatic or manual deletion?
-
 The result of the settings made is summarized both in the 3 arrows in the upper part of the configuration screen (for administrators) and in the arrows in the "Group management" tab, which group managers and administrators see under the main navigation in "Groups".
 
 **Example: View for group managers**
@@ -77,7 +42,45 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
   *  **deleted:** In the "deleted" status, the group can be restored. However, not all data can be restored. This group is permanently deleted after 2 days.
 
+The configuration comprises four sections.
 
+### Configuration automatic methods {: #automatic_methods}
+
+Here you can define groups that are included or explicitly excluded from the automatic methods.
+
+### Inactivation {: #inactivation}
+
+Upon inactivation, the status of the group is set from "Active" to "Inactive" and members can only access the group in read-only mode. Inactive groups can be fully reactivated.
+
+**Options:**
+
+* "Inactivation after": Number of days that a group remains in the "Active" status without a visit until it is inactivated
+* "Reaction period after reactivation": Number of days after a reactivation during which the group life cycle does not inactivate the group again (default value: 30 days)
+* "Method": Automatic or manual inactivation, each with or without reaction time
+* Notifications about upcoming inactivation
+* "Reaction time": Number of days between the notification about the upcoming inactivation and the inactivation
+* Notifications about completed inactivation
+
+### Deletion {: #soft_deletion}
+
+When deleting, all members of the group and the links to courses are removed. All remaining data is retained and can be viewed. The group can be restored.
+
+**Options:**
+
+* "Method": Automatic or manual deletion, each with or without reaction time
+* Notifications about upcoming deletion
+* "Reaction time": Number of days between the notification about the upcoming deletion and the deletion
+* "Deletion after": Number of days a group remains in "Inactive" status until it is deleted
+* Notifications about completed deletion
+
+### Permanent deletion {: #permanent_deletion}
+
+Permanent deletion removes the group completely.
+
+**Options:**
+
+* "Permanent deletion after": Number of days a group remains in "Deleted" status until it is permanently deleted
+* "Method": Automatic or manual deletion
 
 ## Examples of the chronological sequence of a status change
 
@@ -111,6 +114,14 @@ As soon as an automatic notification is triggered by the set conditions, OpenOla
 
 ![Decision tree of the notification: group coaches, otherwise owners of the courses, otherwise nobody](assets/automatic_group_lifecycle_mailcascade_v2_en.svg){ class="lightbox" }
 
+## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Life cycles: Overview >](Life_cycles_-_Administration.md)<br>
+[Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)
 
+**Further reading**<br>
+[How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
+[Group management >](../../manual_user/area_modules/Group_Management.md)
 
+[To the top of the page ^](#group_lifecycle)

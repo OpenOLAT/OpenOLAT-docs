@@ -8,7 +8,7 @@ and their data.
 
 ## Deleting users and user data {: #deletion_overview}
 
-Accounts are deleted by user managers and administrators via the [user management](index.md). System administrators trigger deletions via the user account lifecycle.
+Accounts are deleted by user managers and administrators via the [user management](index.md). System administrators trigger deletions via the automatic user lifecycle.
 
 When an account is deleted, it is not removed from the database but anonymised. The login name is replaced by an anonymous identifier and the profile data is cleared. For persons with an administrative role, first name and last name are retained so that their actions remain traceable. The page [Delete user](Delete_User.md#name_retention) lists which roles these are.
 
@@ -19,14 +19,14 @@ Which data is deleted, anonymised or retained in the process is shown in detail 
 ---
 
 
-## User account lifecycle {: #account_lifecycle}
+## Automatic user lifecycle [:octicons-tag-16:{ title="from Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #account_lifecycle}
 
-The user account lifecycle is the instrument for deletion within a defined period. It runs in three steps: account expiry, deactivation and deletion. The deadlines and the notifications for each step are configured in the system administration:<br>
-`Administration > Life Cycles > Account`
+The automatic user lifecycle is the instrument for deletion within a defined period. It runs in two steps: deactivation and deletion. The trigger is the last login. Independently of this, the account expiration deactivates an account on its stored expiry date. The deadlines and the notifications for each step are configured in the system administration:<br>
+`Administration > Life cycles > User`
 
 Deactivation only blocks the login. The account is retained with all its data and can be reactivated. Only deletion anonymises the account and removes data. Depending on the configuration, the last step runs automatically or is triggered manually only.
 
-[Details on the user account lifecycle >](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+[Details on the automatic user lifecycle >](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
 [To the top of the page ^](#data_protection)
 

@@ -78,7 +78,7 @@ If the course has expired, you should set the status to "Finished".
 
 ### 7. Delete course {: #stage7}
 
-The course is deleted via `Course > Administration > Delete`. Deleted courses can be shown or hidden in the authoring area via the filter option in the life cycle or specifically displayed in the "Deleted" tab.
+The course is deleted via `Course > Administration > Delete`. Deleted courses are in the "Deleted" tab of the authoring area. In the other tabs, the "Status" filter with the option "Trash" shows or hides them.
 
 ![Entry Delete at the bottom of the opened Administration menu of the course toolbar](assets/delete_course.png){ class="shadow lightbox" }
 

@@ -44,7 +44,7 @@ There are the following settings for course assessments:
   If the levels/grading module is enabled, you assign a grade to the course at course level.<br> [Find out more >](#evaluation_with_grades)
 
 - **With success status**<br>
-  Here you can set when a course is considered passed. In addition to a certain number of points achieved, other criteria can also lead to a "pass."<br> [Find out more >](#evaluation_passed_failed)
+  Here you can set when a course is considered passed. The success status is the result of the course assessment: "Passed", "Not passed" or "Undefined". In addition to a certain number of points achieved, other criteria can also lead to a "Passed".<br> [Find out more >](#evaluation_passed_failed)
 
 [To the top of the page ^](#tab_assessment)
 
@@ -101,7 +101,7 @@ If the levels/grading module is enabled and the course is graded with a **score*
 
 The toggle can only be switched once "With score" is on and "With success status" is off. As long as one of the two conditions is missing, "With levels/grading" stays greyed out.
 
-If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. "With success status" then stays switched off and can no longer be changed. If the selected rating scale has no success criterion, the course has no success status at course level.
+If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. The success criterion is the lowest grade or performance class of the rating scale with which a performance counts as passed. "With success status" then stays switched off and can no longer be changed. If the selected rating scale has no success criterion, the course has no success status at course level.
 
 The grade is not assigned automatically: the "Assignment" is fixed to "Manually by coach". Course owners and authorised coaches apply the calculated grade in the [assessment tool](Assessment_tool_overview.md). So that coaches without ownership may apply it too, course owners set the "assign Levels/Grading" option in the [Assessment rights section](#section_assessment_rights).
 
@@ -118,11 +118,11 @@ The grade is not assigned automatically: the "Assignment" is fixed to "Manually 
 A learning path course can be considered passed as soon as one of the criteria is met:
 
 * **Learning progress 100%**:<br> If all mandatory course elements have been completed and 100% is displayed, the course is automatically deemed to have been passed.
-* **All course components passed**:<br> The course is deemed to have been passed if all assessable course elements marked with a "pass/fail" have been passed, regardless of whether they are compulsory or optional course elements. To exclude individual course elements, "Exclude from course evaluation" must be ticked in the configuration of the course element in the course editor.
-* **Number of course elements passed**:<br> Here you can define how many and which course elements must be passed for the entire course to be considered passed. However, whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
-* **Point threshold reached**:<br> Here you can define how many points learners must achieve for the entire course to be considered passed. You can also check which course elements the points must come from. Whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
+* **Rule "All relevant course elements passed"**:<br> The course is deemed to have been passed if all assessable course elements marked with a "pass/fail" have been passed, regardless of whether they are compulsory or optional course elements. To exclude individual course elements, "Exclude from course evaluation" must be ticked in the configuration of the course element in the course editor.
+* **Rule "A certain number of the relevant course elements passed"**:<br> Here you can define how many and which course elements must be passed for the entire course to be considered passed. However, whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
+* **Cut value reached**:<br> Here you can define how many points learners must achieve for the entire course to be considered passed. You can also check which course elements the points must come from. Whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
 
-![Activated pass criteria: Learning progress 100%, course elements passed with the rule "Number of course elements passed" and point threshold reached](assets/course_settings_assessment_passed_v3_de.png){ class="shadow lightbox" }
+![Activated pass criteria Learning progress 100%, course elements passed with the rule "A certain number of the relevant course elements passed" and cut value reached](assets/course_settings_assessment_passed_v3_de.png){ class="shadow lightbox" }
 
 !!! info "Passed criteria"
 

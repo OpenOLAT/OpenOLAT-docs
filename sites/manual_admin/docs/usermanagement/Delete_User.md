@@ -22,7 +22,7 @@ User management itself is reached by several roles:
 * Administrator
 * System administrator
 
-These roles search accounts, change user settings and status and, depending on the instance, also see the "Delete user" area, but do not delete accounts themselves. System administrators additionally trigger deletions via the user account lifecycle.
+These roles search accounts, change user settings and status and, depending on the instance, also see the "Delete user" area, but do not delete accounts themselves. System administrators additionally trigger deletions via the automatic user lifecycle.
 
 [To the top of the page ^](#delete_user)
 
@@ -56,7 +56,7 @@ Users can also be selected and their OpenOlat accounts deleted via the "Delete u
 ![Delete user link in the toolbar above the search form of the account search](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Step 2:**<br>
-Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the user account lifecycle:
+Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the automatic user lifecycle:
 
 **Tab "Accounts without activity":** Users who have not been active for a configured period of time. The inactivity period is set by the administration.
 
@@ -66,9 +66,9 @@ Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases 
 
 On all three tabs, the **Inactivation** filter narrows the list by period, either to "Account expiry in the next" or to "Inactive for the last", in days, weeks, months or years.
 
-!!! info "Configuration of the user account lifecycle"
-    The lifecycle runs in three phases: **Account expiry**, **Deactivation** and **Deletion**. The applicable deadlines and notifications are configured in the system administration: `Administration > Life Cycles > Account`<br>
-    [Details on the user account lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+!!! info "Configuration of the automatic user lifecycle"
+    The automatic user lifecycle runs in two steps: **Deactivation** and **Deletion**. Independently of this, the **account expiration** deactivates an account on its stored expiry date. The applicable deadlines and notifications are configured in the system administration: `Administration > Life cycles > User`<br>
+    [Details on the automatic user lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
 ![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
 
@@ -86,9 +86,9 @@ After clicking this button, a confirmation dialog appears which you must confirm
 
 ## Option 3: Automatic deletion {: #delete_user_var3}
 
-Users can also be deleted fully automatically by an activated user account lifecycle.
+Users can also be deleted fully automatically by an activated automatic user lifecycle.
 
-[Details on the user account lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
+[Details on the automatic user lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md#user_account_lifecycle)
 
 [To the top of the page ^](#delete_user)
@@ -175,7 +175,7 @@ After an account is deleted, the course log data and the assessments continue to
 
 These persons act in an institutional function, not as private individuals. Their entries in the course log data, their assessments and similar actions should therefore remain readable and attributable even after deletion.
 
-What counts are the roles the person holds at the time of deletion. The rule applies to all three deletion options on this page, including the automatic deletion by the user account lifecycle. There is no setting for it.
+What counts are the roles the person holds at the time of deletion. The rule applies to all three deletion options on this page, including the automatic deletion by the automatic user lifecycle. There is no setting for it.
 
 First name and last name are retained if the person holds at least one of these roles:
 
@@ -222,7 +222,7 @@ Anyone who can access the user management finds the deleted accounts with first 
 
 Accounts with the status **"Active and not deletable"** cannot be deleted, neither manually nor automatically. They do appear in the account search and can also be marked, but OpenOlat removes them from the selection when deleting. This status is typically assigned to system accounts such as the administrator account.
 
-For **automatic deletion** via the user account lifecycle, an additional safeguard applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion is aborted completely.
+For **automatic deletion** via the automatic user lifecycle, an additional safeguard applies: if the proportion of accounts to be deleted at once would exceed a configured percentage, the automatic deletion is aborted completely.
 
 
 [To the top of the page ^](#delete_user)

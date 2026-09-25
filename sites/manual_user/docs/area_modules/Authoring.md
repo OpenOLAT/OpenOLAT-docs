@@ -41,7 +41,7 @@ You can find more details on the filter options and the table concept on the pag
 
 !!! tip "Tip"
 
-    If you cannot find a course or learning resource (anymore), it could possibly be due to the lifecycle. Check the settings there. Perhaps the wrong selection was made.
+    If you cannot find a course or learning resource (anymore), it could be due to the "Status" filter. Check which status values are selected there. Deleted learning resources are in the "Deleted" tab.
 
 ### 9. Configure columns
 
