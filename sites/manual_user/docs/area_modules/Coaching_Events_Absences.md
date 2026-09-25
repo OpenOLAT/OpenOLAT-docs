@@ -8,6 +8,8 @@
 
 A quick overview of the upcoming events of the current week is already available on the Coaching overview in the **Events** widget. This tool provides the complete management with Cockpit, Absences, Notices, Appeals and User search.
 
+Here you see the events and absences across all courses you are responsible for. If you are looking for the events of a single person, for example as a line manager, you find them in the detail view of the person in the tab [Events & Absences](Coaching_People.md#tab_lectures). Separate prerequisites apply there.
+
 
 ## As coach - As master coach [:octicons-tag-16:{ title="from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
@@ -148,13 +150,13 @@ When you click on one of the courses or a product found, you reach the list of t
 **Mentioned on this page**<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)
 
 **Further reading**<br>
 [Events and absences in the course >](../learningresources/Events_and_absences.md)<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>

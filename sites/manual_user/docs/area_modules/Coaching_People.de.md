@@ -82,6 +82,98 @@ Um eine Mail an **mehrere Personen** zu schreiben, markieren Sie die betreffende
 
 ---
 
+## Die Detailansicht einer Person {: #person_detail_view}
+
+Wollen Sie wissen, wie weit eine betreute Person in ihren Kursen ist, wann sie an einem Kurs teilnimmt oder seit wann sie in einen Kurs eingebucht ist, finden Sie die Antwort in ihrer Detailansicht. Sie öffnen die Detailansicht in der Personenliste mit einem Klick auf den Namen oder den Anmeldenamen der Person. Wie die Detailansicht aufgebaut ist, hängt vom Fokus-Button ab, unter dem Sie die Person geöffnet haben.
+
+### Unter "Als Betreuer:in" und "Als Kursbesitzer:in" {: #person_detail_view_coach}
+
+Betreuen Sie eine Person in Ihren Kursen, zeigt Ihnen die Detailansicht vor allem ihre Kurse, damit Sie von dort direkt in Leistungsnachweis und Bewertungswerkzeug eines Kurses springen. Tabs gibt es in dieser Ansicht nicht. Ist das Modul Course Planner eingeschaltet, stehen unter den Angaben zur Person die Umschalter "Alle Kurse" und "Bildungsprodukte"; "Bildungsprodukte" zeigt die Durchführungen der Person. In dieser Rolle sehen Sie dort auch Durchführungen in Vorbereitung im eigenen Tab "Vorbereitung", und die Spalten "Fortschritt" und "Stundenplan" erscheinen immer.
+
+Termine und Absenzen der Personen, die Sie betreuen, finden Sie in dieser Rolle im Werkzeug [Coaching - Termine und Absenzen](Coaching_Events_Absences.de.md). Es zeigt die Termine aller Ihrer betreuten Kurse, nicht die einer einzelnen Person.
+
+### Unter "Linienvorgesetzte:r", "Ausbildungsverantwortliche:r" und eigenen Rollen {: #person_detail_view_tabs}
+
+Sind Sie für eine Person als Linienvorgesetzte:r, als Ausbildungsverantwortliche:r oder in einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) zuständig, ordnet die Detailansicht alle Auskünfte über die Person nach Themen in Tabs. So finden Sie Lernstand, Termine und Buchungen der Person, ohne in die einzelnen Kurse zu wechseln. Jeder Tab erscheint nur, wenn Administrator:innen Ihrer Rolle das zugehörige Recht erteilt haben; die Rechte zeigt der Abschnitt [Kontrollaufgaben](#linemanager_educationmanager_observe). Die Tabs stehen unter den Angaben zur Person in der folgenden Reihenfolge.
+
+![Die Tabs von Kurse bis Konto stehen in einer Leiste unter den Angaben zur Person, in der Detailansicht einer Person im Coaching.](assets/coaching_people_detail_tabs_v1_de.png){ class="shadow lightbox" }
+
+#### Kurse {: #tab_courses}
+
+Hier sehen Sie, wie weit die Person in ihren Kursen ist. Je nach den Rechten Ihrer Rolle zeigt die Liste Fortschritt, Bestanden und Punkte und, bei eingeschaltetem Modul Termine und Absenzen, die Zahl der Einheiten und Absenzen je Kurs. Der Tab zeigt den Lernstand, nicht den Zeitplan: Wann ein Termin stattfindet, steht im Tab "Termine & Abwesenheiten", wann die Person eingebucht wurde, im Tab "Buchungen". Ist das Modul Course Planner eingeschaltet, wechseln Sie mit dem Umschalter "Bildungsprodukte" zu den Durchführungen der Person, siehe [Die Bildungsprodukte einer Person](#linemanager_educationmanager_products). Voraussetzung für den Tab ist das Recht "Kurse und CPL-Produkte anzeigen".
+
+#### Termine & Abwesenheiten {: #tab_lectures}
+
+Hier sehen Sie, wann die Person an einem Kurs ist. Die erste Liste nennt je Kurs die geplanten und die besuchten Einheiten (Spalten "Einheiten" und "Anwesend") sowie die Absenzen. Klicken Sie auf einen Kurs, sehen Sie die einzelnen Termine mit "Datum", "Von", "Bis", "Termin" und "Dozenten". Das ist die einzige Stelle der Detailansicht, die Datum und Uhrzeit eines Termins nennt.
+
+Voraussetzung sind das eingeschaltete [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) und das Recht "Termine und Absenzen anzeigen". Als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r sehen Sie zudem nur Kurse, die einer Organisationseinheit zugewiesen sind, in der Sie diese Rolle tragen. Das Recht allein genügt also nicht. Das ist die häufigste Ursache für eine leere Liste, obwohl das Recht gesetzt ist.
+
+![Einzelne Termine eines Kurses mit Datum, Von und Bis, nach dem Klick auf den Kurs im Tab Termine & Abwesenheiten der Detailansicht einer Person.](assets/coaching_people_lectures_detail_v1_de.png){ class="shadow lightbox" }
+
+!!! tip "Warum fehlt ein Kurs unter Termine & Abwesenheiten?"
+
+    Prüfen Sie die Ursachen in dieser Reihenfolge. Die erste greift vor allen anderen.
+
+    1. Im Kurs ist die [Termin- und Absenzenverwaltung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled) ausgeschaltet. Dann fehlt der Kurs, auch wenn Recht, Rolle und Organisationseinheit stimmen.
+    2. Für den Kurs sind keine [Termine erfasst](../learningresources/Events_and_absences.de.md).
+    3. Der Kurs gehört zu keiner Organisationseinheit, in der Sie Linienvorgesetzte:r oder Ausbildungsverantwortliche:r sind.
+    4. Der Kurs hat weder den Status "Veröffentlicht" noch den Status "Beendet".
+    5. Die Person ist im Kurs nicht Teilnehmer:in.
+
+#### Leistungsnachweise {: #tab_statements}
+
+Hier sehen Sie die Leistungsnachweise der Person, also je Kurs ihre Resultate aus den bewertbaren Kursbausteinen mit Punkten und Status. Voraussetzung ist das Recht "Leistungsnachweise anzeigen".
+
+#### Zertifikate {: #tab_certificates}
+
+Hier sehen Sie, welche Zertifikate die Person erhalten hat. Der Tab erscheint mit demselben Recht wie der Tab "Leistungsnachweise".
+
+#### Badges {: #tab_badges}
+
+Hier sehen Sie, welche Badges die Person erhalten hat. Voraussetzung ist das Recht "Badges anzeigen".
+
+#### Kreditpunkte [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"} {: #tab_credit_points}
+
+Hier sehen Sie den Stand der Kreditpunkte der Person je Kreditpunktesystem und die zugehörigen Transaktionen, nur lesend. Voraussetzung sind eingeschaltete [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) und das Recht "Kreditpunkte anzeigen".
+
+#### Buchungen {: #tab_bookings}
+
+Hier sehen Sie, wann und über welches Angebot die Person in einen Kurs oder eine Durchführung gekommen ist. Die Liste nennt je Buchung das "Auftragsdatum", das "Angebot", den "Inhalt" und den "Status". Voraussetzung sind das eingeschaltete [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) und das Recht "Buchungen anzeigen". Tragen Sie zusätzlich das Recht "Ausstehende Kursbuchungen", kann der Umschalter "Ausstehende Mitgliedschaften" erscheinen, siehe [Ausstehende Mitgliedschaften genehmigen](#linemanager_educationmanager_confirm_membership).
+
+#### Gruppen {: #tab_groups}
+
+Hier sehen Sie, in welchen Gruppen die Person Mitglied ist. Voraussetzung ist das Recht "Gruppen anzeigen".
+
+#### Kalender {: #tab_calendar}
+
+Hier sehen Sie auf einen Blick, wann die Person verplant ist. Der Kalender führt ihren persönlichen Kalender, die Kurskalender der Kurse, in denen sie Teilnehmer:in ist, und die Kalender ihrer Gruppen mit dem Werkzeug Kalender zusammen. Welche davon erscheinen, hängt davon ab, welche Kalender Administrator:innen in der [Core Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) eingeschaltet haben. Ein Termin aus der Termin- und Absenzenverwaltung erscheint nur, wenn er an einem Kurs hängt und der Kurs seine Termine mit dem Kurskalender synchronisiert. Voraussetzung für den Tab ist das Recht "Kurskalender anzeigen".
+
+!!! tip "Warum fehlt ein Kurs im Kalender?"
+
+    Prüfen Sie die Ursachen in dieser Reihenfolge.
+
+    1. Für den Kurs sind keine Termine erfasst.
+    2. Der Termin ist im Course Planner an einer Durchführung ohne verknüpften Kurs erfasst. Solche Termine erscheinen in keinem Kalender.
+    3. Im Kurs ist die Option [Kurs Kalender synchronisieren](../learningresources/Course_Settings_Execution.de.md#course_calendar_sync) ausgeschaltet.
+    4. Die Person hat eine ausstehende Mitgliedschaft und ist im Kurs noch nicht Teilnehmer:in.
+    5. Der Kurs hat weder den Status "Freigabe Betreuer:innen" noch "Veröffentlicht" noch "Beendet".
+
+    An Ihrer Berechtigung liegt es nicht. Der Kalender zeigt die Kurse der Person unabhängig davon, zu welcher Organisationseinheit sie gehören.
+
+Die Tabs "Termine & Abwesenheiten" und "Kalender" können für denselben Kurs Verschiedenes zeigen, weil sie nicht dasselbe prüfen. "Termine & Abwesenheiten" verlangt den Status "Veröffentlicht" oder "Beendet" und bei Linienvorgesetzten und Ausbildungsverantwortlichen die passende Organisationseinheit. Der Kalender begnügt sich mit dem Status "Freigabe Betreuer:innen" und fragt nicht nach der Organisationseinheit. Zudem folgt der Kalender der Einstellung "Termin- und Absenzenverwaltung" im Kurs nicht: Ist sie ausgeschaltet, fehlt der Kurs unter "Termine & Abwesenheiten", während seine Termine im Kalender weiterhin erscheinen können.
+
+#### Profil {: #tab_profile}
+
+Hier sehen Sie die Profilangaben der Person. Mit dem Recht "Profil anzeigen" ist der Tab nur lesend, mit dem Recht "Profil editieren" können Sie die Angaben auch bearbeiten. Hat die Person zusätzliche Rollen, bleibt der Tab nur lesend, siehe [Erweiterte Personensicht](#linemanager_educationmanager_extended_view).
+
+#### Konto {: #tab_account}
+
+Hier sehen Sie, wann das Konto der Person angelegt wurde und wann sie sich zuletzt angemeldet hat, und Sie können den Status des Kontos ändern, etwa um es zu deaktivieren. Voraussetzung ist das Recht "Konten deaktivieren".
+
+[Zum Seitenanfang ^](#people)
+
+---
+
 ## Coaching-Aufgaben als Linienvorgesetzte / Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #linemanager_educationmanager}
 
 Linienvorgesetzte und Ausbildungsverantwortliche finden im Coaching Tool unter Personen einen zusätzlichen Button, unter dem sie alle Personen finden, für die sie in ihrer Rolle zuständig sind.
@@ -179,6 +271,8 @@ Grundsätzlich werden Ihnen als Linienvorgesetzte:r oder Ausbildungsverantwortli
 * Sie können sich erhaltene Badges und andere Leistungsdaten anzeigen lassen, aber selbst keine Badges vergeben.
 * Sie können sich Absenzen anzeigen lassen, aber nicht selbst erfassen. Dies müssen die Kursbesitzer:innen/Betreuer:innen. Das Erstellen von Absenzenreports ist dagegen möglich.
 
+In der Detailansicht einer Person finden Sie diese Angaben in eigenen Tabs: die besuchten Kurse im Tab [Kurse](#tab_courses), die erhaltenen Badges im Tab [Badges](#tab_badges) und die Absenzen im Tab [Termine & Abwesenheiten](#tab_lectures). Welcher Tab zu welchem Recht gehört, beschreibt der Abschnitt [Die Detailansicht einer Person](#person_detail_view_tabs).
+
 Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte Rechte, können Sie diese von Administrator:innen einrichten lassen. Der nachstehende Screenshot zeigt, welche Optionen von Administrator:innen konfiguriert werden können. (Für Ausbildungsverantwortliche bestehen die gleichen Optionen.)
 
 ![Rechte der Rolle Linienvorgesetzte:r als Checkbox-Liste, von Kurse und Produkte anzeigen bis Administrative Eigenschaften anzeigen, im Tab Linienvorgesetzte:r einer Organisationseinheit.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
@@ -204,12 +298,18 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
+[Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
+[Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
+[Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
+[e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>

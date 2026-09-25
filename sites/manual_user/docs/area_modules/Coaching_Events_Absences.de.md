@@ -8,6 +8,8 @@
 
 Eine Schnellübersicht der anstehenden Termine der laufenden Woche steht bereits auf der Coaching-Übersicht im Widget **Termine** zur Verfügung. Dieses Werkzeug bietet die vollständige Verwaltung mit Cockpit, Absenzen, Meldungen, Rekursen und Personensuche.
 
+Hier sehen Sie die Termine und Absenzen über alle Kurse hinweg, für die Sie zuständig sind. Suchen Sie die Termine einer einzelnen Person, etwa als Linienvorgesetzte:r, finden Sie diese in der Detailansicht der Person im Tab [Termine & Abwesenheiten](Coaching_People.de.md#tab_lectures). Dort gelten eigene Voraussetzungen.
+
 
 ## Als Betreuer - Als Klassenlehrer [:octicons-tag-16:{ title="ab Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
@@ -148,13 +150,13 @@ Wenn Sie auf einen der gefundenen Kurse oder ein Produkt klicken, gelangen Sie z
 **Auf dieser Seite erwähnt**<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
+[Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)
 
 **Weiterführend**<br>
 [Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>

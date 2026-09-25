@@ -82,6 +82,98 @@ To write an e-mail to **several people**, select the relevant people in the firs
 
 ---
 
+## The detail view of a person {: #person_detail_view}
+
+If you want to know how far a coached person has got in their courses, when they attend a course or since when they have been booked into a course, you find the answer in their detail view. You open the detail view in the people list by clicking on the name or the username of the person. How the detail view is structured depends on the focus button under which you opened the person.
+
+### Under "As coach" and "As course owner" {: #person_detail_view_coach}
+
+If you coach a person in your courses, the detail view mainly shows you their courses, so that you can jump from there directly to the evidence of achievement and the assessment tool of a course. There are no tabs in this view. If the Course Planner module is switched on, the switches "All courses" and "Educational products" appear below the details of the person; "Educational products" shows the implementations of the person. In this role, you also see implementations in preparation there in a separate tab "Preparation", and the columns "Progress" and "Timetable" always appear.
+
+In this role, you find the events and absences of the people you coach in the tool [Coaching - Events and Absences](Coaching_Events_Absences.md). It shows the events of all the courses you coach, not those of a single person.
+
+### Under "Line manager", "Education manager" and own roles {: #person_detail_view_tabs}
+
+If you are responsible for a person as line manager, as education manager or in an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), the detail view arranges all information about the person by topic in tabs. This way you find the learning progress, events and bookings of the person without switching to the individual courses. Each tab only appears if administrators have granted your role the corresponding right; the rights are shown in the section [Observational tasks](#linemanager_educationmanager_observe). The tabs are located below the details of the person in the following order.
+
+![The tabs from Courses to Account are arranged in a bar below the details of the person, in the detail view of a person in Coaching.](assets/coaching_people_detail_tabs_v1_en.png){ class="shadow lightbox" }
+
+#### Courses {: #tab_courses}
+
+Here you see how far the person has got in their courses. Depending on the rights of your role, the list shows progress, passed and score and, if the module Events and Absences is switched on, the number of units and absences per course. The tab shows the learning progress, not the schedule: when an event takes place is shown in the tab "Events & Absences", when the person was booked in is shown in the tab "Bookings". If the Course Planner module is switched on, you switch to the implementations of the person with the switch "Educational products", see [The educational products of a person](#linemanager_educationmanager_products). The prerequisite for the tab is the right "View course and CPL products".
+
+#### Events & Absences {: #tab_lectures}
+
+Here you see when the person attends a course. The first list shows the planned and the attended units per course (columns "Units" and "Attended") as well as the absences. If you click on a course, you see the individual events with "Date", "From", "To", "Event" and "Teachers". This is the only place in the detail view that shows the date and time of an event.
+
+The prerequisites are the activated [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and the right "View events and absence". As a line manager or education manager, you moreover only see courses that are assigned to an organisation unit in which you hold this role. The right alone is therefore not sufficient. This is the most frequent cause of an empty list although the right is set.
+
+![Individual events of a course with Date, From and To, after clicking on the course in the tab Events & Absences of the detail view of a person.](assets/coaching_people_lectures_detail_v1_en.png){ class="shadow lightbox" }
+
+!!! tip "Why is a course missing under Events & Absences?"
+
+    Check the causes in this order. The first one takes effect before all others.
+
+    1. The [Event & absence management](../learningresources/Course_Settings_Execution.md#lecture_enabled) is switched off in the course. Then the course is missing, even if right, role and organisation unit are correct.
+    2. No [events have been recorded](../learningresources/Events_and_absences.md) for the course.
+    3. The course does not belong to any organisation unit in which you are line manager or education manager.
+    4. The course has neither the status "Published" nor the status "Finished".
+    5. The person is not a participant in the course.
+
+#### Efficiency statements {: #tab_statements}
+
+Here you see the evidence of achievement of the person, i.e. per course their results from the assessable course elements with points and status. The prerequisite is the right "View efficiency statements".
+
+#### Certificates {: #tab_certificates}
+
+Here you see which certificates the person has received. The tab appears with the same right as the tab "Efficiency statements".
+
+#### Badges {: #tab_badges}
+
+Here you see which badges the person has received. The prerequisite is the right "View badges".
+
+#### Credit points [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"} {: #tab_credit_points}
+
+Here you see the credit point balance of the person per credit point system and the related transactions, read-only. The prerequisites are activated [credit points](../../manual_admin/administration/e-Assessment_Credit_Points.md) and the right "View credit points".
+
+#### Bookings {: #tab_bookings}
+
+Here you see when and via which offer the person got into a course or an implementation. The list shows per booking the "Order date", the "Offer", the "Content" and the "Status". The prerequisites are the activated [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md) and the right "View bookings". If you additionally hold the right "Pending course booking orders", the switch "Pending memberships" can appear, see [Confirm pending memberships](#linemanager_educationmanager_confirm_membership).
+
+#### Groups {: #tab_groups}
+
+Here you see in which groups the person is a member. The prerequisite is the right "View groups".
+
+#### Calendar {: #tab_calendar}
+
+Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calenders".
+
+!!! tip "Why is a course missing in the calendar?"
+
+    Check the causes in this order.
+
+    1. No events have been recorded for the course.
+    2. The event has been recorded in the Course Planner on an implementation without a linked course. Such events do not appear in any calendar.
+    3. The option [Synchronize course calendar](../learningresources/Course_Settings_Execution.md#course_calendar_sync) is switched off in the course.
+    4. The person has a pending membership and is not yet a participant in the course.
+    5. The course has neither the status "Access for coach" nor "Published" nor "Finished".
+
+    It is not due to your authorisation. The calendar shows the courses of the person regardless of the organisation unit they belong to.
+
+The tabs "Events & Absences" and "Calendar" can show different things for the same course, because they do not check the same conditions. "Events & Absences" requires the status "Published" or "Finished" and, for line managers and education managers, the matching organisation unit. The calendar is content with the status "Access for coach" and does not ask for the organisation unit. In addition, the calendar does not follow the setting "Event & absence management" in the course: if it is switched off, the course is missing under "Events & Absences", while its events can still appear in the calendar.
+
+#### Profile {: #tab_profile}
+
+Here you see the profile details of the person. With the right "View profile", the tab is read-only; with the right "Edit profile", you can also edit the details. If the person has additional roles, the tab remains read-only, see [Extended people view](#linemanager_educationmanager_extended_view).
+
+#### Account {: #tab_account}
+
+Here you see when the account of the person was created and when they last logged in, and you can change the status of the account, for example to deactivate it. The prerequisite is the right "Deactivate accounts".
+
+[To the top of the page ^](#people)
+
+---
+
 ## Coaching tasks as line manager / education manager [:octicons-tag-16:{ title="from Release 20.0.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #linemanager_educationmanager}
 
 Line managers and education managers find an additional button under People in the Coaching Tool, under which they find all people they are responsible for in their role.
@@ -179,6 +271,8 @@ As a line manager or education manager, you are generally granted read access, b
 * You can view received badges and other performance data, but you cannot award badges yourself.
 * You can view absences, but you cannot record them yourself. This must be done by the course owners/coaches. Creating absence reports, however, is possible.
 
+In the detail view of a person, you find this information in separate tabs: the courses attended in the tab [Courses](#tab_courses), the badges received in the tab [Badges](#tab_badges) and the absences in the tab [Events & Absences](#tab_lectures). Which tab belongs to which right is described in the section [The detail view of a person](#person_detail_view_tabs).
+
 If you, as a line manager or education manager, want certain rights, you can have them set up by administrators. The screenshot below shows which options administrators can configure. (The same options exist for education managers.)
 
 ![Rights of the role Line manager as a checkbox list from Show courses and products to Show administrative properties, in the tab Line manager of an organisation unit in the system administration.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
@@ -204,12 +298,18 @@ Open a person and switch to "Educational products". The list shows the implement
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
+[Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Events and absences in the course >](../learningresources/Events_and_absences.md)<br>
+[e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
+[Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
