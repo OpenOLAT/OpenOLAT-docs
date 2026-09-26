@@ -11,17 +11,17 @@ Before absence management can be used, it must be activated by the course owners
 
 ## "Events" in the toolbar {: #toolbar_events}
 
-**Course owners** can add events and organize absences here. In addition, the menu "Events and absences" appears for course owners in the course administration. The options are largely identical. 
+**Course owners** can add events and organize absences here. In addition, the menu "Events and Absences" appears for course owners in the course administration. The options are largely identical. 
 
-![The menu entry "Events and absences" opens the event and absence management for course owners, in the Administration menu of the course toolbar](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" }
+![The menu entry "Events and Absences" opens the event and absence management for course owners, in the Administration menu of the course toolbar](assets/events_and_absences_adminmenu_v1_en.png){ class="shadow lightbox" }
 
 **Course coaches** see the "Events" menu only in the toolbar, not in the course administration. They also cannot create *new* events, only view existing ones and, if activated, record absences. It is also possible to filter by events for which you are registered as coach.
 
-![Coaches reach the events only via the toolbar icon "Events"; the Administration menu contains no entry "Events and absences" for them](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" }
+![Coaches with the role "Coach" reach the events only via the toolbar icon "Events"; their Administration menu contains no entry "Events and Absences"](assets/events_and_absences_toolbar_for_coach_v1_en.png){ class="shadow lightbox" }
 
 **Participants** see the "Events" menu in the toolbar and can quickly identify synchronous face-to-face or online events, e.g. in the context of blended learning. 
 
-![Participants open the course's event list via the toolbar icon "Events", with date, time, units, status, location and teachers](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" }
+![Participants open the course's event list via the toolbar icon "Events", with date, time, title, status, location and teachers](assets/events_and_absences_participant_v1_en.png){ class="shadow lightbox" }
 
 Participants can find their personal absences under "Personal tools" in the [Absences menu](../personal_menu/Absences.md).
 
@@ -33,7 +33,7 @@ The following section describes the events and absences view for **course owners
 
 ## Tab Events {: #tab_events}
 
-![The event management for course owners with the tabs Events, Participants and Appeals, the "Add event" button and the expanded detail view of an event](assets/Termine_Kursbesitzende_20.png){ class="shadow lightbox" }
+![The event management for course owners with the tabs Events, Participants and Appeals and the expanded detail view of an event, in a course of an implementation](assets/events_and_absences_owner_v1_en.png){ class="shadow lightbox" }
 
 ### Display events {: #display_events}
 
@@ -41,7 +41,7 @@ In the "Events" tab, events can be added to the course and displayed filtered ac
 
 In the 3-dot menu at the end of each line, you will find further options for an event. Here you can edit, copy, delete the event, change it to an online meeting, mark it as an exam, create PDF lists and generate further downloads. Completed events can also be reopened.
 
-![The 3-dot menu of an event offers, among others, Edit, Copy, Change to an online meeting, Mark as exam, absence and attendance list, Export and Reopen event](assets/Termine_Asenzen.jpg){ class="shadow lightbox" }
+![The 3-dot menu of a completed event offers Absence list, Attendance list, Log, Export and Reopen event, in a course of an implementation](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" }
 
 Use the column selection (gear icon) to show further columns. If the module "Rooms" is activated, the column "Rooms" with the booked rooms of the event is available there. It is hidden by default.
 
@@ -91,7 +91,7 @@ Rooms are assigned in the Course Planner. A standalone course therefore shows no
 
 To add (further) events, use the "Add event" button at the top right above the list in the "Events" tab.
 
-![The "Add event" button at the top right above the event list in the "Events" tab](assets/events_and_absences_tab_events_create1_v1_de.png){ class="shadow lightbox" }
+![The "Add event" button at the top right above the event list in the "Events" tab, here in an implementation in the Course Planner](assets/events_and_absences_tab_events_create1_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -99,7 +99,7 @@ To add (further) events, use the "Add event" button at the top right above the l
 
 A popup opens for entering all details of the event. 
 
-![Input mask for a new event with the mandatory fields Title, Date and Time, the toggle Online meeting and the switch Compulsory, popup Add event](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
+![Input mask for a new event with the mandatory fields Title, Date, Time and Unit, the toggle Online meeting with Meeting link and the switch Compulsory, wizard Add event in the Course Planner](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" }
 
  **Title**: Give the event a meaningful name.
 
