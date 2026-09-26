@@ -158,11 +158,11 @@ Under the **Configuration from the template** legend, the detailed settings take
 
 Participants who have been assigned to an exam are informed about the start of the exam at the beginning of the exam or at the beginning of the lead time. If OpenOlat is still blocked at the end of the check due to a follow-up time, they are also informed of this.
 
-![Notification "Current exam" with course, time period, lock notices and countdown to the start of the exam](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" }
+![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" }
 
 If the course owner has provided a manual start, coaches will find a start and end button for the corresponding exam configuration on the overview page of the [assessment tool](Assessment_tool_overview.md). This allows the assessment mode to be switched on manually. The start button only becomes visible to coaches once the preconfigured time window for this exam has been reached.
 
-![Assessment mode tile with button "Start" marked, overview of the assessment tool](assets/assessment_management_exam_coach_v1_de.png){ class="shadow lightbox" }
+![Assessment mode tile with button "Start exam" marked, overview of the assessment tool](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" }
 
 If the assessment mode is started manually by coaches, the lead time remains unchanged (as provided for in the configuration), even if the button to start the assessment is clicked later than planned.
 
@@ -181,7 +181,7 @@ A running assessment mode can generally be ended automatically or manually.
 
 In manual mode, coaches and course owners can complete the assessment in the **assessment tool**.
 
-![Banner "Assessment mode is active" with button "End" marked, overview of the assessment tool](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" }
+![Status bar "In progress" with button "Finish exam" marked, overview of the assessment tool](assets/assessment_management_exam_stop_v1_en.png){ class="shadow lightbox" }
 
 The assessment mode is also ended when the corresponding course is ended or deleted.
 

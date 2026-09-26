@@ -63,7 +63,7 @@ Also ask all exam participants to install the SEB on their computer. Or, if sepa
 As author of the OpenOlat exam course, you create an exam mode under<br> 
 `Course administration > Assessment management > Tab "Configuration assessment mode" > Button "Add assessment mode"`
 
-![SEB_new_assessment_mode_v1_de.png](assets/SEB_new_assessment_mode_v1_de.png){ class="shadow lightbox" }
+![Marked path via Administration and Assessment management to the tab Configuration assessment mode, there the button Add assessment mode](assets/SEB_new_assessment_mode_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#SEB)
 
@@ -75,7 +75,7 @@ The use of the SEB is optional in test mode. If desired, activate this option un
 
 `Course administration > Assessment management > Tab "Configuration assessment mode" > Select/edit mode > Tab "Safe Exam Browser"`
 
-![SEB_activate_v1_en.png](assets/SEB_activate_v1_en.png){ class="shadow lightbox" }
+![Marked tab Safe Exam Browser with the switched-off toggle Use Safe Exam Browser, further options only appear afterwards](assets/SEB_activate_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#SEB)
@@ -88,7 +88,7 @@ As soon as the SEB has been activated, the configuration options are displayed. 
 For configuration in OpenOlat applies:<br>
 The suggested settings can be set in the OpenOlat system administration. They can therefore be regarded as a recommendation from your administrator to adopt them.
 
-![SEB_config_fields_v1_en.png](assets/SEB_config_fields_v1_en.png){ class="shadow lightbox" }
+![Switched-on toggle Use Safe Exam Browser with Type of use, Configuration and Template, below the legend Assessment mode-specific configuration](assets/SEB_config_fields_v1_en.png){ class="shadow lightbox" }
 
 
 **Type of use**<br>
@@ -125,7 +125,7 @@ If exam participants click the Quit button to end the SEB restrictions, they wil
 In the case of an examination in a common examination room, for example, the examination invigilator can give this password to each person leaving the examination room.
 
 
-![SEB_config_details_v1_en.png](assets/SEB_config_details_v1_en.png){ class="shadow lightbox" }
+![Fields preset by the template from the quit link to the URL filter, below them the config key, legend Configuration from the template](assets/SEB_config_details_v1_en.png){ class="shadow lightbox" }
 
 **Link to leave SEB after the exam**<br>
 If no Quit button is to be displayed, this link can be provided in a suitable place within the exam. Exam participants can then use it to exit the Safe Exam Browser.
@@ -190,7 +190,7 @@ Reasons for suppressing the zoom could be, for example, that the exam participan
 **Activate URL-filter**<br>
 If the filter is activated, all websites are blocked except for the check. When activated, further configuration options are displayed. There you can control more precisely which URLs may also be accessed during the check.
 
-![SEB_config_url_filter_v1_en.png](assets/SEB_config_url_filter_v1_en.png){ class="shadow lightbox" }
+![Switched-on URL filtering with the four text fields for allowed and blocked expressions and regex, below them the config key](assets/SEB_config_url_filter_v1_en.png){ class="shadow lightbox" }
 
 
 **Filter embedded content as well**<br>
@@ -220,11 +220,11 @@ You should therefore only copy and use the key after you have made all the setti
 
 With "SEB with manual keys" the configuration options above are omitted; instead the field "Safe Exam Browser Keys" appears, where you enter the externally maintained keys:
 
-![SEB_config_manualkeys_v1_en.png](assets/SEB_config_manualkeys_v1_en.png){ class="shadow lightbox" }
+![Selected type SEB with manual keys, instead of the configuration fields only Information for participants and Safe Exam Browser Keys appear](assets/SEB_config_manualkeys_v1_en.png){ class="shadow lightbox" }
 
 If an imported SEB-File template is used, the legend "Configuration from the SEB-File template" additionally appears. The settings listed there are defined by the template and read-only:
 
-![SEB_config_sebfile_v1_en.png](assets/SEB_config_sebfile_v1_en.png){ class="shadow lightbox" }
+![Marked selection of the template UC1, below it the expanded legend Configuration from the SEB-File template with 205 read-only key-value entries](assets/SEB_config_sebfile_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#SEB)
@@ -236,7 +236,7 @@ If an imported SEB-File template is used, the legend "Configuration from the SEB
 In the "Safe Exam Browser" tab, select the option<br> **"Downloadable configuration file: Yes"**.<br>
 Don't forget to save the configuration!
 
-![SEB_configfile_create_v1_de.png](assets/SEB_configfile_create_v1_de.png){ class="shadow lightbox" }
+![Marked option Downloadable configuration file set to Yes in the tab Safe Exam Browser of an assessment mode](assets/SEB_configfile_create_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#SEB)
 
@@ -245,11 +245,11 @@ Don't forget to save the configuration!
 
 ### Step 6: Download configuration file {: #download_SEB_configfile}
 
-Once the configuration is complete (step 5), return to the previous level **"Exam administration"** to export the configuration file, where all exam modes are listed.
+Once the configuration is complete (step 5), return to the previous level **"Assessment management"** to export the configuration file, where all exam modes are listed.
 
 For the relevant test mode, click on <br>
 
-![SEB_configfile_download_v1_de.png](assets/SEB_configfile_download_v1_de.png){ class="shadow lightbox" }
+![Marked download icon in the column SEB of an assessment mode row with the tooltip Download configuration for Safe Exam Browser](assets/SEB_configfile_download_v1_en.png){ class="shadow lightbox" }
 
 Example: SEBClientSettings.seb
 
@@ -277,10 +277,10 @@ In order for the test participants to be able to start a test in the SEB, they m
 ## Starting the exam by coaches
 
 The start and duration of the exam is determined by the specification in the configuration of the [Assessment mode](../../manual_user/learningresources/Assessment_mode.md). If a manual start by coaches is desired, the examination mode can be activated under
-`Course administration > Assessment management > Tab "Configuration exam mode"`
+`Course administration > Assessment management > Tab "Configuration assessment mode"`
 by clicking on the **Start button**.
 
-![SEB_start_assessment_mode_v1_de.png](assets/SEB_start_assessment_mode_v1_de.png){ class="shadow lightbox" }
+![Marked column Start / End mode with the value Manual and the marked button Start in the column Start exam](assets/SEB_start_assessment_mode_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#SEB)
 
@@ -348,16 +348,16 @@ or
 
 The SEB is used as part of an **assessment mode** in OpenOlat. If the check mode is ended, the SEB is also ended.
 The automatic termination of a check mode is configured under<br>
-`Course administration > Assessment management > Tab "Configure assessment mode"`
+`Course administration > Assessment management > Tab "Configuration assessment mode"`
 
 
 ### End assessment manually (Examination at the same time for all students, by coaches)
 
 This also applies here: If the **assessment mode** is ended by the coach, the SEB is also ended. The manual termination of a running assessment mode is carried out by coaches under
-`Course administration > Assessment management > Tab "Configure assessment mode"`<br>
-As soon as an assessment mode has been activated, a "Finish" or "End assessment" button is displayed. Click one of the two buttons. The status of the exam mode then changes to "Finished".
+`Course administration > Assessment management > Tab "Configuration assessment mode"`<br>
+As soon as an assessment mode has been activated, a "Finish" or "Finish exam" button is displayed. Click one of the two buttons. The status of the exam mode then changes to "End".
 
-![SEB_quit_exam_mode_v1_de.png](assets/SEB_quit_exam_mode_v1_de.png){ class="shadow lightbox" }
+![Marked status bar of a running exam with the button Finish exam, in the list the status In progress and the button Finish](assets/SEB_quit_exam_mode_v1_en.png){ class="shadow lightbox" }
 
 
 ### Individual exit via exit link
@@ -405,4 +405,4 @@ By using the SEB, all other activities on the computer can also be blocked while
 [Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
 [As an administrator, how do I set up the Safe Exam Browser system-wide? > ](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
 
-
+[To the top of the page ^](#SEB)
