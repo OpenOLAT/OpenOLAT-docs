@@ -5,7 +5,7 @@ You can make the configurations that affect the course as a whole under:<br>
 
 The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Member management](../learningresources/Members_management.md).
 
-![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
+![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v2_en.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -13,7 +13,7 @@ The "Settings" menu is available to owners of the course, learning resource mana
 
     The settings of conventional and [learning path courses](../learningresources/Learning_path_course.md) vary slightly.
 
-    You can use the "Info", "Metadata", "Implementation" and "Release" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
+    You can use the "Info", "Metadata", "Execution" and "Share" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
 
 ## Profile
 
@@ -87,9 +87,9 @@ Here you can
 
 ## Tab Share {: #share}
 
-![Tab "Release" active in the course settings](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
+![Tab "Share" active in the course settings](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
 
-In the "Release" tab, you define how and for whom a course or learning resource is released.
+In the "Share" tab, you define how and for whom a course or learning resource is released.
 
 * Whether access is only possible for selected members, the course itself can be selected and booked or access is completely open
 * When participants can withdraw from the course
@@ -118,9 +118,9 @@ Only enter your courses in the catalog once they have been completed and should 
 
 
 
-## Tab Terms of use {: #disclaimer}
+## Tab Disclaimer {: #disclaimer}
 
-![Tab "Terms of use" active in the course settings](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
+![Tab "Disclaimer" active in the course settings](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
 
 Here
 
@@ -131,7 +131,7 @@ can be activated and stored. If a person starts the course, they must first acce
 
 In the [Member management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
 
-![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels, in the Terms of use tab](assets/disclaimer_course.png){ class="shadow lightbox" }
+![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels, in the Disclaimer tab](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_settings)
 
@@ -150,8 +150,8 @@ Which **layout templates** are available is determined by the system layout (the
 
 In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
 
-![Course menu with path and icons: status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons.png){ class="shadow lightbox" }
-![Course menu without path and icons: only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons.png){ class="shadow lightbox" }
+![Course menu with path and icons: status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons_v1_en.png){ class="shadow lightbox" }
+![Course menu without path and icons: only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" }
 
 In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
