@@ -8,13 +8,13 @@ It is then available to participants, coaches, and owners of the course. However
 
 ## Call as participant {: #call_as_participant}
 
-![Icon "Events" in the toolbar of a course from the participants' view](assets/toolbar_events_participant1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" in the toolbar of a course from the participants' view](assets/toolbar_events_participant1_v1_en.png){ class="shadow lightbox" }
 
 Participants only see the events for informational purposes. They only see their own events and only the information relevant to them. They cannot record absences here.
 
 You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming" and "Past". Use the two symbols above the list on the right to switch between the timeline and the table view.
 
-![Event list of a course from the participants' view with tabs, filters and status labels](assets/toolbar_events_participant2_v1_de.png){ class="shadow lightbox"}
+![Event list of a course from the participants' view with tabs, filters and status labels](assets/toolbar_events_participant2_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#toolbar_events)
 
@@ -24,11 +24,11 @@ You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming
 
 When coaches click the "Events" icon in the toolbar, they can **record and manage** events and absences.
 
-![Icon "Events" and role selection in the toolbar from the coaches' view](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" and role selection in the toolbar from the coaches' view](assets/toolbar_events_coach1_v1_en.png){ class="shadow lightbox" }
 
 Unlike owners, coaches only see two tabs.
 
-![Event list of a course from the coaches' view with tabs, filters and table view](assets/toolbar_events_coach2_v1_de.png){ class="shadow lightbox"}
+![Toggle All coaches and Show only mine, tabs, filters and events with status labels, event list of a course in the coaches' view](assets/toolbar_events_coach2_v2_en.png){ class="shadow lightbox" }
 
 
 
@@ -36,12 +36,12 @@ Unlike owners, coaches only see two tabs.
 
 Once an event has ended, you as the coach are notified that absences still need to be recorded. You can use the link in the notification or click the book icon in the row of an event.
 
-![Note about open absences and the book icon for recording in the event list](assets/toolbar_events_coach_record_absences1_v1_de.png){ class="shadow lightbox"}
+![Note about open absences and the book icon for recording in the event list](assets/toolbar_events_coach_record_absences1_v1_en.png){ class="shadow lightbox" }
 
 The events are divided into units (e.g., an event from 8:00 a.m. to 12:00 p.m. in 4 units of one hour each). You can record the absences for each individual unit.
-Indicate whether the absence is excused and add a comment. There is also an additional comment field for the entire event for each participant.
+Indicate whether the absence is authorized and add a comment. There is also an additional comment field for the entire event for each participant.
 
-![Form for recording the absences per unit with comment fields](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox"}
+![Absences recorded per unit, with reason and comment for an authorized absence, form for recording absences](assets/toolbar_events_coach_record_absences2_v1_en.png){ class="shadow lightbox" }
 
 If you want to complete the recording of absences at a later time, you can temporarily save your entries using the button at the bottom of the list.
 
@@ -57,7 +57,7 @@ Once the recording of absences can be finalized, proceed as follows:
 4. Click the button "Close events" at the bottom of the list
 5. A pop-up window opens where you can finalize the absence entry.
 
-![Dialogue for closing an event with effective units and a remark](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox"}
+![Button "Close events" opens a dialog with effective end and comment](assets/toolbar_events_coach_close_event_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -77,7 +77,7 @@ As a coach, you can cancel a running event by
 Under the three dots at the end of a row, you find options for creating lists and for exporting the event as a zip file.<br>
 You can [import](../learningresources/Events_and_absences.md#import_events) events exported this way back into OpenOlat elsewhere.
 
-![Menu at the end of the row with absence list, attendance list, log and export](assets/toolbar_events_coach_lists_and_export_v1_de.png){ class="shadow lightbox"}
+![Menu at the end of the row with absence list, attendance list, log and export](assets/toolbar_events_coach_lists_and_export_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -85,7 +85,7 @@ You can [import](../learningresources/Events_and_absences.md#import_events) even
 
 If appeals have been submitted for absences that were possibly recorded incorrectly, you can get an overview under this tab. Filters help you when there is a large number of appeals.
 
-![Tab "Appeals" with the filter for pending, accepted and rejected appeals](assets/toolbar_events_coach_tab_appeals_v1_de.png){ class="shadow lightbox" }
+![Tab "Appeals" with the filter for pending, approved and rejected appeals](assets/toolbar_events_coach_tab_appeals_v1_en.png){ class="shadow lightbox" }
 
 Appeals are usually processed by absence administrators, who can access all appeals across courses in the central [cross-course absence management](../area_modules/Absence_Management.md).
 
@@ -102,7 +102,7 @@ See [Recording and managing absences in a course by course owners >](../learning
 
 Technically speaking, runtime data is recorded in these two screens, in contrast to the [configuration](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management).
 
-![Icon "Events" in the toolbar from the course owners' view](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox"}
+![Icon "Events" and role selection in the toolbar of a course, here with the role Administrator](assets/toolbar_events_owner1_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#toolbar_events)
