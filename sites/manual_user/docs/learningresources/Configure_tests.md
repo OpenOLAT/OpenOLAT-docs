@@ -22,7 +22,7 @@ In the following, the setting options on the three levels are explained:
 
 At test level, you define the title that appears in the navigation. The following configurations can also be selected:
 
-![Set test title and cut value, Test configuration tab of the top level in the test editor](assets/test_configuration.png){ class="shadow lightbox" }
+![Display passed / not passed with cut value and time limit, Test configuration tab in the test editor](assets/test_editor_tab_test_configuration_v1_en.png){ class="shadow lightbox" }
 
 ### Tab Test configuration
 
@@ -49,7 +49,7 @@ At test level, you define the title that appears in the navigation. The followin
 
 In the tab expert (or on the level of the part, as far as a part has been added), the following configurations can be done:
 
-![Set navigation, number of attempts, skipping, personal notes, review and solution, Expert tab in the test editor](assets/expert.jpg){ class="shadow lightbox" }
+![Limit number of attempts with a maximum of 2 attempts and Allow personal notes, Expert tab in the test editor](assets/test_editor_tab_expert_v1_en.png){ class="shadow lightbox" }
 
 * **Navigation mode:**
 

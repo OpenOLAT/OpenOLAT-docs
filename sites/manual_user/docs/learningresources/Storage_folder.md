@@ -4,13 +4,13 @@ The "Storage folder" of a course serves the course owners as a repository for th
 
 Course participants have no direct but only indirect access to files of the storage folder. In order to access the files, they must be linked via corresponding [Course Elements](Course_Elements.md). A storage folder is always course specific.
 
-![File list of the storage folder with functions for uploading, zipping and WebDAV access, storage folder of a course](assets/Storagefolder_01.png){ class="shadow lightbox" }
+![Files and folders in table view, trash and actions for selected entries such as Zip or Send e-mail, used space below, storage folder of a course](assets/storage_folder_files_v1_en.png){ class="shadow lightbox" }
 
-In the storage folder files can be uploaded, deleted, moved, searched for, zipped, un-zipped or created. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the system administration, further file formats can be created: `Administration > External tools > Document editors`. For example, if OnlyOffice is used, Word, Excel or PowerPoint files can also be created.
+In the storage folder files can be uploaded, deleted, moved, copied, sent by e-mail, searched for, zipped, un-zipped or created. Deleted files and folders remain in the "Trash" until OpenOlat permanently deletes them after a defined number of days. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the system administration, further file formats can be created: `Administration > External tools > Document editors`. For example, if OnlyOffice is used, Word, Excel or PowerPoint files can also be created.
 
-When uploading a file, the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder.
+When uploading a file, the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder. The maximum file size is shown in the "Add files" dialog, which you open via the dropdown menu next to "Upload files". The used space of the storage folder is shown below the file list.
 
-![Maximum file size below the file field and used space of the folder at the bottom left, dialog for uploading a file to the storage folder](assets/upload_file.png){ class="shadow lightbox" }
+![Maximum file size for upload below the local file selection, Add files dialog in the storage folder](assets/storage_folder_upload_v1_en.png){ class="shadow lightbox" }
 
 Furthermore, the storage folder can be usefully provided with further subfolders and thus a systematic structuring of course-related files can be implemented.
 

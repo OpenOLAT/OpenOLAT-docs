@@ -4,13 +4,13 @@ Der "Ablageordner" eines Kurses dient den Kursbesitzer:innen als Ablage der im K
 
 Teilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf Dateien des Ablageordners. Um auf die Dateien zugreifen zu können, müssen diese über entsprechende [Kursbausteine](Course_Elements.de.md) verlinkt sein. Ein Ablageordner ist immer kursspezifisch.
 
-![Dateiliste des Ablageordners mit Funktionen zum Hochladen, Zippen und WebDAV-Zugriff, Ablageordner eines Kurses](assets/Ablageordner_01.png){ class="shadow lightbox" }
+![Dateien und Ordner in der Tabellenansicht, Papierkorb und Aktionen für ausgewählte Einträge wie Zippen oder E-Mail versenden, darunter der belegte Speicher, Ablageordner eines Kurses](assets/storage_folder_files_v1_de.png){ class="shadow lightbox" }
 
-Im Ablageordner können Dateien hochgeladen, gelöscht, verschoben, gesucht, gezippt, ausgepackt oder erstellt werden. Standardmässig können in OpenOlat HTML Dokumente erstellt werden. Sind in der System-Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden: `Administration > Externe Werkzeuge > Dokumenteneditoren`. Beispielsweise können bei Verwendung von OnlyOffice auch Word, Excel oder PowerPoint Dateien erstellt werden.
+Im Ablageordner können Dateien hochgeladen, gelöscht, verschoben, kopiert, per E-Mail versendet, gesucht, gezippt, ausgepackt oder erstellt werden. Gelöschte Dateien und Ordner liegen im "Papierkorb", bis OpenOlat sie nach einer festgelegten Anzahl Tage endgültig löscht. Standardmässig können in OpenOlat HTML Dokumente erstellt werden. Sind in der System-Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden: `Administration > Externe Werkzeuge > Dokumenteneditoren`. Beispielsweise können bei Verwendung von OnlyOffice auch Word, Excel oder PowerPoint Dateien erstellt werden.
 
-Werden Dateien hochgeladen, muss die Grössenbegrenzung sowohl für die einzelne Datei als auch das Speicherlimit des gesamten Ablageordners berücksichtigt werden. Dieses Limit gilt auch wenn die Dateien per [WebDAV](../basic_concepts/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden.
+Werden Dateien hochgeladen, muss die Grössenbegrenzung sowohl für die einzelne Datei als auch das Speicherlimit des gesamten Ablageordners berücksichtigt werden. Dieses Limit gilt auch wenn die Dateien per [WebDAV](../basic_concepts/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden. Die maximale Dateigrösse zeigt der Dialog "Dateien hinzufügen", den Sie über das Dropdown-Menü neben "Dateien hochladen" öffnen. Den belegten Speicher des Ablageordners sehen Sie unter der Dateiliste.
 
-![Maximale Dateigrösse unter dem Dateifeld und belegter Speicher des Ordners unten links, Dialog zum Hochladen einer Datei in den Ablageordner](assets/Datei_hochladen.jpg){ class="shadow lightbox" }
+![Maximale Dateigrösse für Upload unter der Auswahl der lokalen Datei, Dialog Dateien hinzufügen im Ablageordner](assets/storage_folder_upload_v1_de.png){ class="shadow lightbox" }
 
 Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen werden und so eine systematische Strukturierung von kursbezogenen Dateien umgesetzt werden.
 

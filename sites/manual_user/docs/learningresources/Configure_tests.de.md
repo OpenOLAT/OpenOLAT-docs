@@ -22,7 +22,7 @@ Im Folgenden werden die Einstellungsmöglichkeiten auf den drei Ebenen erläuter
 
 Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Zudem können folgende Konfigurationen ausgewählt werden:
 
-![Titel und Punkteschwelle eines Tests festlegen, Tab Test Konfiguration der obersten Ebene im Testeditor](assets/test_configuration_DE.png){ class="shadow lightbox" }
+![Bestanden / Nicht bestanden ausgegeben mit Punkteschwelle und Zeitbeschränkung, Tab Test Konfiguration im Testeditor](assets/test_editor_tab_test_configuration_v1_de.png){ class="shadow lightbox" }
 
 ### Tab Test Konfiguration
 
@@ -49,7 +49,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde) können folgende Konfigurationen vorgenommen werden:
 
-![Navigation, Anzahl Versuche, Überspringen, persönliche Notizen, Rückblick und Lösung einstellen, Tab Expert im Testeditor](assets/expert_DE.jpg){ class="shadow lightbox" }
+![Anzahl Versuche einschränken mit maximal 2 Versuchen und Persönliche Notizen erlauben, Tab Expert im Testeditor](assets/test_editor_tab_expert_v1_de.png){ class="shadow lightbox" }
 
 * **Navigation:**
 
