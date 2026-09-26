@@ -1,6 +1,6 @@
 # Coaching - Events and Absences {: #events}
 
-![Marked button Events / Absences under Tasks leads to the cross-course event and absence management, on the Coaching entry page.](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
+![Marked button Events / Absences under Assignments leads to the cross-course event and absence management, on the Coaching entry page.](assets/coaching_events_absences1_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Prerequisites"
 
@@ -37,7 +37,7 @@ In the tab Cockpit you find a daily overview with the sections
 (Depending on the focus you have previously set as coach or as master coach.)<br>
 Instead of the current day, you can also select another day.
 
-![Daily overview with date selection, one event with counters and book icon, below it the sections Absences and Notices with the display All or Unexcused, in the tab Cockpit.](assets/coaching_events_absences_tab_events_cockpit_v1_de.png){ class="shadow lightbox" }
+![Daily overview with date selection, one event with counters and book icon, below it the recorded absences and the section Notices with the display All or Unauthorized, in the tab Cockpit.](assets/coaching_events_absences_tab_events_cockpit_v1_en.png){ class="shadow lightbox" }
 
 Absences can be recorded by clicking on the **book icon** in the row of an event.
 
@@ -54,7 +54,7 @@ Via the course title in the overview, you reach the events of that course, where
 
 Several filter functions are available to help you keep track of many events.
 
-![Period buttons Today and upcoming, Last 3 months and Individual, filter tabs, filters Implementation, Teachers and Absences as well as the event list with status, in the tab Events.](assets/coaching_events_absences_tab_events_events_v1_de.png){ class="shadow lightbox" }
+![Period buttons Today and upcoming, Last 3 months and Custom, filter tabs, filters Product, Execution, Teachers and Absences as well as the event list with status, in the tab Events.](assets/coaching_events_absences_tab_events_events_v1_en.png){ class="shadow lightbox" }
 
 At the top right above the list, you can select the desired columns using the gear icon. Customise the list view to suit your needs.
 
@@ -81,13 +81,13 @@ In the tab Absences, you then get an overview of the recorded absences.
 
 * In the search field, you can search for users, teachers, course titles and events.
 * Limit the period for which absences are to be searched.
-* In a preselection, you can display all absences or only the unexcused absences.
+* In a preselection, you can display all absences or only the unauthorized absences.
 
-![Search field, date range and display All or Unexcused above the list of recorded absences with date, course, event, location, absent and excused, in the tab Absences.](assets/coaching_events_absences_tab_absences1_v1_de.png){ class="shadow lightbox" }
+![Search field, date range and display All or Unauthorized above the list of recorded absences with date, course, event, location, absent and authorized, in the tab Absences.](assets/coaching_events_absences_tab_absences1_v1_en.png){ class="shadow lightbox" }
 
 To excuse an absence, select the person concerned. As soon as at least one person is selected, the button for entering an excuse appears above the list.
 
-![Button Authorize absence above the list as soon as a person is selected, in the tab Absences.](assets/coaching_events_absences_authorize_v1_de.png){ class="shadow lightbox" }
+![Button Authorize absence above the list as soon as a person is selected, in the tab Absences.](assets/coaching_events_absences_authorize_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#events)
 
@@ -98,11 +98,11 @@ To excuse an absence, select the person concerned. As soon as at least one perso
 
 All notices relating to absence and dispensation are collected in this tab and can be filtered according to your needs.
 
-![Filters Type of notice, Excused and Unexcused, Reason and Date as well as the buttons Record new absence, Record new dispensation and Record new notice of absence, in the tab Notices.](assets/coaching_events_absences_tab_notices_v1_de.png){ class="shadow lightbox" }
+![Filters Type of notice, Authorized and Not authorized, Reason and Date, the buttons Record new absence, Record new dispensation and Record new notice of absence and one notice, in the tab Notices.](assets/coaching_events_absences_tab_notices_v1_en.png){ class="shadow lightbox" }
 
 In the **search field**, you can search for users, teachers, course titles and events.
 
-Filter by **type of notice** ("Without notification", "Notice of absence", "Dispensation") or<br> by **excused** and/or **unexcused**.
+Filter by **type of notice** ("Without notification", "Notice of absence", "Dispensation") or<br> by **authorized** and/or **not authorized**.
 
 The filter option **"Reason"** offers you the terms predefined by administrators.
 
@@ -135,11 +135,11 @@ Filter the list, for example, by the **status** "Pending", "Rejected" or "Approv
 
 ## Tab User search {: #tab_user_search}
 
-For the user search, use the search field and the option to switch the preselection (search by course, search by participants, search by product).
+For the user search, use the search field and the option to switch the preselection (Search by participants, Search by courses, Search by products).
 
 When you click on one of the courses or a product found, you reach the list of the people assigned there.
 
-![Marked switches Search by course, Search by participants and Search by product as well as the search field with three courses found including status and number of participants, in the tab User search.](assets/coaching_events_absences_tab_user_search_v1_de.png){ class="shadow lightbox" }
+![Marked tab User search, the switches Search by participants, Search by courses and Search by products and the search field with three participants found, in the tab User search.](assets/coaching_events_absences_tab_user_search_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#events)
 
