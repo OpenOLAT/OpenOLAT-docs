@@ -85,7 +85,7 @@ Ist der Kurs abgelaufen, sollten Sie den Status auf "Beendet" setzen.
 
 Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kurse stehen im Autorenbereich im Tab "Gelöscht". In den übrigen Tabs blendet der Filter "Status" mit der Option "Papierkorb" sie ein oder aus.
 
-![Filter Lebenszyklus mit den Optionen Aktiv, Beendet und Gelöscht im Tab Meine Kurse des Autorenbereichs, daneben der Tab Gelöscht](assets/Autorenbereich_geloescht1.jpg){ class="shadow lightbox" }
+![Option Papierkorb im aufgeklappten Filter Status, dazu der Tab Gelöscht, im Tab Meine Kurse des Autorenbereichs](assets/authoring_filter_status_trash_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Weitere Informationen"
     * [Zugangskonfiguration](Access_configuration.de.md)

@@ -80,7 +80,7 @@ If the course has expired, you should set the status to "Finished".
 
 The course is deleted via `Course > Administration > Delete`. Deleted courses are in the "Deleted" tab of the authoring area. In the other tabs, the "Status" filter with the option "Trash" shows or hides them.
 
-![Entry Delete at the bottom of the opened Administration menu of the course toolbar](assets/delete_course.png){ class="shadow lightbox" }
+![Option Trash in the opened Status filter, together with the Deleted tab, in the My courses tab of the authoring area](assets/authoring_filter_status_trash_v1_en.png){ class="shadow lightbox" }
 
 !!! note "Further Information"
     * [Access configuration](Access_configuration.md)
