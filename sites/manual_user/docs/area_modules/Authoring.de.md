@@ -6,34 +6,35 @@ Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge, um Kurse und ander
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
-![Elf nummerierte Markierungen auf den Bedienelementen des Autorenbereichs, sie entsprechen den nummerierten Abschnitten dieser Seite](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
+![Liste der eigenen Lernressourcen mit Filter-Tabs, Filterzeile, Suchfeld, Tabellenwerkzeugen und Spalten, darüber die Buttons zum Importieren und Erstellen, Tab Meine Einträge im Autorenbereich](assets/autorenbereich_uebersicht1_v2_de.png){ class="shadow lightbox" }
 
+Über die Buttons "Datei importieren" und "Erstellen" oben rechts legen Sie neue Kurse und Lernressourcen an, siehe [Autorenbereich - Kurse und Lernressourcen erstellen](authoring_new_course.de.md). Unter "Hilfe & Anleitungen" finden Sie die Hilfeangebote, die für den Autorenbereich eingerichtet sind.
 
-### 1. Favoriten
+### Favoriten {: #favourites}
 Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, wenn Sie den Autorenbereich aufrufen.
 
-### 2. Meine Kurse
+### Meine Kurse {: #my_courses}
 Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
-### 3. Meine Einträge 
+### Meine Einträge {: #my_entries}
 Im Filter-Tab "**Meine Einträge**" finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
 
-### 4. Suchmaske 
-Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen suchen. Hier sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Sie können gezielt nach einem Titel suchen oder über die Filter ihre Ergebnisse eingrenzen.
+### Suche {: #search}
+Im Filter-Tab "**Suche**" können Sie nach bestimmten Lernressourcen suchen. Hier sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Sie können gezielt nach einem Titel suchen oder über die Filter ihre Ergebnisse eingrenzen.
 
-### 5. Gelöscht {: #authoring-deleted}
+### Gelöscht {: #authoring-deleted}
 
 Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten Lernressourcen bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Hier können Sie Ihre Lernressourcen/Kurse wiederherstellen.
 Das dauerhafte Löschen der Lernressourcen/Kurse ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
-### 6. Eigene Filter-Tabs erstellen 
-Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Offenes Menü mit dem Eintrag Filter speichern rechts über der Filterzeile](assets/Autorenbereich_Filter_172.png)
+### Eigene Filter-Tabs erstellen {: #custom_filter_tabs}
+Sie können in der Zeile mit den Filter-Tabs "Favoriten" bis "Gelöscht" auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Offenes Menü mit dem Eintrag Filter speichern rechts über der Filterzeile](assets/Autorenbereich_Filter_172.png)
 
-### 7. Buttons zum Filtern
-In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezeigt. Unter **Mehr** können Sie weitere Buttons anzeigen. Klicken Sie zur weiteren Filterung auf den kleinen Pfeil nach unten und es werden die Filtermöglichkeiten zur Auswahl angezeigt.<br>
-Der Filter "Autor/Besitzer" durchsucht den Vornamen, den Nachnamen, den Benutzernamen und die E-Mail-Adresse der Besitzer:innen. Die Suche nach der E-Mail-Adresse ist besonders nützlich, wenn mehrere Autor:innen denselben Nachnamen haben.
+### Buttons zum Filtern {: #filter_buttons}
+In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezeigt, zum Beispiel "Technischer Typ", "Durchführungsformat", "Status" und "Typ". Unter **Mehr...** können Sie weitere Buttons anzeigen. Klicken Sie zur weiteren Filterung auf den kleinen Pfeil nach unten und es werden die Filtermöglichkeiten zur Auswahl angezeigt.<br>
+Der Filter "Autor:in / Besitzer:in" durchsucht den Vornamen, den Nachnamen, den Benutzernamen und die E-Mail-Adresse der Besitzer:innen. Die Suche nach der E-Mail-Adresse ist besonders nützlich, wenn mehrere Autor:innen denselben Nachnamen haben.
 
-### 8. Suchfeld 
+### Suchfeld {: #search_field}
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
 Weitere Details zu den Filteroptionen und zum Tabellenkonzept finden Sie auf der Seite [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
@@ -43,7 +44,7 @@ Weitere Details zu den Filteroptionen und zum Tabellenkonzept finden Sie auf der
     Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, könnte es am Filter "Status" liegen. Prüfen Sie, welche Status dort ausgewählt sind. Gelöschte Lernressourcen stehen im Tab "Gelöscht".
 
 
-### 9. Spalten konfigurieren
+### Spalten konfigurieren {: #configure_columns}
 
 Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden. Sie können so individuell die relevanten Informationen zusammenstellen.
 
@@ -54,10 +55,10 @@ In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOl
 
 ![Zahl 5 in der Spalte Ref. öffnet die Liste der Kurse, die die Lernressource einsetzen](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
-### 10. Tabelle downloaden
+### Tabelle downloaden {: #download_table}
 Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
 
-### 11. Spalten sortieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
+### Spalten sortieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #sort_columns}
 Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert. Leere Einträge erscheinen dabei unabhängig von der Sortierrichtung immer am Ende der Liste.
 
 **Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
@@ -84,7 +85,7 @@ Die verfügbaren Zeitabschnitte stellt die System-Administration bereit. Wie Adm
 
 ---
 
-### 12. Typfilter [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
+### Typfilter [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
 
 Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" sowie eine Gruppe **Weitere**, die folgende Typen zusammenfasst: Test (QTI 1.2, nicht mehr unterstützt), Fragebogen, Film, Animation, Andere Datei.
 
@@ -95,6 +96,7 @@ Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" so
 
 ## Weiterführende Informationen {: #further_information}
 
+[Autorenbereich - Kurse und Lernressourcen erstellen >](authoring_new_course.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>

@@ -1,4 +1,3 @@
-
 # Authoring - Overview {: #authoring}
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
@@ -7,35 +6,37 @@ In "Authoring" OpenOlat authors will find all the tools to create, import and ed
 
 All existing courses and learning resources are displayed in a table.
 
-![Eleven numbered markers on the controls of the Authoring area, they correspond to the numbered sections of this page](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
+![List of your own learning resources with filter tabs, filter row, search field, table tools and columns, above it the buttons for importing and creating, tab My entries in Authoring](assets/autorenbereich_uebersicht1_v2_en.png){ class="shadow lightbox" }
 
-### 1. Favorites
-In the filter tab "**Favorites**", you will find all the learning resources you have marked as favourites. This view is displayed by default when you call up the "Authoring".
+With the buttons "Import file" and "Create" at the top right, you add new courses and learning resources, see [Authoring - Create courses and learning resources](authoring_new_course.md). Under "Help & instructions" you find the help offers set up for Authoring.
 
-### 2. My courses
-In the filter tab "**My courses**", you will find all the courses that you have or for which you are entered as owner (co-author). "My courses" is a subset of "My entries".
+### Favourites {: #favourites}
+In the filter tab "**Favourites**", you will find all the learning resources you have marked as favourites. This view is displayed by default when you call up the "Authoring".
 
-### 3. My entries 
+### My courses {: #my_courses}
+In the filter tab "**My courses**", you will find all the courses that you have created or for which you are entered as owner (co-author). "My courses" is a subset of "My entries".
+
+### My entries {: #my_entries}
 In the filter tab "**My entries**", you will find all learning resources you have created or for which you are entered as owner (co-author). In addition to courses, these are also test learning resources, forms, etc. 
 
-### 4. Search form
+### Search form {: #search}
 In the filter tab "**Search form**", you can search for specific learning resources. All learning resources to which you have access can be found here. You can search for a specific title or use the filters to narrow down your results.
 
-### 5. Deleted {: #authoring-deleted}
+### Deleted {: #authoring-deleted}
 
 In the filter tab "**Deleted**", you have access to your deleted learning resources for which you are listed as the owner (co-author). The tab "Deleted" is therefore a kind of trash bin.
 Here you can restore your learning resources/courses.
 Only administrators or learning resource managers can permanently delete learning resources/courses.
 
-### 6. Create your own filter tabs 
-You can also completely recreate a frequently needed filter query in the line with the filter tabs (1-5).<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Open menu with the Save filter entry at the top right above the filter row](assets/Autorenbereich_Filter_172.png)
+### Create your own filter tabs {: #custom_filter_tabs}
+You can also completely recreate a frequently needed filter query in the line with the filter tabs "Favourites" to "Deleted".<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Open menu with the Save filter entry at the top right above the filter row](assets/Autorenbereich_Filter_172.png)
 
-### 7. Filter buttons
-The second line already shows several **buttons** with filter options. By pressing "**More**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>
-The Author/Owner filter searches across the owner's first name, last name, username and email address. Searching by email is especially useful when multiple authors share the same last name.
+### Filter buttons {: #filter_buttons}
+The second line already shows several **buttons** with filter options, for example "Technical Type", "Implementation format", "Status" and "Type". By pressing "**More...**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>
+The "Author / owner" filter searches across the owner's first name, last name, username and email address. Searching by email is especially useful when multiple authors share the same last name.
 
-### 8. Search box 
-In the **Search box** you can search directly for the title. Even parts of the title already provide a search result.
+### Search field {: #search_field}
+In the **search field** you can search directly for the title. Even parts of the title already provide a search result.
 
 You can find more details on the filter options and the table concept on the page [Working with tables](../basic_concepts/Table_Concept.md).
 
@@ -43,7 +44,7 @@ You can find more details on the filter options and the table concept on the pag
 
     If you cannot find a course or learning resource (anymore), it could be due to the "Status" filter. Check which status values are selected there. Deleted learning resources are in the "Deleted" tab.
 
-### 9. Configure columns
+### Configure columns {: #configure_columns}
 
 The cogwheel icon can be used to select which columns are displayed in the table. This allows you to compile the relevant information individually.
 
@@ -54,10 +55,10 @@ The column "Ref." shows whether or how often a learning resource has been refere
 
 ![The number 5 in the Ref. column opens the list of courses that use the learning resource](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
-### 10. Download table
+### Download table {: #download_table}
 You can download the entire table in the currently displayed state.
 
-### 11. Sort columns [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"}
+### Sort columns [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #sort_columns}
 By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc. Empty entries always appear at the end of the list, regardless of the sort direction.
 
 **Example**: Click on column title "Title of learning resource" to sort the table alphabetically by title. Click again and it will appear in reverse alphabetical order.
@@ -84,7 +85,7 @@ The available time periods are provided by the system administration. The page [
 
 ---
 
-### 12. Type filter [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
+### Type filter [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9204)" }](https://track.frentix.com/issue/OO-9204){:target="_blank"} {: #type_filter}
 
 The "Type" filter offers, among others, the following labels: "Audio" as well as an **Others** group, which combines the following types: Test (QTI 1.2, no longer supported), Questionnaire, Movie, Animation, Other file.
 
@@ -95,6 +96,7 @@ The "Type" filter offers, among others, the following labels: "Audio" as well as
 
 ## Further information {: #further_information}
 
+[Authoring - Create courses and learning resources >](authoring_new_course.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
