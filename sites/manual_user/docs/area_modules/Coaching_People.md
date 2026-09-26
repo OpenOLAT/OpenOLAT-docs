@@ -100,7 +100,7 @@ If you are responsible for a person as line manager, as education manager or in 
 
 #### Courses {: #tab_courses}
 
-Here you see how far the person has got in their courses. Depending on the rights of your role, the list shows progress, passed and score and, if the module Events and Absences is switched on, the number of units and absences per course. The tab shows the learning progress, not the schedule: when an event takes place is shown in the tab "Events & Absences", when the person was booked in is shown in the tab "Bookings". If the Course Planner module is switched on, you switch to the implementations of the person with the switch "Educational products", see [The educational products of a person](#linemanager_educationmanager_products). The prerequisite for the tab is the right "View course and CPL products".
+Here you see how far the person has got in their courses. Depending on the rights of your role, the list shows progress, passed and score and, if the module Events and Absences is switched on, the number of units and absences per course. The tab shows the learning progress, not the schedule: when an event takes place is shown in the tab "Events & Absences", when the person was booked in is shown in the tab "Bookings". If the Course Planner module is switched on, you switch to the implementations of the person with the switch "Educational products", see [The educational products of a person](#linemanager_educationmanager_products). The prerequisite for the tab is the right "View courses and CPL products".
 
 #### Events & Absences {: #tab_lectures}
 
@@ -122,7 +122,7 @@ The prerequisites are the activated [Module Events and Absences](../../manual_ad
 
 #### Efficiency statements {: #tab_statements}
 
-Here you see the evidence of achievement of the person, i.e. per course their results from the assessable course elements with points and status. The prerequisite is the right "View efficiency statements".
+Here you see the evidence of achievement of the person, i.e. per course their results from the assessable course elements with points and status. The prerequisite is the right "View evidence of achievement".
 
 #### Certificates {: #tab_certificates}
 
@@ -146,7 +146,7 @@ Here you see in which groups the person is a member. The prerequisite is the rig
 
 #### Calendar {: #tab_calendar}
 
-Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calenders".
+Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calendar".
 
 !!! tip "Why is a course missing in the calendar?"
 
