@@ -22,19 +22,19 @@ As the course owner, you define an assessment (flowchart) under <br>
 `Course administration > Assessment management > Tab "Configuration assessment inspection"`<br>
 There you can click on the **button "Add assessment inspection"** to add a new configuration (flowchart) to the assessment management. Already defined flowcharts will be listed.
 
-![Button "Add assessment inspection" marked, tab Configuration assessment inspection in the assessment management](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
+![Button "Add assessment inspection" marked, tab Configuration assessment inspection in the assessment management](assets/assessment_management_tab_inspection_v1_en.png){ class="shadow lightbox" }
 
 ### Tab "General"
 
 First, you define how long the assessment may last and what should be shown during the assessment: test summary, section summary, question summary, the answer submitted by the participants, and the solution. (Date and time will be determined by the coach if he/she organizes an inspection with exam participants.)
 
-![Tab "General" with fields Name, Maximum inspection time and the five checkboxes of the results overview](assets/assessment_management_inspection_general2_v1_de.png){ class="shadow lightbox" }
+![Fields Name, Maximum duration of inspection and the five checkboxes of Overview results, tab "General" of a configuration](assets/assessment_management_inspection_general2_v1_en.png){ class="shadow lightbox" }
 
 ### Tab "Access"
 
 In the "Access" tab, access can be restricted to very specific devices by specifying one or more IP addresses. (E.g. only one specific computer in one specific room).
 
-![Tab "Access" with restriction to IP address switched on and field for the permitted IP addresses](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
+![Toggle "Limit to IP address" switched on with the field "Admissible IP addresses", tab "Access" of a configuration](assets/assessment_management_inspection_access_v1_en.png){ class="shadow lightbox" }
 
 ### Tab "Safe Exam Browser (SEB)" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
 
@@ -65,12 +65,12 @@ Under the **Configuration from the template** legend, the detailed settings take
 
 As a coach, you use the **assessment tool** to organize the inspections for individual or multiple exam participants. (E.g. only for those examination participants who expressly wish to inspect the documents.)
 
-![Tab Assessment inspection and button "Add participant" marked, assessment tool of a course](assets/assessment_management_inspection_new_v1_de.png){ class="shadow lightbox" }
+![Menu entry "Assessment inspections" and button "Add members" marked, assessment tool of a course](assets/assessment_management_inspection_new_v1_en.png){ class="shadow lightbox" }
 
 A wizard guides you through the steps.
 For example, determine the date and select one of the flowcharts (configuration) predefined by the course owner. This ensures that the same conditions prevail for all inspectors.
 
-![Selection of configuration and inspection period marked, wizard step "Assessment inspection" when adding a participation](assets/assessment_management_inspection_select_config_v1_de.png){ class="shadow lightbox" }
+![Fields "Configuration" and "Inspection period" marked, wizard step "Assessment inspection" in the dialog "Grant assessment inspection"](assets/assessment_management_inspection_select_config_v1_en.png){ class="shadow lightbox" }
 
 The inspection dates can be scheduled before the audit is carried out.
 
@@ -80,7 +80,7 @@ It is advisable to accompany the inspection as a coach on the scheduled dates.
 
 The maximum viewing time specified in the configuration (by the course owner) does not necessarily have to be used until the end. As a coach, you can terminate the inspection prematurely if you notice unauthorized behavior, for example. (For example, if someone takes unauthorized photos with the mobile). You can also increase the inspection duration afterwards or withdraw an inspection that has not yet started.
 
-![Buttons "Cancel inspection", "Increase inspection duration" and "Withdraw" marked, assessment inspection list in the assessment tool](assets/assessment_management_inspection_coach1_v1_de.png){ class="shadow lightbox" }
+![Buttons "Cancel inspection", "Extend duration of inspection" and "Withdraw" marked, assessment inspection list in the assessment tool](assets/assessment_management_inspection_coach1_v1_en.png){ class="shadow lightbox" }
 
 ## Inspection from the perspective of the exam participants
 
@@ -98,7 +98,7 @@ It can therefore be proven that examination candidates who had an appointment fo
 You can use the **tabs above the table** for several people.
 You can find everything per person in the **activity log** under the 3 points at the end of a line.
 
-![Menu item "Show activity log" marked, row menu of a participation in the assessment inspection](assets/assessment_management_inspection_log_v1_de.png){ class="shadow lightbox" }
+![Status tabs above the table and menu item "Show activity log" in the row menu marked, assessment inspection list in the assessment tool](assets/assessment_management_inspection_log_v1_en.png){ class="shadow lightbox" }
 
 ## Difference: Report - Assessment
 
@@ -109,7 +109,7 @@ You can find everything per person in the **activity log** under the 3 points at
 | repeatable               | one-time                    |
 | at any time, as long as the course is accessible       | only on fixed dates         |
 | Access for owners:<br>`Course administration > Course editor > Select course element "Test" > Tab "Test configuration" > Section "Report"`| Access for owners:<br>`Course administration > Assessment management > Tab "Configuration assessment inspection"` |
-| Access for coaches:<br> `Assessment tool`  | Access for coaches:<br> `Assessment tool > Tab Assessment view` |
+| Access for coaches:<br> `Assessment tool`  | Access for coaches:<br> `Assessment tool > Assessment inspections` |
 
 ## Further information {: #further_information}
 
