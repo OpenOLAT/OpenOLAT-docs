@@ -26,9 +26,9 @@ Wird das Icon "Termine" in der Toolbar durch Betreuer:innen aufgerufen, können 
 
 ![Icon "Termine" und Rollenwechsel in der Toolbar aus Sicht der Betreuer:innen](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox"}
 
-In der Betreuer:innen-Rolle werden Ihnen im Unterschied zu Besitzer:innen nur zwei Tabs angezeigt.
+In der Betreuer:innen-Rolle fehlt Ihnen im Unterschied zu Besitzer:innen der Tab "Teilnehmer:innen". Den Tab "Rekurse" sehen Sie nur, wenn in der Administration die [Rekursmöglichkeit gewährt](../../manual_admin/administration/Modules_Events_and_Absences.de.md#appeal_enabled) und die Option ["Dozenten dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#teacher_see_appeal) eingeschaltet ist. Bleibt nur der Tab "Termine", zeigt OpenOlat die Terminliste ohne Tab-Leiste an.
 
-![Terminliste eines Kurses aus Sicht der Betreuer:innen mit Tabs, Filtern und Tabellenansicht](assets/toolbar_events_coach2_v1_de.png){ class="shadow lightbox"}
+![Umschalter Alle Betreuer:innen und Zeigt nur meine, Tabs, Filter und Termine mit Statuslabels, Terminliste eines Kurses in der Sicht der Betreuer:innen](assets/toolbar_events_coach2_v2_de.png){ class="shadow lightbox"}
 
 
 

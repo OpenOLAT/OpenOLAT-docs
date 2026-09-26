@@ -18,7 +18,7 @@ Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die i
 
 Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planners**. 
 
-![Das Widget Termine mit heutigen und bevorstehenden Terminen, hervorgehoben auf der Startseite des Course Planners](assets/course_planner_events_display1_v3_de.png){ class="shadow lightbox" }
+![Eintrag Course Planner in der Hauptnavigation und Widget Termine mit Wochenleiste und den Terminen des gewählten Tages, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display1_v4_de.png){ class="shadow lightbox" }
 
 
 
@@ -26,9 +26,9 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 
 Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine". Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl.
 
-![Der Button Termine, hervorgehoben auf der Startseite des Course Planners](assets/course_planner_events_display2_v3_de.png){ class="shadow lightbox" }
+![Button Termine im Bereich Produkte, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display2_v4_de.png){ class="shadow lightbox" }
 
-![Alle Termine mit Datum, Zeit, Einheiten, Element, Durchführung, Kurs und Dozenten, mit Zeitraum-Kacheln, Tabs und Filtern, Bereich Termine im Course Planner](assets/course_planner_events_display3_v1_de.png){ class="shadow lightbox" }
+![Alle Termine mit Status, Element, Kurs, Ort und Dozenten, darüber Zeitraum-Kacheln, Tabs und die Filter Produkt, Durchführung und Dozenten, Bereich Termine im Course Planner](assets/course_planner_events_display3_v2_de.png){ class="shadow lightbox" }
 
 
 
@@ -38,14 +38,14 @@ Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Be
 Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Übersicht`
 
-![Das Widget Termine mit heutigen und bevorstehenden Terminen, nummeriert der Weg über die Durchführung zum Tab Übersicht](assets/course_planner_events_display4_v1_de.png){ class="shadow lightbox" }
+![Widget Termine mit Wochenleiste und dem Termin des gewählten Tages, nummeriert der Weg über die Durchführung zum Tab Übersicht](assets/course_planner_events_display4_v2_de.png){ class="shadow lightbox" }
 
 **Alle** Termine einer Durchführung finden Sie unter<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Sie können dort alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
+Kann der Elementtyp der Durchführung Unterelemente enthalten, können Sie dort mit den Buttons "Alle Ebenen" und "Diese Ebene" alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
 
-![Die Umschalter Alle Ebenen und Diese Ebene, die Tabs und Filter über der Terminliste, nummeriert der Weg über die Durchführung zum Tab Termine](assets/course_planner_events_display5_v1_de.png){ class="shadow lightbox" }
+![Tabs und Filter über der Terminliste mit Status, Ort und Dozenten, nummeriert der Weg über die Durchführung zum Tab Termine](assets/course_planner_events_display5_v2_de.png){ class="shadow lightbox" }
 
 ### Ansichten {: #views}
 
@@ -53,11 +53,11 @@ Die Termine können als Zeitansicht (Timeline) oder als Tabelle dargestellt werd
 
 #### Zeitansicht
 
-![Die Termine als Zeitachse nach Tagen gruppiert, der Umschalter zur Zeitansicht hervorgehoben, Bereich Termine im Course Planner](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
+![Umschalter zur Zeitansicht hervorgehoben, darunter die bevorstehenden Termine als Zeitachse nach Tagen, Bereich Termine im Course Planner](assets/course_planner_events_display7_v2_de.png){ class="shadow lightbox" }
 
 #### Tabellenansicht
 
-![Die Termine als Tabelle mit Datum, Zeit, Titel und Element, der Umschalter zur Tabellenansicht hervorgehoben, Bereich Termine im Course Planner](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
+![Umschalter zur Tabellenansicht hervorgehoben, darunter die Termine als Tabelle mit Datum, Zeit, Titel, Element und Status, Bereich Termine im Course Planner](assets/course_planner_events_display6_v2_de.png){ class="shadow lightbox" }
 
 ### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
