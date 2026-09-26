@@ -41,7 +41,7 @@ In the "Events" tab, events can be added to the course and displayed filtered ac
 
 In the 3-dot menu at the end of each line, you will find further options for an event. Here you can edit, copy, delete the event, change it to an online meeting, mark it as an exam, create PDF lists and generate further downloads. Completed events can also be reopened.
 
-![The 3-dot menu of a completed event offers Absence list, Attendance list, Log, Export and Reopen event, in a course of an implementation](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" }
+![The 3-dot menu of a scheduled event offers Edit, Copy, Change to an online meeting, Mark as exam, the lists, Log, Export and Delete, in the course toolbar under Events](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" }
 
 Use the column selection (gear icon) to show further columns. If the module "Rooms" is activated, the column "Rooms" with the booked rooms of the event is available there. It is hidden by default.
 
@@ -91,7 +91,7 @@ Rooms are assigned in the Course Planner. A standalone course therefore shows no
 
 To add (further) events, use the "Add event" button at the top right above the list in the "Events" tab.
 
-![The "Add event" button at the top right above the event list in the "Events" tab, here in an implementation in the Course Planner](assets/events_and_absences_tab_events_create1_v1_en.png){ class="shadow lightbox" }
+![The "Add event" button at the top right above the event list in the "Events" tab of a standalone course](assets/events_and_absences_tab_events_create1_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -99,7 +99,7 @@ To add (further) events, use the "Add event" button at the top right above the l
 
 A popup opens for entering all details of the event. 
 
-![Input mask for a new event with the mandatory fields Title, Date, Time and Unit, the toggle Online meeting with Meeting link and the switch Compulsory, wizard Add event in the Course Planner](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" }
+![Input mask for a new event with the mandatory fields Title, Date, Time and Unit, the toggle Online meeting with Meeting link and the switch Compulsory, popup Add event in the course](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" }
 
  **Title**: Give the event a meaningful name.
 
@@ -119,7 +119,7 @@ A popup opens for entering all details of the event.
 
  **Location**: This specifies where this event takes place. This can be, for example, an on-site location or the exact room designation.
 
- **Online meeting**: If the event is to take place online, switch on the toggle button "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting provider name" and the "URL to join the meeting".<br>
+ **Online meeting**: If the event is to take place online, switch on the toggle button "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting link provider name" and the "URL to join meeting".<br>
  The online meeting takes over the title, time and people from the event. You open it later in the event list via "Join online meeting".
 Learners have access via the calendar or the "Events" icon in the toolbar.
 
@@ -145,7 +145,7 @@ Learners have access via the calendar or the "Events" icon in the toolbar.
 As soon as at least one event is selected in the first column, the buttons for copying and deleting events appear above the list of events.<br>
 Alternatively, the options for copying and deleting can be accessed under the 3 dots at the end of a line.
 
-![With an event selected, the buttons "Copy" and "Delete" appear above the list; the same options are available in the 3-dot menu at the end of the line](assets/events_and_absences_tab_events_copy_v1_de.png){ class="shadow lightbox" }
+![With an event selected, the buttons "Copy" and "Delete" appear above the list; the same options are available in the 3-dot menu at the end of the line](assets/events_and_absences_tab_events_copy_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -156,7 +156,7 @@ Alternatively, the options for copying and deleting can be accessed under the 3 
 
 It is also possible to import events that have been exported elsewhere in OpenOlat. To do this, click on the small arrow next to the "Add event" button in the "Events" tab.
 
-![The small arrow next to the "Add event" button opens the option "Import events"](assets/events_and_absences_tab_events_import_v1_de.png){ class="shadow lightbox" }
+![The small arrow next to the "Add event" button opens the option "Import events"](assets/events_and_absences_tab_events_import_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -166,7 +166,7 @@ It is also possible to import events that have been exported elsewhere in OpenOl
 
 Under the 3 dots, an event can also be marked as an exam. For an event marked this way, for example the [Safe Exam Browser](../../manual_how-to/SEB/SEB.md) can be activated.
 
-![The option "Mark as exam" in the 3-dot menu at the end of the event line in the "Events" tab](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" }
+![The option "Mark as exam" in the 3-dot menu at the end of the event line in the "Events" tab](assets/events_and_absences_tab_events_mark_as_exam_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -194,11 +194,11 @@ Events are closed via the [event icon in the toolbar](../learningresources/Toolb
 
 An already closed event can be reopened by course owners. You will find the option "Reopen event" under the 3 dots in the line of an event.
 
-![The option "Reopen event" in the 3-dot menu of a done event](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox" }
+![The option "Reopen event" in the 3-dot menu of a done event](assets/events_and_absences_reopen_event1_v1_en.png){ class="shadow lightbox" }
 
 Alternatively, an event can also be reopened via the book icon (edit absence).
 
-![The book icon "Edit absence" opens the absence recording; the button "Reopen event" opens the closed event again](assets/Termin_wiederoeffnen_20.jpg){ class="shadow lightbox" }
+![The book icon "Edit absence" opens the absence recording; the button "Reopen event" opens the closed event again](assets/events_and_absences_reopen_event2_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -208,9 +208,9 @@ Alternatively, an event can also be reopened via the book icon (edit absence).
 
 As soon as at least one event is selected in the first column, the button "Manage teachers" appears above the list of events.
 
-![With an event selected, the button "Manage teachers" appears above the event list next to the buttons "Copy" and "Delete"](assets/events_and_absences_tab_events_teachers1_v1_de.png){ class="shadow lightbox" }
+![With an event selected, the button "Manage teachers" appears above the event list next to the buttons "Copy" and "Delete"](assets/events_and_absences_tab_events_teachers1_v1_en.png){ class="shadow lightbox" }
 
-![In the "Manage teachers" dialog, teachers are assigned to or removed from individual events via checkbox or from all events via the buttons](assets/events_and_absences_tab_events_teachers2_v1_de.png){ class="shadow lightbox" }
+![In the "Manage teachers" dialog, teachers are assigned to or removed from individual events via checkbox or from all events via the buttons](assets/events_and_absences_tab_events_teachers2_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -221,7 +221,7 @@ As soon as at least one event is selected in the first column, the button "Manag
 
 When the detail view of an event is open (after clicking on the + at the beginning of the relevant line), an icon with 3 dots is displayed at the bottom. There you will find the option to exclude the participants from the selected event.
 
-![The 3-dot menu at the bottom of the event detail view contains the option "Exclude participants"](assets/events_and_absences_tab_events_exclude_participants_v1_de.png){ class="shadow lightbox" }
+![The 3-dot menu at the bottom of the event detail view contains the option "Exclude participants"](assets/events_and_absences_tab_events_exclude_participants_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -233,7 +233,7 @@ When the detail view of an event is open (after clicking on the + at the beginni
 
 In the "Participants" tab you get an overview of all participants of the course or the selected groups. (Excluding owners and coaches, unless they are additionally registered in the role participant.) The list can be printed via the "Print" button.
 
-![The participant list shows per person first admission, units, attended, not authorized, authorized, dispensed and the coloured progress bar](assets/Termine_Tab_TN_20.png){ class="shadow lightbox" }
+![The participant list shows per person first admission, units, attended, not excused, authorized, dispensed, the coloured bar and the presence rate](assets/events_and_absences_tab_participants_v1_en.png){ class="shadow lightbox" }
 
 **First admission**<br>
 The first admission defines when the participant started the course.
@@ -245,7 +245,7 @@ Here the maximum number of units a person can achieve is displayed, regardless o
 Here it is displayed at how many units the person was present. The number of closed (done) absences is taken into account.
 
 
-**Not authorized**<br>
+**Not excused**<br>
 Units for which the person was marked as not authorized.
 
 **Authorized**<br>
@@ -254,8 +254,8 @@ Units for which the person was marked as authorized. The reason can be specified
 **Dispensed**<br>
 Units for which the person was dispensed. Whether dispensations are counted as attended is determined by the configuration of the absence management.
 
-**Progress**<br>
-The progress shows attendance graphically. Green symbolizes attendance, orange authorized, red absent or not authorized, and blue dispensed units.
+**Grafik**<br>
+The bar in the column "Grafik" shows attendance graphically. Green symbolizes attendance, orange authorized, red absent or not authorized, and blue dispensed units.
 
 :o_icon_o_midwarn:<br>
 The attention column with this icon shows whether the defined attendance rate has been reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.
@@ -274,7 +274,7 @@ If changes are not immediately visible, please log out and log in again.
 
 The threshold for mandatory attendance set for the course in general can be adjusted individually. To do this, select the person in question in the "Participants" tab and click on the edit icon.
 
-![In the "Edit participant's rate" dialog, the personal rate and the first admission of a person are adjusted; the course's rate is displayed](assets/events_and_absences_tab_participants_personal_rate_v1_de.png){ class="shadow lightbox" }
+![In the "Edit participant's rate" dialog, the personal rate and the first admission of a person are adjusted; the course's rate is displayed](assets/events_and_absences_tab_participants_personal_rate_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -285,7 +285,7 @@ The threshold for mandatory attendance set for the course in general can be adju
 
 If appeals have been submitted, you can get an overview under this tab as course owner. Filters help you with a larger number of appeals.
 
-![The "Appeals" tab lists submitted appeals and offers a filter by Pending, Approved and Rejected](assets/events_and_absences_tab_appeals1_v1_de.png){ class="shadow lightbox" }
+![The "Appeals" tab lists submitted appeals and offers a filter by Pending, Approved and Rejected](assets/events_and_absences_tab_appeals1_v1_en.png){ class="shadow lightbox" }
 
 Appeals are usually processed by absence managers, who can access all appeals across courses in the central [cross-course absence management](../area_modules/Absence_Management.md). 
 
