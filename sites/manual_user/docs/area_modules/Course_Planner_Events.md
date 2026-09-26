@@ -1,7 +1,7 @@
 # Course Planner: Events [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
-![The way to the events: the Course Planner entry in the main navigation and the Events button, both highlighted on the overview of the Course Planner](assets/course_planner_events_access_v3_en.png){ class="shadow lightbox" }
+![The way to the events: the Course Planner entry in the main navigation and the Events button, both highlighted on the overview of the Course Planner](assets/course_planner_events_access_v4_en.png){ class="shadow lightbox" }
 
 ## Which events does the Course Planner cover? {: #type_of_events}
 

@@ -1,7 +1,7 @@
 # Course Planner: Termine [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
-![Der Weg zu den Terminen: der Eintrag Course Planner im Menü Mehr und der Button Termine auf der Startseite, beide hervorgehoben](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
+![Der Weg zu den Terminen: der Eintrag Course Planner in der Hauptnavigation und der Button Termine, beide hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_access_v4_de.png){ class="shadow lightbox" }
 
 ## Um welche Termine geht es im Course Planner? {: #type_of_events}
 

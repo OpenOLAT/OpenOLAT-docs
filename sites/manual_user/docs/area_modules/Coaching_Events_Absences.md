@@ -13,7 +13,7 @@ Here you see the events and absences across all courses you are responsible for.
 
 ## As coach - As master coach [:octicons-tag-16:{ title="from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
-![Marked focus buttons As coach and As master coach above the tab bar, in the Events tool of Coaching.](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
+![Marked focus buttons As coach and As master coach above the tab bar, in the Events tool of Coaching.](assets/coaching_events_absences_events_coach-master_v1_en.png){ class="shadow lightbox" }
 
 At the top level, you can focus the view of your events and absences on your role as coach or, if applicable, as master coach.
 
