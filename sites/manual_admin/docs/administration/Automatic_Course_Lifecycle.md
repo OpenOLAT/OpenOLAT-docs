@@ -26,6 +26,8 @@ A course leaves operation in three steps, so that a mistake can be undone up to 
 
 With the configuration you define which steps the daily run carries out and how long a course waits before each step. The form "Automatic Life-cycle management" contains three checkboxes for this, one per step. As soon as you select a checkbox, a whole number as a mandatory field and a unit appear behind it: Day, Week, Month or Year.
 
+![Marked steps Finish, Delete (Trash) and Definitely deleted, each with a checkbox and a period made of number and unit, form Automatic Life-cycle management](assets/automatic_course_lifecycle_config_v1_en.png){ class="shadow lightbox" }
+
 * **1 Finish**<br>
   The checkbox carries the text "change to finished (read only, keep user access)". The period counts from the course end ("after the course ends").
 

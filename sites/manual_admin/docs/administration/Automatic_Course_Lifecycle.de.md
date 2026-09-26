@@ -26,6 +26,8 @@ Ein Kurs verlässt den Betrieb in drei Schritten, damit sich ein Fehlgriff bis z
 
 Mit der Konfiguration legen Sie fest, welche Schritte der tägliche Lauf ausführt und wie lange ein Kurs vor jedem Schritt wartet. Das Formular "Automatische Verwaltung des Lebenszyklus" enthält dafür drei Kontrollkästchen, eines pro Schritt. Sobald Sie ein Kontrollkästchen wählen, erscheinen dahinter eine ganze Zahl als Pflichtfeld und eine Einheit: Tag, Woche, Monat oder Jahr.
 
+![Markierte Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen, je mit Kontrollkästchen und Frist aus Zahl und Einheit, Formular Automatische Verwaltung des Lebenszyklus](assets/automatic_course_lifecycle_config_v1_de.png){ class="shadow lightbox" }
+
 * **1 Beendet**<br>
   Das Kontrollkästchen trägt den Text "wechselt zu beenden (Benutzer:innen behalten den Zugriff, Lesemodus)". Die Frist zählt ab dem Kursende ("nach Kursende").
 
