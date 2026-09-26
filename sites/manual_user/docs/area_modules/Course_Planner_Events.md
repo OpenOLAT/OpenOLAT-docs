@@ -1,7 +1,7 @@
 # Course Planner: Events [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
-![The way to the events: the Course Planner entry in the More menu and the Events button on the start page, both highlighted](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
+![The way to the events: the Course Planner entry in the main navigation and the Events button, both highlighted on the overview of the Course Planner](assets/course_planner_events_access_v3_en.png){ class="shadow lightbox" }
 
 ## Which events does the Course Planner cover? {: #type_of_events}
 
@@ -17,16 +17,16 @@ The events created and displayed in the Course Planner refer to the elements use
 
 You can find a selection of current events on the **overview of the Course Planner**.
 
-![The Events widget with today's and upcoming events, highlighted on the Course Planner start page](assets/course_planner_events_display1_v3_de.png){ class="shadow lightbox" }
+![Course Planner entry in the main navigation and Events widget with the week bar and the events of the selected day, highlighted on the overview of the Course Planner](assets/course_planner_events_display1_v4_en.png){ class="shadow lightbox" }
 
 
 ### List of all events {: #event_list}
 
 You will find the complete overview of all events in the Course Planner in the "Events" area. Use the tabs and filters to narrow down and select.
 
-![The Events button, highlighted on the Course Planner start page](assets/course_planner_events_display2_v3_de.png){ class="shadow lightbox" }
+![Events button in the Products area, highlighted on the overview of the Course Planner](assets/course_planner_events_display2_v4_en.png){ class="shadow lightbox" }
 
-![All events with date, time, units, element, implementation, course and lecturers, with period tiles, tabs and filters, Events area in the Course Planner](assets/course_planner_events_display3_v1_de.png){ class="shadow lightbox" }
+![All events with status, element, course, location and teachers, above them the period tiles, tabs and the filters Product, Execution and Teachers, Events area in the Course Planner](assets/course_planner_events_display3_v2_en.png){ class="shadow lightbox" }
 
 
 ### Events of an implementation {: #events_of_an_implementation}
@@ -34,14 +34,14 @@ You will find the complete overview of all events in the Course Planner in the "
 You can also find the **currently upcoming** events of an implementation under<br>
 `Course Planner > Implementations > "your implementation" > Tab Overview`
 
-![The Events widget with today's and upcoming events, numbered the way via the implementation to the Overview tab](assets/course_planner_events_display4_v1_de.png){ class="shadow lightbox" }
+![Events widget with the week bar and the event of the selected day, numbered the way via the implementation to the Overview tab](assets/course_planner_events_display4_v2_en.png){ class="shadow lightbox" }
 
 **All** events of an implementation can be found under<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-You can use all levels of the product structure or just the current level as a sub-selection. Various filters are also available.
+If the element type of the implementation can contain sub-elements, you can use the "All levels" and "This level" buttons there to select all levels of the product structure or just the current level as a sub-selection. Various filters are also available.
 
-![The All levels and This level switches, the tabs and filters above the event list, numbered the way via the implementation to the Events tab](assets/course_planner_events_display5_v1_de.png){ class="shadow lightbox" }
+![Tabs and filters above the event list with status, location and teachers, numbered the way via the implementation to the Events tab](assets/course_planner_events_display5_v2_en.png){ class="shadow lightbox" }
 
 
 ### Views {: #views}
@@ -50,11 +50,11 @@ The events can be displayed as a timeline or as a table. Use the buttons at the 
 
 #### Timeline
 
-![The events as a timeline grouped by day, the switch to the timeline view highlighted, Events area in the Course Planner](assets/course_planner_events_display7_v1_de.png){ class="shadow lightbox" }
+![Switch to the timeline highlighted, below it the upcoming events as a timeline by day, Events area in the Course Planner](assets/course_planner_events_display7_v2_en.png){ class="shadow lightbox" }
 
 #### Table view
 
-![The events as a table with date, time, title and element, the switch to the table view highlighted, Events area in the Course Planner](assets/course_planner_events_display6_v1_de.png){ class="shadow lightbox" }
+![Switch to the table view highlighted, below it the events as a table with date, time, title, element and status, Events area in the Course Planner](assets/course_planner_events_display6_v2_en.png){ class="shadow lightbox" }
 
 ### Elements of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
@@ -85,7 +85,7 @@ As events refer to an implementation, you will find the option to create them un
 
 You can also import events by clicking on the small arrow next to the button.
 
-![The Add event button with the expanded Import events entry, in the Events tab of an implementation](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
+![The Add event button with the expanded Import events entry, in the Events tab of an implementation](assets/course_planner_events_create_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "So an event also appears in the calendar"
 
@@ -124,7 +124,7 @@ If a room is double-booked during the period of the event, the warning "The room
 
 If required, the events displayed in the list can also be downloaded as an Excel file. To do this, use the button at the top right of the list.
 
-![The download button at the top right above the event list, highlighted in the Events area of the Course Planner](assets/course_planner_events_download_v1_de.png){ class="shadow lightbox" }
+![The download button at the top right above the event list, highlighted in the Events area of the Course Planner](assets/course_planner_events_download_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#events)
 
