@@ -6,13 +6,13 @@ You can also enable the use of **evidence of achievement** and the awarding of *
 You can find the options for this in the sections
 
 ![1](assets/1_green_24.png) [Assessment settings](#section_assessment_settings)<br>
-![2](assets/2_green_24.png) [Assessment rights](#section_assessment_rights)<br>
+![2](assets/2_green_24.png) [User rights](#section_assessment_rights)<br>
 ![3](assets/3_green_24.png) [Evidence of achievement](#section_evidence_of_achievements)<br>
 ![4](assets/4_green_24.png) [Credit points](#section_credit_points)<br>
 ![5](assets/5_green_24.png) [Certificate](#section_certificate)<br>
 ![6](assets/6_green_24.png) [Badges](#section_badges)<br>
 
-![Six numbered sections in the "Assessment" tab of the course settings, from the assessment method to the awarding of badges](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
+![Six numbered sections from the assessment method to the awarding of badges, with score, success status and evidence of achievement switched on: "Assessment" tab of the course settings](assets/course_settings_assessment_v4_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#tab_assessment)
 
@@ -103,7 +103,7 @@ The toggle can only be switched once "With score" is on and "With success status
 
 If "With levels/grading" is active, the rating scale also determines the **success status** of the course: the course is considered passed if the **success criterion** of the rating scale is met. The success criterion is the lowest grade or performance class of the rating scale with which a performance counts as passed. "With success status" then stays switched off and can no longer be changed. If the selected rating scale has no success criterion, the course has no success status at course level.
 
-The grade is not assigned automatically: the "Assignment" is fixed to "Manually by coach". Course owners and authorised coaches apply the calculated grade in the [assessment tool](Assessment_tool_overview.md). So that coaches without ownership may apply it too, course owners set the "assign Levels/Grading" option in the [Assessment rights section](#section_assessment_rights).
+The grade is not assigned automatically: the "Assignment" is fixed to "Manually by coach". Course owners and authorised coaches apply the calculated grade in the [assessment tool](Assessment_tool_overview.md). So that coaches without ownership may apply it too, course owners set the "assign Levels/Grading" option in the [User rights section](#section_assessment_rights).
 
 ![Enabled setting "With levels/grading" with assignment, rating scale and success criterion, below it the switched-off toggle "With success status" with its note](assets/course_settings_assessment_grades_v1_en.png){ class="shadow lightbox" }
 
@@ -140,15 +140,18 @@ A learning path course can be considered passed as soon as one of the criteria i
 
 ---
 
-## ![2](assets/2_green_24.png) Section Assessment rights {: #section_assessment_rights}
+## ![2](assets/2_green_24.png) Section User rights {: #section_assessment_rights}
 
-![Options for coaches to reset participant data, to assign levels/grading and to release the assessment: Assessment rights section](assets/course_settings_assessment_user_rights_v1_de.png){ class="lightbox" }
+![Options for coaches to reset participant data, to assign levels/grading and to release the assessment: User rights section](assets/course_settings_assessment_user_rights_v1_de.png){ class="lightbox" }
 
 Coaches may be permitted to...
 
+* Set "Passed/Failed" of the course assessment manually,
 * Reset participant data,
 * Assign a grade and marks,
 * And release the assessment to the participants. 
+
+The option for the manual success status only appears if at least one criterion is checked under "With success status" in the [Assessment settings section](#section_assessment_settings). It can only be selected once "release assessment" is also checked.
 
 [To the top of the page ^](#tab_assessment)
 

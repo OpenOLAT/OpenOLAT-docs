@@ -12,7 +12,7 @@ Die Optionen dazu finden Sie in den Abschnitten
 ![5](assets/5_green_24.png) [Zertifikat](#section_certificate)<br>
 ![6](assets/6_green_24.png) [Badges](#section_badges)<br>
 
-![Sechs nummerierte Abschnitte im Tab "Bewertung" der Kurseinstellungen, von der Bewertungsmethode bis zur Vergabe von Badges](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
+![Sechs nummerierte Abschnitte von der Bewertungsmethode bis zur Vergabe von Badges, mit Punkten, Erfolgsstatus und eingeschaltetem Leistungsnachweis: Tab "Bewertung" der Kurseinstellungen](assets/course_settings_assessment_v4_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#tab_assessment)
 
@@ -150,10 +150,12 @@ Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft
 
 Betreuenden kann gestattet werden ...
 
+* den Erfolgsstatus "Bestanden/Nicht bestanden" der Kurs-Bewertung manuell zu setzen,
 * Daten von Teilnehmenden zurückzusetzen,
 * eine Einstufung und Noten zuzuweisen,
 * und die Bewertung für die Teilnehmer:innen freizugeben. 
 
+Die Option für den manuellen Erfolgsstatus erscheint nur, wenn im [Abschnitt Einstellungen Bewertung](#section_assessment_settings) unter "Mit Erfolgsstatus" mindestens ein Kriterium angehakt ist. Wählbar ist sie erst, wenn auch "Bewertung freigeben" angehakt ist.
 
 [Zum Seitenanfang ^](#tab_assessment)
 
