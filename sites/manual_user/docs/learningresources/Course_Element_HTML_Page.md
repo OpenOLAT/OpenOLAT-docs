@@ -211,7 +211,7 @@ If you want to show two or three images in a row, for example photos for compari
 1. Place the cursor where the row of images should begin.
 2. Click the image icon in the toolbar or select the entry "Image..." in the "Insert" menu.
 3. In the "General" tab, select the image file under "Source".
-4. Under "Class", select the entry "Left".
+4. Check that the entry "Left" is selected under "Class". It is preset for a new image.
 5. Under "Width", enter a value small enough for all images to fit into the line together.
 6. Click "Save".
 7. Place the cursor directly behind the inserted image and repeat steps 2 to 6 for each further image.

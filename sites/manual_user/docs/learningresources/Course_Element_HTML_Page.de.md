@@ -213,7 +213,7 @@ Möchten Sie zwei oder drei Bilder in einer Reihe zeigen, etwa Fotos zum Verglei
 1. Setzen Sie den Cursor an die Stelle, an der die Bildreihe beginnen soll.
 2. Klicken Sie in der Werkzeugleiste auf das Bildsymbol oder wählen Sie im Menü "Einfügen" den Eintrag "Bild...".
 3. Wählen Sie im Tab "Allgemein" unter "Quelle" die Bilddatei aus.
-4. Wählen Sie unter "Klasse" den Eintrag "Linksbündig".
+4. Prüfen Sie, dass unter "Klasse" der Eintrag "Linksbündig" gewählt ist. Bei einem neuen Bild ist er voreingestellt.
 5. Tragen Sie unter "Breite" einen Wert ein, der klein genug ist, damit alle Bilder zusammen in die Zeile passen.
 6. Klicken Sie auf "Speichern".
 7. Setzen Sie den Cursor direkt hinter das eingefügte Bild und wiederholen Sie die Schritte 2 bis 6 für jedes weitere Bild.

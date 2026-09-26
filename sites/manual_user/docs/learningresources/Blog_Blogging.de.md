@@ -53,7 +53,7 @@ Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufüge
 
 **Titel:** Geben Sie einen Titel ein, der den Blogeintrag beschreibt. Dieses Feld ist obligatorisch.
 
-**Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt. Sie schreiben den Inhalt im selben HTML-Editor wie im Kursbaustein "HTML-Seite", hier aber ohne das Menü "Tabelle". Wie Sie mehrere Bilder nebeneinander anordnen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](Course_Element_HTML_Page.de.md#images_side_by_side).
+**Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt. Dafür wechseln Sie oben rechts am Feld von "Mehrere Zeilen" auf "Formatiert". Sie schreiben den Inhalt im selben HTML-Editor wie im Kursbaustein "HTML-Seite", hier aber ohne das Menü "Tabelle". Wie Sie mehrere Bilder nebeneinander anordnen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](Course_Element_HTML_Page.de.md#images_side_by_side).
 
 ![Drei Bilder nebeneinander in einer Reihe, angeordnet mit der Klasse Linksbündig, in einem veröffentlichten Blogeintrag](assets/blog_entry_images_side_by_side_v1_de.png){ class="shadow lightbox" }
 

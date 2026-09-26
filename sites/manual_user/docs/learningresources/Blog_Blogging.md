@@ -53,7 +53,7 @@ Add your own entry by using the "Add entry" button.<br>
 
 **Title:** Enter a title that describes the blog entry. This field is mandatory.
 
-**Content:** The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted. You write the content in the same HTML editor as in the course element "HTML page", but here without the "Table" menu. How to arrange several images side by side is described in the section [Several images side by side](Course_Element_HTML_Page.md#images_side_by_side).
+**Content:** The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted. To use them, switch from "Multi-line" to "Formatted" at the top right of the field. You write the content in the same HTML editor as in the course element "HTML page", but here without the "Table" menu. How to arrange several images side by side is described in the section [Several images side by side](Course_Element_HTML_Page.md#images_side_by_side).
 
 ![Three images side by side in a row, arranged with the class Left, in a published blog entry](assets/blog_entry_images_side_by_side_v1_en.png){ class="shadow lightbox" }
 
