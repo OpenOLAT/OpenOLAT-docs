@@ -15,7 +15,7 @@ Learning resources in which you are a coach or owner are found in the "Coaching"
 
 You can also filter your courses based on various criteria, including the execution period, the implementation format, the membership status, the course role and the assessment status (result). Click the small arrow to display the further filter options.
 
-![Filter bar with execution period and further criteria, plus the controls to unfold and save the filters and to choose the columns, My courses area](assets/Kurse_20b.jpg){ class="shadow lightbox" }
+![Marked controls Save filter, Open search filters and Customize columns, filter bar in the My courses area](assets/courses_my_courses_filter_v1_en.png){ class="shadow lightbox" }
 
 Filters can also be combined and saved.
 
@@ -23,7 +23,7 @@ Filters can also be combined and saved.
 
 The system administration provides the available execution periods through the "Time periods" module. You can also choose the execution period as a sort criterion. To do so, click the button at the top right above the list. The button always carries the active criterion as its label, and the arrow symbol shows the direction.
 
-![Sort button with the active criterion Execution period and the open Sorted by list, My courses area](assets/Kurse_sort_order_v1_de.png){ class="shadow lightbox" }
+![Sort button with the active criterion Execution period and the open Sorted by list, My courses area](assets/Kurse_sort_order_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Important"
     Sorting by execution period is chronological according to the **time frame** and not alphabetical by the label: first by the begin date, without a begin date by the end date. Within the same period the sorting is alphabetical. Courses without an execution period always appear at the end of the list.
@@ -36,7 +36,7 @@ You have two options for viewing the courses. You can display the desired course
 
 Use the search function to find all the learning resources you have access to. Enter a keyword or the course title and have the matching courses or learning resources displayed. If you do not know the exact spelling, use the asterisk `*` as a wildcard for any number of characters: `Blog*` finds courses whose title begins with "Blog", `ab*cd` courses whose title begins with "ab" and ends with "cd". If you put the search term in quotation marks, for example `"Blog"`, the search only finds courses whose title reads exactly like that. Unfold the filter option to further narrow the search based on the filters.
 
-![Search field with a keyword, active filters below it and one hit as a tile, Search tab in the My courses area](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
+![Marked path Courses, My courses and Search, with a keyword, the active filter My resources and one hit as a tile](assets/courses_search_v1_en.png){ class="shadow lightbox" }
 
 If you do not find a course, check whether an unwanted filter is still active (e.g. "show only courses not passed"). In this case, remove the corresponding filter.
 
@@ -66,7 +66,7 @@ There is no filter tab "Preparation" here. Learning resources that are not yet p
 
 The learning resources with the status "In preparation" appear here. They are not yet accessible to participants. If participants are already entered as members of the learning resource, a corresponding information is displayed for them.
 
-![Message Content in preparation with the note about access after publication, course in the In preparation area](assets/Kurse_in_Vorbereitung.png){ class="shadow lightbox" }
+![Message The content is not yet available with the note to try again later, course in the In preparation area](assets/courses_in_preparation_v1_en.png){ class="shadow lightbox" }
 
 For coaches and course owners, the course is also accessible in the status "Preparation".
 
