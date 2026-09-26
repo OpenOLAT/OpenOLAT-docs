@@ -11,7 +11,7 @@ Zur Auswahl stehen:
 * Statistik-Logfile mit den anonymisierten Daten der Teilnehmenden
 * Teilnehmer:innen-Logfile mit detaillierten, personalisierten Daten der Teilnehmenden
 
-![Logfile-Auswahl mit Datumsbereich und Schaltfläche "Archivieren", im Werkzeug "Archivierung & Reports" der Kurs-Administration](assets/Kuraktivitaeten_logfiles_182.png){ class="shadow lightbox" }
+![Gewähltes Statistik-Logfile mit Datumsbereich von und bis, bereit zum Archivieren, unter Logfiles im Werkzeug Archivierung & Reports der Kurs-Administration](assets/course_archive_reports_logfiles_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Datenschutz"
 

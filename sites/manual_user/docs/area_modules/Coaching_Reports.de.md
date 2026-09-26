@@ -24,10 +24,10 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 1. Klicken Sie im Hauptmenü auf `Coaching` und wählen Sie den Button `Reports`.
 2. Klicken Sie im Abschnitt **Reportvorlagen** bei der gewünschten Vorlage auf das Symbol in der Spalte "Ausführen" (**Report generieren**).
-3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Generierter Report**.
+3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Exportverlauf**.
 4. Klicken Sie beim erzeugten Report auf **Herunterladen**.
 
-![Markierte Kachel Reports im Abschnitt Aufgaben, auf der Startseite des Coaching Tools.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Markierte Kachel Reports im Abschnitt Aufgaben öffnet die Reportvorlagen, auf der Startseite des Coaching Tools.](assets/coaching_reports1_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 
@@ -37,7 +37,7 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 Die Tabelle **Reportvorlagen** zeigt für jede Vorlage Name, Kategorie, Beschreibung und Typ ("Statisch" oder "Dynamisch") sowie die Spalte "Ausführen". Über den Filter "Kategorie" grenzen Sie die Liste ein.
 
-![Tabelle Reportvorlagen mit drei Zertifikatsvorlagen, den Spalten Name, Kategorie, Beschreibung, Typ und Ausführen sowie dem Filter Kategorie, im Bereich Reports.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Markierte Spalte Ausführen startet jede der drei Zertifikatsvorlagen, in der Tabelle Reportvorlagen mit dem Filter Kategorie im Bereich Reports.](assets/coaching_reports2_v2_de.png){ class="shadow lightbox" }
 
 ### Vorlagen der Kategorie Zertifikate {: #certificate_templates}
 
@@ -53,11 +53,11 @@ Die erzeugte Excel-Datei enthält das Worksheet "Einzelkurse" und, falls das Mod
 
 ---
 
-## Generierter Report [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
+## Exportverlauf [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
 
-Die erstellten Excel-Dateien werden im Abschnitt **Generierter Report** aufgelistet. Jede Datei steht nach der Erstellung 10 Tage zum Download bereit; die verbleibende Zeit wird angezeigt. Über die nebenstehenden Aktionen können Sie die Datei herunterladen, kopieren, löschen oder Detailinformationen anzeigen.
+Die erstellten Excel-Dateien werden im Abschnitt **Exportverlauf** aufgelistet. Jede Datei steht nach der Erstellung 10 Tage zum Download bereit; die verbleibende Zeit wird angezeigt. Über die nebenstehenden Aktionen können Sie die Datei herunterladen, kopieren, löschen oder Detailinformationen anzeigen. Die Buttons **Meine Exporte löschen** und **Alle Exporte löschen** entfernen alle Dateien der Liste auf einmal; die Liste enthält nur Reports, die Sie selbst erstellt haben.
 
-![Markierter Abschnitt Generierter Report mit einer Excel-Datei, der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reports.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Markierter Abschnitt Exportverlauf zeigt den erzeugten Report mit der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reports.](assets/coaching_reports3_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#reports)
 

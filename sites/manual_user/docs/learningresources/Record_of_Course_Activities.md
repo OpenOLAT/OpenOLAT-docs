@@ -11,7 +11,7 @@ The following log files are available:
 * Statistics log file with the anonymized data of the participants
 * Participants log file with detailed, personalized data of the participants
 
-![Log file selection with date range and "Archive" button, in the "Archiving & Reporting" tool of the course administration](assets/log_files.png){ class="shadow lightbox" }
+![Selected statistics log file (anonymous activities of users) with a date range from and to, ready to archive, under Log files in the Archiving & Reporting tool of the course administration](assets/course_archive_reports_logfiles_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Privacy protection"
 

@@ -24,10 +24,10 @@ The report contains the certificate data of the persons you are responsible for 
 
 1. Click `Coaching` in the main menu and select the `Reports` button.
 2. In the **Report templates** section, click the icon in the "Run" column of the desired template (**Generate report**).
-3. The report is generated as an Excel file (.xlsx) and appears in the **Generated report** section.
+3. The report is generated as an Excel file (.xlsx) and appears in the **Export history** section.
 4. Click **Download** next to the generated report.
 
-![Marked tile Reports in the Assignments section, on the start page of the Coaching Tool.](assets/coaching_reports1_v1_de.png){ class="shadow lightbox" }
+![Marked tile Reports in the Assignments section opens the report templates, on the start page of the Coaching Tool.](assets/coaching_reports1_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
@@ -37,7 +37,7 @@ The report contains the certificate data of the persons you are responsible for 
 
 The **Report templates** table shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
 
-![Table Report templates with three certificate templates, the columns Name, Category, Description, Type and Run as well as the filter Category, in the Reports area.](assets/coaching_reports2_v1_de.png){ class="shadow lightbox" }
+![Marked column Run starts each of the three certificate templates, in the Report templates table with the Category filter in the Reports area.](assets/coaching_reports2_v2_en.png){ class="shadow lightbox" }
 
 ### Templates of the category Certificates {: #certificate_templates}
 
@@ -53,11 +53,11 @@ The generated Excel file contains the worksheet "Individual courses" and, if the
 
 ---
 
-## Generated report [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
+## Export history [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
 
-The generated Excel files are listed in the **Generated report** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information.
+The generated Excel files are listed in the **Export history** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information. The **Delete my exports** and **Delete all exports** buttons remove all files of the list at once; the list only contains reports that you created yourself.
 
-![Marked section Generated report with one Excel file, the remaining time 10 days left and the actions Info, Copy to, Delete and Download, in the Reports area.](assets/coaching_reports3_v1_de.png){ class="shadow lightbox" }
+![Marked section Export history shows the generated report with the remaining time 10 more days and the actions Info, Copy to, Delete and Download, in the Reports area.](assets/coaching_reports3_v2_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#reports)
 
