@@ -5,17 +5,17 @@
 
 Assessment management includes configuring the **assessment mode** and setting up **assessment inspection**. Both can be enabled or disabled separately here.
 
-![Assessment Management Configuration tab with the switches Enable assessment mode and Enable assessment inspection, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_config_v1_de.png){ class="shadow lightbox" }
+![Assessment Management Configuration tab with the switches Enable assessment mode and Enable assessment inspection, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_config_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#assessment_mgmt)
 
 ---
 
-## Assessment mode tab  {: #tab_mode}
+## Assessment modes tab  {: #tab_mode}
 
 As an administrator, you can view an overview of all assessment modes created in your OpenOlat instance.
 
-![Assessment mode tab with search fields and the overview table of all created assessment modes, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_modes_v1_de.png){ class="shadow lightbox" }
+![Assessment modes tab with search fields and the overview table of all created assessment modes, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_modes_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -91,7 +91,7 @@ Deactivated templates are no longer available for selection when configuring an 
 
 Via this tab, you can require a minimal version of the Safe Exam Browser instance-wide. This is helpful if versions below a certain SEB version should not be permitted.
 
-![Safe Exam Browser Versions tab with the disabled Enforce minimal SEB version switch](assets/e-assessment_mgmt_tab_version_v1_de.png){ class="shadow lightbox" }
+![Safe Exam Browser Versions tab with the disabled Enforce minimal SEB version switch](assets/e-assessment_mgmt_tab_version_v1_en.png){ class="shadow lightbox" }
 
 Activate **"Enforce minimal SEB version"**. Then set the required version separately per operating system:
 
@@ -107,7 +107,7 @@ Required minimum version for participants who start the Safe Exam Browser on Mac
 
 Required minimum version for participants who start the Safe Exam Browser on iOS.
 
-![Safe Exam Browser Versions tab with the enabled switch and the fields Minimal version Windows, Mac and iOS](assets/e-assessment_mgmt_tab_version_on_v1_de.png){ class="shadow lightbox" }
+![Safe Exam Browser Versions tab with the enabled switch and the fields Minimal version Windows, Mac and iOS](assets/e-assessment_mgmt_tab_version_on_v1_en.png){ class="shadow lightbox" }
 
 If a participant starts an exam with an older version, the exam is not released; a prompt appears to update the Safe Exam Browser.
 
