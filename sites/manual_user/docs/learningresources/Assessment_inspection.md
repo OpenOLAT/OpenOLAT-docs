@@ -88,7 +88,7 @@ As an exam participant, you will receive a notification with the date and time f
 
 Once the time slot for inspection has elapsed, the inspection is terminated. Anyone who does not start viewing their examination on time will lose time accordingly.
 
-![Dialog "Assessment inspection" with test, course, inspection period and duration, and button "Start inspection"](assets/assessment_management_inspection_participant1_v1_de.png){ class="shadow lightbox" }
+![Dialog "Assessment inspection" with test, course, inspection period and duration, and button "Start inspection"](assets/assessment_management_inspection_participant1_v1_en.png){ class="shadow lightbox" }
 
 ## Documentation of the inspections
 
