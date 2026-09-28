@@ -12,7 +12,7 @@ For example, a course can be offered free of charge to internal users, while a s
 Offers can also be displayed in the catalog for specific organizational units only. However, they can also be displayed for everyone; membership is not even required.
 
 **Example of courses offered in the catalog:**
-![Four course cards in the launcher "Selected learning resources" with type, title and subject, above them the search field on the start page of the catalog](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" }
+![Four course cards in the launcher "Selected learning resources" with type, title and subject, above them the search field](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Start page of the catalog" }
 
 [More about offers >](../area_modules/catalog2.0.md)
 
@@ -62,7 +62,7 @@ You configure the release settings directly in the offer:<br>
 Course: `Course > Administration > Settings > Share > Section "Offer" > Link "Edit offer"`<br>
 Implementation: `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers > Link "Edit offer"`
 
-![Marked fields "Published in" with internal and external catalog and "Released for" with the selection of an organisational unit, dialog Freely available](assets/offer_concepts_share_org_v1_de.png){ class="shadow lightbox" }
+![Marked fields "Published in" with internal and external catalog and "Released for" with the selection of an organisational unit](assets/offer_concepts_share_org_v1_de.png){ class="shadow lightbox" title="Dialog Freely available" }
 
 !!! info "Important"
 
@@ -90,7 +90,7 @@ Offers are created
 To offer a **course** in the catalog, select the relevant course and then<br>
 `Course > Administration > Settings > Share > Section "Offer"`
 
-![Marked button "Add offer" and the four offer types Access code, Freely available, PayPal Checkout and Without booking in the section Offer, tab Share of the course settings](assets/offer_concepts_create_offer_course_v1_de.png){ class="shadow lightbox" }
+![Marked button "Add offer" and the four offer types Access code, Freely available, PayPal Checkout and Without booking in the section Offer](assets/offer_concepts_create_offer_course_v1_de.png){ class="shadow lightbox" title="Tab Share of the course settings" }
 
 !!! tip "Tip"
 
@@ -105,7 +105,7 @@ To offer a **course** in the catalog, select the relevant course and then<br>
 To offer an **implementation** in the catalog, select the relevant implementation in the Course Planner:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
-![Marked tab Catalog and button Offers of an implementation, below them the button "Add offer", Course Planner](assets/offer_concepts_create_offer_implementation_v1_de.png){ class="shadow lightbox" }
+![Marked tab Catalog and button Offers of an implementation, below them the button "Add offer"](assets/offer_concepts_create_offer_implementation_v1_de.png){ class="shadow lightbox" title="Catalog tab of an implementation in the Course Planner" }
 
 [To the top of the page ^](#offer_concepts)
 
@@ -126,7 +126,7 @@ The following offer types can be created:
 
 When creating an offer, you select the offer type via the **"Add offer"** button.
 
-![Expanded menu "Add offer" with the offer types Freely available, Access code, Invoice and PayPal Checkout, tab Catalog of an implementation](assets/offer_concepts_add_offer_types_v1_en.png){ class="shadow lightbox" }
+![Expanded menu "Add offer" with the offer types Freely available, Access code, Invoice and PayPal Checkout](assets/offer_concepts_add_offer_types_v1_en.png){ class="shadow lightbox" title="Tab Catalog of an implementation" }
 
 [More about offer types >](../learningresources/Access_configuration.md#offer-options)
 
@@ -144,15 +144,15 @@ The catalog can include offers for
 - other learning resources
 
 
-### Offer courses [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #what_is_offered_courses}
+### Offer courses {: #what_is_offered_courses}
 
 Offers for a course are created under<br>
 `Course > Administration > Settings > Share > Section "Offer"`<br>
 Please note that the option "Bookable and open offers" must be selected beforehand under "Access for participants".
 
-![Marked path via Administration and Settings to the tab Share with the button "Add offer" and the four offer types of a course](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
+![Marked path via Administration and Settings to the tab Share with the button "Add offer" and the four offer types of a course](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" title="Share tab of the course settings" }
 
-![Selection of the offer type Without booking, Freely available, Access code or PayPal Checkout, grouped by membership and fee, dialog Add offer of a course](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" }
+![Selection of the offer type Without booking, Freely available, Access code or PayPal Checkout, grouped by membership and fee](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" title="Dialog Add offer of a course" }
 
 Detailed information about [offering courses in the catalog can be found here >](../area_modules/catalog2.0_angebote.md)
 
@@ -161,7 +161,7 @@ Detailed information about [offering courses in the catalog can be found here >]
 ---
 
 
-### Offer implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #what_is_offered_implementations}
+### Offer implementations {: #what_is_offered_implementations}
 
 If the same course is to be offered several times on different dates, this can be done in the **Course Planner** using **implementations**.
 
@@ -173,12 +173,14 @@ If an offer has been made in the catalog from within the Course Planner that can
 
 The booking order can then be confirmed.
 
+If an implementation needs further details at booking, for example dietary requirements or prior knowledge, an offer of the implementation can require forms. The booking person fills them in as steps when booking, and the answers are then available with the booking order. This is only possible for offers of implementations in the Course Planner, not for course offers and not for the offer type PayPal Checkout. [Booking order forms >](../area_modules/Course_Planner_Implementations.md#booking_order_forms) [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
 Offers for implementations are created in the Course Planner under:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
-![Marked path via Implementations and tab Catalog to the menu "Add offer" with Access code, Freely available, PayPal Checkout and Invoice, Course Planner](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
+![Marked path via Implementations and tab Catalog to the menu "Add offer" with Access code, Freely available, PayPal Checkout and Invoice](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" title="Implementation in the Course Planner" }
 
-![Selection of the offer type Freely available, Access code, Invoice or PayPal Checkout without the offer type Without booking, dialog Add offer of an implementation](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" }
+![Selection of the offer type Freely available, Access code, Invoice or PayPal Checkout without the offer type Without booking](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" title="Dialog Add offer of an implementation" }
 
 [More about offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
@@ -221,7 +223,7 @@ For an offer with invoice,
 * the membership is initially pending until an administrative role confirms the reservation.
 
 
-![Selection of the membership "Standard" (active immediately) or "With confirmation" (pending until confirmed), plus currency, price and cost center, dialog Invoice of an implementation](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" }
+![Selection of the membership "Standard" (active immediately) or "With confirmation" (pending until confirmed), plus currency, price and cost center](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" title="Dialog Invoice of an implementation" }
 
 
 !!! tip "Tip"
@@ -238,7 +240,7 @@ For an offer with invoice,
 
 When creating or editing an invoice offer, you define whether and under which conditions a booking can be cancelled. This way, users know the cancellation rules before they book.
 
-![Enabled toggle "Cancelable" with the cancellation policy "With fee", the field Cancellation fee and the deadline "Cancellable free of charge until days before start", dialog Invoice](assets/offer_concepts_invoice_cancellation_v1_en.png){ class="shadow lightbox" }
+![Enabled toggle "Cancelable" with the cancellation policy "With fee", the field Cancellation fee and the deadline "Cancellable free of charge until days before start"](assets/offer_concepts_invoice_cancellation_v1_en.png){ class="shadow lightbox" title="Dialog Invoice" }
 
 * **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
 * **Cancelable:** This toggle determines whether bookings of this offer can be cancelled. The option is enabled by default.
@@ -269,7 +271,7 @@ Organisations can define and name their own credit point systems and restrict th
 
 Additional conditions can be set for offers. Most configuration options are entered directly when creating a new offer.
 
-![Options "Available in", membership "Standard" or "With confirmation", Booking receipt and "Automatic booking", dialog Freely available of an implementation](assets/offer_concepts_example1_v1_de.png){ class="shadow lightbox" }
+![Options "Available in", membership "Standard" or "With confirmation", Booking receipt and "Automatic booking"](assets/offer_concepts_example1_v1_de.png){ class="shadow lightbox" title="Dialog Freely available of an implementation" }
 
 * **Available if: Implementation status "Provisional" and "Confirmed":**<br>
 An implementation does not have to be fully planned in order to publish an offer. For courses, the default condition is Course status "Published".

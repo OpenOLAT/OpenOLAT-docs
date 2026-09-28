@@ -7,7 +7,7 @@ Durchführungen erhalten Angebote mit Preis, Teilnehmerzahl und Werbedaten und e
 
 ## Wie setze ich das um?
 
-Im Tab «Katalog» einer Durchführung ein Angebot erstellen (wie zu jedem Katalogeintrag). Angebotstyp und Zugang festlegen, Fachbereich zuordnen und Sichtbarkeit/Zeitraum im Katalog definieren.
+Im Tab «Katalog» einer Durchführung ein Angebot erstellen (wie zu jedem Katalogeintrag). Angebotstyp und Zugang festlegen, Fachbereich zuordnen und Sichtbarkeit/Zeitraum im Katalog definieren. Am Angebot können zudem Formulare hängen, die beim Buchen als Schritte ausgefüllt werden. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
 ## Vorbedingungen
 
@@ -29,3 +29,5 @@ Das Angebot platziert die Durchführung im Katalog, ermöglicht damit die Buchun
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)
+
+[Zum Seitenanfang ^](#offers)

@@ -7,7 +7,7 @@ Implementations receive offers with price, number of participants and promotiona
 
 ## How do I do this?
 
-Create an offer in the "Catalog" tab of an implementation (as for any catalog entry). Define the offer type and access, assign a subject and define visibility and period in the catalog.
+Create an offer in the "Catalog" tab of an implementation (as for any catalog entry). Define the offer type and access, assign a subject and define visibility and period in the catalog. Forms can also be attached to the offer, which are filled in as steps when booking. [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
 ## Prerequisites
 
@@ -29,3 +29,5 @@ The offer places the implementation in the catalog, thereby enables booking and 
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../Reports_BookingOrders.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)
+
+[To the top of the page ^](#offers)

@@ -9,7 +9,7 @@ This raises the question of where in the catalog the offers are displayed.
 
 On the **home page** of the catalog, the order of the objects is determined by the launchers. The sections are referred to as launchers.
 
-![Four numbered launchers determine the order on the catalog start page: welcome text, categories, popular courses, recently published resources](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
+![Each launcher is a section of its own on the start page, here a taxonomy level with its categories and below it selected learning resources](assets/catalog20_sort_offers_startpage_v2_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.09.28" }
 
 !!! note "How do I display my courses in the catalog?"
     Instructions on how to display courses in the catalog.<br>
@@ -23,7 +23,7 @@ The order of the launchers (sections on the start page) is defined in the system
 
 The order can be set by clicking on the double arrows at the beginning of the lines.
 
-![Four launchers with double arrows in the Position column for re-ordering, Launch page tab of the catalog module](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
+![Four launchers with double arrows in the Position column for re-ordering](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" title="Launch page tab of the catalog module" }
 
 [To the top of the page ^](#catalog_sort)
 
@@ -70,20 +70,20 @@ The manually added implementations can be sorted by clicking on the double arrow
 
 If a launcher is to display subcategories, a launcher of the "taxonomy level" type is used.
 
-![Launcher Course offerings with nine category tiles as sub-pages, start page of the catalog](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
+![Launcher Course offerings with nine category tiles as sub-pages](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" title="Start page of the catalog" }
 
 The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy and must therefore be changed via taxonomy.<br>
 `Administration > Modules > Taxonomy > Activation of a taxonomy for learning resources/catalog`
 
 Example: Taxonomy structure for the taxonomy launcher displayed above:
 
-![Taxonomy levels of the catalog with the open row menu and the Edit option, Levels tab of the taxonomy](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
+![Taxonomy levels of the catalog with the open row menu and the Edit option](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" title="Levels tab of the taxonomy" }
 
 * Select the option to edit a taxonomy level from the 3 dots.<br>
 * In the "Metadata" tab, you will find the field for specifying the sorting order.<br>
 * The number specified here for the taxonomy also determines the position within the launcher. (In the example shown above: 0 = 1. Subpage/Category, 1 = 2. Subpage/Category, 2 = 3. Subpage/Category => third in the catalog)
 
-![The Sorting field with the value 2 determines the position of the sub-page, Metadata tab of a taxonomy level](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
+![The Sorting field with the value 2 determines the position of the sub-page](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" title="Metadata tab of a taxonomy level" }
 
 !!! info "Important"
 
@@ -102,7 +102,7 @@ Example: Taxonomy structure for the taxonomy launcher displayed above:
 
 The sort button sits at the top right above the list of a category. It always carries the active criterion as its label, and the arrow symbol shows the direction. A click opens the list **"Sorted by"**.
 
-![Sort button Relevance and the open Sorted by list with all criteria, table view of a catalog category](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" }
+![Sort button Relevance and the open Sorted by list with all criteria](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" title="Table view of a catalog category" }
 
 "Relevance" is available as well as all sortable columns of the list, among them "Time period" and "Time period desc.".
 
@@ -139,7 +139,7 @@ An administrator activates "Sorting by priority" in the system administration un
 
 The sort button then appears at the top right above a list. Its default criterion is "Relevance".
 
-![Sort button with the default criterion Relevance above an offer list, tile view of a catalog category](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" }
+![Sort button with the default criterion Relevance above an offer list](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" title="Tile view of a catalog category" }
 
 When "Sort by Priority" is selected, a multi-stage sorting process takes place:<br>
 1. Criterion: Sorting by priority<br>
@@ -154,17 +154,21 @@ If no date is specified, entries without a date are displayed after those with a
 ---
 
 
-### Where can I set priorities? {: #sorting_microsites_define_priority}
+### Where can I set priorities? [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} {: #sorting_microsites_define_priority}
+
+You set the priority with the offer, in the **Settings** section below the overview of the offers. The row **Catalog priority when sorting** shows the current value, the **Edit** button next to it opens the **Change priority** dialog.
 
 **In a course:**<br>
-`Course > Administration > Settings > section "Offer Overview" > click on "change"`
+`Course > Administration > Settings > Tab "Share" > Section "Settings" > Row "Catalog priority when sorting" > Button "Edit"`
 
-**In Course Planner:**<br>
-`Course Planner > Implementation > tab Catalog > button "Offers" > section "Offer Overview" > click on "change"`
+**In the Course Planner:**<br>
+`Course Planner > Implementations > "your implementation" > Tab Catalog > Offers > Section "Settings" > Row "Catalog priority when sorting" > Button "Edit"`
+
+For an implementation, the section also contains the **Booking** setting, which is described in the [manual page on implementations](Course_Planner_Implementations.md#tab_catalog_settings).
 
 Example Course Planner:
 
-![Row Catalog priority for sorting with the adjust link, Catalog tab of an implementation in the Course Planner](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
+![The row Catalog priority when sorting with the value Normal and the Edit button, above it the Booking selection](assets/catalog20_sort_offers_microsites_cp_change_priority_v2_en.png){ class="shadow lightbox" title="Settings section in the Catalog tab of an implementation · 2026.09.28" }
 
 [To the top of the page ^](#catalog_sort)
 
@@ -182,7 +186,7 @@ As a priority, you can select a preset boost value or enter your own boost value
 - ultimative (boost value 4000)
 - custom (define your own boost value)
 
-![Priority selection High with the corresponding boost value 2000, dialog Adjust priority](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" }
+![Priority selection High with the corresponding boost value 2000](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" title="Dialog Change priority" }
 
 !!! info "Important"
 
@@ -201,6 +205,7 @@ As a priority, you can select a preset boost value or enter your own boost value
 [Design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
 [External catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Activate priorities in administration >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
-[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
+[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
+[Course Planner: Implementations >](Course_Planner_Implementations.md)
 
 [To the top of the page ^](#catalog_sort)

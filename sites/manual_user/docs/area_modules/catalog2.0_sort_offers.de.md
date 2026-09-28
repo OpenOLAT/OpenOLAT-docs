@@ -9,7 +9,7 @@ Dadurch stellt sich die Frage, an welcher Stelle im Katalog die Angebote angezei
 
 Auf der **Startseite** des Katalogs wird die Reihenfolge der Objekte durch die Launcher bestimmt. Als Launcher werden die Abschnitte bezeichnet.
 
-![Vier nummerierte Launcher bestimmen die Reihenfolge auf der Katalog-Startseite: Begrüssungstext, Kategorien, Beliebte Kurse, Zuletzt veröffentlichte Ressourcen](assets/catalog20_sort_offers_startpage_v1_de.png){ class="shadow lightbox" }
+![Jeder Launcher ist ein eigener Abschnitt der Startseite, hier eine Taxonomieebene mit ihren Kategorien und darunter ausgewählte Lernressourcen](assets/catalog20_sort_offers_startpage_v2_de.png){ class="shadow lightbox" title="Startseite des Katalogs · 2026.09.28" }
 
 !!! note "Wie zeige ich meine Kurse im Katalog?"
     Anleitung zum Anzeigen von Kursen im Katalog.<br>
@@ -23,7 +23,7 @@ Die Reihenfolge der Launcher (Abschnitte auf der Startseite) wird in der System-
 
 Die Reihenfolge kann durch Klick auf die Doppelpfeile zu Beginn der Zeilen festgelegt werden.
 
-![Vier Launcher mit Doppelpfeilen in der Spalte Position zum Umsortieren, Tab Startseite im Katalog-Modul](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" }
+![Vier Launcher mit Doppelpfeilen in der Spalte Position zum Umsortieren](assets/catalog20_sort_offers_startpage_launchers_v1_de.png){ class="shadow lightbox" title="Tab Startseite im Katalog-Modul" }
 
 [Zum Seitenanfang ^](#catalog_sort)
 
@@ -70,24 +70,24 @@ Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile 
 
 Soll ein Launcher Unterkategorien anzeigen, wird ein Launcher vom Typ "Taxonomieebene" verwendet.
 
-![Launcher Kursangebote mit neun Kategorie-Kacheln als Unterseiten, Startseite des Katalogs](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" }
+![Launcher Kursangebote mit neun Kategorie-Kacheln als Unterseiten](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
 Die Reihenfolge der Einträge innerhalb des Taxonomie-Launchers (Reihenfolge der Unterseiten/Kategorien im Katalog) wird durch die Struktur der Taxonomie bestimmt und muss deshalb via Taxonomie geändert werden.<br>
 `Administration > Module > Taxonomie > Aktivierung einer Taxonomie für Lernressourcen/Katalog`
 
 Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
 
-![Taxonomieebenen des Katalogs mit dem offenen Zeilenmenü und der Option Bearbeiten, Tab Ebenen der Taxonomie](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" }
+![Taxonomieebenen des Katalogs mit dem offenen Zeilenmenü und der Option Bearbeiten](assets/catalog20_sort_offers_microsites_taxonomy2_v1_de.png){ class="shadow lightbox" title="Tab Ebenen der Taxonomie" }
 
 * Wählen Sie unter den 3 Punkten die Option zum Bearbeiten einer Taxonomieebene.<br>
 * Im Tab "Metadaten" finden Sie das Feld zur Angabe der Sortierung.<br>
 * Die hier für die Taxonomie angegebene Zahl bestimmt auch die Position innerhalb des Launchers. (Im oben gezeigten Beispiel: 0 = 1. Unterseite/Kategorie, 1 = 2. Unterseite/Kategorie, 2 = 3. Unterseite/Kategorie => im Katalog an dritter Position)
 
-![Feld Sortierung mit dem Wert 2 bestimmt die Position der Unterseite, Tab Metadaten einer Taxonomieebene](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" }
+![Feld Sortierung mit dem Wert 2 bestimmt die Position der Unterseite](assets/catalog20_sort_offers_microsites_taxonomy3_v1_de.png){ class="shadow lightbox" title="Tab Metadaten einer Taxonomieebene" }
 
 !!! info "Wichtig"
 
-    Eine Änderung der Taxonomiestruktur hat nicht nur im Katalog Auswirkungen, sondern auch überall dort, wo diese Taxonomie ebenfalls für eine Auswahl verwendet wird. 
+    Eine Änderung der Taxonomiestruktur hat nicht nur im Katalog Auswirkungen, sondern auch überall dort, wo diese Taxonomie ebenfalls für eine Auswahl verwendet wird.
 
 
 [Zum Seitenanfang ^](#catalog_sort)
@@ -102,7 +102,7 @@ Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
 
 Über der Liste einer Kategorie sitzt rechts oben der Sortier-Button. Er trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung. Ein Klick öffnet die Liste **"Sortierreihenfolge"**.
 
-![Sortier-Button Relevanz und offene Liste Sortierreihenfolge mit allen Kriterien, Tabellenansicht einer Katalogkategorie](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" }
+![Sortier-Button Relevanz und offene Liste Sortierreihenfolge mit allen Kriterien](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" title="Tabellenansicht einer Katalogkategorie" }
 
 Zur Auswahl stehen "Relevanz" sowie alle sortierbaren Spalten der Liste, darunter "Zeitabschnitt" und "Zeitabschnitt Beschr.".
 
@@ -139,7 +139,7 @@ Die "Sortierung nach Priorität" aktivieren Administrator:innen in der System-Ad
 
 Danach erscheint der Sortier-Button rechts oben über einer Auflistung. Sein Standardkriterium ist "Relevanz".
 
-![Sortier-Button mit dem Standardkriterium Relevanz über einer Angebotsliste, Kachelansicht einer Katalogkategorie](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" }
+![Sortier-Button mit dem Standardkriterium Relevanz über einer Angebotsliste](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" title="Kachelansicht einer Katalogkategorie" }
 
 Bei gewählter "Sortierung nach Relevanz" findet eine mehrstufige Sortierung statt:<br>
 1. Kriterium: Sortierung nach Priorität<br>
@@ -154,17 +154,21 @@ Ist kein Datum angegeben, werden die Einträge ohne Datum nach denen mit Datum a
 ---
 
 
-### Wo kann die Priorität eingestellt werden? {: #sorting_microsites_define_priority}
+### Wo kann die Priorität eingestellt werden? [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} {: #sorting_microsites_define_priority}
+
+Die Priorität legen Sie beim Angebot fest, im Abschnitt **Einstellungen** unter der Übersicht der Angebote. Die Zeile **Katalog-Priorität bei Sortierung** zeigt den aktuellen Wert, der Button **Bearbeiten** daneben öffnet den Dialog **Priorität anpassen**.
 
 **Im Kurs:**<br>
-`Kurs > Administration > Einstellungen > Abschnitt "Angebot Übersicht" > Klick auf "anpassen"`
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Einstellungen" > Zeile "Katalog-Priorität bei Sortierung" > Button "Bearbeiten"`
 
 **Im Course Planner:**<br>
-`Course Planner > Durchführung > Tab Katalog > Button "Angebote" > Abschnitt "Angebot Übersicht" > Klick auf "anpassen"`
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Angebote > Abschnitt "Einstellungen" > Zeile "Katalog-Priorität bei Sortierung" > Button "Bearbeiten"`
+
+Bei einer Durchführung enthält der Abschnitt zusätzlich die Einstellung **Buchung**, die das [Handbuch zu den Durchführungen](Course_Planner_Implementations.de.md#tab_catalog_settings) beschreibt.
 
 Beispiel Course Planner:
 
-![Zeile Katalog Priorität bei Sortierung mit dem Link anpassen, Tab Katalog einer Durchführung im Course Planner](assets/catalog20_sort_offers_microsites_cp_change_priority_v1_de.png){ class="shadow lightbox" }
+![Die Zeile Katalog-Priorität bei Sortierung mit dem Wert Normal und dem Button Bearbeiten, darüber die Auswahl Buchung](assets/catalog20_sort_offers_microsites_cp_change_priority_v2_de.png){ class="shadow lightbox" title="Abschnitt Einstellungen im Tab Katalog einer Durchführung · 2026.09.28" }
 
 [Zum Seitenanfang ^](#catalog_sort)
 
@@ -183,7 +187,7 @@ Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeig
 - Ultimativ (Boost-Wert 4000)
 - Benutzerdefiniert (eigener Boost-Wert)
 
-![Auswahl Priorität Hoch mit dem zugehörigen Boost-Wert 2000, Dialog Priorität anpassen](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" }
+![Auswahl Priorität Hoch mit dem zugehörigen Boost-Wert 2000](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" title="Dialog Priorität anpassen" }
 
 !!! info "Wichtig"
 
@@ -202,6 +206,7 @@ Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeig
 [Design >](../../manual_user/area_modules/catalog2.0_design.de.md)<br>
 [Externer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Aktivierung der Prioritäten in der Administration >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
-[Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
+[Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)

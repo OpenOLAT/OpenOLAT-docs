@@ -12,7 +12,7 @@ So kann z.B. für interne Benutzer:innen ein Kurs kostenlos angeboten werden, w�
 Angebote können auch nur für bestimmte Organisationseinheiten im Katalog angezeigt werden. Ebenso aber auch für alle offen, es muss nicht einmal eine Mitgliedschaft geben.
 
 **Beispiel für Kursangebote im Katalog:**
-![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld auf der Startseite des Katalogs](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" }
+![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
 [Mehr zu Angeboten >](../area_modules/catalog2.0.de.md)
 
@@ -62,7 +62,7 @@ Die Freigabe-Einstellungen nehmen Sie direkt im Angebot vor:<br>
 Kurs: `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot" > Link "Angebot editieren"`<br>
 Durchführung: `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote > Link "Angebot editieren"`
 
-![Markierte Felder "Veröffentlicht in" mit internem und externem Katalog sowie "Freigegeben für" mit der Auswahl einer Organisationseinheit, Dialog Frei verfügbar](assets/offer_concepts_share_org_v1_de.png){ class="shadow lightbox" }
+![Markierte Felder "Veröffentlicht in" mit internem und externem Katalog sowie "Freigegeben für" mit der Auswahl einer Organisationseinheit](assets/offer_concepts_share_org_v1_de.png){ class="shadow lightbox" title="Dialog Frei verfügbar" }
 
 !!! info "Wichtig"
 
@@ -90,7 +90,7 @@ Angebote werden erstellt
 Um einen **Kurs** im Katalog anzubieten, wählen Sie den betreffenden Kurs und dann<br>
 `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`
 
-![Markierter Button "Angebot hinzufügen" und die vier Angebotsarten Zugangscode, Frei verfügbar, PayPal Checkout und Ohne Buchung im Abschnitt Angebot, Tab Freigabe der Kurseinstellungen](assets/offer_concepts_create_offer_course_v1_de.png){ class="shadow lightbox" }
+![Markierter Button "Angebot hinzufügen" und die vier Angebotsarten Zugangscode, Frei verfügbar, PayPal Checkout und Ohne Buchung im Abschnitt Angebot](assets/offer_concepts_create_offer_course_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
 
 !!! tip "Tipp"
 
@@ -105,7 +105,7 @@ Um einen **Kurs** im Katalog anzubieten, wählen Sie den betreffenden Kurs und d
 Um eine **Durchführung** im Katalog anzubieten, wählen Sie die betreffende Durchführung im Course Planner:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
 
-![Markierter Tab Katalog und Button Angebote einer Durchführung, darunter der Button "Angebot hinzufügen", Course Planner](assets/offer_concepts_create_offer_implementation_v1_de.png){ class="shadow lightbox" }
+![Markierter Tab Katalog und Button Angebote einer Durchführung, darunter der Button "Angebot hinzufügen"](assets/offer_concepts_create_offer_implementation_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung im Course Planner" }
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -126,7 +126,7 @@ Es können die folgenden Angebotsarten erstellt werden:
 
 Beim Erstellen wählen Sie die Angebotsart über den Button **"Angebot hinzufügen"**.
 
-![Aufgeklapptes Menü "Angebot hinzufügen" mit den Angebotsarten Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout, Tab Katalog einer Durchführung](assets/offer_concepts_add_offer_types_v1_de.png){ class="shadow lightbox" }
+![Aufgeklapptes Menü "Angebot hinzufügen" mit den Angebotsarten Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout](assets/offer_concepts_add_offer_types_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
 
 [Mehr über die Angebotsarten >](../../manual_user/learningresources/Access_configuration.de.md#angebotsoptionen)
 
@@ -144,15 +144,15 @@ In den Katalog können Angebote aufgenommen werden für
 - sonstige Lernressourcen
 
 
-### Kurse anbieten [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #what_is_offered_courses}
+### Kurse anbieten {: #what_is_offered_courses}
 
 Angebote zu einem Kurs werden erstellt unter<br>
 `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`<br>
 Beachten Sie, dass zuvor bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt werden muss.
 
-![Markierter Weg über Administration und Einstellungen zum Tab Freigabe mit dem Button "Angebot hinzufügen" und den vier Angebotsarten eines Kurses](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" }
+![Markierter Weg über Administration und Einstellungen zum Tab Freigabe mit dem Button "Angebot hinzufügen" und den vier Angebotsarten eines Kurses](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
 
-![Auswahl der Angebotsart Ohne Buchung, Frei verfügbar, Zugangscode oder PayPal Checkout, gruppiert nach Mitgliedschaft und Kostenpflicht, Dialog Angebot hinzufügen eines Kurses](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" }
+![Auswahl der Angebotsart Ohne Buchung, Frei verfügbar, Zugangscode oder PayPal Checkout, gruppiert nach Mitgliedschaft und Kostenpflicht](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen eines Kurses" }
 
 Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie hier >](../../manual_user/area_modules/catalog2.0_angebote.de.md)
 
@@ -161,7 +161,7 @@ Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie
 ---
 
 
-### Durchführungen anbieten [:octicons-tag-16:{ title="ab Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #what_is_offered_implementations}
+### Durchführungen anbieten {: #what_is_offered_implementations}
 
 Soll der gleiche Kurs mehrmals zu verschiedenen Terminen angeboten werden, kann dies im **Course Planner** mit **Durchführungen** bewerkstelligt werden.
 
@@ -173,12 +173,14 @@ Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das **m
 
 Der Buchungsauftrag kann anschliessend bestätigt werden.
 
+Braucht eine Durchführung beim Buchen weitere Angaben, etwa Essenswünsche oder Vorkenntnisse, kann ein Angebot der Durchführung Formulare verlangen. Die buchende Person füllt sie als Schritte beim Buchen aus, die Antworten stehen danach beim Buchungsauftrag. Das ist nur bei Angeboten von Durchführungen im Course Planner möglich, nicht bei Kursangeboten und nicht bei der Angebotsart PayPal Checkout. [Formulare für Buchungsaufträge >](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
 Angebote für Durchführungen werden im Course Planner erstellt unter:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
 
-![Markierter Pfad über Durchführungen und Tab Katalog zum Menü "Angebot hinzufügen" mit Zugangscode, Frei verfügbar, PayPal Checkout und Rechnung, Course Planner](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" }
+![Markierter Pfad über Durchführungen und Tab Katalog zum Menü "Angebot hinzufügen" mit Zugangscode, Frei verfügbar, PayPal Checkout und Rechnung](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" title="Durchführung im Course Planner" }
 
-![Auswahl der Angebotsart Frei verfügbar, Zugangscode, Rechnung oder PayPal Checkout ohne die Angebotsart Ohne Buchung, Dialog Angebot hinzufügen einer Durchführung](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" }
+![Auswahl der Angebotsart Frei verfügbar, Zugangscode, Rechnung oder PayPal Checkout ohne die Angebotsart Ohne Buchung](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen einer Durchführung" }
 
 [Mehr über das Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog)
 
@@ -221,7 +223,7 @@ Bei einem Angebot mit Rechnung ist
 * die Mitgliedschaft ist zunächst ausstehend, bis eine administrative Rolle die Reservierung bestätigt.
 
 
-![Auswahl der Mitgliedschaft "Standard" (sofort aktiv) oder "Mit Bestätigung" (ausstehend bis zur Bestätigung), dazu Währung, Preis und Kostenstelle, Dialog Rechnung einer Durchführung](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" }
+![Auswahl der Mitgliedschaft "Standard" (sofort aktiv) oder "Mit Bestätigung" (ausstehend bis zur Bestätigung), dazu Währung, Preis und Kostenstelle](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" title="Dialog Rechnung einer Durchführung" }
 
 
 !!! tip "Tipp"
@@ -238,7 +240,7 @@ Bei einem Angebot mit Rechnung ist
 
 Beim Erstellen oder Bearbeiten eines Rechnungsangebots legen Sie fest, ob und zu welchen Bedingungen eine Buchung storniert werden kann. So kennen die Buchenden die Stornierungsregeln bereits vor der Buchung.
 
-![Eingeschalteter Schalter "Stornierbar" mit den Stornierungsbedingungen "Mit Gebühr", dem Feld Stornierungsgebühr und der Frist "Kostenlos stornierbar bis Tage vor Start", Dialog Rechnung](assets/offer_concepts_invoice_cancellation_v1_de.png){ class="shadow lightbox" }
+![Eingeschalteter Schalter "Stornierbar" mit den Stornierungsbedingungen "Mit Gebühr", dem Feld Stornierungsgebühr und der Frist "Kostenlos stornierbar bis Tage vor Start"](assets/offer_concepts_invoice_cancellation_v1_de.png){ class="shadow lightbox" title="Dialog Rechnung" }
 
 * **Kostenstelle:** Oberhalb der Stornierungsoptionen ordnen Sie dem Angebot bei Bedarf eine Kostenstelle zu.
 * **Stornierbar:** Mit diesem Schalter bestimmen Sie, ob Buchungen dieses Angebots storniert werden können. Standardmässig ist die Option aktiviert.
@@ -269,7 +271,7 @@ Organisationen können eigene Kreditpunktesysteme definieren und benennen, sowie
 
 Für Angebote können weitere Bedingungen eingestellt werden. Die meisten Konfigurationsoptionen geben Sie direkt während der Erstellung eines neuen Angebots ein.
 
-![Optionen "Verfügbar in", Mitgliedschaft "Standard" oder "Mit Bestätigung", Buchungsbeleg und "Automatisches Buchen", Dialog Frei verfügbar einer Durchführung](assets/offer_concepts_example1_v1_de.png){ class="shadow lightbox" }
+![Optionen "Verfügbar in", Mitgliedschaft "Standard" oder "Mit Bestätigung", Buchungsbeleg und "Automatisches Buchen"](assets/offer_concepts_example1_v1_de.png){ class="shadow lightbox" title="Dialog Frei verfügbar einer Durchführung" }
 
 * **Verfügbar wenn: Durchführungsstatus "Provisorisch" und "Bestätigt":**<br>
 Eine Durchführung muss noch nicht vollständig geplant sein, um bereits ein Angebot veröffentlichen zu können. Bei Kursen lautet die Standardbedingung Kursstatus "Veröffentlicht".
