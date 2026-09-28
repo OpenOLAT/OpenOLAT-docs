@@ -60,9 +60,26 @@ try {
 			if (live && field) field.value = live.value;
 			return field;
 		}
-		btn.addEventListener("click", function() {
+		/* No question typed: an empty ?sophia= deep link is ignored by the widget,
+		   so open the chat directly instead of submitting the form. The widget
+		   renders its launcher inside the shadow root of #fxk-sophia; on pages
+		   with the header search it also injects .fxk-ask-btn. */
+		function openSophia() {
+			var host = document.getElementById("fxk-sophia");
+			var launch = host && host.shadowRoot && host.shadowRoot.querySelector("button.launch");
+			var opener = (launch && !launch.hidden) ? launch : document.querySelector(".fxk-ask-btn");
+			if (!opener) return false;
+			opener.click();
+			return true;
+		}
+		btn.addEventListener("click", function(event) {
 			var field = carryText(form);
-			if (field) field.name = "sophia";
+			if (field && field.value.trim()) {
+				field.name = "sophia";
+				return;
+			}
+			event.preventDefault();
+			if (!openSophia() && field) field.focus();
 		});
 		form.querySelectorAll("button[type='submit']:not([data-oo-ask-sophia])").forEach(function(other) {
 			other.addEventListener("click", function() {
