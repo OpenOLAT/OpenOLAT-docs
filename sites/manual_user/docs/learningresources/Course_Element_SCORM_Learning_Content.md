@@ -56,10 +56,10 @@ If you have already added a SCORM learning object, its name will appear as a lin
 You have 4 options to choose from:
 
 **Show module within OpenOlat:**<br>
-In addition to the SCORM module, the main navigation is displayed at the top of the header.
+In addition to the SCORM module, the main navigation is displayed at the top.
 
 **Show only module:**<br>
-If this variant is selected, the main navigation bar will be hidden when the course module opens. Instead, the SCORM module will be displayed in the entire browser window.
+If this variant is selected, the main navigation will be hidden when the course module opens. Instead, the SCORM module will be displayed in the entire browser window.
 
 **Show module in full screen mode:**<br>
 \- The module takes up the entire space<br>

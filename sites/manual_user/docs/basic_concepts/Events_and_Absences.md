@@ -161,8 +161,8 @@ A distinction must be made between
 
 
 7. the **cross-course absence management** by authorised persons with the role absence manager.<br>
-    Administration includes, for example, processing dispensations and appeals. This administrative task goes beyond simple recording and is therefore assigned to a separate role. Authorised persons find the tools in the<br>
-   **Header menu: Absence management**<br>
+    Administration includes, for example, processing dispensations and appeals. This administrative task goes beyond simple recording and is therefore assigned to a separate role. Authorised persons find the tools in the main navigation under:<br>
+   **Absence management**<br>
    [More about that >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#events_and_absences)

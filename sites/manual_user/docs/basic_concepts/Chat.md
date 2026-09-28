@@ -6,7 +6,7 @@
 
 Instant Messaging (IM) allows the exchange of messages with persons in real time, commonly known as "chat". Information on the availability of potential chat partners is important. This information is provided by the list of group peers. To start a chat with one of the available contacts, click on that contact. The chat is started in a chat window. If a person is not available at the moment, the messages are saved and displayed to the user at the next login.
 
-![List Group peers with the online members of your own groups and the toggles for offline contacts and groups, opened via the digits in the header](assets/chat_group.gif){ class="shadow lightbox" }
+![List Group peers with the online members of your own groups and the toggles for offline contacts and groups, opened via the digits in the main navigation](assets/chat_group.gif){ class="shadow lightbox" }
 
 ## Messaging Status {: #status}
 
@@ -27,7 +27,7 @@ At your first login, you start with the status your system administrators have s
 
 ## Sending messages {: #send}
 
-By clicking on the two digits (xx/xx) at the top right of the header next to the Instant Messaging status symbol (e.g. green dot), a list opens. There you see all members of your groups who are currently logged in. To start a chat, click on the name of the desired person. A chat window opens. If the desired user is displayed as offline, you can send them a message as well. At the next login, the message appears as a small envelope to the left of the chat icon.
+By clicking on the two digits (xx/xx) at the top right of the main navigation next to the Instant Messaging status symbol (e.g. green dot), a list opens. There you see all members of your groups who are currently logged in. To start a chat, click on the name of the desired person. A chat window opens. If the desired user is displayed as offline, you can send them a message as well. At the next login, the message appears as a small envelope to the left of the chat icon.
 
 If the two digits are not displayed, system administrators have disabled the direct chat. Even with disabled group peers, you can send messages to other users: Search for the person via the OpenOlat search or in the personal menu under [Other users](../personal_menu/Other_users.md). In the visiting card, below the profile image, you find the option to contact the person. If the user has disabled the receipt of messages, the contact link is not available for this person.
 
@@ -38,7 +38,7 @@ Popular emoticons such as smiling, winking, cool or surprised are supported, as 
 ## Receiving messages {: #receive}
 
 Messages can be received in two ways: If your status is "Available", a chat window opens when new messages are received.
-If your status is "Please do not disturb" or "Not available", the messages appear as a blinking envelope to the left of the chat icon at the top right of the header. When you click on the envelope, a chat window with the message opens. If the chat window is already open, new messages are displayed there.
+If your status is "Please do not disturb" or "Not available", the messages appear as a blinking envelope to the left of the chat icon at the top right of the main navigation. When you click on the envelope, a chat window with the message opens. If the chat window is already open, new messages are displayed there.
 
 If you receive a message while you are offline, this message is stored and displayed as an envelope at the next login.
 

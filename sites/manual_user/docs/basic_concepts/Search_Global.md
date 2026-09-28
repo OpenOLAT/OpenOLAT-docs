@@ -1,12 +1,12 @@
 # Global search {: #search_global}
 
-You will find the global search in the top right-hand corner of the header. Click on the magnifying glass icon.
+You will find the global search in the top right-hand corner of the main navigation. Click on the magnifying glass icon.
 
 If you enter a search term here and confirm it by pressing the Enter key or clicking on the magnifying glass next to it, a **search across everything** takes place.
 
 This means that the **entire OpenOlat** is searched, including the content of documents. It is a [full-text search](Search_General.md#full_text_search).
 
-![Expanded search field of the global search with the button Search next to the magnifying glass icon in the top right-hand corner of the header](assets/search_global_v1_de.png){ class="shadow lightbox" }
+![Expanded search field of the global search with the button Search next to the magnifying glass icon in the top right-hand corner of the main navigation](assets/search_global_v1_de.png){ class="shadow lightbox" }
 
 
 ## Search results [:octicons-tag-16:{ title="from Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #search_results}

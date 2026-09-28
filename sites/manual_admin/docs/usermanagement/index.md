@@ -1,8 +1,8 @@
 # User management
 
-User managers and administrators can find in their top main menu the option "**User management**".
+User managers and administrators can find in the main navigation the site "**User management**".
 
-![user_management_v1_de.png](assets/user_management_v1_de.png){ class="shadow lightbox }
+![Site User management in the opened menu More of the main navigation](assets/user_management_v1_de.png){ class="shadow lightbox" }
 
 They have the right to...
 
@@ -13,7 +13,7 @@ They have the right to...
   [See details >](Create_User.md)
 
   * import new users<br>
-  [See details >](Search_Users.md)
+  [See details >](Create_User.md)
 
   * assign different roles to users<br>
   [See details >](Assign_roles.md)
