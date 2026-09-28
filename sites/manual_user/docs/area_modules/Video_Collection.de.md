@@ -1,11 +1,11 @@
 # Video Collection {: #video_collection}
 
 
-Die „Video Collection“ finden Sie im Hauptmenü der Kopfzeile. Sie dient als zentrale Übersicht aller Video-Lernressourcen Ihrer OpenOlat-Instanz, sofern diese für Sie freigegeben sind. Hier können Sie durch die vorhandenen Videos browsen und einzelne Videos direkt aufrufen.
+Die „Video Collection“ finden Sie in der Hauptnavigation. Sie dient als zentrale Übersicht aller Video-Lernressourcen Ihrer OpenOlat-Instanz, sofern diese für Sie freigegeben sind. Hier können Sie durch die vorhandenen Videos browsen und einzelne Videos direkt aufrufen.
 Damit ein Video in der „Video Collection“ angezeigt wird, muss der Publikationsstatus auf „Veröffentlicht“ stehen. In der Einzelansicht eines Videos wird automatisch die Beschreibung der Infoseite angezeigt. Dort stehen auch die Bewertungs- und Kommentarfunktion zur Verfügung, sofern diese aktiviert sind.
 
 
-![Kachelübersicht mit acht Videos, je mit Vorschaubild, Dauer, Titel und Anzahl Aufrufe, darüber Suchfeld und Sortierung. Eintrag Video Collection im Hauptmenü markiert.](assets/video_collection_v1_de.png){ class="shadow lightbox" }
+![Kachelübersicht mit acht Videos, je mit Vorschaubild, Dauer, Titel und Anzahl Aufrufe, darüber Suchfeld und Sortierung. Eintrag Video Collection in der Hauptnavigation markiert.](assets/video_collection_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "Hinweis"

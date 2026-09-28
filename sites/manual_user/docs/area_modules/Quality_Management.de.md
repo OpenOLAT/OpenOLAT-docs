@@ -51,9 +51,9 @@ Das Modul kann automatisch Aufforderungen mit dem Link zu einer Befragung versch
 
 Die Resultate können für definierbare Empfänger:innen freigeschaltet werden.
 
-Qualitätsmanager:innen finden die Option "Qualitätsmanagement" in ihrer Hauptnavigation in der Kopfzeile.
+Qualitätsmanager:innen finden die Option "Qualitätsmanagement" in der Hauptnavigation.
 
-![Eintrag Qualitätsmanagement im Menü Mehr der Kopfzeile markiert, darunter die Startseite des Qualitätsmanagements mit ihren sieben Abschnitten von Meine Umfragen bis Analyse](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
+![Eintrag Qualitätsmanagement im Menü Mehr der Hauptnavigation markiert, darunter die Startseite des Qualitätsmanagements mit ihren sieben Abschnitten von Meine Umfragen bis Analyse](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
 
 ## Die Rolle "Qualitätsmanager:in"
 

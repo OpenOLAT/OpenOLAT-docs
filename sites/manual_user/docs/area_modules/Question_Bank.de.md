@@ -8,7 +8,7 @@ Die Fragen können mit anderen Personen, die auch Zugriff auf den Pool haben, ge
 
 **Ziel** ist die **Wiederverwendung** einmal erstellter Fragen. Sei es in Tests, als Quizfrage in einem interaktiven Video oder in einem Kursbaustein vom Typ "Seite". Durch Sie selbst oder (bei Freigabe) durch andere Autor:innen.
 
-**Zugriff** auf den Fragenpool haben **Autor:innen**, Poolverwalter:innen und Administrator:innen. Ihnen zeigt OpenOlat den Fragenpool in der Hauptnavigation in der Kopfzeile an.
+**Zugriff** auf den Fragenpool haben **Autor:innen**, Poolverwalter:innen und Administrator:innen. Ihnen zeigt OpenOlat den Fragenpool in der Hauptnavigation an.
 
 ![Fragenpool als eigener Eintrag in der Hauptnavigation, links sein Menü mit vier Bereichen, rechts die Willkommensseite. Startseite des Fragenpools.](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
 

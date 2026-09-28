@@ -3,7 +3,7 @@
 
 ## Was ermöglicht die Absenzenverwaltung?  {: #purpose}
 
-Die im Hauptmenü angezeigte Absenzenverwaltung bezieht sich auf die **kursübergreifende Absenzenverwaltung** durch Berechtigte mit der **Rolle Absenzenverwalter:in**.
+Die in der Hauptnavigation angezeigte Absenzenverwaltung bezieht sich auf die **kursübergreifende Absenzenverwaltung** durch Berechtigte mit der **Rolle Absenzenverwalter:in**.
 
 Berechtigte mit dieser Rolle bearbeiten z. B. Dispensen und Rekurse. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus, die in einem bestimmten Kurs stattfindet, und ist deshalb einer gesonderten Rolle zugeordnet.
 
@@ -17,13 +17,13 @@ Links zu Erklärungen der übrigen Punkte finden Sie unter den [weiterführenden
 
 ## Wo finde ich die Absenzenverwaltung?  {: #access}
 
-Berechtigte finden die kursübergreifende Absenzenverwaltung im **Menü der Kopfzeile:**
+Berechtigte finden die kursübergreifende Absenzenverwaltung in der **Hauptnavigation**:
 
-![Eintrag Absenzenverwaltung in der Kopfzeile markiert, darunter die Tab-Leiste der Absenzenverwaltung von Cockpit bis Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
+![Eintrag Absenzenverwaltung in der Hauptnavigation markiert, darunter die Tab-Leiste der Absenzenverwaltung von Cockpit bis Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Hinweis"
 
-    Der Menü-Eintrag kann auch an einer anderen Stelle in der Kopfzeile stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann "Absenzenverwaltung" unter "Mehr" ganz rechts enthalten sein.
+    Der Menü-Eintrag kann auch an einer anderen Stelle in der Hauptnavigation stehen. Wenn viele Einträge in der Hauptnavigation angezeigt werden, kann "Absenzenverwaltung" unter "Mehr" ganz rechts enthalten sein.
 
 
 [Zum Seitenanfang ^](#absence_management)
@@ -37,7 +37,7 @@ Ob die Absenzenverwaltung in einem bestimmten Kurs **verwendet** wird, entscheid
 Das **Erfassen** der einzelnen Absenzen obliegt dann in der Regel den Betreuer:innen. Deshalb finden diese die Werkzeuge zum Erfassen in den Kursen oder im Bereich Coaching.<br>
 Die Teilnehmer:innen erfassen ihre eigenen Absenzen/Abmeldungen/Rekurse im [persönlichen Menü >](../personal_menu/Absences.de.md).
 
-Die im Hauptmenü angezeigte und nachstehend beschriebene Absenzenverwaltung steht dagegen **Absenzenverwalter:innen**, Principals und Administrator:innen zur Verfügung. In der kursübergreifenden Absenzenverwaltung kann auf alle Absenzen in der Gesamtschau zugegriffen werden und die berechtigten Personen können alle Absenzen umfassend **verwalten**.
+Die in der Hauptnavigation angezeigte und nachstehend beschriebene Absenzenverwaltung steht dagegen **Absenzenverwalter:innen**, Principals und Administrator:innen zur Verfügung. In der kursübergreifenden Absenzenverwaltung kann auf alle Absenzen in der Gesamtschau zugegriffen werden und die berechtigten Personen können alle Absenzen umfassend **verwalten**.
 
 
 [Zum Seitenanfang ^](#absence_management)
@@ -46,7 +46,7 @@ Die im Hauptmenü angezeigte und nachstehend beschriebene Absenzenverwaltung ste
 
 ## Aktivierung des Moduls "Termine und Absenzen" {: #activation}
 
-Wie bei allen Modulen erfolgt die generelle Aktivierung durch Administrator:innen. Damit die Absenzenverwaltung im Hauptmenü verfügbar ist, muss das Modul "Termine und Absenzen" in der System-Administration eingeschaltet sein:<br>
+Wie bei allen Modulen erfolgt die generelle Aktivierung durch Administrator:innen. Damit die Absenzenverwaltung in der Hauptnavigation verfügbar ist, muss das Modul "Termine und Absenzen" in der System-Administration eingeschaltet sein:<br>
 `Administration > Module > Termine / Absenzen`<br>
 Mehr dazu finden Sie unter [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md).
 
@@ -70,7 +70,7 @@ Nach dem Aufruf der Absenzenverwaltung werden Ihnen die Hauptfunktionen als Tabs
 - [Personensuche](#user_search)
 - [Report](#report)
 
-![Tab-Leiste mit den sieben Hauptfunktionen markiert, unterhalb der Kopfzeile in der Absenzenverwaltung](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" }
+![Tab-Leiste mit den sieben Hauptfunktionen markiert, unterhalb der Hauptnavigation in der Absenzenverwaltung](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#absence_management)

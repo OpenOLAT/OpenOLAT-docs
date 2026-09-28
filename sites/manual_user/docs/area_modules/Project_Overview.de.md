@@ -7,13 +7,13 @@ Das in OpenOlat integrierte Projekt-Tool ist in erster Linie ein Werkzeug zur **
 
 ## Wo finde ich Projekte in OpenOlat?
 
-Benutzer:innen finden die Projekte **im Menü der Kopfzeile**.
+Benutzer:innen finden die Projekte **in der Hauptnavigation**.
 
 !!! info "Wichtig"
 
-    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass "Projekte" unter "Mehr" ganz rechts enthalten ist.
+    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Hauptnavigation angezeigt werden, kann es auch sein, dass "Projekte" unter "Mehr" ganz rechts enthalten ist.
 
-![Eintrag Projekte im aufgeklappten Menü Mehr der Kopfzeile, darunter der Bereich Projekte mit dem Tab Meine Projekte](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
+![Eintrag Projekte im aufgeklappten Menü Mehr der Hauptnavigation, darunter der Bereich Projekte mit dem Tab Meine Projekte](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Wichtig"
 

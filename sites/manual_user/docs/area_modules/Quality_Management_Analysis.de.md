@@ -76,7 +76,7 @@ Für die Datengrundlage einer Analyse gelten die folgenden Regeln:
 
 Auf Analysen haben nur Qualitätsmanager:innen und Principals Zugriff.
 
-Sie können die Analysen über die Hauptnavigation in der Kopfzeile aufrufen unter:<br>
+Sie können die Analysen über die Hauptnavigation aufrufen unter:<br>
 `Qualitätsmanagement > Analyse`
 
 Werden Organisationseinheiten genutzt, dann gilt: <br>

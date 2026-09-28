@@ -17,15 +17,15 @@ Entscheidet sich die Benutzer:in zum Besuch eines Kurses, kann dieser direkt vom
 
 Der Katalog kann sowohl registrierten wie auch nicht registrierten Personen zugänglich gemacht werden. Wo Sie den Katalog aufrufen können, hängt davon ab, ob Sie bereits als Benutzer:in in OpenOlat registriert sind oder nicht.
 
-Die **registrierten OpenOlat-Benutzer:innen** finden den Katalog im **Menü der Kopfzeile**.
+Die **registrierten OpenOlat-Benutzer:innen** finden den Katalog in der **Hauptnavigation**.
 
-![Menüpunkt Katalog in der Kopfzeile markiert, darunter der Katalog-Header mit dem Suchfeld, Ansicht für angemeldete Benutzer:innen](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
+![Bereich Katalog in der Hauptnavigation markiert, darunter der Katalog-Header mit dem Suchfeld, Ansicht für angemeldete Benutzer:innen](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
 Voraussetzung: Der Katalog muss in der System-Administration aktiviert sein: `Administration > Module > Katalog > Tab "Einstellungen"`. Die Einrichtung beschreibt das [Administrationshandbuch](../../manual_admin/administration/Modules_Catalog_2.0.de.md).
 
 !!! tip "Tipp"
 
-    Falls Sie den Eintrag im Menü nicht sehen, aber sicher sind, dass der Katalog 2.0 verwendet wird, schauen Sie bitte unter "Mehr" ganz rechts nach. Hierhin werden alle Menüs verschoben, die aufgrund der Anzeigebreite des Monitors/Geräts nicht direkt angezeigt werden können.
+    Falls Sie den Eintrag in der Hauptnavigation nicht sehen, aber sicher sind, dass der Katalog 2.0 verwendet wird, schauen Sie bitte unter "Mehr" ganz rechts nach. Hierhin verschiebt OpenOlat alle Bereiche, die aufgrund der Anzeigebreite des Monitors/Geräts nicht direkt sichtbar sind.
 
 **Nicht registrierte Personen** können auf eine von aussen zugängliche, gespiegelte Version des Katalogs zugreifen, sofern dieser sogenannte Web-Katalog aktiviert ist. Der Zugriff ist direkt vom Login-Screen aus möglich. Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingebaut sein. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002)
 
@@ -55,9 +55,9 @@ Der Katalog 2.0 enthält die folgenden Bestandteile:
 ## Welche Seiten und Ansichten hat der Katalog? {: #catalog_views}
 
 **Seite/Ansicht 1:**<br>
-Wird in der Kopfzeile der Katalog (2.0) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
+Wird in der Hauptnavigation der Katalog (2.0) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
 
-![Menüpunkt Katalog markiert, Startseite mit Begrüssungstext und den Launchern Kategorien, Beliebte Kurse und Zuletzt veröffentlichte Ressourcen](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
+![Bereich Katalog markiert, Startseite mit Begrüssungstext und den Launchern Kategorien, Beliebte Kurse und Zuletzt veröffentlichte Ressourcen](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
 
 Im Suchfeld kann direkt nach bestimmten Lernressourcen gesucht werden. Indexiert sind dafür der Titel, der Teaser-Text und die Taxonomie. Sie können aber auch die angezeigten Kacheln/Karten anklicken, die in den Launchern gruppiert sind.
 
