@@ -180,7 +180,7 @@ System administrators define the default value in the system administration, und
 
 The same value also applies to the personal files. There is no separate default value for the Media Center only, see [Files and Folders](../../manual_admin/administration/Files_and_Folders.md#files_and_folders_quotas).
 
-If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person, in the "Quota" tab of their account in the user management, see [Configure user](../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
+If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person, in the "Quota" tab of their account in the user management, see [Manage user settings](../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
 
 ![Two ways to more space in the Media Center, for one person or for everyone in a role, with location and effect](assets/media_center_quota_ways_v1_en.svg){ class="shadow lightbox" title="More storage space in the Media Center" }
 
@@ -244,7 +244,7 @@ You cannot add media items in the media management, the "Add media file" button 
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
-[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Creating Portfolios >](../area_modules/Portfolio.md)
 
 **Further reading**<br>

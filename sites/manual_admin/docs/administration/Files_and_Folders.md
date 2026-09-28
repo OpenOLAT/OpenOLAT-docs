@@ -100,7 +100,7 @@ The identity is the number that OpenOlat permanently assigns to each account. It
 `User management > "Name of the person"`<br>
 On the "Manage user settings" page, it is shown in the table at the top, in the first row "Identity".
 
-You create the quotas for the personal files and the Media Center of a person more easily in the user management, in the "Quota" tab of their account. The same entry is created there without you having to type the path, see [Configure user](../usermanagement/Configure_User.md#quota).
+You create the quotas for the personal files and the Media Center of a person more easily in the user management, in the "Quota" tab of their account. The same entry is created there without you having to type the path, see [Manage user settings](../usermanagement/Configure_User.md#quota).
 
 [To the top of the page ^](#files_and_folders)
 
@@ -153,7 +153,7 @@ The length of time the deleted files remain in the trash until final deletion is
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Configure user >](../usermanagement/Configure_User.md)
+[Manage user settings >](../usermanagement/Configure_User.md)
 
 **Further reading**<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>

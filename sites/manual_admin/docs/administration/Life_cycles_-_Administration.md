@@ -62,7 +62,7 @@ If the expiry date falls before the date of the automatic inactivation, the entr
 
 Each of the two areas states in its explanatory text the time at which OpenOlat runs the respective process daily.
 
-An account passes through the states active, reactivated within the grace period, inactive and deleted. Which entries an account shows in which state is described in [Configure user](../usermanagement/Configure_User.md#automatic_user_lifecycle).
+An account passes through the states active, reactivated within the grace period, inactive and deleted. Which entries an account shows in which state is described on the page [Manage user settings](../usermanagement/Configure_User.md#automatic_user_lifecycle).
 
 ![The two processes with their triggers, below them the chain of states from active to deleted and the three places where the entries appear](assets/admin_lifecycle_account_processes_v1_en.svg){ class="shadow lightbox" }
 
@@ -122,7 +122,7 @@ An account with the status "Active and not deletable" is excluded from deletion 
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)<br>
-[Configure user >](../usermanagement/Configure_User.md)<br>
+[Manage user settings >](../usermanagement/Configure_User.md)<br>
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>

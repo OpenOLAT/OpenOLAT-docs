@@ -82,7 +82,7 @@ nav:
     - Account search: "usermanagement/Search_Users.md"
     - Create user: "usermanagement/Create_User.md"
     - Assign roles: "usermanagement/Assign_roles.md"
-    - Configure user: "usermanagement/Configure_User.md"
+    - Manage user settings: "usermanagement/Configure_User.md"
     - Delete User: "usermanagement/Delete_User.md"
     - Data protection: "usermanagement/Data_protection.md"
 

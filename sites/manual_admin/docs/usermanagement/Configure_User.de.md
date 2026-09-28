@@ -1,6 +1,6 @@
-# Konto konfigurieren {: #user_configuration}
+# Kontoeinstellungen verwalten {: #user_configuration}
 
-Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und für sie weitere Konfigurationen vornehmen. 
+Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und ihre Kontoeinstellungen verwalten.
 
 Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 

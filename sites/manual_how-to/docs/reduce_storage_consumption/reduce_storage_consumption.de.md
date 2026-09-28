@@ -213,7 +213,7 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../lifecycle/lifecycle.de.md)

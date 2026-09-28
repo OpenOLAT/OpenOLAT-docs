@@ -63,6 +63,6 @@ Für "Mit Benutzer:in", "Mit Gruppe" und "Mit Kurs" wählen Sie jeweils "Alle" o
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../../manual_user/personal_menu/Media_Center.de.md)<br>
-[Konto konfigurieren >](../usermanagement/Configure_User.de.md)
+[Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)
 
 [Zum Seitenanfang ^](#module_media_center)

@@ -180,7 +180,7 @@ Den Standardwert legen Systemadministrator:innen in der System-Administration fe
 
 Derselbe Wert gilt auch für die persönlichen Dateien. Einen eigenen Standardwert nur für das Media Center gibt es nicht, siehe [Dateien und Ordner](../../manual_admin/administration/Files_and_Folders.de.md#files_and_folders_quotas).
 
-Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota, im Reiter "Quota" ihres Kontos in der Benutzerverwaltung, siehe [Konto konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
+Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota, im Reiter "Quota" ihres Kontos in der Benutzerverwaltung, siehe [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
 
 ![Zwei Wege zu mehr Platz im Media Center, für eine Person oder für alle einer Rolle, mit Ort und Auswirkung](assets/media_center_quota_ways_v1_de.svg){ class="shadow lightbox" title="Mehr Speicherplatz im Media Center" }
 
@@ -244,7 +244,7 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
 [Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
-[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Portfolio erstellen >](../area_modules/Portfolio.de.md)
 
 **Weiterführend**<br>

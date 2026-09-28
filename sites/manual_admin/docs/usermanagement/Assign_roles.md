@@ -52,7 +52,7 @@ Use the tabs "All", "7 days", "4 weeks" and "12 months" to narrow down the perio
 [Roles and Rights: Authorisation in courses >](../../manual_user/basic_concepts/Authorisation_Concept.md)
 
 **Further reading**<br>
-[Configure user >](Configure_User.md)<br>
+[Manage user settings >](Configure_User.md)<br>
 [User search >](Search_Users.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [Roles and Rights: Assign roles >](../../manual_user/basic_concepts/Assign_Roles.md)

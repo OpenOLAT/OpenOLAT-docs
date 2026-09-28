@@ -52,7 +52,7 @@ Die Tabelle zeigt die Spalten "Datum", "Rolle", "Vererbung", "Aktivität", "Orig
 [Rollen und Rechte: Rechte in Kursen >](../../manual_user/basic_concepts/Authorisation_Concept.de.md)
 
 **Weiterführend**<br>
-[Konto konfigurieren >](Configure_User.de.md)<br>
+[Kontoeinstellungen verwalten >](Configure_User.de.md)<br>
 [Kontosuche >](Search_Users.de.md)<br>
 [Modul Organisationen >](../administration/Modules_Organisations.de.md)<br>
 [Rollen und Rechte: Rollen zuweisen >](../../manual_user/basic_concepts/Assign_Roles.de.md)

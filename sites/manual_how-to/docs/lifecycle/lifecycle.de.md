@@ -147,7 +147,7 @@ Damit endet die Nutzung eines Kontos in drei Phasen. Der Kontoablauf steht für 
 
 Zu jeder Phase können Benachrichtigungsmails konfiguriert werden, vor oder nach dem jeweiligen Schritt.
 
-Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Konto konfigurieren](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
 !!! info "Konfiguration in der Administration"
 
@@ -232,7 +232,7 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 **Auf dieser Seite erwähnt**<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
-[Konto konfigurieren >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
+[Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 

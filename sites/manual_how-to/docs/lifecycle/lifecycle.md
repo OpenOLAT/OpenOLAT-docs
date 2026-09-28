@@ -146,7 +146,7 @@ The use of an account thus ends in three phases. The account expiration stands o
 
 Notification emails can be configured for each phase, before or after the respective step.
 
-How far a single account has progressed through these phases is shown in the "Account" tab of the person, see [Configure user](../../manual_admin/usermanagement/Configure_User.md#automatic_user_lifecycle).
+How far a single account has progressed through these phases is shown in the "Account" tab of the person, see [Manage user settings](../../manual_admin/usermanagement/Configure_User.md#automatic_user_lifecycle).
 
 !!! info "Configuration in the Administration"
 
@@ -231,7 +231,7 @@ It can be configured so that owners are notified of status changes.
 
 **Mentioned on this page**<br>
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
-[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Life cycles: Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 

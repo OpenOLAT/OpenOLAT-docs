@@ -118,7 +118,7 @@ This manual describes how you configure, extend and operate an OpenOlat instance
 
     [:octicons-arrow-right-24: Assign roles](usermanagement/Assign_roles.md)
 
-    [:octicons-arrow-right-24: Configure user](usermanagement/Configure_User.md)
+    [:octicons-arrow-right-24: Manage user settings](usermanagement/Configure_User.md)
 
     [:octicons-arrow-right-24: Data protection](usermanagement/Data_protection.md)
 

@@ -213,7 +213,6 @@ plugins:
           Configure a podcast : Podcast konfigurieren
           Configure test questions : Test Fragen konfigurieren
           Configure tests : Test konfigurieren
-          Configure user : Konto konfigurieren
           Content Editor : Content Editor
           Convert to learning path course : In Lernpfad-Kurs konvertieren
           Copy (a course) : Kopieren (eines Kurses)
@@ -443,6 +442,7 @@ plugins:
           LTI access: LTI Zugang
           LTI Page : LTI-Seite
           Making successes and achievements visible : Erfolge und Leistungen sichtbar machen
+          Manage user settings : Kontoeinstellungen verwalten
           Management : Verwaltung
           Managing members : Mitglieder verwalten
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten

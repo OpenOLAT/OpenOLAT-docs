@@ -60,7 +60,7 @@ For "With user", "With group" and "With course" you choose "All" or "Specific ro
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
 [Personal tools: Media Center >](../../manual_user/personal_menu/Media_Center.md)<br>
-[Configure user >](../usermanagement/Configure_User.md)
+[Manage user settings >](../usermanagement/Configure_User.md)
 
 [To the top of the page ^](#module_media_center)
 

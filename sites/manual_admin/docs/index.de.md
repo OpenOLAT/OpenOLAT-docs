@@ -122,7 +122,7 @@ Dieses Handbuch beschreibt, wie Sie eine OpenOlat-Installation konfigurieren, er
 
     [:octicons-arrow-right-24: Rollen zuweisen](usermanagement/Assign_roles.de.md)
 
-    [:octicons-arrow-right-24: Konto konfigurieren](usermanagement/Configure_User.de.md)
+    [:octicons-arrow-right-24: Kontoeinstellungen verwalten](usermanagement/Configure_User.de.md)
 
     [:octicons-arrow-right-24: Datenschutz](usermanagement/Data_protection.de.md)
 

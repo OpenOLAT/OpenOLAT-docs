@@ -1,6 +1,6 @@
-# Configure user {: #user_configuration}
+# Manage user settings {: #user_configuration}
 
-If you have the right to manage users, you can search for a specific person using the user search and make further configurations for them.
+If you have the right to manage users, you can search for a specific person using the user search and manage their user settings.
 
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 

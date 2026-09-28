@@ -212,7 +212,7 @@ Die beiden Schalter setzen Sie in der System-Administration unter:<br>
 
 Alle fünf Spalten sind standardmässig ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
-Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto konfigurieren](Configure_User.de.md#automatic_user_lifecycle).
+Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Kontoeinstellungen verwalten](Configure_User.de.md#automatic_user_lifecycle).
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -224,7 +224,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
-[Konto konfigurieren >](Configure_User.de.md)
+[Kontoeinstellungen verwalten >](Configure_User.de.md)
 
 **Weiterführend**<br>
 [Konto erstellen >](Create_User.de.md)<br>

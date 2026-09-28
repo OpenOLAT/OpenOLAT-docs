@@ -100,7 +100,7 @@ Die Identität ist die Nummer, die OpenOlat jedem Konto fest zuteilt. Sie ist ni
 `Benutzerverwaltung > "Benutzername"`<br>
 Auf der Seite "Kontoeinstellungen verwalten" steht sie in der Tabelle oben in der ersten Zeile "Identität".
 
-Die Quotas für die persönlichen Dateien und das Media Center einer Person legen Sie einfacher in der Benutzerverwaltung an, im Reiter "Quota" ihres Kontos. Dort entsteht derselbe Eintrag, ohne dass Sie den Pfad eintippen, siehe [Konto konfigurieren](../usermanagement/Configure_User.de.md#quota).
+Die Quotas für die persönlichen Dateien und das Media Center einer Person legen Sie einfacher in der Benutzerverwaltung an, im Reiter "Quota" ihres Kontos. Dort entsteht derselbe Eintrag, ohne dass Sie den Pfad eintippen, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#quota).
 
 [zum Seitenanfang ^](#files_and_folders)
 
@@ -152,7 +152,7 @@ Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Lös
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Konto konfigurieren >](../usermanagement/Configure_User.de.md)
+[Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)
 
 **Weiterführend**<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>

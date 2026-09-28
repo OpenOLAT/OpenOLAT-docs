@@ -213,7 +213,7 @@ Detailed information on the life cycles can be found at<br>
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Configure user >](../../manual_admin/usermanagement/Configure_User.md)<br>
+[Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Course Administration: Overview >](../../manual_user/learningresources/Administration.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../lifecycle/lifecycle.md)

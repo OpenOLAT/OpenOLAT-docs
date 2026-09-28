@@ -240,7 +240,7 @@ For **automatic deletion** via the automatic user lifecycle, an additional safeg
 
 **Further reading**<br>
 [User management >](index.md)<br>
-[Configure user >](Configure_User.md)<br>
+[Manage user settings >](Configure_User.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
 [Three steps to your portfolio binder >](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)

@@ -213,7 +213,7 @@ You set both toggles in the system administration under:<br>
 
 All five columns are hidden by default. Show them with the gear symbol above the table on the right.
 
-The "Account" tab of a single person carries the same periods, see [Configure user](Configure_User.md#automatic_user_lifecycle).
+The "Account" tab of a single person carries the same periods, see [Manage user settings](Configure_User.md#automatic_user_lifecycle).
 
 [To the top of the page ^](#search_user)
 
@@ -226,7 +226,7 @@ The "Account" tab of a single person carries the same periods, see [Configure us
 [Group administration >](../../manual_user/groups/Group_Administration.md)<br>
 [Modules >](../administration/Modules.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
-[Configure user >](Configure_User.md)
+[Manage user settings >](Configure_User.md)
 
 **Further reading**<br>
 [Create user >](Create_User.md)<br>
