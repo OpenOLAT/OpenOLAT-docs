@@ -134,6 +134,8 @@ B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons "B
 
 Diese Einstellung legt die Reihenfolge fest, in der die Rollen priorisiert werden, wenn ein Mitglied beim Zugriff auf die Lernressource mehrere Rollen hat. Die oberste Rolle in der Liste hat die höchste Priorität. Systemrollen haben immer eine niedrigere Priorität als Mitgliedsrollen.
 
+In der Liste stehen die Mitgliedsrollen Besitzer:in, Betreuer:in und Teilnehmer:in. Hat eine Person keine dieser Rollen, öffnet OpenOlat die Lernressource in einer Systemrolle. Deren Reihenfolge ist fest und lässt sich nicht ändern: Principal, Kursplaner:in, Lernressourcenverwalter:in, CPL Klassenlehrer:in, Administrator:in. Wer zum Beispiel ohne Mitgliedsrolle Principal und Lernressourcenverwalter:in ist, startet in der Rolle Principal und wechselt über den [Rollenwechsel](../../manual_user/learningresources/General_Information.de.md#role_change) in der Toolbar zur Rolle Lernressourcenverwalter:in.
+
 [Zum Seitenanfang ^](#learning_resource)
 
 ---
@@ -192,6 +194,7 @@ Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 [Suche in einem Kurs >](../../manual_user/basic_concepts/Search_in_Course.de.md)<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[Allgemeines >](../../manual_user/learningresources/General_Information.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Customizing: Übersicht >](Customizing.de.md)
 
