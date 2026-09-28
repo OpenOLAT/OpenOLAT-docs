@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 736 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 741 terms.
 
 ## Catalogue, booking and payment
 
@@ -164,25 +164,25 @@ A single rule of the automation. It consists of a trigger, either a status chang
 
 The module that switches on the planning of the educational offering in OpenOlat: products with elements and implementations, element types, course templates, automation, to-dos and reports. It replaces the earlier Curriculum module and grants the memberships of the courses it embeds.
 
-*German: Course Planner* · [Manual](../manual_admin/administration/Modules_Course_Planner.md)
+*German: Course Planner* · *Formerly: Curriculum, Curriculumverwaltung* · [Manual](../manual_admin/administration/Modules_Course_Planner.md)
 
 ### Course template
 
 A course assigned to an element in the Course Planner in order to instantiate a course of its own from it for every implementation. The template itself is not attended and stays unchanged.
 
-*German: Kurstemplate* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
+*German: Kurstemplate* · *Formerly: Vorlagekurs* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Educational products (Course Planner)
 
 An educational offering kept in the Course Planner, made up of several courses and implementations, as coaching and the catalogue show it.
 
-*German: Bildungsprodukte* · [Manual](../manual_user/area_modules/Coaching_Educational_Products.md)
+*German: Bildungsprodukte* · *Formerly: Bildungsprogramme, Education programs, Education products* · [Manual](../manual_user/area_modules/Coaching_Educational_Products.md)
 
 ### Element
 
 A node in the structure of a product. Depending on the element type it stands for a study programme, a semester, a module or an implementation. The elements form the hierarchy the courses are hung into.
 
-*German: Element* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
+*German: Element* · *Formerly: Curriculum-Element, Curriculumelement* · [Manual](../manual_user/area_modules/Course_Planner_Implementations.md)
 
 ### Element type
 
@@ -218,7 +218,7 @@ The belonging of a person to a course, a group or an element of the Course Plann
 
 The top level in the Course Planner. A product describes an educational offering with its structure, with the elements and the implementations hanging below it.
 
-*German: Produkt* · [Manual](../manual_user/area_modules/Course_Planner_Products.md)
+*German: Produkt* · *Formerly: Curriculum* · [Manual](../manual_user/area_modules/Course_Planner_Products.md)
 
 ### Reports (Course Planner)
 
@@ -360,7 +360,7 @@ A learning resource for a single image file.
 
 A content object managed in the authoring area: course, test, form, video, wiki and others. It carries metadata, owners and a lifecycle and can be embedded into courses.
 
-*German: Lernressource* · [Manual](../manual_admin/administration/Modules_Learning_Resource.md)
+*German: Lernressource* · *Formerly: Repository-Eintrag, Repository entry* · [Manual](../manual_admin/administration/Modules_Learning_Resource.md)
 
 ### Level type
 
@@ -486,7 +486,7 @@ A learning resource with questions in the QTI 2.1 format that measures knowledge
 
 Legacy: a test learning resource in the QTI 1.2 format. Since release 15.0 it no longer runs, since 16.0 it can no longer be converted. It can neither be created nor imported and appears only in lists of old entries.
 
-*German: Test (QTI 1.2 - nicht mehr unterstützt)* · [Manual](../manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)
+*German: Test (QTI 1.2 - nicht mehr unterstützt)* · *Formerly: QTI 1.2 Test, Test (QTI 1.2), alter Test* · [Manual](../manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)
 
 ### Timeline (Learning resources)
 
@@ -616,7 +616,7 @@ A formula written in LaTeX and rendered as typeset mathematics.
 
 The module in which each person stores and manages their media: images, videos, audio, documents, citations, diagrams and texts. Media can be versioned, given tags and a license, and shared with people, groups, courses and organisations. Pages, forms and portfolios embed them instead of copying them.
 
-*German: Media Center* · [Manual](../manual_user/basic_concepts/Media_Center_Concept.md)
+*German: Media Center* · *Formerly: Mediencenter, Mediathek* · [Manual](../manual_user/basic_concepts/Media_Center_Concept.md)
 
 ### Quiz (Content and media)
 
@@ -868,6 +868,12 @@ A course element that shows learning content in the IMS Content Packaging format
 
 *German: CP-Lerninhalt* · [Manual](../manual_user/learningresources/Course_Element_CP_Learning_Content.md)
 
+### Custom configuration
+
+The option of the layout template with which a course sets its own style. For text, headings, links, menu and toolbox the course owners choose font, font size, colour and background colour and upload a logo. OpenOlat generates a CSS file in the course from it.
+
+*German: Eigene Konfiguration* · [Manual](../manual_user/learningresources/Course_Settings.md)
+
 ### Document (Course)
 
 A course element that shows a single document straight in the course: a PDF, an image, an Office file or a draw.io diagram. Per role it can be set who may edit and download the document.
@@ -992,13 +998,19 @@ A course element for course info messages. Coaches publish short messages, optio
 
 The page that describes a learning resource before a person enters it, with the description, the period, the coaches and the option to book. It sums up the facts in an overview, shows events, teachers, certificate and credit points on request and can be downloaded as a PDF.
 
-*German: Infoseite* · [Manual](../manual_user/learningresources/Info_page.md)
+*German: Infoseite* · *Formerly: Kursinfo, Infopage, Infos page, Detailansicht* · [Manual](../manual_user/learningresources/Info_page.md)
 
 ### JupyterHub (Course)
 
 A course element that provides a Jupyter image. Participants start their own Jupyter environment for interactive computing from it.
 
 *German: JupyterHub* · [Manual](../manual_user/learningresources/Course_Element_JupyterHub.md)
+
+### Layout template
+
+The template that sets the visual style of a course: fonts and colours of text, headings, links, menu and toolbox, and the logo. The course owners choose it in the Layout tab of the course settings. The system layout of the instance decides which templates are available; Default and Custom configuration are always present.
+
+*German: Layoutvorlage* · [Manual](../manual_user/learningresources/Course_Settings.md)
 
 ### Learning path
 
@@ -1233,6 +1245,12 @@ A course element that structures the course menu into chapters. It combines the 
 A course element that embeds a form learning resource as a survey. The answers are analysed anonymously.
 
 *German: Umfrage* · [Manual](../manual_user/learningresources/Course_Element_Survey.md)
+
+### System template
+
+A layout template that the system layout of the instance brings along: a folder with CSS files in the courselayouts folder of the theme. The selection shows it as System template with the name of the folder. A custom theme can in this way supply a uniform look for many courses.
+
+*German: Systemvorlage* · [Manual](../manual_user/learningresources/Course_Settings.md)
 
 ### Topic
 
@@ -1778,7 +1796,7 @@ The printable list of the recorded absences of an event, per participant and uni
 
 The entry in the main navigation for handling absences across courses by absence managers: cockpit, events, absences, notices, appeals, user search and report over all courses.
 
-*German: Absenzenverwaltung* · [Manual](../manual_user/area_modules/Absence_Management.md)
+*German: Absenzenverwaltung* · *Formerly: Lektionenverwaltung* · [Manual](../manual_user/area_modules/Absence_Management.md)
 
 ### Appeal
 
@@ -1814,13 +1832,13 @@ The advance exemption from the attendance requirement for a period. The units co
 
 A schedulable teaching unit of 1 to 12 units, with a date, a room and lecturers. It is the unit attendance is recorded for.
 
-*German: Termin* · [Manual](../manual_user/learningresources/Toolbar_Events.md)
+*German: Termin* · *Formerly: Lektionsblock, Lektion* · [Manual](../manual_user/learningresources/Toolbar_Events.md)
 
 ### Events and absences
 
 The module for classroom operation: events with teachers and units, the roll call per event and the resulting absences, notices and appeals. The administration switches it on system-wide and sets the defaults, course owners activate it per course in the settings under Execution.
 
-*German: Termine und Absenzen* · [Manual](../manual_admin/administration/Modules_Events_and_Absences.md)
+*German: Termine und Absenzen* · *Formerly: Lektionenverwaltung, Lektionsblöcke* · [Manual](../manual_admin/administration/Modules_Events_and_Absences.md)
 
 ### Multi-absence recording
 
@@ -1914,7 +1932,7 @@ A brief in a section of the binder, set by the template: an essay, a document or
 
 The collection in which a person organises their portfolio work: a binder is divided into sections, and every section holds entries and assignments. It comes into being empty, from a template, from existing entries or by collecting a portfolio task in a course. The owning person shares it, wholly or in parts, for commenting and assessment.
 
-*German: Mappe* · [Manual](../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)
+*German: Mappe* · *Formerly: Sammelmappe* · [Manual](../manual_user/portfolio/Three_steps_to_your_portfolio_binder.md)
 
 ### Comments
 
@@ -1932,7 +1950,7 @@ A page in a binder, built with the content editor from text, images, videos, doc
 
 The module learners use to document and reflect on their learning processes. It gives every person binders, sections and entries, and the portfolio task course elements distribute binders from a template through it. Administration switches it on or off under e-Assessment.
 
-*German: ePortfolio* · [Manual](../manual_admin/administration/eAssessment_ePortfolio.md)
+*German: ePortfolio* · *Formerly: Portfolio 1.0, Portfolio V1, E-Portfolio Werkzeug, Sammelmappe, Artefakt* · [Manual](../manual_admin/administration/eAssessment_ePortfolio.md)
 
 ### Evaluation (ePortfolio)
 
@@ -2086,7 +2104,7 @@ The tab in the overview of a coached person in Coaching that shows their credit 
 
 The Coaching area with the Course Planner implementations in which the person coaches or owns, with their structure of elements and courses. The button appears only when the Course Planner module is on.
 
-*German: Bildungsprodukte* · [Manual](../manual_user/area_modules/Coaching_Educational_Products.md)
+*German: Bildungsprodukte* · *Formerly: Bildungsprogramme, Education programs, Education products* · [Manual](../manual_user/area_modules/Coaching_Educational_Products.md)
 
 ### Events
 
@@ -2306,7 +2324,7 @@ A single question in a test, in a questionnaire or in the question bank. It carr
 
 The area where questions are collected, tagged, released and reviewed independently of a single test. The same question can be used in several tests this way.
 
-*German: Fragenpool* · [Manual](../manual_user/area_modules/Question_Bank.md)
+*German: Fragenpool* · *Formerly: Fragepool* · [Manual](../manual_user/area_modules/Question_Bank.md)
 
 ### Questionnaire (Testing and question bank)
 
@@ -2476,7 +2494,7 @@ The record of every change to an assessment, with the person and the point in ti
 
 ### Correction
 
-A person reviewing and grading a submitted piece of work. It is needed wherever OpenOlat cannot assess automatically, for instance with free text questions.
+A person reviewing and scoring a test submission or a solution in the course element Task, where OpenOlat cannot evaluate itself, for instance free text questions.
 
 *German: Korrektur* · [Manual](../manual_user/learningresources/Test_settings.md)
 
@@ -2494,7 +2512,7 @@ A course created only to run an exam. The wizard creates it with the assessment 
 
 ### Grade
 
-The value a performance is named with under a grading system, for example the grade 5 or the verdict good. It comes from the points through the grading scale.
+The value a performance is named with under a rating system, for example the grade 5 or the verdict good. It comes from the points through the rating scale.
 
 *German: Note* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
@@ -2504,27 +2522,15 @@ The order given to a correcting person to grade a particular test submission by 
 
 *German: Korrekturauftrag* · [Manual](../manual_user/area_modules/Coaching_Order_Management.md)
 
-### Grading scale
-
-The assignment of ranges of points to grade values. It translates a score into a grade.
-
-*German: Bewertungsskala* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
-
-### Grading system
-
-A named system of grade values, for example the Swiss scale from 1 to 6. It sets which values exist and which of them count as passed.
-
-*German: Bewertungssystem* · [Manual](../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
-
 ### Levels/Grading
 
-The module where the grading systems and their scales are maintained. It sets which grades exist and from which score a grade is reached.
+The module where the rating systems and their scales are maintained. It sets which grades exist and from which score a grade is reached.
 
 *German: Einstufung/Noten* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 ### Performance class
 
-A named level of a textual grading system, for example Beginner, Advanced or Expert. Instead of a grade, a person receives the name of the level their score reaches.
+A named level of a textual rating system, for example Beginner, Advanced or Expert. Instead of a grade, a person receives the name of the level their score reaches.
 
 *German: Leistungsklasse* · [Manual](../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
@@ -2533,6 +2539,18 @@ A named level of a textual grading system, for example Beginner, Advanced or Exp
 The block with status, score, grade and comment of an assessment. Participants see it in the course element, coaches in the assessment form and there additionally as a preview of the participants' view.
 
 *German: Leistungsübersicht* · [Manual](../manual_user/learningresources/Course_Element_Structure.md)
+
+### Rating scale
+
+The assignment of ranges of points to grade values. It translates a score into a grade.
+
+*German: Bewertungsskala* · [Manual](../manual_user/learningresources/Assessment_translate_points_in_grades.md)
+
+### Rating system
+
+A named system of grade values, for example the Swiss scale from 1 to 6. It sets which values exist and which of them count as passed.
+
+*German: Bewertungssystem* · [Manual](../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
 ### Rubric assessment
 
@@ -2560,13 +2578,13 @@ A template with settings of the Safe Exam Browser that the administration create
 
 ### Success criterion
 
-The lowest grade or performance class of a grading scale with which a performance counts as passed. OpenOlat derives it from the grading system and shows it for example as Passed with 4 (Grade). It is only visible when With levels/grading is switched on.
+The lowest grade or performance class of a rating scale with which a performance counts as passed. OpenOlat derives it from the rating system and shows it for example as Passed with 4 (Grade). It is only visible when With levels/grading is switched on.
 
-*German: Erfolgskriterium* · [Manual](../manual_user/learningresources/Course_Settings_Assessment.md)
+*German: Erfolgskriterium* · *Formerly: Bestehensregel, Pass condition* · [Manual](../manual_user/learningresources/Course_Settings_Assessment.md)
 
 ### Success status
 
-The result of an assessment with the values Passed, Not passed and Undefined. OpenOlat sets it through the cut value or through the success criterion of the grading scale, or coaches set it by hand. In the coaching lists and in the course list it appears graphically and as a number.
+The result of an assessment with the values Passed, Not passed and Undefined. OpenOlat sets it through the cut value or through the success criterion of the rating scale, or coaches set it by hand. In the coaching lists and in the course list it appears graphically and as a number.
 
 *German: Erfolgsstatus* · [Manual](../manual_user/learningresources/Course_Settings_Assessment.md)
 
@@ -2620,7 +2638,7 @@ A program that ties several courses together into one certification and watches 
 
 The collection of all results a person has in a course, one per assessable course element, with points, status and date.
 
-*German: Leistungsnachweis* · [Manual](../manual_user/personal_menu/Evidence_of_Achievements.md)
+*German: Leistungsnachweis* · *Formerly: Statements* · [Manual](../manual_user/personal_menu/Evidence_of_Achievements.md)
 
 ### Membership (Evidence)
 
@@ -3268,7 +3286,7 @@ The Administration section with the basic functions of the platform: e-mail, fil
 
 The area for planning the educational offering: products, their elements, the implementations and the courses hanging off them. It used to be called Curriculum.
 
-*German: Course Planner* · [Manual](../manual_user/area_modules/Course_Planner.md)
+*German: Course Planner* · *Formerly: Curriculumverwaltung* · [Manual](../manual_user/area_modules/Course_Planner.md)
 
 ### Courses (Platform)
 
@@ -3424,7 +3442,7 @@ The Administration page under System where the info message for the login page a
 
 A course pinned as a tab of the main navigation. The title of the tab is set per language, the course toolbar can be shown to everyone. There are four such sites, Info page n°1 to n°4.
 
-*German: Infoseite* · [Manual](../manual_user/learningresources/General_Functions_Infopage.md)
+*German: Infoseite* · *Formerly: Infopage, Infopage n°1, Infos page* · [Manual](../manual_user/learningresources/General_Functions_Infopage.md)
 
 ### Invitation link
 
@@ -3580,7 +3598,7 @@ The area for project work, with events, to-dos, decisions, notes, files and a wh
 
 The area where questions for tests are collected, tagged, released and reviewed. Questions from the question bank can be used in several tests.
 
-*German: Fragenpool* · [Manual](../manual_user/area_modules/Question_Bank.md)
+*German: Fragenpool* · *Formerly: Fragepool* · [Manual](../manual_user/area_modules/Question_Bank.md)
 
 ### Quota
 
@@ -3618,6 +3636,12 @@ The Administration page under Login with the security settings: HTTP headers aga
 
 *German: Sicherheit* · [Manual](../manual_admin/administration/Login_Security.md)
 
+### Segment (Platform)
+
+The bar with switchable areas at the top of a view. One area is active, the others are one click away. The labels are the names of the areas.
+
+*German: Segment* · [Manual](../manual_user/basic_concepts/Media_Center_Concept.md)
+
 ### Self-registration
 
 The module a person uses to create an account themselves on the login page, without user management creating it. The administration sets the home organisation, the permitted e-mail domains, the mandatory fields and whether the account is active at once or pending.
@@ -3634,7 +3658,7 @@ The connection to a Shibboleth federation. Signing in happens at the home instit
 
 An entry of the main navigation in the top row, for example Courses, Groups, Catalog or Coaching. Whether a person sees a site depends on the module, the activation in the administration and the role. What does not fit into the row is collected in the More menu.
 
-*German: Bereich* · [Manual](../manual_user/area_modules/index.md)
+*German: Bereich* · *Formerly: Sites* · [Manual](../manual_user/area_modules/index.md)
 
 ### Sites
 
@@ -3659,6 +3683,12 @@ The connection to Switch edu-ID, the Swiss higher education identity. It stays w
 The Administration section for operations: system information, info messages, user sessions, errors, caches, locks, database ORM, Java VM infos and scheduler.
 
 *German: System* · [Manual](../manual_admin/administration/System.md)
+
+### System layout
+
+The theme that sets the look and colours of the whole OpenOlat instance, including the background image of the login page. The administration chooses it under Customizing on the page Darstellung. A theme can bring its own layout templates for courses, which appear in the course as System template.
+
+*German: Systemlayout* · [Manual](../manual_admin/administration/Customizing.md)
 
 ### System settings (area)
 
@@ -3688,7 +3718,7 @@ The conditions a person has to accept before using the platform or a course. The
 
 An open item with a due date, a responsible person and a status. To-dos come into being personally, in a course, in a project or from a measure of quality management, and they come together in one list.
 
-*German: To-do* · [Manual](../manual_user/basic_concepts/To_Dos_Basics.md)
+*German: To-do* · *Formerly: Massnahmen* · [Manual](../manual_user/basic_concepts/To_Dos_Basics.md)
 
 ### Trash (Platform)
 
@@ -3736,7 +3766,7 @@ The module that keeps earlier versions of a file in folders. The administration 
 
 The overview of the video learning resources a person has access to.
 
-*German: Video Collection* · [Manual](../manual_user/area_modules/Video_Collection.md)
+*German: Video Collection* · *Formerly: videotube, learntube* · [Manual](../manual_user/area_modules/Video_Collection.md)
 
 ### Visiting card
 
@@ -3760,7 +3790,7 @@ A tile on a dashboard that shows one slice: implementations, offers, members, co
 
 The connection to X, formerly Twitter, for signing in with the X account through OAuth.
 
-*German: X (Twitter)* · [Manual](../manual_admin/administration/Login.md)
+*German: X (Twitter)* · *Formerly: Twitter* · [Manual](../manual_admin/administration/Login.md)
 
 ## Roles
 
@@ -3770,7 +3800,7 @@ Who uses the system.
 
 Organisation role. An administrative organisation role. It manages the events, attendances and absences of its own organisation and closes the events.
 
-*German: Absenzenverwalter:in* · [Manual](../manual_user/basic_concepts/Roles.md)
+*German: Absenzenverwalter:in* · *Formerly: Lektionenverwalter:in* · [Manual](../manual_user/basic_concepts/Roles.md)
 
 ### Access roles
 
@@ -3872,7 +3902,7 @@ Organisation role. An administrative organisation role for training responsibili
 
 Curriculum role. Manages a single element in the Course Planner, usually an implementation, with its members and courses. The reach ends at that element.
 
-*German: Elementbesitzer:in* · [Manual](../manual_user/area_modules/Course_Planner.md)
+*German: Elementbesitzer:in* · *Formerly: Curriculumelementbesitzer:in* · [Manual](../manual_user/area_modules/Course_Planner.md)
 
 ### Ex-Officio
 
@@ -3968,7 +3998,7 @@ The roles that hang on an organisation. Their reach ends at that organisation an
 
 Course role. A course role with full responsibility for a learning resource. Owners edit the content, configure the resource, publish it and grant the other course roles.
 
-*German: Besitzer:in* · [Manual](../manual_user/basic_concepts/Roles.md)
+*German: Besitzer:in* · *Formerly: Kursadministrator:in* · [Manual](../manual_user/basic_concepts/Roles.md)
 
 ### Participant
 
@@ -3992,7 +4022,7 @@ Organisation role. An organisation role with the same reach as Administrator, bu
 
 Curriculum role. Manages a whole product in the Course Planner with all elements and implementations below it.
 
-*German: Produktbesitzer:in* · [Manual](../manual_user/area_modules/Course_Planner.md)
+*German: Produktbesitzer:in* · *Formerly: Curriculumbesitzer:in* · [Manual](../manual_user/area_modules/Course_Planner.md)
 
 ### Project manager
 

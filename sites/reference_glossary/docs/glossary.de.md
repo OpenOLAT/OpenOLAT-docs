@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 736 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 741 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -164,13 +164,13 @@ Eine einzelne Regel der Automatisierung. Sie besteht aus einem Auslöser, entwed
 
 Ein im Course Planner geführtes Bildungsangebot aus mehreren Kursen und Durchführungen, wie es Coaching und Katalog anzeigen.
 
-*Englisch: Educational products* · [Handbuch](../manual_user/area_modules/Coaching_Educational_Products.de.md)
+*Englisch: Educational products* · *Früher: Bildungsprogramme, Education programs, Education products* · [Handbuch](../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 ### Course Planner (Course Planner)
 
 Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkte mit Elementen und Durchführungen, Elementtypen, Kurstemplates, Automatisierung, To-dos und Reports. Es ersetzt das frühere Modul Curriculum und vergibt die Mitgliedschaften der eingebundenen Kurse.
 
-*Englisch: Course Planner* · [Handbuch](../manual_admin/administration/Modules_Course_Planner.de.md)
+*Englisch: Course Planner* · *Früher: Curriculum, Curriculumverwaltung* · [Handbuch](../manual_admin/administration/Modules_Course_Planner.de.md)
 
 ### Durchführung
 
@@ -188,7 +188,7 @@ Der Ablauf einer Durchführung durch ihre Status, von Vorbereitung über Bestät
 
 Ein Knoten in der Struktur eines Produkts. Je nach Elementtyp steht er für einen Studiengang, ein Semester, ein Modul oder eine Durchführung. Die Elemente bilden die Hierarchie, in welche die Kurse eingehängt werden.
 
-*Englisch: Element* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
+*Englisch: Element* · *Früher: Curriculum-Element, Curriculumelement* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 ### Elementtyp
 
@@ -206,7 +206,7 @@ Das Erzeugen eines Kurses aus einem Kurstemplate für eine bestimmte Durchführu
 
 Ein Kurs, der im Course Planner einem Element zugewiesen wird, um daraus für jede Durchführung einen eigenen Kurs zu instanziieren. Das Template selbst wird nicht besucht und bleibt unverändert.
 
-*Englisch: Course template* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
+*Englisch: Course template* · *Früher: Vorlagekurs* · [Handbuch](../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 ### Mitgliedschaft (Course Planner)
 
@@ -218,7 +218,7 @@ Die Zugehörigkeit einer Person zu einem Kurs, einer Gruppe oder einem Element d
 
 Die oberste Ebene im Course Planner. Ein Produkt beschreibt ein Bildungsangebot mit seiner Struktur, unter der die Elemente und die Durchführungen hängen.
 
-*Englisch: Product* · [Handbuch](../manual_user/area_modules/Course_Planner_Products.de.md)
+*Englisch: Product* · *Früher: Curriculum* · [Handbuch](../manual_user/area_modules/Course_Planner_Products.de.md)
 
 ### Reports (Course Planner)
 
@@ -390,7 +390,7 @@ Eine Fähigkeit, die einer Person zugeschrieben wird, benannt über eine Taxonom
 
 Ein Inhaltsobjekt, das im Autorenbereich verwaltet wird: Kurs, Test, Formular, Video, Wiki und weitere. Sie trägt Metadaten, Besitzende und einen Lebenszyklus und lässt sich in Kurse einbinden.
 
-*Englisch: Learning resource* · [Handbuch](../manual_admin/administration/Modules_Learning_Resource.de.md)
+*Englisch: Learning resource* · *Früher: Repository-Eintrag, Repository entry* · [Handbuch](../manual_admin/administration/Modules_Learning_Resource.de.md)
 
 ### Lost+found
 
@@ -474,7 +474,7 @@ Lernressource mit Fragen im Format QTI 2.1, die Wissen misst. Sie wird über den
 
 Altbestand: eine Test-Lernressource im Format QTI 1.2. Seit Release 15.0 läuft sie nicht mehr, seit 16.0 lässt sie sich nicht mehr konvertieren. Sie kann weder erstellt noch importiert werden und erscheint nur noch in Listen alter Einträge.
 
-*Englisch: Test (QTI 1.2 - no longer supported)* · [Handbuch](../manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md)
+*Englisch: Test (QTI 1.2 - no longer supported)* · *Früher: QTI 1.2 Test, Test (QTI 1.2), alter Test* · [Handbuch](../manual_user/learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md)
 
 ### Timeline (Lernressourcen)
 
@@ -622,7 +622,7 @@ Eine in LaTeX geschriebene Formel, die als Formel gesetzt dargestellt wird.
 
 Das Modul, in dem jede Person ihre Medien ablegt und verwaltet: Bilder, Videos, Audios, Dokumente, Zitate, Diagramme und Texte. Medien lassen sich versionieren, mit Tags und Lizenz versehen und für Personen, Gruppen, Kurse und Organisationen freigeben. Seiten, Formulare und Portfolios binden sie ein, statt sie zu kopieren.
 
-*Englisch: Media Center* · [Handbuch](../manual_user/basic_concepts/Media_Center_Concept.de.md)
+*Englisch: Media Center* · *Früher: Mediencenter, Mediathek* · [Handbuch](../manual_user/basic_concepts/Media_Center_Concept.de.md)
 
 ### Quiz (Inhalte und Medien)
 
@@ -808,6 +808,12 @@ Kursbaustein, der einen Inhalt aus der Bildungscloud edu-sharing im Kurs anzeigt
 
 *Englisch: edu-sharing* · [Handbuch](../manual_user/learningresources/Course_Element_edu_Sharing.de.md)
 
+### Eigene Konfiguration
+
+Die Option der Layoutvorlage, mit der ein Kurs seinen Stil selbst festlegt. Für Text, Überschriften, Links, Menü und Toolbox wählen die Kursbesitzenden Schriftart, Schriftgrösse, Farbe und Hintergrundfarbe und laden ein Logo hoch. OpenOlat erzeugt daraus eine CSS-Datei im Kurs.
+
+*Englisch: Custom configuration* · [Handbuch](../manual_user/learningresources/Course_Settings.de.md)
+
 ### Einfacher Modus
 
 Die Ansicht der Tabs Sichtbarkeit und Zugang mit vorgegebenen Ankreuzfeldern: für Teilnehmende gesperrt, datumsabhängig, gruppenabhängig, bewertungsabhängig, nur im Prüfungsmodus.
@@ -926,7 +932,7 @@ Kursbaustein, der eine einzelne HTML-Seite mit Texten, Bildern und Videos anzeig
 
 Die Seite, die eine Lernressource beschreibt, bevor eine Person sie betritt, mit Beschreibung, Zeitraum, Betreuenden und Buchungsmöglichkeit. Sie fasst die Fakten in einer Übersicht zusammen, zeigt auf Wunsch Termine, Dozent:innen, Zertifikat und Kreditpunkte und lässt sich als PDF herunterladen.
 
-*Englisch: Info page* · [Handbuch](../manual_user/learningresources/Info_page.de.md)
+*Englisch: Info page* · *Früher: Kursinfo, Infopage, Infos page, Detailansicht* · [Handbuch](../manual_user/learningresources/Info_page.de.md)
 
 ### JupyterHub (Kurs)
 
@@ -993,6 +999,12 @@ Das Kurswerkzeug, das die Zugriffe auf die Kursbausteine zählt und als Tabelle 
 Eine Pendenz innerhalb eines Kurses, mit verantwortlicher Person und Frist. Sie erscheint auch in der persönlichen To-do-Liste dieser Person.
 
 *Englisch: Course to-do* · [Handbuch](../manual_user/learningresources/Course_todos.de.md)
+
+### Layoutvorlage
+
+Die Vorlage, die den visuellen Stil eines Kurses festlegt: Schriften und Farben für Text, Überschriften, Links, Menü und Toolbox sowie das Logo. Die Kursbesitzenden wählen sie im Tab Layout der Kurseinstellungen. Welche Vorlagen zur Auswahl stehen, bestimmt das Systemlayout der Instanz; Standard und Eigene Konfiguration sind immer vorhanden.
+
+*Englisch: Layout template* · [Handbuch](../manual_user/learningresources/Course_Settings.de.md)
 
 ### Lernpfad
 
@@ -1143,6 +1155,12 @@ Erinnerungen als Kurznachricht statt als E-Mail. Sie sind an einen SMS-Anbieter 
 Kursbaustein, der das Kursmenü in Kapitel gliedert. Er fasst die Bewertungen der untergeordneten Bausteine zu einer Gesamtbewertung zusammen.
 
 *Englisch: Structure* · [Handbuch](../manual_user/learningresources/Course_Element_Structure.de.md)
+
+### Systemvorlage
+
+Eine Layoutvorlage, die das Systemlayout der Instanz mitbringt: ein Ordner mit CSS-Dateien im Ordner courselayouts des Themes. Die Auswahl zeigt sie als Systemvorlage mit dem Namen des Ordners. Ein eigenes Theme kann so ein einheitliches Aussehen für viele Kurse bereitstellen.
+
+*Englisch: System template* · [Handbuch](../manual_user/learningresources/Course_Settings.de.md)
 
 ### Teilarchiv
 
@@ -1790,7 +1808,7 @@ Die druckbare Liste der erfassten Absenzen eines Termins, je Teilnehmende und Ei
 
 Der Eintrag in der Hauptnavigation für die kursübergreifende Bearbeitung der Absenzen durch Absenzenverwalter:innen: Cockpit, Termine, Absenzen, Meldungen, Rekurse, Personensuche und Report über alle Kurse.
 
-*Englisch: Absence management* · [Handbuch](../manual_user/area_modules/Absence_Management.de.md)
+*Englisch: Absence management* · *Früher: Lektionenverwaltung* · [Handbuch](../manual_user/area_modules/Absence_Management.de.md)
 
 ### Anwesenheit
 
@@ -1886,13 +1904,13 @@ Der Einspruch einer Person gegen eine festgestellte Absenz. Er ist nur innerhalb
 
 Eine planbare Unterrichtseinheit aus 1 bis 12 Lektionen, mit Datum, Raum und Dozierenden. Sie ist die Einheit, für welche die Anwesenheit erfasst wird.
 
-*Englisch: Event* · [Handbuch](../manual_user/learningresources/Toolbar_Events.de.md)
+*Englisch: Event* · *Früher: Lektionsblock, Lektion* · [Handbuch](../manual_user/learningresources/Toolbar_Events.de.md)
 
 ### Termine und Absenzen
 
 Das Modul für den Präsenzbetrieb: Termine mit Dozierenden und Einheiten, die Anwesenheitskontrolle je Termin und die daraus folgenden Absenzen, Meldungen und Rekurse. Die Administration schaltet es systemweit ein und setzt die Vorgaben, Kursbesitzende aktivieren es je Kurs in den Einstellungen unter Durchführung.
 
-*Englisch: Events and absences* · [Handbuch](../manual_admin/administration/Modules_Events_and_Absences.de.md)
+*Englisch: Events and absences* · *Früher: Lektionenverwaltung, Lektionsblöcke* · [Handbuch](../manual_admin/administration/Modules_Events_and_Absences.de.md)
 
 ## ePortfolio
 
@@ -1944,7 +1962,7 @@ Eine Seite in einer Mappe, gebaut mit dem Content Editor aus Text, Bildern, Vide
 
 Das Modul, mit dem Lernende ihre Lernprozesse dokumentieren und reflektieren. Es stellt jeder Person Mappen, Bereiche und Einträge bereit, und die Kursbausteine Portfolioaufgabe verteilen darüber Mappen aus einer Vorlage. Die Administration schaltet es unter e-Assessment ein oder aus.
 
-*Englisch: ePortfolio* · [Handbuch](../manual_admin/administration/eAssessment_ePortfolio.de.md)
+*Englisch: ePortfolio* · *Früher: Portfolio 1.0, Portfolio V1, E-Portfolio Werkzeug, Sammelmappe, Artefakt* · [Handbuch](../manual_admin/administration/eAssessment_ePortfolio.de.md)
 
 ### Floating Eintrag
 
@@ -1974,7 +1992,7 @@ Rückmeldungen unter einem Eintrag. Freigegebene Personen mit Kommentarrecht sch
 
 Die Sammlung, in der eine Person ihre Portfolioarbeit ordnet: Eine Mappe gliedert sich in Bereiche, und jeder Bereich enthält Einträge und Aufgaben. Sie entsteht leer, aus einer Vorlage, aus bestehenden Einträgen oder durch das Abholen einer Portfolioaufgabe im Kurs. Die besitzende Person gibt sie ganz oder in Teilen zum Kommentieren und Bewerten frei.
 
-*Englisch: Binder* · [Handbuch](../manual_user/portfolio/Three_steps_to_your_portfolio_binder.de.md)
+*Englisch: Binder* · *Früher: Sammelmappe* · [Handbuch](../manual_user/portfolio/Three_steps_to_your_portfolio_binder.de.md)
 
 ### Meine Einträge
 
@@ -2074,7 +2092,7 @@ Der Bereich des Coaching, der die eigene offene Bewertungsarbeit über alle Kurs
 
 Der Bereich des Coaching mit den Durchführungen des Course Planner, in denen die Person betreut oder besitzt, mit ihrer Struktur aus Elementen und Kursen. Der Button erscheint nur, wenn das Modul Course Planner eingeschaltet ist.
 
-*Englisch: Educational products* · [Handbuch](../manual_user/area_modules/Coaching_Educational_Products.de.md)
+*Englisch: Educational products* · *Früher: Bildungsprogramme, Education programs, Education products* · [Handbuch](../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 ### Coaching
 
@@ -2228,7 +2246,7 @@ Kursbaustein, der eine Test-Lernressource (QTI 2.1) einbindet, die als Frageboge
 
 Der Bereich, in dem Fragen unabhängig von einem einzelnen Test gesammelt, verschlagwortet, freigegeben und beurteilt werden. Dieselbe Frage lässt sich so in mehreren Tests verwenden.
 
-*Englisch: Question bank* · [Handbuch](../manual_user/area_modules/Question_Bank.de.md)
+*Englisch: Question bank* · *Früher: Fragepool* · [Handbuch](../manual_user/area_modules/Question_Bank.de.md)
 
 ### Fragetyp
 
@@ -2442,13 +2460,13 @@ Das Formular im Bewertungswerkzeug, in dem Betreuende für eine Person Status, P
 
 Die Zuordnung von Punktebereichen zu Notenwerten. Sie übersetzt eine Punktzahl in eine Note.
 
-*Englisch: Grading scale* · [Handbuch](../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
+*Englisch: Rating scale* · [Handbuch](../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
 ### Bewertungssystem
 
 Ein benanntes System von Notenwerten, zum Beispiel die schweizerische Notenskala von 1 bis 6. Es legt fest, welche Werte es gibt und welche als bestanden gelten.
 
-*Englisch: Grading system* · [Handbuch](../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
+*Englisch: Rating system* · [Handbuch](../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
 
 ### Bewertungswerkzeug
 
@@ -2466,7 +2484,7 @@ Das Modul, in dem die Bewertungssysteme und ihre Skalen gepflegt werden. Es legt
 
 Die tiefste Note oder Leistungsklasse einer Bewertungsskala, mit der eine Leistung als bestanden gilt. OpenOlat leitet sie aus dem Bewertungssystem ab und zeigt sie zum Beispiel als Bestanden mit 4 (Note). Sie ist nur sichtbar, wenn Mit Einstufung/Noten eingeschaltet ist.
 
-*Englisch: Success criterion* · [Handbuch](../manual_user/learningresources/Course_Settings_Assessment.de.md)
+*Englisch: Success criterion* · *Früher: Bestehensregel, Pass condition* · [Handbuch](../manual_user/learningresources/Course_Settings_Assessment.de.md)
 
 ### Erfolgsstatus
 
@@ -2482,7 +2500,7 @@ Der Abschnitt im Tab Bewertung eines bewertbaren Kursbausteins im Kurseditor, in
 
 ### Korrektur
 
-Das Durchsehen und Benoten einer abgegebenen Arbeit durch eine Person. Sie ist nötig, wo OpenOlat nicht automatisch bewerten kann, etwa bei Freitextfragen.
+Das Durchsehen und Bepunkten einer Testabgabe oder einer Lösung im Kursbaustein Aufgabe durch eine Person, wo OpenOlat nicht selbst auswerten kann, etwa bei Freitextfragen.
 
 *Englisch: Correction* · [Handbuch](../manual_user/learningresources/Test_settings.de.md)
 
@@ -2590,7 +2608,7 @@ Die Art eines Badges, mit Bild, Beschreibung, Herausgeber und Vergabekriterien. 
 
 Die Zusammenstellung aller Resultate einer Person in einem Kurs, je bewertbarem Baustein, mit Punkten, Status und Datum.
 
-*Englisch: Evidence of achievement* · [Handbuch](../manual_user/personal_menu/Evidence_of_Achievements.de.md)
+*Englisch: Evidence of achievement* · *Früher: Statements* · [Handbuch](../manual_user/personal_menu/Evidence_of_Achievements.de.md)
 
 ### Mitgliedschaft (Nachweise)
 
@@ -3238,7 +3256,7 @@ Der Bereich zum Anlegen, Suchen, Bearbeiten, Importieren und Löschen von Konten
 
 Ein Eintrag der Hauptnavigation in der obersten Zeile, zum Beispiel Kurse, Gruppen, Katalog oder Coaching. Ob eine Person einen Bereich sieht, entscheiden das Modul, die Freischaltung in der Administration und die Rolle. Was nicht in die Zeile passt, sammelt OpenOlat im Menü Mehr.
 
-*Englisch: Site* · [Handbuch](../manual_user/area_modules/index.de.md)
+*Englisch: Site* · *Früher: Sites* · [Handbuch](../manual_user/area_modules/index.de.md)
 
 ### Bereiche
 
@@ -3274,7 +3292,7 @@ Der Abschnitt der Administration mit den Grundfunktionen der Plattform: E-Mail, 
 
 Der Bereich für die Planung des Bildungsangebots: Produkte, deren Elemente, die Durchführungen und die daran hängenden Kurse. Er hiess früher Curriculum.
 
-*Englisch: Course Planner* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
+*Englisch: Course Planner* · *Früher: Curriculumverwaltung* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
 
 ### COVID-Zertifikat
 
@@ -3388,7 +3406,7 @@ Der Bereich, der die Dateien aus allen Kursen, Gruppen und dem persönlichen Abl
 
 Der Bereich, in dem Fragen für Tests gesammelt, verschlagwortet, freigegeben und beurteilt werden. Fragen aus dem Fragenpool lassen sich in mehreren Tests verwenden.
 
-*Englisch: Question bank* · [Handbuch](../manual_user/area_modules/Question_Bank.de.md)
+*Englisch: Question bank* · *Früher: Fragepool* · [Handbuch](../manual_user/area_modules/Question_Bank.de.md)
 
 ### Gastzugang
 
@@ -3448,7 +3466,7 @@ Die Seite der Administration unter System, auf der die Info Meldung für die Anm
 
 Ein Kurs, der als Tab der Hauptnavigation eingebunden ist. Der Titel des Tabs wird je Sprache gesetzt, die Kurs-Toolbar lässt sich für alle einblenden. Es gibt vier solche Bereiche, Infoseite n°1 bis n°4.
 
-*Englisch: Info page* · [Handbuch](../manual_user/learningresources/General_Functions_Infopage.de.md)
+*Englisch: Info page* · *Früher: Infopage, Infopage n°1, Infos page* · [Handbuch](../manual_user/learningresources/General_Functions_Infopage.de.md)
 
 ### Karenzfrist
 
@@ -3648,6 +3666,12 @@ Der Abschnitt der Administration mit systemweiten Auswertungen: Zertifikate, Fra
 
 *Englisch: Reports* · [Handbuch](../manual_admin/administration/Reports.de.md)
 
+### Segment (Plattform)
+
+Die Leiste mit umschaltbaren Bereichen oben in einer Ansicht. Ein Bereich ist aktiv, die anderen sind einen Klick entfernt. Die Beschriftungen sind die Namen der Bereiche.
+
+*Englisch: Segment* · [Handbuch](../manual_user/basic_concepts/Media_Center_Concept.de.md)
+
 ### Selbstregistrierung
 
 Das Modul, mit dem eine Person auf der Anmeldeseite selbst ein Konto anlegt, ohne dass die Kontoverwaltung es erstellt. Die Administration bestimmt die Heimatorganisation, die erlaubten E-Mail-Domänen, die Pflichtfelder und ob das Konto sofort aktiv oder ausstehend ist.
@@ -3696,6 +3720,12 @@ Die Voreinstellungen eines Kontos im Tab System der Einstellungen: Sprache, E-Ma
 
 *Englisch: System settings* · [Handbuch](../manual_user/personal_menu/Settings.de.md)
 
+### Systemlayout
+
+Das Theme, das Aussehen und Farben der ganzen OpenOlat-Instanz festlegt, samt dem Hintergrundbild der Anmeldeseite. Die Administration wählt es unter Customizing auf der Seite Darstellung. Ein Theme kann eigene Layoutvorlagen für Kurse mitbringen, die im Kurs als Systemvorlage zur Auswahl stehen.
+
+*Englisch: System layout* · [Handbuch](../manual_admin/administration/Customizing.de.md)
+
 ### Tags
 
 Ein frei vergebenes Schlagwort an einem Objekt, nach dem sich Listen filtern lassen. Medien im Media Center, Projekte, To-dos, Blog- und Podcast-Beiträge und Badges tragen Tags; der Dienst dahinter ist für alle derselbe.
@@ -3706,7 +3736,7 @@ Ein frei vergebenes Schlagwort an einem Objekt, nach dem sich Listen filtern las
 
 Eine Pendenz mit Fälligkeit, verantwortlicher Person und Status. To-dos entstehen persönlich, im Kurs, im Projekt oder aus einer Massnahme des Qualitätsmanagements und laufen in einer Liste zusammen.
 
-*Englisch: To-do* · [Handbuch](../manual_user/basic_concepts/To_Dos_Basics.de.md)
+*Englisch: To-do* · *Früher: Massnahmen* · [Handbuch](../manual_user/basic_concepts/To_Dos_Basics.de.md)
 
 ### Validierungscode
 
@@ -3724,7 +3754,7 @@ Das Modul, das frühere Versionen einer Datei in Ordnern aufbewahrt. Die Adminis
 
 Die Übersicht über die Video-Lernressourcen, auf die eine Person Zugriff hat.
 
-*Englisch: Video Collection* · [Handbuch](../manual_user/area_modules/Video_Collection.de.md)
+*Englisch: Video Collection* · *Früher: videotube, learntube* · [Handbuch](../manual_user/area_modules/Video_Collection.de.md)
 
 ### Visitenkarte
 
@@ -3760,7 +3790,7 @@ Eine Kachel auf einem Dashboard, die einen Ausschnitt zeigt: Durchführungen, An
 
 Anbindung an X, früher Twitter, für die Anmeldung mit dem X-Konto über OAuth.
 
-*Englisch: X (Twitter)* · [Handbuch](../manual_admin/administration/Login.de.md)
+*Englisch: X (Twitter)* · *Früher: Twitter* · [Handbuch](../manual_admin/administration/Login.de.md)
 
 ## Rollen
 
@@ -3770,7 +3800,7 @@ Wer das System benutzt.
 
 Administrative Organisationsrolle. Sie verwaltet die Termine, Anwesenheiten und Absenzen der eigenen Organisation und schliesst die Termine ab.
 
-*Englisch: Absence manager* · [Handbuch](../manual_user/basic_concepts/Roles.de.md)
+*Englisch: Absence manager* · *Früher: Lektionenverwalter:in* · [Handbuch](../manual_user/basic_concepts/Roles.de.md)
 
 ### Administrative Freigabe
 
@@ -3812,7 +3842,7 @@ Administrative Organisationsrolle. Sie verwaltet die Konten der eigenen Organisa
 
 Kursrolle mit der vollen Verantwortung für eine Lernressource. Besitzende bearbeiten den Inhalt, konfigurieren die Ressource, publizieren sie und vergeben die übrigen Kursrollen.
 
-*Englisch: Owner* · [Handbuch](../manual_user/basic_concepts/Roles.de.md)
+*Englisch: Owner* · *Früher: Kursadministrator:in* · [Handbuch](../manual_user/basic_concepts/Roles.de.md)
 
 ### Betreuer:in
 
@@ -3854,7 +3884,7 @@ Zugriffsrolle. Externe Person, die über eine Einladung Zugang zu einer einzelne
 
 Curriculum-Rolle. Verwaltet ein einzelnes Element im Course Planner, meist eine Durchführung, mit deren Mitgliedern und Kursen. Der Zugriff endet an diesem Element.
 
-*Englisch: Element owner* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
+*Englisch: Element owner* · *Früher: Curriculumelementbesitzer:in* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
 
 ### Ex-Officio
 
@@ -3998,7 +4028,7 @@ Organisationsrolle mit demselben Umfang wie Administrator:in, aber nur lesend. P
 
 Curriculum-Rolle. Verwaltet ein ganzes Produkt im Course Planner mit allen Elementen und Durchführungen darunter.
 
-*Englisch: Product owner* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
+*Englisch: Product owner* · *Früher: Curriculumbesitzer:in* · [Handbuch](../manual_user/area_modules/Course_Planner.de.md)
 
 ### Projektbüro
 
