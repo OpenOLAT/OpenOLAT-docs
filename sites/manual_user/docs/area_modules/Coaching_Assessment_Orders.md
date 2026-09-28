@@ -17,7 +17,7 @@ Three terms appear on this page. They refer to different things:
 
 * **Assessment**: the result of a person at an assessable course element, that is status, points, "Passed" and, if applicable, the grade. A test also has an assessment. You edit it in the [assessment form](../learningresources/The_assessment_form.md) or in the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course.
 * **Correction**: reviewing a submission by hand where OpenOlat does not evaluate it itself, for example with essay questions in a test. The correction is a step on the way to the assessment: in a test, the correcting person awards the points, and the assessment results from them. Coaches correct a test in the [correction tool](../learningresources/Assessing_tests.md), correctors via "Grade" in their grading assignment.
-* **Levels/Grading**: the conversion of the points into a grade according to a grading scale. Without levels/grading, the assessment consists of points and, if applicable, "Passed". With [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md), the grade is added, and the grading system determines whether the score counts as passed.
+* **Levels/Grading**: the conversion of the points into a grade according to a rating scale. Without levels/grading, the assessment consists of points and, if applicable, "Passed". With [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md), the grade is added, and the rating system determines whether the score counts as passed.
 
 [To the top of the page ^](#assessment_orders)
 
@@ -67,9 +67,9 @@ With the filter "Assigned to me" you limit the list to the orders that are assig
 
 ### Tab Open levels/gradings [:octicons-tag-16:{ title="from Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009) {: #tab_open_classifications_scores}
 
-Here you find all course elements that have already been assessed but for which the manual assignment to a grading scale or grading system has not yet been completed.
+Here you find all course elements that have already been assessed but for which the manual assignment to a rating scale or rating system has not yet been completed.
 
-A row appears if "Levels/Grading" is switched on at the course element and the "Assignment" is set to "Manually by coach", the points are set and the grade is still pending. Course owners set both in the course editor at the course element, for a test in the tab "Test configuration", otherwise in the tab "Assessment". In addition, the module [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md) and a stored grading scale are required.
+A row appears if "Levels/Grading" is switched on at the course element and the "Assignment" is set to "Manually by coach", the points are set and the grade is still pending. Course owners set both in the course editor at the course element, for a test in the tab "Test configuration", otherwise in the tab "Assessment". In addition, the module [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md) and a stored rating scale are required.
 
 Coaches without ownership see the row and assign the grade as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights). Conventional courses do not have this section; there, coaches can always assign the grade.
 

@@ -89,21 +89,21 @@ If you use multiple "Grading" course blocks within an oral exam (for a course), 
 
 Example: The oral exam consists of three parts, each of which accounts for one-third of the overall grade. If the scoring rubric for one part of the exam allows for a maximum of 50 points, while the rubrics for the other parts allow for a maximum of 100 points each, the points for the first part must be doubled so that it carries the same weight in the overall grade.   
 
-**Grading with ratings/grades:**<br>
-Once "Assign points" has been enabled, you can also enable and further configure the "Grading with ratings/grades" option.<br>
+**Levels/Grading:**<br>
+Once "Assign points" has been enabled, you can also enable and further configure the "Levels/Grading" option.<br>
 
-By default, results in OpenOlat are graded using points. By enabling this option, the points are converted into a letter grade scale or another grading system.<br> 
-[More about grading systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md) 
+By default, results in OpenOlat are graded using points. By enabling this option, the points are converted into a letter grade scale or another rating system.<br> 
+[More about rating systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md) 
 
 **Rating scale:**<br>
-Click "Edit Grading Scale" to select a scale and make any additional settings. The scale also specifies whether a grading scale is associated with a pass/fail designation and, if so, at what point.
+Click "Edit rating scale" to select a scale and make any additional settings. The scale also specifies whether a rating scale is associated with a pass/fail designation and, if so, at what point.
 
-Under **Assignment**, you can specify whether the assignment to the selected grading scale should be done manually by the instructors or automatically based on the score achieved.
+Under **Assignment**, you can specify whether the assignment to the selected rating scale should be done manually by the instructors or automatically based on the score achieved.
 
 **Display Pass/Fail:**<br>
-If you have chosen a grading scale, the passing score for the selected scale will be displayed.<br>
-If you *do not* use a grading scale, you can choose whether to display the "Pass/Fail" status of the course module to participants.<br>
-If "Points" has been enabled in addition to "Pass/Fail", an automatic, point-based grading system can be activated in addition to the standard manual grading by instructors.
+If you have chosen a rating scale, the passing score for the selected scale will be displayed.<br>
+If you *do not* use a rating scale, you can choose whether to display the "Pass/Fail" status of the course module to participants.<br>
+If "Points" has been enabled in addition to "Pass/Fail", an automatic, point-based rating system can be activated in addition to the standard manual grading by instructors.
 
 **To be considered in course assessment:**<br>
 If this option is enabled, the points earned in this course module will count toward the passing score defined in Administration -> Settings -> Grading, which is required to pass the course. Alternatively, the course module will be considered part of the required course modules needed to pass the entire course.<br>
@@ -357,7 +357,7 @@ Yes. As a coach or owner, open the participant's profile again in the assessment
 In the assessment tool, you'll find the "Export" option in the upper-right corner. You'll receive an Excel or CSV file containing all the items, grades, and comments.
 
 **What should you do if a participant doesn't show up?**<br>
-In the grading module, enter "0 points" and "Fail," and note "Did not attend" in the internal comment field. Alternatively, you can set the status to "Did not participate" if this option is configured in the grading system.
+In the grading module, enter "0 points" and "Fail," and note "Did not attend" in the internal comment field. Alternatively, you can set the status to "Did not participate" if this option is configured in the rating system.
 
 **Can participants download their assessment?**<br>
 Yes, you can access a PDF containing the results for all graded modules by going to *“My Course” > Transcript*.

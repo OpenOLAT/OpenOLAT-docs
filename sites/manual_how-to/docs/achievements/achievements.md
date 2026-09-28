@@ -58,13 +58,13 @@
 
 | Points | Grades | Evidences of achievement | Badges, course related | Global Badges | Certificates | Credit points |
 | -------| ----- | ----------------- | ------------------- | -------------- | ----------- | ------------ |
-| Automatically in assessable course components (e.g., tests) and by coaches | Automatically, based on points earned and the defined grading scale for the course | Display is activated by course owners in the settings | Automatically or manually by teachers in the course | Assigned centrally by administrators or authorized persons | Automatically after fulfilling the specified criteria | for learning achievements or by coaches |
+| Automatically in assessable course components (e.g., tests) and by coaches | Automatically, based on points earned and the defined rating scale for the course | Display is activated by course owners in the settings | Automatically or manually by teachers in the course | Assigned centrally by administrators or authorized persons | Automatically after fulfilling the specified criteria | for learning achievements or by coaches |
 
 **Content**
 
 | Points | Grades | Evidences of achievement | Badges, course related | Global Badges | Certificates | Credit points |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| integer result value | Grade (e.g., 5.0) and points achieved according to the grading scale | Progress indicator, points, passed, certificate, certificate validity | Image, title, description, date of award, link for verification | Image, title, description, date of award, link for verification | Course name, participant's name, date of issue, signature/logo if applicable | Credit balances, possibly in different currencies (credit point systems) |
+| integer result value | Grade (e.g., 5.0) and points achieved according to the rating scale | Progress indicator, points, passed, certificate, certificate validity | Image, title, description, date of award, link for verification | Image, title, description, date of award, link for verification | Course name, participant's name, date of issue, signature/logo if applicable | Credit balances, possibly in different currencies (credit point systems) |
 
 
 **Form**
@@ -121,7 +121,7 @@ The final total of points can be converted into
 * Terms used for assessment (e.g., "very good," "good," etc., or A1, B1, etc. for language levels)
 * Graphic rating (e.g., various smileys)
 
-The classification and grading scale can then be used in the assessment tool.
+The classification and rating scale can then be used in the assessment tool.
 
 [More about grades >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 
@@ -248,7 +248,7 @@ Points earned in a course element or course are also displayed in the course ele
 [Course assessment with points: Total and weighting >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Course assessment with points: Average >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Assessment/Grades >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
-[Set up grading systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
+[Set up rating systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
 [Certificates and recertification in the course >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Certificate programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [How can I create certificate programs with the Course Planner? >](../../manual_how-to/certification_programs/certification_programs.md)

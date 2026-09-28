@@ -92,7 +92,7 @@ The SCORM learning content closes automatically once it is completed, and users 
 
 #### Transfer score from SCORM {: #transfer_score }
 
-Properly created SCORM packages can transfer certain parameters (points, pass/fail status, etc.) to the LMS. With this option, the OpenOlat grading system imports the results from the SCORM package.<br>
+Properly created SCORM packages can transfer certain parameters (points, pass/fail status, etc.) to the LMS. With this option, OpenOlat takes over the results from the SCORM package into the assessment.<br>
 **Don't transfer scoring information:** Any values passed from the SCORM package are not taken into account in OpenOlat.<br>
 **Transfer score value:** The scores provided by the SCORM package are imported into OpenOlat's scoring system.<br>
 **Transfer passed value:** OpenOlat only adopts the "Passed" or "Failed" status reported by the SCORM package; the underlying score is irrelevant. Accordingly, specifying a maximum or required score is unnecessary with this option and will not be displayed.

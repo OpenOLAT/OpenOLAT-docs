@@ -55,7 +55,7 @@ Once "Award points" has been activated, the option "Levels/Grading" can also be 
 
 Click on "Edit rating scale" to select a scale and make any further settings. The scale also defines whether and from when a rating scale is linked to a pass/fail result. 
 
-Then you define whether the assignment to the selected grading scale should be done manually by the coaches or automatically by assigning the points achieved. 
+Then you define whether the assignment to the selected rating scale should be done manually by the coaches or automatically by assigning the points achieved. 
 
 ### Display Passed / Failed
 
@@ -67,7 +67,7 @@ If points have been activated in addition to Pass/Fail, an automatic, point-base
 
 ![Score range 0 to 20, Display passed / not passed enabled and automatic output using cut value instead of manually by coach, in the Assessment tab of the course editor](assets/KB_Bewertung_Punkte_bestanden19_en.jpg){ class="shadow lightbox" }
 
-Passing can also be achieved through the selected grading scale. 
+Passing can also be achieved through the selected rating scale. 
 
 If points and/or passing grades have been activated, there is another option for learning path courses: **"Include in course evaluation"**. If this option is enabled, the points achieved by the participants are credited to the point threshold defined in `Course > Administration > Settings > Assessment`, which is necessary for passing the course, or the course element is taken into account as part of the necessary course elements that serve to pass the entire course. 
 

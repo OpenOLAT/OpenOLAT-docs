@@ -5,13 +5,13 @@
 Administrators enable the module "Levels/Grading" and create the rating systems that convert points into grades. You find the module in the system administration under:<br>
 `Administration > e-Assessment > Levels/Grading`
 
-![Levels/Grading page in the e-assessment area: the enabled module provides eight grading systems, the Usage column shows how often a system is in use](assets/Admin_Noten_en.png){ class="shadow lightbox" }
+![Levels/Grading page in the e-assessment area: the enabled module provides eight rating systems, the Usage column shows how often a system is in use](assets/Admin_Noten_en.png){ class="shadow lightbox" }
 
 The term "Note" is used here as a placeholder for all possible output formats. (Examples could be: 1-6, A-F, "very good" - "unsatisfactory", "Beginner"/"Advanced"/"Expert" etc.).
 
 After activation, course owners can enable Levels/Grading in the course editor in assessable course elements, for example in Test, Task, Assessment or Video task.
 
-## Grading system
+## Rating system
 
 System administrators can make the following settings to configure the rating systems:
 

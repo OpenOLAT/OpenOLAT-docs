@@ -222,7 +222,7 @@ It is also possible to have tests graded anonymously in OpenOlat. You can learn 
 ---
 
 
-## Grading systems {: #grading_systems}
+## Rating systems {: #grading_systems}
 
 By default, every question in OpenOlat is graded on a point system.
 
