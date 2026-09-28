@@ -4,7 +4,11 @@
 
 Im persönlichen Menü, Abschnitt "Konfiguration", unter der Option "Profil" können Sie Ihre persönlichen Daten ändern und Ihre Visitenkarte einrichten. Vervollständigen Sie die vorgesehenen Felder.
 
-Ihre E-Mail-Adresse ändern Sie über den Button "E-Mail bearbeiten". OpenOlat sendet einen Validierungscode an die neue Adresse. Erst wenn Sie diesen Code eingegeben haben, ist die neue E-Mail-Adresse aktiv; bis dahin verwendet OpenOlat die bisherige Adresse. Nach der Änderung erhalten sowohl die alte als auch die neue Adresse eine Benachrichtigung. Bei Problemen wenden Sie sich an Ihre Administrator:in. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
+!!! tip "Ihre Organisation legt fest, welche Felder Sie selbst ändern"
+
+    Der Anmeldename ist im Profil immer gesperrt. Welche weiteren Felder Sie selbst bearbeiten, bestimmt Ihre Organisation. Ein gesperrtes Feld zeigt seinen Wert, nimmt aber keine Eingabe an. Soll ein gesperrtes Feld wie Ihr Name geändert werden, wenden Sie sich an Ihre Administrator:in.
+
+Ihre E-Mail-Adresse ändern Sie über den Button "Bearbeiten" beim Feld "E-Mail". OpenOlat sendet einen Validierungscode an die neue Adresse. Erst wenn Sie diesen Code eingegeben haben, ist die neue E-Mail-Adresse aktiv; bis dahin verwendet OpenOlat die bisherige Adresse. Nach der Änderung erhalten sowohl die alte als auch die neue Adresse eine Benachrichtigung. Bei Problemen wenden Sie sich an Ihre Administrator:in. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
 
 <details>
     <summary>E-Mail-Signatur</summary>
@@ -21,10 +25,7 @@ Im Bereich "Über mich" können Sie bei Bedarf einige Informationen als Freitext
 
 Wichtig für das Online-Lernen ist auch, dass Sie Ihrem Profil ein Foto von sich hinzufügen. So wird das Online-Lernen persönlicher und die Online-Kommunikation und -Kooperation ist für alle angenehmer und einfacher. Das im Profil hinterlegte Foto erscheint in OpenOlat an diversen Stellen, z.B. auf Ihrer Visitenkarte, bei Forenbeiträgen oder in der Teilnehmerliste. Das Bild wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
 
-
-!!! info "Wichtig"
-
-    Einige Felder können eventuell nicht geändert werden.
+Ihr Foto laden Sie im Abschnitt "Publiziertes Bild" über "Datei wählen" hoch, als JPG-, PNG- oder GIF-Datei bis 10 MB. Mit "Ersetzen" tauschen Sie das Foto aus, mit "Löschen" entfernen Sie es. Klicken Sie danach auf "Speichern". Ist der Abschnitt gesperrt, gibt Ihre Organisation das Foto vor.
 
 ### Tab "Meine Visitenkarte"
 
