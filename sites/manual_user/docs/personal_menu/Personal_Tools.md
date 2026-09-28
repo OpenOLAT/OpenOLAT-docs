@@ -4,7 +4,7 @@
 
 You can find the personal tools as a section in the [personal menu](index.md).
 
-Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the header.
+Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the main navigation.
 
 <br>
 <br>
@@ -136,6 +136,6 @@ Find out [more >](E-Mail.md)
 
 !!! tip "Tip"
 
-    If you prefer to have your tools displayed in the header instead of the personal menu, you can move the menu option from the personal menu to the header. You make the setting for this under<br>
+    If you prefer to have your tools displayed in the main navigation instead of the personal menu, you can move the menu option from the personal menu there. You make the setting for this under<br>
     `Personal menu > Configuration > Settings > Tab "System" > User tools`<br>
-    All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.
+    All tools that you mark here are displayed in the main navigation at the top right instead of in the personal menu and can thus be accessed more quickly.

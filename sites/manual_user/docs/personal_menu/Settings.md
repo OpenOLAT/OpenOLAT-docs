@@ -83,15 +83,15 @@ You find page-specific links in the social sharing bar at the bottom left under 
 
 ### ![3](assets/3_green_24.png) User tools {: #personal_tools}
 
-Here you select which personal tools appear directly at the top of the menu bar (to the left of your profile picture) so that you can access these tools quickly.<br>
+Here you select which personal tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
 Tools that are displayed in the quick access are no longer listed in the personal menu.
 
 **Example: "System settings" and "Badges" have been moved from the personal menu to the quick access**
-![Check boxes System settings and Badges marked in the section User tools, their icons appear in the header and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
+![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tip"
 
-    Do not try to enable all the tools; instead, select only the ones you use frequently. This keeps the menu bar uncluttered.
+    Do not try to enable all the tools; instead, select only the ones you use frequently. This keeps the main navigation uncluttered.
 
 
 ### ![4](assets/4_green_24.png) Reset configurations {: #reset}

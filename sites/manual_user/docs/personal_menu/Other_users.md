@@ -4,7 +4,7 @@
 
 ![Other users icon](assets/icon_other_users.png)
 
-In contrast to the general full-text search, which you open via the magnifying glass symbol in the header, the search function in the personal menu is a **search for other users**. The search form contains the fields with which you narrow down the search.
+In contrast to the general full-text search, which you open via the magnifying glass symbol in the main navigation, the search function in the personal menu is a **search for other users**. The search form contains the fields with which you narrow down the search.
 
 The available search fields may vary depending on the role. Enter at least one search term with at least four characters.
 

@@ -4,7 +4,7 @@
 
 You find the personal configurations as the section "Configuration" in the [personal menu](index.md), below the sections "Personal tools" and "Achievements/Successes".
 
-Which configuration tools are offered to you here is determined on the one hand by the activation in the system administration: `Administration > Core functions > User tools`. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the header.
+Which configuration tools are offered to you here is determined on the one hand by the activation in the system administration: `Administration > Core functions > User tools`. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the main navigation.
 
 <br>
 <br>
@@ -19,7 +19,7 @@ In the personal menu under "Profile" you change your personal details and set up
 
 ## Settings {: #settings}
 
-All users can customise OpenOlat according to their own needs and, for example, select the language of the user interface or display the most important personal functions in the header.
+All users can customise OpenOlat according to their own needs and, for example, select the language of the user interface or display the most important personal functions in the main navigation.
 
 [View the details >](Settings.md)
 
