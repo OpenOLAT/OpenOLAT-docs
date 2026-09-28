@@ -50,7 +50,7 @@ Eine neue Konfiguration kann beim ersten Lauf viele Kurse auf einmal erfassen. D
 
 Unter "Auswirkungen" steht für jeden eingeschalteten Schritt eine Zeile mit der Anzahl der betroffenen Kurse, zum Beispiel "12 Kurse werden in den Papierkorb verschoben. Teilnehmer:innen werden entfernt. Kurse können wiederhergestellt werden." OpenOlat berechnet die Anzahlen für die eben eingegebene Konfiguration, bevor sie gespeichert ist.
 
-![Markierte Liste Auswirkungen mit der Anzahl Kurse je Schritt, darunter Kontrollkästchen Bestätigung und Button Speichern und starten, Dialog Lebenszyklus-Konfiguration speichern](assets/automatic_course_lifecycle_confirmation_v1_de.png){ class="shadow lightbox" }
+![Markierte Liste Auswirkungen je Schritt (5 Kurse Beendet, 9 Papierkorb, 182 endgültig gelöscht), darunter Bestätigung und Speichern und starten, Dialog Lebenszyklus-Konfiguration speichern](assets/automatic_course_lifecycle_confirmation_v2_de.png){ class="shadow lightbox" }
 
 !!! warning "Achtung"
     Der Prozess startet unmittelbar nach dem Bestätigen und verarbeitet im ersten Lauf alle Kurse, deren Frist bereits abgelaufen ist. Auf einer Instanz mit vielen alten Kursen landen so auf einen Schlag hunderte Kurse im Papierkorb oder werden endgültig gelöscht, und die Teilnehmenden verlieren ihren Zugang. Prüfen Sie die Anzahlen unter "Auswirkungen", bevor Sie bestätigen. Schalten Sie im Zweifel zuerst nur den Schritt "Beendet" ein und ergänzen Sie die weiteren Schritte, sobald das Ergebnis stimmt.
@@ -64,7 +64,7 @@ Mit "Abbrechen" oder durch Schliessen des Dialogs speichert OpenOlat nichts. Das
 
 Nach dem Speichern möchten Sie wissen, ob der Prozess läuft, wie weit er ist und was in den nächsten Tagen auf die Kurse zukommt. Diese Angaben stehen oberhalb des Formulars im Abschnitt "Lebenszyklus-Prozess", aufgeteilt in drei Teile.
 
-![Markierte Anzeigen je Schritt mit Zähler x von N und aufgeklappte Vorschau-Tabelle für Nächster Lauf, 7 und 30 Tage, Abschnitt Lebenszyklus-Prozess](assets/automatic_course_lifecycle_status_v1_de.png){ class="shadow lightbox" }
+![Markierte Anzeigen je Schritt mit Zähler x von N und aufgeklappte Vorschau-Tabelle mit steigenden Anzahlen für Nächster Lauf, 7 und 30 Tage, Abschnitt Lebenszyklus-Prozess im Zustand Geplant](assets/automatic_course_lifecycle_status_v2_de.png){ class="shadow lightbox" }
 
 * **Konfiguration Übersicht**<br>
   "Aktive Unterprozesse" nennt die eingeschalteten Schritte, zum Beispiel "Beendet | Gelöscht | Endgültig löschen". "Durchführungszeit" nennt die tägliche Startzeit des Laufs, standardmässig "Jeden Tag am 05:45". Eine Instanz kann eine andere Zeit konfigurieren, verbindlich ist die Anzeige. "Nächster Lauf" nennt Datum und Zeit des nächsten Laufs und dahinter die Anzahl der Kurse, die er betrifft. "Letzter Lauf" nennt den vorangegangenen Lauf.

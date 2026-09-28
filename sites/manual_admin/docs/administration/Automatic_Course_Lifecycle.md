@@ -50,7 +50,7 @@ A new configuration can include many courses at once in its first run. That is w
 
 Under "Impacts", there is one line for each step switched on, with the number of affected courses, for example "12 courses are moved to the trash. Participants are removed. Courses can be restored." OpenOlat calculates the numbers for the configuration you have just entered, before it is saved.
 
-![Marked list Impacts with the number of courses per step, below it the checkbox Confirmation and the button Save and start, dialog Save the lifecycle configuration](assets/automatic_course_lifecycle_confirmation_v1_en.png){ class="shadow lightbox" }
+![Marked list Impacts with the number of courses per step (5 Finished, 9 trash, 182 permanently deleted), below it Confirmation and Save and start, dialog Save the lifecycle configuration](assets/automatic_course_lifecycle_confirmation_v2_en.png){ class="shadow lightbox" }
 
 !!! warning "Attention"
     The process starts immediately after you confirm, and in its first run it processes all courses whose period has already passed. On an instance with many old courses, hundreds of courses can land in the trash or be permanently deleted in one go, and the participants lose their access. Check the numbers under "Impacts" before you confirm. If in doubt, switch on only the step "Finish" first and add the other steps once the result is correct.
@@ -64,10 +64,10 @@ With "Cancel" or by closing the dialog, OpenOlat saves nothing. The form keeps y
 
 After saving, you want to know whether the process is running, how far it has got and what lies ahead for the courses in the coming days. This information appears above the form in the section "Life cycle process", divided into three parts.
 
-![Marked displays per step with counter x of N and expanded preview table for Next run, 7 and 30 days, section Life cycle process](assets/automatic_course_lifecycle_status_v1_en.png){ class="shadow lightbox" }
+![Marked displays per step with counter x of N and expanded preview table with rising numbers for Next run, 7 and 30 days, section Life cycle process in the state Scheduled](assets/automatic_course_lifecycle_status_v2_en.png){ class="shadow lightbox" }
 
 * **Configuration overview**<br>
-  "Active sub-process" names the steps switched on, for example "Finished | Deleted | Definitely deleted". "Execution" names the daily start time of the run, by default "Every day at 05:45". An instance can configure a different time; the display is authoritative. "Next run" names the date and time of the next run, followed by the number of courses it affects. "Last completed run" names the previous run.
+  "Active sub-process" names the steps switched on, for example "Finished | Deleted | Definitely deleted". "Execution" names the daily start time of the run, by default "Every day at 5:45 AM". An instance can configure a different time; the display is authoritative. "Next run" names the date and time of the next run, followed by the number of courses it affects. "Last completed run" names the previous run.
 
 * **Process run**<br>
   The label "Running" or "Scheduled" shows whether the process is working at the moment or waiting for its next start. The three displays "Finished", "Deleted" and "Definitely deleted" count the progress per step as "x of N" with a progress bar. For a step that is switched off, a dash appears.
