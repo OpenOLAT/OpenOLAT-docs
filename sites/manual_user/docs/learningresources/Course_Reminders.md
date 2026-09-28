@@ -341,7 +341,7 @@ Existing reminders with `$recipientFirstName` and `$recipientLastName` continue 
 
 Here is an example:
 
-![Example text of a reminder e-mail with inserted variables such as $firstname and $courseurl](assets/reminder_notification_text_DE.png){ class="shadow lightbox" }
+![Marked variables $firstName, $lastName, $courseName, $courseUrl and $email in a sample text, field E-mail in the step E-mail message of the reminder](assets/course_reminders_mail_text_v1_en.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#course_reminders)

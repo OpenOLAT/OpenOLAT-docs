@@ -343,7 +343,7 @@ Bestehende Erinnerungen mit `$recipientFirstName` und `$recipientLastName` funkt
 
 Hier ein Beispiel:
 
-![Beispieltext einer Erinnerungsmail mit eingesetzten Variablen wie $firstname und $courseurl](assets/reminder_notification_text_DE.png){ class="shadow lightbox" }
+![Markierte Variablen $firstName, $lastName, $courseName, $courseUrl und $email in einem Beispieltext, Feld E-Mail im Schritt E-Mail-Benachrichtigung der Erinnerung](assets/course_reminders_mail_text_v1_de.png){ class="shadow lightbox" }
 
 
 
