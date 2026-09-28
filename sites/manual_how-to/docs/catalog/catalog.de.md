@@ -23,9 +23,9 @@
 
 ### a) Als registrierte:r Benutzer:in {: #catalog_where_reg}
 
-OpenOlat-Benutzer:innen sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von Ihrem/Ihrer Administrator:in der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
+OpenOlat-Benutzer:innen sehen in der Hauptnavigation meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Bereiche in der Hauptnavigation können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Bereiche in der Hauptnavigation dazu kommen. So z.B. auch der Katalog. Wurde von Ihrem/Ihrer Administrator:in der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Bereich "Katalog" in der Hauptnavigation. Wird kein Katalog in der Hauptnavigation angezeigt, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
 
-![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
+![Markierter Tab Katalog neben Kurse und Gruppen in der Hauptnavigation, darunter der Katalog mit Suchfeld](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
 
 
 ### b) Ohne Registrierung (externer Web-Katalog) {: #catalog_where_nonreg}

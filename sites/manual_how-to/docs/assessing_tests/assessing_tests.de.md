@@ -126,16 +126,16 @@ Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
 ---
 
 
-### 3. Einstieg über das Coachingtool {: #access_coaching_tool}
+### 3. Einstieg über den Bereich Coaching {: #access_coaching_tool}
 
-Wird Ihnen im **Menü der Kopfzeile die Option "Coachingtool"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
+Wird Ihnen in der **Hauptnavigation der Bereich "Coaching"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
 
-Das **Coachingtool** zeigt **kursübergreifend** anstehende Bewertungsaufträge an.
-Sie können von der Übersichtsseite des Coachingtools über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge. 
+Der Bereich **Coaching** zeigt **kursübergreifend** anstehende Bewertungsaufträge an.
+Sie können von der Übersicht des Bereichs Coaching über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge. 
 
 Die darauf folgenden Schritte entsprechen dann wieder denen, wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)).
 
-Welche Einstellung welchen Tab des Coachingtools füllt, steht im Abschnitt [Bewertungsaufträge erstellen](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md#create_assessment_orders).
+Welche Einstellung welchen Tab im Bereich Coaching füllt, steht im Abschnitt [Bewertungsaufträge erstellen](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md#create_assessment_orders).
 
 ![Startseite Coaching mit den markierten Einstiegen Personensuche, Personen, Kurse und Bewertungsaufträge sowie den Favoriten](assets/assessing_tests_access3a_v1_de.png){ class="shadow lightbox" }
 

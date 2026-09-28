@@ -195,13 +195,13 @@ Einen Export der Übersetzungsliste gibt es nicht, weder als Tabelle noch als Da
 
 
 ## Variablen-Pakete {: #packages} 
- 
+
 Auf programmtechnischer Seite sind die Texte der Screens in Variablen-Paketen zusammengefasst. Nachstehend eine Zusammenstellung der am häufigsten geänderten Pakete.
 
 
 | Bereich, in dem die Variablen angezeigt werden |  Bezeichnung des Pakets                 |
 | ---------------------------------------------- | --------------------------------------- |
-| Hauptmenü (Kopfzeile)                          | org.olat.core.commons.chiefcontrollers  | 
+| Hauptnavigation                                | org.olat.core.commons.chiefcontrollers  | 
 | Login                                          | org.olat.login                          | 
 
 
@@ -215,8 +215,8 @@ Auf programmtechnischer Seite sind die Texte der Screens in Variablen-Paketen zu
 
 | Standardtext    | Stelle, an der die Variable angezeigt wird | Variable/Schlüssel        | im Paket                                |
 | ----------------| ------------------------------------------ | ------------------------- | --------------------------------------- |
-| Katalog         | Hauptmenü (Kopfzeile)                      | topnav.catalog            | org.olat.core.commons.chiefcontrollers  |
-| Katalog         | Hauptmenü (Kopfzeile) Tooltipp             | topnav.catalog.alt        | org.olat.core.commons.chiefcontrollers  |
+| Katalog         | Hauptnavigation                            | topnav.catalog            | org.olat.core.commons.chiefcontrollers  |
+| Katalog         | Hauptnavigation Tooltipp                   | topnav.catalog.alt        | org.olat.core.commons.chiefcontrollers  |
 | Katalog         | Titel des Suchfeldes                       | header.search.title       | org.olat.modules.catalog.ui             |
 | Login           | Titel des Login                            | menu.register             | org.olat.login                          |
 | Login           | Text unterhalb des Titels im Login         | menu.register.to.use      | org.olat.login                          |

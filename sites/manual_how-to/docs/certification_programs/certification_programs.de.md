@@ -57,9 +57,9 @@ In OpenOlat können Kurse auch für die **mehrfache Verwendung** vorgesehen werd
 
 ### Schritt 1: Course Planner öffnen {: #step1}
 
-Öffnen Sie in der Hauptnavigation (in der Kopfzeile) den Course Planner und klicken Sie darin den Button "Zertifikatsprogramme".
+Öffnen Sie in der Hauptnavigation den Course Planner und klicken Sie darin den Button "Zertifikatsprogramme".
 
-![certification_programs_settings_config_step1_v1_de.png](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" }
+![Markierter Tab Course Planner in der Hauptnavigation und markierter Button Zertifikatsprogramme auf der Übersicht des Course Planner](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
