@@ -81,9 +81,9 @@ hide:
     <div class="oo-home-card__body">
       <p>Schritt-für-Schritt-Anleitungen für echte Aufgaben: ersten Kurs bauen, Prüfung vorbereiten, Angebot im Katalog veröffentlichen.</p>
       <ul class="oo-home-card__links">
-        <li><a href="manual_how-to/#for-authors"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Autor:innen</a></li>
-        <li><a href="manual_how-to/#for-coaches"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Betreuer:innen</a></li>
-        <li><a href="manual_how-to/#for-administrators"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Administrator:innen</a></li>
+        <li><a href="manual_how-to/#for_authors"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Autor:innen</a></li>
+        <li><a href="manual_how-to/#for_coaches"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Betreuer:innen</a></li>
+        <li><a href="manual_how-to/#for_administrators"><i class="o_icon o_icon_start" aria-hidden="true"></i>Für Administrator:innen</a></li>
       </ul>
     </div>
   </article>

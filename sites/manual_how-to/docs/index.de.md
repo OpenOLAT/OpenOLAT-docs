@@ -1,6 +1,6 @@
 ---
 title: How-to-Anleitungen
-description: Schritt-für-Schritt-Anleitungen für OpenOlat, gruppiert nach Zielgruppe:
+description: Schritt-für-Schritt-Anleitungen für OpenOlat, gruppiert nach Zielgruppe -
   Autor:innen, Betreuer:innen, Planung und Administration.
 ---
 

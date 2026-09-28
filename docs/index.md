@@ -81,9 +81,9 @@ hide:
     <div class="oo-home-card__body">
       <p>Step-by-step guides for real tasks: build your first course, prepare an exam, publish an offer in the catalog.</p>
       <ul class="oo-home-card__links">
-        <li><a href="manual_how-to/#for-authors"><i class="o_icon o_icon_start" aria-hidden="true"></i>For authors</a></li>
-        <li><a href="manual_how-to/#for-coaches"><i class="o_icon o_icon_start" aria-hidden="true"></i>For coaches</a></li>
-        <li><a href="manual_how-to/#for-administrators"><i class="o_icon o_icon_start" aria-hidden="true"></i>For administrators</a></li>
+        <li><a href="manual_how-to/#for_authors"><i class="o_icon o_icon_start" aria-hidden="true"></i>For authors</a></li>
+        <li><a href="manual_how-to/#for_coaches"><i class="o_icon o_icon_start" aria-hidden="true"></i>For coaches</a></li>
+        <li><a href="manual_how-to/#for_administrators"><i class="o_icon o_icon_start" aria-hidden="true"></i>For administrators</a></li>
       </ul>
     </div>
   </article>

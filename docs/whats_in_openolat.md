@@ -195,7 +195,7 @@ The frame everything else runs in.
 
     ---
 
-    From the catalogue entry via the offer and the booking to price, invoice and credit points.
+    From the catalog entry via the offer and the booking to price, invoice and credit points.
 
 -   __[Quality management and forms](manual_user/area_modules/Quality_Management.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="quality" }
