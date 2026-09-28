@@ -1,13 +1,13 @@
 # Coaching - Bewertungsaufträge {: #assessment_orders}
 
-![Markierter Eintrag Bewertungsaufträge unter Aufgaben führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen, auf der Startseite Coaching.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
+![Eintrag Bewertungsaufträge unter Aufgaben markiert, er führt zu den offenen Bewertungen, Einstufungen und Korrekturaufträgen](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" title="Startseite Coaching" }
 
 
 Hier sehen Sie, an welchen Stellen noch konkrete Coaching-Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen, bzw. ob diese noch freigegeben werden müssen.
 
 Je nach Rolle sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen angezeigt und Sie können sich einen Überblick verschaffen.
 
-![Liste mit Anmeldename, Name, Betreuer:in, Kursname, Baustein, letzter Aktualisierung und dem Link Bewerten, im Tab Offene Bewertungen.](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
+![Liste mit Anmeldename, Name, Betreuer:in, Kursname, Baustein, letzter Aktualisierung und dem Link Bewerten](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" title="Tab Offene Bewertungen unter Bewertungsaufträge" }
 
 ---
 
@@ -33,7 +33,7 @@ Die vier Tabs sind keine vier Arten von Aufträgen. Die ersten drei zeigen die B
 
 Die Tabs "Offene Bewertungen", "Offene Einstufungen/Noten" und "Freizugebende Bewertungen" sehen Kursbesitzer:innen für alle Teilnehmenden des Kurses, Betreuende für die Personen, die sie betreuen. Den Tab "Korrekturaufträge" sehen die Personen, die im Korrektur-Workflow als Korrektor:in eingetragen sind.
 
-![Vier Einstellungen führen zu den vier Tabs, dazu zwei weitere Wege zu einem Auftrag.](assets/coaching_assessment_orders_create_v1_de.svg){ class="shadow lightbox" }
+![Vier Einstellungen führen zu den vier Tabs, dazu zwei weitere Wege zu einem Auftrag](assets/coaching_assessment_orders_create_v1_de.svg){ class="shadow lightbox" title="Woher die Bewertungsaufträge kommen" }
 
 Die Seiten, auf denen Besitzer:innen die jeweilige Einstellung setzen:
 
@@ -96,17 +96,19 @@ Dieser Tab erscheint nur, wenn Sie als Korrektor:in für einen Test eingetragen 
 
 Sind Sie weder Betreuer:in noch Besitzer:in einer Lernressource, fehlen die übrigen Tabs; die Überschrift "Meine Zuweisungen" mit Ihrer Liste steht dann direkt unter dem Titel "Bewertungsaufträge". Verwalten Sie den Korrektur-Workflow dagegen selbst, also als Besitzer:in einer Test-Lernressource mit Korrektur-Workflow, als Lernressourcenverwalter:in oder als Administrator:in, fehlt dieser Tab; Ihre Aufträge finden Sie dann unter `Coaching > Auftragsverwaltung` im Tab [Korrekturaufträge](Coaching_Order_Management.de.md#tab_grading_assignments).
 
-![Filter für Taxonomie, Kurs, Test, Korrektor:in, Status, Korrekturzeitraum, Punkte und Bestanden, darunter die Liste mit Frist, Kurs, Kursbaustein und dem Link Korrigieren, im Tab Korrekturaufträge.](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" }
+![Filter für Taxonomie, Kurs, Test, Korrektor:in, Status, Korrekturzeitraum, Punkte und Bestanden, darunter die Liste mit Frist, Kurs, Kursbaustein und dem Link Korrigieren](assets/coaching_assessment_orders_grading_assignments_v1_de.png){ class="shadow lightbox" title="Tab Korrekturaufträge unter Bewertungsaufträge" }
 
 Im Beispiel ist die Korrektur anonym eingestellt. Deshalb zeigen die Spalten "Vorname" und "Nachname" nur einen Strich. Die Einstellung dazu treffen die Besitzer:innen des Tests in der Lernressource unter `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
 
-Über den Link "Korrigieren" gelangen Sie direkt zum zu korrigierenden Test und nehmen dort manuelle Bewertungen vor. Automatische Bewertungen können Sie überschreiben. Hinterlassen Sie dazu einen Kommentar.
+Über den Link "Korrigieren" gelangen Sie direkt zum zu korrigierenden Test und nehmen dort manuelle Bewertungen vor. Die Punkte automatisch korrigierter Fragen können Sie anpassen. Hinterlassen Sie dazu einen Kommentar.
+
+Sie arbeiten dabei in derselben Oberfläche wie das Korrekturwerkzeug des Kurses. Status einer Frage, Registerkarten, Spalten und die Aktion "Punkte anpassen" funktionieren gleich und sind auf der Seite [Tests bewerten](../learningresources/Assessing_tests.de.md#adjust_score) beschrieben. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599)
 
 #### Wer einen Korrekturauftrag einrichtet {: #create_grading_assignment}
 
 Ein Korrekturauftrag entsteht in fünf Schritten. Drei Rollen richten ihn ein, die Abgabe einer teilnehmenden Person löst ihn aus. Er erreicht die Korrektor:in, sobald alle fünf Schritte erfolgt sind.
 
-![Fünf Schritte vom Modul bis zum Korrekturauftrag, dazu die Zuweisung in der Auftragsverwaltung.](assets/coaching_assessment_orders_grading_chain_v1_de.svg){ class="shadow lightbox" }
+![Fünf Schritte vom Modul bis zum Korrekturauftrag, dazu die Zuweisung in der Auftragsverwaltung](assets/coaching_assessment_orders_grading_chain_v1_de.svg){ class="shadow lightbox" title="Wer einen Korrekturauftrag einrichtet" }
 
 1. Administrator:innen schalten in der System-Administration den Korrektur-Workflow ein: `Administration > e-Assessment > Test`.
 2. Besitzer:innen des Tests schalten in der Lernressource Test den Korrektur-Workflow ein: `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.

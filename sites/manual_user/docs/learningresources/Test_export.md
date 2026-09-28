@@ -10,9 +10,9 @@ When exporting tests, a distinction must be made between
 
 ## Export course {: #export_course}
 
-An entire course, e.g., an exam course, can be exported as a zip file in the course administration under<br>`Administration > Export content`.
+An entire course, e.g., an exam course, can be exported as a zip file in the course administration under:<br>`Course > Administration > Export content`
 
-![Export of the entire course as a zip file via the course administration, menu item "Export content"](assets/test_export_course_content_v1_de.png){ class="shadow lightbox"}
+![Menu item Export content marked in the open Administration menu, which exports the entire course as a zip file](assets/test_export_course_content_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
 [To the top of the page ^](#test_export)
 
@@ -21,16 +21,13 @@ An entire course, e.g., an exam course, can be exported as a zip file in the cou
 ## Export test learning resource {: #export_learning_resource}
 
 Test learning resources contain entire sets of questions and can be integrated into test course modules as question packs, including configuration (total number of points, etc.).
-A test learning resource can also be exported in the administration of the learning resource under<br>`Administration > Export content`
+A test learning resource can also be exported in the administration of the learning resource under:<br>`Test > Administration > Export content`
 
-![Export of the test learning resource as a zip file via the administration of the learning resource, menu item "Export content"](assets/test_export_resource_content_v1_de.png){ class="shadow lightbox"}
+![Menu item Export content marked in the open Administration menu, which exports the test learning resource as a zip file](assets/test_export_resource_content_v1_de.png){ class="shadow lightbox" title="Administration menu of a test learning resource" }
 
 !!! tip "Tip"
 
-    Please note whether you are in the administration of a (test) course or a (test) learning resource. You can easily tell by checking whether the option under Administration is <br>
-            **Course editor**<br>
-            or<br>
-            **Edit content**
+    Please note whether you are in the administration of a course or of a test learning resource. In the course, the editor entry is called **Course editor**, in the test learning resource **Test editor**.
 
 
 [To the top of the page ^](#test_export)
@@ -42,7 +39,7 @@ A test learning resource can also be exported in the administration of the learn
 
 Test learning resources can be exported as Word documents. Such files are often created for review purposes before a test is conducted, so that additions and corrections can be easily noted in them.
 
-![Export of the test learning resource as a Word document via the administration of the learning resource, menu item "Export as word file"](assets/test_export_resource_word_v1_de.png){ class="shadow lightbox"}
+![Menu item Export as word file marked in the open Administration menu](assets/test_export_resource_word_v1_de.png){ class="shadow lightbox" title="Administration menu of a test learning resource" }
 
 [To the top of the page ^](#test_export)
 
@@ -51,27 +48,27 @@ Test learning resources can be exported as Word documents. Such files are often 
 
 ### Generate hand-written exam
 
-The Word documents created with this option under `Administration > Generate hand-written exam` of a test learning resource differ from a simple Word export.
+The Word documents created with this option under `Test > Administration > Generate hand-written exam` of a test learning resource differ from a simple Word export.
 
-![Generation of hand-written exams via the administration of the learning resource, menu item "Generate hand-written exam"](assets/test_export_resource_test_manually1_v1_de.png){ class="shadow lightbox"}
+![Menu item Generate hand-written exam marked in the open Administration menu](assets/test_export_resource_test_manually1_v1_de.png){ class="shadow lightbox" title="Administration menu of a test learning resource" }
 
 Each document is given a cover sheet and a serial number so that it can be clearly assigned after the participants have completed the test by hand.
 
 You must therefore specify a number for the Word files to be generated.
 
-![Wizard step "Options" with the mandatory field for the number of tests and the serial number for the export](assets/test_export_resource_test_manually2_v1_de.png){ class="shadow lightbox"}
+![Fields for the number of tests, the source language for the export, the serial number with prefix and the cover page with first and additional page](assets/test_export_resource_test_manually2_v1_de.png){ class="shadow lightbox" title="Step Options in the dialog Generate hand-written exam" }
 
 Various attributes can be selected for the cover page.
 
-![Wizard step "Cover page attributes" with the selectable fields for cover page and test parameters](assets/test_export_resource_test_manually3_v1_de.png){ class="shadow lightbox"}
+![Checkboxes for serial number, placeholders for name, candidate number and date, and the test parameters time, number of questions, score, score threshold and description](assets/test_export_resource_test_manually3_v1_de.png){ class="shadow lightbox" title="Step Cover page attributes in the dialog Generate hand-written exam" }
 
 A descriptive text can also be provided.
 
-![Wizard step "Cover page fields" with title, procedure and the description field for the cover page text](assets/test_export_resource_test_manually4_v1_de.png){ class="shadow lightbox"}
+![Fields Title, Procedure and Information with text editor for the notes on the cover page](assets/test_export_resource_test_manually4_v1_de.png){ class="shadow lightbox" title="Step Cover page fields in the dialog Generate hand-written exam" }
 
 **Cover page example:**
 
-![Generated cover page with serial number, title, fields for participant details and the test parameters](assets/test_export_resource_test_manually6_v1_de.png){ class="shadow lightbox"}
+![Serial number, title, empty fields for first name, last name, candidate number and date, below them the test parameters and the notes on the exam](assets/test_export_resource_test_manually6_v1_de.png){ class="shadow lightbox" title="Generated cover page of a hand-written exam" }
 
 
 [To the top of the page ^](#test_export)
@@ -87,7 +84,7 @@ Questions created in OpenOlat comply with the QTI standard. This means they can 
 
 If you are in the editor of a test learning resource, select the desired question and click on the icon with the 3 dots in the upper right corner to export the question to the pool.
 
-![Export of a question to the question pool via the 3-dot menu of the question in the test editor](assets/test_export_question_to_pool_v1_de.png){ class="shadow lightbox"}
+![Menu with three dots at the top right of the question with the entry Export to pool marked](assets/test_export_question_to_pool_v1_de.png){ class="shadow lightbox" title="Question in the test editor" }
 
 !!! tip "Tip"
 
@@ -102,7 +99,7 @@ If you are in the editor of a test learning resource, select the desired questio
 
 If you have opened a single question in the question editor, you will find an option to export this individual question to a zip file under the "Share" icon. Since the questions in OpenOlat comply with the QTI standard, the zip file can be reimported into another OpenOlat or another LMS that also uses the QTI standard.  
 
-![Export of a single question from the question pool as a zip file via the "Share" icon](assets/test_export_single_question_from_pool_v1_de.png){ class="shadow lightbox"}
+![Share icon with the open entry Export marked, which exports the question as a zip file](assets/test_export_single_question_from_pool_v1_de.png){ class="shadow lightbox" title="Question in the question pool" }
 
 [To the top of the page ^](#test_export)
 
@@ -112,10 +109,10 @@ If you have opened a single question in the question editor, you will find an op
 
 If you have selected multiple questions from the question pool, these questions can be exported together in a Word file for offline review, in a QTI 2.1 test file for exchange with other compatible LMS, or in a zip file for exchange with other OpenOlat systems or for archiving.
 
-![Selection of multiple questions in the question pool and click on the "Export" button](assets/test_export_several_questions_from_pool1_v1_de.png){ class="shadow lightbox"}
+![Three selected questions and the Export button above the list marked](assets/test_export_several_questions_from_pool1_v1_de.png){ class="shadow lightbox" title="List All questions in the question pool" }
 
 
-![Wizard step "Type" with the formats Word file, QTI 2.1 test file and zip file for the export](assets/test_export_several_questions_from_pool2_v1_de.png){ class="shadow lightbox"}
+![Selection list Type with Word file for offline exams, QTI 2.1 test file for other LMS and ZIP file for other OpenOlat systems or archiving](assets/test_export_several_questions_from_pool2_v1_de.png){ class="shadow lightbox" title="Step Type in the dialog Export" }
 
 
 [To the top of the page ^](#test_export)
@@ -129,18 +126,18 @@ If you have selected multiple questions from the question pool, these questions 
 
 One way to evaluate the test results is in statistical form. To do this, use the **"Test Statistics" button** in the "Participants" tab. The button is available to instructors and owners when they select a "Test" course element in run mode.
 
-![Button "Test Statistics" in the "Participants" tab of the Test course element](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox"}
+![Test Statistics button above the list of participants marked](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox" title="Tab Participants of the Test course element" }
 
 * You can print out the various statistics on the test results (or "print" them to a PDF file) or download the raw data as an Excel file.
 * When you expand the sections of a test, you can view detailed statistics for each individual question. 
 
-![Test statistics with key figures, charts and the options "Print" and "Download raw data"](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox"}
+![Buttons Print and Download raw data, on the left the expandable section, on the right the key figures of the test and the score distribution chart](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox" title="Test statistics in the Test course element" }
 
-### Test results of participants
+### Test results of participants [:octicons-tag-16:{ title="from Release 16.2 (OO-5974)" }](https://track.frentix.com/issue/OO-5974)
 
 The **"Export results" button** creates a zip file containing all test results for all participants in the selected course module.
 
-![Button "Export results" in the "Participants" tab of the Test course element](assets/test_export_results1_v1_de.png){ class="shadow lightbox"}
+![Export results button above the list of participants marked](assets/test_export_results1_v1_de.png){ class="shadow lightbox" title="Tab Participants of the Test course element" }
 
 If you have decided to create a zip file, you can specify a name for the zip file and choose one of the options offered for its contents.
 Two variants of a zip file can be created:
@@ -148,7 +145,7 @@ Two variants of a zip file can be created:
 * The **standard export** contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
 * The **"Advanced – with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant. 
 
-![Export dialog with name field, the options "Standard" and "Advanced – with PDF" and the "Start export" button](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+![Name field, the options Standard and "Advanced – with PDF" and the Start export button marked, below them the empty export history](assets/test_export_results2_v1_de.png){ class="shadow lightbox" title="Page Export results in the Test course element" }
 
 If the test contains essay questions and the **"Advanced – with PDF"** option was selected, the **"Additional option"** with the choice **"Separate PDF file for each essay question"** appears below. If it is activated, the answer to each essay question is additionally placed in the zip file as a separate PDF file.
 
@@ -157,6 +154,18 @@ Click on the **"Start export" button** to generate the zip file containing the t
 Created zip files are listed in the lower section under **"Export history"** and are only available there for a limited period of 10 days.
 
 Then open or unzip the created zip file to access the required files.
+
+#### Score columns in the Excel file [:octicons-tag-16:{ title="from Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599) {: #score_columns}
+
+Whoever evaluates the results sees in the Excel file with the raw data which part of the points comes from the answer and which from a later correction. For each test run, the file contains these columns:
+
+* **Score**: the result of the test run.
+* **Score (auto)**: the sum of the automatically calculated points.
+* **Score (adjustments plus)**: the sum of all adjustments that add points.
+* **Score (adjustments minus)**: the sum of all adjustments that deduct points, as a negative value, for example "-0.5".
+* **Score (manual)**: the sum of the points awarded by hand for questions.
+
+For each question, the column "Score" contains the score of the question. For automatically corrected questions, it is followed by the column "Adjustment" with the amount by which the points were adjusted. How an adjustment is made is described on the page [Assessing tests](../learningresources/Assessing_tests.md#adjust_score). You receive the same Excel file in the test statistics via "Download raw data".
 
 !!! note "Note"
 
@@ -171,6 +180,7 @@ Then open or unzip the created zip file to access the required files.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Archive test results >](../learningresources/Course_Element_Test.md)
 
 **Further**<br>
@@ -179,7 +189,7 @@ Then open or unzip the created zip file to access the required files.
 [The Test editor >](Test_editor_QTI_2.1.md)<br>
 [Question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.md)<br>
-[Configure test learning resources](Configure_tests.md)<br>
+[Configure test learning resources >](Configure_tests.md)<br>
 [Test learning resource settings >](Test_settings.md)
 
 [To the top of the page ^](#test_export)

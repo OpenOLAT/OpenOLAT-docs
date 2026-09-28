@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" role="img" aria-label="A score adjustment on a question appears in the correction tool, in the list of test runs, in the test statistics and in the export of the test results">
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#135E5F"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="880" height="480" fill="#F3F4EF"/>
+
+  <text x="30" y="40" font-family="'Roboto', sans-serif" font-size="20" font-weight="600" fill="#2D2926">Where a score adjustment becomes visible</text>
+  <text x="30" y="64" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">One change to a question, four places where it remains traceable.</text>
+
+  <rect x="30" y="180" width="230" height="110" rx="10" fill="#209D9E"/>
+  <text x="145" y="215" font-family="'Roboto', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">Answer of a person</text>
+  <text x="145" y="240" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">Button "Adjust score"</text>
+  <text x="145" y="266" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">Status becomes "Adjusted"</text>
+
+  <rect x="460" y="95" width="390" height="62" rx="8" fill="#FFFFFF" stroke="#135E5F" stroke-width="1.5"/>
+  <text x="478" y="120" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#135E5F">Correction tool</text>
+  <text x="478" y="141" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Column "#Adjusted", tab "Adjusted"</text>
+
+  <rect x="460" y="175" width="390" height="62" rx="8" fill="#FFFFFF" stroke="#135E5F" stroke-width="1.5"/>
+  <text x="478" y="200" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#135E5F">Test runs of a person</text>
+  <text x="478" y="221" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">"Score (auto)" shows the adjustment in brackets</text>
+
+  <rect x="460" y="255" width="390" height="62" rx="8" fill="#FFFFFF" stroke="#135E5F" stroke-width="1.5"/>
+  <text x="478" y="280" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#135E5F">Test Statistics</text>
+  <text x="478" y="301" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">"Number of adjustments", "Average adjustment"</text>
+
+  <rect x="460" y="335" width="390" height="62" rx="8" fill="#FFFFFF" stroke="#135E5F" stroke-width="1.5"/>
+  <text x="478" y="360" font-family="'Roboto', sans-serif" font-size="14" font-weight="600" fill="#135E5F">Export of the test results</text>
+  <text x="478" y="377" font-family="'Roboto', sans-serif" font-size="11" fill="#2D2926">"Score (adjustments plus)", "Score (adjustments minus)"</text>
+  <text x="478" y="391" font-family="'Roboto', sans-serif" font-size="11" fill="#2D2926">per question "Adjustment"</text>
+
+  <path d="M 260 220 C 350 220 360 126 455 126" fill="none" stroke="#135E5F" stroke-width="2" marker-end="url(#a2)"/>
+  <path d="M 260 228 C 350 228 360 206 455 206" fill="none" stroke="#135E5F" stroke-width="2" marker-end="url(#a2)"/>
+  <path d="M 260 244 C 350 244 360 286 455 286" fill="none" stroke="#135E5F" stroke-width="2" marker-end="url(#a2)"/>
+  <path d="M 260 252 C 350 252 360 366 455 366" fill="none" stroke="#135E5F" stroke-width="2" marker-end="url(#a2)"/>
+
+  <text x="30" y="440" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">"Score" remains the result in all views. "Score (auto)" and "Score (manual)" show where it comes from.</text>
+</svg>

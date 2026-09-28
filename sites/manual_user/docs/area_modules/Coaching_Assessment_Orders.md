@@ -1,13 +1,13 @@
 # Coaching - Assessment Orders {: #assessment_orders}
 
-![Marked entry Assessment orders under Tasks leads to the open reviews, levels/gradings and grading assignments, on the Coaching start page.](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" }
+![Entry Assessment orders under Tasks marked, it leads to the open reviews, levels/gradings and grading assignments](assets/coaching_assessment_orders1_v1_de.png){ class="shadow lightbox" title="Coaching start page" }
 
 
 Here you can see where specific coaching actions such as assessments or gradings still need to be carried out, or whether they still need to be released.
 
 Depending on your role, in addition to your own assessment orders, the others are also displayed and you can get an overview.
 
-![List with username, name, coach, course name, course element, last update and the Assess link, in the tab Open reviews.](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" }
+![List with username, name, coach, course name, course element, last update and the Assess link](assets/coaching_assessment_orders_open_assessments_v1_de.png){ class="shadow lightbox" title="Tab Open reviews under Assessment orders" }
 
 ---
 
@@ -33,7 +33,7 @@ The four tabs are not four kinds of orders. The first three show the assessment 
 
 The tabs "Open reviews", "Open levels/gradings" and "Reviews to release" are seen by course owners for all participants of the course, and by coaches for the people they coach. The tab "Grading assignments" is seen by the people who are entered as correctors in the correction workflow.
 
-![Four settings lead to the four tabs, plus two further ways to an order.](assets/coaching_assessment_orders_create_v1_en.svg){ class="shadow lightbox" }
+![Four settings lead to the four tabs, plus two further ways to an order](assets/coaching_assessment_orders_create_v1_en.svg){ class="shadow lightbox" title="Where the assessment orders come from" }
 
 The pages on which owners make the respective setting:
 
@@ -96,17 +96,19 @@ This tab only appears if you have been entered as a corrector for a test. You se
 
 If you are neither coach nor owner of a learning resource, the other tabs are missing; the heading "My grading assignments" with your list then appears directly under the title "Assessment orders". If, on the other hand, you manage the correction workflow yourself, as owner of a test learning resource with correction workflow, as learning resource manager or as administrator, this tab is missing; you then find your assignments under `Coaching > Order management` in the tab [Grading assignments](Coaching_Order_Management.md#tab_grading_assignments).
 
-![Filters for Taxonomy, Course, Test, Corrector, State, Grading period, Score and Passed, below them the list with Deadline, Course, Course element and the Grade link, in the tab Grading assignments.](assets/coaching_assessment_orders_grading_assignments_v1_en.png){ class="shadow lightbox" }
+![Filters for Taxonomy, Course, Test, Corrector, State, Grading period, Score and Passed, below them the list with Deadline, Course, Course element and the Grade link](assets/coaching_assessment_orders_grading_assignments_v1_en.png){ class="shadow lightbox" title="Tab Grading assignments under Assessment orders" }
 
 In the example, the correction is set to anonymous. That is why the "First name" and "Last name" columns only show a dash. The owners of the test make this setting in the learning resource under `Test > Administration > Correction workflow > Tab "Configuration"`.
 
-The "Grade" link takes you directly to the test to be corrected, where you make the manual assessments. You can overwrite automatic assessments. Leave a comment when you do so.
+The "Grade" link takes you directly to the test to be corrected, where you make the manual assessments. You can adjust the score of automatically corrected questions. Leave a comment when you do so.
+
+You work in the same interface as the correction tool of the course. The status of a question, the tabs, the columns and the action "Adjust score" work the same way and are described on the page [Assessing tests](../learningresources/Assessing_tests.md#adjust_score). [:octicons-tag-16:{ title="from Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599)
 
 #### Who sets up a grading assignment {: #create_grading_assignment}
 
 A grading assignment is created in five steps. Three roles set it up, the submission of a participant triggers it. It reaches the corrector as soon as all five steps have taken place.
 
-![Five steps from the module to the grading assignment, plus the assignment in the order management.](assets/coaching_assessment_orders_grading_chain_v1_en.svg){ class="shadow lightbox" }
+![Five steps from the module to the grading assignment, plus the assignment in the order management](assets/coaching_assessment_orders_grading_chain_v1_en.svg){ class="shadow lightbox" title="Who sets up a grading assignment" }
 
 1. Administrators switch on the correction workflow in the system administration: `Administration > e-Assessment > Test`.
 2. Owners of the test switch on the correction workflow in the learning resource Test: `Test > Administration > Correction workflow > Tab "Configuration"`.
