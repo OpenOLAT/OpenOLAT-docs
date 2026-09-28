@@ -90,7 +90,7 @@ If you use multiple "Grading" course blocks within an oral exam (for a course), 
 Example: The oral exam consists of three parts, each of which accounts for one-third of the overall grade. If the scoring rubric for one part of the exam allows for a maximum of 50 points, while the rubrics for the other parts allow for a maximum of 100 points each, the points for the first part must be doubled so that it carries the same weight in the overall grade.   
 
 **Levels/Grading:**<br>
-Once "Assign points" has been enabled, you can also enable and further configure the "Levels/Grading" option.<br>
+Once "Score granted" has been enabled, you can also enable and further configure the "Levels/Grading" option.<br>
 
 By default, results in OpenOlat are graded using points. By enabling this option, the points are converted into a letter grade scale or another rating system.<br> 
 [More about rating systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md) 
@@ -100,10 +100,10 @@ Click "Edit rating scale" to select a scale and make any additional settings. Th
 
 Under **Assignment**, you can specify whether the assignment to the selected rating scale should be done manually by the instructors or automatically based on the score achieved.
 
-**Display Pass/Fail:**<br>
+**Display passed / not passed:**<br>
 If you have chosen a rating scale, the passing score for the selected scale will be displayed.<br>
-If you *do not* use a rating scale, you can choose whether to display the "Pass/Fail" status of the course module to participants.<br>
-If "Points" has been enabled in addition to "Pass/Fail", an automatic, point-based rating system can be activated in addition to the standard manual grading by instructors.
+If you *do not* use a rating scale, you can choose whether to display the "passed / not passed" status of the course module to participants.<br>
+If "Score granted" has been enabled in addition to "Display passed / not passed", an automatic, point-based assessment can be activated in addition to the standard manual grading by instructors.
 
 **To be considered in course assessment:**<br>
 If this option is enabled, the points earned in this course module will count toward the passing score defined in Administration -> Settings -> Grading, which is required to pass the course. Alternatively, the course module will be considered part of the required course modules needed to pass the entire course.<br>

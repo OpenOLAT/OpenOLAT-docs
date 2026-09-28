@@ -24,7 +24,7 @@ You can choose between manual and automatic assignment. With the assignment "Man
 3. **Select and customize the rating scale**<br>
 Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a rating system and further customize the rating scale.
 
-    ![Dialog "Edit rating scale" with rating system, score ranges per grade, and the graph of the grade scale.](assets/ratingscale.png){class="shadow"}
+    ![Dialog "Edit rating scale" with rating system, score ranges per grade, and the graph of the rating scale.](assets/ratingscale.png){ class="shadow lightbox" }
 
 4. **Save**
 
