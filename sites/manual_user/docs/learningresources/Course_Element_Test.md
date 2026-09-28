@@ -64,7 +64,7 @@ The following options are also available for tests under "Completion criterion":
 
 ![Completion criterion with five options as a selection, with Confirmation by participant selected, in the Learning path tab of the course element Test](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
-Only if the selected condition is met will the progress be shown to the user in the learning path display and in the progress percentage.
+Only if the selected condition is met will the progress be shown to the participants in the learning path display and in the progress percentage.
 
 
 [Beginning of test configuration section ^](#config)<br>
@@ -88,8 +88,8 @@ An added test can be configured more specifically as follows:
 
 #### Section Test {: #section_test}
 
-**Assessment with grading/marks**:
-Select one of the given rating scales e.g. grades, levels or emojis. You can also adjust the points lower limit afterwards. Also decide if the level assignment should be automatically visible to the user or if the assignment should be provided manually by the coach.
+**Levels/Grading**:
+Select one of the given rating scales e.g. grades, levels or emojis. You can also adjust the points lower limit afterwards. Also decide if the level assignment should be automatically visible to the participants or if the assignment should be provided manually by the coach.
 
 **Exclude from course evaluation**: If the check mark is set here, the test will not be taken into account when calculating progress in a learning path course. This setting is not available for a conventional course.
 
@@ -104,7 +104,7 @@ If nothing is activated here, the test is accessible at all times, provided no r
 
 #### Section Correction {: #section_correction}
 
-**Correction**: The correction is performed either **automatically or manually**. As soon as a question type to be evaluated manually, e.g. free text, is available, a manual variant must be selected. With automatic correction, all questions are corrected automatically and directly, the result is visible immediately.
+**Correction**: The correction is performed either **automatically or manually**. As soon as a question type to be evaluated manually, e.g. free text, is available, a manual variant must be selected. With automatic correction, all questions are corrected automatically and directly, the result is visible to the participants immediately.
 
 !!! note "Question Types"
     Overview of all available question types, including manually evaluated types.<br>
@@ -119,7 +119,7 @@ If the option "**Manual by graders**" is activated, OpenOlat users can also corr
     If the option "Manual by graders" is not available, no [correctors](Test_settings.md#correction-workflow) have been configured in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses.
 
 
-**Release rating**: Set here whether the results are released by default or not.
+**Release assessment**: Set here whether the results are released to the participants by default, and thus visible, or not.
 
 ![Correction Automatic or manual and Release assessment as Not released or Released, in the Correction section of the Test configuration tab](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
@@ -127,11 +127,11 @@ If the option "**Manual by graders**" is activated, OpenOlat users can also corr
 
 Here you define whether and in what form the test results and the performance status should be displayed to the learners. If nothing is selected here, learners will not receive any information.
 
-**Display points on test home page**: If this option is selected, users are shown the points and any other performance information such as success status, number of solution attempts and the level reached on the rating scale on the start page of the test.
+**Show performance summary on test homepage**: If this option is selected, the participants are shown the points and any other performance information such as success status, number of solution attempts and the level reached on the rating scale on the start page of the test.
 
-In addition to the performance overview, the user can also be shown the specific test evaluation both directly after processing (**Display results after submitting the test**) and permanently on the course start page (**Display results on test home page**). Check the appropriate boxes.
+In addition to the performance overview, the participants can also be shown the specific test evaluation both directly after processing (**Show results after test has been submitted**) and permanently on the course start page (**Show assessment on test homepage**). Check the appropriate boxes.
 
-However, it is important that you specifically select the form in which the results are to be displayed in the next step under **"Overview of results"**.
+However, it is important that you specifically select the form in which the results are to be displayed in the next step under **"Overview results"**.
 
 If the "Always" field is selected, the results will be available immediately after the test is finished. If "No" is selected, the results will not be displayed at all. And for the other options, criterion- or date-dependent displays can be defined.
 
@@ -147,11 +147,11 @@ The **Section Summary** is only relevant if a test also contains sections.
 
 In the **Question summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed but not the question itself.
 
-The option **Answer, submitted by participant** shows the question, all answer options, and the user's choice, but no rating of whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
+The option **Answer, submitted by participant** shows the question, all answer options, and the choice of the participants, but no rating of whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
 
 The **solution** contains the correct answers.
 
-Depending on the combination of display options, different types of feedback can thus be left for the user.
+Depending on the combination of display options, different types of feedback can thus be left for the participants.
 
 For the display on the start page, you can also define the conditions under which it should be displayed.
 
@@ -174,9 +174,9 @@ If the "Show question title" option is not selected but menu navigation is enabl
 
     These adjustments in the test have no effect on the configuration of the test learning resource itself.
 
-In addition, an information text (HTML page) can also be set up for the test, which is displayed to the user on the start page of the test above the start button. To do this, click on "Create", "Select" or "Import" in the "Information text (HTML)" section of the "Options" tab.
+In addition, an information text (HTML page) can also be set up for the test, which is displayed to the participants on the start page of the test above the start button. To do this, click on "Create", "Select" or "Import" in the "Information text (HTML)" section of the "Options" tab.
 
-Activate "Allow linking in the entire storage folder" if you want to link to other HTML files or graphics in the information text, for example. However, this setting also means that experienced course participants can view the entire course folder.
+Activate "Allow linking in the entire storage folder" if you want to link to other HTML files or graphics in the information text, for example. However, this setting also means that experienced participants can view the entire course folder.
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
@@ -184,7 +184,7 @@ Activate "Allow linking in the entire storage folder" if you want to link to oth
 
 ### Tab "Communication" [:octicons-tag-16:{ title="from Release 16.2.0 (OO-5966)" }](https://track.frentix.com/issue/OO-5966) {: #tab_communication}
 
-Here you can set whether participants are allowed to send live chat requests to the course coaches or owners during the test. Of course, this only makes sense if real coaches observe the test execution during a defined test period. This procedure is helpful, for example, when conducting online examinations or synchronous admission examinations by test. 
+Here you can set whether participants are allowed to send live chat requests to the coaches or owners of the course during the test. Of course, this only makes sense if real coaches observe the test execution during a defined test period. This procedure is helpful, for example, when conducting online examinations or synchronous admission examinations by test. 
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
@@ -203,7 +203,7 @@ A highscore overview can also be activated and further configured here for a tes
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
 
-### Tab "Correctors" {: #tab_correctors}
+### Tab "Correctors" [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442) {: #tab_correctors}
 
 If correctors have been defined in the learning resource Test via the correction workflow, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
 
@@ -348,9 +348,9 @@ If correctors have also been activated for a test, they can assess it via the Co
 
 You can see this in the list displayed,
 
-![Digit 1](assets/1_green_24.png) when the learning resource was exchanged ("Assigned on")<br>
-![Digit 2](assets/2_green_24.png) by whom it was replaced ("Assigned by")<br>
-![Digit 3](assets/3_green_24.png) how often the test learning resource has been completed by participants ("Runs in this course").<br> Please note that the number of runs can come from different people who have each taken the test once. However, it is also possible that a person has completed the test several times. The multiple attempts also count as runs.
+![1](assets/1_green_24.png) when the learning resource was exchanged ("Assigned on")<br>
+![2](assets/2_green_24.png) by whom it was replaced ("Assigned by")<br>
+![3](assets/3_green_24.png) how often the test learning resource has been completed by participants ("Runs in this course").<br> Please note that the number of runs can come from different people who have each taken the test once. However, it is also possible that a person has completed the test several times. The multiple attempts also count as runs.
 
 ![History of the test resources with assignment date, assigning person and number of runs](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow lightbox" }
 
@@ -373,7 +373,7 @@ If the test learning resource has been replaced, a button for switching between 
 
 
 
-## Test results and archiving {: #archive} [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466)
+## Test results and archiving [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466) {: #archive}
 
 You can archive test results. To do this, select `Course > Administration > Archiving & Reporting`.
 
@@ -390,7 +390,7 @@ A zip file is created, which is then available in the course archiving area for 
 
 If the test contains essay questions and the **"Advanced – with PDF"** option was selected, the **"Additional option"** with **"Separate PDF file for each essay question"** can additionally be activated below. The answer to each essay question is then placed in the archive as a separate PDF file.
 
-![Export options for the course element Test in the wizard step Settings of the course archiving](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" }
+![Export as Standard or Advanced with PDF, plus a separate PDF file for each essay question, in the Settings step of the Archive course dialog](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" }
 
 You can also download the raw data of tests via the test statistics: `Course > Administration > Test statistics`. There you will also find the graphical evaluation.
 
@@ -423,7 +423,7 @@ Tests can be used in the following scenarios, among others:
 * **Online exam**: Conducting exam-relevant online or e-exams
 
 
-### How to edit a test (Learners perspective) {: #participate_as_learner} [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
+### How to edit a test (Learners perspective) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
 
 As a learner, you work through a test question by question and can see at any time what has already been answered. To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered (filled), which questions have only been looked at (circle highlighted) and which have not been clicked at all (no marking).
 

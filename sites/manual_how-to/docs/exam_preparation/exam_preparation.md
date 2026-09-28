@@ -46,19 +46,19 @@ The settings (configuration) are made in various places and on various levels.
 
 **Course** level<br>
 On this level you define, for example, when the overall course counts as "passed".<br>
-**Authoring area > select course > Administration > Settings**
+`Course > Administration > Settings`
 
 **Course element** level<br>
 The "Test" course element is used for exams. Within a course there can be several test course elements, e.g. an entry test, tests per topic area, and a final test. Each test course element can be configured differently, e.g. whether the assessment should be done automatically or manually.<br>
-**Authoring area > select course > Administration > Course editor > select course element > various tabs**
+`Course > Administration > Course editor > "Course element"`, there in the various tabs
 
 **Learning resource** level<br>
 A test learning resource can be used in various course elements. All settings (e.g. the number of permitted attempts) are then carried over into the respective course element, but can be overridden there.<br>
-**Authoring area > select learning resource > Administration > Settings**
+`Authoring > "Test learning resource" > Administration > Settings`
 
 **Question** level<br>
 On the level of a question you define, for example, feedback.<br>
-**Authoring area > select learning resource > Administration > Edit content > select question > various tabs**
+`Authoring > "Test learning resource" > Administration > Edit content > "Question"`, there in the various tabs
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -88,13 +88,12 @@ You can find more information on how to proceed here:<br>
 The start and the duration of the exam are determined by the entries in the configuration of the [assessment mode](../../manual_user/learningresources/Assessment_mode.md).
 
 An assessment mode can be activated and deactivated automatically or manually. This is preset by the authors.
-For an automatic start and end, a corresponding time window must be set up under<br>
-**Administration > Assessment management > "Assessment mode configuration" tab**
+For an automatic start and end, a corresponding time window must be set up under:<br>
+`Course > Administration > Assessment management > Tab "Configuration assessment mode"`
 
-If a manual start/end by coaches is desired, the assessment mode can be started and ended under
-**Administration > Assessment management > "Assessment mode configuration" tab**
-by clicking the **Start button**.<br>
-As soon as an assessment mode has been activated, an "End" or "End exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "Ended".
+If a manual start/end by coaches is desired, the assessment mode can be started and ended with the "Start" button. You find the button under:<br>
+`Course > Administration > Assessment management > Tab "Configuration assessment mode"`<br>
+As soon as an assessment mode has been activated, an "End" or "Finish exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "End".
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -106,7 +105,7 @@ When you plan an online exam, you set four time specifications at different plac
 
 ![Timeline of the exam times: with extra time, the test and the assessment mode end later for one person](assets/exam_preparation_times_timeline_v1_en.svg){ class="shadow lightbox" title="The times of an exam at a glance" }
 
-- **Assessment mode**: Start and end define how long participants can only reach the exam in OpenOlat. The prep time locks OpenOlat before the start, the follow-up time keeps it locked after the end. The assessment mode does not determine how long the test runs.<br>
+- **Assessment mode**: Start and end define how long participants can only reach the exam in OpenOlat. The prep time locks OpenOlat before the start, the follow-up time keeps it locked after the end. If the assessment mode ends automatically, OpenOlat does not complete ongoing tests. When the assessment mode is ended manually, OpenOlat pulls the ongoing tests, as long as the preselected option "Automatically pull tests for completed exams" stays set in the "End the exam" dialog.<br>
 `Course > Administration > Assessment management > Tab "Configuration assessment mode"`
 - **Test period**: During this period, participants can start the test. At the "Until" time, OpenOlat ends the test, even if the time limit has not yet run out.<br>
 `Course > Administration > Course editor > Course element "Test" > Tab "Test configuration" > "Set assessment period"`
@@ -206,7 +205,7 @@ If it was configured that only 1 attempt is possible, it can happen that partici
 ## What do I do if the assessment mode is configured incorrectly? {: #wrong_config_assessment_mode}
 
 An assessment mode is created and set up under<br>
-**Course → Administration → Assessment management → Assessment mode configuration**<br>
+`Course > Administration > Assessment management > Tab "Configuration assessment mode"`<br>
 As long as the assessment mode has not yet been started, it can be edited there.
 For an exam that is already running, subsequent editing of the assessment mode is no longer readily possible.
 
@@ -243,16 +242,16 @@ B) the entry in the assessment mode
 
 <h3>A) Entries in the Test course element</h3>
 
-**Course → Administration → Course editor → select course element → Learning path tab**<br>
+`Course > Administration > Course editor > "Course element" > Tab "Learning path"`<br>
 Each course element in a learning path course can contain an entry regarding release. A time window can be specified within which the course element can be accessed. The entry "to be completed by" defines by when the course element can be opened. If a course element is open and is being worked on while the deadline expires, the element remains open and can continue to be worked on. There is no automatic ending of access.<br>
-**Course → Administration → Course editor → select "Test" course element → Test configuration tab**<br>
-Here you will find a toggle button "Set test period". During this test period the test can be started. As soon as the "to" time is reached, the test is automatically ended. This is the case even if the defined test time has not yet been used up.
+`Course > Administration > Course editor > Course element "Test" > Tab "Test configuration"`<br>
+Here you will find a toggle button "Set assessment period". During this test period the test can be started. As soon as the "to" time is reached, the test is automatically ended. This is the case even if the defined test time has not yet been used up.
 
 Changes in the course editor in these tabs during a running exam should be avoided. As a rule, using the assessment mode is recommended. During an active assessment mode, other activities in OpenOlat are blocked. If only a release and access option in the course element is configured, other courses in OpenOlat can still be accessed.
 
 <h3>B) Entry in the assessment mode</h3>
 
-**Course → Administration → Assessment management → Assessment mode configuration**
+`Course > Administration > Assessment management > Tab "Configuration assessment mode"`
 
 This entry refers to the phase in which the assessment mode is active. That is, the time span during which the exam participants can exclusively work on this exam in OpenOlat.
 
@@ -318,8 +317,8 @@ If the exam material allows it, "open book exams" are often also conducted, in w
 
 On the OpenOlat side, a declaration can be presented to the participants for confirmation at the beginning of an exam. In particular, the use of AI tools, for example, must be clearly regulated. It may be possible, for example, to make it a condition that the exam participants must agree to the monitoring and logging of all data traffic to and from their computer during the exam.
 
-A declaration can be set up for individual courses in OpenOlat (in this case the course with the exam) under<br>
-**Administration > Settings > "Terms of use" tab**.<br>
+A declaration can be set up for individual courses in OpenOlat (in this case the course with the exam) under:<br>
+`Course > Administration > Settings > Tab "Disclaimer"`<br>
 See also [Course-specific terms of use >](../../manual_user/basic_concepts/Terms_Of_Use.md#terms_of_use_course)<br>
 
 To block all other activities in OpenOlat after the start of a test, use an [assessment mode](../../manual_user/learningresources/Assessment_mode.md).
@@ -337,7 +336,7 @@ In an assessment mode, a restriction to specific IP addresses can also be made. 
 It can happen that exam participants accidentally end a test that has not been fully completed and then start the test a second time. A restart is saved as a second attempt, in which everything can be started again from the beginning. The entries of the previous attempt are not carried over. However, all attempts are saved and can be viewed by coaches and course owners in the assessment tool.
 
 - As a coach or course owner, select the course.
-- Open the assessment tool under Administration > Assessment tool.
+- Open the assessment tool under `Course > Administration > Assessment tool`.
 - Select the relevant test course element.
 - Select the "Participants" tab.
 - Open the overview of the person concerned by clicking on a name.
@@ -350,8 +349,8 @@ It can happen that exam participants accidentally end a test that has not been f
 
 ## How can I prepare the inspection of the exam results? {: #assesment_inspection}
 
-In order to be able to create individual exam inspections for test participants after an exam, you must configure the [assessment inspection](../../manual_user/learningresources/Assessment_inspection.md) accordingly under<br>
-**Course → Administration → Assessment management → Assessment inspection configuration tab**<br>
+In order to be able to create individual exam inspections for test participants after an exam, you must configure the [assessment inspection](../../manual_user/learningresources/Assessment_inspection.md) accordingly under:<br>
+`Course > Administration > Assessment management > Tab "Configuration assessment inspection"`<br>
 Here you can, for example, define the duration, the display of results, and restrictions.
 
 Coaches can then schedule inspections for individual participants in the assessment tool according to these specifications.
@@ -381,11 +380,21 @@ Coaches can then schedule inspections for individual participants in the assessm
 
 ## Further information {: #further_information}
 
-[Defining the terms of use of a course >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
-[Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
-[How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
+**Mentioned on this page**<br>
+[How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[How do I proceed when I create a test? >](../test_creation_procedure/test_creation_procedure.md)<br>
 [How do I exchange a test? >](../../manual_how-to/exchange_tests/exchange_tests.md)<br>
-[Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
+[Assessment management: Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
+[Operating status >](https://www.openolat.com/betriebsstatus/)<br>
+[Communication during an exam >](../../manual_how-to/communication_during_exam/communication_during_exam.md)<br>
+[Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
+[Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
+[How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
+[Assessment management: assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)
+
+**Further information**<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [Go to the top of the page ^](#exam_preparation)
 
