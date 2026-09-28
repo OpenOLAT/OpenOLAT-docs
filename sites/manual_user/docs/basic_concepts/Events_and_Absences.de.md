@@ -163,8 +163,8 @@ Es ist zu unterscheiden zwischen
 
 
 7. der **kursübergreifenden Absenzenverwaltung** durch Berechtigte mit der Rolle Absenzenverwalter:in.<br>
-    Zur Verwaltung gehört z.B. die Bearbeitung von Dispensen und Rekursen. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus und ist deshalb einer gesonderten Rolle zugeordnet. Berechtigte finden die Werkzeuge im<br>
-   **Menü der Kopfzeile: Absenzenverwaltung**<br>
+    Zur Verwaltung gehört z.B. die Bearbeitung von Dispensen und Rekursen. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus und ist deshalb einer gesonderten Rolle zugeordnet. Berechtigte finden die Werkzeuge in der Hauptnavigation unter:<br>
+   **Absenzenverwaltung**<br>
    [Mehr dazu >](../area_modules/Absence_Management.de.md)
 
 

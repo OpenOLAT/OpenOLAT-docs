@@ -55,7 +55,7 @@ Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name 
 Sie haben 4 Varianten zur Auswahl:
 
 **Modul innerhalb OpenOlat anzeigen:**<br>
-Zusätzlich zum SCORM-Modul wird die Hauptnavigation oben in der Kopfzeile angezeigt.
+Zusätzlich zum SCORM-Modul wird oben die Hauptnavigation angezeigt.
 
 **Nur Modul anzeigen:**<br>
 Ist diese Variante gewählt, wird die Hauptnavigation mit dem Öffnen des Kursbausteins ausgeblendet. Stattdessen wird das SCORM Modul im ganzen Browserfenster dargestellt.

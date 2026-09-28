@@ -6,7 +6,7 @@
 
 Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in Echtzeit, das sogenannte "Chatten". Wichtig ist dabei die Information über die Verfügbarkeit von potentiellen Chatpartner:innen. Diese Information liefert die Liste der Gruppenkontakte. Um mit einem der verfügbaren Kontakte einen Chat zu starten, klicken Sie auf den gewünschten Kontakt. Der Chat wird in einem Chatfenster gestartet. Ist eine Person im Moment nicht erreichbar, so werden die Nachrichten gespeichert und der Benutzer:in beim nächsten Login angezeigt.
 
-![Liste Gruppenkontakte mit den online angemeldeten Mitgliedern der eigenen Gruppen sowie den Schaltern für offline Kontakte und Gruppen, geöffnet über die Ziffern in der Kopfzeile](assets/chat_group_DE.gif){ class="shadow lightbox" }
+![Liste Gruppenkontakte mit den online angemeldeten Mitgliedern der eigenen Gruppen sowie den Schaltern für offline Kontakte und Gruppen, geöffnet über die Ziffern in der Hauptnavigation](assets/chat_group_DE.gif){ class="shadow lightbox" }
 
 ## Messaging Status {: #status}
 
@@ -27,7 +27,7 @@ Beim ersten Einloggen starten Sie mit dem Status, den Ihre Systemadministrator:i
 
 ## Nachrichten senden {: #send}
 
-Durch einen Klick auf die zwei Ziffern (xx/xx) oben rechts in der Kopfzeile neben dem Instant-Messaging-Status-Symbol (z.B. grüner Punkt) öffnet sich eine Liste. Dort werden alle zurzeit eingeloggten Mitglieder Ihrer Gruppen angezeigt. Um den Chat zu starten, klicken Sie auf den Namen der gewünschten Person. Ein Chatfenster wird geöffnet. Wird die gewünschte Benutzer:in als offline angezeigt, können Sie ihr ebenso eine Nachricht schicken. Beim nächsten Login erscheint die Nachricht als Briefchen links neben dem Chat-Icon.
+Durch einen Klick auf die zwei Ziffern (xx/xx) oben rechts in der Hauptnavigation neben dem Instant-Messaging-Status-Symbol (z.B. grüner Punkt) öffnet sich eine Liste. Dort werden alle zurzeit eingeloggten Mitglieder Ihrer Gruppen angezeigt. Um den Chat zu starten, klicken Sie auf den Namen der gewünschten Person. Ein Chatfenster wird geöffnet. Wird die gewünschte Benutzer:in als offline angezeigt, können Sie ihr ebenso eine Nachricht schicken. Beim nächsten Login erscheint die Nachricht als Briefchen links neben dem Chat-Icon.
 
 Werden die zwei Ziffern nicht angezeigt, haben Systemadministrator:innen den direkten Chat ausgeschaltet. Auch bei ausgeschalteten Gruppenkontakten können Sie anderen Benutzer:innen Nachrichten schicken: Suchen Sie die Person über die OpenOlat-Suche oder im persönlichen Menü unter [Personensuche](../personal_menu/Other_users.de.md). In der Visitenkarte finden Sie unterhalb des Profilbildes die Möglichkeit, die Person zu kontaktieren. Hat die Benutzer:in den Kurznachrichten-Empfang ausgeschaltet, ist der Kontaktlink für diese Person nicht vorhanden.
 
@@ -38,7 +38,7 @@ Gängige Emoticons wie Lachen oder Augenzwinkern, Cool oder Erstaunt werden unte
 ## Nachrichten empfangen {: #receive}
 
 Nachrichten können auf zwei Arten empfangen werden: Wenn Ihr Status "Verfügbar" ist, öffnet sich beim Empfang neuer Nachrichten ein Chatfenster.
-Lautet Ihr Status "Bitte nicht stören" oder "Nicht verfügbar", erscheinen die Nachrichten als blinkendes Briefchen links neben dem Chat-Icon rechts oben in der Kopfzeile. Wenn Sie auf das Briefchen klicken, geht ein Chatfenster mit der Nachricht auf. Ist das Chatfenster bereits offen, werden neue Nachrichten dort angezeigt.
+Lautet Ihr Status "Bitte nicht stören" oder "Nicht verfügbar", erscheinen die Nachrichten als blinkendes Briefchen links neben dem Chat-Icon rechts oben in der Hauptnavigation. Wenn Sie auf das Briefchen klicken, geht ein Chatfenster mit der Nachricht auf. Ist das Chatfenster bereits offen, werden neue Nachrichten dort angezeigt.
 
 Falls Sie eine Nachricht erhalten, während Sie offline sind, so wird diese Nachricht gespeichert und beim nächsten Einloggen als Briefchen angezeigt.
 

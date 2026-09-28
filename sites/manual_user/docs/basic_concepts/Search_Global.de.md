@@ -1,12 +1,12 @@
 # Globale Suche {: #search_global}
 
-Die globale Suche finden Sie oben rechts in der Kopfzeile. Klicken Sie auf das Lupen-Symbol.
+Die globale Suche finden Sie oben rechts in der Hauptnavigation. Klicken Sie auf das Lupen-Symbol.
 
 Wenn Sie hier einen Suchbegriff eingeben und mit der Eingabetaste oder Klick auf die Lupe daneben bestätigen, findet eine **Suche über Alles** statt.
 
 Das heisst, dass **im ganzen OpenOlat** gesucht wird und auch innerhalb der Dokumente. Es ist eine [Volltextsuche](Search_General.de.md#full_text_search).
 
-![Aufgeklapptes Suchfeld der globalen Suche mit Button Suchen neben dem Lupen-Symbol oben rechts in der Kopfzeile](assets/search_global_v1_de.png){ class="shadow lightbox" }
+![Aufgeklapptes Suchfeld der globalen Suche mit Button Suchen neben dem Lupen-Symbol oben rechts in der Hauptnavigation](assets/search_global_v1_de.png){ class="shadow lightbox" }
 
 
 ## Suchergebnisse [:octicons-tag-16:{ title="ab Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #search_results}
