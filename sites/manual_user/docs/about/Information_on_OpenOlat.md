@@ -12,7 +12,7 @@ OpenOlat is not a Content Management System (CMS). Since OLAT means "Open Online
 
 **eLearning Journal benchmark test**
 
-The renowned publication [eLearning-Journal](http://www.elearning-journal.de/) rated the open source LMS solution in a comprehensive benchmark test as "Very good". Particular emphasis was placed on the large functional scope of OpenOlat. Security was identified as another strong point.
+Five times "VERY GOOD" from the [eLearning Journal](http://www.elearning-journal.de/) (2025, 2023, 2020, 2017 and 2015) confirm the continuous quality and development of OpenOlat. The reviews especially emphasized the large range of functions of the open source learning platform, and they did so consistently over a decade. Security was identified as another strong point.
 
 [eLearning-Award 2021 "Erwachsenenbildung" ("Adult Education")](https://www.elearning-journal.com/2021/01/27/kategorie-erwachsenenbildung/)
 

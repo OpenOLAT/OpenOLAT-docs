@@ -12,7 +12,7 @@ OpenOlat ist kein Content-Management-System (CMS). Wie der Name "Open Online Lea
 
 **eLearning Journal Testbericht**
 
-Das renommierte [eLearning-Journal](http://www.elearning-journal.de/) hat die Open-Source Lösung wiederholt in einem umfassenden Vergleichstest mit dem Prädikat "Sehr gut" bewertet. Besonders hervorgehoben wurde der grossen Funktionsumfang von OpenOlat. Eine weitere Stärke ist die Sicherheit.
+Fünfmal «SEHR GUT» vom [eLearning Journal](http://www.elearning-journal.de/) (2025, 2023, 2020, 2017 und 2015) belegen die kontinuierliche Qualität und Weiterentwicklung von OpenOlat. Hervorgehoben wurde dabei insbesondere der grosse Funktionsumfang der Open-Source-Lernplattform, und das konstant über ein Jahrzehnt. Eine weitere Stärke ist die Sicherheit.
 
 [eLearning-Award 2021 "Erwachsenenbildung"](https://www.elearning-journal.com/2021/01/27/kategorie-erwachsenenbildung/)
 

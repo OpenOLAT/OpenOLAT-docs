@@ -162,7 +162,7 @@ hide:
 [![eLearning-Journal OpenOlat Testsiegel: Sehr-Gut](assets/frentix - Testsiegel_2025.png){ align=left width=200px }](assets/eLJ42025_TEST_frentix.pdf)
 !!! quote "eLearning Journal"
 
-	Mit dem Prädikat "Sehr gut" hat das renommierte eLearning-Journal die Open Source Lernplattform OpenOlat erneut umfangreich getestet. Dabei wurden die neuen Funktionen des Releases 20 im Detail angeschaut und bewertet. Besonders hervorgehoben wurde der grosse Funktionsumfang der Lernplattform.
+	Fünfmal «SEHR GUT» vom eLearning Journal (2025, 2023, 2020, 2017 und 2015) belegen die kontinuierliche Qualität und Weiterentwicklung von OpenOlat. Hervorgehoben wurde dabei insbesondere der grosse Funktionsumfang der Open-Source-Lernplattform, und das konstant über ein Jahrzehnt.
 
 </div>
 

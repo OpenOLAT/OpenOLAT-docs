@@ -162,7 +162,7 @@ hide:
 [![eLearning-Journal OpenOlat test result: very good](assets/frentix - Testsiegel_2025.png){ align=left width=200px }](assets/eLJ42025_TEST_frentix.pdf)
 !!! quote "eLearning Journal"
 	
-	With the rating "Very good", the renowned eLearning Journal has once again extensively tested the open source learning platform OpenOlat. The new features of Release 20 were examined and evaluated in detail. The large range of functions of the learning platform was especially emphasized.
+	Five times "VERY GOOD" from the eLearning Journal (2025, 2023, 2020, 2017 and 2015) confirm the continuous quality and development of OpenOlat. The reviews especially emphasized the large range of functions of the open source learning platform, and they did so consistently over a decade.
 
 </div>
 
