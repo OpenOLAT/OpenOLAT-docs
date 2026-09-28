@@ -54,6 +54,8 @@ The wizard only offers "Execution" and "Toolbar" if at least one course is selec
 
 If several learning resources are to be assigned to another organisation, for example after a restructuring, you adjust their Administrative access here for all of them at once. What the Administrative access does is described on the page [Course settings - Tab Share](../learningresources/Course_Settings_Share.md#section_share). The section is only available if the Organisations module is enabled.
 
+![Fields to add and remove organisations for 2 learning resources. Administrative access section of the wizard](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_en.png){ class="shadow lightbox" }
+
 The section has two fields:
 
 * "Add organisation" offers the organisations in which you are author, learning resource manager or administrator.

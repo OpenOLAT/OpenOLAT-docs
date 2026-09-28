@@ -54,6 +54,8 @@ Die Bereiche in der Reihenfolge des Assistenten:
 
 Sollen mehrere Lernressourcen einer anderen Organisation zugeordnet werden, etwa nach einer Umstrukturierung, passen Sie ihre Administrative Freigabe hier für alle gleichzeitig an. Was die Administrative Freigabe bewirkt, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share.de.md#section_share). Den Bereich gibt es nur, wenn das Modul Organisationen eingeschaltet ist.
 
+![Felder zum Hinzufügen und Entfernen von Organisationen für 2 Lernressourcen. Bereich Administrative Freigabe des Assistenten](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_de.png){ class="shadow lightbox" }
+
 Der Bereich hat zwei Felder:
 
 * "Organisation hinzufügen" bietet die Organisationen an, in denen Sie Autor:in, Lernressourcenverwalter:in oder Administrator:in sind.
