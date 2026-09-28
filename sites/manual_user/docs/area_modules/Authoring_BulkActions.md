@@ -15,7 +15,7 @@ Clicking on the 3 dots at the end of a table row (10) displays options, which ar
 
 ---
 
-### 1. Send email
+### 1. Send email [:octicons-tag-16:{ title="from Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"}
 
 Select the desired learning resources and click on "Send email". A dialog opens. You can now define to whom the email should be sent. Possible recipients are **all course owners, all course coaches and all participants**.
 
@@ -35,19 +35,38 @@ All **owners of the selected learning resources** are displayed here. You can re
 
 ### 4. Metadata and settings [:octicons-tag-16:{ title="from Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
 
-Through bulk actions, various **metadata** can be **standardized** here for the selected learning resources, e.g. if several courses belong to a continuing education series. By clicking, a wizard opens.
+If several learning resources belong together, for example the courses of a continuing education series, you **standardize** their **metadata** and settings in one pass instead of editing each learning resource individually. After clicking "Metadata and settings", the wizard "Change settings" opens. It only changes the selected learning resources for which you are owner, learning resource manager or administrator.
 
-For all marked learning resources
+In the first step "Sections", you select what you want to edit. The wizard then only guides you through the selected sections and ends with the step "Overview", which lists the planned changes. In "Metadata", "Authors rights", "Execution" and "Toolbar", OpenOlat only applies the fields for which you tick the checkbox "Change". If you leave a ticked field empty in "Metadata" or "Execution", the existing data is deleted.
 
-* the displayed name can be entered under "Taught by"
-* the implementation format, e.g. "Exam course", can be selected
-* language and time requirements can be defined
-* and a suitable licence for the learning resources can be selected
-* a suitable subject area and the desired organization for the learning resources can be selected.
-* additional rights can be granted for all other authors.
-* as well as a consistent execution period and location can be specified.
+The sections in the order of the wizard:
 
-Courses also have the option of making a consistent selection for the tools in the toolbar.
+* "Metadata": "Authors / taught by", "Implementation format" (only for courses, e.g. "Exam course"), "Main language", "Expenditure of work", "License" (when licenses are enabled) and "Release OER catalogues and search engines" (when the OAI-PMH module is enabled).
+* "Subjects": add or remove subjects. When the catalog is enabled, the section is called "Subjects / Catalog".
+* "Administrative access": add or remove organisations, see [Section "Administrative access"](#bulk_administrative_access).
+* "Authors rights": add or remove the rights "Reference", "Copy" and "Download" for all other authors.
+* "Execution": set "Execution period" and "Location" uniformly.
+* "Toolbar": switch tools of the toolbar on or off.
+
+The wizard only offers "Execution" and "Toolbar" if at least one course is selected, and only applies the changes to courses.
+
+#### Section "Administrative access" {: #bulk_administrative_access}
+
+If several learning resources are to be assigned to another organisation, for example after a restructuring, you adjust their Administrative access here for all of them at once. What the Administrative access does is described on the page [Course settings - Tab Share](../learningresources/Course_Settings_Share.md#section_share). The section is only available if the Organisations module is enabled.
+
+The section has two fields:
+
+* "Add organisation" offers the organisations in which you are author, learning resource manager or administrator.
+* "Remove organisation" offers the organisations to which the selected learning resources are assigned.
+
+A learning resource always remains assigned to at least one organisation. OpenOlat therefore only removes an organisation if the learning resource still keeps one of its previous organisations afterwards. If you only select organisations to remove and a learning resource would be left without an organisation, the section shows the notice "Some organisations cannot be removed from learning resources because they are the only organisation of the learning resource."
+
+An organisation that you add in the same run does not count here. If you select the new organisation to add and the previous one to remove, OpenOlat adds the new one and keeps the previous one, without showing a notice. To move learning resources to another organisation, therefore run the wizard twice:
+
+1. In the first run, select the new organisation under "Add organisation" and complete the wizard.
+2. In the second run, select the previous organisation under "Remove organisation".
+
+Administrators can also assign courses to an organisation in the system administration in the "Learning resources" tab, described under [Module Organisations](../../manual_admin/administration/Modules_Organisations.md#edit_learning_resources).
 
 ### 5. Copy
 
@@ -101,7 +120,7 @@ Here you can organize members of a learning resource. You can find more informat
 
 This allows you to export your learning resources as a ZIP file, e.g. as a backup or for import into another system.
 
-### 13. Release of external OER catalogue
+### 13. Release of external OER catalogue [:octicons-tag-16:{ title="from Release 17.2 (OO-6583)" }](https://track.frentix.com/issue/OO-6583){:target="_blank"}
 
 If a course or learning resource is to be found by search engines, you can call up this option.<br>
 You can find a detailed guide to the topic [here](../../manual_how-to/oai_pmh/oai_pmh.md).
@@ -110,7 +129,7 @@ You can find a detailed guide to the topic [here](../../manual_how-to/oai_pmh/oa
 
 If the table row is a conventional course, the option "Convert to learning path course" is also displayed. A new, converted [Learning path course](../learningresources/Learning_path_course.md) will be created as a copy. The original version will be preserved as a conventional course.
 
-### 15. Copy with wizard
+### 15. Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"}
 
 If the table row is a learning path course, the option "Copy with wizard" is also displayed.
 
@@ -122,15 +141,17 @@ If the table row is a learning path course, the option "Copy with wizard" is als
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
 [Course settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
-[Course design >](../../manual_user/learningresources/Learning_path_course.md)
+[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
 
 **Further reading**<br>
-[Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
-[How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)
+[Creating Courses >](../../manual_user/learningresources/Creating_Course.md)<br>
+[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
+[Course elements in the Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)
 
 [To the top of the page ^](#authoring_bulk_actions)
