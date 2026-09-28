@@ -4,7 +4,11 @@
 
 In the personal menu, section "Configuration", under the option "Profile" you can change your personal data and set up your visiting card. Complete the fields provided.
 
-You change your e-mail address with the button "Edit E-Mail". OpenOlat sends a validation code to the new address. The new e-mail address only becomes active once you have entered this code; until then OpenOlat uses the previous address. After the change, both the old and the new address receive a notification. If you have problems, contact your administrator. [:octicons-tag-16:{ title="from Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
+!!! tip "Your organisation determines which fields you change yourself"
+
+    The username is always locked in the profile. Your organisation determines which other fields you edit yourself. A locked field shows its value but does not accept any input. If a locked field such as your name needs to be changed, contact your administrator.
+
+You change your e-mail address with the button "Edit" next to the field "E-mail". OpenOlat sends a validation code to the new address. The new e-mail address only becomes active once you have entered this code; until then OpenOlat uses the previous address. After the change, both the old and the new address receive a notification. If you have problems, contact your administrator. [:octicons-tag-16:{ title="from Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
 
 <details>
     <summary>E-mail signature</summary>
@@ -21,10 +25,7 @@ In the "About me" section, you can enter some information about yourself as free
 
 It is also important for online learning that you add a photo of yourself to your profile. This makes online learning more personal and online communication and cooperation more pleasant and easier for everyone. The photo stored in your profile appears in OpenOlat in various places, e.g. on your visiting card, in forum posts or in the participant list. OpenOlat crops the picture to a width of 100 pixels.
 
-
-!!! info "Important"
-
-    Some fields may not be changeable.
+You upload your photo in the section "Published image" with "Select file", as a JPG, PNG or GIF file of up to 10 MB. With "Replace" you exchange the photo, with "Delete" you remove it. Then click "Save". If the section is locked, your organisation provides the photo.
 
 ### Tab "My visiting card"
 
