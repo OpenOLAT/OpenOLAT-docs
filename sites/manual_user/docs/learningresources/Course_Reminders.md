@@ -117,7 +117,7 @@ x days, weeks, months or years after
 * **Participant is in the course execution number**<br>
 This concerns the initial run or course repetition for recertification.
 
-    _Example_: Course participants who complete the course for the second time receive a reminder e-mail.
+    _Example_: Participants who complete the course for the second time receive a reminder e-mail.
 
 * **Certificate date of issue**<br>
 This option is only displayed if certificate allocation is activated: `Course > Administration > Settings > Tab "Assessment"`.<br>
@@ -126,7 +126,7 @@ _Example_: The mail is sent 1 day after a certificate has been issued.
 * **Progress**<br>
 This option is only available for [learning path courses](../learningresources/Learning_path_course.md).
 The dispatch is based on the percentage course progress of the participants, as configured in the settings of the course administration.<br>
-_Example_: Learners who have successfully completed at least 80% of a course will receive a motivational e-mail to complete the last 20% soon.
+_Example_: Participants who have successfully completed at least 80% of a course will receive a motivational e-mail to complete the last 20% soon.
 
 * **Certificate date of expiry**<br>
 This option is only displayed if certificate allocation is activated: `Course > Administration > Settings > Tab "Assessment"`.<br>
@@ -162,7 +162,7 @@ The reminder recipients must have a certain value for one of the following chara
     * Organizational unit / study group
     * Study subject
 
-    _Example_: Participant from the city of Zurich.
+    _Example_: Reminder recipients from the city of Zurich.
 
     The prerequisite is that the details have also been entered or transferred.
 
@@ -280,7 +280,7 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
 
     In our conditions, in this case for example, the result of a test (a) is compared with the value entered in the condition rule (b). If the logical return value is "True", i.e. the condition is met, the reminder is triggered.
 
-    _Example_: A reminder should be sent when a participant has achieved a maximum of 5 points in a test. In OpenOlat, the condition looks like this:
+    _Example_: A reminder should be sent when participants have achieved a maximum of 5 points in a test. In OpenOlat, the condition looks like this:
     ![Example condition "Points less than or equal to 5" for a test, with operator selection](assets/reminder_operator_DE.png){ class="shadow lightbox" }
 
 
@@ -310,11 +310,11 @@ With the help of the e-mail text, which can be customized as needed, you create 
 
 ### Variables available in the mail text
 
-* **$firstName**: The first name of the participant.
-* **$lastName**: The last name of the participant.
+* **$firstName**: The first name of the recipient.
+* **$lastName**: The last name of the recipient.
 * **$fullName**: The full name depending on the system configuration. The default value is "last name, first name".
-* **$email**: The e-mail address of the participant.
-* **$userName**: The username.
+* **$email**: The e-mail address of the recipient.
+* **$username**: The username.
 * **$courseUrl**: The internet address of the course.
 * **$courseName**: The name of the course as on the info page.
 * **$courseDescription**: The description of the course as on the info page.
@@ -329,8 +329,14 @@ With the help of the e-mail text, which can be customized as needed, you create 
 * **$courseReference**: The text entered in the course settings, tab "Info" under "Identifier".
 * **$courseRequirements**: The text entered in the course settings, tab "Info" under "Requirements".
 * **$courseTeaser**: The teaser text entered in the course settings, tab "Info".
-* **$recipientFirstName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders)<br>
-* **$recipientLastName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders)
+* **$firstNameAffectedUser**: The first name of the affected person.
+* **$lastNameAffectedUser**: The last name of the affected person.
+* **$emailAffectedUser**: The e-mail address of the affected person.
+* **$usernameAffectedUser**: The username of the affected person.
+
+The affected person is the person for whom all conditions of the reminder are met. If the option "Only to specific recipients" is selected under "To", these variables name the participant concerned, while `$firstName` names the recipient of the e-mail, that is, the owner or the assigned coach. For external e-mail addresses, `$firstName`, `$lastName`, `$fullName`, `$email` and `$username` remain empty. If "According to the rules" is selected, both groups of variables contain the same values, in the copies as well. An example is given in the guide on learning progress, section [Automatic reminders](../../manual_how-to/progress_information/progress_information.md#by_reminders).
+
+Existing reminders with `$recipientFirstName` and `$recipientLastName` continue to work. The two variables return the same values as `$firstNameAffectedUser` and `$lastNameAffectedUser`.
 
 
 Here is an example:
@@ -344,14 +350,14 @@ Here is an example:
 
 ## Recipients {: #recipients}
 
-Reminders are good for reminding **course participants** of what they should do next.
+Reminders are good for reminding **participants** of what they should do next.
 A **copy to the coaches and/or course owners** also informs them that participants have something to do.
 
 
 In some cases, reminders should be sent **exclusively to coaches**.
 
 **Example:**<br>
-Course participants show no progress. The coach should then contact these participants and provide assistance. This reminder should only go to the coach. You could, for example, enter as conditions that progress is still below x% and, at the same time, a certain score has not been reached in an entrance test.
+Participants show no progress. The coach should then contact these participants and provide assistance. This reminder should only go to the coach. You could, for example, enter as conditions that progress is still below x% and, at the same time, a certain score has not been reached in an entrance test.
 
 Reminders can also be sent **exclusively to course owners**.
 
@@ -369,7 +375,7 @@ For special cases, reminders can also be sent **exclusively to certain external 
 ## Check and edit reminders {: #check_and_edit}
 
 If reminders have already been created, they are listed under `Course > Administration > Reminders`.
-On the overview page you can see all the reminders already created for this course and can also view reminders that have already been sent. The list of reminders already sent contains information about the recipient and the sending time. Individual reminders from this list can easily be sent again via the "Resend" link.
+On the overview page you can see all the reminders already created for this course and can also view reminders that have already been sent. The list of reminders already sent contains information about the recipients and the sending time. Individual reminders from this list can easily be sent again via the "Resend" link.
 
 ![Action menu of a reminder with edit, duplicate, send reminder now, show sent reminders and delete](assets/reminder_DE.png){ class="shadow lightbox" }
 
@@ -377,7 +383,7 @@ New reminders can be created at any time.
 
 If, for example, an individual condition for dispatch is to be removed, you will find the buttons for deleting an individual condition to the right of the respective condition in edit mode.
 
-Reminders can also be triggered specifically and repeatedly. However, reminders are still only sent to those participants for whom all conditions are met.
+Reminders can also be triggered specifically and repeatedly. However, reminders are still only sent to those recipients for whom all conditions are met.
 
 
 [To the top of the page ^](#course_reminders)

@@ -118,7 +118,7 @@ x Tage, Wochen, Monate oder Jahre danach
 * **Teilnehmer:in befindet sich in der Kursdurchführung Nummer**<br>
 Hier geht es um die Erstdurchführung oder Kurswiederholung zur Rezertifizierung. 
 
-    _Beispiel_: Kursteilnehmende die den Kurs das zweite Mal durchlaufen erhalten eine Erinnerungsmail.
+    _Beispiel_: Teilnehmende, die den Kurs das zweite Mal durchlaufen, erhalten eine Erinnerungsmail.
 
 * **Ausstellungsdatum Zertifikat**<br>
 Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
@@ -127,7 +127,7 @@ _Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurd
 * **Fortschritt**<br>
 Diese Option gibt es nur bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md).
 Hier erfolgt der Versand basierend auf dem prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Kurs-Administration konfiguriert wurde.<br>
-_Beispiel_: Lernende, die mindestens 80% eines Kurses erfolgreich erledigt haben erhalten eine Motivationsmail um noch bald die letzten 20% zu erledigen.
+_Beispiel_: Teilnehmende, die mindestens 80% eines Kurses erfolgreich erledigt haben, erhalten eine Motivationsmail, um noch bald die letzten 20% zu erledigen.
 
 * **Ablaufdatum Zertifikat**<br>
 Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
@@ -163,7 +163,7 @@ Die Erinnerungsempfänger:innen müssen einen bestimmten Wert zu einem der folge
     * Organisationseinheit / Studiengruppe
     * Studienfach
 
-    _Beispiel_: Benutzer aus der Stadt Zürich.  
+    _Beispiel_: Erinnerungsempfänger:innen aus der Stadt Zürich.  
 
     Voraussetzung ist, dass die Angaben auch eingetragen bzw. übertragen wurden.
 
@@ -282,7 +282,7 @@ _Beispiel_: Eine Erinnerung wird 2 Tage vor der Ausfülldeadline für das Formul
 
     In unseren Bedingungen wird in diesem Fall z.B. das Ergebnis eines Testes (a) mit dem eingegebenen Wert in der Bedingungsregel (b) verglichen. Ist der logische Rückgabewert "True", also trifft die Bedingung zu, dann wird die Erinnerung ausgelöst.  
 
-    _Beispiel:_ Eine Erinnerung soll verschickt werden, wenn ein Teilnehmer in einem Test maximal 5 Punkte erreicht hat. In OpenOlat sieht die Bedingung dann folgendermassen aus:
+    _Beispiel:_ Eine Erinnerung soll verschickt werden, wenn Teilnehmende in einem Test maximal 5 Punkte erreicht haben. In OpenOlat sieht die Bedingung dann folgendermassen aus:
     ![Beispielbedingung "Punkte kleiner oder gleich 5" für einen Test, mit Operator-Auswahl](assets/reminder_operator_DE.png){ class="shadow lightbox" }
 
 
@@ -312,11 +312,11 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 
 ### Im Mailtext verfügbare Variablen
 
-* **$firstName**: Der Vorname des Benutzers.
-* **$lastName**: Der Nachname des Benutzers.
+* **$firstName**: Der Vorname der Empfänger:in.
+* **$lastName**: Der Nachname der Empfänger:in.
 * **$fullName**: Der vollständige Name je nach Systemkonfiguration. Der Standardwert ist "Nachname, Vorname".
-* **$email**: Die E-mail-Adresse des Benutzers.
-* **$userName**: Der Benutzername.
+* **$email**: Die E-Mail-Adresse der Empfänger:in.
+* **$username**: Der Benutzername.
 * **$courseUrl**: Die Internetadresse des Kurses.
 * **$courseName**: Der Name des Kurses wie auf der Infoseite.
 * **$courseDescription**: Die Beschreibung des Kurses wie auf der Infoseite.
@@ -331,8 +331,14 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 * **$courseReference**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Kennzeichen" eingegeben wurde.
 * **$courseRequirements**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Voraussetzungen" eingegeben wurde.
 * **$courseTeaser**: Der Teaser-Text, der in den Kurseinstellungen im Tab "Info" eingegeben wurde.
-* **$recipientFirstName**: siehe [Beispiel](../../manual_how-to/progress_information/progress_information.de.md#by_reminders)<br>
-* **$recipientLastName**: siehe [Beispiel](../../manual_how-to/progress_information/progress_information.de.md#by_reminders) 
+* **$firstNameAffectedUser**: Der Vorname der betroffenen Person.
+* **$lastNameAffectedUser**: Der Nachname der betroffenen Person.
+* **$emailAffectedUser**: Die E-Mail-Adresse der betroffenen Person.
+* **$usernameAffectedUser**: Der Benutzername der betroffenen Person.
+
+Die betroffene Person ist die Person, für die alle Bedingungen der Erinnerung erfüllt sind. Ist unter "An" die Option "Nur an bestimmte Empfänger" gewählt, nennen diese Variablen die Teilnehmer:in, um die es geht, während `$firstName` die Empfänger:in der Mail nennt, also die Besitzer:in oder die zuständige Betreuer:in. Bei externen E-Mail-Adressen bleiben `$firstName`, `$lastName`, `$fullName`, `$email` und `$username` leer. Ist "Gemäss den Regeln" gewählt, enthalten beide Variablengruppen dieselben Werte, auch in den Kopien. Ein Beispiel zeigt die Anleitung zum Lernfortschritt im Abschnitt [Automatische Erinnerungen](../../manual_how-to/progress_information/progress_information.de.md#by_reminders).
+
+Bestehende Erinnerungen mit `$recipientFirstName` und `$recipientLastName` funktionieren weiterhin. Die beiden Variablen liefern dieselben Werte wie `$firstNameAffectedUser` und `$lastNameAffectedUser`.
 
 
 Hier ein Beispiel:
@@ -346,16 +352,16 @@ Hier ein Beispiel:
 
 ---
 
-## Empfänger {: #recipients}
+## Empfänger:innen {: #recipients}
 
-Erinnerungen sind gut geeignet, um **Kursteilnehmer:innen** daran zu erinnern, was sie als nächstes erledigen sollten.
-Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch diese, dass Teilnehmer:innen etwas zu erledigen haben.
+Erinnerungen sind gut geeignet, um **Teilnehmende** daran zu erinnern, was sie als nächstes erledigen sollten.
+Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch diese, dass Teilnehmende etwas zu erledigen haben.
 
 
 In manchen Fällen sollen Erinnerungen **ausschliesslich an Betreuer:innen** geschickt werden.
 
 **Beispiel:**<br>
-Kursteilnehmer:innen zeigen keinen Fortschritt. Der/die Betreuer:in sollte dann Kontakt mit diesen Kursteilnehmer:innen aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an den/die Betreuer:in gehen. Sie könnten als Bedingungen z.B. eingeben, dass der Fortschritt noch unter x% ist und gleichzeitig ein bestimmter Punktewert in einem Eingangstest nicht erreicht wurde.
+Teilnehmende zeigen keinen Fortschritt. Die Betreuer:in sollte dann Kontakt mit diesen Teilnehmenden aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an die Betreuer:in gehen. Sie könnten als Bedingungen z.B. eingeben, dass der Fortschritt noch unter x% ist und gleichzeitig ein bestimmter Punktewert in einem Eingangstest nicht erreicht wurde.
 
 Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** versandt werden.
 
@@ -373,7 +379,7 @@ Für besondere Fälle können Erinnerungen auch **ausschliesslich an bestimmnte 
 ## Erinnerungen kontrollieren und bearbeiten {: #check_and_edit}
 
 Wurden bereits Erinnerungen erstellt, sind diese unter `Kurs > Administration > Erinnerung` aufgelistet.
-Auf der Übersichtsseite sehen Sie alle für diesen Kurs bereits erstellten Erinnerungen und können sich auch bereits versendete Erinnerungen anzeigen lassen. Die Liste der bereits versendeten Erinnerungen enthält Informationen zum Empfänger sowie die Sendezeit. Einzelne Erinnerungen aus dieser Liste können über den Link "Erneut versenden" einfach verschickt werden.
+Auf der Übersichtsseite sehen Sie alle für diesen Kurs bereits erstellten Erinnerungen und können sich auch bereits versendete Erinnerungen anzeigen lassen. Die Liste der bereits versendeten Erinnerungen enthält Informationen zu den Empfänger:innen sowie die Sendezeit. Einzelne Erinnerungen aus dieser Liste können über den Link "Erneut versenden" einfach verschickt werden.
 
 ![Aktionsmenü einer Erinnerung mit Editieren, Duplizieren, Erinnerung jetzt senden, Versendete Erinnerungen zeigen und Löschen](assets/reminder_DE.png){ class="shadow lightbox" }
 
@@ -381,7 +387,7 @@ Neue Erinnerungen können jederzeit erstellt werden.
 
 Soll z.B. eine einzelne Bedingung für den Versand entfernt werden, finden Sie im Bearbeitungsmodus die Buttons zum Löschen einer einzelnen Bedingung rechts neben der jeweiligen Bedingung. 
 
-Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden Erinnerungen aber dennoch nur an jene Benutzer geschickt, für die alle Bedingungen als erfüllt gelten.
+Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden Erinnerungen aber dennoch nur an jene Empfänger:innen geschickt, für die alle Bedingungen als erfüllt gelten.
 
 
 [Zum Seitenanfang ^](#course_reminders)
