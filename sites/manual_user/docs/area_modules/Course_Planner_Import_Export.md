@@ -6,6 +6,18 @@ Products, implementations, and memberships can be exported and imported in the C
 
 Export and import complement manual data entry in the Course Planner: existing structures can be exported as an Excel file, edited in that file, and then imported again to create or update products, implementations, and memberships in bulk.
 
+Export and import are intended for tasks that affect many objects at the same time. Individual changes to a product, an implementation, or a membership are easier to make directly in the user interface. Typical use cases are:
+
+* creating many new products, implementations, and events at once
+* coordinating the date, time, location, and rooms of several events
+* checking the planning data: the import wizard checks a file completely and shows errors and warnings. If it is cancelled before the last step, it changes nothing.
+* archiving a planning state as an Excel file. Courses and templates are contained in it by their reference: if a course or template with this reference exists exactly once on the instance, a new import links it again. The export contains no passwords. For new users, passwords can be set during the import, in an additional column after "Creation date" in the "Users" sheet. For existing users, this column must remain empty.
+* setting up a demo or test environment, provided that organisations, element types, subjects, rooms, as well as courses and templates with the same references already exist there
+
+!!! warning "Attention"
+
+    An import changes many objects in one run. It is recommended to export the current state before every import and to check the overview of every step carefully. Larger imports should first be carried out on a test instance.
+
 The following elements can be exported and imported:
 
 * Products
@@ -57,7 +69,7 @@ Depending on the export type, the exported Excel file contains up to four sheets
 * **Products:** Title, Reference, ORG - Reference, Absences, Description, Creation date, Last modified
 * **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. For events, the column "Rooms" follows the location and lists the booked rooms in the format "building reference:room reference", several rooms separated by a semicolon [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"}
 * **Memberships:** assignment of users to implementations with role (Participant, Coach, Master coach, Course owner, Element owner)
-* **Users:** Username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
+* **Users:** Username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, creation date
 
 In addition, every export file contains an "Export information" sheet with URL, OpenOlat version, export language, as well as date and name of the exporting person [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
@@ -74,6 +86,22 @@ In addition, every export file contains an "Export information" sheet with URL, 
 The import button on the Course Planner dashboard is only available to users with the role "Course planner" or "Administrator".
 
 The import wizard guides you through the review and execution of the import in five steps. If the data contains errors, the wizard cannot be completed until the affected rows are ignored [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9191)" }](https://track.frentix.com/issue/OO-9191){:target="_blank"}.
+
+### The reference links file and system {: #identifier_matching}
+
+The import uses the reference to recognise whether a row updates an existing object or creates a new one. If it finds exactly one object with the same reference, it compares the values and shows the row as "Modified" or "No changes". If it finds none, it shows the row as "New", except for courses and templates. If it finds several, it reports "Reference: Value not unique".
+
+The search area depends on the object:
+
+* **Product:** among all active products
+* **Implementation:** within the specified product
+* **Element:** within the specified implementation
+* **Event:** in the whole system, by the reference of the event
+* **Course and template:** in the whole system, by the reference of the learning resource. The import never creates courses or templates. If it finds no learning resource, it reports "Reference: \<value\> does not exist". If the learning resource is not yet linked to the parent element, it shows the row as "New" and links it during the import.
+
+!!! warning "Attention"
+
+    A reference cannot be renamed via the import. If the reference of an existing product, implementation, element, or event is changed in the Excel file, the import creates an additional object. The existing object remains unchanged. To update existing entries, keep the references from the export unchanged.
 
 ### Handling errors and warnings {: #errors_warnings}
 
