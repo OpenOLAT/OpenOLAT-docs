@@ -127,16 +127,16 @@ Also note the options under the icon at the end of the line.
 ---
 
 
-### 3. Access through the coaching tool {: #access_coaching_tool}
+### 3. Access through the Coaching site {: #access_coaching_tool}
 
-If you see the **"Coaching Tool" option in the header menu**, you can also use it to assess the test course element.
+If you see the **"Coaching" site in the main navigation**, you can also use it to assess the test course element.
 
-The **coaching tool** displays upcoming assessment assignments **across all courses**.
-From the Coaching Tool's overview page, you can access your assessment tasks via various links. For example, you can search for a specific person or view only the pending assessment tasks. 
+The **Coaching** site displays upcoming assessment assignments **across all courses**.
+From the overview of the Coaching site, you can access your assessment tasks via various links. For example, you can search for a specific person or view only the pending assessment tasks. 
 
 The steps that follow are then the same as when you start directly in the course element (see [the previous section](#access_course_element)).
 
-Which setting fills which tab of the Coaching Tool is described in the section [Creating assessment orders](../../manual_user/area_modules/Coaching_Assessment_Orders.md#create_assessment_orders).
+Which setting fills which tab in the Coaching site is described in the section [Creating assessment orders](../../manual_user/area_modules/Coaching_Assessment_Orders.md#create_assessment_orders).
 
 ![Coaching start page with the marked entries User search, People, Courses and Assessment orders as well as the favourites](assets/assessing_tests_access3a_v1_de.png){ class="shadow lightbox" }
 

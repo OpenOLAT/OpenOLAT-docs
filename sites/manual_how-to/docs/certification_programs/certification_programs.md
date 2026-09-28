@@ -23,9 +23,9 @@
 
 ### Step 1:
 
-Open the Course Planner in the main navigation (in the header) and then click on the Certificate Programs button.
+Open the Course Planner in the main navigation and then click on the "Certification programs" button.
 
-![certification_programs_settings_config_step1_v1_de.png](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" }
+![Marked tab Course Planner in the main navigation and marked button Certification programs on the overview of the Course Planner](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#create_certification_programs)
 

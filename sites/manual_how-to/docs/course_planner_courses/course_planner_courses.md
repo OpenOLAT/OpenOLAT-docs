@@ -39,13 +39,13 @@ Of course, you can also create OpenOlat courses without Course Planner. However,
 
 ##  Where can I find the Course Planner? {: #access}
 
-If you have the **role of Course Planner**, you will find the Course Planner as a menu item in the main navigation bar in the **header**.  
+If you have the **role of Course Planner**, you will find the Course Planner as a site in the **main navigation**.  
 
-![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
+![Course Planner in the opened More menu of the main navigation, below it the overview of the Course Planner](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
 
 !!! info "Requirement"
 
-    In order to use the Course Planner, it must have been activated by a system administrator. If the option is not available in the header menu, please contact your system administrator.
+    In order to use the Course Planner, it must have been activated by a system administrator. If the site is not available in the main navigation, please contact your system administrator.
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
 

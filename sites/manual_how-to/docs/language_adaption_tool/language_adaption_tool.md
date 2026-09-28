@@ -193,13 +193,13 @@ There is no export of the translation list, neither as a table nor as a file. If
 
 
 ## Variable packages {: #packages} 
- 
+
 On the programming side, the texts of the screens are summarized in variable packages. Below is a list of the most frequently changed packages.
 
 
 | Area in which the variables are displayed |  Name of the package                 |
 | ---------------------------------------------- | --------------------------------------- |
-| Main menu (Header)                          | org.olat.core.commons.chiefcontrollers  | 
+| Main navigation                             | org.olat.core.commons.chiefcontrollers  | 
 | Login                                          | org.olat.login                          | 
 
 
@@ -213,8 +213,8 @@ On the programming side, the texts of the screens are summarized in variable pac
 
 | Standard text    | Position at which the variable is displayed | Variable/Key        | in the package                                |
 | ----------------| ------------------------------------------ | ------------------------- | --------------------------------------- |
-| Catalog         | Main menu (Header)                      | topnav.catalog            | org.olat.core.commons.chiefcontrollers  |
-| Catalog         | Main menu (Header) Tooltipp             | topnav.catalog.alt        | org.olat.core.commons.chiefcontrollers  |
+| Catalog         | Main navigation                         | topnav.catalog            | org.olat.core.commons.chiefcontrollers  |
+| Catalog         | Main navigation tooltip                 | topnav.catalog.alt        | org.olat.core.commons.chiefcontrollers  |
 | Catalog         | Titel of the search field                       | header.search.title       | org.olat.modules.catalog.ui             |
 | Login           | Title of the Login                            | menu.register             | org.olat.login                          |
 | Login           | Text below the title in the login         | menu.register.to.use      | org.olat.login                          |

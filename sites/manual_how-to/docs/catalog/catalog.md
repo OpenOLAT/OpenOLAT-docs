@@ -23,9 +23,9 @@
 
 ### a) As a registered user {: #catalog_where_reg}
 
-OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
+OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the site "Catalog" in the main navigation.	If no catalog is displayed in the main navigation, please contact your administrator.
 
-![catalog_menu_header_v1_en.png](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
+![Marked tab Catalog next to Courses and Groups in the main navigation, below it the catalog with search field](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
 
 
 ### b) Without registration (external Web catalog) {: #catalog_where_nonreg}
