@@ -126,7 +126,7 @@ In the **search field**, you can search for users, coaches and events.
 
 Filter the list, for example, by the **status** "Pending", "Rejected" or "Approved". (You can select one status, two of them or all.)
 
-![Search field, status filter Pending, Rejected, Approved and date range above the appeal list, in the tab Appeals.](assets/coaching_events_absences_tab_appeals_v1_de.png){ class="shadow lightbox" }
+![Search field, status filter Pending, Rejected, Approved and date range above the appeal list with one pending appeal, in the tab Appeals.](assets/coaching_events_absences_tab_appeals_v1_en.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#events)
 
