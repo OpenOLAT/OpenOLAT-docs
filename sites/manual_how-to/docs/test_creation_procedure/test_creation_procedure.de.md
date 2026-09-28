@@ -303,12 +303,12 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 
 ## Vorgehen Möglichkeit 3
 
-Besteht Arbeitsteilung und Sie sollen als Fachexperte die Fragen erstellen, die verschiedene Kollegen in ihren Tests verwenden können?
+Besteht Arbeitsteilung und Sie sollen als Fachexpert:in die Fragen erstellen, die verschiedene Kolleg:innen in ihren Tests verwenden können?
 Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool beginnen. 
 
 <br>
 
-![flowchart_testerstellung3_v1_de.png](assets/flowchart_testerstellung3_v1_de.png){ class= "lightbox" } 
+![Vier Schritte vom Erstellen der Fragen im Fragenpool bis zum Einfügen des Tests in den Test-Kursbaustein](assets/flowchart_testerstellung3_v1_de.png){ class= "lightbox" } 
 
 <br>
 
@@ -316,22 +316,22 @@ Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool begin
 
 <br>
 
-1\. Wenn Sie Autorenrechte besitzen, wird im Menü Ihrer Kopfzeile ausser dem Autorenbereich auch der Fragenpool angezeigt. Gehen Sie in den Fragenpool.
+1\. Wenn Sie Autorenrechte besitzen, wird in der Hauptnavigation ausser dem Autorenbereich auch der Fragenpool angezeigt. Gehen Sie in den Fragenpool.
 
-![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
+![Bereich Fragenpool markiert und geöffnet mit Mein Fragenpool, in der Hauptnavigation](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
 
 2\. Wählen Sie "Frage erstellen" und den passenden Fragetyp, z.B. Multiple Choice.
 
-![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
+![Button Frage erstellen markiert, über der Liste Meine Fragen im Fragenpool](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
 
 3\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
 
-![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
+![Titel, Frage und Antworten einer Multiple-Choice-Frage im Tab Auswahl, im Editor der Test-Lernressource](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
 
 4\. Im Tab "Punkte" definieren Sie die Art und die Summe der Punkte.
 
 5\. Bei Bedarf definieren Sie ein Feedback zur Frage. Über "Vorschau" können Sie sich die Frage ansehen.
-  
+
 Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder Test-Parts weiter strukturieren.
 
 
@@ -352,20 +352,20 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 6\. Wechseln Sie in den Autorenbereich und erstellen Sie einen Test (Test-Lernressource).
 
-![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
+![Eintrag Test im Menü Erstellen markiert, im Autorenbereich](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
 
-!!! hint "Tipp"
+!!! note "Hinweis"
 
     Die neue Test-Lernressource wird im Autorenbereich nicht unter dem Tab "Meine Kurse" aufgelistet, sondern unter "Meine Einträge". Erkennbar am Symbol für Test-Lernressourcen.
-	![testerstellung_3_6b_v1_de.png](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" } 
+    ![Tab Meine Einträge mit Filter Typ Test und dem Test-Symbol in der Spalte Typ, im Autorenbereich](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" } 
 
 7\. Öffnen Sie den Editor durch Klick auf **Administration** und dann **"Inhalt editieren"**.
 
-![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
+![Eintrag Inhalt editieren im Menü Administration einer Test-Lernressource markiert](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
 
 8\. Im Editiermodus (erkennbar an der schraffierten Kopfzeile) können Sie nun unter **"Elemente hinzufügen"** neue Fragen hinzufügen.
 
-![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
+![Geöffnetes Menü Elemente hinzufügen mit den Fragetypen, im Editor der Test-Lernressource](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
 
 <br>
 
@@ -373,13 +373,13 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 <br>
 
-9\. Alternativ zur Erstellung neuer Fragen, können Sie unter dem gleichen Menüpunkt bereits vorhandene Fragen **"aus dem Fragenpool importieren"**.
+9\. Alternativ zur Erstellung neuer Fragen, können Sie unter dem gleichen Menüpunkt bereits vorhandene Fragen mit **"Fragen aus Pool importieren"** übernehmen.
 
-![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
+![Eintrag Fragen aus Pool importieren im Menü Elemente hinzufügen markiert, im Editor der Test-Lernressource](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
 
 10\. Klicken Sie auf den Titel einer einzelnen Frage, wird sie direkt eingefügt. Um mehrere Fragen zu importieren, markieren Sie die Fragen und bestätigen mit Klick auf den Button "Auswählen".
 
-![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
+![Ausgewählte Frage und Button Auswählen markiert, im Dialog Fragen auswählen](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
 
 11\. Sind alle Fragen in der Test-Lernressource erfasst, verlassen Sie den Editor der Lernressource.
 
@@ -400,7 +400,7 @@ Es erscheint eine Liste mit Ihren Test-Lernressourcen. Wählen Sie den vorbereit
 
 16\. Je nach Bedarf können noch die weiteren Tabs des Kursbausteins konfiguriert werden. Sie können teilweise die Einstellungen der Test-Lernressource mit den Einstellungen des Kursbausteins übersteuern. Das macht Sinn, wenn die gleiche Test-Lernressource in verschiedenen Kursen verwendet wird.
 
-17\. Damit der Test von den Lernenden bearbeiten werden kann muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schließen und bei der erscheinenden Auswahl das Publizieren durch die Auswahl "Ja manuell oder automatisch" erlauben.
+17\. Damit der Test von den Lernenden bearbeiten werden kann muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schliessen und bei der erscheinenden Auswahl das Publizieren durch die Auswahl "Ja manuell oder automatisch" erlauben.
 
 Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste oder das kleine rote Kreuz rechts oben verwendet werden.
 

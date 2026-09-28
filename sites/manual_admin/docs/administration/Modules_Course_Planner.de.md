@@ -31,7 +31,7 @@ Mit dieser Checkbox wird das gesamte Modul aktiviert.
 
 #### Produkt in "Meine Kurse" {: #product_in_my_courses }
 
-Alle Teilnehmer:innen finden in der Hauptnavigation in der Kopfzeile den Menüpunkt "Kurse". Unter diesem Menüpunkt können den Teilnehmer:innen ebenfalls Produkte angezeigt werden.
+Alle Teilnehmer:innen finden in der Hauptnavigation den Bereich "Kurse". In diesem Bereich können den Teilnehmer:innen ebenfalls Produkte angezeigt werden.
 
 #### Benutzer:innen-Übersicht {: #user_overview }
 
@@ -55,7 +55,7 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt 
 
 !!! tip "Tipp"
 
-	Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Verwendungszweck für neue Kurse unter `Administration > Course Planner` auf "Verwendung im Course Planner" einzustellen.
+    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Verwendungszweck für neue Kurse in der System-Administration unter `Administration > Module > Course Planner` auf "Verwendung im Course Planner" einzustellen.
 
 [Zum Seitenanfang ^](#module_course_planner)
 

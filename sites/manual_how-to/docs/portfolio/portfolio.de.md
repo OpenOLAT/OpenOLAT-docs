@@ -94,7 +94,7 @@ Portfolios können erstellt werden
 
 * in Kursbausteinen vom Typ "Portfolio" innerhalb eines Kurses
 * im persönlichen Menü im Abschnitt "Persönliche Werkzeuge", Menüpunkt "Portfolio"
-* falls in den persönlichen Einstellungen angepasst: Via Symbol in der Kopfzeile statt in den persönlichen Werkzeugen
+* falls in den persönlichen Einstellungen angepasst: Via Symbol in der Hauptnavigation statt in den persönlichen Werkzeugen
 
 Die Erstellung findet jeweils im [Portfolio Editor](../../manual_user/area_modules/The_portfolio_editor_17_1.de.md) statt.
 
@@ -204,7 +204,7 @@ Autorenbereich → Erstellen → „Portfolio 2.0 Vorlage" → Titel vergeben �
 
 2. **Vorlage mit „Bereichen" und „Aufgaben" ausgestalten**<br>
 Die Gliederung erfolgt in Bereiche (nicht „Abschnitte"/„Sections"). Bereiche lassen sich nicht in Unterbereiche teilen.
-Pro Bereich erstellt der/die Autor:in Aufgaben vom Typ Freitext oder Formular — bewusst „Aufgaben", nicht „Einträge" oder „Seiten" (das war in meiner ersten Antwort ungenau).<br>
+Pro Bereich erstellt der/die Autor:in Aufgaben vom Typ Freitext oder Formular.<br>
 [Mehr zu Portfoliovorlage erstellen >](../../manual_user/learningresources/Portfolio_template_Creation.de.md)
 
 3. **Zentrale Vorbereitungs-Einstellungen:**<br>

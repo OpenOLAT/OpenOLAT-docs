@@ -3,13 +3,13 @@
 
 ## 1. Autorenrechte besorgen {: #get_author_rights} 
 
-Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>"Autorenbereich"</b>.
+Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihre <b>Administration</b>, damit sie Ihnen die Autorenrolle gibt. Sobald Sie Autor:in sind, erscheint in der Hauptnavigation der Bereich <b>"Autorenbereich"</b>.
 
-![autorenbereich_menu_v1_de.png](assets/autorenbereich_menu_v1_de.png){ class="shadow lightbox" }
+![Eintrag Autorenbereich markiert, neben Kurse, Gruppen, Katalog und Fragenpool in der Hauptnavigation](assets/autorenbereich_menu_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hinweis"
-	
-	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
+!!! tip "Tipp"
+
+    Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
 
 [Zum Seitenanfang ^](#my_first_course)
 
@@ -250,13 +250,13 @@ Um Ihren ersten eigenen Kurs nun für andere OpenOlat-Benutzer sichtbar zu mache
 
 Wenn Sie möchten, können Sie Ihren Kurs auch in den <b>OpenOlat-Katalog</b> aufnehmen, ihn also bildlich gesprochen ins Schaufenster stellen.
 Dazu geben Sie ihn in den Kurseinstellungen frei.<br>
-Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemacht werden. (Bisher haben wir zu Ihren Kurs nur manuell ausgewählten Mitgliedern Zugang gewährt (= Freigabe "Privat").)
+Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemacht werden. (Bisher haben wir zu Ihrem Kurs nur manuell ausgewählten Mitgliedern Zugang gewährt (= Freigabe "Privat").)
 
 
-![einstellungen_freigabe_angebot_v1_de.png](assets/einstellungen_freigabe_angebot_v1_de.png){ class="shadow lightbox" }
+![Option Buchbare und offene Angebote und Button Angebot hinzufügen markiert, im Tab Freigabe der Kurseinstellungen](assets/einstellungen_freigabe_angebot_v1_de.png){ class="shadow lightbox" }
 
-!!! hint "Hinweis"
-	
-	Voraussetzung für eine Veröffentlichung im Katalog ist natürlich, dass vom Administrator ein Katalog eingerichtet wurde. Sie erkennen es daran, ob in Ihrer Kopfzeile eine Menüoption "Katalog" angezeigt wird.
-	
+!!! tip "Tipp"
+
+    Voraussetzung für eine Veröffentlichung im Katalog ist natürlich, dass die Administration einen Katalog eingerichtet hat. Sie erkennen es daran, ob in der Hauptnavigation der Bereich "Katalog" angezeigt wird.
+
 [Zum Seitenanfang ^](#my_first_course)

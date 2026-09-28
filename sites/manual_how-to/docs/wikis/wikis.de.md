@@ -136,15 +136,15 @@ Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ 
 
 In der Breadcrumb von OpenOlat sehen Sie, dass Sie gerade die Lernressource bearbeitet haben, nicht den Kurs. Beenden Sie das Editieren der Wiki-Lernressource und kehren Sie nun zum Kurs zurück.
 
-![wiki_editieren_beenden_v1_de.png](assets/wiki_editieren_beenden_v1_de.png){ class="shadow lightbox" }
+![Zurück-Pfeil in der Breadcrumb, Bereich Kurse und im Menü Mehr der Autorenbereich und der geöffnete Kurs markiert, in der Hauptnavigation](assets/wiki_editieren_beenden_v1_de.png){ class="shadow lightbox" }
 
 Möglichkeit 1: Klicken Sie auf den Zurück-Pfeil in der Breadcrumb.
 
-Möglichkeit 2: Klicken Sie im Menü der Kopfzeile auf "Kurse" und öffnen Sie wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Möglichkeit 2: Klicken Sie in der Hauptnavigation auf "Kurse" und öffnen Sie wieder Ihren Kurs mit dem Wiki-Kursbaustein.
 
-Möglichkeit 3: Klicken Sie im Menü der Kopfzeile auf die 3 Punkte ("mehr") und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Möglichkeit 3: Klicken Sie in der Hauptnavigation auf "Mehr" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
 
-Möglichkeit 4: Klicken Sie im Menü der Kopfzeile auf "Autorenbereich" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Möglichkeit 4: Klicken Sie in der Hauptnavigation auf "Autorenbereich" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
 
 ---
 
