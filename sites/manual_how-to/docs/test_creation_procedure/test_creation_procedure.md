@@ -147,7 +147,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 ![testerstellung_1_12_v1_de.png](assets/testerstellung_1_12_v1_de.png){ class="lightbox" } 
 
-13\. In the "Selection" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
+13\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
 14\. In the "Points" tab you define the type and the sum of the points.
 
@@ -209,7 +209,7 @@ The menu corresponds to the settings in the Administration section and can also 
   
 5\. Select "Add elements" and select the appropriate question type, e.g. multiple choice.
 
-6\. In the "Selection" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
+6\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
 7\. In the "Points" tab, define the type and the sum of the points.
 
@@ -306,7 +306,7 @@ Then you can also start creating the individual questions in the question pool.
 
 <br>
 
-![flowchart_testerstellung3_v1_de.png](assets/flowchart_testerstellung3_v1_de.png){ class= "lightbox" } 
+![Four steps from creating the questions in the question bank to inserting the test into the Test course element](assets/flowchart_testerstellung3_v1_de.png){ class= "lightbox" } 
 
 <br>
 
@@ -314,17 +314,17 @@ Then you can also start creating the individual questions in the question pool.
 
 <br>
 
-1\. If you have author rights, the question pool is displayed in the menu of your header in addition to  "Authoring". Go to the question pool.
+1\. If you have author rights, the question pool is displayed in the main navigation in addition to "Authoring". Go to the question pool.
 
-![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
+![Site Question bank highlighted and opened with My question bank, in the main navigation](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
 
 2\. Select "Create question" and the appropriate question type, e.g. Multiple Choice.
 
-![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
+![Button Create question highlighted, above the list My questions in the question bank](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
 
-3\. In the "Selection" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
+3\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
-![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
+![Title, question and answers of a multiple choice question in the Choice tab, in the editor of the test learning resource](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
 
 4\. In the "Points" tab you define the type and the sum of the points.
 
@@ -349,20 +349,20 @@ Add more questions according to the same principle. The details of the settings 
 
 6\. Switch to the authoring area and create a test (test learning resource).
 
-![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
+![Entry Test in the Create menu highlighted, in Authoring](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
 
-!!! hint "Hint"
+!!! note "Note"
 
     The new test learning resource is not listed under the "My courses" tab in the authoring, but under "My entries". recognizable by the icon for test learning resources.
-	![testerstellung_3_6b_v1_de.png](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" } 
+    ![Tab My entries with the filter Type Test and the test icon in the Type column, in Authoring](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" } 
 
 7\. Open the editor by clicking **Administration** and then **"Edit content"**.
 
-![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
+![Entry Edit content in the Administration menu of a test learning resource highlighted](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
 
 8\. In edit mode (recognizable by the shaded header) you can now add new questions under **"Add elements"**.
 
-![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
+![Opened menu Add elements with the question types, in the editor of the test learning resource](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
 
 <br>
 
@@ -370,13 +370,13 @@ Add more questions according to the same principle. The details of the settings 
 
 <br>
 
-9\. As an alternative to creating new questions, you can **import existing questions from the question pool** under the same menu item.
+9\. As an alternative to creating new questions, you can add existing questions under the same menu item with **"Import questions from pool"**.
 
-![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
+![Entry Import questions from pool in the Add elements menu highlighted, in the editor of the test learning resource](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
 
 10\. If you click on the title of a single question, it will be inserted directly. To import several questions, select the questions and confirm by clicking the "Select" button.
 
-![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
+![Selected question and button Select highlighted, in the dialog Choose questions](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
 
 11\. Once all the questions are recorded in the test learning resource, exit the learning resource editor.
 

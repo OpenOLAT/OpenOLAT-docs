@@ -23,7 +23,7 @@ The background image of the login page is part of the layout theme and cannot be
 
 ### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
-You can upload your own logo (PNG file), which will then appear in the top-left corner of the header. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
+You can upload your own logo (PNG file), which will then appear in the top-left corner of the main navigation. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
 
 You also define where a click on the logo leads: to the landing page or to a target URL of your choice. In the field for the alternative text, you enter the text that appears in place of the logo.
 

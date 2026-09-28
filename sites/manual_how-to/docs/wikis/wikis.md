@@ -135,15 +135,15 @@ For changes to the menu, click "Modify" in the "Wiki Menu" drop-down selection t
 
 In the OpenOlat breadcrumb, you will see that you have just edited the learning resource, not the course. Finish editing the wiki learning resource and now return to the course.
 
-![wiki_edit_finish.png](assets/wiki_edit_finish_v1_en.png){ class="shadow lightbox" }
+![Back arrow in the breadcrumb, site Courses and, in the menu More, Authoring and the opened course highlighted, in the main navigation](assets/wiki_edit_finish_v1_en.png){ class="shadow lightbox" }
 
 Option 1: Click the back arrow in the breadcrumb.
 
-Option 2: Click on "Courses" in the header menu and open your course with the wiki course element again.
+Option 2: Click on "Courses" in the main navigation and open your course with the wiki course element again.
 
-Option 3: Click on the 3 dots ("more") in the header menu and open your course with the wiki course element there again.
+Option 3: Click on "More" in the main navigation and open your course with the wiki course element there again.
 
-Option 4: Click on "Authoring" in the header menu and open your course with the wiki course element there again.
+Option 4: Click on "Authoring" in the main navigation and open your course with the wiki course element there again.
 
 ---
 

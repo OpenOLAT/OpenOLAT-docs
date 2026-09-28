@@ -2,13 +2,13 @@
 
 ## 1. Get author rights {: #get_author_rights} 
 
-To be able to create OpenOlat courses, you need author rights. Please contact your <b>administrator</b> to give you the author role. Once you are an author, the entry <b>"Authoring"</b> appears in the menu of your header.
+To be able to create OpenOlat courses, you need author rights. Please contact your <b>administration</b> to give you the author role. Once you are an author, the site <b>"Authoring"</b> appears in the main navigation.
 
-![authoring_menu_v1_en.png](assets/authoring_menu_v1_en.png){ class="shadow lightbox" }
+![Entry Authoring highlighted, next to Courses, Groups, Catalog and Question bank in the main navigation](assets/authoring_menu_v1_en.png){ class="shadow lightbox" }
 
-!!! hint "Hint"
-	
-	It may be necessary to log out and log in again so that the menu item is visible to you after the author role has been activated.
+!!! tip "Tip"
+
+    It may be necessary to log out and log in again so that the menu item is visible to you after the author role has been activated.
 
 [To the top of the page ^](#my_first_course)
 
@@ -254,10 +254,10 @@ To do this, you release it in the course settings.<br>
 Furthermore, an offer must be created for the catalog and the course must be made bookable. (Until now, we have only granted access to your course to manually selected members (= release "Private")).
 
 
-![settings_share_offer_v1_en.png](assets/settings_share_offer_v1_en.png){ class="shadow lightbox" }
+![Option Bookable and open offers and button Add offer highlighted, in the Share tab of the course settings](assets/settings_share_offer_v1_en.png){ class="shadow lightbox" }
 
-!!! hint "Note"
-	
-	A prerequisite for publishing in the catalog is, of course, that a catalog has been set up by the administrator. You can recognize it by whether a "Catalog" menu option is displayed in your header.
-	
+!!! tip "Tip"
+
+    A prerequisite for publishing in the catalog is, of course, that the administration has set up a catalog. You can recognize it by whether the site "Catalog" is displayed in the main navigation.
+
 [To the top of the page ^](#my_first_course)

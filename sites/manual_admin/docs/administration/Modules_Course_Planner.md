@@ -31,7 +31,7 @@ This checkbox activates the entire module.
 
 #### Product in "My courses" {: #product_in_my_courses }
 
-All participants will find the menu item "Courses" in the header of the main navigation bar. Products can also be displayed to participants under this menu item.
+All participants will find the site "Courses" in the main navigation. Products can also be displayed to participants in this site.
 
 #### User overview {: #user_overview }
 
@@ -55,7 +55,7 @@ Courses can be intended for stand-alone use or for integration into a product. A
 
 !!! tip "Tip"
 
-	If Course Planner is used extensively, it is advisable to set the default purpose for new courses under `Administration > Course Planner` to "Use in Course Planner".
+    If Course Planner is used extensively, it is advisable to set the default purpose for new courses in the system administration under `Administration > Modules > Course Planner` to "Use in Course Planner".
 
 [To the top of the page ^](#module_course_planner)
 

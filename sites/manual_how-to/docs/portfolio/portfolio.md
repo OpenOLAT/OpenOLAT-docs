@@ -94,7 +94,7 @@ Portfolios can be created
 
 * in course elements of type "Portfolio" within a course
 * in the personal menu, in the section "Personal tools", menu item "Portfolio"
-* if adjusted in the personal settings: via an icon in the header instead of in the personal tools
+* if adjusted in the personal settings: via an icon in the main navigation instead of in the personal tools
 
 Creation always takes place in the [portfolio editor](../../manual_user/area_modules/The_portfolio_editor_17_1.md).
 
@@ -204,7 +204,7 @@ Author area → Create → "Portfolio 2.0 template" → assign a title → Creat
 
 2. **Design the template with "sections" and "assignments"**<br>
 The structuring is done in sections. Sections cannot be divided into subsections.
-Per section, the author creates assignments of type free text or form — deliberately "assignments", not "entries" or "pages".<br>
+Per section, the author creates assignments of type free text or form.<br>
 [More about creating a portfolio template >](../../manual_user/learningresources/Portfolio_template_Creation.md)
 
 3. **Central preparation settings:**<br>
