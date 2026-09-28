@@ -6,7 +6,18 @@ In the personal menu, section "Configuration", under the option "Profile" you ca
 
 !!! tip "Your organisation determines which fields you change yourself"
 
-    The username is always locked in the profile. Your organisation determines which other fields you edit yourself. A locked field shows its value but does not accept any input. If a locked field such as your name needs to be changed, contact your administrator.
+    A locked field shows its value but does not accept any input. By default, these fields are locked:
+
+    * Username
+    * First name
+    * Last name
+    * Institution
+    * Institution identifier (registration number)
+    * Institutional e-mail
+    * Organizational unit/study group
+    * Field of studies
+
+    The username is always locked in the profile. Your organisation determines which other fields you edit yourself. If a locked field needs to be changed, e.g. your field of studies, contact your administrator.
 
 You change your e-mail address with the button "Edit" next to the field "E-mail". OpenOlat sends a validation code to the new address. The new e-mail address only becomes active once you have entered this code; until then OpenOlat uses the previous address. After the change, both the old and the new address receive a notification. If you have problems, contact your administrator. [:octicons-tag-16:{ title="from Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
 

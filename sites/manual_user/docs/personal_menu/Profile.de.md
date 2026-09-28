@@ -6,7 +6,18 @@ Im persönlichen Menü, Abschnitt "Konfiguration", unter der Option "Profil" kö
 
 !!! tip "Ihre Organisation legt fest, welche Felder Sie selbst ändern"
 
-    Der Anmeldename ist im Profil immer gesperrt. Welche weiteren Felder Sie selbst bearbeiten, bestimmt Ihre Organisation. Ein gesperrtes Feld zeigt seinen Wert, nimmt aber keine Eingabe an. Soll ein gesperrtes Feld wie Ihr Name geändert werden, wenden Sie sich an Ihre Administrator:in.
+    Ein gesperrtes Feld zeigt seinen Wert, nimmt aber keine Eingabe an. Standardmässig sind diese Felder gesperrt:
+
+    * Anmeldename
+    * Vorname
+    * Nachname
+    * Institution
+    * Institutionsnummer (Matrikelnummer)
+    * Institutions E-Mail
+    * Organisationseinheit / Studiengruppe
+    * Studienfach
+
+    Der Anmeldename ist im Profil immer gesperrt. Welche weiteren Felder Sie selbst bearbeiten, bestimmt Ihre Organisation. Soll ein gesperrtes Feld geändert werden, z.B. Ihr Studienfach, wenden Sie sich an Ihre Administrator:in.
 
 Ihre E-Mail-Adresse ändern Sie über den Button "Bearbeiten" beim Feld "E-Mail". OpenOlat sendet einen Validierungscode an die neue Adresse. Erst wenn Sie diesen Code eingegeben haben, ist die neue E-Mail-Adresse aktiv; bis dahin verwendet OpenOlat die bisherige Adresse. Nach der Änderung erhalten sowohl die alte als auch die neue Adresse eine Benachrichtigung. Bei Problemen wenden Sie sich an Ihre Administrator:in. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8190)" }](https://track.frentix.com/issue/OO-8190)
 
