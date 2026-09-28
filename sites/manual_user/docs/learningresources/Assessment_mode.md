@@ -74,6 +74,8 @@ The **prep time**, which you specify in minutes, locks OpenOlat for the specifie
 
 If a **follow-up time** is specified in minutes, OpenOlat remains locked for this duration after the check.
 
+Prep time and follow-up time control how long OpenOlat is locked, not how long the test lasts. How assessment mode, test period, time limit and extension work together is shown in [How do the times of an exam fit together?](../../manual_how-to/exam_preparation/exam_preparation.md#exam_times)
+
 **Type of start/end**: You can choose between automatic and manual start/end. If you as the author set "manual operation" here, coaches will find a start and end button on the overview page of the assessment tool for the corresponding assessment configuration, which they can use to switch on the assessment mode manually.
 
 ---
@@ -189,6 +191,7 @@ The assessment mode is also ended when the corresponding course is ended or dele
 
 **Mentioned on this page**<br>
 [Safe Exam Browser >](http://www.safeexambrowser.org)<br>
+[How do I prepare an online exam? >](../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)
 

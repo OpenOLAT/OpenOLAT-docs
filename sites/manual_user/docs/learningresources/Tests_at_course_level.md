@@ -29,7 +29,7 @@ Select one of the predefined rating scales, e.g. grades, levels or emojis. You c
 
 **Ignore in course assessment**: If the check mark is set here, the test is not taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
 
-**Set assessment period**: The test can be started during the test period. As soon as the "to" time is reached, the test is automatically terminated. This is also the case if the defined test time has not yet been used up. Instead of a fixed date, a relative date can also be selected, e.g. x days after the first course attendance.
+**Set assessment period**: The test can be started during the test period. As soon as the "Until" time is reached, the test is automatically terminated. This is also the case if the defined time limit has not yet run out. Instead of a fixed date, a relative date can also be selected, e.g. x days after the first course attendance. How the test period and the assessment mode work together is shown in [How do the times of an exam fit together?](../../manual_how-to/exam_preparation/exam_preparation.md#exam_times)
 
 #### Section Correction {: #correction}
 
@@ -152,6 +152,7 @@ Via "Administration" -> "[Test Statistics](../learningresources/Statistics_Test.
 
 **Mentioned on this page**<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[How do I prepare an online exam? >](../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Test question types >](Test_question_types.md)<br>
 [Test settings - Administration >](Test_settings.md)<br>
 [Configure tests >](Configure_tests.md)<br>

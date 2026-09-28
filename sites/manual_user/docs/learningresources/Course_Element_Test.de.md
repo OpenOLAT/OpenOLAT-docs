@@ -98,7 +98,7 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
     Konzept und Fortschrittsberechnung im Lernpfad Kurs.<br>
     [Lernpfad Kurs](../learningresources/Learning_path_course.de.md)
 
-**Testzeitraum festlegen**: Während des Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B.  x Tage nach dem ersten Kursbesuch. 
+**Testzeitraum festlegen**: Während des Testzeitraums kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B. x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
 Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Einschränkungen an anderer Stelle z.B. unter "Sichtbarkeit" bei herkömmlichen Kursen oder aufgrund einer seriellen Reihenfolge bei Lernpfad Kursen definiert wurde. 
 
@@ -467,6 +467,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)<br>
 [Tests erstellen >](Test.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Wie bereite ich eine Online-Prüfung vor? >](../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
 [Kursbausteine >](Course_Elements.de.md)<br>

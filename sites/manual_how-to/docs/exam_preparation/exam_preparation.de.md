@@ -40,7 +40,7 @@ Jetzt geht es darum, mit diesem Kurs/Test eine Prüfung zu planen und durchzufü
 
 Die Einstellungen (Konfiguration) wird an verschiedenen Stellen und auf verschiedenen Ebenen vorgenommen.
 
-![exam_preparation_overview_v1_de.png](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
+![Vier verschachtelte Ebenen mit eigener Konfiguration: Kurs, Kursbaustein, Lernressource und Frage](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
 
 Ebene **Kurs**<br>
 Auf dieser Ebene wird z.B. festgelegt, wann der Gesamtkurs als "bestanden" gilt.<br>
@@ -74,7 +74,7 @@ Wenn Sie Ihren Test aber probeweise "unter realen Bedingungen" oder durch ausgew
 
 Möchten Sie dennoch einen Probelauf mit Ihrem Test machen, bleibt Ihnen als Ausweg, eine Kopie der Test-Lernressource zu erstellen und mit dieser zu testen. So bleibt der eigentliche Test "unbenutzt" und Sie können die Lernressource weiterhin verändern. 
 
-Mehr Informationen zum Vorgehen finden Sie hier:
+Mehr Informationen zum Vorgehen finden Sie hier:<br>
 [Wie wechsle ich einen Test aus? >](../../manual_how-to/exchange_tests/exchange_tests.de.md)<br>
 
 [zum Seitenanfang ^](#exam_preparation)
@@ -93,6 +93,28 @@ Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Pr
 **Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"** 
 durch Klicken auf den **Starten-Button** begonnen und beendet werden.<br>
 Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
+
+[zum Seitenanfang ^](#exam_preparation)
+
+---
+
+## Wie hängen die Zeiten einer Prüfung zusammen? {: #exam_times}
+
+Planen Sie eine Online-Prüfung, legen Sie vier Zeitangaben an verschiedenen Stellen in OpenOlat fest. Jede steuert einen anderen Teil des Ablaufs, und aufeinander abgestimmt verhindern sie, dass eine Prüfung zu früh endet.
+
+![Zeitstrahl der Prüfungszeiten: mit Zusatzzeit enden Test und Prüfungsmodus für eine Person später](assets/exam_preparation_times_timeline_v1_de.svg){ class="shadow lightbox" title="Die Zeiten einer Prüfung im Überblick" }
+
+- **Prüfungsmodus**: Beginn und Ende legen fest, wie lange die Teilnehmenden in OpenOlat nur die Prüfung erreichen. Die Vorlaufzeit sperrt OpenOlat schon vor dem Beginn, die Nachlaufzeit noch nach dem Ende. Wie lange der Test läuft, bestimmt der Prüfungsmodus nicht.<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
+- **Testzeitraum**: In diesem Zeitraum können die Teilnehmenden den Test starten. Zur Bis-Zeit beendet OpenOlat den Test, auch wenn die Zeitbeschränkung noch nicht abgelaufen ist.<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Test" > Tab "Test-Konfiguration" > "Testzeitraum festlegen"`
+- **Zeitbeschränkung**: So lange dauert ein Testversuch höchstens. Sie wird in der Test-Lernressource festgelegt und kann im Kursbaustein übersteuert werden.
+- **Verlängerung und Nachteilsausgleich**: Beide geben einer einzelnen Person mehr Zeit. Für diese Person enden der Test und der Prüfungsmodus um dieselbe Zeit später, auch nach der Bis-Zeit des Testzeitraums. Haben Sie beides vergeben, zählen die Minuten zusammen. Ein Nachteilsausgleich gilt für jeden Testversuch der Person, eine Verlängerung nur für den laufenden Testversuch.<br>
+`Kurs > Administration > Bewertungswerkzeug > Kursbaustein "Test" > Tab "Teilnehmer:innen"`
+
+!!! info "Wichtig"
+
+    Endet der Testzeitraum vor dem Prüfungsmodus, beendet OpenOlat den Test zur Bis-Zeit, obwohl der Prüfungsmodus noch aktiv ist. Stimmen Sie deshalb Testzeitraum und Prüfungsmodus aufeinander ab.
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -253,6 +275,13 @@ Für Einzelpersonen finden Sie die Option zur Testzeitverlängerung auch unter d
 
 Als weitere legitime Möglichkeit zur Verlängerung der Testzeit, könnte auch der Nachteilsausgleich verwendet werden. Sie finden diese Option ebenfalls unter den 3 Punkten am Ende einer Zeile.
 
+!!! info "Wichtig"
+
+    Verlängerung und Nachteilsausgleich verlängern für die betroffene Person auch den Prüfungsmodus. Für alle übrigen Teilnehmenden endet der Prüfungsmodus zur geplanten Zeit.<br>
+    Beenden Sie die Prüfung manuell, zeigt der Dialog "Prüfung beenden" die Teilnehmer:innen mit Verlängerung und mit Nachteilsausgleich getrennt an. Deren Prüfung beendet OpenOlat nur, wenn Sie sie dort ausdrücklich auswählen.
+
+Wie die Zeiten zusammenwirken, zeigt die Grafik unter ["Wie hängen die Zeiten einer Prüfung zusammen?"](#exam_times).
+
 !!! note "Hinweis"
 
     Bei manuellem, verspätetem Start bleibt die konfigurierte Dauer gleich, das Ende verschiebt sich entsprechend nach hinten.
@@ -350,7 +379,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 
 ## Weiterführende Informationen {: #further_information}
 
-[Nutzungsbedingungen eines Kurs definieren >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_course_define)<br>
+[Nutzungsbedingungen eines Kurs definieren >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../../manual_how-to/exchange_tests/exchange_tests.de.md)<br>

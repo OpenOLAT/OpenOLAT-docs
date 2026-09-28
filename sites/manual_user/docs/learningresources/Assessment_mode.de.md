@@ -78,6 +78,8 @@ Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der an
 
 Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
 
+Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie lange der Test dauert. Wie Prüfungsmodus, Testzeitraum, Zeitbeschränkung und Verlängerung zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
+
 **Art des Beginns / Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "manuelle Bedienung" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem Sie den Prüfungsmodus manuell einschalten können.
 
 ---
@@ -193,6 +195,7 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 
 **Auf dieser Seite erwähnt**<br>
 [Safe Exam Browser >](http://www.safeexambrowser.org)<br>
+[Wie bereite ich eine Online-Prüfung vor? >](../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
 

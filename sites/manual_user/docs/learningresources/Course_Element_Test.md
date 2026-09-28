@@ -97,7 +97,7 @@ Select one of the given rating scales e.g. grades, levels or emojis. You can als
     Concept and progress calculation in the learning path course.<br>
     [Learning path course](../learningresources/Learning_path_course.md)
 
-**Set test period**: During the test period, the test can be started. As soon as the "until time" is reached, the test is automatically ended. Even if the defined processing time has not yet been used up. Instead of a fixed date, a relative date can also be chosen, e.g. x days after the first course visit.
+**Set assessment period**: During the test period, the test can be started. As soon as the "Until" time is reached, the test is automatically ended. Even if the defined time limit has not yet run out. Instead of a fixed date, a relative date can also be chosen, e.g. x days after the first course visit. How the test period and the assessment mode work together is shown in [How do the times of an exam fit together?](../../manual_how-to/exam_preparation/exam_preparation.md#exam_times)
 
 If nothing is activated here, the test is accessible at all times, provided no restrictions have been defined elsewhere, e.g. under "Visibility" for conventional courses or due to a serial sequence for learning path courses.
 
@@ -455,6 +455,7 @@ If you have more attempts available to process the test, you can run through the
 [Course Element "Self-test" >](Course_Element_Self_Test.md)<br>
 [Creating Tests >](Test.md)<br>
 [Learning path course - Overview >](Learning_path_course.md)<br>
+[How do I prepare an online exam? >](../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Test settings - Administration >](Test_settings.md)<br>
 [Configure tests >](Configure_tests.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>

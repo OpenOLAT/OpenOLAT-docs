@@ -42,7 +42,7 @@ Now it is a matter of planning and conducting an exam with this course/test. To 
 
 The settings (configuration) are made in various places and on various levels.
 
-![exam_preparation_overview_v1_de.png](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
+![Four nested levels, each with its own configuration: course, course element, learning resource and question](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
 
 **Course** level<br>
 On this level you define, for example, when the overall course counts as "passed".<br>
@@ -76,7 +76,7 @@ However, if you have your test filled in as a trial "under real conditions" or b
 
 If you nevertheless want to do a trial run with your test, your way out is to create a copy of the test learning resource and test with that copy. This way the actual test remains "unused" and you can continue to modify the learning resource.
 
-You can find more information on how to proceed here:
+You can find more information on how to proceed here:<br>
 [How do I exchange a test? >](../../manual_how-to/exchange_tests/exchange_tests.md)<br>
 
 [Go to the top of the page ^](#exam_preparation)
@@ -95,6 +95,28 @@ If a manual start/end by coaches is desired, the assessment mode can be started 
 **Administration > Assessment management > "Assessment mode configuration" tab**
 by clicking the **Start button**.<br>
 As soon as an assessment mode has been activated, an "End" or "End exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "Ended".
+
+[Go to the top of the page ^](#exam_preparation)
+
+---
+
+## How do the times of an exam fit together? {: #exam_times}
+
+When you plan an online exam, you set four time specifications at different places in OpenOlat. Each one controls a different part of the process, and when they are coordinated, they prevent an exam from ending too early.
+
+![Timeline of the exam times: with extra time, the test and the assessment mode end later for one person](assets/exam_preparation_times_timeline_v1_en.svg){ class="shadow lightbox" title="The times of an exam at a glance" }
+
+- **Assessment mode**: Start and end define how long participants can only reach the exam in OpenOlat. The prep time locks OpenOlat before the start, the follow-up time keeps it locked after the end. The assessment mode does not determine how long the test runs.<br>
+`Course > Administration > Assessment management > Tab "Configuration assessment mode"`
+- **Test period**: During this period, participants can start the test. At the "Until" time, OpenOlat ends the test, even if the time limit has not yet run out.<br>
+`Course > Administration > Course editor > Course element "Test" > Tab "Test configuration" > "Set assessment period"`
+- **Time limit**: This is the maximum duration of a test run. It is set in the test learning resource and can be overridden in the course element.
+- **Extension and disadvantage compensation**: Both give a single person more time. For this person, the test and the assessment mode end later by the same amount of time, even after the "Until" time of the test period. If you have granted both, the minutes add up. A disadvantage compensation applies to every test run of the person, an extension only to the ongoing test run.<br>
+`Course > Administration > Assessment tool > Course element "Test" > Tab "Participants"`
+
+!!! info "Important"
+
+    If the test period ends before the assessment mode, OpenOlat ends the test at the "Until" time, although the assessment mode is still active. Therefore, coordinate the test period and the assessment mode.
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -255,6 +277,13 @@ For individual persons, you will also find the option to extend the test time un
 
 As a further legitimate option for extending the test time, the disadvantage compensation could also be used. You will also find this option under the 3 dots at the end of a row.
 
+!!! info "Important"
+
+    Extension and disadvantage compensation also extend the assessment mode for the person concerned. For all other participants, the assessment mode ends at the planned time.<br>
+    If you end the exam manually, the "End the exam" dialog shows the participants with extension and with disadvantage compensation separately. OpenOlat only ends their exam if you explicitly select them there.
+
+The graphic under ["How do the times of an exam fit together?"](#exam_times) shows how the times work together.
+
 !!! note "Note"
 
     With a manual, delayed start, the configured duration stays the same and the end shifts back accordingly.
@@ -321,7 +350,7 @@ It can happen that exam participants accidentally end a test that has not been f
 
 ## How can I prepare the inspection of the exam results? {: #assesment_inspection}
 
-In order to be able to create individual exam inspections for test participants after an exam, you must configure the [assessment inspection](../../manual_user/learningresources/Assessment_inspection.en.md) accordingly under<br>
+In order to be able to create individual exam inspections for test participants after an exam, you must configure the [assessment inspection](../../manual_user/learningresources/Assessment_inspection.md) accordingly under<br>
 **Course → Administration → Assessment management → Assessment inspection configuration tab**<br>
 Here you can, for example, define the duration, the display of results, and restrictions.
 
@@ -352,11 +381,11 @@ Coaches can then schedule inspections for individual participants in the assessm
 
 ## Further information {: #further_information}
 
-[Defining the terms of use of a course >](../../manual_user/basic_concepts/Terms_Of_Use.md#terms_of_use_course_define)<br>
-[Assessment mode >](../../manual_user/learningresources/Assessment_mode.en.md)<br>
-[How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.en.md)<br>
-[How do I exchange a test? >](../../manual_how-to/exchange_tests/exchange_tests.en.md)<br>
-[Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.en.md)<br>
+[Defining the terms of use of a course >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
+[Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
+[How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
+[How do I exchange a test? >](../../manual_how-to/exchange_tests/exchange_tests.md)<br>
+[Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
 
 [Go to the top of the page ^](#exam_preparation)
 

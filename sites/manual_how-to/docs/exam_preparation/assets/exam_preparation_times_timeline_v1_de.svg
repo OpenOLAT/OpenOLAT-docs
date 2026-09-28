@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 810" width="1100" height="810" role="img" aria-label="Zeitstrahl einer Prüfung: Prüfungsmodus mit Vorlauf- und Nachlaufzeit, Testzeitraum und Zeitbeschränkung. Für eine Person mit Zusatzzeit enden Test und Prüfungsmodus später.">
+<rect x="0" y="0" width="1100" height="810" rx="0" fill="#F3F4EF"/>
+<text x="30" y="48" font-family="'Roboto', Arial, sans-serif" font-size="26" font-weight="700" fill="#126365" text-anchor="start">Die Zeiten einer Prüfung im Überblick</text>
+<text x="30" y="80" font-family="'Roboto', Arial, sans-serif" font-size="18" fill="#2D2926" text-anchor="start">Zusatzzeit* verschiebt das Ende für eine Person, im Test und im Prüfungsmodus.</text>
+<text x="30" y="110" font-family="'Roboto', Arial, sans-serif" font-size="15" font-weight="700" fill="#6E6E6E" text-anchor="start">FÜR ALLE TEILNEHMENDEN</text>
+<line x1="30" y1="118" x2="1070" y2="118" stroke="#C9CCC0" stroke-width="1"/>
+<text x="30" y="170" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Prüfungsmodus</text>
+<text x="30" y="189" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">Prüfungsverwaltung</text>
+<rect x="326.6666666666667" y="150" width="66.66666666666669" height="44" rx="6" fill="#2E8486" stroke="#126365" stroke-width="1.5" opacity="0.45"/>
+<rect x="393.33333333333337" y="150" width="400.0" height="44" rx="6" fill="#126365" stroke="#126365" stroke-width="1.5"/>
+<rect x="793.3333333333334" y="150" width="66.66666666666663" height="44" rx="6" fill="#2E8486" stroke="#126365" stroke-width="1.5" opacity="0.45"/>
+<text x="593.3333333333334" y="178" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Nur die Prüfung ist zugänglich</text>
+<text x="360.0" y="144" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#126365" text-anchor="middle">Vorlaufzeit</text>
+<text x="826.6666666666667" y="144" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#126365" text-anchor="middle">Nachlaufzeit</text>
+<text x="30" y="240" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Testzeitraum</text>
+<text x="30" y="259" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">Kursbaustein Test</text>
+<rect x="393.33333333333337" y="220" width="400.0" height="44" rx="8" fill="#9FD3D4" stroke="#126365" stroke-width="1.5"/>
+<text x="593.3333333333334" y="248" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Test starten und bearbeiten</text>
+<text x="30" y="310" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Zeitbeschränkung</text>
+<text x="30" y="329" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">Lernressource oder Kursbaustein</text>
+<rect x="393.33333333333337" y="290" width="400.0" height="44" rx="8" fill="#F2AF40" stroke="#B87A12" stroke-width="1.5"/>
+<text x="593.3333333333334" y="318" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">60 Minuten pro Testversuch</text>
+<text x="30" y="380" font-family="'Roboto', Arial, sans-serif" font-size="15" font-weight="700" fill="#6E6E6E" text-anchor="start">FÜR EINE PERSON MIT 20 MINUTEN ZUSATZZEIT</text>
+<line x1="30" y1="388" x2="1070" y2="388" stroke="#C9CCC0" stroke-width="1"/>
+<text x="30" y="420" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Testversuch</text>
+<text x="30" y="439" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">läuft länger</text>
+<rect x="393.33333333333337" y="400" width="400.0" height="44" rx="8" fill="#F2AF40" stroke="#B87A12" stroke-width="1.5"/>
+<text x="593.3333333333334" y="428" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">60 Minuten</text>
+<rect x="793.3333333333334" y="400" width="133.33333333333337" height="44" rx="8" fill="#F9DDAE" stroke="#B87A12" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="860.0" y="428" font-family="'Roboto', Arial, sans-serif" font-size="16" font-weight="700" fill="#916926" text-anchor="middle">+ 20 Min.</text>
+<text x="30" y="490" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Prüfungsmodus</text>
+<text x="30" y="509" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">bleibt länger aktiv</text>
+<rect x="326.6666666666667" y="470" width="66.66666666666669" height="44" rx="6" fill="#2E8486" stroke="#126365" stroke-width="1.5" opacity="0.45"/>
+<rect x="393.33333333333337" y="470" width="533.3333333333334" height="44" rx="6" fill="#126365" stroke="#126365" stroke-width="1.5"/>
+<rect x="926.6666666666667" y="470" width="66.66666666666663" height="44" rx="6" fill="#2E8486" stroke="#126365" stroke-width="1.5" opacity="0.45"/>
+<text x="660.0" y="498" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Nur die Prüfung ist zugänglich</text>
+<line x1="793.3333333333334" y1="145" x2="793.3333333333334" y2="530" stroke="#0F5456" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="926.6666666666667" y1="145" x2="926.6666666666667" y2="530" stroke="#916926" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="260" y1="560" x2="1060" y2="560" stroke="#A6A6A6" stroke-width="2"/>
+<text x="30" y="565" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">Beispiel</text>
+<line x1="393.33333333333337" y1="554" x2="393.33333333333337" y2="566" stroke="#A6A6A6" stroke-width="2"/>
+<text x="393.33333333333337" y="584" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="middle">09:00</text>
+<line x1="793.3333333333334" y1="554" x2="793.3333333333334" y2="566" stroke="#A6A6A6" stroke-width="2"/>
+<text x="793.3333333333334" y="584" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="middle">10:00</text>
+<line x1="926.6666666666667" y1="554" x2="926.6666666666667" y2="566" stroke="#A6A6A6" stroke-width="2"/>
+<text x="926.6666666666667" y="584" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="middle">10:20</text>
+<text x="815.3333333333334" y="604" font-family="'Roboto', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F5456" text-anchor="end">Ende für alle</text>
+<text x="904.6666666666667" y="604" font-family="'Roboto', Arial, sans-serif" font-size="14" font-weight="700" fill="#916926" text-anchor="start">Ende mit Zusatzzeit</text>
+<rect x="30" y="630" width="1040" height="125" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+<text x="54" y="664" font-family="'Roboto', Arial, sans-serif" font-size="18" font-weight="700" fill="#126365" text-anchor="start">Zusatzzeit gibt es auf zwei Wegen im Bewertungswerkzeug</text>
+<text x="54" y="700" font-family="'Roboto', Arial, sans-serif" font-size="17" font-weight="700" fill="#2D2926" text-anchor="start">Nachteilsausgleich</text>
+<text x="54" y="726" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#2D2926" text-anchor="start">Gilt für jeden Testversuch der Person</text>
+<text x="570" y="700" font-family="'Roboto', Arial, sans-serif" font-size="17" font-weight="700" fill="#2D2926" text-anchor="start">Verlängerung</text>
+<text x="570" y="726" font-family="'Roboto', Arial, sans-serif" font-size="16" fill="#2D2926" text-anchor="start">Gilt nur für den laufenden Testversuch</text>
+<text x="1046" y="664" font-family="'Roboto', Arial, sans-serif" font-size="15" fill="#6E6E6E" text-anchor="end">Beide zählen zusammen.</text>
+<text x="30" y="788" font-family="'Roboto', Arial, sans-serif" font-size="14" fill="#6E6E6E" text-anchor="start">* Oberbegriff für beide Wege. In OpenOlat heissen sie «Nachteilsausgleich hinzufügen» und «Testzeit verlängern».</text>
+</svg>

@@ -29,7 +29,7 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 
 **Bei Kursbewertung ausschliessen**: Wird hier der Haken gesetzt, bleibt der Test bei der Fortschrittsberechnung in einem [Lernpfad Kurs](../learningresources/Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
-**Testzeitraum festlegen**: Während des Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B. x Tage nach dem ersten Kursbesuch.
+**Testzeitraum festlegen**: Während des Testzeitraums kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B. x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
 #### Abschnitt Korrektur {: #correction}
 
@@ -154,6 +154,7 @@ Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttes
 
 **Auf dieser Seite erwähnt**<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Wie bereite ich eine Online-Prüfung vor? >](../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Test Fragetypen >](Test_question_types.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
