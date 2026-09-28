@@ -181,11 +181,11 @@ Legend: :material-check: access or action available · :material-cancel: no acce
 
 ## Where can I find the Course Planner? {: #access}
 
-If you have the role and rights of a **course planner**, you will find the Course Planner as a **menu item in the main navigation** in the header.
+If you have the role and rights of a **course planner**, you will find the Course Planner in the **main navigation**.
 
 !!! tip "Requirement"
 
-    In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the header menu, please contact your system administrator or the support of your OpenOlat instance.
+    In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the main navigation, please contact your system administrator or the support of your OpenOlat instance.
 
 
 [To the top of the page ^](#course_planner)

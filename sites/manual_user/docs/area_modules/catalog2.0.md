@@ -17,15 +17,15 @@ If the user decides to attend a course, it can be accessed directly from the cat
 
 The catalog can be made available to both registered and unregistered persons. Where you can access the catalog depends on whether you are already registered as a user in OpenOlat or not.
 
-The **registered OpenOlat users** can find the catalog in the **header menu**.
+The **registered OpenOlat users** can find the catalog in the **main navigation**.
 
-![Menu item Catalog highlighted in the header, below it the catalog header with the search field, view for logged-in users](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
+![Site Catalog highlighted in the main navigation, below it the catalog header with the search field, view for logged-in users](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
 Requirement: The catalog must be activated in the system administration: `Administration > Modules > Catalog > Tab "Settings"`. The setup is described in the [administration manual](../../manual_admin/administration/Modules_Catalog_2.0.md).
 
 !!! tip "Hint"
 
-    If you do not see the entry in the menu, but are sure that Catalog 2.0 is being used, please look under "More" on the far right. All menus that cannot be displayed directly due to the display width of the monitor/device are moved here.
+    If you do not see the entry in the main navigation, but are sure that Catalog 2.0 is being used, please look under "More" on the far right. OpenOlat moves all sites here that are not directly visible due to the display width of the monitor/device.
 
 **Unregistered persons** can access an externally accessible, mirrored version of the catalog, provided this so-called web catalog is activated. Access is possible directly from the login screen. However, the link to the web catalog can also be integrated elsewhere in a website. [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002)
 
@@ -55,9 +55,9 @@ Catalog 2.0 contains the following components:
 ## What pages and displays does the catalog have? {: #catalog_views}
 
 **Page/Display 1:**<br>
-If you call up the catalog (2.0) in the header, you will first be taken to the start page (landing page) with the launchers.
+If you call up the catalog (2.0) in the main navigation, you will first be taken to the start page (landing page) with the launchers.
 
-![Menu item Catalog highlighted, start page with welcome text and the launchers Categories, Popular courses and Recently published resources](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
+![Site Catalog highlighted, start page with welcome text and the launchers Categories, Popular courses and Recently published resources](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
 
 Specific learning resources can be searched for directly in the search field. The title, teaser text and taxonomy are indexed for this purpose. However, you can also click on the displayed tiles/cards that are grouped in the launchers.
 

@@ -7,13 +7,13 @@ The project tool integrated in OpenOlat is primarily a tool for **project docume
 
 ## Where can I find projects in OpenOlat?
 
-Users can find the projects **in the header menu**.
+Users can find the projects **in the main navigation**.
 
 !!! info "Important"
 
-    The menu entry can also be in a different location. If many entries are displayed in the header, "Projects" may also be included under "More" on the far right.
+    The menu entry can also be in a different location. If many entries are displayed in the main navigation, "Projects" may also be included under "More" on the far right.
 
-![Entry Projects in the expanded More menu of the header, below it the Projects area with the tab My projects](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
+![Entry Projects in the expanded More menu of the main navigation, below it the Projects area with the tab My projects](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Important"
 
@@ -62,7 +62,7 @@ After opening a project, the main functions are displayed in the cockpit:
 
 ## Activation of the module "Projects"
 
-For the projects to be available in the menu, the module must have been activated by an administrator. Further information can be found [here](../../manual_admin/administration/Modules_Projects.md).
+For the projects to be available in the main navigation, the module must have been activated by an administrator. Further information can be found [here](../../manual_admin/administration/Modules_Projects.md).
 
 [To the top of the page ^](#overviews)
 

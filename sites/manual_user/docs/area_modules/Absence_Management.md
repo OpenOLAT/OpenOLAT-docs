@@ -3,7 +3,7 @@
 
 ## What does absence management enable?  {: #purpose}
 
-The absence management displayed in the main menu refers to **cross-course absence management** by authorized persons with the **role of absence manager**.
+The absence management displayed in the main navigation refers to **cross-course absence management** by authorized persons with the **role of absence manager**.
 
 Users with this role process dispensations and appeals, for example. This administrative task goes beyond the simple recording that takes place in a specific course, and is therefore assigned to a separate role.
 
@@ -17,13 +17,13 @@ Links to explanations of the remaining points can be found under [further inform
 
 ## Where can I find the absence management?  {: #access}
 
-Authorized users can find the cross-course absence management in the **header menu:**
+Authorized users can find the cross-course absence management in the **main navigation**:
 
-![Entry Absence management highlighted in the header, below it the tab bar of the absence management from Cockpit to Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
+![Entry Absence management highlighted in the main navigation, below it the tab bar of the absence management from Cockpit to Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
 
 !!! note "Note"
 
-    The menu item may also be located elsewhere in the header. If there are many items displayed in the header, "Absence management" may be located under "More" on the far right.
+    The menu item may also be located elsewhere in the main navigation. If there are many items displayed in the main navigation, "Absence management" may be located under "More" on the far right.
 
 
 [To the top of the page ^](#absence_management)
@@ -37,7 +37,7 @@ Course owners decide whether absence management is **used** in a particular cour
 The **recording** of individual absences is then usually the responsibility of the coaches. That is why they will find the tools for recording absences in the courses or in the Coaching area.<br>
 Participants record their own absences/notices of absence/appeals in the [personal menu >](../personal_menu/Absences.md).
 
-The absence management displayed in the main menu and described below is available to **absence managers**, principals and administrators. In cross-course absence management, all absences can be accessed in the overview, and authorized persons can **manage** all absences comprehensively.
+The absence management displayed in the main navigation and described below is available to **absence managers**, principals and administrators. In cross-course absence management, all absences can be accessed in the overview, and authorized persons can **manage** all absences comprehensively.
 
 
 [To the top of the page ^](#absence_management)
@@ -46,7 +46,7 @@ The absence management displayed in the main menu and described below is availab
 
 ## Activation of the "Events and absences" module {: #activation}
 
-As with all modules, general activation is carried out by administrators. For absence management to be available in the main menu, the "Events and absences" module must be switched on in the system administration:<br>
+As with all modules, general activation is carried out by administrators. For absence management to be available in the main navigation, the "Events and absences" module must be switched on in the system administration:<br>
 `Administration > Modules > Events / Absences`<br>
 Find out more under [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md).
 
@@ -70,7 +70,7 @@ After opening the absence management, the main functions are displayed as tabs:
 - [User search](#user_search)
 - [Report](#report)
 
-![Tab bar with the seven main functions highlighted, below the header in the absence management](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" }
+![Tab bar with the seven main functions highlighted, below the main navigation in the absence management](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#absence_management)

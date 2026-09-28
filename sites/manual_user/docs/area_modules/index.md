@@ -1,10 +1,10 @@
 # Area and modules {: #sites}
 
-When you work in OpenOlat, you switch between the areas through the top navigation bar. An area is an entry in this bar, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this area. In the English interface, such an area is called a site. (The bar is sometimes also called "header".) What concerns only you, for example your calendar or your notes, you open through the [Personal tools](../personal_menu/Personal_Tools.md) instead.
+When you work in OpenOlat, you switch between the areas through the main navigation. This is the top row of every page (also called "header"). An area is an entry of the main navigation, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this area. In the English interface, such an area is called a site. What concerns only you, for example your calendar or your notes, you open through the [Personal tools](../personal_menu/Personal_Tools.md) instead.
 
-Which sites you see is controlled by three things: the module, the activation in the administration and your role. Every OpenOlat instance therefore composes and orders its header differently. The following image shows what is possible: an instance with almost all available areas. Most instances offer fewer.
+Which sites you see is controlled by three things: the module, the activation in the administration and your role. Every OpenOlat instance therefore composes and orders its main navigation differently. The following image shows what is possible: an instance with almost all available areas. Most instances offer fewer.
 
-![Example of a well-filled header: sixteen numbered areas, nine of them directly in the bar from Portal to Video Collection, the rest in the unfolded More menu](assets/sites_v2_en.png){ class="shadow lightbox" title="Example view with almost all available areas, not the standard of an instance" }
+![Example of a well-filled main navigation: sixteen numbered areas, nine of them directly visible from Portal to Video Collection, the rest in the unfolded More menu](assets/sites_v2_en.png){ class="shadow lightbox" title="Example view with almost all available areas, not the standard of an instance" }
 
 
 ## What decides about a site {: #conditions}
@@ -13,8 +13,8 @@ You are looking for an area and cannot find it, while a colleague sees it. Four 
 
 1. **The module is activated.** Without an active module the area does not appear, even if it is activated in the list of sites. Administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
 2. **The site is activated and sorted in.** Administrators keep all sites in one list, in the system administration under `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
-3. **The role has access.** The "Access" column of that same list determines which roles see the site, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see a different navigation bar.
-4. **There is space in the bar.** What no longer fits into the top bar is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
+3. **The role has access.** The "Access" column of that same list determines which roles see the site, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see a different main navigation.
+4. **There is space in the main navigation.** What no longer fits in is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
 
 Some entries in the list are named differently from the site they create: the entry "My courses" appears as "Courses".
 
@@ -46,7 +46,7 @@ You know the area and are looking for the page that explains it. The table lists
 | 15 | Quality management | [Quality Management](Quality_Management.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.md), administration manual |
 
-The portfolio does not appear as a site in the navigation bar. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
+The portfolio does not appear as a site in the main navigation. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
 
 
 ## Further information {: #further_information}

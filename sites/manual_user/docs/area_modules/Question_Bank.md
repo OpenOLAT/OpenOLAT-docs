@@ -8,7 +8,7 @@ The questions can be shared with other people who also have access to the pool.
 
 The **goal** is the **reuse** of questions that have already been created. Be it in tests, as a quiz question in an interactive video or in a course element of the "Page" type. By yourself or (if shared) by other authors.
 
-**Authors**, question bank managers and administrators have **access** to the question bank. OpenOlat shows them the question bank in the main navigation in the header.
+**Authors**, question bank managers and administrators have **access** to the question bank. OpenOlat shows them the question bank in the main navigation.
 
 ![Question bank as its own entry in the main navigation, on the left its menu with four areas, on the right the welcome page. Start page of the question bank.](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
 

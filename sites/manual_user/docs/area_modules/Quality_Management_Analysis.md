@@ -76,7 +76,7 @@ The following rules apply to the data basis of an analysis:
 
 Only quality managers and principals have access to analyses.
 
-You can access the analyses via the main navigation in the header under:<br>
+You can access the analyses via the main navigation under:<br>
 `Quality management > Analysis`
 
 If organizational units are used, the following applies: <br>

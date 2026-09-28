@@ -51,9 +51,9 @@ The module can automatically send prompts with the link to a survey.
 
 The results can be released for definable recipients.
 
-Quality managers can find the "Quality management" option in their main navigation in the header.
+Quality managers can find the "Quality management" option in the main navigation.
 
-![Entry Quality management in the More menu of the header highlighted, below it the start page of the quality management with its seven sections from My surveys to Analysis](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
+![Entry Quality management in the More menu of the main navigation highlighted, below it the start page of the quality management with its seven sections from My surveys to Analysis](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
 
 ## The role "Quality manager"
 
