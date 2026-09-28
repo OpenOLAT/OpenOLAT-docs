@@ -2,7 +2,7 @@
 
 !!! note "Hinweis"
 
-    Vor Version 18.2 war die Konfiguration des Prüfungsmodus eine separate Menüoption in der Kursadministration.
+    Die Konfiguration des Prüfungsmodus finden Sie in der Prüfungsverwaltung des Kurses: `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`.
 
 
 ## Was versteht man unter "Prüfungsmodus"?
@@ -37,9 +37,10 @@ Prüfungskonfigurationen werden vorab erstellt und enthalten
 
 Ein Prüfungsmodus kann gelten
 
-* nur für Kursteilnehmende,
-* nur für Gruppenteilnehmende ausgewählter Gruppen
-* oder für beides.
+* nur für die Teilnehmenden des Kurses,
+* nur für die Teilnehmenden ausgewählter Gruppen,
+* nur für die Teilnehmenden ausgewählter Produkte des Course Planner, sofern das Modul Course Planner eingeschaltet ist,
+* oder für die Teilnehmenden des Kurses und der ausgewählten Gruppen oder Produkte.
 
 Dadurch ist es möglich, zeitgleich unterschiedlich konfigurierte Prüfungen für verschiedene Nutzergruppen desselben Kurses abzuhalten.
 
@@ -54,12 +55,7 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
 !!! info "Vor- und Nachlaufzeit auf 0 setzen"
 
-    Beim Erstellen eines neuen Prüfungsmodus sind Vor- und Nachlaufzeit ab
-    Release 21 mit je 10 Minuten vorbelegt. Dieser Vorschlagswert lässt sich
-    pro Prüfungsmodus frei überschreiben: auch auf **0**, wenn OpenOlat vor
-    bzw. nach der Prüfung nicht gesperrt werden soll. Ein globaler Standardwert
-    ist nicht konfigurierbar; die 0 muss also in jeder Prüfungskonfiguration
-    einzeln eingetragen werden.
+    Beim Erstellen eines neuen Prüfungsmodus sind Vor- und Nachlaufzeit mit je 10 Minuten vorbelegt. Dieser Vorschlagswert lässt sich pro Prüfungsmodus frei überschreiben: auch auf **0**, wenn OpenOlat vor bzw. nach der Prüfung nicht gesperrt werden soll. Ein globaler Standardwert ist nicht konfigurierbar; die 0 muss also in jeder Prüfungskonfiguration einzeln eingetragen werden.
 
 ---
 
@@ -80,7 +76,7 @@ Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser
 
 Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie lange der Test dauert. Wie Prüfungsmodus, Testzeitraum, Zeitbeschränkung und Verlängerung zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
-**Art des Beginns / Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "manuelle Bedienung" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem Sie den Prüfungsmodus manuell einschalten können.
+**Art des Beginns/Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "Manuell" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem sie den Prüfungsmodus manuell einschalten können.
 
 ---
 
@@ -89,9 +85,9 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 
 ![Tab "Einschränkungen Kursbaustein" mit Checkbox "Zugriff auf Kursbaustein einschränken" und Auswahl des Startbausteins, Dialog einer Prüfung](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_de.png){ class="shadow lightbox" }
 
-**Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses - wählen Sie jene Kurselemente aus, die den Probanden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
+**Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses - wählen Sie jene Kursbausteine aus, die den Teilnehmenden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
 
-**Startbaustein**: Soll den Studenten ein bestimmtes Kurselement direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kurselementen eines aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
+**Startbaustein**: Soll den Teilnehmenden ein bestimmter Kursbaustein direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kursbausteinen einen aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
 
 ---
 
@@ -100,16 +96,16 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 
 ![Tab "Zugang" mit IP-Einschränkung, den vier Teilnehmenden-Optionen und der Checkbox "Prüfungskonfiguration auch bei Betreuenden anwenden"](assets/assessment_management_create_exam_setting_tab_access_v1_de.png){ class="shadow lightbox" }
 
-**Einschränkung auf IP-Adressen**: Um eine Ausführung der Prüfung nur an bestimmten Computern oder Orten zuzulassen, markieren Sie hier die Checkbox und tragen dann die zulässigen IP-Adressen ein. Diese sollten Sie von ihrer Informatik-Abteilung erhalten können. Sie können dadurch z.B. verhindern, dass eine Prüfung von einem Prüfling von zuhause abgelegt wird.
+**Einschränkung auf IP-Adressen**: Um eine Ausführung der Prüfung nur an bestimmten Computern oder Orten zuzulassen, markieren Sie hier die Checkbox und tragen dann die zulässigen IP-Adressen ein. Diese sollten Sie von ihrer Informatik-Abteilung erhalten können. Sie können dadurch z.B. verhindern, dass Teilnehmende eine Prüfung von zuhause ablegen.
 
 **Teilnehmende**: Hier legen Sie fest, für welche Teilnehmenden die Prüfung gültig ist. Wählen Sie aus den folgenden Optionen aus:
 
-* Nur Kursteilnehmende
-* Nur Gruppenteilnehmende
-* Nur Curriculumteilnehmende oder
-* Teilnehmende des Kurses und der ausgewählten Gruppen oder Curriculum
+* "Nur Kursteilnehmende"
+* "Nur Gruppenteilnehmende"
+* "Nur CPL Teilnehmende", sofern das Modul Course Planner eingeschaltet ist
+* "Teilnehmer:innen des Kurses und der ausgewählten Gruppen", bei eingeschaltetem Course Planner "Teilnehmer:innen des Kurses und der ausgewählten Gruppen oder Produkten"
 
-Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereich auswählen" die betroffenen Gruppen auswählen. Wird ein Curriculum verwendet, muss dies ebenfalls ausgewählt werden.
+Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereiche auswählen" die betroffenen Gruppen auswählen. Gilt die Prüfung für Teilnehmende des Course Planner, wählen Sie die Produkte über die Schaltfläche "Produkt auswählen" aus.
 
 **Prüfungskonfiguration auch bei Betreuenden anwenden**:
 Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.h. auch für Betreuer:innen gilt der Kioskmodus, in dem andere Funktionen gesperrt sind.
@@ -155,13 +151,13 @@ Unter der Legende **Konfiguration anhand der Vorlage** werden die aus der gewäh
 !!! tip "Voraussetzung"
     Die Vorlagenauswahl steht nur zur Verfügung, wenn in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
 
-!!! info "Weitere Informationen"
+!!! note "Weitere Informationen"
     [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
 
 ---
 
 
-##  Prüfung durchführen
+## Prüfung durchführen
 
 Teilnehmende, die einer Prüfung zugeteilt wurden, werden zu Beginn der Prüfung bzw. zu Beginn der Vorlaufzeit über den Start der Prüfung informiert. Sollte OpenOlat durch eine Nachlaufzeit am Ende der Prüfung noch gesperrt sein, werden sie ebenfalls darüber informiert.
 
@@ -173,21 +169,21 @@ Wurde von dem/der Kursbesitzer:in ein manueller Start vorgesehen, finden Betreue
 
 Wird der Prüfungsmodus manuell durch Betreuer:innen gestartet, so bleibt die Vorlaufzeit unverändert (wie in der Konfiguration vorgesehen), auch wenn der Button zum Start der Prüfung später als geplant geklickt wird.
 
-Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten.  Die vorkonfigurierte Prüfungs **dauer** bleibt also gleich.
+Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten. Die vorkonfigurierte **Prüfungsdauer** bleibt also gleich.
 
 Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden.
 
-Bewertungen, z.B. für Einsendeaufgaben oder Freitext Elemente von Tests, können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und -besprechung ermöglicht.
+Bewertungen, z.B. für Einsendeaufgaben oder Freitextfragen von Tests, können auch direkt bewertet und für die Teilnehmenden freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und -besprechung ermöglicht.
 
 ---
 
-##  Prüfung beenden
+## Prüfung beenden
 
 Ein laufender Prüfungsmodus kann generell automatisch oder manuell beendet werden.
 
 Bei manuellem Modus können Betreuer:innen und Kursbesitzer:innen die Prüfung im **Bewertungswerkzeug** beenden.
 
-![Banner "Prüfungsmodus ist aktiv" mit Button "Beenden" markiert, Übersicht des Bewertungswerkzeugs](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" }
+![Banner zum aktiven Prüfungsmodus mit Button "Beenden" und Kachel Prüfungsmodus mit Status Gestartet markiert, Übersicht des Bewertungswerkzeugs](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" }
 
 Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder gelöscht wird.
 

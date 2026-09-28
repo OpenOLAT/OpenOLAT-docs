@@ -6,7 +6,7 @@ Hier erhalten Sie einen Überblick wie Sie einen Test in einem Kurs weiter konfi
 
 Öffnen Sie dafür den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
 
-![Konfigurationstabs des Kursbausteins Test im Kurseditor](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
+![Zehn Tabs zur Konfiguration eines Kursbausteins Test, von Titel und Beschreibung bis Erinnerungen, im Kurseditor](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" }
 
 Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich. 
 
@@ -14,7 +14,7 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 Im Tab Lernpfad kann definiert werden, ob der Kursbaustein obligatorisch für den Lernpfad Kurs ist, ob er nicht für die Lernpfad Anzeige verwendet werden soll (Einstellung "Freiwillig") oder ob der Kursbaustein gar nicht angezeigt werden soll (Einstellung "Ausgenommen"). Ferner können ein Freigabedatum, ein maximales Bearbeitungsdatum sowie die voraussichtliche Bearbeitungszeit definiert werden. Des Weiteren stehen für Tests folgende Erledigungskriterien zur Verfügung:
 
-![Auswahl des Erledigungskriteriums für den Kursbaustein Test im Tab Lernpfad](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
+![Erledigungskriterium mit fünf Optionen als Auswahl, gewählt ist die Bestätigung durch die Benutzer:in, im Tab Lernpfad des Kursbausteins Test](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" }
 
 ### Tab "Test-Konfiguration"
 
@@ -24,8 +24,7 @@ Im Einzelnen sind folgende Einstellungen möglich nachdem Sie eine Lernressource
 
 #### Abschnitt Test
 
-**Bewertung mit Einstufung/Noten**
-Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschliessend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für die Teilnehmenden sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll.
+**Bewertung mit Einstufung/Noten**: Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschliessend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für die Teilnehmenden sichtbar sein soll oder ob die Zuordnung manuell durch die Betreuer:in bereitgestellt werden soll.
 
 **Bei Kursbewertung ausschliessen**: Wird hier der Haken gesetzt, bleibt der Test bei der Fortschrittsberechnung in einem [Lernpfad Kurs](../learningresources/Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
@@ -50,29 +49,29 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 * Nicht freigegeben: Die Bewertung bleibt nach der Korrektur bei Ihnen, bis Sie sie freigeben. Bis dahin steht der Eintrag im Coaching im Tab [Freizugebende Bewertungen](../area_modules/Coaching_Assessment_Orders.de.md#tab_assessments_to_be_released).
 * Freigegeben: OpenOlat gibt die Bewertung mit dem Abschluss der Korrektur frei, die Teilnehmenden sehen sie danach.
 
-![Auswahl der Korrekturart und der Freigabe der Bewertung im Abschnitt Korrektur](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
+![Korrektur Auto oder manuell und Freigabe Bewertung als Nicht freigegeben oder Freigegeben, im Abschnitt Korrektur des Tabs Test-Konfiguration](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
 
 #### Abschnitt Report {: #report}
 
-**Punkte auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden die Punkte auf der Startseite des Tests für die Teilnehmenden angezeigt.
+**Leistungsübersicht auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden die Punkte und weitere Leistungsinformationen auf der Startseite des Tests für die Teilnehmenden angezeigt.
 
-**Bewertung auf Test-Startseite anzeigen**: Hiermit kann definiert werden, ob bzw. unter welchen Bedingungen die Bewertung auf der Test-Startseite angezeigt werden sollen.
+**Resultate auf Test-Startseite anzeigen**: Hiermit kann definiert werden, ob bzw. unter welchen Bedingungen die Resultate auf der Test-Startseite angezeigt werden sollen.
 
-![Einstellungen zur Anzeige von Punkten und Resultaten im Abschnitt Report](assets/Test_Report_Einstellungen_DE.png){ class="shadow lightbox" }
+![Auswahlliste Resultate auf Test-Startseite anzeigen mit sechs Optionen von Nein bis Wenn nicht bestanden oder bestanden, im Abschnitt Report des Tabs Test-Konfiguration](assets/Test_Report_config.png){ class="shadow lightbox" }
 
 Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden des Tests zur Verfügung. Bei der Auswahl "Nein" werden die Ergebnisse gar nicht angezeigt. Und bei den anderen Optionen können kriterien- bzw. datumsabhängige Anzeigen definiert werden.
 
-**Bewertung nach Testabschluss anzeigen**: Hier wird konfiguriert, welche Informationen die Lernenden erhalten. Die gewählte Auswahl ist dieselbe für "Resultate auf Test-Startseite anzeigen" und "Resultate nach Testabschluss anzeigen":
+**Resultate nach Abgabe des Tests anzeigen**: Hier wird konfiguriert, ob die Lernenden die Resultate direkt nach der Abgabe sehen. Welche Informationen sie erhalten, legen Sie unter "Übersicht Resultate" fest. Die gewählte Auswahl ist dieselbe für "Resultate auf Test-Startseite anzeigen" und "Resultate nach Abgabe des Tests anzeigen":
 
-![Auswahl der Inhalte für die Übersicht Resultate](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
+![Fünf Kontrollkästchen unter Übersicht Resultate, von Testzusammenfassung bis Lösung, im Abschnitt Report des Tabs Test-Konfiguration](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" }
 
 Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
 Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md) enthält.
 
-Bei der **Fragenzusammenfassung** wird der Titel der Frage, die jeweils erreichte Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung selbst.
+Bei der **Fragezusammenfassung** wird der Titel der Frage, die jeweils erreichte Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung selbst.
 
-Bei der **Antwort der Teilnehmer** wird die Frage, alle Antwortoptionen sowie die Wahl des Users angezeigt, allerdings keine Bewertung ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht muss die Option mit weiteren Feedback-Optionen kombiniert werden.
+Bei der Option **Antwort, von Teilnehmer:in abgegeben** wird die Frage, alle Antwortoptionen sowie die Wahl der Teilnehmenden angezeigt, allerdings keine Bewertung ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht muss die Option mit weiteren Feedback-Optionen kombiniert werden.
 
 Die **Lösung** beinhaltet die korrekten Antworten.
 
@@ -84,27 +83,27 @@ Bindet man einen Test in einen Kurs ein, werden die Einstellungen aus der Konfig
 
 Wenn die Einstellungen für einen im Kurs eingebundenen Test geändert werden sollen, kann "Konfiguration anpassen" ausgewählt und die gewünschten Änderungen vorgenommen werden. Diese Anpassungen im Test haben keine Auswirkungen auf die Konfiguration der Lernressource Test selbst.
 
-### Tab "Kommunikation"
-Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmende live Anfragen per Chat an die Kurs Betreuer bzw. Besitzer senden dürfen. Das macht natürlich nur dann Sinn, wenn während eines definierten Test-Zeitraums auch reale betreuende Personen die Testdurchführung beobachten.
+### Tab "Kommunikation" [:octicons-tag-16:{ title="ab Release 16.2.0 (OO-5966)" }](https://track.frentix.com/issue/OO-5966)
+Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmende live Anfragen per Chat an die Betreuer:innen bzw. Besitzer:innen des Kurses senden dürfen. Das macht natürlich nur dann Sinn, wenn während eines definierten Test-Zeitraums auch reale betreuende Personen die Testdurchführung beobachten.
 
-### Tab "HighScore"
+### Tab "HighScore" [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133)
 
 Hier kann für einen Test auch eine Highscore Übersicht aktiviert und weiter konfiguriert werden.
 
-![Konfiguration der Highscore-Anzeige des Kursbausteins Test im Tab HighScore](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
+![Kontrollkästchen Highscore anzeigen mit Anfangsdatum und vier Darstellungen, darunter Siegertreppchen und Histogramm, im Tab HighScore des Kursbausteins Test](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
 
-### Tab "Korrektor:innen"
+### Tab "Korrektor:innen" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442)
 Es erscheint eine Übersicht der Korrektor:innen sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
 
-### E-Mail Bestätigung :octicons-tag-16:{ title="ab Release 17.2" }
-Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email bestätigen wollen. Sie können in dem Mailtext auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen. Eine Kopie der Mail kann auch an die Kursbesitzer, zuständige Betreuer oder externe Mail-Adressen verschickt werden. 
+### E-Mail Bestätigung [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6672)" }](https://track.frentix.com/issue/OO-6672)
+Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email bestätigen wollen. Sie können in dem Mailtext auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen. Eine Kopie der Mail kann auch an die Kursbesitzer:innen, zuständige Betreuer:innen oder externe Mail-Adressen verschickt werden. 
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern. 
 
 Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](Administration_and_Organisation.de.md#einsatz-von-variablen).
 
-### Tab "Erinnerungen"
-Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../learningresources/Course_Reminders.de.md).
+### Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447)
+Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../learningresources/Course_Reminders.de.md).
 
 ## Test und Selbsttest im Vergleich
 
@@ -115,7 +114,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -134,21 +133,20 @@ Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fä
 
 ## Tests einsehen und bewerten
 
-Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter
-"Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines Kurses angezeigt und können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden. 
+Zugriff auf von Teilnehmenden ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Wählen Sie dort den gewünschten Kursbaustein Test. Im Tab "Teilnehmer:innen" werden alle Teilnehmenden angezeigt, ihre Tests können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden.
 Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
 
-![Liste der Teilnehmenden mit Testresultaten und Bewertungsaktionen im Kursrun](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
+![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit Aktionen wie Anzahl Versuche zurücksetzen, im Tab Teilnehmer im Kursrun](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
 
 Sofern für einen Test der Korrektur-Workflow eingeschaltet ist, nehmen die eingetragenen Korrektor:innen die Bewertungen über das [Coaching Tool](../area_modules/Coaching.de.md) vor.
 
 ## Testergebnisse und Archivierung
 
-Wählen Sie in der Kursansicht aus der "Administration" -> [Datenarchivierung](../learningresources/Course_Archiving.de.md). Gehen Sie links zu "Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
+Wählen Sie dafür `Kurs > Administration > Archivierung & Reports`, siehe [Archivierung & Reports](../learningresources/Course_Archiving.de.md). Dort können Sie alle Kursresultate herunterladen oder unter `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen` ein Teilarchiv nur mit den gewünschten Tests erstellen. Die Resultate von Selbsttests werden anonymisiert gespeichert.
 
 Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
 
-Über Administration -> ["Test Statistiken"](../learningresources/Statistics_Test.de.md) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
+Über `Kurs > Administration > Test Statistiken` ([Test Statistiken](../learningresources/Statistics_Test.de.md)) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
 
 ## Weiterführende Informationen {: #further_information}
 

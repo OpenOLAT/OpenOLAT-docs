@@ -44,19 +44,19 @@ Die Einstellungen (Konfiguration) wird an verschiedenen Stellen und auf verschie
 
 Ebene **Kurs**<br>
 Auf dieser Ebene wird z.B. festgelegt, wann der Gesamtkurs als "bestanden" gilt.<br>
-**Autorenbereich > Kurs wählen > Administration > Einstellungen**
+`Kurs > Administration > Einstellungen`
 
 Ebene **Kursbaustein**<br>
 Für Prüfungen wird der Kursbaustein "Test" verwendet. Innerhalb eines Kurses kann es mehrere Test-Kursbausteine geben, z.B. einen Einstiegstest, Tests pro Themengebiet und einen Abschlusstest. Jeder Test-Kursbaustein kann anders konfiguriert werden, z.B. ob die Bewertung automatisch oder manuell erfolgen soll.<br>
-**Autorenbereich > Kurs wählen > Administration > Kurseditor > Kursbaustein wählen > verschiedene Tabs**
+`Kurs > Administration > Kurseditor > "Kursbaustein"`, dort in den verschiedenen Tabs
 
 Ebene **Lernressource**<br>
 Eine Test-Lernressource kann in verschiedenen Kursbausteinen verwendet werden. Alle Einstellungen (z.B. die Anzahl erlaubter Versuche) werden dann in den jeweiligen Kursbaustein übernommen, können dort aber übersteuert werden.<br>
-**Autorenbereich > Lernressource wählen > Administration > Einstellungen**
+`Autorenbereich > "Test-Lernressource" > Administration > Einstellungen`
 
 Ebene **Frage**<br>
 Auf Ebene einer Frage werden z.B. Feedbacks definiert.<br>
-**Autorenbereich > Lernressource wählen > Administration > Inhalt editieren > Frage wählen > verschiedene Tabs**
+`Autorenbereich > "Test-Lernressource" > Administration > Inhalt editieren > "Frage"`, dort in den verschiedenen Tabs
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -85,13 +85,12 @@ Mehr Informationen zum Vorgehen finden Sie hier:<br>
 
 Der Start und die Dauer der Prüfung wird durch die Angaben in der Konfiguration des [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) bestimmt.
 
-Ein Prüfungsmodus kann automatisch oder manuell aktiviert und deaktiviert werden. Diese wird von Autor:innen voreingestellt.
-Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingerichtet werden unter<br> 
-**Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"**
+Ein Prüfungsmodus kann automatisch oder manuell aktiviert und deaktiviert werden. Dies wird von Autor:innen voreingestellt.
+Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingerichtet werden unter:<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
 
-Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Prüfungsmodus unter 
-**Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"** 
-durch Klicken auf den **Starten-Button** begonnen und beendet werden.<br>
+Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Prüfungsmodus mit dem Button "Starten" begonnen und beendet werden. Sie finden den Button unter:<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br>
 Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
 
 [zum Seitenanfang ^](#exam_preparation)
@@ -104,7 +103,7 @@ Planen Sie eine Online-Prüfung, legen Sie vier Zeitangaben an verschiedenen Ste
 
 ![Zeitstrahl der Prüfungszeiten: mit Zusatzzeit enden Test und Prüfungsmodus für eine Person später](assets/exam_preparation_times_timeline_v1_de.svg){ class="shadow lightbox" title="Die Zeiten einer Prüfung im Überblick" }
 
-- **Prüfungsmodus**: Beginn und Ende legen fest, wie lange die Teilnehmenden in OpenOlat nur die Prüfung erreichen. Die Vorlaufzeit sperrt OpenOlat schon vor dem Beginn, die Nachlaufzeit noch nach dem Ende. Wie lange der Test läuft, bestimmt der Prüfungsmodus nicht.<br>
+- **Prüfungsmodus**: Beginn und Ende legen fest, wie lange die Teilnehmenden in OpenOlat nur die Prüfung erreichen. Die Vorlaufzeit sperrt OpenOlat schon vor dem Beginn, die Nachlaufzeit noch nach dem Ende. Endet der Prüfungsmodus automatisch, schliesst OpenOlat laufende Tests nicht ab. Beim manuellen Beenden zieht OpenOlat die laufenden Tests ein, solange im Dialog "Prüfung beenden" die vorausgewählte Option "Tests für beendete Prüfungen automatisch einziehen" gesetzt bleibt.<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
 - **Testzeitraum**: In diesem Zeitraum können die Teilnehmenden den Test starten. Zur Bis-Zeit beendet OpenOlat den Test, auch wenn die Zeitbeschränkung noch nicht abgelaufen ist.<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Test" > Tab "Test-Konfiguration" > "Testzeitraum festlegen"`
@@ -204,7 +203,7 @@ Wurde konfiguriert, dass nur 1 Lösungsversuch möglich ist, kann es passieren, 
 ## Was tue ich, wenn der Prüfungsmodus fehlerhaft konfiguriert ist? {: #wrong_config_assessment_mode}
 
 Ein Prüfungsmodus wird erstellt und eingerichtet unter<br>
-**Kurs → Administration → Prüfungsverwaltung → Konfiguration Prüfungsmodus**<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br>
 Solange der Prüfungsmodus noch nicht gestartet wurde, kann er dort bearbeitet werden. 
 Bei einer bereits laufenden Prüfung ist eine nachträgliche Bearbeitung des Prüfungsmodus nicht mehr ohne weiteres möglich.
 
@@ -241,16 +240,16 @@ B) die Angabe im Prüfungsmodus
 
 <h3>A) Angaben im Kursbaustein Test</h3>
 
-**Kurs → Administration → Kurseditor → Kursbaustein wählen → Tab Lernpfad**<br>
+`Kurs > Administration > Kurseditor > "Kursbaustein" > Tab "Lernpfad"`<br>
 Jeder Kursbaustein in einem Lernpfadkurs kann eine Angabe zur Freigabe enthalten. Es kann ein Zeitfenster angegeben werden, in dem auf den Kursbaustein zugegriffen werden kann. Die Angabe "zu bearbeiten bis" definiert, bis wann der Kursbaustein geöffnet werden kann. Ist ein Kursbaustein geöffnet und wird bearbeitet, während die Frist abläuft, bleibt der Baustein weiter geöffnet und kann weiter bearbeitet werden. Es erfolgt kein automatisches Beenden des Zugriffs.<br>
-**Kurs → Administration → Kurseditor → Kursbaustein "Test" wählen → Tab Test-Konfiguration**<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Test" > Tab "Test-Konfiguration"`<br>
 Hier finden Sie einen Toggle-Button "Testzeitraum festlegen". Während diesem Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Dies auch dann, wenn die definierte Testzeit noch nicht aufgebraucht ist.
 
 Änderungen im Kurseditor in diesen Tabs während einer laufenden Prüfung sollten vermieden werden. Empfehlenswert ist in der Regel die Verwendung des Prüfungsmodus. Während eines aktiven Prüfungsmodus sind übrige Aktivitäten in OpenOlat unterbunden. Wird lediglich eine Freigabe und Zugriffsmöglichkeit im Kursbaustein konfiguriert, können weiterhin andere Kurse in OpenOlat aufgerufen werden.
 
 <h3>B) Angabe im Prüfungsmodus</h3>
 
-**Kurs → Administration → Prüfungsverwaltung → Konfiguration Prüfungsmodus**
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
 
 Diese Angabe bezieht sich auf die Phase, in der der Prüfungsmodus aktiv ist. Also die Zeitspanne, in der die Prüfungsteilnehmer:innen in OpenOlat ausschliesslich diese Prüfung bearbeiten können.
 
@@ -316,8 +315,8 @@ Wenn es der Prüfungsstoff zulässt, werden oft auch "Open Book Prüfungen" durc
 
 Seitens OpenOlat kann zu Beginn einer Prüfung den Teilnehmenden vorab eine Erklärung zur Bestätigung vorgelegt werden. Insbesondere muss z.B. die Verwendung von KI-Tools klar geregelt sein. Evtl. kann z.B. zur Bedingung gemacht werden, dass die Prüfungsteilnehmer:innen der Überwachung und Protokollierung des gesamten Datenverkehrs von und zu ihrem Rechner während der Prüfung zustimmen müssen.
 
-Eine Erklärung kann für einzelne Kurse in OpenOlat (in diesem Fall den Kurs mit der Prüfung) eingerichtet werden unter<br>
-**Administration > Einstellungen > Tab "Nutzungsbedingungen"**.<br>
+Eine Erklärung kann für einzelne Kurse in OpenOlat (in diesem Fall den Kurs mit der Prüfung) eingerichtet werden unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Nutzungsbedingungen"`<br>
 Siehe auch [Kursspezifische Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_course)<br>
 
 Um nach dem Start eines Tests alle anderen Aktivitäten in OpenOlat zu unterbinden, verwenden Sie einen [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md).
@@ -335,7 +334,7 @@ In einem Prüfungsmodus kann auch eine Einschränkung auf bestimmte IP-Adressen 
 Es kann vorkommen, dass Prüfungsteilnehmer:innen versehentlich einen nicht vollständig bearbeiteten Test beendet haben und dann den Test ein zweites Mal starten. Ein Neustart wird als zweiter Versuch gespeichert, bei dem wieder ganz von vorne begonnen werden kann. Die Einträge des vorangehenden Versuchs werden nicht übernommen. Alle Versuche werden jedoch gespeichert und können von Betreuer:innen und Kursbesitzer:innen im Bewertungswerkzeug eingesehen werden.
 
 - Wählen Sie als Betreuer:in oder Kursbesitzer:in den Kurs.
-- Öffnen Sie das Bewertungswerkzeug unter Administration > Bewertungswerkzeug.
+- Öffnen Sie das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`.
 - Wählen Sie den betreffenden Test-Kursbaustein.
 - Wählen Sie den Tab "Teilnehmer:innen".
 - Öffnen Sie die Übersicht der betreffende Person durch Klick auf einen Namen.
@@ -348,8 +347,8 @@ Es kann vorkommen, dass Prüfungsteilnehmer:innen versehentlich einen nicht voll
 
 ## Wie kann ich die Einsichtnahme in die Prüfungsergebnisse vorbereiten? {: #assesment_inspection}
 
-Um nach einer Prüfung individuelle Prüfungseinsichten für Teilnehmer:innen von Tests erstellen zu können, müssen Sie die [Prüfungseinsicht](../../manual_user/learningresources/Assessment_inspection.de.md) entsprechend konfigurieren unter<br>
-**Kurs → Administration → Prüfungsverwaltung → Tab Konfiguration Prüfungseinsicht**<br>
+Um nach einer Prüfung individuelle Prüfungseinsichten für Teilnehmer:innen von Tests erstellen zu können, müssen Sie die [Prüfungseinsicht](../../manual_user/learningresources/Assessment_inspection.de.md) entsprechend konfigurieren unter:<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`<br>
 Hier können Sie z.B. die Dauer, die Resultatanzeige, sowie Einschränkungen festlegen.
 
 Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einzelne Teilnehmer:innen Einsichtnahmen terminieren.
@@ -362,7 +361,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 ## Checkliste {: #checklist}
 
 - [x] Regeln zur Prüfung erstellt? (Erlaubtes und Unerlaubtes)
-- [x] Prüfungsteilnehmer:innen über die Regeln informiert? ([Nutzungsbedingungen eines Kurs definiert?)
+- [x] Prüfungsteilnehmer:innen über die Regeln informiert? (Nutzungsbedingungen eines Kurses definiert?)
 - [x] Kommunikation während der Prüfung vorher geklärt? (z.B. Verwendung des Prüfungs-Chats)
 - [x] Verfahren zum Starten und Beenden der Prüfung vorab geklärt? (Automatisch? Manuell? Durch wen?)
 - [x] Instruktion zum Beenden der Prüfung gegeben? 
@@ -379,10 +378,20 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 
 ## Weiterführende Informationen {: #further_information}
 
-[Nutzungsbedingungen eines Kurs definieren >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
-[Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
-[Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../../manual_how-to/exchange_tests/exchange_tests.de.md)<br>
-[Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
+[Betriebsstatus >](https://www.openolat.com/betriebsstatus/)<br>
+[Kommunikation während einer Prüfung >](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)<br>
+[Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
+[Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
+[Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
+[Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)
+
+**Weiterführend**<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
 
 [zum Seitenanfang ^](#exam_preparation)
