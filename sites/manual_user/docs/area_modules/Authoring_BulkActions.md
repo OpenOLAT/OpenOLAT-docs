@@ -1,23 +1,23 @@
 # Authoring - Bulk Actions {: #authoring_bulk_actions}
 
-As soon as a learning resource has been selected in the first column of the table, additional buttons (1-6) appear above the table. They can be used to carry out actions for the selected resources, i.e. for several learning resources together (Bulk Actions).<br>
-For these buttons to be visible, at least one learning resource must be selected.
+As soon as you select a learning resource in the first column of the table, additional buttons appear above the table, from "Send E-mail" to "Delete". With them, you carry out actions for the selected learning resources together, i.e. for several learning resources at once (Bulk Actions).<br>
+These buttons are not visible unless at least one learning resource is selected. The buttons for bulk actions and the menu under the 3 dots are visible to authors, learning resource managers and administrators.
 
-Clicking on the 3 dots at the end of a table row (10) displays options, which are only for this specific learning resource of this row.
+Clicking on the 3 dots at the end of a table row opens a menu with actions only for the learning resource of this row.
 
-
-![Six buttons for bulk actions above the table and the 3-dot menu of a row with the single actions, numbered like the sections of this page. Authoring.](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png){ class="shadow lightbox" }
-
+![Buttons for bulk actions above the table and the opened 3-dot menu of a row with Settings, Course editor and Members management at the top](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v2_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.09.28" }
 
 !!! tip "Tip"
 
-    If you select the **checkbox in the title bar of the table**, all learning resources will be selected at once. ![Ticked checkbox in the title bar, all rows of the table are selected. Authoring.](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png){ class="shadow lightbox" }
+    If you select the **checkbox in the title bar of the table**, all learning resources will be selected at once. If the table spreads over several pages, the checkbox opens a menu: "Select page's rows" selects the learning resources of the displayed page, "Select all ... rows" all learning resources of the table.
+
+    ![Ticked checkbox in the title bar marked, all rows of the table are selected and the buttons for bulk actions appear](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v2_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.09.28" }
 
 ---
 
-### 1. Send email [:octicons-tag-16:{ title="from Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"}
+### Send E-mail [:octicons-tag-16:{ title="from Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"} {: #send_mail}
 
-Select the desired learning resources and click on "Send email". A dialog opens. You can now define to whom the email should be sent. Possible recipients are **all course owners, all course coaches and all participants**.
+Select the desired learning resources and click on "Send E-mail". A dialog opens. You can now define to whom the email should be sent. Possible recipients are **all course owners, all course coaches and all participants**.
 
 Add a subject and the desired message. If necessary, an attachment and a copy for the sender can be added.
 
@@ -25,15 +25,15 @@ Add a subject and the desired message. If necessary, an attachment and a copy fo
 
     You can send the email to all courses that are displayed to you. This also includes courses which are visible to **all authors**. You do not have to be a member of the course to use this function.
 
-### 2. Change status [:octicons-tag-16:{ title="from Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"}
+### Change status [:octicons-tag-16:{ title="from Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"} {: #change_status}
 
 Select the publication status that should apply to all selected learning resources and click on "Change".
 
-### 3. Modify owners [:octicons-tag-16:{ title="from Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"}
+### Modify owners [:octicons-tag-16:{ title="from Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"} {: #modify_owners}
 
 All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An email notification option completes the editing.
 
-### 4. Metadata and settings [:octicons-tag-16:{ title="from Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
+### Metadata and settings [:octicons-tag-16:{ title="from Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"} {: #metadata_settings}
 
 If several learning resources belong together, for example the courses of a continuing education series, you **standardize** their **metadata** and settings in one pass instead of editing each learning resource individually. After clicking "Metadata and settings", the wizard "Change settings" opens. It only changes the selected learning resources for which you are owner, learning resource manager or administrator.
 
@@ -54,7 +54,7 @@ The wizard only offers "Execution" and "Toolbar" if at least one course is selec
 
 If several learning resources are to be assigned to another organisation, for example after a restructuring, you adjust their Administrative access here for all of them at once. What the Administrative access does is described on the page [Course settings - Tab Share](../learningresources/Course_Settings_Share.md#section_share). The section is only available if the Organisations module is enabled.
 
-![Fields to add and remove organisations for 2 learning resources. Administrative access section of the wizard](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_en.png){ class="shadow lightbox" }
+![Marked fields Add organisation and Remove organisation, here for 2 learning resources](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_en.png){ class="shadow lightbox" title="Step Administrative access in the wizard Change settings" }
 
 The section has two fields:
 
@@ -70,7 +70,7 @@ An organisation that you add in the same run does not count here. If you select 
 
 Administrators can also assign courses to an organisation in the system administration in the "Learning resources" tab, described under [Module Organisations](../../manual_admin/administration/Modules_Organisations.md#edit_learning_resources).
 
-### 5. Copy
+### Copy {: #copy}
 
 With the **"Copy" button above the table** you can copy **several learning resources**.<br>
 By clicking on "Copy" in the **menu that appears under the 3 dots at the end of a row**, you copy a **single learning resource**. (The learning resource of this table row.)
@@ -79,7 +79,7 @@ Select one or more learning resources to copy them. For example, to reuse them f
 
 Copied learning resources can then be found in the tab "My entries". The addition ("copy") is added to the title. However, the title can subsequently be changed as desired.
 
-### 6. Delete
+### Delete {: #delete}
 
 A learning resource can only be deleted by the owners of the learning resource, learning resource managers, and administrators.
 
@@ -92,48 +92,49 @@ After deletion, the learning resources will only appear in the ["**Deleted**" ta
 
 As the owner, you can restore deleted learning resources. Only administrators or learning resource managers can permanently delete learning resources.
 
-### 7. Open/edit learning resource
+### Open learning resource {: #open_resource}
 
 Clicking on the **title** of a learning resource opens the corresponding resource.
 
-### 8. Open info page
+### Settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #settings}
 
-By clicking on the **light bulb symbol** ![Info page symbol](assets/infopage_5e89ac_64.png){ width=30px class="lightbox" } the info page will be **displayed**.
+If you want to change the details of a learning resource, open its settings directly from the table. To do so, click on "Settings" in the menu under the 3 dots. OpenOlat opens the settings of the learning resource in the tab "Metadata". You edit the information that appears on the info page, such as description, objectives and requirements, in the tab "Info".
 
-If, on the other hand, you **click on "Change info page" in the menu under the 3 dots**, you will reach the "Settings" area and can **edit** the information that appears on the info page.
+You open the info page itself in the learning resource via the link "Info page" in the toolbar.
 
 You can find more about this topic on the page "[Set up info page](../learningresources/Course_Settings_Info.md#configure_info)".
 
-### 9. Edit
+### Open editor {: #open_editor}
 
-For **editable** learning resources such as course, glossary, test, CP learning content, blog and podcast, clicking on "Edit" or the icon opens the corresponding editor.
+To edit the content of a learning resource, open its editor directly from the table. The entry in the menu under the 3 dots names the editor: for a course "Course editor", for a test "Test editor", for a form "Form editor" and for a video "Video editor". For all other learning resources, such as CP learning content, wiki, blog, podcast or glossary, the entry is called "Edit content".
 
-### 10. Further options for individual learning resources
+You only see the entry for learning resources that can be edited and that are neither in the status "Finished" nor in the trash.
 
-Clicking on the **3-dots** at the end of a table row opens a menu with several options.
+The pencil symbol in the column "Edit content" opens the same editor. You show this column yourself if needed, see [Configure columns](Authoring.md#configure_columns). The tooltip of the symbol names the editor.
 
-Actions in the menu under the 3 dots always refer to the **single learning resource** of this row. With the buttons above the table (1-6), on the other hand, you can carry out actions for **several learning resources**.
+### Further options for individual learning resources {: #row_menu}
 
-### 11. Members management
+Clicking on the **3 dots** at the end of a table row opens a menu with several options.
 
-Here you can organize members of a learning resource. You can find more information on this in the chapter [Members management](../learningresources/Members_management.md).
+Actions in the menu under the 3 dots always refer to the **single learning resource** of this row. With the buttons above the table, on the other hand, you carry out actions for **several learning resources**.
 
-### 12. Export content
+The entries "Settings", the entry for the editor and "Members management" only appear if you are owner of the learning resource, learning resource manager or administrator.
 
-This allows you to export your learning resources as a ZIP file, e.g. as a backup or for import into another system.
+### Members management {: #members_management}
 
-### 13. Release of external OER catalogue [:octicons-tag-16:{ title="from Release 17.2 (OO-6583)" }](https://track.frentix.com/issue/OO-6583){:target="_blank"}
+Here you organise the members of a learning resource. You can find more information on this in the chapter [Members management](../learningresources/Members_management.md).
 
-If a course or learning resource is to be found by search engines, you can call up this option.<br>
-You can find a detailed guide to the topic [here](../../manual_how-to/oai_pmh/oai_pmh.md).
+### Export content {: #export_content}
 
-### 14. Convert to learning path course
+This allows you to export your learning resources as a ZIP file, for example as a backup or for import into another system.
 
-If the table row is a conventional course, the option "Convert to learning path course" is also displayed. A new, converted [Learning path course](../learningresources/Learning_path_course.md) will be created as a copy. The original version will be preserved as a conventional course.
+### Duplicate as learning path {: #duplicate_as_learning_path}
 
-### 15. Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"}
+If the table row is a conventional course, the menu also shows the option "Duplicate as learning path". A new, converted [Learning path course](../learningresources/Learning_path_course.md) is created as a copy, the original version is preserved as a conventional course.
 
-If the table row is a learning path course, the option "Copy with wizard" is also displayed.
+### Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
+
+If the table row is a learning path course, the menu also shows the option "Copy with wizard".
 
 [To the top of the page ^](#authoring_bulk_actions)
 
@@ -146,14 +147,14 @@ If the table row is a learning path course, the option "Copy with wizard" is als
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
-[Course settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
+[Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
 
 **Further reading**<br>
 [Creating Courses >](../../manual_user/learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course elements in the Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)
+[Course elements in the Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
+[How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)
 
 [To the top of the page ^](#authoring_bulk_actions)

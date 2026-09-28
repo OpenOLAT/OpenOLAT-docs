@@ -4,9 +4,9 @@ Here you get an overview of how to further configure a test in a course, how to 
 
 ## Test Configuration at Course Level
 
-Open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
+Owners of the course, learning resource managers and administrators as well as persons with the right "Course editor" open the course editor. Open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
 
-![Ten tabs for configuring a course element Test, from Title and description to Reminders, in the course editor](assets/Test_Kurseditor_Tabs_172_en.png){ class="shadow lightbox" }
+![Ten tabs for configuring a course element Test, from Title and description to Reminders](assets/Test_Kurseditor_Tabs_172_en.png){ class="shadow lightbox" title="Course element Test in the course editor" }
 
 The "Title and description" and "Layout" tabs are the same for all course elements.
 
@@ -14,7 +14,7 @@ The "Title and description" and "Layout" tabs are the same for all course elemen
 
 In the Learning path tab, you can define whether the course element is mandatory for the learning path course, whether it should not be used for the learning path display (setting "Voluntary"), or whether the course element should not be displayed at all (setting "Excluded"). You can also define a release date, a maximum processing date and the expected processing time. The following completion criteria are also available for tests:
 
-![Completion criterion with five options as a selection, with Confirmation by participant selected, in the Learning path tab of the course element Test](assets/test_completion_criterion.png){ class="shadow lightbox" }
+![Completion criterion with five options as a selection, with Confirmation by participant selected](assets/test_completion_criterion.png){ class="shadow lightbox" title="Learning path tab of the course element Test" }
 
 ### Tab "Test configuration"
 
@@ -26,7 +26,7 @@ The following settings are possible after you have created or assigned a learnin
 
 **Levels/Grading**: Select one of the predefined rating scales, e.g. grades, levels or emojis. You can then also adjust the lower limit of points. Also decide whether the level assignment should be automatically visible to the participants or whether the assignment should be provided manually by the coach.
 
-**Ignore in course assessment**: If the check mark is set here, the test is not taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
+**Include in course assessment**: If you switch this toggle off, the test is not taken into account in the course assessment of a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
 
 **Set assessment period**: The test can be started during the test period. As soon as the "Until" time is reached, the test is automatically terminated. This is also the case if the defined time limit has not yet run out. Instead of a fixed date, a relative date can also be selected, e.g. x days after the first course attendance. How the test period and the assessment mode work together is shown in [How do the times of an exam fit together?](../../manual_how-to/exam_preparation/exam_preparation.md#exam_times)
 
@@ -38,7 +38,7 @@ The following settings are possible after you have created or assigned a learnin
 * **Manual by course coach/owner**: The course team does the correction. For each completed attempt an order is created in the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_assessments), in the tab "Open reviews".
 * **Manual by graders**: The people entered in the correction workflow do the correction. They need neither a membership nor the role coach in the course. Their orders appear in the coaching in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). With this choice the tab "Correctors" with the assigned people additionally appears at the course element.
 
-![List of the assigned correctors with their configuration, in the Correctors tab of the course element Test](assets/Test_Tab_Korrektoren.png){ class="shadow lightbox" }
+![Configuration of the correction workflow and list of the assigned correctors with status, above it the link to the test learning resource](assets/Test_Tab_Korrektoren.png){ class="shadow lightbox" title="Correctors tab of the course element Test" }
 
 !!! tip "Prerequisite"
 
@@ -49,7 +49,7 @@ The following settings are possible after you have created or assigned a learnin
 * Not released: After the correction the assessment stays with you until you release it. Until then the entry is in the coaching in the tab [Reviews to release](../area_modules/Coaching_Assessment_Orders.md#tab_assessments_to_be_released).
 * Released: OpenOlat releases the assessment when the correction is completed, the participants see it afterwards.
 
-![Correction Automatic or manual and Release assessment as Not released or Released, in the Correction section of the Test configuration tab](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow lightbox" }
+![Field Correction with the three variants marked, Manual by graders selected, below it Release assessment with Not released and Released](assets/tests_at_course_level_correction_settings_v1_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.09.28" }
 
 #### Section Report {: #report}
 
@@ -57,13 +57,13 @@ The following settings are possible after you have created or assigned a learnin
 
 **Show assessment on test homepage**: Here it can be defined whether, or under which conditions, the results should be shown on the test homepage.
 
-![Drop-down list Show assessment on test homepage with six options from No to If not passed or passed, in the Report section of the Test configuration tab](assets/Test_Report_config.png){ class="shadow lightbox" }
+![Drop-down list Show assessment on test homepage with six options from No to If not passed or passed](assets/Test_Report_config.png){ class="shadow lightbox" title="Report section in the Test configuration tab" }
 
 If the "Always" field is selected, the results are available immediately after the test is completed. If "No" is selected, the results are not displayed at all. And with the other options, criteria- or date-dependent displays can be defined.
 
 **Show results after test has been submitted**: Here you configure whether the learners see the results directly after submitting. Which information they receive is defined under "Overview results". The selection chosen is the same for "Show assessment on test homepage" and "Show results after test has been submitted":
 
-![Five checkboxes under Overview results, from Test summary to Solution, in the Report section of the Test configuration tab](assets/Optionen_Anzeige_Resultate.png){ class="shadow lightbox" }
+![Five checkboxes under Overview results, from Test summary to Solution](assets/Optionen_Anzeige_Resultate.png){ class="shadow lightbox" title="Overview results field in the Report section" }
 
 The **test summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
@@ -90,7 +90,7 @@ Here you can set whether participants can send live chat requests to the coaches
 
 A highscore overview for the test can also be activated and further configured here.
 
-![Checkbox Show Highscore with starting date and four displays, including Podium and Histogram, in the HighScore tab of the course element Test](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" }
+![Checkbox Show Highscore with starting date, anonymization and four displays, including Podium and Histogram](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" title="HighScore tab of the course element Test" }
 
 ### Tab "Correctors" [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442)
 An overview of the correctors and further information will appear. Changes can be made via a link to the test's learning resource.
@@ -125,18 +125,19 @@ Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 !!! warning "Attention"
 
-    As soon as a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.
+    As soon as a test or self-test is included in a course, only very limited changes can be made in the "Test editor". Therefore, tests should not be included in a course until they are completely finished.
 
-Why is that? Assuming you could add questions to an integrated test or mark other answers as correct, not all test subjects would meet the same requirements. On the other hand, results may already have been saved that cannot be unambiguously assigned to a version of the test file after the change. Therefore the editing of already integrated tests and self-tests is strongly restricted.
+Why is that? Assuming you could add questions to an integrated test or mark other answers as correct, not all participants would meet the same requirements. On the other hand, results may already have been saved that cannot be unambiguously assigned to a version of the test file after the change. Therefore the editing of already integrated tests and self-tests is strongly restricted.
 
 For example, if you want to add a new question to a test or if an answer was incorrectly marked as correct, copy the learning resource Test in the Author Area and save the test again. Edit and correct the test and then include the test in the course. To do this, switch to the course editor and exchange the file in the course element of the desired test. If results have already been received, they will be archived in your personal folder (private) and you can decide whether OpenOlat should inform the course participants who have already taken the test about the change.
 
 ## View and grade tests
 
-Access to tests completed by participants is available in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. Select the desired course element Test there. The "Participants" tab displays all participants, and their tests can be called up, viewed, changed and commented on in relation to a person.
+Access to tests completed by participants is available in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found under `Course > Administration > Assessment tool`. Select the desired course element Test there. The "Participants" tab displays all participants, and their tests can be called up, viewed, changed and commented on in relation to a person.
+
 Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
 
-![Participants with attempts, score and status as well as an open row menu with actions such as Reset number of attempts, in the Participants tab in the course run](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" }
+![Participants with attempts, score and status as well as an open row menu with actions such as Reset number of attempts](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" title="Participants tab of a test in the course run" }
 
 If the correction workflow is switched on for a test, the entered correctors make the assessments via the [Coaching Tool](../area_modules/Coaching.md).
 
@@ -144,7 +145,7 @@ If the correction workflow is switched on for a test, the entered correctors mak
 
 Select `Course > Administration > Archiving & Reporting`, see [Archiving & Reporting](../learningresources/Course_Archiving.md). There you can download all course results, or create a partial archive with only the desired tests under `Course > Administration > Archiving & Reporting > Course archiving > Create archive`. The results of self-tests are saved anonymously.
 
-After archiving, you will find all information about who answered which questions, which answers were given and how many points were achieved during the self-test.
+After archiving, you will find all information about which person (anonymized by a sequential number for self-tests) answered which questions, which answers they gave and, for self-tests, how many points were achieved.
 
 Via `Course > Administration > Test statistics` ([Test statistics](../learningresources/Statistics_Test.md)) you can also quickly access the graphical assessment of your test data.
 

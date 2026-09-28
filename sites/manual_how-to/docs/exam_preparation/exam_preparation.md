@@ -18,7 +18,7 @@
 ??? abstract "Expected previous knowledge"
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-    * ["How do I proceed when creating a test?"](../test_creation_procedure/test_creation_procedure.md)
+    * ["How do I proceed when I create a test?"](../test_creation_procedure/test_creation_procedure.md)
 
 
 ---
@@ -42,7 +42,7 @@ Now it is a matter of planning and conducting an exam with this course/test. To 
 
 The settings (configuration) are made in various places and on various levels.
 
-![Four nested levels, each with its own configuration: course, course element, learning resource and question](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
+![Four nested levels, each with its own configuration: course, course element, learning resource and question](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" title="Levels of the exam configuration" }
 
 **Course** level<br>
 On this level you define, for example, when the overall course counts as "passed".<br>
@@ -58,7 +58,7 @@ A test learning resource can be used in various course elements. All settings (e
 
 **Question** level<br>
 On the level of a question you define, for example, feedback.<br>
-`Authoring > "Test learning resource" > Administration > Edit content > "Question"`, there in the various tabs
+`Authoring > "Test learning resource" > Administration > Test editor > "Question"`, there in the various tabs
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -134,11 +134,11 @@ If **individual participants** arrive late, it is at the discretion of the super
 
 **Procedure, variant 1:**
 
-- In the course, select the assessment tool under Administration.
+- Open the assessment tool under `Course > Administration > Assessment tool`.
 - There, select the test course element.
 - As a coach, you will find all exam participants with their status displayed in the "Participants" tab.
 - Select the checkbox in the first column for all affected people. As soon as at least one person is selected, additional buttons are displayed above the list.
-- Select the "Extend" button.
+- Select the "Prolong" button.
 - Enter the extension time in minutes.
 
 !!! info "Note on the extension time"
@@ -192,7 +192,7 @@ You may also be able to add a note on how to proceed in an emergency and instruc
 
 If it was configured that only 1 attempt is possible, it can happen that participants can no longer start the test after an accidental (too early) end. In this case, proceed as follows:
 
-- In the course, select the assessment tool under Administration.
+- Open the assessment tool under `Course > Administration > Assessment tool`.
 - There, select the test course element.
 - As a coach, you will find all exam participants with their status displayed in the "Participants" tab.
 - Click the 3 dots at the end of the row for the person concerned.
@@ -264,12 +264,12 @@ In the case of an automatic ending of the assessment mode, the exam time can be 
 - As a coach, select the test course element
 - select the Participants tab
 - Select all the checkboxes in the first column for the participants who should receive an extension.
-- As soon as at least one checkbox is marked, the "Extend" button also appears above the list.
-- Once you have clicked "Extend", you can specify in the pop-up window by how many minutes the test time should be extended.
+- As soon as at least one checkbox is marked, the "Prolong" button also appears above the list.
+- Once you have clicked "Prolong", you can specify in the pop-up window by how many minutes the test time should be extended.
 
 For individual persons, you will also find the option to extend the test time under the 3 dots at the end of a row in the participant list.
 
-!!! note "Note"
+!!! info "Important"
 
     Please note that an extension can only be granted to people who have already started the test. (If a test is, for example, already being corrected, the working time can no longer be extended.)
 
@@ -341,7 +341,8 @@ It can happen that exam participants accidentally end a test that has not been f
 - Select the "Participants" tab.
 - Open the overview of the person concerned by clicking on a name.
 - All test attempts of this person are displayed.
-- Click the 3 dots at the end of the row for the test attempt. There you can annul the individual test attempts and restore the first attempt.
+- Click the 3 dots at the end of the row for the second test attempt and select "Invalidate".
+- In the dialog, select "Invalidate and transfer result". OpenOlat then carries the result of the first attempt over into the assessment.
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -392,7 +393,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [Assessment management: assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)
 
-**Further information**<br>
+**Further reading**<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
 

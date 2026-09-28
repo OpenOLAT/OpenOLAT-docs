@@ -1,18 +1,18 @@
 # Test Einstellungen - Administration {: #test_settings}
 
-Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernressourcen, weitere Menüs. Hier konfigurieren Sie den Test näher. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Inhalt editieren". Den Bereich sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen.
+Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernressourcen, weitere Menüs. Hier konfigurieren Sie den Test näher. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Testeditor". Den Bereich sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen.
 
-![Zehn Einträge von "Einstellungen" bis "Test löschen", davon "Angebotsarten" ausgegraut, im aufgeklappten Menü Administration einer veröffentlichten Test-Lernressource.](assets/test_administration_menu_v1_de.png){ class="shadow lightbox" }
+![Menü Administration mit elf Einträgen von "Einstellungen" bis "Löschen", darunter "Testeditor", davon "Angebotsarten" ausgegraut](assets/test_administration_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration einer veröffentlichten Test-Lernressource · 2026.09.28" }
 
 Die grundsätzliche Konfiguration des gesamten Tests erfolgt grösstenteils in den **"Einstellungen"**, besonders im Tab "Optionen" (siehe unten).
 
 Das Menü **"Mitgliederverwaltung"** ist besonders dann relevant, wenn der Test kursunabhängig verwendet werden soll, ansonsten erfolgt die Mitgliederverwaltung der Test-Teilnehmenden über den verbundenen Kurs. 
 
-Unter "Inhalt editieren" gelangen Sie in den Testeditor. Hier legen Sie den eigentlichen Test an.
+Der Eintrag **"Testeditor"** öffnet den Testeditor. Dort legen Sie die Fragen und den Aufbau des Tests an. Der Eintrag zum Editor im Menü Administration nennt den Editor immer beim Namen: bei einem Test "Testeditor", bei einem Formular "Formulareditor", bei einem Video "Video-Editor" und bei einem Kurs "Kurseditor". Bei allen übrigen Lernressourcen heisst er "Inhalt editieren". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
 
 !!! note "Testeditor QTI 2.1"
     Übersicht zum Testeditor.<br>
-    [Inhalt editieren](Test_editor_QTI_2.1.de.md)
+    [Testeditor](Test_editor_QTI_2.1.de.md)
 
 Das **"Bewertungswerkzeug"** des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständige".
 
@@ -26,7 +26,7 @@ Mit Hilfe eines Wizards können basierend auf dem Online-Test unter **"Handschri
 
 Über die Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" können die Tests kopiert bzw. gespeichert werden. 
 
-**"Test löschen"** löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
+**"Löschen"** löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
 
 Auf dieser Seite finden Sie nähere Erläuterungen zu folgenden Administrationsmenüs der Lernressource Test:
 
@@ -44,9 +44,9 @@ Auf dieser Seite finden Sie nähere Erläuterungen zu folgenden Administrationsm
 
 Wichtig für Tests ist vor allem der Tab "Optionen". Hier konfigurieren Sie den gesamten Test.  
 
-![Fünf Tabs "Info", "Metadaten", "Freigabe", "Katalog" und "Optionen", davon "Optionen" aktiv, rechts vom angewählten Eintrag Einstellungen im Menü Administration einer Test-Lernressource.](assets/Test_menu_settings_DE.png){ class="shadow lightbox" }
+![Tabs "Metadaten", "Info", "Freigabe" und "Optionen", davon "Optionen" aktiv, links das geöffnete Menü Administration mit dem Eintrag "Einstellungen"](assets/test_settings_menu_settings_v1_de.png){ class="shadow lightbox" title="Einstellungen einer Test-Lernressource · 2026.09.28" }
 
-Darüber hinaus können in den weiteren Tabs "Info", "Metadaten", "Freigabe" und "Katalog" weitere Einstellungen der Lernressource vorgenommen werden. Achten Sie hier besonders darauf, dass die eingestellte Lizenzangabe unter "Metadaten" Ihren Vorstellungen entspricht.
+Darüber hinaus können in den weiteren Tabs "Metadaten", "Info" und "Freigabe" weitere Einstellungen der Lernressource vorgenommen werden. Ist das Modul "Katalog" auf "Katalog V1" eingestellt, erscheint zusätzlich der Tab "Katalog". Achten Sie hier besonders darauf, dass die eingestellte Lizenzangabe unter "Metadaten" Ihren Vorstellungen entspricht.
 
 ### Tab Optionen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
@@ -61,9 +61,9 @@ Im Tab "Optionen" legen Sie fest, wie Teilnehmende den Test durchlaufen: wie vie
 
 Hier wählen Sie eine vorkonfigurierte Auswahl von typischen Einstellungen für unterschiedliche Nutzungssituationen von Tests.
 
-Entscheiden Sie z. B., ob es sich um einen summativen oder formativen Test handelt, oder verwenden Sie eine andere voreingestellte Konfiguration. Das erleichtert es gerade unerfahrenen Autoren schnell zu einer passenden Einstellung zu gelangen. Spätere Änderungen und individuelle Anpassungen sind aber weiterhin möglich.
+Entscheiden Sie z. B., ob es sich um einen summativen oder formativen Test handelt, oder verwenden Sie eine andere voreingestellte Konfiguration. Das erleichtert es gerade unerfahrenen Autor:innen schnell zu einer passenden Einstellung zu gelangen. Spätere Änderungen und individuelle Anpassungen sind aber weiterhin möglich.
 
-![Auswahlliste mit "Profil wählen...", "Summativ (scharfe Prüfung)" und "Formativ (Übungstest)" sowie der Button "Konfiguration übernehmen", im Feld Standardeinstellungen des Tabs Optionen.](assets/Test_Standardeinstellungen_DE.png){ class="shadow lightbox" }
+![Auswahlliste mit "Profil wählen...", "Summativ (scharfe Prüfung)" und "Formativ (Übungstest)" sowie der Button "Konfiguration übernehmen"](assets/Test_Standardeinstellungen_DE.png){ class="shadow lightbox" title="Feld Standardeinstellungen im Tab Optionen" }
 
 #### Anzahl der Testversuche einschränken {: #limit_attempts}
 
@@ -120,7 +120,7 @@ Mit dem Ankreuzen der Checkbox erlauben Sie den Teilnehmenden den Test abzubrech
 
 Wenn diese Option angewählt wird, wird nach Beenden des Tests eine Testquittung erstellt, welche als XML-File heruntergeladen werden kann. Es dient der Verifizierung des Tests.
 
-![Markierte Zeile "Testquittung" mit dem Link "Herunterladen" und dem Erstellungsdatum, darüber Anzahl Versuche, Punktzahl und Status, in der Leistungsübersicht eines abgeschlossenen Tests.](assets/Testquittung_DE.png){ class="shadow lightbox" }
+![Markierte Zeile "Testquittung" mit dem Link "Herunterladen" und dem Erstellungsdatum, darüber Anzahl Versuche, Punktzahl und Status](assets/Testquittung_DE.png){ class="shadow lightbox" title="Leistungsübersicht eines abgeschlossenen Tests" }
 
 Wenn die Option "Testquittung erstellen" ausgewählt ist, kann die Option "Testquittung per Mail schicken" zusätzlich aktiviert werden. Das erstellte XML-File wird dann zusätzlich per Mail an die Teilnehmenden verschickt.
 
@@ -152,7 +152,7 @@ Die jeweiligen Korrektor:innen werden automatisch benachrichtigt, wenn neue Bear
 
 ### Tab "Korrektor:innen"
 
-![Button "Korrektor:in hinzufügen" sowie die Tabs "Konfiguration" und "Korrekturaufträge" im geöffneten Tab "Korrektor:innen" des Menüs Korrektur-Workflow einer Test-Lernressource.](assets/grading_workflow_tab_correctors_v1_de.png){ class="shadow lightbox" }
+![Button "Korrektor:in hinzufügen" markiert, darüber die Tabs "Konfiguration", "Korrektor:innen" und "Korrekturaufträge"](assets/grading_workflow_tab_correctors_v1_de.png){ class="shadow lightbox" title="Tab Korrektor:innen im Menü Korrektur-Workflow" }
 
 Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Personen mit der Rolle "Benutzer:in" können als Korrektor:in hinzugefügt werden. Über das Zeilenmenü einer Korrektor:in stehen weitere Aktionen bereit: "Zuweisungen anzeigen", "Korrektor:in kontaktieren", "Report herunterladen", "Deaktivieren" beziehungsweise "Aktivieren", "Abwesenheit erfassen" und "Entfernen".
 
@@ -173,7 +173,7 @@ Im Tab "Korrektor:innen" öffnen Sie im Zeilenmenü einer Korrektor:in den Eintr
 * Der Schalter "Nur erledigte Aufträge" ist eingeschaltet und beschränkt den Report auf abgeschlossene Korrekturaufträge. Schalten Sie ihn aus, umfasst der Report alle Korrekturaufträge ohne Einschränkung auf einen Zeitraum.
 * Solange der Schalter eingeschaltet ist, grenzen Sie den Zeitraum über die "Vordefinierten Zeiträume" "Letzter Monat" und "Letztes Jahr" oder über das Pflichtfeld "Erledigt am" ein. Beide Datumsfelder müssen gefüllt sein.
 
-![Schalter "Nur erledigte Aufträge" eingeschaltet, die Buttons "Letzter Monat" und "Letztes Jahr" und das Pflichtfeld "Erledigt am" mit zwei Datumsfeldern, vor dem Herunterladen des Reports.](assets/grading_report_export_dialog_v1_de.png){ class="shadow lightbox" }
+![Schalter "Nur erledigte Aufträge" eingeschaltet, die Buttons "Letzter Monat" und "Letztes Jahr" und das Pflichtfeld "Erledigt am" mit zwei Datumsfeldern](assets/grading_report_export_dialog_v1_de.png){ class="shadow lightbox" title="Dialog zum Herunterladen des Reports" }
 
 Im Tab "Korrekturaufträge" erzeugt der Button "Bericht" denselben Report über die dort angezeigten Korrekturaufträge.
 
@@ -181,7 +181,7 @@ Der Report weist zu jedem Korrekturauftrag den Status ("Nicht zugeordnet", "Zuge
 
 Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" und "Archive". Das Worksheet "Archive" führt archivierte Korrekturauftrag-Einträge auf, deren Auftragsdatensatz inzwischen entfernt wurde (etwa weil ein Prüfling, ein Korrektor:in oder die Test-Lernressource gelöscht wurde), inklusive Korrekturzeit und dem Datum "Erledigt am" für die Abrechnung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
 
-![Spalten "Kurs", "Kennzeichen", "Korrektur (Minuten)", "Korrektur (echte Minuten)" und "Erledigt am", davor Name und Anmeldename von Korrektor:in und Prüfling, im Worksheet "Archive".](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" }
+![Spalten "Kurs", "Kennzeichen", "Korrektur (Minuten)", "Korrektur (echte Minuten)" und "Erledigt am", davor Name und Anmeldename von Korrektor:in und Prüfling](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" title="Worksheet Archive der Excel-Datei" }
 
 !!! note "Coaching Tool"
     Weitere Informationen zur kursübergreifenden Korrektur.<br>
@@ -196,23 +196,23 @@ Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" un
 
 Wenn Sie offline eine Prüfung durchführen wollen, können Sie in diesem Wizard ein Deckblatt und verschiedene Versionen von Ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
 
-1. In den Optionen wählen Sie die Sprache und die Anzahl der Tests sowie einen Präfix für die Dateinamen aus. Sie können auch bestimmen, ob Sie ein Deckblatt oder auch eine zusätzliche Seite mitgenerieren wollen.
+1. In den Optionen wählen Sie die Sprache und die Anzahl der Tests sowie im Feld "Seriennummer" einen Präfix für die Dateinamen aus. Sie können auch bestimmen, ob Sie ein Deckblatt oder auch eine zusätzliche Seite mitgenerieren wollen.
 
-    ![Felder "Anzahl der Tests", "Ausgangsprache" und "Seriennummer" sowie die Auswahl von Deckblatt und zusätzlicher Seite, im Schritt Optionen des Wizards "Handschriftliche Prüfungen generieren".](assets/Test_offline_options_DE.png){ class="shadow lightbox" }
+    ![Schritt Optionen mit den Feldern "Anzahl der Tests", "Ausgangsprache für Export" und "Seriennummer" sowie der Auswahl "Erste Seite" und "Zusätzliche Seite" unter Deckblatt](assets/test_settings_paper_exam_options_v1_de.png){ class="shadow lightbox" title="Schritt Optionen des Wizards Handschriftliche Prüfungen generieren · 2026.09.28" }
 
 2. Im zweiten Schritt wählen Sie die Attribute, die auf das Deckblatt kopiert werden sollen. Manche Attribute, wie die Beschreibung der Testressource, sind noch anpassbar.
 
-    ![Attributgruppen Allgemeines und Testparameter zur Auswahl für das Deckblatt, im Schritt Deckblattattribute des Wizards "Handschriftliche Prüfungen generieren".](assets/Test_offline_Deckblattattribute_DE.png){ class="shadow lightbox" }
+    ![Attributgruppen Allgemeines und Testparameter zur Auswahl für das Deckblatt, alle angehakt](assets/test_settings_paper_exam_cover_attributes_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattattribute des Wizards · 2026.09.28" }
 
 3. Hier ist die Möglichkeit, bestimmte Felder zu markieren und zu überschreiben. Das Beschreibungsfeld wird von der Testressource herüberkopiert und lässt sich hier nochmals anpassen.
 
-    ![Die Felder "Titel" und "Verfahren" sowie das Beschreibungsfeld mit HTML-Editor, überschreibbar für das Deckblatt, im Schritt Deckblattfelder des Wizards "Handschriftliche Prüfungen generieren".](assets/Test_offline_Deckblattfelder_DE.png){ class="shadow lightbox" }
+    ![Die Felder "Titel" und "Verfahren" sowie das Feld "Informationen (Beschreibungsfeld)" mit HTML-Editor, überschreibbar für das Deckblatt](assets/test_settings_paper_exam_cover_fields_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattfelder des Wizards · 2026.09.28" }
 
 4. Haben Sie im Schritt "Optionen" die Option "Zusätzliche Seite" aktiviert, erscheint hier der Schritt "Zusätzliche Seite".
 
 5. Die Zusammenfassung beinhaltet eine Übersicht aller getätigten Einstellungen sowie eine Vorschau der zu generierenden Tests. Bitte beachten Sie, dass eine grössere Anzahl von Generierungen etwas dauern kann und der Browser möglicherweise nicht immer reagiert.
 
-    ![Anzahl Tests, Dateiformat, Ausgabesprache und Seriennummer sowie die Buttons "Vorschau" und "Vorschau mit Lösungen", im Schritt Zusammenfassung des Wizards "Handschriftliche Prüfungen generieren".](assets/Test_offline_Zusammenfassung_DE.png){ class="shadow lightbox" }
+    ![Anzahl Tests und Lösungsblätter, Dateiformat, Ausgabesprache, Seriennummern, die vom Test mitgegebenen Parameter und die Angaben für das Deckblatt](assets/test_settings_paper_exam_summary_v1_de.png){ class="shadow lightbox" title="Schritt Zusammenfassung des Wizards · 2026.09.28" }
 
 [zum Seitenanfang ^](#test_settings)
 

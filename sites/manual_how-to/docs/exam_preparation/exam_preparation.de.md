@@ -40,7 +40,7 @@ Jetzt geht es darum, mit diesem Kurs/Test eine Prüfung zu planen und durchzufü
 
 Die Einstellungen (Konfiguration) wird an verschiedenen Stellen und auf verschiedenen Ebenen vorgenommen.
 
-![Vier verschachtelte Ebenen mit eigener Konfiguration: Kurs, Kursbaustein, Lernressource und Frage](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" }
+![Vier verschachtelte Ebenen mit eigener Konfiguration: Kurs, Kursbaustein, Lernressource und Frage](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" title="Ebenen der Prüfungskonfiguration" }
 
 Ebene **Kurs**<br>
 Auf dieser Ebene wird z.B. festgelegt, wann der Gesamtkurs als "bestanden" gilt.<br>
@@ -56,7 +56,7 @@ Eine Test-Lernressource kann in verschiedenen Kursbausteinen verwendet werden. A
 
 Ebene **Frage**<br>
 Auf Ebene einer Frage werden z.B. Feedbacks definiert.<br>
-`Autorenbereich > "Test-Lernressource" > Administration > Inhalt editieren > "Frage"`, dort in den verschiedenen Tabs
+`Autorenbereich > "Test-Lernressource" > Administration > Testeditor > "Frage"`, dort in den verschiedenen Tabs
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -91,7 +91,7 @@ Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingericht
 
 Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Prüfungsmodus mit dem Button "Starten" begonnen und beendet werden. Sie finden den Button unter:<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br>
-Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
+Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw. "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -132,7 +132,7 @@ Kommen **einzelne Teilnehmer:innen** zu spät, liegt es im Ermessen der Aufsicht
 
 **Vorgehen Variante 1:**
 
-- Wählen Sie im Kurs unter Administration das Bewertungswerkzeug.
+- Öffnen Sie das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`.
 - Wählen Sie dort den Test-Kursbaustein.
 - Als Betreuer:in finden Sie im Tab "Teilnehmer:innen" alle Prüfungsteilnehmer:innen mit ihrem Status angezeigt.
 - Selektieren Sie bei allen betroffenen Personen die Checkbox in der ersten Spalte. Sobald mindestens eine Person ausgewählt ist, werden Ihnen über der Liste zusätzliche Buttons angezeigt.
@@ -190,7 +190,7 @@ Evtl. können Sie auch im Prüfungskurs selbst einen Hinweis auf das Vorgehen im
 
 Wurde konfiguriert, dass nur 1 Lösungsversuch möglich ist, kann es passieren, dass Teilnehmende nach einem versehentlichen (zu frühen) Beenden den Test nicht mehr starten können. Gehen Sie in diesem Fall folgendermassen vor:
 
-- Wählen Sie im Kurs unter Administration das Bewertungswerkzeug.
+- Öffnen Sie das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`.
 - Wählen Sie dort den Test-Kursbaustein.
 - Als Betreuer:in finden Sie im Tab "Teilnehmer:innen" alle Prüfungsteilnehmer:innen mit ihrem Status angezeigt.
 - Klicken Sie bei der betreffenden Person auf die 3 Punkte am Ende der Zeile.
@@ -267,7 +267,7 @@ Im Fall einer automatischen Beendigung des Prüfungsmodus kann die Prüfungszeit
 
 Für Einzelpersonen finden Sie die Option zur Testzeitverlängerung auch unter den 3 Punkten am Ende einer Zeile der Teilnehmerliste.
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
     Beachten Sie, dass eine Verlängerung nur bei Personen gegeben werden kann, die den Test bereits gestartet haben. (Wird ein Test z.B. bereits korrigiert, kann die Bearbeitungszeit nicht mehr verlängert werden.)
 
@@ -295,7 +295,7 @@ Wie die Zeiten zusammenwirken, zeigt die Grafik unter ["Wie hängen die Zeiten e
 
 Ist eine Prüfung bereits von einigen Teilnehmer:innen bearbeitet worden, kann die Prüfung bzw. eine Frage selbst nicht mehr abgeändert werden.
 
-* Handelt es sich um einen einfachen Fehler (z.B. Schreibfehler), der problemlos allen Teilnehmer noch kommuniziert werden kann, bietet sich eine Information an alle Prüfungsteilnehmer:innen an. Entweder mündlich im Prüfungsraum oder auch z.B. im Prüfungs-Chat. (Siehe [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)). 
+* Handelt es sich um einen einfachen Fehler (z.B. Schreibfehler), der problemlos allen Teilnehmenden noch kommuniziert werden kann, bietet sich eine Information an alle Prüfungsteilnehmer:innen an. Entweder mündlich im Prüfungsraum oder auch z.B. im Prüfungs-Chat. (Siehe [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)). 
 
 * Kann eine Frage wegen des Fehlers gar nicht gelöst werden, bleibt der Ausweg, dass alle Teilnehmer:innen z.B. die vorgesehene volle Punktzahl für diese Frage erhalten. Dazu kann im Bewertungswerkzeug eine manuelle Bewertung vorgenommen werden. Informieren Sie während der laufenden Prüfung die Teilnehmer:innen und bewerten Sie die Frage dann wie angekündigt. Es empfiehlt sich, die Vergabe der Punkte mit einem entsprechenden Kommentar zur Begründung zu ergänzen.<br> 
 (Siehe ["So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein"](../../manual_user/learningresources/Assessment_of_learners.de.md#assess_solutions)). 
@@ -309,7 +309,7 @@ Beachten Sie in diesem Fall die Anleitung ["Wie wechsle ich einen Test aus?"](..
 
 ## Was kann ich gegen Betrugsversuche tun? {: #fraud_attempts}
 
-Betrugsversuche während eine Prüfung lassen sich nie zu 100% ausschliessen. Bei Prüfungen in einem gemeinsamen Raum haben deshalb die Aufsichtspersonen eine besondere Verantwortung. 
+Betrugsversuche während einer Prüfung lassen sich nie zu 100% ausschliessen. Bei Prüfungen in einem gemeinsamen Raum haben deshalb die Aufsichtspersonen eine besondere Verantwortung. 
 
 Wenn es der Prüfungsstoff zulässt, werden oft auch "Open Book Prüfungen" durchgeführt, an denen die Benutzung von Hilfsmitteln grundsätzlich erlaubt ist. Die Prüfungszeit wird dann aber so begrenzt, dass keine Zeit zum "Just-in-time-Lernen" bleibt.
 
@@ -321,7 +321,7 @@ Siehe auch [Kursspezifische Nutzungsbedingungen >](../../manual_user/basic_conce
 
 Um nach dem Start eines Tests alle anderen Aktivitäten in OpenOlat zu unterbinden, verwenden Sie einen [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md).
 
-Um nach dem Start eines Tests auch alle sonstigen Aktivitäten auf dem Rechner der Prüfungsteilnehmer einzuschränken, verwenden Sie den [Safe Exam Browser (SEB)](../../manual_how-to/SEB/SEB.de.md).
+Um nach dem Start eines Tests auch alle sonstigen Aktivitäten auf dem Rechner der Prüfungsteilnehmer:innen einzuschränken, verwenden Sie den [Safe Exam Browser (SEB)](../../manual_how-to/SEB/SEB.de.md).
 
 In einem Prüfungsmodus kann auch eine Einschränkung auf bestimmte IP-Adressen vorgenommen werden. So kann die Teilnahme an der Prüfung auf die ausschliessliche Nutzung von Geräten in einem Prüfungsraum begrenzt werden.
 
@@ -337,9 +337,10 @@ Es kann vorkommen, dass Prüfungsteilnehmer:innen versehentlich einen nicht voll
 - Öffnen Sie das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`.
 - Wählen Sie den betreffenden Test-Kursbaustein.
 - Wählen Sie den Tab "Teilnehmer:innen".
-- Öffnen Sie die Übersicht der betreffende Person durch Klick auf einen Namen.
+- Öffnen Sie die Übersicht der betreffenden Person durch Klick auf einen Namen.
 - Es werden alle Testversuche dieser Person angezeigt. 
-- Klicken Sie beim Testversuch auf die 3 Punkte am Ende der Zeile. Dort können Sie die einzelnen Testversuche annullieren und den ersten Versuch wieder.
+- Klicken Sie beim zweiten Testversuch auf die 3 Punkte am Ende der Zeile und wählen Sie "Annullieren".
+- Wählen Sie im Dialog "Annullieren und Resultat übertragen". OpenOlat übernimmt dann das Resultat des ersten Versuchs in die Bewertung.
 
 [zum Seitenanfang ^](#exam_preparation)
 

@@ -1,16 +1,16 @@
 # Qualitätsmanagement: Analyse {: #Quality_Management_Analysis}
 
 
-## Reports und Analysen {: #reports_analysis}
+## Reports und Analysen [:octicons-tag-16:{ title="ab Release 13.0 (OO-3687)" }](https://track.frentix.com/issue/OO-3687) {: #reports_analysis}
 
 Eine [Datenerhebung](Quality_Management_Data_Collections.de.md) kann z.B. über mehrere Kurse hinweg durchgeführt werden.
 Zu jeder Datenerhebung gibt es einen Report.
 
-![Eine Datenerhebung im Modul Qualitätsmanagement verknüpft ein Formular mit Kursen, Betreuer:innen und Curricula und liefert einen Report für den Befragungszeitraum](assets/quality_management_case2_v1_de.png){ class="lightbox" }
+![Eine Datenerhebung verknüpft ein Formular mit Kursen, Betreuer:innen und Curricula und liefert einen Report für den Befragungszeitraum](assets/quality_management_case2_v1_de.png){ class="lightbox" title="Datenerhebung im Modul Qualitätsmanagement" }
 
 Das Analyse-Werkzeug kann **über mehrere Datenerhebungen/Reports hinweg** eine Auswertung vornehmen.
 
-![Zwei Datenerhebungen mit demselben Formular liefern je einen Report, das Analyse-Werkzeug fasst beide zu einer Analyse zusammen](assets/quality_management_analysis_v2_de.png){ class="lightbox" }
+![Zwei Datenerhebungen mit demselben Formular liefern je einen Report, das Analyse-Werkzeug fasst beide zu einer Analyse zusammen](assets/quality_management_analysis_v2_de.png){ class="lightbox" title="Vom Formular zur Analyse" }
 
 !!! info "Wichtig"
 
@@ -27,11 +27,11 @@ Das Analyse-Werkzeug kann **über mehrere Datenerhebungen/Reports hinweg** eine 
 
 Um Analysen des Qualitätsmanagements einzusehen, klicken Sie auf den Link **"Analyse-Werkzeug öffnen"** im Abschnitt Analyse.
 
-![Abschnitt Analyse mit dem Link Analyse-Werkzeug öffnen und Eintrag Qualitätsmanagement im Menü Mehr markiert, Startseite des Qualitätsmanagements](assets/quality_management_analysis_menu1_v1_de.png){ class="shadow lightbox" }
+![Abschnitt Analyse mit dem Link Analyse-Werkzeug öffnen und Eintrag Qualitätsmanagement im Menü Mehr markiert](assets/quality_management_analysis_menu1_v1_de.png){ class="shadow lightbox" title="Startseite des Qualitätsmanagements" }
 
 Anschliessend wählen Sie Ihre Analyse aus und klicken dort auf **"Öffnen"**.
 
-![Karte einer gespeicherten Analyse mit Erstellungsdatum, erster und letzter Datenerhebung, Anzahl Datenerhebungen und Teilnahmen sowie dem Link Öffnen, Bereich Analyse](assets/quality_management_analysis_menu2_v1_de.png){ class="shadow lightbox" }
+![Karte einer gespeicherten Analyse mit Erstellungsdatum, erster und letzter Datenerhebung, Anzahl Datenerhebungen und Teilnahmen sowie dem Link Öffnen](assets/quality_management_analysis_menu2_v1_de.png){ class="shadow lightbox" title="Bereich Analyse im Qualitätsmanagement" }
 
 
 Eine Analyse kann nur aus Datenerhebungen/Reports erstellt werden, die das gleiche Formular als Grundlage haben (um Vergleichbarkeit zu gewährleisten). Werden verschiedene Formulare verwendet, benötigt es pro Formular auch eine eigene Analyse.
@@ -61,11 +61,11 @@ Für die Datengrundlage einer Analyse gelten die folgenden Regeln:
 
 * Für Analysen werden nur aus bereits beendeten [Datenerhebungen](Quality_Management_Data_Collections.de.md) Daten berücksichtigt. (Eine Datenerhebung schliesst sich am Ende des definierten Zeitfensters selbst ab.)
 
-* Sowohl bei Datenerhebungen als auch bei Analysen werden nur Daten berücksichtigt, die der Organisationseinheit der Qualitätsmanager:in entstammen.
+* Sowohl bei Datenerhebungen als auch bei Analysen werden nur Daten berücksichtigt, die der Organisation der Qualitätsmanager:in entstammen.
 
 * Mit Filtern kann eine Auswahl getroffen werden. Für Analysen werden dann die im Filter definierten Erhebungen als Datenquelle berücksichtigt. Wenn keine Eingrenzung durch einen Filter besteht, werden alle Erhebungen berücksichtigt, die mit diesem Formular gemacht wurden.
 
-![Filterbereich mit Datenerhebungen von und bis, Beurteilungsgegenstand, Organisation und Rolle der Teilnehmer:innen, geöffnet über den Button Filter rechts oben, Tab Übersicht einer Analyse](assets/quality_management_analysis_filter_v1_de.png){ class="shadow lightbox" }
+![Filterbereich mit Datenerhebungen von und bis, Beurteilungsgegenstand, Organisation und Rolle der Teilnehmer:innen, geöffnet über den Button Filter rechts oben](assets/quality_management_analysis_filter_v1_de.png){ class="shadow lightbox" title="Tab Übersicht einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -79,8 +79,8 @@ Auf Analysen haben nur Qualitätsmanager:innen und Principals Zugriff.
 Sie können die Analysen über die Hauptnavigation aufrufen unter:<br>
 `Qualitätsmanagement > Analyse`
 
-Werden Organisationseinheiten genutzt, dann gilt: <br>
-Sowohl bei Datenerhebungen als auch bei Analysen können Qualitätsmanager:innen jeweils nur die eigene Organisationseinheit analysieren.
+Werden Organisationen genutzt, dann gilt: <br>
+Sowohl bei Datenerhebungen als auch bei Analysen können Qualitätsmanager:innen jeweils nur die eigene Organisation analysieren.
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -108,13 +108,13 @@ Die 3 Kategorien "Gut", "Neutral" und "Ungenügend" werden im Rubrik-Element def
 Gehen Sie dazu folgendermassen vor:
 
 - Formular im Autorenbereich auswählen und öffnen
-- Formular editieren: `Formular > Administration > Inhalt editieren`
+- Formular editieren: `Formular > Administration > Formulareditor`
 - Rubrik-Element selektieren
-- Inspector-Popup öffnen (Klick auf das Zahnrad-Icon links oben beim Auswahlrahmen)
-- Im Inspector das Tab "Erweitert" wählen
+- Inspektor öffnen (Klick auf das Zahnrad-Icon links oben beim Auswahlrahmen)
+- Im Inspektor das Tab "Erweitert" wählen
 - Geben Sie dort die Werte für "Ungenügend", "Neutral" und "Gut" ein.
 
-![Tab Erweitert im Inspector Rubrik mit den Wertebereichen Ungenügend, Neutral und Gut markiert, dazu das Zahnrad-Icon des Rubrik-Elements, Formular-Editor](assets/quality_management_analysis_colorcode_definition_v1_de.png){ class="lightbox" }
+![Tab Erweitert im Inspektor der Rubrik mit den Wertebereichen Ungenügend, Neutral und Gut markiert, dazu das Zahnrad-Icon des Rubrik-Elements](assets/quality_management_analysis_colorcode_definition_v1_de.png){ class="lightbox" title="Rubrik-Element im Formulareditor" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -131,7 +131,7 @@ In jedem Diagramm zeigt ein Balken je Frage den Durchschnittswert (über alle Da
 
 Ausserdem zeigt der Balken T ein Gesamttotal (Durchschnitt aller Fragen).
 
-![Kennzahlen mit Anzahl Datenerhebungen und Rücklaufquote, Balkendiagramm Gesamttotal Rubriken mit rot und grün eingefärbten Balken je Frage und dem Balken T, Tab Übersicht einer Analyse](assets/quality_management_analysis_overview_v1_de.png){ class="shadow lightbox" }
+![Kennzahlen mit Anzahl Datenerhebungen und Rücklaufquote, Balkendiagramm Gesamttotal Rubriken mit rot und grün eingefärbten Balken je Frage und dem Balken T](assets/quality_management_analysis_overview_v1_de.png){ class="shadow lightbox" title="Tab Übersicht einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -143,7 +143,7 @@ Ausserdem zeigt der Balken T ein Gesamttotal (Durchschnitt aller Fragen).
 
 In der tabellarischen Darstellung werden alle Antworten aller Elemente des Formulars detailliert aufgeführt.
 
-![Tabelle mit den Antworten je Frage in den Spalten 1 bis 6, Anzahl, Median, Varianz, Standardabweichung und farbig markiertem Durchschnitt, Tab Tabellen einer Analyse](assets/quality_management_analysis_tables_v1_de.png){ class="shadow lightbox" }
+![Tabelle mit den Antworten je Frage in den Spalten 1 bis 6, Anzahl, Median, Varianz, Standardabweichung und farbig markiertem Durchschnitt](assets/quality_management_analysis_tables_v1_de.png){ class="shadow lightbox" title="Tab Tabellen einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -154,7 +154,7 @@ In der tabellarischen Darstellung werden alle Antworten aller Elemente des Formu
 
 Die Diagramme gründen auf den gleichen Daten wie die tabellarische Darstellung.
 
-![Balkendiagramm der Antwortverteilung je Frage mit den Kennzahlen Anzahl Antworten, Median, Varianz, Standardabweichung und Durchschnitt, Tab Diagramme einer Analyse](assets/quality_management_analysis_graphs_v1_de.png){ class="shadow lightbox" }
+![Balkendiagramm der Antwortverteilung je Frage mit den Kennzahlen Anzahl Antworten, Median, Varianz, Standardabweichung und Durchschnitt](assets/quality_management_analysis_graphs_v1_de.png){ class="shadow lightbox" title="Tab Diagramme einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -165,7 +165,7 @@ Die Diagramme gründen auf den gleichen Daten wie die tabellarische Darstellung.
 
 Für Einsichtnahme in die Datengrundlage, können auch die Formulare der einzelnen Teilnehmer:innen angesehen werden.
 
-![Liste der Teilnehmer:innen mit Vorname und Nachname und einem Auge-Icon zum Öffnen des einzelnen Formulars, Tab Einzelne Formulare einer Analyse](assets/quality_management_analysis_single_form_v1_de.png){ class="shadow lightbox" }
+![Liste der Teilnehmer:innen mit Vorname und Nachname und einem Auge-Icon zum Öffnen des einzelnen Formulars](assets/quality_management_analysis_single_form_v1_de.png){ class="shadow lightbox" title="Tab Einzelne Formulare einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -183,7 +183,7 @@ Die Grösse der Punkte symbolisiert die Anzahl der Antworten.
 
 Mit diesen Hilfsmitteln wird ein Vergleichen ermöglicht.
 
-![Heatmap mit drei Gruppierungen und der Option Nur ungenügende, je Datenerhebung farbige Punkte für die Fragen F1 bis F7, den Durchschnitt und Trend Detail, Tab Heatmap einer Analyse](assets/quality_management_analysis_heatmap_filter_v1_de.png){ class="shadow lightbox" }
+![Heatmap mit drei Gruppierungen und der Option Nur ungenügende, je Datenerhebung farbige Punkte für die Fragen F1 bis F7, den Durchschnitt und Trend Detail](assets/quality_management_analysis_heatmap_filter_v1_de.png){ class="shadow lightbox" title="Tab Heatmap einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -198,7 +198,7 @@ Im **Trend** sieht man dagegen, ob ein Beurteilungsgegenstand **im Verlauf der Z
 
 Wurden Massnahmen eingeleitet, wird im Trend ersichtlich, ob und ab wann die Massnahmen etwas genützt haben.
 
-![Trend mit Gruppierung nach Beurteilungsgegenstand Kurs, zeitlicher Gruppierung Jahr und Durchschnittswerten 2019 bis 2023 mit Pfeilsymbolen für die Entwicklung, Tab Trend einer Analyse](assets/quality_management_analysis_trend3_v1_de.png){ class="shadow lightbox" }
+![Trend mit Gruppierung nach Beurteilungsgegenstand Kurs, zeitlicher Gruppierung Jahr und Durchschnittswerten 2019 bis 2023 mit Pfeilsymbolen für die Entwicklung](assets/quality_management_analysis_trend3_v1_de.png){ class="shadow lightbox" title="Tab Trend einer Analyse" }
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
 
@@ -209,7 +209,7 @@ Wurden Massnahmen eingeleitet, wird im Trend ersichtlich, ob und ab wann die Mas
 
 Für Export (pdf, Excel) und Ausdruck der erstellten Analysen stehen rechts oben mehrere Buttons zur Verfügung.
 
-![Buttons Export Excel, Export PDF und Drucken rechts oben markiert, Tab Übersicht einer Analyse](assets/quality_management_analysis_export_v1_de.png){ class="shadow lightbox" }
+![Buttons Export Excel, Export PDF und Drucken rechts oben markiert](assets/quality_management_analysis_export_v1_de.png){ class="shadow lightbox" title="Tab Übersicht einer Analyse" }
 
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
@@ -217,15 +217,15 @@ Für Export (pdf, Excel) und Ausdruck der erstellten Analysen stehen rechts oben
 ---
 
 
-## Analyse für Organisationseinheiten {: #analysis_for_org_units}
+## Analyse für Organisationen {: #analysis_for_org_units}
 
-Damit eine Analyse für eine bestimmte Organisationseinheit gemacht werden kann, ist als Voraussetzung ein bereits **aktiviertes Modul "Organisationseinheiten"** erforderlich.
+Damit eine Analyse für eine bestimmte Organisation gemacht werden kann, ist als Voraussetzung ein bereits **aktiviertes Modul "Organisationen"** erforderlich.
 
-Die Rolle Qualitätsmanager:in kann dann für einzelne Organisationseinheiten vergeben werden. Dadurch sind die Zugriffsmöglichkeiten der Qualitätsmanager:innen auch auf ihre jeweilige Organisationseinheit einschränkbar.
+Die Rolle Qualitätsmanager:in kann dann für einzelne Organisationen vergeben werden. Dadurch sind die Zugriffsmöglichkeiten der Qualitätsmanager:innen auch auf ihre jeweilige Organisation einschränkbar.
 
-Haben Qualitätsmanager:innen Berechtigungen und Zugriff auf mehrere oder alle Organisationseinheiten, dann können sie beim Erstellen von Datenerhebungen die Befragung auf die gewünschten Organisationseinheiten einschränken. Sie machen dazu eine entsprechende Angabe im Tab "Konfiguration" der Datenerhebung.
+Haben Qualitätsmanager:innen Berechtigungen und Zugriff auf mehrere oder alle Organisationen, dann können sie beim Erstellen von Datenerhebungen die Befragung auf die gewünschten Organisationen einschränken. Sie machen dazu eine entsprechende Angabe im Tab "Konfiguration" der Datenerhebung.
 
-![Auswahlliste Organisationen mit OpenOLAT und drei Untereinheiten markiert, Tab Konfiguration einer Datenerhebung](assets/quality_management_analysis_orgunit_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste Organisationen mit OpenOLAT und drei untergeordneten Organisationen markiert](assets/quality_management_analysis_orgunit_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration einer Datenerhebung" }
 
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)
@@ -235,6 +235,10 @@ Haben Qualitätsmanager:innen Berechtigungen und Zugriff auf mehrere oder alle O
 
 ## Weiterführende Informationen {: #further_information}
 
-[Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)
+[Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Qualitätsmanagement: Übersicht >](Quality_Management.de.md)<br>
+[Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
+[Qualitätsmanagement: Datenerhebungsgeneratoren >](Quality_Management_Data_Collection_Generators.de.md)
 
 [Zum Seitenanfang ^](#Quality_Management_Analysis)

@@ -1,16 +1,16 @@
 # Quality Management: Analysis {: #Quality_Management_Analysis}
 
 
-## Reports and analyses {: #reports_analysis}
+## Reports and analyses [:octicons-tag-16:{ title="from Release 13.0 (OO-3687)" }](https://track.frentix.com/issue/OO-3687) {: #reports_analysis}
 
 A [data collection](Quality_Management_Data_Collections.md) can, for example, be carried out across several courses.
 There is a report for each data collection.
 
-![A data collection in the Quality management module links one form to courses, coaches and curricula and delivers a report for the survey period](assets/quality_management_case2_v1_de.png){ class="lightbox" }
+![A data collection links one form to courses, coaches and curricula and delivers a report for the survey period](assets/quality_management_case2_v1_de.png){ class="lightbox" title="Data collection in the module Quality management" }
 
 The analysis tool can perform an evaluation **across several data collections/reports**.
 
-![Two data collections with the same form each deliver a report, the analysis tool combines both into one analysis](assets/quality_management_analysis_v2_de.png){ class="lightbox" }
+![Two data collections with the same form each deliver a report, the analysis tool combines both into one analysis](assets/quality_management_analysis_v2_de.png){ class="lightbox" title="From the form to the analysis" }
 
 !!! info "Important"
 
@@ -27,11 +27,11 @@ The analysis tool can perform an evaluation **across several data collections/re
 
 To view analyses of the quality management, click on the link **"Go to analysis tool"** in the section Analysis.
 
-![Section Analysis with the link Go to analysis tool and entry Quality management in the More menu highlighted, start page of the quality management](assets/quality_management_analysis_menu1_v1_de.png){ class="shadow lightbox" }
+![Section Analysis with the link Go to analysis tool and entry Quality management in the More menu highlighted](assets/quality_management_analysis_menu1_v1_de.png){ class="shadow lightbox" title="Start page of the quality management" }
 
 Then select your analysis and click on **"Open"** there.
 
-![Card of a saved analysis with creation date, first and last data collection, number of data collections and participations and the link Open, section Analysis](assets/quality_management_analysis_menu2_v1_de.png){ class="shadow lightbox" }
+![Card of a saved analysis with creation date, first and last data collection, number of data collections and participations and the link Open](assets/quality_management_analysis_menu2_v1_de.png){ class="shadow lightbox" title="Section Analysis in the quality management" }
 
 
 An analysis can only be created from data collections/reports that are based on the same form (to ensure comparability). If different forms are used, a separate analysis is required for each form.
@@ -61,11 +61,11 @@ The following rules apply to the data basis of an analysis:
 
 * For analyses, only data from already finished [data collections](Quality_Management_Data_Collections.md) is taken into account. (A data collection finishes itself at the end of the defined time window.)
 
-* For both data collections and analyses, only data originating from the organizational unit of the quality manager is taken into account.
+* For both data collections and analyses, only data originating from the organisation of the quality manager is taken into account.
 
 * Filters can be used to make a selection. The data collections defined in the filter are then taken into account as the data source for analyses. If there is no restriction by a filter, all data collections made with this form are taken into account.
 
-![Filter area with data collections from and to, topic, organization and role of the participants, opened via the button Filter at the top right, tab Overview of an analysis](assets/quality_management_analysis_filter_v1_de.png){ class="shadow lightbox" }
+![Filter area with data collections from and to, topic, organisation and role of the participants, opened via the button Filter at the top right](assets/quality_management_analysis_filter_v1_de.png){ class="shadow lightbox" title="Tab Overview of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -79,8 +79,8 @@ Only quality managers and principals have access to analyses.
 You can access the analyses via the main navigation under:<br>
 `Quality management > Analysis`
 
-If organizational units are used, the following applies: <br>
-For both data collections and analyses, quality managers can only analyze their own organizational unit.
+If organisations are used, the following applies: <br>
+For both data collections and analyses, quality managers can only analyze their own organisation.
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -108,13 +108,13 @@ The 3 categories "Good", "Neutral" and "Insufficient" are defined and delimited 
 Proceed as follows:
 
 - Select and open the form in the authoring area
-- Edit the form: `Form > Administration > Edit content`
+- Edit the form: `Form > Administration > Form editor`
 - Select the rubric element
 - Open the inspector pop-up (click on the gear icon at the top left of the selection frame)
-- Select the tab "Advanced" in the inspector
+- Select the tab "Extended" in the inspector
 - Enter the values for "Insufficient", "Neutral" and "Good" there.
 
-![Tab Advanced in the inspector Rubric with the value ranges Insufficient, Neutral and Good highlighted, plus the gear icon of the rubric element, form editor](assets/quality_management_analysis_colorcode_definition_v1_de.png){ class="lightbox" }
+![Tab Extended in the inspector of the rubric with the value ranges Insufficient, Neutral and Good highlighted, plus the gear icon of the rubric element](assets/quality_management_analysis_colorcode_definition_v1_de.png){ class="lightbox" title="Rubric element in the form editor" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -131,7 +131,7 @@ In each diagram, one bar per question shows the average value (across all data c
 
 In addition, the bar T shows an overall total (average of all questions).
 
-![Key figures with number of data collections and response rate, bar chart Total rubrics with red and green colored bars per question and the bar T, tab Overview of an analysis](assets/quality_management_analysis_overview_v1_de.png){ class="shadow lightbox" }
+![Key figures with number of data collections and response rate, bar chart Total rubrics with red and green colored bars per question and the bar T](assets/quality_management_analysis_overview_v1_de.png){ class="shadow lightbox" title="Tab Overview of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -143,7 +143,7 @@ In addition, the bar T shows an overall total (average of all questions).
 
 In the tabular display, all answers of all elements of the form are listed in detail.
 
-![Table with the answers per question in the columns 1 to 6, count, median, variance, standard deviation and color-coded average, tab Tables of an analysis](assets/quality_management_analysis_tables_v1_de.png){ class="shadow lightbox" }
+![Table with the answers per question in the columns 1 to 6, count, median, variance, standard deviation and color-coded average](assets/quality_management_analysis_tables_v1_de.png){ class="shadow lightbox" title="Tab Tables of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -154,7 +154,7 @@ In the tabular display, all answers of all elements of the form are listed in de
 
 The diagrams are based on the same data as the tabular display.
 
-![Bar chart of the answer distribution per question with the key figures number of answers, median, variance, standard deviation and average, tab Diagrams of an analysis](assets/quality_management_analysis_graphs_v1_de.png){ class="shadow lightbox" }
+![Bar chart of the answer distribution per question with the key figures number of answers, median, variance, standard deviation and average](assets/quality_management_analysis_graphs_v1_de.png){ class="shadow lightbox" title="Tab Diagrams of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -165,7 +165,7 @@ The diagrams are based on the same data as the tabular display.
 
 For insight into the data basis, the forms of the individual participants can also be viewed.
 
-![List of participants with first name and last name and an eye icon to open the single form, tab Single forms of an analysis](assets/quality_management_analysis_single_form_v1_de.png){ class="shadow lightbox" }
+![List of participants with first name and last name and an eye icon to open the single form](assets/quality_management_analysis_single_form_v1_de.png){ class="shadow lightbox" title="Tab Single forms of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -183,7 +183,7 @@ The size of the dots symbolizes the number of answers.
 
 These tools enable comparisons.
 
-![Heat map with three groupings and the option Only insufficient, per data collection colored dots for the questions F1 to F7, the average and Trend detail, tab Heat map of an analysis](assets/quality_management_analysis_heatmap_filter_v1_de.png){ class="shadow lightbox" }
+![Heat map with three groupings and the option Only insufficient, per data collection colored dots for the questions F1 to F7, the average and Trend detail](assets/quality_management_analysis_heatmap_filter_v1_de.png){ class="shadow lightbox" title="Tab Heat map of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -198,7 +198,7 @@ In the **trend**, on the other hand, you can see whether a topic has been rated 
 
 If actions have been taken, the trend shows whether and from when the actions have had an effect.
 
-![Trend with grouping by topic Course, temporal grouping Year and average values 2019 to 2023 with arrow symbols for the development, tab Trend of an analysis](assets/quality_management_analysis_trend3_v1_de.png){ class="shadow lightbox" }
+![Trend with grouping by topic Course, temporal grouping Year and average values 2019 to 2023 with arrow symbols for the development](assets/quality_management_analysis_trend3_v1_de.png){ class="shadow lightbox" title="Tab Trend of an analysis" }
 
 [To the top of the page ^](#Quality_Management_Analysis)
 
@@ -209,7 +209,7 @@ If actions have been taken, the trend shows whether and from when the actions ha
 
 Several buttons are available at the top right for exporting (pdf, Excel) and printing the created analyses.
 
-![Buttons Export Excel, Export PDF and Print at the top right highlighted, tab Overview of an analysis](assets/quality_management_analysis_export_v1_de.png){ class="shadow lightbox" }
+![Buttons Export Excel, Export PDF and Print at the top right highlighted](assets/quality_management_analysis_export_v1_de.png){ class="shadow lightbox" title="Tab Overview of an analysis" }
 
 
 [To the top of the page ^](#Quality_Management_Analysis)
@@ -217,15 +217,15 @@ Several buttons are available at the top right for exporting (pdf, Excel) and pr
 ---
 
 
-## Analysis for organizational units {: #analysis_for_org_units}
+## Analysis for organisations {: #analysis_for_org_units}
 
-In order for an analysis to be made for a specific organizational unit, an already **activated module "Organizational units"** is required.
+In order for an analysis to be made for a specific organisation, an already **activated module "Organisations"** is required.
 
-The role Quality manager can then be assigned for individual organizational units. This means that the access options of the quality managers can also be restricted to their respective organizational unit.
+The role Quality manager can then be assigned for individual organisations. This means that the access options of the quality managers can also be restricted to their respective organisation.
 
-If quality managers have permissions and access to several or all organizational units, they can restrict the survey to the desired organizational units when creating data collections. To do this, they make a corresponding entry in the tab "Configuration" of the data collection.
+If quality managers have permissions and access to several or all organisations, they can restrict the survey to the desired organisations when creating data collections. To do this, they make a corresponding entry in the tab "Configuration" of the data collection.
 
-![Drop-down Organizations with OpenOLAT and three sub-units highlighted, tab Configuration of a data collection](assets/quality_management_analysis_orgunit_v1_de.png){ class="shadow lightbox" }
+![Drop-down Organisations with OpenOLAT and three subordinate organisations highlighted](assets/quality_management_analysis_orgunit_v1_de.png){ class="shadow lightbox" title="Tab Configuration of a data collection" }
 
 
 [To the top of the page ^](#Quality_Management_Analysis)
@@ -235,6 +235,10 @@ If quality managers have permissions and access to several or all organizational
 
 ## Further information {: #further_information}
 
-[Quality Management: Data collections >](Quality_Management_Data_Collections.md)
+[Quality Management: Data collections >](Quality_Management_Data_Collections.md)<br>
+[The form editor >](../learningresources/Form_Editor.md)<br>
+[Quality Management: Overview >](Quality_Management.md)<br>
+[The form element rubric >](../learningresources/Form_Element_Rubric.md)<br>
+[Quality Management: Data Collection Generators >](Quality_Management_Data_Collection_Generators.md)
 
 [To the top of the page ^](#Quality_Management_Analysis)

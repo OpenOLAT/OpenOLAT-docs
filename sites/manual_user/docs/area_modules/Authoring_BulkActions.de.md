@@ -1,21 +1,21 @@
 # Autorenbereich - Sammelaktionen {: #authoring_bulk_actions}
 
-Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons (1-6). Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen, also für mehrere Lernressourcen gemeinsam (Bulk Actions).<br>
-Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource selektiert ist.
+Sobald Sie in der ersten Spalte der Tabelle eine Lernressource auswählen, erscheinen über der Tabelle zusätzliche Buttons, von "E-Mail versenden" bis "Löschen". Mit ihnen führen Sie Aktionen für die ausgewählten Lernressourcen gemeinsam durch, also für mehrere Lernressourcen auf einmal (Bulk Actions).<br>
+Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource ausgewählt ist. Die Buttons für Sammelaktionen und das Menü unter den 3 Punkten sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
-Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile (10) werden Optionen nur für diese einzelne Lernressource dieser Zeile angezeigt. 
+Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile erscheint ein Menü mit Aktionen nur für die Lernressource dieser Zeile.
 
-
-![Sechs Buttons für Sammelaktionen über der Tabelle und das 3-Punkte-Menü einer Zeile mit den Einzelaktionen, nummeriert wie die Abschnitte dieser Seite. Autorenbereich.](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png){ class="shadow lightbox" }
-
+![Buttons für Sammelaktionen über der Tabelle und das geöffnete 3-Punkte-Menü einer Zeile mit Einstellungen, Kurseditor und Mitgliederverwaltung zuoberst](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v2_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.09.28" }
 
 !!! tip "Tipp"
 
-    Wenn Sie die **Checkbox in der Titelzeile der Tabelle** wählen, werden alle Lernressourcen auf einmal selektiert. ![Angehakte Checkbox in der Titelzeile, alle Zeilen der Tabelle sind ausgewählt. Autorenbereich.](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png){ class="shadow lightbox" }
+    Wenn Sie die **Checkbox in der Titelzeile der Tabelle** wählen, werden alle Lernressourcen auf einmal ausgewählt. Verteilt sich die Tabelle auf mehrere Seiten, öffnet die Checkbox ein Menü: "Alle Zeilen der Seite auswählen" wählt die Lernressourcen der angezeigten Seite aus, "Alle ... Zeilen auswählen" alle Lernressourcen der Tabelle.
+
+    ![Angehakte Checkbox in der Titelzeile markiert, alle Zeilen der Tabelle sind ausgewählt und die Buttons für Sammelaktionen erscheinen](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v2_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.09.28" }
 
 ---
 
-### 1. E-Mail versenden [:octicons-tag-16:{ title="ab Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"}
+### E-Mail versenden [:octicons-tag-16:{ title="ab Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"} {: #send_mail}
 
 Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail versenden". Es öffnet sich ein Dialog. Sie können nun definieren, an wen die E-Mail verschickt werden soll. Mögliche Empfänger:innen sind **alle Kursbesitzer:innen, alle Kursbetreuer:innen und alle Teilnehmenden**.
 
@@ -25,15 +25,15 @@ Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann no
 
     Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für **alle Autor:innen** sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
-### 2. Status ändern [:octicons-tag-16:{ title="ab Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"}
+### Status ändern [:octicons-tag-16:{ title="ab Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"} {: #change_status}
 
 Wählen Sie den Publikationsstatus aus, der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".
 
-### 3. Besitzer bearbeiten [:octicons-tag-16:{ title="ab Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"}
+### Besitzer:innen bearbeiten [:octicons-tag-16:{ title="ab Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"} {: #modify_owners}
 
 Hier werden Ihnen alle **Besitzer:innen der ausgewählten Lernressourcen** angezeigt. Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue Besitzer:innen den ausgewählten Lernressourcen hinzufügen. Eine E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
 
-### 4. Metadaten und Einstellungen [:octicons-tag-16:{ title="ab Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"}
+### Metadaten und Einstellungen [:octicons-tag-16:{ title="ab Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"} {: #metadata_settings}
 
 Gehören mehrere Lernressourcen zusammen, etwa die Kurse einer Weiterbildungsreihe, **vereinheitlichen** Sie ihre **Metadaten** und Einstellungen in einem Durchgang, statt jede Lernressource einzeln zu bearbeiten. Nach Klick auf "Metadaten und Einstellungen" öffnet sich der Assistent (Wizard) "Einstellungen bearbeiten". Er ändert nur die ausgewählten Lernressourcen, bei denen Sie Besitzer:in, Lernressourcenverwalter:in oder Administrator:in sind.
 
@@ -54,7 +54,7 @@ Die Bereiche in der Reihenfolge des Assistenten:
 
 Sollen mehrere Lernressourcen einer anderen Organisation zugeordnet werden, etwa nach einer Umstrukturierung, passen Sie ihre Administrative Freigabe hier für alle gleichzeitig an. Was die Administrative Freigabe bewirkt, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share.de.md#section_share). Den Bereich gibt es nur, wenn das Modul Organisationen eingeschaltet ist.
 
-![Felder zum Hinzufügen und Entfernen von Organisationen für 2 Lernressourcen. Bereich Administrative Freigabe des Assistenten](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_de.png){ class="shadow lightbox" }
+![Markierte Felder Organisation hinzufügen und Organisation entfernen, hier für 2 Lernressourcen](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_de.png){ class="shadow lightbox" title="Schritt Administrative Freigabe im Assistenten Einstellungen bearbeiten" }
 
 Der Bereich hat zwei Felder:
 
@@ -70,16 +70,16 @@ Eine Organisation, die Sie im selben Durchlauf hinzufügen, zählt dabei nicht m
 
 Administrator:innen ordnen Kurse zudem in der System-Administration im Tab "Lernressourcen" einer Organisation zu, beschrieben unter [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md#edit_learning_resources).
 
-### 5. Kopieren
+### Kopieren {: #copy}
 
-Mit dem **Button "Kopieren" über der Tabelle** können Sie **mehrere Lernressourcen** kopieren.<br> 
+Mit dem **Button "Kopieren" über der Tabelle** können Sie **mehrere Lernressourcen** kopieren.<br>
 Durch Anklicken von "Kopieren" im **Menü, das unter den 3 Punkten am Ende einer Zeile erscheint**, kopieren Sie eine **einzelne Lernressource**. (Die Lernressource dieser Tabellenzeile.)
 
-Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Beispielsweise zur Wiederverwendung für ein neues Semester oder um eine Sicherheitskopie zu erstellen. 
+Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Beispielsweise zur Wiederverwendung für ein neues Semester oder um eine Sicherheitskopie zu erstellen.
 
 Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". Der Zusatz ("Kopie") wird dem Titel hinzugefügt. Der Titel kann aber anschliessend nach Wunsch geändert werden.
 
-### 6. Löschen
+### Löschen {: #delete}
 
 Eine Lernressource kann nur von den Besitzer:innen der Lernressource sowie Lernressourcenverwalter:innen und Administrator:innen gelöscht werden.
 
@@ -92,48 +92,49 @@ Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "**Gelöscht**"
 
 Als Besitzer:in können Sie gelöschte Lernressourcen wiederherstellen. Das dauerhafte Löschen der Lernressourcen ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
-### 7. Lernressource öffnen/bearbeiten
+### Lernressource öffnen {: #open_resource}
 
 Ein Klick auf den **Titel** einer Lernressource öffnet die entsprechende Ressource.
 
-### 8. Infoseite öffnen
+### Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #settings}
 
-Durch Klick auf das **Symbol der Glühbirne** ![Symbol Infoseite](assets/infopage_5e89ac_64.png){ width=30px class="lightbox" } wird die Infoseite **angezeigt**.
+Wollen Sie die Angaben einer Lernressource ändern, öffnen Sie ihre Einstellungen direkt aus der Tabelle. Klicken Sie dazu im Menü unter den 3 Punkten auf "Einstellungen". OpenOlat öffnet die Einstellungen der Lernressource im Tab "Metadaten". Die Informationen, die auf der Infoseite erscheinen, etwa Beschreibung, Lernziele und Voraussetzungen, bearbeiten Sie im Tab "Info".
 
-Klicken Sie dagegen **im Menü unter den 3 Punkten** auf "Infoseite bearbeiten", gelangen Sie in den Bereich "Einstellungen" und können die Informationen, die auf der Infoseite erscheinen, **bearbeiten**.
+Die Infoseite selbst öffnen Sie in der Lernressource über den Link "Infoseite" in der Toolbar.
 
 Mehr dazu finden Sie auf der Seite "[Infoseite einrichten](../learningresources/Course_Settings_Info.de.md#configure_info)".
 
-### 9. Editieren
+### Editor öffnen {: #open_editor}
 
-Bei **editierbaren** Lernressourcen wie Kurs, Glossar, Test, CP-Lerninhalt, Blog und Podcast öffnet der Klick auf "Editieren" bzw. das Icon den entsprechenden Editor.
+Um den Inhalt einer Lernressource zu bearbeiten, öffnen Sie ihren Editor direkt aus der Tabelle. Der Eintrag im Menü unter den 3 Punkten nennt den Editor beim Namen: bei einem Kurs "Kurseditor", bei einem Test "Testeditor", bei einem Formular "Formulareditor" und bei einem Video "Videoeditor". Bei allen übrigen Lernressourcen, etwa CP-Lerninhalt, Wiki, Blog, Podcast oder Glossar, heisst der Eintrag "Inhalt editieren".
 
-### 10. Weitere Optionen für einzelne Lernressourcen
+Den Eintrag sehen Sie nur bei Lernressourcen, die sich bearbeiten lassen und die weder im Status "Beendet" noch im Papierkorb sind.
 
-Ein Klick auf die **3-Punkte** am Ende einer Tabellenzeile öffnet ein Menü mit mehreren Optionen. 
+Denselben Editor öffnet das Stiftsymbol in der Spalte "Inhalt editieren". Diese Spalte blenden Sie bei Bedarf selbst ein, siehe [Spalten konfigurieren](Authoring.de.md#configure_columns). Der Tooltip des Symbols nennt den Editor beim Namen.
 
-Aktionen im Menü unter den 3 Punkten beziehen sich immer auf die **einzelne Lernressource** dieser Zeile. Mit den Buttons über der Tabelle (1-6) können Sie dagegen Aktionen für **mehrere Lernressourcen** ausführen. 
+### Weitere Optionen für einzelne Lernressourcen {: #row_menu}
 
-### 11. Mitgliederverwaltung
+Ein Klick auf die **3 Punkte** am Ende einer Tabellenzeile öffnet ein Menü mit mehreren Optionen.
 
-Hier können Sie Mitglieder einer Lernressource organisieren. Mehr Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../learningresources/Members_management.de.md).
+Aktionen im Menü unter den 3 Punkten beziehen sich immer auf die **einzelne Lernressource** dieser Zeile. Mit den Buttons über der Tabelle führen Sie dagegen Aktionen für **mehrere Lernressourcen** aus.
 
-### 12. Inhalt exportieren
+Die Einträge "Einstellungen", der Eintrag zum Editor und "Mitgliederverwaltung" erscheinen nur, wenn Sie Besitzer:in der Lernressource, Lernressourcenverwalter:in oder Administrator:in sind.
 
-Hiermit exportieren Sie Ihre Lernressourcen als ZIP-Datei. Z.B. als Backup oder für den Import in einem anderen System.
+### Mitgliederverwaltung {: #members_management}
 
-### 13. Freigabe externer OER-Katalog [:octicons-tag-16:{ title="ab Release 17.2 (OO-6583)" }](https://track.frentix.com/issue/OO-6583){:target="_blank"}
+Hier organisieren Sie die Mitglieder einer Lernressource. Mehr Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../learningresources/Members_management.de.md).
 
-Wenn ein Kurs bzw. eine Lernressource durch Suchmaschinen gefunden werden soll, können Sie diese Option aufrufen.<br>
-Eine ausführliche Anleitung zum Thema finden Sie [hier](../../manual_how-to/oai_pmh/oai_pmh.de.md).
+### Inhalt exportieren {: #export_content}
 
-### 14. In Lernpfad-Kurs konvertieren
+Hiermit exportieren Sie Ihre Lernressourcen als ZIP-Datei, zum Beispiel als Backup oder für den Import in einem anderen System.
 
-Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, wird zusätzlich die Option "In Lernpfad-Kurs konvertieren" angezeigt. Ein neuer, konvertierter [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) wird als Kopie erstellt, die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
+### Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-### 15. Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"}
+Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, zeigt das Menü zusätzlich die Option "Als Lernpfad duplizieren" an. Ein neuer, konvertierter [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) wird als Kopie erstellt, die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
 
-Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, wird zusätzlich die Option "Kopieren mit Wizard" angezeigt.
+### Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
+
+Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, zeigt das Menü zusätzlich die Option "Kopieren mit Wizard" an.
 
 [Zum Seitenanfang ^](#authoring_bulk_actions)
 
@@ -148,12 +149,12 @@ Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, wird zusätzlich di
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)
 
 **Weiterführend**<br>
 [Kurs erstellen >](../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Kursbausteine im Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)
+[Kursbausteine im Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)
 
 [Zum Seitenanfang ^](#authoring_bulk_actions)

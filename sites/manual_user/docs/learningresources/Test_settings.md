@@ -1,18 +1,18 @@
 # Test settings - Administration {: #test_settings}
 
-In the `Test > Administration` area you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Edit content" menus are particularly important. Owners of the learning resource, learning resource managers and administrators see this area.
+In the `Test > Administration` area you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Test editor" menus are particularly important. Owners of the learning resource, learning resource managers and administrators see this area.
 
-![Ten entries from "Settings" to "Test Delete", with "Offer types" greyed out, in the expanded Administration menu of a published test learning resource.](assets/test_administration_menu_v1_en.png){ class="shadow lightbox" }
+![Administration menu with eleven entries from "Settings" to "Delete", including "Test editor", with "Offer types" greyed out](assets/test_administration_menu_v2_en.png){ class="shadow lightbox" title="Administration menu of a published test learning resource · 2026.09.28" }
 
 The basic configuration of the entire test is largely carried out in the **"Settings"**, particularly in the "Options" tab (see below).
 
-The **"Member administration"** menu is particularly relevant if the test is to be used independently of the course, otherwise the member administration of the test participants is carried out via the linked course.
+The **"Members management"** menu is particularly relevant if the test is to be used independently of the course, otherwise the test participants are managed via the linked course.
 
-Under "Edit content" you access the test editor. This is where you create the actual test.
+The **"Test editor"** entry opens the test editor. There you create the questions and the structure of the test. The editor entry in the Administration menu always names the editor: "Test editor" for a test, "Form editor" for a form, "Video editor" for a video and "Course editor" for a course. For all other learning resources it is called "Edit content". [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
 
 !!! note "Test editor QTI 2.1"
     Overview of the test editor.<br>
-    [Edit content](Test_editor_QTI_2.1.md)
+    [Test editor](Test_editor_QTI_2.1.md)
 
 The **"Assessment tool"** of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, purpose "Independent".
 
@@ -24,16 +24,16 @@ The **"Offer types"** menu is only active if the test has been configured as boo
 
 Under **"Export handwritten exams"** a wizard generates exams for printing based on the online test (see below). The entry only appears if the PDF generator is switched on. You find it in the system administration under: `Administration > External tools > PDF generator`.
 
-The tests can be copied or saved using the "Copy", "Export content" and "Export as Word document" menus.
+The tests can be copied or saved using the "Copy", "Export content" and "Export to Word" menus.
 
-**"Delete test"** deletes the test learning resource. It can then be found in the author area in the "Deleted" tab. 
+**"Delete"** deletes the test learning resource. It can then be found in the author area in the "Deleted" tab. 
 
 On this page you will find more detailed explanations of the following administration menus of the learning resource Test:
 
 * Settings
 * Correction workflow
 * Export handwritten exams
-* Export as Word document
+* Export to Word
 
 [To the top of the page ^](#test_settings)
 
@@ -43,9 +43,9 @@ On this page you will find more detailed explanations of the following administr
 
 The "Options" tab is particularly important for tests. This is where you configure the entire test. 
 
-![Five tabs "Info", "Metadata", "Share", "Catalog" and "Options", with "Options" active, to the right of the selected Settings entry in the Administration menu of a test learning resource.](assets/Test_menu_settings_DE.png){ class="shadow lightbox" }
+![Tabs "Metadata", "Info", "Share" and "Options", with "Options" active, on the left the opened Administration menu with the entry "Settings"](assets/test_settings_menu_settings_v1_en.png){ class="shadow lightbox" title="Settings of a test learning resource · 2026.09.28" }
 
-In addition, further settings for the learning resource can be made in the other tabs "Info", "Metadata", "Share" and "Catalog". Make sure that the license information under "Metadata" corresponds to your requirements.
+In addition, further settings for the learning resource can be made in the other tabs "Metadata", "Info" and "Share". If the module "Catalog" is set to "Catalog V1", the tab "Catalog" appears as well. Make sure that the license information under "Metadata" corresponds to your requirements.
 
 ### Tab Options [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
@@ -62,7 +62,7 @@ Here you can choose a preconfigured selection of typical settings for different 
 
 Decide, for example, whether it is a summative or formative test or use a different preset configuration. This makes it easier for inexperienced authors in particular to quickly find a suitable setting. However, later changes and individual adjustments are still possible.
 
-![Selection list with "Choose a profile...", "Summative (real test)" and "Formative (exercise test)" and the button "Apply configuration", in the Standard settings field of the Options tab.](assets/Test_Standardeinstellungen_DE.png){ class="shadow lightbox" }
+![Selection list with "Choose a profile...", "Summative (real test)" and "Formative (exercise test)" and the button "Apply configuration"](assets/Test_Standardeinstellungen_DE.png){ class="shadow lightbox" title="Standard settings field in the Options tab" }
 
 #### Limit number of test attempts {: #limit_attempts}
 
@@ -119,7 +119,7 @@ By ticking the checkbox, you allow participants to cancel the test without savin
 
 If this option is selected, a test receipt is created at the end of the test, which can be downloaded as an XML file. It is used to verify the test.
 
-![Highlighted "Test receipt" row with the "Download" link and the creation date, above it the number of attempts, score and status, in the performance overview of a completed test.](assets/Testquittung_DE.png){ class="shadow lightbox" }
+![Highlighted "Test receipt" row with the "Download" link and the creation date, above it the number of attempts, score and status](assets/Testquittung_DE.png){ class="shadow lightbox" title="Performance overview of a completed test" }
 
 If the "Generate a test receipt" option is selected, the option "Send the test receipt per mail" can also be activated. The XML file created is then also sent to the participant by email.
 
@@ -151,7 +151,7 @@ The respective correctors are automatically notified when new edits of the test 
 
 ### Tab "Correctors"
 
-![Button "Add corrector" and the tabs "Configuration" and "Grading assignments" in the open tab "Correctors" of the Correction workflow menu of a test learning resource.](assets/grading_workflow_tab_correctors_v1_en.png){ class="shadow lightbox" }
+![Button "Add corrector" highlighted, above it the tabs "Configuration", "Correctors" and "Grading assignments"](assets/grading_workflow_tab_correctors_v1_en.png){ class="shadow lightbox" title="Correctors tab in the Correction workflow menu" }
 
 Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as correctors. Via the row menu of a corrector, further actions are available: "Show assignments", "Send e-mail", "Download report", "Deactivate" or "Activate", "Set absence leave" and "Remove".
 
@@ -172,7 +172,7 @@ In the "Correctors" tab, open the "Download report" entry in the row menu of a c
 * The "Only completed orders" switch is turned on and limits the report to completed grading assignments. If you turn it off, the report covers all grading assignments without a restriction to a period.
 * As long as the switch is turned on, you narrow down the period with the "Predefined time periods" "Last month" and "Last year" or with the mandatory field "Close date". Both date fields must be filled in.
 
-![Switch "Only completed orders" turned on, the buttons "Last month" and "Last year" and the mandatory field "Close date" with two date fields, before downloading the report.](assets/grading_report_export_dialog_v1_en.png){ class="shadow lightbox" }
+![Switch "Only completed orders" turned on, the buttons "Last month" and "Last year" and the mandatory field "Close date" with two date fields](assets/grading_report_export_dialog_v1_en.png){ class="shadow lightbox" title="Dialog for downloading the report" }
 
 In the "Grading assignments" tab, the "Report" button generates the same report for the grading assignments displayed there.
 
@@ -180,7 +180,7 @@ For each grading assignment, the report shows the status ("Unassigned", "Assigne
 
 The generated Excel file contains the worksheets "Graders", "Assignments" and "Archive". The "Archive" worksheet lists archived grading assignment entries whose assignment record has since been removed (for example because an examinee, a corrector or the test learning resource was deleted), including the correction time and the "Close date" for remuneration. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
 
-![Columns "Course", "Reference", "Correction (minutes)", "Correction (real minutes)" and "Close date", preceded by name and username of corrector and examinee, in the "Archive" worksheet.](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" }
+![Columns "Course", "Reference", "Correction (minutes)", "Correction (real minutes)" and "Close date", preceded by name and username of corrector and examinee](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" title="Archive worksheet of the Excel file" }
 
 !!! note "Coaching Tool"
     More information on cross-course correction.<br>
@@ -194,29 +194,29 @@ The generated Excel file contains the worksheets "Graders", "Assignments" and "A
 
 If you want to run a test offline, you can use this wizard to generate a cover sheet and different versions of your test resource with randomly selected answers.
 
-1. In the options you select the language and the number of tests, as well as a prefix for the file names. You can also specify whether you want to generate a cover sheet or an additional sheet.
+1. In the options you select the language and the number of tests, as well as a prefix for the file names in the field "Prefix". You can also specify whether you want to generate a cover sheet or an additional sheet.
 
-    ![Fields "Number of tests", "Output language" and "Prefix" and the choice of cover sheet and additional sheet, in the Options step of the wizard "Export handwritten exams".](assets/Test_offline_options_DE.png){ class="shadow lightbox" }
+    ![Options step with the fields "Number of tests", "Output language of export" and "Prefix" and the choice "First sheet" and "Additional sheet" under Covers](assets/test_settings_paper_exam_options_v1_en.png){ class="shadow lightbox" title="Options step of the wizard Export handwritten exams · 2026.09.28" }
 
 2. In the second step you choose the attributes that should be copied to the cover sheet. Some attributes, like the description of the test resource, are still customizable.
 
-    ![Attribute groups General and Test parameters to choose from for the cover sheet, in the Cover attributes step of the wizard "Export handwritten exams".](assets/Test_offline_Deckblattattribute_DE.png){ class="shadow lightbox" }
+    ![Attribute groups General and Test parameters to choose from for the cover sheet, all ticked](assets/test_settings_paper_exam_cover_attributes_v1_en.png){ class="shadow lightbox" title="Cover attributes step of the wizard · 2026.09.28" }
 
 3. Here you have the possibility to select and overwrite certain fields. The description field is copied over from the test resource and can be customized again here.
 
-    ![The fields "Title" and "Procedure" and the description field with HTML editor, which can be overwritten for the cover sheet, in the Cover fields step of the wizard "Export handwritten exams".](assets/Test_offline_Deckblattfelder_DE.png){ class="shadow lightbox" }
+    ![The fields "Title" and "Procedure" and the field "Informations (description field)" with HTML editor, which can be overwritten for the cover sheet](assets/test_settings_paper_exam_cover_fields_v1_en.png){ class="shadow lightbox" title="Cover fields step of the wizard · 2026.09.28" }
 
 4. If you activated the "Additional sheet" option in the "Options" step, the "Additional sheet" step appears here.
 
 5. The summary contains an overview of all settings made and a preview of the tests to be generated. Please note that a large number of generations may take some time and the browser may not always respond.
 
-    ![Number of tests, file format, output language and serial number and the buttons "Preview" and "Preview with solutions", in the Summary step of the wizard "Export handwritten exams".](assets/Test_offline_Zusammenfassung_DE.png){ class="shadow lightbox" }
+    ![Number of tests and solution sheets, file format, output language, serial numbers, the parameters supplied by the test and the details for the cover sheet](assets/test_settings_paper_exam_summary_v1_en.png){ class="shadow lightbox" title="Summary step of the wizard · 2026.09.28" }
 
 [To the top of the page ^](#test_settings)
 
 ---
 
-## Export as Word document {: #export_word}
+## Export to Word {: #export_word}
 
 The test is then downloaded in zip format with two Word files, one of which contains only the questions and the other also contains the solutions. The exported file contains all the important information about the test, including the score, so that you can use the document directly.
 
