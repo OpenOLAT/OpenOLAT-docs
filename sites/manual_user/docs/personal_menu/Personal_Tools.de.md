@@ -4,7 +4,7 @@
 
 Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md).
 
-Welche Werkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Kopfzeile erscheinen sollen.
+Welche Werkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Hauptnavigation erscheinen sollen.
 
 <br>
 <br>
@@ -136,6 +136,6 @@ Unter E-Mails können Sie alle in OpenOlat versandten und erhaltenen E-Mails ein
 
 !!! tip "Tipp"
 
-    Wenn Sie Ihre Werkzeuge statt im persönlichen Menü lieber in der Kopfzeile angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
+    Wenn Sie Ihre Werkzeuge statt im persönlichen Menü lieber in der Hauptnavigation angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
     `Persönliches Menü > Konfiguration > Einstellungen > Tab "System" > Persönliche Werkzeuge`<br>
-    Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar.
+    Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Hauptnavigation rechts oben angezeigt und sind so schneller erreichbar.

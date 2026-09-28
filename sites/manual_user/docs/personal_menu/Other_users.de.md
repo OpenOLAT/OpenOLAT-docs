@@ -4,7 +4,7 @@
 
 ![Symbol Personensuche](assets/icon_other_users.png)
 
-Im Unterschied zur allgemeinen Volltextsuche, die Sie über das Lupensymbol in der Kopfzeile aufrufen, ist die Suchfunktion im persönlichen Menü eine **Personensuche**. Das Suchformular enthält die Felder, mit denen Sie die Suche eingrenzen.
+Im Unterschied zur allgemeinen Volltextsuche, die Sie über das Lupensymbol in der Hauptnavigation aufrufen, ist die Suchfunktion im persönlichen Menü eine **Personensuche**. Das Suchformular enthält die Felder, mit denen Sie die Suche eingrenzen.
 
 Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren. Geben Sie mindestens einen Suchbegriff mit mindestens vier Zeichen ein.
 

@@ -4,7 +4,7 @@
 
 Die persönlichen Konfigurationen finden Sie als Abschnitt "Konfiguration" im [persönlichen Menü](../personal_menu/index.de.md), unterhalb der Abschnitte "Persönliche Werkzeuge" und "Erfolge/Leistungen".
 
-Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration: `Administration > Core Konfiguration > Persönliche Werkzeuge`. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Kopfzeile erscheinen sollen.
+Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration: `Administration > Core Konfiguration > Persönliche Werkzeuge`. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Hauptnavigation erscheinen sollen.
 
 <br>
 <br>
@@ -19,7 +19,7 @@ Im persönlichen Menü unter "Profil" ändern Sie die Angaben zu Ihrer Person un
 
 ## Einstellungen {: #settings}
 
-Alle Benutzer:innen können OpenOlat individuell nach ihren eigenen Bedürfnissen anpassen und z.B. die Sprache der Bedieneroberfläche auswählen oder die persönlich wichtigsten Funktionen in der Kopfzeile anzeigen lassen.
+Alle Benutzer:innen können OpenOlat individuell nach ihren eigenen Bedürfnissen anpassen und z.B. die Sprache der Bedieneroberfläche auswählen oder die persönlich wichtigsten Funktionen in der Hauptnavigation anzeigen lassen.
 
 [Zu den Details >](Settings.de.md)
 
