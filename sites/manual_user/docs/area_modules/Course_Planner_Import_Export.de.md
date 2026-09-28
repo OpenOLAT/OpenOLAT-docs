@@ -75,6 +75,22 @@ Der Import-Button steht auf dem Course-Planner-Dashboard nur Benutzer:innen mit 
 
 Der Import-Assistent führt in fünf Schritten durch die Kontrolle und Ausführung des Imports. Enthalten die Daten Fehler, kann der Assistent nicht abgeschlossen werden, solange die entsprechenden Zeilen nicht ignoriert werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9191)" }](https://track.frentix.com/issue/OO-9191){:target="_blank"}.
 
+### Das Kennzeichen verbindet Datei und System {: #identifier_matching}
+
+Der Import erkennt am Kennzeichen, ob eine Zeile ein bestehendes Objekt aktualisiert oder ein neues anlegt. Findet er genau ein Objekt mit demselben Kennzeichen, vergleicht er die Werte und zeigt die Zeile als "Geändert" oder "Keine Änderungen". Findet er keines, zeigt er die Zeile als "Neu", ausser bei Kursen und Templates. Findet er mehrere, meldet er "Kennzeichen: Wert nicht eindeutig".
+
+Gesucht wird je nach Objekt in einem anderen Bereich:
+
+* **Produkt:** unter allen aktiven Produkten
+* **Durchführung:** innerhalb des angegebenen Produkts
+* **Element:** innerhalb der angegebenen Durchführung
+* **Termin:** im ganzen System, über das Kennzeichen des Termins
+* **Kurs und Template:** im ganzen System, über das Kennzeichen der Lernressource. Kurse und Templates legt der Import nie an. Findet er keine Lernressource, meldet er "Kennzeichen: \<Wert\> existiert nicht". Ist die Lernressource noch nicht mit dem übergeordneten Element verknüpft, zeigt er die Zeile als "Neu" und verknüpft sie beim Import.
+
+!!! warning "Achtung"
+
+    Ein Kennzeichen lässt sich über den Import nicht umbenennen. Wird in der Excel-Datei das Kennzeichen eines bestehenden Produkts, einer Durchführung, eines Elements oder eines Termins geändert, legt der Import ein zusätzliches Objekt an. Das bestehende Objekt bleibt unverändert. Wer bestehende Einträge aktualisieren will, übernimmt die Kennzeichen aus dem Export unverändert.
+
 ### Umgang mit Fehlern und Warnungen {: #errors_warnings}
 
 Jede fehlerhafte Zelle wird direkt in der Tabelle mit Spaltenname und Grund angezeigt, zum Beispiel "Kennzeichen: Wert erforderlich" oder "ORG - Kennzeichen: \<Wert\> existiert nicht". Enthält eine Zeile mindestens einen Fehler, wird sie automatisch vom Import ausgeschlossen.
