@@ -106,6 +106,10 @@ clear {
 figcaption {
   font-size: 85%;
 }
+/* caption sits close to its image: Material sets 1em above and below */
+.md-typeset figcaption {
+  margin: .3em auto 0;
+}
 
 /* OpenOlat font icons (:o_icon_<class>: shortcode -> <i class="o_icon ..."></i>) */
 .o_icon {
