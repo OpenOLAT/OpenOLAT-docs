@@ -45,19 +45,25 @@ Wird in der Baumstruktur eine Organisation ausgewählt, können ihre Metadaten u
 
 ![Ordner für rechtliche Dokumente im Tab "Rechtliche Dokumente" einer Organisation](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
 
-**Tab Organisationsstruktur > Tab "Rechtliche Dokumente"**<br>
-Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert worden, wird dieses Tab für Administrator:innen und andere administrative Rollen angezeigt. Administrator:innen können darin Dokumente zu organisationsspezifischen Belangen ablegen. Andere administrative Rollen haben nur Lesezugriff.
+`Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Rechtliche Dokumente"`<br>
+Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert worden, wird dieses Tab für Administrator:innen und andere administrative Rollen angezeigt. Administrator:innen können darin Dokumente zu organisationsspezifischen Belangen ablegen. Andere administrative Rollen haben nur Lesezugriff. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
 
 
 
-### Metadaten {: #edit_metadata}
+### Metadata {: #edit_metadata}
 
-`Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten"`
-![Metadaten einer Organisation: Bezeichnung, Name, Organisationstyp, Standort und Beschreibung](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
+`Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadata"`
+![Bezeichnung und Name als Pflichtfelder, dazu Organisationstyp, Standort und Beschreibung. Tab Metadata einer Organisation](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
-Neben der Bezeichnung und dem Namen kann eine Beschreibung für das Element eingetragen werden.
+Im Tab "Metadata" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen können ein Standort und eine Beschreibung eingetragen werden. Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern.
 Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert).
 Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
+
+Beim ersten Start legt OpenOlat die Standardorganisation an. Sie trägt den Namen "OpenOLAT" und die Bezeichnung "default-org". Administrator:innen können den Namen im Tab "Metadata" frei ändern, etwa in den Namen der eigenen Organisation. Die Bezeichnung ist gesperrt, weil OpenOlat die Standardorganisation an ihr erkennt. Kurse, Lernressourcen und Rollen bleiben beim Umbenennen unverändert zugeordnet. Löschen oder verschieben lässt sich die Standardorganisation nicht.
+
+!!! note "Hinweis"
+
+    Gleicht Ihr OpenOlat die Organisationen mit LDAP-Gruppen ab, ordnet es jeder LDAP-Gruppe die Organisation zu, deren Bezeichnung, Name oder Externe ID dem Namen der Gruppe entspricht. Gross- und Kleinschreibung spielen dabei keine Rolle. Wählen Sie für die Standardorganisation deshalb keinen Namen, den auch eine LDAP-Gruppe trägt. Sonst verwaltet LDAP die Mitglieder der Standardorganisation.
 
 
 
@@ -82,14 +88,20 @@ Die **Rollen-Zuordnung** ist möglich
 ### Lernressourcen {: #edit_learning_resources}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Lernressourcen"`
-![Liste der zugeordneten Kurse mit Button "Kurse hinzufügen" im Tab Lernressourcen](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
+![Button "Kurse hinzufügen" über der noch leeren Liste der zugeordneten Kurse. Tab Lernressourcen einer Organisation](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
-Im Tab "Lernressourcen" werden der Organisation direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese der Organisation zuzuordnen.
+Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordnet sind, und passen diese Zuordnung an. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese der Organisation zuzuordnen. Um Kurse wieder zu entfernen, markieren Sie die Zeilen in der Liste und klicken auf "Entfernen". OpenOlat fragt im Dialog "Lernressourcen entfernen" nach, bevor es die Zuordnung aufhebt.
+
+"Kurse hinzufügen" findet nur Kurse. Tests, Videos und andere Lernressourcen ordnen Sie einer Organisation in der Administrativen Freigabe der Lernressource zu, beschrieben unter [Kurseinstellungen - Tab Freigabe](../../manual_user/learningresources/Course_Settings_Share.de.md#section_share). Für mehrere Lernressourcen gleichzeitig gibt es die [Sammelaktion im Autorenbereich](../../manual_user/area_modules/Authoring_BulkActions.de.md#bulk_administrative_access).
+
+!!! warning "Achtung"
+
+    OpenOlat prüft beim Entfernen nicht, ob der Kurs danach noch einer anderen Organisation zugeordnet ist. Wollen Sie einen Kurs in eine andere Organisation verschieben, klicken Sie deshalb zuerst in der neuen Organisation auf "Kurse hinzufügen". Erst danach entfernen Sie den Kurs in der bisherigen Organisation mit "Entfernen".
 
 Die **Zuordnung von Bildungsprodukten** erfolgt im Course Planner in der jeweiligen Durchführung.
 
 
-### Linienvorgesetzte {: #edit_linemanager}
+### Linienvorgesetzte [:octicons-tag-16:{ title="ab Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Linienvorgesetzte"`
 ![Rechte-Checkboxen für die Rolle Linienvorgesetzte:r im Tab Linienvorgesetzte:r](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" }
@@ -97,7 +109,7 @@ Die **Zuordnung von Bildungsprodukten** erfolgt im Course Planner in der jeweili
 Die Rechte, die Linienvorgesetzten zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
 
 
-### Ausbildungsverantwortliche {: #edit_education_manager}
+### Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Ausbildungsverantwortliche"`
 ![Rechte-Checkboxen für die Rolle Ausbildungsverantwortliche im Tab Ausbildungsverantwortliche](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" }
@@ -105,7 +117,7 @@ Die Rechte, die Linienvorgesetzten zugeteilt werden, können für jede Organisat
 Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
 
 
-### Rechnungsadressen {: #edit_billing_adresses}
+### Rechnungsadressen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > Tab "Rechnungsadressen"`
 ![Liste der Rechnungsadressen mit Button "Erstellen" im Tab Rechnungsadressen](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" }
@@ -137,7 +149,7 @@ Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur en
 
 ---
 
-## Tab E-Mail-Domänen-Zuordnungen {: #tab_mail_domain_assignment}
+## Tab E-Mail-Domänen-Zuordnungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8178)" }](https://track.frentix.com/issue/OO-8178){:target="_blank"} {: #tab_mail_domain_assignment}
 
 !!! info "Sichtbarkeit"
 
@@ -145,6 +157,21 @@ Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur en
 
 ![Liste der E-Mail-Domänen je Organisation im Tab E-Mail-Domänen-Zuordnungen](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" }
 
-Existieren Organisationseinheiten, kann die Selbstregistration auf bestimmte E-Mail-Domänen eingeschränkt werden. Neue Benutzer werden dann basierend auf ihrer E-Mail-Domäne automatisch einer Organisationseinheit zugeordnet und nur für Inhalte/Kurse dieser Organisationseinheit zur Selbstregistration zugelassen.
+Existieren Organisationseinheiten, kann die Selbstregistration auf bestimmte E-Mail-Domänen eingeschränkt werden. Neue Benutzer:innen werden dann basierend auf ihrer E-Mail-Domäne automatisch einer Organisationseinheit zugeordnet und nur für Inhalte/Kurse dieser Organisationseinheit zur Selbstregistration zugelassen.
+
+[Zum Seitenanfang ^](#organisations)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
+[Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)
+
+**Weiterführend**<br>
+[Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Selbstregistration >](Login_Self-Registration.de.md)
 
 [Zum Seitenanfang ^](#organisations)
