@@ -6,6 +6,18 @@ Produkte, Durchführungen und Mitgliedschaften lassen sich im Course Planner üb
 
 Export und Import ergänzen die manuelle Erfassung im Course Planner: Bestehende Strukturen lassen sich als Excel-Datei exportieren, in dieser Datei bearbeiten und anschliessend wieder importieren, um Produkte, Durchführungen und Mitgliedschaften in grosser Zahl neu anzulegen oder zu aktualisieren.
 
+Gedacht sind Export und Import für Aufgaben, die viele Objekte gleichzeitig betreffen. Einzelne Änderungen an einem Produkt, einer Durchführung oder einer Mitgliedschaft erfolgen einfacher direkt auf der Oberfläche. Typische Einsatzfälle sind:
+
+* das Anlegen vieler neuer Produkte, Durchführungen und Termine auf einmal
+* das Abstimmen von Datum, Zeit, Ort und Räumen mehrerer Termine
+* die Kontrolle der Planungsdaten: Der Import-Assistent prüft eine Datei vollständig und zeigt Fehler und Warnungen an. Wird er vor dem Abschluss abgebrochen, ändert er nichts.
+* die Archivierung eines Planungsstands als Excel-Datei. Kurse und Templates sind darin über ihr Kennzeichen enthalten: Ist ein Kurs oder Template auf der Instanz genau einmal mit diesem Kennzeichen vorhanden, verknüpft ein erneuter Import ihn wieder. Passwörter enthält der Export nicht. Für neue Benutzer:innen lassen sie sich beim Import setzen, in einer zusätzlichen Spalte nach "Erstellungsdatum" im Sheet "Konten". Bei bestehenden Benutzer:innen muss diese Spalte leer bleiben.
+* das Einrichten einer Demo- oder Testumgebung, sofern dort Organisationen, Elementtypen, Fachbereiche, Räume sowie Kurse und Templates mit denselben Kennzeichen bereits existieren
+
+!!! warning "Achtung"
+
+    Ein Import ändert viele Objekte in einem Durchgang. Es empfiehlt sich, vor jedem Import den aktuellen Stand zu exportieren und die Übersicht jedes Schritts genau zu prüfen. Grössere Importe sollten zuerst auf einer Testinstanz durchgeführt werden.
+
 Folgende Elemente können exportiert bzw. importiert werden:
 
 * Produkte
@@ -56,8 +68,8 @@ Die exportierte Excel-Datei enthält je nach Exportart bis zu vier Sheets:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
 * **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"}
-* **Mitgliedschaften:** Zuordnung von Benutzer:innen zu Durchführungen mit Rolle (Teilnehmer:in, Betreuer:in, Klassenlehrer:in, Kursbesitzer:in, Elementbesitzer:in)
-* **Benutzer:innen:** Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}
+* **Mitgliedschaft:** Zuordnung von Benutzer:innen zu Durchführungen mit Rolle (Teilnehmer:in, Betreuer:in, Klassenlehrer:in, Kursbesitzer:in, Elementbesitzer:in)
+* **Konten:** Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, Erstellungsdatum
 
 Zusätzlich enthält jede Export-Datei ein Sheet "Exportinformationen" mit URL, OpenOlat-Version, Exportsprache sowie Datum und Name der exportierenden Person [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 

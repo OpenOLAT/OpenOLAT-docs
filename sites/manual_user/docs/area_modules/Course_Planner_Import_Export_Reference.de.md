@@ -14,7 +14,7 @@ Die Spalte "Objekttyp" in der Excel-Datei verwendet folgende feste Werte:
 | COURSE | Kurs |
 | EVENT | Termin |
 
-Die Spalte "Rolle" im Sheet "Mitgliedschaften" verwendet folgende feste Werte:
+Die Spalte "Rolle" im Sheet "Mitgliedschaft" verwendet folgende feste Werte:
 
 | Wert | Bedeutung |
 |---|---|
@@ -124,7 +124,7 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 | TMPL | Elementtyp mit unbegrenzten Kursen erlaubt keine Templates | E17 |
 | EVENT | Element muss auf einen Kurs referenzieren | nicht im Code gefunden, siehe Hinweis oben |
 
-### Sheet "Mitgliedschaften" {: #rules_memberships}
+### Sheet "Mitgliedschaft" {: #rules_memberships}
 
 | Attribut | Pflicht | Mögliche Meldung |
 |---|---|---|
@@ -134,7 +134,7 @@ Die Felder "Absenzen", "Kalender" und "Fortschritt" akzeptieren die Werte "ON", 
 
 Mitgliedschaften können nur neu angelegt, nicht aktualisiert werden.
 
-### Sheet "Benutzer:innen" {: #rules_users}
+### Sheet "Konten" {: #rules_users}
 
 | Attribut | Pflicht (bei Neuanlage) | Mögliche Meldung |
 |---|---|---|
