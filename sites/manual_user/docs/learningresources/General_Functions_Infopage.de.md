@@ -1,55 +1,116 @@
 # Allgemeine Funktionen: Infoseite {: #general_functions_info}
 
-## Wozu dient die Infoseite? {: #purpose}
+## Wozu dient die Infoseite? [:octicons-tag-16:{ title="ab Release 10.0 (OO-984)" }](https://track.frentix.com/issue/OO-984){:target="_blank"} {: #purpose}
 
-Jede Lernressource verfügt über eine Infoseite. Diese enthält zum einen vom System vorgegebene Informationen, zum anderen können Besitzer:innen der Lernressource selbst Angaben machen. Diese stehen Interessierten nach Veröffentlichung der Lernressource (unabhängig von einer Buchung) bereits vor Betreten der Lernressource zur Verfügung. Das ist sinnvoll, wenn man die Zielgruppe bereits im Vorfeld informieren möchte, z.B. wenn es sich um einen kostenpflichtigen Kurs handelt.
+Wer überlegt, ob ein Kurs der richtige ist, findet auf der Infoseite alles, was vor dem Buchen oder Öffnen zählt: Beschreibung, Termine, Lernziele, Dozent:innen und den Preis. Jede Lernressource hat eine Infoseite, ebenso jede Durchführung im Course Planner. Einen Teil der Angaben erzeugt OpenOlat selbst, den Rest tragen Besitzer:innen der Lernressource in den Einstellungen ein. Nach der Veröffentlichung sehen Interessierte die Infoseite, auch ohne Buchung und bevor sie die Lernressource betreten. Das lohnt sich besonders, wenn Sie die Zielgruppe vorab informieren möchten, etwa bei einem kostenpflichtigen Kurs.
 
-![Infoseite eines Kurses mit 26 nummerierten Elementen, von Kennzeichen, Titel und Teaser über Beschreibung und Lernziele bis zu Meine Daten, Beurteilung und Technische Informationen](assets/general_functions_infopage_example_v1_de.png){ class="shadow lightbox" }
+Sie rufen die Infoseite im Kurs über den Link "Infoseite" in der Toolbar auf, in der Kursübersicht und im Katalog über "Mehr erfahren". Die Aufrufwege finden Sie unter [Wo findet man die Infoseite?](#access).
+
+![Infoseite eines Kurses mit Aktionen, Fakten, Abschnitten, Los geht's mit Buchen, Terminen, Lizenz, Bewertung und Kommentar](assets/general_functions_infopage_course_example_v1_de.png){ class="shadow lightbox" title="Infoseite eines Kurses · 2026.09.29" }
 
 [Zum Seitenanfang ^](#general_functions_info)
 
 ---
 
 
-## Informationen der Infoseite {: #content}
+## Informationen der Infoseite [:octicons-tag-16:{ title="ab Release 21.1 (OO-8728)" }](https://track.frentix.com/issue/OO-8728){:target="_blank"} {: #content}
 
-Die Pfade in der Tabelle beziehen sich auf die Administration der jeweiligen Lernressource.
+Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte "Im Bild" sagt, ob das Element im Bild oben zu sehen ist. Die Pfade beziehen sich auf die Einstellungen der Lernressource: `Kurs > Administration > Einstellungen`. "nur Kurs" heisst, dass andere Lernressourcen diese Einstellung nicht haben. Ein Element erscheint nur, wenn es einen Inhalt hat.
 
-| | Objekt der Infoseite    |  Ort zur Eingabe |
-|-|--------------------------- | ------------------------------------------- |
-| ![1](assets/1_green_24.png)| Kennzeichen | Eine externe Kennung (im Unterschied zur automatisch vergebenen ID), die Sie selbst vergeben können. Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![2](assets/2_green_24.png) | Typ | Der Typ der Lernressource wird bei der Erstellung festgelegt. Die Angabe entspricht der (nicht editierbaren) Angabe unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![3](assets/3_green_24.png) | Titel | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![4](assets/4_green_24.png) | Teasertext | Eingabe im Feld "Teaser" unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![5](assets/5_green_24.png) | Durchführungsformat | Auswahl unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![6](assets/6_green_24.png) | Autor:in | Eingabe des Namens unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![7](assets/7_green_24.png) | Hinweis | Box mit Hinweisen zum Zugang. Verfügen Sie bereits über eine Rolle, die den Kurs öffnen darf, erscheint der Hinweis "Zugang vorhanden". |
-| ![8](assets/8_green_24.png) | Button | Der Button "Kurs öffnen" wird angezeigt, wenn bereits eine Zutrittsberechtigung besteht. Der Button "Buchen" wird automatisch angezeigt, wenn unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` die Option "Buchbare und offene Angebote" gewählt wurde. Administrative Rollen sehen zusätzlich den Button "Mit administrativer Rolle öffnen". [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042) |
-| ![9](assets/9_green_24.png) | Teaser-Video | Upload/Auswahl unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![10](assets/10_green_24.png) | Beschreibung | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![11](assets/11_green_24.png) | Lernziele | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![12](assets/12_green_24.png) | Voraussetzungen | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![13](assets/13_green_24.png) | Bescheinigung | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Info"` |
-| ![14](assets/14_green_24.png) | Copyright | Auswahl/Eingabe unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![15](assets/15_green_24.png) | Externer Link | Automatisch generierter Link für den direkten Zugang. Ist ein Login/eine Registration erforderlich, werden beim Aufruf dieses Links die entsprechenden Schritte vorgeschaltet. |
-| ![16](assets/16_green_24.png) | Bewertung mit Sternen | Den Kurs bzw. die Lernressource mit Sternen bewerten, sofern diese Funktion in der System-Administration aktiviert ist. Es werden die bisherigen Bewertungen angezeigt. Wird die Maus darüber bewegt, kann eine eigene Bewertung abgegeben werden. |
-| ![17](assets/17_green_24.png) | Eingabefeld für Kommentare | Texteingabe durch Benutzer:innen in der Kursansicht |
-| ![18](assets/18_green_24.png) | Leistungen | Box mit den Leistungen, die in der Lernressource erworben werden können, z.B. ein Zertifikat |
-| ![19](assets/19_green_24.png) | Durchführungszeitraum | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Durchführung"` |
-| ![20](assets/20_green_24.png) | Durchführungsort | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Durchführung"` |
-| ![21](assets/21_green_24.png) | Zeitaufwand | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![22](assets/22_green_24.png) | Hauptsprache | Eingabe unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![23](assets/23_green_24.png) | Fachbereiche/Katalog | Auswahl der Taxonomie unter `Kurs > Administration > Einstellungen > Tab "Metadaten"` |
-| ![24](assets/24_green_24.png) | Meine Daten | Persönliche Daten, wie aktueller Status, letzter Zugriff, mit welchen Gruppen Sie im Kurs eingetragen sind, Bookmark setzen/entfernen. Falls ein Austragen aus dem Kurs/der Lernressource erlaubt ist, ist dies ebenfalls hier möglich. |
-| ![25](assets/25_green_24.png) | Beurteilung | Entspricht der Funktion im Hauptfenster |
-| ![26](assets/26_green_24.png) | Technische Informationen | Technische Informationen mit der Kurs-ID, Datum der letzten Änderung u.ä. Die ID ist die automatisch generierte Identifikationsnummer der Lernressource. Mit dieser ID können Sie die Lernressource über die Suchmaske suchen. Technische Informationen werden nur für Besitzer:innen und administrative Rollen angezeigt. |
+| Element | Im Bild | Als Autor:in einstellen unter | Nur mit Administration |
+|---|---|---|---|
+| **Kopf** | | | |
+| Kennzeichen | ja | Tab "Metadaten" | nein |
+| Typ | ja | automatisch | nein |
+| Titel | ja | Tab "Metadaten" | nein |
+| Bookmark setzen | ja | automatisch | nein |
+| Teilen | ja | automatisch | nein |
+| Als PDF herunterladen | ja | automatisch | PDF Generator |
+| Teaser | ja | Tab "Info" | nein |
+| Durchführungsformat | ja | nur Kurs: Tab "Metadaten" | nein |
+| Fachbereiche | ja | Tab "Metadaten" | Taxonomie |
+| **Rechte Spalte** | | | |
+| Titelbild oder Teaser-Film | ja | Tab "Info" | nein |
+| Los geht's mit Buchen oder Öffnen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
+| Mein Kurs | nein | automatisch für Mitglieder, Fortschritt, Status und Punkte nur Kurs | nein |
+| Termine | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Termine / Absenzen |
+| **Fakten** | | | |
+| Durchführungszeitraum | ja | nur Kurs: Tab "Durchführung" | nein |
+| Termine | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Termine / Absenzen |
+| Ort | ja | nur Kurs: Tab "Durchführung", Feld "Durchführungsort" | nein |
+| Autor:innen / Durchführung mit | ja | Tab "Info" | nein |
+| Hauptsprache | ja | Tab "Info" | nein |
+| Zeitaufwand | ja | Tab "Info" | nein |
+| Kreditpunkte | nein | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Kreditpunkte |
+| Zertifikat | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | nein |
+| Teilnehmer:innen | nein | nur Durchführung | nein |
+| **Abschnitte** | | | |
+| Beschreibung | ja | Tab "Info" | nein |
+| Gliederung | nein | nur Durchführung | nein |
+| Lernen Sie Ihre Dozent:innen kennen | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | nein |
+| Lernziele | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
+| Voraussetzungen | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
+| Bescheinigung | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
+| Kategorien | nein | Tab "Katalog" | Katalog V1 |
+| **Unten** | | | |
+| Lizenz | ja | Tab "Metadaten" | Lizenzen |
+| Bewertung | ja | automatisch | Bewertung |
+| Kommentare | ja | automatisch | Kommentar |
 
+Einige Elemente erscheinen erst, wenn Administrator:innen das zugehörige Modul in der System-Administration eingeschaltet haben. Die Schaltfläche "Als PDF herunterladen" braucht den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator). Bewertung und Kommentare schalten Administrator:innen im [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md) ein, Lizenzen unter [Lizenzen](../../manual_admin/administration/Licenses.de.md), Fachbereiche im [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Termine setzen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) voraus. Kreditpunkte richten Administrator:innen in der [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) ein.
+
+Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt die Infoseite nicht. Sie stehen im Fenster "Über diesen Kurs", siehe [Toolbar: Infoseite](../learningresources/Info_page.de.md#about).
 
 !!! note "Hinweis"
 
     Wenn Sie als Teilnehmer:in kaum Informationen auf der Infoseite finden, dann liegt es daran, dass Ihre Lehrperson diese Seite (noch) nicht weiter eingerichtet hat. Sprechen Sie die Lehrperson darauf an.
 
+[Zum Seitenanfang ^](#general_functions_info)
 
+---
+
+
+## Infoseite drucken oder als PDF herunterladen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"} {: #print}
+
+Wer einen Kurs erst nach der Zustimmung einer vorgesetzten Person buchen darf, braucht die Kursangaben oft auf Papier. Die Infoseite lässt sich dafür als Flyer ausgeben: einspaltig, ohne Schaltflächen und mit einem QR-Code, der direkt zum Angebot führt.
+
+Klicken Sie im Kopf der Infoseite auf **Als PDF herunterladen**. Die Schaltfläche steht neben "Bookmark setzen" und "Teilen". OpenOlat erzeugt eine PDF-Datei mit dem Titel der Lernressource als Dateinamen. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers, dann ohne Datei.
+
+![Einspaltiger Ausdruck mit Logo, Titel, Titelbild, Preis, Fakten, Abschnitten, Terminen als Tabelle und QR-Code Zum Angebot](assets/general_functions_infopage_print_v1_de.png){ class="shadow lightbox" title="PDF einer Infoseite · 2026.09.29" }
+
+Der Ausdruck enthält:
+
+- oben das Logo der OpenOlat-Instanz, falls das Layout eines hinterlegt hat
+- Titel, Teaser und Titelbild
+- bei "Los geht's" nur die Angaben zum gewählten Angebot, zum Beispiel den Preis
+- Fakten, alle Abschnitte in aufgeklapptem Zustand, Lizenz und Sternebewertung
+- die Termine als Tabelle mit Datum, Termin und Zeit
+- am Ende den QR-Code mit der Überschrift "Zum Angebot" und der Adresse des Angebots
+
+Der Ausdruck lässt weg, was nur am Bildschirm Sinn ergibt: Bookmark setzen, Teilen und Als PDF herunterladen, die Schaltflächen "Buchen" und "Kurs öffnen", Hinweise und freie Plätze sowie die Kommentare. Sind Sie bereits Mitglied, entfällt "Los geht's" ganz. Der QR-Code zeigt auf dieselbe Adresse wie die Aktion "Teilen". Wo die Infoseite keine Aktion "Teilen" hat, fehlt auch der QR-Code.
+
+!!! note "Hinweis"
+
+    Die Schaltfläche "Als PDF herunterladen" erscheint nur, wenn Administrator:innen einen PDF-Dienst eingerichtet haben, siehe [Externe Werkzeuge: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator). Ohne PDF-Dienst drucken Sie die Infoseite über den Browser.
+
+[Zum Seitenanfang ^](#general_functions_info)
+
+---
+
+
+## Infoseite einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8286)" }](https://track.frentix.com/issue/OO-8286){:target="_blank"} {: #implementation}
+
+Wer eine Durchführung im Course Planner bucht, sieht vorher dieselbe Infoseite wie bei einem Kurs, mit Fakten, Abschnitten, Terminen und "Los geht's". Drucken und "Als PDF herunterladen" funktionieren gleich.
+
+![Infoseite einer Durchführung mit Kennzeichen und Elementtyp, Aktionen, Fakten, Beschreibung, Dozent:innen, Los geht's mit Preis und Terminen](assets/general_functions_infopage_example_v2_de.png){ class="shadow lightbox" title="Infoseite einer Durchführung · 2026.09.29" }
+
+Einige Elemente unterscheiden sich:
+
+- **Es fehlen** Lizenz, Bewertung, Kommentare und "Mein Kurs".
+- **Dazu kommen** der Abschnitt "Gliederung" und der Fakt "Teilnehmer:innen" mit der Zahl der Plätze.
+- **Im Kopf** steht neben dem Kennzeichen der Elementtyp der Durchführung.
+
+Sie stellen die Angaben nicht in einem Kurs ein, sondern im Course Planner in den Einstellungen der Durchführung, in den Tabs "Metadaten", "Infos" und "Durchführung". Mehr dazu unter [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings).
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -63,7 +124,7 @@ Die Pfade in der Tabelle beziehen sich auf die Administration der jeweiligen Ler
 Öffnen Sie in der Hauptnavigation Ihre Kursübersicht durch Klick auf "Kurse".<br>
 Dann wählen Sie den Link "Mehr erfahren" neben dem Button "Öffnen" eines Kurses.
 
-![Link Mehr erfahren neben dem Button Öffnen eines Kurses, markiert in der Kursübersicht Kurse im Tab Aktiv](assets/general_functions_infopage_access_courses_v1_de.png){ class="shadow lightbox" }
+![Link Mehr erfahren neben dem Button Öffnen eines Kurses markiert](assets/general_functions_infopage_access_courses_v1_de.png){ class="shadow lightbox" title="Kursübersicht Kurse im Tab Aktiv" }
 
 
 [Zum Seitenanfang ^](#general_functions_info)
@@ -75,11 +136,11 @@ Dann wählen Sie den Link "Mehr erfahren" neben dem Button "Öffnen" eines Kurse
 
 In der Kachelansicht des Katalogs finden Sie den Link "Mehr erfahren" zur Anzeige der Infoseite rechts unten. Sie können aber auch das Bild anklicken.
 
-![Kachel eines Kurses im Katalog, markiert sind das Bild und der Link Mehr erfahren rechts unten neben dem Button Öffnen](assets/general_functions_infopage_access_catalog_tile_v1_de.png){ class="shadow lightbox" }
+![Bild und Link Mehr erfahren rechts unten neben dem Button Öffnen markiert](assets/general_functions_infopage_access_catalog_tile_v1_de.png){ class="shadow lightbox" title="Kachel eines Kurses im Katalog" }
 
 In der Listenansicht klicken Sie den Link "Mehr erfahren" oder den Titel der Lernressource.
 
-![Listenansicht des Katalogs, markiert sind der Titel eines Kurses und der Link Mehr erfahren in der gleichnamigen Spalte](assets/general_functions_infopage_access_catalog_list_v1_de.png){ class="shadow lightbox" }
+![Titel eines Kurses und Link Mehr erfahren in der gleichnamigen Spalte markiert](assets/general_functions_infopage_access_catalog_list_v1_de.png){ class="shadow lightbox" title="Listenansicht des Katalogs" }
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -88,9 +149,9 @@ In der Listenansicht klicken Sie den Link "Mehr erfahren" oder den Titel der Ler
 
 ### Aufruf der Infoseite innerhalb eines Kurses {: #access_within_a_course}
 
-Wenn Sie sich im Kurs befinden, wählen Sie das Icon "Kursinfo" in der Toolbar.
+Wenn Sie sich im Kurs befinden, wählen Sie den Link "Infoseite" mit dem Info-Symbol in der Toolbar. Dieselbe Seite erreichen Sie auch in jeder anderen geöffneten Lernressource über die Toolbar.
 
-![Icon Kursinfo markiert in der Toolbar eines geöffneten Kurses, daneben Kurs-Chat und Kurssuche](assets/general_functions_infopage_access_toolbar_v1_de.png){ class="shadow lightbox" }
+![Link Infoseite mit Info-Symbol als erstes Werkzeug markiert, daneben Lernpfad, Termine und Kurssuche](assets/general_functions_infopage_access_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines geöffneten Kurses · 2026.09.29" }
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -99,13 +160,9 @@ Wenn Sie sich im Kurs befinden, wählen Sie das Icon "Kursinfo" in der Toolbar.
 
 ### Aufruf der Infoseite zu sonstigen Lernressourcen {: #access_other_learning_resources}
 
-Die Infoseite zu sonstigen Lernressourcen kann gleich aufgerufen werden, wie die Infoseite der Kurse.
-Sie enthält im Unterschied zu Kursen ausserdem noch Hinweise zur Verwendung.
+Die Infoseite zu sonstigen Lernressourcen rufen Sie gleich auf wie die Infoseite der Kurse. Im Autorenbereich führt kein Link direkt zur Infoseite: Öffnen Sie die Lernressource und wählen Sie dort "Infoseite" in der Toolbar.
 
-Beispiel: Lernressource Formular
-
-![Block Information zur Verwendung markiert auf der Infoseite eines Formulars, mit Referenzen auf zwei Kurse, letztem Zugriff, momentanen Benutzer:innen, Anzahl Aufrufe und Anzahl Exporte](assets/general_functions_infopage_usage_v1_de.png){ class="shadow lightbox" }
-
+Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden ist, stehen nicht auf der Infoseite, sondern im Fenster "Über diese Lernressource", siehe [Toolbar: Infoseite](../learningresources/Info_page.de.md#about).
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -114,7 +171,18 @@ Beispiel: Lernressource Formular
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
+[Lizenzen >](../../manual_admin/administration/Licenses.de.md)<br>
+[Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
+[Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)
+
+**Weiterführend**<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#general_functions_info)

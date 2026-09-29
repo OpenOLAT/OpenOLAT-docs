@@ -1,55 +1,59 @@
 # Toolbar: Infoseite {: #toolbar_infopage}
 
-![Icon Kursinfo als erstes Werkzeug in der Kurstoolbar, daneben Kalender, Glossar und Kurs-Chat](assets/Toolbar_Kursinfo.png){ class="shadow lightbox" }
+![Link Infoseite mit Info-Symbol als erstes Werkzeug der Kurstoolbar markiert](assets/general_functions_infopage_access_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines geöffneten Kurses · 2026.09.29" }
 
-Jeder Kurs und jede OpenOlat-Lernressource verfügt über eine Infoseite. Bei Kursen wird diese Seite als "Kursinfo" bezeichnet. Die hier eingestellten Informationen sind bereits sichtbar, bevor ein Kurs bzw. eine Lernressource überhaupt von Lernenden gebucht oder betreten wird.
+Wer in einem Kurs nachsehen möchte, worum es geht, wann die Termine sind oder wie weit man schon ist, öffnet die Infoseite über den Link **Infoseite** in der Toolbar. Jeder Kurs und jede andere Lernressource hat eine Infoseite. Sie zeigt dieselben Angaben, die Interessierte schon vor dem Buchen sehen: Beschreibung, Fakten, Lernziele, Dozent:innen und Termine. Wer bereits Mitglied ist, findet dort zusätzlich den Bereich "Mein Kurs" mit Fortschritt, Status, Punkten und Gruppen. Ist das Verlassen des Kurses erlaubt, steht dort auch die Aktion "Kurs verlassen".
 
-Lehrende können auf diese Weise der Zielgruppe schon im Vorfeld zentrale Informationen zur Verfügung stellen. Hierzu zählen z. B.:
+Ist der Kurs die einzige Lernressource einer Durchführung im Course Planner, öffnet der Link die Infoseite dieser Durchführung. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8511)" }](https://track.frentix.com/issue/OO-8511){:target="_blank"}
 
-* Namen der beteiligten Lehrenden
-* Beschreibung der Veranstaltung
-* Sprache
-* Durchführungszeitraum
-* Zeitaufwand, Lernziele, Voraussetzungen, Bescheinigung
-* Lizenzart der Lernressource
+Welche Elemente die Infoseite zeigt und wo Sie sie einstellen, beschreibt [Allgemeine Funktionen: Infoseite](../learningresources/General_Functions_Infopage.de.md#content).
 
-Die Infoseite enthält auch einen Link, um den Kurs zu starten bzw. zu buchen.
+[Zum Seitenanfang ^](#toolbar_infopage)
 
-![Infoseite eines Lernpfadkurses mit Vorschauvideo, Schaltfläche Kurs starten, Lernzielen, Voraussetzungen, externem Link sowie den Bereichen Überblick, Kategorien und Meine Daten](assets/Infoseite_Beispiel.png){ class="shadow lightbox" }
+---
 
-Viele Lehrende ergänzen ein Bild oder Video zur Veranstaltung. Dieses Bild sowie ein erster Teil der Beschreibung erscheinen dann auch in der Übersicht unter "Meine Kurse" bzw. "Favoriten", sofern nicht die Tabellenansicht gewählt wurde.
 
-![Kurskarte in der Kursübersicht mit Vorschaubild, Untertitel, Fortschritt und den Schaltflächen Infoseite und starten](assets/Infoseite_Kurse.jpg){ class="shadow lightbox" }
+## Infoseite drucken [:octicons-tag-16:{ title="ab Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"} {: #print}
 
-## Informationen und Bereiche
+Die Infoseite lässt sich drucken, etwa um eine Kursbuchung von der vorgesetzten Person bewilligen zu lassen. Klicken Sie im Kopf der Infoseite auf **Als PDF herunterladen**. OpenOlat erzeugt einen einspaltigen Flyer ohne Schaltflächen, mit einem QR-Code, der zum Angebot führt. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers. Die Schaltfläche erscheint nur, wenn Administrator:innen einen PDF-Dienst eingerichtet haben; das Drucken über den Browser funktioniert immer.
 
-### Automatisch generierte Infos
+Was der Ausdruck enthält und was er weglässt: [Infoseite drucken oder als PDF herunterladen](../learningresources/General_Functions_Infopage.de.md#print)
 
-OpenOlat generiert automatisch weitere Informationen, die für die Benutzer:innen wichtig sind. Hierzu zählen:
+[Zum Seitenanfang ^](#toolbar_infopage)
 
-* Der externe Link zum Kurs bzw. zur Lernressource für den direkten Zugang.
-* Technische Informationen mit der Kurs-ID, dem Datum der letzten Änderung u. ä. Die ID ist die automatisch generierte Identifikationsnummer der Lernressource. Mit dieser ID können Sie die Lernressource über die Suchmaske suchen.
-* Meine Daten mit dem aktuellen Status, dem letzten Zugriff usw.
+---
 
-Ferner besteht die Möglichkeit, den Kurs bzw. die Lernressource mit Sternen zu bewerten, sofern diese Funktion von Administrator:innen aktiviert ist.
 
-![Kurseintrag unter Favoriten mit Sternebewertung, Kommentarzähler und den Schaltflächen Infoseite und starten](assets/Infoseite_Link.png){ class="shadow lightbox" }
+## Über diesen Kurs [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #about}
 
-### Meine Daten
+Wer einen Kurs verwaltet und die ID, den externen Link oder die Besitzer:innen nachschlagen möchte, findet diese Angaben nicht auf der Infoseite, sondern im Fenster "Über diesen Kurs". Sie öffnen es unter:<br>
+`Kurs > Administration > Über diesen Kurs`
 
-Dieser Bereich ist besonders für die Teilnehmenden interessant. Unter "Meine Daten" finden sie ihre benutzerspezifischen Informationen zum Kurs, darunter den "Bestanden"-Status, wann sie zum letzten Mal auf den Kurs zugegriffen haben und in welchen Gruppen sie im Kurs eingetragen sind. Hier können sie auch einen Bookmark auf den Kurs bzw. die Lernressource setzen. Falls ein Austragen aus dem Kurs bzw. der Lernressource erlaubt ist, ist dies ebenfalls hier möglich.
+Bei anderen Lernressourcen heisst der Menüpunkt nach deren Typ, zum Beispiel "Über diesen Test" oder "Über dieses Formular", sonst "Über diese Lernressource". Den Menüpunkt sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Teilnehmende und Betreuer:innen sehen ihn nicht.
 
-![Bereich Meine Daten mit Status Bestanden, Punkten, letztem Zugriff, Gruppe, Bookmark entfernen und Schaltfläche Kurs verlassen](assets/Meine_Daten_182.png){ class="shadow lightbox" }
+![Bereiche Technische Informationen mit Id, Titel, Typ, Technischer Typ, Administrative Freigabe, Externer Link und Produkte sowie Verantwortliche mit Ersteller:in und Besitzer:innen](assets/info_page_about_dialog_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.09.29" }
 
-### Technische Informationen
+### Technische Informationen {: #technical_information}
 
-![Aufgeklappter Bereich Technische Informationen mit Id, Kennzeichen, Erstellungsdatum, letzter Änderung, technischem Typ, Ersteller, Besitzer:innen, administrativer Freigabe und Curricula](assets/Technische_infos18.jpg){ class="shadow lightbox" }
+Der Bereich "Technische Informationen" zeigt die Angaben, die OpenOlat zur Lernressource führt:
 
-Die technischen Informationen sind nur für die Besitzer:innen der Lernressource sichtbar. Teilnehmende und generell Interessierte sehen diese nicht.
+- **Id**: die automatisch vergebene Nummer der Lernressource. Mit ihr finden Sie die Lernressource über die Suche.
+- **Titel** und **Kennzeichen**: wie im Tab "Metadaten" der Einstellungen eingetragen.
+- **Erstellungsdatum** und **Zuletzt geändert**
+- **Typ** und **Technischer Typ**: bei Kursen zum Beispiel "Kurs" und "Lernpfad".
+- **Administrative Freigabe**: die Organisationen, für welche die Lernressource freigegeben ist.
+- **Externer Link**: der Link für den direkten Zugang. Ist ein Login oder eine Registrierung nötig, kommen diese Schritte vor dem Aufruf. Ist der Gastzugang erlaubt, steht darunter auch der **Externe Link - Gast**.
+- **Produkte**: die Produkte und Durchführungen im Course Planner, in denen der Kurs eingebunden ist.
 
-### Information zur Verwendung (weitere Lernressourcen)
+### Verantwortliche {: #responsible_persons}
 
-Die Infoseite von Lernressourcen jenseits eines Kurses enthält auch noch den Bereich "Information zur Verwendung". Dazu gehören:
+Der Bereich "Verantwortliche" nennt die **Ersteller:in** der Lernressource und alle **Besitzer:innen**.
+
+### Information zur Verwendung {: #usage}
+
+Ist eine andere Lernressource, zum Beispiel ein Formular oder ein Test, in Kurse eingebunden, zeigt das Fenster zusätzlich den Bereich "Information zur Verwendung".
+
+![Bereich Information zur Verwendung markiert, mit Referenz auf einen Kurs, letztem Zugriff, momentanen Benutzer:innen, Anzahl Aufrufe und Anzahl Exporte](assets/general_functions_infopage_usage_v2_de.png){ class="shadow lightbox" title="Fenster Über dieses Formular · 2026.09.29" }
 
 **Referenzen**: Hier sehen Sie, welche Kurse diese Lernressource verwenden. Solange die Lernressource in einem Kurs verwendet wird, kann sie nicht gelöscht werden.
 
@@ -57,13 +61,23 @@ Die Infoseite von Lernressourcen jenseits eines Kurses enthält auch noch den Be
 
 **Momentane Benutzer:innen**: Gibt an, wie viele Benutzer:innen diese Lernressource zurzeit in OpenOlat gestartet haben.
 
-**Anzahl Aufrufe**: Zählt automatisch, wie oft die Lernressource insgesamt gestartet wurde. Wenn die Lernressource nicht in OpenOlat gestartet werden kann, erscheint der Eintrag "Ausführung nicht unterstützt".
+**Anzahl Aufrufe**: Zählt automatisch, wie oft die Lernressource insgesamt gestartet wurde.
 
 **Anzahl Exporte**: Zählt automatisch, wie oft die Lernressource insgesamt heruntergeladen wurde.
 
+[Zum Seitenanfang ^](#toolbar_infopage)
+
+---
+
+
 ## Weiterführende Informationen {: #further_information}
 
-[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+**Auf dieser Seite erwähnt**<br>
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
+
+**Weiterführend**<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#toolbar_infopage)

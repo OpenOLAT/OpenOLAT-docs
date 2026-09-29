@@ -285,8 +285,8 @@ In the system administration under `Administration > External tools > AI module`
 
 ## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
-In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists or similar.
-These functions are only available if a PDF service is configured.
+In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.
+These functions are only available if a PDF service is configured. Without a PDF service, the button "Download as PDF" is missing on the info page. [:octicons-tag-16:{ title="from Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"}
 
 
 ### Gotenberg (recommended) [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6886)" }](https://track.frentix.com/issue/OO-6886){:target="_blank"} {: #gotenberg}
