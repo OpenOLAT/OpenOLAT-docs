@@ -51,6 +51,7 @@ These guides walk you through a complete task in OpenOlat, step by step. They ar
 3. [How can I create certification programs with the Course Planner?](certification_programs/certification_programs.md)
 4. [How do I show my courses in the OpenOlat catalog?](catalog/catalog.md)
 5. [How can I have my courses found by search engines?](oai_pmh/oai_pmh.md)
+6. [How do I integrate an OpenOlat course into Moodle?](LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)
 
 ## For administrators: operate the platform {: #for_administrators}
 

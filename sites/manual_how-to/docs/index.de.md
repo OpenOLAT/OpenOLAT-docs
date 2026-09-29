@@ -51,6 +51,7 @@ Diese Anleitungen führen Sie Schritt für Schritt durch eine vollständige Aufg
 3. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](certification_programs/certification_programs.de.md)
 4. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](catalog/catalog.de.md)
 5. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](oai_pmh/oai_pmh.de.md)
+6. [Wie binde ich einen OpenOlat Kurs in Moodle ein?](LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)
 
 ## Für Administrator:innen: Plattform betreiben {: #for_administrators}
 
