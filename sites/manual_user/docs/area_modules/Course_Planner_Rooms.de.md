@@ -5,7 +5,7 @@
 
 Sie sehen auf einen Blick, welche Räume für die Termine Ihrer Kurse gebucht sind und wo sich Buchungen überschneiden.
 
-Der Bereich «Raumverwaltung» zeigt Ihnen die Raumplanung und die Räume, für die Ihre Organisation zuständig ist. Die Angaben stehen Ihnen im Course Planner zum Lesen zur Verfügung, ohne dass Sie die Administration aufsuchen.
+Der Bereich «Raumverwaltung» zeigt Ihnen die Raumplanung und die Räume, für die Ihre Organisation zuständig ist. Die Angaben stehen Ihnen im Course Planner zum Lesen zur Verfügung, ohne dass Sie die System-Administration aufsuchen.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -20,7 +20,7 @@ Die Raumverwaltung im Course Planner steht zwei Rollen zur Verfügung:
 
 Alle übrigen Rollen sehen den Bereich nicht, auch Produktbesitzer:in, Elementbesitzer:in und Principal. Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in arbeiten an der Durchführung des Kurses, nicht an dessen organisatorischer Planung.
 
-Beide Rollen lesen die Angaben. Räume und Gebäude legen Sie in der System-Administration an und ändern sie dort, auch als Administrator:in. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
+Beide Rollen lesen die Angaben. Räume und Gebäude legen Sie in der System-Administration an und ändern sie dort, auch wenn Sie die Rolle Administrator:in haben: `Administration > Module > Räume`. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -33,7 +33,7 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 !!! tip "Voraussetzung"
 
-    Die Raumverwaltung steht nur zur Verfügung, wenn das Modul «Räume» von einem/einer Systemadministrator:in aktiviert worden ist. Steht der Bereich nicht zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support Ihrer OpenOlat Instanz.
+    Die Raumverwaltung steht nur zur Verfügung, wenn ein:e Systemadministrator:in das Modul «Räume» aktiviert hat. Steht der Bereich nicht zur Verfügung, wenden Sie sich bitte an Ihre:n Systemadministrator:in oder den Support Ihrer OpenOlat-Instanz.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -43,13 +43,13 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 Unter «Raumplanung» sehen Sie jede Buchung, die aus den Terminen Ihrer Kurse entstanden ist.
 
-Eine Buchung entsteht, sobald Sie einem Termin einen Raum zuweisen. Sie entsteht ebenso, wenn Sie eine Durchführung mitsamt ihren Terminen kopieren: [Raumbuchungen beim Kopieren übernehmen](Course_Planner_Implementations.de.md#copy_rooms) [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"}
+Eine Buchung entsteht, sobald Sie einem Termin einen Raum zuweisen. Sie entsteht ebenso, wenn Sie Termine kopieren: beim Kopieren einer Durchführung mitsamt ihren Terminen ([Raumbuchungen beim Kopieren übernehmen](Course_Planner_Implementations.de.md#copy_rooms)) und beim Kopieren eines Kurses mit seinen Terminen ([Termine und Raumbuchungen](../learningresources/Course_Copy_Wizard.de.md#events_rooms)). [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"}
 
 Über der Tabelle wählen Sie den Zeitraum der Anzeige: «Heute und Bevorstehende», «Letzte 3 Monate» oder «Individuell» mit einer selbst gewählten Zeitspanne.
 
 Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Rechts über der Tabelle schalten Sie zwischen Tabelle und Kalender um; der Kalender bietet die Ansichten «Monat», «Woche», «Tag» und «Jahr». Der Umschalter erscheint, sobald die Anzeige mindestens eine Buchung enthält. Über «Im Kursplaner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner; der Termin öffnet sich in einem neuen Browser-Tab. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
 
-![Alle Raumbuchungen mit Datum, Zeit, Kennzeichen, Gebäude, Termin, Anzahl Teilnehmender und Plätzen, Warnungen als Symbol am Zeilenanfang, in der Raumplanung der Raumverwaltung](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" }
+![Die Raumbuchungen mit Datum, Von, Bis, Kennzeichen, Gebäude, Termin, #Teilnehmer und #Plätze, Warnungen als Dreieck am Zeilenanfang](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" title="Raumplanung der Raumverwaltung" }
 
 ### Details einer Buchung {: #booking_details}
 
@@ -57,7 +57,7 @@ Zu jeder Buchung sehen Sie, welcher Kurs, welche Dozent:innen und welche Räume 
 
 Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel und das Kennzeichen des Termins mit seinem Statusabzeichen, allfällige Warnungen hervorgehoben, die Fachbereiche sowie Datum, Zeit, Teilnehmerzahl, Absenzen und Präsenzpflicht. Ein Ort erscheint, wenn er am Termin erfasst ist. Darunter stehen die Dozent:innen, der zugehörige Kurs als Kurskarte und die gebuchten Räume als Raumkarten. Ist mehr als ein Raum gebucht, steht der Raum der aufgeklappten Zeile unter «Raum», die übrigen unter «Weitere Räume für diese Buchung».
 
-![Eckwerte, Dozent und zwei Raumkarten, die erste unter Raum, die zweite unter Weitere Räume für diese Buchung, in der aufgeklappten Zeile einer Buchung](assets/course_planner_rooms_scheduling_details_v1_de.png){ class="shadow lightbox" }
+![Die Angaben zum Termin, Dozenten und zwei Raumkarten, die erste unter Raum, die zweite unter Weitere Räume für diese Buchung](assets/course_planner_rooms_scheduling_details_v1_de.png){ class="shadow lightbox" title="Aufgeklappte Buchung in der Raumplanung" }
 
 ### Buchung im Kalender ansehen [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"} {: #booking_callout}
 
@@ -67,9 +67,9 @@ Im Kalender steht jede Buchung als Kalendereintrag, beschriftet mit dem Kennzeic
 
 Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in der Raumplanung, in der Raumliste und im Kalender einer einzelnen Raumzeile. In der Tabellenansicht führt stattdessen die aufgeklappte Zeile zu den [Details einer Buchung](#booking_details).
 
-![Das Fenster Buchung mit Kennzeichen des Raums, Termin, Datum, Zeit und der Aktion Im Kursplaner öffnen, über einer Buchung der Jahresansicht](assets/course_planner_rooms_scheduling_callout_v1_de.png){ class="shadow lightbox" }
+![Das Fenster Buchung mit Kennzeichen des Raums, Termin, Datum, Zeit und der Aktion Im Kursplaner öffnen](assets/course_planner_rooms_scheduling_callout_v1_de.png){ class="shadow lightbox" title="Jahresansicht im Kalender der Raumverwaltung" }
 
-![Der Umschalter zwischen Tabellen- und Kalenderansicht mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht mit den Buchungen im Kalender, in der Raumplanung der Raumverwaltung](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" }
+![Der Umschalter zwischen Tabelle und Kalender mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" title="Kalender der Raumplanung" }
 
 ### Warnungen {: #warnings}
 
@@ -77,9 +77,9 @@ Sie sehen einer Buchung an, ob Raum und Termin zusammenpassen.
 
 In der Tabelle weist die Spalte «Warnungen» darauf hin. Im Kalender trägt der Kalendereintrag zusätzlich zur Farbe seines Gebäudes ein Warndreieck. Es gibt drei Warnungen:
 
-* **Doppelbuchung**: «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!»
-* **Zu wenig Plätze**: «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
-* **Inaktiver Raum**: «Der Raum "..." ist inaktiv!»
+* «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!», wenn sich zwei Buchungen desselben Raums überschneiden.
+* «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
+* «Der Raum "..." ist inaktiv!», wenn der gebuchte Raum inaktiv gesetzt ist.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -91,11 +91,11 @@ Unter «Räume» sehen Sie, welche Räume Ihnen zur Verfügung stehen und wie st
 
 Die Liste führt die Räume, für die Ihre Organisation zuständig ist. Mit den vordefinierten Tabs «Alle» und «Relevant» sowie den Filtern nach Status (aktiv/inaktiv), Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Auch hier schalten Sie rechts über der Tabelle auf den Kalender um.
 
-Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und den «Nächsten Termin». Über «Kalender» öffnen Sie die Belegung des Raums, über «Details» eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
+Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und die Spalte «Nächster Termin». Über «Kalender» öffnen Sie die Belegung des Raums, über «Details» eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
 
 Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung das [Fenster «Buchung»](#booking_callout).
 
-![Die zugänglichen Räume mit Kennzeichen, Beschreibung, Status, Plätzen, Gebäude, Belegung und nächstem Termin, dazu Kalender- und Detailsymbol je Zeile, in der Raumliste der Raumverwaltung](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" }
+![Ein Raum mit Kennzeichen, Beschreibung, Status, Plätzen, Gebäude, Belegung und nächstem Termin, dazu Kalender- und Detailsymbol](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" title="Räume in der Raumverwaltung" }
 
 !!! info "Gelöschte Räume in der Administration"
 
@@ -121,7 +121,9 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)<br>
+[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
+[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)
