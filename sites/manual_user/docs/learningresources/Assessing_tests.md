@@ -248,16 +248,16 @@ The download is available in the correction tool of a course, as well as in the 
 
 ## Resetting or invalidating tests [:octicons-tag-16:{ title="from Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
 
-Test attempts performed by learners can also be undone. To do this, open the corresponding test of a person and select the option "Invalidate" or "Reset test data".
+Test attempts performed by learners can also be undone. To do this, open the test of a person in the assessment tool. Under "Test runs", you find "Invalidate" in the menu with three dots at the end of an attempt's row. The "Reset data of test" button is below the list of attempts.
 
-![Actions Invalidate per attempt and Reset test data for all attempts highlighted, an invalidated attempt is struck through](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" title="Test runs of a person in the assessment tool" }
+![Menu with three dots of a test attempt opened with the action Invalidate, below it the Reset data of test button, both highlighted](assets/assessing_tests_invalidate_reset_v1_en.png){ class="shadow lightbox" title="Test runs of a person in the assessment tool · 2026.09.29" }
 
 When **invalidating**, a single attempt is marked as invalid. This means the attempt continues to appear in the list and can be viewed and even reactivated by teachers, but is no longer taken into account as a result for the learner. If the learner has made several attempts, the next attempt in time is taken into account as the result.
 However, this does not change the number of attempts displayed. So if, for example, a test is limited to three attempts and the learner has made three attempts, no further attempts are available, even if one or more of the attempts have been invalidated.
 
 If there is only one attempt and it is invalidated, the table display in the assessment tool does not change. The invalidated attempt with its points is still displayed.
 
-In contrast to invalidating, **"Reset test data"** completely deletes all attempts, so the number of attempts is set to 0.
+In contrast to invalidating, **"Reset data of test"** completely deletes all attempts, so the number of attempts is set to 0.
 
 ## Assessment in the course run [:octicons-tag-16:{ title="from Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
 

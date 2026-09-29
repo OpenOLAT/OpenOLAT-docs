@@ -226,9 +226,9 @@ In order for video chats to be possible, BBB, for example, must be allowed in th
 
 ## Further informations {: #links}
 
-:octicons-device-camera-video-24: **German Video Introduction**: [Testing overview](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank”}
+:octicons-device-camera-video-24: **German Video Introduction**: [Testing overview](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}
 
-:octicons-device-camera-video-24: **German Video Introduction**: [How do exams work in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank”}
+:octicons-device-camera-video-24: **German Video Introduction**: [How do exams work in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
 
 Details on [Assessment mode](../../manual_user/learningresources/Assessment_mode.md) 
 More about the [Safe Exam Browser >](../../manual_user/learningresources/Assessment_mode.md)

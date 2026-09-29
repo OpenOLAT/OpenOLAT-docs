@@ -275,8 +275,8 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 ## Further information {: #further_information}
 
 **youtube**<br>
-:octicons-device-camera-video-24: **Video introduction (German)**: [Overview Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank”}<br>
-:octicons-device-camera-video-24: **Video introduction (German)**: [How do tests work in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank”}
+:octicons-device-camera-video-24: **Video introduction (German)**: [Overview Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}<br>
+:octicons-device-camera-video-24: **Video introduction (German)**: [How do tests work in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
 
 **Further reading**<br>
 [Assessment tool - Overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>

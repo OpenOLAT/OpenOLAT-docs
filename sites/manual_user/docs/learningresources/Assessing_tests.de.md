@@ -248,9 +248,9 @@ Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Ko
 
 ## Tests zurücksetzen oder annullieren [:octicons-tag-16:{ title="ab Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
 
-Von Lernenden durchgeführte Test-Versuche können auch rückgängig gemacht werden. Dafür wird der entsprechende Test einer Person aufgerufen und dann die Option "Annullieren" oder "Testdaten zurücksetzen" gewählt.
+Von Lernenden durchgeführte Test-Versuche können auch rückgängig gemacht werden. Dafür öffnen Sie im Bewertungswerkzeug den Test einer Person. Unter "Testversuche" finden Sie "Annullieren" im Menü mit drei Punkten am Ende der Zeile eines Versuchs. Der Button "Testdaten zurücksetzen" steht unter der Liste der Versuche.
 
-![Aktionen Annullieren je Versuch und Testdaten zurücksetzen für alle Versuche hervorgehoben, ein annullierter Versuch ist durchgestrichen](assets/Test_annullieren_zuruecksetzen.jpg){ class="shadow lightbox" title="Testversuche einer Person im Bewertungswerkzeug" }
+![Menü mit drei Punkten eines Testversuchs geöffnet mit der Aktion Annullieren, darunter der Button Testdaten zurücksetzen, beide hervorgehoben](assets/assessing_tests_invalidate_reset_v1_de.png){ class="shadow lightbox" title="Testversuche einer Person im Bewertungswerkzeug · 2026.09.29" }
 
 Beim **Annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet, der Versuch erscheint weiter in der Liste und kann von Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für die lernende Person berücksichtigt. Hat die Person mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
 Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat die Person drei Versuche unternommen, stehen ihr keine weiteren Versuche zur Verfügung, auch wenn einer oder mehrere der Versuche annulliert wurden.

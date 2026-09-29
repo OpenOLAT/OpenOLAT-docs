@@ -28,7 +28,7 @@ In the filter tab "**Deleted**", you have access to your deleted learning resour
 Only administrators or learning resource managers can permanently delete learning resources/courses.
 
 ### Create your own filter tabs [:octicons-tag-16:{ title="from Release 16.0 (OO-5482)" }](https://track.frentix.com/issue/OO-5482){:target="_blank"} {: #custom_filter_tabs}
-You can also completely recreate a frequently needed filter query in the line with the filter tabs "Favourites" to "Deleted".<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Open menu with the Save filter entry at the top right above the filter row](assets/Autorenbereich_Filter_172.png)
+You can also completely recreate a frequently needed filter query in the line with the filter tabs "Favourites" to "Deleted".<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Menu with three dots opened at the right above the filter row, the entry Save filter is highlighted](assets/authoring_save_filter_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.09.29" }
 
 ### Filter buttons {: #filter_buttons}
 The second line already shows several **buttons** with filter options, for example "Technical Type", "Implementation format", "Status" and "Type". By pressing "**More...**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>

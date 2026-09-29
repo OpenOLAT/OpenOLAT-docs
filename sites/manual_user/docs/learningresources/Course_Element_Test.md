@@ -279,7 +279,7 @@ Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen:
 
 !!! warning "Attention"
 
-    Once a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.
+    Once a test or self-test is included in a course, only very limited changes can be made under "Edit learning resource". Therefore, tests should not be included in a course until they are completely finished.
 
 Why is that? Assuming you could still add questions in an embedded test or mark other answers as correct, on the one hand not all test subjects would encounter the same conditions. On the other hand, results might have already been saved that cannot be uniquely assigned to a version of the test file after the change. Therefore, editing of already included tests and self-tests is severely limited.
 

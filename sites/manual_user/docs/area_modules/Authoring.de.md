@@ -28,7 +28,7 @@ Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten Lernressour
 Das dauerhafte Löschen der Lernressourcen/Kurse ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
 ### Eigene Filter-Tabs erstellen [:octicons-tag-16:{ title="ab Release 16.0 (OO-5482)" }](https://track.frentix.com/issue/OO-5482){:target="_blank"} {: #custom_filter_tabs}
-Sie können in der Zeile mit den Filter-Tabs "Favoriten" bis "Gelöscht" auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Offenes Menü mit dem Eintrag Filter speichern rechts über der Filterzeile](assets/Autorenbereich_Filter_172.png)
+Sie können in der Zeile mit den Filter-Tabs "Favoriten" bis "Gelöscht" auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Menü mit drei Punkten rechts über der Filterzeile geöffnet, der Eintrag Filter speichern ist hervorgehoben](assets/authoring_save_filter_v1_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.09.29" }
 
 ### Buttons zum Filtern {: #filter_buttons}
 In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezeigt, zum Beispiel "Technischer Typ", "Durchführungsformat", "Status" und "Typ". Unter **Mehr...** können Sie weitere Buttons anzeigen. Klicken Sie zur weiteren Filterung auf den kleinen Pfeil nach unten und es werden die Filtermöglichkeiten zur Auswahl angezeigt.<br>

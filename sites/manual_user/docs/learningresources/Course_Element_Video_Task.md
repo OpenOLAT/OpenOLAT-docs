@@ -120,7 +120,7 @@ In order to be able to assign segments (video sections), a video task necessaril
 ### Step 1
 Create a video learning resource in the authoring area.
 Open the video editor and add segments and terms.
-[Find out more >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
+[Find out more >](../../manual_user/learningresources/Learning_resource_Video.md#video_segments)<br>
 
 ### Step 2
 Add a "Video Assignment" course block to the course.

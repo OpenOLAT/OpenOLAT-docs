@@ -228,9 +228,9 @@ Damit Video-Chats möglich sind, muss z.B. BBB im Prüfungs-Chat erlaubt werden.
 
 ## Weitere Informationen {: #links}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Überblick Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Überblick Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Wie funktionieren Tests in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie funktionieren Tests in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
 
 Details zum [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md) 
 

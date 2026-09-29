@@ -7,7 +7,7 @@ Das Menü "Einstellungen" steht Besitzer:innen des Kurses, Lernressourcenverwalt
 
 ![Kurseinstellungen über den Eintrag Einstellungen im Menü Administration geöffnet, mit einem Tab je Einstellungsbereich](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
 !!! info "Wichtig"
 

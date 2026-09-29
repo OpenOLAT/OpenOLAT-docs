@@ -120,7 +120,7 @@ Um Segmente (Videoabschnitte) zuordnen zu können, benötigt eine Videoaufgabe z
 ### Schritt 1
 Erstellen Sie im Autorenbereich eine Video-Lernressource. 
 Öffnen Sie den Video-Editor fügen Sie Segmente und Begriffe hinzu. 
-[Mehr dazu >](../../manual_user/learningresources/Learning_resource_Video.de.md#video-editor-segmente)<br>
+[Mehr dazu >](../../manual_user/learningresources/Learning_resource_Video.de.md#video_segments)<br>
 
 
 ### Schritt 2
