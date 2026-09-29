@@ -43,7 +43,7 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 Unter «Raumplanung» sehen Sie jede Buchung, die aus den Terminen Ihrer Kurse entstanden ist.
 
-Eine Buchung entsteht, sobald Sie einem Termin einen Raum zuweisen. Sie entsteht ebenso, wenn Sie Termine kopieren: beim Kopieren einer Durchführung mitsamt ihren Terminen ([Raumbuchungen beim Kopieren übernehmen](Course_Planner_Implementations.de.md#copy_rooms)) und beim Kopieren eines Kurses mit seinen Terminen ([Termine und Raumbuchungen](../learningresources/Course_Copy_Wizard.de.md#events_rooms)). [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"}
+Eine Buchung entsteht, sobald Sie einem Termin einen Raum zuweisen. Sie entsteht ebenso, wenn Sie Termine kopieren: beim Kopieren einer Durchführung mitsamt ihren Terminen ([Raumbuchungen beim Kopieren übernehmen](Course_Planner_Implementations.de.md#copy_rooms)) [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"} und beim Kopieren eines Kurses mit seinen Terminen ([Termine und Raumbuchungen](../learningresources/Course_Copy_Wizard.de.md#events_rooms)) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9459)" }](https://track.frentix.com/issue/OO-9459){:target="_blank"}.
 
 Über der Tabelle wählen Sie den Zeitraum der Anzeige: «Heute und Bevorstehende», «Letzte 3 Monate» oder «Individuell» mit einer selbst gewählten Zeitspanne.
 

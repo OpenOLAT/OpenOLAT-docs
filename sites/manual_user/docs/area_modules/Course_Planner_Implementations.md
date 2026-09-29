@@ -1,6 +1,6 @@
 # Course Planner: Implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
-![The entry point to the implementations, highlighted in the Products area next to Products, Events, To-dos, Reports, Certification programs and Room management](assets/course_planner_implementations_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![The entry point to the implementations in the Products area with Products and Events, alongside Productivity with to-dos and Reports and Tools with Room management](assets/course_planner_implementations_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 ## What is an implementation? {: #definition}
 
@@ -21,16 +21,15 @@ From this conceptual idea, the same courses are generally assigned and used in e
 
 If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
 
-![All implementations of a product in a filterable list with Reference, Type and Status, here with the Occupancy status filter open](assets/course_planner_implementations_list_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
+Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
+
+![The implementations in a filterable list with Reference, Type and Status, here with the Occupancy status filter open](assets/course_planner_implementations_list_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
 ![The Save filter action in the menu at the top right of the table, which keeps a filter combination as your own preset](assets/course_planner_implementations_list_filter_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
 
-The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
-
-!!! info "Important"
-    The subjects are made available in the system administration, under `Administration > Modules > Taxonomy`.
+The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). The subjects themselves are maintained in the system administration, under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 ### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
@@ -38,7 +37,7 @@ By activating the checkbox in the first column you select several implementation
 
 The same action is available in the search of the Course Planner and in the "Structure" tab of an implementation.
 
-![Three selected implementations with the "Change type" action displayed and the dialog for choosing the new element type](assets/course_planner_implementations_change_type_v1_en.png){ class="shadow lightbox" title="Implementation overview of the Course Planner" }
+![Three selected implementations with the "Change type" action displayed and the dialog for choosing the new element type](assets/course_planner_implementations_change_type_v1_en.png){ class="shadow lightbox" title="Change type dialog on the Implementations page" }
 
 
 [To the top of the page ^](#implementations)
@@ -110,7 +109,7 @@ If a maximum or minimum number of participants is defined, an additional note te
 The "Structure" tab is shown for a structured implementation (the type is selected when a new implementation is created).
 In the displayed tree structure, each individual element of the implementation can be edited or information about it can be queried.
 
-![The tree structure of the elements with the Create menu open, the download button, the Ref. column with the Referenced courses info window and the icon columns up to the 3 dots](assets/course_planner_implementations_tab_structure1_v2_en.png){ class="shadow lightbox" title="Structure tab of an implementation · 2026.09.28" }
+![The tree structure with the Create menu, the download, the Ref. column with Referenced courses and the icon columns](assets/course_planner_implementations_tab_structure1_v2_en.png){ class="shadow lightbox" title="Structure tab of an implementation · 2026.09.28" }
 
 The table in the "Structure" tab offers the following functions:
 
@@ -121,9 +120,9 @@ The table in the "Structure" tab offers the following functions:
 - **Absences**: In the next column you will find the absences, provided that absence management is activated.
 - **Data collection preview**: If the "Quality management" module has been activated, you can jump to the assigned data collection preview for each element.
 - **Learning progress**: This column shows the average progress of all participants. All learning path courses for this element are taken into account. Conventional courses do not provide any data on learning progress.
-- **3 dots**: At the end of the row you will find options for editing the elements.
+- **3 dots**: At the end of the row you will find the actions on an element: **Open in a new Tab**, **Edit**, **Move element**, an entry for creating a sub-element, labelled with the element type (for example **Create new sub-element "Modul"**), **Copy element**, **Members management** and **Delete**.
 
-![The actions on an element: Open in a new tab, Edit, Move element, Create new sub-element, Copy element, Members management and Delete](assets/course_planner_implementations_tab_structure2_v2_en.png){ class="shadow lightbox" title="Menu of the 3 dots in the Structure tab" }
+![The menu of the three dots with all actions on an element, from opening in a new tab to deleting](assets/course_planner_implementations_tab_structure2_v2_en.png){ class="shadow lightbox" title="Menu of the 3 dots in the Structure tab" }
 
 #### Move an element [:octicons-tag-16:{ title="from Release 20.3 (OO-8841)" }](https://track.frentix.com/issue/OO-8841){:target="_blank"}
 
@@ -171,7 +170,7 @@ If it corresponds to the selected implementation type (Single course required), 
 
 Using a template for instantiation is recommended if it is a recurring course that is always the same.
 
-![The Course template section with the Add course template button below the still empty course list](assets/course_planner_implementations_tab_content_template1_v1_en.png){ class="shadow lightbox" title="Content tab of an implementation of type Single course" }
+![The Course template section with the Add course template button below the still empty course list](assets/course_planner_implementations_tab_content_template1_v1_en.png){ class="shadow lightbox" title="Content tab of an implementation" }
 
 The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
@@ -195,7 +194,7 @@ The templates for course content in Course Planner do not have independent membe
 - A click on the **+** at the beginning of a line shows the **details** of this event.
 - It is also possible to **import** events. To do this, click on the small arrow next to the "Add event" button.
 
-![The events of an implementation with date, time, units and lecturers, the All levels and This level switches and the Add event button](assets/course_planner_implementations_tab_events_v1_en.png){ class="shadow lightbox" title="Events tab" }
+![The events of an implementation with Date, From, To, Unit and Teachers, the All levels and This level switches and the Add event button](assets/course_planner_implementations_tab_events_v1_en.png){ class="shadow lightbox" title="Events tab" }
 
 [To the top of the page ^](#implementations)
 
@@ -203,7 +202,7 @@ The templates for course content in Course Planner do not have independent membe
 
 ### Tab Members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
-![The members of an implementation filtered by role, with the views Active, Pending, Non-members and Members' history](assets/course_planner_implementations_tab_members_v1_en.png){ class="shadow lightbox" title="Members tab" }
+![The members of an implementation with one tab per role and the views Active, Pending, Non-members and Members' history](assets/course_planner_implementations_tab_members_v1_en.png){ class="shadow lightbox" title="Members tab" }
 
 As mentioned above, an educational product (consisting of one or more courses) can be carried out several times. Different participants take part in each implementation.
 
@@ -264,7 +263,7 @@ The Course Planner can be set up so that a booking request must be confirmed by 
 
 This approval step can also be set up for all offers, except when paying with Paypal (since payment/booking there is immediate).
 
-![The choice between Standard and With confirmation, plus confirmation by administrative roles and the deadline](assets/course_planner_implementations_confirm_member_v1_en.png){ class="shadow lightbox" title="Membership step of the Add participants wizard" }
+![The choice between Standard and With confirmation, plus confirmation by administrative roles and the Confirmation until field](assets/course_planner_implementations_confirm_member_v1_en.png){ class="shadow lightbox" title="Membership step of the Add participants wizard" }
 
 
 [To the top of the page ^](#implementations)
@@ -282,14 +281,14 @@ The "Offers" subsection shows, from top to bottom, the overview, the settings, t
 
 To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per implementation in the Catalog tab).
 
-![The direct links to the offer for the external and the internal catalog, opened via Access and Links in the offer overview](assets/course_planner_implementations_tab_catalog3_v1_en.png){ class="shadow lightbox" title="Catalog tab of an implementation" }
+![The direct links to the offer for the external and the internal catalog, opened via Access and Links](assets/course_planner_implementations_tab_catalog3_v1_en.png){ class="shadow lightbox" title="Links dialog in the Catalog tab" }
 
 #### Tab Catalog > Settings {: #tab_catalog_settings}
 
 In the **Settings** section below the overview, you define whether every participation in this implementation must be booked through an offer and how high up the implementation appears in the catalog.
 
 - **Booking**: The setting determines whether adding a participant in the Course Planner requires a booking through an offer. With **Allowed without booking order** (default), the wizard in the Members tab also offers adding participants without an offer. With **Requires booking order**, this option is missing and every addition goes through an offer. The setting applies to the whole implementation, not to a single offer.
-- **Catalog priority when sorting**: Priority determines how high up an offer appears in the catalog. Use the **Edit** button next to the value to change it. The row only appears if "Sorting by priority" is switched on in the system administration. [More about sorting by priority >](catalog2.0_sort_offers.md#sorting_microsites_define_priority)
+- **Catalog priority when sorting**: Priority determines how high up an offer appears in the catalog. Use the **Edit** button next to the value to change it. The row only appears if "Sorting by priority" is switched on in the system administration: `Administration > Modules > Catalog > Tab "Settings"`. [More about sorting by priority >](catalog2.0_sort_offers.md#sorting_microsites_define_priority)
 
 ![The Booking selection with Allowed without booking order and Requires booking order, below it the Catalog priority when sorting with the Edit button](assets/course_planner_implementations_tab_catalog_settings_v1_en.png){ class="shadow lightbox" title="Settings section in the Catalog tab · 2026.09.28" }
 
@@ -308,7 +307,7 @@ You will find the section **Booking order forms** below the offers:<br>
 
 You can choose form learning resources with the usage "Embedding" that you can access in the authoring area. The dialog opens with your **Favourites**; you find all other forms under **My entries** or **Search form**. The chosen form is then available to all offers of the implementation, but no offer uses it yet.
 
-![The table of forms with step name, the position per offer and the counters #Open, #Completed and #Cancelled, plus the buttons Export data and Add form](assets/course_planner_implementations_tab_catalog_forms_v1_en.png){ class="shadow lightbox" title="Booking order forms section in the Catalog tab · 2026.09.28" }
+![The forms with step name, position per offer and the counters per status, plus Export data and Add form](assets/course_planner_implementations_tab_catalog_forms_v1_en.png){ class="shadow lightbox" title="Booking order forms section in the Catalog tab · 2026.09.28" }
 
 The table lists for each form:
 
@@ -377,16 +376,16 @@ If the booked offer requires forms, the detail view of a booking order shows the
 
 ### Tab Settings {: #tab_settings}
 
-The many possible settings for an implementation can be found under several subordinate tabs. A preview info page is permanently available.
+The many possible settings for an implementation can be found under several subordinate tabs. The **Preview info page** button shows you at any time how the info page of the implementation appears.
 
-![The sub-tabs of the settings from Metadata to Options and the Preview info page button](assets/course_planner_implementations_tab_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation" }
+![The sub-tabs of the settings from Metadata to Options and the button for the preview of the info page](assets/course_planner_implementations_tab_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation" }
 
 
 #### Metadata of the settings
 
 The metadata entered here is used to simplify search processes, for example.
 
-![The mandatory fields Title, Reference and Type as well as Implementation format and Subjects](assets/course_planner_implementations_tab_settings_metadata_v1_en.png){ class="shadow lightbox" title="Metadata sub-tab of the settings of an implementation" }
+![The mandatory fields Title, Reference and Type as well as Implementation format and Subjects / Catalog](assets/course_planner_implementations_tab_settings_metadata_v1_en.png){ class="shadow lightbox" title="Metadata sub-tab of the settings of an implementation" }
 
 
 #### Infos in the settings
@@ -466,10 +465,11 @@ When [copying an implementation](#copy), the link to the certification program i
 Separate settings can be made here for each implementation:
 
 - Calendar configuration
-- Schedule
-- Absence configuration
-- Absence management
+- Calendars
+- Absences configuration
+- Absences
 - Progress configuration
+- Progress
 
 ![Calendar, absence and progress configuration, each adopted from the type or overridden per element](assets/course_planner_implementations_tab_settings_options_v1_en.png){ class="shadow lightbox" title="Options sub-tab" }
 
@@ -498,7 +498,7 @@ The reports that can be created here relate to the currently selected implementa
 In contrast, the report creation, which can be called up in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md), refers to **all** implementations. 
 The structure of the Excel files (columns) and the procedure for creating them is identical for both.
 
-![The report templates with category, description and type, the Run column and below it the Generated reports section](assets/course_planner_implementations_tab_reports1_v1_en.png){ class="shadow lightbox" title="Reports tab of an implementation" }
+![The report templates with category and description, the Run column and below it the generated Excel files with download](assets/course_planner_implementations_tab_reports1_v1_en.png){ class="shadow lightbox" title="Reports tab of an implementation" }
 
 Click on the **arrows in the "Run"** column to generate Excel files with the current data using the listed templates.
 
@@ -515,7 +515,13 @@ You will find the **"Copy element"** action in the list of implementations at th
 
 ![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard](assets/course_planner_implementations_copy1_v1_en.png){ class="shadow lightbox" title="List of implementations" }
 
-In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied.
+In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied. Under **Title** and **Reference**, the wizard suggests the details of the original element with the addition "(Copy)".
+
+- **Content**: **Copy** reuses an existing template and copies the events; if no template is available, the course is copied. **Reuse** shares the course with other implementations or reuses the template. **Don't copy** adopts no course content.
+- **Standalone events**: Events without a course are adopted with **Copy**, not with **Don't copy**.
+- **To-dos** and **Room scheduling**: see [Adopt to-dos when copying](#copy_todos) and [Adopt room bookings when copying](#copy_rooms).
+- **Coaches**: **Standard** copies the memberships and the assignments to events, **Membership only** only the memberships, **Don't copy** none.
+- **Master coaches / Course owners / Element owners**: **Including membership** copies the memberships, **Don't copy** none.
 
 ![Title and reference of the copy as well as the options for course content, standalone events, to-dos, room scheduling and memberships](assets/course_planner_implementations_copy2_v3_en.png){ class="shadow lightbox" title="General settings step of the Copy element wizard" }
 
@@ -529,7 +535,7 @@ In the detail areas "Courses", "Events" and "To-dos", the **"Activity"** column 
 
 An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
 
-![The Shift all dates button at the top right of the element overview, with which all dates can be moved together](assets/course_planner_implementations_copy4_v2_en.png){ class="shadow lightbox" title="Overview elements step" }
+![The Shift all dates button, with which all dates can be moved together](assets/course_planner_implementations_copy4_v2_en.png){ class="shadow lightbox" title="Overview elements step" }
 
 ![Reference date, the choice of shifting by Date or Days and the new date](assets/course_planner_implementations_copy5_v2_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard" }
 
@@ -588,6 +594,9 @@ If you have already opened an implementation, you will also find the option to d
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Course Planner: Overview >](Course_Planner.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
+[Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
@@ -597,10 +606,7 @@ If you have already opened an implementation, you will also find the option to d
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
-[Course Planner: Room management >](Course_Planner_Rooms.md)<br>
-[Course Planner: Overview >](Course_Planner.md)<br>
-[Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
-[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+[Course Planner: Room management >](Course_Planner_Rooms.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
