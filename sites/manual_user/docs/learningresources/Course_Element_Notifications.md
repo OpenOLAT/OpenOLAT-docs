@@ -16,9 +16,9 @@ Specialty / Note |
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Notifications](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank"}
 
-This course element allows you to embed notifications in the course structure. These notifications are visible both in the course and under `Personal tools > Subscriptions` in the notifications of each individual participant. The message can be either a short info text or extensive information added as a file attachment (max. 5 MB).
+This course element allows you to embed notifications in the course structure. These notifications are visible both in the course and under `Personal tools > Subscriptions` in the notifications of each individual participant. The message can be either a short info text or extensive information added as a file attachment (by default, max. 5 MB).
 
-While creating a message, you can define whether the message is additionally sent by email to certain user groups of the course (subscribers, owners, coaches, members or groups), and whether the message is sent immediately or at a later point in time.
+A message can be published immediately or at a later point in time and additionally sent by e-mail. How to choose the recipients is described in the section [Writing and sending a message](#create_notification).
 
 ## Configuration in the course editor Tab "Notification configuration" {: #configuration_notification}
 
@@ -30,7 +30,7 @@ While creating a message, you can define whether the message is additionally sen
 
 In the "Permissions" section, you can define which course roles are allowed to create and manage messages. Owners can generally create and manage messages.
 
-Messages can be viewed in the personal menu under "Subscriptions". The number of displayed messages can be set in the course editor.
+Messages can be viewed in the personal menu under `Personal tools > Subscriptions`, see also the page [Subscriptions](../personal_menu/Subscriptions.md). The number of displayed messages can be set in the course editor.
 
 By default, only coaches and owners are allowed to create messages. However, all participants may read messages. In the "Notification configuration" tab, you can adjust this setting according to your wishes.
 
@@ -45,12 +45,44 @@ By default, only coaches and owners are allowed to create messages. However, all
 
 !!! tip "Tip"
 
-    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Participant Info](../learningresources/Using_Additional_Course_Features.md)".
+    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Info messages](../learningresources/Using_Additional_Course_Features.md)".
+
+## Writing and sending a message [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
+
+Whoever writes a message decides in the same process who learns about it: only the subscribers or, in addition, selected members by e-mail, down to a single group.
+
+The button "Create info message" opens a wizard with two steps. In the first step, you write the message and define under "Publication" whether it appears immediately ("Immediately") or only at a chosen point in time ("Individual date").
+
+In the second and last step, you choose between two options under "Notification":
+
+- **Subscription**: OpenOlat notifies only the subscribers of the messages.
+- **Subscription & E-Mail**: OpenOlat also notifies the subscribers and additionally sends an e-mail on publication.
+
+The selection "E-Mail recipient" only appears with "Subscription & E-Mail":
+
+- **All members**: The e-mail goes to all owners, coaches and participants of the course, including the members of assigned groups and elements of the Course Planner (CPL). The number in brackets shows how many people that is.
+- **Individual members**: You select the recipients yourself. The selection "Subscribers" stands on its own: with "All subscribers", everyone who has subscribed to the messages receives the e-mail, regardless of their role in the course.
+
+Which selection appears under "Individual members" depends on whether groups or elements of the Course Planner are assigned to the course. If the course has neither an active group nor an element of the Course Planner, a single selection "Members" appears with the options "All owners", "All coaches" and "All participants".
+
+If at least one active group or one element of the Course Planner is assigned to the course, the selection is structured by roles:
+
+- **Owners**: "All owners".
+- **Coaches**: "All coaches" reaches the coaches of the course and of all assigned groups and elements. "All course coaches" reaches only the coaches enrolled directly in the course. In addition, there is one option "All group coaches" per group and one option "All CPL coaches" per element, each with the name of the group or element.
+- **Participants**: the same structure with "All participants", "All course participants", "All group participants" and "All CPL participants".
+
+This way, an announcement that only concerns the course goes with "All course participants" to the participants enrolled directly in the course, without also sending the e-mail to the participants of the assigned groups. The same selection is available in the toolbar tool "Info messages".
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Subscriptions >](../personal_menu/Subscriptions.md)<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)
+
+**Further reading**<br>
+[Members management >](../learningresources/Members_management.md)<br>
+[Using Group Tools >](../groups/Using_Group_Tools.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner.md)
 
 **youtube**<br>
 [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>)<br>

@@ -47,11 +47,11 @@ Standardmässig dürfen nur Betreuende und Besitzende Mitteilungen erstellen. Al
 
 !!! tip "Tipp"
 
-    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../learningresources/Using_Additional_Course_Features.de.md)".
+    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Mitteilungen](../learningresources/Using_Additional_Course_Features.de.md)".
 
 ## Mitteilung verfassen und versenden [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
 
-Wer eine Mitteilung verfasst, bestimmt im selben Ablauf, wer davon erfährt: nur die Abonnent:innen oder zusätzlich per E-Mail ausgewählte Mitglieder, bis hinunter auf eine einzelne Gruppe.
+Wer eine Mitteilung verfasst, bestimmt im selben Ablauf, wer davon erfährt: nur die Abonnent:innen oder zusätzlich ausgewählte Mitglieder per E-Mail, bis hinunter auf eine einzelne Gruppe.
 
 Die Schaltfläche "Mitteilung erstellen" öffnet einen Assistenten mit zwei Schritten. Im ersten Schritt schreiben Sie die Mitteilung und legen unter "Veröffentlichung" fest, ob sie sofort erscheint ("Sofort") oder erst zu einem gewählten Zeitpunkt ("Individuelles Datum").
 
@@ -73,7 +73,7 @@ Ist dem Kurs mindestens eine aktive Gruppe oder ein Element des Course Planner z
 - **Betreuer:innen**: "Alle Betreuer:innen" erreicht die Betreuenden des Kurses und aller zugeordneten Gruppen und Elemente. "Alle Kursbetreuer:innen" erreicht nur die Betreuenden, die direkt im Kurs eingetragen sind. Dazu kommt je Gruppe eine Option "Alle Gruppenbetreuer:innen" und je Element eine Option "Alle CPL Betreuer:innen", jeweils mit dem Namen der Gruppe oder des Elements.
 - **Teilnehmer:innen**: dieselbe Gliederung mit "Alle Teilnehmer:innen", "Alle Kursteilnehmer:innen", "Alle Gruppenteilnehmer:innen" und "Alle CPL Teilnehmer:innen".
 
-So geht eine Ankündigung, die nur den Kurs betrifft, mit "Alle Kursteilnehmer:innen" an die direkt im Kurs eingetragenen Teilnehmenden, ohne die E-Mail auch an die Teilnehmenden der zugeordneten Gruppen zu schicken. Dieselbe Auswahl steht beim Werkzeug "Teilnehmer Infos" in der Toolbar zur Verfügung.
+So geht eine Ankündigung, die nur den Kurs betrifft, mit "Alle Kursteilnehmer:innen" an die direkt im Kurs eingetragenen Teilnehmenden, ohne die E-Mail auch an die Teilnehmenden der zugeordneten Gruppen zu schicken. Dieselbe Auswahl steht beim Werkzeug "Mitteilungen" in der Toolbar zur Verfügung.
 
 ## Weiterführende Informationen {: #further_information}
 

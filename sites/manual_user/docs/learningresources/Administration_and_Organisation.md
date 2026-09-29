@@ -67,7 +67,7 @@ since the actual count uses the HTML code.
 
 !!! tip "Tip"
 
-    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Participant infos](../learningresources/Using_Additional_Course_Features.md#participant-infos)".
+    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Info messages](../learningresources/Using_Additional_Course_Features.md)".
 
 ## Course Element "E-Mail" {: #mail}
 :fontawesome-regular-envelope:
