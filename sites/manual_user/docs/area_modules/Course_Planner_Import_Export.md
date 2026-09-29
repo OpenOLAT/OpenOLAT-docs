@@ -67,7 +67,7 @@ The file name of the exported Excel file follows the pattern "CPL_Products_\<dat
 Depending on the export type, the exported Excel file contains up to four sheets:
 
 * **Products:** Title, Reference, ORG - Reference, Absences, Description, Creation date, Last modified
-* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. For events, the column "Rooms" follows the location and lists the booked rooms in the format "building reference:room reference", several rooms separated by a semicolon [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"}
+* **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. For events, the column "Rooms" follows the location and lists the booked rooms in the format "building reference:room reference", several rooms separated by a semicolon. What the import does with this column is described in the section [Rooms of events](#import_rooms).
 * **Memberships:** assignment of users to implementations with role (Participant, Coach, Master coach, Course owner, Element owner)
 * **Users:** Username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, creation date
 
@@ -102,6 +102,18 @@ The search area depends on the object:
 !!! warning "Attention"
 
     A reference cannot be renamed via the import. If the reference of an existing product, implementation, element, or event is changed in the Excel file, the import creates an additional object. The existing object remains unchanged. To update existing entries, keep the references from the export unchanged.
+
+### Rooms of events [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} {: #import_rooms}
+
+If you plan many events at once, you book their rooms in the same pass with the import. The rooms are in the column "Rooms" in the sheet "Implementations". The import reads the column only for events (object type EVENT). For all other object types, it is empty in the export, and the import skips a value there without a message.
+
+Each room appears in the cell with the reference of its building and its own reference, separated by a colon, for example "BG_1:AULA". A semicolon separates several rooms: "BG_1:AULA;BG_1:H101". Both references are assigned by the administration in the [Rooms module](../../manual_admin/administration/Modules_Rooms.md#rooms). The references of rooms that are already booked are in the export.
+
+!!! warning "Attention"
+
+    The import replaces the room bookings of an event, it does not add to them. It books the rooms that are in the cell and removes every existing booking whose room is missing from the cell. An empty cell "Rooms" for an existing event therefore removes all room bookings of this event. The import wizard shows such a row as "Modified" in the step "Review implementations".
+
+The import does not check whether a room is free at the time of the event, and it also books inactive rooms. In the user interface, by contrast, only active rooms can be selected. After the import, Room scheduling shows double bookings and inactive rooms as [warnings](Course_Planner_Rooms.md#warnings).
 
 ### Handling errors and warnings {: #errors_warnings}
 
@@ -170,5 +182,7 @@ The table shows all memberships from the Excel file with product, implementation
 [Course Planner: Products >](Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Import/Export: Reference >](Course_Planner_Import_Export_Reference.md)<br>
+[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Course Planner: Room management >](Course_Planner_Rooms.md)
 
 [To the top of the page ^](#import_export)

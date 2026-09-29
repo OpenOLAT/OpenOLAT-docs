@@ -104,7 +104,7 @@ The "Absences", "Calendar", and "Progress" fields accept the values "ON", "OFF",
 | Unit | Yes for EVENT | Yes | E2, E6, change is detected |
 | REF - Reference | Yes for EVENT with course | No | E2, E5, E4 |
 | Location | No | Yes | W2, change is detected |
-| Rooms (EVENT only) [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} | No | Yes | E4 (on creation), W5 (on update), change is detected |
+| Rooms (EVENT only) [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} | No | Yes | E4 (on creation), W5 (on update), E9 (value not in the format "building reference:room reference", also on update), change is detected |
 | ELEM Type - Reference | Yes for IMPL/ELEM | No | E2, E3, E4 |
 | Calendar / Absences / Progress | Yes for IMPL/ELEM/TMPL/COURSE | Yes | E2, E6, W1, change is detected |
 | Subjects | No | Yes | E4 (on creation), W5 (on update), change is detected |

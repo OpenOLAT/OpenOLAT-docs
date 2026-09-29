@@ -67,7 +67,7 @@ Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datu
 Die exportierte Excel-Datei enthält je nach Exportart bis zu vier Sheets:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
-* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"}
+* **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt. Was der Import mit dieser Spalte tut, beschreibt der Abschnitt [Räume von Terminen](#import_rooms).
 * **Mitgliedschaft:** Zuordnung von Benutzer:innen zu Durchführungen mit Rolle (Teilnehmer:in, Betreuer:in, Klassenlehrer:in, Kursbesitzer:in, Elementbesitzer:in)
 * **Konten:** Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, Erstellungsdatum
 
@@ -102,6 +102,18 @@ Gesucht wird je nach Objekt in einem anderen Bereich:
 !!! warning "Achtung"
 
     Ein Kennzeichen lässt sich über den Import nicht umbenennen. Wird in der Excel-Datei das Kennzeichen eines bestehenden Produkts, einer Durchführung, eines Elements oder eines Termins geändert, legt der Import ein zusätzliches Objekt an. Das bestehende Objekt bleibt unverändert. Wer bestehende Einträge aktualisieren will, übernimmt die Kennzeichen aus dem Export unverändert.
+
+### Räume von Terminen [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9303)" }](https://track.frentix.com/issue/OO-9303){:target="_blank"} {: #import_rooms}
+
+Planen Sie viele Termine auf einmal, buchen Sie deren Räume im selben Durchgang mit dem Import. Die Räume stehen in der Spalte "Räume" im Sheet "Durchführungen". Der Import wertet die Spalte nur bei Terminen (Objekttyp EVENT) aus. Bei allen anderen Objekttypen ist sie im Export leer, und der Import übergeht einen Wert dort ohne Meldung.
+
+Jeder Raum steht in der Zelle mit dem Kennzeichen seines Gebäudes und seinem eigenen Kennzeichen, getrennt durch einen Doppelpunkt, zum Beispiel "BG_1:AULA". Mehrere Räume trennt ein Semikolon: "BG_1:AULA;BG_1:H101". Beide Kennzeichen vergibt die Administration im [Modul Räume](../../manual_admin/administration/Modules_Rooms.de.md#rooms). Die Kennzeichen bereits gebuchter Räume stehen im Export.
+
+!!! warning "Achtung"
+
+    Der Import ersetzt die Raumbuchungen eines Termins, er ergänzt sie nicht. Er bucht die Räume, die in der Zelle stehen, und entfernt jede bestehende Buchung, deren Raum in der Zelle fehlt. Eine leere Zelle "Räume" bei einem bestehenden Termin entfernt deshalb alle Raumbuchungen dieses Termins. Der Import-Assistent zeigt eine solche Zeile im Schritt "Durchführungen überprüfen" als "Geändert" an.
+
+Der Import prüft nicht, ob ein Raum zur Zeit des Termins frei ist, und bucht auch inaktive Räume. In der Oberfläche lassen sich dagegen nur aktive Räume auswählen. Doppelbuchungen und inaktive Räume zeigt die Raumplanung nach dem Import als [Warnungen](Course_Planner_Rooms.de.md#warnings) an.
 
 ### Umgang mit Fehlern und Warnungen {: #errors_warnings}
 
@@ -170,5 +182,7 @@ Die Tabelle zeigt alle Mitgliedschaften aus der Excel-Datei mit Produkt, Durchf�
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Import/Export: Referenz >](Course_Planner_Import_Export_Reference.de.md)<br>
+[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)
 
 [zum Seitenanfang ^](#import_export)
