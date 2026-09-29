@@ -89,11 +89,19 @@ for p in cfg['plugins']:
 			print(yaml.dump({'nav_translations': nt}, allow_unicode=True, default_flow_style=False, width=1000), end='')
 " | sed 's/^/      /')
 
-CONFIG="mkdocs.local.${SITE}.${LANG}.yml"
+# The port is part of the name: two servers for the same site and language must
+# not share (and on exit delete) one config file.
+CONFIG="mkdocs.local.${SITE}.${LANG}.${PORT}.yml"
 trap 'rm -f "$CONFIG"' EXIT
 
+# The preview shows the "last update" date of every page and marks every block
+# that differs from origin/master (committed, uncommitted or untracked), see
+# hooks/oo_diffmark.py. Set OO_DIFF_BASE to compare against another ref.
 cat > "$CONFIG" <<EOF
 INHERIT: mkdocs.yml
+
+hooks:
+  - hooks/oo_diffmark.py
 
 plugins:
   - monorepo
@@ -108,6 +116,7 @@ plugins:
           name: Deutsch
           build: true
 ${NAV_TRANSLATIONS}
+  - git-revision-date-localized
   - search:
       lang:
 ${SEARCH_LANGS}
@@ -120,5 +129,5 @@ nav:
   - '': '!include ./sites/de/mkdocs.yml'
 EOF
 
-echo "Serving ${SITE} (lang=${LANG}) on port ${PORT} via ${CONFIG} (using ${MKDOCS[*]}) ..."
+echo "Serving ${SITE} (lang=${LANG}) on port ${PORT} via ${CONFIG} (using ${MKDOCS[*]}), changes marked against ${OO_DIFF_BASE:-origin/master} ..."
 "${MKDOCS[@]}" serve -f "$CONFIG" --dirtyreload --dev-addr "127.0.0.1:${PORT}"
