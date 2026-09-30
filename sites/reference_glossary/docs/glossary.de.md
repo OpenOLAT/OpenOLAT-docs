@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 741 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 740 Begriffe.
 
 ## Katalog, Buchung und Bezahlung
 
@@ -46,7 +46,7 @@ Eine Transaktion, die einer Person Kreditpunkte hinzufügt, in der Regel nach ei
 
 Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen ausstellt. Es ist über Taxonomie und Launcher gegliedert. Ohne Angebot erscheint eine Ressource nicht. Ohne Anmeldung ist es als Web-Katalog erreichbar, wenn dieser eingeschaltet ist.
 
-*Englisch: Catalog* · [Handbuch](../manual_admin/administration/Modules_Catalog_2.0.de.md)
+*Englisch: Catalog* · [Handbuch](../manual_user/area_modules/catalog2.0.de.md)
 
 ### Katalog (Navigationspunkt)
 
@@ -58,7 +58,7 @@ Der Eintrag Katalog in der Hauptnavigation, über den angemeldete Personen den K
 
 Der Eintrag in der Hauptnavigation, über den der Katalog 1.0 gepflegt wird: seine Kategorien und die Zuordnung der Lernressourcen. Er erscheint nur, wenn der Katalog 1.0 eingeschaltet ist. Den Katalog 2.0 verwaltet die Administration unter Module.
 
-*Englisch: Catalog administration* · [Handbuch](../manual_user/area_modules/catalog1.0.de.md)
+*Englisch: Catalog administration* · *Veraltet seit Release 17.0* · [Handbuch](../manual_user/area_modules/catalog1.0.de.md)
 
 ### Kostenstelle
 
@@ -390,7 +390,7 @@ Eine Fähigkeit, die einer Person zugeschrieben wird, benannt über eine Taxonom
 
 Ein Inhaltsobjekt, das im Autorenbereich verwaltet wird: Kurs, Test, Formular, Video, Wiki und weitere. Sie trägt Metadaten, Besitzende und einen Lebenszyklus und lässt sich in Kurse einbinden.
 
-*Englisch: Learning resource* · *Früher: Repository-Eintrag, Repository entry* · [Handbuch](../manual_admin/administration/Modules_Learning_Resource.de.md)
+*Englisch: Learning resource* · *Früher: Repository-Eintrag, Repository entry* · [Handbuch](../manual_user/learningresources/index.de.md)
 
 ### Lost+found
 
@@ -950,7 +950,7 @@ Kursbaustein, der den Kurskalender in das Kursmenü einbindet.
 
 Ein Kurs ist eine Lernressource, aber eine besondere: er ist die einzige, die Mitglieder, Rollen und Bewertungen führt. Alle anderen Lernressourcen haben davon nichts und werden in einen Kurs eingebunden, um vor Teilnehmende zu kommen. Der Kurs verbindet Inhalte, Aktivitäten und Bewertung zu einem strukturierten Ablauf.
 
-*Englisch: Course* · [Handbuch](../manual_admin/administration/Modules_Course.de.md)
+*Englisch: Course* · [Handbuch](../manual_user/learningresources/index.de.md)
 
 ### Kursarchiv
 
@@ -980,7 +980,7 @@ Der Bereich, in dem der Aufbau eines Kurses bearbeitet wird: Bausteine anlegen, 
 
 Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, zum Beispiel eine fehlende Abgabe oder einen nahen Termin.
 
-*Englisch: Course reminders* · [Handbuch](../manual_admin/administration/Modules_Course_Reminders.de.md)
+*Englisch: Course reminders* · [Handbuch](../manual_user/learningresources/Course_Reminders.de.md)
 
 ### Kurs-Lebenszyklus
 
@@ -1053,12 +1053,6 @@ Kursbaustein, der Microsoft-Teams-Besprechungen in den Kurs einbindet. OpenOlat 
 Kursbaustein für Kursmitteilungen. Betreuende veröffentlichen kurze Nachrichten, wahlweise befristet, und können sie per E-Mail verschicken.
 
 *Englisch: Info messages* · [Handbuch](../manual_user/learningresources/Course_Element_Notifications.de.md)
-
-### Musterlösung (Kurs)
-
-Die Musterlösung zu einer Aufgabe, welche die Betreuenden erst nach Ablauf der Abgabefrist freigeben.
-
-*Englisch: Sample solution* · [Handbuch](../manual_user/learningresources/Course_Element_Task.de.md)
 
 ### Nicht publizierte Änderungen
 
@@ -1170,9 +1164,9 @@ Ein Kursarchiv mit ausgewählten Kursbausteinen und wahlweise weiteren Objekten 
 
 ### Teilbausteine
 
-Die zuschaltbaren Teilschritte eines Kursbausteins, zum Beispiel Abgabe, Überarbeitung und Bewertung bei der Aufgabe. Nur die zugeschalteten Teile erscheinen den Teilnehmenden.
+Die zuschaltbaren Teile des Kursbausteins Themenvergabe: der Abgabeordner und der Rückgabeordner, gewählt im Tab Teilbausteine. Nur die zugeschalteten Ordner erscheinen den Teilnehmenden. Die Aufgabe kennt das Wort nicht; sie nennt ihre Schritte Abschnitte des Workflows.
 
-*Englisch: Partial elements* · [Handbuch](../manual_user/learningresources/Course_Element_Task.de.md)
+*Englisch: Partial elements* · [Handbuch](../manual_user/learningresources/Course_Element_Topic_Assignment.de.md)
 
 ### Teilnahme
 
@@ -1692,7 +1686,7 @@ Das Fach der Lernkartei in der Übung. Jede richtige Antwort hebt eine Frage um 
 
 *Englisch: Level* · [Handbuch](../manual_user/learningresources/Course_Element_Practice.de.md)
 
-### Musterlösung (Aufgaben und Üben)
+### Musterlösung
 
 Die Musterlösung zu einer Aufgabe, als Dokument hinterlegt. Sie wird ab einem festgelegten Datum sichtbar, für alle Teilnehmenden oder nur für jene, deren Abgabe akzeptiert wurde.
 
@@ -2442,7 +2436,7 @@ Die Aufzeichnung aller Änderungen an einer Bewertung, mit Person und Zeitpunkt.
 
 Das Urteil über die Leistung einer Person in einem bewertbaren Kursbaustein, ausgedrückt als Status, Punkte oder Note. Es beurteilt Personen; das Qualitätsmanagement beurteilt dagegen Angebote.
 
-*Englisch: Assessment* · [Handbuch](../manual_user/learningresources/Course_Element_Assessment.de.md)
+*Englisch: Assessment* · [Handbuch](../manual_user/learningresources/Assessment_of_learners.de.md)
 
 ### Bewertungsdokumente
 

@@ -1,6 +1,6 @@
 # Glossary
 
-A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 741 terms.
+A reference glossary of product-specific terms used in OpenOlat. These terms have specific meaning within the OpenOlat LMS. The glossary is generated automatically from the OpenOlat term model and holds 740 terms.
 
 ## A
 
@@ -314,7 +314,7 @@ The content part of a wiki page, as opposed to its discussion and its version hi
 
 The judgement on a person's performance in an assessable course element, expressed as a status, points or a grade. It judges people; quality management judges offerings instead.
 
-*German: Bewertung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Course_Element_Assessment.md)
+*German: Bewertung* · *Domain: Assessment* · [Manual](../../manual_user/learningresources/Assessment_of_learners.md)
 
 ### Assessment (Course)
 
@@ -630,7 +630,7 @@ A course element that shows a flashcard set of the card2brain platform in the co
 
 The module that puts learning resources and implementations with an offer on display for booking. It is structured through the taxonomy and the launchers. Without an offer a resource does not appear. Without signing in it is reachable as the web catalog, if that is switched on.
 
-*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_admin/administration/Modules_Catalog_2.0.md)
+*German: Katalog* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog2.0.md)
 
 ### Catalog (navigation entry)
 
@@ -648,7 +648,7 @@ The folder structure of the library as readers see it. It is the content of the 
 
 The entry in the main navigation through which catalog 1.0 is maintained: its categories and the assignment of learning resources. It appears only when catalog 1.0 is switched on. Catalog 2.0 is managed in the administration under modules.
 
-*German: Katalogverwaltung* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog1.0.md)
+*German: Katalogverwaltung* · *Deprecated since release 17.0* · *Domain: Catalogue, booking and payment* · [Manual](../../manual_user/area_modules/catalog1.0.md)
 
 ### Certificate
 
@@ -990,7 +990,7 @@ The place in the organisation's accounting that carries the cost of a booking.
 
 A course is a learning resource, but a special one: it is the only one that keeps members, roles and assessments. No other learning resource has any of that, and they are embedded into a course in order to reach participants. The course ties content, activities and assessment into one structured sequence.
 
-*German: Kurs* · *Domain: Course* · [Manual](../../manual_admin/administration/Modules_Course.md)
+*German: Kurs* · *Domain: Course* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Course and group roles
 
@@ -1056,7 +1056,7 @@ The roles that hang on a product or an element of the Course Planner and reach f
 
 Automatic e-mails to participants, fired by a condition in the course, for example a missing submission or an approaching deadline.
 
-*German: Kurserinnerungen* · *Domain: Course* · [Manual](../../manual_admin/administration/Modules_Course_Reminders.md)
+*German: Kurserinnerungen* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Reminders.md)
 
 ### Course rights
 
@@ -2268,7 +2268,7 @@ A course design that puts the course elements into an order and measures the pro
 
 A content object managed in the authoring area: course, test, form, video, wiki and others. It carries metadata, owners and a lifecycle and can be embedded into courses.
 
-*German: Lernressource* · *Formerly: Repository-Eintrag, Repository entry* · *Domain: Learning resources* · [Manual](../../manual_admin/administration/Modules_Learning_Resource.md)
+*German: Lernressource* · *Formerly: Repository-Eintrag, Repository entry* · *Domain: Learning resources* · [Manual](../../manual_user/learningresources/index.md)
 
 ### Learning resource manager
 
@@ -2796,9 +2796,9 @@ A course archive with chosen course elements and optionally further objects such
 
 ### Partial elements
 
-The steps of a course element that can be switched on, for example submission, revision and assessment in the task. Only the steps that are switched on appear to the participants.
+The parts of the topic assignment course element that can be switched on: the drop box and the return box, chosen in the tab Partial elements. Only the folders that are switched on appear to the participants. The task does not use the word; it calls its steps the sections of the workflow.
 
-*German: Teilbausteine* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
+*German: Teilbausteine* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Topic_Assignment.md)
 
 ### Participant
 
@@ -3568,13 +3568,7 @@ A template with settings of the Safe Exam Browser that the administration create
 
 *German: Safe Exam Browser Konfigurationsvorlage* · *Domain: Assessment* · [Manual](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)
 
-### Sample solution (Course)
-
-The sample solution of a task, which the coaches only release once the submission deadline has passed.
-
-*German: Musterlösung* · *Domain: Course* · [Manual](../../manual_user/learningresources/Course_Element_Task.md)
-
-### Sample solution (Tasks and practice)
+### Sample solution
 
 The sample solution of a task, stored as a document. It becomes visible from a set date, for all participants or only for those whose submission was accepted.
 

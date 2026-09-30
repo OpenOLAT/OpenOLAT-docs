@@ -1,6 +1,6 @@
 # Glossar
 
-Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 741 Begriffe.
+Ein Referenzglossar produktspezifischer Begriffe in OpenOlat. Diese Begriffe haben innerhalb des OpenOlat-LMS eine bestimmte Bedeutung. Das Glossar wird automatisch aus dem OpenOlat-Begriffsmodell generiert und umfasst 740 Begriffe.
 
 ## A
 
@@ -592,7 +592,7 @@ Das mehrstufige Formular, mit dem sich eine Person auf eine Ausschreibung bewirb
 
 Das Urteil über die Leistung einer Person in einem bewertbaren Kursbaustein, ausgedrückt als Status, Punkte oder Note. Es beurteilt Personen; das Qualitätsmanagement beurteilt dagegen Angebote.
 
-*Englisch: Assessment* · *Bereich: Bewertung* · [Handbuch](../../manual_user/learningresources/Course_Element_Assessment.de.md)
+*Englisch: Assessment* · *Bereich: Bewertung* · [Handbuch](../../manual_user/learningresources/Assessment_of_learners.de.md)
 
 ### Bewertung (Kurs)
 
@@ -1936,7 +1936,7 @@ Die Anzahl Tage nach einer Reaktivierung, in denen der Lebenszyklus ein Konto od
 
 Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen ausstellt. Es ist über Taxonomie und Launcher gegliedert. Ohne Angebot erscheint eine Ressource nicht. Ohne Anmeldung ist es als Web-Katalog erreichbar, wenn dieser eingeschaltet ist.
 
-*Englisch: Catalog* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_admin/administration/Modules_Catalog_2.0.de.md)
+*Englisch: Catalog* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_user/area_modules/catalog2.0.de.md)
 
 ### Katalog (Navigationspunkt)
 
@@ -1954,7 +1954,7 @@ Die Ordnerstruktur der Bibliothek, wie sie die Lesenden sehen. Sie ist der Inhal
 
 Der Eintrag in der Hauptnavigation, über den der Katalog 1.0 gepflegt wird: seine Kategorien und die Zuordnung der Lernressourcen. Er erscheint nur, wenn der Katalog 1.0 eingeschaltet ist. Den Katalog 2.0 verwaltet die Administration unter Module.
 
-*Englisch: Catalog administration* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_user/area_modules/catalog1.0.de.md)
+*Englisch: Catalog administration* · *Veraltet seit Release 17.0* · *Bereich: Katalog, Buchung und Bezahlung* · [Handbuch](../../manual_user/area_modules/catalog1.0.de.md)
 
 ### Kennzahlen
 
@@ -2206,7 +2206,7 @@ Ein benanntes System von Kreditpunkten mit eigener Einheit und eigenen Regeln, z
 
 Ein Kurs ist eine Lernressource, aber eine besondere: er ist die einzige, die Mitglieder, Rollen und Bewertungen führt. Alle anderen Lernressourcen haben davon nichts und werden in einen Kurs eingebunden, um vor Teilnehmende zu kommen. Der Kurs verbindet Inhalte, Aktivitäten und Bewertung zu einem strukturierten Ablauf.
 
-*Englisch: Course* · *Bereich: Kurs* · [Handbuch](../../manual_admin/administration/Modules_Course.de.md)
+*Englisch: Course* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/index.de.md)
 
 ### Kursarchiv
 
@@ -2254,7 +2254,7 @@ Der Bereich, in dem der Aufbau eines Kurses bearbeitet wird: Bausteine anlegen, 
 
 Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, zum Beispiel eine fehlende Abgabe oder einen nahen Termin.
 
-*Englisch: Course reminders* · *Bereich: Kurs* · [Handbuch](../../manual_admin/administration/Modules_Course_Reminders.de.md)
+*Englisch: Course reminders* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Reminders.de.md)
 
 ### Kurs-Lebenszyklus
 
@@ -2400,7 +2400,7 @@ Kursdesign, das die Kursbausteine in eine Reihenfolge bringt und den Fortschritt
 
 Ein Inhaltsobjekt, das im Autorenbereich verwaltet wird: Kurs, Test, Formular, Video, Wiki und weitere. Sie trägt Metadaten, Besitzende und einen Lebenszyklus und lässt sich in Kurse einbinden.
 
-*Englisch: Learning resource* · *Früher: Repository-Eintrag, Repository entry* · *Bereich: Lernressourcen* · [Handbuch](../../manual_admin/administration/Modules_Learning_Resource.de.md)
+*Englisch: Learning resource* · *Früher: Repository-Eintrag, Repository entry* · *Bereich: Lernressourcen* · [Handbuch](../../manual_user/learningresources/index.de.md)
 
 ### Lernressourcenverwalter:in
 
@@ -2710,13 +2710,7 @@ Fragetyp mit mindestens zwei Antwortmöglichkeiten, von denen mehrere gewählt w
 
 *Englisch: Multiple choice* · *Bereich: Test und Fragenpool* · [Handbuch](../../manual_user/learningresources/Test_question_types.de.md)
 
-### Musterlösung (Kurs)
-
-Die Musterlösung zu einer Aufgabe, welche die Betreuenden erst nach Ablauf der Abgabefrist freigeben.
-
-*Englisch: Sample solution* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Task.de.md)
-
-### Musterlösung (Aufgaben und Üben)
+### Musterlösung
 
 Die Musterlösung zu einer Aufgabe, als Dokument hinterlegt. Sie wird ab einem festgelegten Datum sichtbar, für alle Teilnehmenden oder nur für jene, deren Abgabe akzeptiert wurde.
 
@@ -3806,9 +3800,9 @@ Ein Kursarchiv mit ausgewählten Kursbausteinen und wahlweise weiteren Objekten 
 
 ### Teilbausteine
 
-Die zuschaltbaren Teilschritte eines Kursbausteins, zum Beispiel Abgabe, Überarbeitung und Bewertung bei der Aufgabe. Nur die zugeschalteten Teile erscheinen den Teilnehmenden.
+Die zuschaltbaren Teile des Kursbausteins Themenvergabe: der Abgabeordner und der Rückgabeordner, gewählt im Tab Teilbausteine. Nur die zugeschalteten Ordner erscheinen den Teilnehmenden. Die Aufgabe kennt das Wort nicht; sie nennt ihre Schritte Abschnitte des Workflows.
 
-*Englisch: Partial elements* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Task.de.md)
+*Englisch: Partial elements* · *Bereich: Kurs* · [Handbuch](../../manual_user/learningresources/Course_Element_Topic_Assignment.de.md)
 
 ### Teilnahme
 
