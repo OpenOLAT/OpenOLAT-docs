@@ -185,13 +185,13 @@ in the course run with the editor closed. For this, a new enrolment or
 appointment finding is first created via the "Create occasion" button, and
 the basic configuration is done and appointments are entered.
 
-![Dialog Create occasion with title, description, type Enrolment, configuration options, organizer, appointment type Duration and one entered appointment](assets/Anlass_erstellen.png){ class="shadow lightbox" }
+![Dialog Create occasion with title, description, type Enrolment, configuration options, organizer, appointment type Duration and one entered appointment](assets/Anlass_erstellen.png){ class="shadow lightbox" title="Create occasion dialog in the Appointment scheduling course element" }
 
 Via the button "**Add appointment**" you can also add further appointments
 to this poll later. Already created appointments can also be revised again
 via the three-dot link.
 
-![Open drop-down menu Add appointment with the options Start/End, Start/Duration and Recurring appointments, below it an already entered online appointment](assets/Termin_hinzufuegen.jpg){ class="shadow lightbox" }
+![Open drop-down menu Add appointment with the options Start/End, Start/Duration and Recurring appointments, below it an already entered online appointment](assets/Termin_hinzufuegen.jpg){ class="shadow lightbox" title="Appointments of an occasion, Add appointment menu" }
 
 ### Appointments: create & edit
 
@@ -249,20 +249,20 @@ clicking the gear icon. The group of participants for an occasion can also
 be restricted to certain groups. Exporting the participants for an occasion
 is also possible.
 
-![List of the occasions Discussion round and Meeting, with the gear menu open on the first occasion showing Edit occasion, Group of participants, Export participants, Duplicate occasion and Delete](assets/Terminplanung_anlass.jpg){ class="shadow lightbox" }
+![List of the occasions Discussion round and Meeting, with the gear menu open on the first occasion showing Edit occasion, Group of participants, Export participants, Duplicate occasion and Delete](assets/Terminplanung_anlass.jpg){ class="shadow lightbox" title="Occasions in the Appointment scheduling course element" }
 
 The concrete appointments of already created appointment schedules can be
 viewed in more detail via the "Show appointments" link and edited by the
 course owners or coaches. Here you can add, delete or rebook participants,
 adjust the description, change appointments or confirm appointments.
 
-![List of two online appointments each with 10 free spots, with the three-dot menu open on the first appointment showing the entries "Edit appointment", "Add user" and "Delete"](assets/Terminfindung_punkte.jpg){ class="shadow lightbox" }
+![List of two online appointments each with 10 free spots, with the three-dot menu open on the first appointment showing the entries "Edit appointment", "Add user" and "Delete"](assets/Terminfindung_punkte.jpg){ class="shadow lightbox" title="Appointments of an occasion, menu of an appointment" }
 
 Participants can use the "**Select appointments**" or "**Enrol**" link to
 see and select the appointments they want. If an appointment has been
 confirmed, this is also visible.
 
-![Enrolment page with three appointments, the already booked and highlighted appointment with status Planned and button Delist, the others with button Enrol](assets/Einschreibung.png){ class="shadow lightbox" }
+![Enrolment page with three appointments, the already booked and highlighted appointment with status Planned and button Delist, the others with button Enrol](assets/Einschreibung.png){ class="shadow lightbox" title="Appointments of an occasion from the participants' view" }
 
 ## Further information {: #further_information}
 
