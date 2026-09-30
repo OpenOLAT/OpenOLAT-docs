@@ -39,7 +39,7 @@ A course is a learning resource, but a special one: it is the only one that keep
 
     **What users call it:** course, class, training
 
-    [Read in the manual](../../manual_admin/administration/Modules_Course.md) · [Ask Sophia](?sophia=What%20is%20%22Course%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/index.md) · [Ask Sophia](?sophia=What%20is%20%22Course%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -91,11 +91,11 @@ The choice when creating a course between learning path course and conventional 
 
 ### Course status {: #course_course_status}
 
-The state of a course in its lifecycle: preparation, release for coaches, published, finished, deleted.
+The state of a course in its lifecycle: Preparation, Review, Access for coach, Published, Finished, Trash, Deleted.
 
 ??? note "Course status in detail"
 
-    The state of a course in its lifecycle: preparation, release for coaches, published, finished, deleted. It decides who can enter the course.
+    The state of a course in its lifecycle: Preparation, Review, Access for coach, Published, Finished, Trash, Deleted. It decides who can enter the course.
 
     **German:** Kursstatus
 
@@ -137,15 +137,13 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
 
-- **Course:** [Publication](../learningresources/Using_additional_Course_Editor_Tools.md), [Course archive](../learningresources/Course_Archiving.md), [Info page](../learningresources/Info_page.md), [Course execution](../learningresources/Learning_path_course_Course_editor.md) and more. All settings are on the page [Module Course](../../manual_admin/administration/Modules_Course.md).
+- **Course:** [Publication](../learningresources/Using_additional_Course_Editor_Tools.md), [Course archive](../learningresources/Course_Archiving.md), [Info page](../learningresources/Info_page.md), [Course execution](../learningresources/Learning_path_course_Course_editor.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 - **Course status:** [Trash](../learningresources/Access_configuration.md), [Access for coach](../learningresources/Access_configuration.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Set up >](einrichten.md)<br>
-[Build >](bauen.md)<br>
-[Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
+[Various Types of Learning Resources >](../learningresources/index.md)<br>
 [Course Administration: Overview >](../learningresources/Administration.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>

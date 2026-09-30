@@ -159,15 +159,10 @@ The first course is in place. Now the things that did not matter while building 
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**<br>
-[Build >](bauen.md)<br>
-[Open >](oeffnen.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Access Restrictions in the Expert Mode >](../learningresources/Access_Restrictions_in_the_Expert_Mode.md)
-
-**Further reading**<br>
+[Access Restrictions in the Expert Mode >](../learningresources/Access_Restrictions_in_the_Expert_Mode.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

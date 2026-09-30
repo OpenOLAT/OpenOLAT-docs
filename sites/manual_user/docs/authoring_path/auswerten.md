@@ -77,7 +77,7 @@ Automatic e-mails to participants, fired by a condition in the course, for examp
 
     **German:** Kurserinnerungen
 
-    [Read in the manual](../../manual_admin/administration/Modules_Course_Reminders.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20reminders%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/Course_Reminders.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20reminders%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -111,20 +111,14 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
 
-- **Course reminders:** [Reminder](../learningresources/Course_Reminders.md), SMS reminders. All settings are on the page [Module Course Reminders](../../manual_admin/administration/Modules_Course_Reminders.md).
+- **Course reminders:** [Reminder](../learningresources/Course_Reminders.md), SMS reminders. All settings are on the page [Course Reminders](../learningresources/Course_Reminders.md).
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**<br>
-[Assess >](pruefen.md)<br>
-[The path to your first course >](index.md)<br>
 [Course statistics >](../learningresources/Statistics_Course.md)<br>
 [Test statistics >](../learningresources/Statistics_Test.md)<br>
-[Module Course Reminders >](../../manual_admin/administration/Modules_Course_Reminders.md)<br>
+[Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [How can coaches be informed about the learning progress of course participants? >](../../manual_how-to/progress_information/progress_information.md)<br>
-[Course Reminders >](../learningresources/Course_Reminders.md)
-
-**Further reading**<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

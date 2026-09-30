@@ -75,7 +75,7 @@ A content object managed in the authoring area: course, test, form, video, wiki 
 
     **What users call it:** resource, content, material, repository entry
 
-    [Read in the manual](../../manual_admin/administration/Modules_Learning_Resource.md) · [Ask Sophia](?sophia=What%20is%20%22Learning%20resource%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/index.md) · [Ask Sophia](?sophia=What%20is%20%22Learning%20resource%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -109,16 +109,14 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
 
-- **Learning resource:** [Form](../learningresources/Form.md), [Test](../learningresources/Course_Element_Test.md), [Questionnaire](../learningresources/Course_Element_Survey.md), [Wiki](../learningresources/Course_Element_Wiki.md) and more. All settings are on the page [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md).
+- **Learning resource:** [Form](../learningresources/Form.md), [Test](../learningresources/Course_Element_Test.md), [Questionnaire](../learningresources/Course_Element_Survey.md), [Wiki](../learningresources/Course_Element_Wiki.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[The path to your first course >](index.md)<br>
-[Plan >](planen.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
-[Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
+[Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
 [Course Element Test >](../learningresources/Course_Element_Test.md)<br>

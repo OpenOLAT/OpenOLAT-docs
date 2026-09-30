@@ -103,7 +103,7 @@ The judgement on a person's performance in an assessable course element, express
 
     **What users call it:** grade, mark, marking
 
-    [Read in the manual](../learningresources/Course_Element_Assessment.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/Assessment_of_learners.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -237,7 +237,7 @@ The first course is in place. Now the things that did not matter while building 
 
 - **Test:** [Test part](../learningresources/Configure_tests.md), [Supervisor chat](../../manual_how-to/communication_during_exam/communication_during_exam.md), [Test run](../learningresources/Assessing_tests.md), [Additional sheet](../learningresources/Test_settings.md) and more. All settings are on the page [Course Element Test](../learningresources/Course_Element_Test.md).
 - **Question bank:** [Review process](../area_modules/Question_Bank_Review_Process.md), [Shares](../area_modules/Question_Bank.md), [List](../area_modules/Question_bank_possible_operations.md). All settings are on the page [Question Bank: Overview](../area_modules/Question_Bank.md).
-- **Assessment:** [Correction](../learningresources/Test_settings.md), [Assessment documents](../learningresources/The_assessment_form.md), [Release assessment](../learningresources/The_assessment_form.md), Change log and more. All settings are on the page [Course Element Assessment](../learningresources/Course_Element_Assessment.md).
+- **Assessment:** [Correction](../learningresources/Test_settings.md), [Assessment documents](../learningresources/The_assessment_form.md), [Release assessment](../learningresources/The_assessment_form.md), Change log and more. All settings are on the page [Assessment of learners](../learningresources/Assessment_of_learners.md).
 - **Assessment tool:** [Bulk assessment](../../manual_how-to/bulk_assessment/bulk_assessment.md), [Assessment form](../learningresources/The_assessment_form.md), [Reset data](../learningresources/Assessment_tool_reset_data.md).
 - **Certificate:** [Certificate template](../learningresources/Course_Settings_Assessment_Certificate.md), [Recertification](../learningresources/Course_Settings_Assessment_Certificate.md). All settings are on the page [Personal achievements/successes: Certificates](../personal_menu/Certificates.md).
 - **Badge:** [Badge class](../learningresources/OpenBadges.md), [Awarded badge](../personal_menu/OpenBadges.md), [Template](../../manual_admin/administration/e-Assessment_openBadges.md), [Award criteria](../learningresources/OpenBadges.md) and more. All settings are on the page [Personal achievements/successes: Badges](../personal_menu/OpenBadges.md).
@@ -245,12 +245,10 @@ The first course is in place. Now the things that did not matter while building 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Open >](oeffnen.md)<br>
-[Evaluate >](auswerten.md)<br>
 [Course Element Self-test >](../learningresources/Course_Element_Self_Test.md)<br>
 [Course Element Test >](../learningresources/Course_Element_Test.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
-[Course Element Assessment >](../learningresources/Course_Element_Assessment.md)<br>
+[Assessment of learners >](../learningresources/Assessment_of_learners.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
