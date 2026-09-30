@@ -19,11 +19,13 @@ From this conceptual idea, the same courses are generally assigned and used in e
 
 ## The list of implementations {: #listing}
 
-If you have selected the "Implementations" button in the Course Planner overview, you will first be taken to a list of all implementations for this product. You can use filters to narrow down the selection.
+If you have selected the "Implementations" button in the Course Planner overview, you are taken to a list of the implementations of all products. The "Product" column shows which product an implementation belongs to.
+
+The list opens with the "Relevant" tab. The "Pending memberships" tab shows the implementations with pending memberships, the tabs "Preparation", "Provisional", "Confirmed", "Cancelled" and "Finished" one status each and the "All" tab the whole list. Use filters such as "Product", "Type", "Execution period" or "Occupancy status" to narrow down the selection further.
 
 Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
 
-![The implementations in a filterable list with Reference, Type and Status, here with the Occupancy status filter open](assets/course_planner_implementations_list_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
+![The list of implementations with the opened Occupancy status filter: Number not specified, Minimum number not reached or reached, Free seats available, Fully booked, Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
@@ -67,19 +69,21 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 ### Tab Overview [:octicons-tag-16:{ title="from Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
-The "Overview" tab shows you the members, the next events, the offers in the catalog and the course content of this product. This makes it easier for you to navigate the activities related to this implementation.
+When you open an implementation, the "Overview" tab shows you at a glance how things stand with the members, events, course content, to-dos and catalog offers of this implementation. From every widget you go directly to the corresponding tab.
+
+The **Events** widget only appears if the module **Events and absences** is active system-wide. The **Catalog** widget only appears at the top level of an implementation, not for its subordinate elements, and only if the catalog is switched on.
 
 How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
-The **Content** and **Catalog** widgets also show an icon in the title as well as the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
+The **Content** and **Catalog** widgets offer the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
 
-![The widgets for Events, Content, Members and Catalog with the Show all and Details buttons](assets/course_planner_implementations_tab_overview_v2_en.png){ class="shadow lightbox" title="Overview tab of an implementation" }
+![The Events widget with the week bar, today's event and the Show all button, next to it the widgets Members, Content with the Details button and To-do](assets/course_planner_implementations_tab_overview_v3_en.png){ class="shadow lightbox" title="Overview tab of an implementation · 2026.09.30" }
 
 #### Events widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
 
-The widget **Events** shows the events of the current week, limited to this implementation and its subordinate elements. It only appears if the module **Events and absences** is active system-wide.
+The widget **Events** shows the events of the current week from the selected day onwards, from today when it opens, limited to this implementation and its subordinate elements. It only appears if the module **Events and absences** is active system-wide.
 
-The week bar runs from Monday to Sunday, a dot below the day figure marks the days with events. A click on a row opens the event. You find the complete description of the widget under [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
+The week bar runs from Monday to Sunday, a dot below the day figure marks the days with events. A click on a day sets the starting point of the list, a click on a row opens the event. If no event is left until Sunday, the note **"No events until the end of the week"** appears with the buttons **"Previous event"** and **"Next event"**. You find the complete description of the widget under [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
 
 Use the button **"Show all"** to go directly to the tab **Events** of this implementation.
 
@@ -98,6 +102,10 @@ If a maximum or minimum number of participants is defined, an additional note te
 * For fully booked or overbooked implementations, the corresponding message appears.
 
 ![Seats left and the distance to the minimum number below the participant count, plus the course staff with their roles](assets/course_planner_implementations_widget_members2_v1_en.png){ class="shadow lightbox" title="Members widget in the Overview tab" }
+
+#### To-do widget [:octicons-tag-16:{ title="from Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
+
+The **To-do** widget shows you which tasks are pending in this implementation. The key figures **My to-dos**, **Open** and **Overdue** each lead to the matching view of the to-dos. Use the **"Show all"** button to go to the ["To-dos" tab](Course_Planner_Todos.md#element_tab_todos) of this implementation.
 
 [To the top of the page ^](#implementations)
 
@@ -147,14 +155,14 @@ Click **Move element** to carry out the move.
 
 ### Tab Content {: #tab_content}
 
-The list shows all courses belonging to this implementation.
+The list shows all courses belonging to this implementation with the columns "Type", "Title", "Creator" and "Status", depending on the configuration also "Time period". The "Ref." column gives the number of events of a course; a click on the number lists the events.
 
 If you want to add further courses for this implementation (deviating from the original structure), use the "**Add course**" button at the top right.
 
 The option to **remove** an **individual course** from this implementation can be found under the 3 dots at the end of a line.<br>
 To **remove several courses**, select the courses with the checkboxes in the first column. The buttons "Change status" and "Remove" then appear above the list.
 
-![The courses of an implementation with type, creator and life cycle, the Add course button and, for a selected row, the Change status and Remove actions](assets/course_planner_implementations_tab_content_v1_en.png){ class="shadow lightbox" title="Content tab of an implementation" }
+![Two selected courses with the Change status and Remove buttons above them, at the top right the Add course button](assets/course_planner_implementations_tab_content_v2_en.png){ class="shadow lightbox" title="Content tab of an implementation · 2026.09.30" }
 
 <br>
 
@@ -170,7 +178,7 @@ If it corresponds to the selected implementation type (Single course required), 
 
 Using a template for instantiation is recommended if it is a recurring course that is always the same.
 
-![The Course template section with the Add course template button below the still empty course list](assets/course_planner_implementations_tab_content_template1_v1_en.png){ class="shadow lightbox" title="Content tab of an implementation" }
+![The Course template section below the still empty course list, with the Add course template button for a course template that is instantiated later](assets/course_planner_implementations_tab_content_template1_v2_en.png){ class="shadow lightbox" title="Content tab of an implementation · 2026.09.30" }
 
 The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
@@ -189,12 +197,14 @@ The templates for course content in Course Planner do not have independent membe
 
 ### Tab Events [:octicons-tag-16:{ title="from Release 20.0 (OO-8064)" }](https://track.frentix.com/issue/OO-8064){:target="_blank"} {: #tab_events}
 
-- If there are many events, the **filters** above the table are useful for keeping an overview.
+- If there are many events, the tabs "All", "Relevant", "Today", "Upcoming", "Past", "Without teachers", "Pending" and "Closed" as well as the **filters** above the table help you keep an overview.
+- If the element type of the implementation can contain sub-elements, choose **"All levels"** to include the events of the subordinate elements, or **"This level"** for the events of this element only.
+- At the top right of the table you switch between table view and timeline.
 - The **"Add event"** button can be used to add new events to the currently selected implementation.
 - A click on the **+** at the beginning of a line shows the **details** of this event.
 - It is also possible to **import** events. To do this, click on the small arrow next to the "Add event" button.
 
-![The events of an implementation with Date, From, To, Unit and Teachers, the All levels and This level switches and the Add event button](assets/course_planner_implementations_tab_events_v1_en.png){ class="shadow lightbox" title="Events tab" }
+![The All levels and This level switches above the events of an implementation, on the right the Add event button with the arrow for the import](assets/course_planner_implementations_tab_events_v2_en.png){ class="shadow lightbox" title="Events tab · 2026.09.30" }
 
 [To the top of the page ^](#implementations)
 
@@ -202,13 +212,13 @@ The templates for course content in Course Planner do not have independent membe
 
 ### Tab Members [:octicons-tag-16:{ title="from Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
-![The members of an implementation with one tab per role and the views Active, Pending, Non-members and Members' history](assets/course_planner_implementations_tab_members_v1_en.png){ class="shadow lightbox" title="Members tab" }
+![A note icon in the member list shows which participant has left a comment on the booking](assets/course_planner_implementations_tab_members_v2_en.png){ class="shadow lightbox" title="Members tab · 2026.09.30" }
 
 As mentioned above, an educational product (consisting of one or more courses) can be carried out several times. Different participants take part in each implementation.
 
 Participants are therefore made members of a specific implementation (not members of individual courses or an educational product). It can be determined whether they become members of the entire implementation or only of a sub-area.
 
-The **"Participant comment"** column of the member list uses a note icon to show whether the participant has attached a comment to the booking; a click on it opens the comment. The same column is part of the booking orders table in the Catalog tab [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
+In the member list, a note icon in the **"Participant comment"** column shows whether the participant has attached a comment to the booking; the column header also shows only the icon. A click on it opens the comment. The booking orders table in the Catalog tab lists the same information in the **"Participant comment"** column [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
 To see what a person entered when booking, open the details of their membership in the member list. If the person booked an offer with [booking order forms](#booking_order_forms), the detail view shows the section **Booking order forms** below the booking orders. The table lists title, reference, step name, booking order, status and submission date for each form. **View form** opens the answers, **Edit form** lets you correct them as long as the form has the status "Open" or "Completed".
 
@@ -279,9 +289,9 @@ The "Offers" subsection shows, from top to bottom, the overview, the settings, t
 
 ![The overview, the Settings section and the offers of an implementation with the Add offer button](assets/course_planner_implementations_tab_catalog1_v2_en.png){ class="shadow lightbox" title="Offers subsection in the Catalog tab · 2026.09.28" }
 
-To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per implementation in the Catalog tab).
+To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per implementation in the Catalog tab). The "Links" dialog lists one direct link each for the external and the internal catalog. A click on the QR code icon in front of a link shows the link as a QR code.
 
-![The direct links to the offer for the external and the internal catalog, opened via Access and Links](assets/course_planner_implementations_tab_catalog3_v1_en.png){ class="shadow lightbox" title="Links dialog in the Catalog tab" }
+![The Links dialog with one direct link to the offer each for the external and the internal catalog, a QR code icon in front of each link](assets/course_planner_implementations_tab_catalog3_v2_en.png){ class="shadow lightbox" title="Links dialog in the Catalog tab · 2026.09.30" }
 
 #### Tab Catalog > Settings {: #tab_catalog_settings}
 
@@ -360,11 +370,15 @@ There are two ways to take a form out of booking. They differ in what happens to
 !!! danger "Attention"
     **Remove form** deletes all submitted forms of this form. If the answers are to be kept, switch off **Use** in the offers instead or export the data beforehand.
 
-#### Tab Catalog > Booking orders {: #tab_catalog_booking_orders}
+#### Tab Catalog > Booking orders [:octicons-tag-16:{ title="from Release 20.0 (OO-8318)" }](https://track.frentix.com/issue/OO-8318){:target="_blank"} {: #tab_catalog_booking_orders}
 
 If offers with booking options have been added to the catalog, the booking orders and their details can also be found under the "Catalog" tab in the "Booking orders" subsection.
 
-![The booking orders with status, offer type, price and billing address, plus the Export booking orders button and the actions per order](assets/course_planner_implementations_tab_catalog2_v1_en.png){ class="shadow lightbox" title="Booking orders subsection of the Catalog tab" }
+The tabs "All", "Open", "Done", "Paid", "Cancelled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. **Export booking orders** gives you the booking orders of the implementation as an Excel file.
+
+The menu at the end of a row offers different actions depending on the status of the order. For an open order with a price these are **Set as "Paid"** and **Change price**, for a paid one **Set as "Open"**. If there is a billing address or an address proposal, you change the address of an open order with **Change billing address**. **Write off booking order** is available for every open order, **Change cancellation fee** for a cancelled order with a cancellation fee.
+
+![The Export booking orders button, tabs and filters by Status, Offer type and Offer, plus a note icon for the participant's comment](assets/course_planner_implementations_tab_catalog2_v2_en.png){ class="shadow lightbox" title="Booking orders subsection of the Catalog tab · 2026.09.30" }
 
 If the booked offer requires forms, the detail view of a booking order shows the section **Booking order forms** with title, reference, step name, status and submission date. There, the forms can be viewed and, as long as they are open or completed, edited.
 
@@ -385,21 +399,28 @@ The many possible settings for an implementation can be found under several subo
 
 The metadata entered here is used to simplify search processes, for example.
 
-![The mandatory fields Title, Reference and Type as well as Implementation format and Subjects / Catalog](assets/course_planner_implementations_tab_settings_metadata_v1_en.png){ class="shadow lightbox" title="Metadata sub-tab of the settings of an implementation" }
+Mandatory fields are **Title**, **Reference** and **Type**. For an implementation, the **Implementation format** is added. If taxonomies are configured for the Course Planner, you assign subjects via **Browse**; with the catalog switched on, the field of an implementation is called **Subjects / Catalog**. Administrators also see the **ID** of the element, in the form and in the header of the settings.
+
+![The mandatory fields Title, Reference and Type as well as the fields Implementation format and Subjects / Catalog](assets/course_planner_implementations_tab_settings_metadata_v2_en.png){ class="shadow lightbox" title="Metadata sub-tab of the settings of an implementation · 2026.09.30" }
 
 
-#### Infos in the settings
+#### Infos in the settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"}
 
-The information entered in the "Infos" tab is used for the display in the catalog, for example.
+The information entered in the "Infos" tab is used for the display in the catalog, for example. For an implementation, the tab contains the following details, for a subordinate element only the cover image:
 
-![The details for the information page: teaser, title image, description, learning objectives, requirements and time expenditure](assets/course_planner_implementations_tab_settings_infos_v1_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings" }
+- **Cover image (jpg, png, gif)**, the **With teaser movie** toggle, **Teaser** and **Description**.
+- Section **Facts**: **Authors / taught by**, **Main language** and **Expenditure of work**.
+- Section **Display settings**: Under **Display on info page** you choose whether the info page shows **Events**, **Meet your teachers**, **Certificate** and **Credit points**; if the element type allows sub-elements, **Outline** is also available, **Credit points** only with credit points active. If **Meet your teachers** is selected, you define under **Members displayed as teacher** who appears as teacher: **Teachers in events**, **Coaches** or **Course owners**.
+- Collapsible section **Details**: **Objectives**, **Requirements** and **Certification**.
+
+![The details for the info page: cover image, teaser and description, the facts Main language and Expenditure of work, the display settings and the details Objectives, Requirements and Certification](assets/course_planner_implementations_tab_settings_infos_v2_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings · 2026.09.30" }
 
 
 #### Execution in the settings
 
 The execution settings include the execution period, the location and the number of participants.
 
-![Execution period, location and the minimum and maximum number of participants](assets/course_planner_implementations_tab_settings_execution_v1_en.png){ class="shadow lightbox" title="Execution sub-tab of the settings" }
+![The execution period with begin and end date, the location and the number of participants with min. and max.](assets/course_planner_implementations_tab_settings_execution_v2_en.png){ class="shadow lightbox" title="Execution sub-tab of the settings · 2026.09.30" }
 
 
 #### Configure automation [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
@@ -471,7 +492,7 @@ Separate settings can be made here for each implementation:
 - Progress configuration
 - Progress
 
-![Calendar, absence and progress configuration, each adopted from the type or overridden per element](assets/course_planner_implementations_tab_settings_options_v1_en.png){ class="shadow lightbox" title="Options sub-tab" }
+![Calendar, absences and progress configuration, each adopted from the type or overridden, with the Calendars, Absences and Progress switches](assets/course_planner_implementations_tab_settings_options_v2_en.png){ class="shadow lightbox" title="Options sub-tab · 2026.09.30" }
 
 [To the top of the page ^](#implementations)
 
@@ -484,7 +505,7 @@ This tab only appears if absences have been activated on the element.
 
 Activation takes place in the implementation settings: `Settings tab > Options > Absence configuration`.
 
-![Units, attended, not excused and authorized absences and the attendance rate per participant](assets/course_planner_implementations_tab_absences_v1_en.png){ class="shadow lightbox" title="Absences tab of an implementation" }
+![Per participant the units, attended, not excused, authorized and dispensed, plus the Progress column with bars and % Attended, below them the Total row and the colour legend](assets/course_planner_implementations_tab_absences_v2_en.png){ class="shadow lightbox" title="Absences tab of an implementation · 2026.09.30" }
 
 [To the top of the page ^](#implementations)
 
@@ -498,9 +519,9 @@ The reports that can be created here relate to the currently selected implementa
 In contrast, the report creation, which can be called up in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md), refers to **all** implementations. 
 The structure of the Excel files (columns) and the procedure for creating them is identical for both.
 
-![The report templates with category and description, the Run column and below it the generated Excel files with download](assets/course_planner_implementations_tab_reports1_v1_en.png){ class="shadow lightbox" title="Reports tab of an implementation" }
+![The report templates with the Run column and below them a generated report as an Excel file with Info, Copy to, Delete and Download](assets/course_planner_implementations_tab_reports1_v2_en.png){ class="shadow lightbox" title="Reports tab of an implementation · 2026.09.30" }
 
-Click on the **arrows in the "Run"** column to generate Excel files with the current data using the listed templates.
+Click on the **icon in the "Run"** column to generate Excel files with the current data using the listed templates.
 
 You will then find the Excel files created in this way listed at the bottom of the screen. They can be copied and downloaded.
 
@@ -513,7 +534,7 @@ You will then find the Excel files created in this way listed at the bottom of t
 
 You will find the **"Copy element"** action in the list of implementations at the end of a line under the 3 dots.
 
-![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard](assets/course_planner_implementations_copy1_v1_en.png){ class="shadow lightbox" title="List of implementations" }
+![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard](assets/course_planner_implementations_copy1_v2_en.png){ class="shadow lightbox" title="List of implementations · 2026.09.30" }
 
 In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied. Under **Title** and **Reference**, the wizard suggests the details of the original element with the addition "(Copy)".
 
@@ -539,6 +560,8 @@ An implementation contains many different dates that are arranged in a specific 
 
 ![Reference date, the choice of shifting by Date or Days and the new date](assets/course_planner_implementations_copy5_v2_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard" }
 
+If the implementation has offers, the third step **"Offers"** follows. It lists the offers of the original element, all of them selected; an offer you deselect is not included in the copy. If an offer has a period, the wizard shifts it by the same number of days as **"Shift all dates"**. You adjust the period in the row of the offer.
+
 ### Adopt to-dos when copying [:octicons-tag-16:{ title="from Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
 To-dos of an implementation are carried over when copying. In the first step of the wizard, the "To-dos" selection determines how this is done:
@@ -547,9 +570,9 @@ To-dos of an implementation are carried over when copying. In the first step of 
 * **To-dos only:** Copy to-dos without assignments.
 * **Don't copy:** To-dos are not copied.
 
-In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with title, priority, date input (absolute or relative), due date, status, assignment, delegation and tags. Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
+In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with the columns "Activity", "Title", "Priority", "Date input" (absolute or relative), "Due date", "Due" (the remaining time), "Status", "Assigned", "Delegated" and "Tags". Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
 
-![The counters #Courses, #Templates, #Events and #To-dos and below them the detail areas Courses, Events and To-dos of an expanded element](assets/course_planner_implementations_copy_todos_details_v1_en.png){ class="shadow lightbox" title="Overview elements step" }
+![The #To-dos column in the overview of the elements and below it the To-dos area of an expanded element with three selected to-dos that are copied along](assets/course_planner_implementations_copy_todos_details_v2_en.png){ class="shadow lightbox" title="Overview elements step · 2026.09.30" }
 
 ### Adopt room bookings when copying [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"} {: #copy_rooms}
 
@@ -581,11 +604,11 @@ You copy individual events in the event list of an implementation instead, with 
 
 You will also find the option to delete in the list of implementations at the end of a line under the 3 dots.
 
-![The Delete action in the menu of the 3 dots at the end of a row](assets/course_planner_implementations_delete1_v1_en.png){ class="shadow lightbox" title="List of implementations in the Course Planner" }
+![The Delete action in the menu of the 3 dots at the end of a row](assets/course_planner_implementations_delete1_v2_en.png){ class="shadow lightbox" title="List of implementations in the Course Planner · 2026.09.30" }
 
 If you have already opened an implementation, you will also find the option to delete it at the top right under the 3 dots.
 
-![The Delete action in the menu of the 3 dots at the top right, above the tabs](assets/course_planner_implementations_delete2_v1_en.png){ class="shadow lightbox" title="Header of an opened implementation" }
+![The Delete action in the menu of the 3 dots at the top right, above the tabs](assets/course_planner_implementations_delete2_v2_en.png){ class="shadow lightbox" title="Header of an opened implementation · 2026.09.30" }
 
 [To the top of the page ^](#implementations)
 
@@ -597,12 +620,12 @@ If you have already opened an implementation, you will also find the option to d
 [Course Planner: Overview >](Course_Planner.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
+[Course Planner: To-dos >](Course_Planner_Todos.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[Course Planner: To-dos >](Course_Planner_Todos.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>

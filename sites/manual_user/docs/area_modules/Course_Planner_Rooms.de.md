@@ -39,7 +39,7 @@ Sie finden die Raumverwaltung im Course Planner unter<br>
 
 ---
 
-## Raumplanung {: #room_scheduling}
+## Raumplanung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
 
 Unter «Raumplanung» sehen Sie jede Buchung, die aus den Terminen Ihrer Kurse entstanden ist.
 
@@ -47,7 +47,7 @@ Eine Buchung entsteht, sobald Sie einem Termin einen Raum zuweisen. Sie entsteht
 
 Über der Tabelle wählen Sie den Zeitraum der Anzeige: «Heute und Bevorstehende», «Letzte 3 Monate» oder «Individuell» mit einer selbst gewählten Zeitspanne.
 
-Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Rechts über der Tabelle schalten Sie zwischen Tabelle und Kalender um; der Kalender bietet die Ansichten «Monat», «Woche», «Tag» und «Jahr». Der Umschalter erscheint, sobald die Anzeige mindestens eine Buchung enthält. Über «Im Kursplaner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner; der Termin öffnet sich in einem neuen Browser-Tab. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
+Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warnungen» sowie den Filtern nach Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Rechts über der Tabelle schalten Sie zwischen Tabelle und Kalender um; der Kalender bietet die Ansichten «Monat», «Woche», «Tag» und «Jahr». Der Umschalter erscheint, sobald die Anzeige mindestens eine Buchung enthält. Über «Im Course Planner öffnen» springen Sie von einer Buchung zum zugehörigen Termin im Course Planner; der Termin öffnet sich in einem neuen Browser-Tab. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
 
 ![Die Raumbuchungen mit Datum, Von, Bis, Kennzeichen, Gebäude, Termin, #Teilnehmer und #Plätze, Warnungen als Dreieck am Zeilenanfang](assets/course_planner_rooms_scheduling_table_v1_de.png){ class="shadow lightbox" title="Raumplanung der Raumverwaltung" }
 
@@ -55,7 +55,7 @@ Mit den vordefinierten Tabs «Alle», «Heute», «Bevorstehend» und «Mit Warn
 
 Zu jeder Buchung sehen Sie, welcher Kurs, welche Dozent:innen und welche Räume dazugehören.
 
-Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel und das Kennzeichen des Termins mit seinem Statusabzeichen, allfällige Warnungen hervorgehoben, die Fachbereiche sowie Datum, Zeit, Teilnehmerzahl, Absenzen und Präsenzpflicht. Ein Ort erscheint, wenn er am Termin erfasst ist. Darunter stehen die Dozent:innen, der zugehörige Kurs als Kurskarte und die gebuchten Räume als Raumkarten. Ist mehr als ein Raum gebucht, steht der Raum der aufgeklappten Zeile unter «Raum», die übrigen unter «Weitere Räume für diese Buchung».
+Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel und das Kennzeichen des Termins mit seinem Statusabzeichen, allfällige Warnungen hervorgehoben, die Fachbereiche sowie Datum, Zeit, Teilnehmerzahl, Absenzen und «Präsenz», also ob die Anwesenheit obligatorisch ist. Ein Ort erscheint, wenn er am Termin erfasst ist. Darunter stehen die Dozent:innen, der zugehörige Kurs als Kurskarte und die gebuchten Räume als Raumkarten. Ist mehr als ein Raum gebucht, steht der Raum der aufgeklappten Zeile unter «Raum», die übrigen unter «Weitere Räume für diese Buchung».
 
 ![Die Angaben zum Termin, Dozenten und zwei Raumkarten, die erste unter Raum, die zweite unter Weitere Räume für diese Buchung](assets/course_planner_rooms_scheduling_details_v1_de.png){ class="shadow lightbox" title="Aufgeklappte Buchung in der Raumplanung" }
 
@@ -63,11 +63,11 @@ Klicken Sie dazu die Zeile der Tabelle auf. Die Detailansicht zeigt den Titel un
 
 Ein Klick auf eine Buchung im Kalender zeigt Ihnen, welcher Termin den Raum belegt.
 
-Im Kalender steht jede Buchung als Kalendereintrag, beschriftet mit dem Kennzeichen des Raums und dem Titel des Termins, davor die Uhrzeit. Seine Farbe ist die des Gebäudes. Ein Klick auf den Kalendereintrag öffnet das Fenster «Buchung» mit dem Kennzeichen des Raums und seiner Beschreibung, dem Titel des Termins mit seinem Kennzeichen, dem Datum und der Uhrzeit. Über «Im Kursplaner öffnen» gelangen Sie zum Termin im Course Planner.
+Im Kalender steht jede Buchung als Kalendereintrag, beschriftet mit dem Kennzeichen des Raums und dem Titel des Termins, davor die Uhrzeit. Seine Farbe ist die des Gebäudes. Ein Klick auf den Kalendereintrag öffnet das Fenster «Buchung» mit dem Kennzeichen des Raums und, falls erfasst, seiner Beschreibung, dem Titel des Termins mit seinem Kennzeichen, dem Datum und der Uhrzeit. Über «Im Course Planner öffnen» gelangen Sie zum Termin im Course Planner.
 
 Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in der Raumplanung, in der Raumliste und im Kalender einer einzelnen Raumzeile. In der Tabellenansicht führt stattdessen die aufgeklappte Zeile zu den [Details einer Buchung](#booking_details).
 
-![Das Fenster Buchung mit Kennzeichen des Raums, Termin, Datum, Zeit und der Aktion Im Kursplaner öffnen](assets/course_planner_rooms_scheduling_callout_v1_de.png){ class="shadow lightbox" title="Jahresansicht im Kalender der Raumverwaltung" }
+![Das Fenster Buchung zeigt zur angeklickten Buchung den Raum, den Termin mit Kennzeichen, Datum und Uhrzeit sowie die Aktion Im Course Planner öffnen](assets/course_planner_rooms_scheduling_callout_v2_de.png){ class="shadow lightbox" title="Jahresansicht im Kalender der Raumverwaltung · 2026.09.30" }
 
 ![Der Umschalter zwischen Tabelle und Kalender mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" title="Kalender der Raumplanung" }
 
@@ -75,7 +75,7 @@ Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in
 
 Sie sehen einer Buchung an, ob Raum und Termin zusammenpassen.
 
-In der Tabelle weist die Spalte «Warnungen» darauf hin. Im Kalender trägt der Kalendereintrag zusätzlich zur Farbe seines Gebäudes ein Warndreieck. Es gibt drei Warnungen:
+In der Tabelle weist ein Warndreieck in der Spalte «Warnungen» am Zeilenanfang darauf hin. Im Kalender trägt der Kalendereintrag zusätzlich zur Farbe seines Gebäudes ein Warndreieck. Es gibt drei Warnungen:
 
 * «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!», wenn sich zwei Buchungen desselben Raums überschneiden.
 * «Es gibt nicht genug Plätze!», wenn die Teilnehmerzahl die Anzahl Sitzplätze übersteigt.
@@ -91,7 +91,7 @@ Unter «Räume» sehen Sie, welche Räume Ihnen zur Verfügung stehen und wie st
 
 Die Liste führt die Räume, für die Ihre Organisation zuständig ist. Mit den vordefinierten Tabs «Alle» und «Relevant» sowie den Filtern nach Status (aktiv/inaktiv), Gebäude und Raum grenzen Sie die Anzeige ein. Zusätzlich steht eine Volltextsuche zur Verfügung. Auch hier schalten Sie rechts über der Tabelle auf den Kalender um.
 
-Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und die Spalte «Nächster Termin». Über «Kalender» öffnen Sie die Belegung des Raums, über «Details» eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
+Zu jedem Raum sehen Sie unter anderem das Gebäude, die «Belegung» (Auslastung des laufenden Monats) und die Spalte «Nächster Termin». Über das Symbol «Kalender» öffnen Sie die Belegung des Raums, über das Symbol «Details» eine Vorschau des Raums mit Standort und Karte. Über den Gebäude-Link gelangen Sie zum betreffenden Gebäude.
 
 Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung das [Fenster «Buchung»](#booking_callout).
 
@@ -107,7 +107,7 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 ---
 
-## Räume und Gebäude verwalten {: #admin_edit}
+## Räume und Gebäude verwalten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9460)" }](https://track.frentix.com/issue/OO-9460){:target="_blank"} {: #admin_edit}
 
 !!! info "Bearbeitung nur in der Administration"
 

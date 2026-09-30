@@ -39,7 +39,7 @@ You will find Room management in the Course Planner under<br>
 
 ---
 
-## Room Scheduling {: #room_scheduling}
+## Room Scheduling [:octicons-tag-16:{ title="from Release 21.0 (OO-9525)" }](https://track.frentix.com/issue/OO-9525){:target="_blank"} {: #room_scheduling}
 
 Under "Room Scheduling" you see every booking that has arisen from the events of your courses.
 
@@ -49,13 +49,13 @@ Above the table you select the period of the display: "Today and upcoming", "Las
 
 Use the pre-defined tabs "All", "Today", "Upcoming" and "With warnings" as well as the filters by building and room to narrow down the display. A full-text search is also available. Above the table on the right you switch between table and calendar; the calendar offers the views "Month", "Week", "Day" and "Year". The switch appears as soon as the display holds at least one booking. Via "Open in Course Planner" you jump from a booking to the corresponding event in the Course Planner; the event opens in a new browser tab. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
 
-![The room bookings with Date, From, To, Reference, Building, Event, #Participants and #Seats, warnings as a triangle at the start of the row](assets/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" title="Room scheduling of Room management" }
+![The room bookings with Date, From, To, Reference, Description, Building, Event, #Participants and #Seats, warnings as a triangle at the start of the row](assets/course_planner_rooms_scheduling_table_v3_en.png){ class="shadow lightbox" title="Room scheduling of Room management · 2026.09.30" }
 
 ### Details of a booking {: #booking_details}
 
 For every booking you see which course, which teachers and which rooms belong to it.
 
-To do so, expand the row of the table. The detail view shows the title and the reference of the event with its status badge, any warnings highlighted, the subjects as well as date, time, number of participants, absences and compulsory presence. A location appears if one is recorded for the event. Below it you find the teachers, the corresponding course as a course card and the booked rooms as room cards. If more than one room is booked, the room of the expanded row is shown under "Room", the others under "More rooms for this booking".
+To do so, expand the row of the table. The detail view shows the title and the reference of the event with its status badge, any warnings highlighted, the subjects as well as date, time, number of participants, absences and "Compulsory", that is whether attendance is mandatory. A location appears if one is recorded for the event. Below it you find the teachers, the corresponding course as a course card and the booked rooms as room cards. If more than one room is booked, the room of the expanded row is shown under "Room", the others under "More rooms for this booking".
 
 ![The details of the event, teacher and two room cards, the first under Room, the second under More rooms for this booking](assets/course_planner_rooms_scheduling_details_v1_en.png){ class="shadow lightbox" title="Expanded booking in the room scheduling" }
 
@@ -63,11 +63,11 @@ To do so, expand the row of the table. The detail view shows the title and the r
 
 A click on a booking in the calendar shows you which event occupies the room.
 
-In the calendar, every booking appears as a calendar entry labelled with the reference of the room and the title of the event, preceded by the time. Its colour is the colour of the building. A click on the calendar entry opens the "Booking" window with the reference of the room and its description, the title of the event with its reference, the date and the time. Via "Open in Course Planner" you reach the event in the Course Planner.
+In the calendar, every booking appears as a calendar entry labelled with the reference of the room and the title of the event, preceded by the time. Its colour is the colour of the building. A click on the calendar entry opens the "Booking" window with the reference of the room and, if recorded, its description, the title of the event with its reference, the date and the time. Via "Open in Course Planner" you reach the event in the Course Planner.
 
 The window is available in every calendar view of the room management: in the room scheduling, in the room list and in the calendar of a single room row. In the table view, the expanded row leads to the [details of a booking](#booking_details) instead.
 
-![The Booking window with the reference of the room, event, date, time and the action Open in Course Planner](assets/course_planner_rooms_scheduling_callout_v1_en.png){ class="shadow lightbox" title="Year view in the calendar of Room management" }
+![The Booking window shows the room, the event with its reference, the date and the time of the clicked booking, plus the Open in Course Planner action](assets/course_planner_rooms_scheduling_callout_v2_en.png){ class="shadow lightbox" title="Year view in the calendar of Room management · 2026.09.30" }
 
 ![The switch between table and calendar with the views Month, Week, Day and Year, here the month view](assets/course_planner_rooms_scheduling_calendar_v1_en.png){ class="shadow lightbox" title="Calendar of the room scheduling" }
 
@@ -75,7 +75,7 @@ The window is available in every calendar view of the room management: in the ro
 
 You can tell from a booking whether room and event match.
 
-In the table, the column "Warnings" points this out. In the calendar, the calendar entry carries a warning triangle in addition to the colour of its building. There are three warnings:
+In the table, a warning triangle in the "Warnings" column at the start of the row points this out. In the calendar, the calendar entry carries a warning triangle in addition to the colour of its building. There are three warnings:
 
 * "The room "..." is double-booked during this period!" if two bookings of the same room overlap.
 * "There aren't enough seats!" if the number of participants exceeds the number of seats.
@@ -91,11 +91,11 @@ Under "Rooms" you see which rooms are available to you and how heavily they are 
 
 The list holds the rooms your organisation is responsible for. Use the pre-defined tabs "All" and "Relevant" as well as the filters by status (active/inactive), building and room to narrow down the display. A full-text search is also available. Here, too, you switch to the calendar above the table on the right.
 
-For each room you see, among other things, the building, the "Occupancy rate" (utilisation of the current month) and the column "Next event". Via "Calendar" you open the occupancy of the room, via "Details" a preview of the room with location and map. Via the building link you reach the building concerned.
+For each room you see, among other things, the building, the "Occupancy rate" (utilisation of the current month) and the column "Next event". Via the "Calendar" icon you open the occupancy of the room, via the "Details" icon a preview of the room with location and map. Via the building link you reach the building concerned.
 
 In the calendar of a single room row, too, a click on a booking opens the ["Booking" window](#booking_callout).
 
-![A room with reference, description, status, seats, building, occupancy and next event, plus a calendar and a details icon](assets/course_planner_rooms_list_v1_en.png){ class="shadow lightbox" title="Rooms in Room management" }
+![A room with Reference, Description, Status, #Seats, Building, Occupancy rate and Next event, plus a calendar and a details icon](assets/course_planner_rooms_list_v2_en.png){ class="shadow lightbox" title="Rooms in Room management · 2026.09.30" }
 
 !!! info "Deleted rooms in the administration"
 
@@ -107,7 +107,7 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 
 ---
 
-## Manage rooms and buildings {: #admin_edit}
+## Manage rooms and buildings [:octicons-tag-16:{ title="from Release 21.0 (OO-9460)" }](https://track.frentix.com/issue/OO-9460){:target="_blank"} {: #admin_edit}
 
 !!! info "Editing only in the administration"
 

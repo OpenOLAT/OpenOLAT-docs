@@ -8,12 +8,12 @@ The overview shows, for example:
 - the buttons for accessing the areas/functions described below,
 - as well as the search.
 
-![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" }  
+![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Dashboard of the Course Planner" }
 
 By entering a term in the search field, you can search for **implementations, courses and events**.<br>
 As with other searches, filters can be used to narrow down the search results.
 
-![The search result with the open Status filter from Preparation to Deleted, after a search in the Course Planner](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
+![The search result with the open Status filter from Preparation to Deleted](assets/course_planner_search_v1_de.png){ class="shadow lightbox" title="Search result in the Course Planner" }
 
 Below the buttons and the search, the overview page shows an area with **widgets** (tiles) in a responsive layout: depending on the screen width, the arrangement of the tiles adjusts automatically.
 
@@ -55,13 +55,13 @@ The list shows the events from the selected day to Sunday, sorted by start. Each
 
 A coloured stripe at the left edge of a row places the event in time: it marks the next scheduled event and the one currently running. Screen readers additionally read **"Scheduled next"** and **"Running"**.
 
-![Week bar with dots below the days with events, below it three events with reference, title, location and duration, in the Events widget of the Course Planner](assets/course_planner_widget_events_week_v1_en.png){ class="shadow lightbox" }
+![Week bar with dots below the days with events, below it three events with reference, title, location and duration](assets/course_planner_widget_events_week_v1_en.png){ class="shadow lightbox" title="Events widget of the Course Planner" }
 
 ### Empty state {: #widget_events_empty}
 
-If the displayed week holds no event, the message **"No events until the end of the week"** appears. Use the buttons **"Previous event"** and **"Next event"** to jump to the closest event before or after. The buttons are only active if such an event exists.
+If no event is left from the selected day until Sunday, the message **"No events until the end of the week"** appears. Use the buttons **"Previous event"** and **"Next event"** to jump to the closest event before or after. The buttons are only active if such an event exists.
 
-![Message No events until the end of the week with the greyed out buttons Previous event and Next event, in the Events widget of the Course Planner](assets/course_planner_widget_events_empty_v1_en.png){ class="shadow lightbox" }
+![Message No events until the end of the week with the greyed out buttons Previous event and Next event](assets/course_planner_widget_events_empty_v1_en.png){ class="shadow lightbox" title="Events widget of the Course Planner" }
 
 Use the button **"Show all"** to get to the complete event list of the Course Planner.
 
@@ -79,7 +79,7 @@ You can individually configure widgets (e.g. the implementation widget) via :o_i
 
 Use **Save** to apply the settings, use **Cancel** to discard them.
 
-![The Settings popover with the main figure Relevant and the selectable key figures, opened via the gear symbol of the implementation widget](assets/course_planner_widget_settings_v1_en.png){ class="shadow lightbox" }
+![The Settings popover with the main figure Relevant and the selectable key figures, opened via the gear symbol of the implementation widget](assets/course_planner_widget_settings_v1_en.png){ class="shadow lightbox" title="Settings of the implementation widget" }
 
 [To the top of the page ^](#dashboard)
 

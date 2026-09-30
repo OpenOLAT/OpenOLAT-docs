@@ -7,7 +7,7 @@ Beim Öffnen des Course Planners gelangen Sie auf die Übersichtsseite mit den Z
 
 Die Zugriffs-Buttons sind in die drei Bereiche **Produkte**, **Produktivität** und **Tools** gegliedert [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. Der Abschnitt [Wo finde ich den Course Planner?](#access) beschreibt sie in dieser Reihenfolge.
 
-![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" }
+![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 [Zu den Details >](../area_modules/Course_Planner_Dashboard.de.md)
 
@@ -69,13 +69,13 @@ Mit dem Course Planner können für einen Kurs mehrere Durchführungen erstellt 
 
 Diese administrative Planungsarbeit kann von einem/einer Kursplaner:in auch schon gemacht werden, wenn der Kurs noch nicht erstellt wurde oder noch nicht in endgültiger Version vorliegt.
 
-![Drei Durchführungen eines Produkts, jede mit eigenem Angebot im Katalog, eigenem Termin und dem gemeinsamen Kurs A, Schema der Planung für Einzelkurse](assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" } 
+![Drei Durchführungen eines Produkts, jede mit eigenem Angebot im Katalog, eigenem Termin und dem gemeinsamen Kurs A](assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" title="Planung für Einzelkurse" }
 
 Unabhängig von diesen administrativen Aufgaben (durchgeführt von einem/einer Kursplaner:in) kann ein Kurs von Autor:innen als Template erstellt und dann in alle Durchführungen eingebunden werden. 
 
 Die Instanzierung der Kurse kann auch automatisch auf einen bestimmbaren Termin vorgenommen werden.
 
-![Der Template-Kurs A aus der Content-Erstellung wird in jede der drei Durchführungen instanziert, Schema der Planung für Einzelkurse](assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" } 
+![Der Template-Kurs A aus der Content-Erstellung wird in jede der drei Durchführungen instanziert](assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" title="Planung für Einzelkurse" }
 
 Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog zu den einzelnen Durchführungen hinzugefügt werden.
 
@@ -83,7 +83,7 @@ Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog
 
     Kursmitglied im Template-Kurs sind dann lediglich noch die Kurs-Besitzer:innen mit Autor:innen-Rolle.
 
-![Buchungen aus den Katalogangeboten machen die Buchenden zu Mitgliedern der jeweiligen Durchführung, nicht des Template-Kurses, Schema der Planung für Einzelkurse](assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" } 
+![Buchungen aus den Katalogangeboten machen die Buchenden zu Mitgliedern der jeweiligen Durchführung, nicht des Template-Kurses](assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" title="Planung für Einzelkurse" }
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -97,7 +97,7 @@ So wie für einen Einzelkurs mehrere Durchführungen erstellt werden können, k�
 
 Wenn gewünscht, kann in den einzelnen Durchführungen die Zusammenstellung der Kurse/Lernressourcen auch modifiziert werden und abweichend von der Standarddurchführung ("Kopiervorlage") zusammengesetzt sein.
 
-![Drei Durchführungen mit je mehreren Kursen aus der Content-Erstellung, in Durchführung 2 mit dem abweichenden Kurs 1, Schema der Planung für Course Bundles](assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" } 
+![Drei Durchführungen mit je mehreren Kursen aus der Content-Erstellung, in Durchführung 2 mit dem abweichenden Kurs 1](assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" title="Planung für Course Bundles" }
 
 [Zum Seitenanfang ^](#course_planner)
 
@@ -110,11 +110,11 @@ Strukturierte Produkte/Bildungsgänge weisen gegenüber Course Bundles zusätzli
 
 Auch wenn Teilnehmer:innen ein Bildungsprodukt absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht. (Nicht zu Mitgliedern einzelner Kurse oder zu Mitgliedern der Bildungsprodukt-Vorlage.) 
 
-![Eine Durchführung mit Strukturelementen in Baumstruktur, deren Unterelemente je einen Kurs beinhalten, Schema eines strukturierten Produkts](assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" }
+![Eine Durchführung mit Strukturelementen in Baumstruktur, deren Unterelemente je einen Kurs beinhalten](assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" title="Strukturiertes Produkt" }
 
 Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 
-![Mitgliedschaft in der Durchführung einzeln über die Katalogbuchung mit Abrechnung oder als ganze Gruppe, Schema eines strukturierten Produkts](assets/course_planner_planning_structured_product2_v1_de.png){ class="shadow lightbox" }
+![Mitgliedschaft in der Durchführung einzeln über die Katalogbuchung mit Abrechnung oder als ganze Gruppe](assets/course_planner_planning_structured_product2_v1_de.png){ class="shadow lightbox" title="Strukturiertes Produkt" }
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -211,7 +211,7 @@ Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit D
 
 Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
 
-![Die Produktliste mit Kennzeichen, Organisation und Anzahl Durchführungen, den Tabs Alle, Aktiv und Gelöscht und dem Button Produkt erstellen, Bereich Produkte im Course Planner](assets/course_planner_products_v4_de.png){ class="shadow lightbox" }
+![Die Produktliste mit Kennzeichen, Organisation und Anzahl Durchführungen, den Tabs Alle, Aktiv und Gelöscht und dem Button Produkt erstellen](assets/course_planner_products_v4_de.png){ class="shadow lightbox" title="Bereich Produkte im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Products.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -220,7 +220,7 @@ Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Str
 
 Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. kann sich jedes Semester sowohl ein einzelner Kurs wiederholen, als auch ein strukturierter Bildungsgang bestehend aus mehreren Kursen.
 
-![Alle Durchführungen mit Kennzeichen, Produkt, Beginn, Ende, Typ, Zählern und Status, mit Statusfiltern und dem Button Erstellen, Bereich Durchführungen im Course Planner](assets/course_planner_implementations_v5_de.png){ class="shadow lightbox" }
+![Alle Durchführungen mit Kennzeichen, Produkt, Beginn, Ende, Typ, Zählern und Status, mit Statusfiltern und dem Button Erstellen](assets/course_planner_implementations_v5_de.png){ class="shadow lightbox" title="Bereich Durchführungen im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -229,7 +229,7 @@ Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. ka
 
 Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teilbereiches daraus. 
 
-![Alle Termine mit Datum, Zeit, Einheiten, Element, Status, Kurs und Dozenten, mit Zeitraum-Kacheln und Filtern, Bereich Termine im Course Planner](assets/course_planner_events_v4_de.png){ class="shadow lightbox" }
+![Alle Termine mit Datum, Zeit, Einheiten, Element, Status, Kurs und Dozenten, mit Zeitraum-Kacheln und Filtern](assets/course_planner_events_v4_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Events.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -244,7 +244,7 @@ Der Bereich **Produktivität** enthält die Werkzeuge für die laufende Arbeit: 
 
 To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der Übersicht, auf dem Produkt, auf der Durchführung und auf jedem einzelnen Element. Eine zentrale Übersicht fasst alle To-dos über alle Produkte hinweg zusammen. Das To-do-Widget auf dem Dashboard zeigt offene und überfällige Aufgaben auf einen Blick.
 
-![Alle To-dos mit Priorität, Fälligkeit, Status, Produkt, Element, Zuweisung und Tags, überfällige Einträge in Rot, Bereich To-dos im Course Planner](assets/course_planner_todos_v1_de.png){ class="shadow lightbox" }
+![Alle To-dos mit Priorität, Fälligkeit, Status, Produkt, Element, Zuweisung und Tags, überfällige Einträge in Rot](assets/course_planner_todos_v1_de.png){ class="shadow lightbox" title="Bereich To-dos im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Todos.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -253,7 +253,7 @@ To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der �
 
 Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
-![Die sechs Reportvorlagen zu Buchungsaufträgen mit der Spalte Ausführen und darunter ein generierter Report mit Download, Bereich Reports im Course Planner](assets/course_planner_reports1_v4_de.png){ class="shadow lightbox" }
+![Die sechs Reportvorlagen zu Buchungsaufträgen mit der Spalte Ausführen und darunter ein generierter Report mit Download](assets/course_planner_reports1_v4_de.png){ class="shadow lightbox" title="Bereich Reports im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Reports.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -268,7 +268,7 @@ Der Bereich **Tools** enthält die produktübergreifenden Werkzeuge, die nicht a
 
 Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Absolvieren mehrerer Kurse gibt. 
 
-![Die Liste der Zertifikatsprogramme mit Gültigkeitsdauer, Rezertifizierung, benötigten Kreditpunkten und den Zählern Aktiv, Kandidat:innen und Alumni, Bereich Zertifikatsprogramme im Course Planner](assets/course_planner_certification_programs_v3_de.png){ class="shadow lightbox" }
+![Die Liste der Zertifikatsprogramme mit Gültigkeitsdauer, Rezertifizierung, benötigten Kreditpunkten und den Zählern Aktiv, Kandidat:innen und Alumni](assets/course_planner_certification_programs_v3_de.png){ class="shadow lightbox" title="Bereich Zertifikatsprogramme im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -277,7 +277,7 @@ Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Abso
 
 Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden in der System-Administration gepflegt, unter `Administration > Module > Räume`.
 
-![Eine aufgeklappte Raumbuchung mit Termin, Dozenten, Raumkarte und dem Button Im Kursplaner öffnen, Segment Raumplanung der Raumverwaltung im Course Planner](assets/course_planner_rooms_scheduling_table_v2_de.png){ class="shadow lightbox" }
+![Eine aufgeklappte Raumbuchung mit Termin, dem Hinweis Keine Dozenten verfügbar, Raumkarte und dem Button Im Course Planner öffnen](assets/course_planner_rooms_scheduling_table_v2_de.png){ class="shadow lightbox" title="Raumplanung der Raumverwaltung im Course Planner" }
 
 [Zu den Details >](../area_modules/Course_Planner_Rooms.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -290,11 +290,11 @@ Produkte, Durchführungen und Mitgliedschaften lassen sich als Excel-Datei expor
 
 Den **Export** starten Sie in den Listen «Produkte», «Durchführungen» und «Termine»: Einträge auswählen, dann auf **Export** klicken.
 
-![Ein markiertes Produkt und der Button Export neben Löschen über der Liste, hervorgehoben in der Produktliste des Course Planners](assets/course_planner_export_action_v1_de.png){ class="shadow lightbox" }
+![Ein markiertes Produkt und der Button Export neben Löschen über der Liste, hervorgehoben](assets/course_planner_export_action_v1_de.png){ class="shadow lightbox" title="Produktliste des Course Planners" }
 
 Den **Import** starten Sie über das Mehr-Menü (⋮) oben rechts auf der Übersichtsseite mit dem Eintrag **Importieren**.
 
-![Der Eintrag Importieren im Mehr-Menü oben rechts, hervorgehoben auf der Startseite des Course Planners](assets/course_planner_import_action_v1_de.png){ class="shadow lightbox" }
+![Der Eintrag Importieren im Mehr-Menü oben rechts, hervorgehoben](assets/course_planner_import_action_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 [Zu den Details >](../area_modules/Course_Planner_Import_Export.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)

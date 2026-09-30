@@ -20,11 +20,13 @@ Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleic
 
 ## Die Liste der Durchführungen {: #listing}
 
-Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit Filtern die Auswahl eingrenzen.
+Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gewählt, gelangen Sie zu einer Liste der Durchführungen aller Produkte. Die Spalte "Produkt" zeigt, zu welchem Produkt eine Durchführung gehört.
+
+Die Liste öffnet mit dem Tab "Relevant". Der Tab "Ausstehende Mitgliedschaften" zeigt die Durchführungen mit ausstehenden Mitgliedschaften, die Tabs "Vorbereitung", "Provisorisch", "Bestätigt", "Abgebrochen" und "Beendet" je einen Status und der Tab "Alle" die ganze Liste. Mit Filtern wie "Produkt", "Typ", "Durchführungszeitraum" oder "Belegungsstatus" grenzen Sie die Auswahl weiter ein.
 
 Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 
-![Die aktiven Durchführungen in einer filterbaren Liste mit Kennzeichen, Typ und Status, hier mit geöffnetem Filter Belegungsstatus](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner" }
+![Die Liste der Durchführungen mit dem geöffneten Filter Belegungsstatus: Anzahl nicht festgelegt, Mindestanzahl nicht erreicht oder erreicht, Freie Plätze verfügbar, Ausgebucht, Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
 
 Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
@@ -74,19 +76,21 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 ### Tab Übersicht [:octicons-tag-16:{ title="ab Release 20.2 (OO-8953)" }](https://track.frentix.com/issue/OO-8953){:target="_blank"} {: #tab_overview}
 
-Im Tab "Übersicht" werden Ihnen die Mitglieder, die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt. Dies erleichtert Ihnen die Navigation innerhalb der Durchführungsbezogenen Aktivitäten.
+Wer eine Durchführung öffnet, sieht im Tab "Übersicht" auf einen Blick, wie es um Mitglieder, Termine, Kursinhalte, To-dos und Angebote im Katalog dieser Durchführung steht. Von jedem Widget gelangen Sie direkt in den zugehörigen Tab.
+
+Das Widget **Termine** erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist. Das Widget **Katalog** erscheint nur auf der obersten Ebene einer Durchführung, nicht bei ihren untergeordneten Elementen, und nur bei eingeschaltetem Katalog.
 
 Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
-Die Widgets **Kursinhalt** und **Katalog** zeigen zusätzlich ein Icon im Titel sowie den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
+Die Widgets **Kursinhalt** und **Katalog** bieten den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
 
-![Die Widgets für Termine, Kursinhalt, Mitglieder und Katalog mit den Buttons Alle anzeigen und Details](assets/course_planner_implementations_tab_overview_v2_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung" }
+![Das Widget Termine mit Wochenleiste, dem Termin des heutigen Tages und dem Button Alle anzeigen, daneben die Widgets Mitglieder, Kursinhalt mit dem Button Details und To-do](assets/course_planner_implementations_tab_overview_v3_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung · 2026.09.30" }
 
 #### Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
 
-Das Widget **Termine** zeigt die Termine der laufenden Woche, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+Das Widget **Termine** zeigt die Termine der laufenden Woche ab dem gewählten Tag, beim Öffnen ab heute, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
 
-Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf eine Zeile öffnet den Termin. Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
+Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf einen Tag setzt den Startpunkt der Liste, ein Klick auf eine Zeile öffnet den Termin. Steht bis Sonntag kein Termin mehr an, erscheint der Hinweis **"Keine Termine bis Ende der Woche"** mit den Buttons **"Vorheriger Termin"** und **"Nächster Termin"**. Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
 
 Über den Button **"Alle anzeigen"** gelangen Sie direkt zum Tab **Termine** dieser Durchführung.
 
@@ -105,6 +109,10 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 * Bei ausgebuchten oder überbuchten Durchführungen erscheint die entsprechende Meldung.
 
 ![Verbleibende Plätze und Abstand zur Mindestanzahl unter der Teilnehmerzahl, dazu die Kursverantwortlichen mit ihren Rollen](assets/course_planner_implementations_widget_members2_v1_de.png){ class="shadow lightbox" title="Mitglieder-Widget im Tab Übersicht" }
+
+#### To-do-Widget [:octicons-tag-16:{ title="ab Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
+
+Das Widget **To-do** zeigt Ihnen, welche Aufgaben in dieser Durchführung anstehen. Die Kennzahlen **Meine To-dos**, **Offen** und **Überfällig** führen je zur passenden Ansicht der To-dos. Über den Button **"Alle anzeigen"** gelangen Sie zum [Tab «To-dos»](Course_Planner_Todos.de.md#element_tab_todos) dieser Durchführung.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -154,14 +162,14 @@ Mit einem Klick auf **Element verschieben** wird die Verschiebung ausgeführt.
 
 ### Tab Kursinhalt {: #tab_content}
 
-Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse.
+Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse mit den Spalten "Typ", "Titel", "Erstellt durch" und "Status", je nach Konfiguration auch "Zeitabschnitt". Die Spalte "Ref." nennt die Anzahl Termine eines Kurses; ein Klick auf die Zahl listet die Termine auf.
 
 Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
 
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
 Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann erscheinen über der Liste die Buttons "Status ändern" und "Entfernen".
 
-![Die Kurse einer Durchführung mit Freigabe, Erstellt durch und Status, dazu die Buttons Kurs hinzufügen und Entfernen für markierte Zeilen](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung" }
+![Zwei markierte Kurse und darüber die Buttons Status ändern und Entfernen, rechts oben der Button Kurs hinzufügen](assets/course_planner_implementations_tab_content_v2_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung · 2026.09.30" }
 
 <br>
 
@@ -177,7 +185,7 @@ Wenn es dem gewählten Durchführungstyp (Einzelkurs erforderlich) entspricht, b
 
 Die Verwendung eines Templates zur Instanziierung empfiehlt sich, wenn es sich um einen immer wiederkehrenden gleichen Kurs handelt.
 
-![Der Abschnitt Kurstemplate mit dem Button Kurstemplate hinzufügen unterhalb der noch leeren Kursliste](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung" }
+![Der Abschnitt Kurstemplate unterhalb der noch leeren Kursliste, mit dem Button Kurstemplate hinzufügen für ein Kurstemplate, das später instanziiert wird](assets/course_planner_implementations_tab_content_template1_v2_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung · 2026.09.30" }
 
 Die Buttons "Kurs hinzufügen" und "Kurstemplate hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
@@ -197,12 +205,14 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 
 ### Tab Termine [:octicons-tag-16:{ title="ab Release 20.0 (OO-8064)" }](https://track.frentix.com/issue/OO-8064){:target="_blank"} {: #tab_events}
 
-- Bestehen viele Termine, sind die **Filter** oberhalb der Tabelle nützlich um den Überblick zu behalten.
+- Bestehen viele Termine, helfen die Tabs "Alle", "Relevant", "Heute", "Bevorstehend", "Vergangene", "Ohne Dozenten", "Pendent" und "Abgeschlossene" sowie die **Filter** oberhalb der Tabelle, den Überblick zu behalten.
+- Kann der Elementtyp der Durchführung Unterelemente enthalten, wählen Sie mit **"Alle Ebenen"**, ob auch die Termine der untergeordneten Elemente erscheinen, oder mit **"Diese Ebene"** nur die Termine dieses Elements.
+- Rechts über der Tabelle wechseln Sie zwischen Tabellenansicht und Zeitansicht.
 - Mit dem **Button "Termin hinzufügen"** lassen sich neue Termine zur aktuell gewählten Durchführung hinzufügen.
 - Ein Klick auf das **+** am Anfang einer Zeile zeigt die **Details** dieses Termins.
 - Es besteht auch die Möglichkeit, Termine zu **importieren**. Klicken Sie dazu auf den kleinen Pfeil neben dem Button "Termin hinzufügen".
 
-![Die Termine einer Durchführung mit Datum, Von, Bis, Einheiten und Dozenten, den Umschaltern Alle Ebenen und Diese Ebene und dem Button Termin hinzufügen](assets/course_planner_implementations_tab_events_v1_de.png){ class="shadow lightbox" title="Tab Termine" }
+![Die Umschalter Alle Ebenen und Diese Ebene über den Terminen einer Durchführung, rechts der Button Termin hinzufügen mit dem Pfeil für den Import](assets/course_planner_implementations_tab_events_v2_de.png){ class="shadow lightbox" title="Tab Termine · 2026.09.30" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -212,13 +222,13 @@ Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgli
 
 ### Tab Mitglieder [:octicons-tag-16:{ title="ab Release 20.3 (OO-8514)" }](https://track.frentix.com/issue/OO-8514){:target="_blank"} {: #tab_members}
 
-![Die Mitglieder einer Durchführung mit einem Tab je Rolle und den Ansichten Aktiv, Ausstehend, Nichtmitglieder und Mitglieder-Historie](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder" }
+![Ein Notiz-Symbol in der Mitgliederliste zeigt, bei welcher Teilnehmer:in ein Kommentar zur Buchung vorliegt](assets/course_planner_implementations_tab_members_v2_de.png){ class="shadow lightbox" title="Tab Mitglieder · 2026.09.30" }
 
 Wie bereits weiter oben erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
 
 Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Es kann bestimmt werden, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereiches werden.
 
-Die Spalte **"Teilnehmer:inkommentar"** der Mitgliederliste zeigt mit einem Notiz-Symbol, ob zur Buchung ein Kommentar der Teilnehmer:in vorliegt; ein Klick darauf öffnet den Kommentar. Dieselbe Spalte führt die Tabelle der Buchungsaufträge im Tab Katalog [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
+In der Mitgliederliste zeigt ein Notiz-Symbol in der Spalte **"Teilnehmer:inkommentar"**, ob zur Buchung ein Kommentar der Teilnehmer:in vorliegt; auch der Spaltenkopf zeigt nur das Symbol. Ein Klick darauf öffnet den Kommentar. Dieselbe Angabe führt die Tabelle der Buchungsaufträge im Tab Katalog in der Spalte **"Kommentar Teilnehmer:in"** [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
 Wer wissen will, was eine Person beim Buchen angegeben hat, öffnet die Details ihrer Mitgliedschaft in der Mitgliederliste. Hat die Person ein Angebot mit [Formularen für Buchungsaufträge](#booking_order_forms) gebucht, zeigt die Detailansicht unterhalb der Buchungsaufträge den Abschnitt **Formulare für Buchungsaufträge**. Die Tabelle führt je Formular Titel, Kennzeichen, Schrittname, Buchungsauftrag, Status und Abgabedatum. Mit **Formular ansehen** öffnen Sie die Antworten, mit **Formular bearbeiten** korrigieren Sie sie, solange das Formular den Status "Offen" oder "Abgeschlossen" hat.
 
@@ -290,9 +300,9 @@ Der Teilbereich "Angebote" zeigt von oben nach unten die Übersicht, die Einstel
 
 ![Die Übersicht, der Abschnitt Einstellungen und die Angebote einer Durchführung mit dem Button Angebot hinzufügen](assets/course_planner_implementations_tab_catalog1_v2_de.png){ class="shadow lightbox" title="Teilbereich Angebote im Tab Katalog · 2026.09.28" }
 
-Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, können Sie einen Direktlink auf das Angebot z.B. in einer Mail verschicken. Sie finden die Links in der Übersicht der Angebote (je Durchführung im Tab Katalog).
+Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, können Sie einen Direktlink auf das Angebot z.B. in einer Mail verschicken. Sie finden die Links in der Übersicht der Angebote (je Durchführung im Tab Katalog). Der Dialog «Links» führt je einen Direktlink für den externen und den internen Katalog. Ein Klick auf das QR-Code-Symbol vor einem Link zeigt den Link als QR-Code.
 
-![Die Direktlinks auf das Angebot für externen und internen Katalog, geöffnet über Zugang und Links](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" title="Dialog Links im Tab Katalog" }
+![Der Dialog Links mit je einem Direktlink auf das Angebot für den externen und den internen Katalog, vor jedem Link ein QR-Code-Symbol](assets/course_planner_implementations_tab_catalog3_v2_de.png){ class="shadow lightbox" title="Dialog Links im Tab Katalog · 2026.09.30" }
 
 #### Tab Katalog > Einstellungen {: #tab_catalog_settings}
 
@@ -371,11 +381,15 @@ Ein Formular lässt sich auf zwei Arten aus dem Buchen nehmen. Sie unterscheiden
 !!! danger "Achtung"
     **Formular entfernen** löscht alle abgegebenen Formulare dieses Formulars. Sollen die Antworten erhalten bleiben, schalten Sie stattdessen **Verwenden** in den Angeboten aus oder exportieren Sie die Daten vorher.
 
-#### Tab Katalog > Buchungsaufträge {: #tab_catalog_booking_orders}
+#### Tab Katalog > Buchungsaufträge [:octicons-tag-16:{ title="ab Release 20.0 (OO-8318)" }](https://track.frentix.com/issue/OO-8318){:target="_blank"} {: #tab_catalog_booking_orders}
 
 Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsaufträge und ihre Details ebenfalls unter dem Tab "Katalog" im Teilbereich "Buchungsaufträge" zu finden.
 
-![Die Buchungsaufträge mit Status, Angebotstyp, Preis und Rechnungsadresse, dazu der Download der Liste und die Aktionen je Auftrag](assets/course_planner_implementations_tab_catalog2_v1_de.png){ class="shadow lightbox" title="Teilbereich Buchungsaufträge im Tab Katalog" }
+Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. Mit **Buchungsaufträge herunterladen** erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei.
+
+Das Menü am Ende einer Zeile bietet je nach Status des Auftrags andere Aktionen. Bei einem offenen Auftrag mit Preis sind das **Auf "Bezahlt" setzen** und **Preis ändern**, bei einem bezahlten **Auf "Offen" setzen**. Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem offenen Auftrag mit **Rechnungsadresse ändern** die Adresse. **Buchungsauftrag ausbuchen** steht bei jedem offenen Auftrag zur Verfügung, **Stornogebühr ändern** bei einem stornierten Auftrag mit Stornogebühr.
+
+![Der Button Buchungsaufträge herunterladen, Tabs und Filter nach Status, Angebotstyp und Angebot, dazu ein Notiz-Symbol für den Kommentar der Teilnehmer:in](assets/course_planner_implementations_tab_catalog2_v2_de.png){ class="shadow lightbox" title="Teilbereich Buchungsaufträge im Tab Katalog · 2026.09.30" }
 
 Verlangt das gebuchte Angebot Formulare, führt die Detailansicht eines Buchungsauftrags den Abschnitt **Formulare für Buchungsaufträge** mit Titel, Kennzeichen, Schrittname, Status und Abgabedatum. Dort lassen sich die Formulare ansehen und, solange sie offen oder abgeschlossen sind, bearbeiten.
 
@@ -396,20 +410,27 @@ Die Vielzahl der möglichen Einstellungen zu einer Durchführung sind unter mehr
 
 Die hier eingegebenen Metadaten werden verwendet um z.B. Suchprozesse zu vereinfachen.
 
-![Die Pflichtfelder Titel, Kennzeichen und Typ sowie Durchführungsformat und Fachbereiche / Katalog](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" title="Unter-Tab Metadaten der Einstellungen einer Durchführung" }
+Pflichtfelder sind **Titel**, **Kennzeichen** und **Typ**. Bei einer Durchführung kommt das **Durchführungsformat** dazu. Sind für den Course Planner Taxonomien hinterlegt, ordnen Sie über **Durchsuchen** Fachbereiche zu; bei eingeschaltetem Katalog heisst das Feld einer Durchführung **Fachbereiche / Katalog**. Administrator:innen sehen zusätzlich die **ID** des Elements, im Formular und im Kopfbereich der Einstellungen.
+
+![Die Pflichtfelder Titel, Kennzeichen und Typ sowie die Felder Durchführungsformat und Fachbereiche / Katalog](assets/course_planner_implementations_tab_settings_metadata_v2_de.png){ class="shadow lightbox" title="Unter-Tab Metadaten der Einstellungen einer Durchführung · 2026.09.30" }
 
 
-#### Infos in den Einstellungen
+#### Infos in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"}
 
-Die im Tab "Infos" gemachten Angaben werden z.B. für die Anzeige im Katalog verwendet.
+Die im Tab "Infos" gemachten Angaben werden z.B. für die Anzeige im Katalog verwendet. Bei einer Durchführung umfasst der Tab folgende Angaben, bei einem untergeordneten Element nur das Titelbild:
 
-![Die Angaben für die Informationsseite: Teaser, Titelbild, Beschreibung, Lernziele, Voraussetzungen und Zeitaufwand](assets/course_planner_implementations_tab_settings_infos_v1_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen" }
+- **Titelbild (jpg,png,gif)**, der Schalter **Mit Teaser-Film**, **Teaser** und **Beschreibung**.
+- Abschnitt **Fakten**: **Autor:innen / Durchführung mit**, **Hauptsprache** und **Zeitaufwand**.
+- Abschnitt **Anzeigeeinstellungen**: Unter **Auf Infoseite anzeigen** wählen Sie, ob die Infoseite **Termine**, **Lernen Sie Ihre Dozent:innen kennen**, **Zertifikat** und **Kreditpunkte** zeigt; lässt der Elementtyp Unterelemente zu, steht zusätzlich **Gliederung** zur Wahl, **Kreditpunkte** nur bei aktiven Kreditpunkten. Ist **Lernen Sie Ihre Dozent:innen kennen** gewählt, legen Sie unter **Als Dozenten angezeigte Mitglieder** fest, wer als Dozent:in erscheint: **Dozierende der Termine**, **Betreuer:innen** oder **Kursbesitzer:innen**.
+- Aufklappbarer Abschnitt **Details**: **Lernziele**, **Voraussetzungen** und **Bescheinigung**.
+
+![Die Angaben für die Infoseite: Titelbild, Teaser und Beschreibung, die Fakten Hauptsprache und Zeitaufwand, die Anzeigeeinstellungen und die Details Lernziele, Voraussetzungen und Bescheinigung](assets/course_planner_implementations_tab_settings_infos_v2_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen · 2026.09.30" }
 
 #### Durchführung in den Einstellungen
 
 Zu den Einstellungen der Durchführung gehören der Durchführungszeitraum, der Ort und die Anzahl der Teilnehmer:innen.
 
-![Durchführungszeitraum, Durchführungsort und die Mindest- und Maximalzahl der Teilnehmer:innen](assets/course_planner_implementations_tab_settings_execution_v1_de.png){ class="shadow lightbox" title="Unter-Tab Durchführung der Einstellungen" }
+![Der Durchführungszeitraum mit Beginn- und Enddatum, der Durchführungsort und die Anzahl Teilnehmer:innen mit Min. und Max.](assets/course_planner_implementations_tab_settings_execution_v2_de.png){ class="shadow lightbox" title="Unter-Tab Durchführung der Einstellungen · 2026.09.30" }
 
 
 #### Automatisierung konfigurieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
@@ -456,12 +477,12 @@ Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung 
 Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
 
 * Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
-* Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Bezeichnung, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
+* Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
 * Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel. Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Entfernen"** die Verknüpfung auf; die Sicherheitsabfrage "Zertifikatsprogramm entfernen" bestätigt den Schritt. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
 
 ![Der Schalter Zertifikatsprogramm und der Button Auswählen, solange kein Programm verknüpft ist](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen einer Durchführung" }
 
-![Die Programmliste mit Bezeichnung, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen" }
+![Die Programmliste mit Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen" }
 
 ![Das verknüpfte Programm mit den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen" }
 
@@ -481,7 +502,7 @@ Für jede Durchführung können hier separat Einstellungen vorgenommen werden f�
 - Fortschrittskonfiguration
 - Fortschritt
 
-![Kalender-, Absenzen- und Fortschrittskonfiguration je Element übernommen oder überschrieben, dazu die Schalter Stundenplan und Absenzmanagement](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" title="Unter-Tab Optionen" }
+![Kalender-, Absenzen- und Fortschrittskonfiguration, je vom Typ übernommen oder überschrieben, mit den Schaltern Stundenplan, Absenzmanagement und Fortschritt](assets/course_planner_implementations_tab_settings_options_v2_de.png){ class="shadow lightbox" title="Unter-Tab Optionen · 2026.09.30" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -495,7 +516,7 @@ Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden.
 
 Die Aktivierung erfolgt in den Einstellungen der Durchführung: `Tab Einstellungen > Optionen > Absenzenkonfiguration`.
 
-![Anwesenheiten und Absenzen der Teilnehmenden mit Einheiten, entschuldigten und unentschuldigten Abwesenheiten und Anwesenheitsquote](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" title="Tab Absenzen einer Durchführung" }
+![Je Teilnehmer:in die Einheiten, anwesend, unentschuldigt, entschuldigt und dispensiert, dazu die Spalte Fortschritt mit Balken und % Anwesend, darunter die Zeile Total und die Farblegende](assets/course_planner_implementations_tab_absences_v2_de.png){ class="shadow lightbox" title="Tab Absenzen einer Durchführung · 2026.09.30" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -510,10 +531,10 @@ Die hier erstellbaren Reports beziehen sich auf die aktuell gewählte Durchführ
 Im Unterschied dazu bezieht sich die Report-Erstellung, die in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports.de.md) aufgerufen werden kann, auf **alle** Durchführungen.
 Die Struktur der Excel-Dateien (Spalten) und das Vorgehen zum Erstellen ist bei beiden identisch.
 
-![Die Reportvorlagen mit Kategorie und Beschreibung, die Spalte Ausführen und darunter die erzeugten Excel-Dateien mit Download](assets/course_planner_implementations_tab_reports1_v1_de.png){ class="shadow lightbox" title="Tab Reports einer Durchführung" }
+![Die Reportvorlagen mit der Spalte Ausführen und darunter ein generierter Report als Excel-Datei mit Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_implementations_tab_reports1_v2_de.png){ class="shadow lightbox" title="Tab Reports einer Durchführung · 2026.09.30" }
 
 
-Durch Klick auf die **Pfeile in der Spalte "Ausführen"** werden anhand der aufgelisteten Vorlagen Excel-Dateien mit den aktuellen Daten erzeugt.
+Durch Klick auf das **Symbol in der Spalte "Ausführen"** werden anhand der aufgelisteten Vorlagen Excel-Dateien mit den aktuellen Daten erzeugt.
 
 Die so erstellten Excel-Dateien finden Sie dann im unteren Bereich des Screens aufgeführt. Sie können kopiert und heruntergeladen werden.
 
@@ -526,7 +547,7 @@ Die so erstellten Excel-Dateien finden Sie dann im unteren Bereich des Screens a
 
 Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 
-![Die Aktion Element kopieren im Menü der drei Punkte am Ende einer Zeile, mit der der Kopier-Assistent startet](assets/course_planner_implementations_copy1_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen" }
+![Die Aktion Element kopieren im Menü der drei Punkte am Ende einer Zeile, mit der der Kopier-Assistent startet](assets/course_planner_implementations_copy1_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen · 2026.09.30" }
 
 Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen. Unter **Titel** und **Kennzeichen** schlägt der Wizard die Angaben der Vorlage mit dem Zusatz "(Kopie)" vor.
 
@@ -552,6 +573,8 @@ In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bes
 
 ![Bezugsdatum, die Wahl der Verschiebung nach Datum oder Tage und das neue Datum](assets/course_planner_implementations_copy5_v2_de.png){ class="shadow lightbox" title="Dialog Alle Daten schieben des Assistenten Element kopieren" }
 
+Hat die Durchführung Angebote, folgt als dritter Schritt **"Angebote"**. Er listet die Angebote der Vorlage, alle sind ausgewählt; ein abgewähltes Angebot übernimmt die Kopie nicht. Hat ein Angebot einen Zeitraum, verschiebt der Wizard ihn um dieselbe Anzahl Tage wie **"Alle Daten schieben"**. In der Zeile des Angebots passen Sie den Zeitraum an.
+
 ### To-dos beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
 To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schritt des Wizards bestimmen Sie mit der Auswahl "To-dos", wie dabei vorgegangen wird:
@@ -560,9 +583,9 @@ To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schrit
 * **Nur To-dos:** To-dos ohne Zuweisungen kopieren.
 * **Nicht kopieren:** To-dos werden nicht kopiert.
 
-In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit Titel, Priorität, Datumseingabe (absolut oder relativ), Fälligkeitsdatum, Status, Zuweisung, Delegation und Tags auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
+In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit den Spalten "Aktivität", "Titel", "Priorität", "Datumseingabe" (absolut oder relativ), "Fälligkeitstermin", "Fälligkeit" (die verbleibende Zeit), "Status", "Zugewiesen", "Delegiert" und "Tags" auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
 
-![Die Zähler #Kurse, #Templates, #Termine und #To-dos und darunter die Detailbereiche Kurse, Termine und To-dos eines aufgeklappten Elements](assets/course_planner_implementations_copy_todos_details_v1_de.png){ class="shadow lightbox" title="Schritt Übersicht Elemente" }
+![Die Spalte #To-dos in der Übersicht der Elemente und darunter der Bereich To-dos eines aufgeklappten Elements mit drei ausgewählten To-dos, die mitkopiert werden](assets/course_planner_implementations_copy_todos_details_v2_de.png){ class="shadow lightbox" title="Schritt Übersicht Elemente · 2026.09.30" }
 
 ### Raumbuchungen beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9710)" }](https://track.frentix.com/issue/OO-9710){:target="_blank"} {: #copy_rooms}
 
@@ -595,11 +618,11 @@ Einzelne Termine kopieren Sie stattdessen in der Terminliste einer Durchführung
 
 Auch die Option zum Löschen finden Sie in der Liste der Durchführungen am Ende einer Zeile unter den 3 Punkten.
 
-![Die Aktion Löschen im Menü der drei Punkte am Ende einer Zeile](assets/course_planner_implementations_delete1_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen im Course Planner" }
+![Die Aktion Löschen im Menü der drei Punkte am Ende einer Zeile](assets/course_planner_implementations_delete1_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen im Course Planner · 2026.09.30" }
 
 Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Löschen auch rechts oben unter den 3 Punkten.
 
-![Die Aktion Löschen im Menü der drei Punkte rechts oben, oberhalb der Tabs](assets/course_planner_implementations_delete2_v1_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung" }
+![Die Aktion Löschen im Menü der drei Punkte rechts oben, oberhalb der Tabs](assets/course_planner_implementations_delete2_v2_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung · 2026.09.30" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -613,12 +636,12 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
+[Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
