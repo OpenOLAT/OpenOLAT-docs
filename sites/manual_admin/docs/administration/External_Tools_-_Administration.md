@@ -2,6 +2,12 @@
 
 In the menu "External tools", the OpenOlat administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The menu is located in the system administration under: `Administration > External tools`
 
+## Profile
+
+Name | External tools
+---------|----------
+Available since | Release 10.5 (2016)
+
 
 ## BigBlueButton {: #bbb}
 
@@ -45,12 +51,12 @@ Activation and configuration can be carried out if the required licenses are ava
 
 ## Microsoft Teams [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
-Microsoft Teams is the web conferencing solution from Microsoft. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
+Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, it provides online meetings that participants join directly from OpenOlat. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
 
 **Prerequisites for activation:**
 
 * A Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses.
-* The access data for the tenant (Application (client) ID, Client secret, Tenant GUID) is stored at server level in the OpenOlat configuration. For hosted instances, this is done by the frentix support.
+* The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration. For hosted instances, this is done by the frentix support.
 
 **Prerequisites for use:**
 
@@ -59,13 +65,9 @@ Microsoft Teams is the web conferencing solution from Microsoft. After activatio
 **Configuration in the system administration** under:<br>
 `Administration > External tools > Microsoft Teams`
 
-* Activate the module "Microsoft Teams".
-* Under "Activate for", define where Microsoft Teams may be used: course element "Microsoft Teams", course events, course element "Appointment scheduling", groups and supervisor chat.
-
-In addition, the tabs "Online-meetings" (overview of all meetings of the instance) and "Calendar" (room bookings) are available there.
-
 How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described in the user manual in the section [Roles in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
 
+[See the details >](Teams_module.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -308,5 +310,14 @@ More information on AthenaPDF can be found at
 
 To learn more about how to install and configure the AthenaPDF service please visit
 the [installation manual](../installation/athenaPdf.md).
+
+[To the top of the page ^](#ext_tools)
+
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[Modules: Overview >](Modules.md)<br>
+[Virtual classrooms >](../../manual_user/basic_concepts/Virtual_classrooms.md)
 
 [To the top of the page ^](#ext_tools)
