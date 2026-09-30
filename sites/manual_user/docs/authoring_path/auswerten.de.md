@@ -79,7 +79,7 @@ Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, z
 
     **Wie Nutzende es nennen:** Automatische E-Mail-Erinnerungen, Kurs-Benachrichtigungen, Reminder-Funktion, Automatische Erinnerungen, Automatisierte Benachrichtigungen
 
-    [Im Handbuch lesen](../../manual_admin/administration/Modules_Course_Reminders.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurserinnerungen%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Reminders.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurserinnerungen%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
 </div>
 
@@ -113,20 +113,14 @@ Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Kurserinnerungen:** [Erinnerung](../learningresources/Course_Reminders.de.md), SMS Erinnerungen. Alle Einstellungen stehen auf der Seite [Modul Kurserinnerungen](../../manual_admin/administration/Modules_Course_Reminders.de.md).
+- **Kurserinnerungen:** [Erinnerung](../learningresources/Course_Reminders.de.md), SMS Erinnerungen. Alle Einstellungen stehen auf der Seite [Erinnerungen](../learningresources/Course_Reminders.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**<br>
-[Prüfen >](pruefen.de.md)<br>
-[Der Weg zum ersten Kurs >](index.de.md)<br>
 [Kurs Statistiken >](../learningresources/Statistics_Course.de.md)<br>
 [Test Statistiken >](../learningresources/Statistics_Test.de.md)<br>
-[Modul Kurserinnerungen >](../../manual_admin/administration/Modules_Course_Reminders.de.md)<br>
+[Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden? >](../../manual_how-to/progress_information/progress_information.de.md)<br>
-[Erinnerungen >](../learningresources/Course_Reminders.de.md)
-
-**Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

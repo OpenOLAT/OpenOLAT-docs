@@ -127,7 +127,7 @@
   display: grid;
   /* seven in a row where there is room, otherwise the row wraps instead of
      breaking the station names inside a word */
-  grid-template-columns: repeat(auto-fill, minmax(5.4em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(5.4em, 1fr));
   gap: 0.35em;
   margin: 0.4em 0 0;
   padding: 0;
@@ -377,15 +377,19 @@
   margin-top: 0;
 }
 .md-typeset .oo-mh-nav__label {
+  flex: 0 0 100%;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--oo-sea);
-  margin-right: auto;
+  margin-bottom: 0.2em;
+}
+.md-typeset .oo-mh-nav .oo-mh-btn {
+  white-space: nowrap;
 }
 .md-typeset .oo-mh-nav .oo-mh-btn--next {
-  margin-left: 0;
+  margin-left: auto;
 }
 [data-md-color-scheme="slate"] .md-typeset .oo-mh-nav {
   border-color: #6FC2C4;

@@ -39,7 +39,7 @@ Ein Kurs ist eine Lernressource, aber eine besondere: er ist die einzige, die Mi
 
     **Wie Nutzende es nennen:** Lernraum, Schulung, Seminar, Lehrgang, Klassenraum, Modul
 
-    [Im Handbuch lesen](../../manual_admin/administration/Modules_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
 </div>
 
@@ -93,11 +93,11 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
 ### Kursstatus {: #course_course_status}
 
-Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Freigabe für Betreuende, Veröffentlicht, Beendet, Gelöscht.
+Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Review, Freigabe Betreuer:innen, Veröffentlicht, Beendet, Papierkorb, Gelöscht.
 
 ??? note "Kursstatus im Detail"
 
-    Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Freigabe für Betreuende, Veröffentlicht, Beendet, Gelöscht. Er entscheidet, wer den Kurs betreten kann.
+    Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Review, Freigabe Betreuer:innen, Veröffentlicht, Beendet, Papierkorb, Gelöscht. Er entscheidet, wer den Kurs betreten kann.
 
     **Englisch:** Course status
 
@@ -139,15 +139,13 @@ Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md), [Kursdurchführung](../learningresources/Learning_path_course_Course_editor.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md).
+- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md), [Kursdurchführung](../learningresources/Learning_path_course_Course_editor.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 - **Kursstatus:** [Papierkorb](../learningresources/Access_configuration.de.md), [Freigabe Betreuer:innen](../learningresources/Access_configuration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Einrichten >](einrichten.de.md)<br>
-[Bauen >](bauen.de.md)<br>
-[Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
+[Lernressourcen >](../learningresources/index.de.md)<br>
 [Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>

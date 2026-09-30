@@ -2,6 +2,13 @@ site_name: manual_admin
 
 nav:
   - index.md
+  - Introduction for administrators:
+    - admin_path/index.md
+    - admin_path/einrichten.md
+    - admin_path/zugang.md
+    - admin_path/rollen.md
+    - admin_path/module.md
+    - admin_path/anbinden.md
   - Administration:
     - System: "administration/System.md"
     - Core functions:

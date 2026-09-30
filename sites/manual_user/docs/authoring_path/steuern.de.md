@@ -159,15 +159,10 @@ Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: D
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**<br>
-[Bauen >](bauen.de.md)<br>
-[Öffnen >](oeffnen.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
-[Zugriffsbeschränkungen im Expertenmodus >](../learningresources/Access_Restrictions_in_the_Expert_Mode.de.md)
-
-**Weiterführend**<br>
+[Zugriffsbeschränkungen im Expertenmodus >](../learningresources/Access_Restrictions_in_the_Expert_Mode.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

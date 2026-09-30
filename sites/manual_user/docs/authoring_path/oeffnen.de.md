@@ -77,7 +77,7 @@ Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen a
 
     **Wie Nutzende es nennen:** Kursangebot, Angebotsübersicht, Kurskatalog, Programm, Kursverzeichnis, Marktplatz, Kursportal, Angebotsverzeichnis, Kursdatenbank, Kurspool, Angebotskatalog, Buchbarer Kurskatalog, Bildungskatalog
 
-    [Im Handbuch lesen](../../manual_admin/administration/Modules_Catalog_2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../area_modules/catalog2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
 </div>
 
@@ -200,22 +200,21 @@ Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support
 Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Angebot:** [Zugangscode](../basic_concepts/Offer_Concepts.de.md), Formulare für Buchungsaufträge. Alle Einstellungen stehen auf der Seite [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md).
-- **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md).
+- **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Katalog 2.0: Übersicht](../area_modules/catalog2.0.de.md).
 - **Gruppe:** [Lerngruppen](../learningresources/Members_management.de.md), [Lernbereich](../learningresources/Learning_Areas.de.md), [Mitglieder](../learningresources/Members_management.de.md), [Kollaborative Werkzeuge](../groups/Group_Administration.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Gruppen](../groups/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Steuern >](steuern.de.md)<br>
-[Prüfen >](pruefen.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
-[Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
 [Rollen und Rechte: Die Rolle Betreuer:in >](../basic_concepts/coach.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
+[Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Extern verfügbarer Katalog >](../area_modules/catalog2.0_web.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernbereiche >](../learningresources/Learning_Areas.de.md)<br>

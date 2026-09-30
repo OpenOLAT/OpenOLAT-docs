@@ -36,9 +36,11 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITES = os.path.join(ROOT, "sites")
+VIEWS = os.path.join(ROOT, "bin", "authoring_path_views.yaml")
+# OUT und HOME werden in main() aus der Ansicht gesetzt (view.out_dir, view.home_page); die
+# Vorgabe ist der Autorenweg.
 OUT = os.path.join(SITES, "manual_user", "docs", "authoring_path")
 HOME = os.path.join(SITES, "manual_user", "docs", "general")
-VIEWS = os.path.join(ROOT, "bin", "authoring_path_views.yaml")
 LANGS = ("de", "en")
 SUFFIX = {"de": ".de.md", "en": ".md"}
 TILES_BEGIN = "<!-- gen:authoring_path_tiles -->"
@@ -121,8 +123,8 @@ def first_sentences(desc):
 
 
 # ---------------------------------------------------------------- load ------------------------
-def load(map_path):
-    with open(VIEWS, encoding="utf-8") as f:
+def load(map_path, views=VIEWS):
+    with open(views, encoding="utf-8") as f:
         V = yaml.safe_load(f)
     with open(map_path, encoding="utf-8") as f:
         M = json.load(f)
@@ -167,6 +169,8 @@ def validate(V, M):
     for s in V["stations"]:
         for door in ("howto", "read"):
             d = s.get(door)
+            if door == "howto" and "try" not in doors_of(V):
+                continue
             if not d:
                 continue
             for lang in LANGS:
@@ -186,6 +190,11 @@ def validate(V, M):
         if k not in C:
             fail(f"Ausgeschlossener Schlüssel fehlt in der Map: {k}")
     return edges
+
+
+def doors_of(V):
+    """Welche Türen eine Station zeigt: try (How-to) und/oder read (Handbuchseite)."""
+    return V["view"].get("doors") or ["try", "read"]
 
 
 # ---------------------------------------------------------------- model -----------------------
@@ -274,6 +283,10 @@ GEN_NOTE = ("<!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path
             "Nicht von Hand bearbeiten. -->")
 
 
+def gen_note(V):
+    return GEN_NOTE.replace("bin/authoring_path_views.yaml", V["view"].get("source", "bin/authoring_path_views.yaml"))
+
+
 def navbar(ctx, idx, lang):
     """Die Navigation des Autorenwegs: Beschriftung, zurück, weiter. Steht vor dem Titel und am
     Seitenende. idx = -1 für die Wegseite, sonst Index der Station."""
@@ -283,7 +296,8 @@ def navbar(ctx, idx, lang):
     def btn(cls, href, text):
         return f'[{text}]({href}){{ .oo-mh-btn .oo-mh-btn--{cls} }}'
     if idx < 0:
-        pv = btn("prev", f"../general/index{SUFFIX[lang]}", f"‹ {U['home']}")
+        home = V["view"].get("home_link", "../general/index")
+        pv = btn("prev", f"{home}{SUFFIX[lang]}", f"‹ {U['home']}")
         n = stations[0]
         nx = btn("next", f"{n['id']}{SUFFIX[lang]}", f"{m}: {n[lang]} ›")
     else:
@@ -303,12 +317,13 @@ def render_index(ctx, lang):
     phases = " ".join(
         f'<span class="oo-mh-phase{" oo-mh-phase--on" if i == 0 else ""}"><b>{p[0]}</b>: {p[1]}</span>'
         for i, p in enumerate(v["phases_" + lang]))
-    first = V["stations"][0]
-    before = v["before_" + lang].replace(
-        "{einrichten}", f"[{first[lang]}]({first['id']}{SUFFIX[lang]})")
-    out = [front(v[lang], v["lead_" + lang].split(". ")[0] + "."), GEN_NOTE, "",
+    # {<Stations-ID>} im Text «Bevor Sie beginnen» wird zum Link auf diese Station.
+    before = v["before_" + lang]
+    for st in V["stations"]:
+        before = before.replace("{" + st["id"] + "}", f"[{st[lang]}]({st['id']}{SUFFIX[lang]})")
+    out = [front(v[lang], v["lead_" + lang].split(". ")[0] + "."), gen_note(V), "",
            navbar(ctx, -1, lang), "",
-           f"# {v[lang]} {{: #authoring_path}}", "",
+           f"# {v[lang]} {{: #{v.get('anchor', 'authoring_path')}}}", "",
            v["lead_" + lang], "",
            f'<p class="oo-mh-phases">{phases}</p>', "",
            f"## {U['stations_h']} {{: #stations}}", "",
@@ -359,7 +374,7 @@ def render_station(ctx, s, idx, lang):
     for it in s["items"]:
         mine.add(it["key"])
         mine.update(it.get("kids") or [])
-    out = [front(s[lang], s["sub_" + lang] + ". " + s["desc_" + lang].split(". ")[0] + "."), GEN_NOTE, "",
+    out = [front(s[lang], s["sub_" + lang] + ". " + s["desc_" + lang].split(". ")[0] + "."), gen_note(V), "",
            navbar(ctx, idx, lang), "",
            f"# {s[lang]} {{: #{s['id']}}}", "",
            f'<p class="oo-mh-sub">{s["sub_" + lang]}</p>', "",
@@ -387,24 +402,28 @@ def render_station(ctx, s, idx, lang):
             why = e["why"] if lang == "de" else (e.get("why_en") or e["why"])
             out += [f'!!! info "{U["apart_station"].format(a=ctx.name(a, lang), b=ctx.name(b, lang))}"', "",
                     "    " + md_escape(why), ""]
-    # two doors
+    # doors: try (How-to) and/or read (manual page), as the view defines
+    doors = doors_of(V)
     h, r = s.get("howto"), s["read"]
-    if h:
-        try_line = f"[{U['howto_prefix']} {h[lang]}]({rel_link(page_file(h['path'], lang), OUT, h.get('anchor'))})"
-    else:
-        try_line = U["no_howto"]
     read_line = f"[{r[lang]}]({rel_link(page_file(r['path'], lang), OUT)})"
     out += [f"## {U['doors_h']} {{: #two_doors}}", "",
-            '<div class="oo-mh-doors" markdown>', "",
-            '<div class="oo-mh-door" markdown>', "",
-            f'<p class="oo-mh-kicker">{U["try"]}</p>', "",
-            try_line, "",
-            f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', "",
-            "</div>", "",
-            '<div class="oo-mh-door" markdown>', "",
+            '<div class="oo-mh-doors" markdown>', ""]
+    if "try" in doors:
+        if h:
+            try_line = f"[{U['howto_prefix']} {h[lang]}]({rel_link(page_file(h['path'], lang), OUT, h.get('anchor'))})"
+        else:
+            try_line = U["no_howto"]
+        out += ['<div class="oo-mh-door" markdown>', "",
+                f'<p class="oo-mh-kicker">{U["try"]}</p>', "",
+                try_line, "",
+                f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', "",
+                "</div>", ""]
+    out += ['<div class="oo-mh-door" markdown>', "",
             f'<p class="oo-mh-kicker">{U["read"]}</p>', "",
-            read_line, "",
-            "</div>", "", "</div>", ""]
+            read_line, ""]
+    if "try" not in doors:
+        out += [f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', ""]
+    out += ["</div>", "", "</div>", ""]
     # deepen
     out += [f"## {U['deepen_h']} {{: #deepen}}", "", U["deepen_lead"], ""]
     rows = []
@@ -452,8 +471,8 @@ def footer(ctx, s, lang, text):
         if link.startswith(("?", "#", "mailto:", "http")) or ".md" not in link:
             continue
         fn, bare = _link_target(link)
-        if os.path.abspath(fn) == os.path.abspath(own) or fn in seen:
-            continue
+        if os.path.dirname(os.path.abspath(fn)) == os.path.abspath(OUT) or fn in seen:
+            continue  # die Seiten des Wegs selbst (Navigation) gehören nicht in die Fussliste
         seen.add(fn)
         mentioned.append((fn, bare))
     further = []
@@ -489,7 +508,7 @@ def patch_home(V, lang, write):
         return
     a = src.index(TILES_BEGIN) + len(TILES_BEGIN)
     b = src.index(TILES_END)
-    new = src[:a] + "\n" + tiles(V, lang, "../authoring_path/") + "\n" + src[b:]
+    new = src[:a] + "\n" + tiles(V, lang, V["view"].get("tiles_prefix", "../authoring_path/")) + "\n" + src[b:]
     if write and new != src:
         with open(fn, "w", encoding="utf-8") as f:
             f.write(new)
@@ -500,10 +519,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--map", default=os.path.join(os.environ.get("CM_WORK", "/tmp/cm"), "map.json"))
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--view", default=VIEWS, help="Ansichtsdatei (Vorgabe: der Autorenweg)")
     args = ap.parse_args()
     if not os.path.isfile(args.map):
         sys.exit(f"map.json nicht gefunden: {args.map}")
-    V, M = load(args.map)
+    V, M = load(args.map, args.view)
+    global OUT, HOME
+    vw = V["view"]
+    vw.setdefault("source", os.path.relpath(args.view, ROOT))
+    if vw.get("out_dir"):
+        OUT = os.path.join(SITES, vw["out_dir"])
+    if vw.get("home_page"):
+        HOME = os.path.join(SITES, vw["home_page"])
     edges = validate(V, M)
     if errors:
         print("Abbruch, nichts geschrieben:", file=sys.stderr)

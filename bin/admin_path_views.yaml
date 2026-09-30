@@ -1,0 +1,310 @@
+# Kuratierte Ansicht «Der Weg zur laufenden Installation» (Einführung für Administrator:innen)
+# für das Administrationshandbuch. Gegenstück zu authoring_path_views.yaml, gleicher Generator:
+#   .venv/bin/python3 bin/gen_authoring_path.py --view bin/admin_path_views.yaml [--check]
+#
+# Diese Datei trägt nur, was die Ansicht festlegt: Stationen, Stationstexte DE/EN, Begriffe je
+# Station, die Tür «Nachlesen», Verwechslungspaare, Fussliste. Begriff, Beschreibung, Synonyme,
+# Handbuchseite und tiefere Teile kommen aus der Concept Map (map.json, nur lesend).
+#
+# Entscheide (Yves, 30.09.2026): keine Tür «Ausprobieren» für Administrator:innen; wo kein How-to
+# besteht, verweist die Nachlesen-Karte auf Support und Coaching von frentix. Kein SEB als Einstieg.
+
+view:
+  id: adminweg
+  source: bin/admin_path_views.yaml
+  out_dir: manual_admin/docs/admin_path
+  home_page: manual_admin/docs
+  home_link: ../index
+  tiles_prefix: admin_path/
+  anchor: admin_path
+  doors: [read]
+  de: Der Weg zur laufenden Installation
+  en: The path to a running installation
+  lead_de: >-
+    Fünf Stationen führen von den Grundeinstellungen bis zur angebundenen Installation. Die
+    Reihenfolge folgt dem Aufbau einer neuen Instanz: zuerst das System, dann der Zugang, die
+    Rollen, die Module, zuletzt Prüfungen und externe Werkzeuge. Jede Station erklärt ihre
+    Begriffe, zeigt, was leicht verwechselt wird, und führt auf die Handbuchseite.
+  lead_en: >-
+    Five stations lead from the basic settings to a connected installation. The order follows
+    the setup of a new instance: first the system, then access, roles, modules, and finally
+    exams and external tools. Each station explains its terms, shows what is easily confused,
+    and leads to the manual page.
+  phases_de:
+    - [Wissen, Sie sind hier]
+    - [Anwenden, eigene Installation oder fertige Instanz von frentix]
+    - [Vertiefen, wenn die Installation läuft]
+  phases_en:
+    - [Knowledge, you are here]
+    - [Apply, your own installation or a ready instance from frentix]
+    - [Deepen, once the installation is running]
+  hint_de: Klicken Sie eine Station an. Die Reihenfolge ist eine Empfehlung, kein Zwang.
+  hint_en: Click a station. The order is a recommendation, not a rule.
+  before_de: >-
+    Sie brauchen die Systemrolle Systemadministrator:in. Nur mit ihr erscheint die Administration
+    in der Hauptnavigation. Wer welche Rolle bekommt, steht in der Station {rollen}.
+  before_en: >-
+    You need the system role System administrator. Only with it does Administration appear in the
+    main navigation. Who gets which role is explained in the station {rollen}.
+
+stations:
+  - id: einrichten
+    de: Einrichten
+    en: Set up
+    sub_de: System und Auftritt
+    sub_en: System and appearance
+    desc_de: >-
+      Die Systemeinstellungen legen fest, wie sich die Installation verhält und wie sie auftritt.
+      In der Core Konfiguration stellen Sie die Grundfunktionen ein, im Customizing Systemlayout,
+      Logo und Fusszeile, mit der Startseite den ersten Bildschirm nach dem Login.
+    desc_en: >-
+      The system settings define how the installation behaves and how it looks. In the core
+      functions you configure the basic features, in customizing the system layout, logo and footer
+      line, and with the landing page the first screen after login.
+    items:
+      - key: platform.admin_system
+      - key: platform.admin_core_config
+      - key: platform.admin_customizing
+      - key: platform.landing_page
+    read:
+      path: manual_admin/docs/administration/System
+      de: System
+      en: System
+    further:
+      - manual_admin/docs/administration/Core_functions
+      - manual_admin/docs/administration/Customizing
+      - manual_admin/docs/administration/Landing_pages
+      - reference_glossary/docs/glossary
+
+  - id: zugang
+    de: Zugang
+    en: Access
+    sub_de: Wer hinein darf
+    sub_en: Who may enter
+    desc_de: >-
+      Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die
+      Authentifizierung legt die Login-Methoden fest, die Selbstregistrierung öffnet die Instanz
+      für neue Konten, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One
+      Time Code ergänzt das Passwort um einen zweiten Faktor.
+    desc_en: >-
+      Here you decide who reaches your installation and how people log in. Authentication defines
+      the login methods, self-registration opens the instance for new accounts, and guests only see
+      what is explicitly released for guests. The one time code adds a second factor to the
+      password.
+    items:
+      - key: platform.admin_login
+      - key: platform.authentication
+      - key: platform.self_registration
+      - key: platform.guest_access
+        kids: [roles.role_guest]
+      - key: platform.one_time_code
+    read:
+      path: manual_admin/docs/administration/Login
+      de: Login
+      en: Login
+    further:
+      - manual_admin/docs/administration/Login_Password_and_Authentication
+      - manual_admin/docs/administration/Login_Self-Registration
+      - manual_admin/docs/administration/Guest_and_invitation
+      - manual_admin/docs/administration/Login_Security
+      - reference_glossary/docs/glossary
+
+  - id: rollen
+    de: Rollen
+    en: Roles
+    sub_de: Konten und Organisation
+    sub_en: Accounts and organisation
+    desc_de: >-
+      In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu. Die Systemrolle
+      Systemadministrator:in konfiguriert die Installation, Administrator:in verwaltet die
+      Organisation. Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten,
+      Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
+    desc_en: >-
+      In user management you create accounts and assign roles. The system role System
+      administrator configures the installation, Administrator manages the organisation. User
+      manager and Roles manager share the work on accounts, authors build courses. Every account
+      belongs to an organisation.
+    items:
+      - key: roles.role_sysadmin
+      - key: roles.role_administrator
+      - key: roles.role_usermanager
+      - key: roles.role_rolesmanager
+      - key: roles.role_author
+      - key: platform.organisation
+    read:
+      path: manual_admin/docs/usermanagement/index
+      de: Benutzerverwaltung
+      en: User management
+    further:
+      - manual_admin/docs/usermanagement/Create_User
+      - manual_admin/docs/usermanagement/Assign_roles
+      - manual_user/docs/basic_concepts/Roles_Rights
+      - manual_admin/docs/administration/Modules_Organisations
+      - reference_glossary/docs/glossary
+
+  - id: module
+    de: Module
+    en: Modules
+    sub_de: Funktionen freischalten
+    sub_en: Enable functions
+    desc_de: >-
+      Ein Modul schaltet eine Funktion für die ganze Installation frei und setzt ihre
+      Standardwerte. Lernressource und Kurs sind der Kern, der Katalog macht Angebote sichtbar,
+      Coaching trennt das Betreuen vom Lernen, die Räume und der Course Planner planen das
+      Angebot.
+    desc_en: >-
+      A module enables a function for the whole installation and sets its default values.
+      Learning resource and course are the core, the catalog makes offers visible, Coaching
+      separates supervising from learning, and Rooms and the Course Planner plan the offer.
+    items:
+      - key: resources.learning_resource
+      - key: course.course
+      - key: catalog.catalog
+      - key: coaching.coaching_tool
+      - key: attendance.rooms_module
+      - key: curriculum.course_planner
+    read:
+      path: manual_admin/docs/administration/Modules
+      de: "Module: Übersicht"
+      en: "Modules: overview"
+    further:
+      - manual_admin/docs/administration/Modules_Learning_Resource
+      - manual_admin/docs/administration/Modules_Course
+      - manual_admin/docs/administration/Modules_Catalog_2.0
+      - manual_admin/docs/administration/Modules_Rooms
+      - manual_admin/docs/administration/Modules_Course_Planner
+      - reference_glossary/docs/glossary
+
+  - id: anbinden
+    de: Prüfen und Anbinden
+    en: Assess and connect
+    sub_de: Prüfungen und externe Werkzeuge
+    sub_en: Exams and external tools
+    desc_de: >-
+      Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert
+      sie ab. Unter Externe Werkzeuge schalten Sie mit dem KI Modul die KI-Funktionen frei und
+      verbinden über LTI Kurse mit externen Anwendungen. Die REST API in der Core Konfiguration
+      öffnet OpenOlat für andere Systeme.
+    desc_en: >-
+      Assessment management defines how exams run, the Safe Exam Browser secures them. Under
+      External tools you enable the AI features with the AI module and connect courses to external
+      applications via LTI. The REST API in the core functions opens OpenOlat to other systems.
+    items:
+      - key: assessment.assessment_management
+      - key: assessment.safe_exam_browser
+      - key: ai.ai_module
+      - key: integrations.lti
+      - key: integrations.rest_api
+    read:
+      path: manual_admin/docs/administration/External_Tools_-_Administration
+      de: "Externe Werkzeuge: Übersicht"
+      en: "External tools: overview"
+    further:
+      - manual_admin/docs/administration/e-Assessment_Administration
+      - manual_admin/docs/administration/e-Assessment_AssessmentMgmt
+      - manual_admin/docs/administration/External_Tools_AI
+      - manual_admin/docs/administration/LTI_Integrations
+      - manual_admin/docs/administration/REST_API
+      - manual_admin/docs/administration/Life_cycles_-_Administration
+      - manual_admin/docs/administration/Reports
+      - reference_glossary/docs/glossary
+
+# Verwechslungspaare, nur mit keep_apart-Kante in der Map.
+apart:
+  - [platform.guest_access, roles.role_guest]
+  - [platform.one_time_code, platform.passkey]
+  - [assessment.assessment_management, assessment.assessment_tool]
+  - [attendance.rooms_module, attendance.room_management]
+  - [curriculum.course_planner, platform.area_courseplanner]
+
+# Tiefere Teile, die in «Vertiefen» nicht erscheinen (gleiche Befunde wie im Autorenweg):
+deep_exclude:
+  - course.partial_elements
+  - catalog.catalog_admin
+  - authoring.content_element
+  - course.course_lifecycle
+
+kind:
+  de: {concept: Begriff, role: Rolle, module: Modul, area: Bereich, site: Bereich, tool: Werkzeug, element: Kursbaustein,
+       resource: Lernressource, attribute: Einstellung, action: Aktion, integration: Integration, standard: Standard}
+  en: {concept: Concept, role: Role, module: Module, area: Area, site: Area, tool: Tool, element: Course element,
+       resource: Learning resource, attribute: Setting, action: Action, integration: Integration, standard: Standard}
+
+ui:
+  de:
+    section: Einführung für Administrator:innen
+    stations_h: Die Stationen
+    before_h: Bevor Sie beginnen
+    terms_h: Begriffe dieser Station
+    more: "{name} im Detail"
+    part_of: "Gehört dazu:"
+    other_lang: Englisch
+    syn: Wie Nutzende es nennen
+    apart_detail: "Nicht verwechseln mit {other}:"
+    apart_station: "Nicht verwechseln: {a} und {b}"
+    manual: Im Handbuch lesen
+    sophia: Sophia fragen
+    sophia_q: 'Was ist "{name}" in OpenOlat und wie richte ich es ein?'
+    doors_h: Nachlesen
+    try: Ausprobieren
+    read: Nachlesen
+    howto_prefix: "How-to:"
+    no_howto: Zu dieser Station gibt es kein How-to.
+    frentix: "Für die Einrichtung begleitet Sie frentix mit Support und Coaching:"
+    frentix_mail: support@frentix.com
+    deepen_h: Vertiefen, wenn die Installation läuft
+    deepen_lead: >-
+      Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die
+      Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
+    deepen_more: und weitere
+    deepen_attrs: "Mehr dazu auf der Seite {link}."
+    deepen_none: Diese Station hat keine tieferen Teile. Die nächste Station wartet.
+    prev: zurück
+    next: weiter
+    path_back: Der Weg zur laufenden Installation
+    home: Administrationshandbuch
+    menu: Menü
+    nav_label: 'Navigation: Der Weg zur laufenden Installation'
+    foot_h: Weiterführende Informationen
+    foot_mentioned: Auf dieser Seite erwähnt
+    foot_further: Weiterführend
+    top: Zum Seitenanfang ^
+  en:
+    section: Introduction for administrators
+    stations_h: The stations
+    before_h: Before you start
+    terms_h: Terms of this station
+    more: "{name} in detail"
+    part_of: "Includes:"
+    other_lang: German
+    syn: What users call it
+    apart_detail: "Not to be confused with {other}:"
+    apart_station: "Not to be confused: {a} and {b}"
+    manual: Read in the manual
+    sophia: Ask Sophia
+    sophia_q: 'What is "{name}" in OpenOlat and how do I set it up?'
+    doors_h: Read up
+    try: Try it out
+    read: Read up
+    howto_prefix: "How-to:"
+    no_howto: There is no how-to for this station.
+    frentix: "frentix accompanies you in the setup with support and coaching:"
+    frentix_mail: support@frentix.com
+    deepen_h: Deepen once the installation is running
+    deepen_lead: >-
+      The installation is running. Now the things that did not matter while setting up pay off:
+      the terms of this station have parts and settings that control the installation more
+      precisely.
+    deepen_more: and more
+    deepen_attrs: "More on the page {link}."
+    deepen_none: This station has no deeper parts. The next station is waiting.
+    prev: back
+    next: next
+    path_back: The path to a running installation
+    home: Admin manual
+    menu: Menu
+    nav_label: 'Navigation: The path to a running installation'
+    foot_h: Further information
+    foot_mentioned: Mentioned on this page
+    foot_further: Further reading
+    top: To the top of the page ^

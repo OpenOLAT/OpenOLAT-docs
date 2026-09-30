@@ -79,7 +79,7 @@ Ein Inhaltsobjekt, das im Autorenbereich verwaltet wird: Kurs, Test, Formular, V
 
     **Wie Nutzende es nennen:** Kurs, Inhalt, Material, Lerninhalt, Ressource, Kursmaterial, Inhaltsressource
 
-    [Im Handbuch lesen](../../manual_admin/administration/Modules_Learning_Resource.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernressource%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernressource%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
 </div>
 
@@ -113,16 +113,14 @@ Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Lernressource:** [Formular](../learningresources/Form.de.md), [Test](../learningresources/Course_Element_Test.de.md), [Fragebogen](../learningresources/Course_Element_Survey.de.md), [Wiki](../learningresources/Course_Element_Wiki.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md).
+- **Lernressource:** [Formular](../learningresources/Form.de.md), [Test](../learningresources/Course_Element_Test.de.md), [Fragebogen](../learningresources/Course_Element_Survey.de.md), [Wiki](../learningresources/Course_Element_Wiki.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Der Weg zum ersten Kurs >](index.de.md)<br>
-[Planen >](planen.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
-[Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
+[Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Kursbaustein Test >](../learningresources/Course_Element_Test.de.md)<br>

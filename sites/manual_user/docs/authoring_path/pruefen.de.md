@@ -103,7 +103,7 @@ Das Urteil über die Leistung einer Person in einem bewertbaren Kursbaustein, au
 
     **Wie Nutzende es nennen:** Benotung, Punkte
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Assessment.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Assessment_of_learners.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
 </div>
 
@@ -239,7 +239,7 @@ Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: D
 
 - **Test:** [Test-Part](../learningresources/Configure_tests.de.md), [Betreuer:innen-Chat](../../manual_how-to/communication_during_exam/communication_during_exam.de.md), [Testversuch](../learningresources/Assessing_tests.de.md), [Zusätzliche Seite](../learningresources/Test_settings.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbaustein Test](../learningresources/Course_Element_Test.de.md).
 - **Fragenpool:** [Beurteilungsprozess](../area_modules/Question_Bank_Review_Process.de.md), [Freigaben](../area_modules/Question_Bank.de.md), [Liste](../area_modules/Question_bank_possible_operations.de.md). Alle Einstellungen stehen auf der Seite [Fragenpool: Übersicht](../area_modules/Question_Bank.de.md).
-- **Bewertung:** [Korrektur](../learningresources/Test_settings.de.md), [Bewertungsdokumente](../learningresources/The_assessment_form.de.md), [Freigabe Bewertung](../learningresources/The_assessment_form.de.md), Änderungsverlauf und weitere. Alle Einstellungen stehen auf der Seite [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md).
+- **Bewertung:** [Korrektur](../learningresources/Test_settings.de.md), [Bewertungsdokumente](../learningresources/The_assessment_form.de.md), [Freigabe Bewertung](../learningresources/The_assessment_form.de.md), Änderungsverlauf und weitere. Alle Einstellungen stehen auf der Seite [Lernende bewerten](../learningresources/Assessment_of_learners.de.md).
 - **Bewertungswerkzeug:** [Massenbewertung](../../manual_how-to/bulk_assessment/bulk_assessment.de.md), [Bewertungsformular](../learningresources/The_assessment_form.de.md), [Daten zurücksetzen](../learningresources/Assessment_tool_reset_data.de.md).
 - **Zertifikat:** [Zertifikatsvorlage](../learningresources/Course_Settings_Assessment_Certificate.de.md), [Rezertifizierung](../learningresources/Course_Settings_Assessment_Certificate.de.md). Alle Einstellungen stehen auf der Seite [Persönliche Erfolge/Leistungen: Zertifikate](../personal_menu/Certificates.de.md).
 - **Badge:** [Badge-Klasse](../learningresources/OpenBadges.de.md), [Vergebener Badge](../personal_menu/OpenBadges.de.md), [Vorlage](../../manual_admin/administration/e-Assessment_openBadges.de.md), [Vergabekriterien](../learningresources/OpenBadges.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Persönliche Erfolge/Leistungen: Badges](../personal_menu/OpenBadges.de.md).
@@ -247,12 +247,10 @@ Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: D
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Öffnen >](oeffnen.de.md)<br>
-[Auswerten >](auswerten.de.md)<br>
 [Kursbaustein Selbsttest >](../learningresources/Course_Element_Self_Test.de.md)<br>
 [Kursbaustein Test >](../learningresources/Course_Element_Test.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
-[Kursbaustein Bewertung >](../learningresources/Course_Element_Assessment.de.md)<br>
+[Lernende bewerten >](../learningresources/Assessment_of_learners.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../personal_menu/Certificates.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
