@@ -2,6 +2,15 @@ site_name: manual_user
 
 nav:
   - general/index.md
+  - Introduction for authors:
+    - authoring_path/index.md
+    - authoring_path/einrichten.md
+    - authoring_path/planen.md
+    - authoring_path/bauen.md
+    - authoring_path/steuern.md
+    - authoring_path/oeffnen.md
+    - authoring_path/pruefen.md
+    - authoring_path/auswerten.md
   - Basic concepts:
     - basic_concepts/index.md
     - Requirements:

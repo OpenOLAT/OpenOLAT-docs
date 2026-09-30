@@ -1,0 +1,376 @@
+# Kuratierte Ansicht «Der Weg zum ersten Kurs» (Autorenweg) für das Benutzerhandbuch.
+#
+# Quelle der Seiten unter sites/manual_user/docs/authoring_path/. Die Seiten werden von
+# bin/gen_authoring_path.py geschrieben, nie von Hand. Diese Datei trägt nur, was die
+# Ansicht selbst festlegt: Reihenfolge der Stationen, Stationstexte (DE und EN), welche
+# Begriffe zu welcher Station gehören, die Türen (How-to und Handbuchseite) und welche
+# Verwechslungspaare gezeigt werden.
+#
+# Alles andere kommt aus der OpenOlat Concept Map (map.json, nur lesend): Begriff DE/EN,
+# Art, Beschreibung DE/EN, Synonyme, Handbuchseite, Wortlaut der Verwechslungshinweise,
+# tiefere Teile (part_of). Ein Schlüssel, der in der Map fehlt, bricht den Lauf ab.
+#
+# Pfade:
+#   howto.path / read.path : relativ zu sites/, ohne Sprachendung (.md / .de.md)
+#   howto.anchor           : explizite Anker-ID der How-to-Seite, wird geprüft
+#   further                : Seiten für den Block «Weiterführend» der Fussliste, relativ zu sites/,
+#                            ohne Sprachendung; im Seitentext schon verlinkte Seiten entfallen dort
+
+view:
+  id: autorenweg
+  de: Der Weg zum ersten Kurs
+  en: The path to your first course
+  lead_de: >-
+    Sieben Stationen führen von der Rolle Autor:in bis zur Auswertung des laufenden Kurses.
+    Die Reihenfolge folgt dem Lebenszyklus eines Kurses. Jede Station erklärt ihre Begriffe,
+    zeigt, was leicht verwechselt wird, und öffnet zwei Türen: ausprobieren und nachlesen.
+  lead_en: >-
+    Seven stations lead from the Author role to the evaluation of the running course. The
+    order follows the lifecycle of a course. Each station explains its terms, shows what is
+    easily confused, and opens two doors: try it out and read up.
+  phases_de:
+    - [Wissen, Sie sind hier]
+    - [Anwenden, mit frentix oder mit dem How-to «Mein erster Kurs»]
+    - [Vertiefen, wenn der erste Kurs läuft]
+  phases_en:
+    - [Knowledge, you are here]
+    - [Apply, with frentix or with the how-to «My first course»]
+    - [Deepen, once the first course is running]
+  hint_de: Klicken Sie eine Station an. Die Reihenfolge ist eine Empfehlung, kein Zwang.
+  hint_en: Click a station. The order is a recommendation, not a rule.
+  before_de: >-
+    Sie brauchen die Rolle Autor:in. Mit ihr erscheint der Autorenbereich in der Hauptnavigation.
+    Wer die Rolle vergibt, steht in der Station {einrichten}.
+  before_en: >-
+    You need the Author role. With it, Authoring appears in the main navigation. Who assigns the role
+    is explained in the station {einrichten}.
+
+stations:
+  - id: einrichten
+    de: Einrichten
+    en: Set up
+    sub_de: Rolle und Ort
+    sub_en: Role and place
+    desc_de: >-
+      Bevor Sie bauen, brauchen Sie die Rolle Autor:in. Mit ihr erscheint der Autorenbereich
+      in der Hauptnavigation. Alles, was Sie dort erstellen, ist eine Lernressource.
+    desc_en: >-
+      Before you build, you need the Author role. With it, Authoring appears in the main navigation.
+      Everything you create there is a learning resource.
+    items:
+      - key: roles.role_author
+      - key: platform.area_authoring
+      - key: resources.learning_resource
+    howto:
+      path: manual_how-to/docs/my_first_course/my_first_course
+      anchor: get_author_rights
+      de: Autorenrechte und Autorenbereich
+      en: Author rights and Authoring
+    read:
+      path: manual_user/docs/area_modules/Authoring
+      de: Autorenbereich
+      en: Authoring
+    further:
+      - manual_user/docs/basic_concepts/Roles_Rights
+      - manual_user/docs/area_modules/authoring_new_course
+      - reference_glossary/docs/glossary
+
+  - id: planen
+    de: Planen
+    en: Plan
+    sub_de: Kurs anlegen
+    sub_en: Create the course
+    desc_de: >-
+      Sie legen den Kurs an und treffen die eine Entscheidung, die alles Weitere prägt:
+      Lernpfadkurs oder herkömmlicher Kurs. Der Kursstatus sagt, in welcher Phase der Kurs
+      steht.
+    desc_en: >-
+      You create the course and make the one decision that shapes everything else: learning
+      path course or conventional course. The course status tells you which phase the course
+      is in.
+    items:
+      - key: course.course
+      - key: course.course_design
+        kids: [course.learning_path_course, course.conventional_course]
+      - key: course.course_status
+    howto:
+      path: manual_how-to/docs/my_first_course/my_first_course
+      anchor: create_course
+      de: Neuen Kurs erstellen und einstellen
+      en: Create and set up a new course
+    read:
+      path: manual_user/docs/learningresources/Creating_Course
+      de: Kurs erstellen
+      en: Create a course
+    further:
+      - manual_user/docs/learningresources/Course_Settings
+      - reference_glossary/docs/glossary
+
+  - id: bauen
+    de: Bauen
+    en: Build
+    sub_de: Inhalt zusammensetzen
+    sub_en: Assemble the content
+    desc_de: >-
+      Im Kurseditor setzen Sie Kursbausteine zusammen. Seiten schreiben Sie im Content Editor,
+      Medien liegen im Media Center, Dateien im Ablageordner. Erst Publizieren macht
+      Änderungen für Teilnehmende sichtbar.
+    desc_en: >-
+      In the course editor you put course elements together. You write pages in the Content
+      editor, media are kept in the Media Center, files in the storage folder. Only publishing
+      makes changes visible to participants.
+    items:
+      - key: course.course_editor
+      - key: course.course_element
+        kids: [course.el_st, course.el_cepage, course.el_sp, course.el_bc, course.el_fo, tasks.task, course.el_ms]
+      - key: authoring.content_editor
+      - key: authoring.media_center
+      - key: course.storage_folder
+      - key: course.publish_action
+    howto:
+      path: manual_how-to/docs/my_first_course/my_first_course
+      anchor: add_course_elements
+      de: Kursbausteine hinzufügen und publizieren
+      en: Add course elements and publish
+    read:
+      path: manual_user/docs/learningresources/Course_Elements
+      de: Kursbausteine
+      en: Course elements
+    further:
+      - manual_user/docs/learningresources/General_Configuration_of_Course_Elements
+      - reference_glossary/docs/glossary
+
+  - id: steuern
+    de: Steuern
+    en: Control
+    sub_de: Wer sieht was, wann
+    sub_en: Who sees what, when
+    desc_de: >-
+      Im Lernpfadkurs steuert der Lernpfad: Durchführung, Erledigungskriterium und Abfolge der
+      Lernschritte.
+      Im herkömmlichen Kurs steuert die Bedingung: Sichtbarkeit und Zugang je Kursbaustein.
+    desc_en: >-
+      In a learning path course, the learning path is in control: execution, completion
+      criterion and sequence of steps. In a conventional course, the condition is in control:
+      visibility and access per course element.
+    items:
+      - key: course.learning_path
+        kids: [course.obligation, course.completion_criterion, course.sequence]
+      - key: course.condition
+        kids: [course.visibility, course.element_access]
+    howto: null
+    read:
+      path: manual_user/docs/learningresources/Learning_path_course
+      de: Lernpfadkurs
+      en: Learning path course
+    further:
+      - manual_user/docs/learningresources/Creating_Course
+      - reference_glossary/docs/glossary
+
+  - id: oeffnen
+    de: Öffnen
+    en: Open
+    sub_de: Zugang und Mitglieder
+    sub_en: Access and members
+    desc_de: >-
+      Der Kurs bekommt Mitglieder und einen Zugang: über die Zugangskonfiguration, ein Angebot
+      im Katalog oder eine Gruppe. Drei Kursrollen teilen die Arbeit auf.
+    desc_en: >-
+      The course gets members and a way in: through the access configuration, an offer in the
+      catalog or a group. Three course roles share the work.
+    items:
+      - key: course.access_configuration
+      - key: catalog.offer
+      - key: catalog.catalog
+      - key: collaboration.group
+      - key: roles.owner
+      - key: roles.coach
+      - key: roles.participant
+    howto:
+      path: manual_how-to/docs/my_first_course/my_first_course
+      anchor: add_members
+      de: Mitglieder hinzufügen und Kurs veröffentlichen
+      en: Add members and publish the course
+    read:
+      path: manual_user/docs/learningresources/Access_configuration
+      de: Zugangskonfiguration
+      en: Access configuration
+    further:
+      - manual_user/docs/learningresources/Offer_Types
+      - reference_glossary/docs/glossary
+
+  - id: pruefen
+    de: Prüfen
+    en: Assess
+    sub_de: Leistung messen
+    sub_en: Measure performance
+    desc_de: >-
+      Tests messen Wissen, Selbsttests dienen der Übung. Das Bewertungswerkzeug sammelt die
+      Resultate, der Leistungsnachweis fasst sie dauerhaft zusammen. Zertifikat und Badge
+      bescheinigen.
+    desc_en: >-
+      Tests measure knowledge, self-tests are for practice. The assessment tool collects the
+      results, the evidence of achievement sums them up permanently. Certificate and badge
+      attest them.
+    items:
+      - key: testing.test
+      - key: testing.self_test
+      - key: testing.question_bank
+      - key: assessment.assessment
+      - key: assessment.assessment_tool
+      - key: evidence.evidence_of_achievement
+      - key: evidence.certificate
+      - key: evidence.badge
+    howto:
+      path: manual_how-to/docs/test_creation_procedure/test_creation_procedure
+      anchor: null
+      de: Wie gehe ich vor, wenn ich einen Test erstelle?
+      en: How do I proceed when I create a test?
+    read:
+      path: manual_user/docs/learningresources/Course_Element_Test
+      de: Kursbaustein Test
+      en: Course element Test
+    further:
+      - manual_user/docs/learningresources/Course_Settings_Assessment
+      - manual_user/docs/learningresources/Test_question_types
+      - reference_glossary/docs/glossary
+
+  - id: auswerten
+    de: Auswerten
+    en: Evaluate
+    sub_de: Wie läuft der Kurs
+    sub_en: How the course is doing
+    desc_de: >-
+      Kurs Statistiken und Test Statistiken zeigen, wie der Kurs läuft. Kurserinnerungen holen
+      Teilnehmende zurück, die stehen geblieben sind.
+    desc_en: >-
+      Course statistics and test statistics show how the course is doing. Course reminders
+      bring back participants who have got stuck.
+    items:
+      - key: course.course_statistics
+      - key: testing.test_statistics
+      - key: course.course_reminder
+    howto:
+      path: manual_how-to/docs/progress_information/progress_information
+      anchor: null
+      de: Über den Lernfortschritt informiert werden
+      en: Stay informed about learning progress
+    read:
+      path: manual_user/docs/learningresources/Statistics_Course
+      de: Kurs Statistiken
+      en: Course statistics
+    further:
+      - manual_user/docs/learningresources/Assessment_tool_overview
+      - reference_glossary/docs/glossary
+
+# Verwechslungspaare. Der Wortlaut kommt aus der Map (keep_apart, why / why_en); ein Paar
+# ohne Kante in der Map bricht den Lauf ab. Auf der Station erscheint ein Paar, wenn beide
+# Begriffe zur Station gehören; im Detail eines Begriffs jedes Paar, an dem er beteiligt ist.
+apart:
+  - [course.learning_path_course, course.conventional_course]
+  - [course.visibility, course.element_access]
+  - [testing.test, testing.self_test]
+  - [evidence.evidence_of_achievement, evidence.certificate]
+  - [evidence.certificate, evidence.badge]
+  - [roles.owner, roles.coach]
+  - [course.storage_folder, course.resource_folder]
+  - [course.exception, course.condition]
+
+# Tiefere Teile (part_of der Map), die im Abschnitt «Vertiefen» nicht erscheinen, weil sie im
+# Kontext des Autorenwegs falsch oder veraltet sind (Befund an die Map gemeldet):
+#   course.partial_elements  Reiter der Themenvergabe und der alten Aufgabe, kein Teil des Kursbausteins
+#   catalog.catalog_admin    Katalogverwaltung des Katalogs 1.0, veraltet
+#   authoring.content_element Begriff ohne i18n-Beleg
+#   course.course_lifecycle  Begriff ohne i18n-Beleg, Seite der System-Administration
+deep_exclude:
+  - course.partial_elements
+  - catalog.catalog_admin
+  - authoring.content_element
+  - course.course_lifecycle
+
+# Art des Begriffs (kind der Map) als Etikett der Begriffskarte
+kind:
+  de: {concept: Begriff, role: Rolle, module: Modul, area: Bereich, site: Bereich, tool: Werkzeug, element: Kursbaustein,
+       resource: Lernressource, attribute: Einstellung, action: Aktion}
+  en: {concept: Concept, role: Role, module: Module, area: Area, site: Area, tool: Tool, element: Course element,
+       resource: Learning resource, attribute: Setting, action: Action}
+
+# Seitentexte der generierten Seiten
+ui:
+  de:
+    section: Einführung für Autor:innen
+    stations_h: Die Stationen
+    before_h: Bevor Sie beginnen
+    terms_h: Begriffe dieser Station
+    more: "{name} im Detail"
+    part_of: "Gehört dazu:"
+    other_lang: Englisch
+    syn: Wie Nutzende es nennen
+    apart_detail: "Nicht verwechseln mit {other}:"
+    apart_station: "Nicht verwechseln: {a} und {b}"
+    manual: Im Handbuch lesen
+    sophia: Sophia fragen
+    sophia_q: 'Was ist "{name}" in OpenOlat und wie verwende ich es?'
+    doors_h: Zwei Türen
+    try: Ausprobieren
+    read: Nachlesen
+    howto_prefix: "How-to:"
+    no_howto: Zu dieser Station gibt es noch kein How-to.
+    frentix: "Mit frentix: in der Schulung zeigen wir es."
+    frentix_mail: support@frentix.com
+    deepen_h: Vertiefen, wenn der erste Kurs läuft
+    deepen_lead: >-
+      Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die
+      Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
+    deepen_more: und weitere
+    deepen_attrs: "Alle Einstellungen stehen auf der Seite {link}."
+    deepen_none: Diese Station hat keine tieferen Teile. Die nächste Station wartet.
+    prev: zurück
+    next: weiter
+    path_back: Der Weg zum ersten Kurs
+    home: Benutzerhandbuch
+    menu: Menü
+    nav_label: 'Navigation: Der Weg zum ersten Kurs'
+    foot_h: Weiterführende Informationen
+    foot_mentioned: Auf dieser Seite erwähnt
+    foot_further: Weiterführend
+    top: Zum Seitenanfang ^
+  en:
+    section: Introduction for authors
+    stations_h: The stations
+    before_h: Before you start
+    terms_h: Terms of this station
+    more: "{name} in detail"
+    part_of: "Includes:"
+    other_lang: German
+    syn: What users call it
+    apart_detail: "Not to be confused with {other}:"
+    apart_station: "Not to be confused: {a} and {b}"
+    manual: Read in the manual
+    sophia: Ask Sophia
+    sophia_q: 'What is "{name}" in OpenOlat and how do I use it?'
+    doors_h: Two doors
+    try: Try it out
+    read: Read up
+    howto_prefix: "How-to:"
+    no_howto: There is no how-to for this station yet.
+    frentix: "With frentix: we show you in the training."
+    frentix_mail: support@frentix.com
+    deepen_h: Deepen once the first course is running
+    deepen_lead: >-
+      The first course is in place. Now the things that did not matter while building pay
+      off: the terms of this station have parts and settings that control the course more
+      precisely.
+    deepen_more: and more
+    deepen_attrs: "All settings are on the page {link}."
+    deepen_none: This station has no deeper parts. The next station is waiting.
+    prev: back
+    next: next
+    path_back: The path to your first course
+    home: User manual
+    menu: Menu
+    nav_label: 'Navigation: The path to your first course'
+    foot_h: Further information
+    foot_mentioned: Mentioned on this page
+    foot_further: Further reading
+    top: To the top of the page ^
