@@ -13,7 +13,7 @@ Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:
 
   *  **Modul "BigBlueButton":** Aktivierung der Funktionalität
   *  **Aktivieren für:** Freischaltung der Funktionalität einzeln für Kursbaustein "BigBlueButton", Kurs Termine [:octicons-tag-16:{ title="ab Release 20.0.1 (OO-8237)" }](https://track.frentix.com/issue/OO-8237), Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat
-  *  **Online-Termine ohne Datum:** Zusätzliche Möglichkeit neben Online-Terminen auch "permanente Raumreservationen" ohne Datum freizuschalten. Diese sind im Kalender nicht ersichtlich und zählen zu jedem Zeitpunkt in den Limiten der Raumvorlage als belegt.
+  *  **Online-Termine ohne Datum:** Zusätzliche Möglichkeit neben Online-Terminen auch permanente Reservierungen ohne Datum freizuschalten. Diese sind im Kalender nicht ersichtlich und zählen zu jedem Zeitpunkt in den Limiten der Raumvorlage als belegt.
   *  **Profilbild übernehmen:** Das Profilbild aus dem OpenOlat-Benutzerprofil wird im Online-Termin als Avatar angezeigt. Gäste und Benutzer:innen ohne Profilbild erhalten keinen Avatar [:octicons-tag-16:{ title="ab Release 16.0 (OO-5435)" }](https://track.frentix.com/issue/OO-5435)
   *  **Server:** In der Konfiguration werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz eingetragen.
   *  **Button "Server hinzufügen":** [Details siehe unten >](#add_server)
@@ -23,7 +23,7 @@ Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:
   *  **Online-Termine automatisch löschen:** x Tage nach Termin-Ende
   *  **Limit aller Präsentationsdateien pro Meeting (MB):** Pflichtfeld mit Angabe erlaubter Megabyte
 
-![Freischaltung je Einsatzort, Serverliste, Aufzeichnungen Handler und Löschfrist der Online-Termine; Tab Konfiguration im Modul BigBlueButton](assets/bbb_admin_config_v1_de.png){ class="shadow lightbox" }
+![Freischaltung je Einsatzort, Serverliste, Aufzeichnungen Handler und Löschfrist der Online-Termine](assets/bbb_admin_config_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul BigBlueButton" }
 
 
 ### BigBlueButton-Server hinzufügen {: #add_server}
@@ -37,7 +37,7 @@ Mit Klick auf den Button "Server hinzufügen" im Tab "Konfiguration" öffnen Sie
   *  **Nur manuelle Auswahl:** Der Server nimmt nur Online-Termine auf, für die er von Hand ausgewählt wurde
   *  **Button "Serververbindung testen":** Prüft den Zugriff auf den hier angegebenen Server.
 
-![API URL und Shared secret sind Pflicht, Serververbindung testen prüft die Angaben vor dem Speichern; Dialog Server hinzufügen](assets/bbb_admin_add_server_v1_de.png){ class="shadow lightbox" }
+![API URL und Shared secret sind Pflicht, Serververbindung testen prüft die Angaben vor dem Speichern](assets/bbb_admin_add_server_v1_de.png){ class="shadow lightbox" title="Dialog Server hinzufügen" }
 
 
 ---
@@ -46,7 +46,7 @@ Mit Klick auf den Button "Server hinzufügen" im Tab "Konfiguration" öffnen Sie
 
 Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz angezeigt.
 
-![Je Server Kapazität und aktuelle Last, der Filter trennt dieses OpenOlat von allen OpenOlats; Tab Server im Modul BigBlueButton](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
+![Je Server Kapazität und aktuelle Last, der Filter trennt dieses OpenOlat von allen OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" title="Tab Server im Modul BigBlueButton" }
 
 
 ### Verteilung auf die Server [:octicons-tag-16:{ title="ab Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
@@ -72,7 +72,7 @@ Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswah
 
 Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die mitgelieferten Systemvorlagen (Spalte "System") lassen sich bearbeiten, aber nicht löschen.
 
-![Je Vorlage Räume, Teilnehmer:innen und Dauer, Systemvorlagen ohne Löschen-Link; Tab Raumvorlagen im Modul BigBlueButton](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
+![Je Vorlage Räume, Teilnehmer:innen und Dauer, Systemvorlagen ohne Löschen-Link](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" title="Tab Raumvorlagen im Modul BigBlueButton" }
 
 
 ### Konfiguration Raumvorlage {: #room_config}
@@ -90,17 +90,17 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
      * Nur Gäste und externe Benutzer:innen (Nur der Zutritt von Gästen und externen Benutzer:innen muss bestätigt werden.)
   *  **Raumvorlage aktiviert für:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) verwendet und weiter konfiguriert werden.
 
-![Raumname, Teilnehmer:innen und Dauer bestimmen den Raum, die Liste unten gibt die Vorlage je Rolle frei; Formular der Raumvorlage](assets/bbb_admin_room-template_config_v1_de.png){ class="shadow lightbox" }
+![Raumname, Teilnehmer:innen und Dauer bestimmen den Raum, die Liste unten gibt die Vorlage je Rolle frei](assets/bbb_admin_room-template_config_v1_de.png){ class="shadow lightbox" title="Formular der Raumvorlage" }
 
 
 ### Voreinstellungen der Raumvorlage
 
-![Je Verhalten eine Ja-Nein-Wahl, von Moderatorenkamera bis zum automatischen Sperren beim Eintritt; Voreinstellungen im Formular der Raumvorlage](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" }
+![Je Verhalten eine Ja-Nein-Wahl, von Moderatorenkamera bis zum automatischen Sperren beim Eintritt](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" title="Voreinstellungen im Formular der Raumvorlage" }
 
 
 ### Voreinstellungen für gesperrte Teilnehmer:innen
 
-![Sieben Ja-Nein-Wahlen legen fest, was die Sperre abschaltet, von Kamera bis Layoutanpassung; Abschnitt Für gesperrte Teilnehmer:innen im Formular der Raumvorlage](assets/bbb_admin_room-template_default_locked_participants_v1_de.png){ class="shadow lightbox" }
+![Sieben Ja-Nein-Wahlen legen fest, was die Sperre abschaltet, von Kamera bis Layoutanpassung](assets/bbb_admin_room-template_default_locked_participants_v1_de.png){ class="shadow lightbox" title="Abschnitt Für gesperrte Teilnehmer:innen im Formular der Raumvorlage" }
 
 
 ---
@@ -109,7 +109,7 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
 
 Übersicht der konfigurierten Online-Termine mit der Möglichkeit, direkt in den Kurs oder die Gruppe (Kontext) zu wechseln oder den Online-Termin zu löschen. Über die Suche finden Sie gezielt einzelne BigBlueButton-Räume, markieren sie und löschen sie bei Bedarf gesammelt.
 
-![Alle Online-Termine der Instanz mit Raumvorlage, Server und Kontext, Suchfeld und Mehrfachauswahl zum Löschen; Tab Online-Termine im Modul BigBlueButton](assets/bbb_admin_online-meetings_v1_de.png){ class="shadow lightbox" }
+![Alle Online-Termine der Instanz mit Raumvorlage, Server und Kontext, Suchfeld und Mehrfachauswahl zum Löschen](assets/bbb_admin_online-meetings_v1_de.png){ class="shadow lightbox" title="Tab Online-Termine im Modul BigBlueButton" }
 
 
 ---
@@ -118,7 +118,7 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
 
 Kalenderübersicht über alle erfassten Online-Termine, um Zeiten mit hoher Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
-![Alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr; Tab Kalender im Modul BigBlueButton](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" }
+![Alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" title="Tab Kalender im Modul BigBlueButton" }
 
 
 ---

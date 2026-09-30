@@ -13,7 +13,7 @@ Instructions on how to configure individual online meetings for course owners ar
 
   *  **Module "BigBlueButton":** Activation of the functionality
   *  **Activate for:** Activation of the functionality individually for course element "BigBlueButton", course events [:octicons-tag-16:{ title="from Release 20.0.1 (OO-8237)" }](https://track.frentix.com/issue/OO-8237), course element "Appointment scheduling", groups and supervisor chat
-  *  **Online-Meetings without date:** Additional option to activate "permanent room reservations" without a date in addition to online meetings. These are not visible in the calendar and count as booked at any time in the limits of the room template.
+  *  **Online-Meetings without date:** Additional option to activate permanent reservations without a date in addition to online meetings. These are not visible in the calendar and count as booked at any time in the limits of the room template.
   *  **Import profile picture:** The profile picture from the OpenOlat user profile is shown as an avatar in the online meeting. Guests and users without a profile picture get no avatar [:octicons-tag-16:{ title="from Release 16.0 (OO-5435)" }](https://track.frentix.com/issue/OO-5435)
   *  **Servers:** In the configuration the available BigBlueButton servers per OpenOlat instance are entered.
   *  **Button "Add server":** [see below for details >](#add_server)
@@ -23,7 +23,7 @@ Instructions on how to configure individual online meetings for course owners ar
   *  **Delete meetings automatically:** x days after meeting end
   *  **Limit of all presentation files per meeting (MB):** Mandatory field with specification of permitted megabytes
 
-![Activation per area, server list, recording handler and deletion period of the online meetings; Configuration tab in the BigBlueButton module](assets/bbb_admin_config_v1_en.png){ class="shadow lightbox" }
+![Activation per area, server list, recording handler and deletion period of the online meetings](assets/bbb_admin_config_v1_en.png){ class="shadow lightbox" title="Configuration tab in the BigBlueButton module" }
 
 
 ### Add BigBlueButton server {: #add_server}
@@ -37,7 +37,7 @@ Click on the "Add server" button in the "Configuration" tab to open a pop-up for
   *  **Manual selection only:** The server only takes online meetings for which it was selected by hand
   *  **Button "Check server connection":** Checks the access to the server specified here.
 
-![API URL and shared secret are mandatory, Check server connection verifies the entries before saving; Add server dialog](assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" }
+![API URL and shared secret are mandatory, Check server connection verifies the entries before saving](assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" title="Add server dialog" }
 
 
 ---
@@ -46,7 +46,7 @@ Click on the "Add server" button in the "Configuration" tab to open a pop-up for
 
 The available BigBlueButton servers per OpenOlat instance are displayed here.
 
-![Per server capacity and current load, the filter separates this OpenOlat from all OpenOlats; Servers tab in the BigBlueButton module](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" }
+![Per server capacity and current load, the filter separates this OpenOlat from all OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" title="Servers tab in the BigBlueButton module" }
 
 
 ### Distribution across the servers [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
@@ -72,7 +72,7 @@ The room templates are available for selection when creating a new online meetin
 
 Use the "New room template" button to create a new room template. The system templates delivered with OpenOlat (column "System") can be edited but not deleted.
 
-![Per template rooms, participants and duration, system templates without Delete link; Room-templates tab in the BigBlueButton module](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" }
+![Per template rooms, participants and duration, system templates without Delete link](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" title="Room-templates tab in the BigBlueButton module" }
 
 
 ### Configuration of a room template {: #room_config}
@@ -90,17 +90,17 @@ Use the "New room template" button to create a new room template. The system tem
      * Only guests and external users (Only the entry of guests and external users must be confirmed.)
   *  **Room-template activated for:** Determines which roles can use the room template for new online meetings. If the "Group user" option is activated, the template can also be used and further configured in OpenOlat [groups](../../manual_user/groups/Using_Group_Tools.md).
 
-![Room name, participants and duration define the room, the list at the bottom releases the template per role; room template form](assets/bbb_room_template.png){ class="shadow lightbox" }
+![Room name, participants and duration define the room, the list at the bottom releases the template per role](assets/bbb_room_template.png){ class="shadow lightbox" title="Room template form" }
 
 
 ### Default settings of the room template
 
-![Each behaviour is a yes-no choice, from webcams only for moderators to lock mode on join; default settings in the room template form](assets/edit-room-template-2.png){ class="shadow lightbox" }
+![Each behaviour is a yes-no choice, from webcams only for moderators to lock mode on join](assets/edit-room-template-2.png){ class="shadow lightbox" title="Default settings in the room template form" }
 
 
 ### Default settings for locked participants
 
-![Seven yes-no choices set what the lock disables, from webcam to layout changes; section For locked participants in the room template form](assets/edit-room-template-3.png){ class="shadow lightbox" }
+![Seven yes-no choices set what the lock disables, from webcam to layout changes](assets/edit-room-template-3.png){ class="shadow lightbox" title="Section For locked participants in the room template form" }
 
 
 ---
@@ -109,7 +109,7 @@ Use the "New room template" button to create a new room template. The system tem
 
 Overview of the configured online meetings with the possibility to switch directly to the course or the group (context) or to delete the online meeting. Use the search to find specific BigBlueButton rooms, mark them and delete them in bulk if necessary.
 
-![All online meetings of the instance with room template, server and context, search field and multiple selection for deletion; Online-meetings tab in the BigBlueButton module](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" }
+![All online meetings of the instance with room template, server and context, search field and multiple selection for deletion](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" title="Online-meetings tab in the BigBlueButton module" }
 
 
 ---
@@ -118,7 +118,7 @@ Overview of the configured online meetings with the possibility to switch direct
 
 Calendar overview of all recorded online meetings to check times with high occupancy and to display overlaps graphically.
 
-![All online meetings of the instance in the week view, switchable to month, day and year; Calendar tab in the BigBlueButton module](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" }
+![All online meetings of the instance in the week view, switchable to month, day and year](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" title="Calendar tab in the BigBlueButton module" }
 
 
 ---
