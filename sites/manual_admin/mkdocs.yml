@@ -71,6 +71,7 @@ nav:
     - External tools :
       - Overview : "administration/External_Tools_-_Administration.md"
       - BigBlueButton module: "administration/BigBlueButton_module.md"
+      - Microsoft Teams module: "administration/Teams_module.md"
       - SharePoint / OneDrive: "administration/SharePoint_OneDrive.md"
       - Zoom integration: "administration/Zoom.md"
       - LTI 1.3 Integrations: 

@@ -18,7 +18,7 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 | :o_icon_o_ep_icon: | Portfolio |  | Nutzen Sie das Portfolio, um gemeinsam eine Sammelmappe zu erstellen und Einträge hinzuzufügen. |
 | ![Symbol OpenMeetings](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Nutzen Sie OpenMeetings zur Online Kommunikation und Kollaboration in virtuellen Räumen. |
 | ![Symbol BigBlueButton](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Nutzen Sie BigBluebutton zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Freigabe der Raumvorlagen können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Meetings für gemeinsame Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach Meeting-Ende für einen weiteren Zugriff bereit. Die Funktionalität ist im [Kursbaustein BigBlueButton](../learningresources/bigbluebutton/index.de.md) näher beschrieben. |
-| ![Symbol Microsoft Teams](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Nutzen Sie MS Teams zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Konfiguration durch den/die Gruppenbetreuer:in können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Meetings für gemeinsame Online-Session anlegen. |
+| ![Symbol Microsoft Teams](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Nutzen Sie MS Teams zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Konfiguration durch den/die Gruppenbetreuer:in können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Online-Termine anlegen. Ob dabei auch permanente Reservierungen ohne Datum zur Wahl stehen, legt die System-Administration fest [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). Die Funktionalität ist im [Kursbaustein "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.de.md) näher beschrieben. |
 
 !!! info ""
 
@@ -53,6 +53,7 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 [Zum Seitenanfang ^](#group_tools)

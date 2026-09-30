@@ -2,6 +2,12 @@
 
 Im Menü "Externe Werkzeuge" schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Das Menü liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
 
+## Steckbrief
+
+Name | Externe Werkzeuge
+---------|----------
+Verfügbar seit | Release 10.5 (2016)
+
 
 ## BigBlueButton {: #bbb}
 
@@ -22,9 +28,7 @@ In der System-Administration konfigurieren Sie das OpenMeetings-Modul und schalt
 
 Geben Sie im Tab "Konfiguration" die "URL OpenMeetings Server" ein, sowie den zuvor in OpenMeetings angelegten "Web Service Anmeldename" und das zugehörige "Web Service Passwort". Speichern Sie die Daten anschliessend und drücken Sie die Schaltfläche "Serververbindung testen" um die Zugangsdaten zu überprüfen.
 
-Wenn das Modul eingeschaltet und die Zugangsdaten zum OpenMeetings-
-Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-
-Räume erzeugt und genutzt werden:
+Wenn das Modul eingeschaltet und die Zugangsdaten zum OpenMeetings-Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-Räume erzeugt und genutzt werden:
 
   * In Kursen mit dem Kursbaustein OpenMeetings. Jeder Kursbaustein erzeugt einen entsprechenden Raum auf dem OpenMeetings-Server.
   * In Gruppen mit dem Gruppenwerkzeug OpenMeetings. Jede Gruppe hat ihren eigenen OpenMeetings-Raum zur Verfügung der wie alle anderen Gruppenwerkzeuge verwendet werden kann.
@@ -48,12 +52,12 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 ## Microsoft Teams [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
-Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
+Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppen entstehen damit Online-Termine, zu denen die Teilnehmenden direkt aus OpenOlat beitreten. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
 
 **Voraussetzungen für die Aktivierung:**
 
 * Ein Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen.
-* Die Zugangsdaten zum Tenant (Application (client) ID, Client secret, Tenant GUID) werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt. Bei gehosteten Instanzen übernimmt dies der frentix Support.
+* Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt. Bei gehosteten Instanzen übernimmt dies der frentix Support.
 
 **Voraussetzungen für die Nutzung:**
 
@@ -62,13 +66,9 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. Nach der Aktivierung
 **Konfiguration in der System-Administration** unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
-* Modul "Microsoft Teams" aktivieren.
-* Unter "Aktivieren für" festlegen, wo Microsoft Teams verwendet werden darf: Kursbaustein "Microsoft Teams", Kurs Termine, Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat.
-
-Zusätzlich stehen dort die Tabs "Online-Termine" (Übersicht aller Termine der Instanz) und "Kalender" (Raumbuchungen) zur Verfügung.
-
 Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
 
+[Zu den Details >](Teams_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -320,5 +320,14 @@ Mehr Informationen zu AthenaPDF finden Sie unter
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
 Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md). 
+
+[Zum Seitenanfang ^](#ext_tools)
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Weiterführend**<br>
+[Module: Übersicht >](Modules.de.md)<br>
+[Virtuelle Klassenzimmer >](../../manual_user/basic_concepts/Virtual_classrooms.de.md)
 
 [Zum Seitenanfang ^](#ext_tools)
