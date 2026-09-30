@@ -212,7 +212,7 @@ Basiskonfiguration vorgenommen sowie Termine eingetragen.
 Termine dieser Abstimmung hinzufügen.  Auch können bereits angelegte Termine
 über den Drei-Punkte-Link wieder überarbeitet werden.
 
-![Geöffnetes Dropdown-Menü Termin hinzufügen mit den Optionen Start/Ende, Start/Dauer und Wiederkehrende Termine, darunter ein bereits eingetragener Online-Termin](assets/Termin_hinzufuegen.jpg){ class="shadow lightbox" title="Terminliste eines Anlasses, Menü Termin hinzufügen" }
+![Geöffnetes Dropdown-Menü Termin hinzufügen mit den Optionen Start/Ende, Start/Dauer und Wiederkehrende Termine, darunter ein bereits eingetragener Online-Termin](assets/Termin_hinzufuegen.jpg){ class="shadow lightbox" title="Termine eines Anlasses, Menü Termin hinzufügen" }
 
 ### Termine: erstellen & bearbeiten
 
@@ -272,20 +272,20 @@ dupliziert oder gelöscht** werden. Auch kann der Teilnehmerkreis für den Anlas
 auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für
 einen Anlass ist ebenfalls möglich.
 
-![Liste der Anlässe Diskussionsrunde und Besprechung, beim ersten Anlass geöffnetes Zahnrad-Menü mit Anlass bearbeiten, Teilnehmerkreis, Teilnehmer exportieren, Anlass duplizieren und Löschen](assets/Terminplanung_anlass.jpg){ class="shadow lightbox" title="Anlassliste im Kursbaustein Terminplanung" }
+![Liste der Anlässe Diskussionsrunde und Besprechung, beim ersten Anlass geöffnetes Zahnrad-Menü mit Anlass bearbeiten, Teilnehmerkreis, Teilnehmer exportieren, Anlass duplizieren und Löschen](assets/Terminplanung_anlass.jpg){ class="shadow lightbox" title="Anlässe im Kursbaustein Terminplanung" }
 
 Die konkreten Termine von bereits angelegten Terminplanungen können über den
 Link "Termine anzeigen" näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen
 editiert werden. Sie können hier Teilnehmende hinzufügen, löschen, umbuchen,
 die Beschreibung anpassen, Termine ändern oder Termine bestätigen.
 
-![Liste zweier Online-Termine mit je 10 freien Plätzen, beim ersten Termin geöffnetes Drei-Punkte-Menü mit den Einträgen "Termin bearbeiten", "Benutzer hinzufügen" und "Löschen"](assets/Terminfindung_punkte.jpg){ class="shadow lightbox" title="Terminliste eines Anlasses, Menü eines Termins" }
+![Liste zweier Online-Termine mit je 10 freien Plätzen, beim ersten Termin geöffnetes Drei-Punkte-Menü mit den Einträgen "Termin bearbeiten", "Benutzer hinzufügen" und "Löschen"](assets/Terminfindung_punkte.jpg){ class="shadow lightbox" title="Termine eines Anlasses, Menü eines Termins" }
 
 Teilnehmende können über den Link "**Termine auswählen**" bzw. "**Eintragen**" die
 gewünschten Termine sehen und auswählen. Wurde ein Termin bestätigt, ist das
 ebenfalls sichtbar.
 
-![Einschreibungsseite mit drei Terminen, dem bereits gebuchten und markierten Termin mit Status Geplant und Button Austragen, den übrigen mit Button Eintragen](assets/Einschreibung.png){ class="shadow lightbox" title="Einschreibungsseite eines Anlasses in der Terminplanung" }
+![Einschreibungsseite mit drei Terminen, dem bereits gebuchten und markierten Termin mit Status Geplant und Button Austragen, den übrigen mit Button Eintragen](assets/Einschreibung.png){ class="shadow lightbox" title="Termine eines Anlasses aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 
