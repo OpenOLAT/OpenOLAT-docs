@@ -306,9 +306,12 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.9em;
   margin: 0.6em 0 1.2em;
-  align-items: start;
+  /* stretch: every card of a row has the height of the tallest card in that row */
+  align-items: stretch;
 }
 .md-typeset .oo-mh-term {
+  display: flex;
+  flex-direction: column;
   padding: 0.8em 1em 0.6em;
   border: 1px solid var(--oo-mh-line);
   border-radius: var(--oo-radius-lg);
