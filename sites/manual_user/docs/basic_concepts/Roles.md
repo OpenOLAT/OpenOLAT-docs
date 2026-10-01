@@ -2,6 +2,10 @@
 
 The roles can be assigned to the following contexts according to the tasks:
 
+![Four areas in which roles apply: organisation, course with group, Course Planner and relations, each with the place where the role is assigned](assets/roles_areas_overview_v1_en.svg){ class="shadow lightbox" title="Roles by area" }
+
+The Course Planner also has the roles Product owner (assigned at the product), Element owner and Master coach (both assigned at the element). Their rights are described on the page [Course Planner: Overview](../area_modules/Course_Planner.md#roles_rights).
+
 ## Organisation wide roles {: #org} 
 
 Organisation roles include organisation-wide authorisations (as defined for the OpenOlat instance). The organisation roles are assigned in the user management.
@@ -76,9 +80,9 @@ Organisation roles are assigned in the user management.<br>
 
 ## Roles in a course {: #course} 
 
-![Three course roles owner, coach and participant; participants are registered users, anonymous guests, external users, participants without booking or former participants](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" }
+![Three course roles owner, coach and participant; participants are registered users, anonymous guests, external users, participants without booking or former participants](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Course members by role" }
 
-Within a course we distinguish between the 3 course roles: 
+You assign the course roles under `Course > Administration > Members management`. Within a course we distinguish between the 3 course roles: 
 
 * **Owner**: These users have all rights in the course. They can edit the course, manage members and also delete the course. Thus the owner is the course administrator.
 
@@ -88,7 +92,7 @@ Within a course we distinguish between the 3 course roles:
 
 * **Participant**: Participants can open the course and work on the provided course elements and contents (depending on the configuration). However, they have no additional rights in the course.
 
-![Course rights owner, coach, participant and group rights coach and participant per group as checkboxes, in the dialog Edit member of the members management](assets/course_rights.png){ class="shadow lightbox" }
+![Course rights owner, coach, participant and group rights coach and participant per group as checkboxes](assets/course_rights.png){ class="shadow lightbox" title="Dialog Edit member in the members management" }
 
 In addition to the course-related roles, [guests](guest_access.md) without an OpenOlat account can also get access to a course in conventional courses.
 
@@ -96,7 +100,7 @@ In addition to the course-related roles, [guests](guest_access.md) without an Op
 
     It is also possible for people to be given several course roles and thus take different perspectives on the course. Once a person has been assigned several course-related roles, a role change is possible by switching the "User's role" in the toolbar of the course.
 
-    ![Switch from owner to participant or coach via the selection list User role in the toolbar of the course](assets/user_role.png){ class="shadow lightbox" }
+    ![Switch from owner to participant or coach via the selection list User role](assets/user_role.png){ class="shadow lightbox" title="Toolbar of the course" }
 
 
 [To the top of the page ^](#roles)
@@ -223,10 +227,10 @@ Once the roles and their system have been set up, the relations can then be defi
 ---
 
 
-## Account roles {: #account_roles} 
+## User roles {: #account_roles} 
 
-The account roles are only relevant for the search function of the administrators.<br>
-(See [Account roles](../../manual_admin/usermanagement/Search_Users.md))
+In user management, the [self-defined roles](#relations) appear under "User roles". There, each role and its contra-role appear as separate entries. Clicking an entry lists the accounts that have this role in a relation. The menu item appears as soon as at least one such role exists.<br>
+(See [User roles](../../manual_admin/usermanagement/Search_Users.md#user_roles))
 
 [To the top of the page ^](#roles)
 
@@ -250,8 +254,8 @@ The account roles are only relevant for the search function of the administrator
 ## Further information {: #further_information} 
 
 **Mentioned on this page**<br>
-[Access configuration >](../learningresources/Access_configuration.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>

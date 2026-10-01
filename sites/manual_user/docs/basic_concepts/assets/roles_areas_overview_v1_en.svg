@@ -1,0 +1,139 @@
+<svg viewBox="0 0 940 632" xmlns="http://www.w3.org/2000/svg" font-family="'Roboto', Arial, sans-serif">
+  <title>Where does a role apply?</title>
+
+  <text x="470" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#342C24">Where does a role apply?</text>
+
+  <!-- Spalte 1: Organisation -->
+  <rect x="20" y="52" width="216" height="474" rx="8" fill="#E6F0F0" stroke="#126365" stroke-width="1.5"/>
+  <rect x="20" y="52" width="216" height="40" rx="8" fill="#126365"/>
+  <rect x="20" y="72" width="216" height="20" fill="#126365"/>
+  <text x="128" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Organisation</text>
+  <g font-size="12" fill="#2D2926" text-anchor="middle">
+    <text x="128" y="112">Applies to the whole organisation</text>
+    <text x="128" y="127">or to an organisation unit</text>
+  </g>
+
+  <rect x="30" y="142" width="196" height="44" rx="6" fill="#FFFFFF" stroke="#126365"/>
+  <text x="128" y="160" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D2926">System administrator</text>
+  <text x="128" y="177" text-anchor="middle" font-size="12" fill="#2D2926">always the entire system</text>
+
+  <rect x="30" y="198" width="196" height="112" rx="6" fill="#FFFFFF" stroke="#126365" stroke-dasharray="5 4"/>
+  <text x="128" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D2926">Organisation roles</text>
+  <g font-size="12" fill="#2D2926" text-anchor="middle">
+    <text x="128" y="239">can be limited to an</text>
+    <text x="128" y="255">organisation unit</text>
+    <text x="128" y="279">All roles: see</text>
+    <text x="128" y="295">"Organisation wide roles"</text>
+  </g>
+
+  <text x="36" y="410" font-size="11" font-weight="bold" fill="#126365">Assigned in</text>
+  <text x="36" y="430" font-size="12" fill="#2D2926">User management,</text>
+  <text x="36" y="446" font-size="12" fill="#2D2926">tab "Roles"</text>
+
+  <!-- Spalte 2: Kurs -->
+  <rect x="248" y="52" width="216" height="474" rx="8" fill="#E5EFEC" stroke="#11624F" stroke-width="1.5"/>
+  <rect x="248" y="52" width="216" height="40" rx="8" fill="#11624F"/>
+  <rect x="248" y="72" width="216" height="20" fill="#11624F"/>
+  <text x="356" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Course</text>
+  <text x="356" y="112" text-anchor="middle" font-size="12" fill="#2D2926">Applies only in this course</text>
+
+  <g fill="#FFFFFF" stroke="#11624F">
+    <rect x="264" y="142" width="184" height="30" rx="6"/>
+    <rect x="264" y="178" width="184" height="30" rx="6"/>
+    <rect x="264" y="214" width="184" height="30" rx="6"/>
+  </g>
+  <g font-size="13" fill="#2D2926" text-anchor="middle">
+    <text x="356" y="161">Owner</text>
+    <text x="356" y="197">Coach</text>
+    <text x="356" y="233">Participant</text>
+  </g>
+
+  <rect x="256" y="258" width="200" height="128" rx="6" fill="#F5FAF8" stroke="#11624F"/>
+  <text x="356" y="278" text-anchor="middle" font-size="13" font-weight="bold" fill="#11624F">Group in the course</text>
+  <text x="356" y="295" text-anchor="middle" font-size="12" fill="#2D2926">Applies only to their own group</text>
+  <g fill="#FFFFFF" stroke="#11624F">
+    <rect x="264" y="306" width="184" height="30" rx="6"/>
+    <rect x="264" y="342" width="184" height="30" rx="6"/>
+  </g>
+  <g font-size="13" fill="#2D2926" text-anchor="middle">
+    <text x="356" y="325">Group coach</text>
+    <text x="356" y="361">Group participant</text>
+  </g>
+
+  <text x="264" y="410" font-size="11" font-weight="bold" fill="#11624F">Assigned in</text>
+  <rect x="264" y="418" width="184" height="52" rx="4" fill="#EDEDED"/>
+  <g font-family="'Roboto Mono', Menlo, monospace" font-size="11" fill="#36464E">
+    <text x="272" y="433">Course &gt;</text>
+    <text x="272" y="447">Administration &gt;</text>
+    <text x="272" y="461">Members management</text>
+  </g>
+
+  <!-- Spalte 3: Course Planner -->
+  <rect x="476" y="52" width="216" height="474" rx="8" fill="#F7F0E4" stroke="#916926" stroke-width="1.5"/>
+  <rect x="476" y="52" width="216" height="40" rx="8" fill="#916926"/>
+  <rect x="476" y="72" width="216" height="20" fill="#916926"/>
+  <text x="584" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Course Planner</text>
+  <g font-size="12" fill="#2D2926" text-anchor="middle">
+    <text x="584" y="112">Applies to a product</text>
+    <text x="584" y="127">or an element</text>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#916926">
+    <rect x="492" y="142" width="184" height="30" rx="6"/>
+    <rect x="492" y="178" width="184" height="30" rx="6"/>
+    <rect x="492" y="214" width="184" height="30" rx="6"/>
+  </g>
+  <g font-size="13" fill="#2D2926" text-anchor="middle">
+    <text x="584" y="161">Product owner</text>
+    <text x="584" y="197">Element owner</text>
+    <text x="584" y="233">Master coach</text>
+  </g>
+  <g font-size="12" fill="#2D2926" text-anchor="middle">
+    <text x="584" y="270">Course planner is an</text>
+    <text x="584" y="286">organisation role</text>
+  </g>
+
+  <text x="492" y="410" font-size="11" font-weight="bold" fill="#916926">Assigned in</text>
+  <text x="492" y="430" font-size="12" fill="#2D2926">Course Planner, at the</text>
+  <text x="492" y="446" font-size="12" fill="#2D2926">product or element</text>
+
+  <!-- Spalte 4: Beziehungen -->
+  <rect x="704" y="52" width="216" height="474" rx="8" fill="#F1F4E6" stroke="#5F6E23" stroke-width="1.5"/>
+  <rect x="704" y="52" width="216" height="40" rx="8" fill="#5F6E23"/>
+  <rect x="704" y="72" width="216" height="20" fill="#5F6E23"/>
+  <text x="812" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Relations</text>
+  <g font-size="12" fill="#2D2926" text-anchor="middle">
+    <text x="812" y="112">Applies to specific</text>
+    <text x="812" y="127">persons</text>
+  </g>
+
+  <text x="812" y="155" text-anchor="middle" font-size="12" font-weight="bold" fill="#5F6E23">Self-defined, for example</text>
+  <g fill="#FFFFFF" stroke="#5F6E23" stroke-dasharray="5 4">
+    <rect x="720" y="166" width="184" height="30" rx="6"/>
+    <rect x="720" y="202" width="184" height="30" rx="6"/>
+    <rect x="720" y="238" width="184" height="30" rx="6"/>
+  </g>
+  <g font-size="13" fill="#2D2926" text-anchor="middle">
+    <text x="812" y="185">Mentor</text>
+    <text x="812" y="221">Learning guide</text>
+    <text x="812" y="257">Supervisor</text>
+  </g>
+
+  <text x="720" y="410" font-size="11" font-weight="bold" fill="#5F6E23">Create roles</text>
+  <rect x="720" y="418" width="184" height="52" rx="4" fill="#EDEDED"/>
+  <g font-family="'Roboto Mono', Menlo, monospace" font-size="11" fill="#36464E">
+    <text x="728" y="433">Administration &gt;</text>
+    <text x="728" y="447">Modules &gt;</text>
+    <text x="728" y="461">Role user to user</text>
+  </g>
+  <text x="720" y="492" font-size="11" font-weight="bold" fill="#5F6E23">Assign relation</text>
+  <text x="720" y="510" font-size="12" fill="#2D2926">User management</text>
+
+  <!-- Kernaussage -->
+  <rect x="20" y="542" width="900" height="52" rx="6" fill="#F1F1F1"/>
+  <rect x="20" y="542" width="6" height="52" fill="#342C24"/>
+  <text x="40" y="563" font-size="13" font-weight="bold" fill="#2D2926">Course and group roles do not depend on the organisation role.</text>
+  <text x="40" y="582" font-size="13" fill="#2D2926">Users without any further role can also own or coach a course.</text>
+
+  <text x="470" y="618" text-anchor="middle" font-size="11" fill="#5C5C5C">In user management, the self-defined roles are listed under "User roles".</text>
+</svg>

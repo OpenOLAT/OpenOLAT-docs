@@ -30,7 +30,7 @@ The field "Account expiration" searches by the expiry date of the accounts. The 
 
 Select one of the relevant search criteria in the menu on the left and narrow it down.
 
-![Left menu with the entries Organisations, Organisation roles, Course roles, Group roles, Course Planner roles, User roles, User type, Status and Predefined searches: user search](assets/user_management_search_left_menu_v2_en.png){ class="shadow lightbox" }
+![Marked menu on the left with nine expandable entries that display accounts by roles and assignments](assets/user_management_search_left_menu_v2_en.png){ class="shadow lightbox" title="Left menu of the user search" }
 
 ### Organizations
 
@@ -91,14 +91,14 @@ If an OpenOlat instance uses the Course Planner, there are other roles available
 * Course participants
 
 
-### Account roles
+### User roles {: #user_roles}
 
-Depending on the configuration, further roles are available here that can be filtered, displayed and defined. You set them up in the system administration under:<br>
-`Administration > Modules > User to user`, see [Modules](../administration/Modules.md)
+Here you see which accounts are linked through a role user to user, for example who is whose supervisor. Each role and each contra-role has its own entry with the accounts that hold it. The menu entry "User roles" only appears when "Role user to user" is switched on and at least one role is set up. You set up the roles in the system administration under:<br>
+`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules.md#role_user_to_user)
 
 For example:
 
-* Coach
+* Supervisor
 * Subordinate
 * Apprentice manager
 * Apprentice
@@ -109,7 +109,7 @@ For example:
 * ...
 
 
-### Account types
+### User types {: #account-types}
 
 Here you can search within pre-selected account types.
 

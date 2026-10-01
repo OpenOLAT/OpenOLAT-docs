@@ -30,7 +30,7 @@ Das Feld "Kontoablauf" sucht nach dem Ablaufdatum der Konten. Die Auswahl links 
 
 Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie eine Eingrenzung vor.
 
-![Linkes Menü mit den Einstiegen Organisationen, Organisationsrollen, Kursrollen, Gruppenrollen, Course Planner Rollen, Kontorollen, Kontotypen, Status und Vordefinierte Suchabfragen: Kontosuche](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
+![Markiertes Menü links mit neun aufklappbaren Einträgen, die Konten nach Rollen und Zuordnungen anzeigen](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" title="Linkes Menü der Kontosuche" }
 
 ### Organisationen
 
@@ -90,14 +90,14 @@ Nutzt eine OpenOlat Instanz den Course Planner, stehen neben üblichen Kursrolle
 * Kursteilnehmer:innen
 
 
-### Kontorollen
+### Kontorollen {: #user_roles}
 
-Je nach Konfiguration stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können. Sie richten sie in der System-Administration ein unter:<br>
-`Administration > Module > Benutzer zu Benutzer`, siehe [Module](../administration/Modules.de.md)
+Hier sehen Sie, welche Konten über eine Rolle Person zu Person verbunden sind, etwa wer wessen Vorgesetzte:r ist. Für jede Rolle und jede Gegenrolle steht ein eigener Eintrag mit den Konten, die sie innehaben. Der Menüeintrag "Kontorollen" erscheint erst, wenn "Rolle Person zu Person" eingeschaltet und mindestens eine Rolle eingerichtet ist. Sie richten die Rollen in der System-Administration ein unter:<br>
+`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user)
 
 Zum Beispiel:
 
-* Vorgesetze:r
+* Vorgesetzte:r
 * Untergebene:r
 * Lehrlingsverantwortliche:r
 * Lehrling

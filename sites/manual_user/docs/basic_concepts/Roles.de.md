@@ -2,6 +2,10 @@
 
 Entsprechend den Aufgaben lassen sich die Rollen folgenden Kontexten zuordnen:
 
+![Vier Bereiche, in denen Rollen gelten: Organisation, Kurs mit Gruppe, Course Planner und Beziehungen, je mit dem Ort, an dem die Rolle vergeben wird](assets/roles_areas_overview_v1_de.svg){ class="shadow lightbox" title="Rollen nach Bereich" }
+
+Im Course Planner gelten zusätzlich die Rollen Produktbesitzer:in (vergeben beim Produkt), Elementbesitzer:in und Klassenlehrer:in (beide vergeben beim Element). Ihre Rechte beschreibt die Seite [Course Planner: Übersicht](../area_modules/Course_Planner.de.md#roles_rights).
+
 ## Organisationsweit gültige Rollen {: #org} 
 
 Zu Organisationsrollen gehören organisationsweit (wie innerhalb der OpenOlat-Instanz definiert) gültige Berechtigungen. Die Organisationsrollen werden in der Benutzerverwaltung vergeben.
@@ -76,19 +80,19 @@ Organisationsrollen werden in der Benutzerverwaltung vergeben.<br>
 
 ## Rollen in einem Kurs {: #course} 
 
-![Drei Kursrollen Besitzer:in, Betreuer:in und Teilnehmer:in; Teilnehmende sind registrierte Benutzer:innen, anonyme Gäste, externe Benutzer:innen, Teilnehmende ohne Buchung oder frühere Teilnehmende](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" }
+![Drei Kursrollen Besitzer:in, Betreuer:in und Teilnehmer:in; Teilnehmende sind registrierte Benutzer:innen, anonyme Gäste, externe Benutzer:innen, Teilnehmende ohne Buchung oder frühere Teilnehmende](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Kursmitglieder nach Rolle" }
 
-Innerhalb eines Kurses unterscheiden wir die 3 Kursrollen: 
+Die Kursrollen vergeben Sie unter `Kurs > Administration > Mitgliederverwaltung`. Innerhalb eines Kurses unterscheiden wir die 3 Kursrollen: 
 
 * **Besitzer:in**: Diese Benutzer:innen haben alle Rechte im Kurs. Sie können den Kurs bearbeiten, Mitglieder verwalten und den Kurs auch löschen. Somit ist der/die Besitzer:in Kursadministrator:in.
 
     :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
 
-* **Betreuer:in**: Der/die Kursbetreuer:in hat Zugriff auf das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein/eine Kursbetreuer:in kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sehen die Kursbetreuer:innen alle Kursteilnehmenden, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer:in finden Sie [hier](coach.de.md).
+* **Betreuer:in**: Der/die Kursbetreuer:in hat Zugriff auf das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein/eine Kursbetreuer:in kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sehen die Kursbetreuer:innen alle Teilnehmenden des Kurses, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer:in finden Sie [hier](coach.de.md).
 
 * **Teilnehmer:in**: Teilnehmer:innen können den Kurs öffnen und die bereitgestellten Kursbausteine und Inhalte bearbeiten (je nach Konfiguration). Sie haben jedoch keine zusätzlichen Rechte im Kurs.
 
-![Kursrechte Besitzer, Betreuer, Teilnehmer und Gruppenrechte Betreuer und Teilnehmer je Gruppe als Checkboxen, im Dialog Mitglied bearbeiten der Mitgliederverwaltung](assets/course_rights_DE.png){ class="shadow lightbox" }
+![Kursrechte Besitzer, Betreuer, Teilnehmer und Gruppenrechte Betreuer und Teilnehmer je Gruppe als Checkboxen](assets/course_rights_DE.png){ class="shadow lightbox" title="Dialog Mitglied bearbeiten in der Mitgliederverwaltung" }
 
 Neben den kursbezogenen Rollen können in herkömmlichen Kursen auch [Gäste](guest_access.de.md) ohne OpenOlat-Konto Zugang zu einem Kurs erhalten.
 
@@ -96,7 +100,7 @@ Neben den kursbezogenen Rollen können in herkömmlichen Kursen auch [Gäste](gu
 
     Es ist ferner möglich, dass Personen mehrere Kursrollen erhalten und so verschiedene Perspektiven auf den Kurs einnehmen können. Ein Rollenwechsel ist, nachdem einer Person mehrere kursbezogene Rollen zugewiesen wurden, über den Wechsel der "Benutzerrolle" in der Toolbar des Kurses möglich.
 
-    ![Wechsel von Besitzer zu Teilnehmer oder Betreuer über die Auswahlliste Benutzerrolle in der Toolbar des Kurses](assets/user_role_switch_DE.png){ class="shadow lightbox" }
+    ![Wechsel von Besitzer zu Teilnehmer oder Betreuer über die Auswahlliste Benutzerrolle](assets/user_role_switch_DE.png){ class="shadow lightbox" title="Toolbar des Kurses" }
 
 
 [zum Seitenanfang ^](#roles)
@@ -225,8 +229,8 @@ Sind die Rollen und ihre Systematik eingerichtet, können anschliessend die Bezi
 
 ## Kontorollen {: #account_roles} 
 
-Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.<br>
-(Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#kontorollen))
+In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations) unter "Kontorollen". Dort steht jede Rolle und ihre Gegenrolle als eigener Eintrag. Ein Klick auf einen Eintrag listet die Konten auf, die diese Rolle in einer Beziehung haben. Der Menüpunkt erscheint, sobald mindestens eine solche Rolle angelegt ist.<br>
+(Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#user_roles))
 
 [zum Seitenanfang ^](#roles)
 
@@ -250,8 +254,8 @@ Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.
 ## Weiterführende Informationen {: #further_information} 
 
 **Auf dieser Seite erwähnt**<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
