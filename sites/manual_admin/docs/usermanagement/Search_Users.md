@@ -32,13 +32,13 @@ Select one of the relevant search criteria in the menu on the left and narrow it
 
 ![Marked menu on the left with nine expandable entries that display accounts by roles and assignments](assets/user_management_search_left_menu_v2_en.png){ class="shadow lightbox" title="Left menu of the user search" }
 
-### Organizations
+### Organizations {: #organizations}
 
 If an OpenOlat instance uses several "organizations", the users can be
 displayed here sorted accordingly.
 
 
-### Organizational Roles
+### Organizational Roles {: #organizational-roles}
 
 The following organizational roles are distinguished and can be used for a filtered display:
 
@@ -60,7 +60,7 @@ The following organizational roles are distinguished and can be used for a filte
 * System administrators
 
 
-### Course Roles
+### Course Roles {: #course-roles}
 
 We distiguish three course roles:
 
@@ -71,7 +71,7 @@ We distiguish three course roles:
 The members of the respective roles can be displayed and edited here.
 
 
-### Group Roles
+### Group Roles {: #group-roles}
 
 There are two group roles, which can be displayed and edited:
 
@@ -79,7 +79,7 @@ There are two group roles, which can be displayed and edited:
 * Group participants
 
 
-### Course Planner Roles
+### Course Planner Roles {: #course-planner-roles}
 
 If an OpenOlat instance uses the Course Planner, there are other roles available in addition to the usual course roles, whose members can be displayed and edited.
 
@@ -150,7 +150,7 @@ information (column titles) that is relevant in the user deletion process:
 
 
 
-### Predefined search queries
+### Predefined search queries {: #predefined-search-queries}
 
 Under the menu "**Predefined search queries**" you will find frequently used search queries:
 

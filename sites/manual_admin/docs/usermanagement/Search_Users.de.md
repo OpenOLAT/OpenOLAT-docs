@@ -32,11 +32,11 @@ Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie ein
 
 ![Markiertes Menü links mit neun aufklappbaren Einträgen, die Konten nach Rollen und Zuordnungen anzeigen](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" title="Linkes Menü der Kontosuche" }
 
-### Organisationen
+### Organisationen {: #organizations}
 
 Verwendet eine OpenOlat Instanz mehrere "Organisationen", lassen sich die Konten hier danach sortiert darstellen.
 
-### Organisationsrollen
+### Organisationsrollen {: #organizational-roles}
 
 Folgende Organisationsrollen werden unterschieden und können für eine
 gefilterte Darstellung verwendet werden:
@@ -59,7 +59,7 @@ gefilterte Darstellung verwendet werden:
 * Systemadministrator:innen
 
 
-### Kursrollen
+### Kursrollen {: #course-roles}
 
 Es werden drei Kursrollen unterschieden:
 
@@ -70,7 +70,7 @@ Es werden drei Kursrollen unterschieden:
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
 werden.
 
-### Gruppenrollen
+### Gruppenrollen {: #group-roles}
 
 Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können: 
 
@@ -78,7 +78,7 @@ Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können:
 * Gruppenteilnehmer:innen 
 
 
-### Course Planner Rollen
+### Course Planner Rollen {: #course-planner-roles}
 
 Nutzt eine OpenOlat Instanz den Course Planner, stehen neben üblichen Kursrollen noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet werden können.
 
@@ -108,7 +108,7 @@ Zum Beispiel:
 * ...
 
 
-### Kontotypen
+### Kontotypen {: #account-types}
 
 Hier suchen Sie innerhalb vorselektierter Kontotypen. 
 
@@ -149,7 +149,7 @@ Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spal
 
 
 
-### Vordefinierte Suchabfragen
+### Vordefinierte Suchabfragen {: #predefined-search-queries}
 
 Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabfragen:
 
