@@ -168,7 +168,7 @@ frentix accompanies you in the setup with support and coaching: [support@frentix
 The installation is running. Now the things that did not matter while setting up pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **Learning resource:** [Form](../../manual_user/learningresources/Form.md), [Test](../../manual_user/learningresources/Course_Element_Test.md), [Questionnaire](../../manual_user/learningresources/Course_Element_Survey.md), [Wiki](../../manual_user/learningresources/Course_Element_Wiki.md) and more. More on the page [Various Types of Learning Resources](../../manual_user/learningresources/index.md).
-- **Course:** [Course element](../../manual_user/learningresources/Course_Elements.md), [Course editor](../../manual_user/learningresources/Learning_path_course_Course_editor.md), [Publication](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.md), [Course archive](../../manual_user/learningresources/Course_Archiving.md) and more. More on the page [Various Types of Learning Resources](../../manual_user/learningresources/index.md).
+- **Course:** [Course element](../../manual_user/learningresources/Course_Elements.md), [Course editor](../../manual_user/learningresources/Learning_path_course_Course_editor.md), [Publication](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.md), [Course life cycle](../administration/Life_cycles_-_Administration.md) (in the interface: **Automatic Life-cycle management**) and more. More on the page [Various Types of Learning Resources](../../manual_user/learningresources/index.md).
 - **Catalog:** [Launcher](../administration/Modules_Catalog_2.0.md), [Web catalog](../../manual_user/area_modules/catalog2.0_web.md). More on the page [Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0.md).
 - **Coaching:** [Overview](../../manual_user/area_modules/Coaching.md), [Scope](../../manual_user/area_modules/Coaching.md), [Assignments](../../manual_user/area_modules/Coaching.md), [Communication](../../manual_user/area_modules/Coaching.md) and more. More on the page [Coaching - Overview](../../manual_user/area_modules/Coaching.md).
 - **Rooms:** [Building](../administration/Modules_Rooms.md), [Room scheduling](../../manual_user/area_modules/Course_Planner_Rooms.md).
@@ -192,7 +192,7 @@ The installation is running. Now the things that did not matter while setting up
 [Types of Course Elements >](../../manual_user/learningresources/Course_Elements.md)<br>
 [Learning path course - Course editor >](../../manual_user/learningresources/Learning_path_course_Course_editor.md)<br>
 [Course editor tools >](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)<br>
+[Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Module Catalog >](../administration/Modules_Catalog_2.0.md)<br>
 [Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>

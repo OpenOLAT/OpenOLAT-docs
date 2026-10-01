@@ -170,7 +170,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Lernressource:** [Formular](../../manual_user/learningresources/Form.de.md), [Test](../../manual_user/learningresources/Course_Element_Test.de.md), [Fragebogen](../../manual_user/learningresources/Course_Element_Survey.de.md), [Wiki](../../manual_user/learningresources/Course_Element_Wiki.de.md) und weitere. Mehr dazu auf der Seite [Lernressourcen](../../manual_user/learningresources/index.de.md).
-- **Kurs:** [Kursbaustein](../../manual_user/learningresources/Course_Elements.de.md), [Kurseditor](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md), [Veröffentlichung](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.de.md), [Kursarchiv](../../manual_user/learningresources/Course_Archiving.de.md) und weitere. Mehr dazu auf der Seite [Lernressourcen](../../manual_user/learningresources/index.de.md).
+- **Kurs:** [Kursbaustein](../../manual_user/learningresources/Course_Elements.de.md), [Kurseditor](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md), [Veröffentlichung](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**) und weitere. Mehr dazu auf der Seite [Lernressourcen](../../manual_user/learningresources/index.de.md).
 - **Katalog:** [Launcher](../administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../../manual_user/area_modules/catalog2.0_web.de.md). Mehr dazu auf der Seite [Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0.de.md).
 - **Coaching:** [Übersicht](../../manual_user/area_modules/Coaching.de.md), [Fokus](../../manual_user/area_modules/Coaching.de.md), [Aufgaben](../../manual_user/area_modules/Coaching.de.md), [Kommunikation](../../manual_user/area_modules/Coaching.de.md) und weitere. Mehr dazu auf der Seite [Coaching - Übersicht](../../manual_user/area_modules/Coaching.de.md).
 - **Räume:** [Gebäude](../administration/Modules_Rooms.de.md), [Raumplanung](../../manual_user/area_modules/Course_Planner_Rooms.de.md).
@@ -194,7 +194,7 @@ Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichti
 [Kursbausteine >](../../manual_user/learningresources/Course_Elements.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kurseditorwerkzeuge >](../../manual_user/learningresources/Using_additional_Course_Editor_Tools.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Modul Katalog >](../administration/Modules_Catalog_2.0.de.md)<br>
 [Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>

@@ -218,12 +218,12 @@ apart:
   - [attendance.rooms_module, attendance.room_management]
   - [curriculum.course_planner, platform.area_courseplanner]
 
-# Tiefere Teile, die in «Vertiefen» nicht erscheinen (gleiche Befunde wie im Autorenweg):
-deep_exclude:
-  - course.partial_elements
-  - catalog.catalog_admin
-  - authoring.content_element
-  - course.course_lifecycle
+# Tiefere Teile in «Vertiefen»: wie im Autorenweg, veraltete Begriffe (Feld dep) blendet der
+# Generator aus, Begriffe mit agreed erscheinen. deep_exclude ist leer.
+
+# Wort der Oberfläche für Begriffe mit agreed, wie im Autorenweg (ui_word dort).
+ui_word:
+  course.course_lifecycle: repository:repository.admin.lifecycle.title
 
 kind:
   de: {concept: Begriff, role: Rolle, module: Modul, area: Bereich, site: Bereich, tool: Werkzeug, element: Kursbaustein,
@@ -258,6 +258,7 @@ ui:
       Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die
       Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
     deepen_more: und weitere
+    in_ui: "in der Oberfläche: **{ui}**"
     deepen_attrs: "Mehr dazu auf der Seite {link}."
     deepen_none: Diese Station hat keine tieferen Teile. Die nächste Station wartet.
     prev: zurück
@@ -297,6 +298,7 @@ ui:
       the terms of this station have parts and settings that control the installation more
       precisely.
     deepen_more: and more
+    in_ui: "in the interface: **{ui}**"
     deepen_attrs: "More on the page {link}."
     deepen_none: This station has no deeper parts. The next station is waiting.
     prev: back
