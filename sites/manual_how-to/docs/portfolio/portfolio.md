@@ -1,4 +1,4 @@
-# How do I prepare for the creation of personal portfolios by participants? {: #portfolio}
+# How do I prepare the creation of personal portfolios by participants? {: #portfolio}
 
 ??? abstract "Goal and content of this guide"
 

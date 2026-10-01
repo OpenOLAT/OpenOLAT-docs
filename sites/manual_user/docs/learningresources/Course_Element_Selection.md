@@ -167,7 +167,7 @@ Coaches and owners have the opportunity to edit the selection made by participan
 
 ## Further information {: #further_information}
 
-[How do I use course element selection?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
+[How do I use the course element Selection?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
 [Course Element "Structure"](../learningresources/Course_Element_Structure.md)
 
 <br>

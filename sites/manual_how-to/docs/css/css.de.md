@@ -1,4 +1,4 @@
-# Wie kann ich eigene CSS für das Kursdesign erstellen? {: #custom_css}
+# Wie kann ich eigenes CSS für das Kursdesign erstellen? {: #custom_css}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 

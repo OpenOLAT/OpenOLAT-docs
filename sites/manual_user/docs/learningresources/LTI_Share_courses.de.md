@@ -114,7 +114,7 @@ Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angep
 
 ## Weiterführende Informationen {: #further_information}
 
-How-to: [Wie binde ich einen OpenOlat Kurs in Moodle ein? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)<br>
+How-to: [Wie binde ich einen OpenOlat-Kurs in Moodle ein? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)<br>
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)<br>
 Benutzerhandbuch: [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
 Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)<br>

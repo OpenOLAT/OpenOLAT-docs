@@ -271,6 +271,105 @@
   break-inside: avoid;
 }
 
+/* ---- how-to entry (manual_how-to/index) ----------------------------------- */
+/* one focus card per role (authors two columns wide), then all guides by
+   role: the authors' block takes the whole row, the others share it two by
+   two. Band and card accent of a role carry the same colour. */
+.md-typeset .oo-mh-focus {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9em;
+  margin: 0.6em 0 1.8em;
+}
+.md-typeset .oo-mh-focus .oo-mh-pcard--author {
+  grid-column: span 2;
+}
+.md-typeset .oo-mh-pcard__body ul {
+  margin: 0 0 0.7em;
+  padding: 0 0 0 1.1em;
+}
+.md-typeset .oo-mh-pcard__body ul li {
+  margin: 0 0 0.4em;
+}
+.md-typeset .oo-mh-pcard--author .oo-mh-pcard__band {
+  background: var(--oo-sea);
+  color: #fff;
+}
+.md-typeset .oo-mh-pcard--owner .oo-mh-pcard__band {
+  background: var(--oo-peach);
+  color: var(--oo-ink);
+}
+.md-typeset .oo-mh-pcard--coach .oo-mh-pcard__band {
+  background: var(--oo-forest);
+  color: #fff;
+}
+.md-typeset .oo-mh-pcard--planner .oo-mh-pcard__band {
+  background: var(--oo-sprout);
+  color: var(--oo-ink);
+}
+.md-typeset .oo-mh-pcard--admin .oo-mh-pcard__band {
+  background: var(--oo-berry);
+  color: #fff;
+}
+.md-typeset .oo-mh-role--owner {
+  --oo-accent: var(--oo-peach-text);
+  --oo-accent-tint: rgba(242, 175, 64, 0.18);
+}
+.md-typeset .oo-mh-role--planner {
+  --oo-accent: var(--oo-sprout-text);
+  --oo-accent-tint: rgba(178, 207, 66, 0.20);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-mh-role--owner {
+  --oo-accent: var(--oo-peach);
+  --oo-accent-tint: rgba(242, 175, 64, 0.16);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-mh-role--planner {
+  --oo-accent: var(--oo-sprout);
+  --oo-accent-tint: rgba(178, 207, 66, 0.16);
+}
+.md-typeset .oo-mh-tasks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9em;
+  margin: 0.6em 0 1.8em;
+}
+.md-typeset .oo-mh-tasks .oo-mh-role--develop {
+  grid-column: 1 / -1;
+}
+.md-typeset .oo-mh-role__head h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.md-typeset .oo-mh-role ul {
+  margin: 0;
+  padding: 0 0 0 1.1em;
+}
+.md-typeset .oo-mh-role ul li {
+  /* bottom margin only, so both columns of the authors' list start level */
+  margin: 0 0 0.5em;
+  break-inside: avoid;
+}
+.md-typeset .oo-mh-tasks .oo-mh-role--develop ul {
+  columns: 2;
+  column-gap: 1.6em;
+}
+.md-typeset .oo-mh-role__foot {
+  margin: 0.8em 0 0;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--oo-mh-line);
+  color: var(--oo-mh-muted);
+}
+.md-typeset .oo-mh-role--admin {
+  --oo-accent: var(--oo-berry);
+  --oo-accent-tint: rgba(143, 31, 64, 0.12);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-mh-role--admin {
+  --oo-accent: #E495AC;
+  --oo-accent-tint: rgba(228, 149, 172, 0.14);
+}
+
 /* ---- path pages ----------------------------------------------------------- */
 .md-typeset .oo-mh-sub {
   margin: -0.6em 0 1em;
@@ -454,6 +553,16 @@
   }
   .md-typeset .oo-mh-ref > ul {
     columns: 2;
+  }
+  .md-typeset .oo-mh-tasks,
+  .md-typeset .oo-mh-focus {
+    grid-template-columns: 1fr;
+  }
+  .md-typeset .oo-mh-focus .oo-mh-pcard--author {
+    grid-column: auto;
+  }
+  .md-typeset .oo-mh-tasks .oo-mh-role--develop ul {
+    columns: 1;
   }
 }
 @media screen and (max-width: 29.9375em) {

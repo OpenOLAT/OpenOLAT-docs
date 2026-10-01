@@ -1,4 +1,4 @@
-#  Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? {: #lifecycles}
+# Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? {: #lifecycles}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 

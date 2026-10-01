@@ -1,4 +1,4 @@
-# How do I set up groups purpose-driven?
+# How do I set up groups to suit their purpose?
 
 There are many reasons and intentions why groups are formed. Depending on the purpose, different tools can be used by the groups in OpenOlat.
 

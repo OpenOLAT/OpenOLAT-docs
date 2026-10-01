@@ -75,7 +75,7 @@ hide:
       <span class="oo-home-card__tile"><i class="o_icon o_icon_lightbulb size24" aria-hidden="true"></i></span>
       <span>
         <h2><a href="manual_how-to/">How-to</a></h2>
-        <span class="oo-home-card__meta">39 Anleitungen</span>
+        <span class="oo-home-card__meta">Schritt für Schritt</span>
       </span>
     </div>
     <div class="oo-home-card__body">

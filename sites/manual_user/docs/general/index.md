@@ -97,7 +97,7 @@ The how-to «My first course» leads in ten steps from the Author role to the pu
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> How-to: My first course](../../manual_how-to/my_first_course/my_first_course.md){ .oo-mh-pcard__go }
 
-<p class="oo-mh-pcard__aside" markdown>Rather together? frentix offers trainings and workshops for authors.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Prefer to work together? frentix offers trainings and workshops for authors.<br>[support@frentix.com](mailto:support@frentix.com)</p>
 
 </div>
 

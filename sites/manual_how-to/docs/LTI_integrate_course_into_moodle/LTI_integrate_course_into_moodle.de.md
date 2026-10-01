@@ -1,4 +1,4 @@
-# Wie binde ich einen OpenOlat Kurs in Moodle ein? {: #LTI_integrate_course_into_moodle}
+# Wie binde ich einen OpenOlat-Kurs in Moodle ein? {: #LTI_integrate_course_into_moodle}
 
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"

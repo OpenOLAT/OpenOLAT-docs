@@ -1,4 +1,4 @@
-# How do I use course element selection? {: #how_do_i_use_course_element_selection}
+# How do I use the course element Selection? {: #how_do_i_use_course_element_selection}
 
 
 This guide shows you how to give participants in your course the option of choosing between different compulsory course elements.

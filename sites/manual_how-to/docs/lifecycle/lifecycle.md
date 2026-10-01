@@ -1,4 +1,4 @@
-#  How do I manage lifecycles of groups, courses or user accounts? {: #lifecycles}
+# How do I manage lifecycles of groups, courses or user accounts? {: #lifecycles}
 
 ??? abstract "Objectives and content of this instruction"
 

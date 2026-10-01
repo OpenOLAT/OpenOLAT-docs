@@ -1,4 +1,4 @@
-# How do you assess an anonymous test in OpenOlat? {: #assessing_tests_anonymously}
+# How do I correct a test anonymously in OpenOlat? {: #assessing_tests_anonymously}
 
 ??? abstract "Objectives and content of this instruction"
 
