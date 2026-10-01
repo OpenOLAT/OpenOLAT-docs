@@ -17,7 +17,7 @@ description: Accounts and organisation. In user management you create accounts a
 
 <p class="oo-mh-sub">Accounts and organisation</p>
 
-In user management you create accounts and assign roles. The system role System administrator configures the installation, Administrator manages the organisation. User manager and Roles manager share the work on accounts, authors build courses. Every account belongs to an organisation.
+In user management you create accounts and assign roles. The system role System administrator configures the installation, the organisation role Administrator manages the organisation. The roles User manager and Roles manager share the work on accounts, authors build courses. Every account belongs to an organisation.
 
 ## Terms of this station {: #terms}
 

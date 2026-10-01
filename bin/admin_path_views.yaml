@@ -116,14 +116,15 @@ stations:
     sub_en: Accounts and organisation
     desc_de: >-
       In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu. Die Systemrolle
-      Systemadministrator:in konfiguriert die Installation, Administrator:in verwaltet die
-      Organisation. Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten,
-      Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
+      Systemadministrator:in konfiguriert die Installation, die Organisationsrolle
+      Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und
+      Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto
+      gehört zu einer Organisation.
     desc_en: >-
       In user management you create accounts and assign roles. The system role System
-      administrator configures the installation, Administrator manages the organisation. User
-      manager and Roles manager share the work on accounts, authors build courses. Every account
-      belongs to an organisation.
+      administrator configures the installation, the organisation role Administrator manages the
+      organisation. The roles User manager and Roles manager share the work on accounts, authors
+      build courses. Every account belongs to an organisation.
     items:
       - key: roles.role_sysadmin
       - key: roles.role_administrator
@@ -240,8 +241,8 @@ ui:
     part_of: "Gehört dazu:"
     other_lang: Englisch
     syn: Wie Nutzende es nennen
-    apart_detail: "Nicht verwechseln mit {other}:"
-    apart_station: "Nicht verwechseln: {a} und {b}"
+    apart_detail: "Nicht verwechseln mit «{other}»:"
+    apart_station: "Nicht verwechseln: «{a}» und «{b}»"
     manual: Im Handbuch lesen
     sophia: Sophia fragen
     sophia_q: 'Was ist "{name}" in OpenOlat und wie richte ich es ein?'

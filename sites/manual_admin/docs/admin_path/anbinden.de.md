@@ -39,7 +39,7 @@ Die Verwaltung von Prüfungsmodus und Prüfungseinsicht.
 
     **Wie Nutzende es nennen:** Prüfungsmanagement, Bewertungsverwaltung, Bewertungsmanagement, Prüfungsauswertung
 
-    **Nicht verwechseln mit [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md):** Das Bewertungswerkzeug bewertet Leistungen, die Prüfungsverwaltung legt Prüfungsfenster und Einsichten fest.
+    **Nicht verwechseln mit «[Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md)»:** Das Bewertungswerkzeug bewertet Leistungen, die Prüfungsverwaltung legt Prüfungsfenster und Einsichten fest.
 
     [Im Handbuch lesen](../../manual_user/learningresources/Assessment_Management.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Pr%C3%BCfungsverwaltung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 

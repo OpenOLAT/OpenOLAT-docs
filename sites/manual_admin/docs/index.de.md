@@ -219,7 +219,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zu Lernressourcen und
 
     ---
 
-    OpenOlat verbindet sich mit Videokonferenzsystemen, Dokumenteneditoren, KI Anbietern und LTI-Werkzeugen. Jede Integration wird hier einmal konfiguriert und steht danach im Kurs zur Verfügung.
+    OpenOlat verbindet sich mit Videokonferenzsystemen, Dokumenteneditoren, KI-Anbietern und LTI-Werkzeugen. Jede Integration wird hier einmal konfiguriert und steht danach im Kurs zur Verfügung.
 
     [:octicons-arrow-right-24: Externe Werkzeuge: Übersicht](administration/External_Tools_-_Administration.de.md)
 

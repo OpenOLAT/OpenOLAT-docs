@@ -95,7 +95,7 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
 
     **Wie Nutzende es nennen:** als Gast, anonymer Zugang, ohne Login
 
-    **Nicht verwechseln mit [Gast](../../manual_user/basic_concepts/guest_access.de.md):** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
+    **Nicht verwechseln mit «[Gast](../../manual_user/basic_concepts/guest_access.de.md)»:** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 
     [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gastzugang%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 
@@ -109,7 +109,7 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
 
     **Wie Nutzende es nennen:** unregistrierte:r Besucher:in, Besucher:in, Interessent:in, Schnuppernutzer:in, externe:r Benutzer:in
 
-    **Nicht verwechseln mit [Gastzugang](../../manual_user/basic_concepts/guest_access.de.md):** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
+    **Nicht verwechseln mit «[Gastzugang](../../manual_user/basic_concepts/guest_access.de.md)»:** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 
     [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gast%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 
@@ -131,7 +131,7 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 
     **Wie Nutzende es nennen:** Einmalcode, Einmalpasswort, OTP, Code per E-Mail
 
-    **Nicht verwechseln mit [Passkey](../../manual_user/login_registration/Passkey.de.md):** Der One Time Code kommt per E-Mail und braucht kein Gerät; der Passkey ist an ein Gerät oder einen Sicherheitsschlüssel gebunden.
+    **Nicht verwechseln mit «[Passkey](../../manual_user/login_registration/Passkey.de.md)»:** Der One Time Code kommt per E-Mail und braucht kein Gerät; der Passkey ist an ein Gerät oder einen Sicherheitsschlüssel gebunden.
 
     [Im Handbuch lesen](../../manual_user/login_registration/One_Time_Code.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22One%20Time%20Code%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 
@@ -139,7 +139,7 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 
 </div>
 
-!!! info "Nicht verwechseln: Gastzugang und Gast"
+!!! info "Nicht verwechseln: «Gastzugang» und «Gast»"
 
     Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 

@@ -119,7 +119,7 @@ Das Modul für die physischen Räume: Gebäude, Räume mit Platzzahl und ihre Bu
 
     **Wie Nutzende es nennen:** Raummodul, Räume und Gebäude, Raumbewirtschaftung
 
-    **Nicht verwechseln mit [Raumverwaltung](../../manual_user/area_modules/Course_Planner_Rooms.de.md):** Das Modul Räume ist der Schalter mit der Pflege in der Administration, die Raumverwaltung die schreibgeschützte Sicht darauf im Course Planner.
+    **Nicht verwechseln mit «[Raumverwaltung](../../manual_user/area_modules/Course_Planner_Rooms.de.md)»:** Das Modul Räume ist der Schalter mit der Pflege in der Administration, die Raumverwaltung die schreibgeschützte Sicht darauf im Course Planner.
 
     [Im Handbuch lesen](../administration/Modules_Rooms.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22R%C3%A4ume%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 
@@ -141,7 +141,7 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 
     **Wie Nutzende es nennen:** Kursplanung, Curriculumverwaltung, Kursplaner, Kursverwaltungssystem, Bildungsplanverwaltung, Kursverwaltung, Kursmanagement, Bildungsplanung, Curriculum-Verwaltung
 
-    **Nicht verwechseln mit [Course Planner](../../manual_user/area_modules/Course_Planner.de.md):** Das Modul ist der Schalter in der Administration, der Bereich ist der Eintrag Course Planner in der Hauptnavigation, den das Modul freischaltet.
+    **Nicht verwechseln mit «[Course Planner](../../manual_user/area_modules/Course_Planner.de.md)»:** Das Modul ist der Schalter in der Administration, der Bereich ist der Eintrag Course Planner in der Hauptnavigation, den das Modul freischaltet.
 
     [Im Handbuch lesen](../administration/Modules_Course_Planner.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Course%20Planner%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 

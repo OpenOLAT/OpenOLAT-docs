@@ -17,7 +17,7 @@ description: Konten und Organisation. In der Benutzerverwaltung erstellen Sie Ko
 
 <p class="oo-mh-sub">Konten und Organisation</p>
 
-In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, Administrator:in verwaltet die Organisation. Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
+In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
 
 ## Begriffe dieser Station {: #terms}
 
