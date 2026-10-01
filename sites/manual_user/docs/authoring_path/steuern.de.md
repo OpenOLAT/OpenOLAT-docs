@@ -91,7 +91,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
     **Wie Nutzende es nennen:** Zugangsregel, Sichtbarkeitsregel, Regel, Zugriffsbeschränkung, Freischaltung
 
-    **Nicht verwechseln mit [Ausnahme](../learningresources/Learning_path_course_Course_editor.de.md):** Die Ausnahme verfeinert die Durchführung im Lernpfadkurs, die Bedingung steuert Sichtbarkeit und Zugang im herkömmlichen Kurs.
+    **Nicht verwechseln mit «[Ausnahme](../learningresources/Learning_path_course_Course_editor.de.md)»:** Die Ausnahme verfeinert die Durchführung im Lernpfadkurs, die Bedingung steuert Sichtbarkeit und Zugang im herkömmlichen Kurs.
 
     [Im Handbuch lesen](../learningresources/General_Configuration_of_Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bedingung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -103,7 +103,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
     **Englisch:** Visibility
 
-    **Nicht verwechseln mit [Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md):** Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
+    **Nicht verwechseln mit «[Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md)»:** Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
 
     [Im Handbuch lesen](../learningresources/General_Configuration_of_Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Sichtbarkeit%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -113,7 +113,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
     **Englisch:** Access
 
-    **Nicht verwechseln mit [Sichtbarkeit](../learningresources/General_Configuration_of_Course_Elements.de.md):** Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
+    **Nicht verwechseln mit «[Sichtbarkeit](../learningresources/General_Configuration_of_Course_Elements.de.md)»:** Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
 
     [Im Handbuch lesen](../learningresources/General_Configuration_of_Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zugang%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -121,7 +121,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
 </div>
 
-!!! info "Nicht verwechseln: Sichtbarkeit und Zugang"
+!!! info "Nicht verwechseln: «Sichtbarkeit» und «Zugang»"
 
     Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
 
@@ -135,7 +135,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
 Zu dieser Station gibt es noch kein How-to.
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 

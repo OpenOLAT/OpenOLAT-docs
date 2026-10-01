@@ -95,7 +95,7 @@ Automatische E-Mails an Teilnehmende, ausgelöst durch eine Bedingung im Kurs, z
 
 [How-to: Über den Lernfortschritt informiert werden](../../manual_how-to/progress_information/progress_information.de.md)
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 

@@ -185,7 +185,7 @@ Der Dateibereich eines Kurses, in dem die Dateien des Kurses liegen.
 
     **Wie Nutzende es nennen:** Dateiordner, Kursdateien-Ablage
 
-    **Nicht verwechseln mit [Ressourcenordner](../learningresources/Resource_Folder.de.md):** Der Ablageordner gehört zu einem Kurs, der Ressourcenordner ist eine eigene Lernressource für mehrere Kurse.
+    **Nicht verwechseln mit «[Ressourcenordner](../learningresources/Resource_Folder.de.md)»:** Der Ablageordner gehört zu einem Kurs, der Ressourcenordner ist eine eigene Lernressource für mehrere Kurse.
 
     [Im Handbuch lesen](../learningresources/Storage_folder.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Ablageordner%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -221,7 +221,7 @@ Der Vorgang, mit dem die Änderungen aus dem Kurseditor in den laufenden Kurs ü
 
 [How-to: Kursbausteine hinzufügen und publizieren](../../manual_how-to/my_first_course/my_first_course.de.md#add_course_elements)
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 

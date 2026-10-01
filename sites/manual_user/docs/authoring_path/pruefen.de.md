@@ -39,7 +39,7 @@ Kursbaustein, der eine Test-Lernressource in den Kurs einbindet.
 
     **Wie Nutzende es nennen:** Prüfung, Klausur, Quiz, Examen, Leistungstest, Wissensabfrage, Leistungskontrolle, eTest
 
-    **Nicht verwechseln mit [Selbsttest](../learningresources/Course_Element_Self_Test.de.md):** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
+    **Nicht verwechseln mit «[Selbsttest](../learningresources/Course_Element_Self_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
     [Im Handbuch lesen](../learningresources/Course_Element_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Test%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -61,7 +61,7 @@ Kursbaustein, der eine Test-Lernressource zur Selbstkontrolle einbindet.
 
     **Wie Nutzende es nennen:** Übungstest, Probetest, Lernkontrolle
 
-    **Nicht verwechseln mit [Test](../learningresources/Course_Element_Test.de.md):** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
+    **Nicht verwechseln mit «[Test](../learningresources/Course_Element_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
     [Im Handbuch lesen](../learningresources/Course_Element_Self_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbsttest%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -143,7 +143,7 @@ Die Zusammenstellung aller Resultate einer Person in einem Kurs, je bewertbarem 
 
     **Wie Nutzende es nennen:** Zeugnis, Nachweis, Bescheinigung, Teilnahmebestätigung, Leistungsbescheinigung, Leistungsbestätigung, Testergebnis-Dokumentation
 
-    **Nicht verwechseln mit [Zertifikat](../personal_menu/Certificates.de.md):** Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
+    **Nicht verwechseln mit «[Zertifikat](../personal_menu/Certificates.de.md)»:** Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
 
     [Im Handbuch lesen](../personal_menu/Evidence_of_Achievements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Leistungsnachweis%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -165,9 +165,9 @@ Ein PDF, das die erfolgreiche Teilnahme an einem Kurs oder den Abschluss eines Z
 
     **Wie Nutzende es nennen:** Diplom, Urkunde, Zeugnis, Bescheinigung, Abschluss, Titel, Teilnahmebescheinigung, Kompetenznachweis, Leistungsbestätigung, Teilnehmerbescheinigung, Abschlussbescheinigung, Qualifikationsnachweis
 
-    **Nicht verwechseln mit [Leistungsnachweis](../personal_menu/Evidence_of_Achievements.de.md):** Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
+    **Nicht verwechseln mit «[Leistungsnachweis](../personal_menu/Evidence_of_Achievements.de.md)»:** Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
 
-    **Nicht verwechseln mit [Badge](../personal_menu/OpenBadges.de.md):** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
+    **Nicht verwechseln mit «[Badge](../personal_menu/OpenBadges.de.md)»:** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
 
     [Im Handbuch lesen](../personal_menu/Certificates.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zertifikat%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -189,7 +189,7 @@ Eine digitale Auszeichnung nach dem Standard Open Badges, mit Bild, Kriterien un
 
     **Wie Nutzende es nennen:** Abzeichen, Auszeichnung, Orden, Micro-Credential, Digitales Abzeichen, Leistungsabzeichen, Erfolgsabzeichen, Digitale Auszeichnung, Lernabzeichen
 
-    **Nicht verwechseln mit [Zertifikat](../personal_menu/Certificates.de.md):** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
+    **Nicht verwechseln mit «[Zertifikat](../personal_menu/Certificates.de.md)»:** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
 
     [Im Handbuch lesen](../personal_menu/OpenBadges.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Badge%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -197,15 +197,15 @@ Eine digitale Auszeichnung nach dem Standard Open Badges, mit Bild, Kriterien un
 
 </div>
 
-!!! info "Nicht verwechseln: Test und Selbsttest"
+!!! info "Nicht verwechseln: «Test» und «Selbsttest»"
 
     Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
-!!! info "Nicht verwechseln: Leistungsnachweis und Zertifikat"
+!!! info "Nicht verwechseln: «Leistungsnachweis» und «Zertifikat»"
 
     Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
 
-!!! info "Nicht verwechseln: Zertifikat und Badge"
+!!! info "Nicht verwechseln: «Zertifikat» und «Badge»"
 
     Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
 
@@ -219,7 +219,7 @@ Eine digitale Auszeichnung nach dem Standard Open Badges, mit Bild, Kriterien un
 
 [How-to: Wie gehe ich vor, wenn ich einen Test erstelle?](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 

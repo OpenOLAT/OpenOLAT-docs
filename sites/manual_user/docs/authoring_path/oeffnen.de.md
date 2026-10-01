@@ -117,7 +117,7 @@ Kursrolle mit der vollen Verantwortung für eine Lernressource.
 
     **Wie Nutzende es nennen:** Kursverantwortliche:r, Kursersteller:in, Inhaber:in
 
-    **Nicht verwechseln mit [Betreuer:in](../basic_concepts/coach.de.md):** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
+    **Nicht verwechseln mit «[Betreuer:in](../basic_concepts/coach.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
     [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Besitzer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -139,7 +139,7 @@ Kursrolle. Betreuende begleiten die Teilnehmenden eines Kurses oder einer Gruppe
 
     **Wie Nutzende es nennen:** Tutor, Lehrperson, Kursleitung, Trainer, Ausbilder, Lernbegleitung, Instruktor:in
 
-    **Nicht verwechseln mit [Besitzer:in](../basic_concepts/Roles.de.md):** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
+    **Nicht verwechseln mit «[Besitzer:in](../basic_concepts/Roles.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
     [Im Handbuch lesen](../basic_concepts/coach.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Betreuer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -167,7 +167,7 @@ Kursrolle. Teilnehmende arbeiten den Kurs durch und sehen ausschliesslich die ei
 
 </div>
 
-!!! info "Nicht verwechseln: Besitzer:in und Betreuer:in"
+!!! info "Nicht verwechseln: «Besitzer:in» und «Betreuer:in»"
 
     Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
@@ -181,7 +181,7 @@ Kursrolle. Teilnehmende arbeiten den Kurs durch und sehen ausschliesslich die ei
 
 [How-to: Mitglieder hinzufügen und Kurs veröffentlichen](../../manual_how-to/my_first_course/my_first_course.de.md#add_members)
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 

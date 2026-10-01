@@ -306,8 +306,8 @@ ui:
     part_of: "Gehört dazu:"
     other_lang: Englisch
     syn: Wie Nutzende es nennen
-    apart_detail: "Nicht verwechseln mit {other}:"
-    apart_station: "Nicht verwechseln: {a} und {b}"
+    apart_detail: "Nicht verwechseln mit «{other}»:"
+    apart_station: "Nicht verwechseln: «{a}» und «{b}»"
     manual: Im Handbuch lesen
     sophia: Sophia fragen
     sophia_q: 'Was ist "{name}" in OpenOlat und wie verwende ich es?'
@@ -316,7 +316,7 @@ ui:
     read: Nachlesen
     howto_prefix: "How-to:"
     no_howto: Zu dieser Station gibt es noch kein How-to.
-    frentix: "Mit frentix: in der Schulung zeigen wir es."
+    frentix: "Mit frentix: In der Schulung zeigen wir es."
     frentix_mail: support@frentix.com
     deepen_h: Vertiefen, wenn der erste Kurs läuft
     deepen_lead: >-

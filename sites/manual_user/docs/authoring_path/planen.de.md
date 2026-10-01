@@ -69,7 +69,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Wie Nutzende es nennen:** Sequenzieller Kurs, geführter Lernpfad, Schritt-für-Schritt-Kurs, Fortschrittsbasierter Kurs, strukturierter Kurs, geführter Lernprozess
 
-    **Nicht verwechseln mit [Herkömmlicher Kurs](../learningresources/Creating_Course.de.md):** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
+    **Nicht verwechseln mit «[Herkömmlicher Kurs](../learningresources/Creating_Course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
     [Im Handbuch lesen](../learningresources/Learning_path_course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfadkurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -81,7 +81,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Wie Nutzende es nennen:** klassischer Kurs, alter Kurstyp, Standardkurs, Selbstgesteuerter Kurs, Selbstlernkurs
 
-    **Nicht verwechseln mit [Lernpfadkurs](../learningresources/Learning_path_course.de.md):** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
+    **Nicht verwechseln mit «[Lernpfadkurs](../learningresources/Learning_path_course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
     [Im Handbuch lesen](../learningresources/Creating_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Herk%C3%B6mmlicher%20Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
@@ -107,7 +107,7 @@ Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Review, Freigabe Betreue
 
 </div>
 
-!!! info "Nicht verwechseln: Lernpfadkurs und Herkömmlicher Kurs"
+!!! info "Nicht verwechseln: «Lernpfadkurs» und «Herkömmlicher Kurs»"
 
     Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
@@ -121,7 +121,7 @@ Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Review, Freigabe Betreue
 
 [How-to: Neuen Kurs erstellen und einstellen](../../manual_how-to/my_first_course/my_first_course.de.md#create_course)
 
-Mit frentix: in der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
 
 </div>
 
