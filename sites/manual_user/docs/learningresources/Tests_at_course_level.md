@@ -6,7 +6,7 @@ Here you get an overview of how to further configure a test in a course, how to 
 
 Owners of the course, learning resource managers and administrators as well as persons with the right "Course editor" open the course editor. Open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
 
-![Ten tabs for configuring a course element Test, from Title and description to Reminders](assets/Test_Kurseditor_Tabs_172_en.png){ class="shadow lightbox" title="Course element Test in the course editor" }
+![Ten tabs for configuring a course element Test, from Title and description to Reminders, the Correctors tab greyed out](assets/course_element_test_editor_tabs_v1_en.png){ class="shadow lightbox" title="Course element Test in the course editor · 2026.10.01" }
 
 The "Title and description" and "Layout" tabs are the same for all course elements.
 
@@ -14,7 +14,7 @@ The "Title and description" and "Layout" tabs are the same for all course elemen
 
 In the Learning path tab, you can define whether the course element is mandatory for the learning path course, whether it should not be used for the learning path display (setting "Voluntary"), or whether the course element should not be displayed at all (setting "Excluded"). You can also define a release date, a maximum processing date and the expected processing time. The following completion criteria are also available for tests:
 
-![Completion criterion with five options as a selection, with Confirmation by participant selected](assets/test_completion_criterion.png){ class="shadow lightbox" title="Learning path tab of the course element Test" }
+![Field Completion criterion with five options marked, Test finished selected](assets/course_element_test_completion_criterion_v1_en.png){ class="shadow lightbox" title="Learning path tab of the course element Test · 2026.10.01" }
 
 ### Tab "Test configuration"
 
@@ -57,13 +57,13 @@ The following settings are possible after you have created or assigned a learnin
 
 **Show assessment on test homepage**: Here it can be defined whether, or under which conditions, the results should be shown on the test homepage.
 
-![Drop-down list Show assessment on test homepage with six options from No to If not passed or passed](assets/Test_Report_config.png){ class="shadow lightbox" title="Report section in the Test configuration tab" }
+![Drop-down list Show assessment on test homepage with six options from No to If not passed or passed](assets/course_element_test_report_results_homepage_v1_en.png){ class="shadow lightbox" title="Report section in the Test configuration tab · 2026.10.01" }
 
 If the "Always" field is selected, the results are available immediately after the test is completed. If "No" is selected, the results are not displayed at all. And with the other options, criteria- or date-dependent displays can be defined.
 
 **Show results after test has been submitted**: Here you configure whether the learners see the results directly after submitting. Which information they receive is defined under "Overview results". The selection chosen is the same for "Show assessment on test homepage" and "Show results after test has been submitted":
 
-![Five checkboxes under Overview results, from Test summary to Solution](assets/Optionen_Anzeige_Resultate.png){ class="shadow lightbox" title="Overview results field in the Report section" }
+![Five checkboxes under Overview results marked, from Test summary to Solution](assets/course_element_test_report_summary_v1_en.png){ class="shadow lightbox" title="Report section in the Test configuration tab · 2026.10.01" }
 
 The **test summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
@@ -90,7 +90,7 @@ Here you can set whether participants can send live chat requests to the coaches
 
 A highscore overview for the test can also be activated and further configured here.
 
-![Checkbox Show Highscore with starting date, anonymization and four displays, including Podium and Histogram](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" title="HighScore tab of the course element Test" }
+![Show Highscore with relative dates, starting date and anonymization, below four display options](assets/course_element_test_highscore_v1_en.png){ class="shadow lightbox" title="HighScore tab of the course element Test · 2026.10.01" }
 
 ### Tab "Correctors" [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442)
 An overview of the correctors and further information will appear. Changes can be made via a link to the test's learning resource.

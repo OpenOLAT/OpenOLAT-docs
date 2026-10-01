@@ -6,7 +6,7 @@ Hier erhalten Sie einen Überblick wie Sie einen Test in einem Kurs weiter konfi
 
 Den Kurseditor öffnen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Personen mit dem Recht "Kurseditor". Öffnen Sie dafür den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
 
-![Zehn Tabs zur Konfiguration eines Kursbausteins Test, von Titel und Beschreibung bis Erinnerungen](assets/Test_Kurseditor_Tabs_172.png){ class="shadow lightbox" title="Kursbaustein Test im Kurseditor" }
+![Zehn Tabs zur Konfiguration eines Kursbausteins Test, von Titel und Beschreibung bis Erinnerungen, der Tab Korrektor:innen ausgegraut](assets/course_element_test_editor_tabs_v1_de.png){ class="shadow lightbox" title="Kursbaustein Test im Kurseditor · 2026.10.01" }
 
 Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich. 
 
@@ -14,7 +14,7 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 Im Tab Lernpfad kann definiert werden, ob der Kursbaustein obligatorisch für den Lernpfad Kurs ist, ob er nicht für die Lernpfad Anzeige verwendet werden soll (Einstellung "Freiwillig") oder ob der Kursbaustein gar nicht angezeigt werden soll (Einstellung "Ausgenommen"). Ferner können ein Freigabedatum, ein maximales Bearbeitungsdatum sowie die voraussichtliche Bearbeitungszeit definiert werden. Des Weiteren stehen für Tests folgende Erledigungskriterien zur Verfügung:
 
-![Erledigungskriterium mit fünf Optionen als Auswahl, gewählt ist die Bestätigung durch die Benutzer:in](assets/Test_Erledigungskriterien_DE.png){ class="shadow lightbox" title="Tab Lernpfad des Kursbausteins Test" }
+![Feld Erledigungskriterium mit fünf Optionen markiert, gewählt ist Test beendet](assets/course_element_test_completion_criterion_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad des Kursbausteins Test · 2026.10.01" }
 
 ### Tab "Test-Konfiguration"
 
@@ -63,7 +63,7 @@ Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden de
 
 **Resultate nach Abgabe des Tests anzeigen**: Hier wird konfiguriert, ob die Lernenden die Resultate direkt nach der Abgabe sehen. Welche Informationen sie erhalten, legen Sie unter "Übersicht Resultate" fest. Die gewählte Auswahl ist dieselbe für "Resultate auf Test-Startseite anzeigen" und "Resultate nach Abgabe des Tests anzeigen":
 
-![Fünf Kontrollkästchen unter Übersicht Resultate, von Testzusammenfassung bis Lösung](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow lightbox" title="Feld Übersicht Resultate im Abschnitt Report" }
+![Fünf Kontrollkästchen unter Übersicht Resultate markiert, von Testzusammenfassung bis Lösung](assets/course_element_test_report_summary_v1_de.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration · 2026.10.01" }
 
 Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
@@ -90,7 +90,7 @@ Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmend
 
 Hier kann für einen Test auch eine Highscore Übersicht aktiviert und weiter konfiguriert werden.
 
-![Kontrollkästchen Highscore anzeigen mit Anfangsdatum, Anonymisierung und vier Darstellungen, darunter Siegertreppchen und Histogramm](assets/Highscore_Einstellungen_DE.png){ class="shadow lightbox" title="Tab HighScore des Kursbausteins Test" }
+![Highscore anzeigen mit relativem Datum, Anfangsdatum und Anonymisierung, darunter vier Anzeigeoptionen](assets/course_element_test_highscore_v1_de.png){ class="shadow lightbox" title="Tab HighScore des Kursbausteins Test · 2026.10.01" }
 
 ### Tab "Korrektor:innen" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442)
 Es erscheint eine Übersicht der Korrektor:innen sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
