@@ -1,15 +1,15 @@
 # Kopieren eines Kurses mit Wizard {: #course_copy_wizard}
 
 
-![Der Menüpunkt Kopieren mit Wizard im aufgeklappten Menü](assets/course_copy_with_wizard_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Menüpunkt Kopieren mit Wizard markiert, direkt darüber der Menüpunkt Kopieren](assets/course_copy_with_wizard_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
-Sie finden diese Option im Kurs unter `Kurs > Administration > Kopieren mit Wizard`.
+Sie finden diese Option im Kurs unter `Kurs > Administration > Kopieren mit Wizard`. Sie steht Besitzer:innen des Kurses mit der Rolle Autor:in, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung. Weitere Autor:innen erhalten sie, wenn unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` bei «Autor:innen können» die Auswahl «kopieren» angekreuzt ist.
 
 Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewählt werden. So kann noch effektiver eine Übertragung für einen neuen Kursdurchlauf erfolgen. 
 
 Im ersten Schritt «Allgemeine Einstellungen» wählen Sie den Kopiermodus «Automatisch» oder «Benutzerdefiniert». Im Kopiermodus «Benutzerdefiniert» können die zu kopierenden Kursobjekte ausgewählt und weitere Einstellungen, z.B. bezüglich der Mitgliederverwaltung und bestimmten Kursbausteinen vorgenommen werden. 
 
-Diese Funktion ist nur für [Lernpfadkurse](Learning_path_course.de.md) verfügbar. 
+Diese Funktion ist nur für [Lernpfadkurse](Learning_path_course.de.md) verfügbar. Einen herkömmlichen Kurs kopieren Sie für den nächsten Durchlauf unter `Kurs > Administration > Kopieren`, siehe [Kopieren (eines Kurses)](Course_Copy.de.md).
 
 
 !!! tip "Tipp"
@@ -38,11 +38,11 @@ Ist das [Modul «Räume»](../../manual_admin/administration/Modules_Rooms.de.md
 
 **Auf dieser Seite erwähnt**<br>
 [Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Kopieren (eines Kurses) >](Course_Copy.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](../area_modules/Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>
-[Kopieren (eines Kurses) >](Course_Copy.de.md)<br>
 [Speichern (eines Kurses) als Template >](Course_Copy_Template.de.md)<br>
 [Termine und Absenzen >](Events_and_absences.de.md)
 

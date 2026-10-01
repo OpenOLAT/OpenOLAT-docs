@@ -1,14 +1,14 @@
 # Copy a course with wizard {: #course_copy_wizard}
 
-![The menu item Copy with wizard in the expanded menu](assets/course_copy_with_wizard_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
+![Menu item Copy with wizard highlighted, directly above it the menu item Copy](assets/course_copy_with_wizard_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
-You can find this option in the course under `Course > Administration > Copy with wizard`.
+You can find this option in the course under `Course > Administration > Copy with wizard`. It is available to course owners with the role Author, learning resource managers and administrators. Other authors get it if "copy" is checked under "Authors can" in `Course > Administration > Settings > Tab "Share"`.
 
 The wizard can be used to select the elements of a course to be copied. This makes it even more effective to transfer elements for a new course run.
 
 In the first step "General settings" you choose the copy mode "Automatic" or "Custom". In the copy mode "Custom", the course objects to be copied can be selected and further settings can be made, e.g. with regard to member administration and certain course elements. 
 
-This function is only available for [learning path courses](Learning_path_course.md).
+This function is only available for [learning path courses](Learning_path_course.md). To copy a conventional course for the next run, use `Course > Administration > Copy`, see [Copy (a course)](Course_Copy.md).
 
 
 !!! tip "Tip"
@@ -37,12 +37,12 @@ If the ["Rooms" module](../../manual_admin/administration/Modules_Rooms.md) is a
 
 **Mentioned on this page**<br>
 [Learning path course - Overview >](Learning_path_course.md)<br>
+[Copy (a course) >](Course_Copy.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](../area_modules/Course_Planner_Rooms.md)
 
 **Further reading**<br>
-[Copy (a course) >](Course_Copy.md)<br>
-[Save as template >](Course_Copy_Template.md)<br>
+[Save (a course) as template >](Course_Copy_Template.md)<br>
 [Events and absences >](Events_and_absences.md)
 
 [To the top of the page ^](#course_copy_wizard)
