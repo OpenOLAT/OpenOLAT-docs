@@ -1,17 +1,17 @@
 # Modul Microsoft Teams {: #teams_module}
 
-Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppen legen Kursbesitzer:innen, Betreuer:innen und Gruppenbetreuer:innen damit Online-Termine an, zu denen die Teilnehmenden aus OpenOlat heraus beitreten. Welche Arten von Online-Terminen dabei zur Wahl stehen, legen Administrator:innen für die ganze Instanz fest, zum Beispiel ob jeder Termin ein Datum braucht und damit im Kalender erscheint.
+Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppen legen Besitzer:innen und Betreuer:innen damit Online-Termine an, zu denen die Teilnehmenden aus OpenOlat heraus beitreten. Welche Arten von Online-Terminen dabei zur Wahl stehen, legen Administrator:innen für die ganze Instanz fest, zum Beispiel ob jeder Termin ein Datum braucht und damit im Kalender erscheint.
 
 Sie konfigurieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
-Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt die Seite [Externe Werkzeuge: Übersicht](External_Tools_-_Administration.de.md#_microsoft_teams). Wie Kursbesitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md).
+Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt die Seite [Externe Werkzeuge: Übersicht](External_Tools_-_Administration.de.md#_microsoft_teams). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md).
 
 ---
 
 ## Tab "Konfiguration" [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #tab_config}
 
-Im Tab "Konfiguration" schalten Sie Microsoft Teams für die Instanz ein und bestimmen, wo und mit welchen Varianten Online-Termine entstehen dürfen.
+Im Tab "Konfiguration" schalten Sie Microsoft Teams für die Instanz ein und bestimmen, wo und mit welchen Varianten Online-Termine entstehen dürfen und ob OpenOlat ihre Aufzeichnungen übernimmt.
 
 ### Konfiguration von Microsoft Teams Integration {: #teams_config}
 
@@ -38,6 +38,36 @@ Das Modul BigBlueButton kennt dieselbe Einstellung unter dem Namen "Online-Termi
 #### Anwendungs-ID (Client), Geheimer Clientschlüssel, Tenant GUID {: #tenant_credentials}
 
 Sind in der Serverkonfiguration Zugangsdaten zum Microsoft 365 Tenant hinterlegt, zeigt der Tab sie in diesen drei Feldern zur Ansicht. Ändern lassen sie sich nur in der Serverkonfiguration. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+
+### Terminaufzeichnung [:octicons-tag-16:{ title="ab Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
+
+Soll eine Organisation Aufzeichnungen von Online-Terminen in OpenOlat bereitstellen und nach Plan wieder löschen, schalten Sie hier die Terminaufzeichnung ein. OpenOlat holt dann die fertigen Aufzeichnungen aus Microsoft Teams ab, legt sie beim Online-Termin ab und zeigt sie den gewählten Rollen. Ohne die Funktion bleibt eine Aufzeichnung in Microsoft Teams. Was Besitzer:innen und Betreuer:innen je Online-Termin einstellen, steht im Benutzerhandbuch im Abschnitt [Terminaufzeichnung](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#meeting_recording).
+
+Der Abschnitt erscheint erst, wenn das Modul eingeschaltet ist. Die vier Einstellungen nach dem Schalter erscheinen erst, wenn die Funktion "Terminaufzeichnung" eingeschaltet ist.
+
+#### Funktion "Terminaufzeichnung" {: #recording_enabled}
+
+Schaltet die Terminaufzeichnung für die ganze Instanz ein oder aus. Ist sie ausgeschaltet, fehlen die Einstellungen zur Aufzeichnung in jedem Online-Termin, und OpenOlat holt keine Aufzeichnung ab, auch für Online-Termine, die früher mit eingeschalteter Terminaufzeichnung gespeichert wurden.
+
+Zum Einschalten braucht OpenOlat in der Serverkonfiguration einen Schlüssel zum Schutz der Zugriffs-Token. Fehlt er, zeigt der Abschnitt eine Warnung, der Schalter lässt sich nicht einschalten, und OpenOlat lädt keine Aufzeichnungen herunter. frentix-Kund:innen wenden sich für die Einrichtung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+
+#### Terminaufzeichnung (Standard) {: #recording_default}
+
+Standardwert für neue Online-Termine, "Ein" oder "Aus". Ab Werk ist "Aus" gewählt. Besitzer:innen und Betreuer:innen können den Standardwert je Online-Termin ändern.
+
+#### Aufnahme starten (Standard) {: #recording_auto_start}
+
+Standardwert, wann die Aufzeichnung beginnt: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Ab Werk ist "Manuell durch die Sitzungsleitung" gewählt.
+
+#### Aufnahme automatisch veröffentlichen für (Standard) {: #recording_publishing}
+
+Standardwert, für welche Rollen eine Aufzeichnung nach dem Online-Termin sichtbar ist: "Besitzer:innen / Betreuer:innen", "Teilnehmer:innen des Kurses / der Gruppe", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle angekreuzt, veröffentlicht OpenOlat neue Aufzeichnungen nicht automatisch, sie werden nach dem Online-Termin von Hand publiziert.
+
+#### Terminaufzeichnung automatisch löschen {: #recording_deletion}
+
+Anzahl Tage nach Termin-Ende, nach denen OpenOlat eine Aufzeichnung löscht. OpenOlat prüft das einmal täglich in der Nacht. Bleibt das Feld leer, löscht OpenOlat keine Aufzeichnung automatisch.
+
+Gelöscht wird nur die Aufzeichnung, nie der Online-Termin. Aufzeichnungen, die Besitzer:innen oder Betreuer:innen als "Aufzeichnung nicht löschbar" markiert haben, bleiben erhalten.
 
 ---
 

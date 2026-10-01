@@ -16,7 +16,7 @@ Spezialität / Hinweis | Microsoft Teams ist eine kommerzielle Software. Um den 
 
 ## Funktionen der Software  {: #software_functions}
 
-Microsoft Teams ermöglicht virtuelle Räume für synchrone Meetings mit Webcam- und Audio-Unterstützung.
+Microsoft Teams ermöglicht virtuelle Räume für synchrone Online-Termine mit Webcam- und Audio-Unterstützung.
 
 ## Systemvoraussetzungen {: #system_requirements}
 
@@ -28,11 +28,11 @@ MS Teams kann sowohl als App als auch im MS Browser Edge verwendet werden.
 
 ## Rollen in MS Teams {: #teams_roles}
 
-In einem MS Teams Meeting gibt es drei Rollen:
+In einem Online-Termin mit MS Teams gibt es drei Rollen:
 
 | Rolle | Wer | Rechte |
 |-------|-----|--------|
-| **Organizer** | Automatisch die Person, die den Online-Termin zuerst startet, genau eine Person pro Meeting | Breakout-Räume erstellen, Meeting-Einstellungen, volle Kontrolle |
+| **Organizer** | Automatisch die Person, die den Online-Termin zuerst startet, genau eine Person pro Online-Termin | Breakout-Räume erstellen, Einstellungen in MS Teams, volle Kontrolle |
 | **Presenter** | Alle Personen gemäss der Einstellung **Moderator:in** des Online-Termins (siehe [Moderator-Optionen im Detail](#moderator_options)) | Bildschirm teilen, Inhalte verwalten |
 | **Attendee** | Alle übrigen Teilnehmenden | Zuhören und zuschauen |
 
@@ -40,11 +40,11 @@ In einem MS Teams Meeting gibt es drei Rollen:
 
     Die erste Person, die einen Online-Termin startet, erhält automatisch die Rolle **Organizer**, unabhängig von der Einstellung **Moderator:in** in OpenOlat. Diese Rolle kann nachträglich weder in OpenOlat noch in Microsoft Teams geändert oder neu vergeben werden.
 
-    Bei **permanenten Reservierungen** mit wechselnden Betreuenden hat daher nur diejenige Person, die das Meeting zuerst gestartet hat, dauerhaft Zugriff auf erweiterte Funktionen wie Breakout-Räume. Soll eine andere Person als Organizer auftreten, muss ein neuer Online-Termin angelegt werden.
+    Bei **permanenten Reservierungen** mit wechselnden Betreuenden hat daher nur diejenige Person, die den Online-Termin zuerst gestartet hat, dauerhaft Zugriff auf erweiterte Funktionen wie Breakout-Räume. Soll eine andere Person als Organizer auftreten, muss ein neuer Online-Termin angelegt werden.
 
 ## Online-Termine anlegen bei geschlossenem Kurseditor [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #closed_editor_configuration}
 
-Damit Teilnehmende ein Microsoft Teams Meeting direkt aus dem Kurs betreten können, legen Besitzer:innen und Betreuer:innen des Kurses dafür Online-Termine an. Das geschieht im laufenden Kurs, nicht im Kurseditor: Kursbaustein "Microsoft Teams" öffnen, dann im Tab **Terminverwaltung** die Auswahl **Online-Termin hinzufügen** öffnen:<br>
+Damit Teilnehmende einen Online-Termin mit Microsoft Teams direkt aus dem Kurs betreten können, legen Besitzer:innen und Betreuer:innen des Kurses dafür Online-Termine an. Das geschieht im laufenden Kurs, nicht im Kurseditor: Kursbaustein "Microsoft Teams" öffnen, dann im Tab **Terminverwaltung** die Auswahl **Online-Termin hinzufügen** öffnen:<br>
 `Kursbaustein "Microsoft Teams" > Terminverwaltung > Online-Termin hinzufügen`
 
 ### Varianten beim Anlegen von Online-Terminen {: #meeting_variants}
@@ -64,12 +64,13 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
 
   *  **Name**: Bezeichnung des Online-Termins. Pflichtfeld.
   *  **Erstellt durch**: Der Name der Person, die den Online-Termin anlegt, wird automatisch angezeigt.
-  *  **Beschreibung**: Beschreibung des Online-Termins. Sie erscheint in der Detailansicht des Online-Termins, bevor Teilnehmende dem Meeting beitreten.
+  *  **Beschreibung**: Beschreibung des Online-Termins. Sie erscheint in der Detailansicht des Online-Termins, bevor Teilnehmende dem Online-Termin beitreten.
   *  **Hauptmoderator:in**: Hier kann der Name einer Person eingetragen werden. Vorbelegt ist der Name der Person, die den Online-Termin anlegt.
-  *  **Gäste**: Das Kontrollkästchen **erlauben** lässt nicht angemeldete Personen am Meeting teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
-  *  **Zugang externe Benutzer:innen**: Ein Meeting-Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
+  *  **Gäste**: Das Kontrollkästchen **erlauben** lässt nicht angemeldete Personen am Online-Termin teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
+  *  **Zugang externe Benutzer:innen**: Ein Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
   *  **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Terminen.
-  *  **Teilnehmer dürfen das Meeting eröffnen:** :octicons-tag-16:{ title="ab Release 15.4.1 (OO-5250)" } Teilnehmer mit einem Microsoft-Account der Institution dürfen das Meeting mit eingeschränkten Präsentationsberechtigungen eröffnen, ohne dass ein Betreuer anwesend sein muss.
+  *  **Terminaufzeichnung**: Schaltet die Aufzeichnung für diesen Online-Termin ein oder aus. Der Schalter erscheint nur, wenn die System-Administration die Funktion eingeschaltet hat. Was die Einstellung bewirkt und welche Felder dazukommen, steht im Abschnitt [Terminaufzeichnung](#meeting_recording).
+  *  **Teilnehmer:innen können den Termin eröffnen** :octicons-tag-16:{ title="ab Release 15.4.1 (OO-5250)" }: Bestimmt, ob Teilnehmende den Online-Termin starten dürfen, ohne dass eine Betreuer:in anwesend ist. Zur Wahl stehen zwei Karten. "Nicht erlaubt" ist vorausgewählt. Mit "Erlaubt" dürfen Teilnehmer:innen mit einem Microsoft-Konto der Organisation den Online-Termin mit eingeschränkten Berechtigungen eröffnen. Eröffnet eine Teilnehmer:in den Online-Termin, stehen den Betreuer:innen keine Gruppenräume ([Breakout-Räume](#breakout_rooms)) zur Verfügung. Ist die Terminaufzeichnung eingeschaltet, steht die Auswahl fest auf "Nicht erlaubt". Die Karten erscheinen nur, wenn die Serverkonfiguration dafür eingerichtet ist.
   *  **Moderator:in**: Bestimmt, wer in MS Teams die Rolle **Presenter** erhält (siehe [Rollen in MS Teams](#teams_roles)). Pflichtfeld.
 
 #### Moderator-Optionen im Detail {: #moderator_options}
@@ -89,7 +90,7 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
   *  **Beginn**: Datum und Uhrzeit, zu der der Online-Termin beginnt.
   *  **Vorlaufzeit (Min.)**: Zeit in Minuten vor dem Beginn, in der Besitzer:innen und Betreuer:innen den Online-Termin bereits starten und betreten können. Für Teilnehmende öffnet der Online-Termin erst zum Beginn.
   *  **Ende**: Datum und Uhrzeit, zu der der Online-Termin endet.
-  *  **Nachlaufzeit (Min.)**: Nachlaufzeit, in der das Meeting für alle Personen verlängert werden kann.
+  *  **Nachlaufzeit (Min.)**: Nachlaufzeit, in der der Online-Termin für alle Personen verlängert werden kann.
 
 !!! info "Wichtig"
 
@@ -99,9 +100,45 @@ In der Konfiguration eines Online-Termins öffnet der Link **Raumbuchungen anzei
 
 Im Tab **Online-Termine** öffnen Sie einen bestimmten Online-Termin.
 
+## Terminaufzeichnung [:octicons-tag-16:{ title="ab Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
+
+Wer einen Online-Termin aufzeichnet, will die Aufzeichnung danach den Teilnehmenden zeigen, ohne Dateien zu verschicken. Mit der Terminaufzeichnung holt OpenOlat die fertige Aufzeichnung aus Microsoft Teams ab, legt sie beim Online-Termin ab und zeigt sie dort an. Wer sie sehen darf, bestimmen Sie über Rollen. Ist in der System-Administration bei "Terminaufzeichnung automatisch löschen" eine Zahl Tage eingetragen, löscht OpenOlat die Aufzeichnung danach automatisch.
+
+Die Terminaufzeichnung gehört zum Online-Termin, nicht zum Kursbaustein. Sie wirkt darum an allen Orten gleich, an denen Online-Termine mit Microsoft Teams entstehen: Kursbaustein "Microsoft Teams", "Kurs Termine", Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat.
+
+Voraussetzung ist, dass die System-Administration die Funktion "Terminaufzeichnung" eingeschaltet hat, siehe [Modul Microsoft Teams](../../manual_admin/administration/Teams_module.de.md#meeting_recording). Sonst fehlen die Einstellungen im Online-Termin, und OpenOlat holt keine Aufzeichnung ab. Eine Aufzeichnung, die jemand direkt in Microsoft Teams startet, bleibt dann in Microsoft Teams.
+
+### Einstellungen im Online-Termin {: #recording_settings}
+
+Beim Anlegen oder Bearbeiten eines Online-Termins legen Sie fest, ob und wie er aufgezeichnet wird. Die Standardwerte kommen aus der System-Administration, Sie können sie je Online-Termin ändern.
+
+  *  **Terminaufzeichnung**: Mit "Ein" darf der Online-Termin aufgezeichnet werden. Alle Personen müssen dann vor dem Betreten zustimmen, und die Auswahl "Teilnehmer:innen können den Termin eröffnen" steht fest auf "Nicht erlaubt". Mit "Aus" wird nichts aufgezeichnet, und die Seite des Online-Termins zeigt keine Aufzeichnungen.
+  *  **Aufnahme starten**: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Wer den Online-Termin startet, sieht neben dem Button **Online-Termin starten** das Kontrollkästchen **Aufzeichnung automatisch starten**. Es ist nach dieser Einstellung vorbelegt und lässt sich vor dem Start ändern.
+  *  **Aufnahme automatisch veröffentlichen für**: Die Rollen, die die Aufzeichnung nach dem Online-Termin sehen: "Besitzer:innen / Betreuer:innen", "Teilnehmer:innen des Kurses / der Gruppe", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle angekreuzt, veröffentlicht OpenOlat die Aufzeichnung nicht automatisch. Sie publizieren sie dann nach dem Online-Termin von Hand.
+
+Die beiden Felder "Aufnahme starten" und "Aufnahme automatisch veröffentlichen für" erscheinen erst, wenn die Terminaufzeichnung eingeschaltet ist.
+
+### Aufzeichnungen nach dem Online-Termin {: #recordings_list}
+
+Nach dem Online-Termin finden Sie die Aufzeichnung auf der Seite des Online-Termins in der Liste **Aufzeichnungen**. Sie erscheint nicht sofort: OpenOlat holt fertige Aufzeichnungen einmal pro Stunde ab, frühestens 15 Minuten nach dem Ende des Online-Termins. Bis dahin zeigt die Liste "Es ist zur Zeit noch keine Aufzeichnung für diesen Online-Termin vorhanden."
+
+Die Liste zeigt je Aufzeichnung **Name**, **Beginn**, **Ende** und den Link **Öffnen**. "Öffnen" zeigt die Aufzeichnung in OpenOlat an, dort lässt sie sich auch herunterladen. Der Link erscheint nur, wenn die Aufzeichnung für eine Rolle der Person veröffentlicht ist. Das gilt auch für Besitzer:innen und Betreuer:innen.
+
+Besitzer:innen und Betreuer:innen sehen zusätzlich die Spalte **Publizieren** und je Aufzeichnung das Menü **Weitere Aktionen** am Zeilenende. Ist in der System-Administration bei "Terminaufzeichnung automatisch löschen" eine Zahl Tage eingetragen, zeigt ihnen die Spalte "Wird nicht automatisch gelöscht" (Schloss-Symbol), welche Aufzeichnungen davon ausgenommen sind.
+
+**Publizieren** öffnet das Fenster "Publizieren für:" mit denselben vier Rollen wie im Online-Termin. Angekreuzt sind die Rollen, für die die Aufzeichnung bereits veröffentlicht ist. Der Button **Publizieren** übernimmt die Auswahl. So geben Sie eine Aufzeichnung nachträglich frei oder ziehen die Freigabe zurück.
+
+Das Menü **Weitere Aktionen** einer Aufzeichnung bietet drei Aktionen:
+
+  *  **Öffnen**: zeigt die Aufzeichnung an, wie der Link in der Liste.
+  *  **Aufzeichnung nicht löschbar**: nimmt die Aufzeichnung vom automatischen Löschen aus, zum Beispiel eine Vorlesung, die dauerhaft gebraucht wird. Für eine so markierte Aufzeichnung steht an derselben Stelle **Aufzeichnung löschbar**, das die Ausnahme wieder aufhebt.
+  *  **Löschen**: löscht die Aufzeichnung nach einer Rückfrage endgültig. Der Online-Termin bleibt bestehen.
+
+Das automatische Löschen betrifft nur Aufzeichnungen, nie den Online-Termin. Die Zahl Tage legt die System-Administration fest.
+
 ## Breakout-Räume {: #breakout_rooms}
 
-Breakout-Räume können ausschliesslich vom **Organizer** eines Meetings erstellt und verwaltet werden (siehe [Rollen in MS Teams](#teams_roles)).
+Breakout-Räume können ausschliesslich vom **Organizer** eines Online-Termins erstellt und verwaltet werden (siehe [Rollen in MS Teams](#teams_roles)).
 
 **Unterstützte Plattformen:** Breakout-Räume stehen nur in der Teams Desktop-App unter Windows und macOS zur Verfügung: nicht im Webbrowser und nicht auf mobilen Geräten.
 
@@ -111,9 +148,9 @@ Breakout-Räume können ausschliesslich vom **Organizer** eines Meetings erstell
   * Personen auf nicht unterstützten Geräten (z.B. CVI-Konferenzgeräte)
   * Offline-Teilnehmende oder Personen mit veralteter Teams-Version
 
-**Weitere Einschränkungen:** Breakout-Räume sind nicht verfügbar bei abgesagten oder gelöschten Meetings, in privaten oder geteilten Kanälen sowie bei entsprechenden Admin-Richtlinien.
+**Weitere Einschränkungen:** Breakout-Räume sind nicht verfügbar bei abgesagten oder gelöschten Online-Terminen, in privaten oder geteilten Kanälen sowie bei entsprechenden Admin-Richtlinien.
 
-**Kapazität:** Pro Meeting sind maximal 300 Teilnehmende möglich. Bei Überschreitung wird die Breakout-Funktion automatisch deaktiviert. Räume verfallen nach 60 Tagen Inaktivität.
+**Kapazität:** Pro Online-Termin sind maximal 300 Teilnehmende möglich. Bei Überschreitung wird die Breakout-Funktion automatisch deaktiviert. Räume verfallen nach 60 Tagen Inaktivität.
 
 ## Anzeige im Kurskalender {: #calender_view}
 
@@ -130,13 +167,15 @@ Ruft ein:e Teilnehmer:in den Kursbaustein auf, erscheinen zwei Listen: **Aktuell
 
 ![Zwei Listen mit aktuellen und vergangenen Online-Terminen, Spalten Name, Ohne Datum, Beginn, Ende und Link Auswählen](assets/course_element_teams_overview_v1_de.png){ class="shadow lightbox" title="Übersicht im Kursbaustein Microsoft Teams" }
 
-Über **Meeting beitreten** öffnet sich das Meeting in Microsoft Teams in einem neuen Fenster. Solange noch niemand den Online-Termin gestartet hat, ist der Button für Teilnehmende nicht aktiv. Besitzer:innen und Betreuer:innen sehen an seiner Stelle **Online-Termin starten**. Ob Teilnehmende das Meeting auch ohne Betreuer:in eröffnen dürfen, hängt von der Konfiguration des Online-Termins ab (siehe oben).
+Über **Meeting beitreten** öffnet sich der Online-Termin in Microsoft Teams in einem neuen Fenster. Solange noch niemand den Online-Termin gestartet hat, ist der Button für Teilnehmende nicht aktiv. Besitzer:innen und Betreuer:innen sehen an seiner Stelle **Online-Termin starten**. Ob Teilnehmende den Online-Termin auch ohne Betreuer:in eröffnen dürfen, hängt von der Konfiguration des Online-Termins ab (siehe oben).
 
-![Button Meeting beitreten, daneben der Name, unter dem die Person dem Meeting beitritt](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins" }
+![Button Meeting beitreten, daneben der Name, unter dem die Person dem Online-Termin beitritt](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins" }
 
-!!! warning "Achtung"
+Ist für den Online-Termin die Terminaufzeichnung eingeschaltet, steht über dem Button der Abschnitt **Aufzeichnungen**: "Dieser Online-Termin kann aufgezeichnet werden. Die Aufzeichnung kann nach dem Online-Termin in OpenOlat veröffentlicht werden." Den Online-Termin betreten Sie erst, wenn Sie **Ich bin einverstanden** angekreuzt haben. Nach dem Online-Termin erscheint die Aufzeichnung auf derselben Seite in der Liste **Aufzeichnungen**. Mit **Öffnen** sehen Sie sie an, sofern sie für Ihre Rolle veröffentlicht ist. Gäste sehen eine Aufzeichnung nur, wenn die Rolle "Gäste" gewählt ist. Details: [Terminaufzeichnung](#meeting_recording).
 
-    Bei abgelaufenen Meetings ist der Beitritt nicht mehr möglich. Aufzeichnungen stehen in OpenOlat nicht zur Verfügung; Aufzeichnungen, die direkt in Microsoft Teams erstellt wurden, sind ausschliesslich über Microsoft Teams abrufbar.
+!!! info "Wichtig"
+
+    Bei beendeten Online-Terminen ist der Beitritt nicht mehr möglich.
 
 ## Bei Problemen {: #troubleshooting}
 
