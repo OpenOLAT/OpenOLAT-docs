@@ -139,7 +139,7 @@ Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md), [Kursdurchführung](../learningresources/Learning_path_course_Course_editor.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
+- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 - **Kursstatus:** [Papierkorb](../learningresources/Access_configuration.de.md), [Freigabe Betreuer:innen](../learningresources/Access_configuration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
@@ -152,9 +152,9 @@ Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: D
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kurseditorwerkzeuge >](../learningresources/Using_additional_Course_Editor_Tools.de.md)<br>
+[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
-[Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
-[Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)
+[Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>

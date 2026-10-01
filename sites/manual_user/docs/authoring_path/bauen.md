@@ -228,7 +228,7 @@ The first course is in place. Now the things that did not matter while building 
 - **Course editor:** Enable edit mode.
 - **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements.md).
 - **Task:** [Group task](../learningresources/Course_Element_Grouptask.md), [Workflow](../learningresources/Course_Element_Task.md).
-- **Content editor:** [Import](../basic_concepts/Content_Editor.md), [Inspector](../basic_concepts/Content_Editor.md).
+- **Content editor:** [Content element](../basic_concepts/Content_Editor.md) (in the interface: **Add content**), [Import](../basic_concepts/Content_Editor.md), [Inspector](../basic_concepts/Content_Editor.md).
 - **Media Center:** [Shares](../../manual_admin/administration/Modules_Media_Center.md). All settings are on the page [Media Center Concept](../basic_concepts/Media_Center_Concept.md).
 
 ## Further information {: #further_information}

@@ -242,7 +242,7 @@ Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: D
 - **Kurseditor:** Bearbeitungsmodus aktivieren.
 - **Kursbaustein:** [Externe Seite](../learningresources/Course_Element_External_Page.de.md), [Linkliste](../learningresources/Course_Element_Link_List.de.md), [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbausteine](../learningresources/Course_Elements.de.md).
 - **Aufgabe:** [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md), [Workflow](../learningresources/Course_Element_Task.de.md).
-- **Content Editor:** [Importieren](../basic_concepts/Content_Editor.de.md), [Inspektor](../basic_concepts/Content_Editor.de.md).
+- **Content Editor:** [Inhaltselement](../basic_concepts/Content_Editor.de.md) (in der Oberfläche: **Inhalt hinzufügen**), [Importieren](../basic_concepts/Content_Editor.de.md), [Inspektor](../basic_concepts/Content_Editor.de.md).
 - **Media Center:** [Freigaben](../../manual_admin/administration/Modules_Media_Center.de.md). Alle Einstellungen stehen auf der Seite [Media Center: Konzept](../basic_concepts/Media_Center_Concept.de.md).
 
 ## Weiterführende Informationen {: #further_information}

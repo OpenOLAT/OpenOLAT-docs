@@ -276,17 +276,16 @@ apart:
   - [course.storage_folder, course.resource_folder]
   - [course.exception, course.condition]
 
-# Tiefere Teile (part_of der Map), die im Abschnitt «Vertiefen» nicht erscheinen, weil sie im
-# Kontext des Autorenwegs falsch oder veraltet sind (Befund an die Map gemeldet):
-#   course.partial_elements  Reiter der Themenvergabe und der alten Aufgabe, kein Teil des Kursbausteins
-#   catalog.catalog_admin    Katalogverwaltung des Katalogs 1.0, veraltet
-#   authoring.content_element Begriff ohne i18n-Beleg
-#   course.course_lifecycle  Begriff ohne i18n-Beleg, Seite der System-Administration
-deep_exclude:
-  - course.partial_elements
-  - catalog.catalog_admin
-  - authoring.content_element
-  - course.course_lifecycle
+# Tiefere Teile (part_of der Map) im Abschnitt «Vertiefen»: veraltete Begriffe (Feld dep der
+# Map) blendet der Generator selbst aus. Begriffe mit agreed erscheinen, ihr Wort ist entschieden
+# (Entscheid Florian 2026-09-30). Einzelne Begriffe schliesst deep_exclude aus; die Liste ist leer.
+
+# Begriffe mit agreed, deren Wort die Oberfläche noch nicht trägt: der i18n-Schlüssel des Worts,
+# das Nutzende heute sehen. Der Generator liest den Wert aus OpenOLAT (origin/master) und stellt
+# ihn in Klammern nach. Nimmt die Map agreed heraus, entfällt der Zusatz.
+ui_word:
+  authoring.content_element: modules/ceditor/ui:add.content.title
+  course.course_lifecycle: repository:repository.admin.lifecycle.title
 
 # Art des Begriffs (kind der Map) als Etikett der Begriffskarte
 kind:
@@ -323,6 +322,7 @@ ui:
       Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die
       Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
     deepen_more: und weitere
+    in_ui: "in der Oberfläche: **{ui}**"
     deepen_attrs: "Alle Einstellungen stehen auf der Seite {link}."
     deepen_none: Diese Station hat keine tieferen Teile. Die nächste Station wartet.
     prev: zurück
@@ -362,6 +362,7 @@ ui:
       off: the terms of this station have parts and settings that control the course more
       precisely.
     deepen_more: and more
+    in_ui: "in the interface: **{ui}**"
     deepen_attrs: "All settings are on the page {link}."
     deepen_none: This station has no deeper parts. The next station is waiting.
     prev: back

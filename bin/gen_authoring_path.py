@@ -7,6 +7,8 @@ Eingaben
                                   Begriffe je Station, Türen, Verwechslungspaare
   map.json der Concept Map        nur lesend; Begriff, Beschreibung, Synonyme, Handbuchseite,
                                   Wortlaut der Verwechslungshinweise, tiefere Teile
+  OpenOLAT-Repo (git, nur lesend)  Wort der Oberfläche für die Begriffe unter ui_word der Ansicht,
+                                  gelesen aus LocalStrings_de/en.properties am Stand origin/master
 
 map.json entsteht in der Concept Map (fxIntelligence) mit
   cd <fxIntelligence>/knowledge/openolat/concept-map && CM_WORK=/tmp/cm python3 scripts/02_map_to_json.py
@@ -18,10 +20,10 @@ Ausgaben
 
 Der Lauf bricht ab, ohne etwas zu schreiben, wenn ein Schlüssel der Ansicht in der Map fehlt,
 ein Verwechslungspaar keine Kante in der Map hat, eine Handbuch- oder How-to-Seite nicht als
-Datei vorliegt oder ein Anker fehlt.
+Datei vorliegt, ein Anker fehlt oder ein Schlüssel unter ui_word in OpenOLAT keinen Wert hat.
 
 Aufruf (aus dem Repo-Wurzelverzeichnis):
-  .venv/bin/python3 bin/gen_authoring_path.py [--map /tmp/cm/map.json] [--check]
+  .venv/bin/python3 bin/gen_authoring_path.py [--map /tmp/cm/map.json] [--oo ../OpenOLAT] [--check]
   --check  prüft nur und schreibt nichts
 """
 import argparse
@@ -29,6 +31,7 @@ import json
 import os
 import posixpath
 import re
+import subprocess
 import sys
 import urllib.parse
 
@@ -48,6 +51,8 @@ TILES_END = "<!-- /gen:authoring_path_tiles -->"
 DEEP_MAX = 4
 DROP_DE = ("nicht mehr", "deprecated", "<s>")
 DROP_EN = ("no longer", "deprecated", "<s>")
+OO = os.path.join(os.path.dirname(ROOT), "OpenOLAT")
+OO_REF = "origin/master"
 
 errors = []
 
@@ -122,6 +127,21 @@ def first_sentences(desc):
     return out
 
 
+def i18n_value(oo, ref, bundle_key, lang):
+    """'repository:status.closed' -> value of the key in LocalStrings_<lang>.properties at ref, or None."""
+    bundle, key = bundle_key.split(":", 1)
+    path = f"src/main/java/org/olat/{bundle}/_i18n/LocalStrings_{lang}.properties"
+    r = subprocess.run(["git", "-C", oo, "show", f"{ref}:{path}"], capture_output=True, text=True)
+    if r.returncode != 0:
+        return None
+    for line in r.stdout.splitlines():
+        k, sep, v = line.partition("=")
+        if sep and k.strip() == key:
+            v = re.sub(r"\\u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), v.strip())
+            return None if v.startswith("$") else v
+    return None
+
+
 # ---------------------------------------------------------------- load ------------------------
 def load(map_path, views=VIEWS):
     with open(views, encoding="utf-8") as f:
@@ -189,6 +209,20 @@ def validate(V, M):
     for k in V.get("deep_exclude") or []:
         if k not in C:
             fail(f"Ausgeschlossener Schlüssel fehlt in der Map: {k}")
+    # word of the interface for terms whose agreed word the code does not carry yet
+    V["_ui_word"] = {}
+    for k, bundle_key in (V.get("ui_word") or {}).items():
+        if k not in C:
+            fail(f"Begriff unter ui_word fehlt in der Map: {k}")
+            continue
+        if not C[k].get("agreed"):
+            continue
+        for lang in LANGS:
+            v = i18n_value(OO, OO_REF, bundle_key, lang)
+            if not v:
+                fail(f"Kein Wert in OpenOLAT ({OO_REF}) für {bundle_key} [{lang}] (ui_word {k})")
+            else:
+                V["_ui_word"].setdefault(k, {})[lang] = gender(v)
     return edges
 
 
@@ -252,7 +286,7 @@ class Ctx:
             if self.name(x, lang) == self.name(k, lang):
                 continue
             c = self.C[x]
-            if c.get("internal"):
+            if c.get("internal") or c.get("dep"):
                 continue
             raw = c["de"] if lang == "de" else (c.get("en") or c["de"])
             if any(d in raw for d in drop):
@@ -436,7 +470,9 @@ def render_station(ctx, s, idx, lang):
             labels = []
             for x in names:
                 ln = ctx.man_link(x, lang, OUT)
-                labels.append(f"[{md_escape(ctx.name(x, lang))}]({ln})" if ln else md_escape(ctx.name(x, lang)))
+                label = f"[{md_escape(ctx.name(x, lang))}]({ln})" if ln else md_escape(ctx.name(x, lang))
+                ui = V["_ui_word"].get(x, {}).get(lang)
+                labels.append(label + (f" ({U['in_ui'].format(ui=md_escape(ui))})" if ui else ""))
             parts.append(", ".join(labels) + (f" {U['deepen_more']}" if more else "") + ".")
         if attrs:
             ml = ctx.man_link(k, lang, OUT)
@@ -516,11 +552,14 @@ def patch_home(V, lang, write):
 
 
 def main():
+    global OO
     ap = argparse.ArgumentParser()
     ap.add_argument("--map", default=os.path.join(os.environ.get("CM_WORK", "/tmp/cm"), "map.json"))
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--view", default=VIEWS, help="Ansichtsdatei (Vorgabe: der Autorenweg)")
+    ap.add_argument("--oo", default=OO, help="OpenOLAT-Repo für ui_word (Vorgabe: ../OpenOLAT)")
     args = ap.parse_args()
+    OO = args.oo
     if not os.path.isfile(args.map):
         sys.exit(f"map.json nicht gefunden: {args.map}")
     V, M = load(args.map, args.view)
