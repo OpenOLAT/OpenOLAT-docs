@@ -12,13 +12,13 @@ In the dialog "Select course design" you define whether the copy gets the course
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank"}
 
-![Button for converting a conventional course in the section Access course elements, tab Execution of the course settings](assets/Kurs konvertieren EN.png){ class="shadow lightbox" }
-
 During the conversion OpenOlat creates a copy of the course; the conventional course is retained. Courses with course elements that are not supported in learning path courses cannot be converted. OpenOlat lists the affected course elements in the dialog "Unsupported course elements". Remove these course elements and start the conversion again.
 
 !!! info "Important"
 
     A learning path course cannot be converted into a conventional course.
+
+For the opposite direction, from a learning path course to a conventional course, create a new course with the course design "Classic" and transfer the content with [Import course elements](Deleting_Moving_and_Copying_Course_Elements.md#import_course_elements).
 
 ## Configuration for calculating the learning progress
 
@@ -59,6 +59,7 @@ Like all learning resources, learning path courses can be copied. In addition, a
 
 **Mentioned on this page**<br>
 [Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Deleting, Moving and Copying Course Elements >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
 
 **Further reading**<br>

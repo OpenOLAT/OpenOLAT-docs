@@ -12,13 +12,13 @@ Im Dialog "Kursdesign wählen" legen Sie fest, ob die Kopie das Kursdesign "Mit 
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank"}
 
-![Button zum Umwandeln eines herkömmlichen Kurses im Abschnitt Zugriff Kursbausteine, Tab Durchführung der Kurseinstellungen](assets/Kurs_umwandeln_Lernpad.png){ class="shadow lightbox" }
-
 Beim Umwandeln legt OpenOlat eine Kopie des Kurses an; der herkömmliche Kurs bleibt erhalten. Kurse mit Kursbausteinen, die in Lernpfadkursen nicht unterstützt werden, lassen sich nicht umwandeln. OpenOlat listet die betroffenen Kursbausteine im Dialog "Nicht unterstützte Kursbausteine" auf. Entfernen Sie diese Kursbausteine und starten Sie die Umwandlung erneut.
 
 !!! info "Wichtig"
 
     Ein Lernpfadkurs lässt sich nicht in einen herkömmlichen Kurs umwandeln.
+
+Für den umgekehrten Weg, vom Lernpfadkurs zum herkömmlichen Kurs, erstellen Sie einen neuen Kurs mit dem Kursdesign "Klassisch" und übernehmen die Inhalte mit [Kursbausteine importieren](Deleting_Moving_and_Copying_Course_Elements.de.md#import_course_elements).
 
 ## Konfiguration zur Berechnung des Lernfortschritts
 
@@ -59,6 +59,7 @@ Wie alle Lernressourcen lassen sich Lernpfadkurse kopieren. Zusätzlich steht un
 
 **Auf dieser Seite erwähnt**<br>
 [Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
 **Weiterführend**<br>

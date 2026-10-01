@@ -18,7 +18,7 @@ Das Duplizieren von Kursbausteinen empfiehlt sich beispielsweise, wenn Sie Grupp
 Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müssen zum Schluss publiziert werden, um sie für die Teilnehmenden wirksam werden zu lassen. Solange Sie diese nicht publiziert haben, können gelöschte Kursbausteine wiederhergestellt werden.
 
 
-## Kursbausteine importieren [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210)
+## Kursbausteine importieren [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210) {: #import_course_elements}
 
 Haben Sie in einem anderen Kurs bereits eine umfangreiche Kursstruktur angelegt die Sie weiterverwenden wollen, bietet es sich an, diese Kursbausteine über "Kursbausteine importieren" in den gewünschten Kurs zu kopieren.
 

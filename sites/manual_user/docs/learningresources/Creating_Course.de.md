@@ -17,9 +17,15 @@ Lernpfadkursen als auch bei herkömmlichen Kursen im Kurseditor.
 
 Das Kursdesign wählen Sie im Dialog "Kurs erstellen": "Mit Lernpfad" und "Mit Lernfortschritt" ergeben einen Lernpfadkurs, "Klassisch" einen herkömmlichen Kurs.
 
+!!! tip "Herkömmlichen Kurs erstellen"
+
+    Im Dialog "Kurs erstellen" ist im Feld "Kursdesign" bereits ein Kursdesign markiert. Diese Vorauswahl legen Administrator:innen fest. Haben sie nichts eingestellt, ist "Mit Lernpfad" vorausgewählt. Für einen herkömmlichen Kurs klicken Sie vor dem Erstellen auf "Klassisch".
+
+    Einen herkömmlichen Kurs können Sie später [als Lernpfad duplizieren](Creating_learning_path_courses.de.md#convert_course). Haben Sie bereits einen Lernpfadkurs aufgebaut, übernehmen Sie dessen Inhalte mit [Kursbausteine importieren](Deleting_Moving_and_Copying_Course_Elements.de.md#import_course_elements) in einen neuen herkömmlichen Kurs.
+
 Zusätzlich lässt sich ein Kurs über "Mit Kursassistent:in erstellen" als "Einfacher Kurs" oder als "Prüfungskurs" anlegen. Für die meisten Lehrszenarien ist allerdings der Button "Erstellen" ohne Kursassistent:in die passende Wahl.
 
-![Aufgeklappter Button Mit Kursassistent:in erstellen mit den Optionen Einfacher Kurs und Prüfungskurs, darüber die drei Kursdesigns im Dialog Kurs erstellen](assets/creating_course_wizard_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Button Mit Kursassistent:in erstellen mit den Optionen Einfacher Kurs und Prüfungskurs, darüber die drei Kursdesigns, Mit Lernpfad vorausgewählt](assets/creating_course_wizard_v1_de.png){ class="shadow lightbox" title="Dialog Kurs erstellen" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank"}
 
@@ -69,6 +75,8 @@ Unabhängig vom Wechsel des Verwendungszwecks lässt sich über das Werkzeuge-Me
 [Lernpfadkurs - Teilnehmeransicht >](Learning_path_course_Participant_view.de.md)<br>
 [Allgemeines >](General_Information.de.md)<br>
 [Kursbausteine >](Course_Elements.de.md)<br>
+[Lernpfadkurse erstellen >](Creating_learning_path_courses.de.md)<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Speichern (eines Kurses) als Template >](Course_Copy_Template.de.md)
 
 **youtube**<br>

@@ -17,7 +17,7 @@ group work and want to use the same structure several times.
 
 The changes for deleting, moving and copying course elements have to be published to become effective for the course participants. As long as you have not published them, deleted course elements can be restored.
 
-## Importing course elements [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210)
+## Importing course elements [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5210)" }](https://track.frentix.com/issue/OO-5210) {: #import_course_elements}
 
 If you have already created a comprehensive course structure in another course you would like to continue using, it is a good idea to copy these course elements into the desired course via "Import course elements".
 

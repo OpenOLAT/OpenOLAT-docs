@@ -15,9 +15,15 @@ It is best to first get an overview of the entire [course cycle](General_Informa
 
 You choose the course design in the "Create course" dialog: "With learning path" and "With learning progress" result in a learning path course, "Classic" in a conventional course.
 
+!!! tip "Creating a conventional course"
+
+    In the "Create course" dialog, a course design is already selected in the "Course design" field. Administrators set this preselection. If they have not set one, "With learning path" is preselected. For a conventional course, click "Classic" before creating the course.
+
+    You can later [duplicate a conventional course as a learning path](Creating_learning_path_courses.md#convert_course). If you have already built a learning path course, transfer its content into a new conventional course with [Import course elements](Deleting_Moving_and_Copying_Course_Elements.md#import_course_elements).
+
 Additionally, a course can be created via "Create with course wizard" as a "Simple course" or an "Exam course". For most teaching scenarios, however, the "Create" button without course wizard is the appropriate choice.
 
-![Opened button Create with course wizard with the options Simple course and Exam course, above it the three course designs in the Create course dialog](assets/course_create_wizard_v1_en.png){ class="shadow lightbox" }
+![Opened button Create with course wizard with the options Simple course and Exam course, above it the three course designs, Classic preselected](assets/course_create_wizard_v1_en.png){ class="shadow lightbox" title="Dialog Create course" }
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank"}
 
@@ -67,6 +73,8 @@ Independently of changing the usage, you can use the course's tools menu to crea
 [Learning path course - Participant view >](Learning_path_course_Participant_view.md)<br>
 [General Information >](General_Information.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>
+[Creating learning path courses >](Creating_learning_path_courses.md)<br>
+[Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Save (a course) as template >](Course_Copy_Template.md)
 
 **youtube**<br>
