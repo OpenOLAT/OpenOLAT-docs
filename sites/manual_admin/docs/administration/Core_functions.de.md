@@ -31,8 +31,8 @@ Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bes
 
 Hier können Administrator:innen einstellen, welche OpenOlat
 [Werkzeuge](../../manual_user/personal_menu/index.de.md) den
-Benutzer:innen standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für
-den Schnellzugriff aktiviert sind (Voreinstellung).
+Benutzer:innen standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge als Symbol in der Menüleiste
+aktiviert sind (Voreinstellung).
 
 ![Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" } ![Liste Voreinstellung auf der Seite Persönliche Werkzeuge: nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" } 
 

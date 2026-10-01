@@ -27,7 +27,7 @@ Administrators can preset a start page for different roles or users with certain
 
 ## User tools {: #personal_tools}
 
-Here administrators can set which OpenOlat [tools](../../manual_user/personal_menu/index.md) are made available to users by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well as which tools are enabled in the menu bar for quick access (Preset).
+Here administrators can set which OpenOlat [tools](../../manual_user/personal_menu/index.md) are made available to users by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well as which tools are enabled as an icon in the menu bar (Preset).
 
 ![Available tools list on the Personal tools page: here the administration releases which tools the users can choose from at all](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![Preset list on the Personal tools page: only calendar, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
 

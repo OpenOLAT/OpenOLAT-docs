@@ -4,7 +4,7 @@
 
 Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md).
 
-Welche Werkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Hauptnavigation erscheinen sollen.
+Welche Werkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder als Symbol in der Hauptnavigation erscheinen sollen.
 
 <br>
 <br>

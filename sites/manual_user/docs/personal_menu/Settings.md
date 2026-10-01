@@ -84,9 +84,9 @@ You find page-specific links in the social sharing bar at the bottom left under 
 ### ![3](assets/3_green_24.png) User tools {: #personal_tools}
 
 Here you select which personal tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
-Tools that are displayed in the quick access are no longer listed in the personal menu.
+Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
-**Example: "System settings" and "Badges" have been moved from the personal menu to the quick access**
+**Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
 ![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tip"

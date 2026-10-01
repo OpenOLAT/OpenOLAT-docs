@@ -4,7 +4,7 @@
 
 You can find the personal tools as a section in the [personal menu](index.md).
 
-Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the main navigation.
+Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or as an icon in the main navigation.
 
 <br>
 <br>

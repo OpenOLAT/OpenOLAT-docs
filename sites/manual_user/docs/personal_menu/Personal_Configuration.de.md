@@ -4,7 +4,7 @@
 
 Die persönlichen Konfigurationen finden Sie als Abschnitt "Konfiguration" im [persönlichen Menü](../personal_menu/index.de.md), unterhalb der Abschnitte "Persönliche Werkzeuge" und "Erfolge/Leistungen".
 
-Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration: `Administration > Core Konfiguration > Persönliche Werkzeuge`. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Hauptnavigation erscheinen sollen.
+Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung in der System-Administration: `Administration > Core Konfiguration > Persönliche Werkzeuge`. Zum anderen entscheiden Sie selbst, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder als Symbol in der Hauptnavigation erscheinen sollen.
 
 <br>
 <br>

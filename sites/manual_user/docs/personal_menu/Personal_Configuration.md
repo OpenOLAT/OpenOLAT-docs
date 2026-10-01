@@ -4,7 +4,7 @@
 
 You find the personal configurations as the section "Configuration" in the [personal menu](index.md), below the sections "Personal tools" and "Achievements/Successes".
 
-Which configuration tools are offered to you here is determined on the one hand by the activation in the system administration: `Administration > Core functions > User tools`. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or in the quick access in the main navigation.
+Which configuration tools are offered to you here is determined on the one hand by the activation in the system administration: `Administration > Core functions > User tools`. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or as an icon in the main navigation.
 
 <br>
 <br>

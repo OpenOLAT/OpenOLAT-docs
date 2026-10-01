@@ -84,9 +84,9 @@ Seitenspezifische Links finden Sie in der Social-Sharing-Leiste links unten unte
 ### ![3](assets/3_green_24.png) Persönliche Werkzeuge {: #personal_tools}
 
 Hier wählen Sie aus, welche persönlichen Werkzeuge direkt oben in der Hauptnavigation (links neben Ihrem Profilbild) erscheinen sollen, sodass Sie schnell auf diese Werkzeuge zugreifen können.<br>
-Werkzeuge, die im Schnellzugriff angezeigt werden, sind nicht mehr im persönlichen Menü aufgeführt.
+Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht mehr im persönlichen Menü aufgeführt.
 
-**Beispiel: "Einstellungen" und "Badges" sind aus dem persönlichen Menü in den Schnellzugriff verschoben**
+**Beispiel: "Einstellungen" und "Badges" sind aus dem persönlichen Menü in die Hauptnavigation verschoben**
 ![Kontrollkästchen Einstellungen und Badges im Abschnitt Persönliche Werkzeuge markiert, ihre Symbole erscheinen in der Hauptnavigation und fehlen im geöffneten persönlichen Menü](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
