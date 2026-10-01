@@ -1,17 +1,17 @@
 # Microsoft Teams module {: #teams_module}
 
-Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, course owners, coaches and group coaches use it to create online meetings that participants join from within OpenOlat. Administrators define for the whole instance which types of online meetings are available, for example whether every meeting needs a date and therefore appears in the calendar.
+Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, owners and coaches use it to create online meetings that participants join from within OpenOlat. Administrators define for the whole instance which types of online meetings are available, for example whether every meeting needs a date and therefore appears in the calendar.
 
 You configure the module in the system administration under:<br>
 `Administration > External tools > Microsoft Teams`
 
-The page [External Tools: Overview](External_Tools_-_Administration.md#_microsoft_teams) describes the prerequisites for the connection to Microsoft 365. How course owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md).
+The page [External Tools: Overview](External_Tools_-_Administration.md#_microsoft_teams) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md).
 
 ---
 
 ## Tab "Configuration" [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #tab_config}
 
-In the tab "Configuration", you switch Microsoft Teams on for the instance and define where and with which variants online meetings may be created.
+In the tab "Configuration", you switch Microsoft Teams on for the instance and define where and with which variants online meetings may be created and whether OpenOlat takes over their recordings.
 
 ### Configuration of Microsoft Teams integration {: #teams_config}
 
@@ -38,6 +38,36 @@ The BigBlueButton module has the same setting under the name "Online-Meetings wi
 #### Application (client) ID, Client secret, Tenant GUID {: #tenant_credentials}
 
 If access data for the Microsoft 365 tenant is stored in the server configuration, the tab shows it in these three fields for viewing. It can only be changed in the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+
+### Meeting recording [:octicons-tag-16:{ title="from Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
+
+If an organisation wants to provide recordings of online meetings in OpenOlat and delete them again according to plan, switch on meeting recording here. OpenOlat then fetches the finished recordings from Microsoft Teams, stores them with the online meeting and shows them to the selected roles. Without the function, a recording stays in Microsoft Teams. What owners and coaches set for each online meeting is described in the user manual in the section [Meeting recording](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#meeting_recording).
+
+The section only appears when the module is switched on. The four settings after the switch only appear when the function "Meeting recording" is switched on.
+
+#### Function "Meeting recording" {: #recording_enabled}
+
+Switches meeting recording on or off for the whole instance. If it is switched off, the recording settings are missing in every online meeting, and OpenOlat does not fetch any recording, also for online meetings that were saved earlier with meeting recording switched on.
+
+To switch it on, OpenOlat needs a key which protects the access tokens in the server configuration. If the key is missing, the section shows a warning, the switch cannot be switched on, and OpenOlat does not download any recordings. frentix customers contact the frentix support for the setup: [support@frentix.com](mailto:support@frentix.com)
+
+#### Meeting recording (default) {: #recording_default}
+
+Default value for new online meetings, "On" or "Off". "Off" is selected by default. Owners and coaches can change the default value for each online meeting.
+
+#### Recording start (default) {: #recording_auto_start}
+
+Default value for when the recording begins: "Automatically when the meeting starts" or "Manually by the meeting host". "Manually by the meeting host" is selected by default.
+
+#### Automatically publish recording for (default) {: #recording_publishing}
+
+Default value for the roles to which a recording is visible after the online meeting: "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". If no role is checked, OpenOlat does not publish new recordings automatically. They are then published manually after the online meeting.
+
+#### Delete recordings automatically {: #recording_deletion}
+
+Number of days after meeting end after which OpenOlat deletes a recording. OpenOlat checks this once a day during the night. If the field remains empty, OpenOlat does not delete any recording automatically.
+
+Only the recording is deleted, never the online meeting. Recordings that owners or coaches have marked as "Recording not deletable" are kept.
 
 ---
 
