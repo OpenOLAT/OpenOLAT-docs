@@ -15,7 +15,7 @@
 
     This chapter describes how login and registration work in OpenOlat. The organisation through which you use OpenOlat sets up the access. This is why the login page does not look the same everywhere.
 
-    This organisation determines the concrete way to your account: your school, university, company, public administration or training provider. As long as you cannot get in, only this body can set up an account for you, unblock it or change your e-mail address. It also answers the questions about your access. This manual describes how OpenOlat works. frentix develops OpenOlat and does not answer questions about individual accounts.
+    This organisation determines the concrete way to your account: your school, university, company, public administration or training provider. As long as you cannot get in, only this body can set up an account for you, unblock it or change your e-mail address. It also answers the questions about your access. If your login page shows buttons or labels that this chapter does not describe, your organisation has set them up. Your organisation tells you which way to take there. This manual describes how OpenOlat works. frentix develops OpenOlat and does not answer questions about individual accounts.
 
 To use OpenOlat to its full extent, you must be registered in OpenOlat. Without an account you can only use OpenOlat as a guest with very limited possibilities, and even that only if your organisation offers the guest access.
 

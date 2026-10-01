@@ -16,7 +16,7 @@ To do this, go to the personal menu.<br>
 
 ## Reset the password yourself [:octicons-tag-16:{ title="from Release 20.0 (OO-8189)" }](https://track.frentix.com/issue/OO-8189) {: #reset_password}
 
-If you have forgotten your password, you set a new one yourself, provided that your organisation allows this and an e-mail address is stored on your account. The way there is opened by the link "Forgot password?" in the area "Do you need help?" below the login on the [login page](Login_Page.md#forgot_password). If you do not see the area, click "Login with account" first. The wizard is called "Set login credentials".
+If you have forgotten your password, you set a new one yourself, provided that your organisation allows this and an e-mail address is stored on your account. The way there is opened by the link "Forgot password?" in the area "Do you need help?" below the login on the [login page](Login_Page.md#forgot_password). If you do not see the area, click "Login with an OpenOlat account" first. The wizard is called "Set login credentials".
 
 ![Four steps of the wizard, plus the two exits Contact support and account with passkey](assets/password_reset_wizard_v1_en.svg){ class="shadow lightbox" }
 

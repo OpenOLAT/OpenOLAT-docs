@@ -2,16 +2,24 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>){:target="_blank"}
 
-Auf der Login-Seite weisen Sie nach, dass Sie zu OpenOlat Zutritt haben. Wie die Seite aussieht, legt Ihre Organisation fest. Deshalb sehen Sie möglicherweise nicht alle hier beschriebenen Möglichkeiten. Können Sie das Login nicht erfolgreich durchführen, finden Sie weiter unten unter [Ich komme nicht hinein](#no_access) den passenden Weg.
+Auf der Login-Seite weisen Sie nach, dass Sie zu OpenOlat Zutritt haben. Wie die Seite aussieht, legt Ihre Organisation fest. Deshalb sehen Sie möglicherweise nicht alle hier beschriebenen Möglichkeiten. Umgekehrt kann Ihre Organisation eigene Buttons und Bezeichnungen einrichten, die hier nicht beschrieben sind. Welchen davon Sie wählen, erfahren Sie bei [Ihrer Organisation](#contact_support). Können Sie das Login nicht erfolgreich durchführen, finden Sie weiter unten unter [Ich komme nicht hinein](#no_access) den passenden Weg.
 
-![Feld Anmeldename und Button Anmelden, darunter Identitätsanbieter, Gastzugang, Entdecken Sie unsere Angebote, Hier registrieren und der Hilfebereich mit Passwort vergessen?, Login-Seite von OpenOlat](assets/login_v2_de.png){ class="shadow lightbox" }
+So sieht eine Login-Seite aus, die nur die Anmeldung mit einem OpenOlat-Konto anbietet:
+
+![Feld Anmeldename, Buttons Anmelden und Entdecken Sie unsere Angebote, Link Passwort vergessen?, ohne Identitätsanbieter](assets/login_v3_de.png){ class="shadow lightbox" title="Login-Seite nur mit OpenOlat-Konto · 2026.10.01" }
+
+Ihre Organisation kann weitere Möglichkeiten einrichten, etwa die Anmeldung über einen Identitätsanbieter, den Gastzugang oder die Selbstregistrierung. Eine solche Login-Seite sieht zum Beispiel so aus:
+
+![Feld Anmeldename und Button Anmelden, darunter Identitätsanbieter, Gastzugang, Entdecken Sie unsere Angebote, Hier registrieren und Passwort vergessen?](assets/login_v2_de.png){ class="shadow lightbox" title="Beispiel einer Login-Seite mit weiteren Möglichkeiten" }
+
+Sieht Ihre Login-Seite anders aus als die Login-Seite ganz oben, hat Ihre Organisation sie eingerichtet. Helfen Ihnen die folgenden Erklärungen dann nicht weiter, kann nur Ihre Organisation Ihnen beim Login helfen, nicht frentix. Wie Sie sie erreichen, steht unter [Nichts davon hilft](#contact_support).
 
 ## So melden Sie sich an {: #how_to_login}
 
 Welchen Weg Sie nehmen, hängt davon ab, wo Ihr Konto liegt. Es gibt drei Möglichkeiten, und Ihre Organisation entscheidet, welche davon auf Ihrer Login-Seite angeboten werden.
 
 * **Mit dem Konto Ihrer Organisation.** Die Buttons unter "Bitte wählen Sie Ihren Identitätsanbieter." führen zu einem externen Dienst, zum Beispiel "Microsoft Azure AD". Sie melden sich dort mit den Zugangsdaten an, die Sie auch für die übrigen Dienste Ihrer Organisation verwenden. OpenOlat speichert dieses Passwort nicht. Haben Sie sich bei Ihrer Organisation bereits angemeldet, gelangen Sie unter Umständen ohne weitere Eingabe direkt in OpenOlat (Single Sign On).
-* **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort sind hier in OpenOlat gespeichert. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Link "Mit Konto anmelden" unter der Frage "Gehören Sie keiner der oben aufgelisteten Institutionen an oder haben ein lokales Konto?".
+* **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort sind hier in OpenOlat gespeichert. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Button "Mit OpenOlat Konto anmelden". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) Sie geben zuerst den Anmeldenamen ein und klicken auf "Anmelden". Danach fragt OpenOlat nach dem Passwort oder, wenn Sie einen Passkey eingerichtet haben, nach dem Passkey.
 * **Ohne Konto.** "Gastzugang" und "Entdecken Sie unsere Angebote" geben Einblick ohne Anmeldung, "Hier registrieren" legt ein eigenes Konto an, sofern Ihre Organisation die Selbstregistrierung erlaubt.
 
 Je nach Sicherheitsstufe folgt nach dem Passwort ein zweiter Schritt: eine Bestätigung per [Passkey](Passkey.de.md) oder die Eingabe eines [One Time Code](One_Time_Code.de.md), den OpenOlat Ihnen per E-Mail zustellt. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
@@ -26,7 +34,7 @@ Zeigt die Login-Seite "Sie wurden abgemeldet", ist kein Anmeldeproblem die Ursac
 
 ### Ich habe mein Passwort vergessen {: #forgot_password}
 
-Ein neues Passwort setzen Sie sich selbst, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Der Link "Passwort vergessen?" steht unterhalb der Anmeldung im Bereich "Brauchen Sie Hilfe?", zusammen mit dem Link "Häufig gestellte Fragen". Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit Konto anmelden". Der Link startet den Assistenten "Zugangsdaten setzen", der Sie über einen Validierungscode ausweist und danach ein neues Passwort setzen lässt. Die Schritte beschreibt die Seite [Passwort](Password.de.md#reset_password).
+Ein neues Passwort setzen Sie sich selbst, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Der Link "Passwort vergessen?" steht unterhalb der Anmeldung im Bereich "Brauchen Sie Hilfe?", zusammen mit dem Link "Häufig gestellte Fragen". Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit OpenOlat Konto anmelden". Der Link startet den Assistenten "Zugangsdaten setzen", der Sie über einen Validierungscode ausweist und danach ein neues Passwort setzen lässt. Die Schritte beschreibt die Seite [Passwort](Password.de.md#reset_password).
 
 ![Unterer Teil der Anmeldebox mit Gastzugang, Katalog und Hier registrieren, darunter markiert der Bereich Brauchen Sie Hilfe? mit den Links Passwort vergessen? und Häufig gestellte Fragen](assets/login_help_area_v1_de.png){ class="shadow lightbox" }
 

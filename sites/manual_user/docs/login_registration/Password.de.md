@@ -16,7 +16,7 @@ Gehen Sie dazu in das persönliche Menü.<br>
 
 ## Passwort selbst zurücksetzen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8189)" }](https://track.frentix.com/issue/OO-8189) {: #reset_password}
 
-Haben Sie Ihr Passwort vergessen, setzen Sie sich selbst ein neues, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Den Weg dorthin öffnet der Link "Passwort vergessen?" im Bereich "Brauchen Sie Hilfe?" unterhalb der Anmeldung auf der [Login-Seite](Login_Page.de.md#forgot_password). Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit Konto anmelden". Der Assistent heisst "Zugangsdaten setzen".
+Haben Sie Ihr Passwort vergessen, setzen Sie sich selbst ein neues, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Den Weg dorthin öffnet der Link "Passwort vergessen?" im Bereich "Brauchen Sie Hilfe?" unterhalb der Anmeldung auf der [Login-Seite](Login_Page.de.md#forgot_password). Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit OpenOlat Konto anmelden". Der Assistent heisst "Zugangsdaten setzen".
 
 ![Vier Schritte des Assistenten, dazu die beiden Ausgänge Support kontaktieren und Konto mit Passkey](assets/password_reset_wizard_v1_de.svg){ class="shadow lightbox" }
 

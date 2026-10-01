@@ -15,7 +15,7 @@
 
     Dieses Kapitel beschreibt, wie Login und Registrierung in OpenOlat funktionieren. Die Organisation, über die Sie OpenOlat nutzen, richtet den Zugang ein. Deshalb sieht die Login-Seite nicht überall gleich aus.
 
-    Den konkreten Weg zu Ihrem Konto legt diese Organisation fest: Ihre Schule, Ihre Hochschule, Ihre Unternehmung, Ihre Verwaltung oder Ihr Weiterbildungsanbieter. Solange Sie nicht hineinkommen, kann nur diese Stelle Ihnen ein Konto einrichten, es entsperren oder Ihre E-Mail-Adresse ändern. Sie beantwortet auch die Fragen zu Ihrem Zugang. Dieses Handbuch beschreibt die Funktionsweise von OpenOlat. frentix entwickelt OpenOlat und beantwortet keine Fragen zu einzelnen Konten.
+    Den konkreten Weg zu Ihrem Konto legt diese Organisation fest: Ihre Schule, Ihre Hochschule, Ihre Unternehmung, Ihre Verwaltung oder Ihr Weiterbildungsanbieter. Solange Sie nicht hineinkommen, kann nur diese Stelle Ihnen ein Konto einrichten, es entsperren oder Ihre E-Mail-Adresse ändern. Sie beantwortet auch die Fragen zu Ihrem Zugang. Zeigt Ihre Login-Seite Buttons oder Bezeichnungen, die dieses Kapitel nicht beschreibt, hat Ihre Organisation sie eingerichtet. Welchen Weg Sie dort nehmen, erfahren Sie bei Ihrer Organisation. Dieses Handbuch beschreibt die Funktionsweise von OpenOlat. frentix entwickelt OpenOlat und beantwortet keine Fragen zu einzelnen Konten.
 
 Um OpenOlat in vollem Umfang nutzen zu können, müssen Sie in OpenOlat registriert sein. Ohne Konto können Sie OpenOlat nur als Gast mit eng begrenzten Möglichkeiten aufrufen, und auch das nur, wenn Ihre Organisation den Gastzugang anbietet.
 

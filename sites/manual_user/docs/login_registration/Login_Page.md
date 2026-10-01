@@ -2,16 +2,24 @@
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>){:target="_blank"}
 
-On the login page you prove that you have access to OpenOlat. Your organisation determines what the page looks like. This is why you may not see all the options described here. If you cannot log in successfully, you will find the right way below under [I cannot get in](#no_access).
+On the login page you prove that you have access to OpenOlat. Your organisation determines what the page looks like. This is why you may not see all the options described here. Conversely, your organisation can set up its own buttons and labels that are not described here. [Your organisation](#contact_support) tells you which of them to choose. If you cannot log in successfully, you will find the right way below under [I cannot get in](#no_access).
 
-![Field Username and button Login, below identity providers, Guest access, Explore our offers, Register here and the help area with Forgot password?, login page of OpenOlat](assets/login_v2_de.png){ class="shadow lightbox" }
+This is what a login page that only offers login with an OpenOlat account looks like:
+
+![Field Username, buttons Login and Explore our offers, link Forgot password?, without identity providers](assets/login_v3_en.png){ class="shadow lightbox" title="Login page with OpenOlat account only · 2026.10.01" }
+
+Your organisation can set up further options, for example login through an identity provider, guest access or self-registration. Such a login page looks like this, for example:
+
+![Field Username and button Login, below identity providers, Guest access, Explore our offers, Register here and Forgot password?](assets/login_v2_de.png){ class="shadow lightbox" title="Example of a login page with further options" }
+
+If your login page looks different from the login page at the top, your organisation has set it up. If the following explanations do not help you in that case, only your organisation can help you log in, not frentix. The section [None of this helps](#contact_support) explains how to reach it.
 
 ## How to log in {: #how_to_login}
 
 Which way you take depends on where your account is stored. There are three possibilities, and your organisation decides which of them are offered on your login page.
 
 * **With the account of your organisation.** The buttons below "Please select your identity provider." lead to an external service, for example "Microsoft Azure AD". You log in there with the credentials that you also use for the other services of your organisation. OpenOlat does not store this password. If you have already logged in at your organisation, you may reach OpenOlat directly without any further entry (single sign on).
-* **With a local OpenOlat account.** Username and password are stored in OpenOlat here. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the link "Login with account" below the question "Don't you belong to one of the institutions mentioned above or have a local user account?".
+* **With a local OpenOlat account.** Username and password are stored in OpenOlat here. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the button "Login with an OpenOlat account". [:octicons-tag-16:{ title="from Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) You first enter your username and click "Login". OpenOlat then asks for your password or, if you have set up a passkey, for the passkey.
 * **Without an account.** "Guest access" and "Explore our offers" provide an insight without logging in, "Register here" creates your own account, provided that your organisation allows self-registration.
 
 Depending on the security level, a second step follows after the password: a confirmation by [Passkey](Passkey.md) or the entry of a [one time code](One_Time_Code.md) that OpenOlat sends you by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
@@ -26,7 +34,7 @@ If the login page shows "You have been logged out", the cause is not a login pro
 
 ### I have forgotten my password {: #forgot_password}
 
-You set a new password yourself, provided that your organisation allows this and an e-mail address is stored on your account. The link "Forgot password?" is below the login in the area "Do you need help?", together with the link "Frequently asked questions". If you do not see the area, click "Login with account" first. The link starts the wizard "Set login credentials", which identifies you by a validation code and then lets you set a new password. The page [Password](Password.md#reset_password) describes the steps.
+You set a new password yourself, provided that your organisation allows this and an e-mail address is stored on your account. The link "Forgot password?" is below the login in the area "Do you need help?", together with the link "Frequently asked questions". If you do not see the area, click "Login with an OpenOlat account" first. The link starts the wizard "Set login credentials", which identifies you by a validation code and then lets you set a new password. The page [Password](Password.md#reset_password) describes the steps.
 
 ![Lower part of the login box with Guest access, Catalog and Register here, below it the highlighted area Do you need help? with the links Forgot password? and Frequently asked questions](assets/login_help_area_v1_en.png){ class="shadow lightbox" }
 
