@@ -35,7 +35,13 @@ The "Organisations structures" tab shows the organisations already created, toge
 
 ![Tree structure of the organisations with their sub-organisations in the Organisations structures tab](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" }
 
-New organisations can be added using the "Create new organisation" button at the top right, or for existing organisations by clicking the three dots and "Add new organisation under this one". It is also possible to move the organisation within the tree structure or to create a new sub-organisation directly.
+New organisations can be added using the "Create new organisation" button at the top right, or for existing organisations by clicking the three dots and "Add new organisation under this one".
+
+To move an existing organisation, click the three dots and "Move organisation". In the window, select the organisation under which it is to be placed in future and confirm with "Move organisation". If "Move organisation" is missing under the three dots, an external system prevents the organisation from being moved. Its sub-organisations move along. The window only offers organisations under which the [organisation type](#tab_types) of the moved organisation is allowed. Roles that the organisation inherited from its previous parent organisation are dropped; the inherited roles of the new parent organisation are added. When you move an organisation, OpenOlat resets the rights that you have set in it for [line managers](#edit_linemanager) and [education managers](#edit_education_manager). Note them down beforehand and set them again after the move.
+
+!!! info "Moving upwards takes two steps"
+
+    An organisation cannot be moved directly into an organisation that is above it in the tree structure. OpenOlat then reports "An organisation cannot be moved into a parent or sub-organisation of itself." First move the organisation into an organisation that is neither above it nor below the target organisation, and from there into the target organisation. frentix customers cannot carry out this intermediate step themselves and contact frentix support: [support@frentix.com](mailto:support@frentix.com)
 
 If an organisation is selected in the tree structure, its metadata and other assignments can be adjusted or supplemented.
 
