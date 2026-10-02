@@ -17,6 +17,8 @@ In the tab "Configuration", you switch Microsoft Teams on for the instance and d
 
 The fields "Activate for" and "Online-Meetings without date/permanent" only appear when the module is switched on.
 
+![Module switched on, marked are Activate for with five places and Online-Meetings without date/permanent set to On, access data made unreadable](assets/teams_module_config_v1_en.png){ class="shadow lightbox" title="Tab Configuration in the Microsoft Teams module · 2026.10.02" }
+
 #### Module "Microsoft Teams" {: #module_enabled}
 
 Switches Microsoft Teams on or off for the whole instance. If the module is switched off, the course element "Microsoft Teams" is not available for selection in the course editor.
@@ -75,13 +77,19 @@ Only the recording is deleted, never the online meeting. Recordings that owners 
 
 In the tab "Online-meetings", you keep track of all Microsoft Teams online meetings in the instance and clean up meetings that are no longer needed.
 
-The table shows "Name", "Without date", "Start", "End" and "Context" for each meeting. A click on the context opens the course or the group in which the meeting was created. Use the search to find individual meetings. With "Delete" you remove one meeting, or several selected meetings at once.
+The table shows "Name", "Without date", "Start", "End" and "Context" for each meeting. A click on the context opens the group or the course in which the meeting was created, and for a meeting from a course element it opens this course element directly. If an online meeting belongs neither to a course nor to a group, the column "Context" remains empty and offers no link. This applies to the online meetings that are created for an event via the option "Course events". Use the search to find individual meetings. With "Delete" you remove one meeting, or several selected meetings at once.
+
+![All online meetings of the instance with the context as a link to the course or group and Delete in each row, for some of the meetings the context remains empty](assets/teams_module_meetings_v1_en.png){ class="shadow lightbox" title="Tab Online-meetings in the Microsoft Teams module · 2026.10.02" }
 
 ---
 
 ## Tab "Calendar" {: #tab_calendar}
 
 In the tab "Calendar", you see when many online meetings take place at the same time and detect bottlenecks early. The view opens in the week view and shows all Microsoft Teams online meetings with start and end. Permanent reservations do not appear here because they have no date.
+
+With "Month", "Week", "Day" and "Year" you switch the view, "Year" lists the online meetings of the year one below the other. With the arrows and "Today" you move through time.
+
+![Week view with all Microsoft Teams online meetings, simultaneous meetings are shown side by side](assets/teams_module_calendar_v1_en.png){ class="shadow lightbox" title="Tab Calendar in the Microsoft Teams module · 2026.10.02" }
 
 ---
 

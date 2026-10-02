@@ -17,6 +17,8 @@ Im Tab "Konfiguration" schalten Sie Microsoft Teams für die Instanz ein und bes
 
 Die Felder "Aktivieren für" und "Online-Termine ohne Datum/permanent" erscheinen erst, wenn das Modul eingeschaltet ist.
 
+![Modul eingeschaltet, markiert sind Aktivieren für mit fünf Orten und Online-Termine ohne Datum/permanent auf Ein, Zugangsdaten unkenntlich](assets/teams_module_config_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Microsoft Teams · 2026.10.02" }
+
 #### Modul "Microsoft Teams" {: #module_enabled}
 
 Schaltet Microsoft Teams für die ganze Instanz ein oder aus. Ist das Modul ausgeschaltet, steht der Kursbaustein "Microsoft Teams" im Kurseditor nicht zur Auswahl.
@@ -75,13 +77,19 @@ Gelöscht wird nur die Aufzeichnung, nie der Online-Termin. Aufzeichnungen, die 
 
 Im Tab "Online-Termine" behalten Sie alle Online-Termine von Microsoft Teams in der Instanz im Blick und räumen nicht mehr benötigte Termine auf.
 
-Die Tabelle zeigt je Termin "Name", "Ohne Datum", "Beginn", "Ende" und "Kontext". Ein Klick auf den Kontext öffnet den Kurs oder die Gruppe, in der der Termin angelegt ist. Über die Suche finden Sie einzelne Termine. Mit "Löschen" entfernen Sie einen Termin, oder mehrere markierte Termine gesammelt.
+Die Tabelle zeigt je Termin "Name", "Ohne Datum", "Beginn", "Ende" und "Kontext". Ein Klick auf den Kontext öffnet die Gruppe oder den Kurs, in dem der Termin angelegt ist, bei einem Termin aus einem Kursbaustein direkt diesen Kursbaustein. Hängt ein Online-Termin weder an einem Kurs noch an einer Gruppe, bleibt die Spalte "Kontext" leer und bietet keinen Link. Das gilt für die Online-Termine, die über die Option "Kurs Termine" an einem Termin entstehen. Über die Suche finden Sie einzelne Termine. Mit "Löschen" entfernen Sie einen Termin, oder mehrere markierte Termine gesammelt.
+
+![Alle Online-Termine der Instanz mit Kontext als Link zu Kurs oder Gruppe und Löschen je Zeile, bei einem Teil der Termine bleibt Kontext leer](assets/teams_module_meetings_v1_de.png){ class="shadow lightbox" title="Tab Online-Termine im Modul Microsoft Teams · 2026.10.02" }
 
 ---
 
 ## Tab "Kalender" {: #tab_calendar}
 
 Im Tab "Kalender" sehen Sie, wann viele Online-Termine gleichzeitig stattfinden, und erkennen Engpässe früh. Die Ansicht öffnet in der Woche und zeigt alle Online-Termine von Microsoft Teams mit Beginn und Ende. Permanente Reservierungen erscheinen hier nicht, weil sie kein Datum haben.
+
+Über "Monat", "Woche", "Tag" und "Jahr" wechseln Sie die Ansicht, "Jahr" listet die Online-Termine des Jahres untereinander auf. Mit den Pfeilen und "Heute" blättern Sie durch die Zeit.
+
+![Ansicht Woche mit allen Online-Terminen von Microsoft Teams, gleichzeitige Termine stehen nebeneinander](assets/teams_module_calendar_v1_de.png){ class="shadow lightbox" title="Tab Kalender im Modul Microsoft Teams · 2026.10.02" }
 
 ---
 
