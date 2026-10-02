@@ -2,7 +2,7 @@
 
 Unlike other learning resources, courses still have an "Execution" tab in the "Settings" menu.
 
-![All settings of the tab one below the other, from Execution period to Calculation of learning progress. Tab Execution in the Settings menu of a course.](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox"}
+![All settings of the tab one below the other, from Execution period to Calculation of learning progress.](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox" title="Tab Execution in the Settings menu of a course" }
 
 ## Configuration of execution {: #config_execution}
 
@@ -136,16 +136,16 @@ The IP addresses entered here are applied to the assessment mode when an event i
 
 #### Safe Exam Browser Keys {: #seb_key }
 
-This field is the course-wide default value for the "SEB with manual keys" variant. The stored key is applied when an event is "marked as exam" and the exam is secured with the Safe Exam Browser. In the assessment mode of the event, the key is displayed for information and cannot be edited there.
+This field is the course-wide default value for the type "With manual keys". The stored key is applied when an event is "marked as exam" and the switch "Use Safe Exam Browser" is enabled in the assessment mode of the event. There, the key is displayed for information and cannot be edited.
 
-The field only appears if the administration has selected the "SEB with manual keys" variant for "Safe Exam Browser - Type of use". You find the setting in the system administration under:<br>
+The field only appears if the administration has selected the type "With manual keys" for "Safe Exam Browser - Type of use". This type applies to all courses and cannot be overridden in the course. You find the setting in the system administration under:<br>
 `Administration > Modules > Events / Absences`, tab "Configuration".
 
 If the field is left empty while overwriting is permitted, the assessment modes of this course receive no key; the key from the administration is not used in that case.
 
-If "SEB-Config (recommended)" is active, the Safe Exam Browser is configured per exam via [configuration templates](../learningresources/Assessment_mode.md) and this field is not shown. When marking an event as an exam, the field "Configuration" with the active templates is available in the assessment mode of the event, with the default template preselected. Whether the configuration file can be downloaded is determined by the administration in this case.
+If "From template (recommended)" is active, the Safe Exam Browser is configured per exam via [configuration templates](../learningresources/Assessment_mode.md) and this field is not shown. When marking an event as an exam, the field "Configuration" with the active templates is available in the assessment mode of the event, with the default template preselected. Whether the configuration file can be downloaded is determined by the administration in this case.
 
-Assessment modes created directly via the [assessment management](../learningresources/Assessment_mode.md) do not use this course-wide key. There, the SEB variant is chosen per assessment mode via "Type of use".
+Assessment modes created directly via the [assessment management](../learningresources/Assessment_mode.md) do not use this course-wide key. There, the type is chosen per assessment mode in the field "SEB configuration".
 
 [To the top of the page ^](#tab_execution)
 

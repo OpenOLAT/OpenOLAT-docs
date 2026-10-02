@@ -17,7 +17,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Syste
 
 ## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-![Schalter für das Modul und Absenzen-Option auf oberster Ebene, darunter Konfiguration auf Kursebene mit den Optionen Schreibgeschützt und Überschreibbar. Tab Konfiguration, Seite Termine / Absenzen.](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" }
+![Schalter für das Modul und Absenzen-Option auf oberster Ebene, darunter Konfiguration auf Kursebene mit den Optionen Schreibgeschützt und Überschreibbar.](assets/modules_events_and_absences_config_course_level_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration auf der Seite Termine / Absenzen" }
 
 Die obersten zwei Optionen gelten für das ganze System. Sie stehen ausserhalb der Sektion "Konfiguration auf Kursebene".
 
@@ -36,7 +36,7 @@ Die Auswahl erfolgt über zwei Optionen:
 - **Schreibgeschützt**: "Die Konfiguration ist schreibgeschützt und kann nicht geändert werden." Kurse übernehmen die hier gesetzten Vorgabewerte und können sie nicht ändern.
 - **Überschreibbar**: "Die Konfiguration kann in den Kurseinstellungen überschrieben werden." Kursbesitzende dürfen die Vorgabewerte pro Kurs anpassen unter `Kurs > Administration > Einstellungen > Durchführung`.
 
-Die Auswahl gilt nur für die nachfolgenden Optionen dieser Sektion. Die Werte der "Globalen Konfiguration" sind davon nicht betroffen und gelten immer systemweit.
+Die Auswahl gilt nur für die nachfolgenden Optionen dieser Sektion. Ausgenommen sind "Safe Exam Browser - Art der Benutzung" und "Herunterladbare Konfigurationsdatei": Diese beiden Einstellungen gelten für alle Kurse, auch bei "Überschreibbar". Die Werte der "Globalen Konfiguration" sind davon nicht betroffen und gelten immer systemweit.
 
 #### Anwesenheitskontrolle einschalten {: #roll_call_enabled }
 
@@ -69,9 +69,11 @@ Die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen", 
 
 #### Safe Exam Browser - Art der Benutzung {: #seb_type_of_use }
 
-Legt fest, wie der Safe Exam Browser abgesichert wird, wenn ein Termin als Prüfung markiert wird.
+Legt fest, woher Prüfungsmodi aus Terminen die Einstellungen des Safe Exam Browser beziehen: aus manuell erfassten Keys ("Mit manuellen Keys") oder aus einer Konfigurationsvorlage ("Aus Vorlage (empfohlen)"). Die gewählte Art gilt für alle Kurse. Kurse können sie nicht überschreiben, auch nicht bei "Überschreibbar".
 
-Prüfungsmodi, die nicht aus einem Termin entstehen, sind von dieser Einstellung unabhängig. Dort wird die Variante pro Prüfungsmodus über "Typ von Anwendung" gewählt:<br>
+Ob eine Prüfung den Safe Exam Browser verlangt, bestimmt diese Einstellung nicht. Das entscheiden Kursbesitzende oder Betreuende pro Termin, wenn sie ihn als Prüfung markieren: im Prüfungsmodus des Termins mit dem Schalter "Safe Exam Browser verwenden". Bei "Aus Vorlage (empfohlen)" wählen sie dort zusätzlich im Feld "Konfiguration" eine der aktiven Vorlagen.
+
+Prüfungsmodi, die nicht aus einem Termin entstehen, sind von dieser Einstellung unabhängig. Dort wird die Art pro Prüfungsmodus im Feld "SEB-Konfiguration" gewählt:<br>
 `Kurs > Administration > Prüfungsverwaltung`
 
 Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Absenzenverwaltung im Kurs ein unter `Kurs > Administration > Einstellungen > Durchführung` und legen die Termine an unter `Kurs > Administration > Termine und Absenzen`. Nach dem Abspeichern kann ein Termin über das 3-Punkte-Menü als Prüfung markiert werden. Das Benutzerhandbuch beschreibt die Kurseinstellungen im Detail: [Konfiguration Termin- und Absenzenverwaltung im Kurs](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
@@ -84,28 +86,28 @@ Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Abs
 
     Im Kurs steuern Besitzende, wer einem Termin als Dozent:in zugewiesen ist: [Dozenten/Dozentinnen verwalten](../../manual_user/learningresources/Events_and_absences.de.md#manage_teachers). Betreuende sehen ihre eigenen Termine; die Einstellung "Anzeige in Kursen" in der Globalen Konfiguration legt fest, ob zusätzlich die Termine der anderen Dozierenden angezeigt werden können.
 
-??? info "SEB-Config (empfohlen): Vorlagen aus der System-Administration"
+??? info "Aus Vorlage (empfohlen): Vorlagen aus der System-Administration"
 
     Die [Konfigurationsvorlagen](e-Assessment_AssessmentMgmt.de.md) werden in der System-Administration gepflegt unter:<br>
     `Administration > e-Assessment > Prüfungsverwaltung`, Tab "Safe Exam Browser Konfiguration"
 
     Beim Markieren eines Termins als Prüfung ist die als Standard markierte Vorlage vorausgewählt, die Auswahl erfolgt pro Prüfung. Zusätzlich erscheint das Feld "Herunterladbare Konfigurationsdatei".
 
-??? info "SEB mit manuellen Keys: Vorgabewerte aus System- und Kurs-Administration"
+??? info "Mit manuellen Keys: Vorgabewerte aus System- und Kurs-Administration"
 
     Der systemweite Vorgabewert wird direkt unter dieser Einstellung im Feld "Safe Exam Browser Key" erfasst.
 
     Kursweit lässt er sich überschreiben unter:<br>
-    `Kurs > Administration > Einstellungen > Durchführung`, Feld ["Safe Exam Browser Key"](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
+    `Kurs > Administration > Einstellungen > Durchführung`, Feld ["Safe Exam Browser Key"](../../manual_user/learningresources/Course_Settings_Execution.de.md#seb_key)
 
 #### Herunterladbare Konfigurationsdatei {: #seb_downloadable_config }
 
-Diese Option erscheint bei der Variante "SEB-Config (empfohlen)". Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).)
+Diese Option erscheint bei der Art "Aus Vorlage (empfohlen)". Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).)
 
 
 ### Globale Konfiguration
 
-![Systemweite Vorgaben zu Fristen, entschuldigten Absenzen und Rekursen, die kein Kurs überschreiben kann. Sektion Globale Konfiguration, Tab Konfiguration.](assets/modules_events_and_absences_global_config_v1_de.png){ class="shadow lightbox" }
+![Systemweite Vorgaben zu Fristen, entschuldigten Absenzen und Rekursen, die kein Kurs überschreiben kann.](assets/modules_events_and_absences_global_config_v1_de.png){ class="shadow lightbox" title="Sektion Globale Konfiguration im Tab Konfiguration" }
 
 Diese Werte gelten für alle Kurse. Kurse können sie nicht überschreiben.
 
@@ -175,7 +177,7 @@ Termine aller Dozenten oder nur eigene.
 
 In diesem Tab werden die Berechtigungen für Dozenten / Klassenlehrer hinsichtlich der Termine und Absenzen festgelegt. Diese Rechte werden systemweit vergeben. Ein kursspezifisches Recht für Termine und Absenzen gibt es nicht.
 
-![Drei Rechteblöcke für Dozierende, Klassenlehrpersonen und Teilnehmende, alle systemweit vergeben. Tab Berechtigungen, Seite Termine / Absenzen.](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" }
+![Drei Rechteblöcke für Dozierende, Klassenlehrpersonen und Teilnehmende, alle systemweit vergeben.](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" title="Tab Berechtigungen auf der Seite Termine / Absenzen" }
 
 ### Dozenten / Klassenlehrer Berechtigungen
 

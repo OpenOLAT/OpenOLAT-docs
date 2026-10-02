@@ -16,7 +16,7 @@ Before the event and absence management can be used it need to be activated in t
 
 ## Tab Configuration [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-![Switch for the module and absence option at the top level, below it the course-level configuration with the options Read-only and Overridable. Tab Configuration, page Events / Absences.](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" }
+![Switch for the module and absence option at the top level, below it the course-level configuration with the options Read-only and Overridable.](assets/modules_events_and_absences_config_course_level_v3_en.png){ class="shadow lightbox" title="Tab Configuration on the page Events / Absences" }
 
 The two topmost options apply to the whole system. They are placed outside the section "Course-level configuration".
 
@@ -35,7 +35,7 @@ The selection is made with two options:
 - **Read-only**: "The configuration is read-only and cannot be changed." Courses take over the default values set here and cannot change them.
 - **Overridable**: "The configuration can be overridden in the course settings." Course owners may adapt the default values per course under `Course > Administration > Settings > Execution`.
 
-The selection only applies to the following options of this section. The values of the "Global configuration" are not affected and always apply system-wide.
+The selection only applies to the following options of this section. "Safe Exam Browser - Type of use" and "Downloadable configuration file" are excepted: these two settings apply to all courses, also with "Overridable". The values of the "Global configuration" are not affected and always apply system-wide.
 
 #### Roll call enabled (default) {: #roll_call_enabled }
 
@@ -68,9 +68,11 @@ The following fields "Prep time", "Follow-up", "Admissible IP addresses", "Safe 
 
 #### Safe Exam Browser - Type of use {: #seb_type_of_use }
 
-Defines how the Safe Exam Browser is secured when an event is marked as an exam.
+Defines where assessment modes from events take the settings of the Safe Exam Browser from: from manually entered keys ("With manual keys") or from a configuration template ("From template (recommended)"). The selected type applies to all courses. Courses cannot override it, not even with "Overridable".
 
-Assessment modes that do not originate from an event are independent of this setting. There, the variant is chosen per assessment mode via "Type of use":<br>
+Whether an exam requires the Safe Exam Browser is not determined by this setting. Course owners or coaches decide this per event when they mark it as an exam: in the assessment mode of the event with the switch "Use Safe Exam Browser". With "From template (recommended)" they additionally select one of the active templates in the field "Configuration".
+
+Assessment modes that do not originate from an event are independent of this setting. There, the type is chosen per assessment mode in the field "SEB configuration":<br>
 `Course > Administration > Assessment management`
 
 For the route via events: **course owners** enable the event and absence management in the course under `Course > Administration > Settings > Execution` and create the events under `Course > Administration > Events and Absences`. Once saved, an event can be marked as an exam via the 3-dot menu. The user manual describes the course settings in detail: [Configuring event and absence management in the course](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
@@ -83,28 +85,28 @@ For the route via events: **course owners** enable the event and absence managem
 
     In the course, owners control who is assigned to an event as a teacher: [Manage teachers](../../manual_user/learningresources/Events_and_absences.md#manage_teachers). Coaches see their own events; the setting "Default display in course" in the global configuration defines whether the events of the other teachers can be displayed in addition.
 
-??? info "SEB-Config (recommended): templates from the system administration"
+??? info "From template (recommended): templates from the system administration"
 
     The [configuration templates](e-Assessment_AssessmentMgmt.md#tab_seb) are maintained in the system administration under:<br>
     `Administration > e-Assessment > Assessment management`, tab "Safe Exam Browser configuration"
 
     When an event is marked as an exam, the template marked as default is preselected, and the selection is made per exam. In addition, the field "Downloadable configuration file" appears.
 
-??? info "SEB with manual keys: default values from system and course administration"
+??? info "With manual keys: default values from system and course administration"
 
     The system-wide default value is entered directly below this setting in the field "Safe Exam Browser Keys".
 
     It can be overridden per course under:<br>
-    `Course > Administration > Settings > Execution`, field ["Safe Exam Browser Keys"](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
+    `Course > Administration > Settings > Execution`, field ["Safe Exam Browser Keys"](../../manual_user/learningresources/Course_Settings_Execution.md#seb_key)
 
 #### Downloadable configuration file {: #seb_downloadable_config }
 
-This option appears with the variant "SEB-Config (recommended)". Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if participants' own devices are used for the exam (BYOD).)
+This option appears with the type "From template (recommended)". Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if participants' own devices are used for the exam (BYOD).)
 
 
 ### Global configuration
 
-![System-wide defaults for periods, authorized absences and appeals, which no course can override. Section Global configuration, tab Configuration.](assets/modules_events_and_absences_global_config_v1_en.png){ class="shadow lightbox" }
+![System-wide defaults for periods, authorized absences and appeals, which no course can override.](assets/modules_events_and_absences_global_config_v1_en.png){ class="shadow lightbox" title="Section Global configuration in the tab Configuration" }
 
 These values apply to all courses. Courses cannot override them.
 
@@ -174,7 +176,7 @@ Events of all teachers or only your own.
 
 In this tab, the permissions for teachers / class teachers are defined with regard to events and absences. These rights are granted system-wide. There is no course-specific right for events and absences.
 
-![Three permission blocks for teachers, master coaches and participants, all granted system-wide. Tab Permissions, page Events / Absences.](assets/modules_events_and_absences_tab_permissions_v1_en.png){ class="shadow lightbox" }
+![Three permission blocks for teachers, master coaches and participants, all granted system-wide.](assets/modules_events_and_absences_tab_permissions_v1_en.png){ class="shadow lightbox" title="Tab Permissions on the page Events / Absences" }
 
 ### Teachers / master coaches permissions
 

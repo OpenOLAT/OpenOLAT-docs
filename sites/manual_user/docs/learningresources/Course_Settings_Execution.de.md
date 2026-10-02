@@ -2,7 +2,7 @@
 
 Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü "Einstellungen" noch über den Tab "Durchführung".
 
-![Alle Einstellungen des Tabs untereinander, von Durchführungszeitraum bis Lernfortschritt. Tab Durchführung im Menü Einstellungen eines Kurses.](assets/course_settings_execution1_v3_de.png){ class="shadow lightbox"}
+![Alle Einstellungen des Tabs untereinander, von Durchführungszeitraum bis Lernfortschritt.](assets/course_settings_execution1_v3_de.png){ class="shadow lightbox" title="Tab Durchführung im Menü Einstellungen eines Kurses" }
 
 
 ## Einstellungen zur Durchführung {: #config_execution}
@@ -141,16 +141,16 @@ Die hier erfassten IP-Adressen werden in den Prüfungsmodus übernommen, wenn ei
 
 #### Safe Exam Browser Key {: #seb_key }
 
-Dieses Feld ist der kursweite Vorgabewert für die Variante "SEB mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" und die Prüfung mit dem Safe Exam Browser abgesichert wird. Im Prüfungsmodus des Termins wird der Key zur Information angezeigt und dort nicht bearbeitet.
+Dieses Feld ist der kursweite Vorgabewert für die Art "Mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" wird und im Prüfungsmodus des Termins der Schalter "Safe Exam Browser verwenden" eingeschaltet ist. Dort wird der Key zur Information angezeigt und nicht bearbeitet.
 
-Das Feld erscheint nur, wenn die Administration bei "Safe Exam Browser - Art der Benutzung" die Variante "SEB mit manuellen Keys" gewählt hat. Sie finden die Einstellung in der System-Administration unter:<br>
+Das Feld erscheint nur, wenn die Administration bei "Safe Exam Browser - Art der Benutzung" die Art "Mit manuellen Keys" gewählt hat. Diese Art gilt für alle Kurse und lässt sich im Kurs nicht überschreiben. Sie finden die Einstellung in der System-Administration unter:<br>
 `Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
 
 Bleibt das Feld bei zugelassenem Überschreiben leer, erhalten die Prüfungsmodi dieses Kurses keinen Key; der Key aus der Administration wird in diesem Fall nicht verwendet.
 
-Ist "SEB-Config (empfohlen)" aktiv, wird der Safe Exam Browser pro Prüfung über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) konfiguriert und dieses Feld wird nicht angezeigt. Beim Markieren als Prüfung steht im Prüfungsmodus des Termins das Feld "Konfiguration" mit den aktiven Vorlagen zur Verfügung, wobei die Standardvorlage vorausgewählt ist. Ob die Konfigurationsdatei heruntergeladen werden kann, legt in diesem Fall die Administration fest.
+Ist "Aus Vorlage (empfohlen)" aktiv, wird der Safe Exam Browser pro Prüfung über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) konfiguriert und dieses Feld wird nicht angezeigt. Beim Markieren als Prüfung steht im Prüfungsmodus des Termins das Feld "Konfiguration" mit den aktiven Vorlagen zur Verfügung, wobei die Standardvorlage vorausgewählt ist. Ob die Konfigurationsdatei heruntergeladen werden kann, legt in diesem Fall die Administration fest.
 
-Prüfungsmodi, die direkt über die [Prüfungsverwaltung](../learningresources/Assessment_mode.de.md) erstellt werden, verwenden diesen kursweiten Key nicht. Dort wird die SEB-Variante pro Prüfungsmodus über "Typ von Anwendung" gewählt.
+Prüfungsmodi, die direkt über die [Prüfungsverwaltung](../learningresources/Assessment_mode.de.md) erstellt werden, verwenden diesen kursweiten Key nicht. Dort wird die Art pro Prüfungsmodus im Feld "SEB-Konfiguration" gewählt.
 
 [Zum Seitenanfang ^](#tab_execution)
 
