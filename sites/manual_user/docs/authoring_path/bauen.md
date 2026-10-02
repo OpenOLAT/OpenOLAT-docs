@@ -59,6 +59,8 @@ An element that can be added to the course structure in the course editor.
 
     [Read in the manual](../learningresources/Course_Elements.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20element%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Includes:</p>
 
 ??? note "Structure in detail"
@@ -118,6 +120,8 @@ An element that can be added to the course structure in the course editor.
     **German:** Bewertung
 
     [Read in the manual](../learningresources/Course_Element_Assessment.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+
+</div>
 
 </div>
 

@@ -403,19 +403,25 @@
 .md-typeset .oo-mh-terms {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9em;
+  gap: 0 0.9em;
   margin: 0.6em 0 1.2em;
-  /* every card of the page has the height of the tallest card on the page */
-  grid-auto-rows: 1fr;
   align-items: stretch;
 }
+/* the cards of a row share their rows (kind, title, text, detail, kids):
+   same height, and the detail buttons of a row sit on one line */
 .md-typeset .oo-mh-term {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-row: span 5;
+  grid-template-rows: subgrid;
+  row-gap: 0;
+  margin-bottom: 0.9em;
   padding: 0.8em 1em 0.6em;
   border: 1px solid var(--oo-mh-line);
   border-radius: var(--oo-radius-lg);
   background: var(--md-default-bg-color);
+}
+.md-typeset .oo-mh-term > * {
+  align-self: start;
 }
 .md-typeset .oo-mh-term h3 {
   margin: 0 0 0.3em;

@@ -41,6 +41,8 @@ Die geordnete Abfolge der Kursbausteine in einem Lernpfadkurs.
 
     [Im Handbuch lesen](../learningresources/Learning_path_course_Course_editor.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfad%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Gehört dazu:</p>
 
 ??? note "Durchführung im Detail"
@@ -75,6 +77,8 @@ Die geordnete Abfolge der Kursbausteine in einem Lernpfadkurs.
 
 </div>
 
+</div>
+
 <div class="oo-mh-term" markdown>
 
 <p class="oo-mh-kind">Begriff</p>
@@ -94,6 +98,8 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
     **Nicht verwechseln mit «[Ausnahme](../learningresources/Learning_path_course_Course_editor.de.md)»:** Die Ausnahme verfeinert die Durchführung im Lernpfadkurs, die Bedingung steuert Sichtbarkeit und Zugang im herkömmlichen Kurs.
 
     [Im Handbuch lesen](../learningresources/General_Configuration_of_Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bedingung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+
+<div class="oo-mh-kids" markdown>
 
 <p class="oo-mh-partof">Gehört dazu:</p>
 
@@ -116,6 +122,8 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
     **Nicht verwechseln mit «[Sichtbarkeit](../learningresources/General_Configuration_of_Course_Elements.de.md)»:** Sichtbarkeit entscheidet, ob der Baustein im Menü erscheint, Zugang, ob er geöffnet werden kann.
 
     [Im Handbuch lesen](../learningresources/General_Configuration_of_Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zugang%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+
+</div>
 
 </div>
 

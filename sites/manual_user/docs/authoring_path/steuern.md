@@ -41,6 +41,8 @@ The ordered sequence of the course elements in a learning path course.
 
     [Read in the manual](../learningresources/Learning_path_course_Course_editor.md) · [Ask Sophia](?sophia=What%20is%20%22Learning%20path%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Includes:</p>
 
 ??? note "Execution in detail"
@@ -75,6 +77,8 @@ The ordered sequence of the course elements in a learning path course.
 
 </div>
 
+</div>
+
 <div class="oo-mh-term" markdown>
 
 <p class="oo-mh-kind">Concept</p>
@@ -94,6 +98,8 @@ The rule that steers the visibility and access of a course element in the conven
     **Not to be confused with [Exception](../learningresources/Learning_path_course_Course_editor.md):** The exception refines the execution in the learning path course, the condition steers visibility and access in the conventional course.
 
     [Read in the manual](../learningresources/General_Configuration_of_Course_Elements.md) · [Ask Sophia](?sophia=What%20is%20%22Condition%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+
+<div class="oo-mh-kids" markdown>
 
 <p class="oo-mh-partof">Includes:</p>
 
@@ -116,6 +122,8 @@ The rule that steers the visibility and access of a course element in the conven
     **Not to be confused with [Visibility](../learningresources/General_Configuration_of_Course_Elements.md):** Visibility decides whether the element appears in the menu, access whether it can be opened.
 
     [Read in the manual](../learningresources/General_Configuration_of_Course_Elements.md) · [Ask Sophia](?sophia=What%20is%20%22Access%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+
+</div>
 
 </div>
 

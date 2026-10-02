@@ -424,9 +424,12 @@ def render_station(ctx, s, idx, lang):
         out += detail_block(ctx, k, lang)
         kids = it.get("kids") or []
         if kids:
-            out += [f'<p class="oo-mh-partof">{U["part_of"]}</p>', ""]
+            # one wrapper, so every card has the same rows: kind, title, text, detail, kids
+            out += ['<div class="oo-mh-kids" markdown>', "",
+                    f'<p class="oo-mh-partof">{U["part_of"]}</p>', ""]
             for kk in kids:
                 out += detail_block(ctx, kk, lang)
+            out += ["</div>", ""]
         out += ["</div>", ""]
     out += ["</div>", ""]
     # keep-apart pairs inside this station

@@ -59,6 +59,8 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     [Im Handbuch lesen](../learningresources/Administration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursdesign%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Gehört dazu:</p>
 
 ??? note "Lernpfadkurs im Detail"
@@ -84,6 +86,8 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
     **Nicht verwechseln mit «[Lernpfadkurs](../learningresources/Learning_path_course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
     [Im Handbuch lesen](../learningresources/Creating_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Herk%C3%B6mmlicher%20Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+
+</div>
 
 </div>
 

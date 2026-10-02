@@ -99,6 +99,8 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
 
     [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gastzugang%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Gehört dazu:</p>
 
 ??? note "Gast im Detail"
@@ -112,6 +114,8 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
     **Nicht verwechseln mit «[Gastzugang](../../manual_user/basic_concepts/guest_access.de.md)»:** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 
     [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gast%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+
+</div>
 
 </div>
 

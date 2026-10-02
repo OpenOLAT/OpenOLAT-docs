@@ -99,6 +99,8 @@ Access to OpenOlat without an account through the Guest access link on the login
 
     [Read in the manual](../../manual_user/basic_concepts/guest_access.md) · [Ask Sophia](?sophia=What%20is%20%22Guest%20access%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Includes:</p>
 
 ??? note "Guest in detail"
@@ -110,6 +112,8 @@ Access to OpenOlat without an account through the Guest access link on the login
     **Not to be confused with [Guest access](../../manual_user/basic_concepts/guest_access.md):** Guest is the access role of the person; guest access is the feature the administration switches on or off.
 
     [Read in the manual](../../manual_user/basic_concepts/guest_access.md) · [Ask Sophia](?sophia=What%20is%20%22Guest%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+
+</div>
 
 </div>
 

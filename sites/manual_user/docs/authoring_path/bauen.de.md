@@ -61,6 +61,8 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     [Im Handbuch lesen](../learningresources/Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursbaustein%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Gehört dazu:</p>
 
 ??? note "Struktur im Detail"
@@ -126,6 +128,8 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
     **Englisch:** Assessment
 
     [Im Handbuch lesen](../learningresources/Course_Element_Assessment.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+
+</div>
 
 </div>
 

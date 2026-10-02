@@ -59,6 +59,8 @@ The choice when creating a course between learning path course and conventional 
 
     [Read in the manual](../learningresources/Administration.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20design%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
+<div class="oo-mh-kids" markdown>
+
 <p class="oo-mh-partof">Includes:</p>
 
 ??? note "Learning path course in detail"
@@ -82,6 +84,8 @@ The choice when creating a course between learning path course and conventional 
     **Not to be confused with [Learning path course](../learningresources/Learning_path_course.md):** The learning path course steers through the learning path and exceptions, the conventional course through conditions.
 
     [Read in the manual](../learningresources/Creating_Course.md) · [Ask Sophia](?sophia=What%20is%20%22Conventional%20course%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+
+</div>
 
 </div>
 
