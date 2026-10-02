@@ -152,7 +152,13 @@ Course coaches *do not* have access to the following functions.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Storage folder](../learningresources/Storage_folder.md)<br>
-[Members management](../learningresources/Members_management.md)
+[Storage folder >](../learningresources/Storage_folder.md)<br>
+[Members management >](../learningresources/Members_management.md)
+
+**Further reading**<br>
+[Roles and their working areas >](Roles_Home_Areas.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Which roles are available? >](Roles.md)<br>
+[Authorisation in courses >](Authorisation_Concept.md)
 
 [To the top of the page ^](#coach)

@@ -7,6 +7,8 @@ Nach dem Login gelangen Sie entweder auf
 * das OpenOlat Portal oder
 * eine von Ihnen individuell festgelegte Startseite. Jede OpenOlat-Seite kann als individuelle Startseite markiert werden.
 
+Die Seite [Rollen und ihre Arbeitsbereiche](Roles_Home_Areas.de.md) zeigt, in welchem Bereich der Hauptnavigation die einzelnen Rollen arbeiten.
+
 !!! info "Wichtig"
 
     Falls Sie den Tab "Portal" nicht sehen, ist diese Seite von den Systemadministrator:innen systemweit abgeschaltet.
@@ -32,6 +34,7 @@ Weitere Informationen zu den einzelnen Elementen finden Sie unter den entspreche
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Chat >](Chat.de.md)<br>
 [Allgemeines zur Suche >](Search_General.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)
@@ -39,8 +42,7 @@ Weitere Informationen zu den einzelnen Elementen finden Sie unter den entspreche
 **Weiterführend**<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

@@ -156,8 +156,14 @@ Auf folgende Funktionen haben Kursbetreuer:innen ***keinen*** Zugriff
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Ablageordner](../learningresources/Storage_folder.de.md)<br>
-[Mitgliederverwaltung](../learningresources/Members_management.de.md)
+[Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)
+
+**Weiterführend**<br>
+[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Welche Rollen gibt es? >](Roles.de.md)<br>
+[Rechte in Kursen >](Authorisation_Concept.de.md)
 
 [Zum Seitenanfang ^](#coach)
 

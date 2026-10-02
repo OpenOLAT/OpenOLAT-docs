@@ -7,6 +7,8 @@ After the login you get either to
 * the OpenOlat portal or
 * a landing page you defined individually. Every OpenOlat page can be marked as an individual landing page.
 
+The page [Roles and their working areas](Roles_Home_Areas.md) shows which site of the main navigation each role works in.
+
 !!! info "Important"
 
     If you cannot see the "Portal" tab, this page has been switched off system-wide by the system administrators.
@@ -32,6 +34,7 @@ Further information on the individual elements can be found under the correspond
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Chat >](Chat.md)<br>
 [General information on the search >](Search_General.md)<br>
 [Personal menu and general components >](../personal_menu/index.md)
@@ -39,8 +42,7 @@ Further information on the individual elements can be found under the correspond
 **Further reading**<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Personal Tools >](../personal_menu/Personal_Tools.md)<br>
-[Roles and their working areas >](Roles_Home_Areas.md)
+[Personal Tools >](../personal_menu/Personal_Tools.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

@@ -150,6 +150,7 @@ Kopieren und Löschen setzen bei Besitzer:innen zusätzlich die Organisationsrol
 
 **Weiterführend**<br>
 [Welche Rollen gibt es? >](Roles.de.md)<br>
+[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Rollen zuweisen >](Assign_Roles.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)

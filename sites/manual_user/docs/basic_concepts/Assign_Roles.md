@@ -9,11 +9,11 @@ Accordingly, the assignment is typically made by user managers or administrators
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User management](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank"}
 
-Depending on the area of responsibility, roles, and therefore additional rights, have to be added.
+Depending on the area of responsibility, roles, and therefore additional rights, have to be added. The page [Roles and their working areas](Roles_Home_Areas.md) shows which site of the main navigation each role works in.
 
 The "Roles" tab shows the affiliation of the person ("User in"), their additional roles per organisation and, under "Role history", every change to the roles. The administration manual describes the details: [Assign roles](../../manual_admin/usermanagement/Assign_roles.md)
 
-![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked, Roles tab in the user management](assets/roles_rights_user_management_v3_de.png){ class="shadow lightbox" }
+![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked](assets/roles_rights_user_management_v3_de.png){ class="shadow lightbox" title="Roles tab in the user management" }
 
 [To the top of the page ^](#role_assignment)
 
@@ -34,8 +34,8 @@ For members of a course, the role can be changed under<br>
 `Course > Administration > Members management > Click on the name of the member`<br>
 In the dialog "Edit member" you assign one or more course roles.
 
-![Button Add member and member list with the column Role, members management in the administration of the course](assets/roles_rights_members_management1_v1_de.png){ class="shadow lightbox" }
-![Course roles owner, coach and participant as checkboxes, dialog Edit member in the members management of the course](assets/roles_rights_members_management2_v1_de.png){ class="shadow lightbox" }
+![Menu entry Members management, button Add member and the names of the members marked, column Role with the course role per member](assets/roles_rights_members_management1_v1_de.png){ class="shadow lightbox" title="Members management in the administration of the course" }
+![Course roles owner, coach and participant as checkboxes](assets/roles_rights_members_management2_v1_de.png){ class="shadow lightbox" title="Dialog Edit member in the course" }
 
 [To the top of the page ^](#role_assignment)
 
@@ -46,14 +46,14 @@ In the dialog "Edit member" you assign one or more course roles.
 **Role assignment when [creating a new group](../groups/index.md) / adding new members:**<br>
 When new members are added, the roles "Group participant" and "Group coach" are also assigned.
 
-![Step Permissions in the wizard Add member with the group roles coach, participant or waiting list per group](assets/roles_rights_group_member_v1_de.png){ class="shadow lightbox" }
+![Group roles coach, participant or waiting list per group as checkboxes](assets/roles_rights_group_member_v1_de.png){ class="shadow lightbox" title="Step Permissions in the wizard Add member" }
 
 **Change roles of group members**<br>
 If a membership in a group already exists and you want to change the role of the person, you can do this (if you have the authorisation to edit) in the administration of the group:<br>
 `Groups > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
 
-![Three-dot menu of a member with the option Edit membership, Members tab in the administration of the group](assets/roles_rights_groups_v1_de.png){ class="shadow lightbox" }
-![Group roles coach, participant or waiting list as checkboxes, dialog Edit membership of the group](assets/roles_rights_group_member_edit_v1_de.png){ class="shadow lightbox" }
+![Three-dot menu of a member with the option Edit membership, marked](assets/roles_rights_groups_v1_de.png){ class="shadow lightbox" title="Members tab in the administration of the group" }
+![Group roles coach, participant or waiting list as checkboxes for an existing member](assets/roles_rights_group_member_edit_v1_de.png){ class="shadow lightbox" title="Dialog Edit membership of the group" }
 
 
 **Assignment of the role group coach**<br>
@@ -88,7 +88,7 @@ The roles that users receive in different organisation units are assigned in the
 
 A person can be a member of several organisation units and hold different roles in each organisation unit. For example, if the person should only have author rights in their own organisation unit. 
 
-![Own role list per organisation, here Advanced Users and Produktionsabteilung, under Additional roles in the Roles tab of the user management](assets/roles_rights_orgunit_v2_de.png){ class="shadow lightbox" }
+![Own role list per organisation, here Advanced Users and Produktionsabteilung, under Additional roles](assets/roles_rights_orgunit_v2_de.png){ class="shadow lightbox" title="Roles tab in the user management" }
 
 
 [To the top of the page ^](#role_assignment)
@@ -102,7 +102,7 @@ All persons who have been added to a course via the option "**Invite external me
 If, for example, an external person is to be given access to a binder in the Portfolio, the invitation is created under<br>
 `Portfolio > My binders > "Binder" > Tab "Shares" > Add access rights > Add invitation`
 
-![Menu Add access rights with the options Add member and Add invitation, Shares tab of a portfolio binder](assets/roles_rights_invite_v1_de.png){ class="shadow lightbox" }
+![Tab Shares and menu Add access rights marked, with the options Add member and Add invitation](assets/roles_rights_invite_v1_de.png){ class="shadow lightbox" title="Shares of a portfolio binder" }
 
 [To the top of the page ^](#role_assignment)
 
@@ -131,6 +131,7 @@ Specific rights can be defined for each user-to-user relation and thus access ca
 ## Further information {: #further_information} 
 
 **Mentioned on this page**<br>
+[Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Assign roles (Administration manual) >](../../manual_admin/usermanagement/Assign_roles.md)<br>
 [Groups >](../groups/index.md)
 

@@ -150,6 +150,7 @@ For owners, Copy and Delete additionally require the organisation role Author, L
 
 **Further reading**<br>
 [Which roles are available? >](Roles.md)<br>
+[Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Assign roles >](Assign_Roles.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)
