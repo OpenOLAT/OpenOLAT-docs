@@ -13,7 +13,7 @@
 
     [x] Authors [x] Coaches [ ] Participants
 
-    [ ] Beginners [x] Amateurs  [x] Experts
+    [ ] Beginners [x] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -418,7 +418,7 @@ You activate the SEB for an inspection in the inspection schedule of the assessm
 ---
 
 
-## Check list {: #SEB_checklist}
+## Checklist {: #SEB_checklist}
 
 - [x] Examinees informed that use of the SEB is mandatory?
 - [x] Download and installation of the Safe Exam Browser on all participants' devices?

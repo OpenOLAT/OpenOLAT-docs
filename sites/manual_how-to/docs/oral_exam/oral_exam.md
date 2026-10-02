@@ -10,7 +10,7 @@
 
     [x] Authors [x] Coaches  [ ] Participants
 
-    [x] Beginners [x] Advanced  [x] Experts
+    [x] Beginners [x] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"

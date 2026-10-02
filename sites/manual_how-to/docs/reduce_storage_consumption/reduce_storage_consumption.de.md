@@ -8,7 +8,7 @@
 
     [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -54,7 +54,7 @@ Eine eigene Quota lässt sich beispielsweise an diesen Orten einstellen:
 `Kurs > Administration > Kurseditor > Kursbaustein "Ordner" > Tab "Ordnerkonfiguration" > Button "Ordner verwalten" > Menü mit den drei Punkten > "Quota bearbeiten"`
 * für den Ablageordner eines Kurses:<br>
 `Kurs > Administration > Dateien > Ablageordner > Menü mit den drei Punkten > "Quota bearbeiten"`
-![Eintrag Quota bearbeiten im Menü mit den drei Punkten, im Ablageordner unter Dateien der Kurs-Administration](assets/quota_ablageordner_v2_de.png){ class="shadow lightbox" }
+![Eintrag Quota bearbeiten im Menü mit den drei Punkten](assets/quota_ablageordner_v2_de.png){ class="shadow lightbox" title="Ablageordner unter Dateien in der Kurs-Administration" }
 * für alle Ordner eines Kurses mit eigener Quota in einer einzigen Übersicht, darunter auch den Kursbaustein "Teilnehmer:innen Ordner". Die Auswertung Speicherverbrauch zeigt, wie viel Speicher jeder Ordner belegt, und trägt in diesen Zeilen die Aktion "Quota anpassen":<br>
 `Kurs > Administration > Dateien > Speicherverbrauch anzeigen > Aktion "Quota anpassen"`
 
@@ -63,7 +63,7 @@ Eine eigene Quota lässt sich beispielsweise an diesen Orten einstellen:
 Die Quotas für die persönlichen Dateien und das Media Center einer bestimmten Benutzer:in stellen Administrator:innen, Rollenverwalter:innen und Benutzerverwalter:innen in der Benutzerverwaltung ein. Der Tab "Quota" führt dafür zwei Zeilen, "Persönliche Dateien" und "Media Center", je mit der Aktion "Quota editieren":<br>
 `Benutzerverwaltung > "Benutzername" > Tab "Quota" > Aktion "Quota editieren"`
 
-![Zeilen Persönliche Dateien und Media Center mit Grösse, Quota, Upload Limite und Aktion Quota editieren, die Zeile Media Center markiert, im Tab Quota eines Kontos in der Benutzerverwaltung](assets/quota_benutzer_v2_de.png){ class="shadow lightbox" }
+![Zeilen Persönliche Dateien und Media Center mit Grösse, Quota, Upload Limite und Aktion Quota editieren, die Zeile Media Center markiert](assets/quota_benutzer_v2_de.png){ class="shadow lightbox" title="Tab Quota eines Kontos in der Benutzerverwaltung" }
 
 Was die beiden Zeilen zeigen und wann eine eigene Quota den Standardwert übersteuert, beschreibt der Abschnitt [Quota](../../manual_admin/usermanagement/Configure_User.de.md#quota) im Administrationshandbuch.
 
@@ -71,7 +71,7 @@ Was die beiden Zeilen zeigen und wann eine eigene Quota den Standardwert überst
 
 Die Quota für Gruppenordner wird in der Gruppenadministration eingestellt. Sie kann eingestellt werden, sobald ein Gruppenordner aktiviert wurde.<br>
 `Gruppe > Administration > Tab "Werkzeuge" > Option "Ordner" > Bereich "Quota editieren"`
-![Bereich Quota editieren mit Pfad, Quota und Upload Limite erscheint nach Aktivieren des Ordners, im Tab Werkzeuge der Gruppenadministration](assets/quota_gruppenordner_v2_de.png){ class="shadow lightbox" }
+![Bereich Quota editieren mit Pfad, Quota und Upload Limite erscheint nach Aktivieren des Ordners](assets/quota_gruppenordner_v2_de.png){ class="shadow lightbox" title="Tab Werkzeuge der Gruppenadministration" }
 
 <br>
 
@@ -103,7 +103,7 @@ Die Versionierung ist in allen Ordnern des Systems vorhanden:
 * "Persönliche Dateien"
 * Gruppenordner
 * Kursordner
-* Ressourcenordner 
+* Ressourcenordner
 * Kursbaustein "Ordner"
 
 <br>
@@ -136,7 +136,7 @@ Gelegentliches Aufräumen sollte auch hier von einer verantwortlichen Person ini
 
 ## Massnahme 4: Dateien endgültig löschen
 
-Wenn Dateien in OpenOlat gelöscht werden, heisst das in vielen Fällen, dass sie zunächst in einen "Papierkorb" gelangen. Die Dateien können aus dem Papierkorb zurück geholt und wiederhergestellt werden. Erst wenn sie (nach nochmaliger Bestätigung) endgültig gelöscht werden, sind sie nicht mehr verfügbar.  
+Wenn Dateien in OpenOlat gelöscht werden, heisst das in vielen Fällen, dass sie zunächst in einen "Papierkorb" gelangen. Die Dateien können aus dem Papierkorb zurückgeholt und wiederhergestellt werden. Erst wenn sie (nach nochmaliger Bestätigung) endgültig gelöscht werden, sind sie nicht mehr verfügbar.
 
 Der Speicherplatz wird bei Dateien "im Papierkorb" weiterhin benötigt. Erst das endgültige Löschen reduziert den benötigten Speicherplatz.
 
@@ -148,23 +148,26 @@ Werden im Autorenbereich Kurse oder Lernressourcen gelöscht, erscheinen sie nic
 Sie sind dort nur noch für die jeweiligen Besitzer:innen sichtbar und können nur durch sie wieder hergestellt werden.
 Auch das endgültige Löschen kann in diesem Tab durch Markieren und Klick auf den **Button "Dauerhaft löschen"** vorgenommen werden.
 
-![Button Dauerhaft löschen für einen markierten Kurs im Tab Gelöscht des Autorenbereichs](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" }
+![Button Dauerhaft löschen für einen markierten Kurs](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" title="Tab Gelöscht im Autorenbereich" }
 
 <br>
 
 <h3> Endgültiges Löschen durch Administrator:innen</h3>
 
-Administrator:innen können das endgültige Löschen in bestimmten Pfaden vornehmen. Es muss also nicht der gesamte "Papierkorb" komplett endgültig gelöscht werden. Sie finden die Dateien in der System-Administration unter:<br>
-`Administration > Core Konfiguration > Dateien und Ordner > Tab "Papierkorb" > Zeile selektieren > Option "Löschen" am Ende der Zeile`<br>
-Ein Klick auf "Löschen" am Ende der Zeile meint hier also das endgültige Löschen der zum Löschen markierten Dateien (Dateien im "Papierkorb").
+Administrator:innen können einzelne Dateien im Papierkorb gezielt endgültig löschen. Es muss also nicht der gesamte "Papierkorb" auf einmal geleert werden. Sie finden die Dateien in der System-Administration unter:<br>
+`Administration > Core Konfiguration > Dateien und Ordner > Tab "Papierkorb"`<br>
+Für eine einzelne Datei klicken Sie auf "Löschen" am Ende der Zeile. Für mehrere Dateien markieren Sie die Zeilen und klicken auf den Button "Endgültig löschen". Beide Aktionen löschen die Dateien endgültig.
 
-![Gelöschte Dateien mit Grösse, Löschdatum und Aktion Löschen je Zeile, im Tab Papierkorb unter Dateien und Ordner der System-Administration](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" }
+![Gelöschte Dateien mit Grösse, Löschdatum und Aktion Löschen je Zeile, darüber der Button Endgültig löschen für die markierten Zeilen](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" title="Tab Papierkorb unter Dateien und Ordner" }
+
+Damit sich der Papierkorb nicht unbemerkt füllt, löscht OpenOlat Dateien nach einer festgelegten Anzahl Tage automatisch endgültig aus dem Papierkorb. Die Frist legen Administrator:innen im Feld "Nach x Tagen aus dem Papierkorb löschen" fest, unter:<br>
+`Administration > Core Konfiguration > Dateien und Ordner > Tab "Konfiguration"`
 
 <br>
 
 <h3> Löschen in den persönlichen Dateien</h3>
 
-Für das endgültige Löschen von Dateien in den "Persönlichen Dateien" im File Hub ist jede Person selbst verantwortlich. Es erscheint eine Abfrage zur Bestätigung. Darauf hin werden die Dateien endgültig gelöscht. 
+Für das endgültige Löschen von Dateien in den "Persönlichen Dateien" im File Hub ist jede Person selbst verantwortlich. Es erscheint eine Abfrage zur Bestätigung. Daraufhin werden die Dateien endgültig gelöscht.
 
 ---
 
@@ -177,7 +180,7 @@ Administrator:innen können in der System-Administration gezielt nach grossen Da
 
 Dieser Überblick ist sehr hilfreich und hilft beim Aufräumen, bzw. beim Entscheiden, welche Dateien gelöscht werden sollten.
 
-![Suchmaske nach Alter, Versionen, Downloads und Mindestgrösse, darunter die grössten Dateien mit Kontext, im Tab Grosse Dateien unter Dateien und Ordner der System-Administration](assets/grosse_dateien_v2_de.png){ class="shadow lightbox" }
+![Suchmaske nach Alter, Versionen, Downloads und Mindestgrösse, darunter die grössten Dateien mit Kontext](assets/grosse_dateien_v2_de.png){ class="shadow lightbox" title="Tab Grosse Dateien unter Dateien und Ordner" }
 
 ---
 
@@ -204,8 +207,8 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 - [x] Quotas eingerichtet?
 - [x] Versionierung eingerichtet?
 - [x] Autor:innen auf Quota hingewiesen?
-- [x] Nach grossen Dateien gesucht und in Absprache mit den Besitzer:innen nicht mehr benötigte gelöscht? 
-- [x] Alle Benutzer:innen zum Aufräumen ihrer persönlichen Dateien aufgefordert? 
+- [x] Nach grossen Dateien gesucht und in Absprache mit den Besitzer:innen nicht mehr benötigte gelöscht?
+- [x] Alle Benutzer:innen zum Aufräumen ihrer persönlichen Dateien aufgefordert?
 - [x] Lebenszyklen eingerichtet?
 
 ---

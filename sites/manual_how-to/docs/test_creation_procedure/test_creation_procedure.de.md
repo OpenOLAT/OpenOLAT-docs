@@ -8,7 +8,7 @@
 
 ??? abstract "Zielgruppe"
 
-    [x] Anfänger [x] Fortgeschrittene  [ ] Experten
+    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -296,7 +296,7 @@ Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste
 19\. Damit die Lernenden den Test bearbeiten können, muss der Status des Kurses noch auf "Veröffentlicht" umgestellt werden.<br>
 Welche Lernenden Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.
 
-20\. Sobald Testergebnisse vorhanden sind, können Betreuende im Betreuungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
+20\. Sobald Testergebnisse vorhanden sind, können Betreuende im Bewertungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
 Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md)".
 
 <br>
@@ -409,7 +409,7 @@ Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste
 18\. Damit die Lernenden den Test bearbeiten können, muss der Status des Kurses noch auf "Veröffentlicht" umgestellt werden.<br>
 Welche Lernenden Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.
 
-19\. Sobald Testergebnisse vorhanden sind, können Betreuende im Betreuungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
+19\. Sobald Testergebnisse vorhanden sind, können Betreuende im Bewertungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
 Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md)".
 
 

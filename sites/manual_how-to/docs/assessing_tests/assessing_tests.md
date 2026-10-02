@@ -10,7 +10,7 @@
 
     [ ] Authors [x] Coaches  [ ] Participants
 
-    [x] Beginners [x] Amateurs  [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -70,19 +70,19 @@ Each test is assessed using an assessment form. There are three ways to access i
 
 ### 1. Start directly in the course element {: #access_course_element}
 
-![Three marked steps from the course element via the tab Participants to the row of a participant, in the course with the editor closed](assets/assessing_tests_access1a_v1_de.png){ class="shadow lightbox" }
+Users registered as coaches will not see the test (as participants do) when they click on a test course element, but rather an overview of the progress status of the participants they are coaching for this course element. From there, two clicks take you to the assessment form of a person:
 
-![1](assets/1_green_24.png) Users registered as coaches will not see the test (as participants do) when they **click on a test course element**, but rather an overview of the progress status of the participants they are coaching (with regard to the selected test course element).
+![Course element in the course menu, tab Participants and the row of the person to be assessed marked](assets/assessing_tests_access1a_v2_en.png){ class="shadow lightbox" title="Tab Participants in the course element Test · 2026.10.02" }
 
-![2](assets/2_green_24.png) In the **tab "Participants"**, you will find a list of the participants you are coaching, along with the processing status for this course element.
+* **Course element**: Select the test course element in the course menu.
+* **Tab "Participants"**: Here you will find the list of the participants you are coaching, along with the processing status for this course element. Click the name of a person.
+* **Assessment form**: You are taken to the assessment form of the entire test for this person.
 
-![3](assets/3_green_24.png) After **selecting a participant**, you will be taken to the **assessment form** for the overall test.
+![Icons Correct, View results and More actions at the test run, below it the assessment form](assets/assessing_tests_access1b_v2_en.png){ class="shadow lightbox" title="Assessment form of a person in the course element Test · 2026.10.02" }
 
-![List of the test attempts and below it the assessment form with score, Passed and the buttons Save intermediately and Complete assessment, plus the row menu with Correct](assets/assessing_tests_access1b_v1_de.png){ class="shadow lightbox" }
+Above the assessment form, OpenOlat lists all previous test runs of the person under "Test runs". Course owners also find the button "Reset data of test" below them.
 
-![4](assets/4_green_24.png) 
-
-In the **assessment form for the entire test**, you will find a list of all of the participant’s previous test attempts and can assess the entire test. You can also save your progress. You can:
+In the **assessment form for the entire test**, you assess the entire test. You can:
 
 * Assign points or overwrite points that have already been automatically assigned
 * Assign "Passed" or "Not passed"
@@ -90,19 +90,18 @@ In the **assessment form for the entire test**, you will find a list of all of t
 * Add assessment documents
 * Leave comments for other coaches
 
-![5](assets/5_green_24.png) Click the **correction icon** or the **three dots and then "Correct"** in the row of the current test attempt to open the **correction tool**. You will see a list of the questions in this test and can grade each individual question. (There is an **assessment form for the individual question** for each question.) You can:
+With "Intermediate save" you save an interim state. You finalize the assessment with "Finalize assessment and release" or with "Finalize assessment", depending on whether it is to be released. If you are allowed to release assessments, the arrow next to both buttons offers the variant with or without release.
 
-* view the results
-* invalidate a test attempt
-* export the results of a participant as a pdf
-* use log files to view the history of the test attempt
+The row of the current test run shows three icons:
 
+* **Correct**: opens the questions of this test run. You grade each individual question in its **assessment form for the individual question**. This is the same view as in the [correction tool](#correction_tool) after selecting a person.
+* **View results**: shows the results of the test run.
+* **More actions**: opens a menu, among others with "Results as PDF", "Formatted Log", "Export log file" and "Invalidate". The log files let you trace the history of the test run.
 
 If an assessment has been completed, the buttons shown change. You can then:
 
-* reopen the completed assessment
-* release the assessment
-* withdraw the release
+* edit the assessment again with "Reopen assessment"
+* release the assessment with "Release" or withdraw the release with "Withdraw release", depending on whether it is released
 
 [To the top of the page ^](#assessing_tests)
 
@@ -113,13 +112,11 @@ If an assessment has been completed, the buttons shown change. You can then:
 The assessment tool can be accessed via<br>
 `Course > Administration > Assessment tool`
 
-![Expanded Administration menu with the marked entry Assessment tool, in the course](assets/assessing_tests_access2a_v1_de.png){ class="shadow lightbox" }
+The steps that follow are the same as when accessing the course element directly (see [the previous section](#access_course_element)). In the assessment tool, all assessable course elements of the entire course are displayed on the left. Select the relevant test course element, the "Participants" tab and there the name of a person.
 
-The steps that follow are the same as when accessing the course element directly (see [the previous section](#access_course_element)). In the assessment tool, all assessable course elements of the entire course are displayed on the left. Select the relevant test course element, the "Participants" tab, etc.
+At the end of each row, the icon "More actions" opens a menu. With "Show details / assess" you open the assessment form of the person, with "Correct" the correction of their test run. Depending on the status of the assessment, the menu offers further entries, such as "Finalize assessment", "Release", "Results as PDF" or "Reset number of attempts".
 
-Also note the options under the icon at the end of the line.
-
-![Three marked steps in the assessment tool from the course element via the tab Participants to the row, plus the row menu with Show details and Correct](assets/assessing_tests_access2b_v1_de.png){ class="shadow lightbox" }
+![More actions menu of a person with the marked entries Show details / assess and Correct](assets/assessing_tests_access2b_v2_en.png){ class="shadow lightbox" title="More actions menu in the tab Participants of the assessment tool · 2026.10.02" }
 
 [To the top of the page ^](#assessing_tests)
 
@@ -131,14 +128,13 @@ Also note the options under the icon at the end of the line.
 If you see the **"Coaching" site in the main navigation**, you can also use it to assess the test course element.
 
 The **Coaching** site displays pending assessment orders **across all courses**.
-From the overview of the Coaching site, you can access your assessment task via various links. For example, by searching for a specific person or by viewing only the pending assessment orders.
+From the start page of the Coaching site, you can reach your assessment task in several ways: search for a specific person with the search field "Who do you want to coach?", open the people you coach with the tile "People", or display the pending orders with the tile "Assessment orders".
 
 The steps that follow are then the same as when you start directly in the course element (see [the previous section](#access_course_element)).
 
 Which setting fills which tab in the Coaching site is described in the section [Creating assessment orders](../../manual_user/area_modules/Coaching_Assessment_Orders.md#create_assessment_orders).
 
-![Coaching start page with the marked entries User search, People, Courses and Assessment orders as well as the favourites](assets/assessing_tests_access3a_v1_de.png){ class="shadow lightbox" }
-
+![Coaching site in the main navigation, search field and the tiles People and Assessment orders marked](assets/assessing_tests_access3a_v2_en.png){ class="shadow lightbox" title="Start page of the Coaching site · 2026.10.02" }
 
 [To the top of the page ^](#assessing_tests)
 
@@ -166,7 +162,7 @@ What the three variants do is described on the page [Tests at course level](../.
 **For each question** on a test, there is an assessment form in OpenOlat for each course participant.
 
 There is also an assessment form for the **entire test course element**. <br>
-See [1. Start directly in the course element, Step 3 ^](#access_course_element)
+See [Start directly in the course element](#access_course_element)
 
 There you can:
 
@@ -203,16 +199,26 @@ For **tests**, a **correction tool** is also available, which allows you to grad
 
 `Course > Administration > Assessment tool > Select course element > Tab "Participants" > Button "Correction tool"`
 
-![Four marked steps from the assessment tool via the course element and the tab Participants to the Correction tool button](assets/assessing_tests_correction_tool1_v1_de.png){ class="shadow lightbox" }
+![Course element, tab Participants and button Correction tool above the list marked](assets/assessing_tests_correction_tool1_v2_en.png){ class="shadow lightbox" title="Tab Participants in the assessment tool · 2026.10.02" }
+
+OpenOlat shows the button "Correction tool" if the correction "Manual by course coach/owner" is set at the course element, or if the test contains questions that must be corrected manually. With the variant "Manual by correctors", the button is missing: the correction then runs via the grading assignments.
+
+If assessments have already been finalized, the button first opens the dialog "Reopen closed assessments". With "Reopen assessment" you reopen the finalized assessments for a new correction, with "See correction read only" you see the correction without changing anything.
 
 It allows two ways of correcting:
 
 1. **Select a specific question** and grade that question for all participants.
 2. **Select a participant** and then grade all of that participant’s questions one by one before moving on to the next participant.
 
-![Switch between Questions and Participants above the question list with question type, answered as well as automatically and manually corrected, in the correction tool](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
+You choose the way with the switch "Questions" or "Participants". The question list shows for each question how many answers are corrected automatically or manually and how many are still to correct or to review. The tabs "To correct", "To review", "Manual" and "Adjusted" filter the list. With "Save results as completed" you finalize the assessments.
 
-![Assessment form of a single question with Overwrite score, comment field, assessment document and Mark for review, in the correction tool](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
+![Switch Questions and Participants marked, below it the question list with an open correction for the essay question](assets/assessing_tests_correction_tool_process1_v2_en.png){ class="shadow lightbox" title="Question list in the correction tool · 2026.10.02" }
+
+In the assessment form for the individual question, you assign the points, write a comment, upload an assessment document or set "Mark for review". For automatically assessed questions, you change the assigned points with "Override score".
+
+![Answer to an essay question and below it its assessment form with score, comment and Mark for review](assets/assessing_tests_correction_tool_process2_v2_en.png){ class="shadow lightbox" title="Assessment form of a single question in the correction tool · 2026.10.02" }
+
+Whether the correction tool shows the names of the participants or the "Participant identifier" instead is set by administrators in the system administration: `Administration > e-Assessment > Test > Tab "Correction"`. The anonymous display with the participant identifier is preset. Find out more: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.md#tab_correction)
 
 It is also possible to have tests graded anonymously in OpenOlat. You can learn more about this in the how-to guide [How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
 
@@ -249,7 +255,9 @@ The assessment tool offers **bulk actions** to set the status of multiple partic
 * Once at least one person has been selected, several buttons for bulk actions will appear above the table.
 * Select one of the actions.
 
-![Bulk actions Complete assessment, Release, Withdraw release, Correction tool and E-mail above the list, for two selected participants](assets/assessing_tests_bulk_actions_v1_de.png){ class="shadow lightbox" }
+Which bulk actions appear depends on the configuration of the course element and on your rights. For a test, they are for example "Finalize assessment", "Release", "Withdraw release", "Test Statistics", "Export results", "Correction tool", "Grant assessment inspection", "E-Mail" and "Reset data".
+
+![Bulk actions above the list marked, as soon as the checkboxes of two people are selected](assets/assessing_tests_bulk_actions_v2_en.png){ class="shadow lightbox" title="Bulk actions in the tab Participants of the assessment tool · 2026.10.02" }
 
 [To the top of the page ^](#assessing_tests)
 
@@ -280,6 +288,7 @@ The assessment tool offers **bulk actions** to set the status of multiple partic
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
 [Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
+[e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)<br>
 [How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 

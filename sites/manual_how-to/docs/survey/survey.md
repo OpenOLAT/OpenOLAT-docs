@@ -11,16 +11,16 @@
 
     [x] Authors [x] Coaches  [ ] Participants [ ] Administrators
 
-    [x] Beginners [x] Advanced  [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected prior knowledge"
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-    * [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+    * [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)
     * Set an implementation period for the course
     * Integrate a form into the course
-  
+
 
 ---
 
@@ -32,10 +32,10 @@ You should distinguish 4 terms:
 - **Learning resource "Form"**<br>
 A form with several questions is created in OpenOlat as a **learning resource** and stored in the authoring area. This form learning resource can be reused several times in different course elements.
 
-- The **questions** (single choice, multiple choice, text input, rubric, etc.) are compiled by creating and editing a learning resource "Form".
+- The **questions** (single choice, multiple choice, text block, rubric, etc.) are compiled by creating and editing a learning resource "Form".
 
 - **Course element "Form"**<br>
-A **learning resource** "Form" is inserted into the **course element** "Form". Please do not confuse learning resource and course element. The course element integrates the form at a specific point in the course – for a final survey, therefore, at the end of the course.
+A **learning resource** "Form" is inserted into the **course element** "Form". Please do not confuse learning resource and course element. The course element integrates the form at a specific point in the course, for a final survey, therefore, at the end of the course.
 
 - **Course element "Survey"**<br>
 A learning resource "Form" is also inserted into this course element. In contrast to the course element "Form", in the course element "Survey" the questions are answered **anonymously** by default. When coaches review the submitted forms, they will find no assignment by name there. (Exception: If you insert input fields for name, first name, etc. in the form learning resource, the survey is of course no longer anonymous. However, the evaluation mechanism in the course element "Survey" is designed for anonymity in principle.)
@@ -48,7 +48,7 @@ A learning resource "Form" is also inserted into this course element. In contras
 
 We assume that you have already created a course. There you can insert another course element at the end of the course. If it is to be an anonymous survey, use the course element "Survey". (In the following we assume this course element.) Alternatively, you can use the course element "Form", in which the answers can be assigned to the respective participants.
 
-!!! info "Note"
+!!! info "Important"
 
     Even when using the course element "Survey" (anonymized survey), OpenOlat ensures that participants can only fill out the survey once.
 
@@ -56,10 +56,10 @@ In the course administration, open the **course editor** and insert the course e
 
 After inserting it, the following tabs are available in the course editor for setting up/configuring:
 
-* **Title and description** – general information about the course element
-* **Layout** – visual presentation
+* **Title and description**: general information about the course element
+* **Layout**: visual presentation
 * **Learning path** (for learning path courses) or **Visibility** and **Access** (for classic courses)
-* **Survey** – the central configuration, in which you also integrate the learning resource (see Step 2)
+* **Survey**: the central configuration, in which you also integrate the learning resource (see Step 2)
 
 Make the desired settings.
 
@@ -69,7 +69,7 @@ Make the desired settings.
 
 ## Step 2: Create the form learning resource {: #step2}
 
-!!! hint "Recommendation"
+!!! tip "Recommendation"
 
     If you have never created a form for surveys, first read the guide ["How do I create a form learning resource?"](../create_a_form/create_a_form.md). It shows how to compile the questions.
 
@@ -81,15 +81,15 @@ b) Insert the learning resource into the course element
 
 #### Approach 2: Course element -> Learning resource
 a) In the course editor, select the course element and there the tab "Survey".<br>
-b) Click the button "Choose, create or import".<br> 
+b) Click the button "Choose, create or import".<br>
 A list of already existing learning resources of which you are the owner is displayed.<br>
 There you can select one or create a new form learning resource with the button above the list.<br>
 This takes you to the editor of the form, where you can create the questions.<br>
 As soon as the learning resource is saved, it is also displayed in the authoring area.
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    For a final survey on course quality, **single choice questions** (which force a clear position) or **rubric elements** (traffic-light/scale system) are often suitable. This keeps the effort for the participants low.
+    For a final survey on course quality, questions of the type **Single choice** (which force a clear position) or **Rubric** (traffic-light/scale system) are often suitable. This keeps the effort for the participants low.
 
 [To the top of the page ^](#survey)
 
@@ -107,7 +107,7 @@ If you first created the form learning resource in the authoring area (Step 2, A
 
 !!! warning "Attention"
 
-    Once a form has been viewed by at least one participant, it can **no longer be replaced** – the "Replace" button is omitted. If it nevertheless has to be exchanged, create a new course element "Survey" and integrate the desired form there.
+    Once a form has been viewed by at least one participant, it can **no longer be replaced**: The "Replace" button is omitted. If it nevertheless has to be exchanged, create a new course element "Survey" and integrate the desired form there.
 
 [To the top of the page ^](#survey)
 
@@ -119,7 +119,7 @@ If you first created the form learning resource in the authoring area (Step 2, A
 Should the Survey course element only be visible from a certain point in time?<br>
 Should the survey only be fillable from a certain point in time?<br>
 Should only certain persons be able to fill out the survey?<br>
-Should the survey only be possible once a certain processing status in the course has been reached?<br> 
+Should the survey only be possible once a certain processing status in the course has been reached?<br>
 (E.g. all course elements processed, a test passed, etc.)<br>
 Should the course only count as completed once the survey has been filled out as well?<br>
 Who should be able to view and evaluate the survey results?
@@ -128,21 +128,21 @@ All these questions have to do with access rights, which you control
 
 a) via the **tab "Survey"**<br>
 b) via the **tab "Learning path"** (in learning path courses)<br>
-c) via the **tabs "Visibility"** and **"Access"** (in classic courses) 
+c) via the **tabs "Visibility"** and **"Access"** (in classic courses)
 
 
 ### Step 4 a): Define permissions in the tab "Survey" {: #step4a}
 
-In the **"User rights"** area of the "Survey" tab, you define **who may fill out the survey** and **who may view the results**. Available in each case are:
+In the **"User rights"** area of the "Survey" tab, you define **who may fill out the survey** and **who may view the results**: with the fields **"Participation by"** and **"Results visible for"**. Available in each case are:
 
 * the **owners** of the course
 * the **coaches** of the course
 * the **participants** of the course (all persons in the role "Participant")
 * **Guests** (persons without an OpenOlat account)
 
-If you activate the **advanced configuration**, you can make additional settings, e.g. define certain **periods** of participation for certain roles or restrict participation to certain groups. The release of the results can also be linked to a start and end date.
+If you switch on **"Show advanced configuration"**, you can make additional settings, e.g. define certain **periods** of participation for certain roles or restrict participation to certain groups. The release of the results can also be linked to a start and end date.
 
-!!! tip "Hint"
+!!! tip "Tip"
 
     A prerequisite for participation is that the **entire course** is released for the respective group of people. If, for example, the final survey is also to be fillable by guests, the course must include an access offer for guests. Please note: A course release for guests is only possible for classic courses, not for learning path courses.
 
@@ -151,11 +151,12 @@ If you activate the **advanced configuration**, you can make additional settings
 
 So that the survey actually acts as a **conclusion**, you may want the survey to only appear or be fillable once the rest of the course has already been processed.
 
-- With activated exception rules in the tab "Learning path", it can be determined very specifically that only certain persons find the survey in the course menu.
+- With exceptions enabled in the tab "Learning path", it can be determined very specifically that only certain persons find the survey in the course menu.
 
-- If preceding course elements are configured in the tab "Learning path" so that a "done" must be reached there as "mandatory", the participants can only reach the survey at the end of the course. However, the course element is always visible in the menu.
+- If preceding course elements are configured in the tab "Learning path" so that a "done" must be reached there as "Mandatory", the participants can only reach the survey at the end of the course. However, the course element is always visible in the menu.
 
-- In the tab "Learning path" you can select the **completion criterion "Survey finished"**. If, at the same time, the criterion for passing the entire course requires the completion of all or certain course elements (Administration > Settings > Assessment tab), you can thereby make filling out the survey a condition for course completion as well.
+- In the tab "Learning path" you can select the **completion criterion "Survey finished"**. If, at the same time, the criterion for passing the entire course requires the completion of all or certain course elements, you can thereby make filling out the survey a condition for course completion as well. You define the criterion for passing under:<br>
+`Course > Administration > Settings > Assessment`
 
 
 ### Step 4 c): Define permissions in the tabs "Visibility" and "Access" (in classic courses) {: #step4c}
@@ -173,14 +174,14 @@ On the Survey element, a rule must be stored in the Visibility tab to define whe
 
 2. Variant a): Create an expert rule: duration after course start
 
-- Add the following expert rule: (today <= getCourseBeginDate(0) + 7d)<br>
-This expert rule states that the survey should be visible for 7 days after the course start.
+- Add the following expert rule: (getCourseBeginDate(0) <= today) & (getCourseBeginDate(0) + 7d >= today)<br>
+This expert rule states that the survey should be visible for 7 days from the course start.
 The number of days can be adjusted as desired.
 
 2. Variant b): Create an expert rule: duration after course end
 
-- Add the following expert rule: (getCourseEndDate(0) >= today) & (getCourseEndDate(0) + 7d >= today)<br>
-This expert rule states that the survey should be visible for 7 days after the course end.
+- Add the following expert rule: (getCourseEndDate(0) <= today) & (getCourseEndDate(0) + 7d >= today)<br>
+This expert rule states that the survey should be visible for 7 days from the course end.
 The number of days can be adjusted as desired.
 
 3. Save
@@ -191,7 +192,7 @@ The number of days can be adjusted as desired.
 
 !!! info "Anonymous or personalized?"
 
-    In the course element "Survey", the results are stored **anonymized** by default. A personalized evaluation is possible by adding the element **"Information"** in the form editor – this cancels the anonymity.
+    In the course element "Survey", the results are stored **anonymized** by default. A personalized evaluation is possible by adding the element **"Respondent details"** in the form editor. This cancels the anonymity.
 
 [To the top of the page ^](#survey)
 
@@ -200,16 +201,17 @@ The number of days can be adjusted as desired.
 
 ## Step 5: Set up reminders {: #step5}
 
-Via the reminder tool (Administration > Reminders) you can, for example, send a reminder 3 days after the course end so that the participants fill out the survey.
+Via the reminder tool you can, for example, send a reminder 3 days after the course end so that the participants fill out the survey. You will find it under:<br>
+`Course > Administration > Reminders`
 
 Add a reminder:
 
-- In the "Administration" drop-down menu, open the item "Reminder"
-- Click the "Create reminder" button. A new reminder opens.
-- Enter a description
-- Add conditions: E.g. "After course end"
-- Insert the e-mail subject and text
-- Save
+- In the "Administration" drop-down menu, open the item "Reminders"
+- Click the "Add reminder" button. A wizard with three steps opens.
+- In the first step, enter a description and choose a rule with "Add rule", e.g. "End date execution period of course"
+- In the second step, check the selected rules
+- In the third and last step, enter the e-mail subject and the text
+- Save with "Finish"
 
 
 [To the top of the page ^](#survey)
@@ -232,13 +234,13 @@ What the participants see depends on the permissions set in the tab "Survey":
     If participants are currently running the survey but have not yet completed it, their results will be lost if the form is changed during this time.
 
 
-[To the top of the page ^](#end_of_course_survey)
+[To the top of the page ^](#survey)
 
 ---
 
 ## Step 7: Evaluate the results {: #step7}
 
-When they click on the course element "Survey", course owners and all coaches of the course are shown the following tabs:
+Whoever is authorized in the field "Results visible for", by default the owners and the coaches of the course, sees the following tabs when clicking on the course element "Survey":
 
 * **Overview**: Number of persons who have filled out the questionnaire, submission period, and average processing time. Depending on the question type, further key figures are listed.
 * **Tables**: The individual questions and answers, and for rubrics additional statistical evaluations. Free texts can be downloaded as an Excel table.
@@ -249,7 +251,8 @@ The contents of all tabs can be **printed** or downloaded as an **Excel table** 
 
 !!! info "Further ways to access the evaluation"
 
-    You will find the same evaluation in the menu `Administration > Questionnaire statistics`. In addition, the results can be saved as part of the **course archiving** – it is even possible to bundle the results of several course elements in one ZIP file.
+    You will find the same evaluation under: `Course > Administration > Survey statistics`<br>
+    In addition, the results can be archived under `Course > Administration > Archiving & Reporting`. It is even possible to bundle the results of several course elements in one ZIP file.
 
 
 [To the top of the page ^](#survey)
@@ -296,23 +299,22 @@ Resetting **individual** forms is **not** possible in the course element "Survey
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Course Element Survey >](../../manual_user/learningresources/Course_Element_Survey.md)<br>
-[Course Element Form >](../../manual_user/learningresources/Course_Element_Form.md)<br>
-[The Form Editor >](../../manual_user/learningresources/Form_Editor.md)<br>
-[Form Elements >](../../manual_user/learningresources/Form_Elements.md)<br>
-[Questionnaire Statistics >](../../manual_user/learningresources/Statistics_Survey.md)<br>
-[Forms - Overview >](../../manual_user/learningresources/Form.md)<br>
-[Access configuration / Release >](../../manual_user/learningresources/Access_configuration.md)<br>
+[How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)
 
 **Further reading**<br>
-[Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
-[Forms in Courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
+[Course Element "Survey" >](../../manual_user/learningresources/Course_Element_Survey.md)<br>
+[Course Element "Form" >](../../manual_user/learningresources/Course_Element_Form.md)<br>
+[The form editor >](../../manual_user/learningresources/Form_Editor.md)<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements.md)<br>
+[Survey statistics >](../../manual_user/learningresources/Statistics_Survey.md)<br>
+[Forms - Overview >](../../manual_user/learningresources/Form.md)<br>
+[Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
+[Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
+[Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
 [Learning path course - Course editor >](../../manual_user/learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../../manual_user/area_modules/Authoring.md)<br>
-[Access configuration / Release >](../../manual_user/learningresources/Access_configuration.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)
 
 
 [To the top of the page ^](#survey)
-

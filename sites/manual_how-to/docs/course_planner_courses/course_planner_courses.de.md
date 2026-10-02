@@ -8,7 +8,7 @@
 
     [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -29,12 +29,11 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 **Kursplaner:innen** können schon vor Fertigstellung der Inhalte (Kurse) durch **Autor:innen** die gesamte organisatorische Planung vornehmen:
 
 * Planung mehrfacher Durchführungen des gleichen Kurses zu verschiedenen Zeiten
-* Planung von Bildungsgängen mit mehreren Kursen (und jeweils mehreren Durchführungen)
+* Planung von Produkten mit mehreren Kursen (und jeweils mehreren Durchführungen)
 * Erstellung von Angeboten im Katalog
 * Reports zu den bereits eingegangenen Buchungsaufträgen
 * Planung von Terminen im Zusammenhang mit den verschiedenen Durchführungen (z.B. für Präsenzveranstaltungen oder Prüfungen)
-* Terminierung einer automatischen Instanzierung der Kurse
-* ...
+* Terminierung einer automatischen Instanziierung der Kurse
 
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
@@ -42,13 +41,13 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 
 ##  Wo finde ich den Course Planner? {: #access}
 
-Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als Bereich in der **Hauptnavigation**.  
+Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als Bereich in der **Hauptnavigation**.
 
-![Course Planner im geöffneten Menü Mehr der Hauptnavigation, darunter die Übersicht des Course Planner](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
+![Eintrag Course Planner im geöffneten Menü Mehr, darunter die Startseite des Course Planners mit vier Buttons](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" title="Hauptnavigation und Startseite des Course Planners" }
 
 !!! info "Voraussetzung"
 
-    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht der Bereich nicht in der Hauptnavigation zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
+    Um den Course Planner verwenden zu können, muss ihn eine Systemadministrator:in aktiviert haben. Steht der Bereich nicht in der Hauptnavigation zur Verfügung, wenden Sie sich bitte an Ihre Systemadministration.
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -65,12 +64,12 @@ Beispiel:<br>
 
 Öffnen Sie den Course Planner und wählen Sie dort den Button "Produkte". Sie können dort ein bereits vorhandenes Produkt aus der Liste auswählen oder eines neu erstellen. Dieses soll dann mehrfach in verschiedenen Durchführungen angeboten werden.
 
-![course_planner_products1_v1_de.png](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" }  
+![Markierter Eintrag Course Planner im Menü Mehr und markierter Button zu den Produkten auf der Startseite](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
-Mehr dazu finden Sie im Benutzerhandbuch unter 
+Mehr dazu finden Sie im Benutzerhandbuch unter:<br>
 [Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_product)
 
-!!! info "Hinweis"
+!!! note "Hinweis"
 
     In der nachstehenden Anleitung beschränken wir uns zunächst auf einen einzelnen Kurs. Es ist darüber hinaus auch möglich, in einer Durchführung mehrere Kurse einzubinden.
 
@@ -80,13 +79,13 @@ Mehr dazu finden Sie im Benutzerhandbuch unter
 ---
 
 
-## Schritt 2: Produkt-Verantwortliche bestimmen {: #define_product_owners}
+## Schritt 2: Produktbesitzer:innen bestimmen {: #define_product_owners}
 
-Im neu erstellten Produkt finden Sie verschiedene Register/Tabs, unter denen Sie nun das Produkt konfigurieren können. Wählen Sie zunächst den **Tab "Besitzer:innen"**. Dort finden Sie die Möglichkeit, (produkt-)Besitzer:innen hinzuzufügen.
+Im neu erstellten Produkt finden Sie verschiedene Tabs, unter denen Sie nun das Produkt konfigurieren können. Wählen Sie zunächst den **Tab "Besitzer:innen"**. Dort fügen Sie mit dem Button "Mitglied hinzufügen" Produktbesitzer:innen hinzu.
 
-Als Ersteller:in des Produkts haben Sie bereits die Bearbeitungsrechte. Wenn Sie die Planung und Administration des Produkts nicht selbst und alleine machen wollen, sollten Sie hier eine verantwortliche Person als Besitzer:in bestimmen.
+Als Ersteller:in des Produkts haben Sie bereits die Bearbeitungsrechte. Wenn Sie die Planung und Administration des Produkts nicht selbst und alleine machen wollen, sollten Sie hier eine verantwortliche Person als Produktbesitzer:in bestimmen.
 
-![course_planner_curriculum_owner_v1_de.png](assets/course_planner_curriculum_owner_v1_de.png){ class="shadow lightbox" } 
+![Markierter Tab Besitzer:innen eines Produkts und das geöffnete Menü Mitglied hinzufügen](assets/course_planner_curriculum_owner_v1_de.png){ class="shadow lightbox" title="Tab Besitzer:innen eines Produkts" }
 
 **Warum kann ich hier nur Besitzer:innen eintragen? Warum nicht auch Teilnehmer:innen?**
 
@@ -94,7 +93,7 @@ Die Idee ist, dass ein aus mehreren Kursen bestehendes Produkt, nicht nur einmal
 
 Besitzer:innen haben das Recht, das Produkt (die "Originalversion", die "Kopiervorlage") zu bearbeiten. Es macht keinen Sinn, auch die Teilnehmer:innen zu Mitgliedern der "Kopiervorlage" zu machen. Sie wären ja dann in allen Durchführungen eines Produkts als Teilnehmer:innen dabei.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Im Course Planner haben Sie in der Rolle **Kursplaner:in** vollen Zugriff auf alle Produkte.<br>
     **Besitzer:innen** eines Produkts haben dagegen nur Zugriff auf ihr jeweiliges Produkt.
@@ -107,19 +106,19 @@ Besitzer:innen haben das Recht, das Produkt (die "Originalversion", die "Kopierv
 
 ## Schritt 3: Planung/Erstellung einer Durchführung {: #implementations}
 
-Wählen Sie nun den **Tab "Durchführung"** und erstellen Sie eine neue Durchführung.
+Wählen Sie nun den **Tab "Durchführungen"** und erstellen Sie eine neue Durchführung.
 
-![course_planner_curriculum_implementations1_v1_de.png](assets/course_planner_curriculum_implementations1_v1_de.png){ class="shadow lightbox" } 
+![Markierter Tab Durchführungen eines Produkts und der Button Erstellen für eine neue Durchführung](assets/course_planner_curriculum_implementations1_v1_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts" }
 
-Unter dem Button "Erstellen" finden Sie eine Auswahl an [Elementtypen](../../manual_admin/administration/Modules_Course_Planner.de.md#define_element_types), die von Ihrem/Ihrer Administrator:in festgelegt wurden. 
+Unter dem Button "Erstellen" finden Sie eine Auswahl an [Elementtypen](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types), die in der System-Administration festgelegt wurden.
 
-![course_planner_curriculum_implementations2_v1_de.png](assets/course_planner_curriculum_implementations2_v1_de.png){ class="shadow lightbox" } 
+![Geöffnetes Menü Erstellen mit einem Eintrag je Elementtyp, etwa Klasse, Lehrgang oder Semester](assets/course_planner_curriculum_implementations2_v1_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts" }
 
-Alle geplanten Durchführungen dieses Produkts finden Sie anschliessend in der Liste unter diesem Tab. Sie können jede Durchführung wählen und Sie entsprechend Ihren Wünschen anpassen.
+Alle geplanten Durchführungen dieses Produkts finden Sie anschliessend in der Liste unter diesem Tab. Sie können jede Durchführung wählen und sie entsprechend Ihren Wünschen anpassen.
 
-Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können Sie auch von einer bereits geplanten und modifizierten Durchführung eine Kopie erzeugen. Die Kopiermöglichkeit finden Sie unter den 3 Punkten am Ende einer Zeile.
+Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können Sie auch von einer bereits geplanten und modifizierten Durchführung eine Kopie erzeugen. Die Aktion "Element kopieren" finden Sie im Menü der 3 Punkte am Ende einer Zeile.
 
-![course_planner_curriculum_implementations3_v1_de.png](assets/course_planner_curriculum_implementations3_v1_de.png){ class="shadow lightbox" } 
+![Menü am Zeilenende einer Durchführung mit dem markierten Eintrag Element kopieren](assets/course_planner_curriculum_implementations3_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -131,13 +130,13 @@ Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können 
 
 Für die Planung von Terminen ist zu unterscheiden:
 
-### Schritt 4a: Zeitraum einer Durchführung 
-Wenn eine neue Durchführung erstellt und eingerichtet worden ist (der Ablauf / das "Programm" der Durchführung festgelegt ist), müssen die verschiedenen Durchführung noch terminiert werden.
+### Schritt 4a: Zeitraum einer Durchführung
+Wenn eine neue Durchführung erstellt und eingerichtet worden ist (der Ablauf / das "Programm" der Durchführung festgelegt ist), muss die Durchführung noch terminiert werden.
 
-Es wird ein Durchführungszeitraum (Termin, wann eine Durchführung stattfindet) angegeben. Diese Angaben werden jeweils bei der Konfiguration einer Durchführung gemacht:<br>
-**Durchführung wählen > Tab Einstellungen > Tab Durchführung**
+Den Durchführungszeitraum, also wann eine Durchführung stattfindet, legen Sie bei der Konfiguration der Durchführung fest:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`
 
-![course_planner_courses_implementation_settings_v1_de.png](assets/course_planner_courses_implementation_settings_v1_de.png){ class="shadow lightbox" } 
+![Markierter Unter-Tab Durchführung in den Einstellungen und das Feld Durchführungszeitraum mit Beginn- und Enddatum](assets/course_planner_courses_implementation_settings_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -147,11 +146,11 @@ Es wird ein Durchführungszeitraum (Termin, wann eine Durchführung stattfindet)
 ### Schritt 4b: Termine im Rahmen einer Durchführung
 
 Wenn eine neue Durchführung erstellt und eingerichtet worden ist, und auch deren Durchführungszeitraum festgelegt wurde, können nun innerhalb einer Durchführung stattfindende Termine geplant und angelegt werden:<br>
-**Durchführung wählen > Tab Einstellungen > Tab Termine**
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Termine"`
 
-Mit dem Button "Termin hinzufügen" rechts über der Tabelle fügen Sie weitere Termine hinzu. 
+Mit dem Button "Termin hinzufügen" rechts über der Tabelle fügen Sie weitere Termine hinzu.
 
-![course_planner_courses_implementation_events_v1_de.png](assets/course_planner_courses_implementation_events_v1_de.png){ class="shadow lightbox" } 
+![Markierter Tab Termine einer Durchführung mit dem Button Termin hinzufügen und der Liste der Termine](assets/course_planner_courses_implementation_events_v1_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
 
 !!! info "Technischer Hintergrund"
 
@@ -164,51 +163,61 @@ Mit dem Button "Termin hinzufügen" rechts über der Tabelle fügen Sie weitere 
 
 ### Schritt 4c: Übersicht über Termine aus allen Durchführungen
 
-Wenn mehrere Durchführung erstellt und eingerichtet worden sind, existieren zu jeder Durchführung Termine. Um eine Gesamtübersicht zu erhalten, wählen Sie im **Produkt** den Tab "Termine". Auch dort können die einzelnen Termine bearbeitet werden. Sie haben dort zunächst die Übersicht und entscheiden sich dann für eine der Durchführungen.
+Wenn mehrere Durchführungen erstellt und eingerichtet worden sind, existieren zu jeder Durchführung Termine. Um eine Gesamtübersicht zu erhalten, wählen Sie im **Produkt** den Tab "Termine". Auch dort können die einzelnen Termine bearbeitet und mit dem Button "Termin hinzufügen" neue Termine angelegt werden.
 
-![course_planner_curriculum_events1_v1_de.png](assets/course_planner_curriculum_events1_v1_de.png){ class="shadow lightbox" } 
+![Markierter Tab Termine eines Produkts und der Button Termin hinzufügen über der noch leeren Terminliste](assets/course_planner_curriculum_events1_v1_de.png){ class="shadow lightbox" title="Tab Termine eines Produkts" }
 
-Der Termin kann sich auf die gesamte Durchführung eines Produkts beziehen oder nur auf einen Teil der Durchführung des Produkts. Wählen Sie das gewünschte Element aus dem angezeigten Strukturbaum.
+Der Termin kann sich auf die gesamte Durchführung eines Produkts beziehen oder nur auf einen Teil der Durchführung des Produkts. Wählen Sie im ersten Schritt des Dialogs das gewünschte Element aus dem angezeigten Strukturbaum.
 
-![course_planner_curriculum_events2_v1_de.png](assets/course_planner_curriculum_events2_v1_de.png){ class="shadow lightbox" } 
+![Erster Schritt des Dialogs: Auswahl des Elements aus der Struktur des Produkts, von der Durchführung bis zum einzelnen Kurs](assets/course_planner_curriculum_events2_v1_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
 
-Nachdem das zu terminierende Element der Durchführung gewählt ist, konfigurieren Sie den Termin, d.h. Sie nehmen die entsprechenden Einstellungen vor. 
+Nachdem das zu terminierende Element der Durchführung gewählt ist, konfigurieren Sie den Termin, d.h. Sie nehmen die entsprechenden Einstellungen vor.
 
-![course_planner_curriculum_events3_v1_de.png](assets/course_planner_curriculum_events3_v1_de.png){ class="shadow lightbox" } 
+![Formular des Termins mit den Feldern von Titel bis Präsenz](assets/course_planner_curriculum_events3_v1_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
 
-![1_green_24.png](assets/1_green_24.png) **Titel**: 
+#### Titel {: #event_title}
+
 Mit diesem Titel wird der Termin an verschiedenen Stellen angezeigt.
 
-![2_green_24.png](assets/2_green_24.png) **Kennzeichen**: 
-Der zusätzliche Identifier dient der Eindeutigkeit eines Termins, falls es Termine mit gleichem Titel gibt.
+#### Kennzeichen {: #event_reference}
 
-![3_green_24.png](assets/3_green_24.png) **Datum**: 
-Tag und Uhrzeit (Beginn und Ende)
+Die zusätzliche Kennung dient der Eindeutigkeit eines Termins, falls es Termine mit gleichem Titel gibt.
 
-![4_green_24.png](assets/4_green_24.png) **Einheit**: 
-Wurde z.B. ein Vormittag von 8.00-12.00 Uhr vorgesehen, kann er beispielsweise in 4 Einheiten zu je 50 Minuten unterteilt werden. (Dazwischen jeweils Pausen.) 
+#### Datum {: #event_date}
 
-![5_green_24.png](assets/5_green_24.png) **Ort**: 
-Wo findet der Termin statt, fall physische Präsenz geplant ist.
+Tag und Uhrzeit (Beginn und Ende).
 
-![6_green_24.png](assets/6_green_24.png) **Online-Meeting**: 
-Der Course Planner ermöglicht die Verwaltung und Pflege von Terminen für Online-Meetings bereits in der Planungsphase direkt am Produkt bzw. auf der Durchführung - auch ohne bereits hinterlegte Kursinhalte. Es können Online-Meetings mit BigBlueButton und Teams eingerichtet werden. (Es hängt davon ab, was bei Ihnen in OpenOlat eingerichtet ist.)<br>
+#### Einheit {: #event_unit}
+
+Wurde z.B. ein Vormittag von 8.00-12.00 Uhr vorgesehen, kann er beispielsweise in 4 Einheiten zu je 50 Minuten unterteilt werden. (Dazwischen jeweils Pausen.)
+
+#### Ort {: #event_location}
+
+Wo findet der Termin statt, falls physische Präsenz geplant ist.
+
+#### Online Meeting {: #event_online_meeting}
+
+Der Course Planner ermöglicht die Verwaltung und Pflege von Terminen für Online-Meetings bereits in der Planungsphase direkt am Produkt bzw. auf der Durchführung, auch ohne bereits hinterlegte Kursinhalte. Es können Online-Meetings mit BigBlueButton und Teams eingerichtet werden. (Es hängt davon ab, was bei Ihnen in OpenOlat eingerichtet ist.)<br>
 Die hinterlegten Termine werden später bei der Verknüpfung der Durchführung mit einem Kurs auf diesen appliziert und sind dann auch im Kurs verfügbar.
 
-![7_green_24.png](assets/7_green_24.png) **Dozenten**: 
+#### Dozenten {: #event_teachers}
+
 Um Dozenten auswählen zu können, müssen zuerst Betreuer:innen als Mitglieder hinzugefügt werden.
 
-![8_green_24.png](assets/8_green_24.png) **Beschreibung**: 
+#### Beschreibung {: #event_description}
+
 Der hier eingegebene Text ist für eine den Titel ergänzende, etwas ausführlichere Beschreibung vorgesehen.
 
-![9_green_24.png](assets/9_green_24.png) **Vorbereitung/Nachbereitung**: 
+#### Vorbereitung/Nachbereitung {: #event_preparation}
+
 Im hier eingegebenen Text können Aufgaben zur Vor- und Nachbereitung des Termins beschrieben werden.
 
-![10_green_24.png](assets/10_green_24.png) **Präsenz**: 
-Wird bestimmt, dass eine Präsenzpflicht besteht, kann später im Absenzenmanagement verwaltet werden, ob eine Person anwesend war oder entschuldigt bzw. unentschuldigt gefehlt hat.
+#### Präsenz {: #event_compulsory}
+
+Wird bestimmt, dass eine Präsenzpflicht besteht, kann später im Absenzmanagement verwaltet werden, ob eine Person anwesend war oder entschuldigt bzw. unentschuldigt gefehlt hat.
 
 
-Mehr zu den Terminen finden Sie im Benutzerhandbuch: 
+Mehr zu den Terminen finden Sie im Benutzerhandbuch:<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)
 
 
@@ -221,15 +230,12 @@ Mehr zu den Terminen finden Sie im Benutzerhandbuch:
 
 Sie können bereits in der Planungsphase einen Kurs im Katalog anbieten und z.B. durch die Interessenten selbst buchen lassen.
 
-![1_green_24.png](assets/1_green_24.png) Wählen Sie im Course Planner die Durchführung, die Sie im Katalog anbieten möchten.
+1. Wählen Sie im Course Planner die Durchführung, die Sie im Katalog anbieten möchten.
+2. Wählen Sie den Tab "Katalog".
+3. Wählen Sie den Teilbereich "Angebote".
+4. Erstellen Sie mit dem Button "Angebot hinzufügen" ein neues [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md).
 
-![2_green_24.png](assets/2_green_24.png) Wählen Sie den Tab "Katalog".
-
-![3_green_24.png](assets/3_green_24.png) Wählen Sie den Tab "Angebote".
-
-![4_green_24.png](assets/4_green_24.png) Erstellen Sie ein neues [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md).
-
-![course_planner_courses_implementation_catalog_v1_de.png](assets/course_planner_courses_implementation_catalog_v1_de.png){ class="shadow lightbox" } 
+![Markierte Tabs Katalog und Angebote einer Durchführung und der Button Angebot hinzufügen mit den Angebotsarten](assets/course_planner_courses_implementation_catalog_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -239,44 +245,46 @@ Sie können bereits in der Planungsphase einen Kurs im Katalog anbieten und z.B.
 
 ## Schritt 6: Verwendungszweck in den Kursen angeben {: #embedding}
 
-In jedem Kurs kann unter<br>
-**Administration > Einstellungen > Tab Freigabe > Abschnitt "Verwendung"**<br>
-ein Verwendungszweck gewählt werden. Zur Auswahl stehen
+Der Verwendungszweck eines Kurses legt fest, ob der Kurs eigene Mitglieder führt oder ob der Course Planner sie verwaltet. Sie finden ihn in jedem Kurs unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`<br>
+Mit dem Button "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Für den Course Planner sind zwei Werte massgebend:
 
-- Eigenständig
-- Einbindung in Produkt -> Für die Verwendung im Course Planner zu wählen.
-- Template
+- **Verwendung im Course Planner**: für Kurse, die Sie direkt in eine Durchführung einbinden.
+- **Template**: für Kurstemplates, aus denen der Course Planner für jede Durchführung einen eigenen Kurs instanziiert (siehe Schritt 10).
 
-![course_planner_course_share_embedding1_v1_de.png](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" } 
+![Dialog Verwendungszweck ändern mit der gewählten Option für Kurse im Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Abschnitt Verwendung im Tab Freigabe" }
 
-!!! info "Was bewirkt die Einstellung "Einbindung in Produkt"?"
+!!! info "Was bewirkt der Verwendungszweck «Verwendung im Course Planner»?"
 
-    Mit Angabe des Verwendungszwecks "Einbindung in Produkt" werden die Teilnehmer:innen nun vom Course Planner verwaltet und nicht mehr in der Mitgliederverwaltung des Kurses. Würden direkt im Kurs nun noch Mitglieder hinzugefügt, entstünde eine Doppelspurigkeit (Mitglied direkt im Kurs **und** Mitglied im Produkt). Deshalb ist beim Verwendungszweck "Einbindung in Produkt" die Mitgliederverwaltung im Kurs selbst auf die Kursbesitzer:innen beschränkt, die den Kurs bearbeiten können.
+    Mit dem Verwendungszweck "Verwendung im Course Planner" werden die Teilnehmer:innen vom Course Planner verwaltet und nicht mehr in der Mitgliederverwaltung des Kurses. Würden direkt im Kurs noch Mitglieder hinzugefügt, entstünde eine Doppelspurigkeit (Mitglied direkt im Kurs **und** Mitglied im Produkt). Deshalb ist bei diesem Verwendungszweck die Mitgliederverwaltung im Kurs selbst auf die Kursbesitzer:innen beschränkt, die den Kurs bearbeiten können.
 
 
 **Teilschritt 1, Variante A**<br>
-Im Course Planner sind alle in einer Durchführung verwendeten Kurse ersichtlich bzw. können hinzugefügt werden im **Tab Kursinhalt** einer Durchführung. (Siehe Schritt 7)
+Im Course Planner sind alle in einer Durchführung verwendeten Kurse im **Tab "Kursinhalt"** einer Durchführung ersichtlich und können dort hinzugefügt werden. (Siehe Schritt 7)
 
-Sie können dort einen Kurs direkt anwählen und die vorstehend beschriebene Einstellung zum Verwendungszweck vornehmen. 
+Sie können dort einen Kurs direkt anwählen und die vorstehend beschriebene Einstellung zum Verwendungszweck vornehmen.
 
 **Teilschritt 1, Variante B**<br>
 Gehen Sie in den **Autorenbereich** und wählen Sie nacheinander die Kurse, die Bestandteil Ihres Produkts sein sollen.
 
 **Teilschritt 2**<br>
-Unter **Administration > Einstellungen > Tab Freigabe** wählen Sie als Verwendungszweck **Einbindung in Produkt**.
+Wählen Sie im Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` als Verwendungszweck **Verwendung im Course Planner**.
 
-![course_planner_course_share_embedding2_v1_de.png](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" } 
-
-
-Der beschriebene Weg zur Angabe des Verwendungszwecks, kann auch zur Kontrolle verwendet werden. 
-Soll ein Kurs in einer Durchführung verwendet werden und er hat nicht den Verwendungszweck "Einbindung in Produkt", erscheint eine Warnmeldung.
+![Abschnitt Verwendung mit dem Verwendungszweck für Kurse im Course Planner und dem Button Ändern](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
 
 
-!!! info "Tipp"
+Der beschriebene Weg zur Angabe des Verwendungszwecks kann auch zur Kontrolle verwendet werden.
+Hat ein Kurs, der im Course Planner verwendet wird, den Verwendungszweck "Eigenständig", erscheint eine Warnmeldung: Dieser Verwendungszweck wird für Kurse im Course Planner nicht empfohlen.
 
-    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Verwendungszweck für neue Kurse in der Systemadministration auf "Einbindung in Produkt" einzustellen.<br>
-    Wenden Sie sich dafür an Ihre:n Systemadministrator:in.<br> 
-    Die Voreinstellung erfolgt in **Administration > Module > Course Planner > Tab Course Planner** 
+Mehr zum Abschnitt Verwendung finden Sie im Benutzerhandbuch unter:<br>
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md#section_usage)
+
+
+!!! tip "Tipp"
+
+    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Verwendungszweck für neue Kurse in der System-Administration auf "Verwendung im Course Planner" einzustellen.<br>
+    Wenden Sie sich dafür an Ihre Systemadministration.<br>
+    Die Voreinstellung "Verwendungszweck für neue Kurse" finden Sie unter: `Administration > Module > Course Planner > Tab "Einstellungen"`
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -289,15 +297,15 @@ Soll ein Kurs in einer Durchführung verwendet werden und er hat nicht den Verwe
 
 Wie eingangs erwähnt, dient der Course Planner dazu, die **Planungsarbeit** von der **Inhaltserstellung** (im Autorenbereich) zu trennen. Das Hinzufügen der Inhalte zu den Durchführungen kann auch erst erfolgen, wenn die Durchführungen bereits geplant sind.
 
-![course_planner_planning_single_course2_v1_de.png](assets/course_planner_planning_single_course2_v1_de.png){ class="shadow lightbox" } 
+![Aus einem Kurstemplate entsteht je Durchführung eines Produkts ein Kurs, mit eigenem Angebot und Termin](assets/course_planner_planning_single_course2_v1_de.png){ class="shadow lightbox" title="Planung mit dem Course Planner" }
 
-Um einer Durchführung Inhalt (Kurse) hinzuzufügen, wählen Sie in einer Durchführung den **Tab "Kursinhalt"**.
+Um einer Durchführung Inhalt (Kurse) hinzuzufügen, wählen Sie in einer Durchführung den **Tab "Kursinhalt"** und klicken auf den Button "Kurs hinzufügen".
 
-![course_planner_courses_implementations_tab_content_v1_de.png](assets/course_planner_courses_implementations_tab_content_v1_de.png){ class="shadow lightbox" } 
+![Markierter Tab Kursinhalt einer Durchführung mit der Kursliste und dem Button Kurs hinzufügen](assets/course_planner_courses_implementations_tab_content_v1_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung" }
 
-!!! tip "Hinweis"
+!!! note "Hinweis"
 
-    Wie ein Kurs von einem Template ausgehend automatisch zu einem bestimmten Termin erstellt werden kann, ist in Schritt 10 beschrieben.
+    Wie ein Kurs von einem Kurstemplate ausgehend automatisch zu einem bestimmten Termin erstellt werden kann, ist in Schritt 10 beschrieben.
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -305,14 +313,14 @@ Um einer Durchführung Inhalt (Kurse) hinzuzufügen, wählen Sie in einer Durchf
 
 
 ## Schritt 8: Teilnehmer:innen {: #add_members}
-  
+
 Die Teilnehmer:innen werden als **Mitglieder** zu einer der **Durchführungen** des Produkts hinzugefügt.
-Warum sie Mitglieder einer Durchführung und nicht Mitglieder eines Produkts werden, wurde bereits in 
-[Schritt 2](#define_owners) erklärt.
+Warum sie Mitglieder einer Durchführung und nicht Mitglieder eines Produkts werden, wurde bereits in
+[Schritt 2](#define_product_owners) erklärt.
 
-Die Mitgliederverwaltung finden Sie deshalb unter **Tab Durchführungen** im Menü der **3 Punkte am Ende einer Zeile** (= Durchführung).
+Die Mitgliederverwaltung finden Sie deshalb im **Tab "Durchführungen"** des Produkts im Menü der **3 Punkte am Ende einer Zeile** (= Durchführung), Eintrag "Mitgliederverwaltung". In der geöffneten Durchführung führt der Tab "Mitglieder" ebenfalls dorthin.
 
-![course_planner_curriculum_add_members1_v1_de.png](assets/course_planner_curriculum_add_members1_v1_de.png){ class="shadow lightbox" } 
+![Menü am Zeilenende einer Durchführung mit dem markierten Eintrag Mitgliederverwaltung](assets/course_planner_curriculum_add_members1_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -326,26 +334,26 @@ Die Mitgliederverwaltung finden Sie deshalb unter **Tab Durchführungen** im Men
 
 Wählen Sie in der Übersicht des Course Planners den Button "Reports".
 
-![course_planner_courses_reports1_v1_de.png](assets/course_planner_courses_reports1_v1_de.png){ class="shadow lightbox" }
+![Markierter Button Reports auf der Startseite des Course Planners](assets/course_planner_courses_reports1_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
-Sie können dort aus verschiedenen Vorlagen auswählen, anhand derer Sie Excel-Dateien mit den aktuellen Daten zu den eingegangenen Buchungsaufträgen erstellen können. 
+Sie können dort aus verschiedenen Vorlagen auswählen, anhand derer Sie Excel-Dateien mit den aktuellen Daten zu den eingegangenen Buchungsaufträgen erstellen können.
 
-Klicken Sie zum Erstellen eines Reports auf einen der Pfeile in der Spalte "Ausführen". 
+Klicken Sie zum Erstellen eines Reports auf einen der Pfeile in der Spalte "Ausführen".
 
-![course_planner_courses_reports2_v1_de.png](assets/course_planner_courses_reports2_v1_de.png){ class="shadow lightbox" }
+![Reportvorlagen für Buchungsaufträge mit der markierten Spalte Ausführen](assets/course_planner_courses_reports2_v1_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner" }
 
 Die so erstellten Excel-Dateien finden Sie im unteren Bereich des Screens aufgelistet.
-Sie können kopiert und heruntergeladen werden.
+Sie können kopiert, gelöscht und heruntergeladen werden.
 
-![course_planner_courses_reports3_v1_de.png](assets/course_planner_courses_reports3_v1_de.png){ class="shadow lightbox" } 
+![Erstellter Report im Bereich Generierter Report mit den Aktionen Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_courses_reports3_v1_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner" }
 
 
 ### Über den Katalog eingegangene Buchungsaufträge
 
-Eine Excel-Datei mit allen Buchungsaufträgen, die über den Katalog eingegangen sind, können Sie sich auf folgende Weise herunterladen:<br>
-**Durchführung wählen > Tab Katalog > Tab Buchungsaufträge**
+Eine Excel-Datei mit allen Buchungsaufträgen, die über den Katalog eingegangen sind, laden Sie mit dem Button "Buchungsaufträge herunterladen" herunter:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Katalog" > Buchungsaufträge`
 
-![course_planner_courses_reports4_v1_de.png](assets/course_planner_courses_reports4_v1_de.png){ class="shadow lightbox" } 
+![Markierter Button Buchungsaufträge herunterladen über der Liste der Buchungsaufträge](assets/course_planner_courses_reports4_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -354,17 +362,22 @@ Eine Excel-Datei mit allen Buchungsaufträgen, die über den Katalog eingegangen
 
 ## Schritt 10: Automatisierte Kurserstellung {: #automatic_course_creation}
 
-Wenn der Kurs tatsächlich stattfinden wird (z.B. nachdem genügend Buchungsaufträge eingegangen sind), kann auch erst dann ein dazugehöriger OpenOlat-Kurs aus einer Kursvorlage (Template) erstellt werden. (Siehe Schritt 7)
+Wenn der Kurs tatsächlich stattfinden wird (z.B. nachdem genügend Buchungsaufträge eingegangen sind), kann auch erst dann ein dazugehöriger OpenOlat-Kurs aus einem Kurstemplate erstellt werden. (Siehe Schritt 7)
 
-Eine Kursvorlage muss in  **Administration > Einstellungen > Freigabe** als Verwendungszweck die Angabe **Template** haben.
+Ein Kurstemplate ist ein Kurs mit dem Verwendungszweck **Template**:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`<br>
+Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu.
 
-Die Vorbereitung der automatisierten Instanzierung (Kurserstellung aus dem Template) finden Sie hier:<br> 
-**Durchführung wählen > Tab "Einstellungen" > Tab "Automatisierung**
+Die Vorbereitung der automatisierten Instanziierung (Kurserstellung aus dem Kurstemplate) finden Sie hier:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Automatisierung"`
 
-![course_planner_courses_implementations_tab_settings_automation_v1_de.png](assets/course_planner_courses_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" } 
+![Unter-Tab Automatisierung mit der automatischen Instanziierung von Kurstemplates und dem automatischen Wechsel des Kursstatus](assets/course_planner_courses_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
 
-Sie können bestimmen, wann die automatisierte Instanzierung erfolgen soll.<br>
+Sie können bestimmen, wann die automatisierte Instanziierung erfolgen soll.<br>
 Damit einhergehend besteht auch die Möglichkeit, den Kursstatus automatisch zu ändern.
+
+Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
+[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation)
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -372,15 +385,21 @@ Damit einhergehend besteht auch die Möglichkeit, den Kursstatus automatisch zu 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
-[Wie erstelle ich meinen ersten OpenOlat-Kurs >](../my_first_course/my_first_course.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Basiskonzepte >](../../manual_user/basic_concepts/index.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)
+
+**Weiterführend**<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 

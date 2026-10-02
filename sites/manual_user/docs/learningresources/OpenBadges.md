@@ -2,7 +2,7 @@
 
 ## What is a badge? {: #what_is_a_badge}
 
-Open Badges is a system of digital certificates or **learning badges** that they can use to award individual progress.<br>
+Open Badges is a system of digital certificates or **learning badges** that you can use to award individual progress.<br>
 A badge is online proof that a goal has been achieved. It consists of
 
 * an image (svg or png)
@@ -17,12 +17,12 @@ In contrast to a formal certificate, the idea of the badge is more playful (gami
 
 ---
 
-## Where can badges be purchased? {: #badge_categories}
+## Where can badges be acquired? {: #badge_categories}
 
 Basically 3 categories of badges can be acquired:
 
 * **Badges for a course**<br> (for passing the course or fulfilling the conditions set out there)
-* **Badges for a specific course element**<br> (like course badges, with a condition for a specific course element)
+* **Badges for a specific course element**<br> (like course badges, with a condition for a specific course element, [see list of course elements with badges](#create_for_course_elements))
 * and **global badges**<br> (cross-course, can only be created by administrators) 
 
 Global badges are independent of courses. Other badges relate to a specific course element or course. The same badge cannot be awarded in different places, e.g. for different course elements.
@@ -104,19 +104,19 @@ Badges can only be created within a course by course owners.
 ### Where can badges for _course elements_ be created? {: #create_for_course_elements}
 
 **In the course editor:**<br>
-Course elements that can display a "Passed" have an additional tab "Badges". There you will find a button "Create new badge".
-It is available in the course elements:
+Assessable course elements have an additional tab "Badges" as soon as the toggle "Award badges" is switched on in the course under `Course > Administration > Settings > "Assessment" tab > "Badges" section`. There you will find the button "Create a new badge".
+The tab is available in the course elements:
 
 * Test
-* SCORM learning content
+* SCORM 1.2, if the course element returns a score or "Passed"
 * Task
 * Group task
 * Assessment
 * Check list
 * LTI page
-* Participant folder
 * Portfolio task
-* Structure
+* Video task in the mode "Test: Identify situations"
+* Structure, if a score or "Passed" is calculated for the course element
 
 [To the top of the page ^](#badges)
 
@@ -124,10 +124,10 @@ It is available in the course elements:
 ### Where can badges be created for the _course_?
 
 **In the course editor:**<br>
-If you click on the top "node", the course title in the course menu, a "Badges" tab will also appear on the right. As with the course elements, you can create a badge there by clicking on the "Create new badge" button. Here, however, the badge refers to the course as a whole.
+If you click on the top "node", the course title in the course menu, a "Badges" tab will also appear on the right. As with the course elements, you can create a badge there by clicking on the "Create a new badge" button. Here, however, the badge refers to the course as a whole.
 
 **In the course administration:**<br>
-Under `Course > Administration > Badges` a list of all badges that can be acquired in this course appears. The "Create new badge" button can be used to create additional badges for the course and/or individual course elements.
+Under `Course > Administration > Badges` a list of all badges that can be acquired in this course appears. The "Create a new badge" button can be used to create additional badges for the course and/or individual course elements.
 
 You can find a step-by-step instruction for **course badges** [here](../../manual_how-to/badges/badges.md)
 
@@ -141,35 +141,33 @@ The option to create **global badges** is described [here](../../manual_admin/ad
 [To the top of the page ^](#badges)
 
 
----
-
-## Badge tool {: #badge_tool}
+### Badge tool {: #badge_tool}
 
 Badges are created in the badge tool. A wizard guides you through the creation process.<br> The tool is used (with minor differences) for both **course badges** and **global badges**.
 
 [To the top of the page ^](#badges)
 
----
 
 ### The wizard
 
-As soon as you have decided to create a new badge (click on the "Create new badge" button), a wizard will guide you through the creation process step by step.
+As soon as you have decided to create a new badge (click on the "Create a new badge" button), a wizard will guide you through the creation process step by step.
 
+If you are already the owner of a course with a course badge, the wizard for course badges starts with the **Starting point** step. There you choose "Create a new badge" or "Create from existing badge". With the second option, you adopt the details of an existing badge and adapt them in the following steps. The wizard then skips the Image and Customization steps.
 
 1. **Image**: The first step is to select a template or upload your own image. SVG and PNG are currently supported.
-![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image: image step in the badge wizard](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
+![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" title="Image step in the badge wizard" }
 
 2. **Customization**: If the template was created with variables, you can change e.g. the background color and the title of the template. This step only appears for customizable templates.
-![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge: customization step in the badge wizard](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
+![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" title="Customization step in the badge wizard" }
 
-3. **Details**: Mandatory details are the name, version and description of the badge, as well as the issuer. You can additionally add an issuer URL and an issuer email. The expiration can be set to "Never" or defined with a validity period, e.g. 12 months.
-![Mandatory fields name, version, description and issuer, plus issuer URL, issuer email and expiration with validity period: details step in the badge wizard](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
+3. **Award criteria**: Fill in the criteria description and choose the award procedure: automatic awarding based on the selected criteria, or manual awarding only via the assessment tool. The available criteria are described under [Course badges assigned automatically](#award_criteria). When you create a new version, this step is skipped and the award criteria remain unchanged.
+![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" title="Award criteria step in the badge wizard" }
 
-4. **Award criteria**: Fill in the criteria description and choose the award procedure: automatic awarding based on the selected criteria, or manual awarding only via the assessment tool. The available criteria are described under [Course badges assigned automatically](#award_criteria).
-![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed: award criteria step in the badge wizard](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
+4. **Details**: Mandatory details are the name and description of the badge, as well as the issuer. Under "Language" you select the language of the badge. You can additionally add an issuer URL and an issuer email. The expiration can be set to "Never" or defined with a validity period, e.g. 12 months. OpenOlat assigns the version itself: a new badge starts with the first version, and each new version increments it.
+![Mandatory fields name, description and issuer, plus issuer URL, issuer email and expiration with validity period](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" title="Details step in the badge wizard" }
 
 5. **Summary**: Summary screen of all the details.
-![Badge preview with name, version, description and the award rule, when the course is passed the badge is awarded: summary step in the badge wizard](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
+![Badge preview with name, description and the award rule, when the course is passed the badge is awarded](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" title="Summary step in the badge wizard" }
 
 6. **Recipients**: Shows in a preview which participants receive the badge based on the criteria immediately after "Finish". For manual awarding, you select the recipients here.
 
@@ -180,13 +178,12 @@ As soon as you have decided to create a new badge (click on the "Create new badg
 
 [To the top of the page ^](#badges)
 
----
 
 ### Where can badges be edited?
 
 As long as a badge has not yet been acquired by anyone, the "Edit" option is available.
 
-If the badge has already been acquired, the "Create a new version" action replaces editing. The image and the description can be changed. The award criteria and the validity period remain unchanged, and badges already awarded keep their previous version. The badge table shows the version in a separate column. [:octicons-tag-16:{ title="from Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
+If the badge has already been acquired, the "Create a new version and edit" action replaces editing. The image and the description can be changed. The award criteria and the validity period remain unchanged, and badges already awarded keep their previous version. The badge table shows the version in a separate column. [:octicons-tag-16:{ title="from Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
 **In the course administration:**<br>
 `Course > Administration > Badges` > Click on the 3 dots at the end of a row > Option "Edit"
@@ -241,6 +238,8 @@ See [Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.
 
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)
 
 [To the top of the page ^](#badges)

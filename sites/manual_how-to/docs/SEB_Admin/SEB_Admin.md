@@ -9,7 +9,7 @@
 
     [x] Authors [ ] Coaches  [ ] Participants [x] Administrators
 
-    [ ] Beginners [x] Amateurs  [x] Experts
+    [ ] Beginners [x] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -318,7 +318,7 @@ As a rule, no further intervention should be made while the assessment mode is r
 ---
 
 
-## Check list {: #SEB_checklist}
+## Checklist {: #SEB_checklist}
 
 - [x] SEB downloaded from the manufacturer's website?
 - [x] Assessment mode activated in e-Assessment?

@@ -2,38 +2,38 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    This guide shows you how to replace a test learning resource in a test course module with another one—and what preparations are necessary if participants have already taken the test. 
+    This guide shows you how to replace a test learning resource in a "Test" course element with another one and what preparations are necessary if participants have already taken the test.
 
 
 ??? abstract "Target group"
 
     [x] Authors [x] Coaches  [ ] Participants
 
-    [x] Beginners [x] Amateurs  [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected previous knowledge"
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-    * ["How do I proceed when creating a test?"](../test_creation_procedure/test_creation_procedure.md)
-    * [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+    * ["How do I proceed when I create a test?"](../test_creation_procedure/test_creation_procedure.md)
+    * [Assessment tool - overview](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 ---
 
 
 ## What do I need to know before the exchange? {: #situation}
 
-A test **course module** always references a test **learning resource**. When they are swapped, this reference is changed to a different learning resource. The previous test learning resource remains in the system—it is simply unlinked from the course module, and a new test learning resource is linked in its place.
+A "Test" **course element** always references a test **learning resource**. During the exchange, this reference is changed to a different learning resource. The previous test learning resource remains in the system: it is simply unlinked from the course element, and a new test learning resource is linked in its place.
 
-**The main issue:** If participants have already started or completed the test, there is assessment data that is based on the content of the old test (questions, scores). After the update, this data may no longer match the new test. This can lead to inconsistencies in the assessment.
+**The main issue:** If participants have already started or completed the test, there is assessment data that is based on the content of the old test (questions, scores). After the exchange, this data may no longer match the new test. This can lead to inconsistencies in the assessment.
 
 **Example:**<br>
-You want to add an extra question to a test. Participants who completed the test before this edit were never able to see the question or earn points for it. Changing questions in a test that has already been submitted by participants constitutes forgery and must not happen under any circumstances. For this reason, authors can no longer modify a test learning resource that has been used, and OpenOlat blocks such changes.
+You want to add an extra question to a test. Participants who completed the test before this edit were never able to see the question or earn points for it. Changing questions in a test that has already been submitted by participants constitutes forgery and must not happen under any circumstances. For this reason, OpenOlat restricts editing as soon as a test learning resource is in use: questions can then no longer be added, deleted, copied or moved.
 
 As a rule of thumb, therefore:
 
-* **No participants have taken the test yet:** The transition will be smooth; no preparations are necessary.
-* **Participants have already taken the test:** Consider this carefully before making the change. If necessary, data can be reset. If a test learning resource is to be replaced, OpenOlat has a specific process for this that also includes archiving data before the change. 
+* **No participants have taken the test yet:** The exchange is unproblematic; no preparations are necessary.
+* **Participants have already taken the test:** Consider this carefully before the exchange. If necessary, data can be reset. If a test learning resource is to be replaced, OpenOlat has a specific process for this that also includes archiving data before the exchange.
 
 [To the top of the page ^](#exchange_tests)
 
@@ -42,14 +42,14 @@ As a rule of thumb, therefore:
 
 ## Where do I make the exchange? {: #exchange}
 
-This can be done in the **Course Editor**. To do this, you must have the **Course Owner** role or the appropriate permission to edit the course.
+The exchange takes place in the **course editor**. To do this, you need the **course owner** role or the appropriate permission to edit the course.
 
 To open the course editor, go to:<br>
-**Go to Course > Administration > Course Editor > Select Course Element Test > Test Configuration tab**
+`Course > Administration > Course editor > Course element "Test" > Tab "Test configuration"`
 
-!!! info "Requirement"
+!!! tip "Requirement"
 
-    The new test learning resource must already exist in the system—either created by you, imported, or shared by someone else. You cannot create the test learning resource directly during the exchange.
+    The new test learning resource must already exist in the system, either created by you or shared by someone else. Alternatively, you import it as a test file during the exchange. You cannot create a new test learning resource during the exchange.
 
 
 [To the top of the page ^](#exchange_tests)
@@ -61,14 +61,14 @@ To open the course editor, go to:<br>
 
 Before replacing the test, you should use the **assessment tool** to get an overview of the existing test data.
 
-1. Open the assessment tool via **Administration > Assessment Tool**.
-2. In the left sidebar, select the **Course Element Test** whose test you want to replace.
+1. Open the assessment tool via `Course > Administration > Assessment tool`.
+2. In the left sidebar, select the "Test" course element whose test you want to replace.
 3. Select the **Participants** button.
 4. Check the table to see if any participants have already started or completed the test, and how many (columns **"Attempts"** and **"Status"**).
 
-![exchange_tests_check_data_v1_de.png](assets/exchange_tests_check_data_v1_de.png){ class="shadow lightbox" }
+![The Attempts and Status columns show for each person whether the test is not started, started or already submitted for correction](assets/exchange_tests_check_data_v1_de.png){ class="shadow lightbox" title="Participants of a test in the assessment tool" }
 
-!!! info "Note"
+!!! info "Important"
 
     If no attempts are listed in the "Attempts" column for **all** participants and the status is **"Not started"**, no preparations are necessary. You can proceed directly to step 3.
 
@@ -80,65 +80,73 @@ Before replacing the test, you should use the **assessment tool** to get an over
 
 ## Step 2: Should all participants have to take the new test again? {: #reset_data}
 
-Even if only one person has "clicked through" the test "just to try it out", the course element test is already considered "used" and can no longer be modified in terms of structure or content. OpenOlat cannot tell whether the test attempt was serious or not. 
+Even if only one person has "clicked through" the test "just to try it out", the test learning resource is already considered "used" and can only be edited to a limited extent. OpenOlat cannot tell whether the test attempt was serious or not.
 
-In such cases, the data can simply be reset so that the test learning resource is once again considered "unused" and can be replaced without any loss of data.
-To do this, use the **Reset Data** button. You can select the test course module directly or in the grading tool:
-**(Assessment Tool >) Select course element Test > Participants tab > Select participants > "Reset all data" button**
+In such a case, reset the participants' data so that they start over with the new test. OpenOlat cancels the previous test runs. Editing of the test learning resource itself nevertheless remains restricted, because the cancelled test runs are retained.
 
-Course owners can also reset only specific tests for certain individuals. 
+To do this, use the **Reset data** button. You can select the "Test" course element directly in the course or in the assessment tool:<br>
+`(Assessment tool >) Select course element "Test" > Tab "Participants" > Select participants > Button "Reset data"`
+
+Among others, course owners and persons who have been assigned the "Assessment tool" right in the course may reset data. Coaches without this right do not see the button.
+
+You can also reset only the tests of certain individuals.
 
 * To do this, select one (or more, or all) of the names in the list.
-* Once at least one name is selected, a "Reset data" button will appear above the list, along with other options. 
-* This will then reset only the data for the selected participants. 
+* Once at least one name is selected, a "Reset data" button appears above the list, along with other options.
+* This then resets only the data of the selected participants.
 
-![exchange_tests_reset_data_v1_de.png](assets/exchange_tests_reset_data_v1_de.png){ class="shadow lightbox" }
+![After all participants are selected, the Reset data button appears above the list](assets/exchange_tests_reset_data_v1_de.png){ class="shadow lightbox" title="Participants tab in the Test course element" }
 
-Depending on the course module, the following data will be reset or canceled:
+Depending on the course element, the following data is reset or invalidated:
 
 * Progress
 * Number of attempts
 * Test runs
 * Points and success status
-* Share rating
+* Approval Rating
 * Reminders
 
 !!! warning "Attention"
 
-    Resetting test data is **irreversible**. When you reset the data, an archive file containing the relevant data is created and then downloaded. The archive is also available for download in the participants' performance records.
+    Resetting test data is **irreversible**. When resetting, a corresponding archive file with the relevant data is created and downloaded afterwards. The archive is also available as a download in the participant's evidence of achievement record.
 
-For more information, see the user manual under
-[Reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)
-
+For more information, see the user manual under:<br>
+[Assessment tool - reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)
 
 [To the top of the page ^](#exchange_tests)
 
 ---
 
-## Step 3: Exchange learning resources {: #exchange}
+## Step 3: Exchange learning resources {: #exchange_resource}
 
-* Open the course editor and select the relevant test course block.
-* Select the "Test Configuration" tab.
-* You will be notified that the test learning resource is already being used for grading.
-* Click the "Replace" button.
-* Select, create, or import a new test learning resource.
+1. Open the course editor and select the relevant "Test" course element.
+2. Select the "Test configuration" tab. If the test learning resource is already in use, OpenOlat displays the note "The learning resource is already used for the assessment. Editing is limited."
+3. Click the "Replace" button and select an existing test learning resource. Via the arrow next to "Replace", you import a test file instead.
 
-![exchange_tests_exchange1_v1_de.png](assets/exchange_tests_exchange1_v1_de.png){ class="shadow lightbox" }
+![Note about the learning resource already in use and the Replace button with the arrow for the import](assets/exchange_tests_exchange1_v1_de.png){ class="shadow lightbox" title="Test configuration tab in the course editor" }
 
-Now the old and new test learning resources are displayed side by side, and you can choose between two replacement options:
+If the course element cannot be published, OpenOlat refuses the replacement with the message "Before the test resource can be replaced, the course element must be publishable."
+
+If the course element has already been published, OpenOlat opens the "Replace test" dialog. It shows the current and the new test side by side and offers two options under "Replacement options":
 
 * **Controlled replacement**
 * **Replace only**
 
-![exchange_tests_exchange2_v1_de.png](assets/exchange_tests_exchange2_v1_de.png){ class="shadow lightbox" }
+![Replacement options with their impact, comparison of the properties of both tests and confirmation before replacing](assets/exchange_tests_exchange2_v1_de.png){ class="shadow lightbox" title="Replace test dialog" }
 
 
-|                   | Controlled exchange |  Replace only  |
+|                   | Controlled replacement |  Replace only  |
 | ----------------- | ------------------------ | ------------------------ |
-| **Running and paused test runs:** | are withdrawn and marked as invalid | are withdrawn and marked as invalid |
+| **Ongoing and suspended test runs:** | are collected and marked as invalid | are collected and marked as invalid |
 | **Finished test runs:** | are marked as invalid | remain valid |
-| **Existing reviews:** | are deleted | remain unchanged |
-| **Publication:** | To avoid inconsistent test data, the course module is published immediately | To avoid inconsistent test data, the course module is published immediately   |
+| **Existing assessments:** | are deleted | remain unchanged |
+| **Publication:** | To avoid inconsistent test data, the course element is published immediately | To avoid inconsistent test data, the course element is published immediately   |
+
+With a controlled replacement, OpenOlat first creates an archive file with the data of the course element and downloads it.
+
+Under "Properties of the test resources", the dialog compares the two tests, for example the question types and the achievable points. It marks differences in the "Message" column.
+
+Finally, activate the checkbox "I understand the impact and would like to replace the test." and click "Replace and publish".
 
 [To the top of the page ^](#exchange_tests)
 
@@ -146,21 +154,11 @@ Now the old and new test learning resources are displayed side by side, and you 
 
 ## Publish course {: #publish}
 
-Normally, after making changes in the course editor, you must explicitly publish the course and then exit the editor. You still have the option to discard the changes you’ve made.
+After working in the course editor, you normally publish a course yourself and then exit the editor. Until then, you can discard the changes you have made.
 
-When replacing a test learning resource, the course no longer needs to be published with the new test course module. Publication occurs automatically and immediately to prevent data inconsistencies.
+When you exchange the test via the "Replace test" dialog, OpenOlat publishes the course element immediately with the "Replace and publish" button, so that no data inconsistencies arise. A separate "Publish" step is not necessary in this case.
 
-In this case, the "Publish" step is therefore omitted.
-
-[To the top of the page ^](#exchange_tests)
-
----
-
-
-## Further information {: #further_information}
-
-[Create tests >](../../manual_user/learningresources/Test.md)<br>
-[Reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
+If the course element has never been published, OpenOlat replaces the test learning resource without this dialog. Then publish the course as usual.
 
 [To the top of the page ^](#exchange_tests)
 
@@ -169,29 +167,28 @@ In this case, the "Publish" step is therefore omitted.
 ## Checklist {: #checklist}
 
 - [x] Is it absolutely necessary to replace the test learning resource?
-- [x] Could the course or the test module also be copied? (So that we have another unused learning resource.)
+- [x] Could the course or the "Test" course element also be copied? (So that there is an unused learning resource again.)
 - [x] Has the new test learning resource already been created in the authoring area?
 - [x] Have participants already taken the previous test? Is data available?
 - [x] Is it possible to reset the test data?
 - [x] Should existing test data be completely deleted?
 - [x] Has an archive of the data collected so far been created?
-- [x] Was the archive file saved in the correct location?
+- [x] Was the archive file saved in a suitable location?
 - [x] Should the course participants be informed about the new version of the test?
 
 [To the top of the page ^](#exchange_tests)
 
+---
 
 
+## Further information {: #further_information}
 
+["How do I create my first OpenOlat course?" >](../my_first_course/my_first_course.md)<br>
+["How do I proceed when I create a test?" >](../test_creation_procedure/test_creation_procedure.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
+[Creating Tests >](../../manual_user/learningresources/Test.md)<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+["How do I prepare an online exam?" >](../exam_preparation/exam_preparation.md)
 
-
-
-
-
-
-
-
-
-
-
-
+[To the top of the page ^](#exchange_tests)

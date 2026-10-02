@@ -103,20 +103,20 @@ Badges können innerhalb eines Kurses grundsätzlich nur durch Kursbesitzer:inne
 
 ### Wo können Badges für _Kursbausteine_ erstellt werden? {: #create_for_course_elements}
 
-**Im Kurseditor:**<br> 
-Kursbausteine, die ein "Bestanden" ausgeben können, haben einen zusätzlichen Tab "Badges". Dort finden Sie einen Button "Neuen Badge erstellen".
-Er ist vorhanden bei den Kursbausteinen:
+**Im Kurseditor:**<br>
+Bewertbare Kursbausteine haben einen zusätzlichen Tab "Badges", sobald im Kurs unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` der Schalter "Badges vergeben" eingeschaltet ist. Dort finden Sie den Button "Einen neuen Badge erstellen".
+Der Tab ist vorhanden bei den Kursbausteinen:
 
 * Test
-* SCORM-Lerninhalt
+* SCORM 1.2, wenn der Kursbaustein Punkte oder "Bestanden" ausgibt
 * Aufgabe
 * Gruppenaufgabe
 * Bewertung
 * Checkliste
 * LTI-Seite
-* Teilnehmer:innenordner
 * Portfolioaufgabe
-* Struktur
+* Videoaufgabe im Modus "Test: Situationen erkennen"
+* Struktur, wenn für den Kursbaustein Punkte oder "Bestanden" berechnet werden
 
 [Zum Seitenanfang ^](#badges)
 
@@ -124,10 +124,10 @@ Er ist vorhanden bei den Kursbausteinen:
 ### Wo können Badges für den _Kurs_ erstellt werden?
 
 **Im Kurseditor:**<br>
-Auch bei Klick auf dem obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
+Auch bei Klick auf dem obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Einen neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
 
 **In der Kursadministration:**<br>
-Unter `Kurs > Administration > Badges` erscheint eine Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
+Unter `Kurs > Administration > Badges` erscheint eine Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Einen neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
 
 Eine Schritt-für-Schritt-Anleitung für **Kurs-Badges** finden Sie [hier](../../manual_how-to/badges/badges.de.md).
 
@@ -151,22 +151,24 @@ Badges werden im Badge-Tool erstellt. Ein Wizard führt durch die Erstellung.<br
 
 ### Der Wizard
 
-Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf den Button "Neuen Badge erstellen"), führt Sie ein Wizard in Schritten durch den Erstellungsprozess.
+Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf den Button "Einen neuen Badge erstellen"), führt Sie ein Wizard in Schritten durch den Erstellungsprozess.
+
+Sind Sie bereits Besitzer:in eines Kurses mit einem Kurs-Badge, beginnt der Wizard für Kurs-Badges mit dem Schritt **Ausgangspunkt**. Dort wählen Sie "Einen neuen Badge erstellen" oder "Von vorhandenem Badge erstellen". Mit der zweiten Option übernehmen Sie die Details eines vorhandenen Badges und passen sie in den folgenden Schritten an. Der Wizard überspringt dann die Schritte Bild und Anpassung.
 
 1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
-![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes: Schritt Bild im Badge-Wizard](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" }
+![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" title="Schritt Bild im Badge-Wizard" }
 
 2. **Anpassung**: Wenn die Vorlage mit Variablen erstellt wurde, können Sie z.B. Hintergrundfarbe und Titel der Vorlage ändern. Dieser Schritt erscheint nur bei anpassbaren Vorlagen.
-![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge: Schritt Anpassung im Badge-Wizard](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" }
+![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" title="Schritt Anpassung im Badge-Wizard" }
 
-3. **Details**: Obligatorische Angaben sind Name, Version und Beschreibung des Badges sowie der Herausgeber. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-Email hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden.
-![Pflichtfelder Name, Version, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer: Schritt Details im Badge-Wizard](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" }
+3. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben. Beim Erstellen einer neuen Version entfällt dieser Schritt, die Vergabekriterien bleiben unverändert.
+![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" title="Schritt Vergabekriterien im Badge-Wizard" }
 
-4. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben.
-![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden: Schritt Vergabekriterien im Badge-Wizard](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" }
+4. **Details**: Obligatorische Angaben sind Name und Beschreibung des Badges sowie der Herausgeber. Unter "Sprache" wählen Sie die Sprache des Badges. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-E-Mail hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden. Die Version vergibt OpenOlat selbst: ein neuer Badge beginnt mit der ersten Version, jede neue Version zählt sie hoch.
+![Pflichtfelder Name, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" title="Schritt Details im Badge-Wizard" }
 
 5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Badge-Vorschau mit Name, Version, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben: Schritt Zusammenfassung im Badge-Wizard](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" }
+![Badge-Vorschau mit Name, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" title="Schritt Zusammenfassung im Badge-Wizard" }
 
 6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger hier aus.
 
@@ -182,7 +184,7 @@ Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf d
 
 Solange ein Badge noch von niemandem erworben wurde, steht die Option "Bearbeiten" zur Verfügung.
 
-Wurde der Badge bereits erworben, ersetzt die Aktion "Neue Version erstellen" das Bearbeiten. Dabei können das Bild und die Beschreibung angepasst werden. Die Vergabekriterien und die Gültigkeitsdauer bleiben unverändert, und bereits vergebene Badges behalten ihre bisherige Version. Die Badge-Tabelle zeigt die Version in einer eigenen Spalte. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
+Wurde der Badge bereits erworben, ersetzt die Aktion "Neue Version erstellen und bearbeiten" das Bearbeiten. Dabei können das Bild und die Beschreibung angepasst werden. Die Vergabekriterien und die Gültigkeitsdauer bleiben unverändert, und bereits vergebene Badges behalten ihre bisherige Version. Die Badge-Tabelle zeigt die Version in einer eigenen Spalte. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
 **In der Kursadministration:**<br>
 `Kurs > Administration > Badges` > Klick auf die 3 Punkte am Ende einer Zeile > Option "Bearbeiten"
@@ -238,6 +240,8 @@ Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_ope
 
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)
 
 [Zum Seitenanfang ^](#badges)

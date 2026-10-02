@@ -23,9 +23,9 @@
 
 ### a) As a registered user {: #catalog_where_reg}
 
-OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the site "Catalog" in the main navigation.	If no catalog is displayed in the main navigation, please contact your administrator.
+OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If administrators have activated the [catalog (version 2.0)](../../manual_user/area_modules/catalog2.0.md), you will find the site "Catalog" in the main navigation. If no catalog is displayed in the main navigation, please contact the administrators of your OpenOlat instance.
 
-![Marked tab Catalog next to Courses and Groups in the main navigation, below it the catalog with search field](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
+![Marked entry Catalog next to Courses and Groups, below it the catalog with search field](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" title="Catalog in the main navigation" }
 
 
 ### b) Without registration (external Web catalog) {: #catalog_where_nonreg}
@@ -37,70 +37,70 @@ Users can then select and book these courses. They will only be guided through t
 For users already registered in OpenOlat, the booking order will be assigned to their existing account. The booking order will then be confirmed.
 
 The external catalog can be offered on the login screen.
-However, the link can also be incorporated elsewhere, e.g., into a website, or sent by email. 
-[Direct links to a specific offer](../../manual_user/area_modules/catalog2.0_web.md) can also be sent.
+However, the link can also be incorporated elsewhere, e.g., into a website, or sent by email.
+[Direct links to a specific offer](../../manual_user/area_modules/catalog2.0_web.md#web_catalog_direct_link) can also be sent.
 
-![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
+![Marked area Catalog with the button to discover the offers, below the login and the guest access](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" title="Login page with access to the external catalog" }
 
 [Further information on the external catalog >](../../manual_user/area_modules/catalog2.0_web.md)
 
-!!! tip "Note"
+!!! info "Important"
 
     In OpenOlat there are 2 versions of the catalog: [catalog 1.0](../../manual_user/area_modules/catalog1.0.md) and [catalog 2.0](../../manual_user/area_modules/catalog2.0.md).
-	The following describes the procedure in **catalog 2.0.**
-
+    The following describes the procedure in **catalog 2.0**.
 
 
 [To the top of the page ^](#catalog)
 
 ---
+
 
 ## What can I show in the OpenOlat catalog? {: #catalog_what}
 
 The OpenOlat catalog lists **short descriptions of courses and learning resources**. Individual tiles can already be displayed on the start page. Under the **categories** are **microsites**, on which further individual descriptions (tiles) can be found.
 
-![catalog_community_v1_en.png](assets/catalog_community_v1_en.png){ class="shadow lightbox" } 
+![Categories as image tiles, one of them leads to a microsite with individual descriptions, below it Popular Courses with a marked tile for a single course](assets/catalog_community_v1_en.png){ class="shadow lightbox" title="Start page of a catalog" }
 
-The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" + tab "Metadata") 
-In most cases, the information is the same information that course participants will find on the information page of the course.
+The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the information page of the course.
 
-The **layout** of the catalog is determined by the [administrator](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the execution format should be displayed in the catalog entries, OpenOlat retrieves this information from the author's details under "Settings" and displays it in the designated place on the catalog tile.
+The **layout** of the catalog is determined by the [administrators](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the implementation format should be displayed in the catalog entries, OpenOlat retrieves this information from the authors' details under "Settings" and displays it in the designated place on the catalog tile.
 
-![course_settings_v1_en.png](assets/course_settings_v1_en.png){ class="shadow lightbox" } 
+![Field Implementation format with the value Certification, which appears as a badge on the catalog tile of the course](assets/course_settings_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings" }
 
-The author is therefore not completely free to add further information to the information specified in the catalog layout. On the other hand, this guarantees a uniform, orderly appearance of the catalog. Please contact your administrator if you have any wishes regarding the layout of the catalog tiles.
+Information that is not provided for in the catalog layout can therefore not be added completely freely by the authors in catalog 2.0. On the other hand, this guarantees a uniform, orderly appearance of the catalog. Please contact the administrators if you have any wishes regarding the layout of the catalog tiles.
 
 
 [To the top of the page ^](#catalog)
 
 ---
 
-## How is it decided what to display in the catalog?  {: #catalog_decision}
+## How is it decided what to display in the catalog? {: #catalog_decision}
 
-Not all existing courses and learning resources are automatically listed in the catalog. The author of the course decides whether a catalog entry is created.
+Not all existing courses and learning resources are automatically listed in the catalog. Whether a catalog entry is created is decided by the owners of the course, that is, the authors who are entered as owner in the member management of the course. Learning resource managers can do this for all courses of their organisation.
 
-<b>The author must for this purpose
+For this purpose, the owners must
 
-a) **Share** the course to the catalog and
+a) **share** the course for the catalog and
 
 b) create an [offer](../../manual_user/learningresources/Access_configuration.md) that promotes the course or learning resource in the catalog.
 
-Select your course and then the "Administration" icon. There you will also find the tab "Share" under "Settings".
+You find the sharing in the administration of your course under:<br>
+`Course > Administration > Settings > Tab "Share"`
 
-![course_share_v1_en.png](assets/course_share_v1_en.png){ class="shadow lightbox" }
+![Menu entry Settings and tab Share marked, below them the field Access for participants](assets/course_share_v1_en.png){ class="shadow lightbox" title="Share tab in the course settings" }
 
-If your course contains "Private" as offer type, it also means, that it should not appear anywhere in the catalog. So in the first step you have to select the offer type "Bookable and open offers - Bookable by users in the catalog" and thus enable the display of your course in the catalog in principle.
+If the field "Access for participants" is set to the option "Private", the course does not appear anywhere in the catalog. So in the first step, select the option "Bookable and open offers - Bookable by user in the catalog" and thus enable the display of your course in the catalog.
 
-![course_share_bookable_v1_en.png](assets/course_share_bookable_v1_en.png){ class="shadow lightbox" }
+![Field Access for participants with the options Private and Bookable and open offers, the second one selected](assets/course_share_bookable_v1_en.png){ class="shadow lightbox" title="Field Access for participants in the Share tab" }
 
 Whether and where the course appears in the catalog is then determined in the second step by creating offers. In the lower area you can create one or more offers for the catalog.
 
-![course_offer_new_v1_en.png](assets/course_offer_new_v1_en.png){ class="shadow lightbox" }
+![Share tab with the Offer area at the bottom and the marked Add offer button](assets/course_offer_new_v1_en.png){ class="shadow lightbox" title="Offer area in the Share tab" }
 
 
-!!! tip "Note"
+!!! info "Important"
 
-    One might assume that only courses with the status "Published" can be included in the catalog. However, in catalog 2.0, offers can also be displayed even if the courses have not yet been published and will only become accessible from a certain point in time.
+    By default, an offer is available as soon as the course has the status "Published". If you select the option "Custom condition" under "Available if" in the offer, the offer can also be available in another course status or from a certain point in time, for example for a course that is still in preparation.
 
 
 [To the top of the page ^](#catalog)
@@ -109,30 +109,26 @@ Whether and where the course appears in the catalog is then determined in the se
 
 ## Create offers {: #catalog_create_offer}
 
-!!! tip "Note"
+!!! info "Important"
 
-    Before OpenOlat 17, and generally when using Catalog 1.0, there was a tab "Catalog" in the settings and no offers could be created yet. 
-    When using Catalog 2.0 from OpenOlat 17 onwards, the settings for the display in the catalog are made in the "Share" tab (in the form of offers).
+    In catalog 1.0, the settings of a course contain the tab "Catalog", in which you assign the course to a catalog category.
+    In catalog 2.0, you set the display in the catalog in the "Share" tab, in the form of offers.
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.
 
-![course_add_offer_v1_en.png](assets/course_add_offer_v1_en.png){ class="shadow lightbox" }
+![Dialog Add offer with the offer types Access code, Freely available, Without booking and Guest](assets/course_add_offer_v1_en.png){ class="shadow lightbox" title="Dialog Add offer" }
 
-!!! tip "Note"
+!!! info "Important"
 
-    If the "Add offer" button is inactive, the offer type is still set as "private".
+    If the "Add offer" button is inactive, the field "Access for participants" is still set to "Private".
 
 Choose the type of offer you want.
 
-You can create multiple offers. For example, you can make one course freely available to a particular organizational unit, while making it available with a second offering to others for a fee.
+You can create multiple offers. For example, you can make a course freely available to a particular organizational unit, while offering it to others for a fee with a second offer.
 
-![offer_freely_available_v1_en.png](assets/offer_freely_available_v1_en.png){ class="shadow lightbox" }
-![offer_access_code_v1_en.png](assets/offer_access_code_v1_en.png){ class="shadow lightbox" }
-![offers_v1_en.png](assets/offers_v1_en.png){ class="shadow lightbox" }
-
-!!! tip "Note"
-
-    The offers can be booked in the catalog as soon as their status is set to "Published".
+![Field Organisations with the organisation Purchase, published in the OpenOlat catalog](assets/offer_freely_available_v1_en.png){ class="shadow lightbox" title="Dialog Freely available" }
+![Field Organisations with the organisations Production and Sales, plus the mandatory field Access code](assets/offer_access_code_v1_en.png){ class="shadow lightbox" title="Dialog Access code" }
+![Two offers one below the other, Access code for Production and Sales and Freely available for Purchase, above them the warning about overlapping offers](assets/offers_v1_en.png){ class="shadow lightbox" title="Offers in the Share tab" }
 
 
 [To the top of the page ^](#catalog)
@@ -142,22 +138,39 @@ You can create multiple offers. For example, you can make one course freely avai
 
 ## The catalog structure {: #catalog_structure}
 
-The design of the catalog is determined on the one hand by the offers of the authors and on the other hand by the specifications of the administrator.
+The design of the catalog is determined on the one hand by the offers of the owners and on the other hand by the specifications of the administrators.
 
-![catalog_process_creation_v1_en.png](assets/catalog_process_creation_v1_en.png){ class="lightbox" }
+Owners of the course:
 
-In catalog V2, sections with catalog entries (tiles, maps) are called launchers.
+1. Create the course or learning resource in the authoring area.
+2. Assign subjects to the course in the metadata:<br>
+`Course > Administration > Settings > Tab "Metadata" > Field "Subjects / Catalog"`
+3. Create offers:<br>
+`Course > Administration > Settings > Tab "Share" > Button "Add offer"`
+4. If necessary, select the organisations for which the offer applies under "Released for" in the offer.
 
-![catalog_launcher_v1_en.png](assets/catalog_launcher_v1_en.png){ class="shadow lightbox" }
+Administrators in the system administration:
+
+1. Create the [taxonomy](../../manual_admin/administration/Modules_Taxonomy.md):<br>
+`Administration > Modules > Taxonomy`
+2. If necessary, create [organisations](../../manual_admin/administration/Modules_Organisations.md):<br>
+`Administration > Modules > Organisations`
+3. Switch on the catalog and select the taxonomy of the catalog:<br>
+`Administration > Modules > Catalog > Tab "Settings"`
+4. Create launchers and design the catalog:<br>
+`Administration > Modules > Catalog > Tab "Launch page"`
+
+In catalog V2, sections with catalog entries (tiles, cards) are called launchers.
+
+![Start page of a catalog with four launchers one below the other: welcome text, categories, popular courses and last published resources](assets/catalog_launcher_v1_en.png){ class="shadow lightbox" title="Launchers on the start page of the catalog" }
 
 Within the launchers (these sections in the catalog), the catalog entries can be compiled according to certain criteria (depending on the launcher type and launcher configuration).
-They are called launchers because the catalog entries (tiles, cards) are usually dynamically compiled in them.
+They are called launchers (German: Starter, Startrampe) because the catalog entries (tiles, cards) are usually dynamically compiled in them.
 
-**Launcher with Subfolders/Categories:**<br>
-In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found. Listed on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.<br>
-(Example: see the second launcher on the screen shown above.) 
+**Launcher with subfolders/categories:**<br>
+In a launcher of the type "Taxonomy level", courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders in which the courses and learning resources can be found. They are listed on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.<br>
+(Example: the launcher "Categories" in the image above.)
 
-Translated with DeepL.com (free version)
 
 [To the top of the page ^](#catalog)
 
@@ -165,19 +178,19 @@ Translated with DeepL.com (free version)
 
 ## As an author, how do I influence in which launcher my course is displayed? {: #catalog_launcher_decision}
 
-All listings that meet the criteria for a particular launcher will be displayed in that launcher. So, as an author, you influence the display by 
+All offers that meet the criteria for a particular launcher are displayed in that launcher. So, as an owner of the course, you influence the display by
 
-* specifying the appropriate **display criteria** in your course (details under Administration > Settings)
+* specifying the appropriate **display criteria** in your course: `Course > Administration > Settings`
 * and creating appropriate **offers**.
 
 **Example 1:**
 
-A launcher is intended (by the administrator) only for members of a specific organizational unit and is displayed only to them. If you as author create an offer that is only valid for this specific organizational unit, it will appear in this launcher.
+A launcher is intended (by the administrators) only for members of a specific organizational unit and is displayed only to them. If you as author create an offer that is only valid for this specific organizational unit, it will appear in this launcher.
 
 
 **Example 2:**
 
-In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the administrator). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.
+In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the administrators). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.
 
 [To the top of the page ^](#catalog)
 
@@ -186,37 +199,46 @@ In a launcher, only offers that contain a specific taxonomy keyword are displaye
 
 ## Checklist {: #checklist}
 
-- [x] Are internal and/or external catalogs generally enabled system-wide by the administrator?
-- [x] Have launchers been set up to display offers?
-- [x] Was at least one bid submitted for each course?
+- [x] Are internal and/or external catalogs generally activated system-wide by the administrators?
+- [x] Have launchers been set up in which offers are shown?
+- [x] Has at least 1 offer been created in each course?
 - [x] Have taxonomy terms been assigned to the courses?
 - [x] Are the courses displayed in the correct launcher?
-- [x] Do the courses already have the status "Published" in the catalog?
-- [x] Should some courses remain in "Preparation" status for the time being?
-- [x] Has the order of the launchers been set correctly in the catalog?
-- [x] Have specific time periods been set for the courses?
-- [x] Should the listings be displayed in both catalogs (internal and external)?
-- [x] Do the listings specify that they should only be visible to members of certain organizational units?
-- [x] Was the entry in the catalog checked using different roles (e.g., membership in a specific organizational unit)?
+- [x] Do the courses for the catalog already have the status "Published"?
+- [x] Should some courses deliberately remain in the status "Preparation" for the time being?
+- [x] Has the order of the launchers in the catalog been set correctly?
+- [x] Have execution periods been set for the courses?
+- [x] Should the offers be displayed in both catalogs (internal and external)?
+- [x] Is it specified in the offers that they should only be visible to members of certain organizational units?
+- [x] Has the display in the catalog been checked with different roles (e.g., membership in a specific organizational unit)?
 - [x] Should offers only be visible in the catalog during a specific time period?
-- [x] Has the "Bookable" option been selected in the course settings for all courses that are to be displayed in the catalog?
-- [x] Should the catalog also include routes from the Course Planner?
-- [x] Are courses already included in the program? (Sessions can initially be offered even without a linked course.)
-- [x] Should some courses in the catalog be offered for a fee? If so, is the payment module enabled?
+- [x] Has the sharing in the course settings been set to "Bookable and open offers" in all courses that are to be displayed in the catalog?
+- [x] Should implementations from the Course Planner also be offered in the catalog?
+- [x] Are courses already included in the implementations? (Implementations can initially also be offered without an included course.)
+- [x] Should some courses in the catalog be offered for a fee? If so, is the payment module activated?
 
 
 [To the top of the page ^](#catalog)
 
 ---
 
-
-
 ## Further information {: #further_information}
 
-[Overview on catalog V2 >](../../manual_user/area_modules/catalog2.0.md)<br>
-[Create offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
-[Catalog design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
-[The external catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
-[Configure external catalog (administration manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
+**Mentioned on this page**<br>
+[How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
+[Catalog 1.0 >](../../manual_user/area_modules/catalog1.0.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
+[Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
+[Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
+[Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)
+
+**Further reading**<br>
+[Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
+[Catalog 2.0 - Design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
+[Course Settings - Tab Metadata >](../../manual_user/learningresources/Course_Settings_Metadata.md)<br>
+[Offer concepts >](../../manual_user/basic_concepts/Offer_Concepts.md)
 
 [To the top of the page ^](#catalog)

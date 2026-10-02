@@ -11,7 +11,7 @@
 
     [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -64,7 +64,7 @@ Die generelle Aktivierung und die Festlegung der automatisch ausgeführten Erinn
 
 Diese Voreinstellungen gelten für das ganze System. Einzelne Gruppen nehmen ihre Betreuer:innen mit "Von den automatischen Methoden ausschliessen" davon aus, einzelne Konten schützt der Status "Aktiv und nicht löschbar" vor der Löschung.
 
-![Markierter Bereich Kontoablauf mit Erklärtext und täglicher Ausführungszeit, darunter die Ja/Nein-Auswahl für die Benachrichtigung: Seite Konto in der System-Administration](assets/lifecycle_benutzer_admin_v2_de.png){ class="shadow lightbox" }
+![Markierter Bereich Kontoablauf mit Erklärtext und täglicher Ausführungszeit, darunter die Ja/Nein-Auswahl für die Benachrichtigung](assets/lifecycle_benutzer_admin_v2_de.png){ class="shadow lightbox" title="Bereich Kontoablauf auf der Seite Konto" }
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -78,26 +78,26 @@ Die Betreuung des Gruppen-Lebenszyklus erfolgt durch Gruppenverwalter:innen, auf
 
 Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen der Administration wieder.
 
-* Im ersten Schritt (1. Pfeil) finden Sie alle aktiven Gruppen aufgelistet.
-* Im Reiter "Zu inaktivieren" des 1. Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln der Administration.
+* Im ersten Schritt, dem Pfeil "I. Aktive Gruppen", finden Sie alle aktiven Gruppen aufgelistet.
+* Im Reiter "Zu inaktivieren" dieses Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln der Administration.
 * Selektieren Sie eine oder mehrere Gruppen, erscheinen Buttons oberhalb der Liste.
 * Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren oder mit "Inaktivierung starten" über die bevorstehende Inaktivierung informieren. Eine gestartete Inaktivierung nehmen Sie mit "Inaktivierung abbrechen" zurück.
 
-![Drei Pfeile für aktive, inaktive und gelöschte Gruppen mit den eingestellten Fristen, darunter der markierte Reiter Zu inaktivieren mit den Buttons zum Inaktivieren: Tab Gruppenverwaltung](assets/lifecycle_gruppen_aktiv_v1_de.png){ class="shadow lightbox" }
+![Drei Pfeile für aktive, inaktive und gelöschte Gruppen mit den eingestellten Fristen, darunter der markierte Reiter Zu inaktivieren mit den Buttons zum Inaktivieren](assets/lifecycle_gruppen_aktiv_v1_de.png){ class="shadow lightbox" title="Schritt Aktive Gruppen im Tab Gruppenverwaltung" }
 
 <br>
 
-* Im zweiten Schritt (2. Pfeil) finden Sie alle bereits **inaktiven** Gruppen aufgelistet.
-* Wurden vom System Gruppen automatisch auf den Status "inaktiv" gesetzt, besteht hier auch die Möglichkeit, Gruppen wieder zu reaktivieren.
+* Im zweiten Schritt, dem Pfeil "II. Inaktive Gruppen", finden Sie alle bereits **inaktiven** Gruppen aufgelistet.
+* Wurden vom System Gruppen automatisch auf den Status "Inaktiv" gesetzt, besteht hier auch die Möglichkeit, Gruppen wieder zu reaktivieren.
 
-![Zweiter Pfeil Inaktive Gruppen aktiv, die Liste zeigt Inaktiviert am und Löschungsdatum, der Button Reaktivieren steht rechts: Tab Gruppenverwaltung](assets/lifecycle_gruppen_inaktiv_v1_de.png){ class="shadow lightbox" }
+![Zweiter Pfeil Inaktive Gruppen aktiv, die Liste zeigt Inaktiviert am und Löschungsdatum, der Button Reaktivieren steht rechts](assets/lifecycle_gruppen_inaktiv_v1_de.png){ class="shadow lightbox" title="Schritt Inaktive Gruppen im Tab Gruppenverwaltung" }
 
 <br>
 
-* Im dritten Schritt (3. Pfeil) finden Sie alle **gelöschten** Gruppen aufgelistet.
+* Im dritten Schritt, dem Pfeil "III. Gelöschte Gruppen", finden Sie alle **gelöschten** Gruppen aufgelistet.
 * Diese Liste entspricht dem "Papierkorb". Die Gruppen lassen sich hier automatisch oder manuell endgültig löschen.
 
-![Dritter Pfeil Gelöschte Gruppen aktiv, die Liste nennt Gelöscht am und Datum Unwiderrufliches Löschen: Tab Gruppenverwaltung](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" }
+![Dritter Pfeil Gelöschte Gruppen aktiv, die Liste nennt Gelöscht am und Datum Unwiderrufliches Löschen](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" title="Schritt Gelöschte Gruppen im Tab Gruppenverwaltung" }
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -110,7 +110,7 @@ Die Nutzung des Kurs-Lebenszyklus kann durch alle Personen erfolgen, die Zugriff
 
 Grundlage sind die Voreinstellungen der Administration:
 
-![Die drei Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen mit Frist und Einheit, darunter die erzwungene Benachrichtigung der Besitzenden: Seite Kurse in der System-Administration](assets/lifecycle_kurs_admin_v1_de.png){ class="shadow lightbox" }
+![Die drei Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen mit Frist und Einheit, darunter die erzwungene Benachrichtigung der Besitzer:innen](assets/lifecycle_kurs_admin_v1_de.png){ class="shadow lightbox" title="Seite Kurse in der System-Administration" }
 
 <br>
 
@@ -118,7 +118,7 @@ Grundlage sind die Voreinstellungen der Administration:
 * Sobald Sie einen Kurs ausgewählt und die Checkbox am Beginn der Zeile markiert haben, erscheinen über der Liste weitere Buttons. Sie können hier einen Kurs wiederherstellen. Endgültig löschen können ihn Administrator:innen und Lernressourcenverwalter:innen.
 * Auch durch Klick auf die 3 Punkte am Ende einer Zeile gelangen Sie zu den Optionen für das Wiederherstellen oder dauerhafte Löschen.
 
-![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Zeilenmenü: Autorenbereich](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" }
+![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Menü mit den drei Punkten](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" title="Reiter Gelöscht im Autorenbereich" }
 
 Wie Administrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätigungsdialog prüfen und den laufenden Prozess verfolgen, beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
 
@@ -133,7 +133,7 @@ Die Nutzung des automatischen Kontolebenszyklus kann durch alle Personen erfolge
 
 Grundlage sind die Voreinstellungen der Administration:
 
-![Markierter Bereich Automatischer Kontolebenszyklus mit Erklärtext und Ausführungszeit, darunter der eingeschaltete Schalter und die Frist: Seite Konto](assets/lifecycle_benutzer2_admin_v2_de.png){ class="shadow lightbox" }
+![Markierter Bereich Automatischer Kontolebenszyklus mit Erklärtext und Ausführungszeit, darunter der eingeschaltete Schalter und die Frist](assets/lifecycle_benutzer2_admin_v2_de.png){ class="shadow lightbox" title="Bereich Automatischer Kontolebenszyklus auf der Seite Konto" }
 
 <br>
 

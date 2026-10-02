@@ -10,7 +10,7 @@
 
     [x] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
+    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -38,7 +38,7 @@ Jetzt geht es darum, mit diesem Kurs/Test eine Prüfung zu planen und durchzufü
 
 ## Wie konfiguriere ich meine Prüfung? {: #config_exam}
 
-Die Einstellungen (Konfiguration) wird an verschiedenen Stellen und auf verschiedenen Ebenen vorgenommen.
+Die Einstellungen (Konfiguration) werden an verschiedenen Stellen und auf verschiedenen Ebenen vorgenommen.
 
 ![Vier verschachtelte Ebenen mit eigener Konfiguration: Kurs, Kursbaustein, Lernressource und Frage](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" title="Ebenen der Prüfungskonfiguration" }
 
@@ -65,7 +65,7 @@ Auf Ebene einer Frage werden z.B. Feedbacks definiert.<br>
 
 ## Kann ich die Prüfung zur Probe einmal durchspielen? {: #test_run}
 
-Als Autor:in möchten Sie verständlicherweise einen fertiggestellten Test zunächst selbst einmal probeweise aufrufen oder durch jemand kontrollieren lassen. Dies führt jedoch zu einem Problem:
+Als Autor:in möchten Sie verständlicherweise einen fertiggestellten Test zunächst selbst einmal probeweise aufrufen oder durch jemanden kontrollieren lassen. Dies führt jedoch zu einem Problem:
 
 Sobald ein Test einmal von Prüfungsteilnehmer:innen ausgefüllt und abgeschlossen wurde, werden Ergebnisse gespeichert. Wenn anschliessend der Test z.B. um eine Frage erweitert wird, haben diese Teilnehmer:innen eine andere Version bearbeitet und abgeschlossen. Sie haben möglicherweise den Test nach der neuen erweiterten Version nicht bestanden, konnten aber die zusätzlich hinzugefügten Fragen gar nie sehen und beantworten. Im Nachhinein geänderte Tests wären Urkundenfälschung und OpenOlat lässt deshalb keine Bearbeitung einmal benutzter Tests zu.
 
@@ -91,7 +91,7 @@ Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingericht
 
 Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Prüfungsmodus mit dem Button "Starten" begonnen und beendet werden. Sie finden den Button unter:<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br>
-Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw. "Prüfung beenden" angezeigt. Klicken Sie einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
+Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw. "Prüfung beenden" angezeigt. Klicken Sie auf einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -124,7 +124,7 @@ Planen Sie eine Online-Prüfung, legen Sie vier Zeitangaben an verschiedenen Ste
 Ihre Reaktion auf diese Situation hängt davon ab, wie Sie die Prüfung geplant und konfiguriert haben.
 
 - Wurde ein automatischer Beginn und ein automatisches Beenden der Prüfung eingerichtet?
-- Kommen alle Teilnehmende zu spät oder handelt es sich um eine Einzelperson? 
+- Kommen alle Teilnehmenden zu spät oder handelt es sich um eine Einzelperson? 
 
 Wenn **alle** Prüfungsteilnehmer:innen später beginnen, kann evtl. noch das voreingestellte automatische Beenden der Prüfung angepasst werden. Dann gelten für alle Teilnehmenden die gleichen Einstellungen. Bei manuellem, verspätetem Start bleibt die konfigurierte Dauer gleich, das Ende verschiebt sich entsprechend nach hinten.
 
@@ -168,7 +168,7 @@ Bei Netzwerkstörungen muss evtl. die verfügbare Prüfungszeit manuell verläng
 Ist für alle Prüfungsteilnehmer:innen der Zugriff auf OpenOlat unterbrochen, probieren Sie aus, ob auch andere Websites nicht erreichbar sind. Wenn ja, deutet das möglicherweise auf eine Störung beim Internet-Provider. Wenden Sie sich in diesem Fall für weitere Abklärungen an Ihren Techniker vor Ort.
 
 - **Probleme in OpenOlat**<br>
-Handelt es sich eindeutig um ein Problem in OpenOlat, können Sie sich an unseren Support wenden (support@openolat.com).<br> 
+Handelt es sich eindeutig um ein Problem in OpenOlat, wenden sich frentix-Kund:innen an den frentix Support: [support@frentix.com](mailto:support@frentix.com)<br>
 Ist OpenOlat bei frentix gehostet, können Sie uns bei grossen Teilnehmerzahlen gern auch vorher über Ihre Prüfung informieren, damit unsere Techniker während der laufenden Prüfung ein besonderes Auge auf Ihre OpenOlat-Instanz haben.<br>
 Informationen zum Betriebsstatus unserer Webserver können Sie jederzeit abrufen unter [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
 
@@ -215,8 +215,8 @@ Empfehlungen:
 
 Vorgehen:
 
-1. Prüfung beenden<br> (Bei manuellem Modus durch Betreuer:innen oder Kursbesitzer:innen mit dem Ende-Button im Bewertungswerkzeug.)
-2. Neuen, korrekten Prüfungsmodus mit manuellem Start/Beenden anlegen.<br> Achtung: Der Start-Button wird für Betreuende erst sichtbar, sobald das konfigurierte Zeitfenster erreicht ist. Für einen sofortigen Neustart als Beginn eine unmittelbar bevorstehende Zeitangabe machen und „manuell" wählen.<br>
+1. Prüfung beenden<br> (Bei manuellem Modus durch Betreuer:innen oder Kursbesitzer:innen mit dem Button "Prüfung beenden" im Bewertungswerkzeug.)
+2. Neuen, korrekten Prüfungsmodus mit manuellem Start/Beenden anlegen.<br> Achtung: Der Button zum Starten ("Starten" in der Prüfungsverwaltung, "Prüfung starten" im Bewertungswerkzeug) erscheint erst am Tag, an dem der Prüfungsmodus beginnt. Für einen sofortigen Neustart als Beginn eine unmittelbar bevorstehende Zeitangabe machen und bei "Art des Beginns/Endes" die Option "Manuell" wählen.<br>
 
 
 !!! tip "Tipp"
@@ -241,9 +241,9 @@ B) die Angabe im Prüfungsmodus
 <h3>A) Angaben im Kursbaustein Test</h3>
 
 `Kurs > Administration > Kurseditor > "Kursbaustein" > Tab "Lernpfad"`<br>
-Jeder Kursbaustein in einem Lernpfadkurs kann eine Angabe zur Freigabe enthalten. Es kann ein Zeitfenster angegeben werden, in dem auf den Kursbaustein zugegriffen werden kann. Die Angabe "zu bearbeiten bis" definiert, bis wann der Kursbaustein geöffnet werden kann. Ist ein Kursbaustein geöffnet und wird bearbeitet, während die Frist abläuft, bleibt der Baustein weiter geöffnet und kann weiter bearbeitet werden. Es erfolgt kein automatisches Beenden des Zugriffs.<br>
+Jeder Kursbaustein in einem Lernpfadkurs kann eine Angabe zur Freigabe enthalten. Es kann ein Zeitfenster angegeben werden, in dem auf den Kursbaustein zugegriffen werden kann. Die Angabe "Zu bearbeiten bis" definiert, bis wann der Kursbaustein geöffnet werden kann. Ist ein Kursbaustein geöffnet und wird bearbeitet, während die Frist abläuft, bleibt der Baustein weiter geöffnet und kann weiter bearbeitet werden. Es erfolgt kein automatisches Beenden des Zugriffs.<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Test" > Tab "Test-Konfiguration"`<br>
-Hier finden Sie einen Toggle-Button "Testzeitraum festlegen". Während diesem Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Dies auch dann, wenn die definierte Testzeit noch nicht aufgebraucht ist.
+Hier finden Sie einen Toggle-Button "Testzeitraum festlegen". Während diesem Testzeitraum kann der Test gestartet werden. Sobald die Bis-Zeit erreicht ist, wird der Test automatisch beendet. Dies auch dann, wenn die definierte Testzeit noch nicht aufgebraucht ist.
 
 Änderungen im Kurseditor in diesen Tabs während einer laufenden Prüfung sollten vermieden werden. Empfehlenswert ist in der Regel die Verwendung des Prüfungsmodus. Während eines aktiven Prüfungsmodus sind übrige Aktivitäten in OpenOlat unterbunden. Wird lediglich eine Freigabe und Zugriffsmöglichkeit im Kursbaustein konfiguriert, können weiterhin andere Kurse in OpenOlat aufgerufen werden.
 
@@ -259,11 +259,11 @@ Wurde ein Prüfungsmodus bereits gestartet, kann die Dauer nicht mehr geändert 
 
 Im Fall einer automatischen Beendigung des Prüfungsmodus kann die Prüfungszeit für Teilnehmer:innen, die den Test gestartet haben, verlängert werden.
 
-- Wählen Sie als Betreuer:in den Test-Kursbaustein
-- wählen Sie den Tab Teilnehmer:innen
+- Wählen Sie als Betreuer:in den Test-Kursbaustein.
+- Wählen Sie den Tab "Teilnehmer:innen".
 - Selektieren Sie in der ersten Spalte alle Checkboxen der Teilnehmer:innen, die eine Verlängerung erhalten sollen.
 - Sobald mindestens eine Checkbox markiert ist, erscheint über der Liste auch der Button "Verlängern".
-- Wenn Sie "Verlängern" geklickt haben, können Sie im Popup-Fenster angeben um wieviele Minuten die Testzeit verlängert werden soll.
+- Wenn Sie "Verlängern" geklickt haben, können Sie im Popup-Fenster angeben um wie viele Minuten die Testzeit verlängert werden soll.
 
 Für Einzelpersonen finden Sie die Option zur Testzeitverlängerung auch unter den 3 Punkten am Ende einer Zeile der Teilnehmerliste.
 
@@ -272,7 +272,7 @@ Für Einzelpersonen finden Sie die Option zur Testzeitverlängerung auch unter d
     Beachten Sie, dass eine Verlängerung nur bei Personen gegeben werden kann, die den Test bereits gestartet haben. (Wird ein Test z.B. bereits korrigiert, kann die Bearbeitungszeit nicht mehr verlängert werden.)
 
 
-Als weitere legitime Möglichkeit zur Verlängerung der Testzeit, könnte auch der Nachteilsausgleich verwendet werden. Sie finden diese Option ebenfalls unter den 3 Punkten am Ende einer Zeile.
+Als weitere legitime Möglichkeit zur Verlängerung der Testzeit können Sie den Nachteilsausgleich verwenden. Sie finden die Option "Nachteilsausgleich hinzufügen" ebenfalls unter den 3 Punkten am Ende einer Zeile.
 
 !!! info "Wichtig"
 

@@ -151,7 +151,7 @@ The respective correctors are automatically notified when new edits of the test 
 
 ### Tab "Correctors"
 
-![Button "Add corrector" highlighted, above it the tabs "Configuration", "Correctors" and "Grading assignments"](assets/grading_workflow_tab_correctors_v1_en.png){ class="shadow lightbox" title="Correctors tab in the Correction workflow menu" }
+![Button "Add corrector" highlighted, above it the tabs "Configuration", "Correctors" and "Assignments"](assets/grading_workflow_tab_correctors_v2_en.png){ class="shadow lightbox" title="Correctors tab in the Correction workflow menu · 2026.10.02" }
 
 Here you add the persons who are to correct a test. It does not matter which role the person has in OpenOlat. Persons with the role "User" can also be added as correctors. Via the row menu of a corrector, further actions are available: "Show assignments", "Send e-mail", "Download report", "Deactivate" or "Activate", "Set absence leave" and "Remove".
 

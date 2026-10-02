@@ -9,7 +9,7 @@
 
     [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [ ] Expert:innen
 
 ??? abstract "Erwartete Vorkenntnisse"
 
@@ -44,6 +44,8 @@ Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI
 3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI Anbieter und ein Sprachmodell sind gewählt.
 4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion **"Essay Fragen Generator"**.
 
+Bei frentix-Kund:innen verwaltet frentix das KI Modul. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+
 Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
 
 | Feld | Standardwert | Wirkung |
@@ -63,7 +65,7 @@ Details zu diesen Feldern beschreibt [Externe Werkzeuge: KI Modul](../../manual_
 2. Klicken Sie auf **"Seite editieren"**.
 3. Wählen Sie **"Inhalt hinzufügen"** und im Bereich "Wissen" das Element **"Quiz"**.
 4. Klicken Sie im Quiz rechts oben auf **"Hinzufügen"** und wählen Sie **"Freitext"**.<br><br>
-![Das Menü Hinzufügen im Quiz endet mit dem Eintrag Freitext, darüber Single Choice, Multiple Choice und drei Lückentext-Varianten. Quiz-Element im Content Editor einer Seite.](assets/ai_essay_quiz_add_question_v1_de.png){ class="shadow lightbox" }
+![Das Menü Hinzufügen im Quiz endet mit dem Eintrag Freitext, darüber Single Choice, Multiple Choice und drei Lückentext-Varianten](assets/ai_essay_quiz_add_question_v1_de.png){ class="shadow lightbox" title="Quiz-Element im Content Editor einer Seite" }
 
 5. Erfassen Sie im Tab "Freitext" den **Titel** und die **Frage**.
 6. Legen Sie bei Bedarf **"Min Anzahl Wörter"** und **"Max Anzahl Wörter"** fest. Der Zähler unter dem Eingabefeld zeigt Lernenden ihren Stand und das Maximum.
@@ -91,20 +93,20 @@ Fünf Angaben sind Pflicht und mit einem Stern markiert:
 | "Bloom-Stufe" | Die kognitive Stufe der Frage: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" oder "Erschaffen". |
 | "Sprache (BCP-47)" | Die erwartete Antwortsprache, zum Beispiel `de` oder `en-US`. |
 
-![Die fünf Pflichtfelder Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache tragen einen Stern, die Korrekturhinweise nicht. Tab KI-Feedback einer Freitextfrage im Quiz.](assets/ai_essay_grading_kit_top_v1_de.png){ class="shadow lightbox" }
+![Die fünf Pflichtfelder Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache tragen einen Stern, die Korrekturhinweise nicht](assets/ai_essay_grading_kit_top_v1_de.png){ class="shadow lightbox" title="Tab KI-Feedback einer Freitextfrage im Quiz" }
 
 Die übrigen Felder schärfen das Feedback:
 
 * **"Korrekturhinweise"**: Regeln für die Beurteilung, etwa dass Fachbegriffe nicht zwingend sind.
 * **"Schwierigkeitsgrad (1–5)"**: Der Anspruch, den die KI beim Beurteilen anlegt.
 * **"Schlüsselpunkte"**: Die Kernaspekte, die eine gute Antwort abdeckt. Jeder Punkt erhält eine Beschreibung, ein Gewicht von 0.0 bis 1.0 und die Markierung "erforderlich". Sind Zeilen ausgefüllt, muss die Summe der Gewichte 1.0 ergeben (Toleranz 0.01).
-![Drei Schlüsselpunkte mit den Gewichten 0.4, 0.3 und 0.3, alle erforderlich, darunter der Hinweis zur Gewichtssumme 1.0. Abschnitt Schlüsselpunkte im Tab KI-Feedback.](assets/ai_essay_grading_kit_keypoints_v1_de.png){ class="shadow lightbox" }
+![Drei Schlüsselpunkte mit den Gewichten 0.4, 0.3 und 0.3, alle erforderlich, darunter der Hinweis zur Gewichtssumme 1.0](assets/ai_essay_grading_kit_keypoints_v1_de.png){ class="shadow lightbox" title="Abschnitt Schlüsselpunkte im Tab KI-Feedback" }
 
 * **"Bewertungskriterien"**: Benannte Kriterien mit Beschreibung, Gewicht und dem Bereich "Inhalt" oder "Sprache". Auch hier ergibt die Summe der Gewichte 1.0.
-![Zwei Bewertungskriterien: Fachliche Richtigkeit mit Gewicht 0.7 im Bereich Inhalt und Klare Sprache mit Gewicht 0.3 im Bereich Sprache. Tab KI-Feedback, Abschnitt Bewertungskriterien.](assets/ai_essay_grading_kit_rubric_v1_de.png){ class="shadow lightbox" }
+![Zwei Bewertungskriterien: Fachliche Richtigkeit mit Gewicht 0.7 im Bereich Inhalt und Klare Sprache mit Gewicht 0.3 im Bereich Sprache](assets/ai_essay_grading_kit_rubric_v1_de.png){ class="shadow lightbox" title="Abschnitt Bewertungskriterien im Tab KI-Feedback" }
 
 * **"Häufige Missverständnisse"**: Typische Falsch-Annahmen. Die KI achtet gezielt darauf und spricht sie im Feedback an.
-![Zwei Falsch-Annahmen erfasst, darüber ein einzelner Schlüsselpunkt mit Gewicht 1.0 und Schwierigkeitsgrad 5. Abschnitt Häufige Missverständnisse im Tab KI-Feedback.](assets/ai_essay_grading_kit_misconceptions_v1_de.png){ class="shadow lightbox" }
+![Zwei Falsch-Annahmen erfasst, darüber ein einzelner Schlüsselpunkt mit Gewicht 1.0 und Schwierigkeitsgrad 5](assets/ai_essay_grading_kit_misconceptions_v1_de.png){ class="shadow lightbox" title="Abschnitt Häufige Missverständnisse im Tab KI-Feedback" }
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -120,14 +122,14 @@ Prüfen Sie das Bewertungskit, bevor Lernende die Frage sehen.
 
 Die Vorschau zeigt unter "Bewertungssignale", wie die KI die Antwort liest.
 
-![Bewertungskit, Beispielantwort und die inhaltlichen Signale: drei abgedeckte Schlüsselpunkte, keine fehlenden, Roter Faden, Argumentation und Relevanz. Dialog KI-Feedback testen.](assets/ai_essay_test_feedback_v1_de.png){ class="shadow lightbox" }
+![Bewertungskit, Beispielantwort und die inhaltlichen Signale: drei abgedeckte Schlüsselpunkte, keine fehlenden, Roter Faden, Argumentation und Relevanz](assets/ai_essay_test_feedback_v1_de.png){ class="shadow lightbox" title="Dialog KI-Feedback testen" }
 
 * **"Inhaltliche Signale"**: abgedeckte und fehlende Schlüsselpunkte, dazu "Roter Faden", "Argumentation" und "Relevanz".
 * **"Sprachliche Signale"**: "Grammatik" und "Rechtschreibung".
 * **"Feedback an Lernende"**: der Text, den Lernende später sehen.
 * **"Gesamt"**: "Gesamteinschätzung", "Geschätzter Erfüllungsgrad", "Themenverfehlung", "Verlässlichkeit" und "Feedback an die Betreuung".
 
-![Feedback an Lernende in drei Abschnitten, darunter der Block Gesamt mit Erfüllungsgrad 85 Prozent und Feedback an die Betreuung. Unterer Teil des Dialogs KI-Feedback testen.](assets/ai_essay_test_feedback_overall_v1_de.png){ class="shadow lightbox" }
+![Feedback an Lernende in drei Abschnitten, darunter der Block Gesamt mit Erfüllungsgrad 85 Prozent und Feedback an die Betreuung](assets/ai_essay_test_feedback_overall_v1_de.png){ class="shadow lightbox" title="Unterer Teil des Dialogs KI-Feedback testen" }
 
 Weicht das Feedback von Ihrer Erwartung ab, schärfen Sie die Musterantwort, die Schlüsselpunkte oder die Korrekturhinweise nach und testen Sie erneut.
 
@@ -156,19 +158,19 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Missverständni
 1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Über dem Feld stehen "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Der Zähler zeigt die Anzahl Wörter und das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden die Lernenden die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen.
 
-![Die Freitextfrage in der Lernendenansicht mit Hinweisen zur Bearbeitung, Eingabefeld, Wortzähler und dem Button Überprüfen. Quiz auf einer Kursseite.](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" }
+![Die Freitextfrage mit Hinweisen zur Bearbeitung, Eingabefeld, Wortzähler und dem Button Überprüfen](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" title="Lernendenansicht des Quiz auf einer Kursseite" }
 
 3. Das Ergebnis erscheint im Block **"KI-Feedback"**.
 
-![Beurteilung falsch mit 15 Prozent, Feedbacktext, Verlässlichkeit hoch und der zugeklappte Bereich Detailliertes Feedback. Block KI-Feedback im Quiz nach dem Überprüfen.](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" }
+![Beurteilung falsch mit 15 Prozent, Feedbacktext, Verlässlichkeit hoch und der zugeklappte Bereich Detailliertes Feedback](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" title="Block KI-Feedback im Quiz nach dem Überprüfen" }
 
 Der Block beginnt mit der **"Beurteilung"** in fünf Stufen: "sehr gut", "gut", "mittelmässig", "ungenügend" und "falsch". Daneben steht die **"Verlässlichkeit Feedback"** mit "hoch", "mittel" oder "niedrig". Sie zeigt, wie sicher die KI ihre eigene Einschätzung einstuft.
 
 Unter **"Detailliertes Feedback"** lassen sich weitere Abschnitte aufklappen: "Was gut gelungen ist", "Was fehlt noch" und "Nächster Schritt", dazu die abgedeckten und fehlenden Punkte sowie Rückmeldungen zu Grammatik und Rechtschreibung.
 
-![Der Link Detailliertes Feedback am Ende des Blocks KI-Feedback öffnet die weiteren Abschnitte. Quiz auf einer Kursseite.](assets/ai_essay_ai_feedback_details1_v1_de.png){ class="shadow lightbox" }
+![Der Link Detailliertes Feedback am Ende des Blocks KI-Feedback öffnet die weiteren Abschnitte](assets/ai_essay_ai_feedback_details1_v1_de.png){ class="shadow lightbox" title="Block KI-Feedback, zugeklappt" }
 
-![Das aufgeklappte detaillierte Feedback mit den Abschnitten Was gut gelungen ist, Was fehlt noch, Nächster Schritt und der Liste der fehlenden Punkte. Block KI-Feedback im Quiz.](assets/ai_essay_ai_feedback_details2_v1_de.png){ class="shadow lightbox" }
+![Das aufgeklappte detaillierte Feedback mit den Abschnitten Was gut gelungen ist, Was fehlt noch, Nächster Schritt und der Liste der fehlenden Punkte](assets/ai_essay_ai_feedback_details2_v1_de.png){ class="shadow lightbox" title="Block KI-Feedback, aufgeklappt" }
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -183,7 +185,7 @@ Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Fachtext erzeuge
 3. Aktivieren Sie den Schalter **"KI-generiertes Quiz hinzufügen"**.
 4. Legen Sie im Feld **"Essay-Frage mit KI-Korrektur"** fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
 5. Wählen Sie die **Bloom-Stufen** und die **Zielschwierigkeit**, und erfassen Sie bei Bedarf **Lernziele**, ein Ziel pro Zeile.<br><br>
-![Schalter KI-generiertes Quiz hinzufügen eingeschaltet, MC-Fragen 0, Essay-Frage mit KI-Korrektur 1, zwei Bloom-Stufen und ein Lernziel gewählt. Dialog Importieren im Content Editor.](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" }
+![Schalter KI-generiertes Quiz hinzufügen eingeschaltet, MC-Fragen 0, Essay-Frage mit KI-Korrektur 1, zwei Bloom-Stufen und ein Lernziel gewählt](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Importieren im Content Editor" }
 
 6. Starten Sie den Import. Die Generierung läuft im Hintergrund und kann eine Minute dauern. OpenOlat fügt die Fragen als Quiz-Element am Ende der Seite an.
 
@@ -211,9 +213,9 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 
 **Auf dieser Seite erwähnt**<br>
 ["Wie erstelle ich meinen ersten OpenOlat-Kurs?" >](../my_first_course/my_first_course.de.md)<br>
-[Kursbaustein Seite >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
+[Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
-[Kursbaustein Test >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
 [Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 

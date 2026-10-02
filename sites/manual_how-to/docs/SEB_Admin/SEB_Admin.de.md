@@ -9,7 +9,7 @@
 
     [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen [x] Administrator:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"

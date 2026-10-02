@@ -19,10 +19,10 @@
 
 ## Möglichkeiten im Überblick {: #overview}
 
-Es gibt verschiedene Möglichkeiten, wo und wie Kursteilnehmende eine Datei (z.B. die Lösung einer Aufgabe oder ein Essay) hochladen können. Lassen Sie sich von der nachfolgenden Liste inspirieren:
+Es gibt verschiedene Möglichkeiten, wo und wie Teilnehmende eine Datei (z.B. die Lösung einer Aufgabe oder ein Essay) hochladen können. Lassen Sie sich von der nachfolgenden Liste inspirieren:
 
-* [Kursbaustein Teilnehmerordner >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md) (Ordner, auf den jeweils nur der/die einzelne Teilnehmer:in und Betreuer:innen Zugriff haben)
-* [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md) (Ordnerinhalt für alle Kursteilnehmer:innen sichtbar. Upload durch Teilnehmende nur, falls dies erlaubt wurde: Im Kurseditor "Tab: Ordnerkonfiguration > Abschnitt: Benutzerrechte")
+* [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md) (Ordner, auf den nur die einzelne Teilnehmer:in und die Betreuer:innen Zugriff haben)
+* [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md) (Ordnerinhalt für alle Teilnehmenden sichtbar. Upload durch Teilnehmende nur, falls dies im Abschnitt "Berechtigungen" erlaubt wurde: `Kurs > Administration > Kurseditor > Kursbaustein "Ordner" > Tab "Ordnerkonfiguration"`)
 * [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)
 * [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)
 * [Kursbaustein Portfolioaufgabe >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)
@@ -30,29 +30,45 @@ Es gibt verschiedene Möglichkeiten, wo und wie Kursteilnehmende eine Datei (z.B
 * [Kursbaustein Dateidiskussion >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md) (Falls Upload durch Teilnehmende erlaubt wurde.)
 * [Kursbaustein Forum >](../../manual_user/learningresources/Course_Element_Forum.de.md) (Falls erlaubt: Dateien im Anhang von Forumsbeiträgen)
 
-
-
 [Zum Seitenanfang ^](#document_upload)
 
 ---
 
 ### Vergleich {: #comparison}
 
-| | **Aufgabe / Gruppenaufgabe** | **Teilnehmer\*innen Ordner** | **Ordner** |
+| | **Aufgabe / Gruppenaufgabe** | **Teilnehmer:innen Ordner** | **Ordner** |
 |---|---|---|---|
 | Integrierter Workflow mit Aufgabenauswahl, Abgabefrist, Feedback, Bewertung | Ja | Nein | Nein |
-| Benachrichtigungen | Ja | Nein | Nein |
+| Benachrichtigungen (Abonnement) | Ja, zu den Schritten des Workflows | Ja, über neue und geänderte Dokumente | Ja, über Änderungen im Ordner |
 | Abgabefrist | Ja | Ja | Nein |
 | Wiederverwendbar für mehrere Abgaben | Nein (Hochladen mehrerer Dokumente für denselben Abgabetermin möglich.) | Ja | Ja |
 | Unterordner | Nein | Ja | Ja |
 | Max./min. Anzahl Dokumente festlegen | Ja | Nur Max. | Nein |
-| Feedback an Teilnehmende | Ja | Dokument in "Betreuerrückgabeordner" hochladen | Nein (nur per E-Mail) |
+| Feedback an Teilnehmende | Ja | Dokument in den "Betreuer:innen Rückgabeordner" hochladen | Nein (nur per E-Mail) |
 | Überarbeitung der Abgabe mit Frist | Ja | Nein | Nein |
 | Automatische Zuweisung von Aufgaben (bei mehreren Aufgabenstellungen) | Ja | Nein | Nein |
 | Verspätete Abgabe zulassen | Ja | Nein | Nein |
 | Automatische Zuweisung von Betreuenden | Ja | Nein | Nein |
-| Bewertungsmöglichkeit im KB | Ja | Nein | Nein |
+| Bewertungsmöglichkeit im Kursbaustein | Ja | Nein | Nein |
 | Sichtbarkeit der hochgeladenen Dateien für Teilnehmende | Nur eigene Abgabe und Feedback | Nur eigene Abgabe und Feedback | Alle Teilnehmenden sehen die Dateien im Ordner |
 
 [Zum Seitenanfang ^](#document_upload)
 
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
+[Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)<br>
+[Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>
+[Kursbaustein "Dateidiskussion" >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md)<br>
+[Kursbaustein "Forum" >](../../manual_user/learningresources/Course_Element_Forum.de.md)
+
+**Weiterführend**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Mit welchen Ordnern kann ich Dokumente anbieten? >](../folders/folders.de.md)<br>
+[Wie führe ich ein Peer-Review durch? >](../peer_review/peer_review.de.md)
+
+[Zum Seitenanfang ^](#document_upload)

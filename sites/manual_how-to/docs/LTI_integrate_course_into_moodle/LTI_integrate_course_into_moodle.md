@@ -4,7 +4,7 @@
 ??? abstract "Objectives and content of this instruction"
 
     You have created a course in OpenOlat and would like to offer it outside your OpenOlat on a Moodle platform?<br>
-    The following instructions show you the procedure step by step. 
+    The following instructions show you the procedure step by step.
 
 ??? abstract "Target group"
 
@@ -15,20 +15,20 @@
 ??? abstract "Expected previous knowledge"
 
     * Administration manual: [LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)
-	* Administration manual: [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)
-	* User manual: [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
-    
+    * Administration manual: [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)
+    * User manual: [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
+
 
 ---
 
-To display an OpenOlat course on another platform - in the following instructions this is Moodle - a connection is established according to the LTI 1.3 standard.<br>
+To display an OpenOlat course on another platform, in the following instructions this is Moodle, a connection is established according to the LTI 1.3 standard (Learning Tools Interoperability).<br>
 
-So that the users of the Moodle platform can access the OpenOlat course from their system, the two platforms must communicate with each other, and on the OpenOlat side the course (and only this course...) must be released for this external access.
+So that the users of the Moodle platform can access the OpenOlat course from their system, the two platforms must communicate with each other, and on the OpenOlat side the course (and only this course) must be released for this external access.
 
 
 ## Requirements {: #conditions}
 
-Administrator access must be ensured in both systems for the configuration. (In OpenOlat, this can also be the System administrator role).  Preferably, the configuration is done on both systems at the same time, since certain dialogs have to be configured in both systems in direct succession.
+Administrator access must be ensured in both systems for the configuration. In OpenOlat, the System administrator role opens the system administration, where the external platform is entered. Who may release a course via LTI is defined by the system administration in the "Configuration" tab under `Administration > External tools > LTI`. Preferably, the configuration is done on both systems at the same time, since certain dialogs have to be configured in both systems in direct succession.
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -49,11 +49,11 @@ Administrator access must be ensured in both systems for the configuration. (In 
 The administration of the external tools in Moodle is located under the following path:<br>
 `Site administration > Plugins > External Tool > Manage Tools`
 
-![Entry External tool with Manage tools, in the Plugins menu of the Site administration in Moodle](assets/LTI_integrate_course_into_moodle-setup1_v1_en.png){ class="shadow lightbox" }
+![Marked entry External tool with Manage tools in the Plugins tab](assets/LTI_integrate_course_into_moodle-setup1_v1_en.png){ class="shadow lightbox" title="Site administration in Moodle" }
 
 For the configuration with OpenOlat, the option "**configure a tool manually**" must be selected.
 
-![The link 'configure a tool manually' to set up an external tool manually, in the Manage tools dialog in Moodle](assets/LTI_integrate_course_into_moodle-setup2_v1_en.png){ class="shadow lightbox" }
+![Marked link configure a tool manually to set up an external tool manually](assets/LTI_integrate_course_into_moodle-setup2_v1_en.png){ class="shadow lightbox" title="Manage tools page in Moodle" }
 
 
 The following parameters must be defined in the dialog as minimum requirements:
@@ -61,21 +61,21 @@ The following parameters must be defined in the dialog as minimum requirements:
 | Field					| Comment |
 | --------------------- | ---------------------------------------------- |
 | Tool name				| Freely definable |
-| Tool URL				| Direct link to the OpenOlat course. <br> The URL has the following format: https:// < OpenOlat-URL > /auth/RepositoryEntry/ < CourseID > <br>(Make sure that no / is added at the end of the URL.) |
+| Tool URL				| Direct link to the OpenOlat course. <br> The URL has the following format: `https://<OpenOlat-URL>/auth/RepositoryEntry/<Course-ID>` <br>(Make sure that no / is added at the end of the URL.) |
 | LTI Version			| LTI 1.3 |
 | Client ID				| Only becomes visible after saving in this form |
 | Public key type		| RSA key |
 | Public key			| Is generated in OpenOlat, can only be entered afterwards |
-| Initiate Login URL	| Login URL (Form: hdps://<OpenOlat-URL/lT/login_iniTaTon) |
-| Redirection URL(s)	| Redirection URL (Form: hdps://<OpenOlat-URL/lT/login) |
+| Initiate Login URL	| Initiate login URL, format: `https://<OpenOlat-URL>/lti/login_initiation` |
+| Redirection URL(s)	| Redirection URL, format: `https://<OpenOlat-URL>/lti/login` |
 | Tool Configuration Usage| Show in activity chooser and as a preconfigured tool |
 | Default Launch Container	| New window (OpenOlat only supports running the courses in a new window.) |
 
-![Completed External tool configuration form with Tool URL, LTI version and public key, in Moodle](assets/LTI_integrate_course_into_moodle-setup3_v1_en.png){ class="shadow lightbox" }
+![Completed form with Tool URL, LTI version, public key, initiate login URL and redirection URL](assets/LTI_integrate_course_into_moodle-setup3_v1_en.png){ class="shadow lightbox" title="External tool configuration form in Moodle" }
 
 After saving, you can call up further details in the overview via the details link in the LTI tool. The details are needed for the setup of the external platform in OpenOlat:
 
-![Tool configuration details with Platform ID, Client ID and Deployment ID, in the tool overview in Moodle](assets/LTI_integrate_course_into_moodle-setup4_v1_en.png){ class="shadow lightbox" }
+![Platform ID, Client ID, Deployment ID and the three URLs for keyset, access token and authentication](assets/LTI_integrate_course_into_moodle-setup4_v1_en.png){ class="shadow lightbox" title="Tool configuration details dialog in Moodle" }
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -84,16 +84,16 @@ After saving, you can call up further details in the overview via the details li
 
 ## 2. Setup "External platform" in OpenOlat {: #setup_step2}
 
-The administration of LTI 1.3 is located in OpenOlat under the following path:<br>
+The administration of LTI 1.3 is located in the system administration of OpenOlat under the following path:<br>
 `Administration > External tools > LTI`
 
-![Module 'LTI 1.3' with platform ID and organisation, in the Configuration tab under External tools > LTI of the system administration](assets/LTI_integrate_course_into_moodle-setup5_v2_de.png){ class="shadow lightbox" }
+![Switched-on module LTI 1.3 with platform ID and organisation, below it the roles allowed to add a deployment](assets/LTI_integrate_course_into_moodle-setup5_v2_de.png){ class="shadow lightbox" title="Configuration tab of the LTI administration" }
 
-Under "External platforms", the Moodle instance can be entered:
+In the "External platforms" tab, enter the Moodle instance with the "Add external platform" button:
 
 | Field					| Comment |
 | --------------------- | ---------------------------------------------- |
-| Tool name				| Freely definable |
+| Name				| Freely definable |
 | Platform ID / Issuer	| URL of the Moodle instance |
 | Client ID				| Client ID from the "Tool configuration details" dialog in Moodle |
 | Public Key Type | Public Key -> this key is then added to the tool configuration on Moodle |
@@ -104,7 +104,7 @@ Under "External platforms", the Moodle instance can be entered:
 
 After completing the form, enter the public key on Moodle in the tool configuration.
 
-![Completed platform edit form with platform ID, client ID and public key, in the Edit platform dialog in OpenOlat](assets/LTI_integrate_course_into_moodle-setup6_v2_en.png){ class="shadow lightbox" }
+![Completed form with name, platform ID, client ID, public key and the three URLs from Moodle](assets/LTI_integrate_course_into_moodle-setup6_v2_en.png){ class="shadow lightbox" title="Edit platform dialog in OpenOlat" }
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -114,18 +114,21 @@ After completing the form, enter the public key on Moodle in the tool configurat
 ## 3. LTI release of the course in OpenOlat {: #setup_step3}
 
 An OpenOlat course (or an OpenOlat group) is released in the settings under the following path:<br>
-`OpenOlat course > Settings > Tab "Share" > LTI 1.3 access configuration`
+`Course > Administration > Settings > Tab "Share" > Section "LTI 1.3 access configuration"`
 
-![LTI 1.3 access configuration section with the configured deployment, in the Share tab of the course settings](assets/LTI_integrate_course_into_moodle-setup7_v2_en.png){ class="shadow lightbox" }
+![LTI 1.3 access configuration section with the Add deployment button and the configured deployment](assets/LTI_integrate_course_into_moodle-setup7_v2_en.png){ class="shadow lightbox" title="Share tab of the course settings" }
 
-Add a deployment for the course (or the group):
+Add a deployment for the course (or the group) with the "Add deployment" button:
 
 | Field					| Comment |
 | --------------------- | ---------------------------------------------- |
 | Platform				| Selection of the configured Moodle instance |
 | Deployment ID 		| From Moodle: Deployment ID from the "Tool configuration details" dialog |
 
-![Completed Add new tool form with platform and deployment ID, in the dialog for a new deployment in OpenOlat](assets/LTI_integrate_course_into_moodle-setup8_v2_en.png){ class="shadow lightbox" }
+![Completed form with platform and deployment ID, below it initiate login URL, redirection URL and public key](assets/LTI_integrate_course_into_moodle-setup8_v2_en.png){ class="shadow lightbox" title="Create a new tool dialog in OpenOlat" }
+
+You can find more about the LTI 1.3 access configuration section in the user manual under:<br>
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md#section_LTI)
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -136,11 +139,11 @@ Add a deployment for the course (or the group):
 
 The external tool (OpenOlat) can now be inserted in the Moodle course.
 
-![Search for External tool in the Add an activity or resource dialog, in the Moodle course](assets/LTI_integrate_course_into_moodle-setup9_v1_en.png){ class="shadow lightbox" }
+![Search for External tool with one result, for adding an activity](assets/LTI_integrate_course_into_moodle-setup9_v1_en.png){ class="shadow lightbox" title="Add an activity or resource dialog in Moodle" }
 
 The configured OpenOlat course can be selected here in the external tool on Moodle as a "preconfigured tool".
 
-![Selecting the preconfigured tool in the Preconfigured tool field, when adding the external tool in the Moodle course](assets/LTI_integrate_course_into_moodle-setup10_v1_en.png){ class="shadow lightbox" }
+![Selected preconfigured tool in the Preconfigured tool field](assets/LTI_integrate_course_into_moodle-setup10_v1_en.png){ class="shadow lightbox" title="Adding a new External tool page in Moodle" }
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -151,18 +154,18 @@ The configured OpenOlat course can be selected here in the external tool on Mood
 
 Whether the configuration has worked can be checked with a simple test call.
 
-![The embedded external tool in the General course section, in the Moodle course](assets/LTI_integrate_course_into_moodle-setup11_v1_en.png){ class="shadow lightbox" }
+![The embedded external tool as a link in the General course section](assets/LTI_integrate_course_into_moodle-setup11_v1_en.png){ class="shadow lightbox" title="Course page in Moodle" }
 
-The link in Moodle should open the desired OpenOlat course in a new window. 
+The link in Moodle should open the desired OpenOlat course in a new window.
 
 !!! warning "Attention"
 
-	If you are already logged in to OpenOlat in another tab, you will be logged out there.  
+    If you are already logged in to OpenOlat in another tab, you will be logged out there.
 
 
-In the OpenOlat course, you can verify the test call in the Members management: The LTI call has created a new LTI user and added it to an LTI group:
+In the OpenOlat course, you can verify the test call in the members management: the LTI call has created a new account and added it to the group "LTI: name of the platform".
 
-![Newly created LTI user with the role coach in the LTI group, in the Members management of the course](assets/LTI_integrate_course_into_moodle-setup12_v1_en.png){ class="shadow lightbox" }
+![Newly created account with the role group coach in the group LTI: fxTest Moodle](assets/LTI_integrate_course_into_moodle-setup12_v1_en.png){ class="shadow lightbox" title="Members management of the course" }
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -170,15 +173,18 @@ In the OpenOlat course, you can verify the test call in the Members management: 
 
 ## Further information {: #further_information}
 
-User manual: [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
-User manual: [Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)<br>
-User manual: [Course element "LTI page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
-Administration manual: [LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
-Administration manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
-Administration manual: [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
-Administration manual: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.md)<br>
-Administration manual: [LTI - Role mapping](../../manual_admin/administration/LTI_Role_Mapping.md)
+**Mentioned on this page**<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
+[LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
+[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)
+
+**Further reading**<br>
+[Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)<br>
+[Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
+[LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
+[LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.md)<br>
+[LTI - Role mapping >](../../manual_admin/administration/LTI_Role_Mapping.md)
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
-
 

@@ -9,7 +9,7 @@
 
     [ ] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
+    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -69,17 +69,19 @@ Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, g
 
 ### 1. Einstieg direkt im Kursbaustein {: #access_course_element}
 
-![Drei markierte Schritte vom Kursbaustein über den Tab Teilnehmer:innen zur Zeile einer teilnehmenden Person, im Kurs bei geschlossenem Editor](assets/assessing_tests_access1a_v1_de.png){ class="shadow lightbox" }
+Wer als Betreuer:in angemeldet ist, sieht beim Klick auf einen Test-Kursbaustein nicht den Test (wie die Teilnehmer:innen), sondern eine Übersicht zum Bearbeitungsstatus der betreuten Teilnehmer:innen für diesen Kursbaustein. Von dort führen zwei Klicks zum Bewertungsformular einer Person:
 
-![1](assets/1_green_24.png) Wer als Betreuer:in angemeldet ist, sieht bei **Klick auf einen Test-Kursbaustein** nicht den Test (wie die Teilnehmer:innen), sondern eine Übersicht zum Bearbeitungsstatus der betreuten Teilnehmer:innen (den ausgewählten Test-Kursbaustein betreffend).
+![Kursbaustein im Kursmenü, Tab Teilnehmer:innen und die Zeile der zu bewertenden Person markiert](assets/assessing_tests_access1a_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test · 2026.10.02" }
 
-![2](assets/2_green_24.png) Im **Tab "Teilnehmer:innen"** erhalten Sie die Liste der betreuten Teilnehmer:innen mit Bearbeitungsstatus dieses Kursbausteins.
+* **Kursbaustein**: Wählen Sie im Kursmenü den Test-Kursbaustein.
+* **Tab "Teilnehmer:innen"**: Hier erhalten Sie die Liste der betreuten Teilnehmer:innen mit dem Bearbeitungsstatus dieses Kursbausteins. Klicken Sie auf den Namen einer Person.
+* **Bewertungsformular**: Sie gelangen zum Bewertungsformular des gesamten Tests für diese Person.
 
-![3](assets/3_green_24.png) Nach **Wahl eines/einer Teilnehmer:in** gelangen Sie zum **Bewertungsformular** des Gesamttests.
+![Symbole Korrigieren, Resultate anzeigen und Weitere Aktionen beim Testversuch, darunter das Bewertungsformular](assets/assessing_tests_access1b_v2_de.png){ class="shadow lightbox" title="Bewertungsformular einer Person im Kursbaustein Test · 2026.10.02" }
 
-![Liste der Testversuche und darunter das Bewertungsformular mit Punktezahl, Bestanden und den Schaltflächen Zwischenspeichern und Bewertung abschliessen, dazu das Zeilenmenü mit Korrigieren](assets/assessing_tests_access1b_v1_de.png){ class="shadow lightbox" }
+Über dem Bewertungsformular listet OpenOlat unter "Testversuche" alle bisherigen Testversuche der Person auf. Kursbesitzer:innen finden darunter zusätzlich den Button "Testdaten zurücksetzen".
 
-![4](assets/4_green_24.png) Im **Bewertungsformular des gesamten Tests** finden Sie alle bisherigen Testversuche des/der Teilnehmer:in aufgelistet und können den Gesamttest bewerten. Auch Zwischenspeichern ist möglich. Sie können
+Im **Bewertungsformular des gesamten Tests** bewerten Sie den Gesamttest. Sie können
 
 * Punkte vergeben oder bereits automatisch vergebene Punkte überschreiben
 * "Bestanden" oder "Nicht bestanden" vergeben
@@ -87,20 +89,18 @@ Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, g
 * Bewertungsdokumente hinzufügen
 * Kommentare für andere Betreuende hinterlegen
 
+Mit "Zwischenspeichern" sichern Sie einen Zwischenstand. Abgeschlossen wird die Bewertung mit "Bewertung abschliessen und freigeben" oder mit "Bewertung abschliessen", je nachdem, ob sie freigegeben werden soll. Dürfen Sie Bewertungen freigeben, bietet der Pfeil neben beiden Buttons die Variante mit oder ohne Freigabe an.
 
-![5](assets/5_green_24.png) Mit Klick auf das **Korrektur-Icon** oder die **3 Punkte und dann "Korrigieren"** in der Zeile des aktuellen Testversuchs öffnen Sie das **Korrekturwerkzeug**. Sie erhalten die Liste der Fragen dieses Tests und können jede Einzelfrage bewerten. (Zu jeder Frage gibt es ein **Bewertungsformular der Einzelfrage**.) Sie können
+In der Zeile des aktuellen Testversuchs stehen drei Symbole:
 
-* sich die Resultate anzeigen lassen
-* einen Testversuch annullieren
-* die Resultate dieses/dieser Teilnehmer:in als pdf exportieren
-* mit Log-Dateien den Verlauf des Testversuchs nachvollziehen.
-
+* **Korrigieren**: öffnet die Fragen dieses Testversuchs. Jede Einzelfrage bewerten Sie in ihrem **Bewertungsformular der Einzelfrage**. Es ist dieselbe Ansicht wie im [Korrekturwerkzeug](#correction_tool) nach Auswahl einer Person.
+* **Resultate anzeigen**: zeigt die Resultate des Testversuchs.
+* **Weitere Aktionen**: öffnet ein Menü, unter anderem mit "Resultate als PDF", "Formatiertes Log", "Logdatei exportieren" und "Annullieren". Mit den Log-Dateien vollziehen Sie den Verlauf des Testversuchs nach.
 
 Wurde eine Bewertung abgeschlossen, ändern sich die angebotenen Buttons. Sie können dann
 
-* die abgegebene Bewertung wieder eröffnen
-* die Bewertung freigeben
-* die Freigabe wieder zurückziehen
+* die Bewertung mit "Bewertung wieder eröffnen" erneut bearbeiten
+* die Bewertung mit "Freigeben" freigeben oder die Freigabe mit "Freigabe zurückziehen" wieder zurückziehen, je nachdem, ob sie freigegeben ist
 
 
 [Zum Seitenanfang ^](#assessing_tests)
@@ -113,13 +113,11 @@ Wurde eine Bewertung abgeschlossen, ändern sich die angebotenen Buttons. Sie k�
 Das Bewertungswerkzeug wird aufgerufen via<br>
 `Kurs > Administration > Bewertungswerkzeug`
 
-![Aufgeklapptes Menü Administration mit dem markierten Eintrag Bewertungswerkzeug, im Kurs](assets/assessing_tests_access2a_v1_de.png){ class="shadow lightbox" }
+Die nun folgenden Schritte sind die gleichen wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)). Im Bewertungswerkzeug werden links alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein, den Tab "Teilnehmer:innen" und dort den Namen einer Person.
 
-Die nun folgenden Schritte sind die gleichen, wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)). Im Bewertungswerkzeug werden links alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein, den Tab "Teilnehmer:innen", usw.
+Am Ende jeder Zeile öffnet das Symbol "Weitere Aktionen" ein Menü. Mit "Details anzeigen / bewerten" öffnen Sie das Bewertungsformular der Person, mit "Korrigieren" die Korrektur ihres Testversuchs. Je nach Status der Bewertung bietet das Menü weitere Einträge, etwa "Bewertung abschliessen", "Freigeben", "Resultate als PDF" oder "Anzahl Versuche zurücksetzen".
 
-Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
-
-![Drei markierte Schritte im Bewertungswerkzeug vom Kursbaustein über den Tab Teilnehmer:innen zur Zeile, dazu das Zeilenmenü mit Details anzeigen und Korrigieren](assets/assessing_tests_access2b_v1_de.png){ class="shadow lightbox" }
+![Menü Weitere Aktionen einer Person mit den markierten Einträgen Details anzeigen / bewerten und Korrigieren](assets/assessing_tests_access2b_v2_de.png){ class="shadow lightbox" title="Menü Weitere Aktionen im Tab Teilnehmer:innen des Bewertungswerkzeugs · 2026.10.02" }
 
 [Zum Seitenanfang ^](#assessing_tests)
 
@@ -131,13 +129,13 @@ Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
 Wird Ihnen in der **Hauptnavigation der Bereich "Coaching"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
 
 Der Bereich **Coaching** zeigt **kursübergreifend** anstehende Bewertungsaufträge an.
-Sie können von der Übersicht des Bereichs Coaching über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge anzeigen.
+Sie können von der Startseite des Bereichs Coaching auf mehreren Wegen zu Ihrer Bewertungsaufgabe gelangen: über das Suchfeld "Wen möchten Sie coachen?" eine bestimmte Person suchen, über die Kachel "Personen" die betreuten Personen öffnen oder über die Kachel "Bewertungsaufträge" die anstehenden Aufträge anzeigen.
 
 Die darauf folgenden Schritte entsprechen dann wieder denen, wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)).
 
 Welche Einstellung welchen Tab im Bereich Coaching füllt, steht im Abschnitt [Bewertungsaufträge erstellen](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md#create_assessment_orders).
 
-![Startseite Coaching mit den markierten Einstiegen Personensuche, Personen, Kurse und Bewertungsaufträge sowie den Favoriten](assets/assessing_tests_access3a_v1_de.png){ class="shadow lightbox" }
+![Bereich Coaching in der Hauptnavigation, Suchfeld und die Kacheln Personen und Bewertungsaufträge markiert](assets/assessing_tests_access3a_v2_de.png){ class="shadow lightbox" title="Startseite des Bereichs Coaching · 2026.10.02" }
 
 [Zum Seitenanfang ^](#assessing_tests)
 
@@ -165,7 +163,7 @@ Was die drei Varianten bewirken, steht auf der Seite [Tests auf Kursebene](../..
 **Pro Frage** eines Tests gibt es für jede:n Kursteilnehmer:in in OpenOlat ein Bewertungsformular.
 
 Ausserdem gibt es ein Bewertungsformular für den **gesamten Test-Kursbaustein**.<br>
-Siehe [1. Einstieg direkt im Kursbaustein, Schritt 3 ^](#access_course_element)
+Siehe [Einstieg direkt im Kursbaustein](#access_course_element)
 
 Dort können Sie
 
@@ -202,16 +200,26 @@ Für **Tests** ist zusätzlich ein **Korrekturwerkzeug** verfügbar, in dem die 
 
 `Kurs > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`
 
-![Vier markierte Schritte vom Bewertungswerkzeug über den Kursbaustein und den Tab Teilnehmer:innen zum Button Korrekturwerkzeug](assets/assessing_tests_correction_tool1_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein, Tab Teilnehmer:innen und Button Korrekturwerkzeug über der Liste markiert](assets/assessing_tests_correction_tool1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Bewertungswerkzeug · 2026.10.02" }
+
+Den Button "Korrekturwerkzeug" zeigt OpenOlat, wenn am Kursbaustein die Korrektur "Manuell durch Kursbetreuer:in oder -besitzer:in" eingestellt ist oder wenn der Test Fragen enthält, die manuell korrigiert werden müssen. Bei der Variante "Manuell durch Korrektor:innen" fehlt der Button: Die Korrektur läuft dann über die Korrekturaufträge.
+
+Sind bereits Bewertungen abgeschlossen, öffnet der Button zuerst den Dialog "Abgeschlossene Bewertungen wieder öffnen". Mit "Bewertung wiederöffnen" öffnen Sie die abgeschlossenen Bewertungen für eine erneute Korrektur, mit "Korrektur nur sehen" sehen Sie die Korrektur, ohne etwas zu ändern.
 
 Es kann damit auf 2 Arten korrigiert werden:
 
 1. Eine bestimmte **Frage auswählen** und diese Frage bei allen Teilnehmenden korrigieren.
 2. Einen **Teilnehmenden auswählen** und dann nacheinander alle Fragen dieses Teilnehmenden korrigieren, bevor Sie zum nächsten Teilnehmenden wechseln.
 
-![Umschalter Fragen und Teilnehmer:innen über der Fragenliste mit Fragetyp, beantwortet sowie automatisch und manuell korrigiert, im Korrekturwerkzeug](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
+Den Weg wählen Sie mit dem Umschalter "Fragen" oder "Teilnehmer:innen". Die Fragenliste zeigt je Frage, wie viele Antworten automatisch oder manuell korrigiert sind und wie viele noch zu korrigieren oder zu überprüfen sind. Die Tabs "Zu korrigieren", "Zu überprüfen", "Manuell" und "Angepasst" filtern die Liste. Mit "Als endgültiges Resultat speichern" schliessen Sie die Bewertungen ab.
 
-![Bewertungsformular einer Einzelfrage mit Punkte überschreiben, Kommentarfeld, Bewertungsdokument und Zur Überprüfung markieren, im Korrekturwerkzeug](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
+![Umschalter Fragen und Teilnehmer:innen markiert, darunter die Fragenliste mit offener Korrektur bei der Freitextfrage](assets/assessing_tests_correction_tool_process1_v2_de.png){ class="shadow lightbox" title="Fragenliste im Korrekturwerkzeug · 2026.10.02" }
+
+Im Bewertungsformular der Einzelfrage vergeben Sie die Punkte, schreiben einen Kommentar, laden ein Bewertungsdokument hoch oder setzen "Zur Überprüfung markieren". Bei automatisch bewerteten Fragen ändern Sie die vergebenen Punkte mit "Punkte überschreiben".
+
+![Antwort auf eine Freitextfrage und darunter ihr Bewertungsformular mit Punkten, Kommentar und Zur Überprüfung markieren](assets/assessing_tests_correction_tool_process2_v2_de.png){ class="shadow lightbox" title="Bewertungsformular einer Einzelfrage im Korrekturwerkzeug · 2026.10.02" }
+
+Ob das Korrekturwerkzeug die Namen der Teilnehmenden zeigt oder stattdessen die "Teilnehmendenkennung", legen Administrator:innen in der System-Administration fest: `Administration > e-Assessment > Test > Tab "Korrektur"`. Voreingestellt ist die anonyme Anzeige mit der Teilnehmendenkennung. Mehr dazu: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.de.md#tab_correction)
 
 Es ist möglich, Tests in OpenOlat auch anonym korrigieren zu lassen. Mehr darüber erfahren Sie im How-to [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
 
@@ -248,7 +256,9 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 * Sobald mindestens eine Person ausgewählt ist, erscheinen mehrere Buttons für Sammelaktionen oberhalb der Tabelle.
 * Wählen Sie eine der Aktionen.
 
-![Sammelaktionen Bewertung abschliessen, Freigeben, Freigabe zurückziehen, Korrekturwerkzeug und E-Mail über der Liste, für zwei ausgewählte Teilnehmende](assets/assessing_tests_bulk_actions_v1_de.png){ class="shadow lightbox" }
+Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins und von Ihren Rechten ab. Bei einem Test sind es zum Beispiel "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Teststatistiken", "Resultate exportieren", "Korrekturwerkzeug", "Prüfungseinsicht gewähren", "E-Mail" und "Daten zurücksetzen".
+
+![Sammelaktionen über der Liste markiert, sobald die Checkboxen von zwei Personen gewählt sind](assets/assessing_tests_bulk_actions_v2_de.png){ class="shadow lightbox" title="Sammelaktionen im Tab Teilnehmer:innen des Bewertungswerkzeugs · 2026.10.02" }
 
 [Zum Seitenanfang ^](#assessing_tests)
 
@@ -279,6 +289,7 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
+[e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 

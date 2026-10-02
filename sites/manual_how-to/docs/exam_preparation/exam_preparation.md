@@ -12,7 +12,7 @@
 
     [x] Authors [x] Coaches [ ] Participants
 
-    [x] Beginners [x] Amateurs  [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -93,7 +93,7 @@ For an automatic start and end, a corresponding time window must be set up under
 
 If a manual start/end by coaches is desired, the assessment mode can be started and ended with the "Start" button. You find the button under:<br>
 `Course > Administration > Assessment management > Tab "Configuration assessment mode"`<br>
-As soon as an assessment mode has been activated, an "End" or "Finish exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "End".
+As soon as an assessment mode has been activated, a "Finish" or "Finish exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "End".
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -170,7 +170,7 @@ In the event of network disruptions, the available exam time may have to be exte
 If access to OpenOlat is interrupted for all exam participants, try to see whether other websites are also unreachable. If so, this possibly points to a disruption at the internet provider. In this case, contact your on-site technician for further clarification.
 
 - **Problems in OpenOlat**<br>
-If it is clearly a problem in OpenOlat, you can contact our support (support@openolat.com).<br>
+If it is clearly a problem in OpenOlat, frentix customers contact the frentix support: [support@frentix.com](mailto:support@frentix.com)<br>
 If OpenOlat is hosted by frentix, you are welcome to inform us about your exam in advance in the case of large numbers of participants, so that our technicians can keep a special eye on your OpenOlat instance during the running exam.<br>
 You can retrieve information about the operating status of our web servers at any time at [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
 
@@ -217,8 +217,8 @@ Recommendations:
 
 Procedure:
 
-1. End the exam<br> (In manual mode, by coaches or course owners with the End button in the assessment tool.)
-2. Create a new, correct assessment mode with a manual start/end.<br> Attention: The start button only becomes visible to coaches once the configured time window has been reached. For an immediate restart, enter a start time that is imminent and choose "manual".<br>
+1. End the exam<br> (In manual mode, by coaches or course owners with the "Finish exam" button in the assessment tool.)
+2. Create a new, correct assessment mode with a manual start/end.<br> Attention: The button for starting ("Start" in assessment management, "Start exam" in the assessment tool) only appears on the day the assessment mode begins. For an immediate restart, enter a start time that is imminent and choose the option "Manual" under "Start / End mode".<br>
 
 
 !!! tip "Tip"
@@ -243,9 +243,9 @@ B) the entry in the assessment mode
 <h3>A) Entries in the Test course element</h3>
 
 `Course > Administration > Course editor > "Course element" > Tab "Learning path"`<br>
-Each course element in a learning path course can contain an entry regarding release. A time window can be specified within which the course element can be accessed. The entry "to be completed by" defines by when the course element can be opened. If a course element is open and is being worked on while the deadline expires, the element remains open and can continue to be worked on. There is no automatic ending of access.<br>
+Each course element in a learning path course can contain an entry regarding release. A time window can be specified within which the course element can be accessed. The entry "Due date" defines by when the course element can be opened. If a course element is open and is being worked on while the deadline expires, the element remains open and can continue to be worked on. There is no automatic ending of access.<br>
 `Course > Administration > Course editor > Course element "Test" > Tab "Test configuration"`<br>
-Here you will find a toggle button "Set assessment period". During this test period the test can be started. As soon as the "to" time is reached, the test is automatically ended. This is the case even if the defined test time has not yet been used up.
+Here you will find a toggle button "Set assessment period". During this test period the test can be started. As soon as the "Until" time is reached, the test is automatically ended. This is the case even if the defined test time has not yet been used up.
 
 Changes in the course editor in these tabs during a running exam should be avoided. As a rule, using the assessment mode is recommended. During an active assessment mode, other activities in OpenOlat are blocked. If only a release and access option in the course element is configured, other courses in OpenOlat can still be accessed.
 
@@ -261,8 +261,8 @@ If an assessment mode has already been started, the duration can no longer be ch
 
 In the case of an automatic ending of the assessment mode, the exam time can be extended for participants who have started the test.
 
-- As a coach, select the test course element
-- select the Participants tab
+- As a coach, select the test course element.
+- Select the "Participants" tab.
 - Select all the checkboxes in the first column for the participants who should receive an extension.
 - As soon as at least one checkbox is marked, the "Prolong" button also appears above the list.
 - Once you have clicked "Prolong", you can specify in the pop-up window by how many minutes the test time should be extended.
@@ -274,7 +274,7 @@ For individual persons, you will also find the option to extend the test time un
     Please note that an extension can only be granted to people who have already started the test. (If a test is, for example, already being corrected, the working time can no longer be extended.)
 
 
-As a further legitimate option for extending the test time, the disadvantage compensation could also be used. You will also find this option under the 3 dots at the end of a row.
+As a further legitimate option for extending the test time, you can use the disadvantage compensation. You will also find the option "Add disadvantage compensation" under the 3 dots at the end of a row.
 
 !!! info "Important"
 

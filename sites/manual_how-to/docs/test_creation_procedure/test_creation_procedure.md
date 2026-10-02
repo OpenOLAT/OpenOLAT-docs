@@ -8,7 +8,7 @@
 
 ??? abstract "Target group"
 
-    [x] Beginners [x] Advanced Users [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -296,7 +296,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 19\. In order for learners to work on the test, the status of the course still needs to be changed to "Published".<br>
 In the members management of the course you decide which learners get access.
 
-20\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests.)<br>
+20\. Once test results are available, coaches can make assessments in the assessment tool. (Does not apply to self-tests.)<br>
 Further information can be found in the chapter "[Assessing tests](../../manual_user/learningresources/Assessing_tests.md)".
 
 <br>
@@ -409,7 +409,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 18\. In order for learners to work on the test, the status of the course still has to be changed to "Published".<br>
 In the members management of the course you decide which learners get access.
 
-19\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests.)<br>
+19\. Once test results are available, coaches can make assessments in the assessment tool. (Does not apply to self-tests.)<br>
 Further information can be found in the chapter "[Assessing tests](../../manual_user/learningresources/Assessing_tests.md)".
 
 

@@ -11,7 +11,7 @@
 
     [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
 
-    [ ] Beginners [x] Experienced users  [x] Experts
+    [ ] Beginners [x] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -63,7 +63,7 @@ The general activation and the definition of the automatically executed reminder
 
 These presets apply to the whole system. Group coaches exclude individual groups with "Exclude from the automatic methods", and the status "Active and not deletable" protects individual accounts from deletion.
 
-![Marked area Account expiration with explanatory text and daily run time, below it the Yes/No choice for the notification: page User in the system administration](assets/lifecycle_user_admin_v2_en.png){ class="shadow lightbox" }
+![Marked area Account expiration with explanatory text and daily run time, below it the Yes/No choice for the notification](assets/lifecycle_user_admin_v2_en.png){ class="shadow lightbox" title="Area Account expiration on the page User" }
 
 [To the top of the page ^](#lifecycles)
 
@@ -77,26 +77,26 @@ The group life cycle is managed by group managers, based on the default settings
 
 Under `Groups > Tab "Group management"`, click on the big arrows with the description of the steps. The descriptions on the arrows reflect the administrator's default settings.
 
-* In the first step (1st arrow) you will find all active groups listed.
-* In the "To inactivate" tab of the 1st arrow you will see the groups proposed for inactivation, according to the administrator's rules.
+* In the first step, the arrow "I. Active groups", you will find all active groups listed.
+* In the "To inactivate" tab of this arrow you will see the groups proposed for inactivation, according to the administrator's rules.
 * If you select one or more groups, buttons appear above the list.
 * With the buttons above the list or the link at the end of a list line you can now inactivate specific individual groups or use "Start inactivation" to inform about the upcoming inactivation. You can withdraw a started inactivation with "Cancel inactivation".
 
-![Three arrows for active, inactive and deleted groups with the configured periods, below them the marked tab To inactivate with the buttons for inactivating: tab Group administration](assets/lifecycle_groups_active_v1_en.png){ class="shadow lightbox" }
+![Three arrows for active, inactive and deleted groups with the configured periods, below them the marked tab To inactivate with the buttons for inactivating](assets/lifecycle_groups_active_v1_en.png){ class="shadow lightbox" title="Step Active groups in the tab Group management" }
 
 <br>
 
-* In the second step (2nd arrow) you will find all already **inactive** groups listed.
-* If groups were automatically set to the status "inactive" by the system, it is also possible to reactivate groups here.
+* In the second step, the arrow "II. Inactive groups", you will find all already **inactive** groups listed.
+* If groups were automatically set to the status "Inactive" by the system, it is also possible to reactivate groups here.
 
-![Second arrow Inactive groups active, the list shows Inactivated on and Deletion date, the button Reactivate is on the right: tab Group administration](assets/lifecycle_groups_inactive_v1_en.png){ class="shadow lightbox" }
+![Second arrow Inactive groups active, the list shows Inactivated on and Deletion date, the button Reactivate is on the right](assets/lifecycle_groups_inactive_v1_en.png){ class="shadow lightbox" title="Step Inactive groups in the tab Group management" }
 
 <br>
 
-* In the third step (3rd arrow) you will find all **deleted** groups listed.
+* In the third step, the arrow "III. Deleted groups", you will find all **deleted** groups listed.
 * This list corresponds to the "Trash". The groups can be permanently deleted here, automatically or manually.
 
-![Third arrow Deleted groups active, the list names Deleted on and Date of irrevocable deletion: tab Group administration](assets/lifecycle_groups_deleted_v1_en.png){ class="shadow lightbox" }
+![Third arrow Deleted groups active, the list names Deleted on and Date of irrevocable deletion](assets/lifecycle_groups_deleted_v1_en.png){ class="shadow lightbox" title="Step Deleted groups in the tab Group management" }
 
 [To the top of the page ^](#lifecycles)
 
@@ -109,7 +109,7 @@ The course life cycle can be used by anyone who has access to the authoring area
 
 The basis is the administrator's default settings:
 
-![The three steps Finished, Delete (Trash) and Delete permanently with period and unit, below them the enforced notification of the owners: page Courses in the system administration](assets/lifecycle_course_admin_v1_en.png){ class="shadow lightbox" }
+![The three steps Finished, Delete (Trash) and Delete permanently with period and unit, below them the enforced notification of the owners](assets/lifecycle_course_admin_v1_en.png){ class="shadow lightbox" title="Page Courses in the system administration" }
 
 <br>
 
@@ -117,7 +117,7 @@ The basis is the administrator's default settings:
 * As soon as you have selected a course and marked the checkbox at the beginning of the line, further buttons appear above the list. Here you can restore a course. Administrators and learning resource managers can delete it permanently.
 * Also by clicking on the 3 dots at the end of a line you will get to the options for restoring or permanently deleting.
 
-![Tab Deleted with courses in the status Trash, the buttons Restore and Delete permanently and the same actions in the row menu: authoring area](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" }
+![Tab Deleted with courses in the status Trash, the buttons Restore and Delete permanently and the same actions in the menu with the three dots](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" title="Tab Deleted in the authoring area" }
 
 How administrators configure the periods, check the impacts in the confirmation dialog and follow the running process is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
@@ -132,7 +132,7 @@ The automatic user lifecycle can be used by anyone who has access to the user ad
 
 The basis is the default settings of the administration:
 
-![Marked area Automatic user lifecycle with explanatory text and run time, below it the enabled toggle and the period: page User](assets/lifecycle_user2_admin_v2_en.png){ class="shadow lightbox" }
+![Marked area Automatic user lifecycle with explanatory text and run time, below it the enabled toggle and the period](assets/lifecycle_user2_admin_v2_en.png){ class="shadow lightbox" title="Area Automatic user lifecycle on the page User" }
 
 <br>
 
@@ -232,7 +232,7 @@ It can be configured so that owners are notified of status changes.
 **Mentioned on this page**<br>
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
-[Life cycles: Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
+[Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 **Further reading**<br>

@@ -9,7 +9,7 @@
 
     [x] Authors [x] Coaches  [ ] Participants
 
-    [x] Beginners [x] Advanced  [ ] Experts
+    [x] Beginners [x] Advanced users  [ ] Experts
 
 
 ??? abstract "Expected prior knowledge"
@@ -355,10 +355,10 @@ Also remember that the size of individual files and the total storage of a folde
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Folder concept >](../../manual_user/basic_concepts/Folder_Concept.md)<br>
-[Course element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
-[Course element "Participant Folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
-[Course element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
-[Course element "Grouptask" >](../../manual_user/learningresources/Course_Element_Grouptask.md)<br>
+[Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
+[Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Group Task" >](../../manual_user/learningresources/Course_Element_Grouptask.md)<br>
 [Course Settings - Tab Options >](../../manual_user/learningresources/Course_Settings_Options.md)<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
 [Resource folder >](../../manual_user/learningresources/Resource_Folder.md)<br>

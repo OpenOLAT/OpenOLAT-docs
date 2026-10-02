@@ -8,7 +8,7 @@
 
     [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
 
-    [ ] Beginners [x] Experienced users  [x] Experts
+    [ ] Beginners [x] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
@@ -16,13 +16,13 @@
     * Experience as administrator
 
 
-### A) Limit memory consumption during emergence
+### A) Limit storage consumption at creation
 1) Set up quotas<br>
 2) Set up versioning<br>
 3) Supervise authors<br>
 
 ### B) Delete unneeded files
-4) Delete files finally<br>
+4) Delete files permanently<br>
 5) Find and delete large files<br>
 6) Set up life cycles<br>
 
@@ -54,7 +54,7 @@ A quota of its own can be set, for example, in these places:
 `Course > Administration > Course editor > Course element "Folder" > Tab "Folder configuration" > Button "Open folder" > Menu with the three dots > "Edit quota"`
 * for the storage folder of a course:<br>
 `Course > Administration > Files > Storage folder > Menu with the three dots > "Edit quota"`
-![Entry Edit quota in the menu with the three dots, in the storage folder under Files of the course administration](assets/quota_ablageordner_v2_en.png){ class="shadow lightbox" }
+![Entry Edit quota in the menu with the three dots](assets/quota_ablageordner_v2_en.png){ class="shadow lightbox" title="Storage folder under Files in the course administration" }
 * for all folders of a course with their own quota in a single overview, including the course element "Participant folder". The storage usage evaluation shows how much storage each folder occupies and carries the "Edit quota" action in these rows:<br>
 `Course > Administration > Files > Show memory usage > Action "Edit quota"`
 
@@ -63,15 +63,15 @@ A quota of its own can be set, for example, in these places:
 Administrators, roles managers and user managers set the quotas for the personal files and the Media Center of a specific user in the user management. For this purpose, the "Quota" tab has two rows, "Personal files" and "Media Center", each with the "Edit quota" action:<br>
 `User management > "User name" > Tab "Quota" > Action "Edit quota"`
 
-![Rows Personal files and Media Center with size, quota, upload limit and Edit quota action, the Media Center row highlighted, in the Quota tab of an account in the user management](assets/quota_benutzer_v2_en.png){ class="shadow lightbox" }
+![Rows Personal files and Media Center with size, quota, upload limit and Edit quota action, the Media Center row highlighted](assets/quota_benutzer_v2_en.png){ class="shadow lightbox" title="Quota tab of an account in the user management" }
 
 What the two rows show and when a quota of its own overrides the default value is described in the section [Quota](../../manual_admin/usermanagement/Configure_User.md#quota) in the administration manual.
 
 <br>
 
 The quota for group folders is set in the group administration. It can be set once a group folder has been activated.<br>
-`Groups > Administration > Tab "Tools" > Option "Folder" > Area "Edit quota"`
-![Edit quota area with path, quota and upload limit appears after activating the folder, in the Tools tab of the group administration](assets/quota_gruppenordner_v2_en.png){ class="shadow lightbox" }
+`Group > Administration > Tab "Tools" > Option "Folder" > Area "Edit quota"`
+![Edit quota area with path, quota and upload limit appears after activating the folder](assets/quota_gruppenordner_v2_en.png){ class="shadow lightbox" title="Tools tab of the group administration" }
 
 <br>
 
@@ -117,7 +117,7 @@ Administrators set up versioning in the system administration, under:<br>
 
 <h3> c) How can versioning help save storage space?</h3>
 
-The number of stored versions can be adjusted. For example, if 5 versions are now changed to 2 versions, 3 versions are superfluous per document. However, once saved versions are not deleted directly. If you set the number back to 5 versions, they will become visible again. However, to delete these versions completely, click on **Clean up versions**. Subsequently, the versions can no longer be restored.
+The number of stored versions can be adjusted. For example, if 5 versions are now changed to 2 versions, 3 versions are superfluous per document. However, once saved versions are not deleted directly. If you set the number back to 5 versions, they will become visible again. However, to delete these versions completely, click on **Cleanup limit exceeding versions**. Subsequently, the versions can no longer be restored.
 
 ---
 
@@ -136,35 +136,38 @@ Occasional cleaning up should also be initiated here by a responsible person.
 
 ## Measure 4: Delete files permanently
 
-When files are deleted in OpenOlat, in many cases this means that they are first placed in a "recycle bin". The files can be retrieved from the recycle bin and restored. Only when they are finally deleted (after confirmation) are they no longer available.
+When files are deleted in OpenOlat, in many cases this means that they are first placed in a "trash". The files can be retrieved from the trash and restored. Only when they are permanently deleted (after another confirmation) are they no longer available.
 
-The storage space is still required for files "in the recycle bin". Only the final deletion reduces the required storage space.
+The storage space is still required for files "in the trash". Only the permanent deletion reduces the required storage space.
 
 <br>
 
 <h3> Delete courses/learning resources</h3>
 
-If courses or learning resources are deleted in the authoring area, they no longer appear under "My entries" but in the "Deleted" tab. (This corresponds to the recycle bin and the step before final deletion).
+If courses or learning resources are deleted in the authoring area, they no longer appear under "My entries" but in the "Deleted" tab. (This corresponds to the trash and the step before permanent deletion.)
 They are now only visible there to their respective owners and can only be restored by them.
-The final deletion can also be done in this tab by selecting it and clicking on the **"Delete permanently"** button.
+The permanent deletion can also be done in this tab by selecting it and clicking on the **button "Delete permanently"**.
 
-![Delete permanently button for a selected course in the Deleted tab of the authoring area](assets/course_deleted_v1_en.png){ class="shadow lightbox" }
+![Delete permanently button for a selected course](assets/course_deleted_v1_en.png){ class="shadow lightbox" title="Deleted tab in the authoring area" }
 
 <br>
 
-<h3> Final delete by administrators</h3>
+<h3> Permanent deletion by administrators</h3>
 
-Administrators can perform the final deletion in specific paths. This means that the "Recycle Bin" does not have to be permanently deleted at once. You find the files in the system administration under:<br>
-`Administration > Core functions > Files and folders > Tab "Trash" > Select a line > Option "Delete" at the end of the line`<br>
-A click on "Delete" at the end of the line means here the final deletion of the files marked for deletion (files in the "Recycle Bin").
+Administrators can permanently delete individual files in the trash. This means that the whole "trash" does not have to be emptied at once. You find the files in the system administration under:<br>
+`Administration > Core functions > Files and folders > Tab "Trash"`<br>
+For a single file, click "Delete" at the end of the row. For several files, select the rows and click the button "Delete permanently". Both actions delete the files permanently.
 
-![Deleted files with size, deletion date and Delete action per row, in the Trash tab under Files and folders of the system administration](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" }
+![Deleted files with size, deletion date and Delete action per row, above them the Delete permanently button for the selected rows](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" title="Trash tab under Files and folders" }
+
+So that the trash does not fill up unnoticed, OpenOlat automatically deletes files permanently from the trash after a set number of days. Administrators set this period in the field "Delete from trash after x days", under:<br>
+`Administration > Core functions > Files and folders > Tab "Configuration"`
 
 <br>
 
 <h3> Delete in the personal files</h3>
 
-Every person is responsible for the final deletion of files in the "Personal files" in the File Hub. A confirmation prompt will appear. The files will then be deleted permanently. 
+Every person is responsible for the final deletion of files in the "Personal files" in the File Hub. A confirmation prompt will appear. The files will then be deleted permanently.
 
 ---
 
@@ -177,7 +180,7 @@ Administrators can search specifically for large files in the system administrat
 
 This overview is very helpful and helps when cleaning up or deciding which files should be deleted.
 
-![Search form by age, versions, downloads and minimum size, below it the largest files with context, in the Large files tab under Files and folders of the system administration](assets/grosse_dateien_v2_en.png){ class="shadow lightbox" }
+![Search form by age, versions, downloads and minimum size, below it the largest files with context](assets/grosse_dateien_v2_en.png){ class="shadow lightbox" title="Large files tab under Files and folders" }
 
 ---
 
@@ -204,8 +207,8 @@ Detailed information on the life cycles can be found at<br>
 - [x] Set up quotas?
 - [x] Set up versioning?
 - [x] Authors made aware of quota?
-- [x] Searched for large files and deleted those no longer needed in consultation with the owners? 
-- [x] Asked all users to clean up their personal files? 
+- [x] Searched for large files and deleted those no longer needed in consultation with the owners?
+- [x] Asked all users to clean up their personal files?
 - [x] Set up life cycles?
 
 ---
