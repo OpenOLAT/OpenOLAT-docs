@@ -8,7 +8,7 @@ Innerhalb eines Kurses archivieren Sie die Logfiles im Werkzeug [Archivierung & 
 Zur Auswahl stehen:
 
 * Admin-Logfile mit personalisierten Daten der Kursautor:innen
-* Statistik-Logfile mit den anonymisierten Daten der Teilnehmenden
+* Statistik-Logfile mit pseudonymisierten Daten der Teilnehmenden
 * Teilnehmer:innen-Logfile mit detaillierten, personalisierten Daten der Teilnehmenden
 
 Logfiles archivieren können Besitzer:innen des Kurses sowie Lernressourcenverwalter:innen und Administrator:innen der Organisation, zu welcher der Kurs gehört. Besitzer:innen und Lernressourcenverwalter:innen wählen zwischen Admin-Logfile und Statistik-Logfile. Das Kursrecht "Datenarchivierung" öffnet das Werkzeug Archivierung & Reports, nicht aber die Logfiles. Wer nur über dieses Kursrecht verfügt, sieht unter Logfiles die Meldung "Sie sind nicht berechtigt, diese Logfiles zu archivieren."
@@ -23,8 +23,7 @@ Mit den Feldern "von" und "bis" begrenzen Sie die Logfiles auf einen Zeitraum, b
 
 OpenOlat legt die gewählten Logfiles als ZIP-Datei (z.B. _CourseLogFiles_2010-01-28_14-55-55.zip_) in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) im Ordner `private/archive/"Kurstitel"` ab. Die ZIP-Datei enthält dann die ausgewählten Dateien _course_statistic_log.xlsx_, _course_admin_log.xlsx_ und _course_user_log.xlsx_.
 
-Beachten Sie, dass in der Datei course_statistic_log.xlsx die Teilnehmenden folgendermassen anonymisiert sind:<br>
-Jede:r Teilnehmer:in erhält eine anonyme Kennung aus 32 Zeichen (z.B. `e1c7eafdebc3c103fb8959e186326363`), die innerhalb eines Kurses gleich bleibt. Sie können so die Aktivitäten von Teilnehmer:in X im Kurs Y verfolgen, jedoch keine Vergleiche mit den Aktivitäten im Kurs Z machen, da Teilnehmer:in X im Kurs Z eine andere Kennung erhält.
+In der Datei _course_statistic_log.xlsx_ erhält jede:r Teilnehmer:in statt des Namens eine Kennung aus 32 Zeichen (z.B. `e1c7eafdebc3c103fb8959e186326363`), die innerhalb eines Kurses gleich bleibt. Sie können so die Aktivitäten von Teilnehmer:in X im Kurs Y verfolgen, jedoch keine Vergleiche mit den Aktivitäten im Kurs Z machen, da Teilnehmer:in X im Kurs Z eine andere Kennung erhält. Die Kennung ist ein Pseudonym: Zusammen mit anderen Angaben, etwa dem Zeitpunkt eines Forumsbeitrags, lässt sie sich einer Person zuordnen. Behandeln Sie die Datei deshalb wie personenbezogene Daten.
 
 Mögliche Einträge in den Logfile-Spalten **actionCrudType** (Datenbankoperation), **actionVerb** (Aktion) und **actionObject** (bearbeitetes Kursobjekt) (alphabetisch zusammengefasst):
 

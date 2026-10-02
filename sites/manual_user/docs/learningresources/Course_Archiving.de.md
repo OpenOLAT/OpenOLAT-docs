@@ -130,7 +130,7 @@ Es werden alle [Themenvergaben](../learningresources/Course_Element_Topic_Assign
 
 ### Logfiles
 
-Hier können die personalisierten Logfiles der Kursbesitzer:innen sowie die anonymisierten Logfiles der Teilnehmenden für einen gewählten Zeitraum gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch nehmen. Anschliessend findet man die Logfiles im persönlichen, privaten OpenOlat Ordner als ZIP-Datei mit Excel-Tabelle.
+Hier können die personalisierten Logfiles der Kursbesitzer:innen sowie die pseudonymisierten Logfiles der Teilnehmenden für einen gewählten Zeitraum gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch nehmen. Anschliessend findet man die Logfiles im persönlichen, privaten OpenOlat Ordner als ZIP-Datei mit Excel-Tabelle.
 
 ### Foren
 

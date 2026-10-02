@@ -133,7 +133,7 @@ All [topics assigned](../learningresources/Course_Element_Topic_Assignment.md) t
 
 ### Log files
 
-The personalized log files of course owners and the anonymized log files of course participants can be saved here for a selected period of time. Depending on the scope, the creation may take some time. You will then find the log files in your personal, private OpenOlat folder as a ZIP file with an Excel table.
+The personalized log files of course owners and the pseudonymized log files of course participants can be saved here for a selected period of time. Depending on the scope, the creation may take some time. You will then find the log files in your personal, private OpenOlat folder as a ZIP file with an Excel table.
 
 ### Forums
 
