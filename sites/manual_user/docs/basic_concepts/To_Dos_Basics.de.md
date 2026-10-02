@@ -2,7 +2,7 @@
 
 Ein To-do ist eine Aufgabe mit einer verantwortlichen Person und einem Termin. OpenOlat führt To-dos in mehreren Modulen, überall mit denselben Feldern, demselben Statusmodell und derselben Benachrichtigung. Diese Seite beschreibt, was für alle To-dos gilt. Wie Sie in einem Modul damit arbeiten, steht auf der Seite des Moduls.
 
-![Die persönliche To-do-Liste mit Statuskreisen, den Spalten Kontext Typ und Kontext und einem aufgeklappten Detailbereich mit den Aktionen Starten, Als erledigt markieren und Bearbeiten](assets/to_do_basics_personal_list_v1_de.png){ class="shadow lightbox" }
+![Statuskreise, die Spalten Kontext Typ und Kontext und ein aufgeklappter Detailbereich mit den Aktionen Starten, Als erledigt markieren und Bearbeiten](assets/to_do_basics_personal_list_v1_de.png){ class="shadow lightbox" title="Persönliche To-do-Liste" }
 
 
 ## Wo gibt es To-dos?
@@ -26,7 +26,7 @@ Alle Module verwenden dieselbe Karteikarte. Drei Angaben gibt es nur in einem Mo
 | Feld | Bedeutung | Verfügbar |
 |---|---|---|
 | Titel | Bezeichnet die Aufgabe. Vergeben Sie einen selbsterklärenden Titel | überall, Pflichtfeld |
-| Zugewiesen | Die Person, die für die Erledigung verantwortlich ist | überall, Pflichtfeld |
+| Zugewiesen | Die Person, die für die Erledigung verantwortlich ist | überall, Pflichtfeld ausser im Course Planner |
 | Delegiert | Die Ausführung kann an andere Personen delegiert werden, auch phasenweise an wechselnde. Die Verantwortung bleibt bei der zugewiesenen Person | überall |
 | Status | Der Bearbeitungsstand der Aufgabe | überall |
 | Priorität | Dringend, Hoch, Mittel oder Tief | überall |
@@ -65,7 +65,7 @@ Das Bild am Seitenanfang zeigt die Statuskreise und den aufgeklappten Detailbere
 
 ## Wer ein To-do bearbeiten darf
 
-Bearbeitungsrechte haben die Person, die das To-do erstellt hat, die zugewiesene und die delegierte Person. Welche Rollen darüber hinaus bearbeiten dürfen, legt das Modul fest: im [Course Planner](../area_modules/Course_Planner_Todos.de.md#todo_permissions) sind es Kursplaner:innen und Elementbesitzer:innen, im [Projekt](../area_modules/Project_Todos.de.md) die Projektleitung.
+Bearbeitungsrechte haben die Person, die das To-do erstellt hat, die zugewiesene und die delegierte Person. Welche Rollen darüber hinaus bearbeiten dürfen, legt das Modul fest: im [Projekt](../area_modules/Project_Todos.de.md) die Projektleitung. Im [Course Planner](../area_modules/Course_Planner_Todos.de.md#todo_permissions) bearbeiten Administrator:innen, Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen die To-dos; zugewiesene und delegierte Personen ändern dort nur den Status.
 
 To-dos lassen sich nur dort löschen, wo sie erstellt wurden.
 

@@ -2,7 +2,7 @@
 
 A to-do is a task with a responsible person and a date. OpenOlat provides to-dos in several modules, everywhere with the same fields, the same status model and the same notification. This page describes what applies to all to-dos. How you work with them in a module is described on that module's page.
 
-![The personal to-do list with status circles, the Context type and Context columns and an expanded detail area with the Start, Mark as done and Edit actions](assets/to_do_basics_personal_list_v1_en.png){ class="shadow lightbox" }
+![Status circles, the Context type and Context columns and an expanded detail area with the Start, Mark as done and Edit actions](assets/to_do_basics_personal_list_v1_en.png){ class="shadow lightbox" title="Personal to-do list" }
 
 
 ## Where are to-dos available?
@@ -26,7 +26,7 @@ All modules use the same card. Three entries exist in one module only.
 | Field | Meaning | Available |
 |---|---|---|
 | Title | Names the task. Choose a self-explanatory title | everywhere, mandatory field |
-| Assigned | The person responsible for completing the task | everywhere, mandatory field |
+| Assigned | The person responsible for completing the task | everywhere, mandatory field except in the Course Planner |
 | Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere |
 | Status | The processing state of the task | everywhere |
 | Priority | Urgent, High, Medium or Low | everywhere |
@@ -65,7 +65,7 @@ The image at the top of the page shows the status circles and the expanded detai
 
 ## Who may edit a to-do
 
-Editing permissions are held by the person who created the to-do, by the assigned and by the delegated person. Which roles may edit in addition is determined by the module: in the [Course Planner](../area_modules/Course_Planner_Todos.md#todo_permissions) these are course planners and element owners, in the [project](../area_modules/Project_Todos.md) the project management.
+Editing permissions are held by the person who created the to-do, by the assigned and by the delegated person. Which roles may edit in addition is determined by the module: in the [project](../area_modules/Project_Todos.md) the project management. In the [Course Planner](../area_modules/Course_Planner_Todos.md#todo_permissions), administrators, course planners, product owners and element owners edit the to-dos; assigned and delegated persons only change the status there.
 
 To-dos can only be deleted where they were created.
 
