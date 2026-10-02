@@ -5,7 +5,9 @@ You can make the configurations that affect the course as a whole under:<br>
 
 The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Member management](../learningresources/Members_management.md).
 
-![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v2_en.png){ class="shadow lightbox" }
+![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v3_en.png){ class="shadow lightbox" title="Administration menu in the course · 2026.10.02" }
+
+:octicons-device-camera-video-24: **Video introduction (German)**: [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
 !!! info "Important"
 
@@ -13,7 +15,7 @@ The "Settings" menu is available to owners of the course, learning resource mana
 
     The settings of conventional and [learning path courses](../learningresources/Learning_path_course.md) vary slightly.
 
-    You can use the "Info", "Metadata", "Execution" and "Share" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
+    You can use the "Metadata", "Info", "Execution" and "Share" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
 
 ## Profile
 
@@ -22,9 +24,32 @@ Name | Course settings
 Available since | Release 13.0 (OO-3706)
 
 
+## Tab Metadata {: #metadata}
+
+![Tab "Metadata" active, first in the tab bar](assets/course_settings_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.02" }
+
+Metadata contains keywords that describe the course. The metadata can be used to make your course easier to find, for example. They are optional and do not have to be filled in.
+
+Metadata of a course are
+
+* Type of the learning resource (in this case: course)
+* ID of the course
+* Creator of the course
+* Author/name of the teachers of the course
+* Subject areas (from the taxonomy)
+* Implementation format (blended learning, self-study, ...)
+* Main language
+* Estimated time required for processing
+* License
+
+[For more details >](../learningresources/Course_Settings_Metadata.md)<br>
+[More about **Meta data** >](../basic_concepts/Full_Text_Search.md#metadata)<br>
+[To the top of the page ^](#course_settings)
+
+
 ## Tab Info {: #info}
 
-![Tab "Info" active in the course settings](assets/course_settings_tab_info_v1_de.png){ class="shadow lightbox" }
+![Tab "Info" active, second in the tab bar](assets/course_settings_tab_info_v1_en.png){ class="shadow lightbox" title="Info tab in the course settings · 2026.10.02" }
 
 Here you define information about the course or learning resource. This includes:
 
@@ -46,32 +71,9 @@ The learning resource appears under the title defined here in the alphabetical c
 [To the top of the page ^](#course_settings)
 
 
-## Tab Metadata {: #metadata}
-
-![Tab "Metadata" active in the course settings](assets/course_settings_tab_metadata_v1_de.png){ class="shadow lightbox" }
-
-Metadata contains keywords that describe the course. The metadata can be used to make your course easier to find, for example. They are optional and do not have to be filled in.
-
-Metadata of a course are
-
-* Type of the learning resource (in this case: course)
-* ID of the course
-* Creator of the course
-* Author/name of the teachers of the course
-* Subject areas (from the taxonomy)
-* Implementation format (blended learning, self-study, ...)
-* Main language
-* Estimated time required for processing
-* License
-
-[For more details >](../learningresources/Course_Settings_Metadata.md)<br>
-[More about **Meta data** >](../basic_concepts/Full_Text_Search.md#metadata)<br>
-[To the top of the page ^](#course_settings)
-
-
 ## Tab Execution {: #execution}
 
-![Tab "Execution" active in the course settings](assets/course_settings_tab_execution_v1_de.png){ class="shadow lightbox" }
+![Tab "Execution" active, third in the tab bar](assets/course_settings_tab_execution_v1_en.png){ class="shadow lightbox" title="Execution tab in the course settings · 2026.10.02" }
 
 
 Here you can
@@ -87,7 +89,7 @@ Here you can
 
 ## Tab Share {: #share}
 
-![Tab "Share" active in the course settings](assets/course_settings_tab_share_v1_de.png){ class="shadow lightbox" }
+![Tab "Share" active, fourth in the tab bar](assets/course_settings_tab_share_v1_en.png){ class="shadow lightbox" title="Share tab in the course settings · 2026.10.02" }
 
 In the "Share" tab, you define how and for whom a course or learning resource is released.
 
@@ -106,7 +108,7 @@ In the "Share" tab, you define how and for whom a course or learning resource is
 
 ## Tab Catalog (only applies to catalog version 1) {: #catalog}
 
-![Tab "Catalog" active in the course settings](assets/course_settings_tab_catalog_v1_de.png){ class="shadow lightbox" }
+![Tab "Catalog" active, between "Share" and "Disclaimer"](assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
 
 The "Add to catalog" button can be used to enter the learning resource in the catalog and assign it to one or more predefined categories. To enter the course or learning resource in several catalog areas, the step must be repeated. All catalog entries then appear here in the "Catalog" tab and can also be removed here.
 
@@ -120,7 +122,7 @@ Only enter your courses in the catalog once they have been completed and should 
 
 ## Tab Disclaimer {: #disclaimer}
 
-![Tab "Disclaimer" active in the course settings](assets/course_settings_tab_disclaimer_v1_de.png){ class="shadow lightbox" }
+![Tab "Disclaimer" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v1_en.png){ class="shadow lightbox" title="Disclaimer tab in the course settings · 2026.10.02" }
 
 Here
 
@@ -131,14 +133,14 @@ can be activated and stored. If a person starts the course, they must first acce
 
 In the [Member management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
 
-![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels, in the Disclaimer tab](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" }
+![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" title="Form Course related terms of use" }
 
 [To the top of the page ^](#course_settings)
 
 
 ## Tab Layout {: #layout}
 
-![Tab "Layout" active in the course settings](assets/course_settings_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Tab "Layout" active, sixth in the tab bar](assets/course_settings_tab_layout_v1_en.png){ class="shadow lightbox" title="Layout tab in the course settings · 2026.10.02" }
 
 In the Layout tab you determine how the course looks and how participants move through it. Here you can
 
@@ -150,8 +152,8 @@ Which **layout templates** are available is determined by the system layout (the
 
 In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
 
-![Course menu with path and icons: status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons_v1_en.png){ class="shadow lightbox" }
-![Course menu without path and icons: only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" }
+![Status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons_v1_en.png){ class="shadow lightbox" title="Course menu with path and icons" }
+![Only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" title="Course menu without path and icons" }
 
 In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
@@ -160,7 +162,7 @@ In the section "**Course element default style**" you can define the default pre
 
 ## Tab Toolbar {: #toolbar}
 
-![Tab "Toolbar" active in the course settings](assets/course_settings_tab_toolbar_v1_de.png){ class="shadow lightbox" }
+![Tab "Toolbar" active, seventh in the tab bar](assets/course_settings_tab_toolbar_v1_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.10.02" }
 
 Here you can switch the toolbar in the course header on or off and define which specific individual tools are displayed to course participants in the toolbar.
 
@@ -170,7 +172,7 @@ Here you can switch the toolbar in the course header on or off and define which 
 
 ## Tab Assessment {: #assessment}
 
-![Tab "Assessment" active in the course settings](assets/course_settings_tab_assessment_v1_de.png){ class="shadow lightbox" }
+![Tab "Assessment" active, eighth in the tab bar](assets/course_settings_tab_assessment_v1_en.png){ class="shadow lightbox" title="Assessment tab in the course settings · 2026.10.02" }
 
 In the Assessment tab, you can make settings for
 
@@ -196,7 +198,7 @@ In the Assessment tab, you can make settings for
 
 ## Tab Options {: #options}
 
-![Tab "Options" active in the course settings](assets/course_settings_tab_options_v1_de.png){ class="shadow lightbox" }
+![Tab "Options" active, last in the tab bar](assets/course_settings_tab_options_v1_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.10.02" }
 
 Here you activate as required
 
