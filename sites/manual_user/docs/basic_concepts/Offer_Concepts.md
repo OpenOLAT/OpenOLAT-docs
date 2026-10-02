@@ -171,9 +171,11 @@ Users can book these implementations by logging in from the catalog (if they are
 
 If an offer has been made in the catalog from within the Course Planner that can be booked **with an invoice**, interested parties are guided through the registration process to enter their billing address, etc. A booking number is also generated. (This is only possible with the Course Planner.)
 
-The booking order can then be confirmed.
+The booking order is only created when the person completes the booking, and can then be confirmed.
 
 If an implementation needs further details at booking, for example dietary requirements or prior knowledge, an offer of the implementation can require forms. The booking person fills them in as steps when booking, and the answers are then available with the booking order. This is only possible for offers of implementations in the Course Planner, not for course offers and not for the offer type PayPal Checkout. [Booking order forms >](../area_modules/Course_Planner_Implementations.md#booking_order_forms) [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
+With forms, the booking becomes a wizard, and the booking order is only created in the last step. [Booking with forms as a wizard >](../area_modules/catalog2.0_angebote.md#offer_booking_wizard) [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
 Offers for implementations are created in the Course Planner under:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`

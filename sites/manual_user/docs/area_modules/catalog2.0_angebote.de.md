@@ -106,6 +106,45 @@ Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
 ---
 
 
+## Wie läuft die Buchung eines Angebots ab? {: #offer_booking}
+
+Mit einer Buchung erhalten Sie Zugang zu einem Kurs oder einer Durchführung aus dem Katalog. Sie buchen auf der Infoseite: Beim gewünschten Angebot wählen Sie **Buchen**. Was danach geschieht, hängt von der Angebotsart ab und davon, ob das Angebot Formulare verwendet.
+
+Verwendet das Angebot kein Formular, bucht der Klick auf **Buchen** bei "Frei verfügbar" sofort. Bei "Zugangscode" öffnet sich der Dialog "Zugangscode", bei "Rechnung" der Dialog "Buchung auf Rechnung" mit dem Button **Kostenpflichtig buchen**. Angebote einzelner Kurse verwenden nie Formulare: Mit Zugangscode oder frei verfügbar buchen Sie diese immer auf diesem Weg. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen.
+
+### Buchung mit Formularen als Assistent [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"} {: #offer_booking_wizard}
+
+Verwendet das Angebot einer Durchführung mindestens ein Formular, führt OpenOlat Sie durch einen Assistenten. So geben Sie die Angaben, welche die Verantwortlichen für die Planung brauchen, etwa Essenswünsche oder Vorkenntnisse, gleich mit der Buchung ab. Ihre Antworten stehen danach bei Ihrem Buchungsauftrag.
+
+Der Titel des Assistenten nennt die Angebotsart und die Durchführung: "Buchung frei verfügbar für", "Buchung mit Zugangscode für" oder "Buchung auf Rechnung für", gefolgt vom Titel der Durchführung und, falls gesetzt, ihrem Kennzeichen.
+
+Welche Schritte der Assistent zeigt, hängt von der Angebotsart ab:
+
+| Angebotsart | Schritte |
+|---|---|
+| Frei verfügbar | die Formulare |
+| Zugangscode | zuerst der Schritt "Zugangscode", danach die Formulare |
+| Rechnung | zuerst der Schritt "Buchungsdetails", danach die Formulare |
+
+Im Schritt "Zugangscode" geben Sie den Zugangscode ein, den Sie erhalten haben. Im Schritt "Buchungsdetails" wählen Sie über **Rechnungsadresse auswählen** die Rechnungsadresse, sie ist Pflicht. Die "Bestellnummer (PO-Nummer)" und der "Kommentar" sind freiwillig. Hat das Angebot einen Preis oder eine Stornierungsgebühr, zeigt der Schritt diese Angaben an.
+
+Jedes Formular ist ein eigener Schritt, beschriftet mit seinem Schrittnamen. Die Reihenfolge der Formulare legt das Angebot fest.
+
+- **Weiter** prüft die Pflichtfelder des angezeigten Schritts und führt zum nächsten Schritt.
+- **Zurück** führt ohne Prüfung zum vorherigen Schritt. Ihre Eingaben bleiben erhalten.
+- Im letzten Schritt schliesst der hervorgehobene Button die Buchung ab: **Buchen** bei "Frei verfügbar" und "Zugangscode", **Kostenpflichtig buchen** bei "Rechnung".
+
+Der Buchungsauftrag entsteht erst mit diesem letzten Klick. Brechen Sie den Assistenten vorher mit **Abbrechen** oder dem Schliessen-Symbol ab, sind Sie nicht gebucht, und OpenOlat speichert keine Antworten.
+
+Bucht eine andere Person für Sie, etwa mit [Buchen im Namen von](Coaching_People.de.md#linemanager_educationmanager_book_participants) im Coaching oder beim [Hinzufügen von Teilnehmer:innen](Course_Planner_Implementations.de.md#add_members) im Course Planner, füllt diese Person die Formulare aus. Die Antworten gehören zu Ihrem Buchungsauftrag. Ihre ausgefüllten Formulare sehen Sie unter [Buchungsaufträge](../personal_menu/Bookings.de.md) im Dialog "Buchung" des Buchungsauftrags.
+
+Formulare an Angeboten gibt es nur bei Durchführungen im Course Planner, nicht bei Angeboten einzelner Kurse und nicht bei der Angebotsart PayPal Checkout. Wie Sie ein Formular in einem Angebot verwenden, beschreibt [Formular im Angebot verwenden](Course_Planner_Implementations.de.md#booking_order_forms_offer).
+
+[Zum Seitenanfang ^](#offers)
+
+---
+
+
 ## Infoseite {: #offer_info}
 
 Wer im Katalog auf eine Kachel klickt, bekommt eine nähere Beschreibung zum angebotenen Kurs bzw. der Lernressource, ohne dass der Kurs bereits gestartet wird. Auch wenn für den Kursstart evtl. eine Zugangsberechtigung eingerichtet wurde, ist diese Infoseite im Katalog einsehbar. Sie enthält Angaben, die die Autor:innen unter den Metadaten gemacht haben:<br>
@@ -159,6 +198,8 @@ Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Mi
 
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Benutzerverwaltung (Administrationshandbuch) >](../../manual_admin/usermanagement/index.de.md)<br>
+[Coaching - Personen >](Coaching_People.de.md)<br>
+[Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
 [Katalog 1.0 >](catalog1.0.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)

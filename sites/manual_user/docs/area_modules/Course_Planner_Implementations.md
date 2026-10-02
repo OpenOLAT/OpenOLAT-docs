@@ -242,7 +242,7 @@ To add participants to an implementation as members, use:<br>
 
 ![The Add participants button at the top right of the member list, which starts the wizard for adding members](assets/course_planner_implementations_add_member_v1_en.png){ class="shadow lightbox" title="Members tab of an implementation" }
 
-If the implementation has offers, you choose the offer through which the participants are added in the **Booking order** step of the wizard. If this offer requires forms, a separate step follows for each form, labelled with its step name. The option **Without booking order** only appears if the implementation is set to [Allowed without booking order](#tab_catalog_settings) in the Catalog tab.
+If the implementation has offers, you choose the offer through which the participants are added in the **Booking order** step of the wizard. If this offer uses forms, a separate step follows for each form, labelled with its step name. These steps are located between the steps **Booking order** and **Membership**. You fill in the forms once, and OpenOlat saves the answers for each selected person with their own booking order. The option **Without booking order** only appears if the implementation is set to [Allowed without booking order](#tab_catalog_settings) in the Catalog tab. With this option, no booking order is created, and no steps for forms follow.
 
 <br>
 
@@ -344,7 +344,7 @@ If persons have already booked the offer, OpenOlat creates one form with the sta
 
 ##### Forms when booking [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"} {: #booking_order_forms_booking}
 
-When a person books an offer that uses forms, OpenOlat guides them through a wizard. Each form is a separate step, labelled with the step name and in the order of the position. This applies to the offer types Freely available, Access code and Invoice. The booking is only completed once all forms have been filled in; the answers are then stored with the booking order with the status "Completed". The forms of the chosen offer also appear as steps when [adding participants](#add_members) in the Members tab.
+When a person books an offer that uses forms, OpenOlat guides them through a wizard. Each form is a separate step, labelled with the step name and in the order of the position. This applies to the offer types Freely available, Access code and Invoice. The booking is only completed once all forms have been filled in; the answers are then stored with the booking order with the status "Completed". The forms of the chosen offer also appear as steps when [adding participants](#add_members) in the Members tab. How the booking person goes through the wizard is described in [Booking with forms as a wizard](catalog2.0_angebote.md#offer_booking_wizard).
 
 ##### View and export answers {: #booking_order_forms_answers}
 

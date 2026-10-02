@@ -1,10 +1,10 @@
 # Coaching - People {: #people}
 
 
-![Marked button People in the Coaching group leads to the list of all people you coach, on the Coaching entry page.](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
+![Marked button People in the Coaching group leads to the list of all people you coach.](assets/coaching_people1_v1_de.png){ class="shadow lightbox" title="Coaching entry page" }
 
 
-![Focus buttons As coach, As course owner, Line manager and Education manager above the people list with Status, Username, Courses, Last visit, Progress, Success status and Certificates.](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
+![Focus buttons As coach, As course owner, Line manager and Education manager above the people list with courses, visits, progress and success status.](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
 
 
 ## WHOM does the list show? [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
@@ -76,7 +76,7 @@ To send an e-mail to **a specific person**, simply click on the 3 dots at the en
 
 To write an e-mail to **several people**, select the relevant people in the first column. A "Contact" button then appears above the list.
 
-![Contact button above the list after selecting two people and the entry Contact in the row menu, in the people list of Coaching.](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" }
+![Contact button above the list after selecting two people and the entry Contact in the row menu.](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
 
 [To the top of the page ^](#people)
 
@@ -96,7 +96,7 @@ In this role, you find the events and absences of the people you coach in the to
 
 If you are responsible for a person as line manager, as education manager or in an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), the detail view arranges all information about the person by topic in tabs. This way you find the learning progress, events and bookings of the person without switching to the individual courses. Each tab only appears if administrators have granted your role the corresponding right; the rights are shown in the section [Observational tasks](#linemanager_educationmanager_observe). The tabs are located below the details of the person in the following order.
 
-![The tabs from Courses to Account are arranged in a bar below the details of the person, in the detail view of a person in Coaching.](assets/coaching_people_detail_tabs_v1_en.png){ class="shadow lightbox" }
+![The tabs from Courses to Account are arranged in a bar below the details of the person.](assets/coaching_people_detail_tabs_v1_en.png){ class="shadow lightbox" title="Detail view of a person in Coaching" }
 
 #### Courses {: #tab_courses}
 
@@ -108,7 +108,7 @@ Here you see when the person attends a course. The first list shows the planned 
 
 The prerequisites are the activated [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and the right "View events and absence". As a line manager or education manager, you moreover only see courses that are assigned to an organisation unit in which you hold this role. The right alone is therefore not sufficient. This is the most frequent cause of an empty list although the right is set.
 
-![Individual events of a course with Date, From and To, after clicking on the course in the tab Events & Absences of the detail view of a person.](assets/coaching_people_lectures_detail_v1_en.png){ class="shadow lightbox" }
+![Individual events of a course with Date, From and To, after clicking on the course.](assets/coaching_people_lectures_detail_v1_en.png){ class="shadow lightbox" title="Tab Events & Absences of a person" }
 
 !!! tip "Why is a course missing under Events & Absences?"
 
@@ -178,7 +178,7 @@ Here you see when the account of the person was created and when they last logge
 
 Line managers and education managers find an additional button under People in the Coaching Tool, under which they find all people they are responsible for in their role.
 
-![Marked focus buttons Line manager and Education manager next to As coach and As course owner, above the people list in Coaching.](assets/coaching_people_line_manager1_v1_de.png){ class="shadow lightbox" }
+![Marked focus buttons Line manager and Education manager next to As coach and As course owner.](assets/coaching_people_line_manager1_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
 
 ### Extended people view [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9168)" }](https://track.frentix.com/issue/OO-9168){:target="_blank"} {: #linemanager_educationmanager_extended_view}
 
@@ -219,15 +219,22 @@ Whether this button is available is defined in the system administration:<br>
 
 An account created by line managers or education managers automatically contains an assignment of the newly registered person to the organisation unit of the line manager or education manager.
 
-![Marked button Create account at the top right, focus Line manager with the filter tabs All, Relevant, Without courses and To be confirmed, in the people list of Coaching.](assets/coaching_people_line_manager2_v1_de.png){ class="shadow lightbox" }
+![Marked button Create account at the top right, focus Line manager with the filter tabs All, Relevant, Without courses and To be confirmed.](assets/coaching_people_line_manager2_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
 
 ---
 
 ### Book participants on behalf of someone {: #linemanager_educationmanager_book_participants}
 
-If you, as a line manager or education manager, want to book a person already registered in OpenOlat into a course or an implementation, select the person in the Coaching Tool and click the **"Book on behalf of" button**. There you can then select the course in which the person should participate.
+If you, as a line manager or education manager, want to book a person already registered in OpenOlat into an implementation, select the person in the Coaching Tool and click the **"Book on behalf of" button**. There you select the implementation in which the person should participate. Only implementations are available for selection, no courses or other learning resources. Offers with PayPal or PayPal Checkout do not appear there.
 
-![Marked button Book on behalf of at the right above the tabs, above it the notice of a pending membership, in the detail view of a person in Coaching.](assets/coaching_people_line_manager3_v1_de.png){ class="shadow lightbox" }
+Whether this button is available is defined in the system administration:<br>
+`Administration > Modules > Organisations > Tab Organisations structures > "Organisation unit (top level)" > Tab Line manager or Education manager > Option "Create booking on behalf of"`
+
+People with an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations) also see the button if the same right is assigned to the role.
+
+If the offer uses forms, OpenOlat guides you through the [booking wizard](catalog2.0_angebote.md#offer_booking_wizard). You fill in the forms on behalf of the person. The answers belong to the booking order of the booked person, not to yours. [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
+
+![Marked button Book on behalf of at the right above the tabs, above it the notice of a pending membership.](assets/coaching_people_line_manager3_v1_de.png){ class="shadow lightbox" title="Detail view of a person in Coaching" }
 
 
 **Example 1:**<br>
@@ -249,7 +256,7 @@ At the top right of the detail view, you will find the two **buttons "Accept" an
 
 Alternatively and more simply, you can also use the **link within the notification**. If the invoice module is active, the button "Pending confirmations" on the Coaching overview additionally leads to a list of all open memberships; its search field knows the asterisk `*` as a wildcard.
 
-![Buttons Accept and Reject for a pending membership, reached via the link Go to confirmation and the tab Bookings, in the detail view of a person in Coaching.](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
+![Buttons Accept and Reject for a pending membership, reached via the link Go to confirmation and the tab Bookings.](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" title="Detail view of a person in Coaching" }
 
 !!! note "How do pending memberships arise?"
 
@@ -275,7 +282,7 @@ In the detail view of a person, you find this information in separate tabs: the 
 
 If you, as a line manager or education manager, want certain rights, you can have them set up by administrators. The screenshot below shows which options administrators can configure. (The same options exist for education managers.)
 
-![Rights of the role Line manager as a checkbox list from Show courses and products to Show administrative properties, in the tab Line manager of an organisation unit in the system administration.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
+![Rights of the role Line manager as a checkbox list from Show courses and products to Show administrative properties.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" title="Tab Line manager of an organisation unit" }
 
 ### The educational products of a person [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
 
@@ -305,6 +312,7 @@ Open a person and switch to "Educational products". The list shows the implement
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
 

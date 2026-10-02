@@ -171,9 +171,11 @@ Benutzer:innen können diese Durchführungen buchen, indem sie sich aus dem Kata
 
 Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das **mit Rechnung** gebucht werden kann, werden die Interessent:innen beim Anmeldevorgang zur Angabe der Rechnungsadresse usw. geführt. Es wird dabei auch eine Buchungsnummer erstellt. (Dies ist ausschliesslich mit dem Course Planner möglich.)
 
-Der Buchungsauftrag kann anschliessend bestätigt werden.
+Der Buchungsauftrag entsteht erst, wenn die Person die Buchung abschliesst, und kann anschliessend bestätigt werden.
 
 Braucht eine Durchführung beim Buchen weitere Angaben, etwa Essenswünsche oder Vorkenntnisse, kann ein Angebot der Durchführung Formulare verlangen. Die buchende Person füllt sie als Schritte beim Buchen aus, die Antworten stehen danach beim Buchungsauftrag. Das ist nur bei Angeboten von Durchführungen im Course Planner möglich, nicht bei Kursangeboten und nicht bei der Angebotsart PayPal Checkout. [Formulare für Buchungsaufträge >](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
+Mit Formularen wird die Buchung zu einem Assistenten, und der Buchungsauftrag entsteht erst im letzten Schritt. [Buchung mit Formularen als Assistent >](../area_modules/catalog2.0_angebote.de.md#offer_booking_wizard) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
 Angebote für Durchführungen werden im Course Planner erstellt unter:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
