@@ -33,7 +33,7 @@ If you click the bell icon in the upper-right corner of a subscribable course el
 
 If you switch on "Subscribe" in this pop-up window, you automatically receive all notifications about updates in that course element. You then no longer have to check the bell icons of the individual course elements yourself.
 
-![Bell icon in the course element Forum opens the pop-up Subscriptions with the toggle Subscribe, the periods Last 7 days, Last 4 weeks and Last 6 months, and the latest message](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" }
+![The framed bell icon opens the toggle Subscribe, the tabs Last 7 days, Last 4 weeks and Last 6 months, and the latest messages](assets/pers_menu_subscriptions_activate_v1_en.png){ class="shadow lightbox" title="Pop-up Subscriptions in the course element Forum · 2026.10.02" }
 
 For a **portfolio binder**, the bell icon is not in a course element but in the binder itself: open the binder, switch to the "History" tab and click the bell icon at the top right next to the heading. In the pop-up window, switch on "Subscribe". For more information, see [My portfolio binders](../area_modules/My_portfolio_binders.md).
 
@@ -48,11 +48,11 @@ Under "Subscriptions" in the personal menu, you can view all your news in one pl
 
 On the overview page, in the **"News"** tab, you select the period under "Modifications since" and display the changes. With "Send news via e-mail" you also receive the list by e-mail.
 
-![News tab with the date field Modifications since, the button Send news via e-mail and the latest changes per subscribed project](assets/subscriptions_news_v1_en.png){ class="shadow lightbox" }
+![Date field Modifications since, the button Send news via e-mail and the latest changes per subscribed project](assets/subscriptions_news_v1_en.png){ class="shadow lightbox" title="Tab News on the page Subscriptions" }
 
 All your subscriptions are listed in the **"Subscriptions"** tab. With the toggle in the "Status" column you suspend a subscription temporarily, with the trash icon you delete it.
 
-![Subscriptions tab with a filter by area, the columns Area, Learning resource, Subscribed resource, Additional description and Status, and a toggle ON and a trash icon per row](assets/subscriptions_subscriptions_v1_en.png){ class="shadow lightbox" }
+![Filter by section, the columns Section, Learning resource, Subscribed resource, Additional description and Status, and a toggle ON and a trash icon per row](assets/subscriptions_subscriptions_v1_en.png){ class="shadow lightbox" title="Tab Subscriptions on the page Subscriptions" }
 
 You can also use **RSS** to keep informed about the changes (see below).
 
@@ -113,7 +113,7 @@ Thanks to RSS, you are quickly and conveniently informed about changes in the fo
 
 Open the "RSS news Feed" tab and click the link with the icon ![Icon RSS](assets/icon_rss_small.png). A new browser window opens. Ignore the content of the page and copy the web address (URL) to the clipboard. Then paste the web address into your RSS reader.
 
-![RSS news Feed tab with the section Personal RSS Feed and the link OpenOlat news with the RSS icon](assets/subscriptions_rss_v1_en.png){ class="shadow lightbox" }
+![Heading Personal RSS Feed with the personal link OpenOlat news and the RSS icon](assets/subscriptions_rss_v1_en.png){ class="shadow lightbox" title="Tab RSS news Feed on the page Subscriptions" }
 
 
 **How do I get an RSS reader?**
