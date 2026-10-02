@@ -12,7 +12,7 @@ Purpose | Display learning content in IMS CP format
 Assessable | no
 Specialty / Note | 
 
-Use the "CP learning content" course element to embed learning content in the IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create the CP directly in OpenOlat, as explained in the chapter "[How do I create a Content Package?](../../../manual_how-to/content_package/content_package.md)", or you can create it externally.
+Use the "CP learning content" course element to embed learning content in the IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create the CP directly in OpenOlat, as explained in the chapter "[How do I create a Content Package?](../../manual_how-to/content_package/content_package.md)", or you can create it externally.
 
 ## Tab Learning content :octicons-tag-16:{ title="New edition from Release 16.2" } {: #tab_learning_content}
 
@@ -30,7 +30,7 @@ Otherwise, the structure is not visible to participants. Once they have accessed
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[How do I create a content package? (Step-by-step instruction) >](../../../manual_how-to/content_package/content_package.md)
+[How do I create a content package? (Step-by-step instruction) >](../../manual_how-to/content_package/content_package.md)
 
 **Further reading**<br>
 [Creating and editing a content package >](../learningresources/CP_Editor.md)

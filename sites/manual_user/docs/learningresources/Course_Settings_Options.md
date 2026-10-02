@@ -24,7 +24,7 @@ You can either connect to an already created "Resource folder" learning resource
 
 By default, the files of the resource folder are read-only in the course, and editing is only possible directly in the learning resource, not in the course's storage folder or when embedding via single pages in the course editor. If editing should also be possible in the course, the checkbox at "Read only" must be cleared in the course settings options.
 
-For more information and a step-by-step guide on including a resource folder, see the [How to](../../../manual_how-to/multiple_use/multiple_use.md) section.
+For more information and a step-by-step guide on including a resource folder, see the [How to](../../manual_how-to/multiple_use/multiple_use.md) section.
 
 **Please note:**<br> You can only include _one_ resource folder per course. Consider in advance which files you want to organize through a cross-course resource folder instead of the course-specific storage folder.
 
@@ -76,7 +76,7 @@ Users with administrative roles (learning resource manager, administrator) are a
 **Mentioned on this page**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
-[How can I use the same files in several courses? >](../../../manual_how-to/multiple_use/multiple_use.md)<br>
+[How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 **Further reading**<br>
