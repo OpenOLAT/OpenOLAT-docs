@@ -19,7 +19,7 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 ## Passwort und Authentifizierung {: #password_and_authentification}
 
 Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey). Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Gross- und
-Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien" kann festgelegt werden wie oft Benutzer:innen ihr Passwort ändern müssen.
+Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nicht erlaubte Werte definiert werden. Im Tab "Richtlinie zur Passwortänderung" kann festgelegt werden wie oft Benutzer:innen ihr Passwort ändern müssen.
 
 [Zu den Details >](../administration/Login_Password_and_Authentication.de.md)<br>
 [Zum Seitenanfang ^](#login)
