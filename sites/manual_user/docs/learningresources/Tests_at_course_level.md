@@ -36,20 +36,20 @@ The following settings are possible after you have created or assigned a learnin
 
 * **Automatic**: OpenOlat evaluates all questions directly. The result is visible right away.
 * **Manual by course coach/owner**: The course team does the correction. For each completed attempt an order is created in the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_assessments), in the tab "Open reviews".
-* **Manual by graders**: The people entered in the correction workflow do the correction. They need neither a membership nor the role coach in the course. Their orders appear in the coaching in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). With this choice the tab "Correctors" with the assigned people additionally appears at the course element.
+* **Manual by correctors**: The people entered in the correction workflow do the correction. They need neither a membership nor the role coach in the course. Their orders appear in the coaching in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). With this choice the tab "Correctors" with the assigned people additionally appears at the course element.
 
 ![Configuration of the correction workflow and list of the assigned correctors with status, above it the link to the test learning resource](assets/Test_Tab_Korrektoren.png){ class="shadow lightbox" title="Correctors tab of the course element Test" }
 
 !!! tip "Prerequisite"
 
-    The option "Manual by graders" becomes available as soon as the [correction workflow](Test_settings.md#correction-workflow) is switched on in the learning resource Test.
+    The option "Manual by correctors" becomes available as soon as the [correction workflow](Test_settings.md#correction-workflow) is switched on in the learning resource Test.
 
 **Release assessment**: The field appears with the two manual variants. It controls whether OpenOlat releases the assessment itself once the correction is completed.
 
 * Not released: After the correction the assessment stays with you until you release it. Until then the entry is in the coaching in the tab [Reviews to release](../area_modules/Coaching_Assessment_Orders.md#tab_assessments_to_be_released).
 * Released: OpenOlat releases the assessment when the correction is completed, the participants see it afterwards.
 
-![Field Correction with the three variants marked, Manual by graders selected, below it Release assessment with Not released and Released](assets/tests_at_course_level_correction_settings_v1_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.09.28" }
+![Field Correction with the three variants marked, Manual by correctors selected, below it Release assessment with Not released and Released](assets/tests_at_course_level_correction_settings_v2_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.10.02" }
 
 #### Section Report {: #report}
 

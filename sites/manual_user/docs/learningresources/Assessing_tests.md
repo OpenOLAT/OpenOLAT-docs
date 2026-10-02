@@ -45,7 +45,7 @@ In the correction tool you correct a test question by question or person by pers
 
 The question types Essay, Drawing and File upload are corrected by hand. OpenOlat corrects all other question types automatically.
 
-The "Correction tool" button appears if the "Correction" setting of the course element is set to "Manual by course coach/owner" or if the test contains questions that are corrected by hand. If the setting is "Manual by graders", the button is missing. The correction then runs through the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) in Coaching. The setting itself is described on the page [Tests at course level](Tests_at_course_level.md#correction).
+The "Correction tool" button appears if the "Correction" setting of the course element is set to "Manual by course coach/owner" or if the test contains questions that are corrected by hand. If the setting is "Manual by correctors", the button is missing. The correction then runs through the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) in Coaching. The setting itself is described on the page [Tests at course level](Tests_at_course_level.md#correction).
 
 If assessments are already closed, OpenOlat asks first in the dialog "Reopen closed assessments". With "Reopen assessment" you set the closed assessments back to the status "To review" and can correct them again. With "See correction read only" you open the correction tool without reopening the assessments. The answers of these persons are then read-only, and the "Adjust score" button is missing.
 
