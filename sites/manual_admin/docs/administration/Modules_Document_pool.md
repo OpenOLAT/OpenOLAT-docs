@@ -71,7 +71,7 @@ the document pool.
 
 **Mentioned on this page**<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
-[Area and modules >](../../manual_user/area_modules/index.md)
+[Sites and modules >](../../manual_user/area_modules/index.md)
 
 **Further reading**<br>
 [Customizing: Overview >](Customizing.md)

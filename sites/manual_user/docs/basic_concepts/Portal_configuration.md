@@ -12,7 +12,7 @@ Once you have completed the configuration, click on "End configuration" at the t
 
 ## Further information {: #further_information}
 
-[Area and modules >](../area_modules/index.md)<br>
+[Sites and modules >](../area_modules/index.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
 [Customizing (Administration) >](../../manual_admin/administration/Customizing.md)
 

@@ -101,7 +101,7 @@ nav:
       - Password: "personal_menu/Password.md"
       - COVID certificate: "personal_menu/COVID_certificate.md"
        
-  - Area and modules:
+  - Sites and modules:
     - area_modules/index.md
     - Courses:
       - Overview: "area_modules/Courses.md"

@@ -227,7 +227,7 @@ number should be shown. At least one of the above options needs to be selected.
 [The Form Editor >](Form_Editor.md)<br>
 [Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
-[Area and modules >](../area_modules/index.md)<br>
+[Sites and modules >](../area_modules/index.md)<br>
 [Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
 [Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
 [Test question types >](Test_question_types.md)<br>

@@ -179,7 +179,7 @@ Pages from documents.
 
 <div class="oo-mh-ref" markdown>
 
-- [Areas and modules](../area_modules/index.md)
+- [Sites and modules](../area_modules/index.md)
 - [Learning resources](../learningresources/index.md)
 - [Course elements](../learningresources/Course_Elements.md)
 - [Test question types](../learningresources/Test_question_types.md)

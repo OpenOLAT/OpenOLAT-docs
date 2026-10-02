@@ -111,7 +111,7 @@ Files from the course elements of a course are stored in the storage folder of a
 **Mentioned on this page**<br>
 [Personal tools: Media Center](../personal_menu/Media_Center.md)<br>
 [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md)<br>
-[Area and modules](../area_modules/index.md)<br>
+[Sites and modules](../area_modules/index.md)<br>
 [Using Group Tools](../groups/Using_Group_Tools.md)<br>
 [Course administration - Archiving & Reports](../learningresources/Course_Archiving.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>

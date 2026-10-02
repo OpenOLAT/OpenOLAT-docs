@@ -98,7 +98,7 @@ In addition, the translations can be edited.
 On the "Sites" page, administrators define which sites the main navigation in the top row offers, in which order and for which roles. You will find the page in the system administration under:<br>
 `Administration > Customizing > Sites`
 
-What a site is and what decides whether a person sees it is explained in the user manual on the page [Area and modules](../../manual_user/area_modules/index.md#conditions).
+What a site is and what decides whether a person sees it is explained in the user manual on the page [Sites and modules](../../manual_user/area_modules/index.md#conditions).
 
 ### Tab Order
 
@@ -134,7 +134,7 @@ In the tabs "External page n°1" and "External page n°2", you add an external U
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Area and modules >](../../manual_user/area_modules/index.md)<br>
+[Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Catalog >](Modules_Catalog_2.0.md)
 
 **Further reading**<br>

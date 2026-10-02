@@ -114,6 +114,6 @@ Course planners reach the same view in the Course Planner under `Course Planner 
 **Further reading**<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Area and modules >](../../manual_user/area_modules/index.md)
+[Sites and modules >](../../manual_user/area_modules/index.md)
 
 [To the top of the page ^](#module_rooms)

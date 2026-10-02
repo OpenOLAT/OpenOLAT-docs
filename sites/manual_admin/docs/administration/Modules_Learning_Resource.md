@@ -160,7 +160,7 @@ If this toggle button is activated, course owners/coaches receive notices about 
 
 #### Site settings
 
-Whether the sites "My courses" and "Coaching Tool" appear in the main navigation and who sees them can be read in the "Overview of access settings for sites". It shows for each site whether it is enabled and which accounts can reach it, for example "Enabled | Registered users without guests/external users". The page [Area and modules >](../../manual_user/area_modules/index.md) describes what a site is.
+Whether the sites "My courses" and "Coaching Tool" appear in the main navigation and who sees them can be read in the "Overview of access settings for sites". It shows for each site whether it is enabled and which accounts can reach it, for example "Enabled | Registered users without guests/external users". The page [Sites and modules >](../../manual_user/area_modules/index.md) describes what a site is.
 
 Via the button "Open site settings" you go directly to the "Sites" page of the system administration:<br>
 `Administration > Customizing > Sites`
@@ -195,7 +195,7 @@ Course owners overwrite the setting for their course under:<br>
 [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [General Information >](../../manual_user/learningresources/General_Information.md)<br>
-[Area and modules >](../../manual_user/area_modules/index.md)<br>
+[Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Customizing: Overview >](Customizing.md)
 
 **Further reading**<br>

@@ -220,7 +220,7 @@ The web catalog can also be deactivated temporarily.
 **Mentioned on this page**<br>
 [Module Taxonomy](Modules_Taxonomy.md)<br>
 [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md)<br>
-[Area and modules](../../manual_user/area_modules/index.md)<br>
+[Sites and modules](../../manual_user/area_modules/index.md)<br>
 [Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
 
 **Further reading**<br>

@@ -61,7 +61,7 @@ Besides the core areas, there are further menu items and areas that only become 
 | Administrator | Module and function administration: access to many areas such as user management, catalog management and Course Planner, but not to the administration page |
 | Principal | Read access to many areas of the system |
 
-You find the complete description of all roles and the associated rights under [Which roles are there?](Roles.md) An overview of all menu items of the main navigation is provided on the page [Area and modules](../area_modules/index.md).
+You find the complete description of all roles and the associated rights under [Which roles are there?](Roles.md) An overview of all menu items of the main navigation is provided on the page [Sites and modules](../area_modules/index.md).
 
 [To the top of the page ^](#home_areas)
 
@@ -82,7 +82,7 @@ You find the complete description of all roles and the associated rights under [
 [Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)<br>
 [Projects - Administration >](../area_modules/Project_Admin.md)<br>
-[Area and modules >](../area_modules/index.md)
+[Sites and modules >](../area_modules/index.md)
 
 **Further reading**<br>
 [Roles and Rights: Overview >](Roles_Rights.md)<br>

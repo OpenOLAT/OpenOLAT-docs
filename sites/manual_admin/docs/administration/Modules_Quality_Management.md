@@ -57,7 +57,7 @@ In the tab "Order", in the row "Quality management", set the checkbox in the col
 
 **Mentioned on this page**<br>
 [Data collection preview >](../../manual_user/learningresources/Data_Collection_Previews.md)<br>
-[Area and modules >](../../manual_user/area_modules/index.md)
+[Sites and modules >](../../manual_user/area_modules/index.md)
 
 **Further reading**<br>
 [Customizing: Overview >](Customizing.md)
