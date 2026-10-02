@@ -53,7 +53,7 @@ Course owners, learning resource managers and administrators as well as persons 
 
 ![Ten tabs for configuring a course element Test, from Title and description to Reminders, the Correctors tab greyed out](assets/course_element_test_editor_tabs_v1_en.png){ class="shadow lightbox" title="Course element Test in the course editor · 2026.10.01" }
 
-The tabs "Title and description" and "Layout" are the same for all course elements. The "Correctors" tab is only active if the option "Manual by graders" is selected in the "Correction" section. The "Badges" tab is added if awarding badges is enabled in the course.
+The tabs "Title and description" and "Layout" are the same for all course elements. The "Correctors" tab is only active if the option "Manual by correctors" is selected in the "Correction" section. The "Badges" tab is added if awarding badges is enabled in the course.
 
 
 
@@ -116,15 +116,15 @@ Three options are available:
 
 * **Automatic**: OpenOlat corrects all questions directly.
 * **Manual by course coach/owner**: The coaches or owners of the course do the correction.
-* **Manual by graders**: The correctors from the correction workflow of the learning resource Test do the correction. They can correct a test without being a member or even a coach of the course. This selection also activates the "Correctors" tab, and you can see who is assigned to the test as a corrector.
+* **Manual by correctors**: The correctors from the correction workflow of the learning resource Test do the correction. They can correct a test without being a member or even a coach of the course. This selection also activates the "Correctors" tab, and you can see who is assigned to the test as a corrector.
 
 !!! info "Important"
 
-    The option "Manual by graders" is available if the [correction workflow](Test_settings.md#correction-workflow) is switched on in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses. If the correction workflow is switched on and another option is selected, the "Correction" section shows a hint: with this setting no correction orders are generated, "Manual by graders" is recommended.
+    The option "Manual by correctors" is available if the [correction workflow](Test_settings.md#correction-workflow) is switched on in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses. If the correction workflow is switched on and another option is selected, the "Correction" section shows a hint: with this setting no grading assignments are generated, "Manual by correctors" is recommended.
 
 **Release assessment**: The field appears with the two manual options. With "Released", the participants see the assessment directly after the manual correction; with "Not released", only once you release the assessment.
 
-![Field Correction with three options marked, manual correction by course coach/owner selected, below it Release assessment](assets/course_element_test_correction_v1_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.10.01" }
+![Field Correction with three options marked, manual correction by course coach/owner selected, below it Release assessment](assets/course_element_test_correction_v2_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.10.02" }
 
 The correction options and the release are also described on the page [Tests at course level](Tests_at_course_level.md#correction).
 
@@ -218,7 +218,7 @@ Below, you select what is displayed: "Congratulations title", "Podium", "Histogr
 
 ### Tab "Correctors" [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442) {: #tab_correctors}
 
-The tab is active if the option "Manual by graders" is selected in the "Correction" section; otherwise it is greyed out. It shows the configuration of the correction workflow and the correctors entered in the learning resource Test. Changes can be made via a link to the learning resource of the test.
+The tab is active if the option "Manual by correctors" is selected in the "Correction" section; otherwise it is greyed out. It shows the configuration of the correction workflow and the correctors entered in the learning resource Test. Changes can be made via a link to the learning resource of the test.
 
 
 [Beginning of test configuration section ^](#config)<br>
