@@ -51,7 +51,7 @@ As a coach without ownership, you only change this setting if you have been gran
 Should the test be corrected manually? As soon as a participant completes the test, OpenOlat creates an assessment order. Who receives it depends on the selected variant:
 
 * **Manual by course coach/owner**: The order is listed for all coaches of the person and for the course owners, under `Coaching > Assessment orders > Tab "Open reviews"`. With this variant, there is no assignment to a specific person.
-* **Manual by graders**: OpenOlat assigns the order to a person who is entered in the correction workflow of the learning resource Test. This variant is available as soon as the owners of the test have switched on the [correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow) in the learning resource Test. Correctors do not need a membership in the course. They find the order as a grading assignment under `Coaching > Assessment orders > Tab "Grading assignments"`.
+* **Manual by correctors**: OpenOlat assigns the order to a person who is entered in the correction workflow of the learning resource Test. This variant is available as soon as the owners of the test have switched on the [correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow) in the learning resource Test. Correctors do not need a membership in the course. They find the order as a grading assignment under `Coaching > Assessment orders > Tab "Grading assignments"`.
 
 If no corrector is available at completion, the grading assignment waits with the status "Unassigned" under `Coaching > Order management > Tab "Grading assignments"`. There, owners of the test, learning resource managers or administrators assign it to a corrector, and it appears in that person's tab "Grading assignments".
 
@@ -230,11 +230,11 @@ The points for each question are added to the total score for the course element
 
 The total number of points can be converted to
 
-* Grades (details are configurable, e.g., 1–6 or 6–1)
+* Grades (details are configurable, e.g., 1-6 or 6-1)
 * Grading terms (e.g., "excellent," "good," etc., or A1, B1, etc., for language proficiency levels)
 * Visual rating (e.g., various emojis)
 
-Whether and how points are converted is determined by the course author and cannot be configured by graders.<br>
+Whether and how points are converted is determined by the course author and cannot be configured by the people who assess.<br>
 [Find out more >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 [To the top of the page ^](#assessing_tests)
@@ -263,7 +263,7 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 - [x] Has the latest permitted editing time already passed?
 - [x] Is it clear who evaluates the test results?
 - [x] Should someone who isn't enrolled in the course be the one to correct it? 
-- [x] Should proofreading jobs be assigned?
+- [x] Should grading assignments be issued?
 - [x] Was the test configured to be graded automatically, or should it be graded manually?
 - [x] Does the test consist solely of questions that can be graded automatically?
 

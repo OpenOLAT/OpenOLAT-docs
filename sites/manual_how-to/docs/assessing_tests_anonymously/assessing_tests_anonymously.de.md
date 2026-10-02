@@ -2,7 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Diese Anleitung soll Kursbesitzer:innen zeigen, wie sie die Möglichkeit zur anonymen Korrektur in Test-Kursbausteinen einrichten können. Sowie Betreuer:innen/Korrektor:innen, wie sie eine anonyme Korrektur in OpenOlat durchführen.
+    Diese Anleitung soll Besitzer:innen des Tests zeigen, wie sie die Möglichkeit zur anonymen Korrektur in Test-Kursbausteinen einrichten können. Sowie Betreuer:innen/Korrektor:innen, wie sie eine anonyme Korrektur in OpenOlat durchführen.
 
 
 ??? abstract "Zielgruppe"
@@ -35,7 +35,7 @@ Nachstehend finden Sie das Vorgehen beschrieben.
 ## Anonyme Korrektur in OpenOlat einrichten {: #configuration}
 
 Die anonyme Identität der Prüflinge ist eine Einstellung in der Test-Lernressource.<br> 
-Sie muss durch Kursbesitzer:innen bei der Erstellung des Kurses konfiguriert werden.
+Sie muss durch Besitzer:innen des Tests konfiguriert werden.
 
 ### Schritt 1
 
@@ -72,7 +72,7 @@ Vergessen Sie nicht die Konfiguration zu speichern.
 
 ### Schritt 6
 
-Im Tab "Korrektor:innen" werden die Personen hinzugefügt, die diese Test-Lernressource bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer:innen, die sonst keine Betreuer:innen-Rolle haben, können als Korrektor:innen hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden. Es können z.B. Korrektor:innen kontaktiert, deaktiviert oder entfernt werden, sowie die jeweiligen Korrekturaufträge angezeigt werden.
+Im Tab "Korrektor:innen" werden die Personen hinzugefügt, die diese Test-Lernressource korrigieren sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer:innen, die sonst keine Betreuer:innen-Rolle haben, können als Korrektor:innen hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden. Es können z.B. Korrektor:innen kontaktiert, deaktiviert oder entfernt werden, sowie die jeweiligen Korrekturaufträge angezeigt werden.
 
 ![assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png){ class="shadow lightbox" }
 
@@ -91,16 +91,16 @@ Im Tab "Korrekturaufträge" kann der Bearbeitungsstand der Korrekturaufträge de
 
 ## Anonyme Korrektur durchführen {: #correction}
 
-Wenn **Kursbesitzer:innen** einen Korrektur-Workflow einrichten, arbeiten sie an der Test-**Lernressource**.<br>
+Wenn **Besitzer:innen des Tests** einen Korrektur-Workflow einrichten, arbeiten sie an der Test-**Lernressource**.<br>
 **Betreuer:innen** arbeiten dagegen im Kurs im **Test-Kursbaustein**, in dem die so konfigurierte Test-Lernressource eingebunden ist.
 
 Das Korrekturwerkzeug kann aufgerufen werden durch:<br>
-**Kurs wählen > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+`Kurs wählen > Kursbaustein wählen > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`
 
 ![assessing_tests_anonymously_correction_tool1_v1_de.png](assets/assessing_tests_anonymously_correction_tool1_v1_de.png){ class="shadow lightbox" }
 
 Alternativ gelangen Sie auch über das Bewertungswerkzeug zum Korrekturwerkzeug:<br>
-**Kurs wählen > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+`Kurs wählen > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`
 
 ![assessing_tests_anonymously_correction_tool2_v1_de.png](assets/assessing_tests_anonymously_correction_tool2_v1_de.png){ class="shadow lightbox" }
 
@@ -114,15 +114,14 @@ Im Korrekturwerkzeug kann auf 2 Arten korrigiert werden:
 
 ![assessing_tests_anonymously_correction_tool_process2_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
 
-Wurde die oben beschriebene Option "Anonym" ausgewählt, werden den Korrektor:innen im Korrekturwerkzeug und Korrektur-Workflow keine Namen, sondern nur eine anonyme 7-stellige anonyme Kennung im Format ABC-DEF angezeigt. (Seit OpenOlat 19.1.26 / 20.1.12, in vorhergehenden Versionen wurde statt der Kennung eine Zahl angezeigt.)
-
+Wurde die oben beschriebene Option "Anonym" ausgewählt, werden den Korrektor:innen im Korrekturwerkzeug und Korrektur-Workflow keine Namen, sondern nur eine 7-stellige anonyme Kennung im Format ABC-DEF angezeigt.
 Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:innen können so einzelne Teilnehmende über verschiedene Fragen hinweg zwar konsistent identifizieren, ihre echte Identität bleibt aber verborgen.
 
 **Beispiel:**
 ![assessing_tests_anonymously_correction_tool_process3_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process3_v1_de.png){ class="shadow lightbox" }
 
 
-!!! hint "Hinweis"
+!!! note "Hinweis"
 
     Informationen zur **kursübergreifenden** Korrektur finden Sie im [Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)
 
@@ -136,19 +135,19 @@ Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:
 
 - [x] Wurde der Korrektur-Workflow in der Test-Lernressource aktiviert?
 - [x] Wurde entschieden, ob die Teilnehmer:innen den Korrektor:innen namentlich bekannt sein sollen oder nicht?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)   
+    `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`
 - [x] Wurde ein Korrekturzeitraum festgelegt?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)
+    `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`
 - [x] Wurden die verschiedenen Benachrichtigungen an die Korrektor:innen konfiguriert?
 - [x] Wurden alle Korrektor:innen bestimmt und hinzugefügt?<br>
-    (Test-Lernressource: Korrektur-Workflow > Tab Korrektor:innen)
+    `Test > Administration > Korrektur-Workflow > Tab "Korrektor:innen"`
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
 
 ---
 
 
-## Weitere Informationen {: #further_information}
+## Weiterführende Informationen {: #further_information}
 
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>

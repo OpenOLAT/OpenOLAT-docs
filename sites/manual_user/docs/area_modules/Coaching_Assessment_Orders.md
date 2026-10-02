@@ -113,7 +113,7 @@ A grading assignment is created in five steps. Three roles set it up, the submis
 1. Administrators switch on the correction workflow in the system administration: `Administration > e-Assessment > Test`.
 2. Owners of the test switch on the correction workflow in the learning resource Test: `Test > Administration > Correction workflow > Tab "Configuration"`.
 3. Owners of the test enter the correcting people in the tab "Correctors". Their role in OpenOlat does not matter.
-4. Course owners set the correction at the course element Test to "Manual by graders". This option becomes available as soon as step 2 is set. More about this on the page [Tests at course level](../learningresources/Tests_at_course_level.md#correction).
+4. Course owners set the correction at the course element Test to "Manual by correctors". This option becomes available as soon as step 2 is set. More about this on the page [Tests at course level](../learningresources/Tests_at_course_level.md#correction).
 5. A participant completes the test.
 
 If no corrector is available at that moment, the assignment carries the status "Unassigned" and waits in the [Order management](Coaching_Order_Management.md). There, owners of the test, learning resource managers or administrators assign it to a person. The assignment then appears in that person's list.

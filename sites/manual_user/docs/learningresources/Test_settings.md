@@ -153,13 +153,13 @@ The respective correctors are automatically notified when new edits of the test 
 
 ![Button "Add corrector" highlighted, above it the tabs "Configuration", "Correctors" and "Grading assignments"](assets/grading_workflow_tab_correctors_v1_en.png){ class="shadow lightbox" title="Correctors tab in the Correction workflow menu" }
 
-Here you add the persons who are to grade a test. It does not matter which role the person has in OpenOlat. Users can also be added as correctors. Via the row menu of a corrector, further actions are available: "Show assignments", "Send e-mail", "Download report", "Deactivate" or "Activate", "Set absence leave" and "Remove".
+Here you add the persons who are to correct a test. It does not matter which role the person has in OpenOlat. Persons with the role "User" can also be added as correctors. Via the row menu of a corrector, further actions are available: "Show assignments", "Send e-mail", "Download report", "Deactivate" or "Activate", "Set absence leave" and "Remove".
 
-The entered correctors find their orders under `Coaching > Assessment orders` in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). Two further steps are needed for this: at the course element Test the correction is set to "Manual by graders", and a participant completes the test. Only then is the order created.
+The entered correctors find their orders under `Coaching > Assessment orders` in the tab [Grading assignments](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). Two further steps are needed for this: at the course element Test the correction is set to "Manual by correctors", and a participant completes the test. Only then is the order created.
 
 If no corrector is available at that moment, the assignment carries the status "Unassigned" and waits in the [Order management](../area_modules/Coaching_Order_Management.md). There, learning resource managers assign it to a person, and it appears in their list.
 
-### Tab "Grading assignments"
+### Tab "Assignments"
 
 Here the processing status of the grading assignments of the different correctors can be displayed and filtered according to various criteria.
 
@@ -174,11 +174,11 @@ In the "Correctors" tab, open the "Download report" entry in the row menu of a c
 
 ![Switch "Only completed orders" turned on, the buttons "Last month" and "Last year" and the mandatory field "Close date" with two date fields](assets/grading_report_export_dialog_v1_en.png){ class="shadow lightbox" title="Dialog for downloading the report" }
 
-In the "Grading assignments" tab, the "Report" button generates the same report for the grading assignments displayed there.
+In the "Assignments" tab, the "Report" button generates the same report for the grading assignments displayed there.
 
 For each grading assignment, the report shows the status ("Unassigned", "Assigned", "Done"), the "Due date", the "Close date" and the "Missed deadline" flag.
 
-The generated Excel file contains the worksheets "Graders", "Assignments" and "Archive". The "Archive" worksheet lists archived grading assignment entries whose assignment record has since been removed (for example because an examinee, a corrector or the test learning resource was deleted), including the correction time and the "Close date" for remuneration. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
+The generated Excel file contains the worksheets "Correctors", "Assignments" and "Archive". The "Archive" worksheet lists archived grading assignment entries whose assignment record has since been removed (for example because an examinee, a corrector or the test learning resource was deleted), including the correction time and the "Close date" for remuneration. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
 
 ![Columns "Course", "Reference", "Correction (minutes)", "Correction (real minutes)" and "Close date", preceded by name and username of corrector and examinee](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" title="Archive worksheet of the Excel file" }
 

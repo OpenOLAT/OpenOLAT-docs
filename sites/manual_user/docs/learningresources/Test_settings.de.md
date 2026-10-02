@@ -154,7 +154,7 @@ Die jeweiligen Korrektor:innen werden automatisch benachrichtigt, wenn neue Bear
 
 ![Button "Korrektor:in hinzufügen" markiert, darüber die Tabs "Konfiguration", "Korrektor:innen" und "Korrekturaufträge"](assets/grading_workflow_tab_correctors_v1_de.png){ class="shadow lightbox" title="Tab Korrektor:innen im Menü Korrektur-Workflow" }
 
-Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Personen mit der Rolle "Benutzer:in" können als Korrektor:in hinzugefügt werden. Über das Zeilenmenü einer Korrektor:in stehen weitere Aktionen bereit: "Zuweisungen anzeigen", "Korrektor:in kontaktieren", "Report herunterladen", "Deaktivieren" beziehungsweise "Aktivieren", "Abwesenheit erfassen" und "Entfernen".
+Hier werden die Personen hinzugefügt, die einen Test korrigieren sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Personen mit der Rolle "Benutzer:in" können als Korrektor:in hinzugefügt werden. Über das Zeilenmenü einer Korrektor:in stehen weitere Aktionen bereit: "Zuweisungen anzeigen", "Korrektor:in kontaktieren", "Report herunterladen", "Deaktivieren" beziehungsweise "Aktivieren", "Abwesenheit erfassen" und "Entfernen".
 
 Die eingetragenen Korrektor:innen finden ihre Aufträge unter `Coaching > Bewertungsaufträge` im Tab [Korrekturaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments). Dafür braucht es zwei weitere Schritte: Am Kursbaustein Test steht die Korrektur auf "Manuell durch Korrektor:innen", und eine teilnehmende Person schliesst den Test ab. Erst damit ist der Auftrag erstellt.
 
@@ -179,7 +179,7 @@ Im Tab "Korrekturaufträge" erzeugt der Button "Bericht" denselben Report über 
 
 Der Report weist zu jedem Korrekturauftrag den Status ("Nicht zugeordnet", "Zugeteilt", "Erledigt"), das "Fälligkeitsdatum", das Datum "Erledigt am" sowie die Kennzeichnung "Frist abgelaufen" aus.
 
-Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" und "Archive". Das Worksheet "Archive" führt archivierte Korrekturauftrag-Einträge auf, deren Auftragsdatensatz inzwischen entfernt wurde (etwa weil ein Prüfling, ein Korrektor:in oder die Test-Lernressource gelöscht wurde), inklusive Korrekturzeit und dem Datum "Erledigt am" für die Abrechnung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
+Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" und "Archive". Das Worksheet "Archive" führt archivierte Korrekturauftrag-Einträge auf, deren Auftragsdatensatz inzwischen entfernt wurde (etwa weil ein Prüfling, eine Korrektor:in oder die Test-Lernressource gelöscht wurde), inklusive Korrekturzeit und dem Datum "Erledigt am" für die Abrechnung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
 
 ![Spalten "Kurs", "Kennzeichen", "Korrektur (Minuten)", "Korrektur (echte Minuten)" und "Erledigt am", davor Name und Anmeldename von Korrektor:in und Prüfling](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" title="Worksheet Archive der Excel-Datei" }
 
