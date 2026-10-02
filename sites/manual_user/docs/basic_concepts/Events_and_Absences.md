@@ -179,7 +179,7 @@ A distinction must be made between
 [Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Projects - Schedule >](../area_modules/Project_Schedule.md)<br>
-[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
 [BigBlueButton module >](../../manual_admin/administration/BigBlueButton_module.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>

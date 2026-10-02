@@ -1,23 +1,23 @@
-# ![To-dos icon](assets/icon_todo.png) Personal tools: To-dos {: #to_dos}
+# ![To-dos icon](assets/icon_todo.png) User tools: To-dos {: #to_dos}
 
-![Entry To-dos in the Personal tools menu: access to all to-dos from courses, projects, quality management and the Course Planner as well as to your own to-dos](assets/pers_menu_todos_v3_de.png){ class="aside-right lightbox"}
+![Entry To-dos, marked with a frame, in the User tools group: entry point to your personal to-dos and to all to-dos for which you are assigned or delegated](assets/pers_menu_todos_v4_en.png){ class="aside-right lightbox" }
 
-In the personal tool "To-dos" you see all to-dos for which you are assigned or delegated, regardless of the module they come from: from courses and from the course element "Task", from projects, from quality management and from the Course Planner. [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} In addition, there are your personal to-dos, which you create here yourself. The tool is available to all users except guests. What applies to all to-dos is described under [To-dos: basics](../basic_concepts/To_Dos_Basics.md).
+Under "To-dos" in the User tools you see all to-dos for which you are assigned or delegated, regardless of the module they come from: from courses and from the course element "Task", from projects, from quality management and from the Course Planner. [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} In addition, there are your personal to-dos, which you create here yourself. The tool is available to all users except guests. What applies to all to-dos is described under [To-dos: basics](../basic_concepts/To_Dos_Basics.md).
 
 Whether the tool appears in the personal menu, who may create personal to-dos and whether they can be assigned to other persons is set by administrators in the system administration: `Administration > Modules > To-do` (see [Module To-do](../../manual_admin/administration/Modules_ToDo.md)).
 
-![Table of all personal to-dos with due date, status and context per entry, above it the tabs from My to-dos to Deleted, the filters and the button Create to-do](assets/To_do_allgemein.png){ class="shadow lightbox" title="To-dos page in the personal tools" }
+![Personal to-dos with priority, due date, due and status per row, marked with a frame the tabs All to Deleted and the Create to-do button](assets/pers_menu_todos_list_v1_en.png){ class="shadow lightbox" title="To-dos page in the User tools menu · 2026.10.02" }
 
-With the **"Create to-do"** button you create a personal to-do.
+With the **"Create to-do"** button you create a personal to-do. The fields of the "Edit to-do" dialog are described under [The fields of a to-do](../basic_concepts/To_Dos_Basics.md#to_do_fields).
 
-![Fields Title, Context, Tags, Status, Priority, Start date, Due date, Expenditure of work and Description of a personal to-do](assets/To-do_erstellen.png){ class="shadow lightbox" title="Edit to-do dialog" }
+![Fields of a new personal to-do, Title marked as mandatory, plus Context, Tags, Status, Priority, Start date, Due date, Expenditure of work and Description](assets/pers_menu_todos_create_v1_en.png){ class="shadow lightbox" title="Edit to-do dialog · 2026.10.02" }
 
 
 ## The to-do overview [:octicons-tag-16:{ title="from Release 18.1 (OO-7038)" }](https://track.frentix.com/issue/OO-7038){:target="_blank"} {: #to_dos_overview}
 
-The table shows at a glance which tasks are pending and which are overdue. Use the tabs and filters to narrow down the list. The gear icon opens the menu "Displayed columns", where you choose which columns the table shows.
+The table shows at a glance which tasks are pending and which are overdue. Use the tabs "All", "My to-dos", "Open", "Overdue", "Done" and "Deleted" and the filters to narrow down the list. The gear icon opens the menu "Displayed columns", where you choose which columns the table shows.
 
-![Expanded detail view of a to-do with status, priority, dates, expenditure of time and description, on the right the opened menu Displayed columns with the selectable table columns](assets/To_do_aufgeklappt.png){ class="shadow lightbox" title="Expanded row and Displayed columns menu" }
+![Expanded row with the quick actions Start, Mark as done and Edit, next to it the Displayed columns menu, both marked with a frame](assets/pers_menu_todos_details_v1_en.png){ class="shadow lightbox" title="Expanded row and Displayed columns menu · 2026.10.02" }
 
 Use the plus sign at the start of a row to expand the detail area of a to-do. Depending on the status, it offers the quick actions "Start", "Mark as done" and "Edit", described under [Status and quick actions](../basic_concepts/To_Dos_Basics.md#status_quick_actions).
 

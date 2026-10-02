@@ -43,7 +43,7 @@ On the one hand, these can be to-dos automatically generated from the [task cour
 On the other hand, teachers can assign specific to-dos to all participants or only to individual persons. Participants can change the status of a to-do once they have completed the action.
 
 The to-dos serve participants as an orientation for what currently needs to be done in the course.
-Participants find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) area. There, participants can also create their own to-dos.
+Participants find an overview of all personal and course-related to-dos in the ["User tools"](../personal_menu/To-Dos.md) area. There, participants can also create their own to-dos.
 
 
 ### Leave course [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405)
@@ -89,7 +89,7 @@ Further information on the tools can be found under ["Using Additional Course Fe
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Personal tools >](../personal_menu/Personal_Tools.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
-[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Search in a course >](../basic_concepts/Search_in_Course.md)<br>
 [Chat >](../basic_concepts/Chat.md)<br>
 [Course Settings - Tab Toolbar >](../learningresources/Course_Settings_Toolbar.md)

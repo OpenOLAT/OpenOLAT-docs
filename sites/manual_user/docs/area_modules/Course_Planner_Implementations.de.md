@@ -63,7 +63,7 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 
 
-![Die Wege durch eine Durchführung: Button Gehe zu, vier Buttons mit Pfeilen zum Wechsel zwischen Elementen und Durchführungen und die Tabs von Übersicht bis Reports](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung" }
+![Button Gehe zu…, vier Buttons mit Pfeilen zum Wechsel zwischen Elementen und Durchführungen, die Tabs von Übersicht bis Reports und die Widget-Überschriften als Sprungziele](assets/course_planner_implementations_navigation_v3_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung · 2026.10.02" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -110,7 +110,7 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 * Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
 * Bei ausgebuchten oder überbuchten Durchführungen erscheint die entsprechende Meldung.
 
-![Verbleibende Plätze und Abstand zur Mindestanzahl unter der Teilnehmerzahl, dazu die Kursverantwortlichen mit ihren Rollen](assets/course_planner_implementations_widget_members2_v1_de.png){ class="shadow lightbox" title="Mitglieder-Widget im Tab Übersicht" }
+![Verbleibende Plätze und Abstand zur Mindestanzahl unter der Teilnehmerzahl, dazu die Kursverantwortlichen mit ihrer Rolle](assets/course_planner_implementations_widget_members2_v2_de.png){ class="shadow lightbox" title="Mitglieder-Widget im Tab Übersicht · 2026.10.02" }
 
 #### To-do-Widget [:octicons-tag-16:{ title="ab Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
 
@@ -254,7 +254,7 @@ Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervor
 Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwenden Sie:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Mitglieder > Button "Teilnehmer:innen hinzufügen"`
 
-![Der Button Teilnehmer:innen hinzufügen rechts über der Mitgliederliste, mit dem der Assistent zur Aufnahme startet](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung" }
+![Der Button Teilnehmer:innen hinzufügen rechts über der Mitgliederliste, mit dem der Assistent zur Aufnahme startet](assets/course_planner_implementations_add_member_v2_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung · 2026.10.02" }
 
 Der Assistent führt durch die Schritte **Benutzersuche**, **Buchungsauftrag**, **Mitgliedschaft**, **Übersicht** und **Benachrichtigung**. Den Schritt **Buchungsauftrag** gibt es nur, wenn die Durchführung Angebote hat.
 
@@ -414,7 +414,7 @@ Hat ein Buchungsauftrag eine Rechnungsadresse mit erfasster Debitorennummer, zei
 
 Alles, was eine Durchführung beschreibt und steuert, legen Sie in den Unter-Tabs der Einstellungen fest. Die Unter-Tabs "Metadaten", "Infos", "Durchführung" und "Optionen" stehen immer zur Verfügung, "Automatisierung" und "Bewertung" nur unter den Bedingungen, die ihre Abschnitte weiter unten nennen. Bei der Durchführung selbst, nicht bei ihren untergeordneten Elementen, zeigt der Button **Vorschau Infoseite**, wie die Infoseite der Durchführung erscheint.
 
-![Die Unter-Tabs der Einstellungen von Metadaten bis Optionen und der Button für die Vorschau der Infoseite](assets/course_planner_implementations_tab_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
+![Die Unter-Tabs der Einstellungen von Metadaten bis Optionen und der Button Vorschau Infoseite](assets/course_planner_implementations_tab_settings_v3_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.02" }
 
 #### Metadaten der Einstellungen
 
@@ -476,7 +476,11 @@ Aktivierte Automatisierungen laufen einmal täglich zu einer festen Uhrzeit. Die
 
 Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter «Automatisierung» das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
 
-![Der Modus Überschreiben und die Regeltabelle mit Kontext, Automatisierung, Zielstatus, Bedingung und geplanter Ausführung](assets/course_planner_implementations_tab_settings_automation_v3_de.png){ class="shadow lightbox" title="Unter-Tab Automatisierung der Einstellungen einer Durchführung" }
+**Tabelle der Regeln:**
+
+Unter der Konfiguration listet eine Tabelle die Regeln des Elements. Die Tabs «Alle», «Relevant», «Durchführung» und «Inhalt» darüber grenzen die Liste ein; bei Elementen mit der Verwendung «Element» heisst der dritte Tab «Element». Vorgewählt ist «Relevant», der Tab zeigt nur die eingeschalteten Regeln. «Durchführung» und «Inhalt» zeigen die Regeln, die die Durchführung selbst bzw. ihre Kurse betreffen. Die Spalten nennen je Regel «Kontext», «Automatisierung», «Zielstatus» und «Bedingung», dazu unter «Der Durchführungsstatus ist», bei Elementen «Der Elementstatus ist», den Status, den die Durchführung bzw. das Element für die Ausführung haben muss, sowie «Geplante Ausführung» und «Ausführungsdatum». Der Schalter in der Spalte «Regel» zeigt, ob die Regel eingeschaltet ist.
+
+![Der Modus Überschreiben und die Tabelle der Regeln mit Kontext, Automatisierung, Zielstatus, Bedingung und geplanter Ausführung](assets/course_planner_implementations_tab_settings_automation_v4_de.png){ class="shadow lightbox" title="Unter-Tab Automatisierung der Einstellungen einer Durchführung · 2026.10.02" }
 
 [Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
@@ -486,19 +490,21 @@ Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung 
 
 Der Unter-Tab "Bewertung" setzt voraus, dass die Zertifikatsprogramme auf der OpenOlat-Instanz eingeschaltet sind, was standardmässig der Fall ist. Er wird dann bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
 
-* Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
-* Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
-* Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel. Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind. Von dort öffnen Sie das Programm in einem neuen Tab (sofern Sie Zugriff auf das Programm haben) oder heben mit **"Entfernen"** die Verknüpfung auf; die Sicherheitsabfrage "Zertifikatsprogramm entfernen" bestätigt den Schritt. Das Entfernen erfordert die Rolle Kursplaner:in oder Produktbesitzer:in und muss bestätigt werden. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
+* Mit dem Schalter **"Zertifikatsprogramm"** blenden Sie die Auswahl eines Programms ein. Gespeichert ist die Verknüpfung erst, wenn Sie ein Programm ausgewählt haben; ohne Programm steht der Schalter beim nächsten Öffnen des Unter-Tabs wieder auf «Aus». Schalten Sie ihn bei verknüpftem Programm aus, folgt dieselbe Sicherheitsabfrage wie bei **"Entfernen"**.
+* Ist noch kein Programm verknüpft, wählen Sie über den Button **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Er listet nur Programme, deren **Administrative Freigabe** die Organisation des Produkts enthält. Zusätzlich müssen Sie Zertifikatsprogrammbesitzer:in des Programms sein oder in einer seiner Organisationen die Rolle Administrator:in, Principal oder Kursplaner:in haben. Bleibt die Liste leer, prüfen Sie zuerst die Administrative Freigabe des Programms.
+* Ist ein Programm verknüpft, zeigt ein Panel den Programmtitel und, sofern gesetzt, das Kennzeichen. Gültigkeitsdauer und benötigte Kreditpunkte erscheinen dort, sofern sie am Programm hinterlegt sind, die Rezertifizierung nur, wenn sie am Programm eingeschaltet ist. Mit **"Öffnen"** öffnen Sie das Programm in einem neuen Tab, sofern Sie Zugriff auf das Programm haben. Mit **"Entfernen"** heben Sie die Verknüpfung auf; die Sicherheitsabfrage "Zertifikatsprogramm entfernen" bestätigt den Schritt. Teilnehmer:innen, die bereits ein Zertifikat erhalten haben, bleiben Mitglieder des Programms.
 
-![Der Schalter Zertifikatsprogramm und der Button Auswählen, solange kein Programm verknüpft ist](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen einer Durchführung" }
+Den Schalter und die Buttons "Auswählen" und "Entfernen" bedienen Administrator:innen, Kursplaner:innen und Produktbesitzer:innen.
 
-![Die Programmliste mit Titel, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen" }
+![Der Schalter Zertifikatsprogramm und der Button Auswählen, solange kein Programm verknüpft ist](assets/course_planner_implementations_tab_settings_assessment_v2_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen einer Durchführung · 2026.10.02" }
 
-![Das verknüpfte Programm mit den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen" }
+![Die Programmliste mit Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v2_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen · 2026.10.02" }
+
+![Das verknüpfte Programm mit Gültigkeitsdauer, Rezertifizierung und den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm](assets/course_planner_implementations_tab_settings_assessment_linked_v2_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen · 2026.10.02" }
 
 Eine Durchführung kann auch direkt über das [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzugefügt werden.
 
-Beim [Kopieren einer Durchführung](#copy) wird die Verknüpfung zum Zertifikatsprogramm übernommen, sofern Sie die Berechtigung für das Programm besitzen. Fehlt die Berechtigung, zeigt der Assistent die Warnung "Das Zertifizierungsprogramm kann aufgrund fehlender Berechtigungen nicht übernommen werden." Beim Kopieren entsteht ein Eintrag im Aktivitätslog des Programms.
+Beim [Kopieren einer Durchführung](#copy) wird die Verknüpfung zum Zertifikatsprogramm übernommen, sofern Sie die Berechtigung für das Programm besitzen. Fehlt die Berechtigung, zeigt der Assistent die Warnung "Das Zertifikatsprogramm kann aufgrund fehlender Berechtigungen nicht übernommen werden." Beim Kopieren entsteht ein Eintrag im Aktivitätslog des Programms.
 
 
 #### Optionen in den Einstellungen
@@ -576,9 +582,7 @@ Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Ele
 
 In den Detailbereichen "Kurse", "Termine" und "To-dos" zeigt die Spalte **"Aktivität"** mit einem Symbol, was mit der einzelnen Zeile geschieht: kopieren, wiederverwenden oder nicht kopieren.
 
-In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu in der Übersicht der Elemente den Button **"Alle Daten schieben"**. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
-
-![Der Button Alle Daten schieben, mit dem sich alle Datumsangaben gemeinsam verschieben lassen](assets/course_planner_implementations_copy4_v2_de.png){ class="shadow lightbox" title="Schritt Übersicht Elemente" }
+In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu im Schritt «Übersicht Elemente» den Button **"Alle Daten schieben"** rechts über der Liste der Elemente. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
 
 ![Bezugsdatum, die Wahl der Verschiebung nach Datum oder Tage und das neue Datum](assets/course_planner_implementations_copy5_v2_de.png){ class="shadow lightbox" title="Dialog Alle Daten schieben des Assistenten Element kopieren" }
 

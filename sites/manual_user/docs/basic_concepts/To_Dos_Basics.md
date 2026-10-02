@@ -2,7 +2,7 @@
 
 A to-do is a task with a responsible person and a date. OpenOlat provides to-dos in several modules, everywhere with the same fields and the same status model. This page describes what applies to all to-dos. How you work with them in a module is described on that module's page.
 
-![Status circles, the Context type and Context columns and an expanded detail area with the Start, Mark as done and Edit actions](assets/to_do_basics_personal_list_v1_en.png){ class="shadow lightbox" title="Personal to-do list" }
+![Status circles, Context type and Context columns, expanded detail area with Start, Mark as done and Edit, on the right the marked entry To-dos in the personal menu](assets/to_do_basics_personal_list_v2_en.png){ class="shadow lightbox" title="Personal to-do list · 2026.10.02" }
 
 
 ## Where are to-dos available?
@@ -19,9 +19,9 @@ Tasks are recorded where they arise. In the personal menu they come together.
 | [Quality management](../area_modules/Quality_Management_To-dos.md) | Actions that result from a data collection |
 
 
-## The fields of a to-do
+## The fields of a to-do [:octicons-tag-16:{ title="from Release 18.0 (OO-6852)" }](https://track.frentix.com/issue/OO-6852){:target="_blank"} {: #to_do_fields}
 
-All modules use the same card. Three entries exist in one module only.
+Whoever creates a to-do finds the same fields in every module. Two entries exist in one module only.
 
 | Field | Meaning | Available |
 |---|---|---|
@@ -36,8 +36,8 @@ All modules use the same card. Three entries exist in one module only.
 | Tags | Freely assignable keywords | everywhere |
 | Description | Additional information about the task | everywhere |
 | Context | Module and object the to-do originates from. In the list as the columns "Context type" and "Context" | everywhere |
+| Metadata | "Created" and "Last modified" (in the project: "Modified"), each with date and person. The collapsible section appears in the dialog once the to-do exists. In the project and in quality management it additionally lists all changes | everywhere |
 | Links | Links the to-do with files, dates and decisions | project only |
-| Metadata | Creation and all changes with person and date | project only |
 | Relative dates | Start date and due date based on the implementation period instead of a fixed calendar date | [Course Planner](../area_modules/Course_Planner_Todos.md#relative_date) only |
 
 Tags you have created once are available for selection in other to-dos as well. They are not a hierarchically structured classification like the taxonomy that OpenOlat offers elsewhere.
@@ -70,7 +70,7 @@ Editing permissions are held by the person who created the to-do, by the assigne
 You delete to-dos where they were created. In the personal to-do list you delete your personal to-dos and the to-dos for which the module allows the assigned person to delete them.
 
 
-## When OpenOlat sends e-mails about to-dos {: #notifications}
+## When OpenOlat sends e-mails about to-dos [:octicons-tag-16:{ title="from Release 18.0 (OO-7006)" }](https://track.frentix.com/issue/OO-7006){:target="_blank"} {: #notifications}
 
 Whoever is to take on a to-do learns about it by e-mail and does not have to check the to-do list first. OpenOlat sends e-mails about to-dos in two cases:
 
@@ -91,7 +91,7 @@ There is no setting that switches off e-mails about to-dos. When copying an impl
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Projects: To-dos >](../area_modules/Project_Todos.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
@@ -100,6 +100,7 @@ There is no setting that switches off e-mails about to-dos. When copying an impl
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)
 
 **Further reading**<br>
-[Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)
+[Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)<br>
+[Personal menu >](../personal_menu/index.md)
 
 [To the top of the page ^](#to_dos_basics)

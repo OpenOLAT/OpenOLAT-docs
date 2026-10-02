@@ -72,7 +72,7 @@ These may be automatically generated to-dos from the [task course elements](../l
 On the other hand, teachers can assign specific tasks to all course participants or just to individual people. Learners can change the status of a task once they have completed the action. 
 
 The to-dos serve as guidance for users on what currently needs to be done in the course. 
-Participants can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. There, they can also create their own to-dos.
+Participants can find an overview of all personal and course-related to-dos in the ["User tools"](../personal_menu/To-Dos.md) section. There, they can also create their own to-dos.
 
 [More about To-dos >](../basic_concepts/To_Dos_Basics.md)<br>
 [More about To-dos in a course >](../learningresources/Course_todos.md)
@@ -176,7 +176,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [Personal Tools >](../personal_menu/Personal_Tools.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
-[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Personal achievements/successes: Badges >](../personal_menu/OpenBadges.md)<br>

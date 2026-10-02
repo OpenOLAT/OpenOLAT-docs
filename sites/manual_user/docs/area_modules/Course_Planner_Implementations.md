@@ -60,7 +60,7 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 - click on one of the **headings** to jump directly to the corresponding tab.
 
-![The ways through an implementation: the Go to button, four buttons with arrows for switching between elements and implementations and the tabs from Overview to Reports](assets/course_planner_implementations_navigation_v2_en.png){ class="shadow lightbox" title="Header of an opened implementation" }
+![The Go to… button, four buttons with arrows for switching between elements and implementations, the tabs from Overview to Reports and the widget headings as jump targets](assets/course_planner_implementations_navigation_v3_en.png){ class="shadow lightbox" title="Header of an opened implementation · 2026.10.02" }
 
 
 [To the top of the page ^](#implementations)
@@ -103,7 +103,7 @@ If a maximum or minimum number of participants is defined, an additional note te
 * If a minimum is set: **"\<number\> to minimum"**
 * For fully booked or overbooked implementations, the corresponding message appears.
 
-![Seats left and the distance to the minimum number below the participant count, plus the course staff with their roles](assets/course_planner_implementations_widget_members2_v1_en.png){ class="shadow lightbox" title="Members widget in the Overview tab" }
+![Seats left and the distance to the minimum number below the participant count, plus the course staff with their role](assets/course_planner_implementations_widget_members2_v2_en.png){ class="shadow lightbox" title="Members widget in the Overview tab · 2026.10.02" }
 
 #### To-do widget [:octicons-tag-16:{ title="from Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
 
@@ -244,7 +244,7 @@ If the participants were made members of the educational product (the "copy temp
 To add participants to an implementation as members, use:<br>
 `Course Planner > Implementations > "your implementation" > Tab Members > Button "Add participants"`
 
-![The Add participants button at the top right of the member list, which starts the wizard for adding members](assets/course_planner_implementations_add_member_v1_en.png){ class="shadow lightbox" title="Members tab of an implementation" }
+![The Add participants button at the top right of the member list, which starts the wizard for adding members](assets/course_planner_implementations_add_member_v2_en.png){ class="shadow lightbox" title="Members tab of an implementation · 2026.10.02" }
 
 The wizard leads through the steps **User search**, **Booking order**, **Membership**, **Overview** and **Notification**. The **Booking order** step only exists if the implementation has offers.
 
@@ -402,7 +402,7 @@ If a booking order has a billing address with a recorded customer number, its de
 
 Everything that describes and controls an implementation is set in the sub-tabs of the settings. The sub-tabs "Metadata", "Infos", "Execution" and "Options" are always available, "Automation" and "Assessment" only under the conditions named in their sections below. For the implementation itself, not for its subordinate elements, the **Preview info page** button shows how the info page of the implementation appears.
 
-![The sub-tabs of the settings from Metadata to Options and the button for the preview of the info page](assets/course_planner_implementations_tab_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation" }
+![The sub-tabs of the settings from Metadata to Options and the Preview info page button](assets/course_planner_implementations_tab_settings_v3_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.02" }
 
 
 #### Metadata of the settings
@@ -466,7 +466,11 @@ Enabled automations run once a day at a fixed time. The information text above t
 
 As soon as at least one rule is active, the header of the implementation above the tabs shows the date of the next execution under "Automation". If no execution is pending, a dash appears there.
 
-![The Override mode and the rule table with context, automation, target status, condition and planned execution](assets/course_planner_implementations_tab_settings_automation_v3_en.png){ class="shadow lightbox" title="Automation sub-tab of the settings of an implementation" }
+**Table of rules:**
+
+Below the configuration, a table lists the rules of the element. The tabs "All", "Relevant", "Implementation" and "Content" above it narrow down the list; for elements with the use "Element", the third tab is called "Element". "Relevant" is preselected and shows only the rules that are switched on. "Implementation" and "Content" show the rules that concern the implementation itself or its courses. For each rule, the columns give "Context", "Automation", "Target status" and "Condition", plus under "Implementation status is", for elements "Element status is", the status that the implementation or the element must have for the execution, as well as "Planned execution" and "Execution date". The toggle in the "Rule" column shows whether the rule is switched on.
+
+![The Override mode and the table of rules with context, automation, target status, condition and planned execution](assets/course_planner_implementations_tab_settings_automation_v4_en.png){ class="shadow lightbox" title="Automation sub-tab of the settings of an implementation · 2026.10.02" }
 
 [To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
 [To the to-dos on CPL elements >](Course_Planner_Todos.md)
@@ -476,15 +480,17 @@ As soon as at least one rule is active, the header of the implementation above t
 
 The sub-tab "Assessment" requires certification programs to be switched on in the OpenOlat instance, which is the default. It is then displayed for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
 
-* Use the **"Certification program"** toggle to enable or disable the link.
-* If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Reference, validity period, recertification and required credit points. Only programs you have access to are displayed.
-* If a program is linked, a panel shows the program title. Validity period, recertification and required credit points appear there provided they are configured on the program. From there you open the program in a new tab (provided you have access to the program) or remove the link with **"Remove"**; the confirmation dialog "Remove certification program" completes the step. Removing requires the role Course planner or Product owner and must be confirmed. Participants who have already received a certificate remain members of the program.
+* Use the **"Certification program"** toggle to show the selection of a program. The link is only saved once you have selected a program; without a program, the toggle is back on "Off" the next time you open the sub-tab. If you switch it off while a program is linked, the same confirmation dialog appears as with **"Remove"**.
+* If no program is linked yet, use the **"Select"** button to choose a program. The "Select certification program" dialog shows title, reference, validity period, recertification and required credit points. It only lists programs whose **Administrative access** contains the organisation of the product. In addition, you must be a certification program owner of the program or have the role Administrator, Principal or Course planner in one of its organisations. If the list stays empty, check the Administrative access of the program first.
+* If a program is linked, a panel shows the program title and, if set, the reference. Validity period and required credit points appear there provided they are configured on the program, the recertification only if it is switched on for the program. Use **"Open"** to open the program in a new tab, provided you have access to the program. Use **"Remove"** to remove the link; the confirmation dialog "Remove certification program" completes the step. Participants who have already received a certificate remain members of the program.
 
-![The Certification program toggle and the Select button as long as no program is linked](assets/course_planner_implementations_tab_settings_assessment_v1_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings of an implementation" }
+The toggle and the "Select" and "Remove" buttons can be used by administrators, course planners and product owners.
 
-![The program list with title, validity period, recertification and required credit points](assets/course_planner_implementations_tab_settings_assessment_select_v1_en.png){ class="shadow lightbox" title="Select certification program dialog" }
+![The Certification program toggle and the Select button as long as no program is linked](assets/course_planner_implementations_tab_settings_assessment_v2_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings of an implementation · 2026.10.02" }
 
-![The linked program with the actions Remove and Open, shown when the Certification program toggle is on](assets/course_planner_implementations_tab_settings_assessment_linked_v1_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings" }
+![The program list with title, reference, validity period, recertification and required credit points](assets/course_planner_implementations_tab_settings_assessment_select_v2_en.png){ class="shadow lightbox" title="Select certification program dialog · 2026.10.02" }
+
+![The linked program with validity period, recertification and the actions Remove and Open, shown when the Certification program toggle is on](assets/course_planner_implementations_tab_settings_assessment_linked_v2_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings · 2026.10.02" }
 
 An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
 
@@ -563,9 +569,7 @@ Click on the + in front of an element to display the courses and events of the e
 
 In the detail areas "Courses", "Events" and "To-dos", the **"Activity"** column shows with an icon what happens to the individual row: copy, reuse or don't copy.
 
-An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the overview of the elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
-
-![The Shift all dates button, with which all dates can be moved together](assets/course_planner_implementations_copy4_v2_en.png){ class="shadow lightbox" title="Overview elements step" }
+An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the "Overview elements" step, at the top right of the list of elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
 
 ![Reference date, the choice of shifting by Date or Days and the new date](assets/course_planner_implementations_copy5_v2_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard" }
 

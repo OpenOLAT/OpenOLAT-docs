@@ -4,7 +4,7 @@ Im Course Planner gehört jede Aufgabe (To-do) zu einem Element, etwa zu einer D
 
 Die To-dos im Course Planner sehen Administrator:innen, Kursplaner:innen, Produktbesitzer:innen, Elementbesitzer:innen und Principals. Was welche Rolle damit tun darf, steht unter [Berechtigungen](#todo_permissions).
 
-![Der Button «To-dos» im Bereich Produktivität und das To-do-Widget mit den Kennzahlen Meine To-dos, Offen und Überfällig, beide hervorgehoben](assets/course_planner_todos_entry_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
+![Der Button «To-dos» im Bereich Produktivität und das To-do-Widget mit den Kennzahlen Meine To-dos, Offen und Überfällig, beide hervorgehoben](assets/course_planner_todos_entry_v2_de.png){ class="shadow lightbox" title="Startseite des Course Planners · 2026.10.02" }
 
 
 [Zum Seitenanfang ^](#course_planner_todos)
@@ -24,7 +24,7 @@ Drei Kennzahlen fassen den Stand zusammen:
 
 Ein Klick auf eine Kennzahl öffnet die To-do-Liste mit dem passenden Filter.
 
-Darunter listet das Widget die To-dos der Hauptkennzahl, standardmässig «Meine To-dos», mit Titel, Priorität, Fälligkeitstermin und Fälligkeit; überschrittene Termine erscheinen in Rot. Ein Klick auf den Titel öffnet das To-do. Mit dem Kreis vor dem Titel markieren Sie ein To-do direkt im Widget als erledigt. Der Kreis lässt sich anklicken, wenn Sie das To-do bearbeiten dürfen. Sind keine To-dos vorhanden, erscheint der Hinweis «Keine To-dos verfügbar.»
+Darunter listet das Widget die To-dos der Hauptkennzahl, standardmässig «Meine To-dos», mit den Spalten Titel, Priorität, Fälligkeitstermin und Fälligkeit; überschrittene Termine erscheinen in Rot. Ein Klick auf den Titel öffnet das To-do. Mit dem Kreis vor dem Titel markieren Sie ein To-do direkt im Widget als erledigt. Der Kreis lässt sich anklicken, wenn Sie das To-do bearbeiten dürfen. Sind keine To-dos vorhanden, erscheint der Hinweis «Keine To-dos verfügbar.» Der Button «Alle anzeigen» öffnet die To-do-Liste mit dem Filter «Alle».
 
 Wie eine Übersichtsseite aufgebaut ist und wie Sie über «Einstellungen ändern» Hauptkennzahl, Kennzahlen und Anzahl Einträge wählen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
@@ -109,7 +109,7 @@ Jede Person, die Sie unter «Zugewiesen» oder «Delegiert» eintragen, erhält 
 
 Die übrigen Felder des Dialogs sind unter [Erstellen eines To-dos](#create_todo) beschrieben. Ein relatives Datum berechnet OpenOlat für jede gewählte Durchführung aus deren eigenem Durchführungszeitraum. Der Dialog zeigt deshalb kein berechnetes Datum an.
 
-![Der Button «To-dos erstellen» über der Tabelle mit zwei ausgewählten Durchführungen und der Dialog ohne Feld Kontext](assets/course_planner_todos_bulk_create_v1_de.png){ class="shadow lightbox" title="Dialog To-dos erstellen in der Durchführungsübersicht" }
+![Zwei ausgewählte Durchführungen, der Button «To-dos erstellen» über der Tabelle und der Dialog ohne Feld Kontext](assets/course_planner_todos_bulk_create_v1_de.png){ class="shadow lightbox" title="Dialog To-dos erstellen in der Durchführungsübersicht" }
 
 !!! info "Wichtig"
     Die Auswahlfelder «Zugewiesen» und «Delegiert» zeigen nur Personen, die in allen gewählten Durchführungen Elementbesitzer:in oder Kursbesitzer:in sind. Dazu kommen die Produktbesitzer:innen sowie die Kursplaner:innen und Administrator:innen der Organisation des Produkts.
@@ -152,7 +152,7 @@ Im Tab «To-dos» eines Elements klicken Sie auf **«To-do erstellen»**. Der Di
 * **Zeitaufwand**: Geschätzter Aufwand in Wochen, Tagen und Stunden, Eingabeformat `3w 1d 6h`.
 * **Beschreibung**: Ergänzende Informationen zur Aufgabe.
 
-Zur Auswahl bei «Zugewiesen» und «Delegiert» stehen die Elementbesitzer:innen und Kursbesitzer:innen des Elements, die Produktbesitzer:innen sowie die Kursplaner:innen und Administrator:innen der Organisation des Produkts. Beim späteren Bearbeiten enthält der Dialog dieselben Felder.
+Zur Auswahl bei «Zugewiesen» und «Delegiert» stehen die Elementbesitzer:innen und Kursbesitzer:innen des Elements, die Produktbesitzer:innen sowie die Kursplaner:innen und Administrator:innen der Organisation des Produkts. Beim späteren Bearbeiten enthält der Dialog dieselben Felder und darunter den aufklappbaren Abschnitt «Metadaten». Er zeigt unter «Erstellt» und «Letzte Änderung» je das Datum und die Person.
 
 Jede Person, die Sie unter «Zugewiesen» oder «Delegiert» neu eintragen, erhält die E-Mail «Neues To-do» mit einem Link auf das To-do. Tragen Sie sich selbst ein, geht keine E-Mail los. Die Regeln stehen unter [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications).
 
@@ -186,7 +186,7 @@ Bei einem erledigten To-do bleibt deshalb nur **«Bearbeiten»** sichtbar.
 
 In den Tabellen des Course Planners erscheinen die Schnellaktionen für die Rollen, die das Element bearbeiten dürfen (siehe [Berechtigungen](#todo_permissions)). In der persönlichen To-do-Liste erscheinen sie für die zugewiesene und die delegierte Person; im Dialog lässt sich dort nur der Status ändern.
 
-![Ein erledigtes To-do mit letzter Änderung, Tags, Terminen, Fortschrittsbalken, zugewiesenen Personen und der Aktion «Bearbeiten»](assets/course_planner_todos_details_v1_de.png){ class="shadow lightbox" title="Aufgeklappter Detailbereich im Tab To-dos" }
+![Ein aufgeklapptes, erledigtes To-do mit letzter Aktualisierung, Tags, Terminen, Fortschrittsbalken, zugewiesenen Personen und der Aktion «Bearbeiten»](assets/course_planner_todos_details_v1_de.png){ class="shadow lightbox" title="Aufgeklappter Detailbereich im Tab To-dos" }
 
 
 [Zum Seitenanfang ^](#course_planner_todos)

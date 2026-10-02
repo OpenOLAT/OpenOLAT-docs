@@ -2,7 +2,7 @@
 
 Ein To-do ist eine Aufgabe mit einer verantwortlichen Person und einem Termin. OpenOlat führt To-dos in mehreren Modulen, überall mit denselben Feldern und demselben Statusmodell. Diese Seite beschreibt, was für alle To-dos gilt. Wie Sie in einem Modul damit arbeiten, steht auf der Seite des Moduls.
 
-![Statuskreise, die Spalten Kontext Typ und Kontext und ein aufgeklappter Detailbereich mit den Aktionen Starten, Als erledigt markieren und Bearbeiten](assets/to_do_basics_personal_list_v1_de.png){ class="shadow lightbox" title="Persönliche To-do-Liste" }
+![Statuskreise, Spalten Kontext Typ und Kontext, aufgeklappter Detailbereich mit Starten, Als erledigt markieren und Bearbeiten, rechts der markierte Eintrag To-dos im persönlichen Menü](assets/to_do_basics_personal_list_v1_de.png){ class="shadow lightbox" title="Persönliche To-do-Liste" }
 
 
 ## Wo gibt es To-dos?
@@ -19,9 +19,9 @@ Aufgaben werden dort erfasst, wo sie anfallen. Im persönlichen Menü laufen sie
 | [Qualitätsmanagement](../area_modules/Quality_Management_To-dos.de.md) | Massnahmen, die aus einer Datenerhebung hervorgehen |
 
 
-## Die Felder eines To-dos
+## Die Felder eines To-dos [:octicons-tag-16:{ title="ab Release 18.0 (OO-6852)" }](https://track.frentix.com/issue/OO-6852){:target="_blank"} {: #to_do_fields}
 
-Alle Module verwenden dieselbe Karteikarte. Drei Angaben gibt es nur in einem Modul.
+Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben gibt es nur in einem Modul.
 
 | Feld | Bedeutung | Verfügbar |
 |---|---|---|
@@ -36,8 +36,8 @@ Alle Module verwenden dieselbe Karteikarte. Drei Angaben gibt es nur in einem Mo
 | Tags | Frei vergebbare Schlagwörter | überall |
 | Beschreibung | Ergänzende Informationen zur Aufgabe | überall |
 | Kontext | Modul und Objekt, aus dem das To-do stammt. In der Liste als Spalten «Kontext Typ» und «Kontext» | überall |
+| Metadaten | «Erstellt» und «Letzte Änderung», je mit Datum und Person. Der aufklappbare Abschnitt erscheint im Dialog, sobald das To-do besteht. Im Projekt und im Qualitätsmanagement führt er zusätzlich alle Änderungen auf | überall |
 | Links | Verknüpfung des To-dos mit Dateien, Terminen und Entscheidungen | nur im Projekt |
-| Metadaten | Erstellung und alle Änderungen mit Person und Datum | nur im Projekt |
 | Relative Datumsangaben | Startdatum und Fälligkeitstermin bezogen auf den Durchführungszeitraum statt als festes Kalenderdatum | nur im [Course Planner](../area_modules/Course_Planner_Todos.de.md#relative_date) |
 
 Einmal erstellte Tags stehen auch in anderen To-dos zur Auswahl. Es handelt sich dabei nicht um eine hierarchisch strukturierte Verschlagwortung, wie sie die Taxonomie an anderen Stellen in OpenOlat bietet.
@@ -70,7 +70,7 @@ Bearbeitungsrechte haben die Person, die das To-do erstellt hat, die zugewiesene
 To-dos löschen Sie dort, wo sie erstellt wurden. In der persönlichen To-do-Liste löschen Sie Ihre persönlichen To-dos und die To-dos, bei denen das Modul der zugewiesenen Person das Löschen erlaubt.
 
 
-## Wann OpenOlat E-Mails zu To-dos verschickt {: #notifications}
+## Wann OpenOlat E-Mails zu To-dos verschickt [:octicons-tag-16:{ title="ab Release 18.0 (OO-7006)" }](https://track.frentix.com/issue/OO-7006){:target="_blank"} {: #notifications}
 
 Wer ein To-do übernehmen soll, erfährt das per E-Mail und muss nicht erst in der To-do-Liste nachsehen. OpenOlat verschickt E-Mails zu To-dos in zwei Fällen:
 
@@ -100,6 +100,7 @@ Eine Einstellung, die E-Mails zu To-dos abschaltet, gibt es nicht. Beim Kopieren
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>
-[Modul To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.de.md)
+[Modul To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
+[Persönliches Menü >](../personal_menu/index.de.md)
 
 [Zum Seitenanfang ^](#to_dos_basics)

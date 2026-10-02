@@ -1,23 +1,23 @@
 # ![Symbol To-dos](assets/icon_todo.png) Persönliche Werkzeuge: To-dos {: #to_dos}
 
-![Eintrag To-dos im Menü Persönliche Werkzeuge: Zugang zu allen To-dos aus Kursen, Projekten, Qualitätsmanagement und Course Planner sowie zu den eigenen To-dos](assets/pers_menu_todos_v3_de.png){ class="aside-right lightbox"}
+![Eintrag To-dos, mit Rahmen markiert, in der Gruppe Persönliche Werkzeuge: Einstieg zu den persönlichen To-dos und zu allen To-dos, bei denen Sie zugewiesen oder delegiert sind](assets/pers_menu_todos_v4_de.png){ class="aside-right lightbox" }
 
 Im persönlichen Werkzeug «To-dos» sehen Sie alle To-dos, bei denen Sie zugewiesen oder delegiert sind, gleich aus welchem Modul sie stammen: aus Kursen und aus dem Kursbaustein «Aufgabe», aus Projekten, aus dem Qualitätsmanagement und aus dem Course Planner. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} Dazu kommen Ihre persönlichen To-dos, die Sie hier selbst erstellen. Das Werkzeug steht allen Benutzer:innen zur Verfügung, Gäste ausgenommen. Was für alle To-dos gilt, steht unter [To-dos: Grundlagen](../basic_concepts/To_Dos_Basics.de.md).
 
 Ob das Werkzeug im persönlichen Menü erscheint, wer persönliche To-dos erstellen darf und ob sie sich anderen Personen zuweisen lassen, legen Administrator:innen in der System-Administration fest: `Administration > Module > To-do` (siehe [Modul To-do](../../manual_admin/administration/Modules_ToDo.de.md)).
 
-![Tabelle aller persönlichen To-dos mit Fälligkeit, Status und Kontext je Eintrag, darüber die Tabs von Meine To-dos bis Gelöscht, die Filter und der Button To-do erstellen](assets/To_do_allgemein.png){ class="shadow lightbox" title="Seite To-dos in den persönlichen Werkzeugen" }
+![Persönliche To-dos mit Priorität, Fälligkeitstermin, Fälligkeit und Status je Zeile, mit Rahmen markiert die Tabs Alle bis Gelöscht und der Button To-do erstellen](assets/pers_menu_todos_list_v1_de.png){ class="shadow lightbox" title="Seite To-dos im Menü Persönliche Werkzeuge · 2026.10.02" }
 
-Über den Button **«To-do erstellen»** legen Sie ein persönliches To-do an.
+Über den Button **«To-do erstellen»** legen Sie ein persönliches To-do an. Die Felder des Dialogs «To-do bearbeiten» stehen unter [Die Felder eines To-dos](../basic_concepts/To_Dos_Basics.de.md#to_do_fields).
 
-![Felder Titel, Kontext, Tags, Status, Priorität, Startdatum, Fälligkeitstermin, Zeitaufwand und Beschreibung eines persönlichen To-dos](assets/To-do_erstellen.png){ class="shadow lightbox" title="Dialog To-do bearbeiten" }
+![Felder eines neuen persönlichen To-dos, Titel als Pflichtfeld markiert, dazu Kontext, Tags, Status, Priorität, Startdatum, Fälligkeitstermin, Zeitaufwand und Beschreibung](assets/pers_menu_todos_create_v1_de.png){ class="shadow lightbox" title="Dialog To-do bearbeiten · 2026.10.02" }
 
 
 ## Die To-do Übersicht [:octicons-tag-16:{ title="ab Release 18.1 (OO-7038)" }](https://track.frentix.com/issue/OO-7038){:target="_blank"} {: #to_dos_overview}
 
-In der Tabelle sehen Sie auf einen Blick, welche Aufgaben anstehen und welche überfällig sind. Mit den Tabs und Filtern grenzen Sie die Liste ein. Über das Zahnrad-Symbol öffnen Sie das Menü «Spalten auswählen» und legen fest, welche Spalten die Tabelle zeigt.
+In der Tabelle sehen Sie auf einen Blick, welche Aufgaben anstehen und welche überfällig sind. Mit den Tabs «Alle», «Meine To-dos», «Offen», «Überfällig», «Erledigte» und «Gelöscht» und mit den Filtern grenzen Sie die Liste ein. Über das Zahnrad-Symbol öffnen Sie das Menü «Spalten auswählen» und legen fest, welche Spalten die Tabelle zeigt.
 
-![Aufgeklappte Detailansicht eines To-dos mit Status, Priorität, Daten, Zeitaufwand und Beschreibung, rechts das geöffnete Menü Spalten auswählen mit den wählbaren Tabellenspalten](assets/To_do_aufgeklappt.png){ class="shadow lightbox" title="Aufgeklappte Zeile und Menü Spalten auswählen" }
+![Aufgeklappte Zeile mit den Schnellaktionen Starten, Als erledigt markieren und Bearbeiten, daneben das Menü Spalten auswählen, beides mit Rahmen markiert](assets/pers_menu_todos_details_v1_de.png){ class="shadow lightbox" title="Aufgeklappte Zeile und Menü Spalten auswählen · 2026.10.02" }
 
 Über das Pluszeichen am Zeilenanfang klappen Sie den Detailbereich eines To-dos auf. Dort stehen je nach Status die Schnellaktionen «Starten», «Als erledigt markieren» und «Bearbeiten», beschrieben unter [Status und Schnellaktionen](../basic_concepts/To_Dos_Basics.de.md#status_quick_actions).
 
