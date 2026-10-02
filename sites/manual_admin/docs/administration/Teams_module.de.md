@@ -47,6 +47,8 @@ Soll eine Organisation Aufzeichnungen von Online-Terminen in OpenOlat bereitstel
 
 Der Abschnitt erscheint erst, wenn das Modul eingeschaltet ist. Die vier Einstellungen nach dem Schalter erscheinen erst, wenn die Funktion "Terminaufzeichnung" eingeschaltet ist.
 
+![Abschnitt Terminaufzeichnung mit eingeschalteter Funktion, hervorgehoben die vier Standardeinstellungen zu Aufzeichnung, Aufnahmestart, automatischer Veröffentlichung und Löschfrist](assets/teams_module_recording_v1_de.png){ class="shadow lightbox" title="Abschnitt Terminaufzeichnung im Tab Konfiguration des Moduls Microsoft Teams · 2026.10.02" }
+
 #### Funktion "Terminaufzeichnung" {: #recording_enabled}
 
 Schaltet die Terminaufzeichnung für die ganze Instanz ein oder aus. Ist sie ausgeschaltet, fehlen die Einstellungen zur Aufzeichnung in jedem Online-Termin, und OpenOlat holt keine Aufzeichnung ab, auch für Online-Termine, die früher mit eingeschalteter Terminaufzeichnung gespeichert wurden.

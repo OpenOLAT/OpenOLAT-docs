@@ -47,6 +47,8 @@ If an organisation wants to provide recordings of online meetings in OpenOlat an
 
 The section only appears when the module is switched on. The four settings after the switch only appear when the function "Meeting recording" is switched on.
 
+![Meeting recording section with the function switched on, highlighting the four default settings for recording, recording start, automatic publishing and deletion period](assets/teams_module_recording_v1_en.png){ class="shadow lightbox" title="Section Meeting recording in the Configuration tab of the Microsoft Teams module · 2026.10.02" }
+
 #### Function "Meeting recording" {: #recording_enabled}
 
 Switches meeting recording on or off for the whole instance. If it is switched off, the recording settings are missing in every online meeting, and OpenOlat does not fetch any recording, also for online meetings that were saved earlier with meeting recording switched on.
