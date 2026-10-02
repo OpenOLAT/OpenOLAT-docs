@@ -11,7 +11,7 @@ Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOla
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und die Auswahl der Angaben in der Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" }
+![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und die Auswahl der Angaben in der Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
 
 Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheinen: «Produkt in "Meine Kurse"» und die «Benutzer:innen-Übersicht». Fünf Einstiege öffnen dieselbe Liste:
 
@@ -23,7 +23,7 @@ Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheine
 
 Der Schalter «Produkt in "Meine Kurse"» schaltet den Einstieg unter `Kurse > Bildungsprodukte` ein oder aus. Die «Benutzer:innen-Übersicht» bestimmt, was Linienvorgesetzte und Ausbildungsverantwortliche unter `Coaching > Personen > "Person"` sehen.
 
-![Fünf Einstiege führen auf dieselbe Liste der Durchführungen, ein Klick auf den Titel öffnet ihre Struktur.](assets/modules_course_planner_entry_points_v1_de.svg){ class="shadow lightbox" }
+![Fünf Einstiege führen auf dieselbe Liste der Durchführungen, ein Klick auf den Titel öffnet ihre Struktur.](assets/modules_course_planner_entry_points_v1_de.svg){ class="shadow lightbox" title="Einstiege in die Liste der Durchführungen" }
 
 #### Course Planner einschalten {: #enable_course_planner }
 
@@ -51,7 +51,7 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt 
 * **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Der Zugang kann mit der Angebotsart "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
 * **Verwendung im Course Planner**: Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
-![Die Einstellung «Standardmässiger Verwendungszweck für neue Kurse» mit den Karten Eigenständig und Verwendung im Course Planner, im Menüpunkt Course Planner der System-Administration](assets/modules_course_planner_usage_v1_de.png){ class="shadow lightbox" }
+![Die Einstellung «Standardmässiger Verwendungszweck für neue Kurse» mit den Karten Eigenständig und Verwendung im Course Planner, im Menüpunkt Course Planner der System-Administration](assets/modules_course_planner_usage_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
 
 !!! tip "Tipp"
 
@@ -82,7 +82,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 | #Eltern | Anzahl übergeordneter Elementtypen, die diesen Typ als Kindelement zulassen |
 | #Kinder | Anzahl der Elementtypen, die als Kindelemente dieses Typs definiert sind |
 
-![Übersichtstabelle der Elementtypen mit den Buttons zum Erstellen neuer Typen, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_types_v1_de.png){ class="shadow lightbox" }
+![Übersichtstabelle der Elementtypen mit den Buttons zum Erstellen neuer Typen, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_types_v1_de.png){ class="shadow lightbox" title="Tab Elementtypen in der System-Administration" }
 
 
 [Zum Seitenanfang ^](#module_course_planner)
@@ -94,7 +94,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 
 Zwei Buttons legen neue Elementtypen an: **«Typ für Durchführung erstellen»** und **«Typ für Element erstellen»**. Die Wahl des Buttons bestimmt die Verwendung des Typs und lässt sich im Dialog nicht mehr ändern. Einen bestehenden Typ öffnen Sie über das :fontawesome-regular-pen-to-square:-Symbol.
 
-![Der Dialog «Typ für Durchführung erstellen» mit Titel, Kennzeichen, Beschreibung, den Features und der Konfiguration von Unterelementen und Inhalt, in der System-Administration](assets/modules_course_planner_element_type_create_v1_de.png){ class="shadow lightbox" }
+![Der Dialog «Typ für Durchführung erstellen» mit Titel, Kennzeichen, Beschreibung, den Features und der Konfiguration von Unterelementen und Inhalt, in der System-Administration](assets/modules_course_planner_element_type_create_v1_de.png){ class="shadow lightbox" title="Dialog Typ für Durchführung erstellen" }
 
 #### Titel (Pflichtfeld) {: #element_type_title }
 
@@ -163,7 +163,7 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und wechseln Sie zum Tab **«Automatisierung»**. Über **«Automatisierungsregel hinzufügen»** fügen Sie neue Regeln hinzu.
 
-![Abschnitt Automatisierung im Dialog eines Elementtyps: Schalter, Filter und Regeltabelle mit Kontext, Zielstatus und Bedingung, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" }
+![Abschnitt Automatisierung im Dialog eines Elementtyps: Schalter, Filter und Regeltabelle mit Kontext, Zielstatus und Bedingung, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" title="Tab Automatisierung eines Elementtyps" }
 
 Jede Automatisierungsregel enthält:
 
@@ -177,15 +177,30 @@ Jede Automatisierungsregel enthält:
 
 ---
 
+## Daten in den Course Planner importieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"} {: #import}
+
+Wer einen Course Planner mit vielen Produkten und Durchführungen aufbaut oder in grosser Zahl aktualisiert, muss sie nicht einzeln erfassen: Kursplaner:innen und Administrator:innen lesen Produkte, Durchführungen, Benutzer:innen und Mitgliedschaften mit dem Import-Assistenten aus einer Excel-Datei ein. Der Import ist keine Einstellung der System-Administration. Den Assistenten starten Sie auf der Startseite des Course Planners über das Mehr-Menü (⋮) oben rechts mit dem Eintrag «Importieren».
+
+Wie der Assistent die Datei Schritt für Schritt prüft und was er anlegt oder ändert, beschreibt im Benutzerhandbuch die Seite [Course Planner: Import / Export](../../manual_user/area_modules/Course_Planner_Import_Export.de.md). Alle Fehler- und Warnungsmeldungen sowie die Feldregeln der Excel-Datei listet die [Course Planner: Import/Export - Referenz](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.de.md).
+
+[Zum Seitenanfang ^](#module_course_planner)
+
+---
+
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import/Export - Referenz >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.de.md)
+
+**Weiterführend**<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
-[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)
 
 [Zum Seitenanfang ^](#module_course_planner)
 

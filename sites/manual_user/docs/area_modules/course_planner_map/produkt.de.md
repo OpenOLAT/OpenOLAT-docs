@@ -30,6 +30,7 @@ Das Produkt ist die zentrale Kopiervorlage, auf der die Durchführungen basieren
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
 [Lebenszyklen: Übersicht >](../../../manual_admin/administration/Life_cycles_-_Administration.de.md)
 
 [Zum Seitenanfang ^](#product)

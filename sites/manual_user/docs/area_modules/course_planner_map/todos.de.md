@@ -7,7 +7,7 @@ Aus einer Durchführung entstehen laufend Aufgaben: den Raum bestätigen, Unterl
 
 ## Wie setze ich das um?
 
-Auf einem Element im Tab «To-dos» über «To-do erstellen» eine Aufgabe anlegen (Titel und Zuweisung sind Pflichtfelder). Die zentrale Übersicht über alle Produkte öffnen Sie über den Launcher «To-dos» in der Gruppe «Produktivität» auf dem Dashboard.
+Auf einem Element im Tab «To-dos» über «To-do erstellen» eine Aufgabe anlegen (Titel ist Pflichtfeld, «Zugewiesen» kann leer bleiben), oder für mehrere Durchführungen zugleich über die Sammelaktion «To-dos erstellen». Die zentrale Übersicht über alle Produkte öffnen Sie über den Button «To-dos» im Bereich «Produktivität» auf der Startseite des Course Planners.
 
 ## Vorbedingungen
 
@@ -20,10 +20,12 @@ Course Planner aktiviert. Für relative Fälligkeits-/Startdaten muss ein Durchf
 
 ## Zusammenhänge
 
-To-dos lassen sich auf Übersicht, Produkt, Durchführung und einzelnem Element erfassen. Kursplaner:innen und Elementbesitzer:innen erstellen und bearbeiten, Kursbesitzer:innen können nur erledigen, Principals nur einsehen. Beim Kopieren einer Durchführung werden To-dos übernommen.
+Jedes To-do gehört zu einem Element; die zentrale Übersicht und der Tab «To-dos» eines Produkts fassen die To-dos zusammen. Administrator:innen, Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen erstellen und bearbeiten To-dos, Principals sehen sie nur ein. Zugewiesene und delegierte Personen, auch Kursbesitzer:innen, ändern in der persönlichen To-do-Liste nur den Status. Beim Kopieren einer Durchführung werden To-dos übernommen.
 
 ## Weiterführende Informationen {: #further_information}
 
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.de.md)
+
+[Zum Seitenanfang ^](#todos)

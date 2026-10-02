@@ -27,4 +27,7 @@ The membership exists at implementation level, not at course or product level. O
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)
+
+[To the top of the page ^](#members)

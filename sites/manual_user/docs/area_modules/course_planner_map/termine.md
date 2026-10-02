@@ -27,4 +27,7 @@ Events refer to an implementation or an element and allow the recording of absen
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Events >](../Course_Planner_Events.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)<br>
 [Events and Absences >](../../basic_concepts/Events_and_Absences.md)
+
+[To the top of the page ^](#events)

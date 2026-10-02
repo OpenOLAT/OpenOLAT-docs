@@ -27,4 +27,7 @@ Teilnehmer:innen werden Mitglieder einer Durchführung (nicht des Produkts oder 
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
-[Course Planner: Termine >](../Course_Planner_Events.de.md)
+[Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)
+
+[Zum Seitenanfang ^](#implementation)

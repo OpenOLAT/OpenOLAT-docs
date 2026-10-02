@@ -11,7 +11,7 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 
 ### Tab Course Planner {: #tab_course_planner}
 
-![Switch to turn on Course Planner, Product in "My courses" and the selection of the entries in the User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" }
+![Switch to turn on Course Planner, Product in "My courses" and the selection of the entries in the User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
 
 Two switches in this tab determine where products and implementations appear: Product in "My courses" and the User overview. Five entry points open the same list:
 
@@ -23,7 +23,7 @@ Two switches in this tab determine where products and implementations appear: Pr
 
 The switch Product in "My courses" turns the entry point under `Courses > Educational products` on or off. The User overview determines what line managers and education managers see under `Coaching > People > "Person"`.
 
-![Five entry points lead to the same list of implementations, a click on the title opens their structure.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" }
+![Five entry points lead to the same list of implementations, a click on the title opens their structure.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" title="Entry points to the list of implementations" }
 
 #### Turn on Course Planner {: #enable_course_planner }
 
@@ -51,7 +51,7 @@ Courses can be intended for stand-alone use or for integration into a product. A
 * **Standalone**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog.
 * **Use in Course Planner**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 
-![The setting "Standard purpose for new courses" with the cards Standalone and Use in Course Planner, in the Course Planner menu item of the system administration](assets/modules_course_planner_usage_v1_en.png){ class="shadow lightbox" }
+![The setting "Standard purpose for new courses" with the cards Standalone and Use in Course Planner, in the Course Planner menu item of the system administration](assets/modules_course_planner_usage_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
 
 !!! tip "Tip"
 
@@ -83,7 +83,7 @@ The overview table shows all element types that have been created. An element ty
 | #Parents | Number of superordinate element types that allow this type as a child element |
 | #Children | Number of element types defined as child elements of this type |
 
-![Overview table of the element types with the buttons for creating new types, in the Element types tab of the system administration](assets/modules_course_planner_element_types_v1_en.png){ class="shadow lightbox" }
+![Overview table of the element types with the buttons for creating new types, in the Element types tab of the system administration](assets/modules_course_planner_element_types_v1_en.png){ class="shadow lightbox" title="Element types tab in the system administration" }
 
 
 [To the top of the page ^](#module_course_planner)
@@ -95,7 +95,7 @@ The overview table shows all element types that have been created. An element ty
 
 Two buttons create new element types: **"Create type for implementation"** and **"Create type for element"**. The button you choose determines the use of the type and cannot be changed in the dialog. An existing type is opened via the :fontawesome-regular-pen-to-square: symbol.
 
-![The dialog "Create type for implementation" with title, reference, description, the features and the configuration of subelements and content, in the system administration](assets/modules_course_planner_element_type_create_v1_en.png){ class="shadow lightbox" }
+![The dialog "Create type for implementation" with title, reference, description, the features and the configuration of subelements and content, in the system administration](assets/modules_course_planner_element_type_create_v1_en.png){ class="shadow lightbox" title="Dialog Create type for implementation" }
 
 #### Title (mandatory field) {: #element_type_title }
 
@@ -164,7 +164,7 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the **"Automation"** tab. Use **"Add automation rule"** to add new rules.
 
-![Automation section in the dialog of an element type: switch, filters and rule table with context, target status and condition, in the Element types tab of the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" }
+![Automation section in the dialog of an element type: switch, filters and rule table with context, target status and condition, in the Element types tab of the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" title="Automation tab of an element type" }
 
 Each automation rule contains:
 
@@ -178,15 +178,30 @@ Each automation rule contains:
 
 ---
 
+## Importing data into the Course Planner [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"} {: #import}
+
+Anyone who sets up a Course Planner with many products and implementations or updates them in large numbers does not have to record them one by one: course planners and administrators read products, implementations, users and memberships from an Excel file with the import wizard. The import is not a setting of the system administration. You start the wizard on the Course Planner start page via the more menu (⋮) at the top right with the entry "Import".
+
+How the wizard checks the file step by step and what it creates or changes is described in the user manual on the page [Course Planner: Import / Export](../../manual_user/area_modules/Course_Planner_Import_Export.md). All error and warning messages as well as the field rules of the Excel file are listed in the [Course Planner: Import/Export - Reference](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md).
+
+[To the top of the page ^](#module_course_planner)
+
+---
+
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
+[Course Planner: Import/Export - Reference >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md)
+
+**Further reading**<br>
 [How can I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
-[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)
 
 [To the top of the page ^](#module_course_planner)
 

@@ -27,4 +27,7 @@ Termine beziehen sich auf eine Durchführung bzw. ein Element und ermöglichen A
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Termine >](../Course_Planner_Events.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
 [Termine und Absenzen >](../../basic_concepts/Events_and_Absences.de.md)
+
+[Zum Seitenanfang ^](#events)

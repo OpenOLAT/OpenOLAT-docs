@@ -178,11 +178,11 @@ Legende: :material-check: Zugang beziehungsweise Aktion verfügbar · :material-
 | Template | Hinzufügen, Lesen, Instanzieren, Entfernen | Hinzufügen, Lesen, Instanzieren, Entfernen | Hinzufügen, Lesen, Instanzieren, Entfernen | Lesen | Hinzufügen, Lesen, Instanzieren, Entfernen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | Kurs | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Hinzufügen, Lesen, Entfernen | Lesen | Hinzufügen, Lesen, Entfernen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 | To-do | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Erstellen, Lesen, Bearbeiten, Löschen | Lesen | Erstellen, Lesen, Bearbeiten, Löschen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
-| To-do (zugewiesen oder delegiert) | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
+| To-do (zugewiesen oder delegiert) | :material-check: | :material-check: | :material-check: | :material-cancel: | :material-check: | :material-check: | :material-cancel: | :material-cancel: | :material-cancel: |
 | Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9721)" }](https://track.frentix.com/issue/OO-9721){:target="_blank"} | Lesen | Lesen | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: | :material-cancel: |
 
 !!! info "Kurs- und Gruppenrollen im Course Planner"
-    Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sind Kurs- beziehungsweise Gruppenrollen. Im Course Planner selbst haben sie keine eigenen Verwaltungsrechte; ihre Aufgaben liegen in der Durchführung des Kurses. Eine Ausnahme bilden To-dos, die einer Person persönlich zugewiesen oder delegiert wurden: Diese kann die betreffende Person unabhängig von ihrer Rolle im Course Planner bearbeiten.
+    Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in sind Kurs- beziehungsweise Gruppenrollen. Im Course Planner selbst haben sie keine eigenen Verwaltungsrechte; ihre Aufgaben liegen in der Durchführung des Kurses. Eine Ausnahme bilden To-dos: Kursbesitzer:innen lassen sich einem To-do zuweisen oder als delegierte Person eintragen. In der persönlichen To-do-Liste ändern sie dann dessen Status, alle übrigen Angaben bearbeiten die Rollen mit Bearbeitungsrecht im Course Planner.
 
 [Zum Seitenanfang ^](#course_planner)
 
@@ -242,7 +242,7 @@ Der Bereich **Produktivität** enthält die Werkzeuge für die laufende Arbeit: 
 
 #### To-dos [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
 
-To-dos lassen sich im Course Planner auf verschiedenen Ebenen erfassen: in der Übersicht, auf dem Produkt, auf der Durchführung und auf jedem einzelnen Element. Eine zentrale Übersicht fasst alle To-dos über alle Produkte hinweg zusammen. Das To-do-Widget auf dem Dashboard zeigt offene und überfällige Aufgaben auf einen Blick.
+Im Course Planner gehört jedes To-do zu einem Element, etwa zu einer Durchführung oder zu einem ihrer untergeordneten Elemente. Sie erstellen To-dos im Tab «To-dos» eines Elements oder per Sammelaktion für mehrere Durchführungen zugleich. Die zentrale Übersicht und der Tab «To-dos» eines Produkts fassen die To-dos zusammen. Das To-do-Widget auf der Startseite des Course Planners zeigt offene und überfällige To-dos auf einen Blick.
 
 ![Alle To-dos mit Priorität, Fälligkeit, Status, Produkt, Element, Zuweisung und Tags, überfällige Einträge in Rot](assets/course_planner_todos_v1_de.png){ class="shadow lightbox" title="Bereich To-dos im Course Planner" }
 

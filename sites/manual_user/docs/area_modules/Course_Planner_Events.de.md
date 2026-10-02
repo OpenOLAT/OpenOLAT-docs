@@ -1,7 +1,7 @@
 # Course Planner: Termine [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
-![Der Weg zu den Terminen: der Eintrag Course Planner in der Hauptnavigation und der Button Termine, beide hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_access_v4_de.png){ class="shadow lightbox" }
+![Der Weg zu den Terminen: der Eintrag Course Planner in der Hauptnavigation und der Button Termine, beide hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_access_v4_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 ## Um welche Termine geht es im Course Planner? {: #type_of_events}
 
@@ -18,7 +18,7 @@ Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die i
 
 Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planners**. 
 
-![Eintrag Course Planner in der Hauptnavigation und Widget Termine mit Wochenleiste und den Terminen des gewählten Tages, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display1_v4_de.png){ class="shadow lightbox" }
+![Eintrag Course Planner in der Hauptnavigation und Widget Termine mit Wochenleiste und den Terminen des gewählten Tages, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display1_v4_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 
 
@@ -26,9 +26,9 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 
 Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine". Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl.
 
-![Button Termine im Bereich Produkte, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display2_v4_de.png){ class="shadow lightbox" }
+![Button Termine im Bereich Produkte, hervorgehoben auf der Übersicht des Course Planners](assets/course_planner_events_display2_v4_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
-![Alle Termine mit Status, Element, Kurs, Ort und Dozenten, darüber Zeitraum-Kacheln, Tabs und die Filter Produkt, Durchführung und Dozenten, Bereich Termine im Course Planner](assets/course_planner_events_display3_v2_de.png){ class="shadow lightbox" }
+![Alle Termine mit Status, Element, Kurs, Ort und Dozenten, darüber Zeitraum-Kacheln, Tabs und die Filter Produkt, Durchführung und Dozenten, Bereich Termine im Course Planner](assets/course_planner_events_display3_v2_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
 
 
 
@@ -38,14 +38,14 @@ Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Be
 Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Übersicht`
 
-![Widget Termine mit Wochenleiste und dem Termin des gewählten Tages, nummeriert der Weg über die Durchführung zum Tab Übersicht](assets/course_planner_events_display4_v2_de.png){ class="shadow lightbox" }
+![Widget Termine mit Wochenleiste und dem Termin des gewählten Tages, nummeriert der Weg über die Durchführung zum Tab Übersicht](assets/course_planner_events_display4_v2_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung" }
 
 **Alle** Termine einer Durchführung finden Sie unter<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
 Kann der Elementtyp der Durchführung Unterelemente enthalten, können Sie dort mit den Buttons "Alle Ebenen" und "Diese Ebene" alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
 
-![Tabs und Filter über der Terminliste mit Status, Ort und Dozenten, nummeriert der Weg über die Durchführung zum Tab Termine](assets/course_planner_events_display5_v2_de.png){ class="shadow lightbox" }
+![Tabs und Filter über der Terminliste mit Status, Ort und Dozenten, nummeriert der Weg über die Durchführung zum Tab Termine](assets/course_planner_events_display5_v2_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
 
 ### Ansichten {: #views}
 
@@ -53,11 +53,11 @@ Die Termine können als Zeitansicht (Timeline) oder als Tabelle dargestellt werd
 
 #### Zeitansicht
 
-![Umschalter zur Zeitansicht hervorgehoben, darunter die bevorstehenden Termine als Zeitachse nach Tagen, Bereich Termine im Course Planner](assets/course_planner_events_display7_v2_de.png){ class="shadow lightbox" }
+![Umschalter zur Zeitansicht hervorgehoben, darunter die bevorstehenden Termine als Zeitachse nach Tagen, Bereich Termine im Course Planner](assets/course_planner_events_display7_v2_de.png){ class="shadow lightbox" title="Zeitansicht im Bereich Termine" }
 
 #### Tabellenansicht
 
-![Umschalter zur Tabellenansicht hervorgehoben, darunter die Termine als Tabelle mit Datum, Zeit, Titel, Element und Status, Bereich Termine im Course Planner](assets/course_planner_events_display6_v2_de.png){ class="shadow lightbox" }
+![Umschalter zur Tabellenansicht hervorgehoben, darunter die Termine als Tabelle mit Datum, Zeit, Titel, Element und Status, Bereich Termine im Course Planner](assets/course_planner_events_display6_v2_de.png){ class="shadow lightbox" title="Tabellenansicht im Bereich Termine" }
 
 ### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
@@ -73,7 +73,7 @@ Bei modularisierten Kursen kann ein Termin Teilnehmer:innen aus mehreren Element
 
 Die Detailansicht zeigt zusätzlich Datum, Zeit, Teilnehmerzahl und Präsenzpflicht des Termins sowie den zugehörigen Kurs.
 
-![Die Detailansicht eines Termins mit Kurs und der Tabelle Für Teilnehmer:innen von, Standardelement, Teilnehmer:innen und Status, dazu das Menü mit Offen und Teilnehmer ausschliessen](assets/course_planner_events_event_elements_v1_de.png){ class="shadow lightbox" }
+![Die Detailansicht eines Termins mit Kurs und der Tabelle Für Teilnehmer:innen von, Standardelement, Teilnehmer:innen und Status, dazu das Menü mit Offen und Teilnehmer ausschliessen](assets/course_planner_events_event_elements_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
 
 
 [zum Seitenanfang ^](#events)
@@ -89,7 +89,7 @@ Da sich Termine auf eine Durchführung beziehen, finden Sie die Möglichkeit zum
 
 Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch importieren. 
 
-![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren, im Tab Termine einer Durchführung](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" }
+![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren, im Tab Termine einer Durchführung](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
 
 !!! tip "Damit ein Termin auch im Kalender erscheint"
 
@@ -113,7 +113,7 @@ In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label �
 
 Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!» unterhalb der Raumkarte; die Karte erhält dazu einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} Die Warnungen zu fehlenden Plätzen und zu inaktiven Räumen sehen Sie in der [Raumplanung](Course_Planner_Rooms.de.md#warnings).
 
-![Drei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung, in der Detailansicht eines Termins](assets/course_planner_events_room_booking_v1_de.png){ class="shadow lightbox" }
+![Drei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung, in der Detailansicht eines Termins](assets/course_planner_events_room_booking_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
 
 !!! note "Admin. Rechte erforderlich"
     Räume und Gebäude werden in der System-Administration unter `Administration > Module > Räume` verwaltet; dafür sind administrative Rechte erforderlich. Fehlen Ihnen diese Rechte, wenden Sie sich an eine Person mit administrativer Rolle, wenn Sie neue Räume benötigen oder Angaben zu einem Raum anpassen lassen möchten.
@@ -127,7 +127,7 @@ Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Ra
 
 Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei heruntergeladen werden. Verwenden Sie dazu den Button rechts oben über der Liste.
 
-![Der Download-Button rechts über der Terminliste, hervorgehoben im Bereich Termine des Course Planners](assets/course_planner_events_download_v1_de.png){ class="shadow lightbox" }
+![Der Download-Button rechts über der Terminliste, hervorgehoben im Bereich Termine des Course Planners](assets/course_planner_events_download_v1_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
 
 
 [zum Seitenanfang ^](#events)
@@ -147,6 +147,7 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>

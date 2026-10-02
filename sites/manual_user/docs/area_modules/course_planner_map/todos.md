@@ -7,7 +7,7 @@ An implementation continuously produces tasks: confirm the room, print the docum
 
 ## How do I do this?
 
-On an element, create a task in the "To-dos" tab via "Create to-do" (title and assignment are mandatory fields). Open the central overview of all products via the "To-dos" launcher in the "Productivity" group on the dashboard.
+On an element, create a task in the "To-dos" tab via "Create to-do" (the title is mandatory, "Assigned" can stay empty), or for several implementations at once with the bulk action "Create to-dos". Open the central overview of all products via the "To-dos" button in the "Productivity" area on the Course Planner start page.
 
 ## Prerequisites
 
@@ -20,10 +20,12 @@ Course Planner activated. For relative due/start dates, an implementation period
 
 ## Connections
 
-To-dos can be recorded on the overview, the product, the implementation and each single element. Course planners and element owners create and edit them, course owners can only mark them as done, principals can only view them. When an implementation is copied, the to-dos are copied along.
+Every to-do belongs to an element; the central overview and the "To-dos" tab of a product bring the to-dos together. Administrators, course planners, product owners and element owners create and edit to-dos, principals can only view them. Assigned and delegated persons, including course owners, only change the status in the personal to-do list. When an implementation is copied, the to-dos are copied along.
 
 ## Further information {: #further_information}
 
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.md)
+
+[To the top of the page ^](#todos)

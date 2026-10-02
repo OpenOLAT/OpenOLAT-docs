@@ -30,6 +30,7 @@ The product is the central copy template on which the implementations are based.
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)<br>
 [Life cycles: Overview >](../../../manual_admin/administration/Life_cycles_-_Administration.md)
 
 [To the top of the page ^](#product)

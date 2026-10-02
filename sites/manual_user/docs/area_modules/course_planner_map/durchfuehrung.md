@@ -27,4 +27,7 @@ Participants become members of an implementation (not of the product or of indiv
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
-[Course Planner: Events >](../Course_Planner_Events.md)
+[Course Planner: Events >](../Course_Planner_Events.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)
+
+[To the top of the page ^](#implementation)

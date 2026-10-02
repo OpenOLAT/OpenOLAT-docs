@@ -10,6 +10,8 @@ The overview shows, for example:
 
 ![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Dashboard of the Course Planner" }
 
+Course planners and administrators also see the more menu (⋮) at the top right with the entry **Import**. It starts the [import wizard](Course_Planner_Import_Export.md#import_wizard), which reads products, implementations, users and memberships from an Excel file.
+
 By entering a term in the search field, you can search for **implementations, courses and events**.<br>
 As with other searches, filters can be used to narrow down the search results.
 
@@ -95,13 +97,17 @@ The button **"Edit overview"** is below the widgets. Use it to rearrange the til
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+
+**Further reading**<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../area_modules/Course_Planner_Reports.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
-[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+[Course Planner: Reports >](../area_modules/Course_Planner_Reports.md)
 
 [To the top of the page ^](#dashboard)

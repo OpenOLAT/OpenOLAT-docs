@@ -13,4 +13,7 @@ Organisationsrolle mit vollem (schreibendem) Zugriff auf den gesamten Course Pla
 
 [Course Planner: Übersicht >](../Course_Planner.de.md)<br>
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)
+
+[Zum Seitenanfang ^](#role_course_planner)

@@ -1,7 +1,7 @@
 # Course Planner: Events [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #events}
 
 
-![The way to the events: the Course Planner entry in the main navigation and the Events button, both highlighted on the overview of the Course Planner](assets/course_planner_events_access_v4_en.png){ class="shadow lightbox" }
+![The way to the events: the Course Planner entry in the main navigation and the Events button, both highlighted on the overview of the Course Planner](assets/course_planner_events_access_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 ## Which events does the Course Planner cover? {: #type_of_events}
 
@@ -17,16 +17,16 @@ The events created and displayed in the Course Planner refer to the elements use
 
 You can find a selection of current events on the **overview of the Course Planner**.
 
-![Course Planner entry in the main navigation and Events widget with the week bar and the events of the selected day, highlighted on the overview of the Course Planner](assets/course_planner_events_display1_v4_en.png){ class="shadow lightbox" }
+![Course Planner entry in the main navigation and Events widget with the week bar and the events of the selected day, highlighted on the overview of the Course Planner](assets/course_planner_events_display1_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 
 ### List of all events {: #event_list}
 
 You will find the complete overview of all events in the Course Planner in the "Events" area. Use the tabs and filters to narrow down and select.
 
-![Events button in the Products area, highlighted on the overview of the Course Planner](assets/course_planner_events_display2_v4_en.png){ class="shadow lightbox" }
+![Events button in the Products area, highlighted on the overview of the Course Planner](assets/course_planner_events_display2_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
-![All events with status, element, course, location and teachers, above them the period tiles, tabs and the filters Product, Execution and Teachers, Events area in the Course Planner](assets/course_planner_events_display3_v2_en.png){ class="shadow lightbox" }
+![All events with status, element, course, location and teachers, above them the period tiles, tabs and the filters Product, Execution and Teachers, Events area in the Course Planner](assets/course_planner_events_display3_v2_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
 
 
 ### Events of an implementation {: #events_of_an_implementation}
@@ -34,14 +34,14 @@ You will find the complete overview of all events in the Course Planner in the "
 You can also find the **currently upcoming** events of an implementation under<br>
 `Course Planner > Implementations > "your implementation" > Tab Overview`
 
-![Events widget with the week bar and the event of the selected day, numbered the way via the implementation to the Overview tab](assets/course_planner_events_display4_v2_en.png){ class="shadow lightbox" }
+![Events widget with the week bar and the event of the selected day, numbered the way via the implementation to the Overview tab](assets/course_planner_events_display4_v2_en.png){ class="shadow lightbox" title="Overview tab of an implementation" }
 
 **All** events of an implementation can be found under<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
 If the element type of the implementation can contain sub-elements, you can use the "All levels" and "This level" buttons there to select all levels of the product structure or just the current level as a sub-selection. Various filters are also available.
 
-![Tabs and filters above the event list with status, location and teachers, numbered the way via the implementation to the Events tab](assets/course_planner_events_display5_v2_en.png){ class="shadow lightbox" }
+![Tabs and filters above the event list with status, location and teachers, numbered the way via the implementation to the Events tab](assets/course_planner_events_display5_v2_en.png){ class="shadow lightbox" title="Events tab of an implementation" }
 
 
 ### Views {: #views}
@@ -50,11 +50,11 @@ The events can be displayed as a timeline or as a table. Use the buttons at the 
 
 #### Timeline
 
-![Switch to the timeline highlighted, below it the upcoming events as a timeline by day, Events area in the Course Planner](assets/course_planner_events_display7_v2_en.png){ class="shadow lightbox" }
+![Switch to the timeline highlighted, below it the upcoming events as a timeline by day, Events area in the Course Planner](assets/course_planner_events_display7_v2_en.png){ class="shadow lightbox" title="Timeline in the Events area" }
 
 #### Table view
 
-![Switch to the table view highlighted, below it the events as a table with date, time, title, element and status, Events area in the Course Planner](assets/course_planner_events_display6_v2_en.png){ class="shadow lightbox" }
+![Switch to the table view highlighted, below it the events as a table with date, time, title, element and status, Events area in the Course Planner](assets/course_planner_events_display6_v2_en.png){ class="shadow lightbox" title="Table view in the Events area" }
 
 ### Elements of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
@@ -70,7 +70,7 @@ Use the three dots at the end of a row to control which elements take part in th
 
 The detail view additionally shows the date, time, number of participants and mandatory attendance of the event as well as the associated course.
 
-![The detail view of an event with course and the table For participants of, Default element, Participants and Status, plus the menu with Open and Exclude participants](assets/course_planner_events_event_elements_v1_en.png){ class="shadow lightbox" }
+![The detail view of an event with course and the table For participants of, Default element, Participants and Status, plus the menu with Open and Exclude participants](assets/course_planner_events_event_elements_v1_en.png){ class="shadow lightbox" title="Detail view of an event" }
 
 
 [To the top of the page ^](#events)
@@ -85,7 +85,7 @@ As events refer to an implementation, you will find the option to create them un
 
 You can also import events by clicking on the small arrow next to the button.
 
-![The Add event button with the expanded Import events entry, in the Events tab of an implementation](assets/course_planner_events_create_v1_en.png){ class="shadow lightbox" }
+![The Add event button with the expanded Import events entry, in the Events tab of an implementation](assets/course_planner_events_create_v1_en.png){ class="shadow lightbox" title="Events tab of an implementation" }
 
 !!! tip "So an event also appears in the calendar"
 
@@ -109,7 +109,7 @@ In the detail view of an event, the booked room appears under the label "Room" a
 
 If a room is double-booked during the period of the event, the warning "The room "..." is double-booked during this period!" appears below the room card, and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} You see the warnings about missing seats and inactive rooms in the [room scheduling](Course_Planner_Rooms.md#warnings).
 
-![Three booked rooms as room cards with building and address, one with the double booking warning, in the detail view of an event](assets/course_planner_events_room_booking_v1_en.png){ class="shadow lightbox" }
+![Three booked rooms as room cards with building and address, one with the double booking warning, in the detail view of an event](assets/course_planner_events_room_booking_v1_en.png){ class="shadow lightbox" title="Detail view of an event" }
 
 !!! note "Admin. rights required"
     Rooms and buildings are managed in the system administration under `Administration > Modules > Rooms`; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.
@@ -124,7 +124,7 @@ If a room is double-booked during the period of the event, the warning "The room
 
 If required, the events displayed in the list can also be downloaded as an Excel file. To do this, use the button at the top right of the list.
 
-![The download button at the top right above the event list, highlighted in the Events area of the Course Planner](assets/course_planner_events_download_v1_en.png){ class="shadow lightbox" }
+![The download button at the top right above the event list, highlighted in the Events area of the Course Planner](assets/course_planner_events_download_v1_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
 
 [To the top of the page ^](#events)
 
@@ -142,6 +142,7 @@ If required, the events displayed in the list can also be downloaded as an Excel
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>

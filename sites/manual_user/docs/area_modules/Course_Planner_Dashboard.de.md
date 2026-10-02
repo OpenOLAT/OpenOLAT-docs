@@ -10,6 +10,8 @@ Die Übersicht zeigt zum Beispiel:
 
 ![Das Dashboard des Course Planners mit Suche, den Zugriffs-Buttons in drei Bereichen und den Widgets Durchführungen und To-do mit ihren Kennzahlen](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Dashboard des Course Planners" }
 
+Kursplaner:innen und Administrator:innen sehen oben rechts zusätzlich das Mehr-Menü (⋮) mit dem Eintrag **Importieren**. Er startet den [Import-Assistenten](Course_Planner_Import_Export.de.md#import_wizard), der Produkte, Durchführungen, Benutzer:innen und Mitgliedschaften aus einer Excel-Datei einliest.
+
 Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
 Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
 
@@ -95,13 +97,17 @@ Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen S
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+
+**Weiterführend**<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../area_modules/Course_Planner_Reports.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
-[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+[Course Planner: Reports >](../area_modules/Course_Planner_Reports.de.md)
 
 [Zum Seitenanfang ^](#dashboard)
