@@ -4,11 +4,11 @@ Die Toolbar (Werkzeugleiste) befindet sich im Kopf der Seite, direkt unter der H
 
 **Beispiel Teilnehmer:in**:
 
-![Toolbar aus Sicht einer Teilnehmer:in mit acht Werkzeug-Icons von Kursinfo bis Glossar, rechts das Menü Mein Kurs und die Fortschrittsanzeige mit 63 Prozent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" }
+![Toolbar aus Sicht einer Teilnehmer:in mit acht Werkzeug-Icons von Kursinfo bis Glossar, rechts das Menü Mein Kurs und die Fortschrittsanzeige mit 63 Prozent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in" }
 
 **Beispiel Kursbesitzer:in/Betreuer:in**:
 
-![Toolbar aus Sicht einer Kursbesitzer:in mit zusätzlich Administration, Status Veröffentlicht und dem Rollenwechsler, ohne Fortschrittsanzeige](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" }
+![Toolbar aus Sicht einer Kursbesitzer:in mit zusätzlich Administration, Status Veröffentlicht und dem Rollenwechsler, ohne Fortschrittsanzeige](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Kursbesitzer:in" }
 
 Ob die Toolbar für die Kursteilnehmer:innen sichtbar ist, entscheidet die Kursbesitzer:in. Für Betreuer:innen und Besitzer:innen ist sie immer sichtbar.<br>
 [Mehr dazu >](#show_icons)
@@ -24,7 +24,7 @@ Die Tools erscheinen dann entweder in der Toolbar oder unter "Mein Kurs".
 
 ### Administration {: #admin}
 
-![Icon Administration ganz links in der Toolbar markiert, daneben der Status Veröffentlicht](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" }
+![Icon Administration ganz links in der Toolbar markiert, daneben der Status Veröffentlicht](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Dort sind viele Menüoptionen zur Verwaltung und Bearbeitung aufrufbar.<br>
 [Mehr dazu >](../learningresources/Administration.de.md)
@@ -33,7 +33,7 @@ Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nic
 
 ### Status {: #status}
 
-![Statusanzeige Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert, links neben den Werkzeug-Icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" }
+![Statusanzeige Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert, links neben den Werkzeug-Icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Der Status des Kurses kann hier gewechselt werden.<br>
 [Mehr dazu >](../learningresources/Access_configuration.de.md)
@@ -42,7 +42,7 @@ Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilne
 
 ### Kursinfo {: #info_page}
 
-![Icon Kursinfo als erstes Werkzeug-Icon in der Toolbar markiert](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" }
+![Icon Kursinfo als erstes Werkzeug-Icon in der Toolbar markiert](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Unter Kursinfo sind allgemeine Informationen über den Kurs abrufbar, wie z. B. die Beschreibung der Veranstaltung oder Durchführungszeitraum und Ort. Diese Informationen sind bereits sichtbar, bevor ein Kurs überhaupt von Lernenden aufgerufen werden kann.<br>
 [Mehr dazu >](../learningresources/Info_page.de.md)
@@ -51,12 +51,12 @@ Unter Kursinfo sind allgemeine Informationen über den Kurs abrufbar, wie z. B. 
 
 ### Lernpfad {: #learning_path}
 
-![Icon Lernpfad in der Toolbar markiert, rechts daneben Kalender, BigBlueButton und Kurssuche](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" }
+![Icon Lernpfad in der Toolbar markiert, rechts daneben Kalender, BigBlueButton und Kurssuche](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 **Aufruf durch Teilnehmer:innen**<br>
 Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
 
-![Lernpfad-Tabelle mit allen Kursbausteinen, je Baustein Fortschritt in Prozent, Status, Pflicht, Bearbeitungszeit und Datum erledigt](assets/Mein_Lernpfad.png){ class="shadow lightbox" }
+![Lernpfad-Tabelle mit allen Kursbausteinen, je Baustein Fortschritt in Prozent, Status, Pflicht, Bearbeitungszeit und Datum erledigt](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Lernpfad aus Sicht der Teilnehmer:in" }
 
 **Aufruf durch Kursbesitzer:innen und Betreuer:innen**<br>
 Kursbesitzer:innen und Betreuer:innen erhalten über den Link "Lernpfad" zunächst eine Übersicht über alle Teilnehmenden und können dann im nächsten Schritt eine Person auswählen, um sich ihren Lernfortschritt anzeigen zu lassen.
@@ -65,7 +65,7 @@ Kursbesitzer:innen und Betreuer:innen erhalten über den Link "Lernpfad" zunäch
 
 ### Kalender {: #calendar}
 
-![Icon Kalender in der Toolbar markiert](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" }
+![Icon Kalender in der Toolbar markiert](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Pro Kurs kann *ein* Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kalender-Kursbaustein](../learningresources/Course_Element_Calendar.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden.
 
@@ -86,7 +86,7 @@ Standardmässig haben nur Besitzer:innen eines Kurses Schreibrechte im Kalender.
 
 ### Liste der Teilnehmer:innen {: #participant_list}
 
-![Icon Liste der Teilnehmer:innen in der Toolbar markiert](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" }
+![Icon Liste der Teilnehmer:innen in der Toolbar markiert](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch Kontaktmöglichkeiten enthalten.<br>
 [Mehr dazu >](../learningresources/Course_Element_Participant_List.de.md)
@@ -95,7 +95,7 @@ Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch 
 
 ### Mitteilungen {: #notifications}
 
-![Icon Mitteilungen in der Toolbar markiert](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" }
+![Icon Mitteilungen in der Toolbar markiert](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 In den Mitteilungen können Lehrende zentral Informationen zum Gesamtkurs hinterlegen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Notifications.de.md)
@@ -104,7 +104,7 @@ In den Mitteilungen können Lehrende zentral Informationen zum Gesamtkurs hinter
 
 ### E-Mail {: #email}
 
-![Icon E-Mail in der Toolbar markiert](assets/toolbar_email_v1_de.png){ class="shadow lightbox" }
+![Icon E-Mail in der Toolbar markiert](assets/toolbar_email_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Menü](../personal_menu/E-Mail.de.md) ist das Icon in der Toolbar eine gute Möglichkeit, den Kursmitgliedern eine Kontaktmöglichkeit mit schnellem Zugriff anzubieten.<br>
 [Mehr dazu >](../learningresources/Course_Element_EMail.de.md)
@@ -113,7 +113,7 @@ E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Me
 
 ### BigBlueButton (oder andere virtuelle Klassenzimmer) {: #BBB}
 
-![Icon BigBlueButton in der Toolbar markiert](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" }
+![Icon BigBlueButton in der Toolbar markiert](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool auch via Icon in der Toolbar ermöglicht werden. Neben BigBlueButton können auch andere installierte Videokonferenz-Tools in der Toolbar angezeigt werden (z. B. Microsoft Teams oder Zoom).<br>
 [Mehr dazu >](../learningresources/bigbluebutton/index.de.md)
@@ -122,7 +122,7 @@ Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool au
 
 ### Blog {: #blog}
 
-![Icon Blog in der Toolbar markiert](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" }
+![Icon Blog in der Toolbar markiert](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon in der Toolbar bietet sich an, wenn sich der Blog-Inhalt auf den gesamten Kurs bezieht.<br>
 [Mehr dazu >](../learningresources/Course_Element_Blog.de.md)
@@ -131,7 +131,7 @@ In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon 
 
 ### Wiki {: #wiki}
 
-![Icon Wiki in der Toolbar markiert](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" }
+![Icon Wiki in der Toolbar markiert](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs eingerichtet werden.<br>
 [Mehr zum Erstellen eines Wikis >](../learningresources/Wiki.de.md)<br>
@@ -141,7 +141,7 @@ In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs einge
 
 ### Forum {: #forum}
 
-![Icon Forum in der Toolbar markiert](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" }
+![Icon Forum in der Toolbar markiert](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Forum für den gesamten Kurs in der Kurstoolbar anzeigen zu lassen. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.<br>
 [Mehr dazu >](../learningresources/Course_Element_Forum.de.md)
@@ -150,7 +150,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ### Dokumente {: #documents}
 
-![Icon Dokumente in der Toolbar markiert](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" }
+![Icon Dokumente in der Toolbar markiert](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Über diesen Link kann die Lehrkraft wichtige Dokumente des Kurses zentral zum Download bereitstellen. Die Lernenden können die Dokumente herunterladen, sich benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim Kursbaustein "Ordner".<br>
 [Mehr dazu >](../learningresources/Storage_folder.de.md)
@@ -159,7 +159,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ### Termine {: #events}
 
-![Icon Termine in der Toolbar markiert](assets/toolbar_events_v1_de.png){ class="shadow lightbox" }
+![Icon Termine in der Toolbar markiert](assets/toolbar_events_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht bzw. Erfassung von Terminen und Absenzen aufgerufen werden.<br>
 [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
@@ -168,7 +168,7 @@ Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht b
 
 ### Glossar {: #glossary}
 
-![Icon Glossar mit Auswahlpfeil in der Toolbar markiert](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" }
+![Icon Glossar mit Auswahlpfeil in der Toolbar markiert](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden. In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden.<br>
 [Mehr dazu >](../learningresources/Glossary.de.md)
@@ -177,7 +177,7 @@ Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar auf
 
 ### Kurs-Chat {: #chat}
 
-![Icon Kurs-Chat in der Toolbar markiert](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" }
+![Icon Kurs-Chat in der Toolbar markiert](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 [Mehr dazu >](../basic_concepts/Chat.de.md)
@@ -186,7 +186,7 @@ Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 
 ### Kurssuche {: #course_search}
 
-![Icon Kurssuche in der Toolbar markiert](assets/toolbar_search_v1_de.png){ class="shadow lightbox" }
+![Icon Kurssuche in der Toolbar markiert](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Je nachdem, von wo die Suche gestartet wird, werden andere Bereiche durchsucht. Mit dem Icon in der Toolbar wird die Kurssuche ausgeführt.<br>
 [Mehr dazu >](../basic_concepts/Search_in_Course.de.md)
@@ -195,20 +195,20 @@ Je nachdem, von wo die Suche gestartet wird, werden andere Bereiche durchsucht. 
 
 ### Externe Kurstools [:octicons-tag-16:{ title="ab Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488) {: #external_tools}
 
-![Externes Kurstool Zeiterfassung mit Uhr-Icon in der Toolbar neben der Kurssuche, die ganze Toolbar ist markiert](assets/course_toolbar_with_external_tools_v1_de.png){ class="shadow lightbox" }
+![Externes Kurstool Stundenplan mit Kalender-Icon rechts neben der Kurssuche markiert](assets/course_toolbar_with_external_tools_v2_de.png){ class="shadow lightbox" title="Externes Kurstool in der Toolbar des Kurses · 2026.10.02" }
 
-Kursbesitzer:innen können pro Kurs bis zu **vier externe Kurstools** konfigurieren. Ein externes Kurstool ist ein konfigurierbarer Link aus der Kurstoolbar zu einer externen Webanwendung (z. B. ein Absenzmanagementsystem, eine Schulinfoseite, ein Partnerportal, ein Raumbuchungstool, ein externes Mail- oder Kalendersystem).
+Externe Kurstools führen aus der Toolbar direkt zu Webanwendungen ausserhalb von OpenOlat, etwa zu einem Absenzmanagementsystem, einer Schulinfoseite, einem Partnerportal, einem Raumbuchungstool oder einem externen Mail- oder Kalendersystem. Kursbesitzer:innen richten pro Kurs bis zu **vier externe Kurstools** ein, unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`. Die Zeilen "Externes Kurstool 1" bis "Externes Kurstool 4" erscheinen dort, sobald bei "Toolbar sichtbar für Teilnehmer:innen" die Checkbox "Ein" aktiviert ist.
 
 Pro Tool konfigurierbar:
 
-- **Name**: Bezeichnung des Toolbar-Buttons
+- **Name**: Bezeichnung des Tools in der Toolbar
 - **URL**: muss mit `http://` oder `https://` beginnen
 - **Icon**: aus dem Icon-Katalog wählbar (z. B. Link, E-Mail, Kalender, Stundenplan, Absenzen-Management, Schulportal, Buchungen, Videos, Dateien)
-- **Sichtbar für**: separat einstellbar für *Teilnehmer:innen*, *Betreuer:innen* sowie *Besitzer:innen und Personen mit administrativen Rollen*. Administrator:innen, Lernressourcenverwalter:innen, Principals und Kursplaner:innen sehen das Tool, wenn die Besitzer-Option ausgewählt ist.
+- **Sichtbar für**: separat einstellbar für *Teilnehmer:innen*, *Betreuer:innen* sowie *Besitzer:innen und Personen mit administrativen Rollen*. Jede Option gilt nur für ihre Rolle. Administrator:innen, Lernressourcenverwalter:innen, Principals und Kursplaner:innen sehen das Tool, wenn die Option für Besitzer:innen ausgewählt ist.
 
 Der Klick auf das Tool öffnet die konfigurierte URL in einem **neuen Browserfenster**. Es werden keine Nutzerdaten an das Zielsystem übertragen. Teilen OpenOlat und das Zielsystem denselben Identity Provider, funktioniert Single Sign-on automatisch.
 
-Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurses mitübernommen. Beim **Importieren** werden alle vier Tools auf *deaktiviert* zurückgesetzt, damit der Importer sie bewusst aktivieren kann.
+Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurses mitübernommen. Beim **Importieren** eines Kurses sind alle vier Tools ausgeschaltet, Name, URL und Icon müssen neu erfasst werden.
 
 [Konfiguration >](../learningresources/Course_Settings_Toolbar.de.md#external_tools)
 
@@ -216,7 +216,7 @@ Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurse
 
 ### Rolle {: #role}
 
-![Rollenwechsler mit der aktiven Rolle Besitzer:in in der Toolbar markiert](assets/toolbar_role_v1_de.png){ class="shadow lightbox" }
+![Rollenwechsler mit der aktiven Rolle Besitzer:in in der Toolbar markiert](assets/toolbar_role_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechselt werden.<br>
 [Mehr dazu >](../basic_concepts/Roles.de.md#course)
@@ -225,7 +225,7 @@ Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechsel
 
 ### Mein Kurs {: #my_course}
 
-![Geöffnetes Menü Mein Kurs mit Leistungsnachweis, To-dos, Meine Badges, Notizen, Bookmark und Kurs verlassen](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü Mein Kurs mit Leistungsnachweis, To-dos, Meine Badges, Notizen, Bookmark und Kurs verlassen](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar" }
 
 Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Bestandteile des Kurses.<br>
 [Mehr dazu >](../learningresources/Toolbar_My_Course.de.md)
@@ -234,7 +234,7 @@ Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Be
 
 ### Fortschrittsanzeige {: #progress}
 
-![Fortschrittsanzeige als Kreisdiagramm mit 63 Prozent am rechten Rand der Toolbar markiert](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" }
+![Fortschrittsanzeige als Kreisdiagramm mit 63 Prozent am rechten Rand der Toolbar markiert](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in Form eines Kreisdiagramms. Für andere Rollen ist die Fortschrittsanzeige nicht relevant und wird deshalb nicht angezeigt. In herkömmlichen Kursen gibt es keinen Lernpfad, deshalb kann dort auch kein Lernfortschritt berechnet werden.<br>
 [Mehr dazu >](../learningresources/Creating_learning_path_courses.de.md#konfiguration-zur-berechnung-des-lernfortschritts)
@@ -249,9 +249,9 @@ Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in For
 
 Als Kursbesitzer:in legen Sie unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` fest, ob die Teilnehmer:innen eine Toolbar angezeigt bekommen und, wenn ja, welche Icons (Werkzeuge) in der Toolbar angezeigt werden.
 
-![Geöffnetes Menü Administration mit markiertem Eintrag Einstellungen und markiertem Tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü Administration mit markiertem Eintrag Einstellungen und markiertem Tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
-![Tab Toolbar in den Kurseinstellungen mit dem Schalter Toolbar sichtbar für Teilnehmer:innen und je einem Schalter pro Werkzeug](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" }
+![Tab Toolbar in den Kurseinstellungen mit dem Schalter Toolbar sichtbar für Teilnehmer:innen und je einem Schalter pro Werkzeug](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen" }
 
 ### Ständig angezeigte Tool-Icons {: #show_icons_permanently}
 

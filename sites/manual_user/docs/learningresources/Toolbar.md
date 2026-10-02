@@ -4,11 +4,11 @@ The toolbar is located at the top of the page, directly below the main navigatio
 
 **Example participant**:
 
-![Toolbar from a participant's point of view with eight tool icons from Course info to Glossary, on the right the menu My course and the progress indicator at 63 percent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" }
+![Toolbar from a participant's point of view with eight tool icons from Course info to Glossary, on the right the menu My course and the progress indicator at 63 percent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" title="Toolbar of a course, participant view" }
 
 **Example course owner/coach**:
 
-![Toolbar from a course owner's point of view with the additional Administration, status Published and the role switcher, without progress indicator](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" }
+![Toolbar from a course owner's point of view with the additional Administration, status Published and the role switcher, without progress indicator](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" title="Toolbar of a course, course owner view" }
 
 The course owner decides whether the toolbar is visible to course participants. It is always visible to coaches and owners.<br>
 [More >](#show_icons)
@@ -24,7 +24,7 @@ The tools then appear either in the toolbar or under "My course".
 
 ### Administration {: #admin}
 
-![Icon Administration highlighted at the far left of the toolbar, next to it the status Published](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" }
+![Icon Administration highlighted at the far left of the toolbar, next to it the status Published](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The course administration is only displayed to those authorized to edit, not to the participants. Many menu options for administration and editing can be accessed there.<br>
 [More >](../learningresources/Administration.md)
@@ -33,7 +33,7 @@ The course administration is only displayed to those authorized to edit, not to 
 
 ### Status {: #status}
 
-![Status indicator Published highlighted as a green button with a selection arrow, to the left of the tool icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" }
+![Status indicator Published highlighted as a green button with a selection arrow, to the left of the tool icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The status is only displayed to those authorized to edit, not to participants. The status of the course can be changed here.<br>
 [More >](../learningresources/Access_configuration.md)
@@ -42,7 +42,7 @@ The status is only displayed to those authorized to edit, not to participants. T
 
 ### Course info {: #info_page}
 
-![Icon Course info highlighted as the first tool icon in the toolbar](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" }
+![Icon Course info highlighted as the first tool icon in the toolbar](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 Under Course info, general information about the course is available, such as the description of the event or the execution period and location. This information is already visible before a course can be accessed by learners at all.<br>
 [More >](../learningresources/Info_page.md)
@@ -51,12 +51,12 @@ Under Course info, general information about the course is available, such as th
 
 ### Learning path {: #learning_path}
 
-![Icon Learning path highlighted in the toolbar, to its right Calendar, BigBlueButton and Course search](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" }
+![Icon Learning path highlighted in the toolbar, to its right Calendar, BigBlueButton and Course search](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 **Access by participants**<br>
 The learning path icon in the toolbar gives learners an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of execution and dates can also be displayed. This makes it easy for learners to keep track of their activities in the course.
 
-![Learning path table with all course elements, per element progress in percent, status, obligation, processing time and date completed](assets/Mein_Lernpfad.png){ class="shadow lightbox" }
+![Learning path table with all course elements, per element progress in percent, status, obligation, processing time and date completed](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Learning path from the participant's view" }
 
 **Access by course owners and coaches**<br>
 Course owners and coaches can use the "Learning path" link to first get an overview of all participants and then, in the next step, select a person to display their learning progress.
@@ -65,7 +65,7 @@ Course owners and coaches can use the "Learning path" link to first get an overv
 
 ### Calendar {: #calendar}
 
-![Icon Calendar highlighted in the toolbar](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" }
+![Icon Calendar highlighted in the toolbar](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 *One* calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a [calendar course element](../learningresources/Course_Element_Calendar.md) or in a central position at the top of the course toolbar.
 
@@ -86,7 +86,7 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ### Participant list {: #participant_list}
 
-![Icon Participant list highlighted in the toolbar](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" }
+![Icon Participant list highlighted in the toolbar](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The participant list can also include contact options in the list of all course members.<br>
 [More >](../learningresources/Course_Element_Participant_List.md)
@@ -95,7 +95,7 @@ The participant list can also include contact options in the list of all course 
 
 ### Notifications {: #notifications}
 
-![Icon Notifications highlighted in the toolbar](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" }
+![Icon Notifications highlighted in the toolbar](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 In the notifications, teachers can store information about the entire course centrally.<br>
 [More >](../learningresources/Course_Element_Notifications.md)
@@ -104,7 +104,7 @@ In the notifications, teachers can store information about the entire course cen
 
 ### E-Mail {: #email}
 
-![Icon E-Mail highlighted in the toolbar](assets/toolbar_email_v1_de.png){ class="shadow lightbox" }
+![Icon E-Mail highlighted in the toolbar](assets/toolbar_email_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 E-mails can be sent from various places. In addition to the [personal menu](../personal_menu/E-Mail.md), the icon in the toolbar is a good way to offer course members a contact option with quick access.<br>
 [More >](../learningresources/Course_Element_EMail.md)
@@ -113,7 +113,7 @@ E-mails can be sent from various places. In addition to the [personal menu](../p
 
 ### BigBlueButton (or other virtual classrooms) {: #BBB}
 
-![Icon BigBlueButton highlighted in the toolbar](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" }
+![Icon BigBlueButton highlighted in the toolbar](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 As an alternative to a course element, access to a video conferencing tool can also be enabled via an icon in the toolbar. In addition to BigBlueButton, other installed video conferencing tools can also be displayed in the toolbar (e.g. Microsoft Teams or Zoom).<br>
 [More >](../learningresources/bigbluebutton/index.md)
@@ -122,7 +122,7 @@ As an alternative to a course element, access to a video conferencing tool can a
 
 ### Blog {: #blog}
 
-![Icon Blog highlighted in the toolbar](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" }
+![Icon Blog highlighted in the toolbar](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolbar is a good option if the blog content relates to the entire course.<br>
 [More >](../learningresources/Course_Element_Blog.md)
@@ -131,7 +131,7 @@ Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolb
 
 ### Wiki {: #wiki}
 
-![Icon Wiki highlighted in the toolbar](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" }
+![Icon Wiki highlighted in the toolbar](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 Access to a central wiki for the entire course can be set up in the toolbar.<br>
 [More about creating a wiki >](../learningresources/Wiki.md)<br>
@@ -141,7 +141,7 @@ Access to a central wiki for the entire course can be set up in the toolbar.<br>
 
 ### Forum {: #forum}
 
-![Icon Forum highlighted in the toolbar](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" }
+![Icon Forum highlighted in the toolbar](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 In addition to the "Forum" course element, there is also the option of displaying a central forum for the entire course in the course toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, no further settings such as pseudonymization or the assignment of moderation rights can be made here.<br>
 [More >](../learningresources/Course_Element_Forum.md)
@@ -150,7 +150,7 @@ In addition to the "Forum" course element, there is also the option of displayin
 
 ### Documents {: #documents}
 
-![Icon Documents highlighted in the toolbar](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" }
+![Icon Documents highlighted in the toolbar](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 Via this link, the teacher can make important course documents available for download in one central location. Learners can download the documents, receive notifications when new documents are available (subscribe), and send the files by e-mail if necessary. However, the configuration options are not as extensive as those of the "Folder" course element.<br>
 [More >](../learningresources/Storage_folder.md)
@@ -159,7 +159,7 @@ Via this link, the teacher can make important course documents available for dow
 
 ### Events {: #events}
 
-![Icon Events highlighted in the toolbar](assets/toolbar_events_v1_de.png){ class="shadow lightbox" }
+![Icon Events highlighted in the toolbar](assets/toolbar_events_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 If the appointment and absence management is enabled, it can be accessed here to view or record events and absences.<br>
 [More >](../learningresources/Toolbar_Events.md)
@@ -168,7 +168,7 @@ If the appointment and absence management is enabled, it can be accessed here to
 
 ### Glossary {: #glossary}
 
-![Icon Glossary with selection arrow highlighted in the toolbar](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" }
+![Icon Glossary with selection arrow highlighted in the toolbar](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 If a glossary has been linked to the course, it can also be accessed from the toolbar. A glossary can be used to explain the terms of a course, a subject or an event. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.<br>
 [More >](../learningresources/Glossary.md)
@@ -177,7 +177,7 @@ If a glossary has been linked to the course, it can also be accessed from the to
 
 ### Course chat {: #chat}
 
-![Icon Course chat highlighted in the toolbar](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" }
+![Icon Course chat highlighted in the toolbar](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The chat enables synchronous exchange between the course members.<br>
 [More >](../basic_concepts/Chat.md)
@@ -186,7 +186,7 @@ The chat enables synchronous exchange between the course members.<br>
 
 ### Course search {: #course_search}
 
-![Icon Course search highlighted in the toolbar](assets/toolbar_search_v1_de.png){ class="shadow lightbox" }
+![Icon Course search highlighted in the toolbar](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 Depending on where the search is started, different areas are searched. The course search is performed with the icon in the toolbar.<br>
 [More >](../basic_concepts/Search_in_Course.md)
@@ -195,20 +195,20 @@ Depending on where the search is started, different areas are searched. The cour
 
 ### External course tools [:octicons-tag-16:{ title="from Release 21.0 (OO-9488)" }](https://track.frentix.com/issue/OO-9488) {: #external_tools}
 
-![External course tool Zeiterfassung with a clock icon in the toolbar next to Course search, the whole toolbar is highlighted](assets/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox" }
+![External course tool Timetable with a calendar icon highlighted to the right of Course search](assets/course_toolbar_with_external_tools_v2_en.png){ class="shadow lightbox" title="External course tool in the course toolbar · 2026.10.02" }
 
-Course owners can configure up to **four external course tools** per course. An external course tool is a configurable link from the course toolbar to an external web application (e.g. an absence management system, a school information page, a partner portal, a room booking tool, an external mail or calendar system).
+External course tools lead from the toolbar directly to web applications outside OpenOlat, for example to an absence management system, a school information page, a partner portal, a room booking tool or an external mail or calendar system. Course owners set up to **four external course tools** per course, under `Course > Administration > Settings > Tab "Toolbar"`. The rows "External course tool 1" to "External course tool 4" appear there as soon as the checkbox "On" is activated for "Toolbar visible for participants".
 
 Configurable per tool:
 
-- **Name**: label of the toolbar button
+- **Name**: label of the tool in the toolbar
 - **URL**: must start with `http://` or `https://`
-- **Icon**: selectable from the icon catalog (e.g. Link, E-mail, Calendar, Timetable, Absence management, School portal, Bookings, Videos, Files)
-- **Visible to**: configurable separately for *Participants*, *Coaches* and *Owners and persons with administrative roles*. Administrators, learning resource managers, principals and course planners see the tool when the owner option is selected.
+- **Icon**: selectable from the icon catalog (e.g. Link, E-mail, Calendar, Timetable, Absence management, School portal, Booking, Videos, Files)
+- **Visible to**: configurable separately for *Participants*, *Coaches* and *Owners and users with administrative roles*. Each option applies to its own role only. Administrators, learning resource managers, principals and course planners see the tool when the option for owners is selected.
 
 Clicking the tool opens the configured URL in a **new browser window**. No user data is transferred to the target system. If OpenOlat and the target system share the same identity provider, single sign-on works automatically.
 
-The configuration of the four external course tools is included when a course is **copied**. On **import**, all four tools are reset to *disabled* so that the importer can activate them deliberately.
+The configuration of the four external course tools is included when a course is **copied**. On course **import**, all four tools are switched off, and name, URL and icon must be entered again.
 
 [Configuration >](../learningresources/Course_Settings_Toolbar.md#external_tools)
 
@@ -216,7 +216,7 @@ The configuration of the four external course tools is included when a course is
 
 ### Role {: #role}
 
-![Role switcher with the active role Owner highlighted in the toolbar](assets/toolbar_role_v1_de.png){ class="shadow lightbox" }
+![Role switcher with the active role Owner highlighted in the toolbar](assets/toolbar_role_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 If a person has multiple roles in this course, the role can be changed here.<br>
 [More >](../basic_concepts/Roles.md#course)
@@ -225,7 +225,7 @@ If a person has multiple roles in this course, the role can be changed here.<br>
 
 ### My course {: #my_course}
 
-![Open menu My course with Evidence of achievement, To-dos, My badges, Notes, Bookmark and Leave course](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox" }
+![Open menu My course with Evidence of achievement, To-dos, My badges, Notes, Bookmark and Leave course](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox" title="Menu My course in the toolbar" }
 
 The "My course" drop-down menu in the toolbar provides access to personalized components of the course.<br>
 [More >](../learningresources/Toolbar_My_Course.md)
@@ -234,7 +234,7 @@ The "My course" drop-down menu in the toolbar provides access to personalized co
 
 ### Progress {: #progress}
 
-![Progress indicator as a pie chart at 63 percent highlighted at the right edge of the toolbar](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" }
+![Progress indicator as a pie chart at 63 percent highlighted at the right edge of the toolbar](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 In learning path courses, course participants see their processing status here in the form of a pie chart. For other roles, the progress indicator is not relevant and is therefore not displayed. There is no learning path in conventional courses, so no learning progress can be calculated there.<br>
 [More >](../learningresources/Creating_learning_path_courses.md#configuration-for-calculating-the-learning-progress)
@@ -249,9 +249,9 @@ In learning path courses, course participants see their processing status here i
 
 As course owner you define under `Course > Administration > Settings > Tab "Toolbar"` whether participants see a toolbar and, if so, which icons (tools) are displayed in the toolbar.
 
-![Open menu Administration with the highlighted entry Settings and the highlighted tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" }
+![Open menu Administration with the highlighted entry Settings and the highlighted tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
-![Tab Toolbar in the course settings with the switch Toolbar visible for participants and one switch per tool](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" }
+![Tab Toolbar in the course settings with the switch Toolbar visible for participants and one switch per tool](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Toolbar tab of the course settings" }
 
 ### Permanently displayed tool icons {: #show_icons_permanently}
 
