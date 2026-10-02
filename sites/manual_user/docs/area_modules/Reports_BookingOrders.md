@@ -1,8 +1,11 @@
-# Reports: Booking orders
+# Reports: Booking orders {: #booking_orders_report}
+
+The Booking orders report lists the following columns for each booking order. It only contains the three customer number columns if the [customer number](../../manual_admin/administration/Modules_Organisations.md#customer_number) is switched on in the Organisations module. [:octicons-tag-16:{ title="from Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736)
 
 | Attribute                  | Source                 | Description                                                       | Line-/Education manager                                         |
 |----------------------------|------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------|
 | User data                  | Person                 | According to the configuration in the administration.             |                                                                 |
+| Customer number            | Person                 | Customer number of the person                                     |                                                                 |
 | Membership status          | Person                 | Status in implementation or course (standalone)                   |                                                                 |
 | Product	                 | Product                | Title of the product                                              |                                                                 |
 | Reference                  | Product                | Reference of the product                                          |                                                                 |
@@ -28,6 +31,7 @@
 | Price	                     | Booking order          | Price at the time of booking                                      |                                                                 |
 | Cancellation fee	         | Booking order          | Cancellation fee at the time of booking                           |                                                                 |
 | Billing address            | Organisation           | Name of the billing address                                       |                                                                 |
+| Customer number billing address | Organisation           | Customer number of the billing address                            |                                                                 |
 | Name / Company             | Organisation           | Billing address                                                   |                                                                 |
 | Addition / Department      | Organisation           | Billing address                                                   |                                                                 |
 | Address line 1             | Organisation           | Billing address                                                   |                                                                 |
@@ -41,6 +45,7 @@
 | Country                    | Organisation           | Billing address                                                   |                                                                 |
 | Org ID (Billing address)   | Organisation           | Organisation identifier of the billing address                    |                                                                 |
 | Org name (Billing address) | Organisation           | Organisation name of the billing address                      |                                                                 |
+| Customer number organisation | Organisation           | Customer number of the organisation to which the billing address belongs |                                                                 |
 | First visit                | Course                 | Date of first visit to a course                                   |                                                                 |
 | Last visit                 | Course                 | Date of last visit to a course                                    |                                                                 |
 | Score                      | Course progress/status | Total score for the implementation/course (standalone)            | :material-checkbox-marked-outline: "Course progress and status" |
@@ -56,3 +61,13 @@
 | Not excused                | Absence                | Number of "Not excused"                                           | :material-checkbox-marked-outline: "Events and absence"         |
 | Authorized                 | Absence                | Number of "Authorized"                                            | :material-checkbox-marked-outline: "Events and absence"         |
 | Dispensed                  | Absence                | Number of "Dispensed"                                             | :material-checkbox-marked-outline: "Events and absence"         |
+
+
+## Further information {: #further_information}
+
+[Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
+[Course Planner: Reports >](Course_Planner_Reports.md)<br>
+[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
+[Payment modules: Invoice >](../../manual_admin/administration/Payment_Invoice.md)
+
+[To the top of the page ^](#booking_orders_report)

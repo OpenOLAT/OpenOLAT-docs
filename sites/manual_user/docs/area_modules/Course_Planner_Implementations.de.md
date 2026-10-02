@@ -32,7 +32,7 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 ![Die Aktion Filter speichern im Menü rechts über der Tabelle, mit der eine Filterkombination als eigene Voreinstellung erhalten bleibt](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner" }
 
-Über die individuelle Spaltenauswahl lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). Die Fachbereiche selbst werden in der System-Administration gepflegt, unter `Administration > Module > Taxonomie`. [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
+Über "Spalten auswählen" lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). Die Fachbereiche selbst werden in der System-Administration gepflegt, unter `Administration > Module > Taxonomie`. [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 ### Sammelaktion «Typ ändern» [:octicons-tag-16:{ title="ab Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
@@ -230,6 +230,8 @@ Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung ge
 
 In der Mitgliederliste zeigt ein Notiz-Symbol in der Spalte **"Teilnehmer:inkommentar"**, ob zur Buchung ein Kommentar der Teilnehmer:in vorliegt; auch der Spaltenkopf zeigt nur das Symbol. Ein Klick darauf öffnet den Kommentar. Dieselbe Angabe führt die Tabelle der Buchungsaufträge im Tab Katalog in der Spalte **"Kommentar Teilnehmer:in"** [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
+In der Mitgliederliste sehen Sie auch, unter welcher Nummer die Buchhaltung eine Person führt. Die Spalte **"Debitorennummer"** ist standardmässig ausgeblendet, Sie blenden sie über "Spalten auswählen" ein. Werte zeigt die Spalte nur, wenn die [Debitorennummer](../../manual_admin/administration/Modules_Organisations.de.md#customer_number) im Modul Organisationen eingeschaltet ist. Ist für eine Person eine Debitorennummer erfasst, zeigen auch die Details ihrer Mitgliedschaft die Nummer. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"}
+
 Wer wissen will, was eine Person beim Buchen angegeben hat, öffnet die Details ihrer Mitgliedschaft in der Mitgliederliste. Hat die Person ein Angebot mit [Formularen für Buchungsaufträge](#booking_order_forms) gebucht, zeigt die Detailansicht unterhalb der Buchungsaufträge den Abschnitt **Formulare für Buchungsaufträge**. Die Tabelle führt je Formular Titel, Kennzeichen, Schrittname, Buchungsauftrag, Status und Abgabedatum. Mit **Formular ansehen** öffnen Sie die Antworten, mit **Formular bearbeiten** korrigieren Sie sie, solange das Formular den Status "Offen" oder "Abgeschlossen" hat.
 
 ![Der Abschnitt Formulare für Buchungsaufträge unterhalb der Buchungsaufträge, mit zwei abgeschlossenen Formularen samt Schrittname, Buchungsauftrag und Abgabedatum](assets/course_planner_implementations_member_details_forms_v1_de.png){ class="shadow lightbox" title="Detailansicht einer Mitgliedschaft im Tab Mitglieder · 2026.09.28" }
@@ -385,13 +387,15 @@ Ein Formular lässt sich auf zwei Arten aus dem Buchen nehmen. Sie unterscheiden
 
 Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsaufträge und ihre Details ebenfalls unter dem Tab "Katalog" im Teilbereich "Buchungsaufträge" zu finden.
 
-Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. Mit **Buchungsaufträge herunterladen** erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei.
+Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. Mit **Buchungsaufträge herunterladen** erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei. Sie enthält dieselben Spalten wie der [Report Buchungsaufträge](Reports_BookingOrders.de.md), bei eingeschalteter Debitorennummer also auch die drei Spalten zur Debitorennummer.
 
 Das Menü am Ende einer Zeile bietet je nach Status des Auftrags andere Aktionen. Bei einem offenen Auftrag mit Preis sind das **Auf "Bezahlt" setzen** und **Preis ändern**, bei einem bezahlten **Auf "Offen" setzen**. Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem offenen Auftrag mit **Rechnungsadresse ändern** die Adresse. **Buchungsauftrag ausbuchen** steht bei jedem offenen Auftrag zur Verfügung, **Stornogebühr ändern** bei einem stornierten Auftrag mit Stornogebühr.
 
 ![Der Button Buchungsaufträge herunterladen, Tabs und Filter nach Status, Angebotstyp und Angebot, dazu ein Notiz-Symbol für den Kommentar der Teilnehmer:in](assets/course_planner_implementations_tab_catalog2_v2_de.png){ class="shadow lightbox" title="Teilbereich Buchungsaufträge im Tab Katalog · 2026.09.30" }
 
 Verlangt das gebuchte Angebot Formulare, führt die Detailansicht eines Buchungsauftrags den Abschnitt **Formulare für Buchungsaufträge** mit Titel, Kennzeichen, Schrittname, Status und Abgabedatum. Dort lassen sich die Formulare ansehen und, solange sie offen oder abgeschlossen sind, bearbeiten.
+
+Hat ein Buchungsauftrag eine Rechnungsadresse mit erfasster Debitorennummer, zeigt seine Detailansicht die Nummer als erste Zeile der Rechnungsadresse.
 
 
 
@@ -637,10 +641,12 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
+[Modul Organisationen (Administration) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>

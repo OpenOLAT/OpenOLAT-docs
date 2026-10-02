@@ -1,8 +1,11 @@
-# Reports: Buchungsaufträge
+# Reports: Buchungsaufträge {: #booking_orders_report}
+
+Der Report Buchungsaufträge führt je Buchungsauftrag die folgenden Spalten. Die drei Spalten zur Debitorennummer enthält er nur, wenn die [Debitorennummer](../../manual_admin/administration/Modules_Organisations.de.md#customer_number) im Modul Organisationen eingeschaltet ist. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736)
 
 | Attribut                    | Quelle                 | Beschreibung                                                             | Linien-/Ausbildungsverantwortlicher                                      |
 |-----------------------------|------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Benutzerdaten               | Person                 | Gemäss Konfiguration in der Administration                               |                                                                          |
+| Debitorennummer             | Person                 | Debitorennummer der Person                                               |                                                                          |
 | Mitgliedschaftsstatus       | Person                 | Status in Durchführung oder Kurs (eigenständig)                          |                                                                          |
 | Produkt	                  | Produkt                | Titel des Produkts                                                       |                                                                          |
 | Kennzeichen                 | Produkt                | Kennzeichen des Produkts                                                 |                                                                          |
@@ -28,6 +31,7 @@
 | Preis	                      | Buchungsauftrag        | Preis beim Zeitpunkt der Buchung                                         |                                                                          |
 | Stornogebühr	              | Buchungsauftrag        | Stornogebühr beim Zeitpunkt der Buchung                                  |                                                                          |
 | Rechnungsadresse            | Organisation           | Name der Rechnungsadresse                                                |                                                                          |
+| Debitorennummer Rechnungsadresse | Organisation           | Debitorennummer der Rechnungsadresse                                     |                                                                          |
 | Name / Firma                | Organisation           | Rechnungsadresse                                                         |                                                                          |
 | Zusatz / Abteilung          | Organisation           | Rechnungsadresse                                                         |                                                                          |
 | Adresszeile 1               | Organisation           | Rechnungsadresse                                                         |                                                                          |
@@ -41,6 +45,7 @@
 | Land                        | Organisation           | Rechnungsadresse                                                         |                                                                          |
 | Org ID (Rechnungsadresse)   | Organisation           | Organisationsidentifikator der Rechnungsadresse                           |                                                                          |
 | Org name (Rechnungsadresse) | Organisation           | Organisationsname der Rechnungsadresse                                   |                                                                          |
+| Debitorennummer Organisation | Organisation           | Debitorennummer der Organisation, zu der die Rechnungsadresse gehört     |                                                                          |
 | Erster Besuch               | Kurs                   | Datum des allerersten Besuches in einem Kurs                             |                                                                          |
 | Letzter Besuch              | Kurs                   | Datum des allerletzten Besuchs in einem Kurs                             |                                                                          |
 | Punkte                      | Kursfortschritt/Status | Punktetotal der Durchführung / des Kurses (eigenständig)                 | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
@@ -56,3 +61,13 @@
 | Unentschuldigt              | Absenz                 | Anzahl "Unentschuldigt"                                                  | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
 | Entschuldigt                | Absenz                 | Anzahl "Entschuldigt"                                                    | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
 | Dispensiert                 | Absenz                 | Anzahl "Dispensiert"                                                     | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
+[Course Planner: Reports >](Course_Planner_Reports.de.md)<br>
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Bezahlungsmodule: Rechnung >](../../manual_admin/administration/Payment_Invoice.de.md)
+
+[Zum Seitenanfang ^](#booking_orders_report)

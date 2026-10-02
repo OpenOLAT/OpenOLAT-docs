@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![Header area with status, identity, organisation, account type and username, below them 25 tabs from Profile to Grading assignments: page Manage user settings in User management](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" }
+![Header area with status, identity, organisation, account type and username, below them 25 tabs from Profile to Grading assignments](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" title="User settings of an account in User management" }
 
 The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -20,9 +20,11 @@ If the option "Unique" is activated in the system administration, no two account
     If two accounts of the same person exist nevertheless, decide which account is continued. Download the certificates of the second account in the "Certificates" tab with "Download certificate" and record them in the continued account with "Upload certificate". Then set the second account to inactive in the "Account" tab.
 
 
-### User profile
+### User profile {: #profile}
 
-Personal data, personal details, contact details and details of the institution are recorded in the user profile. See: `Personal Menu > Configuration >` [Profile](../../manual_user/personal_menu/Profile.md). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and email address. If the sending of emails to this address is to be prevented, this email address can be blocked.
+Personal data, personal details, contact details and, in the "Institution" section, details of the institution are recorded in the user profile. See: `Personal Menu > Configuration >` [Profile](../../manual_user/personal_menu/Profile.md). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and email address. If the sending of emails to this address is to be prevented, this email address can be blocked.
+
+If the [customer number](../administration/Modules_Organisations.md#customer_number) is switched on in the Organisations module, the "Institution" section additionally shows the "Customer number" field. Here you enter the number under which your accounting keeps the person. The person themselves does not see the field in their own profile. [:octicons-tag-16:{ title="from Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736)
 
 [To the top of the page ^](#user_configuration)
 
@@ -94,15 +96,15 @@ If the toggles are off, no automatic process takes effect and the periods are om
 
 An active account with a stored expiry date carries both periods next to each other: "Days until expiry" for the date, "Days until inactivation" for the last login.
 
-!["Days until expiry" shows "In 837 days" for the account expiration 12/31/2028, "Days until inactivation" shows "In 710 days": Account tab of an active account](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" }
+!["Days until expiry" shows "In 837 days" for the account expiration 12/31/2028, "Days until inactivation" shows "In 710 days"](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" title="Account tab of an active account" }
 
 After a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
 
-![Reactivation date 9/16/2026 and the period "In 710 days, on 8/26/2028 (grace period)": Account tab of a reactivated account](assets/user_management_account_tab_reactivated_v1_en.png){ class="shadow lightbox" }
+![Reactivation date 9/16/2026 and the period "In 710 days, on 8/26/2028 (grace period)"](assets/user_management_account_tab_reactivated_v1_en.png){ class="shadow lightbox" title="Account tab of a reactivated account" }
 
 For an inactive account the inactivation date and "Days until deletion" take the place of the inactivation period.
 
-![Inactivation date 9/16/2026 and the period "In 1101 days, on 9/21/2029": Account tab of an inactive account](assets/user_management_account_tab_inactive_v1_en.png){ class="shadow lightbox" }
+![Inactivation date 9/16/2026 and the period "In 1101 days, on 9/21/2029"](assets/user_management_account_tab_inactive_v1_en.png){ class="shadow lightbox" title="Account tab of an inactive account" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -125,7 +127,7 @@ The "Password" tab and its actions are available to administrators, user manager
 You define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
 `Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).
 
-![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" }
+![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" title="Flow with the invitation link" }
 
 The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
 
@@ -209,7 +211,7 @@ The tab is available to administrators, principals, user managers and roles mana
 
 Via the actions menu (three dots) of a row, a single evidence of achievement can be deleted [:octicons-tag-16:{ title="from Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). A confirmation dialog explains the effect: if the person is still a participant of the course, the evidence of achievement is automatically regenerated; if they are no longer enrolled, it is permanently deleted.
 
-![Warning that the evidence of achievement is created again for persons who are still enrolled, with the buttons Delete and Cancel: dialog Delete evidence of achievement](assets/user_management_evidence_delete_v1_en.png){ class="shadow lightbox" }
+![Warning that the evidence of achievement is created again for persons who are still enrolled, with the buttons Delete and Cancel](assets/user_management_evidence_delete_v1_en.png){ class="shadow lightbox" title="Dialog Delete evidence of achievement" }
 
 You delete an evidence of achievement only here in the user management; the person concerned cannot delete their own evidence of achievement. The action "Delete Statement" is available only to administrators and roles managers. Principals and user managers see the tab without this action. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
 
@@ -220,7 +222,7 @@ You delete an evidence of achievement only here in the user management; the pers
 
 This tab brings together all of the person's certificates, both those acquired in courses and those uploaded manually. For each certificate the table lists "Awarded by", "Origin", "Issued on", "Valid until", "Recertification", "Revoked on", "#Issued" and "State"; the predefined filters "All", "Valid" and "Expired" narrow down the list. Above the table on the right you can switch between tile and table view. "Upload certificate" is used to record externally acquired certificates so that the profile reflects the entire transcript of records.
 
-![Certificate list with origin, date of issue and state, above it the button Upload certificate: Certificates tab of an account](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" }
+![Certificate list with origin, date of issue and state, above it the button Upload certificate](assets/user_management_certificates_v1_en.png){ class="shadow lightbox" title="Certificates tab of an account" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -236,7 +238,7 @@ This tab displays all the badges you have purchased.
 
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab. The dialog "Add disadvantage compensation" requires "Approved by", "Approval date", "Extra time (minutes)" and the course. The field "Course element" narrows the compensation down to a single test of the course.
 
-![Four mandatory fields marked with an asterisk, below them the optional field Course element: dialog Add disadvantage compensation](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
+![Four mandatory fields marked with an asterisk, below them the optional field Course element](assets/disadvantage_compensation.jpg){ class="shadow lightbox" title="Dialog Add disadvantage compensation" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -292,7 +294,7 @@ OpenOlat only shows the tab when the Course Planner is active. Without this modu
 
 The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which educational offerings the person passes through, "Learning resources" shows which courses they are registered in. Unlike there, you neither add nor remove the person here.
 
-![Marked tab Educational products, preselected filter tab Relevant and the column Roles, User management](assets/user_management_educational_products_v1_en.png){ class="shadow lightbox" }
+![Marked tab Educational products, preselected filter tab Relevant and the column Roles](assets/user_management_educational_products_v1_en.png){ class="shadow lightbox" title="Educational products tab in User management" }
 
 The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the list shows the additional column "Roles", which states for each implementation in which role the person takes part. In return, the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" are missing. A click on the title of an implementation opens its structure with the contained courses.
 
@@ -315,6 +317,7 @@ Here you can check which grading assignments have been assigned to this user.
 [Delete user >](Delete_User.md)<br>
 [E-mail settings >](../administration/E-Mail_Settings.md)<br>
 [User profile >](../../manual_user/personal_menu/Profile.md)<br>
+[Module Organisations >](../administration/Modules_Organisations.md)<br>
 [Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Assign roles >](Assign_roles.md)<br>

@@ -31,7 +31,7 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 
 ![The Save filter action in the menu at the top right of the table, which keeps a filter combination as your own preset](assets/course_planner_implementations_list_filter_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
 
-The individual column selector can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). The subjects themselves are maintained in the system administration, under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
+"Displayed columns" can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). The subjects themselves are maintained in the system administration, under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 ### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
@@ -220,6 +220,8 @@ Participants are therefore made members of a specific implementation (not member
 
 In the member list, a note icon in the **"Participant comment"** column shows whether the participant has attached a comment to the booking; the column header also shows only the icon. A click on it opens the comment. The booking orders table in the Catalog tab lists the same information in the **"Participant comment"** column [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 
+The member list also shows you under which number the accounting keeps a person. The **"Customer number"** column is hidden by default; you show it via "Displayed columns". The column only shows values if the [customer number](../../manual_admin/administration/Modules_Organisations.md#customer_number) is switched on in the Organisations module. If a customer number is recorded for a person, the details of their membership also show the number. [:octicons-tag-16:{ title="from Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"}
+
 To see what a person entered when booking, open the details of their membership in the member list. If the person booked an offer with [booking order forms](#booking_order_forms), the detail view shows the section **Booking order forms** below the booking orders. The table lists title, reference, step name, booking order, status and submission date for each form. **View form** opens the answers, **Edit form** lets you correct them as long as the form has the status "Open" or "Completed".
 
 ![The section Booking order forms below the booking orders, with two completed forms including step name, booking order and submission date](assets/course_planner_implementations_member_details_forms_v1_en.png){ class="shadow lightbox" title="Detail view of a membership in the Members tab · 2026.09.28" }
@@ -374,13 +376,15 @@ There are two ways to take a form out of booking. They differ in what happens to
 
 If offers with booking options have been added to the catalog, the booking orders and their details can also be found under the "Catalog" tab in the "Booking orders" subsection.
 
-The tabs "All", "Open", "Done", "Paid", "Cancelled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. **Export booking orders** gives you the booking orders of the implementation as an Excel file.
+The tabs "All", "Open", "Done", "Paid", "Cancelled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. **Export booking orders** gives you the booking orders of the implementation as an Excel file. It contains the same columns as the [Booking orders report](Reports_BookingOrders.md), so with the customer number switched on also the three customer number columns.
 
 The menu at the end of a row offers different actions depending on the status of the order. For an open order with a price these are **Set as "Paid"** and **Change price**, for a paid one **Set as "Open"**. If there is a billing address or an address proposal, you change the address of an open order with **Change billing address**. **Write off booking order** is available for every open order, **Change cancellation fee** for a cancelled order with a cancellation fee.
 
 ![The Export booking orders button, tabs and filters by Status, Offer type and Offer, plus a note icon for the participant's comment](assets/course_planner_implementations_tab_catalog2_v2_en.png){ class="shadow lightbox" title="Booking orders subsection of the Catalog tab · 2026.09.30" }
 
 If the booked offer requires forms, the detail view of a booking order shows the section **Booking order forms** with title, reference, step name, status and submission date. There, the forms can be viewed and, as long as they are open or completed, edited.
+
+If a booking order has a billing address with a recorded customer number, its detail view shows the number as the first line of the billing address.
 
 
 [To the top of the page ^](#implementations)
@@ -621,10 +625,12 @@ If you have already opened an implementation, you will also find the option to d
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
+[Module Organisations (Administration) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
+[Reports: Booking orders >](Reports_BookingOrders.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>

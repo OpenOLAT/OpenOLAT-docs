@@ -4,7 +4,7 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge: Seite Kontoeinstellungen verwalten in der Benutzerverwaltung](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" }
+![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung" }
 
 In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -19,9 +19,11 @@ Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen kei
     Bestehen dennoch zwei Konten derselben Person, entscheiden Sie, welches Konto weitergeführt wird. Zertifikate des zweiten Kontos laden Sie im Reiter "Zertifikate" über "Zertifikat herunterladen" herunter und erfassen sie im weitergeführten Konto über "Zertifikat hochladen". Das zweite Konto setzen Sie danach im Reiter "Konto" auf inaktiv.
 
 
-### Profil
+### Profil {: #profile}
 
-Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die von der Benutzer:in eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
+Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und im Abschnitt "Institution" die Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die von der Benutzer:in eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
+
+Ist die [Debitorennummer](../administration/Modules_Organisations.de.md#customer_number) im Modul Organisationen eingeschaltet, zeigt der Abschnitt "Institution" zusätzlich das Feld "Debitorennummer". Hier tragen Sie die Nummer ein, unter der Ihre Buchhaltung die Person führt. Die Person selbst sieht das Feld in ihrem eigenen Profil nicht. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736)
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -93,15 +95,15 @@ Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfal
 
 Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis Ablauf" für das Datum, "Tage bis Inaktivierung" für den letzten Login.
 
-!["Tage bis Ablauf" zeigt "In 831 Tage" zum Kontoablauf 31.12.2028, "Tage bis Inaktivierung" zeigt "In 704 Tage": Reiter Konto eines aktiven Kontos](assets/user_management_account_tab_active_v2_de.png){ class="shadow lightbox" }
+!["Tage bis Ablauf" zeigt "In 831 Tage" zum Kontoablauf 31.12.2028, "Tage bis Inaktivierung" zeigt "In 704 Tage"](assets/user_management_account_tab_active_v2_de.png){ class="shadow lightbox" title="Reiter Konto eines aktiven Kontos" }
 
 Nach einer Reaktivierung kommt das Reaktivierungsdatum dazu, und die Frist trägt den Zusatz "(Karenzfrist)".
 
-![Reaktivierungsdatum 16.09.2026 und die Frist "In 710 Tage, am 26.08.2028 (Karenzfrist)": Reiter Konto eines reaktivierten Kontos](assets/user_management_account_tab_reactivated_v1_de.png){ class="shadow lightbox" }
+![Reaktivierungsdatum 16.09.2026 und die Frist "In 710 Tage, am 26.08.2028 (Karenzfrist)"](assets/user_management_account_tab_reactivated_v1_de.png){ class="shadow lightbox" title="Reiter Konto eines reaktivierten Kontos" }
 
 Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an die Stelle der Inaktivierungsfrist.
 
-![Inaktivierungsdatum 16.09.2026 und die Frist "In 1101 Tage, am 21.09.2029": Reiter Konto eines inaktiven Kontos](assets/user_management_account_tab_inactive_v1_de.png){ class="shadow lightbox" }
+![Inaktivierungsdatum 16.09.2026 und die Frist "In 1101 Tage, am 21.09.2029"](assets/user_management_account_tab_inactive_v1_de.png){ class="shadow lightbox" title="Reiter Konto eines inaktiven Kontos" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -124,7 +126,7 @@ Den Reiter "Passwort" und seine Aktionen erreichen Administrator:innen, Benutzer
 Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
 `Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
 
-![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" }
+![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" title="Ablauf mit dem Einladungslink" }
 
 Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
 
@@ -208,7 +210,7 @@ Den Reiter erreichen Administrator:innen, Principals, Benutzerverwalter:innen un
 
 Über das Aktionsmenü (drei Punkte) einer Zeile lässt sich ein einzelner Leistungsnachweis löschen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9551)" }](https://track.frentix.com/issue/OO-9551). Ein Bestätigungsdialog erklärt die Folge: Ist die Person noch Teilnehmer:in des Kurses, wird der Leistungsnachweis automatisch neu erstellt; ist sie nicht mehr im Kurs, wird er endgültig gelöscht.
 
-![Warnhinweis, dass der Leistungsnachweis bei noch eingeschriebenen Personen neu erstellt wird, mit den Schaltflächen Löschen und Abbrechen: Dialog Leistungsnachweis löschen](assets/user_management_evidence_delete_v1_de.png){ class="shadow lightbox" }
+![Warnhinweis, dass der Leistungsnachweis bei noch eingeschriebenen Personen neu erstellt wird, mit den Schaltflächen Löschen und Abbrechen](assets/user_management_evidence_delete_v1_de.png){ class="shadow lightbox" title="Dialog Leistungsnachweis löschen" }
 
 Einen Leistungsnachweis löschen Sie ausschliesslich hier in der Benutzerverwaltung, die betroffene Person kann ihre eigenen Leistungsnachweise nicht löschen. Die Aktion "Leistungsnachweis löschen" steht nur Administrator:innen und Rollenverwalter:innen zur Verfügung. Principals und Benutzerverwalter:innen sehen den Reiter ohne diese Aktion. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
 
@@ -219,7 +221,7 @@ Einen Leistungsnachweis löschen Sie ausschliesslich hier in der Benutzerverwalt
 
 Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; über die vordefinierten Filter "Alle", "Gültig" und "Abgelaufen" lässt sich die Liste eingrenzen. Rechts über der Tabelle wird zwischen Kachel- und Tabellenansicht umgeschaltet. Über "Zertifikat hochladen" werden extern erworbene Zertifikate erfasst, damit das Profil den gesamten Leistungsnachweis abbildet.
 
-![Zertifikatsliste mit Herkunft, Ausstellungsdatum und Status, darüber der Button Zertifikat hochladen: Reiter Zertifikate eines Kontos](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" }
+![Zertifikatsliste mit Herkunft, Ausstellungsdatum und Status, darüber der Button Zertifikat hochladen](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" title="Reiter Zertifikate eines Kontos" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -235,7 +237,7 @@ Unter diesem Reiter werden alle erworbenen Badges angezeigt.
 
 Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
 
-![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein: Dialog Nachteilsausgleich hinzufügen](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" }
+![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" title="Dialog Nachteilsausgleich hinzufügen" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -290,7 +292,7 @@ Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ohne dieses Modul ersc
 
 Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Bildungsangebote die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Anders als dort tragen Sie die Person hier weder ein noch aus.
 
-![Markierter Reiter Bildungsprodukte, vorausgewählter Tab Relevant und die Spalte Rollen, Benutzerverwaltung](assets/user_management_educational_products_v1_de.png){ class="shadow lightbox" }
+![Markierter Reiter Bildungsprodukte, vorausgewählter Tab Relevant und die Spalte Rollen](assets/user_management_educational_products_v1_de.png){ class="shadow lightbox" title="Reiter Bildungsprodukte in der Benutzerverwaltung" }
 
 Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Gegenüber dem Coaching Tool zeigt die Liste zusätzlich die Spalte "Rollen", die je Durchführung ausweist, in welcher Rolle die Person beteiligt ist. Dafür fehlen die Spalten "Favorit" und "Status" sowie die Tabs "Favoriten" und "Vorbereitung". Ein Klick auf den Titel einer Durchführung öffnet deren Struktur mit den enthaltenen Kursen.
 
@@ -313,6 +315,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge der Benutzer:in zugeordnet
 [Benutzer:in löschen >](Delete_User.de.md)<br>
 [E-Mail Einstellungen >](../administration/E-Mail_Settings.de.md)<br>
 [Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
+[Modul Organisationen >](../administration/Modules_Organisations.de.md)<br>
 [Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Rollen zuweisen >](Assign_roles.de.md)<br>
