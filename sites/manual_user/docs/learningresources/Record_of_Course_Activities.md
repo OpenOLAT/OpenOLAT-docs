@@ -7,20 +7,24 @@ Within a course, you archive the log files in the [Archiving & Reporting](../lea
 
 The following log files are available:
 
-* Admin log file with personalized data of the course authors
-* Statistics log file with the anonymized data of the participants
-* Participants log file with detailed, personalized data of the participants
+* Admin log file, shown as "Administrator's log file (personalized activities of course authors)", with personalized data of the course authors
+* Statistics log file, shown as "User's log file (anonymous activities of users)", with the anonymized data of the participants
+* Participants log file, shown as "User's log file (personalized, detailed activities of all users)", with detailed, personalized data of the participants
 
-![Selected statistics log file (anonymous activities of users) with a date range from and to, ready to archive, under Log files in the Archiving & Reporting tool of the course administration](assets/course_archive_reports_logfiles_v1_en.png){ class="shadow lightbox" }
+Owners of the course as well as learning resource managers and administrators of the organisation the course belongs to can archive log files. Owners and learning resource managers choose between the admin log file and the statistics log file. The course right "Archive tool" opens the Archiving & Reporting tool, but not the log files. Persons who only have this course right see the message "You have no rights to archive log files." under Log files.
+
+Use the fields "from" and "to" to limit the log files to a period; both fields are optional. The period includes the day in the "to" field. With **Archive**, OpenOlat creates the selected log files and notifies you by e-mail as soon as the ZIP file is ready. The image shows the selection as owners see it.
+
+![Choice between the admin log file and the statistics log file, statistics log file selected, period from and to set](assets/course_archive_reports_logfiles_v2_en.png){ class="shadow lightbox" title="Log files in the Archiving & Reporting tool · 2026.10.02" }
 
 !!! info "Privacy protection"
 
-    For privacy reasons, the participants log file with the personalized data of the participants is only available to system administrators.
+    For privacy reasons, the participants log file with the personalized data of the participants is only available to administrators of the organisation the course belongs to.
 
-Owners of the course and persons with the course right "Archive tool" can archive log files. OpenOlat stores the selected log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in the [personal files](../personal_menu/File_Hub.md#personal_files) in the folder `private/archive`. The ZIP file then contains the selected files _course_statistic_log.xlsx_, _course_admin_log.xlsx_ and _course_user_log.xlsx_.
+OpenOlat stores the selected log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in the [personal files](../personal_menu/File_Hub.md#personal_files) in the folder `private/archive/"Course title"`. The ZIP file then contains the selected files _course_statistic_log.xlsx_, _course_admin_log.xlsx_ and _course_user_log.xlsx_.
 
 Please note that in the file course_statistic_log.xlsx the participants are anonymized as follows:<br>
-Each participant receives a randomly generated number (e.g. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6), which remains constant within a course. This allows you to track the activities of participant X in course Y, but not to compare them with their activities in course Z, since participant X receives a new number in course Z.
+Each participant receives an anonymous identifier of 32 characters (e.g. `e1c7eafdebc3c103fb8959e186326363`), which remains the same within a course. This allows you to track the activities of participant X in course Y, but not to compare them with their activities in course Z, since participant X receives a different identifier in course Z.
 
 Possible entries in the log file columns **actionCrudType** (database operation), **actionVerb** (action) and **actionObject** (course object handled) (grouped alphabetically):
 
@@ -53,7 +57,7 @@ Nevertheless, here is the key:
 
 The column **actionVerb** then examines in more detail which action the users under "userName" performed on the course object from the actionObject column. The entry in the **actionObject** column is thus the object that was "changed", at least from a database perspective.
 
-![Sample entries of the statistics log file with the columns creationDate, userName, actionCrudType, actionVerb and actionObject](assets/course_statistic_log.gif){ class="shadow lightbox" }
+![Sample entries of the statistics log file with the columns creationDate, userName, actionCrudType, actionVerb and actionObject](assets/course_statistic_log.gif){ class="shadow lightbox" title="Statistics log file course_statistic_log.xlsx" }
 
 The third row
 
