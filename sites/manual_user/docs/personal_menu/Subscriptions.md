@@ -1,6 +1,6 @@
 # Personal tools: Subscriptions {: #subscriptions}
 
-![Entry Subscriptions in the section Personal tools of the personal menu, selected with the mouse pointer](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
+![Entry Subscriptions, marked with a frame, in first place in the section Personal tools of the personal menu: entry point to the overview of changes in all subscribed elements](assets/pers_menu_subscriptions_v4_en.png){ class="aside-right lightbox" }
 
 ![Icon Subscriptions](assets/icon_subscriptions.png)
 
@@ -44,7 +44,7 @@ For a **portfolio binder**, the bell icon is not in a course element but in the 
 
 ## View notifications from subscriptions {: #view_notifications}
 
-Under "Subscriptions" in the personal menu, you can view all your news in one place.
+Under "Subscriptions" in the personal menu, you can view all your news in one place. If you have selected "Subscriptions" as a tool in the settings under [User tools](Settings.md#personal_tools), it appears as an icon in the main navigation instead.
 
 On the overview page, in the **"News"** tab, you select the period under "Modifications since" and display the changes. With "Send news via e-mail" you also receive the list by e-mail.
 

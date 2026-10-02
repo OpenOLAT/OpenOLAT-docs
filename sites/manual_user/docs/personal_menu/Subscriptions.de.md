@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Abonnements {: #subscriptions}
 
-![Eintrag Abonnements im Abschnitt Persönliche Werkzeuge des persönlichen Menüs, mit dem Mauszeiger ausgewählt](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
+![Eintrag Abonnements, mit Rahmen markiert, an erster Stelle im Abschnitt Persönliche Werkzeuge des persönlichen Menüs: Einstieg zur Übersicht der Änderungen in allen abonnierten Elementen](assets/pers_menu_subscriptions_v4_de.png){ class="aside-right lightbox" }
 
 ![Symbol Abonnements](assets/icon_subscriptions.png)
 
@@ -33,7 +33,7 @@ Klicken Sie in einem abonnierbaren Kursbaustein auf das Glockensymbol rechts obe
 
 Schalten Sie in diesem Popup-Fenster "Abonnieren" ein, erhalten Sie alle Mitteilungen über Neuerungen in diesem Kursbaustein automatisch. Sie müssen die Glockensymbole der einzelnen Kursbausteine dann nicht mehr selbst prüfen.
 
-![Glockensymbol im Kursbaustein Forum öffnet das Popup Abonnements mit dem Schalter Abonnieren, den Zeiträumen Letzte 7 Tage, Letzte 4 Wochen und Letzte 6 Monate sowie der letzten Nachricht](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" }
+![Das gerahmte Glockensymbol öffnet den Schalter Abonnieren, die Zeiträume Letzte 7 Tage, Letzte 4 Wochen und Letzte 6 Monate sowie die letzte Nachricht](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" title="Popup Abonnements im Kursbaustein Forum" }
 
 Bei einer **Portfoliomappe** steht das Glockensymbol nicht in einem Kursbaustein, sondern in der Mappe selbst: Öffnen Sie die Mappe, wechseln Sie in den Tab "Änderungsprotokoll" und klicken Sie rechts oben neben der Überschrift auf das Glockensymbol. Im Popup-Fenster schalten Sie "Abonnieren" ein. Mehr dazu unter [Meine Portfolio Mappen](../area_modules/My_portfolio_binders.de.md).
 
@@ -44,15 +44,15 @@ Bei einer **Portfoliomappe** steht das Glockensymbol nicht in einem Kursbaustein
 
 ## Ansicht der Mitteilungen aus Abonnements {: #view_notifications}
 
-Unter "Abonnements" im persönlichen Menü können Sie alle Ihre Neuigkeiten gesammelt einsehen.
+Unter "Abonnements" im persönlichen Menü können Sie alle Ihre Neuigkeiten gesammelt einsehen. Haben Sie "Abonnements" in den Einstellungen unter [Persönliche Werkzeuge](Settings.de.md#personal_tools) als Werkzeug ausgewählt, steht es stattdessen als Symbol in der Hauptnavigation.
 
 Auf der Übersichtsseite, im **Tab "Neuigkeiten"**, wählen Sie unter "Änderungen seit" den Zeitraum und lassen sich die Änderungen anzeigen. Mit "Neuigkeiten per E-Mail verschicken" erhalten Sie die Liste zusätzlich per E-Mail.
 
-![Tab Neuigkeiten mit dem Datumsfeld Änderungen seit, dem Button Neuigkeiten per E-Mail verschicken und den letzten Änderungen je abonniertem Projekt](assets/subscriptions_news_v1_de.png){ class="shadow lightbox" }
+![Datumsfeld Änderungen seit, Button Neuigkeiten per E-Mail verschicken und die letzten Änderungen je abonniertem Projekt](assets/subscriptions_news_v1_de.png){ class="shadow lightbox" title="Tab Neuigkeiten auf der Seite Abonnements" }
 
 Alle Ihre Abonnements sind im **Tab "Abonnements"** aufgelistet. Mit dem Schalter in der Spalte "Status" setzen Sie ein Abonnement vorübergehend aus, mit dem Papierkorb-Symbol löschen Sie es.
 
-![Tab Abonnements mit Filter nach Bereich, den Spalten Bereich, Lernressource, Abonnierte Ressource, Zusatzbeschreibung und Status sowie Schalter EIN und Papierkorb je Zeile](assets/subscriptions_subscriptions_v1_de.png){ class="shadow lightbox" }
+![Filter nach Bereich, die Spalten Bereich, Lernressource, Abonnierte Ressource, Zusatzbeschreibung und Status sowie Schalter EIN und Papierkorb je Zeile](assets/subscriptions_subscriptions_v1_de.png){ class="shadow lightbox" title="Tab Abonnements auf der Seite Abonnements" }
 
 Sie können sich auch mittels **RSS** über den Änderungsverlauf informieren lassen (siehe unten).
 
@@ -113,7 +113,7 @@ Dank RSS sind Sie schnell und komfortabel über Änderungen in von Ihnen abonnie
 
 Öffnen Sie den Tab "RSS-News-Feed" und klicken Sie auf den Link mit dem Symbol ![Symbol RSS](assets/icon_rss_small.png). Ein neues Browser-Fenster öffnet sich. Ignorieren Sie den Inhalt der Seite und kopieren Sie die Webadresse (URL) in die Zwischenablage. Fügen Sie die Webadresse dann in Ihren RSS-Reader ein.
 
-![Tab RSS-News-Feed mit dem Abschnitt Persönlicher RSS-Feed und dem Link OpenOlat-Neuigkeiten mit RSS-Symbol](assets/subscriptions_rss_v1_de.png){ class="shadow lightbox" }
+![Überschrift Persönlicher RSS-Feed mit dem persönlichen Link OpenOlat-Neuigkeiten und dem RSS-Symbol](assets/subscriptions_rss_v1_de.png){ class="shadow lightbox" title="Tab RSS-News-Feed auf der Seite Abonnements" }
 
 
 **Wie komme ich an einen RSS-Reader?**
