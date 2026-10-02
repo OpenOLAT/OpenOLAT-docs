@@ -62,6 +62,8 @@ Durch diese Option werden die erfassten Termine gleich direkt im Kurskalender an
 
 Das Hilfe-Symbol neben der Option zeigt den Text "Wenn diese Option aktiviert ist, kann der Termin als 'Prüfung' markiert werden. Ein markierter Termin wird im Prüfungsmodus durchgeführt, optional mit SEB."
 
+Die Option ist der Vorgabewert für alle Kurse. Sie gilt in jedem Kurs, der unter `Kurs > Administration > Einstellungen > Durchführung` die Standardkonfiguration nicht überschreibt. Steht sie auf aus, fehlt in diesen Kursen der Eintrag "Als Prüfung markieren" im 3-Punkte-Menü der Termine: für Kursbesitzer:innen in der Kurs-Administration und für Betreuer:innen in der Kurs-Toolbar. Ein Hinweis auf die Ursache erscheint im Kurs nicht. Weitere Gründe für einen fehlenden Eintrag beschreibt das Benutzerhandbuch: [Wenn "Als Prüfung markieren" fehlt](../../manual_user/learningresources/Toolbar_Events.de.md#mark_as_exam_missing)
+
 Die Option selbst erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Den Schalter "Prüfungsmodus einschalten" finden Sie in der System-Administration unter:<br>
 `Administration > e-Assessment > Prüfungsverwaltung`
 
@@ -71,16 +73,20 @@ Die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen", 
 
 Legt fest, woher Prüfungsmodi aus Terminen die Einstellungen des Safe Exam Browser beziehen: aus manuell erfassten Keys ("Mit manuellen Keys") oder aus einer Konfigurationsvorlage ("Aus Vorlage (empfohlen)"). Die gewählte Art gilt für alle Kurse. Kurse können sie nicht überschreiben, auch nicht bei "Überschreibbar".
 
-Ob eine Prüfung den Safe Exam Browser verlangt, bestimmt diese Einstellung nicht. Das entscheiden Kursbesitzende oder Betreuende pro Termin, wenn sie ihn als Prüfung markieren: im Prüfungsmodus des Termins mit dem Schalter "Safe Exam Browser verwenden". Bei "Aus Vorlage (empfohlen)" wählen sie dort zusätzlich im Feld "Konfiguration" eine der aktiven Vorlagen.
+Wirksam wird die Art im Dialog, der beim Markieren eines Termins als Prüfung erscheint: Bei "Aus Vorlage (empfohlen)" steht dort nach dem Einschalten von "Safe Exam Browser verwenden" das Feld "Konfiguration" mit den aktiven Vorlagen, bei "Mit manuellen Keys" das schreibgeschützte Feld "Safe Exam Browser Keys".
 
-Prüfungsmodi, die nicht aus einem Termin entstehen, sind von dieser Einstellung unabhängig. Dort wird die Art pro Prüfungsmodus im Feld "SEB-Konfiguration" gewählt:<br>
-`Kurs > Administration > Prüfungsverwaltung`
+!!! note "Hinweis: Wirkung im Kurs"
 
-Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Absenzenverwaltung im Kurs ein unter `Kurs > Administration > Einstellungen > Durchführung` und legen die Termine an unter `Kurs > Administration > Termine und Absenzen`. Nach dem Abspeichern kann ein Termin über das 3-Punkte-Menü als Prüfung markiert werden. Das Benutzerhandbuch beschreibt die Kurseinstellungen im Detail: [Konfiguration Termin- und Absenzenverwaltung im Kurs](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
+    Ob eine Prüfung den Safe Exam Browser verlangt, bestimmt diese Einstellung nicht. Das entscheidet im Kurs, wer den Termin als Prüfung markiert, mit dem Schalter "Safe Exam Browser verwenden" im Dialog der Prüfung. Bei "Aus Vorlage (empfohlen)" wählt die Person dort zusätzlich im Feld "Konfiguration" eine der aktiven Vorlagen; die als Standard markierte Vorlage ist vorausgewählt.
+
+    Prüfungsmodi, die nicht aus einem Termin entstehen, sind von dieser Einstellung unabhängig. Dort wird die Art pro Prüfungsmodus im Feld "SEB-Konfiguration" gewählt:<br>
+    `Kurs > Administration > Prüfungsverwaltung`
+
+    Kursbesitzende schalten die Termin- und Absenzenverwaltung im Kurs ein: [Konfiguration Termin- und Absenzenverwaltung im Kurs](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management). Wo der Eintrag "Als Prüfung markieren" steht, wer ihn nutzen kann und warum er fehlen kann, beschreibt das Benutzerhandbuch: [Toolbar: Termine, Termin als Prüfung markieren](../../manual_user/learningresources/Toolbar_Events.de.md#mark_event_as_exam)
 
 ??? info "Was Betreuende dürfen"
 
-    Betreuende finden keinen Eintrag in der Kurs-Administration, sondern das Werkzeug "Termine" in der Kurs-Werkzeugleiste. Sie erfassen dort Anwesenheiten und Absenzen und können ihre Termine ebenfalls als Prüfung markieren. Diese Sicht beschreibt das Benutzerhandbuch: [Toolbar: Termine, Aufruf als Betreuer:in](../../manual_user/learningresources/Toolbar_Events.de.md#call_as_coach)
+    Betreuende finden keinen Eintrag in der Kurs-Administration, sondern das Werkzeug "Termine" in der Kurs-Toolbar. Sie erfassen dort Anwesenheiten und Absenzen und können ihre Termine ebenfalls als Prüfung markieren. Diese Sicht beschreibt das Benutzerhandbuch: [Toolbar: Termine, Aufruf als Betreuer:in](../../manual_user/learningresources/Toolbar_Events.de.md#call_as_coach)
 
     Ihre Rechte werden systemweit vergeben, nicht pro Kurs: Tab "Berechtigungen" dieser Seite legt fest, ob Dozierende Absenzen entschuldigen, Meldungen erfassen oder Rekurse einsehen und bewilligen dürfen. Ein kursspezifisches Recht für Termine und Absenzen gibt es nicht.
 
@@ -88,10 +94,8 @@ Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Abs
 
 ??? info "Aus Vorlage (empfohlen): Vorlagen aus der System-Administration"
 
-    Die [Konfigurationsvorlagen](e-Assessment_AssessmentMgmt.de.md) werden in der System-Administration gepflegt unter:<br>
+    Die [Konfigurationsvorlagen](e-Assessment_AssessmentMgmt.de.md#tab_seb) werden in der System-Administration gepflegt unter:<br>
     `Administration > e-Assessment > Prüfungsverwaltung`, Tab "Safe Exam Browser Konfiguration"
-
-    Beim Markieren eines Termins als Prüfung ist die als Standard markierte Vorlage vorausgewählt, die Auswahl erfolgt pro Prüfung. Zusätzlich erscheint das Feld "Herunterladbare Konfigurationsdatei".
 
 ??? info "Mit manuellen Keys: Vorgabewerte aus System- und Kurs-Administration"
 
@@ -102,7 +106,7 @@ Für den Weg über Termine gilt: **Kursbesitzende** schalten die Termin- und Abs
 
 #### Herunterladbare Konfigurationsdatei {: #seb_downloadable_config }
 
-Diese Option erscheint bei der Art "Aus Vorlage (empfohlen)". Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).)
+Diese Option erscheint bei der Art "Aus Vorlage (empfohlen)". Sie legt für alle Prüfungen aus Terminen fest, ob Teilnehmende die Konfigurationsdatei des Safe Exam Browser herunterladen können. Im Dialog der Prüfung lässt sich der Wert nicht ändern. Die Datei ist wichtig, wenn die Teilnehmenden für die Prüfung eigene Geräte verwenden (BYOD).
 
 
 ### Globale Konfiguration
@@ -248,7 +252,7 @@ Werden hier keine Begründungen hinterlegt, erscheint die Begründungsauswahl be
 
 ## Tab Begründungen Absenzen [:octicons-tag-16:{ title="ab Release 14.1 (OO-4155)" }](https://track.frentix.com/issue/OO-4155)
 
-In der Kursadministration können Besitzer:innen/Betreuer:innen Absenzen erfassen.
+In der Kurs-Administration können Besitzer:innen/Betreuer:innen Absenzen erfassen.
 Für die Begründung der Absenzen kann dabei aus verschiedenen Begriffen ausgewählt werden, wie z.B. "Krankheit", "Unfall", "Dozent:in krank", u.ä.
 
 Diese dort angebotene Auswahl an Begriffen und Beschreibungen kann hier definiert werden.

@@ -15,7 +15,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * [Wie bereite ich eine Prüfung mit dem SEB vor? (für Autor:innen) >](../../manual_how-to/SEB/SEB.de.md)
-  
+
 
 
 ---
@@ -73,7 +73,7 @@ Laden Sie den Browser auf der [Website des Herstellers (ETH Zürich)](http://www
 Der Safe Exam Browser wird immer im Rahmen eines Prüfungsmodus verwendet. Deshalb ist die Aktivierung des Prüfungsmodus Voraussetzung. Sie nehmen diese vor unter:<br>
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`
 
-![SEB_Admin_step2_v1_de.png](assets/SEB_Admin_step2_v1_de.png){ class="shadow lightbox" }
+![Schalter "Prüfungsmodus einschalten" eingeschaltet im Tab Prüfungsverwaltung Konfiguration](assets/SEB_Admin_step2_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
 
 [zum Seitenanfang ^](#SEB_admin)
 
@@ -89,7 +89,7 @@ Es kann pro Betriebssystem eine eigene Mindestversion festgelegt werden.
 Die Einstellung nehmen Sie vor unter<br>
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Versionen"`
 
-![SEB_Admin_step3_v1_de.png](assets/SEB_Admin_step3_v1_de.png){ class="shadow lightbox" }
+![Schalter "Mindest SEB Version erzwingen" eingeschaltet, mit den Mindestversionen für Windows, Mac und iOS](assets/SEB_Admin_step3_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Versionen" }
 
 
 !!! note "Hinweis"
@@ -131,7 +131,7 @@ Sollen Konfigurationsvorlagen verwendet werden (Abklärung Schritt 5), können n
 - durch Erstellen einer Vorlage direkt in OpenOlat
 - durch Import einer .seb-Datei
 
-![SEB_Admin_step6_create_import_v1_de.png](assets/SEB_Admin_step6_create_import_v1_de.png){ class="shadow lightbox" }
+![Buttons "Vorlage erstellen" und "SEB-Datei importieren" markiert](assets/SEB_Admin_step6_create_import_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Konfiguration" }
 
 #### Variante 1:
 
@@ -147,7 +147,7 @@ Alternativ können Sie auch eine unverschlüsselte .seb-Datei als Vorlage import
 
 Alle erstellten oder importierten Konfigurationsvorlagen werden unter dem Tab "Safe Exam Browser Konfiguration" aufgelistet und können durch Administrator:innen bearbeitet, aktiviert/deaktiviert oder als Standard gesetzt werden.
 
-![SEB_Admin_step6_list_v1_de.png](assets/SEB_Admin_step6_list_v1_de.png){ class="shadow lightbox" }
+![Vorlagenliste mit den Spalten Name, Typ, Status, Standard und #Verwendungen](assets/SEB_Admin_step6_list_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Konfiguration" }
 
 **Spalte Typ**<br>
 Sie sehen in dieser Spalte, wie die Vorlage entstanden ist:<br>
@@ -185,11 +185,11 @@ Für alle, die mit dem [Modul "Termine und Absenzen"](../../manual_admin/adminis
 Der Prüfungsmodus und die SEB-Konfiguration können auch direkt auf einem Termin konfiguriert werden.
 
 Als Administrator:in nehmen Sie die grundsätzliche Aktivierung des Moduls Termin- und Absenzenverwaltung" vor unter: `Administration > Module > Termine/Absenzen > Tab Konfiguration`.<br>
-In diesem Tab im Abschnitt "Konfiguration auf Kursebene" kann danach auch festgelegt werden, ob der Safe Exam Browser mit manuellen Keys oder Keys in der SEB-Config benutzt werden soll. (Empfohlen werden Keys in der SEB-Config.) Ausserdem kann dort auch bestimmt werden, ob es eine herunterladbare Konfigurationsdatei geben soll. 
+In diesem Tab legen Sie im Abschnitt "Konfiguration auf Kursebene" mit der Einstellung ["Safe Exam Browser - Art der Benutzung"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#seb_type_of_use) fest, woher Prüfungen aus Terminen die Einstellungen des Safe Exam Browser beziehen: "Mit manuellen Keys" oder "Aus Vorlage (empfohlen)". Ausserdem bestimmen Sie dort, ob es eine herunterladbare Konfigurationsdatei gibt.
 
 Kursbesitzer:innen aktivieren/erstellen normalerweise die SEB-Konfiguration unter<br> 
 `Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen und Icon zum bearbeiten klicken > Tab "Safe Exam Browser"`<br> Siehe [Erstellung der Konfigurationsdatei >](#create_config_file)<br>
-Sie finden die gleiche Eingabemaske aber auch in `Kurs-Administration > Termine und Absenzen > Tab Termine`.
+Über `Kurs > Administration > Termine und Absenzen > Tab Termine` entsteht ein Prüfungsmodus aus einem Termin. Dessen Dialog ist kürzer und hat keine Auswahl "SEB-Konfiguration": [Prüfungsmodus aus einem Termin](../../manual_user/learningresources/Assessment_mode.de.md#exam_from_event)
 
 - Nachdem Sie einen Termin erstellt haben, wählen Sie bei diesem unter den 3 Punkten die Option "Als Prüfung markieren".
 (Wurde der Termin bereits als Prüfungs markiert, erhalten Sie unter den 3 Punkten die Option "Prüfung editieren".)
@@ -217,7 +217,7 @@ Sie finden die gleiche Eingabemaske aber auch in `Kurs-Administration > Termine 
 
 ## Support-Wissen für Administrator:innen {: #SEB_support} 
 
-Als Administrator:in sollen Sie möglicherweise Fragen von Autor:innen beantworten. Deshalb sind nachstehend einige Prozesschritte beschrieben, die Sie als Administrator:in nicht selbst ausführen müssen, sondern die Autor:innen. Als Ansprechpartner:in und Expert:in für OpenOlat sollten Sie jedoch auch dieses Hintergrundwissen haben. Informieren Sie sich auch in der Anleitung für Autor:innen: 
+Als Administrator:in sollen Sie möglicherweise Fragen von Autor:innen beantworten. Deshalb sind nachstehend einige Prozesschritte beschrieben, die Sie als Administrator:in nicht selbst ausführen müssen, sondern die Autor:innen. Als Ansprechpartner:in und Expert:in für OpenOlat sollten Sie jedoch auch dieses Hintergrundwissen haben. Informieren Sie sich auch in der Anleitung für Autor:innen:<br>
 [Wie bereite ich eine Prüfung mit dem SEB vor?](../../manual_how-to/SEB/SEB.de.md)
 
 ### (durch Kursbesitzer:in) Prüfungsmodus erstellen {: #create_assessment_mode}
@@ -245,18 +245,26 @@ Siehe [Schritt 4: Konfiguration (für Kursbesitzer:innen) >](../../manual_how-to
 Einen Termin als Prüfung markieren können
 
 - Kursbesitzer:innen
-- Betreuer:innen / Dozierende (im Kurs eingetragen bzw. als Dozent:in an Terminen hinterlegt)
-- Master-Coaches
-- Kursverantwortliche 
-- weitere Personen mit dem Recht zum Editieren des Kurses
+- Betreuer:innen und Dozent:innen (im Kurs eingetragen bzw. als Dozent:in an Terminen hinterlegt)
+- Klassenlehrer:innen
+- Kursplaner:innen
+- Personen mit dem Kursrecht "Kurseditor"
 
-Die Funktion wird angezeigt über das Toolbar-Icon „Termine" → 3-Punkte-Menü → „Als Prüfung markieren".
+Principals sehen die Terminliste, erhalten den Eintrag aber nicht.
+
+Den Eintrag "Als Prüfung markieren" finden Sie im 3-Punkte-Menü eines Termins, und zwar an drei Orten: in der Kurs-Toolbar beim Icon "Termine", unter `Kurs > Administration > Termine und Absenzen` und für Dozent:innen zusätzlich unter `Coaching > Termine / Absenzen > Tab "Termine"`.
 
 Voraussetzungen, damit sie angezeigt wird, sind:
 
-- Der Prüfungsmodus muss systemweit aktiviert sein. (`Administration > e-Assessment > Prüfungsverwaltung`). Ohne diese Aktivierung erscheint die Option bei niemandem.
-- Im `Kurs > Administration > Einstellungen > Tab Durchführung` muss die Option "Termin kann als Prüfung markiert werden" ausgewählt sein.
-- Der Termin ist kein Online-Meeting. (Bei BBB-/Teams-Terminen wird „Als Prüfung markieren" ausgeblendet.)
+- Der Prüfungsmodus muss systemweit aktiviert sein: `Administration > e-Assessment > Prüfungsverwaltung`. Ohne diese Aktivierung erscheint die Option bei niemandem.
+- Die Option "Termin kann als Prüfung markiert werden" muss für den Kurs gelten: in den Kurseinstellungen unter `Kurs > Administration > Einstellungen > Tab Durchführung`, wenn der Kurs die Standardkonfiguration überschreibt, sonst als Vorgabe unter `Administration > Module > Termine / Absenzen`.
+- Der Termin ist kein Online-Meeting. (Bei BBB-/Teams-Terminen wird "Als Prüfung markieren" ausgeblendet.)
+
+Die vollständige Beschreibung steht im Benutzerhandbuch: [Wenn "Als Prüfung markieren" fehlt](../../manual_user/learningresources/Toolbar_Events.de.md#mark_as_exam_missing)
+
+!!! note "Hinweis"
+
+    Betreuer:innen können Termine weder erstellen noch bearbeiten, das können nur Besitzer:innen. Das Markieren als Prüfung ist ein eigenes Recht und steht ihnen trotzdem zur Verfügung.
 
 !!! note "Hinweis"
 
@@ -288,13 +296,13 @@ Siehe [Schritt 6: Konfiguration herunterladen (für Kursbesitzer:innen) >](../..
 
 Damit nur der richtige abgeriegelte Browser auf die Prüfung zugreifen darf, braucht es einen Nachweis. Dieser Nachweis kann auf zwei Arten geliefert werden:
 
-**Variante A – „SEB mit manuellen Keys":**<br>
+**Variante A, "Mit manuellen Keys":**<br>
 Es wird von Hand ein Schlüssel (Key) hinterlegt. Das ist eine Art Passwort/Prüfsumme. Nur wer diesen Schlüssel kennt, kommt in die Prüfung.<br>
 Die Eingabe eines systemweiten Vorgabewertes ist möglich unter `(System-)Administration > Module > Termine / Absenzen > Tab Konfiguration > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald als Art der Benutzung "manuelle Keys" gewählt wurde.)<br> 
 Kursbesitzer:innen finden diesen Schlüssel dann im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Durchführung > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald systemweit ein manueller Key vorgegeben wurde.)<br>
 
- 
-**Variante B – „SEB-Config (empfohlen)":**<br>
+
+**Variante B, "Aus Vorlage (empfohlen)":**<br>
 Eine Konfigurationsvorlage kann den Schlüssel auch mitbringen. Statt eines manuell hinterlegten Schlüssels wird ein Schlüssel benutzt, der in einer fertigen Konfigurationsvorlage enthalten ist. Das ist die von OpenOlat empfohlene, komfortablere Methode.<br>
 Ob der Key in der Vorlage enthalten sein soll, wird festgelegt unter `(System-)Administration > Module > Termine / Absenzen > Tab Konfiguration > "Safe Exam Browser - Art der Benutzung"`
 
@@ -344,6 +352,7 @@ Grundsätzlich sollte bei laufendem Prüfungsmodus möglichst nicht mehr eingegr
 [Prüfungsverwaltung (Admin) > ](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
 [Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen > ](../../manual_user/learningresources/Assessment_Management.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Konfiguration Termin- und Absenzenverwaltung im Kurs >](../../manual_user/learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
+[Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
+[Toolbar: Termine >](../../manual_user/learningresources/Toolbar_Events.de.md)<br>
 
 [zum Seitenanfang ^](#SEB_admin)

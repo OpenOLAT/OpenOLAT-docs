@@ -5,7 +5,7 @@
 
 Assessment management includes configuring the **assessment mode** and setting up **assessment inspection**. Both can be enabled or disabled separately here.
 
-![Assessment Management Configuration tab with the switches Enable assessment mode and Enable assessment inspection, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_config_v1_en.png){ class="shadow lightbox" }
+![Assessment Management Configuration tab with the switches Enable assessment mode and Enable assessment inspection](assets/e-assessment_mgmt_tab_config_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -15,7 +15,7 @@ Assessment management includes configuring the **assessment mode** and setting u
 
 As an administrator, you can view an overview of all assessment modes created in your OpenOlat instance.
 
-![Assessment modes tab with search fields and the overview table of all created assessment modes, in the assessment management of the System Administration](assets/e-assessment_mgmt_tab_modes_v1_en.png){ class="shadow lightbox" }
+![Assessment modes tab with search fields and the overview table of all created assessment modes](assets/e-assessment_mgmt_tab_modes_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -25,9 +25,9 @@ As an administrator, you can view an overview of all assessment modes created in
 
 Manage Safe Exam Browser configuration templates that can be applied to assessment modes.
 
-![Safe Exam Browser configuration tab with the buttons Create template and Import SEB-File, and the template list](assets/e-assessment_mgmt_tab_seb_v1_en.png){ class="shadow lightbox" }
+![Safe Exam Browser configuration tab with the buttons Create template and Import SEB-File, and the template list](assets/e-assessment_mgmt_tab_seb_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
 
-### Template list in the *SEB Configuration* tab
+### Template list in the *Safe Exam Browser configuration* tab
 
 The template list shows all created SEB configuration templates with various columns that can be configured individually via the gear icon.
 
@@ -66,7 +66,7 @@ The imported `.seb` file.
 
 An optional text shown to authors when using the template in the assessment mode.
 
-![Import SEB-File dialog with the fields Last name, State, SEB source file and Information for authors, and the assessment mode-specific configuration below](assets/e-assessment_mgmt_seb_import_v1_en.png){ class="shadow lightbox" }
+![Import SEB-File dialog with the fields Name, Status, SEB source file and Information for authors, and the assessment mode-specific configuration below](assets/e-assessment_mgmt_seb_import_v1_en.png){ class="shadow lightbox" title="Dialog Import SEB-File" }
 
 #### Setting the default template
 
@@ -91,7 +91,7 @@ Deactivated templates are no longer available for selection when configuring an 
 
 Via this tab, you can require a minimal version of the Safe Exam Browser instance-wide. This is helpful if versions below a certain SEB version should not be permitted.
 
-![Safe Exam Browser Versions tab with the disabled Enforce minimal SEB version switch](assets/e-assessment_mgmt_tab_version_v1_en.png){ class="shadow lightbox" }
+![Safe Exam Browser Versions tab with the disabled Enforce minimal SEB version switch](assets/e-assessment_mgmt_tab_version_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
 
 Activate **"Enforce minimal SEB version"**. Then set the required version separately per operating system:
 
@@ -107,7 +107,7 @@ Required minimum version for participants who start the Safe Exam Browser on Mac
 
 Required minimum version for participants who start the Safe Exam Browser on iOS.
 
-![Safe Exam Browser Versions tab with the enabled switch and the fields Minimal version Windows, Mac and iOS](assets/e-assessment_mgmt_tab_version_on_v1_en.png){ class="shadow lightbox" }
+![Safe Exam Browser Versions tab with the enabled switch and the fields Minimal version Windows, Mac and iOS](assets/e-assessment_mgmt_tab_version_on_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser versions" }
 
 If a participant starts an exam with an older version, the exam is not released; a prompt appears to update the Safe Exam Browser.
 
@@ -120,6 +120,8 @@ If a participant starts an exam with an older version, the exam is not released;
 [Assessment administration by course owners and instructors >](../../manual_user/learningresources/Assessment_Management.md)<br>
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
+[As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
+[Module Events and Absences >](Modules_Events_and_Absences.md)
 
 
 [To the top of the page ^](#assessment_mgmt)

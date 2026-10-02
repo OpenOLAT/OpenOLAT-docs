@@ -11,17 +11,17 @@ Bevor das Absenzenmanagement genutzt werden kann, muss es von den Kursbesitzer:i
 
 ## "Termine" in der Toolbar {: #toolbar_events}
 
-**Kursbesitzer:innen** können hier Termine hinzufügen und Absenzen organisieren. Zusätzlich erscheint für Kursbesitzer:innen in der Kursadministration das Menü "Termine und Absenzen". Die Möglichkeiten sind dabei überwiegend identisch. 
+**Kursbesitzer:innen** können hier Termine hinzufügen und Absenzen organisieren. Zusätzlich erscheint für Kursbesitzer:innen in der Kurs-Administration das Menü "Termine und Absenzen". Die Möglichkeiten sind dabei überwiegend identisch. 
 
-![Der Menüeintrag "Termine und Absenzen" öffnet die Termin- und Absenzenverwaltung für Kursbesitzer:innen, im Menü Administration der Kurstoolbar](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" }
+![Menüeintrag "Termine und Absenzen" öffnet die Termin- und Absenzenverwaltung für Kursbesitzer:innen](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
-**Kursbetreuer:innen** sehen das Menü "Termine" nur in der Toolbar, nicht aber in der Kursadministration. Auch können sie *keine* neuen Termine anlegen, nur die vorhandenen einsehen und, sofern aktiviert, Absenzen erfassen. Es kann auch nach Terminen gefiltert werden, für die man als Betreuer:in eingetragen ist.
+**Kursbetreuer:innen** sehen das Menü "Termine" nur in der Toolbar, nicht aber in der Kurs-Administration. Auch können sie *keine* neuen Termine anlegen, nur die vorhandenen einsehen und, sofern aktiviert, Absenzen erfassen. Es kann auch nach Terminen gefiltert werden, für die man als Betreuer:in eingetragen ist.
 
-![Betreuer:innen erreichen die Termine nur über das Toolbar-Icon "Termine"; das Menü Administration enthält für sie keinen Eintrag "Termine und Absenzen"](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" }
+![Betreuer:innen erreichen die Termine nur über das Toolbar-Icon "Termine"; das Menü Administration enthält für sie keinen Eintrag "Termine und Absenzen"](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Betreuer:innen" }
 
 **Teilnehmende** sehen das Menü "Termine" in der Toolbar und können so rasch synchrone Präsenz- oder Online-Termine erkennen, z.B. im Rahmen von Blended-Learning. 
 
-![Teilnehmende öffnen über das Toolbar-Icon "Termine" die Terminliste des Kurses mit Datum, Zeit, Einheiten, Status, Ort und Dozenten](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" }
+![Teilnehmende öffnen über das Toolbar-Icon "Termine" die Terminliste des Kurses mit Datum, Zeit, Einheiten, Status, Ort und Dozenten](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" title="Terminliste in der Sicht der Teilnehmenden" }
 
 Persönliche Fehlzeiten finden Teilnehmende dann bei den "Persönlichen Werkzeugen" im [Menü "Absenzen"](../personal_menu/Absences.de.md).
 
@@ -31,17 +31,26 @@ Persönliche Fehlzeiten finden Teilnehmende dann bei den "Persönlichen Werkzeug
 
 Im Folgenden wird die Ansicht der Termine und Absenzen für **Kursbesitzer:innen** näher beschrieben. 
 
-## Tab Termine {: #tab_events}
+## Tab Termine [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636) {: #tab_events}
 
-![Die Terminverwaltung für Kursbesitzer:innen mit den Tabs Termine, Teilnehmer:innen und Rekurse, dem Button "Termin hinzufügen" und der aufgeklappten Detailansicht eines Termins](assets/Termine_Kursbesitzende_20.png){ class="shadow lightbox" }
+![Die Terminverwaltung für Kursbesitzer:innen mit den Tabs Termine, Teilnehmer:innen und Rekurse, dem Button "Termin hinzufügen" und der aufgeklappten Detailansicht eines Termins](assets/Termine_Kursbesitzende_20.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 ### Termine anzeigen {: #display_events}
 
 Im Tab "Termine" können dem Kurs Termine hinzugefügt und nach unterschiedlichen Kriterien gefiltert angezeigt werden. Wurde der Termin z.B. Fachbereichen zugeordnet (Taxonomie), kann nach diesen gefiltert werden. Um Details zu einem Termin anzuzeigen, klicken Sie auf das + zu Beginn der betreffenden Zeile.
 
-Im 3-Punkte-Menü am Ende jeder Zeile finden Sie weitere Optionen für einen Termin. Hier können Sie den Termin bearbeiten, kopieren, löschen, in ein Online Meeting ändern, als Prüfung markieren, PDF-Listen erstellen sowie weitere Downloads generieren. Auch können erledigte Termine wiedergeöffnet werden.
+Im 3-Punkte-Menü am Ende jeder Zeile finden Sie die Aktionen zu einem Termin:
 
-![Das 3-Punkte-Menü eines Termins bietet unter anderem Bearbeiten, Kopieren, Ändere in Online Meeting, Als Prüfung markieren, Absenzen- und Präsenzliste, Export und Termin wiederöffnen](assets/Termine_Asenzen.jpg){ class="shadow lightbox" }
+- **Bearbeiten** und **Kopieren**
+- **Ändere in Online Meeting** oder **Ändere in vor Ort Termin**, bei einem Termin mit Online Meeting zusätzlich **Online Meeting beitreten**
+- **Als Prüfung markieren**, bei einem bereits markierten Termin stattdessen **Prüfung editieren** und **Prüfung löschen**, siehe [Termin als Prüfung markieren](#mark_event_as_exam)
+- **Absenzenliste** und **Präsenzliste** als PDF, **Log** und **Export** als Excel-Datei
+- **Termin wiederöffnen** bei einem abgeschlossenen oder abgesagten Termin, siehe [Termine wiederöffnen](#reopen_events)
+- **Löschen**
+
+Wird der Kurs im Course Planner verwendet, fehlen Bearbeiten, Kopieren, die Umstellung auf ein Online Meeting oder einen vor Ort Termin und Löschen, weil die Termine im Course Planner verwaltet werden. Stammen die Termine aus einem externen Verwaltungssystem, können Bearbeiten und Löschen ebenfalls fehlen. Welche Einträge Betreuer:innen im selben Menü sehen, beschreibt die Seite zur Toolbar: [Menü am Zeilenende](../learningresources/Toolbar_Events.de.md#lists_and_export)
+
+![Das 3-Punkte-Menü eines Termins bietet unter anderem Bearbeiten, Kopieren, Ändere in Online Meeting, Als Prüfung markieren, Absenzen- und Präsenzliste, Export und Termin wiederöffnen](assets/Termine_Asenzen.jpg){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 Über die Spaltenauswahl (Zahnrad) blenden Sie weitere Spalten ein. Ist das Modul "Räume" aktiviert, steht dort zusätzlich die Spalte "Räume" mit den gebuchten Räumen des Termins. Sie ist standardmässig ausgeblendet.
 
@@ -78,7 +87,7 @@ Die übrigen Angaben erscheinen nur, wenn sie am Termin gepflegt sind:
 
 Zuunterst steht die Tabelle der Elemente, deren Teilnehmende zum Termin gehören.
 
-![Aufgeklappter Terminblock mit Eckwerten, Dozentenfeld, Raumkarte, Beschreibung und Elementtabelle, in der Zeitansicht](assets/events_and_absences_timeline_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Terminblock mit Eckwerten, Dozentenfeld, Raumkarte, Beschreibung und Elementtabelle](assets/events_and_absences_timeline_v1_de.png){ class="shadow lightbox" title="Zeitansicht der Terminliste" }
 
 Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt deshalb keine Raumkarten: [Räume für einen Termin belegen >](../area_modules/Course_Planner_Events.de.md#room_booking)
 
@@ -91,7 +100,7 @@ Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt desha
 
 Zum Hinzufügen (weiterer) Termine verwenden Sie den Button "Termin hinzufügen" rechts oben über der Liste im Tab "Termine".
 
-![Der Button "Termin hinzufügen" rechts oben über der Terminliste im Tab "Termine"](assets/events_and_absences_tab_events_create1_v1_de.png){ class="shadow lightbox" }
+![Button "Termin hinzufügen" rechts oben über der Terminliste](assets/events_and_absences_tab_events_create1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 !!! info "Wichtig"
 
@@ -99,7 +108,7 @@ Zum Hinzufügen (weiterer) Termine verwenden Sie den Button "Termin hinzufügen"
 
 Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin. 
 
-![Eingabemaske für einen neuen Termin mit den Pflichtfeldern Titel, Datum und Zeit, dem Toggle Online Meeting und dem Schalter Präsenz, Popup Termin hinzufügen](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
+![Eingabemaske für einen neuen Termin mit den Pflichtfeldern Titel, Datum und Zeit, dem Toggle Online Meeting und dem Schalter Präsenz](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
 
  **Titel**: Vergeben Sie einen sinnvollen Namen.
 
@@ -145,7 +154,7 @@ Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar
 Sobald in der ersten Spalte mindestens ein Termin selektiert ist, erscheinen über der Liste der Termine die Buttons zum Kopieren und Löschen von Terminen.<br>
 Alternativ können die Optionen zum Kopieren und Löschen unter den 3 Punkten am Ende einer Zeile aufgerufen werden.
 
-![Bei selektiertem Termin erscheinen über der Liste die Buttons "Kopieren" und "Löschen"; dieselben Optionen stehen im 3-Punkte-Menü am Ende der Zeile](assets/events_and_absences_tab_events_copy_v1_de.png){ class="shadow lightbox" }
+![Bei selektiertem Termin erscheinen über der Liste die Buttons "Kopieren" und "Löschen"; dieselben Optionen stehen im 3-Punkte-Menü am Ende der Zeile](assets/events_and_absences_tab_events_copy_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -154,19 +163,25 @@ Alternativ können die Optionen zum Kopieren und Löschen unter den 3 Punkten am
 
 ### Termine importieren [:octicons-tag-16:{ title="ab Release 13.0 (OO-3666)" }](https://track.frentix.com/issue/OO-3666){:target="_blank"} {: #import_events}
 
-Es ist auch möglich, Termine zu importieren, die an anderer Stelle in OpenOlat exportiert wurden. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen".
+Viele Termine auf einmal erfassen Sie schneller mit einer Excel-Datei als einzeln im Dialog. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren". Der Assistent "Termine aus Excel importieren" bietet die "Vorlage Excelimport" zum Herunterladen. Kopieren Sie die ausgefüllten Zeilen aus der Excel-Datei in das Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)".
 
-![Der kleine Pfeil neben dem Button "Termin hinzufügen" öffnet die Option "Termine importieren"](assets/events_and_absences_tab_events_import_v1_de.png){ class="shadow lightbox" }
+![Der kleine Pfeil neben dem Button "Termin hinzufügen" öffnet die Option "Termine importieren"](assets/events_and_absences_tab_events_import_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
 ---
 
-### Termin als Prüfung markieren {: #mark_event_as_exam}
+### Termin als Prüfung markieren [:octicons-tag-16:{ title="ab Release 14.0 (OO-4045)" }](https://track.frentix.com/issue/OO-4045) {: #mark_event_as_exam}
 
-Unter den 3 Punkten kann ein Termin auch als Prüfung markiert werden. Für einen so markierten Termin kann z.B. der [Safe Exam Browser](../../manual_how-to/SEB/SEB.de.md) aktiviert werden.
+Findet ein Termin als Prüfung statt, markieren Sie ihn über "Als Prüfung markieren" im 3-Punkte-Menü. OpenOlat legt dafür einen Prüfungsmodus an, der Datum, Zeit und Teilnehmende aus dem Termin übernimmt. Im folgenden Dialog wählen Sie die Kursbausteine der Prüfung und schalten bei Bedarf den [Safe Exam Browser](../../manual_how-to/SEB/SEB.de.md) ein: [Prüfungsmodus aus einem Termin](../learningresources/Assessment_mode.de.md#exam_from_event)
 
-![Die Option "Als Prüfung markieren" im 3-Punkte-Menü am Ende der Terminzeile im Tab "Termine"](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" }
+![Eintrag "Als Prüfung markieren" im 3-Punkte-Menü am Ende der Terminzeile](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+
+Nach dem Speichern zeigt die Spalte "Prüfung" ein Symbol, und das 3-Punkte-Menü bietet "Prüfung editieren" und "Prüfung löschen". Die Prüfung erscheint zudem in der Prüfungsverwaltung des Kurses unter `Kurs > Administration > Prüfungsverwaltung`.
+
+![Symbol in der Spalte Prüfung und die Einträge Prüfung editieren und Prüfung löschen im 3-Punkte-Menü](assets/events_and_absences_tab_events_exam_marked_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.02" }
+
+Denselben Eintrag haben Betreuer:innen in der Toolbar. Wer ihn ausserdem nutzen kann und warum er fehlen kann, beschreibt die Seite zur Toolbar: [Wenn "Als Prüfung markieren" fehlt](../learningresources/Toolbar_Events.de.md#mark_as_exam_missing)
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -194,23 +209,23 @@ Das Abschliessen von Terminen findet über das [Termin-Icon in der Toolbar](../l
 
 Ein bereits abgeschlossener Termin kann von Kursbesitzer:innen wiedergeöffnet werden. Sie finden die Option "Termin wiederöffnen" unter den 3 Punkten in der Zeile eines Termins.
 
-![Die Option "Termin wiederöffnen" im 3-Punkte-Menü eines erledigten Termins](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox" }
+![Die Option "Termin wiederöffnen" im 3-Punkte-Menü eines erledigten Termins](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
 Alternativ kann ein Termin auch über das Buch-Symbol (Absenz editieren) wiedergeöffnet werden.
 
-![Das Buch-Symbol "Absenz editieren" öffnet die Absenzenerfassung; der Button "Termin wiederöffnen" öffnet den abgeschlossenen Termin erneut](assets/Termin_wiederoeffnen_20.jpg){ class="shadow lightbox" }
+![Das Buch-Symbol "Absenz editieren" öffnet die Absenzenerfassung; der Button "Termin wiederöffnen" öffnet den abgeschlossenen Termin erneut](assets/Termin_wiederoeffnen_20.jpg){ class="shadow lightbox" title="Absenzenerfassung eines Termins" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
 ---
 
-### Dozent:innen verwalten {: #manage_teachers}
+### Dozent:innen verwalten [:octicons-tag-16:{ title="ab Release 20.0.3 (OO-8622)" }](https://track.frentix.com/issue/OO-8622) {: #manage_teachers}
 
 Sobald in der ersten Spalte mindestens ein Termin selektiert ist, erscheint über der Liste der Termine der Button "Dozent:innen verwalten".
 
-![Bei selektiertem Termin erscheint über der Terminliste der Button "Dozent:innen verwalten" neben den Buttons "Kopieren" und "Löschen"](assets/events_and_absences_tab_events_teachers1_v1_de.png){ class="shadow lightbox" }
+![Bei selektiertem Termin erscheint über der Terminliste der Button "Dozent:innen verwalten" neben den Buttons "Kopieren" und "Löschen"](assets/events_and_absences_tab_events_teachers1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
 
-![Im Dialog "Dozent:innen verwalten" werden Dozent:innen per Checkbox einzelnen Terminen oder über die Buttons allen Terminen zugewiesen oder entzogen](assets/events_and_absences_tab_events_teachers2_v1_de.png){ class="shadow lightbox" }
+![Im Dialog "Dozent:innen verwalten" werden Dozent:innen per Checkbox einzelnen Terminen oder über die Buttons allen Terminen zugewiesen oder entzogen](assets/events_and_absences_tab_events_teachers2_v1_de.png){ class="shadow lightbox" title="Dialog Dozent:innen verwalten" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -221,7 +236,7 @@ Sobald in der ersten Spalte mindestens ein Termin selektiert ist, erscheint übe
 
 Bei geöffneter Detailansicht eines Termins (nach Klick auf das + zu Beginn der betreffenden Zeile) wird am unteren Rand ein Icon mit 3 Punkten angezeigt. Dort finden Sie die Möglichkeit, die Teilnehmer:innen vom gewählten Termin auszuschliessen.
 
-![Das 3-Punkte-Menü am unteren Rand der Termin-Detailansicht enthält die Option "Teilnehmer ausschliessen"](assets/events_and_absences_tab_events_exclude_participants_v1_de.png){ class="shadow lightbox" }
+![Das 3-Punkte-Menü am unteren Rand der Termin-Detailansicht enthält die Option "Teilnehmer ausschliessen"](assets/events_and_absences_tab_events_exclude_participants_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -233,7 +248,7 @@ Bei geöffneter Detailansicht eines Termins (nach Klick auf das + zu Beginn der 
 
 Im Tab "Teilnehmer:innen" erhalten Sie eine Übersicht über alle Teilnehmer:innen des Kurses oder der ausgewählten Gruppen. (Ohne Besitzer:innen und Betreuer:innen, sofern diese nicht zusätzlich in der Rolle Teilnehmer:in eingetragen sind.) Über den Button "Drucken" kann die Liste gedruckt werden.
 
-![Die Teilnehmerliste zeigt je Person Erstzulassung, Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und den farbigen Fortschrittsbalken](assets/Termine_Tab_TN_20.png){ class="shadow lightbox" }
+![Die Teilnehmerliste zeigt je Person Erstzulassung, Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und den farbigen Fortschrittsbalken](assets/Termine_Tab_TN_20.png){ class="shadow lightbox" title="Tab Teilnehmer:innen in der Kurs-Administration" }
 
 **Erstzulassung**<br>
 Mit der Erstzulassung wird definiert, wann der Teilnehmende mit dem Kurs begonnen hat.
@@ -274,7 +289,7 @@ Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wiede
 
 Der für den Kurs generell eingestellte Schwellwert für die Anwesenheitspflicht kann individuell angepasst werden. Wählen Sie dazu im Tab "Teilnehmer:innen" die betreffende Person und klicken Sie auf das Icon zum Bearbeiten.
 
-![Im Dialog "Teilnehmer:innen-Schwellwert bearbeiten" werden der persönliche Schwellwert und die Erstzulassung einer Person angepasst; der Kursschwellwert wird angezeigt](assets/events_and_absences_tab_participants_personal_rate_v1_de.png){ class="shadow lightbox" }
+![Im Dialog "Teilnehmer:innen-Schwellwert bearbeiten" werden der persönliche Schwellwert und die Erstzulassung einer Person angepasst; der Kursschwellwert wird angezeigt](assets/events_and_absences_tab_participants_personal_rate_v1_de.png){ class="shadow lightbox" title="Dialog Teilnehmer:innen-Schwellwert bearbeiten" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -285,7 +300,7 @@ Der für den Kurs generell eingestellte Schwellwert für die Anwesenheitspflicht
 
 Wurden Rekurse eingereicht, können Sie sich als Kursbesitzer:in unter diesem Tab einen Überblick verschaffen. Filter helfen Ihnen bei einer grösseren Anzahl von Rekursen.
 
-![Der Tab "Rekurse" listet eingereichte Rekurse und bietet einen Filter nach Pendent, Angenommen und Abgelehnt](assets/events_and_absences_tab_appeals1_v1_de.png){ class="shadow lightbox" }
+![Der Tab "Rekurse" listet eingereichte Rekurse und bietet einen Filter nach Pendent, Angenommen und Abgelehnt](assets/events_and_absences_tab_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Rekurse in der Kurs-Administration" }
 
 Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, die kursübergreifend alle Rekurse in der zentralen [kursübergreifenden Absenzenverwaltung](../area_modules/Absence_Management.de.md) abrufen können. 
 
@@ -298,10 +313,11 @@ Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, 
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Safe Exam Browser >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
-[Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)
+[Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
+[Safe Exam Browser >](../../manual_how-to/SEB/SEB.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
+[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)
 
 **Weiterführend**<br>
 [Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>

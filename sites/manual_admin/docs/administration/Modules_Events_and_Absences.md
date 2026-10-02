@@ -61,6 +61,8 @@ This option allows the events entered to be displayed directly in the course cal
 
 The help icon next to the option shows the text "If this option is enabled, the event can be marked as an 'Exam'. A marked event is executed in assessment mode, optionally with SEB."
 
+The option is the default value for all courses. It applies in every course that does not override the default configuration under `Course > Administration > Settings > Execution`. If it is switched off, the entry "Mark as exam" in the 3-dot menu of the events is missing in these courses: for course owners in the course administration and for coaches in the course toolbar. No note on the cause appears in the course. The user manual describes further reasons for a missing entry: [If "Mark as exam" is missing](../../manual_user/learningresources/Toolbar_Events.md#mark_as_exam_missing)
+
 The option itself only appears if the assessment mode is enabled system-wide. You find the switch "Enable assessment mode" in the system administration under:<br>
 `Administration > e-Assessment > Assessment management`
 
@@ -70,12 +72,16 @@ The following fields "Prep time", "Follow-up", "Admissible IP addresses", "Safe 
 
 Defines where assessment modes from events take the settings of the Safe Exam Browser from: from manually entered keys ("With manual keys") or from a configuration template ("From template (recommended)"). The selected type applies to all courses. Courses cannot override it, not even with "Overridable".
 
-Whether an exam requires the Safe Exam Browser is not determined by this setting. Course owners or coaches decide this per event when they mark it as an exam: in the assessment mode of the event with the switch "Use Safe Exam Browser". With "From template (recommended)" they additionally select one of the active templates in the field "Configuration".
+The type takes effect in the dialog that appears when an event is marked as an exam: with "From template (recommended)", the field "Configuration" with the active templates appears there after switching on "Use Safe Exam Browser", with "With manual keys" the read-only field "Safe Exam Browser Keys".
 
-Assessment modes that do not originate from an event are independent of this setting. There, the type is chosen per assessment mode in the field "SEB configuration":<br>
-`Course > Administration > Assessment management`
+!!! note "Note: effect in the course"
 
-For the route via events: **course owners** enable the event and absence management in the course under `Course > Administration > Settings > Execution` and create the events under `Course > Administration > Events and Absences`. Once saved, an event can be marked as an exam via the 3-dot menu. The user manual describes the course settings in detail: [Configuring event and absence management in the course](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
+    Whether an exam requires the Safe Exam Browser is not determined by this setting. In the course, this is decided by whoever marks the event as an exam, with the switch "Use Safe Exam Browser" in the dialog of the exam. With "From template (recommended)", this person additionally selects one of the active templates in the field "Configuration"; the template marked as default is preselected.
+
+    Assessment modes that do not originate from an event are independent of this setting. There, the type is chosen per assessment mode in the field "SEB configuration":<br>
+    `Course > Administration > Assessment management`
+
+    Course owners enable the event and absence management in the course: [Configuring event and absence management in the course](../../manual_user/learningresources/Course_Settings_Execution.md#config_event_and_absence_management). The user manual describes where the entry "Mark as exam" is located, who can use it and why it can be missing: [Toolbar: Events, Mark an event as an exam](../../manual_user/learningresources/Toolbar_Events.md#mark_event_as_exam)
 
 ??? info "What coaches are allowed to do"
 
@@ -90,8 +96,6 @@ For the route via events: **course owners** enable the event and absence managem
     The [configuration templates](e-Assessment_AssessmentMgmt.md#tab_seb) are maintained in the system administration under:<br>
     `Administration > e-Assessment > Assessment management`, tab "Safe Exam Browser configuration"
 
-    When an event is marked as an exam, the template marked as default is preselected, and the selection is made per exam. In addition, the field "Downloadable configuration file" appears.
-
 ??? info "With manual keys: default values from system and course administration"
 
     The system-wide default value is entered directly below this setting in the field "Safe Exam Browser Keys".
@@ -101,7 +105,7 @@ For the route via events: **course owners** enable the event and absence managem
 
 #### Downloadable configuration file {: #seb_downloadable_config }
 
-This option appears with the type "From template (recommended)". Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if participants' own devices are used for the exam (BYOD).)
+This option appears with the type "From template (recommended)". It defines for all exams from events whether participants can download the configuration file of the Safe Exam Browser. The value cannot be changed in the dialog of the exam. The file is important if the participants use their own devices for the exam (BYOD).
 
 
 ### Global configuration

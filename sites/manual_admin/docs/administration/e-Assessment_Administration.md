@@ -24,10 +24,11 @@ As an administrator, you can make the basic settings for the question pool here.
 
 This is where the test receipt is configured and settings for the correction flow of tests are defined. You can use the correction workflow to generate personal correction orders and assign them to defined correctors. Correction via the assessment tool in the course is then no longer possible.
 
+[See the details >](../administration/e-Assessment_Test.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
-## Levels/Grading {: #grading_levels}
+## Levels/Grading [:octicons-tag-16:{ title="from Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
 In addition to the scoring system using points, the "Levels/Grading" module can be activated. Further assessment systems can be added and configured there.
 
@@ -49,13 +50,13 @@ An email address can be stored here to which copies of the certificates created 
 
 The upload of external certificates can also be enabled here.
 
-In addition, this function is also available for user administrators, line managers in the same organization or for responsible persons who are connected via a user-to-user relationship and can be configured separately in each case.
+In addition, this function is also available for user administrators, line managers in the same organization or for responsible persons with a relation role and can be configured separately in each case.
 
 [See the details >](../administration/e-Assessment_Certificates.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
-## OpenBadges {: #openbadges}
+## OpenBadges [:octicons-tag-16:{ title="from Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
 Badges can be enabled here. 
 Administrators are also responsible for creating and managing global badges here.
@@ -64,7 +65,7 @@ Administrators are also responsible for creating and managing global badges here
 [To the top of the page ^](#e-assessments)
 
 
-## Credit points {: #credit_points}
+## Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #credit_points}
 
 After activating credit points in the administration, course owners can award credit points to their course participants for successfully completing a course.
 
@@ -79,4 +80,12 @@ The ePortfolio can be switched on or off by administrators. If it is activated, 
 [See the details >](eAssessment_ePortfolio.md)<br>
 [To the top of the page ^](#e-assessments)
 
+---
 
+
+## Further information {: #further_information}
+
+[As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
+[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management.md)
+
+[To the top of the page ^](#e-assessments)

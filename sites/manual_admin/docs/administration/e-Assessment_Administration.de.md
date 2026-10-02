@@ -25,7 +25,7 @@ An dieser Stelle wird die Testquittung konfiguriert und werden Einstellungen fü
 [Zu den Details >](../administration/e-Assessment_Test.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
 
-## Einstufung/Noten {: #grading_levels}
+## Einstufung/Noten [:octicons-tag-16:{ title="ab Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
 Neben dem Bewertungssystem durch Punkte, kann das Modul "Einstufung/Noten" aktiviert werden. Dort können weitere Bewertungssysteme ergänzt und konfiguriert werden.
 
@@ -35,7 +35,7 @@ Neben dem Bewertungssystem durch Punkte, kann das Modul "Einstufung/Noten" aktiv
 
 ## Prüfungsverwaltung {: #exam_admin}
 
-An dieser Stelle können Administratoren Prüfungsmodus und Prüfungseinsicht für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen. Ausserdem können Konfigurationsvorlagen für den Safe Exam Browser hinzugefügt und verwaltet werden.
+An dieser Stelle können Administrator:innen Prüfungsmodus und Prüfungseinsicht für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen. Ausserdem können Konfigurationsvorlagen für den Safe Exam Browser hinzugefügt und verwaltet werden.
 
 [Zu den Details >](../administration/e-Assessment_AssessmentMgmt.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -47,13 +47,13 @@ Hier kann eine E-Mail-Adresse hinterlegt werden, an die Kopien der erstellten Ze
 
 Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden. 
 
-Zusätzlich ist diese Funktion auch für Benutzerverwalter:innen, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehung verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
+Zusätzlich ist diese Funktion auch für Benutzerverwalter:innen, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen mit einer Beziehungsrolle verfügbar und kann jeweils separat konfiguriert werden.
 
 [Zu den Details >](../administration/e-Assessment_Certificates.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
 
 
-## OpenBadges {: #openbadges}
+## OpenBadges [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
 Hier kann die Verwendung von Badges ermöglicht werden. 
 Auch die Erstellung und Verwaltung globaler Badges erfolgt hier durch Administrator:innen.
@@ -62,7 +62,7 @@ Auch die Erstellung und Verwaltung globaler Badges erfolgt hier durch Administra
 [Zum Seitenanfang ^](#e-assessments)
 
 
-## Kreditpunkte {: #credit_points}
+## Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #credit_points}
 
 Nach Aktivierung der Kreditpunkte in der Administration können Kursbesitzer:innen ihren Kursteilnehmer:innen Kreditpunkte für das erfolgreiche Bestehen eines Kurses vergeben.
 
@@ -77,4 +77,12 @@ Das ePortfolio kann von Administrator:innen ein- oder ausgeschaltet werden. Ist 
 [Zu den Details >](eAssessment_ePortfolio.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
 
+---
 
+
+## Weiterführende Informationen {: #further_information}
+
+[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
+[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)
+
+[Zum Seitenanfang ^](#e-assessments)

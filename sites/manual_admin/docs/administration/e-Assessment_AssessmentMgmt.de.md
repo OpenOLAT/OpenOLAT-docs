@@ -5,7 +5,7 @@
 
 Die Prüfungsverwaltung umfasst die Konfiguration des **Prüfungsmodus** und die Konfiguration der **Prüfungseinsicht**. Beides kann hier separat aktiviert/deaktiviert werden.
 
-![Tab Prüfungsverwaltung Konfiguration mit den Schaltern Prüfungsmodus einschalten und Prüfungseinsicht einschalten, in der Prüfungsverwaltung der System-Administration](assets/e-assessment_mgmt_tab_config_v1_de.png){ class="shadow lightbox" }
+![Tab Prüfungsverwaltung Konfiguration mit den Schaltern Prüfungsmodus einschalten und Prüfungseinsicht einschalten](assets/e-assessment_mgmt_tab_config_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
 
 [Zum Seitenanfang ^](#assessment_mgmt)
 
@@ -16,7 +16,7 @@ Die Prüfungsverwaltung umfasst die Konfiguration des **Prüfungsmodus** und die
 
 Als Administrator:in können Sie sich einen Überblick über alle in Ihrer OpenOlat-Instanz angelegten Prüfungsmodi verschaffen.
 
-![Tab Prüfungsmodus mit Suchfeldern und der Übersichtstabelle aller angelegten Prüfungsmodi, in der Prüfungsverwaltung der System-Administration](assets/e-assessment_mgmt_tab_modes_v1_de.png){ class="shadow lightbox" }
+![Tab Prüfungsmodus mit Suchfeldern und der Übersichtstabelle aller angelegten Prüfungsmodi](assets/e-assessment_mgmt_tab_modes_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
 
 [Zum Seitenanfang ^](#assessment_mgmt)
 
@@ -27,9 +27,9 @@ Als Administrator:in können Sie sich einen Überblick über alle in Ihrer OpenO
 
 Verwalten Sie Safe Exam Browser Konfigurationsvorlagen, die auf Prüfungsmodi angewendet werden können.
 
-![Tab Safe Exam Browser Konfiguration mit den Buttons Vorlage erstellen und SEB-Datei importieren sowie der Vorlagenliste, in der Prüfungsverwaltung der System-Administration](assets/e-assessment_mgmt_tab_seb_v1_de.png){ class="shadow lightbox" }
+![Tab Safe Exam Browser Konfiguration mit den Buttons Vorlage erstellen und SEB-Datei importieren sowie der Vorlagenliste](assets/e-assessment_mgmt_tab_seb_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
 
-### Die Vorlagenliste im Tab *SEB Konfiguration* 
+### Die Vorlagenliste im Tab *Safe Exam Browser Konfiguration*
 
 Die Vorlagenliste zeigt alle angelegten SEB-Konfigurationsvorlagen mit verschiedenen, über das Zahnradsymbol, persönlich konfigurierbaren Spalten.
 
@@ -68,7 +68,7 @@ Die importierte `.seb`-Datei.
 
 Ein optionaler Text, der Autor:innen bei der Verwendung der Vorlage im Prüfungsmodus angezeigt wird.
 
-![Dialog SEB-Datei importieren mit den Feldern Name, Status, SEB-Quelldatei und Hinweis für Autoren sowie der Prüfungsmodus-spezifischen Konfiguration darunter](assets/e-assessment_mgmt_seb_import_v1_de.png){ class="shadow lightbox" }
+![Dialog SEB-Datei importieren mit den Feldern Name, Status, SEB-Quelldatei und Hinweis für Autoren sowie der Prüfungsmodus-spezifischen Konfiguration darunter](assets/e-assessment_mgmt_seb_import_v1_de.png){ class="shadow lightbox" title="Dialog SEB-Datei importieren" }
 
 #### Standardvorlage festlegen
 
@@ -94,7 +94,7 @@ Deaktivierte Vorlagen stehen bei der Konfiguration eines Prüfungsmodus nicht me
 
 Über diesen Tab können Sie systemweit eine minimale Version des Safe Exam Browser verlangen. Das ist hilfreich, wenn Versionen unterhalb einer bestimmten SEB-Version nicht zugelassen werden sollen.
 
-![Tab Safe Exam Browser Versionen mit dem ausgeschalteten Schalter Mindest SEB Version erzwingen, in der Prüfungsverwaltung der System-Administration](assets/e-assessment_mgmt_tab_version_v1_de.png){ class="shadow lightbox" }
+![Tab Safe Exam Browser Versionen mit dem ausgeschalteten Schalter Mindest SEB Version erzwingen](assets/e-assessment_mgmt_tab_version_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
 
 Aktivieren Sie dazu **"Mindest SEB Version erzwingen"**. Anschliessend legen Sie die geforderte Version je Betriebssystem getrennt fest:
 
@@ -110,7 +110,7 @@ Geforderte Mindestversion für Teilnehmende, die den Safe Exam Browser unter Mac
 
 Geforderte Mindestversion für Teilnehmende, die den Safe Exam Browser unter iOS starten.
 
-![Tab Safe Exam Browser Versionen mit eingeschaltetem Schalter und den Feldern Minimal Version Windows, Mac und iOS](assets/e-assessment_mgmt_tab_version_on_v1_de.png){ class="shadow lightbox" }
+![Tab Safe Exam Browser Versionen mit eingeschaltetem Schalter und den Feldern Minimal Version Windows, Mac und iOS](assets/e-assessment_mgmt_tab_version_on_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Versionen" }
 
 Startet ein:e Teilnehmer:in eine Prüfung mit einer älteren Version, wird die Prüfung nicht freigegeben; es erscheint die Aufforderung, den Safe Exam Browser zu aktualisieren.
 
@@ -123,5 +123,7 @@ Startet ein:e Teilnehmer:in eine Prüfung mit einer älteren Version, wird die P
 [Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen >](../../manual_user/learningresources/Assessment_Management.de.md)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
+[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
+[Modul Termine und Absenzen >](Modules_Events_and_Absences.de.md)
 
 [Zum Seitenanfang ^](#assessment_mgmt)

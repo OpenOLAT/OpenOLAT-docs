@@ -22,39 +22,49 @@ As the course owner, you define an assessment (flowchart) under <br>
 `Course administration > Assessment management > Tab "Configuration assessment inspection"`<br>
 There you can click on the **button "Add assessment inspection"** to add a new configuration (flowchart) to the assessment management. Already defined flowcharts will be listed.
 
-![Button "Add assessment inspection" marked, tab Configuration assessment inspection in the assessment management](assets/assessment_management_tab_inspection_v1_en.png){ class="shadow lightbox" }
+![Button "Add assessment inspection" marked](assets/assessment_management_tab_inspection_v1_en.png){ class="shadow lightbox" title="Tab Configuration assessment inspection in the assessment management" }
 
 ### Tab "General"
 
 First, you define how long the assessment may last and what should be shown during the assessment: test summary, section summary, question summary, the answer submitted by the participants, and the solution. (Date and time will be determined by the coach if he/she organizes an inspection with exam participants.)
 
-![Fields Name, Maximum duration of inspection and the five checkboxes of Overview results, tab "General" of a configuration](assets/assessment_management_inspection_general2_v1_en.png){ class="shadow lightbox" }
+![Fields Name, Maximum duration of inspection and the five checkboxes of Overview results](assets/assessment_management_inspection_general2_v1_en.png){ class="shadow lightbox" title="Tab General of an assessment inspection" }
 
 ### Tab "Access"
 
 In the "Access" tab, access can be restricted to very specific devices by specifying one or more IP addresses. (E.g. only one specific computer in one specific room).
 
-![Toggle "Limit to IP address" switched on with the field "Admissible IP addresses", tab "Access" of a configuration](assets/assessment_management_inspection_access_v1_en.png){ class="shadow lightbox" }
+![Toggle "Limit to IP address" switched on with the field "Admissible IP addresses"](assets/assessment_management_inspection_access_v1_en.png){ class="shadow lightbox" title="Tab Access of an assessment inspection" }
 
-### Tab "Safe Exam Browser (SEB)" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159)
+### Tab "Safe Exam Browser (SEB)" {: #seb_tab}
 
 By using the SEB, all other activities on the computer can be blocked during viewing.
 
-![Tab "Safe Exam Browser" marked with the switched-off toggle "Use Safe Exam Browser"](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" }
+![Tab "Safe Exam Browser" marked with the switched-off toggle "Use Safe Exam Browser"](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser of an assessment inspection" }
 
-![Switched-on toggle "Use Safe Exam Browser" with Type of use, Configuration, Template and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v1_en.png){ class="shadow lightbox" }
+![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser in the exam dialog · 2026.10.02" }
 
-**Type of use** [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571): As in the assessment mode, choose "SEB-Config (recommended)" for the configuration in OpenOlat or via an imported SEB-File (validation via the config key), or "SEB with manual keys" for a custom SEB-File with externally maintained keys.
+#### SEB configuration [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571){:target="_blank"} {: #seb_type_of_use}
 
-**Configuration**: Take the settings from a "Template" or adjust them as "Custom"; for an imported SEB-File template, they are displayed read-only.
+As in the assessment mode, you choose between "From template (recommended)", "Customised" and "With manual keys". The page on the assessment mode describes the three types: [Tab "Safe Exam Browser"](../learningresources/Assessment_mode.md#tab-safe-exam-browser)
 
-**Template**: Select one of the active SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
+#### Template [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159){:target="_blank"} {: #seb_template}
 
-Under the **Assessment mode-specific configuration** legend, the **Downloadable configuration file**, the **Information for participants**, **Allow the exit of SEB** and the **Password for quitting** can be overridden for this inspection. The password then overwrites the one from the template, and the config key is automatically recalculated.
+With "From template (recommended)", you select with "System" one of the active SEB configuration templates provided by the administration from the dropdown, or upload your own SEB-File with "Custom". The template marked as default is preselected. If a saved template is subsequently deactivated, it remains as the selected item in the list until another template is chosen.
 
-Under the **Configuration from the template** legend, the detailed settings taken from the selected template are displayed.
+#### Template type {: #seb_configuration}
 
-![Detailed SEB settings taken from the template, such as browser view mode, task bar and config key, read-only](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" }
+Shows whether the template is a "Form" or a "SEB-File". For a form, the button "Create a copy and customise it" takes the values of the template into a "Customised" configuration that you can change for this inspection.
+
+#### Assessment mode-specific configuration {: #seb_assessment_mode_configuration}
+
+Under this legend you find the **Downloadable configuration file**, the **Information for participants**, **Allow the exit of SEB** and the **Password for quitting** for this inspection. With a SEB-File, the password overwrites the one of the file, and the config key is automatically recalculated. With a form from the system, the information, the exit and the password come from the template.
+
+#### Configuration from the template {: #seb_template_configuration}
+
+Under this legend, the detailed settings taken from the selected template are displayed.
+
+![Detailed SEB settings taken from the template, such as browser view mode, task bar and config key, read-only](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" title="Legend Configuration from the template" }
 
 !!! tip "Prerequisite"
     The template selection is only available if at least one active template has been created in the System Administration under `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser Configuration"`.
@@ -65,12 +75,12 @@ Under the **Configuration from the template** legend, the detailed settings take
 
 As a coach, you use the **assessment tool** to organize the inspections for individual or multiple exam participants. (E.g. only for those examination participants who expressly wish to inspect the documents.)
 
-![Menu entry "Assessment inspections" and button "Add members" marked, assessment tool of a course](assets/assessment_management_inspection_new_v1_en.png){ class="shadow lightbox" }
+![Menu entry "Assessment inspections" and button "Add members" marked](assets/assessment_management_inspection_new_v1_en.png){ class="shadow lightbox" title="Assessment tool of a course" }
 
 A wizard guides you through the steps.
 For example, determine the date and select one of the flowcharts (configuration) predefined by the course owner. This ensures that the same conditions prevail for all inspectors.
 
-![Fields "Configuration" and "Inspection period" marked, wizard step "Assessment inspection" in the dialog "Grant assessment inspection"](assets/assessment_management_inspection_select_config_v1_en.png){ class="shadow lightbox" }
+![Fields "Configuration" and "Inspection period" marked](assets/assessment_management_inspection_select_config_v1_en.png){ class="shadow lightbox" title="Wizard step Assessment inspection" }
 
 The inspection dates can be scheduled before the audit is carried out.
 
@@ -80,7 +90,7 @@ It is advisable to accompany the inspection as a coach on the scheduled dates.
 
 The maximum viewing time specified in the configuration (by the course owner) does not necessarily have to be used until the end. As a coach, you can terminate the inspection prematurely if you notice unauthorized behavior, for example. (For example, if someone takes unauthorized photos with the mobile). You can also increase the inspection duration afterwards or withdraw an inspection that has not yet started.
 
-![Buttons "Cancel inspection", "Extend duration of inspection" and "Withdraw" marked, assessment inspection list in the assessment tool](assets/assessment_management_inspection_coach1_v1_en.png){ class="shadow lightbox" }
+![Buttons "Cancel inspection", "Extend duration of inspection" and "Withdraw" marked](assets/assessment_management_inspection_coach1_v1_en.png){ class="shadow lightbox" title="Assessment inspection list in the assessment tool" }
 
 ## Inspection from the perspective of the exam participants
 
@@ -88,7 +98,7 @@ As an exam participant, you will receive a notification with the date and time f
 
 Once the time slot for inspection has elapsed, the inspection is terminated. Anyone who does not start viewing their examination on time will lose time accordingly.
 
-![Dialog "Assessment inspection" with test, course, inspection period and duration, and button "Start inspection"](assets/assessment_management_inspection_participant1_v1_en.png){ class="shadow lightbox" }
+![Dialog "Assessment inspection" with test, course, inspection period and duration, and button "Start inspection"](assets/assessment_management_inspection_participant1_v1_en.png){ class="shadow lightbox" title="Exam participants' view" }
 
 ## Documentation of the inspections
 
@@ -98,7 +108,7 @@ It can therefore be proven that examination candidates who had an appointment fo
 You can use the **tabs above the table** for several people.
 You can find everything per person in the **activity log** under the 3 points at the end of a line.
 
-![Status tabs above the table and menu item "Show activity log" in the row menu marked, assessment inspection list in the assessment tool](assets/assessment_management_inspection_log_v1_en.png){ class="shadow lightbox" }
+![Status tabs above the table and menu item "Show activity log" in the row menu marked](assets/assessment_management_inspection_log_v1_en.png){ class="shadow lightbox" title="Assessment inspection list in the assessment tool" }
 
 ## Difference: Report - Assessment
 
