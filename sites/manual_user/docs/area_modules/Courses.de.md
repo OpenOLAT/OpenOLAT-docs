@@ -13,36 +13,38 @@ Lernressourcen, bei denen Sie Betreuer:in oder Besitzer:in sind, finden Sie im B
 !!! info "Wichtig"
     Sind Sie in derselben Lernressource Teilnehmer:in und zugleich Betreuer:in oder Besitzer:in, erscheint sie an beiden Orten: unter "Meine Kurse" und im Bereich "Coaching".
 
-Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, dazu gehören der Durchführungszeitraum, das Durchführungsformat, der Mitgliedsstatus, die Kursrolle und der Bewertungsstatus (Resultat). Klicken Sie auf den kleinen Pfeil um die weiteren Filteroptionen einzublenden.
+Ihre Kurse können Sie auch filtern. Im Tab "Aktiv" stehen über der Liste die Filter "Favoriten", "Durchführungszeitraum", "Mitgliedschaft", "Resultat", "Autor:in / Besitzer:in" und "Durchführungsformat". Unter "Mitgliedschaft" wählen Sie die Rolle, in der Sie in der Lernressource eingetragen sind, etwa "Belegt als Teilnehmer:in". Unter "Resultat" wählen Sie "Bestanden", "Nicht bestanden" oder "Keine Bewertung". Über "Mehr..." blenden Sie einzelne Filter ein oder aus. Der kleine Pfeil unter den Filtern ("Suchfilter ausblenden") blendet die Filter aus und wieder ein.
 
-![Filterleiste mit Durchführungszeitraum und weiteren Kriterien, dazu die Bedienelemente zum Ausklappen und Speichern der Filter und zur Spaltenwahl, Bereich Meine Kurse](assets/Kurse_20b.jpg){ class="shadow lightbox" }
+![Markiert: Menü mit Filter speichern, Pfeil Suchfilter ausblenden und Zahnrad Spalten auswählen über der Tabelle](assets/courses_my_courses_filter_v1_de.png){ class="shadow lightbox" title="Tab Aktiv im Bereich Meine Kurse · 2026.10.02" }
 
-Filter lassen sich auch kombinieren und speichern.
+Filter lassen sich kombinieren. Eine Kombination, die Sie öfter brauchen, speichern Sie über das Menü mit den drei Punkten rechts neben den Filtern: "Filter speichern". Der gespeicherte Filter erscheint unter seinem Namen als zusätzlicher Tab. Welche Spalten die Tabelle zeigt, wählen Sie über das Zahnrad "Spalten auswählen" rechts über der Tabelle.
 
 ### Filtern nach Durchführungszeitraum [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 
-Die verfügbaren Durchführungszeiträume stellt die Systemadministration über das Modul "Zeitabschnitte" bereit. Den Durchführungszeitraum können Sie auch als Sortierkriterium wählen. Klicken Sie dazu auf den Button rechts oben über der Liste. Der Button trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung.
+Die verfügbaren Durchführungszeiträume stellt die Systemadministration über das Modul "Zeitabschnitte" bereit. Den Durchführungszeitraum können Sie auch als Sortierkriterium wählen. Klicken Sie dazu auf den Button rechts oben über der Liste und wählen Sie in der Liste "Sortierreihenfolge" den Eintrag "Durchführungszeitraum". Dieselbe Liste bietet weitere Kriterien, etwa "Relevanz", "Zuletzt besucht", "Fortschritt" oder "Titel". Der Button trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung.
 
-![Sortier-Button mit dem aktiven Kriterium Durchführungszeitraum und die offene Liste Sortierreihenfolge, Bereich Meine Kurse](assets/Kurse_sort_order_v1_de.png){ class="shadow lightbox" }
+![Markierter Sortier-Button mit dem aktiven Kriterium Durchführungszeitraum, darunter die offene Liste Sortierreihenfolge](assets/courses_sort_order_v1_de.png){ class="shadow lightbox" title="Bereich Meine Kurse im Menü Kurse · 2026.10.02" }
 
 !!! info "Wichtig"
     Die Sortierung nach Durchführungszeitraum erfolgt chronologisch nach dem **Zeitrahmen** und nicht alphabetisch nach der Bezeichnung: zuerst nach dem Beginndatum, ohne Beginndatum nach dem Enddatum. Innerhalb desselben Zeitraums wird alphabetisch sortiert. Kurse ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
 
 Wie Administrator:innen die Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md). Wie Sie Ihre Ansicht filtern, lesen Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
-Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die gewünschten Kurse in der Tabellenansicht wie im Screenshot oben oder in der Listensicht anzeigen lassen und auch die gewünschten Anzeigespalten auswählen.
+Die Kurse lassen sich in der Tabellen- oder in der Listenansicht anzeigen.
 
 ### Suchen
 
-Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Kennen Sie die genaue Schreibweise nicht, setzen Sie den Stern `*` als Platzhalter für beliebig viele Zeichen ein: `Blog*` findet Kurse, deren Titel mit "Blog" beginnt, `ab*cd` Kurse, deren Titel mit "ab" beginnt und auf "cd" endet. Setzen Sie den Suchbegriff in Anführungszeichen, zum Beispiel `"Blog"`, findet die Suche nur Kurse, deren Titel genau so lautet. Klappen Sie die Filteroption auf um die Suche anhand der Filter weiter einzugrenzen.
+Über die Suche sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Geben Sie ein Stichwort oder den Kurstitel ein und lassen Sie sich die passenden Kurse oder Lernressourcen anzeigen. Kennen Sie die genaue Schreibweise nicht, setzen Sie den Stern `*` als Platzhalter für beliebig viele Zeichen ein: `Blog*` findet Kurse, deren Titel mit "Blog" beginnt, `ab*cd` Kurse, deren Titel mit "ab" beginnt und auf "cd" endet. Setzen Sie den Suchbegriff in Anführungszeichen, zum Beispiel `"Blog"`, findet die Suche nur Kurse, deren Titel genau so lautet.
 
-![Suchfeld mit einem Stichwort, aktive Filter darunter und ein Treffer als Kachel, Tab Suche im Bereich Meine Kurse](assets/Kurs_Suche_20a.jpg){ class="shadow lightbox" }
+![Markierter Weg Kurse, Meine Kurse und Suche, dazu ein Stichwort, der aktive Filter Meine Ressourcen und ein Treffer als Kachel](assets/courses_search_v1_de.png){ class="shadow lightbox" title="Tab Suche im Bereich Meine Kurse · 2026.10.02" }
 
-Wenn Sie einen Kurs nicht finden, prüfen Sie, ob möglicherweise noch ein unerwünschter Filter aktiv ist (z. B. „nur nicht bestandene Kurse anzeigen“). Entfernen Sie in diesem Fall den entsprechenden Filter.
+Im Tab "Suche" sind die Filter bereits eingeblendet. Anders als in den Tabs "Aktiv" und "Beendet" stehen hier auch die Filter "Meine Ressourcen" und "Status" zur Verfügung. "Meine Ressourcen" beschränkt die Treffer auf Lernressourcen, in denen Sie Mitglied sind. Unter "Status" wählen Sie "In Vorbereitung", "Aktiv" oder "Beendet".
 
-Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. Klicken Sie dazu auf die weisse Flagge, die sich anschliessend rot färbt. Beim nächsten Login finden Sie den Kurs direkt in Ihren Favoriten.
+Wenn Sie einen Kurs nicht finden, prüfen Sie, ob noch ein unerwünschter Filter aktiv ist, zum Beispiel "Resultat" mit dem Wert "Nicht bestanden". Solange ein Filter gesetzt ist, steht rechts neben den Tabs der Link "Filter entfernen". Er setzt alle Filter auf einmal zurück.
 
-![Fahnensymbol in der Zeile mit dem Hinweis Bookmark setzen, gesetzte Favoriten sind rot gefüllt, Liste im Bereich Meine Kurse](assets/Kurse_Bookmark.jpg){ class="shadow lightbox" }
+Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. Klicken Sie dazu auf das Fahnensymbol mit dem Hinweis "Bookmark setzen": in der Listenansicht rechts oben in der Kurszeile, in der Tabellenansicht in der ersten Spalte. Die leere, rot umrandete Fahne füllt sich rot, und der Kurs erscheint im Tab "Favoriten". Ein zweiter Klick entfernt das Bookmark wieder. Auf der Infoseite eines Kurses steht dafür der Button "Bookmark setzen" zur Verfügung. Beim nächsten Login finden Sie den Kurs direkt in Ihren Favoriten.
+
+![Markierte Fahnensymbole rechts in der Zeile: leer zum Setzen des Bookmarks, rot gefüllt bei einem gesetzten Favoriten](assets/courses_bookmark_v1_de.png){ class="shadow lightbox" title="Tab Aktiv im Bereich Meine Kurse · 2026.10.02" }
 
 ## Bildungsprodukte
 
@@ -54,7 +56,7 @@ Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
 Die Liste zeigt Ihre Durchführungen, nicht einzelne Kurse. Ein Klick auf den Titel einer Durchführung öffnet deren Struktur, und erst dort sehen Sie die Kurse und Lernressourcen, die zu ihr gehören. Sind Sie in mehreren Durchführungen eingetragen, stehen sie alle in dieser Liste. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört, die Spalte "Fortschritt" Ihren Lernfortschritt darin. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}
 
-![Die als Favorit markierte Durchführung Staffel 6 - 2026 steht als eigener Bereich vor Bildungsprodukte, Menüpunkt Kurse](assets/courses_educational_products_v1_de.png){ class="shadow lightbox" }
+![Die als Favorit markierte Durchführung Staffel 6 - 2026 steht als eigener Bereich vor Bildungsprodukte](assets/courses_educational_products_v1_de.png){ class="shadow lightbox" title="Bereich Bildungsprodukte im Menü Kurse" }
 
 Haben Sie eine Durchführung als Favorit markiert, erscheint sie zusätzlich als eigener Bereich vor "Bildungsprodukte". Der Bereich trägt den Titel der Durchführung, darunter ihren Zeitraum, sofern ein Beginn- oder Enddatum hinterlegt ist. Ein Klick darauf öffnet ihre Struktur direkt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8519)" }](https://track.frentix.com/issue/OO-8519)
 
@@ -62,13 +64,13 @@ Die Filter-Tabs "Favoriten", "Alle", "Relevant" und "Beendet" schränken die Lis
 
 Einen Filter-Tab "Vorbereitung" gibt es hier nicht. Lernressourcen, die noch nicht veröffentlicht sind, finden Sie stattdessen im Bereich "In Vorbereitung".
 
-## In Vorbereitung
+## In Vorbereitung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8506)" }](https://track.frentix.com/issue/OO-8506)
 
-Hier erscheinen die Lernressourcen die den Status "In Vorbereitung" haben und somit noch nicht für Teilnehmende zugänglich sind. Sind Teilnehmende schon als Mitglied der Lernressource eingetragen, erscheint für sie eine entsprechende Information.
+Hier sehen Sie die Lernressourcen, in denen Sie schon als Mitglied eingetragen sind, die aber noch nicht für Teilnehmende freigegeben sind. Sie stehen im Status "Vorbereitung", "Review" oder "Freigabe Betreuer:innen". Ein Klick auf "Mehr erfahren" öffnet die Infoseite der Lernressource. Dort zeigt der Kasten "Los geht's" die Meldung "Der Inhalt ist noch nicht verfügbar", und der Button "Kurs öffnen" bleibt für Teilnehmende inaktiv, bis der Kurs veröffentlicht ist.
 
-![Meldung Inhalt in Vorbereitung mit dem Hinweis auf den Zugriff nach der Veröffentlichung, Kurs im Bereich In Vorbereitung](assets/Kurse_in_Vorbereitung.png){ class="shadow lightbox" }
+![Markierte Meldung Der Inhalt ist noch nicht verfügbar mit der Bitte, es später erneut zu versuchen, darunter der inaktive Button Kurs öffnen](assets/courses_in_preparation_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses im Bereich In Vorbereitung · 2026.10.02" }
 
-Für Betreuer:innen und Kursbesitzer:innen ist der Kurs auch im Status "Vorbereitung" zugänglich.
+Besitzer:innen öffnen den Kurs bereits im Status "Vorbereitung", Betreuer:innen ab dem Status "Freigabe Betreuer:innen".
 
 ---
 
