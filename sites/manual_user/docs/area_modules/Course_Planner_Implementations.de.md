@@ -26,6 +26,8 @@ Die Liste öffnet mit dem Tab "Relevant". Der Tab "Ausstehende Mitgliedschaften"
 
 Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 
+Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie **Element kopieren**, **Mitgliederverwaltung**, **Export** und **Löschen**. Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export.de.md#export_entry_points).
+
 ![Die Liste der Durchführungen mit dem geöffneten Filter Belegungsstatus: Anzahl nicht festgelegt, Mindestanzahl nicht erreicht oder erreicht, Freie Plätze verfügbar, Ausgebucht, Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
 
 Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
@@ -51,9 +53,9 @@ Dieselbe Aktion steht in der Suche des Course Planners und im Tab «Struktur» e
 
 Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in den angezeigten Tabs alle Einstellungen zu dieser Durchführung vornehmen:
 
-- rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen.
+- rechts oben durch Klick auf den Button "**Gehe zu…**" innerhalb der aktuellen Durchführung zu einem Element springen.
 
-- mit den **Pfeiltasten** rechts oben zu anderen Durchführungen wechseln.
+- mit den vier Buttons mit Pfeilen rechts oben wechseln: die beiden äusseren führen zur vorherigen oder nächsten Durchführung, die beiden inneren zum vorherigen oder nächsten Element innerhalb der Durchführung. Zeigen Sie auf einen Pfeil, erscheint seine Beschriftung, etwa "Nächste Durchführung" oder "Nächstes Element".
 
 - durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren.
 
@@ -61,7 +63,7 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 
 
-![Die Wege durch eine Durchführung: Button Gehe zu, Pfeiltasten zum Wechsel zwischen Durchführungen und die Tabs von Übersicht bis Reports](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung" }
+![Die Wege durch eine Durchführung: Button Gehe zu, vier Buttons mit Pfeilen zum Wechsel zwischen Elementen und Durchführungen und die Tabs von Übersicht bis Reports](assets/course_planner_implementations_navigation_v2_de.png){ class="shadow lightbox" title="Kopfbereich einer geöffneten Durchführung" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -78,7 +80,7 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 Wer eine Durchführung öffnet, sieht im Tab "Übersicht" auf einen Blick, wie es um Mitglieder, Termine, Kursinhalte, To-dos und Angebote im Katalog dieser Durchführung steht. Von jedem Widget gelangen Sie direkt in den zugehörigen Tab.
 
-Das Widget **Termine** erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist. Das Widget **Katalog** erscheint nur auf der obersten Ebene einer Durchführung, nicht bei ihren untergeordneten Elementen, und nur bei eingeschaltetem Katalog.
+Das Widget **Termine** erscheint nur, wenn das Modul **Termine und Absenzen** systemweit aktiv ist, eingeschaltet in der System-Administration unter `Administration > Module > Termine / Absenzen`. Das Widget **Katalog** erscheint nur auf der obersten Ebene einer Durchführung, nicht bei ihren untergeordneten Elementen, und nur bei eingeschaltetem Katalog.
 
 Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
@@ -88,7 +90,7 @@ Die Widgets **Kursinhalt** und **Katalog** bieten den Button **Details** [:octic
 
 #### Termine-Widget [:octicons-tag-16:{ title="ab Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
 
-Das Widget **Termine** zeigt die Termine der laufenden Woche ab dem gewählten Tag, beim Öffnen ab heute, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+Das Widget **Termine** zeigt die Termine der laufenden Woche ab dem gewählten Tag, beim Öffnen ab heute, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termine und Absenzen** systemweit aktiv ist.
 
 Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf einen Tag setzt den Startpunkt der Liste, ein Klick auf eine Zeile öffnet den Termin. Steht bis Sonntag kein Termin mehr an, erscheint der Hinweis **"Keine Termine bis Ende der Woche"** mit den Buttons **"Vorheriger Termin"** und **"Nächster Termin"**. Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
 
@@ -121,10 +123,11 @@ Das Widget **To-do** zeigt Ihnen, welche Aufgaben in dieser Durchführung ansteh
 
 ### Tab Struktur [:octicons-tag-16:{ title="ab Release 20.0 (OO-8634)" }](https://track.frentix.com/issue/OO-8634){:target="_blank"} {: #tab_structure}
 
-Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur" angezeigt.
-In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
+Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur" angezeigt. In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
 
 ![Die Baumstruktur mit dem Menü Erstellen, dem Download, der Spalte Ref. mit Referenzierte Kurse und den Symbolspalten](assets/course_planner_implementations_tab_structure1_v2_de.png){ class="shadow lightbox" title="Tab Struktur einer Durchführung · 2026.09.28" }
+
+Tabs nach Status und Filter wie "Status", "Typ" und "Durchführungszeitraum" grenzen die Elemente ein. Mit "Alle öffnen" und "Alle schliessen" unter der Tabelle klappen Sie die Baumstruktur ganz auf oder zu.
 
 Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 
@@ -132,8 +135,8 @@ Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 - **Download**: Mit dem Download-Button können Sie die angezeigte Struktur auch als Excel-Datei herunterladen.
 - **Ref.**: In dieser Spalte können Sie die in diesem Element referenzierten Inhalte anzeigen lassen; der Detailbereich heisst "Referenzierte Kurse".
 - **Stundenpläne**: In der Spalte mit dem Kalendersymbol finden Sie die Stundenpläne der jeweiligen Elemente.
-- **Absenzen**: In der folgenden Spalte finden Sie die Absenzen, vorausgesetzt, das Absenzenmanagement ist aktiviert.
-- **Datenerhebungsvorschau**: Wurde das Modul "Qualitätsmanagement" aktiviert, können Sie bei jedem Element zur zugeordneten Datenerhebungsvorschau springen.
+- **Absenzen**: In der folgenden Spalte finden Sie die Absenzen, vorausgesetzt, **Absenzmanagement** ist für das Element eingeschaltet, direkt in den Optionen der Einstellungen oder über den Elementtyp.
+- **Datenerhebungsvorschau**: Sind in der System-Administration das Modul "Qualitätsmanagement" und die "Datenerhebungsvorschau" eingeschaltet, können Sie bei jedem Element zur zugeordneten Datenerhebungsvorschau springen. Beides finden Sie unter: `Administration > Module > Qualitätsmanagement`.
 - **Lernfortschritt**: In dieser Spalte wird der durchschnittliche Fortschritt aller Teilnehmer:innen angezeigt. Berücksichtigt werden dabei alle Lernpfadkurse dieses Elements. Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.
 - **3 Punkte**: Am Zeilenende finden Sie die Aktionen zu einem Element: **In neuem Tab öffnen**, **Bearbeiten**, **Element verschieben**, ein Eintrag zum Erstellen eines Unterelements, beschriftet mit dem Elementtyp (zum Beispiel **Neues Unterelement "Modul" erstellen**), **Element kopieren**, **Mitgliederverwaltung** und **Löschen**.
 
@@ -190,8 +193,7 @@ Die Verwendung eines Templates zur Instanziierung empfiehlt sich, wenn es sich u
 Die Buttons "Kurs hinzufügen" und "Kurstemplate hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
 **Erstellung von Kurstemplates**<br>
-Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Freigabe > Verwendungszweck` die Option "Template" gewählt wird.
-Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
+Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Freigabe > Verwendungszweck` die Option "Template" gewählt wird. Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
 !!! info "Wichtig"
@@ -406,7 +408,7 @@ Hat ein Buchungsauftrag eine Rechnungsadresse mit erfasster Debitorennummer, zei
 
 ### Tab Einstellungen {: #tab_settings}
 
-Die Vielzahl der möglichen Einstellungen zu einer Durchführung sind unter mehreren untergeordneten Tabs zu finden. Über den Button **Vorschau Infoseite** sehen Sie jederzeit, wie die Infoseite der Durchführung erscheint.
+Alles, was eine Durchführung beschreibt und steuert, legen Sie in den Unter-Tabs der Einstellungen fest. Die Unter-Tabs "Metadaten", "Infos", "Durchführung" und "Optionen" stehen immer zur Verfügung, "Automatisierung" und "Bewertung" nur unter den Bedingungen, die ihre Abschnitte weiter unten nennen. Bei der Durchführung selbst, nicht bei ihren untergeordneten Elementen, zeigt der Button **Vorschau Infoseite**, wie die Infoseite der Durchführung erscheint.
 
 ![Die Unter-Tabs der Einstellungen von Metadaten bis Optionen und der Button für die Vorschau der Infoseite](assets/course_planner_implementations_tab_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
 
@@ -478,7 +480,7 @@ Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung 
 
 #### Bewertung in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
+Der Unter-Tab "Bewertung" setzt voraus, dass die Zertifikatsprogramme auf der OpenOlat-Instanz eingeschaltet sind, was standardmässig der Fall ist. Er wird dann bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
 
 * Mit dem Schalter **"Zertifikatsprogramm"** aktivieren oder deaktivieren Sie die Verknüpfung.
 * Ist noch kein Programm verknüpft, wählen Sie über die Aktion **"Auswählen"** ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Angezeigt werden nur Programme, auf die Sie Zugriff haben.
@@ -486,7 +488,7 @@ Der Unter-Tab "Bewertung" wird bei Durchführungen vom Typ Einzelkurs angezeigt 
 
 ![Der Schalter Zertifikatsprogramm und der Button Auswählen, solange kein Programm verknüpft ist](assets/course_planner_implementations_tab_settings_assessment_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen einer Durchführung" }
 
-![Die Programmliste mit Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen" }
+![Die Programmliste mit Titel, Gültigkeitsdauer, Rezertifizierung und benötigten Kreditpunkten](assets/course_planner_implementations_tab_settings_assessment_select_v1_de.png){ class="shadow lightbox" title="Dialog Zertifikatsprogramm auswählen" }
 
 ![Das verknüpfte Programm mit den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm](assets/course_planner_implementations_tab_settings_assessment_linked_v1_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen" }
 
@@ -532,8 +534,7 @@ Die Aktivierung erfolgt in den Einstellungen der Durchführung: `Tab Einstellung
 
 Die hier erstellbaren Reports beziehen sich auf die aktuell gewählte Durchführung.
 
-Im Unterschied dazu bezieht sich die Report-Erstellung, die in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports.de.md) aufgerufen werden kann, auf **alle** Durchführungen.
-Die Struktur der Excel-Dateien (Spalten) und das Vorgehen zum Erstellen ist bei beiden identisch.
+Im Unterschied dazu bezieht sich die Report-Erstellung, die in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports.de.md) aufgerufen werden kann, auf **alle** Durchführungen. Die Struktur der Excel-Dateien (Spalten) und das Vorgehen zum Erstellen ist bei beiden identisch.
 
 ![Die Reportvorlagen mit der Spalte Ausführen und darunter ein generierter Report als Excel-Datei mit Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_implementations_tab_reports1_v2_de.png){ class="shadow lightbox" title="Tab Reports einer Durchführung · 2026.09.30" }
 
@@ -581,11 +582,15 @@ Hat die Durchführung Angebote, folgt als dritter Schritt **"Angebote"**. Er lis
 
 ### To-dos beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
-To-dos einer Durchführung werden beim Kopieren mitübernommen. Im ersten Schritt des Wizards bestimmen Sie mit der Auswahl "To-dos", wie dabei vorgegangen wird:
+Wer eine Durchführung kopiert, übernimmt ihre To-dos in die Kopie und muss sie für die neue Durchführung nicht neu anlegen. Im ersten Schritt des Wizards bestimmen Sie mit der Auswahl "To-dos", wie dabei vorgegangen wird:
 
 * **Standard:** To-dos mit Zuweisungen kopieren.
 * **Nur To-dos:** To-dos ohne Zuweisungen kopieren.
 * **Nicht kopieren:** To-dos werden nicht kopiert.
+
+Mit **Standard** übernimmt die Kopie auch die Einträge unter «Zugewiesen» und «Delegiert». Die eingetragenen Personen erhalten je Kopie eine einzige E-Mail, nicht eine je To-do: bei mehreren To-dos die E-Mail «Neue To-dos» mit einer Zeile und einem Link je To-do, bei genau einem To-do die E-Mail «Neues To-do». Bei mehr als 20 To-dos zeigt die E-Mail die ersten 20 und darunter die Zeile «… und N weitere». OpenOlat verschickt die E-Mails erst, wenn die Kopie abgeschlossen ist; bricht die Kopie ab, geht keine E-Mail los. Wer beim Kopieren keine E-Mails auslösen will, wählt **Nur To-dos** oder **Nicht kopieren**; mit **Nur To-dos** entstehen die To-dos ohne Einträge unter «Zugewiesen» und «Delegiert», und Sie weisen sie danach von Hand zu. Ein im Schritt «Übersicht Elemente» abgewähltes To-do wird nicht kopiert und erscheint in keiner E-Mail. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+
+Ausnahmen, etwa für die Person, die kopiert und selbst eingetragen ist, beschreibt der Abschnitt [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications).
 
 In der Übersicht der Elemente zeigt die Spalte **"#To-dos"**, wie viele To-dos ein Element enthält. In der Detailansicht eines Elements listet der Bereich "To-dos" alle To-dos mit den Spalten "Aktivität", "Titel", "Priorität", "Datumseingabe" (absolut oder relativ), "Fälligkeitstermin", "Fälligkeit" (die verbleibende Zeit), "Status", "Zugewiesen", "Delegiert" und "Tags" auf. Über die Checkbox am Zeilenanfang wählen Sie einzelne To-dos vom Kopieren ab. Sind keine To-dos vorhanden, erscheint der Hinweis "Keine To-dos verfügbar."
 
@@ -638,6 +643,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 **Auf dieser Seite erwähnt**<br>
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
@@ -650,6 +656,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)
 
@@ -657,7 +664,6 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)
 

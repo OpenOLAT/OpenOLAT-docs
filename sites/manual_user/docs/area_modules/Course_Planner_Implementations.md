@@ -1,6 +1,6 @@
 # Course Planner: Implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #implementations}
 
-![The entry point to the implementations in the Products area with Products and Events, alongside Productivity with to-dos and Reports and Tools with Room management](assets/course_planner_implementations_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![The entry point to the implementations in the Products area with Products and Events, alongside Productivity with to-dos and Reports and Tools with Certification programs and Room management](assets/course_planner_implementations_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 ## What is an implementation? {: #definition}
 
@@ -24,6 +24,8 @@ If you have selected the "Implementations" button in the Course Planner overview
 The list opens with the "Relevant" tab. The "Pending memberships" tab shows the implementations with pending memberships, the tabs "Preparation", "Provisional", "Confirmed", "Cancelled" and "Finished" one status each and the "All" tab the whole list. Use filters such as "Product", "Type", "Execution period" or "Occupancy status" to narrow down the selection further.
 
 Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
+
+Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as **Copy element**, **Members management**, **Export** and **Delete**. How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export.md#export_entry_points).
 
 ![The list of implementations with the opened Occupancy status filter: Number not specified, Minimum number not reached or reached, Free seats available, Fully booked, Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
 
@@ -50,15 +52,15 @@ The same action is available in the search of the Course Planner and in the "Str
 
 Once you have selected and opened an implementation in the list, the tabs shown allow you to make all settings for this implementation:
 
-- click on the "**Go to**" button at the top right to jump to an element within the current implementation.
+- click on the "**Go to…**" button at the top right to jump to an element within the current implementation.
 
-- use the **arrow buttons** at the top right to switch to other implementations.
+- use the four buttons with arrows at the top right to switch: the two outer ones lead to the previous or next implementation, the two inner ones to the previous or next element within the implementation. When you point at an arrow, its label appears, for example "Next implementation" or "Next element".
 
 - configure this implementation by clicking on the various **tabs**.
 
 - click on one of the **headings** to jump directly to the corresponding tab.
 
-![The ways through an implementation: the Go to button, the arrow buttons for switching between implementations and the tabs from Overview to Reports](assets/course_planner_implementations_navigation_v2_en.png){ class="shadow lightbox" title="Header of an opened implementation" }
+![The ways through an implementation: the Go to button, four buttons with arrows for switching between elements and implementations and the tabs from Overview to Reports](assets/course_planner_implementations_navigation_v2_en.png){ class="shadow lightbox" title="Header of an opened implementation" }
 
 
 [To the top of the page ^](#implementations)
@@ -71,7 +73,7 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 When you open an implementation, the "Overview" tab shows you at a glance how things stand with the members, events, course content, to-dos and catalog offers of this implementation. From every widget you go directly to the corresponding tab.
 
-The **Events** widget only appears if the module **Events and absences** is active system-wide. The **Catalog** widget only appears at the top level of an implementation, not for its subordinate elements, and only if the catalog is switched on.
+The **Events** widget only appears if the module **Events and absences** is active system-wide, switched on in the system administration under `Administration > Modules > Events / Absences`. The **Catalog** widget only appears at the top level of an implementation, not for its subordinate elements, and only if the catalog is switched on.
 
 How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
@@ -114,10 +116,11 @@ The **To-do** widget shows you which tasks are pending in this implementation. T
 
 ### Tab Structure [:octicons-tag-16:{ title="from Release 20.0 (OO-8634)" }](https://track.frentix.com/issue/OO-8634){:target="_blank"} {: #tab_structure}
 
-The "Structure" tab is shown for a structured implementation (the type is selected when a new implementation is created).
-In the displayed tree structure, each individual element of the implementation can be edited or information about it can be queried.
+The "Structure" tab is shown for a structured implementation (the type is selected when a new implementation is created). In the displayed tree structure, each individual element of the implementation can be edited or information about it can be queried.
 
 ![The tree structure with the Create menu, the download, the Ref. column with Referenced courses and the icon columns](assets/course_planner_implementations_tab_structure1_v2_en.png){ class="shadow lightbox" title="Structure tab of an implementation · 2026.09.28" }
+
+Tabs by status and filters such as "Status", "Type" and "Execution period" narrow down the elements. With "Open all" and "Close all" below the table you expand or collapse the whole tree structure.
 
 The table in the "Structure" tab offers the following functions:
 
@@ -125,8 +128,8 @@ The table in the "Structure" tab offers the following functions:
 - **Download**: You can also download the displayed structure as an Excel file using the download button.
 - **Ref.**: In this column, you can display the content referenced in this element; the detail area is called "Referenced courses".
 - **Schedules**: In the column with the calendar icon you will find the schedules of the respective elements.
-- **Absences**: In the next column you will find the absences, provided that absence management is activated.
-- **Data collection preview**: If the "Quality management" module has been activated, you can jump to the assigned data collection preview for each element.
+- **Absences**: In the next column you will find the absences, provided that **Absences** is switched on for the element, directly in the options of the settings or via the element type.
+- **Data collection preview**: If the module "Quality management" and the "Data collections previews" are switched on in the system administration, you can jump to the assigned data collection preview for each element. You find both under: `Administration > Modules > Quality management`.
 - **Learning progress**: This column shows the average progress of all participants. All learning path courses for this element are taken into account. Conventional courses do not provide any data on learning progress.
 - **3 dots**: At the end of the row you will find the actions on an element: **Open in a new Tab**, **Edit**, **Move element**, an entry for creating a sub-element, labelled with the element type (for example **Create new sub-element "Modul"**), **Copy element**, **Members management** and **Delete**.
 
@@ -183,8 +186,7 @@ Using a template for instantiation is recommended if it is a recurring course th
 The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
 **Creation of course templates**<br>
-Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. 
-The templates for course content in Course Planner do not have independent member management, as members are added in the Course Planner for each implementation.
+Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. The templates for course content in Course Planner do not have independent member management, as members are added in the Course Planner for each implementation.
 
 !!! info "Important"
 
@@ -394,7 +396,7 @@ If a booking order has a billing address with a recorded customer number, its de
 
 ### Tab Settings {: #tab_settings}
 
-The many possible settings for an implementation can be found under several subordinate tabs. The **Preview info page** button shows you at any time how the info page of the implementation appears.
+Everything that describes and controls an implementation is set in the sub-tabs of the settings. The sub-tabs "Metadata", "Infos", "Execution" and "Options" are always available, "Automation" and "Assessment" only under the conditions named in their sections below. For the implementation itself, not for its subordinate elements, the **Preview info page** button shows how the info page of the implementation appears.
 
 ![The sub-tabs of the settings from Metadata to Options and the button for the preview of the info page](assets/course_planner_implementations_tab_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation" }
 
@@ -468,7 +470,7 @@ As soon as at least one rule is active, the header of the implementation above t
 
 #### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-The sub-tab "Assessment" is displayed for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
+The sub-tab "Assessment" requires certification programs to be switched on in the OpenOlat instance, which is the default. It is then displayed for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the **"Certification program"** toggle to enable or disable the link.
 * If no program is linked yet, use the **"Select"** action to choose a program. The "Select certification program" dialog shows title, Reference, validity period, recertification and required credit points. Only programs you have access to are displayed.
@@ -476,7 +478,7 @@ The sub-tab "Assessment" is displayed for implementations of type Single course 
 
 ![The Certification program toggle and the Select button as long as no program is linked](assets/course_planner_implementations_tab_settings_assessment_v1_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings of an implementation" }
 
-![The program list with Reference, validity period, recertification and required credit points](assets/course_planner_implementations_tab_settings_assessment_select_v1_en.png){ class="shadow lightbox" title="Select certification program dialog" }
+![The program list with title, validity period, recertification and required credit points](assets/course_planner_implementations_tab_settings_assessment_select_v1_en.png){ class="shadow lightbox" title="Select certification program dialog" }
 
 ![The linked program with the actions Remove and Open, shown when the Certification program toggle is on](assets/course_planner_implementations_tab_settings_assessment_linked_v1_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings" }
 
@@ -520,8 +522,7 @@ Activation takes place in the implementation settings: `Settings tab > Options >
 
 The reports that can be created here relate to the currently selected implementation.
 
-In contrast, the report creation, which can be called up in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md), refers to **all** implementations. 
-The structure of the Excel files (columns) and the procedure for creating them is identical for both.
+In contrast, the report creation, which can be called up in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md), refers to **all** implementations. The structure of the Excel files (columns) and the procedure for creating them is identical for both.
 
 ![The report templates with the Run column and below them a generated report as an Excel file with Info, Copy to, Delete and Download](assets/course_planner_implementations_tab_reports1_v2_en.png){ class="shadow lightbox" title="Reports tab of an implementation · 2026.09.30" }
 
@@ -568,11 +569,15 @@ If the implementation has offers, the third step **"Offers"** follows. It lists 
 
 ### Adopt to-dos when copying [:octicons-tag-16:{ title="from Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
-To-dos of an implementation are carried over when copying. In the first step of the wizard, the "To-dos" selection determines how this is done:
+Whoever copies an implementation takes its to-dos over into the copy and does not have to create them again for the new implementation. In the first step of the wizard, the "To-dos" selection determines how this is done:
 
 * **Standard:** Copy to-dos with assignments.
 * **To-dos only:** Copy to-dos without assignments.
 * **Don't copy:** To-dos are not copied.
+
+With **Standard**, the copy also takes over the entries under "Assigned" and "Delegated". The persons entered receive a single e-mail per copy, not one per to-do: with several to-dos the e-mail "New to-dos" with one line and one link per to-do, with exactly one to-do the e-mail "New to-do". With more than 20 to-dos, the e-mail shows the first 20 and below them the line "… and N more". OpenOlat sends the e-mails only once the copy is completed; if the copy is aborted, no e-mail is sent. If you do not want to trigger any e-mails when copying, choose **To-dos only** or **Don't copy**; with **To-dos only** the to-dos are created without entries under "Assigned" and "Delegated", and you assign them manually afterwards. A to-do deselected in the "Overview elements" step is not copied and does not appear in any e-mail. [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+
+Exceptions, for example for the person who copies and is entered themselves, are described in the section [When OpenOlat sends e-mails about to-dos](../basic_concepts/To_Dos_Basics.md#notifications).
 
 In the overview of the elements, the **"#To-dos"** column shows how many to-dos an element contains. In the detail view of an element, the "To-dos" section lists all to-dos with the columns "Activity", "Title", "Priority", "Date input" (absolute or relative), "Due date", "Due" (the remaining time), "Status", "Assigned", "Delegated" and "Tags". Use the checkbox at the start of a row to deselect individual to-dos from copying. If no to-dos exist, the note "No to-dos available." is shown.
 
@@ -622,6 +627,7 @@ If you have already opened an implementation, you will also find the option to d
 
 **Mentioned on this page**<br>
 [Course Planner: Overview >](Course_Planner.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
@@ -634,6 +640,7 @@ If you have already opened an implementation, you will also find the option to d
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](Course_Planner_Rooms.md)
 
@@ -641,7 +648,6 @@ If you have already opened an implementation, you will also find the option to d
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)
 

@@ -105,6 +105,8 @@ In the implementation overview, in the "Implementations" tab of a product and in
 
 **"Assigned"** and **"Delegated"** are selection fields. The caret :o_icon_o_icon_caret: at the right edge marks them; a click on the field opens the list of selectable persons. The **"Browse"** button :o_icon_o_icon_browse: next to it opens the user search and helps when the list is long.
 
+Every person you enter under "Assigned" or "Delegated" receives a single e-mail "New to-dos" for this action, listing all newly created to-dos, each with a link; you yourself receive none. If only one row is selected, the e-mail "New to-do" is sent. The rules are described under [When OpenOlat sends e-mails about to-dos](../basic_concepts/To_Dos_Basics.md#notifications). [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+
 The remaining fields of the dialog are described under [Creating a to-do](#create_todo). OpenOlat calculates a relative date for each selected implementation from its own implementation period. The dialog therefore shows no calculated date.
 
 ![The "Create to-dos" button above the table with two selected implementations and the dialog without a Context field](assets/course_planner_todos_bulk_create_v1_en.png){ class="shadow lightbox" title="Create to-dos dialog in the implementation overview" }
@@ -151,6 +153,8 @@ In the "To-dos" tab of an element, click on **"Create to-do"**. The "Edit to-do"
 * **Description**: Additional information about the task.
 
 For "Assigned" and "Delegated" you can select the element owners and course owners of the element, the product owners as well as the course planners and administrators of the organisation of the product. When you edit a to-do later, the dialog contains the same fields.
+
+Every person you newly enter under "Assigned" or "Delegated" receives the e-mail "New to-do" with a link to the to-do. If you enter yourself, no e-mail is sent. The rules are described under [When OpenOlat sends e-mails about to-dos](../basic_concepts/To_Dos_Basics.md#notifications).
 
 ![The fields of a to-do from Title to Description, below them the Context with the Change action and the Absolute and Relative switches](assets/course_planner_todos_edit_v1_en.png){ class="shadow lightbox" title="Edit to-do dialog when creating a to-do" }
 
@@ -222,10 +226,10 @@ If "With offset" is switched on, the window shows the resulting date under **"Ca
 
 [Course Planner: Overview >](Course_Planner.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
-[To-dos (personal menu) >](../personal_menu/To-Dos.md)<br>
-[General information on to-dos >](../basic_concepts/To_Dos_Basics.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
+[To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
+[Module Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
-[Course reminders >](../learningresources/Course_Reminders.md)
+[Course Reminders >](../learningresources/Course_Reminders.md)
 
 [To the top of the page ^](#course_planner_todos)

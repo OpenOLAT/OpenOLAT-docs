@@ -1,6 +1,6 @@
 # To-dos: basics {: #to_dos_basics}
 
-A to-do is a task with a responsible person and a date. OpenOlat provides to-dos in several modules, everywhere with the same fields, the same status model and the same notification. This page describes what applies to all to-dos. How you work with them in a module is described on that module's page.
+A to-do is a task with a responsible person and a date. OpenOlat provides to-dos in several modules, everywhere with the same fields and the same status model. This page describes what applies to all to-dos. How you work with them in a module is described on that module's page.
 
 ![Status circles, the Context type and Context columns and an expanded detail area with the Start, Mark as done and Edit actions](assets/to_do_basics_personal_list_v1_en.png){ class="shadow lightbox" title="Personal to-do list" }
 
@@ -26,8 +26,8 @@ All modules use the same card. Three entries exist in one module only.
 | Field | Meaning | Available |
 |---|---|---|
 | Title | Names the task. Choose a self-explanatory title | everywhere, mandatory field |
-| Assigned | The person responsible for completing the task | everywhere, mandatory field except in the Course Planner |
-| Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere |
+| Assigned | The person responsible for completing the task | everywhere, mandatory field except in the Course Planner; for personal to-dos only if the administration allows assignment to other persons |
+| Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere; for personal to-dos only if the administration allows delegation to other persons |
 | Status | The processing state of the task | everywhere |
 | Priority | Urgent, High, Medium or Low | everywhere |
 | Start date | When the task starts. Can be used for reminders | everywhere |
@@ -43,7 +43,7 @@ All modules use the same card. Three entries exist in one module only.
 Tags you have created once are available for selection in other to-dos as well. They are not a hierarchically structured classification like the taxonomy that OpenOlat offers elsewhere.
 
 
-## Status and quick actions [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"}
+## Status and quick actions [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"} {: #status_quick_actions}
 
 | Status | Meaning |
 |---|---|
@@ -67,12 +67,21 @@ The image at the top of the page shows the status circles and the expanded detai
 
 Editing permissions are held by the person who created the to-do, by the assigned and by the delegated person. Which roles may edit in addition is determined by the module: in the [project](../area_modules/Project_Todos.md) the project management. In the [Course Planner](../area_modules/Course_Planner_Todos.md#todo_permissions), administrators, course planners, product owners and element owners edit the to-dos; assigned and delegated persons only change the status there.
 
-To-dos can only be deleted where they were created.
+You delete to-dos where they were created. In the personal to-do list you delete your personal to-dos and the to-dos for which the module allows the assigned person to delete them.
 
 
-## Notifications
+## When OpenOlat sends e-mails about to-dos {: #notifications}
 
-When to-dos are created or edited and other persons are affected, OpenOlat notifies them by email. If several changes occur within a short time, OpenOlat combines them into one mail.
+Whoever is to take on a to-do learns about it by e-mail and does not have to check the to-do list first. OpenOlat sends e-mails about to-dos in two cases:
+
+* The e-mail "New to-do" goes to whoever is newly entered under "Assigned" or "Delegated" for a to-do. It names the title of the to-do and contains a link to it. If a person changes from "Assigned" to "Delegated" or vice versa, no e-mail is sent.
+* The e-mail "To-do done" goes to the person who created the to-do and to the assigned and the delegated persons as soon as the to-do receives the status "Done". Whoever completes the to-do does not receive one. To-dos from the course element "Task" do not trigger this e-mail.
+
+In the Course Planner, in the project, in quality management and for personal to-dos, whoever enters themselves receives no e-mail. E-mails about to-dos only go to persons with an active account.
+
+In the Course Planner, OpenOlat combines the assignments of one operation. If a copy with "Copy element" or the bulk action "Create to-dos" assigns several to-dos to the same person, that person receives a single e-mail "New to-dos". It states the number of to-dos and lists one line with title and link per to-do. With more than 20 to-dos it shows the first 20 and below them the line "… and N more", where N stands for the number of remaining to-dos. If a person receives only one to-do from the operation, the e-mail "New to-do" is sent. OpenOlat sends the e-mails only once the operation is completed. [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+
+There is no setting that switches off e-mails about to-dos. When copying an implementation, no e-mails are sent if you choose the option "To-dos only" or "Don't copy" under "To-dos": [Adopt to-dos when copying](../area_modules/Course_Planner_Implementations.md#copy_todos)
 
 [To the top of the page ^](#to_dos_basics)
 
@@ -81,11 +90,16 @@ When to-dos are created or edited and other persons are affected, OpenOlat notif
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Personal tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Projects: To-dos >](../area_modules/Project_Todos.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.md)<br>
-[Quality Management: Actions (To-dos) >](../area_modules/Quality_Management_To-dos.md)
+[Quality Management: Actions (To-dos) >](../area_modules/Quality_Management_To-dos.md)<br>
+[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)
+
+**Further reading**<br>
+[Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)
 
 [To the top of the page ^](#to_dos_basics)

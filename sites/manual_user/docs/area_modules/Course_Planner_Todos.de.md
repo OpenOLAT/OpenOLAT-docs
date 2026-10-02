@@ -105,6 +105,8 @@ In der Durchführungsübersicht, im Tab «Durchführungen» eines Produkts und i
 
 **«Zugewiesen»** und **«Delegiert»** sind Auswahlfelder. Der Pfeil :o_icon_o_icon_caret: am rechten Rand kennzeichnet sie; ein Klick auf das Feld öffnet die Liste der wählbaren Personen. Der Button **«Durchsuchen»** :o_icon_o_icon_browse: daneben öffnet die Benutzersuche und hilft, wenn die Liste lang ist.
 
+Jede Person, die Sie unter «Zugewiesen» oder «Delegiert» eintragen, erhält für diese Aktion eine einzige E-Mail «Neue To-dos» mit allen neu erstellten To-dos, je mit Link; Sie selbst erhalten keine. Ist nur eine Zeile gewählt, kommt die E-Mail «Neues To-do». Die Regeln stehen unter [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+
 Die übrigen Felder des Dialogs sind unter [Erstellen eines To-dos](#create_todo) beschrieben. Ein relatives Datum berechnet OpenOlat für jede gewählte Durchführung aus deren eigenem Durchführungszeitraum. Der Dialog zeigt deshalb kein berechnetes Datum an.
 
 ![Der Button «To-dos erstellen» über der Tabelle mit zwei ausgewählten Durchführungen und der Dialog ohne Feld Kontext](assets/course_planner_todos_bulk_create_v1_de.png){ class="shadow lightbox" title="Dialog To-dos erstellen in der Durchführungsübersicht" }
@@ -151,6 +153,8 @@ Im Tab «To-dos» eines Elements klicken Sie auf **«To-do erstellen»**. Der Di
 * **Beschreibung**: Ergänzende Informationen zur Aufgabe.
 
 Zur Auswahl bei «Zugewiesen» und «Delegiert» stehen die Elementbesitzer:innen und Kursbesitzer:innen des Elements, die Produktbesitzer:innen sowie die Kursplaner:innen und Administrator:innen der Organisation des Produkts. Beim späteren Bearbeiten enthält der Dialog dieselben Felder.
+
+Jede Person, die Sie unter «Zugewiesen» oder «Delegiert» neu eintragen, erhält die E-Mail «Neues To-do» mit einem Link auf das To-do. Tragen Sie sich selbst ein, geht keine E-Mail los. Die Regeln stehen unter [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications).
 
 ![Die Felder eines To-dos von Titel bis Beschreibung, darunter der Kontext mit der Aktion «Ändern» und die Umschalter Absolut und Relativ](assets/course_planner_todos_edit_v1_de.png){ class="shadow lightbox" title="Dialog To-do bearbeiten beim Erstellen eines To-dos" }
 
@@ -222,9 +226,9 @@ Ist «Mit Versatz» eingeschaltet, zeigt das Fenster unter **«Berechnetes Datum
 
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
-[To-dos (persönliches Menü) >](../personal_menu/To-Dos.de.md)<br>
-[Allgemeines zu To-dos >](../basic_concepts/To_Dos_Basics.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
+[To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
+[Modul Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)
 
