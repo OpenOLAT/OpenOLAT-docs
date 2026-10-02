@@ -1,11 +1,11 @@
 # Modul Organisationen {: #organisations}
 
 
-Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der System-Administration unter `Administration > Module > Organisationen` aktiviert.
+Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der System-Administration unter `Administration > Module > Organisationen` aktiviert. Die System-Administration und damit alle Tabs auf dieser Seite öffnen Systemadministrator:innen.
 
 !!! tip "Aktivierung"
 
-    Kunden von frentix kontaktieren für die Aktivierung bitte: [contact@frentix.com](mailto:contact@frentix.com). Nach der Aktivierung können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassungen durch frentix vorgenommen.
+    frentix-Kund:innen kontaktieren für die Aktivierung bitte: [contact@frentix.com](mailto:contact@frentix.com). Nach der Aktivierung können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassungen durch frentix vorgenommen.
 
     **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 
@@ -13,15 +13,15 @@ Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der S
 
 ## Tab Konfiguration {: #tab_configuration}
 
-![Aktivierung des Moduls Organisationen, der E-Mail-Domänen-Zuordnung und der rechtlichen Dokumente](assets/organisations_tab_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Organisationen" }
+![Aktivierung des Moduls Organisationen, der E-Mail-Domänen-Zuordnung, der rechtlichen Dokumente und der Debitorennummer; der Abschnitt Debitorennummer ist hervorgehoben](assets/organisations_tab_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Organisationen · 2026.10.02" }
 
 Im Tab Konfiguration schalten Sie das Modul und seine Zusatzfunktionen ein, die Ihre Organisation braucht. Der Tab enthält
 
-* die Aktivierung des Moduls Organisationsstrukturen
-* die Aktivierung der E-Mail-Domänen-Zuordnung (nur aktivierbar bei aktiviertem Modul Organisationen)
-* die Aktivierung des Ordners für rechtliche Dokumente
+* die Aktivierung des Moduls Organisationen
+* die Aktivierung der E-Mail-Domänen-Zuordnung (nur sichtbar bei aktiviertem Modul Organisationen)
+* die Aktivierung des Ordners für rechtliche Dokumente (nur sichtbar bei aktiviertem Modul Organisationen)
 * die Aktivierung der [Debitorennummer](#customer_number) (nur sichtbar bei aktiviertem Modul Organisationen)
-* den Abschnitt "Status", in dem Informationen für Administrator:innen angezeigt werden
+* den Abschnitt "Status", der die Standardorganisation nennt und warnt, wenn Konten mit globalen Rollen in verschiedenen Organisationen liegen oder mehrere Organisationen die Bezeichnung "default-org" tragen
 
 Im Modul "Organisationen" kann die Unternehmensstruktur abgebildet werden. Anschliessend können Rollen, Rechte und Sichtbarkeit von Kursen und Inhalten von der Zugehörigkeit zu einer bestimmten Organisationseinheit abhängig gemacht werden.
 
@@ -52,9 +52,9 @@ Schalten Sie die Debitorennummer wieder aus, verschwindet das Feld aus allen For
 
 Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen mit ihren Unterorganisationen als Baumstruktur dargestellt.
 
-### Neue Organisationen erstellen und bearbeiten {: #create_and_edit}
+### Neue Organisationen erstellen und bearbeiten [:octicons-tag-16:{ title="ab Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
-![Baumstruktur der Organisationen mit ihren Unterorganisationen](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Tab Organisationsstruktur im Modul Organisationen" }
+![Baumstruktur der Organisationen, im Menü der 3 Punkte die Einträge Organisation verschieben und Unterorganisation erstellen](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Tab Organisationsstruktur im Modul Organisationen" }
 
 Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden. Beide Dialoge enthalten dieselben Felder wie der Tab [Metadaten](#edit_metadata).
 
@@ -66,12 +66,12 @@ Eine bestehende Organisation verschieben Sie mit Klick auf die 3 Punkte und "Org
 
     Eine Organisation lässt sich nicht direkt in eine Organisation verschieben, die in der Baumstruktur über ihr liegt. OpenOlat meldet dann "Eine Organisation kann nicht in eine ihr über- oder untergeordnete Organisation verschoben werden." Verschieben Sie die Organisation zuerst in eine Organisation, die weder über ihr noch unter der Zielorganisation liegt, und von dort in die Zielorganisation. frentix-Kund:innen können diesen Zwischenschritt nicht selbst ausführen und wenden sich an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
-Wird in der Baumstruktur eine Organisation ausgewählt, können ihre Metadaten und weitere Zuordnungen angepasst oder ergänzt werden.
+Wählen Sie in der Baumstruktur eine Organisation aus oder klicken Sie bei ihr unter den 3 Punkten auf "Bearbeiten", um ihre Metadaten und weiteren Zuordnungen anzupassen oder zu ergänzen.
 
-![Ordner für rechtliche Dokumente](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Tab Rechtliche Dokumente einer Organisation" }
+![Leerer Ordner Rechtliche Dokumente einer Unterorganisation mit dem Button Dateien hochladen](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Tab Rechtliche Dokumente einer Organisation" }
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechtliche Dokumente"`<br>
-Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert worden, wird dieses Tab für Administrator:innen und andere administrative Rollen angezeigt. Administrator:innen können darin Dokumente zu organisationsspezifischen Belangen ablegen. Andere administrative Rollen haben nur Lesezugriff. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
+Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert, zeigt OpenOlat diesen Tab bei jeder Organisation. Die administrativen Rollen einer Organisation, ausser Autor:innen, öffnen den Ordner zusätzlich im [File Hub](../../manual_user/personal_menu/File_Hub.de.md) unter "Rechtliche Dokumente". Administrator:innen der Organisation können dort Dokumente zu organisationsspezifischen Belangen ablegen. Die übrigen administrativen Rollen haben nur Lesezugriff. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
 
 
 
@@ -82,9 +82,9 @@ Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfigurat
 
 Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen können ein Standort und eine Beschreibung eingetragen werden. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert). Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
 
-Bei Organisationen, die Administrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
+Bei Organisationen, die Systemadministrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
 
-Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist immer gesperrt, ihr Name nicht. OpenOlat legt die Standardorganisation beim ersten Start mit dem Namen "OpenOLAT" und der Bezeichnung "default-org" an und sperrt dabei das Feld "Bezeichnung". OpenOlat erkennt die Standardorganisation an dieser Bezeichnung, deshalb bleibt das Feld auch später gesperrt. Den Namen können Administrator:innen jederzeit im Tab "Metadaten" ändern, etwa in den Namen der eigenen Organisation. Im Bild trägt sie den geänderten Namen "OpenOlat". Kurse, Lernressourcen und Rollen bleiben beim Umbenennen unverändert zugeordnet. Verschieben oder löschen lässt sich die Standardorganisation nicht.
+Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist immer gesperrt, ihr Name nicht. OpenOlat legt die Standardorganisation beim ersten Start mit dem Namen "OpenOLAT" und der Bezeichnung "default-org" an und sperrt dabei das Feld "Bezeichnung". OpenOlat erkennt die Standardorganisation an dieser Bezeichnung, deshalb bleibt das Feld auch später gesperrt. Den Namen können Systemadministrator:innen jederzeit im Tab "Metadaten" ändern, etwa in den Namen der eigenen Organisation. Im Bild trägt sie den geänderten Namen "OpenOlat". Kurse, Lernressourcen und Rollen bleiben beim Umbenennen unverändert zugeordnet. Verschieben oder löschen lässt sich die Standardorganisation nicht.
 
 !!! note "Hinweis"
 
@@ -95,13 +95,13 @@ Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist im
 ### Kontenverwaltung {: #edit_account_managment}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Kontenverwaltung"`
-![Rollenauswahl beim Hinzufügen eines Kontos](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation" }
+![Menü Konto hinzufügen mit den Rollen von Systemadministrator:in bis Benutzer:in](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation" }
 
 Im Tab "Kontenverwaltung" erhält man eine Liste mit den aktuell dieser Organisationseinheit zugeordneten Benutzer:innen. Ebenso können bestehende Benutzer:innen wieder entfernt werden.
 
-Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden.  Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren Benutzer:innen ist möglich.
+Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden. Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren Benutzer:innen ist möglich.
 
-Jeder Stufe der Organisation können Mitglieder verschiedenster Rollen zugeordnet werden. 
+Jeder Stufe der Organisation können Mitglieder verschiedenster Rollen zugeordnet werden.
 
 Die **Rollen-Zuordnung** ist möglich
 
@@ -128,39 +128,39 @@ Die **Zuordnung von Bildungsprodukten** erfolgt im Course Planner in der jeweili
 
 ### Linienvorgesetzte [:octicons-tag-16:{ title="ab Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
-`Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Linienvorgesetzte"`
-![Rechte-Checkboxen für die Rolle Linienvorgesetzte:r](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation" }
+`Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Linienvorgesetzte:r"`
+![Rechte der Linienvorgesetzten als Checkboxen, darunter der Button Speichern](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation" }
 
-Die Rechte, die Linienvorgesetzten zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
+Linienvorgesetzte sehen im Coaching den Lernfortschritt ihrer Mitarbeitenden. Welche Angaben und Aktionen ihnen dabei offenstehen, legen Sie in diesem Tab mit den Rechten fest. Die Rechte gelten für eine Organisation auf oberster Ebene der Baumstruktur und für alle ihre Unterorganisationen. Den Tab zeigt OpenOlat deshalb nur bei Organisationen auf oberster Ebene.
 
 
 ### Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Ausbildungsverantwortliche"`
-![Rechte-Checkboxen für die Rolle Ausbildungsverantwortliche](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Tab Ausbildungsverantwortliche einer Organisation" }
+![Rechte der Ausbildungsverantwortlichen als Checkboxen, darunter der Button Speichern](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Tab Ausbildungsverantwortliche einer Organisation" }
 
-Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
+Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorgesetzte und übernehmen zusätzlich administrative Aufgaben. Welche Angaben und Aktionen ihnen offenstehen, legen Sie in diesem Tab mit den Rechten fest. Wie bei den Linienvorgesetzten gelten die Rechte für eine Organisation auf oberster Ebene und für alle ihre Unterorganisationen, und OpenOlat zeigt den Tab nur bei Organisationen auf oberster Ebene.
 
 
 ### Rechnungsadressen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechnungsadressen"`
-![Noch leere Liste der Rechnungsadressen, darüber der Button Erstellen](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" title="Tab Rechnungsadressen einer Organisation" }
+![Formular einer Rechnungsadresse der Organisation, das Feld Debitorennummer unter dem Identifikator ist hervorgehoben](assets/organisations_edit_tab_billing_addresses_v2_de.png){ class="shadow lightbox" title="Dialog Rechnungsadresse bearbeiten im Tab Rechnungsadressen · 2026.10.02" }
 
-Bucht eine Person ein Angebot mit Rechnung, wählt sie eine Rechnungsadresse ihrer Organisation aus, statt die Adresse selbst einzugeben. Diese Rechnungsadressen hinterlegen Sie hier je Organisation mit "Erstellen". Zur Auswahl stehen der Person die aktiven Rechnungsadressen der Organisationen, in denen sie Benutzer:in ist.
+Bucht eine Person ein Angebot mit Rechnung, wählt sie eine Rechnungsadresse ihrer Organisation aus, statt die Adresse selbst einzugeben. Diese Rechnungsadressen hinterlegen Sie hier je Organisation mit "Erstellen". Das Formular öffnet sich im Dialog "Rechnungsadresse bearbeiten", auch beim Anlegen einer neuen Adresse. Zur Auswahl stehen der Person die aktiven Rechnungsadressen der Organisationen, in denen sie Benutzer:in ist.
 
 Der Tab erscheint nur, wenn die Angebotsart "Rechnung" eingeschaltet ist. Sie wählen sie in der System-Administration unter "Verfügbare Angebotsart" aus:<br>
 `Administration > Core Konfiguration > Zugangskontrolle`, siehe [Core Konfiguration](Core_functions.de.md).
 
 Eine Rechnungsadresse besteht aus den Feldern "Identifikator", "Name / Firma", "Zusatz / Abteilung", "Adresszeile 1" bis "Adresszeile 4", "Postfach", "Region", "PLZ", "Ort" und "Land". Pflichtfelder sind "Identifikator", "Name / Firma", "Adresszeile 1", "Ort" und "Land".
 
-Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadresse einer Organisation zusätzlich das Feld "Debitorennummer". Persönliche Rechnungsadressen haben dieses Feld nicht, ebenso wenig eine Adresse, die erst beim Buchen über "Andere Organisationsadresse" eingegeben wird. Ist eine Nummer erfasst, steht sie als erste Zeile der Rechnungsadresse, überall wo OpenOlat die Adresse anzeigt: in der Detailansicht eines Buchungsauftrags im Course Planner, bei der Auswahl der Rechnungsadresse während der Buchung mit Rechnung und in den [eigenen Buchungsaufträgen](../../manual_user/personal_menu/Bookings.de.md) der Teilnehmer:innen.
+Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadresse einer Organisation zusätzlich das Feld "Debitorennummer", direkt unter "Identifikator". Persönliche Rechnungsadressen haben dieses Feld nicht, ebenso wenig eine Adresse, die erst beim Buchen über "Andere Organisationsadresse" eingegeben wird. Ist eine Nummer erfasst, steht sie als erste Zeile der Rechnungsadresse, überall wo OpenOlat die Adresse anzeigt: in der Detailansicht eines Buchungsauftrags im Course Planner, bei der Auswahl der Rechnungsadresse während der Buchung mit Rechnung und in den [eigenen Buchungsaufträgen](../../manual_user/personal_menu/Bookings.de.md) der Teilnehmer:innen.
 
 
-### E-Mail-Domänen-Zuordnung {: #edit_mail_domain}
+### E-Mail-Domänen-Zuordnungen {: #edit_mail_domain}
 
-`Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "E-Mail-Domänen-Zuordnung"`
-![Liste der E-Mail-Domänen-Zuordnungen](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnung einer Organisation" }
+`Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "E-Mail-Domänen-Zuordnungen"`
+![Noch leere Liste der E-Mail-Domänen-Zuordnungen einer Organisation mit dem Button E-Mail-Domänen-Zuordnung erstellen](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen einer Organisation" }
 
 Zu jeder Organisation kann eine E-Mail-Domäne angegeben werden, anhand derer die Zugehörigkeit von Benutzer:innen zu dieser Organisationseinheit geprüft werden kann. Dies ist dann von Bedeutung, wenn sich Benutzer:innen selbst für Kurse anmelden können, die Kurse jedoch nur für eine bestimmte Organisationseinheit verfügbar sein sollen.
 
@@ -170,11 +170,11 @@ Zu jeder Organisation kann eine E-Mail-Domäne angegeben werden, anhand derer di
 
 ## Tab Organisationstypen {: #tab_types}
 
-![Liste der Organisationstypen mit Bezeichnung und Name](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Tab Organisationstypen im Modul Organisationen" }
+![Liste von vier Organisationstypen, darüber der Button Organisationstyp erstellen](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Tab Organisationstypen im Modul Organisationen" }
 
 Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich --> Abteilung`.
 
-Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben der Bezeichnung (Kennzeichen) und dem Namen kann eine Beschreibung angegeben werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuem Organisationstyp bereits bestehende Typen untergeordnet werden.
+Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben dem Kennzeichen und dem Namen kann eine Beschreibung angegeben werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuen Organisationstyp bereits bestehende Typen untergeordnet werden.
 
 
 [Zum Seitenanfang ^](#organisations)
@@ -187,9 +187,11 @@ Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur en
 
     Dieser Tab wird nur angezeigt, wenn die E-Mail-Domänen-Zuordnung im Tab "Konfiguration" aktiviert wurde.
 
-![Liste der E-Mail-Domänen je Organisation](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen im Modul Organisationen" }
+![E-Mail-Domänen je Organisation mit den Spalten Aktiv, Unter-Domänen erlaubt und Konten mit Domäne](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen im Modul Organisationen" }
 
 Existieren Organisationseinheiten, kann die Selbstregistration auf bestimmte E-Mail-Domänen eingeschränkt werden. Neue Benutzer:innen werden dann basierend auf ihrer E-Mail-Domäne automatisch einer Organisationseinheit zugeordnet und nur für Inhalte/Kurse dieser Organisationseinheit zur Selbstregistration zugelassen.
+
+Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen erlaubt" sagt, ob auch E-Mail-Adressen einer Unter-Domäne zur Organisation passen, etwa "hr.example.com" zur Domäne "example.com". Die Spalte "Konten mit Domäne" zählt die Konten der Organisation, deren E-Mail-Adresse zur Domäne passt.
 
 [Zum Seitenanfang ^](#organisations)
 
@@ -201,6 +203,7 @@ Existieren Organisationseinheiten, kann die Selbstregistration auf bestimmte E-M
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
+[Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [REST API >](REST_API.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
 [Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)<br>

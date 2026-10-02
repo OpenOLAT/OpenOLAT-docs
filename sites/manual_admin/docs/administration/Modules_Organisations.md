@@ -1,6 +1,6 @@
 # Module Organisations {: #organisations}
 
-The "Organisations" module is optionally available in OpenOlat. It is activated in the system administration under `Administration > Modules > Organisations`.
+The "Organisations" module is optionally available in OpenOlat. It is activated in the system administration under `Administration > Modules > Organisations`. The system administration, and with it all tabs on this page, is opened by system administrators.
 
 !!! tip "Activation"
 
@@ -10,15 +10,15 @@ The "Organisations" module is optionally available in OpenOlat. It is activated 
 
 ## Tab Configuration {: #tab_configuration}
 
-![Activation of the Organisations module, the e-mail domain mapping and the legal documents folder](assets/organisations_tab_config_v2_de.png){ class="shadow lightbox" title="Configuration tab of the Organisations module" }
+![Activation of the Organisations module, the e-mail domain mapping, the legal documents and the customer number; the Customer number section is highlighted](assets/organisations_tab_config_v3_en.png){ class="shadow lightbox" title="Configuration tab of the Organisations module · 2026.10.02" }
 
 In the "Configuration" tab, you switch on the module and the additional functions your organisation needs. The tab contains
 
 * the activation of the Organisations module
-* the activation of the e-mail domain mapping (can only be activated if the Organisations module is activated)
-* the activation of the folder for legal documents
+* the activation of the e-mail domain mapping (only visible if the Organisations module is activated)
+* the activation of the folder for legal documents (only visible if the Organisations module is activated)
 * the activation of the [customer number](#customer_number) (only visible if the Organisations module is activated)
-* the "Status" section, which shows information for administrators
+* the "Status" section, which names the default organisation and warns if accounts with global roles are in different organisations or if several organisations have the identifier "default-org"
 
 The company structure can be mapped in the "Organisations" module. Roles, rights and the visibility of courses and content can then be made dependent on membership of a specific organisation.
 
@@ -48,9 +48,9 @@ If you switch the customer number off again, the field disappears from all forms
 
 The "Organisations structures" tab shows the organisations already created, together with their sub-organisations, as a tree structure.
 
-### Creating and editing organisations {: #create_and_edit}
+### Creating and editing organisations [:octicons-tag-16:{ title="from Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
-![Tree structure of the organisations with their sub-organisations](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Organisations structures tab of the Organisations module" }
+![Tree structure of the organisations, in the three-dot menu the entries Move organisation and Add new organisation under this one](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Organisations structures tab of the Organisations module" }
 
 New organisations can be added using the "Create new organisation" button at the top right, or for existing organisations by clicking the three dots and "Add new organisation under this one". Both dialogs contain the same fields as the [Metadata](#edit_metadata) tab.
 
@@ -62,12 +62,12 @@ To move an existing organisation, click the three dots and "Move organisation". 
 
     An organisation cannot be moved directly into an organisation that is above it in the tree structure. OpenOlat then reports "An organisation cannot be moved into a parent or sub-organisation of itself." First move the organisation into an organisation that is neither above it nor below the target organisation, and from there into the target organisation. frentix customers cannot carry out this intermediate step themselves and contact frentix support: [support@frentix.com](mailto:support@frentix.com)
 
-If an organisation is selected in the tree structure, its metadata and other assignments can be adjusted or supplemented.
+Select an organisation in the tree structure, or click "Edit" under its three dots, to adjust or supplement its metadata and other assignments.
 
-![Legal documents folder](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Legal documents tab of an organisation" }
+![Empty Legal documents folder of a sub-organisation with the Upload files button](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Legal documents tab of an organisation" }
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Legal documents"`<br>
-If the folder has been activated under `Administration > Modules > Organisations > Tab "Configuration"`, this tab is displayed for administrators and other administrative roles. Administrators can store documents on organisation-specific matters in it. Other administrative roles only have read access. [:octicons-tag-16:{ title="from Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
+If the folder is activated under `Administration > Modules > Organisations > Tab "Configuration"`, OpenOlat shows this tab for every organisation. The administrative roles of an organisation, except authors, can also open the folder in the [File Hub](../../manual_user/personal_menu/File_Hub.md) under "Legal documents". Administrators of the organisation can store documents on organisation-specific matters there. The other administrative roles only have read access. [:octicons-tag-16:{ title="from Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
 
 ### Metadata {: #edit_metadata}
 
@@ -76,9 +76,9 @@ If the folder has been activated under `Administration > Modules > Organisations
 
 In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, a location and a description can be entered. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. The organisation type (as defined in the "Organisations types" tab) is also assigned here. If every organisation is linked to a corresponding organisation type on creation, a hierarchical structure can be built. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
 
-For organisations that administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
+For organisations that system administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
 
-The default organisation, shown in the image, is different: its identifier is always locked, its name is not. On its first start, OpenOlat creates the default organisation with the name "OpenOLAT" and the identifier "default-org" and locks the "Identifier" field. OpenOlat recognizes the default organisation by this identifier, so the field remains locked later on as well. Administrators can change the name in the "Metadata" tab at any time, for example to the name of their own organisation. In the image, it bears the changed name "OpenOlat". Courses, learning resources and roles remain assigned unchanged when you rename it. The default organisation cannot be moved or deleted.
+The default organisation, shown in the image, is different: its identifier is always locked, its name is not. On its first start, OpenOlat creates the default organisation with the name "OpenOLAT" and the identifier "default-org" and locks the "Identifier" field. OpenOlat recognizes the default organisation by this identifier, so the field remains locked later on as well. System administrators can change the name in the "Metadata" tab at any time, for example to the name of their own organisation. In the image, it bears the changed name "OpenOlat". Courses, learning resources and roles remain assigned unchanged when you rename it. The default organisation cannot be moved or deleted.
 
 !!! note "Note"
 
@@ -87,7 +87,7 @@ The default organisation, shown in the image, is different: its identifier is al
 ### User management {: #edit_account_managment}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "User management"`
-![Role selection when adding a user](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="User management tab of an organisation" }
+![Add user menu with the roles from System administrator to User](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="User management tab of an organisation" }
 
 The "User management" tab shows a list of the users currently assigned to this organisation. Existing users can also be removed again.
 
@@ -118,35 +118,35 @@ The **assignment of educational products** is done in the Course Planner, at the
 ### Line managers [:octicons-tag-16:{ title="from Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Line managers"`
-![Rights checkboxes for the Line manager role](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Line managers tab of an organisation" }
+![Rights of line managers as checkboxes, below them the Save button](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Line managers tab of an organisation" }
 
-The rights assigned to line managers can be defined separately for each organisation.
+Line managers see the learning progress of their staff in Coaching. In this tab, you use the rights to define which information and actions are available to them. The rights apply to an organisation at the top level of the tree structure and to all its sub-organisations. OpenOlat therefore only shows the tab for organisations at the top level.
 
 ### Education managers [:octicons-tag-16:{ title="from Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Education managers"`
-![Rights checkboxes for the Education manager role](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Education managers tab of an organisation" }
+![Rights of education managers as checkboxes, below them the Save button](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Education managers tab of an organisation" }
 
-The rights assigned to education managers can be defined separately for each organisation.
+Education managers see the same overview in Coaching as line managers and additionally take on administrative tasks. In this tab, you use the rights to define which information and actions are available to them. As with line managers, the rights apply to an organisation at the top level and to all its sub-organisations, and OpenOlat only shows the tab for organisations at the top level.
 
 ### Billing addresses [:octicons-tag-16:{ title="from Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Billing addresses"`
-![Still empty list of billing addresses, above it the Create button](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" title="Billing addresses tab of an organisation" }
+![Form of a billing address of the organisation, the Customer number field below the identifier is highlighted](assets/organisations_edit_tab_billing_addresses_v2_en.png){ class="shadow lightbox" title="Edit billing address dialog in the Billing addresses tab · 2026.10.02" }
 
-When a person books an offer with invoice, they select a billing address of their organisation instead of entering the address themselves. You store these billing addresses here for each organisation with "Create". The person can choose from the active billing addresses of the organisations in which they are a user.
+When a person books an offer with invoice, they select a billing address of their organisation instead of entering the address themselves. You store these billing addresses here for each organisation with "Create". The form opens in the "Edit billing address" dialog, also when you create a new address. The person can choose from the active billing addresses of the organisations in which they are a user.
 
 The tab only appears if the offer type "Invoice" is enabled. You select it in the system administration under "Available offer types":<br>
 `Administration > Core functions > Access control`, see [Core functions](Core_functions.md).
 
 A billing address consists of the fields "Identifier", "Name / Company", "Addition / Department", "Address line 1" to "Address line 4", "P.O. box", "Region", "ZIP", "City" and "Country". Mandatory fields are "Identifier", "Name / Company", "Address line 1", "City" and "Country".
 
-If the [customer number](#customer_number) is switched on, a billing address of an organisation has the additional field "Customer number". Personal billing addresses do not have this field, nor does an address that is only entered during booking via "Other organisation address". If a number is recorded, it appears as the first line of the billing address wherever OpenOlat displays the address: in the detail view of a booking order in the Course Planner, when selecting the billing address during a booking with invoice, and in the participants' [own booking orders](../../manual_user/personal_menu/Bookings.md).
+If the [customer number](#customer_number) is switched on, a billing address of an organisation has the additional field "Customer number", directly below "Identifier". Personal billing addresses do not have this field, nor does an address that is only entered during booking via "Other organisation address". If a number is recorded, it appears as the first line of the billing address wherever OpenOlat displays the address: in the detail view of a booking order in the Course Planner, when selecting the billing address during a booking with invoice, and in the participants' [own booking orders](../../manual_user/personal_menu/Bookings.md).
 
 ### E-mail domains mappings {: #edit_mail_domain}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "E-mail domains mappings"`
-![List of the e-mail domain mappings](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation" }
+![Still empty list of the e-mail domain mappings of an organisation with the Create e-mail domain mapping button](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation" }
 
 An e-mail domain can be specified for each organisation, which is used to check whether users belong to this organisation. This matters when users can self-register for courses, but the courses should only be available for a specific organisation.
 
@@ -156,7 +156,7 @@ An e-mail domain can be specified for each organisation, which is used to check 
 
 ## Tab Organisations types {: #tab_types}
 
-![List of the organisation types with reference and name](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Organisations types tab of the Organisations module" }
+![List of four organisation types, above it the Create organisation type button](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Organisations types tab of the Organisations module" }
 
 The organisation types define which elements an organisation structure can contain and give these elements a more specific meaning. The types can also map a hierarchical structure, but this is not mandatory. An example of organisation types is `Company --> Division --> Department`.
 
@@ -172,9 +172,11 @@ Further types can be created via "Create organisation type". In addition to the 
 
     This tab is only displayed if the e-mail domain mapping has been activated in the "Configuration" tab.
 
-![List of the e-mail domains per organisation](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of the Organisations module" }
+![E-mail domains per organisation with the columns Active, Subdomain allowed and Accounts with domain](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of the Organisations module" }
 
 If organisations exist, self-registration can be restricted to specific e-mail domains. New users are then automatically assigned to an organisation based on their e-mail domain and are only allowed to self-register for content/courses of this organisation.
+
+The list shows the mappings of all organisations. The "Subdomain allowed" column indicates whether e-mail addresses of a subdomain also match the organisation, for example "hr.example.com" for the domain "example.com". The "Accounts with domain" column counts the accounts of the organisation whose e-mail address matches the domain.
 
 [To the top of the page ^](#organisations)
 
@@ -186,6 +188,7 @@ If organisations exist, self-registration can be restricted to specific e-mail d
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
+[Personal tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [REST API >](REST_API.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
