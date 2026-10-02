@@ -255,7 +255,7 @@ Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ih
 
 [Bewertungswerkzeug - Tab Teilnehmer >](Assessment_tool_tab_Users.de.md)<br>
 [Kurs löschen >](Course_Delete.de.md)<br>
-[Benutzer:in löschen >](../../../manual_admin/docs/usermanagement/Delete_User.de.md)<br>
+[Benutzer:in löschen >](../../../manual_admin/usermanagement/Delete_User.de.md)<br>
 
 [Zum Seitenanfang ^](#reset_data)
 

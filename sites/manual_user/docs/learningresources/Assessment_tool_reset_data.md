@@ -254,7 +254,7 @@ If you have selected a test course module in the assessment tool, you have the o
 
 [Assessment tool - Tab Participants >](Assessment_tool_tab_Users.md)<br>
 [Delete course >](Course_Delete.md)<br>
-[Delete user >](../../../manual_admin/docs/usermanagement/Delete_User.md)<br>
+[Delete user >](../../../manual_admin/usermanagement/Delete_User.md)<br>
 
 [To the top of the page ^](#reset_data)
 

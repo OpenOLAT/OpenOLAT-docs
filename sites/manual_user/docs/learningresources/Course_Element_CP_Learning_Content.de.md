@@ -12,7 +12,7 @@ Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie entweder direkt in OpenOlat erstellen, was im Kapitel "[Wie erstelle ich ein Content Package?](../../../manual_how-to/docs/content_package/content_package.de.md)" erklärt wird. Oder Sie erstellen das CP extern.
+Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie entweder direkt in OpenOlat erstellen, was im Kapitel "[Wie erstelle ich ein Content Package?](../../../manual_how-to/content_package/content_package.de.md)" erklärt wird. Oder Sie erstellen das CP extern.
 
 ## Tab Lerninhalt :octicons-tag-16:{ title="Neuauflage ab Release 16.2" } {: #tab_learning_content}
 
@@ -30,7 +30,7 @@ Ansonsten ist die Struktur für Teilnehmer:innen nicht sichtbar. Sie können dan
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../../manual_how-to/docs/content_package/content_package.de.md)
+[Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../../manual_how-to/content_package/content_package.de.md)
 
 **Weiterführend**<br>
 [Erstellen und Bearbeiten eines Content Packages >](../learningresources/CP_Editor.de.md)

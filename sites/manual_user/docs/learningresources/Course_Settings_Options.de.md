@@ -24,7 +24,7 @@ Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressou
 
 Standardmässig sind die Dateien des Ressourcenordners im Kurs schreibgeschützt und eine Bearbeitung nur direkt in der Lernressource, nicht aber im Ablageordner des Kurses oder bei der Einbindung über Einzelseiten im Kurseditor möglich. Soll eine Bearbeitung aber auch im Kurs möglich sein, muss in den Optionen der Kurseinstellungen der Haken bei "Schreibgeschützt" entfernt werden.
 
-Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../manual_how-to/docs/multiple_use/multiple_use.de.md).
+Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../../manual_how-to/multiple_use/multiple_use.de.md).
 
 **Beachten Sie:**<br> Sie können lediglich _einen_ Ressourcenordner pro Kurs einbinden. Überlegen Sie deshalb im Vorfeld genau, welche Dateien Sie über einen kursübergreifenden Ressourcenordner statt des kursbezogenen Ablageordners organisieren möchten.
 
@@ -76,7 +76,7 @@ Benutzer:innen mit administrativen Rollen (Lernressourcenverwalter:in, Administr
 **Auf dieser Seite erwähnt**<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
-[Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/docs/multiple_use/multiple_use.de.md)<br>
+[Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../../manual_how-to/multiple_use/multiple_use.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 **Weiterführend**<br>

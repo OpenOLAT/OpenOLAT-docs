@@ -186,7 +186,12 @@
   };
 
   var SUPPORTED = ["de", "en", "fr", "it"];
-  var seg = (location.pathname.split("/").filter(Boolean)[0] || "").toLowerCase();
+  // The server forwards unknown addresses to /archive_mkdocs/<version>/...
+  // Show the address that was requested, unless the reader came from an archive page.
+  var ARCHIVE = /^\/archive_mkdocs\/[^\/]+/;
+  var fromArchive = document.referrer.indexOf("/archive_mkdocs/") >= 0;
+  var path = fromArchive ? location.pathname : location.pathname.replace(ARCHIVE, "");
+  var seg = (path.split("/").filter(Boolean)[0] || "").toLowerCase();
   var lang = SUPPORTED.indexOf(seg) >= 0
     ? seg
     : (navigator.language || "en").slice(0, 2).toLowerCase();
@@ -205,7 +210,7 @@
   document.getElementById("fx404-home").setAttribute("href", siteUrl + "/" + lang + "/");
 
   // Report link with the failed URL prefilled
-  var failed = location.href;
+  var failed = location.origin + path + location.search + location.hash;
   var mailto = "mailto:support@openolat.com"
     + "?subject=" + encodeURIComponent(t.subject)
     + "&body=" + encodeURIComponent(t.body.replace("%URL%", failed));
