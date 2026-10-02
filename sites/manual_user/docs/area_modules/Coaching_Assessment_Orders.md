@@ -122,7 +122,7 @@ For essay questions, you download a person's answer as a PDF with the "Download 
 
 !!! tip "Prerequisite"
 
-    The download requires a [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) configured in the system administration.
+    The download requires the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) to be switched on in the system administration.
 
 The management of all correctors and their assignments, on the other hand, is done in the [Order management](Coaching_Order_Management.md).
 

@@ -243,7 +243,7 @@ The download is available in the correction tool of a course, as well as in the 
 
 !!! tip "Prerequisite"
 
-    The download requires a [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) configured in the system administration.
+    The download requires the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) to be switched on in the system administration.
 
 
 ## Resetting or invalidating tests [:octicons-tag-16:{ title="from Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)

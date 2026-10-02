@@ -122,7 +122,7 @@ Bei Freitextfragen laden Sie die Antwort einer Person über den Button "Als PDF 
 
 !!! tip "Voraussetzung"
 
-    Der Download setzt voraus, dass in der System-Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
+    Der Download setzt voraus, dass in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist.
 
 Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [Auftragsverwaltung](Coaching_Order_Management.de.md).
 

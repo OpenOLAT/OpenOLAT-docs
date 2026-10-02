@@ -288,27 +288,27 @@ In the system administration under `Administration > External tools > AI module`
 ## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.
-These functions are only available if a PDF service is configured. Without a PDF service, the button "Download as PDF" is missing on the info page. [:octicons-tag-16:{ title="from Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"}
+These functions are only available if the switch "PDF Service" is turned on and a service is configured under "Generator" in the system administration under `Administration > External tools > PDF generator`. Without a PDF service, the button "Download as PDF" is missing on the info page. [:octicons-tag-16:{ title="from Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"}
 
 
 ### Gotenberg (recommended) [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6886)" }](https://track.frentix.com/issue/OO-6886){:target="_blank"} {: #gotenberg}
 
-Gotenberg is a PDF generator based on Google Chrome or Chromium, and it is Docker based.
+Gotenberg is a PDF generator based on Google Chrome or Chromium and Docker.
 
 More information on Gotenberg can be found at [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) and [GitHub](https://github.com/gotenberg/gotenberg).
 
-To learn more about how to install and configure the Gotenberg service please visit the [installation manual](../installation/gotenbergPdf.md).
+To learn more about how to install and configure the PDF service Gotenberg, please visit the [installation manual](../installation/gotenbergPdf.md).
 
 
 ### Athena PDF (outdated) {: #athena}
 
 [AthenaPDF](https://www.athenapdf.com) is a PDF generator based on Electron and Docker. This implementation uses the
-Variant micro service.
+micro service variant.
 
 More information on AthenaPDF can be found at
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
-To learn more about how to install and configure the AthenaPDF service please visit
+To learn more about how to install and configure the PDF service AthenaPDF, please visit
 the [installation manual](../installation/athenaPdf.md).
 
 [To the top of the page ^](#ext_tools)

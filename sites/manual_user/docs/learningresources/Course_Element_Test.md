@@ -380,9 +380,9 @@ The dialog "History of the test resources" shows for each test learning resource
 
 ![Button "Test Statistics" above the list of participants marked](assets/course_element_test_replace_statistic1_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 
-If participants in this course have completed more than one of the test learning resources used, a selection appears at the top right of the test statistics with which you switch between the statistics of the different test versions (test learning resources used).
+If participants in this course have worked on more than one of the test learning resources used, a selection appears at the top right of the test statistics with which you switch between the statistics of the different test versions (test learning resources used).
 
-![Selecting the test version after replacing the test learning resource](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow lightbox" title="Test statistics in the course element Test" }
+![Selecting the test version after replacing the test learning resource](assets/course_element_test_replace_statistic2_v1_en.png){ class="shadow lightbox" title="Test statistics in the course element Test · 2026.10.02" }
 
 
 !!! note "Note"

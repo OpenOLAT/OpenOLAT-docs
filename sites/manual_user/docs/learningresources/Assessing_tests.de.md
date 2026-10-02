@@ -243,7 +243,7 @@ Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Ko
 
 !!! tip "Voraussetzung"
 
-    Der Download setzt voraus, dass in der System-Administration ein [PDF-Service](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) konfiguriert ist.
+    Der Download setzt voraus, dass in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist.
 
 
 ## Tests zurücksetzen oder annullieren [:octicons-tag-16:{ title="ab Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
