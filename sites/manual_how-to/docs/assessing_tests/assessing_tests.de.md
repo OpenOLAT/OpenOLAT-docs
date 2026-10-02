@@ -23,9 +23,9 @@
 
 ## Was bedeutet "einen Test bewerten"? {: #meaning}
 
-In OpenOlat können Tests automatisch oder manuell ausgewertet werden. 
+In OpenOlat können Tests automatisch oder manuell ausgewertet werden.
 
-**Automatisch bewertbare Fragen** (z. B. Single Choice, Multiple Choice) können direkt nach der Abgabe vom System ausgewertet werden.<br> 
+**Automatisch bewertbare Fragen** (z. B. Single Choice, Multiple Choice) können direkt nach der Abgabe vom System ausgewertet werden.<br>
 **Manuell zu bewertende Fragen** sind z. B. Freitext oder Zeichnen. Sie erfordern zwingend eine Bewertung durch Betreuer:innen. Aber auch bereits automatisch ausgewertete Fragen können nachbearbeitet werden.
 
 Als Betreuer:in können Sie im **Bewertungswerkzeug**:
@@ -36,7 +36,7 @@ Als Betreuer:in können Sie im **Bewertungswerkzeug**:
 * Kommentare für Teilnehmer:innen und andere Betreuer:innen hinterlassen
 * Bewertungen einzeln oder per Sammelaktion abschliessen
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -56,7 +56,7 @@ Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Korrekturauftrag mi
 
 Welche Einstellung welchen Tab im Coaching füllt, zeigt der Abschnitt [Bewertungsaufträge erstellen](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md#create_assessment_orders).
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -100,10 +100,10 @@ Wurde eine Bewertung abgeschlossen, ändern sich die angebotenen Buttons. Sie k�
 
 * die abgegebene Bewertung wieder eröffnen
 * die Bewertung freigeben
-* die Freigabe wieder zurückziehen  
+* die Freigabe wieder zurückziehen
 
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -111,7 +111,7 @@ Wurde eine Bewertung abgeschlossen, ändern sich die angebotenen Buttons. Sie k�
 ### 2. Einstieg durch Aufruf des Bewertungswerkzeuges {: #access_assessment_tool}
 
 Das Bewertungswerkzeug wird aufgerufen via<br>
-**Kurs > Administration > Bewertungswerkzeug**
+`Kurs > Administration > Bewertungswerkzeug`
 
 ![Aufgeklapptes Menü Administration mit dem markierten Eintrag Bewertungswerkzeug, im Kurs](assets/assessing_tests_access2a_v1_de.png){ class="shadow lightbox" }
 
@@ -121,7 +121,7 @@ Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
 
 ![Drei markierte Schritte im Bewertungswerkzeug vom Kursbaustein über den Tab Teilnehmer:innen zur Zeile, dazu das Zeilenmenü mit Details anzeigen und Korrigieren](assets/assessing_tests_access2b_v1_de.png){ class="shadow lightbox" }
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -131,7 +131,7 @@ Beachten Sie auch die Optionen unter dem Icon am Ende der Zeile.
 Wird Ihnen in der **Hauptnavigation der Bereich "Coaching"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
 
 Der Bereich **Coaching** zeigt **kursübergreifend** anstehende Bewertungsaufträge an.
-Sie können von der Übersicht des Bereichs Coaching über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge. 
+Sie können von der Übersicht des Bereichs Coaching über viele Links zu Ihrer Bewertungsaufgabe gelangen. Zum Beispiel, indem Sie eine bestimmte Person suchen oder nur die unerledigten Bewertungsaufträge anzeigen.
 
 Die darauf folgenden Schritte entsprechen dann wieder denen, wie beim Einstieg direkt im Kursbaustein (siehe [vorangehender Abschnitt](#access_course_element)).
 
@@ -139,7 +139,7 @@ Welche Einstellung welchen Tab im Bereich Coaching füllt, steht im Abschnitt [B
 
 ![Startseite Coaching mit den markierten Einstiegen Personensuche, Personen, Kurse und Bewertungsaufträge sowie den Favoriten](assets/assessing_tests_access3a_v1_de.png){ class="shadow lightbox" }
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -155,7 +155,7 @@ Ob automatisch oder grundsätzlich alles manuell korrigiert und bewertet werden 
 `Kurs > Administration > Kurseditor > Kursbaustein Test > Tab "Test-Konfiguration" > Abschnitt "Korrektur"`<br>
 Was die drei Varianten bewirken, steht auf der Seite [Tests auf Kursebene](../../manual_user/learningresources/Tests_at_course_level.de.md#correction).
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -171,13 +171,13 @@ Dort können Sie
 
 * kurze Feedbacks geben (Kommentar für Teilnehmende)
 * Punkte vergeben
-* bestanden/nicht bestanden definieren 
+* bestanden/nicht bestanden definieren
 * die Freigabe der Resultate für Lernende einstellen
 * Kommentare für andere Betreuende hinterlassen
 * Bewertungsdokumente verteilen
 * eine Bewertung abschliessen
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -185,7 +185,7 @@ Dort können Sie
 ## Das Korrekturwerkzeug {: #correction_tool}
 
 In OpenOlat wird unterschieden zwischen **Bewertungswerkzeug** und **Korrekturwerkzeug**.<br>
-Mit Hilfe des Korrekturworkflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektoren zuweisen. Die Korrektur über das Bewertungswerkzeug ist dann nicht mehr möglich.
+Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug ist dann nicht mehr möglich.
 
 Mit dem **Bewertungswerkzeug** können verschiedene **bewertbare Kursbausteine** bewertet werden:
 
@@ -200,7 +200,7 @@ Mit dem **Bewertungswerkzeug** können verschiedene **bewertbare Kursbausteine**
 
 Für **Tests** ist zusätzlich ein **Korrekturwerkzeug** verfügbar, in dem die Tests auch **fragenweise** korrigiert werden können. Sie gelangen z.B. über das Bewertungswerkzeug dorthin.
 
-**Kurs wählen > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+`Kurs > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`
 
 ![Vier markierte Schritte vom Bewertungswerkzeug über den Kursbaustein und den Tab Teilnehmer:innen zum Button Korrekturwerkzeug](assets/assessing_tests_correction_tool1_v1_de.png){ class="shadow lightbox" }
 
@@ -213,29 +213,29 @@ Es kann damit auf 2 Arten korrigiert werden:
 
 ![Bewertungsformular einer Einzelfrage mit Punkte überschreiben, Kommentarfeld, Bewertungsdokument und Zur Überprüfung markieren, im Korrekturwerkzeug](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
 
-Es ist möglich, Tests in OpenOlat auch anonym korrigieren zu lassen. Mehr darüber erfahren Sie im How-to [Wie macht man in OpenOlat eine anonyme Test-Korrektur?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
+Es ist möglich, Tests in OpenOlat auch anonym korrigieren zu lassen. Mehr darüber erfahren Sie im How-to [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
 
-## Bewertungssysteme {: #grading_systems}
+## Bewertungssysteme {: #rating_systems}
 
 Standardmässig wird in OpenOlat jede Frage mit Punkten bewertet.
 
-Die Punkte je Fragen werden zur Punktesumme des Kursbausteins addiert.
+Die Punkte je Frage werden zur Punktesumme des Kursbausteins addiert.
 
-Die Endsumme der Punkte kann umgerechnet werden in
+Ist am Kursbaustein die Option "Bewertung mit Einstufung/Noten" eingeschaltet, rechnet eine Bewertungsskala die Punktesumme um in
 
 * Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1)
 * Begriffe zur Bewertung (z.B. "sehr gut", "gut", usw. oder A1, B1, usw. für Sprachniveaus)
 * Grafische Bewertung (z.B. verschiedene Emojis)
 
-Ob und wie eine Umwandlung der Punkte stattfindet, wird von dem/der Kursautor:in festgelegt und kann nicht von bewertenden Personen eingestellt werden.<br>
+Welches Bewertungssystem gilt, legen die Kursbesitzer:innen im Kurseditor fest. Bewertende Personen können die Einstellung nicht ändern.<br>
 [Mehr dazu >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
@@ -250,46 +250,50 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 
 ![Sammelaktionen Bewertung abschliessen, Freigeben, Freigabe zurückziehen, Korrekturwerkzeug und E-Mail über der Liste, für zwei ausgewählte Teilnehmende](assets/assessing_tests_bulk_actions_v1_de.png){ class="shadow lightbox" }
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 
 ---
 
 ## Checkliste {: #checklist}
 
-- [x] Wurde der Test von allen Kursteilnehmer bearbeitet?
+- [x] Wurde der Test von allen Kursteilnehmer:innen bearbeitet?
 - [x] Ist der späteste erlaubte Bearbeitungszeitpunkt bereits überschritten?
 - [x] Ist klar, wer die Testergebnisse bewertet?
-- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist? 
+- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist?
 - [x] Sollen Korrekturaufträge vergeben werden?
 - [x] Wurde der Test so konfiguriert, dass er automatisch bewertet wird oder soll er manuell bewertet werden?
 - [x] Enthält der Test ausschliesslich Fragen, die automatisch ausgewertet werden können?
 
-[zum Seitenanfang ^](#assessing_tests)
+[Zum Seitenanfang ^](#assessing_tests)
 
 ---
 
 
 ## Weiterführende Informationen {: #further_information}
 
-**youtube**<br>
-:octicons-device-camera-video-24: **Video-Einführung**: [Überblick Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}<br>
-:octicons-device-camera-video-24: **Video-Einführung**: [Wie funktionieren Tests in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
-
-**Weiterführend**<br>
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../test_creation_procedure/test_creation_procedure.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Bewertungswerkzeug - Tab Teilnehmer:innen >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
-[Bewertungswerkzeug - Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
-[Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
-[Test erstellen >](../../manual_user/learningresources/Test.de.md)<br>
-[Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
-[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
-[Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
-[Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
-[Wie macht man in OpenOlat eine anonyme Test-Korrektur?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
+[Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
+[Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
-[zum Seitenanfang ^](#assessing_tests)
+**Weiterführend**<br>
+[Bewertungswerkzeug: Tab Teilnehmer:innen >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
+[Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
+[Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
+[Tests erstellen >](../../manual_user/learningresources/Test.de.md)<br>
+[Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
+[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
+[Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
+[Bewertungswerkzeug - Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)
+
+**youtube**<br>
+:octicons-device-camera-video-24: **Video-Einführung**: [Überblick Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}<br>
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie funktionieren Tests in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
+
+[Zum Seitenanfang ^](#assessing_tests)

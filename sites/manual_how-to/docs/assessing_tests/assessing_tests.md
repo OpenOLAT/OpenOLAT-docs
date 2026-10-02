@@ -26,7 +26,7 @@
 
 It is possible to assess tests either automatically or manually in OpenOlat.
 
-**Questions that can be assessed automatically** (e.g., single-choice, multiple-choice) can be assessed by the system immediately after submission. 
+**Questions that can be assessed automatically** (e.g., single-choice, multiple-choice) can be assessed by the system immediately after submission.<br>
 **Questions that require manual assessment** include, for example, open-ended text or drawing questions. These must be assessed by coaches. However, even questions that have already been automatically assessed can be reviewed.
 
 As a coach, you can use the **assessment tool** to:
@@ -74,7 +74,7 @@ Each test is assessed using an assessment form. There are three ways to access i
 
 ![1](assets/1_green_24.png) Users registered as coaches will not see the test (as participants do) when they **click on a test course element**, but rather an overview of the progress status of the participants they are coaching (with regard to the selected test course element).
 
-![2](assets/2_green_24.png) In the **"Participants" tab"**, you will find a list of the participants you are coaching, along with the processing status for this course element.
+![2](assets/2_green_24.png) In the **tab "Participants"**, you will find a list of the participants you are coaching, along with the processing status for this course element.
 
 ![3](assets/3_green_24.png) After **selecting a participant**, you will be taken to the **assessment form** for the overall test.
 
@@ -85,8 +85,7 @@ Each test is assessed using an assessment form. There are three ways to access i
 In the **assessment form for the entire test**, you will find a list of all of the participant’s previous test attempts and can assess the entire test. You can also save your progress. You can:
 
 * Assign points or overwrite points that have already been automatically assigned
-
-* Assign a grade of "Pass" or "Fail"
+* Assign "Passed" or "Not passed"
 * Add comments for the participant
 * Add assessment documents
 * Leave comments for other coaches
@@ -94,16 +93,16 @@ In the **assessment form for the entire test**, you will find a list of all of t
 ![5](assets/5_green_24.png) Click the **correction icon** or the **three dots and then "Correct"** in the row of the current test attempt to open the **correction tool**. You will see a list of the questions in this test and can grade each individual question. (There is an **assessment form for the individual question** for each question.) You can:
 
 * view the results
-* reverse a test attempt
+* invalidate a test attempt
 * export the results of a participant as a pdf
-* use log files to view the history of the test attempt 
+* use log files to view the history of the test attempt
 
 
-If an assessment has been completed, the buttons to show change. You can then:
+If an assessment has been completed, the buttons shown change. You can then:
 
-* Reopen the turned in assessment
-* Share the assessment
-* Revoke sharing the assessment
+* reopen the completed assessment
+* release the assessment
+* withdraw the release
 
 [To the top of the page ^](#assessing_tests)
 
@@ -112,11 +111,11 @@ If an assessment has been completed, the buttons to show change. You can then:
 ### 2. Get started by opening the assessment tool {: #access_assessment_tool}
 
 The assessment tool can be accessed via<br>
-**Course > Administration > Assessment tool**
+`Course > Administration > Assessment tool`
 
 ![Expanded Administration menu with the marked entry Assessment tool, in the course](assets/assessing_tests_access2a_v1_de.png){ class="shadow lightbox" }
 
-The steps that follow are the same as when accessing the course element directly (see [the previous section](#access_course_element)). In the grading tool, all gradable course elements for the entire course are displayed on the left. Select the relevant test course element, the "Participants" tab, etc.
+The steps that follow are the same as when accessing the course element directly (see [the previous section](#access_course_element)). In the assessment tool, all assessable course elements of the entire course are displayed on the left. Select the relevant test course element, the "Participants" tab, etc.
 
 Also note the options under the icon at the end of the line.
 
@@ -131,8 +130,8 @@ Also note the options under the icon at the end of the line.
 
 If you see the **"Coaching" site in the main navigation**, you can also use it to assess the test course element.
 
-The **Coaching** site displays upcoming assessment assignments **across all courses**.
-From the overview of the Coaching site, you can access your assessment tasks via various links. For example, you can search for a specific person or view only the pending assessment tasks. 
+The **Coaching** site displays pending assessment orders **across all courses**.
+From the overview of the Coaching site, you can access your assessment task via various links. For example, by searching for a specific person or by viewing only the pending assessment orders.
 
 The steps that follow are then the same as when you start directly in the course element (see [the previous section](#access_course_element)).
 
@@ -187,14 +186,14 @@ There you can:
 ## The correction tool {: #correction_tool}
 
 In OpenOlat, a distinction is made between **assessment tool** and **correction tool**.<br>
-Using the correction workflow, you can generate individual correction requests and assign them to specific correctors. Corrections via the assessment tool are then no longer possible.
+Using the correction workflow, you can generate individual grading assignments and assign them to specific correctors. Corrections via the assessment tool are then no longer possible.
 
-The **assessment tool** can be used to grade various **gradable course elements**:
+The **assessment tool** can be used to assess various **assessable course elements**:
 
 * Checklist
 * Assessment
 * Portfolio task
-* The "Structure" module, as well as the entire course
+* Course element "Structure", as well as the entire course
 * Course element "Participant Folder"
 * Integrated external components such as SCORM
 * Task and group task
@@ -202,11 +201,11 @@ The **assessment tool** can be used to grade various **gradable course elements*
 
 For **tests**, a **correction tool** is also available, which allows you to grade tests **question by question**. You can access it, for example, via the assessment tool.
 
-**Select course > Administration > Assessment tool > Select course element > Tab "Participant" > Button "Correction tool"**
+`Course > Administration > Assessment tool > Select course element > Tab "Participants" > Button "Correction tool"`
 
 ![Four marked steps from the assessment tool via the course element and the tab Participants to the Correction tool button](assets/assessing_tests_correction_tool1_v1_de.png){ class="shadow lightbox" }
 
-There are two ways to correct this:
+It allows two ways of correcting:
 
 1. **Select a specific question** and grade that question for all participants.
 2. **Select a participant** and then grade all of that participant’s questions one by one before moving on to the next participant.
@@ -215,26 +214,26 @@ There are two ways to correct this:
 
 ![Assessment form of a single question with Overwrite score, comment field, assessment document and Mark for review, in the correction tool](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
 
-It is also possible to have tests graded anonymously in OpenOlat. You can learn more about this in the how-to guide [How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
+It is also possible to have tests graded anonymously in OpenOlat. You can learn more about this in the how-to guide [How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
 
 [To the top of the page ^](#assessing_tests)
 
 ---
 
 
-## Rating systems {: #grading_systems}
+## Rating systems {: #rating_systems}
 
-By default, every question in OpenOlat is graded on a point system.
+By default, every question in OpenOlat is assessed with points.
 
-The points for each question are added to the total score for the course element.
+The points for each question are added to the total score of the course element.
 
-The total number of points can be converted to
+If the option "Levels/Grading" is switched on at the course element, a rating scale converts the total score into
 
 * Grades (details are configurable, e.g., 1-6 or 6-1)
-* Grading terms (e.g., "excellent," "good," etc., or A1, B1, etc., for language proficiency levels)
-* Visual rating (e.g., various emojis)
+* Rating terms (e.g., "very good", "good", etc., or A1, B1, etc., for language levels)
+* Graphical rating (e.g., various emojis)
 
-Whether and how points are converted is determined by the course author and cannot be configured by the people who assess.<br>
+Which rating system applies is set by the course owners in the course editor. People who assess cannot change the setting.<br>
 [Find out more >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 [To the top of the page ^](#assessing_tests)
@@ -242,12 +241,12 @@ Whether and how points are converted is determined by the course author and cann
 ---
 
 
-## Bulk Actions: Edit Multiple Participants at Once {: #bulk_action}
+## Bulk actions: edit multiple participants at once {: #bulk_action}
 
-The assessment tool offers **batch actions** to set the status of multiple participants at once without having to open each person's profile individually.
+The assessment tool offers **bulk actions** to set the status of multiple participants at once without having to open each person's profile individually.
 
 * In the participant list, select the **checkboxes** for the desired participants in the first column. If you select the checkbox in the header row, all checkboxes in that column will be selected.
-* Once at least one person has been selected, several buttons for batch actions will appear above the table.
+* Once at least one person has been selected, several buttons for bulk actions will appear above the table.
 * Select one of the actions.
 
 ![Bulk actions Complete assessment, Release, Withdraw release, Correction tool and E-mail above the list, for two selected participants](assets/assessing_tests_bulk_actions_v1_de.png){ class="shadow lightbox" }
@@ -262,7 +261,7 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 - [x] Did all course participants take the test?
 - [x] Has the latest permitted editing time already passed?
 - [x] Is it clear who evaluates the test results?
-- [x] Should someone who isn't enrolled in the course be the one to correct it? 
+- [x] Should someone who isn't enrolled in the course be the one to correct it?
 - [x] Should grading assignments be issued?
 - [x] Was the test configured to be graded automatically, or should it be graded manually?
 - [x] Does the test consist solely of questions that can be graded automatically?
@@ -274,24 +273,28 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[How do I proceed when I create a test? >](../test_creation_procedure/test_creation_procedure.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
+[Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
+[How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
+[Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
+
+**Further reading**<br>
+[Assessment tool: Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
+[Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
+[Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
+[Creating Tests >](../../manual_user/learningresources/Test.md)<br>
+[Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
+[Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
+[The assessment form >](../../manual_user/learningresources/The_assessment_form.md)<br>
+[Assessment tool - reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)
+
 **youtube**<br>
 :octicons-device-camera-video-24: **Video introduction (German)**: [Overview Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank"}<br>
 :octicons-device-camera-video-24: **Video introduction (German)**: [How do tests work in OpenOlat?](<https://www.youtube.com/embed/M0p3UKaEOlg>){:target="_blank"}
-
-**Further reading**<br>
-[Assessment tool - Overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Assessment tool - Tab Users >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
-[Assessment tool - Assessment of learners>](../../manual_user/learningresources/Assessment_of_learners.md)<br>
-[Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
-[Create test >](../../manual_user/learningresources/Test.md)<br>
-[Configure test >](../../manual_user/learningresources/Configure_tests.md)<br>
-[Assess tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
-[The assessment form >](../../manual_user/learningresources/The_assessment_form.md)<br>
-[Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
-[Reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
-[Coaching - Assessment orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
-[Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
-[How do you grade an anonymous test in OpenOlat?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
 
 [To the top of the page ^](#assessing_tests)

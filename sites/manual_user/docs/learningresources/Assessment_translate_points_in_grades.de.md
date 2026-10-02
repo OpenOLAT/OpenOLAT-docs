@@ -2,11 +2,11 @@
 
 [:octicons-tag-16:{ title="ab Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009)
 
-Sofern ein Assessment-Kursbaustein, wie beispielsweise ein Test, eine Aufgabe usw. mit Punkten versehen werden, können die Punkte auch in Noten übersetzt werden. 
+Vergibt ein bewertbarer Kursbaustein wie ein Test oder eine Aufgabe Punkte, kann OpenOlat diese Punkte auch in Noten umrechnen.
 
 Die Einstufung ergänzt die Bewertung: Ohne Einstufung besteht die Bewertung eines Kursbausteins aus Punkten und gegebenenfalls "Bestanden". Mit Einstufung kommt die Note dazu, und das Bewertungssystem bestimmt, ob die Punktzahl als bestanden gilt. Was Bewertung, Korrektur und Einstufung unterscheidet, steht unter [Bewertung, Korrektur und Einstufung](../area_modules/Coaching_Assessment_Orders.de.md#assessment_terms).
 
-Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfigurieren. 
+Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfigurieren.
 
 
 ## Konfigurieren eines Kursbausteins für Einstufungen und Noten
@@ -15,16 +15,16 @@ Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfig
 
     Das Modul Einstufung/Noten wurde von den OpenOlat Administrator:innen aktiviert und es wurde mindestens ein Bewertungssystem angelegt.
 
-1. **Einstufung/Noten für einen Kursbaustein aktivieren**<br> 
-Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten. 
-(Bei Tests im Tab "Test-Konfiguration".) Achten Sie darauf, dass auch "Punkte vergeben" aktiviert ist und aktivieren Sie "Bewertung mit Einstufung/Noten". 
+1. **Einstufung/Noten für einen Kursbaustein aktivieren**<br>
+Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten
+(bei Tests im Tab "Test-Konfiguration"). Achten Sie darauf, dass auch "Punkte vergeben" aktiviert ist, und aktivieren Sie "Bewertung mit Einstufung/Noten".
 2. **Zuweisung wählen**<br>
 Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Betreuende ohne Besitzrecht weisen dort zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht. Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
 
 3. **Bewertungsskala auswählen und anpassen**<br>
-Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich ein Einstellungsfenster. Hier können Sie ein Bewertungssystem auswählen und die Bewertungsskala weiter anpassen.
+Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich ein Einstellungsfenster. Hier können Sie ein Bewertungssystem auswählen und die Bewertungsskala weiter anpassen. Änderungen an der Bewertungsskala gelten sofort, auch ohne Publikation des Kurses.
 
-    ![Dialog "Bewertungsskala bearbeiten" mit Bewertungssystem, Punktebereichen je Note und dem Diagramm der Notenskala.](assets/ratingscale_de.png){class="shadow"}
+    ![Bewertungssystem noten.ch mit Bestanden mit 4, Punktebereichen je Note und dem Diagramm, das Punkte und Noten zuordnet](assets/ratingscale_de.png){ class="shadow lightbox" title="Dialog Bewertungsskala bearbeiten" }
 
 4. **Speichern**
 
@@ -42,7 +42,7 @@ Bei automatisch berechneten Skalen kann der "bis"-Wert einer Stufe mit dem "von"
 
     Der Grenzwert gehört immer zur höheren Stufe. Der "von"-Wert einer Stufe ist also eingeschlossen, der "bis"-Wert ausgeschlossen (der "bis"-Wert zählt bereits zur nächsthöheren Stufe).
 
-**Beispiel** (Schweizer Notensystem, erreichbare Punkte 0 bis 5):
+**Beispiel** (Bewertungssystem noten.ch, erreichbare Punkte 0 bis 5):
 
 | Punkte | Note |
 | ------ | ---- |
@@ -55,17 +55,17 @@ Ein Ergebnis von genau 3.75 Punkten ergibt die Note 5 und nicht die Note 4.5, we
 
 ---
 
-## Noten im Bewertungswerkzeug
+## Noten im Bewertungswerkzeug [:octicons-tag-16:{ title="ab Release 16.2 (OO-6008)" }](https://track.frentix.com/issue/OO-6008)
 
-Die Einstufungs- und Notenskala spiegelt sich auch im Bewertungswerkzeug wider. 
+Die Bewertungsskala zeigt sich auch im Bewertungswerkzeug.
 
 * **Tab "Übersicht" eines Kursbausteins**:<br>
-Die Kennzahlen für die Bewertung wurden um Noten erweitert. Man sieht die Normalverteilung und wichtige Einstellungen.
+Die Kennzahlen der Bewertung enthalten auch die Noten, dazu die Normalverteilung und wichtige Einstellungen.
 
 * **Tab "Teilnehmer:innen" eines Kursbausteins**:<br>
-Im Bewertungswerkzeug sieht man die Noten in einer separaten Spalte hinter der Punktzahl. (Sofern die Spalte angezeigt wird. -> Zahnrad-Button) Man kann, wenn auf manuell gestellt, hier auch Noten manuell übernehmen.
+Die Noten stehen in einer eigenen Spalte hinter der Punktzahl. Blenden Sie die Spalte bei Bedarf über das Zahnrad-Symbol ein. Ist die Zuweisung auf "Manuell" gestellt, weisen Sie die Noten hier zu.
 
-Um die Bewertungsskala nachträglich anzupassen oder um neue Noten zu vergeben, klicken Sie oben auf den Button "Bewertungsskala anpassen". 
+Um die Bewertungsskala nachträglich anzupassen oder um neue Noten zu vergeben, klicken Sie oben auf den Button "Bewertungsskala anpassen".
 
 [Zum Seitenanfang ^](#rating_grades)
 

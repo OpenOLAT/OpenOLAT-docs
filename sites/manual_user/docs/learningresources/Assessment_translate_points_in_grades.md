@@ -2,11 +2,11 @@
 
 [:octicons-tag-16:{ title="from Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009)
 
-If an assessment course element, such as a test, a task, etc., is assigned points, the points can also be translated into grades. 
+If an assessable course element such as a test or a task awards points, OpenOlat can also convert these points into grades.
 
 Levels/Grading complements the assessment: without levels/grading, the assessment of a course element consists of points and, if applicable, "Passed". With levels/grading, the grade is added, and the rating system determines whether the score counts as passed. The difference between assessment, correction and levels/grading is explained under [Assessment, correction and levels/grading](../area_modules/Coaching_Assessment_Orders.md#assessment_terms).
 
-Course owners can activate the function in the course editor and configure it there. 
+Course owners can activate the function in the course editor and configure it there.
 
 
 ## Configuring a course element for levels and grades
@@ -15,16 +15,16 @@ Course owners can activate the function in the course editor and configure it th
 
     The Levels/Grading module has been activated by the OpenOlat administrators, and at least one rating system has been created.
 
-1. **Activate Levels/Grading for a course element**<br> 
-Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details 
-(for tests, in the "Test configuration" tab). Make sure that "Assign points" is also activated, and activate "Levels/Grading".
+1. **Activate Levels/Grading for a course element**<br>
+Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details
+(for tests, in the "Test configuration" tab). Make sure that "Score granted" is also activated, and activate "Levels/Grading".
 2. **Select assignment**<br>
 You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". Coaches without ownership assign there as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section. With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
 
 3. **Select and customize the rating scale**<br>
-Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a rating system and further customize the rating scale.
+Define the minimum and maximum points (save) and click "Edit rating scale". A settings window opens. Here you can select a rating system and further customize the rating scale. Changes of the rating scale take effect immediately, even without publishing the course.
 
-    ![Dialog "Edit rating scale" with rating system, score ranges per grade, and the graph of the rating scale.](assets/ratingscale.png){ class="shadow lightbox" }
+    ![Rating system grades.swiss with Passed with 4, score ranges per grade and the graph that maps score to grade](assets/ratingscale.png){ class="shadow lightbox" title="Dialog Edit rating scale" }
 
 4. **Save**
 
@@ -32,7 +32,7 @@ Define the minimum and maximum points (save) and click "Edit rating scale". A se
 
 ---
 
-## Reading the grade scale boundaries {: #grade_boundaries}
+## Reading the rating scale boundaries {: #grade_boundaries}
 
 In the rating scale, each grade or level is assigned a point range with a "from" value and a "to" value. The "Score" column shows this range, the "Grade" column shows the corresponding grade.
 
@@ -42,7 +42,7 @@ With automatically calculated scales, the "to" value of a level can be identical
 
     The boundary value always belongs to the higher level. The "from" value of a level is therefore included, the "to" value excluded (the "to" value already counts towards the next higher level).
 
-**Example** (Swiss rating system, achievable score 0 to 5):
+**Example** (rating system grades.swiss, achievable score 0 to 5):
 
 | Score | Grade |
 | ----- | ----- |
@@ -55,17 +55,17 @@ A result of exactly 3.75 points results in the grade 5 and not the grade 4.5, be
 
 ---
 
-## Grades in the assessment tool
+## Grades in the assessment tool [:octicons-tag-16:{ title="from Release 16.2 (OO-6008)" }](https://track.frentix.com/issue/OO-6008)
 
-The levels and grade scale is also reflected in the assessment tool. 
+The rating scale is also reflected in the assessment tool.
 
-* **Tab "Overview" of a course element**:<br> 
-The key figures for the assessment have been extended with grades. You see the normal distribution and important settings.
+* **Tab "Overview" of a course element**:<br>
+The key figures of the assessment also contain the grades, plus the normal distribution and important settings.
 
-* **Tab "Participants" of a course element:**<br>
-In the assessment tool, the grades are shown in a separate column after the score. (If the column is displayed -> gear button.) If set to manual, you can also apply grades manually here.
+* **Tab "Participants" of a course element**:<br>
+The grades are shown in a separate column after the score. If required, show the column using the gear icon. If the assignment is set to "Manually by coach", you assign the grades here.
 
-To adjust the rating scale afterwards or to assign new grades, click the "Adjust Rating scale" button at the top. 
+To adjust the rating scale afterwards or to assign new grades, click the button "Adjust rating scale" at the top.
 
 [To the top of the page ^](#rating_grades)
 

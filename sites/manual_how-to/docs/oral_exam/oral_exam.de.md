@@ -26,7 +26,7 @@
 
 Haben Lernende bereits OpenOlat-Kurse besucht und schriftliche Prüfungen in OpenOlat absolviert, sind diese Daten und alle Angaben zu den Lernenden bereits in OpenOlat erfasst. Damit es für die mündliche Prüfung keine separate erneute Erfassung der Teilnehmerdaten braucht, macht es Sinn, dass auch mündliche Prüfungen mit OpenOlat durchgeführt werden. Dann können alle Teilnehmerdaten und Ergebnisse gemeinsam in OpenOlat gepflegt werden. Auch Gesamtergebnisse aus schriftlichen und mündlichen Prüfungen können sofort in OpenOlat errechnet werden.
 
-In OpenOlat können Formulare erstellt werden - insbesondere das [Formular-Element Rubrik](../../manual_user/learningresources/Form_Element_Rubric.de.md), mit denen der Ablauf und die Fragen einer mündlichen Prüfung vorbereitet werden können.   
+In OpenOlat können Sie Formulare erstellen, insbesondere mit dem [Formular-Element Rubrik](../../manual_user/learningresources/Form_Element_Rubric.de.md). Damit bereiten Sie den Ablauf und die Fragen einer mündlichen Prüfung vor.
 
 [Zum Seitenanfang ^](#oral_exam)
 
@@ -78,12 +78,12 @@ Es können 10 Kursbausteine vom Typ "Bewertung" mit je 1 Formular erstellt werde
 
 #### Status "Korrigieren" setzen, wenn Zugriff gewährt {: #initial_status}
 
-Während einer mündlichen Prüfung werden die Beurteilungen direkt gemacht, eine spätere Korrektur wie bei schriftlichen Prüfungen entfällt. Die Option kann deshalb deaktiviert bleiben.
+Während einer mündlichen Prüfung bewerten die Prüfer:innen direkt, eine spätere Korrektur wie bei schriftlichen Prüfungen ist nicht nötig. Die Option gibt es in Lernpfadkursen, und bei einem neu eingefügten Kursbaustein ist sie eingeschaltet. Schalten Sie sie für die mündliche Prüfung deshalb aus.
 
 #### Rubrik-Bewertung {: #rubric_assessment}
 
 Das Rubrik-Element ist zentraler Bestandteil für die Bewertung einer mündlichen Prüfung.
-Schalten Sie diesen Toggle-Button ein und wählen, importieren oder erstellen Sie im Anschluss ein Rubrik-Formular. 
+Schalten Sie diesen Toggle-Button ein und wählen, importieren oder erstellen Sie im Anschluss ein Rubrik-Formular.
 
 Wenn Sie zunächst noch kein Formular erstellen wollen, können Sie dies auch erst im Autorenbereich tun (Schritt 3) und anschliessend einbinden (Schritt 4).
 
@@ -95,17 +95,17 @@ Da wir für die mündlichen Prüfungen ein Rubrik-Formular verwenden, können di
 
 Verwenden Sie mehrere Kursbausteine "Bewertung" innerhalb einer mündlichen Prüfung (eines Kurses), können Sie den **Skalierungsfaktor** z.B. dazu benutzen, um separat bewertete Teile der mündlichen Prüfung für die Gesamtbewertung anzupassen.
 
-Beispiel: Die mündliche Prüfung besteht aus 3 Teilen, die je zu einem Drittel zur Gesamtbewertung zählen. Wenn es im Formular zu einem Prüfungsteil max. 50 Punkte gibt, im Formular der anderen Prüfungsteile dagegen je max. 100 Punkte, müssen die Punkte des ersten Prüfungsteils verdoppelt werden, damit er in der Gesamtbewertung das gleiche Gewicht erhält.   
+Beispiel: Die mündliche Prüfung besteht aus 3 Teilen, die je zu einem Drittel zur Gesamtbewertung zählen. Wenn es im Formular zu einem Prüfungsteil max. 50 Punkte gibt, im Formular der anderen Prüfungsteile dagegen je max. 100 Punkte, müssen die Punkte des ersten Prüfungsteils verdoppelt werden, damit er in der Gesamtbewertung das gleiche Gewicht erhält.
 
 #### Bewertung mit Einstufung/Noten {: #grading}
 
 Sobald "Punkte vergeben" eingeschaltet wurde, kann auch die Option "Bewertung mit Einstufung/Noten" eingeschaltet und weiter konfiguriert werden.<br>
-Standardmässig werden Ergebnisse in OpenOlat mit Punkten bewertet. Durch Aktivierung dieser Option, werden die Punkte auch in eine Notenskala oder ein anderes Bewertungssystem umgerechnet.<br> 
-[Mehr zu Bewertungssystemen >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md) 
+Standardmässig werden Ergebnisse in OpenOlat mit Punkten bewertet. Durch Aktivierung dieser Option werden die Punkte mit einer Bewertungsskala in eine Note oder eine Stufe eines anderen Bewertungssystems umgerechnet.<br>
+[Mehr zu Bewertungssystemen >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
 
 #### Bewertungsskala {: #rating_scale}
 
-Klicken Sie auf "Bewertungsskala bearbeiten" um eine Skala auszuwählen und eventuell weitere Einstellungen vorzunehmen. In der Skala ist auch definiert, ob bzw. ab wann eine Bewertungsskala mit einem bestanden/nicht bestanden verbunden ist.
+Klicken Sie auf "Bewertungsskala bearbeiten", um eine Skala auszuwählen und eventuell weitere Einstellungen vorzunehmen. In der Skala ist auch definiert, ob bzw. ab wann eine Bewertungsskala mit einem bestanden/nicht bestanden verbunden ist.
 
 Unter **Zuweisung** definieren Sie, ob die Zuweisung zur gewählten Bewertungsskala manuell durch die Betreuenden oder automatisch durch die Zuordnung der erreichten Punktzahl erfolgen soll.
 
@@ -113,12 +113,12 @@ Unter **Zuweisung** definieren Sie, ob die Zuweisung zur gewählten Bewertungssk
 
 Haben Sie sich für eine Bewertung mit Einstufung/Noten entschieden, wird Ihnen der Grenzwert für das "Bestanden" der gewählten Bewertungsskala angezeigt.<br>
 Verwenden Sie *keine* Bewertung mit Einstufung/Noten, können Sie sich entscheiden, ob Sie das "Bestanden/Nicht bestanden" des Kursbausteins den Teilnehmer:innen anzeigen möchten.<br>
-Wenn zusätzlich zu "Bestanden/Nicht bestanden" auch "Punkte" aktiviert wurden, kann neben der standardmässigen manuellen Bewertung durch die Betreuer:innen auch eine automatische, punkteabhängige Bewertung aktiviert werden.
+Wenn zusätzlich zu "Bestanden/Nicht bestanden ausgeben" auch "Punkte vergeben" aktiviert ist, kann neben der standardmässigen manuellen Bewertung durch die Betreuer:innen auch eine automatische, punkteabhängige Bewertung aktiviert werden.
 
 #### Bei Kurs-Bewertung berücksichtigen {: #course_assessment}
 
-Ist die Option aktiviert, werden die in diesem Kursbaustein erreichten Punkte auf die unter `Kurs > Administration > Einstellungen > Bewertung` definierte Punkteschwelle, die für das Bestehen des Kurses notwendig ist, angerechnet. Bzw. der Kursbaustein wird als Teil der notwendigen Kursbausteine, die für das Bestehen des gesamten Kurses dienen, berücksichtigt.<br>
-Werden für die mündliche Prüfung mehrere Kursbausteine "Bewertung" verwendet, denken Sie bitte daran, dass in allen Kursbausteinen diese Option gewählt ist. 
+Die Option erscheint in Lernpfadkursen. Ist sie aktiviert, werden die in diesem Kursbaustein erreichten Punkte auf die unter `Kurs > Administration > Einstellungen > Bewertung` definierte Punkteschwelle, die für das Bestehen des Kurses notwendig ist, angerechnet. Bzw. der Kursbaustein wird als Teil der notwendigen Kursbausteine, die für das Bestehen des gesamten Kurses dienen, berücksichtigt.<br>
+Werden für die mündliche Prüfung mehrere Kursbausteine "Bewertung" verwendet, denken Sie bitte daran, dass in allen Kursbausteinen diese Option gewählt ist.
 
 #### Individueller Kommentar {: #individual_comment}
 
@@ -166,7 +166,7 @@ Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeile
 
 ![Rubrik mit fünf Spalten von sehr schlecht bis sehr gut und vier Bewertungskriterien, rechts das Fenster Rubrik](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor" } 
 
-Öffnen Sie in der neu erstellten Formular-Lernressource den Editor unter `Administration > Formulareditor` und erstellen Sie ein Rubrik-Formular, das zu Ihrer mündlichen Prüfung passt. 
+Öffnen Sie in der neu erstellten Formular-Lernressource den Editor unter `Formular > Administration > Formulareditor` und erstellen Sie ein Rubrik-Formular, das zu Ihrer mündlichen Prüfung passt.
 
 ![Menü Administration einer Formular-Lernressource aufgeklappt, der Eintrag Formulareditor markiert](assets/oral_exam_step3c_v2_de.png){ class="shadow lightbox" title="Menü Administration der Formular-Lernressource · 2026.09.28" } 
 
@@ -188,11 +188,11 @@ Zur Erstellung eines Rubrik-Formulars finden Sie hier ausführliche Informatione
 Im Kopfbereich des Formulars wird die allgemeine Anzeige der Benutzer:in verwendet.
 Diese wird an ganz vielen anderen Stellen im OpenOlat verwendet (Termine, Coaching, Tests, Aufgabe, Lernpfadübersicht, Portfolio, Projekt, ...). Es ist nicht möglich, das nur im Formular zu ändern. Die allgemeine Anzeige gilt für die ganze OpenOlat-Instanz. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
-Fügen Sie im Formulareditor für 
+Fügen Sie im Formulareditor für
 
 - Prüfungsstart
 - Prüfungsende
-- und für beteiligte Prüfer:innen 
+- und für beteiligte Prüfer:innen
 
 jeweils Angaben in einem Inhaltselement oberhalb des Rubrik-Elements hinzu. Diese werden dann im Kopfbereich angezeigt.
 
@@ -205,7 +205,7 @@ jeweils Angaben in einem Inhaltselement oberhalb des Rubrik-Elements hinzu. Dies
 
 ## Schritt 4: Einbindung des Formulars in den Kurs {: #step_4}
 
-Wurde das Formular nicht sofort beim Einrichten des Kursbausteins erstellt (Schritt 2), sondern separat im Autorenbereich (Schritt 3), muss nochmals der Kurseditor geöffnet werden und im Kursbaustein "Bewertung" im Tab "Bewertung" das Formular eingebunden werden. 
+Wurde das Formular nicht sofort beim Einrichten des Kursbausteins erstellt (Schritt 2), sondern separat im Autorenbereich (Schritt 3), muss nochmals der Kurseditor geöffnet werden und im Kursbaustein "Bewertung" im Tab "Bewertung" das Formular eingebunden werden.
 
 [Zum Seitenanfang ^](#oral_exam)
 
@@ -282,7 +282,7 @@ Soll das Protokoll zur mündlichen Prüfung ausgedruckt werden, kann in OpenOlat
 Z.B. kann Prüfer:innen, die nicht zur Online-Protokollierung in OpenOlat eingeteilt sind, ein solches Formular ausgedruckt werden.
 
 - Wählen Sie die gewünschte Prüfungsteilnehmer:in, dann sind im Kopf der pdf-Datei bereits alle Angaben zur Person angezeigt.
-- Unter dem Icon mit den 3 Punkten finden Sie die Option "Rubrik-Formular als PDF". 
+- Unter dem Icon mit den 3 Punkten finden Sie die Option "Rubrik-Formular als PDF".
 - Laden Sie diese pdf-Datei herunter und drucken Sie sie aus.
 
 ![Menü mit den 3 Punkten einer Zeile der Teilnehmerliste mit markiertem Eintrag Rubrik-Formular als PDF](assets/oral_exam_step6print1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Bewertung" }  
@@ -313,7 +313,7 @@ Sollen mehrere Personen gemeinsam bewertet werden, z.B. wenn die Präsentation e
 
 ### Daten exportieren (Export der Prüfungsergebnisse) {: #step_7_export}
 
-Auch einen Button zum Export der Prüfungsergebnisse finden Sie über der Liste der Teilnehmer:innen. Hier werden die Ergebnisse aller Teilnehmer:innen exportiert.<br> 
+Auch einen Button zum Export der Prüfungsergebnisse finden Sie über der Liste der Teilnehmer:innen. Hier werden die Ergebnisse aller Teilnehmer:innen exportiert.<br>
 Wenn Sie Ergebnisse einzelner Teilnehmer:innen exportieren möchten, selektieren Sie die betreffenden Personen in der ersten Spalte. Dann erscheint ein weiterer Button zum Export über der Liste.
 
 Sie erhalten die Ergebnisse als Excel-Datei mit den Rohdaten und auf Wunsch zusätzlich als pdf-Datei mit detaillierten Angaben.
@@ -323,13 +323,13 @@ Sie erhalten die Ergebnisse als Excel-Datei mit den Rohdaten und auf Wunsch zus�
 
 ### Statistik {: #step_7_statistics}
 
-Der Button "Statistik" zeigt eine Tabelle mit den Ergebnissen der Rubrik-Elemente, sowohl die Punkte einzelner Fragen als auch die Gesamtpunktzahl der Teilnehmer:innen und die Durchschnitte. 
+Der Button "Statistik" zeigt eine Tabelle mit den Ergebnissen der Rubrik-Elemente, sowohl die Punkte einzelner Fragen als auch die Gesamtpunktzahl der Teilnehmer:innen und die Durchschnitte.
 
 ![Markierter Button Statistik rechts über der Teilnehmerliste](assets/oral_exam_step7d_v1_de.png){ class="shadow lightbox" title="Button Statistik im Tab Teilnehmer:innen" } 
 
 Mit Klick auf den Button "Statistik" öffnet sich die Tabelle mit Detailangaben.
 
-Wenn Sie die Checkbox "Fragen anzeigen" selektieren, werden Ihnen auch Details der Rubrik-Fragen tabellarisch angezeigt. Unterhalb der Teilnehmer:innen finden Sie die Durchschnitte in der Tabelle. 
+Wenn Sie die Checkbox "Fragen anzeigen" selektieren, werden Ihnen auch Details der Rubrik-Fragen tabellarisch angezeigt. Unterhalb der Teilnehmer:innen finden Sie die Durchschnitte in der Tabelle.
 
 Mit dem Download-Button erhalten Sie eine Excel-Datei der Ergebnisse.
 
@@ -338,7 +338,7 @@ Mit dem Download-Button erhalten Sie eine Excel-Datei der Ergebnisse.
 ### Bewertungswerkzeug {: #step_7_assessment_tool}
 
 Alternativ sind die gleichen Buttons auch im Bewertungswerkzeug zu finden:<br>
-`Bewertungswerkzeug > "Kursbaustein Bewertung" > Teilnehmer:innen`
+`Kurs > Administration > Bewertungswerkzeug > "Kursbaustein Bewertung" > Tab "Teilnehmer:innen"`
 
 ![Dieselben Buttons im Bewertungswerkzeug, erreichbar über den Kursbaustein Bewertung in der Navigation links](assets/oral_exam_step7f_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug des Kurses" }  
 
@@ -402,7 +402,9 @@ Ja. Kombinieren Sie den Kurs mit einem Videokonferenz-System (z. B. dem integrie
 [e-Assessment Administration: Einstufung/Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Der Formulareditor >](../../manual_user/learningresources/Form_Editor.de.md)<br>
-[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)
+[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)
 
 **Weiterführend**<br>
 [Formulare - Übersicht >](../../manual_user/learningresources/Form.de.md)<br>
