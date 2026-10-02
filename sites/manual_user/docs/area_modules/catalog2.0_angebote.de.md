@@ -108,7 +108,7 @@ Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
 
 ## Wie läuft die Buchung eines Angebots ab? {: #offer_booking}
 
-Mit einer Buchung erhalten Sie Zugang zu einem Kurs oder einer Durchführung aus dem Katalog. Sie buchen auf der Infoseite: Beim gewünschten Angebot wählen Sie **Buchen**. Was danach geschieht, hängt von der Angebotsart ab und davon, ob das Angebot Formulare verwendet.
+Mit einer Buchung erhalten Sie Zugang zu einem Kurs oder einer Durchführung aus dem Katalog. Sie buchen auf der Infoseite mit **Buchen**. Hat der Kurs oder die Durchführung mehrere Angebote, zeigt die Infoseite sie zur Auswahl, beschriftet mit der Angebotsart und, falls vorhanden, dem Preis. Wählen Sie zuerst das gewünschte Angebot aus, **Buchen** gilt dann für dieses Angebot. Was danach geschieht, hängt von der Angebotsart ab und davon, ob das Angebot Formulare verwendet.
 
 Verwendet das Angebot kein Formular, bucht der Klick auf **Buchen** bei "Frei verfügbar" sofort. Bei "Zugangscode" öffnet sich der Dialog "Zugangscode", bei "Rechnung" der Dialog "Buchung auf Rechnung" mit dem Button **Kostenpflichtig buchen**. Angebote einzelner Kurse verwenden nie Formulare: Mit Zugangscode oder frei verfügbar buchen Sie diese immer auf diesem Weg. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen.
 
@@ -117,6 +117,8 @@ Verwendet das Angebot kein Formular, bucht der Klick auf **Buchen** bei "Frei ve
 Verwendet das Angebot einer Durchführung mindestens ein Formular, führt OpenOlat Sie durch einen Assistenten. So geben Sie die Angaben, welche die Verantwortlichen für die Planung brauchen, etwa Essenswünsche oder Vorkenntnisse, gleich mit der Buchung ab. Ihre Antworten stehen danach bei Ihrem Buchungsauftrag.
 
 Der Titel des Assistenten nennt die Angebotsart und die Durchführung: "Buchung frei verfügbar für", "Buchung mit Zugangscode für" oder "Buchung auf Rechnung für", gefolgt vom Titel der Durchführung und, falls gesetzt, ihrem Kennzeichen.
+
+![Titel mit Angebotsart, Durchführung und Kennzeichen, das Formular als einziger Schritt, Weiter inaktiv und Buchen hervorgehoben](assets/catalog20_booking_wizard_free_v1_de.png){ class="shadow lightbox" title="Assistent Buchung frei verfügbar im Katalog · 2026.10.02" }
 
 Welche Schritte der Assistent zeigt, hängt von der Angebotsart ab:
 
@@ -128,13 +130,15 @@ Welche Schritte der Assistent zeigt, hängt von der Angebotsart ab:
 
 Im Schritt "Zugangscode" geben Sie den Zugangscode ein, den Sie erhalten haben. Im Schritt "Buchungsdetails" wählen Sie über **Rechnungsadresse auswählen** die Rechnungsadresse, sie ist Pflicht. Die "Bestellnummer (PO-Nummer)" und der "Kommentar" sind freiwillig. Hat das Angebot einen Preis oder eine Stornierungsgebühr, zeigt der Schritt diese Angaben an.
 
+![Button Rechnungsadresse auswählen für das Pflichtfeld, dazu Bestellnummer, Kommentar und Preis, danach der Schritt des Formulars](assets/catalog20_booking_wizard_invoice_details_v1_de.png){ class="shadow lightbox" title="Schritt Buchungsdetails im Assistenten Buchung auf Rechnung · 2026.10.02" }
+
 Jedes Formular ist ein eigener Schritt, beschriftet mit seinem Schrittnamen. Die Reihenfolge der Formulare legt das Angebot fest.
 
 - **Weiter** prüft die Pflichtfelder des angezeigten Schritts und führt zum nächsten Schritt.
 - **Zurück** führt ohne Prüfung zum vorherigen Schritt. Ihre Eingaben bleiben erhalten.
-- Im letzten Schritt schliesst der hervorgehobene Button die Buchung ab: **Buchen** bei "Frei verfügbar" und "Zugangscode", **Kostenpflichtig buchen** bei "Rechnung".
+- Im letzten Schritt schliesst der hervorgehobene Button die Buchung ab: **Buchen** bei "Frei verfügbar" und "Zugangscode", **Kostenpflichtig buchen** bei "Rechnung". In den Schritten davor ist dieser Button inaktiv, im letzten Schritt ist **Weiter** inaktiv.
 
-Der Buchungsauftrag entsteht erst mit diesem letzten Klick. Brechen Sie den Assistenten vorher mit **Abbrechen** oder dem Schliessen-Symbol ab, sind Sie nicht gebucht, und OpenOlat speichert keine Antworten.
+Der Buchungsauftrag entsteht erst mit diesem letzten Klick. Brechen Sie den Assistenten vorher mit **Abbrechen** oder dem Schliessen-Symbol ab, sind Sie nicht gebucht, und OpenOlat speichert keine Antworten. Fragt OpenOlat dabei mit dem Dialog "Ungespeicherte Formulardaten" nach, schliesst **Daten nicht speichern** den Assistenten, **Zurück zum Formular** führt in den Schritt zurück.
 
 Bucht eine andere Person für Sie, etwa mit [Buchen im Namen von](Coaching_People.de.md#linemanager_educationmanager_book_participants) im Coaching oder beim [Hinzufügen von Teilnehmer:innen](Course_Planner_Implementations.de.md#add_members) im Course Planner, füllt diese Person die Formulare aus. Die Antworten gehören zu Ihrem Buchungsauftrag. Ihre ausgefüllten Formulare sehen Sie unter [Buchungsaufträge](../personal_menu/Bookings.de.md) im Dialog "Buchung" des Buchungsauftrags.
 

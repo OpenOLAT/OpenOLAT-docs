@@ -108,7 +108,7 @@ In addition, the **access code**, for example, must be defined depending on the 
 
 ## How does booking an offer work? {: #offer_booking}
 
-With a booking, you get access to a course or an implementation from the catalog. You book on the info page: for the desired offer, select **Book**. What happens next depends on the offer type and on whether the offer uses forms.
+With a booking, you get access to a course or an implementation from the catalog. You book on the info page with **Book**. If the course or the implementation has several offers, the info page shows them for selection, labelled with the offer type and, if available, the price. First select the desired offer; **Book** then applies to this offer. What happens next depends on the offer type and on whether the offer uses forms.
 
 If the offer does not use a form, clicking **Book** completes the booking immediately for "Freely available". For "Access code", the dialog "Access code" opens; for "Invoice", the dialog "Booking on invoice" opens with the button **Order for a fee**. Offers of individual courses never use forms: with an access code or freely available, you always book them this way. The offer type "Invoice" only exists for implementations.
 
@@ -117,6 +117,8 @@ If the offer does not use a form, clicking **Book** completes the booking immedi
 If the offer of an implementation uses at least one form, OpenOlat guides you through a wizard. This way, you provide the details that the people responsible for planning need, for example dietary requirements or prior knowledge, together with the booking. Your answers are then available with your booking order.
 
 The title of the wizard names the offer type and the implementation: "Booking freely available for", "Booking with an access code for" or "Booking on invoice for", followed by the title of the implementation and, if set, its reference.
+
+![Title with offer type, implementation and reference, the form as the only step, Next inactive and Book highlighted](assets/catalog20_booking_wizard_free_v1_en.png){ class="shadow lightbox" title="Booking freely available wizard in the catalog · 2026.10.02" }
 
 Which steps the wizard shows depends on the offer type:
 
@@ -128,13 +130,15 @@ Which steps the wizard shows depends on the offer type:
 
 In the step "Access code", you enter the access code you have received. In the step "Booking details", you select the billing address via **Select billing address**; it is mandatory. The "P.O. number" and the "Comment" are optional. If the offer has a price or a cancellation fee, the step shows this information.
 
+![Select billing address button for the mandatory field, plus P.O. number, comment and price, then the step of the form](assets/catalog20_booking_wizard_invoice_details_v1_en.png){ class="shadow lightbox" title="Booking details step in the Booking on invoice wizard · 2026.10.02" }
+
 Each form is a separate step, labelled with its step name. The offer determines the order of the forms.
 
 - **Next** checks the mandatory fields of the displayed step and leads to the next step.
 - **Back** leads to the previous step without checking. Your entries are retained.
-- In the last step, the highlighted button completes the booking: **Book** for "Freely available" and "Access code", **Order for a fee** for "Invoice".
+- In the last step, the highlighted button completes the booking: **Book** for "Freely available" and "Access code", **Order for a fee** for "Invoice". In the steps before, this button is inactive; in the last step, **Next** is inactive.
 
-The booking order is only created with this last click. If you cancel the wizard beforehand with **Cancel** or the close icon, you are not booked, and OpenOlat does not save any answers.
+The booking order is only created with this last click. If you cancel the wizard beforehand with **Cancel** or the close icon, you are not booked, and OpenOlat does not save any answers. If OpenOlat asks with the dialog "Unsaved form data", **Do not save data** closes the wizard and **Back to form** returns you to the step.
 
 If another person books for you, for example with [Book on behalf of](Coaching_People.md#linemanager_educationmanager_book_participants) in Coaching or when [adding participants](Course_Planner_Implementations.md#add_members) in the Course Planner, this person fills in the forms. The answers belong to your booking order. You see your completed forms under [Booking orders](../personal_menu/Bookings.md) in the dialog "Booking" of the booking order.
 

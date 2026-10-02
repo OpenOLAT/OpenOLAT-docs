@@ -256,7 +256,11 @@ Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwend
 
 ![Der Button Teilnehmer:innen hinzufügen rechts über der Mitgliederliste, mit dem der Assistent zur Aufnahme startet](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung" }
 
-Hat die Durchführung Angebote, wählen Sie im Schritt **Buchungsauftrag** des Assistenten das Angebot, über das die Teilnehmer:innen aufgenommen werden. Verwendet dieses Angebot Formulare, folgt für jedes Formular ein eigener Schritt, beschriftet mit seinem Schrittnamen. Diese Schritte liegen zwischen den Schritten **Buchungsauftrag** und **Mitgliedschaft**. Sie füllen die Formulare einmal aus, OpenOlat speichert die Antworten für jede ausgewählte Person an deren eigenem Buchungsauftrag. Die Option **Ohne Buchungsauftrag** erscheint nur, wenn die Durchführung im Tab Katalog auf [Ohne Buchungsauftrag zulässig](#tab_catalog_settings) steht. Mit dieser Option entsteht kein Buchungsauftrag, und es folgen keine Schritte für Formulare.
+Der Assistent führt durch die Schritte **Benutzersuche**, **Buchungsauftrag**, **Mitgliedschaft**, **Übersicht** und **Benachrichtigung**. Den Schritt **Buchungsauftrag** gibt es nur, wenn die Durchführung Angebote hat.
+
+Im Schritt **Buchungsauftrag** wählen Sie das Angebot, über das die Teilnehmer:innen aufgenommen werden. Verwendet dieses Angebot Formulare, folgt für jedes Formular ein eigener Schritt, beschriftet mit seinem Schrittnamen. Diese Schritte liegen zwischen den Schritten **Buchungsauftrag** und **Mitgliedschaft** und erscheinen, sobald Sie den Schritt **Buchungsauftrag** mit **Weiter** verlassen. Sie füllen die Formulare einmal aus, OpenOlat speichert die Antworten für jede ausgewählte Person an deren eigenem Buchungsauftrag. Die Option **Ohne Buchungsauftrag** erscheint nur, wenn die Durchführung im Tab Katalog auf [Ohne Buchungsauftrag zulässig](#tab_catalog_settings) steht. Mit dieser Option entsteht kein Buchungsauftrag, und es folgen keine Schritte für Formulare.
+
+![Zwei Schritte für Formulare zwischen den Schritten Buchungsauftrag und Mitgliedschaft](assets/course_planner_implementations_add_member_forms_v1_de.png){ class="shadow lightbox" title="Schritt eines Formulars im Assistenten Teilnehmer:innen hinzufügen · 2026.10.02" }
 
 <br>
 
