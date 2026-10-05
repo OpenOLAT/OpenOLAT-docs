@@ -34,7 +34,7 @@ There are three roles in an online meeting with MS Teams:
 | Role | Who | Rights |
 |------|-----|--------|
 | **Organizer** | Automatically the person who starts the online meeting first, exactly one person per online meeting | Create breakout rooms, settings in MS Teams, full control |
-| **Presenter** | All persons according to the **Presenters** setting of the online meeting (see [Moderator options in detail](#moderator_options)) | Share screen, manage content |
+| **Presenter** | All persons according to the **Presenters** setting of the online meeting (see [Presenters options in detail](#moderator_options)) | Share screen, manage content |
 | **Attendee** | All other participants | Listen and watch |
 
 !!! warning "Note: First Joiner = Organizer"
@@ -57,7 +57,9 @@ The selection **Add online-meeting** offers four variants:
   * **Add daily recurring meeting**: one online meeting per working day, Monday to Friday, in a selected period.
   * **Add weekly recurring meeting**: one online meeting per week in a selected period.
 
-Each variant creates separate online meetings, for recurring meetings one per date. In the tab **Meeting management**, the link **Edit** opens each online meeting individually. For past online meetings, **View** appears there instead.
+![Open selection Add online-meeting with four variants, Add permanent meeting room is marked](assets/course_element_microsoft_teams_add_meeting_v1_en.png){ class="shadow lightbox" title="Tab Meeting management in the Microsoft Teams course element · 2026.10.05" }
+
+Each variant creates separate online meetings, for recurring meetings one per date. In the tab **Meeting management**, the link **Edit** opens each online meeting individually. Once an online meeting including its follow-up time is over, **View** appears there instead. The link **Delete** removes an online meeting after a confirmation. To delete several online meetings together, select them and then choose **Delete**.
 
 ## Add online meeting: The settings in detail {: #add_meeting}
 
@@ -68,17 +70,17 @@ Each variant creates separate online meetings, for recurring meetings one per da
   *  **Description**: Description of the online meeting. It appears in the detail view of the online meeting before participants join the online meeting.
   *  **Main presenter**: The name of a person can be entered here. The name of the person who creates the online meeting is pre-filled.
   *  **Guests**: The checkbox **allowed** lets persons who are not logged in take part in the online meeting. This option is only visible if the course is publicly accessible and guest access is enabled.
-  *  **Access external users**: A reference, a unique word without special characters. OpenOlat generates a link from it that you share with external persons, e.g. by e-mail. If the field is left empty, access via the link is deactivated.
+  *  **Access external users**: A reference, a unique word without special characters. OpenOlat generates a link from it that you share with external persons, e.g. by e-mail. Owners and coaches find it on the page of the online meeting under "Link for external users" until the online meeting has ended. The icon in front of it shows the link as a QR code. If the field is left empty, access via the link is deactivated.
   *  **Show room bookings**: Calendar view for checking booked online meetings.
   *  **Meeting recording**: Switches the recording on or off for this online meeting. The switch only appears if the system administration has switched the function on. What the setting does and which fields are added is described in the section [Meeting recording](#meeting_recording).
   *  **Participants can open the meeting** :octicons-tag-16:{ title="from Release 15.4.1 (OO-5250)" }: Determines whether participants may start the online meeting without a coach being present. Two cards are available. "Not allowed" is preselected. With "Allowed", participants with a Microsoft account of the organisation may open the online meeting with limited permissions. If a participant opens the online meeting, no group rooms ([Breakout rooms](#breakout_rooms)) are available to the coaches. If meeting recording is switched on, the selection is fixed to "Not allowed". The cards only appear if the server configuration is set up for it.
   *  **Presenters**: Determines who receives the **Presenter** role in MS Teams (see [Roles in MS Teams](#teams_roles)). Mandatory field.
 
-#### Moderator options in detail {: #moderator_options}
+#### Presenters options in detail {: #moderator_options}
 
 | OO setting | Who becomes Presenter in Teams |
 |---|---|
-| **Role coach** | Only course coaches and owners; all other participants become Attendees |
+| **Role coach / owner** | Only course coaches and owners; all other participants become Attendees |
 | **Organisation** | All users of the Azure organisation automatically receive the Presenter role when joining |
 | **Everyone** | All participants become Presenters |
 
@@ -162,21 +164,27 @@ If you want to keep track of the online meetings of the course, you find them in
 
   :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
+## Start the online meeting {: #start_meeting}
+
+So that participants can join an online meeting, an owner or coach of the course starts it on the page of the online meeting: tab **Online-meetings**, then **Select**. To do so, they must be logged in to OpenOlat with the Microsoft account of their organisation, see [External tools: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration.md#_microsoft_teams). The page then shows the button **Start the online-meeting**. It is active from the start minus the prep time, for online meetings without a date at any time. If the online meeting is already running, the button is called **Join the online-meeting**. Next to it is the name under which the person joins.
+
+Without a Microsoft login, the page also shows owners and coaches the warning "You need to log in with a Microsoft Azure account to create new online meetings." The button **Join the online-meeting** then stays locked until someone with a Microsoft login has started the online meeting. Next to it is "(as guest)". The same applies to participants if the online meeting allows them to open it.
+
+![Warning about logging in with a Microsoft Azure account, below it the locked button Join the online-meeting with the addition as guest](assets/course_element_microsoft_teams_join_v1_en.png){ class="shadow lightbox" title="Page of an online meeting without Microsoft login · 2026.10.05" }
+
 ## Participant view {: #participant_perspective}
 
-When a participant opens the course element, two lists appear: **Current and upcoming online-meetings** and **Past online-meetings**. Online meetings without a date are marked in the column **Without date** and always appear in the first list. A click on **Select** opens the detail view of the respective online meeting.
+When a participant opens the course element, the list **Current and upcoming online-meetings** appears. If there are past online meetings, the list **Past online-meetings** follows below it. Online meetings without a date are marked in the column **Without date** and always appear in the first list. A click on **Select** opens the page of the respective online meeting. Owners and coaches see the same list in the tab **Online-meetings**, next to it the tab **Meeting management**.
 
-![Two lists with current and past online meetings, columns Name, Without date, Start, End and Select link](assets/course_element_teams_overview_v1_de.png){ class="shadow lightbox" title="Overview in the Microsoft Teams course element" }
+![List Current and upcoming online-meetings with four online meetings, three of them without a date, each with the link Select](assets/course_element_microsoft_teams_overview_v1_en.png){ class="shadow lightbox" title="Tab Online-meetings from the owners' view · 2026.10.05" }
 
-**Join the online-meeting** opens the online meeting in Microsoft Teams in a new window. As long as nobody has started the online meeting, the button is not active for participants. Owners and coaches see **Start the online-meeting** in its place. Whether participants may also open the online meeting without a coach depends on the configuration of the online meeting (see above).
-
-![Join the online-meeting button, next to it the name under which the person joins the online meeting](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" title="Detail view of an online meeting" }
+**Join the online-meeting** opens the online meeting in Microsoft Teams in a new window. As long as nobody has started the online meeting, the button is not active for participants. Next to it is the name under which the person joins, without a Microsoft login "(as guest)". How owners and coaches start the online meeting is described in the section [Start the online meeting](#start_meeting). Whether participants may also open the online meeting without a coach is determined by the setting **Participants can open the meeting** (see [Add online meeting: The settings in detail](#add_meeting)).
 
 If meeting recording is switched on for the online meeting, the section **Recordings** appears above the button: "This Online-Meeting may be recorded. The recording may be published in OpenOlat after the online session." You only enter the online meeting once you have checked **I agree**. After the online meeting, the recording appears on the same page in the list **Recordings**. With **Open** you view it, provided it is published for your role. Guests only see a recording if the role "Guests" is selected. Details: [Meeting recording](#meeting_recording).
 
 !!! info "Important"
 
-    Joining is no longer possible for online meetings that have ended.
+    Joining is no longer possible for online meetings that have ended. The page of the online meeting then shows "The online-meeting has already ended."
 
 ## Troubleshooting {: #troubleshooting}
 
@@ -188,6 +196,7 @@ For application-specific issues, Microsoft's official help is available:
 
 **Mentioned on this page**<br>
 [Microsoft Teams module >](../../manual_admin/administration/Teams_module.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
 **Further reading**<br>

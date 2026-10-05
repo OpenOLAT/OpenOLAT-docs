@@ -56,7 +56,9 @@ Die Auswahl **Online-Termin hinzufügen** bietet vier Varianten an:
   * **Täglich wiederkehrende Online-Termine hinzufügen**: ein Online-Termin pro Werktag, Montag bis Freitag, in einer gewählten Zeitspanne.
   * **Wöchentlich wiederkehrende Online-Termine hinzufügen**: ein Online-Termin pro Woche in einer gewählten Zeitspanne.
 
-Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Terminen einen je Datum. Im Tab **Terminverwaltung** öffnet der Link **Bearbeiten** jeden Online-Termin einzeln. Bei vergangenen Online-Terminen steht dort **Ansehen**.
+![Geöffnete Auswahl Online-Termin hinzufügen mit vier Varianten, markiert ist Permanente Reservierung hinzufügen](assets/course_element_microsoft_teams_add_meeting_v1_de.png){ class="shadow lightbox" title="Tab Terminverwaltung im Kursbaustein Microsoft Teams · 2026.10.05" }
+
+Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Terminen einen je Datum. Im Tab **Terminverwaltung** öffnet der Link **Bearbeiten** jeden Online-Termin einzeln. Ist ein Online-Termin samt Nachlaufzeit vorbei, steht dort **Ansehen**. Der Link **Löschen** entfernt einen Online-Termin nach einer Rückfrage. Mehrere Online-Termine löschen Sie gemeinsam, indem Sie sie ankreuzen und dann **Löschen** wählen.
 
 ## Online-Termin hinzufügen: Die Einstellungen im Detail {: #add_meeting}
 
@@ -67,7 +69,7 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
   *  **Beschreibung**: Beschreibung des Online-Termins. Sie erscheint in der Detailansicht des Online-Termins, bevor Teilnehmende dem Online-Termin beitreten.
   *  **Hauptmoderator:in**: Hier kann der Name einer Person eingetragen werden. Vorbelegt ist der Name der Person, die den Online-Termin anlegt.
   *  **Gäste**: Das Kontrollkästchen **erlauben** lässt nicht angemeldete Personen am Online-Termin teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
-  *  **Zugang externe Benutzer:innen**: Ein Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
+  *  **Zugang externe Benutzer:innen**: Ein Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Besitzer:innen und Betreuer:innen finden ihn auf der Seite des Online-Termins unter "Link für externe Benutzer:innen", bis der Online-Termin beendet ist. Das Symbol davor zeigt den Link als QR-Code. Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
   *  **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Terminen.
   *  **Terminaufzeichnung**: Schaltet die Aufzeichnung für diesen Online-Termin ein oder aus. Der Schalter erscheint nur, wenn die System-Administration die Funktion eingeschaltet hat. Was die Einstellung bewirkt und welche Felder dazukommen, steht im Abschnitt [Terminaufzeichnung](#meeting_recording).
   *  **Teilnehmer:innen können den Termin eröffnen** :octicons-tag-16:{ title="ab Release 15.4.1 (OO-5250)" }: Bestimmt, ob Teilnehmende den Online-Termin starten dürfen, ohne dass eine Betreuer:in anwesend ist. Zur Wahl stehen zwei Karten. "Nicht erlaubt" ist vorausgewählt. Mit "Erlaubt" dürfen Teilnehmer:innen mit einem Microsoft-Konto der Organisation den Online-Termin mit eingeschränkten Berechtigungen eröffnen. Eröffnet eine Teilnehmer:in den Online-Termin, stehen den Betreuer:innen keine Gruppenräume ([Breakout-Räume](#breakout_rooms)) zur Verfügung. Ist die Terminaufzeichnung eingeschaltet, steht die Auswahl fest auf "Nicht erlaubt". Die Karten erscheinen nur, wenn die Serverkonfiguration dafür eingerichtet ist.
@@ -161,21 +163,27 @@ Wer die Online-Termine des Kurses im Blick behalten will, findet sie im Kurskale
 
   :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
+## Online-Termin starten {: #start_meeting}
+
+Damit Teilnehmende einem Online-Termin beitreten können, startet ihn eine Besitzer:in oder Betreuer:in des Kurses auf der Seite des Online-Termins: Tab **Online-Termine**, dann **Auswählen**. Dafür muss sie in OpenOlat mit ihrem Microsoft-Konto der Organisation angemeldet sein, siehe [Externe Werkzeuge: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration.de.md#_microsoft_teams). Dann zeigt die Seite den Button **Online-Termin starten**. Er ist ab dem Beginn abzüglich der Vorlaufzeit aktiv, bei Online-Terminen ohne Datum jederzeit. Läuft der Online-Termin bereits, heisst der Button **Meeting beitreten**. Daneben steht der Name, unter dem die Person beitritt.
+
+Ohne Microsoft-Anmeldung zeigt die Seite auch Besitzer:innen und Betreuer:innen die Warnung "Sie müssen sich mit einem Microsoft Azure Konto einloggen um neue MS Teams Meetings eröffnen zu können." Der Button **Meeting beitreten** bleibt dann gesperrt, bis jemand mit Microsoft-Anmeldung den Online-Termin gestartet hat. Daneben steht "(als Gast)". Dasselbe gilt für Teilnehmende, wenn der Online-Termin ihnen das Eröffnen erlaubt.
+
+![Warnung zur Anmeldung mit einem Microsoft Azure Konto, darunter der gesperrte Button Meeting beitreten mit dem Zusatz als Gast](assets/course_element_microsoft_teams_join_v1_de.png){ class="shadow lightbox" title="Seite eines Online-Termins ohne Microsoft-Anmeldung · 2026.10.05" }
+
 ## Sicht der Teilnehmenden {: #participant_perspective}
 
-Ruft ein:e Teilnehmer:in den Kursbaustein auf, erscheinen zwei Listen: **Aktuelle und zukünftige Online-Termine** und **Vergangene Online-Termine**. Online-Termine ohne Datum sind in der Spalte **Ohne Datum** markiert und stehen immer in der ersten Liste. Ein Klick auf **Auswählen** öffnet die Detailansicht des jeweiligen Online-Termins.
+Ruft ein:e Teilnehmer:in den Kursbaustein auf, erscheint die Liste **Aktuelle und zukünftige Online-Termine**. Gibt es vergangene Online-Termine, folgt darunter die Liste **Vergangene Online-Termine**. Online-Termine ohne Datum sind in der Spalte **Ohne Datum** markiert und stehen immer in der ersten Liste. Ein Klick auf **Auswählen** öffnet die Seite des jeweiligen Online-Termins. Besitzer:innen und Betreuer:innen sehen dieselbe Liste im Tab **Online-Termine**, daneben den Tab **Terminverwaltung**.
 
-![Zwei Listen mit aktuellen und vergangenen Online-Terminen, Spalten Name, Ohne Datum, Beginn, Ende und Link Auswählen](assets/course_element_teams_overview_v1_de.png){ class="shadow lightbox" title="Übersicht im Kursbaustein Microsoft Teams" }
+![Liste Aktuelle und zukünftige Online-Termine mit vier Online-Terminen, drei davon ohne Datum, je mit Link Auswählen](assets/course_element_microsoft_teams_overview_v1_de.png){ class="shadow lightbox" title="Tab Online-Termine aus Sicht der Besitzer:innen · 2026.10.05" }
 
-Über **Meeting beitreten** öffnet sich der Online-Termin in Microsoft Teams in einem neuen Fenster. Solange noch niemand den Online-Termin gestartet hat, ist der Button für Teilnehmende nicht aktiv. Besitzer:innen und Betreuer:innen sehen an seiner Stelle **Online-Termin starten**. Ob Teilnehmende den Online-Termin auch ohne Betreuer:in eröffnen dürfen, hängt von der Konfiguration des Online-Termins ab (siehe oben).
-
-![Button Meeting beitreten, daneben der Name, unter dem die Person dem Online-Termin beitritt](assets/course_element_teams_join_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins" }
+Über **Meeting beitreten** öffnet sich der Online-Termin in Microsoft Teams in einem neuen Fenster. Solange noch niemand den Online-Termin gestartet hat, ist der Button für Teilnehmende nicht aktiv. Daneben steht der Name, unter dem die Person beitritt, ohne Microsoft-Anmeldung "(als Gast)". Wie Besitzer:innen und Betreuer:innen den Online-Termin starten, steht im Abschnitt [Online-Termin starten](#start_meeting). Ob Teilnehmende den Online-Termin auch ohne Betreuer:in eröffnen dürfen, bestimmt die Einstellung **Teilnehmer:innen können den Termin eröffnen** (siehe [Online-Termin hinzufügen: Die Einstellungen im Detail](#add_meeting)).
 
 Ist für den Online-Termin die Terminaufzeichnung eingeschaltet, steht über dem Button der Abschnitt **Aufzeichnungen**: "Dieser Online-Termin kann aufgezeichnet werden. Die Aufzeichnung kann nach dem Online-Termin in OpenOlat veröffentlicht werden." Den Online-Termin betreten Sie erst, wenn Sie **Ich bin einverstanden** angekreuzt haben. Nach dem Online-Termin erscheint die Aufzeichnung auf derselben Seite in der Liste **Aufzeichnungen**. Mit **Öffnen** sehen Sie sie an, sofern sie für Ihre Rolle veröffentlicht ist. Gäste sehen eine Aufzeichnung nur, wenn die Rolle "Gäste" gewählt ist. Details: [Terminaufzeichnung](#meeting_recording).
 
 !!! info "Wichtig"
 
-    Bei beendeten Online-Terminen ist der Beitritt nicht mehr möglich.
+    Bei beendeten Online-Terminen ist der Beitritt nicht mehr möglich. Die Seite des Online-Termins zeigt dann "Der Online-Termin wurde bereits beendet."
 
 ## Bei Problemen {: #troubleshooting}
 
@@ -187,6 +195,7 @@ Bei anwendungsspezifischen Herausforderungen steht die Microsoft-Hilfe zur Verf�
 
 **Auf dieser Seite erwähnt**<br>
 [Modul Microsoft Teams >](../../manual_admin/administration/Teams_module.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
 **Weiterführend**<br>
