@@ -5,9 +5,9 @@ Administrators define here who may upload external certificates, which certifica
 
 ## Certificates configuration tab  {: #tab_config}
 
-In OpenOlat, certificates obtained from other sources can also be uploaded. The "Certificates configuration" tab is used to specify which roles are permitted to do so. 
+In OpenOlat, certificates obtained from other sources can also be uploaded. The "Certificates configuration" tab is used to specify which roles are permitted to do so. Whether line managers and coaches may upload external certificates for other persons is set by the right "Upload external certificates": for line managers in the organisation, for coaches in the user to user settings.
 
-Administrators can also configure the system so that when a certificate is issued, a copy is sent to the employee’s line manager or to another email address (e.g., the HR department). The rights of line managers are defined in the organisation, the rights of coaches in the user to user settings.
+Administrators can also configure the system so that when a certificate is issued, a copy is sent to the employee’s line manager or to another email address (e.g., the HR department). Coaches receive a copy through the right "Copy of certificates per E-Mail" in the user to user settings.
 
 
 [To the top of the page ^](#certificates)

@@ -19,14 +19,14 @@ In addition to these course certificates, the certification program can also iss
 
 ### Who issues a certificate? {: #certificate_issuer}
 
-As the author, you can choose whether the certificate is issued **manually** by coaches and/or **automatically** after passing the course.
+As the author, you choose in the field "Generate PDF certificate" whether the certificate is issued **manually** by coaches and/or **automatically** after passing the course.
 
 The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later. After issuing, OpenOlat reports "The certificate will be created within the next few seconds." and generates the PDF file in the background.
 
 
 ### Where can the certificates be viewed? {: #certificate_view}
 
-Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. OpenOlat issues the certificate immediately and then generates the PDF file in the background. The file is usually available after a short time, and the users then automatically receive an **email notification**. Until then, the certificate cannot be downloaded yet; in the personal menu it carries the label "Pending". [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
+Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. OpenOlat issues the certificate immediately and then generates the PDF file in the background. The file is usually available after a short time, and the users then automatically receive an **email notification**. Until then, the certificate cannot be downloaded yet; in the personal menu its detail view carries the label "Pending". [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
 [More about certificates in the personal menu >](../personal_menu/Certificates.md)
 
 
@@ -39,7 +39,7 @@ To verify the validity of the certificate, the attribute "certificateVerificatio
 
 ### What happens when a certificate expires? [:octicons-tag-16:{ title="from Release 17.2 (OO-6671)" }](https://track.frentix.com/issue/OO-6671) {: #certificate_expiry}
 
-Reminders can be triggered based on the certificate's issue date and expiration date. For example, course participants can receive a notification that the certificate has expired or will expire in a few days, or that **recertification** is now possible.
+[Reminders](../learningresources/Course_Reminders.md) can be triggered based on the certificate's issue date and expiration date. For example, course participants can receive a notification that the certificate has expired or will expire in a few days, or that **recertification** is now possible.
 
 
 ### Create certificate template {: #certificate_template}

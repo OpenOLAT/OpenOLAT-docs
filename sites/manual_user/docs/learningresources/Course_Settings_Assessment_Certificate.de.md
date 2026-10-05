@@ -26,7 +26,7 @@ Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen o
 
 ### Wo sind die Zertifikate einsehbar? {: #certificate_view}
 
-Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. OpenOlat stellt das Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Sie steht in der Regel nach kurzer Zeit bereit, und die Benutzer:innen erhalten dann automatisch eine **E-Mail-Benachrichtigung**. Bis dahin lässt sich das Zertifikat noch nicht herunterladen, im persönlichen Menü trägt es den Vermerk "Hängig". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
+Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. OpenOlat stellt das Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Sie steht in der Regel nach kurzer Zeit bereit, und die Benutzer:innen erhalten dann automatisch eine **E-Mail-Benachrichtigung**. Bis dahin lässt sich das Zertifikat noch nicht herunterladen, im persönlichen Menü trägt es in der Detailansicht den Vermerk "Hängig". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
 [Mehr zu den Zertifikaten im persönlichen Menü >](../personal_menu/Certificates.de.md)
 
 ### Wie wird die Gültigkeit überprüft? [:octicons-tag-16:{ title="ab Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}

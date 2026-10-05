@@ -128,7 +128,7 @@ Nach einer Zertifizierung vieler Personen wollen Sie wissen, ob jedes Zertifikat
 
 OpenOlat stellt ein Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Das gilt für jeden Weg der Ausstellung, auch für den Assistenten "Neue Person zertifizieren" und die automatische Rezertifizierung. Seriennummer, Ausstellungsdatum und Gültigkeitsdauer stehen ab der Ausstellung fest, das Zertifikat ist gültig. Betroffen ist allein die PDF-Datei.
 
-Solange die PDF-Datei fehlt, steht in der Detailansicht des Mitglieds (Klick auf das Plus-Zeichen vor der Zeile) in der Spalte "Zertifikat" statt des Links ein Vermerk:
+Den Zertifikat-Status sehen Sie in der Detailansicht eines Mitglieds, die Sie mit dem Plus-Zeichen vor der Zeile aufklappen. Ist die PDF-Datei bereit, öffnen Sie sie in der Spalte "Zertifikat" mit einem Klick auf den Dateinamen. Fehlt sie noch, lässt sich der Dateiname nicht anklicken, und daneben steht einer dieser Vermerke:
 
 * **Hängig**: Die PDF-Datei wird erzeugt. Sie steht in der Regel nach kurzer Zeit bereit, bei vielen gleichzeitig ausgestellten Zertifikaten auch später.
 * **Fehler** mit dem Tooltip "Fehler, neuer Versuch folgt": Die Erzeugung ist gescheitert, und OpenOlat versucht es automatisch erneut. Sie müssen nichts tun.
@@ -266,7 +266,7 @@ Wer hat wann welches Zertifikat erhalten? Diese Frage stellen sich sowohl Besitz
 
 ### Übersicht für Zertifikatsprogrammbesitzer:innen 
 Im `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder` finden Sie alle Teilnehmenden des Zertifikatsprogramms aufgelistet. Durch **Klick auf das Plus-Zeichen** vor einem Listeneintrag öffnen Sie die Detailansicht.
-Sie sehen dort alle Zertifikate der gewählten Person, auch abgelaufene und archivierte Zertifikate. Fehlt die PDF-Datei eines Zertifikats noch, steht statt des Links der Vermerk "Hängig" oder "Fehler": [Zertifikat-Status >](#certificate_status)<br>
+Sie sehen dort alle Zertifikate der gewählten Person, auch abgelaufene und archivierte Zertifikate. Fehlt die PDF-Datei eines Zertifikats noch, lässt sich der Dateiname nicht anklicken, und daneben steht der Vermerk "Hängig" oder "Fehler": [Zertifikat-Status >](#certificate_status)<br>
 Die Buttons über der Liste helfen Ihnen mit vorsortierten Listen.
 
 ![Aufgeklapptes Mitglied mit allen Zertifikaten, auch abgelaufenen und archivierten, und den zugehörigen Kursen](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_de.png){ class="shadow lightbox" title="Detailansicht im Tab Mitglieder" }

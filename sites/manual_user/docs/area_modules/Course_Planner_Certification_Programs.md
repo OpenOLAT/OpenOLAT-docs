@@ -119,7 +119,7 @@ After certifying many persons, you want to know whether every certificate is alr
 
 OpenOlat issues a certificate immediately and then generates the PDF file in the background. This applies to every way of issuing, including the "Certify new users" wizard and the automatic recertification. The serial number, the issue date and the validity period are fixed from the moment of issuing, and the certificate is valid. Only the PDF file is affected.
 
-As long as the PDF file is missing, the detail view of the member (click on the plus sign in front of the row) shows a label in the "Certificate" column instead of the link:
+You see the certificate file status in the detail view of a member, which you expand with the plus sign in front of the row. If the PDF file is ready, click the file name in the "Certificate" column to open it. If it is still missing, the file name cannot be clicked, and one of these labels appears next to it:
 
 * **Pending**: The PDF file is being generated. It is usually available after a short time, later if many certificates were issued at the same time.
 * **Error** with the tooltip "Error, retry scheduled": The generation failed, and OpenOlat tries again automatically. You do not need to do anything.
@@ -251,7 +251,7 @@ Who received which certificate and when? This question is asked by owners of a c
 
 ### Overview for certification program owners
 In `Course Planner > Certification programs > "Program title" > Tab Members`, you will find a list of all participants in the certification program. **Click on the plus sign** in front of a list entry to open the detail view.
-There you will see all certificates of the selected person, including expired and archived certificates. If the PDF file of a certificate is still missing, the label "Pending" or "Error" appears instead of the link: [Certificate file status >](#certificate_status)<br>
+There you will see all certificates of the selected person, including expired and archived certificates. If the PDF file of a certificate is still missing, the file name cannot be clicked, and the label "Pending" or "Error" appears next to it: [Certificate file status >](#certificate_status)<br>
 The buttons above the list help you with presorted lists.
 
 ![Expanded member with all certificates, including expired and archived ones, and the associated courses](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_en.png){ class="shadow lightbox" title="Detail view in the Members tab" }

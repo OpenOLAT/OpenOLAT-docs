@@ -5,9 +5,9 @@ Administrator:innen legen hier fest, wer externe Zertifikate hochladen darf, wel
 
 ## Tab Zertifikate Konfiguration  {: #tab_config}
 
-In OpenOlat können auch anderweitig erworbene Zertifikate hochgeladen werden. Im Tab "Zertifikate Konfiguration" wird bestimmt, welchen Rollen dies erlaubt ist.
+In OpenOlat können auch anderweitig erworbene Zertifikate hochgeladen werden. Im Tab "Zertifikate Konfiguration" wird bestimmt, welchen Rollen dies erlaubt ist. Ob Linienvorgesetzte und Betreuer:innen externe Zertifikate für andere Personen hochladen dürfen, regelt das Recht "Externe Zertifikate hochladen": für Linienvorgesetzte bei der Organisation, für Betreuer:innen in den Person-zu-Person-Einstellungen.
 
-Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere E-Mail-Adresse (z.B. die Personalabteilung) verschickt wird. Die Rechte der Linienvorgesetzten werden bei der Organisation bestimmt, die Betreuer:innen bei den Person-zu-Person-Einstellungen.
+Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere E-Mail-Adresse (z.B. die Personalabteilung) verschickt wird. Betreuer:innen erhalten eine Kopie über das Recht "Kopie Zertifikate per E-Mail" in den Person-zu-Person-Einstellungen.
 
 
 [Zum Seitenanfang ^](#certificates)
