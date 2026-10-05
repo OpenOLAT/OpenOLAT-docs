@@ -29,41 +29,13 @@ Was der Ausdruck enthält und was er weglässt: [Infoseite drucken oder als PDF 
 Wer einen Kurs verwaltet und die ID, den externen Link oder die Besitzer:innen nachschlagen möchte, findet diese Angaben nicht auf der Infoseite, sondern im Fenster "Über diesen Kurs". Sie öffnen es unter:<br>
 `Kurs > Administration > Über diesen Kurs`
 
+Dasselbe Fenster öffnet auch der Button neben dem Feld "Typ" unter `Kurs > Administration > Einstellungen > Tab "Metadaten"`.
+
 Bei anderen Lernressourcen heisst der Menüpunkt nach deren Typ, zum Beispiel "Über diesen Test" oder "Über dieses Formular", sonst "Über diese Lernressource". Den Menüpunkt sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Teilnehmende und Betreuer:innen sehen ihn nicht.
 
 ![Bereiche Technische Informationen mit Id, Titel, Typ, Technischer Typ, Administrative Freigabe, Externer Link und Produkte sowie Verantwortliche mit Ersteller:in und Besitzer:innen](assets/info_page_about_dialog_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.09.29" }
 
-### Technische Informationen {: #technical_information}
-
-Der Bereich "Technische Informationen" zeigt die Angaben, die OpenOlat zur Lernressource führt:
-
-- **Id**: die automatisch vergebene Nummer der Lernressource. Mit ihr finden Sie die Lernressource über die Suche.
-- **Titel** und **Kennzeichen**: wie im Tab "Metadaten" der Einstellungen eingetragen.
-- **Erstellungsdatum** und **Zuletzt geändert**
-- **Typ** und **Technischer Typ**: bei Kursen zum Beispiel "Kurs" und "Lernpfad".
-- **Administrative Freigabe**: die Organisationen, für welche die Lernressource freigegeben ist.
-- **Externer Link**: der Link für den direkten Zugang. Ist ein Login oder eine Registrierung nötig, kommen diese Schritte vor dem Aufruf. Ist der Gastzugang erlaubt, steht darunter auch der **Externe Link - Gast**.
-- **Produkte**: die Produkte und Durchführungen im Course Planner, in denen der Kurs eingebunden ist.
-
-### Verantwortliche {: #responsible_persons}
-
-Der Bereich "Verantwortliche" nennt die **Ersteller:in** der Lernressource und alle **Besitzer:innen**.
-
-### Information zur Verwendung {: #usage}
-
-Ist eine andere Lernressource, zum Beispiel ein Formular oder ein Test, in Kurse eingebunden, zeigt das Fenster zusätzlich den Bereich "Information zur Verwendung".
-
-![Bereich Information zur Verwendung markiert, mit Referenz auf einen Kurs, letztem Zugriff, momentanen Benutzer:innen, Anzahl Aufrufe und Anzahl Exporte](assets/general_functions_infopage_usage_v2_de.png){ class="shadow lightbox" title="Fenster Über dieses Formular · 2026.09.29" }
-
-**Referenzen**: Hier sehen Sie, welche Kurse diese Lernressource verwenden. Solange die Lernressource in einem Kurs verwendet wird, kann sie nicht gelöscht werden.
-
-**Letzter Zugriff**: Gibt an, wann die Lernressource das letzte Mal gestartet wurde.
-
-**Momentane Benutzer:innen**: Gibt an, wie viele Benutzer:innen diese Lernressource zurzeit in OpenOlat gestartet haben.
-
-**Anzahl Aufrufe**: Zählt automatisch, wie oft die Lernressource insgesamt gestartet wurde.
-
-**Anzahl Exporte**: Zählt automatisch, wie oft die Lernressource insgesamt heruntergeladen wurde.
+Was die einzelnen Angaben im Fenster bedeuten, beschreibt die Seite [Über diesen Kurs: Technische Informationen und Verwendung](../learningresources/Technical_Information_on_Resources_and_Usage.de.md).
 
 [Zum Seitenanfang ^](#toolbar_infopage)
 
@@ -73,7 +45,8 @@ Ist eine andere Lernressource, zum Beispiel ein Formular oder ein Test, in Kurse
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>

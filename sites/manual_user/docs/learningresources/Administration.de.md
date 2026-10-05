@@ -1,17 +1,17 @@
 # Kurs-Administration: Übersicht {: #course_administration}
 
-![Menü "Administration" eines Kurses mit 25 nummerierten Optionen, von Einstellungen und Mitgliederverwaltung bis Löschen](assets/course_administration_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü "Administration" eines Lernpfad-Kurses mit seinen Optionen, von Einstellungen und Mitgliederverwaltung über Kursstatistiken und Kopieren bis Über diesen Kurs und Löschen](assets/course_administration_v5_de.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-Haben Sie als **Autor:in** einen Kurs ausgewählt, wird Ihnen links oben der Button "Administration" angezeigt. Dort finden Sie alle Optionen zur **Bearbeitung, Konfiguration und Administration** des gewählten Kurses. (Vor und während der Nutzung des Kurses.) Zu den wichtigsten zählen für Autor:innen der [Kurseditor](#course_editor) und die [Einstellungen](#settings).
+Sind Sie **Besitzer:in** eines Kurses, wird Ihnen links oben der Button "Administration" angezeigt. Dort finden Sie alle Optionen zur **Bearbeitung, Konfiguration und Administration** des Kurses, vor und während seiner Nutzung. Dieselben Optionen sehen Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs angehört. Zu den wichtigsten zählen der [Kurseditor](#course_editor) und die [Einstellungen](#settings).
 
-**Betreuer:innen** steht der Button "Administration" ebenfalls zur Verfügung. Allerdings sind dann weniger und nur für Betreuer:innen relevante Optionen angezeigt. Insbesondere z.B. das [Bewertungswerkzeug](#assessment_tool).
+**Betreuer:innen** steht der Button "Administration" ebenfalls zur Verfügung. Allerdings sind dann weniger und nur für Betreuer:innen relevante Optionen angezeigt. Insbesondere z.B. das [Bewertungswerkzeug](#assessment_tool). Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](Members_management.de.md#section_rights) einzelne Rechte erteilt wurden, sehen die Optionen zu diesen Rechten.
 
 !!! info "Wichtig"
 
-    Manche Optionen stehen nur zur Verfügung, wenn das entsprechende Feature aktiviert wurde. Wenden Sie sich gegebenenfalls an Ihren/Ihre Administrator:in.
+    Manche Optionen stehen nur zur Verfügung, wenn das entsprechende Feature aktiviert ist. Wenden Sie sich gegebenenfalls an die Administrator:innen Ihrer Organisation.
 
 
 Andere Lernressourcen verfügen ebenfalls über das Menü "Administration", jedoch sind die Menüoptionen dort nicht so umfangreich. Sie variieren je nach Lernressource.
@@ -23,8 +23,6 @@ Im Folgenden erhalten Sie einen Überblick über die Menüoptionen der "Administ
 
 ## Einstellungen {: #settings}
 
-![1](assets/1_green_24.png){ class=" aside-left-lg" }
-
 Hier werden alle Einstellungen gemacht, die den **Kurs als Ganzes betreffen**. (Einstellungen, die nur einen bestimmten Kursbaustein betreffen, werden im Kurseditor nach Anwahl des betreffenden Kursbausteins gemacht.)
 
 [Zu den Details >](Course_Settings.de.md)<br>
@@ -32,8 +30,6 @@ Hier werden alle Einstellungen gemacht, die den **Kurs als Ganzes betreffen**. (
 
 
 ## Mitgliederverwaltung {: #members_management}
-
-![2](assets/2_green_24.png){ class=" aside-left-lg" }
 
 In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Sie können hier weiteren Benutzer:innen und Gruppen Zugriff gewähren, indem Sie jemand zum Mitglied des Kurses machen.
 
@@ -43,8 +39,6 @@ In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Pers
 
 ## Kurseditor {: #course_editor}
 
-![3](assets/3_green_24.png){ class=" aside-left-lg" }
-
 Im Kurseditor kann der Kurs bearbeitet werden, indem Kursbausteine hinzugefügt und konfiguriert werden.
 
 [Zu den Details >](General_Configuration_of_Course_Elements.de.md)<br>
@@ -52,8 +46,6 @@ Im Kurseditor kann der Kurs bearbeitet werden, indem Kursbausteine hinzugefügt 
 
 
 ## Dateien {: #files}
-
-![4](assets/4_green_24.png){ class=" aside-left-lg" }
 
 Manche im Kurs verwendete Dateien werden im **Ablageordner** abgelegt. Dieser gehört zum Kurs und kann hier geöffnet werden.<br>
 (Andere Dateien und Objekte werden mit anderen Benutzer:innen geteilt, sind an anderen Stellen abgelegt und können im File Hub oder Media Center verwaltet werden.)
@@ -69,17 +61,17 @@ Wird ein Kurs gross oder geht ein Upload nicht mehr durch, zeigt die Auswertung 
 Sie öffnen die Auswertung im Bereich "Dateien" mit dem Button :o_icon_o_icon_hdd: "Speicherverbrauch anzeigen" oben rechts:<br>
 `Kurs > Administration > Dateien > Speicherverbrauch anzeigen`
 
-![Button Speicherverbrauch anzeigen oben rechts in der Werkzeugleiste, im Bereich Dateien der Kurs-Administration](assets/course_admin_files_storage_usage_button_v1_de.png){ class="shadow lightbox" }
+![Button Speicherverbrauch anzeigen oben rechts markiert, über den Ablageorten des Kurses](assets/course_admin_files_storage_usage_button_v1_de.png){ class="shadow lightbox" title="Bereich Dateien der Kurs-Administration" }
 
 Den Bereich "Dateien" sehen Besitzer:innen des Kurses und Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](Members_management.de.md#section_rights) das Recht "Kurseditor" erteilt wurde.
 
-Die Seite "Speicherverbrauch Ressourcen" zeigt oben die Werte "Gesamtgrösse", "Interne Grösse" und "Anzahl Dateien" des Kurses, dazu ein Kreisdiagramm mit dem Anteil der Ressourcen mit und ohne Quota. Darunter listet eine Tabelle den Ablageordner und die Kursbausteine mit Dateien in der Struktur des Kurses. Je Zeile stehen die Anzahl Dateien, die Grösse, die Quota und in der Spalte "Aktuell verwendet" ein Balken, wie viel der Quota belegt ist. Ab 80 Prozent hebt OpenOlat den Balken farbig hervor.
+Die Seite "Speicherverbrauch Ressourcen" zeigt oben die Werte "Gesamtgrösse", "Interne Grösse" und "Anzahl Dateien" des Kurses, dazu ein Kreisdiagramm mit dem Anteil der Ressourcen mit und ohne Quota. Darunter listet eine Tabelle den Ablageordner und die Kursbausteine in der Struktur des Kurses. Über das Suchfeld finden Sie eine Zeile nach Name oder Typ, "Alle öffnen" und "Alle schliessen" klappen die Struktur auf und zu. Je Zeile stehen der Typ, die Anzahl Dateien, die Grösse, die Quota und in der Spalte "Aktuell verwendet" ein Balken, wie viel der Quota belegt ist. Ab 80 Prozent hebt OpenOlat den Balken farbig hervor. Mit "Anzeigen" öffnen Sie den Ordner oder den Kursbaustein der Zeile. Die Tabelle lässt sich als Excel-Datei exportieren.
 
-![Filter Intern mit Quota und Intern ohne Quota, darunter Zeilen mit und ohne Aktion Quota anpassen, auf der Seite Speicherverbrauch Ressourcen eines Kurses](assets/course_admin_storage_usage_v1_de.png){ class="shadow lightbox" }
+![Filter Alle, Intern mit Quota und Intern ohne Quota markiert, darunter die Zeile Ablageordner mit Quota und Aktion Quota anpassen](assets/course_admin_storage_usage_v1_de.png){ class="shadow lightbox" title="Seite Speicherverbrauch Ressourcen eines Kurses" }
 
 Drei Filter grenzen die Tabelle ein:
 
-* "Alle": alle Ressourcen des Kurses, die Dateien enthalten.
+* "Alle": alle Ordner und Kursbausteine des Kurses, auch solche ohne Dateien.
 * "Intern mit Quota": die Ordner mit eigener Quota. Das sind der Ablageordner, "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)" sowie die Kursbausteine "Ordner" und "Teilnehmer:innen Ordner".
 * "Intern ohne Quota": die Kursbausteine, die Speicher belegen, aber keine eigene Quota haben. Das sind "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse".
 
@@ -98,47 +90,21 @@ Weitere Wege, den Speicherbedarf zu senken, beschreibt die Anleitung ["Mit welch
 
 ## Bewertungswerkzeug {: #assessment_tool}
 
-![5](assets/5_green_24.png){ class=" aside-left-lg" }
-
 Das Bewertungswerkzeug (nicht zu verwechseln mit dem Kursbaustein "Bewertung") dient der Betreuung und Ergebniskontrolle aller Kursteilnehmer:innen. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann z.B. Bewertungen mit Punktevergabe, bestanden/nicht bestanden usw. vornehmen und individuelle Feedbacks bereitstellen.
 
 [Zu den Details >](Assessment_tool_overview.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
-## To-dos {: #to-dos}
+## To-dos [:octicons-tag-16:{ title="ab Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039){:target="_blank"} {: #to-dos}
 
-![6](assets/6_green_24.png){ class=" aside-left-lg" }
-
-To-dos, die einen bestimmten Kurs betreffen, können direkt hier im Kurs erstellt werden. Es können To-dos an alle Kursteilnehmer:innen  oder an Einzelpersonen vergeben werden.
+To-dos, die einen bestimmten Kurs betreffen, können direkt hier im Kurs erstellt werden. Es können To-dos an alle Kursteilnehmer:innen oder an Einzelpersonen vergeben werden.
 
 [Zu den Details >](Course_todos.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Termine und Absenzen {: #events_and_absences_}
-
-![7](assets/7_green_24.png){ class=" aside-left-lg" }
-
-Hier finden Sie das Werkzeug zur Administration von Terminen und Absenzen der Teilnehmenden.
-
-[Zu den Details >](Events_and_absences.de.md)<br>
-[Zum Seitenanfang ^](#course_administration)
-
-
-## Unterlagen Betreuer:innen {: #coach_files}
-
-![8](assets/8_green_24.png){ class=" aside-left-lg" }
-
-Sofern aktiviert, können Betreuer:innen und Besitzer:innen des Kurses in diesem gemeinsamen Ordner Dateien ablegen, auf die nur sie zugreifen können.
-
-[Zu den Details >](Coach_Files.de.md)<br>
-[Zum Seitenanfang ^](#course_administration)
-
-
-## Badges {: #badges}
-
-![9](assets/9_green_24.png){ class=" aside-left-lg" }
+## Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003){:target="_blank"} {: #badges}
 
 Sofern aktiviert, können hier kursbezogene Badges erstellt, editiert und angezeigt werden.
 
@@ -146,9 +112,23 @@ Sofern aktiviert, können hier kursbezogene Badges erstellt, editiert und angeze
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Erinnerung {: #reminders}
+## Unterlagen Betreuer:innen [:octicons-tag-16:{ title="ab Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566){:target="_blank"} {: #coach_files}
 
-![10](assets/10_green_24.png){ class=" aside-left-lg" }
+Sofern aktiviert, können Betreuer:innen und Besitzer:innen des Kurses in diesem gemeinsamen Ordner Dateien ablegen, auf die nur sie zugreifen können.
+
+[Zu den Details >](Coach_Files.de.md)<br>
+[Zum Seitenanfang ^](#course_administration)
+
+
+## Termine und Absenzen [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636){:target="_blank"} {: #events_and_absences_}
+
+Hier finden Sie das Werkzeug zur Administration von Terminen und Absenzen der Teilnehmenden.
+
+[Zu den Details >](Events_and_absences.de.md)<br>
+[Zum Seitenanfang ^](#course_administration)
+
+
+## Erinnerung [:octicons-tag-16:{ title="ab Release 10.3 (OO-1494)" }](https://track.frentix.com/issue/OO-1494){:target="_blank"} {: #reminders}
 
 Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert. Der Versand kann an verschiedene Bedingungen geknüpft werden.
 
@@ -156,9 +136,7 @@ Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert.
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Prüfungsverwaltung {: #assessment_management}
-
-![11](assets/11_green_24.png){ class=" aside-left-lg" }
+## Prüfungsverwaltung [:octicons-tag-16:{ title="ab Release 10.2 (OO-1349)" }](https://track.frentix.com/issue/OO-1349){:target="_blank"} {: #assessment_management}
 
 Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstellen, bearbeiten und anzeigen lassen. Sie können beispielsweise einen Prüfungsmodus konfigurieren, der für die Teilnehmer:innen nur bestimmte Kursbausteine aufrufbar macht und auch den Aufruf anderer Informationsquellen für die Teilnehmer:innen einschränkt.
 
@@ -167,9 +145,7 @@ Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstelle
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Datenerhebungsvorschau {: #data_collection_previews}
-
-![12](assets/12_green_24.png){ class=" aside-left-lg" }
+## Datenerhebungsvorschau [:octicons-tag-16:{ title="ab Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399){:target="_blank"} {: #data_collection_previews}
 
 Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des **Moduls Qualitätsmanagement** des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
 
@@ -179,8 +155,6 @@ Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des **Modu
 
 ## Lernbereich {: #learning_areas}
 
-![13](assets/13_green_24.png){ class=" aside-left-lg" }
-
 Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Unter dieser Menüoption können die Lernbereiche des Kurses erstellt, angezeigt und editiert werden.
 
 [Zu den Details >](Learning_Areas.de.md)<br>
@@ -189,16 +163,12 @@ Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt wer
 
 ## Kurs DB {: #course_DB}
 
-![14](assets/14_green_24.png){ class=" aside-left-lg" }
-
 Hier können Sie eine neue kursspezifische Datenbank anlegen, die bestimmte kursspezifische Informationen speichern kann.
 
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Kurs Statistiken {: #course_statistics}
-
-![15](assets/15_green_24.png){ class=" aside-left-lg" }
+## Kursstatistiken {: #course_statistics}
 
 Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer:innen dieses Kurses.
 
@@ -206,11 +176,9 @@ Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Test Statistiken {: #test_statistics}
+## Teststatistiken {: #test_statistics}
 
-![16](assets/16_green_24.png){ class=" aside-left-lg" }
-
-Die Test-Statistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests.
+Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. Der Menüpunkt erscheint, sobald der Kurs einen Test mit auswertbaren Resultaten enthält.
 
 [Zu den Details >](Statistics_Test.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -218,17 +186,13 @@ Die Test-Statistiken erlauben generelle kursbezogene, anonymisierte statistische
 
 ## Fragebogen Statistiken {: #survey_statistics}
 
-![17](assets/17_green_24.png){ class=" aside-left-lg" }
-
-Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen.
+Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Der Menüpunkt erscheint, sobald der Kurs einen Fragebogen mit auswertbaren Resultaten enthält.
 
 [Zu den Details >](Statistics_Survey.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
 ## Archivierung & Reports {: #archiving_reporting}
-
-![18](assets/18_green_24.png){ class=" aside-left-lg" }
 
 Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es kann ein Gesamtarchiv oder ein Teilarchiv mit ausgewählten Kursbausteinen erstellt werden, sowie Kursresultate u.a.
 
@@ -238,8 +202,6 @@ Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es k
 
 ## Angebotsarten {: #offer_types}
 
-![19](assets/19_green_24.png){ class=" aside-left-lg" }
-
 Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, benötigt es jeweils mindestens ein Angebot. Es können aber auch mehrere verschiedene Angebote erstellt werden, zu denen Sie hier die Buchungsaufträge finden.
 
 [Zu den Details >](Offer_Types.de.md)<br>
@@ -248,27 +210,21 @@ Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, benötigt es
 
 ## Kopieren {: #copy}
 
-![20](assets/20_green_24.png){ class=" aside-left-lg" }
-
 Beim Kopieren eines Kurses werden die komplette Struktur, Ordnerinhalte, HTML-Seiten und Gruppennamen (ohne Gruppenmitglieder) übernommen. Benutzerdaten wie Forenbeiträge, Gruppenmitglieder etc. werden jedoch nicht kopiert.
 
 [Zu den Details >](Course_Copy.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Kopieren mit Wizard {: #copy_wizard}
+## Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_wizard}
 
-![21](assets/21_green_24.png){ class=" aside-left-lg" }
-
-Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente auswählen.
+Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente auswählen. Der Menüpunkt erscheint nur in Lernpfad-Kursen.
 
 [Zu den Details >](Course_Copy_Wizard.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Als Template speichern {: #copy_template}
-
-![22](assets/22_green_24.png){ class=" aside-left-lg" }
+## Als Template speichern [:octicons-tag-16:{ title="ab Release 20.2 (OO-8896)" }](https://track.frentix.com/issue/OO-8896){:target="_blank"} {: #copy_template}
 
 Soll ein bestehender Kurs für die Verwendung mit dem Course Planner zur Instanzierung in Durchführungen verwendet werden, speichern Sie ihn als Template.
 
@@ -276,12 +232,19 @@ Soll ein bestehender Kurs für die Verwendung mit dem Course Planner zur Instanz
 [Zum Seitenanfang ^](#course_administration)
 
 
+## Als Kurs instanziieren [:octicons-tag-16:{ title="ab Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897){:target="_blank"} {: #instantiate_as_course}
+
+Haben Sie ein Template vorbereitet, erstellen Sie daraus mit diesem Menüpunkt einen neuen Kurs. Ein Wizard führt Sie durch die Erstellung.
+
+Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort steht er an der Stelle von "Als Template speichern".
+
+[Zu den Details >](Creating_Course.de.md#purpose)<br>
+[Zum Seitenanfang ^](#course_administration)
+
+
 ## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-![23](assets/23_green_24.png){ class=" aside-left-lg" }
-
-Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden.
-Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
+Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -298,19 +261,27 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
 ## Inhalt exportieren {: #export_content}
 
-![24](assets/24_green_24.png){ class=" aside-left-lg" }
-
 Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz zu importieren.
 
 [Zu den Details >](Export_Content.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 
+## Über diesen Kurs [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #about}
+
+Hier schlagen Sie nach, welche ID der Kurs hat, wer ihn erstellt hat und wem er gehört. Das Fenster zeigt auch den externen Link und die Produkte im Course Planner, in denen der Kurs eingebunden ist. Bei anderen Lernressourcen sehen Sie zusätzlich, welche Kurse sie verwenden.
+
+Den Menüpunkt sehen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen.
+
+[Zu den Details >](Technical_Information_on_Resources_and_Usage.de.md)<br>
+[Zum Seitenanfang ^](#course_administration)
+
+
 ## Löschen {: #delete}
 
-![25](assets/25_green_24.png){ class=" aside-left-lg" }
-
 Beim Löschen wird ein Kurs zunächst in den Papierkorb verschoben und alle Benutzerdaten werden entfernt. (Das gilt auch für Lernressourcen.)
+
+Liegt der Kurs im Papierkorb, steht an dieser Stelle der Menüpunkt "Wiederherstellen".
 
 [Zu den Details >](Course_Delete.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -320,7 +291,9 @@ Beim Löschen wird ein Kurs zunächst in den Papierkorb verschoben und alle Benu
 
 ## Weiterführende Informationen {: #further_information}
 
-[Einsatz weiterer Kursfunktionen der Toolbar >](Using_Additional_Course_Features.de.md)
+[Einsatz weiterer Kursfunktionen der Toolbar >](Using_Additional_Course_Features.de.md)<br>
+[Toolbar: Infoseite >](Info_page.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)
 
 **youtube**<br>
 [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>)

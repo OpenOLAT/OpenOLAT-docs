@@ -1,17 +1,17 @@
 # Course Administration: Overview {: #course_administration}
 
-![Course "Administration" menu with 25 numbered options, from Settings and Members management to Delete](assets/course_administration_v4_en.png){ class="shadow lightbox aside-left-lg" }
+![Course "Administration" menu of a learning path course with its options, from Settings and Members management via Course statistics and Copy to About this course and Delete](assets/course_administration_v5_en.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-If you have selected a course as **author**, the "Administration" button is displayed at the top left. There you will find all options for **editing, configuration and administration** of the selected course. (Before and during use of the course.) The most important options for authors include the [course editor](#course_editor) and the [settings](#settings).
+If you are an **owner** of a course, the "Administration" button is displayed at the top left. There you will find all options for **editing, configuration and administration** of the course, before and during its use. Administrators and learning resource managers of the organisation the course belongs to see the same options. The most important options include the [course editor](#course_editor) and the [settings](#settings).
 
-The "Administration" button is also available for **coaches**. However, fewer options are then displayed, and only those relevant to coaches. In particular, for example, the [assessment tool](#assessment_tool).
+The "Administration" button is also available for **coaches**. However, fewer options are then displayed, and only those relevant to coaches. In particular, for example, the [assessment tool](#assessment_tool). Persons who have been granted individual rights in the [Rights area of the members management](Members_management.md#section_rights) see the options for these rights.
 
 !!! info "Important"
 
-    Some options are only available if the corresponding feature has been activated. If necessary, please contact your administrator.
+    Some options are only available if the corresponding feature is activated. If necessary, please contact the administrators of your organisation.
 
 
 Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
@@ -23,27 +23,21 @@ Below you will find an overview of the "Administration" menu options for **cours
 
 ## Settings {: #settings}
 
-![1](assets/1_green_24.png){ class=" aside-left-lg" }
-
 All settings that affect the **course as a whole** are made here. (Settings that only affect a specific course element are made in the course editor after selecting the relevant course element).
 
 [See the details >](Course_Settings.md)<br>
 [To the top of the page ^](#course_administration)
 
 
-## Member management {: #members_management}
+## Members management {: #members_management}
 
-![2](assets/2_green_24.png){ class=" aside-left-lg" }
-
-In the member administration, course owners will find a list of all persons who have access to the course or learning resource. You can grant access to other users and groups here by making someone a member of the course.
+In the members management, course owners will find a list of all persons who have access to the course or learning resource. You can grant access to other users and groups here by making someone a member of the course.
 
 [See the details >](Members_management.md)<br>
 [To the top of the page ^](#course_administration)
 
 
 ## Course editor {: #course_editor}
-
-![3](assets/3_green_24.png){ class=" aside-left-lg" }
 
 In the course editor the course can be edited by adding and configuring course elements.
 
@@ -52,8 +46,6 @@ In the course editor the course can be edited by adding and configuring course e
 
 
 ## Files {: #files}
-
-![4](assets/4_green_24.png){ class=" aside-left-lg" }
 
 Some files used in the course are stored in the **storage folder**. This belongs to the course and can be opened here.<br>
 (Other files and objects are shared with other users, are stored in other places and can be managed in the File Hub or Media Center).
@@ -69,17 +61,17 @@ When a course grows large or an upload no longer goes through, the storage usage
 You open the evaluation in the "Files" area with the :o_icon_o_icon_hdd: "Show memory usage" button at the top right:<br>
 `Course > Administration > Files > Show memory usage`
 
-![Show memory usage button at the top right of the toolbar, in the Files area of the course administration](assets/course_admin_files_storage_usage_button_v1_en.png){ class="shadow lightbox" }
+![Show memory usage button highlighted at the top right, above the storage locations of the course](assets/course_admin_files_storage_usage_button_v1_en.png){ class="shadow lightbox" title="Files area of the course administration" }
 
 The "Files" area is visible to owners of the course and to persons who have been granted the "Course editor" right in the [Rights area of the members management](Members_management.md#section_rights).
 
-The storage usage page, titled "Memory usage resources" on screen, shows the values "Total size", "Internal size" and "Number of files" of the course at the top, together with a pie chart showing the share of resources with and without quota. Below, a table lists the storage folder and the course elements with files in the structure of the course. Each row shows the number of files, the size, the quota and, in the "Currently used" column, a bar showing how much of the quota is occupied. From 80 percent, OpenOlat highlights the bar in color.
+The storage usage page, titled "Memory usage resources" on screen, shows the values "Total size", "Internal size" and "Number of files" of the course at the top, together with a pie chart showing the share of resources with and without quota. Below, a table lists the storage folder and the course elements in the structure of the course. The search field finds a row by name or type, "Open all" and "Close all" expand and collapse the structure. Each row shows the type, the number of files, the size, the quota and, in the "Currently used" column, a bar showing how much of the quota is occupied. From 80 percent, OpenOlat highlights the bar in color. "Display" opens the folder or the course element of the row. The table can be exported as an Excel file.
 
-![Filters Internal with quota and Internal without quota, below them rows with and without the Edit quota action, on the storage usage page of a course](assets/course_admin_storage_usage_v1_en.png){ class="shadow lightbox" }
+![Filters All, Internal with quota and Internal without quota highlighted, below them the Storage folder row with quota and the Edit quota action](assets/course_admin_storage_usage_v1_en.png){ class="shadow lightbox" title="Memory usage resources page of a course" }
 
 Three filters narrow down the table:
 
-* "All": all resources of the course that contain files.
+* "All": all folders and course elements of the course, including those without files.
 * "Internal with quota": the folders with their own quota. These are the storage folder, "Coach files" and "Documents (Toolbar)" as well as the course elements "Folder" and "Participant folder".
 * "Internal without quota": the course elements that occupy storage but have no quota of their own. These are "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker".
 
@@ -98,17 +90,13 @@ The guide ["What measures can I take to reduce storage space consumption?"](../.
 
 ## Assessment tool {: #assessment_tool}
 
-![5](assets/5_green_24.png){ class=" aside-left-lg" }
-
 The assessment tool (not to be confused with the course element "Assessment") is used to coach and monitor the results of all course participants. Here you have access to all assessable course elements and can, for example, make assessments with points, pass/fail etc. and provide individual feedback.
 
 [See the details >](Assessment_tool_overview.md)<br>
 [To the top of the page ^](#course_administration)
 
 
-## To-dos {: #to-dos}
-
-![6](assets/6_green_24.png){ class=" aside-left-lg" }
+## To-dos [:octicons-tag-16:{ title="from Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039){:target="_blank"} {: #to-dos}
 
 To-dos relating to a specific course can be created directly here in the course. To-dos can be assigned to all course participants or to individuals.
 
@@ -116,29 +104,7 @@ To-dos relating to a specific course can be created directly here in the course.
 [To the top of the page ^](#course_administration)
 
 
-## Events and absences {: #events_and_absences_}
-
-![7](assets/7_green_24.png){ class=" aside-left-lg" }
-
-Here you will find the tool for the administration of participants' events and absences.
-
-[See the details >](Events_and_absences.md)<br>
-[To the top of the page ^](#course_administration)
-
-
-## Coach files {: #coach_files}
-
-![8](assets/8_green_24.png){ class=" aside-left-lg" }
-
-If activated, coaches and owners of the course can store files in this shared folder that only they can access.
-
-[See the details >](Coach_Files.md)<br>
-[To the top of the page ^](#course_administration)
-
-
-## Badges {: #badges}
-
-![9](assets/9_green_24.png){ class=" aside-left-lg" }
+## Badges [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003){:target="_blank"} {: #badges}
 
 If activated, course-related badges can be created, edited and displayed here.
 
@@ -146,9 +112,23 @@ If activated, course-related badges can be created, edited and displayed here.
 [To the top of the page ^](#course_administration)
 
 
-## Reminders {: #reminders}
+## Coach files [:octicons-tag-16:{ title="from Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566){:target="_blank"} {: #coach_files}
 
-![10](assets/10_green_24.png){ class=" aside-left-lg" }
+If activated, coaches and owners of the course can store files in this shared folder that only they can access.
+
+[See the details >](Coach_Files.md)<br>
+[To the top of the page ^](#course_administration)
+
+
+## Events and Absences [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636){:target="_blank"} {: #events_and_absences_}
+
+Here you will find the tool for the administration of participants' events and absences.
+
+[See the details >](Events_and_absences.md)<br>
+[To the top of the page ^](#course_administration)
+
+
+## Reminders [:octicons-tag-16:{ title="from Release 10.3 (OO-1494)" }](https://track.frentix.com/issue/OO-1494){:target="_blank"} {: #reminders}
 
 The reminder function is used to organize the automatic sending of emails. The sending can be linked to various conditions.
 
@@ -156,9 +136,7 @@ The reminder function is used to organize the automatic sending of emails. The s
 [To the top of the page ^](#course_administration)
 
 
-## Assessment management {: #assessment_management}
-
-![11](assets/11_green_24.png){ class=" aside-left-lg" }
+## Assessment management [:octicons-tag-16:{ title="from Release 10.2 (OO-1349)" }](https://track.frentix.com/issue/OO-1349){:target="_blank"} {: #assessment_management}
 
 This menu option allows you to create, edit and display configurations for assessment modes. For example, you can configure an assessment mode that only allows participants to access certain course elements and also restricts participants from accessing other sources of information.
 
@@ -167,9 +145,7 @@ This menu option allows you to create, edit and display configurations for asses
 [To the top of the page ^](#course_administration)
 
 
-## Data collection preview {: #data_collection_previews}
-
-![12](assets/12_green_24.png){ class=" aside-left-lg" }
+## Data collection previews [:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399){:target="_blank"} {: #data_collection_previews}
 
 If activated, course owners can view the planned surveys of the **Quality Management** module of the course. This preview is purely informative for course owners. Editing is only possible for quality managers.
 
@@ -179,8 +155,6 @@ If activated, course owners can view the planned surveys of the **Quality Manage
 
 ## Learning areas {: #learning_areas}
 
-![13](assets/13_green_24.png){ class=" aside-left-lg" }
-
 Several groups of a course can be bundled together with the help of a learning area. The learning areas of the course can be created, displayed and edited under this menu option.
 
 [See the details >](Learning_Areas.md)<br>
@@ -189,16 +163,12 @@ Several groups of a course can be bundled together with the help of a learning a
 
 ## Course DB {: #course_DB}
 
-![14](assets/14_green_24.png){ class=" aside-left-lg" }
-
 Here you can create a new course-specific database that can store certain course-specific information.
 
 [To the top of the page ^](#course_administration)
 
 
 ## Course statistics {: #course_statistics}
-
-![15](assets/15_green_24.png){ class=" aside-left-lg" }
 
 This course function shows you statistics on access to your OpenOlat course. All owners of this course have access to the statistics.
 
@@ -208,9 +178,7 @@ This course function shows you statistics on access to your OpenOlat course. All
 
 ## Test statistics {: #test_statistics}
 
-![16](assets/16_green_24.png){ class=" aside-left-lg" }
-
-The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed.
+The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed. The menu item appears as soon as the course contains a test with results that can be evaluated.
 
 [See the details >](Statistics_Test.md)<br>
 [To the top of the page ^](#course_administration)
@@ -218,17 +186,13 @@ The test statistics allow general course-related, anonymized statistical assessm
 
 ## Survey statistics {: #survey_statistics}
 
-![17](assets/17_green_24.png){ class=" aside-left-lg" }
-
-The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys.
+The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys. The menu item appears as soon as the course contains a survey with results that can be evaluated.
 
 [See the details >](Statistics_Survey.md)<br>
 [To the top of the page ^](#course_administration)
 
 
-## Archiving & Reports {: #archiving_reporting}
-
-![18](assets/18_green_24.png){ class=" aside-left-lg" }
+## Archiving & Reporting {: #archiving_reporting}
 
 Elements of the course can be archived here with the help of a wizard. A complete archive or a partial archive with selected course elements can be created, as well as course results, etc.
 
@@ -238,8 +202,6 @@ Elements of the course can be archived here with the help of a wizard. A complet
 
 ## Offer types {: #offer_types}
 
-![19](assets/19_green_24.png){ class=" aside-left-lg" }
-
 In order to offer a course or other learning resource in the catalog, at least one offer is required. However, several different offers can also be created, for which you will find the booking orders here.
 
 [See the details >](Offer_Types.md)<br>
@@ -248,27 +210,21 @@ In order to offer a course or other learning resource in the catalog, at least o
 
 ## Copy {: #copy}
 
-![20](assets/20_green_24.png){ class=" aside-left-lg" }
-
 When copying a course, the complete structure, folder contents, HTML pages and group names (without group members) are copied. However, user data such as forum posts, group members etc. are not copied.
 
 [See the details >](Course_Copy.md)<br>
 [To the top of the page ^](#course_administration)
 
 
-## Copy with wizard {: #copy_wizard}
+## Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_wizard}
 
-![21](assets/21_green_24.png){ class=" aside-left-lg" }
-
-If you copy a course using the wizard, you can select the elements to be copied.
+If you copy a course using the wizard, you can select the elements to be copied. The menu item only appears in learning path courses.
 
 [See the details >](Course_Copy_Wizard.md)<br>
 [To the top of the page ^](#course_administration)
 
 
-## Save as template {: #copy_template}
-
-![22](assets/22_green_24.png){ class=" aside-left-lg" }
+## Save as template [:octicons-tag-16:{ title="from Release 20.2 (OO-8896)" }](https://track.frentix.com/issue/OO-8896){:target="_blank"} {: #copy_template}
 
 If an existing course is to be used with the Course Planner for instantiation in implementations, save it as a template.
 
@@ -276,14 +232,19 @@ If an existing course is to be used with the Course Planner for instantiation in
 [To the top of the page ^](#course_administration)
 
 
+## Instantiate as course [:octicons-tag-16:{ title="from Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897){:target="_blank"} {: #instantiate_as_course}
+
+If you have prepared a template, use this menu item to create a new course from it. A wizard guides you through the creation.
+
+The menu item only exists in courses with the usage "Template". There it takes the place of "Save as template".
+
+[See the details >](Creating_Course.md#purpose)<br>
+[To the top of the page ^](#course_administration)
+
 
 ## Duplicate as learning path {: #duplicate_as_learning_path}
 
-![23](assets/23_green_24.png){ class=" aside-left-lg" }
-
-Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool.
-The original conventional course is retained and a copy is created in which the additional features of a learning path course are added.
-When converting, the first decision to be made is whether to create the course "With learning path" or "With learning progress".
+Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool. The original conventional course is retained and a copy is created in which the additional features of a learning path course are added. When converting, the first decision to be made is whether to create the course "With learning path" or "With learning progress".
 
 The function is only available for conventional courses.
 
@@ -298,19 +259,27 @@ The function is only available for conventional courses.
 
 ## Export content {: #export_content}
 
-![24](assets/24_green_24.png){ class=" aside-left-lg" }
-
 Export your learning resources as a ZIP file to get a backup copy or to import the learning resource in another OpenOlat instance.
 
 [See the details >](Export_Content.md)<br>
 [To the top of the page ^](#course_administration)
 
 
+## About this course [:octicons-tag-16:{ title="from Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #about}
+
+Here you look up which ID the course has, who created it and who owns it. The window also shows the external link and the products in the Course Planner in which the course is embedded. For other learning resources, you also see which courses use them.
+
+The menu item is visible to the owners of the course, learning resource managers and administrators.
+
+[See the details >](Technical_Information_on_Resources_and_Usage.md)<br>
+[To the top of the page ^](#course_administration)
+
+
 ## Delete {: #delete}
 
-![25](assets/25_green_24.png){ class=" aside-left-lg" }
+When a course is deleted, it is first moved to the trash and all user data is removed. (This also applies to learning resources).
 
-When a course is deleted, it is first moved to the recycle bin and all user data is removed. (This also applies to learning resources).
+If the course is in the trash, the menu item "Restore" appears in this place.
 
 [See the details >](Course_Delete.md)<br>
 [To the top of the page ^](#course_administration)
@@ -320,7 +289,9 @@ When a course is deleted, it is first moved to the recycle bin and all user data
 
 ## Further information {: #further_information}
 
-[Using Additional Course Features >](Using_Additional_Course_Features.md)
+[Using Additional Course Features >](Using_Additional_Course_Features.md)<br>
+[Toolbar: Info page >](Info_page.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)
 
 **youtube**<br>
 [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>)

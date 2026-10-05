@@ -29,41 +29,13 @@ What the printout contains and what it leaves out: [Print the info page or downl
 Anyone managing a course who wants to look up the ID, the external link or the owners does not find these details on the info page, but in the window "About this course". You open it under:<br>
 `Course > Administration > About this course`
 
+The button next to the field "Type" under `Course > Administration > Settings > Tab "Metadata"` opens the same window.
+
 For other learning resources, the menu item is named after their type, for example "About this test" or "About this form", otherwise "About this learning resource". The menu item is visible to the owners of the learning resource, learning resource managers and administrators. Participants and coaches do not see it.
 
 ![Sections Technical information with ID, title, type, technical type, administrative access, external link and products, and Responsible persons with creator and owners](assets/info_page_about_dialog_v1_en.png){ class="shadow lightbox" title="Window About this course · 2026.09.29" }
 
-### Technical information {: #technical_information}
-
-The section "Technical information" shows the details OpenOlat keeps on the learning resource:
-
-- **ID**: the automatically assigned number of the learning resource. You can use it to find the learning resource via the search.
-- **Title** and **Reference**: as entered in the tab "Metadata" of the settings.
-- **Creation date** and **Last modified**
-- **Type** and **Technical Type**: for courses, for example "Course" and "Learning path".
-- **Administrative access**: the organisations for which the learning resource is released.
-- **External link**: the link for direct access. If a login or registration is required, these steps come before the call. If guest access is allowed, the **External link - Guest** is shown below it.
-- **Products**: the products and implementations in the Course Planner in which the course is embedded.
-
-### Responsible persons {: #responsible_persons}
-
-The section "Responsible persons" names the **Creator** of the learning resource and all **Owners**.
-
-### Information on usage {: #usage}
-
-If another learning resource, for example a form or a test, is embedded in courses, the window additionally shows the section "Information on usage".
-
-![Section Information on usage highlighted, with reference to one course, last access, current users, number of launches and number of exports](assets/general_functions_infopage_usage_v2_en.png){ class="shadow lightbox" title="Window About this form · 2026.09.29" }
-
-**References**: Here you can see which courses use this learning resource. As long as the learning resource is used in a course, it cannot be deleted.
-
-**Last access**: Indicates when the learning resource was last started.
-
-**Current users**: Indicates how many users have currently started this learning resource in OpenOlat.
-
-**Number of launches**: Automatically counts how often the learning resource has been started in total.
-
-**Number of exports**: Automatically counts how often the learning resource has been downloaded in total.
+The page [About this course: Technical information and usage](../learningresources/Technical_Information_on_Resources_and_Usage.md) describes what the individual details in the window mean.
 
 [To the top of the page ^](#toolbar_infopage)
 
@@ -73,7 +45,8 @@ If another learning resource, for example a form or a test, is embedded in cours
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
+[About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)
 
 **Further reading**<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>
