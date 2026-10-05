@@ -115,27 +115,39 @@ The prerequisite is that the system administration has switched on the function 
 
 When you create or edit an online meeting, you define whether and how it is recorded. The default values come from the system administration, and you can change them for each online meeting.
 
-  *  **Meeting recording**: With "On", the online meeting may be recorded. All persons must then give their consent before entering, and the selection "Participants can open the meeting" is fixed to "Not allowed". With "Off", nothing is recorded, and the page of the online meeting shows no recordings.
-  *  **Recording start**: "Automatically when the meeting starts" or "Manually by the meeting host". The person who starts the online meeting sees the checkbox **Start recording automatically** next to the button **Start the online-meeting**. It is pre-set according to this setting and can be changed before the start.
+  *  **Meeting recording**: With "On", the online meeting may be recorded. All persons must then check **I agree** on the page of the online meeting before entering, and the selection "Participants can open the meeting" is fixed to "Not allowed". OpenOlat remembers the consent for this online meeting when the person joins and pre-checks it on the next visit. This does not apply to persons logged in as guest. With "Off", nothing is recorded, and the page of the online meeting shows no recordings.
+  *  **Recording start**: "Automatically when the meeting starts" or "Manually by the meeting host". The setting takes effect at the first start of the online meeting. The person who starts it for the first time sees the checkbox **Start recording automatically** next to the button **Start the online-meeting**. It is pre-set according to this setting and can be changed before the start. After that, the page shows all persons the button **Join the online-meeting** and no checkbox any more, even if the meeting in Microsoft Teams has already ended.
   *  **Automatically publish recording for**: The roles that see the recording after the online meeting: "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". If no role is selected, OpenOlat does not publish the recording automatically. You then publish it manually after the online meeting.
 
 The two fields "Recording start" and "Automatically publish recording for" only appear when meeting recording is switched on.
 
+![Meeting recording on, below it Recording start and four roles for publishing, the card Not allowed fixed](assets/course_element_microsoft_teams_recording_settings_v1_en.png){ class="shadow lightbox" title="Dialog Add online-meeting in the tab Meeting management · 2026.10.05" }
+
 ### Recordings after the online meeting {: #recordings_list}
 
-After the online meeting, you find the recording on the page of the online meeting in the list **Recordings**. It does not appear immediately: OpenOlat fetches finished recordings once per hour, at the earliest 15 minutes after the end of the online meeting. Until then, the list shows "There is no recording available for this online-meeting at this time."
+If you want to view or release the recording after the online meeting, you find it on the page of the online meeting in the list **Recordings**. OpenOlat fetches recordings from Microsoft Teams once per hour, at the earliest 15 minutes after the end of the online meeting. Online meetings without a date are included in every fetch. Until a recording is in the list, the list shows "There is no recording available for this online-meeting at this time."
 
-The list shows **Name**, **Start**, **End** and the link **Open** for each recording. "Open" displays the recording in OpenOlat, where it can also be downloaded. The link only appears if the recording is published for a role of the person. This also applies to owners and coaches.
+It is faster for the Organizer, that is the person who started the online meeting first (see [Roles in MS Teams](#teams_roles)). When they open the page with their Microsoft login, OpenOlat asks Microsoft Teams right away and enters existing recordings in the list immediately. A recording entered this way can only be opened after the hourly fetch, because OpenOlat stores the file at that point.
+
+The list shows **Name**, **Start**, **End** and the link **Open** for each recording. "Open" displays the recording in OpenOlat, where it can also be downloaded. The link appears as soon as OpenOlat has fetched the file, and only if the recording is published for a role of the person. This also applies to owners and coaches.
+
+The image shows the page of an online meeting shortly after the end: the recording is in the list, the column **Open** is still empty. Above it are the notice **Recordings** with **I agree** and the button **Join the online-meeting**. Next to the button, the name from your Microsoft account under which you join is shown in brackets, not your name in OpenOlat.
+
+![Notice Recordings with I agree above the button Join the online-meeting, below it a recording still without the link Open](assets/course_element_microsoft_teams_recording_start_page_v1_en.png){ class="shadow lightbox" title="Page of an online meeting with meeting recording · 2026.10.05" }
 
 Owners and coaches additionally see the column **Publish** and, for each recording, the menu **More actions** at the end of the row. If a number of days is entered in the system administration under "Delete recordings automatically", the column "Will not be automatically deleted" (lock icon) shows them which recordings are excluded from it.
 
 **Publish** opens the window "Publish to:" with the same four roles as in the online meeting. The roles for which the recording is already published are selected. The button **Publish** applies the selection. This way you release a recording afterwards or withdraw the release.
 
+![Four roles for publishing, only Owners and coaches checked, below it the button Publish](assets/course_element_microsoft_teams_recording_publish_v1_en.png){ class="shadow lightbox" title="Window Publish to in the list Recordings · 2026.10.05" }
+
 The menu **More actions** of a recording offers three actions:
 
-  *  **Open**: displays the recording, like the link in the list.
+  *  **Open**: displays the recording as soon as OpenOlat has fetched the file. Before that, the action has no effect. Unlike the link in the list, it does not depend on the roles for which the recording is published.
   *  **Recording not deletable**: excludes the recording from automatic deletion, for example a lecture that is needed permanently. For a recording marked this way, **Recording deletable** appears in the same place, which removes the exception again.
   *  **Delete**: deletes the recording permanently after a confirmation. The online meeting remains.
+
+![Three actions of a recording: Open, Recording not deletable and Delete](assets/course_element_microsoft_teams_recording_actions_v1_en.png){ class="shadow lightbox" title="Menu More actions in the list Recordings · 2026.10.05" }
 
 Automatic deletion only affects recordings, never the online meeting. The system administration defines the number of days.
 

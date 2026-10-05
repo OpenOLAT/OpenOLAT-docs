@@ -114,27 +114,39 @@ Voraussetzung ist, dass die System-Administration die Funktion "Terminaufzeichnu
 
 Beim Anlegen oder Bearbeiten eines Online-Termins legen Sie fest, ob und wie er aufgezeichnet wird. Die Standardwerte kommen aus der System-Administration, Sie können sie je Online-Termin ändern.
 
-  *  **Terminaufzeichnung**: Mit "Ein" darf der Online-Termin aufgezeichnet werden. Alle Personen müssen dann vor dem Betreten zustimmen, und die Auswahl "Teilnehmer:innen können den Termin eröffnen" steht fest auf "Nicht erlaubt". Mit "Aus" wird nichts aufgezeichnet, und die Seite des Online-Termins zeigt keine Aufzeichnungen.
-  *  **Aufnahme starten**: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Wer den Online-Termin startet, sieht neben dem Button **Online-Termin starten** das Kontrollkästchen **Aufzeichnung automatisch starten**. Es ist nach dieser Einstellung vorbelegt und lässt sich vor dem Start ändern.
+  *  **Terminaufzeichnung**: Mit "Ein" darf der Online-Termin aufgezeichnet werden. Alle Personen müssen dann vor dem Betreten auf der Seite des Online-Termins **Ich bin einverstanden** ankreuzen, und die Auswahl "Teilnehmer:innen können den Termin eröffnen" steht fest auf "Nicht erlaubt". OpenOlat merkt sich die Zustimmung beim Beitritt für diesen Online-Termin und kreuzt sie beim nächsten Aufruf vor. Für Personen, die als Gast angemeldet sind, gilt das nicht. Mit "Aus" wird nichts aufgezeichnet, und die Seite des Online-Termins zeigt keine Aufzeichnungen.
+  *  **Aufnahme starten**: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Die Einstellung wirkt beim ersten Start des Online-Termins. Wer ihn zum ersten Mal startet, sieht neben dem Button **Online-Termin starten** das Kontrollkästchen **Aufzeichnung automatisch starten**. Es ist nach dieser Einstellung vorbelegt und lässt sich vor dem Start ändern. Danach zeigt die Seite allen Personen den Button **Meeting beitreten** und kein Kontrollkästchen mehr, auch wenn das Meeting in Microsoft Teams schon beendet ist.
   *  **Aufnahme automatisch veröffentlichen für**: Die Rollen, die die Aufzeichnung nach dem Online-Termin sehen: "Besitzer:innen / Betreuer:innen", "Teilnehmer:innen des Kurses / der Gruppe", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle angekreuzt, veröffentlicht OpenOlat die Aufzeichnung nicht automatisch. Sie publizieren sie dann nach dem Online-Termin von Hand.
 
 Die beiden Felder "Aufnahme starten" und "Aufnahme automatisch veröffentlichen für" erscheinen erst, wenn die Terminaufzeichnung eingeschaltet ist.
 
+![Terminaufzeichnung auf Ein, darunter Aufnahme starten und vier Rollen zum Veröffentlichen, die Karte Nicht erlaubt fest gewählt](assets/course_element_microsoft_teams_recording_settings_v1_de.png){ class="shadow lightbox" title="Dialog Online-Termin hinzufügen im Tab Terminverwaltung · 2026.10.05" }
+
 ### Aufzeichnungen nach dem Online-Termin {: #recordings_list}
 
-Nach dem Online-Termin finden Sie die Aufzeichnung auf der Seite des Online-Termins in der Liste **Aufzeichnungen**. Sie erscheint nicht sofort: OpenOlat holt fertige Aufzeichnungen einmal pro Stunde ab, frühestens 15 Minuten nach dem Ende des Online-Termins. Bis dahin zeigt die Liste "Es ist zur Zeit noch keine Aufzeichnung für diesen Online-Termin vorhanden."
+Wer nach dem Online-Termin die Aufzeichnung ansehen oder freigeben will, findet sie auf der Seite des Online-Termins in der Liste **Aufzeichnungen**. OpenOlat holt Aufzeichnungen einmal pro Stunde aus Microsoft Teams ab, frühestens 15 Minuten nach dem Ende des Online-Termins. Online-Termine ohne Datum kommen bei jedem Abholen an die Reihe. Bis eine Aufzeichnung in der Liste steht, zeigt sie "Es ist zur Zeit noch keine Aufzeichnung für diesen Online-Termin vorhanden."
 
-Die Liste zeigt je Aufzeichnung **Name**, **Beginn**, **Ende** und den Link **Öffnen**. "Öffnen" zeigt die Aufzeichnung in OpenOlat an, dort lässt sie sich auch herunterladen. Der Link erscheint nur, wenn die Aufzeichnung für eine Rolle der Person veröffentlicht ist. Das gilt auch für Besitzer:innen und Betreuer:innen.
+Schneller geht es für den Organizer, also die Person, die den Online-Termin zuerst gestartet hat (siehe [Rollen in MS Teams](#teams_roles)). Ruft sie die Seite mit ihrer Microsoft-Anmeldung auf, fragt OpenOlat sofort bei Microsoft Teams nach und trägt vorhandene Aufzeichnungen gleich in die Liste ein. Öffnen lässt sich eine so eingetragene Aufzeichnung erst nach dem stündlichen Abholen, weil OpenOlat die Datei dabei ablegt.
+
+Die Liste zeigt je Aufzeichnung **Name**, **Beginn**, **Ende** und den Link **Öffnen**. "Öffnen" zeigt die Aufzeichnung in OpenOlat an, dort lässt sie sich auch herunterladen. Der Link erscheint, sobald OpenOlat die Datei abgeholt hat, und nur, wenn die Aufzeichnung für eine Rolle der Person veröffentlicht ist. Das gilt auch für Besitzer:innen und Betreuer:innen.
+
+Das Bild zeigt die Seite eines Online-Termins kurz nach dem Ende: Die Aufzeichnung steht in der Liste, die Spalte **Öffnen** ist noch leer. Darüber stehen der Hinweis **Aufzeichnungen** mit **Ich bin einverstanden** und der Button **Meeting beitreten**. Neben dem Button steht in Klammern der Name aus Ihrem Microsoft-Konto, unter dem Sie beitreten, nicht Ihr Name in OpenOlat.
+
+![Hinweis Aufzeichnungen mit Ich bin einverstanden über dem Button Meeting beitreten, darunter eine Aufzeichnung noch ohne Link Öffnen](assets/course_element_microsoft_teams_recording_start_page_v1_de.png){ class="shadow lightbox" title="Seite eines Online-Termins mit Terminaufzeichnung · 2026.10.05" }
 
 Besitzer:innen und Betreuer:innen sehen zusätzlich die Spalte **Publizieren** und je Aufzeichnung das Menü **Weitere Aktionen** am Zeilenende. Ist in der System-Administration bei "Terminaufzeichnung automatisch löschen" eine Zahl Tage eingetragen, zeigt ihnen die Spalte "Wird nicht automatisch gelöscht" (Schloss-Symbol), welche Aufzeichnungen davon ausgenommen sind.
 
 **Publizieren** öffnet das Fenster "Publizieren für:" mit denselben vier Rollen wie im Online-Termin. Angekreuzt sind die Rollen, für die die Aufzeichnung bereits veröffentlicht ist. Der Button **Publizieren** übernimmt die Auswahl. So geben Sie eine Aufzeichnung nachträglich frei oder ziehen die Freigabe zurück.
 
+![Vier Rollen zum Publizieren, angekreuzt nur Besitzer:innen / Betreuer:innen, darunter der Button Publizieren](assets/course_element_microsoft_teams_recording_publish_v1_de.png){ class="shadow lightbox" title="Fenster Publizieren für in der Liste Aufzeichnungen · 2026.10.05" }
+
 Das Menü **Weitere Aktionen** einer Aufzeichnung bietet drei Aktionen:
 
-  *  **Öffnen**: zeigt die Aufzeichnung an, wie der Link in der Liste.
+  *  **Öffnen**: zeigt die Aufzeichnung an, sobald OpenOlat die Datei abgeholt hat. Vorher bewirkt die Aktion nichts. Anders als der Link in der Liste hängt sie nicht davon ab, für welche Rollen die Aufzeichnung veröffentlicht ist.
   *  **Aufzeichnung nicht löschbar**: nimmt die Aufzeichnung vom automatischen Löschen aus, zum Beispiel eine Vorlesung, die dauerhaft gebraucht wird. Für eine so markierte Aufzeichnung steht an derselben Stelle **Aufzeichnung löschbar**, das die Ausnahme wieder aufhebt.
   *  **Löschen**: löscht die Aufzeichnung nach einer Rückfrage endgültig. Der Online-Termin bleibt bestehen.
+
+![Drei Aktionen einer Aufzeichnung: Öffnen, Aufzeichnung nicht löschbar und Löschen](assets/course_element_microsoft_teams_recording_actions_v1_de.png){ class="shadow lightbox" title="Menü Weitere Aktionen in der Liste Aufzeichnungen · 2026.10.05" }
 
 Das automatische Löschen betrifft nur Aufzeichnungen, nie den Online-Termin. Die Zahl Tage legt die System-Administration fest.
 
