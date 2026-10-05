@@ -73,6 +73,7 @@ To complete this step, click on "<b>Create</b>".
 
 Immediately after the new course is created, you will get to the settings. In each of the tabs there you can make detailed specifications. For the beginning we will use the default settings. 
 Later on you can recall and edit these course settings at any time under <b>Administration > Settings</b>.<br>
+The individual steaps are explained in deatil in the user manual: [Course Settings >](../../manual_user/learningresources/Course_Settings.md).<br>
 (This process is often referred to as course configuration. Unlike [configuration of course elements](#configure_course_elements).)
 
 ![course_settings_v1_en.png](assets/course_settings_v1_en.png){ class="shadow lightbox" }
@@ -259,5 +260,25 @@ Furthermore, an offer must be created for the catalog and the course must be mad
 !!! tip "Tip"
 
     A prerequisite for publishing in the catalog is, of course, that the administration has set up a catalog. You can recognize it by whether the site "Catalog" is displayed in the main navigation.
+
+[To the top of the page ^](#my_first_course)
+
+---
+
+## Further information {: #further_information}
+
+[Overview authoring area >](../../manual_user/area_modules/Authoring.md)<br>
+[General information on courses >](../../manual_user/learningresources/General_Information.md)<br>
+[Creating courses >](../../manual_user/learningresources/Creating_Course.md)<br>
+[Create courses and learning resources >](../../manual_user/area_modules/authoring_new_course.md)<br>
+[Learning path courses >](../../manual_user/learningresources/Learning_path_course.md)<br>
+[Creating learning path courses >](../../manual_user/learningresources/Creating_learning_path_courses.md)<br>
+[Course elements >](../../manual_user/learningresources/Course_Elements.md)<br>
+[Course elements in the Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Course settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Deleting, Moving and Copying Course Elements >](../../manual_user/learningresources/Deleting_Moving_and_Copying_Course_Elements.md)<br>
+[Design possibilities of courses and course elements >](../../manual_user/learningresources/Design_possibilities_of_courses_and_course_elements.md)<br>
+[Members management >](../../manual_user/learningresources/Members_management.md)<br>
+[How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>
 
 [To the top of the page ^](#my_first_course)

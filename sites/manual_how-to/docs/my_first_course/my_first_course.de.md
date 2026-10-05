@@ -75,6 +75,7 @@ Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 
 Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs gibt können Sie detaillierte Angaben machen. Für den Anfang übernehmen wir die Voreinstellungen. 
 Später können Sie diese Kurseinstellungen jederzeit wieder aufrufen und bearbeiten unter <b>Administration > Einstellungen</b>.<br>
+Die einzelnen Schritte sind ausführlich erklärt im Benutzerhandbuch: [Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md).<br>
 (Das Einstellen wird oft auch Kurs-Konfiguration genannt. Im Unterschied zur [Konfiguration der Kursbausteine](#configure_course_elements).)
 
 ![kurseinstellungen_v1_de.png](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" }
@@ -258,5 +259,25 @@ Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemach
 !!! tip "Tipp"
 
     Voraussetzung für eine Veröffentlichung im Katalog ist natürlich, dass die Administration einen Katalog eingerichtet hat. Sie erkennen es daran, ob in der Hauptnavigation der Bereich "Katalog" angezeigt wird.
+
+[Zum Seitenanfang ^](#my_first_course)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Überblick über den Autorenbereich >](../../manual_user/area_modules/Authoring.de.md)<br>
+[Allgemeines über Kurse >](../../manual_user/learningresources/General_Information.de.md)<br>
+[Kurs erstellen >](../../manual_user/learningresources/Creating_Course.de.md)<br>
+[Kurse und Lernressourcen erstellen >](../../manual_user/area_modules/authoring_new_course.de.md)<br>
+[Lernpfadkurse >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurse erstellen >](../../manual_user/learningresources/Creating_learning_path_courses.de.md)<br>
+[Kursbausteine >](../../manual_user/learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](../../manual_user/learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
+[Gestalterische Möglichkeiten von Kursen und Kursbausteinen >](../../manual_user/learningresources/Design_possibilities_of_courses_and_course_elements.de.md)<br>
+[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
+[Wie zeige ich meine Kurse im OpenOlat-Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
 
 [Zum Seitenanfang ^](#my_first_course)
