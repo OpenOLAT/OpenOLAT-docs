@@ -62,16 +62,20 @@
     text-decoration: none;
     transition: filter .15s ease, background-color .15s ease;
   }
-  .fx404__btn--primary {
+  /* .md-typeset a sets the link colour with higher specificity, so the selectors carry it too */
+  .md-typeset a.fx404__btn--primary,
+  .md-typeset a.fx404__btn--primary:hover,
+  .md-typeset a.fx404__btn--primary:focus {
     background: var(--md-primary-fg-color);
     color: var(--md-primary-bg-color);
   }
-  .fx404__btn--primary:hover { filter: brightness(1.08); }
-  .fx404__btn--ghost {
+  .md-typeset a.fx404__btn--primary:hover { filter: brightness(1.08); }
+  .md-typeset a.fx404__btn--ghost {
     border: 2px solid var(--md-primary-fg-color);
     color: var(--md-primary-fg-color);
   }
-  .fx404__btn--ghost:hover {
+  .md-typeset a.fx404__btn--ghost:hover,
+  .md-typeset a.fx404__btn--ghost:focus {
     background: var(--md-primary-fg-color);
     color: var(--md-primary-bg-color);
   }
