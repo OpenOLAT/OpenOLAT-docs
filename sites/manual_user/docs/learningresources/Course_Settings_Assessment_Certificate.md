@@ -1,8 +1,9 @@
 # Course Settings - Tab Assessment:<br>Certificates and recertification {: #certificate_and_recertification}
 
-The configuration of a certificate for a course is done in the course settings in the "Assessment" tab.
+The configuration of a certificate for a course is done in:<br>
+`Course > Administration > Settings > Tab "Assessment"`
 
-![Path to the certificate configuration via Administration > Settings > Assessment tab, Certificate section with validity period and recertification](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
+![Path via Administration, Settings and Assessment tab to the Certificate section with Issue certificate, Generate PDF certificate, Certificate template, Custom variables and Validity period](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" title="Assessment tab in the course settings" }
 
 ## Certificates [:octicons-tag-16:{ title="from Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
 
@@ -10,9 +11,8 @@ The configuration of a certificate for a course is done in the course settings i
 
 A **PDF certificate** can be issued as confirmation of attendance at a course or completion of certain course-related activities. It is also possible to issue a certificate without using an evidence of achievement.
 
-In addition to these course certificates, the certificate program can also issue a certificate for attending multiple courses. Such certificates are awarded within the Course Planner (Implementation).
-
-[More about the certificate program >](../area_modules/Course_Planner_Certification_Programs.md) 
+In addition to these course certificates, the certification program can also issue a certificate for attending multiple courses. Such certificates are awarded within the Course Planner (Implementation).<br>
+[More about certification programs >](../area_modules/Course_Planner_Certification_Programs.md)
 
 **The following information refers to the certificate for a single course.**
 
@@ -21,12 +21,13 @@ In addition to these course certificates, the certificate program can also issue
 
 As the author, you can choose whether the certificate is issued **manually** by coaches and/or **automatically** after passing the course.
 
-The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later.
+The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later. After issuing, OpenOlat reports "The certificate will be created within the next few seconds." and generates the PDF file in the background.
 
 
 ### Where can the certificates be viewed? {: #certificate_view}
 
-Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. Users also automatically receive an **email notification** as soon as a certificate has been issued.
+Once the participant has fulfilled all the requirements for passing a course, the certificate is available in the **toolbar of the respective course** under "My Course" in the evidence of achievement. OpenOlat issues the certificate immediately and then generates the PDF file in the background. The file is usually available after a short time, and the users then automatically receive an **email notification**. Until then, the certificate cannot be downloaded yet; in the personal menu it carries the label "Pending". [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
+[More about certificates in the personal menu >](../personal_menu/Certificates.md)
 
 
 ### How is validity verified? [:octicons-tag-16:{ title="from Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
@@ -36,7 +37,7 @@ A **validity period** can be specified for the certificate. You can specify the 
 To verify the validity of the certificate, the attribute "certificateVerificationUrl" must be added to the template. This allows the certificate to be regenerated at a later date **using a QR code** and compared with the current version. If both versions match, the certificate can be declared valid. However, the QR code for validation is only possible when using an HTML form.
 
 
-### What happens when a certificate expires? {: #certificate_expiry}
+### What happens when a certificate expires? [:octicons-tag-16:{ title="from Release 17.2 (OO-6671)" }](https://track.frentix.com/issue/OO-6671) {: #certificate_expiry}
 
 Reminders can be triggered based on the certificate's issue date and expiration date. For example, course participants can receive a notification that the certificate has expired or will expire in a few days, or that **recertification** is now possible.
 
@@ -58,7 +59,7 @@ You can check the appearance of the default template directly in OpenOlat: the "
 
 The "Select" button next to the "Certificate template" field opens the "Select template" dialog. It offers the system-wide templates with the entry "Default" for the default template, and below that the field for your own file.
 
-![Templates list with the Default entry and the File area for uploading your own template, in the Select template dialog](assets/course_settings_assessment_certificate_template_select_v1_en.png){ class="shadow lightbox" }
+![Templates list with the Default entry, below it the File field for uploading your own template](assets/course_settings_assessment_certificate_template_select_v1_en.png){ class="shadow lightbox" title="Select template dialog" }
 
 This [certificate bot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} allows you to quickly and easily create certificate templates in HTML format. If you want to customize the bot to suit your needs, the [repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} with the publicly available code (MIT license) is available.
 
@@ -179,7 +180,7 @@ The recertification option is linked to
 * an existing previous (initial) certification
 * A defined indication of the earliest date on which recertification is possible.
 
-![Assessment settings page with the sections Certificate, Validity period and Recertification](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+![Issue certificate switched on, validity period set, below it the Recertification switch](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" title="Certificate section in the Assessment tab" }
 
 ### Activate recertification  {: #recertification_activation}
 
@@ -204,8 +205,9 @@ Evidence of achievement and certificates from previous rounds will be retained.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Certificates program (Certificates for multiple courses) >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Issue and manage certificates in the assessment tool >](Assessment_tool_overview.md)<br>
+[Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
 [Zertifikatsbot: Repository >](https://gitlab.vcrp.de/openolat/zertifikatsbot)<br>

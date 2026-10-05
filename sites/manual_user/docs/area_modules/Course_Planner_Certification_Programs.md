@@ -1,6 +1,6 @@
 # Course Planner: Certification programs {: #certification_programs}
 
-![The Certification programs button in the Tools area, highlighted on the Course Planner start page](assets/course_planner_certification_programs_v2_en.png){ class="shadow lightbox" }
+![Certification programs button in the Tools area highlighted: the entry point to all certification programs](assets/course_planner_certification_programs_v2_en.png){ class="shadow lightbox" title="Course Planner start page" }
 
 
 ## What is a certification program? [:octicons-tag-16:{ title="from Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #description}
@@ -9,19 +9,19 @@ A certificate may be issued as confirmation of attendance at a course or complet
 
 Certificates for a **single course** are activated and configured in `Course > Administration > Settings > Assessment`.
 
-![Timeline with the learning phase in the status in preparation and the practice phase in the status certified after obtaining a certificate](assets/course_planner_certification_programs_process1_v1_de.png){ class="shadow lightbox" }
+![Learning phase in the status in preparation, after the certificate the practice phase in the status certified](assets/course_planner_certification_programs_process1_v1_de.png){ class="shadow lightbox" title="Learning phase and practice phase of a certificate" }
 
 A certificate for **attending an implementation** or **attending several courses**, on the other hand, can be issued using the **certification program**. Such certificates are awarded within the **Course Planner** (implementation). Persons can be admitted to a certification program, and any required recertifications can be managed there: `Course Planner > Certification programs`
 
-![Timeline with admission to a certification program on obtaining the certificate and the passed recertification 1 during membership](assets/course_planner_certification_programs_process2_v1_de.png){ class="shadow lightbox" }
+![Admission to the program with the certificate, recertification 1 passed, membership continues](assets/course_planner_certification_programs_process2_v1_de.png){ class="shadow lightbox" title="Membership with passed recertification" }
 
 If a member does not meet the required recertification criteria, their membership will be terminated (automatically).
 
-![Timeline with the failed recertification 2, after which membership in the certification program ends with the status left](assets/course_planner_certification_programs_process3_v1_de.png){ class="shadow lightbox" }
+![Recertification 2 not passed, the membership ends with the status left](assets/course_planner_certification_programs_process3_v1_de.png){ class="shadow lightbox" title="Membership ends after failed recertification" }
 
 On the other hand, membership in a certification program is also possible for candidates, meaning it can begin even before the first certification.
 
-![Timeline with admission to the certification program already in the learning phase, before obtaining the first certificate](assets/course_planner_certification_programs_process4_v1_de.png){ class="shadow lightbox" }
+![Admission to the certification program already in the learning phase, before obtaining the first certificate](assets/course_planner_certification_programs_process4_v1_de.png){ class="shadow lightbox" title="Membership from the learning phase" }
 
 | Certificate in course   | Certificate in certification program |
 | -------------------- | ------------------------------------------- |
@@ -49,8 +49,6 @@ On the other hand, membership in a certification program is also possible for ca
 To create a new certification program, click<br>
 `Course Planner > Certification programs > Create Certification program`
 
-![The Create certification program button at the top right above the program list, highlighted in the Certification programs area](assets/course_planner_certification_programs_create_v1_en.png){ class="shadow lightbox" }
-
 [To the top of the page ^](#certification_programs)
 
 ---
@@ -61,8 +59,6 @@ To create a new certification program, click<br>
 Open a certification program by clicking on its name in the list. Then configure it in the various tabs. Step-by-step instructions for setup can be found here:<br>
 [How can I create certification programs with the Course Planner? >](../../manual_how-to/certification_programs/certification_programs.md)
 
-![The program title as a link in the Title column, highlighted in the list of certification programs](assets/course_planner_certification_programs_config1_v1_en.png){ class="shadow lightbox" }
-
 [To the top of the page ^](#certification_programs)
 
 ---
@@ -72,13 +68,13 @@ Open a certification program by clicking on its name in the list. Then configure
 
 A certification program can be set from "Active" to "Inactive" status. This is particularly helpful during creation.
 
-![The expanded status menu with Active and Inactive next to the program title, in an opened certification program](assets/course_planner_certification_programs_config_status_v2_en.png){ class="shadow lightbox" }
+![Expanded status menu next to the program title with the entries Active and Inactive](assets/course_planner_certification_programs_config_status_v2_en.png){ class="shadow lightbox" title="Opened certification program" }
 
 [To the top of the page ^](#certification_programs)
 
 ---
 
-### Tab Overview {: #config_tab_overview}
+### Tab Overview [:octicons-tag-16:{ title="from Release 20.2 (OO-8816)" }](https://track.frentix.com/issue/OO-8816){:target="_blank"} {: #config_tab_overview}
 
 The overview page of the certification program shows a widget **Active members**. It states the number of members by status:
 
@@ -89,7 +85,7 @@ The overview page of the certification program shows a widget **Active members**
 
 A click on a key figure filters the member list below it. How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
-![The key figures Active, Certified, Expiring soon and In recertification with the list of certified members, in the Overview tab of a certification program](assets/course_planner_certification_programs_config_overview_v2_en.png){ class="shadow lightbox" }
+![Key figures Active, Certified, Expiring soon and In recertification, below them the list of certified members](assets/course_planner_certification_programs_config_overview_v2_en.png){ class="shadow lightbox" title="Overview tab of a certification program" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -98,7 +94,7 @@ A click on a key figure filters the member list below it. How an overview page i
 
 ### Tab Members {: #config_tab_members}
 
-To add more people to the certification program and give them the opportunity to earn a certificate, use the **"Add member" button**.
+To add more people to the certification program and give them the opportunity to earn a certificate, use the **"Certify new users" button**.
 
 Every person in the certification program has a **membership status**:
 
@@ -115,7 +111,21 @@ Individuals who have left the certification program can be viewed under a separa
 The three dots at the end of a list item allow certification program owners to contact the person in question.<br>
 The option to revoke certificates can also be found here. This allows, for example, certificates that have been issued automatically in error to be withdrawn manually.
 
-![The tiles Active, Candidates and Alumni, the Certify new users button and the row menu with Contact, Renew certificate and Revoke certificate, in the Members tab](assets/course_planner_certification_programs_config_members_v2_en.png){ class="shadow lightbox" }
+![Tiles Active, Candidates and Alumni, button Certify new users, row menu with Contact and Revoke](assets/course_planner_certification_programs_config_members_v2_en.png){ class="shadow lightbox" title="Members tab of a certification program" }
+
+#### Certificate file status [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128){:target="_blank"} {: #certificate_status}
+
+After certifying many persons, you want to know whether every certificate is already available as a PDF file. The certificate file status answers this for each certificate, independently of the membership status of the person.
+
+OpenOlat issues a certificate immediately and then generates the PDF file in the background. This applies to every way of issuing, including the "Certify new users" wizard and the automatic recertification. The serial number, the issue date and the validity period are fixed from the moment of issuing, and the certificate is valid. Only the PDF file is affected.
+
+As long as the PDF file is missing, the detail view of the member (click on the plus sign in front of the row) shows a label in the "Certificate" column instead of the link:
+
+* **Pending**: The PDF file is being generated. It is usually available after a short time, later if many certificates were issued at the same time.
+* **Error** with the tooltip "Error, retry scheduled": The generation failed, and OpenOlat tries again automatically. You do not need to do anything.
+* **Error** without tooltip: All automatic attempts are used up. Administrators regenerate the PDF file in the system administration: [Maintenance tab >](../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance)
+
+With the filter "Certificate file status" you narrow the list of active members down to the persons whose PDF file is still missing. The filter is not shown from the start; you add it in the filters of the table. The selection contains "Pending" and "Error" twice: the first entry "Error" stands for the certificates that OpenOlat tries again, the second for the certificates without further attempts.
 
 [To the top of the page ^](#certification_programs)
 
@@ -125,7 +135,7 @@ The option to revoke certificates can also be found here. This allows, for examp
 
 Notifications and reminders always refer to the current configuration. You can check this again in the upper section.
 
-![The configuration overview, the five prepared notifications with switch and the Reminders for recertification section, in the Messages tab](assets/course_planner_certification_programs_config_messages_v2_en.png){ class="shadow lightbox" }
+![Configuration overview, five notifications with switch and the Reminders for recertification section](assets/course_planner_certification_programs_config_messages_v2_en.png){ class="shadow lightbox" title="Messages tab of a certification program" }
 
 **Notifications**<br>
 In the Notifications section, you will find **pre-prepared notifications** for the certification program according to the current configuration. You can enable/disable these notifications as needed and customize the default templates for the messages. (You can find the button for customizing a template under the three dots or when you have opened the detailed view.)
@@ -144,14 +154,14 @@ The condition for obtaining a certificate is the successful completion of one of
 Implementations of type single course can also be linked to the certification program directly in the implementation: in the settings of the implementation, in the sub-tab "Assessment". [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"}<br>
 [More details >](Course_Planner_Implementations.md#tab_settings_assessment)
 
-![The linked implementations with type, Ref., participants, passed and status and the Add implementation button, in the Implementations tab](assets/course_planner_certification_programs_config_implementations_v2_en.png){ class="shadow lightbox" }
+![Linked implementation with type, Ref., number of participants and status, plus the Add implementation button](assets/course_planner_certification_programs_config_implementations_v2_en.png){ class="shadow lightbox" title="Implementations tab of a certification program" }
 
 If you have created multiple certification programs, you can display filtered lists:<br>
 All - Relevant - Cancelled - Finished
 
 By **clicking on the plus sign** in front of a list entry, you can display the details of this implementation. (You can close the details by clicking on the minus sign.) The **Course** area shows the linked course as a tile; if several courses are linked, the area is called **Courses**. The tile shows the title and the technical type of the course, the period and the status of the participants: the average progress, how many persons have passed, not passed or are undefined, the average points and the number of participants.
 
-![The linked course as a tile with the Learn more and Open buttons, in the Implementations tab of a certification program](assets/course_planner_certification_programs_config_implementations_details1_v1_en.png){ class="shadow lightbox" }
+![The linked course as a tile with period, status of the participants and the Learn more and Open buttons](assets/course_planner_certification_programs_config_implementations_details1_v1_en.png){ class="shadow lightbox" title="Details of an implementation in the Implementations tab" }
 
 Click **Learn more** to open the info page of the course. Click **Open** to go directly to the course.
 
@@ -168,7 +178,7 @@ Click **Learn more** to open the info page of the course. Click **Open** to go d
 
 Use this tab to add further owners to the current certification program or to remove them.
 
-![The Add owner button and the row action Remove owner, in the Owners tab of a certification program](assets/course_planner_certification_programs_config_owners_v2_en.png){ class="shadow lightbox" }
+![Add owner button and the row action Remove owner highlighted](assets/course_planner_certification_programs_config_owners_v2_en.png){ class="shadow lightbox" title="Owners tab of a certification program" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -186,17 +196,17 @@ In the settings you can define the following:
 * Which PDF certificate is awarded
 
 **Button "Metadata"**<br>
-![The fields Title, Reference and Administrative access, in the Metadata area of the Settings tab](assets/course_planner_certification_programs_config_settings_metadata_v3_en.png){ class="shadow lightbox" }
+![Fields Title, Reference and Administrative access](assets/course_planner_certification_programs_config_settings_metadata_v3_en.png){ class="shadow lightbox" title="Metadata area in the Settings tab" }
 
 <br>
 
 **Button "Configuration"**<br>
-![Validity with validity period, recertification with timeframe, mode Automatic or Manual, credit point system and required credit points, in the Configuration area](assets/course_planner_certification_programs_config_settings_config_v2_en.png){ class="shadow lightbox" }
+![Validity period, recertification with timeframe and mode, credit point system and required credit points](assets/course_planner_certification_programs_config_settings_config_v2_en.png){ class="shadow lightbox" title="Configuration area in the Settings tab" }
 
 <br>
 
 **Button "Certificate"**<br>
-![Certificate template, the With print version switch with print template and the Serial number section with format and counter start value, in the Certificate area](assets/course_planner_certification_programs_config_settings_certificate_v3_en.png){ class="shadow lightbox" }
+![Certificate template, With print version switch with print template, serial number with format and counter start value](assets/course_planner_certification_programs_config_settings_certificate_v3_en.png){ class="shadow lightbox" title="Certificate area in the Settings tab" }
 
 Under the "Certificate" button, you define which certificate template is used in the certification program. In addition, the following options are available:
 
@@ -216,7 +226,7 @@ With the **"With print version"** option, you activate an additional **print tem
 
 In this tab, you can trace all activities in the current certification program. Use the filters to search for specific activities.
 
-![Activities with date, context, object, activity, original value and new value, filterable by period, context and member, in the Activity log tab](assets/course_planner_certification_programs_config_activitylog_v1_en.png){ class="shadow lightbox" }
+![Log of the activities with date, activity and acting person, filterable by period and member](assets/course_planner_certification_programs_config_activitylog_v1_en.png){ class="shadow lightbox" title="Activity log tab of a certification program" }
 
 [To the top of the page ^](#certification_programs)
 
@@ -231,8 +241,6 @@ As explained above, you can make recertification conditional on the prior acquis
 **Credit points as a means of payment**<br>
 If the certification program issues a certificate, a determinable number of credit points may also be deducted from the credit balance. 
 
-![The Required credit points column, highlighted in the list of certification programs](assets/course_planner_certification_programs_credit_points_v1_en.png){ class="shadow lightbox" }
-
 [To the top of the page ^](#certification_programs)
 
 ---
@@ -243,10 +251,10 @@ Who received which certificate and when? This question is asked by owners of a c
 
 ### Overview for certification program owners
 In `Course Planner > Certification programs > "Program title" > Tab Members`, you will find a list of all participants in the certification program. **Click on the plus sign** in front of a list entry to open the detail view.
-There you will see all certificates of the selected person, including expired and archived certificates.<br>
+There you will see all certificates of the selected person, including expired and archived certificates. If the PDF file of a certificate is still missing, the label "Pending" or "Error" appears instead of the link: [Certificate file status >](#certificate_status)<br>
 The buttons above the list help you with presorted lists.
 
-![The expanded detail view of a member with all certificates, including expired and archived ones, and the courses, in the Members tab](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_en.png){ class="shadow lightbox" }
+![Expanded member with all certificates, including expired and archived ones, and the associated courses](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_en.png){ class="shadow lightbox" title="Detail view in the Members tab" }
 
 
 ### Overview for coaches
@@ -264,7 +272,8 @@ Education managers see all certificates of individual participants from differen
 ### Overview for participants [:octicons-tag-16:{ title="from Release 20.2 (OO-8818)" }](https://track.frentix.com/issue/OO-8818){:target="_blank"}
 Participants can find their certificates listed in their **personal menu**. It does not matter whether a certificate comes from a certification program or an individual course.
 
-![The own certificates as tiles with validity and recertification, reachable via Certificates under Achievements/Successes in the personal menu](assets/course_planner_certification_programs_issued_certificates_participant_v1_en.png){ class="shadow lightbox" }
+A newly issued certificate first appears there without a preview image. In the detail view it carries the label "Pending", and the button "Download certificate" is deactivated until the PDF file is available. Participants also see "Pending" if the generation has failed.<br>
+[More about certificates in the personal menu >](../personal_menu/Certificates.md)
 
 [To the top of the page ^](#certification_programs)
 
@@ -302,7 +311,7 @@ In addition, users with the roles "Administrator" and "Course planner" also have
 * Click the three dots at the end of the row for the participant in question.
 * There, you will see the options for renewing or revoking the certificate.
 
-![The row menu with Contact, Renew certificate and Revoke certificate, in the Members tab of a certification program](assets/course_planner_certification_programs_renew_redraw_v1_en.png){ class="shadow lightbox" }
+![Row menu with Contact, Renew certificate and Revoke certificate](assets/course_planner_certification_programs_renew_redraw_v1_en.png){ class="shadow lightbox" title="Members tab of a certification program" }
 
 
 !!! info "Important"
@@ -337,12 +346,16 @@ If a participant is selected in user management, there is a **Certificates tab**
 
 ## Further information {: #further_information}
 
-[How can I create certification programs with the Course Planner? (Step-by-step instructions) >](../../manual_how-to/certification_programs/certification_programs.md)<br>
-[Certificates in single courses >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
-[Certificates in the personal menu >](../personal_menu/Certificates.md)<br>
+**Mentioned on this page**<br>
+[How can I create certification programs with the Course Planner? >](../../manual_how-to/certification_programs/certification_programs.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Credit points in the personal menu >](../personal_menu/Credit_Points.md)<br>
-[Credit points (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+[e-Assessment Administration: Certificates >](../../manual_admin/administration/e-Assessment_Certificates.md)<br>
+[Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)
+
+**Further reading**<br>
+[Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
+[Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
+[e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)
 
 [To the top of the page ^](#certification_programs)
