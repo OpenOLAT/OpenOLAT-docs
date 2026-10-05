@@ -82,7 +82,7 @@ Before replacing the test, you should use the **assessment tool** to get an over
 
 Even if only one person has "clicked through" the test "just to try it out", the test learning resource is already considered "used" and can only be edited to a limited extent. OpenOlat cannot tell whether the test attempt was serious or not.
 
-In such a case, reset the participants' data so that they start over with the new test. OpenOlat cancels the previous test runs. Editing of the test learning resource itself nevertheless remains restricted, because the cancelled test runs are retained.
+In such a case, reset the participants' data. The participants then start the test over and no longer see earlier attempts and results. The test learning resource is still considered used, however, and can only be edited to a limited extent.
 
 To do this, use the **Reset data** button. You can select the "Test" course element directly in the course or in the assessment tool:<br>
 `(Assessment tool >) Select course element "Test" > Tab "Participants" > Select participants > Button "Reset data"`
@@ -97,7 +97,7 @@ You can also reset only the tests of certain individuals.
 
 ![After all participants are selected, the Reset data button appears above the list](assets/exchange_tests_reset_data_v1_de.png){ class="shadow lightbox" title="Participants tab in the Test course element" }
 
-Depending on the course element, the following data is reset or invalidated:
+Depending on the course element, OpenOlat resets the following data:
 
 * Progress
 * Number of attempts
@@ -167,7 +167,7 @@ If the course element has never been published, OpenOlat replaces the test learn
 ## Checklist {: #checklist}
 
 - [x] Is it absolutely necessary to replace the test learning resource?
-- [x] Could the course or the "Test" course element also be copied? (So that there is an unused learning resource again.)
+- [x] Could the course be copied, with the option "Copy" for the test? (Only this creates an unused test learning resource. With "Reuse", the copy uses the same test.)
 - [x] Has the new test learning resource already been created in the authoring area?
 - [x] Have participants already taken the previous test? Is data available?
 - [x] Is it possible to reset the test data?

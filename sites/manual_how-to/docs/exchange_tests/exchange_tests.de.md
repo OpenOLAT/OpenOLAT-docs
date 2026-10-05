@@ -81,7 +81,7 @@ Bevor Sie den Test austauschen, sollten Sie sich im **Bewertungswerkzeug** einen
 
 Auch wenn nur eine einzelne Person den Test "mal probehalber durchgeklickt" hat, gilt die Test-Lernressource bereits als "verwendet" und lässt sich nur noch eingeschränkt bearbeiten. OpenOlat kann nicht unterscheiden, ob der Testversuch ernst gemeint war oder nicht.
 
-In einem solchen Fall setzen Sie die Daten der Teilnehmer:innen zurück, damit sie mit dem neuen Test von vorn beginnen. OpenOlat annulliert dabei die bisherigen Testläufe. Die Bearbeitung der Test-Lernressource selbst bleibt trotzdem eingeschränkt, weil die annullierten Testläufe erhalten bleiben.
+In einem solchen Fall setzen Sie die Daten der Teilnehmer:innen zurück. Für die Teilnehmer:innen beginnt der Test danach von vorn, frühere Versuche und Resultate sehen sie nicht mehr. Die Test-Lernressource gilt aber weiterhin als verwendet und lässt sich nur eingeschränkt bearbeiten.
 
 Verwenden Sie dazu den Button **Daten zurücksetzen**. Sie können den Kursbaustein "Test" direkt im Kurs oder im Bewertungswerkzeug auswählen:<br>
 `(Bewertungswerkzeug >) Kursbaustein "Test" wählen > Tab "Teilnehmer:innen" > Teilnehmer:innen selektieren > Button "Daten zurücksetzen"`
@@ -96,7 +96,7 @@ Sie können auch nur die Tests von bestimmten Personen zurücksetzen.
 
 ![Nach dem Markieren aller Teilnehmer:innen erscheint über der Liste der Button Daten zurücksetzen](assets/exchange_tests_reset_data_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test" }
 
-Je nach Kursbaustein werden folgende Daten zurückgesetzt, beziehungsweise annulliert:
+Je nach Kursbaustein setzt OpenOlat folgende Daten zurück:
 
 * Fortschritt
 * Anzahl Versuche
@@ -167,7 +167,7 @@ Ist der Kursbaustein noch nie publiziert worden, ersetzt OpenOlat die Test-Lernr
 ## Checkliste {: #checklist}
 
 - [x] Muss die Test-Lernressource zwingend ausgetauscht werden?
-- [x] Könnte der Kurs/der Kursbaustein "Test" auch kopiert werden? (Damit wieder eine unbenutzte Lernressource vorliegt.)
+- [x] Könnte der Kurs kopiert werden, mit der Option "Kopieren" für den Test? (Nur so entsteht eine unbenutzte Test-Lernressource. Mit "Wiederverwenden" nutzt die Kopie denselben Test.)
 - [x] Wurde die neue Test-Lernressource bereits im Autorenbereich angelegt?
 - [x] Haben Teilnehmende bereits den vorherigen Test bearbeitet? Liegen Daten vor?
 - [x] Könnten die Test-Daten zurückgesetzt werden?
