@@ -3,7 +3,7 @@
 Die Konfiguration eines Zertifikates für einen Kurs erfolgt unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Bewertung"`
 
-![Vier markierte Schritte zum Abschnitt Zertifikat: Administration, Einstellungen, Tab Bewertung, dazu die Optionen Zertifikat ausstellen, Zertifikatvorlage, Optionale Variablen und Gültigkeitsdauer](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" }
+![Weg über Administration, Einstellungen und Tab Bewertung zum Abschnitt Zertifikat mit Zertifikat ausstellen, PDF Zertifikat erzeugen, Zertifikatvorlage, Optionale Variablen und Gültigkeitsdauer](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" title="Tab Bewertung in den Kurseinstellungen" }
 
 
 ## Zertifikate [:octicons-tag-16:{ title="ab Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
@@ -22,11 +22,12 @@ Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifik
 
 Als Autor:in wählen Sie beim Feld "PDF Zertifikat erzeugen" aus, ob das Zertifikat **manuell** von Betreuer:innen ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
 
-Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten.
+Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten. Nach dem Ausstellen meldet OpenOlat "Das Zertifikat wird in ein paar Sekunden erstellt." und erzeugt die PDF-Datei im Hintergrund.
 
 ### Wo sind die Zertifikate einsehbar? {: #certificate_view}
 
-Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. Die Benutzer:innen erhalten ausserdem automatisch eine **E-Mail-Benachrichtigung**, sobald ein Zertifikat ausgestellt worden ist.
+Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. OpenOlat stellt das Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Sie steht in der Regel nach kurzer Zeit bereit, und die Benutzer:innen erhalten dann automatisch eine **E-Mail-Benachrichtigung**. Bis dahin lässt sich das Zertifikat noch nicht herunterladen, im persönlichen Menü trägt es den Vermerk "Hängig". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)<br>
+[Mehr zu den Zertifikaten im persönlichen Menü >](../personal_menu/Certificates.de.md)
 
 ### Wie wird die Gültigkeit überprüft? [:octicons-tag-16:{ title="ab Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
 
@@ -34,7 +35,7 @@ Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Sie legen
 
 Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, **mittels QR-Code** das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
 
-### Was geschieht beim Ablauf eines Zertifikats? {: #certificate_expiry}
+### Was geschieht beim Ablauf eines Zertifikats? [:octicons-tag-16:{ title="ab Release 17.2 (OO-6671)" }](https://track.frentix.com/issue/OO-6671) {: #certificate_expiry}
 
 Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md) ausgelöst werden. Z.B. können Teilnehmende eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
 
@@ -57,7 +58,7 @@ Wie die Standardvorlage aussieht, prüfen Sie direkt in OpenOlat: Der Button "Vo
 
 Der Button "Auswählen" beim Feld "Zertifikatvorlage" öffnet den Dialog "Vorlage auswählen". Dort stehen die systemweiten Vorlagen mit dem Eintrag "Default" für die Standardvorlage zur Wahl, darunter das Feld für eine eigene Datei.
 
-![Auswahlliste Zertifikatsvorlagen mit dem Eintrag Default und der Bereich Datei zum Hochladen einer eigenen Vorlage, im Dialog Vorlage auswählen](assets/course_settings_assessment_certificate_template_select_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste Zertifikatsvorlagen mit dem Eintrag Default, darunter das Feld Datei zum Hochladen einer eigenen Vorlage](assets/course_settings_assessment_certificate_template_select_v1_de.png){ class="shadow lightbox" title="Dialog Vorlage auswählen" }
 
 Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
@@ -178,7 +179,7 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-![Zertifikat ausstellen eingeschaltet, Gültigkeitsdauer gesetzt, darunter der Schalter Rezertifizierung, Tab Bewertung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+![Zertifikat ausstellen eingeschaltet, Gültigkeitsdauer gesetzt, darunter der Schalter Rezertifizierung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" title="Abschnitt Zertifikat im Tab Bewertung" }
 
 
 ### Rezertifizierung aktivieren  {: #recertification_activation}
@@ -206,8 +207,9 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Zertifikate im Bewertungswerkzeug ausstellen und verwalten >](Assessment_tool_overview.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Persönliche Erfolge/Leistungen: Zertifikate >](../personal_menu/Certificates.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
 [Zertifikatsbot: Repository >](https://gitlab.vcrp.de/openolat/zertifikatsbot)<br>
