@@ -39,7 +39,7 @@ Jeder Lebenszyklus hat einen eigenen Auslöser und eigene Schritte:
 | Gruppen-Lebenszyklus | Tage ohne Besuch durch Gruppenbetreuer:innen oder Gruppenteilnehmer:innen | Inaktivierung, Löschung, Unwiderrufliche Löschung |
 | Kurs-Lebenszyklus | Kursende, also das Enddatum des Durchführungszeitraums | Status "Beendet", Status "Papierkorb", "Endgültig löschen" |
 | Automatischer Kontolebenszyklus | letzte Anmeldung | Deaktivierung, Löschung |
-| Durchführungs-Lebenszyklus | Durchführungszeitraum oder Statuswechsel | Statuswechsel, zum Beispiel auf "Aktiv" oder "Beendet". Gelöscht wird nichts. |
+| Durchführungs-Lebenszyklus | Durchführungszeitraum oder Statuswechsel | Statuswechsel, zum Beispiel auf "Bestätigt" oder "Beendet". Gelöscht wird nichts. |
 
 Am Beispiel des Gruppen-Lebenszyklus:
 
@@ -162,7 +162,7 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 
 ### Durchführungs-Lebenszyklus [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092) {: #implementation_lifecycle}
 
-Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch", "Bestätigt" und "Aktiv" bis "Beendet" oder "Abgebrochen". Dieser Ablauf ist der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
+Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch" und "Bestätigt" bis "Beendet" oder "Abgebrochen". Bei ihren Elementen, zum Beispiel Semestern oder Modulen, steht statt "Provisorisch" und "Bestätigt" der Status "Aktiv" zur Wahl. Ändern Sie den Status einer Durchführung, können Sie die enthaltenen Elemente im selben Schritt mitändern. Aus "Bestätigt" wird dabei bei den Elementen "Aktiv". Beide Abläufe zusammen sind der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
 
 Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Administrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
 `Administration > Module > Course Planner > Tab Elementtypen` [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)

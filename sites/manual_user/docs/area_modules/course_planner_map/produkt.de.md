@@ -3,7 +3,7 @@
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist Teil eines Versuchs, wie der visuelle Einstieg in den Course Planner künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich ist die reguläre Handbuchseite [Course Planner](../../Course_Planner/).
 
-Die Bildungsverantwortliche legt ein Produkt an und baut die Struktur auf: Lehrgang, Module, Einzelkurse. Jedes Element durchläuft die Status «Vorbereitung», «Provisorisch», «Bestätigt» und «Aktiv» bis «Beendet» oder «Abgebrochen». Für die Durchführung heisst dieser Ablauf Durchführungs-Lebenszyklus. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
+Die Bildungsverantwortliche legt ein Produkt an und baut die Struktur auf: Lehrgang, Module, Einzelkurse. Die Durchführung durchläuft die Status «Vorbereitung», «Provisorisch» und «Bestätigt» bis «Beendet» oder «Abgebrochen». Bei ihren Elementen steht statt «Provisorisch» und «Bestätigt» der Status «Aktiv» zur Wahl. Beide Abläufe zusammen heissen Durchführungs-Lebenszyklus. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
 
 Der Durchführungs-Lebenszyklus löscht nichts und steht nicht bei den drei Lebenszyklen für Gruppen, Kurse und Konten unter `Administration > Lebenszyklen`. Die Status lassen sich von Hand setzen oder über die [Automatisierung](../Course_Planner_Implementations.de.md#tab_settings_automation): Der Elementtyp gibt die Regeln vor, die einzelne Durchführung kann sie überschreiben. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 

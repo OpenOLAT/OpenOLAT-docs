@@ -3,7 +3,7 @@
 !!! warning "Concept study: possible new presentation"
     This page is part of an experiment exploring how the visual entry point to the Course Planner could look in the future. The content is deliberately abbreviated. The regular manual page [Course Planner](../../Course_Planner/) is authoritative.
 
-The person responsible for education creates a product and builds up its structure: study programme, modules, single courses. Every element passes through the status values "Preparation", "Provisional", "Confirmed" and "Active" to "Finished" or "Cancelled". For the implementation, this sequence is called the implementation life cycle. [:octicons-tag-16:{ title="from Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
+The person responsible for education creates a product and builds up its structure: study programme, modules, single courses. The implementation passes through the status values "Preparation", "Provisional" and "Confirmed" to "Finished" or "Cancelled". For its elements, the status "Active" is available instead of "Provisional" and "Confirmed". Both sequences together are called the implementation life cycle. [:octicons-tag-16:{ title="from Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092)
 
 The implementation life cycle does not delete anything and is not one of the three life cycles for groups, courses and accounts under `Administration > Life cycles`. You can set the status values manually or via [automation](../Course_Planner_Implementations.md#tab_settings_automation). The element type specifies the rules, and the individual implementation can override them. [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 

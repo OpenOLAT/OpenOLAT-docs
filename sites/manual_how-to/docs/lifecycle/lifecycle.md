@@ -38,7 +38,7 @@ Each life cycle has its own trigger and its own steps:
 | Group life cycle | Days without a visit by group coaches or group participants | Inactivation, Deletion, Permanent deletion |
 | Course life cycle | Course end, i.e. the end date of the execution period | Status "Finished", status "Trash", "Definitely deleted" |
 | Automatic user lifecycle | Last login | Deactivation, Deletion |
-| Implementation life cycle | Execution period or status change | Status change, for example to "Active" or "Finished". Nothing is deleted. |
+| Implementation life cycle | Execution period or status change | Status change, for example to "Confirmed" or "Finished". Nothing is deleted. |
 
 Using the group life cycle as an example:
 
@@ -161,7 +161,7 @@ How far a single account has progressed through these phases is shown in the "Ac
 
 ### Implementation life cycle [:octicons-tag-16:{ title="from Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092) {: #implementation_lifecycle}
 
-Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional", "Confirmed" and "Active" to "Finished" or "Cancelled". This sequence is the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not under `Administration > Life cycles`.
+Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional" and "Confirmed" to "Finished" or "Cancelled". For its elements, for example semesters or modules, the status "Active" is available instead of "Provisional" and "Confirmed". If you change the status of an implementation, you can change the contained elements in the same step. "Confirmed" then becomes "Active" for the elements. Both sequences together are the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not under `Administration > Life cycles`.
 
 You can set the status values manually or via the automation. Time-controlled rules of the automation refer to the begin or the end of the execution period, other rules take effect on a status change. Administrators store the rules per element type in the system administration under:<br>
 `Administration > Modules > Course Planner > Tab Element types` [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)

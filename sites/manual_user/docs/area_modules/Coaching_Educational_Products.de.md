@@ -55,11 +55,11 @@ Jeder Tab zeigt die Durchführungen in einem bestimmten Status:
 
 * **Favoriten**<br>Nur die Durchführungen, die Sie selbst mit der Flagge markiert haben, unabhängig vom Status. Sobald mindestens eine Markierung besteht, ist dieser Tab beim Öffnen vorausgewählt.
 * **Alle**<br>Alle Durchführungen ohne Einschränkung, auch die beendeten und die abgebrochenen. Nützlich, wenn Sie eine Durchführung suchen und ihren Status nicht kennen.
-* **Relevant**<br>Die Durchführungen mit dem Status "Provisorisch", "Bestätigt" oder "Aktiv". Das ist alles, was läuft oder verbindlich geplant ist, und damit die Ansicht für den Alltag. Haben Sie keine Favoriten markiert, ist dieser Tab vorausgewählt.
+* **Relevant**<br>Die Durchführungen mit dem Status "Provisorisch" oder "Bestätigt". Das ist alles, was läuft oder verbindlich geplant ist, und damit die Ansicht für den Alltag. Haben Sie keine Favoriten markiert, ist dieser Tab vorausgewählt.
 * **Vorbereitung**<br>Durchführungen, die noch nicht freigegeben sind. Diesen Tab sehen nur Betreuer:innen und Kursbesitzer:innen. Teilnehmende sehen Durchführungen in Vorbereitung nicht.
 * **Beendet**<br>Die Durchführungen mit dem Status "Beendet" und die mit dem Status "Abgebrochen", gemeinsam in einem Tab. Eine abgebrochene Durchführung verschwindet also nicht, sie wandert hierher.
 
-![Zuordnung der fünf Filter-Tabs zu den sechs Status einer Durchführung, der Tab Beendet umfasst auch abgebrochene Durchführungen.](assets/coaching_educational_products_filter_status_v1_de.svg){ class="shadow lightbox" }
+![Zuordnung der fünf Filter-Tabs zu den fünf Status einer Durchführung, der Tab Beendet umfasst auch abgebrochene Durchführungen.](assets/coaching_educational_products_filter_status_v1_de.svg){ class="shadow lightbox" title="Filter-Tabs und Status einer Durchführung · 2026.10.06" }
 
 Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchführungszeitraum ein. Das Suchfeld über der Liste durchsucht Titel und Kennzeichen der Durchführung sowie Titel und Kennzeichen des Produkts. Wie Sie Filter kombinieren und eigene Filter speichern, zeigt [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
@@ -75,7 +75,7 @@ Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts übe
 * **Kennzeichen**<br>Die Referenz aus Ihrer eigenen Systematik, zum Beispiel eine Kursnummer. Kursplaner:innen vergeben sie beim Anlegen der Durchführung.
 * **Produkt**<br>Das Bildungsprodukt, zu dem die Durchführung gehört, mit seinem Kennzeichen.
 * **Beginn** und **Ende**<br>Der geplante Zeitraum der Durchführung.
-* **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Aktiv", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
+* **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
 * **Stundenplan**<br>Der Zugang zu den Terminen der Durchführung.
 
 In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalte "Rollen". Die Bildungsprodukte unter "Kurse" und die Personenansicht im Coaching Tool zeigen zusätzlich die Spalte "Fortschritt".

@@ -56,11 +56,11 @@ Each tab shows the implementations in a certain status:
 
 * **Favourites**<br>Only the implementations that you marked with the flag yourself, regardless of the status. As soon as at least one mark exists, this tab is preselected when you open the list.
 * **All**<br>All implementations without restriction, including the finished and the cancelled ones. Useful when you look for an implementation and do not know its status.
-* **Relevant**<br>The implementations with the status "Provisional", "Confirmed" or "Active". That is everything that runs or is firmly planned, and therefore the view for everyday work. If you did not mark any favourites, this tab is preselected.
+* **Relevant**<br>The implementations with the status "Provisional" or "Confirmed". That is everything that runs or is firmly planned, and therefore the view for everyday work. If you did not mark any favourites, this tab is preselected.
 * **Preparation**<br>Implementations that are not yet released. Only coaches and course owners see this tab. Participants do not see implementations in preparation.
 * **Finished**<br>The implementations with the status "Finished" and those with the status "Cancelled", together in one tab. A cancelled implementation therefore does not disappear, it moves here.
 
-![Assignment of the five filter tabs to the six statuses of an implementation, the tab Finished also covers cancelled implementations.](assets/coaching_educational_products_filter_status_v1_en.svg){ class="shadow lightbox" }
+![Assignment of the five filter tabs to the five statuses of an implementation, the tab Finished also covers cancelled implementations.](assets/coaching_educational_products_filter_status_v1_en.svg){ class="shadow lightbox" title="Filter tabs and statuses of an implementation · 2026.10.06" }
 
 With the "Filter" menu you additionally narrow the list by product, status and execution period. The search field above the list searches the title and the reference of the implementation as well as the title and the reference of the product. How you combine filters and save your own filters is shown in [Working with tables](../basic_concepts/Table_Concept.md).
 
@@ -76,7 +76,7 @@ Which columns the list shows, you determine with the gear icon to the right abov
 * **Reference**<br>The reference from your own system of identifiers, for example a course number. Course planners assign it when they create the implementation.
 * **Product**<br>The educational product to which the implementation belongs, with its reference.
 * **Begin** and **End**<br>The planned period of the implementation.
-* **Status**<br>The status of the implementation, that is "Preparation", "Provisional", "Confirmed", "Active", "Cancelled" or "Finished". This column is hidden at the start.
+* **Status**<br>The status of the implementation, that is "Preparation", "Provisional", "Confirmed", "Cancelled" or "Finished". This column is hidden at the start.
 * **Timetable**<br>The access to the events of the implementation.
 
 In the other areas the choice of columns differs. The user management additionally shows the column "Roles". The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Progress".
