@@ -6,6 +6,10 @@ Wenn Sie beispielsweise vorwiegend mit Gruppen arbeiten und deshalb den Abschnit
 
 Weiter können Sie bestimmen, wie viele Einträge innerhalb eines Abschnittes angezeigt werden sollen. Um solche Anpassungen vorzunehmen, klicken Sie auf eines der Icons "Manuell sortieren" oder "Automatisch sortieren". Bei der manuellen Sortierung lässt sich neben der Auswahl der angezeigten Einträge auch die Reihenfolge einstellen.
 
+!!! info "Wichtig"
+
+    Bei der manuellen Sortierung zeigt ein Abschnitt nur die Einträge, die Sie dort ausgewählt haben. Neue Einträge, etwa ein später gesetztes Bookmark, eine neue Gruppe oder ein neuer Kurs, erscheinen erst, wenn Sie sie in der manuellen Sortierung auswählen oder zu "Automatisch sortieren" wechseln. Das gilt für die Abschnitte "Meine Kurse", "Meine betreuten Kurse", "Meine Gruppen", "Meine Leistungsnachweise", "Meine Benachrichtigungen", "Meine Notizen" und "Meine Bookmarks". Ist kein Eintrag ausgewählt, meldet zum Beispiel "Meine Bookmarks": "Sie haben keine Bookmarks erstellt."
+
 Wenn Sie gewisse Abschnitte auf Ihrem Home nicht sehen möchten, können Sie diese inaktivieren. Inaktive Abschnitte werden beim Konfigurieren am unteren Seitenrand angezeigt und können jederzeit wieder aktiviert werden.
 
 Sobald Sie die Konfiguration abgeschlossen haben, klicken Sie oben rechts auf "Konfiguration beenden".
