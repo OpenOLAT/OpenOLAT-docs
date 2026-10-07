@@ -2,7 +2,7 @@
 
 Unlike other learning resources, courses still have an "Execution" tab in the "Settings" menu.
 
-![All settings of the tab one below the other, from Execution period to Calculation of learning progress.](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox" title="Tab Execution in the Settings menu of a course" }
+![All settings of the tab one below the other, from the execution period to the learning progress](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox" title="Tab Execution in the Settings menu of a course" }
 
 ## Configuration of execution {: #config_execution}
 
@@ -59,7 +59,15 @@ This section is edited by **course owners**. Coaches do not reach it; they find 
 
 This toggle is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
 
-If you enable event and absence management for the current course, the remaining settings of this section appear. The fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" are only added once "Event can be marked as an exam" is switched on.
+You do not have to set the switch yourself in every case. As soon as an event is assigned to the course, OpenOlat switches on the Event & absence management if it is still switched off. This happens when
+
+- an event is created for this course with the "Add event" wizard, for example in the Course Planner,
+- an event of this course is edited and saved,
+- an element in the Course Planner receives this course as its first course and its existing events are assigned to the course in the process.
+
+Only the switch itself is switched on; the other settings of this section keep their default values. The Event & absence management is switched off only manually, even if all events of the course have been deleted. If an external system manages the configuration of the events and absences of this course, the switch is greyed out and OpenOlat does not change it. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+If the Event & absence management is switched on for the current course, the remaining settings of this section appear. The fields "Prep time", "Follow-up" and "Admissible IP addresses" are only added once "Event can be marked as an exam" is switched on. The field "Safe Exam Browser Keys" additionally only appears with the Safe Exam Browser type "With manual keys" (see [Safe Exam Browser Keys](#seb_key)).
 
 In addition, the "Events and Absences" menu will then appear in the course administration. As the **course owner**, you can enter events and absences there once the configuration is complete (at runtime).
 

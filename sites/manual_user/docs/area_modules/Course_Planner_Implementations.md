@@ -37,7 +37,7 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 
 ### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
-By activating the checkbox in the first column you select several implementations. The action **"Change type"** then appears above the table. In the dialog you choose the new element type and confirm with **"Change type"**. Only types that fit the selected elements are offered.
+By activating the checkbox in the first column you select several implementations. The action **"Change type"** then appears above the table, next to the bulk actions **"Create to-dos"**, **"Export"** and **"Delete"**. In the dialog you choose the new element type and confirm with **"Change type"**. Only types that fit the selected elements are offered.
 
 The same action is available in the search of the Course Planner and in the "Structure" tab of an implementation.
 
@@ -162,6 +162,8 @@ The list shows all courses belonging to this implementation with the columns "Ty
 
 If you want to add further courses for this implementation (deviating from the original structure), use the "**Add course**" button at the top right.
 
+If it is the first course of the implementation, OpenOlat assigns the existing events of the implementation to this course and reports "The course has been successfully added and the existing events have been assigned to the course." In the process, OpenOlat switches on the Event & absence management in the course if it is still switched off.
+
 The option to **remove** an **individual course** from this implementation can be found under the 3 dots at the end of a line.<br>
 To **remove several courses**, select the courses with the checkboxes in the first column. The buttons "Change status" and "Remove" then appear above the list.
 
@@ -206,7 +208,9 @@ Course templates are created by selecting the "Template" option in the course un
 - A click on the **+** at the beginning of a line shows the **details** of this event.
 - It is also possible to **import** events. To do this, click on the small arrow next to the "Add event" button.
 
-![The All levels and This level switches above the events of an implementation, on the right the Add event button with the arrow for the import](assets/course_planner_implementations_tab_events_v2_en.png){ class="shadow lightbox" title="Events tab · 2026.09.30" }
+If an event is assigned to a course, OpenOlat switches on the Event & absence management in the course if it is still switched off. Course owners then find the event in the course in the "Events and Absences" menu of the course administration, coaches in the "Events" tool of the course toolbar. When OpenOlat does not switch the function on itself is described in [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+![The All levels and This level switches above the event list, on the right the Add event button with the arrow for the import](assets/course_planner_implementations_tab_events_v2_en.png){ class="shadow lightbox" title="Events tab · 2026.09.30" }
 
 [To the top of the page ^](#implementations)
 
@@ -639,6 +643,7 @@ If you have already opened an implementation, you will also find the option to d
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Module Organisations (Administration) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
