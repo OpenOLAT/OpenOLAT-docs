@@ -1,14 +1,23 @@
 # Kontoeinstellungen verwalten {: #user_configuration}
 
-Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und ihre Kontoeinstellungen verwalten.
+Wer das Recht zur Benutzerverwaltung besitzt, kann über die [Kontosuche](Search_Users.de.md) eine bestimmte Person suchen und ihre Kontoeinstellungen verwalten.
 
 Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
 ![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung" }
 
-In den Kontoinformationen sind die Organisationen der Person unter "Benutzer:in in" und ihre zusätzlichen Rollen unter "Zusätzliche Rollen" als anklickbare Einträge aufgeführt; ein Klick öffnet den Reiter "Rollen". Hat das Konto keine zusätzlichen Rollen, wird der Eintrag nicht angezeigt. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
+Der Kopfbereich über den Reitern zeigt auf einen Blick, wem das Konto gehört, in welchen Organisationen die Person ist und welche Rollen sie hat. Neben dem Bild der Person steht der Status des Kontos, zum Beispiel "Aktiv". Unter dem Namen öffnen zwei Symbole die "Visitenkarte" der Person und ein Formular, mit dem Sie ihr eine "E-Mail" schreiben. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
-Daneben nennen die Kontoinformationen den Status des Kontos, die Identität, den Kontotyp, den Anmeldenamen und die E-Mail-Adresse. Über der Ansicht stellt die Aktion "Daten exportieren" die personenbezogenen Daten des Kontos zusammen, siehe [Datenschutz](Data_protection.de.md). An derselben Stelle steht Administrator:innen die Aktion "Löschen" zur Verfügung, siehe [Benutzer:in löschen](Delete_User.de.md). Benutzerverwalter:innen und Rollenverwalter:innen sehen diese Aktion nicht.
+- **Identität**: die Nummer, unter der OpenOlat das Konto führt.
+- **Benutzer:in in**: die Organisationen, in denen die Person die Rolle Benutzer:in hat. Gibt es keine solche Organisation, steht hier "Keine Daten vorhanden".
+- **Zusätzliche Rollen**: alle Rollen der Person ausser Benutzer:in, zum Beispiel Autor:in oder Lernressourcenverwalter:in. Hat die Person eine Rolle in mehreren Organisationen, steht die Anzahl dieser Organisationen in Klammern hinter der Rolle. Hat sie keine weitere Rolle, fehlt die Zeile.
+- **E-Mail**: die E-Mail-Adresse aus dem Profil.
+- **Kontotyp**: "Registriert", "Extern" oder "Anonymer Zugang".
+- **Anmeldename**: der Name, mit dem sich die Person anmeldet.
+
+Ein Klick auf die Organisationen oder auf die Rollen öffnet den Reiter "Rollen", der die Rollen der Person je Organisation zeigt.
+
+In der Werkzeugleiste über dem Kopfbereich stehen zwei Aktionen. "Daten exportieren" startet den Export der Daten, die OpenOlat zu diesem Konto gespeichert hat, siehe [Datenschutz](Data_protection.de.md#export_user_data). "Löschen" löscht das Konto, siehe [Benutzer:in löschen](Delete_User.de.md). Die Aktion "Löschen" sehen nur Administrator:innen.
 
 Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
@@ -311,6 +320,7 @@ Hier kann abgefragt werden, welche Korrekturaufträge der Benutzer:in zugeordnet
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Kontosuche >](Search_Users.de.md)<br>
 [Datenschutz >](Data_protection.de.md)<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
 [E-Mail Einstellungen >](../administration/E-Mail_Settings.de.md)<br>
@@ -326,7 +336,6 @@ Hier kann abgefragt werden, welche Korrekturaufträge der Benutzer:in zugeordnet
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>
-[Kontosuche >](Search_Users.de.md)<br>
 [Konto erstellen >](Create_User.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
 

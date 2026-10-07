@@ -1,15 +1,24 @@
 # Manage user settings {: #user_configuration}
 
-If you have the right to manage users, you can search for a specific person using the user search and manage their user settings.
+If you have the right to manage users, you can search for a specific person using the [user search](Search_Users.md) and manage their user settings.
 
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
 ![Header area with status, identity, organisation, account type and username, below them 25 tabs from Profile to Grading assignments](assets/user_management_configure_user_v5_en.png){ class="shadow lightbox" title="User settings of an account in User management" }
 
-The account information lists the person's organisations under "User in" and their additional roles under "Additional Roles" as clickable entries; a click opens the "Roles" tab. If the account has no additional roles, the entry is not displayed. [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
+The header area above the tabs shows at a glance whose account it is, which organisations the person belongs to and which roles they have. Next to the picture of the person, the status of the account is displayed, for example "Active". Below the name, two icons open the "Visiting card" of the person and a form with which you write them an "E-mail". [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
-Besides that, the account information states the status of the account, the identity, the account type, the username and the email address. Above the view, the action "Export data" compiles the personal data of the account, see [Data protection](Data_protection.md). At the same place, administrators have the action "Delete" available, see [Delete user](Delete_User.md). User managers and roles managers do not see this action.
+- **Identity**: the number under which OpenOlat maintains the account.
+- **User in**: the organisations in which the person has the User role. If there is no such organisation, "No data available" is displayed here.
+- **Additional Roles**: all roles of the person except User, for example Author or Learning resource manager. If the person has a role in several organisations, the number of these organisations is shown in brackets after the role. If the person has no further role, the line is missing.
+- **E-Mail**: the email address from the profile.
+- **Account type**: "Registered user", "External user" or "Anonymous guest".
+- **Username**: the name with which the person logs in.
+
+A click on the organisations or on the roles opens the "Roles" tab, which shows the roles of the person per organisation.
+
+The toolbar above the header area holds two actions. "Export data" starts the export of the data that OpenOlat has stored for this account, see [Data protection](Data_protection.md#export_user_data). "Delete" deletes the account, see [Delete user](Delete_User.md). Only administrators see the action "Delete".
 
 Each user account is maintained independently; accounts are not merged. What a person has achieved in OpenOlat, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
 
@@ -313,6 +322,7 @@ Here you can check which grading assignments have been assigned to this user.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[User search >](Search_Users.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Delete user >](Delete_User.md)<br>
 [E-mail settings >](../administration/E-Mail_Settings.md)<br>
@@ -328,7 +338,6 @@ Here you can check which grading assignments have been assigned to this user.
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
-[User search >](Search_Users.md)<br>
 [Create user >](Create_User.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)
 
