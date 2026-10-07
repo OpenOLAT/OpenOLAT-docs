@@ -374,6 +374,7 @@ nav:
         - Configure test questions: "learningresources/Configure_test_questions.md"
         - Configure tests: "learningresources/Configure_tests.md"
         - Test settings: "learningresources/Test_settings.md"
+      - Tests at course level: "learningresources/Tests_at_course_level.md"
       - Export tests: "learningresources/Test_export.md"
     - CP learning content:
        - CP Editor: "learningresources/CP_Editor.md"

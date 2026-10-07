@@ -12,13 +12,15 @@ The "Title and description" and "Layout" tabs are the same for all course elemen
 
 ### Tab "Learning path"
 
-In the Learning path tab, you can define whether the course element is mandatory for the learning path course, whether it should not be used for the learning path display (setting "Voluntary"), or whether the course element should not be displayed at all (setting "Excluded"). You can also define a release date, a maximum processing date and the expected processing time. The following completion criteria are also available for tests:
+In the Learning path tab, you define under "Execution" whether the test is "Mandatory" or "Optional" in the learning path course, or whether the course element should not be displayed at all ("Excluded"). Furthermore, a "Release date", a date under "Due date" and the expected "Learning time (minutes)" can be defined. The fields of this tab are described on the page [Learning path course - Course editor](Learning_path_course_Course_editor.md).
+
+In addition, the following options are available for tests under "Completion criterion": "Visit course element", "Confirmation by participant", "Score", "Passed" and "Test finished".
 
 ![Field Completion criterion with five options marked, Test finished selected](assets/course_element_test_completion_criterion_v1_en.png){ class="shadow lightbox" title="Learning path tab of the course element Test · 2026.10.01" }
 
 ### Tab "Test configuration"
 
-Here you select or create the test that you want to use and assign to the course element Test. You can then make further settings, e.g. define the type of correction or the way the test results are displayed.
+Here you select or create the test that you want to use and assign to the course element Test. You then make further settings, e.g. the type of correction or the way the test results are displayed.
 
 The following settings are possible after you have created or assigned a learning resource test:
 
@@ -69,7 +71,7 @@ The **test summary** shows, among other things, the percentage achieved, the tim
 
 The **section summary** is only relevant if a test also contains [sections](Configure_tests.md).
 
-In the **question summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed but not the question itself.
+In the **question summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed, but not the question itself.
 
 With the option **Answer, submitted by participant**, the question, all answer options as well as the choice of the participants are shown, but no evaluation whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
 
@@ -79,12 +81,12 @@ Depending on the combination of the display options, different types of feedback
 
 ### Tab "Options"
 
-If you include a test in a course, the settings from the configuration of the learning resource Test (see "[Test settings](Test_settings.md)" and "[Configure test](Configure_tests.md)") will be adopted by default. Therefore, "Use configuration of the learning resource" is selected in the "Options" tab and the corresponding settings made in the learning resource Test are displayed here.
+If you include a test in a course, the settings from the configuration of the learning resource Test (see "[Test settings](Test_settings.md)" and "[Configure tests](Configure_tests.md)") will be adopted by default. Therefore, "Use configuration of the learning resource" is selected in the "Options" tab and the corresponding settings made in the learning resource Test are displayed here.
 
-If the configuration needs to be adapted, "Adjust configuration" needs to be selected. These adaptions do not have any impact on the configuration of the learning resource itself.
+If the settings for a test included in the course need to be changed, "Adjust configuration" can be selected and the desired changes made. These adaptations do not have any impact on the configuration of the learning resource Test itself.
 
 ### Tab "Communication" [:octicons-tag-16:{ title="from Release 16.2.0 (OO-5966)" }](https://track.frentix.com/issue/OO-5966)
-Here you can set whether participants can send live chat requests to the coaches or owners of the course during the test. Of course, this only makes sense if real coaches observe the test being carried out during a defined test period.
+Here you can set whether participants can send live chat requests to the coaches or owners of the course during the test. This is only useful if real coaches observe the test being carried out during a defined test period.
 
 ### Tab "HighScore" [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133)
 
@@ -95,10 +97,10 @@ A highscore overview for the test can also be activated and further configured h
 ### Tab "Correctors" [:octicons-tag-16:{ title="from Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442)
 An overview of the correctors and further information will appear. Changes can be made via a link to the test's learning resource.
 
-### E-Mail confirmation [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6672)" }](https://track.frentix.com/issue/OO-6672)
-Activate the email confirmation if you want to confirm the submission of the test by email. You can use different variables such as name or score in the email text. A copy of the e-mail can also be sent to the course owners, responsible coaches or external e-mail addresses.
+### Tab "Confirmation e-mail" [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6672)" }](https://track.frentix.com/issue/OO-6672)
+Activate the confirmation e-mail if you want to confirm the submission of the test by e-mail. You can use different variables such as name or score in the e-mail text. A copy of the e-mail can also be sent to the course owners, responsible coaches or external e-mail addresses.
 
-The template and a preset subject with the title of the test course element in the subject can be used for the email text. Alternatively, the template and subject can also be changed. In this case, select "Template" -> "Own text" to edit or completely change the mailing text.
+The template and a preset subject with the title of the test course element in the subject can be used for the e-mail text. Alternatively, the template and subject can also be changed. In this case, select the option "Own text" under "Template" to edit or completely change the e-mail text.
 
 Further information about variables in mailing texts can be found [here](Administration_and_Organisation.md#use-of-variables).
 
@@ -107,7 +109,7 @@ Reminder e-mails can be configured here according to specific criteria. Further 
 
 ## Comparison: Test and Self-test
 
-Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selftest
+Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Self-test
 ------|------|------
  Intended use | Examination test, test with the possibility of examination by the teacher, standard test | Exercise, self-evaluation, no insight for the teacher
  Created with | [Test editor](Test_editor_QTI_2.1.md) | [Test editor](Test_editor_QTI_2.1.md)
@@ -119,7 +121,7 @@ Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 !!! tip "Tip"
 
-    Sometimes it makes sense to use the type "test" even if you actually want to provide the learners with a self-test, because with tests you have the possibility to support the learners individually if necessary and also to provide feedback on manually assessable question types.
+    Sometimes it makes sense to use the type "Test" even if you actually want to provide the learners with a self-test. Tests make it possible to support the learners individually if necessary and also to provide feedback on manually assessable question types.
 
 ## Changes to tests and self-tests
 
@@ -129,7 +131,7 @@ Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 Why is that? Assuming you could add questions to an integrated test or mark other answers as correct, not all participants would meet the same requirements. On the other hand, results may already have been saved that cannot be unambiguously assigned to a version of the test file after the change. Therefore the editing of already integrated tests and self-tests is strongly restricted.
 
-For example, if you want to add a new question to a test or if an answer was incorrectly marked as correct, copy the learning resource Test in the Author Area and save the test again. Edit and correct the test and then include the test in the course. To do this, switch to the course editor and exchange the file in the course element of the desired test. If results have already been received, they will be archived in your personal folder (private) and you can decide whether OpenOlat should inform the course participants who have already taken the test about the change.
+For example, if you want to add a new question to a test or if an answer was incorrectly marked as correct, copy the learning resource Test in the Author Area and save the test again. Edit and correct the test and then include the test in the course. To do this, switch to the course editor, open the "Test configuration" tab in the course element of the desired test and click "Replace". In the "Replace test" dialog you choose between the replacement options "Controlled replacement" and "Replace only". What the two options do with previous test runs and assessments is described on the page [Course Element "Test"](Course_Element_Test.md#tab_replace_tests).
 
 ## View and grade tests
 
@@ -137,7 +139,7 @@ Access to tests completed by participants is available in the "[Assessment tool]
 
 Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
 
-![Participants with attempts, score and status as well as an open row menu with actions such as Reset number of attempts](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow lightbox" title="Participants tab of a test in the course run" }
+![Participants with attempts, score and status as well as an open row menu with the assessment actions](assets/course_element_test_run_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 
 If the correction workflow is switched on for a test, the entered correctors make the assessments via the [Coaching Tool](../area_modules/Coaching.md).
 
@@ -152,9 +154,11 @@ Via `Course > Administration > Test statistics` ([Test statistics](../learningre
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Learning path course - Course editor >](Learning_path_course_Course_editor.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [How do I prepare an online exam? >](../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Test question types >](Test_question_types.md)<br>
+[Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Test settings - Administration >](Test_settings.md)<br>
 [Configure tests >](Configure_tests.md)<br>
 [Administration and Organisation >](Administration_and_Organisation.md)<br>
@@ -162,8 +166,12 @@ Via `Course > Administration > Test statistics` ([Test statistics](../learningre
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Test statistics >](../learningresources/Statistics_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
-[Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
+
+**Further reading**<br>
+[Course Element "Self-test" >](Course_Element_Self_Test.md)<br>
+[Assessing tests >](Assessing_tests.md)
 
 [To the top of the page ^](#tests-at-course-level)
