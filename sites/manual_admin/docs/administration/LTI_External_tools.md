@@ -6,7 +6,7 @@ If OpenOlat is used as a "platform" in the sense of LTI terminology, OpenOlat di
 
 Administrators enable the integration of external tools in the system administration under `Administration > External tools > LTI`, tab "Configuration". They then set up the communication and the secure connection to each tool in the "External tools" tab.
 
-![Tab External tools with the button Create a new tool and no tools entered yet, on the page LTI in the menu External tools of the system administration](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" }
+![Button Create a new tool, no tools entered yet](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" title="Tab External tools of the page LTI in the system administration" }
 
 **Examples of external tools:**
 
@@ -48,27 +48,29 @@ Under "Create a new tool" you enter the following parameters of the external too
 
 OpenOlat generates the last four values. The dialog only displays them. Transfer them together with the Client ID to the configuration of the external tool.
 
-![Input fields for the external tool at the top, below them the values Client ID, Platform ISS and three URIs provided by OpenOlat, in the dialog Create a new tool](assets/LTI_admin_tool_config_v2_en.png){ class="shadow lightbox" }
+![Input fields for the external tool at the top, below them the values Client ID, Platform ISS and three URIs provided by OpenOlat](assets/LTI_admin_tool_config_v2_en.png){ class="shadow lightbox" title="Dialog Create a new tool" }
 
-### Global or local deployment {: #deployment_scope}
+### Global or local deployment [:octicons-tag-16:{ title="from Release 18.1 (OO-7343)" }](https://track.frentix.com/issue/OO-7343) {: #deployment_scope}
 
 The "With shared deployment" option determines how the external tool is embedded:
 
 * **Enabled (global deployment):** OpenOlat generates a shared deployment ID. The same tool can then be reused in several courses without configuring it separately for each course.
-* **Disabled (local deployment):** A separate deployment is created for each course. The tool is then only available in the respective course.
+* **Disabled (local deployment):** A separate deployment is created for each "LTI page" course element. The tool is then only available there.
 
 You set the option "With shared deployment" when you create the tool. You cannot change it afterwards.
+
+If an "LTI page" course element with a local deployment is copied, the original and the copy then share a common deployment. This also applies when the whole course is copied or the course element is imported into another course. Both then send the same deployment ID to the tool. If the tool is another OpenOlat, it accepts the same deployment ID for several courses: [Does one deployment ID apply to several courses?](LTI_Integrations.md#deployments) [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
 [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
-[LTI - Deep Linking >](../administration/LTI_Deeplinking.md)
+[LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
+[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
 [LTI - External Platforms >](../administration/LTI_External_platforms.md)<br>
 [LTI - Role mapping >](../administration/LTI_Role_Mapping.md)<br>
 [Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)
