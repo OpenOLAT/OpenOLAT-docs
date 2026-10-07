@@ -244,12 +244,15 @@ You can offer a course in the catalog as early as the planning phase and, for ex
 
 The usage of a course defines whether the course keeps members of its own or whether the Course Planner manages them. You can find it in every course under:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Usage"`<br>
-The "Change" button opens the "Change usage" dialog. Two values matter for the Course Planner:
+The "Change" button opens the "Change usage" dialog. A course knows three usages:
 
-- **Use in Course Planner**: for courses that you add directly to an implementation.
-- **Template**: for course templates from which the Course Planner instantiates a course of its own for every implementation (see step 10).
+- **Standalone**: The course manages its members itself. It does not appear in the "Add course" dialog of an implementation.
+- **Use in Course Planner**: for courses that you add directly to an implementation. The members come from the implementation; in the course itself you only manage the owners.
+- **Template**: for course templates from which the Course Planner instantiates a course of its own for every implementation (see step 10). A template has no participants.
 
-![Change usage dialog with the selected option for courses in the Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Usage section in the Share tab" }
+The dialog offers the fourth usage "Embedding" only for learning resources other than courses.
+
+![Change usage dialog with the selected option for courses in the Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Change usage dialog" }
 
 !!! info "What does the usage «Use in Course Planner» do?"
 
@@ -270,18 +273,31 @@ In the course, under `Course > Administration > Settings > Tab "Share"`, select 
 ![Usage section with the usage for courses in the Course Planner and the Change button](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" title="Share tab of the course settings" }
 
 
-The method described for specifying the usage can also be used for verification purposes.
-If a course used in the Course Planner has the usage "Standalone", a warning message appears: this usage is not recommended for courses in the Course Planner.
+The method described for specifying the usage also serves for verification. If a course with the usage "Standalone" is already part of an implementation, its "Share" tab shows a warning message: this usage is not recommended for courses in the Course Planner.
+
+The "Add course" dialog of the implementation, however, shows no message. A course without the usage "Use in Course Planner" does not appear there at all. If a course is missing from the list, check its usage first (see [step 7](#add_course_dialog)).
 
 You can find more about the Usage section in the user manual under:<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md#section_usage)
-
 
 !!! tip "Tip"
 
     If the Course Planner is used extensively, it is advisable to set the usage for new courses in the system administration to "Use in Course Planner".<br>
     Please contact your system administration for assistance.<br>
     The default setting "Usage for new courses" can be found under: `Administration > Modules > Course Planner > Tab "Settings"`
+
+### If the usage cannot be changed {: #embedding_locked}
+
+If you want to use a course in the Course Planner that has already been in use, the option "Use in Course Planner" in the "Change usage" dialog is often not selectable. The dialog shows the reason above the selection. Three reasons block the change from "Standalone" to "Use in Course Planner":
+
+- The course has members other than the owners, that is coaches or participants.
+- A group of the course is also embedded in another course.
+- The "Access for participants" in the "Share" tab is not set to "Private".
+
+If the course has members, copy it with `Course > Administration > Copy` and change the usage of the copy. The copy is created without coaches, participants and group members.
+
+You can find more about copying in the user manual under:<br>
+[Copy (a course) >](../../manual_user/learningresources/Course_Copy.md)
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -303,6 +319,20 @@ To add content (courses) to an implementation, select the **"Content" tab** in a
 !!! note "Note"
 
     Step 10 describes how a course can be automatically created from a course template on a specific date.
+
+### Which courses the "Add course" dialog shows {: #add_course_dialog}
+
+If you are looking for a course in the "Add course" dialog that is not in the list, OpenOlat gives no reason. Three conditions decide which courses the dialog offers:
+
+1. **Usage:** The dialog only shows courses with the usage "Use in Course Planner" (see [step 6](#embedding)). Courses with the usage "Standalone" or "Template" never appear here. You add a template with the "Add course template" button (see step 10).
+2. **Organisation:** In addition to your own courses, the dialog shows courses whose administrative access contains the organisation of the product or one of its sub-organisations. Added to these are courses that you manage through a role in the course's organisation, for example as learning resource manager. The access only works downwards: if a course is only shared with a parent organisation of the product, it does not appear. In that case, add the organisation of the product in the course under `Course > Administration > Settings > Tab "Share" > Administrative access`. The field accepts several organisations.
+3. **Tab:** The dialog opens on the "My courses" tab, and this tab only shows courses you own. You find courses of other owners in the "Search form" tab. The "Favourites" tab shows the courses you have marked as favourites.
+
+!!! tip "Course not in the list?"
+
+    - Is the usage of the course set to "Use in Course Planner"?
+    - Are you an owner of the course, or does its administrative access contain the organisation of the product or one of its sub-organisations?
+    - Have you switched to the "Search form" tab for courses of other owners?
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
 
@@ -392,7 +422,8 @@ You can find more about the automation in the user manual under:<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
+[Copy (a course) >](../../manual_user/learningresources/Course_Copy.md)
 
 **Further reading**<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>

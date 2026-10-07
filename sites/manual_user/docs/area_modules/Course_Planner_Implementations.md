@@ -162,6 +162,10 @@ The list shows all courses belonging to this implementation with the columns "Ty
 
 If you want to add further courses for this implementation (deviating from the original structure), use the "**Add course**" button at the top right.
 
+The "Add course" dialog only offers courses with the usage "Use in Course Planner". Of these, it shows your own courses, courses shared with the organisation of the product or one of its sub-organisations, and courses that you manage through a role in the course's organisation. It opens on the "My courses" tab. You find courses of other owners in the "Search form" tab. If a course is missing, OpenOlat gives no reason. The three conditions and what to do if a course is missing are described here:<br>
+[Which courses the "Add course" dialog shows >](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_course_dialog)<br>
+[Setting in the courses of the product >](Course_Planner_Products.md#course_settings)
+
 If it is the first course of the implementation, OpenOlat assigns the existing events of the implementation to this course and reports "The course has been successfully added and the existing events have been assigned to the course." In the process, OpenOlat switches on the Event & absence management in the course if it is still switched off.
 
 The option to **remove** an **individual course** from this implementation can be found under the 3 dots at the end of a line.<br>
@@ -188,7 +192,7 @@ Using a template for instantiation is recommended if it is a recurring course th
 The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
 **Creation of course templates**<br>
-Course templates are created by selecting the "Template" option in the course under `Course > Administration > Settings > Share > Usage`. The templates for course content in Course Planner do not have independent member management, as members are added in the Course Planner for each implementation.
+Course templates are created by selecting the usage "Template" in the course under `Course > Administration > Settings > Tab "Share" > Section "Usage"`. The templates for course content in Course Planner do not have independent member management, as members are added in the Course Planner for each implementation.
 
 !!! info "Important"
 
@@ -643,6 +647,8 @@ If you have already opened an implementation, you will also find the option to d
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[Course Planner: Products >](Course_Planner_Products.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Module Organisations (Administration) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
@@ -659,9 +665,7 @@ If you have already opened an implementation, you will also find the option to d
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)
 
 [To the top of the page ^](#implementations)

@@ -1,6 +1,6 @@
 # Course Planner: Products [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
-![The Products button, highlighted below the five areas of the Course Planner overview, opened via the Course Planner entry in the More menu](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
+![The Products button, highlighted below the five areas of the Course Planner overview, opened via the Course Planner entry in the More menu](assets/course_planner_products_v3_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 
 ## What do we mean by a product in OpenOlat? {: #definition}
@@ -24,9 +24,9 @@ Products are used in **Course Planner** to plan an educational program with seve
 The implementations of a product can be offered in the [catalog](../../manual_user/area_modules/catalog2.0_angebote.md).
 
 If participants are not only assigned to a single course as members, but to the [Implementation](../../manual_user/area_modules/Course_Planner_Implementations.md) of a product, the membership is visible to the participants when they select the "Courses" option in the main menu.<br>
-Courses that are assigned to a product appear there in the "Educational programs" section.
+Courses that are assigned to a product appear there in the "Educational products" section.
 
-![The Courses area in the main menu: next to My courses and In preparation the Educational programs button, where participants find the courses of their booked implementations](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" }  
+![Next to My courses and In preparation, the button for the educational products, where participants find the courses of their booked implementations](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" title="Courses area" }
 
 [To the top of the page ^](#products)
 
@@ -50,26 +50,31 @@ After activation, system administrators can activate and set up the module at:<b
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
-![The way to the products: the Course Planner entry in the More menu opens the overview, where the Products button leads to the subsection](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" }  
+![The way to the products: the Course Planner entry in the More menu opens the overview, where the Products button leads to the subsection](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
-![The Products page in the Course Planner: the Create product button at the top right above the list, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
+![Create product button at the top right above the list, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" title="Products page in the Course Planner" }
 
-![The Create product dialog with five numbered fields: Title and Reference are mandatory, plus Organisation, the Absence management switch and the editor for the description](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" }
+![Title and Reference as mandatory fields, plus Organisation, the Absences selection and the editor for the description](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" title="Create product dialog" }
 
-![1](assets/1_green_24.png) **Title**:
+#### Title {: #create_product_title}
+
 The specification of a title is mandatory.
 
-![2](assets/2_green_24.png) **Reference**:
+#### Reference {: #create_product_reference}
+
 The reference is also a mandatory field. (It is used as an identifier to differentiate between elements with the same title).
 
-![3](assets/3_green_24.png) **Organizations**:
-When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module.
+#### Organisation {: #create_product_organisation}
 
-![4](assets/4_green_24.png) **Absence management**:
-With this selection, you determine whether absence management should be used for this product. The prerequisite is that administrators have activated the module and made it available to the course authors, at:<br>
+When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module. The organisation of the product also decides which courses the "Add course" dialog of an implementation offers: courses shared with this organisation or one of its sub-organisations (see [Setting in the courses of the product](#course_settings)).
+
+#### Absences {: #create_product_absence_management}
+
+With the selection "On" or "Off", you determine whether absence management should be used for this product. The prerequisite is that administrators have activated the module and made it available to the course authors, at:<br>
 `Administration > Modules > Events / Absences`
 
-![5](assets/5_green_24.png) **Description**:
+#### Description {: #create_product_description}
+
 In this editor for the description, you can insert videos in addition to text, images and links or record audio directly by clicking on the microphone button.
 
 [To the top of the page ^](#products)
@@ -85,7 +90,7 @@ With **"Save filter"**, frequently used filter combinations can be saved as your
 
 Course planners work with the "All" view, which shows the active products. Administrators additionally have the predefined filters **"Active"** (selected by default) and **"Deleted"** available.
 
-![The product list in the Course Planner with the tabs All, Active and Deleted: the Organisation and More filters on the left, the Save filter menu item and the sorting by relevance on the right](assets/course_planner_products_overview_filter_v1_en.png){ class="shadow lightbox" }
+![Tabs All, Active and Deleted, the Organisation and More filters on the left, the Save filter menu item and the sorting by relevance on the right](assets/course_planner_products_overview_filter_v1_en.png){ class="shadow lightbox" title="Product list in the Course Planner" }
 
 [To the top of the page ^](#products)
 
@@ -123,19 +128,23 @@ Products, implementations and memberships can also be imported or exported via a
 ## Settings in the courses of a product [:octicons-tag-16:{ title="from Release 20.0 (OO-8104)" }](https://track.frentix.com/issue/OO-8104){:target="_blank"} {: #course_settings}
 
 A product normally comprises several courses.
-In the settings of each course, the **Usage** field defines how the course is used:
+In the settings of each course, the **Usage** field defines how the course is used. Three usages are available for a course:
 
 * **Standalone**: independent learning resource with member management
-* **Template**: template for course content, without standalone member management
-* **Embedding in course**: reusable learning resource, without standalone member management
 * **Use in Course Planner**: administered by the Course Planner, without standalone member management
+* **Template**: template for course content, without standalone member management
 
-If a course is managed via the Course Planner, the usage is **"Use in Course Planner"**. The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
+The fourth usage **Embedding** (reusable learning resource, without standalone member management) is only available for learning resources other than courses.
 
-In the selected course you will find the usage in the **Usage** section under:<br>
-`Course > Administration > Settings > Share`
+If a course is managed via the Course Planner, the usage is **"Use in Course Planner"**. The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members). The "Add course" dialog of an implementation only offers courses with this usage.
 
-![The usage Use in Course Planner in the Usage section, hence without standalone member management, in the Share tab of the course settings](assets/course_planner_products_share_v3_en.png){ class="shadow lightbox" }  
+In the selected course you will find the usage under:<br>
+`Course > Administration > Settings > Tab "Share" > Section "Usage"`
+
+![Usage Use in Course Planner, hence without standalone member management](assets/course_planner_products_share_v3_en.png){ class="shadow lightbox" title="Usage section in the Share tab" }
+
+If a course already has coaches or participants, its usage can no longer be changed to "Use in Course Planner". The reasons that block the change and how you still reach your goal are described here:<br>
+[If the usage cannot be changed >](../../manual_how-to/course_planner_courses/course_planner_courses.md#embedding_locked)
 
 [To the top of the page ^](#products)
 
