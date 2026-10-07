@@ -13,7 +13,7 @@ Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden B
 
 Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehlt ein Menüpunkt, ist das kein Fehler: Entweder ist das entsprechende Modul nicht aktiviert oder die dafür nötige Rolle wurde nicht zugewiesen.
 
-![Jede der fünf Rollen arbeitet in einem eigenen Bereich der Hauptnavigation, von Kurse bis Administration](assets/roles_home_areas_v1_de.svg){ class="shadow lightbox" }
+![Jede der fünf Rollen arbeitet in einem eigenen Bereich der Hauptnavigation, von Kurse bis Administration](assets/roles_home_areas_v1_de.svg){ class="shadow lightbox" title="Kernbereiche der Hauptnavigation je Rolle" }
 
 ---
 
@@ -37,7 +37,7 @@ Die Arbeitsbereiche ergänzen sich, ohne sich zu überschneiden. So bleibt jeder
 
 Rollen sind natürlich kombinierbar. Eine Lehrperson kann zum Beispiel als Autor:in im Autorenbereich Kurse erstellen, im Coaching die eigenen Teilnehmenden begleiten und unter "Meine Kurse" selbst eine Weiterbildung absolvieren. Die Hauptnavigation zeigt in diesem Fall alle entsprechenden Menüpunkte nebeneinander an.
 
-Innerhalb eines Kurses gibt es zusätzlich den Rollenwechsel: Wurden einer Person mehrere Kursrollen zugewiesen, kann sie über die "Benutzerrolle" in der Toolbar des Kurses die Perspektive wechseln.<br>
+Innerhalb eines Kurses gibt es zusätzlich den Rollenwechsel: Wurden einer Person mehrere Kursrollen zugewiesen, kann sie über das Menü "Rolle" in der Toolbar des Kurses die Perspektive wechseln.<br>
 (Siehe [Rollen in einem Kurs](Roles.de.md#course))
 
 [zum Seitenanfang ^](#home_areas)

@@ -13,7 +13,7 @@ If you are assigned both roles in a course, the course appears in both areas. Yo
 
 Two people can therefore see different menus after logging in. If a menu item is missing, this is not an error: either the corresponding module is not activated or the required role has not been assigned.
 
-![Each of the five roles works in its own area of the main navigation, from Courses to Administration](assets/roles_home_areas_v1_en.svg){ class="shadow lightbox" }
+![Each of the five roles works in its own area of the main navigation, from Courses to Administration](assets/roles_home_areas_v1_en.svg){ class="shadow lightbox" title="Core areas of the main navigation by role" }
 
 ---
 
@@ -37,7 +37,7 @@ The working areas complement each other without overlapping. This keeps each are
 
 Roles can of course be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My courses". In this case the main navigation displays all the corresponding menu items side by side.
 
-Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "User's role" in the course toolbar.<br>
+Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "Role" menu in the course toolbar.<br>
 (See [Roles in a course](Roles.md#course))
 
 [To the top of the page ^](#home_areas)

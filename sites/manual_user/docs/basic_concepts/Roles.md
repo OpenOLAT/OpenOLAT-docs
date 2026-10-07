@@ -98,9 +98,9 @@ In addition to the course-related roles, [guests](guest_access.md) without an Op
 
 !!! tip "Role change"
 
-    It is also possible for people to be given several course roles and thus take different perspectives on the course. Once a person has been assigned several course-related roles, a role change is possible by switching the "User's role" in the toolbar of the course.
+    It is also possible for people to be given several course roles and thus take different perspectives on the course. Once a person has been assigned several course-related roles, a role change is possible via the "Role" menu in the toolbar of the course.
 
-    ![Switch from owner to participant or coach via the selection list User role](assets/user_role.png){ class="shadow lightbox" title="Toolbar of the course" }
+    ![Switch from owner to participant or coach via the Role menu](assets/user_role.png){ class="shadow lightbox" title="Toolbar of the course" }
 
 
 [To the top of the page ^](#roles)

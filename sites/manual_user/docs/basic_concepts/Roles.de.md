@@ -98,9 +98,9 @@ Neben den kursbezogenen Rollen können in herkömmlichen Kursen auch [Gäste](gu
 
 !!! tip "Rollenwechsel"
 
-    Es ist ferner möglich, dass Personen mehrere Kursrollen erhalten und so verschiedene Perspektiven auf den Kurs einnehmen können. Ein Rollenwechsel ist, nachdem einer Person mehrere kursbezogene Rollen zugewiesen wurden, über den Wechsel der "Benutzerrolle" in der Toolbar des Kurses möglich.
+    Es ist ferner möglich, dass Personen mehrere Kursrollen erhalten und so verschiedene Perspektiven auf den Kurs einnehmen können. Ein Rollenwechsel ist, nachdem einer Person mehrere kursbezogene Rollen zugewiesen wurden, über das Menü "Rolle" in der Toolbar des Kurses möglich.
 
-    ![Wechsel von Besitzer zu Teilnehmer oder Betreuer über die Auswahlliste Benutzerrolle](assets/user_role_switch_DE.png){ class="shadow lightbox" title="Toolbar des Kurses" }
+    ![Wechsel von Besitzer zu Teilnehmer oder Betreuer über das Menü Rolle](assets/user_role_switch_DE.png){ class="shadow lightbox" title="Toolbar des Kurses" }
 
 
 [zum Seitenanfang ^](#roles)
