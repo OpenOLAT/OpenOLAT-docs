@@ -247,12 +247,15 @@ Sie können bereits in der Planungsphase einen Kurs im Katalog anbieten und z.B.
 
 Der Verwendungszweck eines Kurses legt fest, ob der Kurs eigene Mitglieder führt oder ob der Course Planner sie verwaltet. Sie finden ihn in jedem Kurs unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`<br>
-Mit dem Button "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Für den Course Planner sind zwei Werte massgebend:
+Mit dem Button "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Ein Kurs kennt drei Verwendungszwecke:
 
-- **Verwendung im Course Planner**: für Kurse, die Sie direkt in eine Durchführung einbinden.
-- **Template**: für Kurstemplates, aus denen der Course Planner für jede Durchführung einen eigenen Kurs instanziiert (siehe Schritt 10).
+- **Eigenständig**: Der Kurs führt seine Mitglieder selbst. Im Dialog "Kurs hinzufügen" einer Durchführung erscheint er nicht.
+- **Verwendung im Course Planner**: für Kurse, die Sie direkt in eine Durchführung einbinden. Die Mitglieder kommen aus der Durchführung, im Kurs selbst verwalten Sie nur noch die Besitzer:innen.
+- **Template**: für Kurstemplates, aus denen der Course Planner für jede Durchführung einen eigenen Kurs instanziiert (siehe Schritt 10). Ein Template hat keine Teilnehmenden.
 
-![Dialog Verwendungszweck ändern mit der gewählten Option für Kurse im Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Abschnitt Verwendung im Tab Freigabe" }
+Den vierten Verwendungszweck "Einbindung" bietet der Dialog nur anderen Lernressourcen als Kursen an.
+
+![Dialog Verwendungszweck ändern mit der gewählten Option für Kurse im Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern" }
 
 !!! info "Was bewirkt der Verwendungszweck «Verwendung im Course Planner»?"
 
@@ -273,18 +276,31 @@ Wählen Sie im Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe
 ![Abschnitt Verwendung mit dem Verwendungszweck für Kurse im Course Planner und dem Button Ändern](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
 
 
-Der beschriebene Weg zur Angabe des Verwendungszwecks kann auch zur Kontrolle verwendet werden.
-Hat ein Kurs, der im Course Planner verwendet wird, den Verwendungszweck "Eigenständig", erscheint eine Warnmeldung: Dieser Verwendungszweck wird für Kurse im Course Planner nicht empfohlen.
+Der beschriebene Weg zur Angabe des Verwendungszwecks dient auch zur Kontrolle. Steckt ein Kurs mit dem Verwendungszweck "Eigenständig" bereits in einer Durchführung, zeigt sein Tab "Freigabe" eine Warnmeldung: Dieser Verwendungszweck wird für Kurse im Course Planner nicht empfohlen.
+
+Im Dialog "Kurs hinzufügen" der Durchführung gibt es dagegen keine Meldung. Ein Kurs ohne den Verwendungszweck "Verwendung im Course Planner" erscheint dort gar nicht. Fehlt ein Kurs in der Liste, prüfen Sie deshalb zuerst seinen Verwendungszweck (siehe [Schritt 7](#add_course_dialog)).
 
 Mehr zum Abschnitt Verwendung finden Sie im Benutzerhandbuch unter:<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md#section_usage)
-
 
 !!! tip "Tipp"
 
     Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Verwendungszweck für neue Kurse in der System-Administration auf "Verwendung im Course Planner" einzustellen.<br>
     Wenden Sie sich dafür an Ihre Systemadministration.<br>
     Die Voreinstellung "Verwendungszweck für neue Kurse" finden Sie unter: `Administration > Module > Course Planner > Tab "Einstellungen"`
+
+### Wenn sich der Verwendungszweck nicht ändern lässt {: #embedding_locked}
+
+Wollen Sie einen Kurs, der schon im Einsatz war, im Course Planner verwenden, ist die Option "Verwendung im Course Planner" im Dialog "Verwendungszweck ändern" oft nicht anwählbar. Der Dialog nennt den Grund über der Auswahl. Drei Gründe sperren den Wechsel von "Eigenständig" zu "Verwendung im Course Planner":
+
+- Der Kurs hat Mitglieder ausser den Besitzer:innen, also Betreuer:innen oder Teilnehmer:innen.
+- Eine Gruppe des Kurses ist auch in einem anderen Kurs eingebunden.
+- Der "Zugang für Teilnehmer:innen" im Tab "Freigabe" steht nicht auf "Privat".
+
+Hat der Kurs Mitglieder, kopieren Sie ihn mit `Kurs > Administration > Kopieren` und stellen die Kopie um. Die Kopie entsteht ohne Betreuer:innen, Teilnehmer:innen und Gruppenmitglieder.
+
+Mehr zum Kopieren finden Sie im Benutzerhandbuch unter:<br>
+[Kopieren (eines Kurses) >](../../manual_user/learningresources/Course_Copy.de.md)
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -306,6 +322,20 @@ Um einer Durchführung Inhalt (Kurse) hinzuzufügen, wählen Sie in einer Durchf
 !!! note "Hinweis"
 
     Wie ein Kurs von einem Kurstemplate ausgehend automatisch zu einem bestimmten Termin erstellt werden kann, ist in Schritt 10 beschrieben.
+
+### Welche Kurse der Dialog "Kurs hinzufügen" zeigt {: #add_course_dialog}
+
+Suchen Sie im Dialog "Kurs hinzufügen" einen Kurs, der nicht in der Liste steht, nennt OpenOlat keinen Grund. Drei Bedingungen entscheiden, welche Kurse der Dialog anbietet:
+
+1. **Verwendungszweck:** Der Dialog zeigt nur Kurse mit dem Verwendungszweck "Verwendung im Course Planner" (siehe [Schritt 6](#embedding)). Kurse mit dem Verwendungszweck "Eigenständig" oder "Template" erscheinen hier nie. Ein Template fügen Sie mit dem Button "Kurstemplate hinzufügen" hinzu (siehe Schritt 10).
+2. **Organisation:** Neben Ihren eigenen Kursen zeigt der Dialog Kurse, deren Administrative Freigabe die Organisation des Produkts oder eine ihrer Unterorganisationen enthält. Dazu kommen Kurse, die Sie über eine Rolle in der Organisation des Kurses verwalten, etwa als Lernressourcenverwalter:in. Die Freigabe wirkt nur nach unten: Ist ein Kurs nur für eine übergeordnete Organisation des Produkts freigegeben, erscheint er nicht. Ergänzen Sie dann im Kurs die Organisation des Produkts unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Administrative Freigabe`. Das Feld nimmt mehrere Organisationen auf.
+3. **Tab:** Der Dialog öffnet auf dem Tab "Meine Kurse", und dieser zeigt nur Kurse, deren Besitzer:in Sie sind. Kurse anderer Besitzer:innen finden Sie im Tab "Suche". Der Tab "Favoriten" zeigt die Kurse, die Sie als Favorit markiert haben.
+
+!!! tip "Kurs nicht in der Liste?"
+
+    - Steht der Verwendungszweck des Kurses auf "Verwendung im Course Planner"?
+    - Sind Sie Besitzer:in des Kurses, oder enthält seine Administrative Freigabe die Organisation des Produkts oder eine ihrer Unterorganisationen?
+    - Haben Sie für Kurse anderer Besitzer:innen in den Tab "Suche" gewechselt?
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -395,7 +425,8 @@ Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
+[Kopieren (eines Kurses) >](../../manual_user/learningresources/Course_Copy.de.md)
 
 **Weiterführend**<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>

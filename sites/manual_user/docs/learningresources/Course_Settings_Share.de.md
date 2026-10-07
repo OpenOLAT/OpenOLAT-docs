@@ -2,7 +2,7 @@
 
 Den Tab Freigabe öffnen Sie im Kurs über `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
 
-![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](assets/course_settings_share_entry_v1_de.png){ class="shadow lightbox"}
+![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](assets/course_settings_share_entry_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
 Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich zeigt, hängt an seinem Verwendungszweck: siehe [Welche Abschnitte erscheinen?](#sections_by_usage)
 
@@ -33,7 +33,7 @@ Der Tab Freigabe sieht nicht bei jedem Kurs gleich aus. Ausschlaggebend ist der 
 
 Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Administrative Freigabe stehen. Mitgliedschaft, Buchung und Austritt regeln Sie dort in der Durchführung des Course Planner. Auch die Freigabeübersicht fällt kürzer aus: Sie zählt nur die Besitzer:innen, weil der Kurs selbst keine Betreuer:innen und Teilnehmer:innen verwaltet.
 
-![Bei Verwendung im Course Planner bleibt von der Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt allein die Besitzer:innen](assets/course_settings_share_cpl_v1_de.png){ class="shadow lightbox"}
+![Bei Verwendung im Course Planner bleibt von der Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt allein die Besitzer:innen](assets/course_settings_share_cpl_v1_de.png){ class="shadow lightbox" title="Tab Freigabe eines Kurses im Course Planner" }
 
 !!! info "Wichtig"
 
@@ -49,18 +49,7 @@ Die Beschreibungen der folgenden Abschnitte gehen vom Verwendungszweck "Eigenst�
 
 Wird kein Course Planner verwendet, sind die Kurse eigenständig.
 
-![Verwendungszweck Eigenständig mit dem Link Ändern, im Abschnitt Verwendung des Tabs Freigabe](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox"}
-
-
-!!! info "Wichtig"
-
-    Durch Klick auf "Ändern" kann eine andere Verwendung gewählt werden. Beachten Sie jedoch, dass bei anderen Verwendungen die Mitgliederverwaltung nicht im Kurs erfolgt. Deshalb ist eine Änderung nicht mehr möglich, wenn bereits Mitglieder zu einem Kurs hinzugefügt wurden.
-
-
-Der Dialog "Verwendungszweck ändern" bietet nur die Verwendungszwecke an, zu denen Sie wechseln können. Der aktuelle Verwendungszweck steht deshalb nicht in der Auswahl. Sperrt eine Voraussetzung den Wechsel, nennt der Dialog sie über der Auswahl.
-
-![Wechsel auf Eigenständig oder Template, der aktuelle Verwendungszweck fehlt in der Auswahl, im Dialog Verwendungszweck ändern](assets/course_settings_share_usage2_v2_de.png){ class="shadow lightbox"}
-
+![Verwendungszweck Eigenständig mit dem Link Ändern](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox" title="Abschnitt Verwendung im Tab Freigabe" }
 
 **Eigenständig**<br>
 Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hinzufügen neuer Mitglieder öffnen Sie also `Kurs > Administration > Mitgliederverwaltung`.<br>
@@ -72,10 +61,24 @@ Wird der Kurs in ein Produkt des Course Planner eingebunden, werden die Mitglied
 **Template**<br>
 Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige Mitgliederverwaltung. Der Unterschied zur Option "Verwendung im Course Planner" besteht darin, dass ein Template zur Instanzierung verwendet wird. Der Kurs in einer Durchführung wird erst zu einem bestimmten Zeitpunkt aus diesem Template erstellt (instanziert).
 
+Durch Klick auf "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Er zeigt oben den aktuellen Verwendungszweck und darunter die Verwendungszwecke, zu denen Sie wechseln können. Der aktuelle Verwendungszweck steht deshalb nicht in der Auswahl.
+
+![Wechsel auf Eigenständig oder Template, der aktuelle Verwendungszweck fehlt in der Auswahl](assets/course_settings_share_usage2_v2_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern" }
+
+Ausser bei "Eigenständig" erfolgt die Mitgliederverwaltung nicht im Kurs. Deshalb sperrt OpenOlat einen Wechsel, sobald der Kurs eine Voraussetzung nicht erfüllt. Ein gesperrter Verwendungszweck steht im Dialog, ist aber nicht anwählbar. Die Gründe nennt der Dialog über der Auswahl unter dem Satz "Aufgrund der folgenden Voraussetzungen sind bestimmte Optionen nicht verfügbar:":
+
+- **Keine Mitglieder mit Ausnahme der Besitzer:innen:** Der Kurs hat Betreuer:innen oder Teilnehmer:innen. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
+- **Keine Gruppen, die auch in anderen Kursen eingebunden sind:** Eine Gruppe des Kurses ist zugleich in einem anderen Kurs eingebunden. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
+- **"Zugang für Teilnehmer:innen" muss auf "Privat" gesetzt sein:** Im Abschnitt Freigabe ist "Buchbare und offene Angebote" gewählt. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
+- **Keine Verwendung durch Course Planner:** Der Kurs oder das Template ist einer Durchführung zugeordnet. Sperrt jeden Wechsel ausser dem von "Eigenständig" zu "Verwendung im Course Planner".
+
+Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course Planner: Sie entsteht ohne Betreuer:innen und Teilnehmer:innen und lässt sich umstellen. Die Schritte finden Sie hier:<br>
+[Wenn sich der Verwendungszweck nicht ändern lässt >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#embedding_locked)
+
 !!! tip "Tipp"
 
-    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Administrator:innen können den standardmässigen Verwendungszweck für neue Kurse in der System-Administration einstellen unter:<br>
-    `Administration > Module > Modul Course Planner > Tab Course Planner`
+    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Administrator:innen stellen den Verwendungszweck für neue Kurse in der System-Administration ein, im Feld "Verwendungszweck für neue Kurse" unter:<br>
+    `Administration > Module > Course Planner > Tab "Einstellungen"`
 
 [Zum Seitenanfang ^](#tab_share)
 
@@ -84,7 +87,7 @@ Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige
 
 ## Abschnitt Freigabe {: #section_share}
 
-![Zugang Privat, Direktlink, drei Austrittsoptionen mit Nie gewählt, dazu Rechte für Autor:innen](assets/course_settings_share_share_v2_de.png){ class="shadow lightbox"}
+![Zugang Privat, Direktlink, drei Austrittsoptionen mit Nie gewählt, dazu Rechte für Autor:innen](assets/course_settings_share_share_v2_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe" }
 
 **Zugang für Teilnehmer:innen**<br>
 Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht unter `Kurs > Administration > Mitgliederverwaltung`. Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
@@ -108,7 +111,7 @@ Ist das Modul Organisationseinheiten nicht aktiviert, finden Sie hier nur eine e
 Wieviele Personen administrativ zugreifen können, sehen Sie in der [Freigabeübersicht >](#section_share_overview)
 
 **Autor:innen können**<br>
-Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: **"in Gruppen einbinden"**, **"kopieren"** und **"Inhalt exportieren"**. Bei anderen Lernressourcen als Kursen heisst die erste Option "in Kurse einbinden".
+Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: **"in Gruppen einbinden"**, **"kopieren"** und **"Inhalt exportieren"**. Bei anderen Lernressourcen als Kursen heisst die erste Option "einbinden".
 
 **Externe OER-Kataloge und Suchmaschinen**<br>
 Mit OAI-PMH lassen sich Metadaten von Lernressourcen für Internet-Portale oder Kataloge ausserhalb OpenOlat freigeben, damit Suchmaschinen einen Inhalt besser finden können. (OER = Open Educational Resources)
@@ -126,7 +129,7 @@ Admin-Handbuch: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.
 
 ## Abschnitt Angebote [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![Der Button Angebot hinzufügen ist inaktiv, weil der Zugang auf privat steht, im Abschnitt Angebot](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox"}
+![Der Button Angebot hinzufügen ist inaktiv, weil der Zugang auf privat steht](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe" }
 
 Damit ein Kurs im Katalog aufgeführt wird, muss ein Angebot erstellt werden. Es können auch mehrere Angebote erstellt werden, wenn der gleiche Kurs zu verschiedenen Bedingungen angeboten werden soll (z.B. kostenlos für eine bestimmte Zielgruppe, kostenpflichtig für andere).
 
@@ -158,7 +161,7 @@ Mehr über die Freigabe eines Kurses via LTI finden Sie hier:<br>
 
 ## Freigabeübersicht {: #section_share_overview}
 
-![Mitgliederzahlen nach Rolle, zugeordnete Gruppen und Produkte sowie administrativ Zugriffsberechtigte mit ihren Rechten](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox"}
+![Mitgliederzahlen nach Rolle, zugeordnete Gruppen und Produkte sowie administrativ Zugriffsberechtigte mit ihren Rechten](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox" title="Freigabeübersicht im Tab Freigabe" }
 
 Im Block **Mitglieder** finden Sie die Anzahl der Kursmitglieder, aufgegliedert nach Besitzer:innen, Betreuer:innen und Teilnehmer:innen.
 
@@ -174,17 +177,17 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**
+**Auf dieser Seite erwähnt**<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)<br>
+[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
-**Weiterführend**
+**Weiterführend**<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#tab_share)

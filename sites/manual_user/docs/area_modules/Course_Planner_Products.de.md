@@ -1,6 +1,6 @@
 # Course Planner: Produkte [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
-![Der Button Produkte, hervorgehoben unter den fünf Bereichen der Course-Planner-Übersicht, geöffnet über den Eintrag Course Planner im Menü Mehr](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }  
+![Der Button Produkte, hervorgehoben unter den fünf Bereichen der Course-Planner-Übersicht, geöffnet über den Eintrag Course Planner im Menü Mehr](assets/course_planner_products_v3_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 ## Was verstehen wir in OpenOlat unter einem Produkt? {: #definition}
 
@@ -24,9 +24,9 @@ Produkte werden im **Course Planner** für die Planung eines Bildungsgangs mit m
 Die Durchführungen eines Produkts können im [Katalog](../../manual_user/area_modules/catalog2.0_angebote.de.md) angeboten werden.
 
 Werden Teilnehmer:innen nicht nur einem einzelnen Kurs als Mitglieder zugeordnet, sondern der [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md) eines Produkts, ist die Mitgliedschaft für die Teilnehmer:innen ersichtlich, wenn sie im Hauptmenü die Option "Kurse" wählen.<br>
-Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungsprogramme".
+Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungsprodukte".
 
-![Bereich Kurse im Hauptmenü: neben Meine Kurse und In Vorbereitung steht der Button Bildungsprogramme, unter dem Teilnehmende die Kurse ihrer gebuchten Durchführungen finden](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" }  
+![Neben Meine Kurse und In Vorbereitung steht der Button für die Bildungsprodukte, unter dem Teilnehmende die Kurse ihrer gebuchten Durchführungen finden](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" title="Bereich Kurse" }
 
 
 [zum Seitenanfang ^](#products)
@@ -53,26 +53,31 @@ Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivie
 
 Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte".
 
-![Weg zu den Produkten: der Eintrag Course Planner im Menü Mehr öffnet die Übersicht, dort führt der Button Produkte in den Unterbereich](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" }  
+![Weg zu den Produkten: der Eintrag Course Planner im Menü Mehr öffnet die Übersicht, dort führt der Button Produkte in den Unterbereich](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
-![Seite Produkte im Course Planner: der Button Produkt erstellen liegt rechts über der Liste, die Tabelle zeigt je Produkt Kennzeichen, Organisation und die Anzahl Durchführungen nach Status](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
+![Button Produkt erstellen rechts über der Liste, die Tabelle zeigt je Produkt Kennzeichen, Organisation und die Anzahl Durchführungen nach Status](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" title="Seite Produkte im Course Planner" }
 
-![Dialog Produkt erstellen mit fünf nummerierten Feldern: Titel und Kennzeichen sind Pflichtfelder, dazu kommen Organisation, der Schalter Absenzmanagement und der Editor für die Beschreibung](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" }
+![Titel und Kennzeichen als Pflichtfelder, dazu Organisation, die Auswahl Absenzmanagement und der Editor für die Beschreibung](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" title="Dialog Produkt erstellen" }
 
-![1](assets/1_green_24.png) **Titel**: 
-Die Angabe eines Titels ist zwingend erforderlich. 
+#### Titel {: #create_product_title}
 
-![2](assets/2_green_24.png) **Kennzeichen**: 
+Die Angabe eines Titels ist zwingend erforderlich.
+
+#### Kennzeichen {: #create_product_reference}
+
 Das Kennzeichen ist ebenfalls ein Pflichtfeld. (Es wird als Identifier zur Unterscheidung bei Elementen mit gleichem Titel verwendet.)
 
-![3](assets/3_green_24.png) **Organisationen**: 
-Wenn Sie ein neues Produkt erstellen, können Sie es auch auf die Verwendung innerhalb einer bestimmten Organisationseinheit beschränken, falls bei Ihnen das Modul "Organisationen" aktiviert ist.  
+#### Organisation {: #create_product_organisation}
 
-![4](assets/4_green_24.png) **Absenzenmanagement**: 
-Mit dieser Auswahl bestimmen Sie, ob das Absenzenmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Administrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
+Wenn Sie ein neues Produkt erstellen, können Sie es auch auf die Verwendung innerhalb einer bestimmten Organisationseinheit beschränken, falls bei Ihnen das Modul "Organisationen" aktiviert ist. Die Organisation des Produkts entscheidet auch, welche Kurse der Dialog "Kurs hinzufügen" einer Durchführung anbietet: Kurse, die für diese Organisation oder eine ihrer Unterorganisationen freigegeben sind (siehe [Einstellung in den Kursen des Produkts](#course_settings)).
+
+#### Absenzmanagement {: #create_product_absence_management}
+
+Mit der Auswahl "Ein" oder "Aus" bestimmen Sie, ob das Absenzmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Administrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
 `Administration > Module > Termine / Absenzen`
 
-![5](assets/5_green_24.png) **Beschreibung**: 
+#### Beschreibung {: #create_product_description}
+
 In diesem Editor für die Beschreibung können Sie neben Text, Bildern und Links auch Videos einfügen oder direkt durch Klick auf den Mikrofon-Button ein Audio aufnehmen.
 
 
@@ -89,7 +94,7 @@ Mit **"Filter speichern"** können häufig verwendete Filterkombinationen als ei
 
 Kursplaner:innen arbeiten mit der Ansicht "Alle", die die aktiven Produkte zeigt. Administrator:innen stehen zusätzlich die vordefinierten Filter **"Aktiv"** (standardmässig ausgewählt) und **"Gelöscht"** zur Verfügung.
 
-![Produktliste im Course Planner mit den Tabs Alle, Aktiv und Gelöscht: links die Filter Organisation und Mehr, rechts der Menüpunkt Filter speichern sowie die Sortierung nach Relevanz](assets/course_planner_products_overview_filter_v1_de.png){ class="shadow lightbox" }
+![Tabs Alle, Aktiv und Gelöscht, links die Filter Organisation und Mehr, rechts der Menüpunkt Filter speichern sowie die Sortierung nach Relevanz](assets/course_planner_products_overview_filter_v1_de.png){ class="shadow lightbox" title="Produktliste im Course Planner" }
 
 [zum Seitenanfang ^](#products)
 
@@ -127,21 +132,23 @@ Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel
 ## Einstellung in den Kursen des Produkts [:octicons-tag-16:{ title="ab Release 20.0 (OO-8104)" }](https://track.frentix.com/issue/OO-8104){:target="_blank"} {: #course_settings}
 
 Zu einem Produkt gehören im Normalfall mehrere Kurse.
-In den Einstellungen jedes Kurses legt das Feld **Verwendungszweck** fest, wie der Kurs eingesetzt wird:
+In den Einstellungen jedes Kurses legt das Feld **Verwendungszweck** fest, wie der Kurs eingesetzt wird. Für einen Kurs stehen drei Verwendungszwecke zur Wahl:
 
 * **Eigenständig**: eigenständige Lernressource mit Mitgliederverwaltung
-* **Template**: Template für Kursinhalte, ohne eigenständige Mitgliederverwaltung
-* **Einbindung in Kurs**: wiederverwendbare Lernressource, ohne eigenständige Mitgliederverwaltung
 * **Verwendung im Course Planner**: verwaltet durch den Course Planner, ohne eigenständige Mitgliederverwaltung
+* **Template**: Template für Kursinhalte, ohne eigenständige Mitgliederverwaltung
 
-Wird ein Kurs über den Course Planner verwaltet, ist der Verwendungszweck **"Verwendung im Course Planner"**. Der Kurs hat dann keine eigenständige Mitgliederverwaltung. Die Mitgliederverwaltung geschieht in diesem Fall in der Mitgliederverwaltung der [Durchführung](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_members).
+Der vierte Verwendungszweck **Einbindung** (wiederverwendbare Lernressource, ohne eigenständige Mitgliederverwaltung) steht nur anderen Lernressourcen als Kursen zur Verfügung.
 
-Sie finden den Verwendungszweck im gewählten Kurs im Abschnitt **Verwendung** unter:<br>
-`Kurs > Administration > Einstellungen > Freigabe`
+Wird ein Kurs über den Course Planner verwaltet, ist der Verwendungszweck **"Verwendung im Course Planner"**. Der Kurs hat dann keine eigenständige Mitgliederverwaltung. Die Mitgliederverwaltung geschieht in diesem Fall in der Mitgliederverwaltung der [Durchführung](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_members). Nur Kurse mit diesem Verwendungszweck bietet der Dialog "Kurs hinzufügen" einer Durchführung an.
 
-![Der Verwendungszweck Verwendung im Course Planner im Abschnitt Verwendung, damit ohne eigenständige Mitgliederverwaltung, im Tab Freigabe der Kurseinstellungen](assets/course_planner_products_share_v3_de.png){ class="shadow lightbox" }  
+Sie finden den Verwendungszweck im gewählten Kurs unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`
 
+![Verwendungszweck Verwendung im Course Planner, damit ohne eigenständige Mitgliederverwaltung](assets/course_planner_products_share_v3_de.png){ class="shadow lightbox" title="Abschnitt Verwendung im Tab Freigabe" }
 
+Hat ein Kurs schon Betreuer:innen oder Teilnehmer:innen, lässt sich der Verwendungszweck nicht mehr auf "Verwendung im Course Planner" umstellen. Welche Gründe den Wechsel sperren und wie Sie trotzdem zum Ziel kommen, finden Sie hier:<br>
+[Wenn sich der Verwendungszweck nicht ändern lässt >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#embedding_locked)
 
 [zum Seitenanfang ^](#products)
 

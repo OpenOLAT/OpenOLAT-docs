@@ -169,6 +169,10 @@ Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse mit den Spalten "
 
 Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
 
+Der Dialog "Kurs hinzufügen" bietet nur Kurse mit dem Verwendungszweck "Verwendung im Course Planner" an. Davon zeigt er Ihre eigenen Kurse, Kurse, die für die Organisation des Produkts oder eine ihrer Unterorganisationen freigegeben sind, und Kurse, die Sie über eine Rolle in der Organisation des Kurses verwalten. Er öffnet auf dem Tab "Meine Kurse". Kurse anderer Besitzer:innen finden Sie im Tab "Suche". Fehlt ein Kurs, meldet OpenOlat keinen Grund. Die drei Bedingungen und was Sie bei einem fehlenden Kurs tun, finden Sie hier:<br>
+[Welche Kurse der Dialog "Kurs hinzufügen" zeigt >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#add_course_dialog)<br>
+[Einstellung in den Kursen des Produkts >](Course_Planner_Products.de.md#course_settings)
+
 Ist es der erste Kurs der Durchführung, ordnet OpenOlat die bestehenden Termine der Durchführung diesem Kurs zu und meldet "Der Kurs wurde erfolgreich hinzugefügt und die bestehenden Termine dem Kurs zugeordnet." Im Kurs schaltet OpenOlat dabei die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist.
 
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
@@ -195,7 +199,7 @@ Die Verwendung eines Templates zur Instanziierung empfiehlt sich, wenn es sich u
 Die Buttons "Kurs hinzufügen" und "Kurstemplate hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
 **Erstellung von Kurstemplates**<br>
-Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Freigabe > Verwendungszweck` die Option "Template" gewählt wird. Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
+Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"` der Verwendungszweck "Template" gewählt wird. Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
 !!! info "Wichtig"
@@ -659,6 +663,8 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Modul Organisationen (Administration) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
@@ -675,9 +681,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)
 
 [zum Seitenanfang ^](#implementations)
