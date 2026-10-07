@@ -15,7 +15,7 @@ OpenOlat kann beide Rollen einnehmen: Als Tool stellt OpenOlat einen Kurs oder e
 
 Administrator:innen aktivieren LTI in der System-Administration unter `Administration > Externe Werkzeuge > LTI`, Tab "Konfiguration". Die Checkbox "Eingeschaltet" beim Feld Modul "LTI 1.3" steht an oberster Stelle. Erst danach lassen sich LTI-Verbindungen einrichten.
 
-![Checkbox Eingeschaltet für das Modul LTI 1.3 an oberster Stelle, darunter Plattform-ID und Organisation](assets/LTI_admin_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der Seite LTI in der System-Administration" }
+![Markierter Menüeintrag LTI unter Externe Werkzeuge und markierte Checkbox Eingeschaltet beim Modul LTI 1.3](assets/LTI_admin_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration der Seite LTI in der System-Administration · 2026.10.07" }
 
 Nach dem Einschalten zeigt der Tab zwei weitere Felder:
 
@@ -43,7 +43,7 @@ Auf der Seite des Tools heisst das Gegenstück LTI-Freigabe: Ist OpenOlat das To
 
 Ja, wenn OpenOlat das Tool ist. Eine externe Plattform sendet oft für mehrere Kurse dieselbe Deployment-ID, nämlich wenn sie das Tool als gemeinsames Deployment führt. OpenOlat selbst tut das als Platform mit der Option "Mit Shared Deployment" und beim Kopieren eines Kursbausteins "LTI-Seite", siehe [Globales oder lokales Deployment](LTI_External_tools.de.md#deployment_scope). Diese Deployment-ID tragen Sie in der LTI-Freigabe jedes Kurses und jeder Gruppe ein, die die Plattform erreichen soll. Eindeutig sein muss sie nur je Plattform und Kurs beziehungsweise je Plattform und Gruppe. Welchen Kurs OpenOlat beim Aufruf öffnet, erkennt OpenOlat an der Adresse, die die Plattform mitschickt: [Eine Deployment-ID für mehrere Kurse](../../manual_user/learningresources/LTI_Share_courses.de.md#deployment_id_several_courses)
 
-**Wer kann Deployments hinzufügen?**
+**Wer kann Deployments hinzufügen?** [:octicons-tag-16:{ title="ab Release 17.0 (OO-6300)" }](https://track.frentix.com/issue/OO-6300)
 
 Administrator:innen bestimmen im Tab "Konfiguration" unter `Administration > Externe Werkzeuge > LTI`, wer Deployments hinzufügen darf. Die Einstellung gibt es getrennt für Kurse und für Gruppen.
 
@@ -57,7 +57,7 @@ Administrator:innen bestimmen im Tab "Konfiguration" unter `Administration > Ext
 * "Rolle kann Deployment hinzufügen": Administrator:innen dürfen es immer. Zusätzlich lassen sich Gruppenverwalter:innen freischalten.
 * "Gruppenbetreuer:in mit Autorenrecht kann Deployment hinzufügen": "Für alle Gruppen aktivieren" oder "Muss pro Gruppe aktiviert werden".
 
-![Rollen und Freigaben für das Hinzufügen von Deployments, getrennt nach Kurs und Gruppe](assets/LTI_admin_deploy_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der Seite LTI" }
+![Markierte Bereiche Kurs und Gruppe mit den Rollen und Freigaben, die ein Deployment hinzufügen dürfen](assets/LTI_admin_deploy_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration der Seite LTI · 2026.10.07" }
 
 ## Weiterführende Informationen {: #further_information}
 

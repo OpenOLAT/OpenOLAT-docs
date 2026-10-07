@@ -14,10 +14,12 @@ Die Informationen zu Gruppen und Mitgliedern können grundsätzlich in beiden Ri
 
 ![Austauschrichtungen zwischen OpenOlat und einem anderen LMS: OpenOlat als Tool oder als Platform](assets/LTI_share_groups_platform_tool_v1_de.png){ class="shadow lightbox" title="Rollen Tool und Platform zwischen zwei Systemen" }
 
+Ist OpenOlat die Platform, binden Sie das externe Tool in einem Kurs über den Kursbaustein "LTI-Seite" ein. Welche Daten der Personen OpenOlat dabei an das Tool überträgt, etwa Name, E-Mail-Adresse und Rollen, legen Sie im Kursbaustein fest: [Kursbaustein "LTI-Seite"](../learningresources/Course_Element_LTI_Page.de.md). Die folgenden Abschnitte beschreiben OpenOlat als Tool.
+
 
 ## Voraussetzungen
 
-Die externe Plattform wird in der System-Administration von OpenOlat erfasst, dafür braucht es einen Administrator-Zugang (in OpenOlat kann dies auch die Rolle Systemadministrator:in sein). Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe einer Gruppe vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
+Die externe Plattform wird in der System-Administration von OpenOlat erfasst, dafür braucht es in OpenOlat die Rolle Systemadministrator:in. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe einer Gruppe vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
 Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 ## Ablauf der Konfiguration
@@ -31,47 +33,16 @@ Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da best
 Der ausführliche Ablauf einer Konfiguration ist beschrieben unter [LTI-Zugang zu einem Kurs konfigurieren](../learningresources/LTI_Share_courses.de.md).
 
 
-
-## Lernerdaten in der LTI Konfiguration
-
-<details>
-    <summary>Screen</summary>
-	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" alt="Konfiguration der Lernerdaten und OpenOlat-Rollen im Tab Seiteninhalt des Kursbausteins LTI-Seite" />
-</details>
-
-**Vorname/Name übertragen:**<br> 
-Wenn Sie diese Checkbox ankreuzen, wird der Vor- und Nachname der Person an die externe Lernapplikation weitergegeben. Ansonsten kann die Person die externe Lernapplikation anonym nutzen.
-
-**E-Mailadresse übertragen:**<br>
-Markieren Sie die Checkbox, wird die E-Mail-Adresse der Person an die externe Lernapplikation weitergegeben.
-
-**Zusätzliche Attribute:**<br> 
-In dieses Eingabefeld können Sie weitere Parameter eingeben, die an die Lernapplikation übermittelt werden sollen. So kann der Lernapplikation beispielsweise mitgeteilt werden, dass die Anfrage von der Lernplattform OpenOlat übermittelt wird. (Die externe Lernapplikation muss die weitergegebenen Informationen verarbeiten können, weshalb eine Absprache mit dem Anbieter nötig ist). Sie haben die Wahl zwischen statischen Text-Attributen (für alle Personen ist der Wert identisch) oder zusätzlichen dynamischen Benutzerattributen (pro Person unterschiedlich). Sie können beliebig viele Zusatzattribute definieren, die LTI-Ressource muss allerdings wissen, dass es diese Attribute gibt, da diese nicht im Standard definiert sind.
-
-**OpenOlat Rollen:**<br>
-In diesem Bereich können Sie definieren, welche Rolle die einzelnen Personen einnehmen, wenn sie die LTI-Ressource starten. Es werden dabei die drei OpenOlat-Kursrollen Besitzer:in, Betreuer:in und Teilnehmer:in unterstützt. Für jede Rolle kann genau definiert werden, welche Rollen dafür auf Seiten der LTI-Ressource angewendet werden sollen. Die folgenden LTI-Rollen können konfiguriert werden: Lerner, Instruktor, Administrator:in, Assistent Lehrperson, Inhaltersteller und Mentor.
-
-**Punkte übertragen:**<br>
-Wählen Sie diese Checkbox, wenn die LTI-Ressource Punkte erzeugen und mit dem LTI-Standard an OpenOlat übermitteln soll. Dies ist optional. Übermittelte Punkte erscheinen bei der Person auf der Startseite des LTI-Bausteins, sowie auf dem Leistungsnachweis. Bitte beachten Sie, dass LTI gemäss Standard nur einen Wert zwischen 0 und 1 liefern kann.
-
-Wird die Option „Punkte übertragen“ aktiviert, kann die LTI-Seite als bewertbares Kurselement zum Kurs hinzugefügt werden und erscheint dann im Bewertungswerkzeug. Zusätzlich erscheinen die übermittelten Punkte bei der Person auf der Startseite des LTI-Bausteins.
-
-**Skalierungsfaktor:**<br>
-Mit dem Skalierungsfaktor können Sie die LTI-Resultate, die gemäss Standard einen Wert zwischen 0 und 1 einnehmen müssen, auf einen im OpenOlat-Kurs praktischeren Wert skalieren. Möchten Sie beispielsweise in OpenOlat maximal 10 Punkte für eine LTI-Aufgabe vergeben, so müssen Sie als Skalierungsfaktor den Wert "10" eintragen. Möchten Sie die Punkte unverändert übernehmen, wählen Sie den Wert "1".
-
-**Notwendige Punktzahl für 'bestanden':**<br>
-Geben Sie hier den optionalen Schwellenwert an, ab dem der Kursbaustein LTI-Seite als bestanden gilt. Dieser Schwellenwert bezieht sich auf das skalierte Endresultat und nicht auf die von LTI übermittelten Rohdaten! Im obigen Beispiel wäre ein Schwellwert von "5" gleichbedeutend mit "50%".
-
-
 ## Daten zur Gruppe per LTI übertragen
 
-Eine OpenOlat-Gruppe wird für den LTI-Zugang genauso freigegeben wie ein Kurs. Die Freigabe erfolgt in der Gruppenverwaltung im Tab "Freigabe" im Abschnitt "LTI 1.3 Zugangskonfiguration" über die Schaltfläche "Neues Deployment hinzufügen".
+Eine OpenOlat-Gruppe wird für den LTI-Zugang genauso freigegeben wie ein Kurs. Die Freigabe erfolgt mit dem Button "Neues Deployment hinzufügen" unter:<br>
+`Gruppe > Administration > Tab "Freigabe" > Abschnitt "LTI 1.3 Zugangskonfiguration"`
 
-Im Deployment-Dialog werden dieselben Angaben erfasst wie bei der Kursfreigabe: die zuvor konfigurierte "Plattform", die "Deployment-ID" sowie die technischen Adressen ("Tool URL", "Anmelde-URL", "Umleitungs-URL") und der "Öffentliche Schlüssel". Der ausführliche Ablauf inklusive der Gegenkonfiguration im externen LMS ist unter [LTI-Zugang zu einem Kurs konfigurieren](../learningresources/LTI_Share_courses.de.md) beschrieben und gilt für Gruppen gleichermassen.
+Im Deployment-Dialog wählen Sie wie bei der Kursfreigabe die zuvor konfigurierte "Plattform" und tragen die "Deployment-ID" ein. Die übrigen Angaben gibt OpenOlat vor und zeigt sie nur an: die "Tool URL" der Gruppe im Format `https://<OpenOlat-URL>/auth/BusinessGroup/<Gruppen-ID>`, die "Anmelde-URL", die "Umleitungs-URL" und im Feld "Öffentlicher Schlüssel" den Schlüssel der Plattform. Der ausführliche Ablauf inklusive der Gegenkonfiguration im externen LMS ist unter [LTI-Zugang zu einem Kurs konfigurieren](../learningresources/LTI_Share_courses.de.md) beschrieben und gilt für Gruppen gleichermassen.
 
 Dieselbe Deployment-ID einer Plattform lässt sich für mehrere Gruppen und Kurse freigeben. In derselben Gruppe gilt sie je Plattform nur einmal, ein zweiter Versuch endet mit der Meldung "Deployment-ID muss eindeutig für eine bestimmte Plattform und eine Gruppe sein." Welche Gruppe OpenOlat beim Aufruf öffnet, erkennt OpenOlat an der Adresse, die die Plattform mitschickt, wie bei Kursen: [Eine Deployment-ID für mehrere Kurse](../learningresources/LTI_Share_courses.de.md#deployment_id_several_courses) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
-Der Austausch der Mitgliederdaten (Namen und Rollen) erfolgt über den LTI-Standarddienst "Names and Role Provisioning Service" (NRPS). Welche Mitgliederdaten übermittelt werden, bestimmt jeweils das System, das die Verbindung als Plattform bereitstellt. Die grundlegenden LTI-1.3-Einstellungen werden von den Administrator:innen in der System-Administration verwaltet: `Administration > Externe Werkzeuge > LTI`
+Der Austausch der Mitgliederdaten (Namen und Rollen) erfolgt über den LTI-Standarddienst "Names and Role Provisioning Service" (NRPS). Welche Mitgliederdaten übermittelt werden, bestimmt jeweils das System, das die Verbindung als Plattform bereitstellt. Die grundlegenden LTI-1.3-Einstellungen verwalten Systemadministrator:innen in der System-Administration: `Administration > Externe Werkzeuge > LTI`
 
 ## Gruppen ohne Kurszugehörigkeit
 

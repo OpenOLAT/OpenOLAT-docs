@@ -15,7 +15,7 @@ OpenOlat can take on both roles: As a tool, OpenOlat provides a course or a grou
 
 Administrators activate LTI in the system administration under `Administration > External tools > LTI`, tab "Configuration". The checkbox "Enabled" next to the field Module "LTI 1.3" is at the very top. Only then can LTI connections be set up.
 
-![Checkbox Enabled for the module LTI 1.3 at the top, below it Platform ID and Organisation](assets/LTI_admin_config_v2_de.png){ class="shadow lightbox" title="Tab Configuration of the page LTI in the system administration" }
+![Marked menu entry LTI under External tools and marked checkbox Enabled for the module LTI 1.3](assets/LTI_admin_config_v3_en.png){ class="shadow lightbox" title="Tab Configuration of the page LTI in the system administration · 2026.10.07" }
 
 Once enabled, the tab shows two further fields:
 
@@ -43,7 +43,7 @@ On the tool side, the counterpart is called LTI share: if OpenOlat is the tool, 
 
 Yes, if OpenOlat is the tool. An external platform often sends the same deployment ID for several courses, namely when it runs the tool as a shared deployment. OpenOlat itself does this as a platform with the option "With shared deployment" and when an "LTI page" course element is copied, see [Global or local deployment](LTI_External_tools.md#deployment_scope). Enter this deployment ID in the LTI share of every course and every group the platform should reach. It only has to be unique per platform and course, or per platform and group. OpenOlat recognizes which course to open from the address the platform sends with the call: [One deployment ID for several courses](../../manual_user/learningresources/LTI_Share_courses.md#deployment_id_several_courses)
 
-**Who can add deployments?**
+**Who can add deployments?** [:octicons-tag-16:{ title="from Release 17.0 (OO-6300)" }](https://track.frentix.com/issue/OO-6300)
 
 Administrators determine in the tab "Configuration" under `Administration > External tools > LTI` who is allowed to add deployments. The setting exists separately for courses and for groups.
 
@@ -57,7 +57,7 @@ Administrators determine in the tab "Configuration" under `Administration > Exte
 * "Role can add deployment": Administrators are always allowed to. In addition, group managers can be enabled.
 * "Group coach with author role can add deployment": "Activate for all groups" or "Must be activated per group".
 
-![Roles and permissions for adding deployments, separately for course and group](assets/LTI_admin_deploy_v2_de.png){ class="shadow lightbox" title="Tab Configuration of the page LTI" }
+![Marked areas Course and Group with the roles and permissions that may add a deployment](assets/LTI_admin_deploy_v3_en.png){ class="shadow lightbox" title="Tab Configuration of the page LTI · 2026.10.07" }
 
 ## Further information {: #further_information}
 

@@ -7,9 +7,11 @@ Wird OpenOlat im Sinn der LTI-Terminologie als "Tool" eingesetzt, werden in Open
 
 Administrator:innen konfigurieren das Zusammenspiel mit den anderen Plattformen (auch "platform" im Sinn der LTI-Terminologie) in der System-Administration unter: `Administration > Externe Werkzeuge > LTI`, Tab "Externe Plattformen". OpenOlat ist dann das **Tool**, in das der Kurs von den hier definierten Plattformen eingebunden wird.
 
-![Button Neue externe Plattform und der Hinweis, dass noch keine externe LMS-Plattform verknüpft ist](assets/LTI_admin_platform_v2_de.png){ class="shadow lightbox" title="Tab Externe Plattformen der Seite LTI in der System-Administration" }
+![Liste der externen Plattformen mit Name, Plattform-ID, Client-ID und Anzahl Deployments, markiert der Button Neue externe Plattform](assets/LTI_admin_platform_v3_de.png){ class="shadow lightbox" title="Tab Externe Plattformen der Seite LTI in der System-Administration · 2026.10.07" }
 
 Für jede externe Plattform muss eine eigene Konfiguration eingerichtet werden. Verwenden Sie den Button "Neue externe Plattform", um die Verbindung zu einer neuen Plattform anzulegen.
+
+Die Liste zeigt je Plattform den Namen, die Plattform-ID und die Client-ID. Die Spalte "# Deployments" zählt die LTI-Freigaben von Kursen und Gruppen, die diese Plattform nutzen. Mit "Bearbeiten" öffnen Sie die Konfiguration einer Plattform wieder.
 
 
 !!! info "Wichtig"

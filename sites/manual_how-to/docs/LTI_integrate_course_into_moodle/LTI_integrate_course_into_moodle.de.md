@@ -125,8 +125,10 @@ Ergänzen Sie mit dem Button "Neues Deployment hinzufügen" ein Deployment für 
 | Plattform				| Auswahl der konfigurierten Moodle-Instanz |
 | Deployment-ID 		| Aus Moodle: Deployment ID aus dem Dialog "Tool configuration details". Dieselbe Deployment-ID darf in mehreren Kursen derselben Plattform stehen, im selben Kurs nur einmal. |
 | Tool URL				| Von OpenOlat vorgegeben, nur lesbar. Die Tool URL des externen Tools in Moodle aus Schritt 1 muss mit dieser Adresse beginnen. |
+| Anmelde-URL, Umleitungs-URL | Von OpenOlat vorgegeben, nur lesbar. Dieselben Adressen stehen in Moodle aus Schritt 1 unter Initiate Login URL und Redirection URL(s). |
+| Öffentlicher Schlüssel | Der öffentliche Schlüssel der gewählten Plattform, nur lesbar. Es ist derselbe Schlüssel wie im Dialog der externen Plattform aus Schritt 2. Mit "Öffentlicher Schlüsseltyp" wechselt die Anzeige zwischen "RSA-Schlüssel" und "Schlüsselsatz-URL". |
 
-![Ausgefülltes Formular mit Plattform und Deployment-ID, darunter Anmelde-URL, Umleitungs-URL und öffentlicher Schlüssel](assets/LTI_integrate_course_into_moodle-setup8_v2_en.png){ class="shadow lightbox" title="Dialog Neues Tool hinzufügen in OpenOlat" }
+![Markierte Felder Deployment-ID und Tool URL, die Tool URL mit der Adresse des Kurses vorgegeben](assets/LTI_integrate_course_into_moodle-setup8_v3_de.png){ class="shadow lightbox" title="Dialog Neues Tool hinzufügen in OpenOlat · 2026.10.07" }
 
 Sollen mehrere OpenOlat-Kurse über dieselbe Deployment-ID erreichbar sein, geben Sie jeden Kurs einzeln frei. Mehr dazu im Benutzerhandbuch unter:<br>
 [Eine Deployment-ID für mehrere Kurse >](../../manual_user/learningresources/LTI_Share_courses.de.md#deployment_id_several_courses)

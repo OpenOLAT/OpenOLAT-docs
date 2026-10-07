@@ -6,7 +6,7 @@ If OpenOlat is used as a "platform" in the sense of LTI terminology, OpenOlat di
 
 Administrators enable the integration of external tools in the system administration under `Administration > External tools > LTI`, tab "Configuration". They then set up the communication and the secure connection to each tool in the "External tools" tab.
 
-![Button Create a new tool, no tools entered yet](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" title="Tab External tools of the page LTI in the system administration" }
+![List of external tools with name, tool URL and client ID, the Create a new tool button marked](assets/LTI_admin_tools_v3_en.png){ class="shadow lightbox" title="Tab External tools of the page LTI in the system administration · 2026.10.07" }
 
 **Examples of external tools:**
 
@@ -17,7 +17,7 @@ Administrators enable the integration of external tools in the system administra
 * Interactive exercises
 * Learning games
 
-A separate configuration is created for each external tool. Use the "Create a new tool" button to create the connection to a new tool.
+A separate configuration is created for each external tool. Use the "Create a new tool" button to create the connection to a new tool. The list shows the name of each tool in the "Tool" column, the "Tool URL" and the "Client ID". With "Edit" you open the configuration of a tool again.
 
 !!! info "Important"
 

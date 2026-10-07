@@ -14,10 +14,12 @@ Information about groups and members can generally be exchanged in both directio
 
 ![Exchange directions between OpenOlat and another LMS: OpenOlat as tool or as platform](assets/LTI_share_groups_platform_tool_v1_de.png){ class="shadow lightbox" title="Tool and platform roles between two systems" }
 
+If OpenOlat is the platform, you embed the external tool in a course via the course element "LTI page". Which data of the persons OpenOlat transfers to the tool, such as name, e-mail address and roles, is set in the course element: [Course element "LTI page"](../learningresources/Course_Element_LTI_Page.md). The following sections describe OpenOlat as the tool.
+
 
 ## Requirements
 
-The external platform is registered in the system administration of OpenOlat, which requires administrator access (in OpenOlat, this can also be the System administrator role). On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a group is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
+The external platform is registered in the system administration of OpenOlat, which requires the System administrator role in OpenOlat. On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a group is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
 Preferably, the configuration is carried out on both systems at the same time, as certain dialogs in both systems must be configured directly one after the other.
 
 ## Configuration procedure
@@ -31,47 +33,16 @@ Preferably, the configuration is carried out on both systems at the same time, a
 The detailed procedure for a configuration is described under [Configure LTI access to a course](../learningresources/LTI_Share_courses.md).
 
 
-
-## Learner data in the LTI configuration
-
-<details>
-    <summary>Screen</summary>
-	<img src="../assets/LTI_share_groups_course_element_page_content_v1_de.png" alt="Configuration of learner data and OpenOlat roles in the Page content tab of the LTI page course element" />
-</details>
-
-**Transmit firstname/name:**<br>
-If you check this checkbox, the person's first and last name is passed to the external learning application. Otherwise, the person can use the external learning application anonymously.
-
-**Transmit e-mail address:**<br>
-If you check the checkbox, the person's e-mail address is passed to the external learning application.
-
-**Additional attributes:**<br>
-In this input field you can enter further parameters to be transmitted to the learning application. For example, the learning application can be informed that the request is transmitted by the OpenOlat learning platform. (The external learning application must be able to process the information passed on, which is why an agreement with the provider is necessary.) You can choose between static text attributes (the value is identical for all persons) or additional dynamic user attributes (different for each person). You can define any number of additional attributes, but the LTI resource must know that these attributes exist, as they are not defined in the standard.
-
-**OpenOlat roles:**<br>
-In this area you can define which role the individual persons take on when they start the LTI resource. The three OpenOlat course roles owner, coach and participant are supported. For each role, you can define exactly which roles are to be applied on the side of the LTI resource. The following LTI roles can be configured: learner, instructor, administrator, teaching assistant, content developer and mentor.
-
-**Transfer score:**<br>
-Select this checkbox if the LTI resource is to generate points and transmit them to OpenOlat using the LTI standard. This is optional. Transmitted points appear for the person on the start page of the LTI element as well as on the evidence of achievement. Please note that, according to the standard, LTI can only deliver a value between 0 and 1.
-
-If the "Transfer score" option is activated, the LTI page can be added to the course as an assessable course element and then appears in the assessment tool. In addition, the transmitted points appear for the person on the start page of the LTI element.
-
-**Scaling factor:**<br>
-With the scaling factor, you can scale the LTI results, which according to the standard must have a value between 0 and 1, to a more practical value in the OpenOlat course. For example, if you want to award a maximum of 10 points for an LTI task in OpenOlat, you must enter the value "10" as the scaling factor. If you want to transfer the points unchanged, select the value "1".
-
-**Score needed to pass:**<br>
-Enter the optional threshold value here, from which the LTI page course element is considered passed. This threshold value refers to the scaled final result and not to the raw data transmitted by LTI. In the example above, a threshold value of "5" would be equivalent to "50%".
-
-
 ## Transferring group data via LTI
 
-An OpenOlat group is shared for LTI access in the same way as a course. Sharing is configured in the group management in the "Share" tab, in the "LTI 1.3 access configuration" section, via the "Add deployment" button.
+An OpenOlat group is shared for LTI access in the same way as a course. Sharing is configured with the "Add deployment" button under:<br>
+`Group > Administration > Tab "Share" > Section "LTI 1.3 access configuration"`
 
-In the deployment dialog you enter the same details as when sharing a course: the previously configured "Platform", the "Deployment ID", the technical addresses ("Tool URL", "Initiate login URL", "Redirection URL") and the "Public Key". The detailed procedure including the counterpart configuration in the external LMS is described under [Configure LTI access to a course](../learningresources/LTI_Share_courses.md) and applies to groups in the same way.
+In the deployment dialog you select the previously configured "Platform" and enter the "Deployment ID", as when sharing a course. OpenOlat provides the other details and only displays them: the "Tool URL" of the group in the format `https://<OpenOlat-URL>/auth/BusinessGroup/<Group-ID>`, the "Initiate login URL", the "Redirection URL" and, in the "Public Key" field, the key of the platform. The detailed procedure including the counterpart configuration in the external LMS is described under [Configure LTI access to a course](../learningresources/LTI_Share_courses.md) and applies to groups in the same way.
 
 The same deployment ID of a platform can be shared for several groups and courses. Within the same group, it can be used only once per platform; a second attempt ends with the message "Deployment ID must be unique for a specific platform and group." OpenOlat recognizes which group to open from the address the platform sends with the call, as with courses: [One deployment ID for several courses](../learningresources/LTI_Share_courses.md#deployment_id_several_courses) [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
-The exchange of member data (names and roles) uses the LTI standard service "Names and Role Provisioning Service" (NRPS). Which member data is transmitted is determined by the system that provides the connection as the platform. The basic LTI 1.3 settings are managed by administrators in the system administration: `Administration > External tools > LTI`
+The exchange of member data (names and roles) uses the LTI standard service "Names and Role Provisioning Service" (NRPS). Which member data is transmitted is determined by the system that provides the connection as the platform. System administrators manage the basic LTI 1.3 settings in the system administration: `Administration > External tools > LTI`
 
 ## Groups without course affiliation
 

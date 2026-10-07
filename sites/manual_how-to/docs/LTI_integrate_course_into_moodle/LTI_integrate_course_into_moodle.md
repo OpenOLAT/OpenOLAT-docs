@@ -125,8 +125,10 @@ Add a deployment for the course (or the group) with the "Add deployment" button:
 | Platform				| Selection of the configured Moodle instance |
 | Deployment ID 		| From Moodle: Deployment ID from the "Tool configuration details" dialog. The same deployment ID may be used in several courses of the same platform, but only once in the same course. |
 | Tool URL				| Provided by OpenOlat, read-only. The Tool URL of the external tool in Moodle from step 1 must begin with this address. |
+| Initiate login URL, Redirection URL | Provided by OpenOlat, read-only. The same addresses are entered in Moodle in step 1 under Initiate Login URL and Redirection URL(s). |
+| Public Key | The public key of the selected platform, read-only. It is the same key as in the dialog of the external platform from step 2. "Public Key Type" switches the display between "Public Key" and "URL". |
 
-![Completed form with platform and deployment ID, below it initiate login URL, redirection URL and public key](assets/LTI_integrate_course_into_moodle-setup8_v2_en.png){ class="shadow lightbox" title="Create a new tool dialog in OpenOlat" }
+![Marked fields Deployment ID and Tool URL, the Tool URL pre-filled with the address of the course](assets/LTI_integrate_course_into_moodle-setup8_v3_en.png){ class="shadow lightbox" title="Create a new tool dialog in OpenOlat · 2026.10.07" }
 
 If several OpenOlat courses are to be reachable via the same deployment ID, share each course individually. More about this in the user manual under:<br>
 [One deployment ID for several courses >](../../manual_user/learningresources/LTI_Share_courses.md#deployment_id_several_courses)
