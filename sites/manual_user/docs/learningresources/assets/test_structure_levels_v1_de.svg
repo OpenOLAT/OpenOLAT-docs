@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="960" height="580" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Ebenen eines Tests und ihre Einstellungen</title>
+  <desc id="d1">Hierarchie Test, Test-Part, Sektion, Frage. Test: Zeitbeschränkung, Punkteschwelle, Feedback. Test-Part: Navigation und Einstellungen des Tabs Expert. Sektion: Auswahl und Reihenfolge der Fragen, Tab Expert überschreibt den Test-Part. Bei nur einem Test-Part stehen dessen Einstellungen im Tab Expert der Test-Ebene.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="960" height="580" fill="#FFFFFF"/>
+
+  <!-- Titel -->
+  <text x="40" y="40" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#342C24">Ebenen eines Tests und ihre Einstellungen</text>
+  <text x="40" y="64" font-family="'Roboto', sans-serif" font-size="13.5" fill="#2D2926">Ein Test enthält mindestens einen Test-Part, ein Test-Part mindestens eine Sektion.</text>
+
+  <!-- Verbindungen zwischen den Ebenen -->
+  <line x1="140" y1="160" x2="140" y2="226" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="198" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">1 oder mehr</text>
+  <line x1="140" y1="290" x2="140" y2="351" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="326" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">1 oder mehr</text>
+  <line x1="140" y1="415" x2="140" y2="471" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="448" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">beliebig viele</text>
+
+  <!-- Knoten -->
+  <rect x="40" y="100" width="200" height="60" rx="10" fill="#126365"/>
+  <text x="140" y="137" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Test</text>
+
+  <rect x="40" y="230" width="200" height="60" rx="10" fill="#11624F"/>
+  <text x="140" y="267" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Test-Part</text>
+
+  <rect x="40" y="355" width="200" height="60" rx="10" fill="rgba(18, 99, 101, 0.12)" stroke="#126365" stroke-width="2"/>
+  <text x="140" y="392" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#126365">Sektion</text>
+
+  <rect x="40" y="475" width="200" height="60" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="140" y="512" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#126365">Frage</text>
+
+  <!-- Knoten zu Karte -->
+  <line x1="240" y1="130" x2="280" y2="130" stroke="#126365" stroke-width="1.5"/>
+  <line x1="240" y1="260" x2="280" y2="260" stroke="#126365" stroke-width="1.5"/>
+  <line x1="240" y1="385" x2="280" y2="385" stroke="#126365" stroke-width="1.5"/>
+
+  <!-- Karte Test -->
+  <rect x="280" y="80" width="380" height="100" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="296" y="104" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#126365">Tab «Test Konfiguration», Tab «Feedback»</text>
+  <text x="296" y="126" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Zeitbeschränkung (nur für den ganzen Test)</text>
+  <text x="296" y="146" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Punkteschwelle für Bestanden, Feedback</text>
+  <text x="296" y="168" font-family="'Roboto', sans-serif" font-size="13" font-style="italic" fill="#0F5456">Tab «Expert»: nur bei einem einzigen Test-Part</text>
+
+  <!-- Karte Test-Part -->
+  <rect x="280" y="210" width="380" height="100" rx="8" fill="#FFFFFF" stroke="#11624F" stroke-width="2"/>
+  <text x="296" y="234" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#11624F">Formular «Test part» (ab zwei Test-Parts)</text>
+  <text x="296" y="256" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">«Navigation»: Linear oder Nicht linear</text>
+  <text x="296" y="276" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Einstellungen des Tabs «Expert»: Versuche,</text>
+  <text x="296" y="296" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Fragen überspringen, Notizen, Rückblick, Lösung</text>
+
+  <!-- Karte Sektion -->
+  <rect x="280" y="345" width="380" height="80" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="296" y="369" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#126365">Tab «Sektion», Tab «Expert»</text>
+  <text x="296" y="391" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Auswahl und Reihenfolge der Fragen</text>
+  <text x="296" y="411" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">«Expert» überschreibt die Einstellung des Test-Parts</text>
+
+  <!-- Hinweis: nur ein Test-Part -->
+  <line x1="660" y1="260" x2="696" y2="260" stroke="#0F5456" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <path d="M815,198 V165 H666" fill="none" stroke="#0F5456" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <rect x="700" y="200" width="230" height="130" rx="10" fill="#F2AF40"/>
+  <text x="716" y="226" font-family="'Roboto', sans-serif" font-size="14.5" font-weight="700" fill="#2D2926">Nur ein Test-Part</text>
+  <text x="716" y="250" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Der Test-Part erscheint nicht</text>
+  <text x="716" y="270" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">im Menü des Testeditors.</text>
+  <text x="716" y="290" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Seine Einstellungen stehen</text>
+  <text x="716" y="310" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">im Tab «Expert» der Test-Ebene.</text>
+</svg>

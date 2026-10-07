@@ -460,6 +460,19 @@ Ist die Anzahl Lösungsversuche für eine Frage, eine Sektion oder den gesamten 
 
 Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klicken Sie auf den Button "Test beenden". Es erfolgt noch einmal eine Sicherheitsabfrage und wenn Sie diese bestätigen, wird der Test gespeichert und ist für die Lehrenden sichtbar.
 
+Besteht ein Test aus mehreren [Test-Parts](Configure_tests.de.md#testpart), bearbeiten Sie diese nacheinander und schliessen jeden einzeln ab. Ein beendeter Test-Part ist abgegeben: Seine Antworten sind gespeichert, und Sie kehren nicht mehr dorthin zurück. Zu Beginn zeigt OpenOlat die Seite "Testbeginn" mit der Anzahl Teile, zum Beispiel "Der Test hat bis 2 Teile.", und dem Button "Test starten".
+
+* Das Menü links zeigt nur die Sektionen und Fragen des aktuellen Test-Parts. Ist im Kursbaustein die Menü-Navigation ausgeschaltet, führt der Button "Menu-Navigation Test" auf die Seite "Test Part" mit diesen Fragen.
+* Oben rechts steht der Button "Test Part beenden" statt "Test beenden". Je nach Einstellung des Tests erscheint er erst, wenn alle Fragen des Test-Parts beantwortet sind.
+
+![Menü links mit den Fragen des aktuellen Test-Parts, oben rechts der Button Test Part beenden](assets/test_run_testpart_menu_v1_de.png){ class="shadow lightbox" title="Test mit mehreren Test-Parts aus Sicht der Teilnehmenden · 2026.10.07" }
+
+* Nach dem Klick auf "Test Part beenden" fragt OpenOlat nach: "Sind Sie sicher dass Sie den Test Part beenden wollen? Ihre Antworten werden dadurch gespeichert." Mit "Ok" geben Sie den Test-Part ab.
+* Ist ein Rückblick vorgesehen, erscheint danach die Seite "Test Part abgeschlossen". Unter "Ihre Antworten überprüfen" sehen Sie Ihre Antworten an, ändern können Sie sie nicht mehr. Mit "Test Part schliessen" und der Rückfrage "Test Part weiter gehen" gelangen Sie in den nächsten Test-Part. Ohne Rückblick geht es direkt in den nächsten Test-Part.
+* Im letzten Test-Part heisst der Button ebenfalls "Test Part beenden", die Rückfrage trägt den Titel "Test beenden". Mit der Bestätigung ist der ganze Test abgeschlossen.
+
+![Seite Test Part abgeschlossen mit der Liste der Fragen zum Überprüfen und dem Button Test Part schliessen](assets/test_run_testpart_complete_v1_de.png){ class="shadow lightbox" title="Seite Test Part abgeschlossen · 2026.10.07" }
+
 Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen ist von der Test-Konfiguration abhängig.
 
 ![Erfolgsstatus, Bewertung, Punkte und Lösungsversuche, darunter die Testresultate mit Dauer und erreichter Punktzahl](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" title="Leistungsübersicht eines Tests aus Sicht der Teilnehmenden" }

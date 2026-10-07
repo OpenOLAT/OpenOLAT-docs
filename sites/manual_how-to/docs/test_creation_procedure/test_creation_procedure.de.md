@@ -157,7 +157,7 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 15\. Bei Bedarf definieren Sie ein Feedback zur Frage. Über "Vorschau" können Sie sich die Frage ansehen.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder Test-Parts weiter strukturieren.
+Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
 
 
 !!! warning "Achtung"
@@ -220,7 +220,7 @@ Das Menü entspricht den Einstellungen im Bereich Administration und kann auch s
 
 8\. Bei Bedarf ein Feedback zur Frage definieren und sich die Frage über die Vorschau anschauen.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder Test-Parts weiter strukturieren.
+Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Fragen erstellen](<https://www.youtube.com/embed/2ZrINPQ6tYw>){:target="_blank"}
 
@@ -334,7 +334,7 @@ Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool begin
 
 5\. Bei Bedarf definieren Sie ein Feedback zur Frage. Über "Vorschau" können Sie sich die Frage ansehen.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder Test-Parts weiter strukturieren.
+Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
 
 
 !!! warning "Achtung"
@@ -440,6 +440,7 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Testeditor >](../../manual_user/learningresources/Test_editor_QTI_2.1.de.md)<br>
+[Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
 [Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../exchange_tests/exchange_tests.de.md)

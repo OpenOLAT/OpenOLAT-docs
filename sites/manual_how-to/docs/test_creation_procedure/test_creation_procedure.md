@@ -157,7 +157,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 15\. If necessary, you define a feedback to the question. You can view the question via "Preview".
 
-You add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or test parts.
+You add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or [test parts](../../manual_user/learningresources/Configure_tests.md#testpart).
 
 
 !!! warning "Attention"
@@ -220,7 +220,7 @@ The menu corresponds to the settings in the Administration section and can also 
 
 8\. If needed, define a feedback to the question and preview it.
 
-Add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or test parts.
+Add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or [test parts](../../manual_user/learningresources/Configure_tests.md#testpart).
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Fragen erstellen](<https://www.youtube.com/embed/2ZrINPQ6tYw>){:target="_blank"}
 
@@ -334,7 +334,7 @@ Then you can also start creating the individual questions in the question bank.
 
 5\. If necessary, you define a feedback to the question. You can view the question via "Preview".
 
-Add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or test parts.
+Add more questions according to the same principle. The details of the settings can vary depending on the question type. You can also further structure your test with sections or [test parts](../../manual_user/learningresources/Configure_tests.md#testpart).
 
 
 !!! warning "Attention"
@@ -440,6 +440,7 @@ Further information can be found in the chapter "[Assessing tests](../../manual_
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)<br>
+[Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
 [Question Bank: Overview >](../../manual_user/area_modules/Question_Bank.md)<br>
 [How do I exchange a test? >](../exchange_tests/exchange_tests.md)

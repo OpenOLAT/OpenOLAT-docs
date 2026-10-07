@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="960" height="580" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Levels of a test and their settings</title>
+  <desc id="d1">Hierarchy test, test part, section, question. Test: time limit, cut value, feedback. Test part: navigation mode and the settings of the Expert tab. Section: selection and order of the questions, the Expert tab overrides the test part. With only one test part, its settings are in the Expert tab of the test level.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="960" height="580" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'Roboto', sans-serif" font-size="21" font-weight="700" fill="#342C24">Levels of a test and their settings</text>
+  <text x="40" y="64" font-family="'Roboto', sans-serif" font-size="13.5" fill="#2D2926">A test contains at least one test part, a test part at least one section.</text>
+
+  <!-- Connections between the levels -->
+  <line x1="140" y1="160" x2="140" y2="226" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="198" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">1 or more</text>
+  <line x1="140" y1="290" x2="140" y2="351" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="326" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">1 or more</text>
+  <line x1="140" y1="415" x2="140" y2="471" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="152" y="448" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">any number</text>
+
+  <!-- Nodes -->
+  <rect x="40" y="100" width="200" height="60" rx="10" fill="#126365"/>
+  <text x="140" y="137" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Test</text>
+
+  <rect x="40" y="230" width="200" height="60" rx="10" fill="#11624F"/>
+  <text x="140" y="267" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Test part</text>
+
+  <rect x="40" y="355" width="200" height="60" rx="10" fill="rgba(18, 99, 101, 0.12)" stroke="#126365" stroke-width="2"/>
+  <text x="140" y="392" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#126365">Section</text>
+
+  <rect x="40" y="475" width="200" height="60" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="140" y="512" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#126365">Question</text>
+
+  <!-- Node to card -->
+  <line x1="240" y1="130" x2="280" y2="130" stroke="#126365" stroke-width="1.5"/>
+  <line x1="240" y1="260" x2="280" y2="260" stroke="#126365" stroke-width="1.5"/>
+  <line x1="240" y1="385" x2="280" y2="385" stroke="#126365" stroke-width="1.5"/>
+
+  <!-- Card test -->
+  <rect x="280" y="80" width="380" height="100" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="296" y="104" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#126365">Tab "Test configuration", tab "Feedback"</text>
+  <text x="296" y="126" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Time limit (only for the whole test)</text>
+  <text x="296" y="146" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Passed cut value, feedback</text>
+  <text x="296" y="168" font-family="'Roboto', sans-serif" font-size="13" font-style="italic" fill="#0F5456">Tab "Expert": only with a single test part</text>
+
+  <!-- Card test part -->
+  <rect x="280" y="210" width="380" height="100" rx="8" fill="#FFFFFF" stroke="#11624F" stroke-width="2"/>
+  <text x="296" y="234" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#11624F">Form "Test part" (from two test parts)</text>
+  <text x="296" y="256" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">"Navigation mode": Linear or Non linear</text>
+  <text x="296" y="276" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Settings of the "Expert" tab: attempts,</text>
+  <text x="296" y="296" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">skipping questions, notes, review, solution</text>
+
+  <!-- Card section -->
+  <rect x="280" y="345" width="380" height="80" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="296" y="369" font-family="'Roboto', sans-serif" font-size="13.5" font-weight="700" fill="#126365">Tab "Section", tab "Expert"</text>
+  <text x="296" y="391" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Selection and order of the questions</text>
+  <text x="296" y="411" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">"Expert" overrides the setting of the test part</text>
+
+  <!-- Note: only one test part -->
+  <line x1="660" y1="260" x2="696" y2="260" stroke="#0F5456" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <path d="M815,198 V165 H666" fill="none" stroke="#0F5456" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <rect x="700" y="200" width="230" height="130" rx="10" fill="#F2AF40"/>
+  <text x="716" y="226" font-family="'Roboto', sans-serif" font-size="14.5" font-weight="700" fill="#2D2926">Only one test part</text>
+  <text x="716" y="250" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">The test part does not appear</text>
+  <text x="716" y="270" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">in the menu of the test editor.</text>
+  <text x="716" y="290" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Its settings are in the</text>
+  <text x="716" y="310" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">"Expert" tab of the test level.</text>
+</svg>

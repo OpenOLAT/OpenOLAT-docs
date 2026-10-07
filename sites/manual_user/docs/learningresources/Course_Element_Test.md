@@ -460,6 +460,19 @@ If the number of solution attempts is limited for a question, a section, or the 
 
 When you have finished editing and want to complete the test, click on the "Finish test" button. You will be asked once again for confirmation and if you confirm this, the test will be saved and will be visible to the teachers.
 
+If a test consists of several [test parts](Configure_tests.md#testpart), you work on them one after the other and finish each one separately. A finished test part is submitted: its answers are saved, and you do not return to it. At the beginning, OpenOlat shows the page "Begin test" with the number of parts, for example "This test consists of up to 2 parts.", and the button "Enter Test".
+
+* The menu on the left only shows the sections and questions of the current test part. If menu navigation is switched off in the course element, the button "Test question menu" leads to the page "Test part question menu" with these questions.
+* At the top right, the button "Finish test part" is shown instead of "Finish test". Depending on the setting of the test, it only appears when all questions of the test part have been answered.
+
+![Menu on the left with the questions of the current test part, at the top right the Finish test part button](assets/test_run_testpart_menu_v1_en.png){ class="shadow lightbox" title="Test with several test parts from the participants' view · 2026.10.07" }
+
+* After clicking "Finish test part", OpenOlat asks: "Finish / Are you sure? This will commit your answers for this test part." With "Ok" you submit the test part.
+* If a review is provided, the page "Test part complete" appears next. Under "Review your responses" you can view your answers, but you can no longer change them. With "Close test part" and the confirmation "Advance test part" you go to the next test part. Without review, you go directly to the next test part.
+* In the last test part, the button is also called "Finish test part", the confirmation has the title "Finish test". With the confirmation, the whole test is completed.
+
+![Page Test part complete with the list of questions to review and the Close test part button](assets/test_run_testpart_complete_v1_en.png){ class="shadow lightbox" title="Page Test part complete · 2026.10.07" }
+
 Whether, how and when you see the results and the performance summary depends on the test configuration.
 
 ![Success status, score and attempts, below them the test results with duration and score achieved](assets/course_element_test_assessment_overview_v1_en.png){ class="shadow lightbox" title="Performance summary of a test from the participants' view · 2026.10.01" }
