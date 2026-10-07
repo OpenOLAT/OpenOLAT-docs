@@ -59,11 +59,18 @@ This section is edited by **course owners**. Coaches do not reach it; they find 
 
 This toggle is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
 
-You do not have to set the switch yourself in every case. As soon as an event is assigned to the course, OpenOlat switches on the Event & absence management if it is still switched off. This happens when
+You do not have to set the switch yourself in every case. In three cases, OpenOlat switches on the Event & absence management if it is still switched off:
 
-- an event is created for this course with the "Add event" wizard, for example in the Course Planner,
-- an event of this course is edited and saved,
-- an element in the Course Planner receives this course as its first course and its existing events are assigned to the course in the process.
+- an event is created for this course with "Add event", for example in the Course Planner,
+- an event of this course is edited and saved in the Course Planner in the "Events" tab of a product,
+- an element in the Course Planner receives this course as its first course, and its existing events are assigned to the course in the process.
+
+In the following cases, the switch stays unchanged:
+
+- events are created via "Import events" or via the [import wizard of the Course Planner](../area_modules/Course_Planner_Import_Export.md#import_wizard),
+- an event is edited and saved or copied in the "Events" tab of an implementation.
+
+In these cases, switch on the Event & absence management manually. Events that you import in the "Events" tab of an implementation receive no course, even if the implementation has a course: the "Course" column stays empty in the event lists of the Course Planner. If an event is to belong to the course, create it with "Add event".
 
 Only the switch itself is switched on; the other settings of this section keep their default values. The Event & absence management is switched off only manually, even if all events of the course have been deleted. If an external system manages the configuration of the events and absences of this course, the switch is greyed out and OpenOlat does not change it. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
@@ -83,7 +90,7 @@ If overwriting is permitted with "Yes", the following checkboxes and input field
 
 If the option is set to "No", the administrator's default setting will be applied. The checkboxes and input fields below remain inactive and display the default value. The functions preset there are nevertheless effective in the course.
 
-Whether you can switch on overwriting at all is controlled by the administration with the setting "Default configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
+Whether you can switch on overwriting at all is set by administrators in the system administration with the setting "Default configuration": `Administration > Modules > Events / Absences`, tab "Configuration", section "Course-level configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
 
 !!! note "You cannot edit the settings in your course?"
 
@@ -125,7 +132,7 @@ The help icon next to the option shows the text "If this option is enabled, the 
 
 If the option is switched on, you can select the "Mark as exam" option from the 3-dot menu for events. This creates an assessment mode. In addition, the following fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" appear with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
 
-The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
+The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the system administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
 
 #### Prep time {: #lead_time }
 
@@ -186,6 +193,7 @@ Traditional courses do not include a "Learning Progress" option.
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
 [Personal tools: Absences >](../personal_menu/Absences.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)
 

@@ -24,11 +24,10 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 
 ### Liste aller Termine {: #event_list}
 
-Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine". Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl.
+Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine":<br>
+`Course Planner > Termine`
 
-![Button Termine im Bereich Produkte hervorgehoben](assets/course_planner_events_display2_v4_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
-
-![Alle Termine mit Status, Element, Kurs, Ort und Dozenten, darüber Zeitraum-Kacheln, Tabs und die Filter Produkt, Durchführung und Dozenten](assets/course_planner_events_display3_v2_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
+Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl. Wie die Liste aussieht, zeigen die Bilder unter [Ansichten](#views).
 
 
 
@@ -87,11 +86,16 @@ Die Detailansicht zeigt zusätzlich Datum, Zeit, Einheit, Teilnehmerzahl, Präse
 Da sich Termine auf eine Durchführung beziehen, finden Sie die Möglichkeit zum Erstellen unter<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Nach Klick auf den kleinen Pfeil neben dem Button können Sie Termine auch importieren.
+Auch im Tab Termine eines Produkts steht "Termin hinzufügen" zur Verfügung, sobald das Produkt mindestens eine Durchführung hat. Im ersten Schritt des Assistenten, "Element auswählen", wählen Sie die Durchführung oder das Element, zu dem der Termin gehört:<br>
+`Course Planner > Produkte > "Ihr Produkt" > Tab Termine`
 
-Ordnen Sie einen Termin einem Kurs zu, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Der Termin steht danach auch im Kurs zur Verfügung, ohne dass jemand die Kurseinstellungen anpassen muss. Mehr dazu unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+Im Bereich "Termine" des Course Planners ist "Termin hinzufügen" ausgegraut, weil dort weder eine Durchführung noch ein Produkt gewählt ist.
 
-![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren](assets/course_planner_events_create_v1_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
+Im Tab Termine einer Durchführung können Sie nach Klick auf den kleinen Pfeil neben dem Button Termine auch importieren.
+
+Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Der Termin steht danach auch im Kurs zur Verfügung, ohne dass jemand die Kurseinstellungen anpassen muss. Importierte Termine schalten sie nicht ein, weder aus "Termine importieren" noch aus dem [Import-Assistenten des Course Planners](Course_Planner_Import_Export.de.md#import_wizard). Termine, die Sie im Tab Termine einer Durchführung importieren, erhalten keinen Kurs, auch wenn die Durchführung einen Kurs hat: In den Terminlisten bleibt die Spalte "Kurs" leer. Soll ein Termin zum Kurs gehören, erstellen Sie ihn mit "Termin hinzufügen". Mehr dazu unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren](assets/course_planner_events_create_v2_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung · 2026.10.07" }
 
 !!! tip "Damit ein Termin auch im Kalender erscheint"
 
@@ -129,7 +133,7 @@ Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Ra
 
 Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei heruntergeladen werden. Verwenden Sie dazu den Button rechts oben über der Liste.
 
-![Der Download-Button rechts über der Terminliste hervorgehoben](assets/course_planner_events_download_v1_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
+![Der Download-Button rechts über der Terminliste hervorgehoben](assets/course_planner_events_download_v2_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner · 2026.10.07" }
 
 
 [zum Seitenanfang ^](#events)
@@ -141,21 +145,21 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kurseinstellungen: Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>
-[Wie erstelle ich meinen ersten OpenOlat-Kurs >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Modul Räume (Admin) >](../../manual_admin/administration/Modules_Rooms.de.md)
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Räume >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#events)
 

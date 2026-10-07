@@ -54,18 +54,25 @@ Die Eingabe in diesem Textfeld wird in der Kursinfo angezeigt.
 
 ## Konfiguration Termin- und Absenzenverwaltung im Kurs {: #config_event_and_absence_management} [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-Diesen Abschnitt bearbeiten **Kursbesitzende**. Betreuende erreichen ihn nicht; sie finden das Werkzeug "Termine" in der Kurs-Werkzeugleiste.
+Diesen Abschnitt bearbeiten **Kursbesitzer:innen**. Betreuer:innen erreichen ihn nicht; sie finden das Werkzeug "Termine" in der Kurs-Werkzeugleiste.
 
 
 #### Termin- und Absenzenverwaltung {: #lecture_enabled }
 
 Dieser Toggle steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul fehlt der ganze Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs" im Tab "Durchführung".
 
-Den Schalter müssen Sie nicht in jedem Fall selbst setzen. Sobald dem Kurs ein Termin zugeordnet wird, schaltet OpenOlat die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Das geschieht, wenn
+Den Schalter müssen Sie nicht in jedem Fall selbst setzen. In drei Fällen schaltet OpenOlat die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist:
 
-- ein Termin mit dem Assistenten "Termin hinzufügen" für diesen Kurs erstellt wird, zum Beispiel im Course Planner,
-- ein Termin dieses Kurses bearbeitet und gespeichert wird,
-- ein Element im Course Planner diesen Kurs als ersten Kurs erhält und seine bestehenden Termine dabei dem Kurs zugeordnet werden.
+- ein Termin wird mit "Termin hinzufügen" für diesen Kurs erstellt, zum Beispiel im Course Planner,
+- ein Termin dieses Kurses wird im Course Planner im Tab "Termine" eines Produkts bearbeitet und gespeichert,
+- ein Element im Course Planner erhält diesen Kurs als ersten Kurs, und seine bestehenden Termine werden dabei dem Kurs zugeordnet.
+
+In den folgenden Fällen bleibt der Schalter unverändert:
+
+- Termine werden über "Termine importieren" oder über den [Import-Assistenten des Course Planners](../area_modules/Course_Planner_Import_Export.de.md#import_wizard) angelegt,
+- ein Termin wird im Tab "Termine" einer Durchführung bearbeitet und gespeichert oder kopiert.
+
+Schalten Sie die Termin- und Absenzenverwaltung in diesen Fällen von Hand ein. Termine, die Sie im Tab "Termine" einer Durchführung importieren, erhalten keinen Kurs, auch wenn die Durchführung einen Kurs hat: In den Terminlisten des Course Planners bleibt die Spalte "Kurs" leer. Soll ein Termin zum Kurs gehören, erstellen Sie ihn mit "Termin hinzufügen".
 
 Eingeschaltet wird nur der Schalter selbst; die übrigen Einstellungen dieses Abschnitts behalten ihre Vorgabewerte. Ausgeschaltet wird die Termin- und Absenzenverwaltung nur von Hand, auch dann, wenn alle Termine des Kurses gelöscht sind. Verwaltet ein externes System die Konfiguration der Termine und Absenzen dieses Kurses, ist der Schalter ausgegraut und OpenOlat ändert ihn nicht. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
@@ -85,7 +92,7 @@ Wird das Überschreiben mit "Ja" zugelassen, sind die nachfolgenden Checkboxen u
 
 Steht die Option auf "Nein", wird die Voreinstellung des/der Administrator:in angewendet. Die nachstehenden Checkboxen und Eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an. Die dort voreingestellten Funktionen sind im Kurs dennoch wirksam.
 
-Ob Sie das Überschreiben überhaupt einschalten können, steuert die Administration mit der Einstellung "Standardkonfiguration". Bei der Auswahlkarte "Überschreibbar" können Sie diesen Punkt frei wählen. Bei "Schreibgeschützt" bleibt er auf "Nein" und ist ausgegraut, sofern das Überschreiben in diesem Kurs nicht schon vorher eingeschaltet war.
+Ob Sie das Überschreiben überhaupt einschalten können, legen Administrator:innen in der System-Administration mit der Einstellung "Standardkonfiguration" fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration", Abschnitt "Konfiguration auf Kursebene". Bei der Auswahlkarte "Überschreibbar" können Sie diesen Punkt frei wählen. Bei "Schreibgeschützt" bleibt er auf "Nein" und ist ausgegraut, sofern das Überschreiben in diesem Kurs nicht schon vorher eingeschaltet war.
 
 !!! note "Sie können die Einstellungen in Ihrem Kurs nicht bearbeiten?"
 
@@ -130,7 +137,7 @@ Das Hilfe-Symbol neben der Option zeigt den Text "Wenn diese Option aktiviert is
 
 Ist die Option eingeschaltet, kann man bei Terminen im 3-Punkte-Menü die Option "Als Prüfung markieren" wählen. Dadurch wird ein Prüfungsmodus erstellt. Ausserdem erscheinen die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" mit den kursweiten Vorgabewerten für diese Prüfungsmodi. Die Vorgabewerte werden beim Markieren übernommen; bereits erstellte Prüfungsmodi bleiben bei späteren Änderungen unverändert.
 
-Die Option erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Zum Ändern der Option im Kurs ist "Standardkonfiguration überschreiben" auf "Ja" nötig. Steht das Überschreiben auf "Nein" und ist die Option in der Administration eingeschaltet, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der Administration.
+Die Option erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Zum Ändern der Option im Kurs ist "Standardkonfiguration überschreiben" auf "Ja" nötig. Steht das Überschreiben auf "Nein" und ist die Option in der System-Administration eingeschaltet, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der Administration.
 
 #### Vorlaufzeit {: #lead_time }
 
@@ -191,17 +198,18 @@ Herkömmliche Kurse verfügen nicht über die Option "Lernfortschritt".
 
 **Auf dieser Seite erwähnt**<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
-[Zugangskonfiguration >](../learningresources/Access_configuration.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Prüfungsmodus >](../learningresources/Assessment_mode.de.md)
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
+[Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)
 
 **Weiterführend**<br>
 [Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
-[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)
+[Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
+[Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Absenzenverwaltung >](../area_modules/Absence_Management.de.md)
 
 [Zum Seitenanfang ^](#tab_execution)
 

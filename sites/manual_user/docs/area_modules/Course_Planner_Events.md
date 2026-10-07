@@ -22,11 +22,10 @@ You can find a selection of current events on the **overview of the Course Plann
 
 ### List of all events {: #event_list}
 
-You will find the complete overview of all events in the Course Planner in the "Events" area. Use the tabs and filters to narrow down and select.
+You will find the complete overview of all events in the Course Planner in the "Events" area:<br>
+`Course Planner > Events`
 
-![Events button in the Products area highlighted](assets/course_planner_events_display2_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
-
-![All events with status, element, course, location and teachers, above them the period tiles, tabs and the filters Product, Execution and Teachers](assets/course_planner_events_display3_v2_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
+Use the tabs and filters to narrow down and select. The images under [Views](#views) show what the list looks like.
 
 
 ### Events of an implementation {: #events_of_an_implementation}
@@ -83,11 +82,16 @@ The detail view additionally shows the date, time, "Unit", number of participant
 As events refer to an implementation, you will find the option to create them under<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-You can also import events by clicking on the small arrow next to the button.
+"Add event" is also available in the Events tab of a product as soon as the product has at least one implementation. In the first step of the wizard, "Select element", you choose the implementation or the element the event belongs to:<br>
+`Course Planner > Products > "your product" > Tab Events`
 
-If you assign an event to a course, OpenOlat switches on the Event & absence management in the course if it is still switched off. The event is then also available in the course without anyone having to adjust the course settings. More on this under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+In the "Events" area of the Course Planner, "Add event" is greyed out because neither an implementation nor a product is selected there.
 
-![The Add event button with the expanded Import events entry](assets/course_planner_events_create_v1_en.png){ class="shadow lightbox" title="Events tab of an implementation" }
+In the Events tab of an implementation, you can also import events by clicking on the small arrow next to the button.
+
+If you create an event for a course with "Add event", OpenOlat switches on the Event & absence management in the course if it is still switched off. The event is then also available in the course without anyone having to adjust the course settings. Imported events do not switch it on, neither from "Import events" nor from the [import wizard of the Course Planner](Course_Planner_Import_Export.md#import_wizard). Events that you import in the Events tab of an implementation receive no course, even if the implementation has a course: the "Course" column stays empty in the event lists. If an event is to belong to the course, create it with "Add event". More on this under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+![The Add event button with the expanded Import events entry](assets/course_planner_events_create_v2_en.png){ class="shadow lightbox" title="Events tab of an implementation · 2026.10.07" }
 
 !!! tip "So an event also appears in the calendar"
 
@@ -126,7 +130,7 @@ If a room is double-booked during the period of the event, the warning "The room
 
 If required, the events displayed in the list can also be downloaded as an Excel file. To do this, use the button at the top right of the list.
 
-![The download button at the top right above the event list highlighted](assets/course_planner_events_download_v1_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
+![The download button at the top right above the event list highlighted](assets/course_planner_events_download_v2_en.png){ class="shadow lightbox" title="Events area in the Course Planner · 2026.10.07" }
 
 [To the top of the page ^](#events)
 
@@ -136,7 +140,8 @@ If required, the events displayed in the list can also be downloaded as an Excel
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Settings: Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
+[Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)
 
 **Further reading**<br>
@@ -144,12 +149,11 @@ If required, the events displayed in the list can also be downloaded as an Excel
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[Module Rooms (Admin) >](../../manual_admin/administration/Modules_Rooms.md)
+[Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Module Rooms >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#events)

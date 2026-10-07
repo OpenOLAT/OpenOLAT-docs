@@ -55,7 +55,7 @@ As with all modules, general activation is carried out by administrators. For ab
 `Administration > Modules > Events / Absences`<br>
 Find out more under [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md).
 
-In a specific course, OpenOlat switches on the Event & absence management itself as soon as an event is assigned to the course, for example in the Course Planner. Course owners can switch it on and off manually and configure it for the course in the course administration:<br>
+In a specific course, OpenOlat switches on the Event & absence management itself as soon as an event is created for the course with "Add event", for example in the Course Planner. Course owners can switch it on and off manually and configure it for the course in the course administration:<br>
 `Course > Administration > Settings > Tab "Execution" > Section "Configuration of Event & Absence management in course"`<br>
 Find out more, also about the cases in which OpenOlat does not switch the function on itself, under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
@@ -75,9 +75,6 @@ After opening the absence management, the main functions are displayed as tabs:
 - [User search](#user_search)
 - [Report](#report)
 
-![Tab bar with the seven main functions from Cockpit to Report highlighted](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" title="Tab bar of the absence management" }
-
-
 [To the top of the page ^](#absence_management)
 
 ---
@@ -88,7 +85,9 @@ After opening the absence management, the main functions are displayed as tabs:
 
 The cockpit displays the **absences** and **notices** of a day in two sections below each other. The current day is displayed by default, but any other day can be selected in the top right corner.
 
-![Daily overview with two absences in the Absences section, an empty Notices section and date selection in the top right corner](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" title="Tab Cockpit of the absence management" }
+In both sections, under **Display** you choose whether the list shows all entries (**All**) or only the unauthorized ones (**Unauthorized**). This switch is available if the option [Authorized absences](../../manual_admin/administration/Modules_Events_and_Absences.md#authorized_absences) is switched on in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration". This also applies to the tabs Absences and Notices.
+
+![Daily overview with two absences and an empty Notices section, each with the Display switch, date selection in the top right corner](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" title="Tab Cockpit of the absence management" }
 
 [To the top of the page ^](#absence_management)
 
@@ -97,9 +96,11 @@ The cockpit displays the **absences** and **notices** of a day in two sections b
 
 ## Tab Events {: #tab_events}
 
-The tab Events lists the events across courses. Use the period buttons, the quick filters and the filters to narrow down the list.
+The tab Events lists the events across courses. Use the period buttons, the quick filters and the filters to narrow down the list. You only see the "Product" filter if you manage at least one product.
 
-![Event list with period buttons, quick filters and filters above the table](assets/absence_mgmt_events1_v1_de.png){ class="shadow lightbox" title="Tab Events of the absence management" }
+At the top right, absence managers and administrators see the "Add event" button. It is greyed out here because neither an implementation nor a product is selected. You create events in the Course Planner, more on this under [Course Planner: Events](Course_Planner_Events.md#create_events).
+
+![Event list with period buttons, quick filters and the filters Product, Execution, Teachers and Absences above the table](assets/absence_management_events_v2_en.png){ class="shadow lightbox" title="Tab Events of the absence management · 2026.10.07" }
 
 [To the top of the page ^](#absence_management)
 
@@ -123,7 +124,7 @@ The tab Notices lists the notices of absence and dispensations. Use the buttons 
 
 ![Notices of absence and dispensations with filters by type of notice, reason and date as well as three buttons for new notices](assets/absence_mgmt_notices1_v1_de.png){ class="shadow lightbox" title="Tab Notices of the absence management" }
 
-You can use the search field to search for users, teachers, course titles and events. The filters **Type of notice**, **Reason** and **Date** narrow down the list further, under **Display** you choose between **All** and **Unauthorized**.
+You can use the search field to search for users, teachers, course titles and events. The filters **Type of notice**, **Reason** and **Date** narrow down the list further. If authorized absences are switched on, you use the checkboxes **Authorized** and **Not authorized** to set which notices the search finds. Under **Display** you choose between **All** and **Unauthorized**.
 
 [To the top of the page ^](#absence_management)
 
@@ -134,9 +135,9 @@ You can use the search field to search for users, teachers, course titles and ev
 
 ![List of appeals with the status filter pending, rejected and accepted and one accepted appeal](assets/absence_mgmt_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Appeals of the absence management" }
 
-An appeal must be lodged within the specified **appeal period**. Administrators set the appeal period system-wide.
+An appeal must be lodged within the specified **appeal period**. Administrators set the appeal period system-wide in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration".
 
-You can use the search field to search for users, teachers and events. The **Status** filter shows the appeals by their state: pending, rejected or accepted.
+You can use the search field to search for users, teachers and events. The **Status** filter shows the appeals by their state: pending, rejected or accepted. Use **Date** to narrow down the period.
 
 [To the top of the page ^](#absence_management)
 
@@ -147,7 +148,7 @@ You can use the search field to search for users, teachers and events. The **Sta
 
 The user search finds participants. Use the links next to the title to switch to the search by teachers, by courses or by products.
 
-![Search by participants with links to the other searches, below it the list of results](assets/absence_mgmt_user_search1_v1_de.png){ class="shadow lightbox" title="Tab User search of the absence management" }
+![Search by participants with the links Search by teachers, Search by courses and Search by products, below it the list of results](assets/absence_management_user_search_v2_en.png){ class="shadow lightbox" title="Tab User search of the absence management · 2026.10.07" }
 
 
 [To the top of the page ^](#absence_management)
@@ -157,11 +158,11 @@ The user search finds participants. Use the links next to the title to switch to
 
 ## Tab Report {: #report}
 
-The report summarizes the attendances per person: as an **Aggregated list** across all courses or as a **Detailed list** per course. The tab first opens a search form; the lists appear after the search. Use **Export** to download the result.
+The report summarizes the attendances per person: as an **Aggregated list** across all courses or as a **Detailed list** per course. The tab first opens a search form; the lists appear after the search. Use **Export** to download the result. The report only takes into account courses with the status "Published" or "Finished".
 
-![Per person across all courses the units, attended, not excused, authorized, dispensed and % attended, plus Export](assets/absence_mgmt_report1_v1_de.png){ class="shadow lightbox" title="Aggregated list in the tab Report" }
+![Per person across all courses the units, attended, not excused, authorized, dispensed and % attended, plus Export](assets/absence_management_report_aggregated_v2_en.png){ class="shadow lightbox" title="Aggregated list in the tab Report · 2026.10.07" }
 
-![The same figures per person and course, supplemented by the columns Course and Course Ref.](assets/absence_mgmt_report2_v1_de.png){ class="shadow lightbox" title="Detailed list in the tab Report" }
+![The same figures per person and course, supplemented by the columns Course and Course Ref.](assets/absence_management_report_detailed_v2_en.png){ class="shadow lightbox" title="Detailed list in the tab Report · 2026.10.07" }
 
 
 [To the top of the page ^](#absence_management)
@@ -171,14 +172,17 @@ The report summarizes the attendances per person: as an **Aggregated list** acro
 
 ## Further information {: #further_information}
 
-[Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.md)<br>
-[Activation and configuration of the module Events and Absences by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuration of Event & Absence management in course >](../learningresources/Course_Settings_Execution.md)<br>
-[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
-[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
-[Personal absences >](../personal_menu/Absences.md)<br>
-[Cross-course absence recording in Coaching >](../area_modules/Coaching.md)
+**Mentioned on this page**<br>
+[Events and absences >](../learningresources/Events_and_absences.md)<br>
+[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Course Planner: Events >](../area_modules/Course_Planner_Events.md)
+
+**Further reading**<br>
+[Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
+[Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)
 
 
 [To the top of the page ^](#absence_management)
-
