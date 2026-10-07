@@ -139,14 +139,14 @@ Mitgliedschaften können nur neu angelegt, nicht aktualisiert werden.
 | Attribut | Pflicht (bei Neuanlage) | Mögliche Meldung |
 |---|---|---|
 | Anmeldename | Ja | E2, E6, bei Neuanlage zusätzlich E21/E22 |
-| Vorname | Ja | E2, E7, W7 (bei bestehenden Benutzer:innen geändert) |
+| Vorname | Ja | E2, E7, W7 (bei bestehenden Konten geändert) |
 | Nachname | Ja | E2, E7, W7 |
 | E-Mail | Ja, ausser wenn Systemeinstellung "E-Mail obligatorisch" deaktiviert ist | E2, E6, W7 |
 | ORG-Zugehörigkeit | Ja | E2, E1, E4, W7 |
-| Passwort | Nein | E25 (muss bei bestehenden Benutzer:innen leer sein), E6 (bei Neuanlage ungültiger Wert) |
+| Passwort | Nein | E25 (muss bei bestehenden Konten leer sein), E6 (bei Neuanlage ungültiger Wert) |
 | Konto-Ablaufdatum | Nein | Muss bei Neuanlage in der Zukunft liegen, sonst Fehlermeldung; bei Änderung an bestehenden Konten W7 |
 
-Benutzer:innen können nur neu angelegt, nicht aktualisiert werden.
+Konten können nur neu angelegt, nicht aktualisiert werden.
 
 [zum Seitenanfang ^](#import_export_reference)
 

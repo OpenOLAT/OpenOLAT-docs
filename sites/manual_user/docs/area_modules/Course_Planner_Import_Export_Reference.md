@@ -137,14 +137,14 @@ Memberships can only be newly created, not updated.
 | Attribute | Mandatory (on creation) | Possible message |
 |---|---|---|
 | Username | Yes | E2, E6, additionally E21/E22 on creation |
-| First name | Yes | E2, E7, W7 (changed for existing users) |
+| First name | Yes | E2, E7, W7 (changed for existing accounts) |
 | Last name | Yes | E2, E7, W7 |
 | E-mail | Yes, unless the system setting "E-mail mandatory" is disabled | E2, E6, W7 |
 | ORG affiliation | Yes | E2, E1, E4, W7 |
-| Password | No | E25 (must be empty for existing users), E6 (invalid value on creation) |
+| Password | No | E25 (must be empty for existing accounts), E6 (invalid value on creation) |
 | Account expiration | No | Must be in the future on creation, otherwise an error message; W7 on change to existing accounts |
 
-Users can only be newly created, not updated.
+Accounts can only be newly created, not updated.
 
 [To the top of the page ^](#import_export_reference)
 
