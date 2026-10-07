@@ -3,7 +3,7 @@
 Die Konfiguration eines Zertifikates für einen Kurs erfolgt unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Bewertung"`
 
-![Weg über Administration, Einstellungen und Tab Bewertung zum Abschnitt Zertifikat mit Zertifikat ausstellen, PDF Zertifikat erzeugen, Zertifikatvorlage, Optionale Variablen und Gültigkeitsdauer](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" title="Tab Bewertung in den Kurseinstellungen" }
+![Abschnitt Zertifikat mit Zertifikat ausstellen, PDF Zertifikat erzeugen, Zertifikatvorlage, Optionale Variable 1 bis 3, Häkchen Gültigkeitsdauer und Feld Gültigkeitsdauer mit Zahl und Einheit](assets/course_settings_assessment_certificate_config_v2_de.png){ class="shadow lightbox" title="Tab Bewertung in den Kurseinstellungen · 2026.10.07" }
 
 
 ## Zertifikate [:octicons-tag-16:{ title="ab Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
@@ -14,6 +14,8 @@ Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten
 
 Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifikat für den Besuch mehrerer Kurse ausgestellt werden. Solche Zertifikate werden innerhalb des Course Planners (Durchführung) vergeben.<br>
 [Mehr zu Zertifikatsprogrammen >](../area_modules/Course_Planner_Certification_Programs.de.md) 
+
+Ist der Kurs Teil einer Durchführung, die mit einem Zertifikatsprogramm verknüpft ist, zeigt der Tab "Bewertung" anstelle des Abschnitts "Zertifikat" den Abschnitt "Zertifikatsprogramme" mit dem Hinweis "Teil eines Zertifikatsprogramms". Zertifikat und Rezertifizierung richten Sie dann im Zertifikatsprogramm ein, nicht im Kurs. [:octicons-tag-16:{ title="ab Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559)
 
 **Die nachfolgenden Ausführungen beziehen sich auf das Zertifikat in einem einzelnen Kurs.**
 
@@ -31,7 +33,7 @@ Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüll
 
 ### Wie wird die Gültigkeit überprüft? [:octicons-tag-16:{ title="ab Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
 
-Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
+Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Setzen Sie dazu das Häkchen "Gültigkeitsdauer". Im zweiten Feld mit derselben Beschriftung "Gültigkeitsdauer" tragen Sie die Dauer in Tagen, Wochen, Monaten oder Jahren ein.
 
 Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, **mittels QR-Code** das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
 
@@ -172,28 +174,34 @@ Die Druckversion konfigurieren Sie nicht in den Kurseinstellungen, sondern im Ze
 
 ### Voraussetzungen {: #recertification_conditions}
 
-Damit ein Prozess zur Rezertifizierung eingerichtet werden kann, muss vorher die Zertifikatserstellung aktiviert worden sein. Ist ein Zertifikat für einen Kurs abgelaufen, kann allen betroffenen Teilnehmer:innen die Rezertifizierung angeboten werden.
+Damit ein Prozess zur Rezertifizierung eingerichtet werden kann, muss vorher die Zertifikatserstellung aktiviert und eine Gültigkeitsdauer gesetzt sein. Ohne Gültigkeitsdauer erscheint der Schalter "Rezertifizierung" nicht. Läuft ein Zertifikat für einen Kurs ab, kann allen betroffenen Teilnehmer:innen die Rezertifizierung schon vor dem Ablauf angeboten werden.
 
 Die Option zur Rezertifizierung ist gekoppelt an
 
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-![Zertifikat ausstellen eingeschaltet, Gültigkeitsdauer gesetzt, darunter der Schalter Rezertifizierung](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" title="Abschnitt Zertifikat im Tab Bewertung" }
+![Gültigkeitsdauer gesetzt, Schalter Rezertifizierung eingeschaltet, darunter das Feld frühestens ab … Tage vor Ablauf Gültigkeit Zertifikat](assets/course_settings_assessment_certificate_recertification_v3_de.png){ class="shadow lightbox" title="Abschnitt Zertifikat im Tab Bewertung · 2026.10.07" }
 
 
 ### Rezertifizierung aktivieren  {: #recertification_activation}
 
-Wird die Rezertifizierung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat".
-
-(Der Wert muss kleiner als die Gültigkeitsdauer sein.)
+Schalten Sie "Rezertifizierung" ein, öffnet sich der Dialog "Rezertifizierung aktivieren". Dort legen Sie fest, ab wann eine Rezertifizierung möglich ist: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat". Der Wert muss kleiner als die Gültigkeitsdauer sein. Der Button "Aktivieren und Erinnerungen erstellen" schaltet die Rezertifizierung ein.
 
 Beachten Sie, dass Sie Kursbausteine auch nur bei der ersten Zertifizierung oder nur bei einer der Rezertifizierungen anzeigen können. Dies kann in Lernpfadkursen über Ausnahmen bestimmt werden. [Mehr dazu >](../learningresources/Learning_path_course_Course_editor.de.md#exceptions)
 
 
-### Erinnerungen einrichten  {: #recertification_reminders}
+### Erinnerungen zur Rezertifizierung  {: #recertification_reminders}
 
-Bevor die Rezertifizierung endgültig aktiviert wird, werden Sie zur Einrichtung von Erinnerungen aufgefordert. Definieren Sie automatisch verschickte Meldungen an betroffene Teilnehmer:innen, z.B. sobald ihre Rezertifizierung möglich wird und/oder wenn die Gültigkeit des bisherigen Zertifikats abgelaufen ist.
+Damit betroffene Teilnehmer:innen ihre Rezertifizierung nicht verpassen, legt OpenOlat beim Aktivieren die Erinnerungen selbst an:
+
+* "Rezertifizierung möglich - ... Tage" zu Beginn des Zeitraums, ab dem eine Rezertifizierung möglich ist
+* "Zertifikat noch 10 Tage gültig" zehn Tage vor Ablauf, sofern der Zeitraum länger als 10 Tage ist
+* "Gültigkeit Zertifikat abgelaufen" am Tag, an dem das Zertifikat abläuft
+
+Besteht eine Erinnerung mit derselben Regel schon, legt OpenOlat sie nicht ein zweites Mal an. Die Erinnerungen sehen und bearbeiten Sie im Abschnitt "Erinnerungen Rezertifizierung" unter dem Abschnitt "Zertifikat".
+
+Schalten Sie die Rezertifizierung später aus, öffnet sich der Dialog "Rezertifizierung deaktivieren". Das Häkchen "Alle Erinnerungen mit Prüfung auf Ablaufdatum Zertifikat löschen" ist gesetzt, OpenOlat löscht die Erinnerungen damit gleich mit. So erhalten Teilnehmer:innen keine Erinnerung zu einer Rezertifizierung, die es nicht mehr gibt. [:octicons-tag-16:{ title="ab Release 19.1.11 (OO-8620)" }](https://track.frentix.com/issue/OO-8620)
 
 Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgesetzt (Kurs-Reset).
 

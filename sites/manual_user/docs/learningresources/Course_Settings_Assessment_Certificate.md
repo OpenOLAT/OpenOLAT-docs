@@ -3,7 +3,7 @@
 The configuration of a certificate for a course is done in:<br>
 `Course > Administration > Settings > Tab "Assessment"`
 
-![Path via Administration, Settings and Assessment tab to the Certificate section with Issue certificate, Generate PDF certificate, Certificate template, Custom variables and Validity period](assets/course_settings_assessment_certification_config_v1_de.png){ class="lightbox" title="Assessment tab in the course settings" }
+![Certificate section with Issue certificate, Generate PDF certificate, Certificate template, Custom variable 1 to 3, Validity period checkbox and Validity period field with number and unit](assets/course_settings_assessment_certificate_config_v2_en.png){ class="shadow lightbox" title="Assessment tab in the course settings · 2026.10.07" }
 
 ## Certificates [:octicons-tag-16:{ title="from Release 10.1 (OO-1254)" }](https://track.frentix.com/issue/OO-1254) {: #certificate}
 
@@ -13,6 +13,8 @@ A **PDF certificate** can be issued as confirmation of attendance at a course or
 
 In addition to these course certificates, the certification program can also issue a certificate for attending multiple courses. Such certificates are awarded within the Course Planner (Implementation).<br>
 [More about certification programs >](../area_modules/Course_Planner_Certification_Programs.md)
+
+If the course is part of an implementation that is linked to a certification program, the "Assessment" tab shows the "Certification program" section with the note "Part of a certificate program" instead of the "Certificate" section. You then set up the certificate and the recertification in the certification program, not in the course. [:octicons-tag-16:{ title="from Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559)
 
 **The following information refers to the certificate for a single course.**
 
@@ -32,7 +34,7 @@ Once the participant has fulfilled all the requirements for passing a course, th
 
 ### How is validity verified? [:octicons-tag-16:{ title="from Release 11.0 (OO-2071)" }](https://track.frentix.com/issue/OO-2071) {: #certificate_validation}
 
-A **validity period** can be specified for the certificate. You can specify the validity period in days, weeks, months, or years. 
+A **validity period** can be specified for the certificate. To do so, select the "Validity period" checkbox. In the second field with the same label "Validity period", you enter the duration in days, weeks, months, or years.
 
 To verify the validity of the certificate, the attribute "certificateVerificationUrl" must be added to the template. This allows the certificate to be regenerated at a later date **using a QR code** and compared with the current version. If both versions match, the certificate can be declared valid. However, the QR code for validation is only possible when using an HTML form.
 
@@ -44,7 +46,8 @@ To verify the validity of the certificate, the attribute "certificateVerificatio
 
 ### Create certificate template {: #certificate_template}
 
-By default, the supplied default template is used as the template for the certificate. Administrators also provide further system-wide templates for selection. If you want to use your own template, you can upload it in the course under `Administration > Settings > Assessment > "Certificate" section > Certificate template`.
+By default, the supplied default template is used as the template for the certificate. Administrators also provide further system-wide templates for selection. If you want to use your own template, upload it under:<br>
+`Course > Administration > Settings > Assessment > "Certificate" section > Certificate template`
 
 !!! note "Note"
 
@@ -71,7 +74,7 @@ The "dateFormatter" object is available for formatting date formats. This allows
 
 Signatures, logos, etc. can be integrated into the certificate as static graphics using the optional variables. The corresponding files must be available with the certificate template for this purpose.
 
-???+ note "Overview of the most important variables:"
+!!! note "Overview of the most important variables"
 
     _User:_
 
@@ -84,7 +87,7 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       * $studySubject
       * ...
 
-        All user attributes are available as variables.
+    All user attributes are available as variables.
 
     _Course:_
 
@@ -173,26 +176,32 @@ You do not configure the print version in the course settings, but in the certif
 
 ### Conditions {: #recertification_conditions}
 
-In order for a recertification process to be set up, certificate creation must first be activated. If a certificate for a course has expired, recertification can be offered to all affected participants.
+In order for a recertification process to be set up, certificate creation must first be activated and a validity period must be set. Without a validity period, the "Recertification" switch does not appear. When a certificate for a course expires, recertification can be offered to all affected participants even before the expiry.
 
 The recertification option is linked to
 
 * an existing previous (initial) certification
 * A defined indication of the earliest date on which recertification is possible.
 
-![Issue certificate switched on, validity period set, below it the Recertification switch](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" title="Certificate section in the Assessment tab" }
+![Validity period set, Recertification switch turned on, below it the field earliest from … days before expiration validity certificate](assets/course_settings_assessment_certificate_recertification_v3_en.png){ class="shadow lightbox" title="Certificate section in the Assessment tab · 2026.10.07" }
 
 ### Activate recertification  {: #recertification_activation}
 
-If recertification is activated, you must specify when recertification should be possible: "at the earliest ... days before the certificate expires."
-
-(The value must be less than the validity period.)
+If you switch on "Recertification", the "Activate recertification" dialog opens. There you define from when recertification is possible: "earliest from ... days before expiration validity certificate". The value must be less than the validity period. The "Activate and create reminders" button switches on the recertification.
 
 Please note that you can also choose to display course elements only during the initial certification or only during one of the recertifications. This can be determined in learning path courses via exceptions. [More on this >](../learningresources/Learning_path_course_Course_editor.md#exceptions)
 
-### Set up reminders  {: #recertification_reminders}
+### Reminders for recertification  {: #recertification_reminders}
 
-Before recertification is finally activated, you will be prompted to set up reminders. Define automatically sent messages to affected participants, e.g., as soon as their recertification becomes possible and/or when the validity of the previous certificate has expired.
+So that affected participants do not miss their recertification, OpenOlat creates the reminders itself when you activate it:
+
+* "Recertification possible - ... days" at the start of the period from which recertification is possible
+* "Certificate still valid for 10 days" ten days before expiry, provided the period is longer than 10 days
+* "Validity certificate expired" on the day the certificate expires
+
+If a reminder with the same rule already exists, OpenOlat does not create it a second time. You see and edit the reminders in the "Reminders recertification" section below the "Certificate" section.
+
+If you switch off recertification later, the "Deactivate recertification" dialog opens. The "Delete reminders with recertification rules." checkbox is selected, so OpenOlat deletes the reminders as well. This way participants receive no reminder for a recertification that no longer exists. [:octicons-tag-16:{ title="from Release 19.1.11 (OO-8620)" }](https://track.frentix.com/issue/OO-8620)
 
 The data of participating individuals will be reset during recertification (course reset).
 

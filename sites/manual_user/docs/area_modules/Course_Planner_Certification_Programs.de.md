@@ -90,9 +90,11 @@ Die Übersichtsseite des Zertifikatsprogramms zeigt ein Widget **Aktive Mitglied
 * Läuft bald ab
 * In Rezertifizierung
 
-Ein Klick auf eine Kennzahl filtert die Mitgliederliste darunter. Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+"Läuft bald ab" erscheint nur, wenn die Gültigkeit eingeschaltet ist, "In Rezertifizierung" nur mit eingeschalteter Rezertifizierung. Ein Klick auf eine Kennzahl öffnet den Tab "Mitglieder" mit der passenden Auswahl: "Aktive" mit allen aktiven Mitgliedern, die übrigen Kennzahlen mit dem gleichnamigen Tab über der Liste.
 
-![Kennzahlen Aktive, Zertifiziert, Läuft bald ab und In Rezertifizierung, darunter die Liste der zertifizierten Mitglieder](assets/course_planner_certification_programs_config_overview_v2_de.png){ class="shadow lightbox" title="Tab Übersicht eines Zertifikatsprogramms" }
+Darunter listet das Widget bis zu fünf zertifizierte Mitglieder mit den Spalten "Mitglied", "Saldo" (nur wenn das Zertifikatsprogramm Kreditpunkte verlangt) und "Gültig bis" (nur mit eingeschalteter Gültigkeit). Mit eingeschalteter Gültigkeit stehen die Mitglieder zuoberst, deren nächste Rezertifizierung zuerst fällig ist. Der Button "Alle anzeigen" öffnet die vollständige Liste im Tab "Mitglieder". Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+
+![Kennzahlen Aktive, Zertifiziert, Läuft bald ab und In Rezertifizierung, darunter die zertifizierten Mitglieder mit Saldo und Gültig bis und der Button Alle anzeigen](assets/course_planner_certification_programs_config_overview_v3_de.png){ class="shadow lightbox" title="Tab Übersicht eines Zertifikatsprogramms · 2026.10.07" }
 
 
 [Zum Seitenanfang ^](#certification_programs)
@@ -115,12 +117,15 @@ Beim Hinzufügen über den Assistenten "Neue Person zertifizieren" wird der aktu
 
 Wird eine zur Rezertifizierung geforderte Ausbildung/Massnahme nicht erfüllt, läuft ein Zertifikat ab und die betreffende Person scheidet automatisch aus dem Zertifikatsprogramm aus. Dies ist z.B. bei sicherheitsrelevanten Zertifizierungen oft ein notwendiger Automatismus.
 
-Aus dem Zertifikatsprogramm ausgeschiedene Personen sind unter einem separaten Button einsehbar. So können sie von Besitzer:innen eines Zertifikatsprogramms schnell identifiziert und kontaktiert werden.
+Die Kacheln "Aktive", "Kandidat:innen" und "Alumni" über der Liste wechseln zwischen den drei Gruppen. Unter "Alumni" finden Besitzer:innen eines Zertifikatsprogramms die ausgeschiedenen Personen, so können sie diese schnell identifizieren und kontaktieren.
 
-Unter den 3 Punkten am Ende einer Listenzeile besteht die Möglichkeit für die Zertifikatsprogrammbesitzer:innen mit der betreffenden Person Kontakt aufzunehmen.<br>
-Auch die Option zum Widerrufen ist hier zu finden. So können z.B. zu Unrecht automatisch ausgestellte Zertifikate manuell zurückgezogen werden.
+In der Liste der aktiven Mitglieder grenzen die Tabs "Alle", "Zertifiziert", "In Rezertifizierung", "Läuft bald ab" und "Unzureichende Kreditpunkte" die Liste ein. Ein Tab erscheint nur, wenn das Zertifikatsprogramm die zugehörige Einstellung nutzt: Gültigkeit, Rezertifizierung mit Zeitfenster oder Kreditpunkte. Die Spalte "Nächste Rezertifizierung" zeigt, wann eine Person ihr Zertifikat erneuern muss, die Spalte "Kreditpunktbestand", wie viele Kreditpunkte sie dafür hat.
 
-![Kacheln Aktive, Kandidat:innen und Alumni, Button Neue Person zertifizieren, Zeilenmenü mit Kontakt und Widerrufen](assets/course_planner_certification_programs_config_members_v2_de.png){ class="shadow lightbox" title="Tab Mitglieder eines Zertifikatsprogramms" }
+Unter den 3 Punkten am Ende einer Listenzeile stehen die Aktionen für die betreffende Person: "Kontakt", "Zertifikat erneuern" (nur mit eingeschalteter Rezertifizierung), "Zertifikat widerrufen", "Zertifikat exportieren" und "Druckzertifikat exportieren" (nur mit Druckversion). Mit "Zertifikat widerrufen" ziehen Sie zum Beispiel ein zu Unrecht automatisch ausgestelltes Zertifikat manuell zurück.
+
+Der Button "Zertifikat exportieren" über der Liste exportiert die Zertifikate der Personen in der Liste als PDF-Dateien. Ist die Druckversion eingeschaltet, enthält das Ausklappmenü daneben "Druckzertifikat exportieren".
+
+![Kacheln Aktive, Kandidat:innen und Alumni, Button Neue Person zertifizieren, Zeilenmenü mit Kontakt, Zertifikat erneuern, widerrufen und exportieren](assets/course_planner_certification_programs_config_members_v3_de.png){ class="shadow lightbox" title="Tab Mitglieder eines Zertifikatsprogramms · 2026.10.07" }
 
 #### Zertifikat-Status [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128){:target="_blank"} {: #certificate_status}
 
@@ -128,7 +133,7 @@ Nach einer Zertifizierung vieler Personen wollen Sie wissen, ob jedes Zertifikat
 
 OpenOlat stellt ein Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Das gilt für jeden Weg der Ausstellung, auch für den Assistenten "Neue Person zertifizieren" und die automatische Rezertifizierung. Seriennummer, Ausstellungsdatum und Gültigkeitsdauer stehen ab der Ausstellung fest, das Zertifikat ist gültig. Betroffen ist allein die PDF-Datei.
 
-Den Zertifikat-Status sehen Sie in der Detailansicht eines Mitglieds, die Sie mit dem Plus-Zeichen vor der Zeile aufklappen. Ist die PDF-Datei bereit, öffnen Sie sie in der Spalte "Zertifikat" mit einem Klick auf den Dateinamen. Fehlt sie noch, lässt sich der Dateiname nicht anklicken, und daneben steht einer dieser Vermerke:
+Den Zertifikat-Status sehen Sie in der Detailansicht eines Mitglieds, die Sie mit dem Plus-Zeichen vor der Zeile aufklappen. Wie die Detailansicht mit der Spalte "Zertifikat" aussieht, zeigt das Bild unter [Übersicht über ausgestellte Zertifikate >](#issued_certificates). Ist die PDF-Datei bereit, öffnen Sie sie in der Spalte "Zertifikat" mit einem Klick auf den Dateinamen. Fehlt sie noch, lässt sich der Dateiname nicht anklicken, und daneben steht einer dieser Vermerke:
 
 * **Hängig**: Die PDF-Datei wird erzeugt. Sie steht in der Regel nach kurzer Zeit bereit, bei vielen gleichzeitig ausgestellten Zertifikaten auch später.
 * **Fehler** mit dem Tooltip "Fehler, neuer Versuch folgt": Die Erzeugung ist gescheitert, und OpenOlat versucht es automatisch erneut. Sie müssen nichts tun.
@@ -165,10 +170,9 @@ Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren
 Durchführungen vom Typ Einzelkurs können auch direkt in der Durchführung mit dem Zertifikatsprogramm verknüpft werden: in den Einstellungen der Durchführung im Unter-Tab "Bewertung". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"}<br>
 [Mehr dazu >](Course_Planner_Implementations.de.md#tab_settings_assessment)
 
-![Verknüpfte Durchführung mit Typ, Ref., Teilnehmerzahl und Status, dazu der Button Durchführung hinzufügen](assets/course_planner_certification_programs_config_implementations_v2_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Zertifikatsprogramms" }
+![Verknüpfte Durchführung mit Typ, Zahl der Teilnehmer:innen, Spalte #Bestanden und Status, dazu der Button Durchführung hinzufügen](assets/course_planner_certification_programs_config_implementations_v3_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Zertifikatsprogramms · 2026.10.07" }
 
-Haben Sie mehrere Zertifikatsprogramme angelegt, können Sie gefilterte Listen anzeigen lassen:<br>
-Alle - Relevant - Abgebrochen - Beendet
+Die Liste zeigt je Durchführung unter anderem die Spalten "#Teilnehmer:innen" und "#Bestanden": Sie sehen, wie viele Personen teilnehmen und wie viele davon bestanden haben. Mit den Tabs "Alle", "Relevant", "Abgebrochen" und "Beendet" grenzen Sie die Liste ein.
 
 Mit **Klick auf das Plus-Zeichen** vor einem Listeneintrag zeigen Sie die Details dieser Durchführung an. (Bzw. Sie schliessen mit Klick auf das Minus-Zeichen die Details.) Im Bereich **Kurs** sehen Sie den verknüpften Kurs als Kachel, bei mehreren Kursen heisst der Bereich **Kurse**. Die Kachel zeigt den Titel und den technischen Typ des Kurses, den Zeitraum und den Stand der Teilnehmenden: den durchschnittlichen Fortschritt, wie viele Personen bestanden, nicht bestanden oder keine Angabe haben, die durchschnittlichen Punkte und die Zahl der Teilnehmer:innen.
 
@@ -202,7 +206,7 @@ In den Einstellungen definieren Sie,
 * wer administrativ auf dieses Zertifikatsprogramm zugreifen kann
 * wie lange das Zertifikat gültig ist
 * ob und wie eine Rezertifizierung erfolgt
-* ob und wieviele Kreditpunkte vergeben werden
+* ob und wie viele Kreditpunkte eine Rezertifizierung kostet
 * welches pdf-Zertifikat vergeben wird
 
 **Button "Metadaten"**<br>
@@ -211,14 +215,29 @@ In den Einstellungen definieren Sie,
 <br>
 
 **Button "Konfiguration"**<br>
-![Gültigkeitsdauer, Rezertifizierung mit Zeitfenster und Modus, Kreditpunktesystem und benötigte Kreditpunkte](assets/course_planner_certification_programs_config_settings_config_v2_de.png){ class="shadow lightbox" title="Bereich Konfiguration im Tab Einstellungen" }
+![Gültigkeitsdauer, Rezertifizierung mit Zeitfenster und Modus, Schalter für Kreditpunkte mit Kreditpunktesystem und benötigten Kreditpunkten](assets/course_planner_certification_programs_config_settings_config_v3_de.png){ class="shadow lightbox" title="Bereich Konfiguration im Tab Einstellungen · 2026.10.07" }
+
+Unter dem Button "Konfiguration" legen Sie fest, wie lange ein Zertifikat gilt und wie es danach erneuert wird. Im Abschnitt "Gültigkeit" schalten Sie "Gültigkeit" ein und setzen die "Gültigkeitsdauer". Erst mit einer Gültigkeit lässt sich im Abschnitt "Rezertifizierung" der Schalter "Rezertifizierung" einschalten. Danach stehen diese Einstellungen zur Verfügung:
+
+* **Zeitfenster für Rezertifizierung**: Wie lange Teilnehmer:innen nach Ablauf ihres Zertifikats Zeit haben, es zu erneuern. In dieser Zeit ist das Zertifikat abgelaufen, lässt sich aber noch erneuern.
+* **Modus "Automatisch"**: OpenOlat erneuert das Zertifikat selbst, sobald es abgelaufen ist, und zieht dafür die benötigten Kreditpunkte vom Guthaben der Person ab. Reicht das Guthaben bis zum Ende des Zeitfensters nicht, scheidet die Person aus dem Zertifikatsprogramm aus.
+* **Modus "Manuell"**: OpenOlat erneuert das Zertifikat nicht selbst. Besitzer:innen erneuern es im Tab "Mitglieder" unter den 3 Punkten am Ende der Zeile, oder die Person schliesst eine verknüpfte Durchführung erneut erfolgreich ab.
+* **Kreditpunkte für Rezertifizierung erforderlich**: Eine Erneuerung durch OpenOlat oder durch Besitzer:innen kostet die unter "Benötigte Kreditpunkte" eingetragene Zahl Kreditpunkte aus dem gewählten "Kreditpunktesystem". Reicht das Guthaben der Person nicht, ist keine Erneuerung möglich. Im Modus "Automatisch" ist dieser Schalter immer eingeschaltet und lässt sich nicht ausschalten, weil die automatische Erneuerung über Kreditpunkte läuft.
+
+Das erste Zertifikat kostet keine Kreditpunkte. Wer eine verknüpfte Durchführung erneut besteht, erhält das neue Zertifikat ebenfalls ohne Abzug.
 
 <br>
 
 **Button "Zertifikat"**<br>
-![Zertifikatvorlage, Schalter Mit Druckversion mit Druckvorlage, Seriennummer mit Format und Startwert des Zählers](assets/course_planner_certification_programs_config_settings_certificate_v3_de.png){ class="shadow lightbox" title="Bereich Zertifikat im Tab Einstellungen" }
+![Zertifikatvorlage mit Button Vorschau, Schalter Mit Druckversion mit Druckvorlage, Optionale Variable 1 bis 3, Seriennummer mit Format und Startwert des Zählers](assets/course_planner_certification_programs_config_settings_certificate_v4_de.png){ class="shadow lightbox" title="Bereich Zertifikat im Tab Einstellungen · 2026.10.07" }
 
-Unter dem Button "Zertifikat" legen Sie fest, welche Zertifikatsvorlage im Zertifikatsprogramm verwendet wird. Zusätzlich stehen folgende Optionen zur Verfügung:
+Unter dem Button "Zertifikat" legen Sie fest, welche Zertifikatsvorlage im Zertifikatsprogramm verwendet wird: eine systemweite Vorlage ("System") oder eine eigene Datei ("Eigenes"). Zusätzlich stehen folgende Optionen zur Verfügung:
+
+**Optionale Variablen**<br>
+In den Feldern "Optionale Variable 1" bis "Optionale Variable 3" hinterlegen Sie Angaben, die auf jedem Zertifikat dieses Zertifikatsprogramms gleich sind. Die Vorlage setzt sie an den Stellen der Variablen `$custom1` bis `$custom3` ein. [Mehr zu den Variablen in der Zertifikatsvorlage >](../learningresources/Course_Settings_Assessment_Certificate.de.md#certificate_variables)
+
+**Vorschau**<br>
+Der Button "Vorschau" neben der Vorlage erzeugt die PDF-Datei "Certificate_preview.pdf" mit Beispieldaten und den eingetragenen optionalen Variablen. So prüfen Sie Layout und Platzierung, bevor Sie das erste Zertifikat ausstellen.
 
 **Seriennummer**<br>
 
@@ -226,7 +245,7 @@ Mit der Option **"Mit Seriennummer"** erhält jedes ausgestellte Zertifikat auto
 
 <h4>Druckversion für vorgedrucktes Papier</h4>
 
-Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvorlage** für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Besitzer:innen des Zertifikatsprogramms können damit zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren**. Die Aktion steht im Tab "Mitglieder" zur Verfügung: für eine einzelne Person unter den 3 Punkten am Ende der Listenzeile oder in der Detailansicht, für mehrere Personen nach dem Markieren der Zeilen und für alle Personen unter "Weitere Aktionen". Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
+Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvorlage** für vorgedrucktes Papier [:octicons-tag-16:{ title="ab Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Besitzer:innen des Zertifikatsprogramms können damit zusätzlich zum Standard-Zertifikat ein **Druckzertifikat exportieren**. Die Aktion steht im Tab "Mitglieder" zur Verfügung: für eine einzelne Person unter den 3 Punkten am Ende der Listenzeile oder in der Detailansicht, für mehrere Personen nach dem Markieren der Zeilen und für alle Personen der Liste im Ausklappmenü neben dem Button "Zertifikat exportieren". Teilnehmende erhalten weiterhin nur das Standard-Zertifikat.
 
 
 
@@ -236,9 +255,11 @@ Mit der Option **"Mit Druckversion"** aktivieren Sie eine zusätzliche **Druckvo
 
 ### Tab Aktivitätslog [:octicons-tag-16:{ title="ab Release 20.3 (OO-9110)" }](https://track.frentix.com/issue/OO-9110){:target="_blank"} {: #config_tab_activitylog}
 
-In diesen Tab können Sie alle Aktivitäten im aktuellen Zertifikatsprogramm nachvollziehen. Verwenden Sie die Filter um gezielt in allen Aktivitäten zu suchen.
+Wollen Sie wissen, wer im Zertifikatsprogramm wann etwas geändert hat und wie der Wert vorher lautete, finden Sie die Antwort im Tab "Aktivitätslog". Jede Zeile nennt "Datum", "Kontext" (Durchführung, Mitglied, Meldung, Besitzer oder Einstellungen), "Objekt", "Aktivität" und die "Benutzer:in", die die Änderung vorgenommen hat. Bei einer Änderung zeigen die Spalten "Originalwert" und "Neuer Wert" den Wert vorher und nachher, so sehen Sie die Änderung selbst.
 
-![Protokoll der Aktivitäten mit Datum, Aktivität und ausführender Person, filterbar nach Zeitraum und Mitglied](assets/course_planner_certification_programs_config_activitylog_v1_de.png){ class="shadow lightbox" title="Tab Aktivitätslog eines Zertifikatsprogramms" }
+Die Tabs "Alle", "Letzte 7 Tage", "Letzte 4 Wochen" und "Letzte 12 Monate" grenzen den Zeitraum ein; beim Öffnen ist "Letzte 7 Tage" gewählt. Mit den Filtern "Kontext", "Aktivität", "Mitglied" und "Benutzer:in" suchen Sie gezielt. Im Tab "Alle" steht zusätzlich der Filter "Datum" zur Verfügung, in den übrigen Tabs legt der Tab den Zeitraum fest. Die Filterleiste klappen Sie mit dem Pfeil unter den Tabs auf und zu.
+
+![Protokoll mit den Spalten Kontext, Objekt, Aktivität, Originalwert, Neuer Wert und Benutzer:in, darüber die Filter](assets/course_planner_certification_programs_config_activitylog_v2_de.png){ class="shadow lightbox" title="Tab Aktivitätslog eines Zertifikatsprogramms · 2026.10.07" }
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -248,11 +269,11 @@ In diesen Tab können Sie alle Aktivitäten im aktuellen Zertifikatsprogramm nac
 ## Zertifikatsprogramm und Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.2 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #credit_points}
 
 **Kreditpunkte als Voraussetzung**<br>
-Wie bereits weiter oben erklärt, können Sie für eine Rezertifizierung zur Voraussetzung machen, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde. Wieviele Kreditpunkte für den Erwerb des Zertifikats erforderlich sind, wird eingestellt unter<br>
+Wie bereits weiter oben erklärt, können Sie für eine Rezertifizierung zur Voraussetzung machen, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde. Wieviele Kreditpunkte für eine Rezertifizierung erforderlich sind, wird eingestellt unter<br>
 `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Einstellungen > Button "Konfiguration"` 
 
 **Kreditpunkte als Zahlungsmittel**<br>
-Stellt das Zertifikatsprogramm ein Zertifikat aus, kann auch eine bestimmbare Anzahl Kreditpunkte vom Guthaben abgezogen werden. 
+Erneuert das Zertifikatsprogramm ein Zertifikat, zieht es die benötigten Kreditpunkte vom Guthaben der Person ab. Das erste Zertifikat kostet keine Kreditpunkte.
 
 
 [Zum Seitenanfang ^](#certification_programs)
@@ -266,10 +287,12 @@ Wer hat wann welches Zertifikat erhalten? Diese Frage stellen sich sowohl Besitz
 
 ### Übersicht für Zertifikatsprogrammbesitzer:innen 
 Im `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder` finden Sie alle Teilnehmenden des Zertifikatsprogramms aufgelistet. Durch **Klick auf das Plus-Zeichen** vor einem Listeneintrag öffnen Sie die Detailansicht.
-Sie sehen dort alle Zertifikate der gewählten Person, auch abgelaufene und archivierte Zertifikate. Fehlt die PDF-Datei eines Zertifikats noch, lässt sich der Dateiname nicht anklicken, und daneben steht der Vermerk "Hängig" oder "Fehler": [Zertifikat-Status >](#certificate_status)<br>
-Die Buttons über der Liste helfen Ihnen mit vorsortierten Listen.
+Die Tabelle "Zertifikate" zeigt dort alle Zertifikate der gewählten Person, auch abgelaufene und archivierte Zertifikate, mit den Spalten "Zertifikat", "Erstellt am", "Status", "Gültig bis", "Nächste Rezertifizierung", "Rezertifizierung Deadline" und "Widerrufen am". Fehlt die PDF-Datei eines Zertifikats noch, lässt sich der Dateiname nicht anklicken, und daneben steht der Vermerk "Hängig" oder "Fehler": [Zertifikat-Status >](#certificate_status)<br>
+Die Tabelle "Kurse" darunter zeigt je Kurs der verknüpften Durchführungen "Kennzeichen", "Fortschritt", "Punkte" und "Bestanden" der Person.
 
-![Aufgeklapptes Mitglied mit allen Zertifikaten, auch abgelaufenen und archivierten, und den zugehörigen Kursen](assets/course_planner_certification_programs_issued_certificates_cp_owner_v1_de.png){ class="shadow lightbox" title="Detailansicht im Tab Mitglieder" }
+Die Kacheln "Aktive", "Kandidat:innen" und "Alumni" und die Tabs über der Liste grenzen die Liste auf eine Gruppe ein: [Tab Mitglieder >](#config_tab_members)
+
+![Aufgeklapptes Mitglied mit allen Zertifikaten, auch archivierten, in der Spalte Zertifikat die PDF-Dateien, darunter die zugehörigen Kurse](assets/course_planner_certification_programs_issued_certificates_cp_owner_v2_de.png){ class="shadow lightbox" title="Detailansicht im Tab Mitglieder · 2026.10.07" }
 
 
 ### Übersicht für Betreuer:innen
@@ -312,7 +335,7 @@ Besitzer:innen des Zertifikatsprogramms können ein noch gültiges Zertifikat je
 `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Mitglieder > Mitglied wählen > 3 Punkte`
 
 **Rezertifizierungszeitraum**<br>
-Die Möglichkeit zur Rezertifizierung durch Teilnehmer:innen kann von den Besitzer:innen des Zertifikatsprogramms sinnvollerweise schon vor Ablauf des Zertifikats gegeben werden. In diesem Zusammenhang können auch entsprechende Informationen und Erinnerungen automatisch verschickt werden.<br>
+Mit dem Zeitfenster für Rezertifizierung legen Besitzer:innen des Zertifikatsprogramms fest, wie lange Teilnehmer:innen nach Ablauf ihres Zertifikats Zeit haben, es zu erneuern. Passende Informationen und Erinnerungen verschickt OpenOlat automatisch, eingerichtet im Tab "Meldungen".<br>
 `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab Einstellungen > Button Konfiguration > Abschnitt Rezertifizierung`
 
 [Zum Seitenanfang ^](#certification_programs)
@@ -333,7 +356,7 @@ Ausserdem haben auch Benutzer:innen mit den Rollen "Administrator:in" und "Kursp
 
 !!! info "Wichtig"
 
-    Wenn Kreditpunkte für den Erwerb eines Zertifikats gezahlt werden müssen, zieht es auch bei manueller Zertifikatserteilung Kreditpunkte ab.
+    Verlangt das Zertifikatsprogramm Kreditpunkte für die Rezertifizierung, zieht OpenOlat sie auch ab, wenn Besitzer:innen ein Zertifikat manuell erneuern.
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -366,12 +389,12 @@ Wird eine Teilnehmer:in in der Benutzerverwaltung ausgewählt, befindet sich dor
 **Auf dieser Seite erwähnt**<br>
 [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen? >](../../manual_how-to/certification_programs/certification_programs.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
-[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [e-Assessment Administration: Zertifikate >](../../manual_admin/administration/e-Assessment_Certificates.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../personal_menu/Certificates.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)
 
